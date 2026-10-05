@@ -182,7 +182,9 @@ data.
 
 **Standard deviation:** a measure of the average distance of each data point from the mean:
 
-$$s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n - 1}}$$
+$$
+s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n - 1}}
+$$
 
 Where $s$ is the sample standard deviation, $x_i$ are individual data points, $\bar{x}$ is the
 sample mean, and $n$ is the sample size. A low standard deviation indicates that data points are
@@ -198,7 +200,9 @@ and to test hypotheses about relationships between variables.
 **Spearman"s Rank Correlation Coefficient ($r_s$).** A non-parametric test that measures the
 strength and direction of the association between two ranked variables. The formula is:
 
-$$r_s = 1 - \frac{6 \sum{d_i^2}}{n(n^2 - 1)}$$
+$$
+r_s = 1 - \frac{6 \sum{d_i^2}}{n(n^2 - 1)}
+$$
 
 Where $d_i$ is the difference between the ranks of the two variables for the $i$-th observation, and
 $n$ is the sample size. The value of $r_s$ ranges from $-1$ (perfect negative correlation) to $+1$
@@ -214,12 +218,16 @@ is rejected.
 in a contingency table differ significantly from expected frequencies (which would occur if there
 were no association between the variables).
 
-$$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
+$$
+\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
+$$
 
 Where $O_i$ is the observed frequency and $E_i$ is the expected frequency for each cell. The
 expected frequency for each cell is:
 
-$$E_i = \frac{(\mathrm{row\ total}) \times (\mathrm{column\ total})}{\mathrm{grand\ total}}$$
+$$
+E_i = \frac{(\mathrm{row\ total}) \times (\mathrm{column\ total})}{\mathrm{grand\ total}}
+$$
 
 Compare the calculated $\chi^2$ value to the critical value from a chi-squared table at the
 appropriate degrees of freedom ($\mathrm{df} = (r - 1)(c - 1)$Where $r$ is the number of rows and
@@ -238,9 +246,13 @@ is used when data are ordinal or when the assumption of normality is not met.
 The test statistic $U$ is calculated by ranking all observations from both samples together, then
 computing:
 
-$$U_1 = n_1 n_2 + \frac{n_1(n_1 + 1)}{2} - R_1$$
+$$
+U_1 = n_1 n_2 + \frac{n_1(n_1 + 1)}{2} - R_1
+$$
 
-$$U_2 = n_1 n_2 + \frac{n_2(n_2 + 1)}{2} - R_2$$
+$$
+U_2 = n_1 n_2 + \frac{n_2(n_2 + 1)}{2} - R_2
+$$
 
 Where $n_1$ and $n_2$ are the sample sizes, and $R_1$ and $R_2$ are the sum of ranks for each
 sample. The test uses the smaller of $U_1$ and $U_2$. Compare this value to the critical value at
@@ -424,7 +436,9 @@ light, infrared, microwave) reflected or emitted by Earth's surface and atmosphe
 NDVI is a widely used indicator of vegetation density and health, calculated from the near-infrared
 (NIR) and red (RED) bands of a multispectral satellite image:
 
-$$\mathrm{NDVI} = \frac{\mathrm{NIR} - \mathrm{RED}}{\mathrm{NIR} + \mathrm{RED}}$$
+$$
+\mathrm{NDVI} = \frac{\mathrm{NIR} - \mathrm{RED}}{\mathrm{NIR} + \mathrm{RED}}
+$$
 
 Healthy vegetation strongly reflects near-infrared light and absorbs red light (for photosynthesis),
 yielding NDVI values close to $+1$. Bare soil, rock, and built-up surfaces yield NDVI values close

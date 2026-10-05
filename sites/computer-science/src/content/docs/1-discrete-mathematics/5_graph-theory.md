@@ -64,7 +64,9 @@ A graph is **planar** if it can be drawn in the plane with no edge crossings.
 **Theorem 5.5 (Euler's Formula for Planar Graphs).** For a connected planar graph drawn in the plane
 With $V$ vertices, $E$ edges, and $F$ faces:
 
-$$V - E + F = 2$$
+$$
+V - E + F = 2
+$$
 
 _Proof sketch._ Build the graph edge by edge. Starting from a single vertex ($V = 1$, $E = 0$,
 $F = 1$), The quantity $V - E + F = 2$ is preserved when adding an edge: if the edge connects two
@@ -127,7 +129,9 @@ $k$-colourings of $G$.
 
 **Deletion-contraction recurrence.** For any edge $e$ of $G$:
 
-$$P(G, k) = P(G - e, k) - P(G / e, k)$$
+$$
+P(G, k) = P(G - e, k) - P(G / e, k)
+$$
 
 Where $G - e$ is $G$ with edge $e$ deleted, and $G / e$ is $G$ with $e$ contracted (its endpoints
 Merged).
@@ -274,7 +278,9 @@ Endpoint). A vertex is **matched** if it is an endpoint of an edge in $M$; other
 Partitions $X$ and $Y$. There exists a matching that covers every vertex in $X$ if and only if for
 Every subset $S \subseteq X$
 
-$$|N(S)| \geq |S|$$
+$$
+|N(S)| \geq |S|
+$$
 
 Where $N(S) = \\{y \in Y : \exists\, x \in S\; \mathrm{with{}\; xy \in E\\}$ is the neighbourhood of
 $S$.
@@ -296,7 +302,9 @@ _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. M
 By the induction hypothesis. In $G'' = G - (T \cup N(T))$For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
-$$|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|$$
+$$
+|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|
+$$
 
 Where the inequality uses Hall's condition on $S \cup T$ in $G$. By the induction hypothesis,
 $X \setminus T$ can be matched in $G''$. Combining with the matching on $T$ gives the result.

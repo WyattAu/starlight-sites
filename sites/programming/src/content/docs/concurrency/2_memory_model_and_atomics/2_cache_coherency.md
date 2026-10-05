@@ -73,9 +73,13 @@ Machine:
 - **S:** No change.
 - **I:** No action.
 
-$$\mathrm{E \xrightarrow{\mathrm{write} \mathrm{M \quad \mathrm{S \xrightarrow{\mathrm{write request} \mathrm{RFO \to \mathrm{I \to \mathrm{M$$
+$$
+\mathrm{E \xrightarrow{\mathrm{write} \mathrm{M \quad \mathrm{S \xrightarrow{\mathrm{write request} \mathrm{RFO \to \mathrm{I \to \mathrm{M
+$$
 
-$$\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write-back \to \mathrm{S \quad \mathrm{I \xrightarrow{\mathrm{read miss} \mathrm{load \to \mathrm{S or E$$
+$$
+\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write-back \to \mathrm{S \quad \mathrm{I \xrightarrow{\mathrm{read miss} \mathrm{load \to \mathrm{S or E
+$$
 
 ### Formal State Transition Table
 
@@ -175,7 +179,9 @@ The cost of an invalidation depends on the cache hierarchy level at which the li
 Same cache line ( 64 bytes). Even though the variables are logically independent, the Hardware
 treats them as a single unit for coherence purposes.
 
-$$\mathrm{False Sharing:  \mathrm{var_1 \in \mathrm{line_L \wedge \mathrm{var_2 \in \mathrm{line_L \wedge \mathrm{thread_1 \mathrm{ writes  \mathrm{var_1 \wedge \mathrm{thread_2 \mathrm{ writes  \mathrm{var_2$$
+$$
+\mathrm{False Sharing:  \mathrm{var_1 \in \mathrm{line_L \wedge \mathrm{var_2 \in \mathrm{line_L \wedge \mathrm{thread_1 \mathrm{ writes  \mathrm{var_1 \wedge \mathrm{thread_2 \mathrm{ writes  \mathrm{var_2
+$$
 
 Each write by one thread invalidates the cache line for the other thread, causing repeated cache
 Misses and coherence traffic. Performance can degrade by orders of magnitude compared to the

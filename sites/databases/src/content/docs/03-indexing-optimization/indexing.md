@@ -73,9 +73,13 @@ B+ Tree (all data in leaves, leaves linked):
 
 For a B+ tree with fan-out $f$ (number of children per internal node) and height $h$:
 
-$$\mathrm{Max entries = f^h$$
+$$
+\mathrm{Max entries = f^h
+$$
 
-$$\mathrm{Height = \lceil \log_f N \rceil$$
+$$
+\mathrm{Height = \lceil \log_f N \rceil
+$$
 
 In practice:
 

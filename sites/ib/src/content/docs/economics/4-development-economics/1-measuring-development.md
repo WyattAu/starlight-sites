@@ -64,7 +64,9 @@ The Lorenz curve plots the cumulative share of income received by the cumulative
 Population, ordered from poorest to richest. The further the Lorenz curve deviates from the
 45-degree line of perfect equality, the greater the inequality.
 
-$$\mathrm{Gini coefficient} = \frac{A}{A + B}$$
+$$
+\mathrm{Gini coefficient} = \frac{A}{A + B}
+$$
 
 Where $A$ is the area between the line of equality and the Lorenz curve, and $B$ is the area under
 The Lorenz curve.
@@ -241,7 +243,9 @@ moderate income levels.
 The GDI adjusts the HDI for gender disparities. It is calculated as the ratio of female HDI to Male
 HDI, adjusted by the overall HDI level:
 
-$$\text{GDI} = \frac{\text{HDI}_{\text{female}} + \text{HDI}_{\text{male}}}{2} - \frac{|\text{HDI}_{\text{female}} - \text{HDI}_{\text{male}}|}{2}$$
+$$
+\text{GDI} = \frac{\text{HDI}_{\text{female}} + \text{HDI}_{\text{male}}}{2} - \frac{|\text{HDI}_{\text{female}} - \text{HDI}_{\text{male}}|}{2}
+$$
 
 A GDI close to 1.0 indicates near gender parity. A GDI significantly below 1.0 indicates that One
 gender ( female) has substantially lower human development.
@@ -551,7 +555,9 @@ Country R has the following sectoral employment data:
 (b) Calculate the rate of structural change between 1980 and 2020 using the structure of Production
 indicator:
 
-$$\text{Structural change index} = \frac{1}{2} \sum_{i=1}^{n} |s_{i,t} - s_{i,0}|$$
+$$
+\text{Structural change index} = \frac{1}{2} \sum_{i=1}^{n} |s_{i,t} - s_{i,0}|
+$$
 
 (c) Explain why the share of industry employment peaked and then declined.
 
@@ -569,7 +575,9 @@ capita increases substantially.
 
 (b) Structural change index between 1980 and 2020:
 
-$$\text{Index} = \frac{1}{2}(|22 - 70| + |20 - 10| + |58 - 20|) = \frac{1}{2}(48 + 10 + 38) = \frac{96}{2} = 48$$
+$$
+\text{Index} = \frac{1}{2}(|22 - 70| + |20 - 10| + |58 - 20|) = \frac{1}{2}(48 + 10 + 38) = \frac{96}{2} = 48
+$$
 
 The structural change index is 48 percentage points, indicating substantial transformation over 40
 years.
@@ -797,7 +805,9 @@ but ambiguous or negative macro-level impacts (aid does not correlate with growt
 The **Environmental Kuznets Curve (EKC)** hypothesises an inverted-U relationship between
 Environmental degradation and income per capita:
 
-$$\text{Pollution} = \alpha + \beta_1 Y + \beta_2 Y^2 + \epsilon$$
+$$
+\text{Pollution} = \alpha + \beta_1 Y + \beta_2 Y^2 + \epsilon
+$$
 
 Where $Y$ is GDP per capita. The turning point is at $Y^* = -\beta_1/(2\beta_2)$.
 
@@ -917,7 +927,9 @@ investment rate.
 
 Jacob Mincer (1974) estimated the relationship between education, experience, and earnings:
 
-$$\ln w = \beta_0 + \beta_1 S + \beta_2 E + \beta_3 E^2 + \epsilon$$
+$$
+\ln w = \beta_0 + \beta_1 S + \beta_2 E + \beta_3 E^2 + \epsilon
+$$
 
 Where:
 
@@ -975,7 +987,9 @@ Source: Psacharopoulos and Patrinos (2018)
 
 Mankiw, Romer, and Weil (1992) augmented the Solow growth model with human capital:
 
-$$Y = K^{\alpha} H^{\beta}(AL)^{1-\alpha-\beta}$$
+$$
+Y = K^{\alpha} H^{\beta}(AL)^{1-\alpha-\beta}
+$$
 
 Where $H$ is the stock of human capital.
 

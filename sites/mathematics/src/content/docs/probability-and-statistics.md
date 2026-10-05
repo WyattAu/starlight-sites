@@ -73,7 +73,9 @@ by** $\mathcal{E}$Denoted $\sigma(\mathcal{E})$.
 2. **Normalisation**: $P(\Omega) = 1$.
 3. **Countable additivity**: If $A_1, A_2, \ldots$ are pairwise disjoint events, then
 
-$$P\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i)$$
+$$
+P\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i)
+$$
 
 ### 1.4 Basic Properties
 
@@ -91,7 +93,9 @@ $P(B) = P(A) + P(B \setminus A) \geq P(A)$ since $P(B \setminus A) \geq 0$. $\bl
 
 **Proposition 1.4 (Inclusion-Exclusion).** For any two events $A, B$:
 
-$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+$$
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+$$
 
 _Proof._ Write $A \cup B = A \cup (B \setminus A)$ as a disjoint union. Then
 $P(A \cup B) = P(A) + P(B \setminus A)$. Since $B = (B \setminus A) \cup (A \cap B)$ is also
@@ -100,17 +104,23 @@ Substituting gives the Result. $\blacksquare$
 
 **Proposition 1.5 (General Inclusion-Exclusion).** For events $A_1, \ldots, A_n$:
 
-$$P\left(\bigcup_{i=1}^n A_i\right) = \sum_{i} P(A_i) - \sum_{i \lt j} P(A_i \cap A_j) + \sum_{i \lt j \lt k} P(A_i \cap A_j \cap A_k) - \cdots + (-1)^{n+1} P(A_1 \cap \cdots \cap A_n)$$
+$$
+P\left(\bigcup_{i=1}^n A_i\right) = \sum_{i} P(A_i) - \sum_{i \lt j} P(A_i \cap A_j) + \sum_{i \lt j \lt k} P(A_i \cap A_j \cap A_k) - \cdots + (-1)^{n+1} P(A_1 \cap \cdots \cap A_n)
+$$
 
 **Proposition 1.6 (Boole's Inequality).** $P(A \cup B) \leq P(A) + P(B)$. More generally,
 
-$$P\left(\bigcup_{i=1}^n A_i\right) \leq \sum_{i=1}^n P(A_i)$$
+$$
+P\left(\bigcup_{i=1}^n A_i\right) \leq \sum_{i=1}^n P(A_i)
+$$
 
 ### 1.5 Conditional Probability
 
 **Definition.** The **conditional probability** of $A$ given $B$ (where $P(B) \gt 0$) is
 
-$$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
+$$
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}
+$$
 
 _Intuition._ Conditioning on $B$ restricts the sample space to $B$ and rescales so that
 $P(B \mid B) = 1$.
@@ -118,22 +128,30 @@ $P(B \mid B) = 1$.
 **Theorem 1.1 (Law of Total Probability).** If $B_1, \ldots, B_n$ partition $\Omega$ with
 $P(B_i) \gt 0$:
 
-$$P(A) = \sum_{i=1}^n P(A \mid B_i) P(B_i)$$
+$$
+P(A) = \sum_{i=1}^n P(A \mid B_i) P(B_i)
+$$
 
 _Proof._ Since $B_1, \ldots, B_n$ partition $\Omega$We have $A = \bigcup_{i=1}^n (A \cap B_i)$
 (disjoint union). By countable additivity:
 
-$$P(A) = \sum_{i=1}^n P(A \cap B_i) = \sum_{i=1}^n P(A \mid B_i)\, P(B_i)$$
+$$
+P(A) = \sum_{i=1}^n P(A \cap B_i) = \sum_{i=1}^n P(A \mid B_i)\, P(B_i)
+$$
 
 $\blacksquare$
 
 **Theorem 1.2 (Bayes' Theorem).** For events $A$ and $B$ with $P(B) \gt 0$:
 
-$$P(A \mid B) = \frac{P(B \mid A) P(A)}{P(B)}$$
+$$
+P(A \mid B) = \frac{P(B \mid A) P(A)}{P(B)}
+$$
 
 In the partition form:
 
-$$P(B_j \mid A) = \frac{P(A \mid B_j) P(B_j)}{\sum_{i=1}^n P(A \mid B_i) P(B_i)}$$
+$$
+P(B_j \mid A) = \frac{P(A \mid B_j) P(B_j)}{\sum_{i=1}^n P(A \mid B_i) P(B_i)}
+$$
 
 _Proof._ By definition, $P(A \mid B) = P(A \cap B)/P(B)$ and $P(B \mid A) = P(A \cap B)/P(A)$.
 Solving the Second for $P(A \cap B) = P(B \mid A) P(A)$ and substituting into the first gives Bayes'
@@ -150,7 +168,9 @@ What is the Probability that both are red?
 
 Let $R_1$ be the event "first marble is red" and $R_2$ be "second marble is red." Then:
 
-$$P(R_1 \cap R_2) = P(R_1)\, P(R_2 \mid R_1) = \frac{4}{10} \cdot \frac{3}{9} = \frac{12}{90} = \frac{2}{15}$$
+$$
+P(R_1 \cap R_2) = P(R_1)\, P(R_2 \mid R_1) = \frac{4}{10} \cdot \frac{3}{9} = \frac{12}{90} = \frac{2}{15}
+$$
 
 </details>
 
@@ -166,9 +186,13 @@ Let $D$ = "has disease" and $+$ = "tests positive." We want $P(D \mid +)$.
 
 By Bayes' theorem:
 
-$$P(D \mid +) = \frac{P(+ \mid D)\, P(D)}{P(+ \mid D)\, P(D) + P(+ \mid D^c)\, P(D^c)}$$
+$$
+P(D \mid +) = \frac{P(+ \mid D)\, P(D)}{P(+ \mid D)\, P(D) + P(+ \mid D^c)\, P(D^c)}
+$$
 
-$$= \frac{0.95 \times 0.01}{0.95 \times 0.01 + 0.10 \times 0.99} = \frac{0.0095}{0.0095 + 0.099} = \frac{0.0095}{0.1085} \approx 0.0876$$
+$$
+= \frac{0.95 \times 0.01}{0.95 \times 0.01 + 0.10 \times 0.99} = \frac{0.0095}{0.0095 + 0.099} = \frac{0.0095}{0.1085} \approx 0.0876
+$$
 
 So even with a positive test, there is only about an 8.8% chance of having the disease, due to the
 low prior Probability (base rate fallacy). $\blacksquare$
@@ -177,12 +201,16 @@ low prior Probability (base rate fallacy). $\blacksquare$
 
 **Proposition 1.7 (General Inclusion-Exclusion).** For events $A_1, \ldots, A_n$:
 
-$$P\left(\bigcup_{i=1}^n A_i\right) = \sum_{k=1}^n (-1)^{k+1} \sum_{1 \leq i_1 \lt \cdots \lt i_k \leq n} P(A_{i_1} \cap \cdots \cap A_{i_k})$$
+$$
+P\left(\bigcup_{i=1}^n A_i\right) = \sum_{k=1}^n (-1)^{k+1} \sum_{1 \leq i_1 \lt \cdots \lt i_k \leq n} P(A_{i_1} \cap \cdots \cap A_{i_k})
+$$
 
 _Proof._ By induction on $n$. The base case $n = 1$ is trivial. Assume the result holds for $n$
 events. For $n + 1$ Events:
 
-$$P\left(\bigcup_{i=1}^{n+1} A_i\right) = P\left(\bigcup_{i=1}^n A_i\right) + P(A_{n+1}) - P\left(\bigcup_{i=1}^n A_i \cap A_{n+1}\right)$$
+$$
+P\left(\bigcup_{i=1}^{n+1} A_i\right) = P\left(\bigcup_{i=1}^n A_i\right) + P(A_{n+1}) - P\left(\bigcup_{i=1}^n A_i \cap A_{n+1}\right)
+$$
 
 Applying the induction hypothesis to both union terms and rearranging yields the formula for
 $n + 1$. $\blacksquare$
@@ -199,9 +227,13 @@ Let $D$ = "defective" and $A$, $B$, $C$ denote production by each machine.
 $P(A) = 0.5$, $P(B) = 0.3$, $P(C) = 0.2$. $P(D \mid A) = 0.02$, $P(D \mid B) = 0.01$,
 $P(D \mid C) = 0.03$.
 
-$$P(A \mid D) = \frac{P(D \mid A)\, P(A)}{P(D \mid A)\, P(A) + P(D \mid B)\, P(B) + P(D \mid C)\, P(C)}$$
+$$
+P(A \mid D) = \frac{P(D \mid A)\, P(A)}{P(D \mid A)\, P(A) + P(D \mid B)\, P(B) + P(D \mid C)\, P(C)}
+$$
 
-$$= \frac{0.02 \times 0.5}{0.02 \times 0.5 + 0.01 \times 0.3 + 0.03 \times 0.2} = \frac{0.010}{0.010 + 0.003 + 0.006} = \frac{0.010}{0.019} \approx 0.526$$
+$$
+= \frac{0.02 \times 0.5}{0.02 \times 0.5 + 0.01 \times 0.3 + 0.03 \times 0.2} = \frac{0.010}{0.010 + 0.003 + 0.006} = \frac{0.010}{0.019} \approx 0.526
+$$
 
 </details>
 
@@ -240,7 +272,9 @@ $X$ has an atom at 0 And a continuous part on $(0, \infty)$.
 
 The **CDF** of a random variable $X$ is
 
-$$F_X(x) = P(X \leq x)$$
+$$
+F_X(x) = P(X \leq x)
+$$
 
 **Theorem 2.1 (Properties of the CDF).**
 
@@ -272,7 +306,9 @@ all jumps must Be bounded by 1). $\blacksquare$
 
 For a discrete random variable $X$ with values $\{x_1, x_2, \ldots\}$:
 
-$$f_X(x) = P(X = x) = \begin{cases} p_i & \mathrm{if}  x = x_i \\ 0 & \mathrm{otherwise} \end{cases}$$
+$$
+f_X(x) = P(X = x) = \begin{cases} p_i & \mathrm{if}  x = x_i \\ 0 & \mathrm{otherwise} \end{cases}
+$$
 
 Where $p_i \geq 0$ and $\sum_i p_i = 1$.
 
@@ -280,7 +316,9 @@ Where $p_i \geq 0$ and $\sum_i p_i = 1$.
 
 A random variable $X$ is continuous if there exists a function $f_X \geq 0$ such that
 
-$$P(a \leq X \leq b) = \int_a^b f_X(x)\, dx$$
+$$
+P(a \leq X \leq b) = \int_a^b f_X(x)\, dx
+$$
 
 And $\int_{-\infty}^{\infty} f_X(x)\, dx = 1$.
 
@@ -292,7 +330,9 @@ For any individual $x$.
 **Proposition 2.1.** If $X$ is a continuous random variable with PDF $f_X$ and $g$ is a strictly
 monotone Differentiable function, then $Y = g(X)$ has PDF
 
-$$f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|$$
+$$
+f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|
+$$
 
 _Proof._ Suppose $g$ is strictly increasing. Then
 $F_Y(y) = P(Y \leq y) = P(X \leq g^{-1}(y)) = F_X(g^{-1}(y))$. Differentiating:
@@ -307,7 +347,9 @@ a minus sign. Both cases are captured by the absolute value. $\blacksquare$
 Here $g(x) = -\ln x$Which is strictly decreasing on $(0, 1)$. The inverse is $g^{-1}(y) = e^{-y}$
 for $y \gt 0$. We have $(g^{-1})'(y) = -e^{-y}$.
 
-$$f_Y(y) = f_X(e^{-y}) \cdot |-e^{-y}| = 1 \cdot e^{-y} = e^{-y}, \quad y \gt 0$$
+$$
+f_Y(y) = f_X(e^{-y}) \cdot |-e^{-y}| = 1 \cdot e^{-y} = e^{-y}, \quad y \gt 0
+$$
 
 This is the $\mathrm{Exp}(1)$ distribution. $\blacksquare$
 
@@ -322,11 +364,15 @@ The function $g(x) = x^2$ is not monotone, so we must split into cases.
 
 For $y \gt 0$:
 
-$$F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1$$
+$$
+F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1
+$$
 
 Differentiating:
 
-$$f_Y(y) = 2 \cdot \phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{y}} \cdot \frac{1}{\sqrt{2\pi}} e^{-y/2} = \frac{1}{\sqrt{2\pi y}} e^{-y/2}$$
+$$
+f_Y(y) = 2 \cdot \phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{y}} \cdot \frac{1}{\sqrt{2\pi}} e^{-y/2} = \frac{1}{\sqrt{2\pi y}} e^{-y/2}
+$$
 
 This is the PDF of a $\chi^2_1$ (chi-squared with 1 degree of freedom) distribution, which equals
 $\mathrm{Gamma}(1/2, 1/2)$. $\blacksquare$
@@ -337,7 +383,9 @@ $\mathrm{Gamma}(1/2, 1/2)$. $\blacksquare$
 
 **Definition.** The **quantile function** (or inverse CDF) of a random variable $X$ with CDF $F$ is
 
-$$F^{-1}(p) = \inf\{x : F(x) \geq p\}, \quad 0 \lt p \lt 1$$
+$$
+F^{-1}(p) = \inf\{x : F(x) \geq p\}, \quad 0 \lt p \lt 1
+$$
 
 _Remark._ If $F$ is strictly increasing, then $F^{-1}(p)$ is the unique $x$ such that $F(x) = p$.
 For discrete Distributions, $F^{-1}$ is the generalised inverse.
@@ -358,13 +406,17 @@ $X_{(1)} \leq X_{(2)} \leq \cdots \leq X_{(n)}$ are the sorted values.
 
 **Theorem 2.3.** The PDF of the $k$-th order statistic $X_{(k)}$ is
 
-$$f_{X_{(k)}}(x) = \frac{n!}{(k-1)!(n-k)!}\, [F(x)]^{k-1}\, [1 - F(x)]^{n-k}\, f(x)$$
+$$
+f_{X_{(k)}}(x) = \frac{n!}{(k-1)!(n-k)!}\, [F(x)]^{k-1}\, [1 - F(x)]^{n-k}\, f(x)
+$$
 
 _Proof._ For $X_{(k)} \leq x$ to hold, at least $k$ of the $X_i$ must be $\leq x$. The event
 $X_{(k)} \in (x, x + dx)$ Requires exactly $k - 1$ observations below $x$One in $(x, x + dx)$ And
 $n - k$ above $x + dx$:
 
-$$f_{X_{(k)}}(x)\, dx = \binom{n}{k-1, 1, n-k}\, [F(x)]^{k-1}\, f(x)\, dx\, [1 - F(x)]^{n-k}$$
+$$
+f_{X_{(k)}}(x)\, dx = \binom{n}{k-1, 1, n-k}\, [F(x)]^{k-1}\, f(x)\, dx\, [1 - F(x)]^{n-k}
+$$
 
 Which gives the result after cancelling $dx$. $\blacksquare$
 
@@ -376,7 +428,9 @@ $X_{(2)}$.
 
 Here $n = 3$, $k = 2$, $F(x) = x$, $f(x) = 1$ on $(0, 1)$.
 
-$$f_{X_{(2)}}(x) = \frac{3!}{1! \cdot 1!}\, x^{1}\, (1 - x)^{1} \cdot 1 = 6x(1 - x), \quad 0 \lt x \lt 1$$
+$$
+f_{X_{(2)}}(x) = \frac{3!}{1! \cdot 1!}\, x^{1}\, (1 - x)^{1} \cdot 1 = 6x(1 - x), \quad 0 \lt x \lt 1
+$$
 
 This is a $\mathrm{Beta}(2, 2)$ distribution. $\blacksquare$
 
@@ -388,73 +442,111 @@ This is a $\mathrm{Beta}(2, 2)$ distribution. $\blacksquare$
 
 **Bernoulli.** $X \sim \mathrm{Bernoulli}(p)$: $P(X = 1) = p$, $P(X = 0) = 1 - p$.
 
-$$E[X] = p, \quad \mathrm{Var}(X) = p(1 - p)$$
+$$
+E[X] = p, \quad \mathrm{Var}(X) = p(1 - p)
+$$
 
-$$M_X(t) = 1 - p + pe^t$$
+$$
+M_X(t) = 1 - p + pe^t
+$$
 
 _Proof of MGF:_ $M_X(t) = E[e^{tX}] = e^{t \cdot 0}(1 - p) + e^{t \cdot 1} \cdot p = 1 - p + pe^t$.
 $\blacksquare$
 
 **Binomial.** $X \sim \mathrm{Bin}(n, p)$: number of successes in $n$ independent Bernoulli trials.
 
-$$P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}, \quad k = 0, 1, \ldots, n$$
+$$
+P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}, \quad k = 0, 1, \ldots, n
+$$
 
-$$E[X] = np, \quad \mathrm{Var}(X) = np(1-p)$$
+$$
+E[X] = np, \quad \mathrm{Var}(X) = np(1-p)
+$$
 
-$$M_X(t) = (1 - p + pe^t)^n$$
+$$
+M_X(t) = (1 - p + pe^t)^n
+$$
 
 _Proof of MGF:_ Since $X = \sum_{i=1}^n X_i$ where $X_i \sim \mathrm{Bernoulli}(p)$ are independent:
 
-$$M_X(t) = \prod_{i=1}^n M_{X_i}(t) = (1 - p + pe^t)^n \quad \blacksquare$$
+$$
+M_X(t) = \prod_{i=1}^n M_{X_i}(t) = (1 - p + pe^t)^n \quad \blacksquare
+$$
 
 **Geometric.** $X \sim \mathrm{Geom}(p)$: number of trials until the first success (counting the
 success).
 
-$$P(X = k) = (1 - p)^{k-1} p, \quad k = 1, 2, 3, \ldots$$
+$$
+P(X = k) = (1 - p)^{k-1} p, \quad k = 1, 2, 3, \ldots
+$$
 
-$$E[X] = \frac{1}{p}, \quad \mathrm{Var}(X) = \frac{1 - p}{p^2}$$
+$$
+E[X] = \frac{1}{p}, \quad \mathrm{Var}(X) = \frac{1 - p}{p^2}
+$$
 
-$$M_X(t) = \frac{pe^t}{1 - (1 - p)e^t}, \quad \mathrm{for}  t \lt -\ln(1 - p)$$
+$$
+M_X(t) = \frac{pe^t}{1 - (1 - p)e^t}, \quad \mathrm{for}  t \lt -\ln(1 - p)
+$$
 
 _Proof that $E[X] = 1/p$:_
 
-$$E[X] = \sum_{k=1}^{\infty} k(1-p)^{k-1}p = p \sum_{k=1}^{\infty} k(1-p)^{k-1} = p \cdot \frac{1}{(1 - (1-p))^2} = \frac{p}{p^2} = \frac{1}{p}$$
+$$
+E[X] = \sum_{k=1}^{\infty} k(1-p)^{k-1}p = p \sum_{k=1}^{\infty} k(1-p)^{k-1} = p \cdot \frac{1}{(1 - (1-p))^2} = \frac{p}{p^2} = \frac{1}{p}
+$$
 
 Using the identity $\sum_{k=1}^{\infty} kr^{k-1} = 1/(1-r)^2$ for $|r| \lt 1$. $\blacksquare$
 
 **Negative Binomial.** $X \sim \mathrm{NegBin}(r, p)$: number of trials until the $r$-th success.
 
-$$P(X = k) = \binom{k-1}{r-1} p^r (1-p)^{k-r}, \quad k = r, r+1, \ldots$$
+$$
+P(X = k) = \binom{k-1}{r-1} p^r (1-p)^{k-r}, \quad k = r, r+1, \ldots
+$$
 
-$$E[X] = \frac{r}{p}, \quad \mathrm{Var}(X) = \frac{r(1-p)}{p^2}$$
+$$
+E[X] = \frac{r}{p}, \quad \mathrm{Var}(X) = \frac{r(1-p)}{p^2}
+$$
 
 **Hypergeometric.** $X \sim \mathrm{Hypergeometric}(N, K, n)$: sampling $n$ items without
 replacement from a population Of $N$ containing $K$ "successes."
 
-$$P(X = k) = \frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}, \quad k = \max(0, n + K - N), \ldots, \min(n, K)$$
+$$
+P(X = k) = \frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}, \quad k = \max(0, n + K - N), \ldots, \min(n, K)
+$$
 
-$$E[X] = n \cdot \frac{K}{N}, \quad \mathrm{Var}(X) = n \cdot \frac{K}{N} \cdot \frac{N-K}{N} \cdot \frac{N-n}{N-1}$$
+$$
+E[X] = n \cdot \frac{K}{N}, \quad \mathrm{Var}(X) = n \cdot \frac{K}{N} \cdot \frac{N-K}{N} \cdot \frac{N-n}{N-1}
+$$
 
 _Remark._ The factor $(N - n)/(N - 1)$ is the **finite population correction**. When $n \ll N$The
 Hypergeometric is well-approximated by $\mathrm{Bin}(n, K/N)$.
 
 **Poisson.** $X \sim \mathrm{Poisson}(\lambda)$: models rare events occurring at rate $\lambda$.
 
-$$P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!}, \quad k = 0, 1, 2, \ldots$$
+$$
+P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!}, \quad k = 0, 1, 2, \ldots
+$$
 
-$$E[X] = \lambda, \quad \mathrm{Var}(X) = \lambda$$
+$$
+E[X] = \lambda, \quad \mathrm{Var}(X) = \lambda
+$$
 
-$$M_X(t) = \exp\left(\lambda(e^t - 1)\right)$$
+$$
+M_X(t) = \exp\left(\lambda(e^t - 1)\right)
+$$
 
 _Proof of MGF:_
 
-$$M_X(t) = \sum_{k=0}^{\infty} e^{tk} \frac{e^{-\lambda} \lambda^k}{k!} = e^{-\lambda} \sum_{k=0}^{\infty} \frac{(\lambda e^t)^k}{k!} = e^{-\lambda} \cdot e^{\lambda e^t} = \exp(\lambda(e^t - 1))$$
+$$
+M_X(t) = \sum_{k=0}^{\infty} e^{tk} \frac{e^{-\lambda} \lambda^k}{k!} = e^{-\lambda} \sum_{k=0}^{\infty} \frac{(\lambda e^t)^k}{k!} = e^{-\lambda} \cdot e^{\lambda e^t} = \exp(\lambda(e^t - 1))
+$$
 
 $\blacksquare$
 
 _Proof that $E[X] = \lambda$:_
 
-$$E[X] = \sum_{k=0}^{\infty} k \frac{e^{-\lambda} \lambda^k}{k!} = e^{-\lambda} \sum_{k=1}^{\infty} \frac{\lambda^k}{(k-1)!} = e^{-\lambda} \lambda \sum_{k=0}^{\infty} \frac{\lambda^k}{k!} = \lambda$$
+$$
+E[X] = \sum_{k=0}^{\infty} k \frac{e^{-\lambda} \lambda^k}{k!} = e^{-\lambda} \sum_{k=1}^{\infty} \frac{\lambda^k}{(k-1)!} = e^{-\lambda} \lambda \sum_{k=0}^{\infty} \frac{\lambda^k}{k!} = \lambda
+$$
 
 $\blacksquare$
 
@@ -462,21 +554,33 @@ $\blacksquare$
 
 **Uniform.** $X \sim \mathrm{Uniform}(a, b)$:
 
-$$f(x) = \begin{cases} \frac{1}{b - a} & \mathrm{if}  a \leq x \leq b \\ 0 & \mathrm{otherwise} \end{cases}$$
+$$
+f(x) = \begin{cases} \frac{1}{b - a} & \mathrm{if}  a \leq x \leq b \\ 0 & \mathrm{otherwise} \end{cases}
+$$
 
-$$E[X] = \frac{a + b}{2}, \quad \mathrm{Var}(X) = \frac{(b-a)^2}{12}$$
+$$
+E[X] = \frac{a + b}{2}, \quad \mathrm{Var}(X) = \frac{(b-a)^2}{12}
+$$
 
-$$M_X(t) = \begin{cases} \frac{e^{tb} - e^{ta}}{t(b - a)} & \mathrm{if}  t \neq 0 \\ 1 & \mathrm{if}  t = 0 \end{cases}$$
+$$
+M_X(t) = \begin{cases} \frac{e^{tb} - e^{ta}}{t(b - a)} & \mathrm{if}  t \neq 0 \\ 1 & \mathrm{if}  t = 0 \end{cases}
+$$
 
 **Gamma.** $X \sim \mathrm{Gamma}(\alpha, \lambda)$ (shape $\alpha \gt 0$Rate $\lambda \gt 0$):
 
-$$f(x) = \frac{\lambda^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\lambda x}, \quad x \gt 0$$
+$$
+f(x) = \frac{\lambda^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\lambda x}, \quad x \gt 0
+$$
 
 Where $\Gamma(\alpha) = \int_0^\infty t^{\alpha - 1} e^{-t}\, dt$ is the Gamma function.
 
-$$E[X] = \frac{\alpha}{\lambda}, \quad \mathrm{Var}(X) = \frac{\alpha}{\lambda^2}$$
+$$
+E[X] = \frac{\alpha}{\lambda}, \quad \mathrm{Var}(X) = \frac{\alpha}{\lambda^2}
+$$
 
-$$M_X(t) = \left(\frac{\lambda}{\lambda - t}\right)^\alpha, \quad t \lt \lambda$$
+$$
+M_X(t) = \left(\frac{\lambda}{\lambda - t}\right)^\alpha, \quad t \lt \lambda
+$$
 
 _Remark._ Special cases: $\mathrm{Gamma}(1, \lambda) = \mathrm{Exp}(\lambda)$;
 $\mathrm{Gamma}(n/2, 1/2) = \chi^2_n$.
@@ -492,37 +596,55 @@ which is the MGF of $\mathrm{Gamma}(\alpha_1 + \alpha_2, \lambda)$. $\blacksquar
 
 **Chi-Squared.** $X \sim \chi^2_k$ (chi-squared with $k$ degrees of freedom):
 
-$$f(x) = \frac{1}{2^{k/2}\, \Gamma(k/2)}\, x^{k/2 - 1}\, e^{-x/2}, \quad x \gt 0$$
+$$
+f(x) = \frac{1}{2^{k/2}\, \Gamma(k/2)}\, x^{k/2 - 1}\, e^{-x/2}, \quad x \gt 0
+$$
 
-$$E[X] = k, \quad \mathrm{Var}(X) = 2k$$
+$$
+E[X] = k, \quad \mathrm{Var}(X) = 2k
+$$
 
-$$M_X(t) = (1 - 2t)^{-k/2}, \quad t \lt 1/2$$
+$$
+M_X(t) = (1 - 2t)^{-k/2}, \quad t \lt 1/2
+$$
 
 _Remark._ If $Z_1, \ldots, Z_k \sim N(0, 1)$ are independent, then
 $\sum_{i=1}^k Z_i^2 \sim \chi^2_k$.
 
 **Beta.** $X \sim \mathrm{Beta}(\alpha, \beta)$:
 
-$$f(x) = \frac{x^{\alpha - 1}(1 - x)^{\beta - 1}}{B(\alpha, \beta)}, \quad 0 \lt x \lt 1$$
+$$
+f(x) = \frac{x^{\alpha - 1}(1 - x)^{\beta - 1}}{B(\alpha, \beta)}, \quad 0 \lt x \lt 1
+$$
 
 Where $B(\alpha, \beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}$ is the Beta
 function.
 
-$$E[X] = \frac{\alpha}{\alpha + \beta}, \quad \mathrm{Var}(X) = \frac{\alpha \beta}{(\alpha + \beta)^2(\alpha + \beta + 1)}$$
+$$
+E[X] = \frac{\alpha}{\alpha + \beta}, \quad \mathrm{Var}(X) = \frac{\alpha \beta}{(\alpha + \beta)^2(\alpha + \beta + 1)}
+$$
 
 **Exponential.** $X \sim \mathrm{Exp}(\lambda)$:
 
-$$f(x) = \begin{cases} \lambda e^{-\lambda x} & \mathrm{if}  x \geq 0 \\ 0 & \mathrm{if}  x \lt 0 \end{cases}$$
+$$
+f(x) = \begin{cases} \lambda e^{-\lambda x} & \mathrm{if}  x \geq 0 \\ 0 & \mathrm{if}  x \lt 0 \end{cases}
+$$
 
-$$E[X] = \frac{1}{\lambda}, \quad \mathrm{Var}(X) = \frac{1}{\lambda^2}$$
+$$
+E[X] = \frac{1}{\lambda}, \quad \mathrm{Var}(X) = \frac{1}{\lambda^2}
+$$
 
 **Theorem 3.1 (Memoryless Property).** If $X \sim \mathrm{Exp}(\lambda)$ Then for all $s, t \gt 0$:
 
-$$P(X \gt s + t \mid X \gt s) = P(X \gt t)$$
+$$
+P(X \gt s + t \mid X \gt s) = P(X \gt t)
+$$
 
 _Proof._
 
-$$P(X \gt s + t \mid X \gt s) = \frac{P(X \gt s + t)}{P(X \gt s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X \gt t)$$
+$$
+P(X \gt s + t \mid X \gt s) = \frac{P(X \gt s + t)}{P(X \gt s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X \gt t)
+$$
 
 $\blacksquare$
 
@@ -531,22 +653,32 @@ property. This Makes it the natural model for waiting times between Poisson even
 
 **Normal (Gaussian).** $X \sim N(\mu, \sigma^2)$:
 
-$$f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left(-\frac{(x - \mu)^2}{2\sigma^2}\right), \quad x \in \mathbb{R}$$
+$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left(-\frac{(x - \mu)^2}{2\sigma^2}\right), \quad x \in \mathbb{R}
+$$
 
-$$E[X] = \mu, \quad \mathrm{Var}(X) = \sigma^2$$
+$$
+E[X] = \mu, \quad \mathrm{Var}(X) = \sigma^2
+$$
 
 The **standard normal** $Z \sim N(0,1)$ has CDF denoted $\Phi(z)$. For any
 $X \sim N(\mu, \sigma^2)$:
 
-$$Z = \frac{X - \mu}{\sigma} \sim N(0, 1)$$
+$$
+Z = \frac{X - \mu}{\sigma} \sim N(0, 1)
+$$
 
-$$M_X(t) = \exp\left(\mu t + \frac{\sigma^2 t^2}{2}\right)$$
+$$
+M_X(t) = \exp\left(\mu t + \frac{\sigma^2 t^2}{2}\right)
+$$
 
 _Verification that $f$ integrates to 1._ Consider $I = \int_{-\infty}^{\infty} e^{-x^2/2}\, dx$.
 Then $I^2 = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{-(x^2+y^2)/2}\, dx\, dy$. Switching to
 polar coordinates: $x = r\cos\theta$, $y = r\sin\theta$, $dx\, dy = r\, dr\, d\theta$.
 
-$$I^2 = \int_0^{2\pi}\int_0^{\infty} e^{-r^2/2}\, r\, dr\, d\theta = 2\pi \int_0^{\infty} e^{-r^2/2}\, r\, dr = 2\pi \left[-e^{-r^2/2}\right]_0^{\infty} = 2\pi$$
+$$
+I^2 = \int_0^{2\pi}\int_0^{\infty} e^{-r^2/2}\, r\, dr\, d\theta = 2\pi \int_0^{\infty} e^{-r^2/2}\, r\, dr = 2\pi \left[-e^{-r^2/2}\right]_0^{\infty} = 2\pi
+$$
 
 So $I = \sqrt{2\pi}$Confirming that
 $\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty} e^{-x^2/2}\, dx = 1$. For the general
@@ -559,15 +691,21 @@ $E[X] = \mu + \sigma \cdot 0 = \mu$.
 _Verification that $\mathrm{Var}(Z) = 1$:_ Integration by parts with $u = z$,
 $dv = z\, \phi(z)\, dz$:
 
-$$E[Z^2] = \int_{-\infty}^{\infty} z^2 \phi(z)\, dz = \left[-z\phi(z)\right]_{-\infty}^{\infty} + \int_{-\infty}^{\infty} \phi(z)\, dz = 0 + 1 = 1$$
+$$
+E[Z^2] = \int_{-\infty}^{\infty} z^2 \phi(z)\, dz = \left[-z\phi(z)\right]_{-\infty}^{\infty} + \int_{-\infty}^{\infty} \phi(z)\, dz = 0 + 1 = 1
+$$
 
 _Proof of MGF for $Z \sim N(0, 1)$:_
 
-$$M_Z(t) = \int_{-\infty}^{\infty} e^{tz} \frac{1}{\sqrt{2\pi}} e^{-z^2/2}\, dz = \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-(z^2 - 2tz)/2}\, dz$$
+$$
+M_Z(t) = \int_{-\infty}^{\infty} e^{tz} \frac{1}{\sqrt{2\pi}} e^{-z^2/2}\, dz = \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-(z^2 - 2tz)/2}\, dz
+$$
 
 Completing the square: $z^2 - 2tz = (z - t)^2 - t^2$ So:
 
-$$M_Z(t) = e^{t^2/2} \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-(z-t)^2/2}\, dz = e^{t^2/2} \cdot 1 = e^{t^2/2}$$
+$$
+M_Z(t) = e^{t^2/2} \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-(z-t)^2/2}\, dz = e^{t^2/2} \cdot 1 = e^{t^2/2}
+$$
 
 Since the integrand is the PDF of $N(t, 1)$ evaluated over all $\mathbb{R}$. $\blacksquare$
 
@@ -591,9 +729,13 @@ as $n \to \infty$ Then $X_n \xrightarrow{d} \mathrm{Poisson}(\lambda)$.
 
 _Proof._ Let $\lambda_n = np_n$ so that $p_n = \lambda_n / n$. Then:
 
-$$P(X_n = k) = \binom{n}{k} p_n^k (1 - p_n)^{n-k} = \frac{n(n-1)\cdots(n-k+1)}{k!} \left(\frac{\lambda_n}{n}\right)^k \left(1 - \frac{\lambda_n}{n}\right)^{n-k}$$
+$$
+P(X_n = k) = \binom{n}{k} p_n^k (1 - p_n)^{n-k} = \frac{n(n-1)\cdots(n-k+1)}{k!} \left(\frac{\lambda_n}{n}\right)^k \left(1 - \frac{\lambda_n}{n}\right)^{n-k}
+$$
 
-$$= \frac{\lambda_n^k}{k!} \cdot \frac{n}{n} \cdot \frac{n-1}{n} \cdots \frac{n-k+1}{n} \cdot \left(1 - \frac{\lambda_n}{n}\right)^n \cdot \left(1 - \frac{\lambda_n}{n}\right)^{-k}$$
+$$
+= \frac{\lambda_n^k}{k!} \cdot \frac{n}{n} \cdot \frac{n-1}{n} \cdots \frac{n-k+1}{n} \cdot \left(1 - \frac{\lambda_n}{n}\right)^n \cdot \left(1 - \frac{\lambda_n}{n}\right)^{-k}
+$$
 
 As $n \to \infty$: $\lambda_n \to \lambda$; $\frac{n-j}{n} \to 1$ for each fixed $j$;
 $\left(1 - \frac{\lambda_n}{n}\right)^n \to e^{-\lambda}$; and
@@ -608,7 +750,9 @@ $np$ is moderate.
 **Theorem 3.4 (Normal approximation to the Binomial).** If $X \sim \mathrm{Bin}(n, p)$ with $n$
 large, then Approximately $X \approx N(np, np(1-p))$. More precisely, using a continuity correction:
 
-$$P(a \leq X \leq b) \approx \Phi\left(\frac{b + 0.5 - np}{\sqrt{np(1-p)}}\right) - \Phi\left(\frac{a - 0.5 - np}{\sqrt{np(1-p)}}\right)$$
+$$
+P(a \leq X \leq b) \approx \Phi\left(\frac{b + 0.5 - np}{\sqrt{np(1-p)}}\right) - \Phi\left(\frac{a - 0.5 - np}{\sqrt{np(1-p)}}\right)
+$$
 
 _Intuition._ By the CLT, the sum of $n$ i.i.d. $\mathrm{Bernoulli}(p)$ variables (each with mean $p$
 and variance $p(1-p)$) is approximately normal.
@@ -623,13 +767,21 @@ of receiving More than 6 calls in a given minute?
 
 Model the number of calls as $X \sim \mathrm{Poisson}(4.5)$.
 
-$$P(X \gt 6) = 1 - P(X \leq 6) = 1 - \sum_{k=0}^{6} \frac{e^{-4.5} \cdot 4.5^k}{k!}$$
+$$
+P(X \gt 6) = 1 - P(X \leq 6) = 1 - \sum_{k=0}^{6} \frac{e^{-4.5} \cdot 4.5^k}{k!}
+$$
 
-$$= 1 - e^{-4.5}\left(1 + 4.5 + \frac{4.5^2}{2} + \frac{4.5^3}{6} + \frac{4.5^4}{24} + \frac{4.5^5}{120} + \frac{4.5^6}{720}\right)$$
+$$
+= 1 - e^{-4.5}\left(1 + 4.5 + \frac{4.5^2}{2} + \frac{4.5^3}{6} + \frac{4.5^4}{24} + \frac{4.5^5}{120} + \frac{4.5^6}{720}\right)
+$$
 
-$$= 1 - e^{-4.5}(1 + 4.5 + 10.125 + 15.1875 + 17.0859 + 15.3773 + 11.5330)$$
+$$
+= 1 - e^{-4.5}(1 + 4.5 + 10.125 + 15.1875 + 17.0859 + 15.3773 + 11.5330)
+$$
 
-$$\approx 1 - 0.9314 \approx 0.0686$$
+$$
+\approx 1 - 0.9314 \approx 0.0686
+$$
 
 </details>
 
@@ -642,7 +794,9 @@ hours?
 
 The mean is $1/\lambda = 500$ So $\lambda = 1/500$. By the memoryless property:
 
-$$P(X \gt 300 + 200 \mid X \gt 300) = P(X \gt 200) = e^{-200/500} = e^{-0.4} \approx 0.6703$$
+$$
+P(X \gt 300 + 200 \mid X \gt 300) = P(X \gt 200) = e^{-200/500} = e^{-0.4} \approx 0.6703
+$$
 
 </details>
 
@@ -652,11 +806,15 @@ $$P(X \gt 300 + 200 \mid X \gt 300) = P(X \gt 200) = e^{-200/500} = e^{-0.4} \ap
 
 **Definition.** The **expected value** of $X$ is
 
-$$E[X] = \begin{cases} \sum_x x\, f_X(x) & \mathrm{(discrete)} \\ \int_{-\infty}^{\infty} x\, f_X(x)\, dx & \mathrm{(continuous)} \end{cases}$$
+$$
+E[X] = \begin{cases} \sum_x x\, f_X(x) & \mathrm{(discrete)} \\ \int_{-\infty}^{\infty} x\, f_X(x)\, dx & \mathrm{(continuous)} \end{cases}
+$$
 
 **Proposition 4.1 (LOTUS, Law of the Unconscious Statistician).** For any function $g$:
 
-$$E[g(X)] = \begin{cases} \sum_x g(x)\, f_X(x) & \mathrm{(discrete)} \\ \int_{-\infty}^{\infty} g(x)\, f_X(x)\, dx & \mathrm{(continuous)} \end{cases}$$
+$$
+E[g(X)] = \begin{cases} \sum_x g(x)\, f_X(x) & \mathrm{(discrete)} \\ \int_{-\infty}^{\infty} g(x)\, f_X(x)\, dx & \mathrm{(continuous)} \end{cases}
+$$
 
 _Intuition._ We do not need to find the distribution of $Y = g(X)$ to compute $E[Y]$; we integrate
 with respect to the Distribution of $X$ directly.
@@ -668,13 +826,21 @@ with respect to the Distribution of $X$ directly.
 
 _Proof._ We prove (2) for the continuous case; the discrete case is analogous.
 
-$$E[X + Y] = \iint_{\mathbb{R}^2} (x + y)\, f_{X,Y}(x,y)\, dx\, dy$$
+$$
+E[X + Y] = \iint_{\mathbb{R}^2} (x + y)\, f_{X,Y}(x,y)\, dx\, dy
+$$
 
-$$= \iint_{\mathbb{R}^2} x\, f_{X,Y}(x,y)\, dx\, dy + \iint_{\mathbb{R}^2} y\, f_{X,Y}(x,y)\, dx\, dy$$
+$$
+= \iint_{\mathbb{R}^2} x\, f_{X,Y}(x,y)\, dx\, dy + \iint_{\mathbb{R}^2} y\, f_{X,Y}(x,y)\, dx\, dy
+$$
 
-$$= \int_{-\infty}^{\infty} x \left(\int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dy\right) dx + \int_{-\infty}^{\infty} y \left(\int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dx\right) dy$$
+$$
+= \int_{-\infty}^{\infty} x \left(\int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dy\right) dx + \int_{-\infty}^{\infty} y \left(\int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dx\right) dy
+$$
 
-$$= \int_{-\infty}^{\infty} x\, f_X(x)\, dx + \int_{-\infty}^{\infty} y\, f_Y(y)\, dy = E[X] + E[Y] \quad \blacksquare$$
+$$
+= \int_{-\infty}^{\infty} x\, f_X(x)\, dx + \int_{-\infty}^{\infty} y\, f_Y(y)\, dy = E[X] + E[Y] \quad \blacksquare
+$$
 
 1. If $X$ and $Y$ are independent, $E[XY] = E[X]E[Y]$.
 
@@ -685,7 +851,9 @@ $\blacksquare$
 
 ### 4.2 Variance
 
-$$\mathrm{Var}(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2$$
+$$
+\mathrm{Var}(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2
+$$
 
 **Theorem 4.2.**
 
@@ -706,7 +874,9 @@ If $X, Y$ are independent, $\mathrm{Cov}(X,Y) = 0$. $\blacksquare$
 
 The **moment generating function** (MGF) of $X$ is
 
-$$M_X(t) = E[e^{tX}]$$
+$$
+M_X(t) = E[e^{tX}]
+$$
 
 (provided the expectation exists in a neighbourhood of $t = 0$).
 
@@ -728,7 +898,9 @@ Where the third equality uses independence. $\blacksquare$
 
 **Theorem 4.6a (Markov's Inequality).** If $X \geq 0$ and $a \gt 0$:
 
-$$P(X \geq a) \leq \frac{E[X]}{a}$$
+$$
+P(X \geq a) \leq \frac{E[X]}{a}
+$$
 
 _Proof._
 $E[X] = \int_0^\infty x\, dF(x) \geq \int_a^\infty x\, dF(x) \geq a \int_a^\infty dF(x) = a\, P(X \geq a)$.
@@ -737,7 +909,9 @@ $\blacksquare$
 **Theorem 4.6b (Chebyshev's Inequality).** For any random variable $X$ with finite mean $\mu$ and
 variance $\sigma^2$ And any $k \gt 0$:
 
-$$P(|X - \mu| \geq k) \leq \frac{\sigma^2}{k^2}$$
+$$
+P(|X - \mu| \geq k) \leq \frac{\sigma^2}{k^2}
+$$
 
 _Proof._ Apply Markov's inequality to $(X - \mu)^2$ with $a = k^2$:
 $P(|X - \mu| \geq k) = P((X - \mu)^2 \geq k^2) \leq \frac{E[(X-\mu)^2]}{k^2} = \frac{\sigma^2}{k^2}$.
@@ -759,12 +933,16 @@ inequality).
 
 **Theorem 4.6 (Cauchy-Schwarz).** For any random variables $X, Y$ with finite second moments:
 
-$$(E[XY])^2 \leq E[X^2]\, E[Y^2]$$
+$$
+(E[XY])^2 \leq E[X^2]\, E[Y^2]
+$$
 
 _Proof._ For any real $t$, $E[(X + tY)^2] = E[X^2] + 2t\, E[XY] + t^2\, E[Y^2] \geq 0$. This is a
 quadratic in $t$ That is always non-negative, so its discriminant must be non-positive:
 
-$$(2E[XY])^2 - 4\, E[Y^2]\, E[X^2] \leq 0 \implies (E[XY])^2 \leq E[X^2]\, E[Y^2]$$
+$$
+(2E[XY])^2 - 4\, E[Y^2]\, E[X^2] \leq 0 \implies (E[XY])^2 \leq E[X^2]\, E[Y^2]
+$$
 
 $\blacksquare$
 
@@ -772,14 +950,18 @@ $\blacksquare$
 
 _Proof._ Apply Cauchy-Schwarz to $X - E[X]$ and $Y - E[Y]$:
 
-$$\mathrm{Cov}(X,Y)^2 \leq \mathrm{Var}(X)\, \mathrm{Var}(Y)$$
+$$
+\mathrm{Cov}(X,Y)^2 \leq \mathrm{Var}(X)\, \mathrm{Var}(Y)
+$$
 
 So $|\rho_{X,Y}| = \frac{|\mathrm{Cov}(X,Y)|}{\sqrt{\mathrm{Var}(X)\,\mathrm{Var}(Y)}} \leq 1$.
 $\blacksquare$
 
 **Theorem 4.7 (Conditional Variance Formula).**
 
-$$\mathrm{Var}(Y) = E[\mathrm{Var}(Y \mid X)] + \mathrm{Var}(E[Y \mid X])$$
+$$
+\mathrm{Var}(Y) = E[\mathrm{Var}(Y \mid X)] + \mathrm{Var}(E[Y \mid X])
+$$
 
 _Proof._
 $E[\mathrm{Var}(Y \mid X)] = E[E[Y^2 \mid X]] - E[(E[Y \mid X])^2] = E[Y^2] - E[(E[Y \mid X])^2]$.
@@ -795,17 +977,29 @@ variance. This Decomposition is the foundation of ANOVA (Analysis of Variance).
 **Worked Example.** Find the MGF of $X \sim \mathrm{Bin}(n, p)$ and use it to derive $E[X]$ and
 $\mathrm{Var}(X)$.
 
-$$M_X(t) = (1 - p + pe^t)^n$$
+$$
+M_X(t) = (1 - p + pe^t)^n
+$$
 
-$$M_X'(t) = n(1 - p + pe^t)^{n-1} \cdot pe^t$$
+$$
+M_X'(t) = n(1 - p + pe^t)^{n-1} \cdot pe^t
+$$
 
-$$E[X] = M_X'(0) = n(1)^{n-1} \cdot p = np$$
+$$
+E[X] = M_X'(0) = n(1)^{n-1} \cdot p = np
+$$
 
-$$M_X''(t) = n(n-1)(1 - p + pe^t)^{n-2}(pe^t)^2 + n(1 - p + pe^t)^{n-1} \cdot pe^t$$
+$$
+M_X''(t) = n(n-1)(1 - p + pe^t)^{n-2}(pe^t)^2 + n(1 - p + pe^t)^{n-1} \cdot pe^t
+$$
 
-$$E[X^2] = M_X''(0) = n(n-1)p^2 + np$$
+$$
+E[X^2] = M_X''(0) = n(n-1)p^2 + np
+$$
 
-$$\mathrm{Var}(X) = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p) \quad \blacksquare$$
+$$
+\mathrm{Var}(X) = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p) \quad \blacksquare
+$$
 
 **Problem 4.3.** The number of accidents at an intersection per week follows
 $\mathrm{Poisson}(\lambda)$ with $\lambda = 2$. Find $P(X \leq 1)$ and, using Markov's inequality,
@@ -814,11 +1008,15 @@ give an upper bound for $P(X \geq 6)$.
 <details>
 <summary>Solution</summary>
 
-$$P(X \leq 1) = P(X = 0) + P(X = 1) = e^{-2} + 2e^{-2} = 3e^{-2} \approx 0.406$$
+$$
+P(X \leq 1) = P(X = 0) + P(X = 1) = e^{-2} + 2e^{-2} = 3e^{-2} \approx 0.406
+$$
 
 By Markov's inequality (since $X \geq 0$):
 
-$$P(X \geq 6) \leq \frac{E[X]}{6} = \frac{2}{6} = \frac{1}{3} \approx 0.333$$
+$$
+P(X \geq 6) \leq \frac{E[X]}{6} = \frac{2}{6} = \frac{1}{3} \approx 0.333
+$$
 
 For comparison, the exact value:
 $P(X \geq 6) = 1 - P(X \leq 5) = 1 - e^{-2}(1 + 2 + 2 + 8/6 + 16/24 + 32/120) \approx 0.0166$.
@@ -826,7 +1024,9 @@ Markov's bound is very loose but requires no knowledge beyond the mean.
 
 </details>
 
-$$M_X(t) = E[e^{tX}] = \int_0^{\infty} e^{tx} \lambda e^{-\lambda x}\, dx = \lambda \int_0^{\infty} e^{-(\lambda - t)x}\, dx$$
+$$
+M_X(t) = E[e^{tX}] = \int_0^{\infty} e^{tx} \lambda e^{-\lambda x}\, dx = \lambda \int_0^{\infty} e^{-(\lambda - t)x}\, dx
+$$
 
 For $t \lt \lambda$: $M_X(t) = \frac{\lambda}{\lambda - t}$.
 
@@ -841,7 +1041,9 @@ MGF.
 $M_X''(t) = \frac{2\lambda}{(\lambda - t)^3}$ So
 $E[X^2] = M_X''(0) = \frac{2\lambda}{\lambda^3} = \frac{2}{\lambda^2}$.
 
-$$\mathrm{Var}(X) = E[X^2] - (E[X])^2 = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} = \frac{1}{\lambda^2}$$
+$$
+\mathrm{Var}(X) = E[X^2] - (E[X])^2 = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} = \frac{1}{\lambda^2}
+$$
 
 </details>
 
@@ -851,11 +1053,17 @@ $\mathrm{Var}(X)$.
 <details>
 <summary>Solution</summary>
 
-$$E[X] = \frac{1}{6}(1 + 2 + 3 + 4 + 5 + 6) = \frac{21}{6} = 3.5$$
+$$
+E[X] = \frac{1}{6}(1 + 2 + 3 + 4 + 5 + 6) = \frac{21}{6} = 3.5
+$$
 
-$$E[X^2] = \frac{1}{6}(1 + 4 + 9 + 16 + 25 + 36) = \frac{91}{6} \approx 15.167$$
+$$
+E[X^2] = \frac{1}{6}(1 + 4 + 9 + 16 + 25 + 36) = \frac{91}{6} \approx 15.167
+$$
 
-$$\mathrm{Var}(X) = \frac{91}{6} - \left(\frac{7}{2}\right)^2 = \frac{91}{6} - \frac{49}{4} = \frac{182 - 147}{12} = \frac{35}{12} \approx 2.917$$
+$$
+\mathrm{Var}(X) = \frac{91}{6} - \left(\frac{7}{2}\right)^2 = \frac{91}{6} - \frac{49}{4} = \frac{182 - 147}{12} = \frac{35}{12} \approx 2.917
+$$
 
 </details>
 
@@ -876,7 +1084,9 @@ The **joint PDF** (for continuous) satisfies $P((X,Y) \in A) = \iint_A f_{X,Y}(x
 
 The **marginal PDF** of $X$ is obtained by integrating out $Y$:
 
-$$f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dy$$
+$$
+f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dy
+$$
 
 Similarly, $f_Y(y) = \int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dx$.
 
@@ -884,21 +1094,31 @@ Similarly, $f_Y(y) = \int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dx$.
 
 **Definition.** The **conditional PDF** of $X$ given $Y = y$ (when $f_Y(y) \gt 0$) is
 
-$$f_{X \mid Y}(x \mid y) = \frac{f_{X,Y}(x,y)}{f_Y(y)}$$
+$$
+f_{X \mid Y}(x \mid y) = \frac{f_{X,Y}(x,y)}{f_Y(y)}
+$$
 
 **Definition.** The **conditional expectation** is
 
-$$E[X \mid Y = y] = \int_{-\infty}^{\infty} x\, f_{X \mid Y}(x \mid y)\, dx$$
+$$
+E[X \mid Y = y] = \int_{-\infty}^{\infty} x\, f_{X \mid Y}(x \mid y)\, dx
+$$
 
 **Theorem 5.0 (Law of Iterated Expectations / Tower Property).**
 
-$$E[X] = E[E[X \mid Y]]$$
+$$
+E[X] = E[E[X \mid Y]]
+$$
 
 _Proof._ For the continuous case:
 
-$$E[E[X \mid Y]] = \int_{-\infty}^{\infty} E[X \mid Y = y]\, f_Y(y)\, dy = \int_{-\infty}^{\infty} \left(\int_{-\infty}^{\infty} x\, f_{X \mid Y}(x \mid y)\, dx\right) f_Y(y)\, dy$$
+$$
+E[E[X \mid Y]] = \int_{-\infty}^{\infty} E[X \mid Y = y]\, f_Y(y)\, dy = \int_{-\infty}^{\infty} \left(\int_{-\infty}^{\infty} x\, f_{X \mid Y}(x \mid y)\, dx\right) f_Y(y)\, dy
+$$
 
-$$= \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} x\, \frac{f_{X,Y}(x,y)}{f_Y(y)}\, f_Y(y)\, dx\, dy = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} x\, f_{X,Y}(x,y)\, dx\, dy = E[X]$$
+$$
+= \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} x\, \frac{f_{X,Y}(x,y)}{f_Y(y)}\, f_Y(y)\, dx\, dy = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} x\, f_{X,Y}(x,y)\, dx\, dy = E[X]
+$$
 
 $\blacksquare$
 
@@ -906,7 +1126,9 @@ $\blacksquare$
 
 $X$ and $Y$ are **independent** if and only if
 
-$$f_{X,Y}(x,y) = f_X(x) f_Y(y) \quad \mathrm{for} all  x, y$$
+$$
+f_{X,Y}(x,y) = f_X(x) f_Y(y) \quad \mathrm{for} all  x, y
+$$
 
 **Theorem 5.1.** If $X$ and $Y$ are independent, then $E[XY] = E[X]E[Y]$ and
 $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$.
@@ -920,11 +1142,15 @@ $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$.
 
 ### 5.5 Covariance and Correlation
 
-$$\mathrm{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])] = E[XY] - E[X]E[Y]$$
+$$
+\mathrm{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])] = E[XY] - E[X]E[Y]
+$$
 
 The **correlation coefficient** is
 
-$$\rho_{X,Y} = \frac{\mathrm{Cov}(X,Y)}{\sqrt{\mathrm{Var}(X)\mathrm{Var}(Y)}}$$
+$$
+\rho_{X,Y} = \frac{\mathrm{Cov}(X,Y)}{\sqrt{\mathrm{Var}(X)\mathrm{Var}(Y)}}
+$$
 
 **Properties:**
 
@@ -937,7 +1163,9 @@ $$\rho_{X,Y} = \frac{\mathrm{Cov}(X,Y)}{\sqrt{\mathrm{Var}(X)\mathrm{Var}(Y)}}$$
 
 **Proposition 5.2 (Variance of a Sum).** For any random variables $X_1, \ldots, X_n$:
 
-$$\mathrm{Var}\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \mathrm{Var}(X_i) + 2\sum_{1 \leq i \lt j \leq n} \mathrm{Cov}(X_i, X_j)$$
+$$
+\mathrm{Var}\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \mathrm{Var}(X_i) + 2\sum_{1 \leq i \lt j \leq n} \mathrm{Cov}(X_i, X_j)
+$$
 
 _Proof._ Expand $\mathrm{Var}(\sum X_i) = E[(\sum X_i)^2] - (E[\sum X_i])^2$ and collect terms.
 $\blacksquare$
@@ -950,15 +1178,21 @@ the covariance Terms vanish and the variance of the sum equals the sum of the va
 **Theorem 5.2.** Let $(X, Y)$ have joint PDF $f_{X,Y}(x,y)$ and let $(U, V) = g(X, Y)$ where $g$ is
 a bijection From $\mathbb{R}^2$ to $\mathbb{R}^2$ with inverse $g^{-1}$:
 
-$$u = u(x, y), \quad v = v(x, y)$$
+$$
+u = u(x, y), \quad v = v(x, y)
+$$
 
 Then the joint PDF of $(U, V)$ is
 
-$$f_{U,V}(u,v) = f_{X,Y}(x(u,v), y(u,v)) \cdot |J|$$
+$$
+f_{U,V}(u,v) = f_{X,Y}(x(u,v), y(u,v)) \cdot |J|
+$$
 
 Where the **Jacobian determinant** is
 
-$$J = \det \begin{pmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} \end{pmatrix}$$
+$$
+J = \det \begin{pmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} \end{pmatrix}
+$$
 
 **Problem 5.1.** Let $X, Y$ be independent with $X, Y \sim \mathrm{Exp}(\lambda)$. Find the joint
 distribution of $U = X + Y$ and $V = X / (X + Y)$.
@@ -970,13 +1204,17 @@ The inverse transformation is $X = UV$, $Y = U(1 - V)$ for $u \gt 0, 0 \lt v \lt
 
 The Jacobian:
 
-$$J = \det \begin{pmatrix} v & u \\ 1 - v & -u \end{pmatrix} = -uv - u(1 - v) = -u$$
+$$
+J = \det \begin{pmatrix} v & u \\ 1 - v & -u \end{pmatrix} = -uv - u(1 - v) = -u
+$$
 
 So $|J| = u$.
 
 The joint PDF of $(X, Y)$ is $f_{X,Y}(x,y) = \lambda^2 e^{-\lambda(x+y)}$ for $x, y \gt 0$.
 
-$$f_{U,V}(u,v) = \lambda^2 e^{-\lambda(uv + u(1-v))} \cdot u = \lambda^2 u\, e^{-\lambda u}, \quad u \gt 0, 0 \lt v \lt 1$$
+$$
+f_{U,V}(u,v) = \lambda^2 e^{-\lambda(uv + u(1-v))} \cdot u = \lambda^2 u\, e^{-\lambda u}, \quad u \gt 0, 0 \lt v \lt 1
+$$
 
 This factors as $f_U(u) \cdot f_V(v)$ where $f_U(u) = \lambda^2 u\, e^{-\lambda u}$
 (Gamma$(2, \lambda)$) And $f_V(v) = 1$ on $(0, 1)$ (Uniform$(0, 1)$). Hence $U$ and $V$ are
@@ -989,7 +1227,9 @@ independent. $\blacksquare$
 **Definition.** $(X, Y)$ has a **bivariate normal distribution** with parameters
 $\mu_X, \mu_Y, \sigma_X^2, \sigma_Y^2, \rho$ If the joint PDF is
 
-$$f(x,y) = \frac{1}{2\pi \sigma_X \sigma_Y \sqrt{1 - \rho^2}} \exp\left(-\frac{1}{2(1-\rho^2)}\left[\frac{(x - \mu_X)^2}{\sigma_X^2} - \frac{2\rho(x - \mu_X)(y - \mu_Y)}{\sigma_X \sigma_Y} + \frac{(y - \mu_Y)^2}{\sigma_Y^2}\right]\right)$$
+$$
+f(x,y) = \frac{1}{2\pi \sigma_X \sigma_Y \sqrt{1 - \rho^2}} \exp\left(-\frac{1}{2(1-\rho^2)}\left[\frac{(x - \mu_X)^2}{\sigma_X^2} - \frac{2\rho(x - \mu_X)(y - \mu_Y)}{\sigma_X \sigma_Y} + \frac{(y - \mu_Y)^2}{\sigma_Y^2}\right]\right)
+$$
 
 **Key Properties:**
 
@@ -1002,7 +1242,9 @@ $$f(x,y) = \frac{1}{2\pi \sigma_X \sigma_Y \sqrt{1 - \rho^2}} \exp\left(-\frac{1
    $\mathrm{Var}(Y \mid X = x) = \sigma_Y^2(1 - \rho^2)$.
 6. The joint MGF is
 
-$$M_{X,Y}(t_1, t_2) = \exp\left(\mu_X t_1 + \mu_Y t_2 + \frac{1}{2}(\sigma_X^2 t_1^2 + 2\rho\sigma_X\sigma_Y t_1 t_2 + \sigma_Y^2 t_2^2)\right)$$
+$$
+M_{X,Y}(t_1, t_2) = \exp\left(\mu_X t_1 + \mu_Y t_2 + \frac{1}{2}(\sigma_X^2 t_1^2 + 2\rho\sigma_X\sigma_Y t_1 t_2 + \sigma_Y^2 t_2^2)\right)
+$$
 
 **Problem 5.4.** Let $(X, Y)$ be bivariate normal with $\mu_X = 0$, $\mu_Y = 0$,
 $\sigma_X = \sigma_Y = 1$, $\rho = 1/2$. Find $P(Y \gt 1 \mid X = 0.5)$.
@@ -1012,11 +1254,17 @@ $\sigma_X = \sigma_Y = 1$, $\rho = 1/2$. Find $P(Y \gt 1 \mid X = 0.5)$.
 
 The conditional distribution $Y \mid X = 0.5$ is normal with:
 
-$$E[Y \mid X = 0.5] = 0 + \frac{1}{2} \cdot 1 \cdot (0.5 - 0) = 0.25$$
+$$
+E[Y \mid X = 0.5] = 0 + \frac{1}{2} \cdot 1 \cdot (0.5 - 0) = 0.25
+$$
 
-$$\mathrm{Var}(Y \mid X = 0.5) = 1 \cdot (1 - 1/4) = 3/4, \quad \sigma = \sqrt{3}/2$$
+$$
+\mathrm{Var}(Y \mid X = 0.5) = 1 \cdot (1 - 1/4) = 3/4, \quad \sigma = \sqrt{3}/2
+$$
 
-$$P(Y \gt 1 \mid X = 0.5) = P\left(Z \gt \frac{1 - 0.25}{\sqrt{3}/2}\right) = P\left(Z \gt \frac{0.75 \times 2}{\sqrt{3}}\right) = P(Z \gt 0.866) \approx 0.193$$
+$$
+P(Y \gt 1 \mid X = 0.5) = P\left(Z \gt \frac{1 - 0.25}{\sqrt{3}/2}\right) = P\left(Z \gt \frac{0.75 \times 2}{\sqrt{3}}\right) = P(Z \gt 0.866) \approx 0.193
+$$
 
 </details>
 
@@ -1028,9 +1276,13 @@ distributions of $X$ And $Y$ And determine whether $X$ and $Y$ are independent.
 <details>
 <summary>Solution</summary>
 
-$$f_X(x) = \int_0^x 8xy\, dy = 8x \cdot \frac{x^2}{2} = 4x^3, \quad 0 \leq x \leq 1$$
+$$
+f_X(x) = \int_0^x 8xy\, dy = 8x \cdot \frac{x^2}{2} = 4x^3, \quad 0 \leq x \leq 1
+$$
 
-$$f_Y(y) = \int_y^1 8xy\, dx = 8y \cdot \frac{1 - y^2}{2} = 4y(1 - y^2), \quad 0 \leq y \leq 1$$
+$$
+f_Y(y) = \int_y^1 8xy\, dx = 8y \cdot \frac{1 - y^2}{2} = 4y(1 - y^2), \quad 0 \leq y \leq 1
+$$
 
 Check: $f_X(x) f_Y(y) = 4x^3 \cdot 4y(1 - y^2) = 16x^3 y(1 - y^2) \neq 8xy = f_{X,Y}(x,y)$.
 
@@ -1046,7 +1298,9 @@ Therefore $X$ and $Y$ are **not** independent. $\blacksquare$
 $E[X] = 0$, $E[Y] = E[X^2] = 1$ And $E[XY] = E[X^3] = 0$ (since $X^3$ is an odd function of a
 symmetric distribution).
 
-$$\mathrm{Cov}(X, Y) = E[XY] - E[X]E[Y] = 0 - 0 = 0$$
+$$
+\mathrm{Cov}(X, Y) = E[XY] - E[X]E[Y] = 0 - 0 = 0
+$$
 
 So $\rho_{X,Y} = 0$. However, $X$ and $Y$ are **not** independent (knowing $X$ determines $Y$
 exactly). This demonstrates that zero correlation does not imply independence. $\blacksquare$
@@ -1060,7 +1314,9 @@ exactly). This demonstrates that zero correlation does not imply independence. $
 **Definition.** $X_n \xrightarrow{p} X$ (convergence in probability) if for every
 $\varepsilon \gt 0$:
 
-$$\lim_{n \to \infty} P(|X_n - X| \gt \varepsilon) = 0$$
+$$
+\lim_{n \to \infty} P(|X_n - X| \gt \varepsilon) = 0
+$$
 
 **Definition.** $X_n \xrightarrow{d} X$ (convergence in distribution) if
 $\lim_{n \to \infty} F_{X_n}(x) = F_X(x)$ at all Continuity points of $F_X$.
@@ -1087,29 +1343,39 @@ distribution. None of the reverse implications hold .
 **Theorem 6.1 (Weak Law of Large Numbers).** Let $X_1, X_2, \ldots$ be i.i.d. With $E[X_i] = \mu$
 and $\mathrm{Var}(X_i) = \sigma^2 \lt \infty$. Then for every $\varepsilon \gt 0$:
 
-$$\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum_{i=1}^n X_i - \mu\right| \gt \varepsilon\right) = 0$$
+$$
+\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum_{i=1}^n X_i - \mu\right| \gt \varepsilon\right) = 0
+$$
 
 _Proof._ Let $\bar{X}_n = \frac{1}{n}\sum_{i=1}^n X_i$. Then $E[\bar{X}_n] = \mu$ and
 $\mathrm{Var}(\bar{X}_n) = \sigma^2/n$. By Chebyshev's inequality:
 
-$$P(|\bar{X}_n - \mu| \gt \varepsilon) \leq \frac{\mathrm{Var}(\bar{X}_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2} \to 0$$
+$$
+P(|\bar{X}_n - \mu| \gt \varepsilon) \leq \frac{\mathrm{Var}(\bar{X}_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2} \to 0
+$$
 
 $\blacksquare$
 
 **Theorem 6.2 (Strong Law of Large Numbers).** Under the same hypotheses:
 
-$$P\left(\lim_{n \to \infty} \frac{1}{n}\sum_{i=1}^n X_i = \mu\right) = 1$$
+$$
+P\left(\lim_{n \to \infty} \frac{1}{n}\sum_{i=1}^n X_i = \mu\right) = 1
+$$
 
 ### 6.3 Central Limit Theorem
 
 **Theorem 6.3 (Central Limit Theorem).** Let $X_1, X_2, \ldots$ be i.i.d. With $E[X_i] = \mu$ and
 $\mathrm{Var}(X_i) = \sigma^2 \gt 0$. Then
 
-$$\frac{\bar{X}_n - \mu}{\sigma / \sqrt{n}} \xrightarrow{d} N(0, 1)$$
+$$
+\frac{\bar{X}_n - \mu}{\sigma / \sqrt{n}} \xrightarrow{d} N(0, 1)
+$$
 
 That is, for all $a \lt b$:
 
-$$\lim_{n \to \infty} P\left(a \lt \frac{\bar{X}_n - \mu}{\sigma / \sqrt{n}} \lt b\right) = \Phi(b) - \Phi(a)$$
+$$
+\lim_{n \to \infty} P\left(a \lt \frac{\bar{X}_n - \mu}{\sigma / \sqrt{n}} \lt b\right) = \Phi(b) - \Phi(a)
+$$
 
 _Proof (sketch using MGFs)._ Let $Y_i = (X_i - \mu)/\sigma$ So $E[Y_i] = 0$ and
 $\mathrm{Var}(Y_i) = 1$. Define $Z_n = \frac{1}{\sqrt{n}} \sum_{i=1}^n Y_i$. We show
@@ -1117,7 +1383,9 @@ $M_{Z_n}(t) \to e^{t^2/2}$ (the standard normal MGF).
 
 Let $M(t) = E[e^{tY_1}]$ be the MGF of $Y_1$. Then:
 
-$$M_{Z_n}(t) = \left[M\left(\frac{t}{\sqrt{n}}\right)\right]^n$$
+$$
+M_{Z_n}(t) = \left[M\left(\frac{t}{\sqrt{n}}\right)\right]^n
+$$
 
 By Taylor expansion of $M$ around 0:
 $M(h) = 1 + h\, M'(0) + \frac{h^2}{2} M''(0) + o(h^2) = 1 + 0 + \frac{h^2}{2} + o(h^2)$ (since
@@ -1125,7 +1393,9 @@ $E[Y_1] = 0$ and $E[Y_1^2] = 1$).
 
 Therefore:
 
-$$M_{Z_n}(t) = \left[1 + \frac{t^2}{2n} + o\left(\frac{1}{n}\right)\right]^n \to e^{t^2/2}$$
+$$
+M_{Z_n}(t) = \left[1 + \frac{t^2}{2n} + o\left(\frac{1}{n}\right)\right]^n \to e^{t^2/2}
+$$
 
 As $n \to \infty$. By the continuity theorem for MGFs, $Z_n \xrightarrow{d} N(0, 1)$. $\blacksquare$
 
@@ -1145,7 +1415,9 @@ asymptotic distribution of $t$-statistics, for instance.
 **Corollary 6.1 (Asymptotic distribution of the t-statistic).** If $X_1, \ldots, X_n$ are i.i.d.
 With mean $\mu$ Variance $\sigma^2$ And fourth moment, then
 
-$$\frac{\bar{X}_n - \mu}{S_n / \sqrt{n}} \xrightarrow{d} N(0, 1)$$
+$$
+\frac{\bar{X}_n - \mu}{S_n / \sqrt{n}} \xrightarrow{d} N(0, 1)
+$$
 
 Where $S_n^2 = \frac{1}{n-1}\sum_{i=1}^n (X_i - \bar{X}_n)^2$.
 
@@ -1153,14 +1425,18 @@ _Proof._ By the CLT, $\sqrt{n}(\bar{X}_n - \mu)/\sigma \xrightarrow{d} N(0, 1)$.
 $S_n^2 \xrightarrow{p} \sigma^2$ So $S_n \xrightarrow{p} \sigma$. By the continuous mapping theorem,
 $\sigma / S_n \xrightarrow{p} 1$. Applying Slutsky's Theorem:
 
-$$\frac{\sqrt{n}(\bar{X}_n - \mu)}{\sigma} \cdot \frac{\sigma}{S_n} \xrightarrow{d} N(0, 1) \cdot 1 = N(0, 1) \quad \blacksquare$$
+$$
+\frac{\sqrt{n}(\bar{X}_n - \mu)}{\sigma} \cdot \frac{\sigma}{S_n} \xrightarrow{d} N(0, 1) \cdot 1 = N(0, 1) \quad \blacksquare
+$$
 
 ### 6.5 Delta Method
 
 **Theorem 6.5 (Delta Method).** If $\sqrt{n}(T_n - \theta) \xrightarrow{d} N(0, \sigma^2)$ and $g$
 is differentiable At $\theta$ with $g'(\theta) \neq 0$ Then
 
-$$\sqrt{n}(g(T_n) - g(\theta)) \xrightarrow{d} N(0, \sigma^2 [g'(\theta)]^2)$$
+$$
+\sqrt{n}(g(T_n) - g(\theta)) \xrightarrow{d} N(0, \sigma^2 [g'(\theta)]^2)
+$$
 
 _Proof (sketch)._ By a first-order Taylor expansion:
 $g(T_n) \approx g(\theta) + g'(\theta)(T_n - \theta)$. Multiplying by $\sqrt{n}$:
@@ -1181,7 +1457,9 @@ Let $g(t) = t - e^{-t}$. Then $g'(t) = 1 + e^{-t}$ So $g'(\lambda) = 1 + e^{-\la
 
 By the delta method:
 
-$$\sqrt{n}(g(\bar{X}_n) - g(\lambda)) \xrightarrow{d} N\left(0, \lambda(1 + e^{-\lambda})^2\right)$$
+$$
+\sqrt{n}(g(\bar{X}_n) - g(\lambda)) \xrightarrow{d} N\left(0, \lambda(1 + e^{-\lambda})^2\right)
+$$
 
 </details>
 
@@ -1195,7 +1473,9 @@ $$\sqrt{n}(g(\bar{X}_n) - g(\lambda)) \xrightarrow{d} N\left(0, \lambda(1 + e^{-
 
 By the CLT, $\bar{X}_{100} \approx N(1000, 200^2/100) = N(1000, 400)$.
 
-$$P(\bar{X} \gt 1040) = P\left(Z \gt \frac{1040 - 1000}{20}\right) = P(Z \gt 2) \approx 0.0228$$
+$$
+P(\bar{X} \gt 1040) = P\left(Z \gt \frac{1040 - 1000}{20}\right) = P(Z \gt 2) \approx 0.0228
+$$
 
 $\blacksquare$
 
@@ -1210,9 +1490,13 @@ heads is between 4,900 and 5,100.
 Let $X \sim \mathrm{Bin}(10000, 0.5)$ So $E[X] = 5000$ and $\mathrm{Var}(X) = 2500$. By the normal
 approximation With continuity correction:
 
-$$P(4900 \leq X \leq 5100) \approx P\left(\frac{4899.5 - 5000}{50} \leq Z \leq \frac{5100.5 - 5000}{50}\right)$$
+$$
+P(4900 \leq X \leq 5100) \approx P\left(\frac{4899.5 - 5000}{50} \leq Z \leq \frac{5100.5 - 5000}{50}\right)
+$$
 
-$$= P(-2.01 \leq Z \leq 2.01) \approx \Phi(2.01) - \Phi(-2.01) \approx 2 \times 0.9778 - 1 = 0.9556$$
+$$
+= P(-2.01 \leq Z \leq 2.01) \approx \Phi(2.01) - \Phi(-2.01) \approx 2 \times 0.9778 - 1 = 0.9556
+$$
 
 </details>
 
@@ -1235,18 +1519,24 @@ weak law of large numbers, $S^2 \xrightarrow{p} \sigma^2$. $\blacksquare$
 Given i.i.d. Observations $x_1, \ldots, x_n$ from a distribution with parameter $\theta$The
 **likelihood function** is
 
-$$L(\theta) = \prod_{i=1}^n f(x_i \mid \theta)$$
+$$
+L(\theta) = \prod_{i=1}^n f(x_i \mid \theta)
+$$
 
 And the **log-likelihood** is
 
-$$\ell(\theta) = \log L(\theta) = \sum_{i=1}^n \log f(x_i \mid \theta)$$
+$$
+\ell(\theta) = \log L(\theta) = \sum_{i=1}^n \log f(x_i \mid \theta)
+$$
 
 ### 7.2 MLE Procedure
 
 The **maximum likelihood estimator** (MLE) $\hat{\theta}_{\mathrm{MLE}}$ maximises $L(\theta)$
 (equivalently, $\ell(\theta)$):
 
-$$\hat{\theta}_{\mathrm{MLE} = \arg\max_\theta L(\theta)}$$
+$$
+\hat{\theta}_{\mathrm{MLE} = \arg\max_\theta L(\theta)}
+$$
 
 found by solving $\ell'(\theta) = 0$ and verifying $\ell''(\hat{\theta}) \lt 0$.
 
@@ -1264,7 +1554,9 @@ maximiser of $\ell(\theta)$ converges in probability to $\theta_0$.
 
 **Theorem 7.2 (Asymptotic Normality).** Under regularity conditions:
 
-$$\sqrt{n}(\hat{\theta}_{\mathrm{MLE} - \theta_0) \xrightarrow{d} N\left(0, \frac{1}{I(\theta_0)}\right)}$$
+$$
+\sqrt{n}(\hat{\theta}_{\mathrm{MLE} - \theta_0) \xrightarrow{d} N\left(0, \frac{1}{I(\theta_0)}\right)}
+$$
 
 Where $I(\theta_0)$ is the **Fisher information**.
 
@@ -1272,13 +1564,17 @@ Where $I(\theta_0)$ is the **Fisher information**.
 
 **Definition.** The **Fisher information** for a single observation is
 
-$$I(\theta) = E\left[\left(\frac{\partial}{\partial \theta} \log f(X \mid \theta)\right)^2\right] = -E\left[\frac{\partial^2}{\partial \theta^2} \log f(X \mid \theta)\right]$$
+$$
+I(\theta) = E\left[\left(\frac{\partial}{\partial \theta} \log f(X \mid \theta)\right)^2\right] = -E\left[\frac{\partial^2}{\partial \theta^2} \log f(X \mid \theta)\right]
+$$
 
 Provided the interchange of differentiation and integration is valid.
 
 **Theorem 7.3 (Cramer-Rao Lower Bound).** For any **unbiased** estimator $T$ of $\theta$:
 
-$$\mathrm{Var}(T) \geq \frac{1}{n\, I(\theta)}$$
+$$
+\mathrm{Var}(T) \geq \frac{1}{n\, I(\theta)}
+$$
 
 _Intuition._ The Cramer-Rao bound gives a theoretical minimum for the variance of any unbiased
 estimator. An Estimator that achieves this bound is called **efficient**.
@@ -1293,28 +1589,38 @@ bound and is efficient.
 **Definition.** A $100(1 - \alpha)\%$ **confidence interval** for $\theta$ is a random interval
 $[L, U]$ such that
 
-$$P_\theta(L \leq \theta \leq U) = 1 - \alpha$$
+$$
+P_\theta(L \leq \theta \leq U) = 1 - \alpha
+$$
 
 **Theorem 7.4.** Under the asymptotic normality of the MLE, an approximate $100(1-\alpha)\%$
 confidence interval For $\theta$ is
 
-$$\hat{\theta} \pm z_{\alpha/2} \cdot \frac{1}{\sqrt{n\, I(\hat{\theta})}}$$
+$$
+\hat{\theta} \pm z_{\alpha/2} \cdot \frac{1}{\sqrt{n\, I(\hat{\theta})}}
+$$
 
 Where $z_{\alpha/2} = \Phi^{-1}(1 - \alpha/2)$.
 
 **Example 7.2.** For $X_1, \ldots, X_n \sim N(\mu, \sigma^2)$ with $\sigma$ known, the exact
 $100(1-\alpha)\%$ Confidence interval for $\mu$ is:
 
-$$\bar{X} \pm z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}$$
+$$
+\bar{X} \pm z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}
+$$
 
 When $\sigma$ is unknown, replace $\sigma$ with $S$ and $z_{\alpha/2}$ with $t_{n-1, \alpha/2}$:
 
-$$\bar{X} \pm t_{n-1, \alpha/2} \cdot \frac{S}{\sqrt{n}}$$
+$$
+\bar{X} \pm t_{n-1, \alpha/2} \cdot \frac{S}{\sqrt{n}}
+$$
 
 **Theorem 7.5 (Wald Confidence Interval).** For a scalar parameter $\theta$ with MLE $\hat{\theta}$
 satisfying Asymptotic normality, the **Wald confidence interval** is
 
-$$\hat{\theta} \pm z_{\alpha/2}\, \widehat{\mathrm{SE}(\hat{\theta})}$$
+$$
+\hat{\theta} \pm z_{\alpha/2}\, \widehat{\mathrm{SE}(\hat{\theta})}
+$$
 
 Where $\widehat{\mathrm{SE}(\hat{\theta}) = 1/\sqrt{n\, I(\hat{\theta})}}$ is the estimated standard
 error.
@@ -1329,7 +1635,9 @@ $\hat{p} = 220/400 = 0.55$. For a Bernoulli: $I(p) = 1/[p(1-p)]$ So
 $\widehat{\mathrm{SE} = \sqrt{\hat{p}(1 - \hat{p})/n}
 = \sqrt{0.55 \times 0.45 / 400} = \sqrt{0.000619} \approx 0.02488}$.
 
-$$95\%\, \mathrm{CI}: 0.55 \pm 1.96 \times 0.02488 = 0.55 \pm 0.0488 = (0.501, 0.599)$$
+$$
+95\%\, \mathrm{CI}: 0.55 \pm 1.96 \times 0.02488 = 0.55 \pm 0.0488 = (0.501, 0.599)
+$$
 
 </details>
 
@@ -1341,11 +1649,17 @@ $\mathrm{Exp}(\lambda)$.
 <details>
 <summary>Solution</summary>
 
-$$L(\lambda) = \prod_{i=1}^n \lambda e^{-\lambda x_i} = \lambda^n e^{-\lambda \sum x_i}$$
+$$
+L(\lambda) = \prod_{i=1}^n \lambda e^{-\lambda x_i} = \lambda^n e^{-\lambda \sum x_i}
+$$
 
-$$\ell(\lambda) = n \log \lambda - \lambda \sum_{i=1}^n x_i$$
+$$
+\ell(\lambda) = n \log \lambda - \lambda \sum_{i=1}^n x_i
+$$
 
-$$\frac{d\ell}{d\lambda} = \frac{n}{\lambda} - \sum_{i=1}^n x_i = 0 \implies \hat{\lambda} = \frac{n}{\sum x_i} = \frac{1}{\bar{x}}$$
+$$
+\frac{d\ell}{d\lambda} = \frac{n}{\lambda} - \sum_{i=1}^n x_i = 0 \implies \hat{\lambda} = \frac{n}{\sum x_i} = \frac{1}{\bar{x}}
+$$
 
 Verify: $\frac{d^2\ell}{d\lambda^2} = -\frac{n}{\lambda^2} \lt 0$Confirming this is a maximum.
 $\blacksquare$
@@ -1358,11 +1672,17 @@ counts $x_1, \ldots, x_m$).
 <details>
 <summary>Solution</summary>
 
-$$L(p) = \prod_{j=1}^m \binom{n}{x_j} p^{x_j} (1-p)^{n - x_j}$$
+$$
+L(p) = \prod_{j=1}^m \binom{n}{x_j} p^{x_j} (1-p)^{n - x_j}
+$$
 
-$$\ell(p) = \sum_{j=1}^m \left[\log \binom{n}{x_j} + x_j \log p + (n - x_j) \log(1 - p)\right]$$
+$$
+\ell(p) = \sum_{j=1}^m \left[\log \binom{n}{x_j} + x_j \log p + (n - x_j) \log(1 - p)\right]
+$$
 
-$$\frac{d\ell}{dp} = \sum_{j=1}^m \left[\frac{x_j}{p} - \frac{n - x_j}{1 - p}\right] = \frac{\sum x_j}{p} - \frac{mn - \sum x_j}{1 - p} = 0$$
+$$
+\frac{d\ell}{dp} = \sum_{j=1}^m \left[\frac{x_j}{p} - \frac{n - x_j}{1 - p}\right] = \frac{\sum x_j}{p} - \frac{mn - \sum x_j}{1 - p} = 0
+$$
 
 Solving: $(1 - p)\sum x_j = p(mn - \sum x_j)$ So $\sum x_j = pmn$Hence
 $\hat{p} = \frac{\sum x_j}{mn} = \frac{\bar{x}}{n}$.
@@ -1381,16 +1701,22 @@ a 95% confidence Interval.
 For $X \sim \mathrm{Exp}(\lambda)$: $f(x \mid \lambda) = \lambda e^{-\lambda x}$ So
 $\log f = \log \lambda - \lambda x$.
 
-$$\frac{\partial}{\partial \lambda} \log f = \frac{1}{\lambda} - x$$
+$$
+\frac{\partial}{\partial \lambda} \log f = \frac{1}{\lambda} - x
+$$
 
-$$I(\lambda) = -E\left[\frac{\partial^2}{\partial \lambda^2} \log f\right] = -E\left[-\frac{1}{\lambda^2}\right] = \frac{1}{\lambda^2}$$
+$$
+I(\lambda) = -E\left[\frac{\partial^2}{\partial \lambda^2} \log f\right] = -E\left[-\frac{1}{\lambda^2}\right] = \frac{1}{\lambda^2}
+$$
 
 The MLE $\hat{\lambda} = 1/\bar{X}$ is approximately
 $N(\lambda, 1/(n \cdot I(\lambda))) = N(\lambda, \lambda^2/n)$.
 
 A 95% confidence interval is:
 
-$$\hat{\lambda} \pm 1.96 \cdot \frac{\hat{\lambda}}{\sqrt{n}}$$
+$$
+\hat{\lambda} \pm 1.96 \cdot \frac{\hat{\lambda}}{\sqrt{n}}
+$$
 
 </details>
 
@@ -1426,7 +1752,9 @@ The **power** of a test is $1 - \beta = P(\mathrm{reject}  H_0 \mid H_1 \mathrm{
 $H_1: \theta = \theta_1$ Based on a single observation $X$ with PDF $f(x \mid \theta)$. The **most
 powerful test** of level $\alpha$ rejects $H_0$ when the **likelihood ratio** exceeds a threshold:
 
-$$\Lambda(x) = \frac{f(x \mid \theta_1)}{f(x \mid \theta_0)} \gt k$$
+$$
+\Lambda(x) = \frac{f(x \mid \theta_1)}{f(x \mid \theta_0)} \gt k
+$$
 
 For some $k$ chosen so that $P(\Lambda(X) \gt k \mid H_0) = \alpha$.
 
@@ -1443,13 +1771,17 @@ large-$\Lambda$ regions and cannot exceed the power of $\phi^*$. $\blacksquare$
 For composite hypotheses $H_0: \theta \in \Theta_0$ vs $H_1: \theta \in \Theta_1$The **generalised
 likelihood Ratio statistic** is
 
-$$\Lambda = \frac{\sup_{\theta \in \Theta_0} L(\theta)}{\sup_{\theta \in \Theta} L(\theta)}$$
+$$
+\Lambda = \frac{\sup_{\theta \in \Theta_0} L(\theta)}{\sup_{\theta \in \Theta} L(\theta)}
+$$
 
 We reject $H_0$ when $\Lambda$ is small (equivalently, when $-2\log \Lambda$ is large).
 
 **Theorem 8.2 (Wilks' Theorem).** Under $H_0$ and regularity conditions:
 
-$$-2 \log \Lambda \xrightarrow{d} \chi^2_d$$
+$$
+-2 \log \Lambda \xrightarrow{d} \chi^2_d
+$$
 
 Where $d = \dim(\Theta) - \dim(\Theta_0)$ is the difference in the number of free parameters.
 
@@ -1462,7 +1794,9 @@ Computed, assuming $H_0$ is true. We reject $H_0$ if the p-value is less than $\
 
 If $X_1, \ldots, X_n \sim N(\mu, \sigma^2)$ with known $\sigma$To test $H_0: \mu = \mu_0$:
 
-$$Z = \frac{\bar{X} - \mu_0}{\sigma / \sqrt{n}}$$
+$$
+Z = \frac{\bar{X} - \mu_0}{\sigma / \sqrt{n}}
+$$
 
 Under $H_0$, $Z \sim N(0, 1)$.
 
@@ -1474,7 +1808,9 @@ Under $H_0$, $Z \sim N(0, 1)$.
 
 If $\sigma$ is unknown, replace $\sigma$ with the sample standard deviation $S$:
 
-$$T = \frac{\bar{X} - \mu_0}{S / \sqrt{n}}$$
+$$
+T = \frac{\bar{X} - \mu_0}{S / \sqrt{n}}
+$$
 
 Under $H_0$, $T \sim t_{n-1}$ (Student's t-distribution with $n - 1$ degrees of freedom).
 
@@ -1482,7 +1818,9 @@ Under $H_0$, $T \sim t_{n-1}$ (Student's t-distribution with $n - 1$ degrees of 
 
 To test $H_0: \sigma^2 = \sigma_0^2$ for $X_1, \ldots, X_n \sim N(\mu, \sigma^2)$:
 
-$$\chi^2 = \frac{(n-1)S^2}{\sigma_0^2}$$
+$$
+\chi^2 = \frac{(n-1)S^2}{\sigma_0^2}
+$$
 
 Under $H_0$, $\chi^2 \sim \chi^2_{n-1}$.
 
@@ -1491,7 +1829,9 @@ Under $H_0$, $\chi^2 \sim \chi^2_{n-1}$.
 To test whether observed data follow a specified discrete distribution, partition the sample space
 into $k$ cells With expected counts $e_i$ and observed counts $o_i$. The test statistic is
 
-$$\chi^2 = \sum_{i=1}^k \frac{(o_i - e_i)^2}{e_i}$$
+$$
+\chi^2 = \sum_{i=1}^k \frac{(o_i - e_i)^2}{e_i}
+$$
 
 Under $H_0$ (and provided expected counts are sufficiently large), $\chi^2 \sim \chi^2_{k - 1 - p}$
 where $p$ is the Number of parameters estimated from the data.
@@ -1504,9 +1844,13 @@ where $p$ is the Number of parameters estimated from the data.
 
 $H_0$: die is fair (each face has probability $1/6$). Expected count per face: $e_i = 60/6 = 10$.
 
-$$\chi^2 = \frac{(8 - 10)^2}{10} + \frac{(12 - 10)^2}{10} + \frac{(9 - 10)^2}{10} + \frac{(11 - 10)^2}{10} + \frac{(13 - 10)^2}{10} + \frac{(7 - 10)^2}{10}$$
+$$
+\chi^2 = \frac{(8 - 10)^2}{10} + \frac{(12 - 10)^2}{10} + \frac{(9 - 10)^2}{10} + \frac{(11 - 10)^2}{10} + \frac{(13 - 10)^2}{10} + \frac{(7 - 10)^2}{10}
+$$
 
-$$= \frac{4 + 4 + 1 + 1 + 9 + 9}{10} = \frac{28}{10} = 2.8$$
+$$
+= \frac{4 + 4 + 1 + 1 + 9 + 9}{10} = \frac{28}{10} = 2.8
+$$
 
 Under $H_0$, $\chi^2 \sim \chi^2_5$. The critical value at $\alpha = 0.05$ is
 $\chi^2_{5, 0.05} = 11.07$.
@@ -1521,17 +1865,23 @@ $\blacksquare$
 **Two-sample Z-test.** To test $H_0: \mu_1 - \mu_2 = 0$ for independent samples with known variances
 $\sigma_1^2, \sigma_2^2$:
 
-$$Z = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\sigma_1^2/n_1 + \sigma_2^2/n_2}}$$
+$$
+Z = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\sigma_1^2/n_1 + \sigma_2^2/n_2}}
+$$
 
 Under $H_0$, $Z \sim N(0, 1)$.
 
 **Two-sample t-test (Welch's).** When variances are unknown and possibly unequal:
 
-$$T = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{S_1^2/n_1 + S_2^2/n_2}}$$
+$$
+T = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{S_1^2/n_1 + S_2^2/n_2}}
+$$
 
 The degrees of freedom are approximated by Welch's formula:
 
-$$\nu = \frac{(S_1^2/n_1 + S_2^2/n_2)^2}{\frac{(S_1^2/n_1)^2}{n_1 - 1} + \frac{(S_2^2/n_2)^2}{n_2 - 1}}$$
+$$
+\nu = \frac{(S_1^2/n_1 + S_2^2/n_2)^2}{\frac{(S_1^2/n_1)^2}{n_1 - 1} + \frac{(S_2^2/n_2)^2}{n_2 - 1}}
+$$
 
 **Problem 8.5.** A study compares two teaching methods. Method A (20 students): mean score 78,
 standard deviation 8. Method B (25 students): mean score 72, standard deviation 10. Test
@@ -1542,9 +1892,13 @@ $H_0: \mu_A = \mu_B$ vs $H_1: \mu_A \neq \mu_B$ At $\alpha = 0.05$.
 
 Using Welch's t-test:
 
-$$T = \frac{78 - 72}{\sqrt{64/20 + 100/25}} = \frac{6}{\sqrt{3.2 + 4}} = \frac{6}{\sqrt{7.2}} = \frac{6}{2.683} \approx 2.236$$
+$$
+T = \frac{78 - 72}{\sqrt{64/20 + 100/25}} = \frac{6}{\sqrt{3.2 + 4}} = \frac{6}{\sqrt{7.2}} = \frac{6}{2.683} \approx 2.236
+$$
 
-$$\nu = \frac{(3.2 + 4)^2}{3.2^2/19 + 4^2/24} = \frac{51.84}{0.539 + 0.667} = \frac{51.84}{1.206} \approx 42.98$$
+$$
+\nu = \frac{(3.2 + 4)^2}{3.2^2/19 + 4^2/24} = \frac{51.84}{0.539 + 0.667} = \frac{51.84}{1.206} \approx 42.98
+$$
 
 Use $\nu \approx 43$ degrees of freedom. The critical values for a two-sided test at $\alpha = 0.05$
 are Approximately $\pm 2.017$.
@@ -1580,7 +1934,9 @@ Test the claim at $\alpha = 0.05$.
 
 $H_0: \mu = 5$ vs $H_1: \mu \neq 5$.
 
-$$T = \frac{4.2 - 5}{3.1 / \sqrt{50}} = \frac{-0.8}{0.4384} \approx -1.825$$
+$$
+T = \frac{4.2 - 5}{3.1 / \sqrt{50}} = \frac{-0.8}{0.4384} \approx -1.825
+$$
 
 Under $H_0$, $T \sim t_{49}$. The critical values for a two-sided test at $\alpha = 0.05$ are
 approximately $\pm 2.010$.
@@ -1600,11 +1956,15 @@ Under $H_0$: $\sup_{\mu = \mu_0} L(\mu, \sigma^2) = L(\mu_0, \sigma^2)$.
 
 Under $H_1 \cup H_0$: $\sup_\mu L(\mu, \sigma^2) = L(\bar{x}, \sigma^2)$.
 
-$$\Lambda = \frac{L(\mu_0, \sigma^2)}{L(\bar{x}, \sigma^2)} = \exp\left(-\frac{1}{2\sigma^2}\left[\sum(x_i - \mu_0)^2 - \sum(x_i - \bar{x})^2\right]\right)$$
+$$
+\Lambda = \frac{L(\mu_0, \sigma^2)}{L(\bar{x}, \sigma^2)} = \exp\left(-\frac{1}{2\sigma^2}\left[\sum(x_i - \mu_0)^2 - \sum(x_i - \bar{x})^2\right]\right)
+$$
 
 Now $\sum(x_i - \mu_0)^2 = \sum(x_i - \bar{x})^2 + n(\bar{x} - \mu_0)^2$ So:
 
-$$\Lambda = \exp\left(-\frac{n(\bar{x} - \mu_0)^2}{2\sigma^2}\right)$$
+$$
+\Lambda = \exp\left(-\frac{n(\bar{x} - \mu_0)^2}{2\sigma^2}\right)
+$$
 
 We reject $H_0$ when $\Lambda$ is small, i.e., when $\frac{n(\bar{x} - \mu_0)^2}{\sigma^2}$ is
 large, which is Equivalent to $\left|\frac{\bar{X} - \mu_0}{\sigma / \sqrt{n}}\right| \gt c$. This
@@ -1628,9 +1988,13 @@ Compute $P(A \cup B \cup C)$.
 
 By the general inclusion-exclusion principle:
 
-$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)$$
+$$
+P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)
+$$
 
-$$= 0.4 + 0.5 + 0.3 - 0.2 - 0.1 - 0.15 + 0.05 = 0.80$$
+$$
+= 0.4 + 0.5 + 0.3 - 0.2 - 0.1 - 0.15 + 0.05 = 0.80
+$$
 
 </details>
 
@@ -1644,7 +2008,9 @@ probability that the Third ace appears on the 10th draw?
 
 We need exactly 2 aces in the first 9 draws and the 10th card is an ace.
 
-$$P = \frac{\binom{4}{2}\binom{48}{7}}{\binom{52}{9}} \times \frac{2}{43} = \frac{6 \times 62891499}{3679075400} \times \frac{2}{43} \approx 0.00476$$
+$$
+P = \frac{\binom{4}{2}\binom{48}{7}}{\binom{52}{9}} \times \frac{2}{43} = \frac{6 \times 62891499}{3679075400} \times \frac{2}{43} \approx 0.00476
+$$
 
 </details>
 
@@ -1676,11 +2042,17 @@ Normalisation: $\int_0^1 cx^2\, dx = c/3 = 1$ So $c = 3$.
 
 CDF: $F(x) = \int_0^x 3t^2\, dt = x^3$ for $0 \leq x \leq 1$.
 
-$$E[X] = \int_0^1 x \cdot 3x^2\, dx = 3\int_0^1 x^3\, dx = \frac{3}{4}$$
+$$
+E[X] = \int_0^1 x \cdot 3x^2\, dx = 3\int_0^1 x^3\, dx = \frac{3}{4}
+$$
 
-$$E[X^2] = \int_0^1 x^2 \cdot 3x^2\, dx = 3\int_0^1 x^4\, dx = \frac{3}{5}$$
+$$
+E[X^2] = \int_0^1 x^2 \cdot 3x^2\, dx = 3\int_0^1 x^4\, dx = \frac{3}{5}
+$$
 
-$$\mathrm{Var}(X) = \frac{3}{5} - \left(\frac{3}{4}\right)^2 = \frac{3}{5} - \frac{9}{16} = \frac{48 - 45}{80} = \frac{3}{80}$$
+$$
+\mathrm{Var}(X) = \frac{3}{5} - \left(\frac{3}{4}\right)^2 = \frac{3}{5} - \frac{9}{16} = \frac{48 - 45}{80} = \frac{3}{80}
+$$
 
 </details>
 
@@ -1692,18 +2064,24 @@ this to derive $\mathrm{Var}(X) = np(1 - p)$.
 <details>
 <summary>Solution</summary>
 
-$$E[X(X - 1)] = \sum_{k=0}^n k(k-1) \binom{n}{k} p^k (1-p)^{n-k}$$
+$$
+E[X(X - 1)] = \sum_{k=0}^n k(k-1) \binom{n}{k} p^k (1-p)^{n-k}
+$$
 
 For $k \geq 2$:
 $k(k-1)\binom{n}{k} = k(k-1) \cdot \frac{n!}{k!(n-k)!} = \frac{n!}{(k-2)!(n-k)!} = n(n-1)\binom{n-2}{k-2}$.
 
-$$E[X(X-1)] = n(n-1)p^2 \sum_{k=2}^n \binom{n-2}{k-2} p^{k-2}(1-p)^{n-k} = n(n-1)p^2 \cdot 1 = n(n-1)p^2$$
+$$
+E[X(X-1)] = n(n-1)p^2 \sum_{k=2}^n \binom{n-2}{k-2} p^{k-2}(1-p)^{n-k} = n(n-1)p^2 \cdot 1 = n(n-1)p^2
+$$
 
 (the sum is the binomial theorem for $\mathrm{Bin}(n-2, p)$).
 
 Now $E[X^2] = E[X(X-1)] + E[X] = n(n-1)p^2 + np$.
 
-$$\mathrm{Var}(X) = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p) \quad \blacksquare$$
+$$
+\mathrm{Var}(X) = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p) \quad \blacksquare
+$$
 
 </details>
 
@@ -1715,16 +2093,22 @@ $\mathrm{Var}(X)$.
 <details>
 <summary>Solution</summary>
 
-$$E[X(X-1)(X-2)] = \sum_{k=0}^{\infty} k(k-1)(k-2) \frac{e^{-\lambda}\lambda^k}{k!} = e^{-\lambda} \sum_{k=3}^{\infty} \frac{\lambda^k}{(k-3)!}$$
+$$
+E[X(X-1)(X-2)] = \sum_{k=0}^{\infty} k(k-1)(k-2) \frac{e^{-\lambda}\lambda^k}{k!} = e^{-\lambda} \sum_{k=3}^{\infty} \frac{\lambda^k}{(k-3)!}
+$$
 
-$$= e^{-\lambda} \lambda^3 \sum_{j=0}^{\infty} \frac{\lambda^j}{j!} = \lambda^3$$
+$$
+= e^{-\lambda} \lambda^3 \sum_{j=0}^{\infty} \frac{\lambda^j}{j!} = \lambda^3
+$$
 
 So
 $E[X^3] = E[X(X-1)(X-2)] + 3E[X^2] - 2E[X] = \lambda^3 + 3(\lambda^2 + \lambda) - 2\lambda = \lambda^3 + 3\lambda^2 + \lambda$.
 
 For variance: $E[X^2] = E[X(X-1)] + E[X] = \lambda^2 + \lambda$.
 
-$$\mathrm{Var}(X) = (\lambda^2 + \lambda) - \lambda^2 = \lambda \quad \blacksquare$$
+$$
+\mathrm{Var}(X) = (\lambda^2 + \lambda) - \lambda^2 = \lambda \quad \blacksquare
+$$
 
 </details>
 
@@ -1753,13 +2137,21 @@ Find $P(X \gt Y)$.
 <details>
 <summary>Solution</summary>
 
-$$P(X \gt Y) = \int_0^1 \int_y^1 \frac{3}{2}(x^2 + y^2)\, dx\, dy$$
+$$
+P(X \gt Y) = \int_0^1 \int_y^1 \frac{3}{2}(x^2 + y^2)\, dx\, dy
+$$
 
-$$= \frac{3}{2} \int_0^1 \left[\frac{x^3}{3} + xy^2\right]_{x=y}^{x=1}\, dy = \frac{3}{2} \int_0^1 \left(\frac{1}{3} + y^2 - \frac{y^3}{3} - y^3\right)\, dy$$
+$$
+= \frac{3}{2} \int_0^1 \left[\frac{x^3}{3} + xy^2\right]_{x=y}^{x=1}\, dy = \frac{3}{2} \int_0^1 \left(\frac{1}{3} + y^2 - \frac{y^3}{3} - y^3\right)\, dy
+$$
 
-$$= \frac{3}{2} \int_0^1 \left(\frac{1}{3} + y^2 - \frac{4y^3}{3}\right)\, dy = \frac{3}{2} \left[\frac{y}{3} + \frac{y^3}{3} - \frac{y^4}{3}\right]_0^1$$
+$$
+= \frac{3}{2} \int_0^1 \left(\frac{1}{3} + y^2 - \frac{4y^3}{3}\right)\, dy = \frac{3}{2} \left[\frac{y}{3} + \frac{y^3}{3} - \frac{y^4}{3}\right]_0^1
+$$
 
-$$= \frac{3}{2} \left(\frac{1}{3} + \frac{1}{3} - \frac{1}{3}\right) = \frac{3}{2} \cdot \frac{1}{3} = \frac{1}{2}$$
+$$
+= \frac{3}{2} \left(\frac{1}{3} + \frac{1}{3} - \frac{1}{3}\right) = \frac{3}{2} \cdot \frac{1}{3} = \frac{1}{2}
+$$
 
 </details>
 
@@ -1773,9 +2165,13 @@ PDF of $M = \max(X_1, X_2)$.
 
 The CDF of each $X_i$ is $F(x) = x^2$ for $0 \leq x \leq 1$.
 
-$$F_M(m) = P(\max(X_1, X_2) \leq m) = P(X_1 \leq m)\, P(X_2 \leq m) = F(m)^2 = m^4$$
+$$
+F_M(m) = P(\max(X_1, X_2) \leq m) = P(X_1 \leq m)\, P(X_2 \leq m) = F(m)^2 = m^4
+$$
 
-$$f_M(m) = \frac{d}{dm} F_M(m) = 4m^3, \quad 0 \leq m \leq 1$$
+$$
+f_M(m) = \frac{d}{dm} F_M(m) = 4m^3, \quad 0 \leq m \leq 1
+$$
 
 </details>
 
@@ -1789,15 +2185,23 @@ What is the distribution Of $X$? Compute $E[X]$ and $\mathrm{Var}(X)$.
 
 The MGF is a weighted sum of exponentials, corresponding to a discrete distribution:
 
-$$P(X = 1) = P(X = 2) = P(X = 3) = \frac{1}{3}$$
+$$
+P(X = 1) = P(X = 2) = P(X = 3) = \frac{1}{3}
+$$
 
 This is the discrete uniform distribution on `\\{1, 2, 3\\}`.
 
-$$E[X] = M_X'(0) = \frac{1}{3}e^0 + \frac{2}{3}e^0 + \frac{3}{3}e^0 = \frac{1 + 2 + 3}{3} = 2$$
+$$
+E[X] = M_X'(0) = \frac{1}{3}e^0 + \frac{2}{3}e^0 + \frac{3}{3}e^0 = \frac{1 + 2 + 3}{3} = 2
+$$
 
-$$E[X^2] = M_X''(0) = \frac{1}{3} + \frac{4}{3} + \frac{9}{3} = \frac{14}{3}$$
+$$
+E[X^2] = M_X''(0) = \frac{1}{3} + \frac{4}{3} + \frac{9}{3} = \frac{14}{3}
+$$
 
-$$\mathrm{Var}(X) = \frac{14}{3} - 4 = \frac{2}{3}$$
+$$
+\mathrm{Var}(X) = \frac{14}{3} - 4 = \frac{2}{3}
+$$
 
 </details>
 
@@ -1813,7 +2217,9 @@ $\sigma = \sqrt{21} \approx 4.583$.
 
 With continuity correction:
 
-$$P(X \leq 35) \approx P\left(Z \leq \frac{35.5 - 30}{\sqrt{21}}\right) = P\left(Z \leq \frac{5.5}{4.583}\right) = P(Z \leq 1.20) \approx 0.8849$$
+$$
+P(X \leq 35) \approx P\left(Z \leq \frac{35.5 - 30}{\sqrt{21}}\right) = P\left(Z \leq \frac{5.5}{4.583}\right) = P(Z \leq 1.20) \approx 0.8849
+$$
 
 </details>
 
@@ -1827,11 +2233,17 @@ $P(0.48 \lt \bar{X} \lt 0.52)$.
 
 $E[X_i] = 1/2$, $\mathrm{Var}(X_i) = 1/12$. By the CLT:
 
-$$\bar{X} \approx N\left(\frac{1}{2}, \frac{1}{1200}\right), \quad \sigma_{\bar{X}} = \frac{1}{\sqrt{1200}} \approx 0.02887$$
+$$
+\bar{X} \approx N\left(\frac{1}{2}, \frac{1}{1200}\right), \quad \sigma_{\bar{X}} = \frac{1}{\sqrt{1200}} \approx 0.02887
+$$
 
-$$P(0.48 \lt \bar{X} \lt 0.52) = P\left(\frac{0.48 - 0.50}{0.02887} \lt Z \lt \frac{0.52 - 0.50}{0.02887}\right) = P(-0.693 \lt Z \lt 0.693)$$
+$$
+P(0.48 \lt \bar{X} \lt 0.52) = P\left(\frac{0.48 - 0.50}{0.02887} \lt Z \lt \frac{0.52 - 0.50}{0.02887}\right) = P(-0.693 \lt Z \lt 0.693)
+$$
 
-$$\approx \Phi(0.693) - \Phi(-0.693) \approx 2(0.7557) - 1 = 0.5114$$
+$$
+\approx \Phi(0.693) - \Phi(-0.693) \approx 2(0.7557) - 1 = 0.5114
+$$
 
 </details>
 
@@ -1844,11 +2256,17 @@ $\theta \gt 0$.
 <details>
 <summary>Solution</summary>
 
-$$L(\theta) = \frac{\theta}{x^{\theta + 1}}$$
+$$
+L(\theta) = \frac{\theta}{x^{\theta + 1}}
+$$
 
-$$\ell(\theta) = \log \theta - (\theta + 1)\log x$$
+$$
+\ell(\theta) = \log \theta - (\theta + 1)\log x
+$$
 
-$$\frac{d\ell}{d\theta} = \frac{1}{\theta} - \log x = 0 \implies \hat{\theta} = \frac{1}{\log x}$$
+$$
+\frac{d\ell}{d\theta} = \frac{1}{\theta} - \log x = 0 \implies \hat{\theta} = \frac{1}{\log x}
+$$
 
 Verify: $\frac{d^2\ell}{d\theta^2} = -\frac{1}{\theta^2} \lt 0$Confirming a maximum. $\blacksquare$
 
@@ -1862,11 +2280,17 @@ Problem 13.
 <details>
 <summary>Solution</summary>
 
-$$\frac{\partial}{\partial \theta} \log f(x \mid \theta) = \frac{1}{\theta} - \log x$$
+$$
+\frac{\partial}{\partial \theta} \log f(x \mid \theta) = \frac{1}{\theta} - \log x
+$$
 
-$$\frac{\partial^2}{\partial \theta^2} \log f(x \mid \theta) = -\frac{1}{\theta^2}$$
+$$
+\frac{\partial^2}{\partial \theta^2} \log f(x \mid \theta) = -\frac{1}{\theta^2}
+$$
 
-$$I(\theta) = -E\left[-\frac{1}{\theta^2}\right] = \frac{1}{\theta^2}$$
+$$
+I(\theta) = -E\left[-\frac{1}{\theta^2}\right] = \frac{1}{\theta^2}
+$$
 
 </details>
 
@@ -1880,11 +2304,15 @@ $n = 16$ and known $\sigma = 8$. What is the power of the test if the true mean 
 
 Under $H_0$, $\bar{X} \sim N(50, 64/16) = N(50, 4)$. The critical value in terms of $\bar{X}$ is:
 
-$$\bar{x}_c = 50 + z_{0.01} \cdot \frac{8}{4} = 50 + 2.326 \times 2 = 54.652$$
+$$
+\bar{x}_c = 50 + z_{0.01} \cdot \frac{8}{4} = 50 + 2.326 \times 2 = 54.652
+$$
 
 Under $H_1$ (true $\mu = 54$): $\bar{X} \sim N(54, 4)$.
 
-$$\mathrm{Power} = P(\bar{X} \gt 54.652 \mid \mu = 54) = P\left(Z \gt \frac{54.652 - 54}{2}\right) = P(Z \gt 0.326) \approx 0.372$$
+$$
+\mathrm{Power} = P(\bar{X} \gt 54.652 \mid \mu = 54) = P\left(Z \gt \frac{54.652 - 54}{2}\right) = P(Z \gt 0.326) \approx 0.372
+$$
 
 </details>
 
@@ -1896,9 +2324,13 @@ Show that $P(X \lt Y) = \lambda / (\lambda + \mu)$.
 <details>
 <summary>Solution</summary>
 
-$$P(X \lt Y) = \int_0^{\infty} \int_x^{\infty} \lambda e^{-\lambda x} \mu e^{-\mu y}\, dy\, dx = \int_0^{\infty} \lambda e^{-\lambda x} e^{-\mu x}\, dx$$
+$$
+P(X \lt Y) = \int_0^{\infty} \int_x^{\infty} \lambda e^{-\lambda x} \mu e^{-\mu y}\, dy\, dx = \int_0^{\infty} \lambda e^{-\lambda x} e^{-\mu x}\, dx
+$$
 
-$$= \lambda \int_0^{\infty} e^{-(\lambda + \mu)x}\, dx = \frac{\lambda}{\lambda + \mu} \quad \blacksquare$$
+$$
+= \lambda \int_0^{\infty} e^{-(\lambda + \mu)x}\, dx = \frac{\lambda}{\lambda + \mu} \quad \blacksquare
+$$
 
 </details>
 
@@ -1907,14 +2339,20 @@ If you get this wrong, revise: Section 5.1 (Joint PDF) and Section 3.2 (Exponent
 **Problem 17.** Prove Chebyshev's inequality: for any random variable $X$ with finite mean $\mu$ and
 variance $\sigma^2$ And any $k \gt 0$:
 
-$$P(|X - \mu| \geq k\sigma) \leq \frac{1}{k^2}$$
+$$
+P(|X - \mu| \geq k\sigma) \leq \frac{1}{k^2}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$\sigma^2 = E[(X - \mu)^2] = \int_{-\infty}^{\infty} (x - \mu)^2\, dF(x)$$
+$$
+\sigma^2 = E[(X - \mu)^2] = \int_{-\infty}^{\infty} (x - \mu)^2\, dF(x)
+$$
 
-$$\geq \int_{|x - \mu| \geq k\sigma} (x - \mu)^2\, dF(x) \geq \int_{|x - \mu| \geq k\sigma} k^2 \sigma^2\, dF(x) = k^2 \sigma^2\, P(|X - \mu| \geq k\sigma)$$
+$$
+\geq \int_{|x - \mu| \geq k\sigma} (x - \mu)^2\, dF(x) \geq \int_{|x - \mu| \geq k\sigma} k^2 \sigma^2\, dF(x) = k^2 \sigma^2\, P(|X - \mu| \geq k\sigma)
+$$
 
 Therefore $P(|X - \mu| \geq k\sigma) \leq 1/k^2$. $\blacksquare$
 
@@ -1933,9 +2371,13 @@ Under $H_0$: $\sup L = (2\pi)^{-n/2} \exp\left(-\frac{1}{2}\sum(x_i - \mu_0)^2\r
 
 Under $H_1 \cup H_0$: $\sup L = (2\pi)^{-n/2} \exp\left(-\frac{1}{2}\sum(x_i - \bar{x})^2\right)$.
 
-$$\Lambda = \frac{L(\mu_0)}{L(\bar{x})} = \exp\left(-\frac{1}{2}\left[\sum(x_i - \mu_0)^2 - \sum(x_i - \bar{x})^2\right]\right) = \exp\left(-\frac{n(\bar{x} - \mu_0)^2}{2}\right)$$
+$$
+\Lambda = \frac{L(\mu_0)}{L(\bar{x})} = \exp\left(-\frac{1}{2}\left[\sum(x_i - \mu_0)^2 - \sum(x_i - \bar{x})^2\right]\right) = \exp\left(-\frac{n(\bar{x} - \mu_0)^2}{2}\right)
+$$
 
-$$-2\log \Lambda = n(\bar{x} - \mu_0)^2 = \left(\frac{\bar{x} - \mu_0}{1/\sqrt{n}}\right)^2 = Z^2$$
+$$
+-2\log \Lambda = n(\bar{x} - \mu_0)^2 = \left(\frac{\bar{x} - \mu_0}{1/\sqrt{n}}\right)^2 = Z^2
+$$
 
 Under $H_0$, $Z^2 \sim \chi^2_1$ So we reject when $|Z| \gt z_{\alpha/2}$. This is exactly the
 Z-test. $\blacksquare$
@@ -1950,13 +2392,21 @@ Find the MLE For $(\mu, \sigma^2)$ and show that $\hat{\sigma}^2_{\mathrm{MLE}}$
 <details>
 <summary>Solution</summary>
 
-$$L(\mu, \sigma^2) = (2\pi\sigma^2)^{-n/2} \exp\left(-\frac{1}{2\sigma^2}\sum_{i=1}^n (x_i - \mu)^2\right)$$
+$$
+L(\mu, \sigma^2) = (2\pi\sigma^2)^{-n/2} \exp\left(-\frac{1}{2\sigma^2}\sum_{i=1}^n (x_i - \mu)^2\right)
+$$
 
-$$\ell(\mu, \sigma^2) = -\frac{n}{2}\log(2\pi) - \frac{n}{2}\log(\sigma^2) - \frac{1}{2\sigma^2}\sum_{i=1}^n (x_i - \mu)^2$$
+$$
+\ell(\mu, \sigma^2) = -\frac{n}{2}\log(2\pi) - \frac{n}{2}\log(\sigma^2) - \frac{1}{2\sigma^2}\sum_{i=1}^n (x_i - \mu)^2
+$$
 
-$$\frac{\partial \ell}{\partial \mu} = \frac{1}{\sigma^2}\sum_{i=1}^n (x_i - \mu) = 0 \implies \hat{\mu} = \bar{x}$$
+$$
+\frac{\partial \ell}{\partial \mu} = \frac{1}{\sigma^2}\sum_{i=1}^n (x_i - \mu) = 0 \implies \hat{\mu} = \bar{x}
+$$
 
-$$\frac{\partial \ell}{\partial \sigma^2} = -\frac{n}{2\sigma^2} + \frac{1}{2(\sigma^2)^2}\sum_{i=1}^n (x_i - \mu)^2 = 0$$
+$$
+\frac{\partial \ell}{\partial \sigma^2} = -\frac{n}{2\sigma^2} + \frac{1}{2(\sigma^2)^2}\sum_{i=1}^n (x_i - \mu)^2 = 0
+$$
 
 Substituting $\hat{\mu} = \bar{x}$: $\hat{\sigma}^2 = \frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2$.
 
@@ -1981,7 +2431,9 @@ Let $g(t) = t(1 - t) = t - t^2$. Then $g'(t) = 1 - 2t$ So $g'(p) = 1 - 2p$.
 
 By the delta method:
 
-$$\sqrt{n}\left(\hat{p}(1 - \hat{p}) - p(1 - p)\right) \xrightarrow{d} N(0, p(1 - p)(1 - 2p)^2)$$
+$$
+\sqrt{n}\left(\hat{p}(1 - \hat{p}) - p(1 - p)\right) \xrightarrow{d} N(0, p(1 - p)(1 - 2p)^2)
+$$
 
 </details>
 
@@ -1998,7 +2450,9 @@ $E[\bar{X}_n] = \mu$ (unbiased) and $\mathrm{Var}(\bar{X}_n) = \sigma^2/n$.
 
 By Chebyshev's inequality, for any $\varepsilon \gt 0$:
 
-$$P(|\bar{X}_n - \mu| \geq \varepsilon) \leq \frac{\mathrm{Var}(\bar{X}_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2}$$
+$$
+P(|\bar{X}_n - \mu| \geq \varepsilon) \leq \frac{\mathrm{Var}(\bar{X}_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2}
+$$
 
 As $n \to \infty$The right side goes to 0, so $\bar{X}_n \xrightarrow{p} \mu$. $\blacksquare$
 
@@ -2015,7 +2469,9 @@ by more than 1.
 
 By the CLT, $\bar{X} \approx N(\mu, \sigma^2/n) = N(\mu, 16/64) = N(\mu, 1/4)$.
 
-$$P(|\bar{X} - \mu| \gt 1) = P\left(\left|\frac{\bar{X} - \mu}{0.5}\right| \gt 2\right) = P(|Z| \gt 2) = 2(1 - \Phi(2)) \approx 2(0.0228) = 0.0456$$
+$$
+P(|\bar{X} - \mu| \gt 1) = P\left(\left|\frac{\bar{X} - \mu}{0.5}\right| \gt 2\right) = P(|Z| \gt 2) = 2(1 - \Phi(2)) \approx 2(0.0228) = 0.0456
+$$
 
 </details>
 
@@ -2033,7 +2489,9 @@ The conditional PDF: $f_{X \mid Y}(x \mid y) = \frac{e^{-x-y}}{e^{-y}} = e^{-x}$
 
 Note that $f_{X \mid Y}(x \mid y)$ does not depend on $y$Confirming $X$ and $Y$ are independent.
 
-$$E[X \mid Y = y] = \int_0^{\infty} x\, e^{-x}\, dx = 1$$
+$$
+E[X \mid Y = y] = \int_0^{\infty} x\, e^{-x}\, dx = 1
+$$
 
 By the law of iterated expectations: $E[E[X \mid Y]] = E[1] = 1 = E[X]$ (since
 $X \sim \mathrm{Exp}(1)$). $\blacksquare$
@@ -2052,15 +2510,21 @@ Cauchy Distribution.
 We use the Jacobian method. Let $U = X/Y$ and $V = Y$. Then $X = UV$, $Y = V$ with Jacobian
 $|J| = |v|$.
 
-$$f_{U,V}(u,v) = \frac{1}{2\pi} e^{-(uv)^2/2}\, e^{-v^2/2}\, |v| = \frac{|v|}{2\pi} e^{-v^2(u^2 + 1)/2}$$
+$$
+f_{U,V}(u,v) = \frac{1}{2\pi} e^{-(uv)^2/2}\, e^{-v^2/2}\, |v| = \frac{|v|}{2\pi} e^{-v^2(u^2 + 1)/2}
+$$
 
 Integrating out $v$:
 
-$$f_U(u) = \int_{-\infty}^{\infty} \frac{|v|}{2\pi} e^{-v^2(1+u^2)/2}\, dv = \frac{1}{\pi} \int_0^{\infty} v\, e^{-v^2(1+u^2)/2}\, dv$$
+$$
+f_U(u) = \int_{-\infty}^{\infty} \frac{|v|}{2\pi} e^{-v^2(1+u^2)/2}\, dv = \frac{1}{\pi} \int_0^{\infty} v\, e^{-v^2(1+u^2)/2}\, dv
+$$
 
 Let $w = v^2(1+u^2)/2$ So $dw = v(1+u^2)\, dv$:
 
-$$f_U(u) = \frac{1}{\pi(1+u^2)} \int_0^{\infty} e^{-w}\, dw = \frac{1}{\pi(1+u^2)}$$
+$$
+f_U(u) = \frac{1}{\pi(1+u^2)} \int_0^{\infty} e^{-w}\, dw = \frac{1}{\pi(1+u^2)}
+$$
 
 This is the standard Cauchy distribution. Note that $E[|X/Y|] = \infty$ So the mean does not exist.
 $\blacksquare$
@@ -2071,16 +2535,22 @@ If you get this wrong, revise: Section 5.6 (Jacobian Method).
 
 **Problem 25.** Prove that for any events $A, B, C$:
 
-$$P(A \cap B \cap C) = P(A)\, P(B \mid A)\, P(C \mid A \cap B)$$
+$$
+P(A \cap B \cap C) = P(A)\, P(B \mid A)\, P(C \mid A \cap B)
+$$
 
 <details>
 <summary>Solution</summary>
 
 By the definition of conditional probability applied twice:
 
-$$P(B \cap C \mid A) = \frac{P(A \cap B \cap C)}{P(A)}$$
+$$
+P(B \cap C \mid A) = \frac{P(A \cap B \cap C)}{P(A)}
+$$
 
-$$P(C \mid A \cap B) = \frac{P(A \cap B \cap C)}{P(A \cap B)}$$
+$$
+P(C \mid A \cap B) = \frac{P(A \cap B \cap C)}{P(A \cap B)}
+$$
 
 From the second: $P(A \cap B \cap C) = P(C \mid A \cap B)\, P(A \cap B)$. And
 $P(A \cap B) = P(B \mid A)\, P(A)$.
@@ -2104,7 +2574,9 @@ The MGF of $X \sim \mathrm{Poisson}(\lambda)$ is $M_X(t) = \exp(\lambda(e^t - 1)
 
 For any integer $n \geq 1$We can write:
 
-$$M_X(t) = \left[\exp\left(\frac{\lambda}{n}(e^t - 1)\right)\right]^n$$
+$$
+M_X(t) = \left[\exp\left(\frac{\lambda}{n}(e^t - 1)\right)\right]^n
+$$
 
 Each factor $\exp\left(\frac{\lambda}{n}(e^t - 1)\right)$ is the MGF of
 $\mathrm{Poisson}(\lambda/n)$. Therefore $X = Y_1 + \cdots + Y_n$ where
@@ -2133,7 +2605,9 @@ for $\mu$ and $\sigma^2$.
 
 **Solution.** Log-likelihood:
 
-$$\ell(\mu, \sigma^2) = -\frac{n}{2}\ln(2\pi) - \frac{n}{2}\ln\sigma^2 - \frac{1}{2\sigma^2}\sum_{i=1}^n (x_i - \mu)^2$$
+$$
+\ell(\mu, \sigma^2) = -\frac{n}{2}\ln(2\pi) - \frac{n}{2}\ln\sigma^2 - \frac{1}{2\sigma^2}\sum_{i=1}^n (x_i - \mu)^2
+$$
 
 $\frac{\partial \ell}{\partial \mu} = \frac{1}{\sigma^2}\sum(x_i - \mu) = 0 \Rightarrow \hat{\mu} = \bar{x}$.
 
@@ -2151,7 +2625,9 @@ $\blacksquare$
 
 By CLT: $\bar{X} \approx N(\mu, \sigma^2/n)$, so $\text{SE} = 0.1708$.
 
-$$P(\bar{X} > 3.7) = P\left(Z > \frac{3.7 - 3.5}{0.1708}\right) = P(Z > 1.17) = 1 - \Phi(1.17) = 0.121$$
+$$
+P(\bar{X} > 3.7) = P\left(Z > \frac{3.7 - 3.5}{0.1708}\right) = P(Z > 1.17) = 1 - \Phi(1.17) = 0.121
+$$
 
 $\blacksquare$
 

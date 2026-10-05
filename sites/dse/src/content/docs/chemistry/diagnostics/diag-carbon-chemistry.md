@@ -44,11 +44,15 @@ and name **all** possible structural isomers of $C$. [4 marks]
 
 (a) (i) Ethane + bromine: **substitution** reaction (requires UV light or heat).
 
-$$C_{2}H_{6} + Br_{2} \xrightarrow{UV} C_{2}H_{5}Br + HBr$$
+$$
+C_{2}H_{6} + Br_{2} \xrightarrow{UV} C_{2}H_{5}Br + HBr
+$$
 
 (ii) Ethene + bromine water: **addition** reaction (occurs at room temperature).
 
-$$C_{2}H_{4} + Br_{2} \rightarrow C_{2}H_{4}Br_{2}$$
+$$
+C_{2}H_{4} + Br_{2} \rightarrow C_{2}H_{4}Br_{2}
+$$
 
 (1,2-dibromoethane)
 
@@ -124,7 +128,9 @@ and double bonds. Explain why this is incorrect. [2 marks]
 
 (a) Propene polymerises by **addition polymerisation**:
 
-$$n\ CH_{2}=CH-CH_{3} \rightarrow \left(-CH_{2}-CH(CH_{3})-\right)_{n}$$
+$$
+n\ CH_{2}=CH-CH_{3} \rightarrow \left(-CH_{2}-CH(CH_{3})-\right)_{n}
+$$
 
 Repeating unit: $-CH_{2}-CH(CH_{3})-$
 
@@ -132,7 +138,9 @@ Polymer name: **polypropene** (or polypropylene).
 
 (b) Chloroethene polymerises:
 
-$$n\ CH_{2}=CHCl \rightarrow \left(-CH_{2}-CHCl-\right)_{n}$$
+$$
+n\ CH_{2}=CHCl \rightarrow \left(-CH_{2}-CHCl-\right)_{n}
+$$
 
 Repeating unit: $-CH_{2}-CHCl-$
 
@@ -245,21 +253,27 @@ marks]
 
 **Step 1**: Ethene to ethanol
 
-$$CH_{2}=CH_{2} + H_{2}O \xrightarrow{H_{3}PO_{4}, 300\degree C, 60 \text{ atm}} CH_{3}CH_{2}OH$$
+$$
+CH_{2}=CH_{2} + H_{2}O \xrightarrow{H_{3}PO_{4}, 300\degree C, 60 \text{ atm}} CH_{3}CH_{2}OH
+$$
 
 Reagent: Steam ($H_{2}O$) Conditions: Phosphoric acid catalyst, 300$^{\circ}$C, 60 atm Type:
 **Hydration (addition)**
 
 **Step 2**: Ethanol to ethanoic acid (oxidation)
 
-$$CH_{3}CH_{2}OH \xrightarrow{K_{2}Cr_{2}O_{7}/H^{+}} CH_{3}CHO \xrightarrow{K_{2}Cr_{2}O_{7}/H^{+}} CH_{3}COOH$$
+$$
+CH_{3}CH_{2}OH \xrightarrow{K_{2}Cr_{2}O_{7}/H^{+}} CH_{3}CHO \xrightarrow{K_{2}Cr_{2}O_{7}/H^{+}} CH_{3}COOH
+$$
 
 Reagent: Acidified potassium dichromate(VI) ($K_{2}Cr_{2}O_{7}/H_{2}SO_{4}$) Conditions: Reflux (for
 complete oxidation to carboxylic acid) Type: **Oxidation**
 
 **Step 3**: Esterification
 
-$$CH_{3}COOH + CH_{3}CH_{2}OH \rightleftharpoons CH_{3}COOC_{2}H_{5} + H_{2}O$$
+$$
+CH_{3}COOH + CH_{3}CH_{2}OH \rightleftharpoons CH_{3}COOC_{2}H_{5} + H_{2}O
+$$
 
 Reagent: Ethanoic acid + ethanol Conditions: Concentrated sulphuric acid catalyst, gentle heating
 (reflux) Type: **Esterification (condensation)**
@@ -317,11 +331,15 @@ dispersion forces, which are relatively weak. This makes poly(ethene) flexible a
 
 (c) When PVC burns in limited air:
 
-$$(-CH_{2}-CHCl-)_n + \frac{n}{2}O_{2} \rightarrow nC + nHCl + nH_{2}O$$
+$$
+(-CH_{2}-CHCl-)_n + \frac{n}{2}O_{2} \rightarrow nC + nHCl + nH_{2}O
+$$
 
 Or more precisely:
 
-$$(-CH_{2}-CHCl-)_n + \frac{5n}{2}O_{2} \rightarrow 2nCO_{2} + nH_{2}O + nHCl$$
+$$
+(-CH_{2}-CHCl-)_n + \frac{5n}{2}O_{2} \rightarrow 2nCO_{2} + nH_{2}O + nHCl
+$$
 
 (in sufficient oxygen, but in limited oxygen, incomplete combustion produces $C$ and $CO$ as well).
 
@@ -387,7 +405,9 @@ carbons (no hydrogens). **Tertiary alcohol**.
 
 (b) Increasing reactivity with acidified $K_{2}Cr_{2}O_{7}$:
 
-$$C \lt B \lt A$$
+$$
+C \lt B \lt A
+$$
 
 The oxidation of alcohols involves removing a hydrogen atom from the carbon bearing the $-OH$ group.
 Primary alcohols are most oxidised because the $C-H$ bond on the alpha carbon is accessible.

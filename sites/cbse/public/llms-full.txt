@@ -262,7 +262,9 @@ boiling points of water, HF, NH$_3$.
 
 **Key relations:**
 
-$$\Delta G = \Delta H - T\Delta S$$
+$$
+\Delta G = \Delta H - T\Delta S
+$$
 
 - $\Delta G < 0$: spontaneous
 - $\Delta G = 0$: at equilibrium
@@ -274,7 +276,9 @@ $$\Delta G = \Delta H - T\Delta S$$
 
 **Law of mass action:** For $aA + bB \rightleftharpoons cC + dD$:
 
-$$K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
+$$
+K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
+$$
 
 **Le Chatelier's principle:** If a system at equilibrium is disturbed, it shifts to oppose the change.
 
@@ -1988,11 +1992,15 @@ A **set** is a well-defined collection of distinct objects. Sets are denoted by 
 
 Venn diagrams represent sets as overlapping circles inside a rectangle (the universal set).
 
-$$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$
+$$
+n(A \cup B) = n(A) + n(B) - n(A \cap B)
+$$
 
 For three sets:
 
-$$n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(A \cap C) - n(B \cap C) + n(A \cap B \cap C)$$
+$$
+n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(A \cap C) - n(B \cap C) + n(A \cap B \cap C)
+$$
 
 ### 1.3 Relations
 
@@ -2054,11 +2062,15 @@ A matrix is a rectangular array of numbers. An $m \times n$ matrix has $m$ rows 
 
 The determinant of a $2 \times 2$ matrix:
 
-$$\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$$
+$$
+\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc
+$$
 
 For a $3 \times 3$ matrix, expand by cofactors along any row or column:
 
-$$|A| = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}$$
+$$
+|A| = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}
+$$
 
 where $C_{ij} = (-1)^{i+j} M_{ij}$ and $M_{ij}$ is the minor (determinant after removing row $i$, column $j$).
 
@@ -2073,7 +2085,9 @@ where $C_{ij} = (-1)^{i+j} M_{ij}$ and $M_{ij}$ is the minor (determinant after 
 
 For a non-singular square matrix $A$ ($|A| \neq 0$):
 
-$$A^{-1} = \frac{1}{|A|} \text{adj}(A)$$
+$$
+A^{-1} = \frac{1}{|A|} \text{adj}(A)
+$$
 
 where $\text{adj}(A)$ is the adjoint (transpose of the cofactor matrix).
 
@@ -2097,7 +2111,9 @@ A complex number is $z = a + bi$ where $a$ is the real part, $b$ is the imaginar
 
 The general quadratic $ax^2 + bx + c = 0$ has roots:
 
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
 
 **Discriminant** $\Delta = b^2 - 4ac$:
 
@@ -2125,17 +2141,23 @@ $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 ### 3.1 Limits
 
-$$\lim_{x \to a} f(x) = L$$
+$$
+\lim_{x \to a} f(x) = L
+$$
 
 means $f(x)$ approaches $L$ as $x$ approaches $a$.
 
 **Standard limits:**
 
-$$\lim_{x \to 0} \frac{\sin x}{x} = 1 \qquad \lim_{x \to 0} \frac{1 - \cos x}{x} = 0 \qquad \lim_{x \to \infty}\left(1 + \frac{1}{x}\right)^x = e$$
+$$
+\lim_{x \to 0} \frac{\sin x}{x} = 1 \qquad \lim_{x \to 0} \frac{1 - \cos x}{x} = 0 \qquad \lim_{x \to \infty}\left(1 + \frac{1}{x}\right)^x = e
+$$
 
 **L'Hôpital's Rule.** If $\lim_{x \to a}\frac{f(x)}{g(x)}$ is of the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, then:
 
-$$\lim_{x \to a}\frac{f(x)}{g(x)} = \lim_{x \to a}\frac{f'(x)}{g'(x)}$$
+$$
+\lim_{x \to a}\frac{f(x)}{g(x)} = \lim_{x \to a}\frac{f'(x)}{g'(x)}
+$$
 
 provided the right-hand limit exists.
 
@@ -2143,7 +2165,9 @@ provided the right-hand limit exists.
 
 **From first principles:**
 
-$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+$$
+f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
+$$
 
 **Standard derivatives:**
 
@@ -2187,7 +2211,9 @@ Integration is the reverse of differentiation.
 
 **Indefinite integrals (antiderivatives):**
 
-$$\int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C$$
+$$
+\int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C
+$$
 
 **Methods:**
 
@@ -2196,11 +2222,15 @@ $$\int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1) \qquad \int \frac{1}{
 
 **Definite integrals:**
 
-$$\int_a^b f(x)\,dx = F(b) - F(a)$$
+$$
+\int_a^b f(x)\,dx = F(b) - F(a)
+$$
 
 **Area under a curve:**
 
-$$\text{Area between } f(x) \text{ and } x\text{-axis from } a \text{ to } b = \left|\int_a^b f(x)\,dx\right|$$
+$$
+\text{Area between } f(x) \text{ and } x\text{-axis from } a \text{ to } b = \left|\int_a^b f(x)\,dx\right|
+$$
 
 ---
 
@@ -2227,17 +2257,23 @@ $$\text{Area between } f(x) \text{ and } x\text{-axis from } a \text{ to } b = \
 
 **Distance from a point to a line $Ax + By + C = 0$:**
 
-$$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
+$$
+d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}
+$$
 
 **Angle between two lines with slopes $m_1$ and $m_2$:**
 
-$$\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1m_2}\right|$$
+$$
+\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1m_2}\right|
+$$
 
 ### 4.2 Conic Sections
 
 **Circle.** Centre $(h, k)$, radius $r$:
 
-$$(x - h)^2 + (y - k)^2 = r^2$$
+$$
+(x - h)^2 + (y - k)^2 = r^2
+$$
 
 General form: $x^2 + y^2 + 2gx + 2fy + c = 0$; centre $(-g, -f)$, radius $\sqrt{g^2 + f^2 - c}$.
 
@@ -2275,17 +2311,27 @@ General form: $x^2 + y^2 + 2gx + 2fy + c = 0$; centre $(-g, -f)$, radius $\sqrt{
 
 **Pythagorean identities:**
 
-$$\sin^2\theta + \cos^2\theta = 1 \qquad 1 + \tan^2\theta = \sec^2\theta \qquad 1 + \cot^2\theta = \csc^2\theta$$
+$$
+\sin^2\theta + \cos^2\theta = 1 \qquad 1 + \tan^2\theta = \sec^2\theta \qquad 1 + \cot^2\theta = \csc^2\theta
+$$
 
 **Compound angle:**
 
-$$\sin(A \pm B) = \sin A\cos B \pm \cos A\sin B$$
-$$\cos(A \pm B) = \cos A\cos B \mp \sin A\sin B$$
-$$\tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A\tan B}$$
+$$
+\sin(A \pm B) = \sin A\cos B \pm \cos A\sin B
+$$
+$$
+\cos(A \pm B) = \cos A\cos B \mp \sin A\sin B
+$$
+$$
+\tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A\tan B}
+$$
 
 **Double angle:**
 
-$$\sin 2A = 2\sin A\cos A \qquad \cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A$$
+$$
+\sin 2A = 2\sin A\cos A \qquad \cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A
+$$
 
 ### 5.2 Trigonometric Equations
 
@@ -2305,7 +2351,9 @@ $$\sin 2A = 2\sin A\cos A \qquad \cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 =
 
 **Key identities:**
 
-$$\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2} \qquad \tan^{-1}x + \tan^{-1}\frac{1}{x} = \frac{\pi}{2}\text{ for } x > 0$$
+$$
+\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2} \qquad \tan^{-1}x + \tan^{-1}\frac{1}{x} = \frac{\pi}{2}\text{ for } x > 0
+$$
 
 ### 5.4 Properties of Triangles
 
@@ -2342,13 +2390,17 @@ For grouped data, the median and mode use interpolation formulas from the cumula
 
 **Variance:**
 
-$$\sigma^2 = \frac{\sum f_i(x_i - \bar{x})^2}{\sum f_i} = \frac{\sum f_i x_i^2}{\sum f_i} - \bar{x}^2$$
+$$
+\sigma^2 = \frac{\sum f_i(x_i - \bar{x})^2}{\sum f_i} = \frac{\sum f_i x_i^2}{\sum f_i} - \bar{x}^2
+$$
 
 **Standard deviation:** $\sigma = \sqrt{\text{variance}}$
 
 For combined data from two groups of sizes $n_1, n_2$ with means $\bar{x}_1, \bar{x}_2$ and variances $\sigma_1^2, \sigma_2^2$:
 
-$$\bar{x}_{\text{combined}} = \frac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}$$
+$$
+\bar{x}_{\text{combined}} = \frac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}
+$$
 
 ### 6.3 Probability
 
@@ -2367,7 +2419,9 @@ $$\bar{x}_{\text{combined}} = \frac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}$$
 
 A binomial experiment has $n$ independent trials, each with probability $p$ of success.
 
-$$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
+$$
+P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}
+$$
 
 **Mean:** $\mu = np$
 
@@ -2671,7 +2725,9 @@ equilibrium.
 
 ### 3.1 Coulomb's Law
 
-$$F = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}$$
+$$
+F = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}
+$$
 
 where $\dfrac{1}{4\pi\varepsilon_0} = 9 \times 10^9\;\text{N m}^2\text{ C}^{-2}$.
 
@@ -2715,7 +2771,9 @@ constant.
 
 ### 4.1 Ohm's Law and Resistance
 
-$$V = IR$$
+$$
+V = IR
+$$
 
 **Resistivity:** $R = \rho\frac{L}{A}$
 
@@ -2756,7 +2814,9 @@ At balance: $\frac{P}{Q} = \frac{R}{S}$ (galvanometer reads zero current).
 
 ### 5.1 Biot-Savart Law
 
-$$d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}$$
+$$
+d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}
+$$
 
 **Field due to a long straight wire:** $B = \frac{\mu_0 I}{2\pi r}$
 
@@ -2764,7 +2824,9 @@ $$d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}$$
 
 ### 5.2 Ampere's Law
 
-$$\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}$$
+$$
+\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}
+$$
 
 **Inside a solenoid:** $B = \mu_0 n I$ where $n = N/L$ is the number of turns per unit length.
 
@@ -2835,7 +2897,9 @@ $\theta_1 > \theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)$ for $n_1 > n_2$.
 
 **Interference (Young's double slit):**
 
-$$y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \frac{1}{2}\right)\frac{\lambda D}{d} \quad \text{(dark fringes)}$$
+$$
+y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \frac{1}{2}\right)\frac{\lambda D}{d} \quad \text{(dark fringes)}
+$$
 
 **Fringe width:** $\beta = \frac{\lambda D}{d}$
 
@@ -2860,7 +2924,9 @@ $$y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \f
 
 **Photoelectric effect (Einstein's equation):**
 
-$$K_{\max} = h\nu - \phi$$
+$$
+K_{\max} = h\nu - \phi
+$$
 
 where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequency.
 
@@ -3579,18 +3645,26 @@ Study notes for CBSE Class 12 chemistry - Colligative properties.
 **Solution:**
 
 Moles of sucrose:
-$$n = \frac{34.2}{342} = 0.1 \, \text{mol}$$
+$$
+n = \frac{34.2}{342} = 0.1 \, \text{mol}
+$$
 
 Molality:
-$$m = \frac{0.1}{0.5} = 0.2 \, \text{mol/kg}$$
+$$
+m = \frac{0.1}{0.5} = 0.2 \, \text{mol/kg}
+$$
 
 Sucrose is a non-electrolyte, so $i = 1$.
 
 Boiling point elevation:
-$$\Delta T_b = i \cdot K_b \cdot m = 1 \times 0.52 \times 0.2 = 0.104 \, \text{K}$$
+$$
+\Delta T_b = i \cdot K_b \cdot m = 1 \times 0.52 \times 0.2 = 0.104 \, \text{K}
+$$
 
 New boiling point:
-$$T_b = 100 + 0.104 = 100.104^\circ\text{C}$$
+$$
+T_b = 100 + 0.104 = 100.104^\circ\text{C}
+$$
 
 ## Worked Example 2, Freezing Point Depression with Electrolyte
 
@@ -3599,18 +3673,26 @@ $$T_b = 100 + 0.104 = 100.104^\circ\text{C}$$
 **Solution:**
 
 Moles of NaCl:
-$$n = \frac{5.85}{58.5} = 0.1 \, \text{mol}$$
+$$
+n = \frac{5.85}{58.5} = 0.1 \, \text{mol}
+$$
 
 Molality:
-$$m = \frac{0.1}{1} = 0.1 \, \text{mol/kg}$$
+$$
+m = \frac{0.1}{1} = 0.1 \, \text{mol/kg}
+$$
 
 NaCl dissociates completely: $\text{NaCl} \to \text{Na}^+ + \text{Cl}^-$, so $i = 2$.
 
 Freezing point depression:
-$$\Delta T_f = i \cdot K_f \cdot m = 2 \times 1.86 \times 0.1 = 0.372 \, \text{K}$$
+$$
+\Delta T_f = i \cdot K_f \cdot m = 2 \times 1.86 \times 0.1 = 0.372 \, \text{K}
+$$
 
 New freezing point:
-$$T_f = 0 - 0.372 = -0.372^\circ\text{C}$$
+$$
+T_f = 0 - 0.372 = -0.372^\circ\text{C}
+$$
 
 ## Worked Example 3, Osmotic Pressure
 
@@ -3619,16 +3701,24 @@ $$T_f = 0 - 0.372 = -0.372^\circ\text{C}$$
 **Solution:**
 
 Moles of polymer:
-$$n = \frac{1.5}{150{,}000} = 1 \times 10^{-5} \, \text{mol}$$
+$$
+n = \frac{1.5}{150{,}000} = 1 \times 10^{-5} \, \text{mol}
+$$
 
 Concentration:
-$$C = \frac{n}{V} = \frac{1 \times 10^{-5}}{0.5} = 2 \times 10^{-5} \, \text{mol/L}$$
+$$
+C = \frac{n}{V} = \frac{1 \times 10^{-5}}{0.5} = 2 \times 10^{-5} \, \text{mol/L}
+$$
 
 Temperature: $T = 27 + 273 = 300 \, \text{K}$
 
 Osmotic pressure:
-$$\pi = CRT = 2 \times 10^{-5} \times 0.0821 \times 300$$
-$$= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}$$
+$$
+\pi = CRT = 2 \times 10^{-5} \times 0.0821 \times 300
+$$
+$$
+= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}
+$$
 
 ## Common Mistakes
 
@@ -3817,11 +3907,17 @@ For BCC: $Z = 2$ atoms per unit cell.
 Edge length: $a = 3.0 \, \text{\AA} = 3.0 \times 10^{-8} \, \text{cm}$
 
 Volume of unit cell:
-$$a^3 = (3.0 \times 10^{-8})^3 = 27 \times 10^{-24} \, \text{cm}^3$$
+$$
+a^3 = (3.0 \times 10^{-8})^3 = 27 \times 10^{-24} \, \text{cm}^3
+$$
 
 Density:
-$$\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 52}{6.022 \times 10^{23} \times 27 \times 10^{-24}}$$
-$$= \frac{104}{16.2594} \approx 6.40 \, \text{g/cm}^3$$
+$$
+\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 52}{6.022 \times 10^{23} \times 27 \times 10^{-24}}
+$$
+$$
+= \frac{104}{16.2594} \approx 6.40 \, \text{g/cm}^3
+$$
 
 ## Worked Example 2, Packing Efficiency of FCC
 
@@ -3830,18 +3926,26 @@ $$= \frac{104}{16.2594} \approx 6.40 \, \text{g/cm}^3$$
 **Solution:**
 
 In FCC: atoms touch along the face diagonal.
-$$\sqrt{2}a = 4r \implies a = \frac{4r}{\sqrt{2}} = 2\sqrt{2}r$$
+$$
+\sqrt{2}a = 4r \implies a = \frac{4r}{\sqrt{2}} = 2\sqrt{2}r
+$$
 
 Volume of unit cell:
-$$a^3 = (2\sqrt{2}r)^3 = 16\sqrt{2}r^3$$
+$$
+a^3 = (2\sqrt{2}r)^3 = 16\sqrt{2}r^3
+$$
 
 Number of atoms in FCC: $Z = 4$
 
 Volume occupied by atoms:
-$$V_{atoms} = 4 \times \frac{4}{3}\pi r^3 = \frac{16}{3}\pi r^3$$
+$$
+V_{atoms} = 4 \times \frac{4}{3}\pi r^3 = \frac{16}{3}\pi r^3
+$$
 
 Packing efficiency:
-$$\text{PE} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} \times 100\% = \frac{\pi}{3\sqrt{2}} \times 100\% \approx \frac{3.1416}{4.2426} \times 100\% \approx 74.05\%$$
+$$
+\text{PE} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} \times 100\% = \frac{\pi}{3\sqrt{2}} \times 100\% \approx \frac{3.1416}{4.2426} \times 100\% \approx 74.05\%
+$$
 
 ## Worked Example 3, Radius of an Atom from Unit Cell Data
 
@@ -3852,14 +3956,22 @@ $$\text{PE} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} \times 100\% = \frac{\pi
 For BCC: $Z = 2$.
 
 From density formula:
-$$a^3 = \frac{ZM}{\rho N_A} = \frac{2 \times 56}{7.86 \times 6.022 \times 10^{23}}$$
-$$= \frac{112}{4.733 \times 10^{24}} = 23.66 \times 10^{-24} \, \text{cm}^3$$
+$$
+a^3 = \frac{ZM}{\rho N_A} = \frac{2 \times 56}{7.86 \times 6.022 \times 10^{23}}
+$$
+$$
+= \frac{112}{4.733 \times 10^{24}} = 23.66 \times 10^{-24} \, \text{cm}^3
+$$
 
-$$a = \sqrt[3]{23.66 \times 10^{-24}} = 2.87 \times 10^{-8} \, \text{cm} = 2.87 \, \text{\AA}$$
+$$
+a = \sqrt[3]{23.66 \times 10^{-24}} = 2.87 \times 10^{-8} \, \text{cm} = 2.87 \, \text{\AA}
+$$
 
 For BCC: $a = \frac{4r}{\sqrt{3}}$
 
-$$r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \approx 1.24 \, \text{\AA}$$
+$$
+r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \approx 1.24 \, \text{\AA}
+$$
 
 ## Practice Problems
 
@@ -3889,20 +4001,30 @@ $$r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \appro
 **Solution:**
 
 In BCC: atoms touch along the body diagonal.
-$$\sqrt{3}a = 4r \implies a = \frac{4r}{\sqrt{3}}$$
+$$
+\sqrt{3}a = 4r \implies a = \frac{4r}{\sqrt{3}}
+$$
 
 Volume of unit cell:
-$$a^3 = \left(\frac{4r}{\sqrt{3}}\right)^3 = \frac{64r^3}{3\sqrt{3}}$$
+$$
+a^3 = \left(\frac{4r}{\sqrt{3}}\right)^3 = \frac{64r^3}{3\sqrt{3}}
+$$
 
 Number of atoms in BCC: $Z = 2$
 
 Volume occupied by atoms:
-$$V_{atoms} = 2 \times \frac{4}{3}\pi r^3 = \frac{8}{3}\pi r^3$$
+$$
+V_{atoms} = 2 \times \frac{4}{3}\pi r^3 = \frac{8}{3}\pi r^3
+$$
 
 Packing efficiency:
-$$\text{PE} = \frac{\frac{8}{3}\pi r^3}{\frac{64r^3}{3\sqrt{3}}} \times 100\% = \frac{8\pi}{3} \times \frac{3\sqrt{3}}{64} \times 100\% = \frac{\pi\sqrt{3}}{8} \times 100\%$$
+$$
+\text{PE} = \frac{\frac{8}{3}\pi r^3}{\frac{64r^3}{3\sqrt{3}}} \times 100\% = \frac{8\pi}{3} \times \frac{3\sqrt{3}}{64} \times 100\% = \frac{\pi\sqrt{3}}{8} \times 100\%
+$$
 
-$$\text{PE} = \frac{3.1416 \times 1.732}{8} \times 100\% = \frac{5.441}{8} \times 100\% \approx 68.02\%$$
+$$
+\text{PE} = \frac{3.1416 \times 1.732}{8} \times 100\% = \frac{5.441}{8} \times 100\% \approx 68.02\%
+$$
 
 **Answer:** The packing efficiency of BCC is approximately 68%.
 
@@ -3915,12 +4037,16 @@ $$\text{PE} = \frac{3.1416 \times 1.732}{8} \times 100\% = \frac{5.441}{8} \time
 **Solution:**
 
 In FCC, the radius of the largest tetrahedral void is:
-$$r_{void} = 0.225r$$
+$$
+r_{void} = 0.225r
+$$
 
 This ratio comes from the geometry of the tetrahedral void formed by four atoms in the FCC structure.
 
 For example, if the metal has $r = 1.25 \, \text{\AA}$:
-$$r_{void} = 0.225 \times 1.25 = 0.281 \, \text{\AA}$$
+$$
+r_{void} = 0.225 \times 1.25 = 0.281 \, \text{\AA}
+$$
 
 **Common mistake:** Confusing tetrahedral voids (radius ratio 0.225) with octahedral voids (radius ratio 0.414).
 
@@ -4055,7 +4181,9 @@ Decreasing acidity: phenol > water > ethanol
 
 2-methylpropan-2-ol is a tertiary alcohol. Dehydration proceeds via an E1 mechanism:
 
-$$\text{(CH}_3)_3\text{COH} \xrightarrow{\text{H}_2\text{SO}_4, \Delta} \text{(CH}_3)_2\text{C}=\text{CH}_2 + \text{H}_2\text{O}$$
+$$
+\text{(CH}_3)_3\text{COH} \xrightarrow{\text{H}_2\text{SO}_4, \Delta} \text{(CH}_3)_2\text{C}=\text{CH}_2 + \text{H}_2\text{O}
+$$
 
 Product: 2-methylpropene (only one product possible, Saytzeff's rule gives the same result).
 
@@ -4071,7 +4199,9 @@ Tertiary alcohols dehydrate most efficiently (most stable carbocation intermedia
 
 Williamson synthesis: alkoxide + primary alkyl halide $\rightarrow$ ether
 
-$$\text{CH}_3\text{CH}_2\text{O}^-\text{Na}^+ + \text{CH}_3\text{CH}_2\text{Br} \rightarrow \text{CH}_3\text{CH}_2\text{OCH}_2\text{CH}_3 + \text{NaBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{O}^-\text{Na}^+ + \text{CH}_3\text{CH}_2\text{Br} \rightarrow \text{CH}_3\text{CH}_2\text{OCH}_2\text{CH}_3 + \text{NaBr}
+$$
 
 Sodium ethoxide + bromoethane $\rightarrow$ diethyl ether + NaBr
 
@@ -4106,18 +4236,24 @@ Alcohols are solvents (ethanol, methanol), fuels (methanol), and precursors to m
 (a) Propan-1-ol is a primary alcohol. Oxidation proceeds in two steps:
 
 First oxidation:
-$$3\text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{K}_2\text{Cr}_2\text{O}_7 + 4\text{H}_2\text{SO}_4 \rightarrow 3\text{CH}_3\text{CH}_2\text{CHO} + \text{Cr}_2(\text{SO}_4)_3 + \text{K}_2\text{SO}_4 + 7\text{H}_2\text{O}$$
+$$
+3\text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{K}_2\text{Cr}_2\text{O}_7 + 4\text{H}_2\text{SO}_4 \rightarrow 3\text{CH}_3\text{CH}_2\text{CHO} + \text{Cr}_2(\text{SO}_4)_3 + \text{K}_2\text{SO}_4 + 7\text{H}_2\text{O}
+$$
 
 Product: propanal (an aldehyde)
 
 Further oxidation:
-$$\text{CH}_3\text{CH}_2\text{CHO} \xrightarrow{[\text{O}]} \text{CH}_3\text{CH}_2\text{COOH}$$
+$$
+\text{CH}_3\text{CH}_2\text{CHO} \xrightarrow{[\text{O}]} \text{CH}_3\text{CH}_2\text{COOH}
+$$
 
 Product: propanoic acid (a carboxylic acid)
 
 (b) Propan-2-ol is a secondary alcohol. Oxidation gives a ketone:
 
-$$\text{CH}_3\text{CH(OH)CH}_3 \xrightarrow{[\text{O}]} \text{CH}_3\text{COCH}_3$$
+$$
+\text{CH}_3\text{CH(OH)CH}_3 \xrightarrow{[\text{O}]} \text{CH}_3\text{COCH}_3
+$$
 
 Product: propanone (acetone, a ketone)
 
@@ -4131,7 +4267,9 @@ Product: propanone (acetone, a ketone)
 
 This is a Fischer esterification, a condensation reaction between a carboxylic acid and an alcohol:
 
-$$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}
+$$
 
 The product is ethyl ethanoate (an ester) with a fruity smell.
 
@@ -4146,10 +4284,14 @@ The reaction is reversible. Concentrated $\text{H}_2\text{SO}_4$ acts as both a 
 **Solution:**
 
 (a) Phenol reacts with NaOH to form sodium phenoxide (a salt):
-$$\text{C}_6\text{H}_5\text{OH} + \text{NaOH} \rightarrow \text{C}_6\text{H}_5\text{ONa} + \text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{OH} + \text{NaOH} \rightarrow \text{C}_6\text{H}_5\text{ONa} + \text{H}_2\text{O}
+$$
 
 (b) Phenol reacts with sodium metal:
-$$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\text{ONa} + \text{H}_2$$
+$$
+2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\text{ONa} + \text{H}_2
+$$
 
 (c) Phenol does not react with $\text{NaHCO}_3$ because phenol is a weaker acid than carbonic acid ($\text{H}_2\text{CO}_3$). The $\text{p}K_a$ of phenol is 10, while $\text{p}K_a$ of $\text{H}_2\text{CO}_3$ is 6.4. A weaker acid cannot displace a stronger acid from its salt.
 
@@ -4263,7 +4405,9 @@ These carbonyl compounds are among the most important functional groups in organ
 
 HCN adds across the C=O bond:
 
-$$\text{CH}_3\text{CHO} + \text{HCN} \rightarrow \text{CH}_3\text{CH(OH)(CN)}$$
+$$
+\text{CH}_3\text{CHO} + \text{HCN} \rightarrow \text{CH}_3\text{CH(OH)(CN)}
+$$
 
 Product: 2-hydroxypropanenitrile (acetaldehyde cyanohydrin)
 
@@ -4278,13 +4422,19 @@ Mechanism: CN$^-$ attacks the electrophilic carbonyl carbon, then protonation of
 **Solution:**
 
 Step 1: Enolization (base removes $\alpha$-H):
-$$\text{CH}_3\text{CHO} + \text{OH}^- \rightarrow \text{CH}_2=\text{CHO}^- + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CHO} + \text{OH}^- \rightarrow \text{CH}_2=\text{CHO}^- + \text{H}_2\text{O}
+$$
 
 Step 2: Nucleophilic addition:
-$$\text{CH}_2=\text{CHO}^- + \text{CH}_3\text{CHO} \rightarrow \text{CH}_3\text{CH(OH)CH}_2\text{CHO}$$
+$$
+\text{CH}_2=\text{CHO}^- + \text{CH}_3\text{CHO} \rightarrow \text{CH}_3\text{CH(OH)CH}_2\text{CHO}
+$$
 
 Step 3: Dehydration (on heating):
-$$\text{CH}_3\text{CH(OH)CH}_2\text{CHO} \rightarrow \text{CH}_3\text{CH}=\text{CHCHO} + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CH(OH)CH}_2\text{CHO} \rightarrow \text{CH}_3\text{CH}=\text{CHCHO} + \text{H}_2\text{O}
+$$
 
 Product: but-2-enal (crotonaldehyde), an $\alpha,\beta$-unsaturated aldehyde.
 
@@ -4299,7 +4449,9 @@ Product: but-2-enal (crotonaldehyde), an $\alpha,\beta$-unsaturated aldehyde.
 Tollens' reagent: ammoniacal silver nitrate $[\text{Ag(NH}_3)_2]^+\text{OH}^-$
 
 **Acetaldehyde:** Oxidizes to acetate, reducing Ag$^+$ to metallic silver:
-$$\text{CH}_3\text{CHO} + 2[\text{Ag(NH}_3)_2]^+ + 3\text{OH}^- \rightarrow \text{CH}_3\text{COO}^- + 2\text{Ag} \downarrow + 4\text{NH}_3 + 2\text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CHO} + 2[\text{Ag(NH}_3)_2]^+ + 3\text{OH}^- \rightarrow \text{CH}_3\text{COO}^- + 2\text{Ag} \downarrow + 4\text{NH}_3 + 2\text{H}_2\text{O}
+$$
 
 A silver mirror forms on the test tube wall (positive test).
 
@@ -4433,11 +4585,15 @@ Decreasing basicity: $(\text{CH}_3)_2\text{NH} > \text{CH}_3\text{NH}_2 > \text{
 The Hinsberg reagent is benzenesulfonyl chloride ($\text{C}_6\text{H}_5\text{SO}_2\text{Cl}$).
 
 - **Primary amine:** Reacts to form a sulfonamide with an acidic N-H proton. Dissolves in NaOH:
-  $$\text{RNH}_2 + \text{C}_6\text{H}_5\text{SO}_2\text{Cl} \rightarrow \text{C}_6\text{H}_5\text{SO}_2\text{NHR} + \text{HCl}$$
+  $$
+  \text{RNH}_2 + \text{C}_6\text{H}_5\text{SO}_2\text{Cl} \rightarrow \text{C}_6\text{H}_5\text{SO}_2\text{NHR} + \text{HCl}
+  $$
   Product is soluble in NaOH.
 
 - **Secondary amine:** Reacts to form a sulfonamide without acidic proton. Insoluble in NaOH:
-  $$\text{R}_2\text{NH} + \text{C}_6\text{H}_5\text{SO}_2\text{Cl} \rightarrow \text{C}_6\text{H}_5\text{SO}_2\text{NR}_2 + \text{HCl}$$
+  $$
+  \text{R}_2\text{NH} + \text{C}_6\text{H}_5\text{SO}_2\text{Cl} \rightarrow \text{C}_6\text{H}_5\text{SO}_2\text{NR}_2 + \text{HCl}
+  $$
   Product is insoluble in NaOH.
 
 - **Tertiary amine:** Does not react with benzenesulfonyl chloride.
@@ -4450,7 +4606,9 @@ The Hinsberg reagent is benzenesulfonyl chloride ($\text{C}_6\text{H}_5\text{SO}
 
 **Solution:**
 
-$$\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + \text{C}_6\text{H}_5\text{OH} \xrightarrow{\text{NaOH}} \text{C}_6\text{H}_5-\text{N}=\text{N}-\text{C}_6\text{H}_4-\text{OH} + \text{NaCl} + \text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + \text{C}_6\text{H}_5\text{OH} \xrightarrow{\text{NaOH}} \text{C}_6\text{H}_5-\text{N}=\text{N}-\text{C}_6\text{H}_4-\text{OH} + \text{NaCl} + \text{H}_2\text{O}
+$$
 
 Product: 4-hydroxyazobenzene (an orange-red azo dye)
 
@@ -4567,7 +4725,9 @@ Biomolecules are organic molecules essential for life. This topic covers carbohy
 - **Glucose** ($\text{C}_6\text{H}_{12}\text{O}_6$): Monosaccharide. Cannot be hydrolyzed into simpler sugars. It is an aldose (contains an aldehyde group).
 
 - **Sucrose** ($\text{C}_{12}\text{H}_{22}\text{O}_{11}$): Disaccharide. Hydrolyzes to glucose + fructose:
-  $$\text{C}_{12}\text{H}_{22}\text{O}_{11} + \text{H}_2\text{O} \xrightarrow{\text{acid}} \text{C}_6\text{H}_{12}\text{O}_6 \text{ (glucose)} + \text{C}_6\text{H}_{12}\text{O}_6 \text{ (fructose)}$$
+  $$
+  \text{C}_{12}\text{H}_{22}\text{O}_{11} + \text{H}_2\text{O} \xrightarrow{\text{acid}} \text{C}_6\text{H}_{12}\text{O}_6 \text{ (glucose)} + \text{C}_6\text{H}_{12}\text{O}_6 \text{ (fructose)}
+  $$
 
 - **Starch** ($(C_6H_{10}O_5)_n$): Polysaccharide. Contains amylose (linear) and amylopectin (branched). Hydrolyzes to glucose.
 
@@ -4583,7 +4743,9 @@ Glycine: $\text{NH}_2\text{CH}_2\text{COOH}$ (R = H)
 Alanine: $\text{NH}_2\text{CH(CH}_3)\text{COOH}$ (R = CH$_3$)
 
 Peptide bond formation (condensation):
-$$\text{NH}_2\text{CH}_2\text{COOH} + \text{NH}_2\text{CH(CH}_3)\text{COOH} \rightarrow \text{NH}_2\text{CH}_2\text{CONHCH(CH}_3)\text{COOH} + \text{H}_2\text{O}$$
+$$
+\text{NH}_2\text{CH}_2\text{COOH} + \text{NH}_2\text{CH(CH}_3)\text{COOH} \rightarrow \text{NH}_2\text{CH}_2\text{CONHCH(CH}_3)\text{COOH} + \text{H}_2\text{O}
+$$
 
 The peptide bond ($-\text{CO}-\text{NH}-$) links the carboxyl group of glycine to the amino group of alanine.
 
@@ -4731,7 +4893,9 @@ Decreasing acidity: Cl$_3$CCOOH > ClCH$_2$COOH > CH$_3$COOH
 
 **Solution:**
 
-$$\text{C}_6\text{H}_5\text{COOH} + \text{C}_2\text{H}_5\text{OH} \xrightleftharpoons[\text{H}_2\text{SO}_4]{\Delta} \text{C}_6\text{H}_5\text{COOC}_2\text{H}_5 + \text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{COOH} + \text{C}_2\text{H}_5\text{OH} \xrightleftharpoons[\text{H}_2\text{SO}_4]{\Delta} \text{C}_6\text{H}_5\text{COOC}_2\text{H}_5 + \text{H}_2\text{O}
+$$
 
 Benzoic acid + ethanol $\rightleftharpoons$ ethyl benzoate + water
 
@@ -4751,7 +4915,9 @@ The reaction is reversible. To drive it forward:
 
 The HVZ reaction brominates the alpha-carbon:
 
-$$\text{CH}_3\text{CH}_2\text{COOH} + \text{Br}_2 \xrightarrow{\text{P}} \text{CH}_3\text{CHBrCOOH} + \text{HBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{COOH} + \text{Br}_2 \xrightarrow{\text{P}} \text{CH}_3\text{CHBrCOOH} + \text{HBr}
+$$
 
 Product: 2-bromopropanoic acid
 
@@ -4871,19 +5037,25 @@ Determine the rate law and rate constant.
 **Solution:**
 
 Comparing experiments 1 and 2 ([O$_2$] constant):
-$$\frac{\text{Rate}_2}{\text{Rate}_1} = \frac{1.0 \times 10^{-4}}{2.5 \times 10^{-5}} = 4 = \left(\frac{0.020}{0.010}\right)^m = 2^m$$
+$$
+\frac{\text{Rate}_2}{\text{Rate}_1} = \frac{1.0 \times 10^{-4}}{2.5 \times 10^{-5}} = 4 = \left(\frac{0.020}{0.010}\right)^m = 2^m
+$$
 
 So $m = 2$ (second order in NO).
 
 Comparing experiments 1 and 3 ([NO] constant):
-$$\frac{\text{Rate}_3}{\text{Rate}_1} = \frac{5.0 \times 10^{-5}}{2.5 \times 10^{-5}} = 2 = \left(\frac{0.020}{0.010}\right)^n = 2^n$$
+$$
+\frac{\text{Rate}_3}{\text{Rate}_1} = \frac{5.0 \times 10^{-5}}{2.5 \times 10^{-5}} = 2 = \left(\frac{0.020}{0.010}\right)^n = 2^n
+$$
 
 So $n = 1$ (first order in O$_2$).
 
 Rate law: $\text{rate} = k[\text{NO}]^2[\text{O}_2]$
 
 Using experiment 1:
-$$k = \frac{\text{rate}}{[\text{NO}]^2[\text{O}_2]} = \frac{2.5 \times 10^{-5}}{(0.010)^2(0.010)} = 2.5 \times 10^3 \text{ M}^{-2}\text{s}^{-1}$$
+$$
+k = \frac{\text{rate}}{[\text{NO}]^2[\text{O}_2]} = \frac{2.5 \times 10^{-5}}{(0.010)^2(0.010)} = 2.5 \times 10^3 \text{ M}^{-2}\text{s}^{-1}
+$$
 
 **Common mistake:** Assuming the rate law from the stoichiometric coefficients. The exponents must be determined experimentally, not from the balanced equation.
 
@@ -4894,10 +5066,14 @@ $$k = \frac{\text{rate}}{[\text{NO}]^2[\text{O}_2]} = \frac{2.5 \times 10^{-5}}{
 **Solution:**
 
 Number of half-lives in 60 minutes:
-$$n = \frac{60}{20} = 3$$
+$$
+n = \frac{60}{20} = 3
+$$
 
 Fraction remaining after $n$ half-lives:
-$$\frac{[A]}{[A]_0} = \left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^3 = \frac{1}{8} = 0.125$$
+$$
+\frac{[A]}{[A]_0} = \left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^3 = \frac{1}{8} = 0.125
+$$
 
 Percentage remaining: $12.5\%$
 
@@ -4910,16 +5086,26 @@ Percentage remaining: $12.5\%$
 **Solution:**
 
 Using the Arrhenius equation in ratio form:
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
 Given $k_2/k_1 = 2$, $T_1 = 300$ K, $T_2 = 310$ K:
-$$\ln 2 = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{310}\right)$$
+$$
+\ln 2 = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{310}\right)
+$$
 
-$$0.693 = \frac{E_a}{8.314} \times \frac{10}{300 \times 310}$$
+$$
+0.693 = \frac{E_a}{8.314} \times \frac{10}{300 \times 310}
+$$
 
-$$0.693 = \frac{E_a}{8.314} \times 1.075 \times 10^{-4}$$
+$$
+0.693 = \frac{E_a}{8.314} \times 1.075 \times 10^{-4}
+$$
 
-$$E_a = \frac{0.693 \times 8.314}{1.075 \times 10^{-4}} = 53.6 \text{ kJ/mol}$$
+$$
+E_a = \frac{0.693 \times 8.314}{1.075 \times 10^{-4}} = 53.6 \text{ kJ/mol}
+$$
 
 **Common mistake:** Using $R = 8.314$ J/(mol·K) without converting $E_a$ to J/mol. The answer should be reported in kJ/mol by dividing by 1000.
 
@@ -5020,7 +5206,9 @@ This topic covers the chemistry behind drugs, food additives, detergents, and ot
 
 Aspirin is prepared by acetylation of salicylic acid with acetic anhydride:
 
-$$\text{C}_6\text{H}_4(\text{OH})\text{COOH} + (\text{CH}_3\text{CO})_2\text{O} \xrightarrow{\text{H}_2\text{SO}_4} \text{C}_6\text{H}_4(\text{OCOCH}_3)\text{COOH} + \text{CH}_3\text{COOH}$$
+$$
+\text{C}_6\text{H}_4(\text{OH})\text{COOH} + (\text{CH}_3\text{CO})_2\text{O} \xrightarrow{\text{H}_2\text{SO}_4} \text{C}_6\text{H}_4(\text{OCOCH}_3)\text{COOH} + \text{CH}_3\text{COOH}
+$$
 
 Salicylic acid + acetic anhydride $\rightarrow$ acetylsalicylic acid (aspirin) + acetic acid
 
@@ -5038,7 +5226,9 @@ The -OH group of salicylic acid is acetylated, reducing its acidity and side eff
 
 Soaps (sodium stearate, $\text{C}_{17}\text{H}_{35}\text{COONa}$) react with these ions:
 
-$$2\text{C}_{17}\text{H}_{35}\text{COO}^- + \text{Ca}^{2+} \rightarrow (\text{C}_{17}\text{H}_{35}\text{COO})_2\text{Ca} \downarrow$$
+$$
+2\text{C}_{17}\text{H}_{35}\text{COO}^- + \text{Ca}^{2+} \rightarrow (\text{C}_{17}\text{H}_{35}\text{COO})_2\text{Ca} \downarrow
+$$
 
 This forms an insoluble precipitate (scum) that does not clean.
 
@@ -5056,11 +5246,17 @@ Stomach acid is dilute HCl (pH 1-2). Excess acid causes heartburn and indigestio
 
 Antacids neutralize the excess acid:
 
-$$\text{NaHCO}_3 + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{NaHCO}_3 + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O} + \text{CO}_2
+$$
 
-$$\text{Mg(OH)}_2 + 2\text{HCl} \rightarrow \text{MgCl}_2 + 2\text{H}_2\text{O}$$
+$$
+\text{Mg(OH)}_2 + 2\text{HCl} \rightarrow \text{MgCl}_2 + 2\text{H}_2\text{O}
+$$
 
-$$\text{Al(OH)}_3 + 3\text{HCl} \rightarrow \text{AlCl}_3 + 3\text{H}_2\text{O}$$
+$$
+\text{Al(OH)}_3 + 3\text{HCl} \rightarrow \text{AlCl}_3 + 3\text{H}_2\text{O}
+$$
 
 The neutralization raises stomach pH, reducing acidity and providing relief.
 
@@ -5204,7 +5400,9 @@ Fe$^{3+}$: $[\text{Ar}] 3d^5$ (5 d electrons)
 CN$^-$ is a strong field ligand (high in spectrochemical series), causing large $\Delta_o$.
 
 With large splitting, electrons pair up before occupying higher orbitals:
-$$t_{2g}^5 \, e_g^0$$
+$$
+t_{2g}^5 \, e_g^0
+$$
 
 Unpaired electrons: 1 (one electron in each of the three $t_{2g}$ orbitals, plus one pair)
 
@@ -5225,7 +5423,9 @@ This complex shows **linkage isomerism**. The NO$_2^-$ ligand can bond through:
 - N (nitro): $-\text{NO}_2$ (nitro complex, yellow)
 - O (nitrito): $-\text{ONO}$ (nitrito complex, red)
 
-$$[\text{Co(NH}_3)_5\text{(NO}_2)]^{2+} \quad \text{vs} \quad [\text{Co(NH}_3)_5\text{(ONO)}]^{2+}$$
+$$
+[\text{Co(NH}_3)_5\text{(NO}_2)]^{2+} \quad \text{vs} \quad [\text{Co(NH}_3)_5\text{(ONO)}]^{2+}
+$$
 
 This occurs because NO$_2^-$ is an ambidentate ligand (can donate through two different atoms).
 
@@ -5498,7 +5698,9 @@ Cathode (reduction): $\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}$
 
 Overall: $\text{Zn} + \text{Cu}^{2+} \rightarrow \text{Zn}^{2+} + \text{Cu}$
 
-$$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 0.34 - (-0.76) = 1.10 \text{ V}$$
+$$
+E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 0.34 - (-0.76) = 1.10 \text{ V}
+$$
 
 **Common mistake:** Forgetting to subtract the anode potential. The formula is $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$, not directly the sum of the two potentials.
 
@@ -5509,13 +5711,19 @@ $$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 0.
 **Solution:**
 
 The Nernst equation at 298 K:
-$$E = E^\circ - \frac{0.0592}{n} \log Q$$
+$$
+E = E^\circ - \frac{0.0592}{n} \log Q
+$$
 
 For the reaction: $\text{Zn} + \text{Cu}^{2+} \rightarrow \text{Zn}^{2+} + \text{Cu}$
 
-$$Q = \frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]} = \frac{0.01}{1.0} = 0.01$$
+$$
+Q = \frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]} = \frac{0.01}{1.0} = 0.01
+$$
 
-$$E = 1.10 - \frac{0.0592}{2} \log(0.01) = 1.10 - 0.0296 \times (-2) = 1.10 + 0.0592 = 1.159 \text{ V}$$
+$$
+E = 1.10 - \frac{0.0592}{2} \log(0.01) = 1.10 - 0.0296 \times (-2) = 1.10 + 0.0592 = 1.159 \text{ V}
+$$
 
 **Common mistake:** Using $n = 1$ instead of $n = 2$. The number of electrons transferred in the balanced equation is 2, so $n = 2$.
 
@@ -5526,13 +5734,19 @@ $$E = 1.10 - \frac{0.0592}{2} \log(0.01) = 1.10 - 0.0296 \times (-2) = 1.10 + 0.
 **Solution:**
 
 Moles of Cu deposited:
-$$n = \frac{2.0}{63.5} = 0.0315 \text{ mol}$$
+$$
+n = \frac{2.0}{63.5} = 0.0315 \text{ mol}
+$$
 
 Charge required (Cu$^{2+}$ + 2e$^-$ → Cu, so 2 mol e$^-$ per mol Cu):
-$$Q = n \times 2 \times F = 0.0315 \times 2 \times 96{,}485 = 6{,}078 \text{ C}$$
+$$
+Q = n \times 2 \times F = 0.0315 \times 2 \times 96{,}485 = 6{,}078 \text{ C}
+$$
 
 Time:
-$$t = \frac{Q}{I} = \frac{6{,}078}{2.0} = 3{,}039 \text{ s} \approx 50.6 \text{ min}$$
+$$
+t = \frac{Q}{I} = \frac{6{,}078}{2.0} = 3{,}039 \text{ s} \approx 50.6 \text{ min}
+$$
 
 **Common mistake:** Forgetting that copper is deposited as Cu$^{2+}$, requiring 2 electrons per atom. Using $n = 1$ gives double the correct answer.
 
@@ -5564,10 +5778,14 @@ $$t = \frac{Q}{I} = \frac{6{,}078}{2.0} = 3{,}039 \text{ s} \approx 50.6 \text{ 
 **Solution:**
 
 At the cathode: Cu$^{2+}$ is preferentially reduced over H$^+$ because Cu$^{2+}$ has a higher reduction potential.
-$$\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}$$
+$$
+\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}
+$$
 
 At the anode: OH$^-$ from water is oxidized (SO$_4^{2-}$ is not oxidized).
-$$2\text{H}_2\text{O} \rightarrow \text{O}_2 + 4\text{H}^+ + 4e^-$$
+$$
+2\text{H}_2\text{O} \rightarrow \text{O}_2 + 4\text{H}^+ + 4e^-
+$$
 
 Charge passed: $Q = It = 2.0 \times 30 \times 60 = 3{,}600$ C
 
@@ -5599,11 +5817,15 @@ Molar conductivity: $\Lambda_m = \frac{\kappa}{c} = \frac{1.42 \times 10^{-3}}{0
 
 **Solution:**
 
-$$\Delta G = -nFE_{\text{cell}}$$
+$$
+\Delta G = -nFE_{\text{cell}}
+$$
 
 $n = 2$ (2 electrons transferred), $F = 96{,}485$ C/mol
 
-$$\Delta G = -2 \times 96{,}485 \times 1.10 = -212{,}267 \text{ J/mol} \approx -212.3 \text{ kJ/mol}$$
+$$
+\Delta G = -2 \times 96{,}485 \times 1.10 = -212{,}267 \text{ J/mol} \approx -212.3 \text{ kJ/mol}
+$$
 
 Since $\Delta G < 0$, the reaction is spontaneous.
 
@@ -5723,7 +5945,9 @@ Gd (Z = 64): $[\text{Xe}] 4f^7 5d^1 6s^2$ (exception to the filling order)
 
 Gd$^{3+}$: remove 3 electrons (2 from 6s, 1 from 5d):
 
-$$[\text{Xe}] 4f^7$$
+$$
+[\text{Xe}] 4f^7
+$$
 
 This is a half-filled f-subshell, which is particularly stable.
 
@@ -5871,7 +6095,9 @@ With $\text{NaOH}$ (strong nucleophile) in ethanol, SN2 is favoured. With water 
 
 **Solution:**
 
-$$\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CHCH}_3 + \text{CH}_3\text{CH}_2\text{CH}=\text{CH}_2$$
+$$
+\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CHCH}_3 + \text{CH}_3\text{CH}_2\text{CH}=\text{CH}_2
+$$
 
 By Saytzeff's rule, the more substituted alkene (2-butene) is the major product:
 
@@ -5889,13 +6115,19 @@ The more substituted alkene is more stable (hyperconjugation).
 **Solution:**
 
 Step 1: Grignard reagent formation:
-$$\text{CH}_3\text{CH}_2\text{Br} + \text{Mg} \xrightarrow{\text{dry ether}} \text{CH}_3\text{CH}_2\text{MgBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{Br} + \text{Mg} \xrightarrow{\text{dry ether}} \text{CH}_3\text{CH}_2\text{MgBr}
+$$
 
 Step 2: Reaction with formaldehyde:
-$$\text{CH}_3\text{CH}_2\text{MgBr} + \text{HCHO} \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2\text{OMgBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{MgBr} + \text{HCHO} \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2\text{OMgBr}
+$$
 
 Step 3: Hydrolysis:
-$$\text{CH}_3\text{CH}_2\text{CH}_2\text{OMgBr} + \text{H}_2\text{O} \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{Mg(OH)Br}$$
+$$
+\text{CH}_3\text{CH}_2\text{CH}_2\text{OMgBr} + \text{H}_2\text{O} \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{Mg(OH)Br}
+$$
 
 Product: 1-propanol (primary alcohol)
 
@@ -6005,10 +6237,14 @@ P-block elements have their outermost electrons in p-orbitals. This topic covers
 
 Copper reacts with dilute $\text{HNO}_3$ to produce copper(II) nitrate, NO, and water:
 
-$$3\text{Cu} + 8\text{HNO}_3(\text{dilute}) \rightarrow 3\text{Cu(NO}_3)_2 + 2\text{NO} \uparrow + 4\text{H}_2\text{O}$$
+$$
+3\text{Cu} + 8\text{HNO}_3(\text{dilute}) \rightarrow 3\text{Cu(NO}_3)_2 + 2\text{NO} \uparrow + 4\text{H}_2\text{O}
+$$
 
 With concentrated $\text{HNO}_3$, the product is $\text{NO}_2$:
-$$\text{Cu} + 4\text{HNO}_3(\text{conc}) \rightarrow \text{Cu(NO}_3)_2 + 2\text{NO}_2 \uparrow + 2\text{H}_2\text{O}$$
+$$
+\text{Cu} + 4\text{HNO}_3(\text{conc}) \rightarrow \text{Cu(NO}_3)_2 + 2\text{NO}_2 \uparrow + 2\text{H}_2\text{O}
+$$
 
 **Common mistake:** Using $\text{NO}_2$ as the product for dilute $\text{HNO}_3$. Dilute $\text{HNO}_3$ produces NO; concentrated produces $\text{NO}_2$.
 
@@ -6025,7 +6261,9 @@ Both are allotropes of sulfur with the formula $\text{S}_8$ (crown-shaped ring).
 
 At 95.5°C, rhombic sulfur converts to monoclinic sulfur (transition temperature).
 
-$$\text{S}_{\text{rhombic}} \xrightarrow{95.5°C} \text{S}_{\text{monoclinic}}$$
+$$
+\text{S}_{\text{rhombic}} \xrightarrow{95.5°C} \text{S}_{\text{monoclinic}}
+$$
 
 **Common mistake:** Thinking monoclinic sulfur is always more stable. Rhombic is more stable below the transition temperature.
 
@@ -6156,7 +6394,9 @@ Polymers are large molecules made of repeating structural units (monomers). This
 
 **Problem:** Identify the monomer(s) for the following polymer:
 
-$$\left[-\text{NH}-(\text{CH}_2)_6-\text{NH}-\text{CO}-(\text{CH}_2)_4-\text{CO}-\right]_n$$
+$$
+\left[-\text{NH}-(\text{CH}_2)_6-\text{NH}-\text{CO}-(\text{CH}_2)_4-\text{CO}-\right]_n
+$$
 
 **Solution:**
 
@@ -6181,7 +6421,9 @@ Monomer: vinyl chloride $\text{CH}_2=\text{CHCl}$
 
 Addition polymerization (no small molecule lost):
 
-$$n\text{CH}_2=\text{CHCl} \xrightarrow{\text{initiator}} \left[-\text{CH}_2-\text{CHCl}-\right]_n$$
+$$
+n\text{CH}_2=\text{CHCl} \xrightarrow{\text{initiator}} \left[-\text{CH}_2-\text{CHCl}-\right]_n
+$$
 
 The double bond opens and monomers add end-to-end.
 
@@ -6195,7 +6437,9 @@ The double bond opens and monomers add end-to-end.
 
 PHBV (polyhydroxybutyrate-co-valerate) is a copolymer of 3-hydroxybutanoic acid and 3-hydroxypentanoic acid:
 
-$$\left[-\text{O}-\text{CH}(\text{CH}_3)-\text{CH}_2-\text{CO}-\right]_x \left[-\text{O}-\text{CH}(\text{C}_2\text{H}_5)-\text{CH}_2-\text{CO}-\right]_y$$
+$$
+\left[-\text{O}-\text{CH}(\text{CH}_3)-\text{CH}_2-\text{CO}-\right]_x \left[-\text{O}-\text{CH}(\text{C}_2\text{H}_5)-\text{CH}_2-\text{CO}-\right]_y
+$$
 
 It is biodegradable because:
 
@@ -6313,11 +6557,17 @@ Solid state chemistry covers the structure of crystalline solids, unit cells, pa
 
 For BCC: $Z = 2$ atoms per unit cell
 
-$$\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 93}{6.022 \times 10^{23} \times (3 \times 10^{-8})^3}$$
+$$
+\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 93}{6.022 \times 10^{23} \times (3 \times 10^{-8})^3}
+$$
 
-$$= \frac{186}{6.022 \times 10^{23} \times 27 \times 10^{-24}}$$
+$$
+= \frac{186}{6.022 \times 10^{23} \times 27 \times 10^{-24}}
+$$
 
-$$= \frac{186}{162.594} = 1.144 \, \text{g/cm}^3$$
+$$
+= \frac{186}{162.594} = 1.144 \, \text{g/cm}^3
+$$
 
 **Common mistake:** Using $Z = 1$ for BCC instead of $Z = 2$. In BCC, there is 1 atom from corners ($8 \times 1/8$) + 1 from body centre = 2.
 
@@ -6328,7 +6578,9 @@ $$= \frac{186}{162.594} = 1.144 \, \text{g/cm}^3$$
 **Solution:**
 
 In FCC, atoms touch along the face diagonal:
-$$\sqrt{2}a = 4r \implies a = 2\sqrt{2}r$$
+$$
+\sqrt{2}a = 4r \implies a = 2\sqrt{2}r
+$$
 
 Number of atoms per unit cell: $Z = 4$ (8 corners $\times 1/8$ + 6 faces $\times 1/2$)
 
@@ -6337,7 +6589,9 @@ Volume of atoms: $V_{\text{atoms}} = 4 \times \frac{4}{3}\pi r^3 = \frac{16}{3}\
 Volume of unit cell: $V_{\text{cell}} = a^3 = (2\sqrt{2}r)^3 = 16\sqrt{2}r^3$
 
 Packing efficiency:
-$$\eta = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} = \frac{\pi}{3\sqrt{2}} = 0.74 = 74\%$$
+$$
+\eta = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} = \frac{\pi}{3\sqrt{2}} = 0.74 = 74\%
+$$
 
 **Common mistake:** Using $a = 2r$ for FCC. In FCC, atoms touch along the face diagonal, so $\sqrt{2}a = 4r$.
 
@@ -6467,7 +6721,9 @@ Assume 1 L of solution:
 - Mass of H$_2$SO$_4$ = $18 \times 98 = 1764 \text{ g}$
 - Mass of solvent = $1800 - 1764 = 36 \text{ g} = 0.036 \text{ kg}$
 
-$$\text{Molality} = \frac{18}{0.036} = 500 \text{ m}$$
+$$
+\text{Molality} = \frac{18}{0.036} = 500 \text{ m}
+$$
 
 **Common mistake:** Confusing mass of solution with mass of solvent. The denominator in molality is mass of solvent only.
 
@@ -6479,7 +6735,9 @@ $$\text{Molality} = \frac{18}{0.036} = 500 \text{ m}$$
 
 NaCl dissociates into Na$^+$ and Cl$^-$, so $i = 2$.
 
-$$\Delta T_b = i \cdot K_b \cdot m = 2 \times 0.52 \times 0.5 = 0.52 \text{ K}$$
+$$
+\Delta T_b = i \cdot K_b \cdot m = 2 \times 0.52 \times 0.5 = 0.52 \text{ K}
+$$
 
 Boiling point = $100 + 0.52 = 100.52^\circ$C
 
@@ -6491,12 +6749,18 @@ Boiling point = $100 + 0.52 = 100.52^\circ$C
 
 **Solution:**
 
-$$\pi = CRT \implies C = \frac{\pi}{RT}$$
+$$
+\pi = CRT \implies C = \frac{\pi}{RT}
+$$
 
-$$C = \frac{2500}{8.314 \times 300} = 1.002 \text{ mol/m}^3 = 1.002 \times 10^{-3} \text{ mol/L}$$
+$$
+C = \frac{2500}{8.314 \times 300} = 1.002 \text{ mol/m}^3 = 1.002 \times 10^{-3} \text{ mol/L}
+$$
 
 Concentration in g/L:
-$$1.002 \times 10^{-3} \times 50{,}000 = 50.1 \text{ g/L}$$
+$$
+1.002 \times 10^{-3} \times 50{,}000 = 50.1 \text{ g/L}
+$$
 
 **Common mistake:** Using $R = 0.0821$ L atm/(mol K) when pressure is in kPa. Either convert pressure to atm or use $R = 8.314$ J/(mol K) with SI units.
 
@@ -6508,7 +6772,9 @@ $$1.002 \times 10^{-3} \times 50{,}000 = 50.1 \text{ g/L}$$
 
 CaCl$_2$ dissociates into Ca$^{2+}$ and 2Cl$^-$, so $i = 3$.
 
-$$\Delta T_f = i \cdot K_f \cdot m = 3 \times 1.86 \times 1.0 = 5.58 \text{ K}$$
+$$
+\Delta T_f = i \cdot K_f \cdot m = 3 \times 1.86 \times 1.0 = 5.58 \text{ K}
+$$
 
 Freezing point = $0 - 5.58 = -5.58^\circ$C
 
@@ -6623,25 +6889,41 @@ Surface chemistry studies phenomena occurring at surfaces and interfaces. It cov
 Freundlich isotherm: $\frac{x}{m} = kP^{1/n}$
 
 Taking logarithms:
-$$\log\left(\frac{x}{m}\right) = \log k + \frac{1}{n}\log P$$
+$$
+\log\left(\frac{x}{m}\right) = \log k + \frac{1}{n}\log P
+$$
 
 From the two data points:
-$$\log(0.12) = \log k + \frac{1}{n}\log(2)$$
-$$\log(0.36) = \log k + \frac{1}{n}\log(6)$$
+$$
+\log(0.12) = \log k + \frac{1}{n}\log(2)
+$$
+$$
+\log(0.36) = \log k + \frac{1}{n}\log(6)
+$$
 
 Subtracting:
-$$\log(0.36) - \log(0.12) = \frac{1}{n}[\log(6) - \log(2)]$$
+$$
+\log(0.36) - \log(0.12) = \frac{1}{n}[\log(6) - \log(2)]
+$$
 
-$$\log(3) = \frac{1}{n}\log(3)$$
+$$
+\log(3) = \frac{1}{n}\log(3)
+$$
 
 Therefore $1/n = 1$, so $n = 1$.
 
 Substituting back:
-$$\log(0.12) = \log k + \log(2)$$
+$$
+\log(0.12) = \log k + \log(2)
+$$
 
-$$\log k = \log(0.12) - \log(2) = \log(0.06)$$
+$$
+\log k = \log(0.12) - \log(2) = \log(0.06)
+$$
 
-$$k = 0.06$$
+$$
+k = 0.06
+$$
 
 **Common mistake:** Forgetting to take logarithms. The Freundlich equation is linear in log-log form.
 
@@ -6652,7 +6934,9 @@ $$k = 0.06$$
 **Solution:**
 
 $\text{FeCl}_3$ hydrolyzes:
-$$\text{FeCl}_3 + 3\text{H}_2\text{O} \rightarrow \text{Fe(OH)}_3 + 3\text{HCl}$$
+$$
+\text{FeCl}_3 + 3\text{H}_2\text{O} \rightarrow \text{Fe(OH)}_3 + 3\text{HCl}
+$$
 
 The colloidal particles preferentially adsorb $\text{Fe}^{3+}$ ions (common ion), giving them a positive charge.
 
@@ -6667,7 +6951,9 @@ Purification by dialysis: The sol is placed in a parchment paper bag immersed in
 **Solution:**
 
 The rate increases by a factor of:
-$$\frac{k_{\text{catalyzed}}}{k_{\text{uncatalyzed}}} = \frac{5.8 \times 10^{-2}}{1.2 \times 10^{-3}} = \frac{58}{1.2} \approx 48.3$$
+$$
+\frac{k_{\text{catalyzed}}}{k_{\text{uncatalyzed}}} = \frac{5.8 \times 10^{-2}}{1.2 \times 10^{-3}} = \frac{58}{1.2} \approx 48.3
+$$
 
 The catalyst increases the rate approximately 48-fold. The catalyst provides an alternative pathway with lower activation energy.
 
@@ -6782,12 +7068,18 @@ Let $\alpha = \sin^{-1}(3/5)$, so $\sin\alpha = 3/5$, $\cos\alpha = 4/5$.
 
 Let $\beta = \sin^{-1}(5/13)$, so $\sin\beta = 5/13$, $\cos\beta = 12/13$.
 
-$$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
+$$
+\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta
+$$
 
-$$= \frac{3}{5} \cdot \frac{12}{13} + \frac{4}{5} \cdot \frac{5}{13} = \frac{36}{65} + \frac{20}{65} = \frac{56}{65}$$
+$$
+= \frac{3}{5} \cdot \frac{12}{13} + \frac{4}{5} \cdot \frac{5}{13} = \frac{36}{65} + \frac{20}{65} = \frac{56}{65}
+$$
 
 Therefore:
-$$\sin^{-1}\left(\frac{3}{5}\right) + \sin^{-1}\left(\frac{5}{13}\right) = \sin^{-1}\left(\frac{56}{65}\right)$$
+$$
+\sin^{-1}\left(\frac{3}{5}\right) + \sin^{-1}\left(\frac{5}{13}\right) = \sin^{-1}\left(\frac{56}{65}\right)
+$$
 
 **Common mistake:** Forgetting to check that the sum is within the range $[-\pi/2, \pi/2]$.
 
@@ -6800,10 +7092,14 @@ $$\sin^{-1}\left(\frac{3}{5}\right) + \sin^{-1}\left(\frac{5}{13}\right) = \sin^
 First, use the addition formula for $\tan^{-1}(1) + \tan^{-1}(2)$:
 Since $1 \times 2 = 2 > 1$, use the identity $\tan^{-1}x + \tan^{-1}y = \pi + \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ when $xy > 1$ and $x > 0$:
 
-$$\tan^{-1}(1) + \tan^{-1}(2) = \pi + \tan^{-1}\left(\frac{1+2}{1-2}\right) = \pi + \tan^{-1}(-3) = \pi - \tan^{-1}(3)$$
+$$
+\tan^{-1}(1) + \tan^{-1}(2) = \pi + \tan^{-1}\left(\frac{1+2}{1-2}\right) = \pi + \tan^{-1}(-3) = \pi - \tan^{-1}(3)
+$$
 
 Now add $\tan^{-1}(3)$:
-$$\pi - \tan^{-1}(3) + \tan^{-1}(3) = \pi$$
+$$
+\pi - \tan^{-1}(3) + \tan^{-1}(3) = \pi
+$$
 
 **Common mistake:** Using the formula $\tan^{-1}x + \tan^{-1}y = \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ without checking whether $xy < 1$.
 
@@ -6815,7 +7111,9 @@ $$\pi - \tan^{-1}(3) + \tan^{-1}(3) = \pi$$
 
 Using the identity $\sin^{-1}x + \cos^{-1}x = \pi/2$:
 
-$$\frac{\pi}{2} = \frac{\pi}{3}$$
+$$
+\frac{\pi}{2} = \frac{\pi}{3}
+$$
 
 This is a contradiction! The equation has no solution.
 
@@ -6874,10 +7172,14 @@ Let $\theta = \cos^{-1}(3/5)$, so $\cos\theta = 3/5$ and $\theta \in [0, \pi]$.
 
 Since $\cos\theta = 3/5 > 0$, $\theta$ is in the first quadrant, so $\sin\theta > 0$.
 
-$$\sin\theta = \sqrt{1 - \cos^2\theta} = \sqrt{1 - \frac{9}{25}} = \sqrt{\frac{16}{25}} = \frac{4}{5}$$
+$$
+\sin\theta = \sqrt{1 - \cos^2\theta} = \sqrt{1 - \frac{9}{25}} = \sqrt{\frac{16}{25}} = \frac{4}{5}
+$$
 
 Therefore:
-$$\cos^{-1}\left(\frac{3}{5}\right) = \sin^{-1}\left(\frac{4}{5}\right)$$
+$$
+\cos^{-1}\left(\frac{3}{5}\right) = \sin^{-1}\left(\frac{4}{5}\right)
+$$
 
 **Common mistake:** Forgetting that $\sin^{-1} x + \cos^{-1} x = \pi/2$, so $\cos^{-1} x = \pi/2 - \sin^{-1} x$. This is another valid answer.
 
@@ -6891,9 +7193,13 @@ Let $\theta = \tan^{-1}(3/4)$, so $\tan\theta = 3/4$ and $\theta \in (-\pi/2, \p
 
 Since $\tan\theta = 3/4 > 0$, $\theta$ is in the first quadrant.
 
-$$\sin\theta = \frac{3}{5}, \quad \cos\theta = \frac{4}{5}$$
+$$
+\sin\theta = \frac{3}{5}, \quad \cos\theta = \frac{4}{5}
+$$
 
-$$\sin(2\theta) = 2\sin\theta\cos\theta = 2 \times \frac{3}{5} \times \frac{4}{5} = \frac{24}{25}$$
+$$
+\sin(2\theta) = 2\sin\theta\cos\theta = 2 \times \frac{3}{5} \times \frac{4}{5} = \frac{24}{25}
+$$
 
 **Common mistake:** Forgetting that $\tan^{-1}(3/4)$ gives an angle, not a ratio. After finding the angle, use it in the double-angle formula.
 
@@ -6906,19 +7212,33 @@ $$\sin(2\theta) = 2\sin\theta\cos\theta = 2 \times \frac{3}{5} \times \frac{4}{5
 Using the addition formula (check $xy = (x+1)(x-1) = x^2 - 1$):
 
 Case 1: $x^2 - 1 < 1$, i.e., $x^2 < 2$:
-$$\tan^{-1}\left(\frac{(x+1)+(x-1)}{1-(x+1)(x-1)}\right) = \tan^{-1}\left(\frac{8}{31}\right)$$
+$$
+\tan^{-1}\left(\frac{(x+1)+(x-1)}{1-(x+1)(x-1)}\right) = \tan^{-1}\left(\frac{8}{31}\right)
+$$
 
-$$\frac{2x}{1-(x^2-1)} = \frac{8}{31}$$
+$$
+\frac{2x}{1-(x^2-1)} = \frac{8}{31}
+$$
 
-$$\frac{2x}{2-x^2} = \frac{8}{31}$$
+$$
+\frac{2x}{2-x^2} = \frac{8}{31}
+$$
 
-$$62x = 16 - 8x^2$$
+$$
+62x = 16 - 8x^2
+$$
 
-$$8x^2 + 62x - 16 = 0$$
+$$
+8x^2 + 62x - 16 = 0
+$$
 
-$$4x^2 + 31x - 8 = 0$$
+$$
+4x^2 + 31x - 8 = 0
+$$
 
-$$(4x - 1)(x + 8) = 0$$
+$$
+(4x - 1)(x + 8) = 0
+$$
 
 $x = 1/4$ or $x = -8$
 
@@ -7023,7 +7343,9 @@ Continuity ensures a function has no breaks, jumps, or holes. Differentiability 
 **Solution:**
 
 For $x \neq 2$:
-$$f(x) = \frac{x^2 - 4}{x - 2} = \frac{(x-2)(x+2)}{x-2} = x + 2$$
+$$
+f(x) = \frac{x^2 - 4}{x - 2} = \frac{(x-2)(x+2)}{x-2} = x + 2
+$$
 
 Left-hand limit: $\lim_{x \to 2^-} f(x) = 2 + 2 = 4$
 
@@ -7043,9 +7365,13 @@ Since $\lim_{x \to 2} f(x) \neq f(2)$, the function is not continuous at $x = 2$
 
 Let $u = \ln(x^2 + 1)$, $v = \sin(u)$:
 
-$$\frac{d}{dx}[\sin(\ln(x^2 + 1))] = \cos(\ln(x^2 + 1)) \cdot \frac{1}{x^2 + 1} \cdot 2x$$
+$$
+\frac{d}{dx}[\sin(\ln(x^2 + 1))] = \cos(\ln(x^2 + 1)) \cdot \frac{1}{x^2 + 1} \cdot 2x
+$$
 
-$$= \frac{2x \cos(\ln(x^2 + 1))}{x^2 + 1}$$
+$$
+= \frac{2x \cos(\ln(x^2 + 1))}{x^2 + 1}
+$$
 
 **Common mistake:** Forgetting one of the chain rule steps. Each nested function requires one more derivative factor.
 
@@ -7056,12 +7382,18 @@ $$= \frac{2x \cos(\ln(x^2 + 1))}{x^2 + 1}$$
 **Solution:**
 
 Take $\ln$ of both sides:
-$$\ln y = x \ln x$$
+$$
+\ln y = x \ln x
+$$
 
 Differentiate implicitly:
-$$\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1$$
+$$
+\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1
+$$
 
-$$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
+$$
+\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)
+$$
 
 **Common mistake:** Trying to use the power rule for $x^x$. The power rule applies to $x^n$ (constant exponent), not $a^x$ (constant base).
 
@@ -7126,9 +7458,13 @@ Setting equal: $3k + 1 = 5 \implies k = \frac{4}{3}$
 Simplify first: $\ln\left(\sqrt{\sin(x^2)}\right) = \frac{1}{2} \ln(\sin(x^2))$
 
 Now differentiate:
-$$\frac{d}{dx} \left[ \frac{1}{2} \ln(\sin(x^2)) \right] = \frac{1}{2} \cdot \frac{1}{\sin(x^2)} \cdot \cos(x^2) \cdot 2x$$
+$$
+\frac{d}{dx} \left[ \frac{1}{2} \ln(\sin(x^2)) \right] = \frac{1}{2} \cdot \frac{1}{\sin(x^2)} \cdot \cos(x^2) \cdot 2x
+$$
 
-$$= \frac{x \cos(x^2)}{\sin(x^2)} = x \cot(x^2)$$
+$$
+= \frac{x \cos(x^2)}{\sin(x^2)} = x \cot(x^2)
+$$
 
 **Common mistake:** Not simplifying before differentiating. Simplifying $\ln(\sqrt{u})$ to $\frac{1}{2}\ln u$ makes the chain rule much easier.
 
@@ -7139,15 +7475,23 @@ $$= \frac{x \cos(x^2)}{\sin(x^2)} = x \cot(x^2)$$
 **Solution:**
 
 Differentiate both sides with respect to $x$:
-$$2x + 2y \frac{dy}{dx} + \cos(xy) \left(y + x \frac{dy}{dx}\right) = 0$$
+$$
+2x + 2y \frac{dy}{dx} + \cos(xy) \left(y + x \frac{dy}{dx}\right) = 0
+$$
 
 Expand:
-$$2x + 2y \frac{dy}{dx} + y\cos(xy) + x\cos(xy) \frac{dy}{dx} = 0$$
+$$
+2x + 2y \frac{dy}{dx} + y\cos(xy) + x\cos(xy) \frac{dy}{dx} = 0
+$$
 
 Collect $\frac{dy}{dx}$ terms:
-$$\frac{dy}{dx} \left(2y + x\cos(xy)\right) = -2x - y\cos(xy)$$
+$$
+\frac{dy}{dx} \left(2y + x\cos(xy)\right) = -2x - y\cos(xy)
+$$
 
-$$\frac{dy}{dx} = \frac{-2x - y\cos(xy)}{2y + x\cos(xy)}$$
+$$
+\frac{dy}{dx} = \frac{-2x - y\cos(xy)}{2y + x\cos(xy)}
+$$
 
 **Common mistake:** Forgetting to apply the chain rule when differentiating $\sin(xy)$. The derivative of $\sin(xy)$ is $\cos(xy) \cdot (y + x \frac{dy}{dx})$.
 
@@ -7238,7 +7582,9 @@ Derivatives measure the rate of change of a function with respect to its variabl
 
 Let $u = x^2$ and $v = \sin x$. Then $\frac{du}{dx} = 2x$ and $\frac{dv}{dx} = \cos x$.
 
-$$\frac{d}{dx}[x^2 \sin x] = x^2 \cos x + \sin x \cdot 2x = x^2 \cos x + 2x \sin x$$
+$$
+\frac{d}{dx}[x^2 \sin x] = x^2 \cos x + \sin x \cdot 2x = x^2 \cos x + 2x \sin x
+$$
 
 **Common mistake:** Forgetting to differentiate one of the factors. Both terms must be present.
 
@@ -7250,7 +7596,9 @@ $$\frac{d}{dx}[x^2 \sin x] = x^2 \cos x + \sin x \cdot 2x = x^2 \cos x + 2x \sin
 
 Let $u = 3x^2 + 1$, so $\frac{du}{dx} = 6x$.
 
-$$\frac{d}{dx}[\sin(3x^2 + 1)] = \cos(3x^2 + 1) \cdot 6x = 6x \cos(3x^2 + 1)$$
+$$
+\frac{d}{dx}[\sin(3x^2 + 1)] = \cos(3x^2 + 1) \cdot 6x = 6x \cos(3x^2 + 1)
+$$
 
 **Common mistake:** Forgetting the inner derivative. The answer is not just $\cos(3x^2 + 1)$.
 
@@ -7261,10 +7609,14 @@ $$\frac{d}{dx}[\sin(3x^2 + 1)] = \cos(3x^2 + 1) \cdot 6x = 6x \cos(3x^2 + 1)$$
 **Solution:**
 
 Differentiate both sides with respect to $x$:
-$$2x + 2y\frac{dy}{dx} = 0$$
+$$
+2x + 2y\frac{dy}{dx} = 0
+$$
 
 Solve for $\frac{dy}{dx}$:
-$$\frac{dy}{dx} = -\frac{x}{y}$$
+$$
+\frac{dy}{dx} = -\frac{x}{y}
+$$
 
 **Common mistake:** Treating $y$ as a constant when differentiating. Remember that $y$ is a function of $x$, so $\frac{d}{dx}[y^2] = 2y\frac{dy}{dx}$.
 
@@ -7276,7 +7628,9 @@ $$\frac{dy}{dx} = -\frac{x}{y}$$
 
 Let $u = x$ and $v = x^2 + 1$. Then $\frac{du}{dx} = 1$ and $\frac{dv}{dx} = 2x$.
 
-$$\frac{d}{dx}\left[\frac{x}{x^2+1}\right] = \frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2} = \frac{x^2 + 1 - 2x^2}{(x^2+1)^2} = \frac{1 - x^2}{(x^2+1)^2}$$
+$$
+\frac{d}{dx}\left[\frac{x}{x^2+1}\right] = \frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2} = \frac{x^2 + 1 - 2x^2}{(x^2+1)^2} = \frac{1 - x^2}{(x^2+1)^2}
+$$
 
 **Common mistake:** Swapping $u$ and $v$ in the quotient rule formula. The numerator is $v \cdot u' - u \cdot v'$, not $u \cdot v' - v \cdot u'$.
 
@@ -7287,10 +7641,14 @@ $$\frac{d}{dx}\left[\frac{x}{x^2+1}\right] = \frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2
 **Solution:**
 
 First derivative:
-$$\frac{dy}{dx} = 2e^{2x}$$
+$$
+\frac{dy}{dx} = 2e^{2x}
+$$
 
 Second derivative:
-$$\frac{d^2y}{dx^2} = 2 \cdot 2e^{2x} = 4e^{2x}$$
+$$
+\frac{d^2y}{dx^2} = 2 \cdot 2e^{2x} = 4e^{2x}
+$$
 
 **Common mistake:** Forgetting to apply the chain rule at each differentiation step. Each derivative of $e^{2x}$ brings down a factor of 2.
 
@@ -7328,13 +7686,19 @@ $$\frac{d^2y}{dx^2} = 2 \cdot 2e^{2x} = 4e^{2x}$$
 Apply the product rule iteratively. Let $u = x$, $v = e^x \sin x$.
 
 First, find $\frac{dv}{dx}$ using the product rule on $e^x \sin x$:
-$$\frac{d}{dx}[e^x \sin x] = e^x \sin x + e^x \cos x = e^x(\sin x + \cos x)$$
+$$
+\frac{d}{dx}[e^x \sin x] = e^x \sin x + e^x \cos x = e^x(\sin x + \cos x)
+$$
 
 Now apply the product rule to $x \cdot (e^x \sin x)$:
-$$\frac{d}{dx}[x \cdot e^x \sin x] = 1 \cdot e^x \sin x + x \cdot e^x(\sin x + \cos x)$$
+$$
+\frac{d}{dx}[x \cdot e^x \sin x] = 1 \cdot e^x \sin x + x \cdot e^x(\sin x + \cos x)
+$$
 
 Factor:
-$$= e^x[\sin x + x\sin x + x\cos x] = e^x[(1 + x)\sin x + x\cos x]$$
+$$
+= e^x[\sin x + x\sin x + x\cos x] = e^x[(1 + x)\sin x + x\cos x]
+$$
 
 **Common mistake:** Trying to apply the product rule to three factors at once. Instead, group two factors together and apply the rule iteratively.
 
@@ -7345,13 +7709,19 @@ $$= e^x[\sin x + x\sin x + x\cos x] = e^x[(1 + x)\sin x + x\cos x]$$
 **Solution:**
 
 Take the natural logarithm of both sides:
-$$\ln y = \ln(x^x) = x \ln x$$
+$$
+\ln y = \ln(x^x) = x \ln x
+$$
 
 Differentiate both sides with respect to $x$:
-$$\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1$$
+$$
+\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1
+$$
 
 Solve for $\frac{dy}{dx}$:
-$$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
+$$
+\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)
+$$
 
 **Common mistake:** Treating $x^x$ as a power function ($nx^{n-1}$) or an exponential function ($a^x \ln a$). It is neither, use logarithmic differentiation.
 
@@ -7362,16 +7732,24 @@ $$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
 **Solution:**
 
 Let $u = \frac{x}{1 + x^2}$. Then $f(x) = \tan^{-1}(u)$ and:
-$$f'(x) = \frac{1}{1 + u^2} \cdot \frac{du}{dx}$$
+$$
+f'(x) = \frac{1}{1 + u^2} \cdot \frac{du}{dx}
+$$
 
 Compute $\frac{du}{dx}$ using the quotient rule:
-$$\frac{du}{dx} = \frac{(1 + x^2)(1) - x(2x)}{(1 + x^2)^2} = \frac{1 + x^2 - 2x^2}{(1 + x^2)^2} = \frac{1 - x^2}{(1 + x^2)^2}$$
+$$
+\frac{du}{dx} = \frac{(1 + x^2)(1) - x(2x)}{(1 + x^2)^2} = \frac{1 + x^2 - 2x^2}{(1 + x^2)^2} = \frac{1 - x^2}{(1 + x^2)^2}
+$$
 
 Now compute $\frac{1}{1 + u^2}$:
-$$1 + u^2 = 1 + \frac{x^2}{(1 + x^2)^2} = \frac{(1 + x^2)^2 + x^2}{(1 + x^2)^2} = \frac{1 + 2x^2 + x^4 + x^2}{(1 + x^2)^2} = \frac{1 + 3x^2 + x^4}{(1 + x^2)^2}$$
+$$
+1 + u^2 = 1 + \frac{x^2}{(1 + x^2)^2} = \frac{(1 + x^2)^2 + x^2}{(1 + x^2)^2} = \frac{1 + 2x^2 + x^4 + x^2}{(1 + x^2)^2} = \frac{1 + 3x^2 + x^4}{(1 + x^2)^2}
+$$
 
 Therefore:
-$$f'(x) = \frac{(1 + x^2)^2}{1 + 3x^2 + x^4} \cdot \frac{1 - x^2}{(1 + x^2)^2} = \frac{1 - x^2}{1 + 3x^2 + x^4}$$
+$$
+f'(x) = \frac{(1 + x^2)^2}{1 + 3x^2 + x^4} \cdot \frac{1 - x^2}{(1 + x^2)^2} = \frac{1 - x^2}{1 + 3x^2 + x^4}
+$$
 
 **Common mistake:** Forgetting the chain rule when differentiating inverse trigonometric functions. The derivative of $\tan^{-1}(u)$ is $\frac{1}{1 + u^2} \cdot \frac{du}{dx}$, not just $\frac{1}{1 + u^2}$.
 
@@ -7474,29 +7852,47 @@ Determinants are scalar values associated with square matrices. They determine w
 **Solution:**
 
 Expand along the first row:
-$$\det(A) = 1 \begin{vmatrix} 1 & 4 \\ 6 & 0 \end{vmatrix} - 2 \begin{vmatrix} 0 & 4 \\ 5 & 0 \end{vmatrix} + 3 \begin{vmatrix} 0 & 1 \\ 5 & 6 \end{vmatrix}$$
+$$
+\det(A) = 1 \begin{vmatrix} 1 & 4 \\ 6 & 0 \end{vmatrix} - 2 \begin{vmatrix} 0 & 4 \\ 5 & 0 \end{vmatrix} + 3 \begin{vmatrix} 0 & 1 \\ 5 & 6 \end{vmatrix}
+$$
 
-$$= 1(0 - 24) - 2(0 - 20) + 3(0 - 5)$$
+$$
+= 1(0 - 24) - 2(0 - 20) + 3(0 - 5)
+$$
 
-$$= -24 + 40 - 15 = 1$$
+$$
+= -24 + 40 - 15 = 1
+$$
 
 **Common mistake:** Forgetting the $(-1)^{i+j}$ sign pattern. The signs alternate as $+, -, +, -, \ldots$
 
 ## Worked Example 2, Cramer's Rule
 
 **Problem:** Solve the system:
-$$2x + 3y = 8$$
-$$x - 2y = -3$$
+$$
+2x + 3y = 8
+$$
+$$
+x - 2y = -3
+$$
 
 **Solution:**
 
-$$D = \begin{vmatrix} 2 & 3 \\ 1 & -2 \end{vmatrix} = 2(-2) - 3(1) = -7$$
+$$
+D = \begin{vmatrix} 2 & 3 \\ 1 & -2 \end{vmatrix} = 2(-2) - 3(1) = -7
+$$
 
-$$D_x = \begin{vmatrix} 8 & 3 \\ -3 & -2 \end{vmatrix} = 8(-2) - 3(-3) = -16 + 9 = -7$$
+$$
+D_x = \begin{vmatrix} 8 & 3 \\ -3 & -2 \end{vmatrix} = 8(-2) - 3(-3) = -16 + 9 = -7
+$$
 
-$$D_y = \begin{vmatrix} 2 & 8 \\ 1 & -3 \end{vmatrix} = 2(-3) - 8(1) = -6 - 8 = -14$$
+$$
+D_y = \begin{vmatrix} 2 & 8 \\ 1 & -3 \end{vmatrix} = 2(-3) - 8(1) = -6 - 8 = -14
+$$
 
-$$x = \frac{D_x}{D} = \frac{-7}{-7} = 1, \quad y = \frac{D_y}{D} = \frac{-14}{-7} = 2$$
+$$
+x = \frac{D_x}{D} = \frac{-7}{-7} = 1, \quad y = \frac{D_y}{D} = \frac{-14}{-7} = 2
+$$
 
 **Common mistake:** Using Cramer's rule when $D = 0$. If the determinant is zero, the system has no unique solution.
 
@@ -7506,12 +7902,18 @@ $$x = \frac{D_x}{D} = \frac{-7}{-7} = 1, \quad y = \frac{D_y}{D} = \frac{-14}{-7
 
 **Solution:**
 
-$$\text{Area} = \frac{1}{2} \left| \begin{vmatrix} 1 & 2 & 1 \\ 4 & 5 & 1 \\ 7 & 1 & 1 \end{vmatrix} \right|$$
+$$
+\text{Area} = \frac{1}{2} \left| \begin{vmatrix} 1 & 2 & 1 \\ 4 & 5 & 1 \\ 7 & 1 & 1 \end{vmatrix} \right|
+$$
 
 Expand along the first row:
-$$= \frac{1}{2} |1(5 - 1) - 2(4 - 7) + 1(4 - 35)|$$
+$$
+= \frac{1}{2} |1(5 - 1) - 2(4 - 7) + 1(4 - 35)|
+$$
 
-$$= \frac{1}{2} |4 + 6 - 31| = \frac{1}{2} |-21| = \frac{21}{2} = 10.5 \text{ square units}$$
+$$
+= \frac{1}{2} |4 + 6 - 31| = \frac{1}{2} |-21| = \frac{21}{2} = 10.5 \text{ square units}
+$$
 
 **Common mistake:** Forgetting the absolute value. Area must be positive.
 
@@ -7548,15 +7950,25 @@ Determinants are used in linear algebra, multivariable calculus (Jacobian), and 
 **Solution:**
 
 Expand along the first row:
-$$2 \begin{vmatrix} 1 & 6 \\ 2 & 3 \end{vmatrix} - x \begin{vmatrix} 4 & 6 \\ 1 & 3 \end{vmatrix} + 3 \begin{vmatrix} 4 & 1 \\ 1 & 2 \end{vmatrix} = 0$$
+$$
+2 \begin{vmatrix} 1 & 6 \\ 2 & 3 \end{vmatrix} - x \begin{vmatrix} 4 & 6 \\ 1 & 3 \end{vmatrix} + 3 \begin{vmatrix} 4 & 1 \\ 1 & 2 \end{vmatrix} = 0
+$$
 
-$$2(3 - 12) - x(12 - 6) + 3(8 - 1) = 0$$
+$$
+2(3 - 12) - x(12 - 6) + 3(8 - 1) = 0
+$$
 
-$$2(-9) - x(6) + 3(7) = 0$$
+$$
+2(-9) - x(6) + 3(7) = 0
+$$
 
-$$-18 - 6x + 21 = 0$$
+$$
+-18 - 6x + 21 = 0
+$$
 
-$$3 - 6x = 0 \implies x = \frac{1}{2}$$
+$$
+3 - 6x = 0 \implies x = \frac{1}{2}
+$$
 
 **Common mistake:** Sign errors in cofactor expansion. The signs alternate as $+, -, +$ along the first row.
 
@@ -7567,28 +7979,46 @@ $$3 - 6x = 0 \implies x = \frac{1}{2}$$
 **Solution:**
 
 For a $3 \times 3$ matrix:
-$$\det(2A) = 2^3 \det(A) = 8 \times 5 = 40$$
+$$
+\det(2A) = 2^3 \det(A) = 8 \times 5 = 40
+$$
 
-$$\det(A^{-1}) = \frac{1}{\det(A)} = \frac{1}{5}$$
+$$
+\det(A^{-1}) = \frac{1}{\det(A)} = \frac{1}{5}
+$$
 
-$$\det(A^T A) = \det(A^T) \det(A) = \det(A) \cdot \det(A) = 5 \times 5 = 25$$
+$$
+\det(A^T A) = \det(A^T) \det(A) = \det(A) \cdot \det(A) = 5 \times 5 = 25
+$$
 
 **Common mistake:** Using $\det(kA) = k \det(A)$ instead of $\det(kA) = k^n \det(A)$ for an $n \times n$ matrix.
 
 ## Worked Example 6, Solving System Using Cramer's Rule
 
 **Problem:** Solve the system:
-$$x + y + z = 6$$
-$$2x + 3y + z = 14$$
-$$3x - 2y + 4z = 5$$
+$$
+x + y + z = 6
+$$
+$$
+2x + 3y + z = 14
+$$
+$$
+3x - 2y + 4z = 5
+$$
 
 **Solution:**
 
-$$D = \begin{vmatrix} 1 & 1 & 1 \\ 2 & 3 & 1 \\ 3 & -2 & 4 \end{vmatrix} = 1(12+2) - 1(8-3) + 1(-4-9) = 14 - 5 - 13 = -4$$
+$$
+D = \begin{vmatrix} 1 & 1 & 1 \\ 2 & 3 & 1 \\ 3 & -2 & 4 \end{vmatrix} = 1(12+2) - 1(8-3) + 1(-4-9) = 14 - 5 - 13 = -4
+$$
 
-$$D_x = \begin{vmatrix} 6 & 1 & 1 \\ 14 & 3 & 1 \\ 5 & -2 & 4 \end{vmatrix} = 6(12+2) - 1(56-5) + 1(-28-15) = 84 - 51 - 43 = -10$$
+$$
+D_x = \begin{vmatrix} 6 & 1 & 1 \\ 14 & 3 & 1 \\ 5 & -2 & 4 \end{vmatrix} = 6(12+2) - 1(56-5) + 1(-28-15) = 84 - 51 - 43 = -10
+$$
 
-$$x = \frac{D_x}{D} = \frac{-10}{-4} = \frac{5}{2}$$
+$$
+x = \frac{D_x}{D} = \frac{-10}{-4} = \frac{5}{2}
+$$
 
 Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
 
@@ -7687,16 +8117,24 @@ Differential equations relate a function to its derivatives. This topic covers c
 **Solution:**
 
 Separate variables:
-$$y \, dy = x \, dx$$
+$$
+y \, dy = x \, dx
+$$
 
 Integrate both sides:
-$$\frac{y^2}{2} = \frac{x^2}{2} + C$$
+$$
+\frac{y^2}{2} = \frac{x^2}{2} + C
+$$
 
 Apply initial condition $y(0) = 4$:
-$$\frac{16}{2} = 0 + C \implies C = 8$$
+$$
+\frac{16}{2} = 0 + C \implies C = 8
+$$
 
 Solution:
-$$\frac{y^2}{2} = \frac{x^2}{2} + 8 \implies y^2 = x^2 + 16$$
+$$
+\frac{y^2}{2} = \frac{x^2}{2} + 8 \implies y^2 = x^2 + 16
+$$
 
 **Common mistake:** Forgetting to apply the initial condition to find $C$. The general solution is not the final answer.
 
@@ -7707,23 +8145,37 @@ $$\frac{y^2}{2} = \frac{x^2}{2} + 8 \implies y^2 = x^2 + 16$$
 **Solution:**
 
 Rewrite as:
-$$\frac{dy}{dx} = 1 + \frac{y}{x}$$
+$$
+\frac{dy}{dx} = 1 + \frac{y}{x}
+$$
 
 Let $v = \frac{y}{x}$, so $y = vx$ and $\frac{dy}{dx} = v + x\frac{dv}{dx}$:
 
-$$v + x\frac{dv}{dx} = 1 + v$$
+$$
+v + x\frac{dv}{dx} = 1 + v
+$$
 
-$$x\frac{dv}{dx} = 1$$
+$$
+x\frac{dv}{dx} = 1
+$$
 
 Separate and integrate:
-$$dv = \frac{dx}{x}$$
+$$
+dv = \frac{dx}{x}
+$$
 
-$$v = \ln|x| + C$$
+$$
+v = \ln|x| + C
+$$
 
 Substitute back $v = y/x$:
-$$\frac{y}{x} = \ln|x| + C$$
+$$
+\frac{y}{x} = \ln|x| + C
+$$
 
-$$y = x\ln|x| + Cx$$
+$$
+y = x\ln|x| + Cx
+$$
 
 **Common mistake:** Not recognizing that the equation is homogeneous. If $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$, the substitution $v = y/x$ always works.
 
@@ -7736,17 +8188,27 @@ $$y = x\ln|x| + Cx$$
 This is linear with $P = \frac{1}{x}$ and $Q = x^2$.
 
 Integrating factor:
-$$\mu = e^{\int \frac{1}{x} dx} = e^{\ln x} = x$$
+$$
+\mu = e^{\int \frac{1}{x} dx} = e^{\ln x} = x
+$$
 
 Multiply through by $\mu$:
-$$x\frac{dy}{dx} + y = x^3$$
+$$
+x\frac{dy}{dx} + y = x^3
+$$
 
-$$\frac{d}{dx}(xy) = x^3$$
+$$
+\frac{d}{dx}(xy) = x^3
+$$
 
 Integrate:
-$$xy = \frac{x^4}{4} + C$$
+$$
+xy = \frac{x^4}{4} + C
+$$
 
-$$y = \frac{x^3}{4} + \frac{C}{x}$$
+$$
+y = \frac{x^3}{4} + \frac{C}{x}
+$$
 
 **Common mistake:** Forgetting to multiply the entire equation by the integrating factor, not just the $dy/dx$ term.
 
@@ -7857,7 +8319,9 @@ Integration is the reverse process of differentiation. This topic covers basic i
 
 Let $u = x^2$, so $du = 2x \, dx$.
 
-$$\int 2x \cos(x^2) \, dx = \int \cos u \, du = \sin u + C = \sin(x^2) + C$$
+$$
+\int 2x \cos(x^2) \, dx = \int \cos u \, du = \sin u + C = \sin(x^2) + C
+$$
 
 **Common mistake:** Forgetting to substitute back. The answer is $\sin(x^2) + C$, not $\sin u + C$.
 
@@ -7869,7 +8333,9 @@ $$\int 2x \cos(x^2) \, dx = \int \cos u \, du = \sin u + C = \sin(x^2) + C$$
 
 Let $u = x$ and $dv = e^x \, dx$. Then $du = dx$ and $v = e^x$.
 
-$$\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x(x - 1) + C$$
+$$
+\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x(x - 1) + C
+$$
 
 **Common mistake:** Choosing the wrong $u$ and $dv$. Use LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential) to choose $u$.
 
@@ -7881,9 +8347,13 @@ $$\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x(x - 1) + C$$
 
 Use the identity $\sin^2 x = \frac{1 - \cos 2x}{2}$:
 
-$$\int_0^{\pi/2} \sin^2 x \, dx = \int_0^{\pi/2} \frac{1 - \cos 2x}{2} \, dx = \frac{1}{2}\left[x - \frac{\sin 2x}{2}\right]_0^{\pi/2}$$
+$$
+\int_0^{\pi/2} \sin^2 x \, dx = \int_0^{\pi/2} \frac{1 - \cos 2x}{2} \, dx = \frac{1}{2}\left[x - \frac{\sin 2x}{2}\right]_0^{\pi/2}
+$$
 
-$$= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}$$
+$$
+= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}
+$$
 
 **Common mistake:** Forgetting to evaluate at both limits. The definite integral is $F(b) - F(a)$, not just $F(b)$.
 
@@ -7894,16 +8364,24 @@ $$= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}$$
 **Solution:**
 
 Decompose into partial fractions:
-$$\frac{2x+3}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}$$
+$$
+\frac{2x+3}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}
+$$
 
-$$2x + 3 = A(x+2) + B(x+1)$$
+$$
+2x + 3 = A(x+2) + B(x+1)
+$$
 
 Set $x = -1$: $1 = A(1)$, so $A = 1$.
 Set $x = -2$: $-1 = B(-1)$, so $B = 1$.
 
-$$\int \frac{2x+3}{(x+1)(x+2)} \, dx = \int \frac{1}{x+1} \, dx + \int \frac{1}{x+2} \, dx = \ln|x+1| + \ln|x+2| + C$$
+$$
+\int \frac{2x+3}{(x+1)(x+2)} \, dx = \int \frac{1}{x+1} \, dx + \int \frac{1}{x+2} \, dx = \ln|x+1| + \ln|x+2| + C
+$$
 
-$$= \ln|(x+1)(x+2)| + C$$
+$$
+= \ln|(x+1)(x+2)| + C
+$$
 
 **Common mistake:** Forgetting the absolute value inside the logarithm. The integral of $\frac{1}{x}$ is $\ln|x| + C$, not $\ln x + C$.
 
@@ -7914,11 +8392,15 @@ $$= \ln|(x+1)(x+2)| + C$$
 **Solution:**
 
 Rewrite:
-$$\int \tan x \, dx = \int \frac{\sin x}{\cos x} \, dx$$
+$$
+\int \tan x \, dx = \int \frac{\sin x}{\cos x} \, dx
+$$
 
 Let $u = \cos x$, so $du = -\sin x \, dx$:
 
-$$= -\int \frac{1}{u} \, du = -\ln|u| + C = -\ln|\cos x| + C = \ln|\sec x| + C$$
+$$
+= -\int \frac{1}{u} \, du = -\ln|u| + C = -\ln|\cos x| + C = \ln|\sec x| + C
+$$
 
 **Common mistake:** Not recognizing that $\tan x = \frac{\sin x}{\cos x}$ is the starting point. Many students forget this basic identity.
 
@@ -8022,9 +8504,15 @@ Linear programming is an optimization technique for maximizing or minimizing a l
 ## Worked Example 1, Graphical Method
 
 **Problem:** Maximize $Z = 3x + 2y$ subject to:
-$$x + y \leq 4$$
-$$x + 2y \leq 6$$
-$$x, y \geq 0$$
+$$
+x + y \leq 4
+$$
+$$
+x + 2y \leq 6
+$$
+$$
+x, y \geq 0
+$$
 
 **Solution:**
 
@@ -8054,9 +8542,15 @@ Step 4: Maximum value is $Z = 12$ at $(4, 0)$.
 ## Worked Example 2, Minimization Problem
 
 **Problem:** Minimize $Z = 5x + 3y$ subject to:
-$$2x + y \geq 10$$
-$$x + 3y \geq 15$$
-$$x, y \geq 0$$
+$$
+2x + y \geq 10
+$$
+$$
+x + 3y \geq 15
+$$
+$$
+x, y \geq 0
+$$
 
 **Solution:**
 
@@ -8089,9 +8583,15 @@ Let $x$ = units of A, $y$ = units of B.
 Objective: Maximize $Z = 400x + 500y$
 
 Constraints:
-$$2x + y \leq 8 \quad \text{(Machine I)}$$
-$$x + 3y \leq 9 \quad \text{(Machine II)}$$
-$$x, y \geq 0$$
+$$
+2x + y \leq 8 \quad \text{(Machine I)}
+$$
+$$
+x + 3y \leq 9 \quad \text{(Machine II)}
+$$
+$$
+x, y \geq 0
+$$
 
 Corner points:
 
@@ -8208,7 +8708,9 @@ Matrices are rectangular arrays of numbers used to represent linear transformati
 
 **Solution:**
 
-$$AB = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}$$
+$$
+AB = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}
+$$
 
 **Common mistake:** Assuming $AB = BA$. Matrix multiplication is not commutative. as a rule, $AB \neq BA$.
 
@@ -8218,29 +8720,43 @@ $$AB = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 
 
 **Solution:**
 
-$$\det(A) = 1 \cdot 4 - 2 \cdot 3 = 4 - 6 = -2$$
+$$
+\det(A) = 1 \cdot 4 - 2 \cdot 3 = 4 - 6 = -2
+$$
 
 Since $\det(A) \neq 0$, the inverse exists:
 
-$$A^{-1} = \frac{1}{\det(A)} \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \frac{1}{-2} \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 1.5 & -0.5 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{\det(A)} \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \frac{1}{-2} \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 1.5 & -0.5 \end{pmatrix}
+$$
 
 **Common mistake:** Forgetting the negative sign when computing the determinant. The formula is $ad - bc$, not $bc - ad$.
 
 ## Worked Example 3, Solving a System Using Matrices
 
 **Problem:** Solve the system:
-$$x + 2y = 5$$
-$$3x + 4y = 11$$
+$$
+x + 2y = 5
+$$
+$$
+3x + 4y = 11
+$$
 
 **Solution:**
 
 Write as $AX = B$:
-$$\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 11 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 11 \end{pmatrix}
+$$
 
 Using the inverse from Example 2:
-$$\begin{pmatrix} x \\ y \end{pmatrix} = A^{-1}B = \begin{pmatrix} -2 & 1 \\ 1.5 & -0.5 \end{pmatrix} \begin{pmatrix} 5 \\ 11 \end{pmatrix}$$
+$$
+\begin{pmatrix} x \\ y \end{pmatrix} = A^{-1}B = \begin{pmatrix} -2 & 1 \\ 1.5 & -0.5 \end{pmatrix} \begin{pmatrix} 5 \\ 11 \end{pmatrix}
+$$
 
-$$x = -2(5) + 1(11) = 1, \quad y = 1.5(5) - 0.5(11) = 2$$
+$$
+x = -2(5) + 1(11) = 1, \quad y = 1.5(5) - 0.5(11) = 2
+$$
 
 **Common mistake:** Not checking if the determinant is zero before finding the inverse. If $\det(A) = 0$, the matrix is singular and has no inverse.
 
@@ -8254,7 +8770,9 @@ From Example 1: $AB = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}$, so $(AB
 
 $B^T = \begin{pmatrix} 5 & 7 \\ 6 & 8 \end{pmatrix}$ and $A^T = \begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix}$.
 
-$$B^T A^T = \begin{pmatrix} 5 & 7 \\ 6 & 8 \end{pmatrix}\begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix} = \begin{pmatrix} 5+14 & 15+28 \\ 6+16 & 18+32 \end{pmatrix} = \begin{pmatrix} 19 & 43 \\ 22 & 50 \end{pmatrix}$$
+$$
+B^T A^T = \begin{pmatrix} 5 & 7 \\ 6 & 8 \end{pmatrix}\begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix} = \begin{pmatrix} 5+14 & 15+28 \\ 6+16 & 18+32 \end{pmatrix} = \begin{pmatrix} 19 & 43 \\ 22 & 50 \end{pmatrix}
+$$
 
 Thus $(AB)^T = B^T A^T$.
 
@@ -8365,9 +8883,13 @@ Probability quantifies the likelihood of events. This topic covers conditional p
 
 **Solution:**
 
-$$P(\text{both red}) = P(\text{1st red}) \times P(\text{2nd red}|\text{1st red})$$
+$$
+P(\text{both red}) = P(\text{1st red}) \times P(\text{2nd red}|\text{1st red})
+$$
 
-$$= \frac{5}{8} \times \frac{4}{7} = \frac{20}{56} = \frac{5}{14}$$
+$$
+= \frac{5}{8} \times \frac{4}{7} = \frac{20}{56} = \frac{5}{14}
+$$
 
 **Common mistake:** Treating the draws as independent when they are without replacement. The second draw depends on the first.
 
@@ -8379,14 +8901,22 @@ $$= \frac{5}{8} \times \frac{4}{7} = \frac{20}{56} = \frac{5}{14}$$
 
 Let $D$ = defective, $A$, $B$, $C$ = machines.
 
-$$P(D) = P(D|A)P(A) + P(D|B)P(B) + P(D|C)P(C)$$
+$$
+P(D) = P(D|A)P(A) + P(D|B)P(B) + P(D|C)P(C)
+$$
 
-$$= 0.05 \times 0.30 + 0.03 \times 0.45 + 0.04 \times 0.25$$
+$$
+= 0.05 \times 0.30 + 0.03 \times 0.45 + 0.04 \times 0.25
+$$
 
-$$= 0.015 + 0.0135 + 0.01 = 0.0385$$
+$$
+= 0.015 + 0.0135 + 0.01 = 0.0385
+$$
 
 By Bayes' theorem:
-$$P(A|D) = \frac{P(D|A)P(A)}{P(D)} = \frac{0.015}{0.0385} = \frac{15}{38.5} \approx 0.3896$$
+$$
+P(A|D) = \frac{P(D|A)P(A)}{P(D)} = \frac{0.015}{0.0385} = \frac{15}{38.5} \approx 0.3896
+$$
 
 **Common mistake:** Forgetting to use the total probability $P(D)$ in the denominator. Using only $P(D|A)P(A)$ gives the wrong answer.
 
@@ -8398,7 +8928,9 @@ $$P(A|D) = \frac{P(D|A)P(A)}{P(D)} = \frac{0.015}{0.0385} = \frac{15}{38.5} \app
 
 This is a binomial distribution with $n = 5$, $r = 3$, $p = 0.5$, $q = 0.5$:
 
-$$P(X = 3) = \binom{5}{3} (0.5)^3 (0.5)^2 = 10 \times 0.125 \times 0.25 = 0.3125$$
+$$
+P(X = 3) = \binom{5}{3} (0.5)^3 (0.5)^2 = 10 \times 0.125 \times 0.25 = 0.3125
+$$
 
 Mean: $\mu = np = 5 \times 0.5 = 2.5$
 
@@ -8449,7 +8981,9 @@ Probability is fundamental to statistics, data science, risk assessment, and dec
 
 Given the first card is an ace, there are 3 aces left out of 51 remaining cards.
 
-$$P(\text{2nd ace} | \text{1st ace}) = \frac{3}{51} = \frac{1}{17}$$
+$$
+P(\text{2nd ace} | \text{1st ace}) = \frac{3}{51} = \frac{1}{17}
+$$
 
 This is a direct application of conditional probability. The sample space reduces from 52 to 51 cards after the first draw.
 
@@ -8467,11 +9001,17 @@ Find $E(X)$, $E(X^2)$, and $\text{Var}(X)$.
 
 **Solution:**
 
-$$E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.25) + 4(0.15) = 0 + 0.2 + 0.6 + 0.75 + 0.6 = 2.15$$
+$$
+E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.25) + 4(0.15) = 0 + 0.2 + 0.6 + 0.75 + 0.6 = 2.15
+$$
 
-$$E(X^2) = 0^2(0.1) + 1^2(0.2) + 2^2(0.3) + 3^2(0.25) + 4^2(0.15) = 0 + 0.2 + 1.2 + 2.25 + 2.4 = 6.05$$
+$$
+E(X^2) = 0^2(0.1) + 1^2(0.2) + 2^2(0.3) + 3^2(0.25) + 4^2(0.15) = 0 + 0.2 + 1.2 + 2.25 + 2.4 = 6.05
+$$
 
-$$\text{Var}(X) = E(X^2) - [E(X)]^2 = 6.05 - (2.15)^2 = 6.05 - 4.6225 = 1.4275$$
+$$
+\text{Var}(X) = E(X^2) - [E(X)]^2 = 6.05 - (2.15)^2 = 6.05 - 4.6225 = 1.4275
+$$
 
 **Common mistake:** Forgetting to square $E(X)$ in the variance formula. $\text{Var}(X) = E(X^2) - [E(X)]^2$, not $E(X^2) - E(X)$.
 
@@ -8483,7 +9023,9 @@ $$\text{Var}(X) = E(X^2) - [E(X)]^2 = 6.05 - (2.15)^2 = 6.05 - 4.6225 = 1.4275$$
 
 This is a binomial distribution with $n = 8$, $p = 0.6$, $q = 0.4$.
 
-$$P(X = 5) = \binom{8}{5} (0.6)^5 (0.4)^3 = 56 \times 0.07776 \times 0.064 = 0.2787$$
+$$
+P(X = 5) = \binom{8}{5} (0.6)^5 (0.4)^3 = 56 \times 0.07776 \times 0.064 = 0.2787
+$$
 
 Mean: $\mu = np = 8 \times 0.6 = 4.8$
 
@@ -8597,7 +9139,9 @@ $(1,2) \in R$ and $(2,3) \in R$, but $(1,3) \notin R$. No, $R$ is not transitive
 **Solution:**
 
 **Injective:** Suppose $f(a) = f(b)$:
-$$a^2 + 1 = b^2 + 1 \implies a^2 = b^2 \implies a = \pm b$$
+$$
+a^2 + 1 = b^2 + 1 \implies a^2 = b^2 \implies a = \pm b
+$$
 
 Since $a$ and $b$ could have opposite signs (e.g., $f(1) = f(-1) = 2$), $f$ is not injective.
 
@@ -8613,9 +9157,13 @@ Since $f$ is neither injective nor surjective, it is not bijective.
 
 **Solution:**
 
-$$(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 3$$
+$$
+(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 3
+$$
 
-$$(g \circ f)(x) = g(f(x)) = g(2x + 3) = (2x + 3)^2 = 4x^2 + 12x + 9$$
+$$
+(g \circ f)(x) = g(f(x)) = g(2x + 3) = (2x + 3)^2 = 4x^2 + 12x + 9
+$$
 
 Note that $f \circ g \neq g \circ f$ as a rule.
 
@@ -8676,7 +9224,9 @@ Equivalence classes:
 **Solution:**
 
 **Injective:** Suppose $f(a) = f(b)$:
-$$2a + 1 = 2b + 1 \implies a = b$$
+$$
+2a + 1 = 2b + 1 \implies a = b
+$$
 Yes, $f$ is injective.
 
 **Surjective:** Is every positive integer in the range? For $f(n) = 2n + 1$, the range is $\{3, 5, 7, 9, ...\}$ (odd numbers greater than or equal to 3). So $1$ and $2$ are not in the range. No, $f$ is not surjective.
@@ -8694,14 +9244,26 @@ Since $f$ is injective but not surjective, it is not bijective.
 Let $y = \frac{2x + 3}{x - 1}$.
 
 Solve for $x$:
-$$y(x - 1) = 2x + 3$$
-$$xy - y = 2x + 3$$
-$$xy - 2x = y + 3$$
-$$x(y - 2) = y + 3$$
-$$x = \frac{y + 3}{y - 2}$$
+$$
+y(x - 1) = 2x + 3
+$$
+$$
+xy - y = 2x + 3
+$$
+$$
+xy - 2x = y + 3
+$$
+$$
+x(y - 2) = y + 3
+$$
+$$
+x = \frac{y + 3}{y - 2}
+$$
 
 Therefore:
-$$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
+$$
+f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2
+$$
 
 **Common mistake:** Forgetting to specify the domain of the inverse function. The domain of $f^{-1}$ is $\mathbb{R} \setminus \{2\}$.
 
@@ -8791,9 +9353,13 @@ Study notes for CBSE Class 12 mathematics - Matrix operations.
 
 **Solution:**
 
-$$AB = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}$$
+$$
+AB = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}
+$$
 
-$$BA = \begin{pmatrix} 5 \cdot 1 + 6 \cdot 3 & 5 \cdot 2 + 6 \cdot 4 \\ 7 \cdot 1 + 8 \cdot 3 & 7 \cdot 2 + 8 \cdot 4 \end{pmatrix} = \begin{pmatrix} 23 & 34 \\ 31 & 46 \end{pmatrix}$$
+$$
+BA = \begin{pmatrix} 5 \cdot 1 + 6 \cdot 3 & 5 \cdot 2 + 6 \cdot 4 \\ 7 \cdot 1 + 8 \cdot 3 & 7 \cdot 2 + 8 \cdot 4 \end{pmatrix} = \begin{pmatrix} 23 & 34 \\ 31 & 46 \end{pmatrix}
+$$
 
 Note: $AB \neq BA$ (matrix multiplication is not commutative).
 
@@ -8804,36 +9370,56 @@ Note: $AB \neq BA$ (matrix multiplication is not commutative).
 **Solution:**
 
 Determinant (expanding along first row):
-$$\det(A) = 1\begin{vmatrix} 1 & 4 \\ 6 & 0 \end{vmatrix} - 2\begin{vmatrix} 0 & 4 \\ 5 & 0 \end{vmatrix} + 3\begin{vmatrix} 0 & 1 \\ 5 & 6 \end{vmatrix}$$
-$$= 1(0 - 24) - 2(0 - 20) + 3(0 - 5) = -24 + 40 - 15 = 1$$
+$$
+\det(A) = 1\begin{vmatrix} 1 & 4 \\ 6 & 0 \end{vmatrix} - 2\begin{vmatrix} 0 & 4 \\ 5 & 0 \end{vmatrix} + 3\begin{vmatrix} 0 & 1 \\ 5 & 6 \end{vmatrix}
+$$
+$$
+= 1(0 - 24) - 2(0 - 20) + 3(0 - 5) = -24 + 40 - 15 = 1
+$$
 
 Cofactor matrix:
-$$C = \begin{pmatrix} -24 & 20 & -5 \\ 18 & -15 & 4 \\ 5 & -4 & 1 \end{pmatrix}$$
+$$
+C = \begin{pmatrix} -24 & 20 & -5 \\ 18 & -15 & 4 \\ 5 & -4 & 1 \end{pmatrix}
+$$
 
 Adjugate (transpose of cofactor matrix):
-$$\text{adj}(A) = \begin{pmatrix} -24 & 18 & 5 \\ 20 & -15 & -4 \\ -5 & 4 & 1 \end{pmatrix}$$
+$$
+\text{adj}(A) = \begin{pmatrix} -24 & 18 & 5 \\ 20 & -15 & -4 \\ -5 & 4 & 1 \end{pmatrix}
+$$
 
 Inverse:
-$$A^{-1} = \frac{1}{\det(A)}\text{adj}(A) = \begin{pmatrix} -24 & 18 & 5 \\ 20 & -15 & -4 \\ -5 & 4 & 1 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{\det(A)}\text{adj}(A) = \begin{pmatrix} -24 & 18 & 5 \\ 20 & -15 & -4 \\ -5 & 4 & 1 \end{pmatrix}
+$$
 
 Verification: $AA^{-1} = I$ (identity matrix).
 
 ## Worked Example 3, Solving a System Using Matrix Inverse
 
 **Problem:** Solve the system:
-$$x + 2y = 5$$
-$$3x + 4y = 11$$
+$$
+x + 2y = 5
+$$
+$$
+3x + 4y = 11
+$$
 
 **Solution:**
 
 In matrix form $AX = B$:
-$$\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 11 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 11 \end{pmatrix}
+$$
 
 Determinant: $\det(A) = 1 \cdot 4 - 2 \cdot 3 = -2$
 
-$$A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 1.5 & -0.5 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 1.5 & -0.5 \end{pmatrix}
+$$
 
-$$X = A^{-1}B = \begin{pmatrix} -2 & 1 \\ 1.5 & -0.5 \end{pmatrix}\begin{pmatrix} 5 \\ 11 \end{pmatrix} = \begin{pmatrix} -10 + 11 \\ 7.5 - 5.5 \end{pmatrix} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$$
+$$
+X = A^{-1}B = \begin{pmatrix} -2 & 1 \\ 1.5 & -0.5 \end{pmatrix}\begin{pmatrix} 5 \\ 11 \end{pmatrix} = \begin{pmatrix} -10 + 11 \\ 7.5 - 5.5 \end{pmatrix} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}
+$$
 
 So $x = 1$, $y = 2$.
 
@@ -8992,20 +9578,28 @@ flowchart TD
 Given sets $A$ and $B$, a relation $R \subseteq A \times B$ is a rule that assigns to each element $a \in A$ zero or more elements $b \in B$.
 
 **Example:** Let $A = \{1, 2, 3\}$ and $B = \{2, 4, 6\}$. The relation "$a$ divides $b$" is:
-$$R = \{(1,2), (1,4), (1,6), (2,2), (2,4), (2,6), (3,6)\}$$
+$$
+R = \{(1,2), (1,4), (1,6), (2,2), (2,4), (2,6), (3,6)\}
+$$
 
 ### Types of Relations on a Set
 
 A relation $R$ on a set $A$ (i.e., $R \subseteq A \times A$) can be:
 
 **Reflexive:** $aRa$ for every $a \in A$.
-$$\forall a \in A, \quad (a, a) \in R$$
+$$
+\forall a \in A, \quad (a, a) \in R
+$$
 
 **Symmetric:** If $aRb$ then $bRa$.
-$$\forall a, b \in A, \quad (a, b) \in R \implies (b, a) \in R$$
+$$
+\forall a, b \in A, \quad (a, b) \in R \implies (b, a) \in R
+$$
 
 **Transitive:** If $aRb$ and $bRc$, then $aRc$.
-$$\forall a, b, c \in A, \quad (a, b) \in R \land (b, c) \in R \implies (a, c) \in R$$
+$$
+\forall a, b, c \in A, \quad (a, b) \in R \land (b, c) \in R \implies (a, c) \in R
+$$
 
 ### Equivalence Relations
 
@@ -9058,7 +9652,9 @@ A relation that is reflexive, symmetric, and transitive is called an **equivalen
 **Symmetric:** If $aRb$, then $3 \mid (a - b)$, so $a - b = 3k$ for some integer $k$. Then $b - a = -3k = 3(-k)$, so $3 \mid (b - a)$, giving $bRa$.
 
 **Transitive:** If $aRb$ and $bRc$, then $a - b = 3k$ and $b - c = 3m$ for integers $k, m$. Then:
-$$a - c = (a - b) + (b - c) = 3k + 3m = 3(k + m)$$
+$$
+a - c = (a - b) + (b - c) = 3k + 3m = 3(k + m)
+$$
 So $3 \mid (a - c)$, giving $aRc$.
 
 **Equivalence classes:**
@@ -9220,9 +9816,15 @@ Electric charge is a fundamental property of matter. This topic covers Coulomb's
 **Problem:** Two point charges $q_1 = +3 \, \mu\text{C}$ and $q_2 = -5 \, \mu\text{C}$ are placed 0.2 m apart. Find the magnitude and direction of the force between them.
 
 **Solution:**
-$$F = k\frac{|q_1 q_2|}{r^2} = 9 \times 10^9 \times \frac{3 \times 10^{-6} \times 5 \times 10^{-6}}{(0.2)^2}$$
-$$= 9 \times 10^9 \times \frac{15 \times 10^{-12}}{0.04} = 9 \times 10^9 \times 3.75 \times 10^{-10}$$
-$$= 3.375 \, \text{N}$$
+$$
+F = k\frac{|q_1 q_2|}{r^2} = 9 \times 10^9 \times \frac{3 \times 10^{-6} \times 5 \times 10^{-6}}{(0.2)^2}
+$$
+$$
+= 9 \times 10^9 \times \frac{15 \times 10^{-12}}{0.04} = 9 \times 10^9 \times 3.75 \times 10^{-10}
+$$
+$$
+= 3.375 \, \text{N}
+$$
 
 Since the charges have opposite signs, the force is attractive (directed toward each other).
 
@@ -9235,17 +9837,27 @@ Since the charges have opposite signs, the force is attractive (directed toward 
 **Solution:**
 
 Force due to $q_1$ (along $+x$):
-$$F_1 = k\frac{|q \cdot q_1|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{(0.1)^2} = 5.4 \, \text{N} \, \hat{i}$$
+$$
+F_1 = k\frac{|q \cdot q_1|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{(0.1)^2} = 5.4 \, \text{N} \, \hat{i}
+$$
 
 Force due to $q_2$ (along $-y$, attractive):
-$$F_2 = k\frac{|q \cdot q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.1)^2} = 7.2 \, \text{N}$$
+$$
+F_2 = k\frac{|q \cdot q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.1)^2} = 7.2 \, \text{N}
+$$
 
 Since $q_2$ is negative and below $q$, the force on $q$ is toward $q_2$:
-$$\vec{F}_2 = -7.2 \, \hat{j} \, \text{N}$$
+$$
+\vec{F}_2 = -7.2 \, \hat{j} \, \text{N}
+$$
 
 Net force:
-$$\vec{F}_{net} = 5.4 \, \hat{i} - 7.2 \, \hat{j} \, \text{N}$$
-$$|\vec{F}_{net}| = \sqrt{5.4^2 + 7.2^2} = \sqrt{29.16 + 51.84} = \sqrt{81} = 9 \, \text{N}$$
+$$
+\vec{F}_{net} = 5.4 \, \hat{i} - 7.2 \, \hat{j} \, \text{N}
+$$
+$$
+|\vec{F}_{net}| = \sqrt{5.4^2 + 7.2^2} = \sqrt{29.16 + 51.84} = \sqrt{81} = 9 \, \text{N}
+$$
 
 Direction: $\theta = \tan^{-1}\left(\frac{7.2}{5.4}\right) \approx 53.1^\circ$ below the $x$-axis.
 
@@ -9259,12 +9871,20 @@ Direction: $\theta = \tan^{-1}\left(\frac{7.2}{5.4}\right) \approx 53.1^\circ$ b
 
 For $q_3$ to be in equilibrium, the forces from $q_1$ and $q_2$ must be equal and opposite. Let $q_3$ be at distance $x$ from the origin.
 
-$$k\frac{|q_1 q_3|}{x^2} = k\frac{|q_2 q_3|}{(3-x)^2}$$
-$$\frac{4}{x^2} = \frac{9}{(3-x)^2}$$
+$$
+k\frac{|q_1 q_3|}{x^2} = k\frac{|q_2 q_3|}{(3-x)^2}
+$$
+$$
+\frac{4}{x^2} = \frac{9}{(3-x)^2}
+$$
 
 Taking square roots (both positive):
-$$\frac{2}{x} = \frac{3}{3-x}$$
-$$2(3-x) = 3x \implies 6 - 2x = 3x \implies x = 1.2 \, \text{m}$$
+$$
+\frac{2}{x} = \frac{3}{3-x}
+$$
+$$
+2(3-x) = 3x \implies 6 - 2x = 3x \implies x = 1.2 \, \text{m}
+$$
 
 The third charge should be placed at $x = 1.2$ m from the origin.
 
@@ -9426,9 +10046,15 @@ flowchart TD
 **Problem:** Find the electric field at a point 0.3 m from a charge of $+8 \, \mu\text{C}$.
 
 **Solution:**
-$$E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{8 \times 10^{-6}}{(0.3)^2}$$
-$$= 9 \times 10^9 \times \frac{8 \times 10^{-6}}{0.09} = 9 \times 10^9 \times 8.89 \times 10^{-5}$$
-$$= 8 \times 10^5 \, \text{N/C}$$
+$$
+E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{8 \times 10^{-6}}{(0.3)^2}
+$$
+$$
+= 9 \times 10^9 \times \frac{8 \times 10^{-6}}{0.09} = 9 \times 10^9 \times 8.89 \times 10^{-5}
+$$
+$$
+= 8 \times 10^5 \, \text{N/C}
+$$
 
 The field points radially outward from the positive charge.
 
@@ -9439,15 +10065,23 @@ The field points radially outward from the positive charge.
 **Solution:**
 
 Distance from each charge to the point:
-$$r = \sqrt{(0.2)^2 + (0.05)^2} = \sqrt{0.04 + 0.0025} = \sqrt{0.0425} \approx 0.206 \, \text{m}$$
+$$
+r = \sqrt{(0.2)^2 + (0.05)^2} = \sqrt{0.04 + 0.0025} = \sqrt{0.0425} \approx 0.206 \, \text{m}
+$$
 
 Magnitude of field from each charge:
-$$E_1 = E_2 = k\frac{|q|}{r^2} = 9 \times 10^9 \times \frac{4 \times 10^{-6}}{0.0425} \approx 8.47 \times 10^5 \, \text{N/C}$$
+$$
+E_1 = E_2 = k\frac{|q|}{r^2} = 9 \times 10^9 \times \frac{4 \times 10^{-6}}{0.0425} \approx 8.47 \times 10^5 \, \text{N/C}
+$$
 
 By symmetry, the $y$-components cancel. The $x$-components add:
-$$\cos\theta = \frac{x}{r} = \frac{0.2}{0.206} \approx 0.971$$
+$$
+\cos\theta = \frac{x}{r} = \frac{0.2}{0.206} \approx 0.971
+$$
 
-$$E_{net} = 2E_1\cos\theta = 2 \times 8.47 \times 10^5 \times 0.971 \approx 1.64 \times 10^6 \, \text{N/C}$$
+$$
+E_{net} = 2E_1\cos\theta = 2 \times 8.47 \times 10^5 \times 0.971 \approx 1.64 \times 10^6 \, \text{N/C}
+$$
 
 The direction is along $+x$ (from positive to negative).
 
@@ -9458,8 +10092,12 @@ The direction is along $+x$ (from positive to negative).
 **Solution:**
 
 For $r < R$:
-$$E = \frac{kQr}{R^3} = \frac{9 \times 10^9 \times 10 \times 10^{-6} \times 0.06}{(0.1)^3}$$
-$$= \frac{9 \times 10^9 \times 6 \times 10^{-7}}{10^{-3}} = \frac{5400}{10^{-3}} = 5.4 \times 10^6 \, \text{N/C}$$
+$$
+E = \frac{kQr}{R^3} = \frac{9 \times 10^9 \times 10 \times 10^{-6} \times 0.06}{(0.1)^3}
+$$
+$$
+= \frac{9 \times 10^9 \times 6 \times 10^{-7}}{10^{-3}} = \frac{5400}{10^{-3}} = 5.4 \times 10^6 \, \text{N/C}
+$$
 
 ## Worked Example 4, Electric Field Due to a Charged Ring
 
@@ -9468,13 +10106,21 @@ $$= \frac{9 \times 10^9 \times 6 \times 10^{-7}}{10^{-3}} = \frac{5400}{10^{-3}}
 **Solution:**
 
 Using the formula for the axial field of a ring:
-$$E = \frac{kqx}{(R^2 + x^2)^{3/2}}$$
+$$
+E = \frac{kqx}{(R^2 + x^2)^{3/2}}
+$$
 
-$$E = \frac{9 \times 10^9 \times 5 \times 10^{-6} \times 0.2}{((0.15)^2 + (0.2)^2)^{3/2}}$$
+$$
+E = \frac{9 \times 10^9 \times 5 \times 10^{-6} \times 0.2}{((0.15)^2 + (0.2)^2)^{3/2}}
+$$
 
-$$= \frac{9 \times 10^9 \times 10^{-6}}{(0.0225 + 0.04)^{3/2}} = \frac{9000}{(0.0625)^{3/2}}$$
+$$
+= \frac{9 \times 10^9 \times 10^{-6}}{(0.0225 + 0.04)^{3/2}} = \frac{9000}{(0.0625)^{3/2}}
+$$
 
-$$= \frac{9000}{0.015625} = 5.76 \times 10^5 \, \text{N/C}$$
+$$
+= \frac{9000}{0.015625} = 5.76 \times 10^5 \, \text{N/C}
+$$
 
 **Common mistake:** Forgetting that the field on the axis of a ring is maximum at $x = R/\sqrt{2}$, not at the centre (where it is zero).
 
@@ -9484,7 +10130,9 @@ $$= \frac{9000}{0.015625} = 5.76 \times 10^5 \, \text{N/C}$$
 
 **Solution:**
 
-$$\vec{F} = q\vec{E} = 3 \times 10^{-6} \times 2 \times 10^5 = 0.6 \, \text{N}$$
+$$
+\vec{F} = q\vec{E} = 3 \times 10^{-6} \times 2 \times 10^5 = 0.6 \, \text{N}
+$$
 
 The force is in the same direction as the field (to the right) because the charge is positive.
 
@@ -9531,9 +10179,13 @@ The force is in the same direction as the field (to the right) because the charg
 **Solution:**
 
 For an infinite line charge, the electric field is:
-$$E = \frac{2k\lambda}{r}$$
+$$
+E = \frac{2k\lambda}{r}
+$$
 
-$$E = \frac{2 \times 9 \times 10^9 \times 5 \times 10^{-8}}{0.1} = \frac{900}{0.1} = 9 \times 10^3 \, \text{N/C}$$
+$$
+E = \frac{2 \times 9 \times 10^9 \times 5 \times 10^{-8}}{0.1} = \frac{900}{0.1} = 9 \times 10^3 \, \text{N/C}
+$$
 
 The field points radially away from the wire (if $\lambda > 0$).
 
@@ -9655,13 +10307,19 @@ This topic covers the Bohr model of the hydrogen atom, X-ray production, nuclear
 **Solution:**
 
 Energy levels:
-$$E_3 = \frac{-13.6}{9} = -1.51 \, \text{eV}, \quad E_2 = \frac{-13.6}{4} = -3.40 \, \text{eV}$$
+$$
+E_3 = \frac{-13.6}{9} = -1.51 \, \text{eV}, \quad E_2 = \frac{-13.6}{4} = -3.40 \, \text{eV}
+$$
 
 Energy of emitted photon:
-$$\Delta E = E_3 - E_2 = -1.51 - (-3.40) = 1.89 \, \text{eV}$$
+$$
+\Delta E = E_3 - E_2 = -1.51 - (-3.40) = 1.89 \, \text{eV}
+$$
 
 Convert to wavelength:
-$$\lambda = \frac{hc}{\Delta E} = \frac{1240}{1.89} = 656 \, \text{nm}$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{1240}{1.89} = 656 \, \text{nm}
+$$
 
 This is the red line of the Balmer series.
 
@@ -9674,14 +10332,22 @@ This is the red line of the Balmer series.
 **Solution:**
 
 Mass defect:
-$$\Delta m = 2(1.00728) + 2(1.00867) - 4.00260$$
-$$= 2.01456 + 2.01734 - 4.00260 = 0.02930 \, \text{u}$$
+$$
+\Delta m = 2(1.00728) + 2(1.00867) - 4.00260
+$$
+$$
+= 2.01456 + 2.01734 - 4.00260 = 0.02930 \, \text{u}
+$$
 
 Binding energy:
-$$E_B = \Delta m \times 931.5 \, \text{MeV/u} = 0.02930 \times 931.5 = 27.3 \, \text{MeV}$$
+$$
+E_B = \Delta m \times 931.5 \, \text{MeV/u} = 0.02930 \times 931.5 = 27.3 \, \text{MeV}
+$$
 
 Binding energy per nucleon:
-$$\frac{E_B}{A} = \frac{27.3}{4} = 6.83 \, \text{MeV/nucleon}$$
+$$
+\frac{E_B}{A} = \frac{27.3}{4} = 6.83 \, \text{MeV/nucleon}
+$$
 
 **Common mistake:** Forgetting to multiply by 931.5 to convert mass defect from atomic mass units to MeV.
 
@@ -9692,15 +10358,23 @@ $$\frac{E_B}{A} = \frac{27.3}{4} = 6.83 \, \text{MeV/nucleon}$$
 **Solution:**
 
 Number of half-lives:
-$$n = \frac{30}{10} = 3$$
+$$
+n = \frac{30}{10} = 3
+$$
 
 Fraction remaining:
-$$\frac{N}{N_0} = \left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^3 = \frac{1}{8} = 0.125$$
+$$
+\frac{N}{N_0} = \left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^3 = \frac{1}{8} = 0.125
+$$
 
 Alternatively, using the decay formula:
-$$\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{10} = 0.0693 \, \text{day}^{-1}$$
+$$
+\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{10} = 0.0693 \, \text{day}^{-1}
+$$
 
-$$N = N_0 e^{-\lambda t} = N_0 e^{-0.0693 \times 30} = N_0 e^{-2.079} = 0.125 \, N_0$$
+$$
+N = N_0 e^{-\lambda t} = N_0 e^{-0.0693 \times 30} = N_0 e^{-2.079} = 0.125 \, N_0
+$$
 
 **Common mistake:** Using $N = N_0 e^{-t/t_{1/2}}$ instead of $N = N_0 e^{-\lambda t}$ where $\lambda = \ln 2 / t_{1/2}$.
 
@@ -9738,11 +10412,17 @@ Kinetic energy gained: $eV = \frac{1}{2}mv^2$
 Momentum: $p = mv = \sqrt{2meV}$
 
 de Broglie wavelength:
-$$\lambda = \frac{h}{p} = \frac{h}{\sqrt{2meV}}$$
+$$
+\lambda = \frac{h}{p} = \frac{h}{\sqrt{2meV}}
+$$
 
-$$= \frac{6.63 \times 10^{-34}}{\sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-19} \times 100}}$$
+$$
+= \frac{6.63 \times 10^{-34}}{\sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-19} \times 100}}
+$$
 
-$$= \frac{6.63 \times 10^{-34}}{\sqrt{2.915 \times 10^{-47}}} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10}\,\text{m} = 0.123\,\text{nm}$$
+$$
+= \frac{6.63 \times 10^{-34}}{\sqrt{2.915 \times 10^{-47}}} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10}\,\text{m} = 0.123\,\text{nm}
+$$
 
 **Common mistake:** Forgetting to convert electron-volts to joules. $1\,\text{eV} = 1.6 \times 10^{-19}\,\text{J}$.
 
@@ -9758,7 +10438,9 @@ Conservation of atomic number: $92 = Z + 2 \implies Z = 90$
 
 The product is $^{234}_{90}\text{Th}$ (thorium-234).
 
-$$^{238}_{92}\text{U} \rightarrow \, ^{234}_{90}\text{Th} + \, ^4_2\text{He}$$
+$$
+^{238}_{92}\text{U} \rightarrow \, ^{234}_{90}\text{Th} + \, ^4_2\text{He}
+$$
 
 **Common mistake:** Forgetting to conserve both mass number and atomic number. Both must balance on both sides.
 
@@ -9771,12 +10453,18 @@ $$^{238}_{92}\text{U} \rightarrow \, ^{234}_{90}\text{Th} + \, ^4_2\text{He}$$
 Number of half-lives: $n = \frac{15}{5} = 3$
 
 Activity after $n$ half-lives:
-$$A = A_0 \left(\frac{1}{2}\right)^n = 800 \times \left(\frac{1}{2}\right)^3 = 800 \times \frac{1}{8} = 100\,\text{Bq}$$
+$$
+A = A_0 \left(\frac{1}{2}\right)^n = 800 \times \left(\frac{1}{2}\right)^3 = 800 \times \frac{1}{8} = 100\,\text{Bq}
+$$
 
 Alternatively, using the decay formula:
-$$\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{5} = 0.1386\,\text{year}^{-1}$$
+$$
+\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{5} = 0.1386\,\text{year}^{-1}
+$$
 
-$$A = A_0 e^{-\lambda t} = 800 \times e^{-0.1386 \times 15} = 800 \times e^{-2.079} = 800 \times 0.125 = 100\,\text{Bq}$$
+$$
+A = A_0 e^{-\lambda t} = 800 \times e^{-0.1386 \times 15} = 800 \times e^{-2.079} = 800 \times 0.125 = 100\,\text{Bq}
+$$
 
 **Common mistake:** Using the wrong formula for activity. Activity follows the same exponential decay law as the number of radioactive nuclei.
 
@@ -9874,15 +10562,25 @@ Current electricity deals with the flow of electric charge through conductors. I
 **Solution:**
 
 Total resistance:
-$$R_{total} = 2 + 3 + 5 = 10 \, \Omega$$
+$$
+R_{total} = 2 + 3 + 5 = 10 \, \Omega
+$$
 
 Current (same through all):
-$$I = \frac{V}{R_{total}} = \frac{10}{10} = 1 \, \text{A}$$
+$$
+I = \frac{V}{R_{total}} = \frac{10}{10} = 1 \, \text{A}
+$$
 
 Voltages:
-$$V_1 = IR_1 = 1 \times 2 = 2 \, \text{V}$$
-$$V_2 = IR_2 = 1 \times 3 = 3 \, \text{V}$$
-$$V_3 = IR_3 = 1 \times 5 = 5 \, \text{V}$$
+$$
+V_1 = IR_1 = 1 \times 2 = 2 \, \text{V}
+$$
+$$
+V_2 = IR_2 = 1 \times 3 = 3 \, \text{V}
+$$
+$$
+V_3 = IR_3 = 1 \times 5 = 5 \, \text{V}
+$$
 
 Check: $V_1 + V_2 + V_3 = 2 + 3 + 5 = 10 \, \text{V}$ (matches the battery voltage).
 
@@ -9897,16 +10595,24 @@ Check: $V_1 + V_2 + V_3 = 2 + 3 + 5 = 10 \, \text{V}$ (matches the battery volta
 Voltage across each resistor is 12 V (parallel circuit).
 
 Current through 6 $\Omega$:
-$$I_1 = \frac{V}{R_1} = \frac{12}{6} = 2 \, \text{A}$$
+$$
+I_1 = \frac{V}{R_1} = \frac{12}{6} = 2 \, \text{A}
+$$
 
 Current through 3 $\Omega$:
-$$I_2 = \frac{V}{R_2} = \frac{12}{3} = 4 \, \text{A}$$
+$$
+I_2 = \frac{V}{R_2} = \frac{12}{3} = 4 \, \text{A}
+$$
 
 Total current:
-$$I_{total} = I_1 + I_2 = 2 + 4 = 6 \, \text{A}$$
+$$
+I_{total} = I_1 + I_2 = 2 + 4 = 6 \, \text{A}
+$$
 
 Equivalent resistance:
-$$R_{eq} = \frac{V}{I_{total}} = \frac{12}{6} = 2 \, \Omega$$
+$$
+R_{eq} = \frac{V}{I_{total}} = \frac{12}{6} = 2 \, \Omega
+$$
 
 **Common mistake:** Forgetting that current splits in parallel circuits. The total current is the sum of branch currents.
 
@@ -9917,9 +10623,13 @@ $$R_{eq} = \frac{V}{I_{total}} = \frac{12}{6} = 2 \, \Omega$$
 **Solution:**
 
 For a balanced Wheatstone bridge:
-$$\frac{R_1}{R_2} = \frac{R_3}{R_4}$$
+$$
+\frac{R_1}{R_2} = \frac{R_3}{R_4}
+$$
 
-$$R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega$$
+$$
+R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega
+$$
 
 **Common mistake:** Getting the ratio order wrong. The resistors must be in opposite arms of the bridge.
 
@@ -9962,10 +10672,14 @@ $$R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega$
 **Solution:**
 
 Step 1: Parallel combination of $R_1$ and $R_2$:
-$$R_{12} = \frac{R_1 \times R_2}{R_1 + R_2} = \frac{6 \times 3}{6 + 3} = \frac{18}{9} = 2\,\Omega$$
+$$
+R_{12} = \frac{R_1 \times R_2}{R_1 + R_2} = \frac{6 \times 3}{6 + 3} = \frac{18}{9} = 2\,\Omega
+$$
 
 Step 2: Series combination with $R_3$:
-$$R_{eq} = R_{12} + R_3 = 2 + 4 = 6\,\Omega$$
+$$
+R_{eq} = R_{12} + R_3 = 2 + 4 = 6\,\Omega
+$$
 
 **Common mistake:** Adding the parallel resistors directly without using the parallel formula. Parallel resistors always give a smaller equivalent resistance.
 
@@ -9980,21 +10694,39 @@ Let $I$ be the total current through $R_3$, and $I_1$, $I_2$ be currents through
 By junction rule: $I = I_1 + I_2$
 
 Voltage across parallel combination: $V_{12} = I_1 R_1 = I_2 R_2$
-$$4I_1 = 6I_2 \implies I_1 = 1.5 I_2$$
+$$
+4I_1 = 6I_2 \implies I_1 = 1.5 I_2
+$$
 
 Loop rule for outer loop:
-$$E - IR_3 - I_1 R_1 = 0$$
-$$12 - (I_1 + I_2) \times 3 - 4I_1 = 0$$
+$$
+E - IR_3 - I_1 R_1 = 0
+$$
+$$
+12 - (I_1 + I_2) \times 3 - 4I_1 = 0
+$$
 
 Substitute $I_1 = 1.5I_2$:
-$$12 - (1.5I_2 + I_2) \times 3 - 4(1.5I_2) = 0$$
-$$12 - 7.5I_2 - 6I_2 = 0$$
-$$12 = 13.5I_2$$
-$$I_2 = \frac{12}{13.5} = \frac{8}{9} \approx 0.889\,\text{A}$$
+$$
+12 - (1.5I_2 + I_2) \times 3 - 4(1.5I_2) = 0
+$$
+$$
+12 - 7.5I_2 - 6I_2 = 0
+$$
+$$
+12 = 13.5I_2
+$$
+$$
+I_2 = \frac{12}{13.5} = \frac{8}{9} \approx 0.889\,\text{A}
+$$
 
-$$I_1 = 1.5 \times \frac{8}{9} = \frac{4}{3} \approx 1.333\,\text{A}$$
+$$
+I_1 = 1.5 \times \frac{8}{9} = \frac{4}{3} \approx 1.333\,\text{A}
+$$
 
-$$I = I_1 + I_2 = \frac{4}{3} + \frac{8}{9} = \frac{12 + 8}{9} = \frac{20}{9} \approx 2.222\,\text{A}$$
+$$
+I = I_1 + I_2 = \frac{4}{3} + \frac{8}{9} = \frac{12 + 8}{9} = \frac{20}{9} \approx 2.222\,\text{A}
+$$
 
 **Common mistake:** Forgetting to include the internal resistance of the battery or the series resistor when applying Kirchhoff's loop rule.
 
@@ -10005,13 +10737,21 @@ $$I = I_1 + I_2 = \frac{4}{3} + \frac{8}{9} = \frac{12 + 8}{9} = \frac{20}{9} \a
 **Solution:**
 
 Using the temperature dependence formula:
-$$R = R_0[1 + \alpha(T - T_0)]$$
+$$
+R = R_0[1 + \alpha(T - T_0)]
+$$
 
-$$R = 10[1 + 0.00404 \times (80 - 20)]$$
+$$
+R = 10[1 + 0.00404 \times (80 - 20)]
+$$
 
-$$R = 10[1 + 0.00404 \times 60]$$
+$$
+R = 10[1 + 0.00404 \times 60]
+$$
 
-$$R = 10[1 + 0.2424] = 10 \times 1.2424 = 12.424\,\Omega$$
+$$
+R = 10[1 + 0.2424] = 10 \times 1.2424 = 12.424\,\Omega
+$$
 
 **Common mistake:** Using the wrong temperature difference. Always use $\Delta T = T_{final} - T_{initial}$, not just $T_{final}$.
 
@@ -10108,13 +10848,19 @@ This topic covers the wave-particle duality of light and matter, including the p
 **Solution:**
 
 Photon energy:
-$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.95 \times 10^{-19} \, \text{J}$$
+$$
+E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.95 \times 10^{-19} \, \text{J}
+$$
 
 Convert to eV:
-$$E = \frac{9.95 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 6.22 \, \text{eV}$$
+$$
+E = \frac{9.95 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 6.22 \, \text{eV}
+$$
 
 Maximum kinetic energy:
-$$K_{\max} = E - W_0 = 6.22 - 3.0 = 3.22 \, \text{eV}$$
+$$
+K_{\max} = E - W_0 = 6.22 - 3.0 = 3.22 \, \text{eV}
+$$
 
 **Common mistake:** Forgetting to convert units between joules and electron volts. Always work in consistent units.
 
@@ -10125,16 +10871,24 @@ $$K_{\max} = E - W_0 = 6.22 - 3.0 = 3.22 \, \text{eV}$$
 **Solution:**
 
 Maximum kinetic energy:
-$$K_{\max} = eV_0 = 0.5 \, \text{eV}$$
+$$
+K_{\max} = eV_0 = 0.5 \, \text{eV}
+$$
 
 Photon energy:
-$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{400 \times 10^{-9}} \times \frac{1}{1.6 \times 10^{-19}} \approx 3.11 \, \text{eV}$$
+$$
+E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{400 \times 10^{-9}} \times \frac{1}{1.6 \times 10^{-19}} \approx 3.11 \, \text{eV}
+$$
 
 Work function:
-$$W_0 = E - K_{\max} = 3.11 - 0.5 = 2.61 \, \text{eV}$$
+$$
+W_0 = E - K_{\max} = 3.11 - 0.5 = 2.61 \, \text{eV}
+$$
 
 Threshold wavelength:
-$$\lambda_0 = \frac{hc}{W_0} = \frac{1240 \, \text{eV·nm}}{2.61 \, \text{eV}} \approx 475 \, \text{nm}$$
+$$
+\lambda_0 = \frac{hc}{W_0} = \frac{1240 \, \text{eV·nm}}{2.61 \, \text{eV}} \approx 475 \, \text{nm}
+$$
 
 **Common mistake:** Using $\lambda_0 = hc/W_0$ without converting $W_0$ to joules, or using the shortcut $hc = 1240 \, \text{eV·nm}$ incorrectly.
 
@@ -10145,15 +10899,23 @@ $$\lambda_0 = \frac{hc}{W_0} = \frac{1240 \, \text{eV·nm}}{2.61 \, \text{eV}} \
 **Solution:**
 
 Kinetic energy gained:
-$$K = eV = 100 \, \text{eV} = 1.6 \times 10^{-17} \, \text{J}$$
+$$
+K = eV = 100 \, \text{eV} = 1.6 \times 10^{-17} \, \text{J}
+$$
 
 Momentum:
-$$p = \sqrt{2mK} = \sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-17}}$$
+$$
+p = \sqrt{2mK} = \sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-17}}
+$$
 
-$$p = \sqrt{2.915 \times 10^{-47}} = 5.40 \times 10^{-24} \, \text{kg·m/s}$$
+$$
+p = \sqrt{2.915 \times 10^{-47}} = 5.40 \times 10^{-24} \, \text{kg·m/s}
+$$
 
 de Broglie wavelength:
-$$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10} \, \text{m} = 0.123 \, \text{nm}$$
+$$
+\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10} \, \text{m} = 0.123 \, \text{nm}
+$$
 
 **Common mistake:** Forgetting to take the square root when calculating momentum from kinetic energy.
 
@@ -10164,16 +10926,24 @@ $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.
 **Solution:**
 
 Photon energy:
-$$E = h\nu = 6.63 \times 10^{-34} \times 8 \times 10^{14} = 5.30 \times 10^{-19} \, \text{J}$$
+$$
+E = h\nu = 6.63 \times 10^{-34} \times 8 \times 10^{14} = 5.30 \times 10^{-19} \, \text{J}
+$$
 
 Convert to eV:
-$$E = \frac{5.30 \times 10^{-19}}{1.6 \times 10^{-19}} = 3.31 \, \text{eV}$$
+$$
+E = \frac{5.30 \times 10^{-19}}{1.6 \times 10^{-19}} = 3.31 \, \text{eV}
+$$
 
 Maximum kinetic energy:
-$$K_{\max} = E - W_0 = 3.31 - 2.0 = 1.31 \, \text{eV}$$
+$$
+K_{\max} = E - W_0 = 3.31 - 2.0 = 1.31 \, \text{eV}
+$$
 
 Stopping potential:
-$$V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}$$
+$$
+V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}
+$$
 
 **Common mistake:** The stopping potential equals $K_{\max}$ in eV, but is measured in volts. Do not confuse the two.
 
@@ -10278,11 +11048,17 @@ Electrostatics studies electric charges at rest. It covers Coulomb's law, electr
 **Solution:**
 
 In a medium, Coulomb's law becomes:
-$$F = \frac{1}{4\pi\varepsilon_0 K}\frac{|q_1 q_2|}{r^2} = \frac{k}{K}\frac{|q_1 q_2|}{r^2}$$
+$$
+F = \frac{1}{4\pi\varepsilon_0 K}\frac{|q_1 q_2|}{r^2} = \frac{k}{K}\frac{|q_1 q_2|}{r^2}
+$$
 
-$$F = \frac{9 \times 10^9}{3} \times \frac{4 \times 10^{-6} \times 6 \times 10^{-6}}{(0.2)^2}$$
+$$
+F = \frac{9 \times 10^9}{3} \times \frac{4 \times 10^{-6} \times 6 \times 10^{-6}}{(0.2)^2}
+$$
 
-$$= 3 \times 10^9 \times \frac{24 \times 10^{-12}}{0.04} = 3 \times 10^9 \times 6 \times 10^{-10} = 1.8 \, \text{N}$$
+$$
+= 3 \times 10^9 \times \frac{24 \times 10^{-12}}{0.04} = 3 \times 10^9 \times 6 \times 10^{-10} = 1.8 \, \text{N}
+$$
 
 The force is attractive (opposite charges).
 
@@ -10297,7 +11073,9 @@ The force is attractive (opposite charges).
 (a) Inside the shell ($r < R$): By Gauss's law, $E = 0$ (no enclosed charge).
 
 (b) Outside the shell ($r > R$):
-$$E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{(0.15)^2} = 2 \times 10^6 \, \text{N/C}$$
+$$
+E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{(0.15)^2} = 2 \times 10^6 \, \text{N/C}
+$$
 
 (c) On the shell ($r = R$): The field is undefined at the surface (discontinuity), but just outside it is $2 \times 10^6 \, \text{N/C}$.
 
@@ -10310,11 +11088,17 @@ $$E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{(0.15)^2} = 
 **Solution:**
 
 The potential energy of a system of charges is:
-$$U = k\left(\frac{q_1 q_2}{r_{12}} + \frac{q_1 q_3}{r_{13}} + \frac{q_2 q_3}{r_{23}}\right)$$
+$$
+U = k\left(\frac{q_1 q_2}{r_{12}} + \frac{q_1 q_3}{r_{13}} + \frac{q_2 q_3}{r_{23}}\right)
+$$
 
-$$U = 9 \times 10^9 \left(\frac{2 \times 10^{-6} \times (-3) \times 10^{-6}}{0.1} + \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{0.1} + \frac{(-3) \times 10^{-6} \times 4 \times 10^{-6}}{0.1}\right)$$
+$$
+U = 9 \times 10^9 \left(\frac{2 \times 10^{-6} \times (-3) \times 10^{-6}}{0.1} + \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{0.1} + \frac{(-3) \times 10^{-6} \times 4 \times 10^{-6}}{0.1}\right)
+$$
 
-$$= 9 \times 10^9 \times \frac{10^{-12}}{0.1}(-6 + 8 - 12) = 9 \times 10^{-2} \times (-10) = -0.9 \, \text{J}$$
+$$
+= 9 \times 10^9 \times \frac{10^{-12}}{0.1}(-6 + 8 - 12) = 9 \times 10^{-2} \times (-10) = -0.9 \, \text{J}
+$$
 
 The negative sign indicates the system is bound (energy would be required to separate the charges).
 
@@ -10369,16 +11153,24 @@ The negative sign indicates the system is bound (energy would be required to sep
 When the dielectric fills only half the space, the capacitor can be treated as two capacitors in parallel: one with air ($C_{\text{air}}$) and one with dielectric ($C_{\text{dielectric}}$).
 
 Let the plate area be $A$ and separation $d$. The air-filled half has area $A/2$:
-$$C_{\text{air}} = \frac{\varepsilon_0 (A/2)}{d} = \frac{C_0}{2} = 5 \, \mu\text{F}$$
+$$
+C_{\text{air}} = \frac{\varepsilon_0 (A/2)}{d} = \frac{C_0}{2} = 5 \, \mu\text{F}
+$$
 
 The dielectric-filled half:
-$$C_{\text{dielectric}} = \frac{K\varepsilon_0 (A/2)}{d} = \frac{KC_0}{2} = \frac{4 \times 10}{2} = 20 \, \mu\text{F}$$
+$$
+C_{\text{dielectric}} = \frac{K\varepsilon_0 (A/2)}{d} = \frac{KC_0}{2} = \frac{4 \times 10}{2} = 20 \, \mu\text{F}
+$$
 
 Total capacitance:
-$$C = C_{\text{air}} + C_{\text{dielectric}} = 5 + 20 = 25 \, \mu\text{F}$$
+$$
+C = C_{\text{air}} + C_{\text{dielectric}} = 5 + 20 = 25 \, \mu\text{F}
+$$
 
 Charge stored (battery maintains $V = 12$ V):
-$$Q = CV = 25 \times 10^{-6} \times 12 = 3 \times 10^{-4} \, \text{C} = 300 \, \mu\text{C}$$
+$$
+Q = CV = 25 \times 10^{-6} \times 12 = 3 \times 10^{-4} \, \text{C} = 300 \, \mu\text{C}
+$$
 
 **Common mistake:** Treating the two halves as capacitors in series rather than parallel. When the dielectric fills half the area (not half the distance), the two regions are in parallel because they share the same potential difference.
 
@@ -10391,10 +11183,14 @@ $$Q = CV = 25 \times 10^{-6} \times 12 = 3 \times 10^{-4} \, \text{C} = 300 \, \
 Let the dipole be oriented along the $y$-axis with charges at $(0, +a)$ and $(0, -a)$. The point $P$ is at distance $r$ on the $x$-axis.
 
 Distance from each charge to $P$:
-$$d = \sqrt{r^2 + a^2}$$
+$$
+d = \sqrt{r^2 + a^2}
+$$
 
 Potential at $P$:
-$$V = \frac{1}{4\pi\varepsilon_0}\left(\frac{+q}{d} + \frac{-q}{d}\right) = 0$$
+$$
+V = \frac{1}{4\pi\varepsilon_0}\left(\frac{+q}{d} + \frac{-q}{d}\right) = 0
+$$
 
 The potential on the perpendicular bisector is always zero because the point is equidistant from both charges.
 
@@ -10410,15 +11206,21 @@ This is a general result: the perpendicular bisector of a dipole is an equipoten
 
 Since the spheres are conducting and the separation is much larger than the radius ($0.3 \gg 0.05$), the charge distribution is approximately uniform and we can treat them as point charges.
 
-$$F = \frac{k|q_1||q_2|}{r^2} = \frac{9 \times 10^9 \times 2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.3)^2}$$
+$$
+F = \frac{k|q_1||q_2|}{r^2} = \frac{9 \times 10^9 \times 2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.3)^2}
+$$
 
-$$= \frac{9 \times 10^9 \times 8 \times 10^{-12}}{0.09} = \frac{72 \times 10^{-3}}{0.09} = 0.8 \, \text{N}$$
+$$
+= \frac{9 \times 10^9 \times 8 \times 10^{-12}}{0.09} = \frac{72 \times 10^{-3}}{0.09} = 0.8 \, \text{N}
+$$
 
 The force is attractive (opposite charges).
 
 If the spheres were brought into contact and then separated, the total charge $q_1 + q_2 = -2 \, \mu\text{C}$ would be equally distributed: each sphere carries $-1 \, \mu\text{C}$. The new force would be:
 
-$$F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \times 10^9 \times 10^{-12}}{0.09} = 0.1 \, \text{N}$$
+$$
+F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \times 10^9 \times 10^{-12}}{0.09} = 0.1 \, \text{N}
+$$
 
 **Common mistake:** When conducting spheres touch, charge is shared equally only if they are identical (same radius). For non-identical spheres, the charge distribution depends on the radii.
 
@@ -10532,11 +11334,17 @@ Magnetic effects of current covers the magnetic field produced by electric curre
 
 Using the Biot-Savart law for a circular loop at its centre:
 
-$$B = \frac{\mu_0 I}{2R}$$
+$$
+B = \frac{\mu_0 I}{2R}
+$$
 
-$$B = \frac{4\pi \times 10^{-7} \times 2}{2 \times 0.1} = \frac{4\pi \times 10^{-7}}{0.1} = 4\pi \times 10^{-6} \, \text{T}$$
+$$
+B = \frac{4\pi \times 10^{-7} \times 2}{2 \times 0.1} = \frac{4\pi \times 10^{-7}}{0.1} = 4\pi \times 10^{-6} \, \text{T}
+$$
 
-$$B \approx 1.26 \times 10^{-5} \, \text{T}$$
+$$
+B \approx 1.26 \times 10^{-5} \, \text{T}
+$$
 
 **Common mistake:** Forgetting that for a coil of $N$ turns, the field is $B = \frac{\mu_0 N I}{2R}$.
 
@@ -10546,9 +11354,13 @@ $$B \approx 1.26 \times 10^{-5} \, \text{T}$$
 
 **Solution:**
 
-$$F = qvB\sin\theta = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times \sin 30^\circ$$
+$$
+F = qvB\sin\theta = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times \sin 30^\circ
+$$
 
-$$F = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times 0.5 = 1.6 \times 10^{-14} \, \text{N}$$
+$$
+F = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times 0.5 = 1.6 \times 10^{-14} \, \text{N}
+$$
 
 **Common mistake:** Forgetting the $\sin\theta$ factor. When $\theta = 0$ (velocity parallel to field), the force is zero.
 
@@ -10560,13 +11372,19 @@ $$F = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times 0.5 = 1.6 \time
 
 For an ideal long solenoid:
 
-$$B = \mu_0 n I$$
+$$
+B = \mu_0 n I
+$$
 
 where $n = 500$ turns/m:
 
-$$B = 4\pi \times 10^{-7} \times 500 \times 3 = 4\pi \times 10^{-7} \times 1500$$
+$$
+B = 4\pi \times 10^{-7} \times 500 \times 3 = 4\pi \times 10^{-7} \times 1500
+$$
 
-$$B = 6\pi \times 10^{-4} \approx 1.88 \times 10^{-3} \, \text{T}$$
+$$
+B = 6\pi \times 10^{-4} \approx 1.88 \times 10^{-3} \, \text{T}
+$$
 
 **Common mistake:** Confusing total turns $N$ with turns per unit length $n = N/L$.
 
@@ -10578,11 +11396,17 @@ $$B = 6\pi \times 10^{-4} \approx 1.88 \times 10^{-3} \, \text{T}$$
 
 The cyclotron frequency is:
 
-$$f = \frac{qB}{2\pi m}$$
+$$
+f = \frac{qB}{2\pi m}
+$$
 
-$$f = \frac{1.6 \times 10^{-19} \times 0.5}{2\pi \times 1.67 \times 10^{-27}}$$
+$$
+f = \frac{1.6 \times 10^{-19} \times 0.5}{2\pi \times 1.67 \times 10^{-27}}
+$$
 
-$$f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \, \text{Hz} \approx 7.62 \, \text{MHz}$$
+$$
+f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \, \text{Hz} \approx 7.62 \, \text{MHz}
+$$
 
 **Common mistake:** The cyclotron frequency is independent of the speed and radius of the particle. the answer varies based on only on the charge, mass, and magnetic field.
 
@@ -10695,13 +11519,19 @@ Mechanics is the branch of physics dealing with motion and the forces that cause
 **Solution:**
 
 Components:
-$$v_{0x} = 30\cos 60^\circ = 15 \, \text{m/s}, \quad v_{0y} = 30\sin 60^\circ = 25.98 \, \text{m/s}$$
+$$
+v_{0x} = 30\cos 60^\circ = 15 \, \text{m/s}, \quad v_{0y} = 30\sin 60^\circ = 25.98 \, \text{m/s}
+$$
 
 Maximum height:
-$$H = \frac{v_{0y}^2}{2g} = \frac{(25.98)^2}{2 \times 9.8} = \frac{675}{19.6} = 34.44 \, \text{m}$$
+$$
+H = \frac{v_{0y}^2}{2g} = \frac{(25.98)^2}{2 \times 9.8} = \frac{675}{19.6} = 34.44 \, \text{m}
+$$
 
 Range:
-$$R = \frac{v_0^2 \sin 2\theta}{g} = \frac{900 \times \sin 120^\circ}{9.8} = \frac{900 \times 0.866}{9.8} = 79.5 \, \text{m}$$
+$$
+R = \frac{v_0^2 \sin 2\theta}{g} = \frac{900 \times \sin 120^\circ}{9.8} = \frac{900 \times 0.866}{9.8} = 79.5 \, \text{m}
+$$
 
 **Common mistake:** Using $\sin 2\theta$ with $\theta = 60^\circ$ gives $\sin 120^\circ$, not $\sin 60^\circ$.
 
@@ -10712,17 +11542,27 @@ $$R = \frac{v_0^2 \sin 2\theta}{g} = \frac{900 \times \sin 120^\circ}{9.8} = \fr
 **Solution:**
 
 Work done by gravity:
-$$W_g = mgd\sin\theta = 5 \times 9.8 \times 4 \times \sin 30^\circ = 5 \times 9.8 \times 4 \times 0.5 = 98 \, \text{J}$$
+$$
+W_g = mgd\sin\theta = 5 \times 9.8 \times 4 \times \sin 30^\circ = 5 \times 9.8 \times 4 \times 0.5 = 98 \, \text{J}
+$$
 
 Work done by friction:
-$$W_f = -\mu_k mg\cos\theta \cdot d = -0.2 \times 5 \times 9.8 \times \cos 30^\circ \times 4$$
-$$= -0.2 \times 5 \times 9.8 \times 0.866 \times 4 = -33.95 \, \text{J}$$
+$$
+W_f = -\mu_k mg\cos\theta \cdot d = -0.2 \times 5 \times 9.8 \times \cos 30^\circ \times 4
+$$
+$$
+= -0.2 \times 5 \times 9.8 \times 0.866 \times 4 = -33.95 \, \text{J}
+$$
 
 Net work:
-$$W_{net} = 98 - 33.95 = 64.05 \, \text{J}$$
+$$
+W_{net} = 98 - 33.95 = 64.05 \, \text{J}
+$$
 
 By work-energy theorem:
-$$W_{net} = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2 \times 64.05}{5}} = \sqrt{25.62} = 5.06 \, \text{m/s}$$
+$$
+W_{net} = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2 \times 64.05}{5}} = \sqrt{25.62} = 5.06 \, \text{m/s}
+$$
 
 **Common mistake:** Forgetting to include the $\cos\theta$ factor when calculating the normal force on an incline.
 
@@ -10733,12 +11573,18 @@ $$W_{net} = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2 \times 64.05}{5}} = \sqrt
 **Solution:**
 
 Conservation of energy:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2
+$$
 
 For a disc, $I = \frac{1}{2}mR^2$ and $\omega = v/R$:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{1}{2}mR^2 \cdot \frac{v^2}{R^2} = \frac{1}{2}mv^2 + \frac{1}{4}mv^2 = \frac{3}{4}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{1}{2}mR^2 \cdot \frac{v^2}{R^2} = \frac{1}{2}mv^2 + \frac{1}{4}mv^2 = \frac{3}{4}mv^2
+$$
 
-$$v = \sqrt{\frac{4gh}{3}} = \sqrt{\frac{4 \times 9.8 \times 2}{3}} = \sqrt{26.13} = 5.11 \, \text{m/s}$$
+$$
+v = \sqrt{\frac{4gh}{3}} = \sqrt{\frac{4 \times 9.8 \times 2}{3}} = \sqrt{26.13} = 5.11 \, \text{m/s}
+$$
 
 **Common mistake:** Forgetting that rolling objects have both translational and rotational kinetic energy.
 
@@ -10849,20 +11695,30 @@ Optics studies the behavior of light, including reflection, refraction, diffract
 **Solution:**
 
 Using the mirror equation:
-$$\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$$
+$$
+\frac{1}{f} = \frac{1}{v} + \frac{1}{u}
+$$
 
 For a concave mirror, $f = -15$ cm (negative by sign convention). Object distance $u = -30$ cm (negative).
 
-$$\frac{1}{-15} = \frac{1}{v} + \frac{1}{-30}$$
+$$
+\frac{1}{-15} = \frac{1}{v} + \frac{1}{-30}
+$$
 
-$$\frac{1}{v} = \frac{1}{-15} + \frac{1}{30} = \frac{-2 + 1}{30} = \frac{-1}{30}$$
+$$
+\frac{1}{v} = \frac{1}{-15} + \frac{1}{30} = \frac{-2 + 1}{30} = \frac{-1}{30}
+$$
 
-$$v = -30 \, \text{cm}$$
+$$
+v = -30 \, \text{cm}
+$$
 
 The image is at 30 cm in front of the mirror (same side as object).
 
 Magnification:
-$$m = -\frac{v}{u} = -\frac{-30}{-30} = -1$$
+$$
+m = -\frac{v}{u} = -\frac{-30}{-30} = -1
+$$
 
 The image is real, inverted, and the same size as the object.
 
@@ -10875,20 +11731,30 @@ The image is real, inverted, and the same size as the object.
 **Solution:**
 
 Using the lens equation:
-$$\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$$
+$$
+\frac{1}{f} = \frac{1}{v} - \frac{1}{u}
+$$
 
 For a convex lens, $f = +20$ cm. Image distance $v = +60$ cm (positive for real image).
 
-$$\frac{1}{20} = \frac{1}{60} - \frac{1}{u}$$
+$$
+\frac{1}{20} = \frac{1}{60} - \frac{1}{u}
+$$
 
-$$\frac{1}{u} = \frac{1}{60} - \frac{1}{20} = \frac{1 - 3}{60} = \frac{-2}{60} = \frac{-1}{30}$$
+$$
+\frac{1}{u} = \frac{1}{60} - \frac{1}{20} = \frac{1 - 3}{60} = \frac{-2}{60} = \frac{-1}{30}
+$$
 
-$$u = -30 \, \text{cm}$$
+$$
+u = -30 \, \text{cm}
+$$
 
 The object is 30 cm in front of the lens.
 
 Magnification:
-$$m = \frac{v}{u} = \frac{60}{-30} = -2$$
+$$
+m = \frac{v}{u} = \frac{60}{-30} = -2
+$$
 
 The image is real, inverted, and twice the size of the object.
 
@@ -10901,9 +11767,13 @@ The image is real, inverted, and twice the size of the object.
 **Solution:**
 
 Using the critical angle formula:
-$$\sin\theta_c = \frac{n_2}{n_1} = \frac{1}{1.5} = \frac{2}{3}$$
+$$
+\sin\theta_c = \frac{n_2}{n_1} = \frac{1}{1.5} = \frac{2}{3}
+$$
 
-$$\theta_c = \sin^{-1}\left(\frac{2}{3}\right) \approx 41.8°$$
+$$
+\theta_c = \sin^{-1}\left(\frac{2}{3}\right) \approx 41.8°
+$$
 
 For any angle of incidence greater than $41.8°$, total internal reflection occurs.
 
@@ -11018,15 +11888,23 @@ Semiconductor electronics covers the physics of semiconductor materials, p-n jun
 **Solution:**
 
 Using the diode equation:
-$$I = I_s\left(e^{V/V_T} - 1\right)$$
+$$
+I = I_s\left(e^{V/V_T} - 1\right)
+$$
 
 where $V_T = kT/e \approx 0.026 \, \text{V}$:
 
-$$I = 10 \times 10^{-6} \left(e^{0.5/0.026} - 1\right)$$
+$$
+I = 10 \times 10^{-6} \left(e^{0.5/0.026} - 1\right)
+$$
 
-$$= 10 \times 10^{-6} \left(e^{19.23} - 1\right)$$
+$$
+= 10 \times 10^{-6} \left(e^{19.23} - 1\right)
+$$
 
-$$\approx 10 \times 10^{-6} \times 2.24 \times 10^8 = 2.24 \, \text{A}$$
+$$
+\approx 10 \times 10^{-6} \times 2.24 \times 10^8 = 2.24 \, \text{A}
+$$
 
 **Common mistake:** Forgetting that the exponential dominates and the $-1$ term becomes negligible for forward bias.
 
@@ -11037,19 +11915,29 @@ $$\approx 10 \times 10^{-6} \times 2.24 \times 10^8 = 2.24 \, \text{A}$$
 **Solution:**
 
 Voltage across series resistor:
-$$V_R = V_{in} - V_Z = 10 - 6 = 4 \, \text{V}$$
+$$
+V_R = V_{in} - V_Z = 10 - 6 = 4 \, \text{V}
+$$
 
 Current through series resistor:
-$$I_R = \frac{V_R}{R} = \frac{4}{200} = 0.02 \, \text{A} = 20 \, \text{mA}$$
+$$
+I_R = \frac{V_R}{R} = \frac{4}{200} = 0.02 \, \text{A} = 20 \, \text{mA}
+$$
 
 Load voltage (equal to Zener voltage):
-$$V_L = V_Z = 6 \, \text{V}$$
+$$
+V_L = V_Z = 6 \, \text{V}
+$$
 
 Load current:
-$$I_L = \frac{V_L}{R_L} = \frac{6}{1000} = 6 \, \text{mA}$$
+$$
+I_L = \frac{V_L}{R_L} = \frac{6}{1000} = 6 \, \text{mA}
+$$
 
 Zener current:
-$$I_Z = I_R - I_L = 20 - 6 = 14 \, \text{mA}$$
+$$
+I_Z = I_R - I_L = 20 - 6 = 14 \, \text{mA}
+$$
 
 **Common mistake:** Assuming all current flows through the Zener diode. The Zener current is the difference between the total current and the load current.
 
@@ -11060,14 +11948,20 @@ $$I_Z = I_R - I_L = 20 - 6 = 14 \, \text{mA}$$
 **Solution:**
 
 Collector current:
-$$I_C = \beta I_B = 100 \times 20 \times 10^{-6} = 2 \, \text{mA}$$
+$$
+I_C = \beta I_B = 100 \times 20 \times 10^{-6} = 2 \, \text{mA}
+$$
 
 Collector-emitter voltage:
-$$V_{CE} = V_{CC} - I_C R_C = 12 - 2 \times 10^{-3} \times 2 \times 10^3 = 12 - 4 = 8 \, \text{V}$$
+$$
+V_{CE} = V_{CC} - I_C R_C = 12 - 2 \times 10^{-3} \times 2 \times 10^3 = 12 - 4 = 8 \, \text{V}
+$$
 
 For the voltage gain (assuming $r_e \approx 25 \, \text{mV} / I_E \approx 25 \, \text{mV} / 2 \, \text{mA} = 12.5 \, \Omega$):
 
-$$A_v = -\frac{R_C}{r_e} = -\frac{2000}{12.5} = -160$$
+$$
+A_v = -\frac{R_C}{r_e} = -\frac{2000}{12.5} = -160
+$$
 
 The negative sign indicates a $180^\circ$ phase shift.
 
@@ -11088,7 +11982,9 @@ The negative sign indicates a $180^\circ$ phase shift.
 
 The output is LOW (0) only when both inputs are HIGH (1).
 
-$$Y = \overline{A \cdot B}$$
+$$
+Y = \overline{A \cdot B}
+$$
 
 **Common mistake:** Confusing NAND with AND. NAND is the inverse of AND: it gives 0 only when all inputs are 1.
 
@@ -11154,15 +12050,21 @@ A body remains at rest or in uniform motion unless acted upon by an external for
 **Problem:** A 5 kg block rests on a frictionless surface. A force of 10 N is applied horizontally. Find the acceleration.
 
 **Solution:**
-$$F = ma$$
-$$a = \frac{F}{m} = \frac{10}{5} = 2 \, \text{m/s}^2$$
+$$
+F = ma
+$$
+$$
+a = \frac{F}{m} = \frac{10}{5} = 2 \, \text{m/s}^2
+$$
 
 ### Worked Example 2
 
 **Problem:** A car moving at 20 m/s decelerates uniformly to rest in 5 seconds. Find the deceleration.
 
 **Solution:**
-$$a = \frac{v - u}{t} = \frac{0 - 20}{5} = -4 \, \text{m/s}^2$$
+$$
+a = \frac{v - u}{t} = \frac{0 - 20}{5} = -4 \, \text{m/s}^2
+$$
 
 ## Second Law (F = ma)
 
@@ -11173,8 +12075,12 @@ The net force on a body equals its mass times acceleration.
 **Problem:** Two forces of 5 N and 12 N act on a 3 kg body at right angles. Find the resultant acceleration.
 
 **Solution:**
-$$F_{net} = \sqrt{5^2 + 12^2} = 13 \, \text{N}$$
-$$a = \frac{F_{net}}{m} = \frac{13}{3} \approx 4.33 \, \text{m/s}^2$$
+$$
+F_{net} = \sqrt{5^2 + 12^2} = 13 \, \text{N}
+$$
+$$
+a = \frac{F_{net}}{m} = \frac{13}{3} \approx 4.33 \, \text{m/s}^2
+$$
 
 ## Third Law (Action-Reaction)
 
@@ -11200,16 +12106,24 @@ For every action, there is an equal and opposite reaction.
 **Solution:**
 
 Normal force:
-$$N = mg = 10 \times 9.8 = 98 \, \text{N}$$
+$$
+N = mg = 10 \times 9.8 = 98 \, \text{N}
+$$
 
 Friction force:
-$$f_k = \mu_k N = 0.3 \times 98 = 29.4 \, \text{N}$$
+$$
+f_k = \mu_k N = 0.3 \times 98 = 29.4 \, \text{N}
+$$
 
 Net force:
-$$F_{net} = F - f_k = 40 - 29.4 = 10.6 \, \text{N}$$
+$$
+F_{net} = F - f_k = 40 - 29.4 = 10.6 \, \text{N}
+$$
 
 Acceleration:
-$$a = \frac{F_{net}}{m} = \frac{10.6}{10} = 1.06 \, \text{m/s}^2$$
+$$
+a = \frac{F_{net}}{m} = \frac{10.6}{10} = 1.06 \, \text{m/s}^2
+$$
 
 ### Worked Example 6, Inclined Plane with Friction
 
@@ -11218,20 +12132,32 @@ $$a = \frac{F_{net}}{m} = \frac{10.6}{10} = 1.06 \, \text{m/s}^2$$
 **Solution:**
 
 Component of weight along the incline:
-$$mg \sin\theta = 5 \times 9.8 \times \sin 30^\circ = 5 \times 9.8 \times 0.5 = 24.5 \, \text{N}$$
+$$
+mg \sin\theta = 5 \times 9.8 \times \sin 30^\circ = 5 \times 9.8 \times 0.5 = 24.5 \, \text{N}
+$$
 
 Maximum static friction:
-$$f_{s,\max} = \mu_s N = \mu_s mg \cos\theta = 0.25 \times 5 \times 9.8 \times \cos 30^\circ$$
-$$= 0.25 \times 5 \times 9.8 \times 0.866 = 10.6 \, \text{N}$$
+$$
+f_{s,\max} = \mu_s N = \mu_s mg \cos\theta = 0.25 \times 5 \times 9.8 \times \cos 30^\circ
+$$
+$$
+= 0.25 \times 5 \times 9.8 \times 0.866 = 10.6 \, \text{N}
+$$
 
 Since $mg \sin\theta = 24.5 \, \text{N} > f_{s,\max} = 10.6 \, \text{N}$, the block slides down.
 
 Net force along the incline (using kinetic friction $\mu_k = 0.2$):
-$$F_{net} = mg \sin\theta - \mu_k mg \cos\theta = 24.5 - 0.2 \times 5 \times 9.8 \times 0.866$$
-$$= 24.5 - 8.49 = 16.01 \, \text{N}$$
+$$
+F_{net} = mg \sin\theta - \mu_k mg \cos\theta = 24.5 - 0.2 \times 5 \times 9.8 \times 0.866
+$$
+$$
+= 24.5 - 8.49 = 16.01 \, \text{N}
+$$
 
 Acceleration:
-$$a = \frac{F_{net}}{m} = \frac{16.01}{5} \approx 3.20 \, \text{m/s}^2$$
+$$
+a = \frac{F_{net}}{m} = \frac{16.01}{5} \approx 3.20 \, \text{m/s}^2
+$$
 
 ### Worked Example 7, Connected Blocks (Atwood's Machine)
 
@@ -11240,17 +12166,27 @@ $$a = \frac{F_{net}}{m} = \frac{16.01}{5} \approx 3.20 \, \text{m/s}^2$$
 **Solution:**
 
 For the heavier mass ($m_2$):
-$$m_2 g - T = m_2 a$$
+$$
+m_2 g - T = m_2 a
+$$
 
 For the lighter mass ($m_1$):
-$$T - m_1 g = m_1 a$$
+$$
+T - m_1 g = m_1 a
+$$
 
 Adding both equations:
-$$m_2 g - m_1 g = (m_1 + m_2) a$$
-$$a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{(5 - 3) \times 9.8}{3 + 5} = \frac{19.6}{8} = 2.45 \, \text{m/s}^2$$
+$$
+m_2 g - m_1 g = (m_1 + m_2) a
+$$
+$$
+a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{(5 - 3) \times 9.8}{3 + 5} = \frac{19.6}{8} = 2.45 \, \text{m/s}^2
+$$
 
 Tension:
-$$T = m_1(g + a) = 3 \times (9.8 + 2.45) = 3 \times 12.25 = 36.75 \, \text{N}$$
+$$
+T = m_1(g + a) = 3 \times (9.8 + 2.45) = 3 \times 12.25 = 36.75 \, \text{N}
+$$
 
 ### Worked Example 8, Lift Problem (Apparent Weight)
 
@@ -11261,13 +12197,19 @@ $$T = m_1(g + a) = 3 \times (9.8 + 2.45) = 3 \times 12.25 = 36.75 \, \text{N}$$
 The scale reads the normal reaction $N$.
 
 **(a) Accelerating upward:**
-$$N - mg = ma \implies N = m(g + a) = 60(9.8 + 2) = 60 \times 11.8 = 708 \, \text{N}$$
+$$
+N - mg = ma \implies N = m(g + a) = 60(9.8 + 2) = 60 \times 11.8 = 708 \, \text{N}
+$$
 
 **(b) Accelerating downward:**
-$$mg - N = ma \implies N = m(g - a) = 60(9.8 - 2) = 60 \times 7.8 = 468 \, \text{N}$$
+$$
+mg - N = ma \implies N = m(g - a) = 60(9.8 - 2) = 60 \times 7.8 = 468 \, \text{N}
+$$
 
 **(c) Constant velocity ($a = 0$):**
-$$N = mg = 60 \times 9.8 = 588 \, \text{N}$$
+$$
+N = mg = 60 \times 9.8 = 588 \, \text{N}
+$$
 
 ## Practice Problems
 
@@ -11384,19 +12326,29 @@ flowchart TD
 **Problem:** A force of 20 N is applied at the end of a 0.5 m wrench at an angle of $60^\circ$ to the handle. Find the torque about the bolt.
 
 **Solution:**
-$$\tau = rF\sin\theta = 0.5 \times 20 \times \sin 60^\circ$$
-$$= 0.5 \times 20 \times \frac{\sqrt{3}}{2} = 5\sqrt{3} \approx 8.66 \, \text{N}\cdot\text{m}$$
+$$
+\tau = rF\sin\theta = 0.5 \times 20 \times \sin 60^\circ
+$$
+$$
+= 0.5 \times 20 \times \frac{\sqrt{3}}{2} = 5\sqrt{3} \approx 8.66 \, \text{N}\cdot\text{m}
+$$
 
 ## Worked Example 2, Moment of Inertia of a System
 
 **Problem:** Three point masses of 1 kg, 2 kg, and 3 kg are placed at distances of 1 m, 2 m, and 3 m from the axis of rotation. Find the total moment of inertia and the angular acceleration when a net torque of 12 N$\cdot$m is applied.
 
 **Solution:**
-$$I = m_1 r_1^2 + m_2 r_2^2 + m_3 r_3^2 = 1(1)^2 + 2(2)^2 + 3(3)^2$$
-$$= 1 + 8 + 27 = 36 \, \text{kg}\cdot\text{m}^2$$
+$$
+I = m_1 r_1^2 + m_2 r_2^2 + m_3 r_3^2 = 1(1)^2 + 2(2)^2 + 3(3)^2
+$$
+$$
+= 1 + 8 + 27 = 36 \, \text{kg}\cdot\text{m}^2
+$$
 
 Angular acceleration:
-$$\alpha = \frac{\tau}{I} = \frac{12}{36} = \frac{1}{3} \approx 0.333 \, \text{rad/s}^2$$
+$$
+\alpha = \frac{\tau}{I} = \frac{12}{36} = \frac{1}{3} \approx 0.333 \, \text{rad/s}^2
+$$
 
 ## Worked Example 3, Rotational Kinetic Energy
 
@@ -11405,10 +12357,14 @@ $$\alpha = \frac{\tau}{I} = \frac{12}{36} = \frac{1}{3} \approx 0.333 \, \text{r
 **Solution:**
 
 Moment of inertia of a disc:
-$$I = \frac{1}{2}MR^2 = \frac{1}{2} \times 2 \times (0.3)^2 = 0.09 \, \text{kg}\cdot\text{m}^2$$
+$$
+I = \frac{1}{2}MR^2 = \frac{1}{2} \times 2 \times (0.3)^2 = 0.09 \, \text{kg}\cdot\text{m}^2
+$$
 
 Rotational kinetic energy:
-$$K_{rot} = \frac{1}{2}I\omega^2 = \frac{1}{2} \times 0.09 \times 100 = 4.5 \, \text{J}$$
+$$
+K_{rot} = \frac{1}{2}I\omega^2 = \frac{1}{2} \times 0.09 \times 100 = 4.5 \, \text{J}
+$$
 
 ## Worked Example 4, Conservation of Angular Momentum
 
@@ -11417,14 +12373,22 @@ $$K_{rot} = \frac{1}{2}I\omega^2 = \frac{1}{2} \times 0.09 \times 100 = 4.5 \, \
 **Solution:**
 
 Conservation of angular momentum:
-$$I_1\omega_1 = I_2\omega_2$$
-$$4 \times 4 = 2 \times \omega_2 \implies \omega_2 = 8 \, \text{rad/s}$$
+$$
+I_1\omega_1 = I_2\omega_2
+$$
+$$
+4 \times 4 = 2 \times \omega_2 \implies \omega_2 = 8 \, \text{rad/s}
+$$
 
 Initial KE:
-$$K_i = \frac{1}{2}I_1\omega_1^2 = \frac{1}{2} \times 4 \times 16 = 32 \, \text{J}$$
+$$
+K_i = \frac{1}{2}I_1\omega_1^2 = \frac{1}{2} \times 4 \times 16 = 32 \, \text{J}
+$$
 
 Final KE:
-$$K_f = \frac{1}{2}I_2\omega_2^2 = \frac{1}{2} \times 2 \times 64 = 64 \, \text{J}$$
+$$
+K_f = \frac{1}{2}I_2\omega_2^2 = \frac{1}{2} \times 2 \times 64 = 64 \, \text{J}
+$$
 
 Change: $\Delta K = 64 - 32 = 32 \, \text{J}$ (energy increases due to work done by the skater pulling arms in).
 
@@ -11446,14 +12410,22 @@ Change: $\Delta K = 64 - 32 = 32 \, \text{J}$ (energy increases due to work done
 **Solution:**
 
 For rolling without slipping, $v = R\omega$. Using conservation of energy:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2
+$$
 
 For a solid sphere, $I = \frac{2}{5}mR^2$:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{2}{5}mR^2 \cdot \frac{v^2}{R^2}$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{2}{5}mR^2 \cdot \frac{v^2}{R^2}
+$$
 
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{5}mv^2 = \frac{7}{10}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{5}mv^2 = \frac{7}{10}mv^2
+$$
 
-$$v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.8 \times 3}{7}} = \sqrt{42} \approx 6.48 \text{ m/s}$$
+$$
+v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.8 \times 3}{7}} = \sqrt{42} \approx 6.48 \text{ m/s}
+$$
 
 **Common mistake:** Forgetting to include rotational kinetic energy. The answer would be $\sqrt{2gh} = 7.67$ m/s if rotation were ignored.
 
@@ -11464,20 +12436,32 @@ $$v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.8 \times 3}{7}} = \sqrt{42
 **Solution:**
 
 For the hanging mass:
-$$mg - T = ma$$
+$$
+mg - T = ma
+$$
 
 For the disc (torque $\tau = TR = I\alpha$):
-$$TR = \frac{1}{2}MR^2 \cdot \alpha$$
+$$
+TR = \frac{1}{2}MR^2 \cdot \alpha
+$$
 
 Since $a = R\alpha$:
-$$T = \frac{1}{2}MR\alpha$$
+$$
+T = \frac{1}{2}MR\alpha
+$$
 
 Substituting into the first equation:
-$$mg - \frac{1}{2}MR\alpha = mR\alpha$$
+$$
+mg - \frac{1}{2}MR\alpha = mR\alpha
+$$
 
-$$mg = mR\alpha + \frac{1}{2}MR\alpha = R\alpha\left(m + \frac{M}{2}\right)$$
+$$
+mg = mR\alpha + \frac{1}{2}MR\alpha = R\alpha\left(m + \frac{M}{2}\right)
+$$
 
-$$\alpha = \frac{mg}{R\left(m + \frac{M}{2}\right)} = \frac{0.5 \times 9.8}{0.2 \times (0.5 + 2.5)} = \frac{4.9}{0.6} \approx 8.17 \text{ rad/s}^2$$
+$$
+\alpha = \frac{mg}{R\left(m + \frac{M}{2}\right)} = \frac{0.5 \times 9.8}{0.2 \times (0.5 + 2.5)} = \frac{4.9}{0.6} \approx 8.17 \text{ rad/s}^2
+$$
 
 **Common mistake:** Forgetting that the tension provides the torque, not the weight of the hanging mass.
 
@@ -11488,13 +12472,19 @@ $$\alpha = \frac{mg}{R\left(m + \frac{M}{2}\right)} = \frac{0.5 \times 9.8}{0.2 
 **Solution:**
 
 The torque due to gravity is:
-$$\tau = Mgr = (0.5)(9.8)(0.1) = 0.49 \text{ N}\cdot\text{m}$$
+$$
+\tau = Mgr = (0.5)(9.8)(0.1) = 0.49 \text{ N}\cdot\text{m}
+$$
 
 The angular momentum of the spinning wheel is:
-$$L = I\omega = 0.04 \times 100 = 4 \text{ kg}\cdot\text{m}^2/\text{s}$$
+$$
+L = I\omega = 0.04 \times 100 = 4 \text{ kg}\cdot\text{m}^2/\text{s}
+$$
 
 Precession angular velocity:
-$$\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}$$
+$$
+\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}
+$$
 
 **Common mistake:** Confusing precession angular velocity with spin angular velocity. Precession is in standard practice much slower than spin.
 
@@ -11589,8 +12579,12 @@ flowchart TD
 **Problem:** A force $F = (3x^2 + 2x) \, \text{N}$ acts on a particle, moving it from $x = 0$ to $x = 4 \, \text{m}$. Find the work done.
 
 **Solution:**
-$$W = \int_0^4 F \, dx = \int_0^4 (3x^2 + 2x) \, dx$$
-$$= \left[ x^3 + x^2 \right]_0^4 = (64 + 16) - 0 = 80 \, \text{J}$$
+$$
+W = \int_0^4 F \, dx = \int_0^4 (3x^2 + 2x) \, dx
+$$
+$$
+= \left[ x^3 + x^2 \right]_0^4 = (64 + 16) - 0 = 80 \, \text{J}
+$$
 
 ## Worked Example 2, Work-Energy Theorem
 
@@ -11599,10 +12593,18 @@ $$= \left[ x^3 + x^2 \right]_0^4 = (64 + 16) - 0 = 80 \, \text{J}$$
 **Solution:**
 
 Work done by friction equals change in kinetic energy:
-$$W_{friction} = \Delta K$$
-$$-\mu_k mg \cdot d = 0 - \frac{1}{2}mv_i^2$$
-$$\mu_k \times 9.8 \times 25 = \frac{1}{2} \times 10^2$$
-$$\mu_k = \frac{50}{245} \approx 0.204$$
+$$
+W_{friction} = \Delta K
+$$
+$$
+-\mu_k mg \cdot d = 0 - \frac{1}{2}mv_i^2
+$$
+$$
+\mu_k \times 9.8 \times 25 = \frac{1}{2} \times 10^2
+$$
+$$
+\mu_k = \frac{50}{245} \approx 0.204
+$$
 
 ## Worked Example 3, Conservation of Energy on a Track
 
@@ -11610,16 +12612,24 @@ $$\mu_k = \frac{50}{245} \approx 0.204$$
 
 **Solution:**
 
-$$mgh = \frac{1}{2}mv^2$$
-$$v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 5} = \sqrt{98} \approx 9.90 \, \text{m/s}$$
+$$
+mgh = \frac{1}{2}mv^2
+$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 5} = \sqrt{98} \approx 9.90 \, \text{m/s}
+$$
 
 ## Worked Example 4, Power Calculation
 
 **Problem:** A car of mass 1000 kg accelerates from rest to $20 \, \text{m/s}$ in 10 seconds. Find the average power delivered by the engine.
 
 **Solution:**
-$$\Delta K = \frac{1}{2}mv^2 = \frac{1}{2} \times 1000 \times 400 = 200{,}000 \, \text{J}$$
-$$P_{avg} = \frac{W}{t} = \frac{200{,}000}{10} = 20{,}000 \, \text{W} = 20 \, \text{kW}$$
+$$
+\Delta K = \frac{1}{2}mv^2 = \frac{1}{2} \times 1000 \times 400 = 200{,}000 \, \text{J}
+$$
+$$
+P_{avg} = \frac{W}{t} = \frac{200{,}000}{10} = 20{,}000 \, \text{W} = 20 \, \text{kW}
+$$
 
 ## Worked Example 5, Work-Energy Theorem with Multiple Forces
 
@@ -11628,17 +12638,27 @@ $$P_{avg} = \frac{W}{t} = \frac{200{,}000}{10} = 20{,}000 \, \text{W} = 20 \, \t
 **Solution:**
 
 Work done by applied force:
-$$W_F = F \cdot d = 30 \times 8 = 240 \, \text{J}$$
+$$
+W_F = F \cdot d = 30 \times 8 = 240 \, \text{J}
+$$
 
 Work done by friction:
-$$W_f = -\mu_k mg \cdot d = -0.25 \times 4 \times 9.8 \times 8 = -78.4 \, \text{J}$$
+$$
+W_f = -\mu_k mg \cdot d = -0.25 \times 4 \times 9.8 \times 8 = -78.4 \, \text{J}
+$$
 
 Net work:
-$$W_{net} = 240 - 78.4 = 161.6 \, \text{J}$$
+$$
+W_{net} = 240 - 78.4 = 161.6 \, \text{J}
+$$
 
 Using work-energy theorem:
-$$W_{net} = \frac{1}{2}mv_f^2$$
-$$v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8} \approx 8.99 \, \text{m/s}$$
+$$
+W_{net} = \frac{1}{2}mv_f^2
+$$
+$$
+v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8} \approx 8.99 \, \text{m/s}
+$$
 
 ## Practice Problems
 
@@ -11658,10 +12678,14 @@ $$v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8
 **Solution:**
 
 At maximum height, the vertical component of velocity is zero. The height reached is:
-$$h = \frac{v_{0y}^2}{2g} = \frac{(20\sin 60^\circ)^2}{2 \times 9.8} = \frac{(17.32)^2}{19.6} = \frac{300}{19.6} \approx 15.31 \text{ m}$$
+$$
+h = \frac{v_{0y}^2}{2g} = \frac{(20\sin 60^\circ)^2}{2 \times 9.8} = \frac{(17.32)^2}{19.6} = \frac{300}{19.6} \approx 15.31 \text{ m}
+$$
 
 Work done by gravity:
-$$W = -mgh = -2 \times 9.8 \times 15.31 = -300 \text{ J}$$
+$$
+W = -mgh = -2 \times 9.8 \times 15.31 = -300 \text{ J}
+$$
 
 The work is negative because gravity acts downward while the displacement is upward.
 
@@ -11674,10 +12698,14 @@ The work is negative because gravity acts downward while the displacement is upw
 **Solution:**
 
 At constant speed, the driving force equals the component of weight down the slope plus the resistive force:
-$$F_{\text{drive}} = mg\sin\theta + F_{\text{resistive}} = 1200 \times 9.8 \times 0.05 + 600 = 588 + 600 = 1188 \text{ N}$$
+$$
+F_{\text{drive}} = mg\sin\theta + F_{\text{resistive}} = 1200 \times 9.8 \times 0.05 + 600 = 588 + 600 = 1188 \text{ N}
+$$
 
 Power at speed $v = 25 \text{ m/s}$:
-$$P = Fv = 1188 \times 25 = 29{,}700 \text{ W} \approx 30 \text{ kW}$$
+$$
+P = Fv = 1188 \times 25 = 29{,}700 \text{ W} \approx 30 \text{ kW}
+$$
 
 **Common mistake:** Forgetting to include the gravitational component when calculating power on a slope.
 
@@ -11688,13 +12716,21 @@ $$P = Fv = 1188 \times 25 = 29{,}700 \text{ W} \approx 30 \text{ kW}$$
 **Solution:**
 
 For elastic collisions, both momentum and kinetic energy are conserved:
-$$m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}$$
-$$\frac{1}{2}m_1 v_{1i}^2 + \frac{1}{2}m_2 v_{2i}^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2$$
+$$
+m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}
+$$
+$$
+\frac{1}{2}m_1 v_{1i}^2 + \frac{1}{2}m_2 v_{2i}^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2
+$$
 
 Using the elastic collision formulas:
-$$v_{1f} = \frac{m_1 - m_2}{m_1 + m_2}v_{1i} = \frac{1 - 3}{1 + 3} \times 5 = \frac{-2}{4} \times 5 = -2.5 \text{ m/s}$$
+$$
+v_{1f} = \frac{m_1 - m_2}{m_1 + m_2}v_{1i} = \frac{1 - 3}{1 + 3} \times 5 = \frac{-2}{4} \times 5 = -2.5 \text{ m/s}
+$$
 
-$$v_{2f} = \frac{2m_1}{m_1 + m_2}v_{1i} = \frac{2 \times 1}{1 + 3} \times 5 = \frac{2}{4} \times 5 = 2.5 \text{ m/s}$$
+$$
+v_{2f} = \frac{2m_1}{m_1 + m_2}v_{1i} = \frac{2 \times 1}{1 + 3} \times 5 = \frac{2}{4} \times 5 = 2.5 \text{ m/s}
+$$
 
 The 1 kg ball rebounds with speed 2.5 m/s, and the 3 kg ball moves forward at 2.5 m/s.
 

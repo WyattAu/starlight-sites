@@ -28,7 +28,9 @@ $|f_n(x) - f(x)| \lt \varepsilon$ for all $n \geq N$.
 **Example.** Let $f_n(x) = x^n$ on $E = [0, 1]$. For each $x \in [0, 1)$, $f_n(x) = x^n \to 0$ And
 $f_n(1) = 1$ for all $n$. So $f_n$ converges pointwise to
 
-$$f(x) = \begin{cases} 0 & \mathrm{if\ } 0 \leq x \lt 1 \\ 1 & \mathrm{if\ } x = 1 \end{cases}$$
+$$
+f(x) = \begin{cases} 0 & \mathrm{if\ } 0 \leq x \lt 1 \\ 1 & \mathrm{if\ } x = 1 \end{cases}
+$$
 
 Note that each $f_n$ is continuous, but the pointwise limit $f$ is not continuous at $x = 1$.
 
@@ -37,7 +39,9 @@ Note that each $f_n$ is continuous, but the pointwise limit $f$ is not continuou
 **Definition.** $(f_n)$ **converges uniformly** to $f$ on $E$ if for every $\varepsilon > 0$There
 Exists $N \in \mathbb{N}$ (depending only on $\varepsilon$Not on $x$) such that for all $x \in E$:
 
-$$|f_n(x) - f(x)| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N$$
+$$
+|f_n(x) - f(x)| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
+$$
 
 Equivalently, $\sup_{x \in E} |f_n(x) - f(x)| \to 0$ as $n \to \infty$.
 
@@ -61,11 +65,15 @@ _Proof._ Let $S_n(x) = \sum_{k=1}^{n} f_k(x)$ and $T_n = \sum_{k=1}^{n} M_k$. Si
 converges, $(T_n)$ is a Cauchy sequence. Given $\varepsilon > 0$There exists $N$ such that for
 $m > n \geq N$:
 
-$$T_m - T_n = \sum_{k=n+1}^{m} M_k \lt \varepsilon$$
+$$
+T_m - T_n = \sum_{k=n+1}^{m} M_k \lt \varepsilon
+$$
 
 Then for all $x \in E$ and $m > n \geq N$:
 
-$$|S_m(x) - S_n(x)| = \left|\sum_{k=n+1}^{m} f_k(x)\right| \leq \sum_{k=n+1}^{m} |f_k(x)| \leq \sum_{k=n+1}^{m} M_k \lt \varepsilon$$
+$$
+|S_m(x) - S_n(x)| = \left|\sum_{k=n+1}^{m} f_k(x)\right| \leq \sum_{k=n+1}^{m} |f_k(x)| \leq \sum_{k=n+1}^{m} M_k \lt \varepsilon
+$$
 
 So the partial sums $(S_n)$ satisfy the uniform Cauchy criterion on $E$Hence converge uniformly.
 $\blacksquare$
@@ -79,7 +87,9 @@ _Proof._ Let $c \in E$ and $\varepsilon > 0$. Since $f_n \to f$ uniformly, choos
 $|f_N(x) - f(x)| \lt \varepsilon/3$ for all $x \in E$. Since $f_N$ is continuous at $c$Choose
 $\delta > 0$ such that $|x - c| \lt \delta$ implies $|f_N(x) - f_N(c)| \lt \varepsilon/3$. Then:
 
-$$|f(x) - f(c)| \leq |f(x) - f_N(x)| + |f_N(x) - f_N(c)| + |f_N(c) - f(c)| \lt \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3} = \varepsilon$$
+$$
+|f(x) - f(c)| \leq |f(x) - f_N(x)| + |f_N(x) - f_N(c)| + |f_N(c) - f(c)| \lt \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -88,19 +98,25 @@ $\blacksquare$
 **Theorem 7.3.** If $(f_n)$ is a sequence of Riemann integrable functions on $[a, b]$ converging
 Uniformly to $f$ on $[a, b]$ Then $f$ is Riemann integrable and
 
-$$\lim_{n \to \infty} \int_a^b f_n(x)\, dx = \int_a^b f(x)\, dx$$
+$$
+\lim_{n \to \infty} \int_a^b f_n(x)\, dx = \int_a^b f(x)\, dx
+$$
 
 _Proof._ Since $(f_n)$ converges uniformly, $f$ is the uniform limit of integrable functions. Given
 $\varepsilon > 0$Choose $N$ with $\sup |f_N(x) - f(x)| \lt \varepsilon/(2(b-a))$ for all
 $x \in [a, b]$. Then $f_N - \varepsilon/(2(b-a)) \leq f(x) \leq f_N(x) + \varepsilon/(2(b-a))$ for
 all $x$ And by Integrability of $f_N$:
 
-$$\int_a^b f_N - \frac{\varepsilon}{2} \leq \underline{\int_a^b} f \leq \overline{\int_a^b} f \leq \int_a^b f_N + \frac{\varepsilon}{2}$$
+$$
+\int_a^b f_N - \frac{\varepsilon}{2} \leq \underline{\int_a^b} f \leq \overline{\int_a^b} f \leq \int_a^b f_N + \frac{\varepsilon}{2}
+$$
 
 So $\overline{\int} f - \underline{\int} f \leq \varepsilon$Proving $f$ is integrable. For the
 limit:
 
-$$\left|\int_a^b f_n - \int_a^b f\right| \leq \int_a^b |f_n - f| \leq (b-a) \cdot \sup_{[a,b]} |f_n - f| \to 0$$
+$$
+\left|\int_a^b f_n - \int_a^b f\right| \leq \int_a^b |f_n - f| \leq (b-a) \cdot \sup_{[a,b]} |f_n - f| \to 0
+$$
 
 $\blacksquare$
 
@@ -161,7 +177,9 @@ and the FTC. $\blacksquare$
 
 **Theorem 7.6b (Abel's Theorem).** If $\sum_{n=0}^{\infty} c_n$ converges to $L$ Then
 
-$$\lim_{x \to 1^-} \sum_{n=0}^{\infty} c_n x^n = L$$
+$$
+\lim_{x \to 1^-} \sum_{n=0}^{\infty} c_n x^n = L
+$$
 
 That is, the power series is continuous from the left at the endpoint $x = 1$.
 
@@ -184,7 +202,9 @@ $f(x)$ In some neighborhood of $a$.
 
 Not every $C^{\infty}$ function is analytic. The standard counterexample is:
 
-$$f(x) = \begin{cases} e^{-1/x^2} & x \neq 0 \\ 0 & x = 0 \end{cases}$$
+$$
+f(x) = \begin{cases} e^{-1/x^2} & x \neq 0 \\ 0 & x = 0 \end{cases}
+$$
 
 $f^{(n)}(0) = 0$ for all $n$ So the Taylor series at $0$ is identically zero, which Converges only to
 $0$Not to $f(x)$ for $x \neq 0$.
@@ -220,7 +240,9 @@ confirming That $e^x$ is its own derivative. $\blacksquare$
 
 _Solution._ Apply the ratio test to the coefficients:
 
-$$\lim_{n \to \infty} \left|\frac{c_{n+1}}{c_n}\right| = \lim_{n \to \infty} \frac{(n+1)!}{n!} = \lim_{n \to \infty} (n+1) = \infty$$
+$$
+\lim_{n \to \infty} \left|\frac{c_{n+1}}{c_n}\right| = \lim_{n \to \infty} \frac{(n+1)!}{n!} = \lim_{n \to \infty} (n+1) = \infty
+$$
 
 So $R = 0$Meaning the series converges only at $x = 0$. $\blacksquare$
 
@@ -238,7 +260,9 @@ find the maximum, differentiate with respect to $x$:
 $\frac{d}{dx}\left(\frac{x}{1+nx}\right) = \frac{1}{(1+nx)^2} > 0$. So the function is increasing in
 $x$ on $[1, \infty)$ And:
 
-$$\sup_{x \geq 1} \frac{x}{1 + nx} = \lim_{x \to \infty} \frac{x}{1 + nx} = \frac{1}{n}$$
+$$
+\sup_{x \geq 1} \frac{x}{1 + nx} = \lim_{x \to \infty} \frac{x}{1 + nx} = \frac{1}{n}
+$$
 
 Since $\sup |f_n| = 1/n \to 0$The convergence is uniform on $[1, \infty)$. $\blacksquare$
 

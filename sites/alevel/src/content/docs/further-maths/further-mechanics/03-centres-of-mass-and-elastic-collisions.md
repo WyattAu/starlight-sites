@@ -59,9 +59,13 @@ Including oblique impacts.
 **Definition.** The _centre of mass_ of a lamina bounded by $y = f(x)$, $x = a$, $x = b$ And the $x$-axis
 is the point $(\bar{x}, \bar{y})$ where:
 
-$$\boxed{\bar{x} = \frac{\displaystyle\int_a^b x \cdot f(x)\,dx}{\displaystyle\int_a^b f(x)\,dx}}$$
+$$
+\boxed{\bar{x} = \frac{\displaystyle\int_a^b x \cdot f(x)\,dx}{\displaystyle\int_a^b f(x)\,dx}}
+$$
 
-$$\boxed{\bar{y} = \frac{\displaystyle\int_a^b \frac{1}{2}[f(x)]^2\,dx}{\displaystyle\int_a^b f(x)\,dx}}$$
+$$
+\boxed{\bar{y} = \frac{\displaystyle\int_a^b \frac{1}{2}[f(x)]^2\,dx}{\displaystyle\int_a^b f(x)\,dx}}
+$$
 
 The denominator is the total area of the lamina: $A = \displaystyle\int_a^b f(x)\,dx$.
 
@@ -77,7 +81,9 @@ Is $y = \dfrac{h}{c - b}(x - b)$.
 For simplicity, take a right triangle with vertices $(0, 0)$$(b, 0)$$(0, h)$Where
 $f(x) = h - \dfrac{h}{b}x = h\!\left(1 - \dfrac{x}{b}\right)$.
 
-$$\bar{x} = \frac{\displaystyle\int_0^b x \cdot h\!\left(1 - \frac{x}{b}\right)dx}{\displaystyle\int_0^b h\!\left(1 - \frac{x}{b}\right)dx}$$
+$$
+\bar{x} = \frac{\displaystyle\int_0^b x \cdot h\!\left(1 - \frac{x}{b}\right)dx}{\displaystyle\int_0^b h\!\left(1 - \frac{x}{b}\right)dx}
+$$
 
 Numerator:
 $\displaystyle h\int_0^b \left(x - \frac{x^2}{b}\right)dx = h\left[\frac{x^2}{2} - \frac{x^3}{3b}\right]_0^b = h\left(\frac{b^2}{2} - \frac{b^2}{3}\right) = \frac{hb^2}{6}$.
@@ -85,15 +91,23 @@ $\displaystyle h\int_0^b \left(x - \frac{x^2}{b}\right)dx = h\left[\frac{x^2}{2}
 Denominator:
 $\displaystyle h\int_0^b \left(1 - \frac{x}{b}\right)dx = h\left[x - \frac{x^2}{2b}\right]_0^b = \frac{hb}{2}$.
 
-$$\bar{x} = \frac{hb^2/6}{hb/2} = \frac{b}{3}$$
+$$
+\bar{x} = \frac{hb^2/6}{hb/2} = \frac{b}{3}
+$$
 
-$$\bar{y} = \frac{\displaystyle\int_0^b \frac{1}{2}h^2\!\left(1 - \frac{x}{b}\right)^2 dx}{hb/2} = \frac{\dfrac{h^2}{2}\displaystyle\int_0^b \left(1 - \frac{2x}{b} + \frac{x^2}{b^2}\right)dx}{hb/2}$$
+$$
+\bar{y} = \frac{\displaystyle\int_0^b \frac{1}{2}h^2\!\left(1 - \frac{x}{b}\right)^2 dx}{hb/2} = \frac{\dfrac{h^2}{2}\displaystyle\int_0^b \left(1 - \frac{2x}{b} + \frac{x^2}{b^2}\right)dx}{hb/2}
+$$
 
-$$= \frac{\dfrac{h^2}{2}\!\left[b - b + \dfrac{b}{3}\right]}{hb/2} = \frac{h^2 b / 6}{hb/2} = \frac{h}{3}$$
+$$
+= \frac{\dfrac{h^2}{2}\!\left[b - b + \dfrac{b}{3}\right]}{hb/2} = \frac{h^2 b / 6}{hb/2} = \frac{h}{3}
+$$
 
 For a general triangle with vertices $(x_1, y_1), (x_2, y_2), (x_3, y_3)$:
 
-$$\boxed{\bar{x} = \frac{x_1 + x_2 + x_3}{3}, \qquad \bar{y} = \frac{y_1 + y_2 + y_3}{3}}$$
+$$
+\boxed{\bar{x} = \frac{x_1 + x_2 + x_3}{3}, \qquad \bar{y} = \frac{y_1 + y_2 + y_3}{3}}
+$$
 
 $\square$
 
@@ -103,7 +117,9 @@ $\square$
 
 ### 2.1 Uniform triangular lamina
 
-$$\boxed{\bar{x} = \frac{x_1 + x_2 + x_3}{3}, \qquad \bar{y} = \frac{y_1 + y_2 + y_3}{3}}$$
+$$
+\boxed{\bar{x} = \frac{x_1 + x_2 + x_3}{3}, \qquad \bar{y} = \frac{y_1 + y_2 + y_3}{3}}
+$$
 
 For a triangle of base $b$ and height $h$ with base on the $x$-axis: $\bar{y} = \dfrac{h}{3}$.
 
@@ -111,7 +127,9 @@ For a triangle of base $b$ and height $h$ with base on the $x$-axis: $\bar{y} = 
 
 For a uniform semicircular lamina of radius $r$:
 
-$$\boxed{\bar{y} = \frac{4r}{3\pi}}$$
+$$
+\boxed{\bar{y} = \frac{4r}{3\pi}}
+$$
 
 The centre of mass lies on the axis of symmetry, a distance $\dfrac{4r}{3\pi}$ from the
 Diameter.
@@ -121,7 +139,9 @@ Diameter.
 For a sector of a circle of radius $r$ with half-angle $\alpha$ (so the sector subtends $2\alpha$ at
 The centre):
 
-$$\boxed{\bar{x} = \frac{2r\sin\alpha}{3\alpha}}$$
+$$
+\boxed{\bar{x} = \frac{2r\sin\alpha}{3\alpha}}
+$$
 
 This lies on the axis of symmetry. For a semicircle ($\alpha = \pi/2$):
 $\bar{x} = \dfrac{2r}{3(\pi/2)} = \dfrac{4r}{3\pi}$Consistent with Section
@@ -131,7 +151,9 @@ $\bar{x} = \dfrac{2r}{3(\pi/2)} = \dfrac{4r}{3\pi}$Consistent with Section
 
 For a uniform circular arc of radius $r$ subtending angle $2\alpha$ at the centre:
 
-$$\boxed{\bar{x} = \frac{r\sin\alpha}{\alpha}}$$
+$$
+\boxed{\bar{x} = \frac{r\sin\alpha}{\alpha}}
+$$
 
 <hr />
 
@@ -140,9 +162,13 @@ $$\boxed{\bar{x} = \frac{r\sin\alpha}{\alpha}}$$
 **Definition.** For a body composed of $n$ parts with masses $m_1, m_2, \ldots, m_n$ and centres of
 Mass at $(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n)$:
 
-$$\boxed{\bar{x} = \frac{\displaystyle\sum_{i=1}^{n} m_i x_i}{\displaystyle\sum_{i=1}^{n} m_i}}$$
+$$
+\boxed{\bar{x} = \frac{\displaystyle\sum_{i=1}^{n} m_i x_i}{\displaystyle\sum_{i=1}^{n} m_i}}
+$$
 
-$$\boxed{\bar{y} = \frac{\displaystyle\sum_{i=1}^{n} m_i y_i}{\displaystyle\sum_{i=1}^{n} m_i}}$$
+$$
+\boxed{\bar{y} = \frac{\displaystyle\sum_{i=1}^{n} m_i y_i}{\displaystyle\sum_{i=1}^{n} m_i}}
+$$
 
 For a composite body, _negative masses_ can be used for holes or removed sections.
 
@@ -160,11 +186,17 @@ Semicircle is removed from the top edge.
 
 Using negative mass for the semicircle:
 
-$$\bar{y} = \frac{16a^2 \times 2a - 2\pi a^2 \times (2a + 8a/(3\pi))}{16a^2 - 2\pi a^2}$$
+$$
+\bar{y} = \frac{16a^2 \times 2a - 2\pi a^2 \times (2a + 8a/(3\pi))}{16a^2 - 2\pi a^2}
+$$
 
-$$= \frac{32a^3 - 4\pi a^3 - 16a^3/3}{a^2(16 - 2\pi)} = \frac{a(96 - 12\pi - 16)/3}{16 - 2\pi} = \frac{a(80 - 12\pi)}{3(16 - 2\pi)}$$
+$$
+= \frac{32a^3 - 4\pi a^3 - 16a^3/3}{a^2(16 - 2\pi)} = \frac{a(96 - 12\pi - 16)/3}{16 - 2\pi} = \frac{a(80 - 12\pi)}{3(16 - 2\pi)}
+$$
 
-$$= \frac{a(80 - 12\pi)}{48 - 6\pi} = \frac{a(40 - 6\pi)}{24 - 3\pi}$$
+$$
+= \frac{a(80 - 12\pi)}{48 - 6\pi} = \frac{a(40 - 6\pi)}{24 - 3\pi}
+$$
 
 </details>
 
@@ -177,7 +209,9 @@ $$= \frac{a(80 - 12\pi)}{48 - 6\pi} = \frac{a(40 - 6\pi)}{24 - 3\pi}$$
 A framework is made of uniform wires (rods). Each rod has its centre of mass at its midpoint. The
 Total mass is proportional to the total length.
 
-$$\boxed{\bar{x} = \frac{\displaystyle\sum m_i x_i}{\displaystyle\sum m_i} = \frac{\displaystyle\sum \ell_i x_i}{\displaystyle\sum \ell_i}}$$
+$$
+\boxed{\bar{x} = \frac{\displaystyle\sum m_i x_i}{\displaystyle\sum m_i} = \frac{\displaystyle\sum \ell_i x_i}{\displaystyle\sum \ell_i}}
+$$
 
 Where $\ell_i$ is the length of the $i$-th rod and $x_i$ is the $x$-coordinate of its midpoint.
 
@@ -203,7 +237,9 @@ Intersection of the two vertical lines through $P$ and $Q$ gives $G$.
 
 **Definition.** The _impulse_ $J$ delivered by a force $F$ acting for a time $\Delta t$ is:
 
-$$\boxed{J = F \cdot \Delta t = \Delta p = m(v - u)}$$
+$$
+\boxed{J = F \cdot \Delta t = \Delta p = m(v - u)}
+$$
 
 Where $u$ is the initial velocity and $v$ is the final velocity.
 
@@ -211,7 +247,9 @@ Where $u$ is the initial velocity and $v$ is the final velocity.
 
 **Definition.** The _coefficient of restitution_ $e$ for a collision between two bodies is:
 
-$$\boxed{e = -\frac{v_1 - v_2}{u_1 - u_2}}$$
+$$
+\boxed{e = -\frac{v_1 - v_2}{u_1 - u_2}}
+$$
 
 Where $u_1, u_2$ are the velocities before collision and $v_1, v_2$ are the velocities after
 Collision, with all velocities measured in the same direction.
@@ -226,17 +264,25 @@ For two particles of masses $m_1$ and $m_2$ with velocities $u_1$ and $u_2$:
 
 **Conservation of momentum:**
 
-$$m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$$
+$$
+m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2
+$$
 
 **Newton's experimental law:**
 
-$$v_2 - v_1 = e(u_1 - u_2)$$
+$$
+v_2 - v_1 = e(u_1 - u_2)
+$$
 
 Solving simultaneously:
 
-$$v_1 = \frac{m_1 u_1 + m_2 u_2 - m_2 e(u_1 - u_2)}{m_1 + m_2}$$
+$$
+v_1 = \frac{m_1 u_1 + m_2 u_2 - m_2 e(u_1 - u_2)}{m_1 + m_2}
+$$
 
-$$v_2 = \frac{m_1 u_1 + m_2 u_2 + m_1 e(u_1 - u_2)}{m_1 + m_2}$$
+$$
+v_2 = \frac{m_1 u_1 + m_2 u_2 + m_1 e(u_1 - u_2)}{m_1 + m_2}
+$$
 
 <details>
 <summary>Worked Example: Direct elastic collision</summary>
@@ -269,12 +315,16 @@ Coefficient of restitution $e$.
 
 The loss in kinetic energy is:
 
-$$\Delta KE = \left(\frac{1}{2}m_1 u_1^2 + \frac{1}{2}m_2 u_2^2\right) - \left(\frac{1}{2}m_1 v_1^2 + \frac{1}{2}m_2 v_2^2\right)$$
+$$
+\Delta KE = \left(\frac{1}{2}m_1 u_1^2 + \frac{1}{2}m_2 u_2^2\right) - \left(\frac{1}{2}m_1 v_1^2 + \frac{1}{2}m_2 v_2^2\right)
+$$
 
 Using the solutions for $v_1$ and $v_2$ and defining the reduced mass
 $\mu = \dfrac{m_1 m_2}{m_1 + m_2}$:
 
-$$\boxed{\Delta KE = \frac{1}{2}\mu(u_1 - u_2)^2(1 - e^2)}$$
+$$
+\boxed{\Delta KE = \frac{1}{2}\mu(u_1 - u_2)^2(1 - e^2)}
+$$
 
 Where $\mu = \dfrac{m_1 m_2}{m_1 + m_2}$ is the _reduced mass_.
 
@@ -295,11 +345,15 @@ Restitution.
 
 If the wall is along the $y$-axis and the sphere approaches with velocity $(u_x, u_y)$:
 
-$$v_x = -e \cdot u_x, \qquad v_y = u_y$$
+$$
+v_x = -e \cdot u_x, \qquad v_y = u_y
+$$
 
 The angle of incidence $\alpha$ and angle of reflection $\beta$ satisfy:
 
-$$\tan\beta = \frac{u_y}{e \cdot u_x} = \frac{\tan\alpha}{e}$$
+$$
+\tan\beta = \frac{u_y}{e \cdot u_x} = \frac{\tan\alpha}{e}
+$$
 
 Since $e \leq 1$We have $\tan\beta \geq \tan\alpha$ So the angle of reflection is greater than or
 Equal to the angle of incidence.
@@ -347,15 +401,25 @@ Note: $\tan\beta = 4/3 = \dfrac{\tan\alpha}{e} = \dfrac{2/3}{0.5} = 4/3$. ✓
 
 ## 8. Summary of Key Results
 
-$$\boxed{\bar{x} = \frac{\displaystyle\sum m_i x_i}{\displaystyle\sum m_i}, \qquad \bar{y} = \frac{\displaystyle\sum m_i y_i}{\displaystyle\sum m_i}}$$
+$$
+\boxed{\bar{x} = \frac{\displaystyle\sum m_i x_i}{\displaystyle\sum m_i}, \qquad \bar{y} = \frac{\displaystyle\sum m_i y_i}{\displaystyle\sum m_i}}
+$$
 
-$$\boxed{\bar{y}_{\mathrm{semicircle}} = \frac{4r}{3\pi}, \qquad \bar{x}_{\mathrm{sector}} = \frac{2r\sin\alpha}{3\alpha}}$$
+$$
+\boxed{\bar{y}_{\mathrm{semicircle}} = \frac{4r}{3\pi}, \qquad \bar{x}_{\mathrm{sector}} = \frac{2r\sin\alpha}{3\alpha}}
+$$
 
-$$\boxed{e = -\frac{v_1 - v_2}{u_1 - u_2}}$$
+$$
+\boxed{e = -\frac{v_1 - v_2}{u_1 - u_2}}
+$$
 
-$$\boxed{\Delta KE = \frac{1}{2}\mu(u_1 - u_2)^2(1 - e^2), \quad \mu = \frac{m_1 m_2}{m_1 + m_2}}$$
+$$
+\boxed{\Delta KE = \frac{1}{2}\mu(u_1 - u_2)^2(1 - e^2), \quad \mu = \frac{m_1 m_2}{m_1 + m_2}}
+$$
 
-$$\boxed{\mathrm{Oblique wall impact: } v_{\mathrm{normal}} = -e \cdot u_{\mathrm{normal}}, \quad v_{\mathrm{tangential}} = u_{\mathrm{tangential}}}$$
+$$
+\boxed{\mathrm{Oblique wall impact: } v_{\mathrm{normal}} = -e \cdot u_{\mathrm{normal}}, \quad v_{\mathrm{tangential}} = u_{\mathrm{tangential}}}
+$$
 
 <hr />
 
@@ -591,9 +655,13 @@ Cylinder: volume $= \pi r^2 h$Centre of mass at distance $\dfrac{h}{2}$ from the
 
 Total volume $= \dfrac{2}{3}\pi r^3 + \pi r^2 h = \pi r^2\!\left(\dfrac{2r}{3} + h\right)$.
 
-$$\bar{x} = \frac{\dfrac{2}{3}\pi r^3 \times \dfrac{3r}{8} + \pi r^2 h \times \dfrac{h}{2}}{\pi r^2\!\left(\dfrac{2r}{3} + h\right)} = \frac{\dfrac{\pi r^4}{4} + \dfrac{\pi r^2 h^2}{2}}{\pi r^2\!\left(\dfrac{2r}{3} + h\right)}$$
+$$
+\bar{x} = \frac{\dfrac{2}{3}\pi r^3 \times \dfrac{3r}{8} + \pi r^2 h \times \dfrac{h}{2}}{\pi r^2\!\left(\dfrac{2r}{3} + h\right)} = \frac{\dfrac{\pi r^4}{4} + \dfrac{\pi r^2 h^2}{2}}{\pi r^2\!\left(\dfrac{2r}{3} + h\right)}
+$$
 
-$$= \frac{r^2/4 + h^2/2}{2r/3 + h} = \frac{r^2 + 2h^2}{4\!\left(\dfrac{2r}{3} + h\right)} = \frac{3(r^2 + 2h^2)}{4(2r + 3h)}$$
+$$
+= \frac{r^2/4 + h^2/2}{2r/3 + h} = \frac{r^2 + 2h^2}{4\!\left(\dfrac{2r}{3} + h\right)} = \frac{3(r^2 + 2h^2)}{4(2r + 3h)}
+$$
 
 **If you get this wrong, revise:**
 [Centre of mass of composite bodies](#3-centre-of-mass-of-composite-bodies), Section 3.
@@ -667,9 +735,13 @@ base on the top edge $y = 6a$ with centroid at $(3a, 6a - \sqrt{3}\,a/3)$:
 
 Using negative mass:
 
-$$\bar{y} = \frac{36a^2 \times 3a - \sqrt{3}\,a^2 \times (6a - a\sqrt{3}/3)}{36a^2 - \sqrt{3}\,a^2} = \frac{108a^3 - 6\sqrt{3}\,a^3 + a^3}{a^2(36 - \sqrt{3})}$$
+$$
+\bar{y} = \frac{36a^2 \times 3a - \sqrt{3}\,a^2 \times (6a - a\sqrt{3}/3)}{36a^2 - \sqrt{3}\,a^2} = \frac{108a^3 - 6\sqrt{3}\,a^3 + a^3}{a^2(36 - \sqrt{3})}
+$$
 
-$$= \frac{a(109 - 6\sqrt{3})}{36 - \sqrt{3}}$$
+$$
+= \frac{a(109 - 6\sqrt{3})}{36 - \sqrt{3}}
+$$
 
 ### Example 9.3: Successive collisions with a wall
 
@@ -700,7 +772,9 @@ $z = h$.
 At height $z$The cross-section is a disc of radius $\dfrac{rz}{h}$With volume
 $dV = \pi\!\left(\dfrac{rz}{h}\right)^2 dz$.
 
-$$\bar{z} = \frac{\displaystyle\int_0^h z \cdot \pi r^2 z^2/h^2\,dz}{\displaystyle\int_0^h \pi r^2 z^2/h^2\,dz} = \frac{h^4/4}{h^3/3} = \frac{3h}{4}$$
+$$
+\bar{z} = \frac{\displaystyle\int_0^h z \cdot \pi r^2 z^2/h^2\,dz}{\displaystyle\int_0^h \pi r^2 z^2/h^2\,dz} = \frac{h^4/4}{h^3/3} = \frac{3h}{4}
+$$
 
 The centre of mass is at distance $\dfrac{3h}{4}$ from the vertex (or $\dfrac{h}{4}$ from the base).
 
@@ -794,9 +868,13 @@ Removed circle: area $= \pi a^2/4$Centre of mass at $(a/2, 0)$.
 
 Remaining area $= \pi a^2/2 - \pi a^2/4 = \pi a^2/4$.
 
-$$\bar{x} = \frac{(\pi a^2/2)(0) - (\pi a^2/4)(a/2)}{\pi a^2/4} = \frac{-\pi a^3/8}{\pi a^2/4} = -\frac{a}{2}$$
+$$
+\bar{x} = \frac{(\pi a^2/2)(0) - (\pi a^2/4)(a/2)}{\pi a^2/4} = \frac{-\pi a^3/8}{\pi a^2/4} = -\frac{a}{2}
+$$
 
-$$\bar{y} = \frac{(\pi a^2/2)(4a/(3\pi)) - (\pi a^2/4)(0)}{\pi a^2/4} = \frac{2a^2/3}{\pi a^2/4} = \frac{8a}{3\pi}$$
+$$
+\bar{y} = \frac{(\pi a^2/2)(4a/(3\pi)) - (\pi a^2/4)(0)}{\pi a^2/4} = \frac{2a^2/3}{\pi a^2/4} = \frac{8a}{3\pi}
+$$
 
 Centre of mass: $\left(-\dfrac{a}{2}, \dfrac{8a}{3\pi}\right)$.
 
@@ -831,12 +909,16 @@ Separation equals the relative speed of approach.
 
 By Newton's law of restitution with $e = 1$:
 
-$$v_2 - v_1 = 1 \cdot (u_1 - u_2)$$
+$$
+v_2 - v_1 = 1 \cdot (u_1 - u_2)
+$$
 
 The relative speed of separation is $|v_2 - v_1|$ and the relative speed of approach is
 $|u_1 - u_2|$.
 
-$$|v_2 - v_1| = |u_1 - u_2| \quad \blacksquare$$
+$$
+|v_2 - v_1| = |u_1 - u_2| \quad \blacksquare
+$$
 
 </details>
 
@@ -855,11 +937,15 @@ Cone: volume $= \pi r^2 h/3$Centre of mass at distance $h/4$ from the base.
 
 Taking the join as the origin (measuring into the hemisphere as positive):
 
-$$\bar{x} = \frac{(2\pi r^3/3)(3r/8) + (\pi r^2 h/3)(-h/4)}{2\pi r^3/3 + \pi r^2 h/3} = \frac{\pi r^4/4 - \pi r^2 h^2/12}{\pi r^2(2r + h)/3}$$
+$$
+\bar{x} = \frac{(2\pi r^3/3)(3r/8) + (\pi r^2 h/3)(-h/4)}{2\pi r^3/3 + \pi r^2 h/3} = \frac{\pi r^4/4 - \pi r^2 h^2/12}{\pi r^2(2r + h)/3}
+$$
 
 For the centre of mass to be at the join: $\bar{x} = 0$:
 
-$$\frac{\pi r^4}{4} = \frac{\pi r^2 h^2}{12} \implies 3r^2 = h^2 \implies h = r\sqrt{3}$$
+$$
+\frac{\pi r^4}{4} = \frac{\pi r^2 h^2}{12} \implies 3r^2 = h^2 \implies h = r\sqrt{3}
+$$
 
 </details>
 
@@ -889,9 +975,13 @@ Rectangle: area $= 2ah$Centre of mass at $\dfrac{h}{2}$ above the base.
 
 Taking the base as datum:
 
-$$\bar{y} = \frac{\frac{\pi a^2}{2}\!\left(h + \frac{4a}{3\pi}\right) + 2ah \cdot \frac{h}{2}}{\frac{\pi a^2}{2} + 2ah}$$
+$$
+\bar{y} = \frac{\frac{\pi a^2}{2}\!\left(h + \frac{4a}{3\pi}\right) + 2ah \cdot \frac{h}{2}}{\frac{\pi a^2}{2} + 2ah}
+$$
 
-$$= \frac{\frac{\pi a^2 h}{2} + \frac{2a^3}{3} + ah^2}{\frac{\pi a^2}{2} + 2ah}$$
+$$
+= \frac{\frac{\pi a^2 h}{2} + \frac{2a^3}{3} + ah^2}{\frac{\pi a^2}{2} + 2ah}
+$$
 
 ### Example 8.2: Oblique elastic collision in 2D
 
@@ -956,7 +1046,9 @@ Slipping.
 **Problem.** A rod of length $L$ has density $\rho(x) = \rho_0(1 + x/L)$. Find the centre of mass.
 
 **Solution.**
-$$\bar{x} = \frac{\int_0^L x\rho(x)\,dx}{\int_0^L \rho(x)\,dx} = \frac{\int_0^L x(1+x/L)\,dx}{\int_0^L (1+x/L)\,dx}$$
+$$
+\bar{x} = \frac{\int_0^L x\rho(x)\,dx}{\int_0^L \rho(x)\,dx} = \frac{\int_0^L x(1+x/L)\,dx}{\int_0^L (1+x/L)\,dx}
+$$
 
 Numerator:
 $\displaystyle\int_0^L \!\left(x + \frac{x^2}{L}\right)dx = \frac{L^2}{2} + \frac{L^2}{3} = \frac{5L^2}{6}$.
@@ -964,7 +1056,9 @@ $\displaystyle\int_0^L \!\left(x + \frac{x^2}{L}\right)dx = \frac{L^2}{2} + \fra
 Denominator:
 $\displaystyle\int_0^L \!\left(1 + \frac{x}{L}\right)dx = L + \frac{L}{2} = \frac{3L}{2}$.
 
-$$\bar{x} = \frac{5L^2/6}{3L/2} = \frac{5L}{9}$$
+$$
+\bar{x} = \frac{5L^2/6}{3L/2} = \frac{5L}{9}
+$$
 
 The centre of mass is at $\boxed{\dfrac{5L}{9}}$ from the lighter end (shifted toward the heavier
 End).
@@ -980,7 +1074,9 @@ $v_{\perp} = u\cos\theta$ (reverses), $v_{\parallel} = u\sin\theta$ (unchanged).
 
 Since the collision is elastic, the speed is unchanged: the perpendicular component reverses.
 
-$$\text{Impulse} = m(u\cos\theta - (-u\cos\theta)) = \boxed{2mu\cos\theta}$$
+$$
+\text{Impulse} = m(u\cos\theta - (-u\cos\theta)) = \boxed{2mu\cos\theta}
+$$
 
 Directed along the normal away from the wall.
 
@@ -1035,7 +1131,9 @@ The triangle.
 Wait, the centre of mass of the remaining lamina is the weighted average of the triangle and the
 Hole (with negative mass for the hole):
 
-$$\bar{x} = \frac{\sqrt{3}a^2 \cdot 0 - \frac{\pi a^2}{4} \cdot 0}{\sqrt{3}a^2 - \frac{\pi a^2}{4}} = 0$$
+$$
+\bar{x} = \frac{\sqrt{3}a^2 \cdot 0 - \frac{\pi a^2}{4} \cdot 0}{\sqrt{3}a^2 - \frac{\pi a^2}{4}} = 0
+$$
 
 The centre of mass remains at the centroid since both the triangle and hole are centred there.
 $\boxed{\bar{x} = 0}$
@@ -1203,7 +1301,9 @@ With the vertex on the table, the centre of mass is at $\boxed{\dfrac{3h}{4}}$ a
 A uniform circular arc of radius $r$ subtending angle $2\alpha$ at the centre has its centre of mass
 At:
 
-$$\bar{x} = \frac{r\sin\alpha}{\alpha}$$
+$$
+\bar{x} = \frac{r\sin\alpha}{\alpha}
+$$
 
 From the centre, along the axis of symmetry.
 
@@ -1211,7 +1311,9 @@ From the centre, along the axis of symmetry.
 
 A uniform circular sector of radius $r$ and angle $2\alpha$ has its centre of mass at:
 
-$$\bar{x} = \frac{2r\sin\alpha}{3\alpha}$$
+$$
+\bar{x} = \frac{2r\sin\alpha}{3\alpha}
+$$
 
 From the centre, along the axis of symmetry.
 
@@ -1219,7 +1321,9 @@ From the centre, along the axis of symmetry.
 
 For partially elastic collisions, the coefficient of restitution $e$ is defined as:
 
-$$e = \frac{\text{relative speed of separation}}{\text{relative speed of approach}}$$
+$$
+e = \frac{\text{relative speed of separation}}{\text{relative speed of approach}}
+$$
 
 $e = 1$: perfectly elastic. $e = 0$: perfectly inelastic.
 
@@ -1277,7 +1381,9 @@ Find the centre of mass of a uniform semicircular lamina of radius $a$.
 
 By symmetry, $\bar{x} = 0$.
 
-$$\bar{y} = \frac{\int_0^{\pi} \frac{1}{2}a^2 \cdot \frac{2}{3}a\sin\theta\,d\theta}{\frac{1}{2}\pi a^2} = \frac{\frac{a^3}{3}\int_0^{\pi}\sin\theta\,dtheta}{\frac{\pi a^2}{2}} = \frac{\frac{2a^3}{3}}{\frac{\pi a^2}{2}} = \boxed{\frac{4a}{3\pi}}$$
+$$
+\bar{y} = \frac{\int_0^{\pi} \frac{1}{2}a^2 \cdot \frac{2}{3}a\sin\theta\,d\theta}{\frac{1}{2}\pi a^2} = \frac{\frac{a^3}{3}\int_0^{\pi}\sin\theta\,dtheta}{\frac{\pi a^2}{2}} = \frac{\frac{2a^3}{3}}{\frac{\pi a^2}{2}} = \boxed{\frac{4a}{3\pi}}
+$$
 
 </details>
 
@@ -1312,7 +1418,9 @@ Closer to the base.
 The volume generated by rotating a plane area about an external axis equals the area times the
 Distance travelled by its centroid:
 
-$$V = 2\pi \bar{d} \cdot A$$
+$$
+V = 2\pi \bar{d} \cdot A
+$$
 
 Where $\bar{d}$ is the distance from the centroid to the axis of rotation.
 
@@ -1320,7 +1428,9 @@ Where $\bar{d}$ is the distance from the centroid to the axis of rotation.
 
 For a 3D body with density $\rho(\mathbf{r})$:
 
-$$\bar{x} = \frac{\iiint_V x\,\rho\,dV}{\iiint_V \rho\,dV}, \quad \bar{y} = \frac{\iiint_V y\,\rho\,dV}{\iiint_V \rho\,dV}, \quad \bar{z} = \frac{\iiint_V z\,\rho\,dV}{\iiint_V \rho\,dV}$$
+$$
+\bar{x} = \frac{\iiint_V x\,\rho\,dV}{\iiint_V \rho\,dV}, \quad \bar{y} = \frac{\iiint_V y\,\rho\,dV}{\iiint_V \rho\,dV}, \quad \bar{z} = \frac{\iiint_V z\,\rho\,dV}{\iiint_V \rho\,dV}
+$$
 
 ---
 
@@ -1344,7 +1454,9 @@ A uniform wire is bent into a semicircle of radius $a$. Find its centre of mass.
 
 For a wire (1D), use $\bar{x} = \dfrac{\int x\,ds}{\int ds}$ where $ds = a\,d\theta$.
 
-$$\bar{y} = \frac{\int_0^{\pi} a\sin\theta \cdot a\,d\theta}{\int_0^{\pi} a\,d\theta} = \frac{a^2[-\cos\theta]_0^{\pi}}{a\pi} = \frac{2a^2}{a\pi} = \boxed{\frac{2a}{\pi}}$$
+$$
+\bar{y} = \frac{\int_0^{\pi} a\sin\theta \cdot a\,d\theta}{\int_0^{\pi} a\,d\theta} = \frac{a^2[-\cos\theta]_0^{\pi}}{a\pi} = \frac{2a^2}{a\pi} = \boxed{\frac{2a}{\pi}}
+$$
 
 </details>
 

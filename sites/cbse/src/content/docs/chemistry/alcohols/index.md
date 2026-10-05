@@ -85,7 +85,9 @@ Decreasing acidity: phenol > water > ethanol
 
 2-methylpropan-2-ol is a tertiary alcohol. Dehydration proceeds via an E1 mechanism:
 
-$$\text{(CH}_3)_3\text{COH} \xrightarrow{\text{H}_2\text{SO}_4, \Delta} \text{(CH}_3)_2\text{C}=\text{CH}_2 + \text{H}_2\text{O}$$
+$$
+\text{(CH}_3)_3\text{COH} \xrightarrow{\text{H}_2\text{SO}_4, \Delta} \text{(CH}_3)_2\text{C}=\text{CH}_2 + \text{H}_2\text{O}
+$$
 
 Product: 2-methylpropene (only one product possible, Saytzeff's rule gives the same result).
 
@@ -101,7 +103,9 @@ Tertiary alcohols dehydrate most efficiently (most stable carbocation intermedia
 
 Williamson synthesis: alkoxide + primary alkyl halide $\rightarrow$ ether
 
-$$\text{CH}_3\text{CH}_2\text{O}^-\text{Na}^+ + \text{CH}_3\text{CH}_2\text{Br} \rightarrow \text{CH}_3\text{CH}_2\text{OCH}_2\text{CH}_3 + \text{NaBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{O}^-\text{Na}^+ + \text{CH}_3\text{CH}_2\text{Br} \rightarrow \text{CH}_3\text{CH}_2\text{OCH}_2\text{CH}_3 + \text{NaBr}
+$$
 
 Sodium ethoxide + bromoethane $\rightarrow$ diethyl ether + NaBr
 
@@ -136,18 +140,24 @@ Alcohols are solvents (ethanol, methanol), fuels (methanol), and precursors to m
 (a) Propan-1-ol is a primary alcohol. Oxidation proceeds in two steps:
 
 First oxidation:
-$$3\text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{K}_2\text{Cr}_2\text{O}_7 + 4\text{H}_2\text{SO}_4 \rightarrow 3\text{CH}_3\text{CH}_2\text{CHO} + \text{Cr}_2(\text{SO}_4)_3 + \text{K}_2\text{SO}_4 + 7\text{H}_2\text{O}$$
+$$
+3\text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{K}_2\text{Cr}_2\text{O}_7 + 4\text{H}_2\text{SO}_4 \rightarrow 3\text{CH}_3\text{CH}_2\text{CHO} + \text{Cr}_2(\text{SO}_4)_3 + \text{K}_2\text{SO}_4 + 7\text{H}_2\text{O}
+$$
 
 Product: propanal (an aldehyde)
 
 Further oxidation:
-$$\text{CH}_3\text{CH}_2\text{CHO} \xrightarrow{[\text{O}]} \text{CH}_3\text{CH}_2\text{COOH}$$
+$$
+\text{CH}_3\text{CH}_2\text{CHO} \xrightarrow{[\text{O}]} \text{CH}_3\text{CH}_2\text{COOH}
+$$
 
 Product: propanoic acid (a carboxylic acid)
 
 (b) Propan-2-ol is a secondary alcohol. Oxidation gives a ketone:
 
-$$\text{CH}_3\text{CH(OH)CH}_3 \xrightarrow{[\text{O}]} \text{CH}_3\text{COCH}_3$$
+$$
+\text{CH}_3\text{CH(OH)CH}_3 \xrightarrow{[\text{O}]} \text{CH}_3\text{COCH}_3
+$$
 
 Product: propanone (acetone, a ketone)
 
@@ -161,7 +171,9 @@ Product: propanone (acetone, a ketone)
 
 This is a Fischer esterification, a condensation reaction between a carboxylic acid and an alcohol:
 
-$$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}
+$$
 
 The product is ethyl ethanoate (an ester) with a fruity smell.
 
@@ -176,10 +188,14 @@ The reaction is reversible. Concentrated $\text{H}_2\text{SO}_4$ acts as both a 
 **Solution:**
 
 (a) Phenol reacts with NaOH to form sodium phenoxide (a salt):
-$$\text{C}_6\text{H}_5\text{OH} + \text{NaOH} \rightarrow \text{C}_6\text{H}_5\text{ONa} + \text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{OH} + \text{NaOH} \rightarrow \text{C}_6\text{H}_5\text{ONa} + \text{H}_2\text{O}
+$$
 
 (b) Phenol reacts with sodium metal:
-$$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\text{ONa} + \text{H}_2$$
+$$
+2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\text{ONa} + \text{H}_2
+$$
 
 (c) Phenol does not react with $\text{NaHCO}_3$ because phenol is a weaker acid than carbonic acid ($\text{H}_2\text{CO}_3$). The $\text{p}K_a$ of phenol is 10, while $\text{p}K_a$ of $\text{H}_2\text{CO}_3$ is 6.4. A weaker acid cannot displace a stronger acid from its salt.
 

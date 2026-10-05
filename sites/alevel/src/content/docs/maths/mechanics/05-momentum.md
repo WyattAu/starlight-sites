@@ -42,7 +42,9 @@ Signs.
 
 **Definition.** The momentum of a body of mass $m$ moving with velocity $\mathbf{v}$ is
 
-$$\mathbf{p} = m\mathbf{v}$$
+$$
+\mathbf{p} = m\mathbf{v}
+$$
 
 Momentum is a vector with SI units kg m/s.
 
@@ -54,18 +56,24 @@ Momentum is a vector with SI units kg m/s.
 
 **Theorem.** In a closed system (no external forces), the total momentum is conserved:
 
-$$\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}$$
+$$
+\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}
+$$
 
 ### 2.2 Derivation from Newton"s Laws
 
 **Proof.** Newton's Third Law states that for any two interacting bodies $A$ and $B$:
 
-$$\mathbf{F}_{AB} = -\mathbf{F}_{BA}$$
+$$
+\mathbf{F}_{AB} = -\mathbf{F}_{BA}
+$$
 
 By Newton's Second Law: $\mathbf{F}_{AB} = \dfrac{d\mathbf{p}_A}{dt}$ and
 $\mathbf{F}_{BA} = \dfrac{d\mathbf{p}_B}{dt}$.
 
-$$\frac{d\mathbf{p}_A}{dt} + \frac{d\mathbf{p}_B}{dt} = 0 \implies \frac{d}{dt}(\mathbf{p}_A + \mathbf{p}_B) = 0$$
+$$
+\frac{d\mathbf{p}_A}{dt} + \frac{d\mathbf{p}_B}{dt} = 0 \implies \frac{d}{dt}(\mathbf{p}_A + \mathbf{p}_B) = 0
+$$
 
 So $\mathbf{p}_A + \mathbf{p}_B = \mathrm{constant}$. $\blacksquare$
 
@@ -81,17 +89,23 @@ Momentum lost by the other.
 
 **Definition.** The impulse $J$ of a force $F$ acting over a time interval $\Delta t$ is
 
-$$\mathbf{J} = \mathbf{F}\,\Delta t = \Delta\mathbf{p} = m\mathbf{v} - m\mathbf{u}$$
+$$
+\mathbf{J} = \mathbf{F}\,\Delta t = \Delta\mathbf{p} = m\mathbf{v} - m\mathbf{u}
+$$
 
 ### 3.2 Derivation
 
 **Proof.** From Newton's Second Law:
 
-$$\mathbf{F} = \frac{d\mathbf{p}}{dt} \implies \mathbf{F}\,dt = d\mathbf{p}$$
+$$
+\mathbf{F} = \frac{d\mathbf{p}}{dt} \implies \mathbf{F}\,dt = d\mathbf{p}
+$$
 
 Integrating over $[t_1, t_2]$:
 
-$$\int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1$$
+$$
+\int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1
+$$
 
 For constant force: $\mathbf{J} = \mathbf{F}(t_2 - t_1) = \mathbf{F}\,\Delta t$. $\blacksquare$
 
@@ -101,7 +115,9 @@ The SI unit of impulse is the newton-second (Ns) = kg m/s.
 
 The impulse equals the area under a force-time graph. For a variable force:
 
-$$J = \int_{t_1}^{t_2}F(t)\,dt$$
+$$
+J = \int_{t_1}^{t_2}F(t)\,dt
+$$
 
 <hr />
 
@@ -112,7 +128,9 @@ $$J = \int_{t_1}^{t_2}F(t)\,dt$$
 For a one-dimensional collision between masses $m_1$ and $m_2$ with velocities $u_1$, $u_2$ before
 And $v_1$, $v_2$ after:
 
-$$m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$$
+$$
+m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2
+$$
 
 ### 4.2 Oblique (2D) collisions
 
@@ -127,10 +145,14 @@ Independently.
 
 **Definition.** The coefficient of restitution $e$ between two colliding bodies is
 
-$$e = \frac{\mathrm{relative speed of separation}}{\mathrm{relative speed of approach}}$$
+$$
+e = \frac{\mathrm{relative speed of separation}}{\mathrm{relative speed of approach}}
+$$
 
 For a collision between a body and a wall:
-$$e = \frac{v_{\mathrm{after}}}{u_{\mathrm{before}}}$$
+$$
+e = \frac{v_{\mathrm{after}}}{u_{\mathrm{before}}}
+$$
 
 For two bodies: $$e = \frac{v_2 - v_1}{u_1 - u_2}$$
 
@@ -146,19 +168,27 @@ $0 \leq e \leq 1$.
 
 The kinetic energy lost in a collision is:
 
-$$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)
+$$
 
 **Proof.** From conservation of momentum and the restitution equation:
 
-$$v_1 = \frac{m_1u_1 + m_2u_2 - m_2e(u_1-u_2)}{m_1+m_2}$$
+$$
+v_1 = \frac{m_1u_1 + m_2u_2 - m_2e(u_1-u_2)}{m_1+m_2}
+$$
 
-$$v_2 = \frac{m_1u_1 + m_2u_2 + m_1e(u_1-u_2)}{m_1+m_2}$$
+$$
+v_2 = \frac{m_1u_1 + m_2u_2 + m_1e(u_1-u_2)}{m_1+m_2}
+$$
 
 $\Delta\mathrm{KE} = \tfrac{1}{2}m_1u_1^2 + \tfrac{1}{2}m_2u_2^2 - \tfrac{1}{2}m_1v_1^2 - \tfrac{1}{2}m_2v_2^2$
 
 After substitution and simplification:
 
-$$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \quad \blacksquare$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \quad \blacksquare
+$$
 
 **Intuition.** When $e = 1$: $\Delta\mathrm{KE} = 0$ (no energy lost). When $e = 0$: maximum energy
 Loss. The energy lost increases as $(1-e^2)$, a small decrease in $e$ causes a relatively small
@@ -174,18 +204,24 @@ Each other). If $u_1 \gt u_2$ (body 1 approaches body 2), then after collision w
 $v_2 \geq v_1$ (body 2 moves away from body 1). Therefore $v_2 - v_1 \geq 0$ and
 $u_1 - u_2 \gt 0$ So:
 
-$$e = \frac{v_2 - v_1}{u_1 - u_2} \geq 0$$
+$$
+e = \frac{v_2 - v_1}{u_1 - u_2} \geq 0
+$$
 
 **Proof of $e \leq 1$.** Kinetic energy cannot be created in a collision, so
 $\mathrm{KE}_{\mathrm{after}} \leq \mathrm{KE}_{\mathrm{before}}$Which means
 $\Delta\mathrm{KE} \geq 0$. From the energy loss formula in Section 5.3:
 
-$$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \geq 0$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \geq 0
+$$
 
 Since $\frac{1}{2} \gt 0$, $\frac{m_1m_2}{m_1+m_2} \gt 0$ (for positive masses), and
 $(u_1-u_2)^2 \geq 0$We must have:
 
-$$1 - e^2 \geq 0 \implies e^2 \leq 1 \implies e \leq 1$$
+$$
+1 - e^2 \geq 0 \implies e^2 \leq 1 \implies e \leq 1
+$$
 
 Combining both results: $0 \leq e \leq 1$. $\blacksquare$
 
@@ -198,7 +234,9 @@ Combining both results: $0 \leq e \leq 1$. $\blacksquare$
 
 **Theorem.** The impulse exerted on a body equals the change in its momentum:
 
-$$\mathbf{J} = \int_{t_1}^{t_2}\mathbf{F}\,dt = \Delta\mathbf{p} = m\mathbf{v}_{\mathrm{final}} - m\mathbf{v}_{\mathrm{initial}}$$
+$$
+\mathbf{J} = \int_{t_1}^{t_2}\mathbf{F}\,dt = \Delta\mathbf{p} = m\mathbf{v}_{\mathrm{final}} - m\mathbf{v}_{\mathrm{initial}}
+$$
 
 This holds for both constant and variable forces.
 
@@ -206,18 +244,24 @@ This holds for both constant and variable forces.
 
 Newton's Second Law in its most general form expresses force as the rate of change of momentum:
 
-$$\mathbf{F} = \frac{d\mathbf{p}}{dt}$$
+$$
+\mathbf{F} = \frac{d\mathbf{p}}{dt}
+$$
 
 This is more fundamental than $\mathbf{F} = m\mathbf{a}$ because it remains valid even when mass
 Changes (e.g. Rocket propulsion). Rearranging and integrating:
 
-$$\mathbf{F}\,dt = d\mathbf{p} \implies \int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1 \quad \blacksquare$$
+$$
+\mathbf{F}\,dt = d\mathbf{p} \implies \int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1 \quad \blacksquare
+$$
 
 ### 6.3 Constant force simplification
 
 When $\mathbf{F}$ is constant over $[t_1, t_2]$:
 
-$$\mathbf{J} = \mathbf{F}\int_{t_1}^{t_2}dt = \mathbf{F}(t_2 - t_1) = \mathbf{F}\,\Delta t$$
+$$
+\mathbf{J} = \mathbf{F}\int_{t_1}^{t_2}dt = \mathbf{F}(t_2 - t_1) = \mathbf{F}\,\Delta t
+$$
 
 This is the form most commonly used in A-level problems.
 
@@ -225,9 +269,13 @@ This is the form most commonly used in A-level problems.
 
 Since impulse and momentum are both vectors, the impulse-momentum theorem applies component-wise:
 
-$$J_x = \int_{t_1}^{t_2}F_x\,dt = \Delta p_x = m v_{x,\mathrm{final}} - m v_{x,\mathrm{initial}}$$
+$$
+J_x = \int_{t_1}^{t_2}F_x\,dt = \Delta p_x = m v_{x,\mathrm{final}} - m v_{x,\mathrm{initial}}
+$$
 
-$$J_y = \int_{t_1}^{t_2}F_y\,dt = \Delta p_y = m v_{y,\mathrm{final}} - m v_{y,\mathrm{initial}}$$
+$$
+J_y = \int_{t_1}^{t_2}F_y\,dt = \Delta p_y = m v_{y,\mathrm{final}} - m v_{y,\mathrm{initial}}
+$$
 
 This is particularly useful for oblique impacts where the impulse acts in a specific direction.
 
@@ -243,7 +291,9 @@ how much Momentum a force transfers over a given time interval.
 
 For a closed system with no external forces, the vector equation
 
-$$\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}$$
+$$
+\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}
+$$
 
 Is equivalent to two independent scalar equations obtained by resolving into perpendicular
 Components.
@@ -252,9 +302,13 @@ Components.
 
 Choosing $x$- and $y$-axes, momentum is conserved in each direction independently:
 
-$$\sum m_i u_{x,i} = \sum m_i v_{x,i} \qquad \mathrm{(x-momentum conserved)}$$
+$$
+\sum m_i u_{x,i} = \sum m_i v_{x,i} \qquad \mathrm{(x-momentum conserved)}
+$$
 
-$$\sum m_i u_{y,i} = \sum m_i v_{y,i} \qquad \mathrm{(y-momentum conserved)}$$
+$$
+\sum m_i u_{y,i} = \sum m_i v_{y,i} \qquad \mathrm{(y-momentum conserved)}
+$$
 
 **Justification.** If $\mathbf{F}_{\mathrm{net}} = \mathbf{0}$ Then $F_x = 0$ and $F_y = 0$
 Independently. Since $F_x = \dfrac{dp_x}{dt} = 0$It follows that $p_x$ is constant. Similarly for
@@ -344,7 +398,9 @@ direction of each sphere after collision.
 Momentum:
 $3 \cdot \frac{5\sqrt{3}}{2} + 2 \cdot 0 = 3\,v_{A,\parallel} + 2\,v_{B,\parallel}$
 
-$$\frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\,v_{B,\parallel}$$
+$$
+\frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\,v_{B,\parallel}
+$$
 
 Restitution:
 $v_{B,\parallel} - v_{A,\parallel} = 0.6 \cdot \frac{5\sqrt{3}}{2} = \frac{3\sqrt{3}}{2}$
@@ -352,13 +408,21 @@ $v_{B,\parallel} - v_{A,\parallel} = 0.6 \cdot \frac{5\sqrt{3}}{2} = \frac{3\sqr
 So $v_{B,\parallel} = v_{A,\parallel} + \frac{3\sqrt{3}}{2}$. Substituting into the
 momentum Equation:
 
-$$\frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\!\left(v_{A,\parallel} + \frac{3\sqrt{3}}{2}\right) = 5\,v_{A,\parallel} + 3\sqrt{3}$$
+$$
+\frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\!\left(v_{A,\parallel} + \frac{3\sqrt{3}}{2}\right) = 5\,v_{A,\parallel} + 3\sqrt{3}
+$$
 
-$$5\,v_{A,\parallel} = \frac{15\sqrt{3}}{2} - 3\sqrt{3} = \frac{15\sqrt{3} - 6\sqrt{3}}{2} = \frac{9\sqrt{3}}{2}$$
+$$
+5\,v_{A,\parallel} = \frac{15\sqrt{3}}{2} - 3\sqrt{3} = \frac{15\sqrt{3} - 6\sqrt{3}}{2} = \frac{9\sqrt{3}}{2}
+$$
 
-$$v_{A,\parallel} = \frac{9\sqrt{3}}{10} \approx 1.559\,\mathrm{m/s}$$
+$$
+v_{A,\parallel} = \frac{9\sqrt{3}}{10} \approx 1.559\,\mathrm{m/s}
+$$
 
-$$v_{B,\parallel} = \frac{9\sqrt{3}}{10} + \frac{3\sqrt{3}}{2} = \frac{9\sqrt{3} + 15\sqrt{3}}{10} = \frac{24\sqrt{3}}{10} = \frac{12\sqrt{3}}{5} \approx 4.157\,\mathrm{m/s}$$
+$$
+v_{B,\parallel} = \frac{9\sqrt{3}}{10} + \frac{3\sqrt{3}}{2} = \frac{9\sqrt{3} + 15\sqrt{3}}{10} = \frac{24\sqrt{3}}{10} = \frac{12\sqrt{3}}{5} \approx 4.157\,\mathrm{m/s}
+$$
 
 **Speed of $A$:**
 $|v_A| = \sqrt{v_{A,\parallel}^2 + v_{A,\perp}^2} = \sqrt{\left(\frac{9\sqrt{3}}{10}\right)^2 + 2.5^2} = \sqrt{2.43 + 6.25} = \sqrt{8.68} \approx 2.95\,\mathrm{m/s}$
@@ -395,11 +459,15 @@ Let the particle approach with speed $u$ at angle $\alpha$ to the normal of the 
 
 The speed after collision is:
 
-$$v = \sqrt{v_n^2 + v_t^2} = u\sqrt{e^2\cos^2\alpha + \sin^2\alpha}$$
+$$
+v = \sqrt{v_n^2 + v_t^2} = u\sqrt{e^2\cos^2\alpha + \sin^2\alpha}
+$$
 
 The angle of rebound $\beta$ to the normal satisfies:
 
-$$\tan\beta = \frac{v_t}{|v_n|} = \frac{u\sin\alpha}{e\,u\cos\alpha} = \frac{\tan\alpha}{e}$$
+$$
+\tan\beta = \frac{v_t}{|v_n|} = \frac{u\sin\alpha}{e\,u\cos\alpha} = \frac{\tan\alpha}{e}
+$$
 
 ### 9.3 Angle relationships
 
@@ -432,7 +500,9 @@ Covered tends to a finite limit as $n \to \infty$.
 The impulse exerted by the surface on the particle is directed along the normal (since the surface
 Is smooth):
 
-$$J = m(v_n - u_n) = m(-e\,u\cos\alpha - u\cos\alpha) = -m(1+e)\,u\cos\alpha$$
+$$
+J = m(v_n - u_n) = m(-e\,u\cos\alpha - u\cos\alpha) = -m(1+e)\,u\cos\alpha
+$$
 
 The magnitude of the impulse is $m(1+e)\,u\cos\alpha$.
 
@@ -781,7 +851,9 @@ Prove that the coefficient of restitution satisfies $e \leq 1$ by showing that $
 <summary>Solution 14</summary>
 Suppose $e \gt 1$. From the energy loss formula:
 
-$$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)
+$$
 
 If $e \gt 1$ Then $e^2 \gt 1$ and $1 - e^2 \lt 0$.
 
@@ -872,9 +944,13 @@ $2v_{A,\parallel} = (1-e)\,u\cos\theta \implies v_{A,\parallel} = \frac{(1-e)}{2
 
 The angle between $\mathbf{v}_A$ and $\mathbf{v}_B$ is found by computing their dot product:
 
-$$\mathbf{v}_A \cdot \mathbf{v}_B = v_{A,\parallel}\,v_{B,\parallel} + v_{A,\perp}\,v_{B,\perp} = \frac{(1-e)}{2}\,u\cos\theta \cdot \frac{(1+e)}{2}\,u\cos\theta + u\sin\theta \cdot 0$$
+$$
+\mathbf{v}_A \cdot \mathbf{v}_B = v_{A,\parallel}\,v_{B,\parallel} + v_{A,\perp}\,v_{B,\perp} = \frac{(1-e)}{2}\,u\cos\theta \cdot \frac{(1+e)}{2}\,u\cos\theta + u\sin\theta \cdot 0
+$$
 
-$$= \frac{(1-e^2)}{4}\,u^2\cos^2\theta$$
+$$
+= \frac{(1-e^2)}{4}\,u^2\cos^2\theta
+$$
 
 Wait, this is not zero unless $e = 1$. Let me reconsider.
 

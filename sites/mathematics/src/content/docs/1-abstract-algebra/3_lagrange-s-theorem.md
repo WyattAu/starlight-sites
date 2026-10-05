@@ -21,7 +21,9 @@ description: "Study notes for Lagrange's Theorem with worked examples, practice 
 
 Let $H \leq G$. For $a \in G$The **left coset** of $H$ containing $a$ is
 
-$$aH = \{ah : h \in H\}$$
+$$
+aH = \{ah : h \in H\}
+$$
 
 The **right coset** is $Ha = \{ha : h \in H\}$.
 
@@ -79,11 +81,15 @@ $\langle g \rangle = G$ And $G$ is cyclic. $\blacksquare$
 _Solution._ $H = \{e, (1\ 2\ 3), (1\ 3\ 2)\}$ has order $3$ And $|S_3| = 6$ So $[S_3 : H] = 2$. Pick
 any $\sigma \notin H$E.g., $\sigma = (1\ 2)$. Then:
 
-$$S_3 = H \cup (1\ 2)H = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (1\ 2)(1\ 2\ 3), (1\ 2)(1\ 3\ 2)\}$$
+$$
+S_3 = H \cup (1\ 2)H = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (1\ 2)(1\ 2\ 3), (1\ 2)(1\ 3\ 2)\}
+$$
 
 Computing: $(1\ 2)(1\ 2\ 3) = (2\ 3)$ and $(1\ 2)(1\ 3\ 2) = (1\ 3)$. So:
 
-$$S_3 = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (2\ 3), (1\ 3)\}$$
+$$
+S_3 = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (2\ 3), (1\ 3)\}
+$$
 
 Since $[S_3 : H] = 2$, $H$ is normal (see Corollary 3.7). $\blacksquare$
 
@@ -97,7 +103,9 @@ Since $[S_3 : H] = 2$, $H$ is normal (see Corollary 3.7). $\blacksquare$
 _Solution._ $H = \langle 4 \rangle = \{0, 4, 8\}$ has order $3$ And $|\mathbb{Z}/12\mathbb{Z}| = 12$
 So $[\mathbb{Z}/12\mathbb{Z} : H] = 4$. The cosets are:
 
-$$0 + H = \{0, 4, 8\}, \quad 1 + H = \{1, 5, 9\}, \quad 2 + H = \{2, 6, 10\}, \quad 3 + H = \{3, 7, 11\}$$
+$$
+0 + H = \{0, 4, 8\}, \quad 1 + H = \{1, 5, 9\}, \quad 2 + H = \{2, 6, 10\}, \quad 3 + H = \{3, 7, 11\}
+$$
 
 Since $\mathbb{Z}/12\mathbb{Z}$ is abelian, $H$ is normal, and
 $\mathbb{Z}/12\mathbb{Z}\,/\,H \cong \mathbb{Z}/4\mathbb{Z}$. $\blacksquare$
@@ -114,7 +122,9 @@ $H$ is normal. $\blacksquare$
 
 **Corollary 3.8 (Product Formula).** If $H, K \leq G$ are finite subgroups, then
 
-$$|HK| = \frac{|H||K|}{|H \cap K|}$$
+$$
+|HK| = \frac{|H||K|}{|H \cap K|}
+$$
 
 _Proof._ The map $H \times K \to HK$ given by $(h, k) \mapsto hk$ is surjective. For any
 $x = hk \in HK$ The fiber is $\{(hc^{-1}, ck) : c \in H \cap K\}$Which has size $|H \cap K|$. Thus

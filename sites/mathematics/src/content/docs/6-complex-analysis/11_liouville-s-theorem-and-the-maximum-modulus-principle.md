@@ -55,7 +55,9 @@ modulus principle requires the non-vanishing hypothesis.
 **Theorem 11.6 (Schwarz Lemma).** If $f : \mathbb{D} \to \mathbb{D}$ is analytic with $f(0) = 0$,
 then
 
-$$|f(z)| \leq |z| \quad \mathrm{for\ all\ } z \in \mathbb{D}$$
+$$
+|f(z)| \leq |z| \quad \mathrm{for\ all\ } z \in \mathbb{D}
+$$
 
 and $|f'(0)| \leq 1$. Equality in either case implies $f(z) = e^{i\theta} z$ for some real $\theta$.
 
@@ -70,11 +72,15 @@ $g$ is constant: $g(z) = e^{i\theta}$. $\blacksquare$
 **Theorem 11.7 (Schwarz-Pick Lemma).** If $f : \mathbb{D} \to \mathbb{D}$ is analytic, then for all
 $z, w \in \mathbb{D}$:
 
-$$\left|\frac{f(z) - f(w)}{1 - \overline{f(w)} f(z)}\right| \leq \left|\frac{z - w}{1 - \overline{w} z}\right|$$
+$$
+\left|\frac{f(z) - f(w)}{1 - \overline{f(w)} f(z)}\right| \leq \left|\frac{z - w}{1 - \overline{w} z}\right|
+$$
 
 and for all $z \in \mathbb{D}$:
 
-$$\frac{|f'(z)|}{1 - |f(z)|^2} \leq \frac{1}{1 - |z|^2}$$
+$$
+\frac{|f'(z)|}{1 - |f(z)|^2} \leq \frac{1}{1 - |z|^2}
+$$
 
 Equality holds iff $f$ is a conformal automorphism of $\mathbb{D}$ (a Blaschke factor).
 

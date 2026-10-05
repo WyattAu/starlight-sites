@@ -271,7 +271,9 @@ Frequencies are $p$, $q$ And $r$ respectively, with $p + q + r = 1$.
 
 Genotype frequencies are:
 
-$$(I^A I^A) = p^2, \quad (I^A i) = 2pr, \quad (I^B I^B) = q^2, \quad (I^B i) = 2qr, \quad (ii) = r^2$$
+$$
+(I^A I^A) = p^2, \quad (I^A i) = 2pr, \quad (I^B I^B) = q^2, \quad (I^B i) = 2qr, \quad (ii) = r^2
+$$
 
 If the blood type O frequency is 36%, then $r^2 = 0.36$ So $r = 0.6$.
 
@@ -641,7 +643,9 @@ Genotypes preferentially mate with each other).
 
 Using the chi-squared test:
 
-$$\chi^2 = \frac{(400-250)^2}{250} + \frac{(200-500)^2}{500} + \frac{(400-250)^2}{250} = \frac{22500}{250} + \frac{90000}{500} + \frac{22500}{250} = 90 + 180 + 90 = 360$$
+$$
+\chi^2 = \frac{(400-250)^2}{250} + \frac{(200-500)^2}{500} + \frac{(400-250)^2}{250} = \frac{22500}{250} + \frac{90000}{500} + \frac{22500}{250} = 90 + 180 + 90 = 360
+$$
 
 Degrees of freedom = $3 - 1 = 2$. Critical value at 5% for 2 df = 5.991.
 

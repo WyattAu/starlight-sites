@@ -97,7 +97,9 @@ date: 2026-05-31T00:00:00.000Z
 
 ### Magnification and Scale
 
-$$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
+$$
+\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}
+$$
 
 ---
 
@@ -236,7 +238,9 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 
 **Problem:** A cell in a light micrograph measures 45 mm across. The magnification is $\times 400$. Calculate the actual size of the cell in $\mu$m.
 **Solution:**
-$$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45\ \text{mm}}{400} = 0.1125\ \text{mm} = 112.5\ \mu\text{m}$$
+$$
+\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45\ \text{mm}}{400} = 0.1125\ \text{mm} = 112.5\ \mu\text{m}
+$$
 
 ### Example 2: Distinguishing Mitosis and Meiosis
 

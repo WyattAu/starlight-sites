@@ -159,7 +159,9 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 TCP uses a **sliding window**. The receiver advertises `rwnd` (receive window). The sender never has
 More than `rwnd` bytes of unacknowledged data in flight.
 
-$$\mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})$$
+$$
+\mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})
+$$
 
 **Example.** Buffer size 4096, 1024 unprocessed bytes: `rwnd = 3072`. The window slides as data is
 Acknowledged and the receiver processes data.
@@ -242,11 +244,17 @@ Cwnd = ssthresh = 13870 bytes, continue congestion avoidance.
 
 ### 5.8 Retransmission Timer
 
-$$\mathrm{RTT_s} = (1 - \alpha)\,\mathrm{RTT_s} + \alpha \cdot \mathrm{RTT_m}$$
+$$
+\mathrm{RTT_s} = (1 - \alpha)\,\mathrm{RTT_s} + \alpha \cdot \mathrm{RTT_m}
+$$
 
-$$\mathrm{RTT_d} = (1 - \beta)\,\mathrm{RTT_d} + \beta\,|\mathrm{RTT_m} - \mathrm{RTT_s}|$$
+$$
+\mathrm{RTT_d} = (1 - \beta)\,\mathrm{RTT_d} + \beta\,|\mathrm{RTT_m} - \mathrm{RTT_s}|
+$$
 
-$$\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}$$
+$$
+\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}
+$$
 
 Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RTO = 1 s; minimum RTO
 = 200 ms.

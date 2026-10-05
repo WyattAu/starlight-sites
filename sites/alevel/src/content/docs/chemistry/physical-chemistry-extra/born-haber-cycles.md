@@ -591,13 +591,21 @@ For $\mathrm{CaCl}_2$: 1 Ca atom and 2 Cl atoms are involved.
 
 **Step 2: Apply Hess's Law.**
 
-$$\Delta H_f^\circ = \Delta H_\mathrm{at}(\mathrm{Ca}) + 2\Delta H_\mathrm{at}(\mathrm{Cl}) + \mathrm{IE}_1 + \mathrm{IE}_2 + 2\mathrm{EA}_1(\mathrm{Cl}) + \Delta H_\mathrm{lat}^\circ$$
+$$
+\Delta H_f^\circ = \Delta H_\mathrm{at}(\mathrm{Ca}) + 2\Delta H_\mathrm{at}(\mathrm{Cl}) + \mathrm{IE}_1 + \mathrm{IE}_2 + 2\mathrm{EA}_1(\mathrm{Cl}) + \Delta H_\mathrm{lat}^\circ
+$$
 
-$$\Delta H_\mathrm{lat}^\circ = \Delta H_f^\circ - \Delta H_\mathrm{at}(\mathrm{Ca}) - 2\Delta H_\mathrm{at}(\mathrm{Cl}) - \mathrm{IE}_1 - \mathrm{IE}_2 - 2\mathrm{EA}_1(\mathrm{Cl})$$
+$$
+\Delta H_\mathrm{lat}^\circ = \Delta H_f^\circ - \Delta H_\mathrm{at}(\mathrm{Ca}) - 2\Delta H_\mathrm{at}(\mathrm{Cl}) - \mathrm{IE}_1 - \mathrm{IE}_2 - 2\mathrm{EA}_1(\mathrm{Cl})
+$$
 
-$$\Delta H_\mathrm{lat}^\circ = -796 - 178 - 244 - 590 - 1145 - (-698)$$
+$$
+\Delta H_\mathrm{lat}^\circ = -796 - 178 - 244 - 590 - 1145 - (-698)
+$$
 
-$$\Delta H_\mathrm{lat}^\circ = -796 - 178 - 244 - 590 - 1145 + 698 = -2255\,\mathrm{kJ/mol}$$
+$$
+\Delta H_\mathrm{lat}^\circ = -796 - 178 - 244 - 590 - 1145 + 698 = -2255\,\mathrm{kJ/mol}
+$$
 
 ### Example 2: Born-Haber Cycle for Al2O3
 
@@ -618,15 +626,23 @@ Given data:
 
 For $\mathrm{Al}_2\mathrm{O}_3$: 2 Al atoms and 3 O atoms.
 
-$$\text{Sum} = 2(330) + 3(249) + 2(578 + 1817 + 2745) + 3(-141 + 798)$$
+$$
+\text{Sum} = 2(330) + 3(249) + 2(578 + 1817 + 2745) + 3(-141 + 798)
+$$
 
-$$= 660 + 747 + 2(5140) + 3(657)$$
+$$
+= 660 + 747 + 2(5140) + 3(657)
+$$
 
-$$= 660 + 747 + 10280 + 1971 = 13658\,\mathrm{kJ/mol}$$
+$$
+= 660 + 747 + 10280 + 1971 = 13658\,\mathrm{kJ/mol}
+$$
 
 **Step 2: Apply Hess's Law.**
 
-$$\Delta H_\mathrm{lat}^\circ = \Delta H_f^\circ - \text{Sum} = -1676 - 13658 = -15334\,\mathrm{kJ/mol}$$
+$$
+\Delta H_\mathrm{lat}^\circ = \Delta H_f^\circ - \text{Sum} = -1676 - 13658 = -15334\,\mathrm{kJ/mol}
+$$
 
 The extremely exothermic lattice enthalpy of $\mathrm{Al}_2\mathrm{O}_3$ reflects the high charges
 on the ions ($\mathrm{Al}^{3+}$ and $\mathrm{O}^{2-}$) and their relatively small ionic radii. This
@@ -658,9 +674,13 @@ Given:
 - $\Delta H_\mathrm{hyd}^\circ(\mathrm{Ca}^{2+}) = -1650\,\mathrm{kJ/mol}$
 - $\Delta H_\mathrm{hyd}^\circ(\mathrm{F}^-) = -515\,\mathrm{kJ/mol}$
 
-$$\Delta H_\mathrm{sol}^\circ = \Delta H_\mathrm{lat,diss}^\circ + \Delta H_\mathrm{hyd}^\circ(\mathrm{Ca}^{2+}) + 2\Delta H_\mathrm{hyd}^\circ(\mathrm{F}^-)$$
+$$
+\Delta H_\mathrm{sol}^\circ = \Delta H_\mathrm{lat,diss}^\circ + \Delta H_\mathrm{hyd}^\circ(\mathrm{Ca}^{2+}) + 2\Delta H_\mathrm{hyd}^\circ(\mathrm{F}^-)
+$$
 
-$$\Delta H_\mathrm{sol}^\circ = +2635 + (-1650) + 2(-515) = 2635 - 1650 - 1030 = -45\,\mathrm{kJ/mol}$$
+$$
+\Delta H_\mathrm{sol}^\circ = +2635 + (-1650) + 2(-515) = 2635 - 1650 - 1030 = -45\,\mathrm{kJ/mol}
+$$
 
 The enthalpy of solution is exothermic ($-45\,\mathrm{kJ/mol}$), which is consistent with the high
 solubility of $\mathrm{CaF}_2$ in acidic solution (the $\mathrm{F}^-$ is removed as
@@ -744,11 +764,17 @@ quantities are known.
 - $\mathrm{IE}_1(\mathrm{Na}) = +496\,\mathrm{kJ/mol}$
 - $\Delta H_\mathrm{lat}^\circ(\mathrm{NaCl}) = -788\,\mathrm{kJ/mol}$
 
-$$\Delta H_f^\circ = \Delta H_\mathrm{at}(\mathrm{Na}) + \Delta H_\mathrm{at}(\mathrm{Cl}) + \mathrm{IE}_1 + \mathrm{EA}_1 + \Delta H_\mathrm{lat}^\circ$$
+$$
+\Delta H_f^\circ = \Delta H_\mathrm{at}(\mathrm{Na}) + \Delta H_\mathrm{at}(\mathrm{Cl}) + \mathrm{IE}_1 + \mathrm{EA}_1 + \Delta H_\mathrm{lat}^\circ
+$$
 
-$$\mathrm{EA}_1 = \Delta H_f^\circ - \Delta H_\mathrm{at}(\mathrm{Na}) - \Delta H_\mathrm{at}(\mathrm{Cl}) - \mathrm{IE}_1 - \Delta H_\mathrm{lat}^\circ$$
+$$
+\mathrm{EA}_1 = \Delta H_f^\circ - \Delta H_\mathrm{at}(\mathrm{Na}) - \Delta H_\mathrm{at}(\mathrm{Cl}) - \mathrm{IE}_1 - \Delta H_\mathrm{lat}^\circ
+$$
 
-$$\mathrm{EA}_1 = -411 - 108 - 122 - 496 - (-788) = -411 - 108 - 122 - 496 + 788 = -349\,\mathrm{kJ/mol}$$
+$$
+\mathrm{EA}_1 = -411 - 108 - 122 - 496 - (-788) = -411 - 108 - 122 - 496 + 788 = -349\,\mathrm{kJ/mol}
+$$
 
 ### Enthalpy of Hydration Trends and Calculations
 
@@ -788,9 +814,13 @@ constituent gaseous ions under standard conditions.
 
 Calculation (5 marks):
 
-$$\Delta H_\mathrm{lat}^\circ = \Delta H_f^\circ - \Delta H_\mathrm{at}(\mathrm{K}) - \Delta H_\mathrm{at}(\mathrm{F}) - \mathrm{IE}_1(\mathrm{K}) - \mathrm{EA}_1(\mathrm{F})$$
+$$
+\Delta H_\mathrm{lat}^\circ = \Delta H_f^\circ - \Delta H_\mathrm{at}(\mathrm{K}) - \Delta H_\mathrm{at}(\mathrm{F}) - \mathrm{IE}_1(\mathrm{K}) - \mathrm{EA}_1(\mathrm{F})
+$$
 
-$$= -568 - 89 - 79 - 419 - (-328) = -568 - 89 - 79 - 419 + 328 = -827\,\mathrm{kJ/mol}$$
+$$
+= -568 - 89 - 79 - 419 - (-328) = -568 - 89 - 79 - 419 + 328 = -827\,\mathrm{kJ/mol}
+$$
 
 (1 mark for correct equation setup, 1 mark for correct substitution, 1 mark for arithmetic, 1 mark
 for correct sign convention, 1 mark for correct answer with units.)
@@ -842,9 +872,13 @@ the oxide ion (1 mark). Energy must be supplied, so the process is endothermic (
 
 Born-Haber calculation (5 marks):
 
-$$\Delta H_\mathrm{lat}^\circ = -602 - 148 - 248 - 738 - 1451 - (-141) - 798$$
+$$
+\Delta H_\mathrm{lat}^\circ = -602 - 148 - 248 - 738 - 1451 - (-141) - 798
+$$
 
-$$= -602 - 148 - 248 - 738 - 1451 + 141 - 798 = -3844\,\mathrm{kJ/mol}$$
+$$
+= -602 - 148 - 248 - 738 - 1451 + 141 - 798 = -3844\,\mathrm{kJ/mol}
+$$
 
 (1 mark for correct equation, 1 mark for including all terms with correct signs, 1 mark for
 arithmetic, 1 mark for correct answer, 1 mark for units.)
@@ -886,13 +920,21 @@ $-381\,\mathrm{kJ/mol}$.
 
 (a) 3 marks:
 
-$$\Delta H_\mathrm{sol}^\circ = \Delta H_\mathrm{lat,diss}^\circ + \Delta H_\mathrm{hyd}^\circ(\mathrm{Ca}^{2+}) + 2\Delta H_\mathrm{hyd}^\circ(\mathrm{Cl}^-)$$
+$$
+\Delta H_\mathrm{sol}^\circ = \Delta H_\mathrm{lat,diss}^\circ + \Delta H_\mathrm{hyd}^\circ(\mathrm{Ca}^{2+}) + 2\Delta H_\mathrm{hyd}^\circ(\mathrm{Cl}^-)
+$$
 
-$$-83 = \Delta H_\mathrm{lat,diss}^\circ + (-1650) + 2(-381)$$
+$$
+-83 = \Delta H_\mathrm{lat,diss}^\circ + (-1650) + 2(-381)
+$$
 
-$$-83 = \Delta H_\mathrm{lat,diss}^\circ - 1650 - 762$$
+$$
+-83 = \Delta H_\mathrm{lat,diss}^\circ - 1650 - 762
+$$
 
-$$\Delta H_\mathrm{lat,diss}^\circ = -83 + 1650 + 762 = +2329\,\mathrm{kJ/mol}$$
+$$
+\Delta H_\mathrm{lat,diss}^\circ = -83 + 1650 + 762 = +2329\,\mathrm{kJ/mol}
+$$
 
 (1 mark for correct equation, 1 mark for correct substitution, 1 mark for correct answer.)
 

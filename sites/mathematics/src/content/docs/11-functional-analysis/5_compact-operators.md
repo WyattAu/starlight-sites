@@ -63,7 +63,9 @@ This generalises Theorem 5.4: self-adjoint operators are normal, and unitary ope
 operator on $H$. There exists a unique projection-valued measure $E$ on the Borel subsets of
 $\sigma(T) \subseteq \mathbb{C}$ such that
 
-$$T = \int_{\sigma(T)} \lambda\, dE(\lambda)$$
+$$
+T = \int_{\sigma(T)} \lambda\, dE(\lambda)
+$$
 
 This integral representation implies: if $f$ is a bounded Borel function on $\sigma(T)$, then
 $f(T) = \int f(\lambda)\, dE(\lambda)$ defines a bounded normal operator satisfying the functional

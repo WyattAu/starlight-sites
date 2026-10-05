@@ -55,7 +55,9 @@ Organic reactions proceed through well-defined mechanisms involving the movement
 
 In an $S_N2$ reaction, a nucleophile attacks the electrophilic carbon from the side opposite to the leaving group in a single concerted step. For the reaction of bromomethane with hydroxide:
 
-$$\text{HO}^- + \text{CH}_3\text{Br} \rightarrow \text{CH}_3\text{OH} + \text{Br}^-$$
+$$
+\text{HO}^- + \text{CH}_3\text{Br} \rightarrow \text{CH}_3\text{OH} + \text{Br}^-
+$$
 
 The nucleophile ($\text{HO}^-$) approaches the carbon from the back, displacing $\text{Br}^-$. This results in inversion of configuration at the carbon centre, a hallmark of the $S_N2$ pathway.
 

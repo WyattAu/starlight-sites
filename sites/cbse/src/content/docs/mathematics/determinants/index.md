@@ -63,29 +63,47 @@ Determinants are scalar values associated with square matrices. They determine w
 **Solution:**
 
 Expand along the first row:
-$$\det(A) = 1 \begin{vmatrix} 1 & 4 \\ 6 & 0 \end{vmatrix} - 2 \begin{vmatrix} 0 & 4 \\ 5 & 0 \end{vmatrix} + 3 \begin{vmatrix} 0 & 1 \\ 5 & 6 \end{vmatrix}$$
+$$
+\det(A) = 1 \begin{vmatrix} 1 & 4 \\ 6 & 0 \end{vmatrix} - 2 \begin{vmatrix} 0 & 4 \\ 5 & 0 \end{vmatrix} + 3 \begin{vmatrix} 0 & 1 \\ 5 & 6 \end{vmatrix}
+$$
 
-$$= 1(0 - 24) - 2(0 - 20) + 3(0 - 5)$$
+$$
+= 1(0 - 24) - 2(0 - 20) + 3(0 - 5)
+$$
 
-$$= -24 + 40 - 15 = 1$$
+$$
+= -24 + 40 - 15 = 1
+$$
 
 **Common mistake:** Forgetting the $(-1)^{i+j}$ sign pattern. The signs alternate as $+, -, +, -, \ldots$
 
 ## Worked Example 2, Cramer's Rule
 
 **Problem:** Solve the system:
-$$2x + 3y = 8$$
-$$x - 2y = -3$$
+$$
+2x + 3y = 8
+$$
+$$
+x - 2y = -3
+$$
 
 **Solution:**
 
-$$D = \begin{vmatrix} 2 & 3 \\ 1 & -2 \end{vmatrix} = 2(-2) - 3(1) = -7$$
+$$
+D = \begin{vmatrix} 2 & 3 \\ 1 & -2 \end{vmatrix} = 2(-2) - 3(1) = -7
+$$
 
-$$D_x = \begin{vmatrix} 8 & 3 \\ -3 & -2 \end{vmatrix} = 8(-2) - 3(-3) = -16 + 9 = -7$$
+$$
+D_x = \begin{vmatrix} 8 & 3 \\ -3 & -2 \end{vmatrix} = 8(-2) - 3(-3) = -16 + 9 = -7
+$$
 
-$$D_y = \begin{vmatrix} 2 & 8 \\ 1 & -3 \end{vmatrix} = 2(-3) - 8(1) = -6 - 8 = -14$$
+$$
+D_y = \begin{vmatrix} 2 & 8 \\ 1 & -3 \end{vmatrix} = 2(-3) - 8(1) = -6 - 8 = -14
+$$
 
-$$x = \frac{D_x}{D} = \frac{-7}{-7} = 1, \quad y = \frac{D_y}{D} = \frac{-14}{-7} = 2$$
+$$
+x = \frac{D_x}{D} = \frac{-7}{-7} = 1, \quad y = \frac{D_y}{D} = \frac{-14}{-7} = 2
+$$
 
 **Common mistake:** Using Cramer's rule when $D = 0$. If the determinant is zero, the system has no unique solution.
 
@@ -95,12 +113,18 @@ $$x = \frac{D_x}{D} = \frac{-7}{-7} = 1, \quad y = \frac{D_y}{D} = \frac{-14}{-7
 
 **Solution:**
 
-$$\text{Area} = \frac{1}{2} \left| \begin{vmatrix} 1 & 2 & 1 \\ 4 & 5 & 1 \\ 7 & 1 & 1 \end{vmatrix} \right|$$
+$$
+\text{Area} = \frac{1}{2} \left| \begin{vmatrix} 1 & 2 & 1 \\ 4 & 5 & 1 \\ 7 & 1 & 1 \end{vmatrix} \right|
+$$
 
 Expand along the first row:
-$$= \frac{1}{2} |1(5 - 1) - 2(4 - 7) + 1(4 - 35)|$$
+$$
+= \frac{1}{2} |1(5 - 1) - 2(4 - 7) + 1(4 - 35)|
+$$
 
-$$= \frac{1}{2} |4 + 6 - 31| = \frac{1}{2} |-21| = \frac{21}{2} = 10.5 \text{ square units}$$
+$$
+= \frac{1}{2} |4 + 6 - 31| = \frac{1}{2} |-21| = \frac{21}{2} = 10.5 \text{ square units}
+$$
 
 **Common mistake:** Forgetting the absolute value. Area must be positive.
 
@@ -137,15 +161,25 @@ Determinants are used in linear algebra, multivariable calculus (Jacobian), and 
 **Solution:**
 
 Expand along the first row:
-$$2 \begin{vmatrix} 1 & 6 \\ 2 & 3 \end{vmatrix} - x \begin{vmatrix} 4 & 6 \\ 1 & 3 \end{vmatrix} + 3 \begin{vmatrix} 4 & 1 \\ 1 & 2 \end{vmatrix} = 0$$
+$$
+2 \begin{vmatrix} 1 & 6 \\ 2 & 3 \end{vmatrix} - x \begin{vmatrix} 4 & 6 \\ 1 & 3 \end{vmatrix} + 3 \begin{vmatrix} 4 & 1 \\ 1 & 2 \end{vmatrix} = 0
+$$
 
-$$2(3 - 12) - x(12 - 6) + 3(8 - 1) = 0$$
+$$
+2(3 - 12) - x(12 - 6) + 3(8 - 1) = 0
+$$
 
-$$2(-9) - x(6) + 3(7) = 0$$
+$$
+2(-9) - x(6) + 3(7) = 0
+$$
 
-$$-18 - 6x + 21 = 0$$
+$$
+-18 - 6x + 21 = 0
+$$
 
-$$3 - 6x = 0 \implies x = \frac{1}{2}$$
+$$
+3 - 6x = 0 \implies x = \frac{1}{2}
+$$
 
 **Common mistake:** Sign errors in cofactor expansion. The signs alternate as $+, -, +$ along the first row.
 
@@ -156,28 +190,46 @@ $$3 - 6x = 0 \implies x = \frac{1}{2}$$
 **Solution:**
 
 For a $3 \times 3$ matrix:
-$$\det(2A) = 2^3 \det(A) = 8 \times 5 = 40$$
+$$
+\det(2A) = 2^3 \det(A) = 8 \times 5 = 40
+$$
 
-$$\det(A^{-1}) = \frac{1}{\det(A)} = \frac{1}{5}$$
+$$
+\det(A^{-1}) = \frac{1}{\det(A)} = \frac{1}{5}
+$$
 
-$$\det(A^T A) = \det(A^T) \det(A) = \det(A) \cdot \det(A) = 5 \times 5 = 25$$
+$$
+\det(A^T A) = \det(A^T) \det(A) = \det(A) \cdot \det(A) = 5 \times 5 = 25
+$$
 
 **Common mistake:** Using $\det(kA) = k \det(A)$ instead of $\det(kA) = k^n \det(A)$ for an $n \times n$ matrix.
 
 ## Worked Example 6, Solving System Using Cramer's Rule
 
 **Problem:** Solve the system:
-$$x + y + z = 6$$
-$$2x + 3y + z = 14$$
-$$3x - 2y + 4z = 5$$
+$$
+x + y + z = 6
+$$
+$$
+2x + 3y + z = 14
+$$
+$$
+3x - 2y + 4z = 5
+$$
 
 **Solution:**
 
-$$D = \begin{vmatrix} 1 & 1 & 1 \\ 2 & 3 & 1 \\ 3 & -2 & 4 \end{vmatrix} = 1(12+2) - 1(8-3) + 1(-4-9) = 14 - 5 - 13 = -4$$
+$$
+D = \begin{vmatrix} 1 & 1 & 1 \\ 2 & 3 & 1 \\ 3 & -2 & 4 \end{vmatrix} = 1(12+2) - 1(8-3) + 1(-4-9) = 14 - 5 - 13 = -4
+$$
 
-$$D_x = \begin{vmatrix} 6 & 1 & 1 \\ 14 & 3 & 1 \\ 5 & -2 & 4 \end{vmatrix} = 6(12+2) - 1(56-5) + 1(-28-15) = 84 - 51 - 43 = -10$$
+$$
+D_x = \begin{vmatrix} 6 & 1 & 1 \\ 14 & 3 & 1 \\ 5 & -2 & 4 \end{vmatrix} = 6(12+2) - 1(56-5) + 1(-28-15) = 84 - 51 - 43 = -10
+$$
 
-$$x = \frac{D_x}{D} = \frac{-10}{-4} = \frac{5}{2}$$
+$$
+x = \frac{D_x}{D} = \frac{-10}{-4} = \frac{5}{2}
+$$
 
 Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
 

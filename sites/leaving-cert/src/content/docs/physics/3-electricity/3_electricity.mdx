@@ -419,7 +419,9 @@ $I = I_0 e^{-t/\tau} = \frac{9}{33000} \times e^{-1/3.3} = 2.727 \times 10^{-4} 
 **(d) Time to reach $95\mathrm{ V$ across the capacitor:** Already $9\mathrm{ V$ So $95\mathrm{ V$ is
 Impossible. Assuming $8.55\mathrm{ V$ (95% of $9\mathrm{ V$):
 
-$$0.95 = 1 - e^{-t/3.3} \implies e^{-t/3.3} = 0.05 \implies t = -3.3 \times\ln(0.05) = -3.3 \times (-2.996) = 9.89\mathrm{ s$$
+$$
+0.95 = 1 - e^{-t/3.3} \implies e^{-t/3.3} = 0.05 \implies t = -3.3 \times\ln(0.05) = -3.3 \times (-2.996) = 9.89\mathrm{ s
+$$
 
 ## 10. Worked Example: RLC Circuit Analysis (HL)
 
@@ -448,9 +450,13 @@ The current lags the voltage by $49.5^{\circ}$.
 A coil of 200 turns and area $0.04\mathrm{ m^2$ is in a magnetic field of flux density
 $0.5\mathrm{ T$. The field is reduced to zero uniformly in $0.05\mathrm{ s$.
 
-$$\Delta\Phi = BA = 0.5 \times 0.04 = 0.02\mathrm{ Wb$$
+$$
+\Delta\Phi = BA = 0.5 \times 0.04 = 0.02\mathrm{ Wb
+$$
 
-$$\varepsilon = N\frac{\Delta\Phi}{\Delta t} = 200 \times \frac{0.02}{0.05} = 200 \times 0.4 = 80\mathrm{ V$$
+$$
+\varepsilon = N\frac{\Delta\Phi}{\Delta t} = 200 \times \frac{0.02}{0.05} = 200 \times 0.4 = 80\mathrm{ V
+$$
 
 By Lenz's law, the induced EMF opposes the change in flux, so it acts to try to maintain the
 Original field.
@@ -466,9 +472,13 @@ load.
 **Ideal secondary current:** $I_s = \frac{V_p}{V_s} \times I_p$ (for ideal). Since efficiency is
 $95\mathrm{ \%$:
 
-$$I_s \times V_s = 0.95 \times I_p \times V_p$$
+$$
+I_s \times V_s = 0.95 \times I_p \times V_p
+$$
 
-$$I_p = \frac{I_s \times V_s}{0.95 \times V_p} = \frac{5 \times 2300}{0.95 \times 230} = \frac{11500}{218.5} = 52.6\mathrm{ A$$
+$$
+I_p = \frac{I_s \times V_s}{0.95 \times V_p} = \frac{5 \times 2300}{0.95 \times 230} = \frac{11500}{218.5} = 52.6\mathrm{ A
+$$
 
 **Power input:** $P_p = V_p I_p = 230 \times 52.6 = 12098\mathrm{ W \approx 12.1\mathrm{ kW$
 
@@ -485,9 +495,13 @@ Connected in series across a $12\mathrm{ V$ supply.
 
 **Total capacitance:**
 
-$$\frac{1}{C_{\mathrm{total}} = \frac{1}{22} + \frac{1}{47} + \frac{1}{10} = 0.0455 + 0.0213 + 0.1000 = 0.1668$$
+$$
+\frac{1}{C_{\mathrm{total}} = \frac{1}{22} + \frac{1}{47} + \frac{1}{10} = 0.0455 + 0.0213 + 0.1000 = 0.1668
+$$
 
-$$C_{\mathrm{total} = \frac{1}{0.1668} = 5.996\mu\mathrm{F \approx 6.0\mu\mathrm{F$$
+$$
+C_{\mathrm{total} = \frac{1}{0.1668} = 5.996\mu\mathrm{F \approx 6.0\mu\mathrm{F
+$$
 
 **Charge (same on each):**
 $Q = C_{\mathrm{total}V = 5.996 \times 10^{-6} \times 12 = 7.195 \times 10^{-5}\mathrm{ C$
@@ -625,17 +639,25 @@ supply.
 
 **Resistor:**
 
-$$I_R = \frac{V}{R} = \frac{230}{100} = 2.3 \mathrm{ A$$
+$$
+I_R = \frac{V}{R} = \frac{230}{100} = 2.3 \mathrm{ A
+$$
 
 Phase angle: $0^\circ$ (current and voltage in phase)
 
-$$P_R = VI = 230 \times 2.3 = 529 \mathrm{ W$$
+$$
+P_R = VI = 230 \times 2.3 = 529 \mathrm{ W
+$$
 
 **Inductor:**
 
-$$X_L = 2\pi f L = 2\pi \times 50 \times 0.5 = 157.1 \Omega$$
+$$
+X_L = 2\pi f L = 2\pi \times 50 \times 0.5 = 157.1 \Omega
+$$
 
-$$I_L = \frac{V}{X_L} = \frac{230}{157.1} = 1.464 \mathrm{ A$$
+$$
+I_L = \frac{V}{X_L} = \frac{230}{157.1} = 1.464 \mathrm{ A
+$$
 
 Phase angle: $90^\circ$ (current lags voltage)
 
@@ -643,9 +665,13 @@ $$P_L = 0 \mathrm{ W$$ (pure inductor dissipates no power)
 
 **Capacitor:**
 
-$$X_C = \frac{1}{2\pi f C} = \frac{1}{2\pi \times 50 \times 10 \times 10^{-6}} = \frac{1}{3.142 \times 10^{-3}} = 318.3 \Omega$$
+$$
+X_C = \frac{1}{2\pi f C} = \frac{1}{2\pi \times 50 \times 10 \times 10^{-6}} = \frac{1}{3.142 \times 10^{-3}} = 318.3 \Omega
+$$
 
-$$I_C = \frac{V}{X_C} = \frac{230}{318.3} = 0.723 \mathrm{ A$$
+$$
+I_C = \frac{V}{X_C} = \frac{230}{318.3} = 0.723 \mathrm{ A
+$$
 
 Phase angle: $-90^\circ$ (current leads voltage)
 
@@ -666,7 +692,9 @@ the current through each resistor.
 
 **Step 1: Balance condition**
 
-$$\frac{P}{Q} = \frac{R}{S} \implies \frac{100}{200} = \frac{150}{S} \implies S = 300 \Omega$$
+$$
+\frac{P}{Q} = \frac{R}{S} \implies \frac{100}{200} = \frac{150}{S} \implies S = 300 \Omega
+$$
 
 **Step 2: Currents (no current through galvanometer at balance)**
 
@@ -678,13 +706,21 @@ Total current from battery: $I = I_1 + I_2 = 0.020 + 0.0133 = 0.0333 \mathrm{ A 
 
 **Step 3: Power in each resistor**
 
-$$P_P = I_1^2 \times P = 0.0004 \times 100 = 0.04 \mathrm{ W$$
+$$
+P_P = I_1^2 \times P = 0.0004 \times 100 = 0.04 \mathrm{ W
+$$
 
-$$P_Q = I_1^2 \times Q = 0.0004 \times 200 = 0.08 \mathrm{ W$$
+$$
+P_Q = I_1^2 \times Q = 0.0004 \times 200 = 0.08 \mathrm{ W
+$$
 
-$$P_R = I_2^2 \times R = 0.000177 \times 150 = 0.0266 \mathrm{ W$$
+$$
+P_R = I_2^2 \times R = 0.000177 \times 150 = 0.0266 \mathrm{ W
+$$
 
-$$P_S = I_2^2 \times S = 0.000177 \times 300 = 0.0531 \mathrm{ W$$
+$$
+P_S = I_2^2 \times S = 0.000177 \times 300 = 0.0531 \mathrm{ W
+$$
 
 Total power:
 $P_{\mathrm{total} = 0.04 + 0.08 + 0.0266 + 0.0531 = 0.1997 \mathrm{ W \approx 0.2 \mathrm{ W$
@@ -699,25 +735,39 @@ Current after $5 \mathrm{ s$ And (d) the time to reach $95\%$ of the supply volt
 
 **Step 1: Time constant**
 
-$$\tau = RC = 100 \times 10^3 \times 47 \times 10^{-6} = 4.7 \mathrm{ s$$
+$$
+\tau = RC = 100 \times 10^3 \times 47 \times 10^{-6} = 4.7 \mathrm{ s
+$$
 
 **Step 2: Voltage after $5 \mathrm{ s$**
 
-$$V(t) = V_0(1 - e^{-t/\tau}) = 12(1 - e^{-5/4.7}) = 12(1 - e^{-1.064})$$
+$$
+V(t) = V_0(1 - e^{-t/\tau}) = 12(1 - e^{-5/4.7}) = 12(1 - e^{-1.064})
+$$
 
-$$= 12(1 - 0.3452) = 12 \times 0.6548 = 7.86 \mathrm{ V$$
+$$
+= 12(1 - 0.3452) = 12 \times 0.6548 = 7.86 \mathrm{ V
+$$
 
 **Step 3: Current after $5 \mathrm{ s$**
 
-$$I(t) = I_0 e^{-t/\tau} = \frac{V_0}{R} e^{-t/\tau} = \frac{12}{100000} \times e^{-1.064}$$
+$$
+I(t) = I_0 e^{-t/\tau} = \frac{V_0}{R} e^{-t/\tau} = \frac{12}{100000} \times e^{-1.064}
+$$
 
-$$= 0.00012 \times 0.3452 = 4.14 \times 10^{-5} \mathrm{ A = 41.4 \mu\mathrm{A$$
+$$
+= 0.00012 \times 0.3452 = 4.14 \times 10^{-5} \mathrm{ A = 41.4 \mu\mathrm{A
+$$
 
 **Step 4: Time to reach 95% of supply voltage**
 
-$$0.95 = 1 - e^{-t/\tau} \implies e^{-t/\tau} = 0.05$$
+$$
+0.95 = 1 - e^{-t/\tau} \implies e^{-t/\tau} = 0.05
+$$
 
-$$t = -\tau \ln(0.05) = -4.7 \times (-2.996) = 14.1 \mathrm{ s$$
+$$
+t = -\tau \ln(0.05) = -4.7 \times (-2.996) = 14.1 \mathrm{ s
+$$
 
 This is approximately $3\tau$ ($3 \times 4.7 = 14.1 \mathrm{ s$).
 

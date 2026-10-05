@@ -44,30 +44,46 @@ lens), and real objects are positive (left of lens).
 
 **Lens 1 (converging, $f_1 = +10$ cm):**
 
-$$\frac{1}{v_1} = \frac{1}{f_1} - \frac{1}{u_1} = \frac{1}{10} - \frac{1}{20} = \frac{2 - 1}{20} = \frac{1}{20}$$
+$$
+\frac{1}{v_1} = \frac{1}{f_1} - \frac{1}{u_1} = \frac{1}{10} - \frac{1}{20} = \frac{2 - 1}{20} = \frac{1}{20}
+$$
 
-$$v_1 = 20 \text{ cm} \text{ (real image, right of lens 1)}$$
+$$
+v_1 = 20 \text{ cm} \text{ (real image, right of lens 1)}
+$$
 
 This image acts as the object for lens 2. Distance from lens 2:
 
-$$u_2 = 30 - 20 = 10 \text{ cm} \text{ (real object for lens 2)}$$
+$$
+u_2 = 30 - 20 = 10 \text{ cm} \text{ (real object for lens 2)}
+$$
 
 **Lens 2 (diverging, $f_2 = -15$ cm):**
 
-$$\frac{1}{v_2} = \frac{1}{f_2} - \frac{1}{u_2} = \frac{1}{-15} - \frac{1}{10} = \frac{-2 - 3}{30} = \frac{-5}{30} = \frac{-1}{6}$$
+$$
+\frac{1}{v_2} = \frac{1}{f_2} - \frac{1}{u_2} = \frac{1}{-15} - \frac{1}{10} = \frac{-2 - 3}{30} = \frac{-5}{30} = \frac{-1}{6}
+$$
 
-$$v_2 = -6 \text{ cm} \text{ (virtual image, 6 cm to the left of lens 2)}$$
+$$
+v_2 = -6 \text{ cm} \text{ (virtual image, 6 cm to the left of lens 2)}
+$$
 
 **Position:** $6$ cm to the left of the diverging lens (i.e., $24$ cm to the right of the converging
 lens).
 
 **Magnification:**
 
-$$m_1 = -\frac{v_1}{u_1} = -\frac{20}{20} = -1$$
+$$
+m_1 = -\frac{v_1}{u_1} = -\frac{20}{20} = -1
+$$
 
-$$m_2 = -\frac{v_2}{u_2} = -\frac{-6}{10} = 0.6$$
+$$
+m_2 = -\frac{v_2}{u_2} = -\frac{-6}{10} = 0.6
+$$
 
-$$m_{\text{total}} = m_1 \times m_2 = -1 \times 0.6 = -0.6$$
+$$
+m_{\text{total}} = m_1 \times m_2 = -1 \times 0.6 = -0.6
+$$
 
 In the "real is positive" convention, $m = -0.6$ means the image is **inverted** and **diminished**
 To $0.6$ times the object size.
@@ -101,13 +117,21 @@ emergence.
 
 Using Snell"s law at the hypotenuse:
 
-$$n_{\text{air}} \sin 30° = n_{\text{glass}} \sin r_1$$
+$$
+n_{\text{air}} \sin 30° = n_{\text{glass}} \sin r_1
+$$
 
-$$1 \times 0.5 = 1.5 \times \sin r_1$$
+$$
+1 \times 0.5 = 1.5 \times \sin r_1
+$$
 
-$$\sin r_1 = \frac{0.5}{1.5} = 0.3333$$
+$$
+\sin r_1 = \frac{0.5}{1.5} = 0.3333
+$$
 
-$$r_1 = 19.47°$$
+$$
+r_1 = 19.47°
+$$
 
 **Step 2: Ray travels to the first short face:**
 
@@ -117,25 +141,37 @@ incidence on the short face.
 In the $45°$-$90°$-$45°$ prism, the normal to the hypotenuse is at $45°$ to each short face. The
 angle between the refracted ray and the normal to the short face:
 
-$$\theta_i = 90° - 45° - r_1 = 45° - 19.47° = 25.53°$$
+$$
+\theta_i = 90° - 45° - r_1 = 45° - 19.47° = 25.53°
+$$
 
 **Step 3: Check for total internal reflection at the short face:**
 
 Critical angle: $\sin\theta_c = \frac{1}{n} = \frac{1}{1.5} = 0.6667$
 
-$$\theta_c = 41.81°$$
+$$
+\theta_c = 41.81°
+$$
 
 Since $25.53° \lt 41.81°$**total internal reflection does NOT occur** at this face.
 
 **Step 4: Refraction at the short face (exit):**
 
-$$n_{\text{glass}} \sin 25.53° = n_{\text{air}} \sin\theta_e$$
+$$
+n_{\text{glass}} \sin 25.53° = n_{\text{air}} \sin\theta_e
+$$
 
-$$1.5 \times 0.4312 = 1 \times \sin\theta_e$$
+$$
+1.5 \times 0.4312 = 1 \times \sin\theta_e
+$$
 
-$$\sin\theta_e = 0.6468$$
+$$
+\sin\theta_e = 0.6468
+$$
 
-$$\theta_e = 40.34°$$
+$$
+\theta_e = 40.34°
+$$
 
 The ray emerges from the first short face at an angle of $40.34°$ to the normal.
 
@@ -170,35 +206,55 @@ to the object.
 
 **(a) Intermediate image (objective lens):**
 
-$$\frac{1}{v_1} = \frac{1}{f_1} - \frac{1}{u_1} = \frac{1}{0.5} - \frac{1}{0.6} = \frac{6 - 5}{3} = \frac{1}{3}$$
+$$
+\frac{1}{v_1} = \frac{1}{f_1} - \frac{1}{u_1} = \frac{1}{0.5} - \frac{1}{0.6} = \frac{6 - 5}{3} = \frac{1}{3}
+$$
 
-$$v_1 = 3 \text{ cm} \text{ (real image)}$$
+$$
+v_1 = 3 \text{ cm} \text{ (real image)}
+$$
 
 **(b) Final image (eyepiece lens):**
 
 Object distance for eyepiece:
 
-$$u_2 = 16 - 3 = 13 \text{ cm}$$
+$$
+u_2 = 16 - 3 = 13 \text{ cm}
+$$
 
-$$\frac{1}{v_2} = \frac{1}{f_2} - \frac{1}{u_2} = \frac{1}{2.5} - \frac{1}{13} = \frac{13 - 2.5}{32.5} = \frac{10.5}{32.5} = \frac{21}{65}$$
+$$
+\frac{1}{v_2} = \frac{1}{f_2} - \frac{1}{u_2} = \frac{1}{2.5} - \frac{1}{13} = \frac{13 - 2.5}{32.5} = \frac{10.5}{32.5} = \frac{21}{65}
+$$
 
-$$v_2 = \frac{65}{21} = 3.10 \text{ cm} \text{ (real image, to the right of eyepiece)}$$
+$$
+v_2 = \frac{65}{21} = 3.10 \text{ cm} \text{ (real image, to the right of eyepiece)}
+$$
 
 **(c) Total magnification:**
 
-$$m_1 = -\frac{v_1}{u_1} = -\frac{3}{0.6} = -5$$
+$$
+m_1 = -\frac{v_1}{u_1} = -\frac{3}{0.6} = -5
+$$
 
-$$m_2 = -\frac{v_2}{u_2} = -\frac{3.10}{13} = -0.238$$
+$$
+m_2 = -\frac{v_2}{u_2} = -\frac{3.10}{13} = -0.238
+$$
 
-$$m_{\text{total}} = m_1 \times m_2 = (-5)(-0.238) = 1.19$$
+$$
+m_{\text{total}} = m_1 \times m_2 = (-5)(-0.238) = 1.19
+$$
 
 For angular magnification of a microscope (when the final image is at the near point, $D = 25$ cm):
 
-$$M_{\text{angular}} = m_1 \times M_{\text{eyepiece}}$$
+$$
+M_{\text{angular}} = m_1 \times M_{\text{eyepiece}}
+$$
 
 Where $M_{\text{eyepiece}} = 1 + \frac{D}{f_2} = 1 + \frac{25}{2.5} = 11$
 
-$$M_{\text{angular}} = 5 \times 11 = 55$$
+$$
+M_{\text{angular}} = 5 \times 11 = 55
+$$
 
 **(d) Image orientation:**
 
@@ -232,9 +288,13 @@ placed $10$ cm in front of the lens. Find the position and nature of the final i
 
 **Step 1: Image formed by the lens alone:**
 
-$$\frac{1}{v_1} = \frac{1}{f} - \frac{1}{u_1} = \frac{1}{15} - \frac{1}{10} = \frac{2 - 3}{30} = \frac{-1}{30}$$
+$$
+\frac{1}{v_1} = \frac{1}{f} - \frac{1}{u_1} = \frac{1}{15} - \frac{1}{10} = \frac{2 - 3}{30} = \frac{-1}{30}
+$$
 
-$$v_1 = -30 \text{ cm} \text{ (virtual image, 30 cm to the left of the lens)}$$
+$$
+v_1 = -30 \text{ cm} \text{ (virtual image, 30 cm to the left of the lens)}
+$$
 
 **Step 2: Reflection from the mirror:**
 
@@ -245,16 +305,22 @@ $30 + 20 = 50$ Cm to the left of the mirror. This is a virtual object for the mi
 
 For a plane mirror, image distance $=$ object distance (on the other side):
 
-$$v_{\text{mirror}} = -50 \text{ cm} \text{ (50 cm to the left of the mirror, i.e., 30 cm to the left of the lens)}$$
+$$
+v_{\text{mirror}} = -50 \text{ cm} \text{ (50 cm to the left of the mirror, i.e., 30 cm to the left of the lens)}
+$$
 
 **Step 3: Light passes through the lens again:**
 
 The image from the mirror (30 cm to the left of the lens) acts as a virtual object for the lens on
 the second pass. So $u_2 = -30$ cm (virtual object on the left).
 
-$$\frac{1}{v_2} = \frac{1}{f} - \frac{1}{u_2} = \frac{1}{15} - \frac{1}{-30} = \frac{1}{15} + \frac{1}{30} = \frac{3}{30} = \frac{1}{10}$$
+$$
+\frac{1}{v_2} = \frac{1}{f} - \frac{1}{u_2} = \frac{1}{15} - \frac{1}{-30} = \frac{1}{15} + \frac{1}{30} = \frac{3}{30} = \frac{1}{10}
+$$
 
-$$v_2 = 10 \text{ cm} \text{ (real image, 10 cm to the right of the lens)}$$
+$$
+v_2 = 10 \text{ cm} \text{ (real image, 10 cm to the right of the lens)}
+$$
 
 But the mirror is 20 cm to the right of the lens, so the image would be formed between the lens and
 the mirror.
@@ -289,17 +355,27 @@ escaping, given the light enters along the axis.
 
 **(a) Critical angle at core-cladding boundary:**
 
-$$\sin\theta_c = \frac{n_{\text{cladding}}}{n_{\text{core}}} = \frac{1.45}{1.50} = 0.9667$$
+$$
+\sin\theta_c = \frac{n_{\text{cladding}}}{n_{\text{core}}} = \frac{1.45}{1.50} = 0.9667
+$$
 
-$$\theta_c = 75.16°$$
+$$
+\theta_c = 75.16°
+$$
 
 **(b) Maximum acceptance angle (numerical aperture):**
 
-$$\sin\theta_a = \sqrt{n_{\text{core}}^2 - n_{\text{cladding}}^2} = \sqrt{1.50^2 - 1.45^2} = \sqrt{2.25 - 2.1025} = \sqrt{0.1475} = 0.3841$$
+$$
+\sin\theta_a = \sqrt{n_{\text{core}}^2 - n_{\text{cladding}}^2} = \sqrt{1.50^2 - 1.45^2} = \sqrt{2.25 - 2.1025} = \sqrt{0.1475} = 0.3841
+$$
 
-$$\theta_a = 22.59°$$
+$$
+\theta_a = 22.59°
+$$
 
-$$\text{NA} = \sqrt{n_{\text{core}}^2 - n_{\text{cladding}}^2} = 0.384$$
+$$
+\text{NA} = \sqrt{n_{\text{core}}^2 - n_{\text{cladding}}^2} = 0.384
+$$
 
 **(c) Minimum radius of curvature:**
 
@@ -308,21 +384,29 @@ core requires that the angle of incidence at the core-cladding boundary exceeds 
 
 For a fibre bent with radius $R$The critical condition for axial light is:
 
-$$\cos\left(\frac{d}{R}\right) \geq \cos\theta_c$$
+$$
+\cos\left(\frac{d}{R}\right) \geq \cos\theta_c
+$$
 
 Where $d$ is the core diameter. For light at the axis, the most demanding condition is at the outer
 edge. Approximating for small $d/R$:
 
-$$\frac{d}{R} \leq \frac{\pi}{2} - \theta_c = 90° - 75.16° = 14.84° = 0.2591 \text{ rad}$$
+$$
+\frac{d}{R} \leq \frac{\pi}{2} - \theta_c = 90° - 75.16° = 14.84° = 0.2591 \text{ rad}
+$$
 
 Without a specified core diameter, if we assume the light ray travels at the critical angle in the
 straight section:
 
-$$R_{\min} = \frac{d}{0.2591}$$
+$$
+R_{\min} = \frac{d}{0.2591}
+$$
 
 For a typical core diameter of $d = 50 \text{ }\mu\text{m}$:
 
-$$R_{\min} = \frac{50 \times 10^{-6}}{0.2591} = 1.93 \times 10^{-4} \text{ m} = 0.193 \text{ mm}$$
+$$
+R_{\min} = \frac{50 \times 10^{-6}}{0.2591} = 1.93 \times 10^{-4} \text{ m} = 0.193 \text{ mm}
+$$
 
 **Key insight:** The numerical aperture determines the light-gathering ability of the fibre. A
 larger NA means more light can be accepted but at the cost of increased modal dispersion.
@@ -352,7 +436,9 @@ the speed of light in the glass.
 
 **(a) Apparent depth verification:**
 
-$$\text{Apparent depth} = \frac{\text{Real depth}}{n} = \frac{3}{1.52} = 1.974 \text{ cm} \approx 1.97 \text{ cm}$$
+$$
+\text{Apparent depth} = \frac{\text{Real depth}}{n} = \frac{3}{1.52} = 1.974 \text{ cm} \approx 1.97 \text{ cm}
+$$
 
 This confirms the observed apparent depth. The formula works because rays refract away from the
 normal when exiting the glass, making the bubble appear closer to the surface.
@@ -361,13 +447,19 @@ normal when exiting the glass, making the bubble appear closer to the surface.
 
 Frequency remains constant when light enters a medium:
 
-$$f = \frac{c}{\lambda_0} = \frac{3 \times 10^8}{600 \times 10^{-9}} = 5 \times 10^{14} \text{ Hz}$$
+$$
+f = \frac{c}{\lambda_0} = \frac{3 \times 10^8}{600 \times 10^{-9}} = 5 \times 10^{14} \text{ Hz}
+$$
 
-$$\lambda_{\text{glass}} = \frac{v}{f} = \frac{c/n}{f} = \frac{\lambda_0}{n} = \frac{600}{1.52} = 394.7 \text{ nm}$$
+$$
+\lambda_{\text{glass}} = \frac{v}{f} = \frac{c/n}{f} = \frac{\lambda_0}{n} = \frac{600}{1.52} = 394.7 \text{ nm}
+$$
 
 **(c) Speed of light in glass:**
 
-$$v = \frac{c}{n} = \frac{3 \times 10^8}{1.52} = 1.974 \times 10^8 \text{ m s}^{-1}$$
+$$
+v = \frac{c}{n} = \frac{3 \times 10^8}{1.52} = 1.974 \times 10^8 \text{ m s}^{-1}
+$$
 
 **Key misconception:** Many students confuse the change in wavelength with a change in frequency.
 Frequency NEVER changes when light enters a different medium -- only the wavelength and speed

@@ -81,7 +81,9 @@ flowchart TD
 **Solution:**
 
 Step 1: Apply the wave speed equation:
-$$v = f\lambda = 50 \times 0.8 = 40\,\text{m/s}$$
+$$
+v = f\lambda = 50 \times 0.8 = 40\,\text{m/s}
+$$
 
 **Answer:** The wave speed is $40\,\text{m/s}$
 
@@ -92,10 +94,14 @@ $$v = f\lambda = 50 \times 0.8 = 40\,\text{m/s}$$
 **Solution:**
 
 Step 1: Apply the decibel formula:
-$$\beta = 10\log_{10}\left(\frac{I}{I_0}\right) = 10\log_{10}\left(\frac{10^{-4}}{10^{-12}}\right)$$
+$$
+\beta = 10\log_{10}\left(\frac{I}{I_0}\right) = 10\log_{10}\left(\frac{10^{-4}}{10^{-12}}\right)
+$$
 
 Step 2: Simplify:
-$$\beta = 10\log_{10}(10^8) = 10 \times 8 = 80\,\text{dB}$$
+$$
+\beta = 10\log_{10}(10^8) = 10 \times 8 = 80\,\text{dB}
+$$
 
 **Answer:** The sound level is $80\,\text{dB}$
 
@@ -106,12 +112,16 @@ $$\beta = 10\log_{10}(10^8) = 10 \times 8 = 80\,\text{dB}$$
 **Solution:**
 
 Step 1: Find the grating spacing:
-$$d = \frac{1}{5000} = 2 \times 10^{-4}\,\text{cm} = 2 \times 10^{-6}\,\text{m}$$
+$$
+d = \frac{1}{5000} = 2 \times 10^{-4}\,\text{cm} = 2 \times 10^{-6}\,\text{m}
+$$
 
 Step 2: Convert wavelength: $\lambda = 600\,\text{nm} = 6 \times 10^{-7}\,\text{m}$
 
 Step 3: Apply the grating equation for $n = 1$:
-$$\sin\theta = \frac{n\lambda}{d} = \frac{1 \times 6 \times 10^{-7}}{2 \times 10^{-6}} = 0.3$$
+$$
+\sin\theta = \frac{n\lambda}{d} = \frac{1 \times 6 \times 10^{-7}}{2 \times 10^{-6}} = 0.3
+$$
 
 Step 4: $\theta = \arcsin(0.3) \approx 17.5°$
 
@@ -137,13 +147,19 @@ Step 4: $\theta = \arcsin(0.3) \approx 17.5°$
 **Solution:**
 
 Step 1: For a string fixed at both ends, the $n$-th harmonic frequency is:
-$$f_n = \frac{nv}{2L}$$
+$$
+f_n = \frac{nv}{2L}
+$$
 
 Step 2: For the third harmonic ($n = 3$):
-$$150 = \frac{3v}{2 \times 0.5} = \frac{3v}{1}$$
+$$
+150 = \frac{3v}{2 \times 0.5} = \frac{3v}{1}
+$$
 
 Step 3: Solve for $v$:
-$$v = \frac{150}{3} = 50\,\text{m/s}$$
+$$
+v = \frac{150}{3} = 50\,\text{m/s}
+$$
 
 **Answer:** The wave speed is $50\,\text{m/s}$
 
@@ -156,10 +172,14 @@ $$v = \frac{150}{3} = 50\,\text{m/s}$$
 **Solution:**
 
 Step 1: For a source approaching a stationary observer:
-$$f' = f \cdot \frac{v}{v - v_s}$$
+$$
+f' = f \cdot \frac{v}{v - v_s}
+$$
 
 Step 2: Substitute values:
-$$f' = 400 \times \frac{340}{340 - 30} = 400 \times \frac{340}{310} = 400 \times 1.097 = 438.7\,\text{Hz}$$
+$$
+f' = 400 \times \frac{340}{340 - 30} = 400 \times \frac{340}{310} = 400 \times 1.097 = 438.7\,\text{Hz}
+$$
 
 **Answer:** The observer hears a frequency of approximately $439\,\text{Hz}$
 
@@ -172,13 +192,19 @@ $$f' = 400 \times \frac{340}{340 - 30} = 400 \times \frac{340}{310} = 400 \times
 **Solution:**
 
 Step 1: Calculate photon energy:
-$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.945 \times 10^{-19}\,\text{J}$$
+$$
+E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.945 \times 10^{-19}\,\text{J}
+$$
 
 Step 2: Convert to eV:
-$$E = \frac{9.945 \times 10^{-19}}{1.6 \times 10^{-19}} = 6.22\,\text{eV}$$
+$$
+E = \frac{9.945 \times 10^{-19}}{1.6 \times 10^{-19}} = 6.22\,\text{eV}
+$$
 
 Step 3: Apply the photoelectric equation:
-$$E_k = E - W_0 = 6.22 - 3.5 = 2.72\,\text{eV}$$
+$$
+E_k = E - W_0 = 6.22 - 3.5 = 2.72\,\text{eV}
+$$
 
 **Answer:** The maximum kinetic energy is $2.72\,\text{eV}$
 
@@ -193,10 +219,14 @@ $$E_k = E - W_0 = 6.22 - 3.5 = 2.72\,\text{eV}$$
 **Solution:**
 
 Step 1: For a pipe open at both ends, the fundamental frequency occurs when the length equals half a wavelength:
-$$L = \frac{\lambda}{2} \implies \lambda = 2L = 2 \times 0.8 = 1.6\,\text{m}$$
+$$
+L = \frac{\lambda}{2} \implies \lambda = 2L = 2 \times 0.8 = 1.6\,\text{m}
+$$
 
 Step 2: Apply the wave equation:
-$$f = \frac{v}{\lambda} = \frac{340}{1.6} = 212.5\,\text{Hz}$$
+$$
+f = \frac{v}{\lambda} = \frac{340}{1.6} = 212.5\,\text{Hz}
+$$
 
 **Answer:** The fundamental frequency is $212.5\,\text{Hz}$
 
@@ -209,10 +239,14 @@ $$f = \frac{v}{\lambda} = \frac{340}{1.6} = 212.5\,\text{Hz}$$
 **Solution:**
 
 Step 1: Beat frequency is the difference of the two frequencies:
-$$f_{\text{beat}} = |f_1 - f_2| = |256 - 260| = 4\,\text{Hz}$$
+$$
+f_{\text{beat}} = |f_1 - f_2| = |256 - 260| = 4\,\text{Hz}
+$$
 
 Step 2: Time interval between successive maxima:
-$$T = \frac{1}{f_{\text{beat}}} = \frac{1}{4} = 0.25\,\text{s}$$
+$$
+T = \frac{1}{f_{\text{beat}}} = \frac{1}{4} = 0.25\,\text{s}
+$$
 
 **Answer:** The beat frequency is $4\,\text{Hz}$ and the time interval is $0.25\,\text{s}$
 
@@ -225,16 +259,28 @@ $$T = \frac{1}{f_{\text{beat}}} = \frac{1}{4} = 0.25\,\text{s}$$
 **Solution:**
 
 Step 1: Check for total internal reflection. The critical angle is:
-$$\sin C = \frac{n_2}{n_1} = \frac{1}{1.5} = 0.667$$
-$$C = \arcsin(0.667) = 41.8°$$
+$$
+\sin C = \frac{n_2}{n_1} = \frac{1}{1.5} = 0.667
+$$
+$$
+C = \arcsin(0.667) = 41.8°
+$$
 
 Step 2: Since the angle of incidence ($40°$) is less than the critical angle ($41.8°$), total internal reflection does not occur.
 
 Step 3: Apply Snell's law:
-$$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
-$$1.5 \times \sin 40° = 1 \times \sin\theta_2$$
-$$\sin\theta_2 = 1.5 \times 0.643 = 0.964$$
-$$\theta_2 = \arcsin(0.964) = 74.6°$$
+$$
+n_1 \sin\theta_1 = n_2 \sin\theta_2
+$$
+$$
+1.5 \times \sin 40° = 1 \times \sin\theta_2
+$$
+$$
+\sin\theta_2 = 1.5 \times 0.643 = 0.964
+$$
+$$
+\theta_2 = \arcsin(0.964) = 74.6°
+$$
 
 **Answer:** The angle of refraction is $74.6°$ and no total internal reflection occurs
 

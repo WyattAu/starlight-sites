@@ -27,7 +27,9 @@ sources:
 For a field $\phi(\mathbf{r}, t)$The Lagrangian density $\mathcal{L}$ replaces the discrete
 Lagrangian $L = \sum_i T_i - V_i$:
 
-$$S = \int \mathcal{L}(\phi, \partial_\mu\phi)\,d^4x, \quad \delta S = 0 \implies \frac{\partial\mathcal{L}}{\partial\phi} - \partial_\mu\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)} = 0$$
+$$
+S = \int \mathcal{L}(\phi, \partial_\mu\phi)\,d^4x, \quad \delta S = 0 \implies \frac{\partial\mathcal{L}}{\partial\phi} - \partial_\mu\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)} = 0
+$$
 
 This is the **Euler--Lagrange equation for fields**.
 
@@ -35,7 +37,9 @@ This is the **Euler--Lagrange equation for fields**.
 
 A real scalar field of mass $m$:
 
-$$\mathcal{L} = \frac{1}{2}(\partial_\mu\phi)(\partial^\mu\phi) - \frac{1}{2}m^2\phi^2$$
+$$
+\mathcal{L} = \frac{1}{2}(\partial_\mu\phi)(\partial^\mu\phi) - \frac{1}{2}m^2\phi^2
+$$
 
 The equation of motion: $(\Box^2 + m^2)\phi = 0$ where
 $\Box^2 = \partial_\mu\partial^\mu = \nabla^2 - \partial^2/\partial t^2$.
@@ -47,7 +51,9 @@ $\omega^2 = k^2 + m^2$ (dispersion relation).
 
 Every continuous symmetry of the action yields a conserved current:
 
-$$\partial_\mu j^\mu = 0 \implies Q = \int j^0\,d^3x = \text{const}$$
+$$
+\partial_\mu j^\mu = 0 \implies Q = \int j^0\,d^3x = \text{const}
+$$
 
 | Symmetry                                    | Conserved Quantity                                                         |
 | ------------------------------------------- | -------------------------------------------------------------------------- |
@@ -58,7 +64,9 @@ $$\partial_\mu j^\mu = 0 \implies Q = \int j^0\,d^3x = \text{const}$$
 
 For the complex Klein--Gordon field, the conserved current is:
 
-$$j^\mu = i(\phi^*\partial^\mu\phi - \phi\partial^\mu\phi^*)$$
+$$
+j^\mu = i(\phi^*\partial^\mu\phi - \phi\partial^\mu\phi^*)
+$$
 
 With conserved charge $Q = \int(i\phi^*\dot{\phi} - \phi\dot{\phi}^*)\,d^3x$.
 
@@ -66,11 +74,15 @@ With conserved charge $Q = \int(i\phi^*\dot{\phi} - \phi\dot{\phi}^*)\,d^3x$.
 
 The **Hamiltonian density:**
 
-$$\mathcal{H} = \frac{\partial\mathcal{L}}{\partial\dot{\phi}}\dot{\phi} - \mathcal{L} = \frac{1}{2}\dot{\phi}^2 + \frac{1}{2}(\nabla\phi)^2 + \frac{1}{2}m^2\phi^2$$
+$$
+\mathcal{H} = \frac{\partial\mathcal{L}}{\partial\dot{\phi}}\dot{\phi} - \mathcal{L} = \frac{1}{2}\dot{\phi}^2 + \frac{1}{2}(\nabla\phi)^2 + \frac{1}{2}m^2\phi^2
+$$
 
 The **canonical energy-momentum tensor** (symmetric, Belinfante):
 
-$$T^{\mu\nu} = \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\partial^\nu\phi - g^{\mu\nu}\mathcal{L}$$
+$$
+T^{\mu\nu} = \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\partial^\nu\phi - g^{\mu\nu}\mathcal{L}
+$$
 
 $T^{00} = \mathcal{H}$ (energy density), $T^{0i}$ (momentum density), $T^{ij}$ (stress tensor).
 
@@ -82,19 +94,25 @@ $\delta\phi = i\epsilon\phi$ (a global U(1) transformation).
 
 The change in the Lagrangian density:
 
-$$\delta\mathcal{L} = \frac{\partial\mathcal{L}}{\partial\phi}\delta\phi + \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\partial_\mu(\delta\phi) = i\epsilon\left[\frac{\partial\mathcal{L}}{\partial\phi}\phi - \partial_\mu\!\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\phi\right)\right]$$
+$$
+\delta\mathcal{L} = \frac{\partial\mathcal{L}}{\partial\phi}\delta\phi + \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\partial_\mu(\delta\phi) = i\epsilon\left[\frac{\partial\mathcal{L}}{\partial\phi}\phi - \partial_\mu\!\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\phi\right)\right]
+$$
 
 Using the E-L equation
 $\partial\mathcal{L}/\partial\phi = \partial_\mu(\partial\mathcal{L}/\partial(\partial_\mu\phi))$:
 
-$$\delta\mathcal{L} = -i\epsilon\,\partial_\mu\!\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\phi\right) = \partial_\mu(-\epsilon\,j^\mu)$$
+$$
+\delta\mathcal{L} = -i\epsilon\,\partial_\mu\!\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\phi\right) = \partial_\mu(-\epsilon\,j^\mu)
+$$
 
 Where $j^\mu = i[\phi^*(\partial^\mu\phi) - (\partial^\mu\phi^*)\phi]$ (using the complex
 Klein--Gordon Lagrangian for generality).
 
 By Noether's theorem: $\partial_\mu j^\mu = 0$ And the conserved charge:
 
-$$Q = \int j^0\,d^3x = \int i(\phi^*\dot{\phi} - \dot{\phi}^*\phi)\,d^3x$$
+$$
+Q = \int j^0\,d^3x = \int i(\phi^*\dot{\phi} - \dot{\phi}^*\phi)\,d^3x
+$$
 
 For a plane wave $\phi = e^{-i\omega t + i\mathbf{k}\cdot\mathbf{r}}$: $Q \propto 2\omega > 0$
 (positive frequency modes have positive charge).

@@ -32,13 +32,17 @@ categories:
 
 **Conjugate pairs:** When an acid donates a proton, the remaining species is its conjugate base.
 
-$$\mathrm{HA + \mathrm{B \rightleftharpoons \mathrm{A^- + \mathrm{BH^+$$
+$$
+\mathrm{HA + \mathrm{B \rightleftharpoons \mathrm{A^- + \mathrm{BH^+
+$$
 
 $\mathrm{HA/A^-$ and $\mathrm{B/BH^+$ are conjugate acid-base pairs.
 
 **Example:** Identify the conjugate acid-base pairs in:
 
-$$\mathrm{NH_3 + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{NH_4^+ + \mathrm{OH^-$$
+$$
+\mathrm{NH_3 + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{NH_4^+ + \mathrm{OH^-
+$$
 
 $\mathrm{NH_3/\mathrm{NH_4^+$ (base/conjugate acid) and $\mathrm{H_2\mathrm{O/\mathrm{OH^-$
 (acid/conjugate base).
@@ -46,7 +50,9 @@ $\mathrm{NH_3/\mathrm{NH_4^+$ (base/conjugate acid) and $\mathrm{H_2\mathrm{O/\m
 **Worked Example 1:** Identify the conjugate acid-base pairs in the reaction of $\mathrm{HSO_4^-$
 With $\mathrm{H_2\mathrm{O$:
 
-$$\mathrm{HSO_4^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{SO_4^{2-} + \mathrm{H_3\mathrm{O^+$$
+$$
+\mathrm{HSO_4^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{SO_4^{2-} + \mathrm{H_3\mathrm{O^+
+$$
 
 $\mathrm{HSO_4^-/\mathrm{SO_4^{2-}$ (acid/conjugate base) and
 $\mathrm{H_2\mathrm{O/\mathrm{H_3\mathrm{O^+$ (base/conjugate acid). Note that $\mathrm{HSO_4^-$ is
@@ -57,14 +63,18 @@ Proton).
 
 **Strong acids** are completely dissociated in aqueous solution.
 
-$$\mathrm{HCl \to \mathrm{H^+ + \mathrm{Cl^-$$
+$$
+\mathrm{HCl \to \mathrm{H^+ + \mathrm{Cl^-
+$$
 
 Common strong acids: $\mathrm{HCl$$\mathrm{HNO_3$$\mathrm{H_2\mathrm{SO_4$ (first dissociation),
 $\mathrm{HClO_4$.
 
 **Weak acids** are partially dissociated in aqueous solution.
 
-$$\mathrm{CH_3\mathrm{COOH \rightleftharpoons \mathrm{CH_3\mathrm{COO^- + \mathrm{H^+$$
+$$
+\mathrm{CH_3\mathrm{COOH \rightleftharpoons \mathrm{CH_3\mathrm{COO^- + \mathrm{H^+
+$$
 
 Common weak acids: $\mathrm{CH_3\mathrm{COOH$$\mathrm{H_2\mathrm{CO_3$$\mathrm{HF$
 $\mathrm{H_3\mathrm{PO_4$.
@@ -84,7 +94,9 @@ M weak acid have the same concentration but different $[\mathrm{H^+]$.
 
 ### The pH Scale
 
-$$\mathrm{pH = -\log_{10}[\mathrm{H^+]$$
+$$
+\mathrm{pH = -\log_{10}[\mathrm{H^+]
+$$
 
 Where $[\mathrm{H^+]$ is the concentration of hydrogen ions in mol/L.
 
@@ -92,32 +104,46 @@ At $25°C$: $\mathrm{pH = 7$ is neutral, $\mathrm{pH < 7$ is acidic, $\mathrm{pH
 
 **Worked Example 2:** Find the pH of $0.05 \mathrm{ M$ $\mathrm{HNO_3$.
 
-$$\mathrm{pH = -\log_{10}(0.05) = 1.30$$
+$$
+\mathrm{pH = -\log_{10}(0.05) = 1.30
+$$
 
 **Worked Example 3:** Find $[\mathrm{H^+]$ for a solution of pH 3.40.
 
-$$[\mathrm{H^+] = 10^{-3.40} = 3.98 \times 10^{-4} \mathrm{ mol/L$$
+$$
+[\mathrm{H^+] = 10^{-3.40} = 3.98 \times 10^{-4} \mathrm{ mol/L
+$$
 
 **Worked Example 4:** Find the pH of $0.005 \mathrm{ M$ $\mathrm{H_2\mathrm{SO_4$ (assume complete
 Dissociation of the first proton and ignore the second).
 
-$$[\mathrm{H^+] = 0.005 \mathrm{ M$$
+$$
+[\mathrm{H^+] = 0.005 \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log_{10}(0.005) = 2.30$$
+$$
+\mathrm{pH = -\log_{10}(0.005) = 2.30
+$$
 
 ### Water and the Ionic Product
 
 Water undergoes autoionisation:
 
-$$\mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{H^+ + \mathrm{OH^-$$
+$$
+\mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{H^+ + \mathrm{OH^-
+$$
 
-$$K_w = [\mathrm{H^+][\mathrm{OH^-] = 1.0 \times 10^{-14} \mathrm{ mol^2\mathrm{L^{-2} \quad \mathrm{at  25°C$$
+$$
+K_w = [\mathrm{H^+][\mathrm{OH^-] = 1.0 \times 10^{-14} \mathrm{ mol^2\mathrm{L^{-2} \quad \mathrm{at  25°C
+$$
 
 **Derivation of $K_w$:**
 
 From the autoionisation equilibrium:
 
-$$K_w = [\mathrm{H^+][\mathrm{OH^-]$$
+$$
+K_w = [\mathrm{H^+][\mathrm{OH^-]
+$$
 
 In pure water at $25°C$: $[\mathrm{H^+] = [\mathrm{OH^-] = 10^{-7} \mathrm{ M$ So
 $K_w = 10^{-7} \times 10^{-7} = 10^{-14}$.
@@ -128,17 +154,25 @@ Increases. This means the pH of pure water decreases with temperature, but the w
 
 **Worked Example 5:** Find the pH of $0.02 \mathrm{ M$ $\mathrm{NaOH$.
 
-$$[\mathrm{OH^-] = 0.02 \mathrm{ M$$
+$$
+[\mathrm{OH^-] = 0.02 \mathrm{ M
+$$
 
-$$[\mathrm{H^+] = \frac{K_w}{[\mathrm{OH^-]} = \frac{1.0 \times 10^{-14}}{0.02} = 5.0 \times 10^{-13} \mathrm{ M$$
+$$
+[\mathrm{H^+] = \frac{K_w}{[\mathrm{OH^-]} = \frac{1.0 \times 10^{-14}}{0.02} = 5.0 \times 10^{-13} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log_{10}(5.0 \times 10^{-13}) = 12.30$$
+$$
+\mathrm{pH = -\log_{10}(5.0 \times 10^{-13}) = 12.30
+$$
 
 ### Acid Dissociation Constant ($K_a$)
 
 For a weak acid $\mathrm{HA \rightleftharpoons \mathrm{H^+ + \mathrm{A^-$:
 
-$$K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]}$$
+$$
+K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]}
+$$
 
 **$pK_a = -\log_{10} K_a$**
 
@@ -147,47 +181,73 @@ The lower the $pK_a$The stronger the acid.
 **Worked Example 6:** Ethanoic acid has $K_a = 1.74 \times 10^{-5} \mathrm{ mol/L$. Find the pH of a
 $0.10 \mathrm{ M$ solution.
 
-$$K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} = \frac{[\mathrm{H^+]^2}{0.10 - [\mathrm{H^+]} \approx \frac{[\mathrm{H^+]^2}{0.10}$$
+$$
+K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} = \frac{[\mathrm{H^+]^2}{0.10 - [\mathrm{H^+]} \approx \frac{[\mathrm{H^+]^2}{0.10}
+$$
 
-$$[\mathrm{H^+] = \sqrt{1.74 \times 10^{-5} \times 0.10} = \sqrt{1.74 \times 10^{-6}} = 1.32 \times 10^{-3} \mathrm{ M$$
+$$
+[\mathrm{H^+] = \sqrt{1.74 \times 10^{-5} \times 0.10} = \sqrt{1.74 \times 10^{-6}} = 1.32 \times 10^{-3} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log_{10}(1.32 \times 10^{-3}) = 2.88$$
+$$
+\mathrm{pH = -\log_{10}(1.32 \times 10^{-3}) = 2.88
+$$
 
 **Worked Example 7:** A weak acid $\mathrm{HX$ has $K_a = 4.2 \times 10^{-4}$. Find the pH of a
 $0.25 \mathrm{ M$ solution and the percentage dissociation.
 
-$$[\mathrm{H^+] = \sqrt{4.2 \times 10^{-4} \times 0.25} = \sqrt{1.05 \times 10^{-4}} = 1.025 \times 10^{-2} \mathrm{ M$$
+$$
+[\mathrm{H^+] = \sqrt{4.2 \times 10^{-4} \times 0.25} = \sqrt{1.05 \times 10^{-4}} = 1.025 \times 10^{-2} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log_{10}(1.025 \times 10^{-2}) = 1.99$$
+$$
+\mathrm{pH = -\log_{10}(1.025 \times 10^{-2}) = 1.99
+$$
 
-$$\%\mathrm{ dissociation = \frac{1.025 \times 10^{-2}}{0.25} \times 100 = 4.1\%$$
+$$
+\%\mathrm{ dissociation = \frac{1.025 \times 10^{-2}}{0.25} \times 100 = 4.1\%
+$$
 
 ### Base Dissociation Constant ($K_b$)
 
 For a weak base $\mathrm{B + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{BH^+ + \mathrm{OH^-$:
 
-$$K_b = \frac{[\mathrm{BH^+][\mathrm{OH^-]}{[\mathrm{B]}$$
+$$
+K_b = \frac{[\mathrm{BH^+][\mathrm{OH^-]}{[\mathrm{B]}
+$$
 
 **Relationship:**
 
-$$K_a \times K_b = K_w$$
+$$
+K_a \times K_b = K_w
+$$
 
 **Proof:** For a conjugate pair $\mathrm{HA/A^-$:
 
-$$K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} \quad \mathrm{and \quad K_b = \frac{[\mathrm{HA][\mathrm{OH^-]}{[\mathrm{A^-]}$$
+$$
+K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} \quad \mathrm{and \quad K_b = \frac{[\mathrm{HA][\mathrm{OH^-]}{[\mathrm{A^-]}
+$$
 
-$$K_a \times K_b = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} \times \frac{[\mathrm{HA][\mathrm{OH^-]}{[\mathrm{A^-]} = [\mathrm{H^+][\mathrm{OH^-] = K_w$$
+$$
+K_a \times K_b = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} \times \frac{[\mathrm{HA][\mathrm{OH^-]}{[\mathrm{A^-]} = [\mathrm{H^+][\mathrm{OH^-] = K_w
+$$
 
 ### pH Calculations for Weak Bases
 
 **Worked Example 8:** Ammonia has $K_b = 1.78 \times 10^{-5} \mathrm{ mol/L$. Find the pH of a
 $0.15 \mathrm{ M$ solution.
 
-$$[\mathrm{OH^-] = \sqrt{K_b \times [\mathrm{B]} = \sqrt{1.78 \times 10^{-5} \times 0.15} = \sqrt{2.67 \times 10^{-6}} = 1.63 \times 10^{-3} \mathrm{ M$$
+$$
+[\mathrm{OH^-] = \sqrt{K_b \times [\mathrm{B]} = \sqrt{1.78 \times 10^{-5} \times 0.15} = \sqrt{2.67 \times 10^{-6}} = 1.63 \times 10^{-3} \mathrm{ M
+$$
 
-$$\mathrm{pOH = -\log_{10}(1.63 \times 10^{-3}) = 2.79$$
+$$
+\mathrm{pOH = -\log_{10}(1.63 \times 10^{-3}) = 2.79
+$$
 
-$$\mathrm{pH = 14 - 2.79 = 11.21$$
+$$
+\mathrm{pH = 14 - 2.79 = 11.21
+$$
 
 ---
 
@@ -217,35 +277,51 @@ Example: Ammonia + ammonium chloride.
 
 ### Henderson-Hasselbalch Equation
 
-$$\mathrm{pH = pK_a + \log_{10}\left(\frac{[\mathrm{A^-]}{[\mathrm{HA]}\right)$$
+$$
+\mathrm{pH = pK_a + \log_{10}\left(\frac{[\mathrm{A^-]}{[\mathrm{HA]}\right)
+$$
 
 **Derivation:**
 
 Starting from the acid dissociation expression:
 
-$$K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]}$$
+$$
+K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]}
+$$
 
 Rearranging: $[\mathrm{H^+] = K_a \times \frac{[\mathrm{HA]}{[\mathrm{A^-]}$
 
 Taking $-\log_{10}$ of both sides:
 
-$$-\log[\mathrm{H^+] = -\log K_a - \log\frac{[\mathrm{HA]}{[\mathrm{A^-]}$$
+$$
+-\log[\mathrm{H^+] = -\log K_a - \log\frac{[\mathrm{HA]}{[\mathrm{A^-]}
+$$
 
-$$\mathrm{pH = pK_a + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}$$
+$$
+\mathrm{pH = pK_a + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}
+$$
 
 **Worked Example 9:** Calculate the pH of a buffer containing $0.20 \mathrm{ M$ ethanoic acid
 ($pK_a = 4.76$) and $0.15 \mathrm{ M$ sodium ethanoate.
 
-$$\mathrm{pH = 4.76 + \log_{10}\left(\frac{0.15}{0.20}\right) = 4.76 + \log_{10}(0.75) = 4.76 - 0.125 = 4.64$$
+$$
+\mathrm{pH = 4.76 + \log_{10}\left(\frac{0.15}{0.20}\right) = 4.76 + \log_{10}(0.75) = 4.76 - 0.125 = 4.64
+$$
 
 **Worked Example 10:** Prepare a buffer at pH 5.00 using ethanoic acid ($pK_a = 4.76$) and sodium
 Ethanoate. If the total concentration is $0.30 \mathrm{ M$Find the concentrations of each Component.
 
-$$5.00 = 4.76 + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}$$
+$$
+5.00 = 4.76 + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}
+$$
 
-$$\log\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 0.24$$
+$$
+\log\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 0.24
+$$
 
-$$\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 10^{0.24} = 1.74$$
+$$
+\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 10^{0.24} = 1.74
+$$
 
 Let $[\mathrm{HA] = x$ Then $[\mathrm{A^-] = 1.74x$.
 
@@ -268,21 +344,33 @@ $\mathrm{HCl$ To $1 \mathrm{ L$ of the buffer.
 
 First, find $K_a$ for $\mathrm{NH_4^+$:
 
-$$K_a = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.62 \times 10^{-10}$$
+$$
+K_a = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.62 \times 10^{-10}
+$$
 
-$$pK_a = 9.25$$
+$$
+pK_a = 9.25
+$$
 
-$$\mathrm{pH = 9.25 + \log\frac{0.10}{0.15} = 9.25 - 0.176 = 9.07$$
+$$
+\mathrm{pH = 9.25 + \log\frac{0.10}{0.15} = 9.25 - 0.176 = 9.07
+$$
 
 After adding $0.01 \mathrm{ mol$ $\mathrm{HCl$:
 
 $\mathrm{NH_3$ reacts with $\mathrm{H^+$: $[\mathrm{NH_3]$ decreases by $0.01$ and
 $[\mathrm{NH_4^+]$ Increases by $0.01$.
 
-$$[\mathrm{NH_3] = 0.10 - 0.01 = 0.09 \mathrm{ M$$
-$$[\mathrm{NH_4^+] = 0.15 + 0.01 = 0.16 \mathrm{ M$$
+$$
+[\mathrm{NH_3] = 0.10 - 0.01 = 0.09 \mathrm{ M
+$$
+$$
+[\mathrm{NH_4^+] = 0.15 + 0.01 = 0.16 \mathrm{ M
+$$
 
-$$\mathrm{pH = 9.25 + \log\frac{0.09}{0.16} = 9.25 + \log(0.5625) = 9.25 - 0.250 = 9.00$$
+$$
+\mathrm{pH = 9.25 + \log\frac{0.09}{0.16} = 9.25 + \log(0.5625) = 9.25 - 0.250 = 9.00
+$$
 
 The pH changes by only 0.07 units, demonstrating the buffer"s effectiveness.
 
@@ -308,13 +396,17 @@ $0.10 \mathrm{ M$ $\mathrm{NaOH$. Find the pH at the equivalence point.
 
 At the equivalence point: moles of acid = moles of base.
 
-$$n = 0.10 \times 0.0250 = 0.00250 \mathrm{ mol$$
+$$
+n = 0.10 \times 0.0250 = 0.00250 \mathrm{ mol
+$$
 
 Total volume = $50.0 \mathrm{ cm^3$.
 
 $[\mathrm{NaCl] = 0.00250/0.0500 = 0.0500 \mathrm{ M$ (neutral salt).
 
-$$\mathrm{pH = 7$$
+$$
+\mathrm{pH = 7
+$$
 
 ### Strong Acid-Weak Base Titration
 
@@ -336,15 +428,25 @@ $[\mathrm{CH_3\mathrm{COO^-] = 0.0500 \mathrm{ M$.
 
 The ethanoate ion hydrolyses:
 
-$$\mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{CH_3\mathrm{COOH + \mathrm{OH^-$$
+$$
+\mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{CH_3\mathrm{COOH + \mathrm{OH^-
+$$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}
+$$
 
-$$[\mathrm{OH^-] = \sqrt{K_b \times [\mathrm{CH_3\mathrm{COO^-]} = \sqrt{5.75 \times 10^{-10} \times 0.0500} = \sqrt{2.875 \times 10^{-11}} = 5.36 \times 10^{-6} \mathrm{ M$$
+$$
+[\mathrm{OH^-] = \sqrt{K_b \times [\mathrm{CH_3\mathrm{COO^-]} = \sqrt{5.75 \times 10^{-10} \times 0.0500} = \sqrt{2.875 \times 10^{-11}} = 5.36 \times 10^{-6} \mathrm{ M
+$$
 
-$$\mathrm{pOH = -\log_{10}(5.36 \times 10^{-6}) = 5.27$$
+$$
+\mathrm{pOH = -\log_{10}(5.36 \times 10^{-6}) = 5.27
+$$
 
-$$\mathrm{pH = 14 - 5.27 = 8.73$$
+$$
+\mathrm{pH = 14 - 5.27 = 8.73
+$$
 
 ### Worked Example: pH During a Titration
 
@@ -365,13 +467,17 @@ $[\mathrm{NH_4^+] = 0.00150/0.0350 = 0.0429 \mathrm{ M$
 
 This is a buffer solution with equal concentrations, so:
 
-$$\mathrm{pH = pK_a + \log\frac{[\mathrm{NH_3]}{[\mathrm{NH_4^+]} = 9.25 + \log(1) = 9.25$$
+$$
+\mathrm{pH = pK_a + \log\frac{[\mathrm{NH_3]}{[\mathrm{NH_4^+]} = 9.25 + \log(1) = 9.25
+$$
 
 ### Indicators
 
 An indicator is a weak acid where $\mathrm{HIn$ and $\mathrm{In^-$ have different colours.
 
-$$\mathrm{HIn \rightleftharpoons \mathrm{H^+ + \mathrm{In^-$$
+$$
+\mathrm{HIn \rightleftharpoons \mathrm{H^+ + \mathrm{In^-
+$$
 
 The indicator changes colour over approximately $\mathrm{pK_{\mathrm{In} \pm 1$.
 
@@ -417,9 +523,13 @@ $\mathrm{H_3\mathrm{PO_4$ (triprotic).
 
 For carbonic acid:
 
-$$\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^- \quad K_{a1} = 4.3 \times 10^{-7}$$
+$$
+\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^- \quad K_{a1} = 4.3 \times 10^{-7}
+$$
 
-$$\mathrm{HCO_3^- \rightleftharpoons \mathrm{H^+ + \mathrm{CO_3^{2-} \quad K_{a2} = 4.8 \times 10^{-11}$$
+$$
+\mathrm{HCO_3^- \rightleftharpoons \mathrm{H^+ + \mathrm{CO_3^{2-} \quad K_{a2} = 4.8 \times 10^{-11}
+$$
 
 Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the second.
 
@@ -568,18 +678,26 @@ Example: $\mathrm{NH_4\mathrm{Cl$.
 
 The cation ($\mathrm{NH_4^+$) is the conjugate acid of a weak base and hydrolyses:
 
-$$\mathrm{NH_4^+ + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{NH_3 + \mathrm{H_3\mathrm{O^+$$
+$$
+\mathrm{NH_4^+ + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{NH_3 + \mathrm{H_3\mathrm{O^+
+$$
 
 This produces $\mathrm{H^+$ ions, making the solution acidic (pH < 7).
 
 **Worked Example 15:** Calculate the pH of a $0.10 \mathrm{ M$ $\mathrm{NH_4\mathrm{Cl$ solution.
 ($K_b(\mathrm{NH_3) = 1.78 \times 10^{-5}$)
 
-$$K_a(\mathrm{NH_4^+) = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.62 \times 10^{-10}$$
+$$
+K_a(\mathrm{NH_4^+) = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.62 \times 10^{-10}
+$$
 
-$$[\mathrm{H^+] = \sqrt{K_a \times c} = \sqrt{5.62 \times 10^{-10} \times 0.10} = \sqrt{5.62 \times 10^{-11}} = 7.50 \times 10^{-6} \mathrm{ M$$
+$$
+[\mathrm{H^+] = \sqrt{K_a \times c} = \sqrt{5.62 \times 10^{-10} \times 0.10} = \sqrt{5.62 \times 10^{-11}} = 7.50 \times 10^{-6} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log(7.50 \times 10^{-6}) = 5.12$$
+$$
+\mathrm{pH = -\log(7.50 \times 10^{-6}) = 5.12
+$$
 
 ### Salts from Weak Acid + Strong Base
 
@@ -587,7 +705,9 @@ Example: $\mathrm{CH_3\mathrm{COONa$.
 
 The anion ($\mathrm{CH_3\mathrm{COO^-$) is the conjugate base of a weak acid and hydrolyses:
 
-$$\mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{CH_3\mathrm{COOH + \mathrm{OH^-$$
+$$
+\mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{CH_3\mathrm{COOH + \mathrm{OH^-
+$$
 
 This produces $\mathrm{OH^-$ ions, making the solution alkaline (pH > 7).
 
@@ -625,7 +745,9 @@ Both ions hydrolyse. The pH depends on the relative strengths of the acid and ba
 
 ### Mixing Two Strong Acids
 
-$$[\mathrm{H^+]_{\mathrm{total} = \frac{n_1 + n_2}{V_{\mathrm{total}}$$
+$$
+[\mathrm{H^+]_{\mathrm{total} = \frac{n_1 + n_2}{V_{\mathrm{total}}
+$$
 
 ### Mixing a Strong Acid and a Strong Base
 
@@ -643,11 +765,17 @@ $\mathrm{CH_3\mathrm{COO^-$.
 
 $[\mathrm{CH_3\mathrm{COO^-] = 0.0050/0.100 = 0.050 \mathrm{ M$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}
+$$
 
-$$[\mathrm{OH^-] = \sqrt{5.75 \times 10^{-10} \times 0.050} = 5.36 \times 10^{-6} \mathrm{ M$$
+$$
+[\mathrm{OH^-] = \sqrt{5.75 \times 10^{-10} \times 0.050} = 5.36 \times 10^{-6} \mathrm{ M
+$$
 
-$$\mathrm{pOH = 5.27, \quad \mathrm{pH = 8.73$$
+$$
+\mathrm{pOH = 5.27, \quad \mathrm{pH = 8.73
+$$
 
 ### Mixing Two Acids (One Strong, One Weak)
 
@@ -711,9 +839,13 @@ The solubility of some salts is affected by pH.
 $\mathrm{CaCO_3$ is more soluble in acidic solutions because the $\mathrm{CO_3^{2-}$ ion reacts with
 $\mathrm{H^+$:
 
-$$\mathrm{CO_3^{2-} + \mathrm{H^+ \to \mathrm{HCO_3^-$$
+$$
+\mathrm{CO_3^{2-} + \mathrm{H^+ \to \mathrm{HCO_3^-
+$$
 
-$$\mathrm{HCO_3^- + \mathrm{H^+ \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{CO_2 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{HCO_3^- + \mathrm{H^+ \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{CO_2 + \mathrm{H_2\mathrm{O
+$$
 
 This removes $\mathrm{CO_3^{2-}$ from the equilibrium, shifting the dissolution to the right (Le
 Chatelier's principle).
@@ -722,7 +854,9 @@ Chatelier's principle).
 
 $\mathrm{Mg(OH)_2$ dissolves in acid because $\mathrm{OH^-$ is neutralised by $\mathrm{H^+$:
 
-$$\mathrm{Mg(OH)_2\mathrm{(s) + 2\mathrm{H^+ \to \mathrm{Mg^{2+} + 2\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{Mg(OH)_2\mathrm{(s) + 2\mathrm{H^+ \to \mathrm{Mg^{2+} + 2\mathrm{H_2\mathrm{O
+$$
 
 $\mathrm{Mg(OH)_2$ is insoluble in base (common ion effect: additional $\mathrm{OH^-$ suppresses
 Dissolution).
@@ -786,23 +920,37 @@ $\mathrm{H^+$ from water autoionisation becomes significant and cannot be ignore
 If we use $\mathrm{pH = -\log(10^{-8}) = 8$This gives a basic pH for an acid solution, which Is
 wrong. We must account for the autoionisation of water.
 
-$$[\mathrm{H^+]_{\mathrm{total} = [\mathrm{H^+]_{\mathrm{HCl} + [\mathrm{H^+]_{\mathrm{water} = 1.0 \times 10^{-8} + [\mathrm{OH^-]$$
+$$
+[\mathrm{H^+]_{\mathrm{total} = [\mathrm{H^+]_{\mathrm{HCl} + [\mathrm{H^+]_{\mathrm{water} = 1.0 \times 10^{-8} + [\mathrm{OH^-]
+$$
 
 From $K_w = [\mathrm{H^+][\mathrm{OH^-]$:
 
-$$[\mathrm{H^+] \times ([\mathrm{H^+] - 1.0 \times 10^{-8}) = 1.0 \times 10^{-14}$$
+$$
+[\mathrm{H^+] \times ([\mathrm{H^+] - 1.0 \times 10^{-8}) = 1.0 \times 10^{-14}
+$$
 
-$$[\mathrm{H^+]^2 - 1.0 \times 10^{-8}[\mathrm{H^+] - 1.0 \times 10^{-14} = 0$$
+$$
+[\mathrm{H^+]^2 - 1.0 \times 10^{-8}[\mathrm{H^+] - 1.0 \times 10^{-14} = 0
+$$
 
 Using the quadratic formula:
 
-$$[\mathrm{H^+] = \frac{1.0 \times 10^{-8} + \sqrt{(1.0 \times 10^{-8})^2 + 4 \times 10^{-14}}}{2}$$
+$$
+[\mathrm{H^+] = \frac{1.0 \times 10^{-8} + \sqrt{(1.0 \times 10^{-8})^2 + 4 \times 10^{-14}}}{2}
+$$
 
-$$= \frac{1.0 \times 10^{-8} + \sqrt{10^{-16} + 4 \times 10^{-14}}}{2} = \frac{1.0 \times 10^{-8} + \sqrt{4.01 \times 10^{-14}}}{2}$$
+$$
+= \frac{1.0 \times 10^{-8} + \sqrt{10^{-16} + 4 \times 10^{-14}}}{2} = \frac{1.0 \times 10^{-8} + \sqrt{4.01 \times 10^{-14}}}{2}
+$$
 
-$$= \frac{1.0 \times 10^{-8} + 2.0025 \times 10^{-7}}{2} = \frac{2.1025 \times 10^{-7}}{2} = 1.051 \times 10^{-7} \mathrm{ M$$
+$$
+= \frac{1.0 \times 10^{-8} + 2.0025 \times 10^{-7}}{2} = \frac{2.1025 \times 10^{-7}}{2} = 1.051 \times 10^{-7} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log(1.051 \times 10^{-7}) = 6.98$$
+$$
+\mathrm{pH = -\log(1.051 \times 10^{-7}) = 6.98
+$$
 
 This makes sense: the pH is very slightly below 7, consistent with a very dilute acid.
 
@@ -810,7 +958,9 @@ This makes sense: the pH is very slightly below 7, consistent with a very dilute
 
 For $\mathrm{H_3\mathrm{PO_4$:
 
-$$K_{a1} = 7.5 \times 10^{-3}, \quad K_{a2} = 6.2 \times 10^{-8}, \quad K_{a3} = 4.8 \times 10^{-13}$$
+$$
+K_{a1} = 7.5 \times 10^{-3}, \quad K_{a2} = 6.2 \times 10^{-8}, \quad K_{a3} = 4.8 \times 10^{-13}
+$$
 
 Since $K_{a1} \gg K_{a2} \gg K_{a3}$The first dissociation dominates. For a $0.10 \mathrm{ M$
 Solution, the pH is calculated using only $K_{a1}$.
@@ -831,9 +981,13 @@ Solution, the pH is calculated using only $K_{a1}$.
 An indicator is a weak acid $\mathrm{HIn$ where the protonated and deprotonated forms have different
 Colours:
 
-$$\mathrm{HIn \rightleftharpoons \mathrm{H^+ + \mathrm{In^-$$
+$$
+\mathrm{HIn \rightleftharpoons \mathrm{H^+ + \mathrm{In^-
+$$
 
-$$K_{\mathrm{In} = \frac{[\mathrm{H^+][\mathrm{In^-]}{[\mathrm{HIn]}$$
+$$
+K_{\mathrm{In} = \frac{[\mathrm{H^+][\mathrm{In^-]}{[\mathrm{HIn]}
+$$
 
 The human eye sees the acid colour when $[\mathrm{HIn]/[\mathrm{In^-] \gt 10$ and the base colour
 when $[\mathrm{In^-]/[\mathrm{HIn] \gt 10$. The indicator changes colour over approximately
@@ -849,7 +1003,9 @@ Calculate the pH of a $0.050\,\text{mol\,dm}^{-3}$ solution of HCl.
 
 HCl is a strong acid, so $[\text{H}^+] = 0.050\,\text{mol\,dm}^{-3}$.
 
-$$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
+$$
+\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30
+$$
 :::
 
 ## Intuition

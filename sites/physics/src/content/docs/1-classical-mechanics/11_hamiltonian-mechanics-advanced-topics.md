@@ -41,7 +41,9 @@ $K = H + \partial F_4/\partial t$.
 
 The transformation is canonical if and only if:
 
-$$\sum_i p_i\,dq_i - \sum_i P_i\,dQ_i = dF$$
+$$
+\sum_i p_i\,dq_i - \sum_i P_i\,dQ_i = dF
+$$
 
 **Poisson bracket invariance.** Canonical transformations preserve the Poisson bracket:
 $\{F, G\}_{q,p} = \{F, G\}_{Q,P}$.
@@ -55,7 +57,9 @@ $dq \wedge dp = dQ \wedge dP$).
 
 For a periodic system with frequency $\omega$, define the **action**:
 
-$$J_i = \oint p_i\,dq_i$$
+$$
+J_i = \oint p_i\,dq_i
+$$
 
 The conjugate **angle variable** $\theta_i$ evolves linearly: $\theta_i(t) = \omega_i t + \theta_i(0)$.
 
@@ -74,14 +78,18 @@ $J_1 = L$ (angular momentum), $J_2 = L + L_z$ (related to eccentricity), $J_3 = 
 The **Hamilton--Jacobi equation** is a reformulation of Hamiltonian mechanics as a PDE for
 Hamilton's principal function $S(q, \alpha, t)$:
 
-$$H\!\left(q, \frac{\partial S}{\partial q}, t\right) + \frac{\partial S}{\partial t} = 0$$
+$$
+H\!\left(q, \frac{\partial S}{\partial q}, t\right) + \frac{\partial S}{\partial t} = 0
+$$
 
 If $S$ can be found by separation of variables, the transformation to new coordinates makes all
 momenta constant, effectively solving the problem.
 
 **Separation for the harmonic oscillator.** For $H = p^2/(2m) + m\omega^2 q^2/2$:
 
-$$S(q, E, t) = \int \sqrt{2m(E - \frac{1}{2}m\omega^2 q^2)}\,dq - Et$$
+$$
+S(q, E, t) = \int \sqrt{2m(E - \frac{1}{2}m\omega^2 q^2)}\,dq - Et
+$$
 
 The new momentum $P_1 = \alpha_1 = E$ (constant), and the new coordinate $Q_1 = \partial S/\partial E$
 gives a linear function of time.
@@ -89,7 +97,9 @@ gives a linear function of time.
 **Maupertuis principle.** For energy-conserving systems, the Hamilton--Jacobi equation simplifies
 to:
 
-$$2m\left[E - V(q)\right] = \left(\frac{\partial W}{\partial q}\right)^2$$
+$$
+2m\left[E - V(q)\right] = \left(\frac{\partial W}{\partial q}\right)^2
+$$
 
 where $W$ is the abbreviated action. This is equivalent to Fermat's principle in optics.
 
@@ -100,7 +110,9 @@ changed slowly compared to the period of motion.
 
 For a harmonic oscillator with slowly varying $\omega(t)$:
 
-$$\frac{E}{\omega} = \text{const} \quad \text{(adiabatic invariant)}$$
+$$
+\frac{E}{\omega} = \text{const} \quad \text{(adiabatic invariant)}
+$$
 
 This has important applications:
 
@@ -121,7 +133,9 @@ constant over many periods.
 **Liouville's theorem:** The phase space distribution function $\rho(q, p, t)$ is constant along
 trajectories:
 
-$$\frac{d\rho}{dt} = \frac{\partial\rho}{\partial t} + \{\rho, H\} = 0$$
+$$
+\frac{d\rho}{dt} = \frac{\partial\rho}{\partial t} + \{\rho, H\} = 0
+$$
 
 This means phase space volume is conserved: a region of phase space evolves like an incompressible
 fluid.
@@ -184,18 +198,24 @@ For the 1D harmonic oscillator: $H = p^2/(2m) + \frac{1}{2}m\omega^2 q^2$.
 
 The action variable:
 
-$$J = \oint p\,dq = \oint \sqrt{2mE - m^2\omega^2 q^2}\,dq$$
+$$
+J = \oint p\,dq = \oint \sqrt{2mE - m^2\omega^2 q^2}\,dq
+$$
 
 The contour is the ellipse $p^2/(2mE) + q^2/(2E/m\omega^2) = 1$ with semi-axes $\sqrt{2mE}$ and
 $\sqrt{2E/(m\omega^2)}$.
 
 The area (and hence the action):
 
-$$J = \pi \times \sqrt{2mE} \times \sqrt{\frac{2E}{m\omega^2}} = \frac{2\pi E}{\omega}$$
+$$
+J = \pi \times \sqrt{2mE} \times \sqrt{\frac{2E}{m\omega^2}} = \frac{2\pi E}{\omega}
+$$
 
 So $E = J\omega/2$ and the Hamiltonian in action-angle form is:
 
-$$H(J) = J\omega$$
+$$
+H(J) = J\omega
+$$
 
 The angle variable evolves as $\dot{\theta} = \partial H/\partial J = \omega$Giving
 $\theta(t) = \omega t + \theta_0$.

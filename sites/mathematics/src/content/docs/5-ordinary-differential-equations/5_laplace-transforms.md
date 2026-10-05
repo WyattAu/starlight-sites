@@ -21,7 +21,9 @@ description: "Laplace Transforms: comprehensive educational content notes with p
 
 The **Laplace transform** of $f(t)$ (defined for $t \geq 0$) is
 
-$$\mathcal{L}\{f(t)\} = F(s) = \int_0^{\infty} e^{-st} f(t)\, dt$$
+$$
+\mathcal{L}\{f(t)\} = F(s) = \int_0^{\infty} e^{-st} f(t)\, dt
+$$
 
 The transform exists when $f$ is piecewise continuous on $[0, \infty)$ and of **exponential order**:
 $|f(t)| \leq Me^{at}$ for some $M, a > 0$.
@@ -138,7 +140,9 @@ $f(t) = \frac{1}{4} - \frac{1}{4}\cos 2t$. $\blacksquare$
 
 **Theorem 5.8 (Convolution).** If $F(s) = \mathcal{L}\{f(t)\}$ and $G(s) = \mathcal{L}\{g(t)\}$ Then
 
-$$\mathcal{L}\{f * g\} = F(s)G(s)$$
+$$
+\mathcal{L}\{f * g\} = F(s)G(s)
+$$
 
 Where $(f * g)(t) = \int_0^t f(\tau)g(t - \tau)\, d\tau$.
 
@@ -217,11 +221,15 @@ $\blacksquare$
 
 The **Heaviside (unit step) function** is defined as
 
-$$u_c(t) = \begin{cases} 0 & t \lt c \\ 1 & t \geq c \end{cases}$$
+$$
+u_c(t) = \begin{cases} 0 & t \lt c \\ 1 & t \geq c \end{cases}
+$$
 
 It models a sudden switch being turned on at time $t = c$. The second shifting theorem states:
 
-$$\mathcal{L}\{u_c(t)f(t - c)\} = e^{-cs}F(s)$$
+$$
+\mathcal{L}\{u_c(t)f(t - c)\} = e^{-cs}F(s)
+$$
 
 Conversely, if $Y(s) = e^{-cs}G(s)$ Then $y(t) = u_c(t) \cdot g(t - c)$ where
 $g = \mathcal{L}^{-1}\{G\}$.
@@ -317,17 +325,23 @@ determine the frequencies that are suppressed.
 ### 5.16 Worked Example: System of ODEs via Laplace
 
 **Problem.** Solve the system:
-$$\begin{aligned} x' &= 3x - 2y \\ y' &= 2x - 2y \end{aligned}$$
+$$
+\begin{aligned} x' &= 3x - 2y \\ y' &= 2x - 2y \end{aligned}
+$$
 with $x(0) = 1$, $y(0) = 0$.
 
 <details>
 <summary>Solution</summary>
 
 Take Laplace transforms:
-$$\begin{aligned} sX - 1 &= 3X - 2Y \\ sY &= 2X - 2Y \end{aligned}$$
+$$
+\begin{aligned} sX - 1 &= 3X - 2Y \\ sY &= 2X - 2Y \end{aligned}
+$$
 
 Rearranging:
-$$\begin{aligned} (s - 3)X + 2Y &= 1 \\ -2X + (s + 2)Y &= 0 \end{aligned}$$
+$$
+\begin{aligned} (s - 3)X + 2Y &= 1 \\ -2X + (s + 2)Y &= 0 \end{aligned}
+$$
 
 From the second equation: $X = \frac{(s+2)Y}{2}$.
 
@@ -365,7 +379,9 @@ The Laplace transform is particularly powerful for several reasons. It handles d
 The Picard-Lindelöf theorem can be proved constructively via **Picard iteration**. For the IVP
 $y' = f(x, y)$, $y(x_0) = y_0$Define the sequence
 
-$$\phi_0(x) = y_0, \quad \phi_{n+1}(x) = y_0 + \int_{x_0}^x f(t, \phi_n(t))\, dt$$
+$$
+\phi_0(x) = y_0, \quad \phi_{n+1}(x) = y_0 + \int_{x_0}^x f(t, \phi_n(t))\, dt
+$$
 
 If $f$ and $\partial f/\partial y$ are continuous, one shows by induction that $(\phi_n)$ is
 uniformly Cauchy on some interval $[x_0 - h, x_0 + h]$Hence converges uniformly to a function

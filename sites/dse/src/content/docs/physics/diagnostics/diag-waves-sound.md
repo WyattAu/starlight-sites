@@ -45,13 +45,19 @@ $24 \text{ m s}^{-1}$. Find (a) the wavelength, (b) the frequency, (c) which har
 
 Adjacent nodes are separated by $\lambda/2$. The distance between adjacent nodes is $0.3$ m.
 
-$$\frac{\lambda}{2} = 0.3 \text{ m}$$
+$$
+\frac{\lambda}{2} = 0.3 \text{ m}
+$$
 
-$$\lambda = 0.6 \text{ m}$$
+$$
+\lambda = 0.6 \text{ m}
+$$
 
 **(b) Frequency:**
 
-$$f = \frac{v}{\lambda} = \frac{24}{0.6} = 40 \text{ Hz}$$
+$$
+f = \frac{v}{\lambda} = \frac{24}{0.6} = 40 \text{ Hz}
+$$
 
 **(c) Harmonic number:**
 
@@ -63,13 +69,19 @@ This is the **4th harmonic** (also called the 2nd overtone).
 
 The standing wave has the form:
 
-$$y(x,t) = 2A \sin\left(\frac{2\pi}{\lambda} x\right) \cos(2\pi f t)$$
+$$
+y(x,t) = 2A \sin\left(\frac{2\pi}{\lambda} x\right) \cos(2\pi f t)
+$$
 
 The amplitude at the antinode is $2A = 4$ mm, so $A = 2$ mm.
 
-$$y(x,t) = 4 \times 10^{-3} \sin\left(\frac{2\pi}{0.6} x\right) \cos(2\pi \times 40 \times t)$$
+$$
+y(x,t) = 4 \times 10^{-3} \sin\left(\frac{2\pi}{0.6} x\right) \cos(2\pi \times 40 \times t)
+$$
 
-$$y(x,t) = 4 \times 10^{-3} \sin\left(\frac{10\pi}{3} x\right) \cos(80\pi t) \text{ m}$$
+$$
+y(x,t) = 4 \times 10^{-3} \sin\left(\frac{10\pi}{3} x\right) \cos(80\pi t) \text{ m}
+$$
 
 **Key check:** At $x = 0$, $\sin(0) = 0$ (node). At $x = 0.15$ m, $\sin(\pi/2) = 1$ (antinode). At
 $x = 0.3$ m, $\sin(\pi) = 0$ (node). All consistent.
@@ -100,29 +112,49 @@ distance at which the sound intensity level drops to $40$ dB.
 
 The sound spreads over a sphere of radius $r = 5$ m:
 
-$$I = \frac{P}{4\pi r^2} = \frac{0.01}{4\pi(5)^2} = \frac{0.01}{314.16} = 3.183 \times 10^{-5} \text{ W m}^{-2}$$
+$$
+I = \frac{P}{4\pi r^2} = \frac{0.01}{4\pi(5)^2} = \frac{0.01}{314.16} = 3.183 \times 10^{-5} \text{ W m}^{-2}
+$$
 
 **(b) Sound intensity level:**
 
-$$\beta = 10 \log_{10}\left(\frac{I}{I_0}\right) = 10 \log_{10}\left(\frac{3.183 \times 10^{-5}}{1 \times 10^{-12}}\right)$$
+$$
+\beta = 10 \log_{10}\left(\frac{I}{I_0}\right) = 10 \log_{10}\left(\frac{3.183 \times 10^{-5}}{1 \times 10^{-12}}\right)
+$$
 
-$$\beta = 10 \log_{10}(3.183 \times 10^{7}) = 10 \times (7 + \log_{10} 3.183)$$
+$$
+\beta = 10 \log_{10}(3.183 \times 10^{7}) = 10 \times (7 + \log_{10} 3.183)
+$$
 
-$$\beta = 10 \times (7 + 0.503) = 10 \times 7.503 = 75.0 \text{ dB}$$
+$$
+\beta = 10 \times (7 + 0.503) = 10 \times 7.503 = 75.0 \text{ dB}
+$$
 
 **(c) Distance for 40 dB:**
 
-$$40 = 10 \log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$
+40 = 10 \log_{10}\left(\frac{I}{10^{-12}}\right)
+$$
 
-$$4 = \log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$
+4 = \log_{10}\left(\frac{I}{10^{-12}}\right)
+$$
 
-$$\frac{I}{10^{-12}} = 10^4$$
+$$
+\frac{I}{10^{-12}} = 10^4
+$$
 
-$$I = 10^{-8} \text{ W m}^{-2}$$
+$$
+I = 10^{-8} \text{ W m}^{-2}
+$$
 
-$$I = \frac{P}{4\pi r^2}$$
+$$
+I = \frac{P}{4\pi r^2}
+$$
 
-$$r = \sqrt{\frac{P}{4\pi I}} = \sqrt{\frac{0.01}{4\pi \times 10^{-8}}} = \sqrt{\frac{0.01}{1.2566 \times 10^{-7}}} = \sqrt{79577} = 282 \text{ m}$$
+$$
+r = \sqrt{\frac{P}{4\pi I}} = \sqrt{\frac{0.01}{4\pi \times 10^{-8}}} = \sqrt{\frac{0.01}{1.2566 \times 10^{-7}}} = \sqrt{79577} = 282 \text{ m}
+$$
 
 **Key misconception:** Intensity depends on $1/r^2$Not $1/r$. Doubling the distance reduces
 intensity by a factor of $4$ (decrease of $6$ dB), not $2$.
@@ -152,11 +184,15 @@ of sound is $340 \text{ m s}^{-1}$. Find the beat frequency heard by the observe
 
 The source (fork B) moves toward a stationary observer:
 
-$$f' = f \times \frac{v}{v - v_s} = 260 \times \frac{340}{340 - 5} = 260 \times \frac{340}{335} = 260 \times 1.01493 = 263.9 \text{ Hz}$$
+$$
+f' = f \times \frac{v}{v - v_s} = 260 \times \frac{340}{340 - 5} = 260 \times \frac{340}{335} = 260 \times 1.01493 = 263.9 \text{ Hz}
+$$
 
 **Beat frequency:**
 
-$$f_{\text{beat}} = |f' - f_A| = |263.9 - 256| = 7.9 \text{ Hz}$$
+$$
+f_{\text{beat}} = |f' - f_A| = |263.9 - 256| = 7.9 \text{ Hz}
+$$
 
 **Key insight:** Without the Doppler shift, the beat frequency would be $|260 - 256| = 4$ Hz. The
 motion of fork B toward the observer increases its apparent frequency, raising the beat frequency.
@@ -191,11 +227,17 @@ fundamental frequency.
 For an open-closed pipe, only odd harmonics exist. The fundamental has a node at the closed end and
 an antinode at the open end, so $L = \lambda/4$.
 
-$$f_1 = \frac{v}{4L}$$
+$$
+f_1 = \frac{v}{4L}
+$$
 
-$$220 = \frac{340}{4L}$$
+$$
+220 = \frac{340}{4L}
+$$
 
-$$L = \frac{340}{880} = 0.3864 \text{ m} = 38.6 \text{ cm}$$
+$$
+L = \frac{340}{880} = 0.3864 \text{ m} = 38.6 \text{ cm}
+$$
 
 **(b) Frequency of the 3rd harmonic:**
 
@@ -210,9 +252,13 @@ fundamental is the 3rd harmonic.
 
 For an open-open pipe: $f_1 = \frac{v}{2L}$
 
-$$220 = \frac{340}{2L}$$
+$$
+220 = \frac{340}{2L}
+$$
 
-$$L = \frac{340}{440} = 0.7727 \text{ m} = 77.3 \text{ cm}$$
+$$
+L = \frac{340}{440} = 0.7727 \text{ m} = 77.3 \text{ cm}
+$$
 
 The open-open pipe must be twice as long as the open-closed pipe to produce the same fundamental
 frequency, because an open-open pipe supports all harmonics ($\lambda/2$ fits in $L$) while an
@@ -242,27 +288,41 @@ shallow water, and (c) whether significant diffraction occurs at the gap.
 
 **(a) Angle of refraction (Snell's law for waves):**
 
-$$\frac{\sin\theta_1}{v_1} = \frac{\sin\theta_2}{v_2}$$
+$$
+\frac{\sin\theta_1}{v_1} = \frac{\sin\theta_2}{v_2}
+$$
 
-$$\frac{\sin 30°}{20} = \frac{\sin\theta_2}{12}$$
+$$
+\frac{\sin 30°}{20} = \frac{\sin\theta_2}{12}
+$$
 
-$$\sin\theta_2 = \frac{12 \times 0.5}{20} = 0.3$$
+$$
+\sin\theta_2 = \frac{12 \times 0.5}{20} = 0.3
+$$
 
-$$\theta_2 = \sin^{-1}(0.3) = 17.46°$$
+$$
+\theta_2 = \sin^{-1}(0.3) = 17.46°
+$$
 
 **(b) Wavelength in shallow water:**
 
 Frequency remains constant ($f = v/\lambda$):
 
-$$f = \frac{20}{2} = 10 \text{ Hz}$$
+$$
+f = \frac{20}{2} = 10 \text{ Hz}
+$$
 
-$$\lambda_2 = \frac{v_2}{f} = \frac{12}{10} = 1.2 \text{ cm}$$
+$$
+\lambda_2 = \frac{v_2}{f} = \frac{12}{10} = 1.2 \text{ cm}
+$$
 
 **(c) Diffraction condition:**
 
 Significant diffraction occurs when the gap width is comparable to the wavelength.
 
-$$\text{Gap width} = 4 \text{ cm}, \quad \lambda = 1.2 \text{ cm}$$
+$$
+\text{Gap width} = 4 \text{ cm}, \quad \lambda = 1.2 \text{ cm}
+$$
 
 Since $4$ cm is about $3.3$ times the wavelength, there will be **moderate diffraction** but not
 maximum spreading. Maximum diffraction would occur if the gap width were approximately equal to
@@ -298,21 +358,29 @@ reflectors that can be resolved (axial resolution), given each pulse has a durat
 
 **(a) Wavelength:**
 
-$$\lambda = \frac{v}{f} = \frac{1540}{2.0 \times 10^6} = 7.70 \times 10^{-4} \text{ m} = 0.770 \text{ mm}$$
+$$
+\lambda = \frac{v}{f} = \frac{1540}{2.0 \times 10^6} = 7.70 \times 10^{-4} \text{ m} = 0.770 \text{ mm}
+$$
 
 **(b) Echo return time:**
 
 Distance to boundary $= 3$ cm $= 0.03$ m. Total travel distance $= 0.06$ m.
 
-$$t = \frac{d}{v} = \frac{0.06}{1540} = 3.90 \times 10^{-5} \text{ s} = 39.0 \text{ }\mu\text{s}$$
+$$
+t = \frac{d}{v} = \frac{0.06}{1540} = 3.90 \times 10^{-5} \text{ s} = 39.0 \text{ }\mu\text{s}
+$$
 
 **(c) Maximum imaging depth:**
 
 The round-trip time must not exceed the pulse interval ($0.1$ ms $= 1 \times 10^{-4}$ s):
 
-$$\frac{2d_{\max}}{v} = 1 \times 10^{-4}$$
+$$
+\frac{2d_{\max}}{v} = 1 \times 10^{-4}
+$$
 
-$$d_{\max} = \frac{1540 \times 1 \times 10^{-4}}{2} = 0.0770 \text{ m} = 7.70 \text{ cm}$$
+$$
+d_{\max} = \frac{1540 \times 1 \times 10^{-4}}{2} = 0.0770 \text{ m} = 7.70 \text{ cm}
+$$
 
 **(d) Axial resolution:**
 
@@ -324,7 +392,9 @@ $= v \times t_{\text{pulse}} = 1540 \times 1.5 \times 10^{-6} = 2.31 \times 10^{
 The axial resolution (minimum distinguishable distance between two reflectors) is half the spatial
 pulse length:
 
-$$\Delta d_{\min} = \frac{2.31}{2} = 1.16 \text{ mm}$$
+$$
+\Delta d_{\min} = \frac{2.31}{2} = 1.16 \text{ mm}
+$$
 
 **Key insight:** Higher frequency gives better resolution (shorter wavelength) but poorer
 penetration depth. There is a fundamental trade-off in ultrasound imaging determined by the pulse

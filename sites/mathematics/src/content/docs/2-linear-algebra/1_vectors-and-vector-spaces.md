@@ -99,12 +99,16 @@ inherited from $V$. $\blacksquare$
 Closed under all finite linear combinations: for all $\mathbf{v}_1, \ldots, \mathbf{v}_k \in W$ and
 All $\alpha_1, \ldots, \alpha_k \in F$
 
-$$\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W$$
+$$
+\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W
+$$
 
 _Proof._ We proceed by induction on $k$. For $k = 1$, $\alpha_1 \mathbf{v}_1 \in W$ by closure under
 Scalar multiplication. Assume the result holds for $k - 1$ vectors. Then
 
-$$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_k \mathbf{v}_k = (\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1}) + \alpha_k \mathbf{v}_k$$
+$$
+\alpha_1 \mathbf{v}_1 + \cdots + \alpha_k \mathbf{v}_k = (\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1}) + \alpha_k \mathbf{v}_k
+$$
 
 By the inductive hypothesis,
 $\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1} \in W$ And
@@ -130,11 +134,15 @@ a Subspace of $\mathbb{R}^n$Called the **null space** of $A$.
 **(a)** Let $\mathbf{u} = (x_1, y_1, z_1)$ and $\mathbf{v} = (x_2, y_2, z_2)$ be in $W_1$ So
 $x_1 + 2y_1 - z_1 = 0$ and $x_2 + 2y_2 - z_2 = 0$. Then
 
-$$(x_1 + x_2) + 2(y_1 + y_2) - (z_1 + z_2) = (x_1 + 2y_1 - z_1) + (x_2 + 2y_2 - z_2) = 0 + 0 = 0$$
+$$
+(x_1 + x_2) + 2(y_1 + y_2) - (z_1 + z_2) = (x_1 + 2y_1 - z_1) + (x_2 + 2y_2 - z_2) = 0 + 0 = 0
+$$
 
 So $\mathbf{u} + \mathbf{v} \in W_1$. For $\alpha \in \mathbb{R}$
 
-$$(\alpha x_1) + 2(\alpha y_1) - (\alpha z_1) = \alpha(x_1 + 2y_1 - z_1) = \alpha \cdot 0 = 0$$
+$$
+(\alpha x_1) + 2(\alpha y_1) - (\alpha z_1) = \alpha(x_1 + 2y_1 - z_1) = \alpha \cdot 0 = 0
+$$
 
 So $\alpha \mathbf{u} \in W_1$. Since $W_1$ is non-empty (e.g., $\mathbf{0} \in W_1$), it is a
 subspace.
@@ -248,12 +256,16 @@ $\mathrm{null}(A)$ and verify it is a subspace of $\mathbb{R}^3$.
 
 Row-reduce $A$:
 
-$$\begin{pmatrix} 1 & 2 & -1 \\ 2 & 4 & -2 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & -1 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 \\ 2 & 4 & -2 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & -1 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 The RREF has one pivot (column 1). The free variables are $x_2$ and $x_3$. Setting $x_2 = s$,
 $x_3 = t$: $x_1 = -2s + t$.
 
-$$\mathrm{null}(A) = \left\{ s\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix} + t\begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix} : s, t \in \mathbb{R} \right\}$$
+$$
+\mathrm{null}(A) = \left\{ s\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix} + t\begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix} : s, t \in \mathbb{R} \right\}
+$$
 
 A basis is $\{(-2, 1, 0)^T, (1, 0, 1)^T\}$ and $\dim(\mathrm{null}(A)) = 2$.
 

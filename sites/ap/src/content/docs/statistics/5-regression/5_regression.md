@@ -50,7 +50,9 @@ variable in time.
 The **correlation coefficient** ($r$) measures the strength and direction of the **linear**
 relationship between two quantitative variables.
 
-$$r = \frac{1}{n-1} \sum \left(\frac{x_i - \bar{x}}{s_x}\right)\left(\frac{y_i - \bar{y}}{s_y}\right)$$
+$$
+r = \frac{1}{n-1} \sum \left(\frac{x_i - \bar{x}}{s_x}\right)\left(\frac{y_i - \bar{y}}{s_y}\right)
+$$
 
 ### Properties of $r$
 
@@ -67,7 +69,9 @@ $$r = \frac{1}{n-1} \sum \left(\frac{x_i - \bar{x}}{s_x}\right)\left(\frac{y_i -
 
 ### Calculating $r$
 
-$$r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i - \bar{x})^2 \cdot \sum(y_i - \bar{y})^2}}$$
+$$
+r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i - \bar{x})^2 \cdot \sum(y_i - \bar{y})^2}}
+$$
 
 ## Least-Squares Regression
 
@@ -76,7 +80,9 @@ The **least-squares regression line** (LSRL) minimises the sum of the squared ve
 
 ### Equation of the LSRL
 
-$$\hat{y} = a + bx$$
+$$
+\hat{y} = a + bx
+$$
 
 Where:
 
@@ -100,7 +106,9 @@ values of $x$ within the range of the original data (**extrapolation** beyond th
 
 A **residual** is the difference between the observed value and the predicted value:
 
-$$e_i = y_i - \hat{y}_i$$
+$$
+e_i = y_i - \hat{y}_i
+$$
 
 - A positive residual: the point is above the regression line (actual $>$ predicted)
 - A negative residual: the point is below the line (actual $<$ predicted)
@@ -122,7 +130,9 @@ or the predicted values ($\hat{y}_i$) on the horizontal axis.
 
 ## Coefficient of Determination ($r^2$)
 
-$$r^2 = \frac{\text{variation in } \hat{y}}{\text{variation in } y} = 1 - \frac{\sum e_i^2}{\sum(y_i - \bar{y})^2}$$
+$$
+r^2 = \frac{\text{variation in } \hat{y}}{\text{variation in } y} = 1 - \frac{\sum e_i^2}{\sum(y_i - \bar{y})^2}
+$$
 
 $r^2$ represents the proportion of the variation in $y$ that is accounted for by the linear
 relationship with $x$.
@@ -192,9 +202,13 @@ observational data showing correlation.
 On the AP exam, you may be asked to test whether the slope of the population regression line is
 significantly different from zero:
 
-$$H_0: \beta_1 = 0 \quad H_a: \beta_1 \neq 0$$
+$$
+H_0: \beta_1 = 0 \quad H_a: \beta_1 \neq 0
+$$
 
-$$t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2$$
+$$
+t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2
+$$
 
 
 ```mermaid

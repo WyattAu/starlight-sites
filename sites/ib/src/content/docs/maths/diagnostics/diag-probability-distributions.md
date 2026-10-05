@@ -80,7 +80,9 @@ The claim is correct.
 
 **(b)** For $X \sim \mathrm{Bin}(20, 0.5)$:
 
-$$P(X = 10) = \binom{20}{10}\left(\frac{1}{2}\right)^{20} = \frac{184756}{1048576} \approx 0.176$$
+$$
+P(X = 10) = \binom{20}{10}\left(\frac{1}{2}\right)^{20} = \frac{184756}{1048576} \approx 0.176
+$$
 
 The mode of a binomial distribution is $\lfloor (n+1)p \rfloor$. Here
 $\lfloor 21 \times 0.5 \rfloor = \lfloor 10.5 \rfloor = 10$Confirming $X = 10$ is the mode.
@@ -123,13 +125,19 @@ correct?
 
 **(a)** Standardising:
 
-$$Z = \frac{X - 175}{8} = \frac{185 - 175}{8} = 1.25$$
+$$
+Z = \frac{X - 175}{8} = \frac{185 - 175}{8} = 1.25
+$$
 
-$$P(X \gt 185) = P(Z \gt 1.25) = 1 - \Phi(1.25)$$
+$$
+P(X \gt 185) = P(Z \gt 1.25) = 1 - \Phi(1.25)
+$$
 
 From standard normal tables: $\Phi(1.25) = 0.8944$.
 
-$$P(X \gt 185) = 1 - 0.8944 = 0.1056$$
+$$
+P(X \gt 185) = 1 - 0.8944 = 0.1056
+$$
 
 **(b)** The second student is correct. The student who got $0.8944$ looked up $P(Z \lt 1.25)$Which
 gives the probability of being **shorter** than $185\,\mathrm{cm}$Not taller. The question asks for
@@ -228,15 +236,25 @@ Total weight: $T = A_1 + A_2 + A_3 + B_1 + B_2$.
 
 Since the apples are independent:
 
-$$E(T) = 3(150) + 2(140) = 450 + 280 = 730$$
+$$
+E(T) = 3(150) + 2(140) = 450 + 280 = 730
+$$
 
-$$\mathrm{Var}(T) = 3(12^2) + 2(15^2) = 3(144) + 2(225) = 432 + 450 = 882$$
+$$
+\mathrm{Var}(T) = 3(12^2) + 2(15^2) = 3(144) + 2(225) = 432 + 450 = 882
+$$
 
-$$T \sim N(730, \sqrt{882}) \approx N(730, 29.7)$$
+$$
+T \sim N(730, \sqrt{882}) \approx N(730, 29.7)
+$$
 
-$$P(T \gt 750) = P\!\left(Z \gt \frac{750 - 730}{\sqrt{882}}\right) = P\!\left(Z \gt \frac{20}{29.7}\right) = P(Z \gt 0.673)$$
+$$
+P(T \gt 750) = P\!\left(Z \gt \frac{750 - 730}{\sqrt{882}}\right) = P\!\left(Z \gt \frac{20}{29.7}\right) = P(Z \gt 0.673)
+$$
 
-$$= 1 - \Phi(0.673) \approx 1 - 0.7495 = 0.2505$$
+$$
+= 1 - \Phi(0.673) \approx 1 - 0.7495 = 0.2505
+$$
 
 **(b)** The student's error is confusing the mean with the distribution. While the mean total weight
 is indeed $730\,\mathrm{g}$The total weight is a random variable with spread (standard deviation

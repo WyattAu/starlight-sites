@@ -34,9 +34,15 @@ flowchart TD
 ### Kinematics
 
 **Equations of motion (constant acceleration):**
-$$v = u + at$$
-$$s = ut + \frac{1}{2}at^2$$
-$$v^2 = u^2 + 2as$$
+$$
+v = u + at
+$$
+$$
+s = ut + \frac{1}{2}at^2
+$$
+$$
+v^2 = u^2 + 2as
+$$
 
 **Average velocity:** $\bar{v} = \frac{u + v}{2}$
 
@@ -75,10 +81,14 @@ $$v^2 = u^2 + 2as$$
 **Solution:**
 
 Step 1: Find time of flight using vertical motion:
-$$s = \frac{1}{2}gt^2 \Rightarrow 45 = \frac{1}{2}(10)t^2 \Rightarrow t = 3\,\text{s}$$
+$$
+s = \frac{1}{2}gt^2 \Rightarrow 45 = \frac{1}{2}(10)t^2 \Rightarrow t = 3\,\text{s}
+$$
 
 Step 2: Find horizontal range:
-$$\text{Range} = u_x \cdot t = 20 \times 3 = 60\,\text{m}$$
+$$
+\text{Range} = u_x \cdot t = 20 \times 3 = 60\,\text{m}
+$$
 
 **Answer:** The horizontal range is $60\,\text{m}$
 
@@ -105,11 +115,17 @@ Step 4: Apply Newton's second law: $a = \frac{F_{\text{net}}}{m} = \frac{5}{5} =
 **Solution:**
 
 Step 1: Apply conservation of momentum:
-$$m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$$
-$$2 \times 3 + 3 \times 0 = 2 \times 1 + 3 \times v_2$$
+$$
+m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2
+$$
+$$
+2 \times 3 + 3 \times 0 = 2 \times 1 + 3 \times v_2
+$$
 
 Step 2: Solve for $v_2$:
-$$6 = 2 + 3v_2 \Rightarrow v_2 = \frac{4}{3} \approx 1.33\,\text{m/s}$$
+$$
+6 = 2 + 3v_2 \Rightarrow v_2 = \frac{4}{3} \approx 1.33\,\text{m/s}
+$$
 
 **Answer:** The velocity of the $3\,\text{kg}$ ball is $\frac{4}{3}\,\text{m/s}$
 
@@ -133,7 +149,9 @@ $$6 = 2 + 3v_2 \Rightarrow v_2 = \frac{4}{3} \approx 1.33\,\text{m/s}$$
 **Solution:**
 
 Step 1: Work done by applied force:
-$$W_F = Fd\cos\theta = 50 \times 10 \times \cos 30° = 50 \times 10 \times 0.866 = 433\,\text{J}$$
+$$
+W_F = Fd\cos\theta = 50 \times 10 \times \cos 30° = 50 \times 10 \times 0.866 = 433\,\text{J}
+$$
 
 Step 2: Normal force: $N = mg - F\sin\theta = 20 \times 10 - 50 \times \sin 30° = 200 - 25 = 175\,\text{N}$
 
@@ -158,8 +176,12 @@ Step 1: Components: $v_{0x} = 25\cos 45° = 17.68\,\text{m/s}$, $v_{0y} = 25\sin
 Step 2: Vertical displacement: $s = -20\,\text{m}$ (below starting point)
 
 Step 3: Using $s = v_{0y}t - \frac{1}{2}gt^2$:
-$$-20 = 17.68t - 5t^2$$
-$$5t^2 - 17.68t - 20 = 0$$
+$$
+-20 = 17.68t - 5t^2
+$$
+$$
+5t^2 - 17.68t - 20 = 0
+$$
 
 Step 4: Solving: $t = \frac{17.68 + \sqrt{17.68^2 + 400}}{10} = \frac{17.68 + 26.83}{10} = 4.45\,\text{s}$
 
@@ -174,9 +196,13 @@ Step 5: Range: $R = v_{0x} \times t = 17.68 \times 4.45 = 78.7\,\text{m}$
 **Solution:**
 
 For elastic collisions:
-$$v_1' = \frac{m_1 - m_2}{m_1 + m_2}v_1 = \frac{3-1}{3+1} \times 4 = \frac{2}{4} \times 4 = 2\,\text{m/s}$$
+$$
+v_1' = \frac{m_1 - m_2}{m_1 + m_2}v_1 = \frac{3-1}{3+1} \times 4 = \frac{2}{4} \times 4 = 2\,\text{m/s}
+$$
 
-$$v_2' = \frac{2m_1}{m_1 + m_2}v_1 = \frac{2 \times 3}{3+1} \times 4 = \frac{6}{4} \times 4 = 6\,\text{m/s}$$
+$$
+v_2' = \frac{2m_1}{m_1 + m_2}v_1 = \frac{2 \times 3}{3+1} \times 4 = \frac{6}{4} \times 4 = 6\,\text{m/s}
+$$
 
 **Answer:** The $3\,\text{kg}$ ball continues at $2\,\text{m/s}$ and the $1\,\text{kg}$ ball moves at $6\,\text{m/s}$
 
@@ -200,19 +226,25 @@ Mechanics is the foundation of physics and engineering. From designing bridges a
 **Solution:**
 
 Step 1: Forces along the incline (taking up as positive):
-$$F_{\text{gravity along incline}} = -mg\sin\theta = -5 \times 10 \times \sin 30° = -25\,\text{N}$$
+$$
+F_{\text{gravity along incline}} = -mg\sin\theta = -5 \times 10 \times \sin 30° = -25\,\text{N}
+$$
 
 Step 2: Normal force: $N = mg\cos\theta = 5 \times 10 \times \cos 30° = 43.3\,\text{N}$
 
 Step 3: Friction (opposes motion, so acts down the incline):
-$$f = \mu N = 0.2 \times 43.3 = 8.66\,\text{N}$$
+$$
+f = \mu N = 0.2 \times 43.3 = 8.66\,\text{N}
+$$
 
 Step 4: Net force: $F_{\text{net}} = -25 - 8.66 = -33.66\,\text{N}$
 
 Step 5: Acceleration: $a = \frac{F_{\text{net}}}{m} = \frac{-33.66}{5} = -6.73\,\text{m/s}^2$
 
 Step 6: Using $v^2 = u^2 + 2as$:
-$$0 = 16 + 2(-6.73)s \implies s = \frac{16}{13.46} = 1.19\,\text{m}$$
+$$
+0 = 16 + 2(-6.73)s \implies s = \frac{16}{13.46} = 1.19\,\text{m}
+$$
 
 **Answer:** The block travels $1.19\,\text{m}$ up the incline before stopping
 
@@ -229,12 +261,20 @@ Step 1: Apply the work-energy theorem: $W_{\text{net}} = \Delta E_k$
 Step 2: The only force doing work is gravity: $W = -mgh$
 
 Step 3: Change in kinetic energy:
-$$\Delta E_k = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2 = \frac{1}{2}(2)(25) - \frac{1}{2}(2)(225) = 25 - 225 = -200\,\text{J}$$
+$$
+\Delta E_k = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2 = \frac{1}{2}(2)(25) - \frac{1}{2}(2)(225) = 25 - 225 = -200\,\text{J}
+$$
 
 Step 4: Set equal:
-$$-mgh = -200$$
-$$-2 \times 10 \times h = -200$$
-$$h = 10\,\text{m}$$
+$$
+-mgh = -200
+$$
+$$
+-2 \times 10 \times h = -200
+$$
+$$
+h = 10\,\text{m}
+$$
 
 **Answer:** The height is $10\,\text{m}$
 
@@ -247,10 +287,14 @@ $$h = 10\,\text{m}$$
 **Solution:**
 
 Step 1: Find the angular velocity:
-$$\omega = 2\pi f = 2\pi \times 3 = 6\pi\,\text{rad/s}$$
+$$
+\omega = 2\pi f = 2\pi \times 3 = 6\pi\,\text{rad/s}
+$$
 
 Step 2: The tension provides the centripetal force:
-$$T = m\omega^2 r = 0.5 \times (6\pi)^2 \times 1 = 0.5 \times 36\pi^2 = 18\pi^2 \approx 177.7\,\text{N}$$
+$$
+T = m\omega^2 r = 0.5 \times (6\pi)^2 \times 1 = 0.5 \times 36\pi^2 = 18\pi^2 \approx 177.7\,\text{N}
+$$
 
 **Answer:** The tension is approximately $178\,\text{N}$
 

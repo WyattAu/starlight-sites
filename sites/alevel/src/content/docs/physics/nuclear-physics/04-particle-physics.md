@@ -87,7 +87,9 @@ Each lepton has a corresponding antiparticle ($e^+$, $\bar{\nu}_e$Etc.).
 Lepton number $L_e$, $L_\mu$, $L_\tau$ are conserved separately in all interactions. For example, In
 beta-minus decay:
 
-$$n \to p + e^- + \bar{\nu}_e$$
+$$
+n \to p + e^- + \bar{\nu}_e
+$$
 
 $L_e$: $0 \to 0 + 1 + (-1) = 0$. Conserved.
 
@@ -129,11 +131,15 @@ $\checkmark$
 
 **Beta-minus decay of a neutron:**
 
-$$udd \to uud + e^- + \bar{\nu}_e$$
+$$
+udd \to uud + e^- + \bar{\nu}_e
+$$
 
 A $d$ quark converts to a $u$ quark (via the weak interaction, mediated by a $W^-$ boson):
 
-$$d \to u + W^-, \qquad W^- \to e^- + \bar{\nu}_e$$
+$$
+d \to u + W^-, \qquad W^- \to e^- + \bar{\nu}_e
+$$
 
 Strangeness changes by $\Delta S = +1$ (a strange quark is destroyed), consistent with the weak
 Interaction (which does not conserve strangeness).
@@ -191,12 +197,16 @@ quantum Numbers (charge, baryon number, lepton number, strangeness).
 **Pair production:** A photon with energy at least $2m_e c^2 = 1.022$ MeV can create an
 Electron--positron pair ( near a nucleus to conserve momentum):
 
-$$\gamma \to e^- + e^+$$
+$$
+\gamma \to e^- + e^+
+$$
 
 **Annihilation:** When a particle meets its antiparticle, they annihilate, converting their combined
 Rest mass energy into photons:
 
-$$e^- + e^+ \to 2\gamma$$
+$$
+e^- + e^+ \to 2\gamma
+$$
 
 Two photons are required (not one) to conserve both energy and momentum.
 
@@ -224,7 +234,9 @@ A mathematical term in the perturbation theory expansion of the interaction ampl
 
 ### Beta-Minus Decay
 
-$$n \to p + e^- + \bar{\nu}_e$$
+$$
+n \to p + e^- + \bar{\nu}_e
+$$
 
 **Diagram:** A $d$ quark line enters, emits a $W^-$ boson (wavy line), and continues as a $u$ quark
 Line. The $W^-$ decays into an electron line and an antineutrino line.
@@ -233,7 +245,9 @@ At the quark level: $d \to u + W^-$ Then $W^- \to e^- + \bar{\nu}_e$.
 
 ### Electron--Positron Annihilation
 
-$$e^- + e^+ \to \gamma \to \mu^- + \mu^+$$
+$$
+e^- + e^+ \to \gamma \to \mu^- + \mu^+
+$$
 
 **Diagram:** An $e^-$ line and an $e^+$ line (arrow reversed) meet at a vertex, connected by a
 photon Line. The photon line connects to a second vertex where a $\mu^-$ line and $\mu^+$ line
@@ -256,7 +270,9 @@ Applicable quantum numbers:
 When photons of frequency $f$ strike a metal surface, electrons are emitted only if $hf \gt \phi$
 Where $\phi$ is the work function of the metal.
 
-$$\boxed{hf = E_k^{\max} + \phi}$$
+$$
+\boxed{hf = E_k^{\max} + \phi}
+$$
 
 Where $E_k^{\max}$ is the maximum kinetic energy of the emitted photoelectrons.
 
@@ -274,7 +290,9 @@ Where $E_k^{\max}$ is the maximum kinetic energy of the emitted photoelectrons.
 
 At the threshold, $E_k^{\max} = 0$ So $hf_0 = \phi$:
 
-$$\boxed{f_0 = \frac{\phi}{h}}$$
+$$
+\boxed{f_0 = \frac{\phi}{h}}
+$$
 
 For frequencies below $f_0$No electron can be emitted regardless of intensity, because each photon
 Carries insufficient energy. Increasing intensity means more photons, not more energy per photon.
@@ -302,7 +320,9 @@ m $= 289$ nm (UV).
 
 **Hypothesis.** Every particle with momentum $p$ has an associated wavelength:
 
-$$\boxed{\lambda = \frac{h}{p}}$$
+$$
+\boxed{\lambda = \frac{h}{p}}
+$$
 
 Where $h = 6.63 \times 10^{-34}$ J s is Planck's constant.
 
@@ -313,11 +333,17 @@ Interference) just as electromagnetic waves exhibit particle-like properties (ph
 
 An electron accelerated through potential difference $V$ gains kinetic energy:
 
-$$\frac{1}{2}m_e v^2 = eV \implies v = \sqrt{\frac{2eV}{m_e}}$$
+$$
+\frac{1}{2}m_e v^2 = eV \implies v = \sqrt{\frac{2eV}{m_e}}
+$$
 
-$$p = m_e v = \sqrt{2m_e eV}$$
+$$
+p = m_e v = \sqrt{2m_e eV}
+$$
 
-$$\boxed{\lambda = \frac{h}{\sqrt{2m_e eV}}}$$
+$$
+\boxed{\lambda = \frac{h}{\sqrt{2m_e eV}}}
+$$
 
 For $V = 100$ V:
 $\lambda = 6.63 \times 10^{-34}/\sqrt{2 \times 9.11 \times 10^{-31} \times 1.60 \times 10^{-19} \times 100} = 1.23 \times 10^{-10}$
@@ -332,7 +358,9 @@ Davisson and Germer directed a beam of electrons at a nickel crystal and observe
 Pattern, sharp intensity maxima at specific angles. The angles matched the prediction of the de
 Broglie wavelength using the Bragg condition:
 
-$$n\lambda = 2d\sin\theta$$
+$$
+n\lambda = 2d\sin\theta
+$$
 
 This provided direct experimental confirmation of wave--particle duality for matter.
 
@@ -367,11 +395,15 @@ Because of its much larger mass.
 
 The de Broglie relation $\lambda = h/p$ and the Einstein relation $E = hf$ together imply:
 
-$$E = hf = \frac{hc}{\lambda} = pc$$
+$$
+E = hf = \frac{hc}{\lambda} = pc
+$$
 
 For massless particles (photons). For massive particles in the non-relativistic limit:
 
-$$E_k = \frac{p^2}{2m} = \frac{h^2}{2m\lambda^2}$$
+$$
+E_k = \frac{p^2}{2m} = \frac{h^2}{2m\lambda^2}
+$$
 
 These relations are the foundation of quantum mechanics. The wave function $\Psi$ of a particle
 Satisfies the Schrodinger equation, and the probability of finding the particle in a region is

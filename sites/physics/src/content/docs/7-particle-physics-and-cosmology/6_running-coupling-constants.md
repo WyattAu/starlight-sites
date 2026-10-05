@@ -21,7 +21,9 @@ description: 'The strong coupling depends on the energy scale : Comprehensive ed
 
 The strong coupling $\alpha_s$ depends on the energy scale $\mu$:
 
-$$\alpha_s(\mu) = \frac{\alpha_s(\mu_0)}{1 + \frac{\alpha_s(\mu_0)}{12\pi}(33 - 2n_f)\ln(\mu^2/\mu_0^2)}$$
+$$
+\alpha_s(\mu) = \frac{\alpha_s(\mu_0)}{1 + \frac{\alpha_s(\mu_0)}{12\pi}(33 - 2n_f)\ln(\mu^2/\mu_0^2)}
+$$
 
 Where $n_f$ is the number of active quark flavours.
 
@@ -32,30 +34,40 @@ Where $n_f$ is the number of active quark flavours.
 
 The electromagnetic coupling also runs (but increases at high energies):
 
-$$\alpha(\mu) = \frac{\alpha(\mu_0)}{1 - \frac{\alpha(\mu_0)}{3\pi}\ln(\mu^2/\mu_0^2)}$$
+$$
+\alpha(\mu) = \frac{\alpha(\mu_0)}{1 - \frac{\alpha(\mu_0)}{3\pi}\ln(\mu^2/\mu_0^2)}
+$$
 
 ### 6.2 Beta Functions
 
 The running of coupling constants is governed by the **beta function**:
 
-$$\beta(g) \equiv \mu\frac{dg}{d\mu}$$
+$$
+\beta(g) \equiv \mu\frac{dg}{d\mu}
+$$
 
 At one-loop order:
 
 **QED:**
 
-$$\beta_{\mathrm{QED}(e) = \frac{e^3}{12\pi^2} \quad \Rightarrow \quad \beta_{\mathrm{QED}(\alpha) = \frac{2\alpha^2}{3\pi} \gt 0}}$$
+$$
+\beta_{\mathrm{QED}(e) = \frac{e^3}{12\pi^2} \quad \Rightarrow \quad \beta_{\mathrm{QED}(\alpha) = \frac{2\alpha^2}{3\pi} \gt 0}}
+$$
 
 The positive beta function means the electromagnetic coupling **increases** with energy
 (antiscreening).
 
 **QCD:**
 
-$$\beta_{\mathrm{QCD}(g_s) = -\frac{g_s^3}{16\pi^2}\left(\frac{11}{3}C_A - \frac{4}{3}T_F n_f\right)}$$
+$$
+\beta_{\mathrm{QCD}(g_s) = -\frac{g_s^3}{16\pi^2}\left(\frac{11}{3}C_A - \frac{4}{3}T_F n_f\right)}
+$$
 
 For SU(3), $C_A = N = 3$ and $T_F = 1/2$:
 
-$$\beta_{\mathrm{QCD}(g_s) = -\frac{g_s^3}{16\pi^2}\left(11 - \frac{2n_f}{3}\right)}$$
+$$
+\beta_{\mathrm{QCD}(g_s) = -\frac{g_s^3}{16\pi^2}\left(11 - \frac{2n_f}{3}\right)}
+$$
 
 The negative sign (for $n_f \lt 33/2$) means the strong coupling **decreases** with energy: This is
 **asymptotic freedom** (Gross, Wilczek, and Politzer, Nobel Prize 2004).
@@ -75,7 +87,9 @@ Simple group such as SU(5) or SO(10).
 
 At one loop, the coupling at scale $\mu$ is:
 
-$$\alpha_i^{-1}(\mu) = \alpha_i^{-1}(\mu_0) - \frac{b_i}{2\pi}\ln\left(\frac{\mu}{\mu_0}\right)$$
+$$
+\alpha_i^{-1}(\mu) = \alpha_i^{-1}(\mu_0) - \frac{b_i}{2\pi}\ln\left(\frac{\mu}{\mu_0}\right)
+$$
 
 Where $b_i$ are the one-loop beta function coefficients and $\mu_0 = m_Z \approx 91.2$ GeV.
 
@@ -90,11 +104,15 @@ $\alpha_1^{-1}(M_{\mathrm{GUT}) = \alpha_2^{-1}(M_{\mathrm{GUT}) = \alpha_3^{-1}
 
 Setting $\alpha_1^{-1} = \alpha_2^{-1}$:
 
-$$\alpha_1^{-1}(m_Z) - \alpha_2^{-1}(m_Z) = \frac{b_2 - b_1}{2\pi}\ln\left(\frac{M_{\mathrm{GUT}}{m_Z}\right)}$$
+$$
+\alpha_1^{-1}(m_Z) - \alpha_2^{-1}(m_Z) = \frac{b_2 - b_1}{2\pi}\ln\left(\frac{M_{\mathrm{GUT}}{m_Z}\right)}
+$$
 
 With $\alpha_1^{-1}(m_Z) \approx 59.0$, $\alpha_2^{-1}(m_Z) \approx 29.6$:
 
-$$59.0 - 29.6 = \frac{b_2 - b_1}{2\pi}\ln\left(\frac{M_{\mathrm{GUT}}{m_Z}\right)}$$
+$$
+59.0 - 29.6 = \frac{b_2 - b_1}{2\pi}\ln\left(\frac{M_{\mathrm{GUT}}{m_Z}\right)}
+$$
 
 This gives $M_{\mathrm{GUT} \sim 10^{13}}$--$10^{16}$ GeV depending on the precise Coefficients and
 the inclusion of threshold corrections. In the MSSM, the modified beta Coefficients give a much

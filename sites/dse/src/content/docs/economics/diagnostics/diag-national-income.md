@@ -257,9 +257,13 @@ does this affect the calculation?
 
 (a) GDP by income approach:
 
-$$GDP = \text{Compensation of employees} + \text{Gross operating surplus} + \text{Gross mixed income} + \text{Taxes on production} - \text{Subsidies}$$
+$$
+GDP = \text{Compensation of employees} + \text{Gross operating surplus} + \text{Gross mixed income} + \text{Taxes on production} - \text{Subsidies}
+$$
 
-$$GDP = 600 + 350 + 100 + 80 - 30 = HK\$1\,100 \text{ billion}$$
+$$
+GDP = 600 + 350 + 100 + 80 - 30 = HK\$1\,100 \text{ billion}
+$$
 
 (b) GNP $= GDP + \text{Net factor income from abroad} = 1100 + (-15) = HK\$1\,085$ billion.
 
@@ -384,13 +388,21 @@ state. (c) Explain why higher saving does not produce permanently higher growth 
 (a) In the Solow model, the steady state is where investment equals break-even investment:
 $s \cdot f(k) = (n + \delta) \cdot k$.
 
-$$0.20 \cdot k^{0.4} = (0.02 + 0.05) \cdot k = 0.07k$$
+$$
+0.20 \cdot k^{0.4} = (0.02 + 0.05) \cdot k = 0.07k
+$$
 
-$$k^{0.4} = \frac{0.07}{0.20} k = 0.35k$$
+$$
+k^{0.4} = \frac{0.07}{0.20} k = 0.35k
+$$
 
-$$k^{-0.6} = 0.35$$
+$$
+k^{-0.6} = 0.35
+$$
 
-$$k = 0.35^{-1/0.6} = 0.35^{-1.667} = \frac{1}{0.35^{1.667}}$$
+$$
+k = 0.35^{-1/0.6} = 0.35^{-1.667} = \frac{1}{0.35^{1.667}}
+$$
 
 $0.35^{1.667} = e^{1.667 \times \ln(0.35)} = e^{1.667 \times (-1.0498)} = e^{-1.7497} = 0.1739$.
 
@@ -402,11 +414,17 @@ Steady-state output per worker $= 2.014$ (in efficiency units).
 
 (b) With $s = 0.30$:
 
-$$0.30 \cdot k^{0.4} = 0.07k$$
+$$
+0.30 \cdot k^{0.4} = 0.07k
+$$
 
-$$k^{-0.6} = 0.07/0.30 = 0.2333$$
+$$
+k^{-0.6} = 0.07/0.30 = 0.2333
+$$
 
-$$k = 0.2333^{-1.667} = \frac{1}{0.2333^{1.667}}$$
+$$
+k = 0.2333^{-1.667} = \frac{1}{0.2333^{1.667}}
+$$
 
 $0.2333^{1.667} = e^{1.667 \times \ln(0.2333)} = e^{1.667 \times (-1.4553)} = e^{-2.4255} = 0.0885$.
 

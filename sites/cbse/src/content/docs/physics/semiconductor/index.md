@@ -66,15 +66,23 @@ Semiconductor electronics covers the physics of semiconductor materials, p-n jun
 **Solution:**
 
 Using the diode equation:
-$$I = I_s\left(e^{V/V_T} - 1\right)$$
+$$
+I = I_s\left(e^{V/V_T} - 1\right)
+$$
 
 where $V_T = kT/e \approx 0.026 \, \text{V}$:
 
-$$I = 10 \times 10^{-6} \left(e^{0.5/0.026} - 1\right)$$
+$$
+I = 10 \times 10^{-6} \left(e^{0.5/0.026} - 1\right)
+$$
 
-$$= 10 \times 10^{-6} \left(e^{19.23} - 1\right)$$
+$$
+= 10 \times 10^{-6} \left(e^{19.23} - 1\right)
+$$
 
-$$\approx 10 \times 10^{-6} \times 2.24 \times 10^8 = 2.24 \, \text{A}$$
+$$
+\approx 10 \times 10^{-6} \times 2.24 \times 10^8 = 2.24 \, \text{A}
+$$
 
 **Common mistake:** Forgetting that the exponential dominates and the $-1$ term becomes negligible for forward bias.
 
@@ -85,19 +93,29 @@ $$\approx 10 \times 10^{-6} \times 2.24 \times 10^8 = 2.24 \, \text{A}$$
 **Solution:**
 
 Voltage across series resistor:
-$$V_R = V_{in} - V_Z = 10 - 6 = 4 \, \text{V}$$
+$$
+V_R = V_{in} - V_Z = 10 - 6 = 4 \, \text{V}
+$$
 
 Current through series resistor:
-$$I_R = \frac{V_R}{R} = \frac{4}{200} = 0.02 \, \text{A} = 20 \, \text{mA}$$
+$$
+I_R = \frac{V_R}{R} = \frac{4}{200} = 0.02 \, \text{A} = 20 \, \text{mA}
+$$
 
 Load voltage (equal to Zener voltage):
-$$V_L = V_Z = 6 \, \text{V}$$
+$$
+V_L = V_Z = 6 \, \text{V}
+$$
 
 Load current:
-$$I_L = \frac{V_L}{R_L} = \frac{6}{1000} = 6 \, \text{mA}$$
+$$
+I_L = \frac{V_L}{R_L} = \frac{6}{1000} = 6 \, \text{mA}
+$$
 
 Zener current:
-$$I_Z = I_R - I_L = 20 - 6 = 14 \, \text{mA}$$
+$$
+I_Z = I_R - I_L = 20 - 6 = 14 \, \text{mA}
+$$
 
 **Common mistake:** Assuming all current flows through the Zener diode. The Zener current is the difference between the total current and the load current.
 
@@ -108,14 +126,20 @@ $$I_Z = I_R - I_L = 20 - 6 = 14 \, \text{mA}$$
 **Solution:**
 
 Collector current:
-$$I_C = \beta I_B = 100 \times 20 \times 10^{-6} = 2 \, \text{mA}$$
+$$
+I_C = \beta I_B = 100 \times 20 \times 10^{-6} = 2 \, \text{mA}
+$$
 
 Collector-emitter voltage:
-$$V_{CE} = V_{CC} - I_C R_C = 12 - 2 \times 10^{-3} \times 2 \times 10^3 = 12 - 4 = 8 \, \text{V}$$
+$$
+V_{CE} = V_{CC} - I_C R_C = 12 - 2 \times 10^{-3} \times 2 \times 10^3 = 12 - 4 = 8 \, \text{V}
+$$
 
 For the voltage gain (assuming $r_e \approx 25 \, \text{mV} / I_E \approx 25 \, \text{mV} / 2 \, \text{mA} = 12.5 \, \Omega$):
 
-$$A_v = -\frac{R_C}{r_e} = -\frac{2000}{12.5} = -160$$
+$$
+A_v = -\frac{R_C}{r_e} = -\frac{2000}{12.5} = -160
+$$
 
 The negative sign indicates a $180^\circ$ phase shift.
 
@@ -136,7 +160,9 @@ The negative sign indicates a $180^\circ$ phase shift.
 
 The output is LOW (0) only when both inputs are HIGH (1).
 
-$$Y = \overline{A \cdot B}$$
+$$
+Y = \overline{A \cdot B}
+$$
 
 **Common mistake:** Confusing NAND with AND. NAND is the inverse of AND: it gives 0 only when all inputs are 1.
 

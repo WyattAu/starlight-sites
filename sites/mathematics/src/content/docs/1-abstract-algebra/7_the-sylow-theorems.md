@@ -72,7 +72,9 @@ the set of left cosets $G/P$ by left multiplication: $q \cdot (gP) = qgP$.
 Since $|G/P| = |G|/|P| = m$ is not divisible by $p$ And orbits under the $Q$-action have sizes
 Dividing $|Q|$ (hence powers of $p$), the number of fixed points satisfies:
 
-$$|\mathrm{Fix}(Q)| \equiv |G/P| \equiv m \not\equiv 0 \pmod{p}$$
+$$
+|\mathrm{Fix}(Q)| \equiv |G/P| \equiv m \not\equiv 0 \pmod{p}
+$$
 
 So there exists $gP \in G/P$ fixed by $Q$Meaning $Q \cdot gP = gP$I.e., $QgP = gP$ So
 $g^{-1}Qg \subseteq P$.

@@ -54,16 +54,22 @@ requires analytical comparison of transcendental expressions.]
 
 **(a)** Consider $f(x) = \frac{\ln x}{x}$. Its derivative is:
 
-$$f"(x) = \frac{1 \cdot x - \ln x \cdot 1}{x^2} = \frac{1 - \ln x}{x^2}$$
+$$
+f"(x) = \frac{1 \cdot x - \ln x \cdot 1}{x^2} = \frac{1 - \ln x}{x^2}
+$$
 
 $f'(x) = 0$ when $\ln x = 1$I.e. $x = e$. For $x \lt e$: $f'(x) \gt 0$; for $x \gt e$:
 $f'(x) \lt 0$.
 
 So $f(x)$ has a global maximum at $x = e$Meaning $f(e) \geq f(\pi)$:
 
-$$\frac{\ln e}{e} \geq \frac{\ln \pi}{\pi} \implies \frac{1}{e} \geq \frac{\ln \pi}{\pi} \implies \pi \geq e \ln \pi$$
+$$
+\frac{\ln e}{e} \geq \frac{\ln \pi}{\pi} \implies \frac{1}{e} \geq \frac{\ln \pi}{\pi} \implies \pi \geq e \ln \pi
+$$
 
-$$\implies \pi \geq \ln(\pi^e) \implies e^\pi \geq \pi^e$$
+$$
+\implies \pi \geq \ln(\pi^e) \implies e^\pi \geq \pi^e
+$$
 
 Therefore $e^\pi$ is larger.
 
@@ -124,7 +130,9 @@ constraint on $e^x$ that eliminates spurious solutions.]
 
 **(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$We require $u \gt 0$.
 
-$$u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3$$
+$$
+u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3
+$$
 
 Both satisfy $u \gt 0$.
 
@@ -138,12 +146,16 @@ Solutions: $x = \ln 2$ and $x = \ln 3$.
 
 Let $u = e^x$ ($u \gt 0$):
 
-$$u^2 - 5u + 5 = 0 \implies u = \frac{5 \pm \sqrt{25 - 20}}{2} = \frac{5 \pm \sqrt{5}}{2}$$
+$$
+u^2 - 5u + 5 = 0 \implies u = \frac{5 \pm \sqrt{25 - 20}}{2} = \frac{5 \pm \sqrt{5}}{2}
+$$
 
 Both roots are positive: $\frac{5 - \sqrt{5}}{2} \approx 1.382 \gt 0$ and
 $\frac{5 + \sqrt{5}}{2} \approx 3.618 \gt 0$.
 
-$$x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)$$
+$$
+x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)
+$$
 
 **(c)** The student obtains $u = \frac{5 \pm \sqrt{5}}{2}$Both positive. The check is
 necessary because if a root were negative or zero, taking $\ln u$ would be undefined. For example,
@@ -187,7 +199,9 @@ $g(x) = 2\ln x$: we need $x \gt 0$. Domain: $(0, \infty)$.
 
 **(b)** On the intersection $(0, \infty)$:
 
-$$f(x) = \ln(x^2) = 2\ln x = g(x)$$
+$$
+f(x) = \ln(x^2) = 2\ln x = g(x)
+$$
 
 By the logarithm power law $\ln(a^b) = b\ln a$Valid for $a \gt 0$.
 
@@ -244,33 +258,53 @@ Use integration by parts twice. Set $u = e^{3x}$$\frac{dv}{dx} = \sin(2x)$.
 
 First application: $du = 3e^{3x}\, dx$$v = -\frac{1}{2}\cos(2x)$.
 
-$$I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{2}\int e^{3x}\cos(2x)\, dx$$
+$$
+I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{2}\int e^{3x}\cos(2x)\, dx
+$$
 
 Second application on the remaining integral: $u = e^{3x}$, $\frac{dv}{dx} = \cos(2x)$.
 
 $du = 3e^{3x}\, dx$, $v = \frac{1}{2}\sin(2x)$.
 
-$$\int e^{3x}\cos(2x)\, dx = \frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}\int e^{3x}\sin(2x)\, dx = \frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}I$$
+$$
+\int e^{3x}\cos(2x)\, dx = \frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}\int e^{3x}\sin(2x)\, dx = \frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}I
+$$
 
 Substituting back:
 
-$$I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{2}\left(\frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}I\right)$$
+$$
+I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{2}\left(\frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}I\right)
+$$
 
-$$I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{4}e^{3x}\sin(2x) - \frac{9}{4}I$$
+$$
+I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{4}e^{3x}\sin(2x) - \frac{9}{4}I
+$$
 
-$$I + \frac{9}{4}I = e^{3x}\left(-\frac{1}{2}\cos(2x) + \frac{3}{4}\sin(2x)\right)$$
+$$
+I + \frac{9}{4}I = e^{3x}\left(-\frac{1}{2}\cos(2x) + \frac{3}{4}\sin(2x)\right)
+$$
 
-$$\frac{13}{4}I = \frac{e^{3x}}{4}\left(-2\cos(2x) + 3\sin(2x)\right)$$
+$$
+\frac{13}{4}I = \frac{e^{3x}}{4}\left(-2\cos(2x) + 3\sin(2x)\right)
+$$
 
-$$I = \frac{e^{3x}}{13}\left(3\sin(2x) - 2\cos(2x)\right) + C$$
+$$
+I = \frac{e^{3x}}{13}\left(3\sin(2x) - 2\cos(2x)\right) + C
+$$
 
 **(b)** Let $F(x) = \frac{e^{3x}}{13}(3\sin(2x) - 2\cos(2x))$.
 
-$$F'(x) = \frac{1}{13}\left[3e^{3x}(3\sin(2x) - 2\cos(2x)) + e^{3x}(6\cos(2x) + 4\sin(2x))\right]$$
+$$
+F'(x) = \frac{1}{13}\left[3e^{3x}(3\sin(2x) - 2\cos(2x)) + e^{3x}(6\cos(2x) + 4\sin(2x))\right]
+$$
 
-$$= \frac{e^{3x}}{13}\left[9\sin(2x) - 6\cos(2x) + 6\cos(2x) + 4\sin(2x)\right]$$
+$$
+= \frac{e^{3x}}{13}\left[9\sin(2x) - 6\cos(2x) + 6\cos(2x) + 4\sin(2x)\right]
+$$
 
-$$= \frac{e^{3x}}{13} \cdot 13\sin(2x) = e^{3x}\sin(2x)$$
+$$
+= \frac{e^{3x}}{13} \cdot 13\sin(2x) = e^{3x}\sin(2x)
+$$
 
 Confirmed.
 
@@ -282,7 +316,9 @@ $e^{3\pi/2}(3\sin\pi - 2\cos\pi) = e^{3\pi/2}(0 + 2) = 2e^{3\pi/2}$
 
 At $x = 0$: $e^0(3\sin 0 - 2\cos 0) = 1(0 - 2) = -2$
 
-$$= \frac{1}{13}(2e^{3\pi/2} - (-2)) = \frac{2(e^{3\pi/2} + 1)}{13}$$
+$$
+= \frac{1}{13}(2e^{3\pi/2} - (-2)) = \frac{2(e^{3\pi/2} + 1)}{13}
+$$
 
 ---
 
@@ -316,7 +352,9 @@ product rule with exponential decay.]
 
 **(a)** Using $\ln\!\left(\sqrt{x^2+1}\right) = \frac{1}{2}\ln(x^2+1)$ by the power law:
 
-$$\frac{dy}{dx} = \frac{1}{2} \cdot \frac{2x}{x^2+1} = \frac{x}{x^2+1}$$
+$$
+\frac{dy}{dx} = \frac{1}{2} \cdot \frac{2x}{x^2+1} = \frac{x}{x^2+1}
+$$
 
 **(b)** At $x = \sqrt{3}$:
 $\frac{dy}{dx} = \frac{\sqrt{3}}{3+1} = \frac{\sqrt{3}}{4}$.
@@ -325,7 +363,9 @@ $y = \frac{1}{2}\ln(3+1) = \frac{1}{2}\ln 4 = \ln 2$.
 
 Equation of tangent: $y - \ln 2 = \frac{\sqrt{3}}{4}(x - \sqrt{3})$.
 
-$$y = \frac{\sqrt{3}}{4}x - \frac{3}{4} + \ln 2$$
+$$
+y = \frac{\sqrt{3}}{4}x - \frac{3}{4} + \ln 2
+$$
 
 **(c)** $\frac{dy}{dx} = \frac{x}{x^2+1} = 0 \implies x = 0$.
 
@@ -347,13 +387,19 @@ question as stated is incorrect.
 
 By the product rule:
 
-$$\frac{dy}{dx} = -e^{-x}\ln(x^2+1) + e^{-x} \cdot \frac{2x}{x^2+1}$$
+$$
+\frac{dy}{dx} = -e^{-x}\ln(x^2+1) + e^{-x} \cdot \frac{2x}{x^2+1}
+$$
 
-$$= e^{-x}\left(\frac{2x}{x^2+1} - \ln(x^2+1)\right)$$
+$$
+= e^{-x}\left(\frac{2x}{x^2+1} - \ln(x^2+1)\right)
+$$
 
 Since $e^{-x} \gt 0$ for all $x$Stationary points occur when:
 
-$$\frac{2x}{x^2+1} = \ln(x^2+1)$$
+$$
+\frac{2x}{x^2+1} = \ln(x^2+1)
+$$
 
 Let $u = x^2 + 1$ ($u \geq 1$): $\frac{2x}{u} = \ln u$.
 
@@ -396,7 +442,9 @@ requiring careful domain tracking.]
 
 **(a)** Let $y = e^{2x-1}$. Then $\ln y = 2x - 1$ So $x = \frac{\ln y + 1}{2}$.
 
-$$f^{-1}(x) = \frac{\ln x + 1}{2}$$
+$$
+f^{-1}(x) = \frac{\ln x + 1}{2}
+$$
 
 Domain of $f^{-1}$: $x \gt 0$ (since $\ln x$ must be defined, matching the range of $f$).
 
@@ -420,7 +468,9 @@ To find $g^{-1}$: let $y = \ln(x^2 - 1)$. Then $e^y = x^2 - 1$ So $x^2 = e^y + 1
 
 Since $x \gt 1$We take the positive root: $x = \sqrt{e^y + 1}$.
 
-$$g^{-1}(x) = \sqrt{e^x + 1}$$
+$$
+g^{-1}(x) = \sqrt{e^x + 1}
+$$
 
 Domain of $g^{-1}$: $\mathbb{R}$ (since $e^x + 1 \gt 0$ for all $x$). Range of $g^{-1}$:
 $(1, \infty)$.

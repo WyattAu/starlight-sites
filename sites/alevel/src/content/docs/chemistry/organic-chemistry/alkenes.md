@@ -544,7 +544,9 @@ $(1S,2S)$-1,2-dibromocyclohexane.
 
 **Direct hydration:**
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3\mathrm{PO}_4,\,300^\circ\mathrm{C},\,60\,\mathrm{atm}} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3\mathrm{PO}_4,\,300^\circ\mathrm{C},\,60\,\mathrm{atm}} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3
+$$
 
 Markovnikov addition: H adds to the less substituted carbon (terminal carbon with more H), giving
 the secondary alcohol propan-2-ol.
@@ -604,26 +606,36 @@ If $\mathrm{Br}$ and $\mathrm{Cl}$ are on the **same side**: $Z$. If on **opposi
 
 Initiation: Peroxide bond homolysis:
 
-$$\mathrm{ROOR} \xrightarrow{\Delta} 2\mathrm{RO}\cdot$$
+$$
+\mathrm{ROOR} \xrightarrow{\Delta} 2\mathrm{RO}\cdot
+$$
 
 Propagation 1: The radical adds to the **less substituted** carbon (to form the more stable
 secondary radical):
 
-$$\mathrm{RO}\cdot + \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \to \mathrm{ROCH}_2\mathrm{CH}\cdot\mathrm{CH}_3$$
+$$
+\mathrm{RO}\cdot + \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \to \mathrm{ROCH}_2\mathrm{CH}\cdot\mathrm{CH}_3
+$$
 
 Wait -- the $\mathrm{RO}\cdot$ radical is not the chain carrier for HBr addition. The correct
 mechanism involves the bromine radical:
 
-$$\mathrm{RO}\cdot + \mathrm{HBr} \to \mathrm{ROH} + \mathrm{Br}\cdot$$
+$$
+\mathrm{RO}\cdot + \mathrm{HBr} \to \mathrm{ROH} + \mathrm{Br}\cdot
+$$
 
-$$\mathrm{Br}\cdot + \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \to \mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_2\mathrm{Br}$$
+$$
+\mathrm{Br}\cdot + \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \to \mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_2\mathrm{Br}
+$$
 
 The bromine radical adds to the **less substituted** carbon to form the more stable secondary
 radical (on C2).
 
 Propagation 2:
 
-$$\mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_2\mathrm{Br} + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} + \mathrm{Br}\cdot$$
+$$
+\mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_2\mathrm{Br} + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} + \mathrm{Br}\cdot
+$$
 
 **Product:** 1-bromopropane (anti-Markovnikov).
 
@@ -637,7 +649,9 @@ cannot compete.
 
 **Polymer:** Poly(chloroethene) / PVC
 
-$$n\,\mathrm{CH}_2=\mathrm{CHCl} \to \mathrm{--}(\mathrm{CH}_2\mathrm{CHCl})_n\mathrm{--}$$
+$$
+n\,\mathrm{CH}_2=\mathrm{CHCl} \to \mathrm{--}(\mathrm{CH}_2\mathrm{CHCl})_n\mathrm{--}
+$$
 
 **Properties:** Rigid, flame-retardant (due to chlorine content), used for pipes and window frames.
 Addition of plasticisers makes flexible PVC for cable insulation and flooring.
@@ -792,41 +806,59 @@ a wide range of functional groups.
 
 Step 1: Anti-Markovnikov addition of HBr (peroxide effect):
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
 Step 2: Hydrolysis to propan-1-ol:
 
-$$\mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH}(aq) \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaBr}$$
+$$
+\mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH}(aq) \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaBr}
+$$
 
 Step 3: Oxidation to propanal (distillation conditions):
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}
+$$
 
 Step 4: Cyanohydrin formation:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN}
+$$
 
 Step 5: Acid hydrolysis of the nitrile:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH} + \mathrm{NH}_4^+$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH} + \mathrm{NH}_4^+
+$$
 
 This gives 2-hydroxybutanoic acid. For lactic acid specifically, a different approach:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{HBr}/\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{HBr}/\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
 Actually, lactic acid is 2-hydroxypropanoic acid
 ($\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{COOH}$). A more direct route from propene:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2\mathrm{O}/\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}]} \mathrm{CH}_3\mathrm{COCH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2\mathrm{O}/\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}]} \mathrm{CH}_3\mathrm{COCH}_3
+$$
 
 Since direct oxidation of propan-2-ol gives propanone (ketone, not further oxidised), we need a
 different approach. The most efficient route is:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2\mathrm{O}/\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2\mathrm{O}/\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3
+$$
 
 Then use the cyanohydrin route on ethanal (derived from ethanol oxidation):
 
-$$\mathrm{CH}_3\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{COOH}$$
+$$
+\mathrm{CH}_3\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{COOH}
+$$
 
 This demonstrates the importance of choosing the correct disconnection strategy in retrosynthesis.
 

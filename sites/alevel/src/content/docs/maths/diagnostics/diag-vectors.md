@@ -65,26 +65,44 @@ $\overrightarrow{PA} = \mathbf{a} - \mathbf{p} = \begin{pmatrix} 3 \\ -2 \\ 6 \e
 
 The shortest distance is:
 
-$$d = \frac{\lvert\overrightarrow{PA} \times \mathbf{d}\rvert}{\lvert\mathbf{d}\rvert}$$
+$$
+d = \frac{\lvert\overrightarrow{PA} \times \mathbf{d}\rvert}{\lvert\mathbf{d}\rvert}
+$$
 
-$$\overrightarrow{PA} \times \mathbf{d} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 3 & -2 & 6 \\ 2 & -1 & 3 \end{vmatrix} = \mathbf{i}(-6-(-6)) - \mathbf{j}(9-12) + \mathbf{k}(-3-(-4))$$
+$$
+\overrightarrow{PA} \times \mathbf{d} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 3 & -2 & 6 \\ 2 & -1 & 3 \end{vmatrix} = \mathbf{i}(-6-(-6)) - \mathbf{j}(9-12) + \mathbf{k}(-3-(-4))
+$$
 
-$$= 0\mathbf{i} + 3\mathbf{j} + 1\mathbf{k} = \begin{pmatrix} 0 \\ 3 \\ 1 \end{pmatrix}$$
+$$
+= 0\mathbf{i} + 3\mathbf{j} + 1\mathbf{k} = \begin{pmatrix} 0 \\ 3 \\ 1 \end{pmatrix}
+$$
 
-$$\lvert\overrightarrow{PA} \times \mathbf{d}\rvert = \sqrt{0 + 9 + 1} = \sqrt{10}$$
+$$
+\lvert\overrightarrow{PA} \times \mathbf{d}\rvert = \sqrt{0 + 9 + 1} = \sqrt{10}
+$$
 
-$$\lvert\mathbf{d}\rvert = \sqrt{4 + 1 + 9} = \sqrt{14}$$
+$$
+\lvert\mathbf{d}\rvert = \sqrt{4 + 1 + 9} = \sqrt{14}
+$$
 
-$$d = \frac{\sqrt{10}}{\sqrt{14}} = \sqrt{\frac{5}{7}}$$
+$$
+d = \frac{\sqrt{10}}{\sqrt{14}} = \sqrt{\frac{5}{7}}
+$$
 
 **(b)** The point $B$ on $l$ closest to $A$ satisfies
 $\overrightarrow{PB} = \frac{\overrightarrow{PA} \cdot \mathbf{d}}{\lvert\mathbf{d}\rvert^2}\mathbf{d}$.
 
-$$\overrightarrow{PA} \cdot \mathbf{d} = 6 + 2 + 18 = 26$$
+$$
+\overrightarrow{PA} \cdot \mathbf{d} = 6 + 2 + 18 = 26
+$$
 
-$$\overrightarrow{PB} = \frac{26}{14}\begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix} = \frac{13}{7}\begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix}$$
+$$
+\overrightarrow{PB} = \frac{26}{14}\begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix} = \frac{13}{7}\begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix}
+$$
 
-$$\mathbf{b} = \mathbf{p} + \overrightarrow{PB} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix} + \begin{pmatrix} 26/7 \\ -13/7 \\ 39/7 \end{pmatrix} = \begin{pmatrix} 33/7 \\ 1/7 \\ 32/7 \end{pmatrix}$$
+$$
+\mathbf{b} = \mathbf{p} + \overrightarrow{PB} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix} + \begin{pmatrix} 26/7 \\ -13/7 \\ 39/7 \end{pmatrix} = \begin{pmatrix} 33/7 \\ 1/7 \\ 32/7 \end{pmatrix}
+$$
 
 Verification:
 $\overrightarrow{BA} = \begin{pmatrix} 4-33/7 \\ 0-1/7 \\ 5-32/7 \end{pmatrix} = \begin{pmatrix} -5/7 \\ -1/7 \\ 3/7 \end{pmatrix}$.
@@ -101,7 +119,9 @@ Actual shortest distance: $\sqrt{5/7} = \sqrt{35}/7 \approx 0.845$.
 
 Student"s answer: $\sqrt{11} \approx 3.317$.
 
-$$\text{Percentage overestimate} = \frac{\sqrt{11} - \sqrt{5/7}}{\sqrt{5/7}} \times 100\% = \left(\frac{\sqrt{77}}{\sqrt{5}} - 1\right) \times 100\% \approx 293\%$$
+$$
+\text{Percentage overestimate} = \frac{\sqrt{11} - \sqrt{5/7}}{\sqrt{5/7}} \times 100\% = \left(\frac{\sqrt{77}}{\sqrt{5}} - 1\right) \times 100\% \approx 293\%
+$$
 
 ---
 
@@ -143,7 +163,9 @@ parallel.
 
 For intersection, there exist $s, t$ such that:
 
-$$1 + 2s = 4 + t, \quad 2 - s = 1 + at, \quad 3 + s = 0 + 2t$$
+$$
+1 + 2s = 4 + t, \quad 2 - s = 1 + at, \quad 3 + s = 0 + 2t
+$$
 
 From the first equation: $t = 2s - 3$.
 
@@ -170,7 +192,9 @@ The system is inconsistent, so the lines are **skew**.
 
 The shortest distance between two skew lines is:
 
-$$d = \frac{\lvert(\mathbf{b} - \mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2)\rvert}{\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert}$$
+$$
+d = \frac{\lvert(\mathbf{b} - \mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2)\rvert}{\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert}
+$$
 
 $\mathbf{b} - \mathbf{a} = \begin{pmatrix} 3 \\ -1 \\ -3 \end{pmatrix}$.
 
@@ -180,7 +204,9 @@ $\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert = \sqrt{9+9+1} = \sqrt{19}$
 
 $(\mathbf{b}-\mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2) = -9 + 3 + 3 = -3$
 
-$$d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19}}{19}$$
+$$
+d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19}}{19}
+$$
 
 ---
 
@@ -214,13 +240,21 @@ intersection by solving a system.]
 **(a)** Normal to $\Pi_1$: $\mathbf{n}_1 = \begin{pmatrix} 2 \\ -1 \\ 2 \end{pmatrix}$. Normal to
 $\Pi_2$: $\mathbf{n}_2 = \begin{pmatrix} 1 \\ 2 \\ -2 \end{pmatrix}$.
 
-$$\mathbf{n}_1 \cdot \mathbf{n}_2 = 2 - 2 - 4 = -4$$
+$$
+\mathbf{n}_1 \cdot \mathbf{n}_2 = 2 - 2 - 4 = -4
+$$
 
-$$\lvert\mathbf{n}_1\rvert = \sqrt{4+1+4} = 3, \quad \lvert\mathbf{n}_2\rvert = \sqrt{1+4+4} = 3$$
+$$
+\lvert\mathbf{n}_1\rvert = \sqrt{4+1+4} = 3, \quad \lvert\mathbf{n}_2\rvert = \sqrt{1+4+4} = 3
+$$
 
-$$\cos\theta = \frac{\lvert\mathbf{n}_1 \cdot \mathbf{n}_2\rvert}{\lvert\mathbf{n}_1\rvert\lvert\mathbf{n}_2\rvert} = \frac{4}{9}$$
+$$
+\cos\theta = \frac{\lvert\mathbf{n}_1 \cdot \mathbf{n}_2\rvert}{\lvert\mathbf{n}_1\rvert\lvert\mathbf{n}_2\rvert} = \frac{4}{9}
+$$
 
-$$\theta = \arccos\!\left(\frac{4}{9}\right)$$
+$$
+\theta = \arccos\!\left(\frac{4}{9}\right)
+$$
 
 Note the absolute value in the numerator: the angle between planes is defined as the acute angle, so
 we take $\lvert -4 \rvert = 4$.
@@ -228,7 +262,9 @@ we take $\lvert -4 \rvert = 4$.
 **(b)** The line of intersection has direction vector
 $\mathbf{d} = \mathbf{n}_1 \times \mathbf{n}_2$:
 
-$$\mathbf{d} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 2 & -1 & 2 \\ 1 & 2 & -2 \end{vmatrix} = \begin{pmatrix} 2-4 \\ -(−4−2) \\ 4+1 \end{pmatrix} = \begin{pmatrix} -2 \\ 6 \\ 5 \end{pmatrix}$$
+$$
+\mathbf{d} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 2 & -1 & 2 \\ 1 & 2 & -2 \end{vmatrix} = \begin{pmatrix} 2-4 \\ -(−4−2) \\ 4+1 \end{pmatrix} = \begin{pmatrix} -2 \\ 6 \\ 5 \end{pmatrix}
+$$
 
 To find a point on both planes, set $z = 0$:
 
@@ -327,7 +363,9 @@ $-3 + 3 = 0$).
 Tangent at $A(1, 2)$ with normal direction
 $\overrightarrow{OA} = \begin{pmatrix} -1 \\ -3 \end{pmatrix}$:
 
-$$-1(x-1) - 3(y-2) = 0 \implies -x + 1 - 3y + 6 = 0 \implies x + 3y - 7 = 0$$
+$$
+-1(x-1) - 3(y-2) = 0 \implies -x + 1 - 3y + 6 = 0 \implies x + 3y - 7 = 0
+$$
 
 ---
 
@@ -367,13 +405,19 @@ $\mathbf{r}_A = \begin{pmatrix} 3 \\ 0 \\ 1 \end{pmatrix} + t\begin{pmatrix} 4 \
 Position of $B$ at time $t$:
 $\mathbf{r}_B = \begin{pmatrix} 10 \\ 7 \\ 4 \end{pmatrix} + t\begin{pmatrix} 2 \\ 1 \\ 2 \end{pmatrix} = \begin{pmatrix} 10+2t \\ 7+t \\ 4+2t \end{pmatrix}$.
 
-$$\overrightarrow{AB} = \mathbf{r}_B - \mathbf{r}_A = \begin{pmatrix} 7 - 2t \\ 7 - 2t \\ 3 + 2t \end{pmatrix}$$
+$$
+\overrightarrow{AB} = \mathbf{r}_B - \mathbf{r}_A = \begin{pmatrix} 7 - 2t \\ 7 - 2t \\ 3 + 2t \end{pmatrix}
+$$
 
 **(b)** Distance squared: $D^2 = (7-2t)^2 + (7-2t)^2 + (3+2t)^2$
 
-$$= 2(49 - 28t + 4t^2) + (9 + 12t + 4t^2) = 8t^2 - 56t + 98 + 4t^2 + 12t + 9 = 12t^2 - 44t + 107$$
+$$
+= 2(49 - 28t + 4t^2) + (9 + 12t + 4t^2) = 8t^2 - 56t + 98 + 4t^2 + 12t + 9 = 12t^2 - 44t + 107
+$$
 
-$$\frac{d(D^2)}{dt} = 24t - 44 = 0 \implies t = \frac{44}{24} = \frac{11}{6}$$
+$$
+\frac{d(D^2)}{dt} = 24t - 44 = 0 \implies t = \frac{44}{24} = \frac{11}{6}
+$$
 
 Wait, this gives $t = 11/6$Not $t = 1$. Let me re-check the claim.
 
@@ -442,7 +486,9 @@ $\mathbf{a}$$\mathbf{b}$$\mathbf{c}$$\mathbf{d}$.
 
 Since $ABCD$ is a parallelogram, $\overrightarrow{AB} = \overrightarrow{DC}$:
 
-$$\mathbf{b} - \mathbf{a} = \mathbf{c} - \mathbf{d} \implies \mathbf{a} + \mathbf{c} = \mathbf{b} + \mathbf{d}$$
+$$
+\mathbf{b} - \mathbf{a} = \mathbf{c} - \mathbf{d} \implies \mathbf{a} + \mathbf{c} = \mathbf{b} + \mathbf{d}
+$$
 
 The midpoint of diagonal $AC$: $\frac{\mathbf{a} + \mathbf{c}}{2}$.
 
@@ -458,16 +504,22 @@ The midpoint of $BC$ has position vector $\frac{\mathbf{b}+\mathbf{c}}{2}$.
 
 The median from $A$ to the midpoint of $BC$ has equation:
 
-$$\mathbf{r} = \mathbf{a} + t\left(\frac{\mathbf{b}+\mathbf{c}}{2} - \mathbf{a}\right) = \mathbf{a} + t\left(\frac{\mathbf{b}+\mathbf{c}-2\mathbf{a}}{2}\right)$$
+$$
+\mathbf{r} = \mathbf{a} + t\left(\frac{\mathbf{b}+\mathbf{c}}{2} - \mathbf{a}\right) = \mathbf{a} + t\left(\frac{\mathbf{b}+\mathbf{c}-2\mathbf{a}}{2}\right)
+$$
 
 Similarly, the median from $B$ to the midpoint of $AC$ has equation:
 
-$$\mathbf{r} = \mathbf{b} + s\left(\frac{\mathbf{a}+\mathbf{c}-2\mathbf{b}}{2}\right)$$
+$$
+\mathbf{r} = \mathbf{b} + s\left(\frac{\mathbf{a}+\mathbf{c}-2\mathbf{b}}{2}\right)
+$$
 
 For concurrency, set these equal and solve. By symmetry, the intersection occurs at
 $t = \frac{2}{3}$ (and $s = \frac{2}{3}$):
 
-$$G = \mathbf{a} + \frac{2}{3}\left(\frac{\mathbf{b}+\mathbf{c}-2\mathbf{a}}{2}\right) = \mathbf{a} + \frac{\mathbf{b}+\mathbf{c}-2\mathbf{a}}{3} = \frac{3\mathbf{a} + \mathbf{b} + \mathbf{c} - 2\mathbf{a}}{3} = \frac{\mathbf{a}+\mathbf{b}+\mathbf{c}}{3}$$
+$$
+G = \mathbf{a} + \frac{2}{3}\left(\frac{\mathbf{b}+\mathbf{c}-2\mathbf{a}}{2}\right) = \mathbf{a} + \frac{\mathbf{b}+\mathbf{c}-2\mathbf{a}}{3} = \frac{3\mathbf{a} + \mathbf{b} + \mathbf{c} - 2\mathbf{a}}{3} = \frac{\mathbf{a}+\mathbf{b}+\mathbf{c}}{3}
+$$
 
 By the cyclic symmetry of $\frac{\mathbf{a}+\mathbf{b}+\mathbf{c}}{3}$The same point
 lies on all three medians.
@@ -483,7 +535,9 @@ For triangle $ABC$ with vertices at position vectors $\mathbf{a}$$\mathbf{b}$$\m
 Midpoint of $AB$: $M = \frac{\mathbf{a}+\mathbf{b}}{2}$. Midpoint of $AC$:
 $N = \frac{\mathbf{a}+\mathbf{c}}{2}$.
 
-$$\overrightarrow{MN} = \frac{\mathbf{a}+\mathbf{c}}{2} - \frac{\mathbf{a}+\mathbf{b}}{2} = \frac{\mathbf{c}-\mathbf{b}}{2} = \frac{1}{2}\overrightarrow{BC}$$
+$$
+\overrightarrow{MN} = \frac{\mathbf{a}+\mathbf{c}}{2} - \frac{\mathbf{a}+\mathbf{b}}{2} = \frac{\mathbf{c}-\mathbf{b}}{2} = \frac{1}{2}\overrightarrow{BC}
+$$
 
 Since $\overrightarrow{MN} = \frac{1}{2}\overrightarrow{BC}$The segment $MN$ is parallel to $BC$ and
 half its length. This is the midpoint theorem.

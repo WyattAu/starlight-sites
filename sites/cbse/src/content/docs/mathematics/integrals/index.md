@@ -68,7 +68,9 @@ Integration is the reverse process of differentiation. This topic covers basic i
 
 Let $u = x^2$, so $du = 2x \, dx$.
 
-$$\int 2x \cos(x^2) \, dx = \int \cos u \, du = \sin u + C = \sin(x^2) + C$$
+$$
+\int 2x \cos(x^2) \, dx = \int \cos u \, du = \sin u + C = \sin(x^2) + C
+$$
 
 **Common mistake:** Forgetting to substitute back. The answer is $\sin(x^2) + C$, not $\sin u + C$.
 
@@ -80,7 +82,9 @@ $$\int 2x \cos(x^2) \, dx = \int \cos u \, du = \sin u + C = \sin(x^2) + C$$
 
 Let $u = x$ and $dv = e^x \, dx$. Then $du = dx$ and $v = e^x$.
 
-$$\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x(x - 1) + C$$
+$$
+\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x(x - 1) + C
+$$
 
 **Common mistake:** Choosing the wrong $u$ and $dv$. Use LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential) to choose $u$.
 
@@ -92,9 +96,13 @@ $$\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x(x - 1) + C$$
 
 Use the identity $\sin^2 x = \frac{1 - \cos 2x}{2}$:
 
-$$\int_0^{\pi/2} \sin^2 x \, dx = \int_0^{\pi/2} \frac{1 - \cos 2x}{2} \, dx = \frac{1}{2}\left[x - \frac{\sin 2x}{2}\right]_0^{\pi/2}$$
+$$
+\int_0^{\pi/2} \sin^2 x \, dx = \int_0^{\pi/2} \frac{1 - \cos 2x}{2} \, dx = \frac{1}{2}\left[x - \frac{\sin 2x}{2}\right]_0^{\pi/2}
+$$
 
-$$= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}$$
+$$
+= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}
+$$
 
 **Common mistake:** Forgetting to evaluate at both limits. The definite integral is $F(b) - F(a)$, not just $F(b)$.
 
@@ -105,16 +113,24 @@ $$= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}$$
 **Solution:**
 
 Decompose into partial fractions:
-$$\frac{2x+3}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}$$
+$$
+\frac{2x+3}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}
+$$
 
-$$2x + 3 = A(x+2) + B(x+1)$$
+$$
+2x + 3 = A(x+2) + B(x+1)
+$$
 
 Set $x = -1$: $1 = A(1)$, so $A = 1$.
 Set $x = -2$: $-1 = B(-1)$, so $B = 1$.
 
-$$\int \frac{2x+3}{(x+1)(x+2)} \, dx = \int \frac{1}{x+1} \, dx + \int \frac{1}{x+2} \, dx = \ln|x+1| + \ln|x+2| + C$$
+$$
+\int \frac{2x+3}{(x+1)(x+2)} \, dx = \int \frac{1}{x+1} \, dx + \int \frac{1}{x+2} \, dx = \ln|x+1| + \ln|x+2| + C
+$$
 
-$$= \ln|(x+1)(x+2)| + C$$
+$$
+= \ln|(x+1)(x+2)| + C
+$$
 
 **Common mistake:** Forgetting the absolute value inside the logarithm. The integral of $\frac{1}{x}$ is $\ln|x| + C$, not $\ln x + C$.
 
@@ -125,11 +141,15 @@ $$= \ln|(x+1)(x+2)| + C$$
 **Solution:**
 
 Rewrite:
-$$\int \tan x \, dx = \int \frac{\sin x}{\cos x} \, dx$$
+$$
+\int \tan x \, dx = \int \frac{\sin x}{\cos x} \, dx
+$$
 
 Let $u = \cos x$, so $du = -\sin x \, dx$:
 
-$$= -\int \frac{1}{u} \, du = -\ln|u| + C = -\ln|\cos x| + C = \ln|\sec x| + C$$
+$$
+= -\int \frac{1}{u} \, du = -\ln|u| + C = -\ln|\cos x| + C = \ln|\sec x| + C
+$$
 
 **Common mistake:** Not recognizing that $\tan x = \frac{\sin x}{\cos x}$ is the starting point. Many students forget this basic identity.
 

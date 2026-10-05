@@ -69,11 +69,17 @@ Solid state chemistry covers the structure of crystalline solids, unit cells, pa
 
 For BCC: $Z = 2$ atoms per unit cell
 
-$$\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 93}{6.022 \times 10^{23} \times (3 \times 10^{-8})^3}$$
+$$
+\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 93}{6.022 \times 10^{23} \times (3 \times 10^{-8})^3}
+$$
 
-$$= \frac{186}{6.022 \times 10^{23} \times 27 \times 10^{-24}}$$
+$$
+= \frac{186}{6.022 \times 10^{23} \times 27 \times 10^{-24}}
+$$
 
-$$= \frac{186}{162.594} = 1.144 \, \text{g/cm}^3$$
+$$
+= \frac{186}{162.594} = 1.144 \, \text{g/cm}^3
+$$
 
 **Common mistake:** Using $Z = 1$ for BCC instead of $Z = 2$. In BCC, there is 1 atom from corners ($8 \times 1/8$) + 1 from body centre = 2.
 
@@ -84,7 +90,9 @@ $$= \frac{186}{162.594} = 1.144 \, \text{g/cm}^3$$
 **Solution:**
 
 In FCC, atoms touch along the face diagonal:
-$$\sqrt{2}a = 4r \implies a = 2\sqrt{2}r$$
+$$
+\sqrt{2}a = 4r \implies a = 2\sqrt{2}r
+$$
 
 Number of atoms per unit cell: $Z = 4$ (8 corners $\times 1/8$ + 6 faces $\times 1/2$)
 
@@ -93,7 +101,9 @@ Volume of atoms: $V_{\text{atoms}} = 4 \times \frac{4}{3}\pi r^3 = \frac{16}{3}\
 Volume of unit cell: $V_{\text{cell}} = a^3 = (2\sqrt{2}r)^3 = 16\sqrt{2}r^3$
 
 Packing efficiency:
-$$\eta = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} = \frac{\pi}{3\sqrt{2}} = 0.74 = 74\%$$
+$$
+\eta = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} = \frac{\pi}{3\sqrt{2}} = 0.74 = 74\%
+$$
 
 **Common mistake:** Using $a = 2r$ for FCC. In FCC, atoms touch along the face diagonal, so $\sqrt{2}a = 4r$.
 

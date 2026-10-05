@@ -147,7 +147,9 @@ $q_0, \delta(q_0, w_1), \delta(\delta(q_0, w_1), w_2), \ldots$ ends in a state i
 
 **Example.** DFA for strings over $\{0, 1\}$ containing the substring `01`:
 
-$$M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})$$
+$$
+M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})
+$$
 
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
@@ -173,7 +175,9 @@ Reading a new bit $b$ appends $b$ to the right: the new value is $2r + b \bmod 3
 States: $q_0$ (remainder 0), $q_1$ (remainder 1), $q_2$ (remainder 2). Start state: $q_0$ (the empty
 prefix has value 0). Accept state: $q_0$.
 
-$$M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})$$
+$$
+M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})
+$$
 
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
@@ -516,19 +520,27 @@ A production $A \to \alpha$ means variable $A$ can be replaced by string $\alpha
 
 **Example.** CFG for $L = \{a^n b^n : n \geq 0\}$:
 
-$$S \to aSb \mid \varepsilon$$
+$$
+S \to aSb \mid \varepsilon
+$$
 
 **Example.** CFG for balanced parentheses:
 
-$$S \to (S) \mid SS \mid \varepsilon$$
+$$
+S \to (S) \mid SS \mid \varepsilon
+$$
 
 **Example.** CFG for $\{w \in \{0,1\}^* : w = w^R\}$ (palindromes):
 
-$$S \to 0S0 \mid 1S1 \mid 0 \mid 1 \mid \varepsilon$$
+$$
+S \to 0S0 \mid 1S1 \mid 0 \mid 1 \mid \varepsilon
+$$
 
 **Example.** CFG for $L = \{a^i b^j c^k : i = j + k\}$:
 
-$$S \to aSb \mid T, \quad T \to aTc \mid \varepsilon$$
+$$
+S \to aSb \mid T, \quad T \to aTc \mid \varepsilon
+$$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
 $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$The total number Of
@@ -536,21 +548,27 @@ $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$T
 
 **Example.** CFG for strings with equal numbers of `0`S and `1`S:
 
-$$S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon$$
+$$
+S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon
+$$
 
 The first two rules add a matched pair (in either order); the third concatenates two balanced
 Strings; the fourth handles the empty string.
 
 **Example.** CFG for the language of all strings over $\{a, b\}$ that are **not** palindromes:
 
-$$S \to aAb \mid bAa \mid aSa \mid bSb \mid a \mid b, \quad A \to aAa \mid aAb \mid bAa \mid bAb \mid a \mid b$$
+$$
+S \to aAb \mid bAa \mid aSa \mid bSb \mid a \mid b, \quad A \to aAa \mid aAb \mid bAa \mid bAb \mid a \mid b
+$$
 
 Here $S$ generates non-palindromes and $A$ generates arbitrary strings of length $\geq 1$.
 
 <details>
 <summary>Worked Example: CFG for $\{a^i b^j : 2i = j \mathrm{ or}  2j = i\}$</summary>
 
-$$S \to S_1 \mid S_2, \quad S_1 \to aS_1bb \mid \varepsilon, \quad S_2 \to aaS_2b \mid \varepsilon$$
+$$
+S \to S_1 \mid S_2, \quad S_1 \to aS_1bb \mid \varepsilon, \quad S_2 \to aaS_2b \mid \varepsilon
+$$
 
 $S_1$ generates $\{a^i b^{2i}\}$ and $S_2$ generates $\{a^{2j} b^j\}$. Their union is the desired
 Language.
@@ -582,7 +600,9 @@ $(S + S) \times S$.
 **Removing ambiguity.** Some ambiguous grammars can be made unambiguous by rewriting the productions
 To enforce a particular evaluation order. For the arithmetic expression grammar:
 
-$$E \to E + T \mid T, \quad T \to T \times F \mid F, \quad F \to (E) \mid \mathrm{id}$$
+$$
+E \to E + T \mid T, \quad T \to T \times F \mid F, \quad F \to (E) \mid \mathrm{id}
+$$
 
 This grammar is unambiguous and enforces the standard precedence ($\times$ before $+$) and left
 Associativity.
@@ -634,7 +654,9 @@ _Proof (conversion algorithm)._
 
 Convert the following grammar to CNF:
 
-$$S \to AbB, \quad A \to aA \mid \varepsilon, \quad B \to bB \mid \varepsilon$$
+$$
+S \to AbB, \quad A \to aA \mid \varepsilon, \quad B \to bB \mid \varepsilon
+$$
 
 **Step 1:** Add new start variable. $S_0 \to S$.
 
@@ -821,7 +843,9 @@ variables that can derive the substring $w_i w_{i+1} \cdots w_j$.
 
 1. **Base case** ($j = 1$): $T[i, i] = \{A : A \to w_i \mathrm{ is a rule in  G\}$.
 2. **Recursive case** ($j \gt 1$): For each split $k$ with $i \leq k \lt j$:
-   $$T[i, j] \mathrel{{:}{=}} T[i, j] \cup \{A : A \to BC \in R, B \in T[i, k], C \in T[k+1, j]\}$$
+   $$
+   T[i, j] \mathrel{{:}{=}} T[i, j] \cup \{A : A \to BC \in R, B \in T[i, k], C \in T[k+1, j]\}
+   $$
 3. **Answer:** $w \in L(G)$ iff $S \in T[1, n]$.
 
 _Proof of correctness._ In CNF, every derivation of a string of length $\ell$ involves exactly
@@ -1202,7 +1226,9 @@ Strings $\alpha = (\alpha_1, \ldots, \alpha_k)$ and $\beta = (\beta_1, \ldots, \
 Alphabet $\Sigma$. A **solution** is a non-empty sequence of indices $i_1, i_2, \ldots, i_m$ such
 That:
 
-$$\alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}$$
+$$
+\alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}
+$$
 
 The **PCP language** is
 $\mathrm{PCP} = \{\langle \alpha, \beta \rangle : \alpha, \beta \mathrm{ have} a solution\}$.
@@ -1263,7 +1289,9 @@ Non-relativising techniques, proof methods that do not carry over in the presenc
 
 **The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
 
-$$A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}$$
+$$
+A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}
+$$
 
 **Theorem 5.8.** $A' \not\leq_T A$ (i.e., $A'$ is strictly more difficult than $A$ under Turing
 Reductions).
@@ -1320,7 +1348,9 @@ $\mathrm{NTIME(t(n)) = \{L : L \mathrm{ is decided by a nondeterministic TM in  
 
 ### 6.2 The Class P
 
-$$\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)$$
+$$
+\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)
+$$
 
 $\mathrm{P$ is the class of languages decidable in polynomial time by a deterministic TM. This
 Captures the notion of "efficiently solvable."
@@ -1335,12 +1365,16 @@ Captures the notion of "efficiently solvable."
 
 ### 6.3 The Class NP
 
-$$\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)$$
+$$
+\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)
+$$
 
 **Equivalent definition.** A language $L$ is in NP if there exists a polynomial-time verifier $V$
 And a polynomial $p$ such that:
 
-$$L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}$$
+$$
+L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}
+$$
 
 The string $c$ is called a **certificate** (or witness).
 
@@ -1527,13 +1561,21 @@ Equal sum?
 
 **Reduction chain:**
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
 <details>
 <summary>Worked Example: Reducing 3-SAT to Independent Set</summary>
@@ -1636,7 +1678,9 @@ Quantifiers.
 **Equivalent characterisation.** A language $L$ is in $\Sigma_k^P$ iff there exist polynomial-time
 Computable relations $R$ and polynomials $p$ such that:
 
-$$L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}$$
+$$
+L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}
+$$
 
 Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\exists$.
 
@@ -1649,7 +1693,9 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 **Relationships:**
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
@@ -1678,7 +1724,9 @@ $\blacksquare$
 
 **PSPACE.** The class of languages decidable in polynomial space:
 
-$$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
+$$
+\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE}$.
 - $\mathrm{P} \neq \mathrm{PSPACE}$ (space hierarchy theorem).
@@ -1687,7 +1735,9 @@ $$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
 
 **EXPTIME.** The class of languages decidable in exponential time:
 
-$$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
+$$
+\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$.
 - $\mathrm{P} \neq \mathrm{EXPTIME}$ (time hierarchy theorem).
@@ -1696,11 +1746,17 @@ $$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
 
 **Hierarchy summary:**
 
-$$\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}$$
+$$
+\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}
+$$
 
-$$\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME$$
+$$
+\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME
+$$
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 | Inclusion                                                        | Known to be proper? | Theorem used        |
 | ---------------------------------------------------------------- | ------------------- | ------------------- |

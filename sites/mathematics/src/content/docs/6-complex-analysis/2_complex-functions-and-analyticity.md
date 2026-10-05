@@ -62,7 +62,9 @@ zero). If we define $f(1) = 2$ Then $f$ becomes continuous at $z = 1$.
 
 **Definition.** $f$ is **differentiable** at $z_0$ if
 
-$$f"(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}$$
+$$
+f"(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}
+$$
 
 Exists (and is independent of how $h \to 0$ in $\mathbb{C}$).
 
@@ -112,7 +114,9 @@ Defined on a domain $D$ such that $g(z) \in f(z)$ for all $z \in D$.
 **The Complex Logarithm.** We define $\log z = \ln|z| + i\arg(z)$Which is multi-valued because
 $\arg(z) = \mathrm{Arg}(z) + 2\pi k$ for $k \in \mathbb{Z}$. The **principal branch** is
 
-$$\mathrm{Log}\, z = \ln|z| + i\,\mathrm{Arg}(z)$$
+$$
+\mathrm{Log}\, z = \ln|z| + i\,\mathrm{Arg}(z)
+$$
 
 Defined on $\mathbb{C} \setminus (-\infty, 0]$. The negative real axis is called the **branch cut**.
 
@@ -121,7 +125,9 @@ $\mathbb{C} \setminus (-\infty, 0]$ and $\frac{d}{dz}\,\mathrm{Log}\, z = \frac{
 
 **Complex Powers.** For $z, \alpha \in \mathbb{C}$ with $z \neq 0$:
 
-$$z^\alpha = e^{\alpha \log z}$$
+$$
+z^\alpha = e^{\alpha \log z}
+$$
 
 This is multi-valued . When $\alpha$ is rational with reduced form $p/q$There are exactly $q$
 distinct values.

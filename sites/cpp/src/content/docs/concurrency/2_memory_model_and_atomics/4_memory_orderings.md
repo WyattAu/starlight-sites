@@ -58,7 +58,9 @@ Weaker ordering than required results in undefined behavior.
 Relaxed atomics guarantee **atomicity only**: the operation is indivisible, but there are no
 Ordering constraints with respect to other memory operations.
 
-$$\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering$$
+$$
+\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering
+$$
 
 Use cases:
 
@@ -123,17 +125,23 @@ void reader() {
 **Acquire** semantics [N4950 §31.7.5] prevent memory operations **after** the atomic operation from
 Being reordered **before** it:
 
-$$\mathrm{acquire:  \forall\, w \mathrm{ after  \mathrm{load: w \nrightarrow \mathrm{before load$$
+$$
+\mathrm{acquire:  \forall\, w \mathrm{ after  \mathrm{load: w \nrightarrow \mathrm{before load
+$$
 
 **Release** semantics prevent memory operations **before** the atomic operation from being reordered
 **after** it:
 
-$$\mathrm{release:  \forall\, r \mathrm{ before  \mathrm{store: r \nrightarrow \mathrm{after store$$
+$$
+\mathrm{release:  \forall\, r \mathrm{ before  \mathrm{store: r \nrightarrow \mathrm{after store
+$$
 
 When a release store synchronizes-with an acquire load, a **synchronizes-with** relationship is
 Established [N4950 §31.7.5]:
 
-$$\mathrm{store_{\mathrm{release}(x) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x)$$
+$$
+\mathrm{store_{\mathrm{release}(x) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x)
+$$
 
 This creates a happens-before edge, and all memory operations sequenced-before the release store are
 Visible to all operations sequenced-after the acquire load.
@@ -199,7 +207,9 @@ $\mathrm{S$ over all `seq_cst` operations such that:
 2. Every `seq_cst` load reads either the last preceding `seq_cst` store in $\mathrm{S$ or a value
    written by a non-`seq_cst` store.
 
-$$\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  b \lt_{\mathrm{total} a$$
+$$
+\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  b \lt_{\mathrm{total} a
+$$
 
 On x86, `seq_cst` stores require a `MFENCE` (or `LOCK XCHG`), and `seq_cst` loads require `LFENCE`
 On some implementations. On ARM, `seq_cst` operations use `dmb ish` barriers.

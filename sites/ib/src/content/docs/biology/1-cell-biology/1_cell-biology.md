@@ -1052,12 +1052,16 @@ The process of breaking open cells and separating organelles by differential cen
 
 **Magnification calculation:**
 
-$$\mathrm{Magnification} = \frac{\text{image size}}{\text{actual size}}$$
+$$
+\mathrm{Magnification} = \frac{\text{image size}}{\text{actual size}}
+$$
 
 **Resolution**: the minimum distance between two points that can be distinguished as separate. The
 Resolving power of a microscope is limited by the wavelength of the illuminating radiation:
 
-$$d = \frac{0.61\lambda}{n \sin\theta}$$
+$$
+d = \frac{0.61\lambda}{n \sin\theta}
+$$
 
 Where $\lambda$ is the wavelength, $n$ is the refractive index of the medium, and $\theta$ is the
 Half-angle of the cone of light entering the objective.
@@ -1675,7 +1679,9 @@ Produced by a resting neuron and $10$--$20\%$ of total body ATP at rest.
 
 Using the Goldman equation (constant field approximation) for a neuron:
 
-$$V_m = \frac{RT}{F}\ln\frac{P_{\mathrm{Na}}[\mathrm{Na}^+]_{out} + P_{\mathrm{K}}[\mathrm{K}^+]_{out} + P_{\mathrm{Cl}}[\mathrm{Cl}^-]_{in}}{P_{\mathrm{Na}}[\mathrm{Na}^+]_{in} + P_{\mathrm{K}}[\mathrm{K}^+]_{in} + P_{\mathrm{Cl}}[\mathrm{Cl}^-]_{out}}$$
+$$
+V_m = \frac{RT}{F}\ln\frac{P_{\mathrm{Na}}[\mathrm{Na}^+]_{out} + P_{\mathrm{K}}[\mathrm{K}^+]_{out} + P_{\mathrm{Cl}}[\mathrm{Cl}^-]_{in}}{P_{\mathrm{Na}}[\mathrm{Na}^+]_{in} + P_{\mathrm{K}}[\mathrm{K}^+]_{in} + P_{\mathrm{Cl}}[\mathrm{Cl}^-]_{out}}
+$$
 
 At $37^\circ\mathrm{C}$ ($RT/F = 26.7\;\mathrm{mV}$), with:
 

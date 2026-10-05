@@ -40,7 +40,9 @@ Communication:
 **Encapsulation.** Each layer adds its own header (and possibly trailer) to the data from the layer
 Above, forming a **protocol data unit (PDU)**:
 
-$$\mathrm{Data} \xrightarrow{+\mathrm{th} \mathrm{Segment} \xrightarrow{+\mathrm{nh} \mathrm{Packet} \xrightarrow{+\mathrm{fh}+ft} \mathrm{Frame} \xrightarrow{\mathrm{encode} \mathrm{Bits}}}}$$
+$$
+\mathrm{Data} \xrightarrow{+\mathrm{th} \mathrm{Segment} \xrightarrow{+\mathrm{nh} \mathrm{Packet} \xrightarrow{+\mathrm{fh}+ft} \mathrm{Frame} \xrightarrow{\mathrm{encode} \mathrm{Bits}}}}
+$$
 
 ### 1.2 The TCP/IP Model
 
@@ -120,7 +122,9 @@ Line-of-sight constraints.
 - **Bit rate:** Number of bits transmitted per second (bps).
 - **Nyquist theorem:** For a noiseless channel of bandwidth $H$ Hz with $V$ discrete signal levels:
 
-$$C = 2H \log_2 V \;\mathrm{bps}$$
+$$
+C = 2H \log_2 V \;\mathrm{bps}
+$$
 
 **Theorem 2.1 (Nyquist--Shannon Sampling Theorem).** A bandlimited signal of bandwidth $H$ Hz can Be
 perfectly reconstructed from samples taken at a rate of at least $2H$ samples per second.
@@ -134,7 +138,9 @@ $H$. When $f_s \lt 2H$Aliasing occurs and perfect recovery is Impossible. $\blac
 
 - **Shannon capacity:** For a noisy channel with signal-to-noise ratio $\mathrm{SNR}$:
 
-$$C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}$$
+$$
+C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}
+$$
 
 **Theorem 2.2 (Shannon--Hartley Theorem).** The channel capacity $C$ is the maximum error-free data
 Rate achievable on a channel of bandwidth $H$ with signal-to-noise ratio $\mathrm{SNR}$.
@@ -170,8 +176,12 @@ A satellite channel has a bandwidth of 36 MHz and an SNR of 30 dB. Find the maxi
 First convert SNR from dB to linear: $$\mathrm{SNR_}{\mathrm{linear} = 10^{30/10} = 1000}$$
 
 Apply Shannon's formula: $$C = H \log_2(1 + \mathrm{SNR}) = 36 \times 10^6 \times \log_2(1001)$$
-$$\log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967$$
-$$C = 36 \times 10^6 \times 9.967 \approx 358.8 \times 10^6 \;\mathrm{bps} \approx 358.8\;\mathrm{Mbps}$$
+$$
+\log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967
+$$
+$$
+C = 36 \times 10^6 \times 9.967 \approx 358.8 \times 10^6 \;\mathrm{bps} \approx 358.8\;\mathrm{Mbps}
+$$
 
 **Answer:** The maximum achievable data rate is approximately 358.8 Mbps. Any attempt to exceed This
 rate will result in an unacceptable error rate regardless of the modulation scheme used.
@@ -186,14 +196,18 @@ A channel has $H = 6000$ Hz and $\mathrm{SNR} = 1023$ (30 dB).
 **Shannon limit:** $$C = 6000 \times \log_2(1024) = 6000 \times 10 = 60000\;\mathrm{bps}$$
 
 **Nyquist limit with $V = 8$:**
-$$C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}$$
+$$
+C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}
+$$
 
 The Nyquist limit (36 kbps) is below the Shannon limit (60 kbps), so 8 signal levels are Achievable.
 With $V = 64$: $$C = 12000 \times 6 = 72000\;\mathrm{bps}$$
 
 This exceeds Shannon's limit of 60 kbps, meaning 64 levels would produce errors. The maximum Number
 of levels consistent with Shannon:
-$$C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \implies V = 32}$$
+$$
+C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \implies V = 32}
+$$
 
 **Answer:** At most 32 signal levels can be used reliably on this channel.
 
@@ -242,14 +256,22 @@ $\log_2 M = 2k$ bits. The symbol rate equals the bandwidth $B$ (Nyquist: 2 symbo
 
 A 256-QAM modem operates over a 20 MHz channel. What is the maximum data rate?
 
-$$M = 256, \quad \log_2 256 = 8 \;\mathrm{bits}/symbol$$
+$$
+M = 256, \quad \log_2 256 = 8 \;\mathrm{bits}/symbol
+$$
 
-$$\mathrm{Bit}\;rate = 8 \times 20 \times 10^6 = 160\;\mathrm{Mbps}$$
+$$
+\mathrm{Bit}\;rate = 8 \times 20 \times 10^6 = 160\;\mathrm{Mbps}
+$$
 
 If the channel has SNR = 24 dB, verify against Shannon:
 
-$$\mathrm{SNR_}{\mathrm{linear} = 10^{24/10} = 251.2}$$
-$$C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \approx 159.6\;\mathrm{Mbps}$$
+$$
+\mathrm{SNR_}{\mathrm{linear} = 10^{24/10} = 251.2}
+$$
+$$
+C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \approx 159.6\;\mathrm{Mbps}
+$$
 
 The Nyquist-based rate (160 Mbps) is very close to the Shannon limit (159.6 Mbps), meaning 256-QAM
 Is near-optimal for this channel but has almost no margin for noise or interference.
@@ -368,9 +390,13 @@ $r = 3$).
 
 **Step 2:** Perform modulo-2 (XOR) polynomial division.
 
-$$M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1$$
+$$
+M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1
+$$
 
-$$M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}$$
+$$
+M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}
+$$
 
 Division steps:
 
@@ -427,7 +453,9 @@ returns From the farthest point on the network. The worst-case round-trip propag
 $2\tau$Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
 $2 \times 10^8$ m/s in copper). The minimum frame size is therefore:
 
-$$L_{\min} = R \times 2\tau = \frac{2Rd}{v}$$
+$$
+L_{\min} = R \times 2\tau = \frac{2Rd}{v}
+$$
 
 Where $R$ is the data rate.
 
@@ -443,7 +471,9 @@ Worst case: collision occurs at the far end, signal must travel back. Total time
 $2\tau = 20\;\mu\mathrm{s}$.
 
 The sender must still be transmitting after $2\tau$:
-$$L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}$$
+$$
+L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}
+$$
 
 **Answer:** The minimum frame size is 250 bytes (2000 bits). Any frame shorter than this risks an
 Undetected collision.
@@ -534,7 +564,9 @@ is 1.
 
 **Theorem 3.3 (CSMA/CD efficiency).** The maximum efficiency of CSMA/CD is:
 
-$$\eta = \frac{1}{1 + 5a}$$
+$$
+\eta = \frac{1}{1 + 5a}
+$$
 
 Where $a = \tau / T_f$ is the ratio of propagation delay to frame transmission time.
 
@@ -599,9 +631,13 @@ Link rate, and $d_{\mathrm{prop}}$ is the propagation delay.
 
 For a path through $n$ switches:
 
-$$\mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}$$
+$$
+\mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}
+$$
 
-$$\mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}$$
+$$
+\mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}
+$$
 
 <details>
 <summary>Worked Example: Switching Latency Comparison</summary>
@@ -611,11 +647,15 @@ Propagation delay.
 
 **Store-and-forward:**
 
-$$\mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}$$
+$$
+\mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}
+$$
 
 **Cut-through:**
 
-$$\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}$$
+$$
+\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}
+$$
 
 **Answer:** Cut-through saves approximately 23.8 $\mu$S (47% reduction) for this scenario, but it
 Cannot detect corrupted frames before forwarding them.
@@ -1104,7 +1144,9 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 TCP uses a **sliding window**. The receiver advertises `rwnd` (receive window). The sender never has
 More than `rwnd` bytes of unacknowledged data in flight.
 
-$$\mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})$$
+$$
+\mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})
+$$
 
 **Example.** Buffer size 4096, 1024 unprocessed bytes: `rwnd = 3072`. The window slides as data is
 Acknowledged and the receiver processes data.
@@ -1187,11 +1229,17 @@ Cwnd = ssthresh = 13870 bytes, continue congestion avoidance.
 
 ### 5.8 Retransmission Timer
 
-$$\mathrm{RTT_s} = (1 - \alpha)\,\mathrm{RTT_s} + \alpha \cdot \mathrm{RTT_m}$$
+$$
+\mathrm{RTT_s} = (1 - \alpha)\,\mathrm{RTT_s} + \alpha \cdot \mathrm{RTT_m}
+$$
 
-$$\mathrm{RTT_d} = (1 - \beta)\,\mathrm{RTT_d} + \beta\,|\mathrm{RTT_m} - \mathrm{RTT_s}|$$
+$$
+\mathrm{RTT_d} = (1 - \beta)\,\mathrm{RTT_d} + \beta\,|\mathrm{RTT_m} - \mathrm{RTT_s}|
+$$
 
-$$\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}$$
+$$
+\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}
+$$
 
 Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RTO = 1 s; minimum RTO
 = 200 ms.

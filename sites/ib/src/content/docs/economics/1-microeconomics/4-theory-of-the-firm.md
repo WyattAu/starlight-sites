@@ -62,8 +62,12 @@ Market structures are classified along several dimensions:
 - $P = \mathrm{MC}$ (allocative efficiency)
 - Zero economic profit, but normal profit is earned
 
-$$\text{Short-run: } P \geq \text{AVC}, \text{ produce where MR} = \text{MC}$$
-$$\text{Long-run: } P = \text{ATC}_{\min} = \text{MC}$$
+$$
+\text{Short-run: } P \geq \text{AVC}, \text{ produce where MR} = \text{MC}
+$$
+$$
+\text{Long-run: } P = \text{ATC}_{\min} = \text{MC}
+$$
 
 ### Monopoly
 
@@ -88,7 +92,9 @@ $$\text{Long-run: } P = \text{ATC}_{\min} = \text{MC}$$
 The monopolist produces where $\mathrm{MR} = \mathrm{MC}$ and charges the price found on the demand
 Curve at that quantity.
 
-$$\text{Profit} = (P - \text{ATC}) \times Q$$
+$$
+\text{Profit} = (P - \text{ATC}) \times Q
+$$
 
 In the long run, the monopolist can earn supernormal profit because barriers to entry prevent new
 Firms from entering the market.
@@ -150,7 +156,9 @@ discrimination:
 - **Excess capacity**: the firm produces at a lower output than the output that minimises ATC
 - **Allocative inefficiency**: $P > \mathrm{MC}$
 
-$$\text{Long-run: } P > \mathrm{MC} \text{ and } P = \text{ATC} > \text{ATC}_{\min}$$
+$$
+\text{Long-run: } P > \mathrm{MC} \text{ and } P = \text{ATC} > \text{ATC}_{\min}
+$$
 
 **Non-price competition**: firms compete through advertising, branding, product differentiation, and
 Customer service rather than solely through price.
@@ -193,7 +201,9 @@ Anti-trust/competition law.
 
 **Total cost (TC)** is the sum of total fixed cost (TFC) and total variable cost (TVC):
 
-$$\mathrm{TC} = \mathrm{TFC} + \mathrm{TVC}$$
+$$
+\mathrm{TC} = \mathrm{TFC} + \mathrm{TVC}
+$$
 
 - **Fixed costs**: costs that do not vary with output in the short run (rent, salaries of permanent
   staff, insurance)
@@ -201,11 +211,15 @@ $$\mathrm{TC} = \mathrm{TFC} + \mathrm{TVC}$$
 
 **Average costs:**
 
-$$\mathrm{AFC} = \frac{\mathrm{TFC}}{Q} \qquad \mathrm{AVC} = \frac{\mathrm{TVC}}{Q} \qquad \mathrm{ATC} = \frac{\mathrm{TC}}{Q} = \mathrm{AFC} + \mathrm{AVC}$$
+$$
+\mathrm{AFC} = \frac{\mathrm{TFC}}{Q} \qquad \mathrm{AVC} = \frac{\mathrm{TVC}}{Q} \qquad \mathrm{ATC} = \frac{\mathrm{TC}}{Q} = \mathrm{AFC} + \mathrm{AVC}
+$$
 
 **Marginal cost (MC):** the additional cost of producing one more unit:
 
-$$\mathrm{MC} = \frac{\Delta \mathrm{TC}}{\Delta Q}$$
+$$
+\mathrm{MC} = \frac{\Delta \mathrm{TC}}{\Delta Q}
+$$
 
 ### Short-Run Cost Curves
 
@@ -224,11 +238,15 @@ In the short run, as more of a variable factor (e.g., labour) is added to a fixe
 Capital), the marginal product of the variable factor eventually declines. This is not caused by
 Reduced quality of the variable factor but by the increasing ratio of variable to fixed factors.
 
-$$\mathrm{MP}_L = \frac{\Delta Q}{\Delta L} \qquad \text{Initially rises, then falls}$$
+$$
+\mathrm{MP}_L = \frac{\Delta Q}{\Delta L} \qquad \text{Initially rises, then falls}
+$$
 
 The relationship between production and cost:
 
-$$\mathrm{MC} = \frac{w}{\mathrm{MP}_L}$$
+$$
+\mathrm{MC} = \frac{w}{\mathrm{MP}_L}
+$$
 
 Where $w$ is the wage rate. When MP is rising, MC is falling; when MP is falling, MC is rising.
 
@@ -270,12 +288,16 @@ Relationship between AR and MR:
 
 A firm maximises profit by producing the quantity where:
 
-$$\mathrm{MR} = \mathrm{MC}$$
+$$
+\mathrm{MR} = \mathrm{MC}
+$$
 
 **Derivation:** profit $\pi = \mathrm{TR} - \mathrm{TC}$. Profit is maximised where the first
 Derivative equals zero:
 
-$$\frac{d\pi}{dQ} = \frac{d\mathrm{TR}}{dQ} - \frac{d\mathrm{TC}}{dQ} = \mathrm{MR} - \mathrm{MC} = 0$$
+$$
+\frac{d\pi}{dQ} = \frac{d\mathrm{TR}}{dQ} - \frac{d\mathrm{TC}}{dQ} = \mathrm{MR} - \mathrm{MC} = 0
+$$
 
 **Second-order condition:** $\frac{d^2\pi}{dQ^2} < 0$Meaning MC must be rising at the point where MR
 $=$ MC (MC cuts MR from below).
@@ -311,12 +333,16 @@ same level of output. Isoquants are analogous to indifference curves in consumer
 The **marginal rate of technical substitution** (MRTS) measures the rate at which one input can be
 Substituted for another while maintaining output:
 
-$$\mathrm{MRTS}_{LK} = -\frac{\Delta K}{\Delta L} = \frac{MP_L}{MP_K}$$
+$$
+\mathrm{MRTS}_{LK} = -\frac{\Delta K}{\Delta L} = \frac{MP_L}{MP_K}
+$$
 
 An **isocost line** shows all combinations of inputs that cost the same total amount. If the wage
 Rate is $w$ and the rental rate of capital is $r$:
 
-$$wL + rK = C$$
+$$
+wL + rK = C
+$$
 
 The slope of the isocost line is $-w/r$.
 
@@ -325,11 +351,15 @@ The slope of the isocost line is $-w/r$.
 A firm minimises the cost of producing a given level of output where the isoquant is tangent to the
 Isocost line:
 
-$$\mathrm{MRTS}_{LK} = \frac{w}{r}$$
+$$
+\mathrm{MRTS}_{LK} = \frac{w}{r}
+$$
 
 Or equivalently:
 
-$$\frac{MP_L}{w} = \frac{MP_K}{r}$$
+$$
+\frac{MP_L}{w} = \frac{MP_K}{r}
+$$
 
 This condition states that the marginal product per dollar spent must be equal across all inputs.
 
@@ -352,7 +382,9 @@ Produce an upward-sloping LRAC.
 
 The Cobb-Douglas production function is widely used in economics:
 
-$$Q = A \cdot K^\alpha \cdot L^\beta$$
+$$
+Q = A \cdot K^\alpha \cdot L^\beta
+$$
 
 Where $A$ is total factor productivity, $\alpha$ is the output elasticity of capital, and $\beta$ is
 The output elasticity of labour.
@@ -365,27 +397,45 @@ The output elasticity of labour.
 
 **Marginal products:**
 
-$$MP_K = \frac{\partial Q}{\partial K} = \alpha \cdot A \cdot K^{\alpha - 1} \cdot L^\beta = \alpha \cdot \frac{Q}{K}$$
+$$
+MP_K = \frac{\partial Q}{\partial K} = \alpha \cdot A \cdot K^{\alpha - 1} \cdot L^\beta = \alpha \cdot \frac{Q}{K}
+$$
 
-$$MP_L = \frac{\partial Q}{\partial L} = \beta \cdot A \cdot K^\alpha \cdot L^{\beta - 1} = \beta \cdot \frac{Q}{L}$$
+$$
+MP_L = \frac{\partial Q}{\partial L} = \beta \cdot A \cdot K^\alpha \cdot L^{\beta - 1} = \beta \cdot \frac{Q}{L}
+$$
 
 **Worked example:** A firm has the production function $Q = 10K^{0.4}L^{0.6}$$w = 20$$r = 40$.
 
 Cost minimisation: $\frac{MP_L}{w} = \frac{MP_K}{r}$
 
-$$\frac{0.6 \cdot 10K^{0.4}L^{-0.4}}{20} = \frac{0.4 \cdot 10K^{-0.6}L^{0.6}}{40}$$
+$$
+\frac{0.6 \cdot 10K^{0.4}L^{-0.4}}{20} = \frac{0.4 \cdot 10K^{-0.6}L^{0.6}}{40}
+$$
 
-$$\frac{0.6L^{-0.4}K^{0.4}}{20} = \frac{0.4K^{-0.6}L^{0.6}}{40}$$
+$$
+\frac{0.6L^{-0.4}K^{0.4}}{20} = \frac{0.4K^{-0.6}L^{0.6}}{40}
+$$
 
-$$\frac{0.6}{20} \cdot \frac{K^{0.4}}{L^{0.4}} = \frac{0.4}{40} \cdot \frac{L^{0.6}}{K^{0.6}}$$
+$$
+\frac{0.6}{20} \cdot \frac{K^{0.4}}{L^{0.4}} = \frac{0.4}{40} \cdot \frac{L^{0.6}}{K^{0.6}}
+$$
 
-$$0.03 \cdot \left(\frac{K}{L}\right)^{0.4} = 0.01 \cdot \left(\frac{L}{K}\right)^{0.6}$$
+$$
+0.03 \cdot \left(\frac{K}{L}\right)^{0.4} = 0.01 \cdot \left(\frac{L}{K}\right)^{0.6}
+$$
 
-$$3 \cdot \left(\frac{K}{L}\right)^{0.4} = \left(\frac{L}{K}\right)^{0.6}$$
+$$
+3 \cdot \left(\frac{K}{L}\right)^{0.4} = \left(\frac{L}{K}\right)^{0.6}
+$$
 
-$$3 = \left(\frac{L}{K}\right)^{0.6} \cdot \left(\frac{L}{K}\right)^{0.4} = \frac{L}{K}$$
+$$
+3 = \left(\frac{L}{K}\right)^{0.6} \cdot \left(\frac{L}{K}\right)^{0.4} = \frac{L}{K}
+$$
 
-$$L = 3K$$
+$$
+L = 3K
+$$
 
 The optimal capital-labour ratio is $K/L = 1/3$. For every unit of capital, the firm should employ 3
 units of labour.
@@ -402,23 +452,35 @@ $Q = q_1 + q_2$. Each firm has constant marginal cost $c$.
 
 **Firm 1's profit:**
 
-$$\pi_1 = P \cdot q_1 - c \cdot q_1 = (a - bq_1 - bq_2 - c) \cdot q_1$$
+$$
+\pi_1 = P \cdot q_1 - c \cdot q_1 = (a - bq_1 - bq_2 - c) \cdot q_1
+$$
 
 **Best response function:** maximising $\pi_1$ with respect to $q_1$:
 
-$$\frac{\partial \pi_1}{\partial q_1} = a - 2bq_1 - bq_2 - c = 0$$
+$$
+\frac{\partial \pi_1}{\partial q_1} = a - 2bq_1 - bq_2 - c = 0
+$$
 
-$$q_1 = \frac{a - c}{2b} - \frac{q_2}{2}$$
+$$
+q_1 = \frac{a - c}{2b} - \frac{q_2}{2}
+$$
 
 By symmetry, Firm 2's best response is:
 
-$$q_2 = \frac{a - c}{2b} - \frac{q_1}{2}$$
+$$
+q_2 = \frac{a - c}{2b} - \frac{q_1}{2}
+$$
 
 **Nash equilibrium (Cournot equilibrium):** substituting one best response into the other:
 
-$$q_1^* = q_2^* = \frac{a - c}{3b}$$
+$$
+q_1^* = q_2^* = \frac{a - c}{3b}
+$$
 
-$$Q^* = \frac{2(a - c)}{3b}, \quad P^* = \frac{a + 2c}{3}$$
+$$
+Q^* = \frac{2(a - c)}{3b}, \quad P^* = \frac{a + 2c}{3}
+$$
 
 **Comparison with monopoly and perfect competition:**
 
@@ -458,16 +520,26 @@ Other firm (the **follower**) observes this and then chooses its quantity.
 **Solution:**
 
 1. The follower solves its Cournot best response given the leader's output $q_1$:
-   $$q_2 = \frac{a - c}{2b} - \frac{q_1}{2}$$
+   $$
+   q_2 = \frac{a - c}{2b} - \frac{q_1}{2}
+   $$
 
 2. The leader anticipates this response and maximises its profit:
-   $$\pi_1 = (a - bq_1 - bq_2(q_1) - c) \cdot q_1$$
-   $$\pi_1 = \left(a - bq_1 - b\left(\frac{a-c}{2b} - \frac{q_1}{2}\right) - c\right) q_1$$
-   $$\pi_1 = \left(\frac{a - c}{2} - \frac{bq_1}{2}\right) q_1$$
+   $$
+   \pi_1 = (a - bq_1 - bq_2(q_1) - c) \cdot q_1
+   $$
+   $$
+   \pi_1 = \left(a - bq_1 - b\left(\frac{a-c}{2b} - \frac{q_1}{2}\right) - c\right) q_1
+   $$
+   $$
+   \pi_1 = \left(\frac{a - c}{2} - \frac{bq_1}{2}\right) q_1
+   $$
 
 Maximising: $\frac{\partial \pi_1}{\partial q_1} = \frac{a - c}{2} - bq_1 = 0$
 
-$$q_1^* = \frac{a - c}{2b}, \quad q_2^* = \frac{a - c}{4b}$$
+$$
+q_1^* = \frac{a - c}{2b}, \quad q_2^* = \frac{a - c}{4b}
+$$
 
 **First-mover advantage:** the Stackelberg leader produces twice as much as the follower and earns
 Higher profit. Total output is $Q^* = \frac{3(a-c)}{4b}$Which exceeds Cournot output but is Still
@@ -560,7 +632,9 @@ The entire consumer surplus.
 - Total output equals the perfectly competitive output (where $P = MC$)
 - Allocative efficiency is achieved, but all surplus goes to the producer
 
-$$\text{Profit} = \text{Total consumer surplus (under single price)} + \text{Producer surplus (under single price)}$$
+$$
+\text{Profit} = \text{Total consumer surplus (under single price)} + \text{Producer surplus (under single price)}
+$$
 
 **Requirements for first-degree price discrimination:**
 
@@ -579,7 +653,9 @@ And consumers self-select into the option that maximises their utility.
 
 **Block pricing:** the price per unit varies with the quantity purchased:
 
-$$\text{Total revenue} = P_1 Q_1 + P_2 (Q_2 - Q_1) + P_3 (Q_3 - Q_2) + \cdots$$
+$$
+\text{Total revenue} = P_1 Q_1 + P_2 (Q_2 - Q_1) + P_3 (Q_3 - Q_2) + \cdots
+$$
 
 Where $P_1 > P_2 > P_3$ (declining block pricing). This captures some consumer surplus from
 Consumers who buy in larger quantities.
@@ -587,7 +663,9 @@ Consumers who buy in larger quantities.
 **Numerical example:** A cinema charges `USD 8` for the first ticket, `USD 6` for the second, and
 `USD 4` for Each additional ticket (up to 5). A consumer who buys 4 tickets pays:
 
-$$\text{Total} = 8 + 6 + 4 + 4 = \text{USD 22}$$
+$$
+\text{Total} = 8 + 6 + 4 + 4 = \text{USD 22}
+$$
 
 Average price per ticket $= 22/4 = \text{USD 5.50$Which is less than the single-ticket price of USD
 8.}$
@@ -603,19 +681,27 @@ charges Each group a different price.
 
 For each market segment $i$The monopolist maximises:
 
-$$\pi_i = P_i(Q_i) \cdot Q_i - C(Q_1 + Q_2 + \cdots + Q_n)$$
+$$
+\pi_i = P_i(Q_i) \cdot Q_i - C(Q_1 + Q_2 + \cdots + Q_n)
+$$
 
 The first-order condition is:
 
-$$\mathrm{MR}_i = MC \quad \forall \; i$$
+$$
+\mathrm{MR}_i = MC \quad \forall \; i
+$$
 
 Since $\mathrm{MR}_i = P_i(1 + 1/\mathrm{PED}_i)$ And $\mathrm{MR}_i = MC$ for all segments:
 
-$$P_i(1 + 1/\mathrm{PED}_i) = P_j(1 + 1/\mathrm{PED}_j) = MC$$
+$$
+P_i(1 + 1/\mathrm{PED}_i) = P_j(1 + 1/\mathrm{PED}_j) = MC
+$$
 
 Rearranging:
 
-$$\frac{P_i}{P_j} = \frac{1 + 1/\mathrm{PED}_j}{1 + 1/\mathrm{PED}_i}$$
+$$
+\frac{P_i}{P_j} = \frac{1 + 1/\mathrm{PED}_j}{1 + 1/\mathrm{PED}_i}
+$$
 
 If $|\mathrm{PED}_i| < |\mathrm{PED}_j|$ (market $i$ has less elastic demand), then $P_i > P_j$.
 
@@ -636,7 +722,9 @@ $= 393.75 + 150 - 50 - 137.5 = 356.25$
 
 Verification: $\frac{P_1}{P_2} = \frac{22.5}{15} = 1.5$
 
-$$\frac{1 + 1/\mathrm{PED}_2}{1 + 1/\mathrm{PED}_1} = \frac{1 + 1/(-3)}{1 + 1/(-2)} = \frac{1 - 1/3}{1 - 1/2} = \frac{2/3}{1/2} = \frac{4}{3} \approx 1.33$$
+$$
+\frac{1 + 1/\mathrm{PED}_2}{1 + 1/\mathrm{PED}_1} = \frac{1 + 1/(-3)}{1 + 1/(-2)} = \frac{1 - 1/3}{1 - 1/2} = \frac{2/3}{1/2} = \frac{4}{3} \approx 1.33
+$$
 
 The slight discrepancy arises because PED values vary along the demand curve; the condition holds
 Exactly only at the equilibrium quantities.
@@ -678,23 +766,31 @@ Factor is a **derived demand** -- on the demand for the product that the factor 
 The marginal revenue product of labour is the additional revenue generated by employing one more
 Unit of labour:
 
-$$\mathrm{MRP}_L = \mathrm{MR} \times \mathrm{MP}_L$$
+$$
+\mathrm{MRP}_L = \mathrm{MR} \times \mathrm{MP}_L
+$$
 
 Where $\mathrm{MP}_L$ is the marginal product of labour and $\mathrm{MR}$ is marginal revenue.
 
 Under perfect competition in the product market ($\mathrm{MR} = P$):
 
-$$\mathrm{MRP}_L = P \times \mathrm{MP}_L = \mathrm{VMP}_L$$
+$$
+\mathrm{MRP}_L = P \times \mathrm{MP}_L = \mathrm{VMP}_L
+$$
 
 Where $\mathrm{VMP}_L$ is the value of the marginal product.
 
 Under monopoly ($\mathrm{MR} < P$):
 
-$$\mathrm{MRP}_L < \mathrm{VMP}_L$$
+$$
+\mathrm{MRP}_L < \mathrm{VMP}_L
+$$
 
 A profit-maximising firm hires labour up to the point where:
 
-$$\mathrm{MRP}_L = \mathrm{MRC}_L$$
+$$
+\mathrm{MRP}_L = \mathrm{MRC}_L
+$$
 
 Where $\mathrm{MRC}_L$ (marginal resource cost) is the additional cost of hiring one more unit of
 Labour.
@@ -704,7 +800,9 @@ Labour.
 In a perfectly competitive labour market, the firm is a wage taker and $\mathrm{MRC}_L = w$ (the
 Wage rate). The firm faces a horizontal supply curve for labour.
 
-$$\text{Labour demand rule (perfect competition): } \mathrm{MRP}_L = w$$
+$$
+\text{Labour demand rule (perfect competition): } \mathrm{MRP}_L = w
+$$
 
 ### Monopsony
 
@@ -714,9 +812,13 @@ workers.
 
 If the labour supply curve is $w = a + bL$The total cost of labour is:
 
-$$\mathrm{TC}_L = w \cdot L = (a + bL) \cdot L = aL + bL^2$$
+$$
+\mathrm{TC}_L = w \cdot L = (a + bL) \cdot L = aL + bL^2
+$$
 
-$$\mathrm{MRC}_L = \frac{d\mathrm{TC}_L}{dL} = a + 2bL$$
+$$
+\mathrm{MRC}_L = \frac{d\mathrm{TC}_L}{dL} = a + 2bL
+$$
 
 The MRC curve lies above the supply (average cost of labour) curve. The monopsonist hires where
 $\mathrm{MRP}_L = \mathrm{MRC}_L$ But pays the wage indicated by the supply curve at that Quantity.
@@ -733,7 +835,9 @@ $\mathrm{MRC}_L = 20 + 4L$
 
 Setting $\mathrm{MRP}_L = \mathrm{MRC}_L$:
 
-$$100 - 2L = 20 + 4L \implies 80 = 6L \implies L^* = 13.33$$
+$$
+100 - 2L = 20 + 4L \implies 80 = 6L \implies L^* = 13.33
+$$
 
 Wage paid $= 20 + 2(13.33) = 46.67$
 
@@ -751,7 +855,9 @@ Use. If a factor earns less than its transfer earnings, it will move to its next
 
 **Economic rent** is any payment above transfer earnings:
 
-$$\text{Economic rent} = \text{Total factor income} - \text{Transfer earnings}$$
+$$
+\text{Economic rent} = \text{Total factor income} - \text{Transfer earnings}
+$$
 
 The proportion of economic rent to total income depends on the elasticity of the factor supply:
 
@@ -797,7 +903,9 @@ And the price of $Y$ is $P_Y = 5$.
 
 Setting $\mathrm{MRS} = P_X / P_Y$:
 
-$$\frac{Y}{X} = \frac{10}{5} = 2 \implies Y = 2X$$
+$$
+\frac{Y}{X} = \frac{10}{5} = 2 \implies Y = 2X
+$$
 
 Budget constraint: $10X + 5Y = 200$
 
@@ -946,7 +1054,9 @@ $50 - 2L = 10 + L \implies 40 = 3L \implies L_c = 13.33$ $w_c = 23.33$.
 
 The monopsony under-employs by $13.33 - 10 = 3.33$ workers. The DWL is:
 
-$$\mathrm{DWL} = \frac{1}{2} \times (\mathrm{MRP}_{L=10} - w_{L=10}) \times (L_c - L^*)$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times (\mathrm{MRP}_{L=10} - w_{L=10}) \times (L_c - L^*)
+$$
 
 At $L = 10$: $\mathrm{MRP}_L = 50 - 20 = 30$$w = 20$.
 
@@ -1077,7 +1187,9 @@ Even a monopoly in a perfectly contestable market will set $P = \text{AC}$ (aver
 And produce at the efficient scale. If $P > \text{AC}$Potential entrants can profitably enter, Drive
 the price down to AC, and earn zero economic profit.
 
-$$\text{Sustainable monopoly: } P = \text{AC}, \pi = 0$$
+$$
+\text{Sustainable monopoly: } P = \text{AC}, \pi = 0
+$$
 
 This is in contrast to an unregulated monopoly, which sets $P > \text{AC}$ and earns positive
 Economic profit.
@@ -1336,7 +1448,9 @@ New Palma ratio $= 48\% / (8\% + 8\%) = 48/16 = 3.00$.
 **First degree (perfect) price discrimination:** the firm charges each consumer their maximum
 Willingness to pay. The firm captures the entire consumer surplus.
 
-$$\text{Profit} = \int_0^Q P(Q) dQ - \text{TC}(Q)$$
+$$
+\text{Profit} = \int_0^Q P(Q) dQ - \text{TC}(Q)
+$$
 
 Output is at the socially efficient level ($P = \text{MC}$) because the firm captures the Marginal
 benefit of each unit. There is no deadweight loss, but all surplus goes to the producer.
@@ -1360,19 +1474,27 @@ The firm maximises: $\pi = P_1 Q_1 + P_2 Q_2 - c(Q_1 + Q_2) - F$
 
 FOC for each market:
 
-$$\text{MR}_1 = \text{MC}: \quad a_1 - 2b_1 Q_1 = c \implies Q_1 = \frac{a_1 - c}{2b_1}$$
+$$
+\text{MR}_1 = \text{MC}: \quad a_1 - 2b_1 Q_1 = c \implies Q_1 = \frac{a_1 - c}{2b_1}
+$$
 
-$$\text{MR}_2 = \text{MC}: \quad a_2 - 2b_2 Q_2 = c \implies Q_2 = \frac{a_2 - c}{2b_2}$$
+$$
+\text{MR}_2 = \text{MC}: \quad a_2 - 2b_2 Q_2 = c \implies Q_2 = \frac{a_2 - c}{2b_2}
+$$
 
 The price in each market:
 
-$$P_1 = \frac{a_1 + c}{2}, \quad P_2 = \frac{a_2 + c}{2}$$
+$$
+P_1 = \frac{a_1 + c}{2}, \quad P_2 = \frac{a_2 + c}{2}
+$$
 
 The higher-price market has the less elastic demand (more inelastic).
 
 **Inverse elasticity rule:**
 
-$$\frac{P_1 - \text{MC}}{P_1} = \frac{1}{|\epsilon_1|}, \quad \frac{P_2 - \text{MC}}{P_2} = \frac{1}{|\epsilon_2|}$$
+$$
+\frac{P_1 - \text{MC}}{P_1} = \frac{1}{|\epsilon_1|}, \quad \frac{P_2 - \text{MC}}{P_2} = \frac{1}{|\epsilon_2|}
+$$
 
 The Lerner index (mark-up over MC as a proportion of price) equals the inverse of the price
 Elasticity of demand. The market with the less elastic demand has the higher mark-up.
@@ -1492,7 +1614,9 @@ may prefer to exclude low-demand consumers to extract more surplus from high-dem
 A natural monopoly arises when a single firm can supply the entire market at a lower cost than Two
 or more firms. This occurs when there are large fixed costs and relatively low marginal costs:
 
-$$\text{AC}(Q) = \frac{F}{Q} + \text{MC} \text{ is decreasing for all } Q$$
+$$
+\text{AC}(Q) = \frac{F}{Q} + \text{MC} \text{ is decreasing for all } Q
+$$
 
 Examples: electricity distribution, water supply, rail networks, telecommunications.
 

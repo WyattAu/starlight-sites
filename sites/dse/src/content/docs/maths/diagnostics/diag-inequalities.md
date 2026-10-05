@@ -81,7 +81,9 @@ No solution in this case.
 
 **Case 2:** $3x + 1 > 0$I.e. $x > -\dfrac{1}{3}$.
 
-$$-(3x + 1) < 2x - 5 < 3x + 1$$
+$$
+-(3x + 1) < 2x - 5 < 3x + 1
+$$
 
 Left inequality: $-3x - 1 < 2x - 5 \implies -5x < -4 \implies x > \dfrac{4}{5}$.
 
@@ -140,7 +142,9 @@ A common mistake is forgetting to reverse the inequality when factoring out the 
 
 Find the region satisfying all of the following:
 
-$$x + y \leq 6, \quad 2x - y \geq 1, \quad x \geq 0, \quad y \geq 0$$
+$$
+x + y \leq 6, \quad 2x - y \geq 1, \quad x \geq 0, \quad y \geq 0
+$$
 
 Find the maximum value of $P = 3x + 2y$ in this region.
 
@@ -190,15 +194,25 @@ Solve $\dfrac{1}{x - 1} \leq \dfrac{2}{x + 1}$.
 
 Bring to one side:
 
-$$\frac{1}{x - 1} - \frac{2}{x + 1} \leq 0$$
+$$
+\frac{1}{x - 1} - \frac{2}{x + 1} \leq 0
+$$
 
-$$\frac{(x + 1) - 2(x - 1)}{(x-1)(x+1)} \leq 0$$
+$$
+\frac{(x + 1) - 2(x - 1)}{(x-1)(x+1)} \leq 0
+$$
 
-$$\frac{x + 1 - 2x + 2}{(x-1)(x+1)} \leq 0$$
+$$
+\frac{x + 1 - 2x + 2}{(x-1)(x+1)} \leq 0
+$$
 
-$$\frac{3 - x}{(x-1)(x+1)} \leq 0$$
+$$
+\frac{3 - x}{(x-1)(x+1)} \leq 0
+$$
 
-$$\frac{x - 3}{(x-1)(x+1)} \geq 0$$
+$$
+\frac{x - 3}{(x-1)(x+1)} \geq 0
+$$
 
 Critical values: $x = -1$, $x = 1$, $x = 3$.
 
@@ -242,7 +256,9 @@ always positive for all real $x$.
 The expression is always positive if the discriminant is negative (since the leading coefficient
 $1 > 0$).
 
-$$\Delta = (2k)^2 - 4(k^2 - 2k + 5) = 4k^2 - 4k^2 + 8k - 20 = 8k - 20$$
+$$
+\Delta = (2k)^2 - 4(k^2 - 2k + 5) = 4k^2 - 4k^2 + 8k - 20 = 8k - 20
+$$
 
 $\Delta < 0 \implies 8k - 20 < 0 \implies k < \dfrac{5}{2}$.
 
@@ -269,13 +285,21 @@ Let $f(x) = x^2 - 6x + 5$. Find the set of values of $x$ for which $f(x) \leq f(
 
 $f(x) = x^2 - 6x + 5$ and $f(2x) = 4x^2 - 12x + 5$.
 
-$$x^2 - 6x + 5 \leq 4x^2 - 12x + 5$$
+$$
+x^2 - 6x + 5 \leq 4x^2 - 12x + 5
+$$
 
-$$0 \leq 3x^2 - 6x$$
+$$
+0 \leq 3x^2 - 6x
+$$
 
-$$3x^2 - 6x \geq 0$$
+$$
+3x^2 - 6x \geq 0
+$$
 
-$$3x(x - 2) \geq 0$$
+$$
+3x(x - 2) \geq 0
+$$
 
 Critical values: $x = 0$, $x = 2$.
 
@@ -302,9 +326,13 @@ Solve $\log_2(x + 3) \lt \log_2(5 - x)$.
 
 Since the logarithm function is strictly increasing, we can compare arguments directly:
 
-$$x + 3 < 5 - x$$
+$$
+x + 3 < 5 - x
+$$
 
-$$2x < 2 \implies x < 1$$
+$$
+2x < 2 \implies x < 1
+$$
 
 But we also need the domain: $x + 3 > 0$ and $5 - x > 0$Giving $-3 < x < 5$.
 
@@ -334,7 +362,9 @@ inequality would reverse.
 
 Solve the simultaneous inequalities:
 
-$$2x + 3 > x + 7 \quad \text{and} \quad 3x - 1 \leq 2x + 5$$
+$$
+2x + 3 > x + 7 \quad \text{and} \quad 3x - 1 \leq 2x + 5
+$$
 
 **Solution:**
 
@@ -366,7 +396,9 @@ Find the range of values of $k$ for which $x^2 - 6x + k > 0$ for all real $x$.
 For the quadratic to be always positive (since the leading coefficient $1 > 0$), we need
 $\Delta < 0$.
 
-$$\Delta = 36 - 4k < 0 \implies k > 9$$
+$$
+\Delta = 36 - 4k < 0 \implies k > 9
+$$
 
 When $k = 9$: $\Delta = 0$ And $x^2 - 6x + 9 = (x-3)^2 \geq 0$. The inequality is strict ($>$), so
 $x = 3$ gives $0 \not> 0$.
@@ -392,11 +424,17 @@ Solve $|3x - 4| \leq 8$.
 
 **Solution:**
 
-$$-8 \leq 3x - 4 \leq 8$$
+$$
+-8 \leq 3x - 4 \leq 8
+$$
 
-$$-4 \leq 3x \leq 12$$
+$$
+-4 \leq 3x \leq 12
+$$
 
-$$-\frac{4}{3} \leq x \leq 4$$
+$$
+-\frac{4}{3} \leq x \leq 4
+$$
 
 Solution: $x \in \left[-\dfrac{4}{3},\; 4\right]$.
 
@@ -446,7 +484,9 @@ Solve $x^3 - x^2 - x + 1 \leq 0$.
 
 **Solution:**
 
-$$x^3 - x^2 - x + 1 = x^2(x - 1) - (x - 1) = (x - 1)(x^2 - 1) = (x - 1)^2(x + 1)$$
+$$
+x^3 - x^2 - x + 1 = x^2(x - 1) - (x - 1) = (x - 1)(x^2 - 1) = (x - 1)^2(x + 1)
+$$
 
 Critical values: $x = 1$ (double root) and $x = -1$.
 
@@ -481,14 +521,18 @@ Show that $x^2 + 4x + 5 > 0$ for all real $x$.
 
 **Solution:**
 
-$$\Delta = 16 - 20 = -4 < 0$$
+$$
+\Delta = 16 - 20 = -4 < 0
+$$
 
 Since the discriminant is negative and the leading coefficient is positive, the quadratic is always
 positive.
 
 Alternatively, completing the square:
 
-$$x^2 + 4x + 5 = (x + 2)^2 + 1 \geq 1 > 0$$
+$$
+x^2 + 4x + 5 = (x + 2)^2 + 1 \geq 1 > 0
+$$
 
 ---
 
@@ -685,7 +729,9 @@ Solve the inequality $\dfrac{x^2 - 4x + 3}{x^2 - 9} \leq 0$. (5 marks)
 
 **Solution:**
 
-$$\frac{(x-1)(x-3)}{(x-3)(x+3)} = \frac{x - 1}{x + 3}$$
+$$
+\frac{(x-1)(x-3)}{(x-3)(x+3)} = \frac{x - 1}{x + 3}
+$$
 
 Provided $x \neq 3$ (makes denominator zero in original) and $x \neq -3$.
 
@@ -727,17 +773,29 @@ Solve $|x - 3| > |2x + 1|$. (4 marks)
 
 Square both sides (both sides are non-negative after taking absolute value):
 
-$$(x - 3)^2 > (2x + 1)^2$$
+$$
+(x - 3)^2 > (2x + 1)^2
+$$
 
-$$x^2 - 6x + 9 > 4x^2 + 4x + 1$$
+$$
+x^2 - 6x + 9 > 4x^2 + 4x + 1
+$$
 
-$$0 > 3x^2 + 10x - 8$$
+$$
+0 > 3x^2 + 10x - 8
+$$
 
-$$3x^2 + 10x - 8 < 0$$
+$$
+3x^2 + 10x - 8 < 0
+$$
 
-$$(3x - 2)(x + 4) < 0$$
+$$
+(3x - 2)(x + 4) < 0
+$$
 
-$$-4 < x < \frac{2}{3}$$
+$$
+-4 < x < \frac{2}{3}
+$$
 
 Solution: $x \in \left(-4,\; \dfrac{2}{3}\right)$.
 

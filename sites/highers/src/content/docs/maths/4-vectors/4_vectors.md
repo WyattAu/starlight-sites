@@ -54,7 +54,9 @@ Any vector in 3D can be written as $\mathbf{a} = a_1\mathbf{i} + a_2\mathbf{j} +
 
 **Example:** Find the unit vector in the direction of $\mathbf{a} = (3, -4)$.
 
-$$|\mathbf{a}| = \sqrt{9 + 16} = 5$$
+$$
+|\mathbf{a}| = \sqrt{9 + 16} = 5
+$$
 
 $$
 \hat{\mathbf{a}} = \left(\frac{3}{5}, -\frac{4}{5}\right)
@@ -157,11 +159,17 @@ $$
 **Example:** Determine the value of $k$ for which the vectors $\mathbf{a} = (k, 2, -1)$ and
 $\mathbf{b} = (3, k, 4)$ are perpendicular.
 
-$$\mathbf{a} \cdot \mathbf{b} = 0$$
+$$
+\mathbf{a} \cdot \mathbf{b} = 0
+$$
 
-$$3k + 2k - 4 = 0$$
+$$
+3k + 2k - 4 = 0
+$$
 
-$$5k = 4$$
+$$
+5k = 4
+$$
 
 $$
 K = \frac{4}{5}
@@ -279,7 +287,9 @@ $AA^{-1} = \frac{1}{ad-bc}\begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pma
 
 **Example:** Find the inverse of $A = \begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix}$.
 
-$$\det A = 3(2) - 5(1) = 6 - 5 = 1$$
+$$
+\det A = 3(2) - 5(1) = 6 - 5 = 1
+$$
 
 $$
 A^{-1} = \begin{pmatrix} 2 & -5 \\ -1 & 3 \end{pmatrix}

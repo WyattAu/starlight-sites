@@ -47,9 +47,13 @@ Equation and apply it to multi-stage problems.
 
 ### 1.2 Relationships via calculus
 
-$$v = \frac{ds}{dt}, \qquad a = \frac{dv}{dt} = \frac{d^2s}{dt^2}$$
+$$
+v = \frac{ds}{dt}, \qquad a = \frac{dv}{dt} = \frac{d^2s}{dt^2}
+$$
 
-$$s = \int v\,dt, \qquad v = \int a\,dt$$
+$$
+s = \int v\,dt, \qquad v = \int a\,dt
+$$
 
 <hr />
 
@@ -61,35 +65,53 @@ Assuming constant acceleration $a$:
 
 Start from the definition of acceleration:
 
-$$a = \frac{dv}{dt}$$
+$$
+a = \frac{dv}{dt}
+$$
 
 Since $a$ is constant, integrate both sides with respect to $t$:
 
-$$\int a\,dt = \int \frac{dv}{dt}\,dt \implies at + C_1 = v$$
+$$
+\int a\,dt = \int \frac{dv}{dt}\,dt \implies at + C_1 = v
+$$
 
 Applying the initial condition $v = u$ when $t = 0$: $C_1 = u$.
 
-$$\boxed{v = u + at} \quad \mathrm{(Equation 2)}$$
+$$
+\boxed{v = u + at} \quad \mathrm{(Equation 2)}
+$$
 
 Now use $v = ds/dt$:
 
-$$\frac{ds}{dt} = u + at$$
+$$
+\frac{ds}{dt} = u + at
+$$
 
 Integrate with respect to $t$:
 
-$$s = \int (u + at)\,dt = ut + \frac{1}{2}at^2 + C_2$$
+$$
+s = \int (u + at)\,dt = ut + \frac{1}{2}at^2 + C_2
+$$
 
 Since $s = 0$ when $t = 0$: $C_2 = 0$.
 
-$$\boxed{s = ut + \tfrac{1}{2}at^2} \quad \mathrm{(Equation 1)}$$
+$$
+\boxed{s = ut + \tfrac{1}{2}at^2} \quad \mathrm{(Equation 1)}
+$$
 
 Eliminating $t$ from (1) and (2): $t = (v-u)/a$.
 
-$$s = u\frac{v-u}{a} + \frac{1}{2}a\frac{(v-u)^2}{a^2} = \frac{uv - u^2}{a} + \frac{v^2 - 2uv + u^2}{2a}$$
+$$
+s = u\frac{v-u}{a} + \frac{1}{2}a\frac{(v-u)^2}{a^2} = \frac{uv - u^2}{a} + \frac{v^2 - 2uv + u^2}{2a}
+$$
 
-$$s = \frac{2uv - 2u^2 + v^2 - 2uv + u^2}{2a} = \frac{v^2 - u^2}{2a}$$
+$$
+s = \frac{2uv - 2u^2 + v^2 - 2uv + u^2}{2a} = \frac{v^2 - u^2}{2a}
+$$
 
-$$\boxed{v^2 = u^2 + 2as} \quad \mathrm{(Equation 3)}$$
+$$
+\boxed{v^2 = u^2 + 2as} \quad \mathrm{(Equation 3)}
+$$
 
 From (1): $s = ut + \tfrac{1}{2}at^2 = \tfrac{1}{2}(2u + at)t = \tfrac{1}{2}(u + u + at)t$.
 
@@ -100,7 +122,9 @@ Eliminating $a$ from (1) and (2): $a = (v-u)/t$.
 $s = ut + \tfrac{1}{2}\frac{v-u}{t}t^2 = ut + \tfrac{1}{2}(v-u)t = \tfrac{1}{2}(u+v)t$. (Same as
 Equation 4.)
 
-$$s = \tfrac{1}{2}(u+v)t \implies v = \frac{2s}{t} - u \quad \mathrm{(useful when } a \mathrm{ is unknown)}$$
+$$
+s = \tfrac{1}{2}(u+v)t \implies v = \frac{2s}{t} - u \quad \mathrm{(useful when } a \mathrm{ is unknown)}
+$$
 
 :::tip
 Constant acceleration $a = dv/dt$Using the initial conditions $v(0) = u$ and $s(0) = 0$. Memorising
@@ -208,14 +232,18 @@ $s(6) = 216 - 324 + 144 = 36$.
 
 ### 4.2 Horizontal motion
 
-$$x = v\cos\theta \cdot t, \quad a_x = 0$$
+$$
+x = v\cos\theta \cdot t, \quad a_x = 0
+$$
 
 Since there is no horizontal acceleration, the horizontal velocity $v_x = v\cos\theta$ remains
 Constant throughout the flight.
 
 ### 4.3 Vertical motion
 
-$$y = v\sin\theta \cdot t - \frac{1}{2}gt^2, \quad v_y = v\sin\theta - gt$$
+$$
+y = v\sin\theta \cdot t - \frac{1}{2}gt^2, \quad v_y = v\sin\theta - gt
+$$
 
 ### 4.4 Derivation of the trajectory equation
 
@@ -223,9 +251,13 @@ From horizontal: $t = \dfrac{x}{v\cos\theta}$.
 
 Substitute into vertical:
 
-$$y = v\sin\theta \cdot \frac{x}{v\cos\theta} - \frac{1}{2}g\left(\frac{x}{v\cos\theta}\right)^2$$
+$$
+y = v\sin\theta \cdot \frac{x}{v\cos\theta} - \frac{1}{2}g\left(\frac{x}{v\cos\theta}\right)^2
+$$
 
-$$\boxed{y = x\tan\theta - \frac{gx^2}{2v^2\cos^2\theta}}$$
+$$
+\boxed{y = x\tan\theta - \frac{gx^2}{2v^2\cos^2\theta}}
+$$
 
 This is a parabola, all projectile trajectories are parabolic (under constant gravity, no air
 Resistance).
@@ -234,33 +266,47 @@ Resistance).
 
 At maximum height, $v_y = 0$:
 
-$$0 = v\sin\theta - gt_{\max} \implies t_{\max} = \frac{v\sin\theta}{g}$$
+$$
+0 = v\sin\theta - gt_{\max} \implies t_{\max} = \frac{v\sin\theta}{g}
+$$
 
-$$H_{\max} = \frac{(v\sin\theta)^2}{2g}$$
+$$
+H_{\max} = \frac{(v\sin\theta)^2}{2g}
+$$
 
 ### 4.6 Range
 
 Time of flight: $y = 0 \implies t = \dfrac{2v\sin\theta}{g}$.
 
-$$R = v\cos\theta \cdot \frac{2v\sin\theta}{g} = \frac{v^2\sin 2\theta}{g}$$
+$$
+R = v\cos\theta \cdot \frac{2v\sin\theta}{g} = \frac{v^2\sin 2\theta}{g}
+$$
 
 Maximum range occurs when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$.
 
-$$R_{\max} = \frac{v^2}{g}$$
+$$
+R_{\max} = \frac{v^2}{g}
+$$
 
 ### 4.7 Velocity at any point on the trajectory
 
 At any time $t$The velocity vector is:
 
-$$\mathbf{v} = \begin{pmatrix} v\cos\theta \\ v\sin\theta - gt \end{pmatrix}$$
+$$
+\mathbf{v} = \begin{pmatrix} v\cos\theta \\ v\sin\theta - gt \end{pmatrix}
+$$
 
 The speed at time $t$ is:
 
-$$|\mathbf{v}| = \sqrt{(v\cos\theta)^2 + (v\sin\theta - gt)^2} = \sqrt{v^2 - 2vgt\sin\theta + g^2t^2}$$
+$$
+|\mathbf{v}| = \sqrt{(v\cos\theta)^2 + (v\sin\theta - gt)^2} = \sqrt{v^2 - 2vgt\sin\theta + g^2t^2}
+$$
 
 The angle the velocity makes with the horizontal at time $t$ is:
 
-$$\alpha = \arctan\left(\frac{v\sin\theta - gt}{v\cos\theta}\right)$$
+$$
+\alpha = \arctan\left(\frac{v\sin\theta - gt}{v\cos\theta}\right)
+$$
 
 At the highest point ($t = v\sin\theta / g$), the velocity is purely horizontal:
 $\mathbf{v} = (v\cos\theta,\, 0)$. The speed at the highest point equals the horizontal component
@@ -274,9 +320,13 @@ Symmetry).
 
 Setting $y = h$ and solving for $t$:
 
-$$h = v\sin\theta \cdot t - \frac{1}{2}gt^2 \implies \frac{1}{2}gt^2 - v\sin\theta \cdot t + h = 0$$
+$$
+h = v\sin\theta \cdot t - \frac{1}{2}gt^2 \implies \frac{1}{2}gt^2 - v\sin\theta \cdot t + h = 0
+$$
 
-$$t = \frac{v\sin\theta \pm \sqrt{(v\sin\theta)^2 - 2gh}}{g}$$
+$$
+t = \frac{v\sin\theta \pm \sqrt{(v\sin\theta)^2 - 2gh}}{g}
+$$
 
 - If $(v\sin\theta)^2 \gt 2gh$: two solutions, the projectile passes through height $h$ twice (on
   the way up and on the way down).
@@ -288,11 +338,17 @@ $$t = \frac{v\sin\theta \pm \sqrt{(v\sin\theta)^2 - 2gh}}{g}$$
 If a projectile is launched from height $H$ above ground level, set $y = -H$ at landing (taking
 Upwards as positive):
 
-$$-H = v\sin\theta \cdot t - \frac{1}{2}gt^2$$
+$$
+-H = v\sin\theta \cdot t - \frac{1}{2}gt^2
+$$
 
-$$\frac{1}{2}gt^2 - v\sin\theta \cdot t - H = 0$$
+$$
+\frac{1}{2}gt^2 - v\sin\theta \cdot t - H = 0
+$$
 
-$$t = \frac{v\sin\theta + \sqrt{(v\sin\theta)^2 + 2gH}}{g}$$
+$$
+t = \frac{v\sin\theta + \sqrt{(v\sin\theta)^2 + 2gH}}{g}
+$$
 
 (We take the positive root since $t \gt 0$.)
 
@@ -309,9 +365,13 @@ Beyond the core syllabus).
 
 When acceleration is not constant, the SUVAT equations do not apply. Instead, use calculus:
 
-$$v = \frac{ds}{dt}, \quad a = \frac{dv}{dt}$$
+$$
+v = \frac{ds}{dt}, \quad a = \frac{dv}{dt}
+$$
 
-$$s = \int v\,dt, \quad v = \int a\,dt$$
+$$
+s = \int v\,dt, \quad v = \int a\,dt
+$$
 
 Use initial conditions to find constants of integration.
 
@@ -319,7 +379,9 @@ Use initial conditions to find constants of integration.
 
 Given $a = f(t)$Integrate to find $v$:
 
-$$v = \int a\,dt = \int f(t)\,dt = F(t) + C$$
+$$
+v = \int a\,dt = \int f(t)\,dt = F(t) + C
+$$
 
 Use the initial velocity $v(0) = u$ to find $C$.
 
@@ -327,7 +389,9 @@ Use the initial velocity $v(0) = u$ to find $C$.
 
 Given $v = g(t)$Integrate to find $s$:
 
-$$s = \int v\,dt = \int g(t)\,dt = G(t) + K$$
+$$
+s = \int v\,dt = \int g(t)\,dt = G(t) + K
+$$
 
 Use the initial displacement $s(0) = s_0$ to find $K$.
 
@@ -341,15 +405,21 @@ Use the chain rule: $a = \dfrac{dv}{dt} = \dfrac{dv}{ds} \cdot \dfrac{ds}{dt} = 
 
 This gives a separable differential equation:
 
-$$f(v) = v\frac{dv}{ds} \implies \int ds = \int \frac{v}{f(v)}\,dv$$
+$$
+f(v) = v\frac{dv}{ds} \implies \int ds = \int \frac{v}{f(v)}\,dv
+$$
 
 **Case 2:** $a = f(s)$.
 
 Again using $a = v\,dv/ds$:
 
-$$v\,\frac{dv}{ds} = f(s) \implies \int v\,dv = \int f(s)\,ds$$
+$$
+v\,\frac{dv}{ds} = f(s) \implies \int v\,dv = \int f(s)\,ds
+$$
 
-$$\frac{v^2}{2} = F(s) + C$$
+$$
+\frac{v^2}{2} = F(s) + C
+$$
 
 This is equivalent to the work-energy principle: $\tfrac{1}{2}mv^2 = \mathrm{work done}$.
 
@@ -357,12 +427,16 @@ This is equivalent to the work-energy principle: $\tfrac{1}{2}mv^2 = \mathrm{wor
 
 When finding displacement over a time interval $[t_1, t_2]$:
 
-$$\Delta s = \int_{t_1}^{t_2} v\,dt$$
+$$
+\Delta s = \int_{t_1}^{t_2} v\,dt
+$$
 
 When finding total distance, you must account for changes in direction. Find when $v = 0$ (turning
 Points), split the integral at those times, and take absolute values:
 
-$$\mathrm{Distance} = \int_{t_1}^{t_2} |v|\,dt$$
+$$
+\mathrm{Distance} = \int_{t_1}^{t_2} |v|\,dt
+$$
 
 ### 5.5 Worked example: variable acceleration
 
@@ -371,7 +445,9 @@ $a = 6t - 4\,\mathrm{m/s}^2$. When $t = 0$The particle is at rest at the origin.
 
 **(a)** The velocity at time $t$:
 
-$$v = \int (6t - 4)\,dt = 3t^2 - 4t + C$$
+$$
+v = \int (6t - 4)\,dt = 3t^2 - 4t + C
+$$
 
 Since $v = 0$ when $t = 0$: $C = 0$ So $v = 3t^2 - 4t$.
 
@@ -381,7 +457,9 @@ $v = 0 \implies 3t^2 - 4t = 0 \implies t(3t - 4) = 0 \implies t = 0$ or $t = 4/3
 
 **(c)** The displacement at time $t$:
 
-$$s = \int (3t^2 - 4t)\,dt = t^3 - 2t^2 + K$$
+$$
+s = \int (3t^2 - 4t)\,dt = t^3 - 2t^2 + K
+$$
 
 Since $s = 0$ when $t = 0$: $K = 0$ So $s = t^3 - 2t^2$.
 
@@ -731,15 +809,23 @@ A particle moves so that $a = -6s\,\mathrm{m/s}^2$Where $s$ is the displacement 
 <summary>Solution 17</summary>
 Using $a = v\,dv/ds$:
 
-$$v\,\frac{dv}{ds} = -6s$$
+$$
+v\,\frac{dv}{ds} = -6s
+$$
 
-$$\int v\,dv = \int -6s\,ds$$
+$$
+\int v\,dv = \int -6s\,ds
+$$
 
-$$\frac{v^2}{2} = -3s^2 + C$$
+$$
+\frac{v^2}{2} = -3s^2 + C
+$$
 
 When $s = 0$$v = 8$: $64/2 = C \implies C = 32$.
 
-$$\frac{v^2}{2} = -3s^2 + 32$$
+$$
+\frac{v^2}{2} = -3s^2 + 32
+$$
 
 When $s = 1$:
 $v^2/2 = -3 + 32 = 29 \implies v^2 = 58 \implies v = \sqrt{58} \approx 7.62\,\mathrm{m/s}$.

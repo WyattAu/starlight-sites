@@ -81,7 +81,9 @@ Financing government expenditure and influencing economic behaviour.
 
 ### Budget Balance
 
-$$\mathrm{Budget balance} = T - G$$
+$$
+\mathrm{Budget balance} = T - G
+$$
 
 Where `T` is total tax revenue and `G` is total government expenditure (excluding debt interest
 Payments for simplicity).
@@ -132,15 +134,21 @@ Each round.
 
 **Simple spending multiplier (no taxes, no imports):**
 
-$$k = \frac{1}{1 - \mathrm{MPC}} = \frac{1}{\mathrm{MPS}}$$
+$$
+k = \frac{1}{1 - \mathrm{MPC}} = \frac{1}{\mathrm{MPS}}
+$$
 
 Where MPC = marginal propensity to consume, MPS = marginal propensity to save.
 
-$$\mathrm{MPC} + \mathrm{MPS} = 1$$
+$$
+\mathrm{MPC} + \mathrm{MPS} = 1
+$$
 
 **Complex multiplier (with taxes and imports):**
 
-$$k = \frac{1}{\mathrm{MPS} + \mathrm{MPT} + \mathrm{MPM}}$$
+$$
+k = \frac{1}{\mathrm{MPS} + \mathrm{MPT} + \mathrm{MPM}}
+$$
 
 Where MPT = marginal propensity to tax (proportion of additional income paid in tax) and MPM =
 Marginal propensity to import (proportion of additional income spent on imports).
@@ -150,11 +158,15 @@ Circular flow. Each round of spending, some income is taxed (not available for c
 Is spent on imports (not part of domestic demand). These leakages reduce the amount of income
 Available for the next round of domestic spending, shrinking the multiplier.
 
-$$\Delta Y = k \times \Delta G$$
+$$
+\Delta Y = k \times \Delta G
+$$
 
 **Tax multiplier (absolute value is smaller than the spending multiplier):**
 
-$$\Delta Y = -\mathrm{MPC} \times k \times \Delta T$$
+$$
+\Delta Y = -\mathrm{MPC} \times k \times \Delta T
+$$
 
 A tax cut of `Delta T` increases disposable income by `Delta T`But only `MPC x Delta T` is spent
 (the rest is saved). This initial spending is then multiplied. The tax multiplier is always smaller
@@ -164,9 +176,13 @@ Than the spending multiplier (in absolute value) because part of the tax cut is 
 
 The government increases spending by USD 100 billion. MPC = 0.8, MPT = 0.15, MPM = 0.05.
 
-$$k = \frac{1}{0.2 + 0.15 + 0.05} = \frac{1}{0.4} = 2.5$$
+$$
+k = \frac{1}{0.2 + 0.15 + 0.05} = \frac{1}{0.4} = 2.5
+$$
 
-$$\Delta Y = 2.5 \times 100 = 250$$
+$$
+\Delta Y = 2.5 \times 100 = 250
+$$
 
 National income increases by USD 250 billion. The initial USD 100 billion injection generates an
 Additional USD 150 billion through the multiplier process.
@@ -188,7 +204,9 @@ Spending is injected, while only 60% of the tax cut is spent (the rest is saved)
 
 If instead the government cut taxes by USD 100 billion:
 
-$$\Delta Y = -0.8 \times 2.5 \times (-100) = 200$$
+$$
+\Delta Y = -0.8 \times 2.5 \times (-100) = 200
+$$
 
 National income increases by USD 200 billion. The tax cut is less effective than the spending
 Increase (200 vs 250) because part of the tax cut is saved.
@@ -224,9 +242,13 @@ Inflationary gap).
 The economy is experiencing demand-pull inflation. The government cuts spending by USD 50 billion.
 MPC = 0.75, MPT = 0.1, MPM = 0.1.
 
-$$k = \frac{1}{0.25 + 0.1 + 0.1} = \frac{1}{0.45} = 2.22$$
+$$
+k = \frac{1}{0.25 + 0.1 + 0.1} = \frac{1}{0.45} = 2.22
+$$
 
-$$\Delta Y = 2.22 \times (-50) = -111$$
+$$
+\Delta Y = 2.22 \times (-50) = -111
+$$
 
 National income falls by approximately USD 111 billion, reducing inflationary pressure.
 
@@ -288,7 +310,9 @@ They are the first line of defence against economic fluctuations.
 When the government runs a budget deficit, it must borrow by issuing government bonds. Accumulated
 Deficits over time constitute the national debt.
 
-$$\mathrm{Debt}_{t} = \mathrm{Debt}_{t-1} + \mathrm{Deficit}_{t}$$
+$$
+\mathrm{Debt}_{t} = \mathrm{Debt}_{t-1} + \mathrm{Deficit}_{t}
+$$
 
 ### Crowding-Out Effect
 
@@ -304,7 +328,9 @@ Interest rates, which reduces private investment.
 5. The increase in government spending is partially or fully offset by a decrease in private
    investment.
 
-$$\mathrm{Full crowding out: } \Delta G = -\Delta I$$
+$$
+\mathrm{Full crowding out: } \Delta G = -\Delta I
+$$
 
 In the extreme case (full crowding out), the increase in government spending is exactly offset by
 The decrease in private investment, and aggregate demand does not change at all. The composition of
@@ -1289,13 +1315,17 @@ a financial crisis.
 
 (a) Money multiplier with excess reserves and currency drain:
 
-$$m = \frac{1 + cr}{rrr + er + cr} = \frac{1 + 0.10}{0.05 + 0.03 + 0.10} = \frac{1.10}{0.18} = 6.11$$
+$$
+m = \frac{1 + cr}{rrr + er + cr} = \frac{1 + 0.10}{0.05 + 0.03 + 0.10} = \frac{1.10}{0.18} = 6.11
+$$
 
 (b) $\Delta M = m \times \Delta B = 6.11 \times 30 = \text{HK}\$183.3$ billion.
 
 (c) With $er = 0.08$:
 
-$$m = \frac{1.10}{0.05 + 0.08 + 0.10} = \frac{1.10}{0.23} = 4.78$$
+$$
+m = \frac{1.10}{0.05 + 0.08 + 0.10} = \frac{1.10}{0.23} = 4.78
+$$
 
 $\Delta M = 4.78 \times 30 = \text{HK}\$143.5$ billion.
 

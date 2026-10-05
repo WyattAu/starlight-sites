@@ -108,18 +108,34 @@ When finished, attempt the.
 ### Microeconomics
 
 **Elasticities:**
-$$PED = \frac{\% \Delta Q_D}{\% \Delta P} = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}$$
-$$PES = \frac{\% \Delta Q_S}{\% \Delta P} = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}$$
-$$XED = \frac{\% \Delta Q_A}{\% \Delta P_B}$$
-$$YED = \frac{\% \Delta Q_D}{\% \Delta Y}$$
+$$
+PED = \frac{\% \Delta Q_D}{\% \Delta P} = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}
+$$
+$$
+PES = \frac{\% \Delta Q_S}{\% \Delta P} = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}
+$$
+$$
+XED = \frac{\% \Delta Q_A}{\% \Delta P_B}
+$$
+$$
+YED = \frac{\% \Delta Q_D}{\% \Delta Y}
+$$
 
 **Welfare:** $$CS = \int_0^Q [P_D(Q) - P^*] \, dQ = \frac{1}{2}(P_{choke} - P^*) \times Q^*$$
-$$PS = \int_0^Q [P^* - P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*$$
-$$DWL_{tax} = \frac{1}{2} \times t \times \Delta Q$$
-$$DWL_{externality} = \frac{1}{2} \times MEC \times (Q_{mkt} - Q^*)$$
+$$
+PS = \int_0^Q [P^* - P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*
+$$
+$$
+DWL_{tax} = \frac{1}{2} \times t \times \Delta Q
+$$
+$$
+DWL_{externality} = \frac{1}{2} \times MEC \times (Q_{mkt} - Q^*)
+$$
 
 **Tax incidence:** $$\text{Consumer burden} = \frac{PES}{|PED| + PES} \times t$$
-$$\text{Producer burden} = \frac{|PED|}{|PED| + PES} \times t$$
+$$
+\text{Producer burden} = \frac{|PED|}{|PED| + PES} \times t
+$$
 
 **Firm behaviour:** $$\pi = TR - TC = P \times Q - TC(Q)$$ Profit max: $MR = MC$
 $$MC = \frac{dTC}{dQ}, \quad MR = \frac{dTR}{dQ}$$ Shut-down: $P < AVC_{min}$
@@ -129,8 +145,12 @@ $$MC = \frac{dTC}{dQ}, \quad MR = \frac{dTR}{dQ}$$ Shut-down: $P < AVC_{min}$
 ### Macroeconomics
 
 **National income:** $$GDP = C + I + G + (X - M)$$
-$$\text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100$$
-$$g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100$$
+$$
+\text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100
+$$
+$$
+g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100
+$$
 
 **Inflation:** $$\pi_t = \frac{CPI_t - CPI_{t-1}}{CPI_{t-1}} \times 100$$
 
@@ -145,11 +165,17 @@ $$g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100$$
 **Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p$$
 
 **Solow model:** $$y = k^\alpha$$
-$$\dot{k} = sy - (n + \delta)k = 0 \Rightarrow k^* = \left(\frac{s}{n + \delta}\right)^{1/(1-\alpha)}$$
-$$g_Y = g_A + \alpha g_K + (1-\alpha)g_L$$
+$$
+\dot{k} = sy - (n + \delta)k = 0 \Rightarrow k^* = \left(\frac{s}{n + \delta}\right)^{1/(1-\alpha)}
+$$
+$$
+g_Y = g_A + \alpha g_K + (1-\alpha)g_L
+$$
 
 **Exchange rate:**
-$$\text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}$$
+$$
+\text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}
+$$
 
 **Marshall-Lerner condition:** $$|PED_X| + |PED_M| > 1$$
 

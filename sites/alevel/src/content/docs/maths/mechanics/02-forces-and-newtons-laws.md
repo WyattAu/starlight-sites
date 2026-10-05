@@ -48,11 +48,15 @@ External force.
 
 **Law.** The resultant force on a body equals the rate of change of momentum:
 
-$$\mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt}$$
+$$
+\mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt}
+$$
 
 For constant mass:
 
-$$\boxed{\mathbf{F} = m\mathbf{a}}$$
+$$
+\boxed{\mathbf{F} = m\mathbf{a}}
+$$
 
 ### 1.3 Newton's Third Law
 
@@ -73,7 +77,9 @@ Pair of the weight is the gravitational pull of the book on the Earth.
 
 ### 2.1 Weight
 
-$$W = mg$$
+$$
+W = mg
+$$
 
 Where $g \approx 9.8\,\mathrm{m/s}^2$ (or $9.81$ on some boards). Weight acts vertically downward
 Through the centre of mass.
@@ -124,13 +130,17 @@ At equilibrium perpendicular to the plane: $R = mg\cos\alpha$.
 
 **Definition.** The friction force $F$ between two surfaces satisfies:
 
-$$F \leq \mu R$$
+$$
+F \leq \mu R
+$$
 
 Where $\mu$ is the **coefficient of friction** and $R$ is the normal reaction.
 
 When the body is sliding (or on the point of sliding):
 
-$$F_{\max} = \mu R$$
+$$
+F_{\max} = \mu R
+$$
 
 ### 4.2 Static vs. Kinetic friction
 
@@ -198,7 +208,9 @@ For a smooth, light pulley:
 Newton's Third Law states that forces always occur in pairs. If body A exerts a force
 $\mathbf{F}_{AB}$ on body B, then body B exerts a force $\mathbf{F}_{BA}$ on body A such that:
 
-$$\mathbf{F}_{AB} = -\mathbf{F}_{BA}$$
+$$
+\mathbf{F}_{AB} = -\mathbf{F}_{BA}
+$$
 
 These two forces are simultaneous, equal in magnitude, opposite in direction, collinear, and act on
 **different bodies**.
@@ -250,7 +262,9 @@ $R = m(g + a) \gt mg$.
 A body is in **limiting equilibrium** when it is on the point of moving. At this point the friction
 Has reached its maximum value:
 
-$$F = \mu R$$
+$$
+F = \mu R
+$$
 
 The word "limiting" is the signal to set $F = \mu R$ rather than $F \lt \mu R$.
 
@@ -263,19 +277,29 @@ $P$ is applied at an angle $\theta$ above the horizontal.
 
 **Perpendicular (equilibrium):**
 
-$$R + P\sin\theta = mg \implies R = mg - P\sin\theta$$
+$$
+R + P\sin\theta = mg \implies R = mg - P\sin\theta
+$$
 
 **Parallel:**
 
-$$P\cos\theta - F = ma$$
+$$
+P\cos\theta - F = ma
+$$
 
 If the block is in limiting equilibrium ($a = 0$, $F = \mu R$):
 
-$$P\cos\theta = \mu(mg - P\sin\theta)$$
+$$
+P\cos\theta = \mu(mg - P\sin\theta)
+$$
 
-$$P\cos\theta + \mu P\sin\theta = \mu mg$$
+$$
+P\cos\theta + \mu P\sin\theta = \mu mg
+$$
 
-$$P = \frac{\mu mg}{\cos\theta + \mu\sin\theta}$$
+$$
+P = \frac{\mu mg}{\cos\theta + \mu\sin\theta}
+$$
 
 :::caution
 Friction. Applying a force at an angle **downward** increases $R$ and increases the maximum
@@ -302,7 +326,9 @@ For the $3\,\mathrm{kg}$ mass (assumed descending): $3g - T = 3a$.
 
 For the $4\,\mathrm{kg}$ mass: $R = 4g$, $F = \mu R = 0.3 \times 4g = 1.2g$.
 
-$$T - 1.2g = 4a$$
+$$
+T - 1.2g = 4a
+$$
 
 Adding: $3g - 1.2g = 7a \implies 1.8g = 7a \implies a = 1.8g/7 \approx 2.52\,\mathrm{m/s}^2$.
 
@@ -334,9 +360,13 @@ For $m_2$ (ascending): $T - m_2 g = m_2 a$
 
 **Adding to eliminate $T$:**
 
-$$a = \frac{(m_1 - m_2)g}{m_1 + m_2}$$
+$$
+a = \frac{(m_1 - m_2)g}{m_1 + m_2}
+$$
 
-$$T = \frac{2m_1 m_2 g}{m_1 + m_2}$$
+$$
+T = \frac{2m_1 m_2 g}{m_1 + m_2}
+$$
 
 **Verification of limits:**
 
@@ -356,17 +386,23 @@ For $m_2$ (vertical, descending): $m_2 g - T = m_2 a$
 
 **Solution:**
 
-$$a = \frac{m_2 g}{m_1 + m_2}, \qquad T = \frac{m_1 m_2 g}{m_1 + m_2}$$
+$$
+a = \frac{m_2 g}{m_1 + m_2}, \qquad T = \frac{m_1 m_2 g}{m_1 + m_2}
+$$
 
 ### 9.3 Particle on a table with a pulley -- rough surface
 
 If the table surface is rough with coefficient $\mu$The equation for $m_1$ becomes:
 
-$$T - \mu m_1 g = m_1 a$$
+$$
+T - \mu m_1 g = m_1 a
+$$
 
 Combined with $m_2 g - T = m_2 a$:
 
-$$a = \frac{(m_2 - \mu m_1)g}{m_1 + m_2}$$
+$$
+a = \frac{(m_2 - \mu m_1)g}{m_1 + m_2}
+$$
 
 :::caution
 not at its maximum; instead $F = m_2 g$ (friction balances the hanging weight) and $T = m_2 g$.
@@ -385,7 +421,9 @@ For $m_2$: $T - m_2 g\sin\beta - \mu_2 m_2 g\cos\beta = m_2 a$
 
 Adding:
 
-$$a = \frac{m_1 g(\sin\alpha - \mu_1\cos\alpha) - m_2 g(\sin\beta + \mu_2\cos\beta)}{m_1 + m_2}$$
+$$
+a = \frac{m_1 g(\sin\alpha - \mu_1\cos\alpha) - m_2 g(\sin\beta + \mu_2\cos\beta)}{m_1 + m_2}
+$$
 
 <hr />
 
@@ -398,7 +436,9 @@ Friction $\mu$:
 
 **Perpendicular to the plane (equilibrium):**
 
-$$R = mg\cos\alpha$$
+$$
+R = mg\cos\alpha
+$$
 
 **Parallel to the plane:**
 
@@ -410,13 +450,17 @@ The maximum available friction up the slope is $\mu R = \mu mg\cos\alpha$.
 
 The block remains stationary if:
 
-$$mg\sin\alpha \leq \mu mg\cos\alpha$$
+$$
+mg\sin\alpha \leq \mu mg\cos\alpha
+$$
 
 I.e. $\tan\alpha \leq \mu$Or $\alpha \leq \lambda$ where $\lambda$ is the angle of friction.
 
 If $\alpha \gt \lambda$The block slides and the acceleration down the slope is:
 
-$$a = g(\sin\alpha - \mu\cos\alpha)$$
+$$
+a = g(\sin\alpha - \mu\cos\alpha)
+$$
 
 ### 10.3 Block pulled up a rough inclined plane
 
@@ -426,21 +470,31 @@ A force $P$ acts up the plane on a block of mass $m$ on a rough incline at angle
 
 Friction acts down the slope (opposing upward motion):
 
-$$P - mg\sin\alpha - \mu mg\cos\alpha = ma$$
+$$
+P - mg\sin\alpha - \mu mg\cos\alpha = ma
+$$
 
-$$a = \frac{P}{m} - g(\sin\alpha + \mu\cos\alpha)$$
+$$
+a = \frac{P}{m} - g(\sin\alpha + \mu\cos\alpha)
+$$
 
 **Case 2: Block is in limiting equilibrium (on the point of moving up).**
 
-$$P = mg(\sin\alpha + \mu\cos\alpha)$$
+$$
+P = mg(\sin\alpha + \mu\cos\alpha)
+$$
 
 **Case 3: Block moves down the plane.**
 
 Friction acts up the slope (opposing downward motion):
 
-$$P + \mu mg\cos\alpha - mg\sin\alpha = ma$$
+$$
+P + \mu mg\cos\alpha - mg\sin\alpha = ma
+$$
 
-$$a = \frac{P}{m} - g(\sin\alpha - \mu\cos\alpha)$$
+$$
+a = \frac{P}{m} - g(\sin\alpha - \mu\cos\alpha)
+$$
 
 :::tip
 acts.
@@ -457,15 +511,23 @@ The force $P$ must be resolved into components parallel and perpendicular to the
 
 **Perpendicular:**
 
-$$R = mg\cos\alpha + P\sin\alpha$$
+$$
+R = mg\cos\alpha + P\sin\alpha
+$$
 
 **Parallel (if on the point of moving up):**
 
-$$P\cos\alpha = mg\sin\alpha + \mu(mg\cos\alpha + P\sin\alpha)$$
+$$
+P\cos\alpha = mg\sin\alpha + \mu(mg\cos\alpha + P\sin\alpha)
+$$
 
-$$P\cos\alpha - \mu P\sin\alpha = mg\sin\alpha + \mu mg\cos\alpha$$
+$$
+P\cos\alpha - \mu P\sin\alpha = mg\sin\alpha + \mu mg\cos\alpha
+$$
 
-$$P = \frac{mg(\sin\alpha + \mu\cos\alpha)}{\cos\alpha - \mu\sin\alpha}$$
+$$
+P = \frac{mg(\sin\alpha + \mu\cos\alpha)}{\cos\alpha - \mu\sin\alpha}
+$$
 
 :::caution
 block into the Surface).
@@ -484,7 +546,9 @@ A rigid body is in equilibrium if and only if:
 
 For coplanar forces, these conditions give:
 
-$$\Sigma F_x = 0, \qquad \Sigma F_y = 0, \qquad \Sigma M_O = 0$$
+$$
+\Sigma F_x = 0, \qquad \Sigma F_y = 0, \qquad \Sigma M_O = 0
+$$
 
 Where $O$ is any convenient point (often where an unknown force acts, to eliminate it from the
 Moment equation).
@@ -503,7 +567,9 @@ If three coplanar forces $F_1$, $F_2$, $F_3$ act on a body in equilibrium, and $
 Angle between $F_2$ and $F_3$, $\theta_2$ is the angle between $F_1$ and $F_3$ And $\theta_3$ is The
 angle between $F_1$ and $F_2$ Then:
 
-$$\frac{F_1}{\sin\theta_1} = \frac{F_2}{\sin\theta_2} = \frac{F_3}{\sin\theta_3}$$
+$$
+\frac{F_1}{\sin\theta_1} = \frac{F_2}{\sin\theta_2} = \frac{F_3}{\sin\theta_3}
+$$
 
 **Example.** A particle of mass $10\,\mathrm{kg}$ is suspended by two strings. One string makes an
 Angle of $30^\circ$ with the vertical and the other makes an angle of $60^\circ$ with the vertical.
@@ -516,11 +582,17 @@ Angles between the forces: the angle between $T_1$ and $T_2$ is $30° + 60° = 9
 
 By Lami's theorem:
 
-$$\frac{T_1}{\sin(180° - 60°)} = \frac{T_2}{\sin(180° - 30°)} = \frac{10g}{\sin 90°}$$
+$$
+\frac{T_1}{\sin(180° - 60°)} = \frac{T_2}{\sin(180° - 30°)} = \frac{10g}{\sin 90°}
+$$
 
-$$T_1 = 10g \sin 60° = 10g \times \frac{\sqrt{3}}{2} = 5\sqrt{3}\,g \approx 84.9\,\mathrm{N}$$
+$$
+T_1 = 10g \sin 60° = 10g \times \frac{\sqrt{3}}{2} = 5\sqrt{3}\,g \approx 84.9\,\mathrm{N}
+$$
 
-$$T_2 = 10g \sin 30° = 10g \times \frac{1}{2} = 5g = 49\,\mathrm{N}$$
+$$
+T_2 = 10g \sin 30° = 10g \times \frac{1}{2} = 5g = 49\,\mathrm{N}
+$$
 
 ### 11.4 Triangle of forces
 
@@ -539,23 +611,37 @@ Wire and the reaction at the hinge.
 
 **Taking moments about $A$ (to eliminate the hinge reaction):**
 
-$$T\sin 30° \times 4 - 20g \times 2 - 30g \times 1.5 = 0$$
+$$
+T\sin 30° \times 4 - 20g \times 2 - 30g \times 1.5 = 0
+$$
 
-$$T \times 0.5 \times 4 = 40g + 45g$$
+$$
+T \times 0.5 \times 4 = 40g + 45g
+$$
 
-$$2T = 85g \implies T = 42.5g = 416.5\,\mathrm{N}$$
+$$
+2T = 85g \implies T = 42.5g = 416.5\,\mathrm{N}
+$$
 
 **Resolving horizontally at $A$:**
 
-$$H_A = T\cos 30° = 42.5g \times \frac{\sqrt{3}}{2} \approx 360.8\,\mathrm{N}$$
+$$
+H_A = T\cos 30° = 42.5g \times \frac{\sqrt{3}}{2} \approx 360.8\,\mathrm{N}
+$$
 
 **Resolving vertically at $A$:**
 
-$$V_A + T\sin 30° = 20g + 30g$$
+$$
+V_A + T\sin 30° = 20g + 30g
+$$
 
-$$V_A + 42.5g \times 0.5 = 50g$$
+$$
+V_A + 42.5g \times 0.5 = 50g
+$$
 
-$$V_A = 50g - 21.25g = 28.75g = 281.75\,\mathrm{N}$$
+$$
+V_A = 50g - 21.25g = 28.75g = 281.75\,\mathrm{N}
+$$
 
 <hr />
 
@@ -798,7 +884,9 @@ The angle between $T_2$ and $W$ is $180° - 45° = 135^\circ$.
 
 By Lami's theorem:
 
-$$\frac{T_1}{\sin 135°} = \frac{T_2}{\sin 120°} = \frac{5g}{\sin 105°}$$
+$$
+\frac{T_1}{\sin 135°} = \frac{T_2}{\sin 120°} = \frac{5g}{\sin 105°}
+$$
 
 $\sin 105° \approx 0.9659$, $\sin 135° = \frac{\sqrt{2}}{2} \approx 0.7071$
 $\sin 120° = \frac{\sqrt{3}}{2} \approx 0.8660$.

@@ -31,7 +31,9 @@ $\angle ABC$.
 
 By the sine rule:
 
-$$\frac{\sin \angle ABC}{AC} = \frac{\sin 30°}{BC}$$
+$$
+\frac{\sin \angle ABC}{AC} = \frac{\sin 30°}{BC}
+$$
 
 We need $AC$ first. We only have $AB$, $BC$ And $\angle A$ -- this is the SSA (ambiguous) case.
 
@@ -68,9 +70,13 @@ In triangle $PQR$$PQ = 5$$QR = 7$$PR = 8$. Find $\angle PQR$.
 
 We have all three sides (SSS), so use the cosine rule:
 
-$$\cos \angle PQR = \frac{PQ^2 + QR^2 - PR^2}{2 \cdot PQ \cdot QR} = \frac{25 + 49 - 64}{2 \times 5 \times 7} = \frac{10}{70} = \frac{1}{7}$$
+$$
+\cos \angle PQR = \frac{PQ^2 + QR^2 - PR^2}{2 \cdot PQ \cdot QR} = \frac{25 + 49 - 64}{2 \times 5 \times 7} = \frac{10}{70} = \frac{1}{7}
+$$
 
-$$\angle PQR = \arccos\left(\frac{1}{7}\right) \approx 81.8°$$
+$$
+\angle PQR = \arccos\left(\frac{1}{7}\right) \approx 81.8°
+$$
 
 Using the sine rule here would require first finding another angle, which is less efficient and
 risks the ambiguous case.
@@ -94,13 +100,21 @@ Solve $\sin 2x = \cos x$ for $0° \leq x \lt 360°$.
 
 **Solution:**
 
-$$\sin 2x = \cos x$$
+$$
+\sin 2x = \cos x
+$$
 
-$$2\sin x \cos x = \cos x$$
+$$
+2\sin x \cos x = \cos x
+$$
 
-$$2\sin x \cos x - \cos x = 0$$
+$$
+2\sin x \cos x - \cos x = 0
+$$
 
-$$\cos x(2\sin x - 1) = 0$$
+$$
+\cos x(2\sin x - 1) = 0
+$$
 
 **Case 1:** $\cos x = 0 \implies x = 90°$ or $x = 270°$.
 
@@ -138,15 +152,23 @@ base.
 
 The projection of $AG$ onto the base is $AC$.
 
-$$AC = \sqrt{AB^2 + BC^2} = \sqrt{16 + 9} = 5$$
+$$
+AC = \sqrt{AB^2 + BC^2} = \sqrt{16 + 9} = 5
+$$
 
-$$AG = \sqrt{AC^2 + CG^2} = \sqrt{25 + 25} = \sqrt{50} = 5\sqrt{2}$$
+$$
+AG = \sqrt{AC^2 + CG^2} = \sqrt{25 + 25} = \sqrt{50} = 5\sqrt{2}
+$$
 
 The angle $\theta$ between $AG$ and the base is:
 
-$$\sin \theta = \frac{CG}{AG} = \frac{5}{5\sqrt{2}} = \frac{1}{\sqrt{2}}$$
+$$
+\sin \theta = \frac{CG}{AG} = \frac{5}{5\sqrt{2}} = \frac{1}{\sqrt{2}}
+$$
 
-$$\theta = 45°$$
+$$
+\theta = 45°
+$$
 
 ---
 
@@ -167,7 +189,9 @@ Prove that $\dfrac{1 - \cos 2x}{\sin 2x} = \tan x$.
 
 **Solution:**
 
-$$\frac{1 - \cos 2x}{\sin 2x} = \frac{1 - (1 - 2\sin^2 x)}{2\sin x \cos x} = \frac{2\sin^2 x}{2\sin x \cos x} = \frac{\sin x}{\cos x} = \tan x \qed$$
+$$
+\frac{1 - \cos 2x}{\sin 2x} = \frac{1 - (1 - 2\sin^2 x)}{2\sin x \cos x} = \frac{2\sin^2 x}{2\sin x \cos x} = \frac{\sin x}{\cos x} = \tan x \qed
+$$
 
 ---
 
@@ -196,9 +220,13 @@ on the unit circle. Show that $A$$B$$C$ are collinear when $\theta = 36°$.
 
 For collinearity, the area of triangle $ABC$ must be zero.
 
-$$\text{Area} = \frac{1}{2}\left|x_A(y_B - y_C) + x_B(y_C - y_A) + x_C(y_A - y_B)\right|$$
+$$
+\text{Area} = \frac{1}{2}\left|x_A(y_B - y_C) + x_B(y_C - y_A) + x_C(y_A - y_B)\right|
+$$
 
-$$= \frac{1}{2}\left|\cos\theta(\sin 3\theta - \sin 5\theta) + \cos 3\theta(\sin 5\theta - \sin\theta) + \cos 5\theta(\sin\theta - \sin 3\theta)\right|$$
+$$
+= \frac{1}{2}\left|\cos\theta(\sin 3\theta - \sin 5\theta) + \cos 3\theta(\sin 5\theta - \sin\theta) + \cos 5\theta(\sin\theta - \sin 3\theta)\right|
+$$
 
 Using the identity $\sin A - \sin B = 2\cos\dfrac{A+B}{2}\sin\dfrac{A-B}{2}$:
 
@@ -210,7 +238,9 @@ $\sin\theta - \sin 3\theta = 2\cos 2\theta \sin(-\theta) = -2\cos 2\theta \sin\t
 
 Substituting:
 
-$$\frac{1}{2}\left|-2\cos\theta \cos 4\theta \sin\theta + 2\cos 3\theta \cos 3\theta \sin 2\theta - 2\cos 5\theta \cos 2\theta \sin\theta\right|$$
+$$
+\frac{1}{2}\left|-2\cos\theta \cos 4\theta \sin\theta + 2\cos 3\theta \cos 3\theta \sin 2\theta - 2\cos 5\theta \cos 2\theta \sin\theta\right|
+$$
 
 At $\theta = 36°$: $\theta = 36°$$3\theta = 108°$$5\theta = 180°$.
 
@@ -258,9 +288,13 @@ Solve $\tan^2 x - 3\tan x + 1 = 0$ for $0° \leq x \lt 180°$.
 
 Let $u = \tan x$:
 
-$$u^2 - 3u + 1 = 0$$
+$$
+u^2 - 3u + 1 = 0
+$$
 
-$$u = \frac{3 \pm \sqrt{9 - 4}}{2} = \frac{3 \pm \sqrt{5}}{2}$$
+$$
+u = \frac{3 \pm \sqrt{9 - 4}}{2} = \frac{3 \pm \sqrt{5}}{2}
+$$
 
 $\tan x = \dfrac{3 + \sqrt{5}}{2} \approx 2.618 \implies x \approx 69.1°$
 
@@ -307,7 +341,9 @@ $VO = 4$ cm.
 
 In right triangle $VOM$: $\tan \angle VMO = \dfrac{VO}{OM} = \dfrac{4}{3}$.
 
-$$\angle VMO = \arctan\left(\frac{4}{3}\right) \approx 53.1°$$
+$$
+\angle VMO = \arctan\left(\frac{4}{3}\right) \approx 53.1°
+$$
 
 ---
 
@@ -330,13 +366,19 @@ In triangle $ABC$$\angle A = 45°$$\angle B = 60°$ And $a = 8$ cm. Find the len
 
 **Solution:**
 
-$$\angle C = 180° - 45° - 60° = 75°$$
+$$
+\angle C = 180° - 45° - 60° = 75°
+$$
 
 By the sine rule:
 
-$$\frac{c}{\sin C} = \frac{a}{\sin A}$$
+$$
+\frac{c}{\sin C} = \frac{a}{\sin A}
+$$
 
-$$c = \frac{a \sin C}{\sin A} = \frac{8 \sin 75°}{\sin 45°} = \frac{8 \times 0.9659}{0.7071} \approx 10.93 \text{ cm}$$
+$$
+c = \frac{a \sin C}{\sin A} = \frac{8 \sin 75°}{\sin 45°} = \frac{8 \times 0.9659}{0.7071} \approx 10.93 \text{ cm}
+$$
 
 ---
 
@@ -359,9 +401,13 @@ In triangle $PQR$, $PQ = 5$ cm, $QR = 7$ cm, $PR = 10$ cm. Find the largest angl
 
 The largest angle is opposite the longest side, so it is $\angle Q$ (opposite $PR = 10$).
 
-$$\cos \angle Q = \frac{PQ^2 + QR^2 - PR^2}{2 \cdot PQ \cdot QR} = \frac{25 + 49 - 100}{2 \times 5 \times 7} = \frac{-26}{70} = -\frac{13}{35}$$
+$$
+\cos \angle Q = \frac{PQ^2 + QR^2 - PR^2}{2 \cdot PQ \cdot QR} = \frac{25 + 49 - 100}{2 \times 5 \times 7} = \frac{-26}{70} = -\frac{13}{35}
+$$
 
-$$\angle Q = \arccos\left(-\frac{13}{35}\right) \approx 111.8°$$
+$$
+\angle Q = \arccos\left(-\frac{13}{35}\right) \approx 111.8°
+$$
 
 ---
 
@@ -382,9 +428,13 @@ Prove that $\dfrac{\sin x}{1 + \cos x} + \dfrac{1 + \cos x}{\sin x} = 2\csc x$.
 
 **Solution:**
 
-$$\text{LHS} = \frac{\sin^2 x + (1 + \cos x)^2}{\sin x(1 + \cos x)} = \frac{\sin^2 x + 1 + 2\cos x + \cos^2 x}{\sin x(1 + \cos x)}$$
+$$
+\text{LHS} = \frac{\sin^2 x + (1 + \cos x)^2}{\sin x(1 + \cos x)} = \frac{\sin^2 x + 1 + 2\cos x + \cos^2 x}{\sin x(1 + \cos x)}
+$$
 
-$$= \frac{(\sin^2 x + \cos^2 x) + 1 + 2\cos x}{\sin x(1 + \cos x)} = \frac{2 + 2\cos x}{\sin x(1 + \cos x)} = \frac{2(1 + \cos x)}{\sin x(1 + \cos x)} = \frac{2}{\sin x} = 2\csc x = \text{RHS} \qed$$
+$$
+= \frac{(\sin^2 x + \cos^2 x) + 1 + 2\cos x}{\sin x(1 + \cos x)} = \frac{2 + 2\cos x}{\sin x(1 + \cos x)} = \frac{2(1 + \cos x)}{\sin x(1 + \cos x)} = \frac{2}{\sin x} = 2\csc x = \text{RHS} \qed
+$$
 
 ---
 
@@ -405,11 +455,17 @@ Solve $\cos 2x = \cos x$ for $0° \leq x < 360°$.
 
 **Solution:**
 
-$$\cos 2x = \cos x$$
+$$
+\cos 2x = \cos x
+$$
 
-$$2\cos^2 x - 1 = \cos x$$
+$$
+2\cos^2 x - 1 = \cos x
+$$
 
-$$2\cos^2 x - \cos x - 1 = 0$$
+$$
+2\cos^2 x - \cos x - 1 = 0
+$$
 
 Let $u = \cos x$: $2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0$.
 
@@ -440,7 +496,9 @@ In triangle $ABC$, $AB = 12$ cm, $AC = 10$ cm, and $\angle BAC = 65°$. Find the
 
 **Solution:**
 
-$$\text{Area} = \frac{1}{2} \times AB \times AC \times \sin \angle BAC = \frac{1}{2} \times 12 \times 10 \times \sin 65° = 60\sin 65° \approx 60 \times 0.9063 \approx 54.4 \text{ cm}^2$$
+$$
+\text{Area} = \frac{1}{2} \times AB \times AC \times \sin \angle BAC = \frac{1}{2} \times 12 \times 10 \times \sin 65° = 60\sin 65° \approx 60 \times 0.9063 \approx 54.4 \text{ cm}^2
+$$
 
 ---
 
@@ -467,7 +525,9 @@ The ant needs to go from $(0, 0, 0)$ to $(6, 4, 3)$.
 
 The shortest path is the space diagonal:
 
-$$d = \sqrt{6^2 + 4^2 + 3^2} = \sqrt{36 + 16 + 9} = \sqrt{61} \approx 7.81 \text{ m}$$
+$$
+d = \sqrt{6^2 + 4^2 + 3^2} = \sqrt{36 + 16 + 9} = \sqrt{61} \approx 7.81 \text{ m}
+$$
 
 If the ant must stay on surfaces, the shortest path "unfolds" two walls:
 
@@ -510,7 +570,9 @@ So triangle $ABC$ has a right angle at $B$.
 
 $AB = 15$ km, $BC = 20$ km.
 
-$$AC = \sqrt{15^2 + 20^2} = \sqrt{225 + 400} = \sqrt{625} = 25 \text{ km}$$
+$$
+AC = \sqrt{15^2 + 20^2} = \sqrt{225 + 400} = \sqrt{625} = 25 \text{ km}
+$$
 
 Bearing of $C$ from $A$:
 $\angle NAC = 060° + \arctan\left(\dfrac{20}{15}\right) = 60° + 53.1° = 113.1°$.
@@ -540,9 +602,13 @@ of the boat from the base of the cliff.
 The angle of elevation from the boat to the top of the cliff equals the angle of depression from the
 top to the boat: $30°$.
 
-$$\tan 30° = \frac{80}{d}$$
+$$
+\tan 30° = \frac{80}{d}
+$$
 
-$$d = \frac{80}{\tan 30°} = \frac{80}{1/\sqrt{3}} = 80\sqrt{3} \approx 138.6 \text{ m}$$
+$$
+d = \frac{80}{\tan 30°} = \frac{80}{1/\sqrt{3}} = 80\sqrt{3} \approx 138.6 \text{ m}
+$$
 
 ---
 
@@ -619,7 +685,9 @@ triangle $ABC$. (2 marks) (c) Find the length of the altitude from $C$ to $AB$. 
 
 (a) By the sine rule:
 
-$$\frac{\sin B}{b} = \frac{\sin A}{a} \implies \sin B = \frac{6\sin 70°}{8} = \frac{6 \times 0.9397}{8} = 0.7048$$
+$$
+\frac{\sin B}{b} = \frac{\sin A}{a} \implies \sin B = \frac{6\sin 70°}{8} = \frac{6 \times 0.9397}{8} = 0.7048
+$$
 
 $B = \arcsin(0.7048) \approx 44.8°$.
 
@@ -758,17 +826,27 @@ Place $A$ at the origin: $A = (0, 0)$$B = (6, 0)$$C = (6, 6)$$D = (0, 6)$.
 
 $E = (6, 2)$$F = (3, 6)$.
 
-$$AE = \sqrt{6^2 + 2^2} = \sqrt{40} = 2\sqrt{10}$$
+$$
+AE = \sqrt{6^2 + 2^2} = \sqrt{40} = 2\sqrt{10}
+$$
 
-$$EF = \sqrt{(6-3)^2 + (2-6)^2} = \sqrt{9 + 16} = 5$$
+$$
+EF = \sqrt{(6-3)^2 + (2-6)^2} = \sqrt{9 + 16} = 5
+$$
 
-$$AF = \sqrt{3^2 + 6^2} = \sqrt{45} = 3\sqrt{5}$$
+$$
+AF = \sqrt{3^2 + 6^2} = \sqrt{45} = 3\sqrt{5}
+$$
 
 By the cosine rule in triangle $AEF$:
 
-$$\cos \angle AEF = \frac{AE^2 + EF^2 - AF^2}{2 \cdot AE \cdot EF} = \frac{40 + 25 - 45}{2 \times 2\sqrt{10} \times 5} = \frac{20}{20\sqrt{10}} = \frac{1}{\sqrt{10}} = \frac{\sqrt{10}}{10}$$
+$$
+\cos \angle AEF = \frac{AE^2 + EF^2 - AF^2}{2 \cdot AE \cdot EF} = \frac{40 + 25 - 45}{2 \times 2\sqrt{10} \times 5} = \frac{20}{20\sqrt{10}} = \frac{1}{\sqrt{10}} = \frac{\sqrt{10}}{10}
+$$
 
-$$\angle AEF = \arccos\left(\frac{\sqrt{10}}{10}\right) \approx 71.6°$$
+$$
+\angle AEF = \arccos\left(\frac{\sqrt{10}}{10}\right) \approx 71.6°
+$$
 
 ## Cross-References
 

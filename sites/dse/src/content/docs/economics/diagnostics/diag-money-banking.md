@@ -252,7 +252,9 @@ confidence, recalculate the multiplier and explain the effect on the money suppl
 (a) The money multiplier accounting for excess reserves ($er$) and the currency-deposit ratio
 ($cr$):
 
-$$m = \frac{1 + cr}{rrr + er + cr} = \frac{1 + 0.15}{0.08 + 0.02 + 0.15} = \frac{1.15}{0.25} = 4.6$$
+$$
+m = \frac{1 + cr}{rrr + er + cr} = \frac{1 + 0.15}{0.08 + 0.02 + 0.15} = \frac{1.15}{0.25} = 4.6
+$$
 
 (b) (i) Monetary base change $= \$50$ billion (the OMO directly changes reserves, part of the
 monetary base).
@@ -264,7 +266,9 @@ $\frac{1}{rrr + er + cr} \times \Delta R = \frac{1}{0.25} \times 50 = \$200$ bil
 
 (c) With $cr = 0.20$:
 
-$$m = \frac{1 + 0.20}{0.08 + 0.02 + 0.20} = \frac{1.20}{0.30} = 4.0$$
+$$
+m = \frac{1 + 0.20}{0.08 + 0.02 + 0.20} = \frac{1.20}{0.30} = 4.0
+$$
 
 The multiplier falls from 4.6 to 4.0. The increase in the currency ratio means more money is held as
 cash outside the banking system, where it cannot be multiplied through lending. This is a leakage
@@ -370,7 +374,9 @@ address the downturn.
 (c) Original mortgage rate $= \text{HIBOR} + 1.5\% = 2\% + 1.5\% = 3.5\%$. Monthly payment (assuming
 25-year mortgage):
 
-$$M = P \times \frac{r(1+r)^n}{(1+r)^n - 1}$$
+$$
+M = P \times \frac{r(1+r)^n}{(1+r)^n - 1}
+$$
 
 Where $P = 2,000,000$$r = 0.035/12 = 0.002917$$n = 300$.
 

@@ -60,7 +60,9 @@ $= Fd\cos\theta = 80 \times 15 \times \cos 20° = 1200\cos 20° \approx 1127.6$ 
 
 **(b)** First find the normal reaction. Resolving vertically:
 
-$$R + 80\sin 20° = mg = 98 \implies R = 98 - 80\sin 20° = 98 - 27.36 = 70.64 \text{ N}$$
+$$
+R + 80\sin 20° = mg = 98 \implies R = 98 - 80\sin 20° = 98 - 27.36 = 70.64 \text{ N}
+$$
 
 Friction $= \mu R = 0.5 \times 70.64 = 35.32$ N.
 
@@ -70,9 +72,13 @@ Work done against friction $= F_{\text{friction}} \times d = 35.32 \times 15 = 5
 
 By the work-energy principle:
 
-$$W_{\text{net}} = \Delta\mathrm{KE} = \frac{1}{2}mv^2 - 0$$
+$$
+W_{\text{net}} = \Delta\mathrm{KE} = \frac{1}{2}mv^2 - 0
+$$
 
-$$597.8 = \frac{1}{2}(10)v^2 \implies v^2 = 119.56 \implies v \approx 10.93 \text{ m/s}$$
+$$
+597.8 = \frac{1}{2}(10)v^2 \implies v^2 = 119.56 \implies v \approx 10.93 \text{ m/s}
+$$
 
 **(d)** The student"s formula $\mu mgd = 0.5 \times 98 \times 15 = 735$ J.
 
@@ -81,7 +87,9 @@ of the applied force reduces the normal reaction.
 
 Correct work against friction $= 529.8$ J.
 
-$$\text{Percentage error} = \frac{735 - 529.8}{529.8} \times 100\% \approx 38.7\%$$
+$$
+\text{Percentage error} = \frac{735 - 529.8}{529.8} \times 100\% \approx 38.7\%
+$$
 
 ---
 
@@ -125,19 +133,27 @@ Net force $= F - R = \frac{P}{v} - R$.
 
 By Newton's Second Law: $ma = \frac{P}{v} - R$.
 
-$$a = \frac{P}{mv} - \frac{R}{m} \quad \blacksquare$$
+$$
+a = \frac{P}{mv} - \frac{R}{m} \quad \blacksquare
+$$
 
 **(b)** At maximum speed, $a = 0$:
 
-$$\frac{P}{v_{\max}} = R \implies v_{\max} = \frac{P}{R} = \frac{40000}{200} = 200 \text{ m/s}$$
+$$
+\frac{P}{v_{\max}} = R \implies v_{\max} = \frac{P}{R} = \frac{40000}{200} = 200 \text{ m/s}
+$$
 
 **(c)** At $v = 10$ m/s:
 
-$$a = \frac{40000}{800 \times 10} - \frac{200}{800} = 5 - 0.25 = 4.75 \text{ m/s}^2$$
+$$
+a = \frac{40000}{800 \times 10} - \frac{200}{800} = 5 - 0.25 = 4.75 \text{ m/s}^2
+$$
 
 At $v = 100$ m/s:
 
-$$a = \frac{40000}{800 \times 100} - \frac{200}{800} = 0.5 - 0.25 = 0.25 \text{ m/s}^2$$
+$$
+a = \frac{40000}{800 \times 100} - \frac{200}{800} = 0.5 - 0.25 = 0.25 \text{ m/s}^2
+$$
 
 **(d)** The acceleration at $10$ m/s is $4.75$ m/s$^2$ and at $100$ m/s is $0.25$ m/s$^2$. The
 acceleration decreases by a factor of 19 as the speed increases by a factor of 10. Constant power
@@ -145,23 +161,37 @@ does not imply constant acceleration; in fact, the acceleration decreases hyperb
 
 **(e)** From $a = \frac{dv}{dt} = \frac{P}{mv} - \frac{R}{m}$:
 
-$$dt = \frac{dv}{\frac{P}{mv} - \frac{R}{m}} = \frac{mv\,dv}{P - Rv}$$
+$$
+dt = \frac{dv}{\frac{P}{mv} - \frac{R}{m}} = \frac{mv\,dv}{P - Rv}
+$$
 
-$$t = \int_{5}^{15} \frac{mv}{P - Rv}\,dv = 800\int_{5}^{15} \frac{v}{40000 - 200v}\,dv$$
+$$
+t = \int_{5}^{15} \frac{mv}{P - Rv}\,dv = 800\int_{5}^{15} \frac{v}{40000 - 200v}\,dv
+$$
 
 Let $u = 40000 - 200v$$du = -200\,dv$$dv = -\frac{du}{200}$$v = \frac{40000 - u}{200}$:
 
-$$t = 800\int \frac{(40000 - u)/200}{u} \cdot \left(-\frac{du}{200}\right) = 800 \times \frac{-1}{40000}\int \frac{40000 - u}{u}\,du$$
+$$
+t = 800\int \frac{(40000 - u)/200}{u} \cdot \left(-\frac{du}{200}\right) = 800 \times \frac{-1}{40000}\int \frac{40000 - u}{u}\,du
+$$
 
-$$= -\frac{1}{50}\int \left(\frac{40000}{u} - 1\right)du = -\frac{1}{50}[40000\ln u - u]$$
+$$
+= -\frac{1}{50}\int \left(\frac{40000}{u} - 1\right)du = -\frac{1}{50}[40000\ln u - u]
+$$
 
 Evaluating from $v = 5$ ($u = 39000$) to $v = 15$ ($u = 37000$):
 
-$$t = -\frac{1}{50}\left[(40000\ln 37000 - 37000) - (40000\ln 39000 - 39000)\right]$$
+$$
+t = -\frac{1}{50}\left[(40000\ln 37000 - 37000) - (40000\ln 39000 - 39000)\right]
+$$
 
-$$= \frac{1}{50}\left[40000\ln\!\left(\frac{39000}{37000}\right) + 2000\right]$$
+$$
+= \frac{1}{50}\left[40000\ln\!\left(\frac{39000}{37000}\right) + 2000\right]
+$$
 
-$$= 800\ln\!\left(\frac{39}{37}\right) + 40 \approx 800(0.05263) + 40 \approx 42.1 + 40 = 82.1 \text{ s}$$
+$$
+= 800\ln\!\left(\frac{39}{37}\right) + 40 \approx 800(0.05263) + 40 \approx 42.1 + 40 = 82.1 \text{ s}
+$$
 
 ---
 
@@ -202,18 +232,26 @@ Loss in GPE $= mgx_{\max} = 3 \times 9.8 \times x_{\max} = 29.4x_{\max}$.
 
 Gain in EPE $= \frac{1}{2}kx_{\max}^2 = \frac{1}{2}(300)x_{\max}^2 = 150x_{\max}^2$.
 
-$$29.4x_{\max} = 150x_{\max}^2$$
+$$
+29.4x_{\max} = 150x_{\max}^2
+$$
 
-$$x_{\max}(150x_{\max} - 29.4) = 0$$
+$$
+x_{\max}(150x_{\max} - 29.4) = 0
+$$
 
-$$x_{\max} = \frac{29.4}{150} = 0.196 \text{ m}$$
+$$
+x_{\max} = \frac{29.4}{150} = 0.196 \text{ m}
+$$
 
 (Ignoring $x_{\max} = 0$The trivial solution.)
 
 **(b)** The speed is maximum when the acceleration is zero, i.e., when the net force on the particle
 is zero. This occurs at the equilibrium extension $x_e$ where:
 
-$$mg = kx_e \implies x_e = \frac{mg}{k} = \frac{29.4}{300} = 0.098 \text{ m}$$
+$$
+mg = kx_e \implies x_e = \frac{mg}{k} = \frac{29.4}{300} = 0.098 \text{ m}
+$$
 
 At this point, using energy conservation from the natural length:
 
@@ -223,7 +261,9 @@ Gain in EPE $= \frac{1}{2}(300)(0.098)^2 = 150 \times 0.009604 = 1.4406$ J.
 
 Gain in KE $= 2.8812 - 1.4406 = 1.4406$ J.
 
-$$\frac{1}{2}(3)v_{\max}^2 = 1.4406 \implies v_{\max}^2 = 0.9604 \implies v_{\max} = 0.98 \text{ m/s}$$
+$$
+\frac{1}{2}(3)v_{\max}^2 = 1.4406 \implies v_{\max}^2 = 0.9604 \implies v_{\max} = 0.98 \text{ m/s}
+$$
 
 **(c)** At the natural length, the spring exerts no force, so the only force on the particle is
 gravity ($mg = 29.4$ N downward). The particle is still accelerating at $g = 9.8$ m/s$^2$ at this
@@ -272,11 +312,15 @@ theorem, and requires analysis of the sign of the force function.]
 
 **(a)** $$W = \int_0^3 F(x)\,dx = \int_0^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_0^3$$
 
-$$= (27 + 9 - 15) - 0 = 21 \text{ J}$$
+$$
+= (27 + 9 - 15) - 0 = 21 \text{ J}
+$$
 
 **(b)** By the work-energy theorem: $W = \Delta\mathrm{KE} = \frac{1}{2}mv^2 - 0$.
 
-$$21 = \frac{1}{2}(2)v^2 \implies v^2 = 21 \implies v = \sqrt{21} \approx 4.58 \text{ m/s}$$
+$$
+21 = \frac{1}{2}(2)v^2 \implies v^2 = 21 \implies v = \sqrt{21} \approx 4.58 \text{ m/s}
+$$
 
 **(c)** $F(x) = 0 \implies 3x^2 + 2x - 5 = 0 \implies (3x + 5)(x - 1) = 0 \implies x = -\frac{5}{3}$
 or $x = 1$.
@@ -291,9 +335,13 @@ The force does positive work in $(-\infty, -5/3)$ and $(1, \infty)$ And negative
 
 **(d)** $$W = \int_{-2}^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_{-2}^3$$
 
-$$= (27 + 9 - 15) - (-8 + 4 + 10) = 21 - 6 = 15 \text{ J}$$
+$$
+= (27 + 9 - 15) - (-8 + 4 + 10) = 21 - 6 = 15 \text{ J}
+$$
 
-$$v = \sqrt{\frac{2W}{m}} = \sqrt{\frac{30}{2}} = \sqrt{15} \approx 3.87 \text{ m/s}$$
+$$
+v = \sqrt{\frac{2W}{m}} = \sqrt{\frac{30}{2}} = \sqrt{15} \approx 3.87 \text{ m/s}
+$$
 
 Note that the work from $-2$ to $3$ ($15$ J) is less than from $0$ to $3$ ($21$ J) because the force
 does negative work in the region $[-5/3, 1]$ through which the particle passes.
@@ -315,14 +363,18 @@ does negative work in the region $[-5/3, 1]$ through which the particle passes.
 
 **(a)** Starting from Newton's Second Law $F = ma$Derive the work-energy theorem in one dimension:
 
-$$W = \int_{s_1}^{s_2} F\,ds = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2$$
+$$
+W = \int_{s_1}^{s_2} F\,ds = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+$$
 
 Show every step and justify each substitution.
 
 **(b)** Extend the derivation to two dimensions, where the force is $\mathbf{F} = (F_x, F_y)$ and
 the displacement is $\mathbf{s} = (x, y)$To show that:
 
-$$W = \int \mathbf{F} \cdot d\mathbf{s} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2$$
+$$
+W = \int \mathbf{F} \cdot d\mathbf{s} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+$$
 
 **(c)** Explain why the work-energy theorem holds for non-conservative forces (such as friction) but
 conservation of mechanical energy ($\mathrm{KE} + \mathrm{PE} = \text{constant}$) does not.
@@ -335,15 +387,21 @@ energy.]
 
 **(a)** Starting from $F = ma$ where $F$ may vary with position:
 
-$$F = m\frac{dv}{dt}$$
+$$
+F = m\frac{dv}{dt}
+$$
 
 Multiply both sides by $ds$ (the infinitesimal displacement):
 
-$$F\,ds = m\frac{dv}{dt}\,ds$$
+$$
+F\,ds = m\frac{dv}{dt}\,ds
+$$
 
 Since $v = \frac{ds}{dt}$We have $ds = v\,dt$ So $\frac{ds}{dt} = v$. Rearranging:
 
-$$F\,ds = m\frac{dv}{dt} \cdot v\,dt = mv\,dv$$
+$$
+F\,ds = m\frac{dv}{dt} \cdot v\,dt = mv\,dv
+$$
 
 This step uses the chain rule:
 $\frac{dv}{dt} = \frac{dv}{ds} \cdot \frac{ds}{dt} = v\frac{dv}{ds}$ So $F = mv\frac{dv}{ds}$ and
@@ -351,25 +409,35 @@ $F\,ds = mv\,dv$.
 
 Integrating both sides from the initial state $(s_1, v_1)$ to the final state $(s_2, v_2)$:
 
-$$\int_{s_1}^{s_2} F\,ds = \int_{v_1}^{v_2} mv\,dv = \left[\frac{1}{2}mv^2\right]_{v_1}^{v_2} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2 \quad \blacksquare$$
+$$
+\int_{s_1}^{s_2} F\,ds = \int_{v_1}^{v_2} mv\,dv = \left[\frac{1}{2}mv^2\right]_{v_1}^{v_2} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2 \quad \blacksquare
+$$
 
 **(b)** In two dimensions, Newton's Second Law is $\mathbf{F} = m\mathbf{a}$.
 
 The work done by $\mathbf{F}$ along the path from $\mathbf{s}_1$ to $\mathbf{s}_2$ is:
 
-$$W = \int \mathbf{F} \cdot d\mathbf{s} = \int (F_x\,dx + F_y\,dy)$$
+$$
+W = \int \mathbf{F} \cdot d\mathbf{s} = \int (F_x\,dx + F_y\,dy)
+$$
 
 Since $F_x = ma_x = m\frac{dv_x}{dt}$ and $dx = v_x\,dt$:
 
-$$\int F_x\,dx = \int m\frac{dv_x}{dt} \cdot v_x\,dt = \int mv_x\,dv_x = \frac{1}{2}mv_{x,2}^2 - \frac{1}{2}mv_{x,1}^2$$
+$$
+\int F_x\,dx = \int m\frac{dv_x}{dt} \cdot v_x\,dt = \int mv_x\,dv_x = \frac{1}{2}mv_{x,2}^2 - \frac{1}{2}mv_{x,1}^2
+$$
 
 Similarly:
 
-$$\int F_y\,dy = \frac{1}{2}mv_{y,2}^2 - \frac{1}{2}mv_{y,1}^2$$
+$$
+\int F_y\,dy = \frac{1}{2}mv_{y,2}^2 - \frac{1}{2}mv_{y,1}^2
+$$
 
 Adding:
 
-$$W = \frac{1}{2}m(v_{x,2}^2 + v_{y,2}^2) - \frac{1}{2}m(v_{x,1}^2 + v_{y,1}^2) = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2 \quad \blacksquare$$
+$$
+W = \frac{1}{2}m(v_{x,2}^2 + v_{y,2}^2) - \frac{1}{2}m(v_{x,1}^2 + v_{y,1}^2) = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2 \quad \blacksquare
+$$
 
 **(c)** The work-energy theorem $W_{\text{net}} = \Delta\mathrm{KE}$ is a direct consequence of
 $F = ma$ (as proven above). It accounts for **all** forces, whether conservative or
@@ -428,11 +496,17 @@ J.
 
 By conservation of energy:
 
-$$\text{Initial KE} = \text{GPE gain} + \text{Work against friction}$$
+$$
+\text{Initial KE} = \text{GPE gain} + \text{Work against friction}
+$$
 
-$$360 = 24.5d + 10.61d = 35.11d$$
+$$
+360 = 24.5d + 10.61d = 35.11d
+$$
 
-$$d = \frac{360}{35.11} \approx 10.25 \text{ m}$$
+$$
+d = \frac{360}{35.11} \approx 10.25 \text{ m}
+$$
 
 **(b)** On the return journey, the particle loses height $d\sin 30°$ and friction again acts over
 distance $d$.
@@ -443,15 +517,21 @@ Work against friction (down the slope) $= 10.61d = 10.61 \times 10.25 = 108.8$ J
 
 Final KE $= 251.1 - 108.8 = 142.3$ J.
 
-$$\frac{1}{2}(5)v^2 = 142.3 \implies v^2 = 56.9 \implies v \approx 7.54 \text{ m/s}$$
+$$
+\frac{1}{2}(5)v^2 = 142.3 \implies v^2 = 56.9 \implies v \approx 7.54 \text{ m/s}
+$$
 
 **(c)** By Newton's Second Law (up the slope positive):
 
-$$a = -g\sin 30° - \mu g\cos 30° = -4.9 - 2.121 = -7.021 \text{ m/s}^2$$
+$$
+a = -g\sin 30° - \mu g\cos 30° = -4.9 - 2.121 = -7.021 \text{ m/s}^2
+$$
 
 Using $v^2 = u^2 + 2as$ with $v = 0$, $u = 12$:
 
-$$0 = 144 + 2(-7.021)d \implies d = \frac{144}{14.042} \approx 10.25 \text{ m}$$
+$$
+0 = 144 + 2(-7.021)d \implies d = \frac{144}{14.042} \approx 10.25 \text{ m}
+$$
 
 Matches part (a).
 
@@ -459,7 +539,9 @@ Matches part (a).
 
 Initial KE $= 360$ J.
 
-$$\text{Percentage dissipated} = \frac{217.7}{360} \times 100\% \approx 60.5\%$$
+$$
+\text{Percentage dissipated} = \frac{217.7}{360} \times 100\% \approx 60.5\%
+$$
 
 Over 60% of the initial kinetic energy is lost to friction during the complete journey.
 

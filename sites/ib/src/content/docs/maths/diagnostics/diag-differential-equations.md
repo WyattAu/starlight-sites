@@ -52,17 +52,27 @@ claim this covers all solutions. Is this correct?
 
 For $y \neq \pm 1$Separate variables using partial fractions:
 
-$$\frac{1}{y^2 - 1} = \frac{1}{(y - 1)(y + 1)} = \frac{1}{2(y - 1)} - \frac{1}{2(y + 1)}$$
+$$
+\frac{1}{y^2 - 1} = \frac{1}{(y - 1)(y + 1)} = \frac{1}{2(y - 1)} - \frac{1}{2(y + 1)}
+$$
 
-$$\int \frac{1}{y^2 - 1}\,dy = \int dx$$
+$$
+\int \frac{1}{y^2 - 1}\,dy = \int dx
+$$
 
-$$\frac{1}{2}\ln\!\left\lvert\frac{y - 1}{y + 1}\right\rvert = x + C$$
+$$
+\frac{1}{2}\ln\!\left\lvert\frac{y - 1}{y + 1}\right\rvert = x + C
+$$
 
-$$\left\lvert\frac{y - 1}{y + 1}\right\rvert = e^{2(x + C)} = Ae^{2x}$$
+$$
+\left\lvert\frac{y - 1}{y + 1}\right\rvert = e^{2(x + C)} = Ae^{2x}
+$$
 
 Where $A = e^{2C} \gt 0$. Including the equilibrium solutions, the general solution is:
 
-$$y = 1, \quad y = -1, \quad \text{or} \quad \frac{y - 1}{y + 1} = \pm Ae^{2x}$$
+$$
+y = 1, \quad y = -1, \quad \text{or} \quad \frac{y - 1}{y + 1} = \pm Ae^{2x}
+$$
 
 **(b)** The student"s solution is incomplete because they lost the equilibrium solutions $y = 1$ and
 $y = -1$. By dividing by $y^2 - 1$The student implicitly assumed $y^2 - 1 \neq 0$. The equilibrium
@@ -121,11 +131,17 @@ Multiply through: $e^{-2x}\dfrac{dy}{dx} - 2e^{-2x}y = e^{3x} \cdot e^{-2x} = e^
 
 The left side is $\dfrac{d}{dx}(ye^{-2x})$:
 
-$$\frac{d}{dx}(ye^{-2x}) = e^x$$
+$$
+\frac{d}{dx}(ye^{-2x}) = e^x
+$$
 
-$$ye^{-2x} = e^x + C$$
+$$
+ye^{-2x} = e^x + C
+$$
 
-$$y = e^{3x} + Ce^{2x}$$
+$$
+y = e^{3x} + Ce^{2x}
+$$
 
 With $y(0) = 1$: $1 = 1 + C \implies C = 0$.
 
@@ -178,7 +194,9 @@ Repeated root: $\lambda = -2$ (algebraic multiplicity 2).
 
 The general solution for a repeated root is:
 
-$$y = (A + Bx)e^{-2x}$$
+$$
+y = (A + Bx)e^{-2x}
+$$
 
 Note the factor of $x$ in the second term. This is essential.
 
@@ -193,13 +211,21 @@ derivative of $e^{\lambda x}$ with respect to $\lambda$.
 
 Using the correct general solution with $y(0) = 1$ and $y'(0) = 0$:
 
-$$y = (A + Bx)e^{-2x}, \quad y' = Be^{-2x} + (A + Bx)(-2)e^{-2x} = e^{-2x}(B - 2A - 2Bx)$$
+$$
+y = (A + Bx)e^{-2x}, \quad y' = Be^{-2x} + (A + Bx)(-2)e^{-2x} = e^{-2x}(B - 2A - 2Bx)
+$$
 
-$$y(0) = A = 1$$
+$$
+y(0) = A = 1
+$$
 
-$$y'(0) = B - 2A = B - 2 = 0 \implies B = 2$$
+$$
+y'(0) = B - 2A = B - 2 = 0 \implies B = 2
+$$
 
-$$y = (1 + 2x)e^{-2x}$$
+$$
+y = (1 + 2x)e^{-2x}
+$$
 
 The student's answer $y = e^{-2x}$ does not satisfy $y'(0) = 0$ since $y' = -2e^{-2x}$ and
 $y'(0) = -2 \neq 0$.
@@ -241,32 +267,52 @@ in exact form.
 
 Separate variables: $\dfrac{dT}{T - 20} = -k\,dt$.
 
-$$\ln(T - 20) = -kt + C$$
+$$
+\ln(T - 20) = -kt + C
+$$
 
-$$T - 20 = e^{-kt + C} = Ae^{-kt}$$
+$$
+T - 20 = e^{-kt + C} = Ae^{-kt}
+$$
 
-$$T(t) = 20 + Ae^{-kt}$$
+$$
+T(t) = 20 + Ae^{-kt}
+$$
 
 Initial condition: $T(0) = 95 \implies A = 75$.
 
-$$T(t) = 20 + 75e^{-kt}$$
+$$
+T(t) = 20 + 75e^{-kt}
+$$
 
 At $t = 10$:
 $T(10) = 60 \implies 60 = 20 + 75e^{-10k} \implies 75e^{-10k} = 40 \implies e^{-10k} = \frac{8}{15}$.
 
-$$-10k = \ln\!\left(\frac{8}{15}\right) \implies k = \frac{1}{10}\ln\!\left(\frac{15}{8}\right)$$
+$$
+-10k = \ln\!\left(\frac{8}{15}\right) \implies k = \frac{1}{10}\ln\!\left(\frac{15}{8}\right)
+$$
 
-$$T(t) = 20 + 75\left(\frac{8}{15}\right)^{t/10}$$
+$$
+T(t) = 20 + 75\left(\frac{8}{15}\right)^{t/10}
+$$
 
 **(b)** Set $T(t) = 30$:
 
-$$30 = 20 + 75\left(\frac{8}{15}\right)^{t/10} \implies 75\left(\frac{8}{15}\right)^{t/10} = 10$$
+$$
+30 = 20 + 75\left(\frac{8}{15}\right)^{t/10} \implies 75\left(\frac{8}{15}\right)^{t/10} = 10
+$$
 
-$$\left(\frac{8}{15}\right)^{t/10} = \frac{2}{15}$$
+$$
+\left(\frac{8}{15}\right)^{t/10} = \frac{2}{15}
+$$
 
-$$\frac{t}{10}\ln\!\left(\frac{8}{15}\right) = \ln\!\left(\frac{2}{15}\right)$$
+$$
+\frac{t}{10}\ln\!\left(\frac{8}{15}\right) = \ln\!\left(\frac{2}{15}\right)
+$$
 
-$$t = \frac{10\ln\!\left(\frac{2}{15}\right)}{\ln\!\left(\frac{8}{15}\right)} = \frac{10\ln\!\left(\frac{2}{15}\right)}{\ln 8 - \ln 15} = \frac{10\ln\!\left(\frac{2}{15}\right)}{3\ln 2 - \ln 3 - \ln 5}$$
+$$
+t = \frac{10\ln\!\left(\frac{2}{15}\right)}{\ln\!\left(\frac{8}{15}\right)} = \frac{10\ln\!\left(\frac{2}{15}\right)}{\ln 8 - \ln 15} = \frac{10\ln\!\left(\frac{2}{15}\right)}{3\ln 2 - \ln 3 - \ln 5}
+$$
 
 Numerically: $t \approx \frac{10 \times (-2.015)}{0.628} \approx 32.1$ minutes.
 
@@ -294,7 +340,9 @@ expected from Newton's law of cooling.
 
 Use Euler's method with step size $h = 0.5$ to approximate $y(2)$ for the initial value problem:
 
-$$\frac{dy}{dx} = \frac{x}{y}, \quad y(1) = 2$$
+$$
+\frac{dy}{dx} = \frac{x}{y}, \quad y(1) = 2
+$$
 
 **(a)** Complete the Euler's method table.
 
@@ -314,27 +362,39 @@ $$\frac{dy}{dx} = \frac{x}{y}, \quad y(1) = 2$$
 | 1   | 1.5   | 2.250 | 0.667                            |
 | 2   | 2.0   | 2.583 | ---                              |
 
-$$y_1 = 2.000 + 0.5 \times 0.500 = 2.250$$
+$$
+y_1 = 2.000 + 0.5 \times 0.500 = 2.250
+$$
 
-$$y_2 = 2.250 + 0.5 \times \frac{1.5}{2.250} = 2.250 + 0.5 \times 0.667 = 2.250 + 0.333 = 2.583$$
+$$
+y_2 = 2.250 + 0.5 \times \frac{1.5}{2.250} = 2.250 + 0.5 \times 0.667 = 2.250 + 0.333 = 2.583
+$$
 
 Euler approximation: $y(2) \approx 2.583$.
 
 **(b)** Separate variables: $y\,dy = x\,dx$.
 
-$$\int y\,dy = \int x\,dx \implies \frac{y^2}{2} = \frac{x^2}{2} + C$$
+$$
+\int y\,dy = \int x\,dx \implies \frac{y^2}{2} = \frac{x^2}{2} + C
+$$
 
 With $y(1) = 2$: $\frac{4}{2} = \frac{1}{2} + C \implies C = \frac{3}{2}$.
 
-$$y^2 = x^2 + 3 \implies y = \sqrt{x^2 + 3}$$
+$$
+y^2 = x^2 + 3 \implies y = \sqrt{x^2 + 3}
+$$
 
 (Taking the positive root since $y(1) = 2 \gt 0$.)
 
-$$y(2) = \sqrt{4 + 3} = \sqrt{7} \approx 2.646$$
+$$
+y(2) = \sqrt{4 + 3} = \sqrt{7} \approx 2.646
+$$
 
 **(c)**
 
-$$\text{Percentage error} = \frac{\lvert 2.583 - \sqrt{7} \rvert}{\sqrt{7}} \times 100\% = \frac{2.646 - 2.583}{2.646} \times 100\% \approx 2.4\%$$
+$$
+\text{Percentage error} = \frac{\lvert 2.583 - \sqrt{7} \rvert}{\sqrt{7}} \times 100\% = \frac{2.646 - 2.583}{2.646} \times 100\% \approx 2.4\%
+$$
 
 ## Cross-References
 

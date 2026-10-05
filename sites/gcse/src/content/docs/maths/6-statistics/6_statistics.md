@@ -59,12 +59,16 @@ Car).
 **Stratified sampling formula.** If a population of size $N$ contains a subgroup of size $n$ Then The
 sample from that subgroup should be:
 
-$$\mathrm{sample size = \frac{n}{N} \times \mathrm{total sample size$$
+$$
+\mathrm{sample size = \frac{n}{N} \times \mathrm{total sample size
+$$
 
 **Worked Example.** A school has 600 boys and 400 girls. A sample of 50 students is needed. How many
 Boys and girls should be in the sample?
 
-$$\mathrm{Boys = \frac{600}{1000} \times 50 = 30, \qquad \mathrm{Girls = \frac{400}{1000} \times 50 = 20$$
+$$
+\mathrm{Boys = \frac{600}{1000} \times 50 = 30, \qquad \mathrm{Girls = \frac{400}{1000} \times 50 = 20
+$$
 
 **Worked Example (Higher Tier).** A population of 1200 is divided into three age groups: Under 18
 (300), 18--40 (500), Over 40 (400). A stratified sample of 60 is required.
@@ -102,15 +106,23 @@ Only one school is still biased if you want to draw conclusions about all school
 
 Ordered: $1, 2, 3, 4, 5, 5, 5, 7, 8, 9$.
 
-$$\mathrm{Mean = \frac{1 + 2 + 3 + 4 + 5 + 5 + 5 + 7 + 8 + 9}{10} = \frac{49}{10} = 4.9$$
+$$
+\mathrm{Mean = \frac{1 + 2 + 3 + 4 + 5 + 5 + 5 + 7 + 8 + 9}{10} = \frac{49}{10} = 4.9
+$$
 
-$$\mathrm{Median = \frac{5 + 5}{2} = 5$$
+$$
+\mathrm{Median = \frac{5 + 5}{2} = 5
+$$
 
-$$\mathrm{Mode = 5$$
+$$
+\mathrm{Mode = 5
+$$
 
 ### 2.2 Mean from a Frequency Table
 
-$$\bar{x} = \frac{\sum (f \times x)}{\sum f}$$
+$$
+\bar{x} = \frac{\sum (f \times x)}{\sum f}
+$$
 
 **Worked Example.**
 
@@ -123,7 +135,9 @@ $$\bar{x} = \frac{\sum (f \times x)}{\sum f}$$
 | 5         | 3             | 15           |
 | **Total** | **35**        | **105**      |
 
-$$\bar{x} = \frac{105}{35} = 3$$
+$$
+\bar{x} = \frac{105}{35} = 3
+$$
 
 ### 2.3 Estimated Mean from Grouped Data
 
@@ -140,7 +154,9 @@ For grouped data, use the **midpoint** of each class as an estimate for $x$.
 | $180 \leq h \lt 190$ | 5             | 185          | 925          |
 | **Total**            | **50**        |              | **8230**     |
 
-$$\mathrm{Estimated mean = \frac{8230}{50} = 164.6 \mathrm{ cm$$
+$$
+\mathrm{Estimated mean = \frac{8230}{50} = 164.6 \mathrm{ cm
+$$
 
 ### 2.4 Estimated Median and Interquartile Range from Grouped Data
 
@@ -159,7 +175,9 @@ Median position: $\frac{50}{2} = 25$. This falls in the $160 \leq h \lt 170$ cla
 
 Using linear interpolation within the class:
 
-$$\mathrm{Median = 160 + \frac{25 - 17}{35 - 17} \times 10 = 160 + \frac{8}{18} \times 10 = 160 + 4.44 = 164.4 \mathrm{ cm$$
+$$
+\mathrm{Median = 160 + \frac{25 - 17}{35 - 17} \times 10 = 160 + \frac{8}{18} \times 10 = 160 + 4.44 = 164.4 \mathrm{ cm
+$$
 
 ### 2.5 Choosing the Right Average
 
@@ -179,13 +197,17 @@ Representation of the typical salary.
 
 ### 3.1 Range
 
-$$\mathrm{Range = \mathrm{maximum value - \mathrm{minimum value$$
+$$
+\mathrm{Range = \mathrm{maximum value - \mathrm{minimum value
+$$
 
 Simple but affected by outliers.
 
 ### 3.2 Interquartile Range
 
-$$\mathrm{IQR = Q_3 - Q_1$$
+$$
+\mathrm{IQR = Q_3 - Q_1
+$$
 
 Where $Q_1$ is the lower quartile (25th percentile) and $Q_3$ is the upper quartile (75th
 Percentile).
@@ -215,8 +237,12 @@ A **box plot** displays the minimum, $Q_1$Median, $Q_3$ And maximum.
 A common definition: a value is an **outlier** if it is more than $1.5 \times \mathrm{IQR$ below
 $Q_1$ or above $Q_3$.
 
-$$\mathrm{Lower fence = Q_1 - 1.5 \times \mathrm{IQR$$
-$$\mathrm{Upper fence = Q_3 + 1.5 \times \mathrm{IQR$$
+$$
+\mathrm{Lower fence = Q_1 - 1.5 \times \mathrm{IQR
+$$
+$$
+\mathrm{Upper fence = Q_3 + 1.5 \times \mathrm{IQR
+$$
 
 **Worked Example.** Using the data above, identify any outliers.
 
@@ -243,7 +269,9 @@ Since all values are between $-9.125$ and $35.875$There are no outliers.
 
 In a histogram, the **area** of each bar represents the frequency, not the height.
 
-$$\mathrm{Frequency density = \frac{\mathrm{frequency}{\mathrm{class width}$$
+$$
+\mathrm{Frequency density = \frac{\mathrm{frequency}{\mathrm{class width}
+$$
 
 **Worked Example.**
 
@@ -327,7 +355,9 @@ The estimated exam score is approximately 66.
 
 ### 5.1 Basic Probability
 
-$$P(\mathrm{event) = \frac{\mathrm{number of favourable outcomes}{\mathrm{total number of outcomes}$$
+$$
+P(\mathrm{event) = \frac{\mathrm{number of favourable outcomes}{\mathrm{total number of outcomes}
+$$
 
 The probability of any event satisfies $0 \leq P(E) \leq 1$.
 
@@ -346,7 +376,9 @@ Since probabilities are non-negative, $P(A \cap B) \geq 0$. $\blacksquare$
 
 For two events $A$ and $B$:
 
-$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+$$
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+$$
 
 This is the **addition rule** and holds for all events (not just mutually exclusive ones).
 
@@ -354,7 +386,9 @@ This is the **addition rule** and holds for all events (not just mutually exclus
 Late is 0.1. The probability that it rains AND the student arrives late is 0.05. Find the
 Probability that it rains OR the student arrives late.
 
-$$P(R \cup L) = 0.3 + 0.1 - 0.05 = 0.35$$
+$$
+P(R \cup L) = 0.3 + 0.1 - 0.05 = 0.35
+$$
 
 **Worked Example (Higher Tier).** Are the events "it rains" and "the student arrives late"
 Independent?
@@ -381,12 +415,16 @@ First draw: $P(R) = \frac{3}{8}$
 
 Second draw (after removing one red): $P(R) = \frac{2}{7}$
 
-$$P(\mathrm{both red) = \frac{3}{8} \times \frac{2}{7} = \frac{6}{56} = \frac{3}{28}$$
+$$
+P(\mathrm{both red) = \frac{3}{8} \times \frac{2}{7} = \frac{6}{56} = \frac{3}{28}
+$$
 
 **Worked Example (Higher Tier).** Using the same bag, find the probability that the two balls are
 Different colours.
 
-$$P(\mathrm{different) = P(\mathrm{RB) + P(\mathrm{BR) = \frac{3}{8} \times \frac{5}{7} + \frac{5}{8} \times \frac{3}{7} = \frac{15}{56} + \frac{15}{56} = \frac{30}{56} = \frac{15}{28}$$
+$$
+P(\mathrm{different) = P(\mathrm{RB) + P(\mathrm{BR) = \frac{3}{8} \times \frac{5}{7} + \frac{5}{8} \times \frac{3}{7} = \frac{15}{56} + \frac{15}{56} = \frac{30}{56} = \frac{15}{28}
+$$
 
 **Worked Example (Higher Tier).** A fair coin is tossed three times. Find the probability of getting
 Exactly two heads.
@@ -395,18 +433,24 @@ There are $2^3 = 8$ equally likely outcomes: HHH, HHT, HTH, HTT, THH, THT, TTH, 
 
 Favourable: HHT, HTH, THH (3 outcomes).
 
-$$P(\mathrm{exactly 2 heads) = \frac{3}{8}$$
+$$
+P(\mathrm{exactly 2 heads) = \frac{3}{8}
+$$
 
 ### 5.4 Conditional Probability
 
-$$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
+$$
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}
+$$
 
 This reads as "the probability of $A$ given $B$".
 
 **Worked Example.** In a class of 30 students, 18 play football, 12 play rugby, and 6 play both.
 Find the probability that a student plays rugby given that they play football.
 
-$$P(R \mid F) = \frac{P(R \cap F)}{P(F)} = \frac{6/30}{18/30} = \frac{6}{18} = \frac{1}{3}$$
+$$
+P(R \mid F) = \frac{P(R \cap F)}{P(F)} = \frac{6/30}{18/30} = \frac{6}{18} = \frac{1}{3}
+$$
 
 **Worked Example (Higher Tier).** A factory produces items in three shifts. Shift A produces 40% of
 Items with 2% defective, shift B produces 35% with 3% defective, and shift C produces 25% with 1%
@@ -414,9 +458,13 @@ Defective. An item is found to be defective. What is the probability it came fro
 
 This is Bayes" theorem. Let $D$ be the event "defective" and $B$ be "from shift B".
 
-$$P(D) = 0.40 \times 0.02 + 0.35 \times 0.03 + 0.25 \times 0.01 = 0.008 + 0.0105 + 0.0025 = 0.021$$
+$$
+P(D) = 0.40 \times 0.02 + 0.35 \times 0.03 + 0.25 \times 0.01 = 0.008 + 0.0105 + 0.0025 = 0.021
+$$
 
-$$P(B \mid D) = \frac{P(D \mid B) \cdot P(B)}{P(D)} = \frac{0.03 \times 0.35}{0.021} = \frac{0.0105}{0.021} = 0.5$$
+$$
+P(B \mid D) = \frac{P(D \mid B) \cdot P(B)}{P(D)} = \frac{0.03 \times 0.35}{0.021} = \frac{0.0105}{0.021} = 0.5
+$$
 
 ### 5.5 Venn Diagrams and Probability
 
@@ -461,23 +509,35 @@ $\sigma$.
 
 The **standard deviation** measures the average distance of data points from the mean.
 
-$$\sigma = \sqrt{\frac{\sum (x - \bar{x})^2}{n}}$$
+$$
+\sigma = \sqrt{\frac{\sum (x - \bar{x})^2}{n}}
+$$
 
 For frequency data:
 
-$$\sigma = \sqrt{\frac{\sum f(x - \bar{x})^2}{\sum f}}$$
+$$
+\sigma = \sqrt{\frac{\sum f(x - \bar{x})^2}{\sum f}}
+$$
 
 **Computational formula (avoids calculating deviations individually):**
 
-$$\sigma = \sqrt{\frac{\sum x^2}{n} - \bar{x}^2}$$
+$$
+\sigma = \sqrt{\frac{\sum x^2}{n} - \bar{x}^2}
+$$
 
 **Worked Example.** Find the standard deviation of: $4, 8, 6, 5, 3, 9, 7$.
 
-$$\bar{x} = \frac{42}{7} = 6$$
+$$
+\bar{x} = \frac{42}{7} = 6
+$$
 
-$$\sigma = \sqrt{\frac{(4-6)^2 + (8-6)^2 + (6-6)^2 + (5-6)^2 + (3-6)^2 + (9-6)^2 + (7-6)^2}{7}}$$
+$$
+\sigma = \sqrt{\frac{(4-6)^2 + (8-6)^2 + (6-6)^2 + (5-6)^2 + (3-6)^2 + (9-6)^2 + (7-6)^2}{7}}
+$$
 
-$$\sigma = \sqrt{\frac{4 + 4 + 0 + 1 + 9 + 9 + 1}{7}} = \sqrt{\frac{28}{7}} = \sqrt{4} = 2$$
+$$
+\sigma = \sqrt{\frac{4 + 4 + 0 + 1 + 9 + 9 + 1}{7}} = \sqrt{\frac{28}{7}} = \sqrt{4} = 2
+$$
 
 **Worked Example (Higher Tier).** If every value in a data set is increased by 5, what happens to
 The mean and standard deviation?

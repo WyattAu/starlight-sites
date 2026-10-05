@@ -77,13 +77,17 @@ Application data
 
 **Nyquist theorem** (noiseless channel):
 
-$$C = 2B \log_2 V$$
+$$
+C = 2B \log_2 V
+$$
 
 where $B$ = bandwidth (Hz), $V$ = signal levels.
 
 **Shannon"s theorem** (noisy channel):
 
-$$C = B \log_2(1 + \text{SNR})$$
+$$
+C = B \log_2(1 + \text{SNR})
+$$
 
 where SNR = signal-to-noise ratio (power ratio). If $\text{SNR}_{\text{dB}} = 30$, then
 $\text{SNR} = 10^{30/10} = 1000$.
@@ -186,7 +190,9 @@ $\sim 36.8\%$.
 2. While transmitting, detect collisions.
 3. On collision: send jam signal, wait (binary exponential backoff), retry.
 
-$$\text{Backoff time} = \text{rand}(0, 2^k - 1) \times \text{slot time}$$
+$$
+\text{Backoff time} = \text{rand}(0, 2^k - 1) \times \text{slot time}
+$$
 
 where $k = \min(\text{retries}, 10)$. Used in Ethernet (IEEE 802.3).
 
@@ -252,7 +258,9 @@ SUBNET(network, prefix_length, num_subnets):
 
 Translates private IP addresses to a public IP address for Internet access:
 
-$$\text{Private: } (10.0.0.0/8, \ 172.16.0.0/12, \ 192.168.0.0/16)$$
+$$
+\text{Private: } (10.0.0.0/8, \ 172.16.0.0/12, \ 192.168.0.0/16)
+$$
 
 **NAT types:**
 
@@ -344,9 +352,13 @@ Client                              Server
 
 **Retransmission:** On timeout (RTO = estimated RTT + 4 \* RTT deviation):
 
-$$\text{EstimatedRTT} = (1-\alpha) \cdot \text{EstimatedRTT} + \alpha \cdot \text{SampleRTT}$$
+$$
+\text{EstimatedRTT} = (1-\alpha) \cdot \text{EstimatedRTT} + \alpha \cdot \text{SampleRTT}
+$$
 
-$$\text{DevRTT} = (1-\beta) \cdot \text{DevRTT} + \beta \cdot |\text{SampleRTT} - \text{EstimatedRTT}|$$
+$$
+\text{DevRTT} = (1-\beta) \cdot \text{DevRTT} + \beta \cdot |\text{SampleRTT} - \text{EstimatedRTT}|
+$$
 
 In most cases $\alpha = 0.125$, $\beta = 0.25$.
 

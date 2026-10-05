@@ -147,7 +147,9 @@ X^2 + 4x^2 - 4x + 1 &= 25 \\
 \end{aligned}
 $$
 
-$$x = \frac{4 \pm \sqrt{16 + 480}}{10} = \frac{4 \pm \sqrt{496}}{10} = \frac{4 \pm 4\sqrt{31}}{10} = \frac{2 \pm 2\sqrt{31}}{5}$$
+$$
+x = \frac{4 \pm \sqrt{16 + 480}}{10} = \frac{4 \pm \sqrt{496}}{10} = \frac{4 \pm 4\sqrt{31}}{10} = \frac{2 \pm 2\sqrt{31}}{5}
+$$
 
 $\Delta = 496 > 0$ So the line intersects the circle at two points.
 
@@ -296,7 +298,9 @@ Smaller.
 _Proof._ By polynomial division, for any polynomial $f(x)$ and constant $a$There exist a quotient
 Polynomial $Q(x)$ and a constant remainder $R$ such that:
 
-$$f(x) = (x - a)Q(x) + R$$
+$$
+f(x) = (x - a)Q(x) + R
+$$
 
 Setting $x = a$: $f(a) = (a - a)Q(a) + R = R$.
 
@@ -333,7 +337,9 @@ $f(1) = 1 - 6 + 11 - 6 = 0$. So $(x - 1)$ is a factor.
 
 Divide $x^3 - 6x^2 + 11x - 6$ by $(x - 1)$:
 
-$$x^3 - 6x^2 + 11x - 6 = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)$$
+$$
+x^3 - 6x^2 + 11x - 6 = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)
+$$
 
 </details>
 
@@ -348,7 +354,9 @@ $f(1) = 2 + 1 - 5 + 2 = 0$. So $(x - 1)$ is a factor.
 
 Divide by $(x - 1)$:
 
-$$2x^3 + x^2 - 5x + 2 = (x - 1)(2x^2 + 3x - 2)$$
+$$
+2x^3 + x^2 - 5x + 2 = (x - 1)(2x^2 + 3x - 2)
+$$
 
 Factorise the quadratic: $2x^2 + 3x - 2 = (2x - 1)(x + 2)$.
 
@@ -393,11 +401,15 @@ $$
 
 Define the coefficient determinant:
 
-$$D = \begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix}$$
+$$
+D = \begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix}
+$$
 
 If $D \neq 0$The unique solution is:
 
-$$x = \frac{D_x}{D}, \quad y = \frac{D_y}{D}, \quad z = \frac{D_z}{D}$$
+$$
+x = \frac{D_x}{D}, \quad y = \frac{D_y}{D}, \quad z = \frac{D_z}{D}
+$$
 
 Where $D_x$ is formed by replacing the first column of $D$ with $(d_1, d_2, d_3)^T$$D_y$ by
 Replacing the second column, and $D_z$ by replacing the third.
@@ -406,7 +418,9 @@ Replacing the second column, and $D_z$ by replacing the third.
 
 The determinant of a 3x3 matrix expands along the first row as:
 
-$$\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = a_1 \begin{vmatrix} b_2 & c_2 \\ b_3 & c_3 \end{vmatrix} - b_1 \begin{vmatrix} a_2 & c_2 \\ a_3 & c_3 \end{vmatrix} + c_1 \begin{vmatrix} a_2 & b_2 \\ a_3 & b_3 \end{vmatrix}$$
+$$
+\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = a_1 \begin{vmatrix} b_2 & c_2 \\ b_3 & c_3 \end{vmatrix} - b_1 \begin{vmatrix} a_2 & c_2 \\ a_3 & c_3 \end{vmatrix} + c_1 \begin{vmatrix} a_2 & b_2 \\ a_3 & b_3 \end{vmatrix}
+$$
 
 Each 2x2 minor evaluates as $\begin{vmatrix} p & q \\ r & s \end{vmatrix} = ps - qr$.
 
@@ -544,7 +558,9 @@ In all four cases, $|ab| = |a||b|$. $\blacksquare$
 
 **Theorem (Triangle Inequality).** For all real $a$ and $b$:
 
-$$|a + b| \leq |a| + |b|$$
+$$
+|a + b| \leq |a| + |b|
+$$
 
 _Proof._ We split into cases based on the signs of $a$ and $b$.
 
@@ -556,12 +572,16 @@ Then $a + b \geq 0$ So $|a + b| = a + b = |a| + |b|$. Equality holds.
 
 Sub-case (i): $a + b \geq 0$. Then $|a + b| = a + b$. Since $b \lt 0$ implies $b \lt -b = |b|$:
 
-$$|a + b| = a + b \lt a + |b| = |a| + |b|$$
+$$
+|a + b| = a + b \lt a + |b| = |a| + |b|
+$$
 
 Sub-case (ii): $a + b \lt 0$. Then $|a + b| = -(a + b) = -a - b$. Since $a \geq 0$ implies
 $-a \leq a = |a|$:
 
-$$|a + b| = -a + (-b) = -a + |b| \leq |a| + |b|$$
+$$
+|a + b| = -a + (-b) = -a + |b| \leq |a| + |b|
+$$
 
 **Case 3:** $a \lt 0, \; b \geq 0$. Symmetric to Case 2 (swap $a$ and $b$).
 
@@ -593,7 +613,9 @@ X^2 + 169 - 78x + 9x^2 &= 25 \\
 \end{aligned}
 $$
 
-$$x = \frac{39 \pm \sqrt{1521 - 1440}}{10} = \frac{39 \pm \sqrt{81}}{10} = \frac{39 \pm 9}{10}$$
+$$
+x = \frac{39 \pm \sqrt{1521 - 1440}}{10} = \frac{39 \pm \sqrt{81}}{10} = \frac{39 \pm 9}{10}
+$$
 
 $x = \frac{48}{10} = \frac{24}{5}$: $y = 13 - \frac{72}{5} = \frac{65 - 72}{5} = -\frac{7}{5}$.
 
@@ -610,13 +632,21 @@ Solutions: $(3, 4)$ and $\left(\frac{24}{5}, -\frac{7}{5}\right)$.
 
 <details>
 <summary>Solution</summary>
-$$\frac{3}{x - 1} - \frac{2}{x + 1} > 0$$
+$$
+\frac{3}{x - 1} - \frac{2}{x + 1} > 0
+$$
 
-$$\frac{3(x + 1) - 2(x - 1)}{(x - 1)(x + 1)} > 0$$
+$$
+\frac{3(x + 1) - 2(x - 1)}{(x - 1)(x + 1)} > 0
+$$
 
-$$\frac{3x + 3 - 2x + 2}{(x - 1)(x + 1)} > 0$$
+$$
+\frac{3x + 3 - 2x + 2}{(x - 1)(x + 1)} > 0
+$$
 
-$$\frac{x + 5}{(x - 1)(x + 1)} > 0$$
+$$
+\frac{x + 5}{(x - 1)(x + 1)} > 0
+$$
 
 Critical values: $x = -5, -1, 1$.
 
@@ -642,7 +672,9 @@ Solution: $-5 < x < -1$ or $x > 1$.
 <summary>Solution</summary>
 From (1): $x = 1 - 2y$. Substitute into (2):
 
-$$2(1 - 2y) + 4y = 3 \implies 2 - 4y + 4y = 3 \implies 2 = 3$$
+$$
+2(1 - 2y) + 4y = 3 \implies 2 - 4y + 4y = 3 \implies 2 = 3
+$$
 
 This is a contradiction, so there is no solution.
 
@@ -662,7 +694,9 @@ $(x - 5)(x + 3) \leq 0$.
 
 The parabola opens upwards. It is $\leq 0$ between and including the roots:
 
-$$-3 \leq x \leq 5$$
+$$
+-3 \leq x \leq 5
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Quadratic inequalities](/maths/pure-mathematics/02-quadratics/)
@@ -673,13 +707,21 @@ $$-3 \leq x \leq 5$$
 
 <details>
 <summary>Solution</summary>
-$$\frac{1}{x} - \frac{1}{x - 2} \leq 0$$
+$$
+\frac{1}{x} - \frac{1}{x - 2} \leq 0
+$$
 
-$$\frac{(x - 2) - x}{x(x - 2)} \leq 0$$
+$$
+\frac{(x - 2) - x}{x(x - 2)} \leq 0
+$$
 
-$$\frac{-2}{x(x - 2)} \leq 0$$
+$$
+\frac{-2}{x(x - 2)} \leq 0
+$$
 
-$$\frac{2}{x(x - 2)} \geq 0$$
+$$
+\frac{2}{x(x - 2)} \geq 0
+$$
 
 Critical values: $x = 0$, $x = 2$.
 
@@ -794,11 +836,15 @@ Find $a$ and $b$. Hence fully factorise $f(x)$.
 <summary>Solution</summary>
 Since $(x - 2)$ is a factor, $f(2) = 0$ by the factor theorem:
 
-$$f(2) = 8 + 4a + 2b - 12 = 4a + 2b - 4 = 0 \implies 2a + b = 2 \quad \mathrm{--- (i)}$$
+$$
+f(2) = 8 + 4a + 2b - 12 = 4a + 2b - 4 = 0 \implies 2a + b = 2 \quad \mathrm{--- (i)}
+$$
 
 Also $f(1) = -6$:
 
-$$f(1) = 1 + a + b - 12 = a + b - 11 = -6 \implies a + b = 5 \quad \mathrm{--- (ii)}$$
+$$
+f(1) = 1 + a + b - 12 = a + b - 11 = -6 \implies a + b = 5 \quad \mathrm{--- (ii)}
+$$
 
 Subtracting (i) from (ii): $-a = 3$ So $a = -3$.
 
@@ -811,7 +857,9 @@ Divide by $(x - 2)$: $f(x) = (x - 2)(x^2 - x + 6)$.
 The discriminant of $x^2 - x + 6$ is $\Delta = 1 - 24 = -23 \lt 0$ So no further real factorisation
 Is possible.
 
-$$f(x) = (x - 2)(x^2 - x + 6)$$
+$$
+f(x) = (x - 2)(x^2 - x + 6)
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Polynomial equations](#6-polynomial-equations)
@@ -840,13 +888,19 @@ $$
 
 From (4): $x = 2y - 3$. Substitute into (5):
 
-$$2(2y - 3) + 3y = 11 \implies 7y - 6 = 11 \implies y = \frac{17}{7}$$
+$$
+2(2y - 3) + 3y = 11 \implies 7y - 6 = 11 \implies y = \frac{17}{7}
+$$
 
-$$x = 2 \cdot \frac{17}{7} - 3 = \frac{34 - 21}{7} = \frac{13}{7}$$
+$$
+x = 2 \cdot \frac{17}{7} - 3 = \frac{34 - 21}{7} = \frac{13}{7}
+$$
 
 **Step 3:** Find $z$ from (1):
 
-$$z = 6 - x - y = 6 - \frac{13}{7} - \frac{17}{7} = \frac{42 - 30}{7} = \frac{12}{7}$$
+$$
+z = 6 - x - y = 6 - \frac{13}{7} - \frac{17}{7} = \frac{42 - 30}{7} = \frac{12}{7}
+$$
 
 Solution: $x = \frac{13}{7}, \; y = \frac{17}{7}, \; z = \frac{12}{7}$.
 
@@ -901,11 +955,17 @@ The region is bounded by four lines. Find the vertices:
 The region is a trapezoid. Using the shoelace formula with vertices $(0, 3), (0, 6), (4, 0), (3, 0)$
 In order:
 
-$$\mathrm{Area} = \frac{1}{2}\left| \sum_{i} x_i y_{i+1} - \sum_{i} y_i x_{i+1} \right|$$
+$$
+\mathrm{Area} = \frac{1}{2}\left| \sum_{i} x_i y_{i+1} - \sum_{i} y_i x_{i+1} \right|
+$$
 
-$$= \frac{1}{2}\left| (0 \cdot 6 + 0 \cdot 0 + 4 \cdot 0 + 3 \cdot 3) - (3 \cdot 0 + 6 \cdot 4 + 0 \cdot 3 + 0 \cdot 0) \right|$$
+$$
+= \frac{1}{2}\left| (0 \cdot 6 + 0 \cdot 0 + 4 \cdot 0 + 3 \cdot 3) - (3 \cdot 0 + 6 \cdot 4 + 0 \cdot 3 + 0 \cdot 0) \right|
+$$
 
-$$= \frac{1}{2}\left| 9 - 24 \right| = \frac{15}{2}$$
+$$
+= \frac{1}{2}\left| 9 - 24 \right| = \frac{15}{2}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Graphical inequalities](#4-graphical-inequalities)

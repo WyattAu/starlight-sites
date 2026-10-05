@@ -22,11 +22,15 @@ description: 'A source has finite if the emitted light has a finite bandwidth . 
 A source has finite **temporal coherence** if the emitted light has a finite bandwidth $\Delta\nu$.
 The **coherence time** is
 
-$$\tau_c \sim \frac{1}{\Delta\nu}$$
+$$
+\tau_c \sim \frac{1}{\Delta\nu}
+$$
 
 and the **coherence length** is
 
-$$L_c = c\,\tau_c \sim \frac{c}{\Delta\nu} = \frac{\lambda^2}{\Delta\lambda}$$
+$$
+L_c = c\,\tau_c \sim \frac{c}{\Delta\nu} = \frac{\lambda^2}{\Delta\lambda}
+$$
 
 For a Michelson interferometer, fringes are visible only when the path difference is less than
 $L_c$.
@@ -36,7 +40,9 @@ $L_c$.
 The **spatial coherence** of a source is characterised by the **coherence area** $A_c$. For a
 circular source of angular radius $\Delta\theta$:
 
-$$A_c \approx \frac{\lambda^2}{\pi(\Delta\theta)^2}$$
+$$
+A_c \approx \frac{\lambda^2}{\pi(\Delta\theta)^2}
+$$
 
 The van Cittert-Zernike theorem states that the spatial coherence of an incoherent source is given
 by the Fourier transform of the source intensity distribution.
@@ -44,7 +50,9 @@ by the Fourier transform of the source intensity distribution.
 **Theorem 11.1 (van Cittert-Zernike).** The mutual coherence function of a quasi-monochromatic
 incoherent source with intensity distribution $I(\xi, \eta)$ is
 
-$$\Gamma(\Delta x, \Delta y) = \iint I(\xi, \eta)\, e^{-2\pi i(\xi\,\Delta x + \eta\,\Delta y)/(\lambda z)}\, d\xi\, d\eta$$
+$$
+\Gamma(\Delta x, \Delta y) = \iint I(\xi, \eta)\, e^{-2\pi i(\xi\,\Delta x + \eta\,\Delta y)/(\lambda z)}\, d\xi\, d\eta
+$$
 
 This is proportional to the Fourier transform of $I(\xi, \eta)$.
 
@@ -57,11 +65,15 @@ fringes are visible in a Michelson interferometer.
 <details>
 <summary>Solution</summary>
 
-$$L_c = \frac{\lambda^2}{\Delta\lambda} = \frac{(589 \times 10^{-9})^2}{0.6 \times 10^{-9}} = \frac{3.47 \times 10^{-13}}{6 \times 10^{-10}} \approx 5.78 \times 10^{-4}\,\mathrm{m} \approx 0.578\,\mathrm{mm}$$
+$$
+L_c = \frac{\lambda^2}{\Delta\lambda} = \frac{(589 \times 10^{-9})^2}{0.6 \times 10^{-9}} = \frac{3.47 \times 10^{-13}}{6 \times 10^{-10}} \approx 5.78 \times 10^{-4}\,\mathrm{m} \approx 0.578\,\mathrm{mm}
+$$
 
 For a He-Ne laser ($\lambda = 632.8$ nm, $\Delta\lambda \sim 10^{-6}$ nm):
 
-$$L_c = \frac{(632.8 \times 10^{-9})^2}{10^{-15}} \approx 400\,\mathrm{m}$$
+$$
+L_c = \frac{(632.8 \times 10^{-9})^2}{10^{-15}} \approx 400\,\mathrm{m}
+$$
 
 The enormous coherence length of the laser is why it produces sharp fringes over very large path
 differences. $\blacksquare$
@@ -73,12 +85,16 @@ differences. $\blacksquare$
 The **mutual coherence function** quantifies the correlation between the optical field at two
 space-time points:
 
-$$\Gamma_{12}(\tau) = \langle E^*(r_1, t + \tau) E(r_2, t) \rangle$$
+$$
+\Gamma_{12}(\tau) = \langle E^*(r_1, t + \tau) E(r_2, t) \rangle
+$$
 
 where the angle brackets denote a time average. The normalized form is the **complex degree of
 coherence**:
 
-$$\gamma_{12}(\tau) = \frac{\Gamma_{12}(\tau)}{\sqrt{\Gamma_{11}(0)\,\Gamma_{22}(0)}}$$
+$$
+\gamma_{12}(\tau) = \frac{\Gamma_{12}(\tau)}{\sqrt{\Gamma_{11}(0)\,\Gamma_{22}(0)}}
+$$
 
 The magnitude $|\gamma_{12}(\tau)|$ satisfies $0 \leq |\gamma_{12}(\tau)| \leq 1$.
 
@@ -90,11 +106,15 @@ The magnitude $|\gamma_{12}(\tau)|$ satisfies $0 \leq |\gamma_{12}(\tau)| \leq 1
 
 In a Michelson interferometer, the intensity at the output is:
 
-$$I = I_1 + I_2 + 2\sqrt{I_1 I_2}\, |\gamma_{12}(\tau)| \cos(\Delta\phi)$$
+$$
+I = I_1 + I_2 + 2\sqrt{I_1 I_2}\, |\gamma_{12}(\tau)| \cos(\Delta\phi)
+$$
 
 The **fringe visibility** (or contrast) is defined as:
 
-$$V = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}} = \frac{2\sqrt{I_1 I_2}}{I_1 + I_2}\, |\gamma_{12}(\tau)|$$
+$$
+V = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}} = \frac{2\sqrt{I_1 I_2}}{I_1 + I_2}\, |\gamma_{12}(\tau)|
+$$
 
 For equal intensities $I_1 = I_2$, the visibility equals $|\gamma_{12}(\tau)|$.
 
@@ -102,13 +122,19 @@ For equal intensities $I_1 = I_2$, the visibility equals $|\gamma_{12}(\tau)|$.
 
 The Wiener-Khinchin theorem relates the power spectral density to the autocorrelation function:
 
-$$S(\nu) = \int_{-\infty}^{\infty} \Gamma_{11}(\tau)\, e^{2\pi i\nu\tau}\, d\tau$$
+$$
+S(\nu) = \int_{-\infty}^{\infty} \Gamma_{11}(\tau)\, e^{2\pi i\nu\tau}\, d\tau
+$$
 
-$$\Gamma_{11}(\tau) = \int_{-\infty}^{\infty} S(\nu)\, e^{-2\pi i\nu\tau}\, d\nu$$
+$$
+\Gamma_{11}(\tau) = \int_{-\infty}^{\infty} S(\nu)\, e^{-2\pi i\nu\tau}\, d\nu
+$$
 
 Thus the coherence time and spectral width satisfy the uncertainty relation:
 
-$$\tau_c \cdot \Delta\nu \sim 1$$
+$$
+\tau_c \cdot \Delta\nu \sim 1
+$$
 
 This is a fundamental property linking temporal coherence to the source spectrum.
 
@@ -116,13 +142,17 @@ This is a fundamental property linking temporal coherence to the source spectrum
 
 In Young's experiment with partially coherent illumination, the fringe visibility is:
 
-$$V = |\gamma_{12}(0)| \cdot \left|\frac{2J_1(k a \theta)}{k a \theta}\right|$$
+$$
+V = |\gamma_{12}(0)| \cdot \left|\frac{2J_1(k a \theta)}{k a \theta}\right|
+$$
 
 where $a$ is the slit separation, $\theta$ is the angular source size, and $J_1$ is the Bessel
 function of the first kind. The first zero occurs when $k a \theta = 3.83$, giving the condition for
 the loss of spatial coherence fringes:
 
-$$a \approx \frac{1.22 \lambda}{\theta}$$
+$$
+a \approx \frac{1.22 \lambda}{\theta}
+$$
 
 ### 11.8 Practice Problems
 
@@ -151,7 +181,9 @@ The **Michelson stellar interferometer** uses spatial coherence to measure the a
 stars. By varying the baseline $d$ between two apertures until fringes disappear, the angular
 diameter $\theta$ is obtained from:
 
-$$\theta \approx 1.22 \frac{\lambda}{d_{\mathrm{max}}}$$
+$$
+\theta \approx 1.22 \frac{\lambda}{d_{\mathrm{max}}}
+$$
 
 where $d_{\mathrm{max}}$ is the maximum baseline at which fringes are visible. This technique
 enables angular resolution far beyond the diffraction limit of a single telescope.

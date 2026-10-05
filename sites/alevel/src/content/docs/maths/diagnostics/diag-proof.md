@@ -73,7 +73,9 @@ The contrapositive is: "If $p$ is odd, then $p^2$ is odd."
 
 Proof of contrapositive: If $p$ is odd, write $p = 2k + 1$ for some integer $k$. Then:
 
-$$p^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$$
+$$
+p^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1
+$$
 
 Which is odd (of the form $2m + 1$ where $m = 2k^2 + 2k$).
 
@@ -139,17 +141,27 @@ $=$ RHS. $P(1)$ is true.
 
 **Inductive step:** Assume $P(k)$ is true for some $k \geq 1$:
 
-$$\sum_{r=1}^{k} r^2 = \frac{k(k+1)(2k+1)}{6}$$
+$$
+\sum_{r=1}^{k} r^2 = \frac{k(k+1)(2k+1)}{6}
+$$
 
 For $P(k+1)$:
 
-$$\sum_{r=1}^{k+1} r^2 = \sum_{r=1}^{k} r^2 + (k+1)^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2$$
+$$
+\sum_{r=1}^{k+1} r^2 = \sum_{r=1}^{k} r^2 + (k+1)^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2
+$$
 
-$$= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6} = \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}$$
+$$
+= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6} = \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}
+$$
 
-$$= \frac{(k+1)[2k^2 + k + 6k + 6]}{6} = \frac{(k+1)(2k^2 + 7k + 6)}{6}$$
+$$
+= \frac{(k+1)[2k^2 + k + 6k + 6]}{6} = \frac{(k+1)(2k^2 + 7k + 6)}{6}
+$$
 
-$$= \frac{(k+1)(k+2)(2k+3)}{6} = \frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}$$
+$$
+= \frac{(k+1)(k+2)(2k+3)}{6} = \frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}
+$$
 
 This is $P(k+1)$. By induction, $P(n)$ is true for all $n \geq 1$.
 
@@ -317,9 +329,13 @@ Let $L = \lim_{n \to \infty} a_n$. Then $L = \frac{L+3}{2} \implies 2L = L + 3 \
 
 This gives $a_n - 3 = \frac{a_1 - 3}{2^{n-1}} = \frac{-1}{2^{n-1}}$ So $a_n = 3 - \frac{1}{2^{n-1}}$.
 
-$$\sum_{r=1}^{n} a_r = \sum_{r=1}^{n}\left(3 - \frac{1}{2^{r-1}}\right) = 3n - \sum_{r=0}^{n-1}\frac{1}{2^r}$$
+$$
+\sum_{r=1}^{n} a_r = \sum_{r=1}^{n}\left(3 - \frac{1}{2^{r-1}}\right) = 3n - \sum_{r=0}^{n-1}\frac{1}{2^r}
+$$
 
-$$= 3n - \frac{1 - (1/2)^n}{1 - 1/2} = 3n - 2\left(1 - \frac{1}{2^n}\right) = 3n - 2 + \frac{1}{2^{n-1}}$$
+$$
+= 3n - \frac{1 - (1/2)^n}{1 - 1/2} = 3n - 2\left(1 - \frac{1}{2^n}\right) = 3n - 2 + \frac{1}{2^{n-1}}
+$$
 
 ---
 
@@ -425,9 +441,13 @@ systematic search.]
 
 For $n = k + 1$:
 
-$$(k+1)^3 - (k+1) = k^3 + 3k^2 + 3k + 1 - k - 1 = k^3 + 3k^2 + 2k$$
+$$
+(k+1)^3 - (k+1) = k^3 + 3k^2 + 3k + 1 - k - 1 = k^3 + 3k^2 + 2k
+$$
 
-$$= (k^3 - k) + 3k^2 + 3k = 6m + 3k(k+1)$$
+$$
+= (k^3 - k) + 3k^2 + 3k = 6m + 3k(k+1)
+$$
 
 Since $k(k+1)$ is the product of two consecutive integers, one is even, so $k(k+1)$ is divisible
 by 2. Therefore $3k(k+1)$ is divisible by $3 \times 2 = 6$.
@@ -448,11 +468,17 @@ by 2. So the product is divisible by $3 \times 2 = 6$.)
 
 For $n = k + 1$:
 
-$$3^{2(k+1)+1} + 2^{(k+1)+2} = 3^{2k+3} + 2^{k+3} = 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2}$$
+$$
+3^{2(k+1)+1} + 2^{(k+1)+2} = 3^{2k+3} + 2^{k+3} = 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2}
+$$
 
-$$= 7 \cdot 3^{2k+1} + 2(3^{2k+1} + 2^{k+2})$$
+$$
+= 7 \cdot 3^{2k+1} + 2(3^{2k+1} + 2^{k+2})
+$$
 
-$$= 7 \cdot 3^{2k+1} + 2 \cdot 7m = 7(3^{2k+1} + 2m)$$
+$$
+= 7 \cdot 3^{2k+1} + 2 \cdot 7m = 7(3^{2k+1} + 2m)
+$$
 
 Divisible by 7. By induction, $3^{2n+1} + 2^{n+2}$ is divisible by 7 for all $n \geq 0$.
 

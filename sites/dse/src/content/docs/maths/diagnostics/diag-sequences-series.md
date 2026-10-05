@@ -35,11 +35,15 @@ This is a geometric series with first term $a = \dfrac{3x}{4}$ and common ratio 
 
 It converges if and only if $|r| \lt 1$:
 
-$$\left|\frac{x}{4}\right| \lt 1 \implies |x| \lt 4 \implies -4 \lt x \lt 4$$
+$$
+\left|\frac{x}{4}\right| \lt 1 \implies |x| \lt 4 \implies -4 \lt x \lt 4
+$$
 
 When it converges:
 
-$$S_\infty = \frac{a}{1 - r} = \frac{\dfrac{3x}{4}}{1 - \dfrac{x}{4}} = \frac{3x}{4 - x}$$
+$$
+S_\infty = \frac{a}{1 - r} = \frac{\dfrac{3x}{4}}{1 - \dfrac{x}{4}} = \frac{3x}{4 - x}
+$$
 
 A common mistake is writing $r = \dfrac{3x}{4}$ instead of $r = \dfrac{x}{4}$Confusing the first
 term with the ratio.
@@ -65,7 +69,9 @@ Express $\displaystyle\sum_{k=3}^{n+2} (k - 2)^2$ in terms of $n$Without sigma n
 
 Let $j = k - 2$. When $k = 3$$j = 1$. When $k = n + 2$$j = n$.
 
-$$\sum_{k=3}^{n+2} (k - 2)^2 = \sum_{j=1}^{n} j^2 = \frac{n(n+1)(2n+1)}{6}$$
+$$
+\sum_{k=3}^{n+2} (k - 2)^2 = \sum_{j=1}^{n} j^2 = \frac{n(n+1)(2n+1)}{6}
+$$
 
 ---
 
@@ -168,11 +174,15 @@ Common ratio: $r = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}$.
 
 $|r| = \dfrac{\sqrt{2}}{2} \approx 0.707 \lt 1$ So the series converges.
 
-$$S_\infty = \frac{a}{1 - r} = \frac{\sqrt{2}}{1 - \frac{\sqrt{2}}{2}} = \frac{\sqrt{2}}{\frac{2 - \sqrt{2}}{2}} = \frac{2\sqrt{2}}{2 - \sqrt{2}}$$
+$$
+S_\infty = \frac{a}{1 - r} = \frac{\sqrt{2}}{1 - \frac{\sqrt{2}}{2}} = \frac{\sqrt{2}}{\frac{2 - \sqrt{2}}{2}} = \frac{2\sqrt{2}}{2 - \sqrt{2}}
+$$
 
 Rationalise:
 
-$$= \frac{2\sqrt{2}(2 + \sqrt{2})}{(2 - \sqrt{2})(2 + \sqrt{2})} = \frac{4\sqrt{2} + 4}{4 - 2} = \frac{4\sqrt{2} + 4}{2} = 2\sqrt{2} + 2$$
+$$
+= \frac{2\sqrt{2}(2 + \sqrt{2})}{(2 - \sqrt{2})(2 + \sqrt{2})} = \frac{4\sqrt{2} + 4}{4 - 2} = \frac{4\sqrt{2} + 4}{2} = 2\sqrt{2} + 2
+$$
 
 ---
 
@@ -270,13 +280,19 @@ Coefficient of $x^5$: $\dbinom{n}{5} = \dfrac{n(n-1)(n-2)(n-3)(n-4)}{120}$.
 
 Setting equal:
 
-$$\frac{n(n-1)}{2} = \frac{n(n-1)(n-2)(n-3)(n-4)}{120}$$
+$$
+\frac{n(n-1)}{2} = \frac{n(n-1)(n-2)(n-3)(n-4)}{120}
+$$
 
 Since $n \geq 5$ (otherwise $\dbinom{n}{5} = 0$), we can cancel $n(n-1)$:
 
-$$\frac{1}{2} = \frac{(n-2)(n-3)(n-4)}{120}$$
+$$
+\frac{1}{2} = \frac{(n-2)(n-3)(n-4)}{120}
+$$
 
-$$(n-2)(n-3)(n-4) = 60$$
+$$
+(n-2)(n-3)(n-4) = 60
+$$
 
 By inspection: $n = 7$ gives $5 \times 4 \times 3 = 60$. Check.
 
@@ -309,7 +325,9 @@ First term $a = 3$Common difference $d = 3$.
 
 Last term: $198 = 3 + (n-1) \times 3 \implies 195 = 3(n-1) \implies n - 1 = 65 \implies n = 66$.
 
-$$S_{66} = \frac{66}{2}(3 + 198) = 33 \times 201 = 6633$$
+$$
+S_{66} = \frac{66}{2}(3 + 198) = 33 \times 201 = 6633
+$$
 
 ---
 
@@ -361,7 +379,9 @@ This is a geometric series with $a = \dfrac{1}{2}$ and $r = \dfrac{1}{2}$.
 
 $|r| = \dfrac{1}{2} < 1$ So the series converges.
 
-$$S_\infty = \frac{a}{1 - r} = \frac{1/2}{1 - 1/2} = \frac{1/2}{1/2} = 1$$
+$$
+S_\infty = \frac{a}{1 - r} = \frac{1/2}{1 - 1/2} = \frac{1/2}{1/2} = 1
+$$
 
 ---
 
@@ -382,7 +402,9 @@ Evaluate $\displaystyle\sum_{k=1}^{20} (3k + 1)$.
 
 **Solution:**
 
-$$\sum_{k=1}^{20} (3k + 1) = 3\sum_{k=1}^{20} k + \sum_{k=1}^{20} 1 = 3 \cdot \frac{20 \times 21}{2} + 20 = 3 \times 210 + 20 = 630 + 20 = 650$$
+$$
+\sum_{k=1}^{20} (3k + 1) = 3\sum_{k=1}^{20} k + \sum_{k=1}^{20} 1 = 3 \cdot \frac{20 \times 21}{2} + 20 = 3 \times 210 + 20 = 630 + 20 = 650
+$$
 
 ---
 
@@ -530,11 +552,15 @@ Find the sum $\displaystyle\sum_{k=1}^{n} \frac{1}{k(k+1)}$.
 
 Using partial fractions: $\dfrac{1}{k(k+1)} = \dfrac{1}{k} - \dfrac{1}{k+1}$.
 
-$$\sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right) = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right)$$
+$$
+\sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right) = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right)
+$$
 
 All intermediate terms cancel (telescoping):
 
-$$= 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
+$$
+= 1 - \frac{1}{n+1} = \frac{n}{n+1}
+$$
 
 ---
 

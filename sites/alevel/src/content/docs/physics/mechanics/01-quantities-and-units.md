@@ -105,11 +105,15 @@ Homogeneous. $\square$
 Suppose we wish to find how the period $T$ of a simple pendulum depends on its length $l$ and the
 Gravitational field strength $g$. We assume:
 
-$$T = k \cdot l^a \cdot g^b$$
+$$
+T = k \cdot l^a \cdot g^b
+$$
 
 Where $k$ is a dimensionless constant. By dimensional homogeneity:
 
-$$\mathsf{T} = \mathsf{L}^a \cdot (\mathsf{L}\mathsf{T}^{-2})^b = \mathsf{L}^{a+b} \cdot \mathsf{T}^{-2b}$$
+$$
+\mathsf{T} = \mathsf{L}^a \cdot (\mathsf{L}\mathsf{T}^{-2})^b = \mathsf{L}^{a+b} \cdot \mathsf{T}^{-2b}
+$$
 
 Equating powers:
 
@@ -159,11 +163,15 @@ Placing the tail of $\mathbf{b}$ at the head of $\mathbf{a}$.
 **Resolving.** Any vector $\mathbf{F}$ can be resolved into perpendicular components. If
 $\mathbf{F}$ makes an angle $\theta$ with the horizontal:
 
-$$F_x = F\cos\theta, \qquad F_y = F\sin\theta$$
+$$
+F_x = F\cos\theta, \qquad F_y = F\sin\theta
+$$
 
 **Magnitude.** Given components $F_x$ and $F_y$:
 
-$$|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}$$
+$$
+|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}
+$$
 
 **Direction.** The angle with the horizontal is $\theta = \arctan\left(\frac{F_y}{F_x}\right)$.
 
@@ -199,13 +207,17 @@ $z = f(x, y)$ where $x$ and $y$ have uncertainties $\Delta x$ and $\Delta y$.
 
 If $z = x + y$ or $z = x - y$ Then:
 
-$$\Delta z = \Delta x + \Delta y$$
+$$
+\Delta z = \Delta x + \Delta y
+$$
 
 **Derivation.** The worst-case scenario for $z = x + y$ is that both errors push $z$ in the same
 Direction. The maximum possible value is $z_{\max} = (x + \Delta x) + (y + \Delta y)$ And the Minimum
 is $z_{\min} = (x - \Delta x) + (y - \Delta y)$. Hence:
 
-$$\Delta z = \frac{z_{\max} - z_{\min}}{2} = \Delta x + \Delta y$$
+$$
+\Delta z = \frac{z_{\max} - z_{\min}}{2} = \Delta x + \Delta y
+$$
 
 The same argument applies for subtraction. $\square$
 
@@ -213,7 +225,9 @@ The same argument applies for subtraction. $\square$
 
 If $z = xy$ or $z = x/y$ Then:
 
-$$\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}$$
+$$
+\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}
+$$
 
 In words: when multiplying or dividing, add the **fractional** uncertainties.
 
@@ -241,12 +255,16 @@ $\square$
 
 If $z = x^n$ Then:
 
-$$\frac{\Delta z}{z} = |n| \cdot \frac{\Delta x}{x}$$
+$$
+\frac{\Delta z}{z} = |n| \cdot \frac{\Delta x}{x}
+$$
 
 **Derivation.** Write $z = \underbrace{x \cdot x \cdots x}_{n \mathrm{ times}}$. Applying the
 Multiplication rule repeatedly:
 
-$$\frac{\Delta z}{z} = \underbrace{\frac{\Delta x}{x} + \frac{\Delta x}{x} + \cdots + \frac{\Delta x}{x}}_{n \mathrm{ terms}} = n \cdot \frac{\Delta x}{x}$$
+$$
+\frac{\Delta z}{z} = \underbrace{\frac{\Delta x}{x} + \frac{\Delta x}{x} + \cdots + \frac{\Delta x}{x}}_{n \mathrm{ terms}} = n \cdot \frac{\Delta x}{x}
+$$
 
 For negative or fractional powers, the result generalises via logarithmic differentiation (see
 [01-wave-properties](/physics/waves/01-wave-properties/) for the general propagation of error formula).
@@ -256,7 +274,9 @@ $\square$
 
 For any function $z = f(x_1, x_2, \ldots, x_n)$:
 
-$$\Delta z = \sqrt{\sum_{i=1}^{n}\left(\frac{\partial f}{\partial x_i} \Delta x_i\right)^2}$$
+$$
+\Delta z = \sqrt{\sum_{i=1}^{n}\left(\frac{\partial f}{\partial x_i} \Delta x_i\right)^2}
+$$
 
 This is the statistical (root-sum-square) combination, which gives the most probable uncertainty
 Rather than the worst case. For A Level exams, use the simpler worst-case rules above unless
@@ -281,15 +301,21 @@ S$^{-2}$ (round the uncertainty to 1 s.f. And match the result). This is what ex
 
 When $n$ repeated measurements $x_1, x_2, \ldots, x_n$ are taken of the same quantity:
 
-$$\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$$
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+$$
 
 The **absolute uncertainty** is the half-range:
 
-$$\Delta x = \frac{x_{\max} - x_{\min}}{2}$$
+$$
+\Delta x = \frac{x_{\max} - x_{\min}}{2}
+$$
 
 For large datasets, the standard deviation of the mean is more appropriate:
 
-$$\Delta x = \frac{\sigma}{\sqrt{n}}, \qquad \sigma = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}$$
+$$
+\Delta x = \frac{\sigma}{\sqrt{n}}, \qquad \sigma = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}
+$$
 
 ## 7. Graphical Analysis of Uncertainties
 
@@ -299,7 +325,9 @@ The error bars).
 
 The uncertainty in the gradient is:
 
-$$\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}$$
+$$
+\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}
+$$
 
 A similar procedure applies to the $y$-intercept.
 
@@ -529,7 +557,9 @@ $[m^a v^b r^c] = \mathsf{M}^a (\mathsf{L}\mathsf{T}^{-1})^b \mathsf{L}^c = \math
 
 Equating dimensions:
 
-$$\mathsf{M}: \quad a = 1, \qquad \mathsf{L}: \quad b + c = 1, \qquad \mathsf{T}: \quad -b = -2 \implies b = 2$$
+$$
+\mathsf{M}: \quad a = 1, \qquad \mathsf{L}: \quad b + c = 1, \qquad \mathsf{T}: \quad -b = -2 \implies b = 2
+$$
 
 Therefore $c = 1 - 2 = -1$Giving $F = k \cdot m v^2 / r$. Full analysis gives $k = 1$. $\square$
 

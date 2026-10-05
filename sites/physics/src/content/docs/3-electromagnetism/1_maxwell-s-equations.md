@@ -23,23 +23,39 @@ Maxwell's equations are the foundation of classical electromagnetism. In SI unit
 
 **Integral Form:**
 
-$$\oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\mathrm{enc}}{\varepsilon_0} \quad \mathrm{(Gauss's\ Law)}}$$
+$$
+\oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\mathrm{enc}}{\varepsilon_0} \quad \mathrm{(Gauss's\ Law)}}
+$$
 
-$$\oint_S \mathbf{B} \cdot d\mathbf{A} = 0 \quad \mathrm{(Gauss's\ Law\ for\ Magnetism)}$$
+$$
+\oint_S \mathbf{B} \cdot d\mathbf{A} = 0 \quad \mathrm{(Gauss's\ Law\ for\ Magnetism)}
+$$
 
-$$\oint_C \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt} \quad \mathrm{(Faraday's\ Law)}$$
+$$
+\oint_C \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt} \quad \mathrm{(Faraday's\ Law)}
+$$
 
-$$\oint_C \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\mathrm{enc} + \mu_0 \varepsilon_0 \frac{d\Phi_E}{dt} \quad \mathrm{(Ampere{-}Maxwell\ Law)}}$$
+$$
+\oint_C \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\mathrm{enc} + \mu_0 \varepsilon_0 \frac{d\Phi_E}{dt} \quad \mathrm{(Ampere{-}Maxwell\ Law)}}
+$$
 
 **Differential Form:**
 
-$$\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0} \quad \mathrm{(Gauss's\ Law)}$$
+$$
+\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0} \quad \mathrm{(Gauss's\ Law)}
+$$
 
-$$\nabla \cdot \mathbf{B} = 0 \quad \mathrm{(Gauss's\ Law\ for\ Magnetism)}$$
+$$
+\nabla \cdot \mathbf{B} = 0 \quad \mathrm{(Gauss's\ Law\ for\ Magnetism)}
+$$
 
-$$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \quad \mathrm{(Faraday's\ Law)}$$
+$$
+\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \quad \mathrm{(Faraday's\ Law)}
+$$
 
-$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \quad \mathrm{(Ampere{-}Maxwell\ Law)}$$
+$$
+\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \quad \mathrm{(Ampere{-}Maxwell\ Law)}
+$$
 
 Where $\rho$ is the charge density, $\mathbf{J}$ is the current density, $\varepsilon_0$ is the
 permittivity Of free space, and $\mu_0$ is the permeability of free space.
@@ -48,26 +64,34 @@ permittivity Of free space, and $\mu_0$ is the permeability of free space.
 
 **Gauss's Law.** Apply the divergence theorem to the integral form:
 
-$$\oint_S \mathbf{E} \cdot d\mathbf{A} = \int_V (\nabla \cdot \mathbf{E})\, dV = \frac{1}{\varepsilon_0}\int_V \rho\, dV$$
+$$
+\oint_S \mathbf{E} \cdot d\mathbf{A} = \int_V (\nabla \cdot \mathbf{E})\, dV = \frac{1}{\varepsilon_0}\int_V \rho\, dV
+$$
 
 Since this holds for any volume $V$: $\nabla \cdot \mathbf{E} = \rho / \varepsilon_0$.
 
 **Faraday's Law.** Apply Stokes' theorem:
 
-$$\oint_C \mathbf{E} \cdot d\mathbf{l} = \int_S (\nabla \times \mathbf{E}) \cdot d\mathbf{A} = -\int_S \frac{\partial \mathbf{B}}{\partial t} \cdot d\mathbf{A}$$
+$$
+\oint_C \mathbf{E} \cdot d\mathbf{l} = \int_S (\nabla \times \mathbf{E}) \cdot d\mathbf{A} = -\int_S \frac{\partial \mathbf{B}}{\partial t} \cdot d\mathbf{A}
+$$
 
 Since this holds for any surface $S$: $\nabla \times \mathbf{E} = -\partial \mathbf{B}/\partial t$.
 
 **Gauss's Law for Magnetism.** By the divergence theorem:
 
-$$\oint_S \mathbf{B} \cdot d\mathbf{A} = \int_V (\nabla \cdot \mathbf{B})\, dV = 0$$
+$$
+\oint_S \mathbf{B} \cdot d\mathbf{A} = \int_V (\nabla \cdot \mathbf{B})\, dV = 0
+$$
 
 Since $V$ is arbitrary: $\nabla \cdot \mathbf{B} = 0$. This expresses the absence of magnetic
 monopoles.
 
 **Ampere-Maxwell Law.** Apply Stokes' theorem:
 
-$$\oint_C \mathbf{B} \cdot d\mathbf{l} = \int_S (\nabla \times \mathbf{B}) \cdot d\mathbf{A} = \mu_0 \int_S \mathbf{J} \cdot d\mathbf{A} + \mu_0 \varepsilon_0 \frac{d}{dt}\int_S \mathbf{E} \cdot d\mathbf{A}$$
+$$
+\oint_C \mathbf{B} \cdot d\mathbf{l} = \int_S (\nabla \times \mathbf{B}) \cdot d\mathbf{A} = \mu_0 \int_S \mathbf{J} \cdot d\mathbf{A} + \mu_0 \varepsilon_0 \frac{d}{dt}\int_S \mathbf{E} \cdot d\mathbf{A}
+$$
 
 Since $S$ is arbitrary:
 $\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0\, \partial \mathbf{E}/\partial t$.
@@ -76,7 +100,9 @@ $\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0\, \partial \m
 
 Taking the divergence of the Ampere-Maxwell law:
 
-$$\nabla \cdot (\nabla \times \mathbf{B}) = 0 = \mu_0 \nabla \cdot \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial}{\partial t}(\nabla \cdot \mathbf{E})$$
+$$
+\nabla \cdot (\nabla \times \mathbf{B}) = 0 = \mu_0 \nabla \cdot \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial}{\partial t}(\nabla \cdot \mathbf{E})
+$$
 
 Using Gauss's law: $\nabla \cdot \mathbf{J} + \frac{\partial \rho}{\partial t} = 0$.
 
@@ -90,23 +116,31 @@ Pointing from 2 into 1, Maxwell's equations impose four boundary conditions.
 **Normal component of $\mathbf{D}$.** Apply Gauss's law for $\mathbf{D}$ to a thin pillbox
 Straddling the interface:
 
-$$\oint \mathbf{D} \cdot d\mathbf{A} = \sigma_f A \implies D_{1n} - D_{2n} = \sigma_f$$
+$$
+\oint \mathbf{D} \cdot d\mathbf{A} = \sigma_f A \implies D_{1n} - D_{2n} = \sigma_f
+$$
 
 **Tangential component of $\mathbf{E}$.** Apply Faraday's law to a rectangular loop Perpendicular to
 the interface. As the loop height $\Delta h \to 0$The flux through the Loop vanishes:
 
-$$\oint \mathbf{E} \cdot d\mathbf{l} = 0 \implies E_{1t} = E_{2t}$$
+$$
+\oint \mathbf{E} \cdot d\mathbf{l} = 0 \implies E_{1t} = E_{2t}
+$$
 
 In vector form: $\hat{\mathbf{n}} \times (\mathbf{E}_1 - \mathbf{E}_2) = \mathbf{0}$.
 
 **Normal component of $\mathbf{B}$.** Apply Gauss's law for $\mathbf{B}$ to a pillbox:
 
-$$B_{1n} = B_{2n}$$
+$$
+B_{1n} = B_{2n}
+$$
 
 **Tangential component of $\mathbf{H}$.** Apply Ampere's law for $\mathbf{H}$ to a loop
 Perpendicular to the interface:
 
-$$\hat{\mathbf{n}} \times (\mathbf{H}_1 - \mathbf{H}_2) = \mathbf{K}_f$$
+$$
+\hat{\mathbf{n}} \times (\mathbf{H}_1 - \mathbf{H}_2) = \mathbf{K}_f
+$$
 
 Where $\mathbf{K}_f$ is the free surface current density.
 
@@ -136,30 +170,44 @@ the wave speed is $c = 1/\sqrt{\mu_0 \varepsilon_0}$.
 
 In free space, Maxwell's equations reduce to:
 
-$$\nabla \cdot \mathbf{E} = 0, \quad \nabla \cdot \mathbf{B} = 0$$
+$$
+\nabla \cdot \mathbf{E} = 0, \quad \nabla \cdot \mathbf{B} = 0
+$$
 
-$$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$
+$$
+\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+$$
 
 Take the curl of Faraday's law:
 
-$$\nabla \times (\nabla \times \mathbf{E}) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+\nabla \times (\nabla \times \mathbf{E}) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
 Apply the vector identity
 $\nabla \times (\nabla \times \mathbf{E}) = \nabla(\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E}$.
 Since $\nabla \cdot \mathbf{E} = 0$:
 
-$$-\nabla^2 \mathbf{E} = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+-\nabla^2 \mathbf{E} = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
-$$\boxed{\nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}}$$
+$$
+\boxed{\nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}}
+$$
 
 An identical calculation, taking the curl of the Ampere-Maxwell law, yields:
 
-$$\boxed{\nabla^2 \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{B}}{\partial t^2}}$$
+$$
+\boxed{\nabla^2 \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{B}}{\partial t^2}}
+$$
 
 Comparing with the standard wave equation
 $\nabla^2 \mathbf{F} = \frac{1}{v^2}\frac{\partial^2 \mathbf{F}}{\partial t^2}$ The wave speed is:
 
-$$c = \frac{1}{\sqrt{\mu_0 \varepsilon_0}} \approx 2.998 \times 10^8\ \mathrm{m}/s$$
+$$
+c = \frac{1}{\sqrt{\mu_0 \varepsilon_0}} \approx 2.998 \times 10^8\ \mathrm{m}/s
+$$
 
 $\blacksquare$
 
@@ -175,17 +223,25 @@ $\blacksquare$
 By symmetry, the electric field is radial and depends only on $r$. Choose a cylindrical Gaussian surface of radius $r$ and length $L$ coaxial with the line charge.
 
 The electric flux through the curved surface is:
-$$\oint \mathbf{E} \cdot d\mathbf{A} = E \cdot 2\pi r L$$
+$$
+\oint \mathbf{E} \cdot d\mathbf{A} = E \cdot 2\pi r L
+$$
 
 The flux through the end caps is zero (field is perpendicular to the normal).
 
 The enclosed charge is:
-$$Q_{\text{enc}} = \lambda L$$
+$$
+Q_{\text{enc}} = \lambda L
+$$
 
 Applying Gauss's law:
-$$E \cdot 2\pi r L = \frac{\lambda L}{\varepsilon_0}$$
+$$
+E \cdot 2\pi r L = \frac{\lambda L}{\varepsilon_0}
+$$
 
-$$E = \frac{\lambda}{2\pi \varepsilon_0 r}$$
+$$
+E = \frac{\lambda}{2\pi \varepsilon_0 r}
+$$
 
 $\blacksquare$
 
@@ -201,15 +257,23 @@ $\blacksquare$
 <summary>Solution</summary>
 
 The magnetic flux through the loop is:
-$$\Phi_B = B \cdot A = B_0 \sin(\omega t) \cdot \pi r^2$$
+$$
+\Phi_B = B \cdot A = B_0 \sin(\omega t) \cdot \pi r^2
+$$
 
 By Faraday's law, the induced EMF is:
-$$\mathcal{E} = -\frac{d\Phi_B}{dt} = -B_0 \pi r^2 \omega \cos(\omega t)$$
+$$
+\mathcal{E} = -\frac{d\Phi_B}{dt} = -B_0 \pi r^2 \omega \cos(\omega t)
+$$
 
 Substituting values:
-$$\mathcal{E} = -0.5 \times \pi \times (0.1)^2 \times 100 \times \cos(100t)$$
+$$
+\mathcal{E} = -0.5 \times \pi \times (0.1)^2 \times 100 \times \cos(100t)
+$$
 
-$$\mathcal{E} = -1.57 \cos(100t) \text{ V}$$
+$$
+\mathcal{E} = -1.57 \cos(100t) \text{ V}
+$$
 
 The maximum induced EMF is $|\mathcal{E}_{\text{max}}| = 1.57$ V.
 
@@ -229,17 +293,25 @@ $\blacksquare$
 By symmetry, the magnetic field inside a long solenoid is uniform and parallel to the axis. Choose a rectangular Amperian loop with one side inside the solenoid (length $l$) and one side outside.
 
 The line integral of $\mathbf{B}$ around the loop is:
-$$\oint \mathbf{B} \cdot d\mathbf{l} = B l$$
+$$
+\oint \mathbf{B} \cdot d\mathbf{l} = B l
+$$
 
 (The contribution from the outside is zero because $B \approx 0$ outside.)
 
 The enclosed current is:
-$$I_{\text{enc}} = n l I$$
+$$
+I_{\text{enc}} = n l I
+$$
 
 Applying Ampere's law:
-$$B l = \mu_0 n l I$$
+$$
+B l = \mu_0 n l I
+$$
 
-$$B = \mu_0 n I = 4\pi \times 10^{-7} \times 1000 \times 2 = 8\pi \times 10^{-4} \approx 2.51 \times 10^{-3} \text{ T}$$
+$$
+B = \mu_0 n I = 4\pi \times 10^{-7} \times 1000 \times 2 = 8\pi \times 10^{-4} \approx 2.51 \times 10^{-3} \text{ T}
+$$
 
 $\blacksquare$
 

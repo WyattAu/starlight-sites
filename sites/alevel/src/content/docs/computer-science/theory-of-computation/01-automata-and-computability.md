@@ -229,11 +229,15 @@ For all possible inputs.
 
 Assume a Turing machine $H$ exists that decides the halting problem:
 
-$$H(M, w) = \begin{cases} \mathrm{accept} & \mathrm{if } M \mathrm{ halts on } w \\ \mathrm{reject} & \mathrm{if } M \mathrm{ does not halt on } w \end{cases}$$
+$$
+H(M, w) = \begin{cases} \mathrm{accept} & \mathrm{if } M \mathrm{ halts on } w \\ \mathrm{reject} & \mathrm{if } M \mathrm{ does not halt on } w \end{cases}
+$$
 
 Construct a new machine $D$ that uses $H$:
 
-$$D(M) = \begin{cases} \mathrm{loop forever} & \mathrm{if } H(M, M) = \mathrm{accept} \\ \mathrm{halt (reject)} & \mathrm{if } H(M, M) = \mathrm{reject} \end{cases}$$
+$$
+D(M) = \begin{cases} \mathrm{loop forever} & \mathrm{if } H(M, M) = \mathrm{accept} \\ \mathrm{halt (reject)} & \mathrm{if } H(M, M) = \mathrm{reject} \end{cases}
+$$
 
 **The contradiction:** What happens when $D$ is run on its own description, $D$?
 
@@ -270,7 +274,9 @@ Would have to run forever).
 
 ### Relationship
 
-$$\mathrm{P} \subseteq \mathrm{NP}$$
+$$
+\mathrm{P} \subseteq \mathrm{NP}
+$$
 
 Every problem in P is also in NP (if you can solve it in polynomial time, you can certainly verify a
 Solution in polynomial time).

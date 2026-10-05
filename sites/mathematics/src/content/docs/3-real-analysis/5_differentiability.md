@@ -21,7 +21,9 @@ description: "Differentiability: comprehensive educational content notes with pr
 
 **Definition.** $f : (a,b) \to \mathbb{R}$ is **differentiable at** $c \in (a,b)$ if the limit
 
-$$f"(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$$
+$$
+f"(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}
+$$
 
 Exists (as a finite real number).
 
@@ -56,7 +58,9 @@ $\blacksquare$
 **Theorem 5.3 (Mean Value Theorem).** If $f : [a,b] \to \mathbb{R}$ is continuous on $[a,b]$ and
 Differentiable on $(a,b)$ Then there exists $c \in (a,b)$ such that
 
-$$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+$$
+f'(c) = \frac{f(b) - f(a)}{b - a}
+$$
 
 _Proof._ Define $g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x - a)$. Then $g(a) = g(b)$ and $g$ satisfies
 the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$Which gives the result.
@@ -69,7 +73,9 @@ $\blacksquare$
 **Theorem 5.3a (Cauchy's Mean Value Theorem).** If $f, g : [a,b] \to \mathbb{R}$ are continuous on
 $[a,b]$ and differentiable on $(a,b)$ Then there exists $c \in (a,b)$ such that
 
-$$(f(b) - f(a))g'(c) = (g(b) - g(a))f'(c)$$
+$$
+(f(b) - f(a))g'(c) = (g(b) - g(a))f'(c)
+$$
 
 _Proof._ Define $h(x) = (f(b) - f(a))g(x) - (g(b) - g(a))f(x)$. Then $h(a) = h(b)$ So by Rolle's
 Theorem, $h'(c) = 0$ for some $c \in (a,b)$Which gives the result. $\blacksquare$
@@ -88,23 +94,31 @@ _Proof._ Apply the MVT to $f$ on the interval between $x$ and $y$. $\blacksquare
 **Theorem 5.6 (Taylor's Theorem with Lagrange Remainder).** If $f$ is $(n+1)$-times differentiable
 on An open interval containing $a$ Then for each $x$ in that interval:
 
-$$f(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x - a)^k + R_n(x)$$
+$$
+f(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x - a)^k + R_n(x)
+$$
 
 Where the remainder is
 
-$$R_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x - a)^{n+1}$$
+$$
+R_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x - a)^{n+1}
+$$
 
 For some $\xi$ between $a$ and $x$.
 
 _Proof._ Fix $x \neq a$ and define
 
-$$g(t) = f(x) - \sum_{k=0}^{n} \frac{f^{(k)}(t)}{k!}(x - t)^k$$
+$$
+g(t) = f(x) - \sum_{k=0}^{n} \frac{f^{(k)}(t)}{k!}(x - t)^k
+$$
 
 Then $g(a) = R_n(x)$ and $g(x) = 0$. By the generalized Rolle's theorem (or direct computation Using
 the Cauchy mean value theorem), there exists $\xi$ between $a$ and $x$ with $g'( \xi ) = 0$.
 Computing:
 
-$$g'(t) = -\frac{f^{(n+1)}(t)}{n!}(x - t)^n$$
+$$
+g'(t) = -\frac{f^{(n+1)}(t)}{n!}(x - t)^n
+$$
 
 Setting $g'(\xi) = 0$ yields the result after comparing $g(a) = R_n(x)$ with the integral form. A
 Cleaner approach uses the standard MVT applied to $g$ on $[a, x]$. $\blacksquare$
@@ -119,7 +133,9 @@ finite Number or $\pm\infty$), then $\lim_{x \to c} f(x)/g(x) = L$.
 _Proof._ Extend $f$ and $g$ continuously to $c$ by setting $f(c) = g(c) = 0$. For $x \neq c$By
 Cauchy's Mean Value Theorem, there exists $\xi$ strictly between $c$ and $x$ such that
 
-$$\frac{f(x) - f(c)}{g(x) - g(c)} = \frac{f'(\xi)}{g'(\xi)}$$
+$$
+\frac{f(x) - f(c)}{g(x) - g(c)} = \frac{f'(\xi)}{g'(\xi)}
+$$
 
 I.e., $\frac{f(x)}{g(x)} = \frac{f'(\xi)}{g'(\xi)}$. As $x \to c$We have $\xi \to c$ (since $\xi$ is
 trapped between $c$ and $x$). Therefore
@@ -132,11 +148,15 @@ exists, Then $\lim_{x \to c} f(x)/g(x) = L$.
 
 _Proof (sketch)._ Fix $\varepsilon > 0$. For $x, y$ near $c$ with $x \neq y$By Cauchy's MVT:
 
-$$\frac{f(x) - f(y)}{g(x) - g(y)} = \frac{f'(\xi)}{g'(\xi)}$$
+$$
+\frac{f(x) - f(y)}{g(x) - g(y)} = \frac{f'(\xi)}{g'(\xi)}
+$$
 
 For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ near $c$We have:
 
-$$\frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}$$
+$$
+\frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}
+$$
 
 Since $f(x), g(x) \to \infty$By fixing $y$ and letting $x \to c$The fractions $f(y)/f(x)$ and
 $g(y)/g(x)$ tend to $0$ So the second factor tends to $1$. The first factor tends to $L$ by Cauchy's
@@ -147,11 +167,15 @@ MVT. Hence $f(x)/g(x) \to L$. $\blacksquare$
 
 _Solution._ Both numerator and denominator approach $0$ as $x \to 0$. Applying L'Hôpital’s rule:
 
-$$\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \lim_{x \to 0} \frac{e^x - 1}{2x}$$
+$$
+\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \lim_{x \to 0} \frac{e^x - 1}{2x}
+$$
 
 This is still $\frac{0}{0}$ So apply L'Hôpital again:
 
-$$= \lim_{x \to 0} \frac{e^x}{2} = \frac{1}{2}$$
+$$
+= \lim_{x \to 0} \frac{e^x}{2} = \frac{1}{2}
+$$
 
 $\blacksquare$
 
@@ -170,7 +194,9 @@ But $f'$ is not continuous at $0$.
 _Proof._ Assume without loss of generality that $f'(a) \lt y \lt f'(b)$. Define $g(x) = f(x) - yx$.
 Then $g$ is differentiable on $[a, b]$ with
 
-$$g'(a) = f'(a) - y \lt 0 \quad \mathrm{and} \quad g'(b) = f'(b) - y > 0$$
+$$
+g'(a) = f'(a) - y \lt 0 \quad \mathrm{and} \quad g'(b) = f'(b) - y > 0
+$$
 
 Since $g'(a) \lt 0$There exists $x_1 > a$ with $g(x_1) \lt g(a)$ (otherwise $g(x) \geq g(a)$ For $x$
 near $a$Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$There exists $x_2 \lt b$ with
@@ -200,7 +226,9 @@ Highly discontinuous while retaining the intermediate value property. $\blacksqu
 
 $f(0) = 1$, $f'(0) = 1$, $f''(0) = 1$, $f'''(0) = 1$. So
 
-$$T_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}$$
+$$
+T_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}
+$$
 
 The remainder is $R_3(x) = \frac{e^\xi}{24} x^4$ for some $\xi$ between $0$ and $x$.
 
@@ -231,7 +259,9 @@ The error is at most $2.48 \times 10^{-13} \lt 10^{-10}$. $\blacksquare$
 _Solution._ For $f(x) = \ln(1+x)$: $f(0) = 0$, $f'(x) = 1/(1+x)$, $f''(x) = -1/(1+x)^2$
 $f^{(k)}(x) = (-1)^{k-1}(k-1)!/(1+x)^k$ for $k \geq 1$. So $f^{(k)}(0) = (-1)^{k-1}(k-1)!$.
 
-$$\ln(1+x) = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}(k-1)!}{k!} x^k = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}}{k} x^k$$
+$$
+\ln(1+x) = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}(k-1)!}{k!} x^k = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}}{k} x^k
+$$
 
 By the ratio test:
 $\lim_{k \to \infty} |a_{k+1}/a_k| = \lim_{k \to \infty} \frac{k}{k+1} |x| = |x|$. The series
@@ -252,7 +282,9 @@ $f(\pi/3) = 1/2$, $f'(\pi/3) = -\sqrt{3}/2$, $f''(\pi/3) = -1/2$, $f'''(\pi/3) =
 
 The third-degree Taylor polynomial is:
 
-$$T_3(x) = \frac{1}{2} - \frac{\sqrt{3}}{2}\left(x - \frac{\pi}{3}\right) - \frac{1}{4}\left(x - \frac{\pi}{3}\right)^2 + \frac{\sqrt{3}}{12}\left(x - \frac{\pi}{3}\right)^3$$
+$$
+T_3(x) = \frac{1}{2} - \frac{\sqrt{3}}{2}\left(x - \frac{\pi}{3}\right) - \frac{1}{4}\left(x - \frac{\pi}{3}\right)^2 + \frac{\sqrt{3}}{12}\left(x - \frac{\pi}{3}\right)^3
+$$
 
 The remainder satisfies $|R_3(x)| \leq \frac{|x - \pi/3|^4}{24}$ (since
 $|f^{(4)}(\xi)| = |\cos \xi| \leq 1$).
@@ -277,7 +309,9 @@ curve where the tangent line is parallel to the chord (secant line) connecting t
 More precisely, if $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$, then there exists
 $c \in (a, b)$ with
 
-$$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+$$
+f'(c) = \frac{f(b) - f(a)}{b - a}
+$$
 
 **Physical interpretation:** If you drive 100 miles in 2 hours, your average speed is 50 mph. The
 MVT says that at some instant, your speedometer must have read exactly 50 mph.
@@ -297,11 +331,15 @@ $(-1, 1)$ to $(1, 1)$ is horizontal, but no tangent line is horizontal.
 Apply the MVT to $f(t) = \sin t$ on the interval between $x$ and $y$. There exists $\xi$ between
 $x$ and $y$ such that
 
-$$\sin x - \sin y = \cos(\xi) \cdot (x - y)$$
+$$
+\sin x - \sin y = \cos(\xi) \cdot (x - y)
+$$
 
 Taking absolute values:
 
-$$|\sin x - \sin y| = |\cos(\xi)| \cdot |x - y| \leq 1 \cdot |x - y| = |x - y|$$
+$$
+|\sin x - \sin y| = |\cos(\xi)| \cdot |x - y| \leq 1 \cdot |x - y| = |x - y|
+$$
 
 since $|\cos(\xi)| \leq 1$ for all $\xi$.
 

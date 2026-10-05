@@ -57,11 +57,15 @@ $\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 + 1} = \frac{1}{2}$.
 
 _Solution._ Let $\varepsilon > 0$. Compute:
 
-$$\left|\frac{n^2 + 3n}{2n^2 + 1} - \frac{1}{2}\right| = \left|\frac{2(n^2 + 3n) - (2n^2 + 1)}{2(2n^2 + 1)}\right| = \left|\frac{6n - 1}{2(2n^2 + 1)}\right|$$
+$$
+\left|\frac{n^2 + 3n}{2n^2 + 1} - \frac{1}{2}\right| = \left|\frac{2(n^2 + 3n) - (2n^2 + 1)}{2(2n^2 + 1)}\right| = \left|\frac{6n - 1}{2(2n^2 + 1)}\right|
+$$
 
 For $n \geq 1$: $6n - 1 \lt 6n$ and $2n^2 + 1 > 2n^2$ So
 
-$$\frac{6n - 1}{2(2n^2 + 1)} \lt \frac{6n}{4n^2} = \frac{3}{2n}$$
+$$
+\frac{6n - 1}{2(2n^2 + 1)} \lt \frac{6n}{4n^2} = \frac{3}{2n}
+$$
 
 We need $\frac{3}{2n} \lt \varepsilon$I.e., $n > 3/(2\varepsilon)$. Choose
 $N = \lceil 3/(2\varepsilon) \rceil$. For $n \geq N$: the expression is $\lt \varepsilon$.
@@ -119,7 +123,9 @@ _If you get this wrong, revise:_ Section 2.6 (Limit Superior and Limit Inferior)
 _Solution._ Apply the integral test with $f(x) = 1/(x(\ln x)^2)$ on $[2, \infty)$. The function is
 Positive, continuous, and decreasing. Compute via $u = \ln x$, $du = dx/x$:
 
-$$\int_2^{\infty} \frac{1}{x(\ln x)^2}\, dx = \int_{\ln 2}^{\infty} \frac{1}{u^2}\, du = \left[-\frac{1}{u}\right]_{\ln 2}^{\infty} = \frac{1}{\ln 2} \lt \infty$$
+$$
+\int_2^{\infty} \frac{1}{x(\ln x)^2}\, dx = \int_{\ln 2}^{\infty} \frac{1}{u^2}\, du = \left[-\frac{1}{u}\right]_{\ln 2}^{\infty} = \frac{1}{\ln 2} \lt \infty
+$$
 
 The integral converges, so by the integral test, the series converges. $\blacksquare$
 
@@ -155,11 +161,15 @@ _Solution._ Use partial fractions:
 $\frac{1}{n(n+2)} = \frac{1}{2}\left(\frac{1}{n} - \frac{1}{n+2}\right)$. The $N$-th partial sum
 telescopes:
 
-$$S_N = \frac{1}{2}\left[\left(\frac{1}{1} - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{N} - \frac{1}{N+2}\right)\right]$$
+$$
+S_N = \frac{1}{2}\left[\left(\frac{1}{1} - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{N} - \frac{1}{N+2}\right)\right]
+$$
 
 Most terms cancel. The surviving terms are:
 
-$$S_N = \frac{1}{2}\left(1 + \frac{1}{2} - \frac{1}{N+1} - \frac{1}{N+2}\right)$$
+$$
+S_N = \frac{1}{2}\left(1 + \frac{1}{2} - \frac{1}{N+1} - \frac{1}{N+2}\right)
+$$
 
 As $N \to \infty$: $S_N \to \frac{1}{2}(1 + 1/2) = \frac{3}{4}$. $\blacksquare$
 
@@ -201,14 +211,18 @@ $a \in \mathbb{R}$.
 
 _Solution._ Let $a \in \mathbb{R}$ and $\varepsilon > 0$. Compute:
 
-$$|f(x) - f(a)| = |x^3 - a^3| = |x - a| \cdot |x^2 + ax + a^2|$$
+$$
+|f(x) - f(a)| = |x^3 - a^3| = |x - a| \cdot |x^2 + ax + a^2|
+$$
 
 Restrict to $|x - a| \lt 1$ So $|x| \lt |a| + 1$Giving
 $|x^2 + ax + a^2| \leq (|a|+1)^2 + |a|(|a|+1) + a^2 = 3a^2 + 3|a| + 1$. Let $M = 3a^2 + 3|a| + 1$.
 
 Choose $\delta = \min(1, \varepsilon/M)$. Then $|x - a| \lt \delta$ implies:
 
-$$|x^3 - a^3| \leq |x - a| \cdot M \lt \frac{\varepsilon}{M} \cdot M = \varepsilon$$
+$$
+|x^3 - a^3| \leq |x - a| \cdot M \lt \frac{\varepsilon}{M} \cdot M = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -261,12 +275,16 @@ Using the fourth-degree Maclaurin polynomial.
 
 _Solution._ The fourth-degree Maclaurin polynomial of $e^x$ is:
 
-$$T_4(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24}$$
+$$
+T_4(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24}
+$$
 
 By Taylor's theorem, $R_4(x) = \frac{e^{\xi}}{5!} x^5$ for some $\xi$ between $0$ and $x$. For
 $x = 0.2$: $\xi \in (0, 0.2)$ So $e^{\xi} \lt e^{0.2} \lt e^{1/4} \lt 1.3$.
 
-$$|R_4(0.2)| = \frac{e^{\xi}}{120} (0.2)^5 \lt \frac{1.3}{120} \cdot 0.00032 = \frac{1.3 \times 0.00032}{120} \approx 3.47 \times 10^{-6}$$
+$$
+|R_4(0.2)| = \frac{e^{\xi}}{120} (0.2)^5 \lt \frac{1.3}{120} \cdot 0.00032 = \frac{1.3 \times 0.00032}{120} \approx 3.47 \times 10^{-6}
+$$
 
 So $T_4(0.2) = 1 + 0.2 + 0.02 + 0.001333 + 0.000067 = 1.221400$ approximates $e^{0.2}$ with Error
 less than $3.5 \times 10^{-6}$. $\blacksquare$
@@ -283,11 +301,15 @@ _If you get this wrong, revise:_ Section 5.4 (Taylor's Theorem), Section 5.7 (Wo
 _Solution._ Let $P_n = \{0, 1/n, 2/n, \ldots, 1\}$. On $[(i-1)/n, i/n]$, $f(x) = x^3$ has
 $M_i = (i/n)^3$ and $m_i = ((i-1)/n)^3$.
 
-$$U(f, P_n) = \sum_{i=1}^{n} \frac{i^3}{n^3} \cdot \frac{1}{n} = \frac{1}{n^4} \sum_{i=1}^{n} i^3 = \frac{1}{n^4} \cdot \frac{n^2(n+1)^2}{4}$$
+$$
+U(f, P_n) = \sum_{i=1}^{n} \frac{i^3}{n^3} \cdot \frac{1}{n} = \frac{1}{n^4} \sum_{i=1}^{n} i^3 = \frac{1}{n^4} \cdot \frac{n^2(n+1)^2}{4}
+$$
 
 As $n \to \infty$:
 
-$$\lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{(n+1)^2}{4n^2} = \frac{1}{4}$$
+$$
+\lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{(n+1)^2}{4n^2} = \frac{1}{4}
+$$
 
 Similarly, $L(f, P_n) \to 1/4$. So $\int_0^1 x^3\, dx = 1/4$. $\blacksquare$
 
@@ -325,11 +347,15 @@ _If you get this wrong, revise:_ Section 6.2 (Integrability Criteria), Theorem 6
 _Solution._ The integrand $f(x) = x/\sqrt{1 - x^2}$ is unbounded as $x \to 1^-$. This is a Type II
 Improper integral.
 
-$$\int_0^1 \frac{x}{\sqrt{1 - x^2}}\, dx = \lim_{b \to 1^-} \int_0^b \frac{x}{\sqrt{1 - x^2}}\, dx$$
+$$
+\int_0^1 \frac{x}{\sqrt{1 - x^2}}\, dx = \lim_{b \to 1^-} \int_0^b \frac{x}{\sqrt{1 - x^2}}\, dx
+$$
 
 Compute via substitution $u = 1 - x^2$, $du = -2x\, dx$:
 
-$$= \lim_{b \to 1^-} \left[-\sqrt{1 - x^2}\right]_0^b = \lim_{b \to 1^-} \left(-\sqrt{1 - b^2} + 1\right) = 0 + 1 = 1$$
+$$
+= \lim_{b \to 1^-} \left[-\sqrt{1 - x^2}\right]_0^b = \lim_{b \to 1^-} \left(-\sqrt{1 - b^2} + 1\right) = 0 + 1 = 1
+$$
 
 The improper integral converges to $1$. $\blacksquare$
 
@@ -351,7 +377,9 @@ So $f_n \to 0$ pointwise on $(0, \infty)$.
 **Uniform convergence?** We check $\sup_{x > 0} |f_n(x) - 0| = \sup_{x > 0} \frac{nx}{1 + n^2 x^2}$.
 To maximize, differentiate with respect to $x$ (treating $n$ as fixed):
 
-$$\frac{d}{dx}\left(\frac{nx}{1 + n^2 x^2}\right) = \frac{n(1 + n^2 x^2) - nx \cdot 2n^2 x}{(1 + n^2 x^2)^2} = \frac{n - n^3 x^2}{(1 + n^2 x^2)^2}$$
+$$
+\frac{d}{dx}\left(\frac{nx}{1 + n^2 x^2}\right) = \frac{n(1 + n^2 x^2) - nx \cdot 2n^2 x}{(1 + n^2 x^2)^2} = \frac{n - n^3 x^2}{(1 + n^2 x^2)^2}
+$$
 
 Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
@@ -371,9 +399,13 @@ Convergence).
 
 _Solution._ Apply the ratio test to the terms:
 
-$$\left|\frac{a_{n+1}}{a_n}\right| = \frac{(2(n+1))!}{((n+1)!)^2} \cdot \frac{(n!)^2}{(2n)!} \cdot |x| = \frac{(2n+2)(2n+1)}{(n+1)^2} \cdot |x|$$
+$$
+\left|\frac{a_{n+1}}{a_n}\right| = \frac{(2(n+1))!}{((n+1)!)^2} \cdot \frac{(n!)^2}{(2n)!} \cdot |x| = \frac{(2n+2)(2n+1)}{(n+1)^2} \cdot |x|
+$$
 
-$$= \frac{2(2n+1)}{n+1} \cdot |x| = \frac{4n + 2}{n + 1} \cdot |x| \to 4|x| \quad \mathrm{as\ } n \to \infty$$
+$$
+= \frac{2(2n+1)}{n+1} \cdot |x| = \frac{4n + 2}{n + 1} \cdot |x| \to 4|x| \quad \mathrm{as\ } n \to \infty
+$$
 
 The series converges when $4|x| \lt 1$I.e., $|x| \lt 1/4$ And diverges when $4|x| > 1$. The radius of
 convergence is $R = 1/4$. $\blacksquare$

@@ -53,13 +53,17 @@ Deforestation, drainage, irrigation).
 
 The water balance of a drainage basin over a specified time period is:
 
-$$P = Q + E \pm \Delta S$$
+$$
+P = Q + E \pm \Delta S
+$$
 
 Where $P$ is total precipitation, $Q$ is total runoff (river discharge), $E$ is total
 Evapotranspiration, and $\Delta S$ is the change in all storage components combined. Over a long
 Period ( the hydrological year), $\Delta S$ approaches zero, yielding:
 
-$$P = Q + E$$
+$$
+P = Q + E
+$$
 
 This identity states that all precipitation is ultimately partitioned between runoff and
 Evapotranspiration. The ratio $Q/P$ is the runoff coefficient, which indicates the proportion of
@@ -211,7 +215,9 @@ Bangladesh"s northeastern Sylhet region.
 
 River discharge ($Q$) is calculated as:
 
-$$Q = w \times \bar{d} \times \bar{v}$$
+$$
+Q = w \times \bar{d} \times \bar{v}
+$$
 
 Where $w$ is channel width, $\bar{d}$ is mean depth, and $\bar{v}$ is mean velocity. Velocity is
 Measured using a flow meter (impeller or electromagnetic) at multiple points across the channel ( at

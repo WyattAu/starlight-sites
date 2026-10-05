@@ -63,11 +63,15 @@ Exponential measures inter-arrival times, and geometric counts trials until the 
 **Definition.** A **probability density function** (PDF) $f(x)$ of a continuous random variable $X$
 Is a non-negative function satisfying:
 
-$$f(x) \geq 0 \quad \mathrm{for all } x, \qquad \int_{-\infty}^{\infty}f(x)\,dx = 1$$
+$$
+f(x) \geq 0 \quad \mathrm{for all } x, \qquad \int_{-\infty}^{\infty}f(x)\,dx = 1
+$$
 
 Probabilities are found by integration:
 
-$$P(a \leq X \leq b) = \int_a^b f(x)\,dx$$
+$$
+P(a \leq X \leq b) = \int_a^b f(x)\,dx
+$$
 
 :::caution
 $P(a \leq X \leq b) = P(a < X < b)$, the inequalities at individual points do not matter.
@@ -77,7 +81,9 @@ $P(a \leq X \leq b) = P(a < X < b)$, the inequalities at individual points do no
 
 **Definition.** The **cumulative distribution function** (CDF) is
 
-$$F(x) = P(X \leq x) = \int_{-\infty}^{x}f(t)\,dt$$
+$$
+F(x) = P(X \leq x) = \int_{-\infty}^{x}f(t)\,dt
+$$
 
 Properties:
 
@@ -90,21 +96,29 @@ Properties:
 
 **Definition.** The expected value of a continuous random variable $X$ is
 
-$$\boxed{E(X) = \int_{-\infty}^{\infty}x\,f(x)\,dx}$$
+$$
+\boxed{E(X) = \int_{-\infty}^{\infty}x\,f(x)\,dx}
+$$
 
 For a function $g(X)$:
 
-$$E(g(X)) = \int_{-\infty}^{\infty}g(x)\,f(x)\,dx$$
+$$
+E(g(X)) = \int_{-\infty}^{\infty}g(x)\,f(x)\,dx
+$$
 
 ### 1.4 Variance
 
 **Definition.**
 
-$$\boxed{\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \int_{-\infty}^{\infty}x^2\,f(x)\,dx - \left(\int_{-\infty}^{\infty}x\,f(x)\,dx\right)^2}$$
+$$
+\boxed{\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \int_{-\infty}^{\infty}x^2\,f(x)\,dx - \left(\int_{-\infty}^{\infty}x\,f(x)\,dx\right)^2}
+$$
 
 The linear properties carry over from the discrete case:
 
-$$E(aX + b) = aE(X) + b, \qquad \mathrm{Var}(aX + b) = a^2\,\mathrm{Var}(X)$$
+$$
+E(aX + b) = aE(X) + b, \qquad \mathrm{Var}(aX + b) = a^2\,\mathrm{Var}(X)
+$$
 
 ### 1.5 Median, mode, and quartiles
 
@@ -126,15 +140,21 @@ $Q_3$ satisfies $F(Q_3) = 0.75$.
 **Definition.** A continuous random variable $X$ follows an **exponential distribution** with rate
 Parameter $\lambda$ (where $\lambda > 0$), written $X \sim \mathrm{Exp}(\lambda)$If
 
-$$\boxed{f(x) = \lambda e^{-\lambda x}, \quad x \geq 0}$$
+$$
+\boxed{f(x) = \lambda e^{-\lambda x}, \quad x \geq 0}
+$$
 
 And $f(x) = 0$ for $x < 0$.
 
 ### 2.2 Cumulative distribution function
 
-$$F(x) = P(X \leq x) = \int_0^x \lambda e^{-\lambda t}\,dt = \left[-e^{-\lambda t}\right]_0^x = 1 - e^{-\lambda x}$$
+$$
+F(x) = P(X \leq x) = \int_0^x \lambda e^{-\lambda t}\,dt = \left[-e^{-\lambda t}\right]_0^x = 1 - e^{-\lambda x}
+$$
 
-$$\boxed{F(x) = 1 - e^{-\lambda x}, \quad x \geq 0}$$
+$$
+\boxed{F(x) = 1 - e^{-\lambda x}, \quad x \geq 0}
+$$
 
 ### 2.3 Proof that $E(X) = \frac{1}{\lambda}$
 
@@ -166,7 +186,9 @@ Note: $\lim_{x\to\infty}xe^{-\lambda x} = 0$ by L'Hôpital's rule (exponential d
 
 First compute $E(X^2)$:
 
-$$E(X^2) = \int_0^{\infty}x^2\cdot\lambda e^{-\lambda x}\,dx$$
+$$
+E(X^2) = \int_0^{\infty}x^2\cdot\lambda e^{-\lambda x}\,dx
+$$
 
 Integration by parts twice with $u = x^2$, $dv = \lambda e^{-\lambda x}\,dx$:
 
@@ -179,15 +201,21 @@ E(X^2) &= \left[-x^2 e^{-\lambda x}\right]_0^{\infty} + \int_0^{\infty}2x\,e^{-\
 \end{aligned}
 $$
 
-$$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} = \frac{1}{\lambda^2} \quad \blacksquare$$
+$$
+\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} = \frac{1}{\lambda^2} \quad \blacksquare
+$$
 
-$$\boxed{E(X) = \frac{1}{\lambda}, \qquad \mathrm{Var}(X) = \frac{1}{\lambda^2}, \qquad \sigma = \frac{1}{\lambda}}$$
+$$
+\boxed{E(X) = \frac{1}{\lambda}, \qquad \mathrm{Var}(X) = \frac{1}{\lambda^2}, \qquad \sigma = \frac{1}{\lambda}}
+$$
 
 ### 2.5 The memoryless property
 
 **Theorem.** The exponential distribution is the only continuous memoryless distribution:
 
-$$P(X > s + t \mid X > s) = P(X > t)$$
+$$
+P(X > s + t \mid X > s) = P(X > t)
+$$
 
 ### Proof
 
@@ -224,7 +252,9 @@ So $P(T \leq t) = 1 - e^{-\lambda t}$Which is the CDF of $\mathrm{Exp}(\lambda)$
 
 For the exponential distribution:
 
-$$F(x) = 1 - e^{-\lambda x} = p \implies x = -\frac{1}{\lambda}\ln(1-p)$$
+$$
+F(x) = 1 - e^{-\lambda x} = p \implies x = -\frac{1}{\lambda}\ln(1-p)
+$$
 
 The median is
 $x_{0.5} = -\dfrac{\ln(0.5)}{\lambda} = \dfrac{\ln 2}{\lambda}$.
@@ -478,19 +508,25 @@ Section 1.5.
 
 **Theorem.** If $X \sim \mathrm{Exp}(\lambda)$ Then for all $s, t > 0$:
 
-$$P(X > s + t \mid X > s) = P(X > t)$$
+$$
+P(X > s + t \mid X > s) = P(X > t)
+$$
 
 ### Proof
 
 By definition of conditional probability:
 
-$$P(X > s + t \mid X > s) = \frac{P(X > s + t \,\cap\, X > s)}{P(X > s)} = \frac{P(X > s + t)}{P(X > s)}$$
+$$
+P(X > s + t \mid X > s) = \frac{P(X > s + t \,\cap\, X > s)}{P(X > s)} = \frac{P(X > s + t)}{P(X > s)}
+$$
 
 Since $X > s + t$ implies $X > s$.
 
 Using the survival function $S(x) = P(X > x) = e^{-\lambda x}$:
 
-$$\frac{P(X > s + t)}{P(X > s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X > t) \quad \blacksquare$$
+$$
+\frac{P(X > s + t)}{P(X > s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X > t) \quad \blacksquare
+$$
 
 ### 5.2 Converse: exponential is the only continuous memoryless distribution
 
@@ -502,16 +538,22 @@ $\lambda > 0$.
 
 Let $G(t) = P(X > t)$. The memoryless condition gives:
 
-$$G(s + t) = G(s)G(t)$$
+$$
+G(s + t) = G(s)G(t)
+$$
 
 This is Cauchy's functional equation. Since $G$ is non-increasing and $0 \leq G \leq 1$The only
 Solutions are:
 
-$$G(t) = e^{-\lambda t}$$
+$$
+G(t) = e^{-\lambda t}
+$$
 
 For some $\lambda \geq 0$. Since $G$ is non-trivial (not identically 1), $\lambda > 0$. Therefore:
 
-$$P(X \leq t) = 1 - e^{-\lambda t}$$
+$$
+P(X \leq t) = 1 - e^{-\lambda t}
+$$
 
 Which is the CDF of $\mathrm{Exp}(\lambda)$. $\blacksquare$
 
@@ -539,11 +581,15 @@ $\mathrm{Exp}(\lambda)$.
 
 Let $T$ be the time from an arbitrary starting point until the first event.
 
-$$P(T > t) = P(\mathrm{no events in }[0,t])$$
+$$
+P(T > t) = P(\mathrm{no events in }[0,t])
+$$
 
 Since the number of events in $[0,t]$ follows $\mathrm{Po}(\lambda t)$:
 
-$$P(N(t) = 0) = \frac{e^{-\lambda t}(\lambda t)^0}{0!} = e^{-\lambda t}$$
+$$
+P(N(t) = 0) = \frac{e^{-\lambda t}(\lambda t)^0}{0!} = e^{-\lambda t}
+$$
 
 Therefore $P(T \leq t) = 1 - e^{-\lambda t}$Which is the CDF of $\mathrm{Exp}(\lambda)$.
 $\blacksquare$
@@ -553,7 +599,9 @@ $\blacksquare$
 If $T_1, T_2, \ldots, T_n$ are $n$ independent inter-arrival times, each
 $\sim \mathrm{Exp}(\lambda)$ Then the total time until the $n$-th event is:
 
-$$S_n = T_1 + T_2 + \cdots + T_n \sim \mathrm{Gamma}(n, \lambda)$$
+$$
+S_n = T_1 + T_2 + \cdots + T_n \sim \mathrm{Gamma}(n, \lambda)
+$$
 
 This connects the exponential to the gamma distribution.
 
@@ -583,7 +631,9 @@ $= \dfrac{\ln 2}{\lambda} = \dfrac{\ln 2}{5} \approx 0.139\,\mathrm{hours} \appr
 
 **Definition.** $X \sim U(a, b)$ if:
 
-$$f(x) = \frac{1}{b - a}, \quad a \leq x \leq b$$
+$$
+f(x) = \frac{1}{b - a}, \quad a \leq x \leq b
+$$
 
 And $f(x) = 0$ otherwise.
 
@@ -591,19 +641,31 @@ And $f(x) = 0$ otherwise.
 
 ### Proof
 
-$$E(X) = \int_a^b x \cdot \frac{1}{b-a}\,dx = \frac{1}{b-a}\left[\frac{x^2}{2}\right]_a^b = \frac{b^2 - a^2}{2(b-a)} = \frac{(b-a)(b+a)}{2(b-a)} = \frac{a+b}{2} \quad \blacksquare$$
+$$
+E(X) = \int_a^b x \cdot \frac{1}{b-a}\,dx = \frac{1}{b-a}\left[\frac{x^2}{2}\right]_a^b = \frac{b^2 - a^2}{2(b-a)} = \frac{(b-a)(b+a)}{2(b-a)} = \frac{a+b}{2} \quad \blacksquare
+$$
 
-$$E(X^2) = \int_a^b x^2 \cdot \frac{1}{b-a}\,dx = \frac{1}{b-a}\left[\frac{x^3}{3}\right]_a^b = \frac{b^3 - a^3}{3(b-a)} = \frac{a^2 + ab + b^2}{3}$$
+$$
+E(X^2) = \int_a^b x^2 \cdot \frac{1}{b-a}\,dx = \frac{1}{b-a}\left[\frac{x^3}{3}\right]_a^b = \frac{b^3 - a^3}{3(b-a)} = \frac{a^2 + ab + b^2}{3}
+$$
 
-$$\mathrm{Var}(X) = \frac{a^2 + ab + b^2}{3} - \frac{(a+b)^2}{4} = \frac{4(a^2 + ab + b^2) - 3(a+b)^2}{12}$$
+$$
+\mathrm{Var}(X) = \frac{a^2 + ab + b^2}{3} - \frac{(a+b)^2}{4} = \frac{4(a^2 + ab + b^2) - 3(a+b)^2}{12}
+$$
 
-$$= \frac{4a^2 + 4ab + 4b^2 - 3a^2 - 6ab - 3b^2}{12} = \frac{a^2 - 2ab + b^2}{12}$$
+$$
+= \frac{4a^2 + 4ab + 4b^2 - 3a^2 - 6ab - 3b^2}{12} = \frac{a^2 - 2ab + b^2}{12}
+$$
 
-$$\boxed{\mathrm{Var}(X) = \frac{(b-a)^2}{12}} \quad \blacksquare$$
+$$
+\boxed{\mathrm{Var}(X) = \frac{(b-a)^2}{12}} \quad \blacksquare
+$$
 
 ### 7.3 CDF of the continuous uniform
 
-$$F(x) = \begin{cases} 0 & x \lt a \\ \dfrac{x - a}{b - a} & a \leq x \leq b \\ 1 & x > b \end{cases}$$
+$$
+F(x) = \begin{cases} 0 & x \lt a \\ \dfrac{x - a}{b - a} & a \leq x \leq b \\ 1 & x > b \end{cases}
+$$
 
 <hr />
 
@@ -615,11 +677,17 @@ A **mixture distribution** arises when a random variable is selected from one of
 Sub-populations. If $X$ comes from distribution 1 with probability $p$ and from distribution 2 with
 Probability $1-p$:
 
-$$f(x) = p\,f_1(x) + (1-p)\,f_2(x)$$
+$$
+f(x) = p\,f_1(x) + (1-p)\,f_2(x)
+$$
 
-$$E(X) = p\,E(X_1) + (1-p)\,E(X_2)$$
+$$
+E(X) = p\,E(X_1) + (1-p)\,E(X_2)
+$$
 
-$$\mathrm{Var}(X) = p\,\mathrm{Var}(X_1) + (1-p)\,\mathrm{Var}(X_2) + p(1-p)[E(X_1) - E(X_2)]^2$$
+$$
+\mathrm{Var}(X) = p\,\mathrm{Var}(X_1) + (1-p)\,\mathrm{Var}(X_2) + p(1-p)[E(X_1) - E(X_2)]^2
+$$
 
 The variance formula includes an extra term from the difference in means, this is the law of total
 Variance.
@@ -631,7 +699,9 @@ Producing components with lifetime $\sim \mathrm{Exp}(0.01)$. With probability 0
 Producing components with lifetime $\sim \mathrm{Exp}(0.002)$. Find the overall PDF, the expected
 Lifetime, and $P(X > 100)$.
 
-$$f(x) = 0.7(0.01\,e^{-0.01x}) + 0.3(0.002\,e^{-0.002x}) = 0.007\,e^{-0.01x} + 0.0006\,e^{-0.002x}$$
+$$
+f(x) = 0.7(0.01\,e^{-0.01x}) + 0.3(0.002\,e^{-0.002x}) = 0.007\,e^{-0.01x} + 0.0006\,e^{-0.002x}
+$$
 
 $E(X) = 0.7 \times 100 + 0.3 \times 500 = 70 + 150 = 220\,\mathrm{hours}$.
 
@@ -797,7 +867,9 @@ Hours. Given that the component has survived 150 hours, find the probability it 
 
 **Solution.** By the memoryless property of the exponential distribution:
 
-$$P(T > 150+100 \mid T > 150) = P(T > 100)$$
+$$
+P(T > 150+100 \mid T > 150) = P(T > 100)
+$$
 
 $\lambda = \dfrac{1}{200} = 0.005$.
 
@@ -820,11 +892,17 @@ $Y \sim \mathrm{Exp}(\lambda_2)$. Find $P(X < Y)$.
 
 **Solution.** Using the joint density and integration:
 
-$$P(X < Y) = \int_0^{\infty} \int_x^{\infty} \lambda_1 e^{-\lambda_1 x} \cdot \lambda_2 e^{-\lambda_2 y}\,dy\,dx$$
+$$
+P(X < Y) = \int_0^{\infty} \int_x^{\infty} \lambda_1 e^{-\lambda_1 x} \cdot \lambda_2 e^{-\lambda_2 y}\,dy\,dx
+$$
 
-$$= \int_0^{\infty} \lambda_1 e^{-\lambda_1 x} \cdot e^{-\lambda_2 x}\,dx = \lambda_1 \int_0^{\infty} e^{-(\lambda_1+\lambda_2)x}\,dx$$
+$$
+= \int_0^{\infty} \lambda_1 e^{-\lambda_1 x} \cdot e^{-\lambda_2 x}\,dx = \lambda_1 \int_0^{\infty} e^{-(\lambda_1+\lambda_2)x}\,dx
+$$
 
-$$= \frac{\lambda_1}{\lambda_1 + \lambda_2}$$
+$$
+= \frac{\lambda_1}{\lambda_1 + \lambda_2}
+$$
 
 For example, if $\lambda_1 = \lambda_2$: $P(X < Y) = \dfrac{1}{2}$ (by symmetry).
 
@@ -851,7 +929,9 @@ $\mathrm{Var}(\overline{X}) = \dfrac{100}{50} = 2$.
 
 By the CLT, $\overline{X} \approx N(10, 2)$ approximately.
 
-$$P(\overline{X} > 12) = P\!\left(Z > \frac{12-10}{\sqrt{2}}\right) = P(Z > 1.414) = 1 - 0.9214 = \boxed{0.0786}$$
+$$
+P(\overline{X} > 12) = P\!\left(Z > \frac{12-10}{\sqrt{2}}\right) = P(Z > 1.414) = 1 - 0.9214 = \boxed{0.0786}
+$$
 
 ### Example 8.6: Transformation of a continuous random variable
 
@@ -860,7 +940,9 @@ $$P(\overline{X} > 12) = P\!\left(Z > \frac{12-10}{\sqrt{2}}\right) = P(Z > 1.41
 **Solution.** For $0 < y < 1$:
 $F_Y(y) = P(Y \leq y) = P(X^2 \leq y) = P(X \leq \sqrt{y}) = (\sqrt{y})^2 = y$.
 
-$$f_Y(y) = \frac{d}{dy}F_Y(y) = \boxed{1} \quad \text{for } 0 < y < 1$$
+$$
+f_Y(y) = \frac{d}{dy}F_Y(y) = \boxed{1} \quad \text{for } 0 < y < 1
+$$
 
 So $Y \sim \mathrm{U}(0,1)$.
 
@@ -988,7 +1070,9 @@ $P(X > s+t \mid X > s) = P(X > t)$.
 <details>
 <summary>Solution</summary>
 
-$$P(X > s+t \mid X > s) = \frac{P(X > s+t)}{P(X > s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X > t)$$
+$$
+P(X > s+t \mid X > s) = \frac{P(X > s+t)}{P(X > s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X > t)
+$$
 
 $\blacksquare$
 

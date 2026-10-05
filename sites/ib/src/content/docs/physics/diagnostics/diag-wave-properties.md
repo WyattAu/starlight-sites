@@ -57,15 +57,23 @@ new intensity and amplitude at $5.0\,\text{m}$.
 
 (a) For a point source, intensity follows the inverse square law:
 
-$$I \propto \frac{1}{r^2}$$
+$$
+I \propto \frac{1}{r^2}
+$$
 
-$$\frac{I_2}{I_1} = \frac{r_1^2}{r_2^2} = \frac{4.0}{25.0}$$
+$$
+\frac{I_2}{I_1} = \frac{r_1^2}{r_2^2} = \frac{4.0}{25.0}
+$$
 
-$$I_2 = 8.0 \times 10^{-3} \times \frac{4.0}{25.0} = 1.28 \times 10^{-3}\,\text{W}\,\text{m}^{-2}$$
+$$
+I_2 = 8.0 \times 10^{-3} \times \frac{4.0}{25.0} = 1.28 \times 10^{-3}\,\text{W}\,\text{m}^{-2}
+$$
 
 (b) Intensity is proportional to amplitude squared: $I \propto A^2$.
 
-$$\frac{A_2}{A_1} = \sqrt{\frac{I_2}{I_1}} = \sqrt{\frac{4.0}{25.0}} = \frac{2.0}{5.0} = 0.40$$
+$$
+\frac{A_2}{A_1} = \sqrt{\frac{I_2}{I_1}} = \sqrt{\frac{4.0}{25.0}} = \frac{2.0}{5.0} = 0.40
+$$
 
 The amplitude at $5.0\,\text{m}$ is $0.40$ times the amplitude at $2.0\,\text{m}$.
 
@@ -74,7 +82,9 @@ $A_{\text{total}} = 2A_2$.
 
 New intensity: $I_{\text{new}} \propto (2A_2)^2 = 4A_2^2 \propto 4I_2$
 
-$$I_{\text{new}} = 4 \times 1.28 \times 10^{-3} = 5.12 \times 10^{-3}\,\text{W}\,\text{m}^{-2}$$
+$$
+I_{\text{new}} = 4 \times 1.28 \times 10^{-3} = 5.12 \times 10^{-3}\,\text{W}\,\text{m}^{-2}
+$$
 
 The amplitude doubles and the intensity quadruples, because intensity is proportional to the square
 of the amplitude.
@@ -160,7 +170,9 @@ $v = c/n = 3.0 \times 10^8 / 1.50 = 2.0 \times 10^8\,\text{m}\,\text{s}^{-1}$
 
 **Frequency is unchanged** (frequency is determined by the source and is constant across all media):
 
-$$f = \frac{c}{\lambda_0} = \frac{3.0 \times 10^8}{550 \times 10^{-9}} = 5.45 \times 10^{14}\,\text{Hz}$$
+$$
+f = \frac{c}{\lambda_0} = \frac{3.0 \times 10^8}{550 \times 10^{-9}} = 5.45 \times 10^{14}\,\text{Hz}
+$$
 
 **Wavelength in glass:** $\lambda = v/f = \lambda_0/n = 550/1.50 = 367\,\text{nm}$
 
@@ -203,28 +215,44 @@ $\phi = 2\pi \times 0.647 = 4.06\,\text{rad} = 233^\circ$.
 
 (b) Intensity from each speaker (assuming spherical spreading):
 
-$$I_A = \frac{P}{4\pi r_A^2} = \frac{0.010}{4\pi \times 9.0} = 8.84 \times 10^{-5}\,\text{W}\,\text{m}^{-2}$$
+$$
+I_A = \frac{P}{4\pi r_A^2} = \frac{0.010}{4\pi \times 9.0} = 8.84 \times 10^{-5}\,\text{W}\,\text{m}^{-2}
+$$
 
-$$I_B = \frac{P}{4\pi r_B^2} = \frac{0.010}{4\pi \times 12.25} = 6.50 \times 10^{-5}\,\text{W}\,\text{m}^{-2}$$
+$$
+I_B = \frac{P}{4\pi r_B^2} = \frac{0.010}{4\pi \times 12.25} = 6.50 \times 10^{-5}\,\text{W}\,\text{m}^{-2}
+$$
 
 The amplitudes at $P$ differ because the distances differ. The combined intensity requires the
 superposition of waves with different amplitudes and a phase difference.
 
-$$I_{\text{total}} = I_A + I_B + 2\sqrt{I_A I_B}\cos\phi$$
+$$
+I_{\text{total}} = I_A + I_B + 2\sqrt{I_A I_B}\cos\phi
+$$
 
-$$I_{\text{total}} = 8.84 \times 10^{-5} + 6.50 \times 10^{-5} + 2\sqrt{8.84 \times 6.50} \times 10^{-5} \times \cos(233^\circ)$$
+$$
+I_{\text{total}} = 8.84 \times 10^{-5} + 6.50 \times 10^{-5} + 2\sqrt{8.84 \times 6.50} \times 10^{-5} \times \cos(233^\circ)
+$$
 
-$$= 15.34 \times 10^{-5} + 2 \times 7.58 \times 10^{-5} \times (-0.602)$$
+$$
+= 15.34 \times 10^{-5} + 2 \times 7.58 \times 10^{-5} \times (-0.602)
+$$
 
-$$= 15.34 \times 10^{-5} - 9.13 \times 10^{-5} = 6.21 \times 10^{-5}\,\text{W}\,\text{m}^{-2}$$
+$$
+= 15.34 \times 10^{-5} - 9.13 \times 10^{-5} = 6.21 \times 10^{-5}\,\text{W}\,\text{m}^{-2}
+$$
 
 Sound intensity level: $\beta = 10\log_{10}(I/I_0)$ where $I_0 = 10^{-12}\,\text{W}\,\text{m}^{-2}$:
 
-$$\beta = 10\log_{10}\!\left(\frac{6.21 \times 10^{-5}}{10^{-12}}\right) = 10\log_{10}(6.21 \times 10^7) = 10 \times 7.793 = 77.9\,\text{dB}$$
+$$
+\beta = 10\log_{10}\!\left(\frac{6.21 \times 10^{-5}}{10^{-12}}\right) = 10\log_{10}(6.21 \times 10^7) = 10 \times 7.793 = 77.9\,\text{dB}
+$$
 
 (c) With one speaker disconnected, only one speaker contributes. Taking speaker $A$:
 
-$$\beta_A = 10\log_{10}\!\left(\frac{8.84 \times 10^{-5}}{10^{-12}}\right) = 10\log_{10}(8.84 \times 10^7) = 10 \times 7.946 = 79.5\,\text{dB}$$
+$$
+\beta_A = 10\log_{10}\!\left(\frac{8.84 \times 10^{-5}}{10^{-12}}\right) = 10\log_{10}(8.84 \times 10^7) = 10 \times 7.946 = 79.5\,\text{dB}
+$$
 
 Surprisingly, removing one speaker **increases** the sound level at $P$ from $77.9\,\text{dB}$ to
 $79.5\,\text{dB}$. This is because the two speakers partially destructively interfere at $P$ (phase
@@ -291,7 +319,9 @@ $\lambda/2 = 0.332\,\text{m}$ from the open end (approximately, since the resona
 (c) New resonant frequencies for a closed pipe of length $0.85\,\text{m}$ with
 $v = 350\,\text{m}\,\text{s}^{-1}$:
 
-$$f_n = \frac{(2n - 1)v}{4L} = \frac{(2n - 1) \times 350}{3.4} = (2n - 1) \times 102.9\,\text{Hz}$$
+$$
+f_n = \frac{(2n - 1)v}{4L} = \frac{(2n - 1) \times 350}{3.4} = (2n - 1) \times 102.9\,\text{Hz}
+$$
 
 - $n = 1$: $f_1 = 102.9\,\text{Hz}$
 - $n = 2$: $f_2 = 308.8\,\text{Hz}$
@@ -331,21 +361,29 @@ this demonstrates about the nature of polarisation.
 (a) **After the first filter (vertical):** The unpolarised light is polarised vertically. Intensity
 is halved:
 
-$$I_1 = \frac{I_0}{2}$$
+$$
+I_1 = \frac{I_0}{2}
+$$
 
 **After the second filter ($45^\circ$ from vertical):** Applying Malus's law:
 
-$$I_2 = I_1\cos^2 45^\circ = \frac{I_0}{2} \times \frac{1}{2} = \frac{I_0}{4}$$
+$$
+I_2 = I_1\cos^2 45^\circ = \frac{I_0}{2} \times \frac{1}{2} = \frac{I_0}{4}
+$$
 
 **After the third filter (horizontal, $90^\circ$ from vertical, $45^\circ$ from second filter's
 axis):**
 
-$$I_3 = I_2\cos^2 45^\circ = \frac{I_0}{4} \times \frac{1}{2} = \frac{I_0}{8}$$
+$$
+I_3 = I_2\cos^2 45^\circ = \frac{I_0}{4} \times \frac{1}{2} = \frac{I_0}{8}
+$$
 
 (b) **Without the middle filter:** The first filter polarises vertically, the third filter is
 horizontal ($90^\circ$ difference):
 
-$$I = \frac{I_0}{2}\cos^2 90^\circ = 0$$
+$$
+I = \frac{I_0}{2}\cos^2 90^\circ = 0
+$$
 
 No light passes through. The result is counterintuitive: removing a filter **reduces** the
 transmitted intensity from $I_0/8$ to zero.

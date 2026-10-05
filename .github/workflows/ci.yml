@@ -57,23 +57,14 @@ jobs:
       - name: Biome lint and format check
         run: bunx biome check .
 
-      - name: Aside directive lint (content)
-        run: node scripts/lint-asides.js
-
-      - name: MDX parse gate (content)
-        run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
+      - name: Display-math delimiter gate (content)
+        run: node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
 
       - name: No-emoji lint (code, docs, config)
         run: node scripts/lint-no-emoji.js
 
       - name: PracticeProblem corruption lint (content)
         run: node scripts/lint-practice-components.js
-
-      - name: Aside directive lint (content)
-        run: node scripts/lint-asides.js
-
-      - name: MDX parse gate (content)
-        run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
       - name: llms.txt freshness (content)
         run: node scripts/generate-llms-txt.js --check

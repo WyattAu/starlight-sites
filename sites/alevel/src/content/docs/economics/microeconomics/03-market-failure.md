@@ -39,7 +39,9 @@ Goods and services.
 Formally, market failure occurs when the price mechanism does not equate marginal social benefit
 With marginal social cost:
 
-$$P \neq MSC \quad \mathrm{or equivalently} \quad MSB \neq MSC$$
+$$
+P \neq MSC \quad \mathrm{or equivalently} \quad MSB \neq MSC
+$$
 
 This leads to a **deadweight welfare loss**: the total surplus (consumer + producer + third-party)
 Is not maximised.
@@ -65,13 +67,17 @@ Affects a third party who is not part of the transaction.
 
 **Negative externality**: the social cost exceeds the private cost.
 
-$$MSC = MPC + MEC$$
+$$
+MSC = MPC + MEC
+$$
 
 Where $MPC$ = marginal private cost, $MEC$ = marginal external cost.
 
 **Positive externality**: the social benefit exceeds the private benefit.
 
-$$MSB = MPB + MEB$$
+$$
+MSB = MPB + MEB
+$$
 
 Where $MPB$ = marginal private benefit, $MEB$ = marginal external benefit.
 
@@ -80,18 +86,24 @@ Where $MPB$ = marginal private benefit, $MEB$ = marginal external benefit.
 Consider a good with a negative production externality (e.g., pollution from a factory). The market
 Equilibrium is where demand (MPB) equals supply (MPC):
 
-$$\mathrm{Market equilibrium: } MPB = MPC \implies Q_{mkt}, P_{mkt}$$
+$$
+\mathrm{Market equilibrium: } MPB = MPC \implies Q_{mkt}, P_{mkt}
+$$
 
 The socially optimal outcome is where marginal social benefit equals marginal social cost:
 
-$$\mathrm{Social optimum: } MSB = MSC \implies Q^*, P^*$$
+$$
+\mathrm{Social optimum: } MSB = MSC \implies Q^*, P^*
+$$
 
 Since $MSC > MPC$ (there is an external cost), the social optimum quantity $Q^*$ is _less than_ the
 Market quantity $Q_{mkt}$. The free market **over-produces** the good.
 
 The deadweight welfare loss (DWL) is:
 
-$$\mathrm{DWL} = \frac{1}{2}(Q_{mkt} - Q^*)(MSC(Q_{mkt}) - MSB(Q_{mkt}))$$
+$$
+\mathrm{DWL} = \frac{1}{2}(Q_{mkt} - Q^*)(MSC(Q_{mkt}) - MSB(Q_{mkt}))
+$$
 
 This is the area of the triangle between the MSC and MSB curves from $Q^*$ to $Q_{mkt}$.
 
@@ -128,7 +140,9 @@ We define a **public good** as a good that is:
    consuming the good
 2. **Non-rivalrous**: one person"s consumption does not reduce the quantity available to others
 
-$$Q_{total} = Q_{individual} \quad \mathrm{(non-rivalry)}$$
+$$
+Q_{total} = Q_{individual} \quad \mathrm{(non-rivalry)}
+$$
 
 Contrast with **private goods**: excludable and rivalrous (your consumption of an apple means I
 Cannot eat it).
@@ -170,7 +184,9 @@ If buyers can distinguish quality, both types trade at mutually beneficial price
 Cannot distinguish, and 50% of cars are peaches and 50% are lemons, the **expected value** to a
 Buyer of a random car is:
 
-$$E[V] = 0.5 \times 10\,000 + 0.5 \times 6\,000 = £8\,000$$
+$$
+E[V] = 0.5 \times 10\,000 + 0.5 \times 6\,000 = £8\,000
+$$
 
 Buyers are willing to pay at most £8,000. But at this price, sellers of peaches (£8,000 value to
 Seller) will not sell, only lemons are offered. Buyers, anticipating this, revise their offer
@@ -232,14 +248,18 @@ Greater the inequality.
 
 We define the **Gini coefficient** as:
 
-$$G = \frac{A}{A + B}$$
+$$
+G = \frac{A}{A + B}
+$$
 
 Where $A$ is the area between the 45° line and the Lorenz curve, and $B$ is the area under the
 Lorenz curve.
 
 Since $A + B = \frac{1}{2}$ (area of the triangle below the 45° line):
 
-$$G = \frac{A}{A + B} = 2A = 1 - 2B$$
+$$
+G = \frac{A}{A + B} = 2A = 1 - 2B
+$$
 
 | Gini Value  | Interpretation                                       |
 | ----------- | ---------------------------------------------------- |
@@ -264,7 +284,9 @@ Students to evaluate whether intervention worsens outcomes.
 For a negative externality, the optimal **Pigouvian tax** equals the marginal external cost at the
 Socially optimal quantity:
 
-$$t^* = MEC(Q^*)$$
+$$
+t^* = MEC(Q^*)
+$$
 
 **Proof of optimality.** With a specific tax $t$ per unit, the firm's private cost becomes
 $MPC + t$. The firm produces where demand equals private cost plus tax: $MPB = MPC + t$. For this to

@@ -29,14 +29,18 @@ A laser requires three conditions:
 
 **Threshold condition:** The gain per round trip must exceed the losses:
 
-$$R_1 R_2\,e^{2gL} \geq 1$$
+$$
+R_1 R_2\,e^{2gL} \geq 1
+$$
 
 Where $R_1, R_2$ are mirror reflectivities, $g$ is the gain coefficient, and $L$ is the cavity
 length.
 
 The threshold gain:
 
-$$g_{\text{th} = -\frac{1}{2L}\ln(R_1 R_2) = \alpha_i + \alpha_m}$$
+$$
+g_{\text{th} = -\frac{1}{2L}\ln(R_1 R_2) = \alpha_i + \alpha_m}
+$$
 
 Where $\alpha_i$ is the internal loss and $\alpha_m = -\ln(R_1 R_2)/(2L)$ is the mirror loss.
 
@@ -56,7 +60,9 @@ Where $\alpha_i$ is the internal loss and $\alpha_m = -\ln(R_1 R_2)/(2L)$ is the
 
 The fundamental mode ($\text{TEM_}{00}$) of a laser cavity is a **Gaussian beam**:
 
-$$E(r, z) = E_0\frac{w_0}{w(z)}\exp\!\left(-\frac{r^2}{w(z)^2}\right)\exp\!\left(-i\left[kz + \frac{kr^2}{2R(z)} - \zeta(z)\right]\right)$$
+$$
+E(r, z) = E_0\frac{w_0}{w(z)}\exp\!\left(-\frac{r^2}{w(z)^2}\right)\exp\!\left(-i\left[kz + \frac{kr^2}{2R(z)} - \zeta(z)\right]\right)
+$$
 
 **Beam parameters:**
 
@@ -193,7 +199,9 @@ $\mathcal{F} = \pi\sqrt{R}/(1 - R) = \pi\sqrt{0.8}/(1 - 0.8) = \pi \times 0.894/
 
 (c) Minimum resolvable wavelength difference (resolution):
 
-$$\delta\lambda = \frac{\Delta\lambda_{\text{FSR}}{\mathcal{F}} = \frac{0.125}{14.1}\ \text{nm} = 0.0089\ \text{nm} = 8.9\ \text{pm}}$$
+$$
+\delta\lambda = \frac{\Delta\lambda_{\text{FSR}}{\mathcal{F}} = \frac{0.125}{14.1}\ \text{nm} = 0.0089\ \text{nm} = 8.9\ \text{pm}}
+$$
 
 This corresponds to a resolving power
 $\mathcal{R} = \lambda/\delta\lambda = 500/0.0089 \approx 56\,000$.

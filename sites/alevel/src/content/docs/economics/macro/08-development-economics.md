@@ -69,7 +69,9 @@ Always use multiple indicators.
 **GDP per capita**, total output divided by population. Adjusted for purchasing power Parity (PPP)
 to account for differences in price levels between countries.
 
-$$\mathrm{GDP per capita (PPP)} = \frac{\mathrm{GDP (PPP)}}{\mathrm{Population}}$$
+$$
+\mathrm{GDP per capita (PPP)} = \frac{\mathrm{GDP (PPP)}}{\mathrm{Population}}
+$$
 
 **GNI per capita**, GDP plus net income from abroad (remittances, profits from overseas
 Investments). The World Bank uses GNI per capita to classify countries:
@@ -85,13 +87,17 @@ Investments). The World Bank uses GNI per capita to classify countries:
 
 The HDI, published by the UNDP, is a composite index combining three dimensions:
 
-$$\mathrm{HDI} = \frac{(\mathrm{Health Index} + \mathrm{Education Index} + \mathrm{Income Index})}{3}$$
+$$
+\mathrm{HDI} = \frac{(\mathrm{Health Index} + \mathrm{Education Index} + \mathrm{Income Index})}{3}
+$$
 
 - **Health**: life expectancy at birth
 - **Education**: mean years of schooling + expected years of schooling
 - **Income**: GNI per capita (PPP, log-transformed)
 
-$$0 \leq \mathrm{HDI} \leq 1$$
+$$
+0 \leq \mathrm{HDI} \leq 1
+$$
 
 | HDI range  | Category              |
 | ---------- | --------------------- |
@@ -109,7 +115,9 @@ All the income).
 The Gini coefficient is derived from the **Lorenz curve**, which plots the cumulative share of
 Income received by the cumulative share of the population (ordered from poorest to richest).
 
-$$\mathrm{Gini} = \frac{A}{A + B}$$
+$$
+\mathrm{Gini} = \frac{A}{A + B}
+$$
 
 Where $A$ is the area between the line of perfect equality and the Lorenz curve, and $B$ is the area
 Under the Lorenz curve.
@@ -148,13 +156,17 @@ Countries.
 
 The Solow growth model explains long-run growth as a function of three factors:
 
-$$Y = A \cdot f(K, L)$$
+$$
+Y = A \cdot f(K, L)
+$$
 
 Where $Y$ = output, $K$ = capital, $L$ = labour, and $A$ = total factor productivity (technology).
 
 In per-worker terms:
 
-$$\frac{Y}{L} = A \cdot f\left(\frac{K}{L}\right)$$
+$$
+\frac{Y}{L} = A \cdot f\left(\frac{K}{L}\right)
+$$
 
 **Sources of growth:**
 
@@ -165,7 +177,9 @@ $$\frac{Y}{L} = A \cdot f\left(\frac{K}{L}\right)$$
 3. **Technological progress** ($\Delta A$): improvements in knowledge, techniques, and efficiency.
    The only source of sustained long-run growth in per capita income.
 
-$$\boxed{\mathrm{Long-run growth in } y = Y/L \mathrm{ requires technological progress}}$$
+$$
+\boxed{\mathrm{Long-run growth in } y = Y/L \mathrm{ requires technological progress}}
+$$
 
 ### 3.2 Human Capital
 
@@ -208,7 +222,9 @@ Abundant natural resources (oil, minerals) often grow more slowly than resource-
 
 The poverty trap is a self-reinforcing mechanism that prevents escape from poverty:
 
-$$\mathrm{Low income} \to \mathrm{Low savings} \to \mathrm{Low investment} \to \mathrm{Low productivity} \to \mathrm{Low income}$$
+$$
+\mathrm{Low income} \to \mathrm{Low savings} \to \mathrm{Low investment} \to \mathrm{Low productivity} \to \mathrm{Low income}
+$$
 
 Without external intervention (aid, FDI, debt relief), countries can be trapped in a low-level
 Equilibrium.
@@ -253,7 +269,9 @@ Demographic dividend (if jobs are created) or a source of instability (if not).
 Replace imports with domestic production behind tariff walls. Used in Latin America (Brazil,
 Argentina) and India (pre-1991).
 
-$$\mathrm{Tariffs} \to \mathrm{Protected domestic industries grow} \to \mathrm{Self-sufficiency}$$
+$$
+\mathrm{Tariffs} \to \mathrm{Protected domestic industries grow} \to \mathrm{Self-sufficiency}
+$$
 
 - **Advantages**: protects infant industries, reduces dependence on imports, retains foreign
   exchange.
@@ -266,7 +284,9 @@ $$\mathrm{Tariffs} \to \mathrm{Protected domestic industries grow} \to \mathrm{S
 Focus on producing goods for export. Used by East Asian "tiger" economies (South Korea, Taiwan,
 Singapore, Hong Kong).
 
-$$\mathrm{Export incentives} \to \mathrm{Access to world markets} \to \mathrm{Economies of scale} \to \mathrm{Growth}$$
+$$
+\mathrm{Export incentives} \to \mathrm{Access to world markets} \to \mathrm{Economies of scale} \to \mathrm{Growth}
+$$
 
 - **Advantages**: access to large world markets, competitive pressure drives efficiency, export
   earnings finance further investment.
@@ -341,7 +361,9 @@ Developing countries have a comparative advantage in:
 **Definition.** The **Prebisch-Singer hypothesis** states that the terms of trade for primary
 Commodity exporters tend to deteriorate relative to manufactured goods exporters over the long run.
 
-$$\frac{P_{\mathrm{primary}}}{P_{\mathrm{manufactured}}} \mathrm{ falls over time}$$
+$$
+\frac{P_{\mathrm{primary}}}{P_{\mathrm{manufactured}}} \mathrm{ falls over time}
+$$
 
 **Causes:**
 

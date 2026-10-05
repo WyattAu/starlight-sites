@@ -29,7 +29,9 @@ categories:
 
 2. **First Law:** Energy is conserved. For a closed system:
 
-   $$dU = \delta q + \delta w$$
+   $$
+   dU = \delta q + \delta w
+   $$
 
    where $U$ is internal energy, $q$ is heat, and $w$ is work. The notation $\delta$ indicates
    inexact differentials: $q$ and $w$ are path-dependent, but $U$ is a state function.
@@ -38,23 +40,33 @@ categories:
 
 For a reversible expansion of an ideal gas against an external pressure:
 
-$$\delta w_{\text{rev}} = -P\,dV$$
+$$
+\delta w_{\text{rev}} = -P\,dV
+$$
 
-$$w_{\text{rev}} = -\int_{V_i}^{V_f} P\,dV = -nRT\ln\frac{V_f}{V_i}$$
+$$
+w_{\text{rev}} = -\int_{V_i}^{V_f} P\,dV = -nRT\ln\frac{V_f}{V_i}
+$$
 
 ### 1.3 Enthalpy
 
 **Definition 1 (Enthalpy):** The enthalpy $H$ is defined as:
 
-$$H = U + PV$$
+$$
+H = U + PV
+$$
 
 For a process at constant pressure:
 
-$$dH = dU + P\,dV + V\,dP = \delta q_p + V\,dP \implies \Delta H = q_p$$
+$$
+dH = dU + P\,dV + V\,dP = \delta q_p + V\,dP \implies \Delta H = q_p
+$$
 
 The molar heat capacities relate to enthalpy and internal energy:
 
-$$C_p = \left(\frac{\partial H}{\partial T}\right)_P, \quad C_V = \left(\frac{\partial U}{\partial T}\right)_V$$
+$$
+C_p = \left(\frac{\partial H}{\partial T}\right)_P, \quad C_V = \left(\frac{\partial U}{\partial T}\right)_V
+$$
 
 For an ideal gas: $C_p - C_V = nR$.
 
@@ -64,12 +76,16 @@ For an ideal gas: $C_p - C_V = nR$.
 
 **Theorem 1 (Clausius Inequality):** For any cyclic process:
 
-$$\oint \frac{\delta q}{T} \leq 0$$
+$$
+\oint \frac{\delta q}{T} \leq 0
+$$
 
 Equality holds only for reversible processes. This implies the existence of a state function $S$
 (entropy) such that:
 
-$$dS \geq \frac{\delta q}{T}$$
+$$
+dS \geq \frac{\delta q}{T}
+$$
 
 For a spontaneous (irreversible) process in an isolated system: $dS > 0$.
 
@@ -77,15 +93,21 @@ For a spontaneous (irreversible) process in an isolated system: $dS > 0$.
 
 For a reversible process at temperature $T$:
 
-$$\Delta S = \int_{T_1}^{T_2} \frac{C}{T}\,dT$$
+$$
+\Delta S = \int_{T_1}^{T_2} \frac{C}{T}\,dT
+$$
 
 **Entropy of phase transition:** At the transition temperature $T_{\text{trs}}$:
 
-$$\Delta_{\text{trs}}S = \frac{\Delta_{\text{trs}}H}{T_{\text{trs}}}$$
+$$
+\Delta_{\text{trs}}S = \frac{\Delta_{\text{trs}}H}{T_{\text{trs}}}
+$$
 
 **Example 1:** Calculate $\Delta S$ when 2 mol of ice melts at 273 K ($\Delta_{\text{fus}}H = 6.01$ kJ/mol).
 
-$$\Delta S = \frac{n\,\Delta_{\text{fus}}H}{T} = \frac{2 \times 6010}{273} = 44.0 \text{ J/K}$$
+$$
+\Delta S = \frac{n\,\Delta_{\text{fus}}H}{T} = \frac{2 \times 6010}{273} = 44.0 \text{ J/K}
+$$
 
 $\blacksquare$
 
@@ -93,23 +115,31 @@ $\blacksquare$
 
 **Theorem 2 (Boltzmann Entropy):**
 
-$$S = k_B \ln W$$
+$$
+S = k_B \ln W
+$$
 
 where $W$ is the number of microstates and $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
 
 For $N$ distinguishable particles with $n_i$ in each energy level $\varepsilon_i$:
 
-$$W = \frac{N!}{n_1!\,n_2!\,\cdots}$$
+$$
+W = \frac{N!}{n_1!\,n_2!\,\cdots}
+$$
 
 The entropy of mixing two ideal gases:
 
-$$\Delta_{\text{mix}}S = -nR\left(x_A \ln x_A + x_B \ln x_B\right)$$
+$$
+\Delta_{\text{mix}}S = -nR\left(x_A \ln x_A + x_B \ln x_B\right)
+$$
 
 ### 2.4 The Third Law
 
 **Theorem 3 (Third Law of Thermodynamics):** The entropy of a perfect crystal at absolute zero is zero:
 
-$$\lim_{T \to 0} S = 0$$
+$$
+\lim_{T \to 0} S = 0
+$$
 
 This provides a reference point for absolute entropies (standard molar entropies $S^\circ$).
 
@@ -119,15 +149,23 @@ This provides a reference point for absolute entropies (standard molar entropies
 
 **Definition 2 (Helmholtz Free Energy):**
 
-$$A = U - TS$$
+$$
+A = U - TS
+$$
 
-$$dA = -S\,dT - P\,dV$$
+$$
+dA = -S\,dT - P\,dV
+$$
 
 **Definition 3 (Gibbs Free Energy):**
 
-$$G = H - TS = U + PV - TS$$
+$$
+G = H - TS = U + PV - TS
+$$
 
-$$dG = -S\,dT + V\,dP$$
+$$
+dG = -S\,dT + V\,dP
+$$
 
 At constant $T$ and $P$: $\Delta G = w_{\text{non-PV}}$, so the Gibbs free energy change equals the
 maximum non-expansion work.
@@ -144,16 +182,26 @@ maximum non-expansion work.
 
 The four fundamental equations of thermodynamics (for closed systems of constant composition):
 
-$$dU = T\,dS - P\,dV$$
-$$dH = T\,dS + V\,dP$$
-$$dA = -S\,dT - P\,dV$$
-$$dG = -S\,dT + V\,dP$$
+$$
+dU = T\,dS - P\,dV
+$$
+$$
+dH = T\,dS + V\,dP
+$$
+$$
+dA = -S\,dT - P\,dV
+$$
+$$
+dG = -S\,dT + V\,dP
+$$
 
 ### 3.4 Chemical Potential
 
 **Definition 4 (Chemical Potential):** For an open system with $k$ components:
 
-$$dG = -S\,dT + V\,dP + \sum_{i=1}^{k} \mu_i\,dn_i$$
+$$
+dG = -S\,dT + V\,dP + \sum_{i=1}^{k} \mu_i\,dn_i
+$$
 
 where $\mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_{j\neq i}}$ is the chemical potential
 of component $i$.
@@ -167,10 +215,18 @@ For an ideal gas: $\mu = \mu^\circ + RT\ln\frac{P}{P^\circ}$.
 **Theorem 4 (Maxwell Relations):** Since $U$, $H$, $A$, $G$ are state functions, their mixed second
 partial derivatives are equal:
 
-$$\left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial P}{\partial S}\right)_V$$
-$$\left(\frac{\partial T}{\partial P}\right)_S = \left(\frac{\partial V}{\partial S}\right)_P$$
-$$\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V$$
-$$\left(\frac{\partial S}{\partial P}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_P$$
+$$
+\left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial P}{\partial S}\right)_V
+$$
+$$
+\left(\frac{\partial T}{\partial P}\right)_S = \left(\frac{\partial V}{\partial S}\right)_P
+$$
+$$
+\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V
+$$
+$$
+\left(\frac{\partial S}{\partial P}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_P
+$$
 
 ### 4.2 Applications
 
@@ -178,7 +234,9 @@ Using the Maxwell relation $\left(\frac{\partial S}{\partial V}\right)_T = \left
 
 For an ideal gas: $\left(\frac{\partial P}{\partial T}\right)_V = \frac{nR}{V}$, so:
 
-$$\Delta S = \int_{V_1}^{V_2} \frac{nR}{V}\,dV = nR\ln\frac{V_2}{V_1}$$
+$$
+\Delta S = \int_{V_1}^{V_2} \frac{nR}{V}\,dV = nR\ln\frac{V_2}{V_1}
+$$
 
 ## 5. Gibbs-Helmholtz Equation
 
@@ -186,11 +244,15 @@ $$\Delta S = \int_{V_1}^{V_2} \frac{nR}{V}\,dV = nR\ln\frac{V_2}{V_1}$$
 
 **Theorem 5 (Gibbs-Helmholtz Equation):**
 
-$$\left[\frac{\partial(G/T)}{\partial T}\right]_P = -\frac{H}{T^2}$$
+$$
+\left[\frac{\partial(G/T)}{\partial T}\right]_P = -\frac{H}{T^2}
+$$
 
 Equivalently:
 
-$$\frac{\Delta G_2}{T_2} - \frac{\Delta G_1}{T_1} = -\Delta H\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\frac{\Delta G_2}{T_2} - \frac{\Delta G_1}{T_1} = -\Delta H\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 (approximate form when $\Delta H$ is constant over the temperature range).
 
@@ -200,26 +262,38 @@ $$\frac{\Delta G_2}{T_2} - \frac{\Delta G_1}{T_1} = -\Delta H\left(\frac{1}{T_2}
 
 At phase equilibrium between two phases $\alpha$ and $\beta$:
 
-$$\mu_\alpha(T, P) = \mu_\beta(T, P)$$
+$$
+\mu_\alpha(T, P) = \mu_\beta(T, P)
+$$
 
 Differentiating along the coexistence curve:
 
-$$d\mu_\alpha = d\mu_\beta \implies -S_\alpha\,dT + V_\alpha\,dP = -S_\beta\,dT + V_\beta\,dP$$
+$$
+d\mu_\alpha = d\mu_\beta \implies -S_\alpha\,dT + V_\alpha\,dP = -S_\beta\,dT + V_\beta\,dP
+$$
 
-$$\frac{dP}{dT} = \frac{\Delta_{\text{trs}}S}{\Delta_{\text{trs}}V} = \frac{\Delta_{\text{trs}}H}{T\,\Delta_{\text{trs}}V}$$
+$$
+\frac{dP}{dT} = \frac{\Delta_{\text{trs}}S}{\Delta_{\text{trs}}V} = \frac{\Delta_{\text{trs}}H}{T\,\Delta_{\text{trs}}V}
+$$
 
 ### 6.2 The Integrated Form
 
 For liquid-vapor equilibrium, assuming $\Delta_{\text{vap}}H$ is constant and $V_g \gg V_l$:
 
-$$\ln\frac{P_2}{P_1} = -\frac{\Delta_{\text{vap}}H}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{P_2}{P_1} = -\frac{\Delta_{\text{vap}}H}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 **Example 2:** The normal boiling point of benzene is 353 K with $\Delta_{\text{vap}}H = 30.8$ kJ/mol.
 Find the vapor pressure at 298 K.
 
-$$\ln\frac{P}{1.013 \times 10^5} = -\frac{30800}{8.314}\left(\frac{1}{298} - \frac{1}{353}\right) = -1.93$$
+$$
+\ln\frac{P}{1.013 \times 10^5} = -\frac{30800}{8.314}\left(\frac{1}{298} - \frac{1}{353}\right) = -1.93
+$$
 
-$$P = 1.013 \times 10^5 \times e^{-1.93} = 1.47 \times 10^4 \text{ Pa} \approx 14.7 \text{ kPa}$$
+$$
+P = 1.013 \times 10^5 \times e^{-1.93} = 1.47 \times 10^4 \text{ Pa} \approx 14.7 \text{ kPa}
+$$
 
 $\blacksquare$
 
@@ -229,7 +303,9 @@ $\blacksquare$
 
 **Theorem 6 (Gibbs Phase Rule):** For a system with $C$ components and $P$ phases at equilibrium:
 
-$$F = C - P + 2$$
+$$
+F = C - P + 2
+$$
 
 where $F$ is the number of degrees of freedom (intensive variables that can be independently varied).
 
@@ -254,7 +330,9 @@ For binary mixtures, common diagrams include:
 **Definition 5 (Lever Rule):** For a two-phase region with phases $\alpha$ and $\beta$ at overall
 composition $x$:
 
-$$\frac{n_\alpha}{n_\beta} = \frac{x_\beta - x}{x - x_\alpha}$$
+$$
+\frac{n_\alpha}{n_\beta} = \frac{x_\beta - x}{x - x_\alpha}
+$$
 
 ## 8. Chemical Equilibrium
 
@@ -262,25 +340,35 @@ $$\frac{n_\alpha}{n_\beta} = \frac{x_\beta - x}{x - x_\alpha}$$
 
 At equilibrium, $\Delta_r G = 0$, giving:
 
-$$\Delta_r G^\circ = -RT\ln K$$
+$$
+\Delta_r G^\circ = -RT\ln K
+$$
 
 For the reaction $aA + bB \rightleftharpoons cC + dD$:
 
-$$K = \frac{a_C^c\,a_D^d}{a_A^a\,a_B^b}$$
+$$
+K = \frac{a_C^c\,a_D^d}{a_A^a\,a_B^b}
+$$
 
 where $a_i$ are activities. For ideal gases: $a_i = P_i/P^\circ$, so:
 
-$$K_p = \frac{(P_C/P^\circ)^c\,(P_D/P^\circ)^d}{(P_A/P^\circ)^a\,(P_B/P^\circ)^b}$$
+$$
+K_p = \frac{(P_C/P^\circ)^c\,(P_D/P^\circ)^d}{(P_A/P^\circ)^a\,(P_B/P^\circ)^b}
+$$
 
 ### 8.2 van't Hoff Equation
 
 **Theorem 7 (van't Hoff Equation):** The temperature dependence of the equilibrium constant:
 
-$$\frac{d\ln K}{dT} = \frac{\Delta_r H^\circ}{RT^2}$$
+$$
+\frac{d\ln K}{dT} = \frac{\Delta_r H^\circ}{RT^2}
+$$
 
 Integrated form (assuming $\Delta_r H^\circ$ is constant):
 
-$$\ln\frac{K_2}{K_1} = -\frac{\Delta_r H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{K_2}{K_1} = -\frac{\Delta_r H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 ### 8.3 Le Chatelier's Principle
 
@@ -298,7 +386,9 @@ the system shifts to partially counteract the change.
 **Theorem 8 (Hess's Law):** The enthalpy change for a reaction is independent of the pathway; it equals
 the sum of enthalpy changes for any series of steps into which the reaction can be divided.
 
-$$\Delta_r H = \sum \Delta_f H^\circ(\text{products}) - \sum \Delta_f H^\circ(\text{reactants})$$
+$$
+\Delta_r H = \sum \Delta_f H^\circ(\text{products}) - \sum \Delta_f H^\circ(\text{reactants})
+$$
 
 ### 9.2 Standard Enthalpies
 
@@ -312,7 +402,9 @@ $$\Delta_r H = \sum \Delta_f H^\circ(\text{products}) - \sum \Delta_f H^\circ(\t
 
 **Theorem 9 (Kirchhoff's Law):** Temperature dependence of reaction enthalpy:
 
-$$\frac{d\Delta_r H^\circ}{dT} = \Delta_r C_p^\circ$$
+$$
+\frac{d\Delta_r H^\circ}{dT} = \Delta_r C_p^\circ
+$$
 
 ## 10. Partial Molar Quantities and Mixing
 
@@ -320,17 +412,23 @@ $$\frac{d\Delta_r H^\circ}{dT} = \Delta_r C_p^\circ$$
 
 **Definition 7 (Partial Molar Volume):** The partial molar volume of component $i$:
 
-$$V_i = \left(\frac{\partial V}{\partial n_i}\right)_{T,P,n_{j\neq i}}$$
+$$
+V_i = \left(\frac{\partial V}{\partial n_i}\right)_{T,P,n_{j\neq i}}
+$$
 
 The total volume of a mixture:
 
-$$V = \sum_i n_i V_i$$
+$$
+V = \sum_i n_i V_i
+$$
 
 ### 10.2 Gibbs-Duhem Equation
 
 **Theorem 10 (Gibbs-Duhem Equation):** At constant $T$ and $P$:
 
-$$\sum_i n_i\,d\mu_i = 0$$
+$$
+\sum_i n_i\,d\mu_i = 0
+$$
 
 For a binary mixture: $n_A\,d\mu_A + n_B\,d\mu_B = 0$.
 
@@ -338,12 +436,16 @@ For a binary mixture: $n_A\,d\mu_A + n_B\,d\mu_B = 0$.
 
 For a real solution, the chemical potential is:
 
-$$\mu_i = \mu_i^\circ + RT\ln a_i = \mu_i^\circ + RT\ln(\gamma_i\,x_i)$$
+$$
+\mu_i = \mu_i^\circ + RT\ln a_i = \mu_i^\circ + RT\ln(\gamma_i\,x_i)
+$$
 
 where $\gamma_i$ is the activity coefficient and $x_i$ is the mole fraction. For ideal solutions
 ($\gamma_i = 1$):
 
-$$\mu_i = \mu_i^\circ + RT\ln x_i$$
+$$
+\mu_i = \mu_i^\circ + RT\ln x_i
+$$
 
 ## 11. Carnot Cycle for Chemical Systems
 
@@ -352,7 +454,9 @@ $$\mu_i = \mu_i^\circ + RT\ln x_i$$
 **Theorem 11 (Carnot Efficiency):** A heat engine operating between hot reservoir $T_h$ and cold
 reservoir $T_c$:
 
-$$\eta = 1 - \frac{T_c}{T_h}$$
+$$
+\eta = 1 - \frac{T_c}{T_h}
+$$
 
 This is the maximum possible efficiency for any engine operating between these temperatures.
 
@@ -367,7 +471,9 @@ This is the maximum possible efficiency for any engine operating between these t
 
 For a real gas undergoing throttling (isenthalpic expansion):
 
-$$\mu_{JT} = \left(\frac{\partial T}{\partial P}\right)_H = \frac{1}{C_p}\left[\frac{2a}{RT} - b\right]$$
+$$
+\mu_{JT} = \left(\frac{\partial T}{\partial P}\right)_H = \frac{1}{C_p}\left[\frac{2a}{RT} - b\right]
+$$
 
 For an ideal gas: $\mu_{JT} = 0$ (no temperature change on throttling).
 
@@ -375,11 +481,15 @@ For an ideal gas: $\mu_{JT} = 0$ (no temperature change on throttling).
 
 For a reversible adiabatic process with an ideal gas ($\gamma = C_p/C_V$):
 
-$$TV^{\gamma-1} = \text{const}, \quad PV^\gamma = \text{const}$$
+$$
+TV^{\gamma-1} = \text{const}, \quad PV^\gamma = \text{const}
+$$
 
 Work done:
 
-$$w = \frac{nR(T_2 - T_1)}{\gamma - 1}$$
+$$
+w = \frac{nR(T_2 - T_1)}{\gamma - 1}
+$$
 
 ## 13. Fugacity and Activity
 
@@ -387,7 +497,9 @@ $$w = \frac{nR(T_2 - T_1)}{\gamma - 1}$$
 
 **Definition 8 (Fugacity):** For a real gas:
 
-$$\mu = \mu^\circ + RT\ln\left(\frac{f}{P^\circ}\right)$$
+$$
+\mu = \mu^\circ + RT\ln\left(\frac{f}{P^\circ}\right)
+$$
 
 where $f = \phi P$ and $\phi$ is the fugacity coefficient. As $P \to 0$, $f \to P$ and $\phi \to 1$.
 
@@ -395,11 +507,15 @@ where $f = \phi P$ and $\phi$ is the fugacity coefficient. As $P \to 0$, $f \to 
 
 For condensed phases:
 
-$$a_i = \frac{f_i}{f_i^\circ} \approx \gamma_i\,x_i$$
+$$
+a_i = \frac{f_i}{f_i^\circ} \approx \gamma_i\,x_i
+$$
 
 The equilibrium constant in terms of activities:
 
-$$K = \prod_i a_i^{\nu_i}$$
+$$
+K = \prod_i a_i^{\nu_i}
+$$
 
 ## Common Pitfalls
 

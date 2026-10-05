@@ -63,7 +63,9 @@ Iterations.
 <details>
 <summary>Example: Convert $1A3_{16}$ to denary</summary>
 
-$$1 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 256 + 160 + 3 = 419_{10}$$
+$$
+1 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 256 + 160 + 3 = 419_{10}
+$$
 
 </details>
 
@@ -86,7 +88,9 @@ $N = d_0 + d_1 b + \cdots + d_{k-1}b^{k-1} + b^k \cdot N_k$ where $N_k = \lfloor
 The next step computes $d_k = N_k \bmod b$ and $N_{k+1} = \lfloor N_k / b \rfloor$Giving
 $N_k = d_k + b \cdot N_{k+1}$. Substituting:
 
-$$N = \sum_{i=0}^{k-1} d_i b^i + b^k(d_k + b \cdot N_{k+1}) = \sum_{i=0}^{k} d_i b^i + b^{k+1} N_{k+1}$$
+$$
+N = \sum_{i=0}^{k-1} d_i b^i + b^k(d_k + b \cdot N_{k+1}) = \sum_{i=0}^{k} d_i b^i + b^{k+1} N_{k+1}
+$$
 
 This maintains the invariant. When $N_k = 0$The representation is complete.
 
@@ -200,12 +204,16 @@ Bits.
 
 For an $n$-bit two's complement representation, the range of representable integers is:
 
-$$[-2^{n-1},\ 2^{n-1} - 1]$$
+$$
+[-2^{n-1},\ 2^{n-1} - 1]
+$$
 
 The representation of a non-negative integer $x$ is its standard $n$-bit binary Representation. The
 representation of a negative integer $-x$ (where $x \gt 0$) is:
 
-$$\mathrm{TwosComp}_n(-x) = 2^n - x$$
+$$
+\mathrm{TwosComp}_n(-x) = 2^n - x
+$$
 
 ### Derivation: Why $\bar{x} + 1$ Works
 
@@ -217,11 +225,15 @@ $n$-bit representation of $x$ And $+1$ is binary addition).
 $\bar{x}$ has bits $\bar{x}_{n-1}\ldots\bar{x}_0$Where $\bar{x}_i = 1 - x_i$. The value of $\bar{x}$
 as an unsigned $n$-bit number is:
 
-$$\bar{x} = \sum_{i=0}^{n-1}(1 - x_i) \cdot 2^i = \sum_{i=0}^{n-1} 2^i - \sum_{i=0}^{n-1} x_i \cdot 2^i = (2^n - 1) - x$$
+$$
+\bar{x} = \sum_{i=0}^{n-1}(1 - x_i) \cdot 2^i = \sum_{i=0}^{n-1} 2^i - \sum_{i=0}^{n-1} x_i \cdot 2^i = (2^n - 1) - x
+$$
 
 Therefore:
 
-$$\bar{x} + 1 = (2^n - 1) - x + 1 = 2^n - x$$
+$$
+\bar{x} + 1 = (2^n - 1) - x + 1 = 2^n - x
+$$
 
 This is exactly the definition of the two's complement of $-x$. $\square$
 
@@ -229,7 +241,9 @@ This is exactly the definition of the two's complement of $-x$. $\square$
 
 **Proof.**
 
-$$x + (\bar{x} + 1) = x + 2^n - x = 2^n$$
+$$
+x + (\bar{x} + 1) = x + 2^n - x = 2^n
+$$
 
 In $n$ bits, $2^n$ is represented as $00\ldots0$ with a carry out of bit position $n-1$Which is
 Discarded. Hence the result is $0$. $\square$
@@ -305,7 +319,9 @@ Number of bits for the fractional part.
 
 For an $n$-bit number with $m$ integer bits and $f$ fractional bits ($n = m + f$):
 
-$$N = \sum_{i=0}^{m-1} b_i \cdot 2^i + \sum_{j=1}^{f} b_{m+j-1} \cdot 2^{-j}$$
+$$
+N = \sum_{i=0}^{m-1} b_i \cdot 2^i + \sum_{j=1}^{f} b_{m+j-1} \cdot 2^{-j}
+$$
 
 Where $b_0$ is the LSB of the integer part and $b_{m+f-1}$ is the MSB.
 

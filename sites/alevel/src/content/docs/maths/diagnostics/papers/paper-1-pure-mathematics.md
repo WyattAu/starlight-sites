@@ -53,7 +53,9 @@ are awarded for method as well as final answer.
 
 Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$Find the exact value of:
 
-$$\frac{a^{\frac{3}{2}} - a^{-\frac{3}{2}}}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}}$$
+$$
+\frac{a^{\frac{3}{2}} - a^{-\frac{3}{2}}}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}}
+$$
 
 ### Q2 [7 marks], Quadratics
 
@@ -61,13 +63,17 @@ The roots of the equation $2x^2 - 5x + 1 = 0$ are $\alpha$ and $\beta$.
 
 Without finding the numerical values of $\alpha$ and $\beta$Find the value of:
 
-$$\frac{1}{\alpha^2 + 1} + \frac{1}{\beta^2 + 1}$$
+$$
+\frac{1}{\alpha^2 + 1} + \frac{1}{\beta^2 + 1}
+$$
 
 ### Q3 [7 marks], Equations and Inequalities
 
 Solve the inequality:
 
-$$\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0$$
+$$
+\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0
+$$
 
 State your answer using set notation, identifying all excluded values.
 
@@ -92,7 +98,9 @@ Given $f(x) = \sqrt{2x - 1}$ and $g(x) = \frac{1}{x - 3}$:
 
 Evaluate the sum:
 
-$$S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}$$
+$$
+S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}
+$$
 
 Express your answer in terms of $n$ And hence find $\lim_{n \to \infty} S_n$.
 
@@ -100,7 +108,9 @@ Express your answer in terms of $n$ And hence find $\lim_{n \to \infty} S_n$.
 
 Find the coefficient of $x^4$ in the expansion of:
 
-$$\frac{(1 + 2x)^5}{(1 - x)^3}$$
+$$
+\frac{(1 + 2x)^5}{(1 - x)^3}
+$$
 
 ### Q8 [8 marks], Trigonometry
 
@@ -195,11 +205,15 @@ $x_3$. Describe the behaviour of the iteration.
 **Key observation:** The numerator $a^{3/2} - a^{-3/2}$ can be factorised using the difference of
 cubes identity $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$ with $x = a^{1/2}$ and $y = a^{-1/2}$:
 
-$$a^{\frac{3}{2}} - a^{-\frac{3}{2}} = \left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)$$
+$$
+a^{\frac{3}{2}} - a^{-\frac{3}{2}} = \left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)
+$$
 
 Therefore the expression simplifies to:
 
-$$\frac{\left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}} = a + 1 + a^{-1}$$
+$$
+\frac{\left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}} = a + 1 + a^{-1}
+$$
 
 Provided $a^{1/2} - a^{-1/2} \neq 0$I.e. $a \neq 1$. (If $a = 1$The given condition would give
 $2 = 5$A contradiction, so $a \neq 1$ is guaranteed.)
@@ -208,13 +222,19 @@ $2 = 5$A contradiction, so $a \neq 1$ is guaranteed.)
 
 We are given $a^{1/2} + a^{-1/2} = 5$. Squaring both sides:
 
-$$a + 2 + a^{-1} = 25$$
+$$
+a + 2 + a^{-1} = 25
+$$
 
-$$a + a^{-1} = 23$$
+$$
+a + a^{-1} = 23
+$$
 
 **Step 3: Compute the final answer.**
 
-$$a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24$$
+$$
+a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24
+$$
 
 ---
 
@@ -231,23 +251,33 @@ $$a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24$$
 
 **Step 1: State Vieta"s formulas.**
 
-$$\alpha + \beta = \frac{5}{2}, \quad \alpha\beta = \frac{1}{2}$$
+$$
+\alpha + \beta = \frac{5}{2}, \quad \alpha\beta = \frac{1}{2}
+$$
 
 **Step 2: Simplify the target expression.**
 
-$$\frac{1}{\alpha^2+1} + \frac{1}{\beta^2+1} = \frac{(\beta^2+1) + (\alpha^2+1)}{(\alpha^2+1)(\beta^2+1)} = \frac{\alpha^2 + \beta^2 + 2}{\alpha^2\beta^2 + \alpha^2 + \beta^2 + 1}$$
+$$
+\frac{1}{\alpha^2+1} + \frac{1}{\beta^2+1} = \frac{(\beta^2+1) + (\alpha^2+1)}{(\alpha^2+1)(\beta^2+1)} = \frac{\alpha^2 + \beta^2 + 2}{\alpha^2\beta^2 + \alpha^2 + \beta^2 + 1}
+$$
 
 **Step 3: Express $\alpha^2 + \beta^2$ using Vieta's.**
 
-$$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{25}{4} - 1 = \frac{21}{4}$$
+$$
+\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{25}{4} - 1 = \frac{21}{4}
+$$
 
 **Step 4: Compute $\alpha^2\beta^2$.**
 
-$$\alpha^2\beta^2 = (\alpha\beta)^2 = \frac{1}{4}$$
+$$
+\alpha^2\beta^2 = (\alpha\beta)^2 = \frac{1}{4}
+$$
 
 **Step 5: Substitute into the expression.**
 
-$$\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} + \frac{8}{4}}{\frac{1}{4} + \frac{21}{4} + \frac{4}{4}} = \frac{\frac{29}{4}}{\frac{26}{4}} = \frac{29}{26}$$
+$$
+\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} + \frac{8}{4}}{\frac{1}{4} + \frac{21}{4} + \frac{4}{4}} = \frac{\frac{29}{4}}{\frac{26}{4}} = \frac{29}{26}
+$$
 
 ---
 
@@ -293,7 +323,9 @@ Excluded values: $x = -3$ (denominator zero) and $x = 2$ (denominator zero).
 
 The expression is non-negative when $x \lt -3$, $1 \leq x \lt 2$Or $x \gt 2$.
 
-$$x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)$$
+$$
+x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)
+$$
 
 ---
 
@@ -399,11 +431,15 @@ excluded value of $g$ (which is $3$). The former is much more restrictive.
 
 We seek constants $A$, $B$, $C$ such that:
 
-$$\frac{1}{r(r+1)(r+2)} = \frac{A}{r} + \frac{B}{r+1} + \frac{C}{r+2}$$
+$$
+\frac{1}{r(r+1)(r+2)} = \frac{A}{r} + \frac{B}{r+1} + \frac{C}{r+2}
+$$
 
 Multiplying through by $r(r+1)(r+2)$:
 
-$$1 = A(r+1)(r+2) + Br(r+2) + Cr(r+1)$$
+$$
+1 = A(r+1)(r+2) + Br(r+2) + Cr(r+1)
+$$
 
 Substituting $r = 0$: $1 = A(1)(2) \implies A = \frac{1}{2}$.
 
@@ -413,7 +449,9 @@ Substituting $r = -2$: $1 = C(-2)(-1) \implies C = \frac{1}{2}$.
 
 **Step 2: Verify.**
 
-$$\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2} = \frac{(r+1)(r+2) - 2r(r+2) + r(r+1)}{2r(r+1)(r+2)}$$
+$$
+\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2} = \frac{(r+1)(r+2) - 2r(r+2) + r(r+1)}{2r(r+1)(r+2)}
+$$
 
 Numerator: $(r^2 + 3r + 2) + (-2r^2 - 4r) + (r^2 + r) = 0 + 0 + 2 = 2$.
 
@@ -421,25 +459,37 @@ So the fraction is $\frac{2}{2r(r+1)(r+2)} = \frac{1}{r(r+1)(r+2)}$. Confirmed.
 
 **Step 3: Write out the telescoping sum.**
 
-$$S_n = \sum_{r=1}^{n}\left(\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2}\right)$$
+$$
+S_n = \sum_{r=1}^{n}\left(\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2}\right)
+$$
 
-$$= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=1}^{n}\frac{1}{r+1} + \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r+2}$$
+$$
+= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=1}^{n}\frac{1}{r+1} + \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r+2}
+$$
 
 Re-indexing:
 
-$$= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=2}^{n+1}\frac{1}{r} + \frac{1}{2}\sum_{r=3}^{n+2}\frac{1}{r}$$
+$$
+= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=2}^{n+1}\frac{1}{r} + \frac{1}{2}\sum_{r=3}^{n+2}\frac{1}{r}
+$$
 
 The $\sum_{r=3}^{n}\frac{1}{r}$ terms cancel (coefficient: $\frac{1}{2} - 1 + \frac{1}{2} = 0$).
 
 Remaining terms:
 
-$$\frac{1}{2} + \frac{1}{4} - \frac{1}{2} - \frac{1}{n+1} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}$$
+$$
+\frac{1}{2} + \frac{1}{4} - \frac{1}{2} - \frac{1}{n+1} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}
+$$
 
-$$= \frac{1}{4} + \frac{1}{2(n+2)}$$
+$$
+= \frac{1}{4} + \frac{1}{2(n+2)}
+$$
 
 **Step 4: Find the limit.**
 
-$$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
+$$
+\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}
+$$
 
 ---
 
@@ -456,19 +506,29 @@ $$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
 
 **Step 1: Expand the numerator.**
 
-$$(1 + 2x)^5 = \sum_{r=0}^{5} \binom{5}{r} (2x)^r = 1 + 10x + 40x^2 + 80x^3 + 80x^4 + 32x^5$$
+$$
+(1 + 2x)^5 = \sum_{r=0}^{5} \binom{5}{r} (2x)^r = 1 + 10x + 40x^2 + 80x^3 + 80x^4 + 32x^5
+$$
 
 **Step 2: Expand the denominator using the general binomial theorem.**
 
-$$(1 - x)^{-3} = \sum_{s=0}^{\infty} \binom{-3}{s}(-x)^s$$
+$$
+(1 - x)^{-3} = \sum_{s=0}^{\infty} \binom{-3}{s}(-x)^s
+$$
 
-$$\binom{-3}{s} = \frac{(-1)^s (s+2)!}{2! \cdot s!} = (-1)^s \binom{s+2}{2}$$
+$$
+\binom{-3}{s} = \frac{(-1)^s (s+2)!}{2! \cdot s!} = (-1)^s \binom{s+2}{2}
+$$
 
 Therefore:
 
-$$(1-x)^{-3} = \sum_{s=0}^{\infty} (-1)^s \binom{s+2}{2} (-x)^s = \sum_{s=0}^{\infty} \binom{s+2}{2} x^s$$
+$$
+(1-x)^{-3} = \sum_{s=0}^{\infty} (-1)^s \binom{s+2}{2} (-x)^s = \sum_{s=0}^{\infty} \binom{s+2}{2} x^s
+$$
 
-$$= 1 + 3x + 6x^2 + 10x^3 + 15x^4 + 21x^5 + \cdots$$
+$$
+= 1 + 3x + 6x^2 + 10x^3 + 15x^4 + 21x^5 + \cdots
+$$
 
 **Step 3: Multiply the series and extract the $x^4$ coefficient.**
 
@@ -516,13 +576,17 @@ All six values are in $[0, 6\pi)$ since $\frac{17\pi}{3} = 5\frac{2}{3}\pi \lt 6
 
 Dividing by 3:
 
-$$x = \frac{\pi}{9},\quad \frac{5\pi}{9},\quad \frac{7\pi}{9},\quad \frac{11\pi}{9},\quad \frac{13\pi}{9},\quad \frac{17\pi}{9}$$
+$$
+x = \frac{\pi}{9},\quad \frac{5\pi}{9},\quad \frac{7\pi}{9},\quad \frac{11\pi}{9},\quad \frac{13\pi}{9},\quad \frac{17\pi}{9}
+$$
 
 **(b)** $N = 6$ (from part (a)).
 
 The sum of all $x$-coordinates:
 
-$$S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{13\pi}{9} + \frac{17\pi}{9} = \frac{60\pi}{9} = \frac{20\pi}{3}$$
+$$
+S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{13\pi}{9} + \frac{17\pi}{9} = \frac{60\pi}{9} = \frac{20\pi}{3}
+$$
 
 ---
 
@@ -539,7 +603,9 @@ $$S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{
 
 **(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$We require $u \gt 0$.
 
-$$u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3$$
+$$
+u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3
+$$
 
 Both satisfy $u \gt 0$.
 
@@ -553,12 +619,16 @@ Solutions: $x = \ln 2$ and $x = \ln 3$.
 
 Let $u = e^x$ ($u \gt 0$):
 
-$$u^2 - 5u + 5 = 0 \implies u = \frac{5 \pm \sqrt{25 - 20}}{2} = \frac{5 \pm \sqrt{5}}{2}$$
+$$
+u^2 - 5u + 5 = 0 \implies u = \frac{5 \pm \sqrt{25 - 20}}{2} = \frac{5 \pm \sqrt{5}}{2}
+$$
 
 Both roots are positive: $\frac{5 - \sqrt{5}}{2} \approx 1.382 \gt 0$ and
 $\frac{5 + \sqrt{5}}{2} \approx 3.618 \gt 0$.
 
-$$x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)$$
+$$
+x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)
+$$
 
 **(c)** The check is necessary because if a root of the quadratic in $u$ were negative or zero,
 taking $\ln u$ would be undefined. For example, if the equation were $e^{2x} - 3e^x - 4 = 0$ Then
@@ -581,9 +651,13 @@ solutions.
 
 **(a)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1$
 
-$$\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4$$
+$$
+\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4
+$$
 
-$$\frac{d^2y}{dx^2} = 12x^2 - 24x + 12 = 12(x^2 - 2x + 1) = 12(x-1)^2$$
+$$
+\frac{d^2y}{dx^2} = 12x^2 - 24x + 12 = 12(x^2 - 2x + 1) = 12(x-1)^2
+$$
 
 **(b)** $\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4 = 4(x^3 - 3x^2 + 3x - 1) = 4(x-1)^3 = 0$.
 
@@ -636,13 +710,21 @@ Set $u = \ln x$, $\frac{dv}{dx} = x^3$.
 
 $du = \frac{1}{x}\, dx$, $v = \frac{x^4}{4}$.
 
-$$\int x^3 \ln x\, dx = \frac{x^4}{4}\ln x - \int \frac{x^4}{4} \cdot \frac{1}{x}\, dx$$
+$$
+\int x^3 \ln x\, dx = \frac{x^4}{4}\ln x - \int \frac{x^4}{4} \cdot \frac{1}{x}\, dx
+$$
 
-$$= \frac{x^4}{4}\ln x - \frac{1}{4}\int x^3\, dx$$
+$$
+= \frac{x^4}{4}\ln x - \frac{1}{4}\int x^3\, dx
+$$
 
-$$= \frac{x^4}{4}\ln x - \frac{x^4}{16} + C$$
+$$
+= \frac{x^4}{4}\ln x - \frac{x^4}{16} + C
+$$
 
-$$= \frac{x^4}{16}(4\ln x - 1) + C$$
+$$
+= \frac{x^4}{16}(4\ln x - 1) + C
+$$
 
 **(b)** If the student chooses $u = x^3$ and $\frac{dv}{dx} = \ln x$:
 
@@ -659,7 +741,9 @@ At $x = e$: $\frac{e^4}{16}(4 - 1) = \frac{3e^4}{16}$
 
 At $x = 1$: $\frac{1}{16}(0 - 1) = -\frac{1}{16}$
 
-$$= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}$$
+$$
+= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}
+$$
 
 ---
 
@@ -679,7 +763,9 @@ never parallel.
 
 For intersection, there exist $s, t$ such that:
 
-$$1 + 2s = 4 + t, \quad 2 - s = 1 + at, \quad 3 + s = 0 + 2t$$
+$$
+1 + 2s = 4 + t, \quad 2 - s = 1 + at, \quad 3 + s = 0 + 2t
+$$
 
 From the first equation: $t = 2s - 3$.
 
@@ -705,7 +791,9 @@ The system is inconsistent, so the lines are **skew**.
 
 The shortest distance between two skew lines is:
 
-$$d = \frac{\lvert(\mathbf{b} - \mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2)\rvert}{\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert}$$
+$$
+d = \frac{\lvert(\mathbf{b} - \mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2)\rvert}{\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert}
+$$
 
 $\mathbf{b} - \mathbf{a} = \begin{pmatrix} 3 \\ -1 \\ -3 \end{pmatrix}$.
 
@@ -715,7 +803,9 @@ $\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert = \sqrt{9+9+1} = \sqrt{19}$
 
 $(\mathbf{b}-\mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2) = -9 + 3 + 3 = -3$
 
-$$d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19}}{19}$$
+$$
+d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19}}{19}
+$$
 
 ---
 
@@ -771,15 +861,21 @@ the left of the local maximum). So there is exactly one real root.
 
 $x_0 = 0$: $f(0) = 2$, $f'(0) = -2$.
 
-$$x_1 = 0 - \frac{2}{-2} = 1$$
+$$
+x_1 = 0 - \frac{2}{-2} = 1
+$$
 
 $x_1 = 1$: $f(1) = 1$, $f'(1) = 1$.
 
-$$x_2 = 1 - \frac{1}{1} = 0$$
+$$
+x_2 = 1 - \frac{1}{1} = 0
+$$
 
 $x_2 = 0$: $f(0) = 2$, $f'(0) = -2$.
 
-$$x_3 = 0 - \frac{2}{-2} = 1$$
+$$
+x_3 = 0 - \frac{2}{-2} = 1
+$$
 
 The iteration cycles: $0, 1, 0, 1, 0, 1, \ldots$
 

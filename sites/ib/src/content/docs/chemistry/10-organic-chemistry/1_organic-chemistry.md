@@ -988,19 +988,25 @@ Each of the following:
 (a) By Markovnikov's rule, H adds to the less substituted carbon and Br adds to the more substituted
 Carbon:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3
+$$
 
 Product: **2-bromopropane**.
 
 (b) Halogenation (anti addition):
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{Br}$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{Br}
+$$
 
 Product: **1,2-dibromopropane**.
 
 (c) Acid-catalysed hydration (Markovnikov addition):
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3
+$$
 
 Product: **propan-2-ol**.
 
@@ -1027,7 +1033,9 @@ Steric hindrance, and $\mathrm{OH}^-$ is a strong nucleophile. $S_N2$ is favoure
 Substrates with strong nucleophiles.
 
 (b)
-$$\mathrm{Rate} = k[\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}][\mathrm{OH}^-]$$
+$$
+\mathrm{Rate} = k[\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}][\mathrm{OH}^-]
+$$
 
 (c) Inversion of configuration (Walden inversion) occurs at the carbon bearing the leaving group.
 The nucleophile attacks from the back of the C--Br bond, resulting in the product having the

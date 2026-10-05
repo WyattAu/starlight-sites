@@ -58,7 +58,9 @@ Applying the test. The formula booklet provides the chi-squared distribution tab
 
 **Definition.** If $Z_1, Z_2, \ldots, Z_k$ are independent standard normal random variables, then
 
-$$\chi^2_k = Z_1^2 + Z_2^2 + \cdots + Z_k^2$$
+$$
+\chi^2_k = Z_1^2 + Z_2^2 + \cdots + Z_k^2
+$$
 
 Follows a **chi-squared distribution** with $k$ degrees of freedom, written $\chi^2_k$.
 
@@ -77,7 +79,9 @@ Follows a **chi-squared distribution** with $k$ degrees of freedom, written $\ch
 Critical values are found from chi-squared tables. For a test at significance level $\alpha$ with
 $\nu$ degrees of freedom, the critical value $\chi^2_{\alpha,\nu}$ satisfies:
 
-$$P(\chi^2_\nu > \chi^2_{\alpha,\nu}) = \alpha$$
+$$
+P(\chi^2_\nu > \chi^2_{\alpha,\nu}) = \alpha
+$$
 
 <hr />
 
@@ -90,13 +94,17 @@ $$P(\chi^2_\nu > \chi^2_{\alpha,\nu}) = \alpha$$
 
 ### 2.2 Test statistic
 
-$$\boxed{\chi^2 = \sum_{i=1}^{n}\frac{(O_i - E_i)^2}{E_i}}$$
+$$
+\boxed{\chi^2 = \sum_{i=1}^{n}\frac{(O_i - E_i)^2}{E_i}}
+$$
 
 Where $O_i$ is the observed frequency and $E_i$ is the expected frequency for category $i$.
 
 ### 2.3 Degrees of freedom
 
-$$\nu = n - 1 - c$$
+$$
+\nu = n - 1 - c
+$$
 
 Where $n$ is the number of categories and $c$ is the number of parameters estimated from the data.
 
@@ -117,7 +125,9 @@ For the chi-squared approximation to be valid:
 For a $2 \times 2$ contingency table with small expected frequencies, Yates' correction adjusts the
 Test statistic:
 
-$$\chi^2_{\mathrm{Yates}} = \sum\frac{(|O_i - E_i| - 0.5)^2}{E_i}$$
+$$
+\chi^2_{\mathrm{Yates}} = \sum\frac{(|O_i - E_i| - 0.5)^2}{E_i}
+$$
 
 This correction makes the test more conservative (less likely to reject $H_0$).
 
@@ -135,7 +145,9 @@ Test at the 5% level whether the data follows a Poisson distribution.
 
 **Step 1:** Estimate $\lambda$ from the data:
 
-$$\bar{r} = \frac{0(38)+1(32)+2(18)+3(8)+4(3)+5(1)}{100} = \frac{109}{100} = 1.09$$
+$$
+\bar{r} = \frac{0(38)+1(32)+2(18)+3(8)+4(3)+5(1)}{100} = \frac{109}{100} = 1.09
+$$
 
 **Step 2:** Calculate expected frequencies using $\mathrm{Po}(1.09)$:
 
@@ -160,9 +172,13 @@ $P(X \geq 5) = 1 - 0.9956 \approx 0.0044 \implies E_5 = 0.44$
 
 **Step 4:** Calculate the test statistic:
 
-$$\chi^2 = \frac{(38-34.99)^2}{34.99} + \frac{(32-36.74)^2}{36.74} + \frac{(18-19.29)^2}{19.29} + \frac{(12-8.98)^2}{8.98}$$
+$$
+\chi^2 = \frac{(38-34.99)^2}{34.99} + \frac{(32-36.74)^2}{36.74} + \frac{(18-19.29)^2}{19.29} + \frac{(12-8.98)^2}{8.98}
+$$
 
-$$= \frac{9.06}{34.99} + \frac{22.47}{36.74} + \frac{1.66}{19.29} + \frac{9.12}{8.98} \approx 0.259 + 0.612 + 0.086 + 1.016 = 1.973$$
+$$
+= \frac{9.06}{34.99} + \frac{22.47}{36.74} + \frac{1.66}{19.29} + \frac{9.12}{8.98} \approx 0.259 + 0.612 + 0.086 + 1.016 = 1.973
+$$
 
 **Step 5:** Degrees of freedom: $\nu = 4 - 1 - 1 = 3$ (4 categories, 1 parameter estimated).
 
@@ -190,15 +206,21 @@ Two categorical variables.
 
 For a contingency table with entries $O_{ij}$ (row $i$Column $j$), the expected frequency is:
 
-$$\boxed{E_{ij} = \frac{(\mathrm{row } i \mathrm{ total}) \times (\mathrm{column } j \mathrm{ total})}{\mathrm{grand total}}}$$
+$$
+\boxed{E_{ij} = \frac{(\mathrm{row } i \mathrm{ total}) \times (\mathrm{column } j \mathrm{ total})}{\mathrm{grand total}}}
+$$
 
 ### 3.4 Test statistic
 
-$$\boxed{\chi^2 = \sum_{i}\sum_{j}\frac{(O_{ij} - E_{ij})^2}{E_{ij}}}$$
+$$
+\boxed{\chi^2 = \sum_{i}\sum_{j}\frac{(O_{ij} - E_{ij})^2}{E_{ij}}}
+$$
 
 ### 3.5 Degrees of freedom
 
-$$\boxed{\nu = (r-1)(c-1)}$$
+$$
+\boxed{\nu = (r-1)(c-1)}
+$$
 
 Where $r$ is the number of rows and $c$ is the number of columns.
 
@@ -231,11 +253,17 @@ $E_{33} = \dfrac{40 \times 40}{200} = 8.0$
 
 All expected frequencies $\geq 5$ So the test is valid.
 
-$$\chi^2 = \frac{(20-31.5)^2}{31.5} + \frac{(60-40.5)^2}{40.5} + \frac{(10-18)^2}{18} + \frac{(30-24.5)^2}{24.5} + \frac{(25-31.5)^2}{31.5} + \frac{(15-14)^2}{14} + \frac{(20-14)^2}{14} + \frac{(5-18)^2}{18} + \frac{(15-8)^2}{8}$$
+$$
+\chi^2 = \frac{(20-31.5)^2}{31.5} + \frac{(60-40.5)^2}{40.5} + \frac{(10-18)^2}{18} + \frac{(30-24.5)^2}{24.5} + \frac{(25-31.5)^2}{31.5} + \frac{(15-14)^2}{14} + \frac{(20-14)^2}{14} + \frac{(5-18)^2}{18} + \frac{(15-8)^2}{8}
+$$
 
-$$= \frac{132.25}{31.5} + \frac{380.25}{40.5} + \frac{64}{18} + \frac{30.25}{24.5} + \frac{42.25}{31.5} + \frac{1}{14} + \frac{36}{14} + \frac{169}{18} + \frac{49}{8}$$
+$$
+= \frac{132.25}{31.5} + \frac{380.25}{40.5} + \frac{64}{18} + \frac{30.25}{24.5} + \frac{42.25}{31.5} + \frac{1}{14} + \frac{36}{14} + \frac{169}{18} + \frac{49}{8}
+$$
 
-$$\approx 4.20 + 9.39 + 3.56 + 1.23 + 1.34 + 0.07 + 2.57 + 9.39 + 6.13 = 37.88$$
+$$
+\approx 4.20 + 9.39 + 3.56 + 1.23 + 1.34 + 0.07 + 2.57 + 9.39 + 6.13 = 37.88
+$$
 
 Degrees of freedom: $\nu = (3-1)(3-1) = 4$.
 
@@ -494,7 +522,9 @@ Are small. The uncorrected chi-squared test tends to reject $H_0$ too often (it 
 
 Yates' correction adjusts each term by subtracting 0.5 from the absolute difference before squaring:
 
-$$\chi^2_{\mathrm{Yates}} = \sum_{i=1}^{4}\frac{(|O_i - E_i| - 0.5)^2}{E_i}$$
+$$
+\chi^2_{\mathrm{Yates}} = \sum_{i=1}^{4}\frac{(|O_i - E_i| - 0.5)^2}{E_i}
+$$
 
 This reduces the test statistic, making it harder to reject $H_0$.
 
@@ -529,9 +559,13 @@ $H_0$: The die is fair (uniform distribution). $H_1$: The die is not fair.
 
 Expected: $E_i = 120/6 = 20$ for all faces.
 
-$$\chi^2 = \frac{(25-20)^2 + (18-20)^2 + (20-20)^2 + (22-20)^2 + (15-20)^2 + (20-20)^2}{20}$$
+$$
+\chi^2 = \frac{(25-20)^2 + (18-20)^2 + (20-20)^2 + (22-20)^2 + (15-20)^2 + (20-20)^2}{20}
+$$
 
-$$= \frac{25 + 4 + 0 + 4 + 25 + 0}{20} = \frac{58}{20} = 2.9$$
+$$
+= \frac{25 + 4 + 0 + 4 + 25 + 0}{20} = \frac{58}{20} = 2.9
+$$
 
 $\nu = 6 - 1 = 5$. Critical value: $\chi^2_{0.05,\,5} = 11.07$.
 
@@ -548,11 +582,17 @@ Expected: $E_1 = 200(9/16) = 112.5$$E_2 = 200(3/16) = 37.5$$E_3 = 37.5$ $E_4 = 2
 
 All $E_i \geq 5$. $\checkmark$
 
-$$\chi^2 = \frac{(115-112.5)^2}{112.5} + \frac{(38-37.5)^2}{37.5} + \frac{(30-37.5)^2}{37.5} + \frac{(17-12.5)^2}{12.5}$$
+$$
+\chi^2 = \frac{(115-112.5)^2}{112.5} + \frac{(38-37.5)^2}{37.5} + \frac{(30-37.5)^2}{37.5} + \frac{(17-12.5)^2}{12.5}
+$$
 
-$$= \frac{6.25}{112.5} + \frac{0.25}{37.5} + \frac{56.25}{37.5} + \frac{20.25}{12.5}$$
+$$
+= \frac{6.25}{112.5} + \frac{0.25}{37.5} + \frac{56.25}{37.5} + \frac{20.25}{12.5}
+$$
 
-$$\approx 0.056 + 0.007 + 1.500 + 1.620 = 3.183$$
+$$
+\approx 0.056 + 0.007 + 1.500 + 1.620 = 3.183
+$$
 
 $\nu = 4 - 1 = 3$. Critical value: $\chi^2_{0.05,\,3} = 7.815$.
 
@@ -581,11 +621,17 @@ $E_{21} = 200(75)/300 = 50$$E_{22} = 200(225)/300 = 150$.
 
 All $E_i \geq 5$. $\checkmark$
 
-$$\chi^2 = \frac{(45-25)^2}{25} + \frac{(55-75)^2}{75} + \frac{(30-50)^2}{50} + \frac{(170-150)^2}{150}$$
+$$
+\chi^2 = \frac{(45-25)^2}{25} + \frac{(55-75)^2}{75} + \frac{(30-50)^2}{50} + \frac{(170-150)^2}{150}
+$$
 
-$$= \frac{400}{25} + \frac{400}{75} + \frac{400}{50} + \frac{400}{150}$$
+$$
+= \frac{400}{25} + \frac{400}{75} + \frac{400}{50} + \frac{400}{150}
+$$
 
-$$= 16 + 5.333 + 8 + 2.667 = 32.0$$
+$$
+= 16 + 5.333 + 8 + 2.667 = 32.0
+$$
 
 $\nu = (2-1)(2-1) = 1$. Critical value at 1%: $\chi^2_{0.01,\,1} = 6.635$.
 
@@ -594,11 +640,17 @@ Status and respiratory disease are associated.
 
 With Yates' correction:
 
-$$\chi^2_Y = \frac{(20-0.5)^2}{25} + \frac{(20-0.5)^2}{75} + \frac{(20-0.5)^2}{50} + \frac{(20-0.5)^2}{150}$$
+$$
+\chi^2_Y = \frac{(20-0.5)^2}{25} + \frac{(20-0.5)^2}{75} + \frac{(20-0.5)^2}{50} + \frac{(20-0.5)^2}{150}
+$$
 
-$$= \frac{380.25}{25} + \frac{380.25}{75} + \frac{380.25}{50} + \frac{380.25}{150}$$
+$$
+= \frac{380.25}{25} + \frac{380.25}{75} + \frac{380.25}{50} + \frac{380.25}{150}
+$$
 
-$$= 15.21 + 5.07 + 7.605 + 2.535 = 30.42$$
+$$
+= 15.21 + 5.07 + 7.605 + 2.535 = 30.42
+$$
 
 Still highly significant ($30.42 > 6.635$).
 
@@ -608,7 +660,9 @@ Still highly significant ($30.42 > 6.635$).
 
 ### 7.1 Goodness of fit
 
-$$\nu = (\mathrm{number of categories after merging}) - 1 - (\mathrm{parameters estimated})$$
+$$
+\nu = (\mathrm{number of categories after merging}) - 1 - (\mathrm{parameters estimated})
+$$
 
 | Distribution fitted              | Parameters estimated | $\nu$ formula |
 | -------------------------------- | -------------------- | ------------- |
@@ -620,7 +674,9 @@ $$\nu = (\mathrm{number of categories after merging}) - 1 - (\mathrm{parameters 
 
 ### 7.2 Test for independence
 
-$$\nu = (r - 1)(c - 1)$$
+$$
+\nu = (r - 1)(c - 1)
+$$
 
 | Table size   | $\nu$ |
 | ------------ | ----- |
@@ -687,7 +743,9 @@ Df follows a half-normal distribution.
 For a $2 \times 2$ table, the chi-squared test is equivalent to a two-proportion $z$-test. If $p_1$
 And $p_2$ are the sample proportions:
 
-$$\chi^2 = z^2 \quad \mathrm{where} \quad z = \frac{p_1 - p_2}{\sqrt{\hat{p}(1-\hat{p})(1/n_1 + 1/n_2)}}$$
+$$
+\chi^2 = z^2 \quad \mathrm{where} \quad z = \frac{p_1 - p_2}{\sqrt{\hat{p}(1-\hat{p})(1/n_1 + 1/n_2)}}
+$$
 
 And $\hat{p}$ is the pooled proportion.
 
@@ -695,7 +753,9 @@ And $\hat{p}$ is the pooled proportion.
 
 As $\nu$ increases, $\chi^2_\nu$ approaches $N(\nu, 2\nu)$. This means for large tables:
 
-$$z = \frac{\chi^2 - \nu}{\sqrt{2\nu}} \sim N(0,1) \quad \mathrm{approximately}$$
+$$
+z = \frac{\chi^2 - \nu}{\sqrt{2\nu}} \sim N(0,1) \quad \mathrm{approximately}
+$$
 
 This approximation is useful when chi-squared tables do not list the required $\nu$ value.
 
@@ -810,7 +870,9 @@ $E_{21} = 125(115)/400 = 35.9375$$E_{22} = 34.375$$E_{23} = 28.125$$E_{24} = 26.
 $E_{31} = 125(115)/400 = 35.9375$$E_{32} = 34.375$$E_{33} = 28.125$$E_{34} = 26.5625$.
 $E_{41} = 50(115)/400 = 14.375$$E_{42} = 13.75$$E_{43} = 11.25$$E_{44} = 10.625$.
 
-$$\chi^2 = \sum_{i=1}^{4}\sum_{j=1}^{4}\frac{(O_{ij} - E_{ij})^2}{E_{ij}}$$
+$$
+\chi^2 = \sum_{i=1}^{4}\sum_{j=1}^{4}\frac{(O_{ij} - E_{ij})^2}{E_{ij}}
+$$
 
 Key contributions: $\dfrac{(20-28.75)^2}{28.75} \approx 2.66$
 $\dfrac{(45-21.25)^2}{21.25} \approx 26.53$, $\dfrac{(10-26.5625)^2}{26.5625} \approx 10.33$
@@ -908,7 +970,9 @@ Test at the 5% level whether the die is fair.
 
 All $E_i = 20 \geq 5$ So no merging needed.
 
-$$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i} = \frac{25 + 9 + 25 + 9 + 4 + 4}{20} = \frac{76}{20} = 3.8$$
+$$
+\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i} = \frac{25 + 9 + 25 + 9 + 4 + 4}{20} = \frac{76}{20} = 3.8
+$$
 
 $\nu = 6 - 1 = 5$. Critical value at 5%: $11.07$.
 
@@ -937,7 +1001,9 @@ Expected values: $E_{ij} = \dfrac{R_i \times C_j}{300}$.
 $E_{11} = \dfrac{70 \times 80}{300} = 18.67$$E_{12} = 28$$E_{13} = 23.33$
 $E_{21} = 29.33$$E_{22} = 44$$E_{23} = 36.67$$E_{31} = 32$$E_{32} = 48$$E_{33} = 40$.
 
-$$\chi^2 = \frac{(40-18.67)^2}{18.67} + \frac{(20-28)^2}{28} + \frac{(10-23.33)^2}{23.33} + \frac{(30-29.33)^2}{29.33} + \frac{(60-44)^2}{44} + \frac{(20-36.67)^2}{36.67} + \frac{(10-32)^2}{32} + \frac{(40-48)^2}{48} + \frac{(70-40)^2}{40}$$
+$$
+\chi^2 = \frac{(40-18.67)^2}{18.67} + \frac{(20-28)^2}{28} + \frac{(10-23.33)^2}{23.33} + \frac{(30-29.33)^2}{29.33} + \frac{(60-44)^2}{44} + \frac{(20-36.67)^2}{36.67} + \frac{(10-32)^2}{32} + \frac{(40-48)^2}{48} + \frac{(70-40)^2}{40}
+$$
 
 $\approx 24.35 + 2.29 + 7.61 + 0.02 + 5.82 + 7.58 + 15.13 + 1.33 + 22.50 = 86.63$.
 
@@ -960,11 +1026,15 @@ B recovered. Test at 5% whether the recovery rates differ, using Yates' correcti
 
 With Yates' correction:
 
-$$\chi^2 = \sum \frac{(|O_i - E_i| - 0.5)^2}{E_i}$$
+$$
+\chi^2 = \sum \frac{(|O_i - E_i| - 0.5)^2}{E_i}
+$$
 
 $E_{11} = E_{12} = 47.5$, $E_{21} = E_{22} = 47.5$.
 
-$$\chi^2 = \frac{(|40-47.5|-0.5)^2}{47.5} + \frac{(|60-47.5|-0.5)^2}{47.5} + \frac{(|55-47.5|-0.5)^2}{47.5} + \frac{(|45-47.5|-0.5)^2}{47.5}$$
+$$
+\chi^2 = \frac{(|40-47.5|-0.5)^2}{47.5} + \frac{(|60-47.5|-0.5)^2}{47.5} + \frac{(|55-47.5|-0.5)^2}{47.5} + \frac{(|45-47.5|-0.5)^2}{47.5}
+$$
 
 $= \dfrac{49 + 144 + 49 + 4}{47.5} = \dfrac{246}{47.5} \approx 5.18$.
 
@@ -983,7 +1053,9 @@ Adjacent class. State the degrees of freedom.
 Restrictions: total frequency (1), estimated mean (1), estimated variance (1). Total
 Restrictions: 3.
 
-$$\nu = 7 - 3 = \boxed{4}$$
+$$
+\nu = 7 - 3 = \boxed{4}
+$$
 
 ### Example 8.5: Chi-squared test for a geometric distribution
 
@@ -1009,7 +1081,9 @@ $E_3 = 200 \times 0.061 = 12.3$$E_{\geq 4} = 200 - 101 - 50 - 24.8 - 12.3 = 11.9
 
 All $E_i \geq 5$ So no merging needed.
 
-$$\chi^2 = \frac{(90-101)^2}{101} + \frac{(60-50)^2}{50} + \frac{(30-24.8)^2}{24.8} + \frac{(12-12.3)^2}{12.3} + \frac{(8-11.9)^2}{11.9}$$
+$$
+\chi^2 = \frac{(90-101)^2}{101} + \frac{(60-50)^2}{50} + \frac{(30-24.8)^2}{24.8} + \frac{(12-12.3)^2}{12.3} + \frac{(8-11.9)^2}{11.9}
+$$
 
 $\approx 1.20 + 2.00 + 1.09 + 0.01 + 1.28 = 5.58$.
 
@@ -1044,7 +1118,9 @@ Observed table:
 Expected: $E_{11} = \dfrac{270 \times 300}{500} = 162$$E_{12} = 138$$E_{21} = 108$
 $E_{22} = 92$.
 
-$$\chi^2 = \frac{324}{162} + \frac{324}{138} + \frac{324}{108} + \frac{324}{92} \approx 2.00 + 2.35 + 3.00 + 3.52 = 10.87$$
+$$
+\chi^2 = \frac{324}{162} + \frac{324}{138} + \frac{324}{108} + \frac{324}{92} \approx 2.00 + 2.35 + 3.00 + 3.52 = 10.87
+$$
 
 $\nu = 1$. Critical value at 5%: $3.84$.
 
@@ -1275,7 +1351,9 @@ $\dfrac{(n-1)s^2}{\sigma^2} \sim \chi^2_{n-1}$.
 
 A $95\%$ confidence interval for $\sigma^2$ is:
 
-$$\left[\frac{(n-1)s^2}{\chi^2_{n-1,0.025}},\; \frac{(n-1)s^2}{\chi^2_{n-1,0.975}}\right]$$
+$$
+\left[\frac{(n-1)s^2}{\chi^2_{n-1,0.025}},\; \frac{(n-1)s^2}{\chi^2_{n-1,0.975}}\right]
+$$
 
 ### 14.3 Relationship to other tests
 
@@ -1371,7 +1449,9 @@ A normal distribution.
 
 An alternative to the chi-squared test using:
 
-$$G = 2\sum_{i=1}^{k} O_i \ln\!\left(\frac{O_i}{E_i}\right)$$
+$$
+G = 2\sum_{i=1}^{k} O_i \ln\!\left(\frac{O_i}{E_i}\right)
+$$
 
 For large samples, $G \approx \chi^2_\nu$.
 
@@ -1379,7 +1459,9 @@ For large samples, $G \approx \chi^2_\nu$.
 
 For 2×2 tables with small expected frequencies:
 
-$$P = \frac{(a+b)!(c+d)!(a+c)!(b+d)!}{a!\,b!\,c!\,d!\,n!}$$
+$$
+P = \frac{(a+b)!(c+d)!(a+c)!(b+d)!}{a!\,b!\,c!\,d!\,n!}
+$$
 
 This gives the exact $p$-value without approximation.
 
@@ -1388,7 +1470,9 @@ This gives the exact $p$-value without approximation.
 After rejecting $H_0$ in a goodness-of-fit test, standardised residuals identify which classes
 Contribute most:
 
-$$r_i = \frac{O_i - E_i}{\sqrt{E_i}}$$
+$$
+r_i = \frac{O_i - E_i}{\sqrt{E_i}}
+$$
 
 Values with $|r_i| > 2$ indicate significant deviations.
 

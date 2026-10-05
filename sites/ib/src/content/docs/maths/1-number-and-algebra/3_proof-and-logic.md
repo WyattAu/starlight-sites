@@ -117,9 +117,13 @@ Truth values for every possible assignment of truth values to their component pr
 
 These are essential for negating compound statements.
 
-$$\neg(P \wedge Q) \equiv \neg P \vee \neg Q$$
+$$
+\neg(P \wedge Q) \equiv \neg P \vee \neg Q
+$$
 
-$$\neg(P \vee Q) \equiv \neg P \wedge \neg Q$$
+$$
+\neg(P \vee Q) \equiv \neg P \wedge \neg Q
+$$
 
 **Intuition:** To negate an "and," negate each part and switch to "or." To negate an "or," negate
 Each part and switch to "and."
@@ -142,7 +146,9 @@ For any implication $P \implies Q$The **contrapositive** is $\neg Q \implies \ne
 
 **Theorem:** An implication and its contrapositive are logically equivalent.
 
-$$P \implies Q \equiv \neg Q \implies \neg P$$
+$$
+P \implies Q \equiv \neg Q \implies \neg P
+$$
 
 This is proved by comparing truth tables. Both are false only when $P$ is true and $Q$ is false.
 
@@ -189,32 +195,44 @@ Quantifiers let us express statements about collections of objects.
 **Universal quantifier** ($\forall$): "For all", the statement must hold for every element in the
 Domain.
 
-$$\forall x \in S, \; P(x)$$
+$$
+\forall x \in S, \; P(x)
+$$
 
 **Existential quantifier** ($\exists$): "There exists", the statement must hold for at least one
 Element.
 
-$$\exists x \in S, \; P(x)$$
+$$
+\exists x \in S, \; P(x)
+$$
 
 **Negating quantified statements:**
 
-$$\neg(\forall x, \; P(x)) \equiv \exists x, \; \neg P(x)$$
+$$
+\neg(\forall x, \; P(x)) \equiv \exists x, \; \neg P(x)
+$$
 
-$$\neg(\exists x, \; P(x)) \equiv \forall x, \; \neg P(x)$$
+$$
+\neg(\exists x, \; P(x)) \equiv \forall x, \; \neg P(x)
+$$
 
 To negate a universal statement, you get an existential counterexample. To negate an existential
 Statement, you must show it fails for every case.
 
 **Nested quantifiers** require careful handling. The order matters:
 
-$$\forall x \, \exists y, \; P(x,y) \quad \mathrm{is NOT equivalent to} \quad \exists y \, \forall x, \; P(x,y)$$
+$$
+\forall x \, \exists y, \; P(x,y) \quad \mathrm{is NOT equivalent to} \quad \exists y \, \forall x, \; P(x,y)
+$$
 
 **Worked Example, Negating a nested quantifier statement:**
 
 Negate: "For every positive real number $\varepsilon$There exists a positive real number $\delta$
 Such that..."
 
-$$\neg\left(\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; P(\varepsilon, \delta)\right) \equiv \exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \neg P(\varepsilon, \delta)$$
+$$
+\neg\left(\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; P(\varepsilon, \delta)\right) \equiv \exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \neg P(\varepsilon, \delta)
+$$
 
 The existential becomes universal and the universal becomes existential. This is the logical
 Backbone of epsilon-delta definitions in analysis.
@@ -269,7 +287,9 @@ Algebraic manipulations.
 
 Assume $n$ is odd. By definition, $n = 2k + 1$ for some $k \in \mathbb{Z}$.
 
-$$n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$$
+$$
+n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1
+$$
 
 Since $2k^2 + 2k$ is an integer (sum and product of integers), let $m = 2k^2 + 2k \in \mathbb{Z}$.
 Then $n^2 = 2m + 1$Which is odd by definition.
@@ -280,7 +300,9 @@ Therefore, if $n$ is odd, then $n^2$ is odd.
 
 Let $a = 2m$ and $b = 2n$ for some $m, n \in \mathbb{Z}$.
 
-$$a + b = 2m + 2n = 2(m + n)$$
+$$
+a + b = 2m + 2n = 2(m + n)
+$$
 
 Since $m + n \in \mathbb{Z}$We have $a + b = 2(m+n)$ is even.
 
@@ -423,11 +445,15 @@ $1 + 2 + \cdots + k = \frac{k(k+1)}{2}$.
 
 Starting from the LHS:
 
-$$1 + 2 + \cdots + k + (k+1) = \frac{k(k+1)}{2} + (k+1)$$
+$$
+1 + 2 + \cdots + k + (k+1) = \frac{k(k+1)}{2} + (k+1)
+$$
 
 (by the inductive hypothesis)
 
-$$= \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k + 2)}{2}$$
+$$
+= \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k + 2)}{2}
+$$
 
 This is exactly the RHS of $P(k+1)$. Therefore $P(k+1)$ holds.
 
@@ -443,19 +469,33 @@ Let $P(n)$: $\displaystyle\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$.
 
 **Inductive step:**
 
-$$\sum_{i=1}^{k+1} i^2 = \sum_{i=1}^{k} i^2 + (k+1)^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2$$
+$$
+\sum_{i=1}^{k+1} i^2 = \sum_{i=1}^{k} i^2 + (k+1)^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2
+$$
 
-$$= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6}$$
+$$
+= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6}
+$$
 
-$$= \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}$$
+$$
+= \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}
+$$
 
-$$= \frac{(k+1)[2k^2 + k + 6k + 6]}{6}$$
+$$
+= \frac{(k+1)[2k^2 + k + 6k + 6]}{6}
+$$
 
-$$= \frac{(k+1)(2k^2 + 7k + 6)}{6}$$
+$$
+= \frac{(k+1)(2k^2 + 7k + 6)}{6}
+$$
 
-$$= \frac{(k+1)(k+2)(2k+3)}{6}$$
+$$
+= \frac{(k+1)(k+2)(2k+3)}{6}
+$$
 
-$$= \frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}$$
+$$
+= \frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}
+$$
 
 This is $P(k+1)$. By induction, the formula holds for all $n \ge 1$.
 
@@ -659,7 +699,9 @@ This prime $p$ must be one of $p_1, p_2, \ldots, p_n$ (since we assumed these ar
 
 But $N = p_1 p_2 \cdots p_n + 1$ And for each $p_i$:
 
-$$N \equiv 0 + 1 \equiv 1 \pmod{p_i}$$
+$$
+N \equiv 0 + 1 \equiv 1 \pmod{p_i}
+$$
 
 So $p_i \nmid N$ for all $i$. This contradicts that some $p_i$ divides $N$.
 
@@ -705,11 +747,17 @@ $p = q = 0$Contradicting $p \ge 1$. Hence $\log_3{5}$ is irrational.
 
 We proved these by induction in Section 2.4. Here is the complete reference:
 
-$$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
 
-$$\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$$
+$$
+\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}
+$$
 
-$$\sum_{i=1}^{n} i^3 = \frac{n^2(n+1)^2}{4} = \left(\frac{n(n+1)}{2}\right)^2$$
+$$
+\sum_{i=1}^{n} i^3 = \frac{n^2(n+1)^2}{4} = \left(\frac{n(n+1)}{2}\right)^2
+$$
 
 The last identity is notable: the sum of cubes equals the square of the sum of the first $n$
 Integers.
@@ -725,13 +773,21 @@ Inductive hypothesis: Assume $P(k)$ holds.
 
 Inductive step:
 
-$$\sum_{i=1}^{k+1} i^3 = \left(\frac{k(k+1)}{2}\right)^2 + (k+1)^3$$
+$$
+\sum_{i=1}^{k+1} i^3 = \left(\frac{k(k+1)}{2}\right)^2 + (k+1)^3
+$$
 
-$$= \frac{k^2(k+1)^2}{4} + (k+1)^3 = (k+1)^2 \left(\frac{k^2}{4} + (k+1)\right)$$
+$$
+= \frac{k^2(k+1)^2}{4} + (k+1)^3 = (k+1)^2 \left(\frac{k^2}{4} + (k+1)\right)
+$$
 
-$$= (k+1)^2 \cdot \frac{k^2 + 4k + 4}{4} = (k+1)^2 \cdot \frac{(k+2)^2}{4}$$
+$$
+= (k+1)^2 \cdot \frac{k^2 + 4k + 4}{4} = (k+1)^2 \cdot \frac{(k+2)^2}{4}
+$$
 
-$$= \left(\frac{(k+1)(k+2)}{2}\right)^2$$
+$$
+= \left(\frac{(k+1)(k+2)}{2}\right)^2
+$$
 
 This is $P(k+1)$. By induction, $P(n)$ holds for all $n \ge 1$.
 
@@ -774,7 +830,9 @@ Be expressed as a linear combination of $a$ and $b$ (Bezout's identity).
 
 **AM-GM Inequality (two variables):** For $a, b \ge 0$:
 
-$$\frac{a + b}{2} \ge \sqrt{ab}$$
+$$
+\frac{a + b}{2} \ge \sqrt{ab}
+$$
 
 With equality if and only if $a = b$.
 
@@ -790,7 +848,9 @@ $a = b$. $\blacksquare$
 **Cauchy-Schwarz Inequality (statement):** For real numbers $a_1, \ldots, a_n$ and
 $b_1, \ldots, b_n$:
 
-$$\left(\sum_{i=1}^{n} a_i b_i\right)^2 \le \left(\sum_{i=1}^{n} a_i^2\right) \left(\sum_{i=1}^{n} b_i^2\right)$$
+$$
+\left(\sum_{i=1}^{n} a_i b_i\right)^2 \le \left(\sum_{i=1}^{n} a_i^2\right) \left(\sum_{i=1}^{n} b_i^2\right)
+$$
 
 With equality when the vectors are proportional ($a_i = \lambda b_i$ for all $i$ and some scalar
 $\lambda$).
@@ -915,7 +975,9 @@ The last two digits are 01.
 
 **Theorem (Fermat's Little Theorem):** If $p$ is prime and $\gcd(a, p) = 1$ Then:
 
-$$a^{p-1} \equiv 1 \pmod{p}$$
+$$
+a^{p-1} \equiv 1 \pmod{p}
+$$
 
 Equivalently, for any integer $a$ and prime $p$: $a^p \equiv a \pmod{p}$.
 
@@ -930,14 +992,20 @@ $p \mid (j-k)$Which means $j \equiv k \pmod{p}$ And since $1 \le j, k \le p-1$We
 
 Therefore $\{a, 2a, \ldots, (p-1)a\}$ is a complete residue system modulo $p$ excluding 0, so:
 
-$$a \cdot 2a \cdot 3a \cdots (p-1)a \equiv (p-1)! \pmod{p}$$
+$$
+a \cdot 2a \cdot 3a \cdots (p-1)a \equiv (p-1)! \pmod{p}
+$$
 
-$$a^{p-1} \cdot (p-1)! \equiv (p-1)! \pmod{p}$$
+$$
+a^{p-1} \cdot (p-1)! \equiv (p-1)! \pmod{p}
+$$
 
 Since $p \nmid (p-1)!$ (Wilson's theorem tells us $(p-1)! \equiv -1 \pmod{p}$), we can divide both
 Sides by $(p-1)!$ modulo $p$:
 
-$$a^{p-1} \equiv 1 \pmod{p} \quad \blacksquare$$
+$$
+a^{p-1} \equiv 1 \pmod{p} \quad \blacksquare
+$$
 
 **Worked Example, Find $2^{100} \pmod{13}$:**
 
@@ -962,7 +1030,9 @@ Answer: $3^{50} \equiv 1 \pmod{11}$.
 **Theorem:** Every integer $n \ge 2$ can be expressed uniquely (up to order of factors) as a product
 Of primes:
 
-$$n = p_1^{a_1} \cdot p_2^{a_2} \cdots p_k^{a_k}$$
+$$
+n = p_1^{a_1} \cdot p_2^{a_2} \cdots p_k^{a_k}
+$$
 
 Where $p_1 \lt p_2 \lt \cdots \lt p_k$ are primes and $a_i \ge 1$.
 
@@ -972,7 +1042,9 @@ Where $p_1 \lt p_2 \lt \cdots \lt p_k$ are primes and $a_i \ge 1$.
 
 Suppose $n$ has two prime factorizations:
 
-$$n = p_1 p_2 \cdots p_r = q_1 q_2 \cdots q_s$$
+$$
+n = p_1 p_2 \cdots p_r = q_1 q_2 \cdots q_s
+$$
 
 Where all $p_i, q_j$ are primes. Since $p_1 \mid n = q_1 q_2 \cdots q_s$By Euclid's lemma
 ($p \mid ab$ and $p$ prime implies $p \mid a$ or $p \mid b$), $p_1$ divides some $q_j$.
@@ -990,7 +1062,9 @@ That both $a$ and $b$ divide.
 
 **Key relationship:**
 
-$$\gcd(a, b) \cdot \mathrm{lcm}(a, b) = |ab|$$
+$$
+\gcd(a, b) \cdot \mathrm{lcm}(a, b) = |ab|
+$$
 
 **Proof (using prime factorizations):**
 
@@ -1006,7 +1080,9 @@ $\blacksquare$
 
 **Bezout's Identity:** For integers $a, b$ (not both zero), there exist integers $x, y$ such that:
 
-$$\gcd(a, b) = ax + by$$
+$$
+\gcd(a, b) = ax + by
+$$
 
 This is proved constructively by the Euclidean algorithm (reversing the steps).
 
@@ -1017,9 +1093,13 @@ This is proved constructively by the Euclidean algorithm (reversing the steps).
 **Algorithm:** For $a \ge b \ge 0$:
 
 $$a = bq_1 + r_1, \quad 0 \le r_1 \lt b$$ $$b = r_1 q_2 + r_2, \quad 0 \le r_2 \lt r_1$$
-$$r_1 = r_2 q_3 + r_3, \quad 0 \le r_3 \lt r_2$$
+$$
+r_1 = r_2 q_3 + r_3, \quad 0 \le r_3 \lt r_2
+$$
 
-$$\vdots$$
+$$
+\vdots
+$$
 
 $$r_{n-2} = r_{n-1} q_n + r_n, \quad 0 \le r_n \lt r_{n-1}$$ $$r_{n-1} = r_n q_{n+1} + 0$$
 
@@ -1121,12 +1201,16 @@ $x^2 = 4 \implies x = 2$ or $x = -2$.
 
 The negation of $P \implies Q$ is NOT $P \implies \neg Q$.
 
-$$\neg(P \implies Q) \equiv P \wedge \neg Q$$
+$$
+\neg(P \implies Q) \equiv P \wedge \neg Q
+$$
 
 **Reasoning:** $P \implies Q$ is logically equivalent to $\neg P \vee Q$ (check the truth table).
 So:
 
-$$\neg(P \implies Q) \equiv \neg(\neg P \vee Q) \equiv P \wedge \neg Q$$
+$$
+\neg(P \implies Q) \equiv \neg(\neg P \vee Q) \equiv P \wedge \neg Q
+$$
 
 **Worked Example:**
 
@@ -1344,9 +1428,13 @@ Solve $\log_3(x + 1) + \log_3(x - 1) = 2$.
 
 **Solution:**
 
-$$\log_3[(x+1)(x-1)] = 2$$
+$$
+\log_3[(x+1)(x-1)] = 2
+$$
 
-$$(x+1)(x-1) = 3^2 = 9$$
+$$
+(x+1)(x-1) = 3^2 = 9
+$$
 
 $$x^2 - 1 = 9 \implies x^2 = 10 \implies x = \sqrt{10}$$ (since $x > 1$)
 

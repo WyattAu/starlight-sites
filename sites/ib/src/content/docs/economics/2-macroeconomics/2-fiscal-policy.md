@@ -52,31 +52,41 @@ Change in national income through successive rounds of spending and re-spending.
 
 **Simple multiplier (no taxes, no imports):**
 
-$$k = \frac{1}{1 - \mathrm{MPC}} = \frac{1}{\mathrm{MPS}}$$
+$$
+k = \frac{1}{1 - \mathrm{MPC}} = \frac{1}{\mathrm{MPS}}
+$$
 
 Where MPC is the marginal propensity to consume and MPS is the marginal propensity to save
 ($\mathrm{MPC} + \mathrm{MPS} = 1$).
 
 An initial government spending increase of $\Delta G$ leads to a total change in output of:
 
-$$\Delta Y = k \times \Delta G = \frac{\Delta G}{1 - \mathrm{MPC}}$$
+$$
+\Delta Y = k \times \Delta G = \frac{\Delta G}{1 - \mathrm{MPC}}
+$$
 
 **The multiplier with proportional taxation:**
 
-$$k_T = \frac{1}{1 - \mathrm{MPC}(1 - t)}$$
+$$
+k_T = \frac{1}{1 - \mathrm{MPC}(1 - t)}
+$$
 
 Where $t$ is the marginal tax rate. Higher taxes reduce the multiplier because they leak spending
 Power out of the circular flow at each round.
 
 **The multiplier with imports:**
 
-$$k_{T,M} = \frac{1}{\mathrm{MPS} + t \times \mathrm{MPC} + \mathrm{MPM}}$$
+$$
+k_{T,M} = \frac{1}{\mathrm{MPS} + t \times \mathrm{MPC} + \mathrm{MPM}}
+$$
 
 Where MPM is the marginal propensity to import. Imports are a leakage from the circular flow.
 
 **Worked example:** if $\mathrm{MPC} = 0.75$, $t = 0.2$ And $\mathrm{MPM} = 0.1$:
 
-$$k = \frac{1}{0.25 + 0.2 \times 0.75 + 0.1} = \frac{1}{0.25 + 0.15 + 0.1} = \frac{1}{0.50} = 2$$
+$$
+k = \frac{1}{0.25 + 0.2 \times 0.75 + 0.1} = \frac{1}{0.25 + 0.15 + 0.1} = \frac{1}{0.50} = 2
+$$
 
 A `USD 100` billion increase in government spending would increase GDP by `USD 200` billion.
 
@@ -85,7 +95,9 @@ A `USD 100` billion increase in government spending would increase GDP by `USD 2
 If government spending and taxes increase by the same amount ($\Delta G = \Delta T$), the net effect
 On GDP is positive but smaller than the spending multiplier alone:
 
-$$k_B = \frac{\Delta Y}{\Delta G} = 1$$
+$$
+k_B = \frac{\Delta Y}{\Delta G} = 1
+$$
 
 A `USD 100` billion increase in both $G$ and $T$ increases GDP by `USD 100` billion. The government
 Spending injection has a direct multiplier effect, while the tax increase reduces disposable income
@@ -157,19 +169,25 @@ booms (restraining demand).
 Raises demand for loanable funds, increasing the interest rate and reducing private investment by
 Exactly the amount of the fiscal expansion. $\Delta G$ is fully offset by $\Delta I$.
 
-$$\Delta Y = 0 \text{ (in the classical case)}$$
+$$
+\Delta Y = 0 \text{ (in the classical case)}
+$$
 
 **Partial crowding out:** in a Keynesian framework with idle resources, the interest rate rise
 Reduces some investment but not all. The net increase in output is positive but smaller than the
 Simple multiplier predicts.
 
-$$0 < \Delta Y < k \cdot \Delta G$$
+$$
+0 < \Delta Y < k \cdot \Delta G
+$$
 
 **No crowding out:** at the zero lower bound or in a deep recession (liquidity trap), increased
 Government spending does not raise interest rates because the central bank accommodates the fiscal
 Expansion. The full multiplier operates:
 
-$$\Delta Y = k \cdot \Delta G$$
+$$
+\Delta Y = k \cdot \Delta G
+$$
 
 **Factors determining the degree of crowding out:**
 
@@ -186,11 +204,15 @@ $$\Delta Y = k \cdot \Delta G$$
 Proposed by Robert Barro (1974), Ricardian equivalence states that households are forward-looking
 And understand that current deficit spending must be financed by future taxes. Therefore:
 
-$$\text{Tax cut today} = \text{Tax increase tomorrow (with interest)}$$
+$$
+\text{Tax cut today} = \text{Tax increase tomorrow (with interest)}
+$$
 
 Households save the entire tax cut to pay future taxes, leaving consumption unchanged:
 
-$$\Delta C = 0, \quad \Delta S = \Delta T_{\text{cut}}$$
+$$
+\Delta C = 0, \quad \Delta S = \Delta T_{\text{cut}}
+$$
 
 **Conditions for Ricardian equivalence to hold:**
 
@@ -276,7 +298,9 @@ Economy.
 
 **In the loanable funds market:**
 
-$$S_{\text{private}} + S_{\text{government}} = I_{\text{private}} + I_{\text{government}}$$
+$$
+S_{\text{private}} + S_{\text{government}} = I_{\text{private}} + I_{\text{government}}
+$$
 
 When government saving falls (deficit increases), the supply of loanable funds shifts leftward,
 Raising the real interest rate and reducing private investment.
@@ -295,8 +319,12 @@ Raising the real interest rate and reducing private investment.
 In an open economy, higher interest rates attract foreign capital inflows, appreciating the Exchange
 rate:
 
-$$G \uparrow \implies r \uparrow \implies \text{Capital inflows} \uparrow \implies \text{Exchange rate} \uparrow$$
-$$\implies (X - M) \downarrow \implies \text{Further reduction in AD}$$
+$$
+G \uparrow \implies r \uparrow \implies \text{Capital inflows} \uparrow \implies \text{Exchange rate} \uparrow
+$$
+$$
+\implies (X - M) \downarrow \implies \text{Further reduction in AD}
+$$
 
 This creates **double crowding out:** higher interest rates reduce both domestic investment and net
 Exports. Small open economies with mobile capital are particularly vulnerable.
@@ -326,13 +354,17 @@ $\Delta Y = 22.2 - 5 = 17.2$ billion. Crowding out reduces the stimulus effect b
 
 The government increases spending by $100$ billion. The marginal propensity to consume (MPC) is 0.8.
 
-$$k = \frac{1}{1 - MPC} = \frac{1}{1 - 0.8} = 5$$
+$$
+k = \frac{1}{1 - MPC} = \frac{1}{1 - 0.8} = 5
+$$
 
 The total increase in GDP: $\Delta Y = k \times \Delta G = 5 \times 100 = 500$ billion.
 
 If the government also raises taxes by $100$ billion to fund the spending:
 
-$$k_T = \frac{MPC}{1 - MPC} = \frac{0.8}{0.2} = 4$$
+$$
+k_T = \frac{MPC}{1 - MPC} = \frac{0.8}{0.2} = 4
+$$
 
 Tax multiplier effect: $\Delta Y = -4 \times 100 = -400$ billion. Net effect: $+500 - 400 = +100$
 billion (balanced budget multiplier = 1).

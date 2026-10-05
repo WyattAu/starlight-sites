@@ -54,22 +54,34 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 ### Important Formulas
 
 **Christoffel symbols:**
-$$\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})$$
+$$
+\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})
+$$
 
 **Geodesic equation:**
-$$\ddot\gamma^k + \Gamma^k_{ij}\dot\gamma^i\dot\gamma^j = 0$$
+$$
+\ddot\gamma^k + \Gamma^k_{ij}\dot\gamma^i\dot\gamma^j = 0
+$$
 
 **Riemann curvature tensor:**
-$$R^\ell_{ijk} = \partial_i\Gamma^\ell_{jk} - \partial_j\Gamma^\ell_{ik} + \Gamma^m_{jk}\Gamma^\ell_{im} - \Gamma^m_{ik}\Gamma^\ell_{jm}$$
+$$
+R^\ell_{ijk} = \partial_i\Gamma^\ell_{jk} - \partial_j\Gamma^\ell_{ik} + \Gamma^m_{jk}\Gamma^\ell_{im} - \Gamma^m_{ik}\Gamma^\ell_{jm}
+$$
 
 **Lie bracket (coordinates):**
-$$[X, Y] = \left(X^j\frac{\partial Y^i}{\partial x^j} - Y^j\frac{\partial X^i}{\partial x^j}\right)\frac{\partial}{\partial x^i}$$
+$$
+[X, Y] = \left(X^j\frac{\partial Y^i}{\partial x^j} - Y^j\frac{\partial X^i}{\partial x^j}\right)\frac{\partial}{\partial x^i}
+$$
 
 **Exterior derivative:**
-$$d\omega = d\left(\frac{1}{k!}\omega_{i_1\ldots i_k} dx^{i_1} \wedge \cdots \wedge dx^{i_k}\right) = \frac{1}{k!}\frac{\partial\omega_{i_1\ldots i_k}}{\partial x^j} dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}$$
+$$
+d\omega = d\left(\frac{1}{k!}\omega_{i_1\ldots i_k} dx^{i_1} \wedge \cdots \wedge dx^{i_k}\right) = \frac{1}{k!}\frac{\partial\omega_{i_1\ldots i_k}}{\partial x^j} dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}
+$$
 
 **Lie derivative:**
-$$\mathcal{L}_X Y = [X, Y], \quad \mathcal{L}_X f = X(f), \quad \mathcal{L}_X \omega = \frac{d}{dt}\big|_{t=0} (\Phi_t^*\omega)$$
+$$
+\mathcal{L}_X Y = [X, Y], \quad \mathcal{L}_X f = X(f), \quad \mathcal{L}_X \omega = \frac{d}{dt}\big|_{t=0} (\Phi_t^*\omega)
+$$
 
 ### Relations Between Concepts
 

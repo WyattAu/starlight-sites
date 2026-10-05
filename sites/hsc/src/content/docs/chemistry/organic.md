@@ -96,7 +96,9 @@ Step 1: Identify the reactants:
 - Ethanol: CH₃CH₂OH
 
 Step 2: Write the condensation reaction:
-$$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}
+$$
 
 Step 3: The product is an ester: ethyl ethanoate
 
@@ -139,13 +141,19 @@ Step 3: Count: 2 structural isomers
 **Solution:**
 
 Step 1: Protonation of ethene (electrophilic addition):
-$$\text{CH}_2=\text{CH}_2 + \text{H}^+ \rightarrow \text{CH}_3\text{CH}_2^+$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{H}^+ \rightarrow \text{CH}_3\text{CH}_2^+
+$$
 
 Step 2: Nucleophilic attack by water:
-$$\text{CH}_3\text{CH}_2^+ + \text{H}_2\text{O} \rightarrow \text{CH}_3\text{CH}_2\text{OH}_2^+$$
+$$
+\text{CH}_3\text{CH}_2^+ + \text{H}_2\text{O} \rightarrow \text{CH}_3\text{CH}_2\text{OH}_2^+
+$$
 
 Step 3: Deprotonation:
-$$\text{CH}_3\text{CH}_2\text{OH}_2^+ \rightarrow \text{CH}_3\text{CH}_2\text{OH} + \text{H}^+$$
+$$
+\text{CH}_3\text{CH}_2\text{OH}_2^+ \rightarrow \text{CH}_3\text{CH}_2\text{OH} + \text{H}^+
+$$
 
 **Answer:** The mechanism involves protonation, nucleophilic attack, and deprotonation. The acid catalyst is regenerated.
 
@@ -176,7 +184,9 @@ Step 1: Identify the reaction conditions: alcoholic KOH (strong base in non-aque
 Step 2: These conditions favour elimination (E2 mechanism) over substitution (SN2)
 
 Step 3: The product is propene via dehydrohalogenation:
-$$\text{CH}_3\text{CHBrCH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CH}_2 + \text{KBr} + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CHBrCH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CH}_2 + \text{KBr} + \text{H}_2\text{O}
+$$
 
 **Answer:** Elimination predominates, giving propene as the major product.
 
@@ -200,7 +210,9 @@ Organic chemistry is the basis of pharmaceuticals, plastics, food science, and b
 **Solution:**
 
 Step 1: Draw the structure:
-$$\text{CH}_3-\text{CH(OH)}-\text{CHO}$$
+$$
+\text{CH}_3-\text{CH(OH)}-\text{CHO}
+$$
 
 Step 2: Identify functional groups:
 
@@ -222,10 +234,14 @@ Step 3: The molecule has both alcohol and aldehyde functional groups. The IUPAC 
 Step 1: Dehydration is an elimination reaction where water is removed from an alcohol.
 
 Step 2: The reaction requires concentrated sulfuric acid as a catalyst and heating to approximately $170°\text{C}$:
-$$\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{170°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{170°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}
+$$
 
 Step 3: At lower temperatures ($140°\text{C}$), the substitution product (diethyl ether) forms instead:
-$$2\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{140°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{CH}_2\text{OCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+$$
+2\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{140°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{CH}_2\text{OCH}_2\text{CH}_3 + \text{H}_2\text{O}
+$$
 
 **Answer:** $\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{170°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$
 
@@ -240,7 +256,9 @@ $$2\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{140°C}]{\text{conc. H}_2\
 Step 1: In addition polymerisation, the double bond opens up and monomers join together.
 
 Step 2: The repeating unit is:
-$$-\left[\text{CH}_2-\text{CH(CH}_3)\right]-$$
+$$
+-\left[\text{CH}_2-\text{CH(CH}_3)\right]-
+$$
 
 Step 3: The polymer is polypropene (polypropylene). The methyl group ($\text{CH}_3$) is a side chain.
 

@@ -65,27 +65,37 @@ Measured in radians.
 
 **Definition.** The **angular velocity** $\omega$ is the rate of change of angular displacement:
 
-$$\boxed{\omega = \frac{d\theta}{dt}}$$
+$$
+\boxed{\omega = \frac{d\theta}{dt}}
+$$
 
 The SI unit is rad s$^{-1}$.
 
 **Definition.** The **angular acceleration** $\alpha$ is the rate of change of angular velocity:
 
-$$\alpha = \frac{d\omega}{dt} = \frac{d^2\theta}{dt^2}$$
+$$
+\alpha = \frac{d\omega}{dt} = \frac{d^2\theta}{dt^2}
+$$
 
 ### 1.2 Relationship with linear quantities
 
 For a particle moving in a circle of radius $r$:
 
-$$\boxed{v = \omega r}$$
+$$
+\boxed{v = \omega r}
+$$
 
-$$\boxed{a_{\mathrm{tangential}} = \alpha r}$$
+$$
+\boxed{a_{\mathrm{tangential}} = \alpha r}
+$$
 
 ### 1.3 Period and frequency
 
 For uniform circular motion:
 
-$$\boxed{\omega = \frac{2\pi}{T} = 2\pi f}$$
+$$
+\boxed{\omega = \frac{2\pi}{T} = 2\pi f}
+$$
 
 <hr />
 
@@ -97,20 +107,28 @@ $$\boxed{\omega = \frac{2\pi}{T} = 2\pi f}$$
 
 The position vector of a particle in a circle of radius $r$ in the $xy$-plane:
 
-$$\mathbf{r}(t) = r\cos(\omega t)\,\mathbf{i} + r\sin(\omega t)\,\mathbf{j}$$
+$$
+\mathbf{r}(t) = r\cos(\omega t)\,\mathbf{i} + r\sin(\omega t)\,\mathbf{j}
+$$
 
 Velocity (first derivative):
 
-$$\mathbf{v}(t) = \frac{d\mathbf{r}}{dt} = -r\omega\sin(\omega t)\,\mathbf{i} + r\omega\cos(\omega t)\,\mathbf{j}$$
+$$
+\mathbf{v}(t) = \frac{d\mathbf{r}}{dt} = -r\omega\sin(\omega t)\,\mathbf{i} + r\omega\cos(\omega t)\,\mathbf{j}
+$$
 
 Check: $|\mathbf{v}| = r\omega\sqrt{\sin^2(\omega t) + \cos^2(\omega t)} = r\omega = v$.
 $\checkmark$
 
 Acceleration (second derivative):
 
-$$\mathbf{a}(t) = \frac{d\mathbf{v}}{dt} = -r\omega^2\cos(\omega t)\,\mathbf{i} - r\omega^2\sin(\omega t)\,\mathbf{j} = -\omega^2\mathbf{r}(t)$$
+$$
+\mathbf{a}(t) = \frac{d\mathbf{v}}{dt} = -r\omega^2\cos(\omega t)\,\mathbf{i} - r\omega^2\sin(\omega t)\,\mathbf{j} = -\omega^2\mathbf{r}(t)
+$$
 
-$$\boxed{\mathbf{a} = -\omega^2 r\,\hat{\mathbf{r}}}$$
+$$
+\boxed{\mathbf{a} = -\omega^2 r\,\hat{\mathbf{r}}}
+$$
 
 Magnitude: $a = \omega^2 r = \dfrac{v^2}{r}$Directed radially inward. $\blacksquare$
 
@@ -118,7 +136,9 @@ Magnitude: $a = \omega^2 r = \dfrac{v^2}{r}$Directed radially inward. $\blacksqu
 
 By Newton"s second law:
 
-$$\boxed{F_c = \frac{mv^2}{r} = m\omega^2 r}$$
+$$
+\boxed{F_c = \frac{mv^2}{r} = m\omega^2 r}
+$$
 
 <hr />
 
@@ -135,13 +155,19 @@ $\alpha$ is the angle the string makes with the vertical.
 
 Dividing (ii) by (i):
 
-$$\boxed{\tan\alpha = \frac{v^2}{rg} = \frac{\omega^2 r}{g}}$$
+$$
+\boxed{\tan\alpha = \frac{v^2}{rg} = \frac{\omega^2 r}{g}}
+$$
 
 Since $r = L\sin\alpha$ and $\omega = \dfrac{v}{r}$:
 
-$$\omega^2 = \frac{g\tan\alpha}{L\sin\alpha} = \frac{g}{L\cos\alpha}$$
+$$
+\omega^2 = \frac{g\tan\alpha}{L\sin\alpha} = \frac{g}{L\cos\alpha}
+$$
 
-$$\boxed{T = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{L\cos\alpha}{g}}}$$
+$$
+\boxed{T = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{L\cos\alpha}{g}}}
+$$
 
 ### 3.2 Banked tracks
 
@@ -153,9 +179,13 @@ A vehicle on a banked track of angle $\theta$ and radius $r$.
 
 Dividing (ii) by (i):
 
-$$\boxed{\tan\theta = \frac{v^2}{rg}}$$
+$$
+\boxed{\tan\theta = \frac{v^2}{rg}}
+$$
 
-$$\boxed{v_{\mathrm{optimum}} = \sqrt{rg\tan\theta}}$$
+$$
+\boxed{v_{\mathrm{optimum}} = \sqrt{rg\tan\theta}}
+$$
 
 At the optimum speed, no friction is needed. If $v > v_{\mathrm{opt}}$Friction acts down the Slope.
 If $v < v_{\mathrm{opt}}$Friction acts up the slope.
@@ -172,7 +202,9 @@ $\sin\phi = a/r$.
 
 **Horizontal:** $R\sin\phi = \dfrac{mv^2}{a}$.
 
-$$\frac{v^2}{a} = \frac{R\sin\phi}{m} = \frac{g\sin\phi}{\cos\phi} = g\tan\phi = \frac{ga}{h}$$
+$$
+\frac{v^2}{a} = \frac{R\sin\phi}{m} = \frac{g\sin\phi}{\cos\phi} = g\tan\phi = \frac{ga}{h}
+$$
 
 <hr />
 
@@ -187,11 +219,15 @@ The downward vertical:
 
 **At the top** ($\theta = 180^\circ$): both $T$ and $mg$ act towards centre:
 
-$$T + mg = \frac{mv^2}{r}$$
+$$
+T + mg = \frac{mv^2}{r}
+$$
 
 **At the bottom** ($\theta = 0^\circ$): centripetal direction is upward:
 
-$$T - mg = \frac{mv^2}{r}$$
+$$
+T - mg = \frac{mv^2}{r}
+$$
 
 ### 4.2 Proof of minimum speed at the top
 
@@ -199,9 +235,13 @@ $$T - mg = \frac{mv^2}{r}$$
 
 For the string to remain taut at the top: $T \geq 0$.
 
-$$T + mg = \frac{mv^2}{r} \implies T = \frac{mv^2}{r} - mg \geq 0$$
+$$
+T + mg = \frac{mv^2}{r} \implies T = \frac{mv^2}{r} - mg \geq 0
+$$
 
-$$\frac{mv^2}{r} \geq mg \implies v^2 \geq gr \implies \boxed{v_{\min} = \sqrt{gr}}$$
+$$
+\frac{mv^2}{r} \geq mg \implies v^2 \geq gr \implies \boxed{v_{\min} = \sqrt{gr}}
+$$
 
 At this minimum speed, $T = 0$, the weight alone provides the centripetal force. $\blacksquare$
 
@@ -209,35 +249,51 @@ At this minimum speed, $T = 0$, the weight alone provides the centripetal force.
 
 Using conservation of mechanical energy between two points on a vertical circle:
 
-$$\frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2$$
+$$
+\frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2
+$$
 
 Where $h$ is the height above a reference level.
 
 **Between top and bottom** (height difference $2r$):
 
-$$\frac{1}{2}mv_{\mathrm{bottom}}^2 = \frac{1}{2}mv_{\mathrm{top}}^2 + mg(2r)$$
+$$
+\frac{1}{2}mv_{\mathrm{bottom}}^2 = \frac{1}{2}mv_{\mathrm{top}}^2 + mg(2r)
+$$
 
-$$v_{\mathrm{bottom}}^2 = v_{\mathrm{top}}^2 + 4gr$$
+$$
+v_{\mathrm{bottom}}^2 = v_{\mathrm{top}}^2 + 4gr
+$$
 
 For minimum complete circle ($v_{\mathrm{top}} = \sqrt{gr}$):
 
-$$v_{\mathrm{bottom}}^2 = gr + 4gr = 5gr \implies \boxed{v_{\mathrm{bottom}} = \sqrt{5gr}}$$
+$$
+v_{\mathrm{bottom}}^2 = gr + 4gr = 5gr \implies \boxed{v_{\mathrm{bottom}} = \sqrt{5gr}}
+$$
 
 ### 4.4 Tension at any point
 
 Using energy conservation, the speed at angle $\theta$ from the bottom is:
 
-$$\frac{1}{2}mv^2 = \frac{1}{2}mv_0^2 - mgr(1-\cos\theta)$$
+$$
+\frac{1}{2}mv^2 = \frac{1}{2}mv_0^2 - mgr(1-\cos\theta)
+$$
 
 Where $v_0$ is the speed at the bottom.
 
-$$v^2 = v_0^2 - 2gr(1-\cos\theta)$$
+$$
+v^2 = v_0^2 - 2gr(1-\cos\theta)
+$$
 
 Tension at angle $\theta$ (measuring from the bottom):
 
-$$T = \frac{mv^2}{r} + mg\cos\theta = \frac{m}{r}[v_0^2 - 2gr(1-\cos\theta)] + mg\cos\theta$$
+$$
+T = \frac{mv^2}{r} + mg\cos\theta = \frac{m}{r}[v_0^2 - 2gr(1-\cos\theta)] + mg\cos\theta
+$$
 
-$$T = \frac{mv_0^2}{r} - 2mg + 2mg\cos\theta + mg\cos\theta = \frac{mv_0^2}{r} - 2mg + 3mg\cos\theta$$
+$$
+T = \frac{mv_0^2}{r} - 2mg + 2mg\cos\theta + mg\cos\theta = \frac{mv_0^2}{r} - 2mg + 3mg\cos\theta
+$$
 
 ### 4.5 Particle on the outside of a sphere
 
@@ -252,7 +308,9 @@ When $R = 0$: $mg\cos\theta = \dfrac{mv^2}{r} = \dfrac{2mg(1-\cos\theta)}{r}$.
 
 $g\cos\theta = 2g(1-\cos\theta) \implies \cos\theta = 2 - 2\cos\theta \implies 3\cos\theta = 2$.
 
-$$\boxed{\theta = \arccos\!\left(\frac{2}{3}\right) \approx 48.2°}$$
+$$
+\boxed{\theta = \arccos\!\left(\frac{2}{3}\right) \approx 48.2°}
+$$
 
 <hr />
 
@@ -260,11 +318,15 @@ $$\boxed{\theta = \arccos\!\left(\frac{2}{3}\right) \approx 48.2°}$$
 
 When the speed varies, there is both centripetal and tangential acceleration:
 
-$$a_c = \frac{v^2}{r} \quad \mathrm{(radially inward)}, \qquad a_t = \frac{dv}{dt} \quad \mathrm{(tangential)}$$
+$$
+a_c = \frac{v^2}{r} \quad \mathrm{(radially inward)}, \qquad a_t = \frac{dv}{dt} \quad \mathrm{(tangential)}
+$$
 
 The total acceleration has magnitude:
 
-$$a = \sqrt{a_c^2 + a_t^2}$$
+$$
+a = \sqrt{a_c^2 + a_t^2}
+$$
 
 The resultant force has a radial component providing $a_c$ and a tangential component providing
 $a_t$.
@@ -372,7 +434,9 @@ Energy: $\dfrac{1}{2}mv_b^2 = \dfrac{1}{2}mv_t^2 + mg(2r)$.
 
 For minimum: $v_b^2 = gr + 4gr = 5gr$.
 
-$$\boxed{v_{\min} = \sqrt{5gr}} \quad \blacksquare$$
+$$
+\boxed{v_{\min} = \sqrt{5gr}} \quad \blacksquare
+$$
 
 **If you get this wrong, revise:**
 [Proof of minimum speed at the top](#42-proof-of-minimum-speed-at-the-top), Section 4.2.
@@ -502,26 +566,38 @@ The speed at the lowest point (the reference level for energy).
 At angle $\theta$ measured from the **upward vertical** (so the top is $\theta = 0$ and the bottom
 Is $\theta = \pi$), the height above the lowest point is:
 
-$$h = r + r\cos\theta = r(1 + \cos\theta)$$
+$$
+h = r + r\cos\theta = r(1 + \cos\theta)
+$$
 
 By conservation of energy:
 
-$$\frac{1}{2}mv_0^2 = \frac{1}{2}mv^2 + mgr(1 + \cos\theta)$$
+$$
+\frac{1}{2}mv_0^2 = \frac{1}{2}mv^2 + mgr(1 + \cos\theta)
+$$
 
-$$\boxed{v^2 = v_0^2 - 2gr(1 + \cos\theta)}$$
+$$
+\boxed{v^2 = v_0^2 - 2gr(1 + \cos\theta)}
+$$
 
 ### 6.2 Tension at any point
 
 At angle $\theta$ from the upward vertical, the radial direction (towards the centre) has component
 Of weight $mg\cos\theta$ pointing **towards** the centre:
 
-$$T + mg\cos\theta = \frac{mv^2}{r}$$
+$$
+T + mg\cos\theta = \frac{mv^2}{r}
+$$
 
 Substituting the speed:
 
-$$T = \frac{m}{r}[v_0^2 - 2gr(1 + \cos\theta)] - mg\cos\theta = \frac{mv_0^2}{r} - 2mg - 2mg\cos\theta - mg\cos\theta$$
+$$
+T = \frac{m}{r}[v_0^2 - 2gr(1 + \cos\theta)] - mg\cos\theta = \frac{mv_0^2}{r} - 2mg - 2mg\cos\theta - mg\cos\theta
+$$
 
-$$\boxed{T = \frac{mv_0^2}{r} - 2mg - 3mg\cos\theta}$$
+$$
+\boxed{T = \frac{mv_0^2}{r} - 2mg - 3mg\cos\theta}
+$$
 
 ### 6.3 Verification at special points
 
@@ -536,7 +612,9 @@ At the midpoint ($\theta = \pi/2$, $\cos\theta = 0$): $T = \dfrac{mv_0^2}{r} - 2
 For a complete circle, we need $T \geq 0$ everywhere. The minimum tension occurs at the top
 ($\theta = 0$):
 
-$$\frac{mv_0^2}{r} - 5mg \geq 0 \implies v_0^2 \geq 5gr \implies \boxed{v_0 = \sqrt{5gr}}$$
+$$
+\frac{mv_0^2}{r} - 5mg \geq 0 \implies v_0^2 \geq 5gr \implies \boxed{v_0 = \sqrt{5gr}}
+$$
 
 At this speed, $T_{\mathrm{top}} = 0$ and the weight alone provides the centripetal acceleration at
 The top.
@@ -565,17 +643,27 @@ At limiting friction: $F = \mu N$.
 
 Substituting (i) into $F = \mu N$ and then into (ii):
 
-$$\mu(mg\cos\theta + \frac{mv^2}{r}\sin\theta) + mg\sin\theta = \frac{mv^2}{r}\cos\theta$$
+$$
+\mu(mg\cos\theta + \frac{mv^2}{r}\sin\theta) + mg\sin\theta = \frac{mv^2}{r}\cos\theta
+$$
 
-$$\mu g\cos\theta + \frac{\mu v^2\sin\theta}{r} + g\sin\theta = \frac{v^2\cos\theta}{r}$$
+$$
+\mu g\cos\theta + \frac{\mu v^2\sin\theta}{r} + g\sin\theta = \frac{v^2\cos\theta}{r}
+$$
 
-$$v^2\left(\frac{\cos\theta}{r} - \frac{\mu\sin\theta}{r}\right) = g(\mu\cos\theta + \sin\theta)$$
+$$
+v^2\left(\frac{\cos\theta}{r} - \frac{\mu\sin\theta}{r}\right) = g(\mu\cos\theta + \sin\theta)
+$$
 
-$$\boxed{v_{\max}^2 = \frac{rg(\sin\theta + \mu\cos\theta)}{\cos\theta - \mu\sin\theta}}$$
+$$
+\boxed{v_{\max}^2 = \frac{rg(\sin\theta + \mu\cos\theta)}{\cos\theta - \mu\sin\theta}}
+$$
 
 Similarly, when travelling slower than the optimum speed, friction acts **up the slope**:
 
-$$\boxed{v_{\min}^2 = \frac{rg(\sin\theta - \mu\cos\theta)}{\cos\theta + \mu\sin\theta}}$$
+$$
+\boxed{v_{\min}^2 = \frac{rg(\sin\theta - \mu\cos\theta)}{\cos\theta + \mu\sin\theta}}
+$$
 
 Note: $v_{\min}$ only exists if $\sin\theta > \mu\cos\theta$I.e., $\tan\theta > \mu$. If the bank
 Angle is too shallow, the car can come to rest without sliding down.
@@ -624,13 +712,21 @@ Since $r = L\sin\alpha$ and $v = \omega r = \omega L\sin\alpha$:
 From (i) and (ii):
 $\dfrac{mg\sin\alpha}{\cos\alpha} = \dfrac{m\omega^2 L^2\sin^2\alpha}{L\sin\alpha}$
 
-$$g\tan\alpha = \omega^2 L\sin\alpha$$
+$$
+g\tan\alpha = \omega^2 L\sin\alpha
+$$
 
-$$\omega^2 = \frac{g\tan\alpha}{L\sin\alpha} = \frac{g}{L\cos\alpha}$$
+$$
+\omega^2 = \frac{g\tan\alpha}{L\sin\alpha} = \frac{g}{L\cos\alpha}
+$$
 
-$$\boxed{\omega = \sqrt{\frac{g}{L\cos\alpha}}}$$
+$$
+\boxed{\omega = \sqrt{\frac{g}{L\cos\alpha}}}
+$$
 
-$$\boxed{T_{\mathrm{period}} = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{L\cos\alpha}{g}}}$$
+$$
+\boxed{T_{\mathrm{period}} = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{L\cos\alpha}{g}}}
+$$
 
 Key observations:
 
@@ -876,11 +972,17 @@ Resolving horizontally: $T\sin\theta = m\omega^2 r = 0.5 \times 16 \times \sin\t
 
 Dividing: $\tan\theta = \dfrac{8\sin\theta}{4.9/\cos\theta}$. Actually:
 
-$$\frac{T\sin\theta}{T\cos\theta} = \tan\theta = \frac{m\omega^2 L\sin\theta}{mg} = \frac{\omega^2 L \sin\theta}{g}$$
+$$
+\frac{T\sin\theta}{T\cos\theta} = \tan\theta = \frac{m\omega^2 L\sin\theta}{mg} = \frac{\omega^2 L \sin\theta}{g}
+$$
 
-$$\cos\theta = \frac{g}{\omega^2 L} = \frac{9.8}{16} = 0.6125$$
+$$
+\cos\theta = \frac{g}{\omega^2 L} = \frac{9.8}{16} = 0.6125
+$$
 
-$$\boxed{\theta \approx 52.2°}$$
+$$
+\boxed{\theta \approx 52.2°}
+$$
 
 ### Example 8.2: Car on a banked curve, maximum speed formula
 
@@ -892,11 +994,17 @@ $N = mg\cos\alpha + \dfrac{mv^2}{r}\sin\alpha$.
 
 Resolving along surface: $\dfrac{mv^2}{r}\cos\alpha = mg\sin\alpha + \mu N$.
 
-$$\frac{mv^2}{r}\cos\alpha = mg\sin\alpha + \mu mg\cos\alpha + \frac{\mu mv^2}{r}\sin\alpha$$
+$$
+\frac{mv^2}{r}\cos\alpha = mg\sin\alpha + \mu mg\cos\alpha + \frac{\mu mv^2}{r}\sin\alpha
+$$
 
-$$v^2\!\left(\frac{\cos\alpha}{r} - \frac{\mu\sin\alpha}{r}\right) = g(\sin\alpha + \mu\cos\alpha)$$
+$$
+v^2\!\left(\frac{\cos\alpha}{r} - \frac{\mu\sin\alpha}{r}\right) = g(\sin\alpha + \mu\cos\alpha)
+$$
 
-$$\boxed{v_{\max}^2 = \frac{rg(\sin\alpha + \mu\cos\alpha)}{\cos\alpha - \mu\sin\alpha}}$$
+$$
+\boxed{v_{\max}^2 = \frac{rg(\sin\alpha + \mu\cos\alpha)}{\cos\alpha - \mu\sin\alpha}}
+$$
 
 ### Example 8.3: Vertical circle, minimum speed at the top (rod)
 
@@ -906,7 +1014,9 @@ Vertical circle. Find the minimum angular speed for complete circles.
 **Solution.** At the top: $T + mg = m\omega^2 l$. For a rod, $T \geq 0$ (can push). Minimum:
 $T = 0$:
 
-$$mg = m\omega_{\min}^2 l \implies \boxed{\omega_{\min} = \sqrt{\frac{g}{l}}}$$
+$$
+mg = m\omega_{\min}^2 l \implies \boxed{\omega_{\min} = \sqrt{\frac{g}{l}}}
+$$
 
 ### Example 8.4: Energy approach to vertical circles
 
@@ -918,9 +1028,13 @@ Complete circles.
 
 Energy conservation: $\dfrac{1}{2}mu^2 = \dfrac{1}{2}mv_{\text{top}}^2 + mg(2r)$.
 
-$$u^2 = gr + 4gr = 5gr = 5 \times 9.8 \times 0.5 = 24.5$$
+$$
+u^2 = gr + 4gr = 5gr = 5 \times 9.8 \times 0.5 = 24.5
+$$
 
-$$\boxed{u_{\min} = \sqrt{24.5} \approx 4.95\,\mathrm{m\,s^{-1}}}$$
+$$
+\boxed{u_{\min} = \sqrt{24.5} \approx 4.95\,\mathrm{m\,s^{-1}}}
+$$
 
 ### Example 8.5: Tension at arbitrary angle in vertical circle
 
@@ -929,7 +1043,9 @@ $\theta$ from the downward vertical, find the tension.
 
 **Solution.** Resolving toward the centre:
 
-$$\boxed{T = \frac{mv^2}{r} + mg\cos\theta}$$
+$$
+\boxed{T = \frac{mv^2}{r} + mg\cos\theta}
+$$
 
 At the bottom ($\theta = 0$): $T = \dfrac{mv^2}{r} + mg$ (maximum). At the top ($\theta = \pi$):
 $T = \dfrac{mv^2}{r} - mg$ (minimum).
@@ -941,9 +1057,13 @@ If $\omega = 10\,\mathrm{rad\,s^{-1}}$ at $t = 0$Find $\omega(t)$.
 
 **Solution.** $\dfrac{d\omega}{dt} = -0.2\omega$. Separable:
 
-$$\int \frac{d\omega}{\omega} = \int -0.2\,dt \implies \ln\omega = -0.2t + \ln 10$$
+$$
+\int \frac{d\omega}{\omega} = \int -0.2\,dt \implies \ln\omega = -0.2t + \ln 10
+$$
 
-$$\boxed{\omega = 10e^{-0.2t}}$$
+$$
+\boxed{\omega = 10e^{-0.2t}}
+$$
 
 ---
 
@@ -990,7 +1110,9 @@ $N\sin\theta = \dfrac{mv^2}{r}$ where $\sin\theta = \dfrac{r}{R}$ And $N\cos\the
 
 $\tan\theta = \dfrac{v^2}{rg} \implies \dfrac{r}{\sqrt{R^2-r^2}} = \dfrac{v^2}{rg}$.
 
-$$\boxed{v^2 = \frac{r^2 g}{\sqrt{R^2 - r^2}}}$$
+$$
+\boxed{v^2 = \frac{r^2 g}{\sqrt{R^2 - r^2}}}
+$$
 
 </details>
 
@@ -1146,7 +1268,9 @@ Constant. $\blacksquare$
 The angular momentum of a particle of mass $m$ moving with velocity $\mathbf{v}$ at position
 $\mathbf{r}$ from a point $O$ is:
 
-$$\mathbf{L} = \mathbf{r} \times m\mathbf{v} = mr^2\boldsymbol{\omega}$$
+$$
+\mathbf{L} = \mathbf{r} \times m\mathbf{v} = mr^2\boldsymbol{\omega}
+$$
 
 For a rigid body rotating about a fixed axis: $L = I\omega$ where $I$ is the moment of inertia.
 
@@ -1154,7 +1278,9 @@ For a rigid body rotating about a fixed axis: $L = I\omega$ where $I$ is the mom
 
 The angular impulse-momentum principle states:
 
-$$\int_{t_1}^{t_2} \boldsymbol{\tau}\,dt = \Delta \mathbf{L} = I\omega_2 - I\omega_1$$
+$$
+\int_{t_1}^{t_2} \boldsymbol{\tau}\,dt = \Delta \mathbf{L} = I\omega_2 - I\omega_1
+$$
 
 Where $\boldsymbol{\tau}$ is the torque about the axis.
 
@@ -1274,13 +1400,17 @@ The particle leaves the sphere at $\theta = \arccos(2/3) \approx 48.2°$ from th
 For a particle sliding on the inside of a smooth vertical sphere of radius $r$The condition for
 Maintaining contact is:
 
-$$v^2 \leq gr\cos\theta$$
+$$
+v^2 \leq gr\cos\theta
+$$
 
 Where $\theta$ is measured from the downward vertical.
 
 By energy conservation from the top:
 
-$$2gr(1-\cos\theta) \leq gr\cos\theta \implies \cos\theta \geq \frac{2}{3}$$
+$$
+2gr(1-\cos\theta) \leq gr\cos\theta \implies \cos\theta \geq \frac{2}{3}
+$$
 
 The particle leaves the surface at $\theta = \arccos(2/3)$.
 
@@ -1288,7 +1418,9 @@ The particle leaves the surface at $\theta = \arccos(2/3)$.
 
 On a banked curve, the frictionless condition is:
 
-$$\tan\alpha = \frac{v^2}{rg}$$
+$$
+\tan\alpha = \frac{v^2}{rg}
+$$
 
 Where $\alpha$ is the banking angle. This means for a given speed $v$ and radius $r$There is an
 Ideal banking angle that requires no friction at all.

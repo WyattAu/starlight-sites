@@ -588,19 +588,31 @@ At this concentration, the contribution from water autoionization
 ($[\mathrm{H}^+] = 10^{-7}\mathrm{ M}$) is Significant and cannot be ignored. Let
 $x = [\mathrm{OH}^-]$ from water autoionization:
 
-$$[\mathrm{H}^+]_{\mathrm{total}} = 1.0 \times 10^{-8} + x$$
+$$
+[\mathrm{H}^+]_{\mathrm{total}} = 1.0 \times 10^{-8} + x
+$$
 
-$$K_w = [\mathrm{H}^+][\mathrm{OH}^-] = (1.0 \times 10^{-8} + x)(x) = 1.0 \times 10^{-14}$$
+$$
+K_w = [\mathrm{H}^+][\mathrm{OH}^-] = (1.0 \times 10^{-8} + x)(x) = 1.0 \times 10^{-14}
+$$
 
-$$x^2 + 1.0 \times 10^{-8}x - 1.0 \times 10^{-14} = 0$$
+$$
+x^2 + 1.0 \times 10^{-8}x - 1.0 \times 10^{-14} = 0
+$$
 
 Using the quadratic formula:
 
-$$x = \frac{-1.0 \times 10^{-8} + \sqrt{(1.0 \times 10^{-8})^2 + 4(1.0 \times 10^{-14})}}{2} = \frac{-1.0 \times 10^{-8} + 2.00 \times 10^{-7}}{2} = 9.5 \times 10^{-8}$$
+$$
+x = \frac{-1.0 \times 10^{-8} + \sqrt{(1.0 \times 10^{-8})^2 + 4(1.0 \times 10^{-14})}}{2} = \frac{-1.0 \times 10^{-8} + 2.00 \times 10^{-7}}{2} = 9.5 \times 10^{-8}
+$$
 
-$$[\mathrm{H}^+]_{\mathrm{total}} = 1.0 \times 10^{-8} + 9.5 \times 10^{-8} = 1.05 \times 10^{-7}\mathrm{ M}$$
+$$
+[\mathrm{H}^+]_{\mathrm{total}} = 1.0 \times 10^{-8} + 9.5 \times 10^{-8} = 1.05 \times 10^{-7}\mathrm{ M}
+$$
 
-$$\mathrm{pH} = -\log(1.05 \times 10^{-7}) = 6.98$$
+$$
+\mathrm{pH} = -\log(1.05 \times 10^{-7}) = 6.98
+$$
 
 The $\mathrm{pH}$ is close to 7 but slightly acidic, as expected for a very dilute strong acid.
 Ignoring Water autoionization would give the incorrect result $\mathrm{pH} = 8.00$ (a basic
@@ -619,25 +631,43 @@ $\mathrm{NaOH}$.
 
 At the equivalence point, all of the weak acid has been converted to its conjugate base:
 
-$$n(\mathrm{CH}_3\mathrm{COOH}) = 0.0250 \times 0.100 = 0.00250\mathrm{ mol}$$
+$$
+n(\mathrm{CH}_3\mathrm{COOH}) = 0.0250 \times 0.100 = 0.00250\mathrm{ mol}
+$$
 
-$$V(\mathrm{NaOH}) = \frac{0.00250}{0.100} = 25.0\mathrm{ mL}$$
+$$
+V(\mathrm{NaOH}) = \frac{0.00250}{0.100} = 25.0\mathrm{ mL}
+$$
 
-$$V_{\mathrm{total}} = 50.0\mathrm{ mL} = 0.0500\mathrm{ L}$$
+$$
+V_{\mathrm{total}} = 50.0\mathrm{ mL} = 0.0500\mathrm{ L}
+$$
 
-$$[\mathrm{CH}_3\mathrm{COO}^-] = \frac{0.00250}{0.0500} = 0.0500\mathrm{ M}$$
+$$
+[\mathrm{CH}_3\mathrm{COO}^-] = \frac{0.00250}{0.0500} = 0.0500\mathrm{ M}
+$$
 
 The conjugate base hydrolyses water:
 
-$$\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-$$
+$$
+\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-
+$$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}
+$$
 
-$$[\mathrm{OH}^-] = \sqrt{K_b \times [\mathrm{CH}_3\mathrm{COO}^-]} = \sqrt{5.56 \times 10^{-10} \times 0.0500} = 5.27 \times 10^{-6}\mathrm{ M}$$
+$$
+[\mathrm{OH}^-] = \sqrt{K_b \times [\mathrm{CH}_3\mathrm{COO}^-]} = \sqrt{5.56 \times 10^{-10} \times 0.0500} = 5.27 \times 10^{-6}\mathrm{ M}
+$$
 
-$$\mathrm{pOH} = -\log(5.27 \times 10^{-6}) = 5.28$$
+$$
+\mathrm{pOH} = -\log(5.27 \times 10^{-6}) = 5.28
+$$
 
-$$\mathrm{pH} = 14.00 - 5.28 = 8.72$$
+$$
+\mathrm{pH} = 14.00 - 5.28 = 8.72
+$$
 
 The equivalence point is basic because the conjugate base of a weak acid is itself a weak base.
 Phenolphthalein (transition range 8.3--10.0) is a suitable indicator. Bromothymol blue (6.0--7.6)
@@ -661,11 +691,15 @@ second salt begins To precipitate.
 
 For $\mathrm{AgCl}$:
 
-$$[\mathrm{Ag}^+] = \frac{K_{sp}}{[\mathrm{Cl}^-]} = \frac{1.8 \times 10^{-10}}{0.020} = 9.0 \times 10^{-9}\mathrm{ M}$$
+$$
+[\mathrm{Ag}^+] = \frac{K_{sp}}{[\mathrm{Cl}^-]} = \frac{1.8 \times 10^{-10}}{0.020} = 9.0 \times 10^{-9}\mathrm{ M}
+$$
 
 For $\mathrm{Ag}_2\mathrm{CrO}_4$:
 
-$$[\mathrm{Ag}^+] = \sqrt{\frac{K_{sp}}{[\mathrm{CrO}_4^{2-}]}} = \sqrt{\frac{1.1 \times 10^{-12}}{0.020}} = 7.4 \times 10^{-6}\mathrm{ M}$$
+$$
+[\mathrm{Ag}^+] = \sqrt{\frac{K_{sp}}{[\mathrm{CrO}_4^{2-}]}} = \sqrt{\frac{1.1 \times 10^{-12}}{0.020}} = 7.4 \times 10^{-6}\mathrm{ M}
+$$
 
 **Step 2: Identify which precipitates first.**
 
@@ -677,7 +711,9 @@ precipitate.**
 
 When $[\mathrm{Ag}^+] = 7.4 \times 10^{-6}\mathrm{ M}$:
 
-$$[\mathrm{Cl}^-]_{\mathrm{remaining}} = \frac{K_{sp}}{[\mathrm{Ag}^+]} = \frac{1.8 \times 10^{-10}}{7.4 \times 10^{-6}} = 2.4 \times 10^{-5}\mathrm{ M}$$
+$$
+[\mathrm{Cl}^-]_{\mathrm{remaining}} = \frac{K_{sp}}{[\mathrm{Ag}^+]} = \frac{1.8 \times 10^{-10}}{7.4 \times 10^{-6}} = 2.4 \times 10^{-5}\mathrm{ M}
+$$
 
 Fraction of $\mathrm{Cl}^-$ precipitated:
 $\dfrac{0.020 - 2.4 \times 10^{-5}}{0.020} \times 100\% = 99.9\%$
@@ -699,27 +735,43 @@ $\mathrm{NH}_3$.
 
 **Step 1: Find the $\mathrm{p}K_a$ of the conjugate acid $\mathrm{NH}_4^+$.**
 
-$$\mathrm{p}K_b = -\log(1.8 \times 10^{-5}) = 4.74$$
+$$
+\mathrm{p}K_b = -\log(1.8 \times 10^{-5}) = 4.74
+$$
 
-$$\mathrm{p}K_a = 14.00 - 4.74 = 9.26$$
+$$
+\mathrm{p}K_a = 14.00 - 4.74 = 9.26
+$$
 
 **Step 2: Apply the Henderson-Hasselbalch equation.**
 
-$$9.50 = 9.26 + \log\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]}$$
+$$
+9.50 = 9.26 + \log\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]}
+$$
 
-$$\log\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]} = 0.24$$
+$$
+\log\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]} = 0.24
+$$
 
-$$\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]} = 10^{0.24} = 1.74$$
+$$
+\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]} = 10^{0.24} = 1.74
+$$
 
 **Step 3: Solve for the required $[\mathrm{NH}_4^+]$.**
 
-$$[\mathrm{NH}_4^+] = \frac{0.200}{1.74} = 0.115\mathrm{ M}$$
+$$
+[\mathrm{NH}_4^+] = \frac{0.200}{1.74} = 0.115\mathrm{ M}
+$$
 
 **Step 4: Calculate the mass of $\mathrm{NH}_4\mathrm{Cl}$.**
 
-$$n(\mathrm{NH}_4\mathrm{Cl}) = 0.115 \times 0.500 = 0.0575\mathrm{ mol}$$
+$$
+n(\mathrm{NH}_4\mathrm{Cl}) = 0.115 \times 0.500 = 0.0575\mathrm{ mol}
+$$
 
-$$m(\mathrm{NH}_4\mathrm{Cl}) = 0.0575 \times 53.49 = 3.08\mathrm{ g}$$
+$$
+m(\mathrm{NH}_4\mathrm{Cl}) = 0.0575 \times 53.49 = 3.08\mathrm{ g}
+$$
 
 </details>
 
@@ -738,12 +790,16 @@ Suitable indicators.
 All $\mathrm{H}_3\mathrm{PO}_4$ is converted to $\mathrm{H}_2\mathrm{PO}_4^-$ (an amphoteric
 species).
 
-$$[\mathrm{H}_2\mathrm{PO}_4^-] = \frac{0.00250}{0.0500} = 0.0500\mathrm{ M}$$
+$$
+[\mathrm{H}_2\mathrm{PO}_4^-] = \frac{0.00250}{0.0500} = 0.0500\mathrm{ M}
+$$
 
 For an amphoteric species, the $\mathrm{pH}$ is approximately the average of the two relevant
 $\mathrm{p}K_a$ values:
 
-$$\mathrm{pH} \approx \frac{\mathrm{p}K_{a1} + \mathrm{p}K_{a2}}{2} = \frac{2.12 + 7.21}{2} = 4.67$$
+$$
+\mathrm{pH} \approx \frac{\mathrm{p}K_{a1} + \mathrm{p}K_{a2}}{2} = \frac{2.12 + 7.21}{2} = 4.67
+$$
 
 A suitable indicator: bromocresol green (3.8--5.4) or methyl red (4.4--6.2).
 
@@ -751,9 +807,13 @@ A suitable indicator: bromocresol green (3.8--5.4) or methyl red (4.4--6.2).
 
 All $\mathrm{H}_2\mathrm{PO}_4^-$ is converted to $\mathrm{HPO}_4^{2-}$ (also amphoteric).
 
-$$[\mathrm{HPO}_4^{2-}] = \frac{0.00250}{0.0750} = 0.0333\mathrm{ M}$$
+$$
+[\mathrm{HPO}_4^{2-}] = \frac{0.00250}{0.0750} = 0.0333\mathrm{ M}
+$$
 
-$$\mathrm{pH} \approx \frac{\mathrm{p}K_{a2} + \mathrm{p}K_{a3}}{2} = \frac{7.21 + 12.32}{2} = 9.76$$
+$$
+\mathrm{pH} \approx \frac{\mathrm{p}K_{a2} + \mathrm{p}K_{a3}}{2} = \frac{7.21 + 12.32}{2} = 9.76
+$$
 
 A suitable indicator: phenolphthalein (8.3--10.0).
 

@@ -22,32 +22,44 @@ description: "For a time-dependent perturbation applied to an initial state Comp
 For a time-dependent perturbation $\hat{V}(t) = \hat{V}\,e^{-i\omega t}$ applied to an initial state
 $|i\rangle$The transition rate to a continuum of final states $|f\rangle$ is:
 
-$$\Gamma_{i \to f} = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f)$$
+$$
+\Gamma_{i \to f} = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f)
+$$
 
 Where $\rho(E_f)$ is the density of final states at energy $E_f = E_i + \hbar\omega$.
 
 **Derivation.** Using first-order time-dependent perturbation theory, the transition amplitude to
 state $|f\rangle$ is:
 
-$$c_f(t) = -\frac{i}{\hbar}\int_0^t \langle f|\hat{V}|i\rangle\,e^{i\omega_{fi}t'}\, dt'$$
+$$
+c_f(t) = -\frac{i}{\hbar}\int_0^t \langle f|\hat{V}|i\rangle\,e^{i\omega_{fi}t'}\, dt'
+$$
 
 For a sinusoidal perturbation at frequency $\omega$:
 
-$$|c_f|^2 = \frac{|\langle f|\hat{V}|i\rangle|^2}{\hbar^2}\frac{\sin^2[(\omega_{fi} - \omega)t/2]}{(\omega_{fi} - \omega)^2/4}$$
+$$
+|c_f|^2 = \frac{|\langle f|\hat{V}|i\rangle|^2}{\hbar^2}\frac{\sin^2[(\omega_{fi} - \omega)t/2]}{(\omega_{fi} - \omega)^2/4}
+$$
 
 In the long-time limit, $\sin^2(xt)/x^2 \to 2\pi t\,\delta(x)$Giving:
 
-$$\frac{|c_f|^2}{t} = \frac{2\pi}{\hbar^2}|\langle f|\hat{V}|i\rangle|^2\,\delta(E_f - E_i - \hbar\omega)$$
+$$
+\frac{|c_f|^2}{t} = \frac{2\pi}{\hbar^2}|\langle f|\hat{V}|i\rangle|^2\,\delta(E_f - E_i - \hbar\omega)
+$$
 
 Summing over all final states with density $\rho(E_f)$:
 
-$$\Gamma = \int \frac{d|c_f|^2}{dt}\,\rho(E_f)\,dE_f = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f) \quad \blacksquare$$
+$$
+\Gamma = \int \frac{d|c_f|^2}{dt}\,\rho(E_f)\,dE_f = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f) \quad \blacksquare
+$$
 
 ### 11.2 Selection Rules for Electric Dipole Transitions
 
 The electric dipole matrix element:
 
-$$\langle f|\hat{\mathbf{d}}|i\rangle = -e\langle f|\mathbf{r}|i\rangle$$
+$$
+\langle f|\hat{\mathbf{d}}|i\rangle = -e\langle f|\mathbf{r}|i\rangle
+$$
 
 For hydrogen-like atoms, the selection rules are:
 
@@ -57,7 +69,9 @@ For hydrogen-like atoms, the selection rules are:
 
 The transition rate for $2p \to 1s$ in hydrogen:
 
-$$A_{2p \to 1s} = \frac{\omega^3}{3\pi\varepsilon_0\hbar c^3}|\langle 1s|e\mathbf{r}|2p\rangle|^2$$
+$$
+A_{2p \to 1s} = \frac{\omega^3}{3\pi\varepsilon_0\hbar c^3}|\langle 1s|e\mathbf{r}|2p\rangle|^2
+$$
 
 With $|\langle 1s|z|2p, m=0\rangle| = \frac{2^7\sqrt{2}}{3^5}a_0$This gives
 $A_{2p \to 1s} \approx 6.3 \times 10^8$ s$^{-1}$Corresponding to a lifetime $\tau \approx 1.6$ ns.
@@ -67,7 +81,9 @@ $A_{2p \to 1s} \approx 6.3 \times 10^8$ s$^{-1}$Corresponding to a lifetime $\ta
 The **Einstein $A$ coefficient** (spontaneous emission rate) is related to the $B$ coefficient
 (stimulated emission/absorption):
 
-$$A_{21} = \frac{\hbar\omega^3}{\pi^2 c^3}B_{21}$$
+$$
+A_{21} = \frac{\hbar\omega^3}{\pi^2 c^3}B_{21}
+$$
 
 This relation, derived by Einstein in 1917 using thermodynamic arguments (detailed balance in a
 blackbody radiation field), was one of the first indications that spontaneous emission requires
@@ -133,7 +149,9 @@ $A_{3d \to 2p} \sim 6.4 \times 10^7$ s$^{-1}$.
 
 **Solution.** The dipole matrix element for $1s \to$ continuum is approximately $\langle \epsilon_p | e\mathbf{r} | 1s \rangle \sim ea_0$. The density of continuum states at photoelectron energy $\epsilon = \hbar\omega - 13.6$ eV:
 
-$$k = \sqrt{2m\epsilon}/\hbar, \quad \rho(\epsilon) = \frac{V m k}{(2\pi)^3 \hbar^2} d\Omega$$
+$$
+k = \sqrt{2m\epsilon}/\hbar, \quad \rho(\epsilon) = \frac{V m k}{(2\pi)^3 \hbar^2} d\Omega
+$$
 
 The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 10^{-18}$ cm$^2$ for hydrogen. At intensity $I = 10^{12}$ W/m$^2$, the rate $\Gamma = \sigma I / (\hbar\omega) \approx 10^{14}$ s$^{-1}$, complete ionisation occurs within femtoseconds for intense fields.
 

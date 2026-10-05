@@ -31,7 +31,9 @@ description: "Study notes for Inorganic with worked examples, practice problems,
 ### 化学平衡
 
 **平衡常数：** 对于反应 $aA + bB \rightleftharpoons cC + dD$：
-$$K = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
+$$
+K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
+$$
 
 **勒夏特列原理：** 改变影响平衡的条件，平衡将向减弱这种改变的方向移动。
 
@@ -80,7 +82,9 @@ $$\begin{array}{lccc}
 \end{array}$$
 
 步骤2：代入平衡常数表达式：
-$$K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{1.2^2}{1.4 \times 4.2^3} = \frac{1.44}{1.4 \times 74.088} = \frac{1.44}{103.723} \approx 0.014$$
+$$
+K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{1.2^2}{1.4 \times 4.2^3} = \frac{1.44}{1.4 \times 74.088} = \frac{1.44}{103.723} \approx 0.014
+$$
 
 **答案：** $K \approx 0.014$
 
@@ -97,7 +101,9 @@ $$K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{1.2^2}{1.4 \tim
 步骤2：使化合价升降总数相等：$\text{Fe}^{2+}$ 系数为 $5$，$\text{MnO}_4^-$ 系数为 $1$
 
 步骤3：配平其他原子：
-$$\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ = \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$$
+$$
+\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ = \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}
+$$
 
 **答案：** $\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ = \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$
 
@@ -139,7 +145,9 @@ $$\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ = \text{Mn}^{2+} + 5\text{Fe}^{
 步骤1：体积缩小到一半，各组分浓度瞬时增大为原来的 $2$ 倍。
 
 步骤2：计算浓度商 $Q$：
-$$Q = \frac{(2[\text{NH}_3])^2}{(2[\text{N}_2])(2[\text{H}_2])^3} = \frac{4[\text{NH}_3]^2}{16[\text{N}_2][\text{H}_2]^3} = \frac{1}{4}K$$
+$$
+Q = \frac{(2[\text{NH}_3])^2}{(2[\text{N}_2])(2[\text{H}_2])^3} = \frac{4[\text{NH}_3]^2}{16[\text{N}_2][\text{H}_2]^3} = \frac{1}{4}K
+$$
 
 步骤3：由于 $Q < K$，平衡向正反应方向移动（向右移动）。
 
@@ -205,13 +213,19 @@ $$Q = \frac{(2[\text{NH}_3])^2}{(2[\text{N}_2])(2[\text{H}_2])^3} = \frac{4[\tex
 **解答：**
 
 步骤1：先计算原平衡的 $K$：
-$$K = \frac{[\text{HI}]^2}{[\text{H}_2][\text{I}_2]} = \frac{0.8^2}{0.5 \times 0.1} = \frac{0.64}{0.05} = 12.8$$
+$$
+K = \frac{[\text{HI}]^2}{[\text{H}_2][\text{I}_2]} = \frac{0.8^2}{0.5 \times 0.1} = \frac{0.64}{0.05} = 12.8
+$$
 
 步骤2：加入 $\text{HI}$ 后，各物质浓度瞬时变为：
-$$[\text{H}_2] = 0.5,\quad [\text{I}_2] = 0.1,\quad [\text{HI}] = 1.0$$
+$$
+[\text{H}_2] = 0.5,\quad [\text{I}_2] = 0.1,\quad [\text{HI}] = 1.0
+$$
 
 步骤3：计算浓度商 $Q$：
-$$Q = \frac{1.0^2}{0.5 \times 0.1} = \frac{1.0}{0.05} = 20$$
+$$
+Q = \frac{1.0^2}{0.5 \times 0.1} = \frac{1.0}{0.05} = 20
+$$
 
 步骤4：由于 $Q = 20 > K = 12.8$，平衡向逆反应方向移动。
 
@@ -228,18 +242,26 @@ $$Q = \frac{1.0^2}{0.5 \times 0.1} = \frac{1.0}{0.05} = 20$$
 步骤1：阴极反应：$\text{Cu}^{2+} + 2e^- = \text{Cu}$
 
 步骤2：阴极增重 $6.4\,\text{g}$，即析出铜的物质的量：
-$$n(\text{Cu}) = \frac{6.4}{64} = 0.1\,\text{mol}$$
+$$
+n(\text{Cu}) = \frac{6.4}{64} = 0.1\,\text{mol}
+$$
 
 步骤3：转移电子的物质的量：
-$$n(e^-) = 0.1 \times 2 = 0.2\,\text{mol}$$
+$$
+n(e^-) = 0.1 \times 2 = 0.2\,\text{mol}
+$$
 
 步骤4：阳极反应：$4\text{OH}^- - 4e^- = 2\text{H}_2\text{O} + \text{O}_2 \uparrow$
 
 步骤5：阳极产生氧气的物质的量：
-$$n(\text{O}_2) = \frac{0.2}{4} = 0.05\,\text{mol}$$
+$$
+n(\text{O}_2) = \frac{0.2}{4} = 0.05\,\text{mol}
+$$
 
 步骤6：标准状况下体积：
-$$V = 0.05 \times 22.4 = 1.12\,\text{L}$$
+$$
+V = 0.05 \times 22.4 = 1.12\,\text{L}
+$$
 
 **答案：** 阳极产生的气体体积为 $1.12\,\text{L}$
 
@@ -252,19 +274,29 @@ $$V = 0.05 \times 22.4 = 1.12\,\text{L}$$
 **解答：**
 
 步骤1：反应方程式：
-$$\text{NaHCO}_3 + \text{NaOH} = \text{Na}_2\text{CO}_3 + \text{H}_2\text{O}$$
+$$
+\text{NaHCO}_3 + \text{NaOH} = \text{Na}_2\text{CO}_3 + \text{H}_2\text{O}
+$$
 
 步骤2：等体积混合后，溶质为 $\text{Na}_2\text{CO}_3$，浓度为 $0.05\,\text{mol/L}$。
 
 步骤3：$\text{Na}_2\text{CO}_3$ 完全电离：
-$$\text{Na}_2\text{CO}_3 = 2\text{Na}^+ + \text{CO}_3^{2-}$$
+$$
+\text{Na}_2\text{CO}_3 = 2\text{Na}^+ + \text{CO}_3^{2-}
+$$
 
 步骤4：$\text{CO}_3^{2-}$ 水解：
-$$\text{CO}_3^{2-} + \text{H}_2\text{O} \rightleftharpoons \text{HCO}_3^- + \text{OH}^-$$
-$$\text{HCO}_3^- + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3 + \text{OH}^-$$
+$$
+\text{CO}_3^{2-} + \text{H}_2\text{O} \rightleftharpoons \text{HCO}_3^- + \text{OH}^-
+$$
+$$
+\text{HCO}_3^- + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3 + \text{OH}^-
+$$
 
 步骤5：离子浓度大小：
-$$c(\text{Na}^+) > c(\text{CO}_3^{2-}) > c(\text{OH}^-) > c(\text{HCO}_3^-) > c(\text{H}^+)$$
+$$
+c(\text{Na}^+) > c(\text{CO}_3^{2-}) > c(\text{OH}^-) > c(\text{HCO}_3^-) > c(\text{H}^+)
+$$
 
 **答案：** $c(\text{Na}^+) > c(\text{CO}_3^{2-}) > c(\text{OH}^-) > c(\text{HCO}_3^-) > c(\text{H}^+)$
 

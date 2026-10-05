@@ -45,31 +45,49 @@ Evaluate this claim by comparing your answers to (a) and (b). [2 marks]
 
 (a) $CH_{3}COOH \rightleftharpoons CH_{3}COO^{-} + H^{+}$
 
-$$K_{a} = \frac{[CH_{3}COO^{-}][H^{+}]}{[CH_{3}COOH]}$$
+$$
+K_{a} = \frac{[CH_{3}COO^{-}][H^{+}]}{[CH_{3}COOH]}
+$$
 
 At equilibrium, let $[H^{+}] = x$:
 
-$$1.8 \times 10^{-5} = \frac{x \cdot x}{0.10 - x}$$
+$$
+1.8 \times 10^{-5} = \frac{x \cdot x}{0.10 - x}
+$$
 
 Assuming $x \ll 0.10$ (i.e., dissociation is small):
 
-$$1.8 \times 10^{-5} \approx \frac{x^{2}}{0.10}$$
+$$
+1.8 \times 10^{-5} \approx \frac{x^{2}}{0.10}
+$$
 
-$$x^{2} = 1.8 \times 10^{-6}$$
+$$
+x^{2} = 1.8 \times 10^{-6}
+$$
 
-$$x = 1.34 \times 10^{-3} \text{ mol/dm}^{3}$$
+$$
+x = 1.34 \times 10^{-3} \text{ mol/dm}^{3}
+$$
 
 Check: $x/0.10 = 1.34\% \lt 5\%$ -- assumption valid.
 
-$$pH = -\log(1.34 \times 10^{-3}) = 2.87$$
+$$
+pH = -\log(1.34 \times 10^{-3}) = 2.87
+$$
 
 (b) $$1.8 \times 10^{-5} = \frac{x^{2}}{0.010}$$
 
-$$x^{2} = 1.8 \times 10^{-7}$$
+$$
+x^{2} = 1.8 \times 10^{-7}
+$$
 
-$$x = 4.24 \times 10^{-4} \text{ mol/dm}^{3}$$
+$$
+x = 4.24 \times 10^{-4} \text{ mol/dm}^{3}
+$$
 
-$$pH = -\log(4.24 \times 10^{-4}) = 3.37$$
+$$
+pH = -\log(4.24 \times 10^{-4}) = 3.37
+$$
 
 (c) The pH change: $3.37 - 2.87 = 0.50$.
 
@@ -123,43 +141,69 @@ marks]
 
 (a) After mixing, total volume = 200 cm$^{3}$.
 
-$$[CH_{3}COOH] = \frac{0.20 \times 100}{200} = 0.10 \text{ mol/dm}^{3}$$
+$$
+[CH_{3}COOH] = \frac{0.20 \times 100}{200} = 0.10 \text{ mol/dm}^{3}
+$$
 
-$$[CH_{3}COO^{-}] = \frac{0.10 \times 100}{200} = 0.050 \text{ mol/dm}^{3}$$
+$$
+[CH_{3}COO^{-}] = \frac{0.10 \times 100}{200} = 0.050 \text{ mol/dm}^{3}
+$$
 
 Using the Henderson-Hasselbalch equation:
 
-$$pH = pK_{a} + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}$$
+$$
+pH = pK_{a} + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}
+$$
 
-$$pK_{a} = -\log(1.8 \times 10^{-5}) = 4.74$$
+$$
+pK_{a} = -\log(1.8 \times 10^{-5}) = 4.74
+$$
 
-$$pH = 4.74 + \log\frac{0.050}{0.10} = 4.74 + \log(0.5) = 4.74 - 0.30 = 4.44$$
+$$
+pH = 4.74 + \log\frac{0.050}{0.10} = 4.74 + \log(0.5) = 4.74 - 0.30 = 4.44
+$$
 
 (b) In 50.0 cm$^{3}$ of buffer:
 
-$$n(CH_{3}COOH) = 0.10 \times 0.050 = 0.00500 \text{ mol}$$
+$$
+n(CH_{3}COOH) = 0.10 \times 0.050 = 0.00500 \text{ mol}
+$$
 
-$$n(CH_{3}COO^{-}) = 0.050 \times 0.050 = 0.00250 \text{ mol}$$
+$$
+n(CH_{3}COO^{-}) = 0.050 \times 0.050 = 0.00250 \text{ mol}
+$$
 
 Moles of $HCl$ added: $n(HCl) = 0.10 \times 0.0050 = 0.000500$ mol
 
 The $H^{+}$ from HCl reacts with $CH_{3}COO^{-}$:
 
-$$CH_{3}COO^{-} + H^{+} \rightarrow CH_{3}COOH}$$
+$$
+CH_{3}COO^{-} + H^{+} \rightarrow CH_{3}COOH}
+$$
 
 New moles:
 
-$$n(CH_{3}COO^{-}) = 0.00250 - 0.000500 = 0.00200 \text{ mol}$$
+$$
+n(CH_{3}COO^{-}) = 0.00250 - 0.000500 = 0.00200 \text{ mol}
+$$
 
-$$n(CH_{3}COOH) = 0.00500 + 0.000500 = 0.00550 \text{ mol}$$
+$$
+n(CH_{3}COOH) = 0.00500 + 0.000500 = 0.00550 \text{ mol}
+$$
 
 New total volume = $50.0 + 5.0 = 55.0$ cm$^{3}$:
 
-$$[CH_{3}COOH] = \frac{0.00550}{0.0550} = 0.100 \text{ mol/dm}^{3}$$
+$$
+[CH_{3}COOH] = \frac{0.00550}{0.0550} = 0.100 \text{ mol/dm}^{3}
+$$
 
-$$[CH_{3}COO^{-}] = \frac{0.00200}{0.0550} = 0.0364 \text{ mol/dm}^{3}$$
+$$
+[CH_{3}COO^{-}] = \frac{0.00200}{0.0550} = 0.0364 \text{ mol/dm}^{3}
+$$
 
-$$pH = 4.74 + \log\frac{0.0364}{0.100} = 4.74 + \log(0.364) = 4.74 - 0.439 = 4.30$$
+$$
+pH = 4.74 + \log\frac{0.0364}{0.100} = 4.74 + \log(0.364) = 4.74 - 0.439 = 4.30
+$$
 
 (c) The buffer contains a weak acid ($CH_{3}COOH$) and its conjugate base ($CH_{3}COO^{-}$). When a
 strong acid ($H^{+}$) is added, the $H^{+}$ ions react with $CH_{3}COO^{-}$ to form
@@ -209,7 +253,9 @@ $NH_{4}Cl$ dissociates completely in water: $NH_{4}Cl \rightarrow NH_{4}^{+} + C
 The ammonium ion ($NH_{4}^{+}$) is the conjugate acid of the weak base ammonia ($NH_{3}$). It
 undergoes **hydrolysis**:
 
-$$NH_{4}^{+} + H_{2}O \rightleftharpoons NH_{3} + H_{3}O^{+}$$
+$$
+NH_{4}^{+} + H_{2}O \rightleftharpoons NH_{3} + H_{3}O^{+}
+$$
 
 This reaction releases $H_{3}O^{+}$ ions, making the solution acidic. The chloride ion ($Cl^{-}$) is
 the conjugate base of a strong acid ($HCl$) and does not hydrolyse.
@@ -221,7 +267,9 @@ $CH_{3}COONa$ dissociates completely: $CH_{3}COONa \rightarrow CH_{3}COO^{-} + N
 The ethanoate ion ($CH_{3}COO^{-}$) is the conjugate base of the weak acid ethanoic acid
 ($CH_{3}COOH$). It undergoes hydrolysis:
 
-$$CH_{3}COO^{-} + H_{2}O \rightleftharpoons CH_{3}COOH + OH^{-}$$
+$$
+CH_{3}COO^{-} + H_{2}O \rightleftharpoons CH_{3}COOH + OH^{-}
+$$
 
 This reaction produces $OH^{-}$ ions, making the solution alkaline. The sodium ion ($Na^{+}$) does
 not hydrolyse.
@@ -289,17 +337,27 @@ titrated with 0.100 mol/dm$^{3}$ hydrochloric acid.
 
 (a) $NH_{3} + H_{2}O \rightleftharpoons NH_{4}^{+} + OH^{-}$
 
-$$K_{b} = \frac{[NH_{4}^{+}][OH^{-}]}{[NH_{3}]} = 1.8 \times 10^{-5}$$
+$$
+K_{b} = \frac{[NH_{4}^{+}][OH^{-}]}{[NH_{3}]} = 1.8 \times 10^{-5}
+$$
 
 Let $[OH^{-}] = x$:
 
-$$1.8 \times 10^{-5} = \frac{x^{2}}{0.100}$$
+$$
+1.8 \times 10^{-5} = \frac{x^{2}}{0.100}
+$$
 
-$$x = \sqrt{1.8 \times 10^{-6}} = 1.34 \times 10^{-3} \text{ mol/dm}^{3}$$
+$$
+x = \sqrt{1.8 \times 10^{-6}} = 1.34 \times 10^{-3} \text{ mol/dm}^{3}
+$$
 
-$$pOH = -\log(1.34 \times 10^{-3}) = 2.87$$
+$$
+pOH = -\log(1.34 \times 10^{-3}) = 2.87
+$$
 
-$$pH = 14 - 2.87 = 11.13$$
+$$
+pH = 14 - 2.87 = 11.13
+$$
 
 (b) At the equivalence point, all $NH_{3}$ has been converted to $NH_{4}^{+}$.
 
@@ -307,17 +365,27 @@ Moles of $NH_{3}$ = $0.100 \times 0.0250 = 0.00250$ mol
 
 Volume of HCl needed = $25.0$ cm$^{3}$ (equimolar), total volume = $50.0$ cm$^{3}$.
 
-$$[NH_{4}^{+}] = \frac{0.00250}{0.0500} = 0.0500 \text{ mol/dm}^{3}$$
+$$
+[NH_{4}^{+}] = \frac{0.00250}{0.0500} = 0.0500 \text{ mol/dm}^{3}
+$$
 
 $NH_{4}^{+}$ hydrolyses: $NH_{4}^{+} + H_{2}O \rightleftharpoons NH_{3} + H_{3}O^{+}$
 
-$$K_{a} = \frac{K_{w}}{K_{b}} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}$$
+$$
+K_{a} = \frac{K_{w}}{K_{b}} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}
+$$
 
-$$5.56 \times 10^{-10} = \frac{x^{2}}{0.0500}$$
+$$
+5.56 \times 10^{-10} = \frac{x^{2}}{0.0500}
+$$
 
-$$x = \sqrt{2.78 \times 10^{-11}} = 5.27 \times 10^{-6}$$
+$$
+x = \sqrt{2.78 \times 10^{-11}} = 5.27 \times 10^{-6}
+$$
 
-$$pH = -\log(5.27 \times 10^{-6}) = 5.28$$
+$$
+pH = -\log(5.27 \times 10^{-6}) = 5.28
+$$
 
 (c) The equivalence point pH is 5.28, which is **acidic**. The most suitable indicator is one whose
 colour change range includes pH 5.28. **Methyl orange** (pH range 3.1--4.4) is too low.
@@ -370,9 +438,13 @@ $HCl$ is in excess by: $0.00400 - 0.00100 = 0.00300$ mol
 
 Total volume = $40.0 + 10.0 = 50.0$ cm$^{3}$
 
-$$[H^{+}] = \frac{0.00300}{0.0500} = 0.0600 \text{ mol/dm}^{3}$$
+$$
+[H^{+}] = \frac{0.00300}{0.0500} = 0.0600 \text{ mol/dm}^{3}
+$$
 
-$$pH = -\log(0.0600) = 1.22$$
+$$
+pH = -\log(0.0600) = 1.22
+$$
 
 (b) Moles of $HCl$: $0.00400$ mol
 
@@ -382,9 +454,13 @@ $HCl$ is in excess by: $0.00400 - 0.00300 = 0.00100$ mol
 
 Total volume = $40.0 + 30.0 = 70.0$ cm$^{3}$
 
-$$[H^{+}] = \frac{0.00100}{0.0700} = 0.01429 \text{ mol/dm}^{3}$$
+$$
+[H^{+}] = \frac{0.00100}{0.0700} = 0.01429 \text{ mol/dm}^{3}
+$$
 
-$$pH = -\log(0.01429) = 1.85$$
+$$
+pH = -\log(0.01429) = 1.85
+$$
 
 (c) The pH changes from 1.22 to 1.85 (a change of 0.63) when NaOH added increases from 10.0 to 30.0
 cm$^{3}$. The change per 10 cm$^{3}$ is relatively small because the solution still contains a large
@@ -434,13 +510,21 @@ pH = 5.00, using 0.50 mol/dm$^{3}$ ethanoic acid and solid sodium ethanoate ($M 
 
 (a) Using the Henderson-Hasselbalch equation:
 
-$$pH = pK_{a} + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}$$
+$$
+pH = pK_{a} + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}
+$$
 
-$$5.00 = 4.74 + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}$$
+$$
+5.00 = 4.74 + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}
+$$
 
-$$\log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]} = 0.26$$
+$$
+\log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]} = 0.26
+$$
 
-$$\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]} = 10^{0.26} = 1.82$$
+$$
+\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]} = 10^{0.26} = 1.82
+$$
 
 The buffer needs $[CH_{3}COO^{-}]/[CH_{3}COOH] = 1.82$.
 

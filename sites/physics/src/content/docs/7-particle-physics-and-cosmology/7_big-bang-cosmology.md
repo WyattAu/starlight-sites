@@ -22,41 +22,57 @@ description: "The dynamics of a homogeneous, isotropic universe are described by
 The dynamics of a homogeneous, isotropic universe are described by the
 **Friedmann-Lemaitre-Robertson-Walker (FLRW) metric**:
 
-$$ds^2 = -c^2 dt^2 + a(t)^2\left[\frac{dr^2}{1 - kr^2} + r^2(d\theta^2 + \sin^2\theta\,d\phi^2)\right]$$
+$$
+ds^2 = -c^2 dt^2 + a(t)^2\left[\frac{dr^2}{1 - kr^2} + r^2(d\theta^2 + \sin^2\theta\,d\phi^2)\right]
+$$
 
 Where $a(t)$ is the scale factor and $k \in \{-1, 0, +1\}$ is the curvature parameter.
 
 The **Friedmann equation** (from Einstein"s equations with the FLRW metric):
 
-$$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}$$
+$$
+H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}
+$$
 
 Where $H = \dot{a}/a$ is the Hubble parameter and $\Lambda$ is the cosmological constant.
 
 **Derivation of the Friedmann equation.** Starting from the Einstein field equations:
 
-$$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}$$
+$$
+G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}
+$$
 
 The FLRW metric gives the Einstein tensor components $G_{00} = 3(\dot{a}^2 + kc^2)/(c^2 a^2)$ and
 $G_{ij} = -(2a\ddot{a} + \dot{a}^2 + kc^2)g_{ij}/a^2$. For a perfect fluid with
 $T_{\mu\nu} = \mathrm{diag}(\rho c^2, P, P, P)$The $00$ component yields:
 
-$$\frac{3(\dot{a}^2 + kc^2)}{c^2 a^2} + \Lambda = \frac{8\pi G}{c^4}\rho c^2$$
+$$
+\frac{3(\dot{a}^2 + kc^2)}{c^2 a^2} + \Lambda = \frac{8\pi G}{c^4}\rho c^2
+$$
 
 Multiplying through by $c^2 a^2/3$:
 
-$$\dot{a}^2 + kc^2 = \frac{8\pi G}{3}\rho a^2 + \frac{\Lambda c^2 a^2}{3}$$
+$$
+\dot{a}^2 + kc^2 = \frac{8\pi G}{3}\rho a^2 + \frac{\Lambda c^2 a^2}{3}
+$$
 
 Dividing by $a^2$:
 
-$$H^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3} \quad \blacksquare$$
+$$
+H^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3} \quad \blacksquare
+$$
 
 The **acceleration equation:**
 
-$$\frac{\ddot{a}}{a} = -\frac{4\pi G}{3}\left(\rho + \frac{3P}{c^2}\right) + \frac{\Lambda c^2}{3}$$
+$$
+\frac{\ddot{a}}{a} = -\frac{4\pi G}{3}\left(\rho + \frac{3P}{c^2}\right) + \frac{\Lambda c^2}{3}
+$$
 
 The **fluid equation** (from energy conservation):
 
-$$\dot{\rho} + 3\frac{\dot{a}}{a}\left(\rho + \frac{P}{c^2}\right) = 0$$
+$$
+\dot{\rho} + 3\frac{\dot{a}}{a}\left(\rho + \frac{P}{c^2}\right) = 0
+$$
 
 ### 7.2 Critical Density and Cosmological Parameters
 
@@ -80,7 +96,9 @@ The universe is very close to flat ($\Omega_{\mathrm{total} \approx 1.0007}$).
 
 For an equation of state $P = w\rho c^2$:
 
-$$\rho \propto a^{-3(1+w)}$$
+$$
+\rho \propto a^{-3(1+w)}
+$$
 
 | Component                           | $w$   | $\rho(a)$ |
 | ----------------------------------- | ----- | --------- |
@@ -90,9 +108,13 @@ $$\rho \propto a^{-3(1+w)}$$
 
 **Derivation.** From the fluid equation with $P = w\rho c^2$:
 
-$$\dot{\rho} + 3\frac{\dot{a}}{a}\rho(1 + w) = 0$$
+$$
+\dot{\rho} + 3\frac{\dot{a}}{a}\rho(1 + w) = 0
+$$
 
-$$\frac{\dot{\rho}}{\rho} = -3(1+w)\frac{\dot{a}}{a}$$
+$$
+\frac{\dot{\rho}}{\rho} = -3(1+w)\frac{\dot{a}}{a}
+$$
 
 Integrating: $\ln\rho = -3(1+w)\ln a + \mathrm{const}$Giving $\rho \propto a^{-3(1+w)}$.
 $\blacksquare$
@@ -107,21 +129,33 @@ $\blacksquare$
 For a flat ($k = 0$), matter-dominated ($P = 0$) universe with $\Lambda = 0$The Friedmann equation
 becomes:
 
-$$\left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho_0\left(\frac{a_0}{a}\right)^3$$
+$$
+\left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho_0\left(\frac{a_0}{a}\right)^3
+$$
 
 Where $\rho_0$ is the density at $a = a_0$. Setting $a_0 = 1$:
 
-$$\dot{a}^2 = \frac{8\pi G\rho_0}{3}\,a^{-1}$$
+$$
+\dot{a}^2 = \frac{8\pi G\rho_0}{3}\,a^{-1}
+$$
 
-$$\dot{a} = \sqrt{\frac{8\pi G\rho_0}{3}}\,a^{-1/2}$$
+$$
+\dot{a} = \sqrt{\frac{8\pi G\rho_0}{3}}\,a^{-1/2}
+$$
 
 Integrating: $\int a^{1/2}\,da = \sqrt{\frac{8\pi G\rho_0}{3}}\int dt$
 
-$$\frac{2}{3}a^{3/2} = \sqrt{\frac{8\pi G\rho_0}{3}}\,t$$
+$$
+\frac{2}{3}a^{3/2} = \sqrt{\frac{8\pi G\rho_0}{3}}\,t
+$$
 
-$$a(t) = \left(\frac{3}{2}\sqrt{\frac{8\pi G\rho_0}{3}}\right)^{2/3} t^{2/3}$$
+$$
+a(t) = \left(\frac{3}{2}\sqrt{\frac{8\pi G\rho_0}{3}}\right)^{2/3} t^{2/3}
+$$
 
-$$a(t) \propto t^{2/3} \quad \blacksquare$$
+$$
+a(t) \propto t^{2/3} \quad \blacksquare
+$$
 
 The Hubble parameter: $H = \dot{a}/a = (2/3)t^{-1}$ So the age of a matter-dominated Universe is
 $t_0 = 2/(3H_0)$. For $H_0 = 70$ km/s/Mpc, this gives $t_0 \approx 9.3$ Gyr, which is less than the
@@ -143,7 +177,9 @@ $\lambda_{\mathrm{peak} \approx 1.9}$ mm (microwave).
 
 **Temperature-redshift relation.** The CMB temperature at redshift $z$ is:
 
-$$T(z) = T_0(1 + z)$$
+$$
+T(z) = T_0(1 + z)
+$$
 
 This follows from the adiabatic expansion of a photon gas: $\rho_\gamma \propto a^{-4}$ and
 $\rho_\gamma \propto T^4$ So $T \propto a^{-1} \propto (1+z)$.
@@ -170,15 +206,21 @@ Detection of primordial B-mode polarisation would provide evidence for inflation
 
 The CMB temperature today is $T_0 = 2.725$ K. At recombination ($z_{\mathrm{rec} \approx 1100}$):
 
-$$T_{\mathrm{rec} = T_0(1 + z_{\mathrm{rec}) = 2.725 \times 1101 \approx 3000\;\mathrm{K}}}$$
+$$
+T_{\mathrm{rec} = T_0(1 + z_{\mathrm{rec}) = 2.725 \times 1101 \approx 3000\;\mathrm{K}}}
+$$
 
 The peak wavelength of the CMB blackbody spectrum today is:
 
-$$\lambda_{\mathrm{peak} = \frac{b}{T_0} = \frac{2.898 \times 10^{-3}\;\mathrm{m}\cdot K}{2.725\;\mathrm{K} \approx 1.06\;\mathrm{mm}}}$$
+$$
+\lambda_{\mathrm{peak} = \frac{b}{T_0} = \frac{2.898 \times 10^{-3}\;\mathrm{m}\cdot K}{2.725\;\mathrm{K} \approx 1.06\;\mathrm{mm}}}
+$$
 
 Where $b$ is Wien's displacement constant. At recombination:
 
-$$\lambda_{\mathrm{peak}^{\mathrm{rec} = \frac{b}{T_{\mathrm{rec}} = \frac{2.898 \times 10^{-3}}{3000} \approx 966\;\mathrm{nm}}}}$$
+$$
+\lambda_{\mathrm{peak}^{\mathrm{rec} = \frac{b}{T_{\mathrm{rec}} = \frac{2.898 \times 10^{-3}}{3000} \approx 966\;\mathrm{nm}}}}
+$$
 
 This is in the **near-infrared** range. The photons have been redshifted by a factor of
 $(1 + z_{\mathrm{rec}) \approx 1100}$ from near-infrared to microwave wavelengths over 13.8 billion
@@ -200,17 +242,25 @@ Reactions to occur. The main products were:
 
 The nuclear reaction chain starts at $T \sim 0.1$ MeV ($t \sim 1$ s):
 
-$$p + n \to d + \gamma$$
+$$
+p + n \to d + \gamma
+$$
 
-$$d + p \to {^3\mathrm{He} + \gamma, \quad d + d \to {^3\mathrm{He} + n, \quad d + d \to t + p}}$$
+$$
+d + p \to {^3\mathrm{He} + \gamma, \quad d + d \to {^3\mathrm{He} + n, \quad d + d \to t + p}}
+$$
 
-$$t + d \to {^4\mathrm{He} + \gamma, \quad {^3\mathrm{He} + d \to {^4\mathrm{He} + p}}}$$
+$$
+t + d \to {^4\mathrm{He} + \gamma, \quad {^3\mathrm{He} + d \to {^4\mathrm{He} + p}}}
+$$
 
 The process stops at $^4$He because there are no stable nuclei with $A = 5$.
 
 At $T \gg 1$ MeV, weak interactions maintain $n/p$ in thermal equilibrium:
 
-$$\frac{n}{p} = e^{-\Delta m c^2/(k_B T)}$$
+$$
+\frac{n}{p} = e^{-\Delta m c^2/(k_B T)}
+$$
 
 Where $\Delta m = m_n - m_p \approx 1.293$ MeV/$c^2$.
 
@@ -220,7 +270,9 @@ Nucleosynthesis begins ($t \sim 200$ s), neutron decay has reduced this to $n/p 
 
 The predicted helium mass fraction:
 
-$$Y_p = \frac{2(n/p)}{1 + n/p} \approx 0.25$$
+$$
+Y_p = \frac{2(n/p)}{1 + n/p} \approx 0.25
+$$
 
 <details>
 <summary>Derivation of the helium mass fraction</summary>
@@ -228,12 +280,16 @@ $$Y_p = \frac{2(n/p)}{1 + n/p} \approx 0.25$$
 Let $n_n$ and $n_p$ be the number densities of neutrons and protons. The neutron-to-proton Ratio at
 freeze-out is:
 
-$$\frac{n_n}{n_p} = \frac{1}{7}$$
+$$
+\frac{n_n}{n_p} = \frac{1}{7}
+$$
 
 Almost all neutrons end up in $^4$He nuclei. Each $^4$He nucleus contains 2 neutrons and 2 protons,
 so the number of $^4$He nuclei per unit volume is:
 
-$$n_{^4\mathrm{He} = \frac{n_n}{2}}$$
+$$
+n_{^4\mathrm{He} = \frac{n_n}{2}}
+$$
 
 The remaining protons stay as hydrogen: $$n_H = n_p - 2n_{^4\mathrm{He} = n_p - n_n}$$
 
@@ -241,11 +297,15 @@ The baryon number density is $n_b = n_n + n_p$.
 
 The helium mass fraction is:
 
-$$Y_p = \frac{4 \cdot n_{^4\mathrm{He}}{n_b} = \frac{4 \cdot n_n/2}{n_n + n_p} = \frac{2n_n}{n_n + n_p} = \frac{2(n_n/n_p)}{1 + n_n/n_p}}$$
+$$
+Y_p = \frac{4 \cdot n_{^4\mathrm{He}}{n_b} = \frac{4 \cdot n_n/2}{n_n + n_p} = \frac{2n_n}{n_n + n_p} = \frac{2(n_n/n_p)}{1 + n_n/n_p}}
+$$
 
 Substituting $n_n/n_p = 1/7$:
 
-$$Y_p = \frac{2/7}{1 + 1/7} = \frac{2/7}{8/7} = \frac{2}{8} = 0.25 \quad \blacksquare$$
+$$
+Y_p = \frac{2/7}{1 + 1/7} = \frac{2/7}{8/7} = \frac{2}{8} = 0.25 \quad \blacksquare
+$$
 
 This prediction is remarkably robust and agrees with the observed primordial helium Abundance
 $Y_p^{\mathrm{obs} \approx 0.245 \pm 0.003}$ to within a few percent. The small Discrepancy is
@@ -257,7 +317,9 @@ effects.
 BBN predictions agree with observations of primordial abundances. The deuterium abundance is
 Particularly sensitive to the baryon-to-photon ratio $\eta = n_b/n_\gamma$:
 
-$$\eta \approx 6.1 \times 10^{-10}$$
+$$
+\eta \approx 6.1 \times 10^{-10}
+$$
 
 This value is consistent with that derived from the CMB, providing strong support for the Big Bang
 Model.
@@ -268,7 +330,9 @@ Model.
 The primordial deuterium abundance depends sensitively on the baryon-to-photon ratio $\eta$. For
 $\eta \approx 6.1 \times 10^{-10}$:
 
-$$\mathrm{D}/H \approx 2.5 \times 10^{-5}$$
+$$
+\mathrm{D}/H \approx 2.5 \times 10^{-5}
+$$
 
 If the baryon density were significantly higher ($\eta \sim 10^{-9}$), deuterium would Be much more
 efficiently processed into $^4$He, and the deuterium abundance would drop by Orders of magnitude.
@@ -277,7 +341,9 @@ Conversely, a lower baryon density would leave more deuterium unburned.
 This strong dependence makes deuterium the best "baryometer" from BBN. Observations of Deuterium
 absorption in high-redshift quasar spectra give:
 
-$$\mathrm{D}/H = (2.527 \pm 0.030) \times 10^{-5}$$
+$$
+\mathrm{D}/H = (2.527 \pm 0.030) \times 10^{-5}
+$$
 
 This constrains $\eta = (6.10 \pm 0.04) \times 10^{-10}$In excellent agreement with The CMB value of
 $\eta = (6.13 \pm 0.04) \times 10^{-10}$. The concordance between two Completely independent
@@ -326,30 +392,42 @@ Consider a spiral galaxy with a flat rotation curve: $v(r) = v_0 \approx 200$ km
 **Without dark matter:** For a galaxy with luminous mass $M_{\mathrm{lum}}$ concentrated Within
 $r_0$Keplerian dynamics gives:
 
-$$v(r) = \sqrt{\frac{GM_{\mathrm{lum}}{r}}}$$
+$$
+v(r) = \sqrt{\frac{GM_{\mathrm{lum}}{r}}}
+$$
 
 This predicts $v \propto r^{-1/2}$ at large $r$In conflict with the observed flat Rotation curve.
 
 **With a dark matter halo:** Assume a singular isothermal sphere profile with density:
 
-$$\rho(r) = \frac{v_0^2}{4\pi G r^2}$$
+$$
+\rho(r) = \frac{v_0^2}{4\pi G r^2}
+$$
 
 The enclosed mass is:
 
-$$M(r) = \int_0^r 4\pi r'^2 \rho(r')\,dr' = \int_0^r \frac{v_0^2}{G}\,dr' = \frac{v_0^2 r}{G}$$
+$$
+M(r) = \int_0^r 4\pi r'^2 \rho(r')\,dr' = \int_0^r \frac{v_0^2}{G}\,dr' = \frac{v_0^2 r}{G}
+$$
 
 The circular velocity is:
 
-$$v(r) = \sqrt{\frac{GM(r)}{r}} = \sqrt{\frac{G \cdot v_0^2 r/G}{r}} = v_0$$
+$$
+v(r) = \sqrt{\frac{GM(r)}{r}} = \sqrt{\frac{G \cdot v_0^2 r/G}{r}} = v_0
+$$
 
 The velocity is constant, matching the flat rotation curve. The total mass within radius $r$ is
 $M(r) = v_0^2 r / G$.
 
 **Numerical example.** For $v_0 = 200$ km/s and $r = 50$ kpc:
 
-$$M(50\;\mathrm{kpc}) = \frac{(200 \times 10^3\;\mathrm{m}/s)^2 \times 50 \times 3.086 \times 10^{19}\;\mathrm{m}{6.674 \times 10^{-11}\;\mathrm{m}^3\,kg^{-1}\,s^{-2}}}$$
+$$
+M(50\;\mathrm{kpc}) = \frac{(200 \times 10^3\;\mathrm{m}/s)^2 \times 50 \times 3.086 \times 10^{19}\;\mathrm{m}{6.674 \times 10^{-11}\;\mathrm{m}^3\,kg^{-1}\,s^{-2}}}
+$$
 
-$$= \frac{4 \times 10^{10} \times 1.543 \times 10^{21}}{6.674 \times 10^{-11}} = \frac{6.17 \times 10^{31}}{6.674 \times 10^{-11}} \approx 9.25 \times 10^{41}\;\mathrm{kg}$$
+$$
+= \frac{4 \times 10^{10} \times 1.543 \times 10^{21}}{6.674 \times 10^{-11}} = \frac{6.17 \times 10^{31}}{6.674 \times 10^{-11}} \approx 9.25 \times 10^{41}\;\mathrm{kg}
+$$
 
 This is roughly $4.6 \times 10^{11}$ solar masses, far exceeding the visible mass of a Typical
 spiral galaxy ($\sim 10^{11}$ solar masses), demonstrating that dark matter Dominates the mass
@@ -369,7 +447,9 @@ with $w \lt -1/3$.
 The simplest explanation is **Einstein's cosmological constant** $\Lambda$With equation of state
 $w = -1$:
 
-$$\rho_\Lambda = \frac{\Lambda c^2}{8\pi G}, \quad P_\Lambda = -\rho_\Lambda c^2$$
+$$
+\rho_\Lambda = \frac{\Lambda c^2}{8\pi G}, \quad P_\Lambda = -\rho_\Lambda c^2
+$$
 
 **The cosmological constant problem:** Quantum field theory predicts a vacuum energy of order
 $M_{\mathrm{Pl}^4}$ ($\sim 10^{120}$ times larger than the observed value). The origin of the tiny
@@ -387,7 +467,9 @@ of their light curve, allowing intrinsic variations to be calibrated.
 
 For a flat universe, the luminosity distance is:
 
-$$d_L = c(1+z)\int_0^z \frac{dz'}{H(z')}$$
+$$
+d_L = c(1+z)\int_0^z \frac{dz'}{H(z')}
+$$
 
 Where $H(z) = H_0\sqrt{\Omega_m(1+z)^3 + \Omega_\Lambda}$ for a $\Lambda$CDM universe.
 
@@ -401,7 +483,9 @@ fainter. This required $\Omega_\Lambda \gt 0$.
 
 The deceleration parameter at $z = 0$ is:
 
-$$q_0 = -\frac{\ddot{a}a}{\dot{a}^2}\bigg\rvert_{t_0} = \frac{\Omega_m}{2} - \Omega_\Lambda$$
+$$
+q_0 = -\frac{\ddot{a}a}{\dot{a}^2}\bigg\rvert_{t_0} = \frac{\Omega_m}{2} - \Omega_\Lambda
+$$
 
 For $\Omega_m = 0.3$ and $\Omega_\Lambda = 0.7$: $q_0 = 0.15 - 0.7 = -0.55 \lt 0$Confirming
 Acceleration.
@@ -425,29 +509,41 @@ The standard Big Bang model has several unresolved issues:
 
 Define the deviation from critical density:
 
-$$\lvert\Omega(t) - 1\rvert = \frac{\lvert\rho - \rho_c\rvert}{\rho_c}$$
+$$
+\lvert\Omega(t) - 1\rvert = \frac{\lvert\rho - \rho_c\rvert}{\rho_c}
+$$
 
 The Friedmann equation with $k \neq 0$ gives:
 
-$$\rho_c - \rho = \frac{3kc^2}{8\pi G a^2}$$
+$$
+\rho_c - \rho = \frac{3kc^2}{8\pi G a^2}
+$$
 
 So $\rho_c - \rho \propto a^{-2}$While $\rho_c \propto H^2 \propto \rho$ (in a Radiation- or
 matter-dominated era).
 
 Therefore:
 
-$$\lvert\Omega - 1\rvert = \frac{\lvert\rho_c - \rho\rvert}{\rho_c} \propto \frac{a^{-2}}{a^{-3}} = a \quad \mathrm{(matter\mathrm{-dominated)}}$$
+$$
+\lvert\Omega - 1\rvert = \frac{\lvert\rho_c - \rho\rvert}{\rho_c} \propto \frac{a^{-2}}{a^{-3}} = a \quad \mathrm{(matter\mathrm{-dominated)}}
+$$
 
-$$\lvert\Omega - 1\rvert \propto \frac{a^{-2}}{a^{-4}} = a^2 \quad \mathrm{(radiation\mathrm{-dominated)}}$$
+$$
+\lvert\Omega - 1\rvert \propto \frac{a^{-2}}{a^{-4}} = a^2 \quad \mathrm{(radiation\mathrm{-dominated)}}
+$$
 
 **In a matter-dominated universe:** $\lvert\Omega - 1\rvert$ grows linearly with $a$. Going From
 $a_{\mathrm{now} = 1}$ back to the Planck time ($a \sim 10^{-32}$):
 
-$$\lvert\Omega - 1\rvert_{\mathrm{Planck} \sim 10^{-32} \times \lvert\Omega - 1\rvert_{\mathrm{now}}}$$
+$$
+\lvert\Omega - 1\rvert_{\mathrm{Planck} \sim 10^{-32} \times \lvert\Omega - 1\rvert_{\mathrm{now}}}
+$$
 
 Since $\lvert\Omega_{\mathrm{now} - 1\rvert \sim 0.007}$This gives:
 
-$$\lvert\Omega - 1\rvert_{\mathrm{Planck} \sim 7 \times 10^{-35}}$$
+$$
+\lvert\Omega - 1\rvert_{\mathrm{Planck} \sim 7 \times 10^{-35}}
+$$
 
 This is an extraordinarily fine-tuned initial condition. Inflation solves this by Exponentially
 expanding $a$ by a factor of $e^{N}$ ($N \sim 60$), driving $\lvert\Omega - 1\rvert$ to
@@ -457,7 +553,9 @@ $e^{-2N} \sim 10^{-52}$ after inflation, which then Grows to the observed value 
 
 **Inflation** (Guth, 1981) proposes a period of exponential expansion in the early universe:
 
-$$a(t) \propto e^{Ht}, \quad H \approx \mathrm{const}$$
+$$
+a(t) \propto e^{Ht}, \quad H \approx \mathrm{const}
+$$
 
 Lasting from $t \sim 10^{-36}$ s to $t \sim 10^{-33}$ s, during which the universe expanded by a
 Factor of $\sim e^{60} \sim 10^{26}$.
@@ -474,7 +572,9 @@ Factor of $\sim e^{60} \sim 10^{26}$.
 Inflation is driven by a scalar field $\phi$ (the **inflaton**) with potential $V(\phi)$. The
 Slow-roll parameters are:
 
-$$\epsilon = \frac{M_{\mathrm{Pl}^2}{2}\left(\frac{V'}{V}\right)^2 \ll 1, \quad \eta = M_{\mathrm{Pl}^2 \frac{V''}{V} \ll 1}}$$
+$$
+\epsilon = \frac{M_{\mathrm{Pl}^2}{2}\left(\frac{V'}{V}\right)^2 \ll 1, \quad \eta = M_{\mathrm{Pl}^2 \frac{V''}{V} \ll 1}}
+$$
 
 The number of e-folds: $N = \int_{t_i}^{t_f} H\,dt$.
 

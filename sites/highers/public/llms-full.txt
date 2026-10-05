@@ -1836,7 +1836,9 @@ Hydrolysed.
 **Water potential ($\psi$):** The tendency of water to move from one area to another. Pure water has
 $\psi = 0$.
 
-$$\psi = \psi_s + \psi_p$$
+$$
+\psi = \psi_s + \psi_p
+$$
 
 Where $\psi_s$ is the solute potential (always negative or zero) and $\psi_p$ is the pressure
 Potential.
@@ -1864,7 +1866,9 @@ Cell will lose water and may become plasmolysed.
 
 The solute potential $\psi_s$ can be calculated using the formula:
 
-$$\psi_s = -iCRT$$
+$$
+\psi_s = -iCRT
+$$
 
 Where $i$ is the ionisation constant (1 for non-ionic solutes), $C$ is the molar concentration, $R$
 Is the gas constant (0.0083 kPa L mol$^{-1}$ K$^{-1}$), and $T$ is the temperature in Kelvin.
@@ -2982,7 +2986,9 @@ Level.
 
 **Simpson"s Diversity Index:**
 
-$$D = 1 - \sum \frac{n(n-1)}{N(N-1)}$$
+$$
+D = 1 - \sum \frac{n(n-1)}{N(N-1)}
+$$
 
 Where $n$ is the number of individuals of a particular species and $N$ is the total number of
 Individuals.
@@ -2991,13 +2997,21 @@ Individuals.
 
 $N = 60$.
 
-$$D = 1 - \left[\frac{10(9)}{60(59)} + \frac{20(19)}{60(59)} + \frac{30(29)}{60(59)}\right]$$
+$$
+D = 1 - \left[\frac{10(9)}{60(59)} + \frac{20(19)}{60(59)} + \frac{30(29)}{60(59)}\right]
+$$
 
-$$= 1 - \left[\frac{90}{3540} + \frac{380}{3540} + \frac{870}{3540}\right]$$
+$$
+= 1 - \left[\frac{90}{3540} + \frac{380}{3540} + \frac{870}{3540}\right]
+$$
 
-$$= 1 - \left[0.0254 + 0.1073 + 0.2458\right]$$
+$$
+= 1 - \left[0.0254 + 0.1073 + 0.2458\right]
+$$
 
-$$= 1 - 0.3785 = 0.6215$$
+$$
+= 1 - 0.3785 = 0.6215
+$$
 
 $D$ ranges from 0 (no diversity) to 1 (infinite diversity).
 
@@ -3915,14 +3929,18 @@ Shows continuous variation.
 The chi-squared test determines whether observed results differ significantly from expected
 Mendelian ratios.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 **Example:** A cross is expected to give a 3:1 ratio. Observed: 72 dominant, 28 recessive. Is this
 Consistent with a 3:1 ratio?
 
 Expected: 75 dominant, 25 recessive (total 100).
 
-$$\chi^2 = \frac{(72 - 75)^2}{75} + \frac{(28 - 25)^2}{25} = \frac{9}{75} + \frac{9}{25} = 0.12 + 0.36 = 0.48$$
+$$
+\chi^2 = \frac{(72 - 75)^2}{75} + \frac{(28 - 25)^2}{25} = \frac{9}{75} + \frac{9}{25} = 0.12 + 0.36 = 0.48
+$$
 
 Degrees of freedom: $2 - 1 = 1$.
 
@@ -3937,11 +3955,17 @@ A dihybrid cross is expected to give a 9:3:3:1 ratio. Observed: 520, 180, 170, 3
 
 Expected: 506.25, 168.75, 168.75, 56.25.
 
-$$\chi^2 = \frac{(520-506.25)^2}{506.25} + \frac{(180-168.75)^2}{168.75} + \frac{(170-168.75)^2}{168.75} + \frac{(30-56.25)^2}{56.25}$$
+$$
+\chi^2 = \frac{(520-506.25)^2}{506.25} + \frac{(180-168.75)^2}{168.75} + \frac{(170-168.75)^2}{168.75} + \frac{(30-56.25)^2}{56.25}
+$$
 
-$$= \frac{189.06}{506.25} + \frac{126.56}{168.75} + \frac{1.56}{168.75} + \frac{689.06}{56.25}$$
+$$
+= \frac{189.06}{506.25} + \frac{126.56}{168.75} + \frac{1.56}{168.75} + \frac{689.06}{56.25}
+$$
 
-$$= 0.37 + 0.75 + 0.009 + 12.25 = 13.38$$
+$$
+= 0.37 + 0.75 + 0.009 + 12.25 = 13.38
+$$
 
 Degrees of freedom: $4 - 1 = 3$. Critical value at 5% for 3 df: 7.815.
 
@@ -4058,7 +4082,9 @@ Protein structures).
 
 For a population in equilibrium (no evolution):
 
-$$p^2 + 2pq + q^2 = 1$$
+$$
+p^2 + 2pq + q^2 = 1
+$$
 
 Where $p$ = frequency of dominant allele, $q$ = frequency of recessive allele.
 
@@ -4490,13 +4516,17 @@ Have reduced fitness ($w = 0.5$ So $s = 0.5$).
 
 After one generation of selection:
 
-$$q' = \frac{q^2 w_{aa} + pq \cdot 1}{\bar{w}}$$
+$$
+q' = \frac{q^2 w_{aa} + pq \cdot 1}{\bar{w}}
+$$
 
 Where $\bar{w}$ is the mean fitness of the population.
 
 $\bar{w} = p^2(1) + 2pq(1) + q^2(0.5) = (0.6)^2 + 2(0.6)(0.4) + (0.4)^2(0.5) = 0.36 + 0.48 + 0.08 = 0.92$.
 
-$$q' = \frac{(0.4)^2(0.5) + (0.6)(0.4)}{0.92} = \frac{0.08 + 0.24}{0.92} = \frac{0.32}{0.92} = 0.348$$
+$$
+q' = \frac{(0.4)^2(0.5) + (0.6)(0.4)}{0.92} = \frac{0.08 + 0.24}{0.92} = \frac{0.32}{0.92} = 0.348
+$$
 
 The frequency of the recessive allele has decreased from 0.4 to 0.348 after one generation of
 Selection. The recessive allele decreases slowly because it is "hidden" in heterozygous individuals,
@@ -5270,7 +5300,9 @@ Widely accepted.
 The relationship between enzyme activity and substrate concentration is described by the
 Michaelis-Menten equation:
 
-$$v = \frac{V_{\max}[S]}{K_m + [S]}$$
+$$
+v = \frac{V_{\max}[S]}{K_m + [S]}
+$$
 
 Where:
 
@@ -5286,7 +5318,9 @@ Where:
 
 **Lineweaver-Burk plot:** A double reciprocal plot of $1/v$ vs. $1/[S]$:
 
-$$\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}$$
+$$
+\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}
+$$
 
 - Y-intercept: $1/V_{\max}$
 - X-intercept: $-1/K_m$
@@ -5333,7 +5367,9 @@ Glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$) is broken down to two molecules
 
 Pyruvate is decarboxylated and dehydrogenated:
 
-$$\mathrm{Pyruvate + \mathrm{NAD^+ + \mathrm{CoA \to \mathrm{Acetyl-CoA + \mathrm{CO_2 + \mathrm{NADH$$
+$$
+\mathrm{Pyruvate + \mathrm{NAD^+ + \mathrm{CoA \to \mathrm{Acetyl-CoA + \mathrm{CO_2 + \mathrm{NADH
+$$
 
 (Per glucose: 2 $\mathrm{CO_2$2 NADH)
 
@@ -5891,7 +5927,9 @@ Transpirational water loss. This is why CAM plants dominate in arid environments
 During intense exercise, oxygen supply to muscle cells may be insufficient for aerobic respiration.
 Muscle cells switch to anaerobic respiration:
 
-$$\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{lactate + 2 \mathrm{ATP$$
+$$
+\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{lactate + 2 \mathrm{ATP
+$$
 
 Pyruvate is reduced to lactate by the enzyme lactate dehydrogenase (LDH), which regenerates
 $\mathrm{NAD^+$ from NADH. This allows glycolysis to continue producing ATP even in the absence of
@@ -5905,7 +5943,9 @@ Which is why breathing rate remains elevated after exercise (to repay the oxygen
 
 **Alcoholic fermentation in yeast:**
 
-$$\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{ethanol + 2 \mathrm{CO_2 + 2 \mathrm{ATP$$
+$$
+\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{ethanol + 2 \mathrm{CO_2 + 2 \mathrm{ATP
+$$
 
 Pyruvate is decarboxylated to acetaldehyde (by pyruvate decarboxylase) and then reduced to ethanol
 (by alcohol dehydrogenase). This regenerates $\mathrm{NAD^+$ for glycolysis. Alcoholic fermentation
@@ -6203,11 +6243,15 @@ Bloodstream.
 
 **Cardiac output:**
 
-$$\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate$$
+$$
+\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate
+$$
 
 **Example:** If stroke volume is $70 \mathrm{ mL$ and heart rate is $72 \mathrm{ bpm$:
 
-$$\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \mathrm{ L/min$$
+$$
+\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \mathrm{ L/min
+$$
 
 ### The Respiratory System
 
@@ -6223,7 +6267,9 @@ $$\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \math
 
 **Fick's Law of Diffusion:**
 
-$$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}$$
+$$
+\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}
+$$
 
 ### The Digestive System
 
@@ -7031,13 +7077,17 @@ URL: https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases/
 
 **Conjugate pairs:** When an acid donates a proton, the remaining species is its conjugate base.
 
-$$\mathrm{HA + \mathrm{B \rightleftharpoons \mathrm{A^- + \mathrm{BH^+$$
+$$
+\mathrm{HA + \mathrm{B \rightleftharpoons \mathrm{A^- + \mathrm{BH^+
+$$
 
 $\mathrm{HA/A^-$ and $\mathrm{B/BH^+$ are conjugate acid-base pairs.
 
 **Example:** Identify the conjugate acid-base pairs in:
 
-$$\mathrm{NH_3 + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{NH_4^+ + \mathrm{OH^-$$
+$$
+\mathrm{NH_3 + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{NH_4^+ + \mathrm{OH^-
+$$
 
 $\mathrm{NH_3/\mathrm{NH_4^+$ (base/conjugate acid) and $\mathrm{H_2\mathrm{O/\mathrm{OH^-$
 (acid/conjugate base).
@@ -7045,7 +7095,9 @@ $\mathrm{NH_3/\mathrm{NH_4^+$ (base/conjugate acid) and $\mathrm{H_2\mathrm{O/\m
 **Worked Example 1:** Identify the conjugate acid-base pairs in the reaction of $\mathrm{HSO_4^-$
 With $\mathrm{H_2\mathrm{O$:
 
-$$\mathrm{HSO_4^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{SO_4^{2-} + \mathrm{H_3\mathrm{O^+$$
+$$
+\mathrm{HSO_4^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{SO_4^{2-} + \mathrm{H_3\mathrm{O^+
+$$
 
 $\mathrm{HSO_4^-/\mathrm{SO_4^{2-}$ (acid/conjugate base) and
 $\mathrm{H_2\mathrm{O/\mathrm{H_3\mathrm{O^+$ (base/conjugate acid). Note that $\mathrm{HSO_4^-$ is
@@ -7056,14 +7108,18 @@ Proton).
 
 **Strong acids** are completely dissociated in aqueous solution.
 
-$$\mathrm{HCl \to \mathrm{H^+ + \mathrm{Cl^-$$
+$$
+\mathrm{HCl \to \mathrm{H^+ + \mathrm{Cl^-
+$$
 
 Common strong acids: $\mathrm{HCl$$\mathrm{HNO_3$$\mathrm{H_2\mathrm{SO_4$ (first dissociation),
 $\mathrm{HClO_4$.
 
 **Weak acids** are partially dissociated in aqueous solution.
 
-$$\mathrm{CH_3\mathrm{COOH \rightleftharpoons \mathrm{CH_3\mathrm{COO^- + \mathrm{H^+$$
+$$
+\mathrm{CH_3\mathrm{COOH \rightleftharpoons \mathrm{CH_3\mathrm{COO^- + \mathrm{H^+
+$$
 
 Common weak acids: $\mathrm{CH_3\mathrm{COOH$$\mathrm{H_2\mathrm{CO_3$$\mathrm{HF$
 $\mathrm{H_3\mathrm{PO_4$.
@@ -7083,7 +7139,9 @@ M weak acid have the same concentration but different $[\mathrm{H^+]$.
 
 ### The pH Scale
 
-$$\mathrm{pH = -\log_{10}[\mathrm{H^+]$$
+$$
+\mathrm{pH = -\log_{10}[\mathrm{H^+]
+$$
 
 Where $[\mathrm{H^+]$ is the concentration of hydrogen ions in mol/L.
 
@@ -7091,32 +7149,46 @@ At $25°C$: $\mathrm{pH = 7$ is neutral, $\mathrm{pH < 7$ is acidic, $\mathrm{pH
 
 **Worked Example 2:** Find the pH of $0.05 \mathrm{ M$ $\mathrm{HNO_3$.
 
-$$\mathrm{pH = -\log_{10}(0.05) = 1.30$$
+$$
+\mathrm{pH = -\log_{10}(0.05) = 1.30
+$$
 
 **Worked Example 3:** Find $[\mathrm{H^+]$ for a solution of pH 3.40.
 
-$$[\mathrm{H^+] = 10^{-3.40} = 3.98 \times 10^{-4} \mathrm{ mol/L$$
+$$
+[\mathrm{H^+] = 10^{-3.40} = 3.98 \times 10^{-4} \mathrm{ mol/L
+$$
 
 **Worked Example 4:** Find the pH of $0.005 \mathrm{ M$ $\mathrm{H_2\mathrm{SO_4$ (assume complete
 Dissociation of the first proton and ignore the second).
 
-$$[\mathrm{H^+] = 0.005 \mathrm{ M$$
+$$
+[\mathrm{H^+] = 0.005 \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log_{10}(0.005) = 2.30$$
+$$
+\mathrm{pH = -\log_{10}(0.005) = 2.30
+$$
 
 ### Water and the Ionic Product
 
 Water undergoes autoionisation:
 
-$$\mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{H^+ + \mathrm{OH^-$$
+$$
+\mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{H^+ + \mathrm{OH^-
+$$
 
-$$K_w = [\mathrm{H^+][\mathrm{OH^-] = 1.0 \times 10^{-14} \mathrm{ mol^2\mathrm{L^{-2} \quad \mathrm{at  25°C$$
+$$
+K_w = [\mathrm{H^+][\mathrm{OH^-] = 1.0 \times 10^{-14} \mathrm{ mol^2\mathrm{L^{-2} \quad \mathrm{at  25°C
+$$
 
 **Derivation of $K_w$:**
 
 From the autoionisation equilibrium:
 
-$$K_w = [\mathrm{H^+][\mathrm{OH^-]$$
+$$
+K_w = [\mathrm{H^+][\mathrm{OH^-]
+$$
 
 In pure water at $25°C$: $[\mathrm{H^+] = [\mathrm{OH^-] = 10^{-7} \mathrm{ M$ So
 $K_w = 10^{-7} \times 10^{-7} = 10^{-14}$.
@@ -7127,17 +7199,25 @@ Increases. This means the pH of pure water decreases with temperature, but the w
 
 **Worked Example 5:** Find the pH of $0.02 \mathrm{ M$ $\mathrm{NaOH$.
 
-$$[\mathrm{OH^-] = 0.02 \mathrm{ M$$
+$$
+[\mathrm{OH^-] = 0.02 \mathrm{ M
+$$
 
-$$[\mathrm{H^+] = \frac{K_w}{[\mathrm{OH^-]} = \frac{1.0 \times 10^{-14}}{0.02} = 5.0 \times 10^{-13} \mathrm{ M$$
+$$
+[\mathrm{H^+] = \frac{K_w}{[\mathrm{OH^-]} = \frac{1.0 \times 10^{-14}}{0.02} = 5.0 \times 10^{-13} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log_{10}(5.0 \times 10^{-13}) = 12.30$$
+$$
+\mathrm{pH = -\log_{10}(5.0 \times 10^{-13}) = 12.30
+$$
 
 ### Acid Dissociation Constant ($K_a$)
 
 For a weak acid $\mathrm{HA \rightleftharpoons \mathrm{H^+ + \mathrm{A^-$:
 
-$$K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]}$$
+$$
+K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]}
+$$
 
 **$pK_a = -\log_{10} K_a$**
 
@@ -7146,47 +7226,73 @@ The lower the $pK_a$The stronger the acid.
 **Worked Example 6:** Ethanoic acid has $K_a = 1.74 \times 10^{-5} \mathrm{ mol/L$. Find the pH of a
 $0.10 \mathrm{ M$ solution.
 
-$$K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} = \frac{[\mathrm{H^+]^2}{0.10 - [\mathrm{H^+]} \approx \frac{[\mathrm{H^+]^2}{0.10}$$
+$$
+K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} = \frac{[\mathrm{H^+]^2}{0.10 - [\mathrm{H^+]} \approx \frac{[\mathrm{H^+]^2}{0.10}
+$$
 
-$$[\mathrm{H^+] = \sqrt{1.74 \times 10^{-5} \times 0.10} = \sqrt{1.74 \times 10^{-6}} = 1.32 \times 10^{-3} \mathrm{ M$$
+$$
+[\mathrm{H^+] = \sqrt{1.74 \times 10^{-5} \times 0.10} = \sqrt{1.74 \times 10^{-6}} = 1.32 \times 10^{-3} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log_{10}(1.32 \times 10^{-3}) = 2.88$$
+$$
+\mathrm{pH = -\log_{10}(1.32 \times 10^{-3}) = 2.88
+$$
 
 **Worked Example 7:** A weak acid $\mathrm{HX$ has $K_a = 4.2 \times 10^{-4}$. Find the pH of a
 $0.25 \mathrm{ M$ solution and the percentage dissociation.
 
-$$[\mathrm{H^+] = \sqrt{4.2 \times 10^{-4} \times 0.25} = \sqrt{1.05 \times 10^{-4}} = 1.025 \times 10^{-2} \mathrm{ M$$
+$$
+[\mathrm{H^+] = \sqrt{4.2 \times 10^{-4} \times 0.25} = \sqrt{1.05 \times 10^{-4}} = 1.025 \times 10^{-2} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log_{10}(1.025 \times 10^{-2}) = 1.99$$
+$$
+\mathrm{pH = -\log_{10}(1.025 \times 10^{-2}) = 1.99
+$$
 
-$$\%\mathrm{ dissociation = \frac{1.025 \times 10^{-2}}{0.25} \times 100 = 4.1\%$$
+$$
+\%\mathrm{ dissociation = \frac{1.025 \times 10^{-2}}{0.25} \times 100 = 4.1\%
+$$
 
 ### Base Dissociation Constant ($K_b$)
 
 For a weak base $\mathrm{B + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{BH^+ + \mathrm{OH^-$:
 
-$$K_b = \frac{[\mathrm{BH^+][\mathrm{OH^-]}{[\mathrm{B]}$$
+$$
+K_b = \frac{[\mathrm{BH^+][\mathrm{OH^-]}{[\mathrm{B]}
+$$
 
 **Relationship:**
 
-$$K_a \times K_b = K_w$$
+$$
+K_a \times K_b = K_w
+$$
 
 **Proof:** For a conjugate pair $\mathrm{HA/A^-$:
 
-$$K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} \quad \mathrm{and \quad K_b = \frac{[\mathrm{HA][\mathrm{OH^-]}{[\mathrm{A^-]}$$
+$$
+K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} \quad \mathrm{and \quad K_b = \frac{[\mathrm{HA][\mathrm{OH^-]}{[\mathrm{A^-]}
+$$
 
-$$K_a \times K_b = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} \times \frac{[\mathrm{HA][\mathrm{OH^-]}{[\mathrm{A^-]} = [\mathrm{H^+][\mathrm{OH^-] = K_w$$
+$$
+K_a \times K_b = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]} \times \frac{[\mathrm{HA][\mathrm{OH^-]}{[\mathrm{A^-]} = [\mathrm{H^+][\mathrm{OH^-] = K_w
+$$
 
 ### pH Calculations for Weak Bases
 
 **Worked Example 8:** Ammonia has $K_b = 1.78 \times 10^{-5} \mathrm{ mol/L$. Find the pH of a
 $0.15 \mathrm{ M$ solution.
 
-$$[\mathrm{OH^-] = \sqrt{K_b \times [\mathrm{B]} = \sqrt{1.78 \times 10^{-5} \times 0.15} = \sqrt{2.67 \times 10^{-6}} = 1.63 \times 10^{-3} \mathrm{ M$$
+$$
+[\mathrm{OH^-] = \sqrt{K_b \times [\mathrm{B]} = \sqrt{1.78 \times 10^{-5} \times 0.15} = \sqrt{2.67 \times 10^{-6}} = 1.63 \times 10^{-3} \mathrm{ M
+$$
 
-$$\mathrm{pOH = -\log_{10}(1.63 \times 10^{-3}) = 2.79$$
+$$
+\mathrm{pOH = -\log_{10}(1.63 \times 10^{-3}) = 2.79
+$$
 
-$$\mathrm{pH = 14 - 2.79 = 11.21$$
+$$
+\mathrm{pH = 14 - 2.79 = 11.21
+$$
 
 ---
 
@@ -7216,35 +7322,51 @@ Example: Ammonia + ammonium chloride.
 
 ### Henderson-Hasselbalch Equation
 
-$$\mathrm{pH = pK_a + \log_{10}\left(\frac{[\mathrm{A^-]}{[\mathrm{HA]}\right)$$
+$$
+\mathrm{pH = pK_a + \log_{10}\left(\frac{[\mathrm{A^-]}{[\mathrm{HA]}\right)
+$$
 
 **Derivation:**
 
 Starting from the acid dissociation expression:
 
-$$K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]}$$
+$$
+K_a = \frac{[\mathrm{H^+][\mathrm{A^-]}{[\mathrm{HA]}
+$$
 
 Rearranging: $[\mathrm{H^+] = K_a \times \frac{[\mathrm{HA]}{[\mathrm{A^-]}$
 
 Taking $-\log_{10}$ of both sides:
 
-$$-\log[\mathrm{H^+] = -\log K_a - \log\frac{[\mathrm{HA]}{[\mathrm{A^-]}$$
+$$
+-\log[\mathrm{H^+] = -\log K_a - \log\frac{[\mathrm{HA]}{[\mathrm{A^-]}
+$$
 
-$$\mathrm{pH = pK_a + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}$$
+$$
+\mathrm{pH = pK_a + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}
+$$
 
 **Worked Example 9:** Calculate the pH of a buffer containing $0.20 \mathrm{ M$ ethanoic acid
 ($pK_a = 4.76$) and $0.15 \mathrm{ M$ sodium ethanoate.
 
-$$\mathrm{pH = 4.76 + \log_{10}\left(\frac{0.15}{0.20}\right) = 4.76 + \log_{10}(0.75) = 4.76 - 0.125 = 4.64$$
+$$
+\mathrm{pH = 4.76 + \log_{10}\left(\frac{0.15}{0.20}\right) = 4.76 + \log_{10}(0.75) = 4.76 - 0.125 = 4.64
+$$
 
 **Worked Example 10:** Prepare a buffer at pH 5.00 using ethanoic acid ($pK_a = 4.76$) and sodium
 Ethanoate. If the total concentration is $0.30 \mathrm{ M$Find the concentrations of each Component.
 
-$$5.00 = 4.76 + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}$$
+$$
+5.00 = 4.76 + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}
+$$
 
-$$\log\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 0.24$$
+$$
+\log\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 0.24
+$$
 
-$$\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 10^{0.24} = 1.74$$
+$$
+\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 10^{0.24} = 1.74
+$$
 
 Let $[\mathrm{HA] = x$ Then $[\mathrm{A^-] = 1.74x$.
 
@@ -7267,21 +7389,33 @@ $\mathrm{HCl$ To $1 \mathrm{ L$ of the buffer.
 
 First, find $K_a$ for $\mathrm{NH_4^+$:
 
-$$K_a = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.62 \times 10^{-10}$$
+$$
+K_a = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.62 \times 10^{-10}
+$$
 
-$$pK_a = 9.25$$
+$$
+pK_a = 9.25
+$$
 
-$$\mathrm{pH = 9.25 + \log\frac{0.10}{0.15} = 9.25 - 0.176 = 9.07$$
+$$
+\mathrm{pH = 9.25 + \log\frac{0.10}{0.15} = 9.25 - 0.176 = 9.07
+$$
 
 After adding $0.01 \mathrm{ mol$ $\mathrm{HCl$:
 
 $\mathrm{NH_3$ reacts with $\mathrm{H^+$: $[\mathrm{NH_3]$ decreases by $0.01$ and
 $[\mathrm{NH_4^+]$ Increases by $0.01$.
 
-$$[\mathrm{NH_3] = 0.10 - 0.01 = 0.09 \mathrm{ M$$
-$$[\mathrm{NH_4^+] = 0.15 + 0.01 = 0.16 \mathrm{ M$$
+$$
+[\mathrm{NH_3] = 0.10 - 0.01 = 0.09 \mathrm{ M
+$$
+$$
+[\mathrm{NH_4^+] = 0.15 + 0.01 = 0.16 \mathrm{ M
+$$
 
-$$\mathrm{pH = 9.25 + \log\frac{0.09}{0.16} = 9.25 + \log(0.5625) = 9.25 - 0.250 = 9.00$$
+$$
+\mathrm{pH = 9.25 + \log\frac{0.09}{0.16} = 9.25 + \log(0.5625) = 9.25 - 0.250 = 9.00
+$$
 
 The pH changes by only 0.07 units, demonstrating the buffer"s effectiveness.
 
@@ -7307,13 +7441,17 @@ $0.10 \mathrm{ M$ $\mathrm{NaOH$. Find the pH at the equivalence point.
 
 At the equivalence point: moles of acid = moles of base.
 
-$$n = 0.10 \times 0.0250 = 0.00250 \mathrm{ mol$$
+$$
+n = 0.10 \times 0.0250 = 0.00250 \mathrm{ mol
+$$
 
 Total volume = $50.0 \mathrm{ cm^3$.
 
 $[\mathrm{NaCl] = 0.00250/0.0500 = 0.0500 \mathrm{ M$ (neutral salt).
 
-$$\mathrm{pH = 7$$
+$$
+\mathrm{pH = 7
+$$
 
 ### Strong Acid-Weak Base Titration
 
@@ -7335,15 +7473,25 @@ $[\mathrm{CH_3\mathrm{COO^-] = 0.0500 \mathrm{ M$.
 
 The ethanoate ion hydrolyses:
 
-$$\mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{CH_3\mathrm{COOH + \mathrm{OH^-$$
+$$
+\mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{CH_3\mathrm{COOH + \mathrm{OH^-
+$$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}
+$$
 
-$$[\mathrm{OH^-] = \sqrt{K_b \times [\mathrm{CH_3\mathrm{COO^-]} = \sqrt{5.75 \times 10^{-10} \times 0.0500} = \sqrt{2.875 \times 10^{-11}} = 5.36 \times 10^{-6} \mathrm{ M$$
+$$
+[\mathrm{OH^-] = \sqrt{K_b \times [\mathrm{CH_3\mathrm{COO^-]} = \sqrt{5.75 \times 10^{-10} \times 0.0500} = \sqrt{2.875 \times 10^{-11}} = 5.36 \times 10^{-6} \mathrm{ M
+$$
 
-$$\mathrm{pOH = -\log_{10}(5.36 \times 10^{-6}) = 5.27$$
+$$
+\mathrm{pOH = -\log_{10}(5.36 \times 10^{-6}) = 5.27
+$$
 
-$$\mathrm{pH = 14 - 5.27 = 8.73$$
+$$
+\mathrm{pH = 14 - 5.27 = 8.73
+$$
 
 ### Worked Example: pH During a Titration
 
@@ -7364,13 +7512,17 @@ $[\mathrm{NH_4^+] = 0.00150/0.0350 = 0.0429 \mathrm{ M$
 
 This is a buffer solution with equal concentrations, so:
 
-$$\mathrm{pH = pK_a + \log\frac{[\mathrm{NH_3]}{[\mathrm{NH_4^+]} = 9.25 + \log(1) = 9.25$$
+$$
+\mathrm{pH = pK_a + \log\frac{[\mathrm{NH_3]}{[\mathrm{NH_4^+]} = 9.25 + \log(1) = 9.25
+$$
 
 ### Indicators
 
 An indicator is a weak acid where $\mathrm{HIn$ and $\mathrm{In^-$ have different colours.
 
-$$\mathrm{HIn \rightleftharpoons \mathrm{H^+ + \mathrm{In^-$$
+$$
+\mathrm{HIn \rightleftharpoons \mathrm{H^+ + \mathrm{In^-
+$$
 
 The indicator changes colour over approximately $\mathrm{pK_{\mathrm{In} \pm 1$.
 
@@ -7416,9 +7568,13 @@ $\mathrm{H_3\mathrm{PO_4$ (triprotic).
 
 For carbonic acid:
 
-$$\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^- \quad K_{a1} = 4.3 \times 10^{-7}$$
+$$
+\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^- \quad K_{a1} = 4.3 \times 10^{-7}
+$$
 
-$$\mathrm{HCO_3^- \rightleftharpoons \mathrm{H^+ + \mathrm{CO_3^{2-} \quad K_{a2} = 4.8 \times 10^{-11}$$
+$$
+\mathrm{HCO_3^- \rightleftharpoons \mathrm{H^+ + \mathrm{CO_3^{2-} \quad K_{a2} = 4.8 \times 10^{-11}
+$$
 
 Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the second.
 
@@ -7567,18 +7723,26 @@ Example: $\mathrm{NH_4\mathrm{Cl$.
 
 The cation ($\mathrm{NH_4^+$) is the conjugate acid of a weak base and hydrolyses:
 
-$$\mathrm{NH_4^+ + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{NH_3 + \mathrm{H_3\mathrm{O^+$$
+$$
+\mathrm{NH_4^+ + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{NH_3 + \mathrm{H_3\mathrm{O^+
+$$
 
 This produces $\mathrm{H^+$ ions, making the solution acidic (pH < 7).
 
 **Worked Example 15:** Calculate the pH of a $0.10 \mathrm{ M$ $\mathrm{NH_4\mathrm{Cl$ solution.
 ($K_b(\mathrm{NH_3) = 1.78 \times 10^{-5}$)
 
-$$K_a(\mathrm{NH_4^+) = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.62 \times 10^{-10}$$
+$$
+K_a(\mathrm{NH_4^+) = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.62 \times 10^{-10}
+$$
 
-$$[\mathrm{H^+] = \sqrt{K_a \times c} = \sqrt{5.62 \times 10^{-10} \times 0.10} = \sqrt{5.62 \times 10^{-11}} = 7.50 \times 10^{-6} \mathrm{ M$$
+$$
+[\mathrm{H^+] = \sqrt{K_a \times c} = \sqrt{5.62 \times 10^{-10} \times 0.10} = \sqrt{5.62 \times 10^{-11}} = 7.50 \times 10^{-6} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log(7.50 \times 10^{-6}) = 5.12$$
+$$
+\mathrm{pH = -\log(7.50 \times 10^{-6}) = 5.12
+$$
 
 ### Salts from Weak Acid + Strong Base
 
@@ -7586,7 +7750,9 @@ Example: $\mathrm{CH_3\mathrm{COONa$.
 
 The anion ($\mathrm{CH_3\mathrm{COO^-$) is the conjugate base of a weak acid and hydrolyses:
 
-$$\mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{CH_3\mathrm{COOH + \mathrm{OH^-$$
+$$
+\mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{CH_3\mathrm{COOH + \mathrm{OH^-
+$$
 
 This produces $\mathrm{OH^-$ ions, making the solution alkaline (pH > 7).
 
@@ -7624,7 +7790,9 @@ Both ions hydrolyse. The pH depends on the relative strengths of the acid and ba
 
 ### Mixing Two Strong Acids
 
-$$[\mathrm{H^+]_{\mathrm{total} = \frac{n_1 + n_2}{V_{\mathrm{total}}$$
+$$
+[\mathrm{H^+]_{\mathrm{total} = \frac{n_1 + n_2}{V_{\mathrm{total}}
+$$
 
 ### Mixing a Strong Acid and a Strong Base
 
@@ -7642,11 +7810,17 @@ $\mathrm{CH_3\mathrm{COO^-$.
 
 $[\mathrm{CH_3\mathrm{COO^-] = 0.0050/0.100 = 0.050 \mathrm{ M$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}
+$$
 
-$$[\mathrm{OH^-] = \sqrt{5.75 \times 10^{-10} \times 0.050} = 5.36 \times 10^{-6} \mathrm{ M$$
+$$
+[\mathrm{OH^-] = \sqrt{5.75 \times 10^{-10} \times 0.050} = 5.36 \times 10^{-6} \mathrm{ M
+$$
 
-$$\mathrm{pOH = 5.27, \quad \mathrm{pH = 8.73$$
+$$
+\mathrm{pOH = 5.27, \quad \mathrm{pH = 8.73
+$$
 
 ### Mixing Two Acids (One Strong, One Weak)
 
@@ -7710,9 +7884,13 @@ The solubility of some salts is affected by pH.
 $\mathrm{CaCO_3$ is more soluble in acidic solutions because the $\mathrm{CO_3^{2-}$ ion reacts with
 $\mathrm{H^+$:
 
-$$\mathrm{CO_3^{2-} + \mathrm{H^+ \to \mathrm{HCO_3^-$$
+$$
+\mathrm{CO_3^{2-} + \mathrm{H^+ \to \mathrm{HCO_3^-
+$$
 
-$$\mathrm{HCO_3^- + \mathrm{H^+ \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{CO_2 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{HCO_3^- + \mathrm{H^+ \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{CO_2 + \mathrm{H_2\mathrm{O
+$$
 
 This removes $\mathrm{CO_3^{2-}$ from the equilibrium, shifting the dissolution to the right (Le
 Chatelier's principle).
@@ -7721,7 +7899,9 @@ Chatelier's principle).
 
 $\mathrm{Mg(OH)_2$ dissolves in acid because $\mathrm{OH^-$ is neutralised by $\mathrm{H^+$:
 
-$$\mathrm{Mg(OH)_2\mathrm{(s) + 2\mathrm{H^+ \to \mathrm{Mg^{2+} + 2\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{Mg(OH)_2\mathrm{(s) + 2\mathrm{H^+ \to \mathrm{Mg^{2+} + 2\mathrm{H_2\mathrm{O
+$$
 
 $\mathrm{Mg(OH)_2$ is insoluble in base (common ion effect: additional $\mathrm{OH^-$ suppresses
 Dissolution).
@@ -7785,23 +7965,37 @@ $\mathrm{H^+$ from water autoionisation becomes significant and cannot be ignore
 If we use $\mathrm{pH = -\log(10^{-8}) = 8$This gives a basic pH for an acid solution, which Is
 wrong. We must account for the autoionisation of water.
 
-$$[\mathrm{H^+]_{\mathrm{total} = [\mathrm{H^+]_{\mathrm{HCl} + [\mathrm{H^+]_{\mathrm{water} = 1.0 \times 10^{-8} + [\mathrm{OH^-]$$
+$$
+[\mathrm{H^+]_{\mathrm{total} = [\mathrm{H^+]_{\mathrm{HCl} + [\mathrm{H^+]_{\mathrm{water} = 1.0 \times 10^{-8} + [\mathrm{OH^-]
+$$
 
 From $K_w = [\mathrm{H^+][\mathrm{OH^-]$:
 
-$$[\mathrm{H^+] \times ([\mathrm{H^+] - 1.0 \times 10^{-8}) = 1.0 \times 10^{-14}$$
+$$
+[\mathrm{H^+] \times ([\mathrm{H^+] - 1.0 \times 10^{-8}) = 1.0 \times 10^{-14}
+$$
 
-$$[\mathrm{H^+]^2 - 1.0 \times 10^{-8}[\mathrm{H^+] - 1.0 \times 10^{-14} = 0$$
+$$
+[\mathrm{H^+]^2 - 1.0 \times 10^{-8}[\mathrm{H^+] - 1.0 \times 10^{-14} = 0
+$$
 
 Using the quadratic formula:
 
-$$[\mathrm{H^+] = \frac{1.0 \times 10^{-8} + \sqrt{(1.0 \times 10^{-8})^2 + 4 \times 10^{-14}}}{2}$$
+$$
+[\mathrm{H^+] = \frac{1.0 \times 10^{-8} + \sqrt{(1.0 \times 10^{-8})^2 + 4 \times 10^{-14}}}{2}
+$$
 
-$$= \frac{1.0 \times 10^{-8} + \sqrt{10^{-16} + 4 \times 10^{-14}}}{2} = \frac{1.0 \times 10^{-8} + \sqrt{4.01 \times 10^{-14}}}{2}$$
+$$
+= \frac{1.0 \times 10^{-8} + \sqrt{10^{-16} + 4 \times 10^{-14}}}{2} = \frac{1.0 \times 10^{-8} + \sqrt{4.01 \times 10^{-14}}}{2}
+$$
 
-$$= \frac{1.0 \times 10^{-8} + 2.0025 \times 10^{-7}}{2} = \frac{2.1025 \times 10^{-7}}{2} = 1.051 \times 10^{-7} \mathrm{ M$$
+$$
+= \frac{1.0 \times 10^{-8} + 2.0025 \times 10^{-7}}{2} = \frac{2.1025 \times 10^{-7}}{2} = 1.051 \times 10^{-7} \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log(1.051 \times 10^{-7}) = 6.98$$
+$$
+\mathrm{pH = -\log(1.051 \times 10^{-7}) = 6.98
+$$
 
 This makes sense: the pH is very slightly below 7, consistent with a very dilute acid.
 
@@ -7809,7 +8003,9 @@ This makes sense: the pH is very slightly below 7, consistent with a very dilute
 
 For $\mathrm{H_3\mathrm{PO_4$:
 
-$$K_{a1} = 7.5 \times 10^{-3}, \quad K_{a2} = 6.2 \times 10^{-8}, \quad K_{a3} = 4.8 \times 10^{-13}$$
+$$
+K_{a1} = 7.5 \times 10^{-3}, \quad K_{a2} = 6.2 \times 10^{-8}, \quad K_{a3} = 4.8 \times 10^{-13}
+$$
 
 Since $K_{a1} \gg K_{a2} \gg K_{a3}$The first dissociation dominates. For a $0.10 \mathrm{ M$
 Solution, the pH is calculated using only $K_{a1}$.
@@ -7830,9 +8026,13 @@ Solution, the pH is calculated using only $K_{a1}$.
 An indicator is a weak acid $\mathrm{HIn$ where the protonated and deprotonated forms have different
 Colours:
 
-$$\mathrm{HIn \rightleftharpoons \mathrm{H^+ + \mathrm{In^-$$
+$$
+\mathrm{HIn \rightleftharpoons \mathrm{H^+ + \mathrm{In^-
+$$
 
-$$K_{\mathrm{In} = \frac{[\mathrm{H^+][\mathrm{In^-]}{[\mathrm{HIn]}$$
+$$
+K_{\mathrm{In} = \frac{[\mathrm{H^+][\mathrm{In^-]}{[\mathrm{HIn]}
+$$
 
 The human eye sees the acid colour when $[\mathrm{HIn]/[\mathrm{In^-] \gt 10$ and the base colour
 when $[\mathrm{In^-]/[\mathrm{HIn] \gt 10$. The indicator changes colour over approximately
@@ -7848,7 +8048,9 @@ Calculate the pH of a $0.050\,\text{mol\,dm}^{-3}$ solution of HCl.
 
 HCl is a strong acid, so $[\text{H}^+] = 0.050\,\text{mol\,dm}^{-3}$.
 
-$$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
+$$
+\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30
+$$
 :::
 
 ## Intuition
@@ -8000,7 +8202,9 @@ $M = 58$. Possible formula: $\mathrm{C_3\mathrm{H_6\mathrm{O$ (propanone, $M_r =
 The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$Formed by alpha cleavage of
 Propanone.
 
-$$\mathrm{CH_3\mathrm{COCH_3 \to \mathrm{CH_3\mathrm{CO^+ + \mathrm{CH_3^\bullet$$
+$$
+\mathrm{CH_3\mathrm{COCH_3 \to \mathrm{CH_3\mathrm{CO^+ + \mathrm{CH_3^\bullet
+$$
 
 The compound is likely propanone.
 
@@ -8093,7 +8297,9 @@ UV-Vis spectroscopy measures the absorption of ultraviolet and visible light by 
 
 **Beer-Lambert Law:**
 
-$$A = \varepsilon c l$$
+$$
+A = \varepsilon c l
+$$
 
 Where $A$ is absorbance, $\varepsilon$ is the molar absorptivity (L mol$^{-1}$ cm$^{-1}$), $c$ is
 Concentration (mol/L), and $l$ is the path length (cm).
@@ -8112,12 +8318,16 @@ Systems.
 $\varepsilon = 12500 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ has an absorbance of 0.625 in a
 $1 \mathrm{ cm$ cuvette. Find the concentration.
 
-$$c = \frac{A}{\varepsilon l} = \frac{0.625}{12500 \times 1} = 5.0 \times 10^{-5} \mathrm{ mol/L$$
+$$
+c = \frac{A}{\varepsilon l} = \frac{0.625}{12500 \times 1} = 5.0 \times 10^{-5} \mathrm{ mol/L
+$$
 
 **Worked Example 8:** A solution has absorbance 0.450 at 520 nm in a 2 cm cuvette. If
 $\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$Find the concentration.
 
-$$c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5} \mathrm{ mol/L$$
+$$
+c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5} \mathrm{ mol/L
+$$
 
 ---
 
@@ -8139,7 +8349,9 @@ A mobile phase.
 
 **$R_f$ values:**
 
-$$R_f = \frac{\mathrm{distance travelled by substance}{\mathrm{distance travelled by solvent front}$$
+$$
+R_f = \frac{\mathrm{distance travelled by substance}{\mathrm{distance travelled by solvent front}
+$$
 
 ### Thin Layer Chromatography (TLC)
 
@@ -8420,13 +8632,21 @@ $\mathrm{SO_2$. If halogens are present, they are collected as silver halides.
 **Worked Example 15:** 0.200 g of a compound containing C, H, and N produced 0.440 g of
 $\mathrm{CO_2$ and 0.180 g of $\mathrm{H_2\mathrm{O$ on combustion. Find the empirical formula.
 
-$$n(\mathrm{C) = \frac{0.440}{44.0} = 0.0100 \mathrm{ mol, \quad m(\mathrm{C) = 0.120 \mathrm{ g$$
+$$
+n(\mathrm{C) = \frac{0.440}{44.0} = 0.0100 \mathrm{ mol, \quad m(\mathrm{C) = 0.120 \mathrm{ g
+$$
 
-$$n(\mathrm{H) = \frac{2 \times 0.180}{18.0} = 0.0200 \mathrm{ mol, \quad m(\mathrm{H) = 0.0200 \mathrm{ g$$
+$$
+n(\mathrm{H) = \frac{2 \times 0.180}{18.0} = 0.0200 \mathrm{ mol, \quad m(\mathrm{H) = 0.0200 \mathrm{ g
+$$
 
-$$m(\mathrm{N) = 0.200 - 0.120 - 0.020 = 0.060 \mathrm{ g$$
+$$
+m(\mathrm{N) = 0.200 - 0.120 - 0.020 = 0.060 \mathrm{ g
+$$
 
-$$n(\mathrm{N) = \frac{0.060}{14.0} = 0.00429 \mathrm{ mol$$
+$$
+n(\mathrm{N) = \frac{0.060}{14.0} = 0.00429 \mathrm{ mol
+$$
 
 Ratio:
 $\mathrm{C : \mathrm{H : \mathrm{N = 0.0100 : 0.0200 : 0.00429 = 2.33 : 4.67 : 1 = 7 : 14 : 3$.
@@ -8478,7 +8698,9 @@ Absorbance readings:
 An unknown sample gave an absorbance of 0.40. Find the concentration.
 
 From the calibration curve, absorbance is proportional to concentration:
-$$c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm$$
+$$
+c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm
+$$
 
 ---
 
@@ -8538,7 +8760,9 @@ flowchart TD
 
 Every measurement has uncertainty. Combined uncertainty for multiplication/division:
 
-$$\frac{\Delta y}{y} = \sqrt{\left(\frac{\Delta a}{a}\right)^2 + \left(\frac{\Delta b}{b}\right)^2}$$
+$$
+\frac{\Delta y}{y} = \sqrt{\left(\frac{\Delta a}{a}\right)^2 + \left(\frac{\Delta b}{b}\right)^2}
+$$
 
 ### Significant Figures
 
@@ -8614,7 +8838,9 @@ Proteins.
 
 **Alpha cleavage:** Breaks the bond adjacent to a carbonyl group, common in ketones and aldehydes.
 
-$$\mathrm{R-CO-R' \to \mathrm{R-CO^+ + \mathrm{R'^\bullet$$
+$$
+\mathrm{R-CO-R' \to \mathrm{R-CO^+ + \mathrm{R'^\bullet
+$$
 
 **McLafferty rearrangement:** A hydrogen atom from the gamma carbon (three bonds away) transfers to
 The carbonyl oxygen, followed by cleavage of the beta-gamma bond. Produces an enol radical cation
@@ -8644,7 +8870,9 @@ Heteroatom.
 Column efficiency is measured in theoretical plates ($N$). A higher number of plates means better
 Separation.
 
-$$N = 16\left(\frac{t_R}{W}\right)^2$$
+$$
+N = 16\left(\frac{t_R}{W}\right)^2
+$$
 
 Where $t_R$ is retention time and $W$ is peak width at the base.
 
@@ -8652,7 +8880,9 @@ Where $t_R$ is retention time and $W$ is peak width at the base.
 
 The ability to separate two adjacent peaks:
 
-$$R_s = \frac{2(t_{R2} - t_{R1})}{W_1 + W_2}$$
+$$
+R_s = \frac{2(t_{R2} - t_{R1})}{W_1 + W_2}
+$$
 
 Where $R_s > 1.5$ indicates baseline separation.
 
@@ -8714,7 +8944,9 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 
 **Solution:**
 
-$$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
+$$
+k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}
+$$
 :::
 
 ## Intuition
@@ -8839,13 +9071,21 @@ $\text{C}_3\text{H}_8(g) + 5\text{O}_2(g) \rightarrow 3\text{CO}_2(g) + 4\text{H
 
 Using Hess's Law with enthalpies of formation:
 
-$$\Delta H_c^\circ = \sum \Delta H_f^\circ(\text{products}) - \sum \Delta H_f^\circ(\text{reactants})$$
+$$
+\Delta H_c^\circ = \sum \Delta H_f^\circ(\text{products}) - \sum \Delta H_f^\circ(\text{reactants})
+$$
 
-$$\Delta H_c^\circ = [3 \times (-394) + 4 \times (-286)] - [-104 + 5 \times 0]$$
+$$
+\Delta H_c^\circ = [3 \times (-394) + 4 \times (-286)] - [-104 + 5 \times 0]
+$$
 
-$$\Delta H_c^\circ = [-1182 + (-1144)] - [-104]$$
+$$
+\Delta H_c^\circ = [-1182 + (-1144)] - [-104]
+$$
 
-$$\Delta H_c^\circ = -2326 + 104 = -2222\,\text{kJ mol}^{-1}$$
+$$
+\Delta H_c^\circ = -2326 + 104 = -2222\,\text{kJ mol}^{-1}
+$$
 
 (c) During combustion, bonds in the reactants ($\text{C}-\text{H}$, $\text{C}-\text{C}$, and
 $\text{O}=\text{O}$) must be broken, which is endothermic (absorbs energy). New bonds are formed in
@@ -8860,7 +9100,9 @@ $q = mc\Delta T = 200 \times 4.18 \times (54.5 - 22.0) = 200 \times 4.18 \times 
 
 Moles of ethanol: $n = m / M = 0.95 / 46.0 = 0.02065\,\text{mol}$
 
-$$\Delta H_c = -q / n = -27.17 / 0.02065 = -1316\,\text{kJ mol}^{-1}$$
+$$
+\Delta H_c = -q / n = -27.17 / 0.02065 = -1316\,\text{kJ mol}^{-1}
+$$
 
 Two sources of error:
 
@@ -8914,11 +9156,15 @@ at equilibrium, with each concentration raised to the power of its stoichiometri
 balanced equation. $K_c$ is only affected by temperature, not by changes in concentration or
 pressure.
 
-$$K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}$$
+$$
+K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}
+$$
 
 (c)
 
-$$K_c = \frac{(0.8)^2}{(1.2)(3.6)^3} = \frac{0.64}{1.2 \times 46.656} = \frac{0.64}{55.987} = 0.0114$$
+$$
+K_c = \frac{(0.8)^2}{(1.2)(3.6)^3} = \frac{0.64}{1.2 \times 46.656} = \frac{0.64}{55.987} = 0.0114
+$$
 
 Since $K_c$ is much less than 1, the equilibrium position lies towards the **reactants** (nitrogen
 and hydrogen). The small value indicates that at equilibrium, the concentrations of reactants are
@@ -8982,9 +9228,13 @@ $\text{NO}_2$ molecules include **London dispersion forces** (present between al
 
 (c) The reaction is: $2\text{NO}_2(g) \rightarrow \text{N}_2\text{O}_4(g)$
 
-$$\Delta H^\circ = \sum \Delta H_f^\circ(\text{products}) - \sum \Delta H_f^\circ(\text{reactants})$$
+$$
+\Delta H^\circ = \sum \Delta H_f^\circ(\text{products}) - \sum \Delta H_f^\circ(\text{reactants})
+$$
 
-$$\Delta H^\circ = (+10) - 2 \times (+33) = 10 - 66 = -56\,\text{kJ mol}^{-1}$$
+$$
+\Delta H^\circ = (+10) - 2 \times (+33) = 10 - 66 = -56\,\text{kJ mol}^{-1}
+$$
 
 The dimerisation reaction is exothermic with $\Delta H^\circ = -56\,\text{kJ mol}^{-1}$.
 
@@ -9053,7 +9303,9 @@ are still acceptable) while maintaining a fast rate.
 
 (c)
 
-$$K_c = \frac{[\text{SO}_3]^2}{[\text{SO}_2]^2[\text{O}_2]} = \frac{(0.60)^2}{(0.40)^2(0.20)} = \frac{0.36}{0.032} = 11.25$$
+$$
+K_c = \frac{[\text{SO}_3]^2}{[\text{SO}_2]^2[\text{O}_2]} = \frac{(0.60)^2}{(0.40)^2(0.20)} = \frac{0.36}{0.032} = 11.25
+$$
 
 The value of $K_c = 11.25$, indicating that the equilibrium lies towards products ($\text{SO}_3$) at
 this temperature.
@@ -9154,7 +9406,9 @@ Quantities of reactants as stated in the equation react under standard condition
 Hess's Law states that the enthalpy change of a reaction is independent of the route taken, provided
 The initial and final conditions are the same.
 
-$$\Delta H_1 = \Delta H_2 + \Delta H_3$$
+$$
+\Delta H_1 = \Delta H_2 + \Delta H_3
+$$
 
 **Proof of Hess's Law:**
 
@@ -9165,37 +9419,57 @@ States must give the same $\Delta H$.
 
 **Worked Example 1:** Calculate $\Delta H_f^\circ$ for $\mathrm{CH_4$ given:
 
-$$\mathrm{C(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) \quad \Delta H = -393.5 \mathrm{ kJ/mol$$
+$$
+\mathrm{C(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) \quad \Delta H = -393.5 \mathrm{ kJ/mol
+$$
 
-$$\mathrm{H_2\mathrm{(g) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{H_2\mathrm{O(l) \quad \Delta H = -285.8 \mathrm{ kJ/mol$$
+$$
+\mathrm{H_2\mathrm{(g) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{H_2\mathrm{O(l) \quad \Delta H = -285.8 \mathrm{ kJ/mol
+$$
 
-$$\mathrm{CH_4\mathrm{(g) + 2\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{H_2\mathrm{O(l) \quad \Delta H = -890.3 \mathrm{ kJ/mol$$
+$$
+\mathrm{CH_4\mathrm{(g) + 2\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{H_2\mathrm{O(l) \quad \Delta H = -890.3 \mathrm{ kJ/mol
+$$
 
 Using Hess's Law (elements $\to$ products via two routes):
 
-$$\Delta H_f(\mathrm{CH_4) + (-890.3) = -393.5 + 2(-285.8)$$
+$$
+\Delta H_f(\mathrm{CH_4) + (-890.3) = -393.5 + 2(-285.8)
+$$
 
-$$\Delta H_f(\mathrm{CH_4) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol$$
+$$
+\Delta H_f(\mathrm{CH_4) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol
+$$
 
 **Worked Example 2:** Calculate $\Delta H_f^\circ$ for $\mathrm{CS_2$ given:
 
-$$\mathrm{C(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) \quad \Delta H = -393.5 \mathrm{ kJ/mol$$
+$$
+\mathrm{C(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) \quad \Delta H = -393.5 \mathrm{ kJ/mol
+$$
 
-$$\mathrm{S(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{SO_2\mathrm{(g) \quad \Delta H = -296.8 \mathrm{ kJ/mol$$
+$$
+\mathrm{S(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{SO_2\mathrm{(g) \quad \Delta H = -296.8 \mathrm{ kJ/mol
+$$
 
-$$\mathrm{CS_2\mathrm{(l) + 3\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{SO_2\mathrm{(g) \quad \Delta H = -1075 \mathrm{ kJ/mol$$
+$$
+\mathrm{CS_2\mathrm{(l) + 3\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{SO_2\mathrm{(g) \quad \Delta H = -1075 \mathrm{ kJ/mol
+$$
 
 Route 1: $\mathrm{C + 2\mathrm{S \to \mathrm{CS_2$ (direct, $\Delta H_f$) Route 2:
 $\mathrm{C + \mathrm{O_2 \to \mathrm{CO_2$ and $2\mathrm{S + 2\mathrm{O_2 \to 2\mathrm{SO_2$ Then
 $\mathrm{CO_2 + 2\mathrm{SO_2 \to \mathrm{CS_2 + 3\mathrm{O_2$ (reverse the combustion)
 
-$$\Delta H_f = -393.5 + 2(-296.8) - (-1075) = -393.5 - 593.6 + 1075 = 87.9 \mathrm{ kJ/mol$$
+$$
+\Delta H_f = -393.5 + 2(-296.8) - (-1075) = -393.5 - 593.6 + 1075 = 87.9 \mathrm{ kJ/mol
+$$
 
 ### Calorimetry
 
 **Enthalpy of combustion:**
 
-$$q = mc\Delta T$$
+$$
+q = mc\Delta T
+$$
 
 Where $m$ is mass of water, $c$ is specific heat capacity ($4.18 \mathrm{ J g^{-1}\mathrm{K^{-1}$),
 And $\Delta T$ is temperature change.
@@ -9203,11 +9477,17 @@ And $\Delta T$ is temperature change.
 **Worked Example 3:** When $1.50 \mathrm{ g$ of ethanol is burned, it raises the temperature of
 $200 \mathrm{ g$ of water by $14.2°C$. Calculate the enthalpy of combustion.
 
-$$q = 200 \times 4.18 \times 14.2 = 11871.2 \mathrm{ J = 11.87 \mathrm{ kJ$$
+$$
+q = 200 \times 4.18 \times 14.2 = 11871.2 \mathrm{ J = 11.87 \mathrm{ kJ
+$$
 
-$$n(\mathrm{ethanol) = \frac{1.50}{46.07} = 0.03256 \mathrm{ mol$$
+$$
+n(\mathrm{ethanol) = \frac{1.50}{46.07} = 0.03256 \mathrm{ mol
+$$
 
-$$\Delta H_c = -\frac{11.87}{0.03256} = -364.7 \mathrm{ kJ/mol$$
+$$
+\Delta H_c = -\frac{11.87}{0.03256} = -364.7 \mathrm{ kJ/mol
+$$
 
 (The negative sign indicates exothermic.)
 
@@ -9215,11 +9495,17 @@ $$\Delta H_c = -\frac{11.87}{0.03256} = -364.7 \mathrm{ kJ/mol$$
 $150 \mathrm{ g$ of water by $10.5°C$. Calculate $\Delta H_c$ and suggest why this differs from the
 Literature value of $-1367 \mathrm{ kJ/mol$.
 
-$$q = 150 \times 4.18 \times 10.5 = 6583.5 \mathrm{ J = 6.58 \mathrm{ kJ$$
+$$
+q = 150 \times 4.18 \times 10.5 = 6583.5 \mathrm{ J = 6.58 \mathrm{ kJ
+$$
 
-$$n = \frac{0.80}{46} = 0.0174 \mathrm{ mol$$
+$$
+n = \frac{0.80}{46} = 0.0174 \mathrm{ mol
+$$
 
-$$\Delta H_c = -\frac{6.58}{0.0174} = -378 \mathrm{ kJ/mol$$
+$$
+\Delta H_c = -\frac{6.58}{0.0174} = -378 \mathrm{ kJ/mol
+$$
 
 This is much less exothermic than the literature value because of:
 
@@ -9233,11 +9519,17 @@ This is much less exothermic than the literature value because of:
 $25.0 \mathrm{ cm^3$ Of $1.0 \mathrm{ M$ NaOH. The temperature rises by $6.8°C$. Calculate the
 enthalpy of neutralisation.
 
-$$q = 50.0 \times 4.18 \times 6.8 = 1421.2 \mathrm{ J = 1.42 \mathrm{ kJ$$
+$$
+q = 50.0 \times 4.18 \times 6.8 = 1421.2 \mathrm{ J = 1.42 \mathrm{ kJ
+$$
 
-$$n = 1.0 \times 0.0250 = 0.0250 \mathrm{ mol$$
+$$
+n = 1.0 \times 0.0250 = 0.0250 \mathrm{ mol
+$$
 
-$$\Delta H_{\mathrm{neut} = -\frac{1.42}{0.0250} = -56.8 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{neut} = -\frac{1.42}{0.0250} = -56.8 \mathrm{ kJ/mol
+$$
 
 ---
 
@@ -9257,7 +9549,9 @@ $$\Delta H_{\mathrm{neut} = -\frac{1.42}{0.0250} = -56.8 \mathrm{ kJ/mol$$
 In a **reversible reaction**, when the rate of the forward reaction equals the rate of the reverse
 Reaction, the system is at **dynamic equilibrium**.
 
-$$aA + bB \rightleftharpoons cC + dD$$
+$$
+aA + bB \rightleftharpoons cC + dD
+$$
 
 **Conditions for dynamic equilibrium:**
 
@@ -9295,7 +9589,9 @@ Mixture becomes paler (less brown $\mathrm{NO_2$ gas).
 
 For the reaction $aA + bB \rightleftharpoons cC + dD$:
 
-$$K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
+$$
+K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
+$$
 
 Where square brackets denote equilibrium concentrations in $\mathrm{mol/L$.
 
@@ -9310,7 +9606,9 @@ Where square brackets denote equilibrium concentrations in $\mathrm{mol/L$.
 The concentrations are $[\mathrm{H_2] = 0.22$, $[\mathrm{I_2] = 0.22$
 $[\mathrm{HI] = 1.56 \mathrm{ mol/L$. Find $K_c$.
 
-$$K_c = \frac{[\mathrm{HI]^2}{[\mathrm{H_2][\mathrm{I_2]} = \frac{(1.56)^2}{(0.22)(0.22)} = \frac{2.4336}{0.0484} = 50.3$$
+$$
+K_c = \frac{[\mathrm{HI]^2}{[\mathrm{H_2][\mathrm{I_2]} = \frac{(1.56)^2}{(0.22)(0.22)} = \frac{2.4336}{0.0484} = 50.3
+$$
 
 **Worked Example 8:** $2.0 \mathrm{ mol$ of $\mathrm{SO_2$ and $1.0 \mathrm{ mol$ of $\mathrm{O_2$
 are Placed in a $1.0 \mathrm{ L$ flask at equilibrium. If $1.4 \mathrm{ mol$ of $\mathrm{SO_3$
@@ -9322,7 +9620,9 @@ forms, find $K_c$ for $\mathrm{2SO_2 + \mathrm{O_2 \rightleftharpoons 2\mathrm{S
 | Change      | -1.4           | -0.7          | +1.4           |
 | Equilibrium | 0.6            | 0.3           | 1.4            |
 
-$$K_c = \frac{[\mathrm{SO_3]^2}{[\mathrm{SO_2]^2[\mathrm{O_2]} = \frac{(1.4)^2}{(0.6)^2(0.3)} = \frac{1.96}{0.108} = 18.15$$
+$$
+K_c = \frac{[\mathrm{SO_3]^2}{[\mathrm{SO_2]^2[\mathrm{O_2]} = \frac{(1.4)^2}{(0.6)^2(0.3)} = \frac{1.96}{0.108} = 18.15
+$$
 
 **Worked Example 9:** $1.0 \mathrm{ mol$ of $\mathrm{PCl_5$ is placed in a $5.0 \mathrm{ L$
 container. At equilibrium, $0.3 \mathrm{ mol$ has dissociated:
@@ -9337,7 +9637,9 @@ $\mathrm{PCl_5 \rightleftharpoons \mathrm{PCl_3 + \mathrm{Cl_2$. Find $K_c$.
 Concentrations (divide by $V = 5.0$ L): $[\mathrm{PCl_5] = 0.14$, $[\mathrm{PCl_3] = 0.06$
 $[\mathrm{Cl_2] = 0.06 \mathrm{ mol/L$.
 
-$$K_c = \frac{[\mathrm{PCl_3][\mathrm{Cl_2]}{[\mathrm{PCl_5]} = \frac{(0.06)(0.06)}{0.14} = \frac{0.0036}{0.14} = 0.0257$$
+$$
+K_c = \frac{[\mathrm{PCl_3][\mathrm{Cl_2]}{[\mathrm{PCl_5]} = \frac{(0.06)(0.06)}{0.14} = \frac{0.0036}{0.14} = 0.0257
+$$
 
 ---
 
@@ -9354,7 +9656,9 @@ $$K_c = \frac{[\mathrm{PCl_3][\mathrm{Cl_2]}{[\mathrm{PCl_5]} = \frac{(0.06)(0.0
 
 ### Equilibrium Constant and Gibbs Free Energy
 
-$$\Delta G^\circ = -RT\ln K$$
+$$
+\Delta G^\circ = -RT\ln K
+$$
 
 Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$, $T$ is temperature in Kelvin.
 
@@ -9363,7 +9667,9 @@ Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$, $T$ is temperature in Kelvi
 Starting from the thermodynamic relationship $\Delta G = \Delta G^\circ + RT\ln Q$ (where $Q$ is the
 Reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$Giving:
 
-$$0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K$$
+$$
+0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K
+$$
 
 - $\Delta G^\circ < 0$: $K > 1$Reaction favours products
 - $\Delta G^\circ > 0$: $K < 1$Reaction favours reactants
@@ -9372,15 +9678,23 @@ $$0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K$$
 **Worked Example 10:** Calculate $K$ at $298 \mathrm{ K$ for a reaction with
 $\Delta G^\circ = -15.2 \mathrm{ kJ/mol$.
 
-$$\Delta G^\circ = -RT\ln K \implies -15200 = -8.314 \times 298 \times \ln K$$
+$$
+\Delta G^\circ = -RT\ln K \implies -15200 = -8.314 \times 298 \times \ln K
+$$
 
-$$\ln K = \frac{15200}{8.314 \times 298} = \frac{15200}{2477.6} = 6.135$$
+$$
+\ln K = \frac{15200}{8.314 \times 298} = \frac{15200}{2477.6} = 6.135
+$$
 
-$$K = e^{6.135} = 461$$
+$$
+K = e^{6.135} = 461
+$$
 
 ### van't Hoff Equation
 
-$$\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 This relates the equilibrium constant at two different temperatures.
 
@@ -9388,18 +9702,26 @@ This relates the equilibrium constant at two different temperatures.
 
 Starting from $\Delta G^\circ = -RT\ln K$ and $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$:
 
-$$-RT\ln K = \Delta H^\circ - T\Delta S^\circ$$
+$$
+-RT\ln K = \Delta H^\circ - T\Delta S^\circ
+$$
 
-$$\ln K = -\frac{\Delta H^\circ}{RT} + \frac{\Delta S^\circ}{R}$$
+$$
+\ln K = -\frac{\Delta H^\circ}{RT} + \frac{\Delta S^\circ}{R}
+$$
 
 Assuming $\Delta H^\circ$ and $\Delta S^\circ$ are temperature-independent over the range of
 Interest, differentiating with respect to $T$:
 
-$$\frac{d\ln K}{dT} = \frac{\Delta H^\circ}{RT^2}$$
+$$
+\frac{d\ln K}{dT} = \frac{\Delta H^\circ}{RT^2}
+$$
 
 Integrating from $T_1$ to $T_2$:
 
-$$\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 ---
 
@@ -9453,7 +9775,9 @@ Threshold, meaning more molecules have sufficient energy to react.
 
 For a reaction $aA + bB \to \mathrm{products$:
 
-$$\mathrm{Rate = k[A]^m[B]^n$$
+$$
+\mathrm{Rate = k[A]^m[B]^n
+$$
 
 Where $m$ and $n$ are the **orders of reaction** with respect to A and B, and $k$ is the **rate
 Constant**.
@@ -9497,13 +9821,19 @@ with Respect to $\mathrm{B$ is 2.
 
 Rate equation: $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$
 
-$$k = \frac{\mathrm{Rate}{[\mathrm{A][\mathrm{B]^2} = \frac{1.2 \times 10^{-3}}{(0.10)(0.10)^2} = \frac{1.2 \times 10^{-3}}{0.001} = 1.2 \mathrm{ L^2\mathrm{mol^{-2}\mathrm{s^{-1}$$
+$$
+k = \frac{\mathrm{Rate}{[\mathrm{A][\mathrm{B]^2} = \frac{1.2 \times 10^{-3}}{(0.10)(0.10)^2} = \frac{1.2 \times 10^{-3}}{0.001} = 1.2 \mathrm{ L^2\mathrm{mol^{-2}\mathrm{s^{-1}
+$$
 
 ### Arrhenius Equation
 
-$$k = Ae^{-E_a/RT}$$
+$$
+k = Ae^{-E_a/RT}
+$$
 
-$$\ln k = \ln A - \frac{E_a}{RT}$$
+$$
+\ln k = \ln A - \frac{E_a}{RT}
+$$
 
 A plot of $\ln k$ vs. $1/T$ gives a straight line with gradient $-E_a/R$ and y-intercept $\ln A$.
 
@@ -9518,27 +9848,45 @@ Orientation factor.
 $2.5 \times 10^{-3} \mathrm{ s^{-1}$ and at $350 \mathrm{ K$ is
 $4.2 \times 10^{-2} \mathrm{ s^{-1}$. Find the activation energy.
 
-$$\ln\left(\frac{4.2 \times 10^{-2}}{2.5 \times 10^{-3}}\right) = -\frac{E_a}{8.314}\left(\frac{1}{350} - \frac{1}{300}\right)$$
+$$
+\ln\left(\frac{4.2 \times 10^{-2}}{2.5 \times 10^{-3}}\right) = -\frac{E_a}{8.314}\left(\frac{1}{350} - \frac{1}{300}\right)
+$$
 
-$$\ln(16.8) = -\frac{E_a}{8.314}\left(0.002857 - 0.003333\right)$$
+$$
+\ln(16.8) = -\frac{E_a}{8.314}\left(0.002857 - 0.003333\right)
+$$
 
-$$2.821 = -\frac{E_a}{8.314}(-0.000476)$$
+$$
+2.821 = -\frac{E_a}{8.314}(-0.000476)
+$$
 
-$$2.821 = \frac{E_a \times 0.000476}{8.314}$$
+$$
+2.821 = \frac{E_a \times 0.000476}{8.314}
+$$
 
-$$E_a = \frac{2.821 \times 8.314}{0.000476} = 49239 \mathrm{ J/mol \approx 49.2 \mathrm{ kJ/mol$$
+$$
+E_a = \frac{2.821 \times 8.314}{0.000476} = 49239 \mathrm{ J/mol \approx 49.2 \mathrm{ kJ/mol
+$$
 
 **Worked Example 14:** The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate
 Constant at $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$Find the rate constant at
 $350 \mathrm{ K$.
 
-$$\ln\left(\frac{k_2}{3.0 \times 10^{-4}}\right) = -\frac{75000}{8.314}\left(\frac{1}{350} - \frac{1}{300}\right)$$
+$$
+\ln\left(\frac{k_2}{3.0 \times 10^{-4}}\right) = -\frac{75000}{8.314}\left(\frac{1}{350} - \frac{1}{300}\right)
+$$
 
-$$\ln\left(\frac{k_2}{3.0 \times 10^{-4}}\right) = -9020 \times (-0.000476) = 4.294$$
+$$
+\ln\left(\frac{k_2}{3.0 \times 10^{-4}}\right) = -9020 \times (-0.000476) = 4.294
+$$
 
-$$\frac{k_2}{3.0 \times 10^{-4}} = e^{4.294} = 73.2$$
+$$
+\frac{k_2}{3.0 \times 10^{-4}} = e^{4.294} = 73.2
+$$
 
-$$k_2 = 73.2 \times 3.0 \times 10^{-4} = 2.20 \times 10^{-2} \mathrm{ s^{-1}$$
+$$
+k_2 = 73.2 \times 3.0 \times 10^{-4} = 2.20 \times 10^{-2} \mathrm{ s^{-1}
+$$
 
 ---
 
@@ -9740,7 +10088,9 @@ flowchart TD
 
 Used for reactions occurring in solution. The calorimeter itself also absorbs heat:
 
-$$q_{\mathrm{total} = (m_{\mathrm{water}c_{\mathrm{water} + C_{\mathrm{cal})\Delta T$$
+$$
+q_{\mathrm{total} = (m_{\mathrm{water}c_{\mathrm{water} + C_{\mathrm{cal})\Delta T
+$$
 
 Where $C_{\mathrm{cal}$ is the heat capacity of the calorimeter (in J/K).
 
@@ -9748,11 +10098,17 @@ Where $C_{\mathrm{cal}$ is the heat capacity of the calorimeter (in J/K).
 $1.0 \mathrm{ M$ $\mathrm{HCl$ is mixed with $50 \mathrm{ cm^3$ of $1.0 \mathrm{ M$ $\mathrm{NaOH$
 in the Calorimeter, the temperature rises by $6.5°C$. Calculate the enthalpy of neutralisation.
 
-$$q_{\mathrm{total} = (100 \times 4.18 + 45) \times 6.5 = (418 + 45) \times 6.5 = 463 \times 6.5 = 3009.5 \mathrm{ J = 3.01 \mathrm{ kJ$$
+$$
+q_{\mathrm{total} = (100 \times 4.18 + 45) \times 6.5 = (418 + 45) \times 6.5 = 463 \times 6.5 = 3009.5 \mathrm{ J = 3.01 \mathrm{ kJ
+$$
 
-$$n = 1.0 \times 0.050 = 0.050 \mathrm{ mol$$
+$$
+n = 1.0 \times 0.050 = 0.050 \mathrm{ mol
+$$
 
-$$\Delta H_{\mathrm{neut} = -\frac{3.01}{0.050} = -60.2 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{neut} = -\frac{3.01}{0.050} = -60.2 \mathrm{ kJ/mol
+$$
 
 ### Bomb Calorimetry
 
@@ -9760,7 +10116,9 @@ Used for combustion reactions. The sample is ignited in a sealed container (bomb
 Water. The bomb calorimeter is designed to operate at constant volume, so the heat measured is
 $\Delta U$ (internal energy change), not $\Delta H$. The correction is:
 
-$$\Delta H = \Delta U + \Delta n_g RT$$
+$$
+\Delta H = \Delta U + \Delta n_g RT
+$$
 
 Where $\Delta n_g$ is the change in moles of gas.
 
@@ -9784,13 +10142,21 @@ $350 \mathrm{ K$.
 
 Using the van't Hoff equation:
 
-$$\ln\left(\frac{K_2}{0.115}\right) = -\frac{57200}{8.314}\left(\frac{1}{350} - \frac{1}{298}\right)$$
+$$
+\ln\left(\frac{K_2}{0.115}\right) = -\frac{57200}{8.314}\left(\frac{1}{350} - \frac{1}{298}\right)
+$$
 
-$$= -6879 \times (0.002857 - 0.003356) = -6879 \times (-0.000499) = 3.432$$
+$$
+= -6879 \times (0.002857 - 0.003356) = -6879 \times (-0.000499) = 3.432
+$$
 
-$$\frac{K_2}{0.115} = e^{3.432} = 30.94$$
+$$
+\frac{K_2}{0.115} = e^{3.432} = 30.94
+$$
 
-$$K_2 = 30.94 \times 0.115 = 3.56$$
+$$
+K_2 = 30.94 \times 0.115 = 3.56
+$$
 
 The equilibrium constant increases significantly with temperature, confirming that the forward
 Reaction is endothermic (Le Chatelier's principle).
@@ -9927,11 +10293,15 @@ Entropy is a measure of disorder or randomness in a system.
 
 **Standard entropy change:**
 
-$$\Delta S^\circ = \sum S^\circ(\mathrm{products) - \sum S^\circ(\mathrm{reactants)$$
+$$
+\Delta S^\circ = \sum S^\circ(\mathrm{products) - \sum S^\circ(\mathrm{reactants)
+$$
 
 ### Gibbs Free Energy
 
-$$\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$$
+$$
+\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ
+$$
 
 | $\Delta H^\circ$ | $\Delta S^\circ$ | $\Delta G^\circ$   | Spontaneity           |
 | ---------------- | ---------------- | ------------------ | --------------------- |
@@ -9948,9 +10318,13 @@ reaction becomes spontaneous.
 
 The reaction is spontaneous when $\Delta G^\circ < 0$:
 
-$$0 = \Delta H^\circ - T\Delta S^\circ$$
+$$
+0 = \Delta H^\circ - T\Delta S^\circ
+$$
 
-$$T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{178000}{160} = 1112.5 \mathrm{ K \approx 840°C$$
+$$
+T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{178000}{160} = 1112.5 \mathrm{ K \approx 840°C
+$$
 
 This is the decomposition temperature of limestone, consistent with industrial practice.
 
@@ -9958,7 +10332,9 @@ This is the decomposition temperature of limestone, consistent with industrial p
 $\Delta H^\circ = +25.7 \mathrm{ kJ/mol$, $\Delta S^\circ = +108 \mathrm{ J mol^{-1}\mathrm{K^{-1}$.
 Explain why this dissolution is spontaneous at room temperature.
 
-$$\Delta G^\circ = 25700 - 298 \times 108 = 25700 - 32184 = -6484 \mathrm{ J/mol$$
+$$
+\Delta G^\circ = 25700 - 298 \times 108 = 25700 - 32184 = -6484 \mathrm{ J/mol
+$$
 
 Since $\Delta G^\circ < 0$The dissolution is spontaneous despite being endothermic. The driving
 Force is the large increase in entropy (solid $\to$ aqueous ions).
@@ -9974,7 +10350,9 @@ it hits the ground (ignore air resistance).
 
 Using conservation of energy: $mgh = \frac{1}{2}mv^2$
 
-$$v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 20} = \sqrt{392.4} \approx 19.8\,\text{m\,s}^{-1}$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 20} = \sqrt{392.4} \approx 19.8\,\text{m\,s}^{-1}
+$$
 
 ## Intuition
 
@@ -10690,7 +11068,9 @@ Longest chain: 6 carbons (hexane).
 
 Numbering from the end nearest a branch:
 
-$$\mathrm{CH_3-\mathrm{CH(\mathrm{CH_3)-\mathrm{CH_2-\mathrm{CH(\mathrm{C_2\mathrm{H_5)-\mathrm{CH_2-\mathrm{CH_3$$
+$$
+\mathrm{CH_3-\mathrm{CH(\mathrm{CH_3)-\mathrm{CH_2-\mathrm{CH(\mathrm{C_2\mathrm{H_5)-\mathrm{CH_2-\mathrm{CH_3
+$$
 
 Position 2: methyl. Position 4: ethyl.
 
@@ -10778,7 +11158,9 @@ Initiation: $\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet$
 
 Propagation: $\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl$
 
-$$\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet$$
+$$
+\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet
+$$
 
 Termination: Various radical combinations.
 
@@ -10787,18 +11169,30 @@ With chlorine, including all three stages.
 
 **Initiation:** UV light provides enough energy to break the Cl-Cl bond homolytically.
 
-$$\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet$$
+$$
+\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet
+$$
 
 **Propagation:** A chlorine radical abstracts a hydrogen atom from methane, forming HCl and a methyl
 Radical. The methyl radical then reacts with another chlorine molecule.
 
-$$\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl$$
-$$\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet$$
+$$
+\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl
+$$
+$$
+\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet
+$$
 
 **Termination:** Any two radicals combine:
-$$\mathrm{Cl^\bullet + \mathrm{Cl^\bullet \to \mathrm{Cl_2$$
-$$\mathrm{CH_3^\bullet + \mathrm{Cl^\bullet \to \mathrm{CH_3\mathrm{Cl$$
-$$\mathrm{CH_3^\bullet + \mathrm{CH_3^\bullet \to \mathrm{C_2\mathrm{H_6$$
+$$
+\mathrm{Cl^\bullet + \mathrm{Cl^\bullet \to \mathrm{Cl_2
+$$
+$$
+\mathrm{CH_3^\bullet + \mathrm{Cl^\bullet \to \mathrm{CH_3\mathrm{Cl
+$$
+$$
+\mathrm{CH_3^\bullet + \mathrm{CH_3^\bullet \to \mathrm{C_2\mathrm{H_6
+$$
 
 Further substitution can occur:
 $\mathrm{CH_3\mathrm{Cl \to \mathrm{CH_2\mathrm{Cl_2 \to \mathrm{CHCl_3 \to \mathrm{CCl_4$.
@@ -10810,16 +11204,22 @@ Electrophiles.
 
 **Addition of HBr:**
 
-$$\mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br$$
+$$
+\mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br
+$$
 
 **Markovnikov"s Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
 With more hydrogens already attached.
 
-$$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3 \quad \mathrm{(major product)$$
+$$
+\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3 \quad \mathrm{(major product)
+$$
 
 **Addition of water (hydration):**
 
-$$\mathrm{CH_2=\mathrm{CH_2 + \mathrm{H_2\mathrm{O \xrightarrow{\mathrm{H^+} \mathrm{CH_3\mathrm{CH_2\mathrm{OH$$
+$$
+\mathrm{CH_2=\mathrm{CH_2 + \mathrm{H_2\mathrm{O \xrightarrow{\mathrm{H^+} \mathrm{CH_3\mathrm{CH_2\mathrm{OH
+$$
 
 **Worked Example 7:** Write the mechanism for the addition of $\mathrm{Br_2$ to ethene, showing the
 Bromonium ion intermediate.
@@ -10827,14 +11227,18 @@ Bromonium ion intermediate.
 **Step 1:** The $\pi$ electrons of the C=C bond attack a bromine molecule, forming a bromonium ion
 Intermediate and a bromide ion.
 
-$$\mathrm{CH_2=\mathrm{CH_2 + \mathrm{Br_2 \to \mathrm{CH_2\mathrm{CH_2\mathrm{Br^+ + \mathrm{Br^-$$
+$$
+\mathrm{CH_2=\mathrm{CH_2 + \mathrm{Br_2 \to \mathrm{CH_2\mathrm{CH_2\mathrm{Br^+ + \mathrm{Br^-
+$$
 
 The bromonium ion is a three-membered ring with a positive charge on bromine.
 
 **Step 2:** The bromide ion attacks one carbon of the bromonium ion from the opposite side
 (anti-addition), opening the ring.
 
-$$\mathrm{CH_2\mathrm{CH_2\mathrm{Br^+ + \mathrm{Br^- \to \mathrm{CH_2\mathrm{BrCH_2\mathrm{Br$$
+$$
+\mathrm{CH_2\mathrm{CH_2\mathrm{Br^+ + \mathrm{Br^- \to \mathrm{CH_2\mathrm{BrCH_2\mathrm{Br
+$$
 
 Product: 1,2-dibromoethane.
 
@@ -10845,18 +11249,24 @@ Product: 1,2-dibromoethane.
 Primary alcohol $\to$ aldehyde $\to$ carboxylic acid (with acidified
 $\mathrm{K_2\mathrm{Cr_2\mathrm{O_7$).
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{OH \xrightarrow{[O]} \mathrm{CH_3\mathrm{CHO \xrightarrow{[O]} \mathrm{CH_3\mathrm{COOH$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{OH \xrightarrow{[O]} \mathrm{CH_3\mathrm{CHO \xrightarrow{[O]} \mathrm{CH_3\mathrm{COOH
+$$
 
 Secondary alcohol $\to$ ketone (stops here).
 
-$$\mathrm{CH_3\mathrm{CH(\mathrm{OH)\mathrm{CH_3 \xrightarrow{[O]} \mathrm{CH_3\mathrm{COCH_3$$
+$$
+\mathrm{CH_3\mathrm{CH(\mathrm{OH)\mathrm{CH_3 \xrightarrow{[O]} \mathrm{CH_3\mathrm{COCH_3
+$$
 
 Tertiary alcohol: not oxidised.
 
 **Worked Example 8:** A student oxidises propan-1-ol using acidified potassium dichromate under
 Reflux. Write the equation and name the organic product.
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH + 2[\mathrm{O] \xrightarrow{\mathrm{reflux} \mathrm{CH_3\mathrm{CH_2\mathrm{COOH + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH + 2[\mathrm{O] \xrightarrow{\mathrm{reflux} \mathrm{CH_3\mathrm{CH_2\mathrm{COOH + \mathrm{H_2\mathrm{O
+$$
 
 Product: propanoic acid. Under reflux, the aldehyde intermediate is further oxidised to the
 Carboxylic acid. To stop at the aldehyde, distillation would be used instead of reflux.
@@ -10864,7 +11274,9 @@ Carboxylic acid. To stop at the aldehyde, distillation would be used instead of 
 **Dehydration:** Alcohols can be dehydrated to form alkenes using concentrated
 $\mathrm{H_2\mathrm{SO_4$ or $\mathrm{Al_2\mathrm{O_3$ at high temperature.
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{OH \xrightarrow{\mathrm{conc.  \mathrm{H_2\mathrm{SO_4, 170°C} \mathrm{CH_2=\mathrm{CH_2 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{OH \xrightarrow{\mathrm{conc.  \mathrm{H_2\mathrm{SO_4, 170°C} \mathrm{CH_2=\mathrm{CH_2 + \mathrm{H_2\mathrm{O
+$$
 
 ### Carbonyl Compounds
 
@@ -10991,18 +11403,24 @@ Formed by joining monomers with the elimination of a small molecule (e.g., water
 
 **Polyesters:** Dicarboxylic acid + diol.
 
-$$\mathrm{HOOC-\mathrm{R-\mathrm{COOH + \mathrm{HO-\mathrm{R'-\mathrm{OH \to \mathrm{[OC-\mathrm{R-\mathrm{COO-\mathrm{R'\mathrm{]_n + n\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{HOOC-\mathrm{R-\mathrm{COOH + \mathrm{HO-\mathrm{R'-\mathrm{OH \to \mathrm{[OC-\mathrm{R-\mathrm{COO-\mathrm{R'\mathrm{]_n + n\mathrm{H_2\mathrm{O
+$$
 
 **Worked Example 11:** Draw the repeating unit of the polyester formed from benzene-1,4-dicarboxylic
 Acid and ethane-1,2-diol.
 
 The repeating unit is:
 
-$$\mathrm{[-OC-C_6\mathrm{H_4\mathrm{-COO-CH_2\mathrm{CH_2\mathrm{O-]_n$$
+$$
+\mathrm{[-OC-C_6\mathrm{H_4\mathrm{-COO-CH_2\mathrm{CH_2\mathrm{O-]_n
+$$
 
 **Polyamides:** Dicarboxylic acid + diamine.
 
-$$\mathrm{HOOC-\mathrm{R-\mathrm{COOH + \mathrm{H_2\mathrm{N-\mathrm{R'-\mathrm{NH_2 \to \mathrm{[OC-\mathrm{R-\mathrm{CONH-\mathrm{R'-\mathrm{NH]_n + n\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{HOOC-\mathrm{R-\mathrm{COOH + \mathrm{H_2\mathrm{N-\mathrm{R'-\mathrm{NH_2 \to \mathrm{[OC-\mathrm{R-\mathrm{CONH-\mathrm{R'-\mathrm{NH]_n + n\mathrm{H_2\mathrm{O
+$$
 
 Nylon and Kevlar are examples of polyamides.
 
@@ -11139,13 +11557,19 @@ Images that rotate plane-polarised light in opposite directions.
 
 Step 1: Add HBr to propene (electrophilic addition):
 
-$$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3$$
+$$
+\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3
+$$
 
 Step 2: Hydrolyse using $\mathrm{NaOH$ (aq) to form the alcohol, then oxidise:
 
-$$\mathrm{CH_3\mathrm{CHBrCH_3 + \mathrm{NaOH \to \mathrm{CH_3\mathrm{CH(OH)CH_3 + \mathrm{NaBr$$
+$$
+\mathrm{CH_3\mathrm{CHBrCH_3 + \mathrm{NaOH \to \mathrm{CH_3\mathrm{CH(OH)CH_3 + \mathrm{NaBr
+$$
 
-$$\mathrm{CH_3\mathrm{CH(OH)CH_3 + 2[\mathrm{O] \to \mathrm{CH_3\mathrm{COOH + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CH_3\mathrm{CH(OH)CH_3 + 2[\mathrm{O] \to \mathrm{CH_3\mathrm{COOH + \mathrm{H_2\mathrm{O
+$$
 
 Wait -- oxidation of propan-2-ol gives propanone, not propanoic acid. Let us use a different route.
 
@@ -11153,7 +11577,9 @@ Alternative: Use anti-Markovnikov addition (not available without peroxides in t
 Better route:
 
 Step 1: Hydration of propene to propan-1-ol (indirect, via addition then hydrolysis):
-$$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{H_2\mathrm{O \xrightarrow{\mathrm{H^+} \mathrm{CH_3\mathrm{CH(OH)CH_3$$
+$$
+\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{H_2\mathrm{O \xrightarrow{\mathrm{H^+} \mathrm{CH_3\mathrm{CH(OH)CH_3
+$$
 
 This gives propan-2-ol (Markovnikov). To get propanoic acid, we need propan-1-ol.
 
@@ -11243,7 +11669,9 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 
 **Bioethanol:** Produced by fermentation of sugars using yeast. Can be blended with petrol.
 
-$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \xrightarrow{\mathrm{yeast} 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2$$
+$$
+\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \xrightarrow{\mathrm{yeast} 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2
+$$
 
 **Biodiesel:** Produced by transesterification of vegetable oils with methanol.
 
@@ -11353,7 +11781,9 @@ To assign E/Z to alkenes:
 
 **Worked Example 21:** Assign E/Z to 1-bromo-2-chloropropene.
 
-$$\mathrm{CH_3\mathrm{C(\mathrm{Br)=\mathrm{C(\mathrm{Cl)\mathrm{H$$
+$$
+\mathrm{CH_3\mathrm{C(\mathrm{Br)=\mathrm{C(\mathrm{Cl)\mathrm{H
+$$
 
 On the left carbon: $\mathrm{Br$ (priority 1) vs. $\mathrm{CH_3$ (priority 2). On the right carbon:
 $\mathrm{Cl$ (priority 1) vs. $\mathrm{H$ (priority 2).
@@ -11400,8 +11830,12 @@ Cancelling dipoles.
   layer because the C-Cl bond is weak enough to be broken by UV radiation in the stratosphere,
   releasing chlorine radicals that catalyse ozone destruction.
 
-$$\mathrm{Cl^\bullet + \mathrm{O_3 \to \mathrm{ClO^\bullet + \mathrm{O_2$$
-$$\mathrm{ClO^\bullet + \mathrm{O \to \mathrm{Cl^\bullet + \mathrm{O_2$$
+$$
+\mathrm{Cl^\bullet + \mathrm{O_3 \to \mathrm{ClO^\bullet + \mathrm{O_2
+$$
+$$
+\mathrm{ClO^\bullet + \mathrm{O \to \mathrm{Cl^\bullet + \mathrm{O_2
+$$
 
 - **HCFCs** and **HFCs**: Replacement compounds that are less damaging to the ozone layer.
 
@@ -11417,7 +11851,9 @@ $$\mathrm{ClO^\bullet + \mathrm{O \to \mathrm{Cl^\bullet + \mathrm{O_2$$
 **Worked Example 22:** Describe the reaction of 1-bromopropane with potassium cyanide and explain
 The importance of this reaction in organic synthesis.
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{Br + \mathrm{KCN \to \mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CN + \mathrm{KBr$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{Br + \mathrm{KCN \to \mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CN + \mathrm{KBr
+$$
 
 This is an $S_N2$ reaction. The product is butanenitrile. The importance is that the carbon chain
 Has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently be hydrolysed to a
@@ -11476,7 +11912,9 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 
 **Solution:**
 
-$$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
+$$
+k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}
+$$
 
 ## Intuition
 
@@ -11917,7 +12355,9 @@ between metals (Groups 1, 2) and non-metals (Groups 6, 7).
 
 $$\mathrm{Mg \to \mathrm{Mg^{2+} + 2e^-$$ $$\mathrm{O + 2e^- \to \mathrm{O^{2-}$$
 
-$$\mathrm{Mg(s) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{MgO(s)$$
+$$
+\mathrm{Mg(s) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{MgO(s)
+$$
 
 **Worked Example 1:** Draw a dot-and-cross diagram for calcium fluoride, $\mathrm{CaF_2$.
 
@@ -12117,7 +12557,9 @@ $4 \times \mathrm{C-H + 2 \times \mathrm{O=O = 4(412) + 2(496) = 1648 + 992 = 26
 Bonds formed:
 $2 \times \mathrm{C=O + 4 \times \mathrm{O-H = 2(743) + 4(463) = 1486 + 1852 = 3338 \mathrm{ kJ/mol$.
 
-$$\Delta H = 2640 - 3338 = -698 \mathrm{ kJ/mol$$
+$$
+\Delta H = 2640 - 3338 = -698 \mathrm{ kJ/mol
+$$
 
 The negative value confirms the reaction is exothermic.
 
@@ -12130,7 +12572,9 @@ $= 612 + 4(412) + 436 = 612 + 1648 + 436 = 2696 \mathrm{ kJ/mol$.
 Bonds formed: $1 \times \mathrm{C-C + 6 \times \mathrm{C-H$
 $= 348 + 6(412) = 348 + 2472 = 2820 \mathrm{ kJ/mol$.
 
-$$\Delta H = 2696 - 2820 = -124 \mathrm{ kJ/mol$$
+$$
+\Delta H = 2696 - 2820 = -124 \mathrm{ kJ/mol
+$$
 
 **Proof that bond enthalpy gives an approximation:**
 
@@ -12157,7 +12601,9 @@ Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$Showing that the bond enthalpy 
 
 **Worked Example 7:** Balance the equation for the combustion of propane.
 
-$$\mathrm{C_3\mathrm{H_8 + 5\mathrm{O_2 \to 3\mathrm{CO_2 + 4\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{C_3\mathrm{H_8 + 5\mathrm{O_2 \to 3\mathrm{CO_2 + 4\mathrm{H_2\mathrm{O
+$$
 
 Step-by-step: Balance C first (3 $\mathrm{CO_2$), then H (4 $\mathrm{H_2\mathrm{O$), then O (needs
 $6 + 4 = 10$ O atoms on left, so $5\mathrm{O_2$).
@@ -12169,7 +12615,9 @@ $\mathrm{Fe_2\mathrm{O_3 + \mathrm{CO \to 2\mathrm{Fe + \mathrm{CO_2$. Balance C
 balanced (1 on each side). Balance O: left has $3 + 1 = 4$ O atoms, right has $2$. Need
 $2\mathrm{CO_2$ on Right, so $2\mathrm{CO$ on left.
 
-$$\mathrm{Fe_2\mathrm{O_3 + 3\mathrm{CO \to 2\mathrm{Fe + 3\mathrm{CO_2$$
+$$
+\mathrm{Fe_2\mathrm{O_3 + 3\mathrm{CO \to 2\mathrm{Fe + 3\mathrm{CO_2
+$$
 
 ### Ionic Equations
 
@@ -12179,7 +12627,9 @@ Only include species that actually change during the reaction (spectator ions ar
 Chloride.
 
 Full equation:
-$$\mathrm{Ag^+(aq) + \mathrm{NO_3^-(aq) + \mathrm{Na^+(aq) + \mathrm{Cl^-(aq) \to \mathrm{AgCl(s) + \mathrm{Na^+(aq) + \mathrm{NO_3^-(aq)$$
+$$
+\mathrm{Ag^+(aq) + \mathrm{NO_3^-(aq) + \mathrm{Na^+(aq) + \mathrm{Cl^-(aq) \to \mathrm{AgCl(s) + \mathrm{Na^+(aq) + \mathrm{NO_3^-(aq)
+$$
 
 $\mathrm{Na^+$ and $\mathrm{NO_3^-$ are spectator ions.
 
@@ -12187,7 +12637,9 @@ Net ionic equation: $\mathrm{Ag^+(aq) + \mathrm{Cl^-(aq) \to \mathrm{AgCl(s)$
 
 **Worked Example 10:** Write the ionic equation for the reaction of zinc with dilute sulfuric acid.
 
-$$\mathrm{Zn(s) + 2\mathrm{H^+(aq) + \mathrm{SO_4^{2-}(aq) \to \mathrm{Zn^{2+}(aq) + \mathrm{SO_4^{2-}(aq) + \mathrm{H_2(g)$$
+$$
+\mathrm{Zn(s) + 2\mathrm{H^+(aq) + \mathrm{SO_4^{2-}(aq) \to \mathrm{Zn^{2+}(aq) + \mathrm{SO_4^{2-}(aq) + \mathrm{H_2(g)
+$$
 
 $\mathrm{SO_4^{2-}$ is a spectator ion.
 
@@ -12233,7 +12685,9 @@ Reduction: $\mathrm{MnO_4^- + 8\mathrm{H^+ + 5e^- \to \mathrm{Mn^{2+} + 4\mathrm
 
 Multiply oxidation by 5:
 
-$$5\mathrm{Fe^{2+} + \mathrm{MnO_4^- + 8\mathrm{H^+ \to 5\mathrm{Fe^{3+} + \mathrm{Mn^{2+} + 4\mathrm{H_2\mathrm{O$$
+$$
+5\mathrm{Fe^{2+} + \mathrm{MnO_4^- + 8\mathrm{H^+ \to 5\mathrm{Fe^{3+} + \mathrm{Mn^{2+} + 4\mathrm{H_2\mathrm{O
+$$
 
 **Worked Example 14:** Balance
 $\mathrm{Cr_2\mathrm{O_7^{2-} + \mathrm{SO_2 \to \mathrm{Cr^{3+} + \mathrm{SO_4^{2-}$ in acidic
@@ -12246,7 +12700,9 @@ $\mathrm{Cr_2\mathrm{O_7^{2-} + 14\mathrm{H^+ + 6e^- \to 2\mathrm{Cr^{3+} + 7\ma
 
 Multiply oxidation by 3 to balance electrons:
 
-$$\mathrm{Cr_2\mathrm{O_7^{2-} + 3\mathrm{SO_2 + 2\mathrm{H^+ \to 2\mathrm{Cr^{3+} + 3\mathrm{SO_4^{2-} + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{Cr_2\mathrm{O_7^{2-} + 3\mathrm{SO_2 + 2\mathrm{H^+ \to 2\mathrm{Cr^{3+} + 3\mathrm{SO_4^{2-} + \mathrm{H_2\mathrm{O
+$$
 
 Check: Cr: 2 left, 2 right. S: 3 left, 3 right. O: $7 + 6 = 13$ left, $12 + 1 = 13$ right. H: $2$
 Left, $2$ right. Charge: $-2 + 0 + 2 = 0$ left, $6 + (-9) = -6 + 2(+2) = -2$... Let us recheck.
@@ -12423,11 +12879,17 @@ The cycle involves the following steps:
 
 By Hess's Law:
 
-$$\Delta H_f = \Delta H_{\mathrm{at}(\mathrm{Na) + \tfrac{1}{2}\Delta H_{\mathrm{at}(\mathrm{Cl) + \mathrm{IE_1 + \mathrm{EA_1 + \Delta H_{\mathrm{latt}$$
+$$
+\Delta H_f = \Delta H_{\mathrm{at}(\mathrm{Na) + \tfrac{1}{2}\Delta H_{\mathrm{at}(\mathrm{Cl) + \mathrm{IE_1 + \mathrm{EA_1 + \Delta H_{\mathrm{latt}
+$$
 
-$$-411 = 108 + 122 + 496 + (-349) + \Delta H_{\mathrm{latt}$$
+$$
+-411 = 108 + 122 + 496 + (-349) + \Delta H_{\mathrm{latt}
+$$
 
-$$\Delta H_{\mathrm{latt} = -411 - 108 - 122 - 496 + 349 = -788 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{latt} = -411 - 108 - 122 - 496 + 349 = -788 \mathrm{ kJ/mol
+$$
 
 ### Polarising Power and Covalent Character
 
@@ -12671,14 +13133,18 @@ Reduced.
 
 **Example:** Chlorine with cold, dilute sodium hydroxide:
 
-$$\mathrm{Cl_2 + 2\mathrm{NaOH \to \mathrm{NaCl + \mathrm{NaClO + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{Cl_2 + 2\mathrm{NaOH \to \mathrm{NaCl + \mathrm{NaClO + \mathrm{H_2\mathrm{O
+$$
 
 Oxidation states: $\mathrm{Cl_2$ (0) $\to$ $\mathrm{Cl^-$ in $\mathrm{NaCl$ (-1) and $\mathrm{Cl^+$
 in $\mathrm{NaClO$ (+1). Chlorine is both reduced (0 to -1) and oxidised (0 to +1).
 
 **Example:** Copper(I) oxide with dilute sulfuric acid:
 
-$$\mathrm{Cu_2\mathrm{O + \mathrm{H_2\mathrm{SO_4 \to \mathrm{Cu + \mathrm{CuSO_4 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{Cu_2\mathrm{O + \mathrm{H_2\mathrm{SO_4 \to \mathrm{Cu + \mathrm{CuSO_4 + \mathrm{H_2\mathrm{O
+$$
 
 Copper goes from +1 in $\mathrm{Cu_2\mathrm{O$ to 0 in $\mathrm{Cu$ (reduction) and to +2 in
 $\mathrm{CuSO_4$ (oxidation).
@@ -12714,7 +13180,9 @@ Oxidation: $\mathrm{I^- \to \tfrac{1}{2}\mathrm{I_2 + e^-$
 
 **Step 3:** Balance electrons. Multiply oxidation by 5:
 
-$$\mathrm{IO_3^- + 5\mathrm{I^- + 6\mathrm{H^+ \to 3\mathrm{I_2 + 3\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{IO_3^- + 5\mathrm{I^- + 6\mathrm{H^+ \to 3\mathrm{I_2 + 3\mathrm{H_2\mathrm{O
+$$
 
 Check: I: $1 + 5 = 6$ left, $3 \times 2 = 6$ right. O: $3$ left, $3$ right. H: $6$ left, $6$ right.
 Charge: $-1 + 5(-1) + 6(+1) = 0$ left, $0$ right. Balanced.
@@ -12748,22 +13216,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 ## Intuition
 
@@ -15009,7 +15485,9 @@ URL: https://highers.wyattau.com/computer-science/1-hardware/1_hardware/
 
 **Converting binary to decimal:**
 
-$$1101_2 = 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 8 + 4 + 0 + 1 = 13_{10}$$
+$$
+1101_2 = 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 8 + 4 + 0 + 1 = 13_{10}
+$$
 
 **Converting decimal to binary:** Repeatedly divide by 2 and record remainders.
 
@@ -15023,11 +15501,15 @@ Reading bottom to top: $11001000_2$.
 **Hexadecimal:** Base-16 using digits 0-9 and A-F. Used for memory addresses, colour codes, and MAC
 Addresses.
 
-$$\mathrm{A3_{16} = 10 \times 16 + 3 = 163_{10}$$
+$$
+\mathrm{A3_{16} = 10 \times 16 + 3 = 163_{10}
+$$
 
 **Binary to hex:** Group binary digits in fours from the right.
 
-$$11010110_2 = 1101 \; 0110 = \mathrm{D6_{16}$$
+$$
+11010110_2 = 1101 \; 0110 = \mathrm{D6_{16}
+$$
 
 **Worked Example.** Convert $\mathrm{FF_{16}$ to binary and decimal.
 
@@ -15193,7 +15675,9 @@ C = 67 = 01000011, a = 97 = 01100001, t = 116 = 01110100.
 
 **Example:** A $1920 \times 1080$ image with 24-bit colour depth:
 
-$$1920 \times 1080 \times 24 / 8 = 6220800 \mathrm{ bytes \approx 5.93 \mathrm{ MB$$
+$$
+1920 \times 1080 \times 24 / 8 = 6220800 \mathrm{ bytes \approx 5.93 \mathrm{ MB
+$$
 
 **Worked Example.** An image has 4 megapixels (4,000,000 pixels) and a file size of 6 MB. What is
 The colour depth?
@@ -15238,7 +15722,9 @@ Without loss of quality. Smaller file sizes for simple images.
 
 **Example:** A 3-minute stereo (2 channels) audio file at CD quality:
 
-$$44100 \times 180 \times 16 \times 2 = 254016000 \mathrm{ bits \approx 30.2 \mathrm{ MB$$
+$$
+44100 \times 180 \times 16 \times 2 = 254016000 \mathrm{ bits \approx 30.2 \mathrm{ MB
+$$
 
 **Nyquist theorem.** The sample rate must be at least twice the highest frequency to accurately
 Reproduce the sound. Human hearing goes up to about 20,000 Hz, so 44,100 Hz is sufficient.
@@ -18485,9 +18971,13 @@ The **range** of $f(x) = x^2$ is $f(x) \geq 0$ (assuming the domain is all real 
 
 If $f(x) = 2x + 1$ and $g(x) = x^2$ Then:
 
-$$f(g(x)) = f(x^2) = 2x^2 + 1$$
+$$
+f(g(x)) = f(x^2) = 2x^2 + 1
+$$
 
-$$g(f(x)) = g(2x + 1) = (2x + 1)^2 = 4x^2 + 4x + 1$$
+$$
+g(f(x)) = g(2x + 1) = (2x + 1)^2 = 4x^2 + 4x + 1
+$$
 
 Note that $f(g(x)) \neq g(f(x))$. Composition is not commutative.
 
@@ -18506,15 +18996,25 @@ The inverse function $f^{-1}$ reverses the effect of $f$. To find $f^{-1}$:
 
 Let $y = \dfrac{2x + 3}{x - 1}$.
 
-$$y(x - 1) = 2x + 3$$
+$$
+y(x - 1) = 2x + 3
+$$
 
-$$yx - y = 2x + 3$$
+$$
+yx - y = 2x + 3
+$$
 
-$$yx - 2x = y + 3$$
+$$
+yx - 2x = y + 3
+$$
 
-$$x(y - 2) = y + 3$$
+$$
+x(y - 2) = y + 3
+$$
 
-$$x = \frac{y + 3}{y - 2}$$
+$$
+x = \frac{y + 3}{y - 2}
+$$
 
 Therefore $f^{-1}(x) = \dfrac{x + 3}{x - 2}$.
 
@@ -18535,7 +19035,9 @@ A quadratic function has the general form $f(x) = ax^2 + bx + c$ where $a \neq 0
 
 **Completed Square Form:**
 
-$$f(x) = a(x - p)^2 + q$$
+$$
+f(x) = a(x - p)^2 + q
+$$
 
 Where the vertex is at $(p, q)$. The axis of symmetry is the vertical line $x = p$.
 
@@ -18549,13 +19051,21 @@ So $p = -\frac{b}{2a}$ and $q = c - \frac{b^2}{4a}$.
 
 **Example:** Express $f(x) = 2x^2 - 12x + 7$ in completed square form.
 
-$$f(x) = 2(x^2 - 6x) + 7$$
+$$
+f(x) = 2(x^2 - 6x) + 7
+$$
 
-$$f(x) = 2\left((x - 3)^2 - 9\right) + 7$$
+$$
+f(x) = 2\left((x - 3)^2 - 9\right) + 7
+$$
 
-$$f(x) = 2(x - 3)^2 - 18 + 7$$
+$$
+f(x) = 2(x - 3)^2 - 18 + 7
+$$
 
-$$f(x) = 2(x - 3)^2 - 11$$
+$$
+f(x) = 2(x - 3)^2 - 11
+$$
 
 The vertex is at $(3, -11)$ and since $a = 2 > 0$The parabola opens upward with a minimum value of
 $-11$.
@@ -18576,25 +19086,37 @@ $-\frac{b}{2a}$. If $\Delta < 0$The square root is not real.
 
 **Example:** Determine the nature of the roots of $3x^2 - 5x + 2 = 0$.
 
-$$\Delta = (-5)^2 - 4(3)(2) = 25 - 24 = 1$$
+$$
+\Delta = (-5)^2 - 4(3)(2) = 25 - 24 = 1
+$$
 
 Since $\Delta > 0$There are two distinct real roots.
 
 **Example:** Find the value of $k$ for which $x^2 + kx + 9 = 0$ has equal roots.
 
-$$\Delta = k^2 - 36 = 0 \implies k = \pm 6$$
+$$
+\Delta = k^2 - 36 = 0 \implies k = \pm 6
+$$
 
 ### Logarithms and Exponentials
 
 **Laws of Logarithms:**
 
-$$\log_a(xy) = \log_a x + \log_a y$$
+$$
+\log_a(xy) = \log_a x + \log_a y
+$$
 
-$$\log_a\left(\frac{x}{y}\right) = \log_a x - \log_a y$$
+$$
+\log_a\left(\frac{x}{y}\right) = \log_a x - \log_a y
+$$
 
-$$\log_a(x^n) = n \log_a x$$
+$$
+\log_a(x^n) = n \log_a x
+$$
 
-$$\log_a a = 1, \quad \log_a 1 = 0$$
+$$
+\log_a a = 1, \quad \log_a 1 = 0
+$$
 
 **Change of Base:**
 
@@ -18607,9 +19129,13 @@ $y \log_c a = \log_c b$Hence $y = \frac{\log_c b}{\log_c a}$.
 
 **Example:** Solve $3^{2x - 1} = 7$.
 
-$$2x - 1 = \log_3 7 = \frac{\ln 7}{\ln 3}$$
+$$
+2x - 1 = \log_3 7 = \frac{\ln 7}{\ln 3}
+$$
 
-$$2x = 1 + \frac{\ln 7}{\ln 3}$$
+$$
+2x = 1 + \frac{\ln 7}{\ln 3}
+$$
 
 $$
 X = \frac\{1\}\{2\}\left(1 + \frac\{\ln 7\}\{\ln 3\}\right) \approx 1.389
@@ -18617,21 +19143,33 @@ $$
 
 **Example:** Solve $\log_2(x + 3) + \log_2(x - 1) = 4$.
 
-$$\log_2((x + 3)(x - 1)) = 4$$
+$$
+\log_2((x + 3)(x - 1)) = 4
+$$
 
-$$(x + 3)(x - 1) = 16$$
+$$
+(x + 3)(x - 1) = 16
+$$
 
-$$x^2 + 2x - 3 = 16$$
+$$
+x^2 + 2x - 3 = 16
+$$
 
-$$x^2 + 2x - 19 = 0$$
+$$
+x^2 + 2x - 19 = 0
+$$
 
-$$x = \frac{-2 \pm \sqrt{4 + 76}}{2} = \frac{-2 \pm \sqrt{80}}{2} = -1 \pm 2\sqrt{5}$$
+$$
+x = \frac{-2 \pm \sqrt{4 + 76}}{2} = \frac{-2 \pm \sqrt{80}}{2} = -1 \pm 2\sqrt{5}
+$$
 
 Since $x + 3 > 0$ and $x - 1 > 0$We need $x > 1$. So $x = -1 + 2\sqrt{5} \approx 3.472$.
 
 **Exponential Growth and Decay:**
 
-$$N(t) = N_0 e^{kt}$$
+$$
+N(t) = N_0 e^{kt}
+$$
 
 Where $N_0$ is the initial quantity and $k$ is the growth ($k > 0$) or decay ($k < 0$) constant.
 
@@ -18723,11 +19261,17 @@ Giving at most two solutions.
 
 Substitute: $2x + x^2 - 4x + 3 = 6$
 
-$$x^2 - 2x - 3 = 0$$
+$$
+x^2 - 2x - 3 = 0
+$$
 
-$$(x - 3)(x + 1) = 0$$
+$$
+(x - 3)(x + 1) = 0
+$$
 
-$$x = 3 \mathrm{ or  x = -1$$
+$$
+x = 3 \mathrm{ or  x = -1
+$$
 
 When $x = 3$: $y = 9 - 12 + 3 = 0$. When $x = -1$: $y = 1 + 4 + 3 = 8$.
 
@@ -20059,28 +20603,46 @@ $\frac{2x^2 - 8}{x^2 - 4x + 4} = \frac{2(x^2 - 4)}{(x - 2)^2} = \frac{2(x - 2)(x
 
 (b) Multiply through by 12 (the LCM of 4 and 3):
 
-$$12 \times \frac{3x + 1}{4} - 12 \times \frac{x - 2}{3} = 12 \times 2$$
+$$
+12 \times \frac{3x + 1}{4} - 12 \times \frac{x - 2}{3} = 12 \times 2
+$$
 
-$$3(3x + 1) - 4(x - 2) = 24$$
+$$
+3(3x + 1) - 4(x - 2) = 24
+$$
 
-$$9x + 3 - 4x + 8 = 24$$
+$$
+9x + 3 - 4x + 8 = 24
+$$
 
-$$5x + 11 = 24$$
+$$
+5x + 11 = 24
+$$
 
-$$5x = 13$$
+$$
+5x = 13
+$$
 
-$$x = \frac{13}{5}$$
+$$
+x = \frac{13}{5}
+$$
 
 (c) $x^3 - x^2 - 12x = x(x^2 - x - 12) = x(x - 4)(x + 3)$
 
 (d) Using the difference of two squares: $a^2 - b^2 = (a - b)(a + b)$ where $a = 2x - 1$ and
 $b = x + 3$:
 
-$$(2x - 1)^2 - (x + 3)^2 = [(2x - 1) - (x + 3)][(2x - 1) + (x + 3)]$$
+$$
+(2x - 1)^2 - (x + 3)^2 = [(2x - 1) - (x + 3)][(2x - 1) + (x + 3)]
+$$
 
-$$= (2x - 1 - x - 3)(2x - 1 + x + 3)$$
+$$
+= (2x - 1 - x - 3)(2x - 1 + x + 3)
+$$
 
-$$= (x - 4)(3x + 2)$$
+$$
+= (x - 4)(3x + 2)
+$$
 
 ---
 
@@ -20120,7 +20682,9 @@ $p(q(x)) = x$ and hence explain the relationship between $p$ and $q$.
 (b) Let $y = \frac{x + 2}{x - 1}$. Then:
 
 $$y(x - 1) = x + 2$$ $$xy - y = x + 2$$ $$xy - x = y + 2$$ $$x(y - 1) = y + 2$$
-$$x = \frac{y + 2}{y - 1}$$
+$$
+x = \frac{y + 2}{y - 1}
+$$
 
 So $h^{-1}(x) = \frac{x + 2}{x - 1}$, which equals $h(x)$ itself (this function is self-inverse).
 
@@ -20132,14 +20696,18 @@ Since $\sqrt{2x - 6}$ is always non-negative, the **range** is $y \geq 0$, or $[
 
 (d) $q(x) = \frac{x}{2} + 1$. Then:
 
-$$p(q(x)) = 3\left(\frac{x}{2} + 1\right) - 1 = \frac{3x}{2} + 3 - 1 = \frac{3x}{2} + 2$$
+$$
+p(q(x)) = 3\left(\frac{x}{2} + 1\right) - 1 = \frac{3x}{2} + 3 - 1 = \frac{3x}{2} + 2
+$$
 
 This does not equal $x$. Let me verify:
 $p(q(x)) = 3(\frac{x}{2} + 1) - 1 = \frac{3x}{2} + 3 - 1 = \frac{3x}{2} + 2$.
 
 This is not equal to $x$ for all $x$. However, let us check $q(p(x))$:
 
-$$q(p(x)) = \frac{3x - 1}{2} + 1 = \frac{3x - 1 + 2}{2} = \frac{3x + 1}{2}$$
+$$
+q(p(x)) = \frac{3x - 1}{2} + 1 = \frac{3x - 1 + 2}{2} = \frac{3x + 1}{2}
+$$
 
 This is also not $x$. Let me re-examine the question. For $p$ and $q$ to be inverses, we need
 $p(q(x)) = x$. The given functions do not satisfy this, so the question may contain an error. If
@@ -20269,7 +20837,9 @@ $h(2) = -5(4) + 20(2) + 1 = -20 + 40 + 1 = 21$ metres.
 
 The ball hits the ground when $h = 0$: $-5t^2 + 20t + 1 = 0$, so $5t^2 - 20t - 1 = 0$.
 
-$$t = \frac{20 \pm \sqrt{400 + 20}}{10} = \frac{20 \pm \sqrt{420}}{10} = \frac{20 \pm 20.49}{10}$$
+$$
+t = \frac{20 \pm \sqrt{400 + 20}}{10} = \frac{20 \pm \sqrt{420}}{10} = \frac{20 \pm 20.49}{10}
+$$
 
 Taking the positive root: $t = \frac{40.49}{10} \approx 4.05$ seconds.
 
@@ -20316,7 +20886,9 @@ $f(2) = 6$, and $f(3) = 28$, find the values of $a$, $b$, $c$, and $d$.
 Since the domain is $x \geq 3$, $f(x) \geq -4$ (range). Let $y = (x - 3)^2 - 4$:
 
 $$y + 4 = (x - 3)^2$$ $$x - 3 = \sqrt{y + 4}$$ (taking positive root since $x \geq 3$)
-$$x = 3 + \sqrt{y + 4}$$
+$$
+x = 3 + \sqrt{y + 4}
+$$
 
 $f^{-1}(x) = 3 + \sqrt{x + 4}$.
 
@@ -21870,7 +22442,9 @@ Solutions: $x = \dfrac{\pi}{6}, \dfrac{\pi}{2}, \dfrac{5\pi}{6}, \dfrac{3\pi}{2}
 
 Let $u = \cos x$. Then $3u^2 - u - 2 = 0$.
 
-$$(3u + 2)(u - 1) = 0$$
+$$
+(3u + 2)(u - 1) = 0
+$$
 
 $u = -\dfrac{2}{3}$ or $u = 1$.
 
@@ -21917,7 +22491,9 @@ $$
 2\cos^2 x - 3\cos x + 1 = 0
 $$
 
-$$(2\cos x - 1)(\cos x - 1) = 0$$
+$$
+(2\cos x - 1)(\cos x - 1) = 0
+$$
 
 $\cos x = \frac{1}{2}$: $x = \frac{\pi}{3}, \frac{5\pi}{3}$.
 
@@ -21998,7 +22574,9 @@ $R = \sqrt{a^2 + b^2}$. Dividing: $\tan\alpha = b/a$.
 
 **Example:** Express $3\sin x + 4\cos x$ in the form $R\sin(x + \alpha)$.
 
-$$R = \sqrt{9 + 16} = 5$$
+$$
+R = \sqrt{9 + 16} = 5
+$$
 
 $$
 \alpha = \arctan\left(\frac{4}{3}\right)
@@ -22123,9 +22701,13 @@ $\sqrt{g^2 + f^2 - c}$ (provided $g^2 + f^2 - c > 0$).
 
 Complete the square:
 
-$$(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4$$
+$$
+(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4
+$$
 
-$$(x - 3)^2 + (y + 2)^2 = 25$$
+$$
+(x - 3)^2 + (y + 2)^2 = 25
+$$
 
 Centre $(3, -2)$Radius $5$.
 
@@ -22135,7 +22717,9 @@ $$
 R^2 = (5 - 2)^2 + (1 + 3)^2 = 9 + 16 = 25
 $$
 
-$$(x - 2)^2 + (y + 3)^2 = 25$$
+$$
+(x - 2)^2 + (y + 3)^2 = 25
+$$
 
 **Tangent to a Circle:**
 
@@ -22189,9 +22773,13 @@ $$
 5x^2 + 4x - 9 = 0
 $$
 
-$$(5x + 9)(x - 1) = 0$$
+$$
+(5x + 9)(x - 1) = 0
+$$
 
-$$x = -\frac{9}{5} \mathrm{ or  x = 1$$
+$$
+x = -\frac{9}{5} \mathrm{ or  x = 1
+$$
 
 When $x = 1$: $y = 3$. When $x = -\dfrac{9}{5}$: $y = -\dfrac{13}{5}$.
 
@@ -22266,11 +22854,17 @@ $L_2$: $\mathbf{r} = (3, 1, -1) + t(1, -1, 3)$
 
 Equate coordinates:
 
-$$1 + 2s = 3 + t \quad (1)$$
+$$
+1 + 2s = 3 + t \quad (1)
+$$
 
-$$s = 1 - t \quad (2)$$
+$$
+s = 1 - t \quad (2)
+$$
 
-$$2 - s = -1 + 3t \quad (3)$$
+$$
+2 - s = -1 + 3t \quad (3)
+$$
 
 From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$Giving $t = 0$,
 $s = 1$.
@@ -22523,7 +23117,9 @@ Any vector in 3D can be written as $\mathbf{a} = a_1\mathbf{i} + a_2\mathbf{j} +
 
 **Example:** Find the unit vector in the direction of $\mathbf{a} = (3, -4)$.
 
-$$|\mathbf{a}| = \sqrt{9 + 16} = 5$$
+$$
+|\mathbf{a}| = \sqrt{9 + 16} = 5
+$$
 
 $$
 \hat{\mathbf{a}} = \left(\frac{3}{5}, -\frac{4}{5}\right)
@@ -22626,11 +23222,17 @@ $$
 **Example:** Determine the value of $k$ for which the vectors $\mathbf{a} = (k, 2, -1)$ and
 $\mathbf{b} = (3, k, 4)$ are perpendicular.
 
-$$\mathbf{a} \cdot \mathbf{b} = 0$$
+$$
+\mathbf{a} \cdot \mathbf{b} = 0
+$$
 
-$$3k + 2k - 4 = 0$$
+$$
+3k + 2k - 4 = 0
+$$
 
-$$5k = 4$$
+$$
+5k = 4
+$$
 
 $$
 K = \frac{4}{5}
@@ -22748,7 +23350,9 @@ $AA^{-1} = \frac{1}{ad-bc}\begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pma
 
 **Example:** Find the inverse of $A = \begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix}$.
 
-$$\det A = 3(2) - 5(1) = 6 - 5 = 1$$
+$$
+\det A = 3(2) - 5(1) = 6 - 5 = 1
+$$
 
 $$
 A^{-1} = \begin{pmatrix} 2 & -5 \\ -1 & 3 \end{pmatrix}
@@ -23324,7 +23928,9 @@ time.
 
 Using $s = ut + \frac{1}{2}at^2$:
 
-$$s = 0 + \frac{1}{2}(2.5)(64) = 80\,\text{m}$$
+$$
+s = 0 + \frac{1}{2}(2.5)(64) = 80\,\text{m}
+$$
 
 The car travels $80\,\text{m}$.
 
@@ -23333,7 +23939,9 @@ The car travels $80\,\text{m}$.
 (i) At maximum height, $v = 0$:
 
 $$v^2 = u^2 + 2as$$ $$0 = 15^2 + 2(-9.8)s$$
-$$s = \frac{225}{19.6} = 11.48\,\text{m} \approx 11.5\,\text{m}$$
+$$
+s = \frac{225}{19.6} = 11.48\,\text{m} \approx 11.5\,\text{m}
+$$
 
 (ii) Using $v = u + at$:
 
@@ -23475,7 +24083,9 @@ The braking force is $6000\,\text{N}$.
 
 (d) Power $= \frac{\text{work done}}{\text{time}} = \frac{mgh}{t} = mgv$ (since $h/t = v$).
 
-$$P = 200 \times 9.8 \times 0.5 = 980\,\text{W}$$
+$$
+P = 200 \times 9.8 \times 0.5 = 980\,\text{W}
+$$
 
 The power output of the motor is $980\,\text{W}$.
 
@@ -23549,9 +24159,13 @@ slide**.
 
 Acceleration down the slope:
 
-$$F_{\text{resultant}} = mg\sin(30^\circ) - F_{\text{friction}} = 39.2 - 27.16 = 12.04\,\text{N}$$
+$$
+F_{\text{resultant}} = mg\sin(30^\circ) - F_{\text{friction}} = 39.2 - 27.16 = 12.04\,\text{N}
+$$
 
-$$a = \frac{F_{\text{resultant}}}{m} = \frac{12.04}{8} = 1.51\,\text{m s}^{-2}$$
+$$
+a = \frac{F_{\text{resultant}}}{m} = \frac{12.04}{8} = 1.51\,\text{m s}^{-2}
+$$
 
 (d) The approximation of zero air resistance is valid for objects that are: compact (low surface
 area to mass ratio), moving at low speeds, falling through short distances, or in contexts where air
@@ -23594,7 +24208,9 @@ undergoing simple harmonic motion at the lowest point of their jump.
 (a) Using conservation of energy: $E_p = E_k$ at the lowest point.
 
 $$mgh = \frac{1}{2}mv^2$$ $$9.8 \times 0.3 = \frac{1}{2}v^2$$ $$v^2 = 5.88$$
-$$v = 2.42\,\text{m s}^{-1}$$
+$$
+v = 2.42\,\text{m s}^{-1}
+$$
 
 (b)
 
@@ -23617,7 +24233,9 @@ Acceleration: $a = \frac{F_{\text{net}}}{m} = \frac{245.0}{75} = 3.27\,\text{m s
 
 Using $v^2 = u^2 + 2as$: $v^2 = 0 + 2(3.27)(200) = 1308$.
 
-$$v = \sqrt{1308} = 36.2\,\text{m s}^{-1}$$
+$$
+v = \sqrt{1308} = 36.2\,\text{m s}^{-1}
+$$
 
 (d) The **principle of conservation of energy** states that energy cannot be created or destroyed,
 only transferred from one form to another. The total energy of a closed system remains constant. For
@@ -23760,7 +24378,9 @@ Release is tangential to the circle, so the object follows a tangent.
 **Example:** A car of mass $1200 \mathrm{ kg$ travels around a roundabout of radius $25 \mathrm{ m$
 at $12 \mathrm{ m/s$. Find the centripetal force.
 
-$$F = \frac{mv^2}{r} = \frac{1200 \times 144}{25} = \frac{172800}{25} = 6912 \mathrm{ N$$
+$$
+F = \frac{mv^2}{r} = \frac{1200 \times 144}{25} = \frac{172800}{25} = 6912 \mathrm{ N
+$$
 
 This force is provided by friction between the tyres and the road.
 
@@ -23768,15 +24388,21 @@ This force is provided by friction between the tyres and the road.
 
 At the top of a vertical circle, both weight and tension (or normal force) point toward the centre:
 
-$$F_c = mg + T = \frac{mv^2}{r}$$
+$$
+F_c = mg + T = \frac{mv^2}{r}
+$$
 
 At the bottom, tension points toward the centre but weight points away:
 
-$$F_c = T - mg = \frac{mv^2}{r}$$
+$$
+F_c = T - mg = \frac{mv^2}{r}
+$$
 
 The minimum speed at the top to maintain contact (when $T = 0$):
 
-$$v_{\min} = \sqrt{gr}$$
+$$
+v_{\min} = \sqrt{gr}
+$$
 
 ### Orbital Motion and Satellites
 
@@ -23784,21 +24410,33 @@ $$v_{\min} = \sqrt{gr}$$
 Earth's mass $M = 5.97 \times 10^{24} \mathrm{ kg$ and radius $R = 6.37 \times 10^6 \mathrm{ m$Find
 The orbital speed and period.
 
-$$r = R + h = 6.37 \times 10^6 + 4 \times 10^5 = 6.77 \times 10^6 \mathrm{ m$$
+$$
+r = R + h = 6.37 \times 10^6 + 4 \times 10^5 = 6.77 \times 10^6 \mathrm{ m
+$$
 
-$$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+$$
+\frac{GMm}{r^2} = \frac{mv^2}{r}
+$$
 
-$$v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.77 \times 10^6}}$$
+$$
+v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.77 \times 10^6}}
+$$
 
-$$v = \sqrt{\frac{3.983 \times 10^{14}}{6.77 \times 10^6}} = \sqrt{5.883 \times 10^7} \approx 7670 \mathrm{ m/s$$
+$$
+v = \sqrt{\frac{3.983 \times 10^{14}}{6.77 \times 10^6}} = \sqrt{5.883 \times 10^7} \approx 7670 \mathrm{ m/s
+$$
 
-$$T = \frac{2\pi r}{v} = \frac{2\pi \times 6.77 \times 10^6}{7670} \approx 5544 \mathrm{ s \approx 92.4 \mathrm{ min$$
+$$
+T = \frac{2\pi r}{v} = \frac{2\pi \times 6.77 \times 10^6}{7670} \approx 5544 \mathrm{ s \approx 92.4 \mathrm{ min
+$$
 
 ## Gravitational Fields
 
 **Newton's Law of Gravitation:**
 
-$$F = \frac{Gm_1 m_2}{r^2}$$
+$$
+F = \frac{Gm_1 m_2}{r^2}
+$$
 
 Where $G = 6.67 \times 10^{-11} \mathrm{ N m^2 \mathrm{kg^{-2}$.
 
@@ -23812,13 +24450,17 @@ Proportional to $1/r^2$.
 
 **Gravitational Field Strength:**
 
-$$g = \frac{F}{m} = \frac{GM}{r^2}$$
+$$
+g = \frac{F}{m} = \frac{GM}{r^2}
+$$
 
 At Earth's surface: $g \approx 9.8 \mathrm{ N/kg$.
 
 **Gravitational Potential Energy:**
 
-$$E_p = -\frac{GMm}{r}$$
+$$
+E_p = -\frac{GMm}{r}
+$$
 
 This is zero at infinity and negative for finite distances. The negative sign means energy must be
 Supplied to move masses apart.
@@ -23832,11 +24474,15 @@ Total energy.
 
 **Escape Velocity:**
 
-$$v_{\mathrm{esc} = \sqrt{\frac{2GM}{r}}$$
+$$
+v_{\mathrm{esc} = \sqrt{\frac{2GM}{r}}
+$$
 
 **Example:** Calculate the escape velocity from Earth's surface.
 
-$$v_{\mathrm{esc} = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.37 \times 10^6}} = \sqrt{\frac{7.966 \times 10^{14}}{6.37 \times 10^6}} = \sqrt{1.251 \times 10^8} \approx 11180 \mathrm{ m/s \approx 11.2 \mathrm{ km/s$$
+$$
+v_{\mathrm{esc} = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.37 \times 10^6}} = \sqrt{\frac{7.966 \times 10^{14}}{6.37 \times 10^6}} = \sqrt{1.251 \times 10^8} \approx 11180 \mathrm{ m/s \approx 11.2 \mathrm{ km/s
+$$
 
 ---
 
@@ -23849,7 +24495,9 @@ Stars are born from clouds of gas and dust (nebulae) that collapse under gravity
 **Main Sequence:** A star is in equilibrium when the outward radiation pressure balances
 Gravitational collapse. Hydrogen fuses to form helium in the core.
 
-$$4^1_1\mathrm{H \to ^4_2\mathrm{He + 2^0_{+1}\mathrm{e + 2\nu_e + \mathrm{energy$$
+$$
+4^1_1\mathrm{H \to ^4_2\mathrm{He + 2^0_{+1}\mathrm{e + 2\nu_e + \mathrm{energy
+$$
 
 **Evolution depends on mass:**
 
@@ -23878,18 +24526,24 @@ The HR diagram plots luminosity (or absolute magnitude) against temperature (or 
 
 **Wien's Displacement Law:**
 
-$$\lambda_{\mathrm{max} T = 2.898 \times 10^{-3} \mathrm{ m K$$
+$$
+\lambda_{\mathrm{max} T = 2.898 \times 10^{-3} \mathrm{ m K
+$$
 
 **Example:** A star has surface temperature $5800 \mathrm{ K$. Find the peak wavelength of its
 Radiation.
 
-$$\lambda_{\mathrm{max} = \frac{2.898 \times 10^{-3}}{5800} = 5.0 \times 10^{-7} \mathrm{ m = 500 \mathrm{ nm$$
+$$
+\lambda_{\mathrm{max} = \frac{2.898 \times 10^{-3}}{5800} = 5.0 \times 10^{-7} \mathrm{ m = 500 \mathrm{ nm
+$$
 
 This is in the visible spectrum (green-yellow).
 
 **Stefan-Boltzmann Law:**
 
-$$L = 4\pi r^2 \sigma T^4$$
+$$
+L = 4\pi r^2 \sigma T^4
+$$
 
 Where $\sigma = 5.67 \times 10^{-8} \mathrm{ W m^{-2} \mathrm{K^{-4}$.
 
@@ -23897,35 +24551,51 @@ Where $\sigma = 5.67 \times 10^{-8} \mathrm{ W m^{-2} \mathrm{K^{-4}$.
 
 **Kepler's Third Law:**
 
-$$T^2 \propto r^3$$
+$$
+T^2 \propto r^3
+$$
 
-$$T^2 = \frac{4\pi^2}{GM}r^3$$
+$$
+T^2 = \frac{4\pi^2}{GM}r^3
+$$
 
 **Example:** A planet orbits a star of mass $2 \times 10^{30} \mathrm{ kg$ at a distance of
 $1.5 \times 10^{11} \mathrm{ m$. Find the orbital period.
 
-$$T = 2\pi\sqrt{\frac{r^3}{GM}} = 2\pi\sqrt{\frac{(1.5 \times 10^{11})^3}{6.67 \times 10^{-11} \times 2 \times 10^{30}}}$$
+$$
+T = 2\pi\sqrt{\frac{r^3}{GM}} = 2\pi\sqrt{\frac{(1.5 \times 10^{11})^3}{6.67 \times 10^{-11} \times 2 \times 10^{30}}}
+$$
 
-$$= 2\pi\sqrt{\frac{3.375 \times 10^{33}}{1.334 \times 10^{20}}} = 2\pi\sqrt{2.530 \times 10^{13}}$$
+$$
+= 2\pi\sqrt{\frac{3.375 \times 10^{33}}{1.334 \times 10^{20}}} = 2\pi\sqrt{2.530 \times 10^{13}}
+$$
 
-$$= 2\pi \times 5.030 \times 10^6 \approx 3.16 \times 10^7 \mathrm{ s \approx 365.7 \mathrm{ days$$
+$$
+= 2\pi \times 5.030 \times 10^6 \approx 3.16 \times 10^7 \mathrm{ s \approx 365.7 \mathrm{ days
+$$
 
 ### Cosmology
 
 **Hubble's Law:**
 
-$$v = H_0 d$$
+$$
+v = H_0 d
+$$
 
 Where $H_0 \approx 70 \mathrm{ km s^{-1} \mathrm{Mpc^{-1}$ is the Hubble constant, $v$ is the
 Recession velocity, and $d$ is the distance.
 
 **Redshift:** As the universe expands, light from distant galaxies is shifted to longer wavelengths.
 
-$$z = \frac{\Delta\lambda}{\lambda} = \frac{v}{c} \quad (\mathrm{for  v \ll c)$$
+$$
+z = \frac{\Delta\lambda}{\lambda} = \frac{v}{c} \quad (\mathrm{for  v \ll c)
+$$
 
 **Age of the Universe:**
 
-$$t \approx \frac{1}{H_0} \approx 14 \mathrm{ billion years$$
+$$
+t \approx \frac{1}{H_0} \approx 14 \mathrm{ billion years
+$$
 
 **Big Bang Theory:**
 
@@ -23992,21 +24662,33 @@ and the Minimum speed at the top.
 
 **At the bottom:** The tension and weight act in opposite directions radially.
 
-$$T - mg = \frac{mv^2}{r}$$
+$$
+T - mg = \frac{mv^2}{r}
+$$
 
-$$T = mg + \frac{mv^2}{r} = 0.5 \times 9.8 + \frac{0.5 \times 64}{1.0} = 4.9 + 32 = 36.9 \mathrm{ N$$
+$$
+T = mg + \frac{mv^2}{r} = 0.5 \times 9.8 + \frac{0.5 \times 64}{1.0} = 4.9 + 32 = 36.9 \mathrm{ N
+$$
 
 **At the top:** Energy conservation from bottom to top (height difference $= 2r = 2 \mathrm{ m$):
 
-$$\frac{1}{2}mv_b^2 = \frac{1}{2}mv_t^2 + mg(2r)$$
+$$
+\frac{1}{2}mv_b^2 = \frac{1}{2}mv_t^2 + mg(2r)
+$$
 
-$$v_t^2 = v_b^2 - 4gr = 64 - 4 \times 9.8 \times 1.0 = 64 - 39.2 = 24.8$$
+$$
+v_t^2 = v_b^2 - 4gr = 64 - 4 \times 9.8 \times 1.0 = 64 - 39.2 = 24.8
+$$
 
-$$v_t = 4.98 \mathrm{ m/s$$
+$$
+v_t = 4.98 \mathrm{ m/s
+$$
 
 **Minimum speed at the top:** Set $T = 0$ at the top:
 
-$$\frac{mv_{\min}^2}{r} = mg \implies v_{\min} = \sqrt{gr} = \sqrt{9.8} = 3.13 \mathrm{ m/s$$
+$$
+\frac{mv_{\min}^2}{r} = mg \implies v_{\min} = \sqrt{gr} = \sqrt{9.8} = 3.13 \mathrm{ m/s
+$$
 
 Since $v_t = 4.98 \mathrm{ m/s \gt 3.13 \mathrm{ m/s = v_{\min}$The string remains taut at the top.
 
@@ -24016,9 +24698,13 @@ Since $v_t = 4.98 \mathrm{ m/s \gt 3.13 \mathrm{ m/s = v_{\min}$The string remai
 
 Calculate $g$ at an altitude of $300 \mathrm{ km$ above Earth's surface.
 
-$$r = R_E + h = 6.37 \times 10^6 + 3 \times 10^5 = 6.67 \times 10^6 \mathrm{ m$$
+$$
+r = R_E + h = 6.37 \times 10^6 + 3 \times 10^5 = 6.67 \times 10^6 \mathrm{ m
+$$
 
-$$g = \frac{GM}{r^2} = \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{(6.67 \times 10^6)^2} = \frac{3.983 \times 10^{14}}{4.449 \times 10^{13}} = 8.95 \mathrm{ N/kg$$
+$$
+g = \frac{GM}{r^2} = \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{(6.67 \times 10^6)^2} = \frac{3.983 \times 10^{14}}{4.449 \times 10^{13}} = 8.95 \mathrm{ N/kg
+$$
 
 This is about 91% of the surface value of $9.8 \mathrm{ N/kg$. The International Space Station, at
 About 400 km altitude, experiences $g \approx 8.7 \mathrm{ N/kg$ -- astronauts are not truly
@@ -24030,13 +24716,21 @@ Free fall.
 A $1000 \mathrm{ kg$ satellite is moved from an orbit of radius $7000 \mathrm{ km$ to an orbit of
 Radius $42000 \mathrm{ km$ (geostationary). Calculate the energy required.
 
-$$\Delta E = E_{p,f} - E_{p,i} = -\frac{GMm}{r_f} - \left(-\frac{GMm}{r_i}\right) = GMm\left(\frac{1}{r_i} - \frac{1}{r_f}\right)$$
+$$
+\Delta E = E_{p,f} - E_{p,i} = -\frac{GMm}{r_f} - \left(-\frac{GMm}{r_i}\right) = GMm\left(\frac{1}{r_i} - \frac{1}{r_f}\right)
+$$
 
-$$= 6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 1000 \times \left(\frac{1}{7 \times 10^6} - \frac{1}{4.2 \times 10^7}\right)$$
+$$
+= 6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 1000 \times \left(\frac{1}{7 \times 10^6} - \frac{1}{4.2 \times 10^7}\right)
+$$
 
-$$= 3.983 \times 10^{17} \times (1.429 \times 10^{-7} - 2.381 \times 10^{-8})$$
+$$
+= 3.983 \times 10^{17} \times (1.429 \times 10^{-7} - 2.381 \times 10^{-8})
+$$
 
-$$= 3.983 \times 10^{17} \times 1.191 \times 10^{-7} = 4.74 \times 10^{10} \mathrm{ J = 47.4 \mathrm{ GJ$$
+$$
+= 3.983 \times 10^{17} \times 1.191 \times 10^{-7} = 4.74 \times 10^{10} \mathrm{ J = 47.4 \mathrm{ GJ
+$$
 
 This enormous energy requirement explains why launching satellites is so expensive and why ion
 Thrusters (which provide continuous low thrust) are preferred for orbit adjustments.
@@ -24050,17 +24744,25 @@ Temperature $4000 \mathrm{ K$.
 
 **Peak wavelength:**
 
-$$\lambda_{\max} = \frac{2.898 \times 10^{-3}}{4000} = 7.25 \times 10^{-7} \mathrm{ m = 725 \mathrm{ nm$$
+$$
+\lambda_{\max} = \frac{2.898 \times 10^{-3}}{4000} = 7.25 \times 10^{-7} \mathrm{ m = 725 \mathrm{ nm
+$$
 
 This is in the red/infrared part of the spectrum. The star would appear reddish.
 
 **Luminosity:**
 
-$$L = 4\pi r^2 \sigma T^4 = 4\pi(5 \times 10^9)^2 \times 5.67 \times 10^{-8} \times (4000)^4$$
+$$
+L = 4\pi r^2 \sigma T^4 = 4\pi(5 \times 10^9)^2 \times 5.67 \times 10^{-8} \times (4000)^4
+$$
 
-$$= 4\pi \times 2.5 \times 10^{19} \times 5.67 \times 10^{-8} \times 2.56 \times 10^{14}$$
+$$
+= 4\pi \times 2.5 \times 10^{19} \times 5.67 \times 10^{-8} \times 2.56 \times 10^{14}
+$$
 
-$$= 4\pi \times 2.5 \times 10^{19} \times 1.452 \times 10^{7} = 4\pi \times 3.63 \times 10^{26} = 4.56 \times 10^{27} \mathrm{ W$$
+$$
+= 4\pi \times 2.5 \times 10^{19} \times 1.452 \times 10^{7} = 4\pi \times 3.63 \times 10^{26} = 4.56 \times 10^{27} \mathrm{ W
+$$
 
 This is about 12 times the Sun's luminosity ($3.85 \times 10^{26} \mathrm{ W$), consistent with a
 red Giant star.
@@ -24069,13 +24771,17 @@ red Giant star.
 
 For main-sequence stars:
 
-$$L \propto M^{3.5}$$
+$$
+L \propto M^{3.5}
+$$
 
 A star twice as massive as the Sun is $2^{3.5} \approx 11.3$ times as luminous. Since the available
 Fuel is proportional to $M$ but the consumption rate is proportional to $L \propto M^{3.5}$The
 Lifetime is:
 
-$$\mathrm{lifetime \propto \frac{M}{L} \propto \frac{M}{M^{3.5}} = M^{-2.5}$$
+$$
+\mathrm{lifetime \propto \frac{M}{L} \propto \frac{M}{M^{3.5}} = M^{-2.5}
+$$
 
 A star of 10 solar masses lives $10^{-2.5} \approx 0.00316$ times as long as the Sun, or about 32
 Million years (compared to 10 billion years for the Sun). This is why massive stars are rare: they
@@ -24090,7 +24796,9 @@ A galaxy has a redshift $z = 0.05$. Find its recession velocity and distance.
 For $z \lt 0.1$:
 $v \approx cz = 3 \times 10^8 \times 0.05 = 1.5 \times 10^7 \mathrm{ m/s = 15000 \mathrm{ km/s$
 
-$$d = \frac{v}{H_0} = \frac{15000 \mathrm{ km/s}{70 \mathrm{ km/s/Mpc} = 214 \mathrm{ Mpc$$
+$$
+d = \frac{v}{H_0} = \frac{15000 \mathrm{ km/s}{70 \mathrm{ km/s/Mpc} = 214 \mathrm{ Mpc
+$$
 
 This galaxy is about 214 megaparsecs away, or roughly 700 million light-years.
 
@@ -24164,7 +24872,9 @@ $r_2 = 6.67 \times 10^7 \mathrm{ m$. Calculate the total delta-v required.
 
 **Step 1: Speed in initial circular orbit**
 
-$$v_1 = \sqrt{\frac{GM}{r_1}} = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.67 \times 10^6}} = \sqrt{5.97 \times 10^7} \approx 7730 \mathrm{ m/s$$
+$$
+v_1 = \sqrt{\frac{GM}{r_1}} = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.67 \times 10^6}} = \sqrt{5.97 \times 10^7} \approx 7730 \mathrm{ m/s
+$$
 
 **Step 2: Speed at perigee of transfer ellipse**
 
@@ -24173,27 +24883,43 @@ $a = \frac{r_1 + r_2}{2} = \frac{6.67 \times 10^6 + 6.67 \times 10^7}{2} = 3.669
 
 Using the vis-viva equation at perigee ($r = r_1$):
 
-$$v_p = \sqrt{GM \left( \frac{2}{r_1} - \frac{1}{a} \right)} = \sqrt{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times \left( \frac{2}{6.67 \times 10^6} - \frac{1}{3.669 \times 10^7} \right)}$$
+$$
+v_p = \sqrt{GM \left( \frac{2}{r_1} - \frac{1}{a} \right)} = \sqrt{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times \left( \frac{2}{6.67 \times 10^6} - \frac{1}{3.669 \times 10^7} \right)}
+$$
 
-$$v_p = \sqrt{3.98 \times 10^{14} \times (2.998 \times 10^{-7} - 2.726 \times 10^{-8})} = \sqrt{3.98 \times 10^{14} \times 2.726 \times 10^{-7}} \approx 10420 \mathrm{ m/s$$
+$$
+v_p = \sqrt{3.98 \times 10^{14} \times (2.998 \times 10^{-7} - 2.726 \times 10^{-8})} = \sqrt{3.98 \times 10^{14} \times 2.726 \times 10^{-7}} \approx 10420 \mathrm{ m/s
+$$
 
 **Step 3: Speed at apogee of transfer ellipse**
 
-$$v_a = \sqrt{GM \left( \frac{2}{r_2} - \frac{1}{a} \right)} = \sqrt{3.98 \times 10^{14} \times \left( \frac{2}{6.67 \times 10^7} - \frac{1}{3.669 \times 10^7} \right)}$$
+$$
+v_a = \sqrt{GM \left( \frac{2}{r_2} - \frac{1}{a} \right)} = \sqrt{3.98 \times 10^{14} \times \left( \frac{2}{6.67 \times 10^7} - \frac{1}{3.669 \times 10^7} \right)}
+$$
 
-$$v_a = \sqrt{3.98 \times 10^{14} \times (2.998 \times 10^{-8} - 2.726 \times 10^{-8})} = \sqrt{3.98 \times 10^{14} \times 2.726 \times 10^{-9}} \approx 1042 \mathrm{ m/s$$
+$$
+v_a = \sqrt{3.98 \times 10^{14} \times (2.998 \times 10^{-8} - 2.726 \times 10^{-8})} = \sqrt{3.98 \times 10^{14} \times 2.726 \times 10^{-9}} \approx 1042 \mathrm{ m/s
+$$
 
 **Step 4: Speed in final circular orbit**
 
-$$v_2 = \sqrt{\frac{GM}{r_2}} = \sqrt{\frac{3.98 \times 10^{14}}{6.67 \times 10^7}} = \sqrt{5.97 \times 10^6} \approx 2443 \mathrm{ m/s$$
+$$
+v_2 = \sqrt{\frac{GM}{r_2}} = \sqrt{\frac{3.98 \times 10^{14}}{6.67 \times 10^7}} = \sqrt{5.97 \times 10^6} \approx 2443 \mathrm{ m/s
+$$
 
 **Step 5: Total delta-v**
 
-$$\Delta v_1 = v_p - v_1 = 10420 - 7730 = 2690 \mathrm{ m/s$$
+$$
+\Delta v_1 = v_p - v_1 = 10420 - 7730 = 2690 \mathrm{ m/s
+$$
 
-$$\Delta v_2 = v_2 - v_a = 2443 - 1042 = 1401 \mathrm{ m/s$$
+$$
+\Delta v_2 = v_2 - v_a = 2443 - 1042 = 1401 \mathrm{ m/s
+$$
 
-$$\Delta v_{\mathrm{total} = 2690 + 1401 = 4091 \mathrm{ m/s \approx 4.1 \mathrm{ km/s$$
+$$
+\Delta v_{\mathrm{total} = 2690 + 1401 = 4091 \mathrm{ m/s \approx 4.1 \mathrm{ km/s
+$$
 
 <Aside type="note">
 Hohmann transfers are the most fuel-efficient two-impulse transfer between coplanar circular
@@ -24209,23 +24935,35 @@ To the star in parsecs and light-years.
 
 **Step 1: Use the parallax formula**
 
-$$d = \frac{1}{p} \mathrm{ parsecs$$
+$$
+d = \frac{1}{p} \mathrm{ parsecs
+$$
 
 Where $p$ is the parallax angle in arcseconds.
 
-$$d = \frac{1}{0.077} = 12.99 \mathrm{ pc \approx 13.0 \mathrm{ pc$$
+$$
+d = \frac{1}{0.077} = 12.99 \mathrm{ pc \approx 13.0 \mathrm{ pc
+$$
 
 **Step 2: Convert to light-years**
 
-$$1 \mathrm{ pc = 3.26 \mathrm{ ly$$
+$$
+1 \mathrm{ pc = 3.26 \mathrm{ ly
+$$
 
-$$d = 12.99 \times 3.26 = 42.3 \mathrm{ ly$$
+$$
+d = 12.99 \times 3.26 = 42.3 \mathrm{ ly
+$$
 
 **Step 3: Convert to metres**
 
-$$1 \mathrm{ pc = 3.086 \times 10^{16} \mathrm{ m$$
+$$
+1 \mathrm{ pc = 3.086 \times 10^{16} \mathrm{ m
+$$
 
-$$d = 12.99 \times 3.086 \times 10^{16} = 4.01 \times 10^{17} \mathrm{ m$$
+$$
+d = 12.99 \times 3.086 \times 10^{16} = 4.01 \times 10^{17} \mathrm{ m
+$$
 
 <Aside type="caution">
 The Gaia space telescope can measure parallaxes down to about $10 \mathrm{ \mu\mathrm{as$
@@ -24242,15 +24980,23 @@ Calculate the energy that must be supplied by the rocket engines.
 
 **Step 1: Total energy in each orbit**
 
-$$E = -\frac{GMm}{2r}$$
+$$
+E = -\frac{GMm}{2r}
+$$
 
-$$E_1 = -\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 500}{2 \times 7.0 \times 10^6} = -\frac{1.99 \times 10^{17}}{1.4 \times 10^7} = -1.421 \times 10^{10} \mathrm{ J$$
+$$
+E_1 = -\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 500}{2 \times 7.0 \times 10^6} = -\frac{1.99 \times 10^{17}}{1.4 \times 10^7} = -1.421 \times 10^{10} \mathrm{ J
+$$
 
-$$E_2 = -\frac{1.99 \times 10^{17}}{1.5 \times 10^7} = -1.327 \times 10^{10} \mathrm{ J$$
+$$
+E_2 = -\frac{1.99 \times 10^{17}}{1.5 \times 10^7} = -1.327 \times 10^{10} \mathrm{ J
+$$
 
 **Step 2: Energy change**
 
-$$\Delta E = E_2 - E_1 = -1.327 \times 10^{10} - (-1.421 \times 10^{10}) = 9.4 \times 10^8 \mathrm{ J$$
+$$
+\Delta E = E_2 - E_1 = -1.327 \times 10^{10} - (-1.421 \times 10^{10}) = 9.4 \times 10^8 \mathrm{ J
+$$
 
 The total energy becomes less negative (increases), so energy must be supplied:
 $\Delta E = 9.4 \times 10^8 \mathrm{ J$.
@@ -24275,7 +25021,9 @@ The same numerical value at the same location only when the test mass is $1 \mat
 The radius $r$ in orbital formulas is the distance from the _centre_ of the planet, not the altitude
 Above the surface. Always add the planet's radius to the altitude:
 
-$$r = R_{\mathrm{planet} + h$$
+$$
+r = R_{\mathrm{planet} + h
+$$
 
 ### Pitfall 8: Assuming Kepler's Third Law Applies in All Situations
 
@@ -24283,7 +25031,9 @@ Kepler's third law $T^2 \propto r^3$ applies specifically to objects orbiting th
 Body. For two different central bodies (e.g., a satellite around Earth vs around Mars), the constant
 Of proportionality changes:
 
-$$T^2 = \frac{4\pi^2}{GM} r^3$$
+$$
+T^2 = \frac{4\pi^2}{GM} r^3
+$$
 
 ## Additional Practice Problems
 
@@ -24313,29 +25063,45 @@ $4.5 \times 10^{11} \mathrm{ m$. Calculate the masses of both stars.
 
 **Step 1: Use Kepler's third law for binary systems**
 
-$$T^2 = \frac{4\pi^2 a^3}{G(m_1 + m_2)}$$
+$$
+T^2 = \frac{4\pi^2 a^3}{G(m_1 + m_2)}
+$$
 
 Where $a = a_1 + a_2 = 1.5 \times 10^{11} + 4.5 \times 10^{11} = 6.0 \times 10^{11} \mathrm{ m$.
 
-$$T = 5.0 \mathrm{ years = 5.0 \times 3.156 \times 10^7 = 1.578 \times 10^8 \mathrm{ s$$
+$$
+T = 5.0 \mathrm{ years = 5.0 \times 3.156 \times 10^7 = 1.578 \times 10^8 \mathrm{ s
+$$
 
 **Step 2: Solve for $m_1 + m_2$**
 
-$$m_1 + m_2 = \frac{4\pi^2 a^3}{GT^2} = \frac{4\pi^2 \times (6.0 \times 10^{11})^3}{6.67 \times 10^{-11} \times (1.578 \times 10^8)^2}$$
+$$
+m_1 + m_2 = \frac{4\pi^2 a^3}{GT^2} = \frac{4\pi^2 \times (6.0 \times 10^{11})^3}{6.67 \times 10^{-11} \times (1.578 \times 10^8)^2}
+$$
 
-$$= \frac{4 \times 9.8696 \times 2.16 \times 10^{34}}{6.67 \times 10^{-11} \times 2.490 \times 10^{16}} = \frac{8.527 \times 10^{35}}{1.661 \times 10^6} = 5.13 \times 10^{29} \mathrm{ kg$$
+$$
+= \frac{4 \times 9.8696 \times 2.16 \times 10^{34}}{6.67 \times 10^{-11} \times 2.490 \times 10^{16}} = \frac{8.527 \times 10^{35}}{1.661 \times 10^6} = 5.13 \times 10^{29} \mathrm{ kg
+$$
 
 **Step 3: Find individual masses (centre of mass)**
 
-$$m_1 a_1 = m_2 a_2$$
+$$
+m_1 a_1 = m_2 a_2
+$$
 
-$$\frac{m_1}{m_2} = \frac{a_2}{a_1} = \frac{4.5 \times 10^{11}}{1.5 \times 10^{11}} = 3$$
+$$
+\frac{m_1}{m_2} = \frac{a_2}{a_1} = \frac{4.5 \times 10^{11}}{1.5 \times 10^{11}} = 3
+$$
 
 So $m_1 = 3m_2$.
 
-$$3m_2 + m_2 = 5.13 \times 10^{29} \implies m_2 = 1.28 \times 10^{29} \mathrm{ kg$$
+$$
+3m_2 + m_2 = 5.13 \times 10^{29} \implies m_2 = 1.28 \times 10^{29} \mathrm{ kg
+$$
 
-$$m_1 = 3.85 \times 10^{29} \mathrm{ kg$$
+$$
+m_1 = 3.85 \times 10^{29} \mathrm{ kg
+$$
 
 ### Example 27: Apparent Magnitude and Distance
 
@@ -24344,21 +25110,35 @@ To the star in parsecs and light-years.
 
 **Step 1: Use the distance modulus**
 
-$$m - M = 5\log_{10}\left(\frac{d}{10}\right)$$
+$$
+m - M = 5\log_{10}\left(\frac{d}{10}\right)
+$$
 
-$$6.0 - 2.0 = 5\log_{10}\left(\frac{d}{10}\right)$$
+$$
+6.0 - 2.0 = 5\log_{10}\left(\frac{d}{10}\right)
+$$
 
-$$4 = 5\log_{10}\left(\frac{d}{10}\right)$$
+$$
+4 = 5\log_{10}\left(\frac{d}{10}\right)
+$$
 
-$$\log_{10}\left(\frac{d}{10}\right) = 0.8$$
+$$
+\log_{10}\left(\frac{d}{10}\right) = 0.8
+$$
 
-$$\frac{d}{10} = 10^{0.8} = 6.31$$
+$$
+\frac{d}{10} = 10^{0.8} = 6.31
+$$
 
-$$d = 63.1 \mathrm{ pc$$
+$$
+d = 63.1 \mathrm{ pc
+$$
 
 **Step 2: Convert to light-years**
 
-$$d = 63.1 \times 3.26 = 205.7 \mathrm{ ly$$
+$$
+d = 63.1 \times 3.26 = 205.7 \mathrm{ ly
+$$
 
 <Aside type="note">
 The apparent magnitude scale is logarithmic and inverted: a difference of 5 magnitudes
@@ -24381,13 +25161,19 @@ At depth $d$The distance from the centre is $r = R_E - d = 6371 - 2000 = 4371 \m
 
 For uniform density: $M_{\mathrm{enc} = M_E \times \left(\frac{r}{R_E}\right)^3$
 
-$$M_{\mathrm{enc} = 5.97 \times 10^{24} \times \left(\frac{4371}{6371}\right)^3 = 5.97 \times 10^{24} \times (0.686)^3 = 5.97 \times 10^{24} \times 0.323 = 1.928 \times 10^{24} \mathrm{ kg$$
+$$
+M_{\mathrm{enc} = 5.97 \times 10^{24} \times \left(\frac{4371}{6371}\right)^3 = 5.97 \times 10^{24} \times (0.686)^3 = 5.97 \times 10^{24} \times 0.323 = 1.928 \times 10^{24} \mathrm{ kg
+$$
 
 **Step 3: Gravitational field strength**
 
-$$g = \frac{GM_{\mathrm{enc}}{r^2} = \frac{6.67 \times 10^{-11} \times 1.928 \times 10^{24}}{(4.371 \times 10^6)^2}$$
+$$
+g = \frac{GM_{\mathrm{enc}}{r^2} = \frac{6.67 \times 10^{-11} \times 1.928 \times 10^{24}}{(4.371 \times 10^6)^2}
+$$
 
-$$= \frac{1.286 \times 10^{14}}{1.911 \times 10^{13}} = 6.73 \mathrm{ m/s^2$$
+$$
+= \frac{1.286 \times 10^{14}}{1.911 \times 10^{13}} = 6.73 \mathrm{ m/s^2
+$$
 
 This is about $69\%$ of the surface gravity ($9.81 \mathrm{ m/s^2$), even though we are $31\%$ of
 the Way to the centre. Inside a uniform sphere, $g$ decreases linearly with $r$.
@@ -24398,7 +25184,9 @@ the Way to the centre. Inside a uniform sphere, $g$ decreases linearly with $r$.
 
 The gravitational potential at distance $r$ from a point mass $M$ is:
 
-$$V = -\frac{GM}{r}$$
+$$
+V = -\frac{GM}{r}
+$$
 
 This is the energy per unit mass. It is always negative (zero at infinity) and becomes more negative
 Closer to the mass.
@@ -24481,27 +25269,37 @@ $e = 1.6 \times 10^{-19} \mathrm{ C$.
 
 **Electric current** is the rate of flow of charge:
 
-$$I = \frac{Q}{t}$$
+$$
+I = \frac{Q}{t}
+$$
 
 Conventional current flows from positive to negative. In metals, the charge carriers are electrons,
 Which flow from negative to positive -- opposite to the conventional current direction.
 
 **Example:** A current of $3 \mathrm{ A$ flows for $2 \mathrm{ minutes$. Calculate the total charge.
 
-$$Q = It = 3 \times 120 = 360 \mathrm{ C$$
+$$
+Q = It = 3 \times 120 = 360 \mathrm{ C
+$$
 
 **Example:** How many electrons pass a point in a wire carrying $5 \mathrm{ A$ for $10 \mathrm{ s$?
 
-$$Q = 5 \times 10 = 50 \mathrm{ C$$
+$$
+Q = 5 \times 10 = 50 \mathrm{ C
+$$
 
-$$n = \frac{Q}{e} = \frac{50}{1.6 \times 10^{-19}} = 3.125 \times 10^{20} \mathrm{ electrons$$
+$$
+n = \frac{Q}{e} = \frac{50}{1.6 \times 10^{-19}} = 3.125 \times 10^{20} \mathrm{ electrons
+$$
 
 ### Drift Velocity
 
 The current in a wire can be expressed in terms of the microscopic properties of the charge
 Carriers:
 
-$$I = nAve$$
+$$
+I = nAve
+$$
 
 Where $n$ is the number density of free electrons (per m$^3$), $A$ is the cross-sectional area, $v$
 Is the drift velocity, and $e$ is the elementary charge.
@@ -24514,11 +25312,15 @@ At nearly the speed of light, but the electrons themselves move extraordinarily 
 
 **Potential Difference (PD):** The energy transferred per unit charge:
 
-$$V = \frac{W}{Q}$$
+$$
+V = \frac{W}{Q}
+$$
 
 **Electromotive Force (EMF):** The energy supplied per unit charge by a source:
 
-$$\varepsilon = \frac{E}{Q}$$
+$$
+\varepsilon = \frac{E}{Q}
+$$
 
 **Resistance:** $R = \dfrac{V}{I}$
 
@@ -24535,7 +25337,9 @@ historical.
 
 The resistance of a wire depends on its material and dimensions:
 
-$$R = \frac{\rho L}{A}$$
+$$
+R = \frac{\rho L}{A}
+$$
 
 Where $\rho$ is resistivity (measured in $\Omega \mathrm{m$), $L$ is length, and $A$ is
 Cross-sectional area.
@@ -24546,9 +25350,13 @@ Depends on temperature: for metals, resistivity increases approximately linearly
 **Example:** A copper wire of length $10 \mathrm{ m$ and diameter $0.5 \mathrm{ mm$ has resistivity
 $1.7 \times 10^{-8} \Omega \mathrm{m$. Find its resistance.
 
-$$A = \pi r^2 = \pi(0.25 \times 10^{-3})^2 = 1.963 \times 10^{-7} \mathrm{ m^2$$
+$$
+A = \pi r^2 = \pi(0.25 \times 10^{-3})^2 = 1.963 \times 10^{-7} \mathrm{ m^2
+$$
 
-$$R = \frac{1.7 \times 10^{-8} \times 10}{1.963 \times 10^{-7}} = \frac{1.7 \times 10^{-7}}{1.963 \times 10^{-7}} \approx 0.866 \Omega$$
+$$
+R = \frac{1.7 \times 10^{-8} \times 10}{1.963 \times 10^{-7}} = \frac{1.7 \times 10^{-7}}{1.963 \times 10^{-7}} \approx 0.866 \Omega
+$$
 
 ### Series and Parallel Circuits
 
@@ -24566,9 +25374,13 @@ $$R = \frac{1.7 \times 10^{-8} \times 10}{1.963 \times 10^{-7}} = \frac{1.7 \tim
 
 **Example:** Find the total resistance of a $6 \Omega$ and $12 \Omega$ resistor in parallel.
 
-$$\frac{1}{R} = \frac{1}{6} + \frac{1}{12} = \frac{2}{12} + \frac{1}{12} = \frac{3}{12} = \frac{1}{4}$$
+$$
+\frac{1}{R} = \frac{1}{6} + \frac{1}{12} = \frac{2}{12} + \frac{1}{12} = \frac{3}{12} = \frac{1}{4}
+$$
 
-$$R = 4 \Omega$$
+$$
+R = 4 \Omega
+$$
 
 ### Why Parallel Resistance Is Less Than Any Individual Resistance
 
@@ -24614,7 +25426,9 @@ Check: $\dfrac{2}{3} + \dfrac{4}{3} = 2 \mathrm{ A$. Correct.
 
 A real battery has internal resistance $r$. The terminal PD is:
 
-$$V = \varepsilon - Ir$$
+$$
+V = \varepsilon - Ir
+$$
 
 Where $\varepsilon$ is the EMF and $I$ is the current.
 
@@ -24628,9 +25442,13 @@ All the EMF is dropped across the internal resistance, and the terminal PD is ze
 **Example:** A battery of EMF $9 \mathrm{ V$ and internal resistance $0.5 \Omega$ is connected to a
 $4 \Omega$ external resistor. Find the current and terminal PD.
 
-$$I = \frac{\varepsilon}{R + r} = \frac{9}{4 + 0.5} = \frac{9}{4.5} = 2 \mathrm{ A$$
+$$
+I = \frac{\varepsilon}{R + r} = \frac{9}{4 + 0.5} = \frac{9}{4.5} = 2 \mathrm{ A
+$$
 
-$$V = \varepsilon - Ir = 9 - 2(0.5) = 8 \mathrm{ V$$
+$$
+V = \varepsilon - Ir = 9 - 2(0.5) = 8 \mathrm{ V
+$$
 
 ### Maximum Power Transfer Theorem
 
@@ -24649,7 +25467,9 @@ At this condition, the efficiency is only 50%, but the power delivered to the lo
 
 **Example:** A $2 \mathrm{ kW$ heater runs for 3 hours. How much energy does it consume?
 
-$$E = Pt = 2000 \times 3 \times 3600 = 2.16 \times 10^7 \mathrm{ J = 21.6 \mathrm{ MJ$$
+$$
+E = Pt = 2000 \times 3 \times 3600 = 2.16 \times 10^7 \mathrm{ J = 21.6 \mathrm{ MJ
+$$
 
 Or in kWh: $E = 2 \times 3 = 6 \mathrm{ kWh$.
 
@@ -24657,12 +25477,16 @@ Or in kWh: $E = 2 \times 3 = 6 \mathrm{ kWh$.
 
 Two resistors in series form a potential divider. The output voltage across $R_2$ is:
 
-$$V_{\mathrm{out} = V_{\mathrm{in} \times \frac{R_2}{R_1 + R_2}$$
+$$
+V_{\mathrm{out} = V_{\mathrm{in} \times \frac{R_2}{R_1 + R_2}
+$$
 
 **Example:** A $12 \mathrm{ V$ supply is connected across a $10 \mathrm{ k\Omega$ and a
 $2 \mathrm{ k\Omega$ resistor in series. Find the PD across the $2 \mathrm{ k\Omega$ resistor.
 
-$$V_{\mathrm{out} = 12 \times \frac{2}{10 + 2} = 12 \times \frac{1}{6} = 2 \mathrm{ V$$
+$$
+V_{\mathrm{out} = 12 \times \frac{2}{10 + 2} = 12 \times \frac{1}{6} = 2 \mathrm{ V
+$$
 
 ### Sensing Circuits with Potential Dividers
 
@@ -24677,21 +25501,29 @@ Intensity increases.
 
 ### Capacitance
 
-$$C = \frac{Q}{V}$$
+$$
+C = \frac{Q}{V}
+$$
 
 Where $C$ is capacitance (farads, F), $Q$ is charge (coulombs), and $V$ is potential difference.
 
 **Energy stored in a capacitor:**
 
-$$E = \frac{1}{2}QV = \frac{1}{2}CV^2 = \frac{Q^2}{2C}$$
+$$
+E = \frac{1}{2}QV = \frac{1}{2}CV^2 = \frac{Q^2}{2C}
+$$
 
 **Derivation of energy:** The work done to charge a capacitor from 0 to $Q$ is:
 
-$$E = \int_0^Q V\, dq = \int_0^Q \frac{q}{C}\, dq = \frac{Q^2}{2C} = \frac{1}{2}CV^2$$
+$$
+E = \int_0^Q V\, dq = \int_0^Q \frac{q}{C}\, dq = \frac{Q^2}{2C} = \frac{1}{2}CV^2
+$$
 
 **Example:** A $100 \mu\mathrm{F$ capacitor is charged to $200 \mathrm{ V$. Find the energy stored.
 
-$$E = \frac{1}{2}CV^2 = \frac{1}{2} \times 100 \times 10^{-6} \times 40000 = 2 \mathrm{ J$$
+$$
+E = \frac{1}{2}CV^2 = \frac{1}{2} \times 100 \times 10^{-6} \times 40000 = 2 \mathrm{ J
+$$
 
 ### Charging and Discharging
 
@@ -24719,13 +25551,19 @@ The current during discharging is: $I = -I_0 e^{-t/RC}$ (flows in the opposite d
 **Example:** A $470 \mu\mathrm{F$ capacitor is charged through a $100 \mathrm{ k\Omega$ resistor
 from A $9 \mathrm{ V$ supply. Find the time constant and the time to reach 95% of full charge.
 
-$$\tau = RC = 100000 \times 470 \times 10^{-6} = 47 \mathrm{ s$$
+$$
+\tau = RC = 100000 \times 470 \times 10^{-6} = 47 \mathrm{ s
+$$
 
 For 95% charge: $0.95 = 1 - e^{-t/47}$
 
-$$e^{-t/47} = 0.05$$
+$$
+e^{-t/47} = 0.05
+$$
 
-$$t = -47 \ln(0.05) = -47 \times (-2.996) \approx 140.8 \mathrm{ s$$
+$$
+t = -47 \ln(0.05) = -47 \times (-2.996) \approx 140.8 \mathrm{ s
+$$
 
 ### Capacitors in Series and Parallel
 
@@ -24805,11 +25643,17 @@ Resistor to Cell B).
 
 **Step 2:** Apply Kirchhoff's second law around the loop (clockwise):
 
-$$12 - 1I - 4I - 6 - 2I = 0$$
+$$
+12 - 1I - 4I - 6 - 2I = 0
+$$
 
-$$6 - 7I = 0$$
+$$
+6 - 7I = 0
+$$
 
-$$I = \frac{6}{7} = 0.857 \mathrm{ A$$
+$$
+I = \frac{6}{7} = 0.857 \mathrm{ A
+$$
 
 The positive result confirms the assumed direction is correct: current flows from Cell A to Cell B.
 
@@ -24867,11 +25711,17 @@ $I = 2.55 \times 10^{-4} \times e^{-2} = 2.55 \times 10^{-4} \times 0.135 = 3.45
 
 **(d)** $V = 10 = 12(1 - e^{-t/10.34})$
 
-$$1 - e^{-t/10.34} = \frac{10}{12} = 0.833$$
+$$
+1 - e^{-t/10.34} = \frac{10}{12} = 0.833
+$$
 
-$$e^{-t/10.34} = 0.167$$
+$$
+e^{-t/10.34} = 0.167
+$$
 
-$$t = -10.34 \times \ln(0.167) = -10.34 \times (-1.79) = 18.5 \mathrm{ s$$
+$$
+t = -10.34 \times \ln(0.167) = -10.34 \times (-1.79) = 18.5 \mathrm{ s
+$$
 
 ### Energy Stored in a Charged Capacitor: Why the Factor of One-Half
 
@@ -24890,9 +25740,13 @@ $12 \mathrm{ V$ supply.
 
 **Total capacitance:**
 
-$$\frac{1}{C_{\mathrm{total}} = \frac{1}{10} + \frac{1}{22} = \frac{22 + 10}{220} = \frac{32}{220}$$
+$$
+\frac{1}{C_{\mathrm{total}} = \frac{1}{10} + \frac{1}{22} = \frac{22 + 10}{220} = \frac{32}{220}
+$$
 
-$$C_{\mathrm{total} = \frac{220}{32} = 6.875 \mu\mathrm{F$$
+$$
+C_{\mathrm{total} = \frac{220}{32} = 6.875 \mu\mathrm{F
+$$
 
 **Charge on each capacitor:**
 $Q = C_{\mathrm{total}V = 6.875 \times 10^{-6} \times 12 = 8.25 \times 10^{-5} \mathrm{ C$
@@ -24919,7 +25773,9 @@ $40^{\circ}\mathrm{C$.
 
 Place the thermistor as $R_2$ (top of the divider). The output voltage across the thermistor is:
 
-$$V_{\mathrm{out} = 9 \times \frac{R_{\mathrm{thermistor}}{10 + R_{\mathrm{thermistor}}$$
+$$
+V_{\mathrm{out} = 9 \times \frac{R_{\mathrm{thermistor}}{10 + R_{\mathrm{thermistor}}
+$$
 
 At $20^{\circ}\mathrm{C$: $V_{\mathrm{out} = 9 \times \frac{20}{30} = 6.0 \mathrm{ V$
 
@@ -24996,25 +25852,37 @@ this maximum power.
 
 **Step 1: Express the power in $R$**
 
-$$I = \frac{\mathcal{E}}{R + r} = \frac{12}{R + 2}$$
+$$
+I = \frac{\mathcal{E}}{R + r} = \frac{12}{R + 2}
+$$
 
-$$P = I^2 R = \frac{144R}{(R + 2)^2}$$
+$$
+P = I^2 R = \frac{144R}{(R + 2)^2}
+$$
 
 **Step 2: Differentiate and set to zero**
 
-$$\frac{dP}{dR} = \frac{144(R + 2)^2 - 144R \times 2(R + 2)}{(R + 2)^4} = \frac{144(R + 2 - 2R)}{(R + 2)^3} = \frac{144(2 - R)}{(R + 2)^3}$$
+$$
+\frac{dP}{dR} = \frac{144(R + 2)^2 - 144R \times 2(R + 2)}{(R + 2)^4} = \frac{144(R + 2 - 2R)}{(R + 2)^3} = \frac{144(2 - R)}{(R + 2)^3}
+$$
 
 Setting $\frac{dP}{dR} = 0$ gives $R = 2 \Omega$.
 
 **Step 3: Calculate maximum power**
 
-$$I = \frac{12}{2 + 2} = 3 \mathrm{ A$$
+$$
+I = \frac{12}{2 + 2} = 3 \mathrm{ A
+$$
 
-$$P_{\max} = I^2 R = 9 \times 2 = 18 \mathrm{ W$$
+$$
+P_{\max} = I^2 R = 9 \times 2 = 18 \mathrm{ W
+$$
 
 **Efficiency at maximum power transfer:**
 
-$$\eta = \frac{P_R}{P_{\mathrm{total}} = \frac{IR}{\mathcal{E}} = \frac{3 \times 2}{12} = 50\%$$
+$$
+\eta = \frac{P_R}{P_{\mathrm{total}} = \frac{IR}{\mathcal{E}} = \frac{3 \times 2}{12} = 50\%
+$$
 
 <Aside type="note">
 The maximum power transfer theorem states that maximum power is delivered to the load when
@@ -25032,30 +25900,44 @@ Across each component, and the phase angle.
 
 **Step 1: Calculate capacitive reactance**
 
-$$X_C = \frac{1}{2\pi f C} = \frac{1}{2\pi \times 50 \times 50 \times 10^{-6}} = \frac{1}{0.01571} = 63.7 \Omega$$
+$$
+X_C = \frac{1}{2\pi f C} = \frac{1}{2\pi \times 50 \times 50 \times 10^{-6}} = \frac{1}{0.01571} = 63.7 \Omega
+$$
 
 **Step 2: Calculate impedance**
 
-$$Z = \sqrt{R^2 + X_C^2} = \sqrt{100^2 + 63.7^2} = \sqrt{10000 + 4058} = \sqrt{14058} = 118.6 \Omega$$
+$$
+Z = \sqrt{R^2 + X_C^2} = \sqrt{100^2 + 63.7^2} = \sqrt{10000 + 4058} = \sqrt{14058} = 118.6 \Omega
+$$
 
 **Step 3: Calculate current**
 
-$$I_{\mathrm{rms} = \frac{V_{\mathrm{rms}}{Z} = \frac{240}{118.6} = 2.02 \mathrm{ A$$
+$$
+I_{\mathrm{rms} = \frac{V_{\mathrm{rms}}{Z} = \frac{240}{118.6} = 2.02 \mathrm{ A
+$$
 
 **Step 4: Voltage across each component**
 
-$$V_R = I_{\mathrm{rms} \times R = 2.02 \times 100 = 202 \mathrm{ V$$
+$$
+V_R = I_{\mathrm{rms} \times R = 2.02 \times 100 = 202 \mathrm{ V
+$$
 
-$$V_C = I_{\mathrm{rms} \times X_C = 2.02 \times 63.7 = 128.8 \mathrm{ V$$
+$$
+V_C = I_{\mathrm{rms} \times X_C = 2.02 \times 63.7 = 128.8 \mathrm{ V
+$$
 
 **Check:** $V_R^2 + V_C^2 = 202^2 + 128.8^2 = 40804 + 16589 = 57393$.
 $\sqrt{57393} = 239.6 \approx 240 \mathrm{ V$. Confirmed.
 
 **Step 5: Phase angle**
 
-$$\tan\phi = \frac{X_C}{R} = \frac{63.7}{100} = 0.637$$
+$$
+\tan\phi = \frac{X_C}{R} = \frac{63.7}{100} = 0.637
+$$
 
-$$\phi = \arctan(0.637) = 32.5^\circ$$
+$$
+\phi = \arctan(0.637) = 32.5^\circ
+$$
 
 The current leads the voltage by $32.5^\circ$.
 
@@ -25069,7 +25951,9 @@ Battery is connected across the bridge.
 
 **Step 1: Balance condition**
 
-$$\frac{P}{Q} = \frac{R}{S} \implies \frac{100}{200} = \frac{150}{S} \implies S = 300 \Omega$$
+$$
+\frac{P}{Q} = \frac{R}{S} \implies \frac{100}{200} = \frac{150}{S} \implies S = 300 \Omega
+$$
 
 Confirmed: the bridge is balanced.
 
@@ -25080,17 +25964,25 @@ When balanced, no current flows through the galvanometer. The circuit becomes tw
 - Branch 1: $P + Q = 100 + 200 = 300 \Omega$
 - Branch 2: $R + S = 150 + 300 = 450 \Omega$
 
-$$R_{\mathrm{eq} = \frac{300 \times 450}{300 + 450} = \frac{135000}{750} = 180 \Omega$$
+$$
+R_{\mathrm{eq} = \frac{300 \times 450}{300 + 450} = \frac{135000}{750} = 180 \Omega
+$$
 
 **Step 3: Total current from battery**
 
-$$I_{\mathrm{total} = \frac{12}{180} = 0.0667 \mathrm{ A = 66.7 \mathrm{ mA$$
+$$
+I_{\mathrm{total} = \frac{12}{180} = 0.0667 \mathrm{ A = 66.7 \mathrm{ mA
+$$
 
 **Step 4: Current in each branch**
 
-$$I_1 = \frac{12}{300} = 0.040 \mathrm{ A = 40.0 \mathrm{ mA \quad \mathrm{(through P and Q)$$
+$$
+I_1 = \frac{12}{300} = 0.040 \mathrm{ A = 40.0 \mathrm{ mA \quad \mathrm{(through P and Q)
+$$
 
-$$I_2 = \frac{12}{450} = 0.0267 \mathrm{ A = 26.7 \mathrm{ mA \quad \mathrm{(through R and S)$$
+$$
+I_2 = \frac{12}{450} = 0.0267 \mathrm{ A = 26.7 \mathrm{ mA \quad \mathrm{(through R and S)
+$$
 
 **Check:** $I_1 + I_2 = 40.0 + 26.7 = 66.7 \mathrm{ mA = I_{\mathrm{total}$. Confirmed.
 
@@ -25107,14 +25999,18 @@ Source of error in circuit analysis problems.
 In AC circuits with reactive components, the voltages across individual components are **not** in
 Phase and cannot be added algebraically. They must be added as phasors (vectorially):
 
-$$V_{\mathrm{total} = \sqrt{V_R^2 + (V_L - V_C)^2}$$
+$$
+V_{\mathrm{total} = \sqrt{V_R^2 + (V_L - V_C)^2}
+$$
 
 ### Pitfall 8: Confusing EMF with Terminal PD
 
 EMF ($\mathcal{E}$) is the total energy per unit charge supplied by the cell. Terminal PD ($V$) is
 The energy per unit charge delivered to the external circuit. They are related by:
 
-$$V = \mathcal{E} - Ir$$
+$$
+V = \mathcal{E} - Ir
+$$
 
 When $I = 0$ (open circuit), $V = \mathcal{E}$. As current increases, $V$ decreases.
 
@@ -25151,21 +26047,33 @@ Resistance.
 
 **Step 1: Set up equations**
 
-$$\mathcal{E} = V_1 + I_1 r = 5.6 + \frac{5.6}{4}r = 5.6 + 1.4r$$
+$$
+\mathcal{E} = V_1 + I_1 r = 5.6 + \frac{5.6}{4}r = 5.6 + 1.4r
+$$
 
-$$\mathcal{E} = V_2 + I_2 r = 7.2 + \frac{7.2}{10}r = 7.2 + 0.72r$$
+$$
+\mathcal{E} = V_2 + I_2 r = 7.2 + \frac{7.2}{10}r = 7.2 + 0.72r
+$$
 
 **Step 2: Solve simultaneously**
 
-$$5.6 + 1.4r = 7.2 + 0.72r$$
+$$
+5.6 + 1.4r = 7.2 + 0.72r
+$$
 
-$$0.68r = 1.6$$
+$$
+0.68r = 1.6
+$$
 
-$$r = 2.35 \Omega$$
+$$
+r = 2.35 \Omega
+$$
 
 **Step 3: Find EMF**
 
-$$\mathcal{E} = 5.6 + 1.4 \times 2.35 = 5.6 + 3.29 = 8.89 \mathrm{ V$$
+$$
+\mathcal{E} = 5.6 + 1.4 \times 2.35 = 5.6 + 3.29 = 8.89 \mathrm{ V
+$$
 
 **Check:** $\mathcal{E} = 7.2 + 0.72 \times 2.35 = 7.2 + 1.69 = 8.89 \mathrm{ V$. Confirmed.
 
@@ -25177,23 +26085,33 @@ The energy remaining after one time constant, and (d) the total energy dissipate
 
 **Step 1: Initial energy**
 
-$$E_0 = \frac{1}{2}CV^2 = \frac{1}{2} \times 220 \times 10^{-6} \times 144 = 0.01584 \mathrm{ J = 15.84 \mathrm{ mJ$$
+$$
+E_0 = \frac{1}{2}CV^2 = \frac{1}{2} \times 220 \times 10^{-6} \times 144 = 0.01584 \mathrm{ J = 15.84 \mathrm{ mJ
+$$
 
 **Step 2: Time constant**
 
-$$\tau = RC = 15000 \times 220 \times 10^{-6} = 3.3 \mathrm{ s$$
+$$
+\tau = RC = 15000 \times 220 \times 10^{-6} = 3.3 \mathrm{ s
+$$
 
 **Step 3: Energy after one time constant**
 
-$$V(\tau) = V_0 e^{-1} = 12 \times 0.3679 = 4.414 \mathrm{ V$$
+$$
+V(\tau) = V_0 e^{-1} = 12 \times 0.3679 = 4.414 \mathrm{ V
+$$
 
-$$E(\tau) = \frac{1}{2}CV(\tau)^2 = \frac{1}{2} \times 220 \times 10^{-6} \times 19.48 = 2.143 \times 10^{-3} \mathrm{ J = 2.14 \mathrm{ mJ$$
+$$
+E(\tau) = \frac{1}{2}CV(\tau)^2 = \frac{1}{2} \times 220 \times 10^{-6} \times 19.48 = 2.143 \times 10^{-3} \mathrm{ J = 2.14 \mathrm{ mJ
+$$
 
 This is $13.5\%$ of the initial energy (since $E \propto V^2 \propto e^{-2}$).
 
 **Step 4: Total energy dissipated**
 
-$$E_{\mathrm{dissipated} = E_0 = 15.84 \mathrm{ mJ$$
+$$
+E_{\mathrm{dissipated} = E_0 = 15.84 \mathrm{ mJ
+$$
 
 All the initial stored energy is eventually dissipated as heat in the resistor.
 
@@ -25205,21 +26123,33 @@ The power dissipated in the resistor.
 
 **Step 1: Apply Kirchhoff's voltage law**
 
-$$V_{\mathrm{battery} = V_{\mathrm{diode} + V_R$$
+$$
+V_{\mathrm{battery} = V_{\mathrm{diode} + V_R
+$$
 
-$$9 = 0.7 + I \times 470$$
+$$
+9 = 0.7 + I \times 470
+$$
 
-$$I = \frac{9 - 0.7}{470} = \frac{8.3}{470} = 0.01766 \mathrm{ A = 17.7 \mathrm{ mA$$
+$$
+I = \frac{9 - 0.7}{470} = \frac{8.3}{470} = 0.01766 \mathrm{ A = 17.7 \mathrm{ mA
+$$
 
 **Step 2: Voltage across resistor**
 
-$$V_R = IR = 0.01766 \times 470 = 8.3 \mathrm{ V$$
+$$
+V_R = IR = 0.01766 \times 470 = 8.3 \mathrm{ V
+$$
 
 **Step 3: Power dissipated**
 
-$$P_R = I^2 R = (0.01766)^2 \times 470 = 0.000312 \times 470 = 0.147 \mathrm{ W$$
+$$
+P_R = I^2 R = (0.01766)^2 \times 470 = 0.000312 \times 470 = 0.147 \mathrm{ W
+$$
 
-$$P_R = IV = 0.01766 \times 8.3 = 0.147 \mathrm{ W$$
+$$
+P_R = IV = 0.01766 \times 8.3 = 0.147 \mathrm{ W
+$$
 
 Both methods give the same result.
 
@@ -25237,7 +26167,9 @@ $2.8\mathrm{--3.3 \mathrm{ V$ for blue).
 
 The current in a conductor can be expressed as:
 
-$$I = nAve$$
+$$
+I = nAve
+$$
 
 Where $n$ is the number density of charge carriers (per $\mathrm{m^3$), $A$ is the cross-sectional
 Area, $v$ is the drift velocity, and $e$ is the charge of an electron.
@@ -25246,9 +26178,13 @@ For copper: $n \approx 8.5 \times 10^{28} \mathrm{ m^{-3}$.
 
 **Example:** A copper wire of diameter $1 \mathrm{ mm$ carries a current of $5 \mathrm{ A$.
 
-$$v = \frac{I}{nAe} = \frac{5}{8.5 \times 10^{28} \times \pi(0.0005)^2 \times 1.602 \times 10^{-19}}$$
+$$
+v = \frac{I}{nAe} = \frac{5}{8.5 \times 10^{28} \times \pi(0.0005)^2 \times 1.602 \times 10^{-19}}
+$$
 
-$$v = \frac{5}{8.5 \times 10^{28} \times 7.854 \times 10^{-7} \times 1.602 \times 10^{-19}} = \frac{5}{1.068 \times 10^4} = 4.68 \times 10^{-4} \mathrm{ m/s$$
+$$
+v = \frac{5}{8.5 \times 10^{28} \times 7.854 \times 10^{-7} \times 1.602 \times 10^{-19}} = \frac{5}{1.068 \times 10^4} = 4.68 \times 10^{-4} \mathrm{ m/s
+$$
 
 The drift velocity is less than $1 \mathrm{ mm/s$Even though the current signal propagates at near
 The speed of light.
@@ -25973,7 +26909,9 @@ Direction).
 Any vector can be resolved into perpendicular components. For a vector of magnitude $F$ at angle
 $\theta$ to the horizontal:
 
-$$F_x = F\cos\theta, \qquad F_y = F\sin\theta$$
+$$
+F_x = F\cos\theta, \qquad F_y = F\sin\theta
+$$
 
 The original vector can be reconstructed: $F = \sqrt{F_x^2 + F_y^2}$At angle
 $\theta =
@@ -25986,16 +26924,22 @@ Apply Newton's second law to each axis independently, and then recombine the res
 **Example:** A boat sails north at $5 \mathrm{ m/s$ in a current flowing east at $3 \mathrm{ m/s$.
 Find the resultant velocity.
 
-$$|\mathbf{v}| = \sqrt{5^2 + 3^2} = \sqrt{34} \approx 5.83 \mathrm{ m/s$$
+$$
+|\mathbf{v}| = \sqrt{5^2 + 3^2} = \sqrt{34} \approx 5.83 \mathrm{ m/s
+$$
 
-$$\theta = \arctan\left(\frac{3}{5}\right) \approx 30.96° \mathrm{ east of north$$
+$$
+\theta = \arctan\left(\frac{3}{5}\right) \approx 30.96° \mathrm{ east of north
+$$
 
 ### Vector Addition
 
 Vectors can be added using the triangle rule (head-to-tail) or by resolving into components and
 Adding the components separately:
 
-$$\vec{R} = \vec{A} + \vec{B} \implies R_x = A_x + B_x, \quad R_y = A_y + B_y$$
+$$
+\vec{R} = \vec{A} + \vec{B} \implies R_x = A_x + B_x, \quad R_y = A_y + B_y
+$$
 
 ## Equations of Motion (Kinematics)
 
@@ -26005,13 +26949,21 @@ For constant acceleration $a$:
 
 Explore the simulation above to develop intuition for this topic.
 
-$$v = u + at$$
+$$
+v = u + at
+$$
 
-$$s = ut + \frac{1}{2}at^2$$
+$$
+s = ut + \frac{1}{2}at^2
+$$
 
-$$v^2 = u^2 + 2as$$
+$$
+v^2 = u^2 + 2as
+$$
 
-$$s = \frac{(u + v)}{2}t$$
+$$
+s = \frac{(u + v)}{2}t
+$$
 
 Where $u$ = initial velocity, $v$ = final velocity, $s$ = displacement, $t$ = time.
 
@@ -26027,17 +26979,27 @@ Of $200 \mathrm{ m$. Find the acceleration and time taken.
 
 Using $v^2 = u^2 + 2as$:
 
-$$900 = 100 + 2a(200)$$
+$$
+900 = 100 + 2a(200)
+$$
 
-$$800 = 400a$$
+$$
+800 = 400a
+$$
 
-$$a = 2 \mathrm{ m/s^2$$
+$$
+a = 2 \mathrm{ m/s^2
+$$
 
 Using $v = u + at$:
 
-$$30 = 10 + 2t$$
+$$
+30 = 10 + 2t
+$$
 
-$$t = 10 \mathrm{ s$$
+$$
+t = 10 \mathrm{ s
+$$
 
 ### When the Kinematic Equations Fail
 
@@ -26064,7 +27026,9 @@ A projectile follows a parabolic path when air resistance is negligible.
 
 Eliminating $t$ from the horizontal and vertical equations:
 
-$$t = \frac{x}{v_0 \cos\theta}, \qquad y = x\tan\theta - \frac{gx^2}{2v_0^2\cos^2\theta}$$
+$$
+t = \frac{x}{v_0 \cos\theta}, \qquad y = x\tan\theta - \frac{gx^2}{2v_0^2\cos^2\theta}
+$$
 
 This is quadratic in $x$ with a negative coefficient, confirming a parabola opening downward.
 
@@ -26082,9 +27046,13 @@ Vertical component: $v_y = 20\sin 30° = 10 \mathrm{ m/s$.
 
 Maximum height (when $v_y = 0$): $v_y^2 = u_y^2 - 2gh$
 
-$$0 = 100 - 2(9.8)h$$
+$$
+0 = 100 - 2(9.8)h
+$$
 
-$$h = \frac{100}{19.6} \approx 5.10 \mathrm{ m$$
+$$
+h = \frac{100}{19.6} \approx 5.10 \mathrm{ m
+$$
 
 Time of flight: $t = \dfrac{2u_y}{g} = \dfrac{20}{9.8} \approx 2.04 \mathrm{ s$.
 
@@ -26118,7 +27086,9 @@ Friction force: $f = \mu N = 0.4 \times 49 = 19.6 \mathrm{ N$.
 
 Resultant force: $F_{\mathrm{net} = 30 - 19.6 = 10.4 \mathrm{ N$.
 
-$$a = \frac{F_{\mathrm{net}}{m} = \frac{10.4}{5} = 2.08 \mathrm{ m/s^2$$
+$$
+a = \frac{F_{\mathrm{net}}{m} = \frac{10.4}{5} = 2.08 \mathrm{ m/s^2
+$$
 
 ### Free-Body Diagrams and Connected Bodies
 
@@ -26134,9 +27104,13 @@ For $m_2$ (moving down): $m_2 g - T = m_2 a$.
 
 Adding: $m_2 g - m_1 g = (m_1 + m_2)a$
 
-$$a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{2 \times 9.8}{8} = 2.45 \mathrm{ m/s^2$$
+$$
+a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{2 \times 9.8}{8} = 2.45 \mathrm{ m/s^2
+$$
 
-$$T = m_1(g + a) = 3(9.8 + 2.45) = 36.75 \mathrm{ N$$
+$$
+T = m_1(g + a) = 3(9.8 + 2.45) = 36.75 \mathrm{ N
+$$
 
 ### Inclined Planes
 
@@ -26152,11 +27126,15 @@ The block slides when $mg\sin\theta \gt \mu mg\cos\theta$I.e., $\tan\theta \gt \
 
 If the block is sliding _down_, friction acts _up_ the slope:
 
-$$a = g(\sin\theta - \mu\cos\theta)$$
+$$
+a = g(\sin\theta - \mu\cos\theta)
+$$
 
 If the block is sliding _up_, friction acts _down_ the slope:
 
-$$a = -g(\sin\theta + \mu\cos\theta)$$
+$$
+a = -g(\sin\theta + \mu\cos\theta)
+$$
 
 The negative sign indicates deceleration.
 
@@ -26172,11 +27150,15 @@ For force in the direction of motion: $W = Fs$.
 
 **Work-Energy Principle:** The work done by the resultant force equals the change in kinetic energy.
 
-$$W_{\mathrm{net} = \Delta E_k = \frac{1}{2}mv^2 - \frac{1}{2}mu^2$$
+$$
+W_{\mathrm{net} = \Delta E_k = \frac{1}{2}mv^2 - \frac{1}{2}mu^2
+$$
 
 **Conservation of Energy (mechanical):** In the absence of non-conservative forces:
 
-$$E_k + E_p = \mathrm{constant$$
+$$
+E_k + E_p = \mathrm{constant
+$$
 
 **Power:** $P = \dfrac{W}{t} = Fv$
 
@@ -26195,26 +27177,36 @@ $mg\sin 5° = 1200 \times 9.8 \times \sin 5° \approx 1026 \mathrm{ N$.
 
 Total force to be overcome: $1026 + 800 = 1826 \mathrm{ N$.
 
-$$P = Fv = 1826 \times 25 = 45650 \mathrm{ W \approx 45.7 \mathrm{ kW$$
+$$
+P = Fv = 1826 \times 25 = 45650 \mathrm{ W \approx 45.7 \mathrm{ kW
+$$
 
 **Example:** A roller coaster car starts from rest at a height of $30 \mathrm{ m$. Neglecting
 Friction, find its speed at a height of $10 \mathrm{ m$.
 
 Conservation of energy: $mgh_1 = mgh_2 + \frac{1}{2}mv^2$
 
-$$\frac{1}{2}v^2 = g(h_1 - h_2) = 9.8 \times 20 = 196$$
+$$
+\frac{1}{2}v^2 = g(h_1 - h_2) = 9.8 \times 20 = 196
+$$
 
-$$v = \sqrt{392} \approx 19.8 \mathrm{ m/s$$
+$$
+v = \sqrt{392} \approx 19.8 \mathrm{ m/s
+$$
 
 ### Energy with Friction
 
 When friction is present, the work-energy theorem becomes:
 
-$$W_{\mathrm{nc} = \Delta E_k + \Delta E_p$$
+$$
+W_{\mathrm{nc} = \Delta E_k + \Delta E_p
+$$
 
 Where $W_{\mathrm{nc}$ is the work done by non-conservative forces (friction, which is negative).
 
-$$-fd = \frac{1}{2}mv^2 - 0 + mg(h_f - h_i)$$
+$$
+-fd = \frac{1}{2}mv^2 - 0 + mg(h_f - h_i)
+$$
 
 ## Momentum and Impulse
 
@@ -26226,7 +27218,9 @@ $$-fd = \frac{1}{2}mv^2 - 0 + mg(h_f - h_i)$$
 
 **Conservation of Momentum:** For a system with no external forces:
 
-$$m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$$
+$$
+m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2
+$$
 
 ### Why Momentum Is Conserved
 
@@ -26240,17 +27234,25 @@ The $3 \mathrm{ kg$ ball.
 
 Conservation of momentum:
 
-$$2(5) + 3(0) = 2(-1) + 3v$$
+$$
+2(5) + 3(0) = 2(-1) + 3v
+$$
 
-$$10 = -2 + 3v$$
+$$
+10 = -2 + 3v
+$$
 
-$$v = 4 \mathrm{ m/s$$
+$$
+v = 4 \mathrm{ m/s
+$$
 
 ### Impulse and Average Force
 
 For a given change in momentum, increasing the impact time decreases the average force:
 
-$$F_{\mathrm{avg} = \frac{\Delta p}{\Delta t}$$
+$$
+F_{\mathrm{avg} = \frac{\Delta p}{\Delta t}
+$$
 
 This is why car crumple zones, seat belts, air bags, and crash mats all work: they increase the time
 Over which the momentum changes, reducing the peak force.
@@ -26263,7 +27265,9 @@ Over which the momentum changes, reducing the peak force.
 
 **Coefficient of Restitution:**
 
-$$e = \frac{\mathrm{relative speed of separation}{\mathrm{relative speed of approach}$$
+$$
+e = \frac{\mathrm{relative speed of separation}{\mathrm{relative speed of approach}
+$$
 
 For a perfectly elastic collision, $e = 1$. For a perfectly inelastic collision, $e = 0$.
 
@@ -26271,7 +27275,9 @@ For a perfectly elastic collision, $e = 1$. For a perfectly inelastic collision,
 
 When $m_2$ is initially at rest:
 
-$$v_1 = \frac{m_1 - m_2}{m_1 + m_2} u_1, \qquad v_2 = \frac{2m_1}{m_1 + m_2} u_1$$
+$$
+v_1 = \frac{m_1 - m_2}{m_1 + m_2} u_1, \qquad v_2 = \frac{2m_1}{m_1 + m_2} u_1
+$$
 
 **Special case:** If $m_1 = m_2$The objects exchange velocities.
 
@@ -26281,7 +27287,9 @@ $$v_1 = \frac{m_1 - m_2}{m_1 + m_2} u_1, \qquad v_2 = \frac{2m_1}{m_1 + m_2} u_1
 
 For an object moving in a circle of radius $r$ at speed $v$:
 
-$$a = \frac{v^2}{r} = \omega^2 r, \qquad F = \frac{mv^2}{r} = m\omega^2 r$$
+$$
+a = \frac{v^2}{r} = \omega^2 r, \qquad F = \frac{mv^2}{r} = m\omega^2 r
+$$
 
 The centripetal force always points towards the centre of the circle. It is not a separate force; it
 Is the _net_ radial force.
@@ -26297,7 +27305,9 @@ Outward.
 **Example:** A car of mass $1200 \mathrm{ kg$ travels around a roundabout of radius $25 \mathrm{ m$
 at $12 \mathrm{ m/s$. Find the centripetal force.
 
-$$F = \frac{mv^2}{r} = \frac{1200 \times 144}{25} = \frac{172800}{25} = 6912 \mathrm{ N$$
+$$
+F = \frac{mv^2}{r} = \frac{1200 \times 144}{25} = \frac{172800}{25} = 6912 \mathrm{ N
+$$
 
 ### Vertical Circular Motion
 
@@ -26372,43 +27382,65 @@ The minimum speed at the top to maintain circular motion: $v_{\min} = \sqrt{gr}$
 
 For constant acceleration $a$Starting from the definition of acceleration:
 
-$$a = \frac{dv}{dt}$$
+$$
+a = \frac{dv}{dt}
+$$
 
 Integrating with respect to time:
 
-$$\int_{u}^{v} dv = \int_0^t a\, dt' \implies v - u = at \implies v = u + at$$
+$$
+\int_{u}^{v} dv = \int_0^t a\, dt' \implies v - u = at \implies v = u + at
+$$
 
 This is the first kinematic equation. Now integrate velocity to get displacement:
 
-$$v = \frac{ds}{dt} = u + at$$
+$$
+v = \frac{ds}{dt} = u + at
+$$
 
-$$\int_0^s ds = \int_0^t (u + at')\, dt' \implies s = ut + \frac{1}{2}at^2$$
+$$
+\int_0^s ds = \int_0^t (u + at')\, dt' \implies s = ut + \frac{1}{2}at^2
+$$
 
 This is the second kinematic equation. To eliminate $t$Substitute $t = (v - u)/a$ into the second
 Equation:
 
-$$s = u\frac{v - u}{a} + \frac{1}{2}a\left(\frac{v - u}{a}\right)^2 = \frac{uv - u^2}{a} + \frac{v^2 - 2uv + u^2}{2a}$$
+$$
+s = u\frac{v - u}{a} + \frac{1}{2}a\left(\frac{v - u}{a}\right)^2 = \frac{uv - u^2}{a} + \frac{v^2 - 2uv + u^2}{2a}
+$$
 
-$$2as = 2uv - 2u^2 + v^2 - 2uv + u^2 = v^2 - u^2$$
+$$
+2as = 2uv - 2u^2 + v^2 - 2uv + u^2 = v^2 - u^2
+$$
 
-$$v^2 = u^2 + 2as$$
+$$
+v^2 = u^2 + 2as
+$$
 
 This is the third kinematic equation. The fourth follows from the average velocity:
 
-$$s = \bar{v}t = \frac{u + v}{2}t$$
+$$
+s = \bar{v}t = \frac{u + v}{2}t
+$$
 
 ## 12. Worked Example: Projectile from a Height
 
 A ball is thrown from the top of a $40 \mathrm{ m$ cliff at $15 \mathrm{ m/s$ at $25^\circ$ above
 the Horizontal. Find the time to hit the ground and the horizontal distance.
 
-$$v_x = 15\cos 25° = 13.59 \mathrm{ m/s, \qquad v_y = 15\sin 25° = 6.34 \mathrm{ m/s$$
+$$
+v_x = 15\cos 25° = 13.59 \mathrm{ m/s, \qquad v_y = 15\sin 25° = 6.34 \mathrm{ m/s
+$$
 
 The vertical motion: $y = 40 + 6.34t - 4.9t^2$. At impact, $y = 0$:
 
-$$4.9t^2 - 6.34t - 40 = 0$$
+$$
+4.9t^2 - 6.34t - 40 = 0
+$$
 
-$$t = \frac{6.34 \pm \sqrt{6.34^2 + 4 \times 4.9 \times 40}}{2 \times 4.9} = \frac{6.34 \pm \sqrt{40.20 + 784}}{9.8} = \frac{6.34 \pm 28.72}{9.8}$$
+$$
+t = \frac{6.34 \pm \sqrt{6.34^2 + 4 \times 4.9 \times 40}}{2 \times 4.9} = \frac{6.34 \pm \sqrt{40.20 + 784}}{9.8} = \frac{6.34 \pm 28.72}{9.8}
+$$
 
 Taking the positive root: $t = \frac{35.06}{9.8} = 3.58 \mathrm{ s$.
 
@@ -26451,11 +27483,17 @@ $T_b = mg + \frac{mv_b^2}{L} = 0.5 \times 9.8 + \frac{0.5 \times 49}{1.2} = 4.9 
 
 **Energy conservation to find speed at the top:**
 
-$$\frac{1}{2}mv_b^2 = \frac{1}{2}mv_t^2 + mg(2L)$$
+$$
+\frac{1}{2}mv_b^2 = \frac{1}{2}mv_t^2 + mg(2L)
+$$
 
-$$v_t^2 = v_b^2 - 4gL = 49 - 4 \times 9.8 \times 1.2 = 49 - 47.04 = 1.96$$
+$$
+v_t^2 = v_b^2 - 4gL = 49 - 4 \times 9.8 \times 1.2 = 49 - 47.04 = 1.96
+$$
 
-$$v_t = 1.4 \mathrm{ m/s$$
+$$
+v_t = 1.4 \mathrm{ m/s
+$$
 
 **At the top:**
 $T_t = \frac{mv_t^2}{L} - mg = \frac{0.5 \times 1.96}{1.2} - 4.9 = 0.817 - 4.9 = -4.08 \mathrm{ N$
@@ -26531,15 +27569,23 @@ the Speed at $x = 3 \mathrm{ m$ if the object starts from rest.
 
 **Step 1: Calculate the work done by integration**
 
-$$W = \int_0^3 F(x) \, dx = \int_0^3 (3x^2 - 2x) \, dx = \left[ x^3 - x^2 \right]_0^3 = (27 - 9) - 0 = 18 \mathrm{ J$$
+$$
+W = \int_0^3 F(x) \, dx = \int_0^3 (3x^2 - 2x) \, dx = \left[ x^3 - x^2 \right]_0^3 = (27 - 9) - 0 = 18 \mathrm{ J
+$$
 
 **Step 2: Apply the work-energy theorem**
 
-$$W = \Delta KE = \frac{1}{2}mv^2 - \frac{1}{2}mu^2$$
+$$
+W = \Delta KE = \frac{1}{2}mv^2 - \frac{1}{2}mu^2
+$$
 
-$$18 = \frac{1}{2}(2)v^2 - 0$$
+$$
+18 = \frac{1}{2}(2)v^2 - 0
+$$
 
-$$v = \sqrt{18} = 4.24 \mathrm{ m/s$$
+$$
+v = \sqrt{18} = 4.24 \mathrm{ m/s
+$$
 
 <Aside type="note">
 The work-energy theorem is one of the most powerful tools in mechanics. It works even when
@@ -26558,25 +27604,41 @@ Take the original direction as the x-axis.
 
 **Step 1: Conservation of momentum (x-component)**
 
-$$3 \times 4 + 0 = 3 \times 2\cos 30° + 2v_{2x}$$
+$$
+3 \times 4 + 0 = 3 \times 2\cos 30° + 2v_{2x}
+$$
 
-$$12 = 3 \times 1.732 + 2v_{2x} = 5.196 + 2v_{2x}$$
+$$
+12 = 3 \times 1.732 + 2v_{2x} = 5.196 + 2v_{2x}
+$$
 
-$$v_{2x} = \frac{12 - 5.196}{2} = 3.402 \mathrm{ m/s$$
+$$
+v_{2x} = \frac{12 - 5.196}{2} = 3.402 \mathrm{ m/s
+$$
 
 **Step 2: Conservation of momentum (y-component)**
 
-$$0 = 3 \times 2\sin 30° + 2v_{2y}$$
+$$
+0 = 3 \times 2\sin 30° + 2v_{2y}
+$$
 
-$$0 = 3 \times 1 + 2v_{2y} = 3 + 2v_{2y}$$
+$$
+0 = 3 \times 1 + 2v_{2y} = 3 + 2v_{2y}
+$$
 
-$$v_{2y} = -1.5 \mathrm{ m/s$$
+$$
+v_{2y} = -1.5 \mathrm{ m/s
+$$
 
 **Step 3: Find magnitude and direction of $v_2$**
 
-$$|v_2| = \sqrt{3.402^2 + (-1.5)^2} = \sqrt{11.57 + 2.25} = \sqrt{13.82} = 3.72 \mathrm{ m/s$$
+$$
+|v_2| = \sqrt{3.402^2 + (-1.5)^2} = \sqrt{11.57 + 2.25} = \sqrt{13.82} = 3.72 \mathrm{ m/s
+$$
 
-$$\theta = \arctan\left(\frac{-1.5}{3.402}\right) = -23.8^\circ$$
+$$
+\theta = \arctan\left(\frac{-1.5}{3.402}\right) = -23.8^\circ
+$$
 
 The $2 \mathrm{ kg$ object moves at $3.72 \mathrm{ m/s$ at $23.8^\circ$ below the original
 direction.
@@ -26603,20 +27665,32 @@ $49 \lt 52.8$.
 
 So the system does not move. Let me verify: if we assume $m_B$ moves down:
 
-$$m_B g - m_A g \sin 30° - \mu m_A g \cos 30° = (m_A + m_B)a$$
+$$
+m_B g - m_A g \sin 30° - \mu m_A g \cos 30° = (m_A + m_B)a
+$$
 
-$$49 - 39.2 - 13.6 = 13a$$
+$$
+49 - 39.2 - 13.6 = 13a
+$$
 
-$$-3.8 = 13a \implies a = -0.29 \mathrm{ m/s^2$$
+$$
+-3.8 = 13a \implies a = -0.29 \mathrm{ m/s^2
+$$
 
 The negative acceleration means our assumption was wrong. The system would try to move with $m_A$
 Sliding down, but let us check:
 
-$$m_A g \sin 30° - m_B g - \mu m_A g \cos 30° = (m_A + m_B)a$$
+$$
+m_A g \sin 30° - m_B g - \mu m_A g \cos 30° = (m_A + m_B)a
+$$
 
-$$39.2 - 49 - 13.6 = 13a$$
+$$
+39.2 - 49 - 13.6 = 13a
+$$
 
-$$-23.4 = 13a \implies a = -1.8 \mathrm{ m/s^2$$
+$$
+-23.4 = 13a \implies a = -1.8 \mathrm{ m/s^2
+$$
 
 This is also negative. Neither direction produces positive acceleration, so the system remains in
 Equilibrium. The static friction adjusts to prevent motion.
@@ -26639,7 +27713,9 @@ The system remains stationary.
 The standard kinematic equations ($v = u + at$$s = ut + \frac{1}{2}at^2$Etc.) assume _constant_
 Acceleration. For variable acceleration, you must use calculus:
 
-$$a = \frac{dv}{dt}, \quad v = \frac{ds}{dt}, \quad a = v\frac{dv}{ds}$$
+$$
+a = \frac{dv}{dt}, \quad v = \frac{ds}{dt}, \quad a = v\frac{dv}{ds}
+$$
 
 ### Pitfall 7: Incorrect Free Body Diagrams for Connected Bodies
 
@@ -26745,7 +27821,9 @@ Intensity. This was one of the key experiments that led to quantum mechanics.
 
 **Einstein's Photoelectric Equation:**
 
-$$E_k = hf - \phi$$
+$$
+E_k = hf - \phi
+$$
 
 Where $\phi = hf_0$ is the work function of the metal.
 
@@ -26759,24 +27837,36 @@ $f_0 = \dfrac{\phi}{h} = \dfrac{2.28 \times 1.6 \times 10^{-19}}{6.63 \times 10^
 Maximum kinetic energy:
 $E_k = hf - \phi = 6.63 \times 10^{-34} \times 8 \times 10^{14} - 3.648 \times 10^{-19}$
 
-$$= 5.304 \times 10^{-19} - 3.648 \times 10^{-19} = 1.656 \times 10^{-19} \mathrm{ J = 1.04 \mathrm{ eV$$
+$$
+= 5.304 \times 10^{-19} - 3.648 \times 10^{-19} = 1.656 \times 10^{-19} \mathrm{ J = 1.04 \mathrm{ eV
+$$
 
 ### De Broglie Wavelength
 
 All matter has wave-like properties. The de Broglie wavelength of a particle with momentum $p$ is:
 
-$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+$$
+\lambda = \frac{h}{p} = \frac{h}{mv}
+$$
 
 **Example:** Find the de Broglie wavelength of an electron accelerated through a potential
 Difference of $200 \mathrm{ V$.
 
-$$E_k = eV = 200 \mathrm{ eV = 200 \times 1.6 \times 10^{-19} = 3.2 \times 10^{-17} \mathrm{ J$$
+$$
+E_k = eV = 200 \mathrm{ eV = 200 \times 1.6 \times 10^{-19} = 3.2 \times 10^{-17} \mathrm{ J
+$$
 
-$$E_k = \frac{1}{2}mv^2 = \frac{p^2}{2m}$$
+$$
+E_k = \frac{1}{2}mv^2 = \frac{p^2}{2m}
+$$
 
-$$p = \sqrt{2mE_k} = \sqrt{2 \times 9.11 \times 10^{-31} \times 3.2 \times 10^{-17}} = \sqrt{5.83 \times 10^{-47}} = 7.64 \times 10^{-24} \mathrm{ kg m/s$$
+$$
+p = \sqrt{2mE_k} = \sqrt{2 \times 9.11 \times 10^{-31} \times 3.2 \times 10^{-17}} = \sqrt{5.83 \times 10^{-47}} = 7.64 \times 10^{-24} \mathrm{ kg m/s
+$$
 
-$$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{7.64 \times 10^{-24}} = 8.68 \times 10^{-11} \mathrm{ m \approx 0.087 \mathrm{ nm$$
+$$
+\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{7.64 \times 10^{-24}} = 8.68 \times 10^{-11} \mathrm{ m \approx 0.087 \mathrm{ nm
+$$
 
 ### Why Macroscopic Objects Do Not Show Wave Behaviour
 
@@ -26792,7 +27882,9 @@ Observable.
 
 Electrons in atoms exist in discrete energy levels. Transitions between levels produce photons:
 
-$$\Delta E = hf = \frac{hc}{\lambda}$$
+$$
+\Delta E = hf = \frac{hc}{\lambda}
+$$
 
 - **Emission spectrum:** Bright lines on a dark background (photons emitted when electrons move to
   lower levels)
@@ -26803,9 +27895,13 @@ $$\Delta E = hf = \frac{hc}{\lambda}$$
 Are $E_1 = -13.6 \mathrm{ eV$$E_2 = -3.4 \mathrm{ eV$$E_3 = -1.51 \mathrm{ eV$. Find the wavelength
 Of the emitted photon.
 
-$$\Delta E = E_3 - E_1 = -1.51 - (-13.6) = 12.09 \mathrm{ eV = 1.934 \times 10^{-18} \mathrm{ J$$
+$$
+\Delta E = E_3 - E_1 = -1.51 - (-13.6) = 12.09 \mathrm{ eV = 1.934 \times 10^{-18} \mathrm{ J
+$$
 
-$$\lambda = \frac{hc}{\Delta E} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.934 \times 10^{-18}} = \frac{1.989 \times 10^{-25}}{1.934 \times 10^{-18}} = 1.028 \times 10^{-7} \mathrm{ m \approx 103 \mathrm{ nm$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.934 \times 10^{-18}} = \frac{1.989 \times 10^{-25}}{1.934 \times 10^{-18}} = 1.028 \times 10^{-7} \mathrm{ m \approx 103 \mathrm{ nm
+$$
 
 This is in the ultraviolet region (Lyman series).
 
@@ -26814,7 +27910,9 @@ This is in the ultraviolet region (Lyman series).
 It is fundamentally impossible to simultaneously know both the exact position and exact momentum of
 A particle:
 
-$$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$
+$$
+\Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+$$
 
 Where $\hbar = \dfrac{h}{2\pi}$.
 
@@ -26829,7 +27927,9 @@ the precision of any physical theory.
 **Example:** An electron is confined to a region of width $1 \mathrm{ nm$. What is the minimum
 Uncertainty in its momentum?
 
-$$\Delta p \geq \frac{\hbar}{2\Delta x} = \frac{1.055 \times 10^{-34}}{2 \times 10^{-9}} = 5.275 \times 10^{-26} \mathrm{ kg m/s$$
+$$
+\Delta p \geq \frac{\hbar}{2\Delta x} = \frac{1.055 \times 10^{-34}}{2 \times 10^{-9}} = 5.275 \times 10^{-26} \mathrm{ kg m/s
+$$
 
 ---
 
@@ -26913,7 +28013,9 @@ Every particle has a corresponding antiparticle with the same mass but opposite 
 
 **Electron-positron annihilation:**
 
-$$e^- + e^+ \to 2\gamma$$
+$$
+e^- + e^+ \to 2\gamma
+$$
 
 The total energy of the photons equals $2m_e c^2$ plus any kinetic energy.
 
@@ -26948,24 +28050,34 @@ Frequency travelling in opposite directions.
 
 **String fixed at both ends:**
 
-$$f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots$$
+$$
+f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots
+$$
 
 Where $L$ is the string length and $v$ is the wave speed.
 
 **Pipe open at both ends:**
 
-$$f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots$$
+$$
+f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots
+$$
 
 **Pipe closed at one end:**
 
-$$f_n = \frac{nv}{4L}, \quad n = 1, 3, 5, \ldots$$
+$$
+f_n = \frac{nv}{4L}, \quad n = 1, 3, 5, \ldots
+$$
 
 **Example:** A guitar string of length $65 \mathrm{ cm$ has a fundamental frequency of
 $330 \mathrm{ Hz$. Find the wave speed and the frequency of the third harmonic.
 
-$$v = 2Lf_1 = 2 \times 0.65 \times 330 = 429 \mathrm{ m/s$$
+$$
+v = 2Lf_1 = 2 \times 0.65 \times 330 = 429 \mathrm{ m/s
+$$
 
-$$f_3 = \frac{3v}{2L} = 3 \times 330 = 990 \mathrm{ Hz$$
+$$
+f_3 = \frac{3v}{2L} = 3 \times 330 = 990 \mathrm{ Hz
+$$
 
 ### Why a Closed Pipe Only Supports Odd Harmonics
 
@@ -26978,18 +28090,24 @@ Continues with only odd multiples of the fundamental.
 
 When a source of waves moves relative to an observer, the observed frequency changes:
 
-$$f' = f\frac{v}{v \pm v_s}$$
+$$
+f' = f\frac{v}{v \pm v_s}
+$$
 
 Where $v_s$ is the speed of the source (minus for approaching, plus for receding).
 
 **For electromagnetic waves (relativistic):**
 
-$$f' = f\sqrt{\frac{c \pm v}{c \mp v}}$$
+$$
+f' = f\sqrt{\frac{c \pm v}{c \mp v}}
+$$
 
 **Example:** An ambulance siren emits sound at $800 \mathrm{ Hz$. If the ambulance approaches at
 $25 \mathrm{ m/s$ (speed of sound $= 343 \mathrm{ m/s$), find the observed frequency.
 
-$$f' = 800 \times \frac{343}{343 - 25} = 800 \times \frac{343}{318} = 800 \times 1.0786 = 862.9 \mathrm{ Hz$$
+$$
+f' = 800 \times \frac{343}{343 - 25} = 800 \times \frac{343}{318} = 800 \times 1.0786 = 862.9 \mathrm{ Hz
+$$
 
 ---
 
@@ -27091,12 +28209,16 @@ flowchart TD
 When light of wavelength $450 \mathrm{ nm$ is incident on a sodium surface, the stopping potential
 is Measured to be $0.65 \mathrm{ V$. Find the work function of sodium and the threshold frequency.
 
-$$E_k = eV_s = 1.6 \times 10^{-19} \times 0.65 = 1.04 \times 10^{-19} \mathrm{ J = 0.65 \mathrm{ eV$$
+$$
+E_k = eV_s = 1.6 \times 10^{-19} \times 0.65 = 1.04 \times 10^{-19} \mathrm{ J = 0.65 \mathrm{ eV
+$$
 
 Photon energy:
 $E = hf = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{450 \times 10^{-9}} = 4.42 \times 10^{-19} \mathrm{ J = 2.76 \mathrm{ eV$
 
-$$\phi = E - E_k = 2.76 - 0.65 = 2.11 \mathrm{ eV$$
+$$
+\phi = E - E_k = 2.76 - 0.65 = 2.11 \mathrm{ eV
+$$
 
 Threshold frequency:
 $f_0 = \frac{\phi}{h} = \frac{2.11 \times 1.6 \times 10^{-19}}{6.63 \times 10^{-34}} = 5.09 \times 10^{14} \mathrm{ Hz$
@@ -27122,7 +28244,9 @@ Since $2.90 \mathrm{ eV \gt 2.0 \mathrm{ eV$Photoelectrons are emitted.
 
 **Photon flux:** Power per unit area divided by energy per photon:
 
-$$\mathrm{flux = \frac{5}{4.64 \times 10^{-19}} = 1.078 \times 10^{19} \mathrm{ photons/m^2\mathrm{/s$$
+$$
+\mathrm{flux = \frac{5}{4.64 \times 10^{-19}} = 1.078 \times 10^{19} \mathrm{ photons/m^2\mathrm{/s
+$$
 
 **Photoelectrons per second:**
 $1.078 \times 10^{19} \times 2 \times 10^{-4} = 2.16 \times 10^{15} \mathrm{ electrons/s$
@@ -27138,15 +28262,23 @@ Electrons are accelerated through a potential difference of $500 \mathrm{ V$. Th
 Thin crystal and produce a diffraction pattern. The first diffraction maximum is observed at an
 Angle of $1.8^{\circ}$. Calculate the atomic spacing.
 
-$$E_k = eV = 500 \mathrm{ eV = 8.0 \times 10^{-17} \mathrm{ J$$
+$$
+E_k = eV = 500 \mathrm{ eV = 8.0 \times 10^{-17} \mathrm{ J
+$$
 
-$$p = \sqrt{2mE_k} = \sqrt{2 \times 9.11 \times 10^{-31} \times 8.0 \times 10^{-17}} = \sqrt{1.458 \times 10^{-46}} = 1.208 \times 10^{-23} \mathrm{ kg m/s$$
+$$
+p = \sqrt{2mE_k} = \sqrt{2 \times 9.11 \times 10^{-31} \times 8.0 \times 10^{-17}} = \sqrt{1.458 \times 10^{-46}} = 1.208 \times 10^{-23} \mathrm{ kg m/s
+$$
 
-$$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{1.208 \times 10^{-23}} = 5.49 \times 10^{-11} \mathrm{ m$$
+$$
+\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{1.208 \times 10^{-23}} = 5.49 \times 10^{-11} \mathrm{ m
+$$
 
 For the first-order maximum: $d\sin\theta = \lambda$
 
-$$d = \frac{\lambda}{\sin\theta} = \frac{5.49 \times 10^{-11}}{\sin 1.8^{\circ}} = \frac{5.49 \times 10^{-11}}{0.0314} = 1.75 \times 10^{-9} \mathrm{ m = 1.75 \mathrm{ nm$$
+$$
+d = \frac{\lambda}{\sin\theta} = \frac{5.49 \times 10^{-11}}{\sin 1.8^{\circ}} = \frac{5.49 \times 10^{-11}}{0.0314} = 1.75 \times 10^{-9} \mathrm{ m = 1.75 \mathrm{ nm
+$$
 
 This is roughly 3--5 atomic spacings, which is consistent with crystal lattice spacing.
 
@@ -27160,21 +28292,33 @@ $E_n = -\frac{13.6}{n^2} \mathrm{ eV$
 
 **$n = 3 \to 2$:**
 
-$$\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{9}\right) = 13.6 \times \frac{5}{36} = 1.889 \mathrm{ eV$$
+$$
+\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{9}\right) = 13.6 \times \frac{5}{36} = 1.889 \mathrm{ eV
+$$
 
-$$\lambda = \frac{hc}{\Delta E} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.889 \times 1.6 \times 10^{-19}} = \frac{1.989 \times 10^{-25}}{3.022 \times 10^{-19}} = 6.58 \times 10^{-7} \mathrm{ m = 658 \mathrm{ nm \mathrm{ (red)$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.889 \times 1.6 \times 10^{-19}} = \frac{1.989 \times 10^{-25}}{3.022 \times 10^{-19}} = 6.58 \times 10^{-7} \mathrm{ m = 658 \mathrm{ nm \mathrm{ (red)
+$$
 
 **$n = 4 \to 2$:**
 
-$$\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{16}\right) = 13.6 \times \frac{3}{16} = 2.55 \mathrm{ eV$$
+$$
+\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{16}\right) = 13.6 \times \frac{3}{16} = 2.55 \mathrm{ eV
+$$
 
-$$\lambda = \frac{1.989 \times 10^{-25}}{2.55 \times 1.6 \times 10^{-19}} = 4.87 \times 10^{-7} \mathrm{ m = 487 \mathrm{ nm \mathrm{ (blue-green)$$
+$$
+\lambda = \frac{1.989 \times 10^{-25}}{2.55 \times 1.6 \times 10^{-19}} = 4.87 \times 10^{-7} \mathrm{ m = 487 \mathrm{ nm \mathrm{ (blue-green)
+$$
 
 **$n = 5 \to 2$:**
 
-$$\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{25}\right) = 13.6 \times \frac{21}{100} = 2.856 \mathrm{ eV$$
+$$
+\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{25}\right) = 13.6 \times \frac{21}{100} = 2.856 \mathrm{ eV
+$$
 
-$$\lambda = \frac{1.989 \times 10^{-25}}{2.856 \times 1.6 \times 10^{-19}} = 4.35 \times 10^{-7} \mathrm{ m = 435 \mathrm{ nm \mathrm{ (violet)$$
+$$
+\lambda = \frac{1.989 \times 10^{-25}}{2.856 \times 1.6 \times 10^{-19}} = 4.35 \times 10^{-7} \mathrm{ m = 435 \mathrm{ nm \mathrm{ (violet)
+$$
 
 ## 14. Particle Physics: Extended Conservation Laws
 
@@ -27183,7 +28327,9 @@ $$\lambda = \frac{1.989 \times 10^{-25}}{2.856 \times 1.6 \times 10^{-19}} = 4.3
 Verify conservation of charge, baryon number, and lepton number for beta-minus decay of a free
 Neutron:
 
-$$n \to p + e^- + \bar{\nu}_e$$
+$$
+n \to p + e^- + \bar{\nu}_e
+$$
 
 Writing with full quark content: $udd \to uud + e^- + \bar{\nu}_e$
 
@@ -27275,19 +28421,31 @@ Broglie wavelength.
 
 **Step 1: Find the kinetic energy**
 
-$$eV = \frac{1}{2}mv^2$$
+$$
+eV = \frac{1}{2}mv^2
+$$
 
-$$1.602 \times 10^{-19} \times 200 = \frac{1}{2} \times 9.109 \times 10^{-31} \times v^2$$
+$$
+1.602 \times 10^{-19} \times 200 = \frac{1}{2} \times 9.109 \times 10^{-31} \times v^2
+$$
 
-$$v^2 = \frac{2 \times 3.204 \times 10^{-17}}{9.109 \times 10^{-31}} = 7.034 \times 10^{13}$$
+$$
+v^2 = \frac{2 \times 3.204 \times 10^{-17}}{9.109 \times 10^{-31}} = 7.034 \times 10^{13}
+$$
 
-$$v = 8.387 \times 10^6 \mathrm{ m/s$$
+$$
+v = 8.387 \times 10^6 \mathrm{ m/s
+$$
 
 **Step 2: Calculate the de Broglie wavelength**
 
-$$\lambda = \frac{h}{mv} = \frac{6.626 \times 10^{-34}}{9.109 \times 10^{-31} \times 8.387 \times 10^6}$$
+$$
+\lambda = \frac{h}{mv} = \frac{6.626 \times 10^{-34}}{9.109 \times 10^{-31} \times 8.387 \times 10^6}
+$$
 
-$$\lambda = \frac{6.626 \times 10^{-34}}{7.639 \times 10^{-24}} = 8.67 \times 10^{-11} \mathrm{ m = 0.0867 \mathrm{ nm$$
+$$
+\lambda = \frac{6.626 \times 10^{-34}}{7.639 \times 10^{-24}} = 8.67 \times 10^{-11} \mathrm{ m = 0.0867 \mathrm{ nm
+$$
 
 ---
 
@@ -27725,20 +28883,26 @@ Light is a transverse wave.
 
 **Wave Equation:**
 
-$$v = f\lambda$$
+$$
+v = f\lambda
+$$
 
 ### Derivation of the Wave Equation
 
 In one period $T$Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
 
-$$v = \frac{\mathrm{distance}{\mathrm{time} = \frac{\lambda}{T} = \lambda f$$
+$$
+v = \frac{\mathrm{distance}{\mathrm{time} = \frac{\lambda}{T} = \lambda f
+$$
 
 This is exact for any periodic wave.
 
 **Example:** A sound wave has frequency $440 \mathrm{ Hz$ and wavelength $0.78 \mathrm{ m$. Find its
 Speed.
 
-$$v = f\lambda = 440 \times 0.78 = 343.2 \mathrm{ m/s$$
+$$
+v = f\lambda = 440 \times 0.78 = 343.2 \mathrm{ m/s
+$$
 
 ### Wave Behaviour
 
@@ -27749,18 +28913,26 @@ Angle, the direction changes.
 
 **Snell"s Law:**
 
-$$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
+$$
+n_1 \sin\theta_1 = n_2 \sin\theta_2
+$$
 
 Where $n$ is the refractive index of each medium.
 
 **Example:** Light travels from air ($n = 1$) into glass ($n = 1.5$) at an angle of incidence of
 $40^\circ$. Find the angle of refraction.
 
-$$1 \times \sin 40° = 1.5 \times \sin\theta_2$$
+$$
+1 \times \sin 40° = 1.5 \times \sin\theta_2
+$$
 
-$$\sin\theta_2 = \frac{\sin 40°}{1.5} = \frac{0.6428}{1.5} = 0.4285$$
+$$
+\sin\theta_2 = \frac{\sin 40°}{1.5} = \frac{0.6428}{1.5} = 0.4285
+$$
 
-$$\theta_2 = \arcsin(0.4285) \approx 25.4^\circ$$
+$$
+\theta_2 = \arcsin(0.4285) \approx 25.4^\circ
+$$
 
 ### Why Frequency Does Not Change During Refraction
 
@@ -27772,13 +28944,19 @@ Wavelength.
 **Total Internal Reflection:** Occurs when light travels from a denser to a less dense medium and
 The angle of incidence exceeds the critical angle.
 
-$$\sin\theta_c = \frac{n_2}{n_1} \quad (n_1 > n_2)$$
+$$
+\sin\theta_c = \frac{n_2}{n_1} \quad (n_1 > n_2)
+$$
 
 **Example:** Find the critical angle for light travelling from glass ($n = 1.5$) to air ($n = 1$).
 
-$$\sin\theta_c = \frac{1}{1.5} = 0.6667$$
+$$
+\sin\theta_c = \frac{1}{1.5} = 0.6667
+$$
 
-$$\theta_c = \arcsin(0.6667) \approx 41.8^\circ$$
+$$
+\theta_c = \arcsin(0.6667) \approx 41.8^\circ
+$$
 
 ### Diffraction
 
@@ -27801,7 +28979,9 @@ From all parts of the gap overlap significantly, producing broad spreading.
 
 Path difference $\Delta x$ and phase difference $\Delta\phi$ are related by:
 
-$$\Delta\phi = \frac{2\pi}{\lambda} \Delta x$$
+$$
+\Delta\phi = \frac{2\pi}{\lambda} \Delta x
+$$
 
 A path difference of $\lambda$ corresponds to a phase difference of $2\pi$ (one full cycle).
 
@@ -27815,11 +28995,15 @@ Screen at distance $L$:
 **Example:** In a double slit experiment, light of wavelength $600 \mathrm{ nm$ passes through slits
 $0.2 \mathrm{ mm$ apart. The screen is $1.5 \mathrm{ m$ away. Find the fringe spacing.
 
-$$w = \frac{\lambda L}{d} = \frac{600 \times 10^{-9} \times 1.5}{0.2 \times 10^{-3}} = \frac{9 \times 10^{-7}}{2 \times 10^{-4}} = 4.5 \times 10^{-3} \mathrm{ m = 4.5 \mathrm{ mm$$
+$$
+w = \frac{\lambda L}{d} = \frac{600 \times 10^{-9} \times 1.5}{0.2 \times 10^{-3}} = \frac{9 \times 10^{-7}}{2 \times 10^{-4}} = 4.5 \times 10^{-3} \mathrm{ m = 4.5 \mathrm{ mm
+$$
 
 ### Diffraction Grating
 
-$$d\sin\theta = n\lambda$$
+$$
+d\sin\theta = n\lambda
+$$
 
 Where $d$ is the grating spacing, $\theta$ is the angle to the $n$Th order maximum, and $\lambda$ is
 The wavelength.
@@ -27827,11 +29011,17 @@ The wavelength.
 **Example:** A diffraction grating has 500 lines per mm. Light of wavelength $580 \mathrm{ nm$ is
 Incident normally. Find the angle of the second-order maximum.
 
-$$d = \frac{1}{500} \mathrm{ mm = 2 \times 10^{-6} \mathrm{ m$$
+$$
+d = \frac{1}{500} \mathrm{ mm = 2 \times 10^{-6} \mathrm{ m
+$$
 
-$$\sin\theta = \frac{n\lambda}{d} = \frac{2 \times 580 \times 10^{-9}}{2 \times 10^{-6}} = \frac{1.16 \times 10^{-6}}{2 \times 10^{-6}} = 0.58$$
+$$
+\sin\theta = \frac{n\lambda}{d} = \frac{2 \times 580 \times 10^{-9}}{2 \times 10^{-6}} = \frac{1.16 \times 10^{-6}}{2 \times 10^{-6}} = 0.58
+$$
 
-$$\theta = \arcsin(0.58) \approx 35.4^\circ$$
+$$
+\theta = \arcsin(0.58) \approx 35.4^\circ
+$$
 
 ### The Electromagnetic Spectrum
 
@@ -27857,13 +29047,17 @@ Sound is a longitudinal mechanical wave. It requires a medium.
 
 **Intensity level (decibels):**
 
-$$\beta = 10\log_{10}\left(\frac{I}{I_0}\right)$$
+$$
+\beta = 10\log_{10}\left(\frac{I}{I_0}\right)
+$$
 
 Where $I_0 = 10^{-12} \mathrm{ W/m^2$ (threshold of hearing).
 
 **Example:** A sound has intensity $10^{-6} \mathrm{ W/m^2$. Find its intensity level in decibels.
 
-$$\beta = 10\log_{10}\left(\frac{10^{-6}}{10^{-12}}\right) = 10\log_{10}(10^6) = 10 \times 6 = 60 \mathrm{ dB$$
+$$
+\beta = 10\log_{10}\left(\frac{10^{-6}}{10^{-12}}\right) = 10\log_{10}(10^6) = 10 \times 6 = 60 \mathrm{ dB
+$$
 
 ### Why the Decibel Scale Is Logarithmic
 
@@ -27907,26 +29101,38 @@ Over a longer distance.
 
 Radioactive decay is a random, spontaneous process. The activity $A$ (decay rate) is:
 
-$$A = \lambda N$$
+$$
+A = \lambda N
+$$
 
 Where $\lambda$ is the decay constant and $N$ is the number of undecayed nuclei.
 
 **Half-life ($t_{1/2}$):** Time for half the nuclei to decay.
 
-$$t_{1/2} = \frac{\ln 2}{\lambda}$$
+$$
+t_{1/2} = \frac{\ln 2}{\lambda}
+$$
 
 **Decay law:**
 
-$$N = N_0 e^{-\lambda t}$$
+$$
+N = N_0 e^{-\lambda t}
+$$
 
-$$A = A_0 e^{-\lambda t}$$
+$$
+A = A_0 e^{-\lambda t}
+$$
 
 **Example:** A radioactive isotope has a half-life of 5 hours. If the initial activity is
 $800 \mathrm{ Bq$Find the activity after 15 hours.
 
-$$\lambda = \frac{\ln 2}{5} = 0.1386 \mathrm{ h^{-1}$$
+$$
+\lambda = \frac{\ln 2}{5} = 0.1386 \mathrm{ h^{-1}
+$$
 
-$$A = 800 e^{-0.1386 \times 15} = 800 e^{-2.079} = 800 \times 0.125 = 100 \mathrm{ Bq$$
+$$
+A = 800 e^{-0.1386 \times 15} = 800 e^{-2.079} = 800 \times 0.125 = 100 \mathrm{ Bq
+$$
 
 Or more : after 3 half-lives, $A = 800 / 2^3 = 100 \mathrm{ Bq$.
 
@@ -27948,18 +29154,24 @@ In a nuclear reaction, both mass number and atomic number are conserved.
 
 ### Mass-Energy Equivalence
 
-$$E = mc^2$$
+$$
+E = mc^2
+$$
 
 **Binding energy:** The energy equivalent of the mass defect (difference between the mass of a
 Nucleus and the sum of its constituent nucleons).
 
-$$\Delta E = \Delta m \cdot c^2$$
+$$
+\Delta E = \Delta m \cdot c^2
+$$
 
 **Example:** The mass defect of helium-4 is $0.0304 \mathrm{ u$. Find the binding energy in MeV.
 
 $1 \mathrm{ u = 931.5 \mathrm{ MeV/c^2$.
 
-$$E = 0.0304 \times 931.5 = 28.3 \mathrm{ MeV$$
+$$
+E = 0.0304 \times 931.5 = 28.3 \mathrm{ MeV
+$$
 
 ### Why Binding Energy Per Nucleon Peaks at Iron-56
 
@@ -28081,20 +29293,28 @@ The central maximum.
 
 **Central maximum half-width:**
 
-$$\sin\theta = \frac{\lambda}{a} = \frac{550 \times 10^{-9}}{0.02 \times 10^{-3}} = 0.0275$$
+$$
+\sin\theta = \frac{\lambda}{a} = \frac{550 \times 10^{-9}}{0.02 \times 10^{-3}} = 0.0275
+$$
 
-$$\theta = \arcsin(0.0275) = 1.58^{\circ}$$
+$$
+\theta = \arcsin(0.0275) = 1.58^{\circ}
+$$
 
 The full angular width of the central maximum is $2\theta = 3.15^{\circ}$.
 
 **First secondary maximum:** The first secondary maximum occurs approximately halfway between the
 First and second minima:
 
-$$\sin\theta \approx \frac{3\lambda}{2a} = 0.0413$$
+$$
+\sin\theta \approx \frac{3\lambda}{2a} = 0.0413
+$$
 
 The intensity is approximately:
 
-$$I \approx I_0 \left(\frac{\sin(1.5\pi)}{1.5\pi}\right)^2 = I_0 \left(\frac{-1}{1.5\pi}\right)^2 = I_0 \times 0.0450$$
+$$
+I \approx I_0 \left(\frac{\sin(1.5\pi)}{1.5\pi}\right)^2 = I_0 \left(\frac{-1}{1.5\pi}\right)^2 = I_0 \times 0.0450
+$$
 
 The first secondary maximum has about 4.5% of the intensity of the central maximum.
 
@@ -28125,9 +29345,13 @@ The useful number of orders for spectroscopy.
 Strontium-90 has a half-life of 28.8 years. Find the decay constant and the fraction remaining after
 100 years.
 
-$$\lambda = \frac{\ln 2}{t_{1/2}} = \frac{0.693}{28.8} = 0.02406 \mathrm{ year^{-1}$$
+$$
+\lambda = \frac{\ln 2}{t_{1/2}} = \frac{0.693}{28.8} = 0.02406 \mathrm{ year^{-1}
+$$
 
-$$\frac{N}{N_0} = e^{-\lambda t} = e^{-0.02406 \times 100} = e^{-2.406} = 0.0902$$
+$$
+\frac{N}{N_0} = e^{-\lambda t} = e^{-0.02406 \times 100} = e^{-2.406} = 0.0902
+$$
 
 After 100 years, about 9% of the original strontium-90 remains. This is why strontium-90 is so
 Hazardous in nuclear fallout: it has a long enough half-life to persist for decades, yet decays fast
@@ -28137,7 +29361,9 @@ Enough to deliver significant radiation dose.
 
 The activity of a sample depends on the number of nuclei and the decay constant:
 
-$$A = \lambda N = \frac{\lambda m N_A}{M_{\mathrm{atomic}}$$
+$$
+A = \lambda N = \frac{\lambda m N_A}{M_{\mathrm{atomic}}
+$$
 
 Where $m$ is the mass of the sample, $N_A = 6.022 \times 10^{23}$ is Avogadro's number, and
 $M_{\mathrm{atomic}$ is the molar mass in g/mol.
@@ -28163,13 +29389,21 @@ $A = \lambda N = 4.17 \times 10^{-9} \times 5.018 \times 10^{19} = 2.09 \times 1
 Two sound sources produce intensity levels of $70 \mathrm{ dB$ and $73 \mathrm{ dB$ at a point. Find
 The total intensity level.
 
-$$I_1 = I_0 \times 10^{70/10} = 10^{-12} \times 10^7 = 10^{-5} \mathrm{ W/m^2$$
+$$
+I_1 = I_0 \times 10^{70/10} = 10^{-12} \times 10^7 = 10^{-5} \mathrm{ W/m^2
+$$
 
-$$I_2 = I_0 \times 10^{73/10} = 10^{-12} \times 10^{7.3} = 2 \times 10^{-5} \mathrm{ W/m^2$$
+$$
+I_2 = I_0 \times 10^{73/10} = 10^{-12} \times 10^{7.3} = 2 \times 10^{-5} \mathrm{ W/m^2
+$$
 
-$$I_{\mathrm{total} = 3 \times 10^{-5} \mathrm{ W/m^2$$
+$$
+I_{\mathrm{total} = 3 \times 10^{-5} \mathrm{ W/m^2
+$$
 
-$$\beta_{\mathrm{total} = 10\log_{10}\left(\frac{3 \times 10^{-5}}{10^{-12}}\right) = 10\log_{10}(3 \times 10^7) = 10 \times 7.477 = 74.8 \mathrm{ dB$$
+$$
+\beta_{\mathrm{total} = 10\log_{10}\left(\frac{3 \times 10^{-5}}{10^{-12}}\right) = 10\log_{10}(3 \times 10^7) = 10 \times 7.477 = 74.8 \mathrm{ dB
+$$
 
 Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$Not $143 \mathrm{ dB$. Decibels
 Do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
@@ -28241,15 +29475,21 @@ $a \sin\theta = n\lambda$.
 
 The second secondary maximum is between $n = 2$ and $n = 3$:
 
-$$a \sin\theta_2 \approx 2.5\lambda = 2.5 \times 590 \times 10^{-9} = 1.475 \times 10^{-6} \mathrm{ m$$
+$$
+a \sin\theta_2 \approx 2.5\lambda = 2.5 \times 590 \times 10^{-9} = 1.475 \times 10^{-6} \mathrm{ m
+$$
 
 **Step 2: Calculate the phase parameter**
 
-$$\beta = \frac{\pi a \sin\theta}{\lambda} = 2.5\pi$$
+$$
+\beta = \frac{\pi a \sin\theta}{\lambda} = 2.5\pi
+$$
 
 **Step 3: Use the single slit intensity formula**
 
-$$\frac{I}{I_0} = \left( \frac{\sin\beta}{\beta} \right)^2 = \left( \frac{\sin(2.5\pi)}{2.5\pi} \right)^2 = \left( \frac{-1}{7.854} \right)^2 = \left( \frac{1}{7.854} \right)^2 = 0.0162$$
+$$
+\frac{I}{I_0} = \left( \frac{\sin\beta}{\beta} \right)^2 = \left( \frac{\sin(2.5\pi)}{2.5\pi} \right)^2 = \left( \frac{-1}{7.854} \right)^2 = \left( \frac{1}{7.854} \right)^2 = 0.0162
+$$
 
 So the second secondary maximum has about $1.6\%$ of the central maximum intensity.
 
@@ -28265,19 +29505,29 @@ Carbon-14 is $5730 \mathrm{ years$Calculate the age of the sample.
 
 **Step 1: Use the decay law**
 
-$$N = N_0 e^{-\lambda t}$$
+$$
+N = N_0 e^{-\lambda t}
+$$
 
-$$\frac{N}{N_0} = 0.25 = e^{-\lambda t}$$
+$$
+\frac{N}{N_0} = 0.25 = e^{-\lambda t}
+$$
 
 **Step 2: Relate $\lambda$ to half-life**
 
-$$\lambda = \frac{\ln 2}{t_{1/2}} = \frac{0.693}{5730} = 1.209 \times 10^{-4} \mathrm{ yr^{-1}$$
+$$
+\lambda = \frac{\ln 2}{t_{1/2}} = \frac{0.693}{5730} = 1.209 \times 10^{-4} \mathrm{ yr^{-1}
+$$
 
 **Step 3: Solve for $t$**
 
-$$\ln(0.25) = -\lambda t$$
+$$
+\ln(0.25) = -\lambda t
+$$
 
-$$t = \frac{-\ln(0.25)}{\lambda} = \frac{1.386}{1.209 \times 10^{-4}} = 11460 \mathrm{ years$$
+$$
+t = \frac{-\ln(0.25)}{\lambda} = \frac{1.386}{1.209 \times 10^{-4}} = 11460 \mathrm{ years
+$$
 
 **Check:** Since $0.25 = (1/2)^2$The sample has undergone exactly 2 half-lives, so
 $t = 2 \times 5730 = 11460 \mathrm{ years$. This confirms our calculation.
@@ -28289,17 +29539,25 @@ Calculate The combined sound level.
 
 **Step 1: Convert each level to intensity**
 
-$$L = 80 \mathrm{ dB = 10 \log_{10}\left(\frac{I}{I_0}\right)$$
+$$
+L = 80 \mathrm{ dB = 10 \log_{10}\left(\frac{I}{I_0}\right)
+$$
 
-$$\frac{I}{I_0} = 10^8$$
+$$
+\frac{I}{I_0} = 10^8
+$$
 
 **Step 2: Add intensities**
 
-$$I_{\mathrm{total} = 3I = 3 \times 10^8 \times I_0$$
+$$
+I_{\mathrm{total} = 3I = 3 \times 10^8 \times I_0
+$$
 
 **Step 3: Convert back to dB**
 
-$$L_{\mathrm{total} = 10 \log_{10}(3 \times 10^8) = 10 \times (8 + \log_{10} 3) = 10 \times (8 + 0.477) = 84.8 \mathrm{ dB$$
+$$
+L_{\mathrm{total} = 10 \log_{10}(3 \times 10^8) = 10 \times (8 + \log_{10} 3) = 10 \times (8 + 0.477) = 84.8 \mathrm{ dB
+$$
 
 :::caution
 $3 \mathrm{ dB$ (since $10\log_{10} 2 \approx 3$). Ten times as many sources gives
@@ -28361,11 +29619,15 @@ Column length is $16.5 \mathrm{ cm$. Calculate the speed of sound and the next t
 
 For a closed pipe, the first resonance occurs at $L = \lambda/4$.
 
-$$\lambda = 4L = 4 \times 0.165 = 0.660 \mathrm{ m$$
+$$
+\lambda = 4L = 4 \times 0.165 = 0.660 \mathrm{ m
+$$
 
 **Step 2: Speed of sound**
 
-$$v = f\lambda = 512 \times 0.660 = 337.9 \mathrm{ m/s$$
+$$
+v = f\lambda = 512 \times 0.660 = 337.9 \mathrm{ m/s
+$$
 
 **Step 3: Next two resonant lengths**
 
@@ -28385,17 +29647,25 @@ $= 1.008665 \mathrm{ u$$1 \mathrm{ u = 931.5 \mathrm{ MeV/c^2$.
 
 Helium-4 has 2 protons and 2 neutrons.
 
-$$\Delta m = 2m_p + 2m_n - m_{\mathrm{He} = 2(1.007276) + 2(1.008665) - 4.001506$$
+$$
+\Delta m = 2m_p + 2m_n - m_{\mathrm{He} = 2(1.007276) + 2(1.008665) - 4.001506
+$$
 
-$$\Delta m = 2.014552 + 2.017330 - 4.001506 = 0.030376 \mathrm{ u$$
+$$
+\Delta m = 2.014552 + 2.017330 - 4.001506 = 0.030376 \mathrm{ u
+$$
 
 **Step 2: Total binding energy**
 
-$$BE = \Delta m \times 931.5 = 0.030376 \times 931.5 = 28.30 \mathrm{ MeV$$
+$$
+BE = \Delta m \times 931.5 = 0.030376 \times 931.5 = 28.30 \mathrm{ MeV
+$$
 
 **Step 3: Binding energy per nucleon**
 
-$$\frac{BE}{A} = \frac{28.30}{4} = 7.07 \mathrm{ MeV/nucleon$$
+$$
+\frac{BE}{A} = \frac{28.30}{4} = 7.07 \mathrm{ MeV/nucleon
+$$
 
 This is close to the accepted value of $7.07 \mathrm{ MeV/nucleon$ for helium-4.
 
@@ -28415,15 +29685,21 @@ The fringe spacing and the distance from the central maximum to the fifth bright
 
 **Step 1: Fringe spacing**
 
-$$\Delta y = \frac{\lambda D}{d} = \frac{580 \times 10^{-9} \times 1.5}{0.8 \times 10^{-3}} = \frac{8.7 \times 10^{-7}}{8 \times 10^{-4}} = 1.088 \times 10^{-3} \mathrm{ m = 1.09 \mathrm{ mm$$
+$$
+\Delta y = \frac{\lambda D}{d} = \frac{580 \times 10^{-9} \times 1.5}{0.8 \times 10^{-3}} = \frac{8.7 \times 10^{-7}}{8 \times 10^{-4}} = 1.088 \times 10^{-3} \mathrm{ m = 1.09 \mathrm{ mm
+$$
 
 **Step 2: Distance to fifth bright fringe**
 
-$$y_5 = 5 \times \Delta y = 5 \times 1.09 = 5.44 \mathrm{ mm$$
+$$
+y_5 = 5 \times \Delta y = 5 \times 1.09 = 5.44 \mathrm{ mm
+$$
 
 **Step 3: What happens if the wavelength is doubled?**
 
-$$\Delta y_{\mathrm{new} = \frac{2\lambda D}{d} = 2 \times 1.09 = 2.18 \mathrm{ mm$$
+$$
+\Delta y_{\mathrm{new} = \frac{2\lambda D}{d} = 2 \times 1.09 = 2.18 \mathrm{ mm
+$$
 
 Doubling the wavelength doubles the fringe spacing.
 
@@ -28434,12 +29710,16 @@ Doubling the wavelength doubles the fringe spacing.
 A GM tube has a dead time of approximately $100 \mathrm{ \mu\mathrm{s$ after each count. This limits
 The maximum count rate:
 
-$$\mathrm{Maximum count rate = \frac{1}{\mathrm{dead time} = \frac{1}{100 \times 10^{-6}} = 10000 \mathrm{ counts/s$$
+$$
+\mathrm{Maximum count rate = \frac{1}{\mathrm{dead time} = \frac{1}{100 \times 10^{-6}} = 10000 \mathrm{ counts/s
+$$
 
 At high activities, the GM tube undercounts because some particles arrive during the dead time. The
 True count rate is related to the observed count rate by:
 
-$$R_{\mathrm{true} = \frac{R_{\mathrm{obs}}{1 - R_{\mathrm{obs} \times \tau}$$
+$$
+R_{\mathrm{true} = \frac{R_{\mathrm{obs}}{1 - R_{\mathrm{obs} \times \tau}
+$$
 
 Where $\tau$ is the dead time.
 

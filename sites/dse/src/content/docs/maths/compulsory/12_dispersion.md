@@ -698,9 +698,13 @@ scores 55. Express each score as a standardised score (z-score).
 <details>
 <summary>Solution</summary>
 
-$$z_A = \frac{75 - 60}{10} = 1.5$$
+$$
+z_A = \frac{75 - 60}{10} = 1.5
+$$
 
-$$z_B = \frac{55 - 60}{10} = -0.5$$
+$$
+z_B = \frac{55 - 60}{10} = -0.5
+$$
 
 Student A scored 1.5 standard deviations above the mean; Student B scored 0.5 standard deviations
 below.
@@ -813,13 +817,21 @@ Combined mean: $\bar{x}_c = \dfrac{40(65) + 60(72)}{100} = \dfrac{2600 + 4320}{1
 
 Combined variance:
 
-$$\sigma_c^2 = \frac{40(64) + 60(100) + 40(65 - 69.2)^2 + 60(72 - 69.2)^2}{100}$$
+$$
+\sigma_c^2 = \frac{40(64) + 60(100) + 40(65 - 69.2)^2 + 60(72 - 69.2)^2}{100}
+$$
 
-$$= \frac{2560 + 6000 + 40(17.64) + 60(7.84)}{100}$$
+$$
+= \frac{2560 + 6000 + 40(17.64) + 60(7.84)}{100}
+$$
 
-$$= \frac{8560 + 705.6 + 470.4}{100} = \frac{9736}{100} = 97.36$$
+$$
+= \frac{8560 + 705.6 + 470.4}{100} = \frac{9736}{100} = 97.36
+$$
 
-$$\sigma_c = \sqrt{97.36} \approx 9.87$$
+$$
+\sigma_c = \sqrt{97.36} \approx 9.87
+$$
 
 </details>
 
@@ -965,9 +977,13 @@ flowchart TD
 
 **Solution.** $\bar{x} = \frac{4+7+8+10+11}{5} = \frac{40}{5} = 8$.
 
-$$\sigma^2 = \frac{(4-8)^2 + (7-8)^2 + (8-8)^2 + (10-8)^2 + (11-8)^2}{5} = \frac{16 + 1 + 0 + 4 + 9}{5} = \frac{30}{5} = 6$$
+$$
+\sigma^2 = \frac{(4-8)^2 + (7-8)^2 + (8-8)^2 + (10-8)^2 + (11-8)^2}{5} = \frac{16 + 1 + 0 + 4 + 9}{5} = \frac{30}{5} = 6
+$$
 
-$$\sigma = \sqrt{6} \approx 2.45$$
+$$
+\sigma = \sqrt{6} \approx 2.45
+$$
 
 $\blacksquare$
 

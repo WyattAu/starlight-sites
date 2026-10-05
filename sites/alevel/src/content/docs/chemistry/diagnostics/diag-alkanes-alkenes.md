@@ -52,24 +52,40 @@ light and why the reaction does not proceed in the dark.
 
 (a) **Initiation:** UV light provides energy to homolytically cleave the Cl--Cl bond:
 
-$$\text{Cl}_2 \xrightarrow{\text{UV}} 2\text{Cl}^\bullet$$
+$$
+\text{Cl}_2 \xrightarrow{\text{UV}} 2\text{Cl}^\bullet
+$$
 
 **Propagation:**
 
-$$\text{Cl}^\bullet + \text{CH}_4 \to \text{HCl} + \text{CH}_3^\bullet$$
-$$\text{CH}_3^\bullet + \text{Cl}_2 \to \text{CH}_3\text{Cl} + \text{Cl}^\bullet$$
+$$
+\text{Cl}^\bullet + \text{CH}_4 \to \text{HCl} + \text{CH}_3^\bullet
+$$
+$$
+\text{CH}_3^\bullet + \text{Cl}_2 \to \text{CH}_3\text{Cl} + \text{Cl}^\bullet
+$$
 
 **Termination (any two):**
 
-$$\text{Cl}^\bullet + \text{Cl}^\bullet \to \text{Cl}_2$$
-$$\text{CH}_3^\bullet + \text{CH}_3^\bullet \to \text{C}_2\text{H}_6$$
-$$\text{CH}_3^\bullet + \text{Cl}^\bullet \to \text{CH}_3\text{Cl}$$
+$$
+\text{Cl}^\bullet + \text{Cl}^\bullet \to \text{Cl}_2
+$$
+$$
+\text{CH}_3^\bullet + \text{CH}_3^\bullet \to \text{C}_2\text{H}_6
+$$
+$$
+\text{CH}_3^\bullet + \text{Cl}^\bullet \to \text{CH}_3\text{Cl}
+$$
 
 (b) Even with excess methane, once chloromethane ($\text{CH}_3\text{Cl}$) is formed, it can also
 react with chlorine radicals:
 
-$$\text{Cl}^\bullet + \text{CH}_3\text{Cl} \to \text{HCl} + \bullet\text{CH}_2\text{Cl}$$
-$$\bullet\text{CH}_2\text{Cl} + \text{Cl}_2 \to \text{CH}_2\text{Cl}_2 + \text{Cl}^\bullet$$
+$$
+\text{Cl}^\bullet + \text{CH}_3\text{Cl} \to \text{HCl} + \bullet\text{CH}_2\text{Cl}
+$$
+$$
+\bullet\text{CH}_2\text{Cl} + \text{Cl}_2 \to \text{CH}_2\text{Cl}_2 + \text{Cl}^\bullet
+$$
 
 This process continues, with each chlorinated product being susceptible to further substitution. The
 C--H bonds in chloromethane are slightly weaker than in methane (due to the electron-withdrawing
@@ -131,22 +147,32 @@ hydrogen adds to the carbon with more hydrogen atoms.
 
 The bromide ion ($\text{Br}^-$) attacks the carbocation:
 
-$$\text{CH}_3\text{C}^+\text{HCH}_3 + \text{Br}^- \to \text{CH}_3\text{CHBr}\text{CH}_3$$
+$$
+\text{CH}_3\text{C}^+\text{HCH}_3 + \text{Br}^- \to \text{CH}_3\text{CHBr}\text{CH}_3
+$$
 
 (b) In the presence of peroxides, the mechanism changes to **free radical addition**
 (anti-Markovnikov). The peroxide decomposes to form peroxyl radicals, which abstract H from HBr:
 
-$$\text{ROOR} \to 2\text{RO}^\bullet$$
-$$\text{RO}^\bullet + \text{HBr} \to \text{ROH} + \text{Br}^\bullet$$
+$$
+\text{ROOR} \to 2\text{RO}^\bullet
+$$
+$$
+\text{RO}^\bullet + \text{HBr} \to \text{ROH} + \text{Br}^\bullet
+$$
 
 The bromine radical adds to the double bond. It preferentially adds to the **less substituted
 carbon** (C-1) because this produces the more stable **secondary radical** at C-2:
 
-$$\text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\dot{\text{C}}\text{HCH}_2\text{Br}$$
+$$
+\text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\dot{\text{C}}\text{HCH}_2\text{Br}
+$$
 
 This secondary radical then abstracts H from another HBr:
 
-$$\text{CH}_3\dot{\text{C}}\text{HCH}_2\text{Br} + \text{HBr} \to \text{CH}_3\text{CH}_2\text{CH}_2\text{Br} + \text{Br}^\bullet$$
+$$
+\text{CH}_3\dot{\text{C}}\text{HCH}_2\text{Br} + \text{HBr} \to \text{CH}_3\text{CH}_2\text{CH}_2\text{Br} + \text{Br}^\bullet
+$$
 
 The major product is **1-bromopropane** (anti-Markovnikov product).
 
@@ -187,7 +213,9 @@ $42000\,\text{g mol}^{-1}$.
 
 (a) The repeating unit of poly(propene) is:
 
-$$-\text{CH}_2-\text{CH}(\text{CH}_3)-$$
+$$
+-\text{CH}_2-\text{CH}(\text{CH}_3)-
+$$
 
 The methyl group can be arranged in different configurations:
 
@@ -210,7 +238,9 @@ essentially an amorphous polymer with low crystallinity.
 (c) Molar mass of propene monomer:
 $\text{C}_3\text{H}_6 = 3 \times 12.0 + 6 \times 1.0 = 42.0\,\text{g mol}^{-1}$
 
-$$n = \frac{42000}{42.0} = 1000$$
+$$
+n = \frac{42000}{42.0} = 1000
+$$
 
 The chain contains approximately **1000** propene monomer units (the degree of polymerisation is
 1000).
@@ -235,7 +265,9 @@ $\text{H}_2\text{SO}_4$ and $\text{NaBr}$What product would be formed? Explain t
 
 (a) **Step 1:** Addition of bromine to propene:
 
-$$\text{CH}_3\text{CH}=\text{CH}_2 + \text{Br}_2 \to \text{CH}_3\text{CHBrCH}_2\text{Br}$$
+$$
+\text{CH}_3\text{CH}=\text{CH}_2 + \text{Br}_2 \to \text{CH}_3\text{CHBrCH}_2\text{Br}
+$$
 
 Conditions: Bromine water or bromine dissolved in an organic solvent (e.g., $\text{CCl}_4$) at room
 temperature.
@@ -296,7 +328,9 @@ bromine.
 **Step 1:** The $\pi$-electrons of cis-but-2-ene attack a bromine molecule, forming a cyclic
 **bromonium ion intermediate**:
 
-$$\text{CH}_3\text{CH}=\text{CHCH}_3 + \text{Br}_2 \to \text{CH}_3\text{CH}-\text{CHCH}_3 \quad (\text{bromonium ion})$$
+$$
+\text{CH}_3\text{CH}=\text{CHCH}_3 + \text{Br}_2 \to \text{CH}_3\text{CH}-\text{CHCH}_3 \quad (\text{bromonium ion})
+$$
 
 The bromonium ion has a three-membered ring with Br$^+$ bridging the two carbons. The two methyl
 groups are on the same side (cis).
@@ -304,7 +338,9 @@ groups are on the same side (cis).
 **Step 2:** $\text{Br}^-$ attacks from the **opposite side** (anti-addition) of the bromonium ion
 ring:
 
-$$\text{Bromonium ion} + \text{Br}^- \to \text{CH}_3\text{CHBrCHBrCH}_3$$
+$$
+\text{Bromonium ion} + \text{Br}^- \to \text{CH}_3\text{CHBrCHBrCH}_3
+$$
 
 The two bromine atoms add from opposite sides (anti addition), giving **(2R,3S)-2,3-dibromobutane**.
 
@@ -344,7 +380,9 @@ give $(2R,3R)$ and $(2S,3S)$ enantiomers in equal amounts. These are optically a
 
 Ethene is produced industrially by the thermal cracking of ethane:
 
-$$\text{C}_2\text{H}_6(g) \to \text{C}_2\text{H}_4(g) + \text{H}_2(g) \quad \Delta H = +137\,\text{kJ mol}^{-1}$$
+$$
+\text{C}_2\text{H}_6(g) \to \text{C}_2\text{H}_4(g) + \text{H}_2(g) \quad \Delta H = +137\,\text{kJ mol}^{-1}
+$$
 
 (a) Explain why high temperatures are used in cracking, with reference to the equilibrium position
 and the rate of reaction.
@@ -388,7 +426,9 @@ Partial pressures (at $1.00\,\text{atm}$):
 - $p(\text{C}_2\text{H}_4) = 0.2308\,\text{atm}$
 - $p(\text{H}_2) = 0.2308\,\text{atm}$
 
-$$K_p = \frac{p(\text{C}_2\text{H}_4) \times p(\text{H}_2)}{p(\text{C}_2\text{H}_6)} = \frac{0.2308 \times 0.2308}{0.5385} = \frac{0.05327}{0.5385} = 0.0989\,\text{atm}$$
+$$
+K_p = \frac{p(\text{C}_2\text{H}_4) \times p(\text{H}_2)}{p(\text{C}_2\text{H}_6)} = \frac{0.2308 \times 0.2308}{0.5385} = \frac{0.05327}{0.5385} = 0.0989\,\text{atm}
+$$
 
 (c) While Le Chatelier's principle predicts that low pressure favours the side with more moles of
 gas (2 mol products vs 1 mol reactant), cracking is carried out at relatively low pressure for a

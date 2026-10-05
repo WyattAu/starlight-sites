@@ -91,16 +91,24 @@ description: "Study notes for Organic with worked examples, practice problems, a
 **解答：**
 
 步骤1：乙烯水化制乙醇：
-$$\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{催化剂}} \text{CH}_3\text{CH}_2\text{OH}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{催化剂}} \text{CH}_3\text{CH}_2\text{OH}
+$$
 
 步骤2：乙醇氧化制乙醛：
-$$2\text{CH}_3\text{CH}_2\text{OH} + \text{O}_2 \xrightarrow{\text{Cu/Ag, }\Delta} 2\text{CH}_3\text{CHO} + 2\text{H}_2\text{O}$$
+$$
+2\text{CH}_3\text{CH}_2\text{OH} + \text{O}_2 \xrightarrow{\text{Cu/Ag, }\Delta} 2\text{CH}_3\text{CHO} + 2\text{H}_2\text{O}
+$$
 
 步骤3：乙醛氧化制乙酸：
-$$2\text{CH}_3\text{CHO} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOH}$$
+$$
+2\text{CH}_3\text{CHO} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOH}
+$$
 
 步骤4：乙醇与乙酸酯化：
-$$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{浓H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{浓H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}
+$$
 
 **答案：** 乙烯 $\rightarrow$ 乙醇 $\rightarrow$ 乙醛 $\rightarrow$ 乙酸 $\rightarrow$ 乙酸乙酯
 
@@ -140,16 +148,22 @@ $$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\
 **解答：**
 
 步骤1：乙烯水化制乙醇：
-$$\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{催化剂}} \text{CH}_3\text{CH}_2\text{OH}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{催化剂}} \text{CH}_3\text{CH}_2\text{OH}
+$$
 
 步骤2：乙醇脱水制乙烯（如果需要更纯的乙烯）：
 此步可跳过，直接使用步骤1的产物
 
 步骤3：乙烯与溴加成：
-$$\text{CH}_2=\text{CH}_2 + \text{Br}_2 \rightarrow \text{CH}_2\text{BrCH}_2\text{Br}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{Br}_2 \rightarrow \text{CH}_2\text{BrCH}_2\text{Br}
+$$
 
 步骤4：1,2-二溴乙烷水解：
-$$\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{NaOH} \xrightarrow{\text{水}} \text{HOCH}_2\text{CH}_2\text{OH} + 2\text{NaBr}$$
+$$
+\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{NaOH} \xrightarrow{\text{水}} \text{HOCH}_2\text{CH}_2\text{OH} + 2\text{NaBr}
+$$
 
 **答案：** 乙烯 $\rightarrow$ 1,2-二溴乙烷 $\rightarrow$ 乙二醇
 
@@ -179,7 +193,9 @@ $$\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{NaOH} \xrightarrow{\text{水}} \tex
 
 **题目：** 写出下列高分子化合物的单体：
 
-$$\left[-\text{CH}_2-\text{CH}=\text{CH}-\text{CH}_2-\right]_n$$
+$$
+\left[-\text{CH}_2-\text{CH}=\text{CH}-\text{CH}_2-\right]_n
+$$
 
 **解答：**
 
@@ -188,7 +204,9 @@ $$\left[-\text{CH}_2-\text{CH}=\text{CH}-\text{CH}_2-\right]_n$$
 步骤2：寻找重复单元：$-\text{CH}_2-\text{CH}=\text{CH}-\text{CH}_2-$
 
 步骤3：加聚反应是双键打开后连接，所以单体为：
-$$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
+$$
+\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2
+$$
 
 步骤4：1,3-丁二烯发生1,4-加聚反应，形成含双键的高分子
 
@@ -253,16 +271,24 @@ $$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
 **解答：**
 
 步骤1：苯硝化制硝基苯：
-$$\text{C}_6\text{H}_6 + \text{HNO}_3 \xrightarrow{\text{浓H}_2\text{SO}_4, 50\text{-}60°\text{C}} \text{C}_6\text{H}_5\text{NO}_2 + \text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_6 + \text{HNO}_3 \xrightarrow{\text{浓H}_2\text{SO}_4, 50\text{-}60°\text{C}} \text{C}_6\text{H}_5\text{NO}_2 + \text{H}_2\text{O}
+$$
 
 步骤2：硝基苯还原为苯胺：
-$$\text{C}_6\text{H}_5\text{NO}_2 + 3\text{Fe} + 6\text{HCl} \rightarrow \text{C}_6\text{H}_5\text{NH}_2 + 3\text{FeCl}_2 + 2\text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{NO}_2 + 3\text{Fe} + 6\text{HCl} \rightarrow \text{C}_6\text{H}_5\text{NH}_2 + 3\text{FeCl}_2 + 2\text{H}_2\text{O}
+$$
 
 步骤3：苯胺重氮化后水解制苯酚：
-$$\text{C}_6\text{H}_5\text{NH}_2 \xrightarrow{\text{NaNO}_2, \text{HCl}} \text{C}_6\text{H}_5\text{N}_2\text{Cl} \xrightarrow{\text{H}_2\text{O}, \Delta} \text{C}_6\text{H}_5\text{OH}$$
+$$
+\text{C}_6\text{H}_5\text{NH}_2 \xrightarrow{\text{NaNO}_2, \text{HCl}} \text{C}_6\text{H}_5\text{N}_2\text{Cl} \xrightarrow{\text{H}_2\text{O}, \Delta} \text{C}_6\text{H}_5\text{OH}
+$$
 
 步骤4：苯酚与 $\text{CO}_2$ 反应制水杨酸（Kolbe反应）：
-$$\text{C}_6\text{H}_5\text{OH} + \text{CO}_2 + \text{NaOH} \rightarrow o\text{-HOC}_6\text{H}_4\text{COONa} \xrightarrow{\text{H}^+} o\text{-HOC}_6\text{H}_4\text{COOH}$$
+$$
+\text{C}_6\text{H}_5\text{OH} + \text{CO}_2 + \text{NaOH} \rightarrow o\text{-HOC}_6\text{H}_4\text{COONa} \xrightarrow{\text{H}^+} o\text{-HOC}_6\text{H}_4\text{COOH}
+$$
 
 **答案：** 苯→硝基苯→苯胺→苯酚→水杨酸
 
@@ -275,13 +301,19 @@ $$\text{C}_6\text{H}_5\text{OH} + \text{CO}_2 + \text{NaOH} \rightarrow o\text{-
 **解答：**
 
 步骤1：乙烯氧化制乙酸乙烯酯：
-$$2\text{CH}_2=\text{CH}_2 + 2\text{CH}_3\text{COOH} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOCH}=\text{CH}_2 + 2\text{H}_2\text{O}$$
+$$
+2\text{CH}_2=\text{CH}_2 + 2\text{CH}_3\text{COOH} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOCH}=\text{CH}_2 + 2\text{H}_2\text{O}
+$$
 
 步骤2：乙酸乙烯酯加聚：
-$$n\text{CH}_3\text{COOCH}=\text{CH}_2 \xrightarrow{\text{引发剂}} \left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n$$
+$$
+n\text{CH}_3\text{COOCH}=\text{CH}_2 \xrightarrow{\text{引发剂}} \left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n
+$$
 
 步骤3：聚乙酸乙烯酯水解：
-$$\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\text{水}} \left[-\text{CH}_2-\text{CH(OH)}-\right]_n + n\text{CH}_3\text{COONa}$$
+$$
+\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\text{水}} \left[-\text{CH}_2-\text{CH(OH)}-\right]_n + n\text{CH}_3\text{COONa}
+$$
 
 **答案：** 乙烯→乙酸乙烯酯→聚乙酸乙烯酯→聚乙烯醇
 
@@ -336,7 +368,9 @@ $$\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\t
 
 **题目：** 写出下列高分子化合物的单体：
 
-$$\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right]_n$$
+$$
+\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right]_n
+$$
 
 **解答：**
 

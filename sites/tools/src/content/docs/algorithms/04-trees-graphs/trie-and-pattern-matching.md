@@ -659,11 +659,15 @@ It with the hash of the pattern.
 
 ### Rolling Hash
 
-$$h(s[i..j]) = \left(\sum_{k=i}^{j} s[k] \cdot p^{j-k}\right) \bmod q$$
+$$
+h(s[i..j]) = \left(\sum_{k=i}^{j} s[k] \cdot p^{j-k}\right) \bmod q
+$$
 
 When sliding the window by one position:
 
-$$h(s[i+1..j+1]) = (h(s[i..j]) - s[i] \cdot p^{m-1}) \cdot p + s[j+1] \bmod q$$
+$$
+h(s[i+1..j+1]) = (h(s[i..j]) - s[i] \cdot p^{m-1}) \cdot p + s[j+1] \bmod q
+$$
 
 ```python
 def rabin_karp_search(text, pattern, base=256, mod=10**9 + 7):

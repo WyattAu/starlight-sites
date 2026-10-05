@@ -39,22 +39,30 @@ Velocity unless acted upon by a resultant external force.
 **Newton's Second Law.** The resultant force acting on a body is equal to the rate of change of
 Momentum:
 
-$$\mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt}$$
+$$
+\mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt}
+$$
 
 For constant mass $m$:
 
-$$\boxed{\mathbf{F} = m\mathbf{a}}$$
+$$
+\boxed{\mathbf{F} = m\mathbf{a}}
+$$
 
 **Newton's Third Law.** If body $A$ exerts a force on body $B$ Then body $B$ exerts an equal and
 Opposite force on body $A$:
 
-$$\mathbf{F}_{AB} = -\mathbf{F}_{BA}$$
+$$
+\mathbf{F}_{AB} = -\mathbf{F}_{BA}
+$$
 
 ### 1.2 Weight and normal reaction
 
 The **weight** of a body of mass $m$ near the Earth's surface is:
 
-$$W = mg$$
+$$
+W = mg
+$$
 
 Directed vertically downward, where $g \approx 9.8\;\mathrm{m\,s^{-2}}$.
 
@@ -69,7 +77,9 @@ Moves at constant velocity; (c) the lift decelerates at $3\;\mathrm{m\,s^{-2}}$ 
 
 Let $R$ be the upward normal reaction. Taking upward as positive:
 
-$$R - mg = ma$$
+$$
+R - mg = ma
+$$
 
 (a) $R = 70(9.8 + 2) = 70 \times 11.8 = 826\;\mathrm{N}$
 
@@ -106,17 +116,25 @@ Tension in the string.
 
 For the $5\;\mathrm{kg}$ particle (taking downward as positive):
 
-$$5g - T = 5a \tag{1}$$
+$$
+5g - T = 5a \tag{1}
+$$
 
 For the $3\;\mathrm{kg}$ particle (taking the direction of motion as positive):
 
-$$T = 3a \tag{2}$$
+$$
+T = 3a \tag{2}
+$$
 
 Adding (1) and (2):
 
-$$5g = 8a \implies a = \frac{5g}{8} = \frac{49}{8} = 6.125\;\mathrm{m\,s^{-2}}$$
+$$
+5g = 8a \implies a = \frac{5g}{8} = \frac{49}{8} = 6.125\;\mathrm{m\,s^{-2}}
+$$
 
-$$T = 3 \times 6.125 = 18.375\;\mathrm{N}$$
+$$
+T = 3 \times 6.125 = 18.375\;\mathrm{N}
+$$
 
 ### 2.3 Worked example: towing
 
@@ -127,15 +145,23 @@ Acceleration and the tension in the tow bar.
 
 **System as a whole:**
 
-$$(1200 + 400)a = 3200 - 200 - 100 = 2900$$
+$$
+(1200 + 400)a = 3200 - 200 - 100 = 2900
+$$
 
-$$a = \frac{2900}{1600} = 1.8125\;\mathrm{m\,s^{-2}}$$
+$$
+a = \frac{2900}{1600} = 1.8125\;\mathrm{m\,s^{-2}}
+$$
 
 **Trailer alone:**
 
-$$T - 100 = 400a = 400 \times 1.8125 = 725$$
+$$
+T - 100 = 400a = 400 \times 1.8125 = 725
+$$
 
-$$T = 825\;\mathrm{N}$$
+$$
+T = 825\;\mathrm{N}
+$$
 
 <hr />
 
@@ -155,15 +181,21 @@ The heavier mass accelerates downward. Let $a$ be the acceleration magnitude.
 
 For the $6\;\mathrm{kg}$ mass (downward positive):
 
-$$6g - T = 6a \tag{1}$$
+$$
+6g - T = 6a \tag{1}
+$$
 
 For the $4\;\mathrm{kg}$ mass (upward positive):
 
-$$T - 4g = 4a \tag{2}$$
+$$
+T - 4g = 4a \tag{2}
+$$
 
 Adding (1) and (2):
 
-$$2g = 10a \implies a = \frac{g}{5} = 1.96\;\mathrm{m\,s^{-2}}$$
+$$
+2g = 10a \implies a = \frac{g}{5} = 1.96\;\mathrm{m\,s^{-2}}
+$$
 
 From (2): $T = 4(g + a) = 4 \times 11.76 = 47.04\;\mathrm{N}$
 
@@ -177,11 +209,15 @@ Assuming the $8\;\mathrm{kg}$ mass moves up the plane (we will check this assump
 
 For the $8\;\mathrm{kg}$ mass (up the plane positive):
 
-$$T - 8g\sin 30^\circ = 8a \implies T - 4g = 8a \tag{1}$$
+$$
+T - 8g\sin 30^\circ = 8a \implies T - 4g = 8a \tag{1}
+$$
 
 For the $5\;\mathrm{kg}$ mass (downward positive):
 
-$$5g - T = 5a \tag{2}$$
+$$
+5g - T = 5a \tag{2}
+$$
 
 Adding: $5g - 4g = 13a \implies a = \dfrac{g}{13} \approx 0.754\;\mathrm{m\,s^{-2}}$.
 
@@ -202,21 +238,29 @@ assumption was wrong And the system moves the other way.
 
 **Static friction** $F_s$ prevents a body from starting to move. It satisfies:
 
-$$F_s \leq \mu_s R$$
+$$
+F_s \leq \mu_s R
+$$
 
 Where $\mu_s$ is the coefficient of static friction and $R$ is the normal reaction.
 
 **Dynamic (kinetic) friction** $F_d$ acts when a body is sliding:
 
-$$F_d = \mu_d R$$
+$$
+F_d = \mu_d R
+$$
 
 Where $\mu_d$ is the coefficient of dynamic friction. In practice, $\mu_d \lt \mu_s$.
 
 At A Level, a single coefficient $\mu$ is used, and we write:
 
-$$F \leq \mu R \quad (\mathrm{limiting\ equilibrium})$$
+$$
+F \leq \mu R \quad (\mathrm{limiting\ equilibrium})
+$$
 
-$$F = \mu R \quad (\mathrm{when\ sliding})$$
+$$
+F = \mu R \quad (\mathrm{when\ sliding})
+$$
 
 ### 4.2 The angle of friction
 
@@ -225,7 +269,9 @@ The **angle of friction** $\lambda$ is defined by $\tan\lambda = \mu$.
 When a body is on the point of sliding on an inclined plane, the angle of the plane equals the Angle
 of friction:
 
-$$\tan\alpha = \mu$$
+$$
+\tan\alpha = \mu
+$$
 
 ### 4.3 Worked example: block on an inclined plane
 
@@ -235,33 +281,55 @@ Applied to the block. Find the range of values of $P$ for which the block remain
 
 Resolving perpendicular to the plane (upward from plane positive):
 
-$$R - 10g\cos 25^\circ - P\sin 25^\circ = 0$$
+$$
+R - 10g\cos 25^\circ - P\sin 25^\circ = 0
+$$
 
-$$R = 10g\cos 25^\circ + P\sin 25^\circ$$
+$$
+R = 10g\cos 25^\circ + P\sin 25^\circ
+$$
 
 Resolving up the plane:
 
-$$P\cos 25^\circ - 10g\sin 25^\circ - F = 0$$
+$$
+P\cos 25^\circ - 10g\sin 25^\circ - F = 0
+$$
 
 **Case 1: on the point of sliding up the plane** ($F = \mu R$Acting down the plane):
 
-$$P\cos 25^\circ - 10g\sin 25^\circ = \mu(10g\cos 25^\circ + P\sin 25^\circ)$$
+$$
+P\cos 25^\circ - 10g\sin 25^\circ = \mu(10g\cos 25^\circ + P\sin 25^\circ)
+$$
 
-$$P\cos 25^\circ - \mu P\sin 25^\circ = 10g\sin 25^\circ + 10\mu g\cos 25^\circ$$
+$$
+P\cos 25^\circ - \mu P\sin 25^\circ = 10g\sin 25^\circ + 10\mu g\cos 25^\circ
+$$
 
-$$P(\cos 25^\circ - 0.3\sin 25^\circ) = 10g(\sin 25^\circ + 0.3\cos 25^\circ)$$
+$$
+P(\cos 25^\circ - 0.3\sin 25^\circ) = 10g(\sin 25^\circ + 0.3\cos 25^\circ)
+$$
 
-$$P = \frac{10(9.8)(0.4226 + 0.3 \times 0.9063)}{0.9063 - 0.3 \times 0.4226} = \frac{98 \times 0.6945}{0.7795} \approx 87.3\;\mathrm{N}$$
+$$
+P = \frac{10(9.8)(0.4226 + 0.3 \times 0.9063)}{0.9063 - 0.3 \times 0.4226} = \frac{98 \times 0.6945}{0.7795} \approx 87.3\;\mathrm{N}
+$$
 
 **Case 2: on the point of sliding down the plane** ($F = \mu R$Acting up the plane):
 
-$$P\cos 25^\circ - 10g\sin 25^\circ + \mu R = 0$$
+$$
+P\cos 25^\circ - 10g\sin 25^\circ + \mu R = 0
+$$
 
-$$P\cos 25^\circ + \mu(10g\cos 25^\circ + P\sin 25^\circ) = 10g\sin 25^\circ$$
+$$
+P\cos 25^\circ + \mu(10g\cos 25^\circ + P\sin 25^\circ) = 10g\sin 25^\circ
+$$
 
-$$P(\cos 25^\circ + 0.3\sin 25^\circ) = 10g(\sin 25^\circ - 0.3\cos 25^\circ)$$
+$$
+P(\cos 25^\circ + 0.3\sin 25^\circ) = 10g(\sin 25^\circ - 0.3\cos 25^\circ)
+$$
 
-$$P = \frac{98(0.4226 - 0.2719)}{0.9063 + 0.1268} = \frac{98 \times 0.1507}{1.0331} \approx 14.3\;\mathrm{N}$$
+$$
+P = \frac{98(0.4226 - 0.2719)}{0.9063 + 0.1268} = \frac{98 \times 0.1507}{1.0331} \approx 14.3\;\mathrm{N}
+$$
 
 Therefore, for equilibrium: $14.3 \leq P \leq 87.3\;\mathrm{N}$.
 
@@ -273,7 +341,9 @@ Therefore, for equilibrium: $14.3 \leq P \leq 87.3\;\mathrm{N}$.
 
 The **linear momentum** of a body of mass $m$ moving with velocity $\mathbf{v}$ is:
 
-$$\mathbf{p} = m\mathbf{v}$$
+$$
+\mathbf{p} = m\mathbf{v}
+$$
 
 Momentum is a vector quantity measured in $\mathrm{kg\,m\,s^{-1}}$ (or $\mathrm{Ns}$).
 
@@ -282,7 +352,9 @@ Momentum is a vector quantity measured in $\mathrm{kg\,m\,s^{-1}}$ (or $\mathrm{
 **Theorem.** If no external resultant force acts on a system of particles, the total momentum of the
 System is conserved.
 
-$$m_1\mathbf{u}_1 + m_2\mathbf{u}_2 = m_1\mathbf{v}_1 + m_2\mathbf{v}_2$$
+$$
+m_1\mathbf{u}_1 + m_2\mathbf{u}_2 = m_1\mathbf{v}_1 + m_2\mathbf{v}_2
+$$
 
 **Proof.** Newton's second law for the system:
 $\mathbf{F}_{\mathrm{ext}} = \dfrac{d\mathbf{p}_{\mathrm{total}}}{dt}$.
@@ -294,15 +366,21 @@ $\blacksquare$
 
 The **impulse** of a constant force $\mathbf{F}$ acting over a time interval $\Delta t$ is:
 
-$$\mathbf{I} = \mathbf{F}\,\Delta t$$
+$$
+\mathbf{I} = \mathbf{F}\,\Delta t
+$$
 
 By Newton's second law, impulse equals change in momentum:
 
-$$\boxed{\mathbf{I} = \mathbf{F}\,\Delta t = m\mathbf{v} - m\mathbf{u} = \Delta\mathbf{p}}$$
+$$
+\boxed{\mathbf{I} = \mathbf{F}\,\Delta t = m\mathbf{v} - m\mathbf{u} = \Delta\mathbf{p}}
+$$
 
 For a variable force:
 
-$$\mathbf{I} = \int_{t_1}^{t_2} \mathbf{F}\,dt$$
+$$
+\mathbf{I} = \int_{t_1}^{t_2} \mathbf{F}\,dt
+$$
 
 ### 5.4 Worked example: collision
 
@@ -313,9 +391,13 @@ $3\;\mathrm{kg}$ Particle and the magnitude of the impulse exerted on it.
 
 Conservation of momentum (one dimension):
 
-$$2(5) + 3(0) = 2(1) + 3v$$
+$$
+2(5) + 3(0) = 2(1) + 3v
+$$
 
-$$10 = 2 + 3v \implies v = \frac{8}{3} \approx 2.67\;\mathrm{m\,s^{-1}}$$
+$$
+10 = 2 + 3v \implies v = \frac{8}{3} \approx 2.67\;\mathrm{m\,s^{-1}}
+$$
 
 Impulse on the $3\;\mathrm{kg}$ particle
 $= \Delta p = 3v - 0 = 3 \times \dfrac{8}{3} = 8\;\mathrm{Ns}$.
@@ -324,11 +406,15 @@ $= \Delta p = 3v - 0 = 3 \times \dfrac{8}{3} = 8\;\mathrm{Ns}$.
 
 The **coefficient of restitution** $e$ for a collision is defined as:
 
-$$e = \frac{\mathrm{relative\ speed\ of\ separation}}{\mathrm{relative\ speed\ of\ approach}}$$
+$$
+e = \frac{\mathrm{relative\ speed\ of\ separation}}{\mathrm{relative\ speed\ of\ approach}}
+$$
 
 For a direct impact between two particles:
 
-$$e = \frac{v_2 - v_1}{u_1 - u_2}$$
+$$
+e = \frac{v_2 - v_1}{u_1 - u_2}
+$$
 
 Where $u_1, u_2$ are velocities before and $v_1, v_2$ are velocities after the collision. The value
 $e = 1$ corresponds to a perfectly elastic collision; $e = 0$ to a perfectly inelastic collision.
@@ -343,17 +429,25 @@ Taking the direction of the $2\;\mathrm{kg}$ particle as positive, $u_1 = 6$, $u
 
 Conservation of momentum:
 
-$$2(6) + 3(-4) = 2v_1 + 3v_2 \implies 12 - 12 = 2v_1 + 3v_2 \implies 2v_1 + 3v_2 = 0 \tag{1}$$
+$$
+2(6) + 3(-4) = 2v_1 + 3v_2 \implies 12 - 12 = 2v_1 + 3v_2 \implies 2v_1 + 3v_2 = 0 \tag{1}
+$$
 
 Restitution equation:
 
-$$v_2 - v_1 = 0.5(6 - (-4)) = 0.5(10) = 5 \tag{2}$$
+$$
+v_2 - v_1 = 0.5(6 - (-4)) = 0.5(10) = 5 \tag{2}
+$$
 
 From (2): $v_2 = v_1 + 5$. Substituting into (1):
 
-$$2v_1 + 3(v_1 + 5) = 0 \implies 5v_1 = -15 \implies v_1 = -3\;\mathrm{m\,s^{-1}}$$
+$$
+2v_1 + 3(v_1 + 5) = 0 \implies 5v_1 = -15 \implies v_1 = -3\;\mathrm{m\,s^{-1}}
+$$
 
-$$v_2 = -3 + 5 = 2\;\mathrm{m\,s^{-1}}$$
+$$
+v_2 = -3 + 5 = 2\;\mathrm{m\,s^{-1}}
+$$
 
 :::caution
 speed of approach Is $|u_1 - u_2|$ and the speed of separation is $|v_2 - v_1|$ But the signs in the
@@ -388,7 +482,9 @@ table; (b) the force exerted by the table on the book; (c) the tension in the li
 
 For the book: $R_{\mathrm{table\ on\ book}} - 2g = 2(3) = 6$
 
-$$R = 2(9.8) + 6 = 25.6\;\mathrm{N}$$
+$$
+R = 2(9.8) + 6 = 25.6\;\mathrm{N}
+$$
 
 The book exerts $25.6\;\mathrm{N}$ downward on the table.
 
@@ -397,7 +493,9 @@ The book exerts $25.6\;\mathrm{N}$ downward on the table.
 Let the total mass being accelerated be $M$ (including the lift structure). If we consider just The
 book and table: total mass $= 12\;\mathrm{kg}$Acceleration $= 3\;\mathrm{m\,s^{-2}}$.
 
-$$T - 12g = 12(3) \implies T = 12(12.8) = 153.6\;\mathrm{N}$$
+$$
+T - 12g = 12(3) \implies T = 12(12.8) = 153.6\;\mathrm{N}
+$$
 
 (If the lift structure itself has mass, this would need to be included.)
 
@@ -413,11 +511,17 @@ $30\;\mathrm{N}$. The coefficient of friction is $0.4$. Find the acceleration of
 <details>
 <summary>Solution</summary>
 
-$$R = 5g = 49\;\mathrm{N}$$
+$$
+R = 5g = 49\;\mathrm{N}
+$$
 
-$$F = \mu R = 0.4 \times 49 = 19.6\;\mathrm{N}$$
+$$
+F = \mu R = 0.4 \times 49 = 19.6\;\mathrm{N}
+$$
 
-$$30 - 19.6 = 5a \implies a = \frac{10.4}{5} = 2.08\;\mathrm{m\,s^{-2}}$$
+$$
+30 - 19.6 = 5a \implies a = \frac{10.4}{5} = 2.08\;\mathrm{m\,s^{-2}}
+$$
 
 </details>
 
@@ -430,15 +534,21 @@ particles after they have moved $2\;\mathrm{m}$ and the tension in the string.
 <details>
 <summary>Solution</summary>
 
-$$7g - T = 7a, \qquad T - 3g = 3a$$
+$$
+7g - T = 7a, \qquad T - 3g = 3a
+$$
 
 Adding: $4g = 10a \implies a = 3.92\;\mathrm{m\,s^{-2}}$.
 
 Using $v^2 = u^2 + 2as = 0 + 2(3.92)(2) = 15.68$:
 
-$$v = \sqrt{15.68} \approx 3.96\;\mathrm{m\,s^{-1}}$$
+$$
+v = \sqrt{15.68} \approx 3.96\;\mathrm{m\,s^{-1}}
+$$
 
-$$T = 3(g + a) = 3(13.72) = 41.16\;\mathrm{N}$$
+$$
+T = 3(g + a) = 3(13.72) = 41.16\;\mathrm{N}
+$$
 
 </details>
 
@@ -463,9 +573,13 @@ $F = 0.2 \times 4g\cos 30^\circ = 0.8g\cos 30^\circ \approx 6.80\;\mathrm{N}$.
 
 Adding: $6g - 4g\sin 30^\circ - F = 10a$
 
-$$6(9.8) - 4(4.9) - 6.80 = 10a$$
+$$
+6(9.8) - 4(4.9) - 6.80 = 10a
+$$
 
-$$58.8 - 19.6 - 6.80 = 10a \implies 32.4 = 10a \implies a = 3.24\;\mathrm{m\,s^{-2}}$$
+$$
+58.8 - 19.6 - 6.80 = 10a \implies 32.4 = 10a \implies a = 3.24\;\mathrm{m\,s^{-2}}
+$$
 
 Since $a \gt 0$The assumption is correct.
 
@@ -483,9 +597,13 @@ of the force exerted by The bat on the ball.
 
 Taking the direction away from the bat as positive:
 
-$$I = m(v - u) = 0.15(30 - (-20)) = 0.15(50) = 7.5\;\mathrm{Ns}$$
+$$
+I = m(v - u) = 0.15(30 - (-20)) = 0.15(50) = 7.5\;\mathrm{Ns}
+$$
 
-$$F = \frac{I}{\Delta t} = \frac{7.5}{0.01} = 750\;\mathrm{N}$$
+$$
+F = \frac{I}{\Delta t} = \frac{7.5}{0.01} = 750\;\mathrm{N}
+$$
 
 </details>
 
@@ -504,7 +622,9 @@ Restitution: $v_2 - v_1 = 0.6(8 - 2) = 3.6 \implies v_2 = v_1 + 3.6 \tag{2}$
 
 Substituting (2) into (1): $46 = 5v_1 + 3(v_1 + 3.6) = 8v_1 + 10.8$
 
-$$v_1 = \frac{35.2}{8} = 4.4\;\mathrm{m\,s^{-1}}, \qquad v_2 = 8.0\;\mathrm{m\,s^{-1}}$$
+$$
+v_1 = \frac{35.2}{8} = 4.4\;\mathrm{m\,s^{-1}}, \qquad v_2 = 8.0\;\mathrm{m\,s^{-1}}
+$$
 
 Initial KE $= \frac{1}{2}(5)(64) + \frac{1}{2}(3)(4) = 160 + 6 = 166\;\mathrm{J}$
 

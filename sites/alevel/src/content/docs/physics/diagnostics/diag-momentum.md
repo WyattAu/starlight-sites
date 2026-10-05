@@ -53,12 +53,22 @@ $(-1.0\hat{i} + 4.0\hat{j})\,\text{m}\,\text{s}^{-1}$.
 
 (a) By conservation of momentum (vector form):
 
-$$m_A\mathbf{u}_A + m_B\mathbf{u}_B = m_A\mathbf{v}_A + m_B\mathbf{v}_B$$
+$$
+m_A\mathbf{u}_A + m_B\mathbf{u}_B = m_A\mathbf{v}_A + m_B\mathbf{v}_B
+$$
 
-$$2.0(4.0\hat{i} + 3.0\hat{j}) + 0 = 2.0(-1.0\hat{i} + 4.0\hat{j}) + 3.0\mathbf{v}_B$$
-$$(8.0\hat{i} + 6.0\hat{j}) = (-2.0\hat{i} + 8.0\hat{j}) + 3.0\mathbf{v}_B$$
-$$3.0\mathbf{v}_B = 10.0\hat{i} - 2.0\hat{j}$$
-$$\mathbf{v}_B = (3.33\hat{i} - 0.667\hat{j})\,\text{m}\,\text{s}^{-1}$$
+$$
+2.0(4.0\hat{i} + 3.0\hat{j}) + 0 = 2.0(-1.0\hat{i} + 4.0\hat{j}) + 3.0\mathbf{v}_B
+$$
+$$
+(8.0\hat{i} + 6.0\hat{j}) = (-2.0\hat{i} + 8.0\hat{j}) + 3.0\mathbf{v}_B
+$$
+$$
+3.0\mathbf{v}_B = 10.0\hat{i} - 2.0\hat{j}
+$$
+$$
+\mathbf{v}_B = (3.33\hat{i} - 0.667\hat{j})\,\text{m}\,\text{s}^{-1}
+$$
 
 (b) Check kinetic energy:
 
@@ -83,7 +93,9 @@ internal store (e.g. An explosion).
 
 (c) Impulse on $A$ $= \Delta\mathbf{p}_A = m_A(\mathbf{v}_A - \mathbf{u}_A)$
 
-$$= 2.0[(-1 - 4)\hat{i} + (4 - 3)\hat{j}] = 2.0(-5\hat{i} + 1\hat{j}) = (-10\hat{i} + 2\hat{j})\,\text{N}\,\text{s}$$
+$$
+= 2.0[(-1 - 4)\hat{i} + (4 - 3)\hat{j}] = 2.0(-5\hat{i} + 1\hat{j}) = (-10\hat{i} + 2\hat{j})\,\text{N}\,\text{s}
+$$
 
 Magnitude $= \sqrt{100 + 4} = \sqrt{104} = 10.2\,\text{N}\,\text{s}$
 
@@ -133,15 +145,23 @@ Since $h' = e^2 h$ and $t \propto \sqrt{h}$Each successive bounce time is multip
 
 Total time $= t_0 + 2t_1 + 2et_1 + 2e^2t_1 + \ldots$
 
-$$= t_0 + 2t_1(1 + e + e^2 + \ldots) = t_0 + \frac{2t_1}{1 - e}$$
+$$
+= t_0 + 2t_1(1 + e + e^2 + \ldots) = t_0 + \frac{2t_1}{1 - e}
+$$
 
-$$= 0.6386 + \frac{2 \times 0.5109}{1 - 0.80} = 0.6386 + \frac{1.0218}{0.20} = 0.6386 + 5.109 = 5.748\,\text{s}$$
+$$
+= 0.6386 + \frac{2 \times 0.5109}{1 - 0.80} = 0.6386 + \frac{1.0218}{0.20} = 0.6386 + 5.109 = 5.748\,\text{s}
+$$
 
 (c) Total distance $= h + 2h' + 2h'' + \ldots = h + 2e^2h + 2e^4h + \ldots$
 
-$$= h + 2he^2(1 + e^2 + e^4 + \ldots) = h + \frac{2he^2}{1 - e^2}$$
+$$
+= h + 2he^2(1 + e^2 + e^4 + \ldots) = h + \frac{2he^2}{1 - e^2}
+$$
 
-$$= 2.0 + \frac{2 \times 2.0 \times 0.64}{1 - 0.64} = 2.0 + \frac{2.56}{0.36} = 2.0 + 7.11 = 9.11\,\text{m}$$
+$$
+= 2.0 + \frac{2 \times 2.0 \times 0.64}{1 - 0.64} = 2.0 + \frac{2.56}{0.36} = 2.0 + 7.11 = 9.11\,\text{m}
+$$
 
 ---
 
@@ -172,11 +192,15 @@ the force at $t = 2.0\,\text{s}$.
 
 (a) Impulse $= \displaystyle\int_0^{4.0} F\,dt = \int_0^{4.0} (6.0t - 0.5t^2)\,dt$
 
-$$= \left[3.0t^2 - \frac{t^3}{6}\right]_0^4 = (3.0 \times 16 - \frac{64}{6}) - 0 = (48 - 10.67) = 37.33\,\text{N}\,\text{s}$$
+$$
+= \left[3.0t^2 - \frac{t^3}{6}\right]_0^4 = (3.0 \times 16 - \frac{64}{6}) - 0 = (48 - 10.67) = 37.33\,\text{N}\,\text{s}
+$$
 
 (b) By the impulse-momentum theorem: $J = \Delta p = mv - 0$
 
-$$v = J/m = 37.33/0.40 = 93.3\,\text{m}\,\text{s}^{-1}$$
+$$
+v = J/m = 37.33/0.40 = 93.3\,\text{m}\,\text{s}^{-1}
+$$
 
 (c) Average force $= J/\Delta t = 37.33/4.0 = 9.33\,\text{N}$
 
@@ -212,16 +236,24 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 (a) The wall is vertical and smooth. The $\hat{j}$-component (parallel to the wall) is unchanged.
 The $\hat{i}$-component (perpendicular to the wall) reverses with restitution:
 
-$$v_x' = -e \cdot u_x = -0.75 \times 8.0 = -6.0\,\text{m}\,\text{s}^{-1}$$
+$$
+v_x' = -e \cdot u_x = -0.75 \times 8.0 = -6.0\,\text{m}\,\text{s}^{-1}
+$$
 
-$$v_y' = u_y = -6.0\,\text{m}\,\text{s}^{-1}$$
+$$
+v_y' = u_y = -6.0\,\text{m}\,\text{s}^{-1}
+$$
 
 Velocity after collision: $(-6.0\hat{i} - 6.0\hat{j})\,\text{m}\,\text{s}^{-1}$
 
 (b) Impulse $= m(\mathbf{v}' - \mathbf{u})$
 
-$$= 0.20[(-6.0 - 8.0)\hat{i} + (-6.0 - (-6.0))\hat{j}]$$
-$$= 0.20(-14.0\hat{i} + 0\hat{j}) = (-2.8\hat{i})\,\text{N}\,\text{s}$$
+$$
+= 0.20[(-6.0 - 8.0)\hat{i} + (-6.0 - (-6.0))\hat{j}]
+$$
+$$
+= 0.20(-14.0\hat{i} + 0\hat{j}) = (-2.8\hat{i})\,\text{N}\,\text{s}
+$$
 
 The impulse is purely horizontal (perpendicular to the wall), as expected for a smooth wall.
 
@@ -230,7 +262,9 @@ $v_y = -6.0\,\text{m}\,\text{s}^{-1}$ (downward).
 
 Time to return to original height: $\Delta y = 0 = v_y t + \frac{1}{2}(-g)t^2$
 
-$$0 = -6.0t - 4.905t^2 \Rightarrow t(-6.0 - 4.905t) = 0$$
+$$
+0 = -6.0t - 4.905t^2 \Rightarrow t(-6.0 - 4.905t) = 0
+$$
 
 Ignoring $t = 0$: $t = -6.0/4.905 = -1.223\,\text{s}$
 
@@ -282,19 +316,25 @@ of $2000\,\text{m}\,\text{s}^{-1}$ relative to the rocket.
 
 (b) At $t = 0$: mass $= 500\,\text{kg}$
 
-$$a_0 = \frac{F_{\text{thrust}}}{m} = \frac{10000}{500} = 20.0\,\text{m}\,\text{s}^{-2}$$
+$$
+a_0 = \frac{F_{\text{thrust}}}{m} = \frac{10000}{500} = 20.0\,\text{m}\,\text{s}^{-2}
+$$
 
 At $t = 60\,\text{s}$: fuel burned $= 5.0 \times 60 = 300\,\text{kg}$Remaining mass
 $= 200\,\text{kg}$
 
-$$a_{60} = \frac{10000}{200} = 50.0\,\text{m}\,\text{s}^{-2}$$
+$$
+a_{60} = \frac{10000}{200} = 50.0\,\text{m}\,\text{s}^{-2}
+$$
 
 The acceleration increases with time because the rocket's mass decreases while the thrust remains
 constant.
 
 (c) Using the rocket equation (Tsiolkovsky):
 
-$$\Delta v = v_{\text{exhaust}} \ln\left(\frac{m_0}{m_f}\right) = 2000 \ln\left(\frac{500}{200}\right) = 2000 \ln(2.5) = 2000 \times 0.9163 = 1833\,\text{m}\,\text{s}^{-1}$$
+$$
+\Delta v = v_{\text{exhaust}} \ln\left(\frac{m_0}{m_f}\right) = 2000 \ln\left(\frac{500}{200}\right) = 2000 \ln(2.5) = 2000 \times 0.9163 = 1833\,\text{m}\,\text{s}^{-1}
+$$
 
 Alternatively, using impulse: the total momentum of all exhaust gas ejected provides the momentum
 gain of the rocket. The difficulty is that the exhaust speed relative to an inertial frame changes
@@ -344,13 +384,19 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 (a) Conservation of momentum (perfectly inelastic collision):
 
 $$m_b v_b = (m_b + m_B)V$$ $$0.010 \times 400 = (0.010 + 1.99)V$$ $$4.0 = 2.00V$$
-$$V = 2.00\,\text{m}\,\text{s}^{-1}$$
+$$
+V = 2.00\,\text{m}\,\text{s}^{-1}
+$$
 
 (b) Using the work-energy principle for the sliding block:
 
-$$\frac{1}{2}(2.00)V^2 = \mu(2.00)g \times d$$
+$$
+\frac{1}{2}(2.00)V^2 = \mu(2.00)g \times d
+$$
 $$\frac{1}{2}(2.00)(4.0) = 0.30 \times 2.00 \times 9.81 \times d$$ $$4.0 = 5.886d$$
-$$d = 0.680\,\text{m}$$
+$$
+d = 0.680\,\text{m}
+$$
 
 (c) Initial KE of bullet: $E_{k0} = \frac{1}{2}(0.010)(400)^2 = 800\,\text{J}$
 

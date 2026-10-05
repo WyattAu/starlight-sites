@@ -191,7 +191,9 @@ Strings $\alpha = (\alpha_1, \ldots, \alpha_k)$ and $\beta = (\beta_1, \ldots, \
 Alphabet $\Sigma$. A **solution** is a non-empty sequence of indices $i_1, i_2, \ldots, i_m$ such
 That:
 
-$$\alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}$$
+$$
+\alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}
+$$
 
 The **PCP language** is
 $\mathrm{PCP} = \{\langle \alpha, \beta \rangle : \alpha, \beta \mathrm{ have} a solution\}$.
@@ -253,7 +255,9 @@ over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
 
-$$A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}$$
+$$
+A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}
+$$
 
 **Theorem 5.8.** $A' \not\leq_T A$ (i.e., $A'$ is strictly more difficult than $A$ under Turing
 Reductions).

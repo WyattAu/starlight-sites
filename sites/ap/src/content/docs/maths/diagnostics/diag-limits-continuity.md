@@ -51,13 +51,17 @@ Let $\varepsilon > 0$. We need $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \va
 
 First, restrict $\delta \leq 1$ so that $|x - 2| \lt 1$Meaning $1 \lt x \lt 3$. On this interval:
 
-$$x^2 + 2x + 4 \lt 9 + 6 + 4 = 19$$
+$$
+x^2 + 2x + 4 \lt 9 + 6 + 4 = 19
+$$
 
 Therefore $|x^2 + 2x + 4| \lt 19$ when $|x - 2| \lt 1$.
 
 Now choose $\delta = \min\left(1, \dfrac{\varepsilon}{19}\right)$. If $|x - 2| \lt \delta$ Then:
 
-$$|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \frac{\varepsilon}{19} \cdot 19 = \varepsilon$$
+$$
+|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \frac{\varepsilon}{19} \cdot 19 = \varepsilon
+$$
 
 The key misconception: students often pick $\delta$ as a simple function of $\varepsilon$ without
 first bounding the non-linear factor. The two-step process (restrict $\delta$ to bound the
@@ -81,7 +85,9 @@ non-linear part, then relate $\delta$ to $\varepsilon$) is essential.
 A student attempts to evaluate $\displaystyle\lim_{x \to 0} \frac{x + \sin x}{x}$ by applying
 L'Hopital's rule:
 
-$$\lim_{x \to 0} \frac{x + \sin x}{x} = \lim_{x \to 0} \frac{1 + \cos x}{1} = 2$$
+$$
+\lim_{x \to 0} \frac{x + \sin x}{x} = \lim_{x \to 0} \frac{1 + \cos x}{1} = 2
+$$
 
 (a) Explain why this application of L'Hopital's rule is invalid. (b) Evaluate the limit correctly
 using two different valid methods. (c) Explain why the student's answer happens to be correct
@@ -92,7 +98,9 @@ despite the invalid reasoning.
 (a) L'Hopital's rule requires the limit to be of the indeterminate form $\frac{0}{0}$ or
 $\frac{\infty}{\infty}$. Here:
 
-$$\lim_{x \to 0}(x + \sin x) = 0 + 0 = 0 \quad \text{and \quad \lim_{x \to 0} x = 0$$
+$$
+\lim_{x \to 0}(x + \sin x) = 0 + 0 = 0 \quad \text{and \quad \lim_{x \to 0} x = 0
+$$
 
 So the limit IS $\frac{0}{0}$ -- L'Hopital's rule is actually valid here. However, the student did
 not verify the indeterminate form before applying it. Let us reconsider: the student's error is
@@ -102,12 +110,16 @@ correct by coincidence.
 **Revised question interpretation:** Suppose instead the student tries to evaluate
 $\displaystyle\lim_{x \to 1} \frac{x^2 - 1}{x - 1}$ using L'Hopital's rule and writes:
 
-$$\lim_{x \to 1} \frac{2x}{1} = 2$$
+$$
+\lim_{x \to 1} \frac{2x}{1} = 2
+$$
 
 This IS valid ($\frac{0}{0}$ form). Now consider
 $\displaystyle\lim_{x \to \infty} \frac{x + \sin x}{x}$. A student applies L'Hopital's:
 
-$$\lim_{x \to \infty} \frac{1 + \cos x}{1}$$
+$$
+\lim_{x \to \infty} \frac{1 + \cos x}{1}
+$$
 
 This limit does not exist (oscillates between 0 and 2). The student concludes the original limit
 DNE.
@@ -116,11 +128,15 @@ DNE.
 
 **Method 1 (Algebraic):**
 
-$$\frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}$$
+$$
+\frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}
+$$
 
 Since $-1 \leq \sin x \leq 1$We have $|\sin x / x| \leq 1/|x| \to 0$ as $x \to \infty$. Therefore:
 
-$$\lim_{x \to \infty} \frac{x + \sin x}{x} = 1$$
+$$
+\lim_{x \to \infty} \frac{x + \sin x}{x} = 1
+$$
 
 **Method 2 (Squeeze theorem):** $-1/x \leq \sin x / x \leq 1/x$ And both bounds $\to 0$ So
 $\sin x / x \to 0$.
@@ -147,7 +163,9 @@ original limit DNE.
 
 Let $f$ be defined by:
 
-$$f(x) = \begin{cases} \dfrac{x^2 - 4x + 3}{x^2 - 1} & \text{if  x \neq 1, -1 \\ 1 & \text{if  x = 1 \end{cases}$$
+$$
+f(x) = \begin{cases} \dfrac{x^2 - 4x + 3}{x^2 - 1} & \text{if  x \neq 1, -1 \\ 1 & \text{if  x = 1 \end{cases}
+$$
 
 (a) Find $\displaystyle\lim_{x \to 1} f(x)$. (b) Is $f$ continuous at $x = 1$? State all three
 conditions for continuity at a point and verify each. (c) Classify the discontinuity at $x = 1$ if
@@ -157,9 +175,13 @@ one exists. (d) Classify the discontinuity at $x = -1$ and explain why it is a d
 
 (a) Factor the numerator and denominator:
 
-$$\frac{x^2 - 4x + 3}{x^2 - 1} = \frac{(x-1)(x-3)}{(x-1)(x+1)} = \frac{x-3}{x+1} \quad \text{for  x \neq 1$$
+$$
+\frac{x^2 - 4x + 3}{x^2 - 1} = \frac{(x-1)(x-3)}{(x-1)(x+1)} = \frac{x-3}{x+1} \quad \text{for  x \neq 1
+$$
 
-$$\lim_{x \to 1} f(x) = \frac{1 - 3}{1 + 1} = \frac{-2}{2} = -1$$
+$$
+\lim_{x \to 1} f(x) = \frac{1 - 3}{1 + 1} = \frac{-2}{2} = -1
+$$
 
 (b) The three conditions for continuity at $x = a$:
 
@@ -174,7 +196,9 @@ discontinuity**. We could make $f$ continuous by redefining $f(1) = -1$.
 
 (d) At $x = -1$:
 
-$$\lim_{x \to -1} \frac{x-3}{x+1}$$
+$$
+\lim_{x \to -1} \frac{x-3}{x+1}
+$$
 
 As $x \to -1^+$: $\frac{-4}{0^+} \to -\infty$. As $x \to -1^-$: $\frac{-4}{0^-} \to +\infty$.
 
@@ -209,20 +233,28 @@ $g'(x)$.
 
 **Existence (IVT):** $g$ is continuous everywhere as a sum of continuous functions.
 
-$$g(0) = 0 + 0 - 5 + \cos(0) = -5 + 1 = -4 \lt 0$$
+$$
+g(0) = 0 + 0 - 5 + \cos(0) = -5 + 1 = -4 \lt 0
+$$
 
-$$g(2) = 8 + 4 - 5 + \cos(2\pi) = 7 + 1 = 8 \gt 0$$
+$$
+g(2) = 8 + 4 - 5 + \cos(2\pi) = 7 + 1 = 8 \gt 0
+$$
 
 Since $g(0) \lt 0 \lt g(2)$ and $g$ is continuous on $[0, 2]$By the IVT there exists $c \in (0, 2)$
 such that $g(c) = 0$.
 
 **Uniqueness (Rolle's theorem via monotonicity):**
 
-$$g'(x) = 3x^2 + 2 - \pi \sin(\pi x)$$
+$$
+g'(x) = 3x^2 + 2 - \pi \sin(\pi x)
+$$
 
 We need to show $g'(x) > 0$ for all $x$. Note that $-\pi \sin(\pi x) \geq -\pi$ So:
 
-$$g'(x) \geq 3x^2 + 2 - \pi$$
+$$
+g'(x) \geq 3x^2 + 2 - \pi
+$$
 
 For $x \geq 0$: $3x^2 + 2 - \pi > 0$ when $3x^2 > \pi - 2$I.e.,
 $x > \sqrt{(\pi - 2)/3} \approx 0.62$.
@@ -271,11 +303,15 @@ $f(x) = |x^2 - 4| = \begin{cases} x^2 - 4 & \text{if  |x| \geq 2 \\ 4 - x^2 & \t
 
 Left-hand derivative:
 
-$$f'_{-}(2) = \lim_{h \to 0^-} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^-} \frac{(4 - (2+h)^2) - 0}{h} = \lim_{h \to 0^-} \frac{-4h - h^2}{h} = \lim_{h \to 0^-}(-4 - h) = -4$$
+$$
+f'_{-}(2) = \lim_{h \to 0^-} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^-} \frac{(4 - (2+h)^2) - 0}{h} = \lim_{h \to 0^-} \frac{-4h - h^2}{h} = \lim_{h \to 0^-}(-4 - h) = -4
+$$
 
 Right-hand derivative:
 
-$$f'_{+}(2) = \lim_{h \to 0^+} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^+} \frac{((2+h)^2 - 4) - 0}{h} = \lim_{h \to 0^+} \frac{4h + h^2}{h} = \lim_{h \to 0^+}(4 + h) = 4$$
+$$
+f'_{+}(2) = \lim_{h \to 0^+} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^+} \frac{((2+h)^2 - 4) - 0}{h} = \lim_{h \to 0^+} \frac{4h + h^2}{h} = \lim_{h \to 0^+}(4 + h) = 4
+$$
 
 Since $f'_{-}(2) = -4 \neq 4 = f'_{+}(2)$, $f$ is **not differentiable** at $x = 2$.
 
@@ -283,11 +319,15 @@ Since $f'_{-}(2) = -4 \neq 4 = f'_{+}(2)$, $f$ is **not differentiable** at $x =
 
 Left-hand derivative:
 
-$$f'_{-}(-2) = \lim_{h \to 0^-} \frac{f(-2+h) - f(-2)}{h} = \lim_{h \to 0^-} \frac{((-2+h)^2 - 4) - 0}{h} = \lim_{h \to 0^-} \frac{-4h + h^2}{h} = -4$$
+$$
+f'_{-}(-2) = \lim_{h \to 0^-} \frac{f(-2+h) - f(-2)}{h} = \lim_{h \to 0^-} \frac{((-2+h)^2 - 4) - 0}{h} = \lim_{h \to 0^-} \frac{-4h + h^2}{h} = -4
+$$
 
 Right-hand derivative:
 
-$$f'_{+}(-2) = \lim_{h \to 0^+} \frac{f(-2+h) - f(-2)}{h} = \lim_{h \to 0^+} \frac{(4 - (-2+h)^2) - 0}{h} = \lim_{h \to 0^+} \frac{4h - h^2}{h} = 4$$
+$$
+f'_{+}(-2) = \lim_{h \to 0^+} \frac{f(-2+h) - f(-2)}{h} = \lim_{h \to 0^+} \frac{(4 - (-2+h)^2) - 0}{h} = \lim_{h \to 0^+} \frac{4h - h^2}{h} = 4
+$$
 
 Since $-4 \neq 4$, $f$ is **not differentiable** at $x = -2$ either.
 
@@ -323,7 +363,9 @@ $\displaystyle\lim_{x \to \infty} x \cdot F(x)$.
 Since $\displaystyle\int_0^{\infty} e^{-t^2} \, dt = \frac{\sqrt{\pi}}{2} \lt \infty$ (Gaussian
 integral), by the comparison test for improper integrals:
 
-$$\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt \leq \int_0^{\infty} e^{-t^2} \, dt = \frac{\sqrt{\pi}}{2} \lt \infty$$
+$$
+\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt \leq \int_0^{\infty} e^{-t^2} \, dt = \frac{\sqrt{\pi}}{2} \lt \infty
+$$
 
 Therefore $F(x)$ converges to some finite limit
 $L = \displaystyle\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt$ as $x \to \infty$.
@@ -333,11 +375,15 @@ $x \cdot F(x) \to \infty$. A more interesting limit is obtained by considering t
 $G(x) = L - F(x) = \displaystyle\int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$ And evaluate
 $\displaystyle\lim_{x \to \infty} x \cdot G(x)$.
 
-$$x \cdot G(x) = x \int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$$
+$$
+x \cdot G(x) = x \int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt
+$$
 
 For large $x$The dominant contribution comes from $t$ near $x$. Substitute $u = t - x$:
 
-$$G(x) \approx \int_0^{\infty} \frac{e^{-(x+u)^2}}{1+(x+u)^2}\,du \approx \frac{e^{-x^2}}{1+x^2} \int_0^{\infty} e^{-2xu}\,du = \frac{e^{-x^2}}{1+x^2} \cdot \frac{1}{2x}$$
+$$
+G(x) \approx \int_0^{\infty} \frac{e^{-(x+u)^2}}{1+(x+u)^2}\,du \approx \frac{e^{-x^2}}{1+x^2} \int_0^{\infty} e^{-2xu}\,du = \frac{e^{-x^2}}{1+x^2} \cdot \frac{1}{2x}
+$$
 
 So $x \cdot G(x) \approx \dfrac{e^{-x^2}}{2(1+x^2)} \to 0$ as $x \to \infty$.
 
@@ -345,7 +391,9 @@ More rigorously:
 $0 \lt G(x) = \displaystyle\int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt \lt e^{-x^2}\displaystyle\int_x^{\infty}\frac{dt}{1+t^2} = e^{-x^2}\left(\frac{\pi}{2} - \arctan x\right)$.
 Since $\frac{\pi}{2} - \arctan x \sim \frac{1}{x}$ as $x \to \infty$:
 
-$$0 \lt x \cdot G(x) \lt x \cdot e^{-x^2} \cdot \frac{C}{x} = Ce^{-x^2} \to 0$$
+$$
+0 \lt x \cdot G(x) \lt x \cdot e^{-x^2} \cdot \frac{C}{x} = Ce^{-x^2} \to 0
+$$
 
 Therefore $\displaystyle\lim_{x \to \infty} x \cdot G(x) = 0$.
 

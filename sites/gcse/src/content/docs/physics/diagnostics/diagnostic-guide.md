@@ -130,9 +130,13 @@ A roller coaster car of mass 500 kg starts from rest at the top of a hill 20 m h
 **Solution:**
 
 Using conservation of energy:
-$$mgh = \frac{1}{2}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2
+$$
 
-$$v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 20} = \sqrt{392} = 19.8 \text{ m/s}$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 20} = \sqrt{392} = 19.8 \text{ m/s}
+$$
 
 **Exam tip:** Always state the principle used (conservation of energy) and show the formula before substituting values.
 
@@ -149,7 +153,9 @@ Current: $I = \frac{V}{R_{total}} = \frac{12}{12} = 1 \text{ A}$
 In a series circuit, the current is the same through all components.
 
 Voltage across 6 $\Omega$ resistor:
-$$V = IR = 1 \times 6 = 6 \text{ V}$$
+$$
+V = IR = 1 \times 6 = 6 \text{ V}
+$$
 
 **Common mistake:** Assuming the voltage is the same across all components in series. In series, current is constant; in parallel, voltage is constant.
 
@@ -161,7 +167,9 @@ A sound wave has a wavelength of 0.85 m and travels through air at 340 m/s. Find
 
 Using the wave equation: $v = f\lambda$
 
-$$f = \frac{v}{\lambda} = \frac{340}{0.85} = 400 \text{ Hz}$$
+$$
+f = \frac{v}{\lambda} = \frac{340}{0.85} = 400 \text{ Hz}
+$$
 
 Period: $T = \frac{1}{f} = \frac{1}{400} = 0.0025 \text{ s} = 2.5 \text{ ms}$
 

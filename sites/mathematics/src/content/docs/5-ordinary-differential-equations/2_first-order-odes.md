@@ -21,7 +21,9 @@ description: "First-Order ODEs: comprehensive educational content notes with pre
 
 A first-order ODE $\frac{dy}{dx} = f(x, y)$ is **separable** if $f(x, y) = g(x)h(y)$.
 
-$$\frac{dy}{dx} = g(x)h(y) \implies \frac{dy}{h(y)} = g(x)\, dx$$
+$$
+\frac{dy}{dx} = g(x)h(y) \implies \frac{dy}{h(y)} = g(x)\, dx
+$$
 
 Integrating both sides: $\int \frac{dy}{h(y)} = \int g(x)\, dx + C$.
 
@@ -34,15 +36,21 @@ $y = Ce^{x^2/2}$ where $C \neq 0$Plus the trivial solution $y = 0$.
 
 A **linear first-order ODE** has the form
 
-$$\frac{dy}{dx} + P(x)y = Q(x)$$
+$$
+\frac{dy}{dx} + P(x)y = Q(x)
+$$
 
 **Theorem 2.1 (Integrating Factor).** The solution is
 
-$$y(x) = e^{-\int P(x)\, dx}\left(\int Q(x) e^{\int P(x)\, dx}\, dx + C\right)$$
+$$
+y(x) = e^{-\int P(x)\, dx}\left(\int Q(x) e^{\int P(x)\, dx}\, dx + C\right)
+$$
 
 _Proof._ Multiply both sides by $\mu(x) = e^{\int P(x)\, dx}$:
 
-$$\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu" y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q$$
+$$
+\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu" y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q
+$$
 
 Integrating: $\mu y = \int \mu Q\, dx + C$. Solving for $y$ gives the result. $\blacksquare$
 
@@ -101,11 +109,15 @@ $\mu(y) = e^{\int \frac{N_x - M_y}{M}\, dy}$.
 
 A **Bernoulli equation** has the form
 
-$$\frac{dy}{dx} + P(x)y = Q(x)y^n$$
+$$
+\frac{dy}{dx} + P(x)y = Q(x)y^n
+$$
 
 Where $n \neq 0, 1$. The substitution $v = y^{1-n}$ transforms it into a linear equation:
 
-$$\frac{dv}{dx} + (1 - n)P(x)v = (1 - n)Q(x)$$
+$$
+\frac{dv}{dx} + (1 - n)P(x)v = (1 - n)Q(x)
+$$
 
 **Example.** Solve $y' + y = y^2 e^x$.
 
@@ -132,7 +144,9 @@ An ODE of the form $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$ is called **homog
 Confused with the linearity sense). The substitution $v = y/x$I.e., $y = vx$Gives $y' = v + xv'$ So
 the equation becomes:
 
-$$v + x\frac{dv}{dx} = F(v) \implies x\frac{dv}{dx} = F(v) - v$$
+$$
+v + x\frac{dv}{dx} = F(v) \implies x\frac{dv}{dx} = F(v) - v
+$$
 
 This is separable: $\frac{dv}{F(v) - v} = \frac{dx}{x}$.
 
@@ -160,12 +174,16 @@ $\frac{y^2}{2x^2} = \ln|x| + C \implies y^2 = 2x^2(\ln|x| + C)$. $\blacksquare$
 
 A **Riccati equation** has the form
 
-$$\frac{dy}{dx} = q_0(x) + q_1(x)y + q_2(x)y^2$$
+$$
+\frac{dy}{dx} = q_0(x) + q_1(x)y + q_2(x)y^2
+$$
 
 If a particular solution $y_1(x)$ is known, the substitution $y = y_1 + \frac{1}{v}$ reduces the
 Riccati equation to a linear first-order equation in $v$:
 
-$$\frac{dv}{dx} = -(q_1 + 2q_2 y_1)v - q_2$$
+$$
+\frac{dv}{dx} = -(q_1 + 2q_2 y_1)v - q_2
+$$
 
 **Example.** Solve $y' = 1 + x^2 - 2xy + y^2$ given that $y_1 = x$ is a particular solution.
 
@@ -327,11 +345,15 @@ if concentrated fluid enters, the concentration increases toward the input conce
 This is a Bernoulli equation with $n = 2$, $P(x) = 1/x$, $Q(x) = x^3$. Set $v = y^{1-2} = y^{-1}$.
 Then $v' = -y^{-2}y'$, and the equation becomes
 
-$$v' - \frac{v}{x} = -x^3$$
+$$
+v' - \frac{v}{x} = -x^3
+$$
 
 This is linear in $v$. The integrating factor is $\mu(x) = e^{\int -1/x\,dx} = e^{-\ln x} = 1/x$.
 
-$$\frac{d}{dx}\left(\frac{v}{x}\right) = -x^2$$
+$$
+\frac{d}{dx}\left(\frac{v}{x}\right) = -x^2
+$$
 
 Integrating: $\frac{v}{x} = -\frac{x^3}{3} + C$, so $v = -\frac{x^4}{3} + Cx$.
 

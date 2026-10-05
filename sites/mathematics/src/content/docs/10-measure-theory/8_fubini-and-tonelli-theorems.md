@@ -26,7 +26,9 @@ $\mathcal{F} \otimes \mathcal{G} = \sigma(\{A \times B : A \in \mathcal{F},\ B \
 **Theorem 8.1 (Existence of Product Measure).** There exists a unique measure $\mu \times \nu$ on
 $\mathcal{F} \otimes \mathcal{G}$ such that
 
-$$(\mu \times \nu)(A \times B) = \mu(A) \cdot \nu(B)$$
+$$
+(\mu \times \nu)(A \times B) = \mu(A) \cdot \nu(B)
+$$
 
 for all $A \in \mathcal{F}$ and $B \in \mathcal{G}$.
 
@@ -35,7 +37,9 @@ for all $A \in \mathcal{F}$ and $B \in \mathcal{G}$.
 **Theorem 8.2 (Tonelli).** If $f : X \times Y \to [0, \infty]$ is
 $\mathcal{F} \otimes \mathcal{G}$-measurable, then:
 
-$$\int_{X \times Y} f\, d(\mu \times \nu) = \int_X \left(\int_Y f(x, y)\, d\nu\right) d\mu = \int_Y \left(\int_X f(x, y)\, d\mu\right) d\nu$$
+$$
+\int_{X \times Y} f\, d(\mu \times \nu) = \int_X \left(\int_Y f(x, y)\, d\nu\right) d\mu = \int_Y \left(\int_X f(x, y)\, d\mu\right) d\nu
+$$
 
 **Proof sketch.** The theorem is proved by a standard monotone class argument. First verify the
 statement for characteristic functions of measurable rectangles $A \times B$. Then extend to
@@ -46,14 +50,18 @@ to the limit. The $\sigma$-finiteness condition ensures the iterated integrals a
 **Corollary 8.3 (Layer Cake Representation).** For a non-negative measurable function $f$ on
 $X \times Y$:
 
-$$\int_{X \times Y} f\, d(\mu \times \nu) = \int_0^\infty (\mu \times \nu)(\{f > t\})\, dt$$
+$$
+\int_{X \times Y} f\, d(\mu \times \nu) = \int_0^\infty (\mu \times \nu)(\{f > t\})\, dt
+$$
 
 ### 8.3 Fubini's Theorem
 
 **Theorem 8.4 (Fubini).** If $f \in L^1(\mu \times \nu)$, then for a.e. $x \in X$,
 $f(x, \cdot) \in L^1(\nu)$; for a.e. $y \in Y$, $f(\cdot, y) \in L^1(\mu)$; and
 
-$$\int_{X \times Y} f\, d(\mu \times \nu) = \int_X \left(\int_Y f(x, y)\, d\nu\right) d\mu = \int_Y \left(\int_X f(x, y)\, d\mu\right) d\nu$$
+$$
+\int_{X \times Y} f\, d(\mu \times \nu) = \int_X \left(\int_Y f(x, y)\, d\nu\right) d\mu = \int_Y \left(\int_X f(x, y)\, d\mu\right) d\nu
+$$
 
 **Proof sketch.** Write $f = f^+ - f^-$ with $f^+, f^- \geq 0$. Both $f^+$ and $f^-$ have finite
 integrals (since $f \in L^1$). Apply Tonelli's theorem to each separately. The integrability
@@ -62,7 +70,9 @@ condition ensures that the iterated integrals are finite.
 **Caution.** The order of integration matters when $f$ is not integrable. For example, the function
 $f(x, y) = (x^2 - y^2)/(x^2 + y^2)^2$ on $[0,1]^2$ has different iterated integrals:
 
-$$\int_0^1 \int_0^1 f(x, y)\, dy\, dx = \frac{\pi}{4}, \quad \int_0^1 \int_0^1 f(x, y)\, dx\, dy = -\frac{\pi}{4}$$
+$$
+\int_0^1 \int_0^1 f(x, y)\, dy\, dx = \frac{\pi}{4}, \quad \int_0^1 \int_0^1 f(x, y)\, dx\, dy = -\frac{\pi}{4}
+$$
 
 This does not contradict Fubini's theorem because $f \notin L^1([0,1]^2)$.
 
@@ -72,7 +82,9 @@ This does not contradict Fubini's theorem because $f \notin L^1([0,1]^2)$.
 
 *Solution.* By Tonelli's theorem (since $e^{-(x^2+y^2)} \geq 0$):
 
-$$\int_0^\infty \int_0^\infty e^{-(x^2 + y^2)}\, dy\, dx = \int_0^\infty e^{-x^2}\, dx \cdot \int_0^\infty e^{-y^2}\, dy = \left(\frac{\sqrt{\pi}}{2}\right)^2 = \frac{\pi}{4}$$
+$$
+\int_0^\infty \int_0^\infty e^{-(x^2 + y^2)}\, dy\, dx = \int_0^\infty e^{-x^2}\, dx \cdot \int_0^\infty e^{-y^2}\, dy = \left(\frac{\sqrt{\pi}}{2}\right)^2 = \frac{\pi}{4}
+$$
 
 $\blacksquare$
 
@@ -80,11 +92,15 @@ $\blacksquare$
 
 *Solution.* Note that $f(x,y) = x^2 y^{-3/2} e^{-x^2/y} \geq 0$. By Tonelli, we can swap the order:
 
-$$\int_0^1 \int_0^1 \frac{x^2}{y^{3/2}} e^{-x^2/y}\, dx\, dy$$
+$$
+\int_0^1 \int_0^1 \frac{x^2}{y^{3/2}} e^{-x^2/y}\, dx\, dy
+$$
 
 For the inner integral, substitute $u = x^2/y$, $dx = \sqrt{y}/(2\sqrt{u})\, du$:
 
-$$\int_0^1 \frac{x^2}{y^{3/2}} e^{-x^2/y}\, dx = \frac{1}{2}\int_0^{1/y} \sqrt{u} e^{-u}\, du$$
+$$
+\int_0^1 \frac{x^2}{y^{3/2}} e^{-x^2/y}\, dx = \frac{1}{2}\int_0^{1/y} \sqrt{u} e^{-u}\, du
+$$
 
 The full integral becomes $\int_0^1 \frac{1}{2}(1 - e^{-1/y}(1 + 1/y))\, dy = \frac{1}{2}(1 - e^{-1})$. $\blacksquare$
 
@@ -92,11 +108,15 @@ The full integral becomes $\int_0^1 \frac{1}{2}(1 - e^{-1/y}(1 + 1/y))\, dy = \f
 
 *Solution.* Let $I = \int_{-\infty}^\infty e^{-x^2/2}\, dx$. Then:
 
-$$I^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-(x^2+y^2)/2}\, dx\, dy$$
+$$
+I^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-(x^2+y^2)/2}\, dx\, dy
+$$
 
 Using Tonelli, convert to polar coordinates $x = r\cos\theta$, $y = r\sin\theta$:
 
-$$I^2 = \int_0^{2\pi} \int_0^\infty e^{-r^2/2} r\, dr\, d\theta = 2\pi \int_0^\infty e^{-r^2/2} r\, dr = 2\pi$$
+$$
+I^2 = \int_0^{2\pi} \int_0^\infty e^{-r^2/2} r\, dr\, d\theta = 2\pi \int_0^\infty e^{-r^2/2} r\, dr = 2\pi
+$$
 
 Hence $I = \sqrt{2\pi}$. $\blacksquare$
 
@@ -105,14 +125,18 @@ Hence $I = \sqrt{2\pi}$. $\blacksquare$
 **Application 1: Integration of Convolutions.** For $f, g \in L^1(\mathbb{R}^n)$, define the
 convolution $(f * g)(x) = \int f(x-y)g(y)\, dy$. Then:
 
-$$\int_{\mathbb{R}^n} (f * g)(x)\, dx = \left(\int_{\mathbb{R}^n} f(x)\, dx\right)\left(\int_{\mathbb{R}^n} g(x)\, dx\right)$$
+$$
+\int_{\mathbb{R}^n} (f * g)(x)\, dx = \left(\int_{\mathbb{R}^n} f(x)\, dx\right)\left(\int_{\mathbb{R}^n} g(x)\, dx\right)
+$$
 
 This follows directly from Tonelli (for non-negative functions) or Fubini (for integrable functions).
 
 **Application 2: The Gamma Function.** The gamma function $\Gamma(s) = \int_0^\infty t^{s-1} e^{-t}\, dt$
 satisfies:
 
-$$\Gamma(s)\Gamma(t) = \int_0^\infty \int_0^\infty u^{s-1} v^{t-1} e^{-u-v}\, du\, dv = \int_0^\infty e^{-r} r^{s+t-1}\, dr \cdot \int_0^1 x^{s-1}(1-x)^{t-1}\, dx$$
+$$
+\Gamma(s)\Gamma(t) = \int_0^\infty \int_0^\infty u^{s-1} v^{t-1} e^{-u-v}\, du\, dv = \int_0^\infty e^{-r} r^{s+t-1}\, dr \cdot \int_0^1 x^{s-1}(1-x)^{t-1}\, dx
+$$
 
 Using the substitution $u = rx$, $v = r(1-x)$ with Jacobian $r$, and applying Tonelli.
 

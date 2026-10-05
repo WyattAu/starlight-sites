@@ -30,25 +30,35 @@ categories:
 
 3. **Measurement:** Measuring an observable $\hat{A}$ yields an eigenvalue $a_n$ of $\hat{A}$:
 
-   $$\hat{A}\psi_n = a_n\psi_n$$
+   $$
+   \hat{A}\psi_n = a_n\psi_n
+   $$
 
    The probability of measuring $a_n$ is $|c_n|^2$ where $\Psi = \sum_n c_n\psi_n$.
 
 4. **Expectation Value:** For a state $\Psi$:
 
-   $$\langle A \rangle = \frac{\int \Psi^*\hat{A}\Psi\,d\tau}{\int \Psi^*\Psi\,d\tau}$$
+   $$
+   \langle A \rangle = \frac{\int \Psi^*\hat{A}\Psi\,d\tau}{\int \Psi^*\Psi\,d\tau}
+   $$
 
 5. **Time Evolution:** $\Psi$ evolves according to the time-dependent Schrödinger equation:
 
-   $$i\hbar\frac{\partial \Psi}{\partial t} = \hat{H}\Psi$$
+   $$
+   i\hbar\frac{\partial \Psi}{\partial t} = \hat{H}\Psi
+   $$
 
 ### 1.2 The Time-Independent Schrödinger Equation
 
 For a system with time-independent Hamiltonian:
 
-$$\hat{H}\psi = E\psi$$
+$$
+\hat{H}\psi = E\psi
+$$
 
-$$\left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right]\psi = E\psi$$
+$$
+\left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right]\psi = E\psi
+$$
 
 ## 2. Particle in a Box
 
@@ -56,11 +66,15 @@ $$\left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right]\psi = E\psi$$
 
 A particle of mass $m$ confined to $0 \leq x \leq L$ with $V = 0$ inside and $V = \infty$ outside:
 
-$$\hat{H}\psi = -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi$$
+$$
+\hat{H}\psi = -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
+$$
 
 **Theorem 1 (Particle in a 1D Box):**
 
-$$\psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \frac{n^2h^2}{8mL^2}$$
+$$
+\psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \frac{n^2h^2}{8mL^2}
+$$
 
 where $n = 1, 2, 3, \ldots$
 
@@ -72,9 +86,13 @@ Key features:
 
 ### 2.2 Three-Dimensional Box
 
-$$\psi_{n_x,n_y,n_z}(x,y,z) = \left(\frac{2}{L}\right)^{3/2}\sin\frac{n_x\pi x}{L}\sin\frac{n_y\pi y}{L}\sin\frac{n_z\pi z}{L}$$
+$$
+\psi_{n_x,n_y,n_z}(x,y,z) = \left(\frac{2}{L}\right)^{3/2}\sin\frac{n_x\pi x}{L}\sin\frac{n_y\pi y}{L}\sin\frac{n_z\pi z}{L}
+$$
 
-$$E_{n_x,n_y,n_z} = \frac{h^2}{8mL^2}(n_x^2 + n_y^2 + n_z^2)$$
+$$
+E_{n_x,n_y,n_z} = \frac{h^2}{8mL^2}(n_x^2 + n_y^2 + n_z^2)
+$$
 
 **Definition 1 (Degeneracy):** Different sets of quantum numbers that give the same energy are
 degenerate. For a cubic box, $(1,2,2)$, $(2,1,2)$, and $(2,2,1)$ are triply degenerate.
@@ -83,14 +101,20 @@ degenerate. For a cubic box, $(1,2,2)$, $(2,1,2)$, and $(2,2,1)$ are triply dege
 
 The probability of finding the particle between $x = a$ and $x = b$:
 
-$$P(a \leq x \leq b) = \int_a^b |\psi_n(x)|^2\,dx = \frac{2}{L}\int_a^b \sin^2\frac{n\pi x}{L}\,dx$$
+$$
+P(a \leq x \leq b) = \int_a^b |\psi_n(x)|^2\,dx = \frac{2}{L}\int_a^b \sin^2\frac{n\pi x}{L}\,dx
+$$
 
 **Example 1:** For a particle in a 1D box of length $L = 1$ nm, find the probability of finding it
 in the middle third for $n = 1$.
 
-$$P\left(\frac{L}{3} \leq x \leq \frac{2L}{3}\right) = \int_{L/3}^{2L/3} \frac{2}{L}\sin^2\frac{\pi x}{L}\,dx$$
+$$
+P\left(\frac{L}{3} \leq x \leq \frac{2L}{3}\right) = \int_{L/3}^{2L/3} \frac{2}{L}\sin^2\frac{\pi x}{L}\,dx
+$$
 
-$$= \frac{1}{3} - \frac{\sin(4\pi/3) - \sin(2\pi/3)}{2\pi} = \frac{1}{3} - \frac{-\sqrt{3}/2 - \sqrt{3}/2}{2\pi} = \frac{1}{3} + \frac{\sqrt{3}}{2\pi} \approx 0.61$$
+$$
+= \frac{1}{3} - \frac{\sin(4\pi/3) - \sin(2\pi/3)}{2\pi} = \frac{1}{3} - \frac{-\sqrt{3}/2 - \sqrt{3}/2}{2\pi} = \frac{1}{3} + \frac{\sqrt{3}}{2\pi} \approx 0.61
+$$
 
 $\blacksquare$
 
@@ -114,9 +138,13 @@ If $[\hat{A}, \hat{B}] = 0$, the observables can be simultaneously measured with
 
 **Theorem 2 (Heisenberg Uncertainty Principle):**
 
-$$\Delta A \cdot \Delta B \geq \frac{1}{2}|\langle[\hat{A}, \hat{B}]\rangle|$$
+$$
+\Delta A \cdot \Delta B \geq \frac{1}{2}|\langle[\hat{A}, \hat{B}]\rangle|
+$$
 
-$$\Delta x \cdot \Delta p_x \geq \frac{\hbar}{2}$$
+$$
+\Delta x \cdot \Delta p_x \geq \frac{\hbar}{2}
+$$
 
 ## 4. The Hydrogen Atom
 
@@ -124,11 +152,15 @@ $$\Delta x \cdot \Delta p_x \geq \frac{\hbar}{2}$$
 
 For the hydrogen atom (reduced mass $\mu = m_e m_p/(m_e + m_p) \approx m_e$):
 
-$$\left[-\frac{\hbar^2}{2\mu}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}\right]\psi = E\psi$$
+$$
+\left[-\frac{\hbar^2}{2\mu}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}\right]\psi = E\psi
+$$
 
 In spherical coordinates $(r, \theta, \phi)$:
 
-$$\psi_{n,\ell,m_\ell}(r,\theta,\phi) = R_{n,\ell}(r)\,Y_\ell^{m_\ell}(\theta,\phi)$$
+$$
+\psi_{n,\ell,m_\ell}(r,\theta,\phi) = R_{n,\ell}(r)\,Y_\ell^{m_\ell}(\theta,\phi)
+$$
 
 ### 4.2 Quantum Numbers
 
@@ -143,7 +175,9 @@ $$\psi_{n,\ell,m_\ell}(r,\theta,\phi) = R_{n,\ell}(r)\,Y_\ell^{m_\ell}(\theta,\p
 
 **Theorem 3 (Hydrogen Atom Energy):**
 
-$$E_n = -\frac{\mu e^4}{32\pi^2\varepsilon_0^2\hbar^2}\frac{1}{n^2} = -\frac{13.6 \text{ eV}}{n^2} = -\frac{R_H}{n^2}$$
+$$
+E_n = -\frac{\mu e^4}{32\pi^2\varepsilon_0^2\hbar^2}\frac{1}{n^2} = -\frac{13.6 \text{ eV}}{n^2} = -\frac{R_H}{n^2}
+$$
 
 The Rydberg constant $R_H = 2.179 \times 10^{-18}$ J $= 13.6$ eV.
 
@@ -153,11 +187,17 @@ Energy depends only on $n$; all states with the same $n$ are degenerate (for hyd
 
 The first few radial wavefunctions:
 
-$$R_{1,0}(r) = 2\left(\frac{1}{a_0}\right)^{3/2}e^{-r/a_0}$$
+$$
+R_{1,0}(r) = 2\left(\frac{1}{a_0}\right)^{3/2}e^{-r/a_0}
+$$
 
-$$R_{2,0}(r) = \frac{1}{2\sqrt{2}}\left(\frac{1}{a_0}\right)^{3/2}\left(2 - \frac{r}{a_0}\right)e^{-r/(2a_0)}$$
+$$
+R_{2,0}(r) = \frac{1}{2\sqrt{2}}\left(\frac{1}{a_0}\right)^{3/2}\left(2 - \frac{r}{a_0}\right)e^{-r/(2a_0)}
+$$
 
-$$R_{2,1}(r) = \frac{1}{2\sqrt{6}}\left(\frac{1}{a_0}\right)^{3/2}\frac{r}{a_0}e^{-r/(2a_0)}$$
+$$
+R_{2,1}(r) = \frac{1}{2\sqrt{6}}\left(\frac{1}{a_0}\right)^{3/2}\frac{r}{a_0}e^{-r/(2a_0)}
+$$
 
 where $a_0 = 5.292 \times 10^{-11}$ m is the Bohr radius.
 
@@ -166,9 +206,13 @@ where $a_0 = 5.292 \times 10^{-11}$ m is the Bohr radius.
 **Theorem 4 (Spherical Harmonics):** The angular part $Y_\ell^{m_\ell}(\theta, \phi)$ are solutions
 to:
 
-$$\hat{L}^2\,Y_\ell^{m_\ell} = \ell(\ell+1)\hbar^2\,Y_\ell^{m_\ell}$$
+$$
+\hat{L}^2\,Y_\ell^{m_\ell} = \ell(\ell+1)\hbar^2\,Y_\ell^{m_\ell}
+$$
 
-$$\hat{L}_z\,Y_\ell^{m_\ell} = m_\ell\hbar\,Y_\ell^{m_\ell}$$
+$$
+\hat{L}_z\,Y_\ell^{m_\ell} = m_\ell\hbar\,Y_\ell^{m_\ell}
+$$
 
 ### 4.6 Orbital Shapes
 
@@ -187,9 +231,13 @@ Total nodes $= n - 1$ = radial nodes + angular nodes.
 
 **Theorem 5 (Angular Momentum Magnitude):**
 
-$$|\mathbf{L}| = \sqrt{\ell(\ell+1)}\,\hbar$$
+$$
+|\mathbf{L}| = \sqrt{\ell(\ell+1)}\,\hbar
+$$
 
-$$L_z = m_\ell\hbar, \quad m_\ell = -\ell, -\ell+1, \ldots, \ell$$
+$$
+L_z = m_\ell\hbar, \quad m_\ell = -\ell, -\ell+1, \ldots, \ell
+$$
 
 The angular momentum vector can never be fully aligned with the $z$-axis (space quantization).
 
@@ -197,15 +245,21 @@ The angular momentum vector can never be fully aligned with the $z$-axis (space 
 
 Electrons have intrinsic angular momentum (spin) with $s = 1/2$:
 
-$$|S| = \sqrt{s(s+1)}\,\hbar = \frac{\sqrt{3}}{2}\hbar$$
+$$
+|S| = \sqrt{s(s+1)}\,\hbar = \frac{\sqrt{3}}{2}\hbar
+$$
 
-$$S_z = m_s\hbar, \quad m_s = \pm\frac{1}{2}$$
+$$
+S_z = m_s\hbar, \quad m_s = \pm\frac{1}{2}
+$$
 
 ### 5.3 Spin-Orbit Coupling
 
 **Theorem 6 (Spin-Orbit Coupling):** The total angular momentum $\mathbf{J} = \mathbf{L} + \mathbf{S}$:
 
-$$|\mathbf{J}| = \sqrt{j(j+1)}\,\hbar, \quad j = |\ell - s|, \ldots, \ell + s$$
+$$
+|\mathbf{J}| = \sqrt{j(j+1)}\,\hbar, \quad j = |\ell - s|, \ldots, \ell + s
+$$
 
 For an electron with $\ell = 1$, $s = 1/2$: $j = 1/2$ or $3/2$.
 
@@ -247,7 +301,9 @@ $\blacksquare$
 
 For helium-like atoms, the Hamiltonian includes electron-electron repulsion:
 
-$$\hat{H} = -\frac{\hbar^2}{2m_e}\nabla_1^2 - \frac{\hbar^2}{2m_e}\nabla_2^2 - \frac{Ze^2}{4\pi\varepsilon_0 r_1} - \frac{Ze^2}{4\pi\varepsilon_0 r_2} + \frac{e^2}{4\pi\varepsilon_0 r_{12}}$$
+$$
+\hat{H} = -\frac{\hbar^2}{2m_e}\nabla_1^2 - \frac{\hbar^2}{2m_e}\nabla_2^2 - \frac{Ze^2}{4\pi\varepsilon_0 r_1} - \frac{Ze^2}{4\pi\varepsilon_0 r_2} + \frac{e^2}{4\pi\varepsilon_0 r_{12}}
+$$
 
 The $1/r_{12}$ term makes exact solutions impossible for $N > 1$.
 
@@ -255,7 +311,9 @@ The $1/r_{12}$ term makes exact solutions impossible for $N > 1$.
 
 **Definition 5 (Slater Determinant):** The antisymmetric wavefunction for $N$ electrons:
 
-$$\Psi(1,2,\ldots,N) = \frac{1}{\sqrt{N!}}\begin{vmatrix} \chi_1(1) & \chi_2(1) & \cdots & \chi_N(1) \\ \chi_1(2) & \chi_2(2) & \cdots & \chi_N(2) \\ \vdots & \vdots & \ddots & \vdots \\ \chi_1(N) & \chi_2(N) & \cdots & \chi_N(N) \end{vmatrix}$$
+$$
+\Psi(1,2,\ldots,N) = \frac{1}{\sqrt{N!}}\begin{vmatrix} \chi_1(1) & \chi_2(1) & \cdots & \chi_N(1) \\ \chi_1(2) & \chi_2(2) & \cdots & \chi_N(2) \\ \vdots & \vdots & \ddots & \vdots \\ \chi_1(N) & \chi_2(N) & \cdots & \chi_N(N) \end{vmatrix}
+$$
 
 where $\chi_i$ is a spin-orbital. The determinant ensures antisymmetry under particle exchange,
 automatically satisfying the Pauli principle.
@@ -265,12 +323,16 @@ automatically satisfying the Pauli principle.
 **Theorem 8 (Hartree-Fock Equations):** The Hartree-Fock method approximates each electron as moving
 in the average field of the others:
 
-$$\hat{F}\,\phi_i = \varepsilon_i\,\phi_i$$
+$$
+\hat{F}\,\phi_i = \varepsilon_i\,\phi_i
+$$
 
 where $\hat{F}$ is the Fock operator and $\varepsilon_i$ are orbital energies. Koopmans' theorem
 relates orbital energies to ionization potentials:
 
-$$\text{IP} \approx -\varepsilon_i$$
+$$
+\text{IP} \approx -\varepsilon_i
+$$
 
 ## 8. The Born-Oppenheimer Approximation
 
@@ -279,7 +341,9 @@ $$\text{IP} \approx -\varepsilon_i$$
 **Theorem 9 (Born-Oppenheimer Approximation):** Since nuclei are much heavier than electrons
 ($m_p/m_e \approx 1836$), the electronic and nuclear motions can be separated:
 
-$$\Psi_{\text{total}} = \psi_{\text{elec}}(\mathbf{r}; \mathbf{R})\,\psi_{\text{nuc}}(\mathbf{R})$$
+$$
+\Psi_{\text{total}} = \psi_{\text{elec}}(\mathbf{r}; \mathbf{R})\,\psi_{\text{nuc}}(\mathbf{R})
+$$
 
 The electronic Schrödinger equation is solved for fixed nuclear positions, giving the **potential
 energy surface (PES)**.
@@ -298,7 +362,9 @@ The PES defines:
 
 **Definition 6 (LCAO-MO):** Molecular orbitals are formed as linear combinations of atomic orbitals:
 
-$$\psi_i = \sum_\mu c_{\mu i}\,\phi_\mu$$
+$$
+\psi_i = \sum_\mu c_{\mu i}\,\phi_\mu
+$$
 
 ### 9.2 The HOMO-LUMO Gap
 
@@ -321,7 +387,9 @@ For $\text{Li}_2$ through $\text{N}_2$ (lighter): $\sigma_{2s} < \sigma_{2s}^* <
 
 **Bond order:**
 
-$$\text{BO} = \frac{1}{2}(n_b - n_a)$$
+$$
+\text{BO} = \frac{1}{2}(n_b - n_a)
+$$
 
 where $n_b$ is the number of bonding electrons and $n_a$ is the number of antibonding electrons.
 
@@ -359,11 +427,15 @@ Huckel theory makes three approximations for $\pi$-electron systems:
 
 For ethylene (2 $\pi$ centers):
 
-$$\begin{vmatrix} \alpha - E & \beta \\ \beta & \alpha - E \end{vmatrix} = 0$$
+$$
+\begin{vmatrix} \alpha - E & \beta \\ \beta & \alpha - E \end{vmatrix} = 0
+$$
 
 Setting $x = (\alpha - E)/\beta$:
 
-$$x^2 - 1 = 0 \implies x = \pm 1 \implies E = \alpha \pm \beta$$
+$$
+x^2 - 1 = 0 \implies x = \pm 1 \implies E = \alpha \pm \beta
+$$
 
 The bonding orbital has $E = \alpha + \beta$ and the antibonding orbital has $E = \alpha - \beta$.
 
@@ -381,7 +453,9 @@ Benzene ($n = 1$, 6 $\pi$ electrons) satisfies this rule.
 
 **Definition 10 (Delocalization Energy):** The energy lowering due to electron delocalization:
 
-$$E_{\text{deloc}} = E_\pi(\text{delocalized}) - E_\pi(\text{localized})$$
+$$
+E_{\text{deloc}} = E_\pi(\text{delocalized}) - E_\pi(\text{localized})
+$$
 
 For benzene: $E_\pi = 2(\alpha + 2\beta) + 4(\alpha + \beta) = 6\alpha + 8\beta$.
 Three isolated double bonds: $3 \times 2(\alpha + \beta) = 6\alpha + 6\beta$.
@@ -415,19 +489,27 @@ basis functions from the other. Corrected using the counterpoise method.
 
 **Theorem 10 (First-Order Correction):** For $\hat{H} = \hat{H}_0 + \hat{H}'$:
 
-$$E_n^{(1)} = \langle \psi_n^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle$$
+$$
+E_n^{(1)} = \langle \psi_n^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle
+$$
 
-$$\psi_n^{(1)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}}\,\psi_m^{(0)}$$
+$$
+\psi_n^{(1)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}}\,\psi_m^{(0)}
+$$
 
 **Theorem 11 (Second-Order Energy Correction):**
 
-$$E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}$$
+$$
+E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+$$
 
 ### 12.2 The Variational Principle
 
 **Theorem 12 (Variational Principle):** For any trial wavefunction $\tilde{\Psi}$:
 
-$$\langle \tilde{\Psi} | \hat{H} | \tilde{\Psi} \rangle \geq E_0$$
+$$
+\langle \tilde{\Psi} | \hat{H} | \tilde{\Psi} \rangle \geq E_0
+$$
 
 where $E_0$ is the true ground state energy. This underpins the Hartree-Fock and DFT methods.
 

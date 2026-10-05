@@ -85,7 +85,9 @@ $(4) \subsetneq (2) \subsetneq \mathbb{Z}$. $\blacksquare$
 **Theorem 9.5 (Chinese Remainder Theorem for Rings).** Let $R$ be a commutative ring with unity and
 Let $I, J$ be ideals with $I + J = R$. Then
 
-$$R/(I \cap J) \cong R/I \times R/J$$
+$$
+R/(I \cap J) \cong R/I \times R/J
+$$
 
 _Proof._ Define $\phi : R \to R/I \times R/J$ by $\phi(r) = (r + I, r + J)$. This is a ring
 homomorphism. It is surjective: since $I + J = R$There exist $a \in I$ and $b \in J$ with

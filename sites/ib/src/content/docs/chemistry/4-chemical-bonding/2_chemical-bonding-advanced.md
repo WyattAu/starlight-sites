@@ -458,7 +458,9 @@ $6 + 4(6) + 2 = 32$ valence electrons.
 Sulfur forms double bonds with all four oxygens (expanding the octet since S is in Period 3): No
 lone pairs on sulfur. Each oxygen has 2 lone pairs.
 
-$$\mathrm{O}_2\mathrm{S}(=\mathrm{O})_2^{2-}$$
+$$
+\mathrm{O}_2\mathrm{S}(=\mathrm{O})_2^{2-}
+$$
 
 **Step 2: Determine the steric number.**
 
@@ -492,19 +494,27 @@ Bond length of NO with those of $\mathrm{NO}^+$.
 NO has 11 valence electrons (5 from N, 6 from O). Since oxygen is to the right of nitrogen in the
 Periodic table, the $\mathrm{O}_2$/$\mathrm{F}_2$ energy ordering applies:
 
-$$\sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2\, (\pi_{2p_x}^*)^1$$
+$$
+\sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2\, (\pi_{2p_x}^*)^1
+$$
 
 Bonding electrons: $2 + 2 + 2 + 2 + 2 = 10$. Antibonding electrons: $2 + 1 = 3$.
 
-$$\mathrm{Bond\ order} = \frac{10 - 3}{2} = 3.5$$
+$$
+\mathrm{Bond\ order} = \frac{10 - 3}{2} = 3.5
+$$
 
 One unpaired electron in $\pi_{2p_x}^*$: NO is **paramagnetic**.
 
 **For $\mathrm{NO}^+$:** 10 valence electrons (one fewer than NO).
 
-$$\sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2$$
+$$
+\sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2
+$$
 
-$$\mathrm{Bond\ order} = \frac{10 - 2}{2} = 4.0$$
+$$
+\mathrm{Bond\ order} = \frac{10 - 2}{2} = 4.0
+$$
 
 $\mathrm{NO}^+$ has no unpaired electrons: **diamagnetic**.
 
@@ -525,7 +535,9 @@ Atom.
 
 **Step 1: Draw the structure.**
 
-$$\mathrm{CH_3 - CH = CH - C \equiv N}$$
+$$
+\mathrm{CH_3 - CH = CH - C \equiv N}
+$$
 
 **Step 2: Count bonds by type.**
 
@@ -563,15 +575,21 @@ Silicon is not.
 
 **Step 1: Calculate the threshold wavelengths.**
 
-$$\lambda = \frac{hc}{E}$$
+$$
+\lambda = \frac{hc}{E}
+$$
 
 For diamond ($E = 5.5\mathrm{ eV} = 5.5 \times 1.602 \times 10^{-19}\mathrm{ J}$):
 
-$$\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{5.5 \times 1.602 \times 10^{-19}} = \frac{1.988 \times 10^{-25}}{8.81 \times 10^{-19}} = 2.26 \times 10^{-7}\mathrm{ m} = 226\mathrm{ nm}$$
+$$
+\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{5.5 \times 1.602 \times 10^{-19}} = \frac{1.988 \times 10^{-25}}{8.81 \times 10^{-19}} = 2.26 \times 10^{-7}\mathrm{ m} = 226\mathrm{ nm}
+$$
 
 For silicon ($E = 1.1\mathrm{ eV}$):
 
-$$\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.1 \times 1.602 \times 10^{-19}} = \frac{1.988 \times 10^{-25}}{1.76 \times 10^{-19}} = 1.13 \times 10^{-6}\mathrm{ m} = 1130\mathrm{ nm}$$
+$$
+\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.1 \times 1.602 \times 10^{-19}} = \frac{1.988 \times 10^{-25}}{1.76 \times 10^{-19}} = 1.13 \times 10^{-6}\mathrm{ m} = 1130\mathrm{ nm}
+$$
 
 **Step 2: Classification.**
 
@@ -744,14 +762,20 @@ $= 1.602 \times 10^{-19}\;\mathrm{C}$)
 
 If the bond were $100\%$ ionic, the dipole moment would be:
 
-$$\mu_{\mathrm{ionic}} = q \times d = (1.602 \times 10^{-19}\;\mathrm{C}) \times (127 \times 10^{-12}\;\mathrm{m}) = 2.035 \times 10^{-29}\;\mathrm{C \cdot m}$$
+$$
+\mu_{\mathrm{ionic}} = q \times d = (1.602 \times 10^{-19}\;\mathrm{C}) \times (127 \times 10^{-12}\;\mathrm{m}) = 2.035 \times 10^{-29}\;\mathrm{C \cdot m}
+$$
 
 Converting to debye:
-$$\mu_{\mathrm{ionic}} = \frac{2.035 \times 10^{-29}}{3.336 \times 10^{-30}} = 6.10\;\mathrm{D}$$
+$$
+\mu_{\mathrm{ionic}} = \frac{2.035 \times 10^{-29}}{3.336 \times 10^{-30}} = 6.10\;\mathrm{D}
+$$
 
 The actual dipole moment is $1.08\;\mathrm{D}$ So the percent ionic character is:
 
-$$\%\;\text{ionic} = \frac{1.08}{6.10} \times 100 = 17.7\%$$
+$$
+\%\;\text{ionic} = \frac{1.08}{6.10} \times 100 = 17.7\%
+$$
 
 This result demonstrates that even highly polar bonds like $\mathrm{H\!-\!Cl}$ have significant
 covalent character. Purely ionic bonding is an idealisation; real bonds exist on a continuum.
@@ -788,7 +812,9 @@ Net formal charge: $+3 + 3(-1) = 0$. This is valid but has high formal charges.
 
 Convert one lone pair on each oxygen into a bonding pair, forming three Xe=O double bonds:
 
-$$\mathrm{O}=\mathrm{Xe}(=\mathrm{O})_2 \text{ with one lone pair on Xe}$$
+$$
+\mathrm{O}=\mathrm{Xe}(=\mathrm{O})_2 \text{ with one lone pair on Xe}
+$$
 
 - Xe: $8 - 2 - 12/2 = 8 - 2 - 6 = 0$
 - Each O: $6 - 4 - 4/2 = 6 - 4 - 2 = 0$
@@ -823,7 +849,9 @@ delocalised over the three oxygens.
 
 The **resonance hybrid** has partial double-bond character between N and each O.
 
-$$\text{Bond order} = \frac{1\;\text{(double bond)} + 2\;\text{(single bonds)}}{3\;\text{(N--O bonds)}} = \frac{1 + 2}{3} = \frac{3}{3} = 1.33$$
+$$
+\text{Bond order} = \frac{1\;\text{(double bond)} + 2\;\text{(single bonds)}}{3\;\text{(N--O bonds)}} = \frac{1 + 2}{3} = \frac{3}{3} = 1.33
+$$
 
 The average bond order of $1.33$ means each N--O bond has approximately $1/3$ double-bond character
 and $2/3$ single-bond character. The observed bond length of $124\;\mathrm{pm}$ is between the
@@ -840,7 +868,9 @@ single bonds.
 
 Use the Kapustinskii equation to estimate the lattice energy of $\mathrm{KBr}$:
 
-$$U = \frac{1200.2 \cdot z_+ z_- \cdot v}{r_+ + r_-}\left(1 - \frac{34.5}{r_+ + r_-}\right)\;\mathrm{kJ/mol}$$
+$$
+U = \frac{1200.2 \cdot z_+ z_- \cdot v}{r_+ + r_-}\left(1 - \frac{34.5}{r_+ + r_-}\right)\;\mathrm{kJ/mol}
+$$
 
 Where $v$ is the number of ions per formula unit ($v = 2$ for $\mathrm{KBr}$), $r_+$ and $r_-$ are
 ionic radii in pm, and $z_+, z_-$ are ion charges. Given:
@@ -849,20 +879,32 @@ $r(\mathrm{K}^+) = 138\;\mathrm{pm}$, $r(\mathrm{Br}^-) = 196\;\mathrm{pm}$.
 <details>
 <summary>Solution</summary>
 
-$$r_+ + r_- = 138 + 196 = 334\;\mathrm{pm}$$
+$$
+r_+ + r_- = 138 + 196 = 334\;\mathrm{pm}
+$$
 
-$$U = \frac{1200.2 \times 1 \times 1 \times 2}{334}\left(1 - \frac{34.5}{334}\right)$$
+$$
+U = \frac{1200.2 \times 1 \times 1 \times 2}{334}\left(1 - \frac{34.5}{334}\right)
+$$
 
-$$U = \frac{2400.4}{334}\left(1 - 0.1033\right)$$
+$$
+U = \frac{2400.4}{334}\left(1 - 0.1033\right)
+$$
 
-$$U = 7.187 \times 0.8967 = 6.445\;\mathrm{kJ/mol} \times 10^2 = 644.5\;\mathrm{kJ/mol}$$
+$$
+U = 7.187 \times 0.8967 = 6.445\;\mathrm{kJ/mol} \times 10^2 = 644.5\;\mathrm{kJ/mol}
+$$
 
 Wait, the Kapustinskii equation as written gives the answer in $\mathrm{kJ/mol}$ directly when
 radii are in pm:
 
-$$U = \frac{1200.2 \times 2}{334}\left(1 - \frac{34.5}{334}\right) = \frac{2400.4}{334}(0.8967) = 7.187 \times 0.8967 = 6.44$$
+$$
+U = \frac{1200.2 \times 2}{334}\left(1 - \frac{34.5}{334}\right) = \frac{2400.4}{334}(0.8967) = 7.187 \times 0.8967 = 6.44
+$$
 
-$$U \approx -644\;\mathrm{kJ/mol}$$
+$$
+U \approx -644\;\mathrm{kJ/mol}
+$$
 
 The experimental lattice energy of $\mathrm{KBr}$ is approximately $-679\;\mathrm{kJ/mol}$. The
 Kapustinskii estimate is within about $5\%$Demonstrating its utility for predicting lattice energies

@@ -66,7 +66,9 @@ A **binary tree** is a tree where each node has at most two children, called the
 
 **Proof.** At depth $d$There are at most $2^d$ nodes. The total number of nodes is at most:
 
-$$\sum_{d=0}^{h} 2^d = 2^{h+1} - 1$$
+$$
+\sum_{d=0}^{h} 2^d = 2^{h+1} - 1
+$$
 
 $\square$
 
@@ -302,11 +304,15 @@ def build_heap(arr):
 **Proof.** The nodes at depth $d$ are at most $\lceil n / 2^{d+1} \rceil$. Each `heapify` at depth
 $d$ takes at most $O(h - d)$ time, where $h = \lfloor \log_2 n \rfloor$. The total cost is:
 
-$$T(n) = \sum_{d=0}^{h} \left\lceil \frac{n}{2^{d+1}} \right\rceil \cdot O(h - d) \leq \sum_{d=0}^{h} \frac{n}{2^{d+1}} \cdot (h - d)$$
+$$
+T(n) = \sum_{d=0}^{h} \left\lceil \frac{n}{2^{d+1}} \right\rceil \cdot O(h - d) \leq \sum_{d=0}^{h} \frac{n}{2^{d+1}} \cdot (h - d)
+$$
 
 Let $k = h - d$:
 
-$$T(n) \leq n \sum_{k=0}^{h} \frac{k}{2^{h-k+1}} \leq \frac{n}{2} \sum_{k=0}^{\infty} \frac{k}{2^k} = \frac{n}{2} \cdot 2 = O(n)$$
+$$
+T(n) \leq n \sum_{k=0}^{h} \frac{k}{2^{h-k+1}} \leq \frac{n}{2} \sum_{k=0}^{\infty} \frac{k}{2^k} = \frac{n}{2} \cdot 2 = O(n)
+$$
 
 (The sum $\sum_{k=0}^{\infty} k/2^k = 2$ by the standard geometric-series derivative result.)
 $\square$
@@ -327,7 +333,9 @@ def heap_sort(arr):
 **Proof.** Building the heap: $O(n)$. Then $n - 1$ iterations of swap + heapify. Each heapify on a
 Heap of size $i$ takes $O(\log i)$ time. Total:
 
-$$T(n) = O(n) + \sum_{i=2}^{n} O(\log i) = O(n) + O\left(\sum_{i=1}^{n} \log i\right) \leq O(n) + O(n \log n) = O(n \log n)$$
+$$
+T(n) = O(n) + \sum_{i=2}^{n} O(\log i) = O(n) + O\left(\sum_{i=1}^{n} \log i\right) \leq O(n) + O(n \log n) = O(n \log n)
+$$
 
 **Space:** $O(1)$, in-place. **Stability:** Not stable (swaps can change relative order of equal
 Elements). $\square$

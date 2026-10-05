@@ -59,11 +59,15 @@ Explain why this is misleading and calculate the correct dynamic resistance.
 
 (a) **Lamp at $V = 6.0\,\text{V}$:**
 
-$$I_L = 0.50 \times 6.0^{0.5} = 0.50 \times 2.449 = 1.22\,\text{A}$$
+$$
+I_L = 0.50 \times 6.0^{0.5} = 0.50 \times 2.449 = 1.22\,\text{A}
+$$
 
 **Diode at $V = 6.0\,\text{V}$:**
 
-$$I_D = 10^{-6}(e^{6.0/0.026} - 1) = 10^{-6}(e^{230.8} - 1)$$
+$$
+I_D = 10^{-6}(e^{6.0/0.026} - 1) = 10^{-6}(e^{230.8} - 1)
+$$
 
 This is an astronomically large number, indicating the diode would be destroyed at $6.0\,\text{V}$
 in forward bias. A typical silicon diode has a forward voltage drop of about $0.7\,\text{V}$ and
@@ -71,7 +75,9 @@ would carry very large currents above this.
 
 At a more realistic forward voltage of $V = 0.70\,\text{V}$:
 
-$$I_D = 10^{-6}(e^{0.70/0.026} - 1) = 10^{-6}(e^{26.9} - 1) \approx 10^{-6} \times 4.8 \times 10^{11} = 4.8 \times 10^5\,\text{A}$$
+$$
+I_D = 10^{-6}(e^{0.70/0.026} - 1) = 10^{-6}(e^{26.9} - 1) \approx 10^{-6} \times 4.8 \times 10^{11} = 4.8 \times 10^5\,\text{A}
+$$
 
 This is still unrealistically large. The Shockley equation with these parameters gives impractical
 results at typical voltages. The point of this question is to show that the Shockley equation is an
@@ -90,7 +96,9 @@ For non-ohmic components, this is misleading because it changes with the operati
 
 The correct **dynamic** (or differential) resistance is:
 
-$$r_d = \frac{dV}{dI}$$
+$$
+r_d = \frac{dV}{dI}
+$$
 
 For the diode: $\frac{dI_D}{dV} = \frac{I_0}{0.026}e^{V/0.026}$
 
@@ -160,9 +168,13 @@ $P = I^2R_L = \left(\frac{\varepsilon}{R_L + r}\right)^2 R_L = \frac{\varepsilon
 
 To maximise: $\frac{dP}{dR_L} = 0$
 
-$$\frac{\varepsilon^2(R_L + r)^2 - \varepsilon^2 R_L \times 2(R_L + r)}{(R_L + r)^4} = 0$$
+$$
+\frac{\varepsilon^2(R_L + r)^2 - \varepsilon^2 R_L \times 2(R_L + r)}{(R_L + r)^4} = 0
+$$
 
-$$(R_L + r) - 2R_L = 0 \Rightarrow R_L = r = 1.5\,\Omega$$
+$$
+(R_L + r) - 2R_L = 0 \Rightarrow R_L = r = 1.5\,\Omega
+$$
 
 Maximum power: $P_{\max} = \frac{\varepsilon^2}{4r} = \frac{144}{6.0} = 24.0\,\text{W}$
 
@@ -204,9 +216,13 @@ $V_{\text{out}} = \frac{R_2}{R_1 + R_2} \times V = \frac{10}{20} \times 12 = 6.0
 
 (b) With $R_L = 10\,\text{k}\Omega$ across $R_2$The parallel combination is:
 
-$$R_2' = \frac{R_2 R_L}{R_2 + R_L} = \frac{10 \times 10}{20} = 5.0\,\text{k}\Omega$$
+$$
+R_2' = \frac{R_2 R_L}{R_2 + R_L} = \frac{10 \times 10}{20} = 5.0\,\text{k}\Omega
+$$
 
-$$V_{\text{out}} = \frac{R_2'}{R_1 + R_2'} \times V = \frac{5.0}{10 + 5.0} \times 12 = \frac{5.0}{15.0} \times 12 = 4.0\,\text{V}$$
+$$
+V_{\text{out}} = \frac{R_2'}{R_1 + R_2'} \times V = \frac{5.0}{10 + 5.0} \times 12 = \frac{5.0}{15.0} \times 12 = 4.0\,\text{V}
+$$
 
 Percentage change: $\frac{4.0 - 6.0}{6.0} \times 100 = -33\%$
 
@@ -234,15 +250,25 @@ $V_L = \frac{R R_L/(R + R_L)}{R + R R_L/(R + R_L)} \times 12 = \frac{R_L}{R + 2R
 
 For $V_L/V_0 \ge 0.99$:
 
-$$\frac{R_L}{R + 2R_L} \times 12 \ge 0.99 \times 6.0 = 5.94$$
+$$
+\frac{R_L}{R + 2R_L} \times 12 \ge 0.99 \times 6.0 = 5.94
+$$
 
-$$\frac{R_L}{R + 2R_L} \ge 0.495$$
+$$
+\frac{R_L}{R + 2R_L} \ge 0.495
+$$
 
-$$R_L \ge 0.495R + 0.990R_L$$
+$$
+R_L \ge 0.495R + 0.990R_L
+$$
 
-$$0.010R_L \ge 0.495R$$
+$$
+0.010R_L \ge 0.495R
+$$
 
-$$R_L \ge 49.5R$$
+$$
+R_L \ge 49.5R
+$$
 
 With $R_L = 100\,\text{k}\Omega$: $R \le 100/49.5 = 2.02\,\text{k}\Omega$
 
@@ -287,19 +313,31 @@ By KCL at the top junction: $I_1 + I_2 = I_3$
 
 KVL for the left loop (clockwise from bottom-left):
 
-$$\varepsilon_1 - I_1(r_1 + R_1) - I_3 R_4 - \varepsilon_3 - I_3(r_3 + R_3) = 0$$
+$$
+\varepsilon_1 - I_1(r_1 + R_1) - I_3 R_4 - \varepsilon_3 - I_3(r_3 + R_3) = 0
+$$
 
-$$10 - I_1(5.0) - I_3(2.0) - 4 - I_3(3.5) = 0$$
+$$
+10 - I_1(5.0) - I_3(2.0) - 4 - I_3(3.5) = 0
+$$
 
-$$6 - 5I_1 - 5.5I_3 = 0 \quad \text{--- (1)}$$
+$$
+6 - 5I_1 - 5.5I_3 = 0 \quad \text{--- (1)}
+$$
 
 KVL for the middle loop (clockwise from bottom-middle):
 
-$$\varepsilon_2 - I_2(r_2 + R_2) - I_3 R_4 - \varepsilon_3 - I_3(r_3 + R_3) = 0$$
+$$
+\varepsilon_2 - I_2(r_2 + R_2) - I_3 R_4 - \varepsilon_3 - I_3(r_3 + R_3) = 0
+$$
 
-$$6 - I_2(6.5) - I_3(2.0) - 4 - I_3(3.5) = 0$$
+$$
+6 - I_2(6.5) - I_3(2.0) - 4 - I_3(3.5) = 0
+$$
 
-$$2 - 6.5I_2 - 5.5I_3 = 0 \quad \text{--- (2)}$$
+$$
+2 - 6.5I_2 - 5.5I_3 = 0 \quad \text{--- (2)}
+$$
 
 Substituting $I_3 = I_1 + I_2$ into (1) and (2):
 
@@ -311,22 +349,34 @@ From (3): $I_1 = (6 - 5.5I_2)/10.5$
 
 Substituting into (4): $2 - 5.5(6 - 5.5I_2)/10.5 - 12I_2 = 0$
 
-$$2 - \frac{33 - 30.25I_2}{10.5} - 12I_2 = 0$$
+$$
+2 - \frac{33 - 30.25I_2}{10.5} - 12I_2 = 0
+$$
 
-$$21 - 33 + 30.25I_2 - 126I_2 = 0$$
+$$
+21 - 33 + 30.25I_2 - 126I_2 = 0
+$$
 
-$$-95.75I_2 = 12$$
+$$
+-95.75I_2 = 12
+$$
 
-$$I_2 = -0.125\,\text{A}$$
+$$
+I_2 = -0.125\,\text{A}
+$$
 
 The negative sign means $I_2$ flows downward (opposite to our assumed direction). Battery 2 is being
 charged.
 
 From (3): $6 - 10.5I_1 - 5.5(-0.125) = 0 \Rightarrow 6 - 10.5I_1 + 0.6875 = 0$
 
-$$10.5I_1 = 6.6875 \Rightarrow I_1 = 0.637\,\text{A}$$
+$$
+10.5I_1 = 6.6875 \Rightarrow I_1 = 0.637\,\text{A}
+$$
 
-$$I_3 = I_1 + I_2 = 0.637 - 0.125 = 0.512\,\text{A}$$
+$$
+I_3 = I_1 + I_2 = 0.637 - 0.125 = 0.512\,\text{A}
+$$
 
 (b) Power delivered by battery 1: $P_1 = \varepsilon_1 I_1 = 10 \times 0.637 = 6.37\,\text{W}$
 
@@ -395,13 +445,19 @@ $I_0 = \varepsilon/R = 20/50000 = 4.0 \times 10^{-4}\,\text{A} = 0.40\,\text{mA}
 
 Charge at $t = 10\,\text{s} = 2\tau$:
 
-$$Q = C\varepsilon(1 - e^{-t/\tau}) = 100 \times 10^{-6} \times 20 \times (1 - e^{-2})$$
+$$
+Q = C\varepsilon(1 - e^{-t/\tau}) = 100 \times 10^{-6} \times 20 \times (1 - e^{-2})
+$$
 
-$$= 2.0 \times 10^{-3} \times (1 - 0.1353) = 2.0 \times 10^{-3} \times 0.8647 = 1.73 \times 10^{-3}\,\text{C} = 1.73\,\text{mC}$$
+$$
+= 2.0 \times 10^{-3} \times (1 - 0.1353) = 2.0 \times 10^{-3} \times 0.8647 = 1.73 \times 10^{-3}\,\text{C} = 1.73\,\text{mC}
+$$
 
 (b) Energy stored in fully charged capacitor:
 
-$$E_C = \frac{1}{2}CV^2 = \frac{1}{2} \times 100 \times 10^{-6} \times 400 = 0.020\,\text{J} = 20\,\text{mJ}$$
+$$
+E_C = \frac{1}{2}CV^2 = \frac{1}{2} \times 100 \times 10^{-6} \times 400 = 0.020\,\text{J} = 20\,\text{mJ}
+$$
 
 Total energy supplied by battery:
 $E_B = Q_{\text{total}} \times \varepsilon = C\varepsilon^2 = 100 \times 10^{-6} \times 400 = 0.040\,\text{J} = 40\,\text{mJ}$
@@ -411,7 +467,9 @@ $E_B = Q_{\text{total}} \times \varepsilon = C\varepsilon^2 = 100 \times 10^{-6}
 
 This can be shown mathematically:
 
-$$E_R = \int_0^\infty I^2 R\,dt = \int_0^\infty \left(\frac{\varepsilon}{R}e^{-t/\tau}\right)^2 R\,dt = \frac{\varepsilon^2}{R}\int_0^\infty e^{-2t/\tau}\,dt = \frac{\varepsilon^2}{R} \times \frac{\tau}{2} = \frac{\varepsilon^2}{R} \times \frac{RC}{2} = \frac{1}{2}C\varepsilon^2$$
+$$
+E_R = \int_0^\infty I^2 R\,dt = \int_0^\infty \left(\frac{\varepsilon}{R}e^{-t/\tau}\right)^2 R\,dt = \frac{\varepsilon^2}{R}\int_0^\infty e^{-2t/\tau}\,dt = \frac{\varepsilon^2}{R} \times \frac{\tau}{2} = \frac{\varepsilon^2}{R} \times \frac{RC}{2} = \frac{1}{2}C\varepsilon^2
+$$
 
 So $E_R = \frac{1}{2}C\varepsilon^2 = 20\,\text{mJ}$Exactly half the total energy supplied.
 
@@ -449,7 +507,9 @@ $1.0\,\mu\text{A}$.
 
 (a) Balance condition: $R_1/R_2 = R_3/R_4$
 
-$$100/200 = 150/300 \Rightarrow 0.5 = 0.5$$
+$$
+100/200 = 150/300 \Rightarrow 0.5 = 0.5
+$$
 
 The bridge is balanced. The galvanometer current is **zero**.
 
@@ -459,25 +519,35 @@ Using Thevenin's theorem: remove the galvanometer and find the Thevenin voltage 
 
 Thevenin voltage (open-circuit voltage between the two junctions):
 
-$$V_{\text{th}} = V\left(\frac{R_2}{R_1 + R_2} - \frac{R_4}{R_3 + R_4}\right) = 10\left(\frac{200}{300} - \frac{305}{455}\right) = 10(0.6667 - 0.6703) = 10(-0.00364) = -0.0364\,\text{V}$$
+$$
+V_{\text{th}} = V\left(\frac{R_2}{R_1 + R_2} - \frac{R_4}{R_3 + R_4}\right) = 10\left(\frac{200}{300} - \frac{305}{455}\right) = 10(0.6667 - 0.6703) = 10(-0.00364) = -0.0364\,\text{V}
+$$
 
 Thevenin resistance (looking into the bridge with the supply shorted):
 
-$$R_{\text{th}} = \frac{R_1 R_2}{R_1 + R_2} + \frac{R_3 R_4}{R_3 + R_4} = \frac{100 \times 200}{300} + \frac{150 \times 305}{455} = 66.67 + 100.55 = 167.2\,\Omega$$
+$$
+R_{\text{th}} = \frac{R_1 R_2}{R_1 + R_2} + \frac{R_3 R_4}{R_3 + R_4} = \frac{100 \times 200}{300} + \frac{150 \times 305}{455} = 66.67 + 100.55 = 167.2\,\Omega
+$$
 
 Galvanometer current:
 
-$$I_g = \frac{|V_{\text{th}}|}{R_{\text{th}} + R_g} = \frac{0.0364}{167.2 + 50} = \frac{0.0364}{217.2} = 1.68 \times 10^{-4}\,\text{A} = 168\,\mu\text{A}$$
+$$
+I_g = \frac{|V_{\text{th}}|}{R_{\text{th}} + R_g} = \frac{0.0364}{167.2 + 50} = \frac{0.0364}{217.2} = 1.68 \times 10^{-4}\,\text{A} = 168\,\mu\text{A}
+$$
 
 (c) The galvanometer current is proportional to the deviation from balance for small changes:
 
-$$I_g \approx \frac{V \cdot \Delta R_4 \cdot R_3}{(R_3 + R_4)^2(R_{\text{th}} + R_g)}$$
+$$
+I_g \approx \frac{V \cdot \Delta R_4 \cdot R_3}{(R_3 + R_4)^2(R_{\text{th}} + R_g)}
+$$
 
 For $\Delta R_4 = 5\,\Omega$, $I_g = 168\,\mu\text{A}$.
 
 For $I_g = 1.0\,\mu\text{A}$:
 
-$$\Delta R_4 = \frac{1.0}{168} \times 5 = 0.030\,\Omega$$
+$$
+\Delta R_4 = \frac{1.0}{168} \times 5 = 0.030\,\Omega
+$$
 
 The minimum detectable change in $R_4$ is approximately $0.03\,\Omega$.
 

@@ -656,19 +656,31 @@ and wavelength of the emitted photon, and identify the spectral series.
 <details>
 <summary>Solution</summary>
 
-$$E_n = -\frac{2.18 \times 10^{-18}\mathrm{ J}}{n^2}$$
+$$
+E_n = -\frac{2.18 \times 10^{-18}\mathrm{ J}}{n^2}
+$$
 
-$$E_4 = -\frac{2.18 \times 10^{-18}}{16} = -1.3625 \times 10^{-19}\mathrm{ J}$$
+$$
+E_4 = -\frac{2.18 \times 10^{-18}}{16} = -1.3625 \times 10^{-19}\mathrm{ J}
+$$
 
-$$E_2 = -\frac{2.18 \times 10^{-18}}{4} = -5.45 \times 10^{-19}\mathrm{ J}$$
+$$
+E_2 = -\frac{2.18 \times 10^{-18}}{4} = -5.45 \times 10^{-19}\mathrm{ J}
+$$
 
-$$\Delta E = E_4 - E_2 = (-1.3625 \times 10^{-19}) - (-5.45 \times 10^{-19}) = 4.0875 \times 10^{-19}\mathrm{ J}$$
+$$
+\Delta E = E_4 - E_2 = (-1.3625 \times 10^{-19}) - (-5.45 \times 10^{-19}) = 4.0875 \times 10^{-19}\mathrm{ J}
+$$
 
 The negative sign of $\Delta E$ confirms energy is released (photon emitted).
 
-$$\nu = \frac{\Delta E}{h} = \frac{4.0875 \times 10^{-19}}{6.626 \times 10^{-34}} = 6.17 \times 10^{14}\mathrm{ Hz}$$
+$$
+\nu = \frac{\Delta E}{h} = \frac{4.0875 \times 10^{-19}}{6.626 \times 10^{-34}} = 6.17 \times 10^{14}\mathrm{ Hz}
+$$
 
-$$\lambda = \frac{c}{\nu} = \frac{3.00 \times 10^8}{6.17 \times 10^{14}} = 4.86 \times 10^{-7}\mathrm{ m} = 486\mathrm{ nm}$$
+$$
+\lambda = \frac{c}{\nu} = \frac{3.00 \times 10^8}{6.17 \times 10^{14}} = 4.86 \times 10^{-7}\mathrm{ m} = 486\mathrm{ nm}
+$$
 
 This wavelength (486 nm) is in the visible region (blue-green). The transition terminates at $n = 2$
 Placing it in the **Balmer series**.
@@ -688,7 +700,9 @@ Electrons and state whether the ion is paramagnetic or diamagnetic.
 **Forming $\mathrm{Co}^{2+}$:** Remove the $4s$ electrons first (they are at higher energy once the
 $3d$ subshell is occupied).
 
-$$\mathrm{Co}^{2+}: [\mathrm{Ar}]\, 3d^7$$
+$$
+\mathrm{Co}^{2+}: [\mathrm{Ar}]\, 3d^7
+$$
 
 **Orbital diagram for $3d^7$:**
 

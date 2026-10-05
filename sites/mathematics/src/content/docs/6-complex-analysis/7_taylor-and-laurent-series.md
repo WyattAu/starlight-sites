@@ -21,7 +21,9 @@ description: "Taylor and Laurent Series: comprehensive educational content notes
 
 **Theorem 7.1.** If $f$ is analytic on $|z - z_0| \lt R$ Then
 
-$$f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n$$
+$$
+f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n
+$$
 
 And the series converges uniformly on compact subsets of $|z - z_0| \lt R$.
 
@@ -41,15 +43,25 @@ $f$.
 
 ### 7.2 Common Taylor Series
 
-$$e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!} = 1 + z + \frac{z^2}{2!} + \cdots$$
+$$
+e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!} = 1 + z + \frac{z^2}{2!} + \cdots
+$$
 
-$$\sin z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n+1}}{(2n+1)!}$$
+$$
+\sin z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n+1}}{(2n+1)!}
+$$
 
-$$\cos z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n}}{(2n)!}$$
+$$
+\cos z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n}}{(2n)!}
+$$
 
-$$\frac{1}{1 - z} = \sum_{n=0}^{\infty} z^n, \quad |z| \lt 1$$
+$$
+\frac{1}{1 - z} = \sum_{n=0}^{\infty} z^n, \quad |z| \lt 1
+$$
 
-$$\ln(1 + z) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1} z^n}{n}, \quad |z| \lt 1$$
+$$
+\ln(1 + z) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1} z^n}{n}, \quad |z| \lt 1
+$$
 
 ### 7.3 Worked Examples: Taylor Series
 
@@ -82,11 +94,15 @@ $= z + z^2 + z^3/2 + z^4/6 + \cdots - z^3/6 - z^4/6 + \cdots$ $= z + z^2 + z^3/3
 
 **Theorem 7.2 (Laurent Series).** If $f$ is analytic on the annulus $r \lt |z - z_0| \lt R$ Then
 
-$$f(z) = \sum_{n=-\infty}^{\infty} a_n(z - z_0)^n = \cdots + \frac{a_{-2}}{(z - z_0)^2} + \frac{a_{-1}}{z - z_0} + a_0 + a_1(z - z_0) + \cdots$$
+$$
+f(z) = \sum_{n=-\infty}^{\infty} a_n(z - z_0)^n = \cdots + \frac{a_{-2}}{(z - z_0)^2} + \frac{a_{-1}}{z - z_0} + a_0 + a_1(z - z_0) + \cdots
+$$
 
 Where
 
-$$a_n = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz$$
+$$
+a_n = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz
+$$
 
 For any simple closed contour $\gamma$ in the annulus encircling $z_0$.
 
@@ -149,13 +165,17 @@ Residue at $z = 0$: $a_{-1} = -\frac{1}{9}$.
 
 **Definition.** The **residue at infinity** of $f$ is defined as
 
-$$\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f(z)\, dz$$
+$$
+\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f(z)\, dz
+$$
 
 For sufficiently large $R$ (enclosing all finite singularities).
 
 **Proposition 7.4.** For a function $f$ with finitely many singularities in $\mathbb{C}$:
 
-$$\sum_{\mathrm{all\ finite\ } z_k} \mathrm{Res}(f, z_k) + \mathrm{Res}(f, \infty) = 0$$
+$$
+\sum_{\mathrm{all\ finite\ } z_k} \mathrm{Res}(f, z_k) + \mathrm{Res}(f, \infty) = 0
+$$
 
 _Proof._ By the residue theorem applied to $|z| = R$ enclosing all finite singularities:
 

@@ -98,7 +98,9 @@ shows age groups.
 
 The dependency ratio quantifies the burden on the working-age population:
 
-$$\text{Dependency Ratio} = \frac{\text{Population aged 0-14} + \text{Population aged 65+}}{\text{Population aged 15-64}} \times 100$$
+$$
+\text{Dependency Ratio} = \frac{\text{Population aged 0-14} + \text{Population aged 65+}}{\text{Population aged 15-64}} \times 100
+$$
 
 A high dependency ratio indicates a large dependent population relative to working-age people,
 with implications for economic productivity, tax revenue, and social service provision. Hong Kong's

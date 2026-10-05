@@ -210,14 +210,18 @@ Shows continuous variation.
 The chi-squared test determines whether observed results differ significantly from expected
 Mendelian ratios.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 **Example:** A cross is expected to give a 3:1 ratio. Observed: 72 dominant, 28 recessive. Is this
 Consistent with a 3:1 ratio?
 
 Expected: 75 dominant, 25 recessive (total 100).
 
-$$\chi^2 = \frac{(72 - 75)^2}{75} + \frac{(28 - 25)^2}{25} = \frac{9}{75} + \frac{9}{25} = 0.12 + 0.36 = 0.48$$
+$$
+\chi^2 = \frac{(72 - 75)^2}{75} + \frac{(28 - 25)^2}{25} = \frac{9}{75} + \frac{9}{25} = 0.12 + 0.36 = 0.48
+$$
 
 Degrees of freedom: $2 - 1 = 1$.
 
@@ -232,11 +236,17 @@ A dihybrid cross is expected to give a 9:3:3:1 ratio. Observed: 520, 180, 170, 3
 
 Expected: 506.25, 168.75, 168.75, 56.25.
 
-$$\chi^2 = \frac{(520-506.25)^2}{506.25} + \frac{(180-168.75)^2}{168.75} + \frac{(170-168.75)^2}{168.75} + \frac{(30-56.25)^2}{56.25}$$
+$$
+\chi^2 = \frac{(520-506.25)^2}{506.25} + \frac{(180-168.75)^2}{168.75} + \frac{(170-168.75)^2}{168.75} + \frac{(30-56.25)^2}{56.25}
+$$
 
-$$= \frac{189.06}{506.25} + \frac{126.56}{168.75} + \frac{1.56}{168.75} + \frac{689.06}{56.25}$$
+$$
+= \frac{189.06}{506.25} + \frac{126.56}{168.75} + \frac{1.56}{168.75} + \frac{689.06}{56.25}
+$$
 
-$$= 0.37 + 0.75 + 0.009 + 12.25 = 13.38$$
+$$
+= 0.37 + 0.75 + 0.009 + 12.25 = 13.38
+$$
 
 Degrees of freedom: $4 - 1 = 3$. Critical value at 5% for 3 df: 7.815.
 
@@ -353,7 +363,9 @@ Protein structures).
 
 For a population in equilibrium (no evolution):
 
-$$p^2 + 2pq + q^2 = 1$$
+$$
+p^2 + 2pq + q^2 = 1
+$$
 
 Where $p$ = frequency of dominant allele, $q$ = frequency of recessive allele.
 
@@ -785,13 +797,17 @@ Have reduced fitness ($w = 0.5$ So $s = 0.5$).
 
 After one generation of selection:
 
-$$q' = \frac{q^2 w_{aa} + pq \cdot 1}{\bar{w}}$$
+$$
+q' = \frac{q^2 w_{aa} + pq \cdot 1}{\bar{w}}
+$$
 
 Where $\bar{w}$ is the mean fitness of the population.
 
 $\bar{w} = p^2(1) + 2pq(1) + q^2(0.5) = (0.6)^2 + 2(0.6)(0.4) + (0.4)^2(0.5) = 0.36 + 0.48 + 0.08 = 0.92$.
 
-$$q' = \frac{(0.4)^2(0.5) + (0.6)(0.4)}{0.92} = \frac{0.08 + 0.24}{0.92} = \frac{0.32}{0.92} = 0.348$$
+$$
+q' = \frac{(0.4)^2(0.5) + (0.6)(0.4)}{0.92} = \frac{0.08 + 0.24}{0.92} = \frac{0.32}{0.92} = 0.348
+$$
 
 The frequency of the recessive allele has decreased from 0.4 to 0.348 after one generation of
 Selection. The recessive allele decreases slowly because it is "hidden" in heterozygous individuals,

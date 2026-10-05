@@ -89,17 +89,23 @@ carefully.
 
 **Type I error:** Rejecting $H_0$ when it is true (false positive).
 
-$$P(\mathrm{Type\ I}) = \alpha$$
+$$
+P(\mathrm{Type\ I}) = \alpha
+$$
 
 **Type II error:** Failing to reject $H_0$ when it is false (false negative).
 
-$$P(\mathrm{Type\ II}) = \beta$$
+$$
+P(\mathrm{Type\ II}) = \beta
+$$
 
 ### 2.2 The power of a test
 
 The **power** of a test is the probability of correctly rejecting $H_0$ when it is false:
 
-$$\mathrm{Power} = 1 - \beta$$
+$$
+\mathrm{Power} = 1 - \beta
+$$
 
 The power depends on:
 
@@ -189,7 +195,9 @@ For a standard normal test at significance level $\alpha$:
 
 To test whether a population proportion $p$ equals a specified value $p_0$:
 
-$$H_0: p = p_0, \qquad H_1: p \neq p_0\ (\mathrm{or}\ p \gt p_0\ \mathrm{or}\ p \lt p_0)$$
+$$
+H_0: p = p_0, \qquad H_1: p \neq p_0\ (\mathrm{or}\ p \gt p_0\ \mathrm{or}\ p \lt p_0)
+$$
 
 Under $H_0$If $X$ is the number of successes in $n$ trials, then $X \sim B(n, p_0)$.
 
@@ -220,7 +228,9 @@ The 5% level to conclude the coin is biased.
 
 The actual significance level is the probability of being in the critical region under $H_0$:
 
-$$\alpha_{\mathrm{actual}} = P(X \leq 5) + P(X \geq 15) = 2(0.0207) = 0.0414$$
+$$
+\alpha_{\mathrm{actual}} = P(X \leq 5) + P(X \geq 15) = 2(0.0207) = 0.0414
+$$
 
 This is approximately 4.14%, which is the closest we can get to 5% with a discrete distribution.
 
@@ -409,7 +419,9 @@ $P(X \geq 15) = P(X = 15) + P(X = 16) + \ldots + P(X = 20)$.
 
 $P(X \geq 15) = \binom{20}{15}(0.5)^{20} + \binom{20}{16}(0.5)^{20} + \ldots + \binom{20}{20}(0.5)^{20}$.
 
-$$P(X \geq 15) = (15504 + 4845 + 1140 + 190 + 20 + 1) \times (0.5)^{20} = 21700 \times 9.537 \times 10^{-7} \approx 0.0207$$
+$$
+P(X \geq 15) = (15504 + 4845 + 1140 + 190 + 20 + 1) \times (0.5)^{20} = 21700 \times 9.537 \times 10^{-7} \approx 0.0207
+$$
 
 Since $0.0207 < 0.05$, we reject $H_0$. There is significant evidence that the coin is biased
 towards heads.

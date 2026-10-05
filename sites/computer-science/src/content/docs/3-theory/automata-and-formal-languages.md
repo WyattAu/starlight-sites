@@ -45,8 +45,12 @@ Start: q0, Accept: q2
 
 **Extended transition function:** $\delta^*: Q \times \Sigma^* \to Q$
 
-$$\delta^*(q, \epsilon) = q$$
-$$\delta^*(q, wa) = \delta(\delta^*(q, w), a)$$
+$$
+\delta^*(q, \epsilon) = q
+$$
+$$
+\delta^*(q, wa) = \delta(\delta^*(q, w), a)
+$$
 
 ### 1.2 Nondeterministic Finite Automaton (NFA)
 
@@ -116,7 +120,9 @@ MINIMIZE(DFA):
 
 **Theorem:** DFAs and NFAs recognize exactly the same class of languages: the **regular languages**.
 
-$$\text{DFA} \equiv \text{NFA} \equiv \text{Regular Expressions}$$
+$$
+\text{DFA} \equiv \text{NFA} \equiv \text{Regular Expressions}
+$$
 
 ## 2. Regular Expressions
 
@@ -327,11 +333,15 @@ Q = {q0, q1, q2}, F = {q2}, Σ = {a,b}, Γ = {S, $}
 
 **Theorem:** CFGs and PDAs recognize the same class of languages: the **context-free languages**.
 
-$$\text{CFG} \equiv \text{PDA} \equiv \text{CFL}$$
+$$
+\text{CFG} \equiv \text{PDA} \equiv \text{CFL}
+$$
 
 **Key difference from regular languages:** DPDAs are strictly weaker than nondeterministic PDAs.
 
-$$\text{Regular} = \text{DPDA} \subsetneq \text{NPDA} = \text{CFL}$$
+$$
+\text{Regular} = \text{DPDA} \subsetneq \text{NPDA} = \text{CFL}
+$$
 
 ### 5.4 Closure Properties of CFLs
 
@@ -411,7 +421,9 @@ A language is **Turing-recognizable** (RE) if some TM accepts it (may loop on no
 
 A language is **decidable** if some TM **halts on all inputs** (accepts members, rejects non-members).
 
-$$\text{Decidable} \subsetneq \text{RE} \subsetneq \text{All languages}$$
+$$
+\text{Decidable} \subsetneq \text{RE} \subsetneq \text{All languages}
+$$
 
 ## 8. Church-Turing Thesis
 

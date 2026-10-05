@@ -55,7 +55,9 @@ Use the following data:
 
 Born-Haber cycle (all values in $\text{kJ mol}^{-1}$):
 
-$$\text{Mg}(s) + \tfrac{1}{2}\text{O}_2(g) \xrightarrow{\Delta H_f = -602} \text{Mg}^{2+}\text{O}^{2-}(s)$$
+$$
+\text{Mg}(s) + \tfrac{1}{2}\text{O}_2(g) \xrightarrow{\Delta H_f = -602} \text{Mg}^{2+}\text{O}^{2-}(s)
+$$
 
 Two routes from elements to ionic solid:
 
@@ -73,11 +75,17 @@ Two routes from elements to ionic solid:
 
 By Hess"s law: Route 1 = Route 2
 
-$$-602 = 148 + 249 + 738 + 1451 - 141 + 798 + \Delta H_{\text{latt}}$$
+$$
+-602 = 148 + 249 + 738 + 1451 - 141 + 798 + \Delta H_{\text{latt}}
+$$
 
-$$-602 = 3243 + \Delta H_{\text{latt}}$$
+$$
+-602 = 3243 + \Delta H_{\text{latt}}
+$$
 
-$$\Delta H_{\text{latt}} = -602 - 3243 = -3845\,\text{kJ mol}^{-1}$$
+$$
+\Delta H_{\text{latt}} = -602 - 3243 = -3845\,\text{kJ mol}^{-1}
+$$
 
 The lattice energy of MgO is $-3845\,\text{kJ mol}^{-1}$.
 
@@ -120,13 +128,21 @@ Using the combustion data and Hess's law (elements to products via combustion pr
 
 Formation = Sum of combustion of elements - Combustion of compound
 
-$$\Delta H_f(\text{C}_2\text{H}_5\text{OH}) = 2 \times \Delta H_c(\text{C}) + 3 \times \Delta H_c(\text{H}_2) - \Delta H_c(\text{C}_2\text{H}_5\text{OH})$$
+$$
+\Delta H_f(\text{C}_2\text{H}_5\text{OH}) = 2 \times \Delta H_c(\text{C}) + 3 \times \Delta H_c(\text{H}_2) - \Delta H_c(\text{C}_2\text{H}_5\text{OH})
+$$
 
-$$= 2 \times (-394) + 3 \times (-286) - (-1367)$$
+$$
+= 2 \times (-394) + 3 \times (-286) - (-1367)
+$$
 
-$$= -788 - 858 + 1367$$
+$$
+= -788 - 858 + 1367
+$$
 
-$$= -1646 + 1367 = -279\,\text{kJ mol}^{-1}$$
+$$
+= -1646 + 1367 = -279\,\text{kJ mol}^{-1}
+$$
 
 (b) The calculated value ($-279\,\text{kJ mol}^{-1}$) is close to but not identical to the
 experimental value ($-277\,\text{kJ mol}^{-1}$). Small differences arise from:
@@ -155,7 +171,9 @@ experimental value ($-277\,\text{kJ mol}^{-1}$). Small differences arise from:
 
 For the decomposition of calcium carbonate:
 
-$$\text{CaCO}_3(s) \to \text{CaO}(s) + \text{CO}_2(g)$$
+$$
+\text{CaCO}_3(s) \to \text{CaO}(s) + \text{CO}_2(g)
+$$
 
 $\Delta H^\circ = +178\,\text{kJ mol}^{-1}$, $\Delta S^\circ = +161\,\text{J K}^{-1}\text{ mol}^{-1}$.
 
@@ -171,17 +189,25 @@ converted to another solid and a gas.
 
 (a)
 
-$$\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$$
+$$
+\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ
+$$
 
-$$\Delta G^\circ = 178000 - 298 \times 161 = 178000 - 47978 = +130022\,\text{J mol}^{-1} = +130\,\text{kJ mol}^{-1}$$
+$$
+\Delta G^\circ = 178000 - 298 \times 161 = 178000 - 47978 = +130022\,\text{J mol}^{-1} = +130\,\text{kJ mol}^{-1}
+$$
 
 $\Delta G^\circ \gt 0$ So the reaction is **not spontaneous** at $298\,\text{K}$.
 
 (b) The reaction becomes feasible when $\Delta G^\circ \leq 0$:
 
-$$\Delta H^\circ - T\Delta S^\circ \leq 0$$
+$$
+\Delta H^\circ - T\Delta S^\circ \leq 0
+$$
 
-$$T \geq \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{178000}{161} = 1106\,\text{K}$$
+$$
+T \geq \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{178000}{161} = 1106\,\text{K}
+$$
 
 The minimum temperature is approximately $1106\,\text{K}$ ($833\,^\circ\text{C}$).
 
@@ -191,7 +217,9 @@ of movement). The gain in entropy from creating 1 mol of $\text{CO}_2(g)$ more t
 the fact that one solid ($\text{CaCO}_3$) is replaced by another solid ($\text{CaO}$). The overall
 effect is an increase in disorder:
 
-$$\Delta S^\circ = S^\circ(\text{CaO}) + S^\circ(\text{CO}_2) - S^\circ(\text{CaCO}_3)$$
+$$
+\Delta S^\circ = S^\circ(\text{CaO}) + S^\circ(\text{CO}_2) - S^\circ(\text{CaCO}_3)
+$$
 
 The large positive entropy of $\text{CO}_2(g)$ (approximately
 $214\,\text{J K}^{-1}\text{ mol}^{-1}$) compared to the solids drives the overall entropy change
@@ -205,7 +233,9 @@ positive.
 
 The Contact process involves the oxidation of sulfur dioxide:
 
-$$2\text{SO}_2(g) + \text{O}_2(g) \rightleftharpoons 2\text{SO}_3(g)$$
+$$
+2\text{SO}_2(g) + \text{O}_2(g) \rightleftharpoons 2\text{SO}_3(g)
+$$
 
 $\Delta H^\circ = -198\,\text{kJ mol}^{-1}$, $\Delta S^\circ = -190\,\text{J K}^{-1}\text{ mol}^{-1}$.
 
@@ -220,7 +250,9 @@ range is chosen despite the thermodynamic considerations.
 
 (a) The reaction ceases to be feasible when $\Delta G^\circ \gt 0$:
 
-$$T \gt \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{-198000}{-190} = 1042\,\text{K}$$
+$$
+T \gt \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{-198000}{-190} = 1042\,\text{K}
+$$
 
 Above $1042\,\text{K}$ ($769\,^\circ\text{C}$), the reaction is no longer thermodynamically
 spontaneous. The negative $\Delta S^\circ$ (3 mol gas $\to$ 2 mol gas) means that at high
@@ -235,15 +267,23 @@ temperatures.
 
 (c) At $700\,\text{K}$:
 
-$$\Delta G^\circ = -198000 - 700 \times (-190) = -198000 + 133000 = -65000\,\text{J mol}^{-1}$$
+$$
+\Delta G^\circ = -198000 - 700 \times (-190) = -198000 + 133000 = -65000\,\text{J mol}^{-1}
+$$
 
 Using $\Delta G^\circ = -RT\ln K_p$:
 
-$$-65000 = -8.31 \times 700 \times \ln K_p$$
+$$
+-65000 = -8.31 \times 700 \times \ln K_p
+$$
 
-$$\ln K_p = \frac{65000}{5817} = 11.17$$
+$$
+\ln K_p = \frac{65000}{5817} = 11.17
+$$
 
-$$K_p = e^{11.17} = 7.08 \times 10^4\,\text{atm}^{-1}$$
+$$
+K_p = e^{11.17} = 7.08 \times 10^4\,\text{atm}^{-1}
+$$
 
 ---
 
@@ -304,11 +344,15 @@ spontaneity.
 
 (c) At the melting point, $\Delta G = 0$ So $\Delta S = \Delta H/T$:
 
-$$\Delta S = \frac{6010}{273} = 22.0\,\text{J K}^{-1}\text{ mol}^{-1}$$
+$$
+\Delta S = \frac{6010}{273} = 22.0\,\text{J K}^{-1}\text{ mol}^{-1}
+$$
 
 For $2.00\,\text{mol}$:
 
-$$\Delta S_{\text{total}} = 2.00 \times 22.0 = 44.0\,\text{J K}^{-1}$$
+$$
+\Delta S_{\text{total}} = 2.00 \times 22.0 = 44.0\,\text{J K}^{-1}
+$$
 
 The positive entropy change reflects the increased disorder as water molecules in the rigid ice
 lattice gain freedom of movement in liquid water.
@@ -330,7 +374,9 @@ lattice gain freedom of movement in liquid water.
 
 The hydrogenation of ethene is:
 
-$$\text{C}_2\text{H}_4(g) + \text{H}_2(g) \to \text{C}_2\text{H}_6(g) \quad \Delta H = -137\,\text{kJ mol}^{-1}$$
+$$
+\text{C}_2\text{H}_4(g) + \text{H}_2(g) \to \text{C}_2\text{H}_6(g) \quad \Delta H = -137\,\text{kJ mol}^{-1}
+$$
 
 Bond enthalpies: C$=$C $= 612$C--C $= 348$C--H $= 412$H--H $= 436$ (all in $\text{kJ mol}^{-1}$).
 
@@ -359,7 +405,9 @@ Total bonds broken: $612 + 1648 + 436 = 2696\,\text{kJ mol}^{-1}$
 
 Total bonds formed: $348 + 2472 = 2820\,\text{kJ mol}^{-1}$
 
-$$\Delta H = 2696 - 2820 = -124\,\text{kJ mol}^{-1}$$
+$$
+\Delta H = 2696 - 2820 = -124\,\text{kJ mol}^{-1}
+$$
 
 This differs from the experimental value of $-137\,\text{kJ mol}^{-1}$ because bond enthalpies are
 **average values** taken from many different molecules. The actual C$=$C bond in ethene and C--C
@@ -400,7 +448,9 @@ $\text{C}_2\text{H}_4$ onto its surface, weakening the H--H bond and lowering th
 **Question:** Use the following standard enthalpies of combustion to calculate the standard enthalpy
 change for the hydrogenation of propene to propane:
 
-$$\mathrm{C}_3\mathrm{H}_6(g) + \mathrm{H}_2(g) \to \mathrm{C}_3\mathrm{H}_8(g)$$
+$$
+\mathrm{C}_3\mathrm{H}_6(g) + \mathrm{H}_2(g) \to \mathrm{C}_3\mathrm{H}_8(g)
+$$
 
 $\Delta H_c^\circ(\mathrm{C}_3\mathrm{H}_6) = -2058\,\mathrm{kJ\,mol^{-1}}$
 
@@ -420,7 +470,9 @@ $\Delta H_c(\mathrm{C}_3\mathrm{H}_6) + \Delta H_c(\mathrm{H}_2) = -2058 + (-286
 Path 2 (via products): Products $\to$ combustion products:
 $\Delta H_c(\mathrm{C}_3\mathrm{H}_8) = -2220\,\mathrm{kJ\,mol^{-1}}$
 
-$$\Delta H^\circ = \text{Path 1} - \text{Path 2} = -2344 - (-2220) = -124\,\mathrm{kJ\,mol^{-1}}$$
+$$
+\Delta H^\circ = \text{Path 1} - \text{Path 2} = -2344 - (-2220) = -124\,\mathrm{kJ\,mol^{-1}}
+$$
 (2 marks).
 
 The hydrogenation is exothermic, as expected for converting a C=C double bond to two C--H single
@@ -444,13 +496,21 @@ following data:
 
 Born-Haber cycle for $\mathrm{CaF}_2$:
 
-$$\Delta H_f^\circ = \Delta H_{\text{atom}}(\mathrm{Ca}) + \Delta H_{\text{atom}}(\mathrm{F}_2) \times 2 + \text{IE}_1 + \text{IE}_2 + \text{EA} \times 2 + \text{Lattice Energy}$$
+$$
+\Delta H_f^\circ = \Delta H_{\text{atom}}(\mathrm{Ca}) + \Delta H_{\text{atom}}(\mathrm{F}_2) \times 2 + \text{IE}_1 + \text{IE}_2 + \text{EA} \times 2 + \text{Lattice Energy}
+$$
 
-$$-1220 = 178 + 79 \times 2 + 590 + 1145 + (-328) \times 2 + \text{LE}$$
+$$
+-1220 = 178 + 79 \times 2 + 590 + 1145 + (-328) \times 2 + \text{LE}
+$$
 
-$$-1220 = 178 + 158 + 590 + 1145 - 656 + \text{LE}$$
+$$
+-1220 = 178 + 158 + 590 + 1145 - 656 + \text{LE}
+$$
 
-$$-1220 = 1415 + \text{LE}$$
+$$
+-1220 = 1415 + \text{LE}
+$$
 
 $$\text{LE} = -1220 - 1415 = -2635\,\mathrm{kJ\,mol^{-1}}$$ (2 marks).
 

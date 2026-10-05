@@ -401,24 +401,34 @@ $R_1$.
 Parallel with a short circuit, so all current flows through the capacitor branch. The equivalent
 Resistance seen by the battery is just $R_1 = 10\,\text{k\Omega$.
 
-$$I_{\text{initial} = \frac{\mathcal{E}}{R_1} = \frac{30}{10000} = 3.0\,\text{mA$$
+$$
+I_{\text{initial} = \frac{\mathcal{E}}{R_1} = \frac{30}{10000} = 3.0\,\text{mA
+$$
 
 (b) At steady state, the capacitor is fully charged and acts as an open circuit. The current flows
 Through $R_1$ and $R_2$ in series.
 
-$$I_{\text{steady} = \frac{\mathcal{E}}{R_1 + R_2} = \frac{30}{10000 + 20000} = 1.0\,\text{mA$$
+$$
+I_{\text{steady} = \frac{\mathcal{E}}{R_1 + R_2} = \frac{30}{10000 + 20000} = 1.0\,\text{mA
+$$
 
 (c) At steady state, the voltage across the capacitor equals the voltage across $R_2$:
 
-$$V_C = I_{\text{steady} R_2 = (0.001)(20000) = 20\,\text{V$$
+$$
+V_C = I_{\text{steady} R_2 = (0.001)(20000) = 20\,\text{V
+$$
 
-$$Q = CV_C = (5 \times 10^{-6})(20) = 100\,\mu\text{C$$
+$$
+Q = CV_C = (5 \times 10^{-6})(20) = 100\,\mu\text{C
+$$
 
 (d) The time constant is found by Thevenin analysis. The Thevenin resistance seen by the capacitor
 is
 $R_{\text{Th} = R_1 \| R_2 = \frac{R_1 R_2}{R_1 + R_2} = \frac{10 \times 20}{30} = 6.67\,\text{k\Omega$.
 
-$$\tau = R_{\text{Th} C = (6670)(5 \times 10^{-6}) = 0.0333\,\text{s = 33.3\,\text{ms$$
+$$
+\tau = R_{\text{Th} C = (6670)(5 \times 10^{-6}) = 0.0333\,\text{s = 33.3\,\text{ms
+$$
 
 </details>
 
@@ -438,12 +448,16 @@ conserved.
 (a)
 $W_{\text{battery} = \int_0^\infty \mathcal{E}\, I\, dt = \frac{\mathcal{E}^2}{R}\int_0^\infty e^{-t/(RC)}\, dt = \frac{\mathcal{E}^2}{R} \cdot RC = C\mathcal{E}^2$
 
-$$W_{\text{battery} = (50 \times 10^{-6})(10)^2 = 5.0 \times 10^{-3}\,\text{J = 5.0\,\text{mJ$$
+$$
+W_{\text{battery} = (50 \times 10^{-6})(10)^2 = 5.0 \times 10^{-3}\,\text{J = 5.0\,\text{mJ
+$$
 
 (b)
 $W_R = W_{\text{battery} - U_{\text{cap} = C\mathcal{E}^2 - \frac{1}{2}C\mathcal{E}^2 = \frac{1}{2}C\mathcal{E}^2$
 
-$$W_R = \frac{1}{2}(50 \times 10^{-6})(100) = 2.5 \times 10^{-3}\,\text{J = 2.5\,\text{mJ$$
+$$
+W_R = \frac{1}{2}(50 \times 10^{-6})(100) = 2.5 \times 10^{-3}\,\text{J = 2.5\,\text{mJ
+$$
 
 (c) $U_{\text{cap} = \frac{1}{2}CV^2 = \frac{1}{2}(50 \times 10^{-6})(10)^2 = 2.5\,\text{mJ$
 

@@ -39,7 +39,9 @@ import DesmosGraph from "@components/DesmosGraph";
 
 **Definition.** A _quadratic function_ is a function of the form:
 
-$$f(x) = ax^2 + bx + c$$
+$$
+f(x) = ax^2 + bx + c
+$$
 
 Where $a, b, c \in \mathbb{R}$ and $a \neq 0$.
 
@@ -66,7 +68,9 @@ $$
 
 We seek to express $x^2 + \frac{b}{a}x$ as a perfect square plus a constant. Recall that:
 
-$$(x + d)^2 = x^2 + 2dx + d^2$$
+$$
+(x + d)^2 = x^2 + 2dx + d^2
+$$
 
 We need $2d = \frac{b}{a}$ So $d = \frac{b}{2a}$. Then:
 
@@ -95,7 +99,9 @@ $x \times \frac{b}{2}$ And rearrange to form an L-shape. The "missing corner" to
 square is a small square of side $\frac{b}{2}$With area
 $\left(\frac{b}{2}\right)^2 = \frac{b^2}{4}$. We add and subtract this to preserve equality:
 
-$$x^2 + bx = \left(x + \frac{b}{2}\right)^2 - \frac{b^2}{4}$$
+$$
+x^2 + bx = \left(x + \frac{b}{2}\right)^2 - \frac{b^2}{4}
+$$
 
 <details>
 <summary>Example</summary>
@@ -120,7 +126,9 @@ The vertex is $(3, 4)$ And since the coefficient of $(x-3)^2$ is positive, the m
 
 **Theorem (Quadratic Formula).** The solutions of $ax^2 + bx + c = 0$ (with $a \neq 0$) are:
 
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
 
 _Proof._ We derive this by completing the square on $ax^2 + bx + c = 0$.
 
@@ -158,7 +166,9 @@ Always check the discriminant first.
 
 **Definition.** The _discriminant_ of $ax^2 + bx + c = 0$ is:
 
-$$\Delta = b^2 - 4ac$$
+$$
+\Delta = b^2 - 4ac
+$$
 
 **Theorem.** The nature of the roots of $ax^2 + bx + c = 0$ is determined by the discriminant:
 
@@ -245,7 +255,9 @@ The tangent to $y = f(x)$ at $x = \alpha$ is the line $y = 0$ (the $x$-axis itse
 _Proof._ Since $\alpha$ is a repeated root, $f(\alpha) = 0$. The derivative is $f'(x) = 2ax + b$ And
 at the repeated root:
 
-$$f'(\alpha) = 2a\left(-\frac{b}{2a}\right) + b = -b + b = 0$$
+$$
+f'(\alpha) = 2a\left(-\frac{b}{2a}\right) + b = -b + b = 0
+$$
 
 The tangent at $x = \alpha$ is $y - f(\alpha) = f'(\alpha)(x - \alpha)$Which gives $y = 0$.
 $\blacksquare$
@@ -319,7 +331,9 @@ Factorise: $(x - 2)(x - 3) < 0$.
 
 The parabola opens upwards (coefficient of $x^2$ is positive). It is negative _between_ the roots:
 
-$$2 < x < 3$$
+$$
+2 < x < 3
+$$
 
 </details>
 
@@ -431,7 +445,9 @@ X^2 - x - 4 &= 0
 \end\{aligned\}
 $$
 
-$$x = \frac{1 \pm \sqrt{1 + 16}}{2} = \frac{1 \pm \sqrt{17}}{2}$$
+$$
+x = \frac{1 \pm \sqrt{1 + 16}}{2} = \frac{1 \pm \sqrt{17}}{2}
+$$
 
 The discriminant is positive, confirming two intersection points, which corresponds geometrically
 To the line cutting the parabola twice.
@@ -492,9 +508,13 @@ Solve $x + 2 - \frac{3}{x} = 0$.
 
 Multiply through by $x$ (noting $x \neq 0$):
 
-$$x^2 + 2x - 3 = 0$$
+$$
+x^2 + 2x - 3 = 0
+$$
 
-$$(x + 3)(x - 1) = 0 \implies x = -3 \mathrm{ or } x = 1$$
+$$
+(x + 3)(x - 1) = 0 \implies x = -3 \mathrm{ or } x = 1
+$$
 
 Now consider the related equation $x^2 + \frac{4}{x^2} + 2\left(x + \frac{1}{x}\right) = 0$.
 
@@ -502,7 +522,9 @@ Let $z = x + \frac{1}{x}$. Then $z^2 = x^2 + 2 + \frac{1}{x^2}$ So $x^2 + \frac{
 
 The equation becomes: $z^2 - 2 + 2z = 0$I.e., $z^2 + 2z - 2 = 0$.
 
-$$z = \frac{-2 \pm \sqrt{4 + 8}}{2} = \frac{-2 \pm 2\sqrt{3}}{2} = -1 \pm \sqrt{3}$$
+$$
+z = \frac{-2 \pm \sqrt{4 + 8}}{2} = \frac{-2 \pm 2\sqrt{3}}{2} = -1 \pm \sqrt{3}
+$$
 
 For each value of $z$Solve $x + \frac{1}{x} = z$I.e., $x^2 - zx + 1 = 0$ by the quadratic Formula.
 This yields four solutions in total (two for each value of $z$), provided each resulting
@@ -517,18 +539,26 @@ Discriminant is non-negative.
 **Theorem (Vieta's Formulas).** If $\alpha$ and $\beta$ are the roots of $ax^2 + bx + c = 0$ with
 $a \neq 0$ Then:
 
-$$\alpha + \beta = -\frac{b}{a} \quad \mathrm{(Sum of Roots)}$$
+$$
+\alpha + \beta = -\frac{b}{a} \quad \mathrm{(Sum of Roots)}
+$$
 
-$$\alpha\beta = \frac{c}{a} \quad \mathrm{(Product of Roots)}$$
+$$
+\alpha\beta = \frac{c}{a} \quad \mathrm{(Product of Roots)}
+$$
 
 _Proof._ By the factor theorem, since $\alpha$ and $\beta$ are roots of $ax^2 + bx + c = 0$We can
 Write:
 
-$$ax^2 + bx + c = a(x - \alpha)(x - \beta)$$
+$$
+ax^2 + bx + c = a(x - \alpha)(x - \beta)
+$$
 
 Expanding the right-hand side:
 
-$$a(x - \alpha)(x - \beta) = a\left[x^2 - (\alpha + \beta)x + \alpha\beta\right] = ax^2 - a(\alpha + \beta)x + a\alpha\beta$$
+$$
+a(x - \alpha)(x - \beta) = a\left[x^2 - (\alpha + \beta)x + \alpha\beta\right] = ax^2 - a(\alpha + \beta)x + a\alpha\beta
+$$
 
 Equating coefficients with $ax^2 + bx + c$:
 
@@ -539,7 +569,9 @@ $\blacksquare$
 
 **Corollary (Monic Case).** For a monic quadratic $x^2 + bx + c = 0$:
 
-$$\alpha + \beta = -b \quad \mathrm{and} \quad \alpha\beta = c$$
+$$
+\alpha + \beta = -b \quad \mathrm{and} \quad \alpha\beta = c
+$$
 
 ### 9.1 Relationship Between Roots and Coefficients
 
@@ -571,11 +603,15 @@ Negative, their sum would be negative). $\blacksquare$
 
 Given two numbers $\alpha$ and $\beta$The monic quadratic with those roots is:
 
-$$x^2 - (\alpha + \beta)x + \alpha\beta = 0$$
+$$
+x^2 - (\alpha + \beta)x + \alpha\beta = 0
+$$
 
 More generally, the quadratic with leading coefficient $a$ is:
 
-$$ax^2 - a(\alpha + \beta)x + a\alpha\beta = 0$$
+$$
+ax^2 - a(\alpha + \beta)x + a\alpha\beta = 0
+$$
 
 <details>
 <summary>Example</summary>
@@ -597,15 +633,25 @@ Roots individually.
 
 **Common Identities.**
 
-$$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta$$
+$$
+\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta
+$$
 
-$$\alpha^3 + \beta^3 = (\alpha + \beta)^3 - 3\alpha\beta(\alpha + \beta)$$
+$$
+\alpha^3 + \beta^3 = (\alpha + \beta)^3 - 3\alpha\beta(\alpha + \beta)
+$$
 
-$$\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta}$$
+$$
+\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta}
+$$
 
-$$\alpha^2\beta + \alpha\beta^2 = \alpha\beta(\alpha + \beta)$$
+$$
+\alpha^2\beta + \alpha\beta^2 = \alpha\beta(\alpha + \beta)
+$$
 
-$$(\alpha - \beta)^2 = (\alpha + \beta)^2 - 4\alpha\beta$$
+$$
+(\alpha - \beta)^2 = (\alpha + \beta)^2 - 4\alpha\beta
+$$
 
 <details>
 <summary>Example</summary>
@@ -652,9 +698,13 @@ Solve $3^{2x} - 4 \cdot 3^x - 5 = 0$.
 
 Let $u = 3^x$ ($u > 0$). The equation becomes:
 
-$$u^2 - 4u - 5 = 0$$
+$$
+u^2 - 4u - 5 = 0
+$$
 
-$$(u - 5)(u + 1) = 0$$
+$$
+(u - 5)(u + 1) = 0
+$$
 
 $u = 5$ or $u = -1$. Since $u > 0$Reject $u = -1$.
 
@@ -674,7 +724,9 @@ Solve $2\cos^2\theta - \cos\theta - 1 = 0$ for $0 \leq \theta \leq 2\pi$.
 
 Let $u = \cos\theta$ with $-1 \leq u \leq 1$:
 
-$$2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0$$
+$$
+2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0
+$$
 
 $u = -\frac{1}{2}$ or $u = 1$. Both lie in $[-1, 1]$.
 
@@ -708,7 +760,9 @@ $x \geq 1$) since a square root is non-negative.
 
 Squaring both sides: $2x + 1 = (x - 1)^2 = x^2 - 2x + 1$.
 
-$$x^2 - 4x = 0 \implies x(x - 4) = 0 \implies x = 0 \mathrm{ or } x = 4$$
+$$
+x^2 - 4x = 0 \implies x(x - 4) = 0 \implies x = 0 \mathrm{ or } x = 4
+$$
 
 Check $x = 0$: $\sqrt{1} = -1$? No, $1 \neq -1$. Reject (also fails $x \geq 1$).
 
@@ -787,7 +841,9 @@ Factorise: $(x - 5)(x + 2) > 0$.
 
 The parabola opens upwards. It is positive outside the roots:
 
-$$x < -2 \quad \mathrm{or} \quad x > 5$$
+$$
+x < -2 \quad \mathrm{or} \quad x > 5
+$$
 
 In set notation: $x \in (-\infty, -2) \cup (5, \infty)$.
 
@@ -852,7 +908,9 @@ Therefore $p = 3$$q = -12$$r = 7$.
 <summary>Solution</summary>
 Completing the square:
 
-$$x^2 + 4x + 9 = (x + 2)^2 + 5$$
+$$
+x^2 + 4x + 9 = (x + 2)^2 + 5
+$$
 
 Since $(x+2)^2 \geq 0$ for all $x$We have $(x+2)^2 + 5 \geq 5 > 0$ for all $x$. $\blacksquare$
 
@@ -894,7 +952,9 @@ The gradient is $\frac{dy}{dx} = 2x - 4$. At $x = 1$: $\frac{dy}{dx} = -2$.
 
 Using $y - y_1 = m(x - x_1)$:
 
-$$y - 0 = -2(x - 1) \implies y = -2x + 2$$
+$$
+y - 0 = -2(x - 1) \implies y = -2x + 2
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Differentiation](/maths/pure-mathematics/10-differentiation/)
@@ -926,15 +986,25 @@ $30\mathrm{ cm}^2$. Find $x$.
 
 <details>
 <summary>Solution</summary>
-$$(x + 5)(x + 2) = 30$$
-$$x^2 + 7x + 10 = 30$$
-$$x^2 + 7x - 20 = 0$$
+$$
+(x + 5)(x + 2) = 30
+$$
+$$
+x^2 + 7x + 10 = 30
+$$
+$$
+x^2 + 7x - 20 = 0
+$$
 
-$$x = \frac{-7 \pm \sqrt{49 + 80}}{2} = \frac{-7 \pm \sqrt{129}}{2}$$
+$$
+x = \frac{-7 \pm \sqrt{49 + 80}}{2} = \frac{-7 \pm \sqrt{129}}{2}
+$$
 
 Since length and width must be positive, $x > -2$ So:
 
-$$x = \frac{-7 + \sqrt{129}}{2} \approx 2.18$$
+$$
+x = \frac{-7 + \sqrt{129}}{2} \approx 2.18
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Quadratic formula](#3-the-quadratic-formula)
@@ -945,15 +1015,21 @@ $$x = \frac{-7 + \sqrt{129}}{2} \approx 2.18$$
 
 <details>
 <summary>Solution</summary>
-$$f(x) = (x - 3)^2 + 5$$
+$$
+f(x) = (x - 3)^2 + 5
+$$
 
 Since $(x - 3)^2 \geq 0$We have $f(x) \geq 5$. Range: $f(x) \in [5, \infty)$.
 
 For $f(x) \leq 10$:
 
-$$(x - 3)^2 + 5 \leq 10 \implies (x - 3)^2 \leq 5 \implies -\sqrt{5} \leq x - 3 \leq \sqrt{5}$$
+$$
+(x - 3)^2 + 5 \leq 10 \implies (x - 3)^2 \leq 5 \implies -\sqrt{5} \leq x - 3 \leq \sqrt{5}
+$$
 
-$$3 - \sqrt{5} \leq x \leq 3 + \sqrt{5}$$
+$$
+3 - \sqrt{5} \leq x \leq 3 + \sqrt{5}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Completing the square](#2-completing-the-square) and [Quadratic inequalities](#6-quadratic-inequalities)
@@ -966,7 +1042,9 @@ $$3 - \sqrt{5} \leq x \leq 3 + \sqrt{5}$$
 <summary>Solution</summary>
 Let $z = x^2$ (so $z \geq 0$). Then $z^2 - 13z + 36 = 0$.
 
-$$(z - 4)(z - 9) = 0$$
+$$
+(z - 4)(z - 9) = 0
+$$
 
 $z = 4$ or $z = 9$.
 
@@ -1001,7 +1079,9 @@ $\alpha^3 + \beta^3 = (\alpha + \beta)^3 - 3\alpha\beta(\alpha + \beta) = \frac{
 <summary>Solution</summary>
 Let $u = 4^x$ ($u > 0$). Then $u^2 - 5u + 4 = 0$.
 
-$$(u - 1)(u - 4) = 0$$
+$$
+(u - 1)(u - 4) = 0
+$$
 
 $u = 1$ or $u = 4$.
 
@@ -1021,15 +1101,25 @@ Possible values of $k$.
 <summary>Solution</summary>
 For the curve to be tangent to the $x$-axis, we need $\Delta = 0$:
 
-$$\Delta = 9 - 4(k - 2)(k - 4) = 0$$
+$$
+\Delta = 9 - 4(k - 2)(k - 4) = 0
+$$
 
-$$9 - 4(k^2 - 6k + 8) = 0$$
+$$
+9 - 4(k^2 - 6k + 8) = 0
+$$
 
-$$9 - 4k^2 + 24k - 32 = 0$$
+$$
+9 - 4k^2 + 24k - 32 = 0
+$$
 
-$$4k^2 - 24k + 23 = 0$$
+$$
+4k^2 - 24k + 23 = 0
+$$
 
-$$k = \frac{24 \pm \sqrt{576 - 368}}{8} = \frac{24 \pm \sqrt{208}}{8} = \frac{24 \pm 4\sqrt{13}}{8} = \frac{6 \pm \sqrt{13}}{2}$$
+$$
+k = \frac{24 \pm \sqrt{576 - 368}}{8} = \frac{24 \pm \sqrt{208}}{8} = \frac{24 \pm 4\sqrt{13}}{8} = \frac{6 \pm \sqrt{13}}{2}
+$$
 
 We also require $k \neq 2$ (otherwise the equation is linear, not quadratic). Since
 $\frac{6 \pm \sqrt{13}}{2} \neq 2$ (because $6 \pm \sqrt{13} \neq 4$), both values are
@@ -1072,7 +1162,9 @@ Solution: $x \in [-4, 2]$.
 <summary>Solution</summary>
 Let $u = \sin\theta$ with $-1 \leq u \leq 1$:
 
-$$2u^2 + 3u - 2 = 0 \implies (2u - 1)(u + 2) = 0$$
+$$
+2u^2 + 3u - 2 = 0 \implies (2u - 1)(u + 2) = 0
+$$
 
 $u = \frac{1}{2}$ or $u = -2$.
 

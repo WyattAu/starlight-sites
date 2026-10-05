@@ -755,13 +755,19 @@ $500\;\mathrm{K}$. By what factor does the rms speed increase?
 <details>
 <summary>Solution</summary>
 
-$$v_{\mathrm{rms}} = \sqrt{\frac{3RT}{M}}$$
+$$
+v_{\mathrm{rms}} = \sqrt{\frac{3RT}{M}}
+$$
 
 At $298\;\mathrm{K}$:
-$$v_{\mathrm{rms}} = \sqrt{\frac{3 \times 8.314 \times 298}{0.0320}} = \sqrt{\frac{7429}{0.0320}} = \sqrt{232\,154} = 482\;\mathrm{m/s}$$
+$$
+v_{\mathrm{rms}} = \sqrt{\frac{3 \times 8.314 \times 298}{0.0320}} = \sqrt{\frac{7429}{0.0320}} = \sqrt{232\,154} = 482\;\mathrm{m/s}
+$$
 
 At $500\;\mathrm{K}$:
-$$v_{\mathrm{rms}} = \sqrt{\frac{3 \times 8.314 \times 500}{0.0320}} = \sqrt{\frac{12471}{0.0320}} = \sqrt{389\,719} = 624\;\mathrm{m/s}$$
+$$
+v_{\mathrm{rms}} = \sqrt{\frac{3 \times 8.314 \times 500}{0.0320}} = \sqrt{\frac{12471}{0.0320}} = \sqrt{389\,719} = 624\;\mathrm{m/s}
+$$
 
 Factor of increase: $\frac{624}{482} = 1.29$
 
@@ -807,20 +813,32 @@ enthalpy of vaporisation of water.
 
 The integrated Clausius-Clapeyron equation:
 
-$$\ln\!\left(\frac{P_2}{P_1}\right) = -\frac{\Delta H_{\mathrm{vap}}}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\!\left(\frac{P_2}{P_1}\right) = -\frac{\Delta H_{\mathrm{vap}}}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 Substituting: $P_1 = 2.34\;\mathrm{kPa}$, $T_1 = 293\;\mathrm{K}$ $P_2 = 7.38\;\mathrm{kPa}$,
 $T_2 = 313\;\mathrm{K}$
 
-$$\ln\!\left(\frac{7.38}{2.34}\right) = -\frac{\Delta H_{\mathrm{vap}}}{8.314}\left(\frac{1}{313} - \frac{1}{293}\right)$$
+$$
+\ln\!\left(\frac{7.38}{2.34}\right) = -\frac{\Delta H_{\mathrm{vap}}}{8.314}\left(\frac{1}{313} - \frac{1}{293}\right)
+$$
 
-$$\ln(3.154) = -\frac{\Delta H_{\mathrm{vap}}}{8.314}\left(0.003195 - 0.003413\right)$$
+$$
+\ln(3.154) = -\frac{\Delta H_{\mathrm{vap}}}{8.314}\left(0.003195 - 0.003413\right)
+$$
 
-$$1.148 = -\frac{\Delta H_{\mathrm{vap}}}{8.314}(-0.000218)$$
+$$
+1.148 = -\frac{\Delta H_{\mathrm{vap}}}{8.314}(-0.000218)
+$$
 
-$$1.148 = \frac{\Delta H_{\mathrm{vap}} \times 0.000218}{8.314}$$
+$$
+1.148 = \frac{\Delta H_{\mathrm{vap}} \times 0.000218}{8.314}
+$$
 
-$$\Delta H_{\mathrm{vap}} = \frac{1.148 \times 8.314}{0.000218} = 43800\;\mathrm{J/mol} = 43.8\;\mathrm{kJ/mol}$$
+$$
+\Delta H_{\mathrm{vap}} = \frac{1.148 \times 8.314}{0.000218} = 43800\;\mathrm{J/mol} = 43.8\;\mathrm{kJ/mol}
+$$
 
 The accepted literature value is $44.0\;\mathrm{kJ/mol}$. The close agreement validates the use of
 the Clausius-Clapeyron equation over this temperature range.
@@ -839,22 +857,34 @@ $= 2.01\;\mathrm{J/(g \cdot \degree C)}$$\Delta H_{\mathrm{fusion}} = 334\;\math
 <summary>Solution</summary>
 
 **Step 1: Heating ice from $-20\degree\mathrm{C}$ to $0\degree\mathrm{C}$**
-$$q_1 = m \cdot c_{\mathrm{ice}} \cdot \Delta T = 50.0 \times 2.09 \times 20 = 2090\;\mathrm{J}$$
+$$
+q_1 = m \cdot c_{\mathrm{ice}} \cdot \Delta T = 50.0 \times 2.09 \times 20 = 2090\;\mathrm{J}
+$$
 
 **Step 2: Melting ice at $0\degree\mathrm{C}$**
-$$q_2 = m \cdot \Delta H_{\mathrm{fusion}} = 50.0 \times 334 = 16700\;\mathrm{J}$$
+$$
+q_2 = m \cdot \Delta H_{\mathrm{fusion}} = 50.0 \times 334 = 16700\;\mathrm{J}
+$$
 
 **Step 3: Heating water from $0\degree\mathrm{C}$ to $100\degree\mathrm{C}$**
-$$q_3 = m \cdot c_{\mathrm{water}} \cdot \Delta T = 50.0 \times 4.18 \times 100 = 20900\;\mathrm{J}$$
+$$
+q_3 = m \cdot c_{\mathrm{water}} \cdot \Delta T = 50.0 \times 4.18 \times 100 = 20900\;\mathrm{J}
+$$
 
 **Step 4: Vaporising water at $100\degree\mathrm{C}$**
-$$q_4 = m \cdot \Delta H_{\mathrm{vap}} = 50.0 \times 2260 = 113000\;\mathrm{J}$$
+$$
+q_4 = m \cdot \Delta H_{\mathrm{vap}} = 50.0 \times 2260 = 113000\;\mathrm{J}
+$$
 
 **Step 5: Heating steam from $100\degree\mathrm{C}$ to $120\degree\mathrm{C}$**
-$$q_5 = m \cdot c_{\mathrm{steam}} \cdot \Delta T = 50.0 \times 2.01 \times 20 = 2010\;\mathrm{J}$$
+$$
+q_5 = m \cdot c_{\mathrm{steam}} \cdot \Delta T = 50.0 \times 2.01 \times 20 = 2010\;\mathrm{J}
+$$
 
 **Total:**
-$$q_{\mathrm{total}} = 2090 + 16700 + 20900 + 113000 + 2010 = 154\,700\;\mathrm{J} = 155\;\mathrm{kJ}$$
+$$
+q_{\mathrm{total}} = 2090 + 16700 + 20900 + 113000 + 2010 = 154\,700\;\mathrm{J} = 155\;\mathrm{kJ}
+$$
 
 Note that vaporisation alone accounts for $\frac{113000}{154700} = 73\%$ of the total energy,
 demonstrating the dominance of the enthalpy of vaporisation.

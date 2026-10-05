@@ -63,7 +63,9 @@ $\overrightarrow{OP}$Written as $\mathbf{r}_P$ or $\mathbf{p}$.
 
 The **magnitude** (length) of $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ is
 
-$$|\mathbf{a}| = \sqrt{a_1^2 + a_2^2 + a_3^2}$$
+$$
+|\mathbf{a}| = \sqrt{a_1^2 + a_2^2 + a_3^2}
+$$
 
 This follows directly from Pythagoras" theorem applied in 3D.
 
@@ -71,13 +73,17 @@ This follows directly from Pythagoras" theorem applied in 3D.
 
 A **unit vector** has magnitude 1. The unit vector in the direction of $\mathbf{a}$ is
 
-$$\hat{\mathbf{a}} = \frac{\mathbf{a}}{|\mathbf{a}|}$$
+$$
+\hat{\mathbf{a}} = \frac{\mathbf{a}}{|\mathbf{a}|}
+$$
 
 ### 2.3 Direction cosines
 
 The **direction cosines** of $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ are
 
-$$\cos\alpha = \frac{a_1}{|\mathbf{a}|}, \quad \cos\beta = \frac{a_2}{|\mathbf{a}|}, \quad \cos\gamma = \frac{a_3}{|\mathbf{a}|}$$
+$$
+\cos\alpha = \frac{a_1}{|\mathbf{a}|}, \quad \cos\beta = \frac{a_2}{|\mathbf{a}|}, \quad \cos\gamma = \frac{a_3}{|\mathbf{a}|}
+$$
 
 Where $\alpha$, $\beta$, $\gamma$ are the angles between $\mathbf{a}$ and the $x$-, $y$-, $z$-axes
 Respectively.
@@ -117,7 +123,9 @@ Vector addition extends to three dimensions. Given
 $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and
 $\mathbf{b} = \begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$:
 
-$$\mathbf{a} + \mathbf{b} = \begin{pmatrix}a_1+b_1\\a_2+b_2\\a_3+b_3\end{pmatrix}$$
+$$
+\mathbf{a} + \mathbf{b} = \begin{pmatrix}a_1+b_1\\a_2+b_2\\a_3+b_3\end{pmatrix}
+$$
 
 The same triangle and parallelogram laws apply. The key properties are:
 
@@ -150,7 +158,9 @@ Confirming the triangle law in 3D.
 **Definition.** The scalar (dot) product of $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$
 And $\mathbf{b} = \begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$ is
 
-$$\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3$$
+$$
+\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3
+$$
 
 ### 4.2 Geometric interpretation
 
@@ -175,9 +185,13 @@ $$
 
 Comparing with the cosine rule:
 
-$$|\mathbf{a}|^2 + |\mathbf{b}|^2 - 2\,\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|^2 + |\mathbf{b}|^2 - 2|\mathbf{a}||\mathbf{b}|\cos\theta$$
+$$
+|\mathbf{a}|^2 + |\mathbf{b}|^2 - 2\,\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|^2 + |\mathbf{b}|^2 - 2|\mathbf{a}||\mathbf{b}|\cos\theta
+$$
 
-$$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta \quad \blacksquare$$
+$$
+\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta \quad \blacksquare
+$$
 
 ### 4.3 Perpendicularity test
 
@@ -201,7 +215,9 @@ Positive; if opposite, negative.
 **Definition.** The vector equation of a line passing through point $A$ with position vector
 $\mathbf{a}$In the direction of vector $\mathbf{b}$Is
 
-$$\mathbf{r} = \mathbf{a} + t\mathbf{b}, \quad t \in \mathbb{R}$$
+$$
+\mathbf{r} = \mathbf{a} + t\mathbf{b}, \quad t \in \mathbb{R}
+$$
 
 Where $\mathbf{r}$ is the position vector of a general point on the line, and $t$ is a parameter.
 
@@ -210,7 +226,9 @@ Where $\mathbf{r}$ is the position vector of a general point on the line, and $t
 If $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and
 $\mathbf{b} = \begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$The parametric equations are
 
-$$x = a_1 + tb_1, \quad y = a_2 + tb_2, \quad z = a_3 + tb_3$$
+$$
+x = a_1 + tb_1, \quad y = a_2 + tb_2, \quad z = a_3 + tb_3
+$$
 
 ### 5.3 Cartesian form (2D)
 
@@ -227,11 +245,15 @@ The vector equation of a line in 3D has the same form as in 2D, but now operates
 Dimensions. Given a point $A(x_0, y_0, z_0)$ on the line and a direction vector
 $\mathbf{d} = \begin{pmatrix}d_1\\d_2\\d_3\end{pmatrix}$:
 
-$$\mathbf{r} = \begin{pmatrix}x_0\\y_0\\z_0\end{pmatrix} + t\begin{pmatrix}d_1\\d_2\\d_3\end{pmatrix}, \quad t \in \mathbb{R}$$
+$$
+\mathbf{r} = \begin{pmatrix}x_0\\y_0\\z_0\end{pmatrix} + t\begin{pmatrix}d_1\\d_2\\d_3\end{pmatrix}, \quad t \in \mathbb{R}
+$$
 
 The parametric form is:
 
-$$x = x_0 + td_1, \quad y = y_0 + td_2, \quad z = z_0 + td_3$$
+$$
+x = x_0 + td_1, \quad y = y_0 + td_2, \quad z = z_0 + td_3
+$$
 
 :::tip
 $\overrightarrow{BA}$ --- both give the same line.
@@ -241,7 +263,9 @@ $\overrightarrow{BA}$ --- both give the same line.
 
 Direction: $\overrightarrow{PQ} = \begin{pmatrix}3\\2\\-5\end{pmatrix}$.
 
-$$\mathbf{r} = \begin{pmatrix}2\\-1\\3\end{pmatrix} + t\begin{pmatrix}3\\2\\-5\end{pmatrix}$$
+$$
+\mathbf{r} = \begin{pmatrix}2\\-1\\3\end{pmatrix} + t\begin{pmatrix}3\\2\\-5\end{pmatrix}
+$$
 
 To check: at $t = 0$ we get $P$; at $t = 1$ we get $\begin{pmatrix}5\\1\\-2\end{pmatrix} = Q$. ✓
 
@@ -277,7 +301,9 @@ To verify skewness, show that the system of equations for $t$ and $s$ is inconsi
 
 From the dot product formula:
 
-$$\cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}||\mathbf{b}|}$$
+$$
+\cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}||\mathbf{b}|}
+$$
 
 The angle between two **lines** is found using the direction vectors.
 
@@ -300,7 +326,9 @@ To find the shortest distance from point $P$ to line $\mathbf{r} = \mathbf{a} + 
 The above procedure yields the general formula. For a line through $A$ with direction $\mathbf{d}$
 And a point $P$ with position vector $\mathbf{p}$:
 
-$$d = \frac{|(\mathbf{p} - \mathbf{a}) \times \mathbf{d}|}{|\mathbf{d}|}$$
+$$
+d = \frac{|(\mathbf{p} - \mathbf{a}) \times \mathbf{d}|}{|\mathbf{d}|}
+$$
 
 This uses the cross product (vector product), which gives a vector perpendicular to both
 $\overrightarrow{AP}$ and $\mathbf{d}$ whose magnitude equals the area of the parallelogram they
@@ -335,18 +363,24 @@ $d = \left|\begin{pmatrix}1/3\\2/3\\-2/3\end{pmatrix}\right| = \sqrt{\dfrac{1}{9
 **Definition.** The **scalar triple product** of three vectors $\mathbf{a}$, $\mathbf{b}$
 $\mathbf{c}$ is
 
-$$[\mathbf{a},\, \mathbf{b},\, \mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})$$
+$$
+[\mathbf{a},\, \mathbf{b},\, \mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})
+$$
 
 In component form, this equals the determinant:
 
-$$[\mathbf{a},\, \mathbf{b},\, \mathbf{c}] = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}$$
+$$
+[\mathbf{a},\, \mathbf{b},\, \mathbf{c}] = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}
+$$
 
 ### 9.2 Geometric interpretation: volume of a parallelepiped
 
 **Theorem.** The absolute value of the scalar triple product equals the volume of the parallelepiped
 With edges defined by $\mathbf{a}$, $\mathbf{b}$ And $\mathbf{c}$.
 
-$$V = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})|$$
+$$
+V = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})|
+$$
 
 **Proof.** The vector $\mathbf{b}\times\mathbf{c}$ has magnitude
 $|\mathbf{b}||\mathbf{c}|\sin\theta$ equal to the area of the parallelogram with sides $\mathbf{b}$
@@ -354,7 +388,9 @@ And $\mathbf{c}$ And direction perpendicular to both. The height of the parallel
 Projection of $\mathbf{a}$ onto $\mathbf{b}\times\mathbf{c}$Which is $|\mathbf{a}|\cos\phi$ where
 $\phi$ is the angle between $\mathbf{a}$ and $\mathbf{b}\times\mathbf{c}$.
 
-$$V = \mathrm{base area} \times \mathrm{height} = |\mathbf{b}\times\mathbf{c}| \cdot |\mathbf{a}|\cos\phi = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})| \quad \blacksquare$$
+$$
+V = \mathrm{base area} \times \mathrm{height} = |\mathbf{b}\times\mathbf{c}| \cdot |\mathbf{a}|\cos\phi = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})| \quad \blacksquare
+$$
 
 ### 9.3 Properties of the scalar triple product
 
@@ -513,7 +549,9 @@ Find the vector equation of the line through $A(1, 2, -1)$ and $B(3, 0, 4)$.
 <summary>Solution 3</summary>
 Direction: $\overrightarrow{AB} = \begin{pmatrix}3-1\\0-2\\4-(-1)\end{pmatrix} = \begin{pmatrix}2\\-2\\5\end{pmatrix}$.
 
-$$\mathbf{r} = \begin{pmatrix}1\\2\\-1\end{pmatrix} + t\begin{pmatrix}2\\-2\\5\end{pmatrix}$$
+$$
+\mathbf{r} = \begin{pmatrix}1\\2\\-1\end{pmatrix} + t\begin{pmatrix}2\\-2\\5\end{pmatrix}
+$$
 
 **If you get this wrong, revise:** [Vector Equation of a Line](#5-vector-equation-of-a-line),
 Section 5.
@@ -548,7 +586,9 @@ Find $\lambda$ such that $\begin{pmatrix}\lambda\\3\\-1\end{pmatrix}$ is perpend
 <summary>Solution 5</summary>
 Perpendicular $\iff$ dot product $= 0$:
 
-$$2\lambda + 3\lambda - 4 = 0 \implies 5\lambda = 4 \implies \lambda = \frac{4}{5}$$
+$$
+2\lambda + 3\lambda - 4 = 0 \implies 5\lambda = 4 \implies \lambda = \frac{4}{5}
+$$
 
 **If you get this wrong, revise:** [Perpendicularity test](#43-perpendicularity-test), Section 4.3.
 
@@ -586,7 +626,9 @@ For $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ with $|\mathbf{a}| 
 
 $\cos\alpha = a_1/m$$\cos\beta = a_2/m$$\cos\gamma = a_3/m$.
 
-$$\cos^2\alpha + \cos^2\beta + \cos^2\gamma = \frac{a_1^2+a_2^2+a_3^2}{m^2} = \frac{m^2}{m^2} = 1 \quad \blacksquare$$
+$$
+\cos^2\alpha + \cos^2\beta + \cos^2\gamma = \frac{a_1^2+a_2^2+a_3^2}{m^2} = \frac{m^2}{m^2} = 1 \quad \blacksquare
+$$
 
 **If you get this wrong, revise:** [Direction Cosines](#23-direction-cosines), Section 2.3.
 
@@ -643,7 +685,9 @@ The projection of $\mathbf{b}$ onto $\mathbf{a}$ is $\mathrm{proj}_{\mathbf{a}}\
 
 $\mathbf{a}\cdot\mathbf{b} = 2-3 = -1$. $|\mathbf{a}|^2 = 4+1 = 5$.
 
-$$\mathrm{proj}_{\mathbf{a}}\mathbf{b} = \frac{-1}{5}(2\mathbf{i}+\mathbf{j}) = -\frac{2}{5}\mathbf{i} - \frac{1}{5}\mathbf{j}$$
+$$
+\mathrm{proj}_{\mathbf{a}}\mathbf{b} = \frac{-1}{5}(2\mathbf{i}+\mathbf{j}) = -\frac{2}{5}\mathbf{i} - \frac{1}{5}\mathbf{j}
+$$
 
 **If you get this wrong, revise:** [Geometric Interpretation](#42-geometric-interpretation),
 Section 4.2.
@@ -706,7 +750,9 @@ Since the line is parallel, it has the same direction vector $\begin{pmatrix}4\\
 
 Using point $A(2, -3, 1)$:
 
-$$\mathbf{r} = \begin{pmatrix}2\\-3\\1\end{pmatrix} + t\begin{pmatrix}4\\-1\\3\end{pmatrix}$$
+$$
+\mathbf{r} = \begin{pmatrix}2\\-3\\1\end{pmatrix} + t\begin{pmatrix}4\\-1\\3\end{pmatrix}
+$$
 
 **If you get this wrong, revise:**
 [Vector Equation of a Line in 3D](#54-vector-equation-of-a-line-in-3d), Section 5.4.

@@ -117,7 +117,9 @@ Plant biology focuses on how plants obtain resources and respond to their enviro
 
 The photosynthesis equation is central to this topic:
 
-$$6CO_2 + 6H_2O \xrightarrow{\text{light}} C_6H_{12}O_6 + 6O_2$$
+$$
+6CO_2 + 6H_2O \xrightarrow{\text{light}} C_6H_{12}O_6 + 6O_2
+$$
 
 You should understand how environmental factors (light intensity, CO₂ concentration, temperature) affect the rate of photosynthesis and be able to interpret graphs showing limiting factors.
 

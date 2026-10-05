@@ -121,9 +121,13 @@ Let $f(x) = \dfrac{2x + 3}{x - 1}$ for $x \neq 1$.
 
 **(a)** Let $y = \dfrac{2x + 3}{x - 1}$.
 
-$$y(x - 1) = 2x + 3 \implies xy - y = 2x + 3 \implies xy - 2x = y + 3 \implies x(y - 2) = y + 3$$
+$$
+y(x - 1) = 2x + 3 \implies xy - y = 2x + 3 \implies xy - 2x = y + 3 \implies x(y - 2) = y + 3
+$$
 
-$$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
+$$
+f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2
+$$
 
 The domain of $f^{-1}$ equals the range of $f$. Since
 $f(x) = \dfrac{2x + 3}{x - 1} = 2 + \dfrac{5}{x - 1}$As $x \to \pm\infty$, $f(x) \to 2$ But
@@ -136,7 +140,9 @@ $f$Not $1/f$.
 
 **(c)** For $x \neq 2$:
 
-$$f(f^{-1}(x)) = f\!\left(\frac{x + 3}{x - 2}\right) = \frac{2 \cdot \frac{x+3}{x-2} + 3}{\frac{x+3}{x-2} - 1} = \frac{\frac{2x + 6 + 3x - 6}{x - 2}}{\frac{x + 3 - (x - 2)}{x - 2}} = \frac{5x}{5} = x$$
+$$
+f(f^{-1}(x)) = f\!\left(\frac{x + 3}{x - 2}\right) = \frac{2 \cdot \frac{x+3}{x-2} + 3}{\frac{x+3}{x-2} - 1} = \frac{\frac{2x + 6 + 3x - 6}{x - 2}}{\frac{x + 3 - (x - 2)}{x - 2}} = \frac{5x}{5} = x
+$$
 
 Verified.
 
@@ -215,26 +221,36 @@ The function $f$ is defined by $f(x) = \dfrac{2x + 3}{x + 2}$.
 
 **(a)** Solve $f(x) = x$:
 
-$$\frac{2x + 3}{x + 2} = x \implies 2x + 3 = x^2 + 2x \implies x^2 = 3 \implies x = \sqrt{3} \text{ or } x = -\sqrt{3}$$
+$$
+\frac{2x + 3}{x + 2} = x \implies 2x + 3 = x^2 + 2x \implies x^2 = 3 \implies x = \sqrt{3} \text{ or } x = -\sqrt{3}
+$$
 
 The fixed points are $x = \sqrt{3}$ and $x = -\sqrt{3}$.
 
 **(b)**
 
-$$f(f(x)) = f\!\left(\frac{2x + 3}{x + 2}\right) = \frac{2 \cdot \frac{2x+3}{x+2} + 3}{\frac{2x+3}{x+2} + 2}$$
+$$
+f(f(x)) = f\!\left(\frac{2x + 3}{x + 2}\right) = \frac{2 \cdot \frac{2x+3}{x+2} + 3}{\frac{2x+3}{x+2} + 2}
+$$
 
-$$= \frac{\frac{4x + 6 + 3x + 6}{x + 2}}{\frac{2x + 3 + 2x + 4}{x + 2}} = \frac{7x + 12}{4x + 7}$$
+$$
+= \frac{\frac{4x + 6 + 3x + 6}{x + 2}}{\frac{2x + 3 + 2x + 4}{x + 2}} = \frac{7x + 12}{4x + 7}
+$$
 
 This should equal $x$:
 
-$$\frac{7x + 12}{4x + 7} = x \implies 7x + 12 = 4x^2 + 7x \implies 4x^2 = 12 \implies x^2 = 3$$
+$$
+\frac{7x + 12}{4x + 7} = x \implies 7x + 12 = 4x^2 + 7x \implies 4x^2 = 12 \implies x^2 = 3
+$$
 
 This is not identically equal to $x$Confirming that $f$ is not self-inverse.
 
 Since $f$ is a Mobius transformation with $ad - bc = 2 \cdot 2 - 1 \cdot 3 = 1 \neq 0$It is
 invertible. The inverse is:
 
-$$f^{-1}(x) = \frac{2x - 3}{-x + 2} = \frac{2x - 3}{2 - x}, \quad x \neq 2$$
+$$
+f^{-1}(x) = \frac{2x - 3}{-x + 2} = \frac{2x - 3}{2 - x}, \quad x \neq 2
+$$
 
 We can verify:
 $f(f^{-1}(x)) = \frac{2 \cdot \frac{2x-3}{2-x} + 3}{\frac{2x-3}{2-x} + 2} = \frac{\frac{2(2x-3) + 3(2-x)}{2-x}}{\frac{(2x-3) + 2(2-x)}{2-x}} = \frac{4x-6+6-3x}{2x-3+4-2x} = \frac{x}{1} = x$.

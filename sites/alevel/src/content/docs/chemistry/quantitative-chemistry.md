@@ -851,7 +851,9 @@ reacted with $25.0\,\mathrm{cm}^3$ of $0.500\,\mathrm{mol\,dm^{-3}}$ $\mathrm{Na
 $\mathrm{NaOH}$ requires $15.0\,\mathrm{cm}^3$ of $0.200\,\mathrm{mol\,dm^{-3}}$ $\mathrm{HCl}$ for
 neutralisation. Calculate the concentration of $\mathrm{H}_2\mathrm{SO}_4$.
 
-$$\mathrm{H}_2\mathrm{SO}_4 + 2\mathrm{NaOH} \to \mathrm{Na}_2\mathrm{SO}_4 + 2\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{H}_2\mathrm{SO}_4 + 2\mathrm{NaOH} \to \mathrm{Na}_2\mathrm{SO}_4 + 2\mathrm{H}_2\mathrm{O}
+$$
 
 Moles of $\mathrm{NaOH}$ added: $0.500 \times 0.0250 = 0.0125\,\mathrm{mol}$
 
@@ -864,9 +866,13 @@ $0.0125 - 0.00300 = 0.00950\,\mathrm{mol}$
 
 From the stoichiometry (1 mol $\mathrm{H}_2\mathrm{SO}_4$ reacts with 2 mol $\mathrm{NaOH}$):
 
-$$n(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00950}{2} = 0.00475\,\mathrm{mol}$$
+$$
+n(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00950}{2} = 0.00475\,\mathrm{mol}
+$$
 
-$$c(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00475}{0.0250} = 0.190\,\mathrm{mol\,dm^{-3}}$$
+$$
+c(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00475}{0.0250} = 0.190\,\mathrm{mol\,dm^{-3}}
+$$
 
 ### Redox Titration Calculations
 
@@ -875,15 +881,23 @@ $20.0\,\mathrm{cm}^3$ of an iron(II) sulphate solution. The mean titre was $19.6
 the $\mathrm{KMnO}_4$ concentration was $0.0200\,\mathrm{mol\,dm^{-3}$. Calculate the concentration
 of the iron(II) solution.
 
-$$\mathrm{MnO}_4^- + 5\mathrm{Fe}^{2+} + 8\mathrm{H}^+ \to \mathrm{Mn}^{2+} + 5\mathrm{Fe}^{3+} + 4\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{MnO}_4^- + 5\mathrm{Fe}^{2+} + 8\mathrm{H}^+ \to \mathrm{Mn}^{2+} + 5\mathrm{Fe}^{3+} + 4\mathrm{H}_2\mathrm{O}
+$$
 
-$$n(\mathrm{KMnO}_4) = 0.0200 \times 0.0196 = 3.92 \times 10^{-4}\,\mathrm{mol}$$
+$$
+n(\mathrm{KMnO}_4) = 0.0200 \times 0.0196 = 3.92 \times 10^{-4}\,\mathrm{mol}
+$$
 
 From stoichiometry (5 mol $\mathrm{Fe}^{2+}$ per 1 mol $\mathrm{MnO}_4^-$):
 
-$$n(\mathrm{Fe}^{2+}) = 5 \times 3.92 \times 10^{-4} = 1.96 \times 10^{-3}\,\mathrm{mol}$$
+$$
+n(\mathrm{Fe}^{2+}) = 5 \times 3.92 \times 10^{-4} = 1.96 \times 10^{-3}\,\mathrm{mol}
+$$
 
-$$c(\mathrm{Fe}^{2+}) = \frac{1.96 \times 10^{-3}}{0.0200} = 0.0980\,\mathrm{mol\,dm^{-3}}$$
+$$
+c(\mathrm{Fe}^{2+}) = \frac{1.96 \times 10^{-3}}{0.0200} = 0.0980\,\mathrm{mol\,dm^{-3}}
+$$
 
 ### Gas Volume Calculations
 
@@ -891,15 +905,23 @@ $$c(\mathrm{Fe}^{2+}) = \frac{1.96 \times 10^{-3}}{0.0200} = 0.0980\,\mathrm{mol
 calcium carbonate is heated with excess hydrochloric acid, at $298\,\mathrm{K}$ and
 $101\,\mathrm{kPa}$.
 
-$$\mathrm{CaCO}_3(s) + 2\mathrm{HCl}(aq) \to \mathrm{CaCl}_2(aq) + \mathrm{CO}_2(g) + \mathrm{H}_2\mathrm{O}(l)$$
+$$
+\mathrm{CaCO}_3(s) + 2\mathrm{HCl}(aq) \to \mathrm{CaCl}_2(aq) + \mathrm{CO}_2(g) + \mathrm{H}_2\mathrm{O}(l)
+$$
 
-$$n(\mathrm{CaCO}_3) = \frac{10.0}{100.09} = 0.0999\,\mathrm{mol}$$
+$$
+n(\mathrm{CaCO}_3) = \frac{10.0}{100.09} = 0.0999\,\mathrm{mol}
+$$
 
 $$n(\mathrm{CO}_2) = 0.0999\,\mathrm{mol}$$ (1:1 stoichiometry)
 
-$$V = \frac{nRT}{p} = \frac{0.0999 \times 8.314 \times 298}{101000} = \frac{247.5}{101000} = 2.45 \times 10^{-3}\,\mathrm{m}^3 = 2.45\,\mathrm{dm}^3$$
+$$
+V = \frac{nRT}{p} = \frac{0.0999 \times 8.314 \times 298}{101000} = \frac{247.5}{101000} = 2.45 \times 10^{-3}\,\mathrm{m}^3 = 2.45\,\mathrm{dm}^3
+$$
 
-$$V = 2450\,\mathrm{cm}^3$$
+$$
+V = 2450\,\mathrm{cm}^3
+$$
 
 ### Empirical and Molecular Formula Determination
 
@@ -940,7 +962,9 @@ Moles of water: $2.56/18.02 = 0.142\,\mathrm{mol}$
 
 Moles of anhydrous $\mathrm{MgSO}_4$: $2.44/120.4 = 0.0203\,\mathrm{mol}$
 
-$$x = \frac{0.142}{0.0203} = 7.00$$
+$$
+x = \frac{0.142}{0.0203} = 7.00
+$$
 
 The formula is $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$ (Epsom salts).
 
@@ -949,36 +973,54 @@ The formula is $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$ (Epsom salts).
 **Worked Example:** $6.50\,\mathrm{g}$ of zinc reacts with excess $2.00\,\mathrm{mol\,dm^{-3}}$
 sulphuric acid. The mass of zinc remaining is $2.00\,\mathrm{g}$.
 
-$$\mathrm{Zn} + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{ZnSO}_4 + \mathrm{H}_2$$
+$$
+\mathrm{Zn} + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{ZnSO}_4 + \mathrm{H}_2
+$$
 
-$$n(\mathrm{Zn}) = \frac{6.50 - 2.00}{65.38} = \frac{4.50}{65.38} = 0.0688\,\mathrm{mol}$$
+$$
+n(\mathrm{Zn}) = \frac{6.50 - 2.00}{65.38} = \frac{4.50}{65.38} = 0.0688\,\mathrm{mol}
+$$
 
 Theoretical mass of $\mathrm{H}_2$: $n(\mathrm{H}_2) = 0.0688\,\mathrm{mol}$ (1:1)
 
-$$m(\mathrm{H}_2) = 0.0688 \times 2.016 = 0.139\,\mathrm{g}$$
+$$
+m(\mathrm{H}_2) = 0.0688 \times 2.016 = 0.139\,\mathrm{g}
+$$
 
 If only $0.098\,\mathrm{g}$ of $\mathrm{H}_2$ was collected:
 
-$$\text{Percentage yield} = \frac{0.098}{0.139} \times 100 = 70.5\%$$
+$$
+\text{Percentage yield} = \frac{0.098}{0.139} \times 100 = 70.5\%
+$$
 
 ### Atom Economy
 
 Atom economy measures the efficiency of a reaction in terms of how much of the reactants end up in
 the desired product:
 
-$$\text{Atom economy} = \frac{M_r \text{ of desired product}}{\text{Sum of } M_r \text{ of all products}} \times 100\%$$
+$$
+\text{Atom economy} = \frac{M_r \text{ of desired product}}{\text{Sum of } M_r \text{ of all products}} \times 100\%
+$$
 
 **Worked Example:** Compare the atom economy of two routes to ethanol.
 
 Route 1: Hydration of ethene (addition reaction)
-$$\mathrm{C}_2\mathrm{H}_4 + \mathrm{H}_2\mathrm{O} \to \mathrm{C}_2\mathrm{H}_5\mathrm{OH}$$
+$$
+\mathrm{C}_2\mathrm{H}_4 + \mathrm{H}_2\mathrm{O} \to \mathrm{C}_2\mathrm{H}_5\mathrm{OH}
+$$
 
-$$\text{Atom economy} = \frac{46.0}{46.0} \times 100 = 100\%$$
+$$
+\text{Atom economy} = \frac{46.0}{46.0} \times 100 = 100\%
+$$
 
 Route 2: Fermentation (single product)
-$$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 \to 2\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 2\mathrm{CO}_2$$
+$$
+\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 \to 2\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 2\mathrm{CO}_2
+$$
 
-$$\text{Atom economy} = \frac{2 \times 46.0}{2 \times 46.0 + 2 \times 44.0} \times 100 = \frac{92.0}{180.0} \times 100 = 51.1\%$$
+$$
+\text{Atom economy} = \frac{2 \times 46.0}{2 \times 46.0 + 2 \times 44.0} \times 100 = \frac{92.0}{180.0} \times 100 = 51.1\%
+$$
 
 Addition reactions always have 100% atom economy (assuming no side reactions). This is a key
 advantage of addition reactions in green chemistry.
@@ -1063,12 +1105,16 @@ metal.
 
 **Mark Scheme:**
 
-$$n(\mathrm{H}_2) = \frac{pV}{RT} = \frac{100000 \times 120 \times 10^{-6}}{8.314 \times 298} = \frac{12.0}{2478} = 0.00484\,\mathrm{mol}$$
+$$
+n(\mathrm{H}_2) = \frac{pV}{RT} = \frac{100000 \times 120 \times 10^{-6}}{8.314 \times 298} = \frac{12.0}{2478} = 0.00484\,\mathrm{mol}
+$$
 (1 mark)
 
 Assume M has valency $+2$: $n(\mathrm{M}) = \frac{0.00484}{2} = 0.00242\,\mathrm{mol}$ (1 mark).
 
-$$A_r(\mathrm{M}) = \frac{0.500}{0.00242} = 207\,\mathrm{g/mol}$$
+$$
+A_r(\mathrm{M}) = \frac{0.500}{0.00242} = 207\,\mathrm{g/mol}
+$$
 
 The metal is **lead** ($A_r = 207$Group 2, forms $\mathrm{Pb}^{2+}$Valency 2) (2 marks).
 
@@ -1087,7 +1133,9 @@ original vinegar in $\mathrm{g\,dm^{-3}}$.
 
 $$n(\mathrm{NaOH}) = 0.100 \times 0.0184 = 1.84 \times 10^{-3}\,\mathrm{mol}$$ (1 mark)
 
-$$\mathrm{CH}_3\mathrm{COOH} + \mathrm{NaOH} \to \mathrm{CH}_3\mathrm{COONa} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{COOH} + \mathrm{NaOH} \to \mathrm{CH}_3\mathrm{COONa} + \mathrm{H}_2\mathrm{O}
+$$
 
 $n(\mathrm{CH}_3\mathrm{COOH})$ in $25.0\,\mathrm{cm}^3$ of diluted solution
 $= 1.84 \times 10^{-3}\,\mathrm{mol}$ (1 mark).
@@ -1097,7 +1145,9 @@ $= 1.84 \times 10^{-3} \times 10 = 0.0184\,\mathrm{mol}$ (1 mark).
 
 This equals $n(\mathrm{CH}_3\mathrm{COOH})$ in $25.0\,\mathrm{cm}^3$ of original vinegar.
 
-$$c(\mathrm{CH}_3\mathrm{COOH}) = \frac{0.0184}{0.0250} = 0.736\,\mathrm{mol\,dm^{-3}}$$
+$$
+c(\mathrm{CH}_3\mathrm{COOH}) = \frac{0.0184}{0.0250} = 0.736\,\mathrm{mol\,dm^{-3}}
+$$
 
 $$
 \text{Concentration in } \mathrm{g\,dm^{-3}} = 0.736 \times 60.05 = 44.2\,\mathrm{g\,dm^{-3}}

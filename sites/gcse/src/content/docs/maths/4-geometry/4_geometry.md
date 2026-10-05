@@ -96,31 +96,47 @@ $3x + 10^{\circ}$ and the co-interior angle is $2x + 20^{\circ}$. Find the value
 
 Since co-interior angles sum to $180^{\circ}$:
 
-$$(3x + 10) + (2x + 20) = 180$$
+$$
+(3x + 10) + (2x + 20) = 180
+$$
 
-$$5x + 30 = 180$$
+$$
+5x + 30 = 180
+$$
 
-$$5x = 150$$
+$$
+5x = 150
+$$
 
-$$x = 30$$
+$$
+x = 30
+$$
 
 ### 1.3 Angles in Polygons
 
 The **sum of interior angles** of an $n$-sided polygon:
 
-$$S = 180(n - 2)^{\circ}$$
+$$
+S = 180(n - 2)^{\circ}
+$$
 
 The **interior angle** of a regular $n$-sided polygon:
 
-$$\mathrm{Each interior angle = \frac{180(n - 2)}{n}^{\circ}$$
+$$
+\mathrm{Each interior angle = \frac{180(n - 2)}{n}^{\circ}
+$$
 
 The **exterior angle** of a regular polygon:
 
-$$\mathrm{Each exterior angle = \frac{360}{n}^{\circ}$$
+$$
+\mathrm{Each exterior angle = \frac{360}{n}^{\circ}
+$$
 
 **Worked Example.** Find the interior angle of a regular pentagon.
 
-$$\mathrm{Interior angle = \frac{180(5 - 2)}{5} = \frac{540}{5} = 108^{\circ}$$
+$$
+\mathrm{Interior angle = \frac{180(5 - 2)}{5} = \frac{540}{5} = 108^{\circ}
+$$
 
 **Worked Example (Higher Tier).** A regular polygon has an interior angle of $150^{\circ}$. How many
 Sides does it have?
@@ -131,14 +147,20 @@ It is a regular dodecagon (12 sides).
 
 **Worked Example (Higher Tier).** Find the sum of the interior angles of a polygon with 15 sides.
 
-$$S = 180(15 - 2) = 180 \times 13 = 2340^{\circ}$$
+$$
+S = 180(15 - 2) = 180 \times 13 = 2340^{\circ}
+$$
 
 **Worked Example (Higher Tier).** Find the exterior angle of a regular decagon, and hence find the
 Interior angle.
 
-$$\mathrm{Exterior angle = \frac{360}{10} = 36^{\circ}$$
+$$
+\mathrm{Exterior angle = \frac{360}{10} = 36^{\circ}
+$$
 
-$$\mathrm{Interior angle = 180 - 36 = 144^{\circ}$$
+$$
+\mathrm{Interior angle = 180 - 36 = 144^{\circ}
+$$
 
 ### 1.4 Bearings
 
@@ -158,13 +180,19 @@ Internal angle is $360^{\circ} - 260^{\circ} = 100^{\circ}$.
 
 Using the cosine rule on $\triangle ABC$:
 
-$$AC^2 = 80^2 + 60^2 - 2 \times 80 \times 60 \times \cos(100^{\circ})$$
+$$
+AC^2 = 80^2 + 60^2 - 2 \times 80 \times 60 \times \cos(100^{\circ})
+$$
 $$AC^2 = 6400 + 3600 - 9600 \times (-0.1736\ldots)$$ $$AC^2 = 10000 + 1667.1\ldots = 11667.1\ldots$$
-$$AC \approx 108.0 \mathrm{ km$$
+$$
+AC \approx 108.0 \mathrm{ km
+$$
 
 Using the sine rule to find $\angle BAC$:
 
-$$\frac{\sin \angle BAC}{60} = \frac{\sin 100^{\circ}}{108.0}$$
+$$
+\frac{\sin \angle BAC}{60} = \frac{\sin 100^{\circ}}{108.0}
+$$
 $$\sin \angle BAC = \frac{60 \times 0.9848}{108.0} = 0.5471\ldots$$ $$\angle BAC = 33.2^{\circ}$$
 
 Bearing of $C$ from $A = 70^{\circ} + 33.2^{\circ} = 103.2^{\circ} \approx 103^{\circ}$.
@@ -175,7 +203,9 @@ Bearing of $C$ from $A = 70^{\circ} + 33.2^{\circ} = 103.2^{\circ} \approx 103^{
 
 **Theorem.** In a right-angled triangle with hypotenuse $c$ and legs $a$ and $b$:
 
-$$a^2 + b^2 = c^2$$
+$$
+a^2 + b^2 = c^2
+$$
 
 **Proof (area-based).** Consider a square of side $(a + b)$. Place four identical right-angled
 Triangles inside, each with legs $a$ and $b$Arranged so that their hypotenuses form a smaller Square
@@ -185,7 +215,9 @@ The area of the large square equals the area of the four triangles plus the area
 Square:
 
 $$(a + b)^2 = 4 \times \frac{1}{2}ab + c^2$$ $$a^2 + 2ab + b^2 = 2ab + c^2$$
-$$a^2 + b^2 = c^2 \quad \blacksquare$$
+$$
+a^2 + b^2 = c^2 \quad \blacksquare
+$$
 
 **Converse of Pythagoras' Theorem.** If $a^2 + b^2 = c^2$ for a triangle with sides $a, b, c$ where
 $c$ is the longest side, then the triangle is right-angled.
@@ -217,11 +249,15 @@ The longest side is less than $90^{\circ}$).
 
 For a right-angled triangle with angle $\theta$:
 
-$$\sin \theta = \frac{\mathrm{opposite}{\mathrm{hypotenuse}, \quad \cos \theta = \frac{\mathrm{adjacent}{\mathrm{hypotenuse}, \quad \tan \theta = \frac{\mathrm{opposite}{\mathrm{adjacent}$$
+$$
+\sin \theta = \frac{\mathrm{opposite}{\mathrm{hypotenuse}, \quad \cos \theta = \frac{\mathrm{adjacent}{\mathrm{hypotenuse}, \quad \tan \theta = \frac{\mathrm{opposite}{\mathrm{adjacent}
+$$
 
 **Proof that $\tan \theta = \frac{\sin \theta}{\cos \theta}$.**
 
-$$\tan \theta = \frac{\mathrm{opp}{\mathrm{adj} = \frac{\mathrm{opp/\mathrm{hyp}{\mathrm{adj/\mathrm{hyp} = \frac{\sin \theta}{\cos \theta} \quad \blacksquare$$
+$$
+\tan \theta = \frac{\mathrm{opp}{\mathrm{adj} = \frac{\mathrm{opp/\mathrm{hyp}{\mathrm{adj/\mathrm{hyp} = \frac{\sin \theta}{\cos \theta} \quad \blacksquare
+$$
 
 **Proof that $\sin^2\theta + \cos^2\theta = 1$.**
 
@@ -229,27 +265,41 @@ By Pythagoras: $\mathrm{opp^2 + \mathrm{adj^2 = \mathrm{hyp^2$.
 
 Dividing by $\mathrm{hyp^2$:
 
-$$\frac{\mathrm{opp^2}{\mathrm{hyp^2} + \frac{\mathrm{adj^2}{\mathrm{hyp^2} = 1$$
+$$
+\frac{\mathrm{opp^2}{\mathrm{hyp^2} + \frac{\mathrm{adj^2}{\mathrm{hyp^2} = 1
+$$
 
-$$\sin^2\theta + \cos^2\theta = 1 \quad \blacksquare$$
+$$
+\sin^2\theta + \cos^2\theta = 1 \quad \blacksquare
+$$
 
 **Worked Example.** Find the length of the hypotenuse in a right-angled triangle where the opposite
 Side is 5 cm and the angle is $35^{\circ}$.
 
-$$\sin 35^{\circ} = \frac{5}{h}$$
-$$h = \frac{5}{\sin 35^{\circ}} = \frac{5}{0.5736\ldots} = 8.72 \mathrm{ cm (to 3 s.f.)$$
+$$
+\sin 35^{\circ} = \frac{5}{h}
+$$
+$$
+h = \frac{5}{\sin 35^{\circ}} = \frac{5}{0.5736\ldots} = 8.72 \mathrm{ cm (to 3 s.f.)
+$$
 
 **Worked Example.** Find the angle $\theta$ in a right-angled triangle where the adjacent side is 8
 Cm and the hypotenuse is 15 cm.
 
-$$\cos \theta = \frac{8}{15}$$
-$$\theta = \cos^{-1}\!\left(\frac{8}{15}\right) \approx 57.8^{\circ}$$
+$$
+\cos \theta = \frac{8}{15}
+$$
+$$
+\theta = \cos^{-1}\!\left(\frac{8}{15}\right) \approx 57.8^{\circ}
+$$
 
 ### 2.3 Sine Rule
 
 For any triangle $\triangle ABC$:
 
-$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
+$$
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}
+$$
 
 Used when you know: an angle and its opposite side, plus one other angle or side.
 
@@ -260,43 +310,61 @@ $\frac{a}{\sin A} = \frac{b}{\sin B}$. $\blacksquare$
 **Worked Example (Higher Tier).** In $\triangle ABC$, $a = 10$ cm, $A = 45^{\circ}$
 $B = 70^{\circ}$. Find $b$.
 
-$$\frac{b}{\sin 70^{\circ}} = \frac{10}{\sin 45^{\circ}}$$
-$$b = \frac{10 \sin 70^{\circ}}{\sin 45^{\circ}} = \frac{10 \times 0.9397}{0.7071} \approx 13.29 \mathrm{ cm$$
+$$
+\frac{b}{\sin 70^{\circ}} = \frac{10}{\sin 45^{\circ}}
+$$
+$$
+b = \frac{10 \sin 70^{\circ}}{\sin 45^{\circ}} = \frac{10 \times 0.9397}{0.7071} \approx 13.29 \mathrm{ cm
+$$
 
 ### 2.4 Cosine Rule
 
 For any triangle $\triangle ABC$:
 
-$$a^2 = b^2 + c^2 - 2bc \cos A$$
+$$
+a^2 = b^2 + c^2 - 2bc \cos A
+$$
 
 Rearranged to find an angle:
 
-$$\cos A = \frac{b^2 + c^2 - a^2}{2bc}$$
+$$
+\cos A = \frac{b^2 + c^2 - a^2}{2bc}
+$$
 
 Used when you know: two sides and the included angle (to find the third side), or all three sides
 (to find an angle).
 
 **Worked Example.** In $\triangle ABC$, $a = 8$ cm, $b = 5$ cm, $c = 7$ cm. Find angle $A$.
 
-$$\cos A = \frac{25 + 49 - 64}{2 \times 5 \times 7} = \frac{10}{70} = \frac{1}{7}$$
-$$A = \cos^{-1}\!\left(\frac{1}{7}\right) = 81.8^{\circ} \mathrm{ (to 1 d.p.)$$
+$$
+\cos A = \frac{25 + 49 - 64}{2 \times 5 \times 7} = \frac{10}{70} = \frac{1}{7}
+$$
+$$
+A = \cos^{-1}\!\left(\frac{1}{7}\right) = 81.8^{\circ} \mathrm{ (to 1 d.p.)
+$$
 
 **Worked Example (Higher Tier).** In $\triangle ABC$, $a = 12$ cm, $b = 8$ cm, $C = 60^{\circ}$.
 Find $c$.
 
 $$c^2 = 144 + 64 - 2 \times 12 \times 8 \times \cos 60^{\circ}$$ $$c^2 = 208 - 96 = 112$$
-$$c = \sqrt{112} = 4\sqrt{7} \approx 10.58 \mathrm{ cm$$
+$$
+c = \sqrt{112} = 4\sqrt{7} \approx 10.58 \mathrm{ cm
+$$
 
 ### 2.5 Area of a Triangle
 
-$$\mathrm{Area = \frac{1}{2}ab \sin C$$
+$$
+\mathrm{Area = \frac{1}{2}ab \sin C
+$$
 
 Where $a$ and $b$ are two sides and $C$ is the included angle.
 
 **Worked Example.** Find the area of $\triangle ABC$ where $a = 10$ cm, $b = 8$ cm, and
 $C = 45^{\circ}$.
 
-$$\mathrm{Area = \frac{1}{2} \times 10 \times 8 \times \sin 45^{\circ} = 40 \times \frac{\sqrt{2}}{2} = 20\sqrt{2} \approx 28.3 \mathrm{ cm^2$$
+$$
+\mathrm{Area = \frac{1}{2} \times 10 \times 8 \times \sin 45^{\circ} = 40 \times \frac{\sqrt{2}}{2} = 20\sqrt{2} \approx 28.3 \mathrm{ cm^2
+$$
 
 ### 2.6 The Ambiguous Case of the Sine Rule (Higher Tier)
 
@@ -305,8 +373,12 @@ $180^{\circ} - \theta$.
 
 **Worked Example.** In $\triangle ABC$, $a = 8$ cm, $b = 10$ cm, $A = 40^{\circ}$. Find angle $B$.
 
-$$\frac{\sin B}{10} = \frac{\sin 40^{\circ}}{8}$$
-$$\sin B = \frac{10 \sin 40^{\circ}}{8} = \frac{10 \times 0.6428}{8} = 0.8035$$
+$$
+\frac{\sin B}{10} = \frac{\sin 40^{\circ}}{8}
+$$
+$$
+\sin B = \frac{10 \sin 40^{\circ}}{8} = \frac{10 \times 0.6428}{8} = 0.8035
+$$
 
 $B = \sin^{-1}(0.8035) \approx 53.5^{\circ}$ or $B = 180^{\circ} - 53.5^{\circ} = 126.5^{\circ}$.
 
@@ -345,7 +417,9 @@ The exterior angle at $O$ for $\triangle OBC$: $2\angle OCB = \angle BOC$.
 
 Adding: $\angle AOC + \angle BOC = 2\angle OCA + 2\angle OCB$
 
-$$\angle AOB = 2(\angle OCA + \angle OCB) = 2\angle ACB \quad \blacksquare$$
+$$
+\angle AOB = 2(\angle OCA + \angle OCB) = 2\angle ACB \quad \blacksquare
+$$
 
 ### 3.3 Proof: Angle in a Semicircle is a Right Angle
 
@@ -438,16 +512,22 @@ $ah + (b-a)h = bh - ah + ah
 **Worked Example.** A cylinder has radius 5 cm and height 12 cm. Find its volume and total surface
 Area.
 
-$$V = \pi \times 5^2 \times 12 = 300\pi \approx 942 \mathrm{ cm^3$$
+$$
+V = \pi \times 5^2 \times 12 = 300\pi \approx 942 \mathrm{ cm^3
+$$
 
-$$\mathrm{SA = 2\pi \times 25 + 2\pi \times 5 \times 12 = 50\pi + 120\pi = 170\pi \approx 534 \mathrm{ cm^2$$
+$$
+\mathrm{SA = 2\pi \times 25 + 2\pi \times 5 \times 12 = 50\pi + 120\pi = 170\pi \approx 534 \mathrm{ cm^2
+$$
 
 **Worked Example (Higher Tier).** A cone has base radius 6 cm and slant height 10 cm. Find its
 Volume.
 
 The height $h$: $h^2 + 6^2 = 10^2$ So $h = 8$ cm.
 
-$$V = \frac{1}{3}\pi \times 36 \times 8 = 96\pi \approx 301.6 \mathrm{ cm^3$$
+$$
+V = \frac{1}{3}\pi \times 36 \times 8 = 96\pi \approx 301.6 \mathrm{ cm^3
+$$
 
 **Worked Example (Higher Tier).** A solid hemisphere has radius 7 cm. Find its total surface area.
 
@@ -506,7 +586,9 @@ Some scalar $k$.
 $\begin{pmatrix} 2 \\ 3 \end{pmatrix}$$\begin{pmatrix} 8 \\ 7 \end{pmatrix}$ And
 $\begin{pmatrix} 14 \\ 11 \end{pmatrix}$. Show that $A$$B$ And $C$ are collinear.
 
-$$\overrightarrow{AB} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}, \qquad \overrightarrow{BC} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}$$
+$$
+\overrightarrow{AB} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}, \qquad \overrightarrow{BC} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}
+$$
 
 Since $\overrightarrow{AB} = \overrightarrow{BC}$The vectors are parallel and share point $B$ So $A$,
 $B$, $C$ are collinear. $\blacksquare$
@@ -523,7 +605,9 @@ The **midpoint** $M$ of $AB$ has position vector $\frac{1}{2}(\mathbf{a} + \math
 $\overrightarrow{OA} = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$ and
 $\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$Find $\overrightarrow{OP}$.
 
-$$\overrightarrow{OP} = \overrightarrow{OA} + \frac{2}{5}\overrightarrow{AB} = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + \frac{2}{5}\begin{pmatrix} 10 \\ 5 \end{pmatrix} = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + \begin{pmatrix} 4 \\ 2 \end{pmatrix} = \begin{pmatrix} 5 \\ 6 \end{pmatrix}$$
+$$
+\overrightarrow{OP} = \overrightarrow{OA} + \frac{2}{5}\overrightarrow{AB} = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + \frac{2}{5}\begin{pmatrix} 10 \\ 5 \end{pmatrix} = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + \begin{pmatrix} 4 \\ 2 \end{pmatrix} = \begin{pmatrix} 5 \\ 6 \end{pmatrix}
+$$
 
 ## 6. Similarity and Congruence
 
@@ -610,12 +694,16 @@ On $A$'s side of the perpendicular bisector of $AB$. The shaded region is the in
 
 For a cuboid with dimensions $a, b, c$The longest diagonal is:
 
-$$d = \sqrt{a^2 + b^2 + c^2}$$
+$$
+d = \sqrt{a^2 + b^2 + c^2}
+$$
 
 **Worked Example.** A cuboid has dimensions 5 cm, 12 cm, and 8 cm. Find the length of the longest
 Diagonal.
 
-$$d = \sqrt{25 + 144 + 64} = \sqrt{233} \approx 15.26 \mathrm{ cm$$
+$$
+d = \sqrt{25 + 144 + 64} = \sqrt{233} \approx 15.26 \mathrm{ cm
+$$
 
 **Worked Example.** A cone has base radius 3 cm and height 4 cm. Find the angle between the slant
 Height and the base.

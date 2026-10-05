@@ -45,18 +45,26 @@ Study notes for CBSE Class 12 chemistry - Colligative properties.
 **Solution:**
 
 Moles of sucrose:
-$$n = \frac{34.2}{342} = 0.1 \, \text{mol}$$
+$$
+n = \frac{34.2}{342} = 0.1 \, \text{mol}
+$$
 
 Molality:
-$$m = \frac{0.1}{0.5} = 0.2 \, \text{mol/kg}$$
+$$
+m = \frac{0.1}{0.5} = 0.2 \, \text{mol/kg}
+$$
 
 Sucrose is a non-electrolyte, so $i = 1$.
 
 Boiling point elevation:
-$$\Delta T_b = i \cdot K_b \cdot m = 1 \times 0.52 \times 0.2 = 0.104 \, \text{K}$$
+$$
+\Delta T_b = i \cdot K_b \cdot m = 1 \times 0.52 \times 0.2 = 0.104 \, \text{K}
+$$
 
 New boiling point:
-$$T_b = 100 + 0.104 = 100.104^\circ\text{C}$$
+$$
+T_b = 100 + 0.104 = 100.104^\circ\text{C}
+$$
 
 ## Worked Example 2, Freezing Point Depression with Electrolyte
 
@@ -65,18 +73,26 @@ $$T_b = 100 + 0.104 = 100.104^\circ\text{C}$$
 **Solution:**
 
 Moles of NaCl:
-$$n = \frac{5.85}{58.5} = 0.1 \, \text{mol}$$
+$$
+n = \frac{5.85}{58.5} = 0.1 \, \text{mol}
+$$
 
 Molality:
-$$m = \frac{0.1}{1} = 0.1 \, \text{mol/kg}$$
+$$
+m = \frac{0.1}{1} = 0.1 \, \text{mol/kg}
+$$
 
 NaCl dissociates completely: $\text{NaCl} \to \text{Na}^+ + \text{Cl}^-$, so $i = 2$.
 
 Freezing point depression:
-$$\Delta T_f = i \cdot K_f \cdot m = 2 \times 1.86 \times 0.1 = 0.372 \, \text{K}$$
+$$
+\Delta T_f = i \cdot K_f \cdot m = 2 \times 1.86 \times 0.1 = 0.372 \, \text{K}
+$$
 
 New freezing point:
-$$T_f = 0 - 0.372 = -0.372^\circ\text{C}$$
+$$
+T_f = 0 - 0.372 = -0.372^\circ\text{C}
+$$
 
 ## Worked Example 3, Osmotic Pressure
 
@@ -85,16 +101,24 @@ $$T_f = 0 - 0.372 = -0.372^\circ\text{C}$$
 **Solution:**
 
 Moles of polymer:
-$$n = \frac{1.5}{150{,}000} = 1 \times 10^{-5} \, \text{mol}$$
+$$
+n = \frac{1.5}{150{,}000} = 1 \times 10^{-5} \, \text{mol}
+$$
 
 Concentration:
-$$C = \frac{n}{V} = \frac{1 \times 10^{-5}}{0.5} = 2 \times 10^{-5} \, \text{mol/L}$$
+$$
+C = \frac{n}{V} = \frac{1 \times 10^{-5}}{0.5} = 2 \times 10^{-5} \, \text{mol/L}
+$$
 
 Temperature: $T = 27 + 273 = 300 \, \text{K}$
 
 Osmotic pressure:
-$$\pi = CRT = 2 \times 10^{-5} \times 0.0821 \times 300$$
-$$= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}$$
+$$
+\pi = CRT = 2 \times 10^{-5} \times 0.0821 \times 300
+$$
+$$
+= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}
+$$
 
 ## Common Mistakes
 

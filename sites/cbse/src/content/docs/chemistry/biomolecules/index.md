@@ -71,7 +71,9 @@ Biomolecules are organic molecules essential for life. This topic covers carbohy
 - **Glucose** ($\text{C}_6\text{H}_{12}\text{O}_6$): Monosaccharide. Cannot be hydrolyzed into simpler sugars. It is an aldose (contains an aldehyde group).
 
 - **Sucrose** ($\text{C}_{12}\text{H}_{22}\text{O}_{11}$): Disaccharide. Hydrolyzes to glucose + fructose:
-  $$\text{C}_{12}\text{H}_{22}\text{O}_{11} + \text{H}_2\text{O} \xrightarrow{\text{acid}} \text{C}_6\text{H}_{12}\text{O}_6 \text{ (glucose)} + \text{C}_6\text{H}_{12}\text{O}_6 \text{ (fructose)}$$
+  $$
+  \text{C}_{12}\text{H}_{22}\text{O}_{11} + \text{H}_2\text{O} \xrightarrow{\text{acid}} \text{C}_6\text{H}_{12}\text{O}_6 \text{ (glucose)} + \text{C}_6\text{H}_{12}\text{O}_6 \text{ (fructose)}
+  $$
 
 - **Starch** ($(C_6H_{10}O_5)_n$): Polysaccharide. Contains amylose (linear) and amylopectin (branched). Hydrolyzes to glucose.
 
@@ -87,7 +89,9 @@ Glycine: $\text{NH}_2\text{CH}_2\text{COOH}$ (R = H)
 Alanine: $\text{NH}_2\text{CH(CH}_3)\text{COOH}$ (R = CH$_3$)
 
 Peptide bond formation (condensation):
-$$\text{NH}_2\text{CH}_2\text{COOH} + \text{NH}_2\text{CH(CH}_3)\text{COOH} \rightarrow \text{NH}_2\text{CH}_2\text{CONHCH(CH}_3)\text{COOH} + \text{H}_2\text{O}$$
+$$
+\text{NH}_2\text{CH}_2\text{COOH} + \text{NH}_2\text{CH(CH}_3)\text{COOH} \rightarrow \text{NH}_2\text{CH}_2\text{CONHCH(CH}_3)\text{COOH} + \text{H}_2\text{O}
+$$
 
 The peptide bond ($-\text{CO}-\text{NH}-$) links the carboxyl group of glycine to the amino group of alanine.
 

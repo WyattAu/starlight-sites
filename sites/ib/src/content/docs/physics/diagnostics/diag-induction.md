@@ -60,11 +60,17 @@ to the coil and still varies as $B(t) = (0.04 + 0.02t)\,\text{T}$. Calculate the
 Magnetic flux: $\Phi = BA\cos\theta$ where
 $A = \pi r^2 = \pi(0.05)^2 = 7.854 \times 10^{-3}\,\text{m}^2$ and $\theta = 0$ (perpendicular).
 
-$$\Phi = (0.04 + 0.02t) \times 7.854 \times 10^{-3}$$
+$$
+\Phi = (0.04 + 0.02t) \times 7.854 \times 10^{-3}
+$$
 
-$$\frac{d\Phi}{dt} = 0.02 \times 7.854 \times 10^{-3} = 1.571 \times 10^{-4}\,\text{Wb}\,\text{s}^{-1}$$
+$$
+\frac{d\Phi}{dt} = 0.02 \times 7.854 \times 10^{-3} = 1.571 \times 10^{-4}\,\text{Wb}\,\text{s}^{-1}
+$$
 
-$$|\varepsilon| = N \times \frac{d\Phi}{dt} = 200 \times 1.571 \times 10^{-4} = 0.0314\,\text{V} = 31.4\,\text{mV}$$
+$$
+|\varepsilon| = N \times \frac{d\Phi}{dt} = 200 \times 1.571 \times 10^{-4} = 0.0314\,\text{V} = 31.4\,\text{mV}
+$$
 
 Induced current: $I = \varepsilon/R = 0.0314/10 = 3.14\,\text{mA}$
 
@@ -81,11 +87,17 @@ the **direction**. Students often confuse or conflate these.
 
 (c) With $\theta = 60^\circ$:
 
-$$\Phi = BA\cos 60^\circ = (0.04 + 0.02t) \times 7.854 \times 10^{-3} \times 0.5$$
+$$
+\Phi = BA\cos 60^\circ = (0.04 + 0.02t) \times 7.854 \times 10^{-3} \times 0.5
+$$
 
-$$\frac{d\Phi}{dt} = 0.02 \times 7.854 \times 10^{-3} \times 0.5 = 7.854 \times 10^{-5}\,\text{Wb}\,\text{s}^{-1}$$
+$$
+\frac{d\Phi}{dt} = 0.02 \times 7.854 \times 10^{-3} \times 0.5 = 7.854 \times 10^{-5}\,\text{Wb}\,\text{s}^{-1}
+$$
 
-$$|\varepsilon| = 200 \times 7.854 \times 10^{-5} = 0.0157\,\text{V} = 15.7\,\text{mV}$$
+$$
+|\varepsilon| = 200 \times 7.854 \times 10^{-5} = 0.0157\,\text{V} = 15.7\,\text{mV}
+$$
 
 The EMF is halved because the effective area perpendicular to the field is $A\cos 60^\circ = A/2$.
 
@@ -122,7 +134,9 @@ field.
 
 Maximum flux linkage (when the normal to the coil is parallel to the field):
 
-$$\Phi_{\max} = NBA = 500 \times 0.40 \times 0.015 = 3.0\,\text{Wb}$$
+$$
+\Phi_{\max} = NBA = 500 \times 0.40 \times 0.015 = 3.0\,\text{Wb}
+$$
 
 Angular velocity: $\omega = 2\pi f = 2\pi \times 50 = 314.2\,\text{rad}\,\text{s}^{-1}$
 
@@ -131,16 +145,24 @@ Maximum EMF: $\varepsilon_{\max} = NAB\omega = \Phi_{\max}\omega = 3.0 \times 31
 (b) If the normal to the coil makes angle $\theta = \omega t$ with the field at $t = 0$ (where
 $\Phi = \Phi_{\max}$):
 
-$$\Phi(t) = NBA\cos(\omega t) = 3.0\cos(314.2t)\,\text{Wb}$$
+$$
+\Phi(t) = NBA\cos(\omega t) = 3.0\cos(314.2t)\,\text{Wb}
+$$
 
-$$\varepsilon(t) = -\frac{d\Phi}{dt} = NBA\omega\sin(\omega t) = 943\sin(314.2t)\,\text{V}$$
+$$
+\varepsilon(t) = -\frac{d\Phi}{dt} = NBA\omega\sin(\omega t) = 943\sin(314.2t)\,\text{V}
+$$
 
 (c) When the plane of the coil makes $30^\circ$ with the field, the normal makes
 $90^\circ - 30^\circ = 60^\circ$ with the field.
 
-$$\theta = 60^\circ \Rightarrow \omega t = 60^\circ = \pi/3$$
+$$
+\theta = 60^\circ \Rightarrow \omega t = 60^\circ = \pi/3
+$$
 
-$$\varepsilon = 943\sin(\pi/3) = 943 \times 0.866 = 817\,\text{V}$$
+$$
+\varepsilon = 943\sin(\pi/3) = 943 \times 0.866 = 817\,\text{V}
+$$
 
 Common misconception: students confuse the angle of the **plane** with the angle of the **normal**.
 The flux linkage is $NBA\cos\theta$ where $\theta$ is the angle of the normal to the field, not the
@@ -177,7 +199,9 @@ $60\,\text{V}$. Calculate the new back EMF and current, assuming the load torque
 
 (a) By Kirchhoff's voltage law: $V = \varepsilon_{\text{back}} + IR$
 
-$$\varepsilon_{\text{back}} = V - IR = 120 - 5.0 \times 2.0 = 120 - 10 = 110\,\text{V}$$
+$$
+\varepsilon_{\text{back}} = V - IR = 120 - 5.0 \times 2.0 = 120 - 10 = 110\,\text{V}
+$$
 
 (b) When the motor is stationary, $\varepsilon_{\text{back}} = 0$ (no rotation, no change in flux).
 
@@ -191,7 +215,9 @@ current.
 the motor constant. If the load torque is unchanged, the current must be the same:
 $I = 5.0\,\text{A}$.
 
-$$\varepsilon_{\text{back}} = V - IR = 60 - 5.0 \times 2.0 = 50\,\text{V}$$
+$$
+\varepsilon_{\text{back}} = V - IR = 60 - 5.0 \times 2.0 = 50\,\text{V}
+$$
 
 Check: the back EMF is proportional to angular velocity. Original:
 $\varepsilon_{\text{back}} = 110\,\text{V}$New: $50\,\text{V}$. The motor runs at $50/110 = 45.5\%$
@@ -228,23 +254,31 @@ Average EMF: $\varepsilon \approx N\Delta\Phi/\Delta t = N \times 2\Phi \times v
 This requires knowing $v$Which changes. For a rough estimate, assume the magnet reaches a terminal
 speed of $0.80\,\text{m}\,\text{s}^{-1}$:
 
-$$\varepsilon \approx 100 \times 2 \times 2.0 \times 10^{-4} \times 0.80/0.05 = 0.64\,\text{V}$$
+$$
+\varepsilon \approx 100 \times 2 \times 2.0 \times 10^{-4} \times 0.80/0.05 = 0.64\,\text{V}
+$$
 
 Average current: $I \approx 0.64/5.0 = 0.13\,\text{A}$
 
 (b) The force on a current-carrying coil in a magnetic field is related to the rate of change of
 flux. The average upward force:
 
-$$F \approx BIl \times N \approx \frac{\Phi}{\pi r^2} \times I \times 2\pi r \times N$$
+$$
+F \approx BIl \times N \approx \frac{\Phi}{\pi r^2} \times I \times 2\pi r \times N
+$$
 
 More directly, by Lenz's law and energy conservation, the average retarding force equals the rate of
 energy dissipation divided by velocity:
 
-$$F = P/v = I^2R/v = 0.13^2 \times 5.0/0.80 = 0.0845/0.80 = 0.106\,\text{N}$$
+$$
+F = P/v = I^2R/v = 0.13^2 \times 5.0/0.80 = 0.0845/0.80 = 0.106\,\text{N}
+$$
 
 (c) At terminal velocity, the magnetic braking force equals the gravitational force:
 
-$$F_{\text{brake}} = mg = 0.050 \times 9.81 = 0.4905\,\text{N}$$
+$$
+F_{\text{brake}} = mg = 0.050 \times 9.81 = 0.4905\,\text{N}
+$$
 
 Power dissipated: $P = Fv = 0.4905 \times 0.80 = 0.392\,\text{W}$
 

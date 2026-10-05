@@ -62,12 +62,16 @@ Organisms eat (and are eaten by) multiple species.
 **Gross primary production (GPP)** is the total rate at which energy is captured by photosynthesis
 In a given area per unit time:
 
-$$\mathrm{GPP} = \mathrm{total\ solar\ energy\ fixed\ by\ photosynthesis\ per\ unit\ area\ per\ unit\ time}$$
+$$
+\mathrm{GPP} = \mathrm{total\ solar\ energy\ fixed\ by\ photosynthesis\ per\ unit\ area\ per\ unit\ time}
+$$
 
 **Net primary production (NPP)** is the energy available to consumers after the producers have met
 Their own respiratory demands:
 
-$$\mathrm{NPP} = \mathrm{GPP} - R$$
+$$
+\mathrm{NPP} = \mathrm{GPP} - R
+$$
 
 Where $R$ is the energy lost through plant respiration.
 
@@ -110,13 +114,17 @@ loss is substantial and cumulative, which is why food chains are short. The lost
 A **population** is a group of organisms of the same species occupying a particular space at a
 Particular time. Population size is determined by four factors:
 
-$$\frac{dN}{dt} = B - D + I - E$$
+$$
+\frac{dN}{dt} = B - D + I - E
+$$
 
 Where $B$ = births, $D$ = deaths, $I$ = immigration, $E$ = emigration.
 
 **Exponential (logistic) growth**: when resources are unlimited, populations grow exponentially:
 
-$$N_t = N_0 e^{rt}$$
+$$
+N_t = N_0 e^{rt}
+$$
 
 Where $N_t$ is the population size at time $t$, $N_0$ is the initial size, and $r$ is the intrinsic
 Rate of increase.
@@ -125,7 +133,9 @@ Rate of increase.
 **carrying capacity ($K$)** -- the maximum population size that the environment can sustain
 Indefinitely:
 
-$$\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)$$
+$$
+\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)
+$$
 
 When $N \ll K$Growth is approximately exponential. When $N$ approaches $K$Growth rate declines
 Towards zero. If $N \gt K$The population overshoots and declines.
@@ -449,7 +459,9 @@ root systems And water acquisition mechanisms.
 of Increase $r = 0.693\ \mathrm{h^{-1}}$. Calculate the population size after 5 hours, assuming
 Unlimited resources (exponential growth).
 
-$$N_t = N_0 e^{rt} = 100 \times e^{0.693 \times 5} = 100 \times e^{3.465} = 100 \times 31.99 = 3199$$
+$$
+N_t = N_0 e^{rt} = 100 \times e^{0.693 \times 5} = 100 \times e^{3.465} = 100 \times 31.99 = 3199
+$$
 
 Note: $r = 0.693\ \mathrm{h^{-1}}$ corresponds to a doubling time of
 $t_d = \frac{\ln 2}{r} = \frac{0.693}{0.693} = 1\ \mathrm{hour}$. In 5 hours, the
@@ -460,11 +472,15 @@ within rounding).
 Increase $r = 1.2\ \mathrm{yr^{-1}}$. If the current population is $N = 100$What is the current rate
 Of population growth?
 
-$$\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right) = 1.2 \times 100 \times \left(1 - \frac{100}{500}\right) = 120 \times 0.8 = 96\ \mathrm{individuals\ yr^{-1}}$$
+$$
+\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right) = 1.2 \times 100 \times \left(1 - \frac{100}{500}\right) = 120 \times 0.8 = 96\ \mathrm{individuals\ yr^{-1}}
+$$
 
 When $N = 250$ (half of $K$), the growth rate is maximised:
 
-$$\frac{dN}{dt} = 1.2 \times 250 \times 0.5 = 150\ \mathrm{individuals\ yr^{-1}}$$
+$$
+\frac{dN}{dt} = 1.2 \times 250 \times 0.5 = 150\ \mathrm{individuals\ yr^{-1}}
+$$
 
 The maximum growth rate always occurs at $N = K/2$.
 
@@ -578,7 +594,9 @@ The 95% confidence interval is approximately $\bar{x} \pm 2 \times \mathrm{SE} =
 
 For mobile organisms that cannot be counted directly, the Lincoln index estimates population size:
 
-$$N = \frac{n_1 \times n_2}{n_3}$$
+$$
+N = \frac{n_1 \times n_2}{n_3}
+$$
 
 Where:
 
@@ -589,7 +607,9 @@ Where:
 **Worked Example.** A researcher studying woodlice captures 80 individuals, marks them, and releases
 Them. One week later, she captures 60 individuals, of which 12 are marked.
 
-$$N = \frac{80 \times 60}{12} = 400$$
+$$
+N = \frac{80 \times 60}{12} = 400
+$$
 
 Estimated population size $= 400$ woodlice.
 
@@ -614,7 +634,9 @@ inaccurate. If no marked individuals are recaptured ($n_3 = 0$), the method fail
 The ocean absorbs approximately 25--30% of anthropogenic $\mathrm{CO_2}$ emissions. Dissolved
 $\mathrm{CO_2}$ reacts with water:
 
-$$\mathrm{CO_2(aq)} + \mathrm{H_2O} \rightleftharpoons \mathrm{H_2CO_3} \rightleftharpoons \mathrm{H^+} + \mathrm{HCO_3^-} \rightleftharpoons 2\mathrm{H^+} + \mathrm{CO_3^{2-}}$$
+$$
+\mathrm{CO_2(aq)} + \mathrm{H_2O} \rightleftharpoons \mathrm{H_2CO_3} \rightleftharpoons \mathrm{H^+} + \mathrm{HCO_3^-} \rightleftharpoons 2\mathrm{H^+} + \mathrm{CO_3^{2-}}
+$$
 
 Increased $\mathrm{CO_2}$ drives this equilibrium to the right, increasing $[\mathrm{H^+}]$
 (decreasing PH) and decreasing $[\mathrm{CO_3^{2-}}]$.
@@ -914,7 +936,9 @@ application.
 
 **Exponential growth** occurs when resources are unlimited:
 
-$$N_t = N_0 e^{rt}$$
+$$
+N_t = N_0 e^{rt}
+$$
 
 Where $N_t$ = population size at time $t$, $N_0$ = initial population size, $r$ = intrinsic rate of
 increase, $t$ = time.
@@ -924,7 +948,9 @@ always finite.
 
 **Logistic growth** incorporates a carrying capacity ($K$):
 
-$$\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right)$$
+$$
+\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right)
+$$
 
 The logistic equation produces an S-shaped (sigmoidal) curve:
 
@@ -1077,7 +1103,9 @@ over 5 days ($\mathrm{BOD_5}$).
 The species-area relationship describes how the number of species in a habitat increases with
 habitat area:
 
-$$S = cA^z$$
+$$
+S = cA^z
+$$
 
 Where $S$ = number of species, $A$ = area, $c$ = constant (depends on the type of organism and
 habitat), $z$ = slope ( $0.2$--$0.35$ for islands).
@@ -1140,13 +1168,17 @@ per unit time.
 
 **Net Primary Production (NPP)**: GPP minus the energy lost through plant respiration ($R$).
 
-$$\text{NPP} = \text{GPP} - R$$
+$$
+\text{NPP} = \text{GPP} - R
+$$
 
 NPP is the energy available to herbivores (primary consumers).
 
 **Net Secondary Production (NSP)**: the energy incorporated into herbivore biomass.
 
-$$\text{NSP} = \text{energy consumed} - \text{energy lost in faeces} - \text{energy lost in respiration}$$
+$$
+\text{NSP} = \text{energy consumed} - \text{energy lost in faeces} - \text{energy lost in respiration}
+$$
 
 ### 17.2 Ecological Efficiency Calculations
 
@@ -1298,7 +1330,9 @@ Used to estimate the population size of mobile animals:
    population.
 5. Record the total number captured ($n_2$) and the number of marked recaptures ($m_2$).
 
-$$N = \frac{n_1 \times n_2}{m_2}$$
+$$
+N = \frac{n_1 \times n_2}{m_2}
+$$
 
 Where $N$ = estimated population size, $n_1$ = number captured and marked in the first sample, $n_2$
 = number captured in the second sample, $m_2$ = number of marked individuals in the second sample.
@@ -1324,7 +1358,9 @@ The estimated population size is 200.
 **Confidence interval:** if a different second sample might have produced different results, the
 estimate has uncertainty. For a rough estimate, the standard error can be approximated by:
 
-$$\text{SE} \approx \sqrt{\frac{n_1 \times n_2 \times (n_1 - m_2) \times (n_2 - m_2)}{m_2^3}}$$
+$$
+\text{SE} \approx \sqrt{\frac{n_1 \times n_2 \times (n_1 - m_2) \times (n_2 - m_2)}{m_2^3}}
+$$
 
 $\text{SE} = \sqrt{\frac{50 \times 40 \times 40 \times 30}{1000}} = \sqrt{\frac{2400000}{1000}} = \sqrt{2400} = 49$.
 
@@ -1403,7 +1439,9 @@ Photosynthetic efficiency $= \frac{189\,000}{1.0 \times 10^{10}} = 0.0019 = 0.19
 
 **Shannon diversity index ($H$):**
 
-$$H = -\sum p_i \ln p_i$$
+$$
+H = -\sum p_i \ln p_i
+$$
 
 Where $p_i$ is the proportion of individuals belonging to species $i$.
 
@@ -1417,18 +1455,24 @@ Total = 100.
 | C       | 15    | 0.15  | $-1.897$  | $-0.285$      |
 | D       | 5     | 0.05  | $-2.996$  | $-0.150$      |
 
-$$H = -(-0.347 - 0.361 - 0.285 - 0.150) = 1.14$$
+$$
+H = -(-0.347 - 0.361 - 0.285 - 0.150) = 1.14
+$$
 
 A higher $H$ value indicates greater biodiversity. The maximum possible value for 4 species (with
 equal abundance) is $\ln 4 = 1.386$.
 
 **Simpson's diversity index ($D$):**
 
-$$D = 1 - \sum p_i^2$$
+$$
+D = 1 - \sum p_i^2
+$$
 
 Using the same data:
 
-$$D = 1 - (0.25 + 0.09 + 0.0225 + 0.0025) = 1 - 0.365 = 0.635$$
+$$
+D = 1 - (0.25 + 0.09 + 0.0225 + 0.0025) = 1 - 0.365 = 0.635
+$$
 
 Values range from 0 (no diversity) to approaching 1 (infinite diversity).
 
@@ -1474,7 +1518,9 @@ Values range from 0 (no diversity) to approaching 1 (infinite diversity).
 A biologist captures 50 woodlice and marks them with non-toxic paint. The next day, she captures 40
 woodlice, of which 8 are marked.
 
-$$N = \frac{n_1 \times n_2}{n_3} = \frac{50 \times 40}{8} = 250$$
+$$
+N = \frac{n_1 \times n_2}{n_3} = \frac{50 \times 40}{8} = 250
+$$
 
 Estimated population size $= 250$ woodlice.
 
@@ -1499,7 +1545,9 @@ A sample from a grassland contains the following species abundances:
 | Daisy        | 5              | 0.025           | 0.000625  |
 | **Total**    | **200**        | **1.000**       | **0.419** |
 
-$$D = 1 - \sum p_i^2 = 1 - 0.419 = 0.581$$
+$$
+D = 1 - \sum p_i^2 = 1 - 0.419 = 0.581
+$$
 
 This indicates moderate biodiversity. A pristine ancient woodland might have $D > 0.9$; a heavily
 grazed monoculture pasture might have $D < 0.2$.
@@ -1600,15 +1648,21 @@ To convert biomass to energy:
 
 **Example:** A forest produces $2,500\ \mathrm{kg\ ha^{-1}\ yr^{-1}$ of dry biomass.
 
-$$\mathrm{NPP} = 2,500\ \times 18 = 45,000\ \mathrm{kJ\ ha^{-1}\ yr^{-1}$$
+$$
+\mathrm{NPP} = 2,500\ \times 18 = 45,000\ \mathrm{kJ\ ha^{-1}\ yr^{-1}
+$$
 
-$$\mathrm{GPP} = \mathrm{NPP} + R = 45,000 + 18,000 = 63,000\ \mathrm{kJ\ ha^{-1}\ yr^{-1}}$$
+$$
+\mathrm{GPP} = \mathrm{NPP} + R = 45,000 + 18,000 = 63,000\ \mathrm{kJ\ ha^{-1}\ yr^{-1}}
+$$
 
 Ecological efficiency (efficiency of energy transfer from producers to primary consumers):
 
 If primary consumers consume $5,000\ \mathrm{kg\ ha^{-1}\ yr^{-1}$ of plant biomass:
 
-$$\text{Efficiency} = \frac{5,000 \times 18}{63,000} \times 100 = 14.3\%$$
+$$
+\text{Efficiency} = \frac{5,000 \times 18}{63,000} \times 100 = 14.3\%
+$$
 
 ## 26. Succession in Detail
 
@@ -1691,7 +1745,9 @@ developing:
 
 ### 29.1 Simpson's Index of Diversity
 
-$$D = 1 - \frac{\sum n(n-1)}{N(N-1)}$$
+$$
+D = 1 - \frac{\sum n(n-1)}{N(N-1)}
+$$
 
 Where:
 
@@ -1715,7 +1771,9 @@ A woodland contains 4 species of tree:
 | Hazel           | 10                          | $10 \times 9 = 90$     |
 | **Total ($N$)** | **100**                     | $\sum n(n-1) = 2,900$  |
 
-$$D = 1 - \frac{2,900}{100 \times 99} = 1 - \frac{2,900}{9,900} = 1 - 0.293 = 0.707$$
+$$
+D = 1 - \frac{2,900}{100 \times 99} = 1 - \frac{2,900}{9,900} = 1 - 0.293 = 0.707
+$$
 
 ### 29.3 Species Richness vs Species Evenness
 

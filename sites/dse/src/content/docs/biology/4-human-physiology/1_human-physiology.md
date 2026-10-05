@@ -37,7 +37,9 @@ Seven classes of food are:
 Basal Metabolic Rate (BMR) is the minimum energy required to maintain vital functions at rest. Total
 Daily energy expenditure depends on:
 
-$$\mathrm{Total Energy} = \mathrm{BMR} + \mathrm{Physical Activity} + \mathrm{SDA (Specific Dynamic Action)}$$
+$$
+\mathrm{Total Energy} = \mathrm{BMR} + \mathrm{Physical Activity} + \mathrm{SDA (Specific Dynamic Action)}
+$$
 
 Average daily energy requirements:
 
@@ -138,7 +140,9 @@ Glands, liver, pancreas) secreting enzymes into the tract.
 - **Mucus:** Lubricates food for swallowing
 - **Water:** Dissolves food molecules for taste
 
-$$\mathrm{Starch} \xrightarrow{\mathrm{salivary amylase}} \mathrm{Maltose}$$
+$$
+\mathrm{Starch} \xrightarrow{\mathrm{salivary amylase}} \mathrm{Maltose}
+$$
 
 ### The Stomach
 
@@ -149,7 +153,9 @@ $$\mathrm{Starch} \xrightarrow{\mathrm{salivary amylase}} \mathrm{Maltose}$$
   polypeptides
 - **Mucus:** Protects the stomach lining from acid and enzymes
 
-$$\mathrm{Proteins} \xrightarrow{\mathrm{pepsin (pH 2)}} \mathrm{Polypeptides}$$
+$$
+\mathrm{Proteins} \xrightarrow{\mathrm{pepsin (pH 2)}} \mathrm{Polypeptides}
+$$
 
 The stomach churns food with gastric juice to form **chyme**, a semi-liquid acidic mixture. The
 Pyloric sphincter controls the release of chyme into the duodenum.
@@ -309,7 +315,9 @@ Water.
 5. Pressure in lungs decreases below atmospheric pressure
 6. Air rushes in
 
-$$P_{\mathrm{lung}} \lt P_{\mathrm{atm}} \implies \mathrm{air flows in}$$
+$$
+P_{\mathrm{lung}} \lt P_{\mathrm{atm}} \implies \mathrm{air flows in}
+$$
 
 **Exhalation (expiration) -- at rest (passive):**
 
@@ -320,7 +328,9 @@ $$P_{\mathrm{lung}} \lt P_{\mathrm{atm}} \implies \mathrm{air flows in}$$
 5. Pressure in lungs increases above atmospheric pressure
 6. Air is pushed out
 
-$$P_{\mathrm{lung}} \gt P_{\mathrm{atm}} \implies \mathrm{air flows out}$$
+$$
+P_{\mathrm{lung}} \gt P_{\mathrm{atm}} \implies \mathrm{air flows out}
+$$
 
 **Forced exhalation:** Internal intercostal muscles and abdominal muscles contract actively.
 
@@ -338,9 +348,13 @@ $$P_{\mathrm{lung}} \gt P_{\mathrm{atm}} \implies \mathrm{air flows out}$$
 
 **Diffusion of gases:**
 
-$$\mathrm{O}_2 \mathrm{ (alveolar air, } pO_2 \approx 13.3 \mathrm{ kPa)} \to \mathrm{O}_2 \mathrm{ (blood, } pO_2 \approx 5.3 \mathrm{ kPa)}$$
+$$
+\mathrm{O}_2 \mathrm{ (alveolar air, } pO_2 \approx 13.3 \mathrm{ kPa)} \to \mathrm{O}_2 \mathrm{ (blood, } pO_2 \approx 5.3 \mathrm{ kPa)}
+$$
 
-$$\mathrm{CO}_2 \mathrm{ (blood, } pCO_2 \approx 6.0 \mathrm{ kPa)} \to \mathrm{CO}_2 \mathrm{ (alveolar air, } pCO_2 \approx 5.3 \mathrm{ kPa)}$$
+$$
+\mathrm{CO}_2 \mathrm{ (blood, } pCO_2 \approx 6.0 \mathrm{ kPa)} \to \mathrm{CO}_2 \mathrm{ (alveolar air, } pCO_2 \approx 5.3 \mathrm{ kPa)}
+$$
 
 Oxygen diffuses from alveolar air into the blood; carbon dioxide diffuses from blood into alveolar
 Air. Both movements are down their respective partial pressure gradients.
@@ -549,7 +563,9 @@ Patient 3 could receive O blood to conserve the limited AB supply.
 
 Each haemoglobin molecule can carry up to 4 oxygen molecules:
 
-$$\mathrm{Hb} + 4\mathrm{O}_2 \rightleftharpoons \mathrm{HbO}_8$$
+$$
+\mathrm{Hb} + 4\mathrm{O}_2 \rightleftharpoons \mathrm{HbO}_8
+$$
 
 In the lungs (high $pO_2$), oxygen binds to haemoglobin (loading). In the tissues (low $pO_2$),
 Oxygen dissociates from haemoglobin (unloading).
@@ -559,7 +575,9 @@ Oxygen dissociates from haemoglobin (unloading).
 The oxygen dissociation curve is an S-shaped (sigmoid) curve showing the relationship between the
 Partial pressure of oxygen ($pO_2$) and the percentage saturation of haemoglobin.
 
-$$\mathrm{Percentage saturation of Hb vs } pO_2$$
+$$
+\mathrm{Percentage saturation of Hb vs } pO_2
+$$
 
 Key points:
 
@@ -1647,7 +1665,9 @@ phases:
 
 ### Cardiac Output
 
-$$\text{Cardiac output} = \text{Heart rate} \times \text{Stroke volume}$$
+$$
+\text{Cardiac output} = \text{Heart rate} \times \text{Stroke volume}
+$$
 
 | Component      | Normal Value (at rest) | During Exercise                                                                    |
 | -------------- | ---------------------- | ---------------------------------------------------------------------------------- |
@@ -1723,7 +1743,9 @@ arteries, narrowing the lumen and restricting blood flow to the heart muscle.
 
 Blood pressure is measured using a sphygmomanometer and is expressed as two values:
 
-$$\text{Blood pressure} = \frac{\text{Systolic pressure}}{\text{Diastolic pressure}} \text{ mmHg}$$
+$$
+\text{Blood pressure} = \frac{\text{Systolic pressure}}{\text{Diastolic pressure}} \text{ mmHg}
+$$
 
 | Component          | Description                                                                        | Normal Value |
 | ------------------ | ---------------------------------------------------------------------------------- | ------------ |
@@ -1888,7 +1910,9 @@ transported to the kidneys for excretion:
 3. Arginine is broken down by arginase to produce urea and regenerate ornithine (the cycle
    continues)
 
-$$2\mathrm{NH_3} + \mathrm{CO_2} \rightarrow \mathrm{CO(NH_2)_2} + \mathrm{H_2O}$$
+$$
+2\mathrm{NH_3} + \mathrm{CO_2} \rightarrow \mathrm{CO(NH_2)_2} + \mathrm{H_2O}
+$$
 
 ---
 

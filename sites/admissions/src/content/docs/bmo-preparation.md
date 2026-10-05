@@ -148,7 +148,9 @@ graph Properties such as degree.
 
 For finite sets $A_1, A_2, \ldots, A_n$:
 
-$$\left|\bigcup_{i=1}^{n} A_i\right| = \sum_{i}|A_i| - \sum_{i<j}|A_i \cap A_j| + \sum_{i<j<k}|A_i \cap A_j \cap A_k| - \cdots$$
+$$
+\left|\bigcup_{i=1}^{n} A_i\right| = \sum_{i}|A_i| - \sum_{i<j}|A_i \cap A_j| + \sum_{i<j<k}|A_i \cap A_j \cap A_k| - \cdots
+$$
 
 Particularly useful when objects may satisfy multiple overlapping conditions.
 
@@ -180,17 +182,23 @@ $(1+x)^{\alpha} = \sum_{k=0}^{\infty} \binom{\alpha}{k} x^k$.
 
 **AM-GM Inequality.** For non-negative reals $x_1, \ldots, x_n$:
 
-$$\frac{x_1 + \cdots + x_n}{n} \geq \sqrt[n]{x_1 \cdots x_n}$$
+$$
+\frac{x_1 + \cdots + x_n}{n} \geq \sqrt[n]{x_1 \cdots x_n}
+$$
 
 With equality iff all $x_i$ are equal.
 
 **Cauchy-Schwarz Inequality.** For real numbers $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$:
 
-$$\left(\sum_{i=1}^{n} a_i b_i\right)^2 \leq \left(\sum_{i=1}^{n} a_i^2\right)\left(\sum_{i=1}^{n} b_i^2\right)$$
+$$
+\left(\sum_{i=1}^{n} a_i b_i\right)^2 \leq \left(\sum_{i=1}^{n} a_i^2\right)\left(\sum_{i=1}^{n} b_i^2\right)
+$$
 
 **Rearrangement Inequality.** If $a_1 \leq \cdots \leq a_n$ and $b_1 \leq \cdots \leq b_n$ Then:
 
-$$\sum_{i=1}^{n} a_i b_{n+1-i} \leq \sum_{i=1}^{n} a_i b_{\sigma(i)} \leq \sum_{i=1}^{n} a_i b_i$$
+$$
+\sum_{i=1}^{n} a_i b_{n+1-i} \leq \sum_{i=1}^{n} a_i b_{\sigma(i)} \leq \sum_{i=1}^{n} a_i b_i
+$$
 
 For any permutation $\sigma$.
 
@@ -440,7 +448,9 @@ This bound is achieved by any triangulation of the $2n$-gon, which uses exactly 
 
 **Solution.** By the power of $M$ with respect to $\Gamma$:
 
-$$MA \cdot MN = MB^2 = MC^2$$
+$$
+MA \cdot MN = MB^2 = MC^2
+$$
 
 Thus $\triangle MNB \sim \triangle MBA$ by SAS ($MN/MB = MB/MA$Sharing the angle at $M$). Similarly,
 $\triangle MNC \sim \triangle MCA$.

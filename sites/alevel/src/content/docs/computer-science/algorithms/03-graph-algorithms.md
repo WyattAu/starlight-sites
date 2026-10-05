@@ -233,7 +233,9 @@ Find shortest paths between **all pairs** of vertices.
 
 ### Algorithm
 
-$$\mathrm{dist}^{(k)}[i][j] = \min\left(\mathrm{dist}^{(k-1)}[i][j],\ \mathrm{dist}^{(k-1)}[i][k] + \mathrm{dist}^{(k-1)}[k][j]\right)$$
+$$
+\mathrm{dist}^{(k)}[i][j] = \min\left(\mathrm{dist}^{(k-1)}[i][j],\ \mathrm{dist}^{(k-1)}[i][k] + \mathrm{dist}^{(k-1)}[k][j]\right)
+$$
 
 ```python
 def floyd_warshall(graph):

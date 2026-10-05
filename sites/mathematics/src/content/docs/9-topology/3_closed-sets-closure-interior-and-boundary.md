@@ -40,7 +40,9 @@ closed.
 **Definition.** The **closure** of $A \subseteq X$, denoted $\overline{A}$, is the smallest closed
 set containing $A$:
 
-$$\overline{A} = \bigcap \{F : F \text{ is closed and } A \subseteq F\}.$$
+$$
+\overline{A} = \bigcap \{F : F \text{ is closed and } A \subseteq F\}.
+$$
 
 Equivalently, $x \in \overline{A}$ if and only if every open set containing $x$ intersects $A$.
 
@@ -55,7 +57,9 @@ $\{(x, y) : x^2 + y^2 < 1\}$ is the closed unit disc $\{(x, y) : x^2 + y^2 \leq 
 **Definition.** The **interior** of $A \subseteq X$, denoted $\mathring{A}$ or
 $\operatorname{int}(A)$, is the largest open set contained in $A$:
 
-$$\operatorname{int}(A) = \bigcup \{U : U \text{ is open and } U \subseteq A\}.$$
+$$
+\operatorname{int}(A) = \bigcup \{U : U \text{ is open and } U \subseteq A\}.
+$$
 
 Equivalently, $x \in \operatorname{int}(A)$ if and only if there exists an open set $U$ with
 $x \in U \subseteq A$.
@@ -67,7 +71,9 @@ $\operatorname{int}(\mathbb{Q}) = \emptyset$.
 
 **Definition.** The **boundary** of $A \subseteq X$, denoted $\partial A$, is:
 
-$$\partial A = \overline{A} \cap \overline{X \setminus A} = \overline{A} \setminus \operatorname{int}(A).$$
+$$
+\partial A = \overline{A} \cap \overline{X \setminus A} = \overline{A} \setminus \operatorname{int}(A).
+$$
 
 **Example 3.7.** In $\mathbb{R}$: $\partial(0, 1) = \{0, 1\}$, $\partial\mathbb{Q} = \mathbb{R}$,
 $\partial\emptyset = \emptyset$.

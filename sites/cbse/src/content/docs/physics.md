@@ -193,7 +193,9 @@ equilibrium.
 
 ### 3.1 Coulomb's Law
 
-$$F = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}$$
+$$
+F = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}
+$$
 
 where $\dfrac{1}{4\pi\varepsilon_0} = 9 \times 10^9\;\text{N m}^2\text{ C}^{-2}$.
 
@@ -237,7 +239,9 @@ constant.
 
 ### 4.1 Ohm's Law and Resistance
 
-$$V = IR$$
+$$
+V = IR
+$$
 
 **Resistivity:** $R = \rho\frac{L}{A}$
 
@@ -278,7 +282,9 @@ At balance: $\frac{P}{Q} = \frac{R}{S}$ (galvanometer reads zero current).
 
 ### 5.1 Biot-Savart Law
 
-$$d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}$$
+$$
+d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}
+$$
 
 **Field due to a long straight wire:** $B = \frac{\mu_0 I}{2\pi r}$
 
@@ -286,7 +292,9 @@ $$d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}$$
 
 ### 5.2 Ampere's Law
 
-$$\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}$$
+$$
+\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}
+$$
 
 **Inside a solenoid:** $B = \mu_0 n I$ where $n = N/L$ is the number of turns per unit length.
 
@@ -357,7 +365,9 @@ $\theta_1 > \theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)$ for $n_1 > n_2$.
 
 **Interference (Young's double slit):**
 
-$$y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \frac{1}{2}\right)\frac{\lambda D}{d} \quad \text{(dark fringes)}$$
+$$
+y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \frac{1}{2}\right)\frac{\lambda D}{d} \quad \text{(dark fringes)}
+$$
 
 **Fringe width:** $\beta = \frac{\lambda D}{d}$
 
@@ -382,7 +392,9 @@ $$y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \f
 
 **Photoelectric effect (Einstein's equation):**
 
-$$K_{\max} = h\nu - \phi$$
+$$
+K_{\max} = h\nu - \phi
+$$
 
 where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequency.
 

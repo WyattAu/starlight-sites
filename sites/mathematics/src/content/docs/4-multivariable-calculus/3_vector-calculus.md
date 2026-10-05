@@ -43,17 +43,23 @@ path), And one verifies that $\nabla \phi = \mathbf{F}$. $\blacksquare$
 **Definition.** The **line integral** of a vector field $\mathbf{F}$ along a curve $C$ parameterised
 by $\mathbf{r}(t)$ for $a \leq t \leq b$ is
 
-$$\int_C \mathbf{F} \cdot d\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t)\, dt$$
+$$
+\int_C \mathbf{F} \cdot d\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t)\, dt
+$$
 
 **Theorem 3.2 (Fundamental Theorem for Line Integrals).** If $\mathbf{F} = \nabla \phi$ and $C$ is a
 Piecewise smooth curve from $A$ to $B$ Then
 
-$$\int_C \mathbf{F} \cdot d\mathbf{r} = \phi(B) - \phi(A)$$
+$$
+\int_C \mathbf{F} \cdot d\mathbf{r} = \phi(B) - \phi(A)
+$$
 
 _Proof._ Parameterise $C$ by $\mathbf{r}(t)$ for $t \in [a,b]$ with $\mathbf{r}(a) = A$
 $\mathbf{r}(b) = B$.
 
-$$\int_C \mathbf{F} \cdot d\mathbf{r} = \int_a^b \nabla \phi(\mathbf{r}(t)) \cdot \mathbf{r}'(t)\, dt = \int_a^b \frac{d}{dt}\left[\phi(\mathbf{r}(t))\right]\, dt = \phi(\mathbf{r}(b)) - \phi(\mathbf{r}(a)) = \phi(B) - \phi(A)$$
+$$
+\int_C \mathbf{F} \cdot d\mathbf{r} = \int_a^b \nabla \phi(\mathbf{r}(t)) \cdot \mathbf{r}'(t)\, dt = \int_a^b \frac{d}{dt}\left[\phi(\mathbf{r}(t))\right]\, dt = \phi(\mathbf{r}(b)) - \phi(\mathbf{r}(a)) = \phi(B) - \phi(A)
+$$
 
 By the chain rule. $\blacksquare$
 
@@ -68,25 +74,41 @@ $0 \leq t \leq 1$.
 
 First check if $\mathbf{F}$ is conservative. Compute the curl:
 
-$$(\nabla \times \mathbf{F})_x = \frac{\partial (z+1)}{\partial y} - \frac{\partial (x + e^y)}{\partial z} = 0 - 0 = 0$$
+$$
+(\nabla \times \mathbf{F})_x = \frac{\partial (z+1)}{\partial y} - \frac{\partial (x + e^y)}{\partial z} = 0 - 0 = 0
+$$
 
-$$(\nabla \times \mathbf{F})_y = \frac{\partial y}{\partial z} - \frac{\partial (z+1)}{\partial x} = 0 - 0 = 0$$
+$$
+(\nabla \times \mathbf{F})_y = \frac{\partial y}{\partial z} - \frac{\partial (z+1)}{\partial x} = 0 - 0 = 0
+$$
 
-$$(\nabla \times \mathbf{F})_z = \frac{\partial (x + e^y)}{\partial x} - \frac{\partial y}{\partial y} = 1 - 1 = 0$$
+$$
+(\nabla \times \mathbf{F})_z = \frac{\partial (x + e^y)}{\partial x} - \frac{\partial y}{\partial y} = 1 - 1 = 0
+$$
 
 Since $\nabla \times \mathbf{F} = \mathbf{0}$, $\mathbf{F}$ is conservative. Find $\phi$:
 
-$$\frac{\partial \phi}{\partial x} = y \implies \phi = xy + g(y,z)$$
+$$
+\frac{\partial \phi}{\partial x} = y \implies \phi = xy + g(y,z)
+$$
 
-$$\frac{\partial \phi}{\partial y} = x + g_y = x + e^y \implies g_y = e^y \implies g = e^y + h(z)$$
+$$
+\frac{\partial \phi}{\partial y} = x + g_y = x + e^y \implies g_y = e^y \implies g = e^y + h(z)
+$$
 
-$$\frac{\partial \phi}{\partial z} = h'(z) = z + 1 \implies h(z) = \frac{z^2}{2} + z + C$$
+$$
+\frac{\partial \phi}{\partial z} = h'(z) = z + 1 \implies h(z) = \frac{z^2}{2} + z + C
+$$
 
-$$\phi(x,y,z) = xy + e^y + \frac{z^2}{2} + z$$
+$$
+\phi(x,y,z) = xy + e^y + \frac{z^2}{2} + z
+$$
 
 Now apply the fundamental theorem:
 
-$$\int_C \mathbf{F} \cdot d\mathbf{r} = \phi(1, 1, 1) - \phi(0, 0, 0) = \left(1 + e + \frac{1}{2} + 1\right) - (1 + 1) = e + \frac{1}{2}$$
+$$
+\int_C \mathbf{F} \cdot d\mathbf{r} = \phi(1, 1, 1) - \phi(0, 0, 0) = \left(1 + e + \frac{1}{2} + 1\right) - (1 + 1) = e + \frac{1}{2}
+$$
 
 $\blacksquare$
 
@@ -98,7 +120,9 @@ $\blacksquare$
 Curve bounding a region $D$. If $P$ and $Q$ have continuous partial derivatives on an open set
 Containing $D$ Then
 
-$$\oint_C P\, dx + Q\, dy = \iint_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) dA$$
+$$
+\oint_C P\, dx + Q\, dy = \iint_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) dA
+$$
 
 _Proof (for a Type I region)._ Assume $D$ is a Type I region:
 $D = \\{(x,y) : a \leq x \leq b,\, g_1(x) \leq y \leq g_2(x)\\}$. The boundary $C$ consists of Four
@@ -115,13 +139,19 @@ On $C_2$ and $C_4$: $x$ is constant, so $dx = 0$Hence $\int_{C_2} P\, dx = \int_
 
 Therefore:
 
-$$\oint_C P\, dx = \int_a^b P(x, g_1(x))\, dx - \int_a^b P(x, g_2(x))\, dx$$
+$$
+\oint_C P\, dx = \int_a^b P(x, g_1(x))\, dx - \int_a^b P(x, g_2(x))\, dx
+$$
 
 Meanwhile:
 
-$$-\iint_D \frac{\partial P}{\partial y}\, dA = -\int_a^b \int_{g_1(x)}^{g_2(x)} \frac{\partial P}{\partial y}\, dy\, dx = -\int_a^b \left[P(x, g_2(x)) - P(x, g_1(x))\right]\, dx$$
+$$
+-\iint_D \frac{\partial P}{\partial y}\, dA = -\int_a^b \int_{g_1(x)}^{g_2(x)} \frac{\partial P}{\partial y}\, dy\, dx = -\int_a^b \left[P(x, g_2(x)) - P(x, g_1(x))\right]\, dx
+$$
 
-$$= \int_a^b P(x, g_1(x))\, dx - \int_a^b P(x, g_2(x))\, dx = \oint_C P\, dx$$
+$$
+= \int_a^b P(x, g_1(x))\, dx - \int_a^b P(x, g_2(x))\, dx = \oint_C P\, dx
+$$
 
 An identical argument (using Type II regions) proves
 $\oint_C Q\, dy = \iint_D \frac{\partial Q}{\partial x}\, dA$. Adding the two equalities gives the
@@ -133,9 +163,13 @@ Traversed counterclockwise.
 
 _Solution._ By Green's theorem with $P = x^2 - y$ and $Q = y^2 + x$:
 
-$$\frac{\partial Q}{\partial x} = 1, \quad \frac{\partial P}{\partial y} = -1$$
+$$
+\frac{\partial Q}{\partial x} = 1, \quad \frac{\partial P}{\partial y} = -1
+$$
 
-$$\oint_C P\, dx + Q\, dy = \iint_D (1 - (-1))\, dA = 2 \iint_D dA = 2 \cdot \pi \cdot 1^2 = 2\pi$$
+$$
+\oint_C P\, dx + Q\, dy = \iint_D (1 - (-1))\, dA = 2 \iint_D dA = 2 \cdot \pi \cdot 1^2 = 2\pi
+$$
 
 $\blacksquare$
 
@@ -145,11 +179,15 @@ $\blacksquare$
 
 The **curl** of $\mathbf{F}$ is
 
-$$\nabla \times \mathbf{F} = \left(\frac{\partial R}{\partial y} - \frac{\partial Q}{\partial z},\, \frac{\partial P}{\partial z} - \frac{\partial R}{\partial x},\, \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right)$$
+$$
+\nabla \times \mathbf{F} = \left(\frac{\partial R}{\partial y} - \frac{\partial Q}{\partial z},\, \frac{\partial P}{\partial z} - \frac{\partial R}{\partial x},\, \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right)
+$$
 
 The **divergence** of $\mathbf{F}$ is
 
-$$\nabla \cdot \mathbf{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}$$
+$$
+\nabla \cdot \mathbf{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}
+$$
 
 _Physical interpretation._ If $\mathbf{F}$ represents the velocity field of a fluid:
 
@@ -164,13 +202,19 @@ _Physical interpretation._ If $\mathbf{F}$ represents the velocity field of a fl
 
 **Proposition 3.5.** For any $C^2$ vector field $\mathbf{F}$:
 
-$$\nabla \cdot (\nabla \times \mathbf{F}) = 0 \quad \mathrm{(div\ of\ curl\ is\ zero)}$$
+$$
+\nabla \cdot (\nabla \times \mathbf{F}) = 0 \quad \mathrm{(div\ of\ curl\ is\ zero)}
+$$
 
-$$\nabla \times (\nabla \phi) = \mathbf{0} \quad \mathrm{(curl\ of\ gradient\ is\ zero)}$$
+$$
+\nabla \times (\nabla \phi) = \mathbf{0} \quad \mathrm{(curl\ of\ gradient\ is\ zero)}
+$$
 
 _Proof._ Both follow from Clairaut's theorem on equality of mixed partials. For the first:
 
-$$\nabla \cdot (\nabla \times \mathbf{F}) = \frac{\partial}{\partial x}\left(\frac{\partial R}{\partial y} - \frac{\partial Q}{\partial z}\right) + \frac{\partial}{\partial y}\left(\frac{\partial P}{\partial z} - \frac{\partial R}{\partial x}\right) + \frac{\partial}{\partial z}\left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right)$$
+$$
+\nabla \cdot (\nabla \times \mathbf{F}) = \frac{\partial}{\partial x}\left(\frac{\partial R}{\partial y} - \frac{\partial Q}{\partial z}\right) + \frac{\partial}{\partial y}\left(\frac{\partial P}{\partial z} - \frac{\partial R}{\partial x}\right) + \frac{\partial}{\partial z}\left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right)
+$$
 
 Each pair cancels by Clairaut:
 $\frac{\partial^2 R}{\partial x\,\partial y} = \frac{\partial^2 R}{\partial y\,\partial x}$Etc.
@@ -182,20 +226,26 @@ $\blacksquare$
 curve $C$ (positively oriented). If $\mathbf{F}$ has continuous partial derivatives on an open set
 containing $S$ Then
 
-$$\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S}$$
+$$
+\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S}
+$$
 
 Where $d\mathbf{S} = \mathbf{n}\, dS$ is the vector surface element with unit normal $\mathbf{n}$.
 
 _Proof (sketch)._ Parametrise $S$ by $\mathbf{r}(u,v)$ over a region $D$ in the $uv$-plane. The
 boundary $C$ of $S$ corresponds to the boundary $\partial D$ of $D$. The left-hand side becomes:
 
-$$\oint_C \mathbf{F} \cdot d\mathbf{r} = \oint_{\partial D} \mathbf{F}(\mathbf{r}(u,v)) \cdot \left(\frac{\partial \mathbf{r}}{\partial u}\, du + \frac{\partial \mathbf{r}}{\partial v}\, dv\right)$$
+$$
+\oint_C \mathbf{F} \cdot d\mathbf{r} = \oint_{\partial D} \mathbf{F}(\mathbf{r}(u,v)) \cdot \left(\frac{\partial \mathbf{r}}{\partial u}\, du + \frac{\partial \mathbf{r}}{\partial v}\, dv\right)
+$$
 
 Define $\tilde{P}(u,v) = \mathbf{F}(\mathbf{r}(u,v)) \cdot \mathbf{r}_u$ and
 $\tilde{Q}(u,v) = \mathbf{F}(\mathbf{r}(u,v)) \cdot \mathbf{r}_v$. Applying Green's theorem in the
 $uv$-plane:
 
-$$\oint_{\partial D} \tilde{P}\, du + \tilde{Q}\, dv = \iint_D \left(\frac{\partial \tilde{Q}}{\partial u} - \frac{\partial \tilde{P}}{\partial v}\right) du\, dv$$
+$$
+\oint_{\partial D} \tilde{P}\, du + \tilde{Q}\, dv = \iint_D \left(\frac{\partial \tilde{Q}}{\partial u} - \frac{\partial \tilde{P}}{\partial v}\right) du\, dv
+$$
 
 Expanding the partial derivatives and using the identity
 $\mathbf{r}_u \times \mathbf{r}_v = \mathbf{n}\, \lVert \mathbf{r}_u \times \mathbf{r}_v \rVert$One
@@ -215,28 +265,44 @@ $(0,0,1)$ traversed counterclockwise when viewed from above.
 
 The triangle lies in the plane $x + y + z = 1$. Compute $\nabla \times \mathbf{F}$:
 
-$$(\nabla \times \mathbf{F})_x = \frac{\partial (x^2)}{\partial y} - \frac{\partial (xz)}{\partial z} = 0 - x = -x$$
+$$
+(\nabla \times \mathbf{F})_x = \frac{\partial (x^2)}{\partial y} - \frac{\partial (xz)}{\partial z} = 0 - x = -x
+$$
 
-$$(\nabla \times \mathbf{F})_y = \frac{\partial (y^2)}{\partial z} - \frac{\partial (x^2)}{\partial x} = 0 - 2x = -2x$$
+$$
+(\nabla \times \mathbf{F})_y = \frac{\partial (y^2)}{\partial z} - \frac{\partial (x^2)}{\partial x} = 0 - 2x = -2x
+$$
 
-$$(\nabla \times \mathbf{F})_z = \frac{\partial (xz)}{\partial x} - \frac{\partial (y^2)}{\partial y} = z - 2y$$
+$$
+(\nabla \times \mathbf{F})_z = \frac{\partial (xz)}{\partial x} - \frac{\partial (y^2)}{\partial y} = z - 2y
+$$
 
 So $\nabla \times \mathbf{F} = (-x,\, -2x,\, z - 2y)$.
 
 Parametrise the triangle in the $xy$-plane: $0 \leq x \leq 1$, $0 \leq y \leq 1 - x$. On the plane
 $z = 1 - x - y$The surface element $dS = \sqrt{3}\, dx\, dy$.
 
-$$\iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = \frac{1}{\sqrt{3}} \iint_S (-x - 2x + z - 2y)\, dS$$
+$$
+\iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = \frac{1}{\sqrt{3}} \iint_S (-x - 2x + z - 2y)\, dS
+$$
 
 On the plane: $-3x - 2y + z = -3x - 2y + 1 - x - y = -4x - 3y + 1$.
 
-$$= \frac{1}{\sqrt{3}} \int_0^1 \int_0^{1-x} (-4x - 3y + 1)\, \sqrt{3}\, dy\, dx = \int_0^1 \int_0^{1-x} (-4x - 3y + 1)\, dy\, dx$$
+$$
+= \frac{1}{\sqrt{3}} \int_0^1 \int_0^{1-x} (-4x - 3y + 1)\, \sqrt{3}\, dy\, dx = \int_0^1 \int_0^{1-x} (-4x - 3y + 1)\, dy\, dx
+$$
 
-$$= \int_0^1 \left[(-4x + 1)y - \frac{3y^2}{2}\right]_0^{1-x}\, dx = \int_0^1 (-4x + 1)(1 - x) - \frac{3(1-x)^2}{2}\, dx$$
+$$
+= \int_0^1 \left[(-4x + 1)y - \frac{3y^2}{2}\right]_0^{1-x}\, dx = \int_0^1 (-4x + 1)(1 - x) - \frac{3(1-x)^2}{2}\, dx
+$$
 
-$$= \int_0^1 \left[4x^2 - 5x + 1 - \frac{3}{2} + 3x - \frac{3x^2}{2}\right]\, dx = \int_0^1 \left[\frac{5x^2}{2} - 2x - \frac{1}{2}\right]\, dx$$
+$$
+= \int_0^1 \left[4x^2 - 5x + 1 - \frac{3}{2} + 3x - \frac{3x^2}{2}\right]\, dx = \int_0^1 \left[\frac{5x^2}{2} - 2x - \frac{1}{2}\right]\, dx
+$$
 
-$$= \left[\frac{5x^3}{6} - x^2 - \frac{x}{2}\right]_0^1 = \frac{5}{6} - 1 - \frac{1}{2} = -\frac{2}{3}$$
+$$
+= \left[\frac{5x^3}{6} - x^2 - \frac{x}{2}\right]_0^1 = \frac{5}{6} - 1 - \frac{1}{2} = -\frac{2}{3}
+$$
 
 $\blacksquare$
 
@@ -248,7 +314,9 @@ $\blacksquare$
 closed Surface $S$ with outward normal $\mathbf{n}$. If $\mathbf{F}$ has continuous partial
 derivatives on an Open set containing $E$ Then
 
-$$\iint_S \mathbf{F} \cdot d\mathbf{S} = \iiint_E \nabla \cdot \mathbf{F}\, dV$$
+$$
+\iint_S \mathbf{F} \cdot d\mathbf{S} = \iiint_E \nabla \cdot \mathbf{F}\, dV
+$$
 
 Where
 $\nabla \cdot \mathbf{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}$
@@ -264,7 +332,9 @@ $\iint_S R\, \mathbf{k} \cdot d\mathbf{S} = \iiint_E \frac{\partial R}{\partial 
 
 The right-hand side:
 
-$$\iiint_E \frac{\partial R}{\partial z}\, dV = \iint_D \int_{g_1(x,y)}^{g_2(x,y)} \frac{\partial R}{\partial z}\, dz\, dA = \iint_D \left[R(x,y,g_2) - R(x,y,g_1)\right]\, dA$$
+$$
+\iiint_E \frac{\partial R}{\partial z}\, dV = \iint_D \int_{g_1(x,y)}^{g_2(x,y)} \frac{\partial R}{\partial z}\, dz\, dA = \iint_D \left[R(x,y,g_2) - R(x,y,g_1)\right]\, dA
+$$
 
 On $S_2$ (top): $d\mathbf{S} = (-g_{2x}, -g_{2y}, 1)\, dA$ (upward), so
 $R\, \mathbf{k} \cdot d\mathbf{S} = R(x,y,g_2)\, dA$.
@@ -284,13 +354,19 @@ Regions. For general regions, decompose into finitely many regions of each type.
 
 _Solution._ By the divergence theorem:
 
-$$\nabla \cdot \mathbf{F} = 3x^2 + 3y^2 + 3z^2 = 3(x^2 + y^2 + z^2) = 3\rho^2$$
+$$
+\nabla \cdot \mathbf{F} = 3x^2 + 3y^2 + 3z^2 = 3(x^2 + y^2 + z^2) = 3\rho^2
+$$
 
 Using spherical coordinates:
 
-$$\iiint_E 3\rho^2 \cdot \rho^2 \sin\phi\, d\rho\, d\phi\, d\theta = 3 \int_0^{2\pi} \int_0^{\pi} \int_0^1 \rho^4 \sin\phi\, d\rho\, d\phi\, d\theta$$
+$$
+\iiint_E 3\rho^2 \cdot \rho^2 \sin\phi\, d\rho\, d\phi\, d\theta = 3 \int_0^{2\pi} \int_0^{\pi} \int_0^1 \rho^4 \sin\phi\, d\rho\, d\phi\, d\theta
+$$
 
-$$= 3 \cdot 2\pi \cdot 2 \cdot \frac{1}{5} = \frac{12\pi}{5}$$
+$$
+= 3 \cdot 2\pi \cdot 2 \cdot \frac{1}{5} = \frac{12\pi}{5}
+$$
 
 $\blacksquare$
 
@@ -302,18 +378,26 @@ the Cylinder $x^2 + y^2 \leq 1$, $0 \leq z \leq 2$.
 
 By the divergence theorem:
 
-$$\nabla \cdot \mathbf{F} = 2x + 2y + 2z$$
+$$
+\nabla \cdot \mathbf{F} = 2x + 2y + 2z
+$$
 
 Use cylindrical coordinates. The region $E'$ is $0 \leq r \leq 1$, $0 \leq \theta \leq 2\pi$
 $0 \leq z \leq 2$.
 
-$$\iiint_E (2x + 2y + 2z)\, dV = \iiint_E 2z\, dV$$
+$$
+\iiint_E (2x + 2y + 2z)\, dV = \iiint_E 2z\, dV
+$$
 
 Since $\iint_E x\, dV = \iint_E y\, dV = 0$ by symmetry (odd functions over a symmetric domain).
 
-$$= 2 \int_0^{2\pi} \int_0^1 \int_0^2 z \cdot r\, dz\, dr\, d\theta = 2 \int_0^{2\pi} \int_0^1 r\left[\frac{z^2}{2}\right]_0^2\, dr\, d\theta$$
+$$
+= 2 \int_0^{2\pi} \int_0^1 \int_0^2 z \cdot r\, dz\, dr\, d\theta = 2 \int_0^{2\pi} \int_0^1 r\left[\frac{z^2}{2}\right]_0^2\, dr\, d\theta
+$$
 
-$$= 2 \int_0^{2\pi} \int_0^1 2r\, dr\, d\theta = 2 \int_0^{2\pi} 1\, d\theta = 2 \cdot 2\pi = 4\pi$$
+$$
+= 2 \int_0^{2\pi} \int_0^1 2r\, dr\, d\theta = 2 \int_0^{2\pi} 1\, d\theta = 2 \cdot 2\pi = 4\pi
+$$
 
 $\blacksquare$
 
@@ -350,19 +434,31 @@ And if so, find a potential function.
 
 Check the curl:
 
-$$(\nabla \times \mathbf{F})_x = \frac{\partial}{\partial y}(2xz + y^2) - \frac{\partial}{\partial z}(x^2 + 2yz) = 2y - 2y = 0$$
+$$
+(\nabla \times \mathbf{F})_x = \frac{\partial}{\partial y}(2xz + y^2) - \frac{\partial}{\partial z}(x^2 + 2yz) = 2y - 2y = 0
+$$
 
-$$(\nabla \times \mathbf{F})_y = \frac{\partial}{\partial z}(2xy + z^2) - \frac{\partial}{\partial x}(2xz + y^2) = 2z - 2z = 0$$
+$$
+(\nabla \times \mathbf{F})_y = \frac{\partial}{\partial z}(2xy + z^2) - \frac{\partial}{\partial x}(2xz + y^2) = 2z - 2z = 0
+$$
 
-$$(\nabla \times \mathbf{F})_z = \frac{\partial}{\partial x}(x^2 + 2yz) - \frac{\partial}{\partial y}(2xy + z^2) = 2x - 2x = 0$$
+$$
+(\nabla \times \mathbf{F})_z = \frac{\partial}{\partial x}(x^2 + 2yz) - \frac{\partial}{\partial y}(2xy + z^2) = 2x - 2x = 0
+$$
 
 Since $\nabla \times \mathbf{F} = \mathbf{0}$, $\mathbf{F}$ is conservative. Find $\phi$:
 
-$$\frac{\partial \phi}{\partial x} = 2xy + z^2 \implies \phi = x^2 y + xz^2 + g(y,z)$$
+$$
+\frac{\partial \phi}{\partial x} = 2xy + z^2 \implies \phi = x^2 y + xz^2 + g(y,z)
+$$
 
-$$\frac{\partial \phi}{\partial y} = x^2 + g_y(y,z) = x^2 + 2yz \implies g_y(y,z) = 2yz \implies g(y,z) = y^2 z + h(z)$$
+$$
+\frac{\partial \phi}{\partial y} = x^2 + g_y(y,z) = x^2 + 2yz \implies g_y(y,z) = 2yz \implies g(y,z) = y^2 z + h(z)
+$$
 
-$$\frac{\partial \phi}{\partial z} = 2xz + y^2 + h'(z)$$
+$$
+\frac{\partial \phi}{\partial z} = 2xz + y^2 + h'(z)
+$$
 
 This must equal $2xz + y^2$ So $h'(z) = 0$Giving $h(z) = C$.
 
@@ -425,18 +521,28 @@ Circulation around a curve to the curl through the surface it bounds. The diverg
 The flux through a closed surface to the divergence inside the volume it encloses. Together, these
 Form the higher-dimensional analogues of the Fundamental Theorem of Calculus:
 
-$$\int_a^b f'(x)\, dx = f(b) - f(a) \quad \mathrm{(FTC)}$$
+$$
+\int_a^b f'(x)\, dx = f(b) - f(a) \quad \mathrm{(FTC)}
+$$
 
-$$\int_C \nabla \phi \cdot d\mathbf{r} = \phi(B) - \phi(A) \quad \mathrm{(FTLI)}$$
+$$
+\int_C \nabla \phi \cdot d\mathbf{r} = \phi(B) - \phi(A) \quad \mathrm{(FTLI)}
+$$
 
-$$\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} \quad \mathrm{(Stokes)}$$
+$$
+\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} \quad \mathrm{(Stokes)}
+$$
 
-$$\iint_S \mathbf{F} \cdot d\mathbf{S} = \iiint_E (\nabla \cdot \mathbf{F})\, dV \quad \mathrm{(Divergence)}$$
+$$
+\iint_S \mathbf{F} \cdot d\mathbf{S} = \iiint_E (\nabla \cdot \mathbf{F})\, dV \quad \mathrm{(Divergence)}
+$$
 
 In each case, the integral of a "derivative" over a region equals the integral of the original
 function Over the boundary of that region. This is the **generalised Stokes' theorem**:
 
-$$\int_{\partial \Omega} \omega = \int_{\Omega} d\omega$$
+$$
+\int_{\partial \Omega} \omega = \int_{\Omega} d\omega
+$$
 
 Where $\Omega$ is a $k$-dimensional manifold with boundary $\partial \Omega$, $\omega$ is a
 $(k-1)$-form, And $d\omega$ is its exterior derivative.

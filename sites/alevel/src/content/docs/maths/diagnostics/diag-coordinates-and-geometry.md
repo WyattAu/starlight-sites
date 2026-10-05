@@ -73,13 +73,17 @@ Equation: $y - 6 = \frac{1}{2}(x - 4)$I.e. $y = \frac{1}{2}x + 4$.
 
 $$-2x + 9 = \frac{1}{2}x + 4$$ $$5 = \frac{5}{2}x$$ $$x = 2$$
 
-$$y = -2(2) + 9 = 5$$
+$$
+y = -2(2) + 9 = 5
+$$
 
 The centre is $O = (2, 5)$.
 
 **Step 4: Find the radius.**
 
-$$r = |OA| = \sqrt{(2-1)^2 + (5-2)^2} = \sqrt{1 + 9} = \sqrt{10}$$
+$$
+r = |OA| = \sqrt{(2-1)^2 + (5-2)^2} = \sqrt{1 + 9} = \sqrt{10}
+$$
 
 **Verification with point $C$:** $|OC| = \sqrt{(2-3)^2 + (5-8)^2} = \sqrt{1+9} = \sqrt{10}$.
 Confirmed.
@@ -90,7 +94,9 @@ Standard form: $(x - 2)^2 + (y - 5)^2 = 10$.
 
 Expanded form: $x^2 - 4x + 4 + y^2 - 10y + 25 = 10$Giving:
 
-$$x^2 + y^2 - 4x - 10y + 19 = 0$$
+$$
+x^2 + y^2 - 4x - 10y + 19 = 0
+$$
 
 ---
 
@@ -154,7 +160,9 @@ $y = 5$ is at distance $|5-3| = 2$ from the centre, equal to the radius. Confirm
 The matrix $R$ represents a rotation anticlockwise by $90°$ about the origin, and the matrix $S$
 represents a reflection in the line $y = x$.
 
-$$R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \quad S = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
+$$
+R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \quad S = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+$$
 
 **(a)** Find the matrix $RS$ and describe the single transformation it represents.
 
@@ -173,13 +181,17 @@ transformations, and the relationship between determinant and area.]
 
 **(a)**
 
-$$RS = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0\cdot0+(-1)\cdot1 & 0\cdot1+(-1)\cdot0 \\ 1\cdot0+0\cdot1 & 1\cdot1+0\cdot0 \end{pmatrix} = \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$$
+$$
+RS = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0\cdot0+(-1)\cdot1 & 0\cdot1+(-1)\cdot0 \\ 1\cdot0+0\cdot1 & 1\cdot1+0\cdot0 \end{pmatrix} = \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}
+$$
 
 This is a reflection in the $y$-axis.
 
 **(b)**
 
-$$SR = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0\cdot0+1\cdot1 & 0\cdot(-1)+1\cdot0 \\ 1\cdot0+0\cdot1 & 1\cdot(-1)+0\cdot0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+$$
+SR = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0\cdot0+1\cdot1 & 0\cdot(-1)+1\cdot0 \\ 1\cdot0+0\cdot1 & 1\cdot(-1)+0\cdot0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
+$$
 
 This is a reflection in the $x$-axis.
 
@@ -188,15 +200,21 @@ This is a reflection in the $x$-axis.
 **(c)** Applying $S$ first, then $R$: the image is
 $R \cdot S \cdot \begin{pmatrix} 3 \\ 1 \end{pmatrix}$.
 
-$$S\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}0&1\\1&0\end{pmatrix}\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}1\\3\end{pmatrix}$$
+$$
+S\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}0&1\\1&0\end{pmatrix}\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}1\\3\end{pmatrix}
+$$
 
-$$R\begin{pmatrix}1\\3\end{pmatrix} = \begin{pmatrix}0&-1\\1&0\end{pmatrix}\begin{pmatrix}1\\3\end{pmatrix} = \begin{pmatrix}-3\\1\end{pmatrix}$$
+$$
+R\begin{pmatrix}1\\3\end{pmatrix} = \begin{pmatrix}0&-1\\1&0\end{pmatrix}\begin{pmatrix}1\\3\end{pmatrix} = \begin{pmatrix}-3\\1\end{pmatrix}
+$$
 
 The image of $P$ is $(-3, 1)$.
 
 Alternatively, using $RS = \begin{pmatrix}-1&0\\0&1\end{pmatrix}$:
 
-$$RS\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}-3\\1\end{pmatrix}$$
+$$
+RS\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}-3\\1\end{pmatrix}
+$$
 
 Confirmed.
 
@@ -241,22 +259,32 @@ gives the same minimiser.)
 
 A general point on the curve is $(x, x^2-4x+7)$.
 
-$$D^2 = (x - 1)^2 + (x^2 - 4x + 7 - 8)^2 = (x-1)^2 + (x^2-4x-1)^2$$
+$$
+D^2 = (x - 1)^2 + (x^2 - 4x + 7 - 8)^2 = (x-1)^2 + (x^2-4x-1)^2
+$$
 
 **Step 2: Differentiate with respect to $x$.**
 
-$$\frac{d(D^2)}{dx} = 2(x-1) + 2(x^2-4x-1)(2x-4)$$
+$$
+\frac{d(D^2)}{dx} = 2(x-1) + 2(x^2-4x-1)(2x-4)
+$$
 
 Set this equal to zero:
 
-$$(x-1) + (x^2-4x-1)(2x-4) = 0$$
+$$
+(x-1) + (x^2-4x-1)(2x-4) = 0
+$$
 
-$$(x-1) + 2(x-2)(x^2-4x-1) = 0$$
+$$
+(x-1) + 2(x-2)(x^2-4x-1) = 0
+$$
 
 Expand $(x-2)(x^2-4x-1) = x^3 - 4x^2 - x - 2x^2 + 8x + 2 = x^3 - 6x^2 + 7x + 2$.
 
 $$(x-1) + 2(x^3 - 6x^2 + 7x + 2) = 0$$ $$x - 1 + 2x^3 - 12x^2 + 14x + 4 = 0$$
-$$2x^3 - 12x^2 + 15x + 3 = 0$$
+$$
+2x^3 - 12x^2 + 15x + 3 = 0
+$$
 
 **Step 3: Solve the cubic.** Testing $x = 1$: $2 - 12 + 15 + 3 = 8 \neq 0$. Testing $x = -1$:
 $-2 - 12 - 15 + 3 = -26$. Testing $x = 3$: $54 - 108 + 45 + 3 = -6$. Testing $x = \frac{1}{2}$:
@@ -331,14 +359,18 @@ for some $0 \leq t \leq 1$.
 
 Equating coefficients of $\mathbf{b}$ and $\mathbf{c}$:
 
-$$\frac{s}{3} = 1 - t \quad \text{and} \quad \frac{2s}{3} = \frac{t}{2}$$
+$$
+\frac{s}{3} = 1 - t \quad \text{and} \quad \frac{2s}{3} = \frac{t}{2}
+$$
 
 From the second equation: $t = \frac{4s}{3}$.
 
 Substituting into the first: $\frac{s}{3} = 1 - \frac{4s}{3}$Giving $\frac{5s}{3} = 1$ So
 $s = \frac{3}{5}$.
 
-$$\overrightarrow{OF} = \frac{3}{5}\left(\frac{1}{3}\mathbf{b} + \frac{2}{3}\mathbf{c}\right) = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}$$
+$$
+\overrightarrow{OF} = \frac{3}{5}\left(\frac{1}{3}\mathbf{b} + \frac{2}{3}\mathbf{c}\right) = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}
+$$
 
 **(b)** $AF : FD$. Since $s = 3/5$Point $F$ divides $AD$ in the ratio
 $s : (1-s) = 3/5 : 2/5 = 3 : 2$.
@@ -347,19 +379,33 @@ So $AF : FD = 3 : 2$.
 
 **(c)**
 
-$$\overrightarrow{AF} = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}$$
+$$
+\overrightarrow{AF} = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}
+$$
 
-$$|\overrightarrow{AF}|^2 = \left(\frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}\right) \cdot \left(\frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}\right)$$
+$$
+|\overrightarrow{AF}|^2 = \left(\frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}\right) \cdot \left(\frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}\right)
+$$
 
-$$= \frac{1}{25}|\mathbf{b}|^2 + \frac{4}{25}\mathbf{b}\cdot\mathbf{c} + \frac{4}{25}|\mathbf{c}|^2$$
+$$
+= \frac{1}{25}|\mathbf{b}|^2 + \frac{4}{25}\mathbf{b}\cdot\mathbf{c} + \frac{4}{25}|\mathbf{c}|^2
+$$
 
-$$= \frac{1}{25}(25) + \frac{4}{25}(15) + \frac{4}{25}(49)$$
+$$
+= \frac{1}{25}(25) + \frac{4}{25}(15) + \frac{4}{25}(49)
+$$
 
-$$= 1 + \frac{60}{25} + \frac{196}{25}$$
+$$
+= 1 + \frac{60}{25} + \frac{196}{25}
+$$
 
-$$= 1 + \frac{256}{25} = \frac{281}{25}$$
+$$
+= 1 + \frac{256}{25} = \frac{281}{25}
+$$
 
-$$|\overrightarrow{AF}| = \frac{\sqrt{281}}{5}$$
+$$
+|\overrightarrow{AF}| = \frac{\sqrt{281}}{5}
+$$
 
 ---
 
@@ -378,7 +424,9 @@ $$|\overrightarrow{AF}| = \frac{\sqrt{281}}{5}$$
 
 A curve is defined parametrically by:
 
-$$x = t^2 - 2t, \quad y = (t^2 - 2t)^2 - 2(t^2 - 2t)$$
+$$
+x = t^2 - 2t, \quad y = (t^2 - 2t)^2 - 2(t^2 - 2t)
+$$
 
 For $t \in \mathbb{R}$.
 
@@ -422,11 +470,15 @@ turning point of the parabola itself.
 
 Let $X = x - 1$ and $Y = y + 1$. Then $y = (x-1)^2 - 1$ becomes $Y - 1 = X^2 - 1$I.e.:
 
-$$Y = X^2$$
+$$
+Y = X^2
+$$
 
 In terms of the original variables (after translation, using $x$ and $y$ for the new coordinates):
 
-$$y = x^2$$
+$$
+y = x^2
+$$
 
 So $a = 1$, $b = 0$, $c = 0$.
 

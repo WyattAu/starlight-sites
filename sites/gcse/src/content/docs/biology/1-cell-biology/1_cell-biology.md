@@ -205,20 +205,28 @@ Supply from the mother.
 
 **Magnification calculation:**
 
-$$\mathrm{Magnification = \frac{\mathrm{image size}{\mathrm{actual size}$$
+$$
+\mathrm{Magnification = \frac{\mathrm{image size}{\mathrm{actual size}
+$$
 
 This equation can be rearranged to find any of the three variables:
 
-$$\mathrm{Actual size = \frac{\mathrm{image size}{\mathrm{magnification}$$
+$$
+\mathrm{Actual size = \frac{\mathrm{image size}{\mathrm{magnification}
+$$
 
-$$\mathrm{Image size = \mathrm{actual size \times \mathrm{magnification$$
+$$
+\mathrm{Image size = \mathrm{actual size \times \mathrm{magnification
+$$
 
 A useful mnemonic: the **MIA** triangle (Magnification = Image / Actual).
 
 **Worked Example.** A cell is observed to be 4.2 mm in a micrograph. The actual size is 0.07 mm.
 Calculate the magnification.
 
-$$\mathrm{Magnification = \frac{4.2}{0.07} = 60$$
+$$
+\mathrm{Magnification = \frac{4.2}{0.07} = 60
+$$
 
 **Unit conversion tip.** You will frequently need to convert between millimetres (mm) and
 Micrometres ($\mu$M). Remember: $1 \mathrm{ mm = 1000 \mathrm{ \mu m$.
@@ -226,7 +234,9 @@ Micrometres ($\mu$M). Remember: $1 \mathrm{ mm = 1000 \mathrm{ \mu m$.
 **Worked Example.** A cell measures 8.5 mm in a micrograph taken at magnification $\times 400$. Find
 The actual size in micrometres.
 
-$$\mathrm{Actual size = \frac{8.5}{400} = 0.02125 \mathrm{ mm = 21.25 \mathrm{ \mu m$$
+$$
+\mathrm{Actual size = \frac{8.5}{400} = 0.02125 \mathrm{ mm = 21.25 \mathrm{ \mu m
+$$
 
 **Staining.** Most biological specimens are colourless and transparent, making them difficult to see
 Under a microscope. Stains such as iodine (which stains starch and nuclei), methylene blue (which
@@ -492,7 +502,9 @@ Concentrated sugar solution.
 6. Remove, gently dry with a paper towel, and measure the new mass.
 7. Calculate the percentage change in mass:
 
-$$\mathrm{Percentage change = \frac{\mathrm{final mass - \mathrm{initial mass}{\mathrm{initial mass} \times 100\%$$
+$$
+\mathrm{Percentage change = \frac{\mathrm{final mass - \mathrm{initial mass}{\mathrm{initial mass} \times 100\%
+$$
 
 1. Plot a graph of percentage change in mass against sugar concentration.
 
@@ -549,7 +561,9 @@ Available glucose is absorbed.
 
 ### 4.1 Levels of Organisation
 
-$$\mathrm{Cells \to \mathrm{Tissues \to \mathrm{Organs \to \mathrm{Organ Systems \to \mathrm{Organisms$$
+$$
+\mathrm{Cells \to \mathrm{Tissues \to \mathrm{Organs \to \mathrm{Organ Systems \to \mathrm{Organisms
+$$
 
 - **Cell:** The basic unit of life.
 - **Tissue:** A group of similar cells with the same function (e.g., muscle tissue is made of muscle
@@ -622,7 +636,9 @@ Units.
 
 **Worked Example.** A mitochondrion is $5 \mu\mathrm{m$ long. Express this in nanometres.
 
-$$5 \mathrm{ \mu m = 5 \times 1000 \mathrm{ nm = 5000 \mathrm{ nm$$
+$$
+5 \mathrm{ \mu m = 5 \times 1000 \mathrm{ nm = 5000 \mathrm{ nm
+$$
 
 ### 5.3 Estimating Cell Size
 
@@ -636,7 +652,9 @@ To estimate the size of a cell or organelle from a micrograph:
 Diameter of the field of view at this magnification is $0.5 \mathrm{ mm$. The student estimates That
 10 cells fit across the diameter. Calculate the width of one cell in micrometres.
 
-$$\mathrm{Width of one cell = \frac{0.5 \mathrm{ mm}{10} = 0.05 \mathrm{ mm = 50 \mathrm{ \mu m$$
+$$
+\mathrm{Width of one cell = \frac{0.5 \mathrm{ mm}{10} = 0.05 \mathrm{ mm = 50 \mathrm{ \mu m
+$$
 
 ## Common Pitfalls
 

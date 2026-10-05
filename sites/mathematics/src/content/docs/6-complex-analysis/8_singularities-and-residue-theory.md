@@ -78,7 +78,9 @@ No negative powers, so $z = 0$ is a removable singularity with $f(0) = 1$.
 **Definition.** The **residue** of $f$ at an isolated singularity $z_0$ is the coefficient $a_{-1}$
 In the Laurent expansion:
 
-$$\mathrm{Res}(f, z_0) = a_{-1} = \frac{1}{2\pi i}\int_\gamma f(z)\, dz$$
+$$
+\mathrm{Res}(f, z_0) = a_{-1} = \frac{1}{2\pi i}\int_\gamma f(z)\, dz
+$$
 
 Where $\gamma$ is a small positively oriented circle around $z_0$.
 
@@ -86,15 +88,21 @@ Where $\gamma$ is a small positively oriented circle around $z_0$.
 
 **For a simple pole at $z_0$:**
 
-$$\mathrm{Res}(f, z_0) = \lim_{z \to z_0} (z - z_0)f(z)$$
+$$
+\mathrm{Res}(f, z_0) = \lim_{z \to z_0} (z - z_0)f(z)
+$$
 
 If $f = g/h$ where $g(z_0) \neq 0$, $h(z_0) = 0$, $h'(z_0) \neq 0$:
 
-$$\mathrm{Res}(f, z_0) = \frac{g(z_0)}{h'(z_0)}$$
+$$
+\mathrm{Res}(f, z_0) = \frac{g(z_0)}{h'(z_0)}
+$$
 
 **For a pole of order $m$ at $z_0$:**
 
-$$\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!}\lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}}\left[(z - z_0)^m f(z)\right]$$
+$$
+\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!}\lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}}\left[(z - z_0)^m f(z)\right]
+$$
 
 <details>
 <summary>Solution</summary>
@@ -122,7 +130,9 @@ At $z = 2$ (simple pole): $\mathrm{Res} = \frac{e^2}{(2-1)^2} = e^2$.
 Oriented contour $\gamma$ except for isolated singularities $z_1, z_2, \ldots, z_n$ inside $\gamma$
 Then
 
-$$\int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)$$
+$$
+\int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)
+$$
 
 _Proof._ For each singularity $z_k$Draw a small circle $\gamma_k$ around it. By Cauchy's theorem
 Applied to the multiply connected region between $\gamma$ and the $\gamma_k$:

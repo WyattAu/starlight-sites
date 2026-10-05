@@ -30,7 +30,9 @@ variable**.
 
 The **Callan--Gross relation** (for spin-1/2 partons):
 
-$$F_2(x) = 2xF_1(x)$$
+$$
+F_2(x) = 2xF_1(x)
+$$
 
 This relation was experimentally verified, confirming that the partons are fermions (quarks).
 
@@ -41,13 +43,17 @@ predicts logarithmic scaling violations from gluon radiation and quark-antiquark
 **PDFs.** The **parton distribution functions** $f_i(x, Q^2)$ give the probability of finding parton
 $i$ with momentum fraction $x$ at resolution scale $Q^2$. The structure function is:
 
-$$F_2(x, Q^2) = \sum_i e_i^2\, x\, f_i(x, Q^2)$$
+$$
+F_2(x, Q^2) = \sum_i e_i^2\, x\, f_i(x, Q^2)
+$$
 
 Where $e_i$ is the electric charge of parton $i$.
 
 The PDFs evolve with $Q^2$ according to the **DGLAP equations**:
 
-$$\frac{\partial f_i(x, Q^2)}{\partial \ln Q^2} = \frac{\alpha_s(Q^2)}{2\pi}\sum_j \int_x^1 \frac{dz}{z}\, P_{ij}(z)\, f_j\!\left(\frac{x}{z}, Q^2\right)$$
+$$
+\frac{\partial f_i(x, Q^2)}{\partial \ln Q^2} = \frac{\alpha_s(Q^2)}{2\pi}\sum_j \int_x^1 \frac{dz}{z}\, P_{ij}(z)\, f_j\!\left(\frac{x}{z}, Q^2\right)
+$$
 
 Where $P_{ij}(z)$ are the splitting functions: $P_{qq}$ (quark emitting a gluon), $P_{qg}$ (gluon
 splitting into $q\bar{q}$), $P_{gq}$ (quark emitting a gluon), $P_{gg}$ (gluon splitting into two
@@ -58,13 +64,19 @@ gluons).
 
 At $Q^2 \sim 10$ GeV$^2$The momentum sum rule requires:
 
-$$\int_0^1 x\left[\sum_q f_q(x) + f_g(x)\right] dx = 1$$
+$$
+\int_0^1 x\left[\sum_q f_q(x) + f_g(x)\right] dx = 1
+$$
 
 Experimental measurements give:
 
-$$\int_0^1 x \sum_q f_q(x)\, dx \approx 0.50$$
+$$
+\int_0^1 x \sum_q f_q(x)\, dx \approx 0.50
+$$
 
-$$\int_0^1 x f_g(x)\, dx \approx 0.45$$
+$$
+\int_0^1 x f_g(x)\, dx \approx 0.45
+$$
 
 The remaining $\sim 5\%$ is carried by sea quarks ($q\bar{q}$ pairs). This means gluons carry
 roughly half the proton"s momentum, despite being electrically neutral and invisible in
@@ -113,7 +125,9 @@ temperature) and behaves as the most perfect fluid known.
 **Chiral anomaly.** In the Standard Model, the classically conserved axial current
 $J_5^\mu = \bar{\psi}\gamma^\mu\gamma^5\psi$ is not conserved at the quantum level:
 
-$$\partial_\mu J_5^\mu = \frac{g^2}{16\pi^2}F_{\mu\nu}\tilde{F}^{\mu\nu}$$
+$$
+\partial_\mu J_5^\mu = \frac{g^2}{16\pi^2}F_{\mu\nu}\tilde{F}^{\mu\nu}
+$$
 
 Where $\tilde{F}^{\mu\nu} = \frac{1}{2}\epsilon^{\mu\nu\rho\sigma}F_{\rho\sigma}$ is the dual field
 strength tensor.
@@ -134,7 +148,9 @@ small?
 the **axion** $a(x)$. The axion potential has a minimum at $\theta_{\text{eff} = 0}$Dynamically
 solving the strong CP problem. The axion acquires a small mass:
 
-$$m_a \approx \frac{m_\pi f_\pi}{f_a} \approx 6\ \text{meV}\times\left(\frac{10^{12}\ \text{GeV}{f_a}\right)}$$
+$$
+m_a \approx \frac{m_\pi f_\pi}{f_a} \approx 6\ \text{meV}\times\left(\frac{10^{12}\ \text{GeV}{f_a}\right)}
+$$
 
 Where $f_a$ is the axion decay constant. Axions in the "window" $10^9$--$10^{12}$ GeV are viable
 cold dark matter candidates and are searched for by ADMX, CASPEr, and other experiments.
@@ -144,7 +160,9 @@ cold dark matter candidates and are searched for by ADMX, CASPEr, and other expe
 **CP violation in the SM** arises from a single irreducible complex phase in the CKM matrix. The
 **unitarity triangle** provides a convenient parameterisation:
 
-$$V_{ud}V_{ub}^* + V_{cd}V_{cb}^* + V_{td}V_{tb}^* = 0$$
+$$
+V_{ud}V_{ub}^* + V_{cd}V_{cb}^* + V_{td}V_{tb}^* = 0
+$$
 
 This can be rescaled to form a triangle in the complex plane with sides and angles
 $(\alpha, \beta, \gamma)$.
@@ -168,7 +186,9 @@ $u$, $c$, $t$ quarks. The oscillation frequency is characterised by $\Delta m_d$
 
 The mass difference:
 
-$$\Delta m_d = \frac{G_F^2 m_W^2}{6\pi^2} m_B f_B^2 \hat{B}_B \, \eta_B\, S(x_t)\, |V_{td}|^2$$
+$$
+\Delta m_d = \frac{G_F^2 m_W^2}{6\pi^2} m_B f_B^2 \hat{B}_B \, \eta_B\, S(x_t)\, |V_{td}|^2
+$$
 
 Where $S(x_t)$ is the Inami--Lim function, $f_B$ is the $B$ decay constant, and $\hat{B}_B$ is the
 bag parameter.

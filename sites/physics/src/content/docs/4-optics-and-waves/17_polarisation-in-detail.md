@@ -21,7 +21,9 @@ description: 'The represents the polarisation state of a monochromatic plane wav
 
 The **Jones vector** represents the polarisation state of a monochromatic plane wave:
 
-$$\mathbf{E} = \begin{pmatrix} E_x \\ E_y \end{pmatrix} = \begin{pmatrix} A_x\,e^{i\delta_x} \\ A_y\,e^{i\delta_y} \end{pmatrix}$$
+$$
+\mathbf{E} = \begin{pmatrix} E_x \\ E_y \end{pmatrix} = \begin{pmatrix} A_x\,e^{i\delta_x} \\ A_y\,e^{i\delta_y} \end{pmatrix}
+$$
 
 Optical elements are represented by $2 \times 2$ matrices:
 
@@ -37,17 +39,23 @@ Optical elements are represented by $2 \times 2$ matrices:
 **Theorem 13.1.** The output of a sequence of optical elements is the product of their Jones
 matrices applied to the input Jones vector:
 
-$$\mathbf{E}_{\mathrm{out} = \mathbf{M}_n \cdots \mathbf{M}_2\,\mathbf{M}_1\,\mathbf{E}_{\mathrm{in}}}$$
+$$
+\mathbf{E}_{\mathrm{out} = \mathbf{M}_n \cdots \mathbf{M}_2\,\mathbf{M}_1\,\mathbf{E}_{\mathrm{in}}}
+$$
 
 ### 13.2 Stokes Parameters
 
 For partially polarised light, the **Stokes parameters** are:
 
-$$S_0 = |E_x|^2 + |E_y|^2, \quad S_1 = |E_x|^2 - |E_y|^2, \quad S_2 = 2\,\mathrm{Re}(E_x E_y^*), \quad S_3 = 2\,\mathrm{Im}(E_x E_y^*)$$
+$$
+S_0 = |E_x|^2 + |E_y|^2, \quad S_1 = |E_x|^2 - |E_y|^2, \quad S_2 = 2\,\mathrm{Re}(E_x E_y^*), \quad S_3 = 2\,\mathrm{Im}(E_x E_y^*)
+$$
 
 The **degree of polarisation** is
 
-$$P = \frac{\sqrt{S_1^2 + S_2^2 + S_3^2}}{S_0}$$
+$$
+P = \frac{\sqrt{S_1^2 + S_2^2 + S_3^2}}{S_0}
+$$
 
 For fully polarised light: $P = 1$. For unpolarised light: $S_1 = S_2 = S_3 = 0$.
 
@@ -66,11 +74,15 @@ $R_s = ((n_1\cos\theta_i - n_2\cos\theta_t)/(n_1\cos\theta_i + n_2\cos\theta_t))
 For one interface, the transmitted $p$-intensity is $T_p = 1$ and the transmitted $s$-intensity is
 $T_s = 1 - R_s$. After $N$ interfaces:
 
-$$I_p^{(N)} = I_0/2, \quad I_s^{(N)} = (I_0/2)(1 - R_s)^N$$
+$$
+I_p^{(N)} = I_0/2, \quad I_s^{(N)} = (I_0/2)(1 - R_s)^N
+$$
 
 The degree of polarisation:
 
-$$P = \frac{I_p^{(N)} - I_s^{(N)}}{I_p^{(N)} + I_s^{(N)}} = \frac{1 - (1 - R_s)^N}{1 + (1 - R_s)^N}$$
+$$
+P = \frac{I_p^{(N)} - I_s^{(N)}}{I_p^{(N)} + I_s^{(N)}} = \frac{1 - (1 - R_s)^N}{1 + (1 - R_s)^N}
+$$
 
 For $N \to \infty$: $P \to 1$. This is the principle behind "pile-of-plates" polarisers. For glass
 ($n = 1.5$) at $\theta_B \approx 56.3°$:
@@ -114,11 +126,15 @@ After first polariser ($0^\circ$): $\mathbf{E}_1 = \begin{pmatrix}1 \\ 0\end{pma
 
 Quarter-wave plate with fast axis at $45^\circ$: rotate to fast-axis basis, apply retardation, rotate back:
 
-$$\mathbf{E}_2 = R(-45^\circ)\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix}$$
+$$
+\mathbf{E}_2 = R(-45^\circ)\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix}
+$$
 
 where $R(\theta) = \begin{pmatrix}\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta\end{pmatrix}$.
 
-$$R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1\end{pmatrix}$$
+$$
+R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1\end{pmatrix}
+$$
 
 After retardation: $\frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -i\end{pmatrix}$. Rotating back: $\mathbf{E}_2 = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ i\end{pmatrix}$ (right circular).
 
@@ -138,7 +154,9 @@ The rotation angle is $\phi = \alpha L$ where $\alpha$ is the specific rotation 
 
 In the **Faraday effect**, a magnetic field along the propagation direction induces circular birefringence:
 
-$$\phi = V B L$$
+$$
+\phi = V B L
+$$
 
 where $V$ is the Verdet constant. Faraday rotation is non-reciprocal: reversing the propagation direction doubles the rotation, unlike natural optical activity which cancels upon reflection.
 

@@ -30,7 +30,9 @@ Proportion of the population, ordered from poorest to richest.
 Let the population be divided into quintiles (five equal groups of 20%). If the income shares are
 $(s_1, s_2, s_3, s_4, s_5)$ where $\sum s_i = 1$The cumulative shares are:
 
-$$L_k = \sum_{i=1}^{k} s_i, \quad k = 1, 2, 3, 4, 5$$
+$$
+L_k = \sum_{i=1}^{k} s_i, \quad k = 1, 2, 3, 4, 5
+$$
 
 The Lorenz curve passes through points $(0.2, L_1)$$(0.4, L_2)$$(0.6, L_3)$$(0.8, L_4)$ $(1, 1)$.
 
@@ -39,22 +41,30 @@ The Lorenz curve passes through points $(0.2, L_1)$$(0.4, L_2)$$(0.6, L_3)$$(0.8
 
 ### 1.2 The Gini Coefficient
 
-$$G = \frac{A}{A + B}$$
+$$
+G = \frac{A}{A + B}
+$$
 
 Where $A$ = area between the 45° line and the Lorenz curve, $B$ = area under the Lorenz curve.
 
 Since the total area under the 45° line is $\frac{1}{2}$:
 
-$$G = 2A = 1 - 2B$$
+$$
+G = 2A = 1 - 2B
+$$
 
 **Derivation using the trapezoidal rule.** Given cumulative shares $L_k$ at population proportions
 $p_k = k/5$:
 
-$$B = \sum_{k=1}^{5} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}$$
+$$
+B = \sum_{k=1}^{5} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}
+$$
 
 Where $L_0 = 0$$p_0 = 0$.
 
-$$G = 1 - 2B$$
+$$
+G = 1 - 2B
+$$
 
 | Gini Coefficient   | Interpretation      |
 | ------------------ | ------------------- |
@@ -133,7 +143,9 @@ Clothing). The World Bank defines extreme absolute poverty as living on less tha
 **Relative poverty**: a condition where individuals have significantly less income than the median.
 The OECD defines relative poverty as income below 60% of the median household income (equivalised).
 
-$$\mathrm{Relative poverty line} = 0.6 \times \mathrm{median household income}$$
+$$
+\mathrm{Relative poverty line} = 0.6 \times \mathrm{median household income}
+$$
 
 ### 3.2 Measuring Poverty
 
@@ -148,7 +160,9 @@ $$\mathrm{Relative poverty line} = 0.6 \times \mathrm{median household income}$$
 
 **Progressive taxation**: the average tax rate increases with income.
 
-$$\frac{dT}{dY} > \frac{T}{Y}$$
+$$
+\frac{dT}{dY} > \frac{T}{Y}
+$$
 
 For a progressive tax system:
 
@@ -166,7 +180,9 @@ For a progressive tax system:
 **Effective marginal tax rate (EMTR)**: the total rate at which additional income is taxed when all
 Benefits and means-tested withdrawals are included.
 
-$$\mathrm{EMTR} = \mathrm{income tax MTR} + \mathrm{NI MTR} + \mathrm{benefit withdrawal rate}$$
+$$
+\mathrm{EMTR} = \mathrm{income tax MTR} + \mathrm{NI MTR} + \mathrm{benefit withdrawal rate}
+$$
 
 High EMTRs (poverty traps) occur when means-tested benefits are withdrawn as income rises, creating
 Disincentives to work.
@@ -174,7 +190,9 @@ Disincentives to work.
 **Regressive taxation**: ATR falls as income rises (e.g., VAT at a flat rate takes a larger
 _proportion_ of low-income households' spending).
 
-$$\frac{dT}{dY} < \frac{T}{Y}$$
+$$
+\frac{dT}{dY} < \frac{T}{Y}
+$$
 
 **Proportional taxation**: ATR is constant (flat tax).
 
@@ -216,7 +234,9 @@ Output). More redistribution $\Rightarrow$ less total income to redistribute.
 
 The **Laffer curve** illustrates the relationship between the tax rate and tax revenue:
 
-$$T = t \times Y(t)$$
+$$
+T = t \times Y(t)
+$$
 
 Where $t$ is the tax rate and $Y(t)$ is the tax base (income), which declines as $t$ increases (due
 To disincentive effects). At $t = 0$, $T = 0$. At $t = 1$ (100% tax), $T = 0$ (no one works). There
@@ -284,19 +304,27 @@ Cumulative income proportion. The line of perfect equality is $L(p) = p$.
 
 The area between the line of equality and the Lorenz curve is:
 
-$$A = \int_0^1 [p - L(p)]\,dp$$
+$$
+A = \int_0^1 [p - L(p)]\,dp
+$$
 
 The area under the Lorenz curve is:
 
-$$B = \int_0^1 L(p)\,dp$$
+$$
+B = \int_0^1 L(p)\,dp
+$$
 
 Since $A + B = \frac{1}{2}$ (the area under the 45° line), the Gini coefficient is:
 
-$$G = \frac{A}{A + B} = 2A = 1 - 2B$$
+$$
+G = \frac{A}{A + B} = 2A = 1 - 2B
+$$
 
 Substituting the integral form of $B$:
 
-$$\boxed{G = 1 - 2\int_0^1 L(p)\,dp}$$
+$$
+\boxed{G = 1 - 2\int_0^1 L(p)\,dp}
+$$
 
 _Verification for discrete data._ Given cumulative shares $L_k$ at population proportions
 $p_k = k/n$The trapezoidal approximation gives
@@ -318,11 +346,15 @@ _Proof._
 (iii) Let $f(y)$ be the income density function and $F(y)$ the cumulative distribution function.
 Define $p = F(y)$ (the population proportion earning up to income $y$). Then:
 
-$$L(p) = \frac{1}{\mu}\int_0^y t \cdot f(t)\,dt$$
+$$
+L(p) = \frac{1}{\mu}\int_0^y t \cdot f(t)\,dt
+$$
 
 Where $\mu$ is mean income. Differentiating with respect to $p$ using $dp = f(y)\,dy$:
 
-$$L'(p) = \frac{dL}{dp} = \frac{dL/dy}{dp/dy} = \frac{y \cdot f(y)}{f(y)} = y \geq 0$$
+$$
+L'(p) = \frac{dL}{dp} = \frac{dL/dy}{dp/dy} = \frac{y \cdot f(y)}{f(y)} = y \geq 0
+$$
 
 Since income $y \geq 0$The Lorenz curve is monotonically non-decreasing. $\blacksquare$
 
@@ -330,7 +362,9 @@ Since income $y \geq 0$The Lorenz curve is monotonically non-decreasing. $\black
 Earn less than or equal to the mean). Therefore $\frac{dL}{dp} \leq \frac{dp}{dp} = 1$Which Implies
 $L(p) \leq p$ by integration from 0. Equality holds only under perfect equality. $\blacksquare$
 
-$$\boxed{L(0) = 0, \quad L(1) = 1, \quad L'(p) = y(p) \geq 0, \quad L(p) \leq p}$$
+$$
+\boxed{L(0) = 0, \quad L(1) = 1, \quad L'(p) = y(p) \geq 0, \quad L(p) \leq p}
+$$
 
 ## 8. Problem Set
 
@@ -464,11 +498,17 @@ Country may have less inequality at the bottom of the distribution but more at t
 
 Using the trapezoidal rule for $B$ (area under the Lorenz curve):
 
-$$B = 0.2 \times \frac{0 + 0.06}{2} + 0.2 \times \frac{0.06 + 0.17}{2} + 0.2 \times \frac{0.17 + 0.33}{2} + 0.2 \times \frac{0.33 + 0.56}{2} + 0.2 \times \frac{0.56 + 1.0}{2}$$
+$$
+B = 0.2 \times \frac{0 + 0.06}{2} + 0.2 \times \frac{0.06 + 0.17}{2} + 0.2 \times \frac{0.17 + 0.33}{2} + 0.2 \times \frac{0.33 + 0.56}{2} + 0.2 \times \frac{0.56 + 1.0}{2}
+$$
 
-$$B = 0.2 \times (0.030 + 0.115 + 0.250 + 0.445 + 0.780) = 0.2 \times 1.620 = 0.324$$
+$$
+B = 0.2 \times (0.030 + 0.115 + 0.250 + 0.445 + 0.780) = 0.2 \times 1.620 = 0.324
+$$
 
-$$G = 1 - 2B = 1 - 0.648 = 0.352$$
+$$
+G = 1 - 2B = 1 - 0.648 = 0.352
+$$
 
 A Gini of $0.352$ indicates moderate inequality, comparable to the UK.
 
@@ -481,9 +521,13 @@ Share falls from 44% to 43%. Recalculate $G$.
 **Answer.** New cumulative shares: $(0.2, 0.07)$$(0.4, 0.18)$$(0.6, 0.34)$$(0.8, 0.57)$
 $(1.0, 1.0)$.
 
-$$B = 0.2 \times (0.035 + 0.125 + 0.260 + 0.455 + 0.785) = 0.2 \times 1.660 = 0.332$$
+$$
+B = 0.2 \times (0.035 + 0.125 + 0.260 + 0.455 + 0.785) = 0.2 \times 1.660 = 0.332
+$$
 
-$$G = 1 - 2(0.332) = 0.336$$
+$$
+G = 1 - 2(0.332) = 0.336
+$$
 
 The Gini coefficient falls from $0.352$ to $0.336$Confirming that progressive redistribution Reduces
 measured inequality.
@@ -672,7 +716,9 @@ that make complementary measures valuable.
 
 **The Palma ratio** is defined as:
 
-$$\text{Palma} = \frac{S_{90}}{S_{40}}$$
+$$
+\text{Palma} = \frac{S_{90}}{S_{40}}
+$$
 
 Where $S_{90}$ is the income share of the top 10% and $S_{40}$ is the income share of the bottom
 40%. The rationale is that the "middle" 50% of the income distribution (between the 40th and 90th
@@ -696,7 +742,9 @@ percentile earns 5.5 times more than someone at the 10th percentile.
 Simon Kuznets (1955) hypothesised an inverted-U relationship between inequality and economic
 development:
 
-$$G = f(g_Y), \quad f'(g_Y) > 0 \text{ for low } g_Y, \quad f'(g_Y) < 0 \text{ for high } g_Y$$
+$$
+G = f(g_Y), \quad f'(g_Y) > 0 \text{ for low } g_Y, \quad f'(g_Y) < 0 \text{ for high } g_Y
+$$
 
 The argument: early industrialisation draws labour from agriculture to industry, increasing
 inequality (industrial wages are more dispersed than agricultural incomes). Later, mass education,
@@ -719,7 +767,9 @@ institutions), technology, and globalisation, not just the level of income.
 **Intergenerational income elasticity (IGE)** measures the correlation between parents' and
 children's incomes:
 
-$$\text{IGE} = \frac{\partial \ln(Y_{child})}{\partial \ln(Y_{parent})}$$
+$$
+\text{IGE} = \frac{\partial \ln(Y_{child})}{\partial \ln(Y_{parent})}
+$$
 
 If IGE $= 0.5$A 10% increase in parental income is associated with a 5% increase in the child's
 income. Higher IGE means less mobility.
@@ -905,10 +955,16 @@ creating disincentives to work." Evaluate this statement.
 **Gini coefficient (approximation using trapezoidal rule):**
 
 Area under Lorenz curve:
-$$A = \frac{1}{2}\left[(0.2)(0 + 0.05) + (0.2)(0.05 + 0.15) + (0.2)(0.15 + 0.30) + (0.2)(0.30 + 0.55) + (0.2)(0.55 + 1.0)\right]$$
-$$A = 0.1[0.05 + 0.20 + 0.45 + 0.85 + 1.55] = 0.1 \times 3.10 = 0.310$$
+$$
+A = \frac{1}{2}\left[(0.2)(0 + 0.05) + (0.2)(0.05 + 0.15) + (0.2)(0.15 + 0.30) + (0.2)(0.30 + 0.55) + (0.2)(0.55 + 1.0)\right]
+$$
+$$
+A = 0.1[0.05 + 0.20 + 0.45 + 0.85 + 1.55] = 0.1 \times 3.10 = 0.310
+$$
 
-$$G = 1 - 2A = 1 - 0.620 = 0.380$$
+$$
+G = 1 - 2A = 1 - 0.620 = 0.380
+$$
 
 **Interpretation:** Gini = 0.38 indicates moderate inequality. For comparison: UK (0.35), USA
 (0.41), Sweden (0.27), South Africa (0.63), Brazil (0.53).

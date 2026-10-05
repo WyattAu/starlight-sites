@@ -59,7 +59,9 @@ $[\text{Fe}^{3+}] = 1.00\,\text{mol dm}^{-3}$. Calculate $[\text{Fe}^{2+}]$.
 (a) The more positive $E^\circ$ value is reduced ($\text{Cu}^{2+}/\text{Cu}$), the less positive is
 oxidised ($\text{Zn}/\text{Zn}^{2+}$).
 
-$$E^\circ_{\text{cell}} = E^\circ_{\text{red}}(\text{cathode}) - E^\circ_{\text{red}}(\text{anode}) = 0.34 - (-0.76) = 1.10\,\text{V}$$
+$$
+E^\circ_{\text{cell}} = E^\circ_{\text{red}}(\text{cathode}) - E^\circ_{\text{red}}(\text{anode}) = 0.34 - (-0.76) = 1.10\,\text{V}
+$$
 
 Overall equation (balancing electrons):
 
@@ -71,28 +73,46 @@ Overall: $\text{Zn}(s) + \text{Cu}^{2+}(aq) \to \text{Zn}^{2+}(aq) + \text{Cu}(s
 
 (b) Standard cell potential:
 
-$$E^\circ_{\text{cell}} = E^\circ(\text{Ag}^+/\text{Ag}) - E^\circ(\text{Fe}^{3+}/\text{Fe}^{2+}) = 0.80 - 0.77 = 0.03\,\text{V}$$
+$$
+E^\circ_{\text{cell}} = E^\circ(\text{Ag}^+/\text{Ag}) - E^\circ(\text{Fe}^{3+}/\text{Fe}^{2+}) = 0.80 - 0.77 = 0.03\,\text{V}
+$$
 
 Using the Nernst equation at $298\,\text{K}$:
 
-$$E_{\text{cell}} = E^\circ_{\text{cell}} - \frac{RT}{nF}\ln Q$$
+$$
+E_{\text{cell}} = E^\circ_{\text{cell}} - \frac{RT}{nF}\ln Q
+$$
 
-$$E_{\text{cell}} = E^\circ_{\text{cell}} - \frac{0.0592}{n}\log Q$$
+$$
+E_{\text{cell}} = E^\circ_{\text{cell}} - \frac{0.0592}{n}\log Q
+$$
 
 For the cell:
 $\text{Ag}^+(aq) + \text{Fe}^{2+}(aq) \rightleftharpoons \text{Ag}(s) + \text{Fe}^{3+}(aq)$, $n = 1$
 
-$$Q = \frac{[\text{Fe}^{3+}]}{[\text{Ag}^+][\text{Fe}^{2+}]} = \frac{1.00}{1.00 \times [\text{Fe}^{2+}]} = \frac{1}{[\text{Fe}^{2+}]}$$
+$$
+Q = \frac{[\text{Fe}^{3+}]}{[\text{Ag}^+][\text{Fe}^{2+}]} = \frac{1.00}{1.00 \times [\text{Fe}^{2+}]} = \frac{1}{[\text{Fe}^{2+}]}
+$$
 
-$$0.020 = 0.030 - 0.0592\log\frac{1}{[\text{Fe}^{2+}]}$$
+$$
+0.020 = 0.030 - 0.0592\log\frac{1}{[\text{Fe}^{2+}]}
+$$
 
-$$-0.010 = -0.0592\log\frac{1}{[\text{Fe}^{2+}]}$$
+$$
+-0.010 = -0.0592\log\frac{1}{[\text{Fe}^{2+}]}
+$$
 
-$$\log\frac{1}{[\text{Fe}^{2+}]} = \frac{0.010}{0.0592} = 0.169$$
+$$
+\log\frac{1}{[\text{Fe}^{2+}]} = \frac{0.010}{0.0592} = 0.169
+$$
 
-$$\frac{1}{[\text{Fe}^{2+}]} = 10^{0.169} = 1.476$$
+$$
+\frac{1}{[\text{Fe}^{2+}]} = 10^{0.169} = 1.476
+$$
 
-$$[\text{Fe}^{2+}] = 0.678\,\text{mol dm}^{-3}$$
+$$
+[\text{Fe}^{2+}] = 0.678\,\text{mol dm}^{-3}
+$$
 
 ---
 
@@ -192,7 +212,9 @@ $E^\circ_{\text{cell}} \gt 0.3\,\text{V}$ for the reaction to proceed to a signi
 (a) $\text{MnO}_4^-/\text{Mn}^{2+}$ is reduced ($E^\circ = +1.51\,\text{V}$),
 $\text{Fe}^{3+}/\text{Fe}^{2+}$ is reversed (oxidation, $E^\circ = +0.77\,\text{V}$).
 
-$$E^\circ_{\text{cell}} = 1.51 - 0.77 = +0.74\,\text{V}$$
+$$
+E^\circ_{\text{cell}} = 1.51 - 0.77 = +0.74\,\text{V}
+$$
 
 $E^\circ_{\text{cell}} \gt 0.3\,\text{V}$ So this reaction is **feasible**. This is the basis of
 redox titrations using potassium manganate(VII).
@@ -200,7 +222,9 @@ redox titrations using potassium manganate(VII).
 (b) $\text{Cl}_2/\text{Cl}^-$ is reduced ($E^\circ = +1.36\,\text{V}$), $\text{Br}_2/\text{Br}^-$ is
 reversed (oxidation, $E^\circ = +1.07\,\text{V}$).
 
-$$E^\circ_{\text{cell}} = 1.36 - 1.07 = +0.29\,\text{V}$$
+$$
+E^\circ_{\text{cell}} = 1.36 - 1.07 = +0.29\,\text{V}
+$$
 
 $E^\circ_{\text{cell}}$ is positive but only marginally above zero and below $0.3\,\text{V}$. The
 reaction is **marginally feasible** but the equilibrium position does not lie far to the right. In
@@ -210,7 +234,9 @@ equilibrium mixture is formed.
 (c) $\text{Br}_2/\text{Br}^-$ is reduced ($E^\circ = +1.07\,\text{V}$), $\text{I}_2/\text{I}^-$ is
 reversed (oxidation, $E^\circ = +0.54\,\text{V}$).
 
-$$E^\circ_{\text{cell}} = 1.07 - 0.54 = +0.53\,\text{V}$$
+$$
+E^\circ_{\text{cell}} = 1.07 - 0.54 = +0.53\,\text{V}
+$$
 
 $E^\circ_{\text{cell}} \gt 0.3\,\text{V}$ So this reaction is **feasible**. Bromine can oxidise
 iodide to iodine. This explains the trend in reactivity:
@@ -240,24 +266,36 @@ conditions.
 
 $n = 2$ (two electrons transferred in the overall reaction)
 
-$$\Delta G^\circ = -2 \times 96500 \times 1.10 = -212300\,\text{J mol}^{-1} = -212\,\text{kJ mol}^{-1}$$
+$$
+\Delta G^\circ = -2 \times 96500 \times 1.10 = -212300\,\text{J mol}^{-1} = -212\,\text{kJ mol}^{-1}
+$$
 
 (b) $\Delta G^\circ = -RT\ln K$
 
-$$\ln K = -\frac{\Delta G^\circ}{RT} = \frac{212300}{8.31 \times 298} = \frac{212300}{2476.4} = 85.72$$
+$$
+\ln K = -\frac{\Delta G^\circ}{RT} = \frac{212300}{8.31 \times 298} = \frac{212300}{2476.4} = 85.72
+$$
 
-$$K = e^{85.72} = 1.67 \times 10^{37}$$
+$$
+K = e^{85.72} = 1.67 \times 10^{37}
+$$
 
 The extremely large $K$ confirms that the reaction proceeds essentially to completion under standard
 conditions.
 
 (c) Using the Nernst equation:
 
-$$E_{\text{cell}} = E^\circ_{\text{cell}} - \frac{0.0592}{n}\log\frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]}$$
+$$
+E_{\text{cell}} = E^\circ_{\text{cell}} - \frac{0.0592}{n}\log\frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]}
+$$
 
-$$E_{\text{cell}} = 1.10 - \frac{0.0592}{2}\log\frac{0.0100}{1.00}$$
+$$
+E_{\text{cell}} = 1.10 - \frac{0.0592}{2}\log\frac{0.0100}{1.00}
+$$
 
-$$E_{\text{cell}} = 1.10 - 0.0296 \times (-2) = 1.10 + 0.0592 = 1.159\,\text{V}$$
+$$
+E_{\text{cell}} = 1.10 - 0.0296 \times (-2) = 1.10 + 0.0592 = 1.159\,\text{V}
+$$
 
 The cell potential is higher than standard because the lower $[\text{Zn}^{2+}]$ and higher
 $[\text{Cu}^{2+}]$ drive the reaction further forward (Le Chatelier's principle applied to the cell
@@ -310,13 +348,21 @@ first):
 
 (b) $\text{Ag}^+ + e^- \to \text{Ag}$
 
-$$n(\text{Ag}) = \frac{0.108}{107.9} = 1.001 \times 10^{-3}\,\text{mol}$$
+$$
+n(\text{Ag}) = \frac{0.108}{107.9} = 1.001 \times 10^{-3}\,\text{mol}
+$$
 
-$$n(e^-) = 1.001 \times 10^{-3}\,\text{mol}$$
+$$
+n(e^-) = 1.001 \times 10^{-3}\,\text{mol}
+$$
 
-$$Q = n(e^-) \times F = 1.001 \times 10^{-3} \times 96500 = 96.6\,\text{C}$$
+$$
+Q = n(e^-) \times F = 1.001 \times 10^{-3} \times 96500 = 96.6\,\text{C}
+$$
 
-$$t = \frac{Q}{I} = \frac{96.6}{0.200} = 483\,\text{s} = 8.05\,\text{min}$$
+$$
+t = \frac{Q}{I} = \frac{96.6}{0.200} = 483\,\text{s} = 8.05\,\text{min}
+$$
 
 (c) At the anode, the possible oxidation reactions are:
 
@@ -328,7 +374,9 @@ $$t = \frac{Q}{I} = \frac{96.6}{0.200} = 483\,\text{s} = 8.05\,\text{min}$$
 Since the anions present are sulfate (from the salts) and the cations are being reduced at the
 cathode, the species oxidised at the anode is **water**, producing **oxygen gas**:
 
-$$2\text{H}_2\text{O}(l) \to \text{O}_2(g) + 4\text{H}^+(aq) + 4e^-$$
+$$
+2\text{H}_2\text{O}(l) \to \text{O}_2(g) + 4\text{H}^+(aq) + 4e^-
+$$
 
 The solution becomes increasingly acidic as electrolysis proceeds.
 
@@ -349,7 +397,9 @@ The solution becomes increasingly acidic as electrolysis proceeds.
 
 A hydrogen-oxygen fuel cell operates at $298\,\text{K}$ with the overall reaction:
 
-$$2\text{H}_2(g) + \text{O}_2(g) \to 2\text{H}_2\text{O}(l)$$
+$$
+2\text{H}_2(g) + \text{O}_2(g) \to 2\text{H}_2\text{O}(l)
+$$
 
 Standard electrode potentials:
 
@@ -370,15 +420,23 @@ of hydrogen consumed.
 
 (a)
 
-$$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 1.23 - 0.00 = 1.23\,\text{V}$$
+$$
+E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 1.23 - 0.00 = 1.23\,\text{V}
+$$
 
 Verifying with $\Delta G^\circ$:
 
-$$\Delta G^\circ = -nFE^\circ_{\text{cell}}$$
+$$
+\Delta G^\circ = -nFE^\circ_{\text{cell}}
+$$
 
-$$n = 4\,\text{electrons per mol O}_2\text{ (or per 2 mol H}_2\text{)}$$
+$$
+n = 4\,\text{electrons per mol O}_2\text{ (or per 2 mol H}_2\text{)}
+$$
 
-$$E^\circ_{\text{cell}} = -\frac{\Delta G^\circ}{nF} = -\frac{-474000}{4 \times 96500} = \frac{474000}{386000} = 1.23\,\text{V}$$
+$$
+E^\circ_{\text{cell}} = -\frac{\Delta G^\circ}{nF} = -\frac{-474000}{4 \times 96500} = \frac{474000}{386000} = 1.23\,\text{V}
+$$
 
 The values are consistent.
 
@@ -386,9 +444,13 @@ The values are consistent.
 
 Each $\text{H}_2$ molecule releases 2 electrons: $\text{H}_2 \to 2\text{H}^+ + 2e^-$
 
-$$n(\text{H}_2) = \frac{36000}{2 \times 96500} = 0.1865\,\text{mol}$$
+$$
+n(\text{H}_2) = \frac{36000}{2 \times 96500} = 0.1865\,\text{mol}
+$$
 
-$$m(\text{H}_2) = 0.1865 \times 2.02 = 0.377\,\text{g}$$
+$$
+m(\text{H}_2) = 0.1865 \times 2.02 = 0.377\,\text{g}
+$$
 
 (c)
 
@@ -435,7 +497,9 @@ very difficult to oxidise (it would require breaking strong S--O bonds).
 
 (b) $Q = It = 0.500 \times 30.0 \times 60 = 900\,\mathrm{C}$
 
-$$n(\mathrm{Cu}) = \frac{Q}{nF} = \frac{900}{2 \times 96500} = 4.66 \times 10^{-3}\,\mathrm{mol}$$
+$$
+n(\mathrm{Cu}) = \frac{Q}{nF} = \frac{900}{2 \times 96500} = 4.66 \times 10^{-3}\,\mathrm{mol}
+$$
 
 $$m(\mathrm{Cu}) = 4.66 \times 10^{-3} \times 63.5 = 0.296\,\mathrm{g}$$ (1 mark).
 
@@ -495,7 +559,9 @@ Overall: $\mathrm{PbBr}_2 \to \mathrm{Pb} + \mathrm{Br}_2$ (1 mark).
 
 (b) $Q = 2.00 \times 15.0 \times 60 = 1800\,\mathrm{C}$
 
-$$n(\mathrm{Br}_2) = \frac{1800}{2 \times 96500} = 9.33 \times 10^{-3}\,\mathrm{mol}$$
+$$
+n(\mathrm{Br}_2) = \frac{1800}{2 \times 96500} = 9.33 \times 10^{-3}\,\mathrm{mol}
+$$
 
 $$
 V(\mathrm{Br}_2) = 9.33 \times 10^{-3} \times 22.4 = 0.209\,\mathrm{dm}^3

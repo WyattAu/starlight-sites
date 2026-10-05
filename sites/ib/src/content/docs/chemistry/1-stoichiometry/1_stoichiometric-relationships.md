@@ -1054,7 +1054,9 @@ Convert percentages to moles:
 
 Empirical formula: **$\mathrm{CH}_2\mathrm{O}$** (molar mass $= 30.03\mathrm{ g/mol}$)
 
-$$n = \frac{180}{30.03} \approx 6$$
+$$
+n = \frac{180}{30.03} \approx 6
+$$
 
 Molecular formula: **$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6$** (glucose)
 
@@ -1065,7 +1067,9 @@ Molecular formula: **$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6$** (glucose)
 
 $8.0\mathrm{ g}$ of $\mathrm{CaCO}_3$ is heated with excess $\mathrm{HCl}$ according to:
 
-$$\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2$$
+$$
+\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2
+$$
 
 (a) Calculate the theoretical volume of $\mathrm{CO}_2$ produced at RTP.
 
@@ -1080,7 +1084,9 @@ $$\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} +
 
 $$n(\mathrm{CO}_2) = 0.0800\mathrm{ mol}$$ (1:1 ratio)
 
-$$V_{\mathrm{theoretical}} = 0.0800 \times 24.8 = 1.98\mathrm{ L}$$
+$$
+V_{\mathrm{theoretical}} = 0.0800 \times 24.8 = 1.98\mathrm{ L}
+$$
 
 (b) $$\%\mathrm{ yield} = \frac{1.60}{1.98} \times 100\% = 80.8\%$$
 
@@ -1097,9 +1103,13 @@ Occupy at STP ($273\mathrm{ K}$, $100\mathrm{ kPa}$)?
 <details>
 <summary>Answer</summary>
 
-$$\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}$$
+$$
+\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}
+$$
 
-$$V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{150 \times 3.00 \times 273}{100 \times 350} = \frac{122850}{35000} = 3.51\mathrm{ L}$$
+$$
+V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{150 \times 3.00 \times 273}{100 \times 350} = \frac{122850}{35000} = 3.51\mathrm{ L}
+$$
 
 </details>
 
@@ -1115,13 +1125,21 @@ Sulfuric acid.
 <details>
 <summary>Answer</summary>
 
-$$\mathrm{H}_2\mathrm{SO}_4 + 2\mathrm{NaOH} \to \mathrm{Na}_2\mathrm{SO}_4 + 2\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{H}_2\mathrm{SO}_4 + 2\mathrm{NaOH} \to \mathrm{Na}_2\mathrm{SO}_4 + 2\mathrm{H}_2\mathrm{O}
+$$
 
-$$n(\mathrm{NaOH}) = 0.200 \times 0.0300 = 0.00600\mathrm{ mol}$$
+$$
+n(\mathrm{NaOH}) = 0.200 \times 0.0300 = 0.00600\mathrm{ mol}
+$$
 
-$$n(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00600}{2} = 0.00300\mathrm{ mol}$$
+$$
+n(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00600}{2} = 0.00300\mathrm{ mol}
+$$
 
-$$c(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00300}{0.0250} = 0.120\mathrm{ mol/L}$$
+$$
+c(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00300}{0.0250} = 0.120\mathrm{ mol/L}
+$$
 
 </details>
 
@@ -1138,11 +1156,17 @@ Heated to constant mass of $3.14\mathrm{ g}$. Determine the value of $x$.
 
 Mass of water lost $= 6.44 - 3.14 = 3.30\mathrm{ g}$
 
-$$n(\mathrm{MgSO}_4) = \frac{3.14}{120.37} = 0.0261\mathrm{ mol}$$
+$$
+n(\mathrm{MgSO}_4) = \frac{3.14}{120.37} = 0.0261\mathrm{ mol}
+$$
 
-$$n(\mathrm{H}_2\mathrm{O}) = \frac{3.30}{18.02} = 0.183\mathrm{ mol}$$
+$$
+n(\mathrm{H}_2\mathrm{O}) = \frac{3.30}{18.02} = 0.183\mathrm{ mol}
+$$
 
-$$x = \frac{0.183}{0.0261} = 7.01 \approx 7$$
+$$
+x = \frac{0.183}{0.0261} = 7.01 \approx 7
+$$
 
 Formula: $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$ (Epsom salt)
 

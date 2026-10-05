@@ -41,11 +41,15 @@ $\langle \mathbf{x}, \mathbf{y} \rangle = \sum_{i=1}^n x_i \overline{y_i}$.
 
 Every inner product induces a **norm**:
 
-$$\lVert \mathbf{v} \rVert = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}$$
+$$
+\lVert \mathbf{v} \rVert = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}
+$$
 
 **Theorem 7.1 (Cauchy--Schwarz Inequality).** For all $\mathbf{u}, \mathbf{v} \in V$
 
-$$\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \, \lVert \mathbf{v} \rVert$$
+$$
+\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \, \lVert \mathbf{v} \rVert
+$$
 
 With equality if and only if $\mathbf{u}$ and $\mathbf{v}$ are linearly dependent.
 
@@ -53,12 +57,16 @@ _Proof._ If $\mathbf{v} = \mathbf{0}$Both sides are 0 and the result holds. Assu
 $\mathbf{v} \neq \mathbf{0}$. For any $t \in \mathbb{R}$ (or $\mathbb{C}$), positive definiteness
 gives
 
-$$0 \leq \langle \mathbf{u} - t\mathbf{v}, \mathbf{u} - t\mathbf{v} \rangle = \langle \mathbf{u}, \mathbf{u} \rangle - t\langle \mathbf{v}, \mathbf{u} \rangle - \overline{t}\langle \mathbf{u}, \mathbf{v} \rangle + \lvert t \rvert^2 \langle \mathbf{v}, \mathbf{v} \rangle$$
+$$
+0 \leq \langle \mathbf{u} - t\mathbf{v}, \mathbf{u} - t\mathbf{v} \rangle = \langle \mathbf{u}, \mathbf{u} \rangle - t\langle \mathbf{v}, \mathbf{u} \rangle - \overline{t}\langle \mathbf{u}, \mathbf{v} \rangle + \lvert t \rvert^2 \langle \mathbf{v}, \mathbf{v} \rangle
+$$
 
 Set $t = \frac{\langle \mathbf{u}, \mathbf{v} \rangle}{\langle \mathbf{v}, \mathbf{v} \rangle}$ (the
 value that minimises the right side):
 
-$$0 \leq \lVert \mathbf{u} \rVert^2 - \frac{\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert^2}{\lVert \mathbf{v} \rVert^2}$$
+$$
+0 \leq \lVert \mathbf{u} \rVert^2 - \frac{\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert^2}{\lVert \mathbf{v} \rVert^2}
+$$
 
 Rearranging:
 $\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert^2 \leq \lVert \mathbf{u} \rVert^2 \lVert \mathbf{v} \rVert^2$.
@@ -67,16 +75,22 @@ I.e., $\mathbf{u}$ and $\mathbf{v}$ are linearly dependent. $\blacksquare$
 
 **Theorem 7.2 (Triangle Inequality).**
 
-$$\lVert \mathbf{u} + \mathbf{v} \rVert \leq \lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert$$
+$$
+\lVert \mathbf{u} + \mathbf{v} \rVert \leq \lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert
+$$
 
 _Proof._
 
-$$\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \langle \mathbf{u} + \mathbf{v}, \mathbf{u} + \mathbf{v} \rangle = \lVert \mathbf{u} \rVert^2 + 2\,\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle + \lVert \mathbf{v} \rVert^2$$
+$$
+\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \langle \mathbf{u} + \mathbf{v}, \mathbf{u} + \mathbf{v} \rangle = \lVert \mathbf{u} \rVert^2 + 2\,\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle + \lVert \mathbf{v} \rVert^2
+$$
 
 By Cauchy--Schwarz,
 $\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle \leq \lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert$ So
 
-$$\lVert \mathbf{u} + \mathbf{v} \rVert^2 \leq \lVert \mathbf{u} \rVert^2 + 2\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert + \lVert \mathbf{v} \rVert^2 = (\lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert)^2$$
+$$
+\lVert \mathbf{u} + \mathbf{v} \rVert^2 \leq \lVert \mathbf{u} \rVert^2 + 2\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert + \lVert \mathbf{v} \rVert^2 = (\lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert)^2
+$$
 
 Taking square roots gives the result. $\blacksquare$
 
@@ -89,7 +103,9 @@ An **orthonormal set** $\{e_1, \ldots, e_k\}$ satisfies $\langle e_i, e_j \rangl
 
 **Theorem 7.3 (Pythagorean Theorem).** If $\mathbf{u} \perp \mathbf{v}$ Then
 
-$$\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2$$
+$$
+\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2
+$$
 
 _Proof._
 $\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + 2\langle \mathbf{u}, \mathbf{v} \rangle + \lVert \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2$.
@@ -106,9 +122,13 @@ $j$. $\blacksquare$
 The **Gram--Schmidt process** converts a linearly independent set
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_n\}$ into an orthonormal set $\{e_1, \ldots, e_n\}$:
 
-$$\mathbf{u}_1 = \mathbf{v}_1, \quad e_1 = \frac{\mathbf{u}_1}{\lVert \mathbf{u}_1 \rVert}$$
+$$
+\mathbf{u}_1 = \mathbf{v}_1, \quad e_1 = \frac{\mathbf{u}_1}{\lVert \mathbf{u}_1 \rVert}
+$$
 
-$$\mathbf{u}_k = \mathbf{v}_k - \sum_{i=1}^{k-1} \langle \mathbf{v}_k, e_i \rangle e_i, \quad e_k = \frac{\mathbf{u}_k}{\lVert \mathbf{u}_k \rVert}$$
+$$
+\mathbf{u}_k = \mathbf{v}_k - \sum_{i=1}^{k-1} \langle \mathbf{v}_k, e_i \rangle e_i, \quad e_k = \frac{\mathbf{u}_k}{\lVert \mathbf{u}_k \rVert}
+$$
 
 **Proposition 7.5.** At each step,
 $\mathrm{span}\{e_1, \ldots, e_k\} = \mathrm{span}\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$.
@@ -124,19 +144,25 @@ Since each $e_i$ is a scalar multiple of $\mathbf{u}_i$The spans coincide. $\bla
 The **orthogonal projection** of $\mathbf{v}$ onto a subspace $W$ with orthonormal basis
 $\{e_1, \ldots, e_k\}$ is
 
-$$\mathrm{proj_W}(\mathbf{v}) = \sum_{i=1}^k \langle \mathbf{v}, e_i \rangle e_i$$
+$$
+\mathrm{proj_W}(\mathbf{v}) = \sum_{i=1}^k \langle \mathbf{v}, e_i \rangle e_i
+$$
 
 **Theorem 7.6 (Best Approximation).** Among all vectors in $W$The orthogonal projection
 $\mathrm{proj_W}(\mathbf{v})$ minimises the distance to $\mathbf{v}$:
 
-$$\lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert \leq \lVert \mathbf{v} - \mathbf{w} \rVert \quad \mathrm{for}~all~ \mathbf{w} \in W$$
+$$
+\lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert \leq \lVert \mathbf{v} - \mathbf{w} \rVert \quad \mathrm{for}~all~ \mathbf{w} \in W
+$$
 
 _Proof._ For any $\mathbf{w} \in W$Write
 $\mathbf{v} - \mathbf{w} = (\mathbf{v} - \mathrm{proj_W}(\mathbf{v})) + (\mathrm{proj_W}(\mathbf{v}) - \mathbf{w})$.
 The first term is orthogonal to $W$ (hence to the second term, which lies in $W$), so by the
 Pythagorean theorem:
 
-$$\lVert \mathbf{v} - \mathbf{w} \rVert^2 = \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert^2 + \lVert \mathrm{proj_W}(\mathbf{v}) - \mathbf{w} \rVert^2 \geq \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert^2$$
+$$
+\lVert \mathbf{v} - \mathbf{w} \rVert^2 = \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert^2 + \lVert \mathrm{proj_W}(\mathbf{v}) - \mathbf{w} \rVert^2 \geq \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert^2
+$$
 
 With equality iff $\mathbf{w} = \mathrm{proj_W}(\mathbf{v})$. $\blacksquare$
 

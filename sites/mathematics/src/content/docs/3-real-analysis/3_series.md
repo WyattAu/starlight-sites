@@ -62,11 +62,15 @@ converges.
 _Proof._ Since $f$ is decreasing, for $k \leq x \leq k+1$: $f(k+1) \leq f(x) \leq f(k)$.
 Integrating:
 
-$$f(k+1) = \int_k^{k+1} f(k+1)\, dx \leq \int_k^{k+1} f(x)\, dx \leq \int_k^{k+1} f(k)\, dx = f(k)$$
+$$
+f(k+1) = \int_k^{k+1} f(k+1)\, dx \leq \int_k^{k+1} f(x)\, dx \leq \int_k^{k+1} f(k)\, dx = f(k)
+$$
 
 Summing from $k = 1$ to $N - 1$:
 
-$$\sum_{k=2}^{N} f(k) \leq \int_1^N f(x)\, dx \leq \sum_{k=1}^{N-1} f(k)$$
+$$
+\sum_{k=2}^{N} f(k) \leq \int_1^N f(x)\, dx \leq \sum_{k=1}^{N-1} f(k)
+$$
 
 If $\int_1^{\infty} f$ converges, the left inequality shows $\sum f(k)$ is bounded above, hence
 converges. If $\int_1^{\infty} f$ diverges, the right inequality shows $\sum f(k)$ is unbounded,
@@ -100,7 +104,9 @@ satisfies The Cauchy criterion and converges. $\blacksquare$
 **Theorem 3.8 (Alternating Series Estimation).** If $S = \sum_{n=1}^{\infty} (-1)^{n+1} a_n$
 satisfies the Hypotheses of the alternating series test, then the error after $N$ terms satisfies:
 
-$$|S - S_N| \leq a_{N+1}$$
+$$
+|S - S_N| \leq a_{N+1}
+$$
 
 _Proof._ We have $S_{2n} \leq S \leq S_{2n+1} = S_{2n} + a_{2n+1}$ and
 $S_{2n-1} \geq S \geq S_{2n} = S_{2n-1} - a_{2n}$. In both cases $|S - S_N| \leq a_{N+1}$.
@@ -113,12 +119,16 @@ $\sum_{n=1}^{\infty} a_n$ converges if and only if $\sum_{k=0}^{\infty} 2^k a_{2
 
 _Proof._ Group the terms of $\sum a_n$. For the lower bound, note:
 
-$$a_1 + (a_2 + a_3) + (a_4 + a_5 + a_6 + a_7) + \cdots \geq a_1 + 2a_2 + 4a_4 + 8a_8 + \cdots = \sum_{k=0}^{\infty} 2^k a_{2^k}$$
+$$
+a_1 + (a_2 + a_3) + (a_4 + a_5 + a_6 + a_7) + \cdots \geq a_1 + 2a_2 + 4a_4 + 8a_8 + \cdots = \sum_{k=0}^{\infty} 2^k a_{2^k}
+$$
 
 Since each group $(a_{2^k} + \cdots + a_{2^{k+1}-1})$ has $2^k$ terms, each $\geq a_{2^k}$. For the
 upper Bound:
 
-$$a_1 + a_2 + (a_3 + a_4) + (a_5 + a_6 + a_7 + a_8) + \cdots \leq a_1 + a_2 + 2a_4 + 4a_8 + \cdots \leq a_1 + 2\sum_{k=1}^{\infty} 2^{k-1} a_{2^k}$$
+$$
+a_1 + a_2 + (a_3 + a_4) + (a_5 + a_6 + a_7 + a_8) + \cdots \leq a_1 + a_2 + 2a_4 + 4a_8 + \cdots \leq a_1 + 2\sum_{k=1}^{\infty} 2^{k-1} a_{2^k}
+$$
 
 If $\sum 2^k a_{2^k}$ converges, the upper bound shows $\sum a_n$ converges. If $\sum a_n$
 Converges, the lower bound shows $\sum 2^k a_{2^k}$ converges. $\blacksquare$
@@ -150,7 +160,9 @@ sum.
 
 _Solution._ Apply the ratio test:
 
-$$\lim_{n \to \infty} \frac{a_{n+1}}{a_n} = \lim_{n \to \infty} \frac{(n+1)/2^{n+1}}{n/2^n} = \lim_{n \to \infty} \frac{n+1}{2n} = \frac{1}{2} \lt 1$$
+$$
+\lim_{n \to \infty} \frac{a_{n+1}}{a_n} = \lim_{n \to \infty} \frac{(n+1)/2^{n+1}}{n/2^n} = \lim_{n \to \infty} \frac{n+1}{2n} = \frac{1}{2} \lt 1
+$$
 
 By the ratio test, the series converges absolutely. $\blacksquare$
 
@@ -160,7 +172,9 @@ By the ratio test, the series converges absolutely. $\blacksquare$
 _Solution._ Note that $\frac{1}{n^2 + n} = \frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$. This is
 a Telescoping series. The $N$-th partial sum is:
 
-$$S_N = \sum_{n=1}^{N} \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$$
+$$
+S_N = \sum_{n=1}^{N} \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}
+$$
 
 Therefore $\lim_{N \to \infty} S_N = 1$ And the series converges to $1$. $\blacksquare$
 
@@ -172,7 +186,9 @@ Therefore $\lim_{N \to \infty} S_N = 1$ And the series converges to $1$. $\black
 _Solution._ Apply the integral test with $f(x) = 1/(x \ln x)$ on $[2, \infty)$. The function is
 positive, Continuous, and decreasing. Compute:
 
-$$\int_2^{\infty} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \int_2^{b} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \left[\ln(\ln x)\right]_2^b = \lim_{b \to \infty} \ln(\ln b) - \ln(\ln 2) = \infty$$
+$$
+\int_2^{\infty} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \int_2^{b} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \left[\ln(\ln x)\right]_2^b = \lim_{b \to \infty} \ln(\ln b) - \ln(\ln 2) = \infty
+$$
 
 The integral diverges, so by the integral test, the series diverges. $\blacksquare$
 
@@ -206,7 +222,9 @@ _Solution._ Let $a_n = \frac{1}{n (\ln n)(\ln \ln n)}$ for $n \geq 3$. This is p
 decreasing. By the condensation test, $\sum a_n$ converges iff $\sum 2^k a_{2^k}$ converges.
 Compute:
 
-$$2^k a_{2^k} = \frac{2^k}{2^k \cdot k \ln 2 \cdot \ln(k \ln 2)} = \frac{1}{k \ln 2 \cdot \ln(k \ln 2)} \approx \frac{1}{k \ln k}$$
+$$
+2^k a_{2^k} = \frac{2^k}{2^k \cdot k \ln 2 \cdot \ln(k \ln 2)} = \frac{1}{k \ln 2 \cdot \ln(k \ln 2)} \approx \frac{1}{k \ln k}
+$$
 
 The series $\sum \frac{1}{k \ln k}$ diverges (integral test, analogous to $\sum \frac{1}{n \ln n}$).
 Therefore $\sum a_n$ diverges. $\blacksquare$

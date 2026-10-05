@@ -528,13 +528,21 @@ $K_b = 10^{-3.37} = 4.27 \times 10^{-4}$
 The equilibrium:
 $\mathrm{CH}_3\mathrm{NH}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{NH}_3^+ + \mathrm{OH}^-$
 
-$$K_b = \frac{[\mathrm{CH}_3\mathrm{NH}_3^+][\mathrm{OH}^-]}{[\mathrm{CH}_3\mathrm{NH}_2]} = \frac{x^2}{0.10 - x} \approx \frac{x^2}{0.10}$$
+$$
+K_b = \frac{[\mathrm{CH}_3\mathrm{NH}_3^+][\mathrm{OH}^-]}{[\mathrm{CH}_3\mathrm{NH}_2]} = \frac{x^2}{0.10 - x} \approx \frac{x^2}{0.10}
+$$
 
-$$x = \sqrt{K_b \times 0.10} = \sqrt{4.27 \times 10^{-5}} = 6.54 \times 10^{-3}\,\mathrm{mol\,dm^{-3}}$$
+$$
+x = \sqrt{K_b \times 0.10} = \sqrt{4.27 \times 10^{-5}} = 6.54 \times 10^{-3}\,\mathrm{mol\,dm^{-3}}
+$$
 
-$$\mathrm{pOH} = -\log(6.54 \times 10^{-3}) = 2.18$$
+$$
+\mathrm{pOH} = -\log(6.54 \times 10^{-3}) = 2.18
+$$
 
-$$\mathrm{pH} = 14 - 2.18 = 11.82$$
+$$
+\mathrm{pH} = 14 - 2.18 = 11.82
+$$
 
 **Conclusion:** A $0.10\,\mathrm{mol\,dm^{-3}}$ solution of methylamine has a pH of 11.82,
 confirming it is a weak base (not fully dissociated).
@@ -543,26 +551,36 @@ confirming it is a weak base (not fully dissociated).
 
 Step 1: Nitration of benzene:
 
-$$\mathrm{C}_6\mathrm{H}_6 \xrightarrow[\text{conc. }\mathrm{H}_2\mathrm{SO}_4]{\text{conc. }\mathrm{HNO}_3,\,50\text{--}60^\circ\mathrm{C}} \mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2$$
+$$
+\mathrm{C}_6\mathrm{H}_6 \xrightarrow[\text{conc. }\mathrm{H}_2\mathrm{SO}_4]{\text{conc. }\mathrm{HNO}_3,\,50\text{--}60^\circ\mathrm{C}} \mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2
+$$
 
 Step 2: Reduction of nitrobenzene to aniline:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2 \xrightarrow{\mathrm{Sn}/\mathrm{HCl},\,\text{then }\mathrm{NaOH}} \mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2 \xrightarrow{\mathrm{Sn}/\mathrm{HCl},\,\text{then }\mathrm{NaOH}} \mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2
+$$
 
 Step 3: Acetylation (protecting group) with ethanoyl chloride to give acetanilide:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2 + \mathrm{CH}_3\mathrm{COCl} \to \mathrm{C}_6\mathrm{H}_5\mathrm{NHCOCH}_3 + \mathrm{HCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2 + \mathrm{CH}_3\mathrm{COCl} \to \mathrm{C}_6\mathrm{H}_5\mathrm{NHCOCH}_3 + \mathrm{HCl}
+$$
 
 The acetanilide amide group is a weaker activator than the free amine and directs para, minimising
 di-nitration.
 
 Step 4: Nitration of acetanilide (para-directing, gives mainly p-nitroacetanilide):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{NHCOCH}_3 \xrightarrow[\text{conc. }\mathrm{H}_2\mathrm{SO}_4]{\text{dilute }\mathrm{HNO}_3,\,\lt 5^\circ\mathrm{C}} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{NHCOCH}_3$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{NHCOCH}_3 \xrightarrow[\text{conc. }\mathrm{H}_2\mathrm{SO}_4]{\text{dilute }\mathrm{HNO}_3,\,\lt 5^\circ\mathrm{C}} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{NHCOCH}_3
+$$
 
 Step 5: Hydrolysis of the amide protecting group:
 
-$$4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{NHCOCH}_3 \xrightarrow{\mathrm{H}^+,\,\text{reflux}} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{NH}_2 + \mathrm{CH}_3\mathrm{COOH}$$
+$$
+4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{NHCOCH}_3 \xrightarrow{\mathrm{H}^+,\,\text{reflux}} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{NH}_2 + \mathrm{CH}_3\mathrm{COOH}
+$$
 
 The product is 4-nitroaniline.
 
@@ -572,14 +590,18 @@ The product is 4-nitroaniline.
 
 Step 1: Diazotisation (at $0$--$5^\circ\mathrm{C}$):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2 + \mathrm{NaNO}_2 + 2\mathrm{HCl} \to \mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+\mathrm{Cl}^- + \mathrm{NaCl} + 2\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2 + \mathrm{NaNO}_2 + 2\mathrm{HCl} \to \mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+\mathrm{Cl}^- + \mathrm{NaCl} + 2\mathrm{H}_2\mathrm{O}
+$$
 
 Step 2: Coupling with 2-naphthol (in alkaline conditions):
 
 In alkaline solution, 2-naphthol is deprotonated to the naphthoxide ion, which is more nucleophilic
 at the position para to the $-\mathrm{O}^-$ group (position 1):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{C}_{10}\mathrm{H}_7\mathrm{O}^- \to \mathrm{C}_6\mathrm{H}_5\mathrm{N}=\mathrm{NC}_{10}\mathrm{H}_6\mathrm{OH}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{C}_{10}\mathrm{H}_7\mathrm{O}^- \to \mathrm{C}_6\mathrm{H}_5\mathrm{N}=\mathrm{NC}_{10}\mathrm{H}_6\mathrm{OH}
+$$
 
 The azo compound is intensely coloured (orange-red). The extended conjugation across the
 $-\mathrm{N}=\mathrm{N}-$ linkage and both aromatic systems shifts absorption into the visible
@@ -626,7 +648,9 @@ does not distinguish them.
 $0.500\,\mathrm{mol\,dm^{-3}}$ HCl. The endpoint is reached at $22.2\,\mathrm{cm}^3$. Calculate the
 percentage purity of the ethylamine.**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{NH}_2 + \mathrm{HCl} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{NH}_3^+\mathrm{Cl}^-$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{NH}_2 + \mathrm{HCl} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{NH}_3^+\mathrm{Cl}^-
+$$
 
 Moles of HCl used: $n = c \times V = 0.500 \times 0.0222 = 0.0111\,\mathrm{mol}$
 
@@ -655,7 +679,9 @@ $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{KI} \to \mathrm{C}_6\mathrm{H}
 Step 5: Nitration of iodobenzene (iodine is ortho/para directing but deactivating; need vigorous
 conditions):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{I} \xrightarrow{\mathrm{HNO}_3/\mathrm{H}_2\mathrm{SO}_4,\,\Delta} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{I} \text{ (major)}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{I} \xrightarrow{\mathrm{HNO}_3/\mathrm{H}_2\mathrm{SO}_4,\,\Delta} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{I} \text{ (major)}
+$$
 
 Step 6: Oxidation of the methyl group... Wait, there is no methyl group. We need the carboxylic acid
 directly.
@@ -689,7 +715,9 @@ $$\mathrm{p}K_a + \mathrm{p}K_b = 14.00$$ $$\mathrm{p}K_a = 14.00 - 3.37 = 10.63
 
 Using the Henderson-Hasselbalch equation:
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{base}]}{[\mathrm{acid}]} = 10.63 + \log\frac{0.100}{0.150} = 10.63 + \log(0.667) = 10.63 - 0.176 = 10.45$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{base}]}{[\mathrm{acid}]} = 10.63 + \log\frac{0.100}{0.150} = 10.63 + \log(0.667) = 10.63 - 0.176 = 10.45
+$$
 
 The buffer has a pH of 10.45, which is within one unit of $\mathrm{p}K_a$ (10.63), so it is
 effective.

@@ -47,7 +47,9 @@ An IEEE 754 single-precision number uses 32 bits partitioned as follows:
 
 The represented value is:
 
-$$(-1)^S \times 1.M \times 2^{E - 127}$$
+$$
+(-1)^S \times 1.M \times 2^{E - 127}
+$$
 
 Where $1.M$ denotes the binary number $1 + \sum_{i=1}^{23} m_i \cdot 2^{-i}$. The leading 1 is
 **implicit**, it is not stored but always assumed (for normalised numbers). This is called the
@@ -62,11 +64,15 @@ Where $1.M$ denotes the binary number $1 + \sum_{i=1}^{23} m_i \cdot 2^{-i}$. Th
 
 **Largest positive normalised number:**
 
-$$+1.111\ldots1 \times 2^{127} = (2 - 2^{-23}) \times 2^{127} \approx 3.403 \times 10^{38}$$
+$$
++1.111\ldots1 \times 2^{127} = (2 - 2^{-23}) \times 2^{127} \approx 3.403 \times 10^{38}
+$$
 
 **Smallest positive normalised number:**
 
-$$+1.000\ldots0 \times 2^{-126} = 2^{-126} \approx 1.175 \times 10^{-38}$$
+$$
++1.000\ldots0 \times 2^{-126} = 2^{-126} \approx 1.175 \times 10^{-38}
+$$
 
 **General range (normalised):** approximately $\pm 1.175 \times 10^{-38}$ to
 $\pm 3.403 \times 10^{38}$.
@@ -89,7 +95,9 @@ Gives approximately $24 \times \log_{10}(2) \approx 7.22$ decimal digits of prec
 
 When $E = 0$ and $M \neq 0$The value is:
 
-$$(-1)^S \times 0.M \times 2^{-126}$$
+$$
+(-1)^S \times 0.M \times 2^{-126}
+$$
 
 Note: the implicit bit is now **0** (not 1), and the exponent is fixed at $-126$ (not $-127$).
 
@@ -97,7 +105,9 @@ Note: the implicit bit is now **0** (not 1), and the exponent is fixed at $-126$
 Normalised number ($2^{-126} \approx 1.18 \times 10^{-38}$). Denormalised numbers fill this gap,
 Providing a **smooth gradual underflow**. The smallest positive denormalised number is:
 
-$$0.000\ldots001 \times 2^{-126} = 2^{-23} \times 2^{-126} = 2^{-149} \approx 1.4 \times 10^{-45}$$
+$$
+0.000\ldots001 \times 2^{-126} = 2^{-23} \times 2^{-126} = 2^{-149} \approx 1.4 \times 10^{-45}
+$$
 
 <details>
 <summary>Example: Decode IEEE 754 single-precision 0x41280000</summary>
@@ -140,7 +150,9 @@ Result: `1 10000001 10100000000000000000000`
 A floating-point number is **normalised** when the leading bit of the significand is 1. In binary,
 This means the number is expressed in the form:
 
-$$\pm 1.xxxxxx \times 2^e$$
+$$
+\pm 1.xxxxxx \times 2^e
+$$
 
 **Procedure for normalising:**
 
@@ -191,9 +203,13 @@ False
 
 Given an exact value $x$ and an approximate value $\tilde{x}$:
 
-$$\mathrm{Absolute Error} = |x - \tilde{x}|$$
+$$
+\mathrm{Absolute Error} = |x - \tilde{x}|
+$$
 
-$$\mathrm{Relative Error} = \frac{|x - \tilde{x}|}{|x|}$$
+$$
+\mathrm{Relative Error} = \frac{|x - \tilde{x}|}{|x|}
+$$
 
 **Machine epsilon** ($\epsilon$) is the smallest number such that $1 + \epsilon \gt 1$ in
 Floating-point arithmetic. For IEEE 754 single precision,
@@ -501,7 +517,9 @@ $\frac{3.33 \times 10^{-7}}{1/3} = 3.33 \times 10^{-7} \times 3 = 10^{-6} = 0.00
 
 ### Decoding
 
-$$(-1)^S \times 1.M \times 2^{E - 1023}$$
+$$
+(-1)^S \times 1.M \times 2^{E - 1023}
+$$
 
 ### Range
 

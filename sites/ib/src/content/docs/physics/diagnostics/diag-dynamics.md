@@ -139,36 +139,60 @@ Maximum static friction: $F_{\max} = \mu_s R = \mu_s(mg\cos 35^\circ + P\sin 35^
 
 (a) Block on the verge of sliding down (friction acts up the slope):
 
-$$P\cos 35^\circ + F_{\max} = mg\sin 35^\circ$$
+$$
+P\cos 35^\circ + F_{\max} = mg\sin 35^\circ
+$$
 
-$$P\cos 35^\circ + 0.45(mg\cos 35^\circ + P\sin 35^\circ) = mg\sin 35^\circ$$
+$$
+P\cos 35^\circ + 0.45(mg\cos 35^\circ + P\sin 35^\circ) = mg\sin 35^\circ
+$$
 
-$$P(\cos 35^\circ + 0.45\sin 35^\circ) = mg\sin 35^\circ - 0.45 \times mg\cos 35^\circ$$
+$$
+P(\cos 35^\circ + 0.45\sin 35^\circ) = mg\sin 35^\circ - 0.45 \times mg\cos 35^\circ
+$$
 
-$$P(0.8192 + 0.2582) = 5.0 \times 9.81(0.5736 - 0.45 \times 0.8192)$$
+$$
+P(0.8192 + 0.2582) = 5.0 \times 9.81(0.5736 - 0.45 \times 0.8192)
+$$
 
-$$P(1.0774) = 49.05(0.5736 - 0.3686) = 49.05 \times 0.2050 = 10.06$$
+$$
+P(1.0774) = 49.05(0.5736 - 0.3686) = 49.05 \times 0.2050 = 10.06
+$$
 
-$$P = \frac{10.06}{1.0774} = 9.34\,\text{N}$$
+$$
+P = \frac{10.06}{1.0774} = 9.34\,\text{N}
+$$
 
 (b) Block on the verge of sliding up (friction acts down the slope):
 
-$$P\cos 35^\circ = mg\sin 35^\circ + F_{\max}$$
+$$
+P\cos 35^\circ = mg\sin 35^\circ + F_{\max}
+$$
 
-$$P\cos 35^\circ = mg\sin 35^\circ + 0.45(mg\cos 35^\circ + P\sin 35^\circ)$$
+$$
+P\cos 35^\circ = mg\sin 35^\circ + 0.45(mg\cos 35^\circ + P\sin 35^\circ)
+$$
 
-$$P(\cos 35^\circ - 0.45\sin 35^\circ) = mg\sin 35^\circ + 0.45 \times mg\cos 35^\circ$$
+$$
+P(\cos 35^\circ - 0.45\sin 35^\circ) = mg\sin 35^\circ + 0.45 \times mg\cos 35^\circ
+$$
 
-$$P(0.8192 - 0.2582) = 49.05(0.5736 + 0.3686) = 49.05 \times 0.9422 = 46.22$$
+$$
+P(0.8192 - 0.2582) = 49.05(0.5736 + 0.3686) = 49.05 \times 0.9422 = 46.22
+$$
 
-$$P = \frac{46.22}{0.5610} = 82.4\,\text{N}$$
+$$
+P = \frac{46.22}{0.5610} = 82.4\,\text{N}
+$$
 
 (c) With $P = 45\,\text{N}$:
 
 Since $9.34\,\text{N} \lt 45\,\text{N} \lt 82.4\,\text{N}$The block does **not** slide. The static
 friction adjusts to maintain equilibrium.
 
-$$f = mg\sin 35^\circ - P\cos 35^\circ = 49.05 \times 0.5736 - 45 \times 0.8192 = 28.14 - 36.86 = -8.72\,\text{N}$$
+$$
+f = mg\sin 35^\circ - P\cos 35^\circ = 49.05 \times 0.5736 - 45 \times 0.8192 = 28.14 - 36.86 = -8.72\,\text{N}
+$$
 
 The negative sign means friction acts down the slope (preventing the block from being pushed up).
 The magnitude $8.72\,\text{N}$ is less than $F_{\max}$Confirming the block does not move.
@@ -215,23 +239,37 @@ motion, towards pulley)
 
 For $B$ (positive direction = away from pulley):
 
-$$F - T - f_B = m_B a$$
+$$
+F - T - f_B = m_B a
+$$
 
-$$40 - T - 29.43 = 6.0a$$
+$$
+40 - T - 29.43 = 6.0a
+$$
 
-$$10.57 - T = 6.0a \quad \text{--- (1)}$$
+$$
+10.57 - T = 6.0a \quad \text{--- (1)}
+$$
 
 For $A$ (positive direction = towards pulley):
 
-$$T - f_A = m_A a$$
+$$
+T - f_A = m_A a
+$$
 
-$$T - 11.77 = 4.0a \quad \text{--- (2)}$$
+$$
+T - 11.77 = 4.0a \quad \text{--- (2)}
+$$
 
 Adding (1) and (2):
 
-$$10.57 - 11.77 = 10.0a$$
+$$
+10.57 - 11.77 = 10.0a
+$$
 
-$$a = \frac{-1.20}{10.0} = -0.120\,\text{m}\,\text{s}^{-2}$$
+$$
+a = \frac{-1.20}{10.0} = -0.120\,\text{m}\,\text{s}^{-2}
+$$
 
 Since the acceleration is negative, the system does **not** accelerate in the direction of the
 applied force. The applied force of $40\,\text{N}$ is insufficient to overcome the total friction of
@@ -257,21 +295,33 @@ $T \lt f_A^{\max}$Block $A$ does not move. So $a = 0$ for block $A$ and the syst
 
 For $B$ (positive direction = towards pulley):
 
-$$-T - f_B = m_B a$$
+$$
+-T - f_B = m_B a
+$$
 
-$$-T - 29.43 = 6.0a \quad \text{--- (3)}$$
+$$
+-T - 29.43 = 6.0a \quad \text{--- (3)}
+$$
 
 For $A$ (positive direction = towards pulley, so $A$ is pulled):
 
-$$T - f_A = m_A a$$
+$$
+T - f_A = m_A a
+$$
 
-$$T - 11.77 = 4.0a \quad \text{--- (4)}$$
+$$
+T - 11.77 = 4.0a \quad \text{--- (4)}
+$$
 
 Adding (3) and (4):
 
-$$-29.43 - 11.77 = 10.0a$$
+$$
+-29.43 - 11.77 = 10.0a
+$$
 
-$$a = \frac{-41.20}{10.0} = -4.12\,\text{m}\,\text{s}^{-2}$$
+$$
+a = \frac{-41.20}{10.0} = -4.12\,\text{m}\,\text{s}^{-2}
+$$
 
 The deceleration is $4.12\,\text{m}\,\text{s}^{-2}$ (opposing the direction of motion towards the
 pulley).
@@ -316,28 +366,46 @@ $f \times 0.80 = \mu_k mg\cos 40^\circ \times 0.80 = 0.25 \times 2.0 \times 9.81
 
 Net energy to kinetic energy:
 
-$$\frac{1}{2}mv^2 = 64.0 + 10.09 - 3.00 = 71.09\,\text{J}$$
+$$
+\frac{1}{2}mv^2 = 64.0 + 10.09 - 3.00 = 71.09\,\text{J}
+$$
 
-$$v = \sqrt{\frac{2 \times 71.09}{2.0}} = \sqrt{71.09} = 8.43\,\text{m}\,\text{s}^{-1}$$
+$$
+v = \sqrt{\frac{2 \times 71.09}{2.0}} = \sqrt{71.09} = 8.43\,\text{m}\,\text{s}^{-1}
+$$
 
 (b) Beyond the natural length, the spring is now stretched. Let the block travel a further distance
 $d$ up the slope before stopping.
 
 Energy balance from the natural length position:
 
-$$\frac{1}{2}mv^2 = \frac{1}{2}kd^2 + mgd\sin 40^\circ + \mu_k mg\cos 40^\circ \times d$$
+$$
+\frac{1}{2}mv^2 = \frac{1}{2}kd^2 + mgd\sin 40^\circ + \mu_k mg\cos 40^\circ \times d
+$$
 
-$$71.09 = 100d^2 + 2.0 \times 9.81 \times 0.6428d + 0.25 \times 2.0 \times 9.81 \times 0.7660d$$
+$$
+71.09 = 100d^2 + 2.0 \times 9.81 \times 0.6428d + 0.25 \times 2.0 \times 9.81 \times 0.7660d
+$$
 
-$$71.09 = 100d^2 + 12.61d + 3.76d$$
+$$
+71.09 = 100d^2 + 12.61d + 3.76d
+$$
 
-$$100d^2 + 16.37d - 71.09 = 0$$
+$$
+100d^2 + 16.37d - 71.09 = 0
+$$
 
-$$d = \frac{-16.37 + \sqrt{16.37^2 + 4 \times 100 \times 71.09}}{200}$$
+$$
+d = \frac{-16.37 + \sqrt{16.37^2 + 4 \times 100 \times 71.09}}{200}
+$$
 
-$$d = \frac{-16.37 + \sqrt{267.98 + 28436}}{200} = \frac{-16.37 + \sqrt{28704}}{200} = \frac{-16.37 + 169.42}{200}$$
+$$
+d = \frac{-16.37 + \sqrt{267.98 + 28436}}{200} = \frac{-16.37 + \sqrt{28704}}{200} = \frac{-16.37 + 169.42}{200}
+$$
 
-$$d = \frac{153.05}{200} = 0.765\,\text{m}$$
+$$
+d = \frac{153.05}{200} = 0.765\,\text{m}
+$$
 
 (c) The total distance travelled in one complete oscillation is
 $0.80 + 0.765 + 0.765 + 0.80 = 3.13\,\text{m}$ (down, up beyond, back, and the block does not return
@@ -391,21 +459,33 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 For $B$: $m_B g - T = m_B a$
 
-$$3.0 \times 9.81 - T = 3.0a \Rightarrow 29.43 - T = 3.0a \quad \text{--- (1)}$$
+$$
+3.0 \times 9.81 - T = 3.0a \Rightarrow 29.43 - T = 3.0a \quad \text{--- (1)}
+$$
 
 For $A$: $T - m_A g\sin 30^\circ - \mu m_A g\cos 30^\circ = m_A a$
 
-$$T - 8.0 \times 9.81 \times 0.5 - 0.20 \times 8.0 \times 9.81 \times 0.866 = 8.0a$$
+$$
+T - 8.0 \times 9.81 \times 0.5 - 0.20 \times 8.0 \times 9.81 \times 0.866 = 8.0a
+$$
 
-$$T - 39.24 - 13.61 = 8.0a$$
+$$
+T - 39.24 - 13.61 = 8.0a
+$$
 
-$$T - 52.85 = 8.0a \quad \text{--- (2)}$$
+$$
+T - 52.85 = 8.0a \quad \text{--- (2)}
+$$
 
 Adding (1) and (2):
 
-$$29.43 - 52.85 = 11.0a$$
+$$
+29.43 - 52.85 = 11.0a
+$$
 
-$$a = \frac{-23.42}{11.0} = -2.13\,\text{m}\,\text{s}^{-2}$$
+$$
+a = \frac{-23.42}{11.0} = -2.13\,\text{m}\,\text{s}^{-2}
+$$
 
 Since $a$ is negative, the assumption that $B$ moves down is wrong. The system moves with $A$
 sliding **down** the incline and $B$ being pulled **up**.
@@ -414,19 +494,29 @@ Re-solving with $A$ moving down:
 
 For $B$ (upward positive): $T - m_B g = m_B a$
 
-$$T - 29.43 = 3.0a \quad \text{--- (3)}$$
+$$
+T - 29.43 = 3.0a \quad \text{--- (3)}
+$$
 
 For $A$ (down the incline positive): $m_A g\sin 30^\circ - T - \mu m_A g\cos 30^\circ = m_A a$
 
-$$39.24 - T - 13.61 = 8.0a$$
+$$
+39.24 - T - 13.61 = 8.0a
+$$
 
-$$25.63 - T = 8.0a \quad \text{--- (4)}$$
+$$
+25.63 - T = 8.0a \quad \text{--- (4)}
+$$
 
 Adding (3) and (4):
 
-$$25.63 - 29.43 = 11.0a$$
+$$
+25.63 - 29.43 = 11.0a
+$$
 
-$$a = \frac{-3.80}{11.0} = -0.345\,\text{m}\,\text{s}^{-2}$$
+$$
+a = \frac{-3.80}{11.0} = -0.345\,\text{m}\,\text{s}^{-2}
+$$
 
 Still negative, meaning the system does not move. The static friction is sufficient to hold the
 system in equilibrium.
@@ -500,9 +590,13 @@ Net force (taking down as positive): $mg - F_d = 2500 \times 9.81 - 500v$
 
 Terminal velocity when $F_{\text{net}} = 0$:
 
-$$2500 \times 9.81 = 500v_t$$
+$$
+2500 \times 9.81 = 500v_t
+$$
 
-$$v_t = \frac{24525}{500} = 49.1\,\text{m}\,\text{s}^{-1}$$
+$$
+v_t = \frac{24525}{500} = 49.1\,\text{m}\,\text{s}^{-1}
+$$
 
 Since the helicopter is moving upward at $20.9\,\text{m}\,\text{s}^{-1}$ when the engine fails, it
 first decelerates, stops, then accelerates downward. It approaches terminal velocity of

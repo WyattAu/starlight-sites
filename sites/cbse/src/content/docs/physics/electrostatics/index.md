@@ -66,11 +66,17 @@ Electrostatics studies electric charges at rest. It covers Coulomb's law, electr
 **Solution:**
 
 In a medium, Coulomb's law becomes:
-$$F = \frac{1}{4\pi\varepsilon_0 K}\frac{|q_1 q_2|}{r^2} = \frac{k}{K}\frac{|q_1 q_2|}{r^2}$$
+$$
+F = \frac{1}{4\pi\varepsilon_0 K}\frac{|q_1 q_2|}{r^2} = \frac{k}{K}\frac{|q_1 q_2|}{r^2}
+$$
 
-$$F = \frac{9 \times 10^9}{3} \times \frac{4 \times 10^{-6} \times 6 \times 10^{-6}}{(0.2)^2}$$
+$$
+F = \frac{9 \times 10^9}{3} \times \frac{4 \times 10^{-6} \times 6 \times 10^{-6}}{(0.2)^2}
+$$
 
-$$= 3 \times 10^9 \times \frac{24 \times 10^{-12}}{0.04} = 3 \times 10^9 \times 6 \times 10^{-10} = 1.8 \, \text{N}$$
+$$
+= 3 \times 10^9 \times \frac{24 \times 10^{-12}}{0.04} = 3 \times 10^9 \times 6 \times 10^{-10} = 1.8 \, \text{N}
+$$
 
 The force is attractive (opposite charges).
 
@@ -85,7 +91,9 @@ The force is attractive (opposite charges).
 (a) Inside the shell ($r < R$): By Gauss's law, $E = 0$ (no enclosed charge).
 
 (b) Outside the shell ($r > R$):
-$$E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{(0.15)^2} = 2 \times 10^6 \, \text{N/C}$$
+$$
+E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{(0.15)^2} = 2 \times 10^6 \, \text{N/C}
+$$
 
 (c) On the shell ($r = R$): The field is undefined at the surface (discontinuity), but just outside it is $2 \times 10^6 \, \text{N/C}$.
 
@@ -98,11 +106,17 @@ $$E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{(0.15)^2} = 
 **Solution:**
 
 The potential energy of a system of charges is:
-$$U = k\left(\frac{q_1 q_2}{r_{12}} + \frac{q_1 q_3}{r_{13}} + \frac{q_2 q_3}{r_{23}}\right)$$
+$$
+U = k\left(\frac{q_1 q_2}{r_{12}} + \frac{q_1 q_3}{r_{13}} + \frac{q_2 q_3}{r_{23}}\right)
+$$
 
-$$U = 9 \times 10^9 \left(\frac{2 \times 10^{-6} \times (-3) \times 10^{-6}}{0.1} + \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{0.1} + \frac{(-3) \times 10^{-6} \times 4 \times 10^{-6}}{0.1}\right)$$
+$$
+U = 9 \times 10^9 \left(\frac{2 \times 10^{-6} \times (-3) \times 10^{-6}}{0.1} + \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{0.1} + \frac{(-3) \times 10^{-6} \times 4 \times 10^{-6}}{0.1}\right)
+$$
 
-$$= 9 \times 10^9 \times \frac{10^{-12}}{0.1}(-6 + 8 - 12) = 9 \times 10^{-2} \times (-10) = -0.9 \, \text{J}$$
+$$
+= 9 \times 10^9 \times \frac{10^{-12}}{0.1}(-6 + 8 - 12) = 9 \times 10^{-2} \times (-10) = -0.9 \, \text{J}
+$$
 
 The negative sign indicates the system is bound (energy would be required to separate the charges).
 
@@ -157,16 +171,24 @@ The negative sign indicates the system is bound (energy would be required to sep
 When the dielectric fills only half the space, the capacitor can be treated as two capacitors in parallel: one with air ($C_{\text{air}}$) and one with dielectric ($C_{\text{dielectric}}$).
 
 Let the plate area be $A$ and separation $d$. The air-filled half has area $A/2$:
-$$C_{\text{air}} = \frac{\varepsilon_0 (A/2)}{d} = \frac{C_0}{2} = 5 \, \mu\text{F}$$
+$$
+C_{\text{air}} = \frac{\varepsilon_0 (A/2)}{d} = \frac{C_0}{2} = 5 \, \mu\text{F}
+$$
 
 The dielectric-filled half:
-$$C_{\text{dielectric}} = \frac{K\varepsilon_0 (A/2)}{d} = \frac{KC_0}{2} = \frac{4 \times 10}{2} = 20 \, \mu\text{F}$$
+$$
+C_{\text{dielectric}} = \frac{K\varepsilon_0 (A/2)}{d} = \frac{KC_0}{2} = \frac{4 \times 10}{2} = 20 \, \mu\text{F}
+$$
 
 Total capacitance:
-$$C = C_{\text{air}} + C_{\text{dielectric}} = 5 + 20 = 25 \, \mu\text{F}$$
+$$
+C = C_{\text{air}} + C_{\text{dielectric}} = 5 + 20 = 25 \, \mu\text{F}
+$$
 
 Charge stored (battery maintains $V = 12$ V):
-$$Q = CV = 25 \times 10^{-6} \times 12 = 3 \times 10^{-4} \, \text{C} = 300 \, \mu\text{C}$$
+$$
+Q = CV = 25 \times 10^{-6} \times 12 = 3 \times 10^{-4} \, \text{C} = 300 \, \mu\text{C}
+$$
 
 **Common mistake:** Treating the two halves as capacitors in series rather than parallel. When the dielectric fills half the area (not half the distance), the two regions are in parallel because they share the same potential difference.
 
@@ -179,10 +201,14 @@ $$Q = CV = 25 \times 10^{-6} \times 12 = 3 \times 10^{-4} \, \text{C} = 300 \, \
 Let the dipole be oriented along the $y$-axis with charges at $(0, +a)$ and $(0, -a)$. The point $P$ is at distance $r$ on the $x$-axis.
 
 Distance from each charge to $P$:
-$$d = \sqrt{r^2 + a^2}$$
+$$
+d = \sqrt{r^2 + a^2}
+$$
 
 Potential at $P$:
-$$V = \frac{1}{4\pi\varepsilon_0}\left(\frac{+q}{d} + \frac{-q}{d}\right) = 0$$
+$$
+V = \frac{1}{4\pi\varepsilon_0}\left(\frac{+q}{d} + \frac{-q}{d}\right) = 0
+$$
 
 The potential on the perpendicular bisector is always zero because the point is equidistant from both charges.
 
@@ -198,15 +224,21 @@ This is a general result: the perpendicular bisector of a dipole is an equipoten
 
 Since the spheres are conducting and the separation is much larger than the radius ($0.3 \gg 0.05$), the charge distribution is approximately uniform and we can treat them as point charges.
 
-$$F = \frac{k|q_1||q_2|}{r^2} = \frac{9 \times 10^9 \times 2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.3)^2}$$
+$$
+F = \frac{k|q_1||q_2|}{r^2} = \frac{9 \times 10^9 \times 2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.3)^2}
+$$
 
-$$= \frac{9 \times 10^9 \times 8 \times 10^{-12}}{0.09} = \frac{72 \times 10^{-3}}{0.09} = 0.8 \, \text{N}$$
+$$
+= \frac{9 \times 10^9 \times 8 \times 10^{-12}}{0.09} = \frac{72 \times 10^{-3}}{0.09} = 0.8 \, \text{N}
+$$
 
 The force is attractive (opposite charges).
 
 If the spheres were brought into contact and then separated, the total charge $q_1 + q_2 = -2 \, \mu\text{C}$ would be equally distributed: each sphere carries $-1 \, \mu\text{C}$. The new force would be:
 
-$$F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \times 10^9 \times 10^{-12}}{0.09} = 0.1 \, \text{N}$$
+$$
+F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \times 10^9 \times 10^{-12}}{0.09} = 0.1 \, \text{N}
+$$
 
 **Common mistake:** When conducting spheres touch, charge is shared equally only if they are identical (same radius). For non-identical spheres, the charge distribution depends on the radii.
 

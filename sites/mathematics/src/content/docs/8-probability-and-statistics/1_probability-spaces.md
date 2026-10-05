@@ -63,16 +63,22 @@ $1 = 1 + P(\emptyset) + P(\emptyset) + \cdots$ So $P(\emptyset) = 0$.
 
 **Definition.** The **conditional probability** of $A$ given $B$ (with $P(B) > 0$) is
 
-$$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
+$$
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}
+$$
 
 **Theorem 1.2 (Law of Total Probability).** If $B_1, \ldots, B_n$ form a partition of $\Omega$ with
 $P(B_i) > 0$ for all $i$ Then
 
-$$P(A) = \sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)$$
+$$
+P(A) = \sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)
+$$
 
 **Theorem 1.3 (Bayes' Theorem).** Under the same conditions:
 
-$$P(B_j \mid A) = \frac{P(A \mid B_j)\, P(B_j)}{\sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)}$$
+$$
+P(B_j \mid A) = \frac{P(A \mid B_j)\, P(B_j)}{\sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)}
+$$
 
 **Definition.** Events $A$ and $B$ are **independent** if $P(A \cap B) = P(A)\,P(B)$.
 
@@ -83,7 +89,9 @@ _Proof._ $P(A \mid B) = P(A \cap B)/P(B) = P(A)P(B)/P(B) = P(A)$. $\blacksquare$
 **Definition.** Events $A_1, \ldots, A_n$ are **mutually independent** if for every subset
 $J \subseteq \{1, \ldots, n\}$:
 
-$$P\left(\bigcap_{j \in J} A_j\right) = \prod_{j \in J} P(A_j)$$
+$$
+P\left(\bigcap_{j \in J} A_j\right) = \prod_{j \in J} P(A_j)
+$$
 
 Pairwise independence does not imply mutual independence.
 

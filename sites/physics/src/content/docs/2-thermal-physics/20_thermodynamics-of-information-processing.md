@@ -41,7 +41,9 @@ A logically reversible computation can be embedded in a thermodynamically revers
 driving the system slowly enough that it remains near equilibrium at all times. The energy cost is
 then:
 
-$$E = \int_0^\tau \frac{\partial F}{\partial \lambda(t)}\,\dot{\lambda}(t)\,dt$$
+$$
+E = \int_0^\tau \frac{\partial F}{\partial \lambda(t)}\,\dot{\lambda}(t)\,dt
+$$
 
 For a quasi-static process: $E \to \Delta F$ (minimum possible).
 
@@ -53,13 +55,17 @@ restore the input tape.
 
 The Shannon entropy of a probability distribution $\{p_i\}$ over microstates is:
 
-$$H = -\sum_i p_i \log_2 p_i$$
+$$
+H = -\sum_i p_i \log_2 p_i
+$$
 
 Landauer's principle states that erasing one bit of information dissipates at least $k_B T \ln 2$ of heat. This follows from the second law: the entropy decrease of the information-bearing degrees of freedom must be compensated by an entropy increase in the environment.
 
 The fundamental equality for a quasi-static bit operation is:
 
-$$\Delta S_{\text{system}} + \Delta S_{\text{bath}} = 0 \quad \Longrightarrow \quad Q \geq k_B T \ln 2$$
+$$
+\Delta S_{\text{system}} + \Delta S_{\text{bath}} = 0 \quad \Longrightarrow \quad Q \geq k_B T \ln 2
+$$
 
 ### 20.4 Maxwell's Demon and Information-Entropy Relation
 
@@ -67,7 +73,9 @@ Maxwell's demon paradox is resolved by recognising that acquiring information ab
 
 The total entropy balance for a measurement-and-erasure cycle:
 
-$$\Delta S_{\text{gas}} + \Delta S_{\text{memory}} + \Delta S_{\text{bath}} \geq 0$$
+$$
+\Delta S_{\text{gas}} + \Delta S_{\text{memory}} + \Delta S_{\text{bath}} \geq 0
+$$
 
 The net effect is that the demon cannot violate the second law when the full information-processing cycle is accounted for.
 
@@ -85,7 +93,9 @@ Living systems process information at nonzero thermodynamic cost:
 
 **Solution.** Energy per operation: $E = 10 \times 10^{-6} / (3 \times 10^9) = 3.33 \times 10^{-15}$ J.
 
-$$E / (k_B T) = 3.33 \times 10^{-15} / (1.38 \times 10^{-23} \times 300) = 3.33 \times 10^{-15} / 4.14 \times 10^{-21} = 8.05 \times 10^5\,k_B T$$
+$$
+E / (k_B T) = 3.33 \times 10^{-15} / (1.38 \times 10^{-23} \times 300) = 3.33 \times 10^{-15} / 4.14 \times 10^{-21} = 8.05 \times 10^5\,k_B T
+$$
 
 The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim 10^6$ times above the fundamental limit, illustrating the vast gap between current technology and thermodynamic perfection. $\blacksquare$
 
@@ -129,8 +139,12 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 **Solution.** Erasing 64 bits requires at minimum $64 \, k_B T \ln 2$:
 
-$$Q_{\min} = 64 \times 1.38 \times 10^{-23} \times 300 \times \ln 2$$
-$$= 64 \times 4.14 \times 10^{-21} \times 0.693 = 64 \times 2.87 \times 10^{-21} = 1.84 \times 10^{-19} \text{ J}$$
+$$
+Q_{\min} = 64 \times 1.38 \times 10^{-23} \times 300 \times \ln 2
+$$
+$$
+= 64 \times 4.14 \times 10^{-21} \times 0.693 = 64 \times 2.87 \times 10^{-21} = 1.84 \times 10^{-19} \text{ J}
+$$
 
 Per bit: $2.87 \times 10^{-21}$ J = $2.87$ zJ. DRAM capacitors use $\sim 4$ fJ/bit = $4 \times 10^{-15}$ J/bit, about $1.4 \times 10^6$ times above the Landauer limit.
 

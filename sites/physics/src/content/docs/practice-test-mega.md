@@ -54,13 +54,19 @@ A particle of mass m slides without friction on the inside surface of a sphere o
 
 The kinetic energy is $T = \frac{1}{2}m(R\dot{\theta})^2$ and the potential energy (taking the bottom of the sphere as reference) is $U = mgR(1 - \cos\theta)$. The Lagrangian is:
 
-$$L = T - U = \frac{1}{2}mR^2\dot{\theta}^2 - mgR(1 - \cos\theta)$$
+$$
+L = T - U = \frac{1}{2}mR^2\dot{\theta}^2 - mgR(1 - \cos\theta)
+$$
 
 The Euler-Lagrange equation gives:
 
-$$mR^2\ddot{\theta} = -mgR\sin\theta$$
+$$
+mR^2\ddot{\theta} = -mgR\sin\theta
+$$
 
-$$\ddot{\theta} = -\frac{g}{R}\sin\theta$$
+$$
+\ddot{\theta} = -\frac{g}{R}\sin\theta
+$$
 
 The particle leaves the surface when the normal force becomes zero. From the radial force equation: $mg\cos\theta - N = mR\dot{\theta}^2$. Setting $N = 0$ and using energy conservation: $v^2 = 2gR(\cos\theta_c - \cos\theta)$, the critical angle is $\cos\theta_c = 2/3$, or $\theta_c \approx 48.2°$.
 
@@ -80,13 +86,19 @@ The generalised momentum is $p = \frac{\partial L}{\partial \dot{x}} = m\dot{x}$
 
 The Hamiltonian is:
 
-$$H = p\dot{x} - L = \frac{p^2}{2m} + \frac{1}{2}kx^2$$
+$$
+H = p\dot{x} - L = \frac{p^2}{2m} + \frac{1}{2}kx^2
+$$
 
 Hamilton's equations:
 
-$$\dot{x} = \frac{\partial H}{\partial p} = \frac{p}{m}$$
+$$
+\dot{x} = \frac{\partial H}{\partial p} = \frac{p}{m}
+$$
 
-$$\dot{p} = -\frac{\partial H}{\partial x} = -kx$$
+$$
+\dot{p} = -\frac{\partial H}{\partial x} = -kx
+$$
 
 Differentiating the first: $\ddot{x} = \dot{p}/m = -kx/m$, giving $\ddot{x} + \omega^2 x = 0$ where $\omega = \sqrt{k/m}$.
 
@@ -102,7 +114,9 @@ A particle moves in a central force field $F(r) = -kr^{-3}$ (attractive). Determ
 
 The effective potential is:
 
-$$V_{eff}(r) = \frac{l^2}{2mr^2} + \frac{k}{2r^2} = \frac{1}{2r^2}\left(\frac{l^2}{m} + k\right)$$
+$$
+V_{eff}(r) = \frac{l^2}{2mr^2} + \frac{k}{2r^2} = \frac{1}{2r^2}\left(\frac{l^2}{m} + k\right)
+$$
 
 where $l$ is the angular momentum. Since $V_{eff} \propto 1/r^2$, the effective potential is purely repulsive (for $k > 0$) or purely attractive (for $k < 0$). There is no potential well, so no stable circular orbits exist. The particle either spirals inward or escapes to infinity, closed orbits are not possible.
 
@@ -122,7 +136,9 @@ Torque about the centre: $fR = I\alpha_{rot} = \frac{1}{2}MR^2 \cdot \frac{a}{R}
 
 Substituting: $Mg\sin\alpha - \frac{1}{2}Ma = Ma$, giving:
 
-$$a = \frac{2}{3}g\sin\alpha$$
+$$
+a = \frac{2}{3}g\sin\alpha
+$$
 
 The cylinder accelerates at two-thirds the value for a frictionless slide, because some gravitational potential energy is converted to rotational kinetic energy.
 
@@ -138,9 +154,13 @@ Two identical pendulums of mass m and length l are coupled by a spring of consta
 
 For small oscillations, the equations of motion are:
 
-$$ml^2\ddot{\theta}_1 = -mgl\theta_1 - kh^2(\theta_1 - \theta_2)$$
+$$
+ml^2\ddot{\theta}_1 = -mgl\theta_1 - kh^2(\theta_1 - \theta_2)
+$$
 
-$$ml^2\ddot{\theta}_2 = -mgl\theta_2 + kh^2(\theta_1 - \theta_2)$$
+$$
+ml^2\ddot{\theta}_2 = -mgl\theta_2 + kh^2(\theta_1 - \theta_2)
+$$
 
 Normal modes: symmetric ($\theta_1 = \theta_2$) and antisymmetric ($\theta_1 = -\theta_2$).
 
@@ -164,7 +184,9 @@ Conservation of kinetic energy: $\frac{1}{2}m_1 v_0^2 = \frac{1}{2}m_1 v_1^2 + \
 
 From these two equations (or using the coefficient of restitution $e = 1$):
 
-$$v_2 = \frac{2m_1}{m_1 + m_2}v_0$$
+$$
+v_2 = \frac{2m_1}{m_1 + m_2}v_0
+$$
 
 Special cases: if $m_1 = m_2$, $v_2 = v_0$ (complete transfer). If $m_1 \ll m_2$, $v_2 \approx 0$ (light particle bounces back).
 
@@ -180,11 +202,17 @@ A free particle of mass m moves in three dimensions with Lagrangian $L = \frac{1
 
 $L$ does not depend explicitly on $x$, $y$, or $z$, so the conjugate momenta are conserved:
 
-$$p_x = \frac{\partial L}{\partial \dot{x}} = m\dot{x} = \text{const}$$
+$$
+p_x = \frac{\partial L}{\partial \dot{x}} = m\dot{x} = \text{const}
+$$
 
-$$p_y = m\dot{y} = \text{const}$$
+$$
+p_y = m\dot{y} = \text{const}
+$$
 
-$$p_z = m\dot{z} = \text{const}$$
+$$
+p_z = m\dot{z} = \text{const}
+$$
 
 These are the components of linear momentum, translational invariance implies conservation of momentum (Noether's theorem).
 
@@ -231,11 +259,15 @@ For an ideal gas, isothermal processes give $Q = nRT\ln(V_f/V_i)$. The adiabatic
 
 From the adiabatic conditions: $\frac{V_2}{V_1} = \frac{V_3}{V_4}$, so:
 
-$$\frac{Q_C}{Q_H} = \frac{T_C}{T_H}$$
+$$
+\frac{Q_C}{Q_H} = \frac{T_C}{T_H}
+$$
 
 The efficiency is:
 
-$$\eta = 1 - \frac{Q_C}{Q_H} = 1 - \frac{T_C}{T_H}$$
+$$
+\eta = 1 - \frac{Q_C}{Q_H} = 1 - \frac{T_C}{T_H}
+$$
 
 This depends only on the reservoir temperatures, not on the working substance.
 
@@ -251,15 +283,21 @@ A system of N independent harmonic oscillators has energy levels $E_n = (n + 1/2
 
 The single-particle partition function is:
 
-$$Z_1 = \sum_{n=0}^{\infty} e^{-\beta(n+1/2)\hbar\omega} = e^{-\beta\hbar\omega/2} \sum_{n=0}^{\infty} e^{-n\beta\hbar\omega}$$
+$$
+Z_1 = \sum_{n=0}^{\infty} e^{-\beta(n+1/2)\hbar\omega} = e^{-\beta\hbar\omega/2} \sum_{n=0}^{\infty} e^{-n\beta\hbar\omega}
+$$
 
-$$Z_1 = \frac{e^{-\beta\hbar\omega/2}}{1 - e^{-\beta\hbar\omega}} = \frac{1}{2\sinh(\beta\hbar\omega/2)}$$
+$$
+Z_1 = \frac{e^{-\beta\hbar\omega/2}}{1 - e^{-\beta\hbar\omega}} = \frac{1}{2\sinh(\beta\hbar\omega/2)}
+$$
 
 For N distinguishable oscillators: $Z = Z_1^N$.
 
 The mean energy:
 
-$$\langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = N\hbar\omega\left(\frac{1}{2} + \frac{1}{e^{\beta\hbar\omega} - 1}\right)$$
+$$
+\langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = N\hbar\omega\left(\frac{1}{2} + \frac{1}{e^{\beta\hbar\omega} - 1}\right)
+$$
 
 The first term is the zero-point energy; the second is the thermal excitation.
 
@@ -275,9 +313,13 @@ A mole of an ideal monatomic gas at 300 K and 1 atm is expanded isothermally to 
 
 For an isothermal process, the change in internal energy is zero (ideal gas), so:
 
-$$\Delta S = \frac{Q_{rev}}{T} = \frac{W_{rev}}{T} = \frac{nRT\ln(V_2/V_1)}{T} = nR\ln(V_2/V_1)$$
+$$
+\Delta S = \frac{Q_{rev}}{T} = \frac{W_{rev}}{T} = \frac{nRT\ln(V_2/V_1)}{T} = nR\ln(V_2/V_1)
+$$
 
-$$\Delta S = (1)(8.314)\ln(2) = 8.314 \times 0.693 = 5.76 \text{ J K}^{-1}$$
+$$
+\Delta S = (1)(8.314)\ln(2) = 8.314 \times 0.693 = 5.76 \text{ J K}^{-1}
+$$
 
 The entropy increases because the gas occupies a larger volume, increasing the number of accessible microstates.
 
@@ -297,15 +339,21 @@ The number of collisions per unit time with a wall of area A is $\frac{1}{2}nAv_
 
 The force on the wall:
 
-$$F = 2mv_x \times \frac{1}{2}nAv_x = nmAv_x^2$$
+$$
+F = 2mv_x \times \frac{1}{2}nAv_x = nmAv_x^2
+$$
 
 Averaging over all molecules: $F = nmA\langle v_x^2 \rangle$. Since $\langle v_x^2 \rangle = \frac{1}{3}\langle v^2 \rangle$:
 
-$$P = \frac{F}{A} = \frac{1}{3}nm\langle v^2 \rangle = \frac{2}{3}\frac{N}{V}\langle KE \rangle$$
+$$
+P = \frac{F}{A} = \frac{1}{3}nm\langle v^2 \rangle = \frac{2}{3}\frac{N}{V}\langle KE \rangle
+$$
 
 Since $\langle KE \rangle = \frac{3}{2}k_BT$:
 
-$$PV = Nk_BT = nRT$$
+$$
+PV = Nk_BT = nRT
+$$
 
 `hard`1 mark
 
@@ -339,13 +387,17 @@ At T = 0, all states up to the Fermi energy $E_F$ are filled, and all states abo
 
 The number of states with energy less than E:
 
-$$N = \frac{V}{3\pi^2}\left(\frac{2mE}{\hbar^2}\right)^{3/2}$$
+$$
+N = \frac{V}{3\pi^2}\left(\frac{2mE}{\hbar^2}\right)^{3/2}
+$$
 
 This comes from counting states in k-space: $N = \frac{2V}{(2\pi)^3} \times \frac{4}{3}\pi k_F^3$ (factor of 2 for spin), with $E_F = \frac{\hbar^2 k_F^2}{2m}$.
 
 Solving for $E_F$:
 
-$$E_F = \frac{\hbar^2}{2m}\left(3\pi^2 n\right)^{2/3}$$
+$$
+E_F = \frac{\hbar^2}{2m}\left(3\pi^2 n\right)^{2/3}
+$$
 
 where $n = N/V$ is the electron density. For copper ($n \approx 8.5 \times 10^{28}$ m$^{-3}$), $E_F \approx 7$ eV.
 
@@ -361,17 +413,23 @@ Using Planck's radiation law, derive the Wien displacement law that relates the 
 
 Planck's law gives the spectral radiance:
 
-$$B(\lambda, T) = \frac{2hc^2}{\lambda^5} \frac{1}{e^{hc/(\lambda k_BT)} - 1}$$
+$$
+B(\lambda, T) = \frac{2hc^2}{\lambda^5} \frac{1}{e^{hc/(\lambda k_BT)} - 1}
+$$
 
 To find the peak, set $dB/d\lambda = 0$. Let $x = hc/(\lambda k_BT)$. Then:
 
-$$\frac{dB}{d\lambda} = 0 \implies 5(e^x - 1) = xe^x$$
+$$
+\frac{dB}{d\lambda} = 0 \implies 5(e^x - 1) = xe^x
+$$
 
 Solving numerically: $x \approx 4.965$.
 
 Therefore: $\frac{hc}{\lambda_{max} k_BT} = 4.965$, giving:
 
-$$\lambda_{max} T = \frac{hc}{4.965 k_B} \approx 2.898 \times 10^{-3} \text{ m K}$$
+$$
+\lambda_{max} T = \frac{hc}{4.965 k_B} \approx 2.898 \times 10^{-3} \text{ m K}
+$$
 
 This is Wien's displacement law: $\lambda_{max} T = b$ where $b \approx 2.9 \times 10^{-3}$ m K.
 
@@ -415,15 +473,21 @@ A point charge q is placed at a distance d from the centre of a grounded conduct
 
 The image charge method replaces the conducting sphere with an image charge $q'$ at a distance $b$ from the centre. For a grounded sphere:
 
-$$q' = -\frac{R}{d}q, \quad b = \frac{R^2}{d}$$
+$$
+q' = -\frac{R}{d}q, \quad b = \frac{R^2}{d}
+$$
 
 The potential outside the sphere is:
 
-$$\Phi(\mathbf{r}) = \frac{1}{4\pi\epsilon_0}\left(\frac{q}{|\mathbf{r} - d\hat{z}|} + \frac{q'}{|\mathbf{r} - b\hat{z}|}\right)$$
+$$
+\Phi(\mathbf{r}) = \frac{1}{4\pi\epsilon_0}\left(\frac{q}{|\mathbf{r} - d\hat{z}|} + \frac{q'}{|\mathbf{r} - b\hat{z}|}\right)
+$$
 
 The surface charge density on the sphere is:
 
-$$\sigma(\theta) = -\epsilon_0 \frac{\partial \Phi}{\partial r}\bigg|_{r=R} = \frac{q(d^2 - R^2)}{4\pi R(d^2 + R^2 - 2dR\cos\theta)^{3/2}}$$
+$$
+\sigma(\theta) = -\epsilon_0 \frac{\partial \Phi}{\partial r}\bigg|_{r=R} = \frac{q(d^2 - R^2)}{4\pi R(d^2 + R^2 - 2dR\cos\theta)^{3/2}}
+$$
 
 `hard`1 mark
 
@@ -439,11 +503,17 @@ By symmetry, the field inside is uniform and parallel to the axis. Outside, the 
 
 Apply Ampere's law to a rectangular Amperian loop with one side inside the solenoid (length l) and one side outside:
 
-$$\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{enc}$$
+$$
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{enc}
+$$
 
-$$B \cdot l = \mu_0 \cdot nIl$$
+$$
+B \cdot l = \mu_0 \cdot nIl
+$$
 
-$$B = \mu_0 nI$$
+$$
+B = \mu_0 nI
+$$
 
 The field is uniform inside and directed along the axis. The direction is given by the right-hand rule: curl your fingers in the direction of current, and your thumb points in the direction of B.
 
@@ -461,17 +531,25 @@ The electric field between the plates: $E = \sigma/\epsilon_0 = Q/(A\epsilon_0)$
 
 The displacement current density:
 
-$$J_d = \epsilon_0 \frac{\partial E}{\partial t} = \frac{1}{A}\frac{dQ}{dt} = \frac{I}{A}$$
+$$
+J_d = \epsilon_0 \frac{\partial E}{\partial t} = \frac{1}{A}\frac{dQ}{dt} = \frac{I}{A}
+$$
 
 Total displacement current: $I_d = J_d \times A = I$, equal to the conduction current.
 
 For the magnetic field at distance r from the axis (r < plate radius), using the Ampere-Maxwell law:
 
-$$\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \epsilon_0 \frac{d\Phi_E}{dt} = \mu_0 \epsilon_0 \pi r^2 \frac{dE}{dt}$$
+$$
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \epsilon_0 \frac{d\Phi_E}{dt} = \mu_0 \epsilon_0 \pi r^2 \frac{dE}{dt}
+$$
 
-$$B(2\pi r) = \mu_0 \epsilon_0 \pi r^2 \frac{I}{A\epsilon_0} = \frac{\mu_0 I r^2}{A}$$
+$$
+B(2\pi r) = \mu_0 \epsilon_0 \pi r^2 \frac{I}{A\epsilon_0} = \frac{\mu_0 I r^2}{A}
+$$
 
-$$B = \frac{\mu_0 I r}{2A}$$
+$$
+B = \frac{\mu_0 I r}{2A}
+$$
 
 This matches the field from the conduction current, confirming consistency.
 
@@ -487,19 +565,29 @@ Starting from Maxwell's equations in free space, derive the wave equation for th
 
 In free space ($\rho = 0$, $\mathbf{J} = 0$):
 
-$$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$$
+$$
+\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
+$$
 
-$$\nabla \times \mathbf{B} = \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$
+$$
+\nabla \times \mathbf{B} = \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+$$
 
 Take the curl of Faraday's law:
 
-$$\nabla \times (\nabla \times \mathbf{E}) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+\nabla \times (\nabla \times \mathbf{E}) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
 Using the vector identity $\nabla \times (\nabla \times \mathbf{E}) = \nabla(\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E}$ and Gauss's law ($\nabla \cdot \mathbf{E} = 0$ in free space):
 
-$$-\nabla^2 \mathbf{E} = -\mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+-\nabla^2 \mathbf{E} = -\mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
-$$\nabla^2 \mathbf{E} = \mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+\nabla^2 \mathbf{E} = \mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
 This is the wave equation with speed $c = 1/\sqrt{\mu_0 \epsilon_0} \approx 3 \times 10^8$ m/s.
 
@@ -519,7 +607,9 @@ From Faraday's law: $\nabla \times \mathbf{E} = -\partial \mathbf{B}/\partial t 
 
 The potentials (phi, A) are not unique. The gauge transformation:
 
-$$\mathbf{A}' = \mathbf{A} + \nabla \chi$$
+$$
+\mathbf{A}' = \mathbf{A} + \nabla \chi
+$$
 $$\phi' = \phi - \frac{\partial \chi}{\parameter name="content">---
 title: "University Physics Practice Test, 30 Challenging Problems"
 description: "30 university-level physics problems covering Classical Mechanics, Thermodynamics, Electromagnetism, and Quantum Mechanics. Problem-solving with detailed solutions."

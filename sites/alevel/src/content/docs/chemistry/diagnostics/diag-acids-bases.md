@@ -54,29 +54,51 @@ original buffer solution. Calculate the new pH.
 
 (a) Using the Henderson-Hasselbalch equation:
 
-$$[\text{CH}_3\text{COOH}] = \frac{0.100}{0.250} = 0.400\,\text{mol dm}^{-3}$$
-$$[\text{CH}_3\text{COO}^-] = \frac{0.050}{0.250} = 0.200\,\text{mol dm}^{-3}$$
+$$
+[\text{CH}_3\text{COOH}] = \frac{0.100}{0.250} = 0.400\,\text{mol dm}^{-3}
+$$
+$$
+[\text{CH}_3\text{COO}^-] = \frac{0.050}{0.250} = 0.200\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = \text{p}K_a + \log\frac{[\text{A}^-]}{[\text{HA}]} = -\log(1.74 \times 10^{-5}) + \log\frac{0.200}{0.400}$$
+$$
+\text{pH} = \text{p}K_a + \log\frac{[\text{A}^-]}{[\text{HA}]} = -\log(1.74 \times 10^{-5}) + \log\frac{0.200}{0.400}
+$$
 
-$$\text{pH} = 4.759 + \log(0.500) = 4.759 - 0.301 = 4.458$$
+$$
+\text{pH} = 4.759 + \log(0.500) = 4.759 - 0.301 = 4.458
+$$
 
 Alternatively, using the equilibrium expression:
 
-$$K_a = \frac{[\text{H}^+][\text{CH}_3\text{COO}^-]}{[\text{CH}_3\text{COOH}]} = \frac{[\text{H}^+] \times 0.200}{0.400}$$
+$$
+K_a = \frac{[\text{H}^+][\text{CH}_3\text{COO}^-]}{[\text{CH}_3\text{COOH}]} = \frac{[\text{H}^+] \times 0.200}{0.400}
+$$
 
-$$[\text{H}^+] = \frac{1.74 \times 10^{-5} \times 0.400}{0.200} = 3.48 \times 10^{-5}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}^+] = \frac{1.74 \times 10^{-5} \times 0.400}{0.200} = 3.48 \times 10^{-5}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = -\log(3.48 \times 10^{-5}) = 4.459$$
+$$
+\text{pH} = -\log(3.48 \times 10^{-5}) = 4.459
+$$
 
 (b) After dilution to $500\,\text{cm}^3$:
 
-$$[\text{CH}_3\text{COOH}] = \frac{0.100}{0.500} = 0.200\,\text{mol dm}^{-3}$$
-$$[\text{CH}_3\text{COO}^-] = \frac{0.050}{0.500} = 0.100\,\text{mol dm}^{-3}$$
+$$
+[\text{CH}_3\text{COOH}] = \frac{0.100}{0.500} = 0.200\,\text{mol dm}^{-3}
+$$
+$$
+[\text{CH}_3\text{COO}^-] = \frac{0.050}{0.500} = 0.100\,\text{mol dm}^{-3}
+$$
 
-$$[\text{H}^+] = \frac{1.74 \times 10^{-5} \times 0.200}{0.100} = 3.48 \times 10^{-5}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}^+] = \frac{1.74 \times 10^{-5} \times 0.200}{0.100} = 3.48 \times 10^{-5}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = 4.459$$
+$$
+\text{pH} = 4.459
+$$
 
 The pH is **unchanged** because both the acid and conjugate base concentrations are halved by
 dilution, so their ratio remains the same. The Henderson-Hasselbalch equation shows pH depends only
@@ -84,8 +106,12 @@ on the ratio $[\text{A}^-]/[\text{HA}]$Which is unaffected by dilution.
 
 (c) Moles in $90.0\,\text{cm}^3$ of buffer:
 
-$$n(\text{CH}_3\text{COOH}) = 0.400 \times 0.0900 = 0.0360\,\text{mol}$$
-$$n(\text{CH}_3\text{COO}^-) = 0.200 \times 0.0900 = 0.0180\,\text{mol}$$
+$$
+n(\text{CH}_3\text{COOH}) = 0.400 \times 0.0900 = 0.0360\,\text{mol}
+$$
+$$
+n(\text{CH}_3\text{COO}^-) = 0.200 \times 0.0900 = 0.0180\,\text{mol}
+$$
 
 Moles of HCl added: $0.100 \times 0.0100 = 0.00100\,\text{mol}$
 
@@ -99,9 +125,13 @@ New moles:
 
 Total volume: $90.0 + 10.0 = 100.0\,\text{cm}^3 = 0.100\,\text{dm}^3$
 
-$$[\text{H}^+] = \frac{1.74 \times 10^{-5} \times (0.0170/0.100)}{(0.0370/0.100)} = \frac{1.74 \times 10^{-5} \times 0.170}{0.370} = 7.99 \times 10^{-6}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}^+] = \frac{1.74 \times 10^{-5} \times (0.0170/0.100)}{(0.0370/0.100)} = \frac{1.74 \times 10^{-5} \times 0.170}{0.370} = 7.99 \times 10^{-6}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = -\log(7.99 \times 10^{-6}) = 5.10$$
+$$
+\text{pH} = -\log(7.99 \times 10^{-6}) = 5.10
+$$
 
 The pH changed from $4.46$ to $5.10$ (only 0.64 units) despite adding a strong acid. If the same
 amount of HCl were added to $90\,\text{cm}^3$ of pure water, the pH would be
@@ -135,18 +165,26 @@ and explain why the half-equivalence point gives $K_a$ directly.
 
 (a)
 
-$$[\text{H}^+] = 10^{-2.85} = 1.413 \times 10^{-3}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}^+] = 10^{-2.85} = 1.413 \times 10^{-3}\,\text{mol dm}^{-3}
+$$
 
-$$K_a = \frac{[\text{H}^+]^2}{[\text{HA}] - [\text{H}^+]} = \frac{(1.413 \times 10^{-3})^2}{0.150 - 1.413 \times 10^{-3}} = \frac{1.997 \times 10^{-6}}{0.1486} = 1.34 \times 10^{-5}\,\text{mol dm}^{-3}$$
+$$
+K_a = \frac{[\text{H}^+]^2}{[\text{HA}] - [\text{H}^+]} = \frac{(1.413 \times 10^{-3})^2}{0.150 - 1.413 \times 10^{-3}} = \frac{1.997 \times 10^{-6}}{0.1486} = 1.34 \times 10^{-5}\,\text{mol dm}^{-3}
+$$
 
 (b) At the half-equivalence point, exactly half the weak acid has been neutralised, so
 $[\text{HA}] = [\text{A}^-]$. The Henderson-Hasselbalch equation gives:
 
-$$\text{pH} = \text{p}K_a + \log\frac{[\text{A}^-]}{[\text{HA}]} = \text{p}K_a + \log 1 = \text{p}K_a$$
+$$
+\text{pH} = \text{p}K_a + \log\frac{[\text{A}^-]}{[\text{HA}]} = \text{p}K_a + \log 1 = \text{p}K_a
+$$
 
 So $\text{p}K_a = 3.75$ and:
 
-$$K_a = 10^{-3.75} = 1.78 \times 10^{-4}\,\text{mol dm}^{-3}$$
+$$
+K_a = 10^{-3.75} = 1.78 \times 10^{-4}\,\text{mol dm}^{-3}
+$$
 
 (c) For a weak acid-strong base titration, the pH at the equivalence point is alkaline (greater than
 7, because the salt of a weak acid and strong base hydrolyses to produce $\text{OH}^-$). A suitable
@@ -185,9 +223,13 @@ this statement.
 
 (a) For pure water, $[\text{H}^+] = [\text{OH}^-]$:
 
-$$[\text{H}^+] = \sqrt{K_w} = \sqrt{5.48 \times 10^{-14}} = 2.341 \times 10^{-7}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}^+] = \sqrt{K_w} = \sqrt{5.48 \times 10^{-14}} = 2.341 \times 10^{-7}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = -\log(2.341 \times 10^{-7}) = 6.63$$
+$$
+\text{pH} = -\log(2.341 \times 10^{-7}) = 6.63
+$$
 
 Note: The pH of pure water is **less than 7** at $50\,^\circ\text{C}$ because $K_w$ increases with
 temperature (the autoionisation of water is endothermic). Despite pH being below 7, the solution is
@@ -195,11 +237,17 @@ still neutral because $[\text{H}^+] = [\text{OH}^-]$.
 
 (b)
 
-$$[\text{OH}^-] = 0.0100\,\text{mol dm}^{-3}$$
+$$
+[\text{OH}^-] = 0.0100\,\text{mol dm}^{-3}
+$$
 
-$$[\text{H}^+] = \frac{K_w}{[\text{OH}^-]} = \frac{5.48 \times 10^{-14}}{0.0100} = 5.48 \times 10^{-12}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}^+] = \frac{K_w}{[\text{OH}^-]} = \frac{5.48 \times 10^{-14}}{0.0100} = 5.48 \times 10^{-12}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = -\log(5.48 \times 10^{-12}) = 11.26$$
+$$
+\text{pH} = -\log(5.48 \times 10^{-12}) = 11.26
+$$
 
 (c) The student"s statement is **incorrect**. At $50\,^\circ\text{C}$A neutral solution has pH
 $6.63$ (as calculated in part a). The pH value of 7 is only neutral at $25\,^\circ\text{C}$ (where
@@ -230,20 +278,32 @@ equivalence points and two half-equivalence points.
 
 (a) Since $K_{a1} \gg K_{a2}$The first dissociation dominates:
 
-$$[\text{H}^+] \approx \sqrt{K_{a1} \times [\text{H}_2\text{CO}_3]} = \sqrt{4.30 \times 10^{-7} \times 0.0500} = \sqrt{2.15 \times 10^{-8}} = 1.466 \times 10^{-4}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}^+] \approx \sqrt{K_{a1} \times [\text{H}_2\text{CO}_3]} = \sqrt{4.30 \times 10^{-7} \times 0.0500} = \sqrt{2.15 \times 10^{-8}} = 1.466 \times 10^{-4}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = -\log(1.466 \times 10^{-4}) = 3.83$$
+$$
+\text{pH} = -\log(1.466 \times 10^{-4}) = 3.83
+$$
 
 (b) At the first equivalence point, all $\text{H}_2\text{CO}_3$ has been converted to
 $\text{HCO}_3^-$ (hydrogencarbonate ion). This is an **amphoteric** species that can act as both
 acid and base. The pH is given by:
 
-$$\text{pH} = \frac{\text{p}K_{a1} + \text{p}K_{a2}}{2}$$
+$$
+\text{pH} = \frac{\text{p}K_{a1} + \text{p}K_{a2}}{2}
+$$
 
-$$\text{p}K_{a1} = -\log(4.30 \times 10^{-7}) = 6.37$$
-$$\text{p}K_{a2} = -\log(5.61 \times 10^{-11}) = 10.25$$
+$$
+\text{p}K_{a1} = -\log(4.30 \times 10^{-7}) = 6.37
+$$
+$$
+\text{p}K_{a2} = -\log(5.61 \times 10^{-11}) = 10.25
+$$
 
-$$\text{pH} = \frac{6.37 + 10.25}{2} = 8.31$$
+$$
+\text{pH} = \frac{6.37 + 10.25}{2} = 8.31
+$$
 
 (c) The titration curve shows:
 
@@ -274,7 +334,9 @@ $$\text{pH} = \frac{6.37 + 10.25}{2} = 8.31$$
 
 Blood is buffered by the carbonic acid-hydrogencarbonate system:
 
-$$\text{H}_2\text{CO}_3(aq) \rightleftharpoons \text{H}^+(aq) + \text{HCO}_3^-(aq)$$
+$$
+\text{H}_2\text{CO}_3(aq) \rightleftharpoons \text{H}^+(aq) + \text{HCO}_3^-(aq)
+$$
 
 Normal blood has $[\text{HCO}_3^-] = 0.0240\,\text{mol dm}^{-3}$ and $\text{pH} = 7.40$.
 
@@ -292,26 +354,40 @@ decreases.
 
 (a) Using the Henderson-Hasselbalch equation:
 
-$$7.40 = \text{p}K_a + \log\frac{[\text{HCO}_3^-]}{[\text{H}_2\text{CO}_3]}$$
+$$
+7.40 = \text{p}K_a + \log\frac{[\text{HCO}_3^-]}{[\text{H}_2\text{CO}_3]}
+$$
 
-$$7.40 = 6.37 + \log\frac{0.0240}{[\text{H}_2\text{CO}_3]}$$
+$$
+7.40 = 6.37 + \log\frac{0.0240}{[\text{H}_2\text{CO}_3]}
+$$
 
-$$1.03 = \log\frac{0.0240}{[\text{H}_2\text{CO}_3]}$$
+$$
+1.03 = \log\frac{0.0240}{[\text{H}_2\text{CO}_3]}
+$$
 
-$$\frac{0.0240}{[\text{H}_2\text{CO}_3]} = 10^{1.03} = 10.72$$
+$$
+\frac{0.0240}{[\text{H}_2\text{CO}_3]} = 10^{1.03} = 10.72
+$$
 
-$$[\text{H}_2\text{CO}_3] = \frac{0.0240}{10.72} = 2.24 \times 10^{-3}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}_2\text{CO}_3] = \frac{0.0240}{10.72} = 2.24 \times 10^{-3}\,\text{mol dm}^{-3}
+$$
 
 (b) The added $\text{H}^+$ reacts with $\text{HCO}_3^-$ to form $\text{H}_2\text{CO}_3$:
 
-$$\text{HCO}_3^- + \text{H}^+ \to \text{H}_2\text{CO}_3$$
+$$
+\text{HCO}_3^- + \text{H}^+ \to \text{H}_2\text{CO}_3
+$$
 
 New concentrations:
 
 - $[\text{HCO}_3^-] = 0.0240 - 5.0 \times 10^{-6} = 0.023995\,\text{mol dm}^{-3}$
 - $[\text{H}_2\text{CO}_3] = 2.24 \times 10^{-3} + 5.0 \times 10^{-6} = 2.245 \times 10^{-3}\,\text{mol dm}^{-3}$
 
-$$\text{pH} = 6.37 + \log\frac{0.023995}{2.245 \times 10^{-3}} = 6.37 + \log(10.69) = 6.37 + 1.029 = 7.40$$
+$$
+\text{pH} = 6.37 + \log\frac{0.023995}{2.245 \times 10^{-3}} = 6.37 + \log(10.69) = 6.37 + 1.029 = 7.40
+$$
 
 The pH remains essentially unchanged at 7.40, demonstrating the buffer's effectiveness. Even with
 the added acid, the ratio $[\text{HCO}_3^-]/[\text{H}_2\text{CO}_3]$ barely changes because both
@@ -358,22 +434,34 @@ $0.0500\,\text{mol dm}^{-3}$ HCl. The equivalence point is reached at $20.0\,\te
 
 (a) At the equivalence point: $n(\text{HCl}) = n(\text{NH}_3)$
 
-$$n(\text{HCl}) = 0.0500 \times 20.0/1000 = 1.00 \times 10^{-3}\,\text{mol}$$
+$$
+n(\text{HCl}) = 0.0500 \times 20.0/1000 = 1.00 \times 10^{-3}\,\text{mol}
+$$
 
-$$[\text{NH}_3] = \frac{1.00 \times 10^{-3}}{25.0/1000} = 0.0400\,\text{mol dm}^{-3}$$
+$$
+[\text{NH}_3] = \frac{1.00 \times 10^{-3}}{25.0/1000} = 0.0400\,\text{mol dm}^{-3}
+$$
 
 (b) At the equivalence point, the solution contains $\text{NH}_4^+$ (the conjugate acid of
 $\text{NH}_3$). This is a weak acid:
 
-$$K_a(\text{NH}_4^+) = \frac{K_w}{K_b(\text{NH}_3)} = \frac{1.00 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.618 \times 10^{-10}\,\text{mol dm}^{-3}$$
+$$
+K_a(\text{NH}_4^+) = \frac{K_w}{K_b(\text{NH}_3)} = \frac{1.00 \times 10^{-14}}{1.78 \times 10^{-5}} = 5.618 \times 10^{-10}\,\text{mol dm}^{-3}
+$$
 
 Total volume at equivalence point: $25.0 + 20.0 = 45.0\,\text{cm}^3$
 
-$$[\text{NH}_4^+] = \frac{1.00 \times 10^{-3}}{45.0/1000} = 0.02222\,\text{mol dm}^{-3}$$
+$$
+[\text{NH}_4^+] = \frac{1.00 \times 10^{-3}}{45.0/1000} = 0.02222\,\text{mol dm}^{-3}
+$$
 
-$$[\text{H}^+] = \sqrt{K_a \times [\text{NH}_4^+]} = \sqrt{5.618 \times 10^{-10} \times 0.02222} = \sqrt{1.248 \times 10^{-11}} = 3.533 \times 10^{-6}\,\text{mol dm}^{-3}$$
+$$
+[\text{H}^+] = \sqrt{K_a \times [\text{NH}_4^+]} = \sqrt{5.618 \times 10^{-10} \times 0.02222} = \sqrt{1.248 \times 10^{-11}} = 3.533 \times 10^{-6}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = -\log(3.533 \times 10^{-6}) = 5.45$$
+$$
+\text{pH} = -\log(3.533 \times 10^{-6}) = 5.45
+$$
 
 (c) The equivalence point is at pH $5.45$ (acidic), which is in the range of **methyl orange**
 (colour change at pH 3.1--4.4... Actually pH 5.45 is slightly above methyl orange's range).
@@ -414,7 +502,9 @@ $100\,\mathrm{cm}^3$ of this buffer.
 
 Initial pH:
 
-$$\text{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{CH}_3\mathrm{COO}^-]}{[\mathrm{CH}_3\mathrm{COOH}]} = 4.76 + \log\frac{0.100}{0.200} = 4.76 - 0.301 = 4.46$$
+$$
+\text{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{CH}_3\mathrm{COO}^-]}{[\mathrm{CH}_3\mathrm{COOH}]} = 4.76 + \log\frac{0.100}{0.200} = 4.76 - 0.301 = 4.46
+$$
 (1 mark)
 
 After adding $\mathrm{HCl}$: $\mathrm{HCl}$ reacts with $\mathrm{CH}_3\mathrm{COO}^-$ to form
@@ -434,7 +524,9 @@ $n(\mathrm{CH}_3\mathrm{COOH}) = 0.0200 + 0.0050 = 0.0250\,\mathrm{mol}$
 
 New pH:
 
-$$\text{pH} = 4.76 + \log\frac{0.0050/0.100}{0.0250/0.100} = 4.76 + \log\frac{0.0500}{0.250} = 4.76 + \log(0.200) = 4.76 - 0.699 = 4.06$$
+$$
+\text{pH} = 4.76 + \log\frac{0.0050/0.100}{0.0250/0.100} = 4.76 + \log\frac{0.0500}{0.250} = 4.76 + \log(0.200) = 4.76 - 0.699 = 4.06
+$$
 (1 mark)
 
 PH change: $4.06 - 4.46 = -0.40\,\mathrm{pH}$ units.

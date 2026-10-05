@@ -176,7 +176,9 @@ vapour confirms the predominantly covalent bonding.
 (b) $\text{Al}$ in $\text{AlCl}_3$ has only six electrons in its valence shell (three bonds, no lone
 pair), making it **electron-deficient** and therefore a Lewis acid (electron pair acceptor):
 
-$$\text{AlCl}_3 + \text{Cl}^- \to \text{AlCl}_4^-$$
+$$
+\text{AlCl}_3 + \text{Cl}^- \to \text{AlCl}_4^-
+$$
 
 The chloride ion donates a lone pair to form a dative covalent bond, giving Al a complete octet.
 
@@ -330,16 +332,24 @@ the layers, but not perpendicular to them).
 
 (b) Using Hess's law:
 
-$$\text{C(diamond)} \to \text{C(g)} \quad \Delta H = +717\,\text{kJ mol}^{-1}$$
-$$\text{C(graphite)} \to \text{C(g)} \quad \Delta H = +716\,\text{kJ mol}^{-1}$$
+$$
+\text{C(diamond)} \to \text{C(g)} \quad \Delta H = +717\,\text{kJ mol}^{-1}
+$$
+$$
+\text{C(graphite)} \to \text{C(g)} \quad \Delta H = +716\,\text{kJ mol}^{-1}
+$$
 
 Reversing the second equation:
 
-$$\text{C(g)} \to \text{C(graphite)} \quad \Delta H = -716\,\text{kJ mol}^{-1}$$
+$$
+\text{C(g)} \to \text{C(graphite)} \quad \Delta H = -716\,\text{kJ mol}^{-1}
+$$
 
 Adding:
 
-$$\text{C(diamond)} \to \text{C(graphite)} \quad \Delta H = +717 + (-716) = +1\,\text{kJ mol}^{-1}$$
+$$
+\text{C(diamond)} \to \text{C(graphite)} \quad \Delta H = +717 + (-716) = +1\,\text{kJ mol}^{-1}
+$$
 
 The conversion is very slightly endothermic, meaning graphite is thermodynamically more stable than
 diamond at standard conditions.
@@ -350,7 +360,9 @@ carbon atom effectively has $4/2 = 2$ bonds.
 The enthalpy of atomisation ($+717\,\text{kJ mol}^{-1}$) represents the energy required to break all
 bonds per mole of carbon atoms. Since each carbon atom is involved in 2 effective bonds:
 
-$$\text{Average C--C bond enthalpy in diamond} = \frac{717}{2} = 358.5\,\text{kJ mol}^{-1}$$
+$$
+\text{Average C--C bond enthalpy in diamond} = \frac{717}{2} = 358.5\,\text{kJ mol}^{-1}
+$$
 
 This is slightly higher than the standard C--C bond enthalpy of $347\,\text{kJ mol}^{-1}$Reflecting
 the fact that diamond's rigid tetrahedral network creates slightly stronger bonds due to the

@@ -38,20 +38,28 @@ categories:
 
 For any two events $A$ and $B$:
 
-$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+$$
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+$$
 
 If $A$ and $B$ are **mutually exclusive** (disjoint, cannot both occur):
-$$P(A \cup B) = P(A) + P(B)$$
+$$
+P(A \cup B) = P(A) + P(B)
+$$
 
 ### Multiplication Rule
 
-$$P(A \cap B) = P(A) \cdot P(B | A)$$
+$$
+P(A \cap B) = P(A) \cdot P(B | A)
+$$
 
 If $A$ and $B$ are **independent**: $$P(A \cap B) = P(A) \cdot P(B)$$
 
 ### Conditional Probability
 
-$$P(B | A) = \frac{P(A \cap B)}{P(A)}$$
+$$
+P(B | A) = \frac{P(A \cap B)}{P(A)}
+$$
 
 The probability of $B$ **given** that $A$ has occurred. Note that $P(A)$ must be greater than 0.
 
@@ -60,7 +68,9 @@ The probability of $B$ **given** that $A$ has occurred. Note that $P(A)$ must be
 Events $A$ and $B$ are **independent** if the occurrence of one does not affect the probability of
 the other:
 
-$$P(B | A) = P(B) \quad \text{and} \quad P(A | B) = P(A)$$
+$$
+P(B | A) = P(B) \quad \text{and} \quad P(A | B) = P(A)
+$$
 
 Equivalently: $P(A \cap B) = P(A) \cdot P(B)$
 
@@ -87,7 +97,9 @@ Alternatively, check whether $P(B | A) = P(B)$.
 
 ## Bayes" Theorem
 
-$$P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B | A) \cdot P(A) + P(B | A^c) \cdot P(A^c)}$$
+$$
+P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B | A) \cdot P(A) + P(B | A^c) \cdot P(A^c)}
+$$
 
 Used to find the probability of a "cause" given an observed "effect." Useful for medical testing
 problems.
@@ -118,15 +130,21 @@ Requirements:
 
 ### Mean (Expected Value)
 
-$$\mu_X = E(X) = \sum x_i \cdot p_i$$
+$$
+\mu_X = E(X) = \sum x_i \cdot p_i
+$$
 
 The mean of a random variable is the long-run average of its values over many repetitions.
 
 ### Variance and Standard Deviation
 
-$$\sigma_X^2 = \sum (x_i - \mu_X)^2 \cdot p_i = \sum x_i^2 \cdot p_i - \mu_X^2$$
+$$
+\sigma_X^2 = \sum (x_i - \mu_X)^2 \cdot p_i = \sum x_i^2 \cdot p_i - \mu_X^2
+$$
 
-$$\sigma_X = \sqrt{\sigma_X^2}$$
+$$
+\sigma_X = \sqrt{\sigma_X^2}
+$$
 
 ### Rules for Means and Variances
 
@@ -150,11 +168,15 @@ A binomial setting has four conditions:
 
 ### Binomial Probability
 
-$$P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$$
+$$
+P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
+$$
 
 ### Mean and Standard Deviation
 
-$$\mu = np, \quad \sigma = \sqrt{np(1-p)}$$
+$$
+\mu = np, \quad \sigma = \sqrt{np(1-p)}
+$$
 
 ## Geometric Distributions
 
@@ -168,11 +190,15 @@ The random variable $X$ counts the **number of trials until the first success**.
 
 ### Geometric Probability
 
-$$P(X = k) = (1-p)^{k-1} \cdot p$$
+$$
+P(X = k) = (1-p)^{k-1} \cdot p
+$$
 
 ### Mean
 
-$$\mu = \frac{1}{p}$$
+$$
+\mu = \frac{1}{p}
+$$
 
 ## Normal Distributions and the Central Limit Theorem
 
@@ -181,7 +207,9 @@ $$\mu = \frac{1}{p}$$
 For a sufficiently large sample size $n$ ($n \geq 30$ is the standard threshold), the sampling distribution of
 $\bar{x}$ is approximately normal, regardless of the shape of the population distribution.
 
-$$\mu_{\bar{x}} = \mu, \quad \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$$
+$$
+\mu_{\bar{x}} = \mu, \quad \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}
+$$
 
 The CLT allows us to use normal probability calculations for sample means even when the population
 is not normally distributed.
@@ -190,7 +218,9 @@ is not normally distributed.
 
 For a sample proportion $\hat{p}$ with population proportion $p$ and sample size $n$:
 
-$$\mu_{\hat{p}} = p, \quad \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}$$
+$$
+\mu_{\hat{p}} = p, \quad \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}
+$$
 
 Approximately normal when $np \geq 10$ and $n(1-p) \geq 10$.
 

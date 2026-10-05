@@ -76,9 +76,15 @@ Step 1 (Base case): $n = 1$: LHS $= 1^2 = 1$, RHS $= \frac{1 \cdot 2 \cdot 3}{6}
 Step 2 (Inductive hypothesis): Assume true for $n = k$: $\sum_{r=1}^{k} r^2 = \frac{k(k+1)(2k+1)}{6}$
 
 Step 3 (Inductive step): Show true for $n = k+1$:
-$$\sum_{r=1}^{k+1} r^2 = \sum_{r=1}^{k} r^2 + (k+1)^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2$$
-$$= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6} = \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}$$
-$$= \frac{(k+1)(2k^2 + 7k + 6)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}$$
+$$
+\sum_{r=1}^{k+1} r^2 = \sum_{r=1}^{k} r^2 + (k+1)^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2
+$$
+$$
+= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6} = \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}
+$$
+$$
+= \frac{(k+1)(2k^2 + 7k + 6)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}
+$$
 
 This equals the formula with $n = k+1$. ✓
 

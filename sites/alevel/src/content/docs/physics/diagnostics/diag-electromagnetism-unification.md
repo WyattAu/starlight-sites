@@ -50,9 +50,13 @@ the same time, how would the induced EMF compare? Explain using both Faraday's a
 
 (a) By Faraday's law: $\varepsilon = -N\frac{\Delta\Phi}{\Delta t}$
 
-$$\Delta\Phi = \Phi_{\text{final}} - \Phi_{\text{initial}} = 0 - BA = -B\pi r^2 = -0.40 \times \pi \times (0.05)^2 = -3.14 \times 10^{-3}\,\text{Wb}$$
+$$
+\Delta\Phi = \Phi_{\text{final}} - \Phi_{\text{initial}} = 0 - BA = -B\pi r^2 = -0.40 \times \pi \times (0.05)^2 = -3.14 \times 10^{-3}\,\text{Wb}
+$$
 
-$$|\varepsilon| = N\frac{|\Delta\Phi|}{\Delta t} = 500 \times \frac{3.14 \times 10^{-3}}{0.10} = 15.7\,\text{V}$$
+$$
+|\varepsilon| = N\frac{|\Delta\Phi|}{\Delta t} = 500 \times \frac{3.14 \times 10^{-3}}{0.10} = 15.7\,\text{V}
+$$
 
 (b) By Lenz's law, the induced current opposes the change in flux. Since the flux (into the page,
 say) is decreasing, the induced current flows to maintain the flux by creating its own field in the
@@ -121,11 +125,15 @@ $E$ is in the $\hat{j}$ direction and the wave propagates in $+x$$B$ is in the $
 
 $B_0 = E_0/c = 30/(3.00 \times 10^8) = 1.00 \times 10^{-7}\,\text{T}$
 
-$$\mathbf{B} = B_0\sin(kx - \omega t)\,\hat{k} = 1.00 \times 10^{-7}\sin(125.7x - 3.77 \times 10^{10}t)\,\hat{k}$$
+$$
+\mathbf{B} = B_0\sin(kx - \omega t)\,\hat{k} = 1.00 \times 10^{-7}\sin(125.7x - 3.77 \times 10^{10}t)\,\hat{k}
+$$
 
 (c) Time-averaged intensity: $I = \frac{1}{2}\varepsilon_0 c E_0^2$
 
-$$= 0.5 \times 8.85 \times 10^{-12} \times 3.00 \times 10^8 \times 900 = 0.5 \times 8.85 \times 10^{-12} \times 2.7 \times 10^{11} = 1.195\,\text{W}\,\text{m}^{-2}$$
+$$
+= 0.5 \times 8.85 \times 10^{-12} \times 3.00 \times 10^8 \times 900 = 0.5 \times 8.85 \times 10^{-12} \times 2.7 \times 10^{11} = 1.195\,\text{W}\,\text{m}^{-2}
+$$
 
 ---
 
@@ -163,14 +171,20 @@ The conduction current equals the rate of charge flow onto the plates: $I = dQ/d
 
 Since $Q = CV = (\varepsilon_0 A/d) \times Ed = \varepsilon_0 AE$:
 
-$$I = \frac{dQ}{dt} = \varepsilon_0 A \frac{dE}{dt}$$
+$$
+I = \frac{dQ}{dt} = \varepsilon_0 A \frac{dE}{dt}
+$$
 
-$$\frac{dE}{dt} = \frac{I}{\varepsilon_0 A} = \frac{2.0}{8.85 \times 10^{-12} \times 0.0314} = \frac{2.0}{2.779 \times 10^{-13}} = 7.20 \times 10^{12}\,\text{V}\,\text{m}^{-1}\,\text{s}^{-1}$$
+$$
+\frac{dE}{dt} = \frac{I}{\varepsilon_0 A} = \frac{2.0}{8.85 \times 10^{-12} \times 0.0314} = \frac{2.0}{2.779 \times 10^{-13}} = 7.20 \times 10^{12}\,\text{V}\,\text{m}^{-1}\,\text{s}^{-1}
+$$
 
 (b) Displacement current:
 $I_d = \varepsilon_0 \frac{d\Phi_E}{dt} = \varepsilon_0 A \frac{dE}{dt}$
 
-$$I_d = 8.85 \times 10^{-12} \times 0.0314 \times 7.20 \times 10^{12} = 2.0\,\text{A}$$
+$$
+I_d = 8.85 \times 10^{-12} \times 0.0314 \times 7.20 \times 10^{12} = 2.0\,\text{A}
+$$
 
 $I_d = I = 2.0\,\text{A}$. The displacement current exactly equals the conduction current, as
 required by the continuity of current in Maxwell's equations.
@@ -210,16 +224,22 @@ This is in the VHF radio band.
 
 (b) Maximum energy in electric field (when capacitor is fully charged):
 
-$$U_E = \frac{1}{2}\varepsilon_0 E_0^2 \times \text{volume}$$
+$$
+U_E = \frac{1}{2}\varepsilon_0 E_0^2 \times \text{volume}
+$$
 
 We need the plate separation: $C = \varepsilon_0 A/d$So
 $d = \varepsilon_0 A/C = 8.85 \times 10^{-12} \times 0.01/(1.0 \times 10^{-12}) = 0.0885\,\text{m}$
 
-$$U_E = \frac{1}{2}\varepsilon_0 E_0^2 Ad = \frac{1}{2}CV^2$$
+$$
+U_E = \frac{1}{2}\varepsilon_0 E_0^2 Ad = \frac{1}{2}CV^2
+$$
 
 Using $U_E = \frac{1}{2}CV^2$: $V_0 = E_0 d = 100 \times 0.0885 = 8.85\,\text{V}$
 
-$$U_E = 0.5 \times 10^{-12} \times 78.32 = 3.92 \times 10^{-11}\,\text{J}$$
+$$
+U_E = 0.5 \times 10^{-12} \times 78.32 = 3.92 \times 10^{-11}\,\text{J}
+$$
 
 At maximum, all energy is in the electric field, so $U_B = U_E = 3.92 \times 10^{-11}\,\text{J}$.
 

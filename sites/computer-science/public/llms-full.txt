@@ -596,19 +596,25 @@ sources:
 
 $f(n) = O(g(n))$ if there exist constants $c > 0$ and $n_0 > 0$ such that:
 
-$$f(n) \leq c \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+f(n) \leq c \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.2 Big-Omega (Lower Bound)
 
 $f(n) = \Omega(g(n))$ if there exist constants $c > 0$ and $n_0 > 0$ such that:
 
-$$f(n) \geq c \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+f(n) \geq c \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.3 Big-Theta (Tight Bound)
 
 $f(n) = \Theta(g(n))$ if both $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$:
 
-$$c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.4 Little-o and Little-omega
 
@@ -651,13 +657,17 @@ A **decision problem** has a yes/no answer. Optimization problems can be cast as
 
 ### 2.2 P (Polynomial Time)
 
-$$\text{P} = \{L : L \text{ is decidable by a deterministic TM in } O(n^k) \text{ time for some } k\}$$
+$$
+\text{P} = \{L : L \text{ is decidable by a deterministic TM in } O(n^k) \text{ time for some } k\}
+$$
 
 **Examples:** Sorting, shortest paths, MST, 2-SAT, primality testing.
 
 ### 2.3 NP (Nondeterministic Polynomial Time)
 
-$$\text{NP} = \{L : L \text{ is decidable by a nondeterministic TM in polynomial time}\}$$
+$$
+\text{NP} = \{L : L \text{ is decidable by a nondeterministic TM in polynomial time}\}
+$$
 
 Equivalently, NP is the class of problems for which a **yes-instance** can be **verified** in polynomial time given a certificate (witness).
 
@@ -669,7 +679,9 @@ Equivalently, NP is the class of problems for which a **yes-instance** can be **
 
 A problem $L$ is **NP-hard** if every problem in NP can be reduced to $L$ in polynomial time:
 
-$$\forall L" \in \text{NP}, \ L' \leq_p L$$
+$$
+\forall L" \in \text{NP}, \ L' \leq_p L
+$$
 
 NP-hard problems are **at least as hard as every problem in NP**. They may or may not be in NP themselves.
 
@@ -677,7 +689,9 @@ NP-hard problems are **at least as hard as every problem in NP**. They may or ma
 
 A problem is **NP-complete** if it is both in NP and NP-hard:
 
-$$\text{NP-complete} = \text{NP} \cap \text{NP-hard}$$
+$$
+\text{NP-complete} = \text{NP} \cap \text{NP-hard}
+$$
 
 **If any NP-complete problem is in P, then P = NP.**
 
@@ -706,7 +720,9 @@ The class of problems whose complement can be verified in polynomial time.
 | EXP    | Solvable in exponential time $O(2^{n^k})$                            |
 | BPP    | Solvable by randomized algorithm with error $\leq 1/3$ (polynomial) |
 
-$$\text{P} \subseteq \text{NP} \subseteq \text{PSPACE} \subseteq \text{EXP}$$
+$$
+\text{P} \subseteq \text{NP} \subseteq \text{PSPACE} \subseteq \text{EXP}
+$$
 
 ## 3. Polynomial-Time Reductions
 
@@ -722,7 +738,9 @@ If $L_1 \leq_p L_2$ and $L_1$ is NP-hard, then $L_2$ is NP-hard.
 
 A **Karp reduction** (many-one reduction) maps instance $x$ of $L_1$ to instance $f(x)$ of $L_2$:
 
-$$x \in L_1 \iff f(x) \in L_2$$
+$$
+x \in L_1 \iff f(x) \in L_2
+$$
 
 where $f$ is computable in polynomial time.
 
@@ -847,7 +865,9 @@ For NP-hard optimization problems, we seek **polynomial-time algorithms** that p
 
 An algorithm $\mathcal{A}$ is an **$\alpha$-approximation** for a minimization problem if:
 
-$$\mathcal{A}(I) \leq \alpha \cdot \text{OPT}(I) \quad \text{for all instances } I$$
+$$
+\mathcal{A}(I) \leq \alpha \cdot \text{OPT}(I) \quad \text{for all instances } I
+$$
 
 For maximization: $\mathcal{A}(I) \geq \frac{1}{\alpha} \cdot \text{OPT}(I)$.
 
@@ -1149,7 +1169,9 @@ $A \in (0, 1)$, ideally $A = \frac{\sqrt{5}-1}{2}$.
 **Universal hashing:** Pick $h$ randomly from a family $\mathcal{H}$ such that for any distinct
 $x, y$:
 
-$$\Pr_{h \in \mathcal{H}}[h(x) = h(y)] \leq \frac{1}{m}$$
+$$
+\Pr_{h \in \mathcal{H}}[h(x) = h(y)] \leq \frac{1}{m}
+$$
 
 ### 3.2 Chaining
 
@@ -1561,7 +1583,9 @@ $\$2k \geq k$ to pay for copying.
 
 Define a **potential function** $\Phi$ on the data structure. Amortized cost of operation $i$:
 
-$$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$
+$$
+\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})
+$$
 
 **Requirements:** $\Phi(D_0) = 0$ and $\Phi(D_i) \geq 0$ for all $i$.
 
@@ -2315,7 +2339,9 @@ edges).
 
 **Theorem:** In any flow network, the maximum flow value equals the minimum cut capacity:
 
-$$|f^*| = c(S^*, T^*)$$
+$$
+|f^*| = c(S^*, T^*)
+$$
 
 where $S^*$ is the set of vertices reachable from $s$ in the residual graph when no augmenting path
 exists, and $T^* = V \setminus S^*$.
@@ -2389,7 +2415,9 @@ HUNGARIAN(W):
 
 A bipartite graph $G = (L, R, E)$ has a perfect matching iff for every subset $S \subseteq L$:
 
-$$|N(S)| \geq |S|$$
+$$
+|N(S)| \geq |S|
+$$
 
 where $N(S)$ is the set of neighbors of $S$ in $R$.
 
@@ -2884,7 +2912,9 @@ Compare $f(n) = n^2$ with $n^{\log_b a} = n^2$:
 
 Since $f(n) = \Theta(n^2) = \Theta(n^{\log_b a})$, we are in **Case 2** of the Master Theorem.
 
-$$T(n) = \Theta(n^2 \log n)$$
+$$
+T(n) = \Theta(n^2 \log n)
+$$
 
 **Verification:** The recursion tree has $\log_2 n$ levels. At each level $i$, there are $4^i$ subproblems of size $n/2^i$, each costing $(n/2^i)^2 = n^2/4^i$. Total work per level: $4^i \times n^2/4^i = n^2$. Summing over $\log_2 n$ levels: $T(n) = n^2 \log_2 n = \Theta(n^2 \log n)$. ✓
 
@@ -3593,7 +3623,9 @@ $n$.
 
 **Theorem 4.1 (Binomial Theorem).**
 
-$$(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r$$
+$$
+(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r
+$$
 
 **Theorem 4.2 (Pascal"s Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
 
@@ -3605,7 +3637,9 @@ all $r$ From $\\{1, \ldots, n-1\\}$). $\blacksquare$
 
 **Theorem 4.3 (Inclusion-Exclusion).** For finite sets $A_1, \ldots, A_n$:
 
-$$\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| - \sum_{i \lt j} |A_i \cap A_j| + \sum_{i \lt j \lt k} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1}|A_1 \cap \cdots \cap A_n|$$
+$$
+\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| - \sum_{i \lt j} |A_i \cap A_j| + \sum_{i \lt j \lt k} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1}|A_1 \cap \cdots \cap A_n|
+$$
 
 _Proof (for two sets)._ Every element of $A_1 \cup A_2$ is in $A_1$ or $A_2$ or both. Counting
 $|A_1| + |A_2|$ counts elements in $A_1 \cap A_2$ twice, so we subtract $|A_1 \cap A_2|$ once:
@@ -3774,7 +3808,9 @@ Pigeonhole principle, at least two people have the same count. $\blacksquare$
 
 The $n$-th **Catalan number** is
 
-$$C_n = \frac{1}{n+1}\binom{2n}{n} = \frac{(2n)!}{(n+1)!\,n!}$$
+$$
+C_n = \frac{1}{n+1}\binom{2n}{n} = \frac{(2n)!}{(n+1)!\,n!}
+$$
 
 The first few values: $C_0 = 1$, $C_1 = 1$, $C_2 = 2$, $C_3 = 5$, $C_4 = 14$, $C_5 = 42$.
 
@@ -3787,7 +3823,9 @@ The first few values: $C_0 = 1$, $C_1 = 1$, $C_2 = 2$, $C_3 = 5$, $C_4 = 14$, $C
 
 **Recurrence.** $C_0 = 1$ and for $n \geq 1$:
 
-$$C_n = \sum_{i=0}^{n-1} C_i \, C_{n-1-i}$$
+$$
+C_n = \sum_{i=0}^{n-1} C_i \, C_{n-1-i}
+$$
 
 **Worked Example.** Verify $C_3 = 5$ by listing all valid sequences of 3 pairs of parentheses.
 
@@ -3804,7 +3842,9 @@ Checking: $C_3 = \frac{1}{4}\binom{6}{3} = \frac{1}{4} \cdot 20 = 5$. ✓
 
 The **ordinary generating function (OGF)** of a sequence $\\{a_n\\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Common generating functions:**
 
@@ -3830,9 +3870,13 @@ And 5p coins.
 
 The generating function is
 
-$$G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \underbrace{(1 + x^2 + x^4 + \cdots)}_{\mathrm{2p\; coins{}} \cdot \underbrace{(1 + x^5 + x^{10} + \cdots)}_{\mathrm{5p\; coins{}}$$
+$$
+G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \underbrace{(1 + x^2 + x^4 + \cdots)}_{\mathrm{2p\; coins{}} \cdot \underbrace{(1 + x^5 + x^{10} + \cdots)}_{\mathrm{5p\; coins{}}
+$$
 
-$$= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}$$
+$$
+= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}
+$$
 
 The coefficient of $x^n$ in the expansion gives the number of ways. For example, expanding the First
 few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$ So there are 4 ways to make 5p (5×1p; 3×1p +
@@ -4183,7 +4227,9 @@ A graph is **planar** if it can be drawn in the plane with no edge crossings.
 **Theorem 5.5 (Euler's Formula for Planar Graphs).** For a connected planar graph drawn in the plane
 With $V$ vertices, $E$ edges, and $F$ faces:
 
-$$V - E + F = 2$$
+$$
+V - E + F = 2
+$$
 
 _Proof sketch._ Build the graph edge by edge. Starting from a single vertex ($V = 1$, $E = 0$,
 $F = 1$), The quantity $V - E + F = 2$ is preserved when adding an edge: if the edge connects two
@@ -4246,7 +4292,9 @@ $k$-colourings of $G$.
 
 **Deletion-contraction recurrence.** For any edge $e$ of $G$:
 
-$$P(G, k) = P(G - e, k) - P(G / e, k)$$
+$$
+P(G, k) = P(G - e, k) - P(G / e, k)
+$$
 
 Where $G - e$ is $G$ with edge $e$ deleted, and $G / e$ is $G$ with $e$ contracted (its endpoints
 Merged).
@@ -4393,7 +4441,9 @@ Endpoint). A vertex is **matched** if it is an endpoint of an edge in $M$; other
 Partitions $X$ and $Y$. There exists a matching that covers every vertex in $X$ if and only if for
 Every subset $S \subseteq X$
 
-$$|N(S)| \geq |S|$$
+$$
+|N(S)| \geq |S|
+$$
 
 Where $N(S) = \\{y \in Y : \exists\, x \in S\; \mathrm{with{}\; xy \in E\\}$ is the neighbourhood of
 $S$.
@@ -4415,7 +4465,9 @@ _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. M
 By the induction hypothesis. In $G'' = G - (T \cup N(T))$For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
-$$|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|$$
+$$
+|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|
+$$
 
 Where the inequality uses Hall's condition on $S \cup T$ in $G$. By the induction hypothesis,
 $X \setminus T$ can be matched in $G''$. Combining with the matching on $T$ gives the result.
@@ -5061,7 +5113,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^1 - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = (2^{k+1} - 1) + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = (2^{k+1} - 1) + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 
@@ -5300,7 +5354,9 @@ $\blacksquare$
 
 Let $a = p/q$ and $b = r/s$ where $p, q, r, s \in \mathbb{Z}$ and $q, s \neq 0$. Then
 
-$$a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}$$
+$$
+a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}
+$$
 
 Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$The sum $a + b$
 is rational. $\blacksquare$
@@ -5364,7 +5420,9 @@ _Proof._ Base case: $n = 1$: $1 = 1 \cdot 2 / 2$. True.
 
 Inductive step: Assume $\sum_{i=1}^{k} i = k(k+1)/2$. Then
 
-$$\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}$$
+$$
+\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}
+$$
 
 $\blacksquare$
 
@@ -5396,7 +5454,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^{0+1} - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 
@@ -5539,13 +5599,19 @@ Same truth value for all assignments.
 
 **Negation of quantifiers:**
 
-$$\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)$$
+$$
+\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)
+$$
 
-$$\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)$$
+$$
+\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)
+$$
 
 **Nested quantifiers** must be read carefully. The order matters:
 
-$$\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)$$
+$$
+\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)
+$$
 
 The first says "for every $x$ there is a (possibly different) $y$." The second says "there exists a Single $y$ that works for all $x$."
 
@@ -5883,11 +5949,15 @@ terms.
 
 ### 6.2 Linear Homogeneous Recurrences with Constant Coefficients
 
-$$a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0$$
+$$
+a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0
+$$
 
 **Solution method.** Form the **characteristic equation**:
 
-$$r^k + c_1 r^{k-1} + \cdots + c_k = 0$$
+$$
+r^k + c_1 r^{k-1} + \cdots + c_k = 0
+$$
 
 **Case 1 (distinct roots).** If $r_1, \ldots, r_k$ are distinct, then
 $a_n = A_1 r_1^n + \cdots + A_k r_k^n$.
@@ -5926,7 +5996,9 @@ So $a_n = (1 + 2n) \cdot 2^n$. $\blacksquare$
 
 The **generating function** of a sequence $\{a_n\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Example.** The generating function for $a_n = 1$ (all ones) is $G(x) = 1/(1-x)$.
 
@@ -5943,9 +6015,13 @@ $F_n = F_{n-1} + F_{n-2}$ With $F_0 = 0$, $F_1 = 1$.
 
 Let $G(x) = \sum_{n=0}^{\infty} F_n x^n$.
 
-$$G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)$$
+$$
+G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)
+$$
 
-$$G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}$$
+$$
+G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}
+$$
 
 Factor: $1 - x - x^2 = (1 - \alpha x)(1 - \beta x)$ where $\alpha = (1 + \sqrt{5})/2$ and
 $\beta = (1 - \sqrt{5})/2$.
@@ -5963,9 +6039,13 @@ $F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet"s formula). $\blacksquare$
 
 Let $G(x) = \sum_{n=0}^{\infty} a_n x^n$.
 
-$$G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}$$
+$$
+G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}
+$$
 
-$$(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}$$
+$$
+(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}
+$$
 
 Partial fractions: $\frac{x}{(1-x)(1-2x)} = \frac{A}{1-x} + \frac{B}{1-2x}$.
 
@@ -5984,7 +6064,9 @@ manipulated algebraically.
 
 The Master Theorem provides asymptotic solutions to recurrences of the form
 
-$$T(n) = a\,T(n/b) + f(n)$$
+$$
+T(n) = a\,T(n/b) + f(n)
+$$
 
 Where $a \geq 1$, $b \gt 1$ are constants and $f(n)$ is asymptotically positive. Define
 $c_{\mathrm{crit{}} = \log_b a$ (the **critical exponent**).
@@ -6046,7 +6128,9 @@ Therefore $T(n) = \Theta(n^2)$.
 There are $a^j$ subproblems, each of size $n/b^j$Each contributing $f(n/b^j)$ work. The tree has
 $\log_b n$ levels, with $a^{\log_b n} = n^{c_{\mathrm{crit{}}}$ leaves. The total work is
 
-$$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}$$
+$$
+T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}
+$$
 
 - **Case 1:** $f(n) = O(n^c)$ with $c \lt c_{\mathrm{crit{}}$. The sum is dominated by the leaves,
   giving $T(n) = \Theta(n^{c_{\mathrm{crit{}}})$.
@@ -6123,7 +6207,9 @@ URL: https://computer-science.wyattau.com/1-discrete-mathematics/2_sets-relation
 
 **De Morgan"s Laws:**
 
-$$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
+$$
+(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c
+$$
 
 **Power set:** $\mathcal{P}(A) = \\{B : B \subseteq A\\}$. If $|A| = n$ Then
 $|\mathcal{P}(A)| = 2^n$.
@@ -6246,7 +6332,9 @@ countable Is **uncountable**.
 
 _Proof._ The function $f : \mathbb{N} \to \mathbb{Z}$ defined by
 
-$$f(n) = \begin{cases} n/2 & \mathrm{if}\; n\; \mathrm{is}\; even \\ -(n+1)/2 & \mathrm{if}\; n\; \mathrm{is}\; odd \end{cases}$$
+$$
+f(n) = \begin{cases} n/2 & \mathrm{if}\; n\; \mathrm{is}\; even \\ -(n+1)/2 & \mathrm{if}\; n\; \mathrm{is}\; odd \end{cases}
+$$
 
 Is a bijection, enumerating $0, -1, 1, -2, 2, -3, 3, \ldots$ $\blacksquare$
 
@@ -6270,7 +6358,9 @@ the expansion that does not end in all 9s to avoid dual representations).
 
 Define $s = 0.s_1 s_2 s_3 \ldots$ by
 
-$$s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} = 5 \end{cases}$$
+$$
+s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} = 5 \end{cases}
+$$
 
 Then $s \in [0, 1)$ and $s$ differs from $r_i$ in the $i$-th decimal place for every $i$ So
 $s \notin \\{r_1, r_2, \ldots\\}$Contradicting the assumption that the list was complete. Therefore
@@ -6675,7 +6765,9 @@ Define $\Phi(D_i) =$ number of 1-bits in the counter after $i$ operations.
 For increment $i$: let $t_i$ be the number of trailing 1s flipped. The actual cost is $t_i + 1$
 (flipping $t_i$ ones and one zero). The number of 1-bits changes by $1 - t_i$.
 
-$$\hat{c}_i = (t_i + 1) + \Phi(D_i) - \Phi(D_{i-1}) = (t_i + 1) + (1 - t_i) = 2$$
+$$
+\hat{c}_i = (t_i + 1) + \Phi(D_i) - \Phi(D_{i-1}) = (t_i + 1) + (1 - t_i) = 2
+$$
 
 The amortised cost per increment is exactly 2, i.e., $O(1)$.
 
@@ -6891,13 +6983,17 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 | $O(n!)$       | Factorial   | Generating all permutations      |
 
 **Proposition 1.6.** These classes form a strict hierarchy:
-$$O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)$$
+$$
+O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)
+$$
 
 ### 1.3 Recurrences and the Master Theorem
 
 Many divide-and-conquer algorithms yield recurrences of the form:
 
-$$T(n) = aT(n/b) + f(n)$$
+$$
+T(n) = aT(n/b) + f(n)
+$$
 
 Where $a \geq 1$ is the number of subproblems, $b > 1$ is the factor by which the input is divided,
 and $f(n)$ is the cost of dividing and combining.
@@ -6925,7 +7021,9 @@ $a / b^{c - \varepsilon} = b^\varepsilon > 1$ So the leaf level dominates. $\bla
 
 Merge sort divides into 2 subproblems of size $n/2$ and combines in $O(n)$ time.
 
-$$T(n) = 2T(n/2) + \Theta(n)$$
+$$
+T(n) = 2T(n/2) + \Theta(n)
+$$
 
 Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
 is Case 2 with $k = 0$.
@@ -6937,7 +7035,9 @@ Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
 <details>
 <summary>Worked Example: Binary Search Recurrence</summary>
 
-$$T(n) = T(n/2) + O(1)$$
+$$
+T(n) = T(n/2) + O(1)
+$$
 
 Here $a = 1$, $b = 2$ So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
 $k = 0$.
@@ -6951,7 +7051,9 @@ Therefore $T(n) = \Theta(\log n)$.
 
 Strassen's algorithm divides into 7 subproblems of size $n/2$ and combines in $O(n^2)$ time.
 
-$$T(n) = 7T(n/2) + O(n^2)$$
+$$
+T(n) = 7T(n/2) + O(n^2)
+$$
 
 Here $a = 7$, $b = 2$ So $c = \log_2 7 \approx 2.807$. We have
 $f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$Which is Case 1.
@@ -7551,7 +7653,9 @@ maximum-weight subset of non-overlapping intervals.
 = the largest index $i < j$ such that interval $i$ does not overlap interval $j$ (i.e.,
 $f_i \leq s_j$).
 
-$$OPT(j) = \max\{w_j + OPT(p(j)),\ OPT(j-1)\}$$
+$$
+OPT(j) = \max\{w_j + OPT(p(j)),\ OPT(j-1)\}
+$$
 
 Base case: $OPT(0) = 0$.
 
@@ -7615,13 +7719,17 @@ dummy key probabilities $q_0, q_1, \ldots, q_n$ (for searches between keys), fin
 the expected search cost.
 
 **Expected cost:**
-$$E[\text{cost}] = \sum_{i=1}^{n} (d(k_i) + 1) \cdot p_i + \sum_{j=0}^{n} (d(d_j) + 1) \cdot q_j$$
+$$
+E[\text{cost}] = \sum_{i=1}^{n} (d(k_i) + 1) \cdot p_i + \sum_{j=0}^{n} (d(d_j) + 1) \cdot q_j
+$$
 
 Where $d$ is the depth of the node and $d_j$ is the depth of dummy key $j$.
 
 **DP formulation:** Let $e[i, j]$ be the expected search cost for keys $k_i, \ldots, k_j$.
 
-$$e[i, j] = \begin{cases} q_{i-1} & \text{if}  j = i - 1 \\ \min_{r=i}^{j}\{e[i, r-1] + e[r+1, j] + w(i, j)\} & \text{if}  i \leq j \end{cases}$$
+$$
+e[i, j] = \begin{cases} q_{i-1} & \text{if}  j = i - 1 \\ \min_{r=i}^{j}\{e[i, r-1] + e[r+1, j] + w(i, j)\} & \text{if}  i \leq j \end{cases}
+$$
 
 Where $w(i, j) = \sum_{l=i}^{j} p_l + \sum_{l=i-1}^{j} q_l$ is the total probability of the subtree.
 
@@ -7678,11 +7786,15 @@ $S \subseteq \{0, \ldots, n-1\}$ is represented as an integer where bit $i$ is s
 **The Travelling Salesman Problem (TSP).** Find the shortest tour visiting all $n$ cities exactly
 once and returning to the start.
 
-$$dp[S][i] = \text{minimum} cost to visit all cities in  S \text{ starting} from city 0, ending at city  i$$
+$$
+dp[S][i] = \text{minimum} cost to visit all cities in  S \text{ starting} from city 0, ending at city  i
+$$
 
 **Recurrence:**
 
-$$dp[S][i] = \min_{j \in S, j \neq i} \{dp[S \setminus \{i\}][j] + \text{dist}(j, i)\}$$
+$$
+dp[S][i] = \min_{j \in S, j \neq i} \{dp[S \setminus \{i\}][j] + \text{dist}(j, i)\}
+$$
 
 **Base case:** $dp[\{0\}][0] = 0$, $dp[S][i] = \infty$ for $i \notin S$.
 
@@ -7807,7 +7919,9 @@ per comparison.
 $h(s) = \left(\sum_{i=0}^{m-1} s[i] \cdot p^{m-1-i}\right) \bmod q$The hash of the substring
 $T[i+1..i+m]$ can be computed from the hash of $T[i..i+m-1]$ in $O(1)$:
 
-$$h(T[i+1..i+m]) = (h(T[i..i+m-1]) - T[i] \cdot p^{m-1}) \cdot p + T[i+m] \pmod q$$
+$$
+h(T[i+1..i+m]) = (h(T[i..i+m-1]) - T[i] \cdot p^{m-1}) \cdot p + T[i+m] \pmod q
+$$
 
 **Expected time:** $O(n + m)$ average, $O(nm)$ worst case (when many hash collisions occur).
 
@@ -8004,7 +8118,9 @@ the min-cut property). The probability of contracting an edge of the minimum cut
 $k / (ik/2) = 2/i$.
 
 The probability that the minimum cut survives is:
-$$\prod_{i=3}^{n} \left(1 - \frac{2}{i}\right) = \prod_{i=3}^{n} \frac{i-2}{i} = \frac{(n-2)!}{n!} \cdot 2! = \frac{2}{n(n-1)}$$
+$$
+\prod_{i=3}^{n} \left(1 - \frac{2}{i}\right) = \prod_{i=3}^{n} \frac{i-2}{i} = \frac{(n-2)!}{n!} \cdot 2! = \frac{2}{n(n-1)}
+$$
 $\blacksquare$
 
 **Running $O(n^2 \log n)$ repetitions** gives probability of failure at most $1/n$ (by union bound).
@@ -8342,7 +8458,9 @@ _Proof._ 3-SAT is in NP. To show NP-hardness, reduce from SAT. Given a clause $C
 literals, introduce new variables $y_1, \ldots, y_{k-3}$ and replace
 $C = (l_1 \lor l_2 \lor \cdots \lor l_k)$ with:
 
-$$(l_1 \lor l_2 \lor y_1) \land (\neg y_1 \lor l_3 \lor y_2) \land (\neg y_2 \lor l_4 \lor y_3) \land \cdots \land (\neg y_{k-3} \lor l_{k-1} \lor l_k)$$
+$$
+(l_1 \lor l_2 \lor y_1) \land (\neg y_1 \lor l_3 \lor y_2) \land (\neg y_2 \lor l_4 \lor y_3) \land \cdots \land (\neg y_{k-3} \lor l_{k-1} \lor l_k)
+$$
 
 This is satisfiable iff the original clause is satisfiable. The reduction is polynomial.
 $\blacksquare$
@@ -8442,7 +8560,9 @@ Given a string $S$ of length $n$Find the length of the longest subsequence that 
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 1 & \text{if} {} i = j \\ 2 + dp[i+1][j-1] & \text{if} {} S[i] = S[j] \\ \max(dp[i+1][j], dp[i][j-1]) & \text{if} {} S[i] \neq S[j] \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 1 & \text{if} {} i = j \\ 2 + dp[i+1][j-1] & \text{if} {} S[i] = S[j] \\ \max(dp[i+1][j], dp[i][j-1]) & \text{if} {} S[i] \neq S[j] \end{cases}
+$$
 
 **Running time:** $O(n^2)$Space $O(n^2)$ (or $O(n)$ with optimisation).
 
@@ -8590,7 +8710,9 @@ Encrypt $m = 3$: $c = 3^5 \bmod 91 = 243 \bmod 91 = 61$. Decrypt: $m = 61^{29} \
 The **FFT** computes the Discrete Fourier Transform in $O(n \log n)$ time, compared to $O(n^2)$ for
 the naive DFT.
 
-$$X_k = \sum_{j=0}^{n-1} x_j \cdot \omega^{jk}$$
+$$
+X_k = \sum_{j=0}^{n-1} x_j \cdot \omega^{jk}
+$$
 
 Where $\omega = e^{-2\pi i / n}$ is the $n$-th root of unity.
 
@@ -8778,7 +8900,9 @@ assigned.
 
 **Problem 5.** Solve the TSP for 5 cities with the following distance matrix using bitmask DP:
 
-$$D = \begin{pmatrix} 0 & 3 & 1 & 5 & 2 \\ 3 & 0 & 6 & 4 & 3 \\ 1 & 6 & 0 & 2 & 1 \\ 5 & 4 & 2 & 0 & 7 \\ 2 & 3 & 1 & 7 & 0 \end{pmatrix}$$
+$$
+D = \begin{pmatrix} 0 & 3 & 1 & 5 & 2 \\ 3 & 0 & 6 & 4 & 3 \\ 1 & 6 & 0 & 2 & 1 \\ 5 & 4 & 2 & 0 & 7 \\ 2 & 3 & 1 & 7 & 0 \end{pmatrix}
+$$
 
 **Problem 6.** Given $n$ jobs with start times, finish times, and profits, find the maximum profit
 subset of non-overlapping jobs. Jobs: (1, 3, 50), (2, 5, 10), (4, 6, 40), (6, 9, 70), (5, 7, 30),
@@ -9945,7 +10069,9 @@ the "original pairing heap" and gave a $\Omega(\log \log n)$ lower bound for a s
 The **incidence matrix** $M$ of an undirected graph $G = (V, E)$ with $n$ vertices and $m$ edges is
 an $n \times m$ matrix where:
 
-$$M_{v,e} = \begin{cases} 1 & \text{if} vertex  v \text{ is} incident to edge  e \\ 0 & \text{otherwise} \end{cases}$$
+$$
+M_{v,e} = \begin{cases} 1 & \text{if} vertex  v \text{ is} incident to edge  e \\ 0 & \text{otherwise} \end{cases}
+$$
 
 For directed graphs, $M_{v,e} = 1$ if $v$ is the tail of $e$, $M_{v,e} = -1$ if $v$ is the head of
 $e$ And $0$ otherwise.
@@ -10007,9 +10133,13 @@ Total space: $(|V|+1) + 2|E| = 5 + 12 = 17$ integers.
 The **inverse Ackermann function** $\alpha(n)$ is defined in terms of a rapidly growing function
 $A_k(j)$:
 
-$$A_k(j) = \begin{cases} 2j & \text{if}  k = 0 \\ 0 & \text{if}  j = 0 \text{ and}  k \geq 1 \\ A_{k-1}(A_k(j-1)) & \text{if}  j \geq 1 \text{ and}  k \geq 1 \end{cases}$$
+$$
+A_k(j) = \begin{cases} 2j & \text{if}  k = 0 \\ 0 & \text{if}  j = 0 \text{ and}  k \geq 1 \\ A_{k-1}(A_k(j-1)) & \text{if}  j \geq 1 \text{ and}  k \geq 1 \end{cases}
+$$
 
-$$\alpha(n) = \min\{k : A_k(1) \geq n\}$$
+$$
+\alpha(n) = \min\{k : A_k(1) \geq n\}
+$$
 
 **Key values:** $\alpha(1) = 0$, $\alpha(2) = 1$, $\alpha(4) = 2$, $\alpha(16) = 3$,
 $\alpha(2^{65536}) = 4$.
@@ -10422,7 +10552,9 @@ This is a valid treap.
 A **weight-balanced tree** (also known as BB[$\alpha$] tree or Adelson-Velsky-Landis tree) maintains
 the balance condition:
 
-$$\frac{1}{2 - \alpha} \leq \frac{|T_L|}{|T|} \leq \frac{1}{2}$$
+$$
+\frac{1}{2 - \alpha} \leq \frac{|T_L|}{|T|} \leq \frac{1}{2}
+$$
 
 For some fixed $\alpha \in (1/4, 1 - \sqrt{2}/2)$Where $|T_L|$ is the size of the left subtree and
 $|T|$ is the total size.
@@ -10952,7 +11084,9 @@ knapsack of capacity $W$Maximise the total value without exceeding the capacity.
 
 **Recurrence:**
 
-$$dp[i][c] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  c = 0 \\ dp[i-1][c] & \mathrm{if}  w_i > c \\ \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) & \mathrm{if}  w_i \leq c \end{cases}$$
+$$
+dp[i][c] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  c = 0 \\ dp[i-1][c] & \mathrm{if}  w_i > c \\ \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) & \mathrm{if}  w_i \leq c \end{cases}
+$$
 
 **Time:** $O(nW)$. **Space:** $O(nW)$ (can be reduced to $O(W)$ with 1D array).
 
@@ -10991,7 +11125,9 @@ insertions, deletions, and substitutions to transform $s$ into $t$.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}$$
+$$
+dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}
+$$
 
 Where the three cases in the minimum are: delete from $s$Insert into $s$Substitute in $s$.
 
@@ -11029,7 +11165,9 @@ multiplications.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = j \\ \min_{i \leq k < j} (dp[i][k] + dp[k+1][j] + p_{i-1} p_k p_j) & \mathrm{if}  i < j \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = j \\ \min_{i \leq k < j} (dp[i][k] + dp[k+1][j] + p_{i-1} p_k p_j) & \mathrm{if}  i < j \end{cases}
+$$
 
 **Time:** $O(n^3)$. **Space:** $O(n^2)$.
 
@@ -11064,7 +11202,9 @@ Minimum: $dp[1][3] = 4500$Split at $k=2$: $(A_1(A_2 A_3))$.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  j = 0 \\ dp[i-1][j-1] + 1 & \mathrm{if}  x_i = y_j \\ \max(dp[i-1][j], dp[i][j-1]) & \mathrm{if}  x_i \neq y_j \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  j = 0 \\ dp[i-1][j-1] + 1 & \mathrm{if}  x_i = y_j \\ \max(dp[i-1][j], dp[i][j-1]) & \mathrm{if}  x_i \neq y_j \end{cases}
+$$
 
 **Time:** $O(mn)$. **Space:** $O(mn)$ (can be reduced to $O(\min(m,n))$ for the length only).
 
@@ -11079,7 +11219,9 @@ number of coins needed.
 
 **Recurrence:**
 
-$$dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_i] + 1) & \mathrm{if}  c > 0 \end{cases}$$
+$$
+dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_i] + 1) & \mathrm{if}  c > 0 \end{cases}
+$$
 
 **Time:** $O(nM)$. **Space:** $O(M)$.
 
@@ -12341,7 +12483,9 @@ detected!**
 **Algorithm.** For $k = 1, \ldots, V$: for each pair $(i, j)$Check if going through vertex $k$
 Improves the path.
 
-$$d_{ij}^{(k)} = \min(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)})$$
+$$
+d_{ij}^{(k)} = \min(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)})
+$$
 
 **Derivation.** Define $d_{ij}^{(k)}$ as the shortest-path distance from $i$ to $j$ using only
 intermediate vertices from $\\{1, 2, \ldots, k\\}$. Then:
@@ -12367,35 +12511,45 @@ $w(1,2) = 3$, $w(1,3) = 8$, $w(1,4) = -4$ $w(2,1) = 5$, $w(2,3) = 7$, $w(2,4) = 
 $w(3,4) = -1$ $w(4,1) = 6$, $w(4,3) = 9$.
 
 **Initial distance matrix $D^{(0)}$:**
-$$D^{(0)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 2 \\ 2 & \infty & 0 & -1 \\ 6 & \infty & 9 & 0 \end{pmatrix}$$
+$$
+D^{(0)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 2 \\ 2 & \infty & 0 & -1 \\ 6 & \infty & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 1$ (through vertex 1):** $D^{(1)}[2][3] = \min(7, 5 + 8) = 7$.
 $D^{(1)}[2][4] = \min(2, 5 + (-4)) = 1$. $D^{(1)}[3][2] = \min(\infty, 2 + 3) = 5$.
 $D^{(1)}[3][4] = \min(-1, 2 + (-4)) = -2$. $D^{(1)}[4][2] = \min(\infty, 6 + 3) = 9$.
 $D^{(1)}[4][3] = \min(9, 6 + 8) = 9$.
 
-$$D^{(1)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(1)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 2$ (through vertex 2):** $D^{(2)}[1][3] = \min(8, 3 + 7) = 8$.
 $D^{(2)}[1][4] = \min(-4, 3 + 1) = -4$. $D^{(2)}[3][1] = \min(2, 5 + 5) = 2$.
 $D^{(2)}[3][4] = \min(-2, 5 + 1) = -2$. $D^{(2)}[4][1] = \min(6, 9 + 5) = 6$.
 $D^{(2)}[4][3] = \min(9, 9 + 7) = 9$.
 
-$$D^{(2)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(2)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 3$ (through vertex 3):** $D^{(3)}[1][2] = \min(3, 8 + 5) = 3$.
 $D^{(3)}[1][4] = \min(-4, 8 + (-2)) = -4$. $D^{(3)}[2][1] = \min(5, 7 + 2) = 5$.
 $D^{(3)}[2][4] = \min(1, 7 + (-2)) = 1$. $D^{(3)}[4][1] = \min(6, 9 + 2) = 6$.
 $D^{(3)}[4][2] = \min(9, 9 + 5) = 9$.
 
-$$D^{(3)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(3)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 4$ (through vertex 4):** $D^{(4)}[1][2] = \min(3, -4 + 9) = 3$.
 $D^{(4)}[1][3] = \min(8, -4 + 9) = 5$. $D^{(4)}[2][1] = \min(5, 1 + 6) = 5$.
 $D^{(4)}[2][3] = \min(7, 1 + 9) = 7$. $D^{(4)}[3][1] = \min(2, -2 + 6) = 2$.
 $D^{(4)}[3][2] = \min(5, -2 + 9) = 5$.
 
-$$D^{(4)} = \begin{pmatrix} 0 & 3 & 5 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(4)} = \begin{pmatrix} 0 & 3 & 5 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 </details>
 
@@ -13402,11 +13556,15 @@ Let $X_{ij}$ be the indicator random variable that $z_i$ and $z_j$ are compared,
 $z_1, \ldots, z_n$ are the sorted elements. Since elements are compared only if one is an ancestor
 of the other in the recursion tree, and the pivot is chosen uniformly at random:
 
-$$\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}$$
+$$
+\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}
+$$
 
 The total number of comparisons is $X = \sum_{i < j} X_{ij}$ So:
 
-$$\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)$$
+$$
+\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)
+$$
 
 Worst case occurs when the pivot is always the smallest or largest element (e.g., already sorted
 Array with first-element pivot): $T(n) = T(n-1) + O(n) = O(n^2)$. $\blacksquare$
@@ -13638,15 +13796,21 @@ is an attribute from domain $D_i$.
 
 **Selection** ($\sigma$): Filter rows.
 
-$$\sigma_{\text{condition}}(R) = \{t \in R : t \text{ satisfies condition}\}$$
+$$
+\sigma_{\text{condition}}(R) = \{t \in R : t \text{ satisfies condition}\}
+$$
 
 **Projection** ($\pi$): Select columns.
 
-$$\pi_{A_1, A_2, \ldots}(R) = \{t[A_1, A_2, \ldots] : t \in R\}$$
+$$
+\pi_{A_1, A_2, \ldots}(R) = \{t[A_1, A_2, \ldots] : t \in R\}
+$$
 
 **Join** ($\bowtie$): Combine relations.
 
-$$R \bowtie_{\text{condition}} S = \sigma_{\text{condition}}(R \times S)$$
+$$
+R \bowtie_{\text{condition}} S = \sigma_{\text{condition}}(R \times S)
+$$
 
 **Natural join** ($\bowtie$): Join on all shared attributes, eliminating duplicates.
 
@@ -13806,15 +13970,21 @@ CLOSURE(X, F):
 **2NF:** 1NF and no partial dependencies. Every non-prime attribute is fully dependent on the entire
 candidate key.
 
-$$X \to Y \text{ is a partial dependency if } Y \text{ is non-prime and } X \text{ is a proper subset of a candidate key}$$
+$$
+X \to Y \text{ is a partial dependency if } Y \text{ is non-prime and } X \text{ is a proper subset of a candidate key}
+$$
 
 **3NF:** 2NF and no transitive dependencies. For every non-trivial FD $X \to Y$:
 
-$$X \text{ is a superkey} \quad \text{or} \quad Y \text{ is a prime attribute}$$
+$$
+X \text{ is a superkey} \quad \text{or} \quad Y \text{ is a prime attribute}
+$$
 
 **BCNF (Boyce-Codd Normal Form):** For every non-trivial FD $X \to Y$:
 
-$$X \text{ is a superkey}$$
+$$
+X \text{ is a superkey}
+$$
 
 **Decomposition into BCNF:**
 
@@ -14063,15 +14233,23 @@ Cost: $O(|R|\log|R| + |S|\log|S|)$. Good for range joins and sorted output.
 
 **Selectivity:** Fraction of rows satisfying a condition.
 
-$$\text{sel}(A = v) = \frac{1}{|V(A,R)|}$$
+$$
+\text{sel}(A = v) = \frac{1}{|V(A,R)|}
+$$
 
-$$\text{sel}(A > v) \approx \frac{\text{distinct values above } v}{|V(A,R)|}$$
+$$
+\text{sel}(A > v) \approx \frac{\text{distinct values above } v}{|V(A,R)|}
+$$
 
-$$\text{sel}(A \text{ LIKE '\%x\%'}) \approx \frac{1}{3} \text{ (heuristic)}$$
+$$
+\text{sel}(A \text{ LIKE '\%x\%'}) \approx \frac{1}{3} \text{ (heuristic)}
+$$
 
 **Join size estimation:**
 
-$$|R \bowtie S| \approx \frac{|R| \cdot |S|}{\max(V(R.key), V(S.key))}$$
+$$
+|R \bowtie S| \approx \frac{|R| \cdot |S|}{\max(V(R.key), V(S.key))}
+$$
 
 ### 6.5 EXPLAIN and Query Plans
 
@@ -14208,7 +14386,9 @@ partition.**
 An extension of CAP: If there is a **P**artition, choose **A**vailability or **C**onsistency;
 **E**lse, choose **L**atency or **C**onsistency.
 
-$$\text{PC/EC} \text{ (consistency first)} \quad \text{vs.} \quad \text{PA/EA} \text{ (availability/latency first)}$$
+$$
+\text{PC/EC} \text{ (consistency first)} \quad \text{vs.} \quad \text{PA/EA} \text{ (availability/latency first)}
+$$
 
 ## 2. Consistency Models
 
@@ -14217,7 +14397,9 @@ $$\text{PC/EC} \text{ (consistency first)} \quad \text{vs.} \quad \text{PA/EA} \
 Every operation appears to execute atomically at a single point in time. The result is equivalent to
 executing operations on a single copy in real-time order.
 
-$$\text{If } o_1 \text{ completes before } o_2 \text{ starts, then } o_1 \text{ appears before } o_2$$
+$$
+\text{If } o_1 \text{ completes before } o_2 \text{ starts, then } o_1 \text{ appears before } o_2
+$$
 
 **Cost:** Requires coordination on every write → higher latency.
 
@@ -14226,7 +14408,9 @@ $$\text{If } o_1 \text{ completes before } o_2 \text{ starts, then } o_1 \text{ 
 All operations appear in some total order consistent with program order of each process. Less strict
 than linearizability (operations can appear to execute at non-real times).
 
-$$\text{Program order preserved per process; total order exists across processes}$$
+$$
+\text{Program order preserved per process; total order exists across processes}
+$$
 
 ### 2.3 Causal Consistency
 
@@ -14411,7 +14595,9 @@ multiple, using quorum.
 
 **Quorum reads and writes:**
 
-$$W + R > N$$
+$$
+W + R > N
+$$
 
 where $W$ = write quorum, $R$ = read quorum, $N$ = total replicas.
 
@@ -14662,7 +14848,9 @@ VECTOR_RECEIVE(process, msg):
 
 **Comparison of vector clocks:**
 
-$$V \leq W \iff V[j] \leq W[j] \text{ for all } j$$
+$$
+V \leq W \iff V[j] \leq W[j] \text{ for all } j
+$$
 
 - If $V \leq W$: event $V$ happened before $W$.
 - If $V \not\leq W$ and $W \not\leq V$: events are **concurrent**.
@@ -15228,13 +15416,17 @@ Application data
 
 **Nyquist theorem** (noiseless channel):
 
-$$C = 2B \log_2 V$$
+$$
+C = 2B \log_2 V
+$$
 
 where $B$ = bandwidth (Hz), $V$ = signal levels.
 
 **Shannon"s theorem** (noisy channel):
 
-$$C = B \log_2(1 + \text{SNR})$$
+$$
+C = B \log_2(1 + \text{SNR})
+$$
 
 where SNR = signal-to-noise ratio (power ratio). If $\text{SNR}_{\text{dB}} = 30$, then
 $\text{SNR} = 10^{30/10} = 1000$.
@@ -15337,7 +15529,9 @@ $\sim 36.8\%$.
 2. While transmitting, detect collisions.
 3. On collision: send jam signal, wait (binary exponential backoff), retry.
 
-$$\text{Backoff time} = \text{rand}(0, 2^k - 1) \times \text{slot time}$$
+$$
+\text{Backoff time} = \text{rand}(0, 2^k - 1) \times \text{slot time}
+$$
 
 where $k = \min(\text{retries}, 10)$. Used in Ethernet (IEEE 802.3).
 
@@ -15403,7 +15597,9 @@ SUBNET(network, prefix_length, num_subnets):
 
 Translates private IP addresses to a public IP address for Internet access:
 
-$$\text{Private: } (10.0.0.0/8, \ 172.16.0.0/12, \ 192.168.0.0/16)$$
+$$
+\text{Private: } (10.0.0.0/8, \ 172.16.0.0/12, \ 192.168.0.0/16)
+$$
 
 **NAT types:**
 
@@ -15495,9 +15691,13 @@ Client                              Server
 
 **Retransmission:** On timeout (RTO = estimated RTT + 4 \* RTT deviation):
 
-$$\text{EstimatedRTT} = (1-\alpha) \cdot \text{EstimatedRTT} + \alpha \cdot \text{SampleRTT}$$
+$$
+\text{EstimatedRTT} = (1-\alpha) \cdot \text{EstimatedRTT} + \alpha \cdot \text{SampleRTT}
+$$
 
-$$\text{DevRTT} = (1-\beta) \cdot \text{DevRTT} + \beta \cdot |\text{SampleRTT} - \text{EstimatedRTT}|$$
+$$
+\text{DevRTT} = (1-\beta) \cdot \text{DevRTT} + \beta \cdot |\text{SampleRTT} - \text{EstimatedRTT}|
+$$
 
 In most cases $\alpha = 0.125$, $\beta = 0.25$.
 
@@ -16268,7 +16468,9 @@ TLB_LOOKUP(page_number):
 
 **Effective access time:**
 
-$$\text{EAT} = h \cdot t_{\text{TLB}} + (1 - h) \cdot (t_{\text{mem}} + t_{\text{TLB}})$$
+$$
+\text{EAT} = h \cdot t_{\text{TLB}} + (1 - h) \cdot (t_{\text{mem}} + t_{\text{TLB}})
+$$
 
 With TLB + two-level page table:
 $\text{EAT} = h(t_{\text{TLB}} + t_{\text{mem}}) + (1-h)(t_{\text{TLB}} + 2 \cdot t_{\text{mem}})$.
@@ -16358,7 +16560,9 @@ LRU(pages, frames):
 
 When a process spends more time paging than executing.
 
-$$\text{Thrashing occurs when } \sum \text{working sets} > \text{available frames}$$
+$$
+\text{Thrashing occurs when } \sum \text{working sets} > \text{available frames}
+$$
 
 **Working set model:** $W(t, \Delta) =$ set of pages referenced in the last $\Delta$ memory
 references.
@@ -18184,7 +18388,9 @@ TCP uses an **additive-increase multiplicative-decrease (AIMD)** algorithm for c
 
 **Theorem 2.1 (TCP throughput).** The average throughput of TCP Reno is approximately:
 
-$$\text{Throughput} \approx \frac{1.22 \cdot \text{MSS}{\text{RTT} \cdot \sqrt{p}}}$$
+$$
+\text{Throughput} \approx \frac{1.22 \cdot \text{MSS}{\text{RTT} \cdot \sqrt{p}}}
+$$
 
 Where $p$ is the packet loss rate.
 
@@ -18208,7 +18414,9 @@ $\blacksquare$
 
 **TCP Cubic.** Replaces the linear increase with a cubic function:
 
-$$\text{cwnd}(t) = W_{\max} + \beta \cdot \left(\frac{t}{K}\right)^3 - (W_{\max} - \text{cwnd_}{\text{low})}$$
+$$
+\text{cwnd}(t) = W_{\max} + \beta \cdot \left(\frac{t}{K}\right)^3 - (W_{\max} - \text{cwnd_}{\text{low})}
+$$
 
 Where $W_{\max}$ is the window size at the last loss event,
 $K = \sqrt[3]{W_{\max} \cdot \beta / C}$, $\beta = 0.4$ And $C = 0.4$.
@@ -18308,11 +18516,15 @@ This illustrates the dramatic effect of high utilisation on queueing delays.
 **Throughput:** Total data delivered per unit time (including retransmissions). **Goodput:** Useful
 application data delivered per unit time (excluding headers, retransmissions).
 
-$$\text{Goodput} = \text{Throughput} \times \frac{\text{Application} data}{\text{Total} bytes transferred} \times (1 - \text{loss} rate)$$
+$$
+\text{Goodput} = \text{Throughput} \times \frac{\text{Application} data}{\text{Total} bytes transferred} \times (1 - \text{loss} rate)
+$$
 
 **Bandwidth-Delay Product (BDP):** The amount of data "in flight" (sent but not yet acknowledged):
 
-$$\text{BDP} = \text{Bandwidth} \times \text{RTT}$$
+$$
+\text{BDP} = \text{Bandwidth} \times \text{RTT}
+$$
 
 For a 1 Gbps link with 50 ms RTT: $\text{BDP} = 10^9 \times 0.05 = 50 \times 10^6$ bits $= 6.25$ MB.
 
@@ -18731,7 +18943,9 @@ mitigates this: the AP's CTS is heard by both stations.
 **Theorem 10.1.** The throughput of Wi-Fi under saturation (always a packet to send) with $n$
 stations is approximately:
 
-$$S \approx \frac{P_s \cdot P_{tr} \cdot E[p]}{(1 - P_{tr})\sigma + P_{tr}P_s T_s + P_{tr}(1 - P_s)T_c}$$
+$$
+S \approx \frac{P_s \cdot P_{tr} \cdot E[p]}{(1 - P_{tr})\sigma + P_{tr}P_s T_s + P_{tr}(1 - P_s)T_c}
+$$
 
 Where $P_{tr}$ is the probability that at least one station transmits, $P_s$ is the probability of
 exactly one transmission, $T_s$ is the time for a successful transmission, $T_c$ is the time for a
@@ -19099,11 +19313,15 @@ per server).
 
 **Erlang C formula** (probability that an arriving customer must wait):
 
-$$P(\text{wait}) = \frac{(c\rho)^c}{c!(1 - \rho)} \cdot \frac{1}{\sum_{k=0}^{c-1} \frac{(c\rho)^k}{k!} + \frac{(c\rho)^c}{c!(1-\rho)}}$$
+$$
+P(\text{wait}) = \frac{(c\rho)^c}{c!(1 - \rho)} \cdot \frac{1}{\sum_{k=0}^{c-1} \frac{(c\rho)^k}{k!} + \frac{(c\rho)^c}{c!(1-\rho)}}
+$$
 
 **Average number in queue:**
 
-$$L_q = \frac{P(\text{wait}) \cdot \rho}{1 - \rho}$$
+$$
+L_q = \frac{P(\text{wait}) \cdot \rho}{1 - \rho}
+$$
 
 <details>
 <summary>Worked Example: M/M/c Queue for Server Farm</summary>
@@ -19120,7 +19338,9 @@ complex to compute by hand. Let me use the simplified formula.
 
 $a = \lambda / \mu = 10/3 = 3.333$.
 
-$$P_0 = \left[\sum_{k=0}^{3} \frac{a^k}{k!} + \frac{a^4}{4!(1-\rho)}\right]^{-1}$$
+$$
+P_0 = \left[\sum_{k=0}^{3} \frac{a^k}{k!} + \frac{a^4}{4!(1-\rho)}\right]^{-1}
+$$
 
 $= [1 + 3.333 + 5.556 + 6.173 + \frac{123.46}{24 \times 0.167}]^{-1}$
 $= [1 + 3.333 + 5.556 + 6.173 + 30.77]^{-1}$ $= [46.83]^{-1} = 0.0214$
@@ -19205,11 +19425,15 @@ exceeds 20 packets. (Hint: $P(n \geq k) = \rho^k$.)
 
 Using the TCP Reno throughput formula:
 
-$$\text{Throughput} \approx \frac{1.22 \times \text{MSS}{\text{RTT} \times \sqrt{p}}}$$
+$$
+\text{Throughput} \approx \frac{1.22 \times \text{MSS}{\text{RTT} \times \sqrt{p}}}
+$$
 
 $\text{MSS} = 1460$ bytes $= 11680$ bits. $\text{RTT} = 80$ ms $= 0.08$ s. $p = 0.001$.
 
-$$\text{Throughput} \approx \frac{1.22 \times 11680}{0.08 \times \sqrt{0.001}} = \frac{14249.6}{0.08 \times 0.03162} = \frac{14249.6}{0.002530} \approx 5\,632\,727 \text{ bits/s} \approx 5.63 \text{ Mbps}$$
+$$
+\text{Throughput} \approx \frac{1.22 \times 11680}{0.08 \times \sqrt{0.001}} = \frac{14249.6}{0.08 \times 0.03162} = \frac{14249.6}{0.002530} \approx 5\,632\,727 \text{ bits/s} \approx 5.63 \text{ Mbps}
+$$
 
 The BDP is $\text{BW} \times \text{RTT} = 5.63 \times 10^6 \times 0.08 = 450\,640$ bits
 $\approx 54.9$ KB. The receive window must be at least this for full utilisation.
@@ -19463,9 +19687,13 @@ $r = 3$).
 
 **Step 2:** Perform modulo-2 (XOR) polynomial division.
 
-$$M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1$$
+$$
+M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1
+$$
 
-$$M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}$$
+$$
+M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}
+$$
 
 Division steps:
 
@@ -19522,7 +19750,9 @@ returns From the farthest point on the network. The worst-case round-trip propag
 $2\tau$Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
 $2 \times 10^8$ m/s in copper). The minimum frame size is therefore:
 
-$$L_{\min} = R \times 2\tau = \frac{2Rd}{v}$$
+$$
+L_{\min} = R \times 2\tau = \frac{2Rd}{v}
+$$
 
 Where $R$ is the data rate.
 
@@ -19538,7 +19768,9 @@ Worst case: collision occurs at the far end, signal must travel back. Total time
 $2\tau = 20\;\mu\mathrm{s}$.
 
 The sender must still be transmitting after $2\tau$:
-$$L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}$$
+$$
+L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}
+$$
 
 **Answer:** The minimum frame size is 250 bytes (2000 bits). Any frame shorter than this risks an
 Undetected collision.
@@ -19629,7 +19861,9 @@ is 1.
 
 **Theorem 3.3 (CSMA/CD efficiency).** The maximum efficiency of CSMA/CD is:
 
-$$\eta = \frac{1}{1 + 5a}$$
+$$
+\eta = \frac{1}{1 + 5a}
+$$
 
 Where $a = \tau / T_f$ is the ratio of propagation delay to frame transmission time.
 
@@ -19694,9 +19928,13 @@ Link rate, and $d_{\mathrm{prop}}$ is the propagation delay.
 
 For a path through $n$ switches:
 
-$$\mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}$$
+$$
+\mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}
+$$
 
-$$\mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}$$
+$$
+\mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}
+$$
 
 <details>
 <summary>Worked Example: Switching Latency Comparison</summary>
@@ -19706,11 +19944,15 @@ Propagation delay.
 
 **Store-and-forward:**
 
-$$\mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}$$
+$$
+\mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}
+$$
 
 **Cut-through:**
 
-$$\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}$$
+$$
+\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}
+$$
 
 **Answer:** Cut-through saves approximately 23.8 $\mu$S (47% reduction) for this scenario, but it
 Cannot detect corrupted frames before forwarding them.
@@ -20531,7 +20773,9 @@ Communication:
 **Encapsulation.** Each layer adds its own header (and possibly trailer) to the data from the layer
 Above, forming a **protocol data unit (PDU)**:
 
-$$\mathrm{Data} \xrightarrow{+\mathrm{th} \mathrm{Segment} \xrightarrow{+\mathrm{nh} \mathrm{Packet} \xrightarrow{+\mathrm{fh}+ft} \mathrm{Frame} \xrightarrow{\mathrm{encode} \mathrm{Bits}}}}$$
+$$
+\mathrm{Data} \xrightarrow{+\mathrm{th} \mathrm{Segment} \xrightarrow{+\mathrm{nh} \mathrm{Packet} \xrightarrow{+\mathrm{fh}+ft} \mathrm{Frame} \xrightarrow{\mathrm{encode} \mathrm{Bits}}}}
+$$
 
 ### 1.2 The TCP/IP Model
 
@@ -20984,7 +21228,9 @@ Line-of-sight constraints.
 - **Bit rate:** Number of bits transmitted per second (bps).
 - **Nyquist theorem:** For a noiseless channel of bandwidth $H$ Hz with $V$ discrete signal levels:
 
-$$C = 2H \log_2 V \;\mathrm{bps}$$
+$$
+C = 2H \log_2 V \;\mathrm{bps}
+$$
 
 **Theorem 2.1 (Nyquist--Shannon Sampling Theorem).** A bandlimited signal of bandwidth $H$ Hz can Be
 perfectly reconstructed from samples taken at a rate of at least $2H$ samples per second.
@@ -20998,7 +21244,9 @@ $H$. When $f_s \lt 2H$Aliasing occurs and perfect recovery is Impossible. $\blac
 
 - **Shannon capacity:** For a noisy channel with signal-to-noise ratio $\mathrm{SNR}$:
 
-$$C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}$$
+$$
+C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}
+$$
 
 **Theorem 2.2 (Shannon--Hartley Theorem).** The channel capacity $C$ is the maximum error-free data
 Rate achievable on a channel of bandwidth $H$ with signal-to-noise ratio $\mathrm{SNR}$.
@@ -21034,8 +21282,12 @@ A satellite channel has a bandwidth of 36 MHz and an SNR of 30 dB. Find the maxi
 First convert SNR from dB to linear: $$\mathrm{SNR_}{\mathrm{linear} = 10^{30/10} = 1000}$$
 
 Apply Shannon's formula: $$C = H \log_2(1 + \mathrm{SNR}) = 36 \times 10^6 \times \log_2(1001)$$
-$$\log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967$$
-$$C = 36 \times 10^6 \times 9.967 \approx 358.8 \times 10^6 \;\mathrm{bps} \approx 358.8\;\mathrm{Mbps}$$
+$$
+\log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967
+$$
+$$
+C = 36 \times 10^6 \times 9.967 \approx 358.8 \times 10^6 \;\mathrm{bps} \approx 358.8\;\mathrm{Mbps}
+$$
 
 **Answer:** The maximum achievable data rate is approximately 358.8 Mbps. Any attempt to exceed This
 rate will result in an unacceptable error rate regardless of the modulation scheme used.
@@ -21050,14 +21302,18 @@ A channel has $H = 6000$ Hz and $\mathrm{SNR} = 1023$ (30 dB).
 **Shannon limit:** $$C = 6000 \times \log_2(1024) = 6000 \times 10 = 60000\;\mathrm{bps}$$
 
 **Nyquist limit with $V = 8$:**
-$$C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}$$
+$$
+C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}
+$$
 
 The Nyquist limit (36 kbps) is below the Shannon limit (60 kbps), so 8 signal levels are Achievable.
 With $V = 64$: $$C = 12000 \times 6 = 72000\;\mathrm{bps}$$
 
 This exceeds Shannon's limit of 60 kbps, meaning 64 levels would produce errors. The maximum Number
 of levels consistent with Shannon:
-$$C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \implies V = 32}$$
+$$
+C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \implies V = 32}
+$$
 
 **Answer:** At most 32 signal levels can be used reliably on this channel.
 
@@ -21105,14 +21361,22 @@ $\log_2 M = 2k$ bits. The symbol rate equals the bandwidth $B$ (Nyquist: 2 symbo
 
 A 256-QAM modem operates over a 20 MHz channel. What is the maximum data rate?
 
-$$M = 256, \quad \log_2 256 = 8 \;\mathrm{bits}/symbol$$
+$$
+M = 256, \quad \log_2 256 = 8 \;\mathrm{bits}/symbol
+$$
 
-$$\mathrm{Bit}\;rate = 8 \times 20 \times 10^6 = 160\;\mathrm{Mbps}$$
+$$
+\mathrm{Bit}\;rate = 8 \times 20 \times 10^6 = 160\;\mathrm{Mbps}
+$$
 
 If the channel has SNR = 24 dB, verify against Shannon:
 
-$$\mathrm{SNR_}{\mathrm{linear} = 10^{24/10} = 251.2}$$
-$$C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \approx 159.6\;\mathrm{Mbps}$$
+$$
+\mathrm{SNR_}{\mathrm{linear} = 10^{24/10} = 251.2}
+$$
+$$
+C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \approx 159.6\;\mathrm{Mbps}
+$$
 
 The Nyquist-based rate (160 Mbps) is very close to the Shannon limit (159.6 Mbps), meaning 256-QAM
 Is near-optimal for this channel but has almost no margin for noise or interference.
@@ -21759,7 +22023,9 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 TCP uses a **sliding window**. The receiver advertises `rwnd` (receive window). The sender never has
 More than `rwnd` bytes of unacknowledged data in flight.
 
-$$\mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})$$
+$$
+\mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})
+$$
 
 **Example.** Buffer size 4096, 1024 unprocessed bytes: `rwnd = 3072`. The window slides as data is
 Acknowledged and the receiver processes data.
@@ -21842,11 +22108,17 @@ Cwnd = ssthresh = 13870 bytes, continue congestion avoidance.
 
 ### 5.8 Retransmission Timer
 
-$$\mathrm{RTT_s} = (1 - \alpha)\,\mathrm{RTT_s} + \alpha \cdot \mathrm{RTT_m}$$
+$$
+\mathrm{RTT_s} = (1 - \alpha)\,\mathrm{RTT_s} + \alpha \cdot \mathrm{RTT_m}
+$$
 
-$$\mathrm{RTT_d} = (1 - \beta)\,\mathrm{RTT_d} + \beta\,|\mathrm{RTT_m} - \mathrm{RTT_s}|$$
+$$
+\mathrm{RTT_d} = (1 - \beta)\,\mathrm{RTT_d} + \beta\,|\mathrm{RTT_m} - \mathrm{RTT_s}|
+$$
 
-$$\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}$$
+$$
+\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}
+$$
 
 Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RTO = 1 s; minimum RTO
 = 200 ms.
@@ -21953,8 +22225,12 @@ Start: q0, Accept: q2
 
 **Extended transition function:** $\delta^*: Q \times \Sigma^* \to Q$
 
-$$\delta^*(q, \epsilon) = q$$
-$$\delta^*(q, wa) = \delta(\delta^*(q, w), a)$$
+$$
+\delta^*(q, \epsilon) = q
+$$
+$$
+\delta^*(q, wa) = \delta(\delta^*(q, w), a)
+$$
 
 ### 1.2 Nondeterministic Finite Automaton (NFA)
 
@@ -22024,7 +22300,9 @@ MINIMIZE(DFA):
 
 **Theorem:** DFAs and NFAs recognize exactly the same class of languages: the **regular languages**.
 
-$$\text{DFA} \equiv \text{NFA} \equiv \text{Regular Expressions}$$
+$$
+\text{DFA} \equiv \text{NFA} \equiv \text{Regular Expressions}
+$$
 
 ## 2. Regular Expressions
 
@@ -22235,11 +22513,15 @@ Q = {q0, q1, q2}, F = {q2}, Σ = {a,b}, Γ = {S, $}
 
 **Theorem:** CFGs and PDAs recognize the same class of languages: the **context-free languages**.
 
-$$\text{CFG} \equiv \text{PDA} \equiv \text{CFL}$$
+$$
+\text{CFG} \equiv \text{PDA} \equiv \text{CFL}
+$$
 
 **Key difference from regular languages:** DPDAs are strictly weaker than nondeterministic PDAs.
 
-$$\text{Regular} = \text{DPDA} \subsetneq \text{NPDA} = \text{CFL}$$
+$$
+\text{Regular} = \text{DPDA} \subsetneq \text{NPDA} = \text{CFL}
+$$
 
 ### 5.4 Closure Properties of CFLs
 
@@ -22319,7 +22601,9 @@ A language is **Turing-recognizable** (RE) if some TM accepts it (may loop on no
 
 A language is **decidable** if some TM **halts on all inputs** (accepts members, rejects non-members).
 
-$$\text{Decidable} \subsetneq \text{RE} \subsetneq \text{All languages}$$
+$$
+\text{Decidable} \subsetneq \text{RE} \subsetneq \text{All languages}
+$$
 
 ## 8. Church-Turing Thesis
 
@@ -22569,7 +22853,9 @@ F → ( E ) | id | num
 
 **Leftmost derivation:** Always expand the leftmost variable.
 
-$$E \Rightarrow E + T \Rightarrow T + T \Rightarrow F + T \Rightarrow \mathbf{id} + T \Rightarrow \mathbf{id} + T * F \Rightarrow \mathbf{id} + F * F \Rightarrow \mathbf{id} + \mathbf{id} * \mathbf{id}$$
+$$
+E \Rightarrow E + T \Rightarrow T + T \Rightarrow F + T \Rightarrow \mathbf{id} + T \Rightarrow \mathbf{id} + T * F \Rightarrow \mathbf{id} + F * F \Rightarrow \mathbf{id} + \mathbf{id} * \mathbf{id}
+$$
 
 **Rightmost derivation:** Always expand the rightmost variable (used in bottom-up parsing).
 
@@ -22634,9 +22920,13 @@ For each production A → α:
 
 **FIRST and FOLLOW sets:**
 
-$$\text{FIRST}(\alpha) = \{a : \alpha \Rightarrow^* a\beta\} \cup \{\epsilon\} \text{ if } \alpha \Rightarrow^* \epsilon$$
+$$
+\text{FIRST}(\alpha) = \{a : \alpha \Rightarrow^* a\beta\} \cup \{\epsilon\} \text{ if } \alpha \Rightarrow^* \epsilon
+$$
 
-$$\text{FOLLOW}(A) = \{a : S \Rightarrow^* \alpha Aa\beta\} \cup \{\$ \text{ if } S \Rightarrow^* \alpha A\}$$
+$$
+\text{FOLLOW}(A) = \{a : S \Rightarrow^* \alpha Aa\beta\} \cup \{\$ \text{ if } S \Rightarrow^* \alpha A\}
+$$
 
 **LL(1) condition:** No multiple entries in the parsing table.
 
@@ -23029,8 +23319,12 @@ for i = 0; i < 96; i += 4:
 
 **Reaching definitions:** Which definitions of a variable may reach each program point?
 
-$$\text{OUT}[B] = \text{gen}[B] \cup (\text{IN}[B] - \text{kill}[B])$$
-$$\text{IN}[B] = \bigcup_{P \in \text{pred}(B)} \text{OUT}[P]$$
+$$
+\text{OUT}[B] = \text{gen}[B] \cup (\text{IN}[B] - \text{kill}[B])
+$$
+$$
+\text{IN}[B] = \bigcup_{P \in \text{pred}(B)} \text{OUT}[P]
+$$
 
 Iterate until convergence (fixed point).
 
@@ -23244,8 +23538,12 @@ A cryptosystem should be secure even if everything about the system (except the 
 
 ### 1.4 One-Time Pad
 
-$$c = p \oplus k$$
-$$p = c \oplus k$$
+$$
+c = p \oplus k
+$$
+$$
+p = c \oplus k
+$$
 
 where $p$ = plaintext, $c$ = ciphertext, $k$ = random key of same length, $\oplus$ = XOR.
 
@@ -23379,8 +23677,12 @@ RSA_KEYGEN():
 
 **Encryption/Decryption:**
 
-$$c = m^e \mod n$$
-$$m = c^d \mod n$$
+$$
+c = m^e \mod n
+$$
+$$
+m = c^d \mod n
+$$
 
 **Correctness:** $c^d = m^{ed} = m^{k\varphi(n)+1} = m \cdot (m^{\varphi(n)})^k \equiv m \pmod{n}$ (by Euler's theorem).
 
@@ -23403,12 +23705,18 @@ ELGAMAL_KEYGEN():
 
 **Encryption:**
 
-$$c_1 = g^k \mod p \quad (k \text{ random})$$
-$$c_2 = m \cdot y^k \mod p$$
+$$
+c_1 = g^k \mod p \quad (k \text{ random})
+$$
+$$
+c_2 = m \cdot y^k \mod p
+$$
 
 **Decryption:**
 
-$$m = c_2 \cdot (c_1^x)^{-1} \mod p = c_2 \cdot g^{-kx} \mod p$$
+$$
+m = c_2 \cdot (c_1^x)^{-1} \mod p = c_2 \cdot g^{-kx} \mod p
+$$
 
 ### 3.3 Elliptic Curve Cryptography (ECC)
 
@@ -23501,7 +23809,9 @@ SHA256_ROUND(state, W_t, K_t):
 
 **Word expansion:**
 
-$$W_t = \begin{cases} M_t & 0 \leq t \leq 15 \\ \sigma_1(W_{t-2}) + W_{t-7} + \sigma_0(W_{t-15}) + W_{t-16} & 16 \leq t \leq 63 \end{cases}$$
+$$
+W_t = \begin{cases} M_t & 0 \leq t \leq 15 \\ \sigma_1(W_{t-2}) + W_{t-7} + \sigma_0(W_{t-15}) + W_{t-16} & 16 \leq t \leq 63 \end{cases}
+$$
 
 ### 4.4 Hash Function Comparison
 
@@ -24188,7 +24498,9 @@ URL: https://computer-science.wyattau.com/3-theory/machine-learning-fundamentals
 
 Given features $\mathbf{x} \in \mathbb{R}^d$, predict a continuous target $y$:
 
-$$\hat{y} = \mathbf{w}^T \mathbf{x} + b = w_1 x_1 + w_2 x_2 + \cdots + w_d x_d + b$$
+$$
+\hat{y} = \mathbf{w}^T \mathbf{x} + b = w_1 x_1 + w_2 x_2 + \cdots + w_d x_d + b
+$$
 
 In matrix form (with bias absorbed): $\hat{y} = \mathbf{w}^T \mathbf{x}$ where
 $\mathbf{x} = [1, x_1, \ldots, x_d]^T$.
@@ -24197,11 +24509,15 @@ $\mathbf{x} = [1, x_1, \ldots, x_d]^T$.
 
 Minimize the **mean squared error**:
 
-$$\mathcal{L}(\mathbf{w}) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \mathbf{w}^T \mathbf{x}_i)^2 = \frac{1}{n} \|\mathbf{y} - X\mathbf{w}\|^2$$
+$$
+\mathcal{L}(\mathbf{w}) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \mathbf{w}^T \mathbf{x}_i)^2 = \frac{1}{n} \|\mathbf{y} - X\mathbf{w}\|^2
+$$
 
 **Closed-form solution:**
 
-$$\mathbf{w}^* = (X^T X)^{-1} X^T \mathbf{y}$$
+$$
+\mathbf{w}^* = (X^T X)^{-1} X^T \mathbf{y}
+$$
 
 **Assumptions:**
 
@@ -24248,33 +24564,47 @@ SGD(X, y, α, epochs, batch_size):
 
 Binary classification: predict $P(y = 1 | \mathbf{x})$:
 
-$$\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \frac{1}{1 + e^{-(\mathbf{w}^T \mathbf{x} + b)}}$$
+$$
+\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \frac{1}{1 + e^{-(\mathbf{w}^T \mathbf{x} + b)}}
+$$
 
 **Sigmoid function $\sigma(z)$:** Maps any real number to $(0, 1)$.
 
-$$\sigma(z) = \frac{1}{1+e^{-z}}, \quad \sigma"(z) = \sigma(z)(1 - \sigma(z))$$
+$$
+\sigma(z) = \frac{1}{1+e^{-z}}, \quad \sigma"(z) = \sigma(z)(1 - \sigma(z))
+$$
 
 ### 2.2 Loss Function: Binary Cross-Entropy
 
-$$\mathcal{L} = -\frac{1}{n} \sum_{i=1}^{n} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right]$$
+$$
+\mathcal{L} = -\frac{1}{n} \sum_{i=1}^{n} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right]
+$$
 
 **Gradient:**
 
-$$\nabla_{\mathbf{w}} \mathcal{L} = \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i) \mathbf{x}_i$$
+$$
+\nabla_{\mathbf{w}} \mathcal{L} = \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i) \mathbf{x}_i
+$$
 
 **Update rule:**
 
-$$\mathbf{w} \leftarrow \mathbf{w} - \alpha \cdot \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i) \mathbf{x}_i$$
+$$
+\mathbf{w} \leftarrow \mathbf{w} - \alpha \cdot \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i) \mathbf{x}_i
+$$
 
 ### 2.3 Multi-Class: Softmax Regression
 
 For $K$ classes, use the **softmax** function:
 
-$$P(y = k | \mathbf{x}) = \frac{e^{z_k}}{\sum_{j=1}^{K} e^{z_j}}, \quad z_k = \mathbf{w}_k^T \mathbf{x} + b_k$$
+$$
+P(y = k | \mathbf{x}) = \frac{e^{z_k}}{\sum_{j=1}^{K} e^{z_j}}, \quad z_k = \mathbf{w}_k^T \mathbf{x} + b_k
+$$
 
 **Loss: Categorical cross-entropy:**
 
-$$\mathcal{L} = -\frac{1}{n} \sum_{i=1}^{n} \sum_{k=1}^{K} y_{ik} \log(\hat{y}_{ik})$$
+$$
+\mathcal{L} = -\frac{1}{n} \sum_{i=1}^{n} \sum_{k=1}^{K} y_{ik} \log(\hat{y}_{ik})
+$$
 
 where $y_{ik} = 1$ if example $i$ belongs to class $k$, else $0$.
 
@@ -24292,15 +24622,21 @@ A tree where:
 
 **Gini impurity:**
 
-$$\text{Gini}(S) = 1 - \sum_{k=1}^{K} p_k^2$$
+$$
+\text{Gini}(S) = 1 - \sum_{k=1}^{K} p_k^2
+$$
 
 where $p_k$ is the proportion of class $k$ in set $S$.
 
 **Information gain (Entropy):**
 
-$$H(S) = -\sum_{k=1}^{K} p_k \log_2 p_k$$
+$$
+H(S) = -\sum_{k=1}^{K} p_k \log_2 p_k
+$$
 
-$$\text{Gain}(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+$$
+\text{Gain}(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S_v)
+$$
 
 **Choose the feature and threshold that maximizes gain (or minimizes impurity).**
 
@@ -24308,7 +24644,9 @@ $$\text{Gain}(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S
 
 **Reduction in variance:**
 
-$$\text{Split Score} = \text{Var}(S) - \sum_{v} \frac{|S_v|}{|S|} \text{Var}(S_v)$$
+$$
+\text{Split Score} = \text{Var}(S) - \sum_{v} \frac{|S_v|}{|S|} \text{Var}(S_v)
+$$
 
 ### 3.4 Training Algorithm
 
@@ -24343,7 +24681,9 @@ BUILD_TREE(data, max_depth, min_samples):
 
 Grow full tree, then prune branches:
 
-$$R_\alpha(T) = R(T) + \alpha |T|$$
+$$
+R_\alpha(T) = R(T) + \alpha |T|
+$$
 
 where $R(T)$ = training error, $|T|$ = number of leaves, $\alpha$ = complexity parameter.
 
@@ -24383,7 +24723,9 @@ GRADIENT_BOOST(data, n_estimators, lr):
 
 A single neuron:
 
-$$\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \sigma\left(\sum_{j=1}^{d} w_j x_j + b\right)$$
+$$
+\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \sigma\left(\sum_{j=1}^{d} w_j x_j + b\right)
+$$
 
 **Limitation:** Can only learn linearly separable functions (single-layer cannot solve XOR).
 
@@ -24458,33 +24800,45 @@ practical.
 
 **Mean Squared Error (MSE):**
 
-$$\mathcal{L}_{\text{MSE}} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
+$$
+\mathcal{L}_{\text{MSE}} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+$$
 
 Sensitive to outliers (quadratic penalty).
 
 **Mean Absolute Error (MAE):**
 
-$$\mathcal{L}_{\text{MAE}} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$$
+$$
+\mathcal{L}_{\text{MAE}} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+$$
 
 More robust to outliers (linear penalty).
 
 **Huber loss:** MSE for small errors, MAE for large errors:
 
-$$\mathcal{L}_\delta = \begin{cases} \frac{1}{2}(y - \hat{y})^2 & \text{if } |y - \hat{y}| \leq \delta \\ \delta(|y - \hat{y}| - \frac{\delta}{2}) & \text{otherwise} \end{cases}$$
+$$
+\mathcal{L}_\delta = \begin{cases} \frac{1}{2}(y - \hat{y})^2 & \text{if } |y - \hat{y}| \leq \delta \\ \delta(|y - \hat{y}| - \frac{\delta}{2}) & \text{otherwise} \end{cases}
+$$
 
 ### 5.2 Classification Losses
 
 **Binary Cross-Entropy:**
 
-$$\mathcal{L}_{\text{BCE}} = -\frac{1}{n} \sum_{i=1}^{n} [y_i \log \hat{y}_i + (1 - y_i) \log(1 - \hat{y}_i)]$$
+$$
+\mathcal{L}_{\text{BCE}} = -\frac{1}{n} \sum_{i=1}^{n} [y_i \log \hat{y}_i + (1 - y_i) \log(1 - \hat{y}_i)]
+$$
 
 **Categorical Cross-Entropy:**
 
-$$\mathcal{L}_{\text{CE}} = -\sum_{k=1}^{K} y_k \log \hat{y}_k$$
+$$
+\mathcal{L}_{\text{CE}} = -\sum_{k=1}^{K} y_k \log \hat{y}_k
+$$
 
 **Hinge loss (SVM):**
 
-$$\mathcal{L}_{\text{hinge}} = \max(0, 1 - y \cdot \hat{y})$$
+$$
+\mathcal{L}_{\text{hinge}} = \max(0, 1 - y \cdot \hat{y})
+$$
 
 ### 5.3 Loss Selection Guide
 
@@ -24499,27 +24853,35 @@ $$\mathcal{L}_{\text{hinge}} = \max(0, 1 - y \cdot \hat{y})$$
 
 ### 6.1 L1 Regularization (Lasso)
 
-$$\mathcal{L}_{\text{L1}} = \mathcal{L}_{\text{base}} + \lambda \sum_{j=1}^{d} |w_j|$$
+$$
+\mathcal{L}_{\text{L1}} = \mathcal{L}_{\text{base}} + \lambda \sum_{j=1}^{d} |w_j|
+$$
 
 **Effect:** Produces **sparse** solutions (drives some weights to exactly zero). Useful for feature
 selection.
 
 ### 6.2 L2 Regularization (Ridge)
 
-$$\mathcal{L}_{\text{L2}} = \mathcal{L}_{\text{base}} + \lambda \sum_{j=1}^{d} w_j^2 = \mathcal{L}_{\text{base}} + \lambda \|\mathbf{w}\|^2$$
+$$
+\mathcal{L}_{\text{L2}} = \mathcal{L}_{\text{base}} + \lambda \sum_{j=1}^{d} w_j^2 = \mathcal{L}_{\text{base}} + \lambda \|\mathbf{w}\|^2
+$$
 
 **Effect:** Penalizes large weights. Shrinks all weights toward zero but rarely makes them exactly
 zero.
 
 **Update rule (L2):**
 
-$$\mathbf{w} \leftarrow \mathbf{w} - \alpha \left(\nabla \mathcal{L} + 2\lambda \mathbf{w}\right)$$
+$$
+\mathbf{w} \leftarrow \mathbf{w} - \alpha \left(\nabla \mathcal{L} + 2\lambda \mathbf{w}\right)
+$$
 
 ### 6.3 Elastic Net
 
 Combines L1 and L2:
 
-$$\mathcal{L} = \mathcal{L}_{\text{base}} + \lambda_1 \|\mathbf{w}\|_1 + \lambda_2 \|\mathbf{w}\|^2$$
+$$
+\mathcal{L} = \mathcal{L}_{\text{base}} + \lambda_1 \|\mathbf{w}\|_1 + \lambda_2 \|\mathbf{w}\|^2
+$$
 
 Benefits of both: sparse features + stable coefficients.
 
@@ -24592,13 +24954,17 @@ Misleading with imbalanced classes (e.g., 99% negative: predict all negative →
 
 **F1 Score:** Harmonic mean of precision and recall:
 
-$$F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
+$$
+F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$
 
 **Specificity:** $\frac{TN}{TN + FP}$ (of all actual negatives, how many were correctly identified?)
 
 **$F_\beta$ Score:** Weighted harmonic mean (gives $\beta$ times more importance to recall):
 
-$$F_\beta = (1 + \beta^2) \cdot \frac{\text{Precision} \cdot \text{Recall}}{(\beta^2 \cdot \text{Precision}) + \text{Recall}}$$
+$$
+F_\beta = (1 + \beta^2) \cdot \frac{\text{Precision} \cdot \text{Recall}}{(\beta^2 \cdot \text{Precision}) + \text{Recall}}
+$$
 
 ### 7.3 ROC Curve and AUC
 
@@ -24624,7 +24990,9 @@ randomly chosen negative example.
 
 **$R^2$ (Coefficient of Determination):**
 
-$$R^2 = 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2}$$
+$$
+R^2 = 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2}
+$$
 
 $R^2 = 1$: Perfect fit. $R^2 = 0$: Predicts mean. $R^2 < 0$: Worse than predicting mean.
 
@@ -24654,13 +25022,21 @@ K_FOLD_CV(model_fn, X, y, k):
 
 For a model predicting $\hat{f}(\mathbf{x})$ of true function $f(\mathbf{x})$ with noise $\epsilon$:
 
-$$\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}$$
+$$
+\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}
+$$
 
 where:
 
-$$\text{Bias}^2 = (\mathbb{E}[\hat{f}(\mathbf{x})] - f(\mathbf{x}))^2$$
-$$\text{Variance} = \mathbb{E}[(\hat{f}(\mathbf{x}) - \mathbb{E}[\hat{f}(\mathbf{x})])^2]$$
-$$\text{Irreducible Error} = \sigma^2_\epsilon$$
+$$
+\text{Bias}^2 = (\mathbb{E}[\hat{f}(\mathbf{x})] - f(\mathbf{x}))^2
+$$
+$$
+\text{Variance} = \mathbb{E}[(\hat{f}(\mathbf{x}) - \mathbb{E}[\hat{f}(\mathbf{x})])^2]
+$$
+$$
+\text{Irreducible Error} = \sigma^2_\epsilon
+$$
 
 ### 8.2 Tradeoff
 
@@ -26043,11 +26419,15 @@ includes:
 **Grouping and aggregation:** $\gamma_{F}(R)$ where $F$ is a list of aggregate functions and
 grouping attributes.
 
-$$\gamma_{\text{dept}, \text{AVG}(salary) \to \text{avg}\_sal}(\text{Employee})$$
+$$
+\gamma_{\text{dept}, \text{AVG}(salary) \to \text{avg}\_sal}(\text{Employee})
+$$
 
 **Generalised projection:** Allows arithmetic expressions in the projection list.
 
-$$\pi_{\text{name}, \text{salary} \times 12 \to \text{annual}(\text{Employee})}$$
+$$
+\pi_{\text{name}, \text{salary} \times 12 \to \text{annual}(\text{Employee})}
+$$
 
 **Outer join:** Preserves unmatched tuples from one or both relations.
 
@@ -26062,7 +26442,9 @@ Datalog.
 
 **Theorem 1.1.** Division can be expressed using basic relational algebra:
 
-$$R \div S = \pi_{A}(R) - \pi_{A}\left(\pi_{A}(R) \times S - R\right)$$
+$$
+R \div S = \pi_{A}(R) - \pi_{A}\left(\pi_{A}(R) \times S - R\right)
+$$
 
 Where $A$ is the set of attributes of $R$ not in $S$.
 
@@ -26158,7 +26540,9 @@ FUNCTION(args) OVER (
 
 **Frame specification:**
 
-$$\text{ROWS} | RANGE BETWEEN frame_start AND frame_end$$
+$$
+\text{ROWS} | RANGE BETWEEN frame_start AND frame_end
+$$
 
 | Frame unit            | Meaning                                                  |
 | --------------------- | -------------------------------------------------------- |
@@ -26940,7 +27324,9 @@ necessarily real-time order).
 
 **Consistency model hierarchy:**
 
-$$\text{Linearisable} \subset \text{Sequential} \subset \text{Causal} \subset \text{Eventual}$$
+$$
+\text{Linearisable} \subset \text{Sequential} \subset \text{Causal} \subset \text{Eventual}
+$$
 
 <details>
 <summary>Worked Example: Consistency Anomalies</summary>
@@ -26977,7 +27363,9 @@ sort.
 
 **External merge sort cost for relation $R$ with $B$ blocks and $M$ memory blocks:**
 
-$$\text{Sort}(R) = 2B \left(1 + \lceil \log_{M-1} \lceil B / M \rceil \rceil \right)$$
+$$
+\text{Sort}(R) = 2B \left(1 + \lceil \log_{M-1} \lceil B / M \rceil \rceil \right)
+$$
 
 **Phase 2: Merge.** Both sorted relations are scanned simultaneously, outputting matching pairs.
 
@@ -27008,7 +27396,9 @@ and the partition of $R$ fits in memory for each partition.
 
 For each tuple in $R$Look up matching tuples in $S$ using an index on the join attribute.
 
-$$\text{Cost} = B_r + R_r \cdot (\text{cost} per probe)$$
+$$
+\text{Cost} = B_r + R_r \cdot (\text{cost} per probe)
+$$
 
 Where $R_r$ is the number of records in $R$ and the cost per probe depends on the index:
 
@@ -29788,7 +30178,9 @@ URL: https://computer-science.wyattau.com/4-databases/7_query-optimisation/
 
 ### 7.1 Query Processing Pipeline
 
-$$\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}$$
+$$
+\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}
+$$
 
 ### 7.2 Cost-Based Optimisation
 
@@ -29814,31 +30206,41 @@ $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
 **Nested-loop join.** For each tuple in $R$Scan all of $S$.
 
-$$\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)$$
+$$
+\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)
+$$
 
 If one relation fits in memory, buffer it and scan the other: cost = $n_R + n_S$.
 
 **Block nested-loop join.** Use $B$ buffer pages. Load blocks of $R$ into $B - 2$ buffers, scan $S$
 With the remaining buffer.
 
-$$\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S$$
+$$
+\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S
+$$
 
 **Sort-merge join.** Sort both relations on the join attribute, then merge.
 
-$$\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S$$
+$$
+\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S
+$$
 
 Efficient for large relations, especially when both are already sorted.
 
 **Hash join.** Build a hash table on the smaller relation (build phase), then probe with the larger
 (probe phase).
 
-$$\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}$$
+$$
+\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}
+$$
 
 Best for equi-joins when one relation fits in memory.
 
 **Index nested-loop join.** For each tuple in $R$Use an index on $S$ to find matching tuples.
 
-$$\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)$$
+$$
+\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)
+$$
 
 Efficient if $S$ has an index on the join attribute and $n_R$ is small.
 
@@ -30012,12 +30414,16 @@ Relational algebra provides a formal query language based on operations on relat
 
 **Selection** $\sigma_{\theta}(R)$: Return tuples from $R$ satisfying condition $\theta$.
 
-$$\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}$$
+$$
+\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}
+$$
 
 **Projection** $\pi_{A_1, \ldots, A_k}(R)$: Return a relation containing only attributes
 $A_1, \ldots, A_k$.
 
-$$\pi_{\mathrm{name}, \mathrm{gpa}(\mathrm{Student})}$$
+$$
+\pi_{\mathrm{name}, \mathrm{gpa}(\mathrm{Student})}
+$$
 
 **Union** $R \cup S$: All tuples in $R$ or $S$ (both must be union-compatible: same arity and
 Attribute domains).
@@ -30030,7 +30436,9 @@ Attribute domains).
 
 **Natural join** $R \bowtie S$: Combine tuples from $R$ and $S$ that agree on all common attributes.
 
-$$R \bowtie S = \pi_{R \cup S}(\sigma_{R.\mathrm{common} = S.\mathrm{common}(R \times S))}$$
+$$
+R \bowtie S = \pi_{R \cup S}(\sigma_{R.\mathrm{common} = S.\mathrm{common}(R \times S))}
+$$
 
 **Theta join** $R \bowtie_{\theta} S$: $\sigma_{\theta}(R \times S)$.
 
@@ -30048,11 +30456,15 @@ possible; `NULL`-padded otherwise.
 $(t, s)
 \in R$.
 
-$$R \div S = \pi_{R-S}(R) - \pi_{R-S}\Bigl(\bigl(\pi_{R-S}(R) \times S\bigr) - R\Bigr)$$
+$$
+R \div S = \pi_{R-S}(R) - \pi_{R-S}\Bigl(\bigl(\pi_{R-S}(R) \times S\bigr) - R\Bigr)
+$$
 
 **Example.** Find students who have taken **all** courses:
 
-$$\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm{Course})}}$$
+$$
+\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm{Course})}}
+$$
 
 <details>
 <summary>Worked Example 2.1: Complex Relational Algebra Query</summary>
@@ -30064,23 +30476,33 @@ department.
 
 **Step 1.** Get CS course IDs:
 
-$$C_{\mathrm{CS} = \pi_{\mathrm{cid}\bigl(\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Course})\bigr)}}}$$
+$$
+C_{\mathrm{CS} = \pi_{\mathrm{cid}\bigl(\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Course})\bigr)}}}
+$$
 
 **Step 2.** Get student-course pairs from enrolments:
 
-$$T = \pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes})}$$
+$$
+T = \pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes})}
+$$
 
 **Step 3.** Students who have taken all CS courses (division):
 
-$$S_{\mathrm{all} = T \div C_{\mathrm{CS}}}$$
+$$
+S_{\mathrm{all} = T \div C_{\mathrm{CS}}}
+$$
 
 **Step 4.** Get names:
 
-$$\pi_{\mathrm{name}(S_{\mathrm{all} \bowtie \mathrm{Student})}}$$
+$$
+\pi_{\mathrm{name}(S_{\mathrm{all} \bowtie \mathrm{Student})}}
+$$
 
 **Combined:**
 
-$$\pi_{\mathrm{name}\Bigl(\bigl(\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))\bigr) \bowtie \mathrm{Student}\Bigr)}}}}$$
+$$
+\pi_{\mathrm{name}\Bigl(\bigl(\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))\bigr) \bowtie \mathrm{Student}\Bigr)}}}}
+$$
 
 </details>
 
@@ -30092,11 +30514,15 @@ have Taken no CS courses (count should be 0).
 
 **Step 1.** Filter enrolments to CS courses:
 
-$$E_{\mathrm{CS} = \pi_{\mathrm{sid}, \mathrm{cid}\bigl(\mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course})\bigr)}}}$$
+$$
+E_{\mathrm{CS} = \pi_{\mathrm{sid}, \mathrm{cid}\bigl(\mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course})\bigr)}}}
+$$
 
 **Step 2.** Left outer join with Student to include those with no CS courses:
 
-$$\mathrm{Result} = \mathrm{Student} \bowtie_{\mathrm{left} E_{\mathrm{CS}}}$$
+$$
+\mathrm{Result} = \mathrm{Student} \bowtie_{\mathrm{left} E_{\mathrm{CS}}}
+$$
 
 Note: aggregation over outer join results handles `NULL` values (they are excluded from `COUNT`).
 
@@ -30123,12 +30549,16 @@ variable And $P$ is a well-formed formula. The formula is built from:
 - Logical connectives: $\land$ (and), $\lor$ (or), $\lnot$ (not).
 - Quantifiers: $\exists t$ (there exists), $\forall t$ (for all).
 
-$$\{t \mid \exists s \in \mathrm{Takes}(t[\mathrm{name}] = s[\mathrm{name}] \land s[\mathrm{grade}] = \mathrm{'A'})\}$$
+$$
+\{t \mid \exists s \in \mathrm{Takes}(t[\mathrm{name}] = s[\mathrm{name}] \land s[\mathrm{grade}] = \mathrm{'A'})\}
+$$
 
 **Domain relational calculus.** Variables range over individual attribute domains (not entire
 tuples). A query has the form $\\{\langle x_1, \ldots, x_k \rangle \mid P(x_1, \ldots, x_k)\\}$.
 
-$$\{ \langle n \rangle \mid \exists s, g \;(\mathrm{Takes}(s, \mathrm{'CS101'}, g) \land \mathrm{Student}(s, n, \ldots) \land g = \mathrm{'A'})\}$$
+$$
+\{ \langle n \rangle \mid \exists s, g \;(\mathrm{Takes}(s, \mathrm{'CS101'}, g) \land \mathrm{Student}(s, n, \ldots) \land g = \mathrm{'A'})\}
+$$
 
 **Safety.** A calculus expression is **safe** if it yields a finite relation. The expression
 $\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$An infinite set). We
@@ -30144,11 +30574,15 @@ Equally expressive: every query expressible in one is expressible in the other.
 
 Using tuple relational calculus:
 
-$$\{t \mid t \in \mathrm{Student} \land \lnot \exists s \in \mathrm{Takes}\bigl(s[\mathrm{sid}] = t[\mathrm{sid}] \land \exists c \in \mathrm{Course}(c[\mathrm{cid}] = s[\mathrm{cid}] \land c[\mathrm{dept}] = \mathrm{'CS'}\bigr)\}$$
+$$
+\{t \mid t \in \mathrm{Student} \land \lnot \exists s \in \mathrm{Takes}\bigl(s[\mathrm{sid}] = t[\mathrm{sid}] \land \exists c \in \mathrm{Course}(c[\mathrm{cid}] = s[\mathrm{cid}] \land c[\mathrm{dept}] = \mathrm{'CS'}\bigr)\}
+$$
 
 **Translation to relational algebra:**
 
-$$\pi_{\mathrm{name}(\mathrm{Student}) - \pi_{\mathrm{name}(\mathrm{Student} \bowtie \mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))}}}$$
+$$
+\pi_{\mathrm{name}(\mathrm{Student}) - \pi_{\mathrm{name}(\mathrm{Student} \bowtie \mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))}}}
+$$
 
 </details>
 
@@ -31341,7 +31775,9 @@ reliability, Or both.
 **Mean time to failure (MTTF).** If each disk has $\mathrm{MTTF_}{\mathrm{disk}}$ and the MTTR (mean
 time to repair) is $T_{\mathrm{repair}}$:
 
-$$\mathrm{MTTF_}{\mathrm{RAID}\;5} \approx \frac{\mathrm{MTTF_}{\mathrm{disk}^2}{n(n-1) \cdot T_{\mathrm{repair}}}}$$
+$$
+\mathrm{MTTF_}{\mathrm{RAID}\;5} \approx \frac{\mathrm{MTTF_}{\mathrm{disk}^2}{n(n-1) \cdot T_{\mathrm{repair}}}}
+$$
 
 RAID 5 significantly improves reliability for large arrays, but the rebuild time grows with disk
 Capacity, increasing the window of vulnerability.
@@ -32261,7 +32697,9 @@ Memory management answers: **how do you give every process its own address space
 Divide physical memory into fixed-size **frames** and logical memory into same-size **pages**. A
 **page table** maps page numbers to frame numbers.
 
-$$\mathrm{physical} address = \mathrm{PT}[p] \times F + f$$
+$$
+\mathrm{physical} address = \mathrm{PT}[p] \times F + f
+$$
 
 Where $\mathrm{PT}[p]$ is the frame number for page $p$ and $F$ is the frame size.
 
@@ -32279,7 +32717,9 @@ Where $\mathrm{PT}[p]$ is the frame number for page $p$ and $F$ is the frame siz
 Two-level scheme uses a **page directory** indexed by the outer page number, pointing to inner Page
 tables:
 
-$$\mathrm{Address}:  \underbrace{p_1}_{\mathrm{outer} \mid \underbrace{p_2}_{\mathrm{inner} \mid \underbrace{d}_{\mathrm{offset}}}}$$
+$$
+\mathrm{Address}:  \underbrace{p_1}_{\mathrm{outer} \mid \underbrace{p_2}_{\mathrm{inner} \mid \underbrace{d}_{\mathrm{offset}}}}
+$$
 
 X86-64 with 48-bit virtual addresses uses four-level page tables.
 
@@ -32291,7 +32731,9 @@ Overhead but makes searching for a specific virtual page expensive; solved by ha
 Segments divide the address space into logical units (code, data, stack, heap). Each segment has a
 **base** and **limit**:
 
-$$\mathrm{physical} address = \mathrm{base} + \mathrm{offset}, \quad \mathrm{if}  \mathrm{offset} \lt \mathrm{limit}$$
+$$
+\mathrm{physical} address = \mathrm{base} + \mathrm{offset}, \quad \mathrm{if}  \mathrm{offset} \lt \mathrm{limit}
+$$
 
 _Advantages:_ Reflects program structure; supports sharing individual segments. _Disadvantages:_
 External fragmentation (variable-size segments).
@@ -32322,7 +32764,9 @@ Translate (segment = 2, offset = 2500):
 
 Combine segmentation and paging: the segment offset is divided into page number and page offset.
 
-$$\mathrm{Address}:  \underbrace{s}_{\mathrm{segment} \mid \underbrace{p}_{\mathrm{page} \mid \underbrace{d}_{\mathrm{offset}}}}$$
+$$
+\mathrm{Address}:  \underbrace{s}_{\mathrm{segment} \mid \underbrace{p}_{\mathrm{page} \mid \underbrace{d}_{\mathrm{offset}}}}
+$$
 
 Used by x86 (segmentation + paging).
 
@@ -32344,14 +32788,18 @@ Pages in RAM; the rest reside on disk (swap space).
 
 **Effective access time (EAT):**
 
-$$\mathrm{EAT} = (1 - p) \times \mathrm{ma} + p \times \mathrm{pf}$$
+$$
+\mathrm{EAT} = (1 - p) \times \mathrm{ma} + p \times \mathrm{pf}
+$$
 
 Where $p$ = page fault rate, $\mathrm{ma}$ = memory access time, $\mathrm{pf}$ = page fault service
 Time.
 
 For $p = 0.001$, $\mathrm{ma} = 100$ ns, $\mathrm{pf} = 8$ ms:
 
-$$\mathrm{EAT} = 0.999 \times 100 + 0.001 \times 8\,000\,000 = 8.1 \; \mu\mathrm{s}$$
+$$
+\mathrm{EAT} = 0.999 \times 100 + 0.001 \times 8\,000\,000 = 8.1 \; \mu\mathrm{s}
+$$
 
 This is roughly $80\times$ slower than pure memory access, illustrating why a low page fault rate Is
 critical.
@@ -32361,13 +32809,17 @@ critical.
 A **TLB** is a hardware cache of recently used page table entries, avoiding an extra memory access
 Per translation.
 
-$$\mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})$$
+$$
+\mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})
+$$
 
 Where $h$ is the TLB hit ratio.
 
 For $h = 0.99$, $\mathrm{TLB} = 2$ ns, $\mathrm{ma} = 100$ ns:
 
-$$\mathrm{EAT} = 0.99 \times 102 + 0.01 \times 202 = 103 \; \mathrm{ns}$$
+$$
+\mathrm{EAT} = 0.99 \times 102 + 0.01 \times 202 = 103 \; \mathrm{ns}
+$$
 
 **TLB coherence.** When the OS modifies a page table entry, it must invalidate the corresponding TLB
 entry. On x86-64: `invlpg` for single-entry invalidation, or reload `CR3` to flush the entire TLB.
@@ -32387,8 +32839,12 @@ $\mathrm{TLB} + 2 \times \mathrm{ma} = 2 + 200 = 202$ ns.
 _Case 3: Page fault_ ($0.0005$): Time =
 $\mathrm{TLB} + \mathrm{ma} + \mathrm{pf} = 2 + 100 + 8 \times 10^6 = 8000002$ ns.
 
-$$\mathrm{EAT} = 0.7996 \times 102 + 0.1999 \times 202 + 0.0005 \times 8\,000\,102$$
-$$\mathrm{EAT} = 81.56 + 40.38 + 4000.05 = 4121.99 \;\mathrm{ns} \approx 4.12 \;\mu\mathrm{s}$$
+$$
+\mathrm{EAT} = 0.7996 \times 102 + 0.1999 \times 202 + 0.0005 \times 8\,000\,102
+$$
+$$
+\mathrm{EAT} = 81.56 + 40.38 + 4000.05 = 4121.99 \;\mathrm{ns} \approx 4.12 \;\mu\mathrm{s}
+$$
 
 This is roughly $41\times$ slower than pure memory access, driven almost entirely by the page fault
 Component.
@@ -32899,7 +33355,9 @@ Under demand paging with a **local replacement policy** (each process gets a fix
 frames), the **working set model** defines the set of pages a process needs within a time window
 $\Delta$:
 
-$$W(t, \Delta) = \{\text{pages} referenced by the process in  [t - \Delta, t]\}$$
+$$
+W(t, \Delta) = \{\text{pages} referenced by the process in  [t - \Delta, t]\}
+$$
 
 **Theorem 2.2 (Working Set Theorem).** A process with working set size $|W|$ needs at least $|W|$
 frames to avoid thrashing. If allocated fewer frames, the page fault rate increases dramatically.
@@ -33130,7 +33588,9 @@ for new writes.
 **Cost-benefit model for segment selection:** Clean the segment with the highest ratio of dead
 blocks to live blocks (most benefit for least cost):
 
-$$\text{benefit}(s) = \frac{\text{dead}(s)}{1 - u(s)}$$
+$$
+\text{benefit}(s) = \frac{\text{dead}(s)}{1 - u(s)}
+$$
 
 Where $u(s)$ is the utilisation of segment $s$.
 
@@ -34922,9 +35382,13 @@ A **process** is an instance of a program in execution. The OS maintains a **pro
 
 **Process states.** Processes transition through states:
 
-$$\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}$$
+$$
+\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}
+$$
 
-$$\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}$$
+$$
+\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}
+$$
 
 The scheduler dispatches processes from **ready** to **running**. A running process may be
 **preempted** back to ready, or may **block** on I/O or a synchronisation event.
@@ -35916,7 +36380,9 @@ $\mathrm{NTIME(t(n)) = \{L : L \mathrm{ is decided by a nondeterministic TM in  
 
 ### 6.2 The Class P
 
-$$\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)$$
+$$
+\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)
+$$
 
 $\mathrm{P$ is the class of languages decidable in polynomial time by a deterministic TM. This
 Captures the notion of "efficiently solvable."
@@ -35931,12 +36397,16 @@ Captures the notion of "efficiently solvable."
 
 ### 6.3 The Class NP
 
-$$\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)$$
+$$
+\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)
+$$
 
 **Equivalent definition.** A language $L$ is in NP if there exists a polynomial-time verifier $V$
 And a polynomial $p$ such that:
 
-$$L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}$$
+$$
+L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}
+$$
 
 The string $c$ is called a **certificate** (or witness).
 
@@ -36123,13 +36593,21 @@ Equal sum?
 
 **Reduction chain:**
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
 <details>
 <summary>Worked Example: Reducing 3-SAT to Independent Set</summary>
@@ -36232,7 +36710,9 @@ Quantifiers.
 **Equivalent characterisation.** A language $L$ is in $\Sigma_k^P$ iff there exist polynomial-time
 Computable relations $R$ and polynomials $p$ such that:
 
-$$L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}$$
+$$
+L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}
+$$
 
 Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\exists$.
 
@@ -36245,7 +36725,9 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 **Relationships:**
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
@@ -36274,7 +36756,9 @@ $\blacksquare$
 
 **PSPACE.** The class of languages decidable in polynomial space:
 
-$$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
+$$
+\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE}$.
 - $\mathrm{P} \neq \mathrm{PSPACE}$ (space hierarchy theorem).
@@ -36283,7 +36767,9 @@ $$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
 
 **EXPTIME.** The class of languages decidable in exponential time:
 
-$$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
+$$
+\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$.
 - $\mathrm{P} \neq \mathrm{EXPTIME}$ (time hierarchy theorem).
@@ -36292,11 +36778,17 @@ $$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
 
 **Hierarchy summary:**
 
-$$\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}$$
+$$
+\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}
+$$
 
-$$\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME$$
+$$
+\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME
+$$
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 | Inclusion                                                        | Known to be proper? | Theorem used        |
 | ---------------------------------------------------------------- | ------------------- | ------------------- |
@@ -36390,19 +36882,27 @@ A production $A \to \alpha$ means variable $A$ can be replaced by string $\alpha
 
 **Example.** CFG for $L = \{a^n b^n : n \geq 0\}$:
 
-$$S \to aSb \mid \varepsilon$$
+$$
+S \to aSb \mid \varepsilon
+$$
 
 **Example.** CFG for balanced parentheses:
 
-$$S \to (S) \mid SS \mid \varepsilon$$
+$$
+S \to (S) \mid SS \mid \varepsilon
+$$
 
 **Example.** CFG for $\{w \in \{0,1\}^* : w = w^R\}$ (palindromes):
 
-$$S \to 0S0 \mid 1S1 \mid 0 \mid 1 \mid \varepsilon$$
+$$
+S \to 0S0 \mid 1S1 \mid 0 \mid 1 \mid \varepsilon
+$$
 
 **Example.** CFG for $L = \{a^i b^j c^k : i = j + k\}$:
 
-$$S \to aSb \mid T, \quad T \to aTc \mid \varepsilon$$
+$$
+S \to aSb \mid T, \quad T \to aTc \mid \varepsilon
+$$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
 $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$The total number Of
@@ -36410,21 +36910,27 @@ $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$T
 
 **Example.** CFG for strings with equal numbers of `0`S and `1`S:
 
-$$S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon$$
+$$
+S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon
+$$
 
 The first two rules add a matched pair (in either order); the third concatenates two balanced
 Strings; the fourth handles the empty string.
 
 **Example.** CFG for the language of all strings over $\{a, b\}$ that are **not** palindromes:
 
-$$S \to aAb \mid bAa \mid aSa \mid bSb \mid a \mid b, \quad A \to aAa \mid aAb \mid bAa \mid bAb \mid a \mid b$$
+$$
+S \to aAb \mid bAa \mid aSa \mid bSb \mid a \mid b, \quad A \to aAa \mid aAb \mid bAa \mid bAb \mid a \mid b
+$$
 
 Here $S$ generates non-palindromes and $A$ generates arbitrary strings of length $\geq 1$.
 
 <details>
 <summary>Worked Example: CFG for $\{a^i b^j : 2i = j \mathrm{ or}  2j = i\}$</summary>
 
-$$S \to S_1 \mid S_2, \quad S_1 \to aS_1bb \mid \varepsilon, \quad S_2 \to aaS_2b \mid \varepsilon$$
+$$
+S \to S_1 \mid S_2, \quad S_1 \to aS_1bb \mid \varepsilon, \quad S_2 \to aaS_2b \mid \varepsilon
+$$
 
 $S_1$ generates $\{a^i b^{2i}\}$ and $S_2$ generates $\{a^{2j} b^j\}$. Their union is the desired
 Language.
@@ -36456,7 +36962,9 @@ $(S + S) \times S$.
 **Removing ambiguity.** Some ambiguous grammars can be made unambiguous by rewriting the productions
 To enforce a particular evaluation order. For the arithmetic expression grammar:
 
-$$E \to E + T \mid T, \quad T \to T \times F \mid F, \quad F \to (E) \mid \mathrm{id}$$
+$$
+E \to E + T \mid T, \quad T \to T \times F \mid F, \quad F \to (E) \mid \mathrm{id}
+$$
 
 This grammar is unambiguous and enforces the standard precedence ($\times$ before $+$) and left
 Associativity.
@@ -36508,7 +37016,9 @@ _Proof (conversion algorithm)._
 
 Convert the following grammar to CNF:
 
-$$S \to AbB, \quad A \to aA \mid \varepsilon, \quad B \to bB \mid \varepsilon$$
+$$
+S \to AbB, \quad A \to aA \mid \varepsilon, \quad B \to bB \mid \varepsilon
+$$
 
 **Step 1:** Add new start variable. $S_0 \to S$.
 
@@ -36695,7 +37205,9 @@ variables that can derive the substring $w_i w_{i+1} \cdots w_j$.
 
 1. **Base case** ($j = 1$): $T[i, i] = \{A : A \to w_i \mathrm{ is a rule in  G\}$.
 2. **Recursive case** ($j \gt 1$): For each split $k$ with $i \leq k \lt j$:
-   $$T[i, j] \mathrel{{:}{=}} T[i, j] \cup \{A : A \to BC \in R, B \in T[i, k], C \in T[k+1, j]\}$$
+   $$
+   T[i, j] \mathrel{{:}{=}} T[i, j] \cup \{A : A \to BC \in R, B \in T[i, k], C \in T[k+1, j]\}
+   $$
 3. **Answer:** $w \in L(G)$ iff $S \in T[1, n]$.
 
 _Proof of correctness._ In CNF, every derivation of a string of length $\ell$ involves exactly
@@ -36936,7 +37448,9 @@ Strings $\alpha = (\alpha_1, \ldots, \alpha_k)$ and $\beta = (\beta_1, \ldots, \
 Alphabet $\Sigma$. A **solution** is a non-empty sequence of indices $i_1, i_2, \ldots, i_m$ such
 That:
 
-$$\alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}$$
+$$
+\alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}
+$$
 
 The **PCP language** is
 $\mathrm{PCP} = \{\langle \alpha, \beta \rangle : \alpha, \beta \mathrm{ have} a solution\}$.
@@ -36998,7 +37512,9 @@ over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
 
-$$A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}$$
+$$
+A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}
+$$
 
 **Theorem 5.8.** $A' \not\leq_T A$ (i.e., $A'$ is strictly more difficult than $A$ under Turing
 Reductions).
@@ -38101,7 +38617,9 @@ $q_0, \delta(q_0, w_1), \delta(\delta(q_0, w_1), w_2), \ldots$ ends in a state i
 
 **Example.** DFA for strings over $\{0, 1\}$ containing the substring `01`:
 
-$$M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})$$
+$$
+M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})
+$$
 
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
@@ -38127,7 +38645,9 @@ Reading a new bit $b$ appends $b$ to the right: the new value is $2r + b \bmod 3
 States: $q_0$ (remainder 0), $q_1$ (remainder 1), $q_2$ (remainder 2). Start state: $q_0$ (the empty
 prefix has value 0). Accept state: $q_0$.
 
-$$M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})$$
+$$
+M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})
+$$
 
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
@@ -39045,13 +39565,17 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 | $O(n!)$       | Factorial   | Generating all permutations      |
 
 **Proposition 1.6.** These classes form a strict hierarchy:
-$$O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)$$
+$$
+O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)
+$$
 
 ### 1.3 Recurrences and the Master Theorem
 
 Many divide-and-conquer algorithms yield recurrences of the form:
 
-$$T(n) = aT(n/b) + f(n)$$
+$$
+T(n) = aT(n/b) + f(n)
+$$
 
 Where $a \geq 1$ is the number of subproblems, $b > 1$ is the factor by which the input is divided,
 and $f(n)$ is the cost of dividing and combining.
@@ -39079,7 +39603,9 @@ $a / b^{c - \varepsilon} = b^\varepsilon > 1$ So the leaf level dominates. $\bla
 
 Merge sort divides into 2 subproblems of size $n/2$ and combines in $O(n)$ time.
 
-$$T(n) = 2T(n/2) + \Theta(n)$$
+$$
+T(n) = 2T(n/2) + \Theta(n)
+$$
 
 Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
 is Case 2 with $k = 0$.
@@ -39091,7 +39617,9 @@ Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
 <details>
 <summary>Worked Example: Binary Search Recurrence</summary>
 
-$$T(n) = T(n/2) + O(1)$$
+$$
+T(n) = T(n/2) + O(1)
+$$
 
 Here $a = 1$, $b = 2$ So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
 $k = 0$.
@@ -39105,7 +39633,9 @@ Therefore $T(n) = \Theta(\log n)$.
 
 Strassen's algorithm divides into 7 subproblems of size $n/2$ and combines in $O(n^2)$ time.
 
-$$T(n) = 7T(n/2) + O(n^2)$$
+$$
+T(n) = 7T(n/2) + O(n^2)
+$$
 
 Here $a = 7$, $b = 2$ So $c = \log_2 7 \approx 2.807$. We have
 $f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$Which is Case 1.
@@ -39788,11 +40318,15 @@ Let $X_{ij}$ be the indicator random variable that $z_i$ and $z_j$ are compared,
 $z_1, \ldots, z_n$ are the sorted elements. Since elements are compared only if one is an ancestor
 of the other in the recursion tree, and the pivot is chosen uniformly at random:
 
-$$\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}$$
+$$
+\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}
+$$
 
 The total number of comparisons is $X = \sum_{i < j} X_{ij}$ So:
 
-$$\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)$$
+$$
+\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)
+$$
 
 Worst case occurs when the pivot is always the smallest or largest element (e.g., already sorted
 Array with first-element pivot): $T(n) = T(n-1) + O(n) = O(n^2)$. $\blacksquare$
@@ -40274,7 +40808,9 @@ detected!**
 **Algorithm.** For $k = 1, \ldots, V$: for each pair $(i, j)$Check if going through vertex $k$
 Improves the path.
 
-$$d_{ij}^{(k)} = \min(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)})$$
+$$
+d_{ij}^{(k)} = \min(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)})
+$$
 
 **Derivation.** Define $d_{ij}^{(k)}$ as the shortest-path distance from $i$ to $j$ using only
 intermediate vertices from $\\{1, 2, \ldots, k\\}$. Then:
@@ -40300,35 +40836,45 @@ $w(1,2) = 3$, $w(1,3) = 8$, $w(1,4) = -4$ $w(2,1) = 5$, $w(2,3) = 7$, $w(2,4) = 
 $w(3,4) = -1$ $w(4,1) = 6$, $w(4,3) = 9$.
 
 **Initial distance matrix $D^{(0)}$:**
-$$D^{(0)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 2 \\ 2 & \infty & 0 & -1 \\ 6 & \infty & 9 & 0 \end{pmatrix}$$
+$$
+D^{(0)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 2 \\ 2 & \infty & 0 & -1 \\ 6 & \infty & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 1$ (through vertex 1):** $D^{(1)}[2][3] = \min(7, 5 + 8) = 7$.
 $D^{(1)}[2][4] = \min(2, 5 + (-4)) = 1$. $D^{(1)}[3][2] = \min(\infty, 2 + 3) = 5$.
 $D^{(1)}[3][4] = \min(-1, 2 + (-4)) = -2$. $D^{(1)}[4][2] = \min(\infty, 6 + 3) = 9$.
 $D^{(1)}[4][3] = \min(9, 6 + 8) = 9$.
 
-$$D^{(1)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(1)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 2$ (through vertex 2):** $D^{(2)}[1][3] = \min(8, 3 + 7) = 8$.
 $D^{(2)}[1][4] = \min(-4, 3 + 1) = -4$. $D^{(2)}[3][1] = \min(2, 5 + 5) = 2$.
 $D^{(2)}[3][4] = \min(-2, 5 + 1) = -2$. $D^{(2)}[4][1] = \min(6, 9 + 5) = 6$.
 $D^{(2)}[4][3] = \min(9, 9 + 7) = 9$.
 
-$$D^{(2)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(2)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 3$ (through vertex 3):** $D^{(3)}[1][2] = \min(3, 8 + 5) = 3$.
 $D^{(3)}[1][4] = \min(-4, 8 + (-2)) = -4$. $D^{(3)}[2][1] = \min(5, 7 + 2) = 5$.
 $D^{(3)}[2][4] = \min(1, 7 + (-2)) = 1$. $D^{(3)}[4][1] = \min(6, 9 + 2) = 6$.
 $D^{(3)}[4][2] = \min(9, 9 + 5) = 9$.
 
-$$D^{(3)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(3)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 4$ (through vertex 4):** $D^{(4)}[1][2] = \min(3, -4 + 9) = 3$.
 $D^{(4)}[1][3] = \min(8, -4 + 9) = 5$. $D^{(4)}[2][1] = \min(5, 1 + 6) = 5$.
 $D^{(4)}[2][3] = \min(7, 1 + 9) = 7$. $D^{(4)}[3][1] = \min(2, -2 + 6) = 2$.
 $D^{(4)}[3][2] = \min(5, -2 + 9) = 5$.
 
-$$D^{(4)} = \begin{pmatrix} 0 & 3 & 5 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(4)} = \begin{pmatrix} 0 & 3 & 5 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 </details>
 
@@ -40490,7 +41036,9 @@ knapsack of capacity $W$Maximise the total value without exceeding the capacity.
 
 **Recurrence:**
 
-$$dp[i][c] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  c = 0 \\ dp[i-1][c] & \mathrm{if}  w_i > c \\ \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) & \mathrm{if}  w_i \leq c \end{cases}$$
+$$
+dp[i][c] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  c = 0 \\ dp[i-1][c] & \mathrm{if}  w_i > c \\ \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) & \mathrm{if}  w_i \leq c \end{cases}
+$$
 
 **Time:** $O(nW)$. **Space:** $O(nW)$ (can be reduced to $O(W)$ with 1D array).
 
@@ -40529,7 +41077,9 @@ insertions, deletions, and substitutions to transform $s$ into $t$.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}$$
+$$
+dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}
+$$
 
 Where the three cases in the minimum are: delete from $s$Insert into $s$Substitute in $s$.
 
@@ -40567,7 +41117,9 @@ multiplications.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = j \\ \min_{i \leq k < j} (dp[i][k] + dp[k+1][j] + p_{i-1} p_k p_j) & \mathrm{if}  i < j \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = j \\ \min_{i \leq k < j} (dp[i][k] + dp[k+1][j] + p_{i-1} p_k p_j) & \mathrm{if}  i < j \end{cases}
+$$
 
 **Time:** $O(n^3)$. **Space:** $O(n^2)$.
 
@@ -40602,7 +41154,9 @@ Minimum: $dp[1][3] = 4500$Split at $k=2$: $(A_1(A_2 A_3))$.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  j = 0 \\ dp[i-1][j-1] + 1 & \mathrm{if}  x_i = y_j \\ \max(dp[i-1][j], dp[i][j-1]) & \mathrm{if}  x_i \neq y_j \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  j = 0 \\ dp[i-1][j-1] + 1 & \mathrm{if}  x_i = y_j \\ \max(dp[i-1][j], dp[i][j-1]) & \mathrm{if}  x_i \neq y_j \end{cases}
+$$
 
 **Time:** $O(mn)$. **Space:** $O(mn)$ (can be reduced to $O(\min(m,n))$ for the length only).
 
@@ -40617,7 +41171,9 @@ number of coins needed.
 
 **Recurrence:**
 
-$$dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_i] + 1) & \mathrm{if}  c > 0 \end{cases}$$
+$$
+dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_i] + 1) & \mathrm{if}  c > 0 \end{cases}
+$$
 
 **Time:** $O(nM)$. **Space:** $O(M)$.
 
@@ -41003,7 +41559,9 @@ Define $\Phi(D_i) =$ number of 1-bits in the counter after $i$ operations.
 For increment $i$: let $t_i$ be the number of trailing 1s flipped. The actual cost is $t_i + 1$
 (flipping $t_i$ ones and one zero). The number of 1-bits changes by $1 - t_i$.
 
-$$\hat{c}_i = (t_i + 1) + \Phi(D_i) - \Phi(D_{i-1}) = (t_i + 1) + (1 - t_i) = 2$$
+$$
+\hat{c}_i = (t_i + 1) + \Phi(D_i) - \Phi(D_{i-1}) = (t_i + 1) + (1 - t_i) = 2
+$$
 
 The amortised cost per increment is exactly 2, i.e., $O(1)$.
 
@@ -41265,7 +41823,9 @@ Communication:
 **Encapsulation.** Each layer adds its own header (and possibly trailer) to the data from the layer
 Above, forming a **protocol data unit (PDU)**:
 
-$$\mathrm{Data} \xrightarrow{+\mathrm{th} \mathrm{Segment} \xrightarrow{+\mathrm{nh} \mathrm{Packet} \xrightarrow{+\mathrm{fh}+ft} \mathrm{Frame} \xrightarrow{\mathrm{encode} \mathrm{Bits}}}}$$
+$$
+\mathrm{Data} \xrightarrow{+\mathrm{th} \mathrm{Segment} \xrightarrow{+\mathrm{nh} \mathrm{Packet} \xrightarrow{+\mathrm{fh}+ft} \mathrm{Frame} \xrightarrow{\mathrm{encode} \mathrm{Bits}}}}
+$$
 
 ### 1.2 The TCP/IP Model
 
@@ -41345,7 +41905,9 @@ Line-of-sight constraints.
 - **Bit rate:** Number of bits transmitted per second (bps).
 - **Nyquist theorem:** For a noiseless channel of bandwidth $H$ Hz with $V$ discrete signal levels:
 
-$$C = 2H \log_2 V \;\mathrm{bps}$$
+$$
+C = 2H \log_2 V \;\mathrm{bps}
+$$
 
 **Theorem 2.1 (Nyquist--Shannon Sampling Theorem).** A bandlimited signal of bandwidth $H$ Hz can Be
 perfectly reconstructed from samples taken at a rate of at least $2H$ samples per second.
@@ -41359,7 +41921,9 @@ $H$. When $f_s \lt 2H$Aliasing occurs and perfect recovery is Impossible. $\blac
 
 - **Shannon capacity:** For a noisy channel with signal-to-noise ratio $\mathrm{SNR}$:
 
-$$C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}$$
+$$
+C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}
+$$
 
 **Theorem 2.2 (Shannon--Hartley Theorem).** The channel capacity $C$ is the maximum error-free data
 Rate achievable on a channel of bandwidth $H$ with signal-to-noise ratio $\mathrm{SNR}$.
@@ -41395,8 +41959,12 @@ A satellite channel has a bandwidth of 36 MHz and an SNR of 30 dB. Find the maxi
 First convert SNR from dB to linear: $$\mathrm{SNR_}{\mathrm{linear} = 10^{30/10} = 1000}$$
 
 Apply Shannon's formula: $$C = H \log_2(1 + \mathrm{SNR}) = 36 \times 10^6 \times \log_2(1001)$$
-$$\log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967$$
-$$C = 36 \times 10^6 \times 9.967 \approx 358.8 \times 10^6 \;\mathrm{bps} \approx 358.8\;\mathrm{Mbps}$$
+$$
+\log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967
+$$
+$$
+C = 36 \times 10^6 \times 9.967 \approx 358.8 \times 10^6 \;\mathrm{bps} \approx 358.8\;\mathrm{Mbps}
+$$
 
 **Answer:** The maximum achievable data rate is approximately 358.8 Mbps. Any attempt to exceed This
 rate will result in an unacceptable error rate regardless of the modulation scheme used.
@@ -41411,14 +41979,18 @@ A channel has $H = 6000$ Hz and $\mathrm{SNR} = 1023$ (30 dB).
 **Shannon limit:** $$C = 6000 \times \log_2(1024) = 6000 \times 10 = 60000\;\mathrm{bps}$$
 
 **Nyquist limit with $V = 8$:**
-$$C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}$$
+$$
+C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}
+$$
 
 The Nyquist limit (36 kbps) is below the Shannon limit (60 kbps), so 8 signal levels are Achievable.
 With $V = 64$: $$C = 12000 \times 6 = 72000\;\mathrm{bps}$$
 
 This exceeds Shannon's limit of 60 kbps, meaning 64 levels would produce errors. The maximum Number
 of levels consistent with Shannon:
-$$C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \implies V = 32}$$
+$$
+C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \implies V = 32}
+$$
 
 **Answer:** At most 32 signal levels can be used reliably on this channel.
 
@@ -41467,14 +42039,22 @@ $\log_2 M = 2k$ bits. The symbol rate equals the bandwidth $B$ (Nyquist: 2 symbo
 
 A 256-QAM modem operates over a 20 MHz channel. What is the maximum data rate?
 
-$$M = 256, \quad \log_2 256 = 8 \;\mathrm{bits}/symbol$$
+$$
+M = 256, \quad \log_2 256 = 8 \;\mathrm{bits}/symbol
+$$
 
-$$\mathrm{Bit}\;rate = 8 \times 20 \times 10^6 = 160\;\mathrm{Mbps}$$
+$$
+\mathrm{Bit}\;rate = 8 \times 20 \times 10^6 = 160\;\mathrm{Mbps}
+$$
 
 If the channel has SNR = 24 dB, verify against Shannon:
 
-$$\mathrm{SNR_}{\mathrm{linear} = 10^{24/10} = 251.2}$$
-$$C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \approx 159.6\;\mathrm{Mbps}$$
+$$
+\mathrm{SNR_}{\mathrm{linear} = 10^{24/10} = 251.2}
+$$
+$$
+C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \approx 159.6\;\mathrm{Mbps}
+$$
 
 The Nyquist-based rate (160 Mbps) is very close to the Shannon limit (159.6 Mbps), meaning 256-QAM
 Is near-optimal for this channel but has almost no margin for noise or interference.
@@ -41593,9 +42173,13 @@ $r = 3$).
 
 **Step 2:** Perform modulo-2 (XOR) polynomial division.
 
-$$M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1$$
+$$
+M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1
+$$
 
-$$M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}$$
+$$
+M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}
+$$
 
 Division steps:
 
@@ -41652,7 +42236,9 @@ returns From the farthest point on the network. The worst-case round-trip propag
 $2\tau$Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
 $2 \times 10^8$ m/s in copper). The minimum frame size is therefore:
 
-$$L_{\min} = R \times 2\tau = \frac{2Rd}{v}$$
+$$
+L_{\min} = R \times 2\tau = \frac{2Rd}{v}
+$$
 
 Where $R$ is the data rate.
 
@@ -41668,7 +42254,9 @@ Worst case: collision occurs at the far end, signal must travel back. Total time
 $2\tau = 20\;\mu\mathrm{s}$.
 
 The sender must still be transmitting after $2\tau$:
-$$L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}$$
+$$
+L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}
+$$
 
 **Answer:** The minimum frame size is 250 bytes (2000 bits). Any frame shorter than this risks an
 Undetected collision.
@@ -41759,7 +42347,9 @@ is 1.
 
 **Theorem 3.3 (CSMA/CD efficiency).** The maximum efficiency of CSMA/CD is:
 
-$$\eta = \frac{1}{1 + 5a}$$
+$$
+\eta = \frac{1}{1 + 5a}
+$$
 
 Where $a = \tau / T_f$ is the ratio of propagation delay to frame transmission time.
 
@@ -41824,9 +42414,13 @@ Link rate, and $d_{\mathrm{prop}}$ is the propagation delay.
 
 For a path through $n$ switches:
 
-$$\mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}$$
+$$
+\mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}
+$$
 
-$$\mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}$$
+$$
+\mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}
+$$
 
 <details>
 <summary>Worked Example: Switching Latency Comparison</summary>
@@ -41836,11 +42430,15 @@ Propagation delay.
 
 **Store-and-forward:**
 
-$$\mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}$$
+$$
+\mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}
+$$
 
 **Cut-through:**
 
-$$\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}$$
+$$
+\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}
+$$
 
 **Answer:** Cut-through saves approximately 23.8 $\mu$S (47% reduction) for this scenario, but it
 Cannot detect corrupted frames before forwarding them.
@@ -42329,7 +42927,9 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 TCP uses a **sliding window**. The receiver advertises `rwnd` (receive window). The sender never has
 More than `rwnd` bytes of unacknowledged data in flight.
 
-$$\mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})$$
+$$
+\mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})
+$$
 
 **Example.** Buffer size 4096, 1024 unprocessed bytes: `rwnd = 3072`. The window slides as data is
 Acknowledged and the receiver processes data.
@@ -42412,11 +43012,17 @@ Cwnd = ssthresh = 13870 bytes, continue congestion avoidance.
 
 ### 5.8 Retransmission Timer
 
-$$\mathrm{RTT_s} = (1 - \alpha)\,\mathrm{RTT_s} + \alpha \cdot \mathrm{RTT_m}$$
+$$
+\mathrm{RTT_s} = (1 - \alpha)\,\mathrm{RTT_s} + \alpha \cdot \mathrm{RTT_m}
+$$
 
-$$\mathrm{RTT_d} = (1 - \beta)\,\mathrm{RTT_d} + \beta\,|\mathrm{RTT_m} - \mathrm{RTT_s}|$$
+$$
+\mathrm{RTT_d} = (1 - \beta)\,\mathrm{RTT_d} + \beta\,|\mathrm{RTT_m} - \mathrm{RTT_s}|
+$$
 
-$$\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}$$
+$$
+\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}
+$$
 
 Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RTO = 1 s; minimum RTO
 = 200 ms.
@@ -43239,12 +43845,16 @@ Relational algebra provides a formal query language based on operations on relat
 
 **Selection** $\sigma_{\theta}(R)$: Return tuples from $R$ satisfying condition $\theta$.
 
-$$\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}$$
+$$
+\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}
+$$
 
 **Projection** $\pi_{A_1, \ldots, A_k}(R)$: Return a relation containing only attributes
 $A_1, \ldots, A_k$.
 
-$$\pi_{\mathrm{name}, \mathrm{gpa}(\mathrm{Student})}$$
+$$
+\pi_{\mathrm{name}, \mathrm{gpa}(\mathrm{Student})}
+$$
 
 **Union** $R \cup S$: All tuples in $R$ or $S$ (both must be union-compatible: same arity and
 Attribute domains).
@@ -43257,7 +43867,9 @@ Attribute domains).
 
 **Natural join** $R \bowtie S$: Combine tuples from $R$ and $S$ that agree on all common attributes.
 
-$$R \bowtie S = \pi_{R \cup S}(\sigma_{R.\mathrm{common} = S.\mathrm{common}(R \times S))}$$
+$$
+R \bowtie S = \pi_{R \cup S}(\sigma_{R.\mathrm{common} = S.\mathrm{common}(R \times S))}
+$$
 
 **Theta join** $R \bowtie_{\theta} S$: $\sigma_{\theta}(R \times S)$.
 
@@ -43275,11 +43887,15 @@ possible; `NULL`-padded otherwise.
 $(t, s)
 \in R$.
 
-$$R \div S = \pi_{R-S}(R) - \pi_{R-S}\Bigl(\bigl(\pi_{R-S}(R) \times S\bigr) - R\Bigr)$$
+$$
+R \div S = \pi_{R-S}(R) - \pi_{R-S}\Bigl(\bigl(\pi_{R-S}(R) \times S\bigr) - R\Bigr)
+$$
 
 **Example.** Find students who have taken **all** courses:
 
-$$\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm{Course})}}$$
+$$
+\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm{Course})}}
+$$
 
 <details>
 <summary>Worked Example 2.1: Complex Relational Algebra Query</summary>
@@ -43291,23 +43907,33 @@ department.
 
 **Step 1.** Get CS course IDs:
 
-$$C_{\mathrm{CS} = \pi_{\mathrm{cid}\bigl(\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Course})\bigr)}}}$$
+$$
+C_{\mathrm{CS} = \pi_{\mathrm{cid}\bigl(\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Course})\bigr)}}}
+$$
 
 **Step 2.** Get student-course pairs from enrolments:
 
-$$T = \pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes})}$$
+$$
+T = \pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes})}
+$$
 
 **Step 3.** Students who have taken all CS courses (division):
 
-$$S_{\mathrm{all} = T \div C_{\mathrm{CS}}}$$
+$$
+S_{\mathrm{all} = T \div C_{\mathrm{CS}}}
+$$
 
 **Step 4.** Get names:
 
-$$\pi_{\mathrm{name}(S_{\mathrm{all} \bowtie \mathrm{Student})}}$$
+$$
+\pi_{\mathrm{name}(S_{\mathrm{all} \bowtie \mathrm{Student})}}
+$$
 
 **Combined:**
 
-$$\pi_{\mathrm{name}\Bigl(\bigl(\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))\bigr) \bowtie \mathrm{Student}\Bigr)}}}}$$
+$$
+\pi_{\mathrm{name}\Bigl(\bigl(\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))\bigr) \bowtie \mathrm{Student}\Bigr)}}}}
+$$
 
 </details>
 
@@ -43319,11 +43945,15 @@ have Taken no CS courses (count should be 0).
 
 **Step 1.** Filter enrolments to CS courses:
 
-$$E_{\mathrm{CS} = \pi_{\mathrm{sid}, \mathrm{cid}\bigl(\mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course})\bigr)}}}$$
+$$
+E_{\mathrm{CS} = \pi_{\mathrm{sid}, \mathrm{cid}\bigl(\mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course})\bigr)}}}
+$$
 
 **Step 2.** Left outer join with Student to include those with no CS courses:
 
-$$\mathrm{Result} = \mathrm{Student} \bowtie_{\mathrm{left} E_{\mathrm{CS}}}$$
+$$
+\mathrm{Result} = \mathrm{Student} \bowtie_{\mathrm{left} E_{\mathrm{CS}}}
+$$
 
 Note: aggregation over outer join results handles `NULL` values (they are excluded from `COUNT`).
 
@@ -43350,12 +43980,16 @@ variable And $P$ is a well-formed formula. The formula is built from:
 - Logical connectives: $\land$ (and), $\lor$ (or), $\lnot$ (not).
 - Quantifiers: $\exists t$ (there exists), $\forall t$ (for all).
 
-$$\{t \mid \exists s \in \mathrm{Takes}(t[\mathrm{name}] = s[\mathrm{name}] \land s[\mathrm{grade}] = \mathrm{'A'})\}$$
+$$
+\{t \mid \exists s \in \mathrm{Takes}(t[\mathrm{name}] = s[\mathrm{name}] \land s[\mathrm{grade}] = \mathrm{'A'})\}
+$$
 
 **Domain relational calculus.** Variables range over individual attribute domains (not entire
 tuples). A query has the form $\\{\langle x_1, \ldots, x_k \rangle \mid P(x_1, \ldots, x_k)\\}$.
 
-$$\{ \langle n \rangle \mid \exists s, g \;(\mathrm{Takes}(s, \mathrm{'CS101'}, g) \land \mathrm{Student}(s, n, \ldots) \land g = \mathrm{'A'})\}$$
+$$
+\{ \langle n \rangle \mid \exists s, g \;(\mathrm{Takes}(s, \mathrm{'CS101'}, g) \land \mathrm{Student}(s, n, \ldots) \land g = \mathrm{'A'})\}
+$$
 
 **Safety.** A calculus expression is **safe** if it yields a finite relation. The expression
 $\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$An infinite set). We
@@ -43371,11 +44005,15 @@ Equally expressive: every query expressible in one is expressible in the other.
 
 Using tuple relational calculus:
 
-$$\{t \mid t \in \mathrm{Student} \land \lnot \exists s \in \mathrm{Takes}\bigl(s[\mathrm{sid}] = t[\mathrm{sid}] \land \exists c \in \mathrm{Course}(c[\mathrm{cid}] = s[\mathrm{cid}] \land c[\mathrm{dept}] = \mathrm{'CS'}\bigr)\}$$
+$$
+\{t \mid t \in \mathrm{Student} \land \lnot \exists s \in \mathrm{Takes}\bigl(s[\mathrm{sid}] = t[\mathrm{sid}] \land \exists c \in \mathrm{Course}(c[\mathrm{cid}] = s[\mathrm{cid}] \land c[\mathrm{dept}] = \mathrm{'CS'}\bigr)\}
+$$
 
 **Translation to relational algebra:**
 
-$$\pi_{\mathrm{name}(\mathrm{Student}) - \pi_{\mathrm{name}(\mathrm{Student} \bowtie \mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))}}}$$
+$$
+\pi_{\mathrm{name}(\mathrm{Student}) - \pi_{\mathrm{name}(\mathrm{Student} \bowtie \mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))}}}
+$$
 
 </details>
 
@@ -44535,7 +45173,9 @@ with a Midpoint insertion strategy to avoid scan pollution.
 
 ### 7.1 Query Processing Pipeline
 
-$$\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}$$
+$$
+\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}
+$$
 
 ### 7.2 Cost-Based Optimisation
 
@@ -44561,31 +45201,41 @@ $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
 **Nested-loop join.** For each tuple in $R$Scan all of $S$.
 
-$$\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)$$
+$$
+\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)
+$$
 
 If one relation fits in memory, buffer it and scan the other: cost = $n_R + n_S$.
 
 **Block nested-loop join.** Use $B$ buffer pages. Load blocks of $R$ into $B - 2$ buffers, scan $S$
 With the remaining buffer.
 
-$$\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S$$
+$$
+\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S
+$$
 
 **Sort-merge join.** Sort both relations on the join attribute, then merge.
 
-$$\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S$$
+$$
+\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S
+$$
 
 Efficient for large relations, especially when both are already sorted.
 
 **Hash join.** Build a hash table on the smaller relation (build phase), then probe with the larger
 (probe phase).
 
-$$\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}$$
+$$
+\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}
+$$
 
 Best for equi-joins when one relation fits in memory.
 
 **Index nested-loop join.** For each tuple in $R$Use an index on $S$ to find matching tuples.
 
-$$\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)$$
+$$
+\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)
+$$
 
 Efficient if $S$ has an index on the join attribute and $n_R$ is small.
 
@@ -45132,13 +45782,19 @@ Same truth value for all assignments.
 
 **Negation of quantifiers:**
 
-$$\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)$$
+$$
+\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)
+$$
 
-$$\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)$$
+$$
+\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)
+$$
 
 **Nested quantifiers** must be read carefully. The order matters:
 
-$$\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)$$
+$$
+\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)
+$$
 
 The first says "for every $x$ there is a (possibly different) $y$." The second says "there exists a Single $y$ that works for all $x$."
 
@@ -45428,7 +46084,9 @@ Checking validity is Co-NP-complete, not NP-complete.
 
 **De Morgan's Laws:**
 
-$$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
+$$
+(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c
+$$
 
 **Power set:** $\mathcal{P}(A) = \\{B : B \subseteq A\\}$. If $|A| = n$ Then
 $|\mathcal{P}(A)| = 2^n$.
@@ -45551,7 +46209,9 @@ countable Is **uncountable**.
 
 _Proof._ The function $f : \mathbb{N} \to \mathbb{Z}$ defined by
 
-$$f(n) = \begin{cases} n/2 & \mathrm{if}\; n\; \mathrm{is}\; even \\ -(n+1)/2 & \mathrm{if}\; n\; \mathrm{is}\; odd \end{cases}$$
+$$
+f(n) = \begin{cases} n/2 & \mathrm{if}\; n\; \mathrm{is}\; even \\ -(n+1)/2 & \mathrm{if}\; n\; \mathrm{is}\; odd \end{cases}
+$$
 
 Is a bijection, enumerating $0, -1, 1, -2, 2, -3, 3, \ldots$ $\blacksquare$
 
@@ -45575,7 +46235,9 @@ the expansion that does not end in all 9s to avoid dual representations).
 
 Define $s = 0.s_1 s_2 s_3 \ldots$ by
 
-$$s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} = 5 \end{cases}$$
+$$
+s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} = 5 \end{cases}
+$$
 
 Then $s \in [0, 1)$ and $s$ differs from $r_i$ in the $i$-th decimal place for every $i$ So
 $s \notin \\{r_1, r_2, \ldots\\}$Contradicting the assumption that the list was complete. Therefore
@@ -45599,7 +46261,9 @@ $\blacksquare$
 
 Let $a = p/q$ and $b = r/s$ where $p, q, r, s \in \mathbb{Z}$ and $q, s \neq 0$. Then
 
-$$a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}$$
+$$
+a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}
+$$
 
 Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$The sum $a + b$
 is rational. $\blacksquare$
@@ -45663,7 +46327,9 @@ _Proof._ Base case: $n = 1$: $1 = 1 \cdot 2 / 2$. True.
 
 Inductive step: Assume $\sum_{i=1}^{k} i = k(k+1)/2$. Then
 
-$$\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}$$
+$$
+\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}
+$$
 
 $\blacksquare$
 
@@ -45695,7 +46361,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^{0+1} - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 
@@ -45767,7 +46435,9 @@ $n$.
 
 **Theorem 4.1 (Binomial Theorem).**
 
-$$(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r$$
+$$
+(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r
+$$
 
 **Theorem 4.2 (Pascal's Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
 
@@ -45779,7 +46449,9 @@ all $r$ From $\\{1, \ldots, n-1\\}$). $\blacksquare$
 
 **Theorem 4.3 (Inclusion-Exclusion).** For finite sets $A_1, \ldots, A_n$:
 
-$$\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| - \sum_{i \lt j} |A_i \cap A_j| + \sum_{i \lt j \lt k} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1}|A_1 \cap \cdots \cap A_n|$$
+$$
+\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| - \sum_{i \lt j} |A_i \cap A_j| + \sum_{i \lt j \lt k} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1}|A_1 \cap \cdots \cap A_n|
+$$
 
 _Proof (for two sets)._ Every element of $A_1 \cup A_2$ is in $A_1$ or $A_2$ or both. Counting
 $|A_1| + |A_2|$ counts elements in $A_1 \cap A_2$ twice, so we subtract $|A_1 \cap A_2|$ once:
@@ -45948,7 +46620,9 @@ Pigeonhole principle, at least two people have the same count. $\blacksquare$
 
 The $n$-th **Catalan number** is
 
-$$C_n = \frac{1}{n+1}\binom{2n}{n} = \frac{(2n)!}{(n+1)!\,n!}$$
+$$
+C_n = \frac{1}{n+1}\binom{2n}{n} = \frac{(2n)!}{(n+1)!\,n!}
+$$
 
 The first few values: $C_0 = 1$, $C_1 = 1$, $C_2 = 2$, $C_3 = 5$, $C_4 = 14$, $C_5 = 42$.
 
@@ -45961,7 +46635,9 @@ The first few values: $C_0 = 1$, $C_1 = 1$, $C_2 = 2$, $C_3 = 5$, $C_4 = 14$, $C
 
 **Recurrence.** $C_0 = 1$ and for $n \geq 1$:
 
-$$C_n = \sum_{i=0}^{n-1} C_i \, C_{n-1-i}$$
+$$
+C_n = \sum_{i=0}^{n-1} C_i \, C_{n-1-i}
+$$
 
 **Worked Example.** Verify $C_3 = 5$ by listing all valid sequences of 3 pairs of parentheses.
 
@@ -45978,7 +46654,9 @@ Checking: $C_3 = \frac{1}{4}\binom{6}{3} = \frac{1}{4} \cdot 20 = 5$. ✓
 
 The **ordinary generating function (OGF)** of a sequence $\\{a_n\\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Common generating functions:**
 
@@ -46004,9 +46682,13 @@ And 5p coins.
 
 The generating function is
 
-$$G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \underbrace{(1 + x^2 + x^4 + \cdots)}_{\mathrm{2p\; coins{}} \cdot \underbrace{(1 + x^5 + x^{10} + \cdots)}_{\mathrm{5p\; coins{}}$$
+$$
+G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \underbrace{(1 + x^2 + x^4 + \cdots)}_{\mathrm{2p\; coins{}} \cdot \underbrace{(1 + x^5 + x^{10} + \cdots)}_{\mathrm{5p\; coins{}}
+$$
 
-$$= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}$$
+$$
+= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}
+$$
 
 The coefficient of $x^n$ in the expansion gives the number of ways. For example, expanding the First
 few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$ So there are 4 ways to make 5p (5×1p; 3×1p +
@@ -46063,7 +46745,9 @@ A graph is **planar** if it can be drawn in the plane with no edge crossings.
 **Theorem 5.5 (Euler's Formula for Planar Graphs).** For a connected planar graph drawn in the plane
 With $V$ vertices, $E$ edges, and $F$ faces:
 
-$$V - E + F = 2$$
+$$
+V - E + F = 2
+$$
 
 _Proof sketch._ Build the graph edge by edge. Starting from a single vertex ($V = 1$, $E = 0$,
 $F = 1$), The quantity $V - E + F = 2$ is preserved when adding an edge: if the edge connects two
@@ -46126,7 +46810,9 @@ $k$-colourings of $G$.
 
 **Deletion-contraction recurrence.** For any edge $e$ of $G$:
 
-$$P(G, k) = P(G - e, k) - P(G / e, k)$$
+$$
+P(G, k) = P(G - e, k) - P(G / e, k)
+$$
 
 Where $G - e$ is $G$ with edge $e$ deleted, and $G / e$ is $G$ with $e$ contracted (its endpoints
 Merged).
@@ -46274,7 +46960,9 @@ Endpoint). A vertex is **matched** if it is an endpoint of an edge in $M$; other
 Partitions $X$ and $Y$. There exists a matching that covers every vertex in $X$ if and only if for
 Every subset $S \subseteq X$
 
-$$|N(S)| \geq |S|$$
+$$
+|N(S)| \geq |S|
+$$
 
 Where $N(S) = \\{y \in Y : \exists\, x \in S\; \mathrm{with{}\; xy \in E\\}$ is the neighbourhood of
 $S$.
@@ -46296,7 +46984,9 @@ _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. M
 By the induction hypothesis. In $G'' = G - (T \cup N(T))$For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
-$$|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|$$
+$$
+|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|
+$$
 
 Where the inequality uses Hall's condition on $S \cup T$ in $G$. By the induction hypothesis,
 $X \setminus T$ can be matched in $G''$. Combining with the matching on $T$ gives the result.
@@ -46369,11 +47059,15 @@ terms.
 
 ### 6.2 Linear Homogeneous Recurrences with Constant Coefficients
 
-$$a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0$$
+$$
+a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0
+$$
 
 **Solution method.** Form the **characteristic equation**:
 
-$$r^k + c_1 r^{k-1} + \cdots + c_k = 0$$
+$$
+r^k + c_1 r^{k-1} + \cdots + c_k = 0
+$$
 
 **Case 1 (distinct roots).** If $r_1, \ldots, r_k$ are distinct, then
 $a_n = A_1 r_1^n + \cdots + A_k r_k^n$.
@@ -46412,7 +47106,9 @@ So $a_n = (1 + 2n) \cdot 2^n$. $\blacksquare$
 
 The **generating function** of a sequence $\{a_n\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Example.** The generating function for $a_n = 1$ (all ones) is $G(x) = 1/(1-x)$.
 
@@ -46429,9 +47125,13 @@ $F_n = F_{n-1} + F_{n-2}$ With $F_0 = 0$, $F_1 = 1$.
 
 Let $G(x) = \sum_{n=0}^{\infty} F_n x^n$.
 
-$$G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)$$
+$$
+G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)
+$$
 
-$$G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}$$
+$$
+G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}
+$$
 
 Factor: $1 - x - x^2 = (1 - \alpha x)(1 - \beta x)$ where $\alpha = (1 + \sqrt{5})/2$ and
 $\beta = (1 - \sqrt{5})/2$.
@@ -46449,9 +47149,13 @@ $F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet's formula). $\blacksquare$
 
 Let $G(x) = \sum_{n=0}^{\infty} a_n x^n$.
 
-$$G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}$$
+$$
+G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}
+$$
 
-$$(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}$$
+$$
+(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}
+$$
 
 Partial fractions: $\frac{x}{(1-x)(1-2x)} = \frac{A}{1-x} + \frac{B}{1-2x}$.
 
@@ -46471,7 +47175,9 @@ manipulated algebraically.
 
 The Master Theorem provides asymptotic solutions to recurrences of the form
 
-$$T(n) = a\,T(n/b) + f(n)$$
+$$
+T(n) = a\,T(n/b) + f(n)
+$$
 
 Where $a \geq 1$, $b \gt 1$ are constants and $f(n)$ is asymptotically positive. Define
 $c_{\mathrm{crit{}} = \log_b a$ (the **critical exponent**).
@@ -46533,7 +47239,9 @@ Therefore $T(n) = \Theta(n^2)$.
 There are $a^j$ subproblems, each of size $n/b^j$Each contributing $f(n/b^j)$ work. The tree has
 $\log_b n$ levels, with $a^{\log_b n} = n^{c_{\mathrm{crit{}}}$ leaves. The total work is
 
-$$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}$$
+$$
+T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}
+$$
 
 - **Case 1:** $f(n) = O(n^c)$ with $c \lt c_{\mathrm{crit{}}$. The sum is dominated by the leaves,
   giving $T(n) = \Theta(n^{c_{\mathrm{crit{}}})$.
@@ -46708,7 +47416,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^1 - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = (2^{k+1} - 1) + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = (2^{k+1} - 1) + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 
@@ -46870,9 +47580,13 @@ If you get this wrong, revise: Section 6.2 and Section 6.3.
 
 Inductive step: assume true for $n$. For $n+1$:
 
-$$\sum_{k=1}^{n+1} k^2 = \frac{n(n+1)(2n+1)}{6} + (n+1)^2 = \frac{n(n+1)(2n+1) + 6(n+1)^2}{6}$$
+$$
+\sum_{k=1}^{n+1} k^2 = \frac{n(n+1)(2n+1)}{6} + (n+1)^2 = \frac{n(n+1)(2n+1) + 6(n+1)^2}{6}
+$$
 
-$$= \frac{(n+1)(2n^2 + n + 6n + 6)}{6} = \frac{(n+1)(n+2)(2n+3)}{6}$$
+$$
+= \frac{(n+1)(2n^2 + n + 6n + 6)}{6} = \frac{(n+1)(n+2)(2n+3)}{6}
+$$
 
 Which matches the formula with $n$ replaced by $n+1$. ✓
 
@@ -47782,9 +48496,13 @@ A **process** is an instance of a program in execution. The OS maintains a **pro
 
 **Process states.** Processes transition through states:
 
-$$\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}$$
+$$
+\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}
+$$
 
-$$\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}$$
+$$
+\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}
+$$
 
 The scheduler dispatches processes from **ready** to **running**. A running process may be
 **preempted** back to ready, or may **block** on I/O or a synchronisation event.
@@ -48521,7 +49239,9 @@ is Overly restrictive.
 Divide physical memory into fixed-size **frames** and logical memory into same-size **pages**. A
 **page table** maps page numbers to frame numbers.
 
-$$\mathrm{physical} address = \mathrm{PT}[p] \times F + f$$
+$$
+\mathrm{physical} address = \mathrm{PT}[p] \times F + f
+$$
 
 Where $\mathrm{PT}[p]$ is the frame number for page $p$ and $F$ is the frame size.
 
@@ -48539,7 +49259,9 @@ Where $\mathrm{PT}[p]$ is the frame number for page $p$ and $F$ is the frame siz
 Two-level scheme uses a **page directory** indexed by the outer page number, pointing to inner Page
 tables:
 
-$$\mathrm{Address}:  \underbrace{p_1}_{\mathrm{outer} \mid \underbrace{p_2}_{\mathrm{inner} \mid \underbrace{d}_{\mathrm{offset}}}}$$
+$$
+\mathrm{Address}:  \underbrace{p_1}_{\mathrm{outer} \mid \underbrace{p_2}_{\mathrm{inner} \mid \underbrace{d}_{\mathrm{offset}}}}
+$$
 
 X86-64 with 48-bit virtual addresses uses four-level page tables.
 
@@ -48551,7 +49273,9 @@ Overhead but makes searching for a specific virtual page expensive; solved by ha
 Segments divide the address space into logical units (code, data, stack, heap). Each segment has a
 **base** and **limit**:
 
-$$\mathrm{physical} address = \mathrm{base} + \mathrm{offset}, \quad \mathrm{if}  \mathrm{offset} \lt \mathrm{limit}$$
+$$
+\mathrm{physical} address = \mathrm{base} + \mathrm{offset}, \quad \mathrm{if}  \mathrm{offset} \lt \mathrm{limit}
+$$
 
 _Advantages:_ Reflects program structure; supports sharing individual segments. _Disadvantages:_
 External fragmentation (variable-size segments).
@@ -48582,7 +49306,9 @@ Translate (segment = 2, offset = 2500):
 
 Combine segmentation and paging: the segment offset is divided into page number and page offset.
 
-$$\mathrm{Address}:  \underbrace{s}_{\mathrm{segment} \mid \underbrace{p}_{\mathrm{page} \mid \underbrace{d}_{\mathrm{offset}}}}$$
+$$
+\mathrm{Address}:  \underbrace{s}_{\mathrm{segment} \mid \underbrace{p}_{\mathrm{page} \mid \underbrace{d}_{\mathrm{offset}}}}
+$$
 
 Used by x86 (segmentation + paging).
 
@@ -48604,14 +49330,18 @@ Pages in RAM; the rest reside on disk (swap space).
 
 **Effective access time (EAT):**
 
-$$\mathrm{EAT} = (1 - p) \times \mathrm{ma} + p \times \mathrm{pf}$$
+$$
+\mathrm{EAT} = (1 - p) \times \mathrm{ma} + p \times \mathrm{pf}
+$$
 
 Where $p$ = page fault rate, $\mathrm{ma}$ = memory access time, $\mathrm{pf}$ = page fault service
 Time.
 
 For $p = 0.001$, $\mathrm{ma} = 100$ ns, $\mathrm{pf} = 8$ ms:
 
-$$\mathrm{EAT} = 0.999 \times 100 + 0.001 \times 8\,000\,000 = 8.1 \; \mu\mathrm{s}$$
+$$
+\mathrm{EAT} = 0.999 \times 100 + 0.001 \times 8\,000\,000 = 8.1 \; \mu\mathrm{s}
+$$
 
 This is roughly $80\times$ slower than pure memory access, illustrating why a low page fault rate Is
 critical.
@@ -48621,13 +49351,17 @@ critical.
 A **TLB** is a hardware cache of recently used page table entries, avoiding an extra memory access
 Per translation.
 
-$$\mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})$$
+$$
+\mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})
+$$
 
 Where $h$ is the TLB hit ratio.
 
 For $h = 0.99$, $\mathrm{TLB} = 2$ ns, $\mathrm{ma} = 100$ ns:
 
-$$\mathrm{EAT} = 0.99 \times 102 + 0.01 \times 202 = 103 \; \mathrm{ns}$$
+$$
+\mathrm{EAT} = 0.99 \times 102 + 0.01 \times 202 = 103 \; \mathrm{ns}
+$$
 
 **TLB coherence.** When the OS modifies a page table entry, it must invalidate the corresponding TLB
 entry. On x86-64: `invlpg` for single-entry invalidation, or reload `CR3` to flush the entire TLB.
@@ -48647,8 +49381,12 @@ $\mathrm{TLB} + 2 \times \mathrm{ma} = 2 + 200 = 202$ ns.
 _Case 3: Page fault_ ($0.0005$): Time =
 $\mathrm{TLB} + \mathrm{ma} + \mathrm{pf} = 2 + 100 + 8 \times 10^6 = 8000002$ ns.
 
-$$\mathrm{EAT} = 0.7996 \times 102 + 0.1999 \times 202 + 0.0005 \times 8\,000\,102$$
-$$\mathrm{EAT} = 81.56 + 40.38 + 4000.05 = 4121.99 \;\mathrm{ns} \approx 4.12 \;\mu\mathrm{s}$$
+$$
+\mathrm{EAT} = 0.7996 \times 102 + 0.1999 \times 202 + 0.0005 \times 8\,000\,102
+$$
+$$
+\mathrm{EAT} = 81.56 + 40.38 + 4000.05 = 4121.99 \;\mathrm{ns} \approx 4.12 \;\mu\mathrm{s}
+$$
 
 This is roughly $41\times$ slower than pure memory access, driven almost entirely by the page fault
 Component.
@@ -49014,7 +49752,9 @@ reliability, Or both.
 **Mean time to failure (MTTF).** If each disk has $\mathrm{MTTF_}{\mathrm{disk}}$ and the MTTR (mean
 time to repair) is $T_{\mathrm{repair}}$:
 
-$$\mathrm{MTTF_}{\mathrm{RAID}\;5} \approx \frac{\mathrm{MTTF_}{\mathrm{disk}^2}{n(n-1) \cdot T_{\mathrm{repair}}}}$$
+$$
+\mathrm{MTTF_}{\mathrm{RAID}\;5} \approx \frac{\mathrm{MTTF_}{\mathrm{disk}^2}{n(n-1) \cdot T_{\mathrm{repair}}}}
+$$
 
 RAID 5 significantly improves reliability for large arrays, but the rebuild time grows with disk
 Capacity, increasing the window of vulnerability.
@@ -50958,7 +51698,9 @@ $q_0, \delta(q_0, w_1), \delta(\delta(q_0, w_1), w_2), \ldots$ ends in a state i
 
 **Example.** DFA for strings over $\{0, 1\}$ containing the substring `01`:
 
-$$M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})$$
+$$
+M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})
+$$
 
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
@@ -50984,7 +51726,9 @@ Reading a new bit $b$ appends $b$ to the right: the new value is $2r + b \bmod 3
 States: $q_0$ (remainder 0), $q_1$ (remainder 1), $q_2$ (remainder 2). Start state: $q_0$ (the empty
 prefix has value 0). Accept state: $q_0$.
 
-$$M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})$$
+$$
+M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})
+$$
 
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
@@ -51327,19 +52071,27 @@ A production $A \to \alpha$ means variable $A$ can be replaced by string $\alpha
 
 **Example.** CFG for $L = \{a^n b^n : n \geq 0\}$:
 
-$$S \to aSb \mid \varepsilon$$
+$$
+S \to aSb \mid \varepsilon
+$$
 
 **Example.** CFG for balanced parentheses:
 
-$$S \to (S) \mid SS \mid \varepsilon$$
+$$
+S \to (S) \mid SS \mid \varepsilon
+$$
 
 **Example.** CFG for $\{w \in \{0,1\}^* : w = w^R\}$ (palindromes):
 
-$$S \to 0S0 \mid 1S1 \mid 0 \mid 1 \mid \varepsilon$$
+$$
+S \to 0S0 \mid 1S1 \mid 0 \mid 1 \mid \varepsilon
+$$
 
 **Example.** CFG for $L = \{a^i b^j c^k : i = j + k\}$:
 
-$$S \to aSb \mid T, \quad T \to aTc \mid \varepsilon$$
+$$
+S \to aSb \mid T, \quad T \to aTc \mid \varepsilon
+$$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
 $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$The total number Of
@@ -51347,21 +52099,27 @@ $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$T
 
 **Example.** CFG for strings with equal numbers of `0`S and `1`S:
 
-$$S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon$$
+$$
+S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon
+$$
 
 The first two rules add a matched pair (in either order); the third concatenates two balanced
 Strings; the fourth handles the empty string.
 
 **Example.** CFG for the language of all strings over $\{a, b\}$ that are **not** palindromes:
 
-$$S \to aAb \mid bAa \mid aSa \mid bSb \mid a \mid b, \quad A \to aAa \mid aAb \mid bAa \mid bAb \mid a \mid b$$
+$$
+S \to aAb \mid bAa \mid aSa \mid bSb \mid a \mid b, \quad A \to aAa \mid aAb \mid bAa \mid bAb \mid a \mid b
+$$
 
 Here $S$ generates non-palindromes and $A$ generates arbitrary strings of length $\geq 1$.
 
 <details>
 <summary>Worked Example: CFG for $\{a^i b^j : 2i = j \mathrm{ or}  2j = i\}$</summary>
 
-$$S \to S_1 \mid S_2, \quad S_1 \to aS_1bb \mid \varepsilon, \quad S_2 \to aaS_2b \mid \varepsilon$$
+$$
+S \to S_1 \mid S_2, \quad S_1 \to aS_1bb \mid \varepsilon, \quad S_2 \to aaS_2b \mid \varepsilon
+$$
 
 $S_1$ generates $\{a^i b^{2i}\}$ and $S_2$ generates $\{a^{2j} b^j\}$. Their union is the desired
 Language.
@@ -51393,7 +52151,9 @@ $(S + S) \times S$.
 **Removing ambiguity.** Some ambiguous grammars can be made unambiguous by rewriting the productions
 To enforce a particular evaluation order. For the arithmetic expression grammar:
 
-$$E \to E + T \mid T, \quad T \to T \times F \mid F, \quad F \to (E) \mid \mathrm{id}$$
+$$
+E \to E + T \mid T, \quad T \to T \times F \mid F, \quad F \to (E) \mid \mathrm{id}
+$$
 
 This grammar is unambiguous and enforces the standard precedence ($\times$ before $+$) and left
 Associativity.
@@ -51445,7 +52205,9 @@ _Proof (conversion algorithm)._
 
 Convert the following grammar to CNF:
 
-$$S \to AbB, \quad A \to aA \mid \varepsilon, \quad B \to bB \mid \varepsilon$$
+$$
+S \to AbB, \quad A \to aA \mid \varepsilon, \quad B \to bB \mid \varepsilon
+$$
 
 **Step 1:** Add new start variable. $S_0 \to S$.
 
@@ -51632,7 +52394,9 @@ variables that can derive the substring $w_i w_{i+1} \cdots w_j$.
 
 1. **Base case** ($j = 1$): $T[i, i] = \{A : A \to w_i \mathrm{ is a rule in  G\}$.
 2. **Recursive case** ($j \gt 1$): For each split $k$ with $i \leq k \lt j$:
-   $$T[i, j] \mathrel{{:}{=}} T[i, j] \cup \{A : A \to BC \in R, B \in T[i, k], C \in T[k+1, j]\}$$
+   $$
+   T[i, j] \mathrel{{:}{=}} T[i, j] \cup \{A : A \to BC \in R, B \in T[i, k], C \in T[k+1, j]\}
+   $$
 3. **Answer:** $w \in L(G)$ iff $S \in T[1, n]$.
 
 _Proof of correctness._ In CNF, every derivation of a string of length $\ell$ involves exactly
@@ -52013,7 +52777,9 @@ Strings $\alpha = (\alpha_1, \ldots, \alpha_k)$ and $\beta = (\beta_1, \ldots, \
 Alphabet $\Sigma$. A **solution** is a non-empty sequence of indices $i_1, i_2, \ldots, i_m$ such
 That:
 
-$$\alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}$$
+$$
+\alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}
+$$
 
 The **PCP language** is
 $\mathrm{PCP} = \{\langle \alpha, \beta \rangle : \alpha, \beta \mathrm{ have} a solution\}$.
@@ -52074,7 +52840,9 @@ Non-relativising techniques, proof methods that do not carry over in the presenc
 
 **The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
 
-$$A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}$$
+$$
+A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}
+$$
 
 **Theorem 5.8.** $A' \not\leq_T A$ (i.e., $A'$ is strictly more difficult than $A$ under Turing
 Reductions).
@@ -52131,7 +52899,9 @@ $\mathrm{NTIME(t(n)) = \{L : L \mathrm{ is decided by a nondeterministic TM in  
 
 ### 6.2 The Class P
 
-$$\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)$$
+$$
+\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)
+$$
 
 $\mathrm{P$ is the class of languages decidable in polynomial time by a deterministic TM. This
 Captures the notion of "efficiently solvable."
@@ -52146,12 +52916,16 @@ Captures the notion of "efficiently solvable."
 
 ### 6.3 The Class NP
 
-$$\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)$$
+$$
+\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)
+$$
 
 **Equivalent definition.** A language $L$ is in NP if there exists a polynomial-time verifier $V$
 And a polynomial $p$ such that:
 
-$$L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}$$
+$$
+L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}
+$$
 
 The string $c$ is called a **certificate** (or witness).
 
@@ -52338,13 +53112,21 @@ Equal sum?
 
 **Reduction chain:**
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
 <details>
 <summary>Worked Example: Reducing 3-SAT to Independent Set</summary>
@@ -52447,7 +53229,9 @@ Quantifiers.
 **Equivalent characterisation.** A language $L$ is in $\Sigma_k^P$ iff there exist polynomial-time
 Computable relations $R$ and polynomials $p$ such that:
 
-$$L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}$$
+$$
+L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}
+$$
 
 Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\exists$.
 
@@ -52460,7 +53244,9 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 **Relationships:**
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
@@ -52489,7 +53275,9 @@ $\blacksquare$
 
 **PSPACE.** The class of languages decidable in polynomial space:
 
-$$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
+$$
+\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE}$.
 - $\mathrm{P} \neq \mathrm{PSPACE}$ (space hierarchy theorem).
@@ -52498,7 +53286,9 @@ $$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
 
 **EXPTIME.** The class of languages decidable in exponential time:
 
-$$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
+$$
+\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$.
 - $\mathrm{P} \neq \mathrm{EXPTIME}$ (time hierarchy theorem).
@@ -52507,11 +53297,17 @@ $$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
 
 **Hierarchy summary:**
 
-$$\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}$$
+$$
+\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}
+$$
 
-$$\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME$$
+$$
+\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME
+$$
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 | Inclusion                                                        | Known to be proper? | Theorem used        |
 | ---------------------------------------------------------------- | ------------------- | ------------------- |

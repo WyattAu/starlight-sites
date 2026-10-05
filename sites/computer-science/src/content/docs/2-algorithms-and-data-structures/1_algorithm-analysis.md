@@ -173,13 +173,17 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 | $O(n!)$       | Factorial   | Generating all permutations      |
 
 **Proposition 1.6.** These classes form a strict hierarchy:
-$$O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)$$
+$$
+O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)
+$$
 
 ### 1.3 Recurrences and the Master Theorem
 
 Many divide-and-conquer algorithms yield recurrences of the form:
 
-$$T(n) = aT(n/b) + f(n)$$
+$$
+T(n) = aT(n/b) + f(n)
+$$
 
 Where $a \geq 1$ is the number of subproblems, $b > 1$ is the factor by which the input is divided,
 and $f(n)$ is the cost of dividing and combining.
@@ -207,7 +211,9 @@ $a / b^{c - \varepsilon} = b^\varepsilon > 1$ So the leaf level dominates. $\bla
 
 Merge sort divides into 2 subproblems of size $n/2$ and combines in $O(n)$ time.
 
-$$T(n) = 2T(n/2) + \Theta(n)$$
+$$
+T(n) = 2T(n/2) + \Theta(n)
+$$
 
 Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
 is Case 2 with $k = 0$.
@@ -219,7 +225,9 @@ Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
 <details>
 <summary>Worked Example: Binary Search Recurrence</summary>
 
-$$T(n) = T(n/2) + O(1)$$
+$$
+T(n) = T(n/2) + O(1)
+$$
 
 Here $a = 1$, $b = 2$ So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
 $k = 0$.
@@ -233,7 +241,9 @@ Therefore $T(n) = \Theta(\log n)$.
 
 Strassen's algorithm divides into 7 subproblems of size $n/2$ and combines in $O(n^2)$ time.
 
-$$T(n) = 7T(n/2) + O(n^2)$$
+$$
+T(n) = 7T(n/2) + O(n^2)
+$$
 
 Here $a = 7$, $b = 2$ So $c = \log_2 7 \approx 2.807$. We have
 $f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$Which is Case 1.

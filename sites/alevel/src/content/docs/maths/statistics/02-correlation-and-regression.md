@@ -52,13 +52,21 @@ Must be able to interpret these and understand their limitations.
 
 **Definition.** For bivariate data $(x_1,y_1),\ldots,(x_n,y_n)$The PMCC is
 
-$$r = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}$$
+$$
+r = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}
+$$
 
 Where
 
-$$S_{xx} = \sum(x_i-\bar{x})^2 = \sum x_i^2 - n\bar{x}^2$$
-$$S_{yy} = \sum(y_i-\bar{y})^2 = \sum y_i^2 - n\bar{y}^2$$
-$$S_{xy} = \sum(x_i-\bar{x})(y_i-\bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}$$
+$$
+S_{xx} = \sum(x_i-\bar{x})^2 = \sum x_i^2 - n\bar{x}^2
+$$
+$$
+S_{yy} = \sum(y_i-\bar{y})^2 = \sum y_i^2 - n\bar{y}^2
+$$
+$$
+S_{xy} = \sum(x_i-\bar{x})(y_i-\bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}
+$$
 
 ### 1.2 Properties
 
@@ -97,7 +105,9 @@ Illustrates that even a moderate $r$ does not guarantee accurate individual pred
 
 When data are ranked, Spearman's coefficient is
 
-$$r_s = 1 - \frac{6\sum d_i^2}{n(n^2-1)}$$
+$$
+r_s = 1 - \frac{6\sum d_i^2}{n(n^2-1)}
+$$
 
 Where $d_i$ is the difference in ranks for the $i$-th pair.
 
@@ -139,30 +149,46 @@ Standard choice.
 
 **Problem.** Find the line $y = a + bx$ that minimises
 
-$$S(a,b) = \sum_{i=1}^{n}(y_i - a - bx_i)^2$$
+$$
+S(a,b) = \sum_{i=1}^{n}(y_i - a - bx_i)^2
+$$
 
 ### 3.2 Derivation using partial derivatives
 
 Setting $\dfrac{\partial S}{\partial a} = 0$ and
 $\dfrac{\partial S}{\partial b} = 0$:
 
-$$\frac{\partial S}{\partial a} = -2\sum(y_i - a - bx_i) = 0 \implies \sum y_i = na + b\sum x_i \tag{1}$$
+$$
+\frac{\partial S}{\partial a} = -2\sum(y_i - a - bx_i) = 0 \implies \sum y_i = na + b\sum x_i \tag{1}
+$$
 
-$$\frac{\partial S}{\partial b} = -2\sum x_i(y_i - a - bx_i) = 0 \implies \sum x_i y_i = a\sum x_i + b\sum x_i^2 \tag{2}$$
+$$
+\frac{\partial S}{\partial b} = -2\sum x_i(y_i - a - bx_i) = 0 \implies \sum x_i y_i = a\sum x_i + b\sum x_i^2 \tag{2}
+$$
 
 From (1): $a = \bar{y} - b\bar{x}$.
 
 Substituting into (2):
 
-$$\sum x_i y_i = (\bar{y}-b\bar{x})\sum x_i + b\sum x_i^2 = n\bar{x}\bar{y} - bn\bar{x}^2 + b\sum x_i^2$$
+$$
+\sum x_i y_i = (\bar{y}-b\bar{x})\sum x_i + b\sum x_i^2 = n\bar{x}\bar{y} - bn\bar{x}^2 + b\sum x_i^2
+$$
 
-$$\sum x_i y_i - n\bar{x}\bar{y} = b\left(\sum x_i^2 - n\bar{x}^2\right)$$
+$$
+\sum x_i y_i - n\bar{x}\bar{y} = b\left(\sum x_i^2 - n\bar{x}^2\right)
+$$
 
-$$S_{xy} = b\,S_{xx}$$
+$$
+S_{xy} = b\,S_{xx}
+$$
 
-$$\boxed{b = \frac{S_{xy}}{S_{xx}} = \frac{\sum x_i y_i - n\bar{x}\bar{y}}{\sum x_i^2 - n\bar{x}^2}}$$
+$$
+\boxed{b = \frac{S_{xy}}{S_{xx}} = \frac{\sum x_i y_i - n\bar{x}\bar{y}}{\sum x_i^2 - n\bar{x}^2}}
+$$
 
-$$\boxed{a = \bar{y} - b\bar{x}}$$
+$$
+\boxed{a = \bar{y} - b\bar{x}}
+$$
 
 <hr />
 
@@ -173,7 +199,9 @@ $(\bar{x}, \bar{y})$.
 
 **Proof.** Substituting $x = \bar{x}$:
 
-$$y = a + b\bar{x} = (\bar{y} - b\bar{x}) + b\bar{x} = \bar{y}$$
+$$
+y = a + b\bar{x} = (\bar{y} - b\bar{x}) + b\bar{x} = \bar{y}
+$$
 
 So $(\bar{x}, \bar{y})$ lies on the regression line. $\blacksquare$
 
@@ -286,9 +314,13 @@ $u = x/10$ (where $x$ is advertising in GBP) and $v = y/1000$ (where $y$ is reve
 
 If the coded regression line is $v = 2.3 + 0.7u$ Then in original variables:
 
-$$\frac{y}{1000} = 2.3 + 0.7\left(\frac{x}{10}\right)$$
+$$
+\frac{y}{1000} = 2.3 + 0.7\left(\frac{x}{10}\right)
+$$
 
-$$y = 2300 + 70x$$
+$$
+y = 2300 + 70x
+$$
 
 The gradient $b = 70$ means each additional GBP spent on advertising is associated with an increase
 Of GBP 70 in revenue. The PMCC calculated from the coded data would be identical to the PMCC from
@@ -369,7 +401,9 @@ Prove that $\sum e_i = 0$ where $e_i = y_i - (a + bx_i)$ are the residuals of th
 
 <details>
 <summary>Solution 4</summary>
-$$\sum e_i = \sum y_i - na - b\sum x_i = n\bar{y} - n(\bar{y} - b\bar{x}) - bn\bar{x} = n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0 \quad \blacksquare$$
+$$
+\sum e_i = \sum y_i - na - b\sum x_i = n\bar{y} - n(\bar{y} - b\bar{x}) - bn\bar{x} = n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0 \quad \blacksquare
+$$
 
 **If you get this wrong, revise:** [Residuals](#51-residuals), Section 5.1.
 
@@ -561,17 +595,29 @@ Variables.
 
 (b) Start from the coded line:
 
-$$\frac{y - 100}{10} = 1.2 + 0.8 \times \frac{x - 20}{5}$$
+$$
+\frac{y - 100}{10} = 1.2 + 0.8 \times \frac{x - 20}{5}
+$$
 
-$$\frac{y - 100}{10} = 1.2 + 0.16(x - 20)$$
+$$
+\frac{y - 100}{10} = 1.2 + 0.16(x - 20)
+$$
 
-$$\frac{y - 100}{10} = 1.2 + 0.16x - 3.2$$
+$$
+\frac{y - 100}{10} = 1.2 + 0.16x - 3.2
+$$
 
-$$\frac{y - 100}{10} = 0.16x - 2.0$$
+$$
+\frac{y - 100}{10} = 0.16x - 2.0
+$$
 
-$$y - 100 = 1.6x - 20$$
+$$
+y - 100 = 1.6x - 20
+$$
 
-$$y = 80 + 1.6x$$
+$$
+y = 80 + 1.6x
+$$
 
 **If you get this wrong, revise:** [Coding in Regression](#6-coding-in-regression), Section 6, and
 [Effect of Coding on Correlation](#61-effect-of-coding-on-correlation), Section 6.1.

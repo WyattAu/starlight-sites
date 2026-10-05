@@ -21,11 +21,15 @@ date: 2026-04-08T00:00:00.000Z
 
 The rate of reaction measures how fast reactants are consumed or products are formed.
 
-$$\mathrm{Rate} = \frac{\mathrm{change in amount (mol)}}{\mathrm{change in time (s)}}$$
+$$
+\mathrm{Rate} = \frac{\mathrm{change in amount (mol)}}{\mathrm{change in time (s)}}
+$$
 
 For a reaction $a\mathrm{A} + b\mathrm{B} \to c\mathrm{C} + d\mathrm{D}$:
 
-$$\mathrm{Rate} = -\frac{1}{a}\frac{d[\mathrm{A}]}{dt} = -\frac{1}{b}\frac{d[\mathrm{B}]}{dt} = \frac{1}{c}\frac{d[\mathrm{C}]}{dt} = \frac{1}{d}\frac{d[\mathrm{D}]}{dt}$$
+$$
+\mathrm{Rate} = -\frac{1}{a}\frac{d[\mathrm{A}]}{dt} = -\frac{1}{b}\frac{d[\mathrm{B}]}{dt} = \frac{1}{c}\frac{d[\mathrm{C}]}{dt} = \frac{1}{d}\frac{d[\mathrm{D}]}{dt}
+$$
 
 The negative sign indicates that reactant concentrations decrease over time.
 
@@ -162,7 +166,9 @@ Energy at any given temperature.
 
 The minimum energy that colliding particles must have for a successful reaction.
 
-$$\mathrm{Reactants} \xrightarrow{E_a} \mathrm{Products}$$
+$$
+\mathrm{Reactants} \xrightarrow{E_a} \mathrm{Products}
+$$
 
 On an energy profile diagram, $E_a$ is the energy difference between the reactants and the peak
 (transition state).
@@ -171,8 +177,12 @@ On an energy profile diagram, $E_a$ is the energy difference between the reactan
 
 A catalyst provides an alternative pathway with lower $E_a$:
 
-$$\mathrm{Reactants} \xrightarrow{E_a \mathrm{ (uncatalysed)}} \mathrm{Products}$$
-$$\mathrm{Reactants} \xrightarrow{E_a \mathrm{ (catalysed)}} \mathrm{Products}$$
+$$
+\mathrm{Reactants} \xrightarrow{E_a \mathrm{ (uncatalysed)}} \mathrm{Products}
+$$
+$$
+\mathrm{Reactants} \xrightarrow{E_a \mathrm{ (catalysed)}} \mathrm{Products}
+$$
 
 The catalysed pathway has a lower energy barrier, so more particles have sufficient energy to react.
 
@@ -208,7 +218,9 @@ When temperature increases:
 - The area under the curve remains constant (same number of particles).
 - A larger fraction of particles has energy $\geq E_a$.
 
-$$\frac{\mathrm{Fraction with } E \geq E_a \mathrm{ at } T_2}{\mathrm{Fraction with } E \geq E_a \mathrm{ at } T_1} \gt 1 \quad \mathrm{when } T_2 \gt T_1$$
+$$
+\frac{\mathrm{Fraction with } E \geq E_a \mathrm{ at } T_2}{\mathrm{Fraction with } E \geq E_a \mathrm{ at } T_1} \gt 1 \quad \mathrm{when } T_2 \gt T_1
+$$
 
 ### Effect of a Catalyst
 
@@ -299,17 +311,25 @@ Catalytic converters reduce the emission of toxic gases from car exhausts.
 
 1. **Oxidation of CO:**
 
-$$2\mathrm{CO} + \mathrm{O}_2 \xrightarrow{\mathrm{Pt, Pd}} 2\mathrm{CO}_2$$
+$$
+2\mathrm{CO} + \mathrm{O}_2 \xrightarrow{\mathrm{Pt, Pd}} 2\mathrm{CO}_2
+$$
 
 1. **Oxidation of unburnt hydrocarbons (e.g., octane):**
 
-$$2\mathrm{C}_8\mathrm{H}_{18} + 25\mathrm{O}_2 \xrightarrow{\mathrm{Pt, Pd}} 16\mathrm{CO}_2 + 18\mathrm{H}_2\mathrm{O}$$
+$$
+2\mathrm{C}_8\mathrm{H}_{18} + 25\mathrm{O}_2 \xrightarrow{\mathrm{Pt, Pd}} 16\mathrm{CO}_2 + 18\mathrm{H}_2\mathrm{O}
+$$
 
 1. **Reduction of nitrogen oxides:**
 
-$$2\mathrm{NO} \xrightarrow{\mathrm{Rh}} \mathrm{N}_2 + \mathrm{O}_2$$
+$$
+2\mathrm{NO} \xrightarrow{\mathrm{Rh}} \mathrm{N}_2 + \mathrm{O}_2
+$$
 
-$$2\mathrm{NO}_2 \xrightarrow{\mathrm{Rh}} \mathrm{N}_2 + 2\mathrm{O}_2$$
+$$
+2\mathrm{NO}_2 \xrightarrow{\mathrm{Rh}} \mathrm{N}_2 + 2\mathrm{O}_2
+$$
 
 ### Catalysts Used
 
@@ -390,7 +410,9 @@ For further catalysis.
 
 For a reaction $a\mathrm{A} + b\mathrm{B} \to \mathrm{products}$The rate equation is:
 
-$$\mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n$$
+$$
+\mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n
+$$
 
 Where:
 
@@ -405,17 +427,23 @@ Where:
 
 **Zero order:** Rate is independent of concentration.
 
-$$\mathrm{Rate} = k$$
+$$
+\mathrm{Rate} = k
+$$
 
 Concentration decreases linearly with time: $[\mathrm{A}] = [\mathrm{A}]_0 - kt$
 
 **First order:** Rate is directly proportional to concentration.
 
-$$\mathrm{Rate} = k[\mathrm{A}]$$
+$$
+\mathrm{Rate} = k[\mathrm{A}]
+$$
 
 **Second order:** Rate is proportional to the square of concentration.
 
-$$\mathrm{Rate} = k[\mathrm{A}]^2$$
+$$
+\mathrm{Rate} = k[\mathrm{A}]^2
+$$
 
 ### Determining Order from Initial Rates
 
@@ -506,7 +534,9 @@ The units of $k$ depend on the overall order of reaction.
 
 ### Equation
 
-$$k = A e^{-E_a / RT}$$
+$$
+k = A e^{-E_a / RT}
+$$
 
 Where:
 
@@ -518,11 +548,15 @@ Where:
 
 ### Logarithmic Form
 
-$$\ln k = \ln A - \frac{E_a}{RT}$$
+$$
+\ln k = \ln A - \frac{E_a}{RT}
+$$
 
 Or equivalently:
 
-$$\log_{10} k = \log_{10} A - \frac{E_a}{2.303RT}$$
+$$
+\log_{10} k = \log_{10} A - \frac{E_a}{2.303RT}
+$$
 
 ### Plotting
 
@@ -537,7 +571,9 @@ From the gradient: $E_a = -\mathrm{gradient} \times R$
 
 If the rate constant is known at two temperatures:
 
-$$\ln\left(\frac{k_2}{k_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\left(\frac{k_2}{k_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
 **Worked example 3:** The rate constant for a reaction is $3.46 \times 10^{-5} \mathrm{ s}^{-1}$ at
 $298 \mathrm{ K}$ and $1.50 \times 10^{-3} \mathrm{ s}^{-1}$ at $350 \mathrm{ K}$. Calculate $E_a$.
@@ -545,13 +581,21 @@ $298 \mathrm{ K}$ and $1.50 \times 10^{-3} \mathrm{ s}^{-1}$ at $350 \mathrm{ K}
 <details>
 <summary>Answer</summary>
 
-$$\ln\left(\frac{1.50 \times 10^{-3}}{3.46 \times 10^{-5}}\right) = \frac{E_a}{8.314}\left(\frac{1}{298} - \frac{1}{350}\right)$$
+$$
+\ln\left(\frac{1.50 \times 10^{-3}}{3.46 \times 10^{-5}}\right) = \frac{E_a}{8.314}\left(\frac{1}{298} - \frac{1}{350}\right)
+$$
 
-$$\ln(43.35) = \frac{E_a}{8.314}(0.003356 - 0.002857)$$
+$$
+\ln(43.35) = \frac{E_a}{8.314}(0.003356 - 0.002857)
+$$
 
-$$3.770 = \frac{E_a}{8.314}(0.000499)$$
+$$
+3.770 = \frac{E_a}{8.314}(0.000499)
+$$
 
-$$E_a = \frac{3.770 \times 8.314}{0.000499} = \frac{31.34}{0.000499} = 62800 \mathrm{ J/mol} = 62.8 \mathrm{ kJ/mol}$$
+$$
+E_a = \frac{3.770 \times 8.314}{0.000499} = \frac{31.34}{0.000499} = 62800 \mathrm{ J/mol} = 62.8 \mathrm{ kJ/mol}
+$$
 
 </details>
 
@@ -562,15 +606,25 @@ $320 \mathrm{ K}$.
 <details>
 <summary>Answer</summary>
 
-$$\ln\left(\frac{k_2}{2.50 \times 10^{-3}}\right) = \frac{75000}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)$$
+$$
+\ln\left(\frac{k_2}{2.50 \times 10^{-3}}\right) = \frac{75000}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)
+$$
 
-$$\ln\left(\frac{k_2}{2.50 \times 10^{-3}}\right) = 9022 \times (0.003333 - 0.003125)$$
+$$
+\ln\left(\frac{k_2}{2.50 \times 10^{-3}}\right) = 9022 \times (0.003333 - 0.003125)
+$$
 
-$$\ln\left(\frac{k_2}{2.50 \times 10^{-3}}\right) = 9022 \times 0.000208 = 1.877$$
+$$
+\ln\left(\frac{k_2}{2.50 \times 10^{-3}}\right) = 9022 \times 0.000208 = 1.877
+$$
 
-$$\frac{k_2}{2.50 \times 10^{-3}} = e^{1.877} = 6.534$$
+$$
+\frac{k_2}{2.50 \times 10^{-3}} = e^{1.877} = 6.534
+$$
 
-$$k_2 = 6.534 \times 2.50 \times 10^{-3} = 1.63 \times 10^{-2} \mathrm{ s}^{-1}$$
+$$
+k_2 = 6.534 \times 2.50 \times 10^{-3} = 1.63 \times 10^{-2} \mathrm{ s}^{-1}
+$$
 
 </details>
 
@@ -592,12 +646,16 @@ $$k_2 = 6.534 \times 2.50 \times 10^{-3} = 1.63 \times 10^{-2} \mathrm{ s}^{-1}$
 The iodine clock reaction is a classic experiment for measuring initial rates. The reaction involves
 The oxidation of iodide ions by an oxidising agent (e.g., peroxydisulfate):
 
-$$\mathrm{S}_2\mathrm{O}_8^{2-} + 2\mathrm{I}^- \to 2\mathrm{SO}_4^{2-} + \mathrm{I}_2$$
+$$
+\mathrm{S}_2\mathrm{O}_8^{2-} + 2\mathrm{I}^- \to 2\mathrm{SO}_4^{2-} + \mathrm{I}_2
+$$
 
 A small, fixed amount of sodium thiosulfate and starch are added. The thiosulfate reacts with iodine
 As it forms:
 
-$$\mathrm{I}_2 + 2\mathrm{S}_2\mathrm{O}_3^{2-} \to 2\mathrm{I}^- + \mathrm{S}_4\mathrm{O}_6^{2-}$$
+$$
+\mathrm{I}_2 + 2\mathrm{S}_2\mathrm{O}_3^{2-} \to 2\mathrm{I}^- + \mathrm{S}_4\mathrm{O}_6^{2-}
+$$
 
 Once all the thiosulfate is consumed, free iodine accumulates and reacts with starch to produce a
 Blue-black colour.
@@ -606,7 +664,9 @@ Blue-black colour.
 
 The time for the colour change ($t$) is measured. The rate is proportional to $1/t$:
 
-$$\mathrm{Rate} \propto \frac{1}{t}$$
+$$
+\mathrm{Rate} \propto \frac{1}{t}
+$$
 
 By varying the concentration of one reactant while keeping others constant, the order with respect
 To each reactant can be determined.
@@ -727,13 +787,21 @@ $320 \mathrm{ K}$.
 <details>
 <summary>Answer</summary>
 
-$$\ln\left(\frac{k_2}{5.00 \times 10^{-4}}\right) = \frac{65000}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)$$
+$$
+\ln\left(\frac{k_2}{5.00 \times 10^{-4}}\right) = \frac{65000}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)
+$$
 
-$$= 7820 \times (0.003333 - 0.003125) = 7820 \times 0.000208 = 1.627$$
+$$
+= 7820 \times (0.003333 - 0.003125) = 7820 \times 0.000208 = 1.627
+$$
 
-$$\frac{k_2}{5.00 \times 10^{-4}} = e^{1.627} = 5.089$$
+$$
+\frac{k_2}{5.00 \times 10^{-4}} = e^{1.627} = 5.089
+$$
 
-$$k_2 = 5.089 \times 5.00 \times 10^{-4} = 2.54 \times 10^{-3} \mathrm{ s}^{-1}$$
+$$
+k_2 = 5.089 \times 5.00 \times 10^{-4} = 2.54 \times 10^{-3} \mathrm{ s}^{-1}
+$$
 
 </details>
 
@@ -823,7 +891,9 @@ Rate increase?
 <details>
 <summary>Answer</summary>
 
-$$k = \frac{\mathrm{Rate}}{[\mathrm{P}]^2[\mathrm{Q}]} = \frac{1.08 \times 10^{-2}}{(0.30)^2 \times 0.20} = \frac{1.08 \times 10^{-2}}{0.09 \times 0.20} = \frac{1.08 \times 10^{-2}}{0.018} = 0.60 \mathrm{ dm}^6 \mathrm{ mol}^{-2} \mathrm{ s}^{-1}$$
+$$
+k = \frac{\mathrm{Rate}}{[\mathrm{P}]^2[\mathrm{Q}]} = \frac{1.08 \times 10^{-2}}{(0.30)^2 \times 0.20} = \frac{1.08 \times 10^{-2}}{0.09 \times 0.20} = \frac{1.08 \times 10^{-2}}{0.018} = 0.60 \mathrm{ dm}^6 \mathrm{ mol}^{-2} \mathrm{ s}^{-1}
+$$
 
 New rate factor: $[\mathrm{P}]$ triples (factor of $3^2 = 9$), $[\mathrm{Q}]$ doubles (factor of 2).
 
@@ -927,13 +997,17 @@ Its initial value.
 
 ### Zero-Order Half-Life
 
-$$t_{1/2} = \frac{[\mathrm{A}]_0}{2k}$$
+$$
+t_{1/2} = \frac{[\mathrm{A}]_0}{2k}
+$$
 
 The half-life depends on the initial concentration. It increases as concentration decreases.
 
 ### First-Order Half-Life
 
-$$t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$$
+$$
+t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}
+$$
 
 The half-life is **independent** of the initial concentration. This is a defining characteristic of
 First-order reactions.
@@ -942,7 +1016,9 @@ Radioactive decay is a first-order process.
 
 ### Second-Order Half-Life
 
-$$t_{1/2} = \frac{1}{k[\mathrm{A}]_0}$$
+$$
+t_{1/2} = \frac{1}{k[\mathrm{A}]_0}
+$$
 
 The half-life depends on the initial concentration. It increases as concentration decreases.
 
@@ -985,13 +1061,17 @@ $k = \dfrac{0.693}{t_{1/2}} = \dfrac{0.693}{60} = 0.01155 \mathrm{ s}^{-1}$
 
 A straight line with negative gradient when concentration is plotted against time.
 
-$$[\mathrm{A}] = [\mathrm{A}]_0 - kt$$
+$$
+[\mathrm{A}] = [\mathrm{A}]_0 - kt
+$$
 
 ### First-Order
 
 A curve where a plot of $\ln[\mathrm{A}]$ vs time gives a straight line with gradient $-k$.
 
-$$\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$$
+$$
+\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt
+$$
 
 Alternatively, a plot of $\log_{10}[\mathrm{A}]$ vs time gives a straight line with gradient
 $-k/2.303$.
@@ -1000,7 +1080,9 @@ $-k/2.303$.
 
 A curve where a plot of $1/[\mathrm{A}]$ vs time gives a straight line with gradient $+k$.
 
-$$\frac{1}{[\mathrm{A}]} = \frac{1}{[\mathrm{A}]_0} + kt$$
+$$
+\frac{1}{[\mathrm{A}]} = \frac{1}{[\mathrm{A}]_0} + kt
+$$
 
 ### Summary
 
@@ -1118,7 +1200,9 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 
 **Solution:**
 
-$$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
+$$
+k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}
+$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Chemistry/chemical-kinetics.md
 

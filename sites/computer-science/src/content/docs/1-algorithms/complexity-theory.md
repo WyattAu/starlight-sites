@@ -28,19 +28,25 @@ sources:
 
 $f(n) = O(g(n))$ if there exist constants $c > 0$ and $n_0 > 0$ such that:
 
-$$f(n) \leq c \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+f(n) \leq c \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.2 Big-Omega (Lower Bound)
 
 $f(n) = \Omega(g(n))$ if there exist constants $c > 0$ and $n_0 > 0$ such that:
 
-$$f(n) \geq c \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+f(n) \geq c \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.3 Big-Theta (Tight Bound)
 
 $f(n) = \Theta(g(n))$ if both $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$:
 
-$$c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.4 Little-o and Little-omega
 
@@ -83,13 +89,17 @@ A **decision problem** has a yes/no answer. Optimization problems can be cast as
 
 ### 2.2 P (Polynomial Time)
 
-$$\text{P} = \{L : L \text{ is decidable by a deterministic TM in } O(n^k) \text{ time for some } k\}$$
+$$
+\text{P} = \{L : L \text{ is decidable by a deterministic TM in } O(n^k) \text{ time for some } k\}
+$$
 
 **Examples:** Sorting, shortest paths, MST, 2-SAT, primality testing.
 
 ### 2.3 NP (Nondeterministic Polynomial Time)
 
-$$\text{NP} = \{L : L \text{ is decidable by a nondeterministic TM in polynomial time}\}$$
+$$
+\text{NP} = \{L : L \text{ is decidable by a nondeterministic TM in polynomial time}\}
+$$
 
 Equivalently, NP is the class of problems for which a **yes-instance** can be **verified** in polynomial time given a certificate (witness).
 
@@ -101,7 +111,9 @@ Equivalently, NP is the class of problems for which a **yes-instance** can be **
 
 A problem $L$ is **NP-hard** if every problem in NP can be reduced to $L$ in polynomial time:
 
-$$\forall L" \in \text{NP}, \ L' \leq_p L$$
+$$
+\forall L" \in \text{NP}, \ L' \leq_p L
+$$
 
 NP-hard problems are **at least as hard as every problem in NP**. They may or may not be in NP themselves.
 
@@ -109,7 +121,9 @@ NP-hard problems are **at least as hard as every problem in NP**. They may or ma
 
 A problem is **NP-complete** if it is both in NP and NP-hard:
 
-$$\text{NP-complete} = \text{NP} \cap \text{NP-hard}$$
+$$
+\text{NP-complete} = \text{NP} \cap \text{NP-hard}
+$$
 
 **If any NP-complete problem is in P, then P = NP.**
 
@@ -138,7 +152,9 @@ The class of problems whose complement can be verified in polynomial time.
 | EXP    | Solvable in exponential time $O(2^{n^k})$                            |
 | BPP    | Solvable by randomized algorithm with error $\leq 1/3$ (polynomial) |
 
-$$\text{P} \subseteq \text{NP} \subseteq \text{PSPACE} \subseteq \text{EXP}$$
+$$
+\text{P} \subseteq \text{NP} \subseteq \text{PSPACE} \subseteq \text{EXP}
+$$
 
 ## 3. Polynomial-Time Reductions
 
@@ -154,7 +170,9 @@ If $L_1 \leq_p L_2$ and $L_1$ is NP-hard, then $L_2$ is NP-hard.
 
 A **Karp reduction** (many-one reduction) maps instance $x$ of $L_1$ to instance $f(x)$ of $L_2$:
 
-$$x \in L_1 \iff f(x) \in L_2$$
+$$
+x \in L_1 \iff f(x) \in L_2
+$$
 
 where $f$ is computable in polynomial time.
 
@@ -279,7 +297,9 @@ For NP-hard optimization problems, we seek **polynomial-time algorithms** that p
 
 An algorithm $\mathcal{A}$ is an **$\alpha$-approximation** for a minimization problem if:
 
-$$\mathcal{A}(I) \leq \alpha \cdot \text{OPT}(I) \quad \text{for all instances } I$$
+$$
+\mathcal{A}(I) \leq \alpha \cdot \text{OPT}(I) \quad \text{for all instances } I
+$$
 
 For maximization: $\mathcal{A}(I) \geq \frac{1}{\alpha} \cdot \text{OPT}(I)$.
 

@@ -67,7 +67,9 @@ These carbonyl compounds are among the most important functional groups in organ
 
 HCN adds across the C=O bond:
 
-$$\text{CH}_3\text{CHO} + \text{HCN} \rightarrow \text{CH}_3\text{CH(OH)(CN)}$$
+$$
+\text{CH}_3\text{CHO} + \text{HCN} \rightarrow \text{CH}_3\text{CH(OH)(CN)}
+$$
 
 Product: 2-hydroxypropanenitrile (acetaldehyde cyanohydrin)
 
@@ -82,13 +84,19 @@ Mechanism: CN$^-$ attacks the electrophilic carbonyl carbon, then protonation of
 **Solution:**
 
 Step 1: Enolization (base removes $\alpha$-H):
-$$\text{CH}_3\text{CHO} + \text{OH}^- \rightarrow \text{CH}_2=\text{CHO}^- + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CHO} + \text{OH}^- \rightarrow \text{CH}_2=\text{CHO}^- + \text{H}_2\text{O}
+$$
 
 Step 2: Nucleophilic addition:
-$$\text{CH}_2=\text{CHO}^- + \text{CH}_3\text{CHO} \rightarrow \text{CH}_3\text{CH(OH)CH}_2\text{CHO}$$
+$$
+\text{CH}_2=\text{CHO}^- + \text{CH}_3\text{CHO} \rightarrow \text{CH}_3\text{CH(OH)CH}_2\text{CHO}
+$$
 
 Step 3: Dehydration (on heating):
-$$\text{CH}_3\text{CH(OH)CH}_2\text{CHO} \rightarrow \text{CH}_3\text{CH}=\text{CHCHO} + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CH(OH)CH}_2\text{CHO} \rightarrow \text{CH}_3\text{CH}=\text{CHCHO} + \text{H}_2\text{O}
+$$
 
 Product: but-2-enal (crotonaldehyde), an $\alpha,\beta$-unsaturated aldehyde.
 
@@ -103,7 +111,9 @@ Product: but-2-enal (crotonaldehyde), an $\alpha,\beta$-unsaturated aldehyde.
 Tollens' reagent: ammoniacal silver nitrate $[\text{Ag(NH}_3)_2]^+\text{OH}^-$
 
 **Acetaldehyde:** Oxidizes to acetate, reducing Ag$^+$ to metallic silver:
-$$\text{CH}_3\text{CHO} + 2[\text{Ag(NH}_3)_2]^+ + 3\text{OH}^- \rightarrow \text{CH}_3\text{COO}^- + 2\text{Ag} \downarrow + 4\text{NH}_3 + 2\text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CHO} + 2[\text{Ag(NH}_3)_2]^+ + 3\text{OH}^- \rightarrow \text{CH}_3\text{COO}^- + 2\text{Ag} \downarrow + 4\text{NH}_3 + 2\text{H}_2\text{O}
+$$
 
 A silver mirror forms on the test tube wall (positive test).
 

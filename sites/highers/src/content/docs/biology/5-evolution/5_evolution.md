@@ -69,7 +69,9 @@ Level.
 
 **Simpson"s Diversity Index:**
 
-$$D = 1 - \sum \frac{n(n-1)}{N(N-1)}$$
+$$
+D = 1 - \sum \frac{n(n-1)}{N(N-1)}
+$$
 
 Where $n$ is the number of individuals of a particular species and $N$ is the total number of
 Individuals.
@@ -78,13 +80,21 @@ Individuals.
 
 $N = 60$.
 
-$$D = 1 - \left[\frac{10(9)}{60(59)} + \frac{20(19)}{60(59)} + \frac{30(29)}{60(59)}\right]$$
+$$
+D = 1 - \left[\frac{10(9)}{60(59)} + \frac{20(19)}{60(59)} + \frac{30(29)}{60(59)}\right]
+$$
 
-$$= 1 - \left[\frac{90}{3540} + \frac{380}{3540} + \frac{870}{3540}\right]$$
+$$
+= 1 - \left[\frac{90}{3540} + \frac{380}{3540} + \frac{870}{3540}\right]
+$$
 
-$$= 1 - \left[0.0254 + 0.1073 + 0.2458\right]$$
+$$
+= 1 - \left[0.0254 + 0.1073 + 0.2458\right]
+$$
 
-$$= 1 - 0.3785 = 0.6215$$
+$$
+= 1 - 0.3785 = 0.6215
+$$
 
 $D$ ranges from 0 (no diversity) to 1 (infinite diversity).
 

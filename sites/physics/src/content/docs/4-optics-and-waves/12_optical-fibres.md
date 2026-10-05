@@ -24,7 +24,9 @@ An optical fibre consists of a core (refractive index $n_1$) surrounded by a cla
 
 The **numerical aperture:**
 
-$$\mathrm{NA} = \sin\theta_{\mathrm{max}} = \sqrt{n_1^2 - n_2^2}$$
+$$
+\mathrm{NA} = \sin\theta_{\mathrm{max}} = \sqrt{n_1^2 - n_2^2}
+$$
 
 Where $\theta_{\mathrm{max}}$ is the maximum acceptance angle for light entering the fibre.
 
@@ -32,7 +34,9 @@ Where $\theta_{\mathrm{max}}$ is the maximum acceptance angle for light entering
 
 The number of modes supported depends on the **V-number:**
 
-$$V = \frac{2\pi a}{\lambda}\mathrm{NA}$$
+$$
+V = \frac{2\pi a}{\lambda}\mathrm{NA}
+$$
 
 Where $a$ is the core radius.
 
@@ -107,9 +111,13 @@ surgery, where high-power laser light is delivered through thin fibres.
 A step-index fibre has $n_1 = 1.48$, $n_2 = 1.46$, and core radius $a = 25\ \mu$m.
 Calculate the NA, acceptance angle, and V-number at $\lambda = 850$ nm.
 
-$$\mathrm{NA} = \sqrt{1.48^2 - 1.46^2} = \sqrt{2.1904 - 2.1316} = \sqrt{0.0588} \approx 0.242$$
+$$
+\mathrm{NA} = \sqrt{1.48^2 - 1.46^2} = \sqrt{2.1904 - 2.1316} = \sqrt{0.0588} \approx 0.242
+$$
 
-$$\theta_{\mathrm{max}} = \arcsin(0.242) \approx 14.0^\circ$$
+$$
+\theta_{\mathrm{max}} = \arcsin(0.242) \approx 14.0^\circ
+$$
 
 $$V = \frac{2\pi \times 25 \times 10^{-6}}{850 \times 10^{-9}} \times 0.242
       = \frac{2\pi \times 25}{0.85} \times 0.242 \approx 44.7$$

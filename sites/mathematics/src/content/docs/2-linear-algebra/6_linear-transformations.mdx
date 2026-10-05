@@ -51,8 +51,12 @@ coordinate vector of $T(\mathbf{v}_j)$ with respect to $\mathcal{B}_W$.
 
 The **kernel** (null space) and **image** (range) of $T$ are:
 
-$$\ker(T) = \{\mathbf{v} \in V : T(\mathbf{v}) = \mathbf{0}\}$$
-$$\mathrm{im}(T) = \{T(\mathbf{v}) : \mathbf{v} \in V\}$$
+$$
+\ker(T) = \{\mathbf{v} \in V : T(\mathbf{v}) = \mathbf{0}\}
+$$
+$$
+\mathrm{im}(T) = \{T(\mathbf{v}) : \mathbf{v} \in V\}
+$$
 
 **Proposition 6.2.** $\ker(T)$ is a subspace of $V$ and $\mathrm{im}(T)$ is a subspace of $W$.
 
@@ -60,7 +64,9 @@ $$\mathrm{im}(T) = \{T(\mathbf{v}) : \mathbf{v} \in V\}$$
 
 **Theorem 6.3 (Rank-Nullity).** For $T \in \mathcal{L}(V, W)$ with $V$ finite-dimensional:
 
-$$\dim(\ker(T)) + \dim(\mathrm{im}(T)) = \dim(V)$$
+$$
+\dim(\ker(T)) + \dim(\mathrm{im}(T)) = \dim(V)
+$$
 
 _Proof._ Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a basis for $\ker(T)$Where
 $k = \dim(\ker(T))$. Extend to a basis
@@ -72,7 +78,9 @@ We claim $\{T(\mathbf{u}_{k+1}), \ldots, T(\mathbf{u}_n)\}$ is a basis for $\mat
 _Spanning:_ For any $\mathbf{w} \in \mathrm{im}(T)$Write $\mathbf{w} = T(\mathbf{v})$ for some
 $\mathbf{v} = \sum_{i=1}^n \alpha_i \mathbf{u}_i \in V$. Then
 
-$$\mathbf{w} = T\left(\sum_{i=1}^n \alpha_i \mathbf{u}_i\right) = \sum_{i=1}^n \alpha_i T(\mathbf{u}_i) = \sum_{i=k+1}^n \alpha_i T(\mathbf{u}_i)$$
+$$
+\mathbf{w} = T\left(\sum_{i=1}^n \alpha_i \mathbf{u}_i\right) = \sum_{i=1}^n \alpha_i T(\mathbf{u}_i) = \sum_{i=k+1}^n \alpha_i T(\mathbf{u}_i)
+$$
 
 Since $T(\mathbf{u}_i) = \mathbf{0}$ for $i \leq k$.
 
@@ -107,7 +115,9 @@ $\blacksquare$
 If $P$ is the change-of-basis matrix from basis $\mathcal{B}$ to basis $\mathcal{B}'$ Then for a
 Linear transformation $T$ with matrix representations $[T]_{\mathcal{B}}$ and $[T]_{\mathcal{B}'}$:
 
-$$[T]_{\mathcal{B}'} = P^{-1}[T]_{\mathcal{B}} P$$
+$$
+[T]_{\mathcal{B}'} = P^{-1}[T]_{\mathcal{B}} P
+$$
 
 This is the **similarity transformation**. Similar matrices represent the same linear transformation
 In different bases and share the same eigenvalues, determinant, and trace.
@@ -124,7 +134,9 @@ $[T]_{\mathcal{B}} = P^{-1}[T]_{\mathcal{E}} P$.
 
 **(a)** $T(1, 0) = (2, 1)$ and $T(0, 1) = (1, 2)$ So
 
-$$[T]_{\mathcal{E}} = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$$
+$$
+[T]_{\mathcal{E}} = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}
+$$
 
 **(b)** Compute $T$ on the basis $\mathcal{B}$:
 
@@ -134,13 +146,19 @@ $\begin{pmatrix} 3 \\ 0 \end{pmatrix}_{\mathcal{B}}$.
 $T(1, -1) = (1, -1) = 0(1, 1) + 1(1, -1)$ So coordinates are
 $\begin{pmatrix} 0 \\ 1 \end{pmatrix}_{\mathcal{B}}$.
 
-$$[T]_{\mathcal{B}} = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix}$$
+$$
+[T]_{\mathcal{B}} = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix}
+$$
 
 **(c)** The change-of-basis matrix from $\mathcal{E}$ to $\mathcal{B}$ is
 
-$$P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}, \quad P^{-1} = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & -1/2 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}, \quad P^{-1} = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & -1/2 \end{pmatrix}
+$$
 
-$$P^{-1}[T]_{\mathcal{E}} P = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & -1/2 \end{pmatrix}\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
+$$
+P^{-1}[T]_{\mathcal{E}} P = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & -1/2 \end{pmatrix}\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
+$$
 
 $= \begin{pmatrix} 3/2 & 3/2 \\ 1/2 & -1/2 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix} = [T]_{\mathcal{B}}$.
 $\blacksquare$
@@ -181,7 +199,9 @@ Isomorphism is a special feature of finite-dimensional spaces.
 
 **Definition.** For a subset $S \subseteq V$The **annihilator** of $S$ is
 
-$$S^0 = \{f \in V^* : f(s) = 0 \mathrm{~for~all~} s \in S\}$$
+$$
+S^0 = \{f \in V^* : f(s) = 0 \mathrm{~for~all~} s \in S\}
+$$
 
 **Proposition 6.8.** $S^0$ is a subspace of $V^*$ And if $W$ is a subspace of $V$ with
 $\dim(V) = n$ Then $\dim(W^0) = n - \dim(W)$.

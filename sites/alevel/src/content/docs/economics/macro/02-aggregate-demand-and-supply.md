@@ -27,7 +27,9 @@ categories:
 We define **aggregate demand (AD)** as the total planned expenditure on goods and services in an
 Economy at a given general price level.
 
-$$AD = C + I + G + (X - M)$$
+$$
+AD = C + I + G + (X - M)
+$$
 
 | Component                   | Definition                                      | Determinants                                                                    |
 | --------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -51,18 +53,24 @@ We derive this from three channels:
 **1. Wealth effect (Pigou effect):** A higher price level reduces the real value of money balances
 And other financial assets. Households feel less wealthy and reduce consumption:
 
-$$P \uparrow \Rightarrow \frac{M}{P} \downarrow \Rightarrow \mathrm{Real wealth } \downarrow \Rightarrow C \downarrow \Rightarrow AD \downarrow$$
+$$
+P \uparrow \Rightarrow \frac{M}{P} \downarrow \Rightarrow \mathrm{Real wealth } \downarrow \Rightarrow C \downarrow \Rightarrow AD \downarrow
+$$
 
 **2. Interest rate effect (Keynes effect):** A higher price level increases the demand for money
 (more money needed for transactions). This raises interest rates, which reduces investment:
 
-$$P \uparrow \Rightarrow \mathrm{Money demand } \uparrow \Rightarrow r \uparrow \Rightarrow I \downarrow \Rightarrow AD \downarrow$$
+$$
+P \uparrow \Rightarrow \mathrm{Money demand } \uparrow \Rightarrow r \uparrow \Rightarrow I \downarrow \Rightarrow AD \downarrow
+$$
 
 **3. Exchange rate effect (Mundell-Fleming):** A higher price level (relative to other countries)
 Makes exports less competitive and imports more attractive. The exchange rate may also depreciate,
 But the net effect is:
 
-$$P \uparrow \Rightarrow X \downarrow, M \uparrow \Rightarrow (X - M) \downarrow \Rightarrow AD \downarrow$$
+$$
+P \uparrow \Rightarrow X \downarrow, M \uparrow \Rightarrow (X - M) \downarrow \Rightarrow AD \downarrow
+$$
 
 #### Derivation of the AD Slope from the IS-LM Framework
 
@@ -100,7 +108,9 @@ The horizontal shift of the AD curve equals $\Delta Y = k \times \Delta A$Where 
 Initial change in autonomous spending and $k$ is the multiplier. For example, if the government
 Increases spending by £50bn and $k = 2$The AD curve shifts right by £100bn at every price level.
 
-$$\mathrm{AD shifts right by } k \cdot \Delta A \mathrm{ at every } P$$
+$$
+\mathrm{AD shifts right by } k \cdot \Delta A \mathrm{ at every } P
+$$
 
 **Real-world example, the COVID-19 fiscal response.** In 2020, the UK government introduced the
 Furlough scheme costing approximately £70bn. With an estimated multiplier of 0.6-1.5 (lower than
@@ -120,7 +130,9 @@ Was partly offset by higher import costs feeding into SRAS (cost-push inflation)
 The **SRAS curve** slopes upward from left to right: a higher price level induces firms to increase
 Output.
 
-$$SRAS: Y = Y^* + \alpha(P - P^e)$$
+$$
+SRAS: Y = Y^* + \alpha(P - P^e)
+$$
 
 Where $Y^*$ is potential output, $P^e$ is the expected price level, and $\alpha > 0$.
 
@@ -156,7 +168,9 @@ Output or natural output).
 Flexible. A change in the general price level changes _all_ nominal prices proportionally, leaving
 Real variables unchanged. Money is neutral: it affects only nominal variables, not real output.
 
-$$P \uparrow \Rightarrow w \uparrow \mathrm{ proportionally} \Rightarrow \frac{w}{P} \mathrm{ unchanged} \Rightarrow Y \mathrm{ unchanged}$$
+$$
+P \uparrow \Rightarrow w \uparrow \mathrm{ proportionally} \Rightarrow \frac{w}{P} \mathrm{ unchanged} \Rightarrow Y \mathrm{ unchanged}
+$$
 
 Therefore, the LRAS curve is vertical at $Y^*$. $\blacksquare$
 
@@ -172,7 +186,9 @@ Dichotomy or factor mobility arguments.
 
 Potential output is determined by the aggregate production function:
 
-$$Y^* = A \cdot F(K, L)$$
+$$
+Y^* = A \cdot F(K, L)
+$$
 
 Where $A$ is total factor productivity, $K$ is the capital stock, and $L$ is the labour supply (at
 The natural rate of employment). In the long run, $K$ and $L$ are fixed (determined by savings,
@@ -181,7 +197,9 @@ Is independent of the price level, the LRAS is vertical.
 
 The growth rate of potential output is:
 
-$$g_{Y^*} = g_A + \alpha \cdot g_K + (1 - \alpha) \cdot g_L$$
+$$
+g_{Y^*} = g_A + \alpha \cdot g_K + (1 - \alpha) \cdot g_L
+$$
 
 Where $\alpha$ is capital's share of income (approximately 0.3 in the UK). This equation shows that
 LRAS shifts right when productivity, capital, or labour grow.
@@ -215,9 +233,13 @@ Simultaneously.
 From the SRAS equation $Y = Y^* + \alpha(P - P^e)$If expected prices $P^e$ rise by $\Delta P^e$
 (with actual $P$ unchanged), output falls to:
 
-$$Y_{new} = Y^* + \alpha(P - (P^e + \Delta P^e)) = Y^* + \alpha(P - P^e) - \alpha \Delta P^e$$
+$$
+Y_{new} = Y^* + \alpha(P - (P^e + \Delta P^e)) = Y^* + \alpha(P - P^e) - \alpha \Delta P^e
+$$
 
-$$\Delta Y = -\alpha \Delta P^e \lt 0$$
+$$
+\Delta Y = -\alpha \Delta P^e \lt 0
+$$
 
 So an increase in expected inflation shifts SRAS left by $\alpha \cdot \Delta P^e$. This explains
 Why **inflation expectations are self-fulfilling**: if firms and workers expect higher prices, they
@@ -253,7 +275,9 @@ Sectors, reduced business investment, and weaker growth in total factor producti
 
 ### 3.1 Short-Run Equilibrium
 
-$$AD = SRAS \quad \mathrm{at } (Y_{SR}, P_{SR})$$
+$$
+AD = SRAS \quad \mathrm{at } (Y_{SR}, P_{SR})
+$$
 
 If $Y_{SR} = Y^*$: the economy is at full employment. If $Y_{SR} > Y^*$: the economy is above full
 Employment (overheating, inflationary gap). If $Y_{SR} < Y^*$: the economy is below full employment
@@ -270,7 +294,9 @@ Price level rises, output falls back to $Y^*$. Conversely, if $Y_{SR} < Y^*$: hi
 Downward pressure on wages $\Rightarrow$ SRAS shifts right $\Rightarrow$ price level falls, output
 Rises to $Y^*$. $\blacksquare$
 
-$$\mathrm{Long-run equilibrium: } AD = SRAS = LRAS \mathrm{ at } (Y^*, P_{LR})$$
+$$
+\mathrm{Long-run equilibrium: } AD = SRAS = LRAS \mathrm{ at } (Y^*, P_{LR})
+$$
 
 ### 3.3 Demand-Side Shocks
 
@@ -365,11 +391,15 @@ $\sum_{n=0}^{\infty} c^n = \frac{1}{1-c}$. $\blacksquare$
 
 In an open economy with government, we account for withdrawals (leakages):
 
-$$k = \frac{1}{MPS + MPT + MPM}$$
+$$
+k = \frac{1}{MPS + MPT + MPM}
+$$
 
 Where $MPT$ = marginal propensity to tax, $MPM$ = marginal propensity to import.
 
-$$\Delta Y = \frac{\Delta A}{MPS + MPT + MPM}$$
+$$
+\Delta Y = \frac{\Delta A}{MPS + MPT + MPM}
+$$
 
 The more open the economy (high MPM) and the higher the tax rate (high MPT), the smaller the
 Multiplier. This is why small open economies (e.g., Singapore) have smaller multipliers than large
@@ -381,7 +411,9 @@ If all households simultaneously increase their saving (reduce consumption), agg
 The multiplier effect amplifies the initial reduction in spending, causing a larger fall in income.
 Since saving depends on income ($S = -a + (1-c)Y$), total saving may actually _decrease_:
 
-$$\Delta S = MPS \times \Delta Y = MPS \times \frac{\Delta C}{MPS} = \Delta C < 0$$
+$$
+\Delta S = MPS \times \Delta Y = MPS \times \frac{\Delta C}{MPS} = \Delta C < 0
+$$
 
 This is the **paradox of thrift**: what is rational for the individual (saving more) is collectively
 Irrational (everyone ends up poorer and saving less).
@@ -418,7 +450,9 @@ discuss why it Differs across countries.
 
 The **accelerator** links investment to changes in output:
 
-$$I = v(\Delta Y)$$
+$$
+I = v(\Delta Y)
+$$
 
 Where $v$ is the accelerator coefficient (capital-output ratio). A small change in output can induce
 A large change in investment.

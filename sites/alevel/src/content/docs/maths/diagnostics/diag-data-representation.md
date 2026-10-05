@@ -42,7 +42,9 @@ flowchart TD
 
 A botanist records the heights (in cm) of 12 sunflower plants from a controlled growth experiment:
 
-$$42,\; 45,\; 47,\; 48,\; 49,\; 50,\; 51,\; 52,\; 53,\; 54,\; 55,\; 180$$
+$$
+42,\; 45,\; 47,\; 48,\; 49,\; 50,\; 51,\; 52,\; 53,\; 54,\; 55,\; 180
+$$
 
 **(a)** Calculate the mean, median, and mode of the full dataset.
 
@@ -65,31 +67,41 @@ counterexample.]
 **(a)** There are 12 data values, so $n = 12$.
 
 **Mean:**
-$$\bar{x} = \frac{42 + 45 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55 + 180}{12} = \frac{826}{12} = 68.83 \text{ cm (2 d.p.)}$$
+$$
+\bar{x} = \frac{42 + 45 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55 + 180}{12} = \frac{826}{12} = 68.83 \text{ cm (2 d.p.)}
+$$
 
 **Median:** Since $n = 12$ is even, the median is the average of the 6th and 7th values. The ordered
 data is already given in ascending order.
 
-$$\text{Median} = \frac{50 + 51}{2} = 50.5 \text{ cm}$$
+$$
+\text{Median} = \frac{50 + 51}{2} = 50.5 \text{ cm}
+$$
 
 **Mode:** Every value appears exactly once, so there is no mode.
 
 **(b)** Replacing 180 with 58 gives the dataset:
 
-$$42,\; 45,\; 47,\; 48,\; 49,\; 50,\; 51,\; 52,\; 53,\; 54,\; 55,\; 58$$
+$$
+42,\; 45,\; 47,\; 48,\; 49,\; 50,\; 51,\; 52,\; 53,\; 54,\; 55,\; 58
+$$
 
 **Mean:** $$\bar{x} = \frac{704}{12} = 58.67 \text{ cm (2 d.p.)}$$
 
 **Median:** Average of 6th and 7th values:
 
-$$\text{Median} = \frac{50 + 51}{2} = 50.5 \text{ cm}$$
+$$
+\text{Median} = \frac{50 + 51}{2} = 50.5 \text{ cm}
+$$
 
 **Mode:** Still no mode.
 
 **(c)** The standard deviation is more affected by the outlier. This is because the standard
 deviation involves squaring the deviations from the mean:
 
-$$s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}$$
+$$
+s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}
+$$
 
 The outlier 180 is very far from the mean (about 111 cm away), so $(180 - 68.83)^2 \approx 12370$
 contributes enormously to the sum of squared deviations. The interquartile range (IQR), by contrast,
@@ -165,7 +177,9 @@ classes and under-represents wide classes.
 
 The correct quantity for the vertical axis is the **frequency density**, defined as:
 
-$$\text{Frequency density} = \frac{\text{Frequency}}{\text{Class width}}$$
+$$
+\text{Frequency density} = \frac{\text{Frequency}}{\text{Class width}}
+$$
 
 **(b)** Frequency densities:
 
@@ -187,9 +201,13 @@ To estimate the mean, we use the midpoint of each class:
 | $35 \lt t \leq 60$ | 47.5         | 65            | 3087.5 |
 | $60 \lt t \leq 90$ | 75           | 29            | 2175   |
 
-$$\sum f = 200, \quad \sum fx = 7432.5$$
+$$
+\sum f = 200, \quad \sum fx = 7432.5
+$$
 
-$$\bar{x} = \frac{7432.5}{200} = 37.2 \text{ minutes}$$
+$$
+\bar{x} = \frac{7432.5}{200} = 37.2 \text{ minutes}
+$$
 
 **(c)** The class $35 \lt t \leq 60$ has the highest **frequency** (65), so more employees fall in
 this class than any other. However, the class with the highest **frequency density** is
@@ -212,7 +230,9 @@ Estimated frequency for $35 \lt t \leq 60$ with $t > 50$: $65 \times 0.4 = 26$.
 
 Total estimated frequency with $t > 50$: $26 + 29 = 55$.
 
-$$\text{Proportion} = \frac{55}{200} = 0.275$$
+$$
+\text{Proportion} = \frac{55}{200} = 0.275
+$$
 
 So approximately 27.5% of employees commute for more than 50 minutes.
 
@@ -234,7 +254,9 @@ So approximately 27.5% of employees commute for more than 50 minutes.
 The temperatures (in degrees Celsius) at a weather station at noon on 15 consecutive days are
 recorded. The summary statistics for the raw data are:
 
-$$\sum x = 285, \quad \sum x^2 = 5785$$
+$$
+\sum x = 285, \quad \sum x^2 = 5785
+$$
 
 The data is coded using the formula $y = \frac{x - 10}{5}$.
 
@@ -257,37 +279,55 @@ $b$.]
 
 **(a)** For the raw data:
 
-$$\bar{x} = \frac{\sum x}{n} = \frac{285}{15} = 19$$
+$$
+\bar{x} = \frac{\sum x}{n} = \frac{285}{15} = 19
+$$
 
-$$S_{xx} = \sum x^2 - \frac{(\sum x)^2}{n} = 5785 - \frac{285^2}{15} = 5785 - \frac{81225}{15} = 5785 - 5415 = 370$$
+$$
+S_{xx} = \sum x^2 - \frac{(\sum x)^2}{n} = 5785 - \frac{285^2}{15} = 5785 - \frac{81225}{15} = 5785 - 5415 = 370
+$$
 
-$$\text{Variance of } x = \frac{S_{xx}}{n-1} = \frac{370}{14} = \frac{185}{7}$$
+$$
+\text{Variance of } x = \frac{S_{xx}}{n-1} = \frac{370}{14} = \frac{185}{7}
+$$
 
-$$\text{SD of } x = \sqrt{\frac{185}{7}}$$
+$$
+\text{SD of } x = \sqrt{\frac{185}{7}}
+$$
 
 For the coded data $y = \frac{x - 10}{5} = \frac{1}{5}x - 2$:
 
-$$\bar{y} = \frac{1}{5}\bar{x} - 2 = \frac{19}{5} - 2 = 3.8 - 2 = 1.8$$
+$$
+\bar{y} = \frac{1}{5}\bar{x} - 2 = \frac{19}{5} - 2 = 3.8 - 2 = 1.8
+$$
 
 For the standard deviation: if $y = \frac{x - a}{b}$ Then
 $\text{SD}(y) = \frac{\text{SD}(x)}{|b|}$.
 
-$$\text{SD}(y) = \frac{1}{|5|} \times \sqrt{\frac{185}{7}} = \frac{1}{5}\sqrt{\frac{185}{7}} = \sqrt{\frac{185}{175}} = \sqrt{\frac{37}{35}}$$
+$$
+\text{SD}(y) = \frac{1}{|5|} \times \sqrt{\frac{185}{7}} = \frac{1}{5}\sqrt{\frac{185}{7}} = \sqrt{\frac{185}{175}} = \sqrt{\frac{37}{35}}
+$$
 
 Alternatively:
 
-$$\text{Variance of } y = \frac{1}{5^2} \times \text{Variance of } x = \frac{1}{25} \times \frac{185}{7} = \frac{185}{175} = \frac{37}{35}$$
+$$
+\text{Variance of } y = \frac{1}{5^2} \times \text{Variance of } x = \frac{1}{25} \times \frac{185}{7} = \frac{185}{175} = \frac{37}{35}
+$$
 
 **(b)** The key fact is:
 
-$$\text{Var}(aX + b) = a^2 \text{Var}(X)$$
+$$
+\text{Var}(aX + b) = a^2 \text{Var}(X)
+$$
 
 The constant $b$ (the additive shift) has **no effect** on the variance. The multiplicative factor
 $a$ affects the variance by $a^2$.
 
 For $y = \frac{x - 10}{5} = \frac{1}{5}x + \left(\frac{-10}{5}\right) = \frac{1}{5}x - 2$:
 
-$$\text{Var}(y) = \left(\frac{1}{5}\right)^2 \text{Var}(x) = \frac{1}{25}\text{Var}(x)$$
+$$
+\text{Var}(y) = \left(\frac{1}{5}\right)^2 \text{Var}(x) = \frac{1}{25}\text{Var}(x)
+$$
 
 So $\text{SD}(y) = \frac{1}{5}\text{SD}(x)$.
 
@@ -301,15 +341,23 @@ the question, and the answer is: it does not matter because variance depends on 
 
 **(c)** For $z = 3 - 2x = -2x + 3$:
 
-$$\bar{z} = -2\bar{x} + 3 = -2(19) + 3 = -38 + 3 = -35$$
+$$
+\bar{z} = -2\bar{x} + 3 = -2(19) + 3 = -38 + 3 = -35
+$$
 
-$$\text{Var}(z) = (-2)^2 \text{Var}(x) = 4 \times \frac{185}{7} = \frac{740}{7}$$
+$$
+\text{Var}(z) = (-2)^2 \text{Var}(x) = 4 \times \frac{185}{7} = \frac{740}{7}
+$$
 
 For $w = 2x - 3$:
 
-$$\bar{w} = 2(19) - 3 = 38 - 3 = 35$$
+$$
+\bar{w} = 2(19) - 3 = 38 - 3 = 35
+$$
 
-$$\text{Var}(w) = 2^2 \text{Var}(x) = 4 \times \frac{185}{7} = \frac{740}{7}$$
+$$
+\text{Var}(w) = 2^2 \text{Var}(x) = 4 \times \frac{185}{7} = \frac{740}{7}
+$$
 
 The variances are equal: $\text{Var}(z) = \text{Var}(w)$.
 
@@ -367,15 +415,21 @@ means is approximately normal. [The standard deviation of bolt lengths is estima
 
 **(a)** Defective bolts are those in the classes $24.0 \leq x \lt 24.5$ and $26.5 \leq x \lt 27.0$.
 
-$$P(\text{defective}) = \frac{20 + 15}{500} = \frac{35}{500} = 0.07$$
+$$
+P(\text{defective}) = \frac{20 + 15}{500} = \frac{35}{500} = 0.07
+$$
 
 **(b)** Let $D$ be the number of defective bolts in a box of 10. Then $D \sim B(10, 0.07)$.
 
 Using the complement:
 
-$$P(D \geq 1) = 1 - P(D = 0) = 1 - (0.93)^{10}$$
+$$
+P(D \geq 1) = 1 - P(D = 0) = 1 - (0.93)^{10}
+$$
 
-$$1 - (0.93)^{10} = 1 - 0.4839... = 0.516 \text{ (3 s.f.)}$$
+$$
+1 - (0.93)^{10} = 1 - 0.4839... = 0.516 \text{ (3 s.f.)}
+$$
 
 There is approximately a 51.6% chance that a box contains at least one defective bolt.
 
@@ -392,11 +446,15 @@ Estimate the sample mean using class midpoints:
 | $26.0 \leq x \lt 26.5$ | 26.25        | 75            | 1968.75 |
 | $26.5 \leq x \lt 27.0$ | 26.75        | 15            | 401.25  |
 
-$$\bar{x} = \frac{12732.5}{500} = 25.465 \text{ mm}$$
+$$
+\bar{x} = \frac{12732.5}{500} = 25.465 \text{ mm}
+$$
 
 The test statistic under $H_0$:
 
-$$z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}} = \frac{25.465 - 25.5}{0.60 / \sqrt{500}} = \frac{-0.035}{0.02683} = -1.305$$
+$$
+z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}} = \frac{25.465 - 25.5}{0.60 / \sqrt{500}} = \frac{-0.035}{0.02683} = -1.305
+$$
 
 For a two-tailed test at the 5% level, the critical values are $z = \pm 1.96$.
 
@@ -525,7 +583,9 @@ in the middle, so the slope becomes slightly less negative (i.e., less steep in 
 
 A continuous random variable $X$ has probability density function:
 
-$$f(x) = \begin{cases} \frac{3}{64}x^2 & \quad 0 \leq x \leq 4 \\ 0 & \quad \text{otherwise} \end{cases}$$
+$$
+f(x) = \begin{cases} \frac{3}{64}x^2 & \quad 0 \leq x \leq 4 \\ 0 & \quad \text{otherwise} \end{cases}
+$$
 
 **(a)** Verify that $f(x)$ is a valid probability density function.
 
@@ -549,33 +609,53 @@ $\int_{-\infty}^{\infty} f(x)\,dx = 1$.
 
 Since $x^2 \geq 0$ and $\frac{3}{64} > 0$We have $f(x) \geq 0$ on $[0, 4]$ and $f(x) = 0$ elsewhere.
 
-$$\int_{0}^{4} \frac{3}{64}x^2\,dx = \frac{3}{64}\left[\frac{x^3}{3}\right]_0^4 = \frac{3}{64} \cdot \frac{64}{3} = 1 \checkmark$$
+$$
+\int_{0}^{4} \frac{3}{64}x^2\,dx = \frac{3}{64}\left[\frac{x^3}{3}\right]_0^4 = \frac{3}{64} \cdot \frac{64}{3} = 1 \checkmark
+$$
 
 **(b)** The median $m$ satisfies $\int_{0}^{m} f(x)\,dx = 0.5$:
 
-$$\int_{0}^{m} \frac{3}{64}x^2\,dx = \frac{3}{64} \cdot \frac{m^3}{3} = \frac{m^3}{64} = 0.5$$
+$$
+\int_{0}^{m} \frac{3}{64}x^2\,dx = \frac{3}{64} \cdot \frac{m^3}{3} = \frac{m^3}{64} = 0.5
+$$
 
-$$m^3 = 32$$
+$$
+m^3 = 32
+$$
 
-$$m = 32^{1/3} = 3.1748... \approx 3.17 \text{ (3 s.f.)}$$
+$$
+m = 32^{1/3} = 3.1748... \approx 3.17 \text{ (3 s.f.)}
+$$
 
 **(c)** $Q_1$ satisfies $\int_{0}^{Q_1} f(x)\,dx = 0.25$:
 
-$$\frac{Q_1^3}{64} = 0.25 \implies Q_1^3 = 16 \implies Q_1 = 16^{1/3} = 2.520 \text{ (3 s.f.)}$$
+$$
+\frac{Q_1^3}{64} = 0.25 \implies Q_1^3 = 16 \implies Q_1 = 16^{1/3} = 2.520 \text{ (3 s.f.)}
+$$
 
 $Q_3$ satisfies $\int_{0}^{Q_3} f(x)\,dx = 0.75$:
 
-$$\frac{Q_3^3}{64} = 0.75 \implies Q_3^3 = 48 \implies Q_3 = 48^{1/3} = 3.634 \text{ (3 s.f.)}$$
+$$
+\frac{Q_3^3}{64} = 0.75 \implies Q_3^3 = 48 \implies Q_3 = 48^{1/3} = 3.634 \text{ (3 s.f.)}
+$$
 
-$$\text{IQR} = Q_3 - Q_1 = 3.634 - 2.520 = 1.114 \approx 1.11 \text{ (3 s.f.)}$$
+$$
+\text{IQR} = Q_3 - Q_1 = 3.634 - 2.520 = 1.114 \approx 1.11 \text{ (3 s.f.)}
+$$
 
 **(d)** First, the true expected value:
 
-$$\mathrm{E}(X) = \int_{0}^{4} x \cdot \frac{3}{64}x^2\,dx = \frac{3}{64}\int_{0}^{4} x^3\,dx = \frac{3}{64}\left[\frac{x^4}{4}\right]_0^4 = \frac{3}{64} \cdot 64 = 3$$
+$$
+\mathrm{E}(X) = \int_{0}^{4} x \cdot \frac{3}{64}x^2\,dx = \frac{3}{64}\int_{0}^{4} x^3\,dx = \frac{3}{64}\left[\frac{x^4}{4}\right]_0^4 = \frac{3}{64} \cdot 64 = 3
+$$
 
-$$\mathrm{E}(X^2) = \int_{0}^{4} x^2 \cdot \frac{3}{64}x^2\,dx = \frac{3}{64}\int_{0}^{4} x^4\,dx = \frac{3}{64}\left[\frac{x^5}{5}\right]_0^4 = \frac{3}{64} \cdot \frac{1024}{5} = \frac{3072}{320} = \frac{48}{5} = 9.6$$
+$$
+\mathrm{E}(X^2) = \int_{0}^{4} x^2 \cdot \frac{3}{64}x^2\,dx = \frac{3}{64}\int_{0}^{4} x^4\,dx = \frac{3}{64}\left[\frac{x^5}{5}\right]_0^4 = \frac{3}{64} \cdot \frac{1024}{5} = \frac{3072}{320} = \frac{48}{5} = 9.6
+$$
 
-$$\mathrm{Var}(X) = 9.6 - 9 = 0.6, \quad \mathrm{SD}(X) = \sqrt{0.6} = \frac{3}{\sqrt{5}} \approx 0.7746$$
+$$
+\mathrm{Var}(X) = 9.6 - 9 = 0.6, \quad \mathrm{SD}(X) = \sqrt{0.6} = \frac{3}{\sqrt{5}} \approx 0.7746
+$$
 
 Now the grouped estimates. We need the class frequencies. Since we are modelling from the PDF, the
 expected frequency in each class (out of a large sample) is proportional to the class probability:
@@ -595,11 +675,17 @@ PDF is increasing, so the midpoint systematically underestimates the class mean 
 
 Estimated variance:
 
-$$\mathrm{E}(X^2) \approx 0.00391 + 0.24609 + 1.85547 + 7.08203 = 9.1875$$
+$$
+\mathrm{E}(X^2) \approx 0.00391 + 0.24609 + 1.85547 + 7.08203 = 9.1875
+$$
 
-$$\text{Estimated Var} \approx 9.1875 - 2.9375^2 = 9.1875 - 8.6289 = 0.5586$$
+$$
+\text{Estimated Var} \approx 9.1875 - 2.9375^2 = 9.1875 - 8.6289 = 0.5586
+$$
 
-$$\text{Estimated SD} \approx \sqrt{0.5586} \approx 0.747$$
+$$
+\text{Estimated SD} \approx \sqrt{0.5586} \approx 0.747
+$$
 
 The true SD is 0.775, so the grouped estimate underestimates by about 3.6%. The grouped frequency
 approach loses precision because it replaces the continuous distribution with a discrete

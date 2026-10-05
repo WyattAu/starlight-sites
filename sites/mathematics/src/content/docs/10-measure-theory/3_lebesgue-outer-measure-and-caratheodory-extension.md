@@ -33,7 +33,9 @@ An **outer measure** on $X$ is a function $\mu^* : \mathcal{P}(X) \to [0, \infty
 
 The **Lebesgue outer measure** of $A \subseteq \mathbb{R}$ is
 
-$$m^*(A) = \inf\left\{\sum_{n=1}^{\infty}(b_n - a_n) : A \subseteq \bigcup_{n=1}^{\infty}(a_n, b_n)\right\}$$
+$$
+m^*(A) = \inf\left\{\sum_{n=1}^{\infty}(b_n - a_n) : A \subseteq \bigcup_{n=1}^{\infty}(a_n, b_n)\right\}
+$$
 
 where the infimum is taken over all countable coverings of $A$ by open intervals.
 
@@ -52,11 +54,15 @@ where the infimum is taken over all countable coverings of $A$ by open intervals
 
 A set $A \subseteq X$ is **$\mu^*$-measurable** (Caratheodory measurable) if for every $E \subseteq X$:
 
-$$\mu^*(E) = \mu^*(E \cap A) + \mu^*(E \cap A^c)$$
+$$
+\mu^*(E) = \mu^*(E \cap A) + \mu^*(E \cap A^c)
+$$
 
 Since subadditivity always gives $\mu^*(E) \leq \mu^*(E \cap A) + \mu^*(E \cap A^c)$, the condition reduces to:
 
-$$\mu^*(E) \geq \mu^*(E \cap A) + \mu^*(E \cap A^c) \quad \text{for all } E \subseteq X.$$
+$$
+\mu^*(E) \geq \mu^*(E \cap A) + \mu^*(E \cap A^c) \quad \text{for all } E \subseteq X.
+$$
 
 **Lemma 3.3.** The collection $\mathcal{M}$ of all $\mu^*$-measurable sets is an algebra.
 
@@ -64,10 +70,16 @@ $$\mu^*(E) \geq \mu^*(E \cap A) + \mu^*(E \cap A^c) \quad \text{for all } E \sub
 
 - **Complement:** If $A \in \mathcal{M}$, then $A^c \in \math{M}$ by symmetry of the condition.
 - **Finite union:** If $A, B \in \mathcal{M}$, then for any $E$:
-  $$\mu^*(E) = \mu^*(E \cap A) + \mu^*(E \cap A^c)$$
+  $$
+  \mu^*(E) = \mu^*(E \cap A) + \mu^*(E \cap A^c)
+  $$
   Applying measurability of $B$ to $E \cap A$ and to $E \cap A^c$:
-  $$\mu^*(E \cap A) = \mu^*(E \cap A \cap B) + \mu^*(E \cap A \cap B^c)$$
-  $$\mu^*(E \cap A^c) = \mu^*(E \cap A^c \cap B) + \mu^*(E \cap A^c \cap B^c)$$
+  $$
+  \mu^*(E \cap A) = \mu^*(E \cap A \cap B) + \mu^*(E \cap A \cap B^c)
+  $$
+  $$
+  \mu^*(E \cap A^c) = \mu^*(E \cap A^c \cap B) + \mu^*(E \cap A^c \cap B^c)
+  $$
   Combining: $\mu^*(E) = \mu^*(E \cap (A \cup B)) + \mu^*(E \cap (A \cup B)^c)$, so $A \cup B \in \mathcal{M}$. $\square$
 
 ### 3.4 Caratheodory Extension Theorem
@@ -78,7 +90,9 @@ $$\mu^*(E) \geq \mu^*(E \cap A) + \mu^*(E \cap A^c) \quad \text{for all } E \sub
 
 1. $\mathcal{M}$ is an algebra (Lemma 3.3).
 2. $\mathcal{M}$ is closed under countable unions: use the fact that if $A_n \in \mathcal{M}$ are pairwise disjoint, then for any $E$:
-   $$\mu^*\left(E \cap \bigcup_{n=1}^{N} A_n\right) = \sum_{n=1}^{N} \mu^*(E \cap A_n)$$
+   $$
+   \mu^*\left(E \cap \bigcup_{n=1}^{N} A_n\right) = \sum_{n=1}^{N} \mu^*(E \cap A_n)
+   $$
    by induction. Letting $N \to \infty$ and using countable subadditivity gives countable additivity on $\mathcal{M}$.
 3. Completeness: if $N \subseteq M$ with $\mu^*(M) = 0$, then $N \in \mathcal{M}$ (since $\mu^*(E \cap N) \leq \mu^*(N) = 0$). $\square$
 
@@ -109,7 +123,9 @@ Not every subset of $\mathbb{R}$ is Lebesgue measurable.
 
 **Theorem 3.10 (Lebesgue Density Theorem).** For any Lebesgue measurable set $A \subseteq \mathbb{R}$, the density
 
-$$\lim_{r \to 0} \frac{m(A \cap B(x, r))}{m(B(x, r))}$$
+$$
+\lim_{r \to 0} \frac{m(A \cap B(x, r))}{m(B(x, r))}
+$$
 
 exists and equals $1$ for almost every $x \in A$ and $0$ for almost every $x \notin A$.
 

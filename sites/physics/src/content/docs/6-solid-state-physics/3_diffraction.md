@@ -21,7 +21,9 @@ description: "X-ray diffraction from crystal planes produces constructive interf
 
 X-ray diffraction from crystal planes produces constructive interference when:
 
-$$2d\sin\theta = n\lambda$$
+$$
+2d\sin\theta = n\lambda
+$$
 
 Where $d$ is the interplanar spacing, $\theta$ is the angle of incidence, and $n$ is the order.
 
@@ -35,7 +37,9 @@ first-order Reflection from $(nh\ nk\ nl)$ planes with spacing $d/n$.
 
 Diffraction occurs when the scattering vector equals a reciprocal lattice vector:
 
-$$\Delta\mathbf{k} = \mathbf{k}' - \mathbf{k} = \mathbf{G}$$
+$$
+\Delta\mathbf{k} = \mathbf{k}' - \mathbf{k} = \mathbf{G}
+$$
 
 This is equivalent to Bragg's law. Since $\lvert\mathbf{k}\rvert = \lvert\mathbf{k}'\rvert$ (elastic
 Scattering), the Laue condition requires $\mathbf{k}$ to terminate on the **Ewald sphere** (a sphere
@@ -44,13 +48,19 @@ Of radius $k$ centred at the tip of $\mathbf{k}$).
 **Equivalence with Bragg's law.** From
 $\lvert\mathbf{k}\rvert = \lvert\mathbf{k} + \mathbf{G}\rvert$:
 
-$$k^2 = \lvert\mathbf{k} + \mathbf{G}\rvert^2 = k^2 + G^2 + 2\mathbf{k}\cdot\mathbf{G}$$
+$$
+k^2 = \lvert\mathbf{k} + \mathbf{G}\rvert^2 = k^2 + G^2 + 2\mathbf{k}\cdot\mathbf{G}
+$$
 
-$$\implies \mathbf{k}\cdot\mathbf{G} = -\frac{G^2}{2}$$
+$$
+\implies \mathbf{k}\cdot\mathbf{G} = -\frac{G^2}{2}
+$$
 
 Since $G = 2\pi/d$ and $\lvert\mathbf{k}\cdot\hat{\mathbf{G}}\rvert = k\sin\theta$:
 
-$$k\sin\theta = \frac{G}{2} = \frac{\pi}{d}$$
+$$
+k\sin\theta = \frac{G}{2} = \frac{\pi}{d}
+$$
 
 Using $k = 2\pi/\lambda$: $2d\sin\theta = \lambda$ (first order). $\blacksquare$
 
@@ -58,20 +68,26 @@ Using $k = 2\pi/\lambda$: $2d\sin\theta = \lambda$ (first order). $\blacksquare$
 
 The **structure factor** determines the intensity of diffraction from planes $(hkl)$:
 
-$$S_{hkl} = \sum_j f_j e^{-i\mathbf{G}_{hkl}\cdot\mathbf{d}_j}$$
+$$
+S_{hkl} = \sum_j f_j e^{-i\mathbf{G}_{hkl}\cdot\mathbf{d}_j}
+$$
 
 Where $f_j$ is the atomic form factor of atom $j$ at position $\mathbf{d}_j$ in the basis.
 
 **Example: BCC.** Two atoms at $(0,0,0)$ and $(a/2, a/2, a/2)$ in the conventional cell:
 
-$$S_{hkl} = f\left[1 + e^{-i\pi(h+k+l)}\right] = f\left[1 + (-1)^{h+k+l}\right]$$
+$$
+S_{hkl} = f\left[1 + e^{-i\pi(h+k+l)}\right] = f\left[1 + (-1)^{h+k+l}\right]
+$$
 
 Reflections are present only when $h + k + l$ is even. When $h + k + l$ is odd, $S_{hkl} = 0$
 (systematic absence).
 
 **Example: FCC.** Atoms at $(0,0,0)$, $(a/2,a/2,0)$, $(a/2,0,a/2)$, $(0,a/2,a/2)$:
 
-$$S_{hkl} = f\left[1 + e^{-i\pi(h+k)} + e^{-i\pi(h+l)} + e^{-i\pi(k+l)}\right]$$
+$$
+S_{hkl} = f\left[1 + e^{-i\pi(h+k)} + e^{-i\pi(h+l)} + e^{-i\pi(k+l)}\right]
+$$
 
 Reflections present only when $h, k, l$ are all even or all odd.
 
@@ -85,7 +101,9 @@ Sublattice factor $S_{\mathrm{FCC}}$ is nonzero only when $h,k,l$ are all even o
 
 The full structure factor is:
 
-$$S_{hkl} = S_{\mathrm{FCC} \cdot \left[1 + e^{-i\frac{\pi}{2}(h+k+l)}\right]}$$
+$$
+S_{hkl} = S_{\mathrm{FCC} \cdot \left[1 + e^{-i\frac{\pi}{2}(h+k+l)}\right]}
+$$
 
 For allowed FCC reflections:
 
@@ -107,7 +125,9 @@ Hexagonal lattice.
 
 The structure factor is:
 
-$$S_{hkl} = f\left[1 + e^{2\pi i(h/3 + k/3 + l/2)}\right] = f\left[1 + e^{2\pi i(2h+k)/3}\,e^{i\pi l}\right]$$
+$$
+S_{hkl} = f\left[1 + e^{2\pi i(h/3 + k/3 + l/2)}\right] = f\left[1 + e^{2\pi i(2h+k)/3}\,e^{i\pi l}\right]
+$$
 
 For $l$ even: $e^{i\pi l} = 1$ So $S = f[1 + e^{2\pi i(2h+k)/3}]$. For $l$ odd: $e^{i\pi l} = -1$ So
 $S = f[1 - e^{2\pi i(2h+k)/3}]$.
@@ -147,7 +167,9 @@ Intensity is proportional to $\lvert S_{hkl}\rvert^2$ times multiplicity and geo
 **Scherrer equation.** For crystallites of size $L$The diffraction peaks are broadened. The Full
 width at half maximum (FWHM) $\beta$ (in radians) relates to the crystallite size by:
 
-$$L = \frac{K\lambda}{\beta\cos\theta}$$
+$$
+L = \frac{K\lambda}{\beta\cos\theta}
+$$
 
 Where $K \approx 0.89$ is the Scherrer constant. This provides a straightforward method for
 Estimating nanocrystallite sizes from powder diffraction data.

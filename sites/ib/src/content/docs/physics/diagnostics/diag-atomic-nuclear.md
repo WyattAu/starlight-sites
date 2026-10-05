@@ -54,7 +54,9 @@ a hydrogen atom.
 (a) In the Bohr model, the electron orbits the proton under the Coulomb force, which provides the
 centripetal force:
 
-$$\frac{ke^2}{r_n^2} = \frac{m_e v_n^2}{r_n}$$
+$$
+\frac{ke^2}{r_n^2} = \frac{m_e v_n^2}{r_n}
+$$
 
 Bohr"s quantisation condition: $m_e v_n r_n = n\hbar$ where $\hbar = h/(2\pi)$.
 
@@ -62,13 +64,21 @@ From the quantisation condition: $v_n = n\hbar/(m_e r_n)$.
 
 Substituting into the force equation:
 
-$$\frac{ke^2}{r_n^2} = \frac{m_e}{r_n} \times \frac{n^2\hbar^2}{m_e^2 r_n^2} = \frac{n^2\hbar^2}{m_e r_n^3}$$
+$$
+\frac{ke^2}{r_n^2} = \frac{m_e}{r_n} \times \frac{n^2\hbar^2}{m_e^2 r_n^2} = \frac{n^2\hbar^2}{m_e r_n^3}
+$$
 
-$$r_n^3 = \frac{n^2\hbar^2}{m_e ke^2}$$
+$$
+r_n^3 = \frac{n^2\hbar^2}{m_e ke^2}
+$$
 
-$$r_n = \frac{n^2\hbar^2}{m_e ke^2} = \frac{n^2 \times (h/2\pi)^2}{m_e ke^2} = \frac{n^2 h^2}{4\pi^2 m_e ke^2}$$
+$$
+r_n = \frac{n^2\hbar^2}{m_e ke^2} = \frac{n^2 \times (h/2\pi)^2}{m_e ke^2} = \frac{n^2 h^2}{4\pi^2 m_e ke^2}
+$$
 
-$$r_n = \frac{\varepsilon_0 n^2 h^2}{\pi m_e e^2}$$
+$$
+r_n = \frac{\varepsilon_0 n^2 h^2}{\pi m_e e^2}
+$$
 
 For $n = 1$:
 $r_1 = \frac{8.854 \times 10^{-12} \times (6.626 \times 10^{-34})^2}{\pi \times 9.109 \times 10^{-31} \times (1.602 \times 10^{-19})^2} = 5.29 \times 10^{-11}\,\text{m}$
@@ -86,7 +96,9 @@ Photon energy: $\Delta E = E_4 - E_2 = -0.85 - (-3.40) = 2.55\,\text{eV}$
 Wavelength:
 $\lambda = hc/\Delta E = (6.626 \times 10^{-34} \times 3.0 \times 10^8)/(2.55 \times 1.602 \times 10^{-19})$
 
-$$= 1.988 \times 10^{-25}/4.085 \times 10^{-19} = 4.87 \times 10^{-7}\,\text{m} = 487\,\text{nm}$$
+$$
+= 1.988 \times 10^{-25}/4.085 \times 10^{-19} = 4.87 \times 10^{-7}\,\text{m} = 487\,\text{nm}
+$$
 
 This is in the blue-green region of the visible spectrum (part of the Balmer series).
 
@@ -213,21 +225,29 @@ $\lambda = \frac{\ln 2}{t_{1/2}} = \frac{0.693}{5.0 \times 3600} = 3.85 \times 1
 
 Number after $20\,\text{hours}$ ($4$ half-lives):
 
-$$N = N_0 \times 2^{-t/t_{1/2}} = 1.0 \times 10^{20} \times 2^{-4} = 6.25 \times 10^{18}$$
+$$
+N = N_0 \times 2^{-t/t_{1/2}} = 1.0 \times 10^{20} \times 2^{-4} = 6.25 \times 10^{18}
+$$
 
 (b) The probability that a given nucleus decays in time $\Delta t$ is:
 
-$$P = 1 - e^{-\lambda \Delta t}$$
+$$
+P = 1 - e^{-\lambda \Delta t}
+$$
 
 For $\Delta t = 1.0\,\text{hour} = 3600\,\text{s}$:
 
-$$P = 1 - e^{-3.85 \times 10^{-5} \times 3600} = 1 - e^{-0.1386} = 1 - 0.8706 = 0.1294$$
+$$
+P = 1 - e^{-3.85 \times 10^{-5} \times 3600} = 1 - e^{-0.1386} = 1 - 0.8706 = 0.1294
+$$
 
 So there is a $12.9\%$ probability that any given nucleus will decay within the next hour.
 
 (c) Theoretical activity at $t = 20\,\text{hours}$:
 
-$$A = \lambda N = 3.85 \times 10^{-5} \times 6.25 \times 10^{18} = 2.41 \times 10^{14}\,\text{Bq}$$
+$$
+A = \lambda N = 3.85 \times 10^{-5} \times 6.25 \times 10^{18} = 2.41 \times 10^{14}\,\text{Bq}
+$$
 
 The measured value of $(3.2 \pm 0.16) \times 10^{14}\,\text{Bq}$ does not agree with the theoretical
 prediction of $2.41 \times 10^{14}\,\text{Bq}$. The measurement is outside the uncertainty range.
@@ -265,7 +285,9 @@ $200\,\text{MeV} = 200 \times 1.602 \times 10^{-13} = 3.204 \times 10^{-11}\,\te
 Number of fissions per second:
 $n = P/(E_{\text{per fission}}) = 3000 \times 10^6/3.204 \times 10^{-11}$
 
-$$n = 9.36 \times 10^{19}\,\text{fissions/s}$$
+$$
+n = 9.36 \times 10^{19}\,\text{fissions/s}
+$$
 
 (b) Mass of $\text{U-235}$ per fission:
 $m = 235 \times 1.661 \times 10^{-27} = 3.903 \times 10^{-25}\,\text{kg}$
@@ -344,9 +366,13 @@ For beta (same speed $v$): $r_\beta = m_e v/(eB)$
 Ratio:
 $r_\beta/r_\alpha = (m_e/eB)/(m_\alpha/2eB) = 2m_e/m_\alpha = 2 \times 9.109 \times 10^{-31}/(4 \times 1.661 \times 10^{-27})$
 
-$$= 1.822 \times 10^{-30}/6.644 \times 10^{-27} = 2.74 \times 10^{-4}$$
+$$
+= 1.822 \times 10^{-30}/6.644 \times 10^{-27} = 2.74 \times 10^{-4}
+$$
 
-$$r_\beta = 0.20 \times 2.74 \times 10^{-4} = 5.48 \times 10^{-5}\,\text{m} = 54.8\,\mu\text{m}$$
+$$
+r_\beta = 0.20 \times 2.74 \times 10^{-4} = 5.48 \times 10^{-5}\,\text{m} = 54.8\,\mu\text{m}
+$$
 
 The beta particle's path radius is much smaller because of its much smaller mass.
 

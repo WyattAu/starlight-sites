@@ -49,11 +49,17 @@ For BCC: $Z = 2$ atoms per unit cell.
 Edge length: $a = 3.0 \, \text{\AA} = 3.0 \times 10^{-8} \, \text{cm}$
 
 Volume of unit cell:
-$$a^3 = (3.0 \times 10^{-8})^3 = 27 \times 10^{-24} \, \text{cm}^3$$
+$$
+a^3 = (3.0 \times 10^{-8})^3 = 27 \times 10^{-24} \, \text{cm}^3
+$$
 
 Density:
-$$\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 52}{6.022 \times 10^{23} \times 27 \times 10^{-24}}$$
-$$= \frac{104}{16.2594} \approx 6.40 \, \text{g/cm}^3$$
+$$
+\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 52}{6.022 \times 10^{23} \times 27 \times 10^{-24}}
+$$
+$$
+= \frac{104}{16.2594} \approx 6.40 \, \text{g/cm}^3
+$$
 
 ## Worked Example 2, Packing Efficiency of FCC
 
@@ -62,18 +68,26 @@ $$= \frac{104}{16.2594} \approx 6.40 \, \text{g/cm}^3$$
 **Solution:**
 
 In FCC: atoms touch along the face diagonal.
-$$\sqrt{2}a = 4r \implies a = \frac{4r}{\sqrt{2}} = 2\sqrt{2}r$$
+$$
+\sqrt{2}a = 4r \implies a = \frac{4r}{\sqrt{2}} = 2\sqrt{2}r
+$$
 
 Volume of unit cell:
-$$a^3 = (2\sqrt{2}r)^3 = 16\sqrt{2}r^3$$
+$$
+a^3 = (2\sqrt{2}r)^3 = 16\sqrt{2}r^3
+$$
 
 Number of atoms in FCC: $Z = 4$
 
 Volume occupied by atoms:
-$$V_{atoms} = 4 \times \frac{4}{3}\pi r^3 = \frac{16}{3}\pi r^3$$
+$$
+V_{atoms} = 4 \times \frac{4}{3}\pi r^3 = \frac{16}{3}\pi r^3
+$$
 
 Packing efficiency:
-$$\text{PE} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} \times 100\% = \frac{\pi}{3\sqrt{2}} \times 100\% \approx \frac{3.1416}{4.2426} \times 100\% \approx 74.05\%$$
+$$
+\text{PE} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} \times 100\% = \frac{\pi}{3\sqrt{2}} \times 100\% \approx \frac{3.1416}{4.2426} \times 100\% \approx 74.05\%
+$$
 
 ## Worked Example 3, Radius of an Atom from Unit Cell Data
 
@@ -84,14 +98,22 @@ $$\text{PE} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} \times 100\% = \frac{\pi
 For BCC: $Z = 2$.
 
 From density formula:
-$$a^3 = \frac{ZM}{\rho N_A} = \frac{2 \times 56}{7.86 \times 6.022 \times 10^{23}}$$
-$$= \frac{112}{4.733 \times 10^{24}} = 23.66 \times 10^{-24} \, \text{cm}^3$$
+$$
+a^3 = \frac{ZM}{\rho N_A} = \frac{2 \times 56}{7.86 \times 6.022 \times 10^{23}}
+$$
+$$
+= \frac{112}{4.733 \times 10^{24}} = 23.66 \times 10^{-24} \, \text{cm}^3
+$$
 
-$$a = \sqrt[3]{23.66 \times 10^{-24}} = 2.87 \times 10^{-8} \, \text{cm} = 2.87 \, \text{\AA}$$
+$$
+a = \sqrt[3]{23.66 \times 10^{-24}} = 2.87 \times 10^{-8} \, \text{cm} = 2.87 \, \text{\AA}
+$$
 
 For BCC: $a = \frac{4r}{\sqrt{3}}$
 
-$$r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \approx 1.24 \, \text{\AA}$$
+$$
+r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \approx 1.24 \, \text{\AA}
+$$
 
 ## Practice Problems
 
@@ -121,20 +143,30 @@ $$r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \appro
 **Solution:**
 
 In BCC: atoms touch along the body diagonal.
-$$\sqrt{3}a = 4r \implies a = \frac{4r}{\sqrt{3}}$$
+$$
+\sqrt{3}a = 4r \implies a = \frac{4r}{\sqrt{3}}
+$$
 
 Volume of unit cell:
-$$a^3 = \left(\frac{4r}{\sqrt{3}}\right)^3 = \frac{64r^3}{3\sqrt{3}}$$
+$$
+a^3 = \left(\frac{4r}{\sqrt{3}}\right)^3 = \frac{64r^3}{3\sqrt{3}}
+$$
 
 Number of atoms in BCC: $Z = 2$
 
 Volume occupied by atoms:
-$$V_{atoms} = 2 \times \frac{4}{3}\pi r^3 = \frac{8}{3}\pi r^3$$
+$$
+V_{atoms} = 2 \times \frac{4}{3}\pi r^3 = \frac{8}{3}\pi r^3
+$$
 
 Packing efficiency:
-$$\text{PE} = \frac{\frac{8}{3}\pi r^3}{\frac{64r^3}{3\sqrt{3}}} \times 100\% = \frac{8\pi}{3} \times \frac{3\sqrt{3}}{64} \times 100\% = \frac{\pi\sqrt{3}}{8} \times 100\%$$
+$$
+\text{PE} = \frac{\frac{8}{3}\pi r^3}{\frac{64r^3}{3\sqrt{3}}} \times 100\% = \frac{8\pi}{3} \times \frac{3\sqrt{3}}{64} \times 100\% = \frac{\pi\sqrt{3}}{8} \times 100\%
+$$
 
-$$\text{PE} = \frac{3.1416 \times 1.732}{8} \times 100\% = \frac{5.441}{8} \times 100\% \approx 68.02\%$$
+$$
+\text{PE} = \frac{3.1416 \times 1.732}{8} \times 100\% = \frac{5.441}{8} \times 100\% \approx 68.02\%
+$$
 
 **Answer:** The packing efficiency of BCC is approximately 68%.
 
@@ -147,12 +179,16 @@ $$\text{PE} = \frac{3.1416 \times 1.732}{8} \times 100\% = \frac{5.441}{8} \time
 **Solution:**
 
 In FCC, the radius of the largest tetrahedral void is:
-$$r_{void} = 0.225r$$
+$$
+r_{void} = 0.225r
+$$
 
 This ratio comes from the geometry of the tetrahedral void formed by four atoms in the FCC structure.
 
 For example, if the metal has $r = 1.25 \, \text{\AA}$:
-$$r_{void} = 0.225 \times 1.25 = 0.281 \, \text{\AA}$$
+$$
+r_{void} = 0.225 \times 1.25 = 0.281 \, \text{\AA}
+$$
 
 **Common mistake:** Confusing tetrahedral voids (radius ratio 0.225) with octahedral voids (radius ratio 0.414).
 

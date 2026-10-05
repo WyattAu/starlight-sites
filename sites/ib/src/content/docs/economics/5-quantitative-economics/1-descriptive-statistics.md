@@ -33,22 +33,30 @@ changes. **Real values** are adjusted for price level changes and reflect only q
 
 ### GDP Deflator
 
-$$\text{GDP Deflator} = \frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100$$
+$$
+\text{GDP Deflator} = \frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100
+$$
 
-$$\text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100$$
+$$
+\text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100
+$$
 
 ### Real Interest Rates
 
 The **Fisher equation** relates nominal and real interest rates:
 
-$$(1 + i) = (1 + r)(1 + \pi^e)$$
+$$
+(1 + i) = (1 + r)(1 + \pi^e)
+$$
 
 Where $i$ is the nominal interest rate, $r$ is the real interest rate, and $\pi^e$ is the expected
 Inflation rate.
 
 The approximate relationship (valid for small values of $\pi$):
 
-$$r \approx i - \pi^e$$
+$$
+r \approx i - \pi^e
+$$
 
 If the nominal interest rate is $5\%$ and expected inflation is $2\%$The real interest rate is
 Approximately $3\%$.
@@ -62,13 +70,19 @@ Approximately $3\%$.
 
 ### Real Wage Calculations
 
-$$\text{Real wage}_t = \frac{\text{Nominal wage}_t}{\text{CPI}_t} \times 100$$
+$$
+\text{Real wage}_t = \frac{\text{Nominal wage}_t}{\text{CPI}_t} \times 100
+$$
 
 A worker whose nominal wage rises from `USD 40000` to `USD 42000` while the CPI rises from 200 to
 220 Has experienced a decrease in real wages:
 
-$$\text{Real wage}_{\text{old}} = \frac{40000}{200} \times 100 = 200$$
-$$\text{Real wage}_{\text{new}} = \frac{42000}{220} \times 100 = 190.91$$
+$$
+\text{Real wage}_{\text{old}} = \frac{40000}{200} \times 100 = 200
+$$
+$$
+\text{Real wage}_{\text{new}} = \frac{42000}{220} \times 100 = 190.91
+$$
 
 The nominal increase of $5\%$ is more than offset by inflation of $10\%$ So purchasing power falls.
 
@@ -79,37 +93,49 @@ The nominal increase of $5\%$ is more than offset by inflation of $10\%$ So purc
 When interest is compounded, each period"s interest is calculated on the principal plus previously
 Accumulated interest:
 
-$$FV = PV \times (1 + r)^n$$
+$$
+FV = PV \times (1 + r)^n
+$$
 
 Where $FV$ is the future value, $PV$ is the present value (principal), $r$ is the interest rate per
 Period, and $n$ is the number of periods.
 
 For multiple compounding periods per year:
 
-$$FV = PV \times \left(1 + \frac{r}{m}\right)^{m \times n}$$
+$$
+FV = PV \times \left(1 + \frac{r}{m}\right)^{m \times n}
+$$
 
 Where $m$ is the number of compounding periods per year.
 
 Continuous compounding:
 
-$$FV = PV \times e^{r \times n}$$
+$$
+FV = PV \times e^{r \times n}
+$$
 
 ### Effective Annual Rate (EAR)
 
 The EAR converts a stated nominal rate with multiple compounding periods into the equivalent annual
 Rate:
 
-$$\text{EAR} = \left(1 + \frac{r}{m}\right)^m - 1$$
+$$
+\text{EAR} = \left(1 + \frac{r}{m}\right)^m - 1
+$$
 
 A nominal rate of $12\%$ compounded monthly gives:
 
-$$\text{EAR} = \left(1 + \frac{0.12}{12}\right)^{12} - 1 = (1.01)^{12} - 1 = 0.1268 = 12.68\%$$
+$$
+\text{EAR} = \left(1 + \frac{0.12}{12}\right)^{12} - 1 = (1.01)^{12} - 1 = 0.1268 = 12.68\%
+$$
 
 ### Present Value and Discounting
 
 Present value is the current worth of a future sum, discounted at a given rate:
 
-$$PV = \frac{FV}{(1 + r)^n}$$
+$$
+PV = \frac{FV}{(1 + r)^n}
+$$
 
 This is the inverse of compounding. A higher discount rate implies a lower present value.
 
@@ -118,18 +144,24 @@ This is the inverse of compounding. A higher discount rate implies a lower prese
 An annuity is a series of equal payments received at regular intervals. The present value of an
 Annuity of $A$ per period for $n$ periods at discount rate $r$:
 
-$$PV = A \times \frac{1 - (1 + r)^{-n}}{r}$$
+$$
+PV = A \times \frac{1 - (1 + r)^{-n}}{r}
+$$
 
 **Perpetuity** (an annuity that continues forever):
 
-$$PV = \frac{A}{r}$$
+$$
+PV = \frac{A}{r}
+$$
 
 ### Net Present Value (NPV)
 
 NPV is the sum of the present values of all cash flows (positive and negative) associated with a
 Project:
 
-$$\text{NPV} = \sum_{t=0}^{T} \frac{CF_t}{(1 + r)^t}$$
+$$
+\text{NPV} = \sum_{t=0}^{T} \frac{CF_t}{(1 + r)^t}
+$$
 
 Where $CF_t$ is the cash flow in period $t$ and $r$ is the discount rate.
 
@@ -167,14 +199,18 @@ Choosing the discount rate is critical and controversial:
 
 The **Ramsey formula** for the social discount rate:
 
-$$r = \delta + \eta \times g$$
+$$
+r = \delta + \eta \times g
+$$
 
 Where $\delta$ is the pure rate of time preference, $\eta$ is the elasticity of marginal utility of
 Consumption, and $g$ is the growth rate of per capita consumption.
 
 ### Benefit-Cost Ratio (BCR)
 
-$$\text{BCR} = \frac{\text{Present Value of Benefits}}{\text{Present Value of Costs}}$$
+$$
+\text{BCR} = \frac{\text{Present Value of Benefits}}{\text{Present Value of Costs}}
+$$
 
 - BCR $> 1$: benefits exceed costs (project is viable)
 - BCR $= 1$: benefits equal costs (indifferent)
@@ -211,7 +247,9 @@ The further the Lorenz curve deviates from the 45-degree line, the greater the i
 
 ### Calculating the Gini Coefficient
 
-$$G = \frac{A}{A + B}$$
+$$
+G = \frac{A}{A + B}
+$$
 
 Where $A$ is the area between the line of perfect equality and the Lorenz curve, and $B$ is the area
 Under the Lorenz curve.
@@ -225,7 +263,9 @@ Under the Lorenz curve.
 
 Given $n$ income groups with cumulative population shares $p_i$ and cumulative income shares $L_i$:
 
-$$G = 1 - \sum_{i=1}^{n} (p_i - p_{i-1})(L_i + L_{i-1})$$
+$$
+G = 1 - \sum_{i=1}^{n} (p_i - p_{i-1})(L_i + L_{i-1})
+$$
 
 Where $p_0 = 0$ and $L_0 = 0$.
 
@@ -235,9 +275,13 @@ Where $p_0 = 0$ and $L_0 = 0$.
 | ----------------------------------- | ---- | ---- | ---- | ---- | ---- |
 | Cumulative income share ($L_i$)     | 0.05 | 0.15 | 0.30 | 0.50 | 1.00 |
 
-$$G = 1 - [(0.2 - 0)(0.05 + 0) + (0.4 - 0.2)(0.15 + 0.05) + (0.6 - 0.4)(0.30 + 0.15) + (0.8 - 0.6)(0.50 + 0.30) + (1.0 - 0.8)(1.00 + 0.50)]$$
+$$
+G = 1 - [(0.2 - 0)(0.05 + 0) + (0.4 - 0.2)(0.15 + 0.05) + (0.6 - 0.4)(0.30 + 0.15) + (0.8 - 0.6)(0.50 + 0.30) + (1.0 - 0.8)(1.00 + 0.50)]
+$$
 
-$$G = 1 - [0.01 + 0.04 + 0.09 + 0.16 + 0.30] = 1 - 0.60 = 0.40$$
+$$
+G = 1 - [0.01 + 0.04 + 0.09 + 0.16 + 0.30] = 1 - 0.60 = 0.40
+$$
 
 ### Limitations of the Gini Coefficient
 
@@ -253,7 +297,9 @@ $$G = 1 - [0.01 + 0.04 + 0.09 + 0.16 + 0.30] = 1 - 0.60 = 0.40$$
 
 The proportion of the population living below the poverty line:
 
-$$\text{Headcount ratio} = \frac{\text{Number of people below the poverty line}}{\text{Total population}} \times 100$$
+$$
+\text{Headcount ratio} = \frac{\text{Number of people below the poverty line}}{\text{Total population}} \times 100
+$$
 
 Limitation: it does not capture the depth or severity of poverty -- a small transfer that lifts one
 Person above the line reduces the headcount ratio, even if millions remain in deep poverty.
@@ -263,14 +309,18 @@ Person above the line reduces the headcount ratio, even if millions remain in de
 The poverty gap measures the average distance below the poverty line, expressed as a proportion of
 The poverty line:
 
-$$\text{Poverty gap} = \frac{1}{N} \sum_{i=1}^{q} \frac{z - y_i}{z}$$
+$$
+\text{Poverty gap} = \frac{1}{N} \sum_{i=1}^{q} \frac{z - y_i}{z}
+$$
 
 Where $N$ is the total population, $q$ is the number of poor people, $z$ is the poverty line, and
 $y_i$ is the income of person $i$ (for those below the poverty line).
 
 **Total poverty gap** (aggregate shortfall):
 
-$$\text{Total poverty gap} = \sum_{i=1}^{q} (z - y_i)$$
+$$
+\text{Total poverty gap} = \sum_{i=1}^{q} (z - y_i)
+$$
 
 The total poverty gap divided by the poverty line and the total population gives the income
 Shortfall as a percentage of the poverty line, averaged over the entire population.
@@ -280,7 +330,9 @@ Shortfall as a percentage of the poverty line, averaged over the entire populati
 The squared poverty gap (also called the Foster-Greer-Thorbecke $P_2$ measure) gives greater weight
 To the poorest of the poor:
 
-$$P_2 = \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)^2$$
+$$
+P_2 = \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)^2
+$$
 
 ### Multidimensional Poverty Index (MPI)
 
@@ -294,7 +346,9 @@ A household is multidimensionally poor if it is deprived in at least one-third o
 Indicators. The MPI is the product of the headcount ratio (proportion of multidimensionally poor)
 And the average deprivation share among the poor:
 
-$$\text{MPI} = H \times A$$
+$$
+\text{MPI} = H \times A
+$$
 
 Where $H$ is the proportion of the population that is multidimensionally poor, and $A$ is the
 Average proportion of weighted indicators in which poor households are deprived.
@@ -314,7 +368,9 @@ The HDI combines three dimensions:
 
 For each dimension, an index is calculated using minimum and maximum goalposts:
 
-$$\text{Dimension index} = \frac{\text{Actual value} - \text{Minimum value}}{\text{Maximum value} - \text{Minimum value}}$$
+$$
+\text{Dimension index} = \frac{\text{Actual value} - \text{Minimum value}}{\text{Maximum value} - \text{Minimum value}}
+$$
 
 **Goalposts:**
 
@@ -327,15 +383,21 @@ $$\text{Dimension index} = \frac{\text{Actual value} - \text{Minimum value}}{\te
 
 The education index is the arithmetic mean of the two education indicators:
 
-$$\text{Education index} = \frac{\text{Mean years index} + \text{Expected years index}}{2}$$
+$$
+\text{Education index} = \frac{\text{Mean years index} + \text{Expected years index}}{2}
+$$
 
 The GNI index uses the logarithm of GNI per capita to reflect diminishing returns to income:
 
-$$\text{GNI index} = \frac{\ln(\text{GNI per capita}) - \ln(100)}{\ln(75000) - \ln(100)}$$
+$$
+\text{GNI index} = \frac{\ln(\text{GNI per capita}) - \ln(100)}{\ln(75000) - \ln(100)}
+$$
 
 The HDI is the geometric mean of the three dimension indices:
 
-$$\text{HDI} = (\text{Health index} \times \text{Education index} \times \text{GNI index})^{1/3}$$
+$$
+\text{HDI} = (\text{Health index} \times \text{Education index} \times \text{GNI index})^{1/3}
+$$
 
 ### Worked Example
 
@@ -353,7 +415,9 @@ Education index $= \frac{0.667 + 0.778}{2} = 0.722$
 GNI index
 $= \frac{\ln(15000) - \ln(100)}{\ln(75000) - \ln(100)} = \frac{9.616 - 4.605}{11.225 - 4.605} = \frac{5.011}{6.620} = 0.757$
 
-$$\text{HDI} = (0.846 \times 0.722 \times 0.757)^{1/3} = (0.462)^{1/3} = 0.773$$
+$$
+\text{HDI} = (0.846 \times 0.722 \times 0.757)^{1/3} = (0.462)^{1/3} = 0.773
+$$
 
 This country falls in the "high human development" category ($0.700$--$0.799$).
 
@@ -363,11 +427,15 @@ This country falls in the "high human development" category ($0.700$--$0.799$).
 
 In a closed economy with no government:
 
-$$Y = C + I$$
+$$
+Y = C + I
+$$
 
 Income is either consumed or saved:
 
-$$Y = C + S$$
+$$
+Y = C + S
+$$
 
 Therefore: $I = S$ (investment equals saving).
 
@@ -377,18 +445,26 @@ $$Y = C + I + G + (X - M)$$ $$Y = C + S + T$$
 
 Equilibrium: injections $=$ leakages:
 
-$$I + G + X = S + T + M$$
+$$
+I + G + X = S + T + M
+$$
 
 ### The Marginal Propensities
 
 - **Marginal propensity to consume (MPC)**: the fraction of additional income that is spent on
   consumption: $$\mathrm{MPC} = \frac{\Delta C}{\Delta Y}$$
 - **Marginal propensity to save (MPS)**: the fraction of additional income that is saved:
-  $$\mathrm{MPS} = \frac{\Delta S}{\Delta Y}$$
+  $$
+  \mathrm{MPS} = \frac{\Delta S}{\Delta Y}
+  $$
 - **Marginal propensity to tax (MPT)**: the fraction of additional income paid in tax:
-  $$\mathrm{MPT} = \frac{\Delta T}{\Delta Y}$$
+  $$
+  \mathrm{MPT} = \frac{\Delta T}{\Delta Y}
+  $$
 - **Marginal propensity to import (MPM)**: the fraction of additional income spent on imports:
-  $$\mathrm{MPM} = \frac{\Delta M}{\Delta Y}$$
+  $$
+  \mathrm{MPM} = \frac{\Delta M}{\Delta Y}
+  $$
 
 By definition: $\mathrm{MPC} + \mathrm{MPS} = 1$ (in a closed economy with no government).
 
@@ -396,24 +472,32 @@ By definition: $\mathrm{MPC} + \mathrm{MPS} = 1$ (in a closed economy with no go
 
 In a closed economy with no government, the multiplier is:
 
-$$k = \frac{1}{\mathrm{MPS}} = \frac{1}{1 - \mathrm{MPC}}$$
+$$
+k = \frac{1}{\mathrm{MPS}} = \frac{1}{1 - \mathrm{MPC}}
+$$
 
 **Derivation:** an initial injection $\Delta I$ generates income $\Delta Y_1 = \Delta I$. Recipients
 Spend $\mathrm{MPC} \times \Delta Y_1$ of this, generating income
 $\Delta Y_2 = \mathrm`\`\{MPC}``^2 \times
 \Delta I$, and so on:
 
-$$\Delta Y = \Delta I \times (1 + \mathrm{MPC} + \mathrm{MPC}^2 + \mathrm{MPC}^3 + \cdots)$$
+$$
+\Delta Y = \Delta I \times (1 + \mathrm{MPC} + \mathrm{MPC}^2 + \mathrm{MPC}^3 + \cdots)
+$$
 
 This is a geometric series with first term $1$ and common ratio $\mathrm{MPC}$ ($< 1$):
 
-$$\Delta Y = \Delta I \times \frac{1}{1 - \mathrm{MPC}} = \Delta I \times k$$
+$$
+\Delta Y = \Delta I \times \frac{1}{1 - \mathrm{MPC}} = \Delta I \times k
+$$
 
 ### The Complex Multiplier
 
 In an open economy with government:
 
-$$k = \frac{1}{\mathrm{MPS} + \mathrm{MPT} + \mathrm{MPM}} = \frac{1}{1 - \mathrm{MPC}(1 - t) + \mathrm{MPM}}$$
+$$
+k = \frac{1}{\mathrm{MPS} + \mathrm{MPT} + \mathrm{MPM}} = \frac{1}{1 - \mathrm{MPC}(1 - t) + \mathrm{MPM}}
+$$
 
 Where $t$ is the proportional tax rate (if taxes are proportional: $\mathrm{MPT} = t$).
 
@@ -427,18 +511,24 @@ The multiplier is smaller because:
 
 If government spending and taxes increase by the same amount ($\Delta G = \Delta T$):
 
-$$\Delta Y = \Delta G \times k_G + \Delta T \times k_T$$
+$$
+\Delta Y = \Delta G \times k_G + \Delta T \times k_T
+$$
 
 Where $k_G = \frac{1}{1 - \mathrm{MPC}}$ (government spending multiplier) and
 $k_T =
 \frac{-\mathrm`\`\{MPC}``}{1 - \mathrm`\`\{MPC}``}$ (tax multiplier, which is negative because
 higher taxes Reduce disposable income and consumption).
 
-$$\Delta Y = \frac{\Delta G}{1 - \mathrm{MPC}} + \frac{-\mathrm{MPC} \times \Delta T}{1 - \mathrm{MPC}}$$
+$$
+\Delta Y = \frac{\Delta G}{1 - \mathrm{MPC}} + \frac{-\mathrm{MPC} \times \Delta T}{1 - \mathrm{MPC}}
+$$
 
 Since $\Delta G = \Delta T$:
 
-$$\Delta Y = \frac{\Delta G - \mathrm{MPC} \times \Delta G}{1 - \mathrm{MPC}} = \frac{\Delta G(1 - \mathrm{MPC})}{1 - \mathrm{MPC}} = \Delta G$$
+$$
+\Delta Y = \frac{\Delta G - \mathrm{MPC} \times \Delta G}{1 - \mathrm{MPC}} = \frac{\Delta G(1 - \mathrm{MPC})}{1 - \mathrm{MPC}} = \Delta G
+$$
 
 The balanced budget multiplier equals 1: equal increases in $G$ and $T$ increase GDP by the amount
 Of the increase.
@@ -449,7 +539,9 @@ Of the increase.
 
 The Keynesian consumption function relates consumption to disposable income:
 
-$$C = a + bY_d$$
+$$
+C = a + bY_d
+$$
 
 Where:
 
@@ -460,19 +552,25 @@ Where:
 
 **Average propensity to consume (APC):**
 
-$$\mathrm{APC} = \frac{C}{Y_d} = \frac{a}{Y_d} + b$$
+$$
+\mathrm{APC} = \frac{C}{Y_d} = \frac{a}{Y_d} + b
+$$
 
 APC falls as income rises (because the autonomous component $a/Y_d$ becomes smaller).
 
 **Average propensity to save (APS):**
 
-$$\mathrm{APS} = \frac{S}{Y_d} = 1 - \mathrm{APC}$$
+$$
+\mathrm{APS} = \frac{S}{Y_d} = 1 - \mathrm{APC}
+$$
 
 ### The Saving Function
 
 Since $Y_d = C + S$:
 
-$$S = Y_d - C = Y_d - (a + bY_d) = -a + (1 - b)Y_d$$
+$$
+S = Y_d - C = Y_d - (a + bY_d) = -a + (1 - b)Y_d
+$$
 
 Where $-a$ is autonomous dissaving (when income is zero, households must consume $a$ So they Dissave
 by $a$), and $(1 - b) = \mathrm{MPS}$.
@@ -493,7 +591,9 @@ by $a$), and $(1 - b) = \mathrm{MPS}$.
 Friedman argued that consumption depends on permanent (expected lifetime) income rather than current
 Income:
 
-$$C = k \times Y_p$$
+$$
+C = k \times Y_p
+$$
 
 Where $k$ is the proportion of permanent income consumed and $Y_p$ is permanent income.
 
@@ -510,7 +610,9 @@ Income, which helps explain why temporary tax cuts tend to have limited stimulat
 Modigliani proposed that individuals smooth consumption over their lifetime, borrowing when young,
 Saving during working years, and dissaving in retirement:
 
-$$C = \frac{\text{Lifetime resources}}{\text{Expected years of life}}$$
+$$
+C = \frac{\text{Lifetime resources}}{\text{Expected years of life}}
+$$
 
 Implications:
 
@@ -528,23 +630,37 @@ $\mathrm{MPC}$ (in the simplest case where $\text{AE} = C + I$).
 
 Equilibrium occurs where $\text{AE} = Y$:
 
-$$Y = C + I + G + (X - M)$$
+$$
+Y = C + I + G + (X - M)
+$$
 
 Substituting the consumption function $C = a + b(Y - T)$:
 
-$$Y = a + b(Y - T) + I + G + X - M$$
+$$
+Y = a + b(Y - T) + I + G + X - M
+$$
 
-$$Y = a + bY - bT + I + G + X - M$$
+$$
+Y = a + bY - bT + I + G + X - M
+$$
 
-$$Y - bY = a - bT + I + G + X - M$$
+$$
+Y - bY = a - bT + I + G + X - M
+$$
 
-$$Y(1 - b) = a - bT + I + G + X - M$$
+$$
+Y(1 - b) = a - bT + I + G + X - M
+$$
 
-$$Y^* = \frac{a - bT + I + G + X - M}{1 - b}$$
+$$
+Y^* = \frac{a - bT + I + G + X - M}{1 - b}
+$$
 
 This is the equilibrium level of output, which can also be written as:
 
-$$Y^* = \frac{\text{Autonomous expenditure}}{1 - \mathrm{MPC}} = k \times \text{Autonomous expenditure}$$
+$$
+Y^* = \frac{\text{Autonomous expenditure}}{1 - \mathrm{MPC}} = k \times \text{Autonomous expenditure}
+$$
 
 ### The Inflationary and Deflationary Gaps
 
@@ -559,7 +675,9 @@ $$Y^* = \frac{\text{Autonomous expenditure}}{1 - \mathrm{MPC}} = k \times \text{
 If all households simultaneously increase their saving (reduce consumption), aggregate demand falls.
 The resulting decline in output and income may cause total saving to decrease rather than increase:
 
-$$S \uparrow \implies C \downarrow \implies Y \downarrow \implies S \downarrow$$
+$$
+S \uparrow \implies C \downarrow \implies Y \downarrow \implies S \downarrow
+$$
 
 This is because $S = -a + (1-b)Y$. If $Y$ falls by enough, the reduction in income can outweigh The
 increase in the saving rate. The paradox highlights the fallacy of composition: what is rational For
@@ -598,7 +716,9 @@ which the money market is in equilibrium (money supply equals money demand).
 
 **Money demand (liquidity preference):**
 
-$$M^d = L_1(Y) + L_2(r)$$
+$$
+M^d = L_1(Y) + L_2(r)
+$$
 
 - $L_1(Y)$: transactions demand for money -- increases with income (more transactions require more
   money)
@@ -718,21 +838,33 @@ Rate?
 (a) Net benefits each year: Year 0: $-500$Year 1: $+50$Year 2: $+100$Year 3: $+150$ Year 4:
 $+200$Year 5: $+250$.
 
-$$\text{NPV} = -500 + \frac{50}{1.08} + \frac{100}{1.08^2} + \frac{150}{1.08^3} + \frac{200}{1.08^4} + \frac{250}{1.08^5}$$
+$$
+\text{NPV} = -500 + \frac{50}{1.08} + \frac{100}{1.08^2} + \frac{150}{1.08^3} + \frac{200}{1.08^4} + \frac{250}{1.08^5}
+$$
 
-$$\text{NPV} = -500 + 46.30 + 85.73 + 119.07 + 147.01 + 170.15$$
+$$
+\text{NPV} = -500 + 46.30 + 85.73 + 119.07 + 147.01 + 170.15
+$$
 
-$$\text{NPV} = -500 + 568.26 = \$68.26 \text{ million}$$
+$$
+\text{NPV} = -500 + 568.26 = \$68.26 \text{ million}
+$$
 
 (b) Since NPV $> 0$ (`USD 68.26` million), the project should be undertaken.
 
 (c) At $r = 12\%$:
 
-$$\text{NPV} = -500 + \frac{50}{1.12} + \frac{100}{1.12^2} + \frac{150}{1.12^3} + \frac{200}{1.12^4} + \frac{250}{1.12^5}$$
+$$
+\text{NPV} = -500 + \frac{50}{1.12} + \frac{100}{1.12^2} + \frac{150}{1.12^3} + \frac{200}{1.12^4} + \frac{250}{1.12^5}
+$$
 
-$$\text{NPV} = -500 + 44.64 + 79.72 + 106.77 + 127.10 + 141.86$$
+$$
+\text{NPV} = -500 + 44.64 + 79.72 + 106.77 + 127.10 + 141.86
+$$
 
-$$\text{NPV} = -500 + 500.09 = \$0.09 \text{ million}$$
+$$
+\text{NPV} = -500 + 500.09 = \$0.09 \text{ million}
+$$
 
 At $12\%$The NPV is approximately zero (borderline). The decision is sensitive to the discount rate:
 At $8\%$ the project is viable; at $12\%$ it barely breaks even. This highlights the Importance of
@@ -773,19 +905,29 @@ Recalculate The Gini coefficient and comment.
 
 (b) Using the trapezoidal method:
 
-$$G = 1 - \sum (p_i - p_{i-1})(L_i + L_{i-1})$$
+$$
+G = 1 - \sum (p_i - p_{i-1})(L_i + L_{i-1})
+$$
 
-$$G = 1 - [0.2 \times (0 + 0.05) + 0.2 \times (0.05 + 0.15) + 0.2 \times (0.15 + 0.30) + 0.2 \times (0.30 + 0.50) + 0.2 \times (0.50 + 1.00)]$$
+$$
+G = 1 - [0.2 \times (0 + 0.05) + 0.2 \times (0.05 + 0.15) + 0.2 \times (0.15 + 0.30) + 0.2 \times (0.30 + 0.50) + 0.2 \times (0.50 + 1.00)]
+$$
 
-$$G = 1 - [0.01 + 0.04 + 0.09 + 0.16 + 0.30] = 1 - 0.60 = 0.40$$
+$$
+G = 1 - [0.01 + 0.04 + 0.09 + 0.16 + 0.30] = 1 - 0.60 = 0.40
+$$
 
 (c) After redistribution: bottom quintile share rises from $5\%$ to $15\%$; top quintile falls from
 $50\%$ to $40\%$.
 
 New cumulative shares: $0, 15, 25, 40, 60, 100$.
 
-$$G = 1 - [0.2 \times 15 + 0.2 \times 40 + 0.2 \times 65 + 0.2 \times 100 + 0.2 \times 160] / 100$$
-$$G = 1 - [3 + 8 + 13 + 20 + 32] / 100 = 1 - 0.76 = 0.24$$
+$$
+G = 1 - [0.2 \times 15 + 0.2 \times 40 + 0.2 \times 65 + 0.2 \times 100 + 0.2 \times 160] / 100
+$$
+$$
+G = 1 - [3 + 8 + 13 + 20 + 32] / 100 = 1 - 0.76 = 0.24
+$$
 
 The Gini coefficient falls from $0.40$ to $0.24$A significant reduction in inequality. This
 Demonstrates the powerful redistributive potential of targeted transfers.
@@ -997,31 +1139,43 @@ was unchanged over the four-year period.
 
 The fixed periodic payment $A$ for a loan of principal $PV$ at interest rate $r$ over $n$ periods:
 
-$$A = PV \times \frac{r(1 + r)^n}{(1 + r)^n - 1}$$
+$$
+A = PV \times \frac{r(1 + r)^n}{(1 + r)^n - 1}
+$$
 
 **Worked example:** A mortgage of `USD 300,000` at 4% annual interest over 25 years (300 monthly
 Payments at monthly rate $r = 0.04/12 = 0.00333$):
 
-$$A = 300\,000 \times \frac{0.00333(1.00333)^{300}}{(1.00333)^{300} - 1}$$
+$$
+A = 300\,000 \times \frac{0.00333(1.00333)^{300}}{(1.00333)^{300} - 1}
+$$
 
 $(1.00333)^{300} = e^{300 \times 0.00333} = e^{0.999} \approx 2.715$
 
-$$A = 300\,000 \times \frac{0.00333 \times 2.715}{2.715 - 1} = 300\,000 \times \frac{0.00904}{1.715} = 300\,000 \times 0.00527 = 1581$$
+$$
+A = 300\,000 \times \frac{0.00333 \times 2.715}{2.715 - 1} = 300\,000 \times \frac{0.00904}{1.715} = 300\,000 \times 0.00527 = 1581
+$$
 
 Monthly payment $= \$1\,581$. Total repayment $= 1581 \times 300 = \$474\,300$. Total interest
 $= \$174\,300$.
 
 ### Present Value with Uneven Cash Flows
 
-$$PV = \sum_{t=0}^{T} \frac{CF_t}{(1 + r)^t}$$
+$$
+PV = \sum_{t=0}^{T} \frac{CF_t}{(1 + r)^t}
+$$
 
 **Worked example:** A project requires an initial investment of `USD 10,000` and generates the
 following Cash flows: Year 1: `USD 2,000`Year 2: `USD 4,000`Year 3: `USD 5,000`Year 4: `USD 3,000`.
 Discount rate $= 8\%$.
 
-$$PV = -10\,000 + \frac{2\,000}{1.08} + \frac{4\,000}{1.08^2} + \frac{5\,000}{1.08^3} + \frac{3\,000}{1.08^4}$$
+$$
+PV = -10\,000 + \frac{2\,000}{1.08} + \frac{4\,000}{1.08^2} + \frac{5\,000}{1.08^3} + \frac{3\,000}{1.08^4}
+$$
 
-$$PV = -10\,000 + 1851.9 + 3429.4 + 3969.2 + 2205.1 = -10\,000 + 11\,455.6 = \$1455.6$$
+$$
+PV = -10\,000 + 1851.9 + 3429.4 + 3969.2 + 2205.1 = -10\,000 + 11\,455.6 = \$1455.6
+$$
 
 NPV $> 0$ So the project is viable.
 
@@ -1029,7 +1183,9 @@ NPV $> 0$ So the project is viable.
 
 The IRR is the discount rate that makes NPV $= 0$:
 
-$$\sum_{t=0}^{T} \frac{CF_t}{(1 + \text{IRR})^t} = 0$$
+$$
+\sum_{t=0}^{T} \frac{CF_t}{(1 + \text{IRR})^t} = 0
+$$
 
 The IRR cannot be solved algebraically for $T > 2$; it requires numerical methods. The project is
 Acceptable if IRR $>$ the required rate of return (cost of capital).
@@ -1067,13 +1223,19 @@ Given the following income distribution data:
 
 **Step 2: Calculate the Gini coefficient using the trapezoidal method**
 
-$$G = 1 - \sum_{i=1}^{n} (p_i - p_{i-1})(L_i + L_{i-1})$$
+$$
+G = 1 - \sum_{i=1}^{n} (p_i - p_{i-1})(L_i + L_{i-1})
+$$
 
 Where $p_i$ is the cumulative population share and $L_i$ is the cumulative income share.
 
-$$G = 1 - [0.2(0.03 + 0) + 0.2(0.11 + 0.03) + 0.2(0.25 + 0.11) + 0.2(0.47 + 0.25) + 0.2(1.00 + 0.47)]$$
+$$
+G = 1 - [0.2(0.03 + 0) + 0.2(0.11 + 0.03) + 0.2(0.25 + 0.11) + 0.2(0.47 + 0.25) + 0.2(1.00 + 0.47)]
+$$
 
-$$G = 1 - [0.006 + 0.028 + 0.072 + 0.144 + 0.294] = 1 - 0.544 = 0.456$$
+$$
+G = 1 - [0.006 + 0.028 + 0.072 + 0.144 + 0.294] = 1 - 0.544 = 0.456
+$$
 
 A Gini coefficient of 0.456 indicates moderate-to-high inequality.
 
@@ -1117,7 +1279,9 @@ The project is viable for discount rates up to approximately 14%. The IRR is app
 Standard CBA weights all costs and benefits equally regardless of who receives them.
 **Distributional Weighting** assigns higher weights to benefits accruing to disadvantaged groups:
 
-$$\text{Weighted NPV} = \sum_{t=0}^{T} \sum_{g=1}^{G} w_g \cdot \frac{B_{g,t} - C_{g,t}}{(1 + r)^t}$$
+$$
+\text{Weighted NPV} = \sum_{t=0}^{T} \sum_{g=1}^{G} w_g \cdot \frac{B_{g,t} - C_{g,t}}{(1 + r)^t}
+$$
 
 Where $w_g$ is the weight assigned to group $g$. A weight of 1.0 applies to the average citizen;
 Weights above 1.0 are assigned to lower-income groups.
@@ -1142,49 +1306,71 @@ Potentially changing the investment decision.
 
 In an open economy with government:
 
-$$Y = C + I + G + X - M$$
+$$
+Y = C + I + G + X - M
+$$
 
 Substituting $C = a + b(Y - T)$, $T = tY + T_0$ And $M = mY + M_0$:
 
-$$Y = a + b(Y - tY - T_0) + I + G + X - mY - M_0$$
+$$
+Y = a + b(Y - tY - T_0) + I + G + X - mY - M_0
+$$
 
-$$Y = a + bY - btY - bT_0 + I + G + X - mY - M_0$$
+$$
+Y = a + bY - btY - bT_0 + I + G + X - mY - M_0
+$$
 
-$$Y - bY + btY + mY = a - bT_0 + I + G + X - M_0$$
+$$
+Y - bY + btY + mY = a - bT_0 + I + G + X - M_0
+$$
 
-$$Y(1 - b + bt + m) = A_0$$
+$$
+Y(1 - b + bt + m) = A_0
+$$
 
 Where $A_0 = a - bT_0 + I + G + X - M_0$ is autonomous expenditure.
 
-$$Y^* = \frac{A_0}{1 - b(1 - t) + m}$$
+$$
+Y^* = \frac{A_0}{1 - b(1 - t) + m}
+$$
 
 ### Multiplier Relationships
 
 **Government spending multiplier:**
 
-$$\frac{\partial Y}{\partial G} = \frac{1}{1 - b(1 - t) + m}$$
+$$
+\frac{\partial Y}{\partial G} = \frac{1}{1 - b(1 - t) + m}
+$$
 
 **Lump-sum tax multiplier:**
 
-$$\frac{\partial Y}{\partial T_0} = \frac{-b}{1 - b(1 - t) + m}$$
+$$
+\frac{\partial Y}{\partial T_0} = \frac{-b}{1 - b(1 - t) + m}
+$$
 
 **Transfer payment multiplier:**
 
-$$\frac{\partial Y}{\partial TR} = \frac{b}{1 - b(1 - t) + m}$$
+$$
+\frac{\partial Y}{\partial TR} = \frac{b}{1 - b(1 - t) + m}
+$$
 
 Note: the transfer payment multiplier has the same magnitude as the tax multiplier but opposite
 Sign. Transfers increase disposable income, stimulating consumption.
 
 **Export multiplier:**
 
-$$\frac{\partial Y}{\partial X} = \frac{1}{1 - b(1 - t) + m}$$
+$$
+\frac{\partial Y}{\partial X} = \frac{1}{1 - b(1 - t) + m}
+$$
 
 The export multiplier equals the government spending multiplier because both are direct injections
 Into aggregate expenditure.
 
 **Proportional tax rate multiplier:**
 
-$$\frac{\partial Y}{\partial t} = \frac{-bY}{1 - b(1 - t) + m}$$
+$$
+\frac{\partial Y}{\partial t} = \frac{-bY}{1 - b(1 - t) + m}
+$$
 
 An increase in the proportional tax rate reduces equilibrium income. The effect is proportional to
 Current income $Y$Making it path-dependent.
@@ -1276,15 +1462,23 @@ society ends up saving less because the contraction in income reduces the total 
 
 Starting from the goods market equilibrium:
 
-$$Y = C(Y - T) + I(r) + G$$
+$$
+Y = C(Y - T) + I(r) + G
+$$
 
 With linear functions: $C = a + b(Y - T)$$I = e - dr$$T = T_0$:
 
-$$Y = a + bY - bT_0 + e - dr + G$$
+$$
+Y = a + bY - bT_0 + e - dr + G
+$$
 
-$$Y(1 - b) = a - bT_0 + e + G - dr$$
+$$
+Y(1 - b) = a - bT_0 + e + G - dr
+$$
 
-$$r = \frac{a - bT_0 + e + G}{d} - \frac{1 - b}{d} Y$$
+$$
+r = \frac{a - bT_0 + e + G}{d} - \frac{1 - b}{d} Y
+$$
 
 This is the IS curve: $r$ as a function of $Y$.
 
@@ -1298,7 +1492,9 @@ This is the IS curve: $r$ as a function of $Y$.
 
 Money market equilibrium: $M^s / P = L(Y, r) = kY - hr$
 
-$$r = \frac{kY - M^s/P}{h}$$
+$$
+r = \frac{kY - M^s/P}{h}
+$$
 
 This is the LM curve: $r$ as a function of $Y$.
 
@@ -1311,21 +1507,29 @@ This is the LM curve: $r$ as a function of $Y$.
 
 Setting IS $=$ LM:
 
-$$\frac{a - bT_0 + e + G}{d} - \frac{1-b}{d} Y = \frac{kY - M^s/P}{h}$$
+$$
+\frac{a - bT_0 + e + G}{d} - \frac{1-b}{d} Y = \frac{kY - M^s/P}{h}
+$$
 
 Solving for $Y$:
 
-$$\frac{h(a - bT_0 + e + G) + d \cdot M^s/P}{dh + k(1-b)d} = Y^*$$
+$$
+\frac{h(a - bT_0 + e + G) + d \cdot M^s/P}{dh + k(1-b)d} = Y^*
+$$
 
 And for $r$:
 
-$$r^* = \frac{k(a - bT_0 + e + G) - (1-b) M^s/P}{dh + k(1-b)d}$$
+$$
+r^* = \frac{k(a - bT_0 + e + G) - (1-b) M^s/P}{dh + k(1-b)d}
+$$
 
 ### Policy Effectiveness: Comparative Statics
 
 **Fiscal policy effectiveness** (change in $Y$ for a given $\Delta G$):
 
-$$\frac{\partial Y}{\partial G} = \frac{h}{dh + k(1-b)d} = \frac{1}{(1-b) + \frac{dk}{h}}$$
+$$
+\frac{\partial Y}{\partial G} = \frac{h}{dh + k(1-b)d} = \frac{1}{(1-b) + \frac{dk}{h}}
+$$
 
 Fiscal policy is more effective when:
 
@@ -1335,7 +1539,9 @@ Fiscal policy is more effective when:
 
 **Monetary policy effectiveness** (change in $Y$ for a given $\Delta M^s$):
 
-$$\frac{\partial Y}{\partial M^s} = \frac{d/P}{dh + k(1-b)d} = \frac{1}{k + \frac{h(1-b)}{d}}$$
+$$
+\frac{\partial Y}{\partial M^s} = \frac{d/P}{dh + k(1-b)d} = \frac{1}{k + \frac{h(1-b)}{d}}
+$$
 
 Monetary policy is more effective when:
 
@@ -1374,11 +1580,15 @@ curve analysis.
 
 **Point elasticity** measures elasticity at a specific point on the curve:
 
-$$\text{PED}_{\text{point}} = \frac{dQ}{dP} \times \frac{P}{Q}$$
+$$
+\text{PED}_{\text{point}} = \frac{dQ}{dP} \times \frac{P}{Q}
+$$
 
 **Arc elasticity** (midpoint formula) measures the average elasticity over an interval:
 
-$$\text{PED}_{\text{arc}} = \frac{Q_2 - Q_1}{(Q_1 + Q_2)/2} \times \frac{(P_1 + P_2)/2}{P_2 - P_1} = \frac{\Delta Q}{\Delta P} \times \frac{P_1 + P_2}{Q_1 + Q_2}$$
+$$
+\text{PED}_{\text{arc}} = \frac{Q_2 - Q_1}{(Q_1 + Q_2)/2} \times \frac{(P_1 + P_2)/2}{P_2 - P_1} = \frac{\Delta Q}{\Delta P} \times \frac{P_1 + P_2}{Q_1 + Q_2}
+$$
 
 **When to use which:**
 
@@ -1400,9 +1610,13 @@ $\text{PED}_{\text{arc}} = \frac{40 - 60}{(60 + 40)/2} \times \frac{(20 + 30)/2}
 
 For a linear demand curve $P = a - bQ$:
 
-$$\text{TR} = P \times Q = aQ - bQ^2$$
+$$
+\text{TR} = P \times Q = aQ - bQ^2
+$$
 
-$$\text{MR} = a - 2bQ$$
+$$
+\text{MR} = a - 2bQ
+$$
 
 TR is maximised where $\text{MR} = 0$I.e., at $Q = a/(2b)$ and $P = a/2$.
 
@@ -1430,11 +1644,17 @@ Firms use YED to forecast demand as the economy grows:
 
 The break-even point is the level of output where total revenue equals total cost:
 
-$$\text{TR} = \text{TC}$$
+$$
+\text{TR} = \text{TC}
+$$
 
-$$P \times Q = \text{TFC} + \text{AVC} \times Q$$
+$$
+P \times Q = \text{TFC} + \text{AVC} \times Q
+$$
 
-$$Q_{\text{BE}} = \frac{\text{TFC}}{P - \text{AVC}}$$
+$$
+Q_{\text{BE}} = \frac{\text{TFC}}{P - \text{AVC}}
+$$
 
 Where TFC is total fixed cost, AVC is average variable cost, and $P - \text{AVC}$ is the
 **contribution margin per unit** (the amount each unit sold contributes toward covering fixed
@@ -1448,7 +1668,9 @@ A firm produces gadgets with the following cost structure:
 - Variable cost per unit: `USD 30`
 - Selling price per unit: `USD 50`
 
-$$Q_{\text{BE}} = \frac{50\,000}{50 - 30} = \frac{50\,000}{20} = 2500 \text{ units}$$
+$$
+Q_{\text{BE}} = \frac{50\,000}{50 - 30} = \frac{50\,000}{20} = 2500 \text{ units}
+$$
 
 Break-even revenue $= 50 \times 2500 = \$125\,000$
 
@@ -1457,13 +1679,17 @@ of Revenue contributes to covering fixed costs).
 
 **Target profit analysis:** to earn a profit of $\pi$:
 
-$$Q_{\text{target}} = \frac{\text{TFC} + \pi}{P - \text{AVC}}$$
+$$
+Q_{\text{target}} = \frac{\text{TFC} + \pi}{P - \text{AVC}}
+$$
 
 To earn `USD 20,000` profit: $Q = (50\,000 + 20\,000)/20 = 3500$ units.
 
 **Margin of safety:** the percentage by which actual output exceeds the break-even output:
 
-$$\text{Margin of safety} = \frac{Q_{\text{actual}} - Q_{\text{BE}}}{Q_{\text{actual}}} \times 100$$
+$$
+\text{Margin of safety} = \frac{Q_{\text{actual}} - Q_{\text{BE}}}{Q_{\text{actual}}} \times 100
+$$
 
 If actual output is 3000 units: margin of safety $= (3000 - 2500)/3000 \times 100 = 16.7\%$.
 
@@ -1753,12 +1979,16 @@ The firm can absorb a 40% decline in output before reaching the break-even point
 The GDI adjusts the HDI for gender disparities. The calculation involves computing separate HDI
 Values for males and females:
 
-$$\text{GDI} = \left(\frac{\text{HDI}_f^{1-\epsilon} + \text{HDI}_m^{1-\epsilon}}{2}\right)^{\frac{1}{1-\epsilon}}$$
+$$
+\text{GDI} = \left(\frac{\text{HDI}_f^{1-\epsilon} + \text{HDI}_m^{1-\epsilon}}{2}\right)^{\frac{1}{1-\epsilon}}
+$$
 
 Where $\epsilon$ is an aversion-to-inequality parameter. The UNDP uses $\epsilon = 2$Which Gives the
 GDI as the harmonic mean of the male and female HDI values:
 
-$$\text{GDI} = \left(\frac{1}{\text{HDI}_f^{-1} + \text{HDI}_m^{-1}} \times 2\right)^{-1} = \frac{2 \times \text{HDI}_f \times \text{HDI}_m}{\text{HDI}_f + \text{HDI}_m}$$
+$$
+\text{GDI} = \left(\frac{1}{\text{HDI}_f^{-1} + \text{HDI}_m^{-1}} \times 2\right)^{-1} = \frac{2 \times \text{HDI}_f \times \text{HDI}_m}{\text{HDI}_f + \text{HDI}_m}
+$$
 
 The GDI is bounded between 0 and the overall HDI. A GDI equal to the HDI indicates perfect Gender
 parity.
@@ -1767,7 +1997,9 @@ parity.
 
 Country X has $\text{HDI}_f = 0.700$ and $\text{HDI}_m = 0.850$Overall $\text{HDI} = 0.780$.
 
-$$\text{GDI} = \frac{2 \times 0.700 \times 0.850}{0.700 + 0.850} = \frac{1.190}{1.550} = 0.768$$
+$$
+\text{GDI} = \frac{2 \times 0.700 \times 0.850}{0.700 + 0.850} = \frac{1.190}{1.550} = 0.768
+$$
 
 The GDI (0.768) is below the HDI (0.780), indicating that gender inequality reduces overall Human
 development. The gender development gap is $(0.780 - 0.768)/0.780 = 1.5\%$.
@@ -1778,19 +2010,27 @@ Given a poverty line $z$ and the incomes of poor individuals $y_1, y_2, \ldots, 
 
 **Headcount ratio:**
 
-$$P_0 = \frac{q}{N}$$
+$$
+P_0 = \frac{q}{N}
+$$
 
 **Poverty gap index:**
 
-$$P_1 = \frac{1}{N} \sum_{i=1}^{q} \frac{z - y_i}{z}$$
+$$
+P_1 = \frac{1}{N} \sum_{i=1}^{q} \frac{z - y_i}{z}
+$$
 
 **Squared poverty gap (severity):**
 
-$$P_2 = \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)^2$$
+$$
+P_2 = \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)^2
+$$
 
 The Foster-Greer-Thorbecke class $P_\alpha$ generalises these:
 
-$$P_\alpha = \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)^\alpha$$
+$$
+P_\alpha = \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)^\alpha
+$$
 
 Where $\alpha \geq 0$ is the poverty aversion parameter. Higher $\alpha$ gives more weight to The
 poorest.
@@ -2082,7 +2322,9 @@ Consumption. It is lower than market interest rates because:
 
 **The Ramsey formula:**
 
-$$r = \delta + \eta \times g$$
+$$
+r = \delta + \eta \times g
+$$
 
 Where:
 
@@ -2114,11 +2356,15 @@ The Stern discount rate values benefits 100 years hence at 60 times the Nordhaus
 **Hyperbolic discounting** describes the empirical observation that individuals discount the Near
 future at a much higher rate than the distant future:
 
-$$\text{Hyperbolic: } d(t) = \frac{1}{(1 + \alpha t)^{\beta/\alpha}}$$
+$$
+\text{Hyperbolic: } d(t) = \frac{1}{(1 + \alpha t)^{\beta/\alpha}}
+$$
 
 Vs. Exponential discounting:
 
-$$\text{Exponential: } d(t) = \frac{1}{(1 + r)^t}$$
+$$
+\text{Exponential: } d(t) = \frac{1}{(1 + r)^t}
+$$
 
 **Implications:**
 
@@ -2153,7 +2399,9 @@ value.
 
 **The regression model:**
 
-$$Y_i = \beta_0 + \beta_1 X_i + \epsilon_i$$
+$$
+Y_i = \beta_0 + \beta_1 X_i + \epsilon_i
+$$
 
 Where:
 
@@ -2167,27 +2415,37 @@ Where:
 
 The OLS estimator minimises the sum of squared residuals:
 
-$$\min_{\beta_0, \beta_1} \sum_{i=1}^{n} (Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2$$
+$$
+\min_{\beta_0, \beta_1} \sum_{i=1}^{n} (Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2
+$$
 
 The OLS estimators are:
 
-$$\hat{\beta}_1 = \frac{\sum(X_i - \bar{X})(Y_i - \bar{Y})}{\sum(X_i - \bar{X})^2} = \frac{\text{Cov}(X, Y)}{\text{Var}(X)}$$
+$$
+\hat{\beta}_1 = \frac{\sum(X_i - \bar{X})(Y_i - \bar{Y})}{\sum(X_i - \bar{X})^2} = \frac{\text{Cov}(X, Y)}{\text{Var}(X)}
+$$
 
-$$\hat{\beta}_0 = \bar{Y} - \hat{\beta}_1 \bar{X}$$
+$$
+\hat{\beta}_0 = \bar{Y} - \hat{\beta}_1 \bar{X}
+$$
 
 ### Goodness of Fit: $R^2$
 
 The coefficient of determination ($R^2$) measures the proportion of the variation in $Y$ Explained
 by the variation in $X$:
 
-$$R^2 = 1 - \frac{\text{SSR}}{\text{SST}} = 1 - \frac{\sum(Y_i - \hat{Y}_i)^2}{\sum(Y_i - \bar{Y})^2}$$
+$$
+R^2 = 1 - \frac{\text{SSR}}{\text{SST}} = 1 - \frac{\sum(Y_i - \hat{Y}_i)^2}{\sum(Y_i - \bar{Y})^2}
+$$
 
 $R^2 \in [0, 1]$: $R^2 = 0$ means $X$ explains none of the variation in $Y$; $R^2 = 1$ means $X$
 explains all of the variation.
 
 **Adjusted $R^2$** accounts for the number of regressors:
 
-$$\bar{R}^2 = 1 - \frac{\text{SSR}/(n - k - 1)}{\text{SST}/(n - 1)}$$
+$$
+\bar{R}^2 = 1 - \frac{\text{SSR}/(n - k - 1)}{\text{SST}/(n - 1)}
+$$
 
 Where $k$ is the number of independent variables and $n$ is the sample size.
 
@@ -2246,7 +2504,9 @@ Clean example with constructed data.)
 **Correlation** measures the strength and direction of the linear relationship between two
 variables. **Causation** means that a change in one variable directly causes a change in another.
 
-$$r_{XY} = \frac{\text{Cov}(X, Y)}{\sigma_X \sigma_Y}$$
+$$
+r_{XY} = \frac{\text{Cov}(X, Y)}{\sigma_X \sigma_Y}
+$$
 
 $r_{XY} \in [-1, 1]$: $r = 1$ (perfect positive correlation), $r = -1$ (perfect negative
 Correlation), $r = 0$ (no linear correlation).
@@ -2286,7 +2546,9 @@ To establish causation, economists use:
 If the true model is $Y = \beta_0 + \beta_1 X + \beta_2 Z + \epsilon$ but we estimate
 $\tilde{Y} = \tilde{\beta}_0 + \tilde{\beta}_1 X + u$ Then:
 
-$$\tilde{\beta}_1 = \beta_1 + \beta_2 \frac{\text{Cov}(X, Z)}{\text{Var}(X)}$$
+$$
+\tilde{\beta}_1 = \beta_1 + \beta_2 \frac{\text{Cov}(X, Z)}{\text{Var}(X)}
+$$
 
 The omitted variable bias depends on:
 
@@ -2314,7 +2576,9 @@ positively correlated, and we are attributing some of the effect of sleep to stu
 
 ### The Multiple Regression Model
 
-$$Y_i = \beta_0 + \beta_1 X_{1i} + \beta_2 X_{2i} + \cdots + \beta_k X_{ki} + \epsilon_i$$
+$$
+Y_i = \beta_0 + \beta_1 X_{1i} + \beta_2 X_{2i} + \cdots + \beta_k X_{ki} + \epsilon_i
+$$
 
 The OLS estimators minimise
 $\sum_{i=1}^{n} (Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_{1i} - \cdots - \hat{\beta}_k X_{ki})^2$.
@@ -2323,13 +2587,17 @@ $\sum_{i=1}^{n} (Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_{1i} - \cdots - \hat{\bet
 
 **t-test for individual coefficients:**
 
-$$t = \frac{\hat{\beta}_j - 0}{\text{SE}(\hat{\beta}_j)}$$
+$$
+t = \frac{\hat{\beta}_j - 0}{\text{SE}(\hat{\beta}_j)}
+$$
 
 If $|t| > t_{\text{critical}}$Reject $H_0: \beta_j = 0$ at the chosen significance level.
 
 **F-test for overall significance:**
 
-$$F = \frac{\text{MSR}}{\text{MSE}} = \frac{\text{SSR}/k}{\text{SSE}/(n-k-1)}$$
+$$
+F = \frac{\text{MSR}}{\text{MSE}} = \frac{\text{SSR}/k}{\text{SSE}/(n-k-1)}
+$$
 
 If $F > F_{\text{critical}}(k, n-k-1)$Reject $H_0: \beta_1 = \beta_2 = \cdots = \beta_k = 0$.
 
@@ -2345,7 +2613,9 @@ individual effect of each variable.
    multicollinearity
 2. **Variance Inflation Factor (VIF):**
 
-$$\text{VIF}_j = \frac{1}{1 - R_j^2}$$
+$$
+\text{VIF}_j = \frac{1}{1 - R_j^2}
+$$
 
 Where $R_j^2$ is the $R^2$ from regressing $X_j$ on all other independent variables.
 $\text{VIF} > 10$ indicates severe multicollinearity.
@@ -2430,7 +2700,9 @@ new information becomes available.
 The value of the option to delay is the difference between the NPV with flexibility and the NPV
 without flexibility:
 
-$$\text{Option value} = \text{NPV}_{\text{with flexibility}} - \text{NPV}_{\text{without flexibility}}$$
+$$
+\text{Option value} = \text{NPV}_{\text{with flexibility}} - \text{NPV}_{\text{without flexibility}}
+$$
 
 ### Numerical Example
 
@@ -2477,7 +2749,9 @@ The option value of waiting is larger when:
 3. **The discount rate is low:** a low discount rate increases the present value of future
    information
 
-$$\text{Option value} \propto \frac{\text{Uncertainty} \times \text{Irreversibility}}{\text{Discount rate}}$$
+$$
+\text{Option value} \propto \frac{\text{Uncertainty} \times \text{Irreversibility}}{\text{Discount rate}}
+$$
 
 **Policy implication:** governments should not rush into large, irreversible investments
 (infrastructure, climate policy) when there is significant uncertainty. Waiting for better

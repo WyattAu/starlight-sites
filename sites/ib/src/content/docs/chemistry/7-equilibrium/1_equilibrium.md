@@ -943,7 +943,9 @@ Initial $[\mathrm{N}_2\mathrm{O}_4] = 1.00 / 2.00 = 0.500\mathrm{ mol/L}$
 
 Since $[\mathrm{NO}_2]_{\mathrm{eq}} = 0.200\mathrm{ mol/L}$ and it increases by $2x$, $x = 0.100$.
 
-$$K_c = \frac{[\mathrm{NO}_2]^2}{[\mathrm{N}_2\mathrm{O}_4]} = \frac{(0.200)^2}{0.400} = \frac{0.0400}{0.400} = 0.100$$
+$$
+K_c = \frac{[\mathrm{NO}_2]^2}{[\mathrm{N}_2\mathrm{O}_4]} = \frac{(0.200)^2}{0.400} = \frac{0.0400}{0.400} = 0.100
+$$
 
 </details>
 
@@ -991,23 +993,37 @@ $\mathrm{NaOH}$. Calculate the pH of the resulting buffer.
 
 The $\mathrm{NaOH}$ reacts with $\mathrm{CH}_3\mathrm{COOH}$:
 
-$$n(\mathrm{CH}_3\mathrm{COOH})_{\mathrm{initial}} = 0.100 \times 0.20 = 0.0200\mathrm{ mol}$$
+$$
+n(\mathrm{CH}_3\mathrm{COOH})_{\mathrm{initial}} = 0.100 \times 0.20 = 0.0200\mathrm{ mol}
+$$
 
-$$n(\mathrm{NaOH}) = 0.050 \times 0.20 = 0.0100\mathrm{ mol}$$
+$$
+n(\mathrm{NaOH}) = 0.050 \times 0.20 = 0.0100\mathrm{ mol}
+$$
 
 After reaction:
 
-$$n(\mathrm{CH}_3\mathrm{COOH})_{\mathrm{remaining}} = 0.0200 - 0.0100 = 0.0100\mathrm{ mol}$$
+$$
+n(\mathrm{CH}_3\mathrm{COOH})_{\mathrm{remaining}} = 0.0200 - 0.0100 = 0.0100\mathrm{ mol}
+$$
 
-$$n(\mathrm{CH}_3\mathrm{COO}^-)_{\mathrm{formed}} = 0.0100\mathrm{ mol}$$
+$$
+n(\mathrm{CH}_3\mathrm{COO}^-)_{\mathrm{formed}} = 0.0100\mathrm{ mol}
+$$
 
 Total volume = $150\mathrm{ mL} = 0.150\mathrm{ L}$:
 
-$$[\mathrm{CH}_3\mathrm{COOH}] = \frac{0.0100}{0.150} = 0.0667\mathrm{ M}$$
+$$
+[\mathrm{CH}_3\mathrm{COOH}] = \frac{0.0100}{0.150} = 0.0667\mathrm{ M}
+$$
 
-$$[\mathrm{CH}_3\mathrm{COO}^-] = \frac{0.0100}{0.150} = 0.0667\mathrm{ M}$$
+$$
+[\mathrm{CH}_3\mathrm{COO}^-] = \frac{0.0100}{0.150} = 0.0667\mathrm{ M}
+$$
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 4.76 + \log\frac{0.0667}{0.0667} = 4.76 + \log(1) = 4.76$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 4.76 + \log\frac{0.0667}{0.0667} = 4.76 + \log(1) = 4.76
+$$
 
 </details>
 
@@ -1028,19 +1044,31 @@ Solution.
 
 (a) Let $s$ = molar solubility of $\mathrm{PbCl}_2$:
 
-$$\mathrm{PbCl}_2(s) \rightleftharpoons \mathrm{Pb}^{2+}(aq) + 2\mathrm{Cl}^-(aq)$$
+$$
+\mathrm{PbCl}_2(s) \rightleftharpoons \mathrm{Pb}^{2+}(aq) + 2\mathrm{Cl}^-(aq)
+$$
 
-$$K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{Cl}^-]^2 = s \times (2s)^2 = 4s^3$$
+$$
+K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{Cl}^-]^2 = s \times (2s)^2 = 4s^3
+$$
 
-$$s^3 = \frac{1.7 \times 10^{-5}}{4} = 4.25 \times 10^{-6}$$
+$$
+s^3 = \frac{1.7 \times 10^{-5}}{4} = 4.25 \times 10^{-6}
+$$
 
-$$s = 1.62 \times 10^{-2}\mathrm{ mol/L}$$
+$$
+s = 1.62 \times 10^{-2}\mathrm{ mol/L}
+$$
 
 (b) In $0.10\mathrm{ M}$ $\mathrm{NaCl}$, $[\mathrm{Cl}^-]_{\mathrm{initial}} = 0.10\mathrm{ M}$:
 
-$$K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{Cl}^-]^2 = s \times (0.10 + 2s)^2 \approx s \times (0.10)^2$$
+$$
+K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{Cl}^-]^2 = s \times (0.10 + 2s)^2 \approx s \times (0.10)^2
+$$
 
-$$s = \frac{1.7 \times 10^{-5}}{0.010} = 1.7 \times 10^{-3}\mathrm{ mol/L}$$
+$$
+s = \frac{1.7 \times 10^{-5}}{0.010} = 1.7 \times 10^{-3}\mathrm{ mol/L}
+$$
 
 The solubility decreases significantly due to the common ion effect.
 
@@ -1056,9 +1084,13 @@ Calculate the pH of a $0.050\mathrm{ M}$ solution of $\mathrm{HF}$. ($K_a = 6.8 
 <details>
 <summary>Answer</summary>
 
-$$[\mathrm{H}^+] = \sqrt{K_a \times c} = \sqrt{6.8 \times 10^{-4} \times 0.050} = \sqrt{3.4 \times 10^{-5}} = 5.83 \times 10^{-3}\mathrm{ mol/L}$$
+$$
+[\mathrm{H}^+] = \sqrt{K_a \times c} = \sqrt{6.8 \times 10^{-4} \times 0.050} = \sqrt{3.4 \times 10^{-5}} = 5.83 \times 10^{-3}\mathrm{ mol/L}
+$$
 
-$$\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23$$
+$$
+\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23
+$$
 
 </details>
 

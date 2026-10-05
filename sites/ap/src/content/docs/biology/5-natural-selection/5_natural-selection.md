@@ -667,7 +667,9 @@ Estimating divergence times that complements the fossil record.
 If gene X in species A and species B differs by 60 nucleotide substitutions, and the estimated
 Mutation rate for gene X is 2 substitutions per million years, then:
 
-$$\mathrm{Time since divergence = \frac{60}{2 \times 2} = 15 \mathrm{ million years$$
+$$
+\mathrm{Time since divergence = \frac{60}{2 \times 2} = 15 \mathrm{ million years
+$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
 Divergence.
@@ -781,7 +783,9 @@ Initial genotype frequencies: $p^2 = 0.25$$2pq = 0.50$$q^2 = 0.25$.
 Mean fitness: $\bar{w} = (0.25)(0.7) + (0.50)(0.7) + (0.25)(1.0) = 0.175 + 0.35 + 0.25 = 0.775$.
 
 New frequency of B:
-$$p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452$$
+$$
+p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452
+$$
 
 New frequency of b: $$q' = 1 - p' = 1 - 0.452 = 0.548$$
 
@@ -804,13 +808,19 @@ Million years. Estimate the time since these two species diverged from their com
 <summary>Answer</summary>
 
 First, calculate the substitution rate per base pair per million years:
-$$\mathrm{Rate = \frac{1 \mathrm{ substitution}{100 \mathrm{ base pairs \times 1 \mathrm{ million years} = 0.01 \mathrm{ substitutions/bp/Myr$$
+$$
+\mathrm{Rate = \frac{1 \mathrm{ substitution}{100 \mathrm{ base pairs \times 1 \mathrm{ million years} = 0.01 \mathrm{ substitutions/bp/Myr
+$$
 
 Total substitutions observed: 8 in 300 base pairs, so the substitution frequency per base pair is:
-$$\frac{8}{300} = 0.0267 \mathrm{ substitutions/bp$$
+$$
+\frac{8}{300} = 0.0267 \mathrm{ substitutions/bp
+$$
 
 Time since divergence (accounting for both lineages):
-$$\mathrm{Time = \frac{0.0267}{2 \times 0.01} = \frac{0.0267}{0.02} = 1.33 \mathrm{ million years$$
+$$
+\mathrm{Time = \frac{0.0267}{2 \times 0.01} = \frac{0.0267}{0.02} = 1.33 \mathrm{ million years
+$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
 Divergence. The two species diverged approximately 1.33 million years ago.

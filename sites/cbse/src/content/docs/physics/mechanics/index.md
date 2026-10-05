@@ -68,13 +68,19 @@ Mechanics is the branch of physics dealing with motion and the forces that cause
 **Solution:**
 
 Components:
-$$v_{0x} = 30\cos 60^\circ = 15 \, \text{m/s}, \quad v_{0y} = 30\sin 60^\circ = 25.98 \, \text{m/s}$$
+$$
+v_{0x} = 30\cos 60^\circ = 15 \, \text{m/s}, \quad v_{0y} = 30\sin 60^\circ = 25.98 \, \text{m/s}
+$$
 
 Maximum height:
-$$H = \frac{v_{0y}^2}{2g} = \frac{(25.98)^2}{2 \times 9.8} = \frac{675}{19.6} = 34.44 \, \text{m}$$
+$$
+H = \frac{v_{0y}^2}{2g} = \frac{(25.98)^2}{2 \times 9.8} = \frac{675}{19.6} = 34.44 \, \text{m}
+$$
 
 Range:
-$$R = \frac{v_0^2 \sin 2\theta}{g} = \frac{900 \times \sin 120^\circ}{9.8} = \frac{900 \times 0.866}{9.8} = 79.5 \, \text{m}$$
+$$
+R = \frac{v_0^2 \sin 2\theta}{g} = \frac{900 \times \sin 120^\circ}{9.8} = \frac{900 \times 0.866}{9.8} = 79.5 \, \text{m}
+$$
 
 **Common mistake:** Using $\sin 2\theta$ with $\theta = 60^\circ$ gives $\sin 120^\circ$, not $\sin 60^\circ$.
 
@@ -85,17 +91,27 @@ $$R = \frac{v_0^2 \sin 2\theta}{g} = \frac{900 \times \sin 120^\circ}{9.8} = \fr
 **Solution:**
 
 Work done by gravity:
-$$W_g = mgd\sin\theta = 5 \times 9.8 \times 4 \times \sin 30^\circ = 5 \times 9.8 \times 4 \times 0.5 = 98 \, \text{J}$$
+$$
+W_g = mgd\sin\theta = 5 \times 9.8 \times 4 \times \sin 30^\circ = 5 \times 9.8 \times 4 \times 0.5 = 98 \, \text{J}
+$$
 
 Work done by friction:
-$$W_f = -\mu_k mg\cos\theta \cdot d = -0.2 \times 5 \times 9.8 \times \cos 30^\circ \times 4$$
-$$= -0.2 \times 5 \times 9.8 \times 0.866 \times 4 = -33.95 \, \text{J}$$
+$$
+W_f = -\mu_k mg\cos\theta \cdot d = -0.2 \times 5 \times 9.8 \times \cos 30^\circ \times 4
+$$
+$$
+= -0.2 \times 5 \times 9.8 \times 0.866 \times 4 = -33.95 \, \text{J}
+$$
 
 Net work:
-$$W_{net} = 98 - 33.95 = 64.05 \, \text{J}$$
+$$
+W_{net} = 98 - 33.95 = 64.05 \, \text{J}
+$$
 
 By work-energy theorem:
-$$W_{net} = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2 \times 64.05}{5}} = \sqrt{25.62} = 5.06 \, \text{m/s}$$
+$$
+W_{net} = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2 \times 64.05}{5}} = \sqrt{25.62} = 5.06 \, \text{m/s}
+$$
 
 **Common mistake:** Forgetting to include the $\cos\theta$ factor when calculating the normal force on an incline.
 
@@ -106,12 +122,18 @@ $$W_{net} = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2 \times 64.05}{5}} = \sqrt
 **Solution:**
 
 Conservation of energy:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2
+$$
 
 For a disc, $I = \frac{1}{2}mR^2$ and $\omega = v/R$:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{1}{2}mR^2 \cdot \frac{v^2}{R^2} = \frac{1}{2}mv^2 + \frac{1}{4}mv^2 = \frac{3}{4}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{1}{2}mR^2 \cdot \frac{v^2}{R^2} = \frac{1}{2}mv^2 + \frac{1}{4}mv^2 = \frac{3}{4}mv^2
+$$
 
-$$v = \sqrt{\frac{4gh}{3}} = \sqrt{\frac{4 \times 9.8 \times 2}{3}} = \sqrt{26.13} = 5.11 \, \text{m/s}$$
+$$
+v = \sqrt{\frac{4gh}{3}} = \sqrt{\frac{4 \times 9.8 \times 2}{3}} = \sqrt{26.13} = 5.11 \, \text{m/s}
+$$
 
 **Common mistake:** Forgetting that rolling objects have both translational and rotational kinetic energy.
 

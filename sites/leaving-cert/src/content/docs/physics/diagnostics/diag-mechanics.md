@@ -68,7 +68,9 @@ $$45 = 0 + \frac{1}{2}(9.8)t^2$$ $$t^2 = \frac{90}{9.8} = 9.184$$ $$t = 3.03\,\t
 
 (ii) Using $v = u + at$:
 
-$$v = 0 + 9.8 \times 3.03 = 29.7\,\text{m s}^{-1}$$
+$$
+v = 0 + 9.8 \times 3.03 = 29.7\,\text{m s}^{-1}
+$$
 
 (d) **Speed** is the rate of change of distance (scalar), while **velocity** is the rate of change
 of displacement (vector). Yes, an object can have constant speed but changing velocity if its
@@ -129,7 +131,9 @@ Substituting into vertical: $T_A \cos(30^\circ) + 0.7071\,T_A \cos(45^\circ) = 1
 $$T_A(0.8660 + 0.7071 \times 0.7071) = 117.6$$ $$T_A(0.8660 + 0.5000) = 117.6$$
 $$1.366\,T_A = 117.6$$ $$T_A = 86.1\,\text{N}$$
 
-$$T_B = 0.7071 \times 86.1 = 60.9\,\text{N}$$
+$$
+T_B = 0.7071 \times 86.1 = 60.9\,\text{N}
+$$
 
 (c)
 
@@ -204,7 +208,9 @@ no friction).
 
 (c) Work done $= mgh = 500 \times 9.8 \times 12 = 58{,}800\,\text{J}$.
 
-$$P = \frac{W}{t} = \frac{58{,}800}{30} = 1960\,\text{W} = 1.96\,\text{kW}$$
+$$
+P = \frac{W}{t} = \frac{58{,}800}{30} = 1960\,\text{W} = 1.96\,\text{kW}
+$$
 
 (d) At the lowest point, by conservation of energy ($E_p = E_k$, assuming no energy losses):
 
@@ -341,7 +347,9 @@ $N = m(g - a) = 60(9.8 - 3) = 60 \times 6.8 = 408\,\text{N}$.
 
 (b) Taking right as positive. Momentum before collision:
 
-$$p_{\text{before}} = 2(4) + 3(-2) = 8 - 6 = 2\,\text{kg m s}^{-1}$$
+$$
+p_{\text{before}} = 2(4) + 3(-2) = 8 - 6 = 2\,\text{kg m s}^{-1}
+$$
 
 By conservation of momentum: $p_{\text{after}} = p_{\text{before}}$.
 

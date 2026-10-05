@@ -686,9 +686,13 @@ discrepancy is due to rounding).
 Incomplete combustion occurs when oxygen supply is limited, producing carbon monoxide and/or carbon
 (soot) in addition to (or instead of) carbon dioxide.
 
-$$\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(partial)}$$
+$$
+\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(partial)}
+$$
 
-$$\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(very limited)}$$
+$$
+\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(very limited)}
+$$
 
 **Environmental impact of combustion products:**
 
@@ -711,14 +715,22 @@ energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$Cor
 $\lambda \leq 493\,\mathrm{nm}$ (visible blue-green light).
 
 **Stage 2 -- Propagation:**
-$$\mathrm{Cl}^\bullet + \mathrm{CH}_3\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{HCl}$$
-$$\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{Cl}^\bullet$$
+$$
+\mathrm{Cl}^\bullet + \mathrm{CH}_3\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{HCl}
+$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{Cl}^\bullet
+$$
 
 The chain carrier ($\mathrm{Cl}^\bullet$) is regenerated, allowing the chain to continue.
 
 **Stage 3 -- Termination:** $$2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2$$
-$$2\mathrm{CH}_3\mathrm{CH}_2^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \quad \text{(butane)}$$
-$$\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl}$$
+$$
+2\mathrm{CH}_3\mathrm{CH}_2^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \quad \text{(butane)}
+$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl}
+$$
 
 Termination produces a mixture of products, which is why free radical substitution is not a useful
 synthetic method for preparing pure haloalkanes.
@@ -727,7 +739,9 @@ synthetic method for preparing pure haloalkanes.
 
 The reactivity of halogens in free radical substitution with alkanes follows the trend:
 
-$$\mathrm{F}_2 \gg \mathrm{Cl}_2 > \mathrm{Br}_2 \gg \mathrm{I}_2$$
+$$
+\mathrm{F}_2 \gg \mathrm{Cl}_2 > \mathrm{Br}_2 \gg \mathrm{I}_2
+$$
 
 | Halogen         | Bond dissociation energy (kJ/mol) | Reactivity                           | Selectivity                      |
 | --------------- | --------------------------------- | ------------------------------------ | -------------------------------- |
@@ -780,12 +794,18 @@ Catalytic converters reduce the emissions from internal combustion engines:
 
 - **Reduction catalyst (platinum, palladium):** Converts $\mathrm{NO}_x$ to $\mathrm{N}_2$ and
   $\mathrm{O}_2$: $$2\mathrm{NO} \to \mathrm{N}_2 + \mathrm{O}_2$$
-  $$2\mathrm{NO}_2 \to \mathrm{N}_2 + 2\mathrm{O}_2$$
+  $$
+  2\mathrm{NO}_2 \to \mathrm{N}_2 + 2\mathrm{O}_2
+  $$
 
 - **Oxidation catalyst (platinum, rhodium):** Converts $\mathrm{CO}$ to $\mathrm{CO}_2$ and unburnt
   hydrocarbons to $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$:
-  $$2\mathrm{CO} + \mathrm{O}_2 \to 2\mathrm{CO}_2$$
-  $$\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}$$
+  $$
+  2\mathrm{CO} + \mathrm{O}_2 \to 2\mathrm{CO}_2
+  $$
+  $$
+  \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
+  $$
 
 **Limitations:**
 

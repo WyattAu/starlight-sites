@@ -180,11 +180,15 @@ $\bar{x} = \dfrac{8 \times 10 + 12 \times 15}{20} = \dfrac{80 + 180}{20} = \dfra
 
 Combined variance using the formula:
 
-$$s^2 = \frac{n_A(s_A^2 + d_A^2) + n_B(s_B^2 + d_B^2)}{n_A + n_B}$$
+$$
+s^2 = \frac{n_A(s_A^2 + d_A^2) + n_B(s_B^2 + d_B^2)}{n_A + n_B}
+$$
 
 Where $d_A = \bar{x}_A - \bar{x} = 10 - 13 = -3$ and $d_B = \bar{x}_B - \bar{x} = 15 - 13 = 2$.
 
-$$s^2 = \frac{8(4 + 9) + 12(9 + 4)}{20} = \frac{8 \times 13 + 12 \times 13}{20} = \frac{104 + 156}{20} = \frac{260}{20} = 13$$
+$$
+s^2 = \frac{8(4 + 9) + 12(9 + 4)}{20} = \frac{8 \times 13 + 12 \times 13}{20} = \frac{104 + 156}{20} = \frac{260}{20} = 13
+$$
 
 ---
 
@@ -211,13 +215,21 @@ $E(X)$ and $\text{Var}(X)$.
 
 **Solution:**
 
-$$E(X) = 1 \times \frac{1}{15} + 2 \times \frac{2}{15} + 3 \times \frac{3}{15} + 4 \times \frac{4}{15} + 5 \times \frac{5}{15}$$
+$$
+E(X) = 1 \times \frac{1}{15} + 2 \times \frac{2}{15} + 3 \times \frac{3}{15} + 4 \times \frac{4}{15} + 5 \times \frac{5}{15}
+$$
 
-$$= \frac{1 + 4 + 9 + 16 + 25}{15} = \frac{55}{15} = \frac{11}{3}$$
+$$
+= \frac{1 + 4 + 9 + 16 + 25}{15} = \frac{55}{15} = \frac{11}{3}
+$$
 
-$$E(X^2) = \frac{1 + 8 + 27 + 64 + 125}{15} = \frac{225}{15} = 15$$
+$$
+E(X^2) = \frac{1 + 8 + 27 + 64 + 125}{15} = \frac{225}{15} = 15
+$$
 
-$$\text{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} = \frac{14}{9}$$
+$$
+\text{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} = \frac{14}{9}
+$$
 
 ---
 
@@ -348,11 +360,17 @@ Find the mean and standard deviation of the following data:
 | 10    | 2   | 20   | 200    |
 | Total | 22  | 126  | 836    |
 
-$$\bar{x} = \frac{126}{22} = \frac{63}{11} \approx 5.727$$
+$$
+\bar{x} = \frac{126}{22} = \frac{63}{11} \approx 5.727
+$$
 
-$$\sigma^2 = \frac{836}{22} - \left(\frac{63}{11}\right)^2 = \frac{418}{11} - \frac{3969}{121} = \frac{4598 - 3969}{121} = \frac{629}{121}$$
+$$
+\sigma^2 = \frac{836}{22} - \left(\frac{63}{11}\right)^2 = \frac{418}{11} - \frac{3969}{121} = \frac{4598 - 3969}{121} = \frac{629}{121}
+$$
 
-$$\sigma = \sqrt{\frac{629}{121}} = \frac{\sqrt{629}}{11} \approx 2.28$$
+$$
+\sigma = \sqrt{\frac{629}{121}} = \frac{\sqrt{629}}{11} \approx 2.28
+$$
 
 **DSE Exam Technique:** Always set up the table with columns for $fx$ and $fx^2$. This earns method
 marks even if there is a minor calculation error. Leave standard deviation in exact form unless
@@ -402,7 +420,9 @@ $\sigma_x = \dfrac{\sigma_y}{|a|} = \dfrac{\sqrt{4.8}}{1/5} = 5\sqrt{4.8} = 5 \t
 
 Find the median, quartiles, and interquartile range of the data set:
 
-$$12, 15, 18, 20, 22, 25, 28, 30, 35, 40, 45$$
+$$
+12, 15, 18, 20, 22, 25, 28, 30, 35, 40, 45
+$$
 
 **Solution:**
 
@@ -418,7 +438,9 @@ Upper half: $28, 30, 35, 40, 45$ (5 values).
 
 $Q_3$ position: $\dfrac{5 + 1}{2} = 3$. $Q_3 = 35$.
 
-$$\text{IQR} = Q_3 - Q_1 = 35 - 18 = 17$$
+$$
+\text{IQR} = Q_3 - Q_1 = 35 - 18 = 17
+$$
 
 ---
 
@@ -442,9 +464,13 @@ $68$ and standard deviation $15$. Which class has more consistent performance? J
 
 The coefficient of variation (CV) measures relative dispersion:
 
-$$\text{CV}_A = \frac{8}{65} \times 100\% \approx 12.3\%$$
+$$
+\text{CV}_A = \frac{8}{65} \times 100\% \approx 12.3\%
+$$
 
-$$\text{CV}_B = \frac{15}{68} \times 100\% \approx 22.1\%$$
+$$
+\text{CV}_B = \frac{15}{68} \times 100\% \approx 22.1\%
+$$
 
 Since $\text{CV}_A < \text{CV}_B$Class A has more consistent performance.
 
@@ -519,13 +545,21 @@ Total frequency: $n = 2 + 4 + k + 6 + 3 + 1 = 16 + k$.
 
 Sum: $\sum fx = 2 + 8 + 3k + 24 + 15 + 6 = 55 + 3k$.
 
-$$\bar{x} = \frac{55 + 3k}{16 + k} = 4.5$$
+$$
+\bar{x} = \frac{55 + 3k}{16 + k} = 4.5
+$$
 
-$$55 + 3k = 4.5(16 + k) = 72 + 4.5k$$
+$$
+55 + 3k = 4.5(16 + k) = 72 + 4.5k
+$$
 
-$$1.5k = 17$$
+$$
+1.5k = 17
+$$
 
-$$k = \frac{17}{1.5} = \frac{34}{3}$$
+$$
+k = \frac{17}{1.5} = \frac{34}{3}
+$$
 
 Since $k$ must be a non-negative integer, and $\dfrac{34}{3}$ is not an integer, there is no integer
 value of $k$ that gives a mean of exactly $4.5$. If the question allows non-integer frequencies,
@@ -553,7 +587,9 @@ it is appropriate to use it.
 
 Sheppard's correction adjusts the grouped data variance:
 
-$$\sigma_{\text{corrected}}^2 = \sigma_{\text{grouped}}^2 - \frac{h^2}{12}$$
+$$
+\sigma_{\text{corrected}}^2 = \sigma_{\text{grouped}}^2 - \frac{h^2}{12}
+$$
 
 This correction is appropriate when:
 
@@ -654,7 +690,9 @@ The following table shows the distribution of marks obtained by 40 students in a
 | 45.5  | 5   | 227.5 | 10351.25 |
 | Total | 40  | 1080  | 34070    |
 
-$$\bar{x} = \frac{1080}{40} = 27$$
+$$
+\bar{x} = \frac{1080}{40} = 27
+$$
 
 (b) $\sigma^2 = \dfrac{34070}{40} - 27^2 = 851.75 - 729 = 122.75$.
 
@@ -731,9 +769,13 @@ $= \dfrac{30 \times 72 + 20 \times 65}{50} = \dfrac{2160 + 1300}{50} = \dfrac{34
 
 (b) $d_A = 72 - 69.2 = 2.8$$d_B = 65 - 69.2 = -4.2$.
 
-$$\sigma^2 = \frac{30(36 + 2.8^2) + 20(64 + 4.2^2)}{50} = \frac{30(36 + 7.84) + 20(64 + 17.64)}{50}$$
+$$
+\sigma^2 = \frac{30(36 + 2.8^2) + 20(64 + 4.2^2)}{50} = \frac{30(36 + 7.84) + 20(64 + 17.64)}{50}
+$$
 
-$$= \frac{30 \times 43.84 + 20 \times 81.64}{50} = \frac{1315.2 + 1632.8}{50} = \frac{2948}{50} = 58.96$$
+$$
+= \frac{30 \times 43.84 + 20 \times 81.64}{50} = \frac{1315.2 + 1632.8}{50} = \frac{2948}{50} = 58.96
+$$
 
 ---
 

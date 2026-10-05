@@ -212,11 +212,15 @@ Creates the deposit.
 
 **Fisher equation:**
 
-$$(1 + i) = (1 + r)(1 + \pi)$$
+$$
+(1 + i) = (1 + r)(1 + \pi)
+$$
 
 Approximately:
 
-$$r \approx i - \pi$$
+$$
+r \approx i - \pi
+$$
 
 When $r > 0$: savers earn a positive real return. When $r < 0$: savers lose purchasing power
 (negative real interest rates).
@@ -231,11 +235,15 @@ Money demand (liquidity preference) has three motives:
 2. **Precautionary demand**: $L_P = jY$ (proportional to income)
 3. **Speculative demand**: $L_S = -hi$ (inversely related to interest rate)
 
-$$M^d = L_T + L_P + L_S = (k + j)Y - hi$$
+$$
+M^d = L_T + L_P + L_S = (k + j)Y - hi
+$$
 
 The interest rate is determined by the intersection of money demand and money supply:
 
-$$M^s = M^d \implies \bar{M} = (k+j)Y - hi \implies i = \frac{(k+j)Y - \bar{M}}{h}$$
+$$
+M^s = M^d \implies \bar{M} = (k+j)Y - hi \implies i = \frac{(k+j)Y - \bar{M}}{h}
+$$
 
 ### 3.3 Term Structure of Interest Rates
 
@@ -417,7 +425,9 @@ Periodically and repay the face value at maturity.
 _Proof._ Let $P$ = bond price, $C$ = annual coupon, $F$ = face value, $n$ = years to maturity, $r$ =
 Yield (required return).
 
-$$P = \sum_{t=1}^{n} \frac{C}{(1+r)^t} + \frac{F}{(1+r)^n}$$
+$$
+P = \sum_{t=1}^{n} \frac{C}{(1+r)^t} + \frac{F}{(1+r)^n}
+$$
 
 $\frac{dP}{dr} < 0$ (each term is decreasing in $r$). If market interest rates rise, existing bonds
 With lower coupons become less attractive, so their price falls to offer a competitive yield.
@@ -433,7 +443,9 @@ Capital gains.
 
 **Share price valuation** (simplified dividend discount model):
 
-$$P_0 = \frac{D_1}{r - g}$$
+$$
+P_0 = \frac{D_1}{r - g}
+$$
 
 Where $D_1$ = expected dividend next year, $r$ = required return, $g$ = expected growth rate of
 Dividends.
@@ -709,7 +721,9 @@ deposits).
 - Cash held: $650.25 \times 0.1 = 65.03$.
 
 **Total deposits created:** $$D = 1000 + 765 + 585.23 + \cdots$$
-$$D = \frac{1000}{1 - (1 - rr - re)(1 - c)} = \frac{1000}{1 - 0.85 \times 0.9} = \frac{1000}{1 - 0.765} = \frac{1000}{0.235} = \text{GBP } 4\,255$$
+$$
+D = \frac{1000}{1 - (1 - rr - re)(1 - c)} = \frac{1000}{1 - 0.85 \times 0.9} = \frac{1000}{1 - 0.765} = \frac{1000}{0.235} = \text{GBP } 4\,255
+$$
 
 **Effective money multiplier:** $$m = \frac{D}{R} = \frac{4255}{1000} = 4.26$$
 
@@ -723,7 +737,9 @@ and is priced at GBP 95.
 
 The yield to maturity $r$ satisfies:
 
-$$95 = \frac{6}{(1+r)} + \frac{6}{(1+r)^2} + \frac{106}{(1+r)^3}$$
+$$
+95 = \frac{6}{(1+r)} + \frac{6}{(1+r)^2} + \frac{106}{(1+r)^3}
+$$
 
 Trial and error:
 
@@ -739,12 +755,18 @@ market yield (8%), so the investor is compensated by a capital gain of GBP 5 at 
 
 The **Macaulay duration** of a bond measures its sensitivity to interest rate changes:
 
-$$D = \frac{1}{P} \sum_{t=1}^{n} \frac{t \times C_t}{(1+r)^t}$$
+$$
+D = \frac{1}{P} \sum_{t=1}^{n} \frac{t \times C_t}{(1+r)^t}
+$$
 
 For a 5-year bond with 6% coupon, face 100, priced at par ($r = 6\%$):
 
-$$D = \frac{1}{100}\left[\frac{1 \times 6}{1.06} + \frac{2 \times 6}{1.06^2} + \frac{3 \times 6}{1.06^3} + \frac{4 \times 6}{1.06^4} + \frac{5 \times 106}{1.06^5}\right]$$
-$$D = \frac{1}{100}[5.66 + 10.68 + 15.08 + 18.88 + 79.34] = \frac{129.64}{100} = 4.30 \text{ years}$$
+$$
+D = \frac{1}{100}\left[\frac{1 \times 6}{1.06} + \frac{2 \times 6}{1.06^2} + \frac{3 \times 6}{1.06^3} + \frac{4 \times 6}{1.06^4} + \frac{5 \times 106}{1.06^5}\right]
+$$
+$$
+D = \frac{1}{100}[5.66 + 10.68 + 15.08 + 18.88 + 79.34] = \frac{129.64}{100} = 4.30 \text{ years}
+$$
 
 **Interpretation:** if interest rates rise by 1%, the bond price falls by approximately 4.30%.
 Duration captures the weighted-average time to receipt of the bond's cash flows.

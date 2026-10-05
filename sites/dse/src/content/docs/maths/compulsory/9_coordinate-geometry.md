@@ -23,7 +23,9 @@ categories: "- DSE - Maths"
 
 The distance between points $A(x_1, y_1)$ and $B(x_2, y_2)$:
 
-$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+$$
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+$$
 
 This follows directly from the Pythagorean theorem.
 
@@ -31,21 +33,29 @@ This follows directly from the Pythagorean theorem.
 
 The midpoint $M$ of $AB$:
 
-$$M = \left(\frac{x_1 + x_2}{2},\; \frac{y_1 + y_2}{2}\right)$$
+$$
+M = \left(\frac{x_1 + x_2}{2},\; \frac{y_1 + y_2}{2}\right)
+$$
 
 ### Worked Example 1
 
 Find the distance and midpoint of $A(2, -3)$ and $B(6, 5)$.
 
-$$d = \sqrt{(6 - 2)^2 + (5 - (-3))^2} = \sqrt{16 + 64} = \sqrt{80} = 4\sqrt{5}$$
+$$
+d = \sqrt{(6 - 2)^2 + (5 - (-3))^2} = \sqrt{16 + 64} = \sqrt{80} = 4\sqrt{5}
+$$
 
-$$M = \left(\frac{2 + 6}{2},\; \frac{-3 + 5}{2}\right) = (4, 1)$$
+$$
+M = \left(\frac{2 + 6}{2},\; \frac{-3 + 5}{2}\right) = (4, 1)
+$$
 
 ### Division of a Line Segment
 
 The point $P$ that divides $AB$ in the ratio $m : n$ (measured from $A$ towards $B$):
 
-$$P = \left(\frac{nx_1 + mx_2}{m + n},\; \frac{ny_1 + my_2}{m + n}\right)$$
+$$
+P = \left(\frac{nx_1 + mx_2}{m + n},\; \frac{ny_1 + my_2}{m + n}\right)
+$$
 
 ---
 
@@ -64,7 +74,9 @@ $$P = \left(\frac{nx_1 + mx_2}{m + n},\; \frac{ny_1 + my_2}{m + n}\right)$$
 
 The slope of the line through $(x_1, y_1)$ and $(x_2, y_2)$:
 
-$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+$$
+m = \frac{y_2 - y_1}{x_2 - x_1}
+$$
 
 ### Various Forms
 
@@ -90,15 +102,21 @@ The given line: $3y = 2x + 6 \implies y = \frac{2}{3}x + 2$. Slope: $m = 2/3$.
 
 Perpendicular slope: $m_\perp = -3/2$.
 
-$$y - 3 = -\frac{3}{2}(x - 1) \implies 2(y - 3) = -3(x - 1) \implies 2y - 6 = -3x + 3$$
+$$
+y - 3 = -\frac{3}{2}(x - 1) \implies 2(y - 3) = -3(x - 1) \implies 2y - 6 = -3x + 3
+$$
 
-$$3x + 2y - 9 = 0$$
+$$
+3x + 2y - 9 = 0
+$$
 
 ### Worked Example 3
 
 Find the distance from the point $P(3, 4)$ to the line $4x + 3y - 10 = 0$.
 
-$$d = \frac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}} = \frac{|4(3) + 3(4) - 10|}{\sqrt{16 + 9}} = \frac{|12 + 12 - 10|}{5} = \frac{14}{5} = 2.8$$
+$$
+d = \frac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}} = \frac{|4(3) + 3(4) - 10|}{\sqrt{16 + 9}} = \frac{|12 + 12 - 10|}{5} = \frac{14}{5} = 2.8
+$$
 
 ---
 
@@ -123,7 +141,9 @@ Find the intersection of $3x - y + 2 = 0$ and $x + 2y - 7 = 0$.
 From the first: $y = 3x + 2$. Substituting:
 $x + 2(3x + 2) - 7 = 0 \implies x + 6x + 4 - 7 = 0 \implies 7x = 3$.
 
-$$x = 3/7, \quad y = 3(3/7) + 2 = 9/7 + 14/7 = 23/7$$
+$$
+x = 3/7, \quad y = 3(3/7) + 2 = 9/7 + 14/7 = 23/7
+$$
 
 Intersection: $\left(\dfrac{3}{7}, \dfrac{23}{7}\right)$.
 
@@ -144,13 +164,17 @@ Intersection: $\left(\dfrac{3}{7}, \dfrac{23}{7}\right)$.
 
 A circle with centre $(a, b)$ and radius $r$:
 
-$$(x - a)^2 + (y - b)^2 = r^2$$
+$$
+(x - a)^2 + (y - b)^2 = r^2
+$$
 
 ### General Form
 
 Expanding: $x^2 + y^2 - 2ax - 2by + (a^2 + b^2 - r^2) = 0$
 
-$$x^2 + y^2 + Dx + Ey + F = 0$$
+$$
+x^2 + y^2 + Dx + Ey + F = 0
+$$
 
 Centre: $\left(-\dfrac{D}{2}, -\dfrac{E}{2}\right)$Radius:
 $r = \sqrt{\dfrac{D^2}{4} + \dfrac{E^2}{4} - F}$
@@ -161,11 +185,17 @@ Find the centre and radius of $x^2 + y^2 - 6x + 4y - 12 = 0$.
 
 Completing the square:
 
-$$x^2 - 6x + y^2 + 4y = 12$$
+$$
+x^2 - 6x + y^2 + 4y = 12
+$$
 
-$$(x - 3)^2 - 9 + (y + 2)^2 - 4 = 12$$
+$$
+(x - 3)^2 - 9 + (y + 2)^2 - 4 = 12
+$$
 
-$$(x - 3)^2 + (y + 2)^2 = 25$$
+$$
+(x - 3)^2 + (y + 2)^2 = 25
+$$
 
 Centre: $(3, -2)$Radius: $r = 5$.
 
@@ -186,7 +216,9 @@ Centre: $(3, -2)$Radius: $r = 5$.
 
 The tangent to $(x - a)^2 + (y - b)^2 = r^2$ at a point $(x_1, y_1)$ on the circle:
 
-$$(x_1 - a)(x - a) + (y_1 - b)(y - b) = r^2$$
+$$
+(x_1 - a)(x - a) + (y_1 - b)(y - b) = r^2
+$$
 
 Equivalently, the tangent is perpendicular to the radius at the point of contact.
 
@@ -207,11 +239,15 @@ Find the equation of the tangent to $x^2 + y^2 = 25$ at the point $(3, 4)$.
 
 Using the tangent formula: $x_1 x + y_1 y = r^2$:
 
-$$3x + 4y = 25$$
+$$
+3x + 4y = 25
+$$
 
 Alternatively, the radius has slope $4/3$ So the tangent has slope $-3/4$:
 
-$$y - 4 = -\frac{3}{4}(x - 3) \implies 4(y - 4) = -3(x - 3) \implies 4y - 16 = -3x + 9 \implies 3x + 4y - 25 = 0$$
+$$
+y - 4 = -\frac{3}{4}(x - 3) \implies 4(y - 4) = -3(x - 3) \implies 4y - 16 = -3x + 9 \implies 3x + 4y - 25 = 0
+$$
 
 ---
 
@@ -230,14 +266,18 @@ $$y - 4 = -\frac{3}{4}(x - 3) \implies 4(y - 4) = -3(x - 3) \implies 4y - 16 = -
 
 Given vertices $A(x_1, y_1)$$B(x_2, y_2)$$C(x_3, y_3)$:
 
-$$\mathrm{Area} = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$$
+$$
+\mathrm{Area} = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|
+$$
 
 ### Area of a Polygon
 
 For a polygon with vertices $(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n)$ listed in order (clockwise
 Or counterclockwise):
 
-$$\mathrm{Area} = \frac{1}{2}\left|\sum_{i=1}^{n} (x_i y_{i+1} - x_{i+1} y_i)\right|$$
+$$
+\mathrm{Area} = \frac{1}{2}\left|\sum_{i=1}^{n} (x_i y_{i+1} - x_{i+1} y_i)\right|
+$$
 
 Where $(x_{n+1}, y_{n+1}) = (x_1, y_1)$.
 
@@ -245,7 +285,9 @@ Where $(x_{n+1}, y_{n+1}) = (x_1, y_1)$.
 
 Find the area of the triangle with vertices $A(1, 2)$$B(5, 6)$$C(3, -1)$.
 
-$$\mathrm{Area} = \frac{1}{2}|1(6 - (-1)) + 5((-1) - 2) + 3(2 - 6)| = \frac{1}{2}|7 + (-15) + (-12)| = \frac{1}{2}|-20| = 10$$
+$$
+\mathrm{Area} = \frac{1}{2}|1(6 - (-1)) + 5((-1) - 2) + 3(2 - 6)| = \frac{1}{2}|7 + (-15) + (-12)| = \frac{1}{2}|-20| = 10
+$$
 
 ---
 
@@ -322,7 +364,9 @@ Midpoint: $M = (4, 4)$. Slope of $AB$: $m = (7 - 1)/(6 - 2) = 6/4 = 3/2$.
 
 Perpendicular slope: $m_\perp = -2/3$.
 
-$$y - 4 = -\frac{2}{3}(x - 4) \implies 3(y - 4) = -2(x - 4) \implies 3y - 12 = -2x + 8 \implies 2x + 3y - 20 = 0$$
+$$
+y - 4 = -\frac{2}{3}(x - 4) \implies 3(y - 4) = -2(x - 4) \implies 3y - 12 = -2x + 8 \implies 2x + 3y - 20 = 0
+$$
 
 1. **Question:** Find the equation of the circle passing through $(1, 2)$, $(3, 4)$ And $(5, 2)$.
 
@@ -373,9 +417,13 @@ $= \dfrac{|C_2 - C_1|}{\sqrt{A^2 + B^2}} = \dfrac{|11 - (-5)|}{\sqrt{9 + 16}} = 
 
 For collinearity, the slope of $AB$ equals the slope of $BC$:
 
-$$\frac{k - 3}{2 - (-1)} = \frac{-1 - k}{5 - 2} \implies \frac{k - 3}{3} = \frac{-1 - k}{3}$$
+$$
+\frac{k - 3}{2 - (-1)} = \frac{-1 - k}{5 - 2} \implies \frac{k - 3}{3} = \frac{-1 - k}{3}
+$$
 
-$$k - 3 = -1 - k \implies 2k = 2 \implies k = 1$$
+$$
+k - 3 = -1 - k \implies 2k = 2 \implies k = 1
+$$
 
 1. **Question:** Find the area of the quadrilateral with vertices $(0, 0)$$(4, 0)$$(5, 3)$ And
    $(1, 4)$.
@@ -424,23 +472,33 @@ $A(1, 2)$ and $B(5, 6)$.
 
 Let the centre be $C(h, k)$. Since $C$ lies on $2x - y + 3 = 0$:
 
-$$2h - k + 3 = 0 \implies k = 2h + 3 \quad (1)$$
+$$
+2h - k + 3 = 0 \implies k = 2h + 3 \quad (1)
+$$
 
 Since $CA = CB$ (both equal the radius):
 
-$$(h-1)^2 + (k-2)^2 = (h-5)^2 + (k-6)^2$$
+$$
+(h-1)^2 + (k-2)^2 = (h-5)^2 + (k-6)^2
+$$
 
 Expanding and simplifying: $h^2 - 2h + 1 + k^2 - 4k + 4 = h^2 - 10h + 25 + k^2 - 12k + 36$
 
-$$-2h - 4k + 5 = -10h - 12k + 61$$
+$$
+-2h - 4k + 5 = -10h - 12k + 61
+$$
 
-$$8h + 8k = 56 \implies h + k = 7 \quad (2)$$
+$$
+8h + 8k = 56 \implies h + k = 7 \quad (2)
+$$
 
 Substituting (1) into (2): $h + 2h + 3 = 7 \implies 3h = 4 \implies h = \dfrac{4}{3}$.
 
 $k = 2 \cdot \dfrac{4}{3} + 3 = \dfrac{17}{3}$.
 
-$$r^2 = \left(\frac{4}{3} - 1\right)^2 + \left(\frac{17}{3} - 2\right)^2 = \frac{1}{9} + \frac{121}{9} = \frac{122}{9}$$
+$$
+r^2 = \left(\frac{4}{3} - 1\right)^2 + \left(\frac{17}{3} - 2\right)^2 = \frac{1}{9} + \frac{121}{9} = \frac{122}{9}
+$$
 
 Equation: $\left(x - \dfrac{4}{3}\right)^2 + \left(y - \dfrac{17}{3}\right)^2 = \dfrac{122}{9}$.
 
@@ -457,17 +515,25 @@ A line through $P(4, 0)$ with slope $m$: $y = m(x - 4)$.
 
 Substituting into $x^2 + y^2 = 8$:
 
-$$(1 + m^2)x^2 - 8m^2 x + 16m^2 - 8 = 0$$
+$$
+(1 + m^2)x^2 - 8m^2 x + 16m^2 - 8 = 0
+$$
 
 For tangency, $\Delta = 0$:
 
-$$\Delta = 64m^4 - 4(1 + m^2)(16m^2 - 8) = 0$$
+$$
+\Delta = 64m^4 - 4(1 + m^2)(16m^2 - 8) = 0
+$$
 
 Expanding the second factor: $16m^2 - 8 + 16m^4 - 8m^2 = 16m^4 + 8m^2 - 8$.
 
-$$\Delta = 64m^4 - 64m^4 - 32m^2 + 32 = -32m^2 + 32 = 0$$
+$$
+\Delta = 64m^4 - 64m^4 - 32m^2 + 32 = -32m^2 + 32 = 0
+$$
 
-$$m^2 = 1 \implies m = \pm 1$$
+$$
+m^2 = 1 \implies m = \pm 1
+$$
 
 Tangent 1: $y = x - 4$I.e. $x - y - 4 = 0$.
 
@@ -497,11 +563,17 @@ $y = \dfrac{5}{3}$. Vertex $C\!\left(\dfrac{11}{3}, \dfrac{5}{3}\right)$.
 
 Using the area formula:
 
-$$\mathrm{Area} = \frac{1}{2}\left|4\!\left(3 - \frac{5}{3}\right) + 3\!\left(\frac{5}{3} - 2\right) + \frac{11}{3}(2 - 3)\right|$$
+$$
+\mathrm{Area} = \frac{1}{2}\left|4\!\left(3 - \frac{5}{3}\right) + 3\!\left(\frac{5}{3} - 2\right) + \frac{11}{3}(2 - 3)\right|
+$$
 
-$$= \frac{1}{2}\left|4 \cdot \frac{4}{3} + 3 \cdot \left(-\frac{1}{3}\right) + \frac{11}{3} \cdot (-1)\right|$$
+$$
+= \frac{1}{2}\left|4 \cdot \frac{4}{3} + 3 \cdot \left(-\frac{1}{3}\right) + \frac{11}{3} \cdot (-1)\right|
+$$
 
-$$= \frac{1}{2}\left|\frac{16 - 3 - 11}{3}\right| = \frac{1}{2} \cdot \frac{2}{3} = \frac{1}{3}$$
+$$
+= \frac{1}{2}\left|\frac{16 - 3 - 11}{3}\right| = \frac{1}{2} \cdot \frac{2}{3} = \frac{1}{3}
+$$
 
 </details>
 
@@ -515,17 +587,25 @@ Find the reflection of $P(1, 5)$ in the line $3x - y + 1 = 0$.
 Let the reflected point be $P"(a, b)$. The midpoint $M\!\left(\dfrac{1+a}{2}, \dfrac{5+b}{2}\right)$
 lies on the line:
 
-$$3\!\left(\frac{1+a}{2}\right) - \frac{5+b}{2} + 1 = 0$$
+$$
+3\!\left(\frac{1+a}{2}\right) - \frac{5+b}{2} + 1 = 0
+$$
 
-$$3(1+a) - (5+b) + 2 = 0 \implies 3a - b = 0 \quad (1)$$
+$$
+3(1+a) - (5+b) + 2 = 0 \implies 3a - b = 0 \quad (1)
+$$
 
 The slope of $PP'$ is perpendicular to the line (slope $3$):
 
-$$\frac{b - 5}{a - 1} \cdot 3 = -1 \implies 3b - 15 = -(a - 1) \implies a + 3b = 16 \quad (2)$$
+$$
+\frac{b - 5}{a - 1} \cdot 3 = -1 \implies 3b - 15 = -(a - 1) \implies a + 3b = 16 \quad (2)
+$$
 
 From (1): $b = 3a$. Substituting into (2): $a + 9a = 16 \implies a = \dfrac{8}{5}$.
 
-$$b = 3 \cdot \frac{8}{5} = \frac{24}{5}$$
+$$
+b = 3 \cdot \frac{8}{5} = \frac{24}{5}
+$$
 
 Reflection: $P'\!\left(\dfrac{8}{5}, \dfrac{24}{5}\right)$.
 
@@ -546,7 +626,9 @@ has slope $-1$ through $(1, 2)$: $y - 2 = -(x - 1) \implies y = -x + 3$.
 
 Intersecting with $x = 2$: $y = 1$. Centre: $(2, 1)$.
 
-$$r^2 = (2-0)^2 + (1-1)^2 = 4$$
+$$
+r^2 = (2-0)^2 + (1-1)^2 = 4
+$$
 
 Equation: $(x - 2)^2 + (y - 1)^2 = 4$Or $x^2 + y^2 - 4x - 2y + 1 = 0$.
 
@@ -616,9 +698,13 @@ the possible values of $k$.
 <details>
 <summary>Solution</summary>
 
-$$\frac{1}{2}\left|(-2)(7 - (-1)) + 4((-1) - 3) + k(3 - 7)\right| = 30$$
+$$
+\frac{1}{2}\left|(-2)(7 - (-1)) + 4((-1) - 3) + k(3 - 7)\right| = 30
+$$
 
-$$\frac{1}{2}|-16 - 16 - 4k| = 30 \implies |-32 - 4k| = 60$$
+$$
+\frac{1}{2}|-16 - 16 - 4k| = 30 \implies |-32 - 4k| = 60
+$$
 
 Case 1: $-32 - 4k = 60 \implies 4k = -92 \implies k = -23$.
 
@@ -637,7 +723,9 @@ $c$.
 Rewrite the line as $3x - 4y + 4c = 0$. The distance from the centre $(1, 2)$ to this line equals
 the radius $5$:
 
-$$\frac{|3(1) - 4(2) + 4c|}{\sqrt{9 + 16}} = 5 \implies \frac{|4c - 5|}{5} = 5 \implies |4c - 5| = 25$$
+$$
+\frac{|3(1) - 4(2) + 4c|}{\sqrt{9 + 16}} = 5 \implies \frac{|4c - 5|}{5} = 5 \implies |4c - 5| = 25
+$$
 
 Case 1: $4c - 5 = 25 \implies c = 7.5$.
 
@@ -655,11 +743,17 @@ centre on the $x$-axis.
 
 Let the centre be $C(h, 0)$. Then $CA^2 = CB^2$:
 
-$$(h-2)^2 + 9 = (h-6)^2 + 1$$
+$$
+(h-2)^2 + 9 = (h-6)^2 + 1
+$$
 
-$$h^2 - 4h + 13 = h^2 - 12h + 37 \implies 8h = 24 \implies h = 3$$
+$$
+h^2 - 4h + 13 = h^2 - 12h + 37 \implies 8h = 24 \implies h = 3
+$$
 
-$$r^2 = (3-2)^2 + (0-3)^2 = 1 + 9 = 10$$
+$$
+r^2 = (3-2)^2 + (0-3)^2 = 1 + 9 = 10
+$$
 
 Equation: $(x - 3)^2 + y^2 = 10$.
 
@@ -677,7 +771,9 @@ $B$: set $x = 0$Giving $y = 3$. So $B(0, 3)$.
 
 Centre (midpoint of $AB$): $\left(\dfrac{4+0}{2}, \dfrac{0+3}{2}\right) = (2,\; 1.5)$.
 
-$$r = \frac{AB}{2} = \frac{\sqrt{16 + 9}}{2} = \frac{5}{2}$$
+$$
+r = \frac{AB}{2} = \frac{\sqrt{16 + 9}}{2} = \frac{5}{2}
+$$
 
 Equation: $(x - 2)^2 + \!\left(y - \dfrac{3}{2}\right)^2 = \dfrac{25}{4}$.
 
@@ -693,9 +789,13 @@ right-angled.
 
 Calculate the slopes of the three sides:
 
-$$m_{PQ} = \frac{5-2}{5-1} = \frac{3}{4}, \quad m_{QR} = \frac{1-5}{8-5} = -\frac{4}{3}$$
+$$
+m_{PQ} = \frac{5-2}{5-1} = \frac{3}{4}, \quad m_{QR} = \frac{1-5}{8-5} = -\frac{4}{3}
+$$
 
-$$m_{PQ} \cdot m_{QR} = \frac{3}{4} \cdot \left(-\frac{4}{3}\right) = -1$$
+$$
+m_{PQ} \cdot m_{QR} = \frac{3}{4} \cdot \left(-\frac{4}{3}\right) = -1
+$$
 
 Since the product is $-1$, $PQ \perp QR$. The triangle is right-angled at $Q$.
 
@@ -730,17 +830,27 @@ from $B(-1, 4)$. Find the equation of the locus of $P$.
 
 Let $P = (x, y)$. Then $PA = 2 \cdot PB$:
 
-$$\sqrt{(x-3)^2 + (y-1)^2} = 2\sqrt{(x+1)^2 + (y-4)^2}$$
+$$
+\sqrt{(x-3)^2 + (y-1)^2} = 2\sqrt{(x+1)^2 + (y-4)^2}
+$$
 
 Squaring both sides:
 
-$$(x-3)^2 + (y-1)^2 = 4\!\left[(x+1)^2 + (y-4)^2\right]$$
+$$
+(x-3)^2 + (y-1)^2 = 4\!\left[(x+1)^2 + (y-4)^2\right]
+$$
 
-$$x^2 - 6x + 9 + y^2 - 2y + 1 = 4(x^2 + 2x + 1 + y^2 - 8y + 16)$$
+$$
+x^2 - 6x + 9 + y^2 - 2y + 1 = 4(x^2 + 2x + 1 + y^2 - 8y + 16)
+$$
 
-$$x^2 - 6x + y^2 - 2y + 10 = 4x^2 + 8x + 4y^2 - 32y + 68$$
+$$
+x^2 - 6x + y^2 - 2y + 10 = 4x^2 + 8x + 4y^2 - 32y + 68
+$$
 
-$$3x^2 + 3y^2 + 14x - 30y + 58 = 0$$
+$$
+3x^2 + 3y^2 + 14x - 30y + 58 = 0
+$$
 
 Dividing by $3$: $x^2 + y^2 + \dfrac{14}{3}x - 10y + \dfrac{58}{3} = 0$.
 
@@ -757,9 +867,13 @@ chord $AB$.
 
 The common chord is found by subtracting the two circle equations:
 
-$$(x^2 + y^2 + 4x - 6y + 9) - (x^2 + y^2 - 2x + 2y - 14) = 0$$
+$$
+(x^2 + y^2 + 4x - 6y + 9) - (x^2 + y^2 - 2x + 2y - 14) = 0
+$$
 
-$$6x - 8y + 23 = 0$$
+$$
+6x - 8y + 23 = 0
+$$
 
 The equation of the common chord is $6x - 8y + 23 = 0$.
 
@@ -890,13 +1004,19 @@ Find the points of intersection of $x^2 + y^2 = 5$ and $x^2 + y^2 - 4x - 2y + 1 
 
 Subtract the second equation from the first:
 
-$$5 - (-4x - 2y + 1) = 0 \implies 4x + 2y - 6 = 0 \implies 2x + y = 3 \implies y = 3 - 2x$$
+$$
+5 - (-4x - 2y + 1) = 0 \implies 4x + 2y - 6 = 0 \implies 2x + y = 3 \implies y = 3 - 2x
+$$
 
 Substituting into $x^2 + y^2 = 5$:
 
-$$x^2 + (3 - 2x)^2 = 5 \implies x^2 + 9 - 12x + 4x^2 = 5 \implies 5x^2 - 12x + 4 = 0$$
+$$
+x^2 + (3 - 2x)^2 = 5 \implies x^2 + 9 - 12x + 4x^2 = 5 \implies 5x^2 - 12x + 4 = 0
+$$
 
-$$(5x - 2)(x - 2) = 0 \implies x = \frac{2}{5} \;\text{or}\; x = 2$$
+$$
+(5x - 2)(x - 2) = 0 \implies x = \frac{2}{5} \;\text{or}\; x = 2
+$$
 
 $x = \dfrac{2}{5} \implies y = 3 - \dfrac{4}{5} = \dfrac{11}{5}$. Point:
 $\left(\dfrac{2}{5}, \dfrac{11}{5}\right)$.
@@ -929,15 +1049,23 @@ Find the equation of the locus of points equidistant from $A(1, 3)$ and $B(5, 7)
 
 Let $P = (x, y)$. Then $PA = PB$:
 
-$$\sqrt{(x-1)^2 + (y-3)^2} = \sqrt{(x-5)^2 + (y-7)^2}$$
+$$
+\sqrt{(x-1)^2 + (y-3)^2} = \sqrt{(x-5)^2 + (y-7)^2}
+$$
 
 Squaring:
 
-$$(x-1)^2 + (y-3)^2 = (x-5)^2 + (y-7)^2$$
+$$
+(x-1)^2 + (y-3)^2 = (x-5)^2 + (y-7)^2
+$$
 
-$$x^2 - 2x + 1 + y^2 - 6y + 9 = x^2 - 10x + 25 + y^2 - 14y + 49$$
+$$
+x^2 - 2x + 1 + y^2 - 6y + 9 = x^2 - 10x + 25 + y^2 - 14y + 49
+$$
 
-$$8x + 8y = 64 \implies x + y = 8$$
+$$
+8x + 8y = 64 \implies x + y = 8
+$$
 
 This is the perpendicular bisector of $AB$As expected.
 
@@ -964,11 +1092,15 @@ possible values of $m$.
 
 Substitute $y = mx + 1$ into $x^2 + y^2 = 4$:
 
-$$x^2 + (mx + 1)^2 = 4 \implies (1 + m^2)x^2 + 2mx - 3 = 0$$
+$$
+x^2 + (mx + 1)^2 = 4 \implies (1 + m^2)x^2 + 2mx - 3 = 0
+$$
 
 For tangency: $\Delta = 0$:
 
-$$4m^2 + 12(1 + m^2) = 0 \implies 4m^2 + 12 + 12m^2 = 0 \implies 16m^2 + 12 = 0$$
+$$
+4m^2 + 12(1 + m^2) = 0 \implies 4m^2 + 12 + 12m^2 = 0 \implies 16m^2 + 12 = 0
+$$
 
 $m^2 = -\dfrac{12}{16} = -\dfrac{3}{4} < 0$.
 
@@ -981,7 +1113,9 @@ real $m$. This means the line always intersects the circle at two points, never 
 
 Actually, the distance from the centre $(0,0)$ to the line $mx - y + 1 = 0$ is:
 
-$$d = \frac{|1|}{\sqrt{m^2 + 1}} = \frac{1}{\sqrt{m^2 + 1}}$$
+$$
+d = \frac{|1|}{\sqrt{m^2 + 1}} = \frac{1}{\sqrt{m^2 + 1}}
+$$
 
 For tangency: $d = r = 2$I.e.,
 $\dfrac{1}{\sqrt{m^2 + 1}} = 2 \implies \sqrt{m^2 + 1} = \dfrac{1}{2} \implies m^2 + 1 = \dfrac{1}{4} \implies m^2 = -\dfrac{3}{4}$.
@@ -1046,19 +1180,31 @@ $y - 1 = \dfrac{k-1}{4}(x - 2) \implies (k-1)x - 4y + (4 - 2k + 4) = 0 \implies 
 
 Distance from $(0, 0)$ to $\ell$:
 
-$$\frac{|8 - 2k|}{\sqrt{(k-1)^2 + 16}} = \frac{6\sqrt{5}}{5}$$
+$$
+\frac{|8 - 2k|}{\sqrt{(k-1)^2 + 16}} = \frac{6\sqrt{5}}{5}
+$$
 
 Squaring:
 
-$$\frac{(8 - 2k)^2}{k^2 - 2k + 17} = \frac{36}{5}$$
+$$
+\frac{(8 - 2k)^2}{k^2 - 2k + 17} = \frac{36}{5}
+$$
 
-$$5(4 - k)^2 = 36(k^2 - 2k + 17)$$
+$$
+5(4 - k)^2 = 36(k^2 - 2k + 17)
+$$
 
-$$5(k^2 - 8k + 16) = 36k^2 - 72k + 612$$
+$$
+5(k^2 - 8k + 16) = 36k^2 - 72k + 612
+$$
 
-$$5k^2 - 40k + 80 = 36k^2 - 72k + 612$$
+$$
+5k^2 - 40k + 80 = 36k^2 - 72k + 612
+$$
 
-$$31k^2 - 32k + 532 = 0$$
+$$
+31k^2 - 32k + 532 = 0
+$$
 
 $\Delta = 1024 - 4(31)(532) = 1024 - 65968 < 0$.
 
@@ -1066,23 +1212,39 @@ No real solution for $k$. Let me recheck the algebra.
 
 Actually, let me recompute. The line through $(2,1)$ and $(6,k)$: using the two-point form:
 
-$$\frac{y - 1}{k - 1} = \frac{x - 2}{4} \implies 4(y - 1) = (k - 1)(x - 2)$$
+$$
+\frac{y - 1}{k - 1} = \frac{x - 2}{4} \implies 4(y - 1) = (k - 1)(x - 2)
+$$
 
-$$(k-1)x - 4y - 2(k-1) + 4 = 0 \implies (k-1)x - 4y - 2k + 6 = 0$$
+$$
+(k-1)x - 4y - 2(k-1) + 4 = 0 \implies (k-1)x - 4y - 2k + 6 = 0
+$$
 
 Distance from $(0,0)$:
 
-$$\frac{|6 - 2k|}{\sqrt{(k-1)^2 + 16}} = \frac{6\sqrt{5}}{5}$$
+$$
+\frac{|6 - 2k|}{\sqrt{(k-1)^2 + 16}} = \frac{6\sqrt{5}}{5}
+$$
 
-$$25(6 - 2k)^2 = 36(k^2 - 2k + 17)$$
+$$
+25(6 - 2k)^2 = 36(k^2 - 2k + 17)
+$$
 
-$$25(4k^2 - 24k + 36) = 36k^2 - 72k + 612$$
+$$
+25(4k^2 - 24k + 36) = 36k^2 - 72k + 612
+$$
 
-$$100k^2 - 600k + 900 = 36k^2 - 72k + 612$$
+$$
+100k^2 - 600k + 900 = 36k^2 - 72k + 612
+$$
 
-$$64k^2 - 528k + 288 = 0 \implies 8k^2 - 66k + 36 = 0 \implies 4k^2 - 33k + 18 = 0$$
+$$
+64k^2 - 528k + 288 = 0 \implies 8k^2 - 66k + 36 = 0 \implies 4k^2 - 33k + 18 = 0
+$$
 
-$$(4k - 3)(k - 6) = 0 \implies k = \frac{3}{4} \;\text{or}\; k = 6$$
+$$
+(4k - 3)(k - 6) = 0 \implies k = \frac{3}{4} \;\text{or}\; k = 6
+$$
 
 </details>
 
@@ -1102,7 +1264,9 @@ $-\dfrac{x_1}{y_1} = -\dfrac{2}{3} \implies 3x_1 = 2y_1 \implies y_1 = \dfrac{3}
 
 Substituting into $x_1^2 + y_1^2 = 13$:
 
-$$x_1^2 + \frac{9}{4}x_1^2 = 13 \implies \frac{13}{4}x_1^2 = 13 \implies x_1^2 = 4 \implies x_1 = \pm 2$$
+$$
+x_1^2 + \frac{9}{4}x_1^2 = 13 \implies \frac{13}{4}x_1^2 = 13 \implies x_1^2 = 4 \implies x_1 = \pm 2
+$$
 
 $x_1 = 2 \implies y_1 = 3$. $x_1 = -2 \implies y_1 = -3$.
 
@@ -1120,7 +1284,9 @@ Points: $(2, 3)$ and $(-2, -3)$.
 
 Perpendicular gradient: $m_2 = \frac{3}{2}$.
 
-$$y + 1 = \frac{3}{2}(x - 3) \implies y = \frac{3}{2}x - \frac{9}{2} - 1 = \frac{3}{2}x - \frac{11}{2}$$
+$$
+y + 1 = \frac{3}{2}(x - 3) \implies y = \frac{3}{2}x - \frac{9}{2} - 1 = \frac{3}{2}x - \frac{11}{2}
+$$
 
 Or: $3x - 2y = 11$.
 

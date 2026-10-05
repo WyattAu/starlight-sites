@@ -64,17 +64,25 @@ Hyperbolic functions. CIE requires the derivation of these logarithmic forms.
 **Definition.** The **hyperbolic cosine**, **hyperbolic sine**, and **hyperbolic tangent** are
 Defined by:
 
-$$\boxed{\cosh x = \frac{e^x + e^{-x}}{2}}$$
+$$
+\boxed{\cosh x = \frac{e^x + e^{-x}}{2}}
+$$
 
-$$\boxed{\sinh x = \frac{e^x - e^{-x}}{2}}$$
+$$
+\boxed{\sinh x = \frac{e^x - e^{-x}}{2}}
+$$
 
-$$\boxed{\tanh x = \frac{\sinh x}{\cosh x} = \frac{e^x - e^{-x}}{e^x + e^{-x}}}$$
+$$
+\boxed{\tanh x = \frac{\sinh x}{\cosh x} = \frac{e^x - e^{-x}}{e^x + e^{-x}}}
+$$
 
 ### 1.2 The reciprocal hyperbolic functions
 
 **Definition.**
 
-$$\mathrm{sech}\,x = \frac{1}{\cosh x}, \qquad \mathrm{cosech}\,x = \frac{1}{\sinh x}, \qquad \coth\,x = \frac{\cosh x}{\sinh x}$$
+$$
+\mathrm{sech}\,x = \frac{1}{\cosh x}, \qquad \mathrm{cosech}\,x = \frac{1}{\sinh x}, \qquad \coth\,x = \frac{\cosh x}{\sinh x}
+$$
 
 <Aside type="caution">
 Note the spelling: $\cosh$, $\sinh$, $\tanh$ are standard abbreviations. The reciprocals
@@ -93,11 +101,17 @@ Use $\mathrm{sech}$ (not $\mathrm{sec h}$), $\mathrm{cosech}$ (not $\mathrm{csch
 
 ### 1.4 Key values
 
-$$\sinh 0 = 0, \quad \cosh 0 = 1, \quad \tanh 0 = 0$$
+$$
+\sinh 0 = 0, \quad \cosh 0 = 1, \quad \tanh 0 = 0
+$$
 
-$$\sinh(-x) = -\sinh x \quad (\mathrm{odd function})$$
+$$
+\sinh(-x) = -\sinh x \quad (\mathrm{odd function})
+$$
 
-$$\cosh(-x) = \cosh x \quad (\mathrm{even function})$$
+$$
+\cosh(-x) = \cosh x \quad (\mathrm{even function})
+$$
 
 <hr />
 
@@ -107,51 +121,81 @@ $$\cosh(-x) = \cosh x \quad (\mathrm{even function})$$
 
 **Theorem.** For all $x \in \mathbb{R}$:
 
-$$\boxed{\cosh^2 x - \sinh^2 x = 1}$$
+$$
+\boxed{\cosh^2 x - \sinh^2 x = 1}
+$$
 
 ### Proof of $\cosh^2 x - \sinh^2 x = 1$
 
-$$\cosh^2 x - \sinh^2 x = \left(\frac{e^x+e^{-x}}{2}\right)^2 - \left(\frac{e^x-e^{-x}}{2}\right)^2$$
+$$
+\cosh^2 x - \sinh^2 x = \left(\frac{e^x+e^{-x}}{2}\right)^2 - \left(\frac{e^x-e^{-x}}{2}\right)^2
+$$
 
-$$= \frac{e^{2x}+2+e^{-2x}}{4} - \frac{e^{2x}-2+e^{-2x}}{4} = \frac{4}{4} = 1 \quad \blacksquare$$
+$$
+= \frac{e^{2x}+2+e^{-2x}}{4} - \frac{e^{2x}-2+e^{-2x}}{4} = \frac{4}{4} = 1 \quad \blacksquare
+$$
 
 **Corollary.** Dividing by $\cosh^2 x$:
 
-$$\boxed{1 - \tanh^2 x = \mathrm{sech}^2\,x}$$
+$$
+\boxed{1 - \tanh^2 x = \mathrm{sech}^2\,x}
+$$
 
 Dividing by $\sinh^2 x$:
 
-$$\boxed{\coth^2 x - 1 = \mathrm{cosech}^2\,x}$$
+$$
+\boxed{\coth^2 x - 1 = \mathrm{cosech}^2\,x}
+$$
 
 ### 2.2 Addition formulae
 
 **Theorem.**
 
-$$\boxed{\sinh(x+y) = \sinh x\cosh y + \cosh x\sinh y}$$
+$$
+\boxed{\sinh(x+y) = \sinh x\cosh y + \cosh x\sinh y}
+$$
 
-$$\boxed{\cosh(x+y) = \cosh x\cosh y + \sinh x\sinh y}$$
+$$
+\boxed{\cosh(x+y) = \cosh x\cosh y + \sinh x\sinh y}
+$$
 
 ### Proof of the addition formula for $\sinh(x+y)$
 
-$$\sinh(x+y) = \frac{e^{x+y}-e^{-(x+y)}}{2} = \frac{e^x e^y - e^{-x}e^{-y}}{2}$$
+$$
+\sinh(x+y) = \frac{e^{x+y}-e^{-(x+y)}}{2} = \frac{e^x e^y - e^{-x}e^{-y}}{2}
+$$
 
-$$= \frac{(e^x+e^{-x})(e^y-e^{-y}) + (e^x-e^{-x})(e^y+e^{-y})}{4}$$
+$$
+= \frac{(e^x+e^{-x})(e^y-e^{-y}) + (e^x-e^{-x})(e^y+e^{-y})}{4}
+$$
 
-$$= \frac{e^x e^y - e^x e^{-y} + e^{-x}e^y - e^{-x}e^{-y} + e^x e^y + e^x e^{-y} - e^{-x}e^y - e^{-x}e^{-y}}{4}$$
+$$
+= \frac{e^x e^y - e^x e^{-y} + e^{-x}e^y - e^{-x}e^{-y} + e^x e^y + e^x e^{-y} - e^{-x}e^y - e^{-x}e^{-y}}{4}
+$$
 
 Wait, a cleaner approach:
 
-$$\sinh x\cosh y + \cosh x\sinh y = \frac{e^x-e^{-x}}{2}\cdot\frac{e^y+e^{-y}}{2} + \frac{e^x+e^{-x}}{2}\cdot\frac{e^y-e^{-y}}{2}$$
+$$
+\sinh x\cosh y + \cosh x\sinh y = \frac{e^x-e^{-x}}{2}\cdot\frac{e^y+e^{-y}}{2} + \frac{e^x+e^{-x}}{2}\cdot\frac{e^y-e^{-y}}{2}
+$$
 
-$$= \frac{e^{x+y}+e^{x-y}-e^{-x+y}-e^{-x-y}+e^{x+y}-e^{x-y}+e^{-x+y}-e^{-x-y}}{4}$$
+$$
+= \frac{e^{x+y}+e^{x-y}-e^{-x+y}-e^{-x-y}+e^{x+y}-e^{x-y}+e^{-x+y}-e^{-x-y}}{4}
+$$
 
-$$= \frac{2e^{x+y} - 2e^{-(x+y)}}{4} = \frac{e^{x+y}-e^{-(x+y)}}{2} = \sinh(x+y) \quad \blacksquare$$
+$$
+= \frac{2e^{x+y} - 2e^{-(x+y)}}{4} = \frac{e^{x+y}-e^{-(x+y)}}{2} = \sinh(x+y) \quad \blacksquare
+$$
 
 ### 2.3 Double angle formulae
 
-$$\sinh 2x = 2\sinh x\cosh x$$
+$$
+\sinh 2x = 2\sinh x\cosh x
+$$
 
-$$\cosh 2x = \cosh^2 x + \sinh^2 x = 2\cosh^2 x - 1 = 1 + 2\sinh^2 x$$
+$$
+\cosh 2x = \cosh^2 x + \sinh^2 x = 2\cosh^2 x - 1 = 1 + 2\sinh^2 x
+$$
 
 ### 2.4 Osborn's rule
 
@@ -185,32 +229,48 @@ Identities by direct computation from the exponential definitions when in doubt.
 
 **Definition.** The inverse hyperbolic functions are:
 
-$$\boxed{\mathrm{arsinh}\,x = \ln\!\left(x + \sqrt{x^2+1}\right), \quad x \in \mathbb{R}}$$
+$$
+\boxed{\mathrm{arsinh}\,x = \ln\!\left(x + \sqrt{x^2+1}\right), \quad x \in \mathbb{R}}
+$$
 
-$$\boxed{\mathrm{arcosh}\,x = \ln\!\left(x + \sqrt{x^2-1}\right), \quad x \geq 1}$$
+$$
+\boxed{\mathrm{arcosh}\,x = \ln\!\left(x + \sqrt{x^2-1}\right), \quad x \geq 1}
+$$
 
-$$\boxed{\mathrm{artanh}\,x = \frac{1}{2}\ln\!\left(\frac{1+x}{1-x}\right), \quad |x| < 1}$$
+$$
+\boxed{\mathrm{artanh}\,x = \frac{1}{2}\ln\!\left(\frac{1+x}{1-x}\right), \quad |x| < 1}
+$$
 
 ### Proof of $\mathrm{arsinh}\,x = \ln(x + \sqrt{x^2+1})$
 
 Let $y = \mathrm{arsinh}\,x$. Then $x = \sinh y = \dfrac{e^y - e^{-y}}{2}$.
 
-$$2x = e^y - e^{-y}$$
+$$
+2x = e^y - e^{-y}
+$$
 
 Multiply by $e^y$: $2xe^y = e^{2y} - 1$.
 
-$$e^{2y} - 2xe^y - 1 = 0$$
+$$
+e^{2y} - 2xe^y - 1 = 0
+$$
 
 This is a quadratic in $e^y$:
 
-$$e^y = \frac{2x \pm \sqrt{4x^2+4}}{2} = x \pm \sqrt{x^2+1}$$
+$$
+e^y = \frac{2x \pm \sqrt{4x^2+4}}{2} = x \pm \sqrt{x^2+1}
+$$
 
 Since $e^y > 0$ for all $y$We need $x + \sqrt{x^2+1} > 0$Which is always true. And
 $x - \sqrt{x^2+1} < 0$ for all $x$ So we take the positive root:
 
-$$e^y = x + \sqrt{x^2+1}$$
+$$
+e^y = x + \sqrt{x^2+1}
+$$
 
-$$y = \ln(x + \sqrt{x^2+1})$$
+$$
+y = \ln(x + \sqrt{x^2+1})
+$$
 
 Therefore $\mathrm{arsinh}\,x = \ln(x + \sqrt{x^2+1})$. $\blacksquare$
 
@@ -218,17 +278,25 @@ Therefore $\mathrm{arsinh}\,x = \ln(x + \sqrt{x^2+1})$. $\blacksquare$
 
 Let $y = \mathrm{arcosh}\,x$. Then $x = \cosh y = \dfrac{e^y + e^{-y}}{2}$ for $y \geq 0$.
 
-$$2x = e^y + e^{-y}$$
+$$
+2x = e^y + e^{-y}
+$$
 
-$$e^{2y} - 2xe^y + 1 = 0$$
+$$
+e^{2y} - 2xe^y + 1 = 0
+$$
 
-$$e^y = \frac{2x \pm \sqrt{4x^2-4}}{2} = x \pm \sqrt{x^2-1}$$
+$$
+e^y = \frac{2x \pm \sqrt{4x^2-4}}{2} = x \pm \sqrt{x^2-1}
+$$
 
 Since $e^y \geq 1$ and $y \geq 0$: we need $e^y \geq 1$. Both roots are positive (for $x \geq 1$),
 But $x + \sqrt{x^2-1} \geq 1$ and $x - \sqrt{x^2-1} \leq 1$. Since $\cosh$ is not one-to-one on all
 Of $\mathbb{R}$We restrict to $y \geq 0$Giving $e^y \geq 1$:
 
-$$e^y = x + \sqrt{x^2-1} \implies y = \ln(x + \sqrt{x^2-1})$$
+$$
+e^y = x + \sqrt{x^2-1} \implies y = \ln(x + \sqrt{x^2-1})
+$$
 
 Therefore $\mathrm{arcosh}\,x = \ln(x + \sqrt{x^2-1})$ for $x \geq 1$. $\blacksquare$
 
@@ -238,17 +306,27 @@ Let $y = \mathrm{artanh}\,x$. Then $x = \tanh y = \dfrac{\sinh y}{\cosh y}$.
 
 Using $\cosh^2 y - \sinh^2 y = 1$:
 
-$$x = \frac{\sinh y}{\cosh y} \implies \frac{\sinh y}{\cosh y} = x \implies \sinh y = x\cosh y$$
+$$
+x = \frac{\sinh y}{\cosh y} \implies \frac{\sinh y}{\cosh y} = x \implies \sinh y = x\cosh y
+$$
 
-$$\cosh^2 y - x^2\cosh^2 y = 1 \implies \cosh^2 y = \frac{1}{1-x^2}$$
+$$
+\cosh^2 y - x^2\cosh^2 y = 1 \implies \cosh^2 y = \frac{1}{1-x^2}
+$$
 
 Also $\tanh y = \dfrac{e^{2y}-1}{e^{2y}+1}$ So:
 
-$$x = \frac{e^{2y}-1}{e^{2y}+1} \implies x(e^{2y}+1) = e^{2y}-1 \implies xe^{2y}+x = e^{2y}-1$$
+$$
+x = \frac{e^{2y}-1}{e^{2y}+1} \implies x(e^{2y}+1) = e^{2y}-1 \implies xe^{2y}+x = e^{2y}-1
+$$
 
-$$e^{2y}(1-x) = 1+x \implies e^{2y} = \frac{1+x}{1-x}$$
+$$
+e^{2y}(1-x) = 1+x \implies e^{2y} = \frac{1+x}{1-x}
+$$
 
-$$2y = \ln\!\left(\frac{1+x}{1-x}\right) \implies y = \frac{1}{2}\ln\!\left(\frac{1+x}{1-x}\right) \quad \blacksquare$$
+$$
+2y = \ln\!\left(\frac{1+x}{1-x}\right) \implies y = \frac{1}{2}\ln\!\left(\frac{1+x}{1-x}\right) \quad \blacksquare
+$$
 
 <hr />
 
@@ -256,53 +334,83 @@ $$2y = \ln\!\left(\frac{1+x}{1-x}\right) \implies y = \frac{1}{2}\ln\!\left(\fra
 
 ### 4.1 Derivatives
 
-$$\boxed{\frac{d}{dx}\sinh x = \cosh x}$$
+$$
+\boxed{\frac{d}{dx}\sinh x = \cosh x}
+$$
 
-$$\boxed{\frac{d}{dx}\cosh x = \sinh x}$$
+$$
+\boxed{\frac{d}{dx}\cosh x = \sinh x}
+$$
 
-$$\boxed{\frac{d}{dx}\tanh x = \mathrm{sech}^2\,x}$$
+$$
+\boxed{\frac{d}{dx}\tanh x = \mathrm{sech}^2\,x}
+$$
 
 ### Proof of $\frac{d}{dx}\sinh x = \cosh x$
 
-$$\frac{d}{dx}\sinh x = \frac{d}{dx}\left(\frac{e^x - e^{-x}}{2}\right) = \frac{e^x + e^{-x}}{2} = \cosh x \quad \blacksquare$$
+$$
+\frac{d}{dx}\sinh x = \frac{d}{dx}\left(\frac{e^x - e^{-x}}{2}\right) = \frac{e^x + e^{-x}}{2} = \cosh x \quad \blacksquare
+$$
 
 ### Proof of $\frac{d}{dx}\cosh x = \sinh x$
 
-$$\frac{d}{dx}\cosh x = \frac{d}{dx}\left(\frac{e^x + e^{-x}}{2}\right) = \frac{e^x - e^{-x}}{2} = \sinh x \quad \blacksquare$$
+$$
+\frac{d}{dx}\cosh x = \frac{d}{dx}\left(\frac{e^x + e^{-x}}{2}\right) = \frac{e^x - e^{-x}}{2} = \sinh x \quad \blacksquare
+$$
 
 ### 4.2 Derivatives of inverse hyperbolic functions
 
-$$\boxed{\frac{d}{dx}\mathrm{arsinh}\,x = \frac{1}{\sqrt{x^2+1}}}$$
+$$
+\boxed{\frac{d}{dx}\mathrm{arsinh}\,x = \frac{1}{\sqrt{x^2+1}}}
+$$
 
-$$\boxed{\frac{d}{dx}\mathrm{arcosh}\,x = \frac{1}{\sqrt{x^2-1}}, \quad x > 1}$$
+$$
+\boxed{\frac{d}{dx}\mathrm{arcosh}\,x = \frac{1}{\sqrt{x^2-1}}, \quad x > 1}
+$$
 
-$$\boxed{\frac{d}{dx}\mathrm{artanh}\,x = \frac{1}{1-x^2}, \quad |x| < 1}$$
+$$
+\boxed{\frac{d}{dx}\mathrm{artanh}\,x = \frac{1}{1-x^2}, \quad |x| < 1}
+$$
 
 ### Proof of $\frac{d}{dx}\mathrm{arsinh}\,x = \frac{1}{\sqrt{x^2+1}}$
 
 $\mathrm{arsinh}\,x = \ln(x + \sqrt{x^2+1})$.
 
-$$\frac{d}{dx}\ln(x+\sqrt{x^2+1}) = \frac{1}{x+\sqrt{x^2+1}}\cdot\left(1 + \frac{x}{\sqrt{x^2+1}}\right)$$
+$$
+\frac{d}{dx}\ln(x+\sqrt{x^2+1}) = \frac{1}{x+\sqrt{x^2+1}}\cdot\left(1 + \frac{x}{\sqrt{x^2+1}}\right)
+$$
 
-$$= \frac{1}{x+\sqrt{x^2+1}}\cdot\frac{\sqrt{x^2+1}+x}{\sqrt{x^2+1}} = \frac{1}{\sqrt{x^2+1}} \quad \blacksquare$$
+$$
+= \frac{1}{x+\sqrt{x^2+1}}\cdot\frac{\sqrt{x^2+1}+x}{\sqrt{x^2+1}} = \frac{1}{\sqrt{x^2+1}} \quad \blacksquare
+$$
 
 ### Proof of $\frac{d}{dx}\mathrm{artanh}\,x = \frac{1}{1-x^2}$
 
 $\mathrm{artanh}\,x = \dfrac{1}{2}\ln\!\left(\dfrac{1+x}{1-x}\right)$.
 
-$$\frac{d}{dx}\cdot\frac{1}{2}\ln\!\left(\frac{1+x}{1-x}\right) = \frac{1}{2}\cdot\frac{1-x}{1+x}\cdot\frac{(1)(1-x)-(1+x)(-1)}{(1-x)^2}$$
+$$
+\frac{d}{dx}\cdot\frac{1}{2}\ln\!\left(\frac{1+x}{1-x}\right) = \frac{1}{2}\cdot\frac{1-x}{1+x}\cdot\frac{(1)(1-x)-(1+x)(-1)}{(1-x)^2}
+$$
 
-$$= \frac{1}{2}\cdot\frac{1-x}{1+x}\cdot\frac{2}{(1-x)^2} = \frac{1}{1-x^2} \quad \blacksquare$$
+$$
+= \frac{1}{2}\cdot\frac{1-x}{1+x}\cdot\frac{2}{(1-x)^2} = \frac{1}{1-x^2} \quad \blacksquare
+$$
 
 ### 4.3 Standard integrals
 
 The derivative results immediately give:
 
-$$\boxed{\int \frac{1}{\sqrt{x^2+a^2}}\,dx = \mathrm{arsinh}\!\left(\frac{x}{a}\right) + C = \ln\!\left(\frac{x}{a}+\sqrt{\frac{x^2}{a^2}+1}\right)+C}$$
+$$
+\boxed{\int \frac{1}{\sqrt{x^2+a^2}}\,dx = \mathrm{arsinh}\!\left(\frac{x}{a}\right) + C = \ln\!\left(\frac{x}{a}+\sqrt{\frac{x^2}{a^2}+1}\right)+C}
+$$
 
-$$\boxed{\int \frac{1}{\sqrt{x^2-a^2}}\,dx = \mathrm{arcosh}\!\left(\frac{x}{a}\right) + C = \ln\!\left(\frac{x}{a}+\sqrt{\frac{x^2}{a^2}-1}\right)+C, \quad x > a}$$
+$$
+\boxed{\int \frac{1}{\sqrt{x^2-a^2}}\,dx = \mathrm{arcosh}\!\left(\frac{x}{a}\right) + C = \ln\!\left(\frac{x}{a}+\sqrt{\frac{x^2}{a^2}-1}\right)+C, \quad x > a}
+$$
 
-$$\boxed{\int \frac{1}{a^2-x^2}\,dx = \frac{1}{a}\mathrm{artanh}\!\left(\frac{x}{a}\right) + C, \quad |x| < a}$$
+$$
+\boxed{\int \frac{1}{a^2-x^2}\,dx = \frac{1}{a}\mathrm{artanh}\!\left(\frac{x}{a}\right) + C, \quad |x| < a}
+$$
 
 **Example.**
 $\displaystyle\int \frac{1}{\sqrt{x^2+9}}\,dx = \mathrm{arsinh}\!\left(\frac{x}{3}\right) + C = \ln\!\left(\frac{x}{3}+\sqrt{\frac{x^2}{9}+1}\right)+C = \ln\!\left(\frac{x+\sqrt{x^2+9}}{3}\right)+C$.
@@ -317,13 +425,21 @@ For $|x| < 2$.
 
 ### 4.4 Integrals of hyperbolic functions
 
-$$\int \cosh x\,dx = \sinh x + C$$
+$$
+\int \cosh x\,dx = \sinh x + C
+$$
 
-$$\int \sinh x\,dx = \cosh x + C$$
+$$
+\int \sinh x\,dx = \cosh x + C
+$$
 
-$$\int \mathrm{sech}^2\,x\,dx = \tanh x + C$$
+$$
+\int \mathrm{sech}^2\,x\,dx = \tanh x + C
+$$
 
-$$\int \tanh x\,dx = \ln(\cosh x) + C$$
+$$
+\int \tanh x\,dx = \ln(\cosh x) + C
+$$
 
 <Aside type="tip">
 When you encounter an integral of the form $\dfrac{1}{\sqrt{x^2+a^2}}$ or
@@ -340,24 +456,34 @@ Answer. CIE and Edexcel FP2 frequently test these.
 
 **Theorem.** For all $x \in \mathbb{R}$:
 
-$$\boxed{\sin(ix) = i\sinh x}$$
+$$
+\boxed{\sin(ix) = i\sinh x}
+$$
 
-$$\boxed{\cos(ix) = \cosh x}$$
+$$
+\boxed{\cos(ix) = \cosh x}
+$$
 
 ### Proof of $\cos(ix) = \cosh x$
 
-$$\cos(ix) = \frac{e^{i(ix)} + e^{-i(ix)}}{2} = \frac{e^{-x} + e^{x}}{2} = \frac{e^x + e^{-x}}{2} = \cosh x \quad \blacksquare$$
+$$
+\cos(ix) = \frac{e^{i(ix)} + e^{-i(ix)}}{2} = \frac{e^{-x} + e^{x}}{2} = \frac{e^x + e^{-x}}{2} = \cosh x \quad \blacksquare
+$$
 
 ### Proof of $\sin(ix) = i\sinh x$
 
-$$\sin(ix) = \frac{e^{i(ix)} - e^{-i(ix)}}{2i} = \frac{e^{-x} - e^{x}}{2i} = \frac{-(e^x - e^{-x})}{2i} = i\cdot\frac{e^x - e^{-x}}{2} = i\sinh x \quad \blacksquare$$
+$$
+\sin(ix) = \frac{e^{i(ix)} - e^{-i(ix)}}{2i} = \frac{e^{-x} - e^{x}}{2i} = \frac{-(e^x - e^{-x})}{2i} = i\cdot\frac{e^x - e^{-x}}{2} = i\sinh x \quad \blacksquare
+$$
 
 ### 5.2 Consequences
 
 These relationships explain why hyperbolic identities mirror trigonometric identities. Since
 $\cos(ix) = \cosh x$ and $\sin(ix) = i\sinh x$:
 
-$$\cos^2(ix) + \sin^2(ix) = \cosh^2 x + (i\sinh x)^2 = \cosh^2 x - \sinh^2 x = 1$$
+$$
+\cos^2(ix) + \sin^2(ix) = \cosh^2 x + (i\sinh x)^2 = \cosh^2 x - \sinh^2 x = 1
+$$
 
 This is exactly the fundamental hyperbolic identity. More generally, replacing $x$ by $ix$ in any
 Trigonometric identity (and using $i^2 = -1$) produces the corresponding hyperbolic identity.
@@ -367,9 +493,13 @@ Trigonometric identity (and using $i^2 = -1$) produces the corresponding hyperbo
 The **Gudermannian function** $\mathrm{gd}(x)$ relates circular and hyperbolic functions without
 Complex numbers:
 
-$$\sinh x = \tan(\mathrm{gd}\,x), \quad \cosh x = \sec(\mathrm{gd}\,x), \quad \tanh x = \sin(\mathrm{gd}\,x)$$
+$$
+\sinh x = \tan(\mathrm{gd}\,x), \quad \cosh x = \sec(\mathrm{gd}\,x), \quad \tanh x = \sin(\mathrm{gd}\,x)
+$$
 
-$$\mathrm{gd}\,x = \int_0^x \mathrm{sech}\,t\,dt = 2\arctan(e^x) - \frac{\pi}{2}$$
+$$
+\mathrm{gd}\,x = \int_0^x \mathrm{sech}\,t\,dt = 2\arctan(e^x) - \frac{\pi}{2}
+$$
 
 <hr />
 
@@ -606,7 +736,9 @@ Tangent.
 
 **Solution.** For $|x| < 1$:
 
-$$\int_0^{1/2}\frac{dx}{1 - x^2} = \left[\operatorname{artanh}\,x\right]_0^{1/2} = \operatorname{artanh}\!\left(\frac{1}{2}\right) = \frac{1}{2}\ln\!\left(\frac{1 + 1/2}{1 - 1/2}\right) = \frac{1}{2}\ln 3$$
+$$
+\int_0^{1/2}\frac{dx}{1 - x^2} = \left[\operatorname{artanh}\,x\right]_0^{1/2} = \operatorname{artanh}\!\left(\frac{1}{2}\right) = \frac{1}{2}\ln\!\left(\frac{1 + 1/2}{1 - 1/2}\right) = \frac{1}{2}\ln 3
+$$
 
 ### Example 7.2: Solving a hyperbolic equation with quadratic substitution
 
@@ -614,7 +746,9 @@ $$\int_0^{1/2}\frac{dx}{1 - x^2} = \left[\operatorname{artanh}\,x\right]_0^{1/2}
 
 **Solution.** Using $\cosh^2 x = 1 + \sinh^2 x$:
 
-$$2(1 + \sinh^2 x) - 5\sinh x = 5 \implies 2\sinh^2 x - 5\sinh x - 3 = 0$$
+$$
+2(1 + \sinh^2 x) - 5\sinh x = 5 \implies 2\sinh^2 x - 5\sinh x - 3 = 0
+$$
 
 Let $u = \sinh x$: $2u^2 - 5u - 3 = 0 \implies (2u + 1)(u - 3) = 0$.
 
@@ -632,9 +766,13 @@ $\dfrac{d}{dx}\left[\operatorname{artanh}\!\left(\dfrac{\sin x}{2}\right)\right]
 
 **Solution.** Using the chain rule:
 
-$$\frac{d}{dx}\operatorname{artanh}\!\left(\frac{\sin x}{2}\right) = \frac{1}{1 - \sin^2 x/4}\cdot\frac{\cos x}{2} = \frac{\cos x}{2 - \sin^2 x/2}$$
+$$
+\frac{d}{dx}\operatorname{artanh}\!\left(\frac{\sin x}{2}\right) = \frac{1}{1 - \sin^2 x/4}\cdot\frac{\cos x}{2} = \frac{\cos x}{2 - \sin^2 x/2}
+$$
 
-$$= \frac{2\cos x}{4 - \sin^2 x}$$
+$$
+= \frac{2\cos x}{4 - \sin^2 x}
+$$
 
 ### Example 7.4: Proving an identity by induction
 
@@ -648,7 +786,9 @@ This is the double angle formula. True.
 
 For $n = k + 1$:
 
-$$\sinh((k+1)x) = 2\cosh x \sinh(kx) - \sinh((k-1)x)$$
+$$
+\sinh((k+1)x) = 2\cosh x \sinh(kx) - \sinh((k-1)x)
+$$
 
 (using the addition formula with the inductive hypothesis applied to $\sinh(kx + x)$):
 
@@ -673,11 +813,15 @@ And $x = \ln 3$.
 
 **Solution.** Since $\sinh x$ is odd:
 
-$$A = \int_{-\ln 3}^{\ln 3}\sinh x\,dx = 2\int_0^{\ln 3}\sinh x\,dx = 2\bigl[\cosh x\bigr]_0^{\ln 3}$$
+$$
+A = \int_{-\ln 3}^{\ln 3}\sinh x\,dx = 2\int_0^{\ln 3}\sinh x\,dx = 2\bigl[\cosh x\bigr]_0^{\ln 3}
+$$
 
 $\cosh(\ln 3) = \dfrac{3 + 1/3}{2} = \dfrac{5}{3}$.
 
-$$A = 2\!\left(\frac{5}{3} - 1\right) = \frac{4}{3}$$
+$$
+A = 2\!\left(\frac{5}{3} - 1\right) = \frac{4}{3}
+$$
 
 ### Example 7.6: Connection with differential equations
 
@@ -693,7 +837,9 @@ Therefore $y'' - 4y = 4y - 4y = 0$. $\blacksquare$
 
 **Solution.** Complete the square: $x^2 + 2x + 5 = (x+1)^2 + 4$.
 
-$$\int\frac{dx}{\sqrt{(x+1)^2 + 4}} = \operatorname{arsinh}\!\left(\frac{x+1}{2}\right) + C$$
+$$
+\int\frac{dx}{\sqrt{(x+1)^2 + 4}} = \operatorname{arsinh}\!\left(\frac{x+1}{2}\right) + C
+$$
 
 ### Example 7.8: Derivative of $\operatorname{arcosh}$ via implicit differentiation
 
@@ -709,7 +855,9 @@ Since $\cosh^2 y - \sinh^2 y = 1$: $\sinh^2 y = \cosh^2 y - 1 = x^2 - 1$.
 
 For $y \geq 0$We have $\sinh y \geq 0$ So $\sinh y = \sqrt{x^2 - 1}$.
 
-$$\frac{dy}{dx} = \frac{1}{\sqrt{x^2-1}} \quad \blacksquare$$
+$$
+\frac{dy}{dx} = \frac{1}{\sqrt{x^2-1}} \quad \blacksquare
+$$
 
 ---
 
@@ -777,11 +925,15 @@ $= \dfrac{\sinh(x/2)\cosh(x)}{\sinh(x/2)} = \cosh x$. True.
 
 **Inductive step.** Assume for $n = k$:
 
-$$\sum_{j=1}^{k}\cosh(jx) = \frac{\sinh(kx/2)\cosh((k+1)x/2)}{\sinh(x/2)}$$
+$$
+\sum_{j=1}^{k}\cosh(jx) = \frac{\sinh(kx/2)\cosh((k+1)x/2)}{\sinh(x/2)}
+$$
 
 For $n = k + 1$:
 
-$$\sum_{j=1}^{k+1}\cosh(jx) = \frac{\sinh(kx/2)\cosh((k+1)x/2)}{\sinh(x/2)} + \cosh((k+1)x)$$
+$$
+\sum_{j=1}^{k+1}\cosh(jx) = \frac{\sinh(kx/2)\cosh((k+1)x/2)}{\sinh(x/2)} + \cosh((k+1)x)
+$$
 
 Using the identity $\sinh A\cosh B + \sinh(B-A)\sinh(x/2) = \sinh B\cosh A$ (which requires care),
 Or equivalently using the product-to-sum formula:
@@ -803,7 +955,9 @@ Find $\displaystyle\int \frac{e^{2x}}{\sqrt{e^{4x} - 1}}\,dx$.
 
 Let $u = e^{2x}$, $du = 2e^{2x}\,dx$:
 
-$$\int\frac{e^{2x}\,dx}{\sqrt{e^{4x}-1}} = \frac{1}{2}\int\frac{du}{\sqrt{u^2-1}} = \frac{1}{2}\operatorname{arcosh}\,u + C = \frac{1}{2}\operatorname{arcosh}(e^{2x}) + C$$
+$$
+\int\frac{e^{2x}\,dx}{\sqrt{e^{4x}-1}} = \frac{1}{2}\int\frac{du}{\sqrt{u^2-1}} = \frac{1}{2}\operatorname{arcosh}\,u + C = \frac{1}{2}\operatorname{arcosh}(e^{2x}) + C
+$$
 
 </details>
 
@@ -832,9 +986,13 @@ Up to $x^5$: $\boxed{f(x) = x^3 + \dfrac{x^5}{6} + O(x^7)}$.
 
 **Solution.** Let $x = 2\cosh u$, $dx = 2\sinh u\,du$.
 
-$$\int \frac{2\sinh u\,du}{\sqrt{4\cosh^2 u - 4}} = \int \frac{2\sinh u\,du}{2\sinh u} = \int du = u + C$$
+$$
+\int \frac{2\sinh u\,du}{\sqrt{4\cosh^2 u - 4}} = \int \frac{2\sinh u\,du}{2\sinh u} = \int du = u + C
+$$
 
-$$= \operatorname{arcosh}\!\left(\frac{x}{2}\right) + C = \ln\!\left(x + \sqrt{x^2-4}\right) - \ln 2 + C$$
+$$
+= \operatorname{arcosh}\!\left(\frac{x}{2}\right) + C = \ln\!\left(x + \sqrt{x^2-4}\right) - \ln 2 + C
+$$
 
 ### Example 8.2: Proving a hyperbolic identity
 
@@ -858,9 +1016,13 @@ $= \boxed{4\cosh^3 x - 3\cosh x}$. $\blacksquare$
 
 **Solution.** Let $x = \sinh u$, $dx = \cosh u\,du$.
 
-$$\int_0^{\operatorname{arsinh}(1)} \frac{\cosh u}{\sqrt{1+\sinh^2 u}}\,du = \int_0^{\ln(1+\sqrt{2})} 1\,du = \ln(1+\sqrt{2})$$
+$$
+\int_0^{\operatorname{arsinh}(1)} \frac{\cosh u}{\sqrt{1+\sinh^2 u}}\,du = \int_0^{\ln(1+\sqrt{2})} 1\,du = \ln(1+\sqrt{2})
+$$
 
-$$= \boxed{\ln(1+\sqrt{2})}$$
+$$
+= \boxed{\ln(1+\sqrt{2})}
+$$
 
 ### Example 8.4: Solving a hyperbolic equation
 
@@ -894,7 +1056,9 @@ $\displaystyle\int \frac{dp}{\sqrt{1+p^2}} = \int \frac{dx}{a} \implies \operato
 
 $p = \sinh(x/a)$. Integrating: $y = a\cosh(x/a) + C$. Taking the lowest point at $y = a$: $C = 0$.
 
-$$\boxed{y = a\cosh(x/a)}$$
+$$
+\boxed{y = a\cosh(x/a)}
+$$
 
 ### Example 8.6: Differentiating inverse hyperbolic functions
 
@@ -904,7 +1068,9 @@ State its domain.
 **Solution.** $\dfrac{d}{dx}[\operatorname{artanh}(u)] = \dfrac{1}{1-u^2} \cdot \dfrac{du}{dx}$ with
 $u = x/2$.
 
-$$\frac{d}{dx}\!\left[\operatorname{artanh}\!\left(\frac{x}{2}\right)\right] = \frac{1}{1 - x^2/4} \cdot \frac{1}{2} = \frac{2}{4-x^2}$$
+$$
+\frac{d}{dx}\!\left[\operatorname{artanh}\!\left(\frac{x}{2}\right)\right] = \frac{1}{1 - x^2/4} \cdot \frac{1}{2} = \frac{2}{4-x^2}
+$$
 
 Domain: $\left|\dfrac{x}{2}\right| < 1$I.e., $-2 < x < 2$.
 
@@ -976,7 +1142,9 @@ $2x = e^y - e^{-y} \implies e^{2y} - 2xe^y - 1 = 0$.
 $e^y = \dfrac{2x \pm \sqrt{4x^2+4}}{2} = x + \sqrt{x^2+1}$ (taking positive root since
 $e^y > 0$).
 
-$$\boxed{\sinh^{-1} x = \ln(x + \sqrt{x^2+1})}$$
+$$
+\boxed{\sinh^{-1} x = \ln(x + \sqrt{x^2+1})}
+$$
 
 </details>
 

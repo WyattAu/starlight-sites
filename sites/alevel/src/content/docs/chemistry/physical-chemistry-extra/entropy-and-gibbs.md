@@ -629,19 +629,27 @@ molecules in the larger volume.
 $\mathrm{Ne}$Both initially in separate $10.0\,\mathrm{dm}^3$ containers at $298\,\mathrm{K}$Are
 allowed to mix in a combined volume of $20.0\,\mathrm{dm}^3$. Calculate $\Delta S_\text{mix}$.
 
-$$\Delta S_\text{mix} = -nR\left(x_\mathrm{He}\ln x_\mathrm{He} + x_\mathrm{Ne}\ln x_\mathrm{Ne}\right)$$
+$$
+\Delta S_\text{mix} = -nR\left(x_\mathrm{He}\ln x_\mathrm{He} + x_\mathrm{Ne}\ln x_\mathrm{Ne}\right)
+$$
 
 Where $x_\mathrm{He} = x_\mathrm{Ne} = 0.5$:
 
-$$\Delta S_\text{mix} = -(1.0 + 1.0) \times 8.314 \times (0.5 \ln 0.5 + 0.5 \ln 0.5)$$
+$$
+\Delta S_\text{mix} = -(1.0 + 1.0) \times 8.314 \times (0.5 \ln 0.5 + 0.5 \ln 0.5)
+$$
 
-$$= -2.0 \times 8.314 \times \ln 0.5 = -16.63 \times (-0.693) = +11.5\,\mathrm{J\,K^{-1}}$$
+$$
+= -2.0 \times 8.314 \times \ln 0.5 = -16.63 \times (-0.693) = +11.5\,\mathrm{J\,K^{-1}}
+$$
 
 ### Phase Transitions and Entropy
 
 At a phase transition, the system is at equilibrium so $\Delta G = 0$Giving:
 
-$$\Delta S_\text{transition} = \frac{\Delta H_\text{transition}}{T_\text{transition}}$$
+$$
+\Delta S_\text{transition} = \frac{\Delta H_\text{transition}}{T_\text{transition}}
+$$
 
 | Transition             | $\Delta H$             | $\Delta S$                            | $\Delta G$            |
 | ---------------------- | ---------------------- | ------------------------------------- | --------------------- |
@@ -653,7 +661,9 @@ $$\Delta S_\text{transition} = \frac{\Delta H_\text{transition}}{T_\text{transit
 **Worked Example:** Calculate the entropy of vaporisation of water at $373\,\mathrm{K}$ given
 $\Delta H_\text{vap} = +40.7\,\mathrm{kJ/mol}$.
 
-$$\Delta S_\text{vap} = \frac{40700}{373} = +109\,\mathrm{J\,mol^{-1}\,K^{-1}}$$
+$$
+\Delta S_\text{vap} = \frac{40700}{373} = +109\,\mathrm{J\,mol^{-1}\,K^{-1}}
+$$
 
 This is close to Trouton's rule ($\Delta S_\text{vap} \approx 88\,\mathrm{J\,mol^{-1}\,K^{-1}}$ for
 non-hydrogen-bonding liquids). Water is higher because of extensive hydrogen bonding in the liquid
@@ -672,7 +682,9 @@ Using the Born-Haber cycle values:
 - $\Delta S_f^\circ = -72.1\,\mathrm{J\,mol^{-1}\,K^{-1}}$ (system becomes more ordered: solid from
   gas atoms)
 
-$$\Delta G_f^\circ = -411000 - 298 \times (-72.1) = -411000 + 21486 = -389514\,\mathrm{J/mol} = -389.5\,\mathrm{kJ/mol}$$
+$$
+\Delta G_f^\circ = -411000 - 298 \times (-72.1) = -411000 + 21486 = -389514\,\mathrm{J/mol} = -389.5\,\mathrm{kJ/mol}
+$$
 
 ### Coupled Reactions in Biochemistry
 
@@ -680,36 +692,50 @@ A thermodynamically unfavourable reaction ($\Delta G > 0$) can be driven by coup
 thermodynamically favourable one ($\Delta G < 0$), provided the overall $\Delta G < 0$.
 
 **Example:** Hydrolysis of ATP:
-$$\mathrm{ATP} + \mathrm{H}_2\mathrm{O} \to \mathrm{ADP} + \mathrm{P}_i \quad \Delta G^\circ = -30.5\,\mathrm{kJ/mol}$$
+$$
+\mathrm{ATP} + \mathrm{H}_2\mathrm{O} \to \mathrm{ADP} + \mathrm{P}_i \quad \Delta G^\circ = -30.5\,\mathrm{kJ/mol}
+$$
 
 This strongly exergonic reaction drives many endergonic processes in cells. If a reaction requires
 $+20\,\mathrm{kJ/mol}$Coupling with ATP hydrolysis gives:
 
-$$\Delta G_\text{overall} = +20.0 + (-30.5) = -10.5\,\mathrm{kJ/mol}$$
+$$
+\Delta G_\text{overall} = +20.0 + (-30.5) = -10.5\,\mathrm{kJ/mol}
+$$
 
 ### Gibbs Energy and Equilibrium: Quantitative Treatment
 
 The relationship between $\Delta G$The reaction quotient $Q$ And the equilibrium constant $K$:
 
-$$\Delta G = \Delta G^\circ + RT\ln Q$$
+$$
+\Delta G = \Delta G^\circ + RT\ln Q
+$$
 
 At equilibrium, $\Delta G = 0$ and $Q = K$Giving:
 
-$$\Delta G^\circ = -RT\ln K$$
+$$
+\Delta G^\circ = -RT\ln K
+$$
 
 **Worked Example:** For the reaction
 $\mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g)$ at $298\,\mathrm{K}$:
 
 $\Delta G^\circ = +4.72\,\mathrm{kJ/mol}$. Calculate $K$.
 
-$$K = \exp\left(\frac{-\Delta G^\circ}{RT}\right) = \exp\left(\frac{-4720}{8.314 \times 298}\right) = \exp(-1.905) = 0.149$$
+$$
+K = \exp\left(\frac{-\Delta G^\circ}{RT}\right) = \exp\left(\frac{-4720}{8.314 \times 298}\right) = \exp(-1.905) = 0.149
+$$
 
 If the initial pressure of $\mathrm{N}_2\mathrm{O}_4$ is $1.00\,\mathrm{atm}$ and no $\mathrm{NO}_2$
 is present:
 
-$$Q = \frac{(p_{\mathrm{NO}_2})^2}{p_{\mathrm{N}_2\mathrm{O}_4}} = \frac{0}{1} = 0$$
+$$
+Q = \frac{(p_{\mathrm{NO}_2})^2}{p_{\mathrm{N}_2\mathrm{O}_4}} = \frac{0}{1} = 0
+$$
 
-$$\Delta G = 4720 + 8.314 \times 298 \times \ln 0 = 4720 + (-\infty) \to -\infty$$
+$$
+\Delta G = 4720 + 8.314 \times 298 \times \ln 0 = 4720 + (-\infty) \to -\infty
+$$
 
 $\Delta G$ is very negative, so the forward reaction is strongly favoured initially (the reaction
 proceeds to the right until equilibrium is reached).
@@ -804,7 +830,9 @@ temperatures. Evaluate this claim.
 
 **Mark Scheme:**
 
-$$\mathrm{CH}_4(g) + 2\mathrm{O}_2(g) \to \mathrm{CO}_2(g) + 2\mathrm{H}_2\mathrm{O}(l)$$
+$$
+\mathrm{CH}_4(g) + 2\mathrm{O}_2(g) \to \mathrm{CO}_2(g) + 2\mathrm{H}_2\mathrm{O}(l)
+$$
 
 $\Delta S^\circ = [213 + 2(70)] - [186 + 2(205)] = 353 - 596 = -243\,\mathrm{J\,mol^{-1}\,K^{-1}}$
 (2 marks).
@@ -827,7 +855,9 @@ Calculate the entropy change of fusion and explain its sign.
 
 **Mark Scheme:**
 
-$$\Delta S_\text{fus} = \frac{\Delta H_\text{fus}}{T_\text{m}} = \frac{2600}{371} = +7.01\,\mathrm{J\,mol^{-1}\,K^{-1}}$$
+$$
+\Delta S_\text{fus} = \frac{\Delta H_\text{fus}}{T_\text{m}} = \frac{2600}{371} = +7.01\,\mathrm{J\,mol^{-1}\,K^{-1}}
+$$
 (2 marks).
 
 The entropy change is positive because the solid sodium becomes a liquid, which has greater disorder

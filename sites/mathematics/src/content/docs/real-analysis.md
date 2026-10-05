@@ -197,7 +197,9 @@ the set, but $\sup(0, 1) = 1$Which does not belong to $(0, 1)$.
 A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
 Every $\varepsilon > 0$There exists $N \in \mathbb{N}$ such that
 
-$$|a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N$$
+$$
+|a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
+$$
 
 We write $a_n \to L$ or $\lim_{n \to \infty} a_n = L$. A sequence that does not converge is said to
 **diverge**.
@@ -208,7 +210,9 @@ _Proof._ Suppose $a_n \to L$ and $a_n \to M$ with $L \neq M$. Let $\varepsilon =
 There Exists $N_1$ such that $|a_n - L| \lt \varepsilon$ for $n \geq N_1$ And $N_2$ such that
 $|a_n - M| \lt \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 
-$$|L - M| \leq |a_n - L| + |a_n - M| \lt 2\varepsilon = |L - M|$$
+$$
+|L - M| \leq |a_n - L| + |a_n - M| \lt 2\varepsilon = |L - M|
+$$
 
 A contradiction. $\blacksquare$
 
@@ -248,7 +252,9 @@ A sequence $(a_n)$ is a **Cauchy sequence** if for every $\varepsilon > 0$There 
 $N \in
 \mathbb{N}$ such that
 
-$$|a_n - a_m| \lt \varepsilon \quad \mathrm{for\ all\ } m, n \geq N$$
+$$
+|a_n - a_m| \lt \varepsilon \quad \mathrm{for\ all\ } m, n \geq N
+$$
 
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
@@ -267,7 +273,9 @@ Given $\varepsilon > 0$Choose $N_1$ so that $|a_n - a_m| \lt \varepsilon/2$ for 
 $K$ so that $|a_{n_k} - L| \lt \varepsilon/2$ for $k \geq K$. For $n \geq N_1$Choose $k \geq K$ with
 $n_k \geq N_1$ (possible since $n_k \to \infty$). Then
 
-$$|a_n - L| \leq |a_n - a_{n_k}| + |a_{n_k} - L| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon$$
+$$
+|a_n - L| \leq |a_n - a_{n_k}| + |a_{n_k} - L| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -305,10 +313,14 @@ $|a_{n_k} - c| \leq \mathrm{length}(I_k) \to 0$. Hence $a_{n_k} \to c$. $\blacks
 
 Let $(a_n)$ be a bounded sequence. Define:
 
-$$\limsup_{n \to \infty} a_n = \inf_{n \geq 1} \sup_{k \geq n} a_k, \qquad \liminf_{n \to \infty} a_n = \sup_{n \geq 1} \inf_{k \geq n} a_k$$
+$$
+\limsup_{n \to \infty} a_n = \inf_{n \geq 1} \sup_{k \geq n} a_k, \qquad \liminf_{n \to \infty} a_n = \sup_{n \geq 1} \inf_{k \geq n} a_k
+$$
 
 **Proposition 2.5.** For every bounded sequence $(a_n)$:
-$$\liminf_{n \to \infty} a_n \leq \limsup_{n \to \infty} a_n$$
+$$
+\liminf_{n \to \infty} a_n \leq \limsup_{n \to \infty} a_n
+$$
 
 _Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. Taking supremum over
 $n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
@@ -382,12 +394,16 @@ $n+1 > \frac{1}{\varepsilon}$ So $\frac{1}{n+1} \lt \varepsilon$. $\blacksquare$
 
 _Solution._ Let $\varepsilon > 0$. We compute:
 
-$$\left|\frac{3n+1}{n+2} - 3\right| = \left|\frac{3n+1 - 3(n+2)}{n+2}\right| = \left|\frac{-5}{n+2}\right| = \frac{5}{n+2}$$
+$$
+\left|\frac{3n+1}{n+2} - 3\right| = \left|\frac{3n+1 - 3(n+2)}{n+2}\right| = \left|\frac{-5}{n+2}\right| = \frac{5}{n+2}
+$$
 
 We need $\frac{5}{n+2} \lt \varepsilon$I.e., $n + 2 > 5/\varepsilon$I.e., $n > 5/\varepsilon - 2$.
 Choose $N = \lceil 5/\varepsilon \rceil$. Then for $n \geq N$:
 
-$$\left|\frac{3n+1}{n+2} - 3\right| = \frac{5}{n+2} \leq \frac{5}{N+2} \leq \frac{5}{5/\varepsilon} = \varepsilon$$
+$$
+\left|\frac{3n+1}{n+2} - 3\right| = \frac{5}{n+2} \leq \frac{5}{N+2} \leq \frac{5}{5/\varepsilon} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -463,11 +479,15 @@ converges.
 _Proof._ Since $f$ is decreasing, for $k \leq x \leq k+1$: $f(k+1) \leq f(x) \leq f(k)$.
 Integrating:
 
-$$f(k+1) = \int_k^{k+1} f(k+1)\, dx \leq \int_k^{k+1} f(x)\, dx \leq \int_k^{k+1} f(k)\, dx = f(k)$$
+$$
+f(k+1) = \int_k^{k+1} f(k+1)\, dx \leq \int_k^{k+1} f(x)\, dx \leq \int_k^{k+1} f(k)\, dx = f(k)
+$$
 
 Summing from $k = 1$ to $N - 1$:
 
-$$\sum_{k=2}^{N} f(k) \leq \int_1^N f(x)\, dx \leq \sum_{k=1}^{N-1} f(k)$$
+$$
+\sum_{k=2}^{N} f(k) \leq \int_1^N f(x)\, dx \leq \sum_{k=1}^{N-1} f(k)
+$$
 
 If $\int_1^{\infty} f$ converges, the left inequality shows $\sum f(k)$ is bounded above, hence
 converges. If $\int_1^{\infty} f$ diverges, the right inequality shows $\sum f(k)$ is unbounded,
@@ -501,7 +521,9 @@ satisfies The Cauchy criterion and converges. $\blacksquare$
 **Theorem 3.8 (Alternating Series Estimation).** If $S = \sum_{n=1}^{\infty} (-1)^{n+1} a_n$
 satisfies the Hypotheses of the alternating series test, then the error after $N$ terms satisfies:
 
-$$|S - S_N| \leq a_{N+1}$$
+$$
+|S - S_N| \leq a_{N+1}
+$$
 
 _Proof._ We have $S_{2n} \leq S \leq S_{2n+1} = S_{2n} + a_{2n+1}$ and
 $S_{2n-1} \geq S \geq S_{2n} = S_{2n-1} - a_{2n}$. In both cases $|S - S_N| \leq a_{N+1}$.
@@ -514,12 +536,16 @@ $\sum_{n=1}^{\infty} a_n$ converges if and only if $\sum_{k=0}^{\infty} 2^k a_{2
 
 _Proof._ Group the terms of $\sum a_n$. For the lower bound, note:
 
-$$a_1 + (a_2 + a_3) + (a_4 + a_5 + a_6 + a_7) + \cdots \geq a_1 + 2a_2 + 4a_4 + 8a_8 + \cdots = \sum_{k=0}^{\infty} 2^k a_{2^k}$$
+$$
+a_1 + (a_2 + a_3) + (a_4 + a_5 + a_6 + a_7) + \cdots \geq a_1 + 2a_2 + 4a_4 + 8a_8 + \cdots = \sum_{k=0}^{\infty} 2^k a_{2^k}
+$$
 
 Since each group $(a_{2^k} + \cdots + a_{2^{k+1}-1})$ has $2^k$ terms, each $\geq a_{2^k}$. For the
 upper Bound:
 
-$$a_1 + a_2 + (a_3 + a_4) + (a_5 + a_6 + a_7 + a_8) + \cdots \leq a_1 + a_2 + 2a_4 + 4a_8 + \cdots \leq a_1 + 2\sum_{k=1}^{\infty} 2^{k-1} a_{2^k}$$
+$$
+a_1 + a_2 + (a_3 + a_4) + (a_5 + a_6 + a_7 + a_8) + \cdots \leq a_1 + a_2 + 2a_4 + 4a_8 + \cdots \leq a_1 + 2\sum_{k=1}^{\infty} 2^{k-1} a_{2^k}
+$$
 
 If $\sum 2^k a_{2^k}$ converges, the upper bound shows $\sum a_n$ converges. If $\sum a_n$
 Converges, the lower bound shows $\sum 2^k a_{2^k}$ converges. $\blacksquare$
@@ -551,7 +577,9 @@ sum.
 
 _Solution._ Apply the ratio test:
 
-$$\lim_{n \to \infty} \frac{a_{n+1}}{a_n} = \lim_{n \to \infty} \frac{(n+1)/2^{n+1}}{n/2^n} = \lim_{n \to \infty} \frac{n+1}{2n} = \frac{1}{2} \lt 1$$
+$$
+\lim_{n \to \infty} \frac{a_{n+1}}{a_n} = \lim_{n \to \infty} \frac{(n+1)/2^{n+1}}{n/2^n} = \lim_{n \to \infty} \frac{n+1}{2n} = \frac{1}{2} \lt 1
+$$
 
 By the ratio test, the series converges absolutely. $\blacksquare$
 
@@ -561,7 +589,9 @@ By the ratio test, the series converges absolutely. $\blacksquare$
 _Solution._ Note that $\frac{1}{n^2 + n} = \frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$. This is
 a Telescoping series. The $N$-th partial sum is:
 
-$$S_N = \sum_{n=1}^{N} \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$$
+$$
+S_N = \sum_{n=1}^{N} \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}
+$$
 
 Therefore $\lim_{N \to \infty} S_N = 1$ And the series converges to $1$. $\blacksquare$
 
@@ -573,7 +603,9 @@ Therefore $\lim_{N \to \infty} S_N = 1$ And the series converges to $1$. $\black
 _Solution._ Apply the integral test with $f(x) = 1/(x \ln x)$ on $[2, \infty)$. The function is
 positive, Continuous, and decreasing. Compute:
 
-$$\int_2^{\infty} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \int_2^{b} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \left[\ln(\ln x)\right]_2^b = \lim_{b \to \infty} \ln(\ln b) - \ln(\ln 2) = \infty$$
+$$
+\int_2^{\infty} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \int_2^{b} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \left[\ln(\ln x)\right]_2^b = \lim_{b \to \infty} \ln(\ln b) - \ln(\ln 2) = \infty
+$$
 
 The integral diverges, so by the integral test, the series diverges. $\blacksquare$
 
@@ -607,7 +639,9 @@ _Solution._ Let $a_n = \frac{1}{n (\ln n)(\ln \ln n)}$ for $n \geq 3$. This is p
 decreasing. By the condensation test, $\sum a_n$ converges iff $\sum 2^k a_{2^k}$ converges.
 Compute:
 
-$$2^k a_{2^k} = \frac{2^k}{2^k \cdot k \ln 2 \cdot \ln(k \ln 2)} = \frac{1}{k \ln 2 \cdot \ln(k \ln 2)} \approx \frac{1}{k \ln k}$$
+$$
+2^k a_{2^k} = \frac{2^k}{2^k \cdot k \ln 2 \cdot \ln(k \ln 2)} = \frac{1}{k \ln 2 \cdot \ln(k \ln 2)} \approx \frac{1}{k \ln k}
+$$
 
 The series $\sum \frac{1}{k \ln k}$ diverges (integral test, analogous to $\sum \frac{1}{n \ln n}$).
 Therefore $\sum a_n$ diverges. $\blacksquare$
@@ -628,14 +662,18 @@ cases, try the comparison Test, integral test, or other methods. For example, $\
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
 Every $\varepsilon > 0$There exists $\delta > 0$ such that
 
-$$0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon$$
+$$
+0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
+$$
 
 ### 4.2 Continuity
 
 **Definition.** $f$ is **continuous at $a$** if $\lim_{x \to a} f(x) = f(a)$. In epsilon-delta form:
 For every $\varepsilon > 0$There exists $\delta > 0$ such that
 
-$$|x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon$$
+$$
+|x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon
+$$
 
 _Remark._ A function is continuous on a set $E$ if it is continuous at every point of $E$. A
 function is **globally continuous** (or "continuous") if it is continuous on its entire domain.
@@ -726,7 +764,9 @@ the infimum is similar (consider $-f$). $\blacksquare$
 **Definition.** $f$ is **uniformly continuous** on $D$ if for every $\varepsilon > 0$There exists
 $\delta > 0$ such that for all $x, y \in D$:
 
-$$|x - y| \lt \delta \implies |f(x) - f(y)| \lt \varepsilon$$
+$$
+|x - y| \lt \delta \implies |f(x) - f(y)| \lt \varepsilon
+$$
 
 The key distinction: for ordinary continuity, $\delta$ may depend on both $\varepsilon$ and the
 point $a$; for uniform continuity, $\delta$ depends only on $\varepsilon$.
@@ -747,7 +787,9 @@ By continuity of $f$ at $c$: there exists $\delta > 0$ such that $|x - c| \lt \d
 $|f(x) - f(c)| \lt \varepsilon/2$. For $k$ sufficiently large, $|x_{n_k} - c| \lt \delta$ and
 $|y_{n_k} - c| \lt \delta$ So:
 
-$$|f(x_{n_k}) - f(y_{n_k})| \leq |f(x_{n_k}) - f(c)| + |f(y_{n_k}) - f(c)| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon$$
+$$
+|f(x_{n_k}) - f(y_{n_k})| \leq |f(x_{n_k}) - f(c)| + |f(y_{n_k}) - f(c)| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon
+$$
 
 Contradicting $|f(x_{n_k}) - f(y_{n_k})| \geq \varepsilon$. $\blacksquare$
 
@@ -780,13 +822,17 @@ $|f(x) - 5| = 3|x - 2| \lt 3 \cdot \varepsilon/3 = \varepsilon$. $\blacksquare$
 
 _Solution._ We have $f(3) = 9$. Let $\varepsilon > 0$. Compute:
 
-$$|f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|$$
+$$
+|f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|
+$$
 
 Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$Giving $|x + 3| \lt 7$.
 
 Choose $\delta = \min(1, \varepsilon/7)$. Then $|x - 3| \lt \delta$ implies:
 
-$$|x^2 - 9| = |x + 3| \cdot |x - 3| \lt 7 \cdot \frac{\varepsilon}{7} = \varepsilon$$
+$$
+|x^2 - 9| = |x + 3| \cdot |x - 3| \lt 7 \cdot \frac{\varepsilon}{7} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -799,7 +845,9 @@ _Solution._ We show the negation of uniform continuity. Take $\varepsilon = 1$. 
 Choose $n \in \mathbb{N}$ with $1/n \lt \delta$. Set $x = 1/n$ and $y = 1/(2n)$. Then
 $|x - y| = 1/(2n) \lt 1/n \lt \delta$ But:
 
-$$|f(x) - f(y)| = \left|\frac{1}{1/n} - \frac{1}{1/(2n)}\right| = |n - 2n| = n \geq 1 = \varepsilon$$
+$$
+|f(x) - f(y)| = \left|\frac{1}{1/n} - \frac{1}{1/(2n)}\right| = |n - 2n| = n \geq 1 = \varepsilon
+$$
 
 So no single $\delta$ works for all $x, y \in (0,1)$. $\blacksquare$
 
@@ -824,7 +872,9 @@ _Solution._ For $x \neq 0$, $f$ is a product of continuous functions, hence cont
 
 At $x = 0$: let $\varepsilon > 0$. Choose $\delta = \varepsilon$. For $|x - 0| = |x| \lt \delta$:
 
-$$|f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon$$
+$$
+|f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon
+$$
 
 So $f$ is continuous at $0$. Since $f$ extends continuously from $(0, 1]$ to $[0, 1]$The
 Heine-Cantor Theorem implies $f$ is uniformly continuous on $[0, 1]$. $\blacksquare$
@@ -841,7 +891,9 @@ $|\sin t| \leq |t|$ and $|\cos| \leq 1$.)
 Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Choose $\delta = \varepsilon$. For
 $|x - a| \lt \delta$:
 
-$$|\sin x - \sin a| \leq |x - a| \lt \delta = \varepsilon$$
+$$
+|\sin x - \sin a| \leq |x - a| \lt \delta = \varepsilon
+$$
 
 Since $\delta = \varepsilon$ works independently of $a$, $\sin x$ is actually **uniformly
 continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquare$
@@ -859,7 +911,9 @@ Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$ So $x 
 $e^{\max(x,a)} \leq e^{a+1}$. Choose $\delta = \min(1, \varepsilon / e^{a+1})$. For
 $|x - a| \lt \delta$:
 
-$$|e^x - e^a| \leq e^{a+1} |x - a| \lt e^{a+1} \cdot \frac{\varepsilon}{e^{a+1}} = \varepsilon$$
+$$
+|e^x - e^a| \leq e^{a+1} |x - a| \lt e^{a+1} \cdot \frac{\varepsilon}{e^{a+1}} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -880,7 +934,9 @@ sufficient but not necessary.
 
 **Definition.** $f : (a,b) \to \mathbb{R}$ is **differentiable at** $c \in (a,b)$ if the limit
 
-$$f'(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$$
+$$
+f'(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}
+$$
 
 Exists (as a finite real number).
 
@@ -915,7 +971,9 @@ $\blacksquare$
 **Theorem 5.3 (Mean Value Theorem).** If $f : [a,b] \to \mathbb{R}$ is continuous on $[a,b]$ and
 Differentiable on $(a,b)$ Then there exists $c \in (a,b)$ such that
 
-$$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+$$
+f'(c) = \frac{f(b) - f(a)}{b - a}
+$$
 
 _Proof._ Define $g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x - a)$. Then $g(a) = g(b)$ and $g$ satisfies
 the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$Which gives the result.
@@ -928,7 +986,9 @@ $\blacksquare$
 **Theorem 5.3a (Cauchy's Mean Value Theorem).** If $f, g : [a,b] \to \mathbb{R}$ are continuous on
 $[a,b]$ and differentiable on $(a,b)$ Then there exists $c \in (a,b)$ such that
 
-$$(f(b) - f(a))g'(c) = (g(b) - g(a))f'(c)$$
+$$
+(f(b) - f(a))g'(c) = (g(b) - g(a))f'(c)
+$$
 
 _Proof._ Define $h(x) = (f(b) - f(a))g(x) - (g(b) - g(a))f(x)$. Then $h(a) = h(b)$ So by Rolle's
 Theorem, $h'(c) = 0$ for some $c \in (a,b)$Which gives the result. $\blacksquare$
@@ -947,23 +1007,31 @@ _Proof._ Apply the MVT to $f$ on the interval between $x$ and $y$. $\blacksquare
 **Theorem 5.6 (Taylor's Theorem with Lagrange Remainder).** If $f$ is $(n+1)$-times differentiable
 on An open interval containing $a$ Then for each $x$ in that interval:
 
-$$f(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x - a)^k + R_n(x)$$
+$$
+f(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x - a)^k + R_n(x)
+$$
 
 Where the remainder is
 
-$$R_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x - a)^{n+1}$$
+$$
+R_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x - a)^{n+1}
+$$
 
 For some $\xi$ between $a$ and $x$.
 
 _Proof._ Fix $x \neq a$ and define
 
-$$g(t) = f(x) - \sum_{k=0}^{n} \frac{f^{(k)}(t)}{k!}(x - t)^k$$
+$$
+g(t) = f(x) - \sum_{k=0}^{n} \frac{f^{(k)}(t)}{k!}(x - t)^k
+$$
 
 Then $g(a) = R_n(x)$ and $g(x) = 0$. By the generalized Rolle's theorem (or direct computation Using
 the Cauchy mean value theorem), there exists $\xi$ between $a$ and $x$ with $g'( \xi ) = 0$.
 Computing:
 
-$$g'(t) = -\frac{f^{(n+1)}(t)}{n!}(x - t)^n$$
+$$
+g'(t) = -\frac{f^{(n+1)}(t)}{n!}(x - t)^n
+$$
 
 Setting $g'(\xi) = 0$ yields the result after comparing $g(a) = R_n(x)$ with the integral form. A
 Cleaner approach uses the standard MVT applied to $g$ on $[a, x]$. $\blacksquare$
@@ -978,7 +1046,9 @@ finite Number or $\pm\infty$), then $\lim_{x \to c} f(x)/g(x) = L$.
 _Proof._ Extend $f$ and $g$ continuously to $c$ by setting $f(c) = g(c) = 0$. For $x \neq c$By
 Cauchy's Mean Value Theorem, there exists $\xi$ strictly between $c$ and $x$ such that
 
-$$\frac{f(x) - f(c)}{g(x) - g(c)} = \frac{f'(\xi)}{g'(\xi)}$$
+$$
+\frac{f(x) - f(c)}{g(x) - g(c)} = \frac{f'(\xi)}{g'(\xi)}
+$$
 
 I.e., $\frac{f(x)}{g(x)} = \frac{f'(\xi)}{g'(\xi)}$. As $x \to c$We have $\xi \to c$ (since $\xi$ is
 trapped between $c$ and $x$). Therefore
@@ -991,11 +1061,15 @@ exists, Then $\lim_{x \to c} f(x)/g(x) = L$.
 
 _Proof (sketch)._ Fix $\varepsilon > 0$. For $x, y$ near $c$ with $x \neq y$By Cauchy's MVT:
 
-$$\frac{f(x) - f(y)}{g(x) - g(y)} = \frac{f'(\xi)}{g'(\xi)}$$
+$$
+\frac{f(x) - f(y)}{g(x) - g(y)} = \frac{f'(\xi)}{g'(\xi)}
+$$
 
 For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ near $c$We have:
 
-$$\frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}$$
+$$
+\frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}
+$$
 
 Since $f(x), g(x) \to \infty$By fixing $y$ and letting $x \to c$The fractions $f(y)/f(x)$ and
 $g(y)/g(x)$ tend to $0$ So the second factor tends to $1$. The first factor tends to $L$ by Cauchy's
@@ -1006,11 +1080,15 @@ MVT. Hence $f(x)/g(x) \to L$. $\blacksquare$
 
 _Solution._ Both numerator and denominator approach $0$ as $x \to 0$. Applying L'Hôpital’s rule:
 
-$$\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \lim_{x \to 0} \frac{e^x - 1}{2x}$$
+$$
+\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \lim_{x \to 0} \frac{e^x - 1}{2x}
+$$
 
 This is still $\frac{0}{0}$ So apply L'Hôpital again:
 
-$$= \lim_{x \to 0} \frac{e^x}{2} = \frac{1}{2}$$
+$$
+= \lim_{x \to 0} \frac{e^x}{2} = \frac{1}{2}
+$$
 
 $\blacksquare$
 
@@ -1029,7 +1107,9 @@ But $f'$ is not continuous at $0$.
 _Proof._ Assume without loss of generality that $f'(a) \lt y \lt f'(b)$. Define $g(x) = f(x) - yx$.
 Then $g$ is differentiable on $[a, b]$ with
 
-$$g'(a) = f'(a) - y \lt 0 \quad \mathrm{and} \quad g'(b) = f'(b) - y > 0$$
+$$
+g'(a) = f'(a) - y \lt 0 \quad \mathrm{and} \quad g'(b) = f'(b) - y > 0
+$$
 
 Since $g'(a) \lt 0$There exists $x_1 > a$ with $g(x_1) \lt g(a)$ (otherwise $g(x) \geq g(a)$ For $x$
 near $a$Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$There exists $x_2 \lt b$ with
@@ -1059,7 +1139,9 @@ Highly discontinuous while retaining the intermediate value property. $\blacksqu
 
 $f(0) = 1$, $f'(0) = 1$, $f''(0) = 1$, $f'''(0) = 1$. So
 
-$$T_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}$$
+$$
+T_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}
+$$
 
 The remainder is $R_3(x) = \frac{e^\xi}{24} x^4$ for some $\xi$ between $0$ and $x$.
 
@@ -1090,7 +1172,9 @@ The error is at most $2.48 \times 10^{-13} \lt 10^{-10}$. $\blacksquare$
 _Solution._ For $f(x) = \ln(1+x)$: $f(0) = 0$, $f'(x) = 1/(1+x)$, $f''(x) = -1/(1+x)^2$
 $f^{(k)}(x) = (-1)^{k-1}(k-1)!/(1+x)^k$ for $k \geq 1$. So $f^{(k)}(0) = (-1)^{k-1}(k-1)!$.
 
-$$\ln(1+x) = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}(k-1)!}{k!} x^k = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}}{k} x^k$$
+$$
+\ln(1+x) = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}(k-1)!}{k!} x^k = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}}{k} x^k
+$$
 
 By the ratio test:
 $\lim_{k \to \infty} |a_{k+1}/a_k| = \lim_{k \to \infty} \frac{k}{k+1} |x| = |x|$. The series
@@ -1111,7 +1195,9 @@ $f(\pi/3) = 1/2$, $f'(\pi/3) = -\sqrt{3}/2$, $f''(\pi/3) = -1/2$, $f'''(\pi/3) =
 
 The third-degree Taylor polynomial is:
 
-$$T_3(x) = \frac{1}{2} - \frac{\sqrt{3}}{2}\left(x - \frac{\pi}{3}\right) - \frac{1}{4}\left(x - \frac{\pi}{3}\right)^2 + \frac{\sqrt{3}}{12}\left(x - \frac{\pi}{3}\right)^3$$
+$$
+T_3(x) = \frac{1}{2} - \frac{\sqrt{3}}{2}\left(x - \frac{\pi}{3}\right) - \frac{1}{4}\left(x - \frac{\pi}{3}\right)^2 + \frac{\sqrt{3}}{12}\left(x - \frac{\pi}{3}\right)^3
+$$
 
 The remainder satisfies $|R_3(x)| \leq \frac{|x - \pi/3|^4}{24}$ (since
 $|f^{(4)}(\xi)| = |\cos \xi| \leq 1$).
@@ -1138,7 +1224,9 @@ $P = \{x_0, x_1, \ldots, x_n\}$ with $a = x_0 \lt x_1 \lt \cdots \lt x_n = b$.
 
 The **upper sum** and **lower sum** of $f$ with respect to $P$ are:
 
-$$U(f, P) = \sum_{i=1}^{n} M_i \Delta x_i, \quad L(f, P) = \sum_{i=1}^{n} m_i \Delta x_i$$
+$$
+U(f, P) = \sum_{i=1}^{n} M_i \Delta x_i, \quad L(f, P) = \sum_{i=1}^{n} m_i \Delta x_i
+$$
 
 Where $M_i = \sup\{f(x) : x \in [x_{i-1}, x_i]\}$, $m_i = \inf\{f(x) : x \in [x_{i-1}, x_i]\}$ And
 $\Delta x_i = x_i - x_{i-1}$.
@@ -1147,7 +1235,9 @@ The **mesh** of $P$ is $\|P\| = \max_{1 \leq i \leq n} \Delta x_i$.
 
 **Definition.** $f$ is **Riemann integrable** on $[a,b]$ if the upper and lower integrals are equal:
 
-$$\overline{\int_a^b} f(x)\, dx = \underline{\int_a^b} f(x)\, dx$$
+$$
+\overline{\int_a^b} f(x)\, dx = \underline{\int_a^b} f(x)\, dx
+$$
 
 Where $\overline{\int_a^b} f = \inf\{U(f,P) : P \mathrm{\ is\ a\ partition}\}$ and
 $\underline{\int_a^b} f = \sup\{L(f,P) : P \mathrm{\ is\ a\ partition}\}$.
@@ -1159,7 +1249,9 @@ The common value is denoted $\int_a^b f(x)\, dx$.
 **Theorem 6.1 (Riemann Integrability Criterion).** A bounded function $f : [a,b] \to \mathbb{R}$ is
 Riemann integrable if and only if for every $\varepsilon > 0$There exists a partition $P$ such that
 
-$$U(f,P) - L(f,P) \lt \varepsilon$$
+$$
+U(f,P) - L(f,P) \lt \varepsilon
+$$
 
 **Theorem 6.2.** Every continuous function on $[a,b]$ is Riemann integrable.
 
@@ -1171,7 +1263,9 @@ Let $P$ be any partition with $\|P\| \lt \delta$. On each subinterval $[x_{i-1},
 Value Theorem, $f$ attains its maximum $M_i$ and minimum $m_i$. By uniform continuity:
 $M_i - m_i \lt \varepsilon/(b-a)$. Therefore:
 
-$$U(f,P) - L(f,P) = \sum_{i=1}^{n}(M_i - m_i)\Delta x_i \lt \frac{\varepsilon}{b-a} \sum_{i=1}^{n} \Delta x_i = \varepsilon$$
+$$
+U(f,P) - L(f,P) = \sum_{i=1}^{n}(M_i - m_i)\Delta x_i \lt \frac{\varepsilon}{b-a} \sum_{i=1}^{n} \Delta x_i = \varepsilon
+$$
 
 By the Riemann integrability criterion, $f$ is integrable. $\blacksquare$
 
@@ -1181,7 +1275,9 @@ _Proof._ Assume $f$ is increasing (the decreasing case is analogous). Given $\va
 $P_n$ be the uniform partition with $n$ subintervals of length $(b-a)/n$. On $[x_{i-1}, x_i]$:
 $M_i = f(x_i)$ and $m_i = f(x_{i-1})$. Then:
 
-$$U(f, P_n) - L(f, P_n) = \sum_{i=1}^{n} [f(x_i) - f(x_{i-1})] \cdot \frac{b-a}{n} = [f(b) - f(a)] \cdot \frac{b-a}{n}$$
+$$
+U(f, P_n) - L(f, P_n) = \sum_{i=1}^{n} [f(x_i) - f(x_{i-1})] \cdot \frac{b-a}{n} = [f(b) - f(a)] \cdot \frac{b-a}{n}
+$$
 
 Choose $n$ large enough that $f(b) - f(a)/n \lt \varepsilon$. $\blacksquare$
 
@@ -1194,7 +1290,9 @@ $\varepsilon/(2M)$Where $M = \sup_{[a,b]} |f|$. On the remaining set (a finite u
 intervals), $f$ is continuous, Hence uniformly continuous. Choose a partition fine enough that the
 oscillation of $f$ on each Subinterval outside the $I_j$ is less than $\varepsilon/(2(b-a))$. Then:
 
-$$U(f, P) - L(f, P) \leq \frac{\varepsilon}{2(b-a)} \cdot (b - a) + 2M \cdot \frac{\varepsilon}{2M} = \varepsilon$$
+$$
+U(f, P) - L(f, P) \leq \frac{\varepsilon}{2(b-a)} \cdot (b - a) + 2M \cdot \frac{\varepsilon}{2M} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -1221,7 +1319,9 @@ Small total length. In particular, every countable set has measure zero. This me
 **Theorem 6.5 (Linearity).** If $f$ and $g$ are integrable on $[a,b]$ and
 $\alpha, \beta \in \mathbb{R}$:
 
-$$\int_a^b (\alpha f + \beta g) = \alpha \int_a^b f + \beta \int_a^b g$$
+$$
+\int_a^b (\alpha f + \beta g) = \alpha \int_a^b f + \beta \int_a^b g
+$$
 
 **Theorem 6.6 (Monotonicity).** If $f(x) \leq g(x)$ for all $x \in [a,b]$ Then
 $\int_a^b f \leq \int_a^b g$.
@@ -1232,14 +1332,18 @@ $\int_a^b f \leq \int_a^b g$.
 
 **Theorem 6.8 (FTC Part 1).** If $f$ is continuous on $[a,b]$ Then the function
 
-$$F(x) = \int_a^x f(t)\, dt$$
+$$
+F(x) = \int_a^x f(t)\, dt
+$$
 
 Is differentiable on $(a,b)$ and $F'(x) = f(x)$.
 
 _Proof._ Let $h > 0$ (the case $h \lt 0$ is similar). By the Mean Value Theorem for Integrals (which
 follows from the EVT), there exists $\xi \in [x, x+h]$ such that
 
-$$\frac{F(x+h) - F(x)}{h} = \frac{1}{h}\int_x^{x+h} f(t)\, dt = f(\xi)$$
+$$
+\frac{F(x+h) - F(x)}{h} = \frac{1}{h}\int_x^{x+h} f(t)\, dt = f(\xi)
+$$
 
 As $h \to 0^+$We have $\xi \to x^+$ (since $\xi \in [x, x+h]$). By continuity of $f$
 $f(\xi) \to f(x)$. Hence $F'_+(x) = f(x)$. A similar argument gives $F'_-(x) = f(x)$. $\blacksquare$
@@ -1247,13 +1351,17 @@ $f(\xi) \to f(x)$. Hence $F'_+(x) = f(x)$. A similar argument gives $F'_-(x) = f
 **Theorem 6.9 (FTC Part 2).** If $F$ is differentiable on $[a,b]$ with $F' = f$ (and $f$ is
 integrable), Then
 
-$$\int_a^b f(x)\, dx = F(b) - F(a)$$
+$$
+\int_a^b f(x)\, dx = F(b) - F(a)
+$$
 
 _Proof._ Let $P = \{x_0, \ldots, x_n\}$ be any partition of $[a,b]$. By the Mean Value Theorem, For
 each $i$ there exists $\xi_i \in [x_{i-1}, x_i]$ with $F(x_i) - F(x_{i-1}) = f(\xi_i)\Delta x_i$.
 Summing:
 
-$$F(b) - F(a) = \sum_{i=1}^{n} [F(x_i) - F(x_{i-1})] = \sum_{i=1}^{n} f(\xi_i) \Delta x_i$$
+$$
+F(b) - F(a) = \sum_{i=1}^{n} [F(x_i) - F(x_{i-1})] = \sum_{i=1}^{n} f(\xi_i) \Delta x_i
+$$
 
 The right-hand side is a Riemann sum for $\int_a^b f$. As $\|P\| \to 0$This converges to the
 Integral. Hence $F(b) - F(a) = \int_a^b f(x)\, dx$. $\blacksquare$
@@ -1265,7 +1373,9 @@ Integral. Hence $F(b) - F(a) = \int_a^b f(x)\, dx$. $\blacksquare$
 _Solution._ Let $P_n = \{0, 1/n, 2/n, \ldots, 1\}$. On $[x_{i-1}, x_i] = [(i-1)/n, i/n]$,
 $f(x) = x^2$ Has $M_i = (i/n)^2$ and $m_i = ((i-1)/n)^2$.
 
-$$U(f, P_n) = \sum_{i=1}^{n} \frac{i^2}{n^2} \cdot \frac{1}{n} = \frac{1}{n^3} \sum_{i=1}^{n} i^2 = \frac{1}{n^3} \cdot \frac{n(n+1)(2n+1)}{6}$$
+$$
+U(f, P_n) = \sum_{i=1}^{n} \frac{i^2}{n^2} \cdot \frac{1}{n} = \frac{1}{n^3} \sum_{i=1}^{n} i^2 = \frac{1}{n^3} \cdot \frac{n(n+1)(2n+1)}{6}
+$$
 
 As $n \to \infty$:
 $\lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{(n+1)(2n+1)}{6n^2} = \frac{2}{6} = \frac{1}{3}$.
@@ -1278,12 +1388,16 @@ Similarly, $L(f, P_n) \to 1/3$. So $\int_0^1 x^2\, dx = 1/3$. $\blacksquare$
 _Solution._ Let $P_n = \{0, 1/n, 2/n, \ldots, 1\}$. On $[(i-1)/n, i/n]$, $f(x) = \sqrt{x}$ has
 $M_i = \sqrt{i/n}$ and $m_i = \sqrt{(i-1)/n}$.
 
-$$U(f, P_n) = \sum_{i=1}^{n} \sqrt{\frac{i}{n}} \cdot \frac{1}{n} = \frac{1}{n^{3/2}} \sum_{i=1}^{n} \sqrt{i}$$
+$$
+U(f, P_n) = \sum_{i=1}^{n} \sqrt{\frac{i}{n}} \cdot \frac{1}{n} = \frac{1}{n^{3/2}} \sum_{i=1}^{n} \sqrt{i}
+$$
 
 Using $\sum_{i=1}^{n} \sqrt{i} = \frac{2}{3} n^{3/2} + O(n^{1/2})$ (obtained from comparing with
 $\int_0^n \sqrt{x}\, dx$):
 
-$$\lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{1}{n^{3/2}} \cdot \frac{2}{3}n^{3/2} = \frac{2}{3}$$
+$$
+\lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{1}{n^{3/2}} \cdot \frac{2}{3}n^{3/2} = \frac{2}{3}
+$$
 
 Similarly $L(f, P_n) \to 2/3$Confirming $\int_0^1 \sqrt{x}\, dx = 2/3$. $\blacksquare$
 
@@ -1296,14 +1410,18 @@ integration Is unbounded or the integrand is unbounded.
 
 **Type I (Infinite Intervals).** If $f$ is Riemann integrable on $[a, b]$ for every $b > a$Define:
 
-$$\int_a^{\infty} f(x)\, dx = \lim_{b \to \infty} \int_a^b f(x)\, dx$$
+$$
+\int_a^{\infty} f(x)\, dx = \lim_{b \to \infty} \int_a^b f(x)\, dx
+$$
 
 The integral **converges** if this limit exists as a finite number; otherwise it **diverges**.
 
 **Type II (Unbounded Integrands).** If $f$ is unbounded near $a$ but integrable on $[c, b]$ for
 every $c \in (a, b]$:
 
-$$\int_a^b f(x)\, dx = \lim_{c \to a^+} \int_c^b f(x)\, dx$$
+$$
+\int_a^b f(x)\, dx = \lim_{c \to a^+} \int_c^b f(x)\, dx
+$$
 
 **Theorem 6.10 (Comparison Test for Improper Integrals).** If $0 \leq f(x) \leq g(x)$ for
 $x \geq a$:
@@ -1321,7 +1439,9 @@ $\int_a^{\infty} f(x)\, dx$ converges.
 
 _Proof._ For Type I with $p \neq 1$:
 
-$$\int_1^{\infty} x^{-p}\, dx = \lim_{b \to \infty} \left[\frac{x^{1-p}}{1-p}\right]_1^b = \lim_{b \to \infty} \frac{b^{1-p} - 1}{1-p}$$
+$$
+\int_1^{\infty} x^{-p}\, dx = \lim_{b \to \infty} \left[\frac{x^{1-p}}{1-p}\right]_1^b = \lim_{b \to \infty} \frac{b^{1-p} - 1}{1-p}
+$$
 
 This converges when $1 - p < 0$I.e., $p > 1$. For $p = 1$:
 $\int_1^{\infty} 1/x\, dx = \lim_{b \to \infty} \ln b = \infty$.
@@ -1337,7 +1457,9 @@ $p > 1$. This is not a coincidence --- the integral test establishes the connect
 
 _Solution._ This is a Type I improper integral:
 
-$$\int_0^{\infty} e^{-x}\, dx = \lim_{b \to \infty} \int_0^b e^{-x}\, dx = \lim_{b \to \infty} \left[-e^{-x}\right]_0^b = \lim_{b \to \infty} (-e^{-b} + 1) = 1$$
+$$
+\int_0^{\infty} e^{-x}\, dx = \lim_{b \to \infty} \int_0^b e^{-x}\, dx = \lim_{b \to \infty} \left[-e^{-x}\right]_0^b = \lim_{b \to \infty} (-e^{-b} + 1) = 1
+$$
 
 So the integral converges to $1$. $\blacksquare$
 
@@ -1355,7 +1477,9 @@ However, $\int_1^{\infty} \frac{\sin x}{x}\, dx$ converges by **Dirichlet's test
 Let $F(b) = \int_1^b \sin x\, dx = \cos 1 - \cos b$Which is bounded by $|\cos 1 - \cos b| \leq 2$.
 Since $1/x$ decreases to $0$By integration by parts:
 
-$$\int_1^b \frac{\sin x}{x}\, dx = \frac{-\cos x}{x}\bigg|_1^b - \int_1^b \frac{\cos x}{x^2}\, dx$$
+$$
+\int_1^b \frac{\sin x}{x}\, dx = \frac{-\cos x}{x}\bigg|_1^b - \int_1^b \frac{\cos x}{x^2}\, dx
+$$
 
 As $b \to \infty$The boundary term $\cos b / b \to 0$ and
 $\int_1^{\infty} \frac{|\cos x|}{x^2}\, dx \leq
@@ -1369,7 +1493,9 @@ improper integral converges (conditionally). $\blacksquare$
 
 _Solution._ The integrand $f(x) = 1/\sqrt{x}$ is unbounded as $x \to 0^+$. Compute:
 
-$$\int_0^1 \frac{1}{\sqrt{x}}\, dx = \lim_{c \to 0^+} \int_c^1 x^{-1/2}\, dx = \lim_{c \to 0^+} \left[2\sqrt{x}\right]_c^1 = \lim_{c \to 0^+} (2 - 2\sqrt{c}) = 2$$
+$$
+\int_0^1 \frac{1}{\sqrt{x}}\, dx = \lim_{c \to 0^+} \int_c^1 x^{-1/2}\, dx = \lim_{c \to 0^+} \left[2\sqrt{x}\right]_c^1 = \lim_{c \to 0^+} (2 - 2\sqrt{c}) = 2
+$$
 
 The improper integral converges to $2$. Note that $\int_0^1 x^{-p}\, dx$ converges for $p \lt 1$ and
 Diverges for $p \geq 1$. $\blacksquare$
@@ -1397,11 +1523,15 @@ This mirrors the $p$-series test: $\sum 1/n^p$ converges iff $p > 1$. $\blacksqu
 
 _Solution._ This integral requires both a Type I and Type II limit:
 
-$$\int_0^{\infty} x e^{-x}\, dx = \lim_{a \to 0^+} \lim_{b \to \infty} \int_a^b x e^{-x}\, dx$$
+$$
+\int_0^{\infty} x e^{-x}\, dx = \lim_{a \to 0^+} \lim_{b \to \infty} \int_a^b x e^{-x}\, dx
+$$
 
 Integrate by parts with $u = x$, $dv = e^{-x}\, dx$ So $du = dx$, $v = -e^{-x}$:
 
-$$\int x e^{-x}\, dx = -xe^{-x} + \int e^{-x}\, dx = -xe^{-x} - e^{-x} = -(x+1)e^{-x}$$
+$$
+\int x e^{-x}\, dx = -xe^{-x} + \int e^{-x}\, dx = -xe^{-x} - e^{-x} = -(x+1)e^{-x}
+$$
 
 Evaluating: $\lim_{b \to \infty} [-(b+1)e^{-b}] - \lim_{a \to 0^+} [-(a+1)e^{-a}] = 0 - (-1) = 1$.
 
@@ -1430,7 +1560,9 @@ $|f_n(x) - f(x)| \lt \varepsilon$ for all $n \geq N$.
 **Example.** Let $f_n(x) = x^n$ on $E = [0, 1]$. For each $x \in [0, 1)$, $f_n(x) = x^n \to 0$ And
 $f_n(1) = 1$ for all $n$. So $f_n$ converges pointwise to
 
-$$f(x) = \begin{cases} 0 & \mathrm{if\ } 0 \leq x \lt 1 \\ 1 & \mathrm{if\ } x = 1 \end{cases}$$
+$$
+f(x) = \begin{cases} 0 & \mathrm{if\ } 0 \leq x \lt 1 \\ 1 & \mathrm{if\ } x = 1 \end{cases}
+$$
 
 Note that each $f_n$ is continuous, but the pointwise limit $f$ is not continuous at $x = 1$.
 
@@ -1439,7 +1571,9 @@ Note that each $f_n$ is continuous, but the pointwise limit $f$ is not continuou
 **Definition.** $(f_n)$ **converges uniformly** to $f$ on $E$ if for every $\varepsilon > 0$There
 Exists $N \in \mathbb{N}$ (depending only on $\varepsilon$Not on $x$) such that for all $x \in E$:
 
-$$|f_n(x) - f(x)| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N$$
+$$
+|f_n(x) - f(x)| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
+$$
 
 Equivalently, $\sup_{x \in E} |f_n(x) - f(x)| \to 0$ as $n \to \infty$.
 
@@ -1463,11 +1597,15 @@ _Proof._ Let $S_n(x) = \sum_{k=1}^{n} f_k(x)$ and $T_n = \sum_{k=1}^{n} M_k$. Si
 converges, $(T_n)$ is a Cauchy sequence. Given $\varepsilon > 0$There exists $N$ such that for
 $m > n \geq N$:
 
-$$T_m - T_n = \sum_{k=n+1}^{m} M_k \lt \varepsilon$$
+$$
+T_m - T_n = \sum_{k=n+1}^{m} M_k \lt \varepsilon
+$$
 
 Then for all $x \in E$ and $m > n \geq N$:
 
-$$|S_m(x) - S_n(x)| = \left|\sum_{k=n+1}^{m} f_k(x)\right| \leq \sum_{k=n+1}^{m} |f_k(x)| \leq \sum_{k=n+1}^{m} M_k \lt \varepsilon$$
+$$
+|S_m(x) - S_n(x)| = \left|\sum_{k=n+1}^{m} f_k(x)\right| \leq \sum_{k=n+1}^{m} |f_k(x)| \leq \sum_{k=n+1}^{m} M_k \lt \varepsilon
+$$
 
 So the partial sums $(S_n)$ satisfy the uniform Cauchy criterion on $E$Hence converge uniformly.
 $\blacksquare$
@@ -1481,7 +1619,9 @@ _Proof._ Let $c \in E$ and $\varepsilon > 0$. Since $f_n \to f$ uniformly, choos
 $|f_N(x) - f(x)| \lt \varepsilon/3$ for all $x \in E$. Since $f_N$ is continuous at $c$Choose
 $\delta > 0$ such that $|x - c| \lt \delta$ implies $|f_N(x) - f_N(c)| \lt \varepsilon/3$. Then:
 
-$$|f(x) - f(c)| \leq |f(x) - f_N(x)| + |f_N(x) - f_N(c)| + |f_N(c) - f(c)| \lt \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3} = \varepsilon$$
+$$
+|f(x) - f(c)| \leq |f(x) - f_N(x)| + |f_N(x) - f_N(c)| + |f_N(c) - f(c)| \lt \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -1490,19 +1630,25 @@ $\blacksquare$
 **Theorem 7.3.** If $(f_n)$ is a sequence of Riemann integrable functions on $[a, b]$ converging
 Uniformly to $f$ on $[a, b]$ Then $f$ is Riemann integrable and
 
-$$\lim_{n \to \infty} \int_a^b f_n(x)\, dx = \int_a^b f(x)\, dx$$
+$$
+\lim_{n \to \infty} \int_a^b f_n(x)\, dx = \int_a^b f(x)\, dx
+$$
 
 _Proof._ Since $(f_n)$ converges uniformly, $f$ is the uniform limit of integrable functions. Given
 $\varepsilon > 0$Choose $N$ with $\sup |f_N(x) - f(x)| \lt \varepsilon/(2(b-a))$ for all
 $x \in [a, b]$. Then $f_N - \varepsilon/(2(b-a)) \leq f(x) \leq f_N(x) + \varepsilon/(2(b-a))$ for
 all $x$ And by Integrability of $f_N$:
 
-$$\int_a^b f_N - \frac{\varepsilon}{2} \leq \underline{\int_a^b} f \leq \overline{\int_a^b} f \leq \int_a^b f_N + \frac{\varepsilon}{2}$$
+$$
+\int_a^b f_N - \frac{\varepsilon}{2} \leq \underline{\int_a^b} f \leq \overline{\int_a^b} f \leq \int_a^b f_N + \frac{\varepsilon}{2}
+$$
 
 So $\overline{\int} f - \underline{\int} f \leq \varepsilon$Proving $f$ is integrable. For the
 limit:
 
-$$\left|\int_a^b f_n - \int_a^b f\right| \leq \int_a^b |f_n - f| \leq (b-a) \cdot \sup_{[a,b]} |f_n - f| \to 0$$
+$$
+\left|\int_a^b f_n - \int_a^b f\right| \leq \int_a^b |f_n - f| \leq (b-a) \cdot \sup_{[a,b]} |f_n - f| \to 0
+$$
 
 $\blacksquare$
 
@@ -1563,7 +1709,9 @@ and the FTC. $\blacksquare$
 
 **Theorem 7.6b (Abel's Theorem).** If $\sum_{n=0}^{\infty} c_n$ converges to $L$ Then
 
-$$\lim_{x \to 1^-} \sum_{n=0}^{\infty} c_n x^n = L$$
+$$
+\lim_{x \to 1^-} \sum_{n=0}^{\infty} c_n x^n = L
+$$
 
 That is, the power series is continuous from the left at the endpoint $x = 1$.
 
@@ -1586,7 +1734,9 @@ $f(x)$ In some neighborhood of $a$.
 
 Not every $C^{\infty}$ function is analytic. The standard counterexample is:
 
-$$f(x) = \begin{cases} e^{-1/x^2} & x \neq 0 \\ 0 & x = 0 \end{cases}$$
+$$
+f(x) = \begin{cases} e^{-1/x^2} & x \neq 0 \\ 0 & x = 0 \end{cases}
+$$
 
 $f^{(n)}(0) = 0$ for all $n$ So the Taylor series at $0$ is identically zero, which Converges only to
 $0$Not to $f(x)$ for $x \neq 0$.
@@ -1622,7 +1772,9 @@ confirming That $e^x$ is its own derivative. $\blacksquare$
 
 _Solution._ Apply the ratio test to the coefficients:
 
-$$\lim_{n \to \infty} \left|\frac{c_{n+1}}{c_n}\right| = \lim_{n \to \infty} \frac{(n+1)!}{n!} = \lim_{n \to \infty} (n+1) = \infty$$
+$$
+\lim_{n \to \infty} \left|\frac{c_{n+1}}{c_n}\right| = \lim_{n \to \infty} \frac{(n+1)!}{n!} = \lim_{n \to \infty} (n+1) = \infty
+$$
 
 So $R = 0$Meaning the series converges only at $x = 0$. $\blacksquare$
 
@@ -1640,7 +1792,9 @@ find the maximum, differentiate with respect to $x$:
 $\frac{d}{dx}\left(\frac{x}{1+nx}\right) = \frac{1}{(1+nx)^2} > 0$. So the function is increasing in
 $x$ on $[1, \infty)$ And:
 
-$$\sup_{x \geq 1} \frac{x}{1 + nx} = \lim_{x \to \infty} \frac{x}{1 + nx} = \frac{1}{n}$$
+$$
+\sup_{x \geq 1} \frac{x}{1 + nx} = \lim_{x \to \infty} \frac{x}{1 + nx} = \frac{1}{n}
+$$
 
 Since $\sup |f_n| = 1/n \to 0$The convergence is uniform on $[1, \infty)$. $\blacksquare$
 
@@ -1695,11 +1849,15 @@ $\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 + 1} = \frac{1}{2}$.
 
 _Solution._ Let $\varepsilon > 0$. Compute:
 
-$$\left|\frac{n^2 + 3n}{2n^2 + 1} - \frac{1}{2}\right| = \left|\frac{2(n^2 + 3n) - (2n^2 + 1)}{2(2n^2 + 1)}\right| = \left|\frac{6n - 1}{2(2n^2 + 1)}\right|$$
+$$
+\left|\frac{n^2 + 3n}{2n^2 + 1} - \frac{1}{2}\right| = \left|\frac{2(n^2 + 3n) - (2n^2 + 1)}{2(2n^2 + 1)}\right| = \left|\frac{6n - 1}{2(2n^2 + 1)}\right|
+$$
 
 For $n \geq 1$: $6n - 1 \lt 6n$ and $2n^2 + 1 > 2n^2$ So
 
-$$\frac{6n - 1}{2(2n^2 + 1)} \lt \frac{6n}{4n^2} = \frac{3}{2n}$$
+$$
+\frac{6n - 1}{2(2n^2 + 1)} \lt \frac{6n}{4n^2} = \frac{3}{2n}
+$$
 
 We need $\frac{3}{2n} \lt \varepsilon$I.e., $n > 3/(2\varepsilon)$. Choose
 $N = \lceil 3/(2\varepsilon) \rceil$. For $n \geq N$: the expression is $\lt \varepsilon$.
@@ -1757,7 +1915,9 @@ _If you get this wrong, revise:_ Section 2.6 (Limit Superior and Limit Inferior)
 _Solution._ Apply the integral test with $f(x) = 1/(x(\ln x)^2)$ on $[2, \infty)$. The function is
 Positive, continuous, and decreasing. Compute via $u = \ln x$, $du = dx/x$:
 
-$$\int_2^{\infty} \frac{1}{x(\ln x)^2}\, dx = \int_{\ln 2}^{\infty} \frac{1}{u^2}\, du = \left[-\frac{1}{u}\right]_{\ln 2}^{\infty} = \frac{1}{\ln 2} \lt \infty$$
+$$
+\int_2^{\infty} \frac{1}{x(\ln x)^2}\, dx = \int_{\ln 2}^{\infty} \frac{1}{u^2}\, du = \left[-\frac{1}{u}\right]_{\ln 2}^{\infty} = \frac{1}{\ln 2} \lt \infty
+$$
 
 The integral converges, so by the integral test, the series converges. $\blacksquare$
 
@@ -1793,11 +1953,15 @@ _Solution._ Use partial fractions:
 $\frac{1}{n(n+2)} = \frac{1}{2}\left(\frac{1}{n} - \frac{1}{n+2}\right)$. The $N$-th partial sum
 telescopes:
 
-$$S_N = \frac{1}{2}\left[\left(\frac{1}{1} - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{N} - \frac{1}{N+2}\right)\right]$$
+$$
+S_N = \frac{1}{2}\left[\left(\frac{1}{1} - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{N} - \frac{1}{N+2}\right)\right]
+$$
 
 Most terms cancel. The surviving terms are:
 
-$$S_N = \frac{1}{2}\left(1 + \frac{1}{2} - \frac{1}{N+1} - \frac{1}{N+2}\right)$$
+$$
+S_N = \frac{1}{2}\left(1 + \frac{1}{2} - \frac{1}{N+1} - \frac{1}{N+2}\right)
+$$
 
 As $N \to \infty$: $S_N \to \frac{1}{2}(1 + 1/2) = \frac{3}{4}$. $\blacksquare$
 
@@ -1839,14 +2003,18 @@ $a \in \mathbb{R}$.
 
 _Solution._ Let $a \in \mathbb{R}$ and $\varepsilon > 0$. Compute:
 
-$$|f(x) - f(a)| = |x^3 - a^3| = |x - a| \cdot |x^2 + ax + a^2|$$
+$$
+|f(x) - f(a)| = |x^3 - a^3| = |x - a| \cdot |x^2 + ax + a^2|
+$$
 
 Restrict to $|x - a| \lt 1$ So $|x| \lt |a| + 1$Giving
 $|x^2 + ax + a^2| \leq (|a|+1)^2 + |a|(|a|+1) + a^2 = 3a^2 + 3|a| + 1$. Let $M = 3a^2 + 3|a| + 1$.
 
 Choose $\delta = \min(1, \varepsilon/M)$. Then $|x - a| \lt \delta$ implies:
 
-$$|x^3 - a^3| \leq |x - a| \cdot M \lt \frac{\varepsilon}{M} \cdot M = \varepsilon$$
+$$
+|x^3 - a^3| \leq |x - a| \cdot M \lt \frac{\varepsilon}{M} \cdot M = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -1899,12 +2067,16 @@ Using the fourth-degree Maclaurin polynomial.
 
 _Solution._ The fourth-degree Maclaurin polynomial of $e^x$ is:
 
-$$T_4(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24}$$
+$$
+T_4(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24}
+$$
 
 By Taylor's theorem, $R_4(x) = \frac{e^{\xi}}{5!} x^5$ for some $\xi$ between $0$ and $x$. For
 $x = 0.2$: $\xi \in (0, 0.2)$ So $e^{\xi} \lt e^{0.2} \lt e^{1/4} \lt 1.3$.
 
-$$|R_4(0.2)| = \frac{e^{\xi}}{120} (0.2)^5 \lt \frac{1.3}{120} \cdot 0.00032 = \frac{1.3 \times 0.00032}{120} \approx 3.47 \times 10^{-6}$$
+$$
+|R_4(0.2)| = \frac{e^{\xi}}{120} (0.2)^5 \lt \frac{1.3}{120} \cdot 0.00032 = \frac{1.3 \times 0.00032}{120} \approx 3.47 \times 10^{-6}
+$$
 
 So $T_4(0.2) = 1 + 0.2 + 0.02 + 0.001333 + 0.000067 = 1.221400$ approximates $e^{0.2}$ with Error
 less than $3.5 \times 10^{-6}$. $\blacksquare$
@@ -1921,11 +2093,15 @@ _If you get this wrong, revise:_ Section 5.4 (Taylor's Theorem), Section 5.7 (Wo
 _Solution._ Let $P_n = \{0, 1/n, 2/n, \ldots, 1\}$. On $[(i-1)/n, i/n]$, $f(x) = x^3$ has
 $M_i = (i/n)^3$ and $m_i = ((i-1)/n)^3$.
 
-$$U(f, P_n) = \sum_{i=1}^{n} \frac{i^3}{n^3} \cdot \frac{1}{n} = \frac{1}{n^4} \sum_{i=1}^{n} i^3 = \frac{1}{n^4} \cdot \frac{n^2(n+1)^2}{4}$$
+$$
+U(f, P_n) = \sum_{i=1}^{n} \frac{i^3}{n^3} \cdot \frac{1}{n} = \frac{1}{n^4} \sum_{i=1}^{n} i^3 = \frac{1}{n^4} \cdot \frac{n^2(n+1)^2}{4}
+$$
 
 As $n \to \infty$:
 
-$$\lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{(n+1)^2}{4n^2} = \frac{1}{4}$$
+$$
+\lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{(n+1)^2}{4n^2} = \frac{1}{4}
+$$
 
 Similarly, $L(f, P_n) \to 1/4$. So $\int_0^1 x^3\, dx = 1/4$. $\blacksquare$
 
@@ -1963,11 +2139,15 @@ _If you get this wrong, revise:_ Section 6.2 (Integrability Criteria), Theorem 6
 _Solution._ The integrand $f(x) = x/\sqrt{1 - x^2}$ is unbounded as $x \to 1^-$. This is a Type II
 Improper integral.
 
-$$\int_0^1 \frac{x}{\sqrt{1 - x^2}}\, dx = \lim_{b \to 1^-} \int_0^b \frac{x}{\sqrt{1 - x^2}}\, dx$$
+$$
+\int_0^1 \frac{x}{\sqrt{1 - x^2}}\, dx = \lim_{b \to 1^-} \int_0^b \frac{x}{\sqrt{1 - x^2}}\, dx
+$$
 
 Compute via substitution $u = 1 - x^2$, $du = -2x\, dx$:
 
-$$= \lim_{b \to 1^-} \left[-\sqrt{1 - x^2}\right]_0^b = \lim_{b \to 1^-} \left(-\sqrt{1 - b^2} + 1\right) = 0 + 1 = 1$$
+$$
+= \lim_{b \to 1^-} \left[-\sqrt{1 - x^2}\right]_0^b = \lim_{b \to 1^-} \left(-\sqrt{1 - b^2} + 1\right) = 0 + 1 = 1
+$$
 
 The improper integral converges to $1$. $\blacksquare$
 
@@ -1989,7 +2169,9 @@ So $f_n \to 0$ pointwise on $(0, \infty)$.
 **Uniform convergence?** We check $\sup_{x > 0} |f_n(x) - 0| = \sup_{x > 0} \frac{nx}{1 + n^2 x^2}$.
 To maximize, differentiate with respect to $x$ (treating $n$ as fixed):
 
-$$\frac{d}{dx}\left(\frac{nx}{1 + n^2 x^2}\right) = \frac{n(1 + n^2 x^2) - nx \cdot 2n^2 x}{(1 + n^2 x^2)^2} = \frac{n - n^3 x^2}{(1 + n^2 x^2)^2}$$
+$$
+\frac{d}{dx}\left(\frac{nx}{1 + n^2 x^2}\right) = \frac{n(1 + n^2 x^2) - nx \cdot 2n^2 x}{(1 + n^2 x^2)^2} = \frac{n - n^3 x^2}{(1 + n^2 x^2)^2}
+$$
 
 Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
@@ -2009,9 +2191,13 @@ Convergence).
 
 _Solution._ Apply the ratio test to the terms:
 
-$$\left|\frac{a_{n+1}}{a_n}\right| = \frac{(2(n+1))!}{((n+1)!)^2} \cdot \frac{(n!)^2}{(2n)!} \cdot |x| = \frac{(2n+2)(2n+1)}{(n+1)^2} \cdot |x|$$
+$$
+\left|\frac{a_{n+1}}{a_n}\right| = \frac{(2(n+1))!}{((n+1)!)^2} \cdot \frac{(n!)^2}{(2n)!} \cdot |x| = \frac{(2n+2)(2n+1)}{(n+1)^2} \cdot |x|
+$$
 
-$$= \frac{2(2n+1)}{n+1} \cdot |x| = \frac{4n + 2}{n + 1} \cdot |x| \to 4|x| \quad \mathrm{as\ } n \to \infty$$
+$$
+= \frac{2(2n+1)}{n+1} \cdot |x| = \frac{4n + 2}{n + 1} \cdot |x| \to 4|x| \quad \mathrm{as\ } n \to \infty
+$$
 
 The series converges when $4|x| \lt 1$I.e., $|x| \lt 1/4$ And diverges when $4|x| > 1$. The radius of
 convergence is $R = 1/4$. $\blacksquare$
@@ -2120,7 +2306,9 @@ definition.
 
 If $0 < |x - 2| < \delta$, then:
 
-$$|f(x) - f(2)| = |3x + 1 - 7| = 3|x - 2| < 3 \cdot \frac{\varepsilon}{3} = \varepsilon$$
+$$
+|f(x) - f(2)| = |3x + 1 - 7| = 3|x - 2| < 3 \cdot \frac{\varepsilon}{3} = \varepsilon
+$$
 
 Since for every $\varepsilon > 0$ we found $\delta > 0$ satisfying the condition, $f$ is continuous
 at $x = 2$.

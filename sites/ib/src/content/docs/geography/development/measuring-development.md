@@ -104,7 +104,9 @@ Deprivations in health, education, and living standards."
 The HDI, created by the UN Development Programme (UNDP) in 1990, combines three dimensions into a
 Single index ranging from 0 to 1:
 
-$$\mathrm{HDI} = \frac{I_{\mathrm{health}} + I_{\mathrm{education}} + I_{\mathrm{income}}}{3}$$
+$$
+\mathrm{HDI} = \frac{I_{\mathrm{health}} + I_{\mathrm{education}} + I_{\mathrm{income}}}{3}
+$$
 
 Where $I_{\mathrm{health}}$ is measured by life expectancy at birth, $I_{\mathrm{education}}$ is the
 Geometric mean of mean years of schooling and expected years of schooling, and $I_{\mathrm{income}}$
@@ -195,7 +197,9 @@ Values to other contexts is questionable.
 
 The Happy Planet Index, developed by the New Economics Foundation, combines three indicators:
 
-$$\mathrm{HPI} = \frac{\mathrm{Experienced well-being} \times \mathrm{Life expectancy}}{\mathrm{Ecological footprint}}$$
+$$
+\mathrm{HPI} = \frac{\mathrm{Experienced well-being} \times \mathrm{Life expectancy}}{\mathrm{Ecological footprint}}
+$$
 
 The HPI measures the ecological efficiency with which countries achieve well-being. Countries with
 High well-being and long life expectancy but low ecological footprints score highest.

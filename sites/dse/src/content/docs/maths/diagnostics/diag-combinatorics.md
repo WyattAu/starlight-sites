@@ -101,13 +101,19 @@ The general term in $(a + b)^n$ is $\dbinom{n}{r} a^{n-r} b^r$.
 
 Here, $a = 2x$$b = -3$$n = 8$:
 
-$$T_{r+1} = \dbinom{8}{r}(2x)^{8-r}(-3)^r$$
+$$
+T_{r+1} = \dbinom{8}{r}(2x)^{8-r}(-3)^r
+$$
 
 For the $x^5$ term: $8 - r = 5 \implies r = 3$.
 
-$$T_4 = \dbinom{8}{3}(2x)^5(-3)^3 = 56 \times 32x^5 \times (-27) = 56 \times 32 \times (-27) \times x^5$$
+$$
+T_4 = \dbinom{8}{3}(2x)^5(-3)^3 = 56 \times 32x^5 \times (-27) = 56 \times 32 \times (-27) \times x^5
+$$
 
-$$= -48384x^5$$
+$$
+= -48384x^5
+$$
 
 Coefficient: $-48384$.
 
@@ -159,11 +165,17 @@ including the term in $x^2$.
 
 Using the generalised binomial theorem:
 
-$$(1 + 2x)^{-3} = 1 + (-3)(2x) + \frac{(-3)(-4)}{2!}(2x)^2 + \cdots$$
+$$
+(1 + 2x)^{-3} = 1 + (-3)(2x) + \frac{(-3)(-4)}{2!}(2x)^2 + \cdots
+$$
 
-$$= 1 - 6x + \frac{12}{2} \times 4x^2 + \cdots$$
+$$
+= 1 - 6x + \frac{12}{2} \times 4x^2 + \cdots
+$$
 
-$$= 1 - 6x + 24x^2 + \cdots$$
+$$
+= 1 - 6x + 24x^2 + \cdots
+$$
 
 ---
 
@@ -193,7 +205,9 @@ Total ways: $\dbinom{10}{3} = 120$.
 
 Ways with exactly 2 red: $\dbinom{4}{2} \times \dbinom{6}{1} = 6 \times 6 = 36$.
 
-$$P = \frac{36}{120} = \frac{3}{10}$$
+$$
+P = \frac{36}{120} = \frac{3}{10}
+$$
 
 ---
 
@@ -218,15 +232,21 @@ The coefficients are $C_0, C_1, C_2, \ldots, C_n$ where $C_r = \dbinom{n}{r}$.
 
 If three consecutive coefficients are in AP: $2C_r = C_{r-1} + C_{r+1}$.
 
-$$2\dbinom{n}{r} = \dbinom{n}{r-1} + \dbinom{n}{r+1}$$
+$$
+2\dbinom{n}{r} = \dbinom{n}{r-1} + \dbinom{n}{r+1}
+$$
 
 Using $\dbinom{n}{r} = \dfrac{n!}{r!(n-r)!}$:
 
-$$\frac{2}{r!(n-r)!} = \frac{1}{(r-1)!(n-r+1)!} + \frac{1}{(r+1)!(n-r-1)!}$$
+$$
+\frac{2}{r!(n-r)!} = \frac{1}{(r-1)!(n-r+1)!} + \frac{1}{(r+1)!(n-r-1)!}
+$$
 
 Multiply through by $(r+1)!(n-r+1)!$:
 
-$$2(r+1)(n-r+1) = (r+1)r + (n-r)(n-r+1)$$
+$$
+2(r+1)(n-r+1) = (r+1)r + (n-r)(n-r+1)
+$$
 
 This is complex. For ALL coefficients to be in AP (not just three consecutive), there is no such
 $n > 2$. The question likely means: find $n$ such that three specific consecutive coefficients form
@@ -267,17 +287,27 @@ If $\dbinom{n}{2} = 55$Find $n$ and evaluate $\dbinom{n}{4}$.
 
 **Solution:**
 
-$$\dbinom{n}{2} = \frac{n(n-1)}{2} = 55$$
+$$
+\dbinom{n}{2} = \frac{n(n-1)}{2} = 55
+$$
 
-$$n(n-1) = 110$$
+$$
+n(n-1) = 110
+$$
 
-$$n^2 - n - 110 = 0$$
+$$
+n^2 - n - 110 = 0
+$$
 
-$$(n - 11)(n + 10) = 0$$
+$$
+(n - 11)(n + 10) = 0
+$$
 
 $n = 11$ (since $n \geq 0$).
 
-$$\dbinom{11}{4} = \frac{11 \times 10 \times 9 \times 8}{4 \times 3 \times 2 \times 1} = 330$$
+$$
+\dbinom{11}{4} = \frac{11 \times 10 \times 9 \times 8}{4 \times 3 \times 2 \times 1} = 330
+$$
 
 ---
 
@@ -372,7 +402,9 @@ $T_{r+1} = \dbinom{6}{r}(x^2)^{6-r}\left(\dfrac{2}{x}\right)^r = \dbinom{6}{r} \
 
 For the constant term: $12 - 3r = 0 \implies r = 4$.
 
-$$T_5 = \dbinom{6}{4} \cdot 2^4 \cdot x^0 = 15 \times 16 = 240$$
+$$
+T_5 = \dbinom{6}{4} \cdot 2^4 \cdot x^0 = 15 \times 16 = 240
+$$
 
 ---
 
@@ -395,7 +427,9 @@ How many distinct arrangements can be made from the letters of "MISSISSIPPI"?
 
 Total letters: 11 (M:1, I:4, S:4, P:2).
 
-$$\frac{11!}{4! \times 4! \times 2!} = \frac{39916800}{24 \times 24 \times 2} = \frac{39916800}{1152} = 34650$$
+$$
+\frac{11!}{4! \times 4! \times 2!} = \frac{39916800}{24 \times 24 \times 2} = \frac{39916800}{1152} = 34650
+$$
 
 ---
 
@@ -418,7 +452,9 @@ Find the middle term in the expansion of $\left(2x - \dfrac{1}{x}\right)^{10}$.
 
 $n = 10$ So there are 11 terms. The middle term is the 6th term ($r = 5$).
 
-$$T_6 = \dbinom{10}{5}(2x)^5\left(-\frac{1}{x}\right)^5 = 252 \times 32x^5 \times \left(-\frac{1}{x^5}\right) = 252 \times 32 \times (-1) = -8064$$
+$$
+T_6 = \dbinom{10}{5}(2x)^5\left(-\frac{1}{x}\right)^5 = 252 \times 32x^5 \times \left(-\frac{1}{x^5}\right) = 252 \times 32 \times (-1) = -8064
+$$
 
 ---
 
@@ -444,7 +480,9 @@ This is equivalent to counting surjective (onto) functions from an 8-element set
 
 By the inclusion-exclusion principle:
 
-$$3^8 - \dbinom{3}{1} \cdot 2^8 + \dbinom{3}{2} \cdot 1^8 = 6561 - 3 \times 256 + 3 = 6561 - 768 + 3 = 5796$$
+$$
+3^8 - \dbinom{3}{1} \cdot 2^8 + \dbinom{3}{2} \cdot 1^8 = 6561 - 3 \times 256 + 3 = 6561 - 768 + 3 = 5796
+$$
 
 ---
 
@@ -495,7 +533,9 @@ Each shortest path consists of 5 right moves (R) and 3 up moves (U), for a total
 
 The number of distinct arrangements of 5 R's and 3 U's:
 
-$$\dbinom{8}{5} = \dbinom{8}{3} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56$$
+$$
+\dbinom{8}{5} = \dbinom{8}{3} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56
+$$
 
 ---
 
@@ -639,11 +679,17 @@ range of values of $x$ for which the expansion is valid. (5 marks)
 
 Using the generalised binomial theorem with $n = \dfrac{1}{2}$, $a = 1$, $b = -3x$:
 
-$$(1 - 3x)^{1/2} = 1 + \frac{1}{2}(-3x) + \frac{\frac{1}{2} \times \left(-\frac{1}{2}\right)}{2!}(-3x)^2 + \frac{\frac{1}{2}\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)}{3!}(-3x)^3 + \cdots$$
+$$
+(1 - 3x)^{1/2} = 1 + \frac{1}{2}(-3x) + \frac{\frac{1}{2} \times \left(-\frac{1}{2}\right)}{2!}(-3x)^2 + \frac{\frac{1}{2}\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)}{3!}(-3x)^3 + \cdots
+$$
 
-$$= 1 - \frac{3x}{2} + \frac{-\frac{1}{4}}{2} \cdot 9x^2 + \frac{\frac{3}{8}}{6} \cdot (-27x^3) + \cdots$$
+$$
+= 1 - \frac{3x}{2} + \frac{-\frac{1}{4}}{2} \cdot 9x^2 + \frac{\frac{3}{8}}{6} \cdot (-27x^3) + \cdots
+$$
 
-$$= 1 - \frac{3x}{2} - \frac{9x^2}{8} - \frac{27x^3}{16} + \cdots$$
+$$
+= 1 - \frac{3x}{2} - \frac{9x^2}{8} - \frac{27x^3}{16} + \cdots
+$$
 
 The expansion is valid when $|-3x| < 1$I.e. $|x| < \dfrac{1}{3}$.
 
@@ -704,11 +750,17 @@ Coefficient of $x^3$: $\dbinom{n}{3}a^3 = \dfrac{n(n-1)(n-2)}{6}a^3$.
 
 Ratio:
 
-$$\frac{\frac{n(n-1)}{2}a^2}{\frac{n(n-1)(n-2)}{6}a^3} = \frac{1}{2}$$
+$$
+\frac{\frac{n(n-1)}{2}a^2}{\frac{n(n-1)(n-2)}{6}a^3} = \frac{1}{2}
+$$
 
-$$\frac{3}{(n-2)a} = \frac{1}{2}$$
+$$
+\frac{3}{(n-2)a} = \frac{1}{2}
+$$
 
-$$(n-2)a = 6$$
+$$
+(n-2)a = 6
+$$
 
 Since $a$ and $n$ are positive integers: possible pairs $(a, n)$ are
 $(1, 8), (2, 5), (3, 4), (6, 3)$.

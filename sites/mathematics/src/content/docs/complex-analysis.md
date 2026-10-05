@@ -71,7 +71,9 @@ The inequality follows from $\mathrm{Re}(z\bar{w}) \leq |z\bar{w}| = |z||w|$. $\
 
 Every non-zero complex number can be written in **polar form**:
 
-$$z = r(\cos\theta + i\sin\theta) = re^{i\theta}$$
+$$
+z = r(\cos\theta + i\sin\theta) = re^{i\theta}
+$$
 
 Where $r = |z| = \sqrt{a^2 + b^2}$ is the **modulus** and $\theta = \arg(z)$ is the **argument**.
 
@@ -124,7 +126,9 @@ $z = 5\,e^{i(\pi + \arctan(4/3))}$.
 
 **De Moivre's theorem:** $(e^{i\theta})^n = e^{in\theta}$ So
 
-$$(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)$$
+$$
+(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)
+$$
 
 **Proposition 1.5.** De Moivre's theorem holds for all integers $n$Including negative values.
 
@@ -179,7 +183,9 @@ Taking real parts gives the result.
 **Proposition 1.6.** Every non-zero $w \in \mathbb{C}$ has exactly $n$ distinct $n$-th roots. If
 $w = \rho\, e^{i\phi}$ Then
 
-$$z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n}, \quad k = 0, 1, \ldots, n - 1$$
+$$
+z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n}, \quad k = 0, 1, \ldots, n - 1
+$$
 
 Where $\rho^{1/n} \gt 0$ is the positive real $n$-th root of $\rho$.
 
@@ -194,7 +200,9 @@ Regular $n$-gon.
 
 The $n$-th roots of unity are the solutions of $z^n = 1$:
 
-$$z_k = e^{2\pi i k / n}, \quad k = 0, 1, \ldots, n - 1$$
+$$
+z_k = e^{2\pi i k / n}, \quad k = 0, 1, \ldots, n - 1
+$$
 
 They form a regular $n$-gon on the unit circle in the complex plane.
 
@@ -282,7 +290,9 @@ zero). If we define $f(1) = 2$ Then $f$ becomes continuous at $z = 1$.
 
 **Definition.** $f$ is **differentiable** at $z_0$ if
 
-$$f'(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}$$
+$$
+f'(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}
+$$
 
 Exists (and is independent of how $h \to 0$ in $\mathbb{C}$).
 
@@ -332,7 +342,9 @@ Defined on a domain $D$ such that $g(z) \in f(z)$ for all $z \in D$.
 **The Complex Logarithm.** We define $\log z = \ln|z| + i\arg(z)$Which is multi-valued because
 $\arg(z) = \mathrm{Arg}(z) + 2\pi k$ for $k \in \mathbb{Z}$. The **principal branch** is
 
-$$\mathrm{Log}\, z = \ln|z| + i\,\mathrm{Arg}(z)$$
+$$
+\mathrm{Log}\, z = \ln|z| + i\,\mathrm{Arg}(z)
+$$
 
 Defined on $\mathbb{C} \setminus (-\infty, 0]$. The negative real axis is called the **branch cut**.
 
@@ -341,7 +353,9 @@ $\mathbb{C} \setminus (-\infty, 0]$ and $\frac{d}{dz}\,\mathrm{Log}\, z = \frac{
 
 **Complex Powers.** For $z, \alpha \in \mathbb{C}$ with $z \neq 0$:
 
-$$z^\alpha = e^{\alpha \log z}$$
+$$
+z^\alpha = e^{\alpha \log z}
+$$
 
 This is multi-valued . When $\alpha$ is rational with reduced form $p/q$There are exactly $q$
 distinct values.
@@ -382,15 +396,21 @@ Domain: $\mathbb{C} \setminus \{z : z = iy,\, y \in [-1, 1]\}$.
 **Theorem 3.1 (Cauchy-Riemann Equations).** If $f(z) = u(x, y) + iv(x, y)$ is differentiable at
 $z = x + iy$ Then
 
-$$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}$$
+$$
+\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}
+$$
 
 _Proof._ Compute the limit along the real axis ($h \in \mathbb{R}$, $h \to 0$):
 
-$$f'(z) = \lim_{h \to 0} \frac{u(x+h, y) - u(x, y)}{h} + i\lim_{h \to 0} \frac{v(x+h, y) - v(x, y)}{h} = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}$$
+$$
+f'(z) = \lim_{h \to 0} \frac{u(x+h, y) - u(x, y)}{h} + i\lim_{h \to 0} \frac{v(x+h, y) - v(x, y)}{h} = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}
+$$
 
 Compute along the imaginary axis ($h = ik$, $k \in \mathbb{R}$, $k \to 0$):
 
-$$f'(z) = \lim_{k \to 0} \frac{u(x, y+k) - u(x, y)}{ik} + i\lim_{k \to 0} \frac{v(x, y+k) - v(x, y)}{ik} = -i\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y}$$
+$$
+f'(z) = \lim_{k \to 0} \frac{u(x, y+k) - u(x, y)}{ik} + i\lim_{k \to 0} \frac{v(x, y+k) - v(x, y)}{ik} = -i\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y}
+$$
 
 Equating real and imaginary parts: $\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}$
 And $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
@@ -420,7 +440,9 @@ As $\Delta z \to 0$. $\blacksquare$
 
 When the Cauchy-Riemann equations hold:
 
-$$f'(z) = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x} = \frac{\partial v}{\partial y} - i\frac{\partial u}{\partial y}$$
+$$
+f'(z) = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x} = \frac{\partial v}{\partial y} - i\frac{\partial u}{\partial y}
+$$
 
 ### 3.4 Harmonic Functions
 
@@ -531,28 +553,38 @@ Self-intersections.
 
 **Definition.** For a contour $\gamma$ and a continuous function $f$ on $\gamma$:
 
-$$\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma'(t)\, dt$$
+$$
+\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma'(t)\, dt
+$$
 
 ### 4.3 Basic Properties
 
 **Proposition 4.1.** The complex integral is linear:
 
-$$\int_\gamma (af + bg)\, dz = a\int_\gamma f\, dz + b\int_\gamma g\, dz$$
+$$
+\int_\gamma (af + bg)\, dz = a\int_\gamma f\, dz + b\int_\gamma g\, dz
+$$
 
 **Proposition 4.2.** Reversing orientation changes the sign:
 
-$$\int_{-\gamma} f\, dz = -\int_\gamma f\, dz$$
+$$
+\int_{-\gamma} f\, dz = -\int_\gamma f\, dz
+$$
 
 **Proposition 4.3.** Additivity over contours:
 
-$$\int_{\gamma_1 + \gamma_2} f\, dz = \int_{\gamma_1} f\, dz + \int_{\gamma_2} f\, dz$$
+$$
+\int_{\gamma_1 + \gamma_2} f\, dz = \int_{\gamma_1} f\, dz + \int_{\gamma_2} f\, dz
+$$
 
 ### 4.4 ML Inequality
 
 **Proposition 4.4 (ML Inequality).** If $|f(z)| \leq M$ for all $z$ on a contour $\gamma$ of length
 $L$ Then
 
-$$\left|\int_\gamma f(z)\, dz\right| \leq ML$$
+$$
+\left|\int_\gamma f(z)\, dz\right| \leq ML
+$$
 
 _Proof._
 $\left|\int_a^b f(\gamma(t))\gamma'(t)\, dt\right| \leq \int_a^b |f(\gamma(t))||\gamma'(t)|\, dt
@@ -638,7 +670,9 @@ $\left|\int_\gamma \frac{dz}{z^2 + 4}\right| \leq \frac{1}{5} \cdot 6\pi = \frac
 
 When $f$ is analytic on a connected domain and has a known antiderivative $F$ with $F' = f$:
 
-$$\int_\gamma f(z)\, dz = F(\gamma(b)) - F(\gamma(a))$$
+$$
+\int_\gamma f(z)\, dz = F(\gamma(b)) - F(\gamma(a))
+$$
 
 This follows from the fundamental theorem of calculus applied to $F(\gamma(t))$.
 
@@ -670,11 +704,15 @@ $\int_\gamma e^{2z}\, dz = \frac{1}{2}(e^{2i} - e^{2})$.
 **Theorem 5.1 (Cauchy's Theorem).** If $f$ is analytic on a connected domain $D$ and $\gamma$ Is a
 simple closed contour in $D$ Then
 
-$$\int_\gamma f(z)\, dz = 0$$
+$$
+\int_\gamma f(z)\, dz = 0
+$$
 
 _Proof (for $f'$ continuous)._ By Green’s theorem in the plane, writing $f = u + iv$:
 
-$$\int_\gamma f\, dz = \int_\gamma (u\, dx - v\, dy) + i\int_\gamma (v\, dx + u\, dy)$$
+$$
+\int_\gamma f\, dz = \int_\gamma (u\, dx - v\, dy) + i\int_\gamma (v\, dx + u\, dy)
+$$
 
 Applying Green's theorem to each integral:
 
@@ -701,7 +739,9 @@ $\int_{z_0}^{z_1} f(z)\, dz$ is independent of the path from $z_0$ to $z_1$ in $
 **Theorem 5.3.** If $f$ is analytic on a connected domain $D$ Then $f$ has an antiderivative $F$ in
 $D$ (i.e., $F'(z) = f(z)$), and
 
-$$\int_\gamma f(z)\, dz = F(z_1) - F(z_0)$$
+$$
+\int_\gamma f(z)\, dz = F(z_1) - F(z_0)
+$$
 
 Where $z_0$ and $z_1$ are the endpoints of $\gamma$.
 
@@ -712,7 +752,9 @@ $\gamma, \gamma_1, \ldots, \gamma_n$ where $\gamma_1, \ldots, \gamma_n$ Lie in t
 $\gamma$ and the region between $\gamma$ and the $\gamma_k$ is contained in $D$ And all contours are
 positively oriented, then
 
-$$\int_\gamma f(z)\, dz = \sum_{k=1}^n \int_{\gamma_k} f(z)\, dz$$
+$$
+\int_\gamma f(z)\, dz = \sum_{k=1}^n \int_{\gamma_k} f(z)\, dz
+$$
 
 ### 5.6 Deformation of Contours
 
@@ -720,7 +762,9 @@ $$\int_\gamma f(z)\, dz = \sum_{k=1}^n \int_{\gamma_k} f(z)\, dz$$
 Closed contours $\gamma_1$ and $\gamma_2$ where one can be continuously deformed into the other
 Within the domain of analyticity of $f$ Then
 
-$$\int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz$$
+$$
+\int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz
+$$
 
 _Proof._ This follows directly from Theorem 5.4 applied to the region between $\gamma_1$ and
 $\gamma_2$. $\blacksquare$
@@ -762,7 +806,9 @@ $\int_\gamma \frac{dz}{z^2 - 1} = \frac{1}{2}(2\pi i - 2\pi i) = 0$.
 **Theorem 6.1 (Cauchy's Integral Formula).** If $f$ is analytic on a connected domain Containing a
 simple closed positively oriented contour $\gamma$ And $z_0$ is inside $\gamma$ Then
 
-$$f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz$$
+$$
+f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz
+$$
 
 _Proof._ Let $\gamma_\varepsilon$ be a small circle of radius $\varepsilon$ around $z_0$. Since
 $\frac{f(z)}{z - z_0}$ is analytic on the region between $\gamma$ and $\gamma_\varepsilon$
@@ -782,7 +828,9 @@ $\varepsilon \to 0$ by the ML inequality. $\blacksquare$
 
 **Theorem 6.2 (Cauchy's Integral Formula for Derivatives).** Under the same conditions,
 
-$$f^{(n)}(z_0) = \frac{n!}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz$$
+$$
+f^{(n)}(z_0) = \frac{n!}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz
+$$
 
 _Proof._ We proceed by induction. The base case $n = 0$ is Theorem 6.1. For the inductive step,
 Assume the formula holds for $n$. Using the difference quotient:
@@ -804,7 +852,9 @@ This is remarkable: a single complex derivative implies the existence of all der
 **Corollary 6.4 (Cauchy's Estimates).** If $f$ is analytic on and inside a circle $|z - z_0| = R$
 And $|f(z)| \leq M$ on the circle, then
 
-$$|f^{(n)}(z_0)| \leq \frac{n!M}{R^n}$$
+$$
+|f^{(n)}(z_0)| \leq \frac{n!M}{R^n}
+$$
 
 _Proof._ From the integral formula:
 $|f^{(n)}(z_0)| = \frac{n!}{2\pi}\left|\int_{|z-z_0|=R} \frac{f(z)}{(z-z_0)^{n+1}}\, dz\right|
@@ -888,7 +938,9 @@ $= \frac{\pi i e^{-2}}{2} - \frac{\pi i e^2}{2} + 2\pi i e^2 = \frac{\pi i e^{-2
 
 **Theorem 7.1.** If $f$ is analytic on $|z - z_0| \lt R$ Then
 
-$$f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n$$
+$$
+f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n
+$$
 
 And the series converges uniformly on compact subsets of $|z - z_0| \lt R$.
 
@@ -908,15 +960,25 @@ $f$.
 
 ### 7.2 Common Taylor Series
 
-$$e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!} = 1 + z + \frac{z^2}{2!} + \cdots$$
+$$
+e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!} = 1 + z + \frac{z^2}{2!} + \cdots
+$$
 
-$$\sin z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n+1}}{(2n+1)!}$$
+$$
+\sin z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n+1}}{(2n+1)!}
+$$
 
-$$\cos z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n}}{(2n)!}$$
+$$
+\cos z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n}}{(2n)!}
+$$
 
-$$\frac{1}{1 - z} = \sum_{n=0}^{\infty} z^n, \quad |z| \lt 1$$
+$$
+\frac{1}{1 - z} = \sum_{n=0}^{\infty} z^n, \quad |z| \lt 1
+$$
 
-$$\ln(1 + z) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1} z^n}{n}, \quad |z| \lt 1$$
+$$
+\ln(1 + z) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1} z^n}{n}, \quad |z| \lt 1
+$$
 
 ### 7.3 Worked Examples: Taylor Series
 
@@ -949,11 +1011,15 @@ $= z + z^2 + z^3/2 + z^4/6 + \cdots - z^3/6 - z^4/6 + \cdots$ $= z + z^2 + z^3/3
 
 **Theorem 7.2 (Laurent Series).** If $f$ is analytic on the annulus $r \lt |z - z_0| \lt R$ Then
 
-$$f(z) = \sum_{n=-\infty}^{\infty} a_n(z - z_0)^n = \cdots + \frac{a_{-2}}{(z - z_0)^2} + \frac{a_{-1}}{z - z_0} + a_0 + a_1(z - z_0) + \cdots$$
+$$
+f(z) = \sum_{n=-\infty}^{\infty} a_n(z - z_0)^n = \cdots + \frac{a_{-2}}{(z - z_0)^2} + \frac{a_{-1}}{z - z_0} + a_0 + a_1(z - z_0) + \cdots
+$$
 
 Where
 
-$$a_n = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz$$
+$$
+a_n = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz
+$$
 
 For any simple closed contour $\gamma$ in the annulus encircling $z_0$.
 
@@ -1012,13 +1078,17 @@ Residue at $z = 0$: $a_{-1} = -\frac{1}{9}$.
 
 **Definition.** The **residue at infinity** of $f$ is defined as
 
-$$\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f(z)\, dz$$
+$$
+\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f(z)\, dz
+$$
 
 For sufficiently large $R$ (enclosing all finite singularities).
 
 **Proposition 7.4.** For a function $f$ with finitely many singularities in $\mathbb{C}$:
 
-$$\sum_{\mathrm{all\ finite\ } z_k} \mathrm{Res}(f, z_k) + \mathrm{Res}(f, \infty) = 0$$
+$$
+\sum_{\mathrm{all\ finite\ } z_k} \mathrm{Res}(f, z_k) + \mathrm{Res}(f, \infty) = 0
+$$
 
 _Proof._ By the residue theorem applied to $|z| = R$ enclosing all finite singularities:
 
@@ -1090,7 +1160,9 @@ No negative powers, so $z = 0$ is a removable singularity with $f(0) = 1$.
 **Definition.** The **residue** of $f$ at an isolated singularity $z_0$ is the coefficient $a_{-1}$
 In the Laurent expansion:
 
-$$\mathrm{Res}(f, z_0) = a_{-1} = \frac{1}{2\pi i}\int_\gamma f(z)\, dz$$
+$$
+\mathrm{Res}(f, z_0) = a_{-1} = \frac{1}{2\pi i}\int_\gamma f(z)\, dz
+$$
 
 Where $\gamma$ is a small positively oriented circle around $z_0$.
 
@@ -1098,15 +1170,21 @@ Where $\gamma$ is a small positively oriented circle around $z_0$.
 
 **For a simple pole at $z_0$:**
 
-$$\mathrm{Res}(f, z_0) = \lim_{z \to z_0} (z - z_0)f(z)$$
+$$
+\mathrm{Res}(f, z_0) = \lim_{z \to z_0} (z - z_0)f(z)
+$$
 
 If $f = g/h$ where $g(z_0) \neq 0$, $h(z_0) = 0$, $h'(z_0) \neq 0$:
 
-$$\mathrm{Res}(f, z_0) = \frac{g(z_0)}{h'(z_0)}$$
+$$
+\mathrm{Res}(f, z_0) = \frac{g(z_0)}{h'(z_0)}
+$$
 
 **For a pole of order $m$ at $z_0$:**
 
-$$\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!}\lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}}\left[(z - z_0)^m f(z)\right]$$
+$$
+\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!}\lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}}\left[(z - z_0)^m f(z)\right]
+$$
 
 <details>
 <summary>Solution</summary>
@@ -1134,7 +1212,9 @@ At $z = 2$ (simple pole): $\mathrm{Res} = \frac{e^2}{(2-1)^2} = e^2$.
 Oriented contour $\gamma$ except for isolated singularities $z_1, z_2, \ldots, z_n$ inside $\gamma$
 Then
 
-$$\int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)$$
+$$
+\int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)
+$$
 
 _Proof._ For each singularity $z_k$Draw a small circle $\gamma_k$ around it. By Cauchy's theorem
 Applied to the multiply connected region between $\gamma$ and the $\gamma_k$:
@@ -1181,7 +1261,9 @@ Contour integration is a powerful tool for evaluating definite integrals.
 **Theorem 9.1.** If $f(x) = P(x)/Q(x)$ where $\deg(Q) \geq \deg(P) + 2$ and $Q$ has no real roots,
 Then
 
-$$\int_{-\infty}^{\infty} f(x)\, dx = 2\pi i \sum_{\mathrm{Im}(z_k) > 0} \mathrm{Res}(f, z_k)$$
+$$
+\int_{-\infty}^{\infty} f(x)\, dx = 2\pi i \sum_{\mathrm{Im}(z_k) > 0} \mathrm{Res}(f, z_k)
+$$
 
 Where the sum is over poles in the upper half-plane.
 
@@ -1233,7 +1315,9 @@ $\blacksquare$
 **Theorem 9.2 (Jordan's Lemma).** If $f(z) \to 0$ uniformly as $|z| \to \infty$ in the upper
 Half-plane and $a \gt 0$ Then
 
-$$\lim_{R \to \infty} \int_{C_R} e^{iaz}f(z)\, dz = 0$$
+$$
+\lim_{R \to \infty} \int_{C_R} e^{iaz}f(z)\, dz = 0
+$$
 
 Where $C_R$ is the upper semicircle $|z| = R$, $\mathrm{Im}(z) \geq 0$.
 
@@ -1289,7 +1373,9 @@ $I = \frac{1}{2i} \cdot 2\pi i \left(-\frac{5}{4} + \frac{17}{12}\right) = \frac
 
 For integrals where the integrand has poles on the real axis, we use the **Cauchy principal value**:
 
-$$\mathrm{PV}\!\int_{-\infty}^{\infty} f(x)\, dx = \lim_{\varepsilon \to 0^+} \left(\int_{-\infty}^{a-\varepsilon} f(x)\, dx + \int_{a+\varepsilon}^{\infty} f(x)\, dx\right)$$
+$$
+\mathrm{PV}\!\int_{-\infty}^{\infty} f(x)\, dx = \lim_{\varepsilon \to 0^+} \left(\int_{-\infty}^{a-\varepsilon} f(x)\, dx + \int_{a+\varepsilon}^{\infty} f(x)\, dx\right)
+$$
 
 <details>
 <summary>Solution</summary>
@@ -1340,7 +1426,9 @@ By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientat
 
 A **Möbius transformation** (or linear fractional transformation) is
 
-$$T(z) = \frac{az + b}{cz + d}, \quad ad - bc \neq 0$$
+$$
+T(z) = \frac{az + b}{cz + d}, \quad ad - bc \neq 0
+$$
 
 **Proposition 10.1.** Möbius transformations are conformal (where defined) and map circles and lines
 To circles and lines.
@@ -1352,7 +1440,9 @@ $T(z_2) = w_2$, $T(z_3) = w_3$.
 
 **Definition.** The **cross-ratio** of four distinct points $z_1, z_2, z_3, z_4$ is
 
-$$(z_1, z_2, z_3, z_4) = \frac{(z_1 - z_3)(z_2 - z_4)}{(z_1 - z_4)(z_2 - z_3)}$$
+$$
+(z_1, z_2, z_3, z_4) = \frac{(z_1 - z_3)(z_2 - z_4)}{(z_1 - z_4)(z_2 - z_3)}
+$$
 
 **Proposition 10.3.** The cross-ratio is invariant under Möbius transformations:
 $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$.
@@ -1360,7 +1450,9 @@ $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$.
 **Proposition 10.4.** The unique Möbius transformation sending $z_1 \mapsto 0$, $z_2 \mapsto 1$
 $z_3 \mapsto \infty$ is
 
-$$T(z) = \frac{(z - z_1)(z_2 - z_3)}{(z - z_3)(z_2 - z_1)}$$
+$$
+T(z) = \frac{(z - z_1)(z_2 - z_3)}{(z - z_3)(z_2 - z_1)}
+$$
 
 ### 10.6 Classification of Möbius Transformations
 
@@ -1454,7 +1546,9 @@ modulus principle requires the non-vanishing hypothesis.
 **Theorem 11.6 (Schwarz Lemma).** If $f : \mathbb{D} \to \mathbb{D}$ is analytic with $f(0) = 0$
 Then
 
-$$|f(z)| \leq |z| \quad \mathrm{for\ all\ } z \in \mathbb{D}$$
+$$
+|f(z)| \leq |z| \quad \mathrm{for\ all\ } z \in \mathbb{D}
+$$
 
 And $|f'(0)| \leq 1$. Equality in either case implies $f(z) = e^{i\theta} z$ for some real $\theta$.
 
@@ -1471,7 +1565,9 @@ $g$ is constant: $g(z) = e^{i\theta}$. $\blacksquare$
 **Theorem 12.1 (Argument Principle).** If $f$ is meromorphic inside and on a simple closed contour
 $\gamma$ with no zeros or poles on $\gamma$ Then
 
-$$\frac{1}{2\pi i}\int_\gamma \frac{f'(z)}{f(z)}\, dz = N - P$$
+$$
+\frac{1}{2\pi i}\int_\gamma \frac{f'(z)}{f(z)}\, dz = N - P
+$$
 
 Where $N$ is the number of zeros and $P$ is the number of poles of $f$ inside $\gamma$ (counting
 Multiplicities).
@@ -1998,9 +2094,13 @@ Evaluate $\displaystyle\int_0^2 (3x^2 + 2x)\,dx$.
 
 **Solution:**
 
-$$\int (3x^2 + 2x)\,dx = x^3 + x^2 + c$$
+$$
+\int (3x^2 + 2x)\,dx = x^3 + x^2 + c
+$$
 
-$$\left[x^3 + x^2\right]_0^2 = (8 + 4) - (0) = 12$$
+$$
+\left[x^3 + x^2\right]_0^2 = (8 + 4) - (0) = 12
+$$
 
 **Example 2: Integration by parts**
 
@@ -2010,7 +2110,9 @@ Find $\displaystyle\int x e^{2x}\,dx$.
 
 Let $u = x \implies \frac{du}{dx} = 1$ and $\frac{dv}{dx} = e^{2x} \implies v = \frac{1}{2}e^{2x}$.
 
-$$\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \frac{x e^{2x}}{2} - \frac{e^{2x}}{4} + c = \frac{e^{2x}(2x - 1)}{4} + c$$
+$$
+\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \frac{x e^{2x}}{2} - \frac{e^{2x}}{4} + c = \frac{e^{2x}(2x - 1)}{4} + c
+$$
 
 ## Intuition
 

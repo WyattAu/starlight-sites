@@ -110,13 +110,17 @@ halogenoalkane.
 
 (a) **Substitution (SN1 or SN2 depending on conditions):**
 
-$$\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{OH}^- \to \text{CH}_3\text{CH}(\text{OH})\text{CH}_2\text{CH}_3 + \text{Br}^-$$
+$$
+\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{OH}^- \to \text{CH}_3\text{CH}(\text{OH})\text{CH}_2\text{CH}_3 + \text{Br}^-
+$$
 
 Product: **butan-2-ol**
 
 **Elimination (E1 or E2):**
 
-$$\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{OH}^- \to \text{CH}_3\text{CH}=\text{CHCH}_3 + \text{H}_2\text{O} + \text{Br}^-$$
+$$
+\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{OH}^- \to \text{CH}_3\text{CH}=\text{CHCH}_3 + \text{H}_2\text{O} + \text{Br}^-
+$$
 
 Product: **but-2-ene** (major) and possibly **but-1-ene** (minor, via removal of a proton from the
 terminal carbon)
@@ -256,19 +260,25 @@ the activation energy for this step.
 
 **Step 1:** 1-chlorobutane to butan-1-ol (nucleophilic substitution)
 
-$$\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{Cl} + \text{NaOH}(aq) \to \text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{OH} + \text{NaCl}$$
+$$
+\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{Cl} + \text{NaOH}(aq) \to \text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{OH} + \text{NaCl}
+$$
 
 Conditions: Reflux with dilute aqueous NaOH.
 
 **Step 2:** Butan-1-ol to butanal (oxidation)
 
-$$\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{OH} \xrightarrow{[\text{O}], \text{distillation}} \text{CH}_3\text{CH}_2\text{CH}_2\text{CHO} + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{OH} \xrightarrow{[\text{O}], \text{distillation}} \text{CH}_3\text{CH}_2\text{CH}_2\text{CHO} + \text{H}_2\text{O}
+$$
 
 Conditions: Acidified potassium dichromate(VI), distillation.
 
 **Step 3:** Butanal to butanoic acid (further oxidation)
 
-$$\text{CH}_3\text{CH}_2\text{CH}_2\text{CHO} \xrightarrow{[\text{O}], \text{reflux}} \text{CH}_3\text{CH}_2\text{CH}_2\text{COOH}$$
+$$
+\text{CH}_3\text{CH}_2\text{CH}_2\text{CHO} \xrightarrow{[\text{O}], \text{reflux}} \text{CH}_3\text{CH}_2\text{CH}_2\text{COOH}
+$$
 
 Conditions: Acidified potassium dichromate(VI), reflux.
 
@@ -284,15 +294,25 @@ Conditions: Acidified potassium dichromate(VI), reflux.
 
 (c) Using the Arrhenius equation:
 
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
-$$\ln\frac{1.6 \times 10^{-4}}{4.0 \times 10^{-5}} = \frac{E_a}{8.31}\left(\frac{1}{298} - \frac{1}{308}\right)$$
+$$
+\ln\frac{1.6 \times 10^{-4}}{4.0 \times 10^{-5}} = \frac{E_a}{8.31}\left(\frac{1}{298} - \frac{1}{308}\right)
+$$
 
-$$\ln(4.0) = \frac{E_a}{8.31} \times 1.096 \times 10^{-4}$$
+$$
+\ln(4.0) = \frac{E_a}{8.31} \times 1.096 \times 10^{-4}
+$$
 
-$$1.386 = \frac{E_a \times 1.096 \times 10^{-4}}{8.31}$$
+$$
+1.386 = \frac{E_a \times 1.096 \times 10^{-4}}{8.31}
+$$
 
-$$E_a = \frac{1.386 \times 8.31}{1.096 \times 10^{-4}} = \frac{11.52}{1.096 \times 10^{-4}} = 105100\,\text{J mol}^{-1} = 105\,\text{kJ mol}^{-1}$$
+$$
+E_a = \frac{1.386 \times 8.31}{1.096 \times 10^{-4}} = \frac{11.52}{1.096 \times 10^{-4}} = 105100\,\text{J mol}^{-1} = 105\,\text{kJ mol}^{-1}
+$$
 
 ---
 
@@ -339,7 +359,9 @@ The combined effect of weaker bonds and greater polarisability makes iodoalkanes
 
 (b) Using the Arrhenius equation:
 
-$$\frac{k_{50}}{k_{25}} = e^{\frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)} = e^{\frac{85000}{8.31}\left(\frac{1}{298} - \frac{1}{323}\right)} = e^{10229 \times 2.583 \times 10^{-4}} = e^{2.642} = 14.0$$
+$$
+\frac{k_{50}}{k_{25}} = e^{\frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)} = e^{\frac{85000}{8.31}\left(\frac{1}{298} - \frac{1}{323}\right)} = e^{10229 \times 2.583 \times 10^{-4}} = e^{2.642} = 14.0
+$$
 
 The rate increases by a factor of approximately **14**. This dramatic increase shows the exponential
 dependence of rate on temperature.
@@ -393,7 +415,9 @@ the feasibility of this approach.
 
 **Step 1:** Ethanol to bromoethane (substitution)
 
-$$\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{PBr}_3\text{ or conc. H}_2\text{SO}_4\text{/NaBr}} \text{CH}_3\text{CH}_2\text{Br}$$
+$$
+\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{PBr}_3\text{ or conc. H}_2\text{SO}_4\text{/NaBr}} \text{CH}_3\text{CH}_2\text{Br}
+$$
 
 Conditions: $\text{PBr}_3$ or concentrated $\text{H}_2\text{SO}_4$ with NaBr.
 
@@ -402,15 +426,21 @@ route:
 
 **Step 1 (revised):** Ethanol to ethene (elimination)
 
-$$\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{conc. H}_2\text{SO}_4, 170\,^\circ\text{C}} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{conc. H}_2\text{SO}_4, 170\,^\circ\text{C}} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}
+$$
 
 **Step 2:** Ethene to bromoethane (addition of HBr)
 
-$$\text{CH}_2=\text{CH}_2 + \text{HBr} \to \text{CH}_3\text{CH}_2\text{Br}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{HBr} \to \text{CH}_3\text{CH}_2\text{Br}
+$$
 
 **Step 3:** Bromoethane to ethanol (substitution)
 
-$$\text{CH}_3\text{CH}_2\text{Br} + \text{NaOH}(aq) \xrightarrow{\text{reflux}} \text{CH}_3\text{CH}_2\text{OH} + \text{NaBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{Br} + \text{NaOH}(aq) \xrightarrow{\text{reflux}} \text{CH}_3\text{CH}_2\text{OH} + \text{NaBr}
+$$
 
 This doesn't get us to but-2-ene. Let me revise:
 
@@ -420,15 +450,21 @@ This doesn't get us to but-2-ene. Let me revise:
 
 **Step 1:** Ethanol to ethene (elimination)
 
-$$\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{conc. H}_2\text{SO}_4, 170\,^\circ\text{C}} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{conc. H}_2\text{SO}_4, 170\,^\circ\text{C}} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}
+$$
 
 **Step 2:** Ethene to 1,2-dibromoethane (addition)
 
-$$\text{CH}_2=\text{CH}_2 + \text{Br}_2 \to \text{CH}_2\text{BrCH}_2\text{Br}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{Br}_2 \to \text{CH}_2\text{BrCH}_2\text{Br}
+$$
 
 **Step 3:** 1,2-dibromoethane to but-2-ene (double elimination)
 
-$$\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{KOH}(\text{ethanolic}) \xrightarrow{\text{heat}} \text{CH}_3\text{CH}=\text{CHCH}_3 + 2\text{KBr} + 2\text{H}_2\text{O}$$
+$$
+\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{KOH}(\text{ethanolic}) \xrightarrow{\text{heat}} \text{CH}_3\text{CH}=\text{CHCH}_3 + 2\text{KBr} + 2\text{H}_2\text{O}
+$$
 
 Conditions: Hot, concentrated, ethanolic KOH (elimination conditions). Two successive eliminations
 occur.

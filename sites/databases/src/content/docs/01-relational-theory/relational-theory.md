@@ -223,7 +223,9 @@ Natural join, which matches on attributes with the same name.
 
 The inner join can be expressed in terms of selection and Cartesian product:
 
-$$R \bowtie_{\theta} S = \sigma_{\theta}(R \times S)$$
+$$
+R \bowtie_{\theta} S = \sigma_{\theta}(R \times S)
+$$
 
 ### Division
 
@@ -232,7 +234,9 @@ Division answers "which X values are associated with ALL Y values?" Denoted $R \
 Given `Takes(student, course)` and `RequiredCourse(course)`Find students who have taken ALL Required
 courses:
 
-$$\pi_{\mathrm{student, \mathrm{course}(\mathrm{Takes) \div \pi_{\mathrm{course}(\mathrm{RequiredCourse)$$
+$$
+\pi_{\mathrm{student, \mathrm{course}(\mathrm{Takes) \div \pi_{\mathrm{course}(\mathrm{RequiredCourse)
+$$
 
 SQL has no direct division operator. You simulate it with a double `NOT EXISTS`:
 
@@ -291,7 +295,9 @@ called the determinant.
 
 Formally:
 
-$$X \rightarrow Y \iff \forall t_1, t_2 \in R : t_1[X] = t_2[X] \Rightarrow t_1[Y] = t_2[Y]$$
+$$
+X \rightarrow Y \iff \forall t_1, t_2 \in R : t_1[X] = t_2[X] \Rightarrow t_1[Y] = t_2[Y]
+$$
 
 ### Examples
 
@@ -715,11 +721,15 @@ Relational calculus is an alternative to relational algebra for expressing queri
 
 **Tuple relational calculus:** variables range over tuples.
 
-$$\{ t \mid \exists s \in \mathrm{Employee(s[\mathrm{dept] = t[\mathrm{dept] \land s[\mathrm{salary] \gt 100000) \}$$
+$$
+\{ t \mid \exists s \in \mathrm{Employee(s[\mathrm{dept] = t[\mathrm{dept] \land s[\mathrm{salary] \gt 100000) \}
+$$
 
 **Domain relational calculus:** variables range over attribute values (domains).
 
-$$\{ \lt \mathrm{name, \mathrm{salary \gt \mid \exists d, s (\mathrm{Employee(d, \mathrm{name, s) \land s \gt 100000) \}$$
+$$
+\{ \lt \mathrm{name, \mathrm{salary \gt \mid \exists d, s (\mathrm{Employee(d, \mathrm{name, s) \land s \gt 100000) \}
+$$
 
 Codd's theorem (1972) proves that relational algebra and relational calculus are **equivalent** in
 Expressive power: every query expressible in one is expressible in the other. SQL is based on
@@ -740,7 +750,9 @@ Names that reflect the domain (e.g., `customer_id` instead of `id`).
 A decomposition of relation $R$ into $R_1$ and $R_2$ is **lossless** if $R_1 \bowtie R_2 = R$ (no
 Information is lost). A decomposition is lossless if and only if:
 
-$$R_1 \cap R_2 \rightarrow R_1 \mathrm{ or  R_1 \cap R_2 \rightarrow R_2$$
+$$
+R_1 \cap R_2 \rightarrow R_1 \mathrm{ or  R_1 \cap R_2 \rightarrow R_2
+$$
 
 That is, the common attributes form a superkey for at least one of the decomposed relations.
 
@@ -786,7 +798,9 @@ A join dependency (JD) is a generalisation of a multivalued dependency. A relati
 Join dependency $JD(R_1, R_2, \ldots, R_n)$ if $R$ is equal to the join of its projections on
 $R_1, R_2, \ldots, R_n$:
 
-$$R = R_1 \bowtie R_2 \bowtie \ldots \bowtie R_n$$
+$$
+R = R_1 \bowtie R_2 \bowtie \ldots \bowtie R_n
+$$
 
 5NF states that every non-trivial join dependency must be implied by candidate keys. When this
 Condition is violated, the relation encodes a constraint that is not captured by functional or

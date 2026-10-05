@@ -59,13 +59,21 @@ Set $u = \ln x$, $\frac{dv}{dx} = x^3$.
 
 $du = \frac{1}{x}\, dx$, $v = \frac{x^4}{4}$.
 
-$$\int x^3 \ln x\, dx = \frac{x^4}{4}\ln x - \int \frac{x^4}{4} \cdot \frac{1}{x}\, dx$$
+$$
+\int x^3 \ln x\, dx = \frac{x^4}{4}\ln x - \int \frac{x^4}{4} \cdot \frac{1}{x}\, dx
+$$
 
-$$= \frac{x^4}{4}\ln x - \frac{1}{4}\int x^3\, dx$$
+$$
+= \frac{x^4}{4}\ln x - \frac{1}{4}\int x^3\, dx
+$$
 
-$$= \frac{x^4}{4}\ln x - \frac{x^4}{16} + C$$
+$$
+= \frac{x^4}{4}\ln x - \frac{x^4}{16} + C
+$$
 
-$$= \frac{x^4}{16}(4\ln x - 1) + C$$
+$$
+= \frac{x^4}{16}(4\ln x - 1) + C
+$$
 
 **(b)** If the student chooses $u = x^3$ and $\frac{dv}{dx} = \ln x$:
 
@@ -74,19 +82,31 @@ to find).
 
 Then:
 
-$$\int x^3 \ln x\, dx = x^3(x\ln x - x) - \int 3x^2(x\ln x - x)\, dx$$
+$$
+\int x^3 \ln x\, dx = x^3(x\ln x - x) - \int 3x^2(x\ln x - x)\, dx
+$$
 
-$$= x^4\ln x - x^4 - 3\int x^3\ln x\, dx + 3\int x^3\, dx$$
+$$
+= x^4\ln x - x^4 - 3\int x^3\ln x\, dx + 3\int x^3\, dx
+$$
 
-$$= x^4\ln x - x^4 - 3\int x^3\ln x\, dx + \frac{3x^4}{4}$$
+$$
+= x^4\ln x - x^4 - 3\int x^3\ln x\, dx + \frac{3x^4}{4}
+$$
 
 This produces an equation involving the original integral:
 
-$$\int x^3\ln x\, dx = x^4\ln x - \frac{x^4}{4} - 3\int x^3\ln x\, dx$$
+$$
+\int x^3\ln x\, dx = x^4\ln x - \frac{x^4}{4} - 3\int x^3\ln x\, dx
+$$
 
-$$4\int x^3\ln x\, dx = x^4\ln x - \frac{x^4}{4}$$
+$$
+4\int x^3\ln x\, dx = x^4\ln x - \frac{x^4}{4}
+$$
 
-$$\int x^3\ln x\, dx = \frac{x^4}{4}\ln x - \frac{x^4}{16}$$
+$$
+\int x^3\ln x\, dx = \frac{x^4}{4}\ln x - \frac{x^4}{16}
+$$
 
 This eventually works but requires more steps and an additional integration by parts just to find
 $v$. The LIATE choice is more efficient.
@@ -97,7 +117,9 @@ At $x = e$: $\frac{e^4}{16}(4 - 1) = \frac{3e^4}{16}$
 
 At $x = 1$: $\frac{1}{16}(0 - 1) = -\frac{1}{16}$
 
-$$= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}$$
+$$
+= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}
+$$
 
 ---
 
@@ -137,17 +159,25 @@ versus when back-substitution rescues the answer, and lower-limit negligence.]
 
 When $x = 0$: $u = 1$. When $x = 1$: $u = 2$.
 
-$$\int_0^1 x\sqrt{1+x^2}\, dx = \int_1^2 \sqrt{u} \cdot \frac{1}{2}\, du = \frac{1}{2}\int_1^2 u^{1/2}\, du$$
+$$
+\int_0^1 x\sqrt{1+x^2}\, dx = \int_1^2 \sqrt{u} \cdot \frac{1}{2}\, du = \frac{1}{2}\int_1^2 u^{1/2}\, du
+$$
 
-$$= \frac{1}{2}\left[\frac{2}{3}u^{3/2}\right]_1^2 = \frac{1}{3}(2^{3/2} - 1) = \frac{1}{3}(2\sqrt{2} - 1)$$
+$$
+= \frac{1}{2}\left[\frac{2}{3}u^{3/2}\right]_1^2 = \frac{1}{3}(2^{3/2} - 1) = \frac{1}{3}(2\sqrt{2} - 1)
+$$
 
 **(b)** The indefinite integral (back-substituted) is:
 
-$$\frac{1}{3}(1+x^2)^{3/2} + C$$
+$$
+\frac{1}{3}(1+x^2)^{3/2} + C
+$$
 
 Evaluating from $x = 0$ to $x = 1$:
 
-$$\frac{1}{3}(2^{3/2}) - \frac{1}{3}(1^{3/2}) = \frac{2\sqrt{2} - 1}{3}$$
+$$
+\frac{1}{3}(2^{3/2}) - \frac{1}{3}(1^{3/2}) = \frac{2\sqrt{2} - 1}{3}
+$$
 
 This gives the same answer as part (a). Back-substitution always works because it restores the
 original variable, and the Fundamental Theorem of Calculus applies regardless of which variable is
@@ -158,7 +188,9 @@ original $x$-limits (e.g., evaluating $\frac{1}{3}u^{3/2}$ from $u = 0$ to $u = 
 
 Third student"s answer: $\frac{\pi}{2} \approx 1.5708$.
 
-$$\text{Percentage error} = \frac{\lvert\frac{\pi}{2} - (\frac{\pi}{2} - 1)\rvert}{\lvert\frac{\pi}{2} - 1\rvert} \times 100\% = \frac{1}{\frac{\pi}{2} - 1} \times 100\% \approx 175.2\%$$
+$$
+\text{Percentage error} = \frac{\lvert\frac{\pi}{2} - (\frac{\pi}{2} - 1)\rvert}{\lvert\frac{\pi}{2} - 1\rvert} \times 100\% = \frac{1}{\frac{\pi}{2} - 1} \times 100\% \approx 175.2\%
+$$
 
 The third student's answer is $175.2\%$ too large, a catastrophic error from omitting a single
 term.
@@ -208,23 +240,37 @@ The correct answer is $-2\ln 2$As computed in part (a).
 
 Since the integral of an odd function over $[-a, a]$ is zero:
 
-$$\int_{-3}^{3} \frac{x}{x^2+1}\, dx = 0$$
+$$
+\int_{-3}^{3} \frac{x}{x^2+1}\, dx = 0
+$$
 
 Verification: $\int \frac{x}{x^2+1}\, dx = \frac{1}{2}\ln(x^2+1) + C$. Evaluating from $-3$ to $3$:
 
-$$\frac{1}{2}(\ln 10 - \ln 10) = 0$$
+$$
+\frac{1}{2}(\ln 10 - \ln 10) = 0
+$$
 
 **(d)** $\int_{-1}^{1} \frac{1}{x}\, dx$ has a singularity at $x = 0$. We must split:
 
-$$\int_{-1}^{1} \frac{1}{x}\, dx = \lim_{a \to 0^-}\int_{-1}^{a}\frac{1}{x}\, dx + \lim_{b \to 0^+}\int_{b}^{1}\frac{1}{x}\, dx$$
+$$
+\int_{-1}^{1} \frac{1}{x}\, dx = \lim_{a \to 0^-}\int_{-1}^{a}\frac{1}{x}\, dx + \lim_{b \to 0^+}\int_{b}^{1}\frac{1}{x}\, dx
+$$
 
-$$= \lim_{a \to 0^-}[\ln\lvert x \rvert]_{-1}^{a} + \lim_{b \to 0^+}[\ln\lvert x \rvert]_{b}^{1}$$
+$$
+= \lim_{a \to 0^-}[\ln\lvert x \rvert]_{-1}^{a} + \lim_{b \to 0^+}[\ln\lvert x \rvert]_{b}^{1}
+$$
 
-$$= \lim_{a \to 0^-}(\ln\lvert a \rvert - \ln 1) + \lim_{b \to 0^+}(\ln 1 - \ln\lvert b \rvert)$$
+$$
+= \lim_{a \to 0^-}(\ln\lvert a \rvert - \ln 1) + \lim_{b \to 0^+}(\ln 1 - \ln\lvert b \rvert)
+$$
 
-$$= \lim_{a \to 0^-}\ln\lvert a \rvert + \lim_{b \to 0^+}(-\ln\lvert b \rvert)$$
+$$
+= \lim_{a \to 0^-}\ln\lvert a \rvert + \lim_{b \to 0^+}(-\ln\lvert b \rvert)
+$$
 
-$$= -\infty + \infty$$
+$$
+= -\infty + \infty
+$$
 
 This is an indeterminate form. The integral does not converge; it is an improper integral that
 diverges. The answer is that $\int_{-1}^{1} \frac{1}{x}\, dx$ does not exist.
@@ -266,18 +312,26 @@ components).]
 
 **(a)** Displacement $= \int_0^3 \mathbf{v}\, dt$.
 
-$$\int_0^3 (t^2 - 2t)\, dt = \left[\frac{t^3}{3} - t^2\right]_0^3 = 9 - 9 - 0 = 0$$
+$$
+\int_0^3 (t^2 - 2t)\, dt = \left[\frac{t^3}{3} - t^2\right]_0^3 = 9 - 9 - 0 = 0
+$$
 
-$$\int_0^3 2t\, dt = [t^2]_0^3 = 9$$
+$$
+\int_0^3 2t\, dt = [t^2]_0^3 = 9
+$$
 
 Displacement $= 0\mathbf{i} + 9\mathbf{j} = 9\mathbf{j}$ metres.
 
 **(b)** Distance travelled
 $= \int_0^3 \lvert\mathbf{v}\rvert\, dt = \int_0^3 \sqrt{(t^2-2t)^2 + (2t)^2}\, dt$
 
-$$= \int_0^3 \sqrt{t^4 - 4t^3 + 4t^2 + 4t^2}\, dt = \int_0^3 \sqrt{t^4 - 4t^3 + 8t^2}\, dt$$
+$$
+= \int_0^3 \sqrt{t^4 - 4t^3 + 4t^2 + 4t^2}\, dt = \int_0^3 \sqrt{t^4 - 4t^3 + 8t^2}\, dt
+$$
 
-$$= \int_0^3 t\sqrt{t^2 - 4t + 8}\, dt$$
+$$
+= \int_0^3 t\sqrt{t^2 - 4t + 8}\, dt
+$$
 
 Completing the square: $t^2 - 4t + 8 = (t-2)^2 + 4$.
 
@@ -285,32 +339,44 @@ Use the substitution $u = t^2 - 4t + 8$, $du = (2t - 4)\, dt$.
 
 Then $t\, dt = \frac{du + 4\, dt}{2}$Which is not directly useful. Instead, write:
 
-$$\int_0^3 t\sqrt{(t-2)^2 + 4}\, dt$$
+$$
+\int_0^3 t\sqrt{(t-2)^2 + 4}\, dt
+$$
 
 Let $w = t - 2$ So $t = w + 2$, $dt = dw$. When $t = 0$: $w = -2$. When $t = 3$: $w = 1$.
 
-$$= \int_{-2}^{1} (w+2)\sqrt{w^2 + 4}\, dw = \int_{-2}^{1} w\sqrt{w^2+4}\, dw + 2\int_{-2}^{1}\sqrt{w^2+4}\, dw$$
+$$
+= \int_{-2}^{1} (w+2)\sqrt{w^2 + 4}\, dw = \int_{-2}^{1} w\sqrt{w^2+4}\, dw + 2\int_{-2}^{1}\sqrt{w^2+4}\, dw
+$$
 
 First integral: substitute $u = w^2 + 4$, $du = 2w\, dw$.
 
-$$\int_{-2}^{1} w\sqrt{w^2+4}\, dw = \frac{1}{2}\int_{8}^{5}\sqrt{u}\, du = \frac{1}{2}\left[\frac{2}{3}u^{3/2}\right]_8^5 = \frac{1}{3}(5\sqrt{5} - 16\sqrt{2})$$
+$$
+\int_{-2}^{1} w\sqrt{w^2+4}\, dw = \frac{1}{2}\int_{8}^{5}\sqrt{u}\, du = \frac{1}{2}\left[\frac{2}{3}u^{3/2}\right]_8^5 = \frac{1}{3}(5\sqrt{5} - 16\sqrt{2})
+$$
 
 Second integral: $\int\sqrt{w^2 + 4}\, dw$. Using the standard formula
 $\int\sqrt{w^2+a^2}\, dw = \frac{w}{2}\sqrt{w^2+a^2} + \frac{a^2}{2}\ln(w+\sqrt{w^2+a^2}) + C$ with
 $a = 2$:
 
-$$= \left[\frac{w}{2}\sqrt{w^2+4} + 2\ln(w + \sqrt{w^2+4})\right]_{-2}^{1}$$
+$$
+= \left[\frac{w}{2}\sqrt{w^2+4} + 2\ln(w + \sqrt{w^2+4})\right]_{-2}^{1}
+$$
 
 At $w = 1$: $\frac{1}{2}\sqrt{5} + 2\ln(1+\sqrt{5})$
 
 At $w = -2$: $0 + 2\ln(-2+\sqrt{8}) = 2\ln(2\sqrt{2}-2)$
 
-$$2\left[\frac{\sqrt{5}}{2} + 2\ln(1+\sqrt{5}) - 2\ln(2\sqrt{2}-2)\right] = \sqrt{5} + 4\ln\!\left(\frac{1+\sqrt{5}}{2\sqrt{2}-2}\right)$$
+$$
+2\left[\frac{\sqrt{5}}{2} + 2\ln(1+\sqrt{5}) - 2\ln(2\sqrt{2}-2)\right] = \sqrt{5} + 4\ln\!\left(\frac{1+\sqrt{5}}{2\sqrt{2}-2}\right)
+$$
 
 Total distance
 $= \frac{1}{3}(5\sqrt{5} - 16\sqrt{2}) + \sqrt{5} + 4\ln\!\left(\frac{1+\sqrt{5}}{2\sqrt{2}-2}\right)$
 
-$$= \frac{8\sqrt{5}}{3} - \frac{16\sqrt{2}}{3} + 4\ln\!\left(\frac{1+\sqrt{5}}{2\sqrt{2}-2}\right)$$
+$$
+= \frac{8\sqrt{5}}{3} - \frac{16\sqrt{2}}{3} + 4\ln\!\left(\frac{1+\sqrt{5}}{2\sqrt{2}-2}\right)
+$$
 
 ---
 
@@ -345,7 +411,9 @@ reduction formula.]
 
 **(a)** Using $\sin^2 x = \frac{1 - \cos 2x}{2}$:
 
-$$\int \sin^2 x\, dx = \int \frac{1 - \cos 2x}{2}\, dx = \frac{1}{2}x - \frac{1}{4}\sin 2x + C$$
+$$
+\int \sin^2 x\, dx = \int \frac{1 - \cos 2x}{2}\, dx = \frac{1}{2}x - \frac{1}{4}\sin 2x + C
+$$
 
 **(b)**
 $\int_0^{\pi} \sin^2 x\, dx = \left[\frac{1}{2}x - \frac{1}{4}\sin 2x\right]_0^{\pi} = \frac{\pi}{2} - 0 = \frac{\pi}{2}$.
@@ -358,15 +426,23 @@ related to the fact that $\sin^2 x$ and $\cos^2 x$ each average to $\frac{1}{2}$
 **(c)**
 $\sin^2 x\cos^2 x = \frac{1}{4}\sin^2 2x = \frac{1}{4} \cdot \frac{1 - \cos 4x}{2} = \frac{1}{8}(1 - \cos 4x)$.
 
-$$\int_0^{\frac{\pi}{4}} \sin^2 x\cos^2 x\, dx = \int_0^{\frac{\pi}{4}} \frac{1}{8}(1 - \cos 4x)\, dx = \frac{1}{8}\left[x - \frac{1}{4}\sin 4x\right]_0^{\frac{\pi}{4}}$$
+$$
+\int_0^{\frac{\pi}{4}} \sin^2 x\cos^2 x\, dx = \int_0^{\frac{\pi}{4}} \frac{1}{8}(1 - \cos 4x)\, dx = \frac{1}{8}\left[x - \frac{1}{4}\sin 4x\right]_0^{\frac{\pi}{4}}
+$$
 
-$$= \frac{1}{8}\left(\frac{\pi}{4} - 0\right) = \frac{\pi}{32}$$
+$$
+= \frac{1}{8}\left(\frac{\pi}{4} - 0\right) = \frac{\pi}{32}
+$$
 
 **(d)** Applying Wallis' reduction formula repeatedly:
 
-$$\int_0^{\frac{\pi}{2}} \sin^6 x\, dx = \frac{5}{6}\int_0^{\frac{\pi}{2}} \sin^4 x\, dx = \frac{5}{6} \cdot \frac{3}{4}\int_0^{\frac{\pi}{2}} \sin^2 x\, dx = \frac{5}{6} \cdot \frac{3}{4} \cdot \frac{1}{2}\int_0^{\frac{\pi}{2}} 1\, dx$$
+$$
+\int_0^{\frac{\pi}{2}} \sin^6 x\, dx = \frac{5}{6}\int_0^{\frac{\pi}{2}} \sin^4 x\, dx = \frac{5}{6} \cdot \frac{3}{4}\int_0^{\frac{\pi}{2}} \sin^2 x\, dx = \frac{5}{6} \cdot \frac{3}{4} \cdot \frac{1}{2}\int_0^{\frac{\pi}{2}} 1\, dx
+$$
 
-$$= \frac{5}{6} \cdot \frac{3}{4} \cdot \frac{1}{2} \cdot \frac{\pi}{2} = \frac{15\pi}{96} = \frac{5\pi}{32}$$
+$$
+= \frac{5}{6} \cdot \frac{3}{4} \cdot \frac{1}{2} \cdot \frac{\pi}{2} = \frac{15\pi}{96} = \frac{5\pi}{32}
+$$
 
 ---
 
@@ -405,23 +481,35 @@ of integrals using known results.]
 
 By the product rule:
 
-$$F'(x) = \frac{2}{3}\left[(x+1)^{1/2} \cdot 1 + (x-2) \cdot \frac{1}{2}(x+1)^{-1/2}\right]$$
+$$
+F'(x) = \frac{2}{3}\left[(x+1)^{1/2} \cdot 1 + (x-2) \cdot \frac{1}{2}(x+1)^{-1/2}\right]
+$$
 
-$$= \frac{2}{3}\left[(x+1)^{1/2} + \frac{x-2}{2(x+1)^{1/2}}\right]$$
+$$
+= \frac{2}{3}\left[(x+1)^{1/2} + \frac{x-2}{2(x+1)^{1/2}}\right]
+$$
 
-$$= \frac{2}{3} \cdot \frac{2(x+1) + (x-2)}{2(x+1)^{1/2}} = \frac{2}{3} \cdot \frac{3x}{2(x+1)^{1/2}} = \frac{x}{(x+1)^{1/2}} = \frac{x}{\sqrt{x+1}}$$
+$$
+= \frac{2}{3} \cdot \frac{2(x+1) + (x-2)}{2(x+1)^{1/2}} = \frac{2}{3} \cdot \frac{3x}{2(x+1)^{1/2}} = \frac{x}{(x+1)^{1/2}} = \frac{x}{\sqrt{x+1}}
+$$
 
 Confirmed.
 
 **(b)** $u = \sqrt{x+1}$ So $u^2 = x + 1$Giving $x = u^2 - 1$ and $dx = 2u\, du$.
 
-$$\int \frac{x}{\sqrt{x+1}}\, dx = \int \frac{u^2-1}{u} \cdot 2u\, du = 2\int(u^2 - 1)\, du$$
+$$
+\int \frac{x}{\sqrt{x+1}}\, dx = \int \frac{u^2-1}{u} \cdot 2u\, du = 2\int(u^2 - 1)\, du
+$$
 
-$$= 2\left(\frac{u^3}{3} - u\right) + C = \frac{2u^3}{3} - 2u + C$$
+$$
+= 2\left(\frac{u^3}{3} - u\right) + C = \frac{2u^3}{3} - 2u + C
+$$
 
 Substituting back $u = \sqrt{x+1}$:
 
-$$= \frac{2}{3}(x+1)^{3/2} - 2(x+1)^{1/2} + C = \frac{2}{3}(x+1)^{1/2}[(x+1) - 3] + C = \frac{2}{3}(x-2)\sqrt{x+1} + C$$
+$$
+= \frac{2}{3}(x+1)^{3/2} - 2(x+1)^{1/2} + C = \frac{2}{3}(x+1)^{1/2}[(x+1) - 3] + C = \frac{2}{3}(x-2)\sqrt{x+1} + C
+$$
 
 Confirmed.
 
@@ -432,7 +520,9 @@ At $x = 3$: $\frac{2}{3}(1)(2) = \frac{4}{3}$
 
 At $x = 0$: $\frac{2}{3}(-2)(1) = -\frac{4}{3}$
 
-$$= \frac{4}{3} - \left(-\frac{4}{3}\right) = \frac{8}{3}$$
+$$
+= \frac{4}{3} - \left(-\frac{4}{3}\right) = \frac{8}{3}
+$$
 
 **(d)** Verification:
 $\frac{d}{dx}[2(x+1)^{1/2}] = 2 \cdot \frac{1}{2}(x+1)^{-1/2} = \frac{1}{\sqrt{x+1}}$.

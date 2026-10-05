@@ -54,7 +54,9 @@ Home has absolute advantage in Cloth ($2 \lt 6$). Foreign has absolute advantage
 
 **Opportunity costs:**
 
-$$\mathrm{OC of Cloth in terms of Wine:}$$
+$$
+\mathrm{OC of Cloth in terms of Wine:}
+$$
 
 - Home: $\frac{a_C}{a_W} = \frac{2}{4} = 0.5$ units of Wine per unit of Cloth
 - Foreign: $\frac{a_C}{a_W} = \frac{6}{3} = 2.0$ units of Wine per unit of Cloth
@@ -62,7 +64,9 @@ $$\mathrm{OC of Cloth in terms of Wine:}$$
 Home has a **comparative advantage** in Cloth (lower OC: 0.5 &lt; 2.0). Foreign has a comparative
 Advantage in Wine.
 
-$$\mathrm{OC of Wine in terms of Cloth:}$$
+$$
+\mathrm{OC of Wine in terms of Cloth:}
+$$
 
 - Home: $\frac{a_W}{a_C} = \frac{4}{2} = 2$ units of Cloth per unit of Wine
 - Foreign: $\frac{a_W}{a_C} = \frac{3}{6} = 0.5$ units of Cloth per unit of Wine
@@ -86,7 +90,9 @@ _Specialisation:_
 **World output increases**: 400C → 600C (+200) and 350W → 400W (+50). Both countries gain if they
 Trade at an exchange rate between the two opportunity cost ratios:
 
-$$0.5 \mathrm{ W/C} \lt \mathrm{World price } p \lt 2.0 \mathrm{ W/C}$$
+$$
+0.5 \mathrm{ W/C} \lt \mathrm{World price } p \lt 2.0 \mathrm{ W/C}
+$$
 
 For example, at $p = 1$ (1 unit of Wine for 1 unit of Cloth):
 
@@ -122,7 +128,9 @@ Country exports labour-intensive goods.
 
 The **terms of trade (ToT)** measure the ratio of a country's export prices to its import prices:
 
-$$\mathrm{ToT} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100$$
+$$
+\mathrm{ToT} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100
+$$
 
 ### 2.2 Interpretation
 
@@ -141,7 +149,9 @@ Base year (2020): Export price index = 100, Import price index = 100. ToT = 100.
 
 2024: Export prices rose by 15%, Import prices rose by 25%.
 
-$$\mathrm{ToT}_{2024} = \frac{115}{125} \times 100 = 92$$
+$$
+\mathrm{ToT}_{2024} = \frac{115}{125} \times 100 = 92
+$$
 
 Terms of trade deteriorated by 8%. The country needs to export 8.7% more (115/105 = 1.087) just to
 Buy the same quantity of imports as in 2020.
@@ -176,7 +186,9 @@ intervention.
 
 The **exchange rate** is the price of one currency in terms of another.
 
-$$\mathrm{Spot rate: } e = \frac{\mathrm{units of domestic currency}}{\mathrm{one unit of foreign currency}}$$
+$$
+\mathrm{Spot rate: } e = \frac{\mathrm{units of domestic currency}}{\mathrm{one unit of foreign currency}}
+$$
 
 A **depreciation** of the pound means $e$ rises (more pounds per dollar, the pound is weaker). An
 **appreciation** means $e$ falls (fewer pounds per dollar, the pound is stronger).
@@ -187,9 +199,13 @@ A **depreciation** of the pound means $e$ rises (more pounds per dollar, the pou
 
 The central bank commits to buying and selling currency to maintain $e = \bar{e}$.
 
-$$\mathrm{If } e \gt \bar{e} \mathrm{ (depreciation pressure): central bank sells foreign reserves, buys domestic currency}$$
+$$
+\mathrm{If } e \gt \bar{e} \mathrm{ (depreciation pressure): central bank sells foreign reserves, buys domestic currency}
+$$
 
-$$\mathrm{If } e \lt \bar{e} \mathrm{ (appreciation pressure): central bank buys foreign reserves, sells domestic currency}$$
+$$
+\mathrm{If } e \lt \bar{e} \mathrm{ (appreciation pressure): central bank buys foreign reserves, sells domestic currency}
+$$
 
 Advantages: certainty for trade and investment, discipline on monetary policy (cannot inflate away
 The peg), reduces speculative volatility.
@@ -202,7 +218,9 @@ Wednesday).
 
 The exchange rate is determined by market forces (supply and demand for the currency).
 
-$$e^* : \mathrm{Supply of } £ = \mathrm{Demand for } £$$
+$$
+e^* : \mathrm{Supply of } £ = \mathrm{Demand for } £
+$$
 
 Advantages: automatic adjustment to BoP imbalances (deficit → depreciation → exports cheaper,
 Imports dearer → deficit narrows), independent monetary policy, no need for large reserves.
@@ -215,11 +233,15 @@ Disadvantages: volatility creates uncertainty for trade and investment, may over
 The central bank allows the market to set the exchange rate but intervenes occasionally to smooth
 Excessive fluctuations or achieve policy objectives.
 
-$$\bar{e}_{\min} \lt e \lt \bar{e}_{\max}$$
+$$
+\bar{e}_{\min} \lt e \lt \bar{e}_{\max}
+$$
 
 ### 3.3 Determinants of Floating Exchange Rates
 
-$$e = f(P, r, Y, Y^*, \mathrm{expectations, speculation})$$
+$$
+e = f(P, r, Y, Y^*, \mathrm{expectations, speculation})
+$$
 
 | Factor                   | Mechanism                                                                                                                                |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -235,11 +257,15 @@ $$e = f(P, r, Y, Y^*, \mathrm{expectations, speculation})$$
 **Absolute PPP**: the exchange rate should equalise the price of identical baskets of goods across
 Countries:
 
-$$e = \frac{P_{domestic}}{P_{foreign}}$$
+$$
+e = \frac{P_{domestic}}{P_{foreign}}
+$$
 
 **Relative PPP**: the exchange rate should adjust to reflect inflation differentials:
 
-$$\frac{\Delta e}{e} \approx \pi_{domestic} - \pi_{foreign}$$
+$$
+\frac{\Delta e}{e} \approx \pi_{domestic} - \pi_{foreign}
+$$
 
 PPP holds approximately in the long run but fails in the short run due to: trade barriers,
 Non-traded goods, price stickiness, and speculation.
@@ -254,7 +280,9 @@ Current account.
 **Proposition: A depreciation improves the current account if and only if the sum of the price
 Elasticities of demand for exports and imports (in absolute value) exceeds unity.**
 
-$$|E_X| + |E_M| \gt 1$$
+$$
+|E_X| + |E_M| \gt 1
+$$
 
 Where:
 
@@ -263,7 +291,9 @@ Where:
 
 **Proof sketch.** The current account balance (in domestic currency):
 
-$$CA = P_X \cdot X - e \cdot P_M^* \cdot M$$
+$$
+CA = P_X \cdot X - e \cdot P_M^* \cdot M
+$$
 
 Where $X$ = export volume, $M$ = import volume, $P_X$ = domestic currency price of exports, $P_M^*$
 = foreign currency price of imports, $e$ = exchange rate.
@@ -272,7 +302,9 @@ A depreciation ($e$ rises) makes exports cheaper for foreigners ($P_X/e$ falls) 
 Expensive for domestic consumers ($e \cdot P_M^*$ rises). The effect on $CA$ depends on whether the
 Volume responses are large enough to outweigh the price changes:
 
-$$\Delta CA \approx \left(\frac{E_X \cdot P_X \cdot X}{P_X \cdot X + e \cdot P_M^* \cdot M}\right) \times \left(|E_X| + |E_M| - 1\right) \times \frac{\Delta e}{e}$$
+$$
+\Delta CA \approx \left(\frac{E_X \cdot P_X \cdot X}{P_X \cdot X + e \cdot P_M^* \cdot M}\right) \times \left(|E_X| + |E_M| - 1\right) \times \frac{\Delta e}{e}
+$$
 
 If $|E_X| + |E_M| \gt 1$: the volume effect dominates → $CA$ improves. If $|E_X| + |E_M| \lt 1$: The
 price effect dominates → $CA$ worsens (the country spends more on imports because they are more
@@ -289,7 +321,9 @@ Production → $|E_X| + |E_M| \gt 1$ → the current account **improves**.
 
 The path of the current account traces a **J-shape**:
 
-$$CA \mathrm{ falls initially, then rises above the starting level}$$
+$$
+CA \mathrm{ falls initially, then rises above the starting level}
+$$
 
 :::tip
 (Marshall-Lerner, CA Improves). Draw the J-curve diagram. State the Marshall-Lerner condition
@@ -450,7 +484,9 @@ Imports from a member country (due to preferential tariffs). This reduces effici
 Consumer surplus falls by more than producer surplus and government revenue increase → **net welfare
 Loss** (deadweight loss from inefficient domestic production and reduced consumption).
 
-$$\mathrm{DWL} = \frac{1}{2} \times (P_w + t - P_w) \times (Q_d^{domestic} - Q_s^{domestic}) = \frac{1}{2} t \times \Delta Q$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times (P_w + t - P_w) \times (Q_d^{domestic} - Q_s^{domestic}) = \frac{1}{2} t \times \Delta Q
+$$
 
 ## 8. Problem Set
 
@@ -583,11 +619,15 @@ Comparative advantage: leaving the EU's single market means the UK faces tariffs
 The Marshall-Lerner condition states that a depreciation of the exchange rate improves the current
 account balance if and only if:
 
-$$|\text{PED}_X| + |\text{PED}_M| > 1$$
+$$
+|\text{PED}_X| + |\text{PED}_M| > 1
+$$
 
 **Proof.** The current account balance in domestic currency is:
 
-$$CA = P_X \cdot X(P_X^*) - P_M^* \cdot e \cdot M$$
+$$
+CA = P_X \cdot X(P_X^*) - P_M^* \cdot e \cdot M
+$$
 
 Where $P_X$ is the export price in domestic currency, $X$ is export volume, $P_M^*$ is the import
 price in foreign currency, $e$ is the exchange rate (domestic currency per foreign currency), and
@@ -601,11 +641,15 @@ Define $\epsilon_X = -\frac{\Delta X/X}{\Delta e/e}$ (elasticity of export volum
 exchange rate) and $\epsilon_M = -\frac{\Delta M/M}{\Delta e/e}$ (elasticity of import
 volume to exchange rate). The current account improves when:
 
-$$\epsilon_X \cdot \frac{P_X \cdot X}{CA} + \epsilon_M \cdot \frac{P_M^* \cdot e \cdot M}{CA} > \frac{P_M^* \cdot e \cdot M - P_X \cdot X}{CA}$$
+$$
+\epsilon_X \cdot \frac{P_X \cdot X}{CA} + \epsilon_M \cdot \frac{P_M^* \cdot e \cdot M}{CA} > \frac{P_M^* \cdot e \cdot M - P_X \cdot X}{CA}
+$$
 
 If trade is initially balanced ($P_X \cdot X = P_M^* \cdot e \cdot M$), this simplifies to:
 
-$$\epsilon_X + \epsilon_M > 1$$
+$$
+\epsilon_X + \epsilon_M > 1
+$$
 
 Since $\epsilon_X = |\text{PED}_X|$ and $\epsilon_M = |\text{PED}_M|$The condition is
 $|\text{PED}_X| + |\text{PED}_M| > 1$. $\blacksquare$
@@ -644,7 +688,9 @@ $= 1.0$.
 
 The **terms of trade (ToT)** measure the ratio of export prices to import prices:
 
-$$\text{ToT} = \frac{P_X}{P_M} \times 100$$
+$$
+\text{ToT} = \frac{P_X}{P_M} \times 100
+$$
 
 Where $P_X$ is the export price index and $P_M$ is the import price index.
 
@@ -694,14 +740,18 @@ This is trade DIVERSION (GBP 200 cost per tonne).
 
 **Purchasing Power Parity (PPP):**
 
-$$e = \frac{P_{domestic}}{P_{foreign}}$$
+$$
+e = \frac{P_{domestic}}{P_{foreign}}
+$$
 
 **Absolute PPP**: the exchange rate should equal the ratio of domestic to foreign price levels. A
 Big Mac should cost the same everywhere (the "Big Mac index" published by The Economist).
 
 **Relative PPP**: the exchange rate should adjust to reflect inflation differentials:
 
-$$\%\Delta e \approx \pi_{domestic} - \pi_{foreign}$$
+$$
+\%\Delta e \approx \pi_{domestic} - \pi_{foreign}
+$$
 
 If UK inflation is 5% and US inflation is 3%, the pound should depreciate by approximately 2%
 against the dollar.

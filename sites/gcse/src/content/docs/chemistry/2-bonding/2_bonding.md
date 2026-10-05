@@ -41,7 +41,9 @@ The ionic compound together.
 **Example: Sodium chloride (NaCl)**
 
 $$\mathrm{Na \to \mathrm{Na^+ + e^-$$ $$\mathrm{Cl + e^- \to \mathrm{Cl^-$$
-$$\mathrm{Na^+ + \mathrm{Cl^- \to \mathrm{NaCl$$
+$$
+\mathrm{Na^+ + \mathrm{Cl^- \to \mathrm{NaCl
+$$
 
 Sodium (Group 1) loses one electron to achieve a full outer shell (like neon). Chlorine (Group 7)
 Gains one electron to achieve a full outer shell (like argon).
@@ -82,21 +84,27 @@ The receiving atom.
 Magnesium ($2, 8, 2$) loses 2 electrons to form Mg$^{2+}$. Oxygen ($2, 6$) gains 2 electrons to form
 O$^{2-}$.
 
-$$\mathrm{Mg + \mathrm{O \to \mathrm{Mg^{2+} + \mathrm{O^{2-}$$
+$$
+\mathrm{Mg + \mathrm{O \to \mathrm{Mg^{2+} + \mathrm{O^{2-}
+$$
 
 **Example: Calcium chloride (CaCl$_2$)**
 
 Calcium ($2, 8, 8, 2$) loses 2 electrons. Each chlorine ($2, 8, 7$) gains 1 electron. Two chlorine
 Atoms are needed.
 
-$$\mathrm{Ca + 2\mathrm{Cl \to \mathrm{Ca^{2+} + 2\mathrm{Cl^-$$
+$$
+\mathrm{Ca + 2\mathrm{Cl \to \mathrm{Ca^{2+} + 2\mathrm{Cl^-
+$$
 
 **Example: Sodium oxide (Na$_2$O)**
 
 Each sodium ($2, 8, 1$) loses 1 electron. Oxygen ($2, 6$) gains 2 electrons. Two sodium atoms are
 Needed.
 
-$$2\mathrm{Na + \mathrm{O \to 2\mathrm{Na^+ + \mathrm{O^{2-}$$
+$$
+2\mathrm{Na + \mathrm{O \to 2\mathrm{Na^+ + \mathrm{O^{2-}
+$$
 
 **Example: Aluminium oxide (Al$_2$O$_3$)**
 
@@ -104,7 +112,9 @@ Each aluminium ($2, 8, 3$) loses 3 electrons to form Al$^{3+}$. Each oxygen gain
 Form O$^{2-}$. The lowest common multiple of 3 and 2 is 6, so we need two aluminium atoms and three
 Oxygen atoms.
 
-$$2\mathrm{Al + 3\mathrm{O \to 2\mathrm{Al^{3+} + 3\mathrm{O^{2-}$$
+$$
+2\mathrm{Al + 3\mathrm{O \to 2\mathrm{Al^{3+} + 3\mathrm{O^{2-}
+$$
 
 **Worked Example.** Draw the dot and cross diagram for calcium fluoride (CaF$_2$).
 
@@ -176,7 +186,9 @@ Needed: Ca(NO$_3$)$_2$Not CaNO$\_3$2.
 The melting point of an ionic compound depends on the strength of the electrostatic forces between
 Ions, given by Coulomb"s law:
 
-$$F \propto \frac{q_1 \cdot q_2}{r^2}$$
+$$
+F \propto \frac{q_1 \cdot q_2}{r^2}
+$$
 
 Where $q_1$ and $q_2$ are the ion charges and $r$ is the distance between ion centres. For compounds
 With higher charges (e.g. MgO with $2+$ and $2-$) and smaller ions (shorter $r$), the forces are
@@ -212,7 +224,9 @@ Together.
 
 **Hydrogen (H$_2$):** Each hydrogen atom has 1 electron. They share one pair.
 
-$$\mathrm{H \cdot + \cdot \mathrm{H \to \mathrm{H - \mathrm{H$$
+$$
+\mathrm{H \cdot + \cdot \mathrm{H \to \mathrm{H - \mathrm{H
+$$
 
 **Water (H$_2$O):** Oxygen has 6 outer electrons and needs 2 more. Each hydrogen has 1 electron.
 
@@ -570,7 +584,9 @@ Escape the liquid entirely and become a gas.
 
 The average kinetic energy of gas particles is directly proportional to the absolute temperature:
 
-$$E_k = \frac{3}{2}k_BT$$
+$$
+E_k = \frac{3}{2}k_BT
+$$
 
 Where $k_B$ is the Boltzmann constant and $T$ is the absolute temperature in Kelvin. This
 Relationship explains why increasing temperature causes particles to move faster, collide more
@@ -659,9 +675,13 @@ The nanoparticle has a surface area to volume ratio about $10^7$ times larger.
 
 For a cube of side length $s$:
 
-$$\mathrm{Surface area = 6s^2, \quad \mathrm{Volume = s^3$$
+$$
+\mathrm{Surface area = 6s^2, \quad \mathrm{Volume = s^3
+$$
 
-$$\frac{\mathrm{Surface area}{\mathrm{Volume} = \frac{6s^2}{s^3} = \frac{6}{s}$$
+$$
+\frac{\mathrm{Surface area}{\mathrm{Volume} = \frac{6s^2}{s^3} = \frac{6}{s}
+$$
 
 The ratio is inversely proportional to the side length. As $s$ decreases, the ratio increases. This
 Is why nanoparticles have such large surface area to volume ratios: their small size means a large

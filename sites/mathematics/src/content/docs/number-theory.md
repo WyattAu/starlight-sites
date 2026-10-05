@@ -93,11 +93,15 @@ _Proof._ The set $D = \\{d \in \mathbb{N} : d \mid a \mathrm{\ and\ } d \mid b\\
 
 **Theorem 1.4 (GCD--LCM Identity).** For all positive integers $a$ and $b$:
 
-$$\gcd(a, b) \cdot \mathrm{lcm}(a, b) = ab$$
+$$
+\gcd(a, b) \cdot \mathrm{lcm}(a, b) = ab
+$$
 
 _Proof._ Write $a = \prod_{i=1}^k p_i^{\alpha_i}$ and $b = \prod_{i=1}^k p_i^{\beta_i}$ where $\alpha_i, \beta_i \geq 0$. Then $\gcd(a, b) = \prod_{i=1}^k p_i^{\min(\alpha_i, \beta_i)}$ and $\mathrm{lcm}(a, b) = \prod_{i=1}^k p_i^{\max(\alpha_i, \beta_i)}$. Since $\min(\alpha_i, \beta_i) + \max(\alpha_i, \beta_i) = \alpha_i + \beta_i$ for each $i$We have:
 
-$$\gcd(a,b) \cdot \mathrm{lcm}(a,b) = \prod_{i=1}^k p_i^{\alpha_i + \beta_i} = ab \qquad \blacksquare$$
+$$
+\gcd(a,b) \cdot \mathrm{lcm}(a,b) = \prod_{i=1}^k p_i^{\alpha_i + \beta_i} = ab \qquad \blacksquare
+$$
 
 **Proposition 1.5.** For all positive integers $a, b$:
 

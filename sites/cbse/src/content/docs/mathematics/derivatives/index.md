@@ -67,7 +67,9 @@ Derivatives measure the rate of change of a function with respect to its variabl
 
 Let $u = x^2$ and $v = \sin x$. Then $\frac{du}{dx} = 2x$ and $\frac{dv}{dx} = \cos x$.
 
-$$\frac{d}{dx}[x^2 \sin x] = x^2 \cos x + \sin x \cdot 2x = x^2 \cos x + 2x \sin x$$
+$$
+\frac{d}{dx}[x^2 \sin x] = x^2 \cos x + \sin x \cdot 2x = x^2 \cos x + 2x \sin x
+$$
 
 **Common mistake:** Forgetting to differentiate one of the factors. Both terms must be present.
 
@@ -79,7 +81,9 @@ $$\frac{d}{dx}[x^2 \sin x] = x^2 \cos x + \sin x \cdot 2x = x^2 \cos x + 2x \sin
 
 Let $u = 3x^2 + 1$, so $\frac{du}{dx} = 6x$.
 
-$$\frac{d}{dx}[\sin(3x^2 + 1)] = \cos(3x^2 + 1) \cdot 6x = 6x \cos(3x^2 + 1)$$
+$$
+\frac{d}{dx}[\sin(3x^2 + 1)] = \cos(3x^2 + 1) \cdot 6x = 6x \cos(3x^2 + 1)
+$$
 
 **Common mistake:** Forgetting the inner derivative. The answer is not just $\cos(3x^2 + 1)$.
 
@@ -90,10 +94,14 @@ $$\frac{d}{dx}[\sin(3x^2 + 1)] = \cos(3x^2 + 1) \cdot 6x = 6x \cos(3x^2 + 1)$$
 **Solution:**
 
 Differentiate both sides with respect to $x$:
-$$2x + 2y\frac{dy}{dx} = 0$$
+$$
+2x + 2y\frac{dy}{dx} = 0
+$$
 
 Solve for $\frac{dy}{dx}$:
-$$\frac{dy}{dx} = -\frac{x}{y}$$
+$$
+\frac{dy}{dx} = -\frac{x}{y}
+$$
 
 **Common mistake:** Treating $y$ as a constant when differentiating. Remember that $y$ is a function of $x$, so $\frac{d}{dx}[y^2] = 2y\frac{dy}{dx}$.
 
@@ -105,7 +113,9 @@ $$\frac{dy}{dx} = -\frac{x}{y}$$
 
 Let $u = x$ and $v = x^2 + 1$. Then $\frac{du}{dx} = 1$ and $\frac{dv}{dx} = 2x$.
 
-$$\frac{d}{dx}\left[\frac{x}{x^2+1}\right] = \frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2} = \frac{x^2 + 1 - 2x^2}{(x^2+1)^2} = \frac{1 - x^2}{(x^2+1)^2}$$
+$$
+\frac{d}{dx}\left[\frac{x}{x^2+1}\right] = \frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2} = \frac{x^2 + 1 - 2x^2}{(x^2+1)^2} = \frac{1 - x^2}{(x^2+1)^2}
+$$
 
 **Common mistake:** Swapping $u$ and $v$ in the quotient rule formula. The numerator is $v \cdot u' - u \cdot v'$, not $u \cdot v' - v \cdot u'$.
 
@@ -116,10 +126,14 @@ $$\frac{d}{dx}\left[\frac{x}{x^2+1}\right] = \frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2
 **Solution:**
 
 First derivative:
-$$\frac{dy}{dx} = 2e^{2x}$$
+$$
+\frac{dy}{dx} = 2e^{2x}
+$$
 
 Second derivative:
-$$\frac{d^2y}{dx^2} = 2 \cdot 2e^{2x} = 4e^{2x}$$
+$$
+\frac{d^2y}{dx^2} = 2 \cdot 2e^{2x} = 4e^{2x}
+$$
 
 **Common mistake:** Forgetting to apply the chain rule at each differentiation step. Each derivative of $e^{2x}$ brings down a factor of 2.
 
@@ -157,13 +171,19 @@ $$\frac{d^2y}{dx^2} = 2 \cdot 2e^{2x} = 4e^{2x}$$
 Apply the product rule iteratively. Let $u = x$, $v = e^x \sin x$.
 
 First, find $\frac{dv}{dx}$ using the product rule on $e^x \sin x$:
-$$\frac{d}{dx}[e^x \sin x] = e^x \sin x + e^x \cos x = e^x(\sin x + \cos x)$$
+$$
+\frac{d}{dx}[e^x \sin x] = e^x \sin x + e^x \cos x = e^x(\sin x + \cos x)
+$$
 
 Now apply the product rule to $x \cdot (e^x \sin x)$:
-$$\frac{d}{dx}[x \cdot e^x \sin x] = 1 \cdot e^x \sin x + x \cdot e^x(\sin x + \cos x)$$
+$$
+\frac{d}{dx}[x \cdot e^x \sin x] = 1 \cdot e^x \sin x + x \cdot e^x(\sin x + \cos x)
+$$
 
 Factor:
-$$= e^x[\sin x + x\sin x + x\cos x] = e^x[(1 + x)\sin x + x\cos x]$$
+$$
+= e^x[\sin x + x\sin x + x\cos x] = e^x[(1 + x)\sin x + x\cos x]
+$$
 
 **Common mistake:** Trying to apply the product rule to three factors at once. Instead, group two factors together and apply the rule iteratively.
 
@@ -174,13 +194,19 @@ $$= e^x[\sin x + x\sin x + x\cos x] = e^x[(1 + x)\sin x + x\cos x]$$
 **Solution:**
 
 Take the natural logarithm of both sides:
-$$\ln y = \ln(x^x) = x \ln x$$
+$$
+\ln y = \ln(x^x) = x \ln x
+$$
 
 Differentiate both sides with respect to $x$:
-$$\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1$$
+$$
+\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1
+$$
 
 Solve for $\frac{dy}{dx}$:
-$$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
+$$
+\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)
+$$
 
 **Common mistake:** Treating $x^x$ as a power function ($nx^{n-1}$) or an exponential function ($a^x \ln a$). It is neither, use logarithmic differentiation.
 
@@ -191,16 +217,24 @@ $$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
 **Solution:**
 
 Let $u = \frac{x}{1 + x^2}$. Then $f(x) = \tan^{-1}(u)$ and:
-$$f'(x) = \frac{1}{1 + u^2} \cdot \frac{du}{dx}$$
+$$
+f'(x) = \frac{1}{1 + u^2} \cdot \frac{du}{dx}
+$$
 
 Compute $\frac{du}{dx}$ using the quotient rule:
-$$\frac{du}{dx} = \frac{(1 + x^2)(1) - x(2x)}{(1 + x^2)^2} = \frac{1 + x^2 - 2x^2}{(1 + x^2)^2} = \frac{1 - x^2}{(1 + x^2)^2}$$
+$$
+\frac{du}{dx} = \frac{(1 + x^2)(1) - x(2x)}{(1 + x^2)^2} = \frac{1 + x^2 - 2x^2}{(1 + x^2)^2} = \frac{1 - x^2}{(1 + x^2)^2}
+$$
 
 Now compute $\frac{1}{1 + u^2}$:
-$$1 + u^2 = 1 + \frac{x^2}{(1 + x^2)^2} = \frac{(1 + x^2)^2 + x^2}{(1 + x^2)^2} = \frac{1 + 2x^2 + x^4 + x^2}{(1 + x^2)^2} = \frac{1 + 3x^2 + x^4}{(1 + x^2)^2}$$
+$$
+1 + u^2 = 1 + \frac{x^2}{(1 + x^2)^2} = \frac{(1 + x^2)^2 + x^2}{(1 + x^2)^2} = \frac{1 + 2x^2 + x^4 + x^2}{(1 + x^2)^2} = \frac{1 + 3x^2 + x^4}{(1 + x^2)^2}
+$$
 
 Therefore:
-$$f'(x) = \frac{(1 + x^2)^2}{1 + 3x^2 + x^4} \cdot \frac{1 - x^2}{(1 + x^2)^2} = \frac{1 - x^2}{1 + 3x^2 + x^4}$$
+$$
+f'(x) = \frac{(1 + x^2)^2}{1 + 3x^2 + x^4} \cdot \frac{1 - x^2}{(1 + x^2)^2} = \frac{1 - x^2}{1 + 3x^2 + x^4}
+$$
 
 **Common mistake:** Forgetting the chain rule when differentiating inverse trigonometric functions. The derivative of $\tan^{-1}(u)$ is $\frac{1}{1 + u^2} \cdot \frac{du}{dx}$, not just $\frac{1}{1 + u^2}$.
 

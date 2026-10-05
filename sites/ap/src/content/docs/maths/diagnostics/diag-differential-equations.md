@@ -51,13 +51,17 @@ the theorem does not guarantee uniqueness.
 
 (c) A third solution can be constructed by patching:
 
-$$y(x) = \begin{cases} 0 & \text{if  x \leq a \\ \left(\dfrac{x - a}{3}\right)^3 & \text{if  x > a \end{cases}$$
+$$
+y(x) = \begin{cases} 0 & \text{if  x \leq a \\ \left(\dfrac{x - a}{3}\right)^3 & \text{if  x > a \end{cases}
+$$
 
 For any $a \geq 0$. At $x = a$: $y(a) = 0$ from both sides, and $y"(a) = 0$ from both sides (since
 $\frac{d}{dx}\left[\left(\frac{x-a}{3}\right)^3\right] = \frac{(x-a)^2}{3} = 0$ at $x = a$). So this
 is a valid $C^1$ solution. For $a = 0$This gives:
 
-$$y(x) = \begin{cases} 0 & \text{if  x \leq 0 \\ \dfrac{x^3}{27} & \text{if  x > 0 \end{cases}$$
+$$
+y(x) = \begin{cases} 0 & \text{if  x \leq 0 \\ \dfrac{x^3}{27} & \text{if  x > 0 \end{cases}
+$$
 
 This is a third distinct solution to the IVP.
 
@@ -147,7 +151,9 @@ incorrectly assume that halving the step size always quarters the error.
 
 A population $P(t)$ satisfies the logistic differential equation:
 
-$$\frac{dP}{dt} = 0.04P\left(1 - \frac{P}{K}\right)$$
+$$
+\frac{dP}{dt} = 0.04P\left(1 - \frac{P}{K}\right)
+$$
 
 With $P(0) = 100$ and carrying capacity $K$. Suppose the population is growing fastest when
 $P = 250$.
@@ -160,32 +166,52 @@ reach $0.9K$?
 (a) The logistic growth rate is maximized when $P = K/2$. Given the maximum growth occurs at
 $P = 250$:
 
-$$\frac{K}{2} = 250 \implies K = 500$$
+$$
+\frac{K}{2} = 250 \implies K = 500
+$$
 
 (b) The general solution to the logistic equation $\dfrac{dP}{dt} = rP\left(1 - \dfrac{P}{K}\right)$
 is:
 
-$$P(t) = \frac{K}{1 + A e^{-rt}}$$
+$$
+P(t) = \frac{K}{1 + A e^{-rt}}
+$$
 
 Where $A = \dfrac{K - P_0}{P_0}$. With $K = 500$$P_0 = 100$$r = 0.04$:
 
-$$A = \frac{500 - 100}{100} = 4$$
+$$
+A = \frac{500 - 100}{100} = 4
+$$
 
-$$P(t) = \frac{500}{1 + 4e^{-0.04t}}$$
+$$
+P(t) = \frac{500}{1 + 4e^{-0.04t}}
+$$
 
 (c) Set $P(t) = 0.9K = 450$:
 
-$$450 = \frac{500}{1 + 4e^{-0.04t}}$$
+$$
+450 = \frac{500}{1 + 4e^{-0.04t}}
+$$
 
-$$1 + 4e^{-0.04t} = \frac{500}{450} = \frac{10}{9}$$
+$$
+1 + 4e^{-0.04t} = \frac{500}{450} = \frac{10}{9}
+$$
 
-$$4e^{-0.04t} = \frac{1}{9}$$
+$$
+4e^{-0.04t} = \frac{1}{9}
+$$
 
-$$e^{-0.04t} = \frac{1}{36}$$
+$$
+e^{-0.04t} = \frac{1}{36}
+$$
 
-$$-0.04t = \ln\!\left(\frac{1}{36}\right) = -\ln 36$$
+$$
+-0.04t = \ln\!\left(\frac{1}{36}\right) = -\ln 36
+$$
 
-$$t = \frac{\ln 36}{0.04} = 25\ln 36 \approx 25(3.584) \approx 89.6$$
+$$
+t = \frac{\ln 36}{0.04} = 25\ln 36 \approx 25(3.584) \approx 89.6
+$$
 
 The population reaches $90\%$ of carrying capacity at approximately $t \approx 89.6$ time units.
 
@@ -234,15 +260,23 @@ $y = 0$No solution curve can cross it.
 (c) Separate variables: $y\,dy = x\,dx$. Integrate: $\dfrac{y^2}{2} = \dfrac{x^2}{2} + C$. Using
 $(1, 2)$: $2 = \frac{1}{2} + C \implies C = \frac{3}{2}$.
 
-$$y^2 = x^2 + 3 \implies y = \sqrt{x^2 + 3}$$
+$$
+y^2 = x^2 + 3 \implies y = \sqrt{x^2 + 3}
+$$
 
 Arc length from $x = 1$ to $x = 3$:
 
-$$s = \int_1^3 \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx = \int_1^3 \sqrt{1 + \frac{x^2}{x^2 + 3}}\,dx$$
+$$
+s = \int_1^3 \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx = \int_1^3 \sqrt{1 + \frac{x^2}{x^2 + 3}}\,dx
+$$
 
-$$= \int_1^3 \sqrt{\frac{2x^2 + 3}{x^2 + 3}}\,dx = \int_1^3 \sqrt{\frac{2(x^2 + 3) - 3}{x^2 + 3}}\,dx$$
+$$
+= \int_1^3 \sqrt{\frac{2x^2 + 3}{x^2 + 3}}\,dx = \int_1^3 \sqrt{\frac{2(x^2 + 3) - 3}{x^2 + 3}}\,dx
+$$
 
-$$= \int_1^3 \sqrt{2 - \frac{3}{x^2 + 3}}\,dx$$
+$$
+= \int_1^3 \sqrt{2 - \frac{3}{x^2 + 3}}\,dx
+$$
 
 This integral does not have an elementary antiderivative. It can be evaluated numerically or
 expressed in terms of elliptic integrals. The setup itself tests whether students correctly compute
@@ -267,7 +301,9 @@ Solve $\dfrac{dy}{dx} = \dfrac{1}{xy}$ with initial condition $y(1) = 0$.
 
 A student separates variables and writes:
 
-$$\int y\,dy = \int \frac{dx}{x} \implies \frac{y^2}{2} = \ln|x| + C$$
+$$
+\int y\,dy = \int \frac{dx}{x} \implies \frac{y^2}{2} = \ln|x| + C
+$$
 
 Using $y(1) = 0$: $\dfrac{0}{2} = \ln 1 + C \implies C = 0$Giving $y = \pm\sqrt{2\ln|x|}$.
 
@@ -290,11 +326,17 @@ $y = 0$.
 (c) With $y(1) = 1$: $f(x, y) = \dfrac{1}{xy}$ is continuous near $(1, 1)$ So a unique solution
 exists.
 
-$$\frac{y^2}{2} = \ln|x| + C \implies \frac{1}{2} = 0 + C \implies C = \frac{1}{2}$$
+$$
+\frac{y^2}{2} = \ln|x| + C \implies \frac{1}{2} = 0 + C \implies C = \frac{1}{2}
+$$
 
-$$y^2 = 2\ln|x| + 1 = \ln(x^2) + 1$$
+$$
+y^2 = 2\ln|x| + 1 = \ln(x^2) + 1
+$$
 
-$$y = \sqrt{1 + \ln(x^2)}$$
+$$
+y = \sqrt{1 + \ln(x^2)}
+$$
 
 (We take the positive branch since $y(1) = 1 > 0$.)
 

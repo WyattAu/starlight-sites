@@ -105,13 +105,21 @@ percentage abundance of each isotope to three significant figures.
 **Solution:** Let $x$ be the fraction of $^{35}\text{Cl}$. Then $1 - x$ is the fraction of
 $^{37}\text{Cl}$.
 
-$$34.969x + 36.966(1 - x) = 35.453$$
+$$
+34.969x + 36.966(1 - x) = 35.453
+$$
 
-$$34.969x + 36.966 - 36.966x = 35.453$$
+$$
+34.969x + 36.966 - 36.966x = 35.453
+$$
 
-$$-1.997x = 35.453 - 36.966 = -1.513$$
+$$
+-1.997x = 35.453 - 36.966 = -1.513
+$$
 
-$$x = \frac{1.513}{1.997} = 0.7576$$
+$$
+x = \frac{1.513}{1.997} = 0.7576
+$$
 
 $^{35}\text{Cl}$: $75.8\%$$^{37}\text{Cl}$: $24.2\%$.
 

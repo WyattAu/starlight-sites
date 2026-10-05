@@ -21,7 +21,9 @@ description: 'The refractive index varies with frequency: Comprehensive educatio
 
 The refractive index varies with frequency:
 
-$$n(\omega) = 1 + \frac{Ne^2}{2m_e\varepsilon_0} \sum_j \frac{f_j}{\omega_{0j}^2 - \omega^2 - i\gamma_j\omega}$$
+$$
+n(\omega) = 1 + \frac{Ne^2}{2m_e\varepsilon_0} \sum_j \frac{f_j}{\omega_{0j}^2 - \omega^2 - i\gamma_j\omega}
+$$
 
 Where $N$ is the electron density, $f_j$ are oscillator strengths, $\omega_{0j}$ are resonance
 frequencies, and $\gamma_j$ are damping constants.
@@ -42,16 +44,22 @@ even become negative, but this does not violate causality (signal velocity remai
 
 Starting from the Lorentz oscillator model for a single resonance:
 
-$$n^2(\omega) = 1 + \frac{Ne^2}{m_e\varepsilon_0}\frac{1}{\omega_0^2 - \omega^2 - i\gamma\omega}$$
+$$
+n^2(\omega) = 1 + \frac{Ne^2}{m_e\varepsilon_0}\frac{1}{\omega_0^2 - \omega^2 - i\gamma\omega}
+$$
 
 The real part $n(\omega) = \mathrm{Re}\sqrt{\epsilon(\omega)}$ gives the refractive index. The
 imaginary part gives absorption:
 
-$$\alpha_{\mathrm{abs}} = \frac{2\omega}{c}\,\mathrm{Im}\, n(\omega)$$
+$$
+\alpha_{\mathrm{abs}} = \frac{2\omega}{c}\,\mathrm{Im}\, n(\omega)
+$$
 
 **Worked example.** For X-rays ($\omega \gg \omega_0$):
 
-$$n \approx 1 - \frac{Ne^2}{2m_e\varepsilon_0\omega^2} = 1 - \frac{\omega_p^2}{2\omega^2}$$
+$$
+n \approx 1 - \frac{Ne^2}{2m_e\varepsilon_0\omega^2} = 1 - \frac{\omega_p^2}{2\omega^2}
+$$
 
 Where $\omega_p = \sqrt{Ne^2/(m_e\varepsilon_0)}$ is the plasma frequency. Since $n \lt 1$, X-rays
 undergo total external reflection at grazing incidence.
@@ -61,13 +69,17 @@ undergo total external reflection at grazing incidence.
 Since $n$ depends on $\lambda$, a lens has different focal lengths for different wavelengths. The
 longitudinal chromatic aberration is:
 
-$$\Delta f = f(\lambda_1) - f(\lambda_2)$$
+$$
+\Delta f = f(\lambda_1) - f(\lambda_2)
+$$
 
 **Achromatic doublet.** Two lenses of different materials (e.g., crown and flint glass) with
 different dispersive powers are combined to cancel chromatic aberration at two wavelengths. The
 condition is:
 
-$$\frac{\omega_1}{f_1} + \frac{\omega_2}{f_2} = 0$$
+$$
+\frac{\omega_1}{f_1} + \frac{\omega_2}{f_2} = 0
+$$
 
 Where $\omega_i = (n_{i,F} - n_{i,C})/(n_{i,d} - 1)$ is the Abbe number for glass $i$.
 
@@ -75,13 +87,17 @@ Where $\omega_i = (n_{i,F} - n_{i,C})/(n_{i,d} - 1)$ is the Abbe number for glas
 
 The **Cauchy equation** provides an empirical fit for normal dispersion:
 
-$$n(\lambda) = A + \frac{B}{\lambda^2} + \frac{C}{\lambda^4}$$
+$$
+n(\lambda) = A + \frac{B}{\lambda^2} + \frac{C}{\lambda^4}
+$$
 
 where $A, B, C$ are material constants determined experimentally.
 
 The **Sellmeier equation** is more accurate, especially near resonances:
 
-$$n^2(\lambda) = 1 + \sum_j \frac{B_j \lambda^2}{\lambda^2 - \lambda_j^2}$$
+$$
+n^2(\lambda) = 1 + \sum_j \frac{B_j \lambda^2}{\lambda^2 - \lambda_j^2}
+$$
 
 where $\lambda_j$ are the resonance wavelengths and $B_j$ are oscillator strengths.
 
@@ -90,7 +106,9 @@ where $\lambda_j$ are the resonance wavelengths and $B_j$ are oscillator strengt
 In optical fiber communication, dispersion broadens pulses and limits the bit rate. The
 **dispersion parameter** $D$ is defined as:
 
-$$D = \frac{d}{d\lambda}\left(\frac{1}{v_g}\right) = -\frac{2\pi c}{\lambda^2}\frac{d^2\beta}{d\omega^2}$$
+$$
+D = \frac{d}{d\lambda}\left(\frac{1}{v_g}\right) = -\frac{2\pi c}{\lambda^2}\frac{d^2\beta}{d\omega^2}
+$$
 
 where $\beta(\omega)$ is the propagation constant. $D$ has units of ps/(nm$\cdot$km).
 
@@ -99,7 +117,9 @@ Dispersion-shifted fibers move this zero to $1.55\ \mu$m where attenuation is mi
 
 **Pulse broadening.** A pulse with spectral width $\Delta\lambda$ broadens by:
 
-$$\Delta\tau = D\, L\, \Delta\lambda$$
+$$
+\Delta\tau = D\, L\, \Delta\lambda
+$$
 
 where $L$ is the fiber length. For a 10 km fiber with $D = 17$ ps/(nm$\cdot$km) and
 $\Delta\lambda = 1$ nm, the broadening is $\Delta\tau = 170$ ps.
@@ -109,16 +129,22 @@ $\Delta\lambda = 1$ nm, the broadening is $\Delta\tau = 170$ ps.
 A prism disperses white light into its constituent colors. The deviation angle $\delta$ for a prism
 with apex angle $A$ is:
 
-$$\delta = \theta_1 + \arcsin\left(n\sin\left(A - \arcsin\frac{\sin\theta_1}{n}\right)\right) - A$$
+$$
+\delta = \theta_1 + \arcsin\left(n\sin\left(A - \arcsin\frac{\sin\theta_1}{n}\right)\right) - A
+$$
 
 At minimum deviation $\delta_m$:
 
-$$n = \frac{\sin\frac{A + \delta_m}{2}}{\sin\frac{A}{2}}$$
+$$
+n = \frac{\sin\frac{A + \delta_m}{2}}{\sin\frac{A}{2}}
+$$
 
 **Worked example.** A glass prism with $A = 60^\circ$ gives $\delta_m = 53.7^\circ$ for sodium light.
 The refractive index is:
 
-$$n = \frac{\sin((60 + 53.7)/2)}{\sin(30^\circ)} = \frac{\sin 56.85^\circ}{0.5} = \frac{0.837}{0.5} = 1.674$$
+$$
+n = \frac{\sin((60 + 53.7)/2)}{\sin(30^\circ)} = \frac{\sin 56.85^\circ}{0.5} = \frac{0.837}{0.5} = 1.674
+$$
 
 **Practice problem.** A flint glass prism has $n_F = 1.734$ (blue), $n_D = 1.720$ (yellow),
 $n_C = 1.713$ (red). For $A = 60^\circ$, find the angular dispersion $\delta_F - \delta_C$ at
@@ -129,7 +155,9 @@ minimum deviation.
 In addition to material dispersion, waveguides exhibit **waveguide dispersion** because the
 effective index depends on the confinement geometry. The total dispersion in a fiber is:
 
-$$D_{\mathrm{total}} = D_{\mathrm{material}} + D_{\mathrm{waveguide}}$$
+$$
+D_{\mathrm{total}} = D_{\mathrm{material}} + D_{\mathrm{waveguide}}
+$$
 
 Waveguide dispersion can be engineered by varying the core-cladding index difference and core
 radius, enabling dispersion-flattened and dispersion-shifted fibers.

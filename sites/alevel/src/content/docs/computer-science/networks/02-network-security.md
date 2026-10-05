@@ -51,7 +51,9 @@ The three core principles of information security:
 
 **Symmetric encryption** uses the **same key** for both encryption and decryption.
 
-$$C = E_K(M), \quad M = D_K(C)$$
+$$
+C = E_K(M), \quad M = D_K(C)
+$$
 
 Where $M$ is the plaintext, $C$ is the ciphertext, $E$ is the encryption function, $D$ is the
 Decryption function, and $K$ is the shared secret key.
@@ -82,7 +84,9 @@ Compromised.
 **Asymmetric encryption** (public-key cryptography) uses a **pair of keys**: a **public key**
 (shared openly) and a **private key** (kept secret).
 
-$$C = E_{\mathrm{pub}}(M), \quad M = D_{\mathrm{priv}}(C)$$
+$$
+C = E_{\mathrm{pub}}(M), \quad M = D_{\mathrm{priv}}(C)
+$$
 
 - Anyone can encrypt using the public key
 - Only the private key holder can decrypt

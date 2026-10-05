@@ -119,7 +119,9 @@ the accumulation of amplified DNA during the PCR cycles, in real time.
 **The $C_t$ value** (threshold cycle) is the PCR cycle at which the fluorescence exceeds a defined
 threshold. It is inversely proportional to the logarithm of the initial template quantity:
 
-$$C_t \propto -\log(\text{initial template amount})$$
+$$
+C_t \propto -\log(\text{initial template amount})
+$$
 
 A lower $C_t$ value indicates more initial template.
 
@@ -361,7 +363,9 @@ Dysbiosis (imbalance of the microbiome) is associated with:
 **Worked Example 1: PCR product yield.** A PCR reaction starts with 3 copies of a target sequence.
 After 32 cycles, how many copies are produced?
 
-$$N = 3 \times 2^{32} = 3 \times 4294967296 = 1.29 \times 10^{10}\ \text{copies}$$
+$$
+N = 3 \times 2^{32} = 3 \times 4294967296 = 1.29 \times 10^{10}\ \text{copies}
+$$
 
 **Worked Example 2: Restriction fragment analysis.** A plasmid of $5000\ \mathrm{bp}$ is cut with
 EcoRI at position $1000\ \mathrm{bp}$ and with BamHI at position $3500\ \mathrm{bp}$. How many
@@ -516,7 +520,9 @@ white part).
 These genes enable the rice endosperm to produce $\beta$-carotene from geranylgeranyl diphosphate
 (GGPP), a precursor already present in the endosperm:
 
-$$\text{GGPP} \xrightarrow{\text{psy}} \text{phytoene} \xrightarrow{\text{crtI}} \text{lycopene} \xrightarrow{\text{lcy (endogenous)}} \beta\text{-carotene}$$
+$$
+\text{GGPP} \xrightarrow{\text{psy}} \text{phytoene} \xrightarrow{\text{crtI}} \text{lycopene} \xrightarrow{\text{lcy (endogenous)}} \beta\text{-carotene}
+$$
 
 The lycopene cyclase (lcy) step is catalysed by an enzyme already present in rice (endogenous gene).
 

@@ -52,7 +52,9 @@ Certificate Physics paper and covers kinematics, dynamics, energy, momentum, and
 
 Any vector of magnitude $F$ at angle $\theta$ to the horizontal can be resolved into components:
 
-$$F_x = F\cos\theta, \qquad F_y = F\sin\theta$$
+$$
+F_x = F\cos\theta, \qquad F_y = F\sin\theta
+$$
 
 This technique is essential for inclined plane problems and projectile motion.
 
@@ -263,11 +265,15 @@ The block slides when $mg\sin\theta > \mu mg\cos\theta$I.e., $\tan\theta > \mu$.
 
 If the block slides _down_ the slope:
 
-$$a = g(\sin\theta - \mu\cos\theta)$$
+$$
+a = g(\sin\theta - \mu\cos\theta)
+$$
 
 If the block is pushed _up_ the slope:
 
-$$a = -g(\sin\theta + \mu\cos\theta)$$
+$$
+a = -g(\sin\theta + \mu\cos\theta)
+$$
 
 ## Work, Energy, and Power
 
@@ -423,11 +429,15 @@ $$
 
 At the top of a vertical circle:
 
-$$F_c = mg + T = \frac{mv^2}{r}$$
+$$
+F_c = mg + T = \frac{mv^2}{r}
+$$
 
 At the bottom:
 
-$$F_c = T - mg = \frac{mv^2}{r}$$
+$$
+F_c = T - mg = \frac{mv^2}{r}
+$$
 
 Minimum speed at the top: $v_{\min} = \sqrt{gr}$ (when $T = 0$).
 
@@ -539,34 +549,52 @@ Mass and the spring constant.
 
 Starting from the definition of constant acceleration $a = dv/dt$:
 
-$$\int_u^v dv = \int_0^t a\, dt' \implies v - u = at \implies v = u + at$$
+$$
+\int_u^v dv = \int_0^t a\, dt' \implies v - u = at \implies v = u + at
+$$
 
 This is the first kinematic equation. Now substitute $v = ds/dt$ and integrate:
 
-$$\int_0^s ds = \int_0^t (u + at')\, dt' \implies s = ut + \frac{1}{2}at^2$$
+$$
+\int_0^s ds = \int_0^t (u + at')\, dt' \implies s = ut + \frac{1}{2}at^2
+$$
 
 To eliminate $t$ from the first two equations, substitute $t = (v - u)/a$:
 
-$$s = u\frac{v - u}{a} + \frac{1}{2}a\left(\frac{v - u}{a}\right)^2 = \frac{uv - u^2}{a} + \frac{v^2 - 2uv + u^2}{2a}$$
+$$
+s = u\frac{v - u}{a} + \frac{1}{2}a\left(\frac{v - u}{a}\right)^2 = \frac{uv - u^2}{a} + \frac{v^2 - 2uv + u^2}{2a}
+$$
 
-$$2as = 2uv - 2u^2 + v^2 - 2uv + u^2 = v^2 - u^2$$
+$$
+2as = 2uv - 2u^2 + v^2 - 2uv + u^2 = v^2 - u^2
+$$
 
-$$v^2 = u^2 + 2as$$
+$$
+v^2 = u^2 + 2as
+$$
 
 ## 12. Worked Example: Projectile from a Height (HL)
 
 A ball is thrown from the top of a $20 \mathrm{ m$ cliff at $25 \mathrm{ m/s$ at $40^{\circ}$ above
 The horizontal. Find the horizontal distance from the cliff where it hits the water.
 
-$$v_x = 25\cos 40^{\circ} = 19.15 \mathrm{ m/s, \qquad v_y = 25\sin 40^{\circ} = 16.07 \mathrm{ m/s$$
+$$
+v_x = 25\cos 40^{\circ} = 19.15 \mathrm{ m/s, \qquad v_y = 25\sin 40^{\circ} = 16.07 \mathrm{ m/s
+$$
 
 The vertical motion: $y = 20 + 16.07t - 4.9t^2$. At impact, $y = 0$:
 
-$$4.9t^2 - 16.07t - 20 = 0$$
+$$
+4.9t^2 - 16.07t - 20 = 0
+$$
 
-$$t = \frac{16.07 + \sqrt{16.07^2 + 4 \times 4.9 \times 20}}{2 \times 4.9} = \frac{16.07 + \sqrt{258.2 + 392}}{9.8} = \frac{16.07 + 25.50}{9.8} = 4.24 \mathrm{ s$$
+$$
+t = \frac{16.07 + \sqrt{16.07^2 + 4 \times 4.9 \times 20}}{2 \times 4.9} = \frac{16.07 + \sqrt{258.2 + 392}}{9.8} = \frac{16.07 + 25.50}{9.8} = 4.24 \mathrm{ s
+$$
 
-$$R = v_x t = 19.15 \times 4.24 = 81.2 \mathrm{ m$$
+$$
+R = v_x t = 19.15 \times 4.24 = 81.2 \mathrm{ m
+$$
 
 ## 13. Worked Example: Inclined Plane with Friction (HL)
 
@@ -576,30 +604,44 @@ stopping, and Does it slide back down?
 
 **Going up (friction acts down the slope):**
 
-$$a = -g(\sin\theta + \mu_k\cos\theta) = -9.8(0.5 + 0.3 \times 0.866) = -9.8 \times 0.760 = -7.45 \mathrm{ m/s^2$$
+$$
+a = -g(\sin\theta + \mu_k\cos\theta) = -9.8(0.5 + 0.3 \times 0.866) = -9.8 \times 0.760 = -7.45 \mathrm{ m/s^2
+$$
 
-$$v^2 = u^2 + 2as \implies 0 = 36 + 2(-7.45)s \implies s = \frac{36}{14.9} = 2.42 \mathrm{ m$$
+$$
+v^2 = u^2 + 2as \implies 0 = 36 + 2(-7.45)s \implies s = \frac{36}{14.9} = 2.42 \mathrm{ m
+$$
 
 **Will it slide back?** Check if the gravitational component exceeds maximum static friction:
 
-$$mg\sin\theta = 5 \times 9.8 \times 0.5 = 24.5 \mathrm{ N$$
+$$
+mg\sin\theta = 5 \times 9.8 \times 0.5 = 24.5 \mathrm{ N
+$$
 
-$$f_{\max} = \mu_s mg\cos\theta \approx 0.35 \times 5 \times 9.8 \times 0.866 = 14.9 \mathrm{ N$$
+$$
+f_{\max} = \mu_s mg\cos\theta \approx 0.35 \times 5 \times 9.8 \times 0.866 = 14.9 \mathrm{ N
+$$
 
 Since $24.5 \mathrm{ N \gt 14.9 \mathrm{ N$The block slides back.
 
 **Sliding back (friction acts up the slope):**
 
-$$a = g(\sin\theta - \mu_k\cos\theta) = 9.8(0.5 - 0.3 \times 0.866) = 9.8 \times 0.240 = 2.35 \mathrm{ m/s^2$$
+$$
+a = g(\sin\theta - \mu_k\cos\theta) = 9.8(0.5 - 0.3 \times 0.866) = 9.8 \times 0.240 = 2.35 \mathrm{ m/s^2
+$$
 
 ## 14. Worked Example: Elastic Collision (HL)
 
 A $3 \mathrm{ kg$ object moving at $5 \mathrm{ m/s$ collides elastically with a $2 \mathrm{ kg$
 object At rest.
 
-$$v_1 = \frac{m_1 - m_2}{m_1 + m_2}u_1 = \frac{3 - 2}{3 + 2} \times 5 = \frac{1}{5} \times 5 = 1 \mathrm{ m/s$$
+$$
+v_1 = \frac{m_1 - m_2}{m_1 + m_2}u_1 = \frac{3 - 2}{3 + 2} \times 5 = \frac{1}{5} \times 5 = 1 \mathrm{ m/s
+$$
 
-$$v_2 = \frac{2m_1}{m_1 + m_2}u_1 = \frac{6}{5} \times 5 = 6 \mathrm{ m/s$$
+$$
+v_2 = \frac{2m_1}{m_1 + m_2}u_1 = \frac{6}{5} \times 5 = 6 \mathrm{ m/s
+$$
 
 **Verification:**
 
@@ -724,27 +766,43 @@ Immediately after the collision.
 
 **Step 1: Momentum conservation (east direction)**
 
-$$m_1 v_{1x} = (m_1 + m_2) v_{fx}$$
+$$
+m_1 v_{1x} = (m_1 + m_2) v_{fx}
+$$
 
-$$1200 \times 15 = 2700 v_{fx} \implies v_{fx} = \frac{18000}{2700} = 6.67 \mathrm{ m/s$$
+$$
+1200 \times 15 = 2700 v_{fx} \implies v_{fx} = \frac{18000}{2700} = 6.67 \mathrm{ m/s
+$$
 
 **Step 2: Momentum conservation (north direction)**
 
-$$m_2 v_{2y} = (m_1 + m_2) v_{fy}$$
+$$
+m_2 v_{2y} = (m_1 + m_2) v_{fy}
+$$
 
-$$1500 \times 12 = 2700 v_{fy} \implies v_{fy} = \frac{18000}{2700} = 6.67 \mathrm{ m/s$$
+$$
+1500 \times 12 = 2700 v_{fy} \implies v_{fy} = \frac{18000}{2700} = 6.67 \mathrm{ m/s
+$$
 
 **Step 3: Magnitude and direction**
 
-$$|v_f| = \sqrt{6.67^2 + 6.67^2} = \sqrt{88.89 + 88.89} = \sqrt{177.78} = 13.33 \mathrm{ m/s$$
+$$
+|v_f| = \sqrt{6.67^2 + 6.67^2} = \sqrt{88.89 + 88.89} = \sqrt{177.78} = 13.33 \mathrm{ m/s
+$$
 
-$$\theta = \arctan\left(\frac{6.67}{6.67}\right) = 45° \mathrm{ north of east$$
+$$
+\theta = \arctan\left(\frac{6.67}{6.67}\right) = 45° \mathrm{ north of east
+$$
 
 **Step 4: Kinetic energy analysis**
 
-$$KE_i = \frac{1}{2}(1200)(15^2) + \frac{1}{2}(1500)(12^2) = 135000 + 108000 = 243000 \mathrm{ J$$
+$$
+KE_i = \frac{1}{2}(1200)(15^2) + \frac{1}{2}(1500)(12^2) = 135000 + 108000 = 243000 \mathrm{ J
+$$
 
-$$KE_f = \frac{1}{2}(2700)(13.33^2) = \frac{1}{2}(2700)(177.78) = 240000 \mathrm{ J$$
+$$
+KE_f = \frac{1}{2}(2700)(13.33^2) = \frac{1}{2}(2700)(177.78) = 240000 \mathrm{ J
+$$
 
 Energy lost $= 243000 - 240000 = 3000 \mathrm{ J$ (about $1.2\%$ of initial KE).
 
@@ -757,23 +815,33 @@ from Equilibrium.
 
 **Step 1: Period**
 
-$$T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{0.8}{50}} = 2\pi\sqrt{0.016} = 2\pi \times 0.1265 = 0.795 \mathrm{ s$$
+$$
+T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{0.8}{50}} = 2\pi\sqrt{0.016} = 2\pi \times 0.1265 = 0.795 \mathrm{ s
+$$
 
 **Step 2: Maximum speed (at equilibrium)**
 
-$$v_{\max} = \omega A = \frac{2\pi}{T} \times 0.1 = \frac{2\pi}{0.795} \times 0.1 = 7.90 \times 0.1 = 0.790 \mathrm{ m/s$$
+$$
+v_{\max} = \omega A = \frac{2\pi}{T} \times 0.1 = \frac{2\pi}{0.795} \times 0.1 = 7.90 \times 0.1 = 0.790 \mathrm{ m/s
+$$
 
 **Step 3: Maximum acceleration (at maximum displacement)**
 
-$$a_{\max} = \omega^2 A = \left(\frac{2\pi}{0.795}\right)^2 \times 0.1 = 62.41 \times 0.1 = 6.24 \mathrm{ m/s^2$$
+$$
+a_{\max} = \omega^2 A = \left(\frac{2\pi}{0.795}\right)^2 \times 0.1 = 62.41 \times 0.1 = 6.24 \mathrm{ m/s^2
+$$
 
 **Step 4: Speed at $x = 0.05 \mathrm{ m$**
 
 Using energy conservation:
 
-$$\frac{1}{2}kA^2 = \frac{1}{2}kx^2 + \frac{1}{2}mv^2$$
+$$
+\frac{1}{2}kA^2 = \frac{1}{2}kx^2 + \frac{1}{2}mv^2
+$$
 
-$$v = \sqrt{\frac{k(A^2 - x^2)}{m}} = \sqrt{\frac{50(0.01 - 0.0025)}{0.8}} = \sqrt{\frac{50 \times 0.0075}{0.8}} = \sqrt{0.4688} = 0.685 \mathrm{ m/s$$
+$$
+v = \sqrt{\frac{k(A^2 - x^2)}{m}} = \sqrt{\frac{50(0.01 - 0.0025)}{0.8}} = \sqrt{\frac{50 \times 0.0075}{0.8}} = \sqrt{0.4688} = 0.685 \mathrm{ m/s
+$$
 
 ## Common Pitfalls Extended
 

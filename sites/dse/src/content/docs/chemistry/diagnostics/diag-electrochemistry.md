@@ -45,22 +45,30 @@ marks]
 
 (a) Reduction (gain of electrons):
 
-$$MnO_{4}^{-} + 8H^{+} + 5e^{-} \rightarrow Mn^{2+} + 4H_{2}O$$
+$$
+MnO_{4}^{-} + 8H^{+} + 5e^{-} \rightarrow Mn^{2+} + 4H_{2}O
+$$
 
 Balancing check: Mn: 1, O: 4, H: 8, charge: $(-1) + 8(+1) + 5(-1) = +2$ on left; $+2 + 0 = +2$ on
 right. Balanced.
 
 (b) Oxidation (loss of electrons):
 
-$$Fe^{2+} \rightarrow Fe^{3+} + e^{-}$$
+$$
+Fe^{2+} \rightarrow Fe^{3+} + e^{-}
+$$
 
 (c) To balance electrons, multiply the oxidation half-equation by 5:
 
-$$5Fe^{2+} \rightarrow 5Fe^{3+} + 5e^{-}$$
+$$
+5Fe^{2+} \rightarrow 5Fe^{3+} + 5e^{-}
+$$
 
 Add to the reduction half-equation and cancel electrons:
 
-$$MnO_{4}^{-} + 8H^{+} + 5Fe^{2+} \rightarrow Mn^{2+} + 5Fe^{3+} + 4H_{2}O$$
+$$
+MnO_{4}^{-} + 8H^{+} + 5Fe^{2+} \rightarrow Mn^{2+} + 5Fe^{3+} + 4H_{2}O
+$$
 
 ---
 
@@ -103,7 +111,9 @@ Explain. [3 marks]
 preference to $Na^{+}$ (since $Na$ is very reactive, below hydrogen in the reactivity series;
 $H^{+}$ from water is more reduced):
 
-$$2H_{2}O(l) + 2e^{-} \rightarrow H_{2}(g) + 2OH^{-}(aq)$$
+$$
+2H_{2}O(l) + 2e^{-} \rightarrow H_{2}(g) + 2OH^{-}(aq)
+$$
 
 Product: **hydrogen gas**.
 
@@ -111,13 +121,17 @@ Product: **hydrogen gas**.
 solution, $Cl^{-}$ is discharged in preference to $H_{2}O$ (the overpotential of chlorine is lower
 than that of oxygen at the anode, and the high concentration of $Cl^{-}$ favours its discharge):
 
-$$2Cl^{-}(aq) \rightarrow Cl_{2}(g) + 2e^{-}$$
+$$
+2Cl^{-}(aq) \rightarrow Cl_{2}(g) + 2e^{-}
+$$
 
 Product: **chlorine gas**.
 
 (b) Overall:
 
-$$2NaCl(aq) + 2H_{2}O(l) \xrightarrow{\text{electrolysis}} Cl_{2}(g) + H_{2}(g) + 2NaOH(aq)$$
+$$
+2NaCl(aq) + 2H_{2}O(l) \xrightarrow{\text{electrolysis}} Cl_{2}(g) + H_{2}(g) + 2NaOH(aq)
+$$
 
 (c) In **dilute** aqueous $NaCl$:
 
@@ -125,11 +139,15 @@ $$2NaCl(aq) + 2H_{2}O(l) \xrightarrow{\text{electrolysis}} Cl_{2}(g) + H_{2}(g) 
   discharged in aqueous solution).
 - **Anode**: The low concentration of $Cl^{-}$ means $H_{2}O$ is now preferentially discharged:
 
-$$4OH^{-}(aq) \rightarrow O_{2}(g) + 2H_{2}O(l) + 4e^{-}$$
+$$
+4OH^{-}(aq) \rightarrow O_{2}(g) + 2H_{2}O(l) + 4e^{-}
+$$
 
 Or equivalently:
 
-$$2H_{2}O(l) \rightarrow O_{2}(g) + 4H^{+}(aq) + 4e^{-}$$
+$$
+2H_{2}O(l) \rightarrow O_{2}(g) + 4H^{+}(aq) + 4e^{-}
+$$
 
 Product at anode changes from **chlorine** to **oxygen**.
 
@@ -179,7 +197,9 @@ Moles of electrons: $n(e^{-}) = \frac{Q}{F} = \frac{900}{96500} = 9.326 \times 1
 
 Moles of $Cu$ deposited: $n(Cu) = \frac{9.326 \times 10^{-3}}{2} = 4.663 \times 10^{-3}$ mol
 
-$$m(Cu) = 4.663 \times 10^{-3} \times 63.5 = 0.296 \text{ g}$$
+$$
+m(Cu) = 4.663 \times 10^{-3} \times 63.5 = 0.296 \text{ g}
+$$
 
 (c) The theoretical mass (0.296 g) matches the actual mass change at the anode (0.296 g) exactly in
 this case. This makes sense because with copper electrodes, the anode dissolves
@@ -267,11 +287,15 @@ Oxidation: $Zn \rightarrow Zn^{2+} + 2e^{-}$ ($E^{\circ} = +0.76$ V as oxidation
 
 Reduction: $Cu^{2+} + 2e^{-} \rightarrow Cu$ ($E^{\circ} = +0.34$ V)
 
-$$E^{\circ}_{\text{cell}} = 0.34 - (-0.76) = +1.10 \text{ V}$$
+$$
+E^{\circ}_{\text{cell}} = 0.34 - (-0.76) = +1.10 \text{ V}
+$$
 
 Since $E^{\circ}_{\text{cell}} \gt 0$The reaction is feasible:
 
-$$Zn(s) + Cu^{2+}(aq) \rightarrow Zn^{2+}(aq) + Cu(s)$$
+$$
+Zn(s) + Cu^{2+}(aq) \rightarrow Zn^{2+}(aq) + Cu(s)
+$$
 
 (b) Silver will **not** react with dilute HCl.
 
@@ -279,7 +303,9 @@ $Ag$ has $E^{\circ} = +0.80$ V, which is more positive than $H^{+}/H_{2}$ ($E^{\
 Silver is **below** hydrogen in the electrochemical series, meaning $Ag$ is a weaker reducing agent
 than $H_{2}$. Silver cannot reduce $H^{+}$ to $H_{2}$.
 
-$$E^{\circ}_{\text{cell}} = 0.00 - 0.80 = -0.80 \text{ V} \lt 0$$
+$$
+E^{\circ}_{\text{cell}} = 0.00 - 0.80 = -0.80 \text{ V} \lt 0
+$$
 
 The reaction is not feasible.
 
@@ -287,7 +313,9 @@ The reaction is not feasible.
 
 Reduction at cathode: $Ag^{+} + e^{-} \rightarrow Ag$
 
-$$E^{\circ}_{\text{cell}} = E^{\circ}_{\text{cathode}} - E^{\circ}_{\text{anode}} = 0.80 - (-0.76) = +1.56 \text{ V}$$
+$$
+E^{\circ}_{\text{cell}} = E^{\circ}_{\text{cathode}} - E^{\circ}_{\text{anode}} = 0.80 - (-0.76) = +1.56 \text{ V}
+$$
 
 Electrons flow from the **zinc electrode (anode)** through the external circuit to the **silver
 electrode (cathode)**.
@@ -339,10 +367,14 @@ Moles of electrons: $n(e^{-}) = \frac{36000}{96500} = 0.3731$ mol
 
 Moles of $Al$: $n(Al) = \frac{0.3731}{3} = 0.1244$ mol
 
-$$m(Al) = 0.1244 \times 27.0 = 3.36 \text{ g}$$
+$$
+m(Al) = 0.1244 \times 27.0 = 3.36 \text{ g}
+$$
 
 (c)
-$$\text{Current efficiency} = \frac{\text{actual mass}}{\text{theoretical mass}} \times 100\% = \frac{2.80}{3.36} \times 100\% = 83.3\%$$
+$$
+\text{Current efficiency} = \frac{\text{actual mass}}{\text{theoretical mass}} \times 100\% = \frac{2.80}{3.36} \times 100\% = 83.3\%
+$$
 
 The efficiency is less than 100\% due to:
 
@@ -375,7 +407,9 @@ The efficiency is less than 100\% due to:
 
 Consider the following cell:
 
-$$Sn(s) | Sn^{2+}(aq, 1.0 \text{ mol/dm}^{3}) || Cu^{2+}(aq, 1.0 \text{ mol/dm}^{3}) | Cu(s)$$
+$$
+Sn(s) | Sn^{2+}(aq, 1.0 \text{ mol/dm}^{3}) || Cu^{2+}(aq, 1.0 \text{ mol/dm}^{3}) | Cu(s)
+$$
 
 Standard electrode potentials: $Sn^{2+}/Sn = -0.14$ V; $Cu^{2+}/Cu = +0.34$ V.
 
@@ -403,26 +437,40 @@ Standard electrode potentials: $Sn^{2+}/Sn = -0.14$ V; $Cu^{2+}/Cu = +0.34$ V.
 
 **Cathode**: $Cu$ electrode (reduction occurs).
 
-$$E^{\circ}_{\text{cell}} = E^{\circ}_{\text{cathode}} - E^{\circ}_{\text{anode}} = 0.34 - (-0.14) = +0.48 \text{ V}$$
+$$
+E^{\circ}_{\text{cell}} = E^{\circ}_{\text{cathode}} - E^{\circ}_{\text{anode}} = 0.34 - (-0.14) = +0.48 \text{ V}
+$$
 
 (b) $Sn(s) + Cu^{2+}(aq) \rightarrow Sn^{2+}(aq) + Cu(s)$
 
 (c) Using the Nernst equation for the cell reaction $Sn + Cu^{2+} \rightarrow Sn^{2+} + Cu$ (2
 electrons transferred):
 
-$$E_{\text{cell}} = E^{\circ}_{\text{cell}} - \frac{RT}{nF}\ln Q$$
+$$
+E_{\text{cell}} = E^{\circ}_{\text{cell}} - \frac{RT}{nF}\ln Q
+$$
 
 At 298 K:
 
-$$E_{\text{cell}} = E^{\circ}_{\text{cell}} - \frac{0.0592}{n}\log Q$$
+$$
+E_{\text{cell}} = E^{\circ}_{\text{cell}} - \frac{0.0592}{n}\log Q
+$$
 
-$$Q = \frac{[Sn^{2+}]}{[Cu^{2+}]} = \frac{5.0}{1.0} = 5.0$$
+$$
+Q = \frac{[Sn^{2+}]}{[Cu^{2+}]} = \frac{5.0}{1.0} = 5.0
+$$
 
-$$E_{\text{cell}} = 0.48 - \frac{0.0592}{2}\log(5.0)$$
+$$
+E_{\text{cell}} = 0.48 - \frac{0.0592}{2}\log(5.0)
+$$
 
-$$= 0.48 - 0.0296 \times 0.699$$
+$$
+= 0.48 - 0.0296 \times 0.699
+$$
 
-$$= 0.48 - 0.0207 = 0.459 \text{ V}$$
+$$
+= 0.48 - 0.0207 = 0.459 \text{ V}
+$$
 
 The cell EMF **decreases** from 0.48 V to 0.459 V. Increasing $[Sn^{2+}]$ (product concentration)
 shifts the equilibrium towards the reactants, reducing the driving force for the forward reaction.

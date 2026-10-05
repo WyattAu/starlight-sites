@@ -97,7 +97,9 @@ Share more similar sequences because less time has elapsed for mutations to accu
 Approximately constant for neutral mutations. By counting sequence differences between two species
 And calibrating with the fossil record, the time since divergence can be estimated:
 
-$$t = \frac{d}{2r}$$
+$$
+t = \frac{d}{2r}
+$$
 
 Where $d$ is the number of substitutions per site between the two sequences, $r$ is the mutation
 Rate per site per year, and the factor of $2$ accounts for divergence along both lineages.
@@ -155,7 +157,9 @@ The geographic distribution of species provides evidence for evolution:
 
 Favours one extreme phenotype, shifting the population mean in that direction.
 
-$$\Delta\bar{z} = \frac{G \cdot S}{\bar{w}}$$
+$$
+\Delta\bar{z} = \frac{G \cdot S}{\bar{w}}
+$$
 
 Where $\Delta\bar{z}$ is the change in the mean phenotype, $G$ is the additive genetic variance, $S$
 is the selection differential (difference between the mean of selected parents and the Population
@@ -445,12 +449,16 @@ $$p + q = 1$$ $$p^2 + 2pq + q^2 = 1$$
 
 For a locus with $n$ alleles with frequencies $p_1, p_2, \ldots, p_n$:
 
-$$\sum_{i=1}^{n} p_i = 1$$
+$$
+\sum_{i=1}^{n} p_i = 1
+$$
 
 The expected frequency of homozygote $p_i^2$ and heterozygote $2p_ip_j$ for all pairs.
 
 **Example**: ABO blood group with three alleles ($I^A$, $I^B$, $i$): $$p_{I^A} + p_{I^B} + p_i = 1$$
-$$f(I^AI^A) = p_{I^A}^2, \quad f(I^AI^B) = 2p_{I^A}p_{I^B}, \quad f(I^Ai) = 2p_{I^A}p_i, \quad \ldots$$
+$$
+f(I^AI^A) = p_{I^A}^2, \quad f(I^AI^B) = 2p_{I^A}p_{I^B}, \quad f(I^Ai) = 2p_{I^A}p_i, \quad \ldots
+$$
 
 ### Effects of Evolutionary Forces on Hardy-Weinberg
 
@@ -465,7 +473,9 @@ drift act.
 
 The introduction of alleles from another population changes allele frequencies:
 
-$$\Delta p = m(p_m - p_r)$$
+$$
+\Delta p = m(p_m - p_r)
+$$
 
 Where $m$ is the migration rate, $p_m$ is the allele frequency in the migrant population, and $p_r$
 is the allele frequency in the resident population. Gene flow tends to homogenise allele Frequencies
@@ -520,7 +530,9 @@ $w = 1 - s$.
 $aa$ genotype. The selection acts against the $aa$ homozygote.
 
 **Rate of change of a deleterious allele under selection:**
-$$\Delta q \approx -\frac{spq^2}{1 - sq^2}$$
+$$
+\Delta q \approx -\frac{spq^2}{1 - sq^2}
+$$
 
 For a completely recessive deleterious allele ($s$ against $aa$), the allele is sheltered in
 Heterozygotes and is eliminated very slowly when rare ($\Delta q \propto q^2$).

@@ -42,11 +42,15 @@ Vectors $x, y \in H$ are **orthogonal** (written $x \perp y$) if $\langle x, y\r
 
 **Theorem 2.2 (Parallelogram Law).** In any inner product space:
 
-$$\|x + y\|^2 + \|x - y\|^2 = 2\|x\|^2 + 2\|y\|^2$$
+$$
+\|x + y\|^2 + \|x - y\|^2 = 2\|x\|^2 + 2\|y\|^2
+$$
 
 **Theorem 2.3 (Polarization Identity).** In a complex inner product space:
 
-$$\langle x, y\rangle = \frac{1}{4}\left(\|x + y\|^2 - \|x - y\|^2 + i\|x + iy\|^2 - i\|x - iy\|^2\right)$$
+$$
+\langle x, y\rangle = \frac{1}{4}\left(\|x + y\|^2 - \|x - y\|^2 + i\|x + iy\|^2 - i\|x - iy\|^2\right)
+$$
 
 **Theorem 2.4 (Cauchy-Schwarz Inequality).** $|\langle x, y\rangle| \leq \|x\| \cdot \|y\|$ with
 equality iff $x$ and $y$ are linearly dependent.
@@ -76,7 +80,9 @@ basis.
 **Theorem 2.9 (Parseval's Identity).** If $\{e_n\}$ is an orthonormal basis for $H$, then for every
 $x \in H$:
 
-$$\|x\|^2 = \sum_{n=1}^{\infty} |\langle x, e_n\rangle|^2 \quad \text{and} \quad x = \sum_{n=1}^{\infty} \langle x, e_n\rangle e_n$$
+$$
+\|x\|^2 = \sum_{n=1}^{\infty} |\langle x, e_n\rangle|^2 \quad \text{and} \quad x = \sum_{n=1}^{\infty} \langle x, e_n\rangle e_n
+$$
 
 ### 2.5 Riesz Representation Theorem
 

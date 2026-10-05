@@ -48,7 +48,9 @@ table size. Store the key-value pair at this index.
 
 #### Division Method
 
-$$h(k) = k \bmod m$$
+$$
+h(k) = k \bmod m
+$$
 
 **Choosing $m$.** Avoid powers of 2 (patterns in keys align with binary structure). Choose $m$ to be
 A **prime** not close to a power of 2.
@@ -57,7 +59,9 @@ A **prime** not close to a power of 2.
 >
 #### Multiplication Method
 
-$$h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor$$
+$$
+h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor
+$$
 
 Where $A$ is a constant $0 \lt A \lt 1$ (Knuth suggests
 $A = \frac{\sqrt{5} - 1}{2} \approx 0.618$).
@@ -66,7 +70,9 @@ $A = \frac{\sqrt{5} - 1}{2} \approx 0.618$).
 
 #### Polynomial Rolling Hash (for strings)
 
-$$h(s) = \left(\sum_{i=0}^{n-1} s[i] \cdot p^i\right) \bmod m$$
+$$
+h(s) = \left(\sum_{i=0}^{n-1} s[i] \cdot p^i\right) \bmod m
+$$
 
 Where $p$ is a prime ( 31 or 37) and $m$ is a large prime or $2^{64}$.
 
@@ -163,7 +169,9 @@ Algorithm **probes** for the next available slot.
 
 ### Linear Probing
 
-$$h(k, i) = (h"(k) + i) \bmod m$$
+$$
+h(k, i) = (h"(k) + i) \bmod m
+$$
 
 Where $i = 0, 1, 2, \ldots$ is the probe sequence.
 
@@ -218,13 +226,17 @@ Load factor approaches 1 (vs $O(1)$ for uniform hashing).
 More formally, after inserting $n$ keys into a table of size $m$ with linear probing, the expected
 Number of probes for an unsuccessful search is approximately:
 
-$$\frac{1}{2}\left(1 + \frac{1}{(1 - \alpha)^2}\right)$$
+$$
+\frac{1}{2}\left(1 + \frac{1}{(1 - \alpha)^2}\right)
+$$
 
 Where $\alpha = n/m$ is the load factor. As $\alpha \to 1$This grows to $\infty$. $\square$
 
 ### Quadratic Probing
 
-$$h(k, i) = (h'(k) + c_1 i + c_2 i^2) \bmod m$$
+$$
+h(k, i) = (h'(k) + c_1 i + c_2 i^2) \bmod m
+$$
 
 Eliminates primary clustering but may cause **secondary clustering** (keys with the same initial
 Hash follow the same probe sequence).
@@ -234,7 +246,9 @@ will always find an empty slot.
 
 ### Double Hashing
 
-$$h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$$
+$$
+h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m
+$$
 
 Uses a second hash function $h_2$ to determine the probe step. Eliminates both primary and secondary
 Clustering.
@@ -248,7 +262,9 @@ $h_2(k) = 1 + (k \bmod (m - 1))$.
 
 ### Definition
 
-$$\alpha = \frac{n}{m}$$
+$$
+\alpha = \frac{n}{m}
+$$
 
 Where $n$ is the number of stored keys and $m$ is the table size.
 
@@ -766,7 +782,9 @@ We can select specific digit groups to reduce the number while preserving distri
 **Hash function:** Extract the last 5 digits of the ISBN and use the division method with
 $m = 10007$ (a prime):
 
-$$h(\mathrm{isbn}) = (\mathrm{isbn} \bmod 100000) \bmod 10007$$
+$$
+h(\mathrm{isbn}) = (\mathrm{isbn} \bmod 100000) \bmod 10007
+$$
 
 **Rationale:**
 

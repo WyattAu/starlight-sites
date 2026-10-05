@@ -43,7 +43,9 @@ categories:
 
 **Carbonates:** $\text{M}_2\text{CO}_3$, thermal stability increases down the group.
 
-$$\text{Li}_2\text{CO}_3 \xrightarrow{\Delta} \text{Li}_2\text{O} + \text{CO}_2$$
+$$
+\text{Li}_2\text{CO}_3 \xrightarrow{\Delta} \text{Li}_2\text{O} + \text{CO}_2
+$$
 
 (Na$_2$CO$_3$ is thermally stable.)
 
@@ -72,11 +74,15 @@ Lithium differs from other Group 1 elements due to its small size and high charg
 
 **Hydroxides:** $\text{M(OH)}_2$. Solubility increases down the group:
 
-$$\text{Be(OH)}_2 \ll \text{Mg(OH)}_2 < \text{Ca(OH)}_2 < \text{Sr(OH)}_2 < \text{Ba(OH)}_2$$
+$$
+\text{Be(OH)}_2 \ll \text{Mg(OH)}_2 < \text{Ca(OH)}_2 < \text{Sr(OH)}_2 < \text{Ba(OH)}_2
+$$
 
 **Carbonates:** $\text{MCO}_3$. Thermal stability increases down the group. All decompose on heating:
 
-$$\text{MCO}_3 \xrightarrow{\Delta} \text{MO} + \text{CO}_2$$
+$$
+\text{MCO}_3 \xrightarrow{\Delta} \text{MO} + \text{CO}_2
+$$
 
 **Sulfates:** Solubility decreases down the group ($\text{BaSO}_4$ is insoluble, used in X-ray
 imaging). $\text{MgSO}_4$ is soluble (Epsom salts).
@@ -97,11 +103,15 @@ compounds.
 
 **Boranes:** $\text{B}_2\text{H}_6$ (diborane) features 3-center-2-electron bonds (banana bonds).
 
-$$\text{B}_2\text{H}_6 \text{ structure: } \text{Two BH}_2 \text{ units bridged by two H atoms}$$
+$$
+\text{B}_2\text{H}_6 \text{ structure: } \text{Two BH}_2 \text{ units bridged by two H atoms}
+$$
 
 **Boric acid:** $\text{B(OH)}_3$ is a Lewis acid (not a Bronsted acid in the conventional sense):
 
-$$\text{B(OH)}_3 + \text{H}_2\text{O} \rightleftharpoons \text{B(OH)}_4^- + \text{H}^+$$
+$$
+\text{B(OH)}_3 + \text{H}_2\text{O} \rightleftharpoons \text{B(OH)}_4^- + \text{H}^+
+$$
 
 **Boron trihalides:** $\text{BX}_3$ are strong Lewis acids, with strength $\text{BF}_3 < \text{BCl}_3 < \text{BBr}_3$.
 $\text{BF}_3$ is weaker than expected due to $p\pi$–$p\pi$ back-bonding from F lone pairs.
@@ -111,9 +121,13 @@ $\text{BF}_3$ is weaker than expected due to $p\pi$–$p\pi$ back-bonding from F
 - Most abundant metal in Earth's crust.
 - Amphoteric: reacts with both acids and bases:
 
-$$2\text{Al} + 6\text{HCl} \to 2\text{AlCl}_3 + 3\text{H}_2$$
+$$
+2\text{Al} + 6\text{HCl} \to 2\text{AlCl}_3 + 3\text{H}_2
+$$
 
-$$2\text{Al} + 2\text{NaOH} + 6\text{H}_2\text{O} \to 2\text{Na}[\text{Al(OH)}_4] + 3\text{H}_2$$
+$$
+2\text{Al} + 2\text{NaOH} + 6\text{H}_2\text{O} \to 2\text{Na}[\text{Al(OH)}_4] + 3\text{H}_2
+$$
 
 - $\text{AlCl}_3$: Lewis acid catalyst (Friedel-Crafts); exists as $\text{Al}_2\text{Cl}_6$ dimer.
 
@@ -121,7 +135,9 @@ $$2\text{Al} + 2\text{NaOH} + 6\text{H}_2\text{O} \to 2\text{Na}[\text{Al(OH)}_4
 
 **Theorem 3 (Inert Pair Effect in Group 13):** $+1$ oxidation state becomes more stable down the group:
 
-$$\text{Tl}^+ \text{ is more stable than } \text{Tl}^{3+}$$
+$$
+\text{Tl}^+ \text{ is more stable than } \text{Tl}^{3+}
+$$
 
 ## 4. Group 14: Carbon Group
 
@@ -161,7 +177,9 @@ $$\text{Tl}^+ \text{ is more stable than } \text{Tl}^{3+}$$
 
 **Theorem 5 (Nitrogen Fixation):**
 
-$$\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad \Delta H = -92 \text{ kJ/mol}$$
+$$
+\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad \Delta H = -92 \text{ kJ/mol}
+$$
 
 Haber-Bosch process: High $T$, high $P$, Fe catalyst.
 
@@ -207,9 +225,15 @@ Haber-Bosch process: High $T$, high $P$, Fe catalyst.
 
 **Theorem 7 (Chapman Cycle):** Ozone formation and destruction in the stratosphere:
 
-$$\text{O}_2 \xrightarrow{h\nu} 2\text{O}$$
-$$\text{O} + \text{O}_2 + \text{M} \to \text{O}_3 + \text{M}$$
-$$\text{O}_3 \xrightarrow{h\nu} \text{O} + \text{O}_2$$
+$$
+\text{O}_2 \xrightarrow{h\nu} 2\text{O}
+$$
+$$
+\text{O} + \text{O}_2 + \text{M} \to \text{O}_3 + \text{M}
+$$
+$$
+\text{O}_3 \xrightarrow{h\nu} \text{O} + \text{O}_2
+$$
 
 ### 6.2 Sulfur
 
@@ -319,7 +343,9 @@ $\text{PF}_5$, $\text{SF}_6$, $\text{ClF}_3$, $\text{XeF}_4$.
 **Theorem 10 (3c-4e Model):** Hypervalent bonding is better described using 3-center-4-electron bonds
 rather than expanded octets. For example, in $\text{XeF}_2$:
 
-$$\text{F}^{–}\cdots\text{Xe}^+\cdots\text{F}^{–}$$
+$$
+\text{F}^{–}\cdots\text{Xe}^+\cdots\text{F}^{–}
+$$
 
 Two electrons in the bonding orbital, two in a non-bonding orbital, and the Xe lone pairs remain
 in regular orbitals. This avoids invoking $d$-orbital participation (which is energetically

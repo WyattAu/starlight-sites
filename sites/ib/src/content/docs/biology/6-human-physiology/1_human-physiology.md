@@ -1112,7 +1112,9 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 
 **Fick's Law** applied to alveolar exchange:
 
-$$\text{Rate of diffusion} \propto \frac{A \times \Delta P}{d}$$
+$$
+\text{Rate of diffusion} \propto \frac{A \times \Delta P}{d}
+$$
 
 - $A$ (surface area) $\approx 70\;\mathrm{m}^2$ in adult lungs.
 - $\Delta P$ (partial pressure gradient) maintained by ventilation.
@@ -1121,7 +1123,9 @@ $$\text{Rate of diffusion} \propto \frac{A \times \Delta P}{d}$$
 
 **Alveolar gas equation:**
 
-$$P_A\mathrm{O}_2 = P_I\mathrm{O}_2 - \frac{P_A\mathrm{CO}_2}{R}$$
+$$
+P_A\mathrm{O}_2 = P_I\mathrm{O}_2 - \frac{P_A\mathrm{CO}_2}{R}
+$$
 
 Where $R$ is the respiratory exchange ratio ($\approx 0.85$ at rest).
 

@@ -77,12 +77,16 @@ $2^1 \times 2^2 = 8$ times. $1.2 \times 10^{-3} \times 8 = 9.6 \times 10^{-3}$. 
 
 Using experiment 1:
 
-$$k = \frac{\text{rate}}{[A][B]^2} = \frac{1.2 \times 10^{-3}}{0.10 \times 0.10^2} = \frac{1.2 \times 10^{-3}}{1.0 \times 10^{-3}} = 1.2$$
+$$
+k = \frac{\text{rate}}{[A][B]^2} = \frac{1.2 \times 10^{-3}}{0.10 \times 0.10^2} = \frac{1.2 \times 10^{-3}}{1.0 \times 10^{-3}} = 1.2
+$$
 
 Units of $k$:
 $\frac{\text{mol dm}^{-3}\text{ s}^{-1}}{(\text{mol dm}^{-3})(\text{mol dm}^{-3})^2} = \frac{\text{mol dm}^{-3}\text{ s}^{-1}}{\text{mol}^3\text{ dm}^{-9}} = \text{mol}^{-2}\text{ dm}^6\text{ s}^{-1}$
 
-$$k = 1.2\,\text{mol}^{-2}\text{ dm}^6\text{ s}^{-1}$$
+$$
+k = 1.2\,\text{mol}^{-2}\text{ dm}^6\text{ s}^{-1}
+$$
 
 (c) The rate depends on both the rate constant and the concentrations of reactants
 ($\text{rate} = k[A]^m[B]^n$). Changing concentration changes the rate because there are more
@@ -123,33 +127,55 @@ $y$-intercept of this line in terms of the Arrhenius parameters.
 
 (a) Using the Arrhenius equation in two-temperature form:
 
-$$\ln\left(\frac{k_2}{k_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\left(\frac{k_2}{k_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
-$$\ln\left(\frac{1.35 \times 10^{-3}}{3.46 \times 10^{-5}}\right) = \frac{E_a}{8.31}\left(\frac{1}{300} - \frac{1}{350}\right)$$
+$$
+\ln\left(\frac{1.35 \times 10^{-3}}{3.46 \times 10^{-5}}\right) = \frac{E_a}{8.31}\left(\frac{1}{300} - \frac{1}{350}\right)
+$$
 
-$$\ln(39.02) = \frac{E_a}{8.31} \times 4.762 \times 10^{-4}$$
+$$
+\ln(39.02) = \frac{E_a}{8.31} \times 4.762 \times 10^{-4}
+$$
 
-$$3.664 = \frac{E_a}{8.31} \times 4.762 \times 10^{-4}$$
+$$
+3.664 = \frac{E_a}{8.31} \times 4.762 \times 10^{-4}
+$$
 
-$$E_a = \frac{3.664 \times 8.31}{4.762 \times 10^{-4}} = \frac{30.44}{4.762 \times 10^{-4}} = 63930\,\text{J mol}^{-1} = 63.9\,\text{kJ mol}^{-1}$$
+$$
+E_a = \frac{3.664 \times 8.31}{4.762 \times 10^{-4}} = \frac{30.44}{4.762 \times 10^{-4}} = 63930\,\text{J mol}^{-1} = 63.9\,\text{kJ mol}^{-1}
+$$
 
 (b) Using the Arrhenius equation with $T = 320\,\text{K}$:
 
-$$\ln k = \ln A - \frac{E_a}{RT}$$
+$$
+\ln k = \ln A - \frac{E_a}{RT}
+$$
 
 First find $\ln A$ using $T = 300\,\text{K}$:
 
-$$\ln(3.46 \times 10^{-5}) = \ln A - \frac{63930}{8.31 \times 300}$$
+$$
+\ln(3.46 \times 10^{-5}) = \ln A - \frac{63930}{8.31 \times 300}
+$$
 
-$$-10.27 = \ln A - 25.65$$
+$$
+-10.27 = \ln A - 25.65
+$$
 
-$$\ln A = 15.38$$
+$$
+\ln A = 15.38
+$$
 
 Now at $320\,\text{K}$:
 
-$$\ln k = 15.38 - \frac{63930}{8.31 \times 320} = 15.38 - 24.04 = -8.66$$
+$$
+\ln k = 15.38 - \frac{63930}{8.31 \times 320} = 15.38 - 24.04 = -8.66
+$$
 
-$$k = e^{-8.66} = 1.74 \times 10^{-4}\,\text{s}^{-1}$$
+$$
+k = e^{-8.66} = 1.74 \times 10^{-4}\,\text{s}^{-1}
+$$
 
 (c) The Arrhenius equation in logarithmic form is
 $\ln k = -\frac{E_a}{R}\cdot\frac{1}{T} + \ln A$Which has the form $y = mx + c$ where $y = \ln k$
@@ -206,9 +232,13 @@ exponential dependence of $k$ on $1/T$.
 
 (c) Using the Arrhenius equation:
 
-$$\frac{k_{\text{catalysed}}}{k_{\text{uncatalysed}}} = \frac{Ae^{-E_{a,\text{cat}}/RT}}{Ae^{-E_{a,\text{uncat}}/RT}} = e^{(E_{a,\text{uncat}} - E_{a,\text{cat}})/RT}$$
+$$
+\frac{k_{\text{catalysed}}}{k_{\text{uncatalysed}}} = \frac{Ae^{-E_{a,\text{cat}}/RT}}{Ae^{-E_{a,\text{uncat}}/RT}} = e^{(E_{a,\text{uncat}} - E_{a,\text{cat}})/RT}
+$$
 
-$$= e^{(120000 - 80000)/(8.31 \times 500)} = e^{40000/4155} = e^{9.627} = 1.52 \times 10^4$$
+$$
+= e^{(120000 - 80000)/(8.31 \times 500)} = e^{40000/4155} = e^{9.627} = 1.52 \times 10^4
+$$
 
 The catalysed reaction is approximately $15000$ times faster at $500\,\text{K}$.
 
@@ -221,7 +251,9 @@ The catalysed reaction is approximately $15000$ times faster at $500\,\text{K}$.
 The reaction between 2-bromo-2-methylpropane ($\text{(CH}_3\text{)}_3\text{CBr}$) and sodium
 hydroxide follows the rate equation:
 
-$$\text{rate} = k[(\text{CH}_3)_3\text{CBr}]$$
+$$
+\text{rate} = k[(\text{CH}_3)_3\text{CBr}]
+$$
 
 The reaction is zero order with respect to $\text{OH}^-$.
 
@@ -242,14 +274,18 @@ nucleophilic substitution):
 
 **Step 1 (slow, rate-determining):** Heterolytic fission of the C--Br bond:
 
-$$(\text{CH}_3)_3\text{CBr} \to (\text{CH}_3)_3\text{C}^+ + \text{Br}^-$$
+$$
+(\text{CH}_3)_3\text{CBr} \to (\text{CH}_3)_3\text{C}^+ + \text{Br}^-
+$$
 
 Only the halogenoalkane is involved in this step, giving the observed rate equation
 $\text{rate} = k[(\text{CH}_3)_3\text{CBr}]$.
 
 **Step 2 (fast):** Nucleophilic attack by $\text{OH}^-$ on the carbocation:
 
-$$(\text{CH}_3)_3\text{C}^+ + \text{OH}^- \to (\text{CH}_3)_3\text{COH}$$
+$$
+(\text{CH}_3)_3\text{C}^+ + \text{OH}^- \to (\text{CH}_3)_3\text{COH}
+$$
 
 (b) Bromoethane is a **primary halogenoalkane**. Primary carbocations are too unstable to form, so
 the reaction proceeds via an **SN2 mechanism** (bimolecular nucleophilic substitution). In SN2, the
@@ -265,7 +301,9 @@ This makes the SN1 pathway energetically favourable.
 with substitution. The carbocation intermediate can lose a proton (from an adjacent carbon) to a
 base ($\text{OH}^-$), forming 2-methylpropene:
 
-$$(\text{CH}_3)_3\text{C}^+ + \text{OH}^- \to (\text{CH}_3)_2\text{C}=\text{CH}_2 + \text{H}_2\text{O}$$
+$$
+(\text{CH}_3)_3\text{C}^+ + \text{OH}^- \to (\text{CH}_3)_2\text{C}=\text{CH}_2 + \text{H}_2\text{O}
+$$
 
 Higher temperatures favour elimination (which has a higher activation energy), and concentrated NaOH
 favours elimination over substitution.
@@ -305,11 +343,17 @@ and reverse rate constants.
 
 (a) At equilibrium, $\text{rate}_f = \text{rate}_r$:
 
-$$k_f[A][B] = k_r[C][D]$$
+$$
+k_f[A][B] = k_r[C][D]
+$$
 
-$$\frac{k_f}{k_r} = \frac{[C][D]}{[A][B]} = K_c$$
+$$
+\frac{k_f}{k_r} = \frac{[C][D]}{[A][B]} = K_c
+$$
 
-$$k_r = \frac{k_f}{K_c} = \frac{0.050}{4.0} = 0.0125\,\text{mol}^{-1}\text{ dm}^3\text{ s}^{-1}$$
+$$
+k_r = \frac{k_f}{K_c} = \frac{0.050}{4.0} = 0.0125\,\text{mol}^{-1}\text{ dm}^3\text{ s}^{-1}
+$$
 
 (b) Let $x$ be the amount of A (and B) that reacts at equilibrium:
 
@@ -319,15 +363,25 @@ $$k_r = \frac{k_f}{K_c} = \frac{0.050}{4.0} = 0.0125\,\text{mol}^{-1}\text{ dm}^
 | Change      | $-x$       | $-x$       | $+x$ | $+x$ |
 | Equilibrium | $0.50 - x$ | $0.50 - x$ | $x$  | $x$  |
 
-$$K_c = \frac{[C][D]}{[A][B]} = \frac{x^2}{(0.50 - x)^2} = 4.0$$
+$$
+K_c = \frac{[C][D]}{[A][B]} = \frac{x^2}{(0.50 - x)^2} = 4.0
+$$
 
-$$\frac{x}{0.50 - x} = 2.0$$
+$$
+\frac{x}{0.50 - x} = 2.0
+$$
 
-$$x = 1.0 - 2x$$
+$$
+x = 1.0 - 2x
+$$
 
-$$3x = 1.0$$
+$$
+3x = 1.0
+$$
 
-$$x = 0.333\,\text{mol dm}^{-3}$$
+$$
+x = 0.333\,\text{mol dm}^{-3}
+$$
 
 Equilibrium concentrations:
 $[A] = [B] = 0.167\,\text{mol dm}^{-3}$, $[C] = [D] = 0.333\,\text{mol dm}^{-3}$.
@@ -358,7 +412,9 @@ reaction is more favoured. Since $K_c = k_f/k_r$ And $K_c$ has increased:
 
 The decomposition of hydrogen peroxide is catalysed by manganese(IV) oxide:
 
-$$2\text{H}_2\text{O}_2(aq) \xrightarrow{\text{MnO}_2} 2\text{H}_2\text{O}(l) + \text{O}_2(g)$$
+$$
+2\text{H}_2\text{O}_2(aq) \xrightarrow{\text{MnO}_2} 2\text{H}_2\text{O}(l) + \text{O}_2(g)
+$$
 
 (a) Explain, with reference to the Boltzmann distribution, how $\text{MnO}_2$ increases the rate of
 decomposition without being consumed.
@@ -381,17 +437,25 @@ recovered in its original form.
 
 (b) Using the ideal gas equation to find moles of $\text{O}_2$:
 
-$$n(\text{O}_2) = \frac{pV}{RT} = \frac{1.01 \times 10^5 \times 290 \times 10^{-6}}{8.31 \times 298} = \frac{29.29}{2476.4} = 0.01183\,\text{mol}$$
+$$
+n(\text{O}_2) = \frac{pV}{RT} = \frac{1.01 \times 10^5 \times 290 \times 10^{-6}}{8.31 \times 298} = \frac{29.29}{2476.4} = 0.01183\,\text{mol}
+$$
 
 From the equation, 2 mol $\text{H}_2\text{O}_2$ produce 1 mol $\text{O}_2$:
 
-$$n(\text{H}_2\text{O}_2\text{ decomposed}) = 2 \times 0.01183 = 0.02366\,\text{mol}$$
+$$
+n(\text{H}_2\text{O}_2\text{ decomposed}) = 2 \times 0.01183 = 0.02366\,\text{mol}
+$$
 
 Initial moles of $\text{H}_2\text{O}_2$:
 
-$$n(\text{H}_2\text{O}_2\text{ initial}) = 0.50 \times \frac{50.0}{1000} = 0.0250\,\text{mol}$$
+$$
+n(\text{H}_2\text{O}_2\text{ initial}) = 0.50 \times \frac{50.0}{1000} = 0.0250\,\text{mol}
+$$
 
-$$\text{Percentage decomposed} = \frac{0.02366}{0.0250} \times 100 = 94.6\%$$
+$$
+\text{Percentage decomposed} = \frac{0.02366}{0.0250} \times 100 = 94.6\%
+$$
 
 (c) A catalyst **does not** change the enthalpy change of the reaction. The enthalpy change
 $\Delta H$ depends only on the initial and final states (it is a state function), not on the pathway
@@ -454,15 +518,25 @@ activation energy.
 
 Using the Arrhenius equation in logarithmic form:
 
-$$\ln\frac{k_2}{k_1} = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{k_2}{k_1} = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
-$$\ln\frac{1.21 \times 10^{-2}}{3.40 \times 10^{-3}} = -\frac{E_a}{8.314}\left(\frac{1}{320} - \frac{1}{300}\right)$$
+$$
+\ln\frac{1.21 \times 10^{-2}}{3.40 \times 10^{-3}} = -\frac{E_a}{8.314}\left(\frac{1}{320} - \frac{1}{300}\right)
+$$
 
-$$\ln(3.559) = -\frac{E_a}{8.314}(0.003125 - 0.003333)$$
+$$
+\ln(3.559) = -\frac{E_a}{8.314}(0.003125 - 0.003333)
+$$
 
-$$1.269 = -\frac{E_a}{8.314}(-2.083 \times 10^{-4})$$
+$$
+1.269 = -\frac{E_a}{8.314}(-2.083 \times 10^{-4})
+$$
 
-$$E_a = \frac{1.269}{2.083 \times 10^{-4}} \times 8.314 = 50600\,\mathrm{J\,mol^{-1}} = 50.6\,\mathrm{kJ\,mol^{-1}}$$
+$$
+E_a = \frac{1.269}{2.083 \times 10^{-4}} \times 8.314 = 50600\,\mathrm{J\,mol^{-1}} = 50.6\,\mathrm{kJ\,mol^{-1}}
+$$
 
 #### UT-4: Initial Rates and Mechanism
 

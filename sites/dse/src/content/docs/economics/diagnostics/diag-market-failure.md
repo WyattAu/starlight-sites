@@ -273,7 +273,9 @@ the subsidy is 30 regardless of the quantity.
 
 (d) DWL of underconsumption:
 
-$$DWL = \frac{1}{2} \times MEB \times (Q^* - Q_m) = \frac{1}{2} \times 30 \times (126.67 - 106.67) = \frac{1}{2} \times 30 \times 20 = 300$$
+$$
+DWL = \frac{1}{2} \times MEB \times (Q^* - Q_m) = \frac{1}{2} \times 30 \times (126.67 - 106.67) = \frac{1}{2} \times 30 \times 20 = 300
+$$
 
 The DWL is $\$300$ thousand (or $\$300,000$ in absolute terms). This represents the net social
 benefit that is forgone because the market produces too few university graduates.
@@ -307,7 +309,9 @@ $Q = (80 - 56)/0.2 = 120 = Q^*$.
 
 (d) DWL without the charge:
 
-$$DWL = \frac{1}{2} \times MEC_{at Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(300) \times (300 - 120) = \frac{1}{2} \times 90 \times 180 = \text{HK}\$8\,100$$
+$$
+DWL = \frac{1}{2} \times MEC_{at Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(300) \times (300 - 120) = \frac{1}{2} \times 90 \times 180 = \text{HK}\$8\,100
+$$
 
 (thousands, i.e., HK$8.1 million per hour).
 
@@ -432,7 +436,9 @@ project. (b) Calculate the benefit-cost ratio. (c) Should the government proceed
 
 Present value of benefits (40-year annuity at 4%):
 
-$$PV = \frac{C}{r}\left(1 - \frac{1}{(1+r)^n}\right) = \frac{13}{0.04}\left(1 - \frac{1}{(1.04)^{40}}\right)$$
+$$
+PV = \frac{C}{r}\left(1 - \frac{1}{(1+r)^n}\right) = \frac{13}{0.04}\left(1 - \frac{1}{(1.04)^{40}}\right)
+$$
 
 $(1.04)^{40} = 4.8010$. $PV = 325 \times (1 - 0.2083) = 325 \times 0.7917 = \text{HK}\$257.3$
 billion.

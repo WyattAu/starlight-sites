@@ -48,11 +48,15 @@ Key examples include $\sqrt{2}$, $\pi$ And $e$.
 **Proof.** Suppose for contradiction that $\sqrt{2} = \frac{p}{q}$ where $p$ and $q$ are coprime
 Integers with $q \neq 0$. Then:
 
-$$2 = \frac{p^2}{q^2} \implies p^2 = 2q^2$$
+$$
+2 = \frac{p^2}{q^2} \implies p^2 = 2q^2
+$$
 
 Since $p^2$ is even, $p$ must be even. Write $p = 2k$ for some integer $k$. Then:
 
-$$4k^2 = 2q^2 \implies q^2 = 2k^2$$
+$$
+4k^2 = 2q^2 \implies q^2 = 2k^2
+$$
 
 So $q^2$ is also even, meaning $q$ is even. But this contradicts the assumption that $p$ and $q$ are
 Coprime. Therefore $\sqrt{2}$ is irrational. $\blacksquare$
@@ -99,11 +103,15 @@ Reason prime factorisation is such a central tool.
 
 **Example.** Write $1260$ as a product of primes.
 
-$$1260 = 126 \times 10 = (63 \times 2) \times (2 \times 5) = (7 \times 9) \times 2^2 \times 5 = 2^2 \times 3^2 \times 5 \times 7$$
+$$
+1260 = 126 \times 10 = (63 \times 2) \times (2 \times 5) = (7 \times 9) \times 2^2 \times 5 = 2^2 \times 3^2 \times 5 \times 7
+$$
 
 **Example.** Write $3960$ as a product of primes.
 
-$$3960 = 396 \times 10 = (4 \times 99) \times (2 \times 5) = 2^2 \times 9 \times 11 \times 2 \times 5 = 2^3 \times 3^2 \times 5 \times 11$$
+$$
+3960 = 396 \times 10 = (4 \times 99) \times (2 \times 5) = 2^2 \times 9 \times 11 \times 2 \times 5 = 2^3 \times 3^2 \times 5 \times 11
+$$
 
 **Theorem (Euclid).** There are infinitely many prime numbers.
 
@@ -122,35 +130,55 @@ That is a multiple of both.
 If the prime factorisations are $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots$ and
 $b = p_1^{\beta_1} p_2^{\beta_2} \cdots$ Then:
 
-$$\mathrm{HCF(a, b) = p_1^{\min(\alpha_1, \beta_1)} p_2^{\min(\alpha_2, \beta_2)} \cdots$$
+$$
+\mathrm{HCF(a, b) = p_1^{\min(\alpha_1, \beta_1)} p_2^{\min(\alpha_2, \beta_2)} \cdots
+$$
 
-$$\mathrm{LCM(a, b) = p_1^{\max(\alpha_1, \beta_1)} p_2^{\max(\alpha_2, \beta_2)} \cdots$$
+$$
+\mathrm{LCM(a, b) = p_1^{\max(\alpha_1, \beta_1)} p_2^{\max(\alpha_2, \beta_2)} \cdots
+$$
 
 **Relationship:** For any positive integers $a$ and $b$:
 
-$$\mathrm{HCF(a, b) \times \mathrm{LCM(a, b) = a \times b$$
+$$
+\mathrm{HCF(a, b) \times \mathrm{LCM(a, b) = a \times b
+$$
 
 **Proof of the relationship.** Write $a = \prod p_i^{\alpha_i}$ and $b = \prod p_i^{\beta_i}$. Then:
 
-$$\mathrm{HCF \times \mathrm{LCM = \prod p_i^{\min(\alpha_i, \beta_i)} \cdot \prod p_i^{\max(\alpha_i, \beta_i)} = \prod p_i^{\min(\alpha_i, \beta_i) + \max(\alpha_i, \beta_i)} = \prod p_i^{\alpha_i + \beta_i} = ab \quad \blacksquare$$
+$$
+\mathrm{HCF \times \mathrm{LCM = \prod p_i^{\min(\alpha_i, \beta_i)} \cdot \prod p_i^{\max(\alpha_i, \beta_i)} = \prod p_i^{\min(\alpha_i, \beta_i) + \max(\alpha_i, \beta_i)} = \prod p_i^{\alpha_i + \beta_i} = ab \quad \blacksquare
+$$
 
 **Worked Example.** Find the HCF and LCM of $84$ and $210$.
 
-$$84 = 2^2 \times 3 \times 7, \qquad 210 = 2 \times 3 \times 5 \times 7$$
+$$
+84 = 2^2 \times 3 \times 7, \qquad 210 = 2 \times 3 \times 5 \times 7
+$$
 
-$$\mathrm{HCF = 2^{\min(2,1)} \times 3^{\min(1,1)} \times 5^{\min(0,1)} \times 7^{\min(1,1)} = 2 \times 3 \times 7 = 42$$
+$$
+\mathrm{HCF = 2^{\min(2,1)} \times 3^{\min(1,1)} \times 5^{\min(0,1)} \times 7^{\min(1,1)} = 2 \times 3 \times 7 = 42
+$$
 
-$$\mathrm{LCM = 2^{\max(2,1)} \times 3^{\max(1,1)} \times 5^{\max(0,1)} \times 7^{\max(1,1)} = 2^2 \times 3 \times 5 \times 7 = 420$$
+$$
+\mathrm{LCM = 2^{\max(2,1)} \times 3^{\max(1,1)} \times 5^{\max(0,1)} \times 7^{\max(1,1)} = 2^2 \times 3 \times 5 \times 7 = 420
+$$
 
 **Verification:** $42 \times 420 = 17640 = 84 \times 210$. $\checkmark$
 
 **Worked Example (Higher Tier).** Find the HCF and LCM of $180$, $252$ And $396$.
 
-$$180 = 2^2 \times 3^2 \times 5, \qquad 252 = 2^2 \times 3^2 \times 7, \qquad 396 = 2^2 \times 3^2 \times 11$$
+$$
+180 = 2^2 \times 3^2 \times 5, \qquad 252 = 2^2 \times 3^2 \times 7, \qquad 396 = 2^2 \times 3^2 \times 11
+$$
 
-$$\mathrm{HCF = 2^2 \times 3^2 = 36$$
+$$
+\mathrm{HCF = 2^2 \times 3^2 = 36
+$$
 
-$$\mathrm{LCM = 2^2 \times 3^2 \times 5 \times 7 \times 11 = 4 \times 9 \times 385 = 13860$$
+$$
+\mathrm{LCM = 2^2 \times 3^2 \times 5 \times 7 \times 11 = 4 \times 9 \times 385 = 13860
+$$
 
 ### 1.4 Divisibility Tests and Prime Testing
 
@@ -180,7 +208,9 @@ Therefore $211$ is prime.
 
 **Worked Example.** Evaluate $\frac{3}{4} + \frac{2}{5} - \frac{1}{3}$.
 
-$$\frac{3}{4} + \frac{2}{5} - \frac{1}{3} = \frac{45 + 24 - 20}{60} = \frac{49}{60}$$
+$$
+\frac{3}{4} + \frac{2}{5} - \frac{1}{3} = \frac{45 + 24 - 20}{60} = \frac{49}{60}
+$$
 
 **Worked Example (Higher Tier).** Simplify $\frac{2\frac{3}{4}}{1\frac{1}{3}}$.
 
@@ -189,7 +219,9 @@ $\frac{11}{4} \div \frac{4}{3} = \frac{11}{4} \times \frac{3}{4} = \frac{33}{16}
 
 **Worked Example (Higher Tier).** Evaluate $\left(\frac{2}{3}\right)^{-2} \times \frac{9}{16}$.
 
-$$\left(\frac{3}{2}\right)^2 \times \frac{9}{16} = \frac{9}{4} \times \frac{9}{16} = \frac{81}{64}$$
+$$
+\left(\frac{3}{2}\right)^2 \times \frac{9}{16} = \frac{9}{4} \times \frac{9}{16} = \frac{81}{64}
+$$
 
 ### 2.2 Recurring Decimals to Fractions
 
@@ -202,9 +234,13 @@ Let $x = 0.363636\ldots$
 
 The repeating block has 2 digits, so multiply by 100:
 
-$$100x = 36.363636\ldots$$
+$$
+100x = 36.363636\ldots
+$$
 
-$$x = 0.363636\ldots$$
+$$
+x = 0.363636\ldots
+$$
 
 Subtracting: $99x = 36$ So $x = \frac{36}{99} = \frac{4}{11}$.
 
@@ -217,11 +253,17 @@ Let $x = 0.163163163\ldots$
 
 The repeating block has 3 digits, so multiply by 1000:
 
-$$1000x = 163.163163\ldots$$
+$$
+1000x = 163.163163\ldots
+$$
 
-$$x = 0.163163\ldots$$
+$$
+x = 0.163163\ldots
+$$
 
-$$999x = 163 \implies x = \frac{163}{999}$$
+$$
+999x = 163 \implies x = \frac{163}{999}
+$$
 
 Check: $\gcd(163, 999)$. Since $163$ is prime and $999 = 3^3 \times 37$They are coprime. So
 $x = \frac{163}{999}$.
@@ -262,7 +304,9 @@ Versa) always results in a net decrease. The net effect is a decrease of $\frac{
 **Proof.** The factor for increase is $\left(1 + \frac{P}{100}\right)$ and for decrease is
 $\left(1 - \frac{P}{100}\right)$. The combined factor is:
 
-$$\left(1 + \frac{P}{100}\right)\left(1 - \frac{P}{100}\right) = 1 - \frac{P^2}{10000}$$
+$$
+\left(1 + \frac{P}{100}\right)\left(1 - \frac{P}{100}\right) = 1 - \frac{P^2}{10000}
+$$
 
 This is always less than 1 for $P \neq 0$Confirming a net decrease of $\frac{P^2}{100}\%$.
 $\blacksquare$
@@ -280,7 +324,9 @@ By the theorem: $\frac{20^2}{100} = 4\%$ decrease. $\checkmark$
 
 The original price is $100\%$ And after the increase it is $120\%$. So:
 
-$$\mathrm{original = \frac{336}{1.20} = 280 \mathrm{ pounds$$
+$$
+\mathrm{original = \frac{336}{1.20} = 280 \mathrm{ pounds
+$$
 
 **Worked Example (Higher Tier).** A shop offers "15% off the sale price." A customer pays 34 pounds.
 What was the original price before the sale?
@@ -294,16 +340,22 @@ Pounds.
 
 For compound growth at rate $r\%$ per period over $n$ periods:
 
-$$A = P\left(1 + \frac{r}{100}\right)^n$$
+$$
+A = P\left(1 + \frac{r}{100}\right)^n
+$$
 
 For depreciation:
 
-$$A = P\left(1 - \frac{r}{100}\right)^n$$
+$$
+A = P\left(1 - \frac{r}{100}\right)^n
+$$
 
 **Worked Example.** 2000 pounds is invested at 3.5% compound interest per year. Find the value after
 6 years, giving your answer to the nearest penny.
 
-$$A = 2000 \times 1.035^6 = 2000 \times 1.22925\ldots = 2458.51 \mathrm{ pounds$$
+$$
+A = 2000 \times 1.035^6 = 2000 \times 1.22925\ldots = 2458.51 \mathrm{ pounds
+$$
 
 **Worked Example (Higher Tier).** A car bought for 18000 pounds depreciates at 12% per annum. After
 How many whole years will its value first fall below 8000 pounds?
@@ -320,7 +372,9 @@ So after 7 years the value first falls below 8000 pounds.
 **Worked Example.** 5000 pounds is invested at 4% compound interest. Find the total interest earned
 After 3 years.
 
-$$A = 5000 \times 1.04^3 = 5000 \times 1.124864 = 5624.32 \mathrm{ pounds$$
+$$
+A = 5000 \times 1.04^3 = 5000 \times 1.124864 = 5624.32 \mathrm{ pounds
+$$
 
 Total interest $= 5624.32 - 5000 = 624.32$ pounds.
 
@@ -346,11 +400,15 @@ $a^0 = 1$ for all $a \neq 0$.
 
 **Worked Example.** Simplify $\frac{8a^3 b^2 \times 3a^{-1} b^4}{6a^2 b^{-3}}$.
 
-$$\frac{8 \times 3}{6} \cdot a^{3 + (-1) - 2} \cdot b^{2 + 4 - (-3)} = 4 \cdot a^0 \cdot b^9 = 4b^9$$
+$$
+\frac{8 \times 3}{6} \cdot a^{3 + (-1) - 2} \cdot b^{2 + 4 - (-3)} = 4 \cdot a^0 \cdot b^9 = 4b^9
+$$
 
 **Worked Example (Higher Tier).** Simplify $\left(\frac{27x^6}{8y^{-3}}\right)^{-2/3}$.
 
-$$= \left(\frac{8y^{-3}}{27x^6}\right)^{2/3} = \frac{8^{2/3} \cdot y^{-3 \times 2/3}}{27^{2/3} \cdot x^{6 \times 2/3}} = \frac{4 \cdot y^{-2}}{9 \cdot x^4} = \frac{4}{9x^4 y^2}$$
+$$
+= \left(\frac{8y^{-3}}{27x^6}\right)^{2/3} = \frac{8^{2/3} \cdot y^{-3 \times 2/3}}{27^{2/3} \cdot x^{6 \times 2/3}} = \frac{4 \cdot y^{-2}}{9 \cdot x^4} = \frac{4}{9x^4 y^2}
+$$
 
 ### 3.2 Surds
 
@@ -359,34 +417,46 @@ $\sqrt[3]{5}$.
 
 **Rules of surds:**
 
-$$\sqrt{a} \times \sqrt{b} = \sqrt{ab}, \qquad \frac{\sqrt{a}}{\sqrt{b}} = \sqrt{\frac{a}{b}}, \qquad (\sqrt{a})^2 = a$$
+$$
+\sqrt{a} \times \sqrt{b} = \sqrt{ab}, \qquad \frac{\sqrt{a}}{\sqrt{b}} = \sqrt{\frac{a}{b}}, \qquad (\sqrt{a})^2 = a
+$$
 
 **Rationalising the denominator:** To remove a surd from the denominator, multiply top and bottom by
 The surd (or its conjugate if the denominator is a binomial).
 
 **Worked Example.** Simplify $\frac{6}{\sqrt{3}}$.
 
-$$\frac{6}{\sqrt{3}} = \frac{6\sqrt{3}}{3} = 2\sqrt{3}$$
+$$
+\frac{6}{\sqrt{3}} = \frac{6\sqrt{3}}{3} = 2\sqrt{3}
+$$
 
 **Worked Example.** Rationalise $\frac{5}{2 - \sqrt{3}}$.
 
 Multiply by the conjugate $2 + \sqrt{3}$:
 
-$$\frac{5(2 + \sqrt{3})}{(2 - \sqrt{3})(2 + \sqrt{3})} = \frac{5(2 + \sqrt{3})}{4 - 3} = 5(2 + \sqrt{3}) = 10 + 5\sqrt{3}$$
+$$
+\frac{5(2 + \sqrt{3})}{(2 - \sqrt{3})(2 + \sqrt{3})} = \frac{5(2 + \sqrt{3})}{4 - 3} = 5(2 + \sqrt{3}) = 10 + 5\sqrt{3}
+$$
 
 **Worked Example (Higher Tier).** Simplify $\frac{\sqrt{7} + \sqrt{3}}{\sqrt{7} - \sqrt{3}}$.
 
-$$\frac{(\sqrt{7} + \sqrt{3})^2}{7 - 3} = \frac{7 + 2\sqrt{21} + 3}{4} = \frac{10 + 2\sqrt{21}}{4} = \frac{5 + \sqrt{21}}{2}$$
+$$
+\frac{(\sqrt{7} + \sqrt{3})^2}{7 - 3} = \frac{7 + 2\sqrt{21} + 3}{4} = \frac{10 + 2\sqrt{21}}{4} = \frac{5 + \sqrt{21}}{2}
+$$
 
 **Worked Example (Higher Tier).** Expand and simplify $(3 + 2\sqrt{5})(1 - \sqrt{5})$.
 
-$$= 3 - 3\sqrt{5} + 2\sqrt{5} - 2 \times 5 = 3 - \sqrt{5} - 10 = -7 - \sqrt{5}$$
+$$
+= 3 - 3\sqrt{5} + 2\sqrt{5} - 2 \times 5 = 3 - \sqrt{5} - 10 = -7 - \sqrt{5}
+$$
 
 **Worked Example (Higher Tier).** Simplify $\sqrt{50} + 2\sqrt{8} - 3\sqrt{18}$.
 
 Write each in simplest surd form:
 
-$$= 5\sqrt{2} + 2 \times 2\sqrt{2} - 3 \times 3\sqrt{2} = 5\sqrt{2} + 4\sqrt{2} - 9\sqrt{2} = 0$$
+$$
+= 5\sqrt{2} + 2 \times 2\sqrt{2} - 3 \times 3\sqrt{2} = 5\sqrt{2} + 4\sqrt{2} - 9\sqrt{2} = 0
+$$
 
 **Theorem.** If $a + b\sqrt{c} = d + e\sqrt{c}$ where $a, b, d, e$ are rational and $\sqrt{c}$ is
 Irrational, then $a = d$ and $b = e$.
@@ -405,18 +475,24 @@ Integer.
 **Worked Example.** Calculate $\frac{4.5 \times 10^8}{3 \times 10^{-2}}$Giving your answer in
 Standard form.
 
-$$\frac{4.5 \times 10^8}{3 \times 10^{-2}} = 1.5 \times 10^{8 - (-2)} = 1.5 \times 10^{10}$$
+$$
+\frac{4.5 \times 10^8}{3 \times 10^{-2}} = 1.5 \times 10^{8 - (-2)} = 1.5 \times 10^{10}
+$$
 
 **Worked Example.** The population of a city is $2.4 \times 10^6$. The average income is
 $3.1 \times 10^4$ pounds per year. Find the total income, in standard form.
 
-$$2.4 \times 10^6 \times 3.1 \times 10^4 = 7.44 \times 10^{10} \mathrm{ pounds$$
+$$
+2.4 \times 10^6 \times 3.1 \times 10^4 = 7.44 \times 10^{10} \mathrm{ pounds
+$$
 
 **Worked Example (Higher Tier).** The speed of light is approximately $3 \times 10^8$ m/s. The
 Distance from the Sun to the Earth is approximately $1.5 \times 10^{11}$ m. How many minutes does
 Light take to travel from the Sun to the Earth?
 
-$$\mathrm{Time = \frac{1.5 \times 10^{11}}{3 \times 10^8} = 500 \mathrm{ seconds = \frac{500}{60} \approx 8.33 \mathrm{ minutes$$
+$$
+\mathrm{Time = \frac{1.5 \times 10^{11}}{3 \times 10^8} = 500 \mathrm{ seconds = \frac{500}{60} \approx 8.33 \mathrm{ minutes
+$$
 
 ## 4. Upper and Lower Bounds
 
@@ -494,11 +570,15 @@ Replace numbers with approximate values ( 1 significant figure) to get a quick e
 
 **Worked Example.** Estimate $\frac{3.97 \times 18.4}{0.498}$.
 
-$$\approx \frac{4 \times 20}{0.5} = \frac{80}{0.5} = 160$$
+$$
+\approx \frac{4 \times 20}{0.5} = \frac{80}{0.5} = 160
+$$
 
 **Worked Example.** Estimate $\sqrt{51} + \frac{4.9 \times 7.8}{3.1}$.
 
-$$\approx \sqrt{49} + \frac{5 \times 8}{3} = 7 + \frac{40}{3} \approx 7 + 13.3 = 20.3$$
+$$
+\approx \sqrt{49} + \frac{5 \times 8}{3} = 7 + \frac{40}{3} \approx 7 + 13.3 = 20.3
+$$
 
 ### 5.3 Error Intervals
 
@@ -507,7 +587,9 @@ An **error interval** for a rounded value $x$ is the range of possible true valu
 **Worked Example.** $x$ is rounded to the nearest integer as 7. Write down the error interval for
 $x$.
 
-$$6.5 \leq x \lt 7.5$$
+$$
+6.5 \leq x \lt 7.5
+$$
 
 Note: the lower bound is inclusive (values of exactly 6.5 round up to 7), but the upper bound is
 Exclusive (values of exactly 7.5 round up to 8).
@@ -515,12 +597,16 @@ Exclusive (values of exactly 7.5 round up to 8).
 **Worked Example (Higher Tier).** $p = 42.6$ is correct to 3 significant figures. Write down the
 Error interval for $p$.
 
-$$42.55 \leq p \lt 42.65$$
+$$
+42.55 \leq p \lt 42.65
+$$
 
 **Worked Example (Higher Tier).** $x = 0.0304$ is correct to 3 significant figures. Write down the
 Error interval for $x$.
 
-$$0.03035 \leq x \lt 0.03045$$
+$$
+0.03035 \leq x \lt 0.03045
+$$
 
 ### 5.4 Truncation
 
@@ -546,9 +632,13 @@ We write $y \propto x$.
 **Worked Example.** $y$ is directly proportional to $x$. When $x = 5$, $y = 30$. Find $y$ when
 $x = 8$.
 
-$$30 = 5k \implies k = 6$$
+$$
+30 = 5k \implies k = 6
+$$
 
-$$y = 6 \times 8 = 48$$
+$$
+y = 6 \times 8 = 48
+$$
 
 ### 6.2 Inverse Proportion
 
@@ -559,25 +649,37 @@ We write $y \propto \frac{1}{x}$.
 **Worked Example.** $y$ is inversely proportional to $x^2$. When $x = 3$, $y = 12$. Find $y$ when
 $x = 6$.
 
-$$12 = \frac{k}{9} \implies k = 108$$
+$$
+12 = \frac{k}{9} \implies k = 108
+$$
 
-$$y = \frac{108}{36} = 3$$
+$$
+y = \frac{108}{36} = 3
+$$
 
 **Worked Example (Higher Tier).** The time $t$ taken to fill a tank is inversely proportional to the
 Square of the radius $r$ of the pipe. When $r = 2$ cm, $t = 45$ minutes. Find $t$ when $r = 5$ cm.
 
-$$t = \frac{k}{r^2} \implies 45 = \frac{k}{4} \implies k = 180$$
+$$
+t = \frac{k}{r^2} \implies 45 = \frac{k}{4} \implies k = 180
+$$
 
-$$t = \frac{180}{25} = 7.2 \mathrm{ minutes$$
+$$
+t = \frac{180}{25} = 7.2 \mathrm{ minutes
+$$
 
 ### 6.3 Proportionality with Powers and Roots
 
 **Worked Example (Higher Tier).** $y$ is directly proportional to $\sqrt{x}$. When $x = 9$ $y = 12$.
 Find $y$ when $x = 25$.
 
-$$y = k\sqrt{x} \implies 12 = 3k \implies k = 4$$
+$$
+y = k\sqrt{x} \implies 12 = 3k \implies k = 4
+$$
 
-$$y = 4\sqrt{25} = 20$$
+$$
+y = 4\sqrt{25} = 20
+$$
 
 ## 7. Factors, Multiples, and Primes in Context
 

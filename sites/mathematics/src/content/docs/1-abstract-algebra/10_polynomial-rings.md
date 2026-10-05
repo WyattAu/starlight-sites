@@ -78,9 +78,13 @@ $\mathbb{Q}[x]$.
 
 _Solution._ Apply the division algorithm:
 
-$$x^4 + x^3 + x^2 + x + 1 = x(x^3 + 1) + (x^2 + x + 1)$$
+$$
+x^4 + x^3 + x^2 + x + 1 = x(x^3 + 1) + (x^2 + x + 1)
+$$
 
-$$x^3 + 1 = (x - 1)(x^2 + x + 1) + 2$$
+$$
+x^3 + 1 = (x - 1)(x^2 + x + 1) + 2
+$$
 
 Since $2$ is a non-zero constant (a unit in $\mathbb{Q}[x]$), the polynomials are coprime:
 $\gcd(x^4 + x^3 + x^2 + x + 1, x^3 + 1) = 1$. $\blacksquare$

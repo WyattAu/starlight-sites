@@ -73,17 +73,27 @@ Taking upward as positive, with horizontal axis $x$ and vertical axis $y$:
 
 Since there is no horizontal acceleration:
 
-$$\boxed{x = V\cos\theta \cdot t}$$
+$$
+\boxed{x = V\cos\theta \cdot t}
+$$
 
-$$\dot{x} = V\cos\theta$$
+$$
+\dot{x} = V\cos\theta
+$$
 
 ### 1.3 Vertical motion (uniform acceleration)
 
-$$\boxed{y = V\sin\theta \cdot t - \frac{1}{2}gt^2}$$
+$$
+\boxed{y = V\sin\theta \cdot t - \frac{1}{2}gt^2}
+$$
 
-$$\dot{y} = V\sin\theta - gt$$
+$$
+\dot{y} = V\sin\theta - gt
+$$
 
-$$\ddot{y} = -g$$
+$$
+\ddot{y} = -g
+$$
 
 <hr />
 
@@ -104,7 +114,9 @@ Y &= V\sin\theta \cdot \frac{x}{V\cos\theta} - \frac{1}{2}g\left(\frac{x}{V\cos\
 \end{aligned}
 $$
 
-$$\boxed{y = x\tan\theta - \frac{gx^2}{2V^2\cos^2\theta}}$$
+$$
+\boxed{y = x\tan\theta - \frac{gx^2}{2V^2\cos^2\theta}}
+$$
 
 Since this has the form $y = ax - bx^2$ (with $a = \tan\theta$ and
 $b = \frac{g}{2V^2\cos^2\theta}$), the trajectory is a parabola opening downward.
@@ -118,15 +130,21 @@ $\blacksquare$
 
 The projectile returns to $y = 0$ when:
 
-$$V\sin\theta \cdot t - \frac{1}{2}gt^2 = 0 \implies t(V\sin\theta - \frac{1}{2}gt) = 0$$
+$$
+V\sin\theta \cdot t - \frac{1}{2}gt^2 = 0 \implies t(V\sin\theta - \frac{1}{2}gt) = 0
+$$
 
-$$\boxed{T = \frac{2V\sin\theta}{g}}$$
+$$
+\boxed{T = \frac{2V\sin\theta}{g}}
+$$
 
 ### 3.2 Maximum height
 
 At maximum height, $\dot{y} = 0$:
 
-$$V\sin\theta - gt_{\mathrm{max}} = 0 \implies t_{\mathrm{max}} = \frac{V\sin\theta}{g}$$
+$$
+V\sin\theta - gt_{\mathrm{max}} = 0 \implies t_{\mathrm{max}} = \frac{V\sin\theta}{g}
+$$
 
 ### Proof of maximum height
 
@@ -139,7 +157,9 @@ H &= V\sin\theta \cdot \frac{V\sin\theta}{g} - \frac{1}{2}g\left(\frac{V\sin\the
 \end{aligned}
 $$
 
-$$\boxed{H = \frac{V^2\sin^2\theta}{2g}}$$
+$$
+\boxed{H = \frac{V^2\sin^2\theta}{2g}}
+$$
 
 This occurs at
 $x = V\cos\theta \cdot \dfrac{V\sin\theta}{g} = \dfrac{V^2\sin\theta\cos\theta}{g}$.
@@ -151,9 +171,13 @@ $\blacksquare$
 
 ### Proof
 
-$$R = V\cos\theta \cdot T = V\cos\theta \cdot \frac{2V\sin\theta}{g}$$
+$$
+R = V\cos\theta \cdot T = V\cos\theta \cdot \frac{2V\sin\theta}{g}
+$$
 
-$$\boxed{R = \frac{V^2\sin 2\theta}{g}}$$
+$$
+\boxed{R = \frac{V^2\sin 2\theta}{g}}
+$$
 
 This is maximised when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$Giving
 $R_{\max} = \dfrac{V^2}{g}$. $\blacksquare$
@@ -176,22 +200,32 @@ The projectile lands on the plane when $y = x\tan\alpha$.
 
 Setting $x\tan\alpha = x\tan\theta - \dfrac{gx^2}{2V^2\cos^2\theta}$:
 
-$$x\left(\tan\theta - \tan\alpha\right) = \frac{gx^2}{2V^2\cos^2\theta}$$
+$$
+x\left(\tan\theta - \tan\alpha\right) = \frac{gx^2}{2V^2\cos^2\theta}
+$$
 
-$$\boxed{x = \frac{2V^2\cos^2\theta(\tan\theta - \tan\alpha)}{g}}$$
+$$
+\boxed{x = \frac{2V^2\cos^2\theta(\tan\theta - \tan\alpha)}{g}}
+$$
 
 The **range on the plane** is $r = \dfrac{x}{\cos\alpha}$:
 
-$$\boxed{r = \frac{2V^2\cos\theta\sin(\theta - \alpha)}{g\cos^2\alpha}}$$
+$$
+\boxed{r = \frac{2V^2\cos\theta\sin(\theta - \alpha)}{g\cos^2\alpha}}
+$$
 
 ### 4.2 Down the plane
 
 When a projectile is launched from the top of a plane inclined at angle $\alpha$ below the
 Horizontal at angle $\theta$ above the horizontal, the landing condition is $y = -x\tan\alpha$:
 
-$$-x\tan\alpha = x\tan\theta - \frac{gx^2}{2V^2\cos^2\theta}$$
+$$
+-x\tan\alpha = x\tan\theta - \frac{gx^2}{2V^2\cos^2\theta}
+$$
 
-$$\boxed{r = \frac{2V^2\cos\theta\sin(\theta + \alpha)}{g\cos^2\alpha}}$$
+$$
+\boxed{r = \frac{2V^2\cos\theta\sin(\theta + \alpha)}{g\cos^2\alpha}}
+$$
 
 ### 4.3 Maximum range on an inclined plane
 
@@ -205,7 +239,9 @@ $\cos\theta\sin(\theta-\alpha) = \frac{1}{2}[\sin(2\theta-\alpha) - \sin\alpha]$
 
 This is maximised when $\sin(2\theta - \alpha) = 1$Giving:
 
-$$2\theta - \alpha = 90° \implies \boxed{\theta = \frac{90° + \alpha}{2} = 45° + \frac{\alpha}{2}}$$
+$$
+2\theta - \alpha = 90° \implies \boxed{\theta = \frac{90° + \alpha}{2} = 45° + \frac{\alpha}{2}}
+$$
 
 For down the plane: $\theta = 45° - \dfrac{\alpha}{2}$. $\blacksquare$
 
@@ -225,13 +261,17 @@ The projectile lands on the plane when $n = 0$.
 
 The velocity components at time $t$ are:
 
-$$v_x = V\cos\theta, \qquad v_y = V\sin\theta - gt$$
+$$
+v_x = V\cos\theta, \qquad v_y = V\sin\theta - gt
+$$
 
 The speed is $v = \sqrt{v_x^2 + v_y^2} = \sqrt{V^2\cos^2\theta + (V\sin\theta - gt)^2}$.
 
 The direction of motion is at angle $\phi$ to the horizontal where:
 
-$$\tan\phi = \frac{v_y}{v_x} = \frac{V\sin\theta - gt}{V\cos\theta} = \tan\theta - \frac{gt}{V\cos\theta}$$
+$$
+\tan\phi = \frac{v_y}{v_x} = \frac{V\sin\theta - gt}{V\cos\theta} = \tan\theta - \frac{gt}{V\cos\theta}
+$$
 
 <hr />
 
@@ -441,27 +481,39 @@ Section 2.
 
 Starting from the trajectory equation, the projectile lands when $y = 0$:
 
-$$0 = R\tan\theta - \frac{gR^2}{2V^2\cos^2\theta}$$
+$$
+0 = R\tan\theta - \frac{gR^2}{2V^2\cos^2\theta}
+$$
 
 Either $R = 0$ (the launch point) or:
 
-$$\tan\theta = \frac{gR}{2V^2\cos^2\theta} = \frac{gR\sec^2\theta}{2V^2} = \frac{gR}{2V^2\cos^2\theta}$$
+$$
+\tan\theta = \frac{gR}{2V^2\cos^2\theta} = \frac{gR\sec^2\theta}{2V^2} = \frac{gR}{2V^2\cos^2\theta}
+$$
 
 Solving for $R$:
 
-$$R = \frac{2V^2\cos^2\theta\tan\theta}{g} = \frac{2V^2\sin\theta\cos\theta}{g} = \frac{V^2\sin 2\theta}{g}$$
+$$
+R = \frac{2V^2\cos^2\theta\tan\theta}{g} = \frac{2V^2\sin\theta\cos\theta}{g} = \frac{V^2\sin 2\theta}{g}
+$$
 
 To maximise, differentiate with respect to $\theta$ and set to zero:
 
-$$\frac{dR}{d\theta} = \frac{V^2}{g}\cdot 2\cos 2\theta = 0 \implies \cos 2\theta = 0 \implies 2\theta = 90° \implies \theta = 45^\circ$$
+$$
+\frac{dR}{d\theta} = \frac{V^2}{g}\cdot 2\cos 2\theta = 0 \implies \cos 2\theta = 0 \implies 2\theta = 90° \implies \theta = 45^\circ
+$$
 
 Second derivative check:
 
-$$\frac{d^2R}{d\theta^2} = \frac{V^2}{g}\cdot(-4\sin 2\theta) \bigg|_{\theta = 45°} = \frac{V^2}{g}(-4) \lt 0 \quad \checkmark$$
+$$
+\frac{d^2R}{d\theta^2} = \frac{V^2}{g}\cdot(-4\sin 2\theta) \bigg|_{\theta = 45°} = \frac{V^2}{g}(-4) \lt 0 \quad \checkmark
+$$
 
 So the maximum is confirmed. Substituting $\theta = 45^\circ$:
 
-$$R_{\max} = \frac{V^2\sin 90°}{g} = \frac{V^2}{g}$$
+$$
+R_{\max} = \frac{V^2\sin 90°}{g} = \frac{V^2}{g}
+$$
 
 <hr />
 
@@ -472,27 +524,39 @@ $$R_{\max} = \frac{V^2\sin 90°}{g} = \frac{V^2}{g}$$
 A projectile is launched from height $h$ above ground level with speed $V$ at angle $\theta$ above
 The horizontal. Taking upward as positive with origin at the launch point:
 
-$$y = V\sin\theta \cdot t - \frac{1}{2}gt^2$$
+$$
+y = V\sin\theta \cdot t - \frac{1}{2}gt^2
+$$
 
 The projectile hits the ground when $y = -h$:
 
-$$V\sin\theta \cdot t - \frac{1}{2}gt^2 = -h$$
+$$
+V\sin\theta \cdot t - \frac{1}{2}gt^2 = -h
+$$
 
-$$\frac{1}{2}gt^2 - V\sin\theta \cdot t - h = 0$$
+$$
+\frac{1}{2}gt^2 - V\sin\theta \cdot t - h = 0
+$$
 
 Using the quadratic formula (taking the positive root):
 
-$$\boxed{T = \frac{V\sin\theta + \sqrt{V^2\sin^2\theta + 2gh}}{g}}$$
+$$
+\boxed{T = \frac{V\sin\theta + \sqrt{V^2\sin^2\theta + 2gh}}{g}}
+$$
 
 ### 7.2 Range from a height
 
-$$R = V\cos\theta \cdot T = \frac{V\cos\theta\left(V\sin\theta + \sqrt{V^2\sin^2\theta + 2gh}\right)}{g}$$
+$$
+R = V\cos\theta \cdot T = \frac{V\cos\theta\left(V\sin\theta + \sqrt{V^2\sin^2\theta + 2gh}\right)}{g}
+$$
 
 ### 7.3 Maximum height above launch point
 
 The maximum height above the launch point is unchanged from the ground-level case:
 
-$$H_{\mathrm{above launch}} = \frac{V^2\sin^2\theta}{2g}$$
+$$
+H_{\mathrm{above launch}} = \frac{V^2\sin^2\theta}{2g}
+$$
 
 The maximum height above ground level is $h + \dfrac{V^2\sin^2\theta}{2g}$.
 
@@ -501,7 +565,9 @@ The maximum height above ground level is $h + \dfrac{V^2\sin^2\theta}{2g}$.
 For maximum range from a height, the optimal angle is **less than** $45^\circ$. The exact value
 Satisfies:
 
-$$\theta = \arctan\!\left(\frac{V}{\sqrt{V^2 + 2gh}}\right)$$
+$$
+\theta = \arctan\!\left(\frac{V}{\sqrt{V^2 + 2gh}}\right)
+$$
 
 ### Proof
 
@@ -509,16 +575,22 @@ $$\theta = \arctan\!\left(\frac{V}{\sqrt{V^2 + 2gh}}\right)$$
 
 Maximise $R = V\cos\theta\cdot T$ where $T$ is given above. Equivalently, maximise:
 
-$$R(\theta) = \frac{V^2\sin\theta\cos\theta + V\cos\theta\sqrt{V^2\sin^2\theta + 2gh}}{g}$$
+$$
+R(\theta) = \frac{V^2\sin\theta\cos\theta + V\cos\theta\sqrt{V^2\sin^2\theta + 2gh}}{g}
+$$
 
 Let $u = \sin\theta$. Then $\cos\theta = \sqrt{1 - u^2}$ and we maximise:
 
-$$R(u) \propto u\sqrt{1-u^2} + \sqrt{1-u^2}\sqrt{V^2 u^2 + 2gh}$$
+$$
+R(u) \propto u\sqrt{1-u^2} + \sqrt{1-u^2}\sqrt{V^2 u^2 + 2gh}
+$$
 
 Differentiating and simplifying leads to the condition
 $\cos\theta = \dfrac{V}{\sqrt{V^2 + 2gh}}$I.e.:
 
-$$\tan\theta = \frac{V\sin\theta}{V\cos\theta} = \frac{V\sqrt{1 - \frac{V^2}{V^2 + 2gh}}}{\frac{V^2}{\sqrt{V^2 + 2gh}}} = \frac{V}{\sqrt{V^2 + 2gh}}$$
+$$
+\tan\theta = \frac{V\sin\theta}{V\cos\theta} = \frac{V\sqrt{1 - \frac{V^2}{V^2 + 2gh}}}{\frac{V^2}{\sqrt{V^2 + 2gh}}} = \frac{V}{\sqrt{V^2 + 2gh}}
+$$
 
 When $h = 0$This reduces to $\tan\theta = 1$I.e., $\theta = 45^\circ$ as expected. $\blacksquare$
 
@@ -530,9 +602,13 @@ Above ground, and the speed and direction of impact.
 
 **Time of flight:**
 
-$$T = \frac{15\sin 30° + \sqrt{15^2\sin^2 30° + 2(9.8)(50)}}{9.8}$$
+$$
+T = \frac{15\sin 30° + \sqrt{15^2\sin^2 30° + 2(9.8)(50)}}{9.8}
+$$
 
-$$= \frac{7.5 + \sqrt{56.25 + 980}}{9.8} = \frac{7.5 + \sqrt{1036.25}}{9.8} = \frac{7.5 + 32.19}{9.8} \approx 4.05\,\mathrm{s}$$
+$$
+= \frac{7.5 + \sqrt{56.25 + 980}}{9.8} = \frac{7.5 + \sqrt{1036.25}}{9.8} = \frac{7.5 + 32.19}{9.8} \approx 4.05\,\mathrm{s}
+$$
 
 **Range:** $R = 15\cos 30° \times 4.05 \approx 12.99 \times 4.05 \approx 52.6\,\mathrm{m}$.
 
@@ -559,19 +635,29 @@ A plane inclined at $20^\circ$. Find the range on the plane and the time of flig
 
 Using the range formula:
 
-$$r = \frac{2V^2\cos\theta\sin(\theta - \alpha)}{g\cos^2\alpha} = \frac{2(900)\cos 55°\sin 35°}{9.8\cos^2 20°}$$
+$$
+r = \frac{2V^2\cos\theta\sin(\theta - \alpha)}{g\cos^2\alpha} = \frac{2(900)\cos 55°\sin 35°}{9.8\cos^2 20°}
+$$
 
-$$= \frac{1800 \times 0.5736 \times 0.5736}{9.8 \times 0.8830} = \frac{592.4}{8.653} \approx 68.5\,\mathrm{m}$$
+$$
+= \frac{1800 \times 0.5736 \times 0.5736}{9.8 \times 0.8830} = \frac{592.4}{8.653} \approx 68.5\,\mathrm{m}
+$$
 
 Time of flight: the projectile lands when $y = x\tan 20^\circ$.
 
 From the trajectory equation:
 
-$$x = \frac{2V^2\cos^2\theta(\tan\theta - \tan\alpha)}{g} = \frac{2(900)\cos^2 55°(\tan 55° - \tan 20°)}{9.8}$$
+$$
+x = \frac{2V^2\cos^2\theta(\tan\theta - \tan\alpha)}{g} = \frac{2(900)\cos^2 55°(\tan 55° - \tan 20°)}{9.8}
+$$
 
-$$= \frac{1800 \times 0.3290 \times (1.4281 - 0.3640)}{9.8} = \frac{1800 \times 0.3290 \times 1.0641}{9.8} \approx 64.3\,\mathrm{m}$$
+$$
+= \frac{1800 \times 0.3290 \times (1.4281 - 0.3640)}{9.8} = \frac{1800 \times 0.3290 \times 1.0641}{9.8} \approx 64.3\,\mathrm{m}
+$$
 
-$$T = \frac{x}{V\cos\theta} = \frac{64.3}{30\cos 55°} = \frac{64.3}{17.21} \approx 3.74\,\mathrm{s}$$
+$$
+T = \frac{x}{V\cos\theta} = \frac{64.3}{30\cos 55°} = \frac{64.3}{17.21} \approx 3.74\,\mathrm{s}
+$$
 
 <hr />
 
@@ -584,13 +670,17 @@ $x = \dfrac{2V^2\cos^2\theta(\tan\theta - \tan\alpha)}{g}$.
 
 Since $x = V\cos\theta \cdot T$:
 
-$$\boxed{T = \frac{2V\cos\theta(\tan\theta - \tan\alpha)}{g} = \frac{2V\sin(\theta - \alpha)}{g\cos\alpha}}$$
+$$
+\boxed{T = \frac{2V\cos\theta(\tan\theta - \tan\alpha)}{g} = \frac{2V\sin(\theta - \alpha)}{g\cos\alpha}}
+$$
 
 ### 9.2 Down the plane
 
 Similarly:
 
-$$\boxed{T = \frac{2V\cos\theta(\tan\theta + \tan\alpha)}{g} = \frac{2V\sin(\theta + \alpha)}{g\cos\alpha}}$$
+$$
+\boxed{T = \frac{2V\cos\theta(\tan\theta + \tan\alpha)}{g} = \frac{2V\sin(\theta + \alpha)}{g\cos\alpha}}
+$$
 
 <hr />
 
@@ -784,16 +874,22 @@ $\theta = \dfrac{\pi}{4} + \dfrac{\alpha}{2}$.
 
 **Solution.** The range formula for a plane inclined at angle $\alpha$ is:
 
-$$R = \frac{2u^2\cos\theta\sin(\theta - \alpha)}{g\cos^2\alpha}$$
+$$
+R = \frac{2u^2\cos\theta\sin(\theta - \alpha)}{g\cos^2\alpha}
+$$
 
 Using $\sin A\cos B = \dfrac{1}{2}[\sin(A+B) + \sin(A-B)]$:
 
-$$R = \frac{u^2[\sin(2\theta - \alpha) - \sin\alpha]}{g\cos^2\alpha}$$
+$$
+R = \frac{u^2[\sin(2\theta - \alpha) - \sin\alpha]}{g\cos^2\alpha}
+$$
 
 $R$ is maximised when $\sin(2\theta - \alpha) = 1$I.e.,
 $2\theta - \alpha = \dfrac{\pi}{2}$.
 
-$$\boxed{\theta = \frac{\pi}{4} + \frac{\alpha}{2}}$$
+$$
+\boxed{\theta = \frac{\pi}{4} + \frac{\alpha}{2}}
+$$
 
 ### Example 8.3: Hitting a moving target
 
@@ -810,9 +906,13 @@ For collision: $u\cos\theta\,t = d \implies t = \dfrac{d}{u\cos\theta}$.
 Then:
 $u\sin\theta \cdot \dfrac{d}{u\cos\theta} - \dfrac{1}{2}g\!\left(\dfrac{d}{u\cos\theta}\right)^{\!2} = h$.
 
-$$d\tan\theta - \frac{gd^2}{2u^2\cos^2\theta} = h$$
+$$
+d\tan\theta - \frac{gd^2}{2u^2\cos^2\theta} = h
+$$
 
-$$\boxed{u^2 = \frac{gd^2}{2\cos^2\theta\,(d\tan\theta - h)}}$$
+$$
+\boxed{u^2 = \frac{gd^2}{2\cos^2\theta\,(d\tan\theta - h)}}
+$$
 
 Provided $d\tan\theta > h$.
 
@@ -823,13 +923,19 @@ Is $mkv^2$ opposing motion. Find the maximum height.
 
 **Solution.** Going up: $\dfrac{dv}{dt} = -g - kv^2$.
 
-$$\int_0^u \frac{v\,dv}{g + kv^2} = \int_0^H dh$$
+$$
+\int_0^u \frac{v\,dv}{g + kv^2} = \int_0^H dh
+$$
 
 Let $w = g + kv^2$$dw = 2kv\,dv$:
 
-$$\frac{1}{2k}\int_g^{g+ku^2} \frac{dw}{w} = \frac{1}{2k}\ln\!\left(\frac{g+ku^2}{g}\right) = H$$
+$$
+\frac{1}{2k}\int_g^{g+ku^2} \frac{dw}{w} = \frac{1}{2k}\ln\!\left(\frac{g+ku^2}{g}\right) = H
+$$
 
-$$\boxed{H = \frac{1}{2k}\ln\!\left(1 + \frac{ku^2}{g}\right)}$$
+$$
+\boxed{H = \frac{1}{2k}\ln\!\left(1 + \frac{ku^2}{g}\right)}
+$$
 
 ### Example 8.5: Cartesian equation of trajectory from parametric
 
@@ -839,9 +945,13 @@ Features.
 
 **Solution.** Eliminating $t$: $t = \dfrac{x}{V\cos\theta}$.
 
-$$y = x\tan\theta - \frac{gx^2}{2V^2\cos^2\theta} = x\tan\theta - \frac{gx^2\sec^2\theta}{2V^2}$$
+$$
+y = x\tan\theta - \frac{gx^2}{2V^2\cos^2\theta} = x\tan\theta - \frac{gx^2\sec^2\theta}{2V^2}
+$$
 
-$$\boxed{y = x\tan\theta - \frac{gx^2}{2V^2}(1 + \tan^2\theta)}$$
+$$
+\boxed{y = x\tan\theta - \frac{gx^2}{2V^2}(1 + \tan^2\theta)}
+$$
 
 This is a parabola. Setting $y = 0$: $x = 0$ or
 $x = \dfrac{2V^2\sin\theta\cos\theta}{g} = \dfrac{V^2\sin 2\theta}{g}$ (the
@@ -860,15 +970,23 @@ $y = x\tan\theta - \dfrac{gx^2}{2u^2}(1+\tan^2\theta)$.
 
 Rearranging as a quadratic in $\tan\theta$:
 
-$$\frac{gx^2}{2u^2}\tan^2\theta - x\tan\theta + \frac{gx^2}{2u^2} + y = 0$$
+$$
+\frac{gx^2}{2u^2}\tan^2\theta - x\tan\theta + \frac{gx^2}{2u^2} + y = 0
+$$
 
 For a real angle to exist, the discriminant must be $\geq 0$:
 
-$$x^2 - 4 \cdot \frac{gx^2}{2u^2}\!\left(\frac{gx^2}{2u^2} + y\right) \geq 0$$
+$$
+x^2 - 4 \cdot \frac{gx^2}{2u^2}\!\left(\frac{gx^2}{2u^2} + y\right) \geq 0
+$$
 
-$$x^2 - \frac{2gx^2}{u^2}\!\left(\frac{gx^2}{2u^2} + y\right) \geq 0$$
+$$
+x^2 - \frac{2gx^2}{u^2}\!\left(\frac{gx^2}{2u^2} + y\right) \geq 0
+$$
 
-$$1 - \frac{2g}{u^2}\!\left(\frac{gx^2}{2u^2} + y\right) \geq 0 \implies y \leq \frac{u^2}{2g} - \frac{gx^2}{2u^2}$$
+$$
+1 - \frac{2g}{u^2}\!\left(\frac{gx^2}{2u^2} + y\right) \geq 0 \implies y \leq \frac{u^2}{2g} - \frac{gx^2}{2u^2}
+$$
 
 $\blacksquare$
 
@@ -1120,7 +1238,9 @@ Negligible for short-range projectiles.
 For a plane inclined at angle $\alpha$ below the horizontal, the optimal angle for maximum range
 Down the slope is:
 
-$$\theta = \frac{\pi}{4} - \frac{\alpha}{2}$$
+$$
+\theta = \frac{\pi}{4} - \frac{\alpha}{2}
+$$
 
 This is complementary to the result for an upward slope ($\theta = \pi/4 + \alpha/2$).
 
@@ -1242,7 +1362,9 @@ Closed-form solution. Numerical methods (Euler, Runge-Kutta) are required.
 
 Rockets and fireworks involve variable mass and thrust. The thrust equation is:
 
-$$m\frac{dv}{dt} = F_{\text{thrust}} - mg - F_{\text{drag}}$$
+$$
+m\frac{dv}{dt} = F_{\text{thrust}} - mg - F_{\text{drag}}
+$$
 
 Where $m$ decreases as fuel is consumed.
 

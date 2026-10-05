@@ -30,9 +30,13 @@ Find the centre and radius of the circle $x^2 + y^2 - 6x + 4y - 12 = 0$.
 
 Complete the square for $x$ and $y$:
 
-$$(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4$$
+$$
+(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4
+$$
 
-$$(x - 3)^2 + (y + 2)^2 = 25$$
+$$
+(x - 3)^2 + (y + 2)^2 = 25
+$$
 
 Centre: $(3,\; -2)$Radius: $5$.
 
@@ -62,11 +66,17 @@ Slope of $L_2$: $m_2 = \dfrac{-1}{m_1} = -1$.
 
 Using point-slope form with point $C(4, -1)$:
 
-$$y - (-1) = -1(x - 4)$$
+$$
+y - (-1) = -1(x - 4)
+$$
 
-$$y + 1 = -x + 4$$
+$$
+y + 1 = -x + 4
+$$
 
-$$y = -x + 3$$
+$$
+y = -x + 3
+$$
 
 Or $x + y - 3 = 0$.
 
@@ -121,17 +131,27 @@ Distance from $P$ to $(3, -1)$: $\sqrt{(x-3)^2 + (y+1)^2}$.
 
 Distance from $P$ to $x = -1$: $|x + 1|$.
 
-$$\sqrt{(x-3)^2 + (y+1)^2} = 2|x + 1|$$
+$$
+\sqrt{(x-3)^2 + (y+1)^2} = 2|x + 1|
+$$
 
 Square both sides:
 
-$$(x-3)^2 + (y+1)^2 = 4(x+1)^2$$
+$$
+(x-3)^2 + (y+1)^2 = 4(x+1)^2
+$$
 
-$$x^2 - 6x + 9 + y^2 + 2y + 1 = 4x^2 + 8x + 4$$
+$$
+x^2 - 6x + 9 + y^2 + 2y + 1 = 4x^2 + 8x + 4
+$$
 
-$$-3x^2 - 14x + y^2 + 2y + 6 = 0$$
+$$
+-3x^2 - 14x + y^2 + 2y + 6 = 0
+$$
 
-$$3x^2 - y^2 + 14x - 2y - 6 = 0$$
+$$
+3x^2 - y^2 + 14x - 2y - 6 = 0
+$$
 
 This is a hyperbola.
 
@@ -157,15 +177,25 @@ $x^2 + y^2 - 10x - 6y + 25 = 0$.
 
 Substitute $y = 2x - 1$ into the circle equation:
 
-$$x^2 + (2x - 1)^2 - 10x - 6(2x - 1) + 25 = 0$$
+$$
+x^2 + (2x - 1)^2 - 10x - 6(2x - 1) + 25 = 0
+$$
 
-$$x^2 + 4x^2 - 4x + 1 - 10x - 12x + 6 + 25 = 0$$
+$$
+x^2 + 4x^2 - 4x + 1 - 10x - 12x + 6 + 25 = 0
+$$
 
-$$5x^2 - 26x + 32 = 0$$
+$$
+5x^2 - 26x + 32 = 0
+$$
 
-$$(5x - 16)(x - 2) = 0$$
+$$
+(5x - 16)(x - 2) = 0
+$$
 
-$$x = \frac{16}{5} \quad \text{or} \quad x = 2$$
+$$
+x = \frac{16}{5} \quad \text{or} \quad x = 2
+$$
 
 $x = \dfrac{16}{5}$: $y = \dfrac{32}{5} - 1 = \dfrac{27}{5}$. Point:
 $\left(\dfrac{16}{5},\; \dfrac{27}{5}\right)$.
@@ -197,27 +227,47 @@ The line $y = mx + c$ is tangent to the circle $x^2 + y^2 = 4$. Express $c$ in t
 
 Substitute $y = mx + c$:
 
-$$x^2 + (mx + c)^2 = 4$$
+$$
+x^2 + (mx + c)^2 = 4
+$$
 
-$$x^2 + m^2x^2 + 2mcx + c^2 - 4 = 0$$
+$$
+x^2 + m^2x^2 + 2mcx + c^2 - 4 = 0
+$$
 
-$$(1 + m^2)x^2 + 2mcx + (c^2 - 4) = 0$$
+$$
+(1 + m^2)x^2 + 2mcx + (c^2 - 4) = 0
+$$
 
 For tangency, $\Delta = 0$:
 
-$$(2mc)^2 - 4(1 + m^2)(c^2 - 4) = 0$$
+$$
+(2mc)^2 - 4(1 + m^2)(c^2 - 4) = 0
+$$
 
-$$4m^2c^2 - 4(1 + m^2)(c^2 - 4) = 0$$
+$$
+4m^2c^2 - 4(1 + m^2)(c^2 - 4) = 0
+$$
 
-$$m^2c^2 - (1 + m^2)c^2 + 4(1 + m^2) = 0$$
+$$
+m^2c^2 - (1 + m^2)c^2 + 4(1 + m^2) = 0
+$$
 
-$$m^2c^2 - c^2 - m^2c^2 + 4 + 4m^2 = 0$$
+$$
+m^2c^2 - c^2 - m^2c^2 + 4 + 4m^2 = 0
+$$
 
-$$-c^2 + 4 + 4m^2 = 0$$
+$$
+-c^2 + 4 + 4m^2 = 0
+$$
 
-$$c^2 = 4(1 + m^2)$$
+$$
+c^2 = 4(1 + m^2)
+$$
 
-$$c = \pm 2\sqrt{1 + m^2}$$
+$$
+c = \pm 2\sqrt{1 + m^2}
+$$
 
 ---
 
@@ -347,19 +397,31 @@ Let the centre be $C(a, 2a)$.
 
 $CA = CB$ (equal radii):
 
-$$\sqrt{(a-1)^2 + (2a-3)^2} = \sqrt{(a-4)^2 + (2a-6)^2}$$
+$$
+\sqrt{(a-1)^2 + (2a-3)^2} = \sqrt{(a-4)^2 + (2a-6)^2}
+$$
 
 Square both sides:
 
-$$(a-1)^2 + (2a-3)^2 = (a-4)^2 + (2a-6)^2$$
+$$
+(a-1)^2 + (2a-3)^2 = (a-4)^2 + (2a-6)^2
+$$
 
-$$a^2 - 2a + 1 + 4a^2 - 12a + 9 = a^2 - 8a + 16 + 4a^2 - 24a + 36$$
+$$
+a^2 - 2a + 1 + 4a^2 - 12a + 9 = a^2 - 8a + 16 + 4a^2 - 24a + 36
+$$
 
-$$5a^2 - 14a + 10 = 5a^2 - 32a + 52$$
+$$
+5a^2 - 14a + 10 = 5a^2 - 32a + 52
+$$
 
-$$18a = 42$$
+$$
+18a = 42
+$$
 
-$$a = \frac{42}{18} = \frac{7}{3}$$
+$$
+a = \frac{42}{18} = \frac{7}{3}
+$$
 
 Centre: $\left(\dfrac{7}{3},\; \dfrac{14}{3}\right)$.
 
@@ -393,15 +455,23 @@ Distance from $P$ to $(2, -3)$: $\sqrt{(x-2)^2 + (y+3)^2}$.
 
 Distance from $P$ to $y = 1$: $|y - 1|$.
 
-$$\sqrt{(x-2)^2 + (y+3)^2} = |y - 1|$$
+$$
+\sqrt{(x-2)^2 + (y+3)^2} = |y - 1|
+$$
 
 Squaring: $(x-2)^2 + (y+3)^2 = (y-1)^2$.
 
-$$x^2 - 4x + 4 + y^2 + 6y + 9 = y^2 - 2y + 1$$
+$$
+x^2 - 4x + 4 + y^2 + 6y + 9 = y^2 - 2y + 1
+$$
 
-$$x^2 - 4x + 8y + 12 = 0$$
+$$
+x^2 - 4x + 8y + 12 = 0
+$$
 
-$$x^2 - 4x + 8y + 12 = 0$$
+$$
+x^2 - 4x + 8y + 12 = 0
+$$
 
 This is a parabola (since it has one squared term and one linear term in the other variable).
 
@@ -428,9 +498,13 @@ Line 1: $3x - y + 2 = 0 \implies y = 3x + 2$Slope $m_1 = 3$.
 
 Line 2: $x + 2y - 7 = 0 \implies y = -\dfrac{1}{2}x + \dfrac{7}{2}$Slope $m_2 = -\dfrac{1}{2}$.
 
-$$\tan \theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right| = \left|\frac{3 - (-1/2)}{1 + 3(-1/2)}\right| = \left|\frac{7/2}{1 - 3/2}\right| = \left|\frac{7/2}{-1/2}\right| = 7$$
+$$
+\tan \theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right| = \left|\frac{3 - (-1/2)}{1 + 3(-1/2)}\right| = \left|\frac{7/2}{1 - 3/2}\right| = \left|\frac{7/2}{-1/2}\right| = 7
+$$
 
-$$\theta = \arctan(7) \approx 81.9°$$
+$$
+\theta = \arctan(7) \approx 81.9°
+$$
 
 ---
 
@@ -455,11 +529,17 @@ From the second equation: $y = 4x - 5$.
 
 Substitute into the first: $2x + 3(4x - 5) = 13$.
 
-$$2x + 12x - 15 = 13$$
+$$
+2x + 12x - 15 = 13
+$$
 
-$$14x = 28 \implies x = 2$$
+$$
+14x = 28 \implies x = 2
+$$
 
-$$y = 4(2) - 5 = 3$$
+$$
+y = 4(2) - 5 = 3
+$$
 
 Point of intersection: $(2, 3)$.
 
@@ -484,7 +564,9 @@ Find the shortest distance from the point $(3, -1)$ to the line $4x + 3y - 10 = 
 
 Using the point-to-line distance formula:
 
-$$d = \frac{|4(3) + 3(-1) - 10|}{\sqrt{4^2 + 3^2}} = \frac{|12 - 3 - 10|}{5} = \frac{1}{5}$$
+$$
+d = \frac{|4(3) + 3(-1) - 10|}{\sqrt{4^2 + 3^2}} = \frac{|12 - 3 - 10|}{5} = \frac{1}{5}
+$$
 
 ---
 
@@ -514,7 +596,9 @@ $C_2$: $(x+3)^2 + (y+1)^2 = 25$. Centre $O_2 = (-3, -1)$, $r_2 = 5$.
 
 (b) Distance between centres:
 
-$$O_1 O_2 = \sqrt{(2-(-3))^2 + (3-(-1))^2} = \sqrt{25 + 16} = \sqrt{41}$$
+$$
+O_1 O_2 = \sqrt{(2-(-3))^2 + (3-(-1))^2} = \sqrt{25 + 16} = \sqrt{41}
+$$
 
 Sum of radii: $r_1 + r_2 = 2 + 5 = 7$.
 

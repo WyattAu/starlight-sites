@@ -323,11 +323,15 @@ The indicator must change colour within the pH range of the equivalence point.
 
 Since strong acids dissociate completely, $[\mathrm{H^+] = c$ (the acid concentration).
 
-$$\mathrm{pH = -\log c$$
+$$
+\mathrm{pH = -\log c
+$$
 
 **Worked Example 5 (HL):** Find the pH of a $0.0025 \mathrm{ M$ solution of $\mathrm{HNO_3$.
 
-$$\mathrm{pH = -\log(0.0025) = 2.60$$
+$$
+\mathrm{pH = -\log(0.0025) = 2.60
+$$
 
 ### Strong Diprotic Acid
 
@@ -341,36 +345,54 @@ First proton: $[\mathrm{H^+] = 0.010 \mathrm{ M$ (complete dissociation).
 
 Second proton: $\mathrm{HSO_4^- \rightleftharpoons \mathrm{H^+ + \mathrm{SO_4^{2-}$
 
-$$K_{a2} = \frac{[\mathrm{H^+][\mathrm{SO_4^{2-}]}{[\mathrm{HSO_4^-]} = 1.2 \times 10^{-2}$$
+$$
+K_{a2} = \frac{[\mathrm{H^+][\mathrm{SO_4^{2-}]}{[\mathrm{HSO_4^-]} = 1.2 \times 10^{-2}
+$$
 
 Let $x$ = additional $[\mathrm{H^+]$ from second dissociation:
 
-$$1.2 \times 10^{-2} = \frac{(0.010 + x)(x)}{(0.010 - x)}$$
+$$
+1.2 \times 10^{-2} = \frac{(0.010 + x)(x)}{(0.010 - x)}
+$$
 
 Solving the quadratic: $x \approx 0.0046 \mathrm{ M$.
 
-$$[\mathrm{H^+]_{\mathrm{total} = 0.010 + 0.0046 = 0.0146 \mathrm{ M$$
+$$
+[\mathrm{H^+]_{\mathrm{total} = 0.010 + 0.0046 = 0.0146 \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log(0.0146) = 1.84$$
+$$
+\mathrm{pH = -\log(0.0146) = 1.84
+$$
 
 ### Dilution Calculations
 
 **Worked Example 7 (HL):** 25 mL of $0.10 \mathrm{ M$ $\mathrm{HCl$ is diluted to 250 mL. Find the
 new PH.
 
-$$c_2 = \frac{0.10 \times 25}{250} = 0.010 \mathrm{ M$$
+$$
+c_2 = \frac{0.10 \times 25}{250} = 0.010 \mathrm{ M
+$$
 
-$$\mathrm{pH = -\log(0.010) = 2.00$$
+$$
+\mathrm{pH = -\log(0.010) = 2.00
+$$
 
 ### pH of Strong Bases
 
 **Worked Example 8 (HL):** Find the pH of a $0.001 \mathrm{ M$ solution of $\mathrm{NaOH$.
 
-$$[\mathrm{OH^-] = 0.001 \mathrm{ M$$
+$$
+[\mathrm{OH^-] = 0.001 \mathrm{ M
+$$
 
-$$\mathrm{pOH = -\log(0.001) = 3$$
+$$
+\mathrm{pOH = -\log(0.001) = 3
+$$
 
-$$\mathrm{pH = 14 - 3 = 11$$
+$$
+\mathrm{pH = 14 - 3 = 11
+$$
 
 ### pH of Weak Acids: Detailed Treatment
 
@@ -379,15 +401,23 @@ $$\mathrm{pH = 14 - 3 = 11$$
 
 Without approximation:
 
-$$K_a = \frac{x^2}{0.15 - x} = 6.8 \times 10^{-4}$$
+$$
+K_a = \frac{x^2}{0.15 - x} = 6.8 \times 10^{-4}
+$$
 
-$$x^2 + 6.8 \times 10^{-4}x - 6.8 \times 10^{-4} \times 0.15 = 0$$
+$$
+x^2 + 6.8 \times 10^{-4}x - 6.8 \times 10^{-4} \times 0.15 = 0
+$$
 
-$$x^2 + 6.8 \times 10^{-4}x - 1.02 \times 10^{-4} = 0$$
+$$
+x^2 + 6.8 \times 10^{-4}x - 1.02 \times 10^{-4} = 0
+$$
 
 Using the quadratic formula: $x = 9.9 \times 10^{-3} \mathrm{ M$.
 
-$$\mathrm{pH = -\log(9.9 \times 10^{-3}) = 2.00$$
+$$
+\mathrm{pH = -\log(9.9 \times 10^{-3}) = 2.00
+$$
 
 Check: $c/K_a = 0.15/(6.8 \times 10^{-4}) = 220 > 100$ So the approximation
 $[\mathrm{H^+] \approx \sqrt{K_a \times c}$ gives essentially the same result.
@@ -412,13 +442,19 @@ And $0.25 \mathrm{ M$ $\mathrm{NH_4\mathrm{Cl$ ($K_b = 1.8 \times 10^{-5}$).
 
 First find $pK_a$ for $\mathrm{NH_4^+$:
 
-$$K_a = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}$$
+$$
+K_a = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}
+$$
 
-$$pK_a = 9.26$$
+$$
+pK_a = 9.26
+$$
 
 Using Henderson-Hasselbalch:
 
-$$\mathrm{pH = pK_a + \log\frac{[\mathrm{NH_3]}{[\mathrm{NH_4^+]} = 9.26 + \log\frac{0.20}{0.25} = 9.26 - 0.10 = 9.16$$
+$$
+\mathrm{pH = pK_a + \log\frac{[\mathrm{NH_3]}{[\mathrm{NH_4^+]} = 9.26 + \log\frac{0.20}{0.25} = 9.26 - 0.10 = 9.16
+$$
 
 ### Buffer Capacity and pH Range
 
@@ -454,7 +490,9 @@ A buffer is most effective when:
 
 $\mathrm{CO_3^{2-}$ is the conjugate base of the weak acid $\mathrm{HCO_3^-$. In water:
 
-$$\mathrm{CO_3^{2-} + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{HCO_3^- + \mathrm{OH^-$$
+$$
+\mathrm{CO_3^{2-} + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{HCO_3^- + \mathrm{OH^-
+$$
 
 The production of $\mathrm{OH^-$ makes the solution alkaline.
 
@@ -494,15 +532,25 @@ $0.10 \mathrm{ M$ $\mathrm{CH_3\mathrm{COOH$. Calculate the pH of the resulting 
 At the equivalence point, all $\mathrm{CH_3\mathrm{COOH$ is converted to
 $\mathrm{CH_3\mathrm{COO^-$.
 
-$$n(\mathrm{CH_3\mathrm{COO^-) = 0.10 \times 0.050 = 0.0050 \mathrm{ mol$$
+$$
+n(\mathrm{CH_3\mathrm{COO^-) = 0.10 \times 0.050 = 0.0050 \mathrm{ mol
+$$
 
-$$[\mathrm{CH_3\mathrm{COO^-] = \frac{0.0050}{0.100} = 0.050 \mathrm{ M$$
+$$
+[\mathrm{CH_3\mathrm{COO^-] = \frac{0.0050}{0.100} = 0.050 \mathrm{ M
+$$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}
+$$
 
-$$[\mathrm{OH^-] = \sqrt{5.56 \times 10^{-10} \times 0.050} = 5.27 \times 10^{-6} \mathrm{ M$$
+$$
+[\mathrm{OH^-] = \sqrt{5.56 \times 10^{-10} \times 0.050} = 5.27 \times 10^{-6} \mathrm{ M
+$$
 
-$$\mathrm{pOH = 5.28, \quad \mathrm{pH = 8.72$$
+$$
+\mathrm{pOH = 5.28, \quad \mathrm{pH = 8.72
+$$
 
 ---
 
@@ -595,7 +643,9 @@ charge).
 **Example:** The reaction between $\mathrm{BF_3$ and $\mathrm{NH_3$ is a Lewis acid-base reaction
 but NOT a Bronsted-Lowry reaction (no proton transfer):
 
-$$\mathrm{BF_3 + \mathrm{NH_3 \to \mathrm{F_3\mathrm{B:\mathrm{NH_3$$
+$$
+\mathrm{BF_3 + \mathrm{NH_3 \to \mathrm{F_3\mathrm{B:\mathrm{NH_3
+$$
 
 $\mathrm{BF_3$ accepts the lone pair from nitrogen (Lewis acid), $\mathrm{NH_3$ donates the lone
 pair (Lewis base). A dative covalent bond is formed.
@@ -625,7 +675,9 @@ pair (Lewis base). A dative covalent bond is formed.
 4. Cool to form crystals.
 5. Filter and dry crystals.
 
-$$\mathrm{Zn + \mathrm{H_2\mathrm{SO_4 \to \mathrm{ZnSO_4 + \mathrm{H_2$$
+$$
+\mathrm{Zn + \mathrm{H_2\mathrm{SO_4 \to \mathrm{ZnSO_4 + \mathrm{H_2
+$$
 
 **Note:** Very reactive metals (Na, K) react too violently. Unreactive metals (Cu, Ag) do not react
 With dilute acids.
@@ -646,7 +698,9 @@ With dilute acids.
 
 **Example:** Preparation of $\mathrm{CaCl_2$:
 
-$$\mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+$$
+\mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2
+$$
 
 Add excess $\mathrm{CaCO_3$ to $\mathrm{HCl$Filter, evaporate, crystallise.
 
@@ -656,7 +710,9 @@ Add excess $\mathrm{CaCO_3$ to $\mathrm{HCl$Filter, evaporate, crystallise.
 
 **Example:** Preparation of $\mathrm{CuSO_4$:
 
-$$\mathrm{CuO + \mathrm{H_2\mathrm{SO_4 \to \mathrm{CuSO_4 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CuO + \mathrm{H_2\mathrm{SO_4 \to \mathrm{CuSO_4 + \mathrm{H_2\mathrm{O
+$$
 
 Warm $\mathrm{CuO$ with dilute $\mathrm{H_2\mathrm{SO_4$Filter, evaporate, crystallise.
 
@@ -666,7 +722,9 @@ Warm $\mathrm{CuO$ with dilute $\mathrm{H_2\mathrm{SO_4$Filter, evaporate, cryst
 
 **Example:** Preparation of $\mathrm{PbI_2$:
 
-$$\mathrm{Pb(NO_3)_2 + 2\mathrm{KI \to \mathrm{PbI_2\mathrm{(s) + 2\mathrm{KNO_3$$
+$$
+\mathrm{Pb(NO_3)_2 + 2\mathrm{KI \to \mathrm{PbI_2\mathrm{(s) + 2\mathrm{KNO_3
+$$
 
 Mix solutions, filter the precipitate, wash with distilled water, dry.
 
@@ -791,9 +849,13 @@ Acids that can donate more than one proton are called polyprotic acids.
 
 ### Carbonic Acid ($\mathrm{H_2\mathrm{CO_3$)
 
-$$\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^- \quad K_{a1} = 4.3 \times 10^{-7}$$
+$$
+\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^- \quad K_{a1} = 4.3 \times 10^{-7}
+$$
 
-$$\mathrm{HCO_3^- \rightleftharpoons \mathrm{H^+ + \mathrm{CO_3^{2-} \quad K_{a2} = 4.8 \times 10^{-11}$$
+$$
+\mathrm{HCO_3^- \rightleftharpoons \mathrm{H^+ + \mathrm{CO_3^{2-} \quad K_{a2} = 4.8 \times 10^{-11}
+$$
 
 Note: $K_{a1} \gg K_{a2}$. The first dissociation is much stronger than the second because removing
 $\mathrm{H^+$ from a negatively charged ion ($\mathrm{HCO_3^-$) is harder than from a neutral
@@ -801,13 +863,17 @@ molecule ($\mathrm{H_2\mathrm{CO_3$).
 
 ### Phosphoric Acid ($\mathrm{H_3\mathrm{PO_4$)
 
-$$K_{a1} = 7.5 \times 10^{-3}, \quad K_{a2} = 6.2 \times 10^{-8}, \quad K_{a3} = 4.8 \times 10^{-13}$$
+$$
+K_{a1} = 7.5 \times 10^{-3}, \quad K_{a2} = 6.2 \times 10^{-8}, \quad K_{a3} = 4.8 \times 10^{-13}
+$$
 
 Each successive dissociation constant is smaller by a factor of approximately $10^5$.
 
 ### Sulfuric Acid ($\mathrm{H_2\mathrm{SO_4$)
 
-$$K_{a1} = \mathrm{very large (complete), \quad K_{a2} = 1.2 \times 10^{-2}$$
+$$
+K_{a1} = \mathrm{very large (complete), \quad K_{a2} = 1.2 \times 10^{-2}
+$$
 
 The first proton dissociates completely (strong acid), but the second does not.
 
@@ -815,7 +881,9 @@ The first proton dissociates completely (strong acid), but the second does not.
 
 The carbonic acid-bicarbonate buffer system maintains blood pH at approximately 7.4:
 
-$$\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^- \quad pK_{a1} = 6.37$$
+$$
+\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^- \quad pK_{a1} = 6.37
+$$
 
 Although the blood pH of 7.4 is outside the optimal range ($pK_a \pm 1 = 5.37$ to $7.37$), the
 System works because:
@@ -847,9 +915,13 @@ Rain with pH less than 5.6 (normal rain is slightly acidic due to dissolved $\ma
 **Causes:** $\mathrm{SO_2$ and $\mathrm{NO_x$ from fossil fuel combustion react with atmospheric
 Water:
 
-$$\mathrm{SO_2 + \mathrm{H_2\mathrm{O \to \mathrm{H_2\mathrm{SO_3$$
+$$
+\mathrm{SO_2 + \mathrm{H_2\mathrm{O \to \mathrm{H_2\mathrm{SO_3
+$$
 
-$$2\mathrm{SO_2 + \mathrm{O_2 \to 2\mathrm{SO_3 \quad \mathrm{then \quad \mathrm{SO_3 + \mathrm{H_2\mathrm{O \to \mathrm{H_2\mathrm{SO_4$$
+$$
+2\mathrm{SO_2 + \mathrm{O_2 \to 2\mathrm{SO_3 \quad \mathrm{then \quad \mathrm{SO_3 + \mathrm{H_2\mathrm{O \to \mathrm{H_2\mathrm{SO_4
+$$
 
 **Effects:** Damage to buildings (limestone dissolves), acidification of lakes (harmful to aquatic
 Life), damage to forests (nutrient leaching).
@@ -858,7 +930,9 @@ Life), damage to forests (nutrient leaching).
 
 Lakes can be treated with limestone ($\mathrm{CaCO_3$):
 
-$$\mathrm{CaCO_3 + 2\mathrm{H^+ \to \mathrm{Ca^{2+} + \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+$$
+\mathrm{CaCO_3 + 2\mathrm{H^+ \to \mathrm{Ca^{2+} + \mathrm{H_2\mathrm{O + \mathrm{CO_2
+$$
 
 However, this is a temporary solution. Reducing emissions at source is the long-term answer.
 
@@ -870,22 +944,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 ## Intuition
 

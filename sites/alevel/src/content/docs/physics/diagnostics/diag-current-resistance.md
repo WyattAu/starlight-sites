@@ -105,7 +105,9 @@ cross-sectional area $1.0 \times 10^{-6}\,\text{m}^2$.
 (a) $R_2 = R_1[1 + \alpha(T_2 - T_1)]$
 
 $$5.80 = 5.00[1 + \alpha(80)]$$ $$1 + 80\alpha = 1.160$$ $$80\alpha = 0.160$$
-$$\alpha = 0.00200\,\text{K}^{-1}$$
+$$
+\alpha = 0.00200\,\text{K}^{-1}
+$$
 
 The accepted value is approximately $0.00393\,\text{K}^{-1}$ But we use the data given.
 
@@ -136,7 +138,9 @@ $$0.00200(T_3 - 20) = 0.300$$ $$T_3 = 170^\circ\text{C}$$
 
 A semiconductor diode has the I-V characteristic approximated by the Shockley diode equation:
 
-$$I = I_0\left(e^{eV/(nkT)} - 1\right)$$
+$$
+I = I_0\left(e^{eV/(nkT)} - 1\right)
+$$
 
 Where $I_0 = 5.0 \times 10^{-9}\,\text{A}$, $n = 1.5$ (ideality factor),
 $e = 1.60 \times 10^{-19}\,\text{C}$, $k = 1.38 \times 10^{-23}\,\text{J}\,\text{K}^{-1}$ And
@@ -155,18 +159,24 @@ $V_T = kT/e = 1.38 \times 10^{-23} \times 300/1.60 \times 10^{-19} = 0.02588\,\t
 
 Exponent: $eV/(nkT) = 0.60/(1.5 \times 0.02588) = 0.60/0.03881 = 15.46$
 
-$$I = 5.0 \times 10^{-9}(e^{15.46} - 1) = 5.0 \times 10^{-9}(5.265 \times 10^6 - 1) \approx 5.0 \times 10^{-9} \times 5.265 \times 10^6 = 0.0263\,\text{A} = 26.3\,\text{mA}$$
+$$
+I = 5.0 \times 10^{-9}(e^{15.46} - 1) = 5.0 \times 10^{-9}(5.265 \times 10^6 - 1) \approx 5.0 \times 10^{-9} \times 5.265 \times 10^6 = 0.0263\,\text{A} = 26.3\,\text{mA}
+$$
 
 (b) Dynamic resistance: $r_d = \frac{dV}{dI} = \frac{nkT}{e(I + I_0)} \approx \frac{nkT}{eI}$ (since
 $I \gg I_0$)
 
-$$r_d = \frac{1.5 \times 0.02588}{0.0263} = \frac{0.03881}{0.0263} = 1.48\,\Omega$$
+$$
+r_d = \frac{1.5 \times 0.02588}{0.0263} = \frac{0.03881}{0.0263} = 1.48\,\Omega
+$$
 
 (c) At $I = 10\,\text{mA} = 0.010\,\text{A}$:
 
 $$0.010 = 5.0 \times 10^{-9}(e^{V/(nV_T)} - 1)$$ $$e^{V/(nV_T)} - 1 = 2.0 \times 10^6$$
 $$e^{V/(nV_T)} = 2.0 \times 10^6$$ $$\frac{V}{nV_T} = \ln(2.0 \times 10^6) = 14.51$$
-$$V = 14.51 \times 1.5 \times 0.02588 = 0.563\,\text{V}$$
+$$
+V = 14.51 \times 1.5 \times 0.02588 = 0.563\,\text{V}
+$$
 
 ## Integration Tests
 
@@ -269,27 +279,41 @@ comment on the improvement.
 
 (a) $d = 0.500\,\text{mm} = 5.00 \times 10^{-4}\,\text{m}$
 
-$$\rho = \frac{\pi d^2 R}{4l} = \frac{\pi \times (5.00 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} = \frac{\pi \times 2.500 \times 10^{-7} \times 8.50}{4} = \frac{6.685 \times 10^{-6}}{4} = 1.671 \times 10^{-6}\,\Omega\,\text{m}$$
+$$
+\rho = \frac{\pi d^2 R}{4l} = \frac{\pi \times (5.00 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} = \frac{\pi \times 2.500 \times 10^{-7} \times 8.50}{4} = \frac{6.685 \times 10^{-6}}{4} = 1.671 \times 10^{-6}\,\Omega\,\text{m}
+$$
 
 Percentage uncertainty:
 
-$$\frac{\Delta\rho}{\rho} = 2\frac{\Delta d}{d} + \frac{\Delta R}{R} + \frac{\Delta l}{l} = 2 \times \frac{0.005}{0.500} + \frac{0.05}{8.50} + \frac{0.001}{1.000}$$
-$$= 2 \times 0.010 + 0.00588 + 0.001 = 0.02688 = 2.69\%$$
+$$
+\frac{\Delta\rho}{\rho} = 2\frac{\Delta d}{d} + \frac{\Delta R}{R} + \frac{\Delta l}{l} = 2 \times \frac{0.005}{0.500} + \frac{0.05}{8.50} + \frac{0.001}{1.000}
+$$
+$$
+= 2 \times 0.010 + 0.00588 + 0.001 = 0.02688 = 2.69\%
+$$
 
-$$\rho = (1.67 \pm 0.04) \times 10^{-6}\,\Omega\,\text{m}$$
+$$
+\rho = (1.67 \pm 0.04) \times 10^{-6}\,\Omega\,\text{m}
+$$
 
 The dominant uncertainty is from the diameter measurement (which enters as $d^2$).
 
 (b) The resistance at $20^\circ\text{C}$:
 $R_{20} = R_{25}/[1 + \alpha(25 - 20)] = 8.50/[1 + 0.004 \times 5] = 8.50/1.020 = 8.333\,\Omega$
 
-$$\rho_{20} = \frac{\pi \times 2.500 \times 10^{-7} \times 8.333}{4} = 1.636 \times 10^{-6}\,\Omega\,\text{m}$$
+$$
+\rho_{20} = \frac{\pi \times 2.500 \times 10^{-7} \times 8.333}{4} = 1.636 \times 10^{-6}\,\Omega\,\text{m}
+$$
 
 (c) New diameter: $d = 0.498\,\text{mm}$, $\Delta d = 0.003\,\text{mm}$
 
-$$\rho' = \frac{\pi \times (4.98 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} = \frac{\pi \times 2.480 \times 10^{-7} \times 8.50}{4} = 1.657 \times 10^{-6}\,\Omega\,\text{m}$$
+$$
+\rho' = \frac{\pi \times (4.98 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} = \frac{\pi \times 2.480 \times 10^{-7} \times 8.50}{4} = 1.657 \times 10^{-6}\,\Omega\,\text{m}
+$$
 
-$$\frac{\Delta\rho'}{\rho'} = 2 \times \frac{0.003}{0.498} + 0.00588 + 0.001 = 0.01205 + 0.00588 + 0.001 = 0.01893 = 1.89\%$$
+$$
+\frac{\Delta\rho'}{\rho'} = 2 \times \frac{0.003}{0.498} + 0.00588 + 0.001 = 0.01205 + 0.00588 + 0.001 = 0.01893 = 1.89\%
+$$
 
 The percentage uncertainty improved from $2.69\%$ to $1.89\%$. The micrometer reduced the fractional
 uncertainty in diameter from $1.0\%$ to $0.60\%$ And since diameter enters as $d^2$This contributed

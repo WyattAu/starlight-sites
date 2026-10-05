@@ -105,7 +105,9 @@ Investment, and economic growth in developing countries.
 
 **Core equation:**
 
-$$g = \frac{s}{v}$$
+$$
+g = \frac{s}{v}
+$$
 
 Where $g$ is the growth rate of GDP, $s$ is the savings rate ($S/Y$), and $v$ is the incremental
 Capital-output ratio (ICOR, or $\Delta K / \Delta Y$).
@@ -116,7 +118,9 @@ In equilibrium, saving equals investment: $S = I$. Saving is a constant fraction
 $S = sY$. Investment equals the capital stock required to produce additional output:
 $I = v \cdot \Delta Y$.
 
-$$sY = v \cdot \Delta Y \implies \frac{\Delta Y}{Y} = \frac{s}{v}$$
+$$
+sY = v \cdot \Delta Y \implies \frac{\Delta Y}{Y} = \frac{s}{v}
+$$
 
 **Policy implications for developing countries:**
 
@@ -180,7 +184,9 @@ Low-productivity traditional sector to a high-productivity modern sector.
 
 The growth rate of the modern sector equals the profit rate times the share of profits reinvested:
 
-$$g = \frac{\pi}{K} \cdot \frac{\Delta K}{\pi}$$
+$$
+g = \frac{\pi}{K} \cdot \frac{\Delta K}{\pi}
+$$
 
 Where $\pi$ is total profits and $\Delta K / \pi$ is the fraction of profits reinvested.
 
@@ -211,7 +217,9 @@ Singapore, Hong Kong) from the 1960s onward:
 Harris and Todaro (1970) extended Lewis by explaining why urban unemployment coexists with
 Rural-urban migration:
 
-$$\frac{Y_u}{Y_r} = \frac{P_u \cdot w_u}{w_r}$$
+$$
+\frac{Y_u}{Y_r} = \frac{P_u \cdot w_u}{w_r}
+$$
 
 Where $Y_u$ is expected urban income, $Y_r$ is rural income, $P_u$ is the probability of finding an
 urban job, and $w_u$ and $w_r$ are urban and rural wages respectively.
@@ -408,13 +416,17 @@ Migrate to cities.
 
 **Key insight:** migration is driven by the **expected** urban wage, not the actual wage:
 
-$$E[w_u] = \frac{L_e}{L_e + L_u} \times w_u = (1 - u_u) \times w_u$$
+$$
+E[w_u] = \frac{L_e}{L_e + L_u} \times w_u = (1 - u_u) \times w_u
+$$
 
 Where $L_e$ is urban employment, $L_u$ is urban unemployment, and $w_u$ is the urban wage.
 
 **Migration equilibrium:**
 
-$$w_a = E[w_u] = (1 - u_u) \times w_u$$
+$$
+w_a = E[w_u] = (1 - u_u) \times w_u
+$$
 
 Workers migrate until the expected urban wage equals the agricultural wage.
 
@@ -509,8 +521,12 @@ development and political freedom is a real concern.
 Thomas Malthus (1798) argued that population growth tends to outstrip food production, leading To
 periodic famines and population collapses:
 
-$$\text{Population grows geometrically: } P_t = P_0 (1 + g)^t$$
-$$\text{Food production grows arithmetically: } F_t = F_0 + at$$
+$$
+\text{Population grows geometrically: } P_t = P_0 (1 + g)^t
+$$
+$$
+\text{Food production grows arithmetically: } F_t = F_0 + at
+$$
 
 Malthus predicted that per capita income would remain at subsistence level in the long run Because
 any increase in income would lead to higher population growth, which would depress Wages back to
@@ -814,11 +830,15 @@ structurally increased commodity prices.
 
 A country has a savings rate ($s$) of 15% and a capital-output ratio ($v$) of 3.
 
-$$g = \frac{s}{v} = \frac{0.15}{3} = 0.05 = 5\%$$
+$$
+g = \frac{s}{v} = \frac{0.15}{3} = 0.05 = 5\%
+$$
 
 The economy grows at 5% per year. To achieve 7% growth:
 
-$$s = g \times v = 0.07 \times 3 = 0.21 = 21\%$$
+$$
+s = g \times v = 0.07 \times 3 = 0.21 = 21\%
+$$
 
 The savings rate must increase to 21% (or foreign aid must fill the savings gap of 6% of GDP).
 

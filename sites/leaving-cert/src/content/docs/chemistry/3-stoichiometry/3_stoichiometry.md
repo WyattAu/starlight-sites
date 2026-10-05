@@ -421,22 +421,32 @@ Real gases deviate from ideal behaviour at high pressure and low temperature.
 
 ### Gas Mixtures: Dalton's Law of Partial Pressures
 
-$$p_{\mathrm{total} = p_1 + p_2 + p_3 + \ldots$$
+$$
+p_{\mathrm{total} = p_1 + p_2 + p_3 + \ldots
+$$
 
 The partial pressure of each gas is proportional to its mole fraction:
 
-$$p_i = x_i \times p_{\mathrm{total}$$
+$$
+p_i = x_i \times p_{\mathrm{total}
+$$
 
 Where $x_i = n_i / n_{\mathrm{total}$.
 
 **Worked Example 9 (HL):** A gas mixture contains 0.40 mol of $\mathrm{N_2$ and 0.10 mol of
 $\mathrm{O_2$ at a total pressure of 120 kPa. Find the partial pressure of each gas.
 
-$$n_{\mathrm{total} = 0.40 + 0.10 = 0.50 \mathrm{ mol$$
+$$
+n_{\mathrm{total} = 0.40 + 0.10 = 0.50 \mathrm{ mol
+$$
 
-$$x_{\mathrm{N_2} = 0.40/0.50 = 0.80, \quad x_{\mathrm{O_2} = 0.10/0.50 = 0.20$$
+$$
+x_{\mathrm{N_2} = 0.40/0.50 = 0.80, \quad x_{\mathrm{O_2} = 0.10/0.50 = 0.20
+$$
 
-$$p_{\mathrm{N_2} = 0.80 \times 120 = 96 \mathrm{ kPa, \quad p_{\mathrm{O_2} = 0.20 \times 120 = 24 \mathrm{ kPa$$
+$$
+p_{\mathrm{N_2} = 0.80 \times 120 = 96 \mathrm{ kPa, \quad p_{\mathrm{O_2} = 0.20 \times 120 = 24 \mathrm{ kPa
+$$
 
 ### Molar Volume and Gas Calculations
 
@@ -446,18 +456,28 @@ At RTP ($25°C$1 atm): $V_m = 24.0 \mathrm{ L/mol$.
 
 **Worked Example 10 (HL):** What volume does 2 mol of gas occupy at STP?
 
-$$V = n \times V_m = 2 \times 22.4 = 44.8 \mathrm{ L$$
+$$
+V = n \times V_m = 2 \times 22.4 = 44.8 \mathrm{ L
+$$
 
 **Worked Example 11 (HL):** What volume of $\mathrm{CO_2$ is produced when $10.0 \mathrm{ g$ of
 $\mathrm{CaCO_3$ reacts with excess $\mathrm{HCl$ at RTP?
 
-$$\mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+$$
+\mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2
+$$
 
-$$n(\mathrm{CaCO_3) = \frac{10.0}{100} = 0.100 \mathrm{ mol$$
+$$
+n(\mathrm{CaCO_3) = \frac{10.0}{100} = 0.100 \mathrm{ mol
+$$
 
-$$n(\mathrm{CO_2) = 0.100 \mathrm{ mol$$
+$$
+n(\mathrm{CO_2) = 0.100 \mathrm{ mol
+$$
 
-$$V(\mathrm{CO_2) = 0.100 \times 24.0 = 2.40 \mathrm{ L$$
+$$
+V(\mathrm{CO_2) = 0.100 \times 24.0 = 2.40 \mathrm{ L
+$$
 
 ---
 
@@ -479,13 +499,17 @@ $84 \mathrm{ g/mol$. Find the molecular formula.
 
 Assume 100 g: C = 85.7 g, H = 14.3 g.
 
-$$n(\mathrm{C) = 85.7/12 = 7.14, \quad n(\mathrm{H) = 14.3/1 = 14.3$$
+$$
+n(\mathrm{C) = 85.7/12 = 7.14, \quad n(\mathrm{H) = 14.3/1 = 14.3
+$$
 
 Ratio: $7.14 : 14.3 = 1 : 2$. Empirical formula: $\mathrm{CH_2$.
 
 Empirical formula mass = 14.
 
-$$n = 84/14 = 6$$
+$$
+n = 84/14 = 6
+$$
 
 Molecular formula: $\mathrm{C_6\mathrm{H_{12}$ (cyclohexane or hexene).
 
@@ -496,13 +520,17 @@ Mass is 180 g/mol. Find its molecular formula.
 
 Assume 100 g: C = 40.0 g, H = 6.7 g, O = 53.3 g.
 
-$$n(\mathrm{C) = 40.0/12 = 3.33, \quad n(\mathrm{H) = 6.7/1 = 6.7, \quad n(\mathrm{O) = 53.3/16 = 3.33$$
+$$
+n(\mathrm{C) = 40.0/12 = 3.33, \quad n(\mathrm{H) = 6.7/1 = 6.7, \quad n(\mathrm{O) = 53.3/16 = 3.33
+$$
 
 Ratio: $1 : 2 : 1$. Empirical formula: $\mathrm{CH_2\mathrm{O$.
 
 Empirical formula mass = 30.
 
-$$n = 180/30 = 6$$
+$$
+n = 180/30 = 6
+$$
 
 Molecular formula: $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ (glucose).
 
@@ -513,7 +541,9 @@ Formula.
 
 Assume 100 g: N = 26.2 g, H = 7.5 g, Cl = 66.3 g.
 
-$$n(\mathrm{N) = 26.2/14 = 1.87, \quad n(\mathrm{H) = 7.5/1 = 7.5, \quad n(\mathrm{Cl) = 66.3/35.5 = 1.87$$
+$$
+n(\mathrm{N) = 26.2/14 = 1.87, \quad n(\mathrm{H) = 7.5/1 = 7.5, \quad n(\mathrm{Cl) = 66.3/35.5 = 1.87
+$$
 
 Ratio: $1 : 4 : 1$. Empirical formula: $\mathrm{NH_4\mathrm{Cl$ (ammonium chloride).
 
@@ -533,31 +563,49 @@ Ratio: $1 : 4 : 1$. Empirical formula: $\mathrm{NH_4\mathrm{Cl$ (ammonium chlori
 **Worked Example 15 (HL):** $4.6 \mathrm{ g$ of ethanol ($\mathrm{C_2\mathrm{H_5\mathrm{OH$) is
 burned In excess oxygen. Calculate the mass of $\mathrm{CO_2$ produced.
 
-$$\mathrm{C_2\mathrm{H_5\mathrm{OH + 3\mathrm{O_2 \to 2\mathrm{CO_2 + 3\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{C_2\mathrm{H_5\mathrm{OH + 3\mathrm{O_2 \to 2\mathrm{CO_2 + 3\mathrm{H_2\mathrm{O
+$$
 
-$$n(\mathrm{ethanol) = \frac{4.6}{46} = 0.10 \mathrm{ mol$$
+$$
+n(\mathrm{ethanol) = \frac{4.6}{46} = 0.10 \mathrm{ mol
+$$
 
-$$n(\mathrm{CO_2) = 2 \times 0.10 = 0.20 \mathrm{ mol$$
+$$
+n(\mathrm{CO_2) = 2 \times 0.10 = 0.20 \mathrm{ mol
+$$
 
-$$m(\mathrm{CO_2) = 0.20 \times 44 = 8.8 \mathrm{ g$$
+$$
+m(\mathrm{CO_2) = 0.20 \times 44 = 8.8 \mathrm{ g
+$$
 
 **Worked Example 16 (HL):** $10.0 \mathrm{ g$ of $\mathrm{Zn$ is added to $200 \mathrm{ mL$ of
 $1.00 \mathrm{ M$ $\mathrm{HCl$. Find the mass of $\mathrm{ZnCl_2$ produced and identify the
 limiting Reagent.
 
-$$\mathrm{Zn + 2\mathrm{HCl \to \mathrm{ZnCl_2 + \mathrm{H_2$$
+$$
+\mathrm{Zn + 2\mathrm{HCl \to \mathrm{ZnCl_2 + \mathrm{H_2
+$$
 
-$$n(\mathrm{Zn) = \frac{10.0}{65.4} = 0.153 \mathrm{ mol$$
+$$
+n(\mathrm{Zn) = \frac{10.0}{65.4} = 0.153 \mathrm{ mol
+$$
 
-$$n(\mathrm{HCl) = 1.00 \times 0.200 = 0.200 \mathrm{ mol$$
+$$
+n(\mathrm{HCl) = 1.00 \times 0.200 = 0.200 \mathrm{ mol
+$$
 
 Stoichiometry requires $n(\mathrm{HCl) = 2 \times n(\mathrm{Zn) = 0.306 \mathrm{ mol$.
 
 Since $0.200 < 0.306$HCl is the limiting reagent.
 
-$$n(\mathrm{ZnCl_2) = \frac{1}{2} \times 0.200 = 0.100 \mathrm{ mol$$
+$$
+n(\mathrm{ZnCl_2) = \frac{1}{2} \times 0.200 = 0.100 \mathrm{ mol
+$$
 
-$$m(\mathrm{ZnCl_2) = 0.100 \times 136.3 = 13.6 \mathrm{ g$$
+$$
+m(\mathrm{ZnCl_2) = 0.100 \times 136.3 = 13.6 \mathrm{ g
+$$
 
 ---
 
@@ -577,37 +625,61 @@ $$m(\mathrm{ZnCl_2) = 0.100 \times 136.3 = 13.6 \mathrm{ g$$
 $20.0 \mathrm{ mL$ of $\mathrm{H_2\mathrm{SO_4$ is neutralised by $25.0 \mathrm{ mL$ of
 $0.200 \mathrm{ M$ $\mathrm{NaOH$. Find the concentration of $\mathrm{H_2\mathrm{SO_4$.
 
-$$\mathrm{H_2\mathrm{SO_4 + 2\mathrm{NaOH \to \mathrm{Na_2\mathrm{SO_4 + 2\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{H_2\mathrm{SO_4 + 2\mathrm{NaOH \to \mathrm{Na_2\mathrm{SO_4 + 2\mathrm{H_2\mathrm{O
+$$
 
-$$n(\mathrm{NaOH) = 0.200 \times 0.0250 = 0.00500 \mathrm{ mol$$
+$$
+n(\mathrm{NaOH) = 0.200 \times 0.0250 = 0.00500 \mathrm{ mol
+$$
 
-$$n(\mathrm{H_2\mathrm{SO_4) = \frac{0.00500}{2} = 0.00250 \mathrm{ mol$$
+$$
+n(\mathrm{H_2\mathrm{SO_4) = \frac{0.00500}{2} = 0.00250 \mathrm{ mol
+$$
 
-$$c(\mathrm{H_2\mathrm{SO_4) = \frac{0.00250}{0.0200} = 0.125 \mathrm{ M$$
+$$
+c(\mathrm{H_2\mathrm{SO_4) = \frac{0.00250}{0.0200} = 0.125 \mathrm{ M
+$$
 
 ### Worked Example 18 (HL): Percentage Purity
 
 $12.0 \mathrm{ g$ of impure $\mathrm{CaCO_3$ required $300 \mathrm{ cm^3$ of $1.00 \mathrm{ M$
 $\mathrm{HCl$ to react completely. Find the percentage purity.
 
-$$\mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+$$
+\mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2
+$$
 
-$$n(\mathrm{HCl) = 1.00 \times 0.300 = 0.300 \mathrm{ mol$$
+$$
+n(\mathrm{HCl) = 1.00 \times 0.300 = 0.300 \mathrm{ mol
+$$
 
-$$n(\mathrm{CaCO_3) = \frac{0.300}{2} = 0.150 \mathrm{ mol$$
+$$
+n(\mathrm{CaCO_3) = \frac{0.300}{2} = 0.150 \mathrm{ mol
+$$
 
-$$m(\mathrm{pure CaCO_3) = 0.150 \times 100 = 15.0 \mathrm{ g$$
+$$
+m(\mathrm{pure CaCO_3) = 0.150 \times 100 = 15.0 \mathrm{ g
+$$
 
 Wait, this exceeds the sample mass of 12.0 g. Let me correct the problem: $120 \mathrm{ cm^3$ of
 $1.00 \mathrm{ M$ $\mathrm{HCl$.
 
-$$n(\mathrm{HCl) = 1.00 \times 0.120 = 0.120 \mathrm{ mol$$
+$$
+n(\mathrm{HCl) = 1.00 \times 0.120 = 0.120 \mathrm{ mol
+$$
 
-$$n(\mathrm{CaCO_3) = \frac{0.120}{2} = 0.060 \mathrm{ mol$$
+$$
+n(\mathrm{CaCO_3) = \frac{0.120}{2} = 0.060 \mathrm{ mol
+$$
 
-$$m(\mathrm{pure CaCO_3) = 0.060 \times 100 = 6.0 \mathrm{ g$$
+$$
+m(\mathrm{pure CaCO_3) = 0.060 \times 100 = 6.0 \mathrm{ g
+$$
 
-$$\%\mathrm{ purity = \frac{6.0}{12.0} \times 100 = 50.0\%$$
+$$
+\%\mathrm{ purity = \frac{6.0}{12.0} \times 100 = 50.0\%
+$$
 
 ---
 
@@ -628,13 +700,21 @@ Gravimetric analysis determines the amount of a substance by measuring the mass 
 Added to precipitate $\mathrm{BaSO_4$. If $1.17 \mathrm{ g$ of $\mathrm{BaSO_4$ is obtained, find
 the Mass of sulfate ions in the original solution.
 
-$$\mathrm{SO_4^{2-} + \mathrm{Ba^{2+} \to \mathrm{BaSO_4\mathrm{(s)$$
+$$
+\mathrm{SO_4^{2-} + \mathrm{Ba^{2+} \to \mathrm{BaSO_4\mathrm{(s)
+$$
 
-$$n(\mathrm{BaSO_4) = \frac{1.17}{233.4} = 0.00501 \mathrm{ mol$$
+$$
+n(\mathrm{BaSO_4) = \frac{1.17}{233.4} = 0.00501 \mathrm{ mol
+$$
 
-$$n(\mathrm{SO_4^{2-}) = 0.00501 \mathrm{ mol$$
+$$
+n(\mathrm{SO_4^{2-}) = 0.00501 \mathrm{ mol
+$$
 
-$$m(\mathrm{SO_4^{2-}) = 0.00501 \times 96.1 = 0.481 \mathrm{ g$$
+$$
+m(\mathrm{SO_4^{2-}) = 0.00501 \times 96.1 = 0.481 \mathrm{ g
+$$
 
 ---
 
@@ -715,14 +795,20 @@ $$m(\mathrm{SO_4^{2-}) = 0.00501 \times 96.1 = 0.481 \mathrm{ g$$
 
 ### Dilution Calculations
 
-$$c_1 V_1 = c_2 V_2$$
+$$
+c_1 V_1 = c_2 V_2
+$$
 
 **Worked Example 20 (HL):** How would you prepare $250 \mathrm{ mL$ of $0.10 \mathrm{ M$
 $\mathrm{HCl$ From $2.0 \mathrm{ M$ $\mathrm{HCl$?
 
-$$2.0 \times V_1 = 0.10 \times 250$$
+$$
+2.0 \times V_1 = 0.10 \times 250
+$$
 
-$$V_1 = \frac{25}{2.0} = 12.5 \mathrm{ mL$$
+$$
+V_1 = \frac{25}{2.0} = 12.5 \mathrm{ mL
+$$
 
 Measure $12.5 \mathrm{ mL$ of $2.0 \mathrm{ M$ $\mathrm{HCl$ and dilute to $250 \mathrm{ mL$ with
 water.
@@ -733,11 +819,17 @@ water.
 $200 \mathrm{ mL$ of $0.30 \mathrm{ M$ $\mathrm{HCl$. Find the concentration of the resulting
 solution.
 
-$$n_{\mathrm{total} = 0.50 \times 0.100 + 0.30 \times 0.200 = 0.050 + 0.060 = 0.110 \mathrm{ mol$$
+$$
+n_{\mathrm{total} = 0.50 \times 0.100 + 0.30 \times 0.200 = 0.050 + 0.060 = 0.110 \mathrm{ mol
+$$
 
-$$V_{\mathrm{total} = 0.300 \mathrm{ L$$
+$$
+V_{\mathrm{total} = 0.300 \mathrm{ L
+$$
 
-$$c_{\mathrm{total} = \frac{0.110}{0.300} = 0.367 \mathrm{ M$$
+$$
+c_{\mathrm{total} = \frac{0.110}{0.300} = 0.367 \mathrm{ M
+$$
 
 ---
 
@@ -775,17 +867,25 @@ Errors that vary unpredictably (e.g., reading a burette to different decimal pla
 
 For a measurement $x \pm \Delta x$:
 
-$$\mathrm{Percentage uncertainty = \frac{\Delta x}{x} \times 100\%$$
+$$
+\mathrm{Percentage uncertainty = \frac{\Delta x}{x} \times 100\%
+$$
 
 **Worked Example 22 (HL):** In a titration, the burette readings are $12.50 \pm 0.05 \mathrm{ cm^3$
 (initial) and $24.80 \pm 0.05 \mathrm{ cm^3$ (final). Calculate the titre and its percentage
 Uncertainty.
 
-$$\mathrm{Titre = 24.80 - 12.50 = 12.30 \mathrm{ cm^3$$
+$$
+\mathrm{Titre = 24.80 - 12.50 = 12.30 \mathrm{ cm^3
+$$
 
-$$\Delta(\mathrm{titre) = \sqrt{0.05^2 + 0.05^2} = 0.071 \mathrm{ cm^3$$
+$$
+\Delta(\mathrm{titre) = \sqrt{0.05^2 + 0.05^2} = 0.071 \mathrm{ cm^3
+$$
 
-$$\mathrm{Percentage uncertainty = \frac{0.071}{12.30} \times 100 = 0.58\%$$
+$$
+\mathrm{Percentage uncertainty = \frac{0.071}{12.30} \times 100 = 0.58\%
+$$
 
 ---
 
@@ -832,22 +932,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 ## Intuition
 

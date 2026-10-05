@@ -176,7 +176,9 @@ Numbers or percentages of the total population.
 
 **Dependency ratios.** The total dependency ratio is:
 
-$$\mathrm{TDR} = \frac{P_{0\mathrm{--}14} + P_{65+}}{P_{15\mathrm{--}64}} \times 100$$
+$$
+\mathrm{TDR} = \frac{P_{0\mathrm{--}14} + P_{65+}}{P_{15\mathrm{--}64}} \times 100
+$$
 
 Where $P_{0\mathrm{--}14}$ is the population aged 0--14, $P_{65+}$ is the population aged 65 and
 over, And $P_{15\mathrm{--}64}$ is the working-age population. The youth dependency ratio uses only

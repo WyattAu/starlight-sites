@@ -82,7 +82,9 @@ Decreasing acidity: Cl$_3$CCOOH > ClCH$_2$COOH > CH$_3$COOH
 
 **Solution:**
 
-$$\text{C}_6\text{H}_5\text{COOH} + \text{C}_2\text{H}_5\text{OH} \xrightleftharpoons[\text{H}_2\text{SO}_4]{\Delta} \text{C}_6\text{H}_5\text{COOC}_2\text{H}_5 + \text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{COOH} + \text{C}_2\text{H}_5\text{OH} \xrightleftharpoons[\text{H}_2\text{SO}_4]{\Delta} \text{C}_6\text{H}_5\text{COOC}_2\text{H}_5 + \text{H}_2\text{O}
+$$
 
 Benzoic acid + ethanol $\rightleftharpoons$ ethyl benzoate + water
 
@@ -102,7 +104,9 @@ The reaction is reversible. To drive it forward:
 
 The HVZ reaction brominates the alpha-carbon:
 
-$$\text{CH}_3\text{CH}_2\text{COOH} + \text{Br}_2 \xrightarrow{\text{P}} \text{CH}_3\text{CHBrCOOH} + \text{HBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{COOH} + \text{Br}_2 \xrightarrow{\text{P}} \text{CH}_3\text{CHBrCOOH} + \text{HBr}
+$$
 
 Product: 2-bromopropanoic acid
 

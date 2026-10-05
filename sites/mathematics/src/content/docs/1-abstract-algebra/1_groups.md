@@ -51,11 +51,15 @@ consists of $n$ rotations and $n$ reflections, giving $|D_n| = 2n$ elements.
 
 Let $r$ denote rotation by $2\pi/n$ and $s$ denote any fixed reflection. Then:
 
-$$D_n = \{e, r, r^2, \ldots, r^{n-1}, s, rs, r^2s, \ldots, r^{n-1}s\}$$
+$$
+D_n = \{e, r, r^2, \ldots, r^{n-1}, s, rs, r^2s, \ldots, r^{n-1}s\}
+$$
 
 The group satisfies the **presentation**:
 
-$$D_n = \langle r, s \mid r^n = s^2 = e,\ srs = r^{-1} \rangle$$
+$$
+D_n = \langle r, s \mid r^n = s^2 = e,\ srs = r^{-1} \rangle
+$$
 
 For $n \geq 3$, $D_n$ is non-abelian (e.g., $rs \neq sr$ since $sr = r^{-1}s \neq rs$ when $n > 2$).
 
@@ -78,7 +82,9 @@ Every element of $S_n$ can be written uniquely (up to reordering of disjoint cyc
 **Example.** In $S_5$The permutation $\sigma = (1\ 2\ 3)(4\ 5)$ has cycle type $(3, 2)$.
 
 A **transposition** is a $2$-cycle $(i\ j)$. Every permutation factors into transpositions:
-$$(a_1\ a_2\ \ldots\ a_k) = (a_1\ a_k)(a_1\ a_{k-1})\cdots(a_1\ a_2)$$
+$$
+(a_1\ a_2\ \ldots\ a_k) = (a_1\ a_k)(a_1\ a_{k-1})\cdots(a_1\ a_2)
+$$
 
 The number of transpositions in a factorization is not unique, but its **parity** is.
 

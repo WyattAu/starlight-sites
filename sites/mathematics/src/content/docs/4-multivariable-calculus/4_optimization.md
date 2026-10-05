@@ -32,7 +32,9 @@ maximum, Or saddle point. The second derivative test (Section 4.2) distinguishes
 **Theorem 4.2 (Second Derivative Test).** Let $f$ have continuous second partial derivatives near a
 Critical point $(a,b)$ with $f_x(a,b) = f_y(a,b) = 0$. Let
 
-$$D = f_{xx}(a,b) f_{yy}(a,b) - [f_{xy}(a,b)]^2$$
+$$
+D = f_{xx}(a,b) f_{yy}(a,b) - [f_{xy}(a,b)]^2
+$$
 
 Be the **Hessian determinant**. Then:
 
@@ -43,12 +45,16 @@ Be the **Hessian determinant**. Then:
 
 _Proof._ By Taylor"s theorem to second order, for small $h, k$:
 
-$$f(a+h, b+k) - f(a,b) = \frac{1}{2}\left[f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2\right] + R_2$$
+$$
+f(a+h, b+k) - f(a,b) = \frac{1}{2}\left[f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2\right] + R_2
+$$
 
 Where the remainder $R_2 = o(h^2 + k^2)$ and all partials are evaluated at $(a,b)$. The sign of the
 Right-hand side is determined by the quadratic form
 
-$$Q(h,k) = f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2 = \begin{pmatrix} h & k \end{pmatrix} H \begin{pmatrix} h \\ k \end{pmatrix}$$
+$$
+Q(h,k) = f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2 = \begin{pmatrix} h & k \end{pmatrix} H \begin{pmatrix} h \\ k \end{pmatrix}
+$$
 
 Where $H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{xy} & f_{yy} \end{pmatrix}$ is the Hessian matrix.
 
@@ -69,11 +75,15 @@ $\blacksquare$
 **Theorem 4.3 (Method of Lagrange Multipliers).** To find the extrema of $f(x,y,z)$ subject to the
 Constraint $g(x,y,z) = 0$Solve the system:
 
-$$\nabla f = \lambda \nabla g, \quad g = 0$$
+$$
+\nabla f = \lambda \nabla g, \quad g = 0
+$$
 
 More generally, for $k$ constraints $g_1 = 0, \ldots, g_k = 0$:
 
-$$\nabla f = \lambda_1 \nabla g_1 + \cdots + \lambda_k \nabla g_k$$
+$$
+\nabla f = \lambda_1 \nabla g_1 + \cdots + \lambda_k \nabla g_k
+$$
 
 _Proof (single constraint, geometric justification)._ Let $M = \\{(x,y,z) : g(x,y,z) = 0\\}$ be the
 constraint surface. If $f$ has a local extremum on $M$ at $\mathbf{p}$ Then the directional
@@ -116,11 +126,15 @@ $(\pm 1/\sqrt{2}, \mp 1/\sqrt{2})$. $\blacksquare$
 
 Compute the gradient:
 
-$$\nabla f = (4x^3 - 4y,\, 4y^3 - 4x)$$
+$$
+\nabla f = (4x^3 - 4y,\, 4y^3 - 4x)
+$$
 
 Set $\nabla f = (0,0)$:
 
-$$x^3 = y, \quad y^3 = x$$
+$$
+x^3 = y, \quad y^3 = x
+$$
 
 Substituting $y = x^3$ into $y^3 = x$: $(x^3)^3 = x$I.e., $x^9 = x$Giving $x(x^8 - 1) = 0$. So
 $x = 0$ or $x = \pm 1$.
@@ -148,11 +162,15 @@ $f(-1,-1) = 1 + 1 - 4 = -2$. $\blacksquare$
 
 Compute the gradient:
 
-$$\nabla f = (3x^2 - 3y,\, 3y^2 - 3x)$$
+$$
+\nabla f = (3x^2 - 3y,\, 3y^2 - 3x)
+$$
 
 Set $\nabla f = (0,0)$:
 
-$$3x^2 - 3y = 0 \implies y = x^2, \quad 3y^2 - 3x = 0 \implies y^2 = x$$
+$$
+3x^2 - 3y = 0 \implies y = x^2, \quad 3y^2 - 3x = 0 \implies y^2 = x
+$$
 
 Substituting: $(x^2)^2 = x$ So $x^4 - x = 0$Giving $x(x^3 - 1) = 0$ So $x = 0$ or $x = 1$.
 
@@ -177,11 +195,15 @@ Minimise $f(x,y,z) = x^2 + y^2 + z^2$ subject to $g(x,y,z) = x + 2y + 3z - 6 = 0
 
 $\nabla f = \lambda \nabla g$:
 
-$$(2x, 2y, 2z) = \lambda(1, 2, 3)$$
+$$
+(2x, 2y, 2z) = \lambda(1, 2, 3)
+$$
 
 This gives $x = \lambda/2$, $y = \lambda$, $z = 3\lambda/2$. Substituting into the constraint:
 
-$$\frac{\lambda}{2} + 2\lambda + \frac{9\lambda}{2} = 6 \implies \frac{\lambda + 4\lambda + 9\lambda}{2} = 6 \implies 7\lambda = 6 \implies \lambda = \frac{6}{7}$$
+$$
+\frac{\lambda}{2} + 2\lambda + \frac{9\lambda}{2} = 6 \implies \frac{\lambda + 4\lambda + 9\lambda}{2} = 6 \implies 7\lambda = 6 \implies \lambda = \frac{6}{7}
+$$
 
 Therefore $x = 3/7$, $y = 6/7$, $z = 9/7$. The closest point is $(3/7,\, 6/7,\, 9/7)$ with Distance
 $\sqrt{9/49 + 36/49 + 81/49} = \sqrt{126/49} = \frac{3\sqrt{14}}{7}$. $\blacksquare$
@@ -197,13 +219,19 @@ $\sqrt{9/49 + 36/49 + 81/49} = \sqrt{126/49} = \frac{3\sqrt{14}}{7}$. $\blacksqu
 
 Set $g_1 = x + y + z - 1$ and $g_2 = x^2 + y^2 + z^2 - 1/3$. The Lagrange multiplier system is:
 
-$$\nabla f = \lambda_1 \nabla g_1 + \lambda_2 \nabla g_2$$
+$$
+\nabla f = \lambda_1 \nabla g_1 + \lambda_2 \nabla g_2
+$$
 
-$$(yz, xz, xy) = \lambda_1(1, 1, 1) + \lambda_2(2x, 2y, 2z)$$
+$$
+(yz, xz, xy) = \lambda_1(1, 1, 1) + \lambda_2(2x, 2y, 2z)
+$$
 
 This gives three equations:
 
-$$yz = \lambda_1 + 2\lambda_2 x, \quad xz = \lambda_1 + 2\lambda_2 y, \quad xy = \lambda_1 + 2\lambda_2 z$$
+$$
+yz = \lambda_1 + 2\lambda_2 x, \quad xz = \lambda_1 + 2\lambda_2 y, \quad xy = \lambda_1 + 2\lambda_2 z
+$$
 
 Subtracting the first two: $z(y - x) = 2\lambda_2(x - y)$Giving $(y - x)(z + 2\lambda_2) = 0$.
 

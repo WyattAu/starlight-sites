@@ -83,11 +83,17 @@ Verify that the percent composition of $\mathrm{Na_2\mathrm{CO_3$ is correct.
 
 Molar mass: $2(22.99) + 12.01 + 3(16.00) = 105.99$ g/mol.
 
-$$\%\mathrm{Na = \frac{45.98}{105.99} \times 100 = 43.38\%$$
+$$
+\%\mathrm{Na = \frac{45.98}{105.99} \times 100 = 43.38\%
+$$
 
-$$\%\mathrm{C = \frac{12.01}{105.99} \times 100 = 11.33\%$$
+$$
+\%\mathrm{C = \frac{12.01}{105.99} \times 100 = 11.33\%
+$$
 
-$$\%\mathrm{O = \frac{48.00}{105.99} \times 100 = 45.29\%$$
+$$
+\%\mathrm{O = \frac{48.00}{105.99} \times 100 = 45.29\%
+$$
 
 Sum: $43.38 + 11.33 + 45.29 = 100.00\%$. Verified.
 
@@ -151,17 +157,29 @@ Of oxygen.
 A 0.250 g sample of a compound containing C, H, and O produces 0.366 g CO$_2$ and 0.150 g H$_2$O on
 Combustion. Find the empirical formula.
 
-$$\mathrm{mol C = \frac{0.366}{44.01} = 0.00832 \mathrm{ mol$$
+$$
+\mathrm{mol C = \frac{0.366}{44.01} = 0.00832 \mathrm{ mol
+$$
 
-$$\mathrm{mass C = 0.00832 \times 12.01 = 0.0999 \mathrm{ g$$
+$$
+\mathrm{mass C = 0.00832 \times 12.01 = 0.0999 \mathrm{ g
+$$
 
-$$\mathrm{mol H = 2 \times \frac{0.150}{18.02} = 0.0166 \mathrm{ mol$$
+$$
+\mathrm{mol H = 2 \times \frac{0.150}{18.02} = 0.0166 \mathrm{ mol
+$$
 
-$$\mathrm{mass H = 0.0166 \times 1.008 = 0.0168 \mathrm{ g$$
+$$
+\mathrm{mass H = 0.0166 \times 1.008 = 0.0168 \mathrm{ g
+$$
 
-$$\mathrm{mass O = 0.250 - 0.0999 - 0.0168 = 0.133 \mathrm{ g$$
+$$
+\mathrm{mass O = 0.250 - 0.0999 - 0.0168 = 0.133 \mathrm{ g
+$$
 
-$$\mathrm{mol O = \frac{0.133}{16.00} = 0.00833 \mathrm{ mol$$
+$$
+\mathrm{mol O = \frac{0.133}{16.00} = 0.00833 \mathrm{ mol
+$$
 
 Ratio: $0.00832 : 0.0166 : 0.00833 = 1 : 2 : 1$.
 
@@ -175,7 +193,9 @@ Approximately $176 \mathrm{ g/mol$. Find the molecular formula.
 Empirical formula mass:
 $3(12.01) + 4(1.008) + 3(16.00) = 36.03 + 4.032 + 48.00 = 88.06 \mathrm{ g/mol$.
 
-$$n = \frac{176}{88.06} \approx 2$$
+$$
+n = \frac{176}{88.06} \approx 2
+$$
 
 Molecular formula: $\mathrm{C_6\mathrm{H_8\mathrm{O_6$.
 
@@ -186,17 +206,29 @@ CO$_2$0.180 g H$\_2$O, and
 0.069 g of N$\_2$ on combustion with excess oxygen. Find the empirical
 formula.
 
-$$\mathrm{mol C = \frac{0.441}{44.01} = 0.01002 \mathrm{ mol$$
+$$
+\mathrm{mol C = \frac{0.441}{44.01} = 0.01002 \mathrm{ mol
+$$
 
-$$\mathrm{mass C = 0.01002 \times 12.01 = 0.1204 \mathrm{ g$$
+$$
+\mathrm{mass C = 0.01002 \times 12.01 = 0.1204 \mathrm{ g
+$$
 
-$$\mathrm{mol H = 2 \times \frac{0.180}{18.02} = 0.01998 \mathrm{ mol$$
+$$
+\mathrm{mol H = 2 \times \frac{0.180}{18.02} = 0.01998 \mathrm{ mol
+$$
 
-$$\mathrm{mass H = 0.01998 \times 1.008 = 0.02014 \mathrm{ g$$
+$$
+\mathrm{mass H = 0.01998 \times 1.008 = 0.02014 \mathrm{ g
+$$
 
-$$\mathrm{mol N = \frac{0.069}{28.02} = 0.00246 \mathrm{ mol$$
+$$
+\mathrm{mol N = \frac{0.069}{28.02} = 0.00246 \mathrm{ mol
+$$
 
-$$\mathrm{mass N = 0.00246 \times 14.01 = 0.0345 \mathrm{ g$$
+$$
+\mathrm{mass N = 0.00246 \times 14.01 = 0.0345 \mathrm{ g
+$$
 
 Total mass accounted for: $0.1204 + 0.02014 + 0.0345 = 0.1750 \mathrm{ g$Which matches the sample
 Mass within rounding.
@@ -245,7 +277,9 @@ H: 10 on left, so $5\mathrm{H_2\mathrm{O$ on right.
 
 O on right: $4(2) + 5(1) = 13$. Need $\frac{13}{2}\mathrm{O_2$. Multiply all by 2:
 
-$$2\mathrm{C_4\mathrm{H_{10} + 13\mathrm{O_2 \to 8\mathrm{CO_2 + 10\mathrm{H_2\mathrm{O$$
+$$
+2\mathrm{C_4\mathrm{H_{10} + 13\mathrm{O_2 \to 8\mathrm{CO_2 + 10\mathrm{H_2\mathrm{O
+$$
 
 ## Stoichiometric Calculations (CED Unit 4)
 
@@ -389,13 +423,21 @@ A $0.500 \mathrm{ g$ sample of an iron ore is dissolved and the iron is precipit
 $\mathrm{Fe_2\mathrm{O_3$ by heating. If the mass of $\mathrm{Fe_2\mathrm{O_3$ obtained is
 $0.350 \mathrm{ g$Calculate the percentage of iron in the ore.
 
-$$\mathrm{mol Fe_2\mathrm{O_3 = \frac{0.350}{159.69} = 0.00219 \mathrm{ mol$$
+$$
+\mathrm{mol Fe_2\mathrm{O_3 = \frac{0.350}{159.69} = 0.00219 \mathrm{ mol
+$$
 
-$$\mathrm{mol Fe = 2 \times 0.00219 = 0.00438 \mathrm{ mol$$
+$$
+\mathrm{mol Fe = 2 \times 0.00219 = 0.00438 \mathrm{ mol
+$$
 
-$$\mathrm{mass Fe = 0.00438 \times 55.85 = 0.245 \mathrm{ g$$
+$$
+\mathrm{mass Fe = 0.00438 \times 55.85 = 0.245 \mathrm{ g
+$$
 
-$$\%\mathrm{ Fe = \frac{0.245}{0.500} \times 100 = 49.0\%$$
+$$
+\%\mathrm{ Fe = \frac{0.245}{0.500} \times 100 = 49.0\%
+$$
 
 ### Worked Example: Back Titration
 
@@ -404,19 +446,33 @@ of $1.00 \mathrm{ M  \mathrm{HCl$ (excess). The remaining acid is titrated With
 $0.500 \mathrm{ M  \mathrm{NaOH$Requiring $32.0 \mathrm{ mL$. Calculate the percentage Purity of
 $\mathrm{CaCO_3$.
 
-$$\mathrm{mol HCl total = 1.00 \times 0.0500 = 0.0500 \mathrm{ mol$$
+$$
+\mathrm{mol HCl total = 1.00 \times 0.0500 = 0.0500 \mathrm{ mol
+$$
 
-$$\mathrm{mol NaOH = 0.500 \times 0.0320 = 0.0160 \mathrm{ mol$$
+$$
+\mathrm{mol NaOH = 0.500 \times 0.0320 = 0.0160 \mathrm{ mol
+$$
 
-$$\mathrm{mol HCl remaining = 0.0160 \mathrm{ mol$$
+$$
+\mathrm{mol HCl remaining = 0.0160 \mathrm{ mol
+$$
 
-$$\mathrm{mol HCl reacted = 0.0500 - 0.0160 = 0.0340 \mathrm{ mol$$
+$$
+\mathrm{mol HCl reacted = 0.0500 - 0.0160 = 0.0340 \mathrm{ mol
+$$
 
-$$\mathrm{mol CaCO_3 = \frac{0.0340}{2} = 0.0170 \mathrm{ mol$$
+$$
+\mathrm{mol CaCO_3 = \frac{0.0340}{2} = 0.0170 \mathrm{ mol
+$$
 
-$$\mathrm{mass CaCO_3 = 0.0170 \times 100.09 = 1.70 \mathrm{ g$$
+$$
+\mathrm{mass CaCO_3 = 0.0170 \times 100.09 = 1.70 \mathrm{ g
+$$
 
-$$\%\mathrm{ purity = \frac{1.70}{2.00} \times 100 = 85.0\%$$
+$$
+\%\mathrm{ purity = \frac{1.70}{2.00} \times 100 = 85.0\%
+$$
 
 ## Gas Laws (CED Unit 3)
 
@@ -490,7 +546,9 @@ $PV = nRT$.
 
 At STP ($T = 273.15 \mathrm{ K$$P = 1.00 \mathrm{ atm$):
 
-$$V = \frac{nRT}{P} = \frac{(1.00)(0.08206)(273.15)}{1.00} = 22.4 \mathrm{ L$$
+$$
+V = \frac{nRT}{P} = \frac{(1.00)(0.08206)(273.15)}{1.00} = 22.4 \mathrm{ L
+$$
 
 This is a useful shortcut: one mole of any ideal gas occupies $22.4 \mathrm{ L$ at STP.
 
@@ -501,13 +559,21 @@ $2\mathrm{KClO_3(s) \to 2\mathrm{KCl(s) + 3\mathrm{O_2(g)$. The oxygen is collec
 $25^{\circ}\mathrm{C$ and $0.980 \mathrm{ atm$. Vapour pressure of water at $25^{\circ}\mathrm{C$ Is
 $23.8 \mathrm{ mmHg$. Calculate the volume of dry oxygen.
 
-$$\mathrm{mol KClO_3 = \frac{0.200}{122.55} = 0.00163 \mathrm{ mol$$
+$$
+\mathrm{mol KClO_3 = \frac{0.200}{122.55} = 0.00163 \mathrm{ mol
+$$
 
-$$\mathrm{mol O_2 = 0.00163 \times \frac{3}{2} = 0.00245 \mathrm{ mol$$
+$$
+\mathrm{mol O_2 = 0.00163 \times \frac{3}{2} = 0.00245 \mathrm{ mol
+$$
 
-$$P_{\mathrm{O_2} = P_{\mathrm{total} - P_{\mathrm{H_2\mathrm{O} = 0.980 - \frac{23.8}{760} = 0.980 - 0.0313 = 0.949 \mathrm{ atm$$
+$$
+P_{\mathrm{O_2} = P_{\mathrm{total} - P_{\mathrm{H_2\mathrm{O} = 0.980 - \frac{23.8}{760} = 0.980 - 0.0313 = 0.949 \mathrm{ atm
+$$
 
-$$V = \frac{nRT}{P} = \frac{(0.00245)(0.08206)(298)}{0.949} = 0.0630 \mathrm{ L = 63.0 \mathrm{ mL$$
+$$
+V = \frac{nRT}{P} = \frac{(0.00245)(0.08206)(298)}{0.949} = 0.0630 \mathrm{ L = 63.0 \mathrm{ mL
+$$
 
 ## Net Ionic Equations (CED Unit 4)
 
@@ -864,22 +930,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 :::
 
 ## Intuition

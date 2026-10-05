@@ -55,7 +55,9 @@ The atom consists of a nucleus containing **protons** and **neutrons** (collecti
 **Definition.** An alpha particle ($\alpha$) is a helium nucleus ($\prescript{4}{2}\mathrm{He}$),
 Emitted during alpha decay.
 
-$$\prescript{A}{Z}\mathrm X \to \prescript{A-4}{Z-2}\mathrm Y + \prescript{4}{2}\alpha$$
+$$
+\prescript{A}{Z}\mathrm X \to \prescript{A-4}{Z-2}\mathrm Y + \prescript{4}{2}\alpha
+$$
 
 **Conservation checks:**
 
@@ -71,7 +73,9 @@ Proton in beta-minus decay.
 
 A neutron converts to a proton, emitting an electron and an antineutrino:
 
-$$\prescript{A}{Z}\mathrm X \to \prescript{A}{Z+1}\mathrm Y + \prescript{0}{-1}\beta^- + \bar{\nu}_e$$
+$$
+\prescript{A}{Z}\mathrm X \to \prescript{A}{Z+1}\mathrm Y + \prescript{0}{-1}\beta^- + \bar{\nu}_e
+$$
 
 **Conservation checks:**
 
@@ -91,7 +95,9 @@ Neutron in beta-plus decay.
 
 A proton converts to a neutron, emitting a positron and a neutrino:
 
-$$\prescript{A}{Z}\mathrm X \to \prescript{A}{Z-1}\mathrm Y + \prescript{0}{+1}\beta^+ + \nu_e$$
+$$
+\prescript{A}{Z}\mathrm X \to \prescript{A}{Z-1}\mathrm Y + \prescript{0}{+1}\beta^+ + \nu_e
+$$
 
 This only occurs in proton-rich nuclei.
 
@@ -103,7 +109,9 @@ Nuclear transitions.
 After alpha or beta decay, the daughter nucleus is often in an excited state. It de-excites by
 Emitting a gamma ray (high-energy photon):
 
-$$\prescript{A}{Z}\mathrm X^* \to \prescript{A}{Z}\mathrm X + \gamma$$
+$$
+\prescript{A}{Z}\mathrm X^* \to \prescript{A}{Z}\mathrm X + \gamma
+$$
 
 No change in $A$ or $Z$. Gamma rays are weakly ionising but highly penetrating (stopped by thick
 Lead or concrete).
@@ -129,59 +137,89 @@ Number changes. A neutron becomes a proton, so the total nucleon count is unchan
 
 **Definition.** The decay constant $\lambda$ is the probability per unit time of a nucleus decaying.
 
-$$\boxed{\lambda = \frac{\ln 2}{t_{1/2}}}$$
+$$
+\boxed{\lambda = \frac{\ln 2}{t_{1/2}}}
+$$
 
 The probability that any single nucleus decays in a small time interval $dt$ is $\lambda\,dt$.
 
 If there are $N$ nuclei, the number decaying in $dt$ is:
 
-$$dN = -\lambda N\,dt$$
+$$
+dN = -\lambda N\,dt
+$$
 
 (The minus sign indicates $N$ decreases.)
 
-$$\frac{dN}{dt} = -\lambda N$$
+$$
+\frac{dN}{dt} = -\lambda N
+$$
 
 Separating variables and integrating:
 
-$$\int_{N_0}^{N}\frac{dN}{N} = -\int_0^t\lambda\,dt$$
+$$
+\int_{N_0}^{N}\frac{dN}{N} = -\int_0^t\lambda\,dt
+$$
 
-$$\ln N - \ln N_0 = -\lambda t$$
+$$
+\ln N - \ln N_0 = -\lambda t
+$$
 
-$$\ln\left(\frac{N}{N_0}\right) = -\lambda t$$
+$$
+\ln\left(\frac{N}{N_0}\right) = -\lambda t
+$$
 
-$$\boxed{N = N_0 e^{-\lambda t}}$$
+$$
+\boxed{N = N_0 e^{-\lambda t}}
+$$
 
 ### Activity
 
 **Definition.** Activity $A$ is the rate of decay of a radioactive sample:
 $A = \lambda N = -\frac{dN}{dt}$.
 
-$$\boxed{A = \lambda N = -\frac{dN}{dt}}$$
+$$
+\boxed{A = \lambda N = -\frac{dN}{dt}}
+$$
 
 Expanding using the exponential decay law:
 
-$$A = \lambda N_0 e^{-\lambda t} = A_0 e^{-\lambda t}$$
+$$
+A = \lambda N_0 e^{-\lambda t} = A_0 e^{-\lambda t}
+$$
 
 **Definition.** The becquerel is the SI unit of activity; 1 Bq = 1 decay per second.
 
-$$\boxed{1\,\mathrm{Bq} = 1\,\mathrm{decay s}^{-1}}$$
+$$
+\boxed{1\,\mathrm{Bq} = 1\,\mathrm{decay s}^{-1}}
+$$
 
 ### Half-Life
 
 **Definition.** The half-life $t_{1/2}$ is the time taken for half of the radioactive nuclei in a
 Sample to decay.
 
-$$\boxed{N(t) = N_0 \cdot 2^{-t/t_{1/2}}}$$
+$$
+\boxed{N(t) = N_0 \cdot 2^{-t/t_{1/2}}}
+$$
 
 Setting $N = N_0/2$:
 
-$$\frac{N_0}{2} = N_0 e^{-\lambda t_{1/2}}$$
+$$
+\frac{N_0}{2} = N_0 e^{-\lambda t_{1/2}}
+$$
 
-$$\frac{1}{2} = e^{-\lambda t_{1/2}}$$
+$$
+\frac{1}{2} = e^{-\lambda t_{1/2}}
+$$
 
-$$\ln 2 = \lambda t_{1/2}$$
+$$
+\ln 2 = \lambda t_{1/2}
+$$
 
-$$\boxed{t_{1/2} = \frac{\ln 2}{\lambda}}$$
+$$
+\boxed{t_{1/2} = \frac{\ln 2}{\lambda}}
+$$
 
 **Intuition.** After one half-life, half remain. After two, a quarter. After $n$ half-lives,
 $N = N_0/2^n$. The decay is exponential, the activity is always proportional to the number of
@@ -254,7 +292,9 @@ To determine half-life experimentally:
 
 The logarithmic method is more accurate because it uses all data points, not just a single halving:
 
-$$\ln A = \ln A_0 - \lambda t$$
+$$
+\ln A = \ln A_0 - \lambda t
+$$
 
 The gradient of the straight line gives $-\lambda$ And then $t_{1/2} = \ln 2 / \lambda$.
 
@@ -450,7 +490,9 @@ When a long-lived parent nuclide (very large $t_{1/2}$) decays through a chain o
 Daughters, a state of **secular equilibrium** is established after several daughter half-lives. In
 Equilibrium:
 
-$$\boxed{\lambda_1 N_1 = \lambda_2 N_2 = \lambda_3 N_3 = \cdots}$$
+$$
+\boxed{\lambda_1 N_1 = \lambda_2 N_2 = \lambda_3 N_3 = \cdots}
+$$
 
 Each daughter has the same activity as the parent. This has practical importance in radiological
 Protection: the activity of radon-222 (a daughter of $^{238}\mathrm U$) in buildings is sustained
@@ -472,12 +514,16 @@ Living organisms continuously exchange carbon with the atmosphere, maintaining a
 $^{14}\mathrm C$ to $^{12}\mathrm C$. Cosmic rays produce neutrons in the upper atmosphere, Which
 react with nitrogen-14:
 
-$$^{14}\mathrm N + ^{1}\mathrm n \to ^{14}\mathrm C + ^{1}\mathrm H$$
+$$
+^{14}\mathrm N + ^{1}\mathrm n \to ^{14}\mathrm C + ^{1}\mathrm H
+$$
 
 When an organism dies, this exchange stops and the $^{14}\mathrm C$ decays with a half-life of 5730
 years. The age of a sample is found from:
 
-$$t = \frac{1}{\lambda}\ln\left(\frac{A_0}{A}\right) = \frac{t_{1/2}}{\ln 2}\ln\left(\frac{N_0}{N}\right)$$
+$$
+t = \frac{1}{\lambda}\ln\left(\frac{A_0}{A}\right) = \frac{t_{1/2}}{\ln 2}\ln\left(\frac{N_0}{N}\right)
+$$
 
 Where $N_0/N$ is the ratio of current $^{14}\mathrm C$ content to that of a living sample.
 
@@ -504,7 +550,9 @@ Radioactive isotopes are used both diagnostically and therapeutically:
 **Definition.** The effective half-life of a radioactive substance in the body is the time for its
 Activity to fall to half its initial value, combining both physical decay and biological clearance:
 
-$$\frac{1}{t_{\mathrm{eff}}} = \frac{1}{t_{\mathrm{physical}}} + \frac{1}{t_{\mathrm{biological}}}$$
+$$
+\frac{1}{t_{\mathrm{eff}}} = \frac{1}{t_{\mathrm{physical}}} + \frac{1}{t_{\mathrm{biological}}}
+$$
 </Aside>
 
 <Aside type="note">

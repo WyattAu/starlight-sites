@@ -43,7 +43,9 @@ $\blacksquare$
 
 When $N \trianglelefteq G$The set $G/N = \{gN : g \in G\}$ of cosets forms a group under
 
-$$(aN)(bN) = (ab)N$$
+$$
+(aN)(bN) = (ab)N
+$$
 
 Called the **quotient group** of $G$ by $N$.
 
@@ -63,7 +65,9 @@ $Z(Q_8) = \{1, -1\}$. Compute $Q_8 / Z(Q_8)$.
 
 _Solution._ Since $|Q_8| = 8$ and $|Z(Q_8)| = 2$We have $|Q_8/Z(Q_8)| = 4$. The cosets are:
 
-$$Z(Q_8) = \{1, -1\}, \quad iZ(Q_8) = \{i, -i\}, \quad jZ(Q_8) = \{j, -j\}, \quad kZ(Q_8) = \{k, -k\}$$
+$$
+Z(Q_8) = \{1, -1\}, \quad iZ(Q_8) = \{i, -i\}, \quad jZ(Q_8) = \{j, -j\}, \quad kZ(Q_8) = \{k, -k\}
+$$
 
 Multiplication in the quotient: $(iZ)(iZ) = i^2 Z = (-1)Z = Z$ (the identity coset). Similarly
 $(jZ)(jZ) = Z$ and $(kZ)(kZ) = Z$. Also $(iZ)(jZ) = ijZ = kZ$ and $(jZ)(iZ) = jiZ = (-k)Z = kZ$

@@ -46,7 +46,9 @@ description: "Study notes for Electricity with worked examples, practice problem
 
 ### 闭合电路欧姆定律
 
-$$I = \frac{E}{R + r}$$
+$$
+I = \frac{E}{R + r}
+$$
 
 其中 $E$ 为电源电动势，$r$ 为内阻。
 
@@ -67,10 +69,14 @@ $$I = \frac{E}{R + r}$$
 **解答：**
 
 步骤1：由库仑定律：
-$$F = k\frac{|q_1||q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{0.3^2}$$
+$$
+F = k\frac{|q_1||q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{0.3^2}
+$$
 
 步骤2：计算：
-$$F = 9 \times 10^9 \times \frac{6 \times 10^{-12}}{0.09} = 9 \times 10^9 \times 6.67 \times 10^{-11} = 0.6\,\text{N}$$
+$$
+F = 9 \times 10^9 \times \frac{6 \times 10^{-12}}{0.09} = 9 \times 10^9 \times 6.67 \times 10^{-11} = 0.6\,\text{N}
+$$
 
 步骤3：两电荷异号，力为引力。
 
@@ -83,10 +89,14 @@ $$F = 9 \times 10^9 \times \frac{6 \times 10^{-12}}{0.09} = 9 \times 10^9 \times
 **解答：**
 
 步骤1：由闭合电路欧姆定律：
-$$I = \frac{E}{R + r} = \frac{12}{5 + 1} = 2\,\text{A}$$
+$$
+I = \frac{E}{R + r} = \frac{12}{5 + 1} = 2\,\text{A}
+$$
 
 步骤2：路端电压：
-$$U = E - Ir = 12 - 2 \times 1 = 10\,\text{V}$$
+$$
+U = E - Ir = 12 - 2 \times 1 = 10\,\text{V}
+$$
 
 步骤3：也可用 $U = IR = 2 \times 5 = 10\,\text{V}$ 验证
 
@@ -162,14 +172,22 @@ $$U = E - Ir = 12 - 2 \times 1 = 10\,\text{V}$$
 **解答：**
 
 步骤1：高档位时，只有一个电阻工作（或两个并联）。设高档位时电阻为 $R_{\text{高}}$：
-$$R_{\text{高}} = \frac{U^2}{P_1} = \frac{220^2}{1100} = 44\,\Omega$$
+$$
+R_{\text{高}} = \frac{U^2}{P_1} = \frac{220^2}{1100} = 44\,\Omega
+$$
 
 步骤2：低档位时电阻为 $R_{\text{低}}$：
-$$R_{\text{低}} = \frac{U^2}{P_2} = \frac{220^2}{275} = 176\,\Omega$$
+$$
+R_{\text{低}} = \frac{U^2}{P_2} = \frac{220^2}{275} = 176\,\Omega
+$$
 
 步骤3：若高档为 $R_1$ 单独工作，低档为 $R_1$ 与 $R_2$ 串联：
-$$R_1 = 44\,\Omega, \quad R_1 + R_2 = 176\,\Omega$$
-$$R_2 = 176 - 44 = 132\,\Omega$$
+$$
+R_1 = 44\,\Omega, \quad R_1 + R_2 = 176\,\Omega
+$$
+$$
+R_2 = 176 - 44 = 132\,\Omega
+$$
 
 **答案：** $R_1 = 44\,\Omega$，$R_2 = 132\,\Omega$
 
@@ -203,20 +221,32 @@ $$R_2 = 176 - 44 = 132\,\Omega$$
 步骤1：识别电路结构, $R_1$ 与 $R_2$ 并联，再与 $R_3$ 串联。
 
 步骤2：并联电阻：
-$$R_{12} = \frac{R_1 R_2}{R_1 + R_2} = \frac{3 \times 6}{3 + 6} = 2\,\Omega$$
+$$
+R_{12} = \frac{R_1 R_2}{R_1 + R_2} = \frac{3 \times 6}{3 + 6} = 2\,\Omega
+$$
 
 步骤3：总电阻：
-$$R_{\text{总}} = R_{12} + R_3 + r = 2 + 4 + 1 = 7\,\Omega$$
+$$
+R_{\text{总}} = R_{12} + R_3 + r = 2 + 4 + 1 = 7\,\Omega
+$$
 
 步骤4：总电流（即 $R_3$ 上的电流）：
-$$I_3 = \frac{E}{R_{\text{总}}} = \frac{12}{7} \approx 1.71\,\text{A}$$
+$$
+I_3 = \frac{E}{R_{\text{总}}} = \frac{12}{7} \approx 1.71\,\text{A}
+$$
 
 步骤5：并联部分电压：
-$$U_{12} = I_3 \times R_{12} = \frac{12}{7} \times 2 = \frac{24}{7}\,\text{V}$$
+$$
+U_{12} = I_3 \times R_{12} = \frac{12}{7} \times 2 = \frac{24}{7}\,\text{V}
+$$
 
 步骤6：各支路电流：
-$$I_1 = \frac{U_{12}}{R_1} = \frac{24/7}{3} = \frac{8}{7} \approx 1.14\,\text{A}$$
-$$I_2 = \frac{U_{12}}{R_2} = \frac{24/7}{6} = \frac{4}{7} \approx 0.57\,\text{A}$$
+$$
+I_1 = \frac{U_{12}}{R_1} = \frac{24/7}{3} = \frac{8}{7} \approx 1.14\,\text{A}
+$$
+$$
+I_2 = \frac{U_{12}}{R_2} = \frac{24/7}{6} = \frac{4}{7} \approx 0.57\,\text{A}
+$$
 
 **答案：** $I_1 = \dfrac{8}{7}\,\text{A}$，$I_2 = \dfrac{4}{7}\,\text{A}$，$I_3 = \dfrac{12}{7}\,\text{A}$
 
@@ -233,15 +263,21 @@ $$I_2 = \frac{U_{12}}{R_2} = \frac{24/7}{6} = \frac{4}{7} \approx 0.57\,\text{A}
 步骤2：稳定后，电容器相当于断路，电流只流过 $R_1$ 和 $R_2$。
 
 步骤3：稳定时的电流：
-$$I = \frac{E}{R_1 + R_2 + r} = \frac{10}{3 + 5 + 2} = 1\,\text{A}$$
+$$
+I = \frac{E}{R_1 + R_2 + r} = \frac{10}{3 + 5 + 2} = 1\,\text{A}
+$$
 
 步骤4：$R_2$ 两端电压：
-$$U_2 = IR_2 = 1 \times 5 = 5\,\text{V}$$
+$$
+U_2 = IR_2 = 1 \times 5 = 5\,\text{V}
+$$
 
 步骤5：稳定后电容器两端电压等于 $R_2$ 两端电压：$U_C = 5\,\text{V}$。
 
 步骤6：稳定后电量：
-$$Q = CU_C = 200 \times 10^{-6} \times 5 = 1 \times 10^{-3}\,\text{C}$$
+$$
+Q = CU_C = 200 \times 10^{-6} \times 5 = 1 \times 10^{-3}\,\text{C}
+$$
 
 **答案：** 稳定后电容器所带电量为 $1 \times 10^{-3}\,\text{C}$
 
@@ -254,16 +290,24 @@ $$Q = CU_C = 200 \times 10^{-6} \times 5 = 1 \times 10^{-3}\,\text{C}$$
 **解答：**
 
 步骤1：电动机的总功率：
-$$P_{\text{总}} = UI = 220 \times 5 = 1100\,\text{W}$$
+$$
+P_{\text{总}} = UI = 220 \times 5 = 1100\,\text{W}
+$$
 
 步骤2：线圈发热功率：
-$$P_{\text{热}} = I^2 r = 25 \times 1 = 25\,\text{W}$$
+$$
+P_{\text{热}} = I^2 r = 25 \times 1 = 25\,\text{W}
+$$
 
 步骤3：输出功率：
-$$P_{\text{出}} = P_{\text{总}} - P_{\text{热}} = 1100 - 25 = 1075\,\text{W}$$
+$$
+P_{\text{出}} = P_{\text{总}} - P_{\text{热}} = 1100 - 25 = 1075\,\text{W}
+$$
 
 步骤4：效率：
-$$\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\%$$
+$$
+\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\%
+$$
 
 **答案：** 输出功率为 $1075\,\text{W}$，效率约为 $97.7\%$
 

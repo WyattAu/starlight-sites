@@ -67,11 +67,17 @@ Convenient because most chemical reactions occur at constant (atmospheric) press
 
 Starting from the first law at constant pressure:
 
-$$\Delta U = q_P + w = q_P - P\Delta V$$
+$$
+\Delta U = q_P + w = q_P - P\Delta V
+$$
 
-$$q_P = \Delta U + P\Delta V$$
+$$
+q_P = \Delta U + P\Delta V
+$$
 
-$$q_P = (U_2 - U_1) + P(V_2 - V_1) = (U_2 + PV_2) - (U_1 + PV_1) = H_2 - H_1 = \Delta H$$
+$$
+q_P = (U_2 - U_1) + P(V_2 - V_1) = (U_2 + PV_2) - (U_1 + PV_1) = H_2 - H_1 = \Delta H
+$$
 
 This derivation shows that enthalpy change equals heat at constant pressure because the $P\Delta V$
 Work term is absorbed into the enthalpy definition.
@@ -122,7 +128,9 @@ $\Delta H_3 = -890.3 \mathrm{ kJ/mol$
 
 Using Hess's law: $\Delta H_f(\mathrm{CH_4) = \Delta H_1 + 2\Delta H_2 - \Delta H_3$
 
-$$= -393.5 + 2(-285.8) - (-890.3) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol$$
+$$
+= -393.5 + 2(-285.8) - (-890.3) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol
+$$
 
 ### Worked Example: Hess's Law with Multiple Steps
 
@@ -158,7 +166,9 @@ $1 \mathrm{ N\equiv\mathrm{N (945) + 3 \mathrm{ H-H (436) = 945 + 1308 = 2253 \m
 
 Bonds formed: $6 \mathrm{ N-H (391) = 2346 \mathrm{ kJ/mol$
 
-$$\Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol$$
+$$
+\Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol
+$$
 
 (The exact value is $-92.2 \mathrm{ kJ/mol$Showing that bond enthalpies give a good Approximation.)
 
@@ -255,11 +265,15 @@ Bomb, stirrer, etc.).
 
 For a bomb calorimetry experiment:
 
-$$\Delta U = q_V = -C_{\mathrm{cal} \cdot \Delta T$$
+$$
+\Delta U = q_V = -C_{\mathrm{cal} \cdot \Delta T
+$$
 
 To convert to $\Delta H$:
 
-$$\Delta H = \Delta U + \Delta n_g RT$$
+$$
+\Delta H = \Delta U + \Delta n_g RT
+$$
 
 Where $\Delta n_g$ is the change in moles of gas. For combustion reactions, $\Delta n_g$ is often
 Negative (fewer gas moles of products than reactants), making $\Delta H$ slightly more negative than
@@ -273,16 +287,22 @@ temperature by $3.02 \mathrm{ K$. Calculate $\Delta U$ and $\Delta H$ per mole.
 
 Molar mass of glucose: $180.16 \mathrm{ g/mol$.
 
-$$\Delta U = -894 \times 3.02 = -2700 \mathrm{ J = -2.70 \mathrm{ kJ per gram$$
+$$
+\Delta U = -894 \times 3.02 = -2700 \mathrm{ J = -2.70 \mathrm{ kJ per gram
+$$
 
-$$\Delta U_{\mathrm{per mol} = -2.70 \times 180.16 = -486 \mathrm{ kJ/mol$$
+$$
+\Delta U_{\mathrm{per mol} = -2.70 \times 180.16 = -486 \mathrm{ kJ/mol
+$$
 
 For
 $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6(s) + 6\mathrm{O_2(g) \to 6\mathrm{CO_2(g) + 6\mathrm{H_2\mathrm{O(l)$:
 
 $\Delta n_g = 6 - 6 = 0$ (no net change in gas moles).
 
-$$\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol$$
+$$
+\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol
+$$
 
 (Literature value: $-2803 \mathrm{ kJ/mol$. The difference is due to the calorimeter containing a
 Solution rather than pure water.)
@@ -368,7 +388,9 @@ $\mathrm{CaCO_3(s) \to \mathrm{CaO(s) + \mathrm{CO_2(g)$.
 Given: $S^\circ(\mathrm{CaCO_3, s) = 92.9$, $S^\circ(\mathrm{CaO, s) = 39.7$
 $S^\circ(\mathrm{CO_2, g) = 213.7 \mathrm{ J/(mol\cdot\mathrm{K)$.
 
-$$\Delta S^\circ = [39.7 + 213.7] - [92.9] = 253.4 - 92.9 = 160.5 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S^\circ = [39.7 + 213.7] - [92.9] = 253.4 - 92.9 = 160.5 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 The positive $\Delta S^\circ$ is expected because a solid decomposes to produce a gas.
 
@@ -376,11 +398,15 @@ The positive $\Delta S^\circ$ is expected because a solid decomposes to produce 
 
 Calculate $\Delta S$ for the vaporisation of $1.00 \mathrm{ mol$ of water at $100^{\circ}\mathrm{C$.
 
-$$\Delta H_{\mathrm{vap} = 40.7 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{vap} = 40.7 \mathrm{ kJ/mol
+$$
 
 At the boiling point, $\Delta G = 0$ So $\Delta H = T\Delta S$:
 
-$$\Delta S = \frac{\Delta H_{\mathrm{vap}}{T} = \frac{40700}{373.15} = 109.1 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S = \frac{\Delta H_{\mathrm{vap}}{T} = \frac{40700}{373.15} = 109.1 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 This positive entropy change confirms that the gas phase has more disorder than the liquid phase.
 
@@ -392,11 +418,15 @@ $298 \mathrm{ K$:
 
 $\Delta H^\circ = -36.0 \mathrm{ kJ/mol$ (exothermic, heat released to surroundings).
 
-$$\Delta S_{\mathrm{surroundings} = \frac{-\Delta H^\circ}{T} = \frac{36000}{298} = 120.8 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S_{\mathrm{surroundings} = \frac{-\Delta H^\circ}{T} = \frac{36000}{298} = 120.8 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 $$\Delta S_{\mathrm{system} = 439 \mathrm{ J/(mol\cdot\mathrm{K)$$ (given)
 
-$$\Delta S_{\mathrm{universe} = 439 + 120.8 = 559.8 \mathrm{ J/(mol\cdot\mathrm{K) \gt 0$$
+$$
+\Delta S_{\mathrm{universe} = 439 + 120.8 = 559.8 \mathrm{ J/(mol\cdot\mathrm{K) \gt 0
+$$
 
 The reaction is spontaneous because $\Delta S_{\mathrm{universe} \gt 0$. The positive
 $\Delta S_{\mathrm{system}$ (more gas molecules produced) and the positive
@@ -493,9 +523,13 @@ $\Delta H^\circ = -92.2 \mathrm{ kJ/mol$ $\Delta S^\circ = -198.8 \mathrm{ J/(mo
 
 Calculate $\Delta G^\circ$ and $K$.
 
-$$\Delta G^\circ = -92200 - 298(-198.8) = -92200 + 59242 = -32958 \mathrm{ J/mol = -33.0 \mathrm{ kJ/mol$$
+$$
+\Delta G^\circ = -92200 - 298(-198.8) = -92200 + 59242 = -32958 \mathrm{ J/mol = -33.0 \mathrm{ kJ/mol
+$$
 
-$$K = e^{-\Delta G^\circ/(RT)} = e^{32958/(8.314 \times 298)} = e^{13.29} = 5.9 \times 10^5$$
+$$
+K = e^{-\Delta G^\circ/(RT)} = e^{32958/(8.314 \times 298)} = e^{13.29} = 5.9 \times 10^5
+$$
 
 $K \gg 1$Confirming the reaction strongly favours products at $298 \mathrm{ K$.
 
@@ -505,11 +539,17 @@ Calculate $\Delta G$ for the reaction $\mathrm{N_2(g) + 3\mathrm{H_2(g) \to 2\ma
 $298 \mathrm{ K$ when $P(\mathrm{N_2) = 10.0 \mathrm{ atm$
 $P(\mathrm{H_2) = 30.0 \mathrm{ atm$, $P(\mathrm{NH_3) = 0.500 \mathrm{ atm$.
 
-$$Q = \frac{(0.500)^2}{(10.0)(30.0)^3} = \frac{0.250}{270000} = 9.26 \times 10^{-7}$$
+$$
+Q = \frac{(0.500)^2}{(10.0)(30.0)^3} = \frac{0.250}{270000} = 9.26 \times 10^{-7}
+$$
 
-$$\Delta G = \Delta G^\circ + RT\ln Q = -33000 + (8.314)(298)\ln(9.26 \times 10^{-7})$$
+$$
+\Delta G = \Delta G^\circ + RT\ln Q = -33000 + (8.314)(298)\ln(9.26 \times 10^{-7})
+$$
 
-$$= -33000 + 2478 \times (-13.89) = -33000 - 34420 = -67420 \mathrm{ J/mol = -67.4 \mathrm{ kJ/mol$$
+$$
+= -33000 + 2478 \times (-13.89) = -33000 - 34420 = -67420 \mathrm{ J/mol = -67.4 \mathrm{ kJ/mol
+$$
 
 $\Delta G \lt 0$ So the reaction is spontaneous under these conditions. The high pressure of
 Reactants and low pressure of product drive the reaction forward.

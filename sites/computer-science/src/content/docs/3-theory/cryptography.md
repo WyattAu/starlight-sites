@@ -44,8 +44,12 @@ A cryptosystem should be secure even if everything about the system (except the 
 
 ### 1.4 One-Time Pad
 
-$$c = p \oplus k$$
-$$p = c \oplus k$$
+$$
+c = p \oplus k
+$$
+$$
+p = c \oplus k
+$$
 
 where $p$ = plaintext, $c$ = ciphertext, $k$ = random key of same length, $\oplus$ = XOR.
 
@@ -179,8 +183,12 @@ RSA_KEYGEN():
 
 **Encryption/Decryption:**
 
-$$c = m^e \mod n$$
-$$m = c^d \mod n$$
+$$
+c = m^e \mod n
+$$
+$$
+m = c^d \mod n
+$$
 
 **Correctness:** $c^d = m^{ed} = m^{k\varphi(n)+1} = m \cdot (m^{\varphi(n)})^k \equiv m \pmod{n}$ (by Euler's theorem).
 
@@ -203,12 +211,18 @@ ELGAMAL_KEYGEN():
 
 **Encryption:**
 
-$$c_1 = g^k \mod p \quad (k \text{ random})$$
-$$c_2 = m \cdot y^k \mod p$$
+$$
+c_1 = g^k \mod p \quad (k \text{ random})
+$$
+$$
+c_2 = m \cdot y^k \mod p
+$$
 
 **Decryption:**
 
-$$m = c_2 \cdot (c_1^x)^{-1} \mod p = c_2 \cdot g^{-kx} \mod p$$
+$$
+m = c_2 \cdot (c_1^x)^{-1} \mod p = c_2 \cdot g^{-kx} \mod p
+$$
 
 ### 3.3 Elliptic Curve Cryptography (ECC)
 
@@ -301,7 +315,9 @@ SHA256_ROUND(state, W_t, K_t):
 
 **Word expansion:**
 
-$$W_t = \begin{cases} M_t & 0 \leq t \leq 15 \\ \sigma_1(W_{t-2}) + W_{t-7} + \sigma_0(W_{t-15}) + W_{t-16} & 16 \leq t \leq 63 \end{cases}$$
+$$
+W_t = \begin{cases} M_t & 0 \leq t \leq 15 \\ \sigma_1(W_{t-2}) + W_{t-7} + \sigma_0(W_{t-15}) + W_{t-16} & 16 \leq t \leq 63 \end{cases}
+$$
 
 ### 4.4 Hash Function Comparison
 

@@ -40,7 +40,9 @@ Framework.
 Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$Maximise the Total
 value of items selected. Each item can be taken at most once.
 
-$$dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i$$
+$$
+dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i
+$$
 
 ```python
 def knapsack_01(weights, values, capacity):
@@ -173,7 +175,9 @@ Partitions of an interval.
 Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions $p_{i-1} \times p_i$Find the
 Parenthesisation that minimises the total number of scalar multiplications.
 
-$$dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + p_{i-1} \cdot p_k \cdot p_j)$$
+$$
+dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + p_{i-1} \cdot p_k \cdot p_j)
+$$
 
 ```python
 def matrix_chain_order(p):
@@ -448,7 +452,9 @@ Small $n$ ( $n \le 20$).
 
 Find the shortest Hamiltonian cycle visiting all cities exactly once.
 
-$$dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \{i\}][j] + dist[j][i])$$
+$$
+dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \{i\}][j] + dist[j][i])
+$$
 
 ```python
 def tsp(dist):
@@ -578,7 +584,9 @@ def count_no_consecutive_ones(n):
 
 Minimum number of insertions, deletions, and substitutions to transform one string into another.
 
-$$dp[i][j] = \begin{cases} dp[i-1][j-1] & \mathrm{if  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{otherwise \end{cases}$$
+$$
+dp[i][j] = \begin{cases} dp[i-1][j-1] & \mathrm{if  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{otherwise \end{cases}
+$$
 
 ```python
 def edit_distance(s, t):

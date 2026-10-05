@@ -4140,17 +4140,23 @@ cost of parsing $H$ and $S(H)$ the cost of serializing its semantic interface.
 
 **`#include` model:** Each TU independently preprocesses and parses $H$. Total cost:
 
-$$C_{\mathrm{include} = n \cdot (P(H) + S(H))$$
+$$
+C_{\mathrm{include} = n \cdot (P(H) + S(H))
+$$
 
 **Header unit model:** $H$ is parsed once, producing a BMI. Each TU deserializes the BMI. Let $D(H)$
 Denote deserialization cost, where $D(H) \lt P(H)$ because deserialization reads a pre-structured
 AST rather than re-parsing raw text. Total cost:
 
-$$C_{\mathrm{header\_unit} = P(H) + S(H) + n \cdot D(H)$$
+$$
+C_{\mathrm{header\_unit} = P(H) + S(H) + n \cdot D(H)
+$$
 
 The savings are:
 
-$$C_{\mathrm{include} - C_{\mathrm{header\_unit} = (n - 1)(P(H) + S(H) - D(H))$$
+$$
+C_{\mathrm{include} - C_{\mathrm{header\_unit} = (n - 1)(P(H) + S(H) - D(H))
+$$
 
 Since $P(H) \gt D(H)$ for any non-trivial header, the savings grow linearly with the number of TUs.
 For a header like `&lt;vector&gt;` with $P(H) \approx 50\mathrm{ms$ and $D(H) \approx 5\mathrm{ms$
@@ -7759,7 +7765,9 @@ The **ABA problem** occurs in lock-free algorithms when a value changes from $A$
 $A$ between a thread's load and its CAS. The CAS succeeds because the value is still $A$ But the
 Intermediate change may have invalidated invariants:
 
-$$\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly$$
+$$
+\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly
+$$
 
 `compare_exchange_weak` may fail spuriously (return `false` even when the expected value matches),
 Which can help in some ABA scenarios but does not fully solve the problem. Full solutions include:
@@ -8379,9 +8387,13 @@ Machine:
 - **S:** No change.
 - **I:** No action.
 
-$$\mathrm{E \xrightarrow{\mathrm{write} \mathrm{M \quad \mathrm{S \xrightarrow{\mathrm{write request} \mathrm{RFO \to \mathrm{I \to \mathrm{M$$
+$$
+\mathrm{E \xrightarrow{\mathrm{write} \mathrm{M \quad \mathrm{S \xrightarrow{\mathrm{write request} \mathrm{RFO \to \mathrm{I \to \mathrm{M
+$$
 
-$$\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write-back \to \mathrm{S \quad \mathrm{I \xrightarrow{\mathrm{read miss} \mathrm{load \to \mathrm{S or E$$
+$$
+\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write-back \to \mathrm{S \quad \mathrm{I \xrightarrow{\mathrm{read miss} \mathrm{load \to \mathrm{S or E
+$$
 
 ### Formal State Transition Table
 
@@ -8481,7 +8493,9 @@ The cost of an invalidation depends on the cache hierarchy level at which the li
 Same cache line ( 64 bytes). Even though the variables are logically independent, the Hardware
 treats them as a single unit for coherence purposes.
 
-$$\mathrm{False Sharing:  \mathrm{var_1 \in \mathrm{line_L \wedge \mathrm{var_2 \in \mathrm{line_L \wedge \mathrm{thread_1 \mathrm{ writes  \mathrm{var_1 \wedge \mathrm{thread_2 \mathrm{ writes  \mathrm{var_2$$
+$$
+\mathrm{False Sharing:  \mathrm{var_1 \in \mathrm{line_L \wedge \mathrm{var_2 \in \mathrm{line_L \wedge \mathrm{thread_1 \mathrm{ writes  \mathrm{var_1 \wedge \mathrm{thread_2 \mathrm{ writes  \mathrm{var_2
+$$
 
 Each write by one thread invalidates the cache line for the other thread, causing repeated cache
 Misses and coherence traffic. Performance can degrade by orders of magnitude compared to the
@@ -9222,7 +9236,9 @@ a lock-free reference counting implementation, and common CAS loop idioms.
 The compare-and-swap (CAS) loop is the fundamental building block of lock-free algorithms. The
 Pattern is:
 
-$$\mathrm{loop:  \mathrm{old = \mathrm{load(x); \quad \mathrm{new = f(\mathrm{old); \quad \mathrm{if CAS(x, \mathrm{old, \mathrm{new) \mathrm{ then break$$
+$$
+\mathrm{loop:  \mathrm{old = \mathrm{load(x); \quad \mathrm{new = f(\mathrm{old); \quad \mathrm{if CAS(x, \mathrm{old, \mathrm{new) \mathrm{ then break
+$$
 
 In C++, this translates to:
 
@@ -9286,7 +9302,9 @@ A concurrent data structure is **linearizable** [Herlihy & Wing, 1990] if every 
 Take effect instantaneously at some point between its invocation and its response. CAS-based data
 Structures can achieve linearizability because CAS is itself a linearizable operation:
 
-$$\mathrm{CAS(x, \mathrm{old, \mathrm{new) \mathrm{ appears to execute atomically at the point where the store conditional succeeds$$
+$$
+\mathrm{CAS(x, \mathrm{old, \mathrm{new) \mathrm{ appears to execute atomically at the point where the store conditional succeeds
+$$
 
 This means that any data structure built entirely from CAS operations is linearizable, provided the
 CAS loop correctly handles the expected/desired values.
@@ -11204,7 +11222,9 @@ A **data race** [N4950 §6.9.4.2] occurs when two or more threads access the sam
 Concurrently, at least one of them performs a write, and there is no happens-before relationship
 Between the accesses. Formally, a data race is present when all three conditions hold:
 
-$$\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens-before(t_1, t_2) \wedge \neg\mathrm{happens-before(t_2, t_1)$$
+$$
+\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens-before(t_1, t_2) \wedge \neg\mathrm{happens-before(t_2, t_1)
+$$
 
 Where $m$ is a scalar memory location, $w$ denotes a write, $r$ denotes a read, and happens-before
 Is the order relation defined in [N4950 §6.9.4.1].
@@ -13263,12 +13283,16 @@ Both loads execute before the other core"s store drains from its store buffer, s
 A **data dependency** exists when the address or value of one memory access depends on the value
 Read by a prior memory access:
 
-$$\mathrm{data dependency:  a[i] \to b[a[i]]$$
+$$
+\mathrm{data dependency:  a[i] \to b[a[i]]
+$$
 
 A **control dependency** exists when whether a memory access executes depends on the value read by a
 Prior access:
 
-$$\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}$$
+$$
+\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}
+$$
 
 :::caution
 Dependencies provide ordering, but on ARM and POWER, the processor may speculatively execute the
@@ -13303,7 +13327,9 @@ Sequenced-before relation is determined by the abstract machine's evaluation ord
 - Function arguments are **unsequenced** with respect to each other (prior to C++17). In C++17, the
   operands of `=` are indeterminately sequenced.
 
-$$A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side effects within the same thread$$
+$$
+A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side effects within the same thread
+$$
 
 ## Happens-Before Relationship
 
@@ -13321,7 +13347,9 @@ The happens-before relation is the **transitive closure** of:
 3. **Sequenced-before is transitive**: If $A \xrightarrow{\mathrm{seq} B$ and
    $B \xrightarrow{\mathrm{seq} C$ Then $A \xrightarrow{\mathrm{seq} C$.
 
-$$A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B$$
+$$
+A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B
+$$
 
 **Formal definition:** $A$ happens-before $B$ ($A \prec B$) if and only if there exists a chain of
 Sequenced-before and synchronizes-with edges connecting $A$ to $B$. The relation is irreflexive (no
@@ -13354,7 +13382,9 @@ A release store to an atomic variable in thread 1 **synchronizes-with** an acqui
 Variable in thread 2 if the load reads the value stored (or a value written later by a release
 Operation) [N4950 §31.7.5]:
 
-$$\mathrm{store_{\mathrm{release}(x, v) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x, v)$$
+$$
+\mathrm{store_{\mathrm{release}(x, v) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x, v)
+$$
 
 The synchronizes-with relationship creates a **happens-before** edge between the release store and
 The acquire load, and by transitivity, all operations sequenced-before the release store
@@ -13480,7 +13510,9 @@ Weaker ordering than required results in undefined behavior.
 Relaxed atomics guarantee **atomicity only**: the operation is indivisible, but there are no
 Ordering constraints with respect to other memory operations.
 
-$$\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering$$
+$$
+\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering
+$$
 
 Use cases:
 
@@ -13545,17 +13577,23 @@ void reader() {
 **Acquire** semantics [N4950 §31.7.5] prevent memory operations **after** the atomic operation from
 Being reordered **before** it:
 
-$$\mathrm{acquire:  \forall\, w \mathrm{ after  \mathrm{load: w \nrightarrow \mathrm{before load$$
+$$
+\mathrm{acquire:  \forall\, w \mathrm{ after  \mathrm{load: w \nrightarrow \mathrm{before load
+$$
 
 **Release** semantics prevent memory operations **before** the atomic operation from being reordered
 **after** it:
 
-$$\mathrm{release:  \forall\, r \mathrm{ before  \mathrm{store: r \nrightarrow \mathrm{after store$$
+$$
+\mathrm{release:  \forall\, r \mathrm{ before  \mathrm{store: r \nrightarrow \mathrm{after store
+$$
 
 When a release store synchronizes-with an acquire load, a **synchronizes-with** relationship is
 Established [N4950 §31.7.5]:
 
-$$\mathrm{store_{\mathrm{release}(x) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x)$$
+$$
+\mathrm{store_{\mathrm{release}(x) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x)
+$$
 
 This creates a happens-before edge, and all memory operations sequenced-before the release store are
 Visible to all operations sequenced-after the acquire load.
@@ -13621,7 +13659,9 @@ $\mathrm{S$ over all `seq_cst` operations such that:
 2. Every `seq_cst` load reads either the last preceding `seq_cst` store in $\mathrm{S$ or a value
    written by a non-`seq_cst` store.
 
-$$\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  b \lt_{\mathrm{total} a$$
+$$
+\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  b \lt_{\mathrm{total} a
+$$
 
 On x86, `seq_cst` stores require a `MFENCE` (or `LOCK XCHG`), and `seq_cst` loads require `LFENCE`
 On some implementations. On ARM, `seq_cst` operations use `dmb ish` barriers.
@@ -14059,7 +14099,9 @@ The kernel context switch alone, plus scheduler latency.
 Times. The thread must call `unlock()` the same number of times it called `lock()` for the mutex to
 Be released. The implementation maintains an internal lock count:
 
-$$\mathrm{recursion depth = n_{\mathrm{lock} - n_{\mathrm{unlock}$$
+$$
+\mathrm{recursion depth = n_{\mathrm{lock} - n_{\mathrm{unlock}
+$$
 
 When the recursion depth reaches zero, the mutex is released.
 
@@ -14342,7 +14384,9 @@ The other. The four necessary conditions (Coffman conditions) are:
 4. **Circular wait**: There exists a circular chain of threads, each waiting for a resource held by
    the next.
 
-$$\mathrm{Deadlock \iff \mathrm{Mutual Exclusion \wedge \mathrm{Hold-and-Wait \wedge \mathrm{No Preemption \wedge \mathrm{Circular Wait$$
+$$
+\mathrm{Deadlock \iff \mathrm{Mutual Exclusion \wedge \mathrm{Hold-and-Wait \wedge \mathrm{No Preemption \wedge \mathrm{Circular Wait
+$$
 
 ### Deadlock in Practice: The Classic Dining Philosophers
 
@@ -15850,7 +15894,9 @@ The `thread_local` keyword [N4950 §6.7.3] specifies that a variable has **threa
 A new instance of the variable is created for each thread, and it is destroyed when the thread
 Exits. The variable is initialized before its first use in each thread.
 
-$$\mathrm{thread\_local  T\, x \implies \forall\, t \in \mathrm{Threads: \exists!\, x_t$$
+$$
+\mathrm{thread\_local  T\, x \implies \forall\, t \in \mathrm{Threads: \exists!\, x_t
+$$
 
 Thread-local variables can be declared at namespace scope, at block scope, or as `static` class
 Members [N4950 §6.7.3]:
@@ -16724,7 +16770,9 @@ Performs context switching.
 `std::thread::hardware_concurrency()` [N4950 §31.4.4.1.4] returns the number of concurrent threads
 Supported by the implementation. This value approximates the number of hardware threads available:
 
-$$N_{\mathrm{optimal} = \mathrm{std::thread::hardware\_concurrency()$$
+$$
+N_{\mathrm{optimal} = \mathrm{std::thread::hardware\_concurrency()
+$$
 
 ```cpp
 #include <iostream>
@@ -45188,7 +45236,9 @@ For **binary operators**, the choice between member and non-member affects impli
 
 Consider a class `Int` with an `explicit` constructor and a member `operator+`:
 
-$$\mathrm{For  \texttt{a + b} \mathrm{ where the left operand is not of class type:$$
+$$
+\mathrm{For  \texttt{a + b} \mathrm{ where the left operand is not of class type:
+$$
 
 1. Name lookup finds the candidate functions: member `Int::operator+` and non-member `operator+`.
 2. If only a member overload exists, the left operand must undergo implicit conversion to `Int`.
@@ -64202,7 +64252,9 @@ Initial state have high entropy.
 A naive way to generate a random integer in `[0, n)` is `engine() % n`. This introduces **modulo
 Bias** when `n` does not evenly divide the engine's range [N4950 §29.6.4.1]:
 
-$$P(\mathrm{outcome  k) = \begin{cases} \lceil R / n \rceil / R & \mathrm{if  k \lt R \bmod n \\ \lfloor R / n \rfloor / R & \mathrm{otherwise \end{cases}$$
+$$
+P(\mathrm{outcome  k) = \begin{cases} \lceil R / n \rceil / R & \mathrm{if  k \lt R \bmod n \\ \lfloor R / n \rfloor / R & \mathrm{otherwise \end{cases}
+$$
 
 Where $R = \mathrm{max - \mathrm{min + 1$ is the engine's range.
 
@@ -73416,7 +73468,9 @@ all five steps 50 times.
 
 The savings are proportional to:
 
-$$\mathrm{savings \propto \mathrm{template\_complexity \times (\mathrm{num\_TUs - 1)$$
+$$
+\mathrm{savings \propto \mathrm{template\_complexity \times (\mathrm{num\_TUs - 1)
+$$
 
 For a project with 1000 `.cpp` files that all include a heavy templated utility header, the
 Compilation time reduction can reach 20--40% for the affected templates [N4950 §13.9.3].
@@ -74484,7 +74538,9 @@ Unary left fold `(... op pack)` expands to a left-associative expression tree.
 By [N4950 §7.6.1], a unary right fold `(pack op ...)` with pack expansion $(e_1, e_2, \ldots, e_n)$
 Is defined as:
 
-$$e_1 \oplus (e_2 \oplus (e_3 \oplus (\ldots \oplus e_n)))$$
+$$
+e_1 \oplus (e_2 \oplus (e_3 \oplus (\ldots \oplus e_n)))
+$$
 
 This can be proved by induction on the pack size $n$.
 
@@ -74508,7 +74564,9 @@ This is right-associative. $\blacksquare$
 **Proof for unary left fold:** Analogous. By [N4950 §7.6.1], `(... op pack)` with pack
 $(e_1, e_2, \ldots, e_n)$ expands to:
 
-$$(((e_1 \oplus e_2) \oplus e_3) \oplus \ldots) \oplus e_n$$
+$$
+(((e_1 \oplus e_2) \oplus e_3) \oplus \ldots) \oplus e_n
+$$
 
 The inductive structure is: the fold of the first $n$ elements forms the left operand, and $e_{n+1}$
 Is the right operand. This produces a left-associative tree. $\blacksquare$
@@ -74597,10 +74655,14 @@ Binary folds include an explicit initial value (`init`) that participates in the
 Forms are:
 
 **Binary left fold** `(init op ... op pack)`:
-$$((\mathrm{init \oplus e_1) \oplus e_2) \oplus \ldots \oplus e_n$$
+$$
+((\mathrm{init \oplus e_1) \oplus e_2) \oplus \ldots \oplus e_n
+$$
 
 **Binary right fold** `(pack op ... op init)`:
-$$e_1 \oplus (e_2 \oplus (\ldots \oplus (e_n \oplus \mathrm{init)))$$
+$$
+e_1 \oplus (e_2 \oplus (\ldots \oplus (e_n \oplus \mathrm{init)))
+$$
 
 ```cpp
 #include <iostream>
@@ -84330,7 +84392,9 @@ An IEEE 754 floating-point number encodes a signed value using three fields:
 ```
 
 The encoded value is:
-$$\mathrm{value = (-1)^{\mathrm{sign} \times 2^{(\mathrm{exponent - \mathrm{bias)} \times (1.\mathrm{mantissa)$$
+$$
+\mathrm{value = (-1)^{\mathrm{sign} \times 2^{(\mathrm{exponent - \mathrm{bias)} \times (1.\mathrm{mantissa)
+$$
 The implicit leading `1.` (the "hidden bit") is the key optimization of IEEE 754: since the mantissa
 Is normalized so the leading digit is always 1, it need not be stored.
 

@@ -59,9 +59,15 @@ Linear programming is an optimization technique for maximizing or minimizing a l
 ## Worked Example 1, Graphical Method
 
 **Problem:** Maximize $Z = 3x + 2y$ subject to:
-$$x + y \leq 4$$
-$$x + 2y \leq 6$$
-$$x, y \geq 0$$
+$$
+x + y \leq 4
+$$
+$$
+x + 2y \leq 6
+$$
+$$
+x, y \geq 0
+$$
 
 **Solution:**
 
@@ -91,9 +97,15 @@ Step 4: Maximum value is $Z = 12$ at $(4, 0)$.
 ## Worked Example 2, Minimization Problem
 
 **Problem:** Minimize $Z = 5x + 3y$ subject to:
-$$2x + y \geq 10$$
-$$x + 3y \geq 15$$
-$$x, y \geq 0$$
+$$
+2x + y \geq 10
+$$
+$$
+x + 3y \geq 15
+$$
+$$
+x, y \geq 0
+$$
 
 **Solution:**
 
@@ -126,9 +138,15 @@ Let $x$ = units of A, $y$ = units of B.
 Objective: Maximize $Z = 400x + 500y$
 
 Constraints:
-$$2x + y \leq 8 \quad \text{(Machine I)}$$
-$$x + 3y \leq 9 \quad \text{(Machine II)}$$
-$$x, y \geq 0$$
+$$
+2x + y \leq 8 \quad \text{(Machine I)}
+$$
+$$
+x + 3y \leq 9 \quad \text{(Machine II)}
+$$
+$$
+x, y \geq 0
+$$
 
 Corner points:
 

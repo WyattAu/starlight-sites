@@ -22,7 +22,9 @@ description: 'Let be a compact, oriented Riemannian 2-manifold without boundary.
 **Theorem 8.1 (Gauss-Bonnet, Global).** Let $(M, g)$ be a compact, oriented Riemannian 2-manifold
 without boundary. Then:
 
-$$\int_M K\, dA = 2\pi \chi(M)$$
+$$
+\int_M K\, dA = 2\pi \chi(M)
+$$
 
 where $K$ is the Gaussian curvature, $dA$ is the area form, and $\chi(M)$ is the Euler
 characteristic.
@@ -43,7 +45,9 @@ metric.
 **Theorem 8.3.** Let $M$ be a compact oriented Riemannian 2-manifold with boundary $\partial M$
 consisting of smooth curves meeting at exterior angles $\alpha_1, \ldots, \alpha_k$. Then:
 
-$$\int_M K\, dA + \int_{\partial M} \kappa_g\, ds + \sum_{i=1}^k \alpha_i = 2\pi \chi(M)$$
+$$
+\int_M K\, dA + \int_{\partial M} \kappa_g\, ds + \sum_{i=1}^k \alpha_i = 2\pi \chi(M)
+$$
 
 where $\kappa_g$ is the geodesic curvature of the boundary.
 
@@ -52,7 +56,9 @@ interior angles $\theta_1, \theta_2, \theta_3$. The area is $A = \theta_1 + \the
 This is a special case: $\int_M K\, dA = 1 \cdot A$ (since $K = 1$), the geodesic curvature term
 vanishes, and the exterior angles are $\pi - \theta_i$, so:
 
-$$A + \sum(\pi - \theta_i) = A + 3\pi - (\theta_1 + \theta_2 + \theta_3) = 2\pi \cdot 1 = 2\pi$$
+$$
+A + \sum(\pi - \theta_i) = A + 3\pi - (\theta_1 + \theta_2 + \theta_3) = 2\pi \cdot 1 = 2\pi
+$$
 
 This confirms $A = \theta_1 + \theta_2 + \theta_3 - \pi$.
 
@@ -64,18 +70,24 @@ of vertices, edges, and faces, with $\chi(M) = V - E + F$.
 **Step 2: Apply Gauss-Bonnet to each triangle.** For each geodesic triangle $T$ with interior
 angles $\alpha, \beta, \gamma$:
 
-$$\int_T K\, dA = (\alpha + \beta + \gamma) - \pi$$
+$$
+\int_T K\, dA = (\alpha + \beta + \gamma) - \pi
+$$
 
 This follows from the local Gauss-Bonnet formula for a geodesic triangle.
 
 **Step 3: Sum over all triangles.** Summing over $F$ triangles:
 
-$$\int_M K\, dA = \sum_{i=1}^F (\alpha_i + \beta_i + \gamma_i) - F\pi$$
+$$
+\int_M K\, dA = \sum_{i=1}^F (\alpha_i + \beta_i + \gamma_i) - F\pi
+$$
 
 **Step 4: Relate angle sum to Euler characteristic.** Each interior angle at a vertex appears
 once per incident triangle. The sum of all angles around a vertex is $2\pi$, so:
 
-$$\sum_{i=1}^F (\alpha_i + \beta_i + \gamma_i) = 2\pi V$$
+$$
+\sum_{i=1}^F (\alpha_i + \beta_i + \gamma_i) = 2\pi V
+$$
 
 Thus $\int_M K\, dA = 2\pi V - F\pi$. Using $3F = 2E$ (each edge shared by 2 triangles) and
 $\chi = V - E + F$, we get $\int_M K\, dA = 2\pi \chi(M)$. $\blacksquare$
@@ -96,7 +108,9 @@ Riemann surfaces.
 
 **Theorem 8.5 (Chern 1944).** Let $M$ be a compact oriented Riemannian $2n$-manifold. Then:
 
-$$\int_M \mathrm{Pf}\left(\frac{\Omega}{2\pi}\right) = \chi(M)$$
+$$
+\int_M \mathrm{Pf}\left(\frac{\Omega}{2\pi}\right) = \chi(M)
+$$
 
 where $\Omega$ is the curvature 2-form of the Levi-Civita connection and $\mathrm{Pf}$ is the
 Pfaffian. For surfaces ($n = 1$), $\mathrm{Pf}(\Omega/2\pi) = K\, dA/2\pi$, recovering the
@@ -104,7 +118,9 @@ classical theorem.
 
 In terms of the Riemann curvature tensor $R_{ijkl}$:
 
-$$\chi(M) = \frac{1}{2^{2n}\pi^{n}n!} \int_M \epsilon^{i_1\ldots i_{2n}} \Omega_{i_1i_2} \wedge \cdots \wedge \Omega_{i_{2n-1}i_{2n}}$$
+$$
+\chi(M) = \frac{1}{2^{2n}\pi^{n}n!} \int_M \epsilon^{i_1\ldots i_{2n}} \Omega_{i_1i_2} \wedge \cdots \wedge \Omega_{i_{2n-1}i_{2n}}
+$$
 
 **Example 8.2.** For $M = S^4$ (4-sphere) with the round metric, $\chi(S^4) = 2$. The integrand is
 a 4-form constructed from the curvature, and $\int_{S^4} \mathrm{Pf}(\Omega/2\pi) = 2$.
@@ -122,7 +138,9 @@ is the index of $d + d^*$ acting on differential forms.
 **Application 3: Geometric inequalities.** For a compact surface $M$ with area $A$ and Gaussian
 curvature bounded by $|K| \leq C$:
 
-$$|\chi(M)| \leq \frac{C A}{2\pi}$$
+$$
+|\chi(M)| \leq \frac{C A}{2\pi}
+$$
 
 This follows directly from $2\pi|\chi| = |\int K| \leq C A$.
 

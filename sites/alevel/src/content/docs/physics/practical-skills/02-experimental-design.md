@@ -183,7 +183,9 @@ Validity has two aspects that examiners distinguish:
 
 Accuracy depends on minimising both systematic and random errors:
 
-$$\mathrm{Accuracy} \propto \frac{1}{|\mathrm{systematic error}| + \mathrm{random error}}$$
+$$
+\mathrm{Accuracy} \propto \frac{1}{|\mathrm{systematic error}| + \mathrm{random error}}
+$$
 
 **Systematic errors** shift all readings by a constant amount. They cannot be reduced by averaging.
 Examples include:
@@ -199,7 +201,9 @@ Include:
 - Reading the last digit of an analogue scale differently each time
 - Air currents affecting a pendulum swing
 
-$$\boxed{\mathrm{True value} = \mathrm{measured value} \pm \mathrm{uncertainty}}$$
+$$
+\boxed{\mathrm{True value} = \mathrm{measured value} \pm \mathrm{uncertainty}}
+$$
 
 :::caution
 (consistent) but invalid (measuring the wrong thing), or valid but inaccurate (systematic error).

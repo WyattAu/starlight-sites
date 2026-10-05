@@ -19,17 +19,25 @@ description: "Study notes for Angular Momentum and the Hydrogen Atom with worked
 
 ### 6.1 Angular Momentum Operators
 
-$$\hat{L}_x = -i\hbar\left(y\frac{\partial}{\partial z} - z\frac{\partial}{\partial y}\right), \quad \hat{L}_y = -i\hbar\left(z\frac{\partial}{\partial x} - x\frac{\partial}{\partial z}\right), \quad \hat{L}_z = -i\hbar\left(x\frac{\partial}{\partial y} - y\frac{\partial}{\partial x}\right)$$
+$$
+\hat{L}_x = -i\hbar\left(y\frac{\partial}{\partial z} - z\frac{\partial}{\partial y}\right), \quad \hat{L}_y = -i\hbar\left(z\frac{\partial}{\partial x} - x\frac{\partial}{\partial z}\right), \quad \hat{L}_z = -i\hbar\left(x\frac{\partial}{\partial y} - y\frac{\partial}{\partial x}\right)
+$$
 
 **Commutation relations:**
 
-$$[\hat{L}_x, \hat{L}_y] = i\hbar\hat{L}_z, \quad [\hat{L}_y, \hat{L}_z] = i\hbar\hat{L}_x, \quad [\hat{L}_z, \hat{L}_x] = i\hbar\hat{L}_y$$
+$$
+[\hat{L}_x, \hat{L}_y] = i\hbar\hat{L}_z, \quad [\hat{L}_y, \hat{L}_z] = i\hbar\hat{L}_x, \quad [\hat{L}_z, \hat{L}_x] = i\hbar\hat{L}_y
+$$
 
-$$[\hat{L}^2, \hat{L}_i] = 0 \quad \mathrm{for\ all\ } i$$
+$$
+[\hat{L}^2, \hat{L}_i] = 0 \quad \mathrm{for\ all\ } i
+$$
 
 **Simultaneous eigenstates:** $|l, m\rangle$ with
 
-$$\hat{L}^2|l,m\rangle = \hbar^2 l(l+1)|l,m\rangle, \quad \hat{L}_z|l,m\rangle = \hbar m|l,m\rangle$$
+$$
+\hat{L}^2|l,m\rangle = \hbar^2 l(l+1)|l,m\rangle, \quad \hat{L}_z|l,m\rangle = \hbar m|l,m\rangle
+$$
 
 Where $l = 0, 1, 2, \ldots$ and $m = -l, -l+1, \ldots, l-1, l$.
 
@@ -37,28 +45,38 @@ Where $l = 0, 1, 2, \ldots$ and $m = -l, -l+1, \ldots, l-1, l$.
 
 Define the **ladder operators**:
 
-$$\hat{L}_{\pm} = \hat{L}_x \pm i\hat{L}_y$$
+$$
+\hat{L}_{\pm} = \hat{L}_x \pm i\hat{L}_y
+$$
 
 **Key commutation relations:**
 
-$$[\hat{L}_z, \hat{L}_{\pm}] = \pm\hbar\hat{L}_{\pm}, \quad [\hat{L}^2, \hat{L}_{\pm}] = 0$$
+$$
+[\hat{L}_z, \hat{L}_{\pm}] = \pm\hbar\hat{L}_{\pm}, \quad [\hat{L}^2, \hat{L}_{\pm}] = 0
+$$
 
 _Proof._
 $[\hat{L}_z, \hat{L}_+] = [\hat{L}_z, \hat{L}_x] + i[\hat{L}_z, \hat{L}_y] = i\hbar\hat{L}_y + i(i\hbar\hat{L}_x) = \hbar(\hat{L}_y + i\hat{L}_x)\cdot(-1)$
 
 Wait, let us redo this carefully:
 
-$$[\hat{L}_z, \hat{L}_+] = [\hat{L}_z, \hat{L}_x + i\hat{L}_y] = [\hat{L}_z, \hat{L}_x] + i[\hat{L}_z, \hat{L}_y] = i\hbar\hat{L}_y + i(-i\hbar\hat{L}_x) = i\hbar\hat{L}_y + \hbar\hat{L}_x = \hbar(\hat{L}_x + i\hat{L}_y) = \hbar\hat{L}_+$$
+$$
+[\hat{L}_z, \hat{L}_+] = [\hat{L}_z, \hat{L}_x + i\hat{L}_y] = [\hat{L}_z, \hat{L}_x] + i[\hat{L}_z, \hat{L}_y] = i\hbar\hat{L}_y + i(-i\hbar\hat{L}_x) = i\hbar\hat{L}_y + \hbar\hat{L}_x = \hbar(\hat{L}_x + i\hat{L}_y) = \hbar\hat{L}_+
+$$
 
 Similarly, $[\hat{L}_z, \hat{L}_-] = -\hbar\hat{L}_-$. And:
 
-$$[\hat{L}^2, \hat{L}_+] = [\hat{L}_x^2 + \hat{L}_y^2 + \hat{L}_z^2, \hat{L}_+] = 0$$
+$$
+[\hat{L}^2, \hat{L}_+] = [\hat{L}_x^2 + \hat{L}_y^2 + \hat{L}_z^2, \hat{L}_+] = 0
+$$
 
 Since $\hat{L}^2$ commutes with each component. $\blacksquare$
 
 **Action on eigenstates.** Since $[\hat{L}_z, \hat{L}_+] = \hbar\hat{L}_+$:
 
-$$\hat{L}_z(\hat{L}_+|l,m\rangle) = (\hat{L}_+\hat{L}_z + \hbar\hat{L}_+)|l,m\rangle = \hbar(m+1)(\hat{L}_+|l,m\rangle)$$
+$$
+\hat{L}_z(\hat{L}_+|l,m\rangle) = (\hat{L}_+\hat{L}_z + \hbar\hat{L}_+)|l,m\rangle = \hbar(m+1)(\hat{L}_+|l,m\rangle)
+$$
 
 So $\hat{L}_+|l,m\rangle$ is an eigenstate of $\hat{L}_z$ with eigenvalue $\hbar(m+1)$: it raises
 $m$ by 1. Similarly, $\hat{L}_-$ lowers $m$ by 1. Both preserve the $l$ value since
@@ -66,17 +84,25 @@ $[\hat{L}^2, \hat{L}_{\pm}] = 0$.
 
 **Normalisation.** Write $\hat{L}_+|l,m\rangle = C_+(l,m)|l,m+1\rangle$. Then:
 
-$$|C_+(l,m)|^2 = \langle l,m|\hat{L}_-\hat{L}_+|l,m\rangle$$
+$$
+|C_+(l,m)|^2 = \langle l,m|\hat{L}_-\hat{L}_+|l,m\rangle
+$$
 
 Using $\hat{L}_-\hat{L}_+ = \hat{L}^2 - \hat{L}_z^2 - \hbar\hat{L}_z$:
 
-$$|C_+(l,m)|^2 = \hbar^2 l(l+1) - \hbar^2 m^2 - \hbar^2 m = \hbar^2[l(l+1) - m(m+1)]$$
+$$
+|C_+(l,m)|^2 = \hbar^2 l(l+1) - \hbar^2 m^2 - \hbar^2 m = \hbar^2[l(l+1) - m(m+1)]
+$$
 
 Therefore:
 
-$$\hat{L}_+|l,m\rangle = \hbar\sqrt{l(l+1) - m(m+1)}\,|l,m+1\rangle$$
+$$
+\hat{L}_+|l,m\rangle = \hbar\sqrt{l(l+1) - m(m+1)}\,|l,m+1\rangle
+$$
 
-$$\hat{L}_-|l,m\rangle = \hbar\sqrt{l(l+1) - m(m-1)}\,|l,m-1\rangle$$
+$$
+\hat{L}_-|l,m\rangle = \hbar\sqrt{l(l+1) - m(m-1)}\,|l,m-1\rangle
+$$
 
 ### 6.3 Eigenvalue Spectrum of Angular Momentum
 
@@ -89,16 +115,22 @@ $$\hat{L}_-|l,m\rangle = \hbar\sqrt{l(l+1) - m(m-1)}\,|l,m-1\rangle$$
 _Proof._ Starting from a state $|l,m\rangle$Repeatedly applying $\hat{L}_+$ raises $m$ by 1 each
 time. The norm of the resulting state is:
 
-$$\|\hat{L}_+|l,m\rangle\|^2 = \hbar^2[l(l+1) - m(m+1)]$$
+$$
+\|\hat{L}_+|l,m\rangle\|^2 = \hbar^2[l(l+1) - m(m+1)]
+$$
 
 This must remain non-negative, so $m(m+1) \leq l(l+1)$Giving $m \leq l$. The raising process must
 Terminate at some maximum $m_{\max}$ where $\hat{L}_+|l, m_{\max}\rangle = 0$:
 
-$$l(l+1) - m_{\max}(m_{\max} + 1) = 0$$
+$$
+l(l+1) - m_{\max}(m_{\max} + 1) = 0
+$$
 
 Similarly, the lowering process terminates at $m_{\min}$ where $\hat{L}_-|l, m_{\min}\rangle = 0$:
 
-$$l(l+1) - m_{\min}(m_{\min} - 1) = 0$$
+$$
+l(l+1) - m_{\min}(m_{\min} - 1) = 0
+$$
 
 Subtracting: $m_{\max}(m_{\max}+1) - m_{\min}(m_{\min}-1) = 0$. Since we reach $m_{\max}$ from
 $m_{\min}$ in $N$ steps: $m_{\max} = m_{\min} + N$. Solving gives $m_{\max} = l$ and
@@ -115,7 +147,9 @@ $e^{im\phi} = e^{im(\phi+2\pi)}$ So $m$ must be an integer, which restricts $l$ 
 The simultaneous eigenfunctions of $\hat{L}^2$ and $\hat{L}_z$ are the **spherical harmonics**
 $Y_l^m(\theta, \phi)$:
 
-$$Y_l^m(\theta, \phi) = (-1)^m\sqrt{\frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!}}\,P_l^m(\cos\theta)\,e^{im\phi}$$
+$$
+Y_l^m(\theta, \phi) = (-1)^m\sqrt{\frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!}}\,P_l^m(\cos\theta)\,e^{im\phi}
+$$
 
 Where $P_l^m$ are the associated Legendre functions.
 
@@ -139,14 +173,18 @@ Where $P_l^m$ are the associated Legendre functions.
 
 The Hamiltonian for hydrogen (electron of mass $m_e$ and charge $-e$Proton of charge $+e$):
 
-$$\hat{H} = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}$$
+$$
+\hat{H} = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}
+$$
 
 #### 6.5.1 Separation of Variables
 
 In spherical coordinates, the Laplacian separates, and we write
 $\psi(r,\theta,\phi) = R(r)\,Y_l^m(\theta,\phi)$. The radial equation is:
 
-$$-\frac{\hbar^2}{2m_e}\frac{1}{r^2}\frac{d}{dr}\!\left(r^2\frac{dR}{dr}\right) + \left[-\frac{e^2}{4\pi\varepsilon_0 r} + \frac{\hbar^2 l(l+1)}{2m_e r^2}\right]R = ER$$
+$$
+-\frac{\hbar^2}{2m_e}\frac{1}{r^2}\frac{d}{dr}\!\left(r^2\frac{dR}{dr}\right) + \left[-\frac{e^2}{4\pi\varepsilon_0 r} + \frac{\hbar^2 l(l+1)}{2m_e r^2}\right]R = ER
+$$
 
 The term $\hbar^2 l(l+1)/(2m_e r^2$ acts as an effective **centrifugal barrier**.
 
@@ -156,23 +194,31 @@ Substitute $u(r) = rR(r)$ and define the Bohr radius $a_0 = 4\pi\varepsilon_0\hb
 the Rydberg energy $E_R = e^2/(8\pi\varepsilon_0 a_0) = m_e e^4/(8\varepsilon_0^2 h^2)$. With the
 substitution $\rho = 2r/(na_0)$The radial equation becomes:
 
-$$\frac{d^2u}{d\rho^2} = \left[\frac{l(l+1)}{\rho^2} - \frac{1}{\rho} + \frac{n}{4}\left(\frac{1}{n^2} - \frac{E}{E_R}\right)\right]u$$
+$$
+\frac{d^2u}{d\rho^2} = \left[\frac{l(l+1)}{\rho^2} - \frac{1}{\rho} + \frac{n}{4}\left(\frac{1}{n^2} - \frac{E}{E_R}\right)\right]u
+$$
 
 For the solution to be well-behaved at both $\rho = 0$ and $\rho \to \infty$We require:
 
-$$E = -\frac{E_R}{n^2} = -\frac{m_e e^4}{2(4\pi\varepsilon_0)^2\hbar^2}\cdot\frac{1}{n^2}$$
+$$
+E = -\frac{E_R}{n^2} = -\frac{m_e e^4}{2(4\pi\varepsilon_0)^2\hbar^2}\cdot\frac{1}{n^2}
+$$
 
 With $n = 1, 2, 3, \ldots$ and $l = 0, 1, \ldots, n-1$.
 
 The radial wave functions are:
 
-$$R_{nl}(r) = \sqrt{{\left(\frac{2}{na_0}\right)}^3\frac{(n-l-1)!}{2n[(n+l)!]^3}}\,e^{-r/(na_0)}\!\left(\frac{2r}{na_0}\right)^l L_{n-l-1}^{2l+1}\!\left(\frac{2r}{na_0}\right)$$
+$$
+R_{nl}(r) = \sqrt{{\left(\frac{2}{na_0}\right)}^3\frac{(n-l-1)!}{2n[(n+l)!]^3}}\,e^{-r/(na_0)}\!\left(\frac{2r}{na_0}\right)^l L_{n-l-1}^{2l+1}\!\left(\frac{2r}{na_0}\right)
+$$
 
 Where $L_q^p$ are the associated Laguerre polynomials.
 
 **Energy eigenvalues:**
 
-$$E_n = -\frac{m_e e^4}{2(4\pi\varepsilon_0)^2 \hbar^2} \cdot \frac{1}{n^2} = -\frac{13.6\,\mathrm{eV}{n^2}, \quad n = 1, 2, 3, \ldots}$$
+$$
+E_n = -\frac{m_e e^4}{2(4\pi\varepsilon_0)^2 \hbar^2} \cdot \frac{1}{n^2} = -\frac{13.6\,\mathrm{eV}{n^2}, \quad n = 1, 2, 3, \ldots}
+$$
 
 **Degeneracy:** Each energy level $E_n$ has degeneracy $n^2$ (ignoring spin). The quantum numbers
 are:
@@ -183,7 +229,9 @@ are:
 
 The ground state wave function ($n = 1, l = 0, m_l = 0$):
 
-$$\psi_{100}(r, \theta, \phi) = \frac{1}{\sqrt{\pi a_0^3}} e^{-r/a_0}$$
+$$
+\psi_{100}(r, \theta, \phi) = \frac{1}{\sqrt{\pi a_0^3}} e^{-r/a_0}
+$$
 
 Where $a_0 = \frac{4\pi\varepsilon_0 \hbar^2}{m_e e^2} \approx 0.529\,\mathrm{\AA}$ is the Bohr
 radius.
@@ -198,11 +246,17 @@ the Hydrogen ground state.
 
 For $\psi_{100} = (\pi a_0^3)^{-1/2}e^{-r/a_0}$All integrals involve radial integrals with $r^2 dr$:
 
-$$\langle r \rangle = \frac{4\pi}{\pi a_0^3}\int_0^{\infty} r^3 e^{-2r/a_0}\,dr = \frac{4}{a_0^3}\cdot\frac{6}{(2/a_0)^4} = \frac{4 \cdot 6 \cdot a_0^4}{16} = \frac{3}{2}a_0$$
+$$
+\langle r \rangle = \frac{4\pi}{\pi a_0^3}\int_0^{\infty} r^3 e^{-2r/a_0}\,dr = \frac{4}{a_0^3}\cdot\frac{6}{(2/a_0)^4} = \frac{4 \cdot 6 \cdot a_0^4}{16} = \frac{3}{2}a_0
+$$
 
-$$\langle r^2 \rangle = \frac{4}{a_0^3}\int_0^{\infty} r^4 e^{-2r/a_0}\,dr = \frac{4}{a_0^3}\cdot\frac{24}{(2/a_0)^5} = \frac{4 \cdot 24 \cdot a_0^5}{32} = 3a_0^2$$
+$$
+\langle r^2 \rangle = \frac{4}{a_0^3}\int_0^{\infty} r^4 e^{-2r/a_0}\,dr = \frac{4}{a_0^3}\cdot\frac{24}{(2/a_0)^5} = \frac{4 \cdot 24 \cdot a_0^5}{32} = 3a_0^2
+$$
 
-$$\left\langle\frac{1}{r}\right\rangle = \frac{4}{a_0^3}\int_0^{\infty} r\,e^{-2r/a_0}\,dr = \frac{4}{a_0^3}\cdot\frac{1}{(2/a_0)^2} = \frac{1}{a_0}$$
+$$
+\left\langle\frac{1}{r}\right\rangle = \frac{4}{a_0^3}\int_0^{\infty} r\,e^{-2r/a_0}\,dr = \frac{4}{a_0^3}\cdot\frac{1}{(2/a_0)^2} = \frac{1}{a_0}
+$$
 
 Note that $\langle 1/r \rangle = 1/a_0 = -2E_1/e^2$ (by the virial theorem). The standard deviation
 is $\Delta r = \sqrt{3a_0^2 - (3a_0/2)^2} = \sqrt{3/4}\,a_0$.
@@ -215,7 +269,9 @@ Electric dipole transitions between hydrogen states are governed by selection ru
 Wigner-Eckart theorem. For a transition $|n,l,m\rangle \to |n',l',m'\rangle$ induced by the electric
 Dipole operator $\hat{\mathbf{r}}$:
 
-$$\Delta l = l' - l = \pm 1, \quad \Delta m = m' - m = 0, \pm 1$$
+$$
+\Delta l = l' - l = \pm 1, \quad \Delta m = m' - m = 0, \pm 1
+$$
 
 $\Delta n$ is unrestricted (energy conservation determines which transitions are allowed).
 

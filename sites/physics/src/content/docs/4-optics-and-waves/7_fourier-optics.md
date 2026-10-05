@@ -22,7 +22,9 @@ description: 'In the Fraunhofer limit, the diffraction pattern is the of the ape
 In the Fraunhofer limit, the diffraction pattern is the **Fourier transform** of the aperture
 function:
 
-$$E(\theta_x, \theta_y) \propto \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} t(x,y)\, e^{-i(k_x x + k_y y)}\,dx\,dy$$
+$$
+E(\theta_x, \theta_y) \propto \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} t(x,y)\, e^{-i(k_x x + k_y y)}\,dx\,dy
+$$
 
 Where $t(x, y)$ is the transmission function of the aperture, and $k_x = k\sin\theta_x$
 $k_y = k\sin\theta_y$.
@@ -35,7 +37,9 @@ plane, performing an optical Fourier transform.
 If the aperture is a product $t(x, y) = t_1(x, y) \cdot t_2(x, y)$ the diffraction pattern is the
 convolution of their individual transforms:
 
-$$\mathcal{F}\{t_1 \cdot t_2\} = \mathcal{F}\{t_1\} * \mathcal{F}\{t_2\}$$
+$$
+\mathcal{F}\{t_1 \cdot t_2\} = \mathcal{F}\{t_1\} * \mathcal{F}\{t_2\}
+$$
 
 Where $*$ denotes convolution. This explains, for example, why the double-slit pattern with finite
 slit width is the product of a sinc function (single slit) and a cosine-squared (double slit).
@@ -48,7 +52,9 @@ fall outside the lens aperture.
 
 The **minimum resolvable spatial frequency** is:
 
-$$f_{\mathrm{max}} = \frac{2\mathrm{NA}}{\lambda}$$
+$$
+f_{\mathrm{max}} = \frac{2\mathrm{NA}}{\lambda}
+$$
 
 Where $\mathrm{NA} = n\sin\theta_{\mathrm{max}}$ is the numerical aperture.
 
@@ -57,12 +63,16 @@ Where $\mathrm{NA} = n\sin\theta_{\mathrm{max}}$ is the numerical aperture.
 The **optical transfer function (OTF)** characterizes how an imaging system transmits spatial
 frequencies. It is the Fourier transform of the point spread function (PSF):
 
-$$H(f_x, f_y) = \mathcal{F}\{h(x, y)\}$$
+$$
+H(f_x, f_y) = \mathcal{F}\{h(x, y)\}
+$$
 
 The **modulation transfer function (MTF)** is the magnitude $|H(f_x, f_y)|$. For a diffraction-limited
 system with a circular aperture, the MTF is:
 
-$$\mathrm{MTF}(f) = \frac{2}{\pi}\left[\arccos\left(\frac{f}{f_c}\right) - \frac{f}{f_c}\sqrt{1 - \left(\frac{f}{f_c}\right)^2}\right]$$
+$$
+\mathrm{MTF}(f) = \frac{2}{\pi}\left[\arccos\left(\frac{f}{f_c}\right) - \frac{f}{f_c}\sqrt{1 - \left(\frac{f}{f_c}\right)^2}\right]
+$$
 
 for $f \leq f_c$, where $f_c = 2\mathrm{NA}/\lambda$ is the cutoff frequency.
 
@@ -78,7 +88,9 @@ lenses separated by twice their focal length $f$:
 If $U_{\mathrm{in}}(x, y)$ is the input field and $F(u, v)$ is the filter at the Fourier plane, the
 output field is:
 
-$$U_{\mathrm{out}}(x, y) = \mathcal{F}^{-1}\{F(u, v) \cdot \mathcal{F}\{U_{\mathrm{in}}\}\}$$
+$$
+U_{\mathrm{out}}(x, y) = \mathcal{F}^{-1}\{F(u, v) \cdot \mathcal{F}\{U_{\mathrm{in}}\}\}
+$$
 
 This is a convolution: $U_{\mathrm{out}} = U_{\mathrm{in}} * \mathcal{F}^{-1}\{F\}$.
 
@@ -112,7 +124,9 @@ If the input field is $U_{\mathrm{in}}(x) = e^{i\phi(x)} \approx 1 + i\phi(x)$ (
 $\phi$), the Fourier plane has a DC term $\delta(u)$ and diffracted terms $\mathcal{F}\{\phi\}$.
 The phase ring multiplies the DC term by $e^{i\pi/2}$, giving:
 
-$$U_{\mathrm{out}}(x) \approx i + i\phi(x) \quad \Rightarrow \quad I(x) \approx 1 + 2\phi(x)$$
+$$
+U_{\mathrm{out}}(x) \approx i + i\phi(x) \quad \Rightarrow \quad I(x) \approx 1 + 2\phi(x)
+$$
 
 The intensity is linearly proportional to the phase, revealing transparent structures.
 
@@ -121,7 +135,9 @@ The intensity is linearly proportional to the phase, revealing transparent struc
 **Holography** records both amplitude and phase of a wavefront by interfering it with a reference
 beam. The hologram is the intensity pattern:
 
-$$I(x, y) = |U_{\mathrm{obj}} + U_{\mathrm{ref}}|^2 = |U_{\mathrm{obj}}|^2 + |U_{\mathrm{ref}}|^2 + U_{\mathrm{obj}}^* U_{\mathrm{ref}} + U_{\mathrm{obj}} U_{\mathrm{ref}}^*$$
+$$
+I(x, y) = |U_{\mathrm{obj}} + U_{\mathrm{ref}}|^2 = |U_{\mathrm{obj}}|^2 + |U_{\mathrm{ref}}|^2 + U_{\mathrm{obj}}^* U_{\mathrm{ref}} + U_{\mathrm{obj}} U_{\mathrm{ref}}^*
+$$
 
 When illuminated by the reference beam, the third term reconstructs the original object wavefront,
 creating a three-dimensional image. The fourth term produces a conjugate image.
@@ -134,7 +150,9 @@ same axis. This requires a small, sparse object so the twin images separate.
 **Application 1: Image Deconvolution.** If the PSF $h(x, y)$ is known, the original image can be
 recovered by inverse filtering:
 
-$$U_{\mathrm{in}} = \mathcal{F}^{-1}\{\mathcal{F}\{U_{\mathrm{out}}\} / H(f_x, f_y)\}$$
+$$
+U_{\mathrm{in}} = \mathcal{F}^{-1}\{\mathcal{F}\{U_{\mathrm{out}}\} / H(f_x, f_y)\}
+$$
 
 Wiener filtering adds a regularization term to handle noise.
 
@@ -152,7 +170,9 @@ $t(x) = (1 + m\cos(2\pi f_0 x))/2$.
 
 *Solution.* The Fourier transform of $t(x)$ is:
 
-$$\mathcal{F}\{t\}(u) = \frac{1}{2}\delta(u) + \frac{m}{4}\delta(u - f_0) + \frac{m}{4}\delta(u + f_0)$$
+$$
+\mathcal{F}\{t\}(u) = \frac{1}{2}\delta(u) + \frac{m}{4}\delta(u - f_0) + \frac{m}{4}\delta(u + f_0)
+$$
 
 The diffraction pattern consists of a central order at $u = 0$ and two side orders at $u = \pm f_0$,
 with intensity ratio $I_{\pm}/I_0 = m^2/4$. $\blacksquare$

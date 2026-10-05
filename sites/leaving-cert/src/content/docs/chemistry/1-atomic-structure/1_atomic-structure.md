@@ -64,18 +64,26 @@ $^{10}\mathrm{B$ and $^{11}\mathrm{B$Calculate their percentage abundances.
 
 Let $x$ = percentage of $^{10}\mathrm{B$ and $(100 - x)$ = percentage of $^{11}\mathrm{B$.
 
-$$10x + 11(100 - x) = 10.81 \times 100$$
+$$
+10x + 11(100 - x) = 10.81 \times 100
+$$
 
-$$10x + 1100 - 11x = 1081$$
+$$
+10x + 1100 - 11x = 1081
+$$
 
-$$-x = -19 \implies x = 19\%$$
+$$
+-x = -19 \implies x = 19\%
+$$
 
 $^{10}\mathrm{B = 19\%$, $^{11}\mathrm{B = 81\%$.
 
 **Worked Example 2 (OL):** Calculate the relative atomic mass of neon from its isotopes:
 $^{20}\mathrm{Ne$ (90.5%) and $^{22}\mathrm{Ne$ (9.5%).
 
-$$A_r = \frac{90.5 \times 20 + 9.5 \times 22}{100} = \frac{1810 + 209}{100} = \frac{2019}{100} = 20.19$$
+$$
+A_r = \frac{90.5 \times 20 + 9.5 \times 22}{100} = \frac{1810 + 209}{100} = \frac{2019}{100} = 20.19
+$$
 
 ## The Bohr Model and Electron Shells (OL/HL)
 
@@ -143,7 +151,9 @@ Spins before pairing.
 
 **Example:** The $2p$ subshell of nitrogen ($Z = 7$):
 
-$$\underset{\uparrow}{\boxed{2p_x}} \quad \underset{\uparrow}{\boxed{2p_y}} \quad \underset{\uparrow}{\boxed{2p_z}}$$
+$$
+\underset{\uparrow}{\boxed{2p_x}} \quad \underset{\uparrow}{\boxed{2p_y}} \quad \underset{\uparrow}{\boxed{2p_z}}
+$$
 
 Three unpaired electrons with parallel spins.
 
@@ -189,7 +199,9 @@ $$
 
 The energy of an electron in the $n$Th level of hydrogen is:
 
-$$E_n = -\frac{13.6}{n^2} \mathrm{ eV$$
+$$
+E_n = -\frac{13.6}{n^2} \mathrm{ eV
+$$
 
 This is derived from the Bohr model, which postulates that the angular momentum of the electron is
 Quantised: $mvr = n\hbar$. Solving for the allowed radii and energies gives the above formula.
@@ -210,19 +222,31 @@ This is the blue-green line in the Balmer series.
 **Worked Example 6 (HL):** A photon of wavelength $97.2\mathrm{ nm$ is emitted from a hydrogen atom.
 Identify the transition involved.
 
-$$\Delta E = \frac{1240}{97.2} = 12.76 \mathrm{ eV$$
+$$
+\Delta E = \frac{1240}{97.2} = 12.76 \mathrm{ eV
+$$
 
-$$12.76 = 13.6\left(\frac{1}{n_f^2} - \frac{1}{n_i^2}\right)$$
+$$
+12.76 = 13.6\left(\frac{1}{n_f^2} - \frac{1}{n_i^2}\right)
+$$
 
 This is a large energy, suggesting a transition to $n = 1$ (Lyman series):
 
-$$12.76 = 13.6\left(1 - \frac{1}{n_i^2}\right)$$
+$$
+12.76 = 13.6\left(1 - \frac{1}{n_i^2}\right)
+$$
 
-$$\frac{12.76}{13.6} = 1 - \frac{1}{n_i^2}$$
+$$
+\frac{12.76}{13.6} = 1 - \frac{1}{n_i^2}
+$$
 
-$$\frac{1}{n_i^2} = 1 - 0.938 = 0.062$$
+$$
+\frac{1}{n_i^2} = 1 - 0.938 = 0.062
+$$
 
-$$n_i^2 = 16.1 \implies n_i = 4$$
+$$
+n_i^2 = 16.1 \implies n_i = 4
+$$
 
 Transition: $n = 4 \to n = 1$ (Lyman series).
 
@@ -312,7 +336,9 @@ Fragments.
 **Worked Example 9 (HL):** The mass spectrum of an element shows peaks at $m/z = 52$ (83%) and
 $m/z = 54$ (17%). Calculate the relative atomic mass.
 
-$$A_r = \frac{83 \times 52 + 17 \times 54}{100} = \frac{4316 + 918}{100} = \frac{5234}{100} = 52.34$$
+$$
+A_r = \frac{83 \times 52 + 17 \times 54}{100} = \frac{4316 + 918}{100} = \frac{5234}{100} = 52.34
+$$
 
 This element is chromium.
 
@@ -455,7 +481,9 @@ Electron configuration $2, 8, 2$).
 
 Louis de Broglie proposed that all matter has wave properties:
 
-$$\lambda = \frac{h}{mv} = \frac{h}{p}$$
+$$
+\lambda = \frac{h}{mv} = \frac{h}{p}
+$$
 
 Where $h$ is Planck's constant, $m$ is mass, and $v$ is velocity.
 
@@ -467,7 +495,9 @@ Condition are stable.
 
 ### Heisenberg Uncertainty Principle
 
-$$\Delta x \cdot \Delta p \geq \frac{h}{4\pi}$$
+$$
+\Delta x \cdot \Delta p \geq \frac{h}{4\pi}
+$$
 
 It is impossible to simultaneously know both the exact position and exact momentum of an electron.
 This is why we use probability distributions (orbitals) rather than fixed orbits to describe
@@ -549,7 +579,9 @@ Electrons ($[\mathrm{Ne]$ configuration).
 
 **Trend in ionic radius:** For isoelectronic ions, the radius decreases as nuclear charge increases:
 
-$$\mathrm{O^{2-} > \mathrm{F^-> \mathrm{Ne > \mathrm{Na^+ > \mathrm{Mg^{2+}$$
+$$
+\mathrm{O^{2-} > \mathrm{F^-> \mathrm{Ne > \mathrm{Na^+ > \mathrm{Mg^{2+}
+$$
 
 ---
 
@@ -620,7 +652,9 @@ The first ionisation energy increases across a period with two notable dips:
 
 The effective nuclear charge ($Z_{\mathrm{eff}$) experienced by an electron is:
 
-$$Z_{\mathrm{eff} = Z - S$$
+$$
+Z_{\mathrm{eff} = Z - S
+$$
 
 Where $Z$ is the actual nuclear charge and $S$ is the shielding constant (Slater's rules).
 
@@ -641,9 +675,13 @@ For a $3p$ electron:
 - Electrons in $n = 2$: 8 electrons $\times 0.85 = 6.80$
 - Electrons in $n = 1$: 2 electrons $\times 1.00 = 2.00$
 
-$$S = 2.45 + 6.80 + 2.00 = 11.25$$
+$$
+S = 2.45 + 6.80 + 2.00 = 11.25
+$$
 
-$$Z_{\mathrm{eff} = 17 - 11.25 = 5.75$$
+$$
+Z_{\mathrm{eff} = 17 - 11.25 = 5.75
+$$
 
 This relatively high $Z_{\mathrm{eff}$ explains chlorine's high electronegativity and small atomic
 Radius.
@@ -664,7 +702,9 @@ Radius.
 Henry Moseley discovered that the frequency of characteristic X-rays emitted by an element is
 Related to its atomic number:
 
-$$\sqrt{f} = a(Z - b)$$
+$$
+\sqrt{f} = a(Z - b)
+$$
 
 Where $a$ and $b$ are constants. This established that atomic number (not atomic mass) is the
 Fundamental property that determines an element's identity, leading to the modern periodic table.

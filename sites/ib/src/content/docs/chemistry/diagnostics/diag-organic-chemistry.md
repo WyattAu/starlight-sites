@@ -244,7 +244,9 @@ In the $S_N2$ transition state, the nucleophile ($\text{CN}^-$) approaches from 
 bond. The carbon is partially bonded to both $\text{CN}$ and $\text{Br}$With the three other
 substituents in a trigonal planar arrangement:
 
-$$\text{CN}^\delta-\cdots\text{C}^\delta+\cdots\text{Br}^\delta-$$
+$$
+\text{CN}^\delta-\cdots\text{C}^\delta+\cdots\text{Br}^\delta-
+$$
 
 With $\text{CH}_3$, $\text{H}$ And $\text{CH}_2\text{CH}_3$ in a plane.
 

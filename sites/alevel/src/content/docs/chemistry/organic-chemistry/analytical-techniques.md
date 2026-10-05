@@ -729,9 +729,13 @@ for carbonyl compounds.
 
 For butan-2-one ($\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3$):
 
-$$\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3^{+\bullet} \to \mathrm{CH}_3\mathrm{CO}^+ + \bullet\mathrm{CH}_2\mathrm{CH}_3 \quad (m/z = 43)$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3^{+\bullet} \to \mathrm{CH}_3\mathrm{CO}^+ + \bullet\mathrm{CH}_2\mathrm{CH}_3 \quad (m/z = 43)
+$$
 
-$$\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3^{+\bullet} \to \mathrm{CH}_3\mathrm{COCH}_2\bullet + \mathrm{CH}_3^+ \quad (m/z = 15)$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3^{+\bullet} \to \mathrm{CH}_3\mathrm{COCH}_2\bullet + \mathrm{CH}_3^+ \quad (m/z = 15)
+$$
 
 **McLafferty rearrangement:** Requires a gamma-hydrogen (a hydrogen on the carbon three bonds away
 from the carbonyl). The hydrogen transfers to the carbonyl oxygen while the bond between the alpha-
@@ -739,7 +743,9 @@ and beta-carbons breaks.
 
 For pentanal ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO}$):
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO}^{+\bullet} \to \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{CH}_2=\mathrm{CHOH}^{+\bullet} \quad (m/z = 44)$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO}^{+\bullet} \to \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{CH}_2=\mathrm{CHOH}^{+\bullet} \quad (m/z = 44)
+$$
 
 **Aromatic fragmentation:** The molecular ion of aromatic compounds is very stable (high intensity).
 Characteristic fragments include:
@@ -835,7 +841,9 @@ distinct carbon environments.
 
 **Rf values in TLC:**
 
-$$R_f = \frac{\text{distance travelled by compound}}{\text{distance travelled by solvent front}}$$
+$$
+R_f = \frac{\text{distance travelled by compound}}{\text{distance travelled by solvent front}}
+$$
 
 $R_f$ values are always between 0 and 1. A compound with a higher $R_f$ is less polar (interacts
 less with the polar stationary phase and travels further with the non-polar mobile phase).
@@ -843,11 +851,17 @@ less with the polar stationary phase and travels further with the non-polar mobi
 **Worked Example:** In a TLC experiment, the solvent front travels $12.0\,\mathrm{cm}$. Three
 compounds travel $3.6\,\mathrm{cm}$$7.2\,\mathrm{cm}$ And $10.8\,\mathrm{cm}$ from the origin.
 
-$$R_f(\mathrm{A}) = \frac{3.6}{12.0} = 0.30$$
+$$
+R_f(\mathrm{A}) = \frac{3.6}{12.0} = 0.30
+$$
 
-$$R_f(\mathrm{B}) = \frac{7.2}{12.0} = 0.60$$
+$$
+R_f(\mathrm{B}) = \frac{7.2}{12.0} = 0.60
+$$
 
-$$R_f(\mathrm{C}) = \frac{10.8}{12.0} = 0.90$$
+$$
+R_f(\mathrm{C}) = \frac{10.8}{12.0} = 0.90
+$$
 
 Compound A is the most polar (lowest $R_f$), and compound C is the least polar.
 

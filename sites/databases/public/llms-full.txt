@@ -76,7 +76,9 @@ Maintenance debt that compounds over time.
 
 Each normal form is a strict subset of the one below it:
 
-$$1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF$$
+$$
+1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF
+$$
 
 A relation in BCNF is automatically in 3NF, 2NF, and 1NF. The higher the normal form, the less
 Redundancy, but the more relations you need (and the more JOINs you must perform).
@@ -92,7 +94,9 @@ Discussing any normal form, you must understand FDs thoroughly.
 $Y \subseteq R$A functional dependency $X \rightarrow Y$ holds on $R$ if and only if, for every Pair
 of tuples $t_1$ and $t_2$ in any legal instance of $R$:
 
-$$t_1[X] = t_2[X] \implies t_1[Y] = t_2[Y]$$
+$$
+t_1[X] = t_2[X] \implies t_1[Y] = t_2[Y]
+$$
 
 In plain language: if two tuples agree on all attributes in $X$They must also agree on all
 Attributes in $Y$. $X$ is called the **determinant** and $Y$ is called the **dependent**.
@@ -602,7 +606,9 @@ A join dependency generalizes the concept of lossless-join decomposition to $n$ 
 Relation $R$ satisfies a join dependency $JD(R_1, R_2, \ldots, R_n)$ if and only if $R$ is equal to
 The natural join of its projections on $R_1, R_2, \ldots, R_n$:
 
-$$R = \pi_{R_1}(R) \bowtie \pi_{R_2}(R) \bowtie \ldots \bowtie \pi_{R_n}(R)$$
+$$
+R = \pi_{R_1}(R) \bowtie \pi_{R_2}(R) \bowtie \ldots \bowtie \pi_{R_n}(R)
+$$
 
 5NF violations are extremely rare. They arise in ternary (or higher-arity) relationships where the
 Constraint is inherently multi-way and cannot be decomposed into binary relationships without losing
@@ -842,7 +848,9 @@ Two properties to be valid.
 **Definition.** A decomposition of relation $R$ into $R_1$ and $R_2$ is a lossless-join
 Decomposition if and only if, for every legal instance of $R$:
 
-$$R = R_1 \bowtie R_2$$
+$$
+R = R_1 \bowtie R_2
+$$
 
 That is, joining the decomposed relations produces exactly the original relation, with no spurious
 Tuples and no missing tuples.
@@ -850,9 +858,13 @@ Tuples and no missing tuples.
 **Theorem.** A decomposition of $R$ into $R_1$ and $R_2$ is lossless if and only if at least one of
 The following holds:
 
-$$R_1 \cap R_2 \rightarrow R_1$$
+$$
+R_1 \cap R_2 \rightarrow R_1
+$$
 
-$$R_1 \cap R_2 \rightarrow R_2$$
+$$
+R_1 \cap R_2 \rightarrow R_2
+$$
 
 In words: the common attributes must form a superkey for at least one of the decomposed relations.
 
@@ -898,7 +910,9 @@ Only if, for every functional dependency $X \rightarrow Y$ in the closure of $F$
 Of FDs), $X \cup Y \subseteq R_i$ for some $i$. Equivalently, the union of the restrictions of $F$
 To each $R_i$ is logically equivalent to $F$:
 
-$$(F_{R_1} \cup F_{R_2} \cup \ldots \cup F_{R_n})^+ = F^+$$
+$$
+(F_{R_1} \cup F_{R_2} \cup \ldots \cup F_{R_n})^+ = F^+
+$$
 
 In plain language: every functional dependency from the original relation can be verified by
 Examining a single decomposed relation. You do not need to join the relations back together to check
@@ -1931,7 +1945,9 @@ Natural join, which matches on attributes with the same name.
 
 The inner join can be expressed in terms of selection and Cartesian product:
 
-$$R \bowtie_{\theta} S = \sigma_{\theta}(R \times S)$$
+$$
+R \bowtie_{\theta} S = \sigma_{\theta}(R \times S)
+$$
 
 ### Division
 
@@ -1940,7 +1956,9 @@ Division answers "which X values are associated with ALL Y values?" Denoted $R \
 Given `Takes(student, course)` and `RequiredCourse(course)`Find students who have taken ALL Required
 courses:
 
-$$\pi_{\mathrm{student, \mathrm{course}(\mathrm{Takes) \div \pi_{\mathrm{course}(\mathrm{RequiredCourse)$$
+$$
+\pi_{\mathrm{student, \mathrm{course}(\mathrm{Takes) \div \pi_{\mathrm{course}(\mathrm{RequiredCourse)
+$$
 
 SQL has no direct division operator. You simulate it with a double `NOT EXISTS`:
 
@@ -1999,7 +2017,9 @@ called the determinant.
 
 Formally:
 
-$$X \rightarrow Y \iff \forall t_1, t_2 \in R : t_1[X] = t_2[X] \Rightarrow t_1[Y] = t_2[Y]$$
+$$
+X \rightarrow Y \iff \forall t_1, t_2 \in R : t_1[X] = t_2[X] \Rightarrow t_1[Y] = t_2[Y]
+$$
 
 ### Examples
 
@@ -2423,11 +2443,15 @@ Relational calculus is an alternative to relational algebra for expressing queri
 
 **Tuple relational calculus:** variables range over tuples.
 
-$$\{ t \mid \exists s \in \mathrm{Employee(s[\mathrm{dept] = t[\mathrm{dept] \land s[\mathrm{salary] \gt 100000) \}$$
+$$
+\{ t \mid \exists s \in \mathrm{Employee(s[\mathrm{dept] = t[\mathrm{dept] \land s[\mathrm{salary] \gt 100000) \}
+$$
 
 **Domain relational calculus:** variables range over attribute values (domains).
 
-$$\{ \lt \mathrm{name, \mathrm{salary \gt \mid \exists d, s (\mathrm{Employee(d, \mathrm{name, s) \land s \gt 100000) \}$$
+$$
+\{ \lt \mathrm{name, \mathrm{salary \gt \mid \exists d, s (\mathrm{Employee(d, \mathrm{name, s) \land s \gt 100000) \}
+$$
 
 Codd's theorem (1972) proves that relational algebra and relational calculus are **equivalent** in
 Expressive power: every query expressible in one is expressible in the other. SQL is based on
@@ -2448,7 +2472,9 @@ Names that reflect the domain (e.g., `customer_id` instead of `id`).
 A decomposition of relation $R$ into $R_1$ and $R_2$ is **lossless** if $R_1 \bowtie R_2 = R$ (no
 Information is lost). A decomposition is lossless if and only if:
 
-$$R_1 \cap R_2 \rightarrow R_1 \mathrm{ or  R_1 \cap R_2 \rightarrow R_2$$
+$$
+R_1 \cap R_2 \rightarrow R_1 \mathrm{ or  R_1 \cap R_2 \rightarrow R_2
+$$
 
 That is, the common attributes form a superkey for at least one of the decomposed relations.
 
@@ -2494,7 +2520,9 @@ A join dependency (JD) is a generalisation of a multivalued dependency. A relati
 Join dependency $JD(R_1, R_2, \ldots, R_n)$ if $R$ is equal to the join of its projections on
 $R_1, R_2, \ldots, R_n$:
 
-$$R = R_1 \bowtie R_2 \bowtie \ldots \bowtie R_n$$
+$$
+R = R_1 \bowtie R_2 \bowtie \ldots \bowtie R_n
+$$
 
 5NF states that every non-trivial join dependency must be implied by candidate keys. When this
 Condition is violated, the relation encodes a constraint that is not captured by functional or
@@ -4847,9 +4875,13 @@ B+ Tree (all data in leaves, leaves linked):
 
 For a B+ tree with fan-out $f$ (number of children per internal node) and height $h$:
 
-$$\mathrm{Max entries = f^h$$
+$$
+\mathrm{Max entries = f^h
+$$
 
-$$\mathrm{Height = \lceil \log_f N \rceil$$
+$$
+\mathrm{Height = \lceil \log_f N \rceil
+$$
 
 In practice:
 
@@ -8558,9 +8590,13 @@ Degrades. Any distributed system must tolerate partitions, which means the real 
 The PACELC theorem (Abadi, 2012) extends CAP: when there is **no** partition (the EL part), the
 System must choose between **L**atency and **C**onsistency:
 
-$$\mathrm{PA \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency$$
+$$
+\mathrm{PA \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency
+$$
 
-$$\mathrm{PC \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency$$
+$$
+\mathrm{PC \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency
+$$
 
 This captures a nuance that CAP misses: even during normal operation (no partition), systems make
 Consistency-latency trade-offs. DynamoDB defaults to eventual consistency for low latency but can be
@@ -8852,7 +8888,9 @@ Availability across multiple data centers.
 For reads and writes to be consistent (read-your-writes), the sum of read and write consistency
 Levels must exceed the replication factor:
 
-$$W + R \gt RF$$
+$$
+W + R \gt RF
+$$
 
 For example, with replication factor 3: `QUORUM` writes + `QUORUM` reads ($2 + 2 = 4 \gt 3$)
 Guarantees that the read sees the latest write.
@@ -12616,7 +12654,9 @@ Responsible for a subset of the data.
 
 **Hash-based sharding:**
 
-$$\mathrm{shard = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}$$
+$$
+\mathrm{shard = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}
+$$
 
 - Even data distribution
 - Requires application-level routing or a proxy (e.g., Vitess, Citus)

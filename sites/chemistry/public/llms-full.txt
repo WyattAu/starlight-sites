@@ -30,14 +30,18 @@ import Citations from '@components/Citations.astro'
 
 For the reaction $aA + bB \to cC + dD$, the rate of reaction is:
 
-$$v = -\frac{1}{a}\frac{d[A]}{dt} = -\frac{1}{b}\frac{d[B]}{dt} = \frac{1}{c}\frac{d[C]}{dt} = \frac{1}{d}\frac{d[D]}{dt}$$
+$$
+v = -\frac{1}{a}\frac{d[A]}{dt} = -\frac{1}{b}\frac{d[B]}{dt} = \frac{1}{c}\frac{d[C]}{dt} = \frac{1}{d}\frac{d[D]}{dt}
+$$
 
 ### 1.2 The Rate Law
 
 **Definition 1 (Rate Law):** For many reactions, the rate is proportional to the concentrations of
 reactants raised to powers:
 
-$$v = k[A]^m[B]^n$$
+$$
+v = k[A]^m[B]^n
+$$
 
 where $k$ is the **rate constant**, $m$ is the order with respect to $A$, $n$ is the order with
 respect to $B$, and the overall order is $m + n$. The orders $m$ and $n$ are experimentally
@@ -55,17 +59,25 @@ For an **elementary reaction** (single molecular event), the order equals the mo
 
 ### 2.1 Zeroth-Order Reactions
 
-$$\frac{d[A]}{dt} = -k$$
+$$
+\frac{d[A]}{dt} = -k
+$$
 
-$$[A] = [A]_0 - kt$$
+$$
+[A] = [A]_0 - kt
+$$
 
 **Half-life:** $t_{1/2} = \frac{[A]_0}{2k}$
 
 ### 2.2 First-Order Reactions
 
-$$\frac{d[A]}{dt} = -k[A]$$
+$$
+\frac{d[A]}{dt} = -k[A]
+$$
 
-$$\ln[A] = \ln[A]_0 - kt \quad \text{or} \quad [A] = [A]_0 e^{-kt}$$
+$$
+\ln[A] = \ln[A]_0 - kt \quad \text{or} \quad [A] = [A]_0 e^{-kt}
+$$
 
 **Half-life:** $t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$
 
@@ -74,9 +86,13 @@ The half-life is **independent** of initial concentration.
 **Example 1:** Radioactive decay of ${}^{14}\text{C}$ has $t_{1/2} = 5730$ years. What fraction
 remains after 10000 years?
 
-$$k = \frac{0.693}{5730} = 1.21 \times 10^{-4} \text{ yr}^{-1}$$
+$$
+k = \frac{0.693}{5730} = 1.21 \times 10^{-4} \text{ yr}^{-1}
+$$
 
-$$\frac{[A]}{[A]_0} = e^{-kt} = e^{-1.21 \times 10^{-4} \times 10000} = e^{-1.21} = 0.298$$
+$$
+\frac{[A]}{[A]_0} = e^{-kt} = e^{-1.21 \times 10^{-4} \times 10000} = e^{-1.21} = 0.298
+$$
 
 About 29.8% remains.
 
@@ -86,19 +102,25 @@ $\blacksquare$
 
 Type I: $A + A \to$ products, rate $= k[A]^2$:
 
-$$\frac{1}{[A]} = \frac{1}{[A]_0} + kt$$
+$$
+\frac{1}{[A]} = \frac{1}{[A]_0} + kt
+$$
 
 **Half-life:** $t_{1/2} = \frac{1}{k[A]_0}$
 
 Type II: $A + B \to$ products with $[A]_0 = [B]_0$:
 
-$$\frac{1}{[A]} = \frac{1}{[A]_0} + kt$$
+$$
+\frac{1}{[A]} = \frac{1}{[A]_0} + kt
+$$
 
 ### 2.4 Pseudo-First-Order Reactions
 
 When one reactant is in large excess ($[B]_0 \gg [A]_0$):
 
-$$v = k[A][B] \approx k"[A]$$
+$$
+v = k[A][B] \approx k"[A]
+$$
 
 where $k' = k[B]_0$ is the pseudo-first-order rate constant.
 
@@ -108,7 +130,9 @@ where $k' = k[B]_0$ is the pseudo-first-order rate constant.
 
 Measure initial rates at different initial concentrations:
 
-$$v_0 = k[A]_0^m \implies \log v_0 = \log k + m\log[A]_0$$
+$$
+v_0 = k[A]_0^m \implies \log v_0 = \log k + m\log[A]_0
+$$
 
 A plot of $\log v_0$ vs $\log[A]_0$ has slope $m$.
 
@@ -132,26 +156,36 @@ Assume a reaction order, plot the corresponding linearized form:
 
 **Theorem 1 (Arrhenius Equation):**
 
-$$k = A\,e^{-E_a/RT}$$
+$$
+k = A\,e^{-E_a/RT}
+$$
 
 where $A$ is the pre-exponential (frequency) factor and $E_a$ is the activation energy.
 
 Logarithmic form:
 
-$$\ln k = \ln A - \frac{E_a}{RT}$$
+$$
+\ln k = \ln A - \frac{E_a}{RT}
+$$
 
 A plot of $\ln k$ vs $1/T$ gives a straight line with slope $-E_a/R$.
 
 ### 4.2 Two-Point Form
 
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
 **Example 2:** A reaction has $k_1 = 3.46 \times 10^{-5}$ s$^{-1}$ at 298 K and
 $k_2 = 1.35 \times 10^{-3}$ s$^{-1}$ at 350 K. Find $E_a$.
 
-$$E_a = R\frac{\ln(k_2/k_1)}{1/T_1 - 1/T_2} = 8.314 \times \frac{\ln(1.35 \times 10^{-3}/3.46 \times 10^{-5})}{1/298 - 1/350}$$
+$$
+E_a = R\frac{\ln(k_2/k_1)}{1/T_1 - 1/T_2} = 8.314 \times \frac{\ln(1.35 \times 10^{-3}/3.46 \times 10^{-5})}{1/298 - 1/350}
+$$
 
-$$= 8.314 \times \frac{3.66}{5.0 \times 10^{-4}} = 60.9 \text{ kJ/mol}$$
+$$
+= 8.314 \times \frac{3.66}{5.0 \times 10^{-4}} = 60.9 \text{ kJ/mol}
+$$
 
 $\blacksquare$
 
@@ -159,7 +193,9 @@ $\blacksquare$
 
 For more accurate descriptions over wide temperature ranges:
 
-$$k = A\,T^n\,e^{-E_a/RT}$$
+$$
+k = A\,T^n\,e^{-E_a/RT}
+$$
 
 ## 5. Collision Theory
 
@@ -167,14 +203,18 @@ $$k = A\,T^n\,e^{-E_a/RT}$$
 
 **Theorem 2 (Collision Theory Rate Constant):**
 
-$$k = \sigma\,N_A\,\langle v_r \rangle\,e^{-E_a/RT}$$
+$$
+k = \sigma\,N_A\,\langle v_r \rangle\,e^{-E_a/RT}
+$$
 
 where $\sigma = \pi(d_A + d_B)^2$ is the collision cross-section and $\langle v_r \rangle$ is the
 relative mean speed.
 
 The mean relative speed from kinetic theory:
 
-$$\langle v_r \rangle = \sqrt{\frac{8k_BT}{\pi\mu}}$$
+$$
+\langle v_r \rangle = \sqrt{\frac{8k_BT}{\pi\mu}}
+$$
 
 where $\mu = \frac{m_A m_B}{m_A + m_B}$ is the reduced mass.
 
@@ -183,7 +223,9 @@ where $\mu = \frac{m_A m_B}{m_A + m_B}$ is the reduced mass.
 **Definition 2 (Steric Factor):** Not every collision leads to reaction. The steric factor $P$
 accounts for orientation requirements:
 
-$$k = P\,\sigma\,N_A\,\langle v_r \rangle\,e^{-E_a/RT}$$
+$$
+k = P\,\sigma\,N_A\,\langle v_r \rangle\,e^{-E_a/RT}
+$$
 
 For simple collisions, $P \approx 1$; for complex molecules, $P \ll 1$.
 
@@ -199,7 +241,9 @@ transition state is the activation energy.
 
 **Theorem 3 (Eyring Equation):**
 
-$$k = \frac{k_B T}{h}\,e^{-\Delta^{\ddagger} G^\circ/RT} = \frac{k_B T}{h}\,e^{\Delta^{\ddagger} S^\circ/R}\,e^{-\Delta^{\ddagger} H^\circ/RT}$$
+$$
+k = \frac{k_B T}{h}\,e^{-\Delta^{\ddagger} G^\circ/RT} = \frac{k_B T}{h}\,e^{\Delta^{\ddagger} S^\circ/R}\,e^{-\Delta^{\ddagger} H^\circ/RT}
+$$
 
 where $k_B$ is Boltzmann's constant, $h$ is Planck’s constant, $\Delta^{\ddagger} G^\circ$,
 $\Delta^{\ddagger} H^\circ$, and $\Delta^{\ddagger} S^\circ$ are the standard Gibbs energy,
@@ -209,9 +253,13 @@ enthalpy, and entropy of activation.
 
 At moderate temperatures:
 
-$$E_a = \Delta^{\ddagger} H^\circ + RT$$
+$$
+E_a = \Delta^{\ddagger} H^\circ + RT
+$$
 
-$$A = e\,\frac{k_B T}{h}\,e^{\Delta^{\ddagger} S^\circ/R}$$
+$$
+A = e\,\frac{k_B T}{h}\,e^{\Delta^{\ddagger} S^\circ/R}
+$$
 
 A large positive $\Delta^{\ddagger} S^\circ$ means a loose, disordered transition state (typical for
 unimolecular reactions). A negative $\Delta^{\ddagger} S^\circ$ means a rigid, ordered transition
@@ -244,9 +292,13 @@ Proposed mechanism:
 
 Steady-state for $\text{NO}_3$:
 
-$$\frac{d[\text{NO}_3]}{dt} = k_1[\text{N}_2\text{O}_5] - k_{-1}[\text{NO}_2][\text{NO}_3] - (k_2 + k_3)[\text{NO}_2][\text{NO}_3] = 0$$
+$$
+\frac{d[\text{NO}_3]}{dt} = k_1[\text{N}_2\text{O}_5] - k_{-1}[\text{NO}_2][\text{NO}_3] - (k_2 + k_3)[\text{NO}_2][\text{NO}_3] = 0
+$$
 
-$$[\text{NO}_3] = \frac{k_1[\text{N}_2\text{O}_5]}{(k_{-1} + k_2 + k_3)[\text{NO}_2]}$$
+$$
+[\text{NO}_3] = \frac{k_1[\text{N}_2\text{O}_5]}{(k_{-1} + k_2 + k_3)[\text{NO}_2]}
+$$
 
 The rate of formation of $\text{O}_2$ (from step 3): $v = k_2[\text{NO}_2][\text{NO}_3]$.
 
@@ -259,7 +311,9 @@ $\blacksquare$
 
 When a rapid equilibrium precedes the rate-determining step:
 
-$$K = \frac{k_1}{k_{-1}} = \frac{[\text{intermediate}]}{[\text{reactant}]}$$
+$$
+K = \frac{k_1}{k_{-1}} = \frac{[\text{intermediate}]}{[\text{reactant}]}
+$$
 
 The rate is determined by the slow step with the intermediate concentration expressed through $K$.
 
@@ -274,7 +328,9 @@ The rate is determined by the slow step with the intermediate concentration expr
 
 **Example 4:** $\text{H}_2 + \text{Br}_2 \to 2\text{HBr}$ (Bodenstein mechanism).
 
-$$v = \frac{k[\text{H}_2][\text{Br}_2]^{1/2}}{1 + k'[\text{HBr}/\text{Br}_2]}$$
+$$
+v = \frac{k[\text{H}_2][\text{Br}_2]^{1/2}}{1 + k'[\text{HBr}/\text{Br}_2]}
+$$
 
 The term $[\text{Br}_2]^{1/2}$ arises from the chain initiation/termination steps.
 
@@ -284,7 +340,9 @@ $\blacksquare$
 
 **Definition 6 (Chain Length):** The number of product molecules formed per initiation event:
 
-$$\nu = \frac{\text{rate of propagation}}{\text{rate of initiation}}$$
+$$
+\nu = \frac{\text{rate of propagation}}{\text{rate of initiation}}
+$$
 
 ### 8.3 Explosions
 
@@ -297,13 +355,17 @@ Chain-branching reactions can lead to explosions (e.g., $\text{H}_2 + \text{O}_2
 
 ### 9.1 Michaelis-Menten Mechanism
 
-$$E + S \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} ES \xrightarrow{k_2} E + P$$
+$$
+E + S \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} ES \xrightarrow{k_2} E + P
+$$
 
 ### 9.2 Michaelis-Menten Equation
 
 **Theorem 5 (Michaelis-Menten Equation):** Under steady-state approximation for $[ES]$:
 
-$$v = \frac{V_{\max}[S]}{K_M + [S]}$$
+$$
+v = \frac{V_{\max}[S]}{K_M + [S]}
+$$
 
 where $V_{\max} = k_2[E]_0$ is the maximum velocity and $K_M = (k_{-1} + k_2)/k_1$ is the Michaelis
 constant.
@@ -312,7 +374,9 @@ constant.
 
 Taking reciprocals:
 
-$$\frac{1}{v} = \frac{K_M}{V_{\max}}\frac{1}{[S]} + \frac{1}{V_{\max}}$$
+$$
+\frac{1}{v} = \frac{K_M}{V_{\max}}\frac{1}{[S]} + \frac{1}{V_{\max}}
+$$
 
 A plot of $1/v$ vs $1/[S]$ gives slope $K_M/V_{\max}$ and intercept $1/V_{\max}$.
 
@@ -320,7 +384,9 @@ A plot of $1/v$ vs $1/[S]$ gives slope $K_M/V_{\max}$ and intercept $1/V_{\max}$
 
 **Definition 7 (Catalytic Efficiency):** For $[S] \ll K_M$:
 
-$$\frac{v}{[E][S]} = \frac{k_2}{K_M}$$
+$$
+\frac{v}{[E][S]} = \frac{k_2}{K_M}
+$$
 
 The quantity $k_2/K_M$ is the catalytic efficiency. The diffusion-controlled limit is
 $\sim 10^8$–$10^9$ M$^{-1}$s$^{-1}$.
@@ -336,7 +402,9 @@ $\sim 10^8$–$10^9$ M$^{-1}$s$^{-1}$.
 
 For competitive inhibition:
 
-$$v = \frac{V_{\max}[S]}{K_M(1 + [I]/K_I) + [S]}$$
+$$
+v = \frac{V_{\max}[S]}{K_M(1 + [I]/K_I) + [S]}
+$$
 
 ## 10. Catalysis
 
@@ -357,7 +425,9 @@ For heterogeneous catalysis on a surface:
 
 Rate depends on surface coverage $\theta$, described by the Langmuir isotherm:
 
-$$\theta = \frac{KP}{1 + KP}$$
+$$
+\theta = \frac{KP}{1 + KP}
+$$
 
 ## 11. Complex Reaction Mechanisms
 
@@ -365,25 +435,37 @@ $$\theta = \frac{KP}{1 + KP}$$
 
 $$A \xrightarrow{k_1} B$$ $$A \xrightarrow{k_2} C$$
 
-$$\frac{[B]}{[C]} = \frac{k_1}{k_2}$$
+$$
+\frac{[B]}{[C]} = \frac{k_1}{k_2}
+$$
 
 The ratio of products is constant and determined by the ratio of rate constants.
 
 ### 11.2 Consecutive Reactions
 
-$$A \xrightarrow{k_1} B \xrightarrow{k_2} C$$
+$$
+A \xrightarrow{k_1} B \xrightarrow{k_2} C
+$$
 
-$$[B] = \frac{k_1[A]_0}{k_2 - k_1}\left(e^{-k_1 t} - e^{-k_2 t}\right)$$
+$$
+[B] = \frac{k_1[A]_0}{k_2 - k_1}\left(e^{-k_1 t} - e^{-k_2 t}\right)
+$$
 
 Maximum concentration of $B$ occurs at $t_{\max} = \frac{\ln(k_2/k_1)}{k_2 - k_1}$.
 
 ### 11.3 Reversible Reactions
 
-$$A \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} B$$
+$$
+A \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} B
+$$
 
-$$\frac{[B]_{\text{eq}}}{[A]_{\text{eq}}} = \frac{k_1}{k_{-1}} = K$$
+$$
+\frac{[B]_{\text{eq}}}{[A]_{\text{eq}}} = \frac{k_1}{k_{-1}} = K
+$$
 
-$$[A] = [A]_0\frac{k_{-1} + k_1 e^{-(k_1 + k_{-1})t}}{k_1 + k_{-1}}$$
+$$
+[A] = [A]_0\frac{k_{-1} + k_1 e^{-(k_1 + k_{-1})t}}{k_1 + k_{-1}}
+$$
 
 ## 12. Photochemistry
 
@@ -391,7 +473,9 @@ $$[A] = [A]_0\frac{k_{-1} + k_1 e^{-(k_1 + k_{-1})t}}{k_1 + k_{-1}}$$
 
 **Theorem 6 (Beer-Lambert Law):**
 
-$$A = \varepsilon\,c\,l = \log_{10}\frac{I_0}{I}$$
+$$
+A = \varepsilon\,c\,l = \log_{10}\frac{I_0}{I}
+$$
 
 where $A$ is absorbance, $\varepsilon$ is the molar absorptivity, $c$ is concentration, $l$ is path
 length, $I_0$ is incident intensity, and $I$ is transmitted intensity.
@@ -400,7 +484,9 @@ length, $I_0$ is incident intensity, and $I$ is transmitted intensity.
 
 **Definition 8 (Quantum Yield):**
 
-$$\Phi = \frac{\text{number of reaction events}}{\text{number of photons absorbed}}$$
+$$
+\Phi = \frac{\text{number of reaction events}}{\text{number of photons absorbed}}
+$$
 
 For a chain reaction, $\Phi \gg 1$; for fluorescence, $\Phi \leq 1$.
 
@@ -408,7 +494,9 @@ For a chain reaction, $\Phi \gg 1$; for fluorescence, $\Phi \leq 1$.
 
 For fluorescence quenching:
 
-$$\frac{I_0}{I} = 1 + k_q\,\tau_0\,[Q] = 1 + K_{SV}[Q]$$
+$$
+\frac{I_0}{I} = 1 + k_q\,\tau_0\,[Q] = 1 + K_{SV}[Q]
+$$
 
 where $[Q]$ is the quencher concentration, $\tau_0$ is the fluorescence lifetime without quencher,
 and $K_{SV}$ is the Stern-Volmer constant.
@@ -421,11 +509,15 @@ For a reaction perturbed from equilibrium by a rapid temperature jump ($T$-jump)
 
 **Theorem 7 (Relaxation Time):** For a single-step reaction $A \rightleftharpoons B$:
 
-$$\frac{1}{\tau} = k_1 + k_{-1}$$
+$$
+\frac{1}{\tau} = k_1 + k_{-1}
+$$
 
 For $A + B \rightleftharpoons C + D$:
 
-$$\frac{1}{\tau} = k_1([A]_{\text{eq}} + [B]_{\text{eq}}) + k_{-1}([C]_{\text{eq}} + [D]_{\text{eq}})$$
+$$
+\frac{1}{\tau} = k_1([A]_{\text{eq}} + [B]_{\text{eq}}) + k_{-1}([C]_{\text{eq}} + [D]_{\text{eq}})
+$$
 
 ### 13.2 Flash Photolysis
 
@@ -592,7 +684,9 @@ Thermodynamics describes the energy changes and spontaneity of reactions through
 
 Consider a reaction with $\Delta H = -92.2 \text{ kJ mol}^{-1}$ and $\Delta S = -198.7 \text{ J K}^{-1} \text{mol}^{-1}$ at $T = 298 \text{ K}$. Converting entropy to kJ: $\Delta S = -0.1987 \text{ kJ K}^{-1} \text{mol}^{-1}$. Applying the equation:
 
-$$\Delta G = -92.2 - (298)(-0.1987) = -92.2 + 59.2 = -33.0 \text{ kJ mol}^{-1}$$
+$$
+\Delta G = -92.2 - (298)(-0.1987) = -92.2 + 59.2 = -33.0 \text{ kJ mol}^{-1}
+$$
 
 Since $\Delta G < 0$, the reaction is spontaneous under these conditions.
 
@@ -710,11 +804,15 @@ The differences are approximately constant: $\Delta \ln[A] \approx -0.123$ per 1
 
 **Step 2:** Calculate $k$
 
-$$k = -\frac{\Delta \ln[A]}{\Delta t} = \frac{0.123}{120} = 1.02 \times 10^{-3} \text{ s}^{-1}$$
+$$
+k = -\frac{\Delta \ln[A]}{\Delta t} = \frac{0.123}{120} = 1.02 \times 10^{-3} \text{ s}^{-1}
+$$
 
 **Step 3:** Verify with half-life
 
-$$t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{1.02 \times 10^{-3}} = 679 \text{ s} \approx 11.3 \text{ min}$$
+$$
+t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{1.02 \times 10^{-3}} = 679 \text{ s} \approx 11.3 \text{ min}
+$$
 
 From the data, $[\text{N}_2\text{O}_5]$ drops from 1.00 to 0.50 in approximately 680 s. ✓
 
@@ -730,19 +828,27 @@ From the data, $[\text{N}_2\text{O}_5]$ drops from 1.00 to 0.50 in approximately
 
 Using the Michaelis-Menten equation:
 
-$$v = \frac\{V_\{\max\}[S]\}\{K_M + [S]\}$$
+$$
+v = \frac\{V_\{\max\}[S]\}\{K_M + [S]\}
+$$
 
 **At $[S] = 2.5$ mM:**
 
-$$v = \frac\{100 \times 2.5\}\{5.0 + 2.5\} = \frac\{250\}\{7.5\} = 33.3 \text\{ μmol/min\}$$
+$$
+v = \frac\{100 \times 2.5\}\{5.0 + 2.5\} = \frac\{250\}\{7.5\} = 33.3 \text\{ μmol/min\}
+$$
 
 **At $[S] = 5.0$ mM (= $K_M$):**
 
-$$v = \frac\{100 \times 5.0\}\{5.0 + 5.0\} = \frac\{500\}\{10\} = 50.0 \text\{ μmol/min\} = \frac\{V_\{\max\}\}\{2\}$$
+$$
+v = \frac\{100 \times 5.0\}\{5.0 + 5.0\} = \frac\{500\}\{10\} = 50.0 \text\{ μmol/min\} = \frac\{V_\{\max\}\}\{2\}
+$$
 
 **At $[S] = 25$ mM (5 × $K_M$):**
 
-$$v = \frac\{100 \times 25\}\{5.0 + 25\} = \frac\{2500\}\{30\} = 83.3 \text\{ μmol/min\}$$
+$$
+v = \frac\{100 \times 25\}\{5.0 + 25\} = \frac\{2500\}\{30\} = 83.3 \text\{ μmol/min\}
+$$
 
 **Key insight:** When $[S] = K_M$, the velocity is exactly half of $V_\{\max\}$. At $[S] \gg K_M$, the enzyme approaches saturation ($v \approx V_\{\max\}$). At $[S] \ll K_M$, the reaction is first-order in substrate ($v \approx V_\{\max\}[S]/K_M$).
 
@@ -756,15 +862,25 @@ $$v = \frac\{100 \times 25\}\{5.0 + 25\} = \frac\{2500\}\{30\} = 83.3 \text\{ μ
 
 Using the two-point Arrhenius equation:
 
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
-$$\ln\frac{1.5 \times 10^{-3}}{3.2 \times 10^{-4}} = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)$$
+$$
+\ln\frac{1.5 \times 10^{-3}}{3.2 \times 10^{-4}} = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)
+$$
 
-$$\ln(4.688) = \frac{E_a}{8.314}(0.003333 - 0.003125)$$
+$$
+\ln(4.688) = \frac{E_a}{8.314}(0.003333 - 0.003125)
+$$
 
-$$1.545 = \frac{E_a}{8.314}(0.000208)$$
+$$
+1.545 = \frac{E_a}{8.314}(0.000208)
+$$
 
-$$E_a = \frac{1.545 \times 8.314}{0.000208} = 61,800 \text{ J/mol} = 61.8 \text{ kJ/mol}$$
+$$
+E_a = \frac{1.545 \times 8.314}{0.000208} = 61,800 \text{ J/mol} = 61.8 \text{ kJ/mol}
+$$
 
 **Key insight:** A 20 K temperature increase caused the rate to increase by a factor of ~4.7. This is consistent with the rule of thumb that rates roughly double for every 10 K increase near room temperature for activation energies around 50-60 kJ/mol.
 
@@ -1017,9 +1133,13 @@ For first-order kinetics: $[A] = [A]_0 e^{-kt}$
 
 Rearranging for time:
 
-$$t = -\frac{1}{k} \ln\frac{[A]}{[A]_0} = -\frac{1}{2.5 \times 10^{-4}} \ln\frac{90}{100}$$
+$$
+t = -\frac{1}{k} \ln\frac{[A]}{[A]_0} = -\frac{1}{2.5 \times 10^{-4}} \ln\frac{90}{100}
+$$
 
-$$t = -4000 \times \ln(0.90) = -4000 \times (-0.1054) = 421 \text{ min} \approx 7.0 \text{ hours}$$
+$$
+t = -4000 \times \ln(0.90) = -4000 \times (-0.1054) = 421 \text{ min} \approx 7.0 \text{ hours}
+$$
 
 **Half-life check:** $t_{1/2} = \ln 2 / k = 0.693 / 2.5 \times 10^{-4} = 2772$ min $\approx 46$ hours. Since we're only losing 10% (not 50%), the time should be much less than the half-life. ✓
 
@@ -1037,17 +1157,27 @@ With 11 double bonds, there are 22 $\pi$ electrons. Each energy level holds 2 el
 
 Energy levels: $E_n = \frac{n^2 h^2}{8mL^2}$
 
-$$\Delta E = E_{12} - E_{11} = \frac{h^2}{8mL^2}(12^2 - 11^2) = \frac{h^2}{8mL^2}(23)$$
+$$
+\Delta E = E_{12} - E_{11} = \frac{h^2}{8mL^2}(12^2 - 11^2) = \frac{h^2}{8mL^2}(23)
+$$
 
-$$\Delta E = \frac{(6.626 \times 10^{-34})^2 \times 23}{8 \times (9.109 \times 10^{-31}) \times (1.80 \times 10^{-9})^2}$$
+$$
+\Delta E = \frac{(6.626 \times 10^{-34})^2 \times 23}{8 \times (9.109 \times 10^{-31}) \times (1.80 \times 10^{-9})^2}
+$$
 
-$$\Delta E = \frac{4.39 \times 10^{-66} \times 23}{8 \times 9.109 \times 10^{-31} \times 3.24 \times 10^{-18}}$$
+$$
+\Delta E = \frac{4.39 \times 10^{-66} \times 23}{8 \times 9.109 \times 10^{-31} \times 3.24 \times 10^{-18}}
+$$
 
-$$\Delta E = \frac{1.01 \times 10^{-64}}{2.36 \times 10^{-47}} = 4.28 \times 10^{-18} \text{ J}$$
+$$
+\Delta E = \frac{1.01 \times 10^{-64}}{2.36 \times 10^{-47}} = 4.28 \times 10^{-18} \text{ J}
+$$
 
 Converting to wavelength:
 
-$$\lambda = \frac{hc}{\Delta E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{4.28 \times 10^{-18}} = 4.64 \times 10^{-8} \text{ m} = 464 \text{ nm}$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{4.28 \times 10^{-18}} = 4.64 \times 10^{-8} \text{ m} = 464 \text{ nm}
+$$
 
 **Comparison:** Experimental $\lambda_{\max} = 452$ nm. The particle-in-a-box model gives a reasonable estimate (within 3%) for this highly conjugated system.
 
@@ -1063,15 +1193,21 @@ For a linear rotor, the energy of level $J$ is $E_J = BJ(J+1)$ where $B = k_B \T
 
 The degeneracy of level $J$ is $g_J = 2J + 1$.
 
-$$\frac{n_1}{n_0} = \frac{g_1 e^{-E_1/k_BT}}{g_0 e^{-E_0/k_BT}} = \frac{3 \times e^{-2\Theta_{\text{rot}}/T}}{1 \times e^{0}} = 3e^{-2\Theta_{\text{rot}}/T}$$
+$$
+\frac{n_1}{n_0} = \frac{g_1 e^{-E_1/k_BT}}{g_0 e^{-E_0/k_BT}} = \frac{3 \times e^{-2\Theta_{\text{rot}}/T}}{1 \times e^{0}} = 3e^{-2\Theta_{\text{rot}}/T}
+$$
 
 **At 300 K:**
 
-$$\frac{n_1}{n_0} = 3e^{-2(15.2)/300} = 3e^{-0.1013} = 3 \times 0.9037 = 2.71$$
+$$
+\frac{n_1}{n_0} = 3e^{-2(15.2)/300} = 3e^{-0.1013} = 3 \times 0.9037 = 2.71
+$$
 
 **At 1000 K:**
 
-$$\frac{n_1}{n_0} = 3e^{-2(15.2)/1000} = 3e^{-0.0304} = 3 \times 0.9701 = 2.91$$
+$$
+\frac{n_1}{n_0} = 3e^{-2(15.2)/1000} = 3e^{-0.0304} = 3 \times 0.9701 = 2.91
+$$
 
 **Key insight:** At room temperature, the $J = 1$ state is already more populated than $J = 0$ (ratio 2.71) due to the 3-fold degeneracy advantage. At higher temperatures, the ratio approaches the degeneracy ratio (3:1) as the exponential factor approaches 1.
 
@@ -1296,15 +1432,23 @@ $L = 3 \times 1.34 + 2 \times 0.5 = 5.02$ Å = $5.02 \times 10^{-10}$ m
 
 **Step 3:** Calculate energy gap
 
-$$\Delta E = \frac{h^2}{8mL^2}(3^2 - 2^2) = \frac{h^2}{8mL^2}(5)$$
+$$
+\Delta E = \frac{h^2}{8mL^2}(3^2 - 2^2) = \frac{h^2}{8mL^2}(5)
+$$
 
-$$\Delta E = \frac{(6.626 \times 10^{-34})^2 \times 5}{8 \times (9.109 \times 10^{-31}) \times (5.02 \times 10^{-10})^2}$$
+$$
+\Delta E = \frac{(6.626 \times 10^{-34})^2 \times 5}{8 \times (9.109 \times 10^{-31}) \times (5.02 \times 10^{-10})^2}
+$$
 
-$$\Delta E = \frac{2.195 \times 10^{-66}}{1.838 \times 10^{-48}} = 1.194 \times 10^{-18} \text{ J}$$
+$$
+\Delta E = \frac{2.195 \times 10^{-66}}{1.838 \times 10^{-48}} = 1.194 \times 10^{-18} \text{ J}
+$$
 
 **Step 4:** Convert to wavelength
 
-$$\lambda = \frac{hc}{\Delta E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.194 \times 10^{-18}} = 1.664 \times 10^{-7} \text{ m} = 166 \text{ nm}$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.194 \times 10^{-18}} = 1.664 \times 10^{-7} \text{ m} = 166 \text{ nm}
+$$
 
 **Comparison:** Experimental $\lambda_{\max} = 217$ nm. The particle-in-a-box model underestimates the wavelength because it assumes constant potential (no electron-nuclear attraction).
 
@@ -1316,11 +1460,15 @@ $$\lambda = \frac{hc}{\Delta E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8
 
 **Solution:**
 
-$$\Delta E = E_4 - E_2 = -13.6\left(\frac{1}{16} - \frac{1}{4}\right) = -13.6 \times (-0.1875) = +2.55 \text{ eV}$$
+$$
+\Delta E = E_4 - E_2 = -13.6\left(\frac{1}{16} - \frac{1}{4}\right) = -13.6 \times (-0.1875) = +2.55 \text{ eV}
+$$
 
 Converting to wavelength:
 
-$$\lambda = \frac{hc}{\Delta E} = \frac{1240 \text{ eV·nm}}{2.55 \text{ eV}} = 486 \text{ nm}$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{1240 \text{ eV·nm}}{2.55 \text{ eV}} = 486 \text{ nm}
+$$
 
 This is the **H$\beta$ line** in the visible Balmer series (blue-green light).
 
@@ -1343,21 +1491,33 @@ This is the **H$\beta$ line** in the visible Balmer series (blue-green light).
 
 **Step 1:** Calculate the force constant
 
-$$k = 4\pi^2 c^2 \tilde{\nu}^2 \mu$$
+$$
+k = 4\pi^2 c^2 \tilde{\nu}^2 \mu
+$$
 
 Reduced mass of HCl:
 
-$$\mu = \frac{m_H \cdot m_{Cl}}{m_H + m_{Cl}} = \frac{1.008 \times 35.45}{1.008 + 35.45} \times \frac{1}{N_A} = 1.628 \times 10^{-27} \text{ kg}$$
+$$
+\mu = \frac{m_H \cdot m_{Cl}}{m_H + m_{Cl}} = \frac{1.008 \times 35.45}{1.008 + 35.45} \times \frac{1}{N_A} = 1.628 \times 10^{-27} \text{ kg}
+$$
 
-$$k = 4\pi^2 (3.00 \times 10^{10} \text{ cm/s})^2 (2990 \text{ cm}^{-1})^2 (1.628 \times 10^{-27} \text{ kg})$$
+$$
+k = 4\pi^2 (3.00 \times 10^{10} \text{ cm/s})^2 (2990 \text{ cm}^{-1})^2 (1.628 \times 10^{-27} \text{ kg})
+$$
 
-$$k = 516 \text{ N/m}$$
+$$
+k = 516 \text{ N/m}
+$$
 
 **Step 2:** Calculate zero-point energy
 
-$$E_0 = \frac{1}{2}h c \tilde{\nu} = \frac{1}{2}(6.626 \times 10^{-34})(3.00 \times 10^{10})(2990)$$
+$$
+E_0 = \frac{1}{2}h c \tilde{\nu} = \frac{1}{2}(6.626 \times 10^{-34})(3.00 \times 10^{10})(2990)
+$$
 
-$$E_0 = 2.97 \times 10^{-20} \text{ J} = 0.186 \text{ eV}$$
+$$
+E_0 = 2.97 \times 10^{-20} \text{ J} = 0.186 \text{ eV}
+$$
 
 **Key insight:** The zero-point energy means HCl continues to vibrate even at absolute zero. This is a direct consequence of the uncertainty principle, confining the oscillator to its equilibrium position would violate $\Delta x \cdot \Delta p \geq \hbar/2$.
 
@@ -1704,25 +1864,35 @@ URL: https://chemistry.wyattau.com/1-physical-chemistry/quantum-chemistry/
 
 3. **Measurement:** Measuring an observable $\hat{A}$ yields an eigenvalue $a_n$ of $\hat{A}$:
 
-   $$\hat{A}\psi_n = a_n\psi_n$$
+   $$
+   \hat{A}\psi_n = a_n\psi_n
+   $$
 
    The probability of measuring $a_n$ is $|c_n|^2$ where $\Psi = \sum_n c_n\psi_n$.
 
 4. **Expectation Value:** For a state $\Psi$:
 
-   $$\langle A \rangle = \frac{\int \Psi^*\hat{A}\Psi\,d\tau}{\int \Psi^*\Psi\,d\tau}$$
+   $$
+   \langle A \rangle = \frac{\int \Psi^*\hat{A}\Psi\,d\tau}{\int \Psi^*\Psi\,d\tau}
+   $$
 
 5. **Time Evolution:** $\Psi$ evolves according to the time-dependent Schrödinger equation:
 
-   $$i\hbar\frac{\partial \Psi}{\partial t} = \hat{H}\Psi$$
+   $$
+   i\hbar\frac{\partial \Psi}{\partial t} = \hat{H}\Psi
+   $$
 
 ### 1.2 The Time-Independent Schrödinger Equation
 
 For a system with time-independent Hamiltonian:
 
-$$\hat{H}\psi = E\psi$$
+$$
+\hat{H}\psi = E\psi
+$$
 
-$$\left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right]\psi = E\psi$$
+$$
+\left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right]\psi = E\psi
+$$
 
 ## 2. Particle in a Box
 
@@ -1730,11 +1900,15 @@ $$\left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right]\psi = E\psi$$
 
 A particle of mass $m$ confined to $0 \leq x \leq L$ with $V = 0$ inside and $V = \infty$ outside:
 
-$$\hat{H}\psi = -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi$$
+$$
+\hat{H}\psi = -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
+$$
 
 **Theorem 1 (Particle in a 1D Box):**
 
-$$\psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \frac{n^2h^2}{8mL^2}$$
+$$
+\psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \frac{n^2h^2}{8mL^2}
+$$
 
 where $n = 1, 2, 3, \ldots$
 
@@ -1746,9 +1920,13 @@ Key features:
 
 ### 2.2 Three-Dimensional Box
 
-$$\psi_{n_x,n_y,n_z}(x,y,z) = \left(\frac{2}{L}\right)^{3/2}\sin\frac{n_x\pi x}{L}\sin\frac{n_y\pi y}{L}\sin\frac{n_z\pi z}{L}$$
+$$
+\psi_{n_x,n_y,n_z}(x,y,z) = \left(\frac{2}{L}\right)^{3/2}\sin\frac{n_x\pi x}{L}\sin\frac{n_y\pi y}{L}\sin\frac{n_z\pi z}{L}
+$$
 
-$$E_{n_x,n_y,n_z} = \frac{h^2}{8mL^2}(n_x^2 + n_y^2 + n_z^2)$$
+$$
+E_{n_x,n_y,n_z} = \frac{h^2}{8mL^2}(n_x^2 + n_y^2 + n_z^2)
+$$
 
 **Definition 1 (Degeneracy):** Different sets of quantum numbers that give the same energy are
 degenerate. For a cubic box, $(1,2,2)$, $(2,1,2)$, and $(2,2,1)$ are triply degenerate.
@@ -1757,14 +1935,20 @@ degenerate. For a cubic box, $(1,2,2)$, $(2,1,2)$, and $(2,2,1)$ are triply dege
 
 The probability of finding the particle between $x = a$ and $x = b$:
 
-$$P(a \leq x \leq b) = \int_a^b |\psi_n(x)|^2\,dx = \frac{2}{L}\int_a^b \sin^2\frac{n\pi x}{L}\,dx$$
+$$
+P(a \leq x \leq b) = \int_a^b |\psi_n(x)|^2\,dx = \frac{2}{L}\int_a^b \sin^2\frac{n\pi x}{L}\,dx
+$$
 
 **Example 1:** For a particle in a 1D box of length $L = 1$ nm, find the probability of finding it
 in the middle third for $n = 1$.
 
-$$P\left(\frac{L}{3} \leq x \leq \frac{2L}{3}\right) = \int_{L/3}^{2L/3} \frac{2}{L}\sin^2\frac{\pi x}{L}\,dx$$
+$$
+P\left(\frac{L}{3} \leq x \leq \frac{2L}{3}\right) = \int_{L/3}^{2L/3} \frac{2}{L}\sin^2\frac{\pi x}{L}\,dx
+$$
 
-$$= \frac{1}{3} - \frac{\sin(4\pi/3) - \sin(2\pi/3)}{2\pi} = \frac{1}{3} - \frac{-\sqrt{3}/2 - \sqrt{3}/2}{2\pi} = \frac{1}{3} + \frac{\sqrt{3}}{2\pi} \approx 0.61$$
+$$
+= \frac{1}{3} - \frac{\sin(4\pi/3) - \sin(2\pi/3)}{2\pi} = \frac{1}{3} - \frac{-\sqrt{3}/2 - \sqrt{3}/2}{2\pi} = \frac{1}{3} + \frac{\sqrt{3}}{2\pi} \approx 0.61
+$$
 
 $\blacksquare$
 
@@ -1788,9 +1972,13 @@ If $[\hat{A}, \hat{B}] = 0$, the observables can be simultaneously measured with
 
 **Theorem 2 (Heisenberg Uncertainty Principle):**
 
-$$\Delta A \cdot \Delta B \geq \frac{1}{2}|\langle[\hat{A}, \hat{B}]\rangle|$$
+$$
+\Delta A \cdot \Delta B \geq \frac{1}{2}|\langle[\hat{A}, \hat{B}]\rangle|
+$$
 
-$$\Delta x \cdot \Delta p_x \geq \frac{\hbar}{2}$$
+$$
+\Delta x \cdot \Delta p_x \geq \frac{\hbar}{2}
+$$
 
 ## 4. The Hydrogen Atom
 
@@ -1798,11 +1986,15 @@ $$\Delta x \cdot \Delta p_x \geq \frac{\hbar}{2}$$
 
 For the hydrogen atom (reduced mass $\mu = m_e m_p/(m_e + m_p) \approx m_e$):
 
-$$\left[-\frac{\hbar^2}{2\mu}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}\right]\psi = E\psi$$
+$$
+\left[-\frac{\hbar^2}{2\mu}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}\right]\psi = E\psi
+$$
 
 In spherical coordinates $(r, \theta, \phi)$:
 
-$$\psi_{n,\ell,m_\ell}(r,\theta,\phi) = R_{n,\ell}(r)\,Y_\ell^{m_\ell}(\theta,\phi)$$
+$$
+\psi_{n,\ell,m_\ell}(r,\theta,\phi) = R_{n,\ell}(r)\,Y_\ell^{m_\ell}(\theta,\phi)
+$$
 
 ### 4.2 Quantum Numbers
 
@@ -1817,7 +2009,9 @@ $$\psi_{n,\ell,m_\ell}(r,\theta,\phi) = R_{n,\ell}(r)\,Y_\ell^{m_\ell}(\theta,\p
 
 **Theorem 3 (Hydrogen Atom Energy):**
 
-$$E_n = -\frac{\mu e^4}{32\pi^2\varepsilon_0^2\hbar^2}\frac{1}{n^2} = -\frac{13.6 \text{ eV}}{n^2} = -\frac{R_H}{n^2}$$
+$$
+E_n = -\frac{\mu e^4}{32\pi^2\varepsilon_0^2\hbar^2}\frac{1}{n^2} = -\frac{13.6 \text{ eV}}{n^2} = -\frac{R_H}{n^2}
+$$
 
 The Rydberg constant $R_H = 2.179 \times 10^{-18}$ J $= 13.6$ eV.
 
@@ -1827,11 +2021,17 @@ Energy depends only on $n$; all states with the same $n$ are degenerate (for hyd
 
 The first few radial wavefunctions:
 
-$$R_{1,0}(r) = 2\left(\frac{1}{a_0}\right)^{3/2}e^{-r/a_0}$$
+$$
+R_{1,0}(r) = 2\left(\frac{1}{a_0}\right)^{3/2}e^{-r/a_0}
+$$
 
-$$R_{2,0}(r) = \frac{1}{2\sqrt{2}}\left(\frac{1}{a_0}\right)^{3/2}\left(2 - \frac{r}{a_0}\right)e^{-r/(2a_0)}$$
+$$
+R_{2,0}(r) = \frac{1}{2\sqrt{2}}\left(\frac{1}{a_0}\right)^{3/2}\left(2 - \frac{r}{a_0}\right)e^{-r/(2a_0)}
+$$
 
-$$R_{2,1}(r) = \frac{1}{2\sqrt{6}}\left(\frac{1}{a_0}\right)^{3/2}\frac{r}{a_0}e^{-r/(2a_0)}$$
+$$
+R_{2,1}(r) = \frac{1}{2\sqrt{6}}\left(\frac{1}{a_0}\right)^{3/2}\frac{r}{a_0}e^{-r/(2a_0)}
+$$
 
 where $a_0 = 5.292 \times 10^{-11}$ m is the Bohr radius.
 
@@ -1840,9 +2040,13 @@ where $a_0 = 5.292 \times 10^{-11}$ m is the Bohr radius.
 **Theorem 4 (Spherical Harmonics):** The angular part $Y_\ell^{m_\ell}(\theta, \phi)$ are solutions
 to:
 
-$$\hat{L}^2\,Y_\ell^{m_\ell} = \ell(\ell+1)\hbar^2\,Y_\ell^{m_\ell}$$
+$$
+\hat{L}^2\,Y_\ell^{m_\ell} = \ell(\ell+1)\hbar^2\,Y_\ell^{m_\ell}
+$$
 
-$$\hat{L}_z\,Y_\ell^{m_\ell} = m_\ell\hbar\,Y_\ell^{m_\ell}$$
+$$
+\hat{L}_z\,Y_\ell^{m_\ell} = m_\ell\hbar\,Y_\ell^{m_\ell}
+$$
 
 ### 4.6 Orbital Shapes
 
@@ -1861,9 +2065,13 @@ Total nodes $= n - 1$ = radial nodes + angular nodes.
 
 **Theorem 5 (Angular Momentum Magnitude):**
 
-$$|\mathbf{L}| = \sqrt{\ell(\ell+1)}\,\hbar$$
+$$
+|\mathbf{L}| = \sqrt{\ell(\ell+1)}\,\hbar
+$$
 
-$$L_z = m_\ell\hbar, \quad m_\ell = -\ell, -\ell+1, \ldots, \ell$$
+$$
+L_z = m_\ell\hbar, \quad m_\ell = -\ell, -\ell+1, \ldots, \ell
+$$
 
 The angular momentum vector can never be fully aligned with the $z$-axis (space quantization).
 
@@ -1871,15 +2079,21 @@ The angular momentum vector can never be fully aligned with the $z$-axis (space 
 
 Electrons have intrinsic angular momentum (spin) with $s = 1/2$:
 
-$$|S| = \sqrt{s(s+1)}\,\hbar = \frac{\sqrt{3}}{2}\hbar$$
+$$
+|S| = \sqrt{s(s+1)}\,\hbar = \frac{\sqrt{3}}{2}\hbar
+$$
 
-$$S_z = m_s\hbar, \quad m_s = \pm\frac{1}{2}$$
+$$
+S_z = m_s\hbar, \quad m_s = \pm\frac{1}{2}
+$$
 
 ### 5.3 Spin-Orbit Coupling
 
 **Theorem 6 (Spin-Orbit Coupling):** The total angular momentum $\mathbf{J} = \mathbf{L} + \mathbf{S}$:
 
-$$|\mathbf{J}| = \sqrt{j(j+1)}\,\hbar, \quad j = |\ell - s|, \ldots, \ell + s$$
+$$
+|\mathbf{J}| = \sqrt{j(j+1)}\,\hbar, \quad j = |\ell - s|, \ldots, \ell + s
+$$
 
 For an electron with $\ell = 1$, $s = 1/2$: $j = 1/2$ or $3/2$.
 
@@ -1921,7 +2135,9 @@ $\blacksquare$
 
 For helium-like atoms, the Hamiltonian includes electron-electron repulsion:
 
-$$\hat{H} = -\frac{\hbar^2}{2m_e}\nabla_1^2 - \frac{\hbar^2}{2m_e}\nabla_2^2 - \frac{Ze^2}{4\pi\varepsilon_0 r_1} - \frac{Ze^2}{4\pi\varepsilon_0 r_2} + \frac{e^2}{4\pi\varepsilon_0 r_{12}}$$
+$$
+\hat{H} = -\frac{\hbar^2}{2m_e}\nabla_1^2 - \frac{\hbar^2}{2m_e}\nabla_2^2 - \frac{Ze^2}{4\pi\varepsilon_0 r_1} - \frac{Ze^2}{4\pi\varepsilon_0 r_2} + \frac{e^2}{4\pi\varepsilon_0 r_{12}}
+$$
 
 The $1/r_{12}$ term makes exact solutions impossible for $N > 1$.
 
@@ -1929,7 +2145,9 @@ The $1/r_{12}$ term makes exact solutions impossible for $N > 1$.
 
 **Definition 5 (Slater Determinant):** The antisymmetric wavefunction for $N$ electrons:
 
-$$\Psi(1,2,\ldots,N) = \frac{1}{\sqrt{N!}}\begin{vmatrix} \chi_1(1) & \chi_2(1) & \cdots & \chi_N(1) \\ \chi_1(2) & \chi_2(2) & \cdots & \chi_N(2) \\ \vdots & \vdots & \ddots & \vdots \\ \chi_1(N) & \chi_2(N) & \cdots & \chi_N(N) \end{vmatrix}$$
+$$
+\Psi(1,2,\ldots,N) = \frac{1}{\sqrt{N!}}\begin{vmatrix} \chi_1(1) & \chi_2(1) & \cdots & \chi_N(1) \\ \chi_1(2) & \chi_2(2) & \cdots & \chi_N(2) \\ \vdots & \vdots & \ddots & \vdots \\ \chi_1(N) & \chi_2(N) & \cdots & \chi_N(N) \end{vmatrix}
+$$
 
 where $\chi_i$ is a spin-orbital. The determinant ensures antisymmetry under particle exchange,
 automatically satisfying the Pauli principle.
@@ -1939,12 +2157,16 @@ automatically satisfying the Pauli principle.
 **Theorem 8 (Hartree-Fock Equations):** The Hartree-Fock method approximates each electron as moving
 in the average field of the others:
 
-$$\hat{F}\,\phi_i = \varepsilon_i\,\phi_i$$
+$$
+\hat{F}\,\phi_i = \varepsilon_i\,\phi_i
+$$
 
 where $\hat{F}$ is the Fock operator and $\varepsilon_i$ are orbital energies. Koopmans' theorem
 relates orbital energies to ionization potentials:
 
-$$\text{IP} \approx -\varepsilon_i$$
+$$
+\text{IP} \approx -\varepsilon_i
+$$
 
 ## 8. The Born-Oppenheimer Approximation
 
@@ -1953,7 +2175,9 @@ $$\text{IP} \approx -\varepsilon_i$$
 **Theorem 9 (Born-Oppenheimer Approximation):** Since nuclei are much heavier than electrons
 ($m_p/m_e \approx 1836$), the electronic and nuclear motions can be separated:
 
-$$\Psi_{\text{total}} = \psi_{\text{elec}}(\mathbf{r}; \mathbf{R})\,\psi_{\text{nuc}}(\mathbf{R})$$
+$$
+\Psi_{\text{total}} = \psi_{\text{elec}}(\mathbf{r}; \mathbf{R})\,\psi_{\text{nuc}}(\mathbf{R})
+$$
 
 The electronic Schrödinger equation is solved for fixed nuclear positions, giving the **potential
 energy surface (PES)**.
@@ -1972,7 +2196,9 @@ The PES defines:
 
 **Definition 6 (LCAO-MO):** Molecular orbitals are formed as linear combinations of atomic orbitals:
 
-$$\psi_i = \sum_\mu c_{\mu i}\,\phi_\mu$$
+$$
+\psi_i = \sum_\mu c_{\mu i}\,\phi_\mu
+$$
 
 ### 9.2 The HOMO-LUMO Gap
 
@@ -1995,7 +2221,9 @@ For $\text{Li}_2$ through $\text{N}_2$ (lighter): $\sigma_{2s} < \sigma_{2s}^* <
 
 **Bond order:**
 
-$$\text{BO} = \frac{1}{2}(n_b - n_a)$$
+$$
+\text{BO} = \frac{1}{2}(n_b - n_a)
+$$
 
 where $n_b$ is the number of bonding electrons and $n_a$ is the number of antibonding electrons.
 
@@ -2033,11 +2261,15 @@ Huckel theory makes three approximations for $\pi$-electron systems:
 
 For ethylene (2 $\pi$ centers):
 
-$$\begin{vmatrix} \alpha - E & \beta \\ \beta & \alpha - E \end{vmatrix} = 0$$
+$$
+\begin{vmatrix} \alpha - E & \beta \\ \beta & \alpha - E \end{vmatrix} = 0
+$$
 
 Setting $x = (\alpha - E)/\beta$:
 
-$$x^2 - 1 = 0 \implies x = \pm 1 \implies E = \alpha \pm \beta$$
+$$
+x^2 - 1 = 0 \implies x = \pm 1 \implies E = \alpha \pm \beta
+$$
 
 The bonding orbital has $E = \alpha + \beta$ and the antibonding orbital has $E = \alpha - \beta$.
 
@@ -2055,7 +2287,9 @@ Benzene ($n = 1$, 6 $\pi$ electrons) satisfies this rule.
 
 **Definition 10 (Delocalization Energy):** The energy lowering due to electron delocalization:
 
-$$E_{\text{deloc}} = E_\pi(\text{delocalized}) - E_\pi(\text{localized})$$
+$$
+E_{\text{deloc}} = E_\pi(\text{delocalized}) - E_\pi(\text{localized})
+$$
 
 For benzene: $E_\pi = 2(\alpha + 2\beta) + 4(\alpha + \beta) = 6\alpha + 8\beta$.
 Three isolated double bonds: $3 \times 2(\alpha + \beta) = 6\alpha + 6\beta$.
@@ -2089,19 +2323,27 @@ basis functions from the other. Corrected using the counterpoise method.
 
 **Theorem 10 (First-Order Correction):** For $\hat{H} = \hat{H}_0 + \hat{H}'$:
 
-$$E_n^{(1)} = \langle \psi_n^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle$$
+$$
+E_n^{(1)} = \langle \psi_n^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle
+$$
 
-$$\psi_n^{(1)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}}\,\psi_m^{(0)}$$
+$$
+\psi_n^{(1)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}}\,\psi_m^{(0)}
+$$
 
 **Theorem 11 (Second-Order Energy Correction):**
 
-$$E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}$$
+$$
+E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | \hat{H}' | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+$$
 
 ### 12.2 The Variational Principle
 
 **Theorem 12 (Variational Principle):** For any trial wavefunction $\tilde{\Psi}$:
 
-$$\langle \tilde{\Psi} | \hat{H} | \tilde{\Psi} \rangle \geq E_0$$
+$$
+\langle \tilde{\Psi} | \hat{H} | \tilde{\Psi} \rangle \geq E_0
+$$
 
 where $E_0$ is the true ground state energy. This underpins the Hartree-Fock and DFT methods.
 
@@ -2224,7 +2466,9 @@ $E$, $T$, $P$).
 A single macrostate corresponds to a vast number of microstates. The number of microstates $W$ for a
 given macrostate is related to entropy:
 
-$$S = k_B \ln W$$
+$$
+S = k_B \ln W
+$$
 
 ### 1.2 Microcanonical Ensemble
 
@@ -2234,7 +2478,9 @@ and $E$. Every accessible microstate is equally probable.
 For $N$ distinguishable particles distributed among energy levels $\varepsilon_i$ with occupation numbers
 $n_i$:
 
-$$W = \frac{N!}{n_1!\,n_2!\,\cdots}$$
+$$
+W = \frac{N!}{n_1!\,n_2!\,\cdots}
+$$
 
 subject to $\sum_i n_i = N$ and $\sum_i n_i \varepsilon_i = E$.
 
@@ -2245,30 +2491,40 @@ subject to $\sum_i n_i = N$ and $\sum_i n_i \varepsilon_i = E$.
 **Theorem 1 (Boltzmann Distribution):** In a system at temperature $T$, the probability of finding a
 particle in state $i$ with energy $\varepsilon_i$ is:
 
-$$p_i = \frac{e^{-\varepsilon_i/k_BT}}{q}$$
+$$
+p_i = \frac{e^{-\varepsilon_i/k_BT}}{q}
+$$
 
 where $q$ is the **molecular partition function**:
 
-$$q = \sum_i e^{-\varepsilon_i/k_BT}$$
+$$
+q = \sum_i e^{-\varepsilon_i/k_BT}
+$$
 
 ### 2.2 Most Probable Distribution
 
 The most probable distribution maximizes $\ln W$ subject to the constraints $\sum n_i = N$ and
 $\sum n_i \varepsilon_i = E$. Using Lagrange multipliers:
 
-$$n_i^* = N\frac{e^{-\varepsilon_i/k_BT}}{\sum_j e^{-\varepsilon_j/k_BT}}$$
+$$
+n_i^* = N\frac{e^{-\varepsilon_i/k_BT}}{\sum_j e^{-\varepsilon_j/k_BT}}
+$$
 
 ### 2.3 Physical Interpretation
 
 - States with lower energy are more populated.
 - The ratio of populations of two states:
 
-$$\frac{n_j}{n_i} = e^{-(\varepsilon_j - \varepsilon_i)/k_BT}$$
+$$
+\frac{n_j}{n_i} = e^{-(\varepsilon_j - \varepsilon_i)/k_BT}
+$$
 
 **Example 1:** At 300 K, the population ratio of the first excited state ($\varepsilon_1$) to the ground
 state ($\varepsilon_0 = 0$) for an electronic transition of $\varepsilon_1 = 5 \times 10^{-19}$ J:
 
-$$\frac{n_1}{n_0} = e^{-\varepsilon_1/k_BT} = e^{-5 \times 10^{-19}/(1.381 \times 10^{-23} \times 300)} = e^{-120.7} \approx 0$$
+$$
+\frac{n_1}{n_0} = e^{-\varepsilon_1/k_BT} = e^{-5 \times 10^{-19}/(1.381 \times 10^{-23} \times 300)} = e^{-120.7} \approx 0
+$$
 
 Essentially no population in the excited electronic state at room temperature.
 
@@ -2285,11 +2541,15 @@ bath at temperature $T$. All systems have the same $N$, $V$, $T$ but varying $E$
 
 **Theorem 2 (Canonical Partition Function):** For $N$ distinguishable particles:
 
-$$Q = \sum_j e^{-E_j/k_BT}$$
+$$
+Q = \sum_j e^{-E_j/k_BT}
+$$
 
 where $E_j$ is the energy of the $j$-th system microstate. For $N$ indistinguishable particles:
 
-$$Q = \frac{q^N}{N!}$$
+$$
+Q = \frac{q^N}{N!}
+$$
 
 where $q$ is the molecular partition function. The $N!$ accounts for indistinguishability
 (Boltzmann statistics, valid when $n_i \ll g_i$ for all states).
@@ -2300,13 +2560,17 @@ where $q$ is the molecular partition function. The $N!$ accounts for indistingui
 
 The total molecular partition function factors into contributions:
 
-$$q = q_{\text{trans}} \cdot q_{\text{rot}} \cdot q_{\text{vib}} \cdot q_{\text{elec}}$$
+$$
+q = q_{\text{trans}} \cdot q_{\text{rot}} \cdot q_{\text{vib}} \cdot q_{\text{elec}}
+$$
 
 ### 4.2 Translational Partition Function
 
 **Theorem 3 (Translational Partition Function):** For a particle of mass $m$ in volume $V$:
 
-$$q_{\text{trans}} = \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}V$$
+$$
+q_{\text{trans}} = \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}V
+$$
 
 This follows from treating translational motion as a particle in a 3D box and summing over energy
 levels (or integrating in the classical limit).
@@ -2314,9 +2578,13 @@ levels (or integrating in the classical limit).
 **Example 2:** Calculate $q_{\text{trans}}$ for $\text{N}_2$ ($m = 4.65 \times 10^{-26}$ kg) at 298 K in
 $V = 0.0248$ m$^3$ (1 mol at 1 atm).
 
-$$\Lambda = \frac{h}{\sqrt{2\pi m k_B T}} = \frac{6.626 \times 10^{-34}}{\sqrt{2\pi \times 4.65 \times 10^{-26} \times 1.381 \times 10^{-23} \times 298}} = 1.76 \times 10^{-11} \text{ m}$$
+$$
+\Lambda = \frac{h}{\sqrt{2\pi m k_B T}} = \frac{6.626 \times 10^{-34}}{\sqrt{2\pi \times 4.65 \times 10^{-26} \times 1.381 \times 10^{-23} \times 298}} = 1.76 \times 10^{-11} \text{ m}
+$$
 
-$$q_{\text{trans}} = \frac{V}{\Lambda^3} = \frac{0.0248}{(1.76 \times 10^{-11})^3} = 4.55 \times 10^{28}$$
+$$
+q_{\text{trans}} = \frac{V}{\Lambda^3} = \frac{0.0248}{(1.76 \times 10^{-11})^3} = 4.55 \times 10^{28}
+$$
 
 $\blacksquare$
 
@@ -2324,14 +2592,18 @@ $\blacksquare$
 
 **Theorem 4 (Rotational Partition Function):** For a linear molecule with moment of inertia $I$:
 
-$$q_{\text{rot}} = \frac{T}{\sigma\Theta_{\text{rot}}}$$
+$$
+q_{\text{rot}} = \frac{T}{\sigma\Theta_{\text{rot}}}
+$$
 
 where $\Theta_{\text{rot}} = \frac{\hbar^2}{2Ik_B}$ is the rotational temperature and $\sigma$ is the
 symmetry number ($\sigma = 1$ for heteronuclear, $\sigma = 2$ for homonuclear diatomics).
 
 For a nonlinear molecule:
 
-$$q_{\text{rot}} = \frac{\sqrt{\pi}}{\sigma}\left(\frac{T^3}{\Theta_A\,\Theta_B\,\Theta_C}\right)^{1/2}$$
+$$
+q_{\text{rot}} = \frac{\sqrt{\pi}}{\sigma}\left(\frac{T^3}{\Theta_A\,\Theta_B\,\Theta_C}\right)^{1/2}
+$$
 
 where $\Theta_A$, $\Theta_B$, $\Theta_C$ are the rotational temperatures about the three principal axes.
 
@@ -2339,22 +2611,30 @@ where $\Theta_A$, $\Theta_B$, $\Theta_C$ are the rotational temperatures about t
 
 **Theorem 5 (Vibrational Partition Function):** For a harmonic oscillator with frequency $\nu$:
 
-$$q_{\text{vib}} = \frac{e^{-h\nu/(2k_BT)}}{1 - e^{-h\nu/(k_BT)}}$$
+$$
+q_{\text{vib}} = \frac{e^{-h\nu/(2k_BT)}}{1 - e^{-h\nu/(k_BT)}}
+$$
 
 where $\Theta_{\text{vib}} = h\nu/k_B$ is the vibrational temperature. For the zero of energy at the
 bottom of the potential well (excluding zero-point energy):
 
-$$q_{\text{vib}} = \frac{1}{1 - e^{-\Theta_{\text{vib}}/T}}$$
+$$
+q_{\text{vib}} = \frac{1}{1 - e^{-\Theta_{\text{vib}}/T}}
+$$
 
 For a molecule with $3N - 6$ (nonlinear) or $3N - 5$ (linear) vibrational modes:
 
-$$q_{\text{vib}} = \prod_i q_{\text{vib},i}$$
+$$
+q_{\text{vib}} = \prod_i q_{\text{vib},i}
+$$
 
 ### 4.5 Electronic Partition Function
 
 **Theorem 6 (Electronic Partition Function):**
 
-$$q_{\text{elec}} = g_0\,e^{-\varepsilon_0/k_BT} + g_1\,e^{-\varepsilon_1/k_BT} + \cdots$$
+$$
+q_{\text{elec}} = g_0\,e^{-\varepsilon_0/k_BT} + g_1\,e^{-\varepsilon_1/k_BT} + \cdots
+$$
 
 where $g_i$ is the degeneracy of level $i$. For most molecules at ordinary temperatures, only the
 ground state contributes ($q_{\text{elec}} \approx g_0$).
@@ -2367,41 +2647,61 @@ For atoms with accessible excited states (e.g., halogens), $q_{\text{elec}} > g_
 
 **Theorem 7 (Internal Energy):** For a system of $N$ molecules:
 
-$$U - U_0 = Nk_BT^2\left(\frac{\partial \ln q}{\partial T}\right)_V$$
+$$
+U - U_0 = Nk_BT^2\left(\frac{\partial \ln q}{\partial T}\right)_V
+$$
 
 For each contribution:
 
-$$U_{\text{trans}} = \frac{3}{2}Nk_BT, \quad U_{\text{rot,linear}} = Nk_BT, \quad U_{\text{rot,nonlinear}} = \frac{3}{2}Nk_BT$$
+$$
+U_{\text{trans}} = \frac{3}{2}Nk_BT, \quad U_{\text{rot,linear}} = Nk_BT, \quad U_{\text{rot,nonlinear}} = \frac{3}{2}Nk_BT
+$$
 
-$$U_{\text{vib}} = \sum_i \frac{N h\nu_i}{e^{h\nu_i/k_BT} - 1}$$
+$$
+U_{\text{vib}} = \sum_i \frac{N h\nu_i}{e^{h\nu_i/k_BT} - 1}
+$$
 
 ### 5.2 Entropy
 
 **Theorem 8 (Entropy from Partition Function):**
 
-$$S = \frac{U - U_0}{T} + Nk_B\ln q + Nk_B \quad (\text{distinguishable})$$
+$$
+S = \frac{U - U_0}{T} + Nk_B\ln q + Nk_B \quad (\text{distinguishable})
+$$
 
-$$S = \frac{U - U_0}{T} + Nk_B\ln\frac{q}{N} + Nk_B \quad (\text{indistinguishable})$$
+$$
+S = \frac{U - U_0}{T} + Nk_B\ln\frac{q}{N} + Nk_B \quad (\text{indistinguishable})
+$$
 
 ### 5.3 Helmholtz Free Energy
 
-$$A - A_0 = -Nk_BT\ln q \quad (\text{distinguishable})$$
+$$
+A - A_0 = -Nk_BT\ln q \quad (\text{distinguishable})
+$$
 
-$$A - A_0 = -Nk_BT\ln\frac{q^N}{N!} \quad (\text{indistinguishable})$$
+$$
+A - A_0 = -Nk_BT\ln\frac{q^N}{N!} \quad (\text{indistinguishable})
+$$
 
 ### 5.4 Gibbs Free Energy
 
-$$G - G_0 = -Nk_BT\ln\frac{q}{N} + Nk_BT(V/N)\left(\frac{\partial \ln q}{\partial V}\right)_T$$
+$$
+G - G_0 = -Nk_BT\ln\frac{q}{N} + Nk_BT(V/N)\left(\frac{\partial \ln q}{\partial V}\right)_T
+$$
 
 For an ideal gas:
 
-$$G - G_0 = -nRT\ln\frac{q}{N_A} + nRT$$
+$$
+G - G_0 = -nRT\ln\frac{q}{N_A} + nRT
+$$
 
 ### 5.5 Chemical Potential
 
 **Theorem 9 (Chemical Potential):** For an ideal gas:
 
-$$\mu = -k_BT\ln\frac{q}{N} = -k_BT\ln\frac{q}{N_A P/k_BT} + k_BT\ln P^\circ = \mu^\circ + k_BT\ln\frac{P}{P^\circ}$$
+$$
+\mu = -k_BT\ln\frac{q}{N} = -k_BT\ln\frac{q}{N_A P/k_BT} + k_BT\ln P^\circ = \mu^\circ + k_BT\ln\frac{P}{P^\circ}
+$$
 
 ## 6. The Sackur-Tetrode Equation
 
@@ -2410,17 +2710,23 @@ $$\mu = -k_BT\ln\frac{q}{N} = -k_BT\ln\frac{q}{N_A P/k_BT} + k_BT\ln P^\circ = \
 **Theorem 10 (Sackur-Tetrode Equation):** The translational entropy of $N$ indistinguishable ideal gas
 particles:
 
-$$S_{\text{trans}} = Nk_B\left[\frac{5}{2} + \ln\left(\frac{V}{N}\left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}\right)\right]$$
+$$
+S_{\text{trans}} = Nk_B\left[\frac{5}{2} + \ln\left(\frac{V}{N}\left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}\right)\right]
+$$
 
 For $n$ moles:
 
-$$S_{\text{trans}} = nR\left[\frac{5}{2} + \ln\left(\frac{(2\pi m k_B T)^{3/2} k_B T}{P\,h^3}\right)\right]$$
+$$
+S_{\text{trans}} = nR\left[\frac{5}{2} + \ln\left(\frac{(2\pi m k_B T)^{3/2} k_B T}{P\,h^3}\right)\right]
+$$
 
 ### 6.2 Standard Molar Entropy
 
 At $T = 298.15$ K, $P = 1$ bar:
 
-$$S^\circ_m = R\left[\frac{5}{2} + \ln\left(\frac{(2\pi m k_B T)^{3/2} k_B T}{P^\circ\,h^3}\right)\right] + S_{\text{rot}} + S_{\text{vib}} + S_{\text{elec}}$$
+$$
+S^\circ_m = R\left[\frac{5}{2} + \ln\left(\frac{(2\pi m k_B T)^{3/2} k_B T}{P^\circ\,h^3}\right)\right] + S_{\text{rot}} + S_{\text{vib}} + S_{\text{elec}}
+$$
 
 ## 7. Chemical Equilibrium
 
@@ -2428,7 +2734,9 @@ $$S^\circ_m = R\left[\frac{5}{2} + \ln\left(\frac{(2\pi m k_B T)^{3/2} k_B T}{P^
 
 **Theorem 11 (Statistical Equilibrium Constant):** For the reaction $0 = \sum_i \nu_i A_i$:
 
-$$K = \prod_i \left(\frac{q_i}{N_A}\right)^{\nu_i}\,e^{-\Delta E_0/RT}$$
+$$
+K = \prod_i \left(\frac{q_i}{N_A}\right)^{\nu_i}\,e^{-\Delta E_0/RT}
+$$
 
 where $\Delta E_0$ is the energy difference between products and reactants at $T = 0$.
 
@@ -2436,20 +2744,28 @@ where $\Delta E_0$ is the energy difference between products and reactants at $T
 
 The equilibrium constant relates to thermodynamic quantities:
 
-$$\Delta_r G^\circ = -RT\ln K = \Delta_r H^\circ - T\Delta_r S^\circ$$
+$$
+\Delta_r G^\circ = -RT\ln K = \Delta_r H^\circ - T\Delta_r S^\circ
+$$
 
 From statistical mechanics:
 
-$$\Delta_r H^\circ = \Delta E_0 + \Delta\left(\sum_i \nu_i k_B T^2 \frac{\partial \ln q_i}{\partial T}\right)$$
+$$
+\Delta_r H^\circ = \Delta E_0 + \Delta\left(\sum_i \nu_i k_B T^2 \frac{\partial \ln q_i}{\partial T}\right)
+$$
 
-$$\Delta_r S^\circ = R\left[\sum_i \nu_i \ln\frac{q_i e}{N_A} + \sum_i \nu_i T\frac{\partial \ln q_i}{\partial T}\right]$$
+$$
+\Delta_r S^\circ = R\left[\sum_i \nu_i \ln\frac{q_i e}{N_A} + \sum_i \nu_i T\frac{\partial \ln q_i}{\partial T}\right]
+$$
 
 ### 7.3 Isotope Effects
 
 The equilibrium isotope effect arises from differences in vibrational partition functions (mass
 dependence of $\Theta_{\text{vib}}$):
 
-$$\frac{K_H}{K_D} \approx e^{-(\Theta_{\text{vib},H} - \Theta_{\text{vib},D})/T}$$
+$$
+\frac{K_H}{K_D} \approx e^{-(\Theta_{\text{vib},H} - \Theta_{\text{vib},D})/T}
+$$
 
 ## 8. Quantum Statistics
 
@@ -2465,7 +2781,9 @@ must be:
 
 **Definition 5 (Bose-Einstein Distribution):** For bosons:
 
-$$\langle n_i \rangle = \frac{1}{e^{(\varepsilon_i - \mu)/k_BT} - 1}$$
+$$
+\langle n_i \rangle = \frac{1}{e^{(\varepsilon_i - \mu)/k_BT} - 1}
+$$
 
 where $\langle n_i \rangle$ is the mean occupation number of state $i$ and $\mu \leq \varepsilon_0$.
 
@@ -2477,27 +2795,35 @@ Applications:
 
 **Theorem 13 (Planck Distribution):** Energy density of blackbody radiation:
 
-$$u(\nu)\,d\nu = \frac{8\pi h\nu^3}{c^3}\frac{1}{e^{h\nu/k_BT} - 1}\,d\nu$$
+$$
+u(\nu)\,d\nu = \frac{8\pi h\nu^3}{c^3}\frac{1}{e^{h\nu/k_BT} - 1}\,d\nu
+$$
 
 ### 8.3 Fermi-Dirac Statistics
 
 **Definition 6 (Fermi-Dirac Distribution):** For fermions:
 
-$$\langle n_i \rangle = \frac{1}{e^{(\varepsilon_i - \mu)/k_BT} + 1}$$
+$$
+\langle n_i \rangle = \frac{1}{e^{(\varepsilon_i - \mu)/k_BT} + 1}
+$$
 
 At $T = 0$: $\langle n_i \rangle = 1$ for $\varepsilon_i < \mu = \varepsilon_F$ (Fermi energy) and
 $\langle n_i \rangle = 0$ for $\varepsilon_i > \varepsilon_F$.
 
 The Fermi energy:
 
-$$\varepsilon_F = \frac{\hbar^2}{2m}\left(\frac{6\pi^2 N}{V}\right)^{2/3}$$
+$$
+\varepsilon_F = \frac{\hbar^2}{2m}\left(\frac{6\pi^2 N}{V}\right)^{2/3}
+$$
 
 ### 8.4 Classical Limit
 
 When $e^{(\varepsilon - \mu)/k_BT} \gg 1$ (dilute, high-temperature limit), both Bose-Einstein and
 Fermi-Dirac distributions reduce to the Boltzmann distribution:
 
-$$\langle n_i \rangle \approx e^{-(\varepsilon_i - \mu)/k_BT}$$
+$$
+\langle n_i \rangle \approx e^{-(\varepsilon_i - \mu)/k_BT}
+$$
 
 This is the condition $n_i \ll g_i$ (many more states than particles), which holds for most gases
 at ordinary conditions.
@@ -2514,7 +2840,9 @@ The Fermi-Dirac distribution gives:
 
 The electronic heat capacity:
 
-$$C_{V,\text{elec}} = \frac{\pi^2}{2}Nk_B\frac{T}{T_F}$$
+$$
+C_{V,\text{elec}} = \frac{\pi^2}{2}Nk_B\frac{T}{T_F}
+$$
 
 where $T_F = \varepsilon_F/k_B \sim 10^4$ K for metals. This explains why electronic contributions to
 heat capacity are much smaller than the classical prediction $C_V = \frac{3}{2}Nk_B$.
@@ -2543,7 +2871,9 @@ the "freezing out" of vibrational modes at low $T$.
 
 ### 10.1 Translational Heat Capacity
 
-$$C_{V,\text{trans}} = \frac{3}{2}Nk_B = \frac{3}{2}nR$$
+$$
+C_{V,\text{trans}} = \frac{3}{2}Nk_B = \frac{3}{2}nR
+$$
 
 Constant and equal to the equipartition value at all temperatures where the gas behaves ideally.
 
@@ -2551,7 +2881,9 @@ Constant and equal to the equipartition value at all temperatures where the gas 
 
 For a linear molecule:
 
-$$C_{V,\text{rot}} = \begin{cases} 0 & T \ll \Theta_{\text{rot}} \\ \frac{3}{2}nR & T \gg \Theta_{\text{rot}} \end{cases}$$
+$$
+C_{V,\text{rot}} = \begin{cases} 0 & T \ll \Theta_{\text{rot}} \\ \frac{3}{2}nR & T \gg \Theta_{\text{rot}} \end{cases}
+$$
 
 Most diatomics have $\Theta_{\text{rot}} \sim 2$–$10$ K, so rotational heat capacity is fully excited at
 room temperature. Exception: $\text{H}_2$ has $\Theta_{\text{rot}} = 85$ K.
@@ -2560,7 +2892,9 @@ room temperature. Exception: $\text{H}_2$ has $\Theta_{\text{rot}} = 85$ K.
 
 For a single harmonic mode:
 
-$$C_{V,\text{vib}} = nR\left(\frac{\Theta_{\text{vib}}}{T}\right)^2 \frac{e^{\Theta_{\text{vib}}/T}}{(e^{\Theta_{\text{vib}}/T} - 1)^2}$$
+$$
+C_{V,\text{vib}} = nR\left(\frac{\Theta_{\text{vib}}}{T}\right)^2 \frac{e^{\Theta_{\text{vib}}/T}}{(e^{\Theta_{\text{vib}}/T} - 1)^2}
+$$
 
 This is the Einstein model. At $T \gg \Theta_{\text{vib}}$: $C_{V,\text{vib}} \to nR$. At
 $T \ll \Theta_{\text{vib}}$: $C_{V,\text{vib}} \to 0$.
@@ -2576,7 +2910,9 @@ reservoir. Each system has the same $V$, $T$, $\mu$ but varying $N$ and $E$.
 
 **Theorem 15 (Grand Partition Function):**
 
-$$\Xi = \sum_{N=0}^{\infty} e^{N\mu/k_BT}Q(N,V,T) = \prod_i \sum_{n_i=0}^{\infty} e^{n_i(\mu - \varepsilon_i)/k_BT}$$
+$$
+\Xi = \sum_{N=0}^{\infty} e^{N\mu/k_BT}Q(N,V,T) = \prod_i \sum_{n_i=0}^{\infty} e^{n_i(\mu - \varepsilon_i)/k_BT}
+$$
 
 For fermions: $\Xi = \prod_i(1 + e^{(\mu - \varepsilon_i)/k_BT})$
 
@@ -2588,7 +2924,9 @@ For bosons: $\Xi = \prod_i(1 - e^{(\mu - \varepsilon_i)/k_BT})^{-1}$
 
 In the canonical ensemble:
 
-$$\langle(\Delta E)^2\rangle = \langle E^2\rangle - \langle E\rangle^2 = k_BT^2 C_V$$
+$$
+\langle(\Delta E)^2\rangle = \langle E^2\rangle - \langle E\rangle^2 = k_BT^2 C_V
+$$
 
 The relative fluctuation $\langle(\Delta E)^2\rangle/\langle E\rangle^2 \sim 1/N \to 0$ for
 macroscopic systems.
@@ -2597,7 +2935,9 @@ macroscopic systems.
 
 In the grand canonical ensemble:
 
-$$\langle(\Delta N)^2\rangle = k_BT\left(\frac{\partial N}{\partial \mu}\right)_{T,V} = \kappa_T\,N\,k_BT$$
+$$
+\langle(\Delta N)^2\rangle = k_BT\left(\frac{\partial N}{\partial \mu}\right)_{T,V} = \kappa_T\,N\,k_BT
+$$
 
 where $\kappa_T$ is the isothermal compressibility. Near the critical point, fluctuations diverge,
 leading to critical opalescence.
@@ -2719,7 +3059,9 @@ URL: https://chemistry.wyattau.com/1-physical-chemistry/thermodynamics/
 
 2. **First Law:** Energy is conserved. For a closed system:
 
-   $$dU = \delta q + \delta w$$
+   $$
+   dU = \delta q + \delta w
+   $$
 
    where $U$ is internal energy, $q$ is heat, and $w$ is work. The notation $\delta$ indicates
    inexact differentials: $q$ and $w$ are path-dependent, but $U$ is a state function.
@@ -2728,23 +3070,33 @@ URL: https://chemistry.wyattau.com/1-physical-chemistry/thermodynamics/
 
 For a reversible expansion of an ideal gas against an external pressure:
 
-$$\delta w_{\text{rev}} = -P\,dV$$
+$$
+\delta w_{\text{rev}} = -P\,dV
+$$
 
-$$w_{\text{rev}} = -\int_{V_i}^{V_f} P\,dV = -nRT\ln\frac{V_f}{V_i}$$
+$$
+w_{\text{rev}} = -\int_{V_i}^{V_f} P\,dV = -nRT\ln\frac{V_f}{V_i}
+$$
 
 ### 1.3 Enthalpy
 
 **Definition 1 (Enthalpy):** The enthalpy $H$ is defined as:
 
-$$H = U + PV$$
+$$
+H = U + PV
+$$
 
 For a process at constant pressure:
 
-$$dH = dU + P\,dV + V\,dP = \delta q_p + V\,dP \implies \Delta H = q_p$$
+$$
+dH = dU + P\,dV + V\,dP = \delta q_p + V\,dP \implies \Delta H = q_p
+$$
 
 The molar heat capacities relate to enthalpy and internal energy:
 
-$$C_p = \left(\frac{\partial H}{\partial T}\right)_P, \quad C_V = \left(\frac{\partial U}{\partial T}\right)_V$$
+$$
+C_p = \left(\frac{\partial H}{\partial T}\right)_P, \quad C_V = \left(\frac{\partial U}{\partial T}\right)_V
+$$
 
 For an ideal gas: $C_p - C_V = nR$.
 
@@ -2754,12 +3106,16 @@ For an ideal gas: $C_p - C_V = nR$.
 
 **Theorem 1 (Clausius Inequality):** For any cyclic process:
 
-$$\oint \frac{\delta q}{T} \leq 0$$
+$$
+\oint \frac{\delta q}{T} \leq 0
+$$
 
 Equality holds only for reversible processes. This implies the existence of a state function $S$
 (entropy) such that:
 
-$$dS \geq \frac{\delta q}{T}$$
+$$
+dS \geq \frac{\delta q}{T}
+$$
 
 For a spontaneous (irreversible) process in an isolated system: $dS > 0$.
 
@@ -2767,15 +3123,21 @@ For a spontaneous (irreversible) process in an isolated system: $dS > 0$.
 
 For a reversible process at temperature $T$:
 
-$$\Delta S = \int_{T_1}^{T_2} \frac{C}{T}\,dT$$
+$$
+\Delta S = \int_{T_1}^{T_2} \frac{C}{T}\,dT
+$$
 
 **Entropy of phase transition:** At the transition temperature $T_{\text{trs}}$:
 
-$$\Delta_{\text{trs}}S = \frac{\Delta_{\text{trs}}H}{T_{\text{trs}}}$$
+$$
+\Delta_{\text{trs}}S = \frac{\Delta_{\text{trs}}H}{T_{\text{trs}}}
+$$
 
 **Example 1:** Calculate $\Delta S$ when 2 mol of ice melts at 273 K ($\Delta_{\text{fus}}H = 6.01$ kJ/mol).
 
-$$\Delta S = \frac{n\,\Delta_{\text{fus}}H}{T} = \frac{2 \times 6010}{273} = 44.0 \text{ J/K}$$
+$$
+\Delta S = \frac{n\,\Delta_{\text{fus}}H}{T} = \frac{2 \times 6010}{273} = 44.0 \text{ J/K}
+$$
 
 $\blacksquare$
 
@@ -2783,23 +3145,31 @@ $\blacksquare$
 
 **Theorem 2 (Boltzmann Entropy):**
 
-$$S = k_B \ln W$$
+$$
+S = k_B \ln W
+$$
 
 where $W$ is the number of microstates and $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
 
 For $N$ distinguishable particles with $n_i$ in each energy level $\varepsilon_i$:
 
-$$W = \frac{N!}{n_1!\,n_2!\,\cdots}$$
+$$
+W = \frac{N!}{n_1!\,n_2!\,\cdots}
+$$
 
 The entropy of mixing two ideal gases:
 
-$$\Delta_{\text{mix}}S = -nR\left(x_A \ln x_A + x_B \ln x_B\right)$$
+$$
+\Delta_{\text{mix}}S = -nR\left(x_A \ln x_A + x_B \ln x_B\right)
+$$
 
 ### 2.4 The Third Law
 
 **Theorem 3 (Third Law of Thermodynamics):** The entropy of a perfect crystal at absolute zero is zero:
 
-$$\lim_{T \to 0} S = 0$$
+$$
+\lim_{T \to 0} S = 0
+$$
 
 This provides a reference point for absolute entropies (standard molar entropies $S^\circ$).
 
@@ -2809,15 +3179,23 @@ This provides a reference point for absolute entropies (standard molar entropies
 
 **Definition 2 (Helmholtz Free Energy):**
 
-$$A = U - TS$$
+$$
+A = U - TS
+$$
 
-$$dA = -S\,dT - P\,dV$$
+$$
+dA = -S\,dT - P\,dV
+$$
 
 **Definition 3 (Gibbs Free Energy):**
 
-$$G = H - TS = U + PV - TS$$
+$$
+G = H - TS = U + PV - TS
+$$
 
-$$dG = -S\,dT + V\,dP$$
+$$
+dG = -S\,dT + V\,dP
+$$
 
 At constant $T$ and $P$: $\Delta G = w_{\text{non-PV}}$, so the Gibbs free energy change equals the
 maximum non-expansion work.
@@ -2834,16 +3212,26 @@ maximum non-expansion work.
 
 The four fundamental equations of thermodynamics (for closed systems of constant composition):
 
-$$dU = T\,dS - P\,dV$$
-$$dH = T\,dS + V\,dP$$
-$$dA = -S\,dT - P\,dV$$
-$$dG = -S\,dT + V\,dP$$
+$$
+dU = T\,dS - P\,dV
+$$
+$$
+dH = T\,dS + V\,dP
+$$
+$$
+dA = -S\,dT - P\,dV
+$$
+$$
+dG = -S\,dT + V\,dP
+$$
 
 ### 3.4 Chemical Potential
 
 **Definition 4 (Chemical Potential):** For an open system with $k$ components:
 
-$$dG = -S\,dT + V\,dP + \sum_{i=1}^{k} \mu_i\,dn_i$$
+$$
+dG = -S\,dT + V\,dP + \sum_{i=1}^{k} \mu_i\,dn_i
+$$
 
 where $\mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_{j\neq i}}$ is the chemical potential
 of component $i$.
@@ -2857,10 +3245,18 @@ For an ideal gas: $\mu = \mu^\circ + RT\ln\frac{P}{P^\circ}$.
 **Theorem 4 (Maxwell Relations):** Since $U$, $H$, $A$, $G$ are state functions, their mixed second
 partial derivatives are equal:
 
-$$\left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial P}{\partial S}\right)_V$$
-$$\left(\frac{\partial T}{\partial P}\right)_S = \left(\frac{\partial V}{\partial S}\right)_P$$
-$$\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V$$
-$$\left(\frac{\partial S}{\partial P}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_P$$
+$$
+\left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial P}{\partial S}\right)_V
+$$
+$$
+\left(\frac{\partial T}{\partial P}\right)_S = \left(\frac{\partial V}{\partial S}\right)_P
+$$
+$$
+\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V
+$$
+$$
+\left(\frac{\partial S}{\partial P}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_P
+$$
 
 ### 4.2 Applications
 
@@ -2868,7 +3264,9 @@ Using the Maxwell relation $\left(\frac{\partial S}{\partial V}\right)_T = \left
 
 For an ideal gas: $\left(\frac{\partial P}{\partial T}\right)_V = \frac{nR}{V}$, so:
 
-$$\Delta S = \int_{V_1}^{V_2} \frac{nR}{V}\,dV = nR\ln\frac{V_2}{V_1}$$
+$$
+\Delta S = \int_{V_1}^{V_2} \frac{nR}{V}\,dV = nR\ln\frac{V_2}{V_1}
+$$
 
 ## 5. Gibbs-Helmholtz Equation
 
@@ -2876,11 +3274,15 @@ $$\Delta S = \int_{V_1}^{V_2} \frac{nR}{V}\,dV = nR\ln\frac{V_2}{V_1}$$
 
 **Theorem 5 (Gibbs-Helmholtz Equation):**
 
-$$\left[\frac{\partial(G/T)}{\partial T}\right]_P = -\frac{H}{T^2}$$
+$$
+\left[\frac{\partial(G/T)}{\partial T}\right]_P = -\frac{H}{T^2}
+$$
 
 Equivalently:
 
-$$\frac{\Delta G_2}{T_2} - \frac{\Delta G_1}{T_1} = -\Delta H\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\frac{\Delta G_2}{T_2} - \frac{\Delta G_1}{T_1} = -\Delta H\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 (approximate form when $\Delta H$ is constant over the temperature range).
 
@@ -2890,26 +3292,38 @@ $$\frac{\Delta G_2}{T_2} - \frac{\Delta G_1}{T_1} = -\Delta H\left(\frac{1}{T_2}
 
 At phase equilibrium between two phases $\alpha$ and $\beta$:
 
-$$\mu_\alpha(T, P) = \mu_\beta(T, P)$$
+$$
+\mu_\alpha(T, P) = \mu_\beta(T, P)
+$$
 
 Differentiating along the coexistence curve:
 
-$$d\mu_\alpha = d\mu_\beta \implies -S_\alpha\,dT + V_\alpha\,dP = -S_\beta\,dT + V_\beta\,dP$$
+$$
+d\mu_\alpha = d\mu_\beta \implies -S_\alpha\,dT + V_\alpha\,dP = -S_\beta\,dT + V_\beta\,dP
+$$
 
-$$\frac{dP}{dT} = \frac{\Delta_{\text{trs}}S}{\Delta_{\text{trs}}V} = \frac{\Delta_{\text{trs}}H}{T\,\Delta_{\text{trs}}V}$$
+$$
+\frac{dP}{dT} = \frac{\Delta_{\text{trs}}S}{\Delta_{\text{trs}}V} = \frac{\Delta_{\text{trs}}H}{T\,\Delta_{\text{trs}}V}
+$$
 
 ### 6.2 The Integrated Form
 
 For liquid-vapor equilibrium, assuming $\Delta_{\text{vap}}H$ is constant and $V_g \gg V_l$:
 
-$$\ln\frac{P_2}{P_1} = -\frac{\Delta_{\text{vap}}H}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{P_2}{P_1} = -\frac{\Delta_{\text{vap}}H}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 **Example 2:** The normal boiling point of benzene is 353 K with $\Delta_{\text{vap}}H = 30.8$ kJ/mol.
 Find the vapor pressure at 298 K.
 
-$$\ln\frac{P}{1.013 \times 10^5} = -\frac{30800}{8.314}\left(\frac{1}{298} - \frac{1}{353}\right) = -1.93$$
+$$
+\ln\frac{P}{1.013 \times 10^5} = -\frac{30800}{8.314}\left(\frac{1}{298} - \frac{1}{353}\right) = -1.93
+$$
 
-$$P = 1.013 \times 10^5 \times e^{-1.93} = 1.47 \times 10^4 \text{ Pa} \approx 14.7 \text{ kPa}$$
+$$
+P = 1.013 \times 10^5 \times e^{-1.93} = 1.47 \times 10^4 \text{ Pa} \approx 14.7 \text{ kPa}
+$$
 
 $\blacksquare$
 
@@ -2919,7 +3333,9 @@ $\blacksquare$
 
 **Theorem 6 (Gibbs Phase Rule):** For a system with $C$ components and $P$ phases at equilibrium:
 
-$$F = C - P + 2$$
+$$
+F = C - P + 2
+$$
 
 where $F$ is the number of degrees of freedom (intensive variables that can be independently varied).
 
@@ -2944,7 +3360,9 @@ For binary mixtures, common diagrams include:
 **Definition 5 (Lever Rule):** For a two-phase region with phases $\alpha$ and $\beta$ at overall
 composition $x$:
 
-$$\frac{n_\alpha}{n_\beta} = \frac{x_\beta - x}{x - x_\alpha}$$
+$$
+\frac{n_\alpha}{n_\beta} = \frac{x_\beta - x}{x - x_\alpha}
+$$
 
 ## 8. Chemical Equilibrium
 
@@ -2952,25 +3370,35 @@ $$\frac{n_\alpha}{n_\beta} = \frac{x_\beta - x}{x - x_\alpha}$$
 
 At equilibrium, $\Delta_r G = 0$, giving:
 
-$$\Delta_r G^\circ = -RT\ln K$$
+$$
+\Delta_r G^\circ = -RT\ln K
+$$
 
 For the reaction $aA + bB \rightleftharpoons cC + dD$:
 
-$$K = \frac{a_C^c\,a_D^d}{a_A^a\,a_B^b}$$
+$$
+K = \frac{a_C^c\,a_D^d}{a_A^a\,a_B^b}
+$$
 
 where $a_i$ are activities. For ideal gases: $a_i = P_i/P^\circ$, so:
 
-$$K_p = \frac{(P_C/P^\circ)^c\,(P_D/P^\circ)^d}{(P_A/P^\circ)^a\,(P_B/P^\circ)^b}$$
+$$
+K_p = \frac{(P_C/P^\circ)^c\,(P_D/P^\circ)^d}{(P_A/P^\circ)^a\,(P_B/P^\circ)^b}
+$$
 
 ### 8.2 van't Hoff Equation
 
 **Theorem 7 (van't Hoff Equation):** The temperature dependence of the equilibrium constant:
 
-$$\frac{d\ln K}{dT} = \frac{\Delta_r H^\circ}{RT^2}$$
+$$
+\frac{d\ln K}{dT} = \frac{\Delta_r H^\circ}{RT^2}
+$$
 
 Integrated form (assuming $\Delta_r H^\circ$ is constant):
 
-$$\ln\frac{K_2}{K_1} = -\frac{\Delta_r H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{K_2}{K_1} = -\frac{\Delta_r H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 ### 8.3 Le Chatelier's Principle
 
@@ -2988,7 +3416,9 @@ the system shifts to partially counteract the change.
 **Theorem 8 (Hess's Law):** The enthalpy change for a reaction is independent of the pathway; it equals
 the sum of enthalpy changes for any series of steps into which the reaction can be divided.
 
-$$\Delta_r H = \sum \Delta_f H^\circ(\text{products}) - \sum \Delta_f H^\circ(\text{reactants})$$
+$$
+\Delta_r H = \sum \Delta_f H^\circ(\text{products}) - \sum \Delta_f H^\circ(\text{reactants})
+$$
 
 ### 9.2 Standard Enthalpies
 
@@ -3002,7 +3432,9 @@ $$\Delta_r H = \sum \Delta_f H^\circ(\text{products}) - \sum \Delta_f H^\circ(\t
 
 **Theorem 9 (Kirchhoff's Law):** Temperature dependence of reaction enthalpy:
 
-$$\frac{d\Delta_r H^\circ}{dT} = \Delta_r C_p^\circ$$
+$$
+\frac{d\Delta_r H^\circ}{dT} = \Delta_r C_p^\circ
+$$
 
 ## 10. Partial Molar Quantities and Mixing
 
@@ -3010,17 +3442,23 @@ $$\frac{d\Delta_r H^\circ}{dT} = \Delta_r C_p^\circ$$
 
 **Definition 7 (Partial Molar Volume):** The partial molar volume of component $i$:
 
-$$V_i = \left(\frac{\partial V}{\partial n_i}\right)_{T,P,n_{j\neq i}}$$
+$$
+V_i = \left(\frac{\partial V}{\partial n_i}\right)_{T,P,n_{j\neq i}}
+$$
 
 The total volume of a mixture:
 
-$$V = \sum_i n_i V_i$$
+$$
+V = \sum_i n_i V_i
+$$
 
 ### 10.2 Gibbs-Duhem Equation
 
 **Theorem 10 (Gibbs-Duhem Equation):** At constant $T$ and $P$:
 
-$$\sum_i n_i\,d\mu_i = 0$$
+$$
+\sum_i n_i\,d\mu_i = 0
+$$
 
 For a binary mixture: $n_A\,d\mu_A + n_B\,d\mu_B = 0$.
 
@@ -3028,12 +3466,16 @@ For a binary mixture: $n_A\,d\mu_A + n_B\,d\mu_B = 0$.
 
 For a real solution, the chemical potential is:
 
-$$\mu_i = \mu_i^\circ + RT\ln a_i = \mu_i^\circ + RT\ln(\gamma_i\,x_i)$$
+$$
+\mu_i = \mu_i^\circ + RT\ln a_i = \mu_i^\circ + RT\ln(\gamma_i\,x_i)
+$$
 
 where $\gamma_i$ is the activity coefficient and $x_i$ is the mole fraction. For ideal solutions
 ($\gamma_i = 1$):
 
-$$\mu_i = \mu_i^\circ + RT\ln x_i$$
+$$
+\mu_i = \mu_i^\circ + RT\ln x_i
+$$
 
 ## 11. Carnot Cycle for Chemical Systems
 
@@ -3042,7 +3484,9 @@ $$\mu_i = \mu_i^\circ + RT\ln x_i$$
 **Theorem 11 (Carnot Efficiency):** A heat engine operating between hot reservoir $T_h$ and cold
 reservoir $T_c$:
 
-$$\eta = 1 - \frac{T_c}{T_h}$$
+$$
+\eta = 1 - \frac{T_c}{T_h}
+$$
 
 This is the maximum possible efficiency for any engine operating between these temperatures.
 
@@ -3057,7 +3501,9 @@ This is the maximum possible efficiency for any engine operating between these t
 
 For a real gas undergoing throttling (isenthalpic expansion):
 
-$$\mu_{JT} = \left(\frac{\partial T}{\partial P}\right)_H = \frac{1}{C_p}\left[\frac{2a}{RT} - b\right]$$
+$$
+\mu_{JT} = \left(\frac{\partial T}{\partial P}\right)_H = \frac{1}{C_p}\left[\frac{2a}{RT} - b\right]
+$$
 
 For an ideal gas: $\mu_{JT} = 0$ (no temperature change on throttling).
 
@@ -3065,11 +3511,15 @@ For an ideal gas: $\mu_{JT} = 0$ (no temperature change on throttling).
 
 For a reversible adiabatic process with an ideal gas ($\gamma = C_p/C_V$):
 
-$$TV^{\gamma-1} = \text{const}, \quad PV^\gamma = \text{const}$$
+$$
+TV^{\gamma-1} = \text{const}, \quad PV^\gamma = \text{const}
+$$
 
 Work done:
 
-$$w = \frac{nR(T_2 - T_1)}{\gamma - 1}$$
+$$
+w = \frac{nR(T_2 - T_1)}{\gamma - 1}
+$$
 
 ## 13. Fugacity and Activity
 
@@ -3077,7 +3527,9 @@ $$w = \frac{nR(T_2 - T_1)}{\gamma - 1}$$
 
 **Definition 8 (Fugacity):** For a real gas:
 
-$$\mu = \mu^\circ + RT\ln\left(\frac{f}{P^\circ}\right)$$
+$$
+\mu = \mu^\circ + RT\ln\left(\frac{f}{P^\circ}\right)
+$$
 
 where $f = \phi P$ and $\phi$ is the fugacity coefficient. As $P \to 0$, $f \to P$ and $\phi \to 1$.
 
@@ -3085,11 +3537,15 @@ where $f = \phi P$ and $\phi$ is the fugacity coefficient. As $P \to 0$, $f \to 
 
 For condensed phases:
 
-$$a_i = \frac{f_i}{f_i^\circ} \approx \gamma_i\,x_i$$
+$$
+a_i = \frac{f_i}{f_i^\circ} \approx \gamma_i\,x_i
+$$
 
 The equilibrium constant in terms of activities:
 
-$$K = \prod_i a_i^{\nu_i}$$
+$$
+K = \prod_i a_i^{\nu_i}
+$$
 
 ## Common Pitfalls
 
@@ -3233,7 +3689,9 @@ Organic reactions proceed through well-defined mechanisms involving the movement
 
 In an $S_N2$ reaction, a nucleophile attacks the electrophilic carbon from the side opposite to the leaving group in a single concerted step. For the reaction of bromomethane with hydroxide:
 
-$$\text{HO}^- + \text{CH}_3\text{Br} \rightarrow \text{CH}_3\text{OH} + \text{Br}^-$$
+$$
+\text{HO}^- + \text{CH}_3\text{Br} \rightarrow \text{CH}_3\text{OH} + \text{Br}^-
+$$
 
 The nucleophile ($\text{HO}^-$) approaches the carbon from the back, displacing $\text{Br}^-$. This results in inversion of configuration at the carbon centre, a hallmark of the $S_N2$ pathway.
 
@@ -3366,18 +3824,26 @@ import PracticeProblem from "@components/PracticeProblem";
 **Target:** 2-methyl-2-pentanol (tertiary alcohol)
 
 **Retrosynthesis:**
-$$\text{2-methyl-2-pentanol} \Rightarrow \text{acetone} + \text{propyl Grignard}$$
+$$
+\text{2-methyl-2-pentanol} \Rightarrow \text{acetone} + \text{propyl Grignard}
+$$
 
 **Forward synthesis:**
 
 **Step 1:** Prepare Grignard reagent
-$$\text{CH}_3\text{CH}_2\text{CH}_2\text{Br} + \text{Mg} \xrightarrow{\text{dry ether}} \text{CH}_3\text{CH}_2\text{CH}_2\text{MgBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{CH}_2\text{Br} + \text{Mg} \xrightarrow{\text{dry ether}} \text{CH}_3\text{CH}_2\text{CH}_2\text{MgBr}
+$$
 
 **Step 2:** Grignard addition to acetone
-$$\text{CH}_3\text{COCH}_3 + \text{CH}_3\text{CH}_2\text{CH}_2\text{MgBr} \rightarrow \text{alkoxide intermediate}$$
+$$
+\text{CH}_3\text{COCH}_3 + \text{CH}_3\text{CH}_2\text{CH}_2\text{MgBr} \rightarrow \text{alkoxide intermediate}
+$$
 
 **Step 3:** Aqueous workup
-$$\text{alkoxide} \xrightarrow{\text{H}_3\text{O}^+} \text{(CH}_3)_2\text{C(OH)CH}_2\text{CH}_2\text{CH}_3$$
+$$
+\text{alkoxide} \xrightarrow{\text{H}_3\text{O}^+} \text{(CH}_3)_2\text{C(OH)CH}_2\text{CH}_2\text{CH}_3
+$$
 
 **Key insight:** Grignard reagents are powerful because they create new C-C bonds. The nucleophilic carbon attacks the electrophilic carbonyl carbon, extending the carbon skeleton.
 
@@ -3622,19 +4088,27 @@ Major product: **2-methyl-1-butene** (disubstituted alkene)
 
 **Step 1:** Protonation of the hydroxyl group
 
-$$(\text{CH}_3)_3\text{CCH(OH)CH}_3 + \text{H}^+ \rightarrow (\text{CH}_3)_3\text{CCH(OH}_2^+)\text{CH}_3$$
+$$
+(\text{CH}_3)_3\text{CCH(OH)CH}_3 + \text{H}^+ \rightarrow (\text{CH}_3)_3\text{CCH(OH}_2^+)\text{CH}_3
+$$
 
 **Step 2:** Loss of water → secondary carbocation
 
-$$(\text{CH}_3)_3\text{CCH}^+\text{CH}_3$$
+$$
+(\text{CH}_3)_3\text{CCH}^+\text{CH}_3
+$$
 
 **Step 3:** 1,2-methyl shift → tertiary carbocation (more stable)
 
-$$(\text{CH}_3)_2\text{C}^+\text{CH(CH}_3)_2$$
+$$
+(\text{CH}_3)_2\text{C}^+\text{CH(CH}_3)_2
+$$
 
 **Step 4:** Elimination → tetrasubstituted alkene (most stable)
 
-$$\text{Product: } (\text{CH}_3)_2\text{C=C(CH}_3)_2 \text{ (2,3-dimethyl-2-butene)}$$
+$$
+\text{Product: } (\text{CH}_3)_2\text{C=C(CH}_3)_2 \text{ (2,3-dimethyl-2-butene)}
+$$
 
 **Key insight:** Carbocation rearrangements occur when a more stable carbocation can be formed. The driving force is the stability order: $3^\circ > 2^\circ > 1^\circ > \text{methyl}$. Always check for possible rearrangements in SN1 and E1 reactions.
 
@@ -4310,11 +4784,15 @@ URL: https://chemistry.wyattau.com/2-organic-chemistry/reaction-mechanisms/
 **Definition 1 (S$\_\text{N}$2):** Bimolecular nucleophilic substitution, a single concerted step
 with backside attack.
 
-$$\text{Nu}^- + \text{R–LG} \to [\text{Nu}\cdots\text{R}\cdots\text{LG}]^{\ddagger} \to \text{Nu–R} + \text{LG}^-$$
+$$
+\text{Nu}^- + \text{R–LG} \to [\text{Nu}\cdots\text{R}\cdots\text{LG}]^{\ddagger} \to \text{Nu–R} + \text{LG}^-
+$$
 
 **Theorem 1 (SN2 Rate Law):**
 
-$$v = k[\text{Nu}^-][\text{R–LG}]$$
+$$
+v = k[\text{Nu}^-][\text{R–LG}]
+$$
 
 **Features:**
 
@@ -4329,12 +4807,18 @@ $$v = k[\text{Nu}^-][\text{R–LG}]$$
 **Definition 2 (S$\_\text{N}$1):** Unimolecular nucleophilic substitution, two steps via a
 carbocation intermediate.
 
-$$\text{R–LG} \xrightarrow{k_1} \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}$$
-$$\text{R}^+ + \text{Nu}^- \xrightarrow{k_2} \text{R–Nu}$$
+$$
+\text{R–LG} \xrightarrow{k_1} \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}
+$$
+$$
+\text{R}^+ + \text{Nu}^- \xrightarrow{k_2} \text{R–Nu}
+$$
 
 **Theorem 2 (SN1 Rate Law):**
 
-$$v = k[\text{R–LG}]$$
+$$
+v = k[\text{R–LG}]
+$$
 
 **Features:**
 
@@ -4347,7 +4831,9 @@ $$v = k[\text{R–LG}]$$
 
 **Theorem 3 (Carbocation Stability Order):**
 
-$$\text{3°} > \text{2°} > \text{1°} > \text{CH}_3^+$$
+$$
+\text{3°} > \text{2°} > \text{1°} > \text{CH}_3^+
+$$
 
 Stabilized by:
 
@@ -4375,7 +4861,9 @@ the conjugate acid.
 
 **Theorem 5 (Leaving Group Ability):** The weaker the base, the better the leaving group:
 
-$$\text{I}^- > \text{Br}^- > \text{Cl}^- > \text{F}^- > \text{OH}^- \gg \text{NH}_2^-$$
+$$
+\text{I}^- > \text{Br}^- > \text{Cl}^- > \text{F}^- > \text{OH}^- \gg \text{NH}_2^-
+$$
 
 Weak bases make good leaving groups because they can stabilize the negative charge after departure.
 $\text{H}_2\text{O}$ is a better leaving group than $\text{HO}^-$; protonating $\text{HO}^-$ makes
@@ -4395,7 +4883,9 @@ it $\text{H}_2\text{O}$.
 
 **Definition 5 (E2):** Bimolecular elimination, concerted removal of HX.
 
-$$\text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \text{LG}^-$$
+$$
+\text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \text{LG}^-
+$$
 
 **Features:**
 
@@ -4408,8 +4898,12 @@ $$\text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \tex
 
 **Definition 6 (E1):** Unimolecular elimination, carbocation intermediate, then deprotonation.
 
-$$\text{R–LG} \to \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}$$
-$$\text{R}^+ \to \text{alkene} + \text{H}^+$$
+$$
+\text{R–LG} \to \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}
+$$
+$$
+\text{R}^+ \to \text{alkene} + \text{H}^+
+$$
 
 **Features:**
 
@@ -4422,7 +4916,9 @@ $$\text{R}^+ \to \text{alkene} + \text{H}^+$$
 **Definition 7 (E1cB):** Elimination, unimolecular, conjugate base, deprotonation first, then
 leaving group departs.
 
-$$\text{Base} + \text{H–C–C–LG} \to \text{C}^--\text{C–LG} \to \text{alkene} + \text{LG}^-$$
+$$
+\text{Base} + \text{H–C–C–LG} \to \text{C}^--\text{C–LG} \to \text{alkene} + \text{LG}^-
+$$
 
 Favored when the leaving group is poor but the $\alpha$-H is acidic (e.g., carbonyl compounds).
 
@@ -4442,7 +4938,9 @@ Favored when the leaving group is poor but the $\alpha$-H is acidic (e.g., carbo
 **Theorem 6 (Markovnikov's Rule):** In electrophilic addition to an unsymmetrical alkene, the
 electrophile adds to the carbon with more hydrogen atoms (the less substituted carbon).
 
-$$\text{HBr} + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHBrCH}_3 \quad (\text{major})$$
+$$
+\text{HBr} + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHBrCH}_3 \quad (\text{major})
+$$
 
 Mechanism: $\pi$ bond attacks electrophile $\to$ carbocation $\to$ nucleophile attack.
 
@@ -4452,15 +4950,21 @@ Mechanism: $\pi$ bond attacks electrophile $\to$ carbocation $\to$ nucleophile a
 
 With HBr and peroxides (radical mechanism):
 
-$$\text{HBr} + \text{ROOR} \to \text{radical chain} \to \text{anti-Markovnikov product}$$
+$$
+\text{HBr} + \text{ROOR} \to \text{radical chain} \to \text{anti-Markovnikov product}
+$$
 
-$$\text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHCH}_2\text{Br} \quad (\text{anti-Markovnikov})$$
+$$
+\text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHCH}_2\text{Br} \quad (\text{anti-Markovnikov})
+$$
 
 ### 3.3 Addition to Carbonyl Compounds
 
 **Nucleophilic addition to C=O:**
 
-$$\text{Nu}^- + \text{R}_2\text{C}=O \to \text{R}_2\text{C(O}^-\text{)Nu} \xrightarrow{\text{H}^+} \text{R}_2\text{CH(OH)Nu}$$
+$$
+\text{Nu}^- + \text{R}_2\text{C}=O \to \text{R}_2\text{C(O}^-\text{)Nu} \xrightarrow{\text{H}^+} \text{R}_2\text{CH(OH)Nu}
+$$
 
 - The carbonyl carbon is electrophilic due to the polarized $\text{C}^\delta+=\text{O}^\delta-$
   bond.
@@ -4471,7 +4975,9 @@ $$\text{Nu}^- + \text{R}_2\text{C}=O \to \text{R}_2\text{C(O}^-\text{)Nu} \xrigh
 
 For $\alpha,\beta$-unsaturated carbonyls:
 
-$$\text{Nu}^- + \text{CH}_2=\text{CH}-\text{C}=O \to \begin{cases} \text{1,2-addition (direct)} \\ \text{1,4-addition (conjugate/Michael)} \end{cases}$$
+$$
+\text{Nu}^- + \text{CH}_2=\text{CH}-\text{C}=O \to \begin{cases} \text{1,2-addition (direct)} \\ \text{1,4-addition (conjugate/Michael)} \end{cases}
+$$
 
 **Theorem 7:** Hard nucleophiles (e.g., $^-$OH, $^-$CN) favor 1,2-addition. Soft nucleophiles (e.g.,
 enolates, thiols) favor 1,4-addition (Michael addition).
@@ -4481,22 +4987,30 @@ enolates, thiols) favor 1,4-addition (Michael addition).
 ### 4.1 Initiation, Propagation, Termination
 
 1. **Initiation:** Homolytic cleavage (heat, light, or initiator):
-   $$\text{R–R} \xrightarrow{\Delta \text{ or } h\nu} 2\,\text{R}^\bullet$$
+   $$
+   \text{R–R} \xrightarrow{\Delta \text{ or } h\nu} 2\,\text{R}^\bullet
+   $$
 
 2. **Propagation:** Radical reacts with stable molecule to generate a new radical:
-   $$\text{R}^\bullet + \text{H–C} \to \text{R–H} + \text{C}^\bullet$$
+   $$
+   \text{R}^\bullet + \text{H–C} \to \text{R–H} + \text{C}^\bullet
+   $$
 
 3. **Termination:** Two radicals combine: $$\text{R}^\bullet + \text{R}^\bullet \to \text{R–R}$$
 
 ### 4.2 Radical Stability
 
-$$\text{3°} > \text{2°} > \text{1°} > \text{CH}_3^\bullet > \text{H}^\bullet$$
+$$
+\text{3°} > \text{2°} > \text{1°} > \text{CH}_3^\bullet > \text{H}^\bullet
+$$
 
 Allylic and benzylic radicals are especially stable due to resonance.
 
 ### 4.3 Halogenation of Alkanes
 
-$$\text{RH} + \text{X}_2 \xrightarrow{h\nu} \text{RX} + \text{HX}$$
+$$
+\text{RH} + \text{X}_2 \xrightarrow{h\nu} \text{RX} + \text{HX}
+$$
 
 **Selectivity:**
 
@@ -4533,7 +5047,9 @@ pathway. The rule depends on:
 
 **Theorem 9 (Diels-Alder Reaction):** A $[4 + 2]$ cycloaddition between a diene and a dienophile:
 
-$$\text{diene} + \text{dienophile} \to \text{cyclohexene}$$
+$$
+\text{diene} + \text{dienophile} \to \text{cyclohexene}
+$$
 
 **Requirements:**
 
@@ -4560,12 +5076,16 @@ across a conjugated system of $i$ and $j$ atoms.
 
 **Theorem 10 (Cope Rearrangement):** A $[3,3]$ sigmatropic rearrangement of 1,5-dienes:
 
-$$\text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2 \rightleftharpoons \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2$$
+$$
+\text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2 \rightleftharpoons \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2
+$$
 
 Thermally allowed via a chair-like transition state.
 
 **Claisen rearrangement:** $[3,3]$ sigmatropic rearrangement of allyl vinyl ethers:
-$$\text{CH}_2=\text{CH}-\text{CH}_2-\text{O}-\text{CH}=\text{CH}_2 \to \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CHO}$$
+$$
+\text{CH}_2=\text{CH}-\text{CH}_2-\text{O}-\text{CH}=\text{CH}_2 \to \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CHO}
+$$
 
 ### 5.5 Electrocyclic Reactions
 
@@ -4580,7 +5100,9 @@ $$\text{CH}_2=\text{CH}-\text{CH}_2-\text{O}-\text{CH}=\text{CH}_2 \to \text{CH}
    arenium ion (sigma complex).
 2. **Deprotonation:** Loss of H$^+$ restores aromaticity.
 
-$$\text{ArH} + \text{E}^+ \to [\text{ArHE}]^+ \xrightarrow{-\text{H}^+} \text{ArE}$$
+$$
+\text{ArH} + \text{E}^+ \to [\text{ArHE}]^+ \xrightarrow{-\text{H}^+} \text{ArE}
+$$
 
 ### 6.2 Activating and Deactivating Groups
 
@@ -4610,7 +5132,9 @@ and/or para to the leaving group:
 1. Nucleophilic addition to the aromatic ring (forming a Meisenheimer complex).
 2. Elimination of the leaving group, restoring aromaticity.
 
-$$\text{Ar-X} + \text{Nu}^- \to [\text{Ar(X)(Nu)}]^- \to \text{Ar-Nu} + \text{X}^-$$
+$$
+\text{Ar-X} + \text{Nu}^- \to [\text{Ar(X)(Nu)}]^- \to \text{Ar-Nu} + \text{X}^-
+$$
 
 Favored by strong EWGs and good leaving groups.
 
@@ -4618,7 +5142,9 @@ Favored by strong EWGs and good leaving groups.
 
 Under extreme conditions (strong base, very high $T$), elimination via benzyne intermediate:
 
-$$\text{Ar-X} + \text{NH}_2^- \to \text{benzyne} \to \text{Ar-NH}_2$$
+$$
+\text{Ar-X} + \text{NH}_2^- \to \text{benzyne} \to \text{Ar-NH}_2
+$$
 
 No regioselectivity; products are in most cases mixtures.
 
@@ -4744,7 +5270,9 @@ URL: https://chemistry.wyattau.com/2-organic-chemistry/spectroscopy/
 
 **Theorem 1 (Beer-Lambert Law):**
 
-$$A = \varepsilon\,c\,l = \log_{10}\left(\frac{I_0}{I}\right)$$
+$$
+A = \varepsilon\,c\,l = \log_{10}\left(\frac{I_0}{I}\right)
+$$
 
 where $A$ is absorbance (unitless), $\varepsilon$ is the molar extinction coefficient (M$^{-1}$cm$^{-1}$),
 $c$ is concentration (M), and $l$ is path length (cm).
@@ -4768,7 +5296,9 @@ $c$ is concentration (M), and $l$ is path length (cm).
 
 For polyenes, the Woodward-Fieser rules estimate $\lambda_{\max}$:
 
-$$\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \text{substituent corrections}$$
+$$
+\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \text{substituent corrections}
+$$
 
 | Structural Feature        | $\lambda_{\max}$ Increment (nm) |
 | ------------------------ | ------------------------------ |
@@ -4780,7 +5310,9 @@ $$\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \
 **Example 1:** Predict $\lambda_{\max}$ for a diene with one exocyclic double bond and one alkyl
 substituent:
 
-$$\lambda_{\max} = 214 + 30 + 5 + 5 = 254 \text{ nm}$$
+$$
+\lambda_{\max} = 214 + 30 + 5 + 5 = 254 \text{ nm}
+$$
 
 $\blacksquare$
 
@@ -4798,7 +5330,9 @@ $\blacksquare$
 IR spectroscopy measures absorption of infrared radiation corresponding to vibrational transitions.
 The frequency of absorption depends on:
 
-$$\tilde{\nu} = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}}$$
+$$
+\tilde{\nu} = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}}
+$$
 
 where $k$ is the force constant (N/m) and $\mu = \frac{m_1 m_2}{m_1 + m_2}$ is the reduced mass.
 
@@ -4850,12 +5384,16 @@ align with or against an external magnetic field $B_0$.
 
 **Resonance condition:**
 
-$$\nu = \frac{\gamma}{2\pi}B_0$$
+$$
+\nu = \frac{\gamma}{2\pi}B_0
+$$
 
 where $\gamma$ is the gyromagnetic ratio. The frequency difference between two nuclei is expressed
 relative to a reference (TMS) as the **chemical shift**:
 
-$$\delta = \frac{\nu_{\text{sample}} - \nu_{\text{ref}}}{\nu_{\text{ref}}} \times 10^6 \text{ ppm}$$
+$$
+\delta = \frac{\nu_{\text{sample}} - \nu_{\text{ref}}}{\nu_{\text{ref}}} \times 10^6 \text{ ppm}
+$$
 
 ### 3.2 $^1\text{H}$ NMR: Chemical Shifts
 
@@ -4976,7 +5514,9 @@ $\beta$-cleavage. Common in carbonyl compounds.
 
 **Alpha cleavage:** Cleavage adjacent to a heteroatom or carbonyl:
 
-$$\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\text{O})\text{R}'$$
+$$
+\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\text{O})\text{R}'
+$$
 
 **Common fragmentation:**
 
@@ -4995,8 +5535,12 @@ $$\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\te
 **Definition 9 (High-Resolution MS):** Determines exact mass to 4–6 decimal places, distinguishing
 between formulas with the same nominal mass:
 
-$$\text{C}_6\text{H}_{12}\text{O}_6: \text{exact mass} = 180.0634$$
-$$\text{C}_8\text{H}_{12}\text{N}_2\text{O}_3: \text{exact mass} = 180.0899$$
+$$
+\text{C}_6\text{H}_{12}\text{O}_6: \text{exact mass} = 180.0634
+$$
+$$
+\text{C}_8\text{H}_{12}\text{N}_2\text{O}_3: \text{exact mass} = 180.0899
+$$
 
 ### 4.5 Nitrogen Rule
 
@@ -5021,7 +5565,9 @@ weight; a molecule with an even number (or zero) of nitrogen atoms has an even m
 
 **Theorem 6 (Degrees of Unsaturation):** For a formula C$_c$H$_h$N$_n$O$_o$X$_x$ (X = halogen):
 
-$$\text{DoU} = c + 1 - \frac{h - n + x}{2}$$
+$$
+\text{DoU} = c + 1 - \frac{h - n + x}{2}
+$$
 
 Each DoU corresponds to one double bond or ring.
 
@@ -5149,7 +5695,9 @@ URL: https://chemistry.wyattau.com/2-organic-chemistry/structure-and-bonding/
 **Definition 1 (sp$^3$ Hybridization):** One $s$ and three $p$ orbitals combine to form four
 equivalent sp$^3$ hybrid orbitals, arranged tetrahedrally with bond angles of 109.5°.
 
-$$\psi_{sp^3} = \frac{1}{2}(\psi_s + \psi_{p_x} + \psi_{p_y} + \psi_{p_z})$$
+$$
+\psi_{sp^3} = \frac{1}{2}(\psi_s + \psi_{p_x} + \psi_{p_y} + \psi_{p_z})
+$$
 
 Each sp$^3$ orbital has 25% $s$ character and 75% $p$ character. Examples: methane (CH$_4$), ethane,
 water (bent due to lone pairs).
@@ -5160,7 +5708,9 @@ water (bent due to lone pairs).
 equivalent sp$^2$ hybrid orbitals in a trigonal planar arrangement (120°). The remaining
 unhybridized $p_z$ orbital forms $\pi$ bonds.
 
-$$\psi_{sp^2} = \frac{1}{\sqrt{3}}\psi_s + \sqrt{\frac{2}{3}}\psi_p$$
+$$
+\psi_{sp^2} = \frac{1}{\sqrt{3}}\psi_s + \sqrt{\frac{2}{3}}\psi_p
+$$
 
 Each sp$^2$ orbital has 33.3% $s$ character. Examples: ethylene (C$_2$H$_4$), formaldehyde, benzene.
 
@@ -5170,7 +5720,9 @@ Each sp$^2$ orbital has 33.3% $s$ character. Examples: ethylene (C$_2$H$_4$), fo
 orbitals in a linear arrangement (180°). Two unhybridized $p$ orbitals form two perpendicular $\pi$
 bonds.
 
-$$\psi_{sp} = \frac{1}{\sqrt{2}}(\psi_s + \psi_p)$$
+$$
+\psi_{sp} = \frac{1}{\sqrt{2}}(\psi_s + \psi_p)
+$$
 
 Each sp orbital has 50% $s$ character. Examples: acetylene (C$_2$H$_2$), CO$_2$, HCN.
 
@@ -5178,9 +5730,13 @@ Each sp orbital has 50% $s$ character. Examples: acetylene (C$_2$H$_2$), CO$_2$,
 
 More $s$ character $\implies$ shorter, stronger bonds:
 
-$$\text{Bond length: } \text{sp}^3 > \text{sp}^2 > \text{sp}$$
+$$
+\text{Bond length: } \text{sp}^3 > \text{sp}^2 > \text{sp}
+$$
 
-$$\text{Bond strength: } \text{sp}^3 < \text{sp}^2 < \text{sp}$$
+$$
+\text{Bond strength: } \text{sp}^3 < \text{sp}^2 < \text{sp}
+$$
 
 | Hybridization | $s$ Character | C–C Bond Length (pm) | C–C Bond Energy (kJ/mol) |
 | ------------- | ------------- | -------------------- | ------------------------ |
@@ -5350,16 +5906,22 @@ rotate plane-polarized light in opposite directions.
 
 For double bonds (E/Z):
 
-$$\text{E (Entgegen): } \text{higher priority groups on opposite sides}$$
+$$
+\text{E (Entgegen): } \text{higher priority groups on opposite sides}
+$$
 
-$$\text{Z (Zusammen): } \text{higher priority groups on same side}$$
+$$
+\text{Z (Zusammen): } \text{higher priority groups on same side}
+$$
 
 ### 6.3 Optical Activity
 
 **Definition 11 (Optical Activity):** Enantiomers rotate plane-polarized light. The specific
 rotation:
 
-$$[\alpha] = \frac{\alpha_{\text{obs}}}{c \cdot l}$$
+$$
+[\alpha] = \frac{\alpha_{\text{obs}}}{c \cdot l}
+$$
 
 where $\alpha_{\text{obs}}$ is the observed rotation (degrees), $c$ is concentration (g/mL), and $l$
 is path length (dm).
@@ -5401,7 +5963,9 @@ point where bonds meet; the back carbon by a circle.
 
 The dihedral angle $\phi$ between H atoms on adjacent carbons determines the energy:
 
-$$E(\phi) = \frac{V_0}{2}(1 + \cos 3\phi)$$
+$$
+E(\phi) = \frac{V_0}{2}(1 + \cos 3\phi)
+$$
 
 - **Staggered** ($\phi = 60°, 180°, 300°$): minimum energy.
 - **Eclipsed** ($\phi = 0°, 120°, 240°$): maximum energy ($\sim 12$ kJ/mol above staggered).
@@ -5450,11 +6014,15 @@ equatorial positions.
 
 For a monosubstituted cyclohexane:
 
-$$K_{\text{eq}} = \frac{[\text{equatorial}]}{[\text{axial}]} = e^{-\Delta G/RT}$$
+$$
+K_{\text{eq}} = \frac{[\text{equatorial}]}{[\text{axial}]} = e^{-\Delta G/RT}
+$$
 
 **Example 3:** For methylcyclohexane at 298 K with $\Delta G = 7.3$ kJ/mol:
 
-$$K_{\text{eq}} = e^{-7300/(8.314 \times 298)} = e^{-2.95} \approx 19$$
+$$
+K_{\text{eq}} = e^{-7300/(8.314 \times 298)} = e^{-2.95} \approx 19
+$$
 
 The equatorial conformer is favored ~95%.
 
@@ -5602,7 +6170,9 @@ URL: https://chemistry.wyattau.com/2-organic-chemistry/synthesis/
 (TM) is mentally disassembled into simpler precursors by applying known reactions in reverse. Each
 step is denoted by the retrosynthetic arrow $\Rightarrow$.
 
-$$\text{TM} \Rightarrow \text{Precursor}_1 \Rightarrow \text{Precursor}_2 \Rightarrow \ldots \Rightarrow \text{Starting Materials}$$
+$$
+\text{TM} \Rightarrow \text{Precursor}_1 \Rightarrow \text{Precursor}_2 \Rightarrow \ldots \Rightarrow \text{Starting Materials}
+$$
 
 Developed by E.J. Corey (Nobel Prize, 1990).
 
@@ -5618,7 +6188,9 @@ reacting species. A synthon may or may not correspond to a real reagent.
 
 **Example 1:** Disconnection of a secondary alcohol:
 
-$$\text{R}–\text{CH(OH)}–\text{R}" \xRightarrow{\text{disconnect C–OH}} \text{RCHO} + \text{R}'\text{MgBr}$$
+$$
+\text{R}–\text{CH(OH)}–\text{R}" \xRightarrow{\text{disconnect C–OH}} \text{RCHO} + \text{R}'\text{MgBr}
+$$
 
 Synthons: $^+\text{R}'$ (electrophile, equivalent = R'Br) and $^-\text{OH}$ (nucleophile, equivalent
 = formaldehyde or a carbonyl).
@@ -5657,23 +6229,41 @@ $\blacksquare$
 
 **Theorem 2 (FGI Map):** The major functional group interconversions:
 
-$$\text{Alkane} \xrightarrow{\text{X}_2/h\nu} \text{Alkyl halide} \xrightarrow{\text{NaOH}} \text{Alcohol} \xrightarrow{[\text{O}]} \text{Aldehyde} \xrightarrow{[\text{O}]} \text{Carboxylic acid}$$
+$$
+\text{Alkane} \xrightarrow{\text{X}_2/h\nu} \text{Alkyl halide} \xrightarrow{\text{NaOH}} \text{Alcohol} \xrightarrow{[\text{O}]} \text{Aldehyde} \xrightarrow{[\text{O}]} \text{Carboxylic acid}
+$$
 
-$$\text{Alcohol} \xrightarrow{\text{PBr}_3} \text{Alkyl bromide}$$
+$$
+\text{Alcohol} \xrightarrow{\text{PBr}_3} \text{Alkyl bromide}
+$$
 
-$$\text{Alcohol} \xrightarrow{\text{SOCl}_2} \text{Alkyl chloride}$$
+$$
+\text{Alcohol} \xrightarrow{\text{SOCl}_2} \text{Alkyl chloride}
+$$
 
-$$\text{Alcohol} \xrightarrow{\text{TsCl}} \text{Tosylate} \xrightarrow{\text{Nu}^-} \text{Nu–R}$$
+$$
+\text{Alcohol} \xrightarrow{\text{TsCl}} \text{Tosylate} \xrightarrow{\text{Nu}^-} \text{Nu–R}
+$$
 
-$$\text{Aldehyde} \xrightarrow{\text{NaBH}_4} \text{Primary alcohol}$$
+$$
+\text{Aldehyde} \xrightarrow{\text{NaBH}_4} \text{Primary alcohol}
+$$
 
-$$\text{Ketone} \xrightarrow{\text{NaBH}_4 \text{ or LiAlH}_4} \text{Secondary alcohol}$$
+$$
+\text{Ketone} \xrightarrow{\text{NaBH}_4 \text{ or LiAlH}_4} \text{Secondary alcohol}
+$$
 
-$$\text{Carboxylic acid} \xrightarrow{\text{LiAlH}_4} \text{Primary alcohol}$$
+$$
+\text{Carboxylic acid} \xrightarrow{\text{LiAlH}_4} \text{Primary alcohol}
+$$
 
-$$\text{Ester} \xrightarrow{\text{LiAlH}_4} \text{Primary alcohol}$$
+$$
+\text{Ester} \xrightarrow{\text{LiAlH}_4} \text{Primary alcohol}
+$$
 
-$$\text{Nitrile} \xrightarrow{\text{LiAlH}_4} \text{Primary amine}$$
+$$
+\text{Nitrile} \xrightarrow{\text{LiAlH}_4} \text{Primary amine}
+$$
 
 ### 2.2 Oxidation and Reduction
 
@@ -5744,7 +6334,9 @@ its participation in a reaction, removable under conditions that do not affect o
 **Theorem 4 (Grignard Reaction):** Organomagnesium halides (Grignard reagents) act as nucleophiles
 toward carbonyl compounds:
 
-$$\text{R–MgBr} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C(OMgBr)R} \xrightarrow{\text{H}_3\text{O}^+} \text{R}'_2\text{CHOH–R}$$
+$$
+\text{R–MgBr} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C(OMgBr)R} \xrightarrow{\text{H}_3\text{O}^+} \text{R}'_2\text{CHOH–R}
+$$
 
 | Carbonyl Substrate | Product            |
 | ------------------ | ------------------ |
@@ -5761,7 +6353,9 @@ $\equiv$CH). They also react with epoxides (ring opening).
 
 **Theorem 5 (Wittig Reaction):** Phosphorus ylides convert carbonyls to alkenes:
 
-$$\text{Ph}_3\text{P}=\text{CHR} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C}=\text{CHR} + \text{Ph}_3\text{PO}$$
+$$
+\text{Ph}_3\text{P}=\text{CHR} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C}=\text{CHR} + \text{Ph}_3\text{PO}
+$$
 
 - Non-stabilized ylides (R = alkyl): Z-alkene favored (kinetic).
 - Stabilized ylides (R = COOR, CN): E-alkene favored (thermodynamic).
@@ -5772,7 +6366,9 @@ $$\text{Ph}_3\text{P}=\text{CHR} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C}
 
 **Theorem 6 (Aldol Reaction):** Enolates of carbonyl compounds add to other carbonyl compounds:
 
-$$\text{CH}_3\text{CHO} \xrightarrow{\text{OH}^-} \text{CH}_2=\text{CH(O}^-)\text{CHO} \xrightarrow{\text{CH}_3\text{CHO}} \text{CH}_3\text{CH(OH)}\text{CH}_2\text{CHO}$$
+$$
+\text{CH}_3\text{CHO} \xrightarrow{\text{OH}^-} \text{CH}_2=\text{CH(O}^-)\text{CHO} \xrightarrow{\text{CH}_3\text{CHO}} \text{CH}_3\text{CH(OH)}\text{CH}_2\text{CHO}
+$$
 
 **Features:**
 
@@ -5783,26 +6379,34 @@ $$\text{CH}_3\text{CHO} \xrightarrow{\text{OH}^-} \text{CH}_2=\text{CH(O}^-)\tex
 
 **Directed aldol with LDA:**
 
-$$\text{RCHO} \xrightarrow{\text{LDA}, -78°C} \text{RCH}=\text{CHO}^- \xrightarrow{\text{R'}_2\text{C}=O} \text{RCH(OH)CHR'}_2\text{C}=O$$
+$$
+\text{RCHO} \xrightarrow{\text{LDA}, -78°C} \text{RCH}=\text{CHO}^- \xrightarrow{\text{R'}_2\text{C}=O} \text{RCH(OH)CHR'}_2\text{C}=O
+$$
 
 ### 4.4 Claisen and Dieckmann Condensation
 
 **Theorem 7 (Claisen Condensation):** Two esters condense to form a $\beta$-keto ester:
 
-$$\text{CH}_3\text{COOEt} \xrightarrow{\text{OEt}^-} \text{CH}_3\text{C(OEt)}=\text{CHCOOEt} \xrightarrow{\text{H}^+} \text{CH}_3\text{COCH}_2\text{COOEt}$$
+$$
+\text{CH}_3\text{COOEt} \xrightarrow{\text{OEt}^-} \text{CH}_3\text{C(OEt)}=\text{CHCOOEt} \xrightarrow{\text{H}^+} \text{CH}_3\text{COCH}_2\text{COOEt}
+$$
 
 **Dieckmann condensation:** Intramolecular Claisen; cyclizes diesters to 5- and 6-membered
 $\beta$-keto esters.
 
 **Acetoacetic ester synthesis:** Alkylation of ethyl acetoacetate, followed by decarboxylation:
 
-$$\text{CH}_3\text{COCH}_2\text{COOEt} \xrightarrow{\text{1. OEt}^- \text{ 2. R–X}} \text{CH}_3\text{COCH(R)COOEt} \xrightarrow{\text{H}_3\text{O}^+, \Delta} \text{CH}_3\text{COCH}_2\text{R}$$
+$$
+\text{CH}_3\text{COCH}_2\text{COOEt} \xrightarrow{\text{1. OEt}^- \text{ 2. R–X}} \text{CH}_3\text{COCH(R)COOEt} \xrightarrow{\text{H}_3\text{O}^+, \Delta} \text{CH}_3\text{COCH}_2\text{R}
+$$
 
 ### 4.5 Diels-Alder Reaction
 
 **Theorem 8 (Diels-Alder in Synthesis):** A powerful [4+2] cycloaddition forming six-membered rings:
 
-$$\text{diene} + \text{dienophile} \to \text{cyclohexene derivative}$$
+$$
+\text{diene} + \text{dienophile} \to \text{cyclohexene derivative}
+$$
 
 **Synthetic advantages:**
 
@@ -5815,32 +6419,44 @@ $$\text{diene} + \text{dienophile} \to \text{cyclohexene derivative}$$
 
 **Theorem 9 (Friedel-Crafts Alkylation):**
 
-$$\text{ArH} + \text{RCl} \xrightarrow{\text{AlCl}_3} \text{ArR} + \text{HCl}$$
+$$
+\text{ArH} + \text{RCl} \xrightarrow{\text{AlCl}_3} \text{ArR} + \text{HCl}
+$$
 
 **Limitation:** Can undergo polyalkylation and carbocation rearrangement.
 
 **Theorem 10 (Friedel-Crafts Acylation):**
 
-$$\text{ArH} + \text{RCOCl} \xrightarrow{\text{AlCl}_3} \text{ArCOR} + \text{HCl}$$
+$$
+\text{ArH} + \text{RCOCl} \xrightarrow{\text{AlCl}_3} \text{ArCOR} + \text{HCl}
+$$
 
 **Advantage over alkylation:** No rearrangement; deactivates the ring (prevents polyacylation).
 The acyl group can be reduced to alkyl (Clemmensen or Wolff-Kishner):
 
-$$\text{ArCOR} \xrightarrow{\text{Zn(Hg)/HCl or NH}_2\text{NH}_2/\text{KOH}} \text{ArCH}_2\text{R}$$
+$$
+\text{ArCOR} \xrightarrow{\text{Zn(Hg)/HCl or NH}_2\text{NH}_2/\text{KOH}} \text{ArCH}_2\text{R}
+$$
 
 ### 4.7 Additional C–C Bond Forming Reactions
 
 **Heck reaction:** Palladium-catalyzed arylation of alkenes.
 
-$$\text{Ar–X} + \text{CH}_2=\text{CHR} \xrightarrow{\text{Pd(0)}, \text{base}} \text{Ar–CH}=\text{CHR}$$
+$$
+\text{Ar–X} + \text{CH}_2=\text{CHR} \xrightarrow{\text{Pd(0)}, \text{base}} \text{Ar–CH}=\text{CHR}
+$$
 
 **Suzuki coupling:** Palladium-catalyzed cross-coupling of boronic acids with aryl/vinyl halides.
 
-$$\text{Ar–X} + \text{Ar'–B(OH)}_2 \xrightarrow{\text{Pd(0)}, \text{base}} \text{Ar–Ar'}$$
+$$
+\text{Ar–X} + \text{Ar'–B(OH)}_2 \xrightarrow{\text{Pd(0)}, \text{base}} \text{Ar–Ar'}
+$$
 
 **Sonogashira coupling:** Cross-coupling with terminal alkynes.
 
-$$\text{Ar–X} + \text{HC}\equiv\text{CR} \xrightarrow{\text{Pd(0)}, \text{CuI}, \text{base}} \text{Ar–C}\equiv\text{CR}$$
+$$
+\text{Ar–X} + \text{HC}\equiv\text{CR} \xrightarrow{\text{Pd(0)}, \text{CuI}, \text{base}} \text{Ar–C}\equiv\text{CR}
+$$
 
 **Mizoroki-Heck:** Aryl halide + alkene → aryl-substituted alkene.
 
@@ -5851,12 +6467,18 @@ $$\text{Ar–X} + \text{HC}\equiv\text{CR} \xrightarrow{\text{Pd(0)}, \text{CuI}
 **Definition 6 (Convergent Synthesis):** Two or more fragments are prepared separately and then
 joined in the final step. Higher overall yield.
 
-$$\text{A} \to \text{B} \quad \text{C} \to \text{D}$$
-$$\text{B} + \text{D} \to \text{TM}$$
+$$
+\text{A} \to \text{B} \quad \text{C} \to \text{D}
+$$
+$$
+\text{B} + \text{D} \to \text{TM}
+$$
 
 **Definition 7 (Linear Synthesis):** Each step builds upon the previous one. Lower overall yield.
 
-$$\text{SM} \to \text{I}_1 \to \text{I}_2 \to \ldots \to \text{TM}$$
+$$
+\text{SM} \to \text{I}_1 \to \text{I}_2 \to \ldots \to \text{TM}
+$$
 
 For $n$ steps at 90% yield: linear gives $0.9^n$; convergent gives higher overall yield.
 
@@ -5872,9 +6494,13 @@ For $n$ steps at 90% yield: linear gives $0.9^n$; convergent gives higher overal
 
 **Retrosynthesis:**
 
-$$\text{4-MeO-C}_6\text{H}_4\text{-COCH}_3 \Rightarrow \text{4-MeO-C}_6\text{H}_5 + \text{CH}_3\text{COCl} \quad \text{(Friedel-Crafts acylation)}$$
+$$
+\text{4-MeO-C}_6\text{H}_4\text{-COCH}_3 \Rightarrow \text{4-MeO-C}_6\text{H}_5 + \text{CH}_3\text{COCl} \quad \text{(Friedel-Crafts acylation)}
+$$
 
-$$\text{4-MeO-C}_6\text{H}_5 \Rightarrow \text{C}_6\text{H}_5\text{-OH} \xRightarrow{\text{CH}_3\text{I}} \text{C}_6\text{H}_5\text{-OCH}_3$$
+$$
+\text{4-MeO-C}_6\text{H}_5 \Rightarrow \text{C}_6\text{H}_5\text{-OH} \xRightarrow{\text{CH}_3\text{I}} \text{C}_6\text{H}_5\text{-OCH}_3
+$$
 
 **Forward synthesis:**
 
@@ -5890,7 +6516,9 @@ $\blacksquare$
 **Definition 8 (Enantioselectivity):** The preferential formation of one enantiomer over the other.
 Measured by enantiomeric excess (ee):
 
-$$ee = \frac{|\text{major} - \text{minor}|}{\text{major} + \text{minor}} \times 100\%$$
+$$
+ee = \frac{|\text{major} - \text{minor}|}{\text{major} + \text{minor}} \times 100\%
+$$
 
 ### 6.2 Chiral Auxiliaries
 
@@ -6056,7 +6684,9 @@ Orbital types: $\ell = 0$ ($s$), $\ell = 1$ ($p$), $\ell = 2$ ($d$), $\ell = 3$ 
 
 **Theorem 1 (Node Count):** Total nodes $= n - 1$.
 
-$$\text{Radial nodes} = n - \ell - 1, \quad \text{Angular nodes} = \ell$$
+$$
+\text{Radial nodes} = n - \ell - 1, \quad \text{Angular nodes} = \ell
+$$
 
 | Orbital | Radial Nodes | Angular Nodes | Shape                  |
 | ------- | ------------ | ------------- | ---------------------- |
@@ -6088,7 +6718,9 @@ due to repulsion by other electrons.
 **Theorem 2 (Slater's Rules):** The effective nuclear charge $Z_{\text{eff}}$ experienced by an
 electron is:
 
-$$Z_{\text{eff}} = Z - S$$
+$$
+Z_{\text{eff}} = Z - S
+$$
 
 where $Z$ is the atomic number and $S$ is the shielding constant.
 
@@ -6107,9 +6739,13 @@ $1s^2\,2s^2\,2p^6\,3s^2\,3p^5$).
 Same group (other 3p electrons): $4 \times 0.35 = 1.40$ $n - 1$ shell (3s + 2s2p):
 $2 \times 0.85 + 8 \times 0.85 = 8.50$ $n - 2$ and below (1s): $2 \times 1.00 = 2.00$
 
-$$S = 1.40 + 8.50 + 2.00 = 11.90$$
+$$
+S = 1.40 + 8.50 + 2.00 = 11.90
+$$
 
-$$Z_{\text{eff}} = 17 - 11.90 = 5.10$$
+$$
+Z_{\text{eff}} = 17 - 11.90 = 5.10
+$$
 
 $\blacksquare$
 
@@ -6131,7 +6767,9 @@ element (covalent radius) or nearest neighbors in a metallic crystal (metallic r
 - **Across a period (left to right):** Atomic radius decreases ($Z_{\text{eff}}$ increases, pulling
   electrons closer).
 
-$$r \propto \frac{n^2}{Z_{\text{eff}}}$$
+$$
+r \propto \frac{n^2}{Z_{\text{eff}}}
+$$
 
 **Example 2:** Atomic radii (pm): Na (186) > Mg (160) > Al (143) > Si (117) > P (110) > S (104) > Cl
 (99) > Ar (71)
@@ -6143,7 +6781,9 @@ $\blacksquare$
 **Definition 5 (First Ionization Energy):** The energy required to remove the outermost electron
 from a gaseous atom:
 
-$$\text{X}(g) \to \text{X}^+(g) + e^- \quad \Delta H = \text{IE}_1$$
+$$
+\text{X}(g) \to \text{X}^+(g) + e^- \quad \Delta H = \text{IE}_1
+$$
 
 **Trends:**
 
@@ -6156,7 +6796,9 @@ $$\text{X}(g) \to \text{X}^+(g) + e^- \quad \Delta H = \text{IE}_1$$
 - $\text{IE}(\text{N}) > \text{IE}(\text{O})$: 2p$^4$ has paired electrons (repulsion).
 
 **Successive ionization energies:** Large jumps indicate the removal of core electrons:
-$$\text{IE}_1 < \text{IE}_2 < \text{IE}_3 \ll \text{IE}_4$$
+$$
+\text{IE}_1 < \text{IE}_2 < \text{IE}_3 \ll \text{IE}_4
+$$
 
 The jump from $\text{IE}_3$ to $\text{IE}_4$ for aluminum indicates removal from the $n = 2$ shell.
 
@@ -6165,7 +6807,9 @@ The jump from $\text{IE}_3$ to $\text{IE}_4$ for aluminum indicates removal from
 **Definition 6 (Electron Affinity):** The energy released when an electron is added to a gaseous
 atom:
 
-$$\text{X}(g) + e^- \to \text{X}^-(g) \quad \Delta H = \text{EA}$$
+$$
+\text{X}(g) + e^- \to \text{X}^-(g) \quad \Delta H = \text{EA}
+$$
 
 **Trends:**
 
@@ -6185,11 +6829,15 @@ toward itself.
 
 **Pauling scale:** Based on bond energy differences:
 
-$$\chi_A - \chi_B = 0.102\sqrt{D_{AB} - \frac{D_{AA} + D_{BB}}{2}}$$
+$$
+\chi_A - \chi_B = 0.102\sqrt{D_{AB} - \frac{D_{AA} + D_{BB}}{2}}
+$$
 
 **Mulliken scale:** Average of ionization energy and electron affinity:
 
-$$\chi_M = \frac{\text{IE} + \text{EA}}{2}$$
+$$
+\chi_M = \frac{\text{IE} + \text{EA}}{2}
+$$
 
 (normalized to Pauling scale)
 
@@ -6226,7 +6874,9 @@ similar properties due to similar $Z_{\text{eff}}$/radius ratios:
 **Theorem 3 (Lanthanide Contraction):** Across the lanthanide series (La to Lu), the 4f electrons
 poorly shield the nuclear charge. Each element has a slightly smaller radius than expected:
 
-$$\text{La}^{3+} (103 \text{ pm}) > \text{Lu}^{3+} (86 \text{ pm})$$
+$$
+\text{La}^{3+} (103 \text{ pm}) > \text{Lu}^{3+} (86 \text{ pm})
+$$
 
 **Consequences:**
 
@@ -6240,7 +6890,9 @@ $$\text{La}^{3+} (103 \text{ pm}) > \text{Lu}^{3+} (86 \text{ pm})$$
 **Definition 10 (Inert Pair Effect):** For heavier p-block elements (particularly Group 13–15), the
 $ns^2$ electron pair is reluctant to participate in bonding, favoring lower oxidation states:
 
-$$\text{Tl}^+ > \text{Tl}^{3+}, \quad \text{Pb}^{2+} > \text{Pb}^{4+}, \quad \text{Bi}^{3+} > \text{Bi}^{5+}$$
+$$
+\text{Tl}^+ > \text{Tl}^{3+}, \quad \text{Pb}^{2+} > \text{Pb}^{4+}, \quad \text{Bi}^{3+} > \text{Bi}^{5+}
+$$
 
 **Cause:** Relativistic stabilization of the $ns$ orbital (contracted, lower in energy).
 
@@ -6281,8 +6933,12 @@ For $d^5$: $C(5,2) = 10$ pairs of parallel spins (maximum exchange stabilization
 When transition metals form cations, the $ns$ electrons are lost first (even though $ns$ fills
 before $(n-1)d$):
 
-$$\text{Fe}: [\text{Ar}]\,3d^6\,4s^2 \to \text{Fe}^{2+}: [\text{Ar}]\,3d^6$$
-$$\text{Fe}: [\text{Ar}]\,3d^6\,4s^2 \to \text{Fe}^{3+}: [\text{Ar}]\,3d^5$$
+$$
+\text{Fe}: [\text{Ar}]\,3d^6\,4s^2 \to \text{Fe}^{2+}: [\text{Ar}]\,3d^6
+$$
+$$
+\text{Fe}: [\text{Ar}]\,3d^6\,4s^2 \to \text{Fe}^{3+}: [\text{Ar}]\,3d^5
+$$
 
 ### 6.2 Isoelectronic Series
 
@@ -6437,7 +7093,9 @@ In an octahedral field, the five $d$ orbitals split into two groups:
 
 **Theorem 1 (Octahedral Crystal Field Splitting):**
 
-$$\Delta_o = 10\,Dq$$
+$$
+\Delta_o = 10\,Dq
+$$
 
 - **$e_g$ orbitals ($d_{z^2}$, $d_{x^2-y^2}$):** Higher energy, point directly at ligands.
 - **$t_{2g}$ orbitals ($d_{xy}$, $d_{xz}$, $d_{yz}$):** Lower energy, point between ligands.
@@ -6455,20 +7113,26 @@ $\blacksquare$
 
 **Theorem 2 (Tetrahedral Crystal Field Splitting):**
 
-$$\Delta_t = \frac{4}{9}\Delta_o$$
+$$
+\Delta_t = \frac{4}{9}\Delta_o
+$$
 
 The splitting is inverted and smaller:
 
 - **$e$ orbitals (lower):** $d_{z^2}$, $d_{x^2-y^2}$
 - **$t_2$ orbitals (higher):** $d_{xy}$, $d_{xz}$, $d_{yz}$
 
-$$E(t_2) = +0.6\,\Delta_t, \quad E(e) = -0.4\,\Delta_t$$
+$$
+E(t_2) = +0.6\,\Delta_t, \quad E(e) = -0.4\,\Delta_t
+$$
 
 ### 1.4 Square Planar Complexes
 
 Derived from octahedral by removing the two axial ligands. The $d$-orbital energies:
 
-$$d_{x^2-y^2} > d_{xy} > d_{z^2} > d_{xz}, d_{yz}$$
+$$
+d_{x^2-y^2} > d_{xy} > d_{z^2} > d_{xz}, d_{yz}
+$$
 
 Square planar complexes are common for $d^8$ metals (Ni$^{2+}$, Pd$^{2+}$, Pt$^{2+}$, Au$^{3+}$).
 
@@ -6485,17 +7149,23 @@ Square planar complexes are common for $d^8$ metals (Ni$^{2+}$, Pd$^{2+}$, Pt$^{
 **Definition 2 (Spectrochemical Series):** Ranking of ligands by their ability to split $d$ orbitals
 (weak-field to strong-field):
 
-$$\text{I}^- < \text{Br}^- < \text{Cl}^- < \text{SCN}^- < \text{F}^- < \text{OH}^- < \text{ox}^{2-} < \text{H}_2\text{O} < \text{NCS}^- < \text{NH}_3 < \text{en} < \text{bipy} < \text{NO}_2^- < \text{CN}^- < \text{CO}$$
+$$
+\text{I}^- < \text{Br}^- < \text{Cl}^- < \text{SCN}^- < \text{F}^- < \text{OH}^- < \text{ox}^{2-} < \text{H}_2\text{O} < \text{NCS}^- < \text{NH}_3 < \text{en} < \text{bipy} < \text{NO}_2^- < \text{CN}^- < \text{CO}
+$$
 
 **Spectrochemical series of metals:**
 
-$$\text{Mn}^{2+} < \text{Ni}^{2+} < \text{Co}^{2+} < \text{Fe}^{2+} < \text{Fe}^{3+} < \text{Cr}^{3+} < \text{Co}^{3+} < \text{Rh}^{3+} < \text{Ir}^{3+} < \text{Pt}^{4+}$$
+$$
+\text{Mn}^{2+} < \text{Ni}^{2+} < \text{Co}^{2+} < \text{Fe}^{2+} < \text{Fe}^{3+} < \text{Cr}^{3+} < \text{Co}^{3+} < \text{Rh}^{3+} < \text{Ir}^{3+} < \text{Pt}^{4+}
+$$
 
 Higher oxidation states and heavier metals produce larger $\Delta$.
 
 ### 2.2 Factors Affecting $\Delta$
 
-$$\Delta \propto \frac{Z\,q}{r^5}$$
+$$
+\Delta \propto \frac{Z\,q}{r^5}
+$$
 
 where $Z$ is the metal charge, $q$ is the ligand charge, and $r$ is the metal-ligand distance.
 
@@ -6538,18 +7208,24 @@ $\blacksquare$
 
 **Definition 3 (CFSE):** The net energy lowering of a complex relative to the barycenter:
 
-$$\text{CFSE} = n_{t_{2g}}(-4\,Dq) + n_{e_g}(+6\,Dq) + n_p\,P$$
+$$
+\text{CFSE} = n_{t_{2g}}(-4\,Dq) + n_{e_g}(+6\,Dq) + n_p\,P
+$$
 
 where $n_{t_{2g}}$ and $n_{e_g}$ are electron counts, $P$ is the pairing energy, and $n_p$ is the
 number of extra electron pairs relative to the high-spin configuration.
 
 **Example 3:** CFSE for $d^6$ low-spin octahedral:
 
-$$\text{CFSE} = 6(-4\,Dq) + 0(+6\,Dq) + 3P = -24\,Dq + 3P$$
+$$
+\text{CFSE} = 6(-4\,Dq) + 0(+6\,Dq) + 3P = -24\,Dq + 3P
+$$
 
 For $d^6$ high-spin:
 
-$$\text{CFSE} = 4(-4\,Dq) + 2(+6\,Dq) + 0P = -4\,Dq$$
+$$
+\text{CFSE} = 4(-4\,Dq) + 2(+6\,Dq) + 0P = -4\,Dq
+$$
 
 $\blacksquare$
 
@@ -6624,7 +7300,9 @@ axis to lower the energy of the singly occupied orbital.
 
 **Theorem 5 (Spin-Only Magnetic Moment):**
 
-$$\mu_{\text{eff}} = \sqrt{n(n+2)}\,\mu_B$$
+$$
+\mu_{\text{eff}} = \sqrt{n(n+2)}\,\mu_B
+$$
 
 where $n$ is the number of unpaired electrons and $\mu_B = 9.274 \times 10^{-24}$ J/T is the Bohr
 magneton.
@@ -6650,18 +7328,24 @@ magneton.
 **Definition 5 (Formation Constant):** For the reaction
 $\text{M}^{n+} + \text{L} \rightleftharpoons \text{ML}^{n+}$:
 
-$$K_1 = \frac{[\text{ML}^{n+}]}{[\text{M}^{n+}][\text{L}]}$$
+$$
+K_1 = \frac{[\text{ML}^{n+}]}{[\text{M}^{n+}][\text{L}]}
+$$
 
 **Overall formation constant:**
 
-$$\beta_n = K_1 \cdot K_2 \cdot \ldots \cdot K_n = \frac{[\text{ML}_n^{n+}]}{[\text{M}^{n+}][\text{L}]^n}$$
+$$
+\beta_n = K_1 \cdot K_2 \cdot \ldots \cdot K_n = \frac{[\text{ML}_n^{n+}]}{[\text{M}^{n+}][\text{L}]^n}
+$$
 
 ### 8.2 Chelate Effect
 
 **Theorem 6 (Chelate Effect):** Multidentate ligands form more stable complexes than equivalent
 monodentate ligands:
 
-$$[\text{Ni(en)}_3]^{2+} \text{ (log } \beta_3 = 18.8) \gg [\text{Ni(NH}_3)_6]^{2+} \text{ (log } \beta_6 = 8.6)$$
+$$
+[\text{Ni(en)}_3]^{2+} \text{ (log } \beta_3 = 18.8) \gg [\text{Ni(NH}_3)_6]^{2+} \text{ (log } \beta_6 = 8.6)
+$$
 
 **Explanation:**
 
@@ -6674,7 +7358,9 @@ $$[\text{Ni(en)}_3]^{2+} \text{ (log } \beta_3 = 18.8) \gg [\text{Ni(NH}_3)_6]^{
 
 **Theorem 7 (Irving-Williams Series):** The stability of M$^{2+}$ complexes with a given ligand:
 
-$$\text{Mn}^{2+} < \text{Fe}^{2+} < \text{Co}^{2+} < \text{Ni}^{2+} < \text{Cu}^{2+} > \text{Zn}^{2+}$$
+$$
+\text{Mn}^{2+} < \text{Fe}^{2+} < \text{Co}^{2+} < \text{Ni}^{2+} < \text{Cu}^{2+} > \text{Zn}^{2+}
+$$
 
 Explained by a combination of CFSE (peaks at $d^8$ Ni$^{2+}$) and Jahn-Teller effects (extra
 stabilization for Cu$^{2+}$, $d^9$).
@@ -6694,14 +7380,18 @@ are inert. High-spin complexes and $d^{10}$ are labile.
 **S$\_\text{N}$1 (Dissociative):** First, a ligand leaves, creating a 5-coordinate intermediate;
 then the new ligand enters.
 
-$$[\text{ML}_6] \to [\text{ML}_5] + \text{L} \to [\text{ML}_5\text{L}"]$$
+$$
+[\text{ML}_6] \to [\text{ML}_5] + \text{L} \to [\text{ML}_5\text{L}"]
+$$
 
 Rate: $v = k[\text{complex}]$ (independent of incoming ligand).
 
 **S$\_\text{N}$2 (Associative):** The incoming ligand attacks to form a 7-coordinate intermediate;
 then a ligand leaves.
 
-$$[\text{ML}_6] + \text{L}' \to [\text{ML}_6\text{L}'] \to [\text{ML}_5\text{L}'] + \text{L}$$
+$$
+[\text{ML}_6] + \text{L}' \to [\text{ML}_6\text{L}'] \to [\text{ML}_5\text{L}'] + \text{L}
+$$
 
 Rate: $v = k[\text{complex}][\text{L}']$.
 
@@ -6712,7 +7402,9 @@ Rate: $v = k[\text{complex}][\text{L}']$.
 
 **Trans effect series:**
 
-$$\text{CN}^- \approx \text{CO} \approx \text{C}_2\text{H}_4 > \text{PR}_3 > \text{H}^- > \text{SC(NH}_2)_2 > \text{CH}_3^- > \text{SCN}^- > \text{I}^- > \text{Br}^- > \text{Cl}^- > \text{py} > \text{NH}_3 > \text{OH}^- > \text{H}_2\text{O}$$
+$$
+\text{CN}^- \approx \text{CO} \approx \text{C}_2\text{H}_4 > \text{PR}_3 > \text{H}^- > \text{SC(NH}_2)_2 > \text{CH}_3^- > \text{SCN}^- > \text{I}^- > \text{Br}^- > \text{Cl}^- > \text{py} > \text{NH}_3 > \text{OH}^- > \text{H}_2\text{O}
+$$
 
 This is exploited in the synthesis of square planar Pt complexes (e.g., cisplatin).
 
@@ -6723,7 +7415,9 @@ This is exploited in the synthesis of square planar Pt complexes (e.g., cisplati
 **Definition 9 (d–d Transition):** An electron is promoted from a lower-energy $d$ orbital to a
 higher-energy $d$ orbital, absorbing light in the visible or near-UV region.
 
-$$\Delta_o = h\nu = \frac{hc}{\lambda}$$
+$$
+\Delta_o = h\nu = \frac{hc}{\lambda}
+$$
 
 - The absorbed wavelength determines the color (complementary color is observed).
 - Selection rules: Laporte forbidden ($\Delta\ell = \pm 0$ not satisfied), but weakly allowed by
@@ -7006,7 +7700,9 @@ URL: https://chemistry.wyattau.com/3-inorganic-chemistry/main-group-chemistry/
 
 **Carbonates:** $\text{M}_2\text{CO}_3$, thermal stability increases down the group.
 
-$$\text{Li}_2\text{CO}_3 \xrightarrow{\Delta} \text{Li}_2\text{O} + \text{CO}_2$$
+$$
+\text{Li}_2\text{CO}_3 \xrightarrow{\Delta} \text{Li}_2\text{O} + \text{CO}_2
+$$
 
 (Na$_2$CO$_3$ is thermally stable.)
 
@@ -7035,11 +7731,15 @@ Lithium differs from other Group 1 elements due to its small size and high charg
 
 **Hydroxides:** $\text{M(OH)}_2$. Solubility increases down the group:
 
-$$\text{Be(OH)}_2 \ll \text{Mg(OH)}_2 < \text{Ca(OH)}_2 < \text{Sr(OH)}_2 < \text{Ba(OH)}_2$$
+$$
+\text{Be(OH)}_2 \ll \text{Mg(OH)}_2 < \text{Ca(OH)}_2 < \text{Sr(OH)}_2 < \text{Ba(OH)}_2
+$$
 
 **Carbonates:** $\text{MCO}_3$. Thermal stability increases down the group. All decompose on heating:
 
-$$\text{MCO}_3 \xrightarrow{\Delta} \text{MO} + \text{CO}_2$$
+$$
+\text{MCO}_3 \xrightarrow{\Delta} \text{MO} + \text{CO}_2
+$$
 
 **Sulfates:** Solubility decreases down the group ($\text{BaSO}_4$ is insoluble, used in X-ray
 imaging). $\text{MgSO}_4$ is soluble (Epsom salts).
@@ -7060,11 +7760,15 @@ compounds.
 
 **Boranes:** $\text{B}_2\text{H}_6$ (diborane) features 3-center-2-electron bonds (banana bonds).
 
-$$\text{B}_2\text{H}_6 \text{ structure: } \text{Two BH}_2 \text{ units bridged by two H atoms}$$
+$$
+\text{B}_2\text{H}_6 \text{ structure: } \text{Two BH}_2 \text{ units bridged by two H atoms}
+$$
 
 **Boric acid:** $\text{B(OH)}_3$ is a Lewis acid (not a Bronsted acid in the conventional sense):
 
-$$\text{B(OH)}_3 + \text{H}_2\text{O} \rightleftharpoons \text{B(OH)}_4^- + \text{H}^+$$
+$$
+\text{B(OH)}_3 + \text{H}_2\text{O} \rightleftharpoons \text{B(OH)}_4^- + \text{H}^+
+$$
 
 **Boron trihalides:** $\text{BX}_3$ are strong Lewis acids, with strength $\text{BF}_3 < \text{BCl}_3 < \text{BBr}_3$.
 $\text{BF}_3$ is weaker than expected due to $p\pi$–$p\pi$ back-bonding from F lone pairs.
@@ -7074,9 +7778,13 @@ $\text{BF}_3$ is weaker than expected due to $p\pi$–$p\pi$ back-bonding from F
 - Most abundant metal in Earth's crust.
 - Amphoteric: reacts with both acids and bases:
 
-$$2\text{Al} + 6\text{HCl} \to 2\text{AlCl}_3 + 3\text{H}_2$$
+$$
+2\text{Al} + 6\text{HCl} \to 2\text{AlCl}_3 + 3\text{H}_2
+$$
 
-$$2\text{Al} + 2\text{NaOH} + 6\text{H}_2\text{O} \to 2\text{Na}[\text{Al(OH)}_4] + 3\text{H}_2$$
+$$
+2\text{Al} + 2\text{NaOH} + 6\text{H}_2\text{O} \to 2\text{Na}[\text{Al(OH)}_4] + 3\text{H}_2
+$$
 
 - $\text{AlCl}_3$: Lewis acid catalyst (Friedel-Crafts); exists as $\text{Al}_2\text{Cl}_6$ dimer.
 
@@ -7084,7 +7792,9 @@ $$2\text{Al} + 2\text{NaOH} + 6\text{H}_2\text{O} \to 2\text{Na}[\text{Al(OH)}_4
 
 **Theorem 3 (Inert Pair Effect in Group 13):** $+1$ oxidation state becomes more stable down the group:
 
-$$\text{Tl}^+ \text{ is more stable than } \text{Tl}^{3+}$$
+$$
+\text{Tl}^+ \text{ is more stable than } \text{Tl}^{3+}
+$$
 
 ## 4. Group 14: Carbon Group
 
@@ -7124,7 +7834,9 @@ $$\text{Tl}^+ \text{ is more stable than } \text{Tl}^{3+}$$
 
 **Theorem 5 (Nitrogen Fixation):**
 
-$$\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad \Delta H = -92 \text{ kJ/mol}$$
+$$
+\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad \Delta H = -92 \text{ kJ/mol}
+$$
 
 Haber-Bosch process: High $T$, high $P$, Fe catalyst.
 
@@ -7170,9 +7882,15 @@ Haber-Bosch process: High $T$, high $P$, Fe catalyst.
 
 **Theorem 7 (Chapman Cycle):** Ozone formation and destruction in the stratosphere:
 
-$$\text{O}_2 \xrightarrow{h\nu} 2\text{O}$$
-$$\text{O} + \text{O}_2 + \text{M} \to \text{O}_3 + \text{M}$$
-$$\text{O}_3 \xrightarrow{h\nu} \text{O} + \text{O}_2$$
+$$
+\text{O}_2 \xrightarrow{h\nu} 2\text{O}
+$$
+$$
+\text{O} + \text{O}_2 + \text{M} \to \text{O}_3 + \text{M}
+$$
+$$
+\text{O}_3 \xrightarrow{h\nu} \text{O} + \text{O}_2
+$$
 
 ### 6.2 Sulfur
 
@@ -7282,7 +8000,9 @@ $\text{PF}_5$, $\text{SF}_6$, $\text{ClF}_3$, $\text{XeF}_4$.
 **Theorem 10 (3c-4e Model):** Hypervalent bonding is better described using 3-center-4-electron bonds
 rather than expanded octets. For example, in $\text{XeF}_2$:
 
-$$\text{F}^{–}\cdots\text{Xe}^+\cdots\text{F}^{–}$$
+$$
+\text{F}^{–}\cdots\text{Xe}^+\cdots\text{F}^{–}
+$$
 
 Two electrons in the bonding orbital, two in a non-bonding orbital, and the Xe lone pairs remain
 in regular orbitals. This avoids invoking $d$-orbital participation (which is energetically
@@ -7857,13 +8577,19 @@ series, isomerism, and magnetic properties. Select an option to check your answe
 
 **Solution:**
 
-$$\tilde{\nu} = \frac{1}{\lambda} = \frac{1}{493 \times 10^{-7} \text{ cm}} = 20,284 \text{ cm}^{-1}$$
+$$
+\tilde{\nu} = \frac{1}{\lambda} = \frac{1}{493 \times 10^{-7} \text{ cm}} = 20,284 \text{ cm}^{-1}
+$$
 
 Converting to energy:
 
-$$\Delta_o = hc\tilde{\nu} = (6.626 \times 10^{-34})(3.00 \times 10^{10})(20,284) = 4.03 \times 10^{-19} \text{ J}$$
+$$
+\Delta_o = hc\tilde{\nu} = (6.626 \times 10^{-34})(3.00 \times 10^{10})(20,284) = 4.03 \times 10^{-19} \text{ J}
+$$
 
-$$\Delta_o = 4.03 \times 10^{-19} \times 6.022 \times 10^{23} = 242.7 \text{ kJ/mol}$$
+$$
+\Delta_o = 4.03 \times 10^{-19} \times 6.022 \times 10^{23} = 242.7 \text{ kJ/mol}
+$$
 
 **Key insight:** The colour we see is complementary to the absorbed colour. Absorbing yellow-green (493 nm) → the complex appears **purple**.
 
@@ -7881,7 +8607,9 @@ $\text{H}_2\text{O}$ is a weak-field ligand → high-spin
 
 Configuration: $t_{2g}^3 e_g^2$ → 5 unpaired electrons
 
-$$\mu_{s.o.} = \sqrt{n(n+2)} = \sqrt{5(5+2)} = \sqrt{35} = 5.92 \text{ BM}$$
+$$
+\mu_{s.o.} = \sqrt{n(n+2)} = \sqrt{5(5+2)} = \sqrt{35} = 5.92 \text{ BM}
+$$
 
 **Comparison with experimental value:** The experimental magnetic moment of $[\text{Mn}(\text{H}_2\text{O})_6]^{2+}$ is approximately 5.9 BM, confirming the high-spin $d^5$ configuration.
 
@@ -8114,11 +8842,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **Step 1:** Calculate the energy of absorbed light
 
-$$E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{493 \times 10^{-9}} = 4.03 \times 10^{-19} \text{ J}$$
+$$
+E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{493 \times 10^{-9}} = 4.03 \times 10^{-19} \text{ J}
+$$
 
 **Step 2:** Convert to kJ/mol
 
-$$\Delta_o = (4.03 \times 10^{-19} \text{ J}) \times (6.022 \times 10^{23} \text{ mol}^{-1}) = 242.7 \text{ kJ/mol}$$
+$$
+\Delta_o = (4.03 \times 10^{-19} \text{ J}) \times (6.022 \times 10^{23} \text{ mol}^{-1}) = 242.7 \text{ kJ/mol}
+$$
 
 **Step 3:** Determine the colour
 
@@ -8138,21 +8870,29 @@ The complex absorbs yellow-green light (493 nm). The complementary colour (what 
 
 In BCC, atoms touch along the body diagonal: $4r = a\sqrt{3}$
 
-$$r = \frac{a\sqrt{3}}{4} = \frac{286.6 \times \sqrt{3}}{4} = \frac{286.6 \times 1.732}{4} = 124.1 \text{ pm}$$
+$$
+r = \frac{a\sqrt{3}}{4} = \frac{286.6 \times \sqrt{3}}{4} = \frac{286.6 \times 1.732}{4} = 124.1 \text{ pm}
+$$
 
 **Step 2:** Calculate packing fraction
 
 BCC has 2 atoms per unit cell. Volume of atoms:
 
-$$V_{\text{atoms}} = 2 \times \frac{4}{3}\pi r^3 = 2 \times \frac{4}{3}\pi (124.1)^3 = 1.602 \times 10^7 \text{ pm}^3$$
+$$
+V_{\text{atoms}} = 2 \times \frac{4}{3}\pi r^3 = 2 \times \frac{4}{3}\pi (124.1)^3 = 1.602 \times 10^7 \text{ pm}^3
+$$
 
 Volume of unit cell:
 
-$$V_{\text{cell}} = a^3 = (286.6)^3 = 2.355 \times 10^7 \text{ pm}^3$$
+$$
+V_{\text{cell}} = a^3 = (286.6)^3 = 2.355 \times 10^7 \text{ pm}^3
+$$
 
 Packing fraction:
 
-$$\text{PF} = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{1.602 \times 10^7}{2.355 \times 10^7} = 0.680$$
+$$
+\text{PF} = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{1.602 \times 10^7}{2.355 \times 10^7} = 0.680
+$$
 
 **Comparison:** BCC packing fraction (0.68) is less than FCC/HCP (0.74). This explains why BCC metals (Fe, Cr, W) are generally less dense than FCC metals (Cu, Ag, Au) of similar atomic mass.
 
@@ -8168,7 +8908,9 @@ $$\text{PF} = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{1.602 \times 10^7
 
 $\text{CN}^-$ has charge $-1$. Total charge: $-4$
 
-$$\text{Fe} + 6(-1) = -4 \implies \text{Fe} = +2$$
+$$
+\text{Fe} + 6(-1) = -4 \implies \text{Fe} = +2
+$$
 
 **Step 2:** Electron configuration
 
@@ -8178,7 +8920,9 @@ $\text{Fe}^{2+}$: $[\text{Ar}] 3d^6$
 
 $\text{CN}^-$ is a strong-field ligand (high in spectrochemical series). Large $\Delta_o$ → **low-spin**
 
-$$t_{2g}^6 \, e_g^0$$
+$$
+t_{2g}^6 \, e_g^0
+$$
 
 All 6 electrons paired in $t_{2g}$ orbitals.
 
@@ -8650,7 +9394,9 @@ Examples: Mg, Zn, Ti, Co, Cd.
 
 **Example 1:** Iron has a BCC structure with $a = 286.6$ pm. Calculate the atomic radius.
 
-$$r = \frac{\sqrt{3} \times 286.6}{4} = 124.1 \text{ pm}$$
+$$
+r = \frac{\sqrt{3} \times 286.6}{4} = 124.1 \text{ pm}
+$$
 
 $\blacksquare$
 
@@ -8703,16 +9449,22 @@ formed from its gaseous ions. Always exothermic.
 
 **Theorem 3 (Born-Haber Cycle):** Lattice energy can be calculated thermodynamically:
 
-$$\Delta U = \Delta_f H^\circ - \Delta H_{\text{atom}} - \text{IE} - \frac{1}{2}\text{BDE} - \text{EA}$$
+$$
+\Delta U = \Delta_f H^\circ - \Delta H_{\text{atom}} - \text{IE} - \frac{1}{2}\text{BDE} - \text{EA}
+$$
 
 For NaCl:
-$$\Delta U(\text{NaCl}) = \Delta_f H^\circ(\text{NaCl}) - \Delta H_{\text{sub}}(\text{Na}) - \frac{1}{2}D(\text{Cl}_2) - \text{IE}_1(\text{Na}) - \text{EA}(\text{Cl})$$
+$$
+\Delta U(\text{NaCl}) = \Delta_f H^\circ(\text{NaCl}) - \Delta H_{\text{sub}}(\text{Na}) - \frac{1}{2}D(\text{Cl}_2) - \text{IE}_1(\text{Na}) - \text{EA}(\text{Cl})
+$$
 
 ### 3.2 The Born-Lande Equation
 
 **Theorem 4 (Born-Lande Equation):**
 
-$$\Delta U = -\frac{N_A M z^+ z^- e^2}{4\pi\varepsilon_0 r_0}\left(1 - \frac{1}{n}\right)$$
+$$
+\Delta U = -\frac{N_A M z^+ z^- e^2}{4\pi\varepsilon_0 r_0}\left(1 - \frac{1}{n}\right)
+$$
 
 where:
 
@@ -8723,9 +9475,13 @@ where:
 
 **Example 2:** Calculate the lattice energy of NaCl with $r_0 = 282$ pm, $n = 8$, $M = 1.748$.
 
-$$\Delta U = -\frac{6.022 \times 10^{23} \times 1.748 \times 1 \times 1 \times (1.602 \times 10^{-19})^2}{4\pi \times 8.854 \times 10^{-12} \times 282 \times 10^{-12}}\left(1 - \frac{1}{8}\right)$$
+$$
+\Delta U = -\frac{6.022 \times 10^{23} \times 1.748 \times 1 \times 1 \times (1.602 \times 10^{-19})^2}{4\pi \times 8.854 \times 10^{-12} \times 282 \times 10^{-12}}\left(1 - \frac{1}{8}\right)
+$$
 
-$$= -\frac{1.748 \times (96.485 \text{ kJ/mol})}{282 \times 10^{-12}} \times 0.875 = -787 \text{ kJ/mol}$$
+$$
+= -\frac{1.748 \times (96.485 \text{ kJ/mol})}{282 \times 10^{-12}} \times 0.875 = -787 \text{ kJ/mol}
+$$
 
 $\blacksquare$
 
@@ -8753,7 +9509,9 @@ overlap and split into $N$ closely spaced energy levels forming a continuous ban
 
 **Intrinsic semiconductor:** Conductivity due to thermally excited electrons across the band gap:
 
-$$n_i = n_e = n_h = \sqrt{N_c N_v}\,e^{-E_g/2k_BT}$$
+$$
+n_i = n_e = n_h = \sqrt{N_c N_v}\,e^{-E_g/2k_BT}
+$$
 
 where $n_e$ is the electron concentration, $n_h$ is the hole concentration, and $N_c$, $N_v$ are
 the effective density of states.
@@ -8773,7 +9531,9 @@ the effective density of states.
 
 **Definition 4 (Effective Mass):** The curvature of the band determines the effective mass:
 
-$$m^* = \hbar^2\left(\frac{d^2E}{dk^2}\right)^{-1}$$
+$$
+m^* = \hbar^2\left(\frac{d^2E}{dk^2}\right)^{-1}
+$$
 
 Electrons near the bottom of the conduction band have positive $m^*$; holes near the top of the
 valence band have negative $m^*$ (positive effective mass in the opposite direction).
@@ -8785,14 +9545,18 @@ valence band have negative $m^*$ (positive effective mass in the opposite direct
 **Definition 5 (Schottky Defect):** A cation-anion pair vacancy. Maintains electrical neutrality
 and approximately constant stoichiometry.
 
-$$\text{Vacancy concentration: } n_s \approx N\,e^{-\Delta H_s/2k_BT}$$
+$$
+\text{Vacancy concentration: } n_s \approx N\,e^{-\Delta H_s/2k_BT}
+$$
 
 Common in NaCl, CsCl (high CN, similar ionic sizes).
 
 **Definition 6 (Frenkel Defect):** An ion displaced from its lattice site to an interstitial position.
 Common when one ion is much smaller (e.g., AgCl, AgBr).
 
-$$\text{Frenkel concentration: } n_f \approx \sqrt{N\,N_i}\,e^{-\Delta H_f/2k_BT}$$
+$$
+\text{Frenkel concentration: } n_f \approx \sqrt{N\,N_i}\,e^{-\Delta H_f/2k_BT}
+$$
 
 where $N_i$ is the number of interstitial sites.
 
@@ -8821,7 +9585,9 @@ where $N_i$ is the number of interstitial sites.
 
 **Theorem 6 (Bragg's Law):** Constructive interference occurs when:
 
-$$n\lambda = 2d\sin\theta$$
+$$
+n\lambda = 2d\sin\theta
+$$
 
 where $n$ is the order of reflection, $\lambda$ is the X-ray wavelength, $d$ is the interplanar
 spacing, and $\theta$ is the angle of incidence.
@@ -8841,16 +9607,24 @@ For a plane intercepting the crystallographic axes at $(a/h, b/k, c/l)$:
 
 For a cubic crystal:
 
-$$d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}$$
+$$
+d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}
+$$
 
 **Example 3:** For NaCl ($a = 564$ pm) with Cu K$\alpha$ radiation ($\lambda = 154.2$ pm), find the
 first-order Bragg angle for the (200) reflection.
 
-$$d_{200} = \frac{564}{\sqrt{4}} = 282 \text{ pm}$$
+$$
+d_{200} = \frac{564}{\sqrt{4}} = 282 \text{ pm}
+$$
 
-$$\sin\theta = \frac{\lambda}{2d} = \frac{154.2}{2 \times 282} = 0.2734$$
+$$
+\sin\theta = \frac{\lambda}{2d} = \frac{154.2}{2 \times 282} = 0.2734
+$$
 
-$$\theta = 15.9°$$
+$$
+\theta = 15.9°
+$$
 
 $\blacksquare$
 
@@ -8891,7 +9665,9 @@ Examples:
 **Theorem 8 (Quantum Confinement):** When a semiconductor particle has a size comparable to the
 exciton Bohr radius, the band gap increases (blue shift in absorption/emission).
 
-$$E_g(\text{nanoparticle}) = E_g(\text{bulk}) + \frac{\hbar^2\pi^2}{2R^2}\left(\frac{1}{m_e^*} + \frac{1}{m_h^*}\right) - \frac{1.8e^2}{4\pi\varepsilon_0\varepsilon_r R}$$
+$$
+E_g(\text{nanoparticle}) = E_g(\text{bulk}) + \frac{\hbar^2\pi^2}{2R^2}\left(\frac{1}{m_e^*} + \frac{1}{m_h^*}\right) - \frac{1.8e^2}{4\pi\varepsilon_0\varepsilon_r R}
+$$
 
 where $R$ is the particle radius.
 
@@ -8899,7 +9675,9 @@ where $R$ is the particle radius.
 
 **Definition 9 (Surface-to-Volume Ratio):** For a nanoparticle of radius $R$:
 
-$$\frac{A}{V} = \frac{3}{R}$$
+$$
+\frac{A}{V} = \frac{3}{R}
+$$
 
 As $R \to 0$, surface atoms become a larger fraction of total atoms, leading to:
 
@@ -8950,7 +9728,9 @@ temperature $T_c$.
 
 **Theorem 9 (BCS Theory):** Below $T_c$, electrons form Cooper pairs via phonon-mediated attraction:
 
-$$2\Delta = 3.53\,k_B\,T_c$$
+$$
+2\Delta = 3.53\,k_B\,T_c
+$$
 
 where $\Delta$ is the superconducting energy gap.
 
@@ -10169,7 +10949,9 @@ For the reaction $N_2O_4(g) \rightleftharpoons 2NO_2(g)$ with $K_p = 0.144$ at 2
 
 Let $x$ be the pressure of $N_2O_4$ that dissociates. At equilibrium: $P_{N_2O_4} = 1-x$, $P_{NO_2} = 2x$.
 
-$$K_p = \frac{(2x)^2}{1-x} = 0.144$$
+$$
+K_p = \frac{(2x)^2}{1-x} = 0.144
+$$
 
 $4x^2 + 0.144x - 0.144 = 0$. Solving: $x = \frac{-0.144 + \sqrt{0.144^2 + 4(4)(0.144)}}{8} = \frac{-0.144 + 1.528}{8} = 0.173$.
 

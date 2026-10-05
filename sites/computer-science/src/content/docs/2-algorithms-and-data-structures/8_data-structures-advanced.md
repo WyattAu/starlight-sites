@@ -968,7 +968,9 @@ the "original pairing heap" and gave a $\Omega(\log \log n)$ lower bound for a s
 The **incidence matrix** $M$ of an undirected graph $G = (V, E)$ with $n$ vertices and $m$ edges is
 an $n \times m$ matrix where:
 
-$$M_{v,e} = \begin{cases} 1 & \text{if} vertex  v \text{ is} incident to edge  e \\ 0 & \text{otherwise} \end{cases}$$
+$$
+M_{v,e} = \begin{cases} 1 & \text{if} vertex  v \text{ is} incident to edge  e \\ 0 & \text{otherwise} \end{cases}
+$$
 
 For directed graphs, $M_{v,e} = 1$ if $v$ is the tail of $e$, $M_{v,e} = -1$ if $v$ is the head of
 $e$ And $0$ otherwise.
@@ -1030,9 +1032,13 @@ Total space: $(|V|+1) + 2|E| = 5 + 12 = 17$ integers.
 The **inverse Ackermann function** $\alpha(n)$ is defined in terms of a rapidly growing function
 $A_k(j)$:
 
-$$A_k(j) = \begin{cases} 2j & \text{if}  k = 0 \\ 0 & \text{if}  j = 0 \text{ and}  k \geq 1 \\ A_{k-1}(A_k(j-1)) & \text{if}  j \geq 1 \text{ and}  k \geq 1 \end{cases}$$
+$$
+A_k(j) = \begin{cases} 2j & \text{if}  k = 0 \\ 0 & \text{if}  j = 0 \text{ and}  k \geq 1 \\ A_{k-1}(A_k(j-1)) & \text{if}  j \geq 1 \text{ and}  k \geq 1 \end{cases}
+$$
 
-$$\alpha(n) = \min\{k : A_k(1) \geq n\}$$
+$$
+\alpha(n) = \min\{k : A_k(1) \geq n\}
+$$
 
 **Key values:** $\alpha(1) = 0$, $\alpha(2) = 1$, $\alpha(4) = 2$, $\alpha(16) = 3$,
 $\alpha(2^{65536}) = 4$.
@@ -1445,7 +1451,9 @@ This is a valid treap.
 A **weight-balanced tree** (also known as BB[$\alpha$] tree or Adelson-Velsky-Landis tree) maintains
 the balance condition:
 
-$$\frac{1}{2 - \alpha} \leq \frac{|T_L|}{|T|} \leq \frac{1}{2}$$
+$$
+\frac{1}{2 - \alpha} \leq \frac{|T_L|}{|T|} \leq \frac{1}{2}
+$$
 
 For some fixed $\alpha \in (1/4, 1 - \sqrt{2}/2)$Where $|T_L|$ is the size of the left subtree and
 $|T|$ is the total size.

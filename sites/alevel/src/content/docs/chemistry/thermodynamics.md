@@ -877,7 +877,9 @@ is an endothermic process.
 
 The relationship between $\Delta G^\circ$ and the equilibrium constant:
 
-$$\Delta G^\circ = -RT\ln K$$
+$$
+\Delta G^\circ = -RT\ln K
+$$
 
 This is one of the most important equations in A-Level chemistry. It connects thermodynamics
 (energetics) with equilibrium (composition).
@@ -885,11 +887,17 @@ This is one of the most important equations in A-Level chemistry. It connects th
 **Worked Example:** Calculate $K_c$ at $298\,\mathrm{K}$ for a reaction with
 $\Delta G^\circ = -5.40\,\mathrm{kJ/mol}$.
 
-$$-5400 = -8.314 \times 298 \times \ln K_c$$
+$$
+-5400 = -8.314 \times 298 \times \ln K_c
+$$
 
-$$\ln K_c = \frac{5400}{8.314 \times 298} = \frac{5400}{2478} = 2.179$$
+$$
+\ln K_c = \frac{5400}{8.314 \times 298} = \frac{5400}{2478} = 2.179
+$$
 
-$$K_c = e^{2.179} = 8.84$$
+$$
+K_c = e^{2.179} = 8.84
+$$
 
 Since $\Delta G^\circ < 0$$K > 1$Confirming the reaction is spontaneous and products are favoured at
 equilibrium.
@@ -901,7 +909,9 @@ $\Delta S^\circ = +175.8\,\mathrm{J\,K^{-1}\,\mathrm{mol}^{-1}$.
 
 At $\Delta G = 0$: $0 = \Delta H^\circ - T\Delta S^\circ$
 
-$$T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{57200}{175.8} = 325\,\mathrm{K}$$
+$$
+T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{57200}{175.8} = 325\,\mathrm{K}
+$$
 
 Below $325\,\mathrm{K}$, $\Delta G < 0$ and the forward reaction is spontaneous. Above
 $325\,\mathrm{K}$, $\Delta G > 0$ and the reverse reaction is spontaneous. At $325\,\mathrm{K}$The
@@ -915,9 +925,13 @@ $\mathrm{CaCO}_3(s) \to \mathrm{CaO}(s) + \mathrm{CO}_2(g)$.
 $S^\circ$ values:
 $\mathrm{CaCO}_3(s) = 92.9\,\mathrm{J\,K^{-1}\,\mathrm{mol}^{-1}}$$\mathrm{CaO}(s) = 38.1\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}}$$\mathrm{CO}_2(g) = 213.7\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}}$.
 
-$$\Delta S^\circ = S^\circ(\mathrm{CaO}) + S^\circ(\mathrm{CO}_2) - S^\circ(\mathrm{CaCO}_3)$$
+$$
+\Delta S^\circ = S^\circ(\mathrm{CaO}) + S^\circ(\mathrm{CO}_2) - S^\circ(\mathrm{CaCO}_3)
+$$
 
-$$= 38.1 + 213.7 - 92.9 = 158.9\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}}$$
+$$
+= 38.1 + 213.7 - 92.9 = 158.9\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}}
+$$
 
 The entropy change is positive, as expected: a solid decomposes to give a gas (increased disorder).
 
@@ -936,9 +950,13 @@ Given data:
 
 By Hess's Law:
 
-$$2(\mathrm{C} \to \mathrm{CO}_2) + 3(\mathrm{H}_2 + \tfrac{1}{2}\mathrm{O}_2 \to \mathrm{H}_2\mathrm{O}) - (\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 3\mathrm{O}_2 \to 2\mathrm{CO}_2 + 3\mathrm{H}_2\mathrm{O}) = \Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH})$$
+$$
+2(\mathrm{C} \to \mathrm{CO}_2) + 3(\mathrm{H}_2 + \tfrac{1}{2}\mathrm{O}_2 \to \mathrm{H}_2\mathrm{O}) - (\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 3\mathrm{O}_2 \to 2\mathrm{CO}_2 + 3\mathrm{H}_2\mathrm{O}) = \Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH})
+$$
 
-$$2(-393.5) + 3(-285.8) - (-1367) = -787.0 - 857.4 + 1367 = -277.4\,\mathrm{kJ/mol}$$
+$$
+2(-393.5) + 3(-285.8) - (-1367) = -787.0 - 857.4 + 1367 = -277.4\,\mathrm{kJ/mol}
+$$
 
 $\Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH}) = -277\,\mathrm{kJ/mol}$ (to 3 s.f.)
 
@@ -947,18 +965,24 @@ $\Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH}) = -277\,\mathrm{kJ/mol}$ 
 **Worked Example:** Is the reduction of $\mathrm{TiO}_2$ to $\mathrm{Ti}$ by carbon
 thermodynamically feasible at $1500\,\mathrm{K}$?
 
-$$\mathrm{TiO}_2(s) + 2\mathrm{C}(s) \to \mathrm{Ti}(s) + 2\mathrm{CO}(g)$$
+$$
+\mathrm{TiO}_2(s) + 2\mathrm{C}(s) \to \mathrm{Ti}(s) + 2\mathrm{CO}(g)
+$$
 
 $\Delta H^\circ = +877\,\mathrm{kJ/mol}$,
 $\Delta S^\circ = +193\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}$
 
-$$\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = 877000 - 1500 \times 193 = 877000 - 289500 = 587500\,\mathrm{J/mol} = +588\,\mathrm{kJ/mol}$$
+$$
+\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = 877000 - 1500 \times 193 = 877000 - 289500 = 587500\,\mathrm{J/mol} = +588\,\mathrm{kJ/mol}
+$$
 
 $\Delta G^\circ > 0$ So the reaction is not thermodynamically feasible at $1500\,\mathrm{K}$.
 
 At what temperature does it become feasible?
 
-$$T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{877000}{193} = 4544\,\mathrm{K}$$
+$$
+T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{877000}{193} = 4544\,\mathrm{K}
+$$
 
 The reaction becomes feasible above approximately $4544\,\mathrm{K}$ (extremely high temperature,
 impractical). In practice, the Kroll process (reduction with $\mathrm{Mg}$ or $\mathrm{Cl}_2$) is
@@ -1048,7 +1072,9 @@ Use the following data to calculate the lattice enthalpy of $\mathrm{KCl}$ using
 
 **Mark Scheme:**
 
-$$\Delta H_\mathrm{lat}^\circ = \Delta H_f^\circ - \Delta H_\mathrm{at}^\circ(\mathrm{K}) - \Delta H_\mathrm{at}^\circ(\mathrm{Cl}) - \mathrm{IE}_1(\mathrm{K}) - \mathrm{EA}_1(\mathrm{Cl})$$
+$$
+\Delta H_\mathrm{lat}^\circ = \Delta H_f^\circ - \Delta H_\mathrm{at}^\circ(\mathrm{K}) - \Delta H_\mathrm{at}^\circ(\mathrm{Cl}) - \mathrm{IE}_1(\mathrm{K}) - \mathrm{EA}_1(\mathrm{Cl})
+$$
 (1 mark for equation)
 
 $$= -437 - 89 - 122 - 419 - (-349)$$ (1 mark for substitution)
@@ -1093,7 +1119,9 @@ it hits the ground (ignore air resistance).
 
 Using conservation of energy: $mgh = \frac{1}{2}mv^2$
 
-$$v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 20} = \sqrt{392.4} \approx 19.8\,\text{m\,s}^{-1}$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 20} = \sqrt{392.4} \approx 19.8\,\text{m\,s}^{-1}
+$$
 
 $$
 

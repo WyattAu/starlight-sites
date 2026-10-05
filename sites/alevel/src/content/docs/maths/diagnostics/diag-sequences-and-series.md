@@ -42,7 +42,9 @@ flowchart TD
 
 Evaluate the sum:
 
-$$S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}$$
+$$
+S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}
+$$
 
 Express your answer in terms of $n$ And hence find $\lim_{n \to \infty} S_n$.
 
@@ -55,11 +57,15 @@ in the denominator, where the cancellation pattern is commonly misidentified.]
 
 We seek constants $A$, $B$, $C$ such that:
 
-$$\frac{1}{r(r+1)(r+2)} = \frac{A}{r} + \frac{B}{r+1} + \frac{C}{r+2}$$
+$$
+\frac{1}{r(r+1)(r+2)} = \frac{A}{r} + \frac{B}{r+1} + \frac{C}{r+2}
+$$
 
 Multiplying through by $r(r+1)(r+2)$:
 
-$$1 = A(r+1)(r+2) + Br(r+2) + Cr(r+1)$$
+$$
+1 = A(r+1)(r+2) + Br(r+2) + Cr(r+1)
+$$
 
 Substituting $r = 0$: $1 = A(1)(2) \implies A = \frac{1}{2}$.
 
@@ -69,7 +75,9 @@ Substituting $r = -2$: $1 = C(-2)(-1) \implies C = \frac{1}{2}$.
 
 **Step 2: Verify.**
 
-$$\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2} = \frac{(r+1)(r+2) - 2r(r+2) + r(r+1)}{2r(r+1)(r+2)}$$
+$$
+\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2} = \frac{(r+1)(r+2) - 2r(r+2) + r(r+1)}{2r(r+1)(r+2)}
+$$
 
 Numerator:
 $(r^2 + 3r + 2) + (-2r^2 - 4r) + (r^2 + r) = (r^2 - 2r^2 + r^2) + (3r - 4r + r) + 2 = 0 + 0 + 2 = 2$.
@@ -78,30 +86,46 @@ So the fraction is $\frac{2}{2r(r+1)(r+2)} = \frac{1}{r(r+1)(r+2)}$. Confirmed.
 
 **Step 3: Write out the telescoping sum.**
 
-$$S_n = \sum_{r=1}^{n}\left(\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2}\right)$$
+$$
+S_n = \sum_{r=1}^{n}\left(\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2}\right)
+$$
 
-$$= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=1}^{n}\frac{1}{r+1} + \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r+2}$$
+$$
+= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=1}^{n}\frac{1}{r+1} + \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r+2}
+$$
 
 Re-index the sums:
 
-$$= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=2}^{n+1}\frac{1}{r} + \frac{1}{2}\sum_{r=3}^{n+2}\frac{1}{r}$$
+$$
+= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=2}^{n+1}\frac{1}{r} + \frac{1}{2}\sum_{r=3}^{n+2}\frac{1}{r}
+$$
 
-$$= \left(\frac{1}{2} \cdot 1 + \frac{1}{2} \cdot \frac{1}{2} + \frac{1}{2}\sum_{r=3}^{n}\frac{1}{r}\right) - \left(\frac{1}{2} + \sum_{r=3}^{n}\frac{1}{r} + \frac{1}{n+1}\right) + \left(\frac{1}{2}\sum_{r=3}^{n}\frac{1}{r} + \frac{1}{2}\cdot\frac{1}{n+1} + \frac{1}{2}\cdot\frac{1}{n+2}\right)$$
+$$
+= \left(\frac{1}{2} \cdot 1 + \frac{1}{2} \cdot \frac{1}{2} + \frac{1}{2}\sum_{r=3}^{n}\frac{1}{r}\right) - \left(\frac{1}{2} + \sum_{r=3}^{n}\frac{1}{r} + \frac{1}{n+1}\right) + \left(\frac{1}{2}\sum_{r=3}^{n}\frac{1}{r} + \frac{1}{2}\cdot\frac{1}{n+1} + \frac{1}{2}\cdot\frac{1}{n+2}\right)
+$$
 
 Collecting terms involving $\sum_{r=3}^{n}\frac{1}{r}$: $\frac{1}{2} - 1 + \frac{1}{2} = 0$. The
 sums cancel (confirming the telescoping).
 
 Remaining terms:
 
-$$\frac{1}{2} + \frac{1}{4} - \frac{1}{2} - \frac{1}{n+1} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}$$
+$$
+\frac{1}{2} + \frac{1}{4} - \frac{1}{2} - \frac{1}{n+1} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}
+$$
 
-$$= \frac{1}{4} - \frac{1}{2(n+1)} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}$$
+$$
+= \frac{1}{4} - \frac{1}{2(n+1)} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}
+$$
 
-$$= \frac{1}{4} + \frac{1}{2(n+2)}$$
+$$
+= \frac{1}{4} + \frac{1}{2(n+2)}
+$$
 
 **Step 4: Find the limit.**
 
-$$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
+$$
+\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}
+$$
 
 ---
 
@@ -120,7 +144,9 @@ $$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
 
 Given that $\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}$Find the value of:
 
-$$\sum_{r=4}^{n+3} (r-3)^2$$
+$$
+\sum_{r=4}^{n+3} (r-3)^2
+$$
 
 In terms of $n$.
 
@@ -140,22 +166,34 @@ to start at $r = 1$ and end at $r = m$.
 
 Let $k = r - 3$. When $r = 4$$k = 1$. When $r = n + 3$$k = n$.
 
-$$\sum_{r=4}^{n+3} (r-3)^2 = \sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$$
+$$
+\sum_{r=4}^{n+3} (r-3)^2 = \sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}
+$$
 
 **Correct approach, Method 2: Subtract sums.**
 
-$$\sum_{r=4}^{n+3} (r-3)^2 = \sum_{r=1}^{n+3} (r-3)^2 - \sum_{r=1}^{3} (r-3)^2$$
+$$
+\sum_{r=4}^{n+3} (r-3)^2 = \sum_{r=1}^{n+3} (r-3)^2 - \sum_{r=1}^{3} (r-3)^2
+$$
 
 Note that $\sum_{r=1}^{n+3}(r-3)^2 = \sum_{k=-2}^{n} k^2$ where $k = r - 3$. This is not the
 standard form. We need to be more careful:
 
-$$\sum_{r=4}^{n+3} (r-3)^2 = \sum_{r=1}^{n+3}(r-3)^2 - \sum_{r=1}^{3}(r-3)^2$$
+$$
+\sum_{r=4}^{n+3} (r-3)^2 = \sum_{r=1}^{n+3}(r-3)^2 - \sum_{r=1}^{3}(r-3)^2
+$$
 
-$$= \sum_{k=-2}^{n} k^2 - [(-2)^2 + (-1)^2 + 0^2]$$
+$$
+= \sum_{k=-2}^{n} k^2 - [(-2)^2 + (-1)^2 + 0^2]
+$$
 
-$$= \sum_{k=1}^{n} k^2 + (-2)^2 + (-1)^2 - [4 + 1 + 0]$$
+$$
+= \sum_{k=1}^{n} k^2 + (-2)^2 + (-1)^2 - [4 + 1 + 0]
+$$
 
-$$= \sum_{k=1}^{n} k^2 + 4 + 1 - 5 = \sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$$
+$$
+= \sum_{k=1}^{n} k^2 + 4 + 1 - 5 = \sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}
+$$
 
 **The student's answer** was $\frac{(n+3)(n+4)(2n+7)}{6}$Which equals $\sum_{r=1}^{n+3} r^2$Not
 $\sum_{r=4}^{n+3}(r-3)^2$. The student incorrectly treated the sum as starting from $r = 1$ with
@@ -178,7 +216,9 @@ upper limit $n + 3$.
 
 A sequence is defined by the recurrence relation:
 
-$$u_{n+2} = 5u_{n+1} - 6u_n, \quad n \geq 1$$
+$$
+u_{n+2} = 5u_{n+1} - 6u_n, \quad n \geq 1
+$$
 
 With $u_1 = 1$ and $u_2 = 5$.
 
@@ -195,16 +235,24 @@ equation method.]
 
 **(a)**
 
-$$u_3 = 5(5) - 6(1) = 25 - 6 = 19$$
+$$
+u_3 = 5(5) - 6(1) = 25 - 6 = 19
+$$
 
-$$u_4 = 5(19) - 6(5) = 95 - 30 = 65$$
+$$
+u_4 = 5(19) - 6(5) = 95 - 30 = 65
+$$
 
-$$u_5 = 5(65) - 6(19) = 325 - 114 = 211$$
+$$
+u_5 = 5(65) - 6(19) = 325 - 114 = 211
+$$
 
 **(b)** The characteristic equation is:
 
 $$\lambda^2 - 5\lambda + 6 = 0$$ $$(\lambda - 2)(\lambda - 3) = 0$$
-$$\lambda = 2 \quad \text{or} \quad \lambda = 3$$
+$$
+\lambda = 2 \quad \text{or} \quad \lambda = 3
+$$
 
 The general solution is $u_n = A \cdot 2^n + B \cdot 3^n$.
 
@@ -218,9 +266,13 @@ Substituting into the second:
 
 $$4\left(\frac{1-3B}{2}\right) + 9B = 5$$ $$2 - 6B + 9B = 5$$ $$3B = 3$$ $$B = 1$$
 
-$$A = \frac{1 - 3}{2} = -1$$
+$$
+A = \frac{1 - 3}{2} = -1
+$$
 
-$$u_n = 3^n - 2^n$$
+$$
+u_n = 3^n - 2^n
+$$
 
 **Verification:** $u_1 = 3 - 2 = 1$ ✓. $u_2 = 9 - 4 = 5$ ✓. $u_3 = 27 - 8 = 19$ ✓.
 
@@ -285,11 +337,15 @@ $\sum_{r=1}^{n} \frac{r^2}{n^3} = \sum_{r=1}^{n} \left(\frac{r}{n}\right)^2 \cdo
 
 This is a Riemann sum for $\int_0^1 x^2 \, dx$.
 
-$$\int_0^1 x^2 \, dx = \left[\frac{x^3}{3}\right]_0^1 = \frac{1}{3}$$
+$$
+\int_0^1 x^2 \, dx = \left[\frac{x^3}{3}\right]_0^1 = \frac{1}{3}
+$$
 
 Algebraic verification: $\frac{1}{n^3} \cdot \frac{n(n+1)(2n+1)}{6} = \frac{(n+1)(2n+1)}{6n^2}$.
 
-$$\lim_{n \to \infty} \frac{(n+1)(2n+1)}{6n^2} = \lim_{n \to \infty} \frac{2n^2 + 3n + 1}{6n^2} = \frac{2}{6} = \frac{1}{3}$$
+$$
+\lim_{n \to \infty} \frac{(n+1)(2n+1)}{6n^2} = \lim_{n \to \infty} \frac{2n^2 + 3n + 1}{6n^2} = \frac{2}{6} = \frac{1}{3}
+$$
 
 Confirmed.
 
@@ -329,7 +385,9 @@ method.]
 **(a)** Using a calculator (radians):
 
 $$x_1 = \cos(1) = 0.540302$$ $$x_2 = \cos(0.540302) = 0.857553$$ $$x_3 = \cos(0.857553) = 0.654290$$
-$$x_4 = \cos(0.654290) = 0.793480$$
+$$
+x_4 = \cos(0.654290) = 0.793480
+$$
 
 **(b)** To prove convergence, we use the contraction mapping theorem. We need $|f'(x)| < 1$ on the
 relevant interval.
@@ -355,23 +413,41 @@ $x_{n+1} = x_n - \frac{g(x_n)}{g'(x_n)} = x_n - \frac{x_n - \cos x_n}{1 + \sin x
 
 Starting with $x_0 = 1$:
 
-$$x_1 = 1 - \frac{1 - \cos 1}{1 + \sin 1} = 1 - \frac{1 - 0.540302}{1 + 0.841471} = 1 - \frac{0.459698}{1.841471} = 1 - 0.249649 = 0.750351$$
+$$
+x_1 = 1 - \frac{1 - \cos 1}{1 + \sin 1} = 1 - \frac{1 - 0.540302}{1 + 0.841471} = 1 - \frac{0.459698}{1.841471} = 1 - 0.249649 = 0.750351
+$$
 
-$$x_2 = 0.750351 - \frac{0.750351 - \cos(0.750351)}{1 + \sin(0.750351)} = 0.750351 - \frac{0.750351 - 0.731125}{1 + 0.681676} = 0.750351 - \frac{0.019226}{1.681676}$$
+$$
+x_2 = 0.750351 - \frac{0.750351 - \cos(0.750351)}{1 + \sin(0.750351)} = 0.750351 - \frac{0.750351 - 0.731125}{1 + 0.681676} = 0.750351 - \frac{0.019226}{1.681676}
+$$
 
-$$= 0.750351 - 0.011434 = 0.738917$$
+$$
+= 0.750351 - 0.011434 = 0.738917
+$$
 
-$$x_3 = 0.738917 - \frac{0.738917 - 0.739067}{1 + 0.673717} = 0.738917 - \frac{-0.000150}{1.673717} = 0.738917 + 0.000090 = 0.739007$$
+$$
+x_3 = 0.738917 - \frac{0.738917 - 0.739067}{1 + 0.673717} = 0.738917 - \frac{-0.000150}{1.673717} = 0.738917 + 0.000090 = 0.739007
+$$
 
-$$x_4 = 0.739007 - \frac{0.739007 - 0.739085}{1 + 0.673812} = 0.739007 - \frac{-0.000078}{1.673812} = 0.739007 + 0.000047 = 0.739054$$
+$$
+x_4 = 0.739007 - \frac{0.739007 - 0.739085}{1 + 0.673812} = 0.739007 - \frac{-0.000078}{1.673812} = 0.739007 + 0.000047 = 0.739054
+$$
 
-$$x_5 = 0.739054 - \frac{0.739054 - 0.739085}{1.673812} = 0.739054 + 0.000019 = 0.739073$$
+$$
+x_5 = 0.739054 - \frac{0.739054 - 0.739085}{1.673812} = 0.739054 + 0.000019 = 0.739073
+$$
 
-$$x_6 = 0.739073 - \frac{0.739073 - 0.739085}{1.673813} = 0.739073 + 0.000007 = 0.739080$$
+$$
+x_6 = 0.739073 - \frac{0.739073 - 0.739085}{1.673813} = 0.739073 + 0.000007 = 0.739080
+$$
 
-$$x_7 = 0.739080 - \frac{0.739080 - 0.739085}{1.673813} = 0.739080 + 0.000003 = 0.739083$$
+$$
+x_7 = 0.739080 - \frac{0.739080 - 0.739085}{1.673813} = 0.739080 + 0.000003 = 0.739083
+$$
 
-$$x_8 = 0.739083 - \frac{0.739083 - 0.739085}{1.673813} = 0.739083 + 0.000001 = 0.739084$$
+$$
+x_8 = 0.739083 - \frac{0.739083 - 0.739085}{1.673813} = 0.739083 + 0.000001 = 0.739084
+$$
 
 To 8 decimal places: $L = 0.73908513$.
 
@@ -394,15 +470,21 @@ This is the Dottie number, the unique fixed point of the cosine function.
 
 **(a)** Use the binomial theorem to expand $(1 + 1)^n$ and hence show that:
 
-$$\sum_{r=0}^{n} \binom{n}{r} = 2^n$$
+$$
+\sum_{r=0}^{n} \binom{n}{r} = 2^n
+$$
 
 **(b)** By differentiating the binomial expansion of $(1 + x)^n$ and setting $x = 1$Show that:
 
-$$\sum_{r=1}^{n} r\binom{n}{r} = n \cdot 2^{n-1}$$
+$$
+\sum_{r=1}^{n} r\binom{n}{r} = n \cdot 2^{n-1}
+$$
 
 **(c)** Hence evaluate:
 
-$$\sum_{r=1}^{n} r^2 \binom{n}{r}$$
+$$
+\sum_{r=1}^{n} r^2 \binom{n}{r}
+$$
 
 [Difficulty: hard. Tests generating function techniques applied to combinatorial sums through
 differentiation of the binomial expansion.]
@@ -411,7 +493,9 @@ differentiation of the binomial expansion.]
 
 **(a)** By the binomial theorem:
 
-$$(1 + 1)^n = \sum_{r=0}^{n} \binom{n}{r} 1^{n-r} \cdot 1^r = \sum_{r=0}^{n} \binom{n}{r}$$
+$$
+(1 + 1)^n = \sum_{r=0}^{n} \binom{n}{r} 1^{n-r} \cdot 1^r = \sum_{r=0}^{n} \binom{n}{r}
+$$
 
 But $(1+1)^n = 2^n$. Therefore $\sum_{r=0}^{n} \binom{n}{r} = 2^n$.
 
@@ -419,33 +503,47 @@ But $(1+1)^n = 2^n$. Therefore $\sum_{r=0}^{n} \binom{n}{r} = 2^n$.
 
 Differentiating both sides with respect to $x$:
 
-$$n(1+x)^{n-1} = \sum_{r=0}^{n} r\binom{n}{r} x^{r-1} = \sum_{r=1}^{n} r\binom{n}{r} x^{r-1}$$
+$$
+n(1+x)^{n-1} = \sum_{r=0}^{n} r\binom{n}{r} x^{r-1} = \sum_{r=1}^{n} r\binom{n}{r} x^{r-1}
+$$
 
 (Note: the $r = 0$ term vanishes.)
 
 Setting $x = 1$:
 
-$$n \cdot 2^{n-1} = \sum_{r=1}^{n} r\binom{n}{r}$$
+$$
+n \cdot 2^{n-1} = \sum_{r=1}^{n} r\binom{n}{r}
+$$
 
 **(c)** Start with $n(1+x)^{n-1} = \sum_{r=1}^{n} r\binom{n}{r} x^{r-1}$.
 
 Multiply both sides by $x$:
 
-$$nx(1+x)^{n-1} = \sum_{r=1}^{n} r\binom{n}{r} x^r$$
+$$
+nx(1+x)^{n-1} = \sum_{r=1}^{n} r\binom{n}{r} x^r
+$$
 
 Differentiate with respect to $x$:
 
-$$n(1+x)^{n-1} + nx(n-1)(1+x)^{n-2} = \sum_{r=1}^{n} r^2\binom{n}{r} x^{r-1}$$
+$$
+n(1+x)^{n-1} + nx(n-1)(1+x)^{n-2} = \sum_{r=1}^{n} r^2\binom{n}{r} x^{r-1}
+$$
 
 Factor the left side:
 
-$$n(1+x)^{n-2}[(1+x) + x(n-1)] = n(1+x)^{n-2}(1 + x + nx - x) = n(1+x)^{n-2}(1 + nx)$$
+$$
+n(1+x)^{n-2}[(1+x) + x(n-1)] = n(1+x)^{n-2}(1 + x + nx - x) = n(1+x)^{n-2}(1 + nx)
+$$
 
 Setting $x = 1$:
 
-$$n \cdot 2^{n-2}(1 + n) = \sum_{r=1}^{n} r^2\binom{n}{r}$$
+$$
+n \cdot 2^{n-2}(1 + n) = \sum_{r=1}^{n} r^2\binom{n}{r}
+$$
 
-$$\sum_{r=1}^{n} r^2\binom{n}{r} = n(n+1) \cdot 2^{n-2}$$
+$$
+\sum_{r=1}^{n} r^2\binom{n}{r} = n(n+1) \cdot 2^{n-2}
+$$
 
 **Verification for $n = 3$:** LHS $= 1 \cdot 3 + 4 \cdot 3 + 9 \cdot 1 = 3 + 12 + 9 = 24$. RHS
 $= 3 \cdot 4 \cdot 2 = 24$. Confirmed.

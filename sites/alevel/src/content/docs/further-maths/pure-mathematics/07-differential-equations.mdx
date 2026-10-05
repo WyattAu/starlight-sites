@@ -51,7 +51,9 @@ Integrating factor formula on Edexcel; AQA and OCR students must know it.
 **Definition.** A first-order ordinary differential equation (ODE) is **separable** if it can be
 Written in the form
 
-$$\frac{dy}{dx} = f(x)\,g(y)$$
+$$
+\frac{dy}{dx} = f(x)\,g(y)
+$$
 
 Where the right-hand side is a product of a function of $x$ alone and a function of $y$ alone.
 
@@ -59,9 +61,13 @@ Where the right-hand side is a product of a function of $x$ alone and a function
 
 Separate the variables and integrate both sides:
 
-$$\int \frac{1}{g(y)}\,dy = \int f(x)\,dx$$
+$$
+\int \frac{1}{g(y)}\,dy = \int f(x)\,dx
+$$
 
-$$\boxed{\int \frac{1}{g(y)}\,dy = \int f(x)\,dx + C}$$
+$$
+\boxed{\int \frac{1}{g(y)}\,dy = \int f(x)\,dx + C}
+$$
 
 ### 1.3 Worked example
 
@@ -73,7 +79,9 @@ Integrate: $\dfrac{y^2}{2} = \dfrac{x^2}{2} + C$.
 
 Using $y(0) = 2$: $\dfrac{4}{2} = 0 + C \implies C = 2$.
 
-$$y^2 = x^2 + 4, \quad y = \sqrt{x^2 + 4}$$
+$$
+y^2 = x^2 + 4, \quad y = \sqrt{x^2 + 4}
+$$
 
 (We take the positive root since $y(0) = 2 > 0$.)
 
@@ -98,7 +106,9 @@ $\ln\left|\dfrac{y}{1-y}\right| = x + C$.
 
 $\dfrac{y}{1-y} = Ae^x$ where $A = \pm e^C$.
 
-$$\boxed{y = \frac{Ae^x}{1 + Ae^x}}$$
+$$
+\boxed{y = \frac{Ae^x}{1 + Ae^x}}
+$$
 
 But note $y = 0$ and $y = 1$ are also solutions (equilibrium solutions), corresponding to $A = 0$
 And the limiting case $A \to \infty$.
@@ -111,7 +121,9 @@ And the limiting case $A \to \infty$.
 
 **Definition.** A first-order linear ODE has the form
 
-$$\frac{dy}{dx} + P(x)\,y = Q(x)$$
+$$
+\frac{dy}{dx} + P(x)\,y = Q(x)
+$$
 
 Where $P(x)$ and $Q(x)$ are continuous functions of $x$.
 
@@ -119,7 +131,9 @@ Where $P(x)$ and $Q(x)$ are continuous functions of $x$.
 
 The **integrating factor** is
 
-$$\boxed{\mu(x) = e^{\int P(x)\,dx}}$$
+$$
+\boxed{\mu(x) = e^{\int P(x)\,dx}}
+$$
 
 ### 2.3 Derivation of the method
 
@@ -127,26 +141,38 @@ $$\boxed{\mu(x) = e^{\int P(x)\,dx}}$$
 
 Multiply the ODE $\dfrac{dy}{dx} + P(x)\,y = Q(x)$ by $\mu(x)$:
 
-$$\mu\frac{dy}{dx} + \mu P\,y = \mu Q$$
+$$
+\mu\frac{dy}{dx} + \mu P\,y = \mu Q
+$$
 
 The left-hand side is the derivative of $\mu y$ because:
 
-$$\frac{d}{dx}(\mu y) = \mu\frac{dy}{dx} + y\frac{d\mu}{dx}$$
+$$
+\frac{d}{dx}(\mu y) = \mu\frac{dy}{dx} + y\frac{d\mu}{dx}
+$$
 
 Since $\dfrac{d\mu}{dx} = \mu \cdot P(x)$ (because $\mu = e^{\int P\,dx}$ So
 $\mu' = P \cdot e^{\int P\,dx} = P\mu$):
 
-$$\frac{d}{dx}(\mu y) = \mu\frac{dy}{dx} + y \cdot P\mu = \mu\frac{dy}{dx} + \mu P\,y$$
+$$
+\frac{d}{dx}(\mu y) = \mu\frac{dy}{dx} + y \cdot P\mu = \mu\frac{dy}{dx} + \mu P\,y
+$$
 
 This is exactly the left-hand side. Therefore:
 
-$$\frac{d}{dx}(\mu y) = \mu Q$$
+$$
+\frac{d}{dx}(\mu y) = \mu Q
+$$
 
 Integrating both sides:
 
-$$\boxed{\mu y = \int \mu Q\,dx + C}$$
+$$
+\boxed{\mu y = \int \mu Q\,dx + C}
+$$
 
-$$\boxed{y = \frac{1}{\mu}\left(\int \mu\, Q\,dx + C\right)}$$
+$$
+\boxed{y = \frac{1}{\mu}\left(\int \mu\, Q\,dx + C\right)}
+$$
 
 $\square$
 
@@ -156,7 +182,9 @@ Solve $\dfrac{dy}{dx} + \dfrac{2}{x}\,y = x^2$ for $x > 0$.
 
 Here $P(x) = \dfrac{2}{x}$, $Q(x) = x^2$.
 
-$$\mu = e^{\int 2/x\,dx} = e^{2\ln x} = x^2$$
+$$
+\mu = e^{\int 2/x\,dx} = e^{2\ln x} = x^2
+$$
 
 Multiply through: $x^2\dfrac{dy}{dx} + 2xy = x^4$.
 
@@ -164,7 +192,9 @@ Left-hand side is $\dfrac{d}{dx}(x^2 y) = x^4$.
 
 Integrate: $x^2 y = \dfrac{x^5}{5} + C$.
 
-$$\boxed{y = \frac{x^3}{5} + \frac{C}{x^2}}$$
+$$
+\boxed{y = \frac{x^3}{5} + \frac{C}{x^2}}
+$$
 
 ### 2.5 Worked example with boundary condition
 
@@ -172,17 +202,27 @@ Solve $\dfrac{dy}{dx} - 3y = e^{2x}$Given $y(0) = 1$.
 
 $P(x) = -3$, $Q(x) = e^{2x}$.
 
-$$\mu = e^{\int -3\,dx} = e^{-3x}$$
+$$
+\mu = e^{\int -3\,dx} = e^{-3x}
+$$
 
-$$\frac{d}{dx}(e^{-3x}y) = e^{-3x} \cdot e^{2x} = e^{-x}$$
+$$
+\frac{d}{dx}(e^{-3x}y) = e^{-3x} \cdot e^{2x} = e^{-x}
+$$
 
-$$e^{-3x}y = \int e^{-x}\,dx = -e^{-x} + C$$
+$$
+e^{-3x}y = \int e^{-x}\,dx = -e^{-x} + C
+$$
 
-$$y = -e^{2x} + Ce^{3x}$$
+$$
+y = -e^{2x} + Ce^{3x}
+$$
 
 Using $y(0) = 1$: $1 = -1 + C \implies C = 2$.
 
-$$\boxed{y = 2e^{3x} - e^{2x}}$$
+$$
+\boxed{y = 2e^{3x} - e^{2x}}
+$$
 
 <Aside type="tip">
 The constant of integration in $\mu = e^{\int P\,dx}$ can be omitted (absorbed into $C$).
@@ -198,13 +238,17 @@ Always choose the simplest antiderivative.
 
 **Definition.** A second-order linear ODE with constant coefficients has the form
 
-$$a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = f(x)$$
+$$
+a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = f(x)
+$$
 
 Where $a$, $b$, $c$ are constants with $a \neq 0$.
 
 The equation is **homogeneous** when $f(x) = 0$:
 
-$$a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = 0$$
+$$
+a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = 0
+$$
 
 ### 3.2 The auxiliary equation
 
@@ -214,7 +258,9 @@ Substituting: $am^2 e^{mx} + bme^{mx} + ce^{mx} = 0$.
 
 Since $e^{mx} \neq 0$ for all $x$:
 
-$$\boxed{am^2 + bm + c = 0}$$
+$$
+\boxed{am^2 + bm + c = 0}
+$$
 
 This is the **auxiliary equation** (or **characteristic equation**).
 
@@ -224,15 +270,21 @@ The nature of the roots of $am^2 + bm + c = 0$ determines the form of the genera
 
 **Case 1: Two distinct real roots** $m_1 \neq m_2$ (discriminant $\Delta = b^2 - 4ac > 0$):
 
-$$\boxed{y = Ae^{m_1 x} + Be^{m_2 x}}$$
+$$
+\boxed{y = Ae^{m_1 x} + Be^{m_2 x}}
+$$
 
 **Case 2: Repeated real root** $m$ (discriminant $\Delta = 0$):
 
-$$\boxed{y = (A + Bx)e^{mx}}$$
+$$
+\boxed{y = (A + Bx)e^{mx}}
+$$
 
 **Case 3: Complex conjugate roots** $m = \alpha \pm \beta i$ (discriminant $\Delta < 0$):
 
-$$\boxed{y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)}$$
+$$
+\boxed{y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)}
+$$
 
 ### Proof of the general solution for Case 3 (complex roots)
 
@@ -241,17 +293,25 @@ Solutions are $e^{(\alpha+\beta i)x}$ and $e^{(\alpha-\beta i)x}$.
 
 Using Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$:
 
-$$e^{(\alpha+\beta i)x} = e^{\alpha x}(\cos\beta x + i\sin\beta x)$$
-$$e^{(\alpha-\beta i)x} = e^{\alpha x}(\cos\beta x - i\sin\beta x)$$
+$$
+e^{(\alpha+\beta i)x} = e^{\alpha x}(\cos\beta x + i\sin\beta x)
+$$
+$$
+e^{(\alpha-\beta i)x} = e^{\alpha x}(\cos\beta x - i\sin\beta x)
+$$
 
 Any linear combination $C_1 e^{(\alpha+\beta i)x} + C_2 e^{(\alpha-\beta i)x}$ can be rewritten as:
 
-$$e^{\alpha x}\left[(C_1+C_2)\cos\beta x + i(C_1-C_2)\sin\beta x\right]$$
+$$
+e^{\alpha x}\left[(C_1+C_2)\cos\beta x + i(C_1-C_2)\sin\beta x\right]
+$$
 
 Setting $A = C_1 + C_2$ and $B = i(C_1 - C_2)$ (which are real when $C_1$ and $C_2$ are complex
 Conjugates), we obtain:
 
-$$y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)$$
+$$
+y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)
+$$
 
 $\square$
 
@@ -261,19 +321,25 @@ $\square$
 
 Auxiliary: $m^2 - 5m + 6 = 0 \implies (m-2)(m-3) = 0 \implies m = 2, 3$.
 
-$$y = Ae^{2x} + Be^{3x}$$
+$$
+y = Ae^{2x} + Be^{3x}
+$$
 
 **Example (Case 2).** Solve $y'' - 4y' + 4y = 0$.
 
 Auxiliary: $m^2 - 4m + 4 = 0 \implies (m-2)^2 = 0 \implies m = 2$ (repeated).
 
-$$y = (A + Bx)e^{2x}$$
+$$
+y = (A + Bx)e^{2x}
+$$
 
 **Example (Case 3).** Solve $y'' + 2y' + 5y = 0$.
 
 Auxiliary: $m^2 + 2m + 5 = 0 \implies m = \dfrac{-2 \pm \sqrt{4-20}}{2} = -1 \pm 2i$.
 
-$$y = e^{-x}(A\cos 2x + B\sin 2x)$$
+$$
+y = e^{-x}(A\cos 2x + B\sin 2x)
+$$
 
 <hr />
 
@@ -285,7 +351,9 @@ $$y = e^{-x}(A\cos 2x + B\sin 2x)$$
 $a y'' + by' + cy = 0$ (the **complementary function**, CF), and $y_p$ is any particular solution of
 $a y'' + by' + cy = f(x)$ (a **particular integral**, PI), then the general solution is
 
-$$\boxed{y = y_h + y_p}$$
+$$
+\boxed{y = y_h + y_p}
+$$
 
 ### Proof of the superposition principle
 
@@ -293,9 +361,13 @@ Let $y_1$ satisfy $a y_1'' + by_1' + cy_1 = 0$ and $y_p$ satisfy $a y_p'' + by_p
 
 Define $y = y_1 + y_p$. Then:
 
-$$ay'' + by' + cy = a(y_1'' + y_p'') + b(y_1' + y_p') + c(y_1 + y_p)$$
+$$
+ay'' + by' + cy = a(y_1'' + y_p'') + b(y_1' + y_p') + c(y_1 + y_p)
+$$
 
-$$= (ay_1'' + by_1' + cy_1) + (ay_p'' + by_p' + cy_p) = 0 + f(x) = f(x)$$
+$$
+= (ay_1'' + by_1' + cy_1) + (ay_p'' + by_p' + cy_p) = 0 + f(x) = f(x)
+$$
 
 So $y_1 + y_p$ satisfies the non-homogeneous equation. Since $y_1$ contains two arbitrary constants,
 The general solution $y = y_h + y_p$ also contains two arbitrary constants. $\square$
@@ -330,7 +402,9 @@ $y_p'' = 9ce^{3x}$.
 
 Substitute: $9ce^{3x} - 9ce^{3x} + 2ce^{3x} = 4e^{3x} \implies 2c = 4 \implies c = 2$.
 
-$$\boxed{y = Ae^x + Be^{2x} + 2e^{3x}}$$
+$$
+\boxed{y = Ae^x + Be^{2x} + 2e^{3x}}
+$$
 
 **Example 2.** Solve $y'' + y = \sin x$.
 
@@ -350,7 +424,9 @@ $2(-c\sin x + d\cos x) = \sin x$
 
 Comparing: $-2c = 1 \implies c = -\dfrac{1}{2}$ And $2d = 0 \implies d = 0$.
 
-$$\boxed{y = A\cos x + B\sin x - \frac{1}{2}x\cos x}$$
+$$
+\boxed{y = A\cos x + B\sin x - \frac{1}{2}x\cos x}
+$$
 
 **Example 3.** Solve $y'' - 4y' + 4y = 3x + 2$.
 
@@ -362,7 +438,9 @@ $0 - 4p + 4(px + q) = 3x + 2$. $4px + (4q - 4p) = 3x + 2$.
 
 $4p = 3 \implies p = \dfrac{3}{4}$. $4q - 3 = 2 \implies q = \dfrac{5}{4}$.
 
-$$\boxed{y = (A + Bx)e^{2x} + \frac{3}{4}x + \frac{5}{4}}$$
+$$
+\boxed{y = (A + Bx)e^{2x} + \frac{3}{4}x + \frac{5}{4}}
+$$
 
 <hr />
 
@@ -372,7 +450,9 @@ $$\boxed{y = (A + Bx)e^{2x} + \frac{3}{4}x + \frac{5}{4}}$$
 
 The ODE $\dfrac{dy}{dt} = ky$ (where $k$ is a constant) has solution
 
-$$\boxed{y = y_0 e^{kt}}$$
+$$
+\boxed{y = y_0 e^{kt}}
+$$
 
 Where $y_0 = y(0)$. If $k > 0$: exponential growth. If $k < 0$: exponential decay.
 
@@ -386,14 +466,18 @@ $y = e^{kt+C} = Ae^{kt}$. With $y(0) = y_0$: $A = y_0$. $\square$
 **Definition.** Newton's law of cooling states that the rate of temperature change of a body is
 Proportional to the difference between its temperature $T$ and the ambient temperature $T_a$:
 
-$$\frac{dT}{dt} = -k(T - T_a)$$
+$$
+\frac{dT}{dt} = -k(T - T_a)
+$$
 
 Where $k > 0$ is the cooling constant.
 
 **Solution.** Let $\theta = T - T_a$. Then $\dfrac{d\theta}{dt} = -k\theta$Giving
 $\theta = \theta_0 e^{-kt}$.
 
-$$\boxed{T = T_a + (T_0 - T_a)e^{-kt}}$$
+$$
+\boxed{T = T_a + (T_0 - T_a)e^{-kt}}
+$$
 
 **Example.** A cup of tea at $90°C$ is placed in a room at $20°C$. After 10 minutes the temperature
 Is $60°C$. Find the temperature after 20 minutes.
@@ -408,11 +492,15 @@ $T(20) = 20 + 70e^{-20k} = 20 + 70\left(\dfrac{4}{7}\right)^2 = 20 + 70 \cdot \d
 
 The **logistic equation** models population growth with a carrying capacity $M$:
 
-$$\frac{dP}{dt} = kP\left(1 - \frac{P}{M}\right)$$
+$$
+\frac{dP}{dt} = kP\left(1 - \frac{P}{M}\right)
+$$
 
 This is separable. The solution is
 
-$$\boxed{P(t) = \frac{M}{1 + Ae^{-kt}}}$$
+$$
+\boxed{P(t) = \frac{M}{1 + Ae^{-kt}}}
+$$
 
 Where $A = \dfrac{M - P_0}{P_0}$.
 
@@ -424,7 +512,9 @@ And the mixture flows out at 5 L/min. Find the amount of salt after $t$ minutes.
 Let $S(t)$ be the amount of salt (kg). Rate in = 0. Rate out = concentration $\times$ flow rate
 $= \dfrac{S}{100} \times 5 = \dfrac{S}{20}$.
 
-$$\frac{dS}{dt} = -\frac{S}{20}$$
+$$
+\frac{dS}{dt} = -\frac{S}{20}
+$$
 
 $S = 10e^{-t/20}$.
 
@@ -757,11 +847,17 @@ $\boxed{y = e^{-2x}(2\cos 3x + \sin 3x)}$
 **Solution.** Integrating factor:
 $\mu = \exp\!\left(\displaystyle\int \frac{2}{x}\,dx\right) = e^{2\ln x} = x^2$.
 
-$$\frac{d}{dx}(x^2 y) = x^4$$
+$$
+\frac{d}{dx}(x^2 y) = x^4
+$$
 
-$$x^2 y = \frac{x^5}{5} + C$$
+$$
+x^2 y = \frac{x^5}{5} + C
+$$
 
-$$\boxed{y = \frac{x^3}{5} + \frac{C}{x^2}}$$
+$$
+\boxed{y = \frac{x^3}{5} + \frac{C}{x^2}}
+$$
 
 ### Example 8.3: Homogeneous equation via substitution
 
@@ -769,19 +865,31 @@ $$\boxed{y = \frac{x^3}{5} + \frac{C}{x^2}}$$
 
 **Solution.** This is a homogeneous equation. Let $y = vx$ So $\dfrac{dy}{dx} = v + x\dfrac{dv}{dx}$.
 
-$$v + x\frac{dv}{dx} = \frac{1+v}{1-v}$$
+$$
+v + x\frac{dv}{dx} = \frac{1+v}{1-v}
+$$
 
-$$x\frac{dv}{dx} = \frac{1+v}{1-v} - v = \frac{1+v-v+v^2}{1-v} = \frac{1+v^2}{1-v}$$
+$$
+x\frac{dv}{dx} = \frac{1+v}{1-v} - v = \frac{1+v-v+v^2}{1-v} = \frac{1+v^2}{1-v}
+$$
 
-$$\int \frac{1-v}{1+v^2}\,dv = \int \frac{1}{x}\,dx$$
+$$
+\int \frac{1-v}{1+v^2}\,dv = \int \frac{1}{x}\,dx
+$$
 
-$$\int \frac{1}{1+v^2}\,dv - \int \frac{v}{1+v^2}\,dv = \ln|x| + C$$
+$$
+\int \frac{1}{1+v^2}\,dv - \int \frac{v}{1+v^2}\,dv = \ln|x| + C
+$$
 
-$$\arctan v - \frac{1}{2}\ln(1+v^2) = \ln|x| + C$$
+$$
+\arctan v - \frac{1}{2}\ln(1+v^2) = \ln|x| + C
+$$
 
 Substituting $v = y/x$:
 
-$$\arctan\!\left(\frac{y}{x}\right) - \frac{1}{2}\ln\!\left(1+\frac{y^2}{x^2}\right) = \ln|x| + C$$
+$$
+\arctan\!\left(\frac{y}{x}\right) - \frac{1}{2}\ln\!\left(1+\frac{y^2}{x^2}\right) = \ln|x| + C
+$$
 
 ### Example 8.4: Coupled first-order ODEs
 
@@ -794,9 +902,13 @@ Differentiating: $\dfrac{dy}{dt} = \dfrac{1}{2}\!\left(\dfrac{d^2x}{dt^2} - 3\df
 Substituting into the second equation:
 $\dfrac{1}{2}\!\left(\dfrac{d^2x}{dt^2} - 3\dfrac{dx}{dt}\right) = -5x - \dfrac{1}{2}\!\left(\dfrac{dx}{dt} - 3x\right)$.
 
-$$\frac{d^2x}{dt^2} - 3\frac{dx}{dt} = -10x - \frac{dx}{dt} + 3x$$
+$$
+\frac{d^2x}{dt^2} - 3\frac{dx}{dt} = -10x - \frac{dx}{dt} + 3x
+$$
 
-$$\frac{d^2x}{dt^2} - 2\frac{dx}{dt} + 7x = 0$$
+$$
+\frac{d^2x}{dt^2} - 2\frac{dx}{dt} + 7x = 0
+$$
 
 Auxiliary: $m^2 - 2m + 7 = 0 \implies m = 1 \pm i\sqrt{6}$.
 
@@ -813,11 +925,17 @@ And interpret.
 
 Integrating factor: $\mu = e^{-0.1t}$.
 
-$$\frac{d}{dt}(Pe^{-0.1t}) = -50e^{-0.1t}$$
+$$
+\frac{d}{dt}(Pe^{-0.1t}) = -50e^{-0.1t}
+$$
 
-$$Pe^{-0.1t} = 500e^{-0.1t} + C$$
+$$
+Pe^{-0.1t} = 500e^{-0.1t} + C
+$$
 
-$$\boxed{P = 500 + Ce^{0.1t}}$$
+$$
+\boxed{P = 500 + Ce^{0.1t}}
+$$
 
 The equilibrium population is $P = 500$. If $P(0) > 500$The population grows exponentially; if
 $P(0) < 500$It decays to zero (extinction).
@@ -911,7 +1029,9 @@ $\theta(10) = 50$Find $\theta(30)$.
 
 $\dfrac{d\theta}{dt} + k\theta = 20k$. IF: $e^{kt}$.
 
-$$\theta e^{kt} = 20e^{kt} + C$$
+$$
+\theta e^{kt} = 20e^{kt} + C
+$$
 
 $\theta = 20 + Ce^{-kt}$.
 
@@ -936,9 +1056,13 @@ Let $y = vx$ So $\dfrac{dy}{dx} = v + x\dfrac{dv}{dx}$.
 
 Substituting: $v + x\dfrac{dv}{dx} = f(v)$.
 
-$$x\frac{dv}{dx} = f(v) - v$$
+$$
+x\frac{dv}{dx} = f(v) - v
+$$
 
-$$\frac{dv}{f(v) - v} = \frac{dx}{x}$$
+$$
+\frac{dv}{f(v) - v} = \frac{dx}{x}
+$$
 
 This is separable. Integrating gives $\displaystyle\int \frac{dv}{f(v) - v} = \ln|x| + C$.
 $\blacksquare$
@@ -955,11 +1079,17 @@ Find the particular solution to $x\dfrac{dy}{dx} - y = x^2$ with $y(1) = 3$.
 $\dfrac{dy}{dx} - \dfrac{y}{x} = x$. IF:
 $\mu = \exp\!\left(\displaystyle\int -\dfrac{1}{x}\,dx\right) = \dfrac{1}{x}$.
 
-$$\frac{1}{x}\cdot\frac{dy}{dx} - \frac{y}{x^2} = 1$$
+$$
+\frac{1}{x}\cdot\frac{dy}{dx} - \frac{y}{x^2} = 1
+$$
 
-$$\frac{d}{dx}\!\left(\frac{y}{x}\right) = 1$$
+$$
+\frac{d}{dx}\!\left(\frac{y}{x}\right) = 1
+$$
 
-$$\frac{y}{x} = x + C \implies y = x^2 + Cx$$
+$$
+\frac{y}{x} = x + C \implies y = x^2 + Cx
+$$
 
 $y(1) = 1 + C = 3 \implies C = 2$.
 
@@ -1044,13 +1174,21 @@ Therefore $W \neq 0 \iff$ linearly independent. $\blacksquare$
 
 For $\dfrac{dy}{dx} + P(x)y = Q(x)$Multiply by $\mu = e^{\int P\,dx}$:
 
-$$\mu\frac{dy}{dx} + \mu Py = \mu Q$$
+$$
+\mu\frac{dy}{dx} + \mu Py = \mu Q
+$$
 
-$$\frac{d}{dx}(\mu y) = \mu Q$$
+$$
+\frac{d}{dx}(\mu y) = \mu Q
+$$
 
-$$\mu y = \int \mu Q\,dx + C$$
+$$
+\mu y = \int \mu Q\,dx + C
+$$
 
-$$y = \frac{1}{\mu}\int \mu Q\,dx + \frac{C}{\mu}$$
+$$
+y = \frac{1}{\mu}\int \mu Q\,dx + \frac{C}{\mu}
+$$
 
 ### 14.2 Systems of linear ODEs
 

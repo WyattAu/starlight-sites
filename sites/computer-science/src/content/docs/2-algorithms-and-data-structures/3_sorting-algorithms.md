@@ -100,11 +100,15 @@ Let $X_{ij}$ be the indicator random variable that $z_i$ and $z_j$ are compared,
 $z_1, \ldots, z_n$ are the sorted elements. Since elements are compared only if one is an ancestor
 of the other in the recursion tree, and the pivot is chosen uniformly at random:
 
-$$\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}$$
+$$
+\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}
+$$
 
 The total number of comparisons is $X = \sum_{i < j} X_{ij}$ So:
 
-$$\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)$$
+$$
+\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)
+$$
 
 Worst case occurs when the pivot is always the smallest or largest element (e.g., already sorted
 Array with first-element pivot): $T(n) = T(n-1) + O(n) = O(n^2)$. $\blacksquare$

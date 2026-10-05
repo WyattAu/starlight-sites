@@ -49,7 +49,9 @@ Intensity. This was one of the key experiments that led to quantum mechanics.
 
 **Einstein's Photoelectric Equation:**
 
-$$E_k = hf - \phi$$
+$$
+E_k = hf - \phi
+$$
 
 Where $\phi = hf_0$ is the work function of the metal.
 
@@ -63,24 +65,36 @@ $f_0 = \dfrac{\phi}{h} = \dfrac{2.28 \times 1.6 \times 10^{-19}}{6.63 \times 10^
 Maximum kinetic energy:
 $E_k = hf - \phi = 6.63 \times 10^{-34} \times 8 \times 10^{14} - 3.648 \times 10^{-19}$
 
-$$= 5.304 \times 10^{-19} - 3.648 \times 10^{-19} = 1.656 \times 10^{-19} \mathrm{ J = 1.04 \mathrm{ eV$$
+$$
+= 5.304 \times 10^{-19} - 3.648 \times 10^{-19} = 1.656 \times 10^{-19} \mathrm{ J = 1.04 \mathrm{ eV
+$$
 
 ### De Broglie Wavelength
 
 All matter has wave-like properties. The de Broglie wavelength of a particle with momentum $p$ is:
 
-$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+$$
+\lambda = \frac{h}{p} = \frac{h}{mv}
+$$
 
 **Example:** Find the de Broglie wavelength of an electron accelerated through a potential
 Difference of $200 \mathrm{ V$.
 
-$$E_k = eV = 200 \mathrm{ eV = 200 \times 1.6 \times 10^{-19} = 3.2 \times 10^{-17} \mathrm{ J$$
+$$
+E_k = eV = 200 \mathrm{ eV = 200 \times 1.6 \times 10^{-19} = 3.2 \times 10^{-17} \mathrm{ J
+$$
 
-$$E_k = \frac{1}{2}mv^2 = \frac{p^2}{2m}$$
+$$
+E_k = \frac{1}{2}mv^2 = \frac{p^2}{2m}
+$$
 
-$$p = \sqrt{2mE_k} = \sqrt{2 \times 9.11 \times 10^{-31} \times 3.2 \times 10^{-17}} = \sqrt{5.83 \times 10^{-47}} = 7.64 \times 10^{-24} \mathrm{ kg m/s$$
+$$
+p = \sqrt{2mE_k} = \sqrt{2 \times 9.11 \times 10^{-31} \times 3.2 \times 10^{-17}} = \sqrt{5.83 \times 10^{-47}} = 7.64 \times 10^{-24} \mathrm{ kg m/s
+$$
 
-$$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{7.64 \times 10^{-24}} = 8.68 \times 10^{-11} \mathrm{ m \approx 0.087 \mathrm{ nm$$
+$$
+\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{7.64 \times 10^{-24}} = 8.68 \times 10^{-11} \mathrm{ m \approx 0.087 \mathrm{ nm
+$$
 
 ### Why Macroscopic Objects Do Not Show Wave Behaviour
 
@@ -96,7 +110,9 @@ Observable.
 
 Electrons in atoms exist in discrete energy levels. Transitions between levels produce photons:
 
-$$\Delta E = hf = \frac{hc}{\lambda}$$
+$$
+\Delta E = hf = \frac{hc}{\lambda}
+$$
 
 - **Emission spectrum:** Bright lines on a dark background (photons emitted when electrons move to
   lower levels)
@@ -107,9 +123,13 @@ $$\Delta E = hf = \frac{hc}{\lambda}$$
 Are $E_1 = -13.6 \mathrm{ eV$$E_2 = -3.4 \mathrm{ eV$$E_3 = -1.51 \mathrm{ eV$. Find the wavelength
 Of the emitted photon.
 
-$$\Delta E = E_3 - E_1 = -1.51 - (-13.6) = 12.09 \mathrm{ eV = 1.934 \times 10^{-18} \mathrm{ J$$
+$$
+\Delta E = E_3 - E_1 = -1.51 - (-13.6) = 12.09 \mathrm{ eV = 1.934 \times 10^{-18} \mathrm{ J
+$$
 
-$$\lambda = \frac{hc}{\Delta E} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.934 \times 10^{-18}} = \frac{1.989 \times 10^{-25}}{1.934 \times 10^{-18}} = 1.028 \times 10^{-7} \mathrm{ m \approx 103 \mathrm{ nm$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.934 \times 10^{-18}} = \frac{1.989 \times 10^{-25}}{1.934 \times 10^{-18}} = 1.028 \times 10^{-7} \mathrm{ m \approx 103 \mathrm{ nm
+$$
 
 This is in the ultraviolet region (Lyman series).
 
@@ -118,7 +138,9 @@ This is in the ultraviolet region (Lyman series).
 It is fundamentally impossible to simultaneously know both the exact position and exact momentum of
 A particle:
 
-$$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$
+$$
+\Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+$$
 
 Where $\hbar = \dfrac{h}{2\pi}$.
 
@@ -133,7 +155,9 @@ the precision of any physical theory.
 **Example:** An electron is confined to a region of width $1 \mathrm{ nm$. What is the minimum
 Uncertainty in its momentum?
 
-$$\Delta p \geq \frac{\hbar}{2\Delta x} = \frac{1.055 \times 10^{-34}}{2 \times 10^{-9}} = 5.275 \times 10^{-26} \mathrm{ kg m/s$$
+$$
+\Delta p \geq \frac{\hbar}{2\Delta x} = \frac{1.055 \times 10^{-34}}{2 \times 10^{-9}} = 5.275 \times 10^{-26} \mathrm{ kg m/s
+$$
 
 ---
 
@@ -217,7 +241,9 @@ Every particle has a corresponding antiparticle with the same mass but opposite 
 
 **Electron-positron annihilation:**
 
-$$e^- + e^+ \to 2\gamma$$
+$$
+e^- + e^+ \to 2\gamma
+$$
 
 The total energy of the photons equals $2m_e c^2$ plus any kinetic energy.
 
@@ -252,24 +278,34 @@ Frequency travelling in opposite directions.
 
 **String fixed at both ends:**
 
-$$f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots$$
+$$
+f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots
+$$
 
 Where $L$ is the string length and $v$ is the wave speed.
 
 **Pipe open at both ends:**
 
-$$f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots$$
+$$
+f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots
+$$
 
 **Pipe closed at one end:**
 
-$$f_n = \frac{nv}{4L}, \quad n = 1, 3, 5, \ldots$$
+$$
+f_n = \frac{nv}{4L}, \quad n = 1, 3, 5, \ldots
+$$
 
 **Example:** A guitar string of length $65 \mathrm{ cm$ has a fundamental frequency of
 $330 \mathrm{ Hz$. Find the wave speed and the frequency of the third harmonic.
 
-$$v = 2Lf_1 = 2 \times 0.65 \times 330 = 429 \mathrm{ m/s$$
+$$
+v = 2Lf_1 = 2 \times 0.65 \times 330 = 429 \mathrm{ m/s
+$$
 
-$$f_3 = \frac{3v}{2L} = 3 \times 330 = 990 \mathrm{ Hz$$
+$$
+f_3 = \frac{3v}{2L} = 3 \times 330 = 990 \mathrm{ Hz
+$$
 
 ### Why a Closed Pipe Only Supports Odd Harmonics
 
@@ -282,18 +318,24 @@ Continues with only odd multiples of the fundamental.
 
 When a source of waves moves relative to an observer, the observed frequency changes:
 
-$$f' = f\frac{v}{v \pm v_s}$$
+$$
+f' = f\frac{v}{v \pm v_s}
+$$
 
 Where $v_s$ is the speed of the source (minus for approaching, plus for receding).
 
 **For electromagnetic waves (relativistic):**
 
-$$f' = f\sqrt{\frac{c \pm v}{c \mp v}}$$
+$$
+f' = f\sqrt{\frac{c \pm v}{c \mp v}}
+$$
 
 **Example:** An ambulance siren emits sound at $800 \mathrm{ Hz$. If the ambulance approaches at
 $25 \mathrm{ m/s$ (speed of sound $= 343 \mathrm{ m/s$), find the observed frequency.
 
-$$f' = 800 \times \frac{343}{343 - 25} = 800 \times \frac{343}{318} = 800 \times 1.0786 = 862.9 \mathrm{ Hz$$
+$$
+f' = 800 \times \frac{343}{343 - 25} = 800 \times \frac{343}{318} = 800 \times 1.0786 = 862.9 \mathrm{ Hz
+$$
 
 ---
 
@@ -395,12 +437,16 @@ flowchart TD
 When light of wavelength $450 \mathrm{ nm$ is incident on a sodium surface, the stopping potential
 is Measured to be $0.65 \mathrm{ V$. Find the work function of sodium and the threshold frequency.
 
-$$E_k = eV_s = 1.6 \times 10^{-19} \times 0.65 = 1.04 \times 10^{-19} \mathrm{ J = 0.65 \mathrm{ eV$$
+$$
+E_k = eV_s = 1.6 \times 10^{-19} \times 0.65 = 1.04 \times 10^{-19} \mathrm{ J = 0.65 \mathrm{ eV
+$$
 
 Photon energy:
 $E = hf = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{450 \times 10^{-9}} = 4.42 \times 10^{-19} \mathrm{ J = 2.76 \mathrm{ eV$
 
-$$\phi = E - E_k = 2.76 - 0.65 = 2.11 \mathrm{ eV$$
+$$
+\phi = E - E_k = 2.76 - 0.65 = 2.11 \mathrm{ eV
+$$
 
 Threshold frequency:
 $f_0 = \frac{\phi}{h} = \frac{2.11 \times 1.6 \times 10^{-19}}{6.63 \times 10^{-34}} = 5.09 \times 10^{14} \mathrm{ Hz$
@@ -426,7 +472,9 @@ Since $2.90 \mathrm{ eV \gt 2.0 \mathrm{ eV$Photoelectrons are emitted.
 
 **Photon flux:** Power per unit area divided by energy per photon:
 
-$$\mathrm{flux = \frac{5}{4.64 \times 10^{-19}} = 1.078 \times 10^{19} \mathrm{ photons/m^2\mathrm{/s$$
+$$
+\mathrm{flux = \frac{5}{4.64 \times 10^{-19}} = 1.078 \times 10^{19} \mathrm{ photons/m^2\mathrm{/s
+$$
 
 **Photoelectrons per second:**
 $1.078 \times 10^{19} \times 2 \times 10^{-4} = 2.16 \times 10^{15} \mathrm{ electrons/s$
@@ -442,15 +490,23 @@ Electrons are accelerated through a potential difference of $500 \mathrm{ V$. Th
 Thin crystal and produce a diffraction pattern. The first diffraction maximum is observed at an
 Angle of $1.8^{\circ}$. Calculate the atomic spacing.
 
-$$E_k = eV = 500 \mathrm{ eV = 8.0 \times 10^{-17} \mathrm{ J$$
+$$
+E_k = eV = 500 \mathrm{ eV = 8.0 \times 10^{-17} \mathrm{ J
+$$
 
-$$p = \sqrt{2mE_k} = \sqrt{2 \times 9.11 \times 10^{-31} \times 8.0 \times 10^{-17}} = \sqrt{1.458 \times 10^{-46}} = 1.208 \times 10^{-23} \mathrm{ kg m/s$$
+$$
+p = \sqrt{2mE_k} = \sqrt{2 \times 9.11 \times 10^{-31} \times 8.0 \times 10^{-17}} = \sqrt{1.458 \times 10^{-46}} = 1.208 \times 10^{-23} \mathrm{ kg m/s
+$$
 
-$$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{1.208 \times 10^{-23}} = 5.49 \times 10^{-11} \mathrm{ m$$
+$$
+\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{1.208 \times 10^{-23}} = 5.49 \times 10^{-11} \mathrm{ m
+$$
 
 For the first-order maximum: $d\sin\theta = \lambda$
 
-$$d = \frac{\lambda}{\sin\theta} = \frac{5.49 \times 10^{-11}}{\sin 1.8^{\circ}} = \frac{5.49 \times 10^{-11}}{0.0314} = 1.75 \times 10^{-9} \mathrm{ m = 1.75 \mathrm{ nm$$
+$$
+d = \frac{\lambda}{\sin\theta} = \frac{5.49 \times 10^{-11}}{\sin 1.8^{\circ}} = \frac{5.49 \times 10^{-11}}{0.0314} = 1.75 \times 10^{-9} \mathrm{ m = 1.75 \mathrm{ nm
+$$
 
 This is roughly 3--5 atomic spacings, which is consistent with crystal lattice spacing.
 
@@ -464,21 +520,33 @@ $E_n = -\frac{13.6}{n^2} \mathrm{ eV$
 
 **$n = 3 \to 2$:**
 
-$$\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{9}\right) = 13.6 \times \frac{5}{36} = 1.889 \mathrm{ eV$$
+$$
+\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{9}\right) = 13.6 \times \frac{5}{36} = 1.889 \mathrm{ eV
+$$
 
-$$\lambda = \frac{hc}{\Delta E} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.889 \times 1.6 \times 10^{-19}} = \frac{1.989 \times 10^{-25}}{3.022 \times 10^{-19}} = 6.58 \times 10^{-7} \mathrm{ m = 658 \mathrm{ nm \mathrm{ (red)$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.889 \times 1.6 \times 10^{-19}} = \frac{1.989 \times 10^{-25}}{3.022 \times 10^{-19}} = 6.58 \times 10^{-7} \mathrm{ m = 658 \mathrm{ nm \mathrm{ (red)
+$$
 
 **$n = 4 \to 2$:**
 
-$$\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{16}\right) = 13.6 \times \frac{3}{16} = 2.55 \mathrm{ eV$$
+$$
+\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{16}\right) = 13.6 \times \frac{3}{16} = 2.55 \mathrm{ eV
+$$
 
-$$\lambda = \frac{1.989 \times 10^{-25}}{2.55 \times 1.6 \times 10^{-19}} = 4.87 \times 10^{-7} \mathrm{ m = 487 \mathrm{ nm \mathrm{ (blue-green)$$
+$$
+\lambda = \frac{1.989 \times 10^{-25}}{2.55 \times 1.6 \times 10^{-19}} = 4.87 \times 10^{-7} \mathrm{ m = 487 \mathrm{ nm \mathrm{ (blue-green)
+$$
 
 **$n = 5 \to 2$:**
 
-$$\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{25}\right) = 13.6 \times \frac{21}{100} = 2.856 \mathrm{ eV$$
+$$
+\Delta E = 13.6\left(\frac{1}{4} - \frac{1}{25}\right) = 13.6 \times \frac{21}{100} = 2.856 \mathrm{ eV
+$$
 
-$$\lambda = \frac{1.989 \times 10^{-25}}{2.856 \times 1.6 \times 10^{-19}} = 4.35 \times 10^{-7} \mathrm{ m = 435 \mathrm{ nm \mathrm{ (violet)$$
+$$
+\lambda = \frac{1.989 \times 10^{-25}}{2.856 \times 1.6 \times 10^{-19}} = 4.35 \times 10^{-7} \mathrm{ m = 435 \mathrm{ nm \mathrm{ (violet)
+$$
 
 ## 14. Particle Physics: Extended Conservation Laws
 
@@ -487,7 +555,9 @@ $$\lambda = \frac{1.989 \times 10^{-25}}{2.856 \times 1.6 \times 10^{-19}} = 4.3
 Verify conservation of charge, baryon number, and lepton number for beta-minus decay of a free
 Neutron:
 
-$$n \to p + e^- + \bar{\nu}_e$$
+$$
+n \to p + e^- + \bar{\nu}_e
+$$
 
 Writing with full quark content: $udd \to uud + e^- + \bar{\nu}_e$
 
@@ -579,16 +649,28 @@ Broglie wavelength.
 
 **Step 1: Find the kinetic energy**
 
-$$eV = \frac{1}{2}mv^2$$
+$$
+eV = \frac{1}{2}mv^2
+$$
 
-$$1.602 \times 10^{-19} \times 200 = \frac{1}{2} \times 9.109 \times 10^{-31} \times v^2$$
+$$
+1.602 \times 10^{-19} \times 200 = \frac{1}{2} \times 9.109 \times 10^{-31} \times v^2
+$$
 
-$$v^2 = \frac{2 \times 3.204 \times 10^{-17}}{9.109 \times 10^{-31}} = 7.034 \times 10^{13}$$
+$$
+v^2 = \frac{2 \times 3.204 \times 10^{-17}}{9.109 \times 10^{-31}} = 7.034 \times 10^{13}
+$$
 
-$$v = 8.387 \times 10^6 \mathrm{ m/s$$
+$$
+v = 8.387 \times 10^6 \mathrm{ m/s
+$$
 
 **Step 2: Calculate the de Broglie wavelength**
 
-$$\lambda = \frac{h}{mv} = \frac{6.626 \times 10^{-34}}{9.109 \times 10^{-31} \times 8.387 \times 10^6}$$
+$$
+\lambda = \frac{h}{mv} = \frac{6.626 \times 10^{-34}}{9.109 \times 10^{-31} \times 8.387 \times 10^6}
+$$
 
-$$\lambda = \frac{6.626 \times 10^{-34}}{7.639 \times 10^{-24}} = 8.67 \times 10^{-11} \mathrm{ m = 0.0867 \mathrm{ nm$$
+$$
+\lambda = \frac{6.626 \times 10^{-34}}{7.639 \times 10^{-24}} = 8.67 \times 10^{-11} \mathrm{ m = 0.0867 \mathrm{ nm
+$$

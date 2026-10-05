@@ -243,7 +243,9 @@ More systematically, the division algorithm tells us:
 **Theorem (Polynomial Division Algorithm).** For polynomials $f(x)$ and $g(x)$ with $g(x) \neq 0$
 There exist unique polynomials $q(x)$ (the quotient) and $r(x)$ (the remainder) such that:
 
-$$f(x) = g(x) \cdot q(x) + r(x)$$
+$$
+f(x) = g(x) \cdot q(x) + r(x)
+$$
 
 Where $\deg(r) < \deg(g)$ or $r(x) = 0$.
 
@@ -328,7 +330,9 @@ $$
 
 ### 6.1 Cancellation
 
-$$\frac{ab + ac}{ad + ae} = \frac{a(b + c)}{a(d + e)} = \frac{b + c}{d + e}$$
+$$
+\frac{ab + ac}{ad + ae} = \frac{a(b + c)}{a(d + e)} = \frac{b + c}{d + e}
+$$
 
 :::caution
 In the denominator is a factor of the whole expression, but the $x$ in the numerator is only one
@@ -474,7 +478,9 @@ Setting $x = -3$: $-6 + 1 = A(-5)$ So $A = 1$.
 
 Setting $x = 2$: $4 + 1 = B(5)$ So $B = 1$.
 
-$$\frac{2x + 1}{(x + 3)(x - 2)} = \frac{1}{x + 3} + \frac{1}{x - 2}$$
+$$
+\frac{2x + 1}{(x + 3)(x - 2)} = \frac{1}{x + 3} + \frac{1}{x - 2}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Algebraic fractions](#6-simplifying-algebraic-fractions)
@@ -506,7 +512,9 @@ Comparing leading coefficients: $p = 1$.
 
 Comparing constant terms: $(-1)(1)(-3)(q) = 6$ So $3q = 6$, $q = 2$.
 
-$$f(x) = (x - 1)(x + 1)(x - 3)(x + 2)$$
+$$
+f(x) = (x - 1)(x + 1)(x - 3)(x + 2)
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Factor theorem](#52-the-factor-theorem)
@@ -616,9 +624,13 @@ From (1): $c = -1 - a - b = -1 - a + 3 + 2a = 2 + a$.
 
 Substituting into (3): $4a - 2(-3 - 2a) + (2 + a) = 20$
 
-$$4a + 6 + 4a + 2 + a = 20 \implies 9a + 8 = 20 \implies a = \frac{12}{9} = \frac{4}{3}$$
+$$
+4a + 6 + 4a + 2 + a = 20 \implies 9a + 8 = 20 \implies a = \frac{12}{9} = \frac{4}{3}
+$$
 
-$$b = -3 - \frac{8}{3} = -\frac{17}{3}, \quad c = 2 + \frac{4}{3} = \frac{10}{3}$$
+$$
+b = -3 - \frac{8}{3} = -\frac{17}{3}, \quad c = 2 + \frac{4}{3} = \frac{10}{3}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Remainder and Factor theorems](#5-the-factor-theorem-and-remainder-theorem)

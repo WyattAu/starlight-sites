@@ -24,7 +24,9 @@ tags:
 **Definition.** The **joint PDF** (for continuous random variables) is $f_{X,Y}(x, y) \geq 0$ such
 that
 
-$$F_{X,Y}(x, y) = \int_{-\infty}^{x}\int_{-\infty}^{y} f_{X,Y}(u, v)\, du\, dv$$
+$$
+F_{X,Y}(x, y) = \int_{-\infty}^{x}\int_{-\infty}^{y} f_{X,Y}(u, v)\, du\, dv
+$$
 
 **Definition.** The **marginal PDF** of $X$ is
 $f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x, y)\, dy$.
@@ -33,14 +35,18 @@ $f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x, y)\, dy$.
 
 **Definition.** The **covariance** of $X$ and $Y$ is
 
-$$\mathrm{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])] = E[XY] - E[X]E[Y]$$
+$$
+\mathrm{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])] = E[XY] - E[X]E[Y]
+$$
 
 **Proposition 2.6.** $\mathrm{Cov}(X, Y) = \mathrm{Cov}(Y, X)$ and
 $\mathrm{Cov}(aX + b, cY + d) = ac\,\mathrm{Cov}(X, Y)$.
 
 **Definition.** The **correlation coefficient** is
 
-$$\rho(X, Y) = \frac{\mathrm{Cov}(X, Y)}{\sqrt{\mathrm{Var}(X)\,\mathrm{Var}(Y)}}$$
+$$
+\rho(X, Y) = \frac{\mathrm{Cov}(X, Y)}{\sqrt{\mathrm{Var}(X)\,\mathrm{Var}(Y)}}
+$$
 
 **Theorem 2.7 (Cauchy--Schwarz for Random Variables).** $|\rho(X, Y)| \leq 1$, with equality if and
 only if $Y = aX + b$ almost surely for some $a, b$.
@@ -69,13 +75,17 @@ But $Y$ is completely determined by $X$, so they are not independent. $\blacksqu
 
 **Definition.** The **conditional PDF** of $Y$ given $X = x$ is:
 
-$$f_{Y|X}(y|x) = \frac{f_{X,Y}(x, y)}{f_X(x)}$$
+$$
+f_{Y|X}(y|x) = \frac{f_{X,Y}(x, y)}{f_X(x)}
+$$
 
 provided $f_X(x) > 0$.
 
 **Definition.** The **conditional expectation** of $Y$ given $X = x$ is:
 
-$$E[Y | X = x] = \int_{-\infty}^{\infty} y\, f_{Y|X}(y|x)\, dy$$
+$$
+E[Y | X = x] = \int_{-\infty}^{\infty} y\, f_{Y|X}(y|x)\, dy
+$$
 
 The random variable $E[Y | X]$ has the property that $E[E[Y|X]] = E[Y]$ (law of total expectation).
 
@@ -83,7 +93,9 @@ The random variable $E[Y | X]$ has the property that $E[E[Y|X]] = E[Y]$ (law of 
 
 The bivariate normal distribution has joint PDF:
 
-$$f_{X,Y}(x, y) = \frac{1}{2\pi\sigma_X\sigma_Y\sqrt{1 - \rho^2}} \exp\left(-\frac{1}{2(1 - \rho^2)}\left[\frac{(x - \mu_X)^2}{\sigma_X^2} - 2\rho\frac{(x - \mu_X)(y - \mu_Y)}{\sigma_X\sigma_Y} + \frac{(y - \mu_Y)^2}{\sigma_Y^2}\right]\right)$$
+$$
+f_{X,Y}(x, y) = \frac{1}{2\pi\sigma_X\sigma_Y\sqrt{1 - \rho^2}} \exp\left(-\frac{1}{2(1 - \rho^2)}\left[\frac{(x - \mu_X)^2}{\sigma_X^2} - 2\rho\frac{(x - \mu_X)(y - \mu_Y)}{\sigma_X\sigma_Y} + \frac{(y - \mu_Y)^2}{\sigma_Y^2}\right]\right)
+$$
 
 where $\rho = \mathrm{Corr}(X, Y)$.
 
@@ -98,7 +110,9 @@ where $\rho = \mathrm{Corr}(X, Y)$.
 
 For a transformation $(U, V) = g(X, Y)$ where $g$ is a diffeomorphism, the joint PDF is:
 
-$$f_{U,V}(u, v) = f_{X,Y}(g^{-1}(u, v)) \cdot |\det J_{g^{-1}}|$$
+$$
+f_{U,V}(u, v) = f_{X,Y}(g^{-1}(u, v)) \cdot |\det J_{g^{-1}}|
+$$
 
 where $J$ is the Jacobian matrix of the inverse transformation.
 
@@ -111,7 +125,9 @@ and $V \sim \mathrm{Uniform}(0, 1)$.
 
 If $X$ and $Y$ are independent, the PDF of $Z = X + Y$ is the convolution:
 
-$$f_Z(z) = \int_{-\infty}^{\infty} f_X(z - y)\, f_Y(y)\, dy = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx$$
+$$
+f_Z(z) = \int_{-\infty}^{\infty} f_X(z - y)\, f_Y(y)\, dy = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx
+$$
 
 For moment generating functions: $M_Z(t) = M_X(t)\, M_Y(t)$.
 
@@ -142,12 +158,16 @@ Find the joint distribution of $(X, Y)$ and compute $\mathrm{Cov}(X, Y)$.
 
 The **joint moment generating function** of $(X, Y)$ is:
 
-$$M_{X,Y}(s, t) = E[e^{sX + tY}]$$
+$$
+M_{X,Y}(s, t) = E[e^{sX + tY}]
+$$
 
 If $X$ and $Y$ are independent, then $M_{X,Y}(s, t) = M_X(s)\, M_Y(t)$. Joint moments can be
 recovered by differentiation:
 
-$$E[X^m Y^n] = \frac{\partial^{m+n}}{\partial s^m \partial t^n} M_{X,Y}(s, t)\big|_{s=t=0}$$
+$$
+E[X^m Y^n] = \frac{\partial^{m+n}}{\partial s^m \partial t^n} M_{X,Y}(s, t)\big|_{s=t=0}
+$$
 
 ### 3.11 Additional Practice Problems
 

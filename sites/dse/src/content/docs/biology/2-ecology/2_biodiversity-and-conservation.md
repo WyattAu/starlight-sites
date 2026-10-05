@@ -143,7 +143,9 @@ And therefore higher overall species diversity.
 Simpson"s Diversity Index (D) is a quantitative measure of biodiversity that takes both species
 Richness and species evenness into account.
 
-$$D = 1 - \frac{\sum n(n-1)}{N(N-1)}$$
+$$
+D = 1 - \frac{\sum n(n-1)}{N(N-1)}
+$$
 
 Where:
 
@@ -163,9 +165,13 @@ A habitat contains the following organisms: 40 beetles, 30 ants, 20 spiders, 10 
 
 $N = 40 + 30 + 20 + 10 = 100$
 
-$$\sum n(n-1) = 40(39) + 30(29) + 20(19) + 10(9) = 1560 + 870 + 380 + 90 = 2900$$
+$$
+\sum n(n-1) = 40(39) + 30(29) + 20(19) + 10(9) = 1560 + 870 + 380 + 90 = 2900
+$$
 
-$$D = 1 - \frac{2900}{100(99)} = 1 - \frac{2900}{9900} = 1 - 0.2929 = 0.7071$$
+$$
+D = 1 - \frac{2900}{100(99)} = 1 - \frac{2900}{9900} = 1 - 0.2929 = 0.7071
+$$
 
 Simpson's Diversity Index = 0.707 (relatively high diversity).
 
@@ -1336,7 +1342,9 @@ processes:
 | Island size (area)     | Larger islands have higher species richness (more habitats, larger populations less prone to extinction, larger "target" for colonisation) |
 | Distance from mainland | Islands closer to the mainland have higher species richness (easier for species to colonise)                                               |
 
-$$S = cA^z$$
+$$
+S = cA^z
+$$
 
 Where:
 
@@ -1391,7 +1399,9 @@ remains relatively stable.
 
 **Simpson's Diversity Index (SDI):**
 
-$$D = 1 - \sum \left( \frac{n}{N} \right)^2$$
+$$
+D = 1 - \sum \left( \frac{n}{N} \right)^2
+$$
 
 Where:
 
@@ -1413,7 +1423,9 @@ Used to estimate the population size of **mobile animals** (e.g., insects, small
 
 **Lincoln-Petersen Index:**
 
-$$N = \frac{M \times C}{R}$$
+$$
+N = \frac{M \times C}{R}
+$$
 
 Where:
 
@@ -1486,7 +1498,9 @@ Based on molecular evidence (rRNA sequencing), Woese proposed three domains abov
 
 ### Classification Hierarchy
 
-$$\text{Domain} \rightarrow \text{Kingdom} \rightarrow \text{Phylum} \rightarrow \text{Class} \rightarrow \text{Order} \rightarrow \text{Family} \rightarrow \text{Genus} \rightarrow \text{Species}$$
+$$
+\text{Domain} \rightarrow \text{Kingdom} \rightarrow \text{Phylum} \rightarrow \text{Class} \rightarrow \text{Order} \rightarrow \text{Family} \rightarrow \text{Genus} \rightarrow \text{Species}
+$$
 
 **Mnemonic:** "Dear King Philip Came Over For Good Soup"
 

@@ -21,7 +21,9 @@ description: 'When the electric field is strong (e.g., laser), the polarisation 
 
 When the electric field is strong (e.g., laser), the polarisation develops nonlinear terms:
 
-$$P = \varepsilon_0(\chi^{(1)}E + \chi^{(2)}E^2 + \chi^{(3)}E^3 + \cdots)$$
+$$
+P = \varepsilon_0(\chi^{(1)}E + \chi^{(2)}E^2 + \chi^{(3)}E^3 + \cdots)
+$$
 
 The second-order susceptibility $\chi^{(2)}$ is nonzero only in non-centrosymmetric media. The
 third-order $\chi^{(3)}$ exists in all media.
@@ -30,7 +32,9 @@ third-order $\chi^{(3)}$ exists in all media.
 
 A beam of frequency $\omega$ generates light at $2\omega$. The intensity of the second harmonic:
 
-$$I_{2\omega} = \frac{2\omega^2 d_{\text{eff}^2 I_\omega^2 L^2}{n_\omega^2 n_{2\omega} c^3 \varepsilon_0}\,\text{sinc}^2\!\left(\frac{\Delta k\,L}{2}\right)}$$
+$$
+I_{2\omega} = \frac{2\omega^2 d_{\text{eff}^2 I_\omega^2 L^2}{n_\omega^2 n_{2\omega} c^3 \varepsilon_0}\,\text{sinc}^2\!\left(\frac{\Delta k\,L}{2}\right)}
+$$
 
 Where $d_{\text{eff} = \chi^{(2)}/2}$ is the effective nonlinear coefficient and
 $\Delta k = k_{2\omega} - 2k_\omega$ is the phase mismatch.
@@ -77,7 +81,9 @@ $\theta_{\text{PM} \approx 29.2°}$.
 
 The coherence length without phase matching:
 
-$$\ell_c = \frac{\pi}{\Delta k} = \frac{\lambda}{4(n_e^{2\omega} - n_o^{\omega})}$$
+$$
+\ell_c = \frac{\pi}{\Delta k} = \frac{\lambda}{4(n_e^{2\omega} - n_o^{\omega})}
+$$
 
 For typical values: $\ell_c \sim 5$ $\mu$M. A 1 mm crystal is $\sim 200$ coherence lengths long, so
 phase matching is essential.
@@ -85,7 +91,9 @@ phase matching is essential.
 The conversion efficiency for perfect phase matching with a 10 mm crystal at $I_\omega = 100$
 MW/cm$^2$:
 
-$$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times 10^{10}}{(1.6)^3 \times (400 \times 10^{-9})^2 \times 3 \times 10^8 \times 8.85 \times 10^{-12}} \approx 15\%$$
+$$
+\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times 10^{10}}{(1.6)^3 \times (400 \times 10^{-9})^2 \times 3 \times 10^8 \times 8.85 \times 10^{-12}} \approx 15\%
+$$
 
 </details>
 

@@ -201,14 +201,18 @@ The Harris-Todaro model (1970) explains rural-urban migration in developing coun
 Migration is driven not by actual urban wages but by expected urban wages, which account for the
 Probability of obtaining formal employment:
 
-$$E(W_u) = W_u \cdot P_e$$
+$$
+E(W_u) = W_u \cdot P_e
+$$
 
 Where $E(W_u)$ is the expected urban wage, $W_u$ is the formal sector urban wage, and $P_e$ is the
 Probability of obtaining formal employment (approximately equal to the formal sector employment
 Rate). Even if $W_u$ exceeds the rural wage, if $P_e$ is low (due to high urban unemployment),
 Migration may still be economically rational if:
 
-$$W_u \cdot P_e \gt W_r$$
+$$
+W_u \cdot P_e \gt W_r
+$$
 
 This model explains why urban unemployment can coexist with continued rural-urban migration:
 Migrants are willing to accept the risk of unemployment in the informal sector because the expected

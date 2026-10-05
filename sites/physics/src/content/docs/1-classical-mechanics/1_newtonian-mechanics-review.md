@@ -47,23 +47,31 @@ The first law is the special case of zero net force: the ledger is balanced, and
 
 In Cartesian coordinates the component equations are straightforward:
 
-$$F_x = m\ddot{x}, \quad F_y = m\ddot{y}, \quad F_z = m\ddot{z}$$
+$$
+F_x = m\ddot{x}, \quad F_y = m\ddot{y}, \quad F_z = m\ddot{z}
+$$
 
 In planar polar coordinates $(r, \phi)$The acceleration decomposes into radial and transverse
 components:
 
-$$\mathbf{a} = (\ddot{r} - r\dot{\phi}^2)\,\hat{\mathbf{r}} + (r\ddot{\phi} + 2\dot{r}\dot{\phi})\,\hat{\boldsymbol{\phi}}$$
+$$
+\mathbf{a} = (\ddot{r} - r\dot{\phi}^2)\,\hat{\mathbf{r}} + (r\ddot{\phi} + 2\dot{r}\dot{\phi})\,\hat{\boldsymbol{\phi}}
+$$
 
 So Newton's second law becomes:
 
-$$F_r = m(\ddot{r} - r\dot{\phi}^2), \quad F_\phi = m(r\ddot{\phi} + 2\dot{r}\dot{\phi})$$
+$$
+F_r = m(\ddot{r} - r\dot{\phi}^2), \quad F_\phi = m(r\ddot{\phi} + 2\dot{r}\dot{\phi})
+$$
 
 The term $-mr\dot{\phi}^2$ is the **centrifugal acceleration** and $2m\dot{r}\dot{\phi}$ is the
 **Coriolis acceleration**.
 
 In cylindrical coordinates $(\rho, \phi, z)$:
 
-$$\mathbf{a} = (\ddot{\rho} - \rho\dot{\phi}^2)\,\hat{\boldsymbol{\rho}} + (\rho\ddot{\phi} + 2\dot{\rho}\dot{\phi})\,\hat{\boldsymbol{\phi}} + \ddot{z}\,\hat{\mathbf{z}}$$
+$$
+\mathbf{a} = (\ddot{\rho} - \rho\dot{\phi}^2)\,\hat{\boldsymbol{\rho}} + (\rho\ddot{\phi} + 2\dot{\rho}\dot{\phi})\,\hat{\boldsymbol{\phi}} + \ddot{z}\,\hat{\mathbf{z}}
+$$
 
 ### 1.3 Worked Example: Block on an Inclined Plane with Friction
 
@@ -74,9 +82,13 @@ _Solution._ Choose axes parallel and perpendicular to the incline. The normal fo
 $N = mg\cos\alpha$. The friction force is $f = \mu_k N = \mu_k mg\cos\alpha$ directed up the plane.
 Newton's second law along the plane:
 
-$$ma = mg\sin\alpha - \mu_k mg\cos\alpha$$
+$$
+ma = mg\sin\alpha - \mu_k mg\cos\alpha
+$$
 
-$$a = g(\sin\alpha - \mu_k \cos\alpha)$$
+$$
+a = g(\sin\alpha - \mu_k \cos\alpha)
+$$
 
 The block accelerates when $\tan\alpha \gt \mu_k$ and decelerates otherwise. $\blacksquare$
 
@@ -89,15 +101,23 @@ $\omega$.
 _Solution._ The forces on the mass are tension $\mathbf{T}$ along the string and weight $mg$
 downward. Newton's second law in the vertical direction:
 
-$$T\cos\theta - mg = 0 \implies T = \frac{mg}{\cos\theta}$$
+$$
+T\cos\theta - mg = 0 \implies T = \frac{mg}{\cos\theta}
+$$
 
 In the radial (horizontal) direction:
 
-$$T\sin\theta = m\omega^2 r = m\omega^2 l\sin\theta$$
+$$
+T\sin\theta = m\omega^2 r = m\omega^2 l\sin\theta
+$$
 
-$$\frac{mg}{\cos\theta}\sin\theta = m\omega^2 l\sin\theta$$
+$$
+\frac{mg}{\cos\theta}\sin\theta = m\omega^2 l\sin\theta
+$$
 
-$$\omega^2 = \frac{g}{l\cos\theta}$$
+$$
+\omega^2 = \frac{g}{l\cos\theta}
+$$
 
 The period is $T = 2\pi/\omega = 2\pi\sqrt{l\cos\theta/g}$. $\blacksquare$
 
@@ -108,16 +128,22 @@ forces, the total linear momentum is conserved.
 
 _Proof._ Newton's second law for the $i$-th particle:
 
-$$\mathbf{F}_i^{(\mathrm{ext})} + \sum_{j \neq i} \mathbf{F}_{ij} = m_i \dot{\mathbf{v}}_i$$
+$$
+\mathbf{F}_i^{(\mathrm{ext})} + \sum_{j \neq i} \mathbf{F}_{ij} = m_i \dot{\mathbf{v}}_i
+$$
 
 Where $\mathbf{F}_{ij}$ is the force on particle $i$ due to particle $j$. By Newton's third law,
 $\mathbf{F}_{ij} = -\mathbf{F}_{ji}$. Summing over all particles:
 
-$$\sum_i \mathbf{F}_i^{(\mathrm{ext})} + \sum_i \sum_{j \neq i} \mathbf{F}_{ij} = \frac{d}{dt}\sum_i m_i \mathbf{v}_i$$
+$$
+\sum_i \mathbf{F}_i^{(\mathrm{ext})} + \sum_i \sum_{j \neq i} \mathbf{F}_{ij} = \frac{d}{dt}\sum_i m_i \mathbf{v}_i
+$$
 
 The double sum vanishes by Newton's third law. Defining $\mathbf{P} = \sum_i m_i \mathbf{v}_i$:
 
-$$\sum_i \mathbf{F}_i^{(\mathrm{ext})} = \dot{\mathbf{P}}$$
+$$
+\sum_i \mathbf{F}_i^{(\mathrm{ext})} = \dot{\mathbf{P}}
+$$
 
 If there are no external forces, $\dot{\mathbf{P}} = 0$ and $\mathbf{P}$ is constant. $\blacksquare$
 
@@ -130,11 +156,15 @@ $M\ddot{\mathbf{R}} = \sum_i \mathbf{F}_i^{(\mathrm{ext})}$.
 **Theorem 1.2 (Work-Energy Theorem).** The work done by the net force on a particle equals the
 change in its kinetic energy:
 
-$$W = \int_{\mathbf{r}_1}^{\mathbf{r}_2} \mathbf{F} \cdot d\mathbf{r} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2$$
+$$
+W = \int_{\mathbf{r}_1}^{\mathbf{r}_2} \mathbf{F} \cdot d\mathbf{r} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+$$
 
 _Proof._ Using Newton's second law:
 
-$$W = \int m\mathbf{a} \cdot \mathbf{v}\, dt = \int m \frac{d\mathbf{v}}{dt} \cdot \mathbf{v}\, dt = \int m\mathbf{v} \cdot d\mathbf{v} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2$$
+$$
+W = \int m\mathbf{a} \cdot \mathbf{v}\, dt = \int m \frac{d\mathbf{v}}{dt} \cdot \mathbf{v}\, dt = \int m\mathbf{v} \cdot d\mathbf{v} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+$$
 
 $\blacksquare$
 
@@ -147,7 +177,9 @@ conserved.
 
 _Proof._ For a conservative force, $W = -\Delta V$. By the work-energy theorem:
 
-$$-\Delta V = \Delta T \implies \Delta(T + V) = 0$$
+$$
+-\Delta V = \Delta T \implies \Delta(T + V) = 0
+$$
 
 $\blacksquare$
 
@@ -159,18 +191,24 @@ the total angular momentum is conserved.
 _Proof._ The angular momentum of the $i$-th particle about the origin is
 $\mathbf{L}_i = \mathbf{r}_i \times m_i \mathbf{v}_i$. Taking the time derivative:
 
-$$\dot{\mathbf{L}}_i = \dot{\mathbf{r}}_i \times m_i \mathbf{v}_i + \mathbf{r}_i \times m_i \dot{\mathbf{v}}_i = \mathbf{r}_i \times \mathbf{F}_i$$
+$$
+\dot{\mathbf{L}}_i = \dot{\mathbf{r}}_i \times m_i \mathbf{v}_i + \mathbf{r}_i \times m_i \dot{\mathbf{v}}_i = \mathbf{r}_i \times \mathbf{F}_i
+$$
 
 Since
 $\dot{\mathbf{r}}_i \times m_i \mathbf{v}_i = \mathbf{v}_i \times m_i \mathbf{v}_i = \mathbf{0}$.
 Summing over all particles:
 
-$$\dot{\mathbf{L}} = \sum_i \mathbf{r}_i \times \mathbf{F}_i^{(\mathrm{ext})} + \sum_i \sum_{j \neq i} \mathbf{r}_i \times \mathbf{F}_{ij}$$
+$$
+\dot{\mathbf{L}} = \sum_i \mathbf{r}_i \times \mathbf{F}_i^{(\mathrm{ext})} + \sum_i \sum_{j \neq i} \mathbf{r}_i \times \mathbf{F}_{ij}
+$$
 
 The double sum represents internal torques. For central internal forces ($\mathbf{F}_{ij}$ parallel
 to $\mathbf{r}_i - \mathbf{r}_j$), the internal torques cancel in pairs. Hence:
 
-$$\dot{\mathbf{L}} = \boldsymbol{\tau}^{(\mathrm{ext})}$$
+$$
+\dot{\mathbf{L}} = \boldsymbol{\tau}^{(\mathrm{ext})}
+$$
 
 If $\boldsymbol{\tau}^{(\mathrm{ext})} = \mathbf{0}$ Then $\mathbf{L} = \mathrm{const}$.
 $\blacksquare$
@@ -184,26 +222,38 @@ Consider a rocket of mass $m$ moving with velocity $v$ in one dimension. In time
 $dm$ (where $dm \lt 0$) at exhaust velocity $u_e$ relative to the rocket. The ejected mass has
 velocity $v - u_e$ in the lab frame. By conservation of momentum:
 
-$$mv = (m + dm)(v + dv) + (-dm)(v - u_e)$$
+$$
+mv = (m + dm)(v + dv) + (-dm)(v - u_e)
+$$
 
 Neglecting the second-order term $dm\, dv$:
 
-$$mv = mv + m\, dv + dm\, v - dm\, v + u_e\, dm$$
+$$
+mv = mv + m\, dv + dm\, v - dm\, v + u_e\, dm
+$$
 
-$$0 = m\, dv + u_e\, dm$$
+$$
+0 = m\, dv + u_e\, dm
+$$
 
-$$dv = -u_e \frac{dm}{m}$$
+$$
+dv = -u_e \frac{dm}{m}
+$$
 
 Integrating from initial mass $m_0$ and velocity $v_0$ to final mass $m_f$ and velocity $v_f$:
 
-$$v_f - v_0 = u_e \ln\frac{m_0}{m_f}$$
+$$
+v_f - v_0 = u_e \ln\frac{m_0}{m_f}
+$$
 
 This is the **Tsiolkovsky rocket equation**.
 
 **Theorem 1.5 (Rocket Equation with Gravity).** If the rocket moves vertically against a uniform
 gravitational field $g$:
 
-$$\Delta v = u_e \ln\frac{m_0}{m_f} - g\, \Delta t$$
+$$
+\Delta v = u_e \ln\frac{m_0}{m_f} - g\, \Delta t
+$$
 
 Where $\Delta t$ is the burn time.
 
@@ -218,7 +268,9 @@ velocity.
 
 Applying the Tsiolkovsky rocket equation:
 
-$$\Delta v = u_e \ln\frac{m_0}{m_f} = 3000 \ln\frac{1000}{400} = 3000 \ln(2.5) \approx 3000 \times 0.916 = 2749\,\mathrm{m}/s$$
+$$
+\Delta v = u_e \ln\frac{m_0}{m_f} = 3000 \ln\frac{1000}{400} = 3000 \ln(2.5) \approx 3000 \times 0.916 = 2749\,\mathrm{m}/s
+$$
 
 $\blacksquare$
 
@@ -232,35 +284,61 @@ $\blacksquare$
 <summary>Solution</summary>
 
 Conservation of momentum (x-component):
-$$m_1 v_{1x} = m_1 v_{1f}\cos\theta_1 + m_2 v_{2f}\cos\theta_2$$
-$$2 \times 4 = 2 \times v_{1f}\cos 30^\circ + 3 \times v_{2f}\cos\theta_2$$
+$$
+m_1 v_{1x} = m_1 v_{1f}\cos\theta_1 + m_2 v_{2f}\cos\theta_2
+$$
+$$
+2 \times 4 = 2 \times v_{1f}\cos 30^\circ + 3 \times v_{2f}\cos\theta_2
+$$
 
 Conservation of momentum (y-component):
-$$0 = m_1 v_{1f}\sin\theta_1 - m_2 v_{2f}\sin\theta_2$$
-$$0 = 2 \times v_{1f}\sin 30^\circ - 3 \times v_{2f}\sin\theta_2$$
+$$
+0 = m_1 v_{1f}\sin\theta_1 - m_2 v_{2f}\sin\theta_2
+$$
+$$
+0 = 2 \times v_{1f}\sin 30^\circ - 3 \times v_{2f}\sin\theta_2
+$$
 
 Conservation of kinetic energy:
-$$\frac{1}{2}m_1 v_1^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2$$
-$$2 \times 16 = 2 \times v_{1f}^2 + 3 \times v_{2f}^2$$
+$$
+\frac{1}{2}m_1 v_1^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2
+$$
+$$
+2 \times 16 = 2 \times v_{1f}^2 + 3 \times v_{2f}^2
+$$
 
 From the y-component equation:
-$$v_{1f}\sin 30^\circ = \frac{3}{2}v_{2f}\sin\theta_2$$
-$$0.5 v_{1f} = 1.5 v_{2f}\sin\theta_2 \implies v_{2f}\sin\theta_2 = \frac{v_{1f}}{3}$$
+$$
+v_{1f}\sin 30^\circ = \frac{3}{2}v_{2f}\sin\theta_2
+$$
+$$
+0.5 v_{1f} = 1.5 v_{2f}\sin\theta_2 \implies v_{2f}\sin\theta_2 = \frac{v_{1f}}{3}
+$$
 
 From the x-component equation:
-$$8 = \sqrt{3} v_{1f} + 3 v_{2f}\cos\theta_2$$
+$$
+8 = \sqrt{3} v_{1f} + 3 v_{2f}\cos\theta_2
+$$
 
 From energy conservation:
-$$32 = 2v_{1f}^2 + 3v_{2f}^2$$
+$$
+32 = 2v_{1f}^2 + 3v_{2f}^2
+$$
 
 Solving these equations simultaneously (using $v_{2f}\sin\theta_2 = v_{1f}/3$ and $v_{2f}\cos\theta_2 = (8 - \sqrt{3}v_{1f})/3$):
 
-$$v_{2f}^2 = \left(\frac{v_{1f}}{3}\right)^2 + \left(\frac{8 - \sqrt{3}v_{1f}}{3}\right)^2$$
+$$
+v_{2f}^2 = \left(\frac{v_{1f}}{3}\right)^2 + \left(\frac{8 - \sqrt{3}v_{1f}}{3}\right)^2
+$$
 
-$$32 = 2v_{1f}^2 + 3\left[\frac{v_{1f}^2}{9} + \frac{(8 - \sqrt{3}v_{1f})^2}{9}\right]$$
+$$
+32 = 2v_{1f}^2 + 3\left[\frac{v_{1f}^2}{9} + \frac{(8 - \sqrt{3}v_{1f})^2}{9}\right]
+$$
 
 After algebraic manipulation:
-$$v_{1f} \approx 1.6\,\mathrm{m/s}, \quad v_{2f} \approx 2.9\,\mathrm{m/s}$$
+$$
+v_{1f} \approx 1.6\,\mathrm{m/s}, \quad v_{2f} \approx 2.9\,\mathrm{m/s}
+$$
 
 The second particle moves at approximately $\theta_2 \approx 19^\circ$ below the $x$-axis.
 
@@ -292,7 +370,9 @@ Wait -- the fictitious force is vertical, not horizontal. In the elevator frame,
 
 The vertical forces cancel in the elevator frame (the block doesn't accelerate vertically relative to the elevator). The horizontal acceleration relative to the elevator is:
 
-$$a_{\text{rel}} = \frac{F}{m} = \frac{20}{5} = 4\,\mathrm{m/s^2}$$
+$$
+a_{\text{rel}} = \frac{F}{m} = \frac{20}{5} = 4\,\mathrm{m/s^2}
+$$
 
 In the ground frame, the horizontal acceleration is also $4\,\mathrm{m/s^2}$ (since the fictitious force has no horizontal component).
 
@@ -308,19 +388,31 @@ $\blacksquare$
 <summary>Solution</summary>
 
 Centre of mass coordinates:
-$$x_{cm} = \frac{m_1 x_1 + m_2 x_2 + m_3 x_3}{m_1 + m_2 + m_3} = \frac{1 \times 0 + 2 \times 2 + 3 \times 0}{6} = \frac{4}{6} = \frac{2}{3}\,\mathrm{m}$$
+$$
+x_{cm} = \frac{m_1 x_1 + m_2 x_2 + m_3 x_3}{m_1 + m_2 + m_3} = \frac{1 \times 0 + 2 \times 2 + 3 \times 0}{6} = \frac{4}{6} = \frac{2}{3}\,\mathrm{m}
+$$
 
-$$y_{cm} = \frac{m_1 y_1 + m_2 y_2 + m_3 y_3}{m_1 + m_2 + m_3} = \frac{1 \times 0 + 2 \times 0 + 3 \times 3}{6} = \frac{9}{6} = \frac{3}{2}\,\mathrm{m}$$
+$$
+y_{cm} = \frac{m_1 y_1 + m_2 y_2 + m_3 y_3}{m_1 + m_2 + m_3} = \frac{1 \times 0 + 2 \times 0 + 3 \times 3}{6} = \frac{9}{6} = \frac{3}{2}\,\mathrm{m}
+$$
 
 Distances from each particle to the centre of mass:
-$$r_1 = \sqrt{\left(\frac{2}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{4}{9} + \frac{9}{4}} = \sqrt{\frac{97}{36}} \approx 1.64\,\mathrm{m}$$
+$$
+r_1 = \sqrt{\left(\frac{2}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{4}{9} + \frac{9}{4}} = \sqrt{\frac{97}{36}} \approx 1.64\,\mathrm{m}
+$$
 
-$$r_2 = \sqrt{\left(2 - \frac{2}{3}\right)^2 + \left(0 - \frac{3}{2}\right)^2} = \sqrt{\left(\frac{4}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{16}{9} + \frac{9}{4}} = \sqrt{\frac{145}{36}} \approx 2.01\,\mathrm{m}$$
+$$
+r_2 = \sqrt{\left(2 - \frac{2}{3}\right)^2 + \left(0 - \frac{3}{2}\right)^2} = \sqrt{\left(\frac{4}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{16}{9} + \frac{9}{4}} = \sqrt{\frac{145}{36}} \approx 2.01\,\mathrm{m}
+$$
 
-$$r_3 = \sqrt{\left(0 - \frac{2}{3}\right)^2 + \left(3 - \frac{3}{2}\right)^2} = \sqrt{\left(\frac{2}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{97}{36}} \approx 1.64\,\mathrm{m}$$
+$$
+r_3 = \sqrt{\left(0 - \frac{2}{3}\right)^2 + \left(3 - \frac{3}{2}\right)^2} = \sqrt{\left(\frac{2}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{97}{36}} \approx 1.64\,\mathrm{m}
+$$
 
 Moment of inertia about the centre of mass:
-$$I_{cm} = \sum m_i r_i^2 = 1 \times \frac{97}{36} + 2 \times \frac{145}{36} + 3 \times \frac{97}{36} = \frac{97 + 290 + 291}{36} = \frac{678}{36} \approx 18.83\,\mathrm{kg\cdot m^2}$$
+$$
+I_{cm} = \sum m_i r_i^2 = 1 \times \frac{97}{36} + 2 \times \frac{145}{36} + 3 \times \frac{97}{36} = \frac{97 + 290 + 291}{36} = \frac{678}{36} \approx 18.83\,\mathrm{kg\cdot m^2}
+$$
 
 $\blacksquare$
 

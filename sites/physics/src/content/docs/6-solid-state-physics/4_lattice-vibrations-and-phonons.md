@@ -23,13 +23,19 @@ Consider $N$ atoms of mass $m$ connected by springs of constant $K$ with equilib
 
 The equation of motion for the $n$-th atom:
 
-$$m\ddot{u}_n = K(u_{n+1} - u_n) + K(u_{n-1} - u_n) = K(u_{n+1} + u_{n-1} - 2u_n)$$
+$$
+m\ddot{u}_n = K(u_{n+1} - u_n) + K(u_{n-1} - u_n) = K(u_{n+1} + u_{n-1} - 2u_n)
+$$
 
 **Derivation of the dispersion relation.** Assuming solutions $u_n = u_0\, e^{i(qna - \omega t)}$:
 
-$$-m\omega^2 = K(e^{iqa} + e^{-iqa} - 2) = 2K(\cos qa - 1) = -4K\sin^2\left(\frac{qa}{2}\right)$$
+$$
+-m\omega^2 = K(e^{iqa} + e^{-iqa} - 2) = 2K(\cos qa - 1) = -4K\sin^2\left(\frac{qa}{2}\right)
+$$
 
-$$\omega(q) = 2\sqrt{\frac{K}{m}}\left|\sin\left(\frac{qa}{2}\right)\right|$$
+$$
+\omega(q) = 2\sqrt{\frac{K}{m}}\left|\sin\left(\frac{qa}{2}\right)\right|
+$$
 
 $\blacksquare$
 
@@ -46,7 +52,9 @@ $\blacksquare$
 
 For a chain with alternating masses $m_1$ and $m_2$ (e.g., NaCl):
 
-$$\omega^2 = K\left(\frac{1}{m_1} + \frac{1}{m_2}\right) \pm K\sqrt{\left(\frac{1}{m_1} + \frac{1}{m_2}\right)^2 - \frac{4\sin^2(qa/2)}{m_1 m_2}}$$
+$$
+\omega^2 = K\left(\frac{1}{m_1} + \frac{1}{m_2}\right) \pm K\sqrt{\left(\frac{1}{m_1} + \frac{1}{m_2}\right)^2 - \frac{4\sin^2(qa/2)}{m_1 m_2}}
+$$
 
 This gives two branches:
 
@@ -62,12 +70,16 @@ $\omega = v_s q$ with $v_s = a\sqrt{2K/(m_1 + m_2)}$.
 Lattice vibrations are quantised. Each normal mode of wave vector $\mathbf{q}$ and branch $s$ has
 Energy:
 
-$$E_{\mathbf{q}s} = \left(n_{\mathbf{q}s} + \frac{1}{2}\right)\hbar\omega_{\mathbf{q}s}$$
+$$
+E_{\mathbf{q}s} = \left(n_{\mathbf{q}s} + \frac{1}{2}\right)\hbar\omega_{\mathbf{q}s}
+$$
 
 Where $n_{\mathbf{q}s}$ is the phonon occupation number. Phonons are bosons obeying Bose-Einstein
 Statistics:
 
-$$\langle n_{\mathbf{q}s} \rangle = \frac{1}{e^{\beta\hbar\omega_{\mathbf{q}s}} - 1}$$
+$$
+\langle n_{\mathbf{q}s} \rangle = \frac{1}{e^{\beta\hbar\omega_{\mathbf{q}s}} - 1}
+$$
 
 In three dimensions, there are 3 acoustic branches (1 longitudinal, 2 transverse) and $3p - 3$
 Optical branches for a crystal with $p$ atoms per primitive cell.
@@ -77,7 +89,9 @@ Optical branches for a crystal with $p$ atoms per primitive cell.
 The Debye model approximates the phonon spectrum as linear ($\omega = v_s q$) up to a cutoff
 frequency $\omega_D$ (the Debye frequency):
 
-$$\omega_D = v_s\left(\frac{6\pi^2 N}{V}\right)^{1/3}$$
+$$
+\omega_D = v_s\left(\frac{6\pi^2 N}{V}\right)^{1/3}
+$$
 
 The **Debye temperature:** $\Theta_D = \hbar\omega_D / k_B$.
 
@@ -87,7 +101,9 @@ $N(q) = 3 \cdot \frac{V}{(2\pi)^3} \cdot \frac{4\pi q^3}{3}$ (factor of 3 for po
 Differentiating: $g(q)\,dq = dN/dq\,dq = (Vq^2/\pi^2)\,dq$. Converting to frequency with
 $\omega = v_s q$:
 
-$$g(\omega)\,d\omega = \frac{Vq^2}{\pi^2}\frac{dq}{d\omega}\,d\omega = \frac{V\omega^2}{\pi^2 v_s^3}\,d\omega$$
+$$
+g(\omega)\,d\omega = \frac{Vq^2}{\pi^2}\frac{dq}{d\omega}\,d\omega = \frac{V\omega^2}{\pi^2 v_s^3}\,d\omega
+$$
 
 Since there are $3N$ total modes, the cutoff is determined by
 $\int_0^{\omega_D} g(\omega)\,d\omega = 3N$Giving $g(\omega) = \frac{3V\omega^2}{2\pi^2 v_s^3}$ For
@@ -95,7 +111,9 @@ $0 \leq \omega \leq \omega_D$. $\blacksquare$
 
 **Lattice heat capacity:**
 
-$$C_V = 9Nk_B\left(\frac{T}{\Theta_D}\right)^3 \int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2}\,dx$$
+$$
+C_V = 9Nk_B\left(\frac{T}{\Theta_D}\right)^3 \int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2}\,dx
+$$
 
 **High-temperature limit** ($T \gg \Theta_D$): $C_V = 3Nk_B$ (Dulong--Petit law).
 
@@ -107,7 +125,9 @@ $C_V = \frac{12\pi^4}{5}Nk_B\left(\frac{T}{\Theta_D}\right)^3$ (Debye $T^3$ law)
 The Einstein model treats all atoms as independent quantum harmonic oscillators with the same
 frequency $\omega_E$:
 
-$$C_V = 3Nk_B\left(\frac{\Theta_E}{T}\right)^2 \frac{e^{\Theta_E/T}}{(e^{\Theta_E/T} - 1)^2}$$
+$$
+C_V = 3Nk_B\left(\frac{\Theta_E}{T}\right)^2 \frac{e^{\Theta_E/T}}{(e^{\Theta_E/T} - 1)^2}
+$$
 
 Where $\Theta_E = \hbar\omega_E/k_B$.
 
@@ -123,7 +143,9 @@ Which is exponentially suppressed. This disagrees with the Debye $T^3$ law (and 
 
 Phonons carry heat through the lattice. By the kinetic theory formula:
 
-$$\kappa_{\mathrm{ph} = \frac{1}{3}C_V v_s \ell_{\mathrm{ph}}}$$
+$$
+\kappa_{\mathrm{ph} = \frac{1}{3}C_V v_s \ell_{\mathrm{ph}}}
+$$
 
 Where $\ell_{\mathrm{ph}}$ is the phonon mean free path.
 
@@ -170,11 +192,17 @@ sound $v_s = 3810$ m/s (average of longitudinal and transverse).
 Number density:
 $n = \frac{\rho N_A}{M} = \frac{8.96 \times 6.022 \times 10^{23}}{63.55} = 8.49 \times 10^{28}\ \mathrm{m}^{-3}$.
 
-$$\Theta_D = \frac{\hbar v_s}{k_B}(6\pi^2 n)^{1/3}$$
+$$
+\Theta_D = \frac{\hbar v_s}{k_B}(6\pi^2 n)^{1/3}
+$$
 
-$$(6\pi^2 n)^{1/3} = (6\pi^2 \times 8.49 \times 10^{28})^{1/3} = (5.03 \times 10^{30})^{1/3} = 1.71 \times 10^{10}\ \mathrm{m}^{-1}$$
+$$
+(6\pi^2 n)^{1/3} = (6\pi^2 \times 8.49 \times 10^{28})^{1/3} = (5.03 \times 10^{30})^{1/3} = 1.71 \times 10^{10}\ \mathrm{m}^{-1}
+$$
 
-$$\Theta_D = \frac{1.055 \times 10^{-34} \times 3810}{1.381 \times 10^{-23}} \times 1.71 \times 10^{10} = 2.91 \times 10^{-8} \times 1.71 \times 10^{10} = 498\ \mathrm{K}$$
+$$
+\Theta_D = \frac{1.055 \times 10^{-34} \times 3810}{1.381 \times 10^{-23}} \times 1.71 \times 10^{10} = 2.91 \times 10^{-8} \times 1.71 \times 10^{10} = 498\ \mathrm{K}
+$$
 
 The accepted experimental value is $\Theta_D = 343$ K. The discrepancy arises because the Debye
 Model uses a single average sound velocity, while the real phonon spectrum is anisotropic.
@@ -195,7 +223,9 @@ $T = \Theta_D/2 = 214$ K.
 
 The Debye specific heat at $T/\Theta_D = 0.5$:
 
-$$\frac{C_V}{3Nk_B} = \left(\frac{T}{\Theta_D}\right)^3 \int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2}\,dx = 0.125 \times \int_0^2 \frac{x^4 e^x}{(e^x - 1)^2}\,dx$$
+$$
+\frac{C_V}{3Nk_B} = \left(\frac{T}{\Theta_D}\right)^3 \int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2}\,dx = 0.125 \times \int_0^2 \frac{x^4 e^x}{(e^x - 1)^2}\,dx
+$$
 
 Numerical evaluation gives $C_V/(3Nk_B) \approx 0.825$ at $T/\Theta_D = 0.5$.
 
@@ -218,7 +248,9 @@ J/(m$^3\cdot$K).
 
 From $\kappa = \frac{1}{3}C_V v_s \ell$:
 
-$$\ell = \frac{3\kappa}{C_V v_s} = \frac{3 \times 401}{3.52 \times 10^6 \times 3810} = 8.97 \times 10^{-8}\ \mathrm{m} \approx 90\ \mathrm{nm}$$
+$$
+\ell = \frac{3\kappa}{C_V v_s} = \frac{3 \times 401}{3.52 \times 10^6 \times 3810} = 8.97 \times 10^{-8}\ \mathrm{m} \approx 90\ \mathrm{nm}
+$$
 
 This is much shorter than the sample size, confirming that phonon--phonon (Umklapp) scattering
 Dominates at room temperature. At 10 K, the mean free path would be limited by sample boundaries.
@@ -231,7 +263,9 @@ Neutrons are an ideal probe of phonons because their de Broglie wavelength ($\si
 Lattice spacings, and their energy ($\sim 10$--$100$ meV) matches phonon energies. In an **inelastic
 Neutron scattering** experiment, the energy and momentum transfer are measured:
 
-$$\hbar\omega = E_i - E_f, \quad \mathbf{q} = \mathbf{k}_i - \mathbf{k}_f$$
+$$
+\hbar\omega = E_i - E_f, \quad \mathbf{q} = \mathbf{k}_i - \mathbf{k}_f
+$$
 
 The scattering cross-section is proportional to the dynamical structure factor
 $S(\mathbf{q}, \omega)$ Which has peaks when $\hbar\omega = \hbar\omega_{\mathbf{q}s}$ (phonon

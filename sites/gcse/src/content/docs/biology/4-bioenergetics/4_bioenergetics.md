@@ -31,7 +31,9 @@ categories:
 Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water
 Into glucose and oxygen.
 
-$$6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \xrightarrow{\mathrm{light energy} \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2$$
+$$
+6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \xrightarrow{\mathrm{light energy} \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2
+$$
 
 Photosynthesis is an **endothermic** reaction -- it absorbs energy from the environment (in the form
 Of light). This energy is stored in the chemical bonds of glucose, which can later be released
@@ -259,7 +261,9 @@ Out of ATP and NADPH.
 
 Aerobic respiration uses oxygen to break down glucose, releasing a large amount of energy.
 
-$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \quad \mathrm{(energy released)$$
+$$
+\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \quad \mathrm{(energy released)
+$$
 
 Aerobic respiration occurs in the **mitochondria**. It is an **exothermic** reaction.
 
@@ -285,7 +289,9 @@ Respiration because glucose is only partially broken down.
 
 **In animals (including humans):**
 
-$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_3\mathrm{H_6\mathrm{O_3$$
+$$
+\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_3\mathrm{H_6\mathrm{O_3
+$$
 
 Glucose is broken down into **lactic acid**. This builds up in muscles during vigorous exercise,
 Causing fatigue and cramp. The lactic acid lowers the pH in the muscle cells, which inhibits enzyme
@@ -297,11 +303,15 @@ Oxygen debt. The lactic acid is transported to the liver, where it is converted 
 Then either oxidised further (via the Krebs cycle) or converted back to glucose (via
 Gluconeogenesis).
 
-$$2\mathrm{C_3\mathrm{H_6\mathrm{O_3 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O$$
+$$
+2\mathrm{C_3\mathrm{H_6\mathrm{O_3 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O
+$$
 
 **In yeast (fermentation):**
 
-$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2$$
+$$
+\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2
+$$
 
 Yeast converts glucose into **ethanol** (alcohol) and carbon dioxide. This process is used in:
 
@@ -331,7 +341,9 @@ Breathe heavily to repay the oxygen debt.
 
 To oxidise lactic acid fully:
 
-$$2\mathrm{C_3\mathrm{H_6\mathrm{O_3 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O$$
+$$
+2\mathrm{C_3\mathrm{H_6\mathrm{O_3 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O
+$$
 
 The molar mass of lactic acid is 90 g/mol. So 120 mg = 0.12 g = $0.12/90 = 0.00133$ mol.
 
@@ -410,15 +422,21 @@ Capillary tube in 5 minutes. The capillary tube has an internal diameter of 1 mm
 
 Step 1: Calculate the cross-sectional area of the capillary tube.
 
-$$A = \pi r^2 = \pi \times (0.5)^2 = 0.785 \mathrm{ mm^2$$
+$$
+A = \pi r^2 = \pi \times (0.5)^2 = 0.785 \mathrm{ mm^2
+$$
 
 Step 2: Calculate the volume of oxygen consumed.
 
-$$V = A \times d = 0.785 \times 12 = 9.42 \mathrm{ mm^3 = 0.00942 \mathrm{ mL$$
+$$
+V = A \times d = 0.785 \times 12 = 9.42 \mathrm{ mm^3 = 0.00942 \mathrm{ mL
+$$
 
 Step 3: Calculate the rate.
 
-$$\mathrm{Rate = 0.00942 / 5 = 0.00188 \mathrm{ mL/min$$
+$$
+\mathrm{Rate = 0.00942 / 5 = 0.00188 \mathrm{ mL/min
+$$
 
 ## 4. Higher Tier: Aerobic and Anaerobic Respiration Compared
 

@@ -52,7 +52,9 @@ orbitals.
 (b) When forming $Cr^{3+}$Electrons are removed from the **$4s$ orbital first** (since $4s$ is at a
 higher energy than $3d$ once the atom is ionised), then from $3d$:
 
-$$Cr^{3+}: [Ar]\,3d^{3}$$
+$$
+Cr^{3+}: [Ar]\,3d^{3}
+$$
 
 (c) Scandium atom: $Sc = [Ar]\,3d^{1}4s^{2}$ (atomic number 21).
 
@@ -321,7 +323,9 @@ The ionic/atomic radius depends on the **nuclear charge**:
 
 (b) Increasing first ionisation energy:
 
-$$S^{2-} \lt Cl^{-} \lt Ar \lt K^{+} \lt Ca^{2+}$$
+$$
+S^{2-} \lt Cl^{-} \lt Ar \lt K^{+} \lt Ca^{2+}
+$$
 
 All are isoelectronic, so the nuclear charge determines how tightly the outermost electron is held.
 Higher nuclear charge = higher ionisation energy.

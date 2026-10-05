@@ -30,7 +30,9 @@ Determine whether $x + 2$ is a factor of $P(x) = x^3 + 3x^2 - 4x - 8$.
 
 By the factor theorem, $x + 2$ is a factor if and only if $P(-2) = 0$.
 
-$$P(-2) = (-2)^3 + 3(-2)^2 - 4(-2) - 8 = -8 + 12 + 8 - 8 = 4$$
+$$
+P(-2) = (-2)^3 + 3(-2)^2 - 4(-2) - 8 = -8 + 12 + 8 - 8 = 4
+$$
 
 Since $P(-2) = 4 \neq 0$, $x + 2$ is **not** a factor.
 
@@ -144,7 +146,9 @@ If $\alpha$, $\beta$, $\gamma$ are the roots of $x^3 - 5x^2 + 2x + 8 = 0$Find:
 By Vieta's formulas for $x^3 + px^2 + qx + r = 0$:
 
 $$\alpha + \beta + \gamma = -p = 5$$ $$\alpha\beta + \beta\gamma + \gamma\alpha = q = 2$$
-$$\alpha\beta\gamma = -r = -8$$
+$$
+\alpha\beta\gamma = -r = -8
+$$
 
 ---
 
@@ -208,7 +212,9 @@ Let $P(x) = (x - 1)(x^2 - 4x + 3)$. Find the set of values of $x$ for which $P(x
 
 **Solution:**
 
-$$P(x) = (x - 1)(x - 1)(x - 3) = (x - 1)^2(x - 3)$$
+$$
+P(x) = (x - 1)(x - 1)(x - 3) = (x - 1)^2(x - 3)
+$$
 
 Critical values: $x = 1$ (double root) and $x = 3$.
 
@@ -263,7 +269,9 @@ X - 2 & x^3 - 3x^2 - 4x + 12 \\
 \end{array}
 $$
 
-$$x^2 - x - 6 = (x - 3)(x + 2)$$
+$$
+x^2 - x - 6 = (x - 3)(x + 2)
+$$
 
 Roots: $x = -2$, $x = 2$, $x = 3$.
 
@@ -329,7 +337,9 @@ Given that $x - 1$$x + 2$ And $x - 3$ are factors of $P(x) = x^3 + ax^2 + bx + c
 
 Since $x - 1$$x + 2$ And $x - 3$ are all factors of the cubic $P(x)$We can write:
 
-$$P(x) = (x - 1)(x + 2)(x - 3)$$
+$$
+P(x) = (x - 1)(x + 2)(x - 3)
+$$
 
 Expanding: $(x - 1)(x^2 - x - 6) = x^3 - x^2 - 6x - x^2 + x + 6 = x^3 - 2x^2 - 5x + 6$.
 
@@ -356,7 +366,9 @@ When $P(x) = x^3 + 2x^2 - 5x + 1$ is divided by $x^2 - x - 2$Find the quotient a
 
 Since we divide a cubic by a quadratic, the remainder has degree at most 1: $R(x) = Ax + B$.
 
-$$P(x) = Q(x)(x^2 - x - 2) + Ax + B$$
+$$
+P(x) = Q(x)(x^2 - x - 2) + Ax + B
+$$
 
 Factorising: $x^2 - x - 2 = (x - 2)(x + 1)$.
 
@@ -445,7 +457,9 @@ By Vieta's formulas (for $ax^3 + bx^2 + cx + d = 0$):
 
 $\alpha + \beta + \gamma = \dfrac{3}{2}$$\alpha\beta + \beta\gamma + \gamma\alpha = 2$$\alpha\beta\gamma = \dfrac{5}{2}$.
 
-$$\frac{1}{\alpha} + \frac{1}{\beta} + \frac{1}{\gamma} = \frac{\alpha\beta + \beta\gamma + \gamma\alpha}{\alpha\beta\gamma} = \frac{2}{5/2} = \frac{4}{5}$$
+$$
+\frac{1}{\alpha} + \frac{1}{\beta} + \frac{1}{\gamma} = \frac{\alpha\beta + \beta\gamma + \gamma\alpha}{\alpha\beta\gamma} = \frac{2}{5/2} = \frac{4}{5}
+$$
 
 ---
 
@@ -498,7 +512,9 @@ $\dfrac{3x + 7}{(x + 1)(x + 2)} = \dfrac{A}{x + 1} + \dfrac{B}{x + 2}$.
 
 **Solution:**
 
-$$3x + 7 = A(x + 2) + B(x + 1)$$
+$$
+3x + 7 = A(x + 2) + B(x + 1)
+$$
 
 At $x = -1$: $-3 + 7 = A(1) + 0 \implies A = 4$.
 
@@ -530,13 +546,21 @@ $\dfrac{1}{\alpha^2}$ and $\dfrac{1}{\beta^2}$.
 
 $\alpha + \beta = -\dfrac{3}{2}$, $\alpha\beta = -2$.
 
-$$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{9}{4} + 4 = \frac{25}{4}$$
+$$
+\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{9}{4} + 4 = \frac{25}{4}
+$$
 
-$$\alpha^2 \beta^2 = 4$$
+$$
+\alpha^2 \beta^2 = 4
+$$
 
-$$\frac{1}{\alpha^2} + \frac{1}{\beta^2} = \frac{\alpha^2 + \beta^2}{\alpha^2 \beta^2} = \frac{25/4}{4} = \frac{25}{16}$$
+$$
+\frac{1}{\alpha^2} + \frac{1}{\beta^2} = \frac{\alpha^2 + \beta^2}{\alpha^2 \beta^2} = \frac{25/4}{4} = \frac{25}{16}
+$$
 
-$$\frac{1}{\alpha^2} \cdot \frac{1}{\beta^2} = \frac{1}{4}$$
+$$
+\frac{1}{\alpha^2} \cdot \frac{1}{\beta^2} = \frac{1}{4}
+$$
 
 Required equation: $x^2 - \dfrac{25}{16}x + \dfrac{1}{4} = 0$I.e. $16x^2 - 25x + 4 = 0$.
 
@@ -762,7 +786,9 @@ At $x = -2$: $-11 = A(-5) \implies A = \dfrac{11}{5}$.
 
 At $x = \dfrac{1}{2}$: $\dfrac{5}{2} - 1 = B\left(\dfrac{5}{2}\right) \implies B = 1$.
 
-$$\frac{5x - 1}{(x + 2)(2x - 1)} = \frac{11/5}{x + 2} + \frac{1}{2x - 1}$$
+$$
+\frac{5x - 1}{(x + 2)(2x - 1)} = \frac{11/5}{x + 2} + \frac{1}{2x - 1}
+$$
 
 (b)
 $\displaystyle\int \left(\frac{11/5}{x+2} + \frac{1}{2x-1}\right) dx = \frac{11}{5}\ln|x + 2| + \frac{1}{2}\ln|2x - 1| + C$.

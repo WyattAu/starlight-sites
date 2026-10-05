@@ -50,7 +50,9 @@ $q_0, \delta(q_0, w_1), \delta(\delta(q_0, w_1), w_2), \ldots$ ends in a state i
 
 **Example.** DFA for strings over $\{0, 1\}$ containing the substring `01`:
 
-$$M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})$$
+$$
+M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})
+$$
 
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
@@ -76,7 +78,9 @@ Reading a new bit $b$ appends $b$ to the right: the new value is $2r + b \bmod 3
 States: $q_0$ (remainder 0), $q_1$ (remainder 1), $q_2$ (remainder 2). Start state: $q_0$ (the empty
 prefix has value 0). Accept state: $q_0$.
 
-$$M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})$$
+$$
+M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})
+$$
 
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |

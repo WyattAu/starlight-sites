@@ -37,28 +37,36 @@ Among the most important equations in physics.
 
 ### Gauss's Law for Electricity
 
-$$\oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\mathrm{enclosed}}}{\varepsilon_0}$$
+$$
+\oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\mathrm{enclosed}}}{\varepsilon_0}
+$$
 
 **Meaning.** The total electric flux through any closed surface equals the total charge enclosed,
 Divided by $\varepsilon_0$. Electric charges are the sources (and sinks) of electric field lines.
 
 ### Gauss's Law for Magnetism
 
-$$\oint \mathbf{B} \cdot d\mathbf{A} = 0$$
+$$
+\oint \mathbf{B} \cdot d\mathbf{A} = 0
+$$
 
 **Meaning.** The total magnetic flux through any closed surface is zero. There are **no magnetic
 Monopoles**, magnetic field lines always form closed loops.
 
 ### Faraday's Law
 
-$$\oint \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt}$$
+$$
+\oint \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt}
+$$
 
 **Meaning.** A changing magnetic flux induces an electromotive force (and hence an electric field)
 Around a closed loop. This is the mathematical form of Faraday's law of induction.
 
 ### Ampere-Maxwell Law
 
-$$\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\mathrm{enclosed}} + \mu_0\varepsilon_0\frac{d\Phi_E}{dt}$$
+$$
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\mathrm{enclosed}} + \mu_0\varepsilon_0\frac{d\Phi_E}{dt}
+$$
 
 **Definition.** The displacement current $I_d = \varepsilon_0\,d\Phi_E/dt$ is a quantity
 Proportional to the rate of change of electric flux through a surface. It is not a flow of charge
@@ -90,59 +98,93 @@ Consider electromagnetic waves propagating in free space (no charges, no current
 
 In free space, Maxwell's equations become:
 
-$$\oint \mathbf{E} \cdot d\mathbf{A} = 0 \quad \mathrm{(no charges)}$$
-$$\oint \mathbf{B} \cdot d\mathbf{A} = 0 \quad \mathrm{(no monopoles)}$$
-$$\oint \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt} \quad \mathrm{(Faraday)}$$
-$$\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0\varepsilon_0\frac{d\Phi_E}{dt} \quad \mathrm{(Ampere-Maxwell, no currents)}$$
+$$
+\oint \mathbf{E} \cdot d\mathbf{A} = 0 \quad \mathrm{(no charges)}
+$$
+$$
+\oint \mathbf{B} \cdot d\mathbf{A} = 0 \quad \mathrm{(no monopoles)}
+$$
+$$
+\oint \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt} \quad \mathrm{(Faraday)}
+$$
+$$
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0\varepsilon_0\frac{d\Phi_E}{dt} \quad \mathrm{(Ampere-Maxwell, no currents)}
+$$
 
 Consider a plane wave propagating in the $x$-direction, with $\mathbf{E} = E_y\,\hat{\mathbf{j}}$
 And $\mathbf{B} = B_z\,\hat{\mathbf{k}}$.
 
 Applying Faraday's law to a rectangular loop in the $xy$-plane:
 
-$$E_y \cdot l = -\frac{d}{dt}(B_z \cdot l \cdot \Delta x)$$
+$$
+E_y \cdot l = -\frac{d}{dt}(B_z \cdot l \cdot \Delta x)
+$$
 
-$$E_y = -\frac{\partial B_z}{\partial t}\Delta x$$
+$$
+E_y = -\frac{\partial B_z}{\partial t}\Delta x
+$$
 
 In the limit $\Delta x \to 0$:
 $\frac{\partial E_y}{\partial x} = -\frac{\partial B_z}{\partial t}$ ... (i)
 
 Applying the Ampere-Maxwell law to a rectangular loop in the $xz$-plane:
 
-$$B_z \cdot l = \mu_0\varepsilon_0\frac{d}{dt}(E_y \cdot l \cdot \Delta x)$$
+$$
+B_z \cdot l = \mu_0\varepsilon_0\frac{d}{dt}(E_y \cdot l \cdot \Delta x)
+$$
 
-$$\frac{\partial B_z}{\partial x} = \mu_0\varepsilon_0\frac{\partial E_y}{\partial t}$$
+$$
+\frac{\partial B_z}{\partial x} = \mu_0\varepsilon_0\frac{\partial E_y}{\partial t}
+$$
 ... (ii)
 
 Differentiating (i) with respect to $x$ and (ii) with respect to $t$:
 
-$$\frac{\partial^2 E_y}{\partial x^2} = -\frac{\partial^2 B_z}{\partial t \partial x}$$
+$$
+\frac{\partial^2 E_y}{\partial x^2} = -\frac{\partial^2 B_z}{\partial t \partial x}
+$$
 
-$$\frac{\partial^2 B_z}{\partial x \partial t} = \mu_0\varepsilon_0\frac{\partial^2 E_y}{\partial t^2}$$
+$$
+\frac{\partial^2 B_z}{\partial x \partial t} = \mu_0\varepsilon_0\frac{\partial^2 E_y}{\partial t^2}
+$$
 
 Substituting the second into the first:
 
-$$\frac{\partial^2 E_y}{\partial x^2} = -\mu_0\varepsilon_0\frac{\partial^2 E_y}{\partial t^2}$$
+$$
+\frac{\partial^2 E_y}{\partial x^2} = -\mu_0\varepsilon_0\frac{\partial^2 E_y}{\partial t^2}
+$$
 
-$$\boxed{\frac{\partial^2 E_y}{\partial x^2} = \mu_0\varepsilon_0\frac{\partial^2 E_y}{\partial t^2}}$$
+$$
+\boxed{\frac{\partial^2 E_y}{\partial x^2} = \mu_0\varepsilon_0\frac{\partial^2 E_y}{\partial t^2}}
+$$
 
 This is the **wave equation** with wave speed:
 
-$$\boxed{c = \frac{1}{\sqrt{\mu_0\varepsilon_0}}}$$
+$$
+\boxed{c = \frac{1}{\sqrt{\mu_0\varepsilon_0}}}
+$$
 
 $\square$
 
 Similarly for $B_z$:
 
-$$\frac{\partial^2 B_z}{\partial x^2} = \mu_0\varepsilon_0\frac{\partial^2 B_z}{\partial t^2}$$
+$$
+\frac{\partial^2 B_z}{\partial x^2} = \mu_0\varepsilon_0\frac{\partial^2 B_z}{\partial t^2}
+$$
 
 ### Calculating $c$
 
-$$c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} = \frac{1}{\sqrt{4\pi \times 10^{-7} \times 8.854 \times 10^{-12}}}$$
+$$
+c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} = \frac{1}{\sqrt{4\pi \times 10^{-7} \times 8.854 \times 10^{-12}}}
+$$
 
-$$c = \frac{1}{\sqrt{1.113 \times 10^{-17}}} = \frac{1}{3.337 \times 10^{-9}} = 2.998 \times 10^8 \mathrm{ m s}^{-1}$$
+$$
+c = \frac{1}{\sqrt{1.113 \times 10^{-17}}} = \frac{1}{3.337 \times 10^{-9}} = 2.998 \times 10^8 \mathrm{ m s}^{-1}
+$$
 
-$$\boxed{c \approx 3.00 \times 10^8 \mathrm{ m s}^{-1}}$$
+$$
+\boxed{c \approx 3.00 \times 10^8 \mathrm{ m s}^{-1}}
+$$
 
 **This was one of the greatest triumphs of theoretical physics.** Maxwell derived the speed of light
 From purely electrical and magnetic constants, proving that light is an electromagnetic wave.
@@ -156,13 +198,19 @@ $\mu_0$ and $\varepsilon_0$.
 
 Starting from the two coupled first-order equations derived above:
 
-$$\frac{\partial E_y}{\partial x} = -\frac{\partial B_z}{\partial t} \quad \mathrm{... (i)}$$
+$$
+\frac{\partial E_y}{\partial x} = -\frac{\partial B_z}{\partial t} \quad \mathrm{... (i)}
+$$
 
-$$\frac{\partial B_z}{\partial x} = \mu_0\varepsilon_0\frac{\partial E_y}{\partial t} \quad \mathrm{... (ii)}$$
+$$
+\frac{\partial B_z}{\partial x} = \mu_0\varepsilon_0\frac{\partial E_y}{\partial t} \quad \mathrm{... (ii)}
+$$
 
 For a plane wave $E_y = E_0\sin(kx - \omega t)$Equation (i) gives:
 
-$$kE_0\cos(kx - \omega t) = \omega B_0\cos(kx - \omega t)$$
+$$
+kE_0\cos(kx - \omega t) = \omega B_0\cos(kx - \omega t)
+$$
 
 So $\frac{E_0}{B_0} = \frac{\omega}{k} = c$. This confirms that the electric and
 magnetic field Amplitudes are related by a fixed ratio, a direct consequence of Maxwell's
@@ -173,19 +221,27 @@ equations, not an Independent assumption.
 The energy density in the electric field is $u_E = \frac{1}{2}\varepsilon_0 E^2$ and in the magnetic
 Field is $u_B = \frac{B^2}{2\mu_0}$. Since $B = E/c$:
 
-$$u_B = \frac{E^2}{2\mu_0 c^2} = \frac{\varepsilon_0 E^2}{2} = u_E$$
+$$
+u_B = \frac{E^2}{2\mu_0 c^2} = \frac{\varepsilon_0 E^2}{2} = u_E
+$$
 
 The electric and magnetic fields carry **equal energy**. The total energy density is:
 
-$$u = \varepsilon_0 E^2 = \frac{B^2}{\mu_0}$$
+$$
+u = \varepsilon_0 E^2 = \frac{B^2}{\mu_0}
+$$
 
 The Poynting vector gives the energy flux (power per unit area):
 
-$$\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}$$
+$$
+\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}
+$$
 
 For a plane wave, the time-averaged intensity is:
 
-$$\langle S \rangle = \frac{E_0 B_0}{2\mu_0} = \frac{E_0^2}{2\mu_0 c} = \frac{c\varepsilon_0 E_0^2}{2}$$
+$$
+\langle S \rangle = \frac{E_0 B_0}{2\mu_0} = \frac{E_0^2}{2\mu_0 c} = \frac{c\varepsilon_0 E_0^2}{2}
+$$
 
 **Real-world example.** A typical laser pointer emits about 5 mW of power through a beam of diameter
 2 mm. The intensity is $I = P/A = 5 \times 10^{-3} / (\pi \times 10^{-6}) \approx 1600$ W m$^{-2}$.
@@ -196,9 +252,13 @@ field From a small device.
 
 Since EM waves carry momentum, they exert pressure on surfaces. For a wave with intensity $I$:
 
-$$P = \frac{I}{c} \quad \mathrm{(total absorption)}$$
+$$
+P = \frac{I}{c} \quad \mathrm{(total absorption)}
+$$
 
-$$P = \frac{2I}{c} \quad \mathrm{(perfect reflection)}$$
+$$
+P = \frac{2I}{c} \quad \mathrm{(perfect reflection)}
+$$
 
 **Real-world example.** Solar radiation at Earth's orbit has intensity $\approx 1360$ W m$^{-2}$.
 The radiation pressure on a perfectly reflecting solar sail is
@@ -233,7 +293,9 @@ All electromagnetic radiation, radio waves, microwaves, infrared, visible light,
 X-rays, and gamma rays, is fundamentally the same phenomenon: oscillating electric and magnetic
 Fields propagating at speed $c$. The only difference is the frequency (and hence wavelength):
 
-$$c = f\lambda$$
+$$
+c = f\lambda
+$$
 
 | Band      | $f$ (Hz)                                | Origin                                   |
 | --------- | --------------------------------------- | ---------------------------------------- |
@@ -261,12 +323,16 @@ require the full Derivation.
 
 The magnetic flux through a coil of $N$ turns is called the flux linkage:
 
-$$N\Phi = NBA\cos\theta$$
+$$
+N\Phi = NBA\cos\theta
+$$
 
 Faraday's law states that the magnitude of the induced electromotive force equals the rate of change
 Of flux linkage:
 
-$$|\varepsilon| = \frac{d(N\Phi)}{dt}$$
+$$
+|\varepsilon| = \frac{d(N\Phi)}{dt}
+$$
 
 ### Lenz's Law: Why the Minus Sign Matters
 
@@ -289,7 +355,9 @@ Electrical energy.
 
 When a conductor of length $l$ moves with velocity $v$ perpendicular to a uniform field $B$:
 
-$$\varepsilon = BLv$$
+$$
+\varepsilon = BLv
+$$
 
 **Derivation.** Each free electron in the conductor experiences a magnetic force $F = evB$ (by
 Fleming's left-hand rule). Electrons accumulate at one end, creating an electric field $E$ that
@@ -302,14 +370,18 @@ $E =
 **Transformers.** An alternating current in the primary coil creates a changing magnetic flux in the
 Iron core, which induces an alternating `EMF` in the secondary coil:
 
-$$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$
+$$
+\frac{V_s}{V_p} = \frac{N_s}{N_p}
+$$
 
 For an ideal transformer (no energy losses), power is conserved: $V_p I_p = V_s I_s$.
 
 **Generators.** A coil rotating in a uniform magnetic field produces an alternating `EMF`. For a
 Coil of $N$ turns, area $A$Rotating at angular frequency $\omega$ in field $B$:
 
-$$\varepsilon = NAB\omega\sin(\omega t)$$
+$$
+\varepsilon = NAB\omega\sin(\omega t)
+$$
 
 The peak `EMF` is $\varepsilon_0 = NAB\omega$, increasing the rotation speed, field strength, coil
 Area, or number of turns all increase the output.
@@ -338,25 +410,35 @@ Transverse voltage, the **Hall voltage**, develops across the conductor.
 
 Charge carriers moving with drift velocity $v_d$ through the conductor experience a magnetic force:
 
-$$F_B = qv_dB$$
+$$
+F_B = qv_dB
+$$
 
 This deflects carriers to one side, building up a transverse electric field $E_H$. Equilibrium is
 Reached when the electric force balances the magnetic force:
 
-$$qE_H = qv_dB$$
+$$
+qE_H = qv_dB
+$$
 
-$$E_H = v_dB$$
+$$
+E_H = v_dB
+$$
 
 For a conductor of thickness $t$The Hall voltage is:
 
-$$V_H = E_H t = v_d B t$$
+$$
+V_H = E_H t = v_d B t
+$$
 
 ### Expressing in Terms of Measurable Quantities
 
 Since the current $I = nqv_dA$ where $n$ is the carrier density and $A = wt$ (width $\times$
 Thickness), we have $v_d = I/(nqwt)$. Substituting:
 
-$$\boxed{V_H = \frac{BI}{ntq}}$$
+$$
+\boxed{V_H = \frac{BI}{ntq}}
+$$
 
 This shows that the Hall voltage is proportional to $B$ and inversely proportional to the thickness
 And carrier density.
@@ -397,21 +479,29 @@ Isotopic masses and abundances.
    charge $q = +e$ (or $+2e$Etc.).
 2. **Acceleration.** Ions are accelerated through a potential difference $V$Gaining kinetic energy:
 
-   $$\frac{1}{2}mv^2 = qV \quad \Rightarrow \quad v = \sqrt{\frac{2qV}{m}}$$
+   $$
+   \frac{1}{2}mv^2 = qV \quad \Rightarrow \quad v = \sqrt{\frac{2qV}{m}}
+   $$
 
 3. **Deflection.** Ions enter a region of uniform magnetic field $B$ and follow a semicircular path.
    The magnetic force provides centripetal acceleration:
 
-   $$qvB = \frac{mv^2}{r} \quad \Rightarrow \quad r = \frac{mv}{qB}$$
+   $$
+   qvB = \frac{mv^2}{r} \quad \Rightarrow \quad r = \frac{mv}{qB}
+   $$
 
 4. **Detection.** Ions strike a detector at different positions depending on their radius of
    curvature. Substituting the velocity from stage 2:
 
-   $$r = \frac{1}{B}\sqrt{\frac{2mV}{q}}$$
+   $$
+   r = \frac{1}{B}\sqrt{\frac{2mV}{q}}
+   $$
 
 Rearranging for the mass-to-charge ratio:
 
-$$\boxed{\frac{m}{q} = \frac{B^2 r^2}{2V}}$$
+$$
+\boxed{\frac{m}{q} = \frac{B^2 r^2}{2V}}
+$$
 
 ### Key Insights
 
@@ -424,7 +514,9 @@ $$\boxed{\frac{m}{q} = \frac{B^2 r^2}{2V}}$$
 **Real-world example.** In a mass spectrometer with $B = 0.50$ T and $V = 10,000$ V, singly-charged
 Carbon-12 ions ($m = 12 \times 1.66 \times 10^{-27}$ kg) follow a semicircular path of radius:
 
-$$r = \frac{1}{0.50}\sqrt{\frac{2 \times 1.99 \times 10^{-26} \times 10000}{1.60 \times 10^{-19}}} = 2.0 \times 0.0500 = 0.100 \mathrm{ m} = 10.0 \mathrm{ cm}$$
+$$
+r = \frac{1}{0.50}\sqrt{\frac{2 \times 1.99 \times 10^{-26} \times 10000}{1.60 \times 10^{-19}}} = 2.0 \times 0.0500 = 0.100 \mathrm{ m} = 10.0 \mathrm{ cm}
+$$
 
 Carbon-13 ions ($m = 13 \times 1.66 \times 10^{-27}$ kg) would be deflected to a radius
 $\sqrt{13/12} \times 10.0 \approx 10.4$ cm, the two isotopes are separated on the detector.
@@ -460,7 +552,9 @@ Between the dees.
 The period of the semicircular orbit is $T = \pi r / v = \pi m / (qB)$. Remarkably, the radius and
 Velocity cancel out:
 
-$$\boxed{f = \frac{1}{T} = \frac{qB}{2\pi m}}$$
+$$
+\boxed{f = \frac{1}{T} = \frac{qB}{2\pi m}}
+$$
 
 This is the **cyclotron frequency**, only on $q$, $B$ And $m$**not on the particle's Speed or
 radius**. This is why the alternating `EMF` can operate at a fixed frequency, regardless of The
@@ -471,15 +565,21 @@ particle's energy.
 For a charged particle moving in a uniform magnetic field, the centripetal force is provided by the
 Magnetic force:
 
-$$\frac{mv^2}{r} = qvB \quad \Rightarrow \quad r = \frac{mv}{qB}$$
+$$
+\frac{mv^2}{r} = qvB \quad \Rightarrow \quad r = \frac{mv}{qB}
+$$
 
 The time for one complete revolution is:
 
-$$T = \frac{2\pi r}{v} = \frac{2\pi m}{qB}$$
+$$
+T = \frac{2\pi r}{v} = \frac{2\pi m}{qB}
+$$
 
 This is independent of $r$ and $v$Confirming that the frequency is constant:
 
-$$f = \frac{qB}{2\pi m}$$
+$$
+f = \frac{qB}{2\pi m}
+$$
 
 $\square$
 
@@ -487,7 +587,9 @@ $\square$
 
 The maximum radius is determined by the size of the dees, $r = R$. At this point:
 
-$$KE_{\max} = \frac{1}{2}mv_{\max}^2 = \frac{q^2 B^2 R^2}{2m}$$
+$$
+KE_{\max} = \frac{1}{2}mv_{\max}^2 = \frac{q^2 B^2 R^2}{2m}
+$$
 
 This shows that larger cyclotrons (bigger $R$) and stronger fields (larger $B$) produce
 Higher-energy particles.

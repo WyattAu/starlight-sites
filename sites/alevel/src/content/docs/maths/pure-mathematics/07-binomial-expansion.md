@@ -59,7 +59,9 @@ Each entry is the sum of the two entries above it.
 **Definition.** The _binomial coefficient_ $\binom{n}{r}$ (read "$n$ choose $r$") is defined for
 Non-negative integers $n, r$ with $r \leq n$ by:
 
-$$\binom{n}{r} = \frac{n!}{r!(n - r)!}$$
+$$
+\binom{n}{r} = \frac{n!}{r!(n - r)!}
+$$
 
 Where $n! = n(n-1)(n-2)\cdots 1$ is the factorial of $n$ And $0! = 1$.
 
@@ -74,7 +76,9 @@ $n(n-1)\cdots(n-r+1) = \frac{n!}{(n-r)!}$.
 But each subset of size $r$ can be ordered in $r!$ ways. Dividing by $r!$ (to account for
 Overcounting):
 
-$$\binom{n}{r} = \frac{n!}{r!(n-r)!} \quad \blacksquare$$
+$$
+\binom{n}{r} = \frac{n!}{r!(n-r)!} \quad \blacksquare
+$$
 
 ### 2.1 Properties of Binomial Coefficients
 
@@ -101,9 +105,13 @@ Total: $\binom{n-1}{r-1} + \binom{n-1}{r}$. $\blacksquare$
 
 **Theorem (Binomial Theorem for Positive Integer $n$).** For $n \in \mathbb{N}$:
 
-$$(a + b)^n = \sum_{r=0}^{n} \binom{n}{r} a^{n-r} b^r$$
+$$
+(a + b)^n = \sum_{r=0}^{n} \binom{n}{r} a^{n-r} b^r
+$$
 
-$$= a^n + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^2 + \cdots + \binom{n}{n-1}ab^{n-1} + b^n$$
+$$
+= a^n + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^2 + \cdots + \binom{n}{n-1}ab^{n-1} + b^n
+$$
 
 _Proof (by induction on $n$)._
 
@@ -125,7 +133,9 @@ $$
 
 By Pascal's identity, $\binom{k}{r} + \binom{k}{r-1} = \binom{k+1}{r}$:
 
-$$= a^{k+1} + \sum_{r=1}^{k} \binom{k+1}{r} a^{k+1-r} b^r + b^{k+1} = \sum_{r=0}^{k+1} \binom{k+1}{r} a^{k+1-r} b^r \quad \blacksquare$$
+$$
+= a^{k+1} + \sum_{r=1}^{k} \binom{k+1}{r} a^{k+1-r} b^r + b^{k+1} = \sum_{r=0}^{k+1} \binom{k+1}{r} a^{k+1-r} b^r \quad \blacksquare
+$$
 
 _Intuition._ Each term in the expansion corresponds to a way of choosing $a$'s and $b$'s: from $n$
 Factors of $(a + b)$Choosing $r$ of them to contribute a $b$ (and the remaining $n - r$ to
@@ -135,11 +145,17 @@ Contribute an $a$) gives the term $\binom{n}{r} a^{n-r} b^r$.
 <summary>Example</summary>
 Expand $(2x - 3)^5$.
 
-$$(2x - 3)^5 = \sum_{r=0}^{5} \binom{5}{r} (2x)^{5-r}(-3)^r$$
+$$
+(2x - 3)^5 = \sum_{r=0}^{5} \binom{5}{r} (2x)^{5-r}(-3)^r
+$$
 
-$$= 32x^5 + 5 \cdot 16x^4(-3) + 10 \cdot 8x^3 \cdot 9 + 10 \cdot 4x^2(-27) + 5 \cdot 2x \cdot 81 + (-243)$$
+$$
+= 32x^5 + 5 \cdot 16x^4(-3) + 10 \cdot 8x^3 \cdot 9 + 10 \cdot 4x^2(-27) + 5 \cdot 2x \cdot 81 + (-243)
+$$
 
-$$= 32x^5 - 240x^4 + 720x^3 - 1080x^2 + 810x - 243$$
+$$
+= 32x^5 - 240x^4 + 720x^3 - 1080x^2 + 810x - 243
+$$
 
 </details>
 
@@ -152,9 +168,13 @@ _infinite series_.
 
 **Theorem (General Binomial Theorem).** For $|x| \lt 1$ and any $n \in \mathbb{R}$:
 
-$$(1 + x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots$$
+$$
+(1 + x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots
+$$
 
-$$= \sum_{r=0}^{\infty} \binom{n}{r} x^r$$
+$$
+= \sum_{r=0}^{\infty} \binom{n}{r} x^r
+$$
 
 Where $\binom{n}{r} = \frac{n(n-1)(n-2)\cdots(n-r+1)}{r!}$.
 
@@ -185,7 +205,9 @@ Valid for $|-2x| \lt 1$I.e., $|x| \lt \frac{1}{2}$.
 
 To expand $(a + bx)^n$First factor out $a$:
 
-$$(a + bx)^n = a^n\left(1 + \frac{b}{a}x\right)^n$$
+$$
+(a + bx)^n = a^n\left(1 + \frac{b}{a}x\right)^n
+$$
 
 Then expand $\left(1 + \frac{b}{a}x\right)^n$ using the general binomial theorem. The convergence
 Condition becomes $\left|\frac{b}{a}x\right| \lt 1$.
@@ -215,7 +237,9 @@ Valid for $\left|\frac{x}{4}\right| \lt 1$I.e., $|x| \lt 4$.
 
 In the expansion of $(a + bx)^n$The $(r+1)$Th term is:
 
-$$T_{r+1} = \binom{n}{r} a^{n-r}(bx)^r$$
+$$
+T_{r+1} = \binom{n}{r} a^{n-r}(bx)^r
+$$
 
 The index $r$ counts from $0$ So the first term corresponds to $r = 0$ and the last term (when $n$ Is
 a positive integer) corresponds to $r = n$.
@@ -237,7 +261,9 @@ Find the constant term in the expansion of $\left(x^2 + \frac{2}{x}\right)^8$.
 
 The general term is:
 
-$$T_{r+1} = \binom{8}{r} (x^2)^{8-r}\left(\frac{2}{x}\right)^r = \binom{8}{r} 2^r x^{16-3r}$$
+$$
+T_{r+1} = \binom{8}{r} (x^2)^{8-r}\left(\frac{2}{x}\right)^r = \binom{8}{r} 2^r x^{16-3r}
+$$
 
 For the constant term, set $16 - 3r = 0$Giving $r = \frac{16}{3}$. Since $r$ must be a Non-negative
 integer, there is no constant term.
@@ -255,7 +281,9 @@ The general term is $T_{r+1} = \binom{12}{r}(2x)^r = \binom{12}{r} 2^r x^r$.
 
 Set $r = 5$:
 
-$$\mathrm{Coefficient} = \binom{12}{5} 2^5 = 792 \cdot 32 = 25344$$
+$$
+\mathrm{Coefficient} = \binom{12}{5} 2^5 = 792 \cdot 32 = 25344
+$$
 
 </details>
 
@@ -265,13 +293,19 @@ Find the coefficient of $x^3$ in the expansion of $(1 - 3x)^{-1/2}$ up to $x^3$.
 
 The general term is:
 
-$$T_{r+1} = \binom{-1/2}{r}(-3x)^r$$
+$$
+T_{r+1} = \binom{-1/2}{r}(-3x)^r
+$$
 
 For $r = 3$:
 
-$$\binom{-1/2}{3} = \frac{(-1/2)(-3/2)(-5/2)}{3!} = \frac{-15/8}{6} = -\frac{5}{16}$$
+$$
+\binom{-1/2}{3} = \frac{(-1/2)(-3/2)(-5/2)}{3!} = \frac{-15/8}{6} = -\frac{5}{16}
+$$
 
-$$T_4 = \left(-\frac{5}{16}\right)(-3x)^3 = \left(-\frac{5}{16}\right)(-27x^3) = \frac{135}{16}x^3$$
+$$
+T_4 = \left(-\frac{5}{16}\right)(-3x)^3 = \left(-\frac{5}{16}\right)(-27x^3) = \frac{135}{16}x^3
+$$
 
 Coefficient of $x^3$: $\frac{135}{16}$.
 
@@ -294,7 +328,9 @@ For small $|x|$The series converges rapidly, so few terms are needed for high ac
 Alternating in sign and decreasing in magnitude, then the error when truncating after $k$ terms is
 Bounded by the magnitude of the next (first omitted) term:
 
-$$\left|(1+x)^n - S_k\right| \leq |T_{k+1}|$$
+$$
+\left|(1+x)^n - S_k\right| \leq |T_{k+1}|
+$$
 
 Where $S_k$ is the partial sum up to and including the $x^k$ term, and $T_{k+1}$ is the $(k+1)$Th
 Term.
@@ -305,7 +341,9 @@ This applies when $n \lt 0$ and $x \gt 0$Or when $n$ is fractional with alternat
 <summary>Example: Approximating $\sqrt[3]{28}$</summary>
 We write $28 = 27 + 1 = 27(1 + 1/27)$ So:
 
-$$\sqrt[3]{28} = \left(27\left(1 + \frac{1}{27}\right)\right)^{1/3} = 3\left(1 + \frac{1}{27}\right)^{1/3}$$
+$$
+\sqrt[3]{28} = \left(27\left(1 + \frac{1}{27}\right)\right)^{1/3} = 3\left(1 + \frac{1}{27}\right)^{1/3}
+$$
 
 Expanding with $n = 1/3$ and $x = 1/27$:
 
@@ -323,7 +361,9 @@ So $\sqrt[3]{28} \approx 3 \times 1.012197 = 3.036591$.
 **Error estimation.** The terms alternate and decrease in magnitude. The next term (the $x^4$ term)
 Has magnitude:
 
-$$\left|\frac{\frac{1}{3}\cdot\left(-\frac{2}{3}\right)\cdot\left(-\frac{5}{3}\right)\cdot\left(-\frac{8}{3}\right)}{4!}\cdot\frac{1}{27^4}\right| = \frac{80}{243 \cdot 531441} \approx 6.2 \times 10^{-7}$$
+$$
+\left|\frac{\frac{1}{3}\cdot\left(-\frac{2}{3}\right)\cdot\left(-\frac{5}{3}\right)\cdot\left(-\frac{8}{3}\right)}{4!}\cdot\frac{1}{27^4}\right| = \frac{80}{243 \cdot 531441} \approx 6.2 \times 10^{-7}
+$$
 
 So the error in the expansion of $(1 + 1/27)^{1/3}$ is at most $\approx 6.2 \times 10^{-7}$ And the
 Error in $\sqrt[3]{28}$ is at most $3 \times 6.2 \times 10^{-7} \approx 1.9 \times 10^{-6}$.
@@ -338,7 +378,9 @@ Error in $\sqrt[3]{28}$ is at most $3 \times 6.2 \times 10^{-7} \approx 1.9 \tim
 
 We already know (from Problem 7 below) that:
 
-$$\sum_{r=0}^{n} \binom{n}{r} = 2^n$$
+$$
+\sum_{r=0}^{n} \binom{n}{r} = 2^n
+$$
 
 This follows from setting $a = 1$, $b = 1$ in the binomial theorem.
 
@@ -352,15 +394,21 @@ Start with $(1 + x)^n = \sum_{r=0}^{n} \binom{n}{r} x^r$.
 
 Differentiate both sides with respect to $x$:
 
-$$n(1 + x)^{n-1} = \sum_{r=0}^{n} r\binom{n}{r} x^{r-1}$$
+$$
+n(1 + x)^{n-1} = \sum_{r=0}^{n} r\binom{n}{r} x^{r-1}
+$$
 
 Multiply through by $x$:
 
-$$nx(1 + x)^{n-1} = \sum_{r=0}^{n} r\binom{n}{r} x^r$$
+$$
+nx(1 + x)^{n-1} = \sum_{r=0}^{n} r\binom{n}{r} x^r
+$$
 
 Set $x = 1$:
 
-$$n \cdot 1 \cdot 2^{n-1} = \sum_{r=0}^{n} r\binom{n}{r}$$
+$$
+n \cdot 1 \cdot 2^{n-1} = \sum_{r=0}^{n} r\binom{n}{r}
+$$
 
 Therefore $\sum_{r=0}^{n} r\binom{n}{r} = n \cdot 2^{n-1}$. $\blacksquare$
 
@@ -380,25 +428,35 @@ We have $nx(1+x)^{n-1} = \sum_{r=0}^{n} r\binom{n}{r} x^r$.
 
 Differentiate both sides with respect to $x$:
 
-$$n(1+x)^{n-1} + n(n-1)x(1+x)^{n-2} = \sum_{r=0}^{n} r^2\binom{n}{r} x^{r-1}$$
+$$
+n(1+x)^{n-1} + n(n-1)x(1+x)^{n-2} = \sum_{r=0}^{n} r^2\binom{n}{r} x^{r-1}
+$$
 
 Multiply through by $x$:
 
-$$nx(1+x)^{n-1} + n(n-1)x^2(1+x)^{n-2} = \sum_{r=0}^{n} r^2\binom{n}{r} x^r$$
+$$
+nx(1+x)^{n-1} + n(n-1)x^2(1+x)^{n-2} = \sum_{r=0}^{n} r^2\binom{n}{r} x^r
+$$
 
 Set $x = 1$:
 
-$$n \cdot 2^{n-1} + n(n-1) \cdot 2^{n-2} = \sum_{r=0}^{n} r^2\binom{n}{r}$$
+$$
+n \cdot 2^{n-1} + n(n-1) \cdot 2^{n-2} = \sum_{r=0}^{n} r^2\binom{n}{r}
+$$
 
 Factor out $n \cdot 2^{n-2}$:
 
-$$n \cdot 2^{n-2}(2 + n - 1) = n(n+1) \cdot 2^{n-2} = \sum_{r=0}^{n} r^2\binom{n}{r} \quad \blacksquare$$
+$$
+n \cdot 2^{n-2}(2 + n - 1) = n(n+1) \cdot 2^{n-2} = \sum_{r=0}^{n} r^2\binom{n}{r} \quad \blacksquare
+$$
 
 ### 7.4 Vandermonde's Identity
 
 **Theorem (Vandermonde's Identity).** For non-negative integers $n, r, m$:
 
-$$\sum_{k=0}^{m} \binom{r}{k}\binom{n - r}{m - k} = \binom{n}{m}$$
+$$
+\sum_{k=0}^{m} \binom{r}{k}\binom{n - r}{m - k} = \binom{n}{m}
+$$
 
 _Proof (combinatorial)._
 
@@ -418,7 +476,9 @@ Summing over all valid $k$ gives the left-hand side. $\blacksquare$
 When expanding $(a + bx)^n$ with non-integer $n$We write it as $a^n\left(1 + \frac{bx}{a}\right)^n$.
 The expansion is valid when:
 
-$$\left|\frac{bx}{a}\right| \lt 1 \quad \mathrm{i.e.,} \quad |x| \lt \left|\frac{a}{b}\right|$$
+$$
+\left|\frac{bx}{a}\right| \lt 1 \quad \mathrm{i.e.,} \quad |x| \lt \left|\frac{a}{b}\right|
+$$
 
 :::caution
 Routinely deducted for omitting this.
@@ -429,13 +489,17 @@ Routinely deducted for omitting this.
 When a question asks for the expansion of a product of two binomial expressions, such as
 $(1 + px)^a(1 + qx)^b$Each factor has its own validity range:
 
-$$|px| \lt 1 \quad \mathrm{and} \quad |qx| \lt 1$$
+$$
+|px| \lt 1 \quad \mathrm{and} \quad |qx| \lt 1
+$$
 
 The combined expansion is valid only where **both** individual expansions are valid. This means the
 Overall validity is the **intersection** of the two ranges, which is always the **more restrictive**
 Condition:
 
-$$|x| \lt \min\left(\frac{1}{|p|}, \frac{1}{|q|}\right)$$
+$$
+|x| \lt \min\left(\frac{1}{|p|}, \frac{1}{|q|}\right)
+$$
 
 **Why?** The product expansion is obtained by multiplying the individual series term by term. If
 Either series diverges, the term-by-term multiplication is not justified, so the product expansion
@@ -459,15 +523,23 @@ $(1 - 3x)^{-1}$: valid for $|3x| \lt 1$I.e., $|x| \lt \frac{1}{3}$.
 
 The combined validity is $|x| \lt \frac{1}{3}$ (the more restrictive condition).
 
-$$(1 + x)^{-2} = 1 - 2x + 3x^2 + \cdots$$
+$$
+(1 + x)^{-2} = 1 - 2x + 3x^2 + \cdots
+$$
 
-$$(1 - 3x)^{-1} = 1 + 3x + 9x^2 + \cdots$$
+$$
+(1 - 3x)^{-1} = 1 + 3x + 9x^2 + \cdots
+$$
 
 Product up to $x^2$:
 
-$$(1)(1) + [(-2)(1) + (1)(3)]x + [(3)(1) + (-2)(3) + (1)(9)]x^2$$
+$$
+(1)(1) + [(-2)(1) + (1)(3)]x + [(3)(1) + (-2)(3) + (1)(9)]x^2
+$$
 
-$$= 1 + x + (3 - 6 + 9)x^2 = 1 + x + 6x^2 + \cdots$$
+$$
+= 1 + x + (3 - 6 + 9)x^2 = 1 + x + 6x^2 + \cdots
+$$
 
 </details>
 
@@ -477,11 +549,15 @@ Expand $\frac{3}{(1-x)(2+x)}$ in ascending powers of $x$ up to $x^2$.
 
 Partial fractions: $\frac{3}{(1-x)(2+x)} = \frac{A}{1-x} + \frac{B}{2+x}$.
 
-$$3 = A(2 + x) + B(1 - x)$$
+$$
+3 = A(2 + x) + B(1 - x)
+$$
 
 Setting $x = 1$: $3 = 3A \implies A = 1$. Setting $x = -2$: $3 = 3B \implies B = 1$.
 
-$$\frac{3}{(1-x)(2+x)} = \frac{1}{1-x} + \frac{1}{2+x} = (1-x)^{-1} + \frac{1}{2}(1 + x/2)^{-1}$$
+$$
+\frac{3}{(1-x)(2+x)} = \frac{1}{1-x} + \frac{1}{2+x} = (1-x)^{-1} + \frac{1}{2}(1 + x/2)^{-1}
+$$
 
 $(1-x)^{-1}$: valid for $|x| \lt 1$.
 
@@ -489,11 +565,17 @@ $(1 + x/2)^{-1}$: valid for $|x/2| \lt 1$I.e., $|x| \lt 2$.
 
 Combined validity: $|x| \lt 1$.
 
-$$(1-x)^{-1} = 1 + x + x^2 + \cdots$$
+$$
+(1-x)^{-1} = 1 + x + x^2 + \cdots
+$$
 
-$$\frac{1}{2}\left(1 + \frac{x}{2}\right)^{-1} = \frac{1}{2}\left(1 - \frac{x}{2} + \frac{x^2}{4} - \cdots\right) = \frac{1}{2} - \frac{x}{4} + \frac{x^2}{8} - \cdots$$
+$$
+\frac{1}{2}\left(1 + \frac{x}{2}\right)^{-1} = \frac{1}{2}\left(1 - \frac{x}{2} + \frac{x^2}{4} - \cdots\right) = \frac{1}{2} - \frac{x}{4} + \frac{x^2}{8} - \cdots
+$$
 
-$$\frac{3}{(1-x)(2+x)} = \frac{3}{2} + \frac{3}{4}x + \frac{9}{8}x^2 + \cdots$$
+$$
+\frac{3}{(1-x)(2+x)} = \frac{3}{2} + \frac{3}{4}x + \frac{9}{8}x^2 + \cdots
+$$
 
 </details>
 
@@ -505,9 +587,13 @@ $$\frac{3}{(1-x)(2+x)} = \frac{3}{2} + \frac{3}{4}x + \frac{9}{8}x^2 + \cdots$$
 
 <details>
 <summary>Solution</summary>
-$$(1 + 3x)^4 = \binom{4}{0} + \binom{4}{1}(3x) + \binom{4}{2}(3x)^2 + \binom{4}{3}(3x)^3 + \binom{4}{4}(3x)^4$$
+$$
+(1 + 3x)^4 = \binom{4}{0} + \binom{4}{1}(3x) + \binom{4}{2}(3x)^2 + \binom{4}{3}(3x)^3 + \binom{4}{4}(3x)^4
+$$
 
-$$= 1 + 12x + 54x^2 + 108x^3 + 81x^4$$
+$$
+= 1 + 12x + 54x^2 + 108x^3 + 81x^4
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Binomial theorem](#3-the-binomial-theorem)
@@ -520,7 +606,9 @@ $$= 1 + 12x + 54x^2 + 108x^3 + 81x^4$$
 <summary>Solution</summary>
 The $x^3$ term comes from $r = 3$:
 
-$$\binom{6}{3}(2)^{6-3}(-x)^3 = 20 \cdot 8 \cdot (-x^3) = -160x^3$$
+$$
+\binom{6}{3}(2)^{6-3}(-x)^3 = 20 \cdot 8 \cdot (-x^3) = -160x^3
+$$
 
 Coefficient of $x^3$: $-160$.
 
@@ -572,13 +660,21 @@ Total: $54 - 120 + 40 = -26$.
 
 <details>
 <summary>Solution</summary>
-$$\sqrt{1.05} = (1 + 0.05)^{1/2}$$
+$$
+\sqrt{1.05} = (1 + 0.05)^{1/2}
+$$
 
-$$= 1 + \frac{1}{2}(0.05) + \frac{\frac{1}{2} \cdot \left(-\frac{1}{2}\right)}{2}(0.05)^2 + \frac{\frac{1}{2}\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)}{6}(0.05)^3 + \cdots$$
+$$
+= 1 + \frac{1}{2}(0.05) + \frac{\frac{1}{2} \cdot \left(-\frac{1}{2}\right)}{2}(0.05)^2 + \frac{\frac{1}{2}\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)}{6}(0.05)^3 + \cdots
+$$
 
-$$= 1 + 0.025 - 0.0003125 + 0.0000078125 - \cdots$$
+$$
+= 1 + 0.025 - 0.0003125 + 0.0000078125 - \cdots
+$$
 
-$$\approx 1.024695$$
+$$
+\approx 1.024695
+$$
 
 To 5 d.p.: $1.02470$.
 
@@ -600,21 +696,35 @@ Coefficient of $x^3$: $\frac{n(n-1)(n-2)}{6}a^3$
 
 Ratio $1 : 4 : 12$:
 
-$$\frac{n(n-1)}{2}a^2 = 4na \implies \frac{(n-1)a}{2} = 4 \implies (n-1)a = 8 \quad \mathrm{--- (1)}$$
+$$
+\frac{n(n-1)}{2}a^2 = 4na \implies \frac{(n-1)a}{2} = 4 \implies (n-1)a = 8 \quad \mathrm{--- (1)}
+$$
 
-$$\frac{n(n-1)(n-2)}{6}a^3 = 12na \implies \frac{(n-1)(n-2)a^2}{6} = 12 \quad \mathrm{--- (2)}$$
+$$
+\frac{n(n-1)(n-2)}{6}a^3 = 12na \implies \frac{(n-1)(n-2)a^2}{6} = 12 \quad \mathrm{--- (2)}
+$$
 
 From (1): $a = \frac{8}{n-1}$. Substitute into (2):
 
-$$\frac{(n-1)(n-2)}{6} \cdot \frac{64}{(n-1)^2} = 12$$
+$$
+\frac{(n-1)(n-2)}{6} \cdot \frac{64}{(n-1)^2} = 12
+$$
 
-$$\frac{64(n-2)}{6(n-1)} = 12$$
+$$
+\frac{64(n-2)}{6(n-1)} = 12
+$$
 
-$$64(n-2) = 72(n-1)$$
+$$
+64(n-2) = 72(n-1)
+$$
 
-$$64n - 128 = 72n - 72$$
+$$
+64n - 128 = 72n - 72
+$$
 
-$$-8n = 56 \implies n = -7$$
+$$
+-8n = 56 \implies n = -7
+$$
 
 $a = \frac{8}{-8} = -1$.
 
@@ -629,7 +739,9 @@ $a = \frac{8}{-8} = -1$.
 <summary>Solution</summary>
 Setting $a = 1$ and $b = 1$ in the binomial theorem:
 
-$$(1 + 1)^n = \sum_{r=0}^{n} \binom{n}{r} 1^{n-r} 1^r = \sum_{r=0}^{n} \binom{n}{r}$$
+$$
+(1 + 1)^n = \sum_{r=0}^{n} \binom{n}{r} 1^{n-r} 1^r = \sum_{r=0}^{n} \binom{n}{r}
+$$
 
 So $\sum_{r=0}^{n} \binom{n}{r} = 2^n$. $\blacksquare$
 
@@ -648,9 +760,13 @@ range of validity.
 <summary>Solution</summary>
 Using partial fractions: $\frac{1}{(1+x)(1-2x)} = \frac{1}{3}\cdot\frac{1}{1+x} + \frac{2}{3}\cdot\frac{1}{1-2x}$.
 
-$$\frac{1}{1+x} = (1+x)^{-1} = 1 - x + x^2 - x^3 + \cdots \quad (|x| \lt 1)$$
+$$
+\frac{1}{1+x} = (1+x)^{-1} = 1 - x + x^2 - x^3 + \cdots \quad (|x| \lt 1)
+$$
 
-$$\frac{1}{1-2x} = (1-2x)^{-1} = 1 + 2x + 4x^2 + 8x^3 + \cdots \quad (|2x| \lt 1)$$
+$$
+\frac{1}{1-2x} = (1-2x)^{-1} = 1 + 2x + 4x^2 + 8x^3 + \cdots \quad (|2x| \lt 1)
+$$
 
 $$
 \begin{aligned}
@@ -672,13 +788,21 @@ Coefficient of $x^3$ equal to $1080$Find the value of $k$.
 
 <details>
 <summary>Solution</summary>
-$$\binom{10}{3} k^3 = 1080$$
+$$
+\binom{10}{3} k^3 = 1080
+$$
 
-$$120k^3 = 1080$$
+$$
+120k^3 = 1080
+$$
 
-$$k^3 = 9$$
+$$
+k^3 = 9
+$$
 
-$$k = \sqrt[3]{9}$$
+$$
+k = \sqrt[3]{9}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Binomial theorem](#3-the-binomial-theorem)
@@ -691,7 +815,9 @@ $$k = \sqrt[3]{9}$$
 <summary>Solution</summary>
 Setting $a = 1$ and $b = -1$ in the binomial theorem:
 
-$$(1 - 1)^n = \sum_{r=0}^{n} \binom{n}{r} 1^{n-r}(-1)^r = \sum_{r=0}^{n} (-1)^r \binom{n}{r}$$
+$$
+(1 - 1)^n = \sum_{r=0}^{n} \binom{n}{r} 1^{n-r}(-1)^r = \sum_{r=0}^{n} (-1)^r \binom{n}{r}
+$$
 
 $0^n = 0$ for $n \geq 1$. $\blacksquare$
 
@@ -711,9 +837,13 @@ $x^3$Stating the range of validity.
 <summary>Solution</summary>
 First expand each factor:
 
-$$(1 + x)^{-3} = 1 + (-3)x + \frac{(-3)(-4)}{2}x^2 + \frac{(-3)(-4)(-5)}{6}x^3 + \cdots = 1 - 3x + 6x^2 - 10x^3 + \cdots$$
+$$
+(1 + x)^{-3} = 1 + (-3)x + \frac{(-3)(-4)}{2}x^2 + \frac{(-3)(-4)(-5)}{6}x^3 + \cdots = 1 - 3x + 6x^2 - 10x^3 + \cdots
+$$
 
-$$(1 - 2x)^{-1} = 1 + 2x + 4x^2 + 8x^3 + \cdots$$
+$$
+(1 - 2x)^{-1} = 1 + 2x + 4x^2 + 8x^3 + \cdots
+$$
 
 Coefficient of $x^3$ in the product:
 
@@ -739,7 +869,9 @@ Estimate the error in your approximation.
 <summary>Solution</summary>
 Write $126 = 125 + 1 = 125(1 + 1/125)$:
 
-$$\sqrt[3]{126} = 5\left(1 + \frac{1}{125}\right)^{1/3}$$
+$$
+\sqrt[3]{126} = 5\left(1 + \frac{1}{125}\right)^{1/3}
+$$
 
 Expand with $n = 1/3$, $x = 1/125 = 0.008$:
 
@@ -752,13 +884,17 @@ $$
 \end{aligned}
 $$
 
-$$\sqrt[3]{126} \approx 5 \times 1.0026525 = 5.01326$$
+$$
+\sqrt[3]{126} \approx 5 \times 1.0026525 = 5.01326
+$$
 
 To 4 d.p.: $5.0133$.
 
 **Error estimate.** The terms alternate and decrease. The next term (the $x^3$ term) has magnitude:
 
-$$\left|\frac{\frac{1}{3}\cdot\left(-\frac{2}{3}\right)\cdot\left(-\frac{5}{3}\right)}{6}\cdot\frac{1}{125^3}\right| = \frac{10/162}{6} \cdot \frac{1}{1953125} \approx 5.3 \times 10^{-9}$$
+$$
+\left|\frac{\frac{1}{3}\cdot\left(-\frac{2}{3}\right)\cdot\left(-\frac{5}{3}\right)}{6}\cdot\frac{1}{125^3}\right| = \frac{10/162}{6} \cdot \frac{1}{1953125} \approx 5.3 \times 10^{-9}
+$$
 
 The error in $\sqrt[3]{126}$ is at most $5 \times 5.3 \times 10^{-9} \approx 2.7 \times 10^{-8}$
 Which is negligible for 4 decimal places. The approximation $5.0133$ is reliable.
@@ -774,7 +910,9 @@ Which is negligible for 4 decimal places. The approximation $5.0133$ is reliable
 <summary>Solution</summary>
 By the identity $\sum_{r=0}^{n} r\binom{n}{r} = n \cdot 2^{n-1}$ with $n = 10$:
 
-$$\sum_{r=0}^{10} r\binom{10}{r} = 10 \cdot 2^{9} = 10 \times 512 = 5120$$
+$$
+\sum_{r=0}^{10} r\binom{10}{r} = 10 \cdot 2^{9} = 10 \times 512 = 5120
+$$
 
 _Verification by differentiation:_
 
@@ -801,21 +939,35 @@ $\binom{2n}{3} 2^{2n-3} \cdot 27 = \frac{2n(2n-1)(2n-2)}{6} \cdot 27 \cdot 2^{2n
 
 Ratio is $11 : 1$:
 
-$$\frac{\displaystyle \frac{2n(2n-1)(2n-2)}{6} \cdot 27 \cdot 2^{2n-3}}{3n \cdot 2^{2n}} = 11$$
+$$
+\frac{\displaystyle \frac{2n(2n-1)(2n-2)}{6} \cdot 27 \cdot 2^{2n-3}}{3n \cdot 2^{2n}} = 11
+$$
 
 Simplify:
 
-$$\frac{2n(2n-1)(2n-2) \cdot 27 \cdot 2^{2n-3}}{6 \cdot 3n \cdot 2^{2n}} = 11$$
+$$
+\frac{2n(2n-1)(2n-2) \cdot 27 \cdot 2^{2n-3}}{6 \cdot 3n \cdot 2^{2n}} = 11
+$$
 
-$$\frac{2n(2n-1)(2n-2) \cdot 9 \cdot 2^{2n-3}}{6n \cdot 2^{2n}} = 11$$
+$$
+\frac{2n(2n-1)(2n-2) \cdot 9 \cdot 2^{2n-3}}{6n \cdot 2^{2n}} = 11
+$$
 
-$$\frac{(2n-1)(2n-2) \cdot 18 \cdot 2^{2n-3}}{6 \cdot 2^{2n}} = 11$$
+$$
+\frac{(2n-1)(2n-2) \cdot 18 \cdot 2^{2n-3}}{6 \cdot 2^{2n}} = 11
+$$
 
-$$\frac{(2n-1)(2n-2) \cdot 18}{6 \cdot 8} = 11$$
+$$
+\frac{(2n-1)(2n-2) \cdot 18}{6 \cdot 8} = 11
+$$
 
-$$\frac{(2n-1)(2n-2) \cdot 3}{8} = 11$$
+$$
+\frac{(2n-1)(2n-2) \cdot 3}{8} = 11
+$$
 
-$$(2n-1)(2n-2) = \frac{88}{3}$$
+$$
+(2n-1)(2n-2) = \frac{88}{3}
+$$
 
 This gives a non-integer, so let us recheck. We need $n$ such that the ratio equals $11$. Trying
 Small values:
@@ -832,17 +984,29 @@ Coefficient of $x$ is $10 \cdot 512 \cdot 3 = 15360$. Ratio: $414720/15360 = 27$
 Since $7.5 \lt 11 \lt 15.75$ and the ratio is increasing, there is no integer $n$ giving ratio
 Exactly $11$. However, solving the equation more carefully:
 
-$$\frac{(2n-1)(2n-2)}{4} = 11$$
+$$
+\frac{(2n-1)(2n-2)}{4} = 11
+$$
 
-$$2(2n-1)(n-1) = 11$$
+$$
+2(2n-1)(n-1) = 11
+$$
 
-$$(2n-1)(n-1) = \frac{11}{2}$$
+$$
+(2n-1)(n-1) = \frac{11}{2}
+$$
 
-$$2n^2 - 3n + 1 = \frac{11}{2}$$
+$$
+2n^2 - 3n + 1 = \frac{11}{2}
+$$
 
-$$4n^2 - 6n - 9 = 0$$
+$$
+4n^2 - 6n - 9 = 0
+$$
 
-$$n = \frac{6 \pm \sqrt{36 + 144}}{8} = \frac{6 \pm \sqrt{180}}{8} = \frac{6 \pm 6\sqrt{5}}{8} = \frac{3 \pm 3\sqrt{5}}{4}$$
+$$
+n = \frac{6 \pm \sqrt{36 + 144}}{8} = \frac{6 \pm \sqrt{180}}{8} = \frac{6 \pm 6\sqrt{5}}{8} = \frac{3 \pm 3\sqrt{5}}{4}
+$$
 
 Since $n$ must be a positive integer, there is no integer solution. The ratio $11 : 1$ cannot be
 Achieved for any positive integer $n$ with $(2+3x)^{2n}$.
@@ -861,9 +1025,13 @@ Range of validity.
 <summary>Solution</summary>
 First, find partial fractions. Write:
 
-$$\frac{2}{(1+x)^2(1-2x)} = \frac{A}{1+x} + \frac{B}{(1+x)^2} + \frac{C}{1-2x}$$
+$$
+\frac{2}{(1+x)^2(1-2x)} = \frac{A}{1+x} + \frac{B}{(1+x)^2} + \frac{C}{1-2x}
+$$
 
-$$2 = A(1+x)(1-2x) + B(1-2x) + C(1+x)^2$$
+$$
+2 = A(1+x)(1-2x) + B(1-2x) + C(1+x)^2
+$$
 
 Setting $x = -2$: $2 = C(-1)^2 = C$ So $C = 2$.
 
@@ -873,15 +1041,23 @@ Setting $x = 0$: $2 = A + B + C = A + 2/3 + 2$ So $A = 2 - 8/3 = -2/3$.
 
 So:
 
-$$\frac{2}{(1+x)^2(1-2x)} = -\frac{2}{3}(1+x)^{-1} + \frac{2}{3}(1+x)^{-2} + 2(1-2x)^{-1}$$
+$$
+\frac{2}{(1+x)^2(1-2x)} = -\frac{2}{3}(1+x)^{-1} + \frac{2}{3}(1+x)^{-2} + 2(1-2x)^{-1}
+$$
 
 Now expand each:
 
-$$(1+x)^{-1} = 1 - x + x^2 + \cdots \quad (|x| \lt 1)$$
+$$
+(1+x)^{-1} = 1 - x + x^2 + \cdots \quad (|x| \lt 1)
+$$
 
-$$(1+x)^{-2} = 1 - 2x + 3x^2 + \cdots \quad (|x| \lt 1)$$
+$$
+(1+x)^{-2} = 1 - 2x + 3x^2 + \cdots \quad (|x| \lt 1)
+$$
 
-$$(1-2x)^{-1} = 1 + 2x + 4x^2 + \cdots \quad (|x| \lt 1/2)$$
+$$
+(1-2x)^{-1} = 1 + 2x + 4x^2 + \cdots \quad (|x| \lt 1/2)
+$$
 
 $$
 \begin{aligned}

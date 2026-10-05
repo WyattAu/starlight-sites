@@ -26,7 +26,9 @@ categories: [Physics]
 **Newton's Law.** Every point mass attracts every other point mass with a force directed along the
 line Joining them, whose magnitude is:
 
-$$\boxed{F = \frac{Gm_1 m_2}{r^2}}$$
+$$
+\boxed{F = \frac{Gm_1 m_2}{r^2}}
+$$
 
 Where $G = 6.67 \times 10^{-11}$ N m$^2$ kg$^{-2}$ is the gravitational constant.
 
@@ -35,7 +37,9 @@ Where $G = 6.67 \times 10^{-11}$ N m$^2$ kg$^{-2}$ is the gravitational constant
 Consider a point mass emitting gravitational flux uniformly in all directions. The flux through a
 Sphere of radius $r$ is constant (by Gauss's law for gravity):
 
-$$\oint \mathbf{g} \cdot d\mathbf{A} = -4\pi G M_{\mathrm{enc}}$$
+$$
+\oint \mathbf{g} \cdot d\mathbf{A} = -4\pi G M_{\mathrm{enc}}
+$$
 
 Since the surface area is $4\pi r^2$The flux density (field strength) must be $g = GM/r^2$. The
 Force on a test mass $m$ is then $F = mg = GMm/r^2$. This inverse square law is a direct geometric
@@ -56,13 +60,17 @@ Cancellation of positive and negative electric charges renders electromagnetic f
 **Definition.** The gravitational field strength $\mathbf{g}$ at a point is the force per unit mass
 on a Small test mass placed at that point:
 
-$$\boxed{\mathbf{g} = \frac{\mathbf{F}}{m}}$$
+$$
+\boxed{\mathbf{g} = \frac{\mathbf{F}}{m}}
+$$
 
 SI units: N kg$^{-1}$Equivalent to m s$^{-2}$.
 
 For a point mass $M$ at distance $r$:
 
-$$\boxed{g = \frac{GM}{r^2}}$$
+$$
+\boxed{g = \frac{GM}{r^2}}
+$$
 
 Directed radially inward towards $M$.
 
@@ -78,28 +86,38 @@ Points ($r \lt R$).
 the Shell into thin annular rings perpendicular to the line from the centre to $m$. A ring at polar
 angle $\theta$ has radius $R\sin\theta$Width $R\,d\theta$ And mass:
 
-$$dM = \frac{M}{4\pi R^2} \cdot 2\pi R^2 \sin\theta\,d\theta = \frac{M}{2}\sin\theta\,d\theta$$
+$$
+dM = \frac{M}{4\pi R^2} \cdot 2\pi R^2 \sin\theta\,d\theta = \frac{M}{2}\sin\theta\,d\theta
+$$
 
 Every element of the ring is at distance $s = \sqrt{r^2 + R^2 - 2rR\cos\theta}$ from $m$. By
 the Axial symmetry of the ring, the transverse components of force cancel, leaving only the
 component Along the axis. The angle $\alpha$ between the force direction and the axis satisfies:
 
-$$\cos\alpha = \frac{r - R\cos\theta}{s}$$
+$$
+\cos\alpha = \frac{r - R\cos\theta}{s}
+$$
 
 The axial force contribution from the ring is:
 
-$$dF = \frac{Gm\,dM}{s^2}\cos\alpha = \frac{GmM}{2}\cdot\frac{(r - R\cos\theta)\sin\theta\,d\theta}{(r^2 + R^2 - 2rR\cos\theta)^{3/2}}$$
+$$
+dF = \frac{Gm\,dM}{s^2}\cos\alpha = \frac{GmM}{2}\cdot\frac{(r - R\cos\theta)\sin\theta\,d\theta}{(r^2 + R^2 - 2rR\cos\theta)^{3/2}}
+$$
 
 Substitute $u = \cos\theta$$du = -\sin\theta\,d\theta$. When $\theta = 0$$u = 1$; when
 $\theta = \pi$$u = -1$:
 
-$$F = \frac{GmM}{2}\int_{1}^{-1}\frac{(r - Ru)(-du)}{(r^2 + R^2 - 2rRu)^{3/2}}$$
+$$
+F = \frac{GmM}{2}\int_{1}^{-1}\frac{(r - Ru)(-du)}{(r^2 + R^2 - 2rRu)^{3/2}}
+$$
 
 The integral evaluates to
 $\frac{2r}{r^2 - R^2} \cdot \frac{1}{r^2} \cdot (r^2 - R^2) \cdot \frac{1}{r}$ After careful
 algebra, giving:
 
-$$F = \frac{GMm}{r^2}$$
+$$
+F = \frac{GMm}{r^2}
+$$
 
 This is identical to the field of a point mass $M$ at the centre. $\square$
 
@@ -116,7 +134,9 @@ varies slightly with Latitude even at sea level.
 
 At height $h$ above a planet of radius $R$ and surface field $g_0$:
 
-$$\boxed{g = g_0\left(\frac{R}{R + h}\right)^2}$$
+$$
+\boxed{g = g_0\left(\frac{R}{R + h}\right)^2}
+$$
 
 For $h \ll R$The binomial approximation gives $g \approx g_0(1 - 2h/R)$.
 
@@ -125,13 +145,17 @@ For $h \ll R$The binomial approximation gives $g \approx g_0(1 - 2h/R)$.
 **Definition.** The gravitational potential $V$ at a point is the work done per unit mass in
 bringing a Small test mass from infinity to that point:
 
-$$\boxed{V = -\frac{GM}{r}}$$
+$$
+\boxed{V = -\frac{GM}{r}}
+$$
 
 SI units: J kg$^{-1}$.
 
 ### Derivation
 
-$$V = \frac{W}{m} = \frac{1}{m}\int_{\infty}^{r} \frac{GMm}{r'^2}\,dr' = GM\int_{\infty}^{r}\frac{dr'}{r'^2} = GM\left[-\frac{1}{r'}\right]_{\infty}^{r} = -\frac{GM}{r}$$
+$$
+V = \frac{W}{m} = \frac{1}{m}\int_{\infty}^{r} \frac{GMm}{r'^2}\,dr' = GM\int_{\infty}^{r}\frac{dr'}{r'^2} = GM\left[-\frac{1}{r'}\right]_{\infty}^{r} = -\frac{GM}{r}
+$$
 
 $\square$
 
@@ -142,15 +166,21 @@ mass from $r$ back To infinity.
 
 ### Field--Potential Relationship
 
-$$\boxed{g = -\frac{dV}{dr}}$$
+$$
+\boxed{g = -\frac{dV}{dr}}
+$$
 
 **Proof.** $V = -GM/r = -GM r^{-1}$. Then:
 
-$$\frac{dV}{dr} = GM\,r^{-2} = \frac{GM}{r^2}$$
+$$
+\frac{dV}{dr} = GM\,r^{-2} = \frac{GM}{r^2}
+$$
 
 The field (directed inward, i.e. In the negative radial direction) is:
 
-$$g_r = -\frac{GM}{r^2} = -\frac{dV}{dr}$$
+$$
+g_r = -\frac{GM}{r^2} = -\frac{dV}{dr}
+$$
 
 $\square$
 
@@ -160,11 +190,15 @@ The minus sign confirms that the field points in the direction of decreasing pot
 
 For two masses $M$ and $m$ separated by $r$:
 
-$$\boxed{E_p = -\frac{GMm}{r}}$$
+$$
+\boxed{E_p = -\frac{GMm}{r}}
+$$
 
 **Connection to $E_p = mgh$.** For height $h \ll R_E$The Taylor expansion gives:
 
-$$\Delta E_p = -\frac{GMm}{R_E + h} + \frac{GMm}{R_E} = \frac{GMmh}{R_E(R_E + h)} \approx \frac{GMmh}{R_E^2} = mgh$$
+$$
+\Delta E_p = -\frac{GMm}{R_E + h} + \frac{GMm}{R_E} = \frac{GMmh}{R_E(R_E + h)} \approx \frac{GMmh}{R_E^2} = mgh
+$$
 
 Since $g = GM/R_E^2$. The linear formula $mgh$ is the first-order approximation of the full
 Gravitational potential energy.
@@ -179,9 +213,13 @@ infinity With zero residual speed from the surface of a body of mass $M$ and rad
 At launch: $E_k = \frac{1}{2}mv_e^2$$E_p = -GMm/R$. At infinity: $E_k = 0$$E_p = 0$. By energy
 Conservation:
 
-$$\frac{1}{2}mv_e^2 - \frac{GMm}{R} = 0$$
+$$
+\frac{1}{2}mv_e^2 - \frac{GMm}{R} = 0
+$$
 
-$$\boxed{v_e = \sqrt{\frac{2GM}{R}}}$$
+$$
+\boxed{v_e = \sqrt{\frac{2GM}{R}}}
+$$
 
 $\square$
 
@@ -189,7 +227,9 @@ $\square$
 
 The circular orbital speed at radius $r$ is $v_{\mathrm{orb}} = \sqrt{GM/r}$. Therefore:
 
-$$v_e = \sqrt{2}\,v_{\mathrm{orb}}$$
+$$
+v_e = \sqrt{2}\,v_{\mathrm{orb}}
+$$
 
 Escape requires exactly twice the kinetic energy of a circular orbit:
 $\frac{1}{2}mv_e^2 = 2 \times
@@ -241,14 +281,18 @@ With increasing $r$ But the total energy _increases_ (potential energy increase 
 
 For any Keplerian orbit (circular or elliptical) with semi-major axis $a$:
 
-$$\boxed{v^2 = GM\left(\frac{2}{r} - \frac{1}{a}\right)}$$
+$$
+\boxed{v^2 = GM\left(\frac{2}{r} - \frac{1}{a}\right)}
+$$
 
 Setting $a = r$ recovers the circular orbit result. For a parabolic escape trajectory
 ($a \to \infty$): $v^2 = 2GM/r$Giving the escape speed.
 
 ### Orbital Speed is Mass-Independent
 
-$$v = \sqrt{\frac{GM}{r}}$$
+$$
+v = \sqrt{\frac{GM}{r}}
+$$
 
 The satellite's mass $m$ cancels. This is the same reason that all objects fall at the same rate in
 a Gravitational field (equivalence principle).
@@ -279,7 +323,9 @@ Every planet moves in an elliptical orbit with the Sun at one focus.
 **Proof sketch.** Starting from $\mathbf{F} = -\frac{GMm}{r^2}\hat{\mathbf{r}}$ (central force), the
 orbit Equation in polar coordinates is:
 
-$$r = \frac{a(1 - e^2)}{1 + e\cos\theta}$$
+$$
+r = \frac{a(1 - e^2)}{1 + e\cos\theta}
+$$
 
 Where $a$ is the semi-major axis and $e$ is the eccentricity. For $E \lt 0$ (bound orbit), $e \lt 1$
 And the orbit is an ellipse with the central mass at one focus. $\square$
@@ -294,7 +340,9 @@ constant.
 
 Area swept in time $dt$: $dA = \frac{1}{2}r \cdot v_\perp\,dt = \frac{L}{2m}\,dt$.
 
-$$\frac{dA}{dt} = \frac{L}{2m} = \mathrm{const}$$
+$$
+\frac{dA}{dt} = \frac{L}{2m} = \mathrm{const}
+$$
 
 $\square$
 
@@ -303,17 +351,25 @@ Consistent with conservation of angular momentum: small $r$ requires large $v_\p
 
 ### Third Law: Law of Periods
 
-$$\boxed{T^2 = \frac{4\pi^2}{GM}\,a^3}$$
+$$
+\boxed{T^2 = \frac{4\pi^2}{GM}\,a^3}
+$$
 
 **Proof for circular orbits.** Equating gravitational and centripetal force:
 
-$$\frac{GMm}{r^2} = \frac{mv^2}{r} \implies v = \sqrt{\frac{GM}{r}}$$
+$$
+\frac{GMm}{r^2} = \frac{mv^2}{r} \implies v = \sqrt{\frac{GM}{r}}
+$$
 
 Since $T = 2\pi r/v$:
 
-$$T = \frac{2\pi r}{\sqrt{GM/r}} = 2\pi\sqrt{\frac{r^3}{GM}}$$
+$$
+T = \frac{2\pi r}{\sqrt{GM/r}} = 2\pi\sqrt{\frac{r^3}{GM}}
+$$
 
-$$T^2 = \frac{4\pi^2 r^3}{GM}$$
+$$
+T^2 = \frac{4\pi^2 r^3}{GM}
+$$
 
 For elliptical orbits, replace $r$ with the semi-major axis $a$. $\square$
 
@@ -329,15 +385,21 @@ equator.
 
 ### Derivation of Orbital Radius
 
-$$r^3 = \frac{GMT^2}{4\pi^2} = \frac{3.98 \times 10^{14} \times (86164)^2}{4\pi^2} = 7.54 \times 10^{22}$$
+$$
+r^3 = \frac{GMT^2}{4\pi^2} = \frac{3.98 \times 10^{14} \times (86164)^2}{4\pi^2} = 7.54 \times 10^{22}
+$$
 
-$$\boxed{r = 4.22 \times 10^7\ \mathrm{m} = 42\,200\ \mathrm{km}}$$
+$$
+\boxed{r = 4.22 \times 10^7\ \mathrm{m} = 42\,200\ \mathrm{km}}
+$$
 
 Altitude above Earth's surface: $h = 42200 - 6370 = 35\,830$ km.
 
 ### Orbital Speed
 
-$$v = \sqrt{\frac{GM}{r}} = \frac{2\pi r}{T} = 3070\ \mathrm{m\,s}^{-1}$$
+$$
+v = \sqrt{\frac{GM}{r}} = \frac{2\pi r}{T} = 3070\ \mathrm{m\,s}^{-1}
+$$
 
 ### Three Necessary and Sufficient Conditions
 
@@ -522,7 +584,9 @@ $R = 6.37 \times 10^6\ \mathrm{m}$, $G = 6.67 \times 10^{-11}\ \mathrm{N\,m^2\,k
 **Solution.** Distance from centre:
 $r = 6.37 \times 10^6 + 3 \times 10^5 = 6.67 \times 10^6\ \mathrm{m}$.
 
-$$g = \frac{GM}{r^2} = \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{(6.67 \times 10^6)^2} = \frac{3.982 \times 10^{14}}{4.449 \times 10^{13}} = 8.95\ \mathrm{m\,s^{-2}}$$
+$$
+g = \frac{GM}{r^2} = \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{(6.67 \times 10^6)^2} = \frac{3.982 \times 10^{14}}{4.449 \times 10^{13}} = 8.95\ \mathrm{m\,s^{-2}}
+$$
 
 This is about 91% of the surface value ($9.81\ \mathrm{m\,s^{-2}}$).
 
@@ -537,9 +601,13 @@ $E_k + E_p = \frac{1}{2}mv_{\mathrm{esc}}^2 - \frac{GMm}{R}$.
 
 At infinity: $E_k = 0$ and $E_p = 0$, so total energy $= 0$.
 
-$$\frac{1}{2}mv_{\mathrm{esc}}^2 = \frac{GMm}{R} \implies v_{\mathrm{esc}} = \sqrt{\frac{2GM}{R}}$$
+$$
+\frac{1}{2}mv_{\mathrm{esc}}^2 = \frac{GMm}{R} \implies v_{\mathrm{esc}} = \sqrt{\frac{2GM}{R}}
+$$
 
-$$v_{\mathrm{esc}} = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.37 \times 10^6}} = \sqrt{1.25 \times 10^8} \approx 11.2\ \mathrm{km\,s^{-1}}$$
+$$
+v_{\mathrm{esc}} = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.37 \times 10^6}} = \sqrt{1.25 \times 10^8} \approx 11.2\ \mathrm{km\,s^{-1}}
+$$
 
 $\blacksquare$
 

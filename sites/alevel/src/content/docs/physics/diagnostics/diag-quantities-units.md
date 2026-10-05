@@ -41,7 +41,9 @@ flowchart TD
 A student proposes the following equation for the drag force $F_D$ on a sphere of radius $r$ moving
 at speed $v$ through a fluid of density $\rho$ and dynamic viscosity $\eta$:
 
-$$F_D = k \, r^n \, v^m \, \rho^p \, \eta^q$$
+$$
+F_D = k \, r^n \, v^m \, \rho^p \, \eta^q
+$$
 
 Where $k$ is a dimensionless constant.
 
@@ -61,11 +63,15 @@ The dimensions of each quantity:
 
 Setting up the dimensional equation:
 
-$$\text{M}\text{L}\text{T}^{-2} = \text{L}^n \cdot (\text{L}\text{T}^{-1})^m \cdot (\text{M}\text{L}^{-3})^p \cdot (\text{M}\text{L}^{-1}\text{T}^{-1})^q$$
+$$
+\text{M}\text{L}\text{T}^{-2} = \text{L}^n \cdot (\text{L}\text{T}^{-1})^m \cdot (\text{M}\text{L}^{-3})^p \cdot (\text{M}\text{L}^{-1}\text{T}^{-1})^q
+$$
 
 Expanding:
 
-$$\text{M}\text{L}\text{T}^{-2} = \text{M}^{p+q} \cdot \text{L}^{n + m - 3p - q} \cdot \text{T}^{-m - q}$$
+$$
+\text{M}\text{L}\text{T}^{-2} = \text{M}^{p+q} \cdot \text{L}^{n + m - 3p - q} \cdot \text{T}^{-m - q}
+$$
 
 Equating exponents for each dimension:
 
@@ -125,14 +131,22 @@ uncertainties.
 
 Central value:
 
-$$l = \frac{9.81 \times 2.00^2}{4\pi^2} = \frac{9.81 \times 4.00}{39.478} = \frac{39.24}{39.478} = 0.9940\,\text{m}$$
+$$
+l = \frac{9.81 \times 2.00^2}{4\pi^2} = \frac{9.81 \times 4.00}{39.478} = \frac{39.24}{39.478} = 0.9940\,\text{m}
+$$
 
 Using the fractional uncertainty method:
 
-$$\frac{\Delta l}{l} = \frac{\Delta g}{g} + 2\frac{\Delta T}{T}$$
-$$\frac{\Delta l}{l} = \frac{0.01}{9.81} + 2 \times \frac{0.02}{2.00} = 0.00102 + 0.0200 = 0.0210$$
+$$
+\frac{\Delta l}{l} = \frac{\Delta g}{g} + 2\frac{\Delta T}{T}
+$$
+$$
+\frac{\Delta l}{l} = \frac{0.01}{9.81} + 2 \times \frac{0.02}{2.00} = 0.00102 + 0.0200 = 0.0210
+$$
 
-$$\Delta l = 0.0210 \times 0.9940 = 0.0209 \approx 0.021\,\text{m}$$
+$$
+\Delta l = 0.0210 \times 0.9940 = 0.0209 \approx 0.021\,\text{m}
+$$
 
 So $l = (0.994 \pm 0.021)\,\text{m}$.
 
@@ -201,7 +215,9 @@ in the last digit $= 0.02\,\text{V}$)
 
 Combined systematic (adding in quadrature):
 
-$$\Delta V = \sqrt{0.0076^2 + 0.02^2} = \sqrt{0.0000578 + 0.0004} = \sqrt{0.000458} = 0.0214 \approx 0.02\,\text{V}$$
+$$
+\Delta V = \sqrt{0.0076^2 + 0.02^2} = \sqrt{0.0000578 + 0.0004} = \sqrt{0.000458} = 0.0214 \approx 0.02\,\text{V}
+$$
 
 So $V = (1.52 \pm 0.02)\,\text{V}$ (to 3 significant figures, matching the resolution of the
 instrument).
@@ -223,7 +239,9 @@ coarse resolution conceals.
 A student derives the following expression for the horizontal range $R$ of a projectile launched at
 angle $\theta$ above the horizontal with initial speed $u$ from a cliff of height $h$:
 
-$$R = \frac{u^2 \sin(2\theta)}{2g}\left(1 + \sqrt{1 + \frac{2gh}{u^2\sin^2\theta}}\right)$$
+$$
+R = \frac{u^2 \sin(2\theta)}{2g}\left(1 + \sqrt{1 + \frac{2gh}{u^2\sin^2\theta}}\right)
+$$
 
 Without deriving this formula, verify it is dimensionally correct.
 
@@ -284,13 +302,19 @@ Recalculate $g$ accounting for this systematic error, and state the total uncert
 
 (a) Central value:
 
-$$g = \frac{v^2}{2d} = \frac{5.40^2}{2 \times 1.500} = \frac{29.16}{3.000} = 9.720\,\text{m}\,\text{s}^{-2}$$
+$$
+g = \frac{v^2}{2d} = \frac{5.40^2}{2 \times 1.500} = \frac{29.16}{3.000} = 9.720\,\text{m}\,\text{s}^{-2}
+$$
 
 Fractional uncertainty:
 
-$$\frac{\Delta g}{g} = 2\frac{\Delta v}{v} + \frac{\Delta d}{d} = 2 \times \frac{0.05}{5.40} + \frac{0.003}{1.500} = 0.01852 + 0.00200 = 0.02052$$
+$$
+\frac{\Delta g}{g} = 2\frac{\Delta v}{v} + \frac{\Delta d}{d} = 2 \times \frac{0.05}{5.40} + \frac{0.003}{1.500} = 0.01852 + 0.00200 = 0.02052
+$$
 
-$$\Delta g = 0.02052 \times 9.720 = 0.1995 \approx 0.20\,\text{m}\,\text{s}^{-2}$$
+$$
+\Delta g = 0.02052 \times 9.720 = 0.1995 \approx 0.20\,\text{m}\,\text{s}^{-2}
+$$
 
 So $g = (9.72 \pm 0.20)\,\text{m}\,\text{s}^{-2}$.
 
@@ -299,17 +323,23 @@ $v_{\text{true}} = v_{\text{measured}} - 0.10 = 5.40 - 0.10 = 5.30\,\text{m}\,\t
 
 The systematic error shifts the central value but does not change the random uncertainty.
 
-$$g_{\text{corrected}} = \frac{5.30^2}{2 \times 1.500} = \frac{28.09}{3.000} = 9.363\,\text{m}\,\text{s}^{-2}$$
+$$
+g_{\text{corrected}} = \frac{5.30^2}{2 \times 1.500} = \frac{28.09}{3.000} = 9.363\,\text{m}\,\text{s}^{-2}
+$$
 
 The random uncertainty remains $\pm 0.20\,\text{m}\,\text{s}^{-2}$ (from part a).
 
 The systematic uncertainty in $g$ due to the systematic error in $v$:
 
-$$\Delta g_{\text{sys}} = \frac{2v \cdot \Delta v_{\text{sys}}}{2d} = \frac{2 \times 5.30 \times 0.10}{3.00} = \frac{1.060}{3.00} = 0.353\,\text{m}\,\text{s}^{-2}$$
+$$
+\Delta g_{\text{sys}} = \frac{2v \cdot \Delta v_{\text{sys}}}{2d} = \frac{2 \times 5.30 \times 0.10}{3.00} = \frac{1.060}{3.00} = 0.353\,\text{m}\,\text{s}^{-2}
+$$
 
 Total uncertainty (random and systematic combined in quadrature):
 
-$$\Delta g_{\text{total}} = \sqrt{0.20^2 + 0.353^2} = \sqrt{0.0400 + 0.1246} = \sqrt{0.1646} = 0.406 \approx 0.41\,\text{m}\,\text{s}^{-2}$$
+$$
+\Delta g_{\text{total}} = \sqrt{0.20^2 + 0.353^2} = \sqrt{0.0400 + 0.1246} = \sqrt{0.1646} = 0.406 \approx 0.41\,\text{m}\,\text{s}^{-2}
+$$
 
 So $g = (9.36 \pm 0.41)\,\text{m}\,\text{s}^{-2}$.
 
@@ -358,7 +388,9 @@ $V_s = \frac{h}{e}f - \frac{\phi}{e}$Which is of the form $y = mx + c$.
 
 Dimensions of the gradient $m = h/e$:
 
-$$[m] = \frac{[h]}{[e]} = \frac{\text{M}\text{L}^2\text{T}^{-1}}{\text{I}\text{T}} = \frac{\text{M}\text{L}^2\text{T}^{-2}}{\text{I}\text{T}^2}$$
+$$
+[m] = \frac{[h]}{[e]} = \frac{\text{M}\text{L}^2\text{T}^{-1}}{\text{I}\text{T}} = \frac{\text{M}\text{L}^2\text{T}^{-2}}{\text{I}\text{T}^2}
+$$
 
 The student's gradient has units of
 $\text{V}\,\text{s} = \frac{\text{J}}{\text{C}} \cdot \text{s} = \frac{\text{kg}\,\text{m}^2\,\text{s}^{-2}}{\text{A}\,\text{s}} \cdot \text{s} = \text{kg}\,\text{m}^2\,\text{s}^{-2}\,\text{A}^{-1}$.
@@ -367,19 +399,25 @@ Dimensions of $h$: $\text{M}\text{L}^2\text{T}^{-1}$
 
 Dimensions of $e$: $\text{I}\text{T}$ (charge $=$ current $\times$ time)
 
-$$\frac{[h]}{[e]} = \frac{\text{M}\text{L}^2\text{T}^{-1}}{\text{I}\text{T}} = \text{M}\text{L}^2\text{T}^{-2}\text{I}^{-1}$$
+$$
+\frac{[h]}{[e]} = \frac{\text{M}\text{L}^2\text{T}^{-1}}{\text{I}\text{T}} = \text{M}\text{L}^2\text{T}^{-2}\text{I}^{-1}
+$$
 
 This matches $\text{kg}\,\text{m}^2\,\text{s}^{-2}\,\text{A}^{-1}$Confirming dimensional
 consistency.
 
 (b) $h = me$:
 
-$$h = 4.2 \times 10^{-15} \times 1.60 \times 10^{-19} = 6.72 \times 10^{-34}\,\text{J}\,\text{s}$$
+$$
+h = 4.2 \times 10^{-15} \times 1.60 \times 10^{-19} = 6.72 \times 10^{-34}\,\text{J}\,\text{s}
+$$
 
 Fractional uncertainty:
 $\frac{\Delta h}{h} = \frac{\Delta m}{m} = \frac{0.2}{4.2} = 0.0476$
 
-$$\Delta h = 0.0476 \times 6.72 \times 10^{-34} = 3.20 \times 10^{-35}\,\text{J}\,\text{s}$$
+$$
+\Delta h = 0.0476 \times 6.72 \times 10^{-34} = 3.20 \times 10^{-35}\,\text{J}\,\text{s}
+$$
 
 So $h = (6.72 \pm 0.32) \times 10^{-34}\,\text{J}\,\text{s}$.
 

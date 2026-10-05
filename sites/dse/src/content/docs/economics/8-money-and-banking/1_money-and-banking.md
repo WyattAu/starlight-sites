@@ -213,21 +213,29 @@ Potential expansion of the money supply from an initial deposit.
 
 **Formula:**
 
-$$\mathrm{Money Multiplier} = \frac{1}{\mathrm{Required Reserve Ratio (rrr)}}$$
+$$
+\mathrm{Money Multiplier} = \frac{1}{\mathrm{Required Reserve Ratio (rrr)}}
+$$
 
 Or equivalently:
 
-$$\mathrm{Maximum increase in deposits} = \frac{\mathrm{Initial deposit}}{\mathrm{Required reserve ratio}}$$
+$$
+\mathrm{Maximum increase in deposits} = \frac{\mathrm{Initial deposit}}{\mathrm{Required reserve ratio}}
+$$
 
 **Example:**
 
 If the required reserve ratio is 10% (rrr = 0.1):
 
-$$\mathrm{Money multiplier} = \frac{1}{0.1} = 10$$
+$$
+\mathrm{Money multiplier} = \frac{1}{0.1} = 10
+$$
 
 An initial deposit of HKD 1,000 can potentially create:
 
-$$\mathrm{Maximum deposits} = \frac{1,000}{0.1} = 10,000$$
+$$
+\mathrm{Maximum deposits} = \frac{1,000}{0.1} = 10,000
+$$
 
 **Step-by-step process:**
 
@@ -242,7 +250,9 @@ $$\mathrm{Maximum deposits} = \frac{1,000}{0.1} = 10,000$$
 
 The total increase in deposits forms a geometric series:
 
-$$\Delta D = 1,000 + 900 + 810 + 729 + \ldots = 1,000 \times \frac{1}{1 - 0.9} = \frac{1,000}{0.1} = 10,000$$
+$$
+\Delta D = 1,000 + 900 + 810 + 729 + \ldots = 1,000 \times \frac{1}{1 - 0.9} = \frac{1,000}{0.1} = 10,000
+$$
 
 <details>
 <summary>Worked Example: Money Creation Step by Step</summary>
@@ -272,13 +282,17 @@ The actual money created is less than the theoretical maximum because:
 
 With a currency drain ratio (c), the money multiplier becomes:
 
-$$m = \frac{1}{rrr + c}$$
+$$
+m = \frac{1}{rrr + c}
+$$
 
 Where $c$ is the proportion of deposits held as cash by the public.
 
 **Example:** If rrr = 0.1 and c = 0.2 (the public holds 20% of deposits as cash):
 
-$$m = \frac{1}{0.1 + 0.2} = \frac{1}{0.3} = 3.33$$
+$$
+m = \frac{1}{0.1 + 0.2} = \frac{1}{0.3} = 3.33
+$$
 
 The money multiplier falls from 10 to 3.33 due to cash leakages.
 
@@ -306,7 +320,9 @@ Different measures of the money supply include different components:
 
 **M1 (Narrow Money):**
 
-$$M1 = \mathrm{Currency in circulation} + \mathrm{Demand deposits}$$
+$$
+M1 = \mathrm{Currency in circulation} + \mathrm{Demand deposits}
+$$
 
 - Currency in circulation: banknotes and coins held by the public
 - Demand deposits: current account balances that can be withdrawn on demand
@@ -314,7 +330,9 @@ $$M1 = \mathrm{Currency in circulation} + \mathrm{Demand deposits}$$
 
 **M2 (Broad Money):**
 
-$$M2 = M1 + \mathrm{Savings deposits} + \mathrm{Time deposits}$$
+$$
+M2 = M1 + \mathrm{Savings deposits} + \mathrm{Time deposits}
+$$
 
 - Includes M1 plus less liquid deposits (savings accounts, fixed deposits)
 - Savings and time deposits cannot be withdrawn on demand without penalty (less liquid)
@@ -404,9 +422,13 @@ Reserves (not lend out).
 
 **Example:** If the reserve ratio is raised from 10% to 20%:
 
-$$m_{\mathrm{old}} = \frac{1}{0.1} = 10$$
+$$
+m_{\mathrm{old}} = \frac{1}{0.1} = 10
+$$
 
-$$m_{\mathrm{new}} = \frac{1}{0.2} = 5$$
+$$
+m_{\mathrm{new}} = \frac{1}{0.2} = 5
+$$
 
 The money multiplier falls from 10 to 5, significantly reducing the potential for credit creation.
 
@@ -540,17 +562,23 @@ Borrowed amount) that must be paid as interest per period ( per year).
 
 **Real interest rate:** The nominal interest rate adjusted for inflation.
 
-$$\mathrm{Real interest rate} \approx \mathrm{Nominal interest rate} - \mathrm{Inflation rate}$$
+$$
+\mathrm{Real interest rate} \approx \mathrm{Nominal interest rate} - \mathrm{Inflation rate}
+$$
 
 More precisely (Fisher equation):
 
-$$(1 + r) = \frac{(1 + i)}{(1 + \pi)}$$
+$$
+(1 + r) = \frac{(1 + i)}{(1 + \pi)}
+$$
 
 Where $r$ = real interest rate, $i$ = nominal interest rate, $\pi$ = inflation rate.
 
 For small values of inflation:
 
-$$r \approx i - \pi$$
+$$
+r \approx i - \pi
+$$
 
 **Example:** If the nominal interest rate is 5% and inflation is 2%:
 
@@ -702,7 +730,9 @@ Per bank.
 1. **Confusing the money multiplier formula direction:** The money multiplier is the RECIPROCAL of
    the reserve ratio. A higher reserve ratio means a LOWER money multiplier, not a higher one.
 
-   $$m = \frac{1}{rrr}$$
+   $$
+   m = \frac{1}{rrr}
+   $$
 
 If rrr = 0.2, then $m = 5$Not 0.2.
 
@@ -857,9 +887,13 @@ While the nominal rate stays at 6%, what happens to the real rate? Who benefits 
 
 Exact real interest rate (Fisher equation):
 
-$$(1 + r) = \frac{(1 + 0.06)}{(1 + 0.04)} = \frac{1.06}{1.04} = 1.01923$$
+$$
+(1 + r) = \frac{(1 + 0.06)}{(1 + 0.04)} = \frac{1.06}{1.04} = 1.01923
+$$
 
-$$r = 1.01923 - 1 = 0.01923 = 1.923\%$$
+$$
+r = 1.01923 - 1 = 0.01923 = 1.923\%
+$$
 
 (b) With inflation at 8%:
 
@@ -1000,14 +1034,20 @@ The saver receives HKD 103,000.
 
 Using the exact Fisher equation:
 
-$$(1 + r) = \frac{1.03}{1.05} = 0.98095$$
+$$
+(1 + r) = \frac{1.03}{1.05} = 0.98095
+$$
 
-$$r = -0.01905 = -1.905\%$$
+$$
+r = -0.01905 = -1.905\%
+$$
 
 (c) The saver has LOST purchasing power. Although the nominal amount increased by HKD 3,000, the
 Purchasing power of HKD 103,000 after inflation is:
 
-$$\mathrm{Real value} = \frac{103,000}{1.05} = 98,095.24$$
+$$
+\mathrm{Real value} = \frac{103,000}{1.05} = 98,095.24
+$$
 
 The saver's real purchasing power has fallen from HKD 100,000 to approximately HKD 98,095 -- a loss
 Of about HKD 1,905. The negative real interest rate means inflation has eroded the value of the
@@ -1026,7 +1066,9 @@ Supply. (c) Explain why the actual increase would likely be less than this maxim
 
 (a) With cash leakages, the effective money multiplier is:
 
-$$m = \frac{1}{rrr + c} = \frac{1}{0.10 + 0.15} = \frac{1}{0.25} = 4$$
+$$
+m = \frac{1}{rrr + c} = \frac{1}{0.10 + 0.15} = \frac{1}{0.25} = 4
+$$
 
 (b) Maximum increase in money supply = $10,000 \times 4 = 40,000$
 

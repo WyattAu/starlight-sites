@@ -268,9 +268,13 @@ period.
 <details>
 <summary>Solution</summary>
 
-$$f = \frac{v}{\lambda} = \frac{340}{0.68} = 500 \mathrm{ Hz}$$
+$$
+f = \frac{v}{\lambda} = \frac{340}{0.68} = 500 \mathrm{ Hz}
+$$
 
-$$T = \frac{1}{f} = \frac{1}{500} = 0.002 \mathrm{ s} = 2.0 \mathrm{ ms}$$
+$$
+T = \frac{1}{f} = \frac{1}{500} = 0.002 \mathrm{ s} = 2.0 \mathrm{ ms}
+$$
 
 </details>
 
@@ -282,7 +286,9 @@ it hits the ground, neglecting air resistance.
 <details>
 <summary>Solution</summary>
 
-$$mgh = \frac{1}{2}mv^2 \implies v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 10} = \sqrt{196.2} = 14.0 \mathrm{ m/s}$$
+$$
+mgh = \frac{1}{2}mv^2 \implies v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 10} = \sqrt{196.2} = 14.0 \mathrm{ m/s}
+$$
 
 </details>
 
@@ -294,7 +300,9 @@ Is heated from $20^\circ\mathrm{C}$ to $100^\circ\mathrm{C}$. Find the energy re
 <details>
 <summary>Solution</summary>
 
-$$Q = mc\Delta T = 2 \times 900 \times (100 - 20) = 2 \times 900 \times 80 = 144000 \mathrm{ J} = 144 \mathrm{ kJ}$$
+$$
+Q = mc\Delta T = 2 \times 900 \times (100 - 20) = 2 \times 900 \times 80 = 144000 \mathrm{ J} = 144 \mathrm{ kJ}
+$$
 
 </details>
 
@@ -344,7 +352,9 @@ maximum height reached and the total time in the air.
 
 Maximum height: using $v^2 = u^2 + 2as$ with $v = 0$:
 
-$$h = \frac{u^2}{2g} = \frac{225}{19.62} = 11.5 \mathrm{ m}$$
+$$
+h = \frac{u^2}{2g} = \frac{225}{19.62} = 11.5 \mathrm{ m}
+$$
 
 Time to reach max height: $t = \frac{u}{g} = \frac{15}{9.81} = 1.53 \mathrm{ s}$
 
@@ -365,7 +375,9 @@ Normal force: $N = mg - F\sin 30^\circ = 49.05 - 20 = 29.05 \mathrm{ N}$
 
 Friction: $f_k = 0.4 \times 29.05 = 11.62 \mathrm{ N}$
 
-$$a = \frac{F\cos 30^\circ - f_k}{m} = \frac{34.64 - 11.62}{5} = \frac{23.02}{5} = 4.60 \mathrm{ m/s}^2$$
+$$
+a = \frac{F\cos 30^\circ - f_k}{m} = \frac{34.64 - 11.62}{5} = \frac{23.02}{5} = 4.60 \mathrm{ m/s}^2
+$$
 
 </details>
 
@@ -381,7 +393,9 @@ Find the total current from the battery.
 Parallel resistance:
 $\frac{1}{R_p} = \frac{1}{2} + \frac{1}{3} + \frac{1}{6} = 1 \implies R_p = 1 \Omega$
 
-$$I = \frac{\varepsilon}{R_p + r} = \frac{6}{1 + 0.5} = \frac{6}{1.5} = 4.0 \mathrm{ A}$$
+$$
+I = \frac{\varepsilon}{R_p + r} = \frac{6}{1 + 0.5} = \frac{6}{1.5} = 4.0 \mathrm{ A}
+$$
 
 </details>
 
@@ -393,7 +407,9 @@ Which region of the EM spectrum does it belong to?
 <details>
 <summary>Solution</summary>
 
-$$\lambda = \frac{c}{f} = \frac{3.0 \times 10^8}{3.0 \times 10^8} = 1.0 \mathrm{ m}$$
+$$
+\lambda = \frac{c}{f} = \frac{3.0 \times 10^8}{3.0 \times 10^8} = 1.0 \mathrm{ m}
+$$
 
 A wavelength of $1.0 \mathrm{ m}$ places this in the **radio wave** region of the EM spectrum.
 
@@ -430,17 +446,29 @@ Water $= 4200 \mathrm{ J/(kg\cdot}^\circ C)}$)
 
 Heat lost by copper = Heat gained by water:
 
-$$m_c c_c (100 - T_f) = m_w c_w (T_f - 20)$$
+$$
+m_c c_c (100 - T_f) = m_w c_w (T_f - 20)
+$$
 
-$$0.2 \times 390 \times (100 - T_f) = 0.3 \times 4200 \times (T_f - 20)$$
+$$
+0.2 \times 390 \times (100 - T_f) = 0.3 \times 4200 \times (T_f - 20)
+$$
 
-$$78(100 - T_f) = 1260(T_f - 20)$$
+$$
+78(100 - T_f) = 1260(T_f - 20)
+$$
 
-$$7800 - 78T_f = 1260T_f - 25200$$
+$$
+7800 - 78T_f = 1260T_f - 25200
+$$
 
-$$33000 = 1338T_f$$
+$$
+33000 = 1338T_f
+$$
 
-$$T_f = 24.7^\circ\mathrm{C}$$
+$$
+T_f = 24.7^\circ\mathrm{C}
+$$
 
 </details>
 
@@ -453,9 +481,13 @@ induced EMF.
 <details>
 <summary>Solution</summary>
 
-$$\Delta\Phi = BA = 0.4 \times 0.005 = 0.002 \mathrm{ Wb}$$
+$$
+\Delta\Phi = BA = 0.4 \times 0.005 = 0.002 \mathrm{ Wb}
+$$
 
-$$\varepsilon = N\frac{\Delta\Phi}{\Delta t} = 100 \times \frac{0.002}{0.02} = 100 \times 0.1 = 10.0 \mathrm{ V}$$
+$$
+\varepsilon = N\frac{\Delta\Phi}{\Delta t} = 100 \times \frac{0.002}{0.02} = 100 \times 0.1 = 10.0 \mathrm{ V}
+$$
 
 </details>
 
@@ -469,9 +501,13 @@ What is the intensity level at $12 \mathrm{ m}$ from the source?
 
 Intensity follows inverse square law: $I_2 = I_1 \times (3/12)^2 = I_1/16$
 
-$$\beta_2 = 10\log_{10}(I_2/I_0) = 10\log_{10}(I_1/(16I_0)) = 10\log_{10}(I_1/I_0) - 10\log_{10}(16)$$
+$$
+\beta_2 = 10\log_{10}(I_2/I_0) = 10\log_{10}(I_1/(16I_0)) = 10\log_{10}(I_1/I_0) - 10\log_{10}(16)
+$$
 
-$$\beta_2 = 70 - 10 \times 1.204 = 70 - 12.0 = 58.0 \mathrm{ dB}$$
+$$
+\beta_2 = 70 - 10 \times 1.204 = 70 - 12.0 = 58.0 \mathrm{ dB}
+$$
 
 </details>
 
@@ -517,22 +553,34 @@ $L = (25.0 \pm 0.5) \mathrm{ cm}$.
 
 For addition/subtraction: add absolute uncertainties.
 
-$$z = x + y \implies \Delta z = \Delta x + \Delta y$$
+$$
+z = x + y \implies \Delta z = \Delta x + \Delta y
+$$
 
 For multiplication/division and powers: add percentage uncertainties in quadrature.
 
-$$z = x^a y^b \implies \frac{\Delta z}{z} = \sqrt{\left(a\frac{\Delta x}{x}\right)^2 + \left(b\frac{\Delta y}{y}\right)^2}$$
+$$
+z = x^a y^b \implies \frac{\Delta z}{z} = \sqrt{\left(a\frac{\Delta x}{x}\right)^2 + \left(b\frac{\Delta y}{y}\right)^2}
+$$
 
 **Example:** $A = \frac{1}{2}mv^2$ with $m = (0.200 \pm 0.002) \mathrm{ kg}$,
 $v = (3.0 \pm 0.1) \mathrm{ m/s}$:
 
-$$A = \frac{1}{2}(0.200)(3.0)^2 = 0.90 \mathrm{ J}$$
+$$
+A = \frac{1}{2}(0.200)(3.0)^2 = 0.90 \mathrm{ J}
+$$
 
-$$\frac{\Delta A}{A} = \sqrt{\left(\frac{0.002}{0.200}\right)^2 + \left(2 \times \frac{0.1}{3.0}\right)^2} = \sqrt{0.0001 + 0.0044} = \sqrt{0.0045} = 6.7\%$$
+$$
+\frac{\Delta A}{A} = \sqrt{\left(\frac{0.002}{0.200}\right)^2 + \left(2 \times \frac{0.1}{3.0}\right)^2} = \sqrt{0.0001 + 0.0044} = \sqrt{0.0045} = 6.7\%
+$$
 
-$$\Delta A = 0.067 \times 0.90 = 0.06 \mathrm{ J}$$
+$$
+\Delta A = 0.067 \times 0.90 = 0.06 \mathrm{ J}
+$$
 
-$$A = (0.90 \pm 0.06) \mathrm{ J}$$
+$$
+A = (0.90 \pm 0.06) \mathrm{ J}
+$$
 
 ### Graphical Analysis
 
@@ -671,11 +719,17 @@ energy stored.
 <details>
 <summary>Solution</summary>
 
-$$\mathrm{Stress} = E \times \mathrm{strain} = 2.0 \times 10^{11} \times \frac{1.0 \times 10^{-3}}{2.0} = 1.0 \times 10^{8} \mathrm{ Pa}$$
+$$
+\mathrm{Stress} = E \times \mathrm{strain} = 2.0 \times 10^{11} \times \frac{1.0 \times 10^{-3}}{2.0} = 1.0 \times 10^{8} \mathrm{ Pa}
+$$
 
-$$F = \mathrm{Stress} \times A = 1.0 \times 10^{8} \times 2.0 \times 10^{-6} = 200 \mathrm{ N}$$
+$$
+F = \mathrm{Stress} \times A = 1.0 \times 10^{8} \times 2.0 \times 10^{-6} = 200 \mathrm{ N}
+$$
 
-$$E_p = \frac{1}{2}Fx = \frac{1}{2} \times 200 \times 1.0 \times 10^{-3} = 0.10 \mathrm{ J}$$
+$$
+E_p = \frac{1}{2}Fx = \frac{1}{2} \times 200 \times 1.0 \times 10^{-3} = 0.10 \mathrm{ J}
+$$
 
 </details>
 
@@ -690,13 +744,19 @@ activity to fall to $50 \mathrm{ Bq}$.
 
 After $20 \mathrm{ years}$: number of half-lives $= 20/5.0 = 4$
 
-$$A = A_0 \times \left(\frac{1}{2}\right)^4 = 800 \times \frac{1}{16} = 50 \mathrm{ Bq}$$
+$$
+A = A_0 \times \left(\frac{1}{2}\right)^4 = 800 \times \frac{1}{16} = 50 \mathrm{ Bq}
+$$
 
 For $A = 50 \mathrm{ Bq}$: $50 = 800 \times (1/2)^{t/5}$
 
-$$(1/2)^{t/5} = 50/800 = 1/16 = (1/2)^4$$
+$$
+(1/2)^{t/5} = 50/800 = 1/16 = (1/2)^4
+$$
 
-$$t/5 = 4 \implies t = 20 \mathrm{ years}$$
+$$
+t/5 = 4 \implies t = 20 \mathrm{ years}
+$$
 
 (This is consistent: after 4 half-lives, the activity is $1/16$ of the original.)
 
@@ -711,7 +771,9 @@ the slit separation.
 <details>
 <summary>Solution</summary>
 
-$$\Delta y = \frac{\lambda D}{d} \implies d = \frac{\lambda D}{\Delta y} = \frac{600 \times 10^{-9} \times 1.5}{0.80 \times 10^{-3}} = \frac{9.0 \times 10^{-7}}{8.0 \times 10^{-4}} = 1.125 \times 10^{-3} \mathrm{ m} = 1.13 \mathrm{ mm}$$
+$$
+\Delta y = \frac{\lambda D}{d} \implies d = \frac{\lambda D}{\Delta y} = \frac{600 \times 10^{-9} \times 1.5}{0.80 \times 10^{-3}} = \frac{9.0 \times 10^{-7}}{8.0 \times 10^{-4}} = 1.125 \times 10^{-3} \mathrm{ m} = 1.13 \mathrm{ mm}
+$$
 
 </details>
 
@@ -726,13 +788,19 @@ Magnification, and nature.
 
 For a convex mirror, $f = -15 \mathrm{ cm}$ (real-is-positive convention).
 
-$$\frac{1}{v} + \frac{1}{u} = \frac{1}{f} \implies \frac{1}{v} = \frac{1}{-15} - \frac{1}{25} = -\frac{1}{15} - \frac{1}{25} = \frac{-5 - 3}{75} = -\frac{8}{75}$$
+$$
+\frac{1}{v} + \frac{1}{u} = \frac{1}{f} \implies \frac{1}{v} = \frac{1}{-15} - \frac{1}{25} = -\frac{1}{15} - \frac{1}{25} = \frac{-5 - 3}{75} = -\frac{8}{75}
+$$
 
-$$v = -9.38 \mathrm{ cm}$$
+$$
+v = -9.38 \mathrm{ cm}
+$$
 
 The image is virtual ($v < 0$), $9.38 \mathrm{ cm}$ behind the mirror.
 
-$$m = -\frac{v}{u} = -\frac{-9.38}{25} = 0.375$$
+$$
+m = -\frac{v}{u} = -\frac{-9.38}{25} = 0.375
+$$
 
 Image height: $h_i = 0.375 \times 4.0 = 1.50 \mathrm{ cm}$
 

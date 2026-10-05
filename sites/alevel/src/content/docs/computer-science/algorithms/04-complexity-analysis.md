@@ -28,31 +28,43 @@ Let $f, g: \mathbb{N} \to \mathbb{R}^+$ be functions.
 
 #### Big-O (Upper Bound)
 
-$$f(n) = O(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \leq c \cdot g(n)\ \forall\, n \geq n_0$$
+$$
+f(n) = O(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \leq c \cdot g(n)\ \forall\, n \geq n_0
+$$
 
 **Intuition:** $f$ is eventually bounded above by a constant multiple of $g$.
 
 #### Big-Omega (Lower Bound)
 
-$$f(n) = \Omega(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \geq c \cdot g(n)\ \forall\, n \geq n_0$$
+$$
+f(n) = \Omega(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \geq c \cdot g(n)\ \forall\, n \geq n_0
+$$
 
 **Intuition:** $f$ is eventually bounded below by a constant multiple of $g$.
 
 #### Big-Theta (Tight Bound)
 
-$$f(n) = \Theta(g(n)) \iff f(n) = O(g(n)) \land f(n) = \Omega(g(n))$$
+$$
+f(n) = \Theta(g(n)) \iff f(n) = O(g(n)) \land f(n) = \Omega(g(n))
+$$
 
-$$\iff \exists\, c_1, c_2 > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)\ \forall\, n \geq n_0$$
+$$
+\iff \exists\, c_1, c_2 > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)\ \forall\, n \geq n_0
+$$
 
 **Intuition:** $f$ grows at the same rate as $g$Up to constant factors.
 
 #### Little-o (Strict Upper Bound)
 
-$$f(n) = o(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$$
+$$
+f(n) = o(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = 0
+$$
 
 #### Little-omega (Strict Lower Bound)
 
-$$f(n) = \omega(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$$
+$$
+f(n) = \omega(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty
+$$
 
 <hr />
 
@@ -60,19 +72,27 @@ $$f(n) = \omega(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$$
 
 **Theorem.** For polynomial-exponential functions, the following hierarchy holds:
 
-$$O(1) \subset o(\log n) \subset O(\log n) \subset o(\sqrt{n}) \subset O(\sqrt{n}) \subset o(n) \subset O(n) \subset o(n \log n) \subset O(n \log n) \subset o(n^2) \subset O(n^2) \subset \cdots \subset O(2^n) \subset o(n!)$$
+$$
+O(1) \subset o(\log n) \subset O(\log n) \subset o(\sqrt{n}) \subset O(\sqrt{n}) \subset o(n) \subset O(n) \subset o(n \log n) \subset O(n \log n) \subset o(n^2) \subset O(n^2) \subset \cdots \subset O(2^n) \subset o(n!)
+$$
 
 **Proof (selected).** We prove $n = o(n \log n)$:
 
-$$\lim_{n \to \infty} \frac{n}{n \log n} = \lim_{n \to \infty} \frac{1}{\log n} = 0$$
+$$
+\lim_{n \to \infty} \frac{n}{n \log n} = \lim_{n \to \infty} \frac{1}{\log n} = 0
+$$
 
 Similarly, $\log n = o(n)$:
 
-$$\lim_{n \to \infty} \frac{\log n}{n} = 0 \quad \mathrm{(by L"Hôpital's rule)}$$
+$$
+\lim_{n \to \infty} \frac{\log n}{n} = 0 \quad \mathrm{(by L"Hôpital's rule)}
+$$
 
 And $n^k = o(2^n)$ for any constant $k$:
 
-$$\lim_{n \to \infty} \frac{n^k}{2^n} = 0 \quad \mathrm{(exponential dominates polynomial)}$$
+$$
+\lim_{n \to \infty} \frac{n^k}{2^n} = 0 \quad \mathrm{(exponential dominates polynomial)}
+$$
 
 $\square$
 
@@ -195,7 +215,9 @@ Credit accumulated from the $k$ insertions.
 Define a **potential function** $\Phi$ mapping data structure states to non-negative real numbers.
 The amortised cost of operation $i$ is:
 
-$$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$
+$$
+\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})
+$$
 
 Total amortised cost: $\sum_{i=1}^{n} \hat{c}_i = \sum_{i=1}^{n} c_i + \Phi(D_n) - \Phi(D_0)$
 
@@ -404,7 +426,9 @@ First simplify: $2^{\log n} = n$ (assuming $\log$ is base 2).
 
 Growth rates (slowest to fastest):
 
-$$\log^2 n < n^{0.5} < n = 2^{\log n} < n \log n < n^3 < 2^n < n!$$
+$$
+\log^2 n < n^{0.5} < n = 2^{\log n} < n \log n < n^3 < 2^n < n!
+$$
 
 **Verification of selected orderings:**
 
@@ -688,18 +712,24 @@ $k$ comparisons, the range size is at most $n / 2^k$. When does this become less
 
 The algorithm terminates when the range has fewer than 1 element:
 
-$$\frac{n}{2^k} < 1 \implies 2^k > n \implies k > \log_2 n$$
+$$
+\frac{n}{2^k} < 1 \implies 2^k > n \implies k > \log_2 n
+$$
 
 So the maximum number of iterations is $\lfloor \log_2 n \rfloor + 1 = O(\log n)$.
 
 **Formal derivation using the Master Theorem:**
 
-$$T(n) = T(n/2) + O(1), \quad T(1) = O(1)$$
+$$
+T(n) = T(n/2) + O(1), \quad T(1) = O(1)
+$$
 
 Here $a = 1$$b = 2$$c = \log_2 1 = 0$. Since $f(n) = O(1) = O(n^0) = O(n^c)$This is Master Theorem
 Case 2 with $k = 0$:
 
-$$T(n) = \Theta(n^c \log^{k+1} n) = \Theta(\log n)$$
+$$
+T(n) = \Theta(n^c \log^{k+1} n) = \Theta(\log n)
+$$
 
 **Why log n is efficient:** $\log_2 n$ grows extremely slowly. For $n = 10^9$ (one billion),
 $\log_2 n
@@ -733,7 +763,9 @@ With $n/2$. This gives $T(n) = T(n/2) + O(n)$. Apply the Master Theorem.
 
 **Recurrence relation:**
 
-$$T(n) = T(n/2) + O(n), \quad T(0) = O(1)$$
+$$
+T(n) = T(n/2) + O(n), \quad T(0) = O(1)
+$$
 
 The $O(n)$ term comes from the for loop that iterates `n` times. The recursive call passes $n // 2$.
 
@@ -748,9 +780,13 @@ This is **Case 3** of the Master Theorem: $T(n) = \Theta(f(n)) = \Theta(n)$.
 
 **Verification by expansion:**
 
-$$T(n) = n + T(n/2) = n + n/2 + T(n/4) = n + n/2 + n/4 + \cdots + 1$$
+$$
+T(n) = n + T(n/2) = n + n/2 + T(n/4) = n + n/2 + n/4 + \cdots + 1
+$$
 
-$$= n\left(1 + \frac{1}{2} + \frac{1}{4} + \cdots\right) = n \cdot 2 = 2n = O(n)$$
+$$
+= n\left(1 + \frac{1}{2} + \frac{1}{4} + \cdots\right) = n \cdot 2 = 2n = O(n)
+$$
 
 **Time complexity: $O(n)$.**
 
@@ -815,7 +851,9 @@ Inversion count is accumulated during the merge step without changing the merge 
 
 Algorithm Q is significantly more efficient. The ratio is:
 
-$$\frac{n^2/2}{n \log n} = \frac{n}{2 \log_2 n} = \frac{10\,000}{2 \times 13.3} \approx 376$$
+$$
+\frac{n^2/2}{n \log n} = \frac{n}{2 \log_2 n} = \frac{10\,000}{2 \times 13.3} \approx 376
+$$
 
 Algorithm Q is approximately **376 times faster** than Algorithm P for $n = 10\,000$.
 

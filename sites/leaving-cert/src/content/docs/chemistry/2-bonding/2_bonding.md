@@ -91,7 +91,9 @@ The lone pair on nitrogen forms a dative bond with the hydrogen ion.
 
 **Example (HL):** Formation of the aluminium hexaaqua ion:
 
-$$\mathrm{Al^{3+} + 6\mathrm{H_2\mathrm{O \to [\mathrm{Al(\mathrm{H_2\mathrm{O)_6]^{3+}$$
+$$
+\mathrm{Al^{3+} + 6\mathrm{H_2\mathrm{O \to [\mathrm{Al(\mathrm{H_2\mathrm{O)_6]^{3+}
+$$
 
 Each water molecule donates a lone pair from oxygen to form a dative bond with $\mathrm{Al^{3+}$.
 
@@ -468,7 +470,9 @@ Molecular orbitals that belong to the molecule as a whole.
 
 For $\mathrm{O_2$ (and heavier diatomic molecules), the energy ordering is:
 
-$$\sigma_{1s} < \sigma_{1s}^* < \sigma_{2s} < \sigma_{2s}^* < \sigma_{2p_z} < \pi_{2p_x} = \pi_{2p_y} < \pi_{2p_x}^* = \pi_{2p_y}^* < \sigma_{2p_z}^*$$
+$$
+\sigma_{1s} < \sigma_{1s}^* < \sigma_{2s} < \sigma_{2s}^* < \sigma_{2p_z} < \pi_{2p_x} = \pi_{2p_y} < \pi_{2p_x}^* = \pi_{2p_y}^* < \sigma_{2p_z}^*
+$$
 
 $\mathrm{O_2$ has 12 valence electrons. The last two electrons go into the degenerate $\pi^*$
 Orbitals with parallel spins (Hund's rule), making $\mathrm{O_2$ paramagnetic (has unpaired
@@ -476,7 +480,9 @@ Electrons).
 
 **Bond order:**
 
-$$\mathrm{Bond order = \frac{\mathrm{bonding electrons - \mathrm{antibonding electrons}{2}$$
+$$
+\mathrm{Bond order = \frac{\mathrm{bonding electrons - \mathrm{antibonding electrons}{2}
+$$
 
 For $\mathrm{O_2$: $\mathrm{BO = (8 - 4)/2 = 2$.
 
@@ -604,7 +610,9 @@ $4 \times \mathrm{C-H + 2 \times \mathrm{O=O = 4(412) + 2(496) = 1648 + 992 = 26
 Bonds formed:
 $2 \times \mathrm{C=O + 4 \times \mathrm{O-H = 2(743) + 4(463) = 1486 + 1852 = 3338 \mathrm{ kJ/mol$.
 
-$$\Delta H = 2640 - 3338 = -698 \mathrm{ kJ/mol$$
+$$
+\Delta H = 2640 - 3338 = -698 \mathrm{ kJ/mol
+$$
 
 The reaction is exothermic, consistent with combustion.
 
@@ -800,7 +808,9 @@ Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen 
 
 ### Formal Charge
 
-$$\mathrm{Formal charge = \mathrm{valence electrons - \mathrm{non-bonding electrons - \frac{1}{2}\mathrm{bonding electrons$$
+$$
+\mathrm{Formal charge = \mathrm{valence electrons - \mathrm{non-bonding electrons - \frac{1}{2}\mathrm{bonding electrons
+$$
 
 The best Lewis structure minimises formal charges and places negative formal charge on the most
 Electronegative atoms.

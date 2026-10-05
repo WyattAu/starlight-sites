@@ -22,27 +22,37 @@ date: 2026-04-08T00:00:00.000Z
 The relative atomic mass of an element is the weighted average mass of one atom of the element
 Relative to $1/12$ the mass of one atom of carbon-12.
 
-$$A_r = \frac{\mathrm{average mass of one atom of the element}}{\frac{1}{12} \times \mathrm{mass of one atom of }^{12}\mathrm{C}}$$
+$$
+A_r = \frac{\mathrm{average mass of one atom of the element}}{\frac{1}{12} \times \mathrm{mass of one atom of }^{12}\mathrm{C}}
+$$
 
 It is a dimensionless quantity. For elements with isotopes:
 
-$$A_r = \sum (\mathrm{isotope abundance} \times \mathrm{isotope mass})$$
+$$
+A_r = \sum (\mathrm{isotope abundance} \times \mathrm{isotope mass})
+$$
 
 **Worked example:** Chlorine has two isotopes: $^{35}\mathrm{Cl}$ (75.77%) and $^{37}\mathrm{Cl}$
 (24.23%).
 
-$$A_r(\mathrm{Cl}) = 0.7577 \times 35 + 0.2423 \times 37 = 26.520 + 8.965 = 35.49$$
+$$
+A_r(\mathrm{Cl}) = 0.7577 \times 35 + 0.2423 \times 37 = 26.520 + 8.965 = 35.49
+$$
 
 ### Relative Molecular Mass ($M_r$)
 
 The relative molecular mass of a compound is the sum of the relative atomic masses of all atoms in
 The molecule.
 
-$$M_r(\mathrm{H}_2\mathrm{SO}_4) = 2(1.0) + 32.1 + 4(16.0) = 98.1$$
+$$
+M_r(\mathrm{H}_2\mathrm{SO}_4) = 2(1.0) + 32.1 + 4(16.0) = 98.1
+$$
 
 For ionic compounds, the term **relative formula mass** is used, calculated the same way.
 
-$$M_r(\mathrm{NaCl}) = 23.0 + 35.5 = 58.5$$
+$$
+M_r(\mathrm{NaCl}) = 23.0 + 35.5 = 58.5
+$$
 
 :::note
 Mg = 24.3, Al = 27.0, S = 32.1, Cl = 35.5, K = 39.1, Ca = 40.1, Fe = 55.8, Cu = 63.5, Zn = 65.4.
@@ -66,7 +76,9 @@ Mg = 24.3, Al = 27.0, S = 32.1, Cl = 35.5, K = 39.1, Ca = 40.1, Fe = 55.8, Cu = 
 The mole is the SI unit for amount of substance. One mole contains exactly
 $6.02214076 \times 10^{23}$ elementary entities (atoms, molecules, ions, etc.).
 
-$$n = \frac{N}{N_A}$$
+$$
+n = \frac{N}{N_A}
+$$
 
 Where $n$ = amount in moles, $N$ = number of particles,
 $N_A = 6.02 \times 10^{23} \mathrm{ mol}^{-1}$.
@@ -76,7 +88,9 @@ $N_A = 6.02 \times 10^{23} \mathrm{ mol}^{-1}$.
 The molar mass is the mass of one mole of a substance, numerically equal to $A_r$ or $M_r$ but with
 Unit g/mol.
 
-$$n = \frac{m}{M}$$
+$$
+n = \frac{m}{M}
+$$
 
 | Substance         | Formula                     | $M_r$ | Molar Mass  |
 | ----------------- | --------------------------- | ----- | ----------- |
@@ -96,7 +110,9 @@ At room temperature and pressure (RTP:
 $25^\circ\mathrm{C}$1 atm), one mole occupies **24.0
 Dm$^3$\*\*.
 
-$$n = \frac{V}{V_m}$$
+$$
+n = \frac{V}{V_m}
+$$
 
 Where $V_m$ = 22.4 dm$^3$/mol (STP) or 24.0 dm$^3$/mol (RTP).
 
@@ -125,7 +141,9 @@ The empirical formula gives the simplest whole-number ratio of atoms in a compou
 
 The molecular formula gives the actual number of atoms of each element in one molecule.
 
-$$\mathrm{Molecular formula} = (\mathrm{Empirical formula})_n$$
+$$
+\mathrm{Molecular formula} = (\mathrm{Empirical formula})_n
+$$
 
 Where $n = \dfrac{M_r \mathrm{ (molecular)}}{M_r \mathrm{ (empirical)}}$.
 
@@ -169,7 +187,9 @@ Molecular formula = $(\mathrm{CH}_2\mathrm{O})_6 = \mathrm{C}_6\mathrm{H}_{12}\m
 
 ### Percentage Composition
 
-$$\%\mathrm{ element} = \frac{n \times A_r}{M_r} \times 100\%$$
+$$
+\%\mathrm{ element} = \frac{n \times A_r}{M_r} \times 100\%
+$$
 
 **Worked example 3:** Calculate the percentage by mass of nitrogen in ammonium nitrate,
 $\mathrm{NH}_4\mathrm{NO}_3$.
@@ -227,17 +247,23 @@ Formula = $\mathrm{CuSO}_4 \cdot 5\mathrm{H}_2\mathrm{O}$
 
 Molarity (molar concentration) is the number of moles of solute per unit volume of solution.
 
-$$c = \frac{n}{V}$$
+$$
+c = \frac{n}{V}
+$$
 
 Units: mol/dm$^3$ (also written as M).
 
 Note: $1 \mathrm{ dm}^3 = 1000 \mathrm{ cm}^3$.
 
-$$c \mathrm{ (mol/dm}^3) = \frac{n \mathrm{ (mol)}}{V \mathrm{ (dm}^3)} = \frac{n \times 1000}{V \mathrm{ (cm}^3)}$$
+$$
+c \mathrm{ (mol/dm}^3) = \frac{n \mathrm{ (mol)}}{V \mathrm{ (dm}^3)} = \frac{n \times 1000}{V \mathrm{ (cm}^3)}
+$$
 
 ### Mass Concentration
 
-$$\mathrm{Concentration (g/dm}^3) = \frac{m \mathrm{ (g)}}{V \mathrm{ (dm}^3)}$$
+$$
+\mathrm{Concentration (g/dm}^3) = \frac{m \mathrm{ (g)}}{V \mathrm{ (dm}^3)}
+$$
 
 Relationship: $\mathrm{g/dm}^3 = \mathrm{mol/dm}^3 \times M_r$
 
@@ -257,7 +283,9 @@ Concentration = $0.50 \times 40.0 = 20.0 \mathrm{ g/dm}^3$
 
 Molality is the number of moles of solute per kilogram of solvent (not solution).
 
-$$b = \frac{n}{m_{\mathrm{solvent}}}$$
+$$
+b = \frac{n}{m_{\mathrm{solvent}}}
+$$
 
 Units: mol/kg.
 
@@ -281,7 +309,9 @@ Molality = $0.100 / 0.500 = 0.200 \mathrm{ mol/kg}$
 
 When diluting a solution, the number of moles of solute remains constant.
 
-$$c_1 V_1 = c_2 V_2$$
+$$
+c_1 V_1 = c_2 V_2
+$$
 
 **Worked example 7:** How would you prepare 250 cm$^3$ of 0.10 mol/dm$^3$ HCl from a 2.0 mol/dm$^3$
 Stock solution?
@@ -343,7 +373,9 @@ Check: Fe: 2 = 2, O: 3 + 3 = 6 = 6, C: 3 = 3.
 The stoichiometric coefficients in a balanced equation give the molar ratio of reactants and
 Products.
 
-$$\mathrm{N}_2 + 3\mathrm{H}_2 \to 2\mathrm{NH}_3$$
+$$
+\mathrm{N}_2 + 3\mathrm{H}_2 \to 2\mathrm{NH}_3
+$$
 
 1 mol $\mathrm{N}_2$ reacts with 3 mol $\mathrm{H}_2$ to produce 2 mol $\mathrm{NH}_3$.
 
@@ -390,7 +422,9 @@ Maximum amount of product that can be formed.
 **Worked example 10:** 10.0 g of $\mathrm{Al}$ is reacted with 30.0 g of $\mathrm{HCl}$ according
 To:
 
-$$2\mathrm{Al} + 6\mathrm{HCl} \to 2\mathrm{AlCl}_3 + 3\mathrm{H}_2$$
+$$
+2\mathrm{Al} + 6\mathrm{HCl} \to 2\mathrm{AlCl}_3 + 3\mathrm{H}_2
+$$
 
 Find the limiting reagent and the volume of $\mathrm{H}_2$ produced at RTP.
 
@@ -426,12 +460,16 @@ Volume at RTP = $0.411 \times 24.0 = 9.86 \mathrm{ dm}^3$
 
 ## Percentage Yield
 
-$$\%\mathrm{ yield} = \frac{\mathrm{actual yield}}{\mathrm{theoretical yield}} \times 100\%$$
+$$
+\%\mathrm{ yield} = \frac{\mathrm{actual yield}}{\mathrm{theoretical yield}} \times 100\%
+$$
 
 **Worked example 11:** 10.0 g of $\mathrm{CaCO}_3$ is heated and 4.20 g of $\mathrm{CaO}$ is
 Collected. Calculate the percentage yield.
 
-$$\mathrm{CaCO}_3 \to \mathrm{CaO} + \mathrm{CO}_2$$
+$$
+\mathrm{CaCO}_3 \to \mathrm{CaO} + \mathrm{CO}_2
+$$
 
 <details>
 <summary>Answer</summary>
@@ -461,7 +499,9 @@ $\%\mathrm{ yield} = \dfrac{4.20}{5.60} \times 100\% = 75.0\%$
 
 ### Using the Ideal Gas Equation
 
-$$PV = nRT$$
+$$
+PV = nRT
+$$
 
 | Symbol | Meaning      | Units                                        |
 | ------ | ------------ | -------------------------------------------- |
@@ -494,16 +534,22 @@ $V = \dfrac{nRT}{P} = \dfrac{0.156 \times 0.0821 \times 300}{2.0} = \dfrac{3.842
 
 The "mole triangle" connects $n$, $m$ And $M$:
 
-$$n = \frac{m}{M} \quad ; \quad m = n \times M \quad ; \quad M = \frac{m}{n}$$
+$$
+n = \frac{m}{M} \quad ; \quad m = n \times M \quad ; \quad M = \frac{m}{n}
+$$
 
 For gases, also connect $n$, $V$ And $V_m$:
 
-$$n = \frac{V}{V_m} \quad ; \quad V = n \times V_m$$
+$$
+n = \frac{V}{V_m} \quad ; \quad V = n \times V_m
+$$
 
 **Worked example 13:** What volume of $\mathrm{CO}_2$ at RTP is produced when 25.0 g of
 $\mathrm{CaCO}_3$ reacts with excess HCl?
 
-$$\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2$$
+$$
+\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2
+$$
 
 <details>
 <summary>Answer</summary>
@@ -554,7 +600,9 @@ General approach:
 **Worked example 14:** 25.0 cm$^3$ of $\mathrm{NaOH}$ solution is titrated against 0.100 mol/dm$^3$
 $\mathrm{HCl}$. The average titre is 20.0 cm$^3$. Calculate the concentration of $\mathrm{NaOH}$.
 
-$$\mathrm{NaOH} + \mathrm{HCl} \to \mathrm{NaCl} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{NaOH} + \mathrm{HCl} \to \mathrm{NaCl} + \mathrm{H}_2\mathrm{O}
+$$
 
 <details>
 <summary>Answer</summary>
@@ -572,7 +620,9 @@ Up to 250 cm$^3$. 25.0 cm$^3$ of this solution requires 21.5 cm$^3$ of 0.100 mol
 $\mathrm{HCl}$ for complete reaction. Calculate the percentage purity of the
 $\mathrm{Na}_2\mathrm{CO}_3$.
 
-$$\mathrm{Na}_2\mathrm{CO}_3 + 2\mathrm{HCl} \to 2\mathrm{NaCl} + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2$$
+$$
+\mathrm{Na}_2\mathrm{CO}_3 + 2\mathrm{HCl} \to 2\mathrm{NaCl} + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2
+$$
 
 <details>
 <summary>Answer</summary>
@@ -624,8 +674,12 @@ Mol/dm$^3$ $\mathrm{HCl}$ (excess). The remaining $\mathrm{HCl}$ requires 30.0 c
 Mol/dm$^3$ $\mathrm{NaOH}$ for neutralisation. Calculate the percentage of $\mathrm{CaCO}_3$ in the
 Sample.
 
-$$\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2$$
-$$\mathrm{HCl} + \mathrm{NaOH} \to \mathrm{NaCl} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2
+$$
+$$
+\mathrm{HCl} + \mathrm{NaOH} \to \mathrm{NaCl} + \mathrm{H}_2\mathrm{O}
+$$
 
 <details>
 <summary>Answer</summary>
@@ -661,9 +715,13 @@ $\%\mathrm{ CaCO}_3 = \dfrac{1.752}{2.00} \times 100\% = 87.6\%$
 
 ### Converting Between Concentration Units
 
-$$\mathrm{mol/dm}^3 = \frac{\mathrm{g/dm}^3}{M_r}$$
+$$
+\mathrm{mol/dm}^3 = \frac{\mathrm{g/dm}^3}{M_r}
+$$
 
-$$\mathrm{ppm} = \frac{\mathrm{mass of solute (g)}}{\mathrm{mass of solution (g)}} \times 10^6$$
+$$
+\mathrm{ppm} = \frac{\mathrm{mass of solute (g)}}{\mathrm{mass of solution (g)}} \times 10^6
+$$
 
 **Worked example 17:** Convert 20.0 g/dm$^3$ of $\mathrm{NaOH}$ to mol/dm$^3$.
 
@@ -692,7 +750,9 @@ $\mathrm{MgSO}_4 \cdot x\mathrm{H}_2\mathrm{O}$Is dissolved in water and made up
 cm$^3$ of this solution requires 20.0 cm$^3$ of 0.100 mol/dm$^3$ $\mathrm{NaOH}$ to precipitate All
 the magnesium as $\mathrm{Mg(OH)}_2$. Find $x$.
 
-$$\mathrm{MgSO}_4 + 2\mathrm{NaOH} \to \mathrm{Mg(OH)}_2 + \mathrm{Na}_2\mathrm{SO}_4$$
+$$
+\mathrm{MgSO}_4 + 2\mathrm{NaOH} \to \mathrm{Mg(OH)}_2 + \mathrm{Na}_2\mathrm{SO}_4
+$$
 
 <details>
 <summary>Answer</summary>
@@ -865,7 +925,9 @@ Formula = $\mathrm{Na}_2\mathrm{CO}_3 \cdot 10\mathrm{H}_2\mathrm{O}$ (washing s
 2.43 g of magnesium is added to 100 cm$^3$ of 2.00 mol/dm$^3$ hydrochloric acid. Calculate the
 Volume of hydrogen gas produced at RTP and identify the limiting reagent.
 
-$$\mathrm{Mg} + 2\mathrm{HCl} \to \mathrm{MgCl}_2 + \mathrm{H}_2$$
+$$
+\mathrm{Mg} + 2\mathrm{HCl} \to \mathrm{MgCl}_2 + \mathrm{H}_2
+$$
 
 <details>
 <summary>Answer</summary>

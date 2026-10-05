@@ -22,18 +22,24 @@ tags:
 **Theorem 4.1 (Weak Law of Large Numbers).** Let $X_1, X_2, \ldots$ be i.i.d. With $E[X_i] = \mu$
 and $\mathrm{Var}(X_i) = \sigma^2 < \infty$. Then for every $\varepsilon > 0$:
 
-$$\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum_{i=1}^{n} X_i - \mu\right| \geq \varepsilon\right) = 0$$
+$$
+\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum_{i=1}^{n} X_i - \mu\right| \geq \varepsilon\right) = 0
+$$
 
 _Proof._ Let $S_n = \frac{1}{n}\sum_{i=1}^{n} X_i$. Then $E[S_n] = \mu$ and
 $\mathrm{Var}(S_n) = \sigma^2/n$. By Chebyshev"s inequality:
 
-$$P(|S_n - \mu| \geq \varepsilon) \leq \frac{\mathrm{Var}(S_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2} \to 0 \quad \mathrm{as\ } n \to \infty$$
+$$
+P(|S_n - \mu| \geq \varepsilon) \leq \frac{\mathrm{Var}(S_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2} \to 0 \quad \mathrm{as\ } n \to \infty
+$$
 
 $\blacksquare$
 
 **Theorem 4.2 (Strong Law of Large Numbers).** Under the same conditions:
 
-$$P\left(\lim_{n \to \infty} \frac{1}{n}\sum_{i=1}^{n} X_i = \mu\right) = 1$$
+$$
+P\left(\lim_{n \to \infty} \frac{1}{n}\sum_{i=1}^{n} X_i = \mu\right) = 1
+$$
 
 The sample mean converges to the population mean almost surely.
 
@@ -42,30 +48,40 @@ The sample mean converges to the population mean almost surely.
 **Theorem 4.3 (Central Limit Theorem).** Let $X_1, X_2, \ldots$ be i.i.d. With $E[X_i] = \mu$ and
 $\mathrm{Var}(X_i) = \sigma^2 \in (0, \infty)$. Then
 
-$$\frac{S_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} N(0, 1)$$
+$$
+\frac{S_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} N(0, 1)
+$$
 
 Where $S_n = \sum_{i=1}^{n} X_i$ and $\xrightarrow{d}$ denotes convergence in distribution.
 
 Equivalently, for large $n$:
 
-$$P\left(\frac{S_n - n\mu}{\sigma\sqrt{n}} \leq z\right) \approx \Phi(z)$$
+$$
+P\left(\frac{S_n - n\mu}{\sigma\sqrt{n}} \leq z\right) \approx \Phi(z)
+$$
 
 Where $\Phi$ is the CDF of the standard normal.
 
 _Proof (using characteristic functions)._ Let $\varphi_X(t) = E[e^{itX}]$ be the characteristic
 function of $X_1$. The characteristic function of $(S_n - n\mu)/(\sigma\sqrt{n})$ is:
 
-$$\varphi_n(t) = \left[\varphi_X\left(\frac{t}{\sigma\sqrt{n}}\right)\right]^n \cdot e^{-it\sqrt{n}\mu/\sigma}$$
+$$
+\varphi_n(t) = \left[\varphi_X\left(\frac{t}{\sigma\sqrt{n}}\right)\right]^n \cdot e^{-it\sqrt{n}\mu/\sigma}
+$$
 
 Expanding $\varphi_X$ around 0:
 $\varphi_X(s) = 1 + i\mu s - \frac{(\sigma^2 + \mu^2)s^2}{2} + o(s^2)$. Substituting
 $s = t/(\sigma\sqrt{n})$:
 
-$$\varphi_n(t) = \left[1 + \frac{i\mu t}{\sigma\sqrt{n}} - \frac{(\sigma^2 + \mu^2)t^2}{2\sigma^2 n} + o\left(\frac{1}{n}\right)\right]^n \cdot e^{-it\sqrt{n}\mu/\sigma}$$
+$$
+\varphi_n(t) = \left[1 + \frac{i\mu t}{\sigma\sqrt{n}} - \frac{(\sigma^2 + \mu^2)t^2}{2\sigma^2 n} + o\left(\frac{1}{n}\right)\right]^n \cdot e^{-it\sqrt{n}\mu/\sigma}
+$$
 
 Using $\lim_{n \to \infty}(1 + a_n/n)^n = e^{\lim a_n}$:
 
-$$\lim_{n \to \infty} \varphi_n(t) = \exp\left(\frac{i\mu t}{\sigma} - \frac{(\sigma^2 + \mu^2)t^2}{2\sigma^2}\right) \cdot \exp\left(-\frac{i\mu t}{\sigma}\right) = e^{-t^2/2}$$
+$$
+\lim_{n \to \infty} \varphi_n(t) = \exp\left(\frac{i\mu t}{\sigma} - \frac{(\sigma^2 + \mu^2)t^2}{2\sigma^2}\right) \cdot \exp\left(-\frac{i\mu t}{\sigma}\right) = e^{-t^2/2}
+$$
 
 This is the characteristic function of $N(0, 1)$. By Levy's continuity theorem, the convergence in
 distribution follows. $\blacksquare$
@@ -82,9 +98,13 @@ $\mathrm{Var}(X_i) = 35/12 \approx 2.917$.
 
 $S_{100} = \sum_{i=1}^{100} X_i$. By the CLT:
 
-$$\frac{S_{100} - 350}{\sqrt{100 \cdot 35/12}} \approx N(0, 1)$$
+$$
+\frac{S_{100} - 350}{\sqrt{100 \cdot 35/12}} \approx N(0, 1)
+$$
 
-$$P(S_{100} > 370) = P\left(Z > \frac{370 - 350}{\sqrt{291.7}}\right) \approx P(Z > 1.17) \approx 0.121$$
+$$
+P(S_{100} > 370) = P\left(Z > \frac{370 - 350}{\sqrt{291.7}}\right) \approx P(Z > 1.17) \approx 0.121
+$$
 
 $\blacksquare$
 
@@ -98,7 +118,9 @@ of a sample of 64 observations exceeds 52.
 
 By the CLT, $\bar{X} \approx N(50, 100/64) = N(50, 1.5625)$.
 
-$$P(\bar{X} > 52) = P\left(Z > \frac{52 - 50}{\sqrt{1.5625}}\right) = P(Z > 1.6) \approx 0.0548$$
+$$
+P(\bar{X} > 52) = P\left(Z > \frac{52 - 50}{\sqrt{1.5625}}\right) = P(Z > 1.6) \approx 0.0548
+$$
 
 $\blacksquare$
 
@@ -136,7 +158,9 @@ A poll surveys 1000 voters and finds 540 support a candidate. Construct a 95% co
 
 $\hat{p} = 540/1000 = 0.54$. By the CLT, $\hat{p} \approx N(p, p(1-p)/n)$. For a 95% CI:
 
-$$\hat{p} \pm z_{0.025}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} = 0.54 \pm 1.96\sqrt{\frac{0.54 \times 0.46}{1000}} = 0.54 \pm 0.031$$
+$$
+\hat{p} \pm z_{0.025}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} = 0.54 \pm 1.96\sqrt{\frac{0.54 \times 0.46}{1000}} = 0.54 \pm 0.031
+$$
 
 The 95% CI is $(0.509, 0.571)$. Since the interval includes 0.5, we cannot reject the hypothesis that the race is tied at the 5% significance level.
 
@@ -146,7 +170,9 @@ Events occur at rate $\lambda = 50$ per hour. Approximate $P(S \leq 60)$ where $
 
 The Poisson distribution with $\lambda = 50$ has mean 50 and variance 50. By the CLT:
 
-$$P(S \leq 60) \approx P\left(Z \leq \frac{60 - 50}{\sqrt{50}}\right) = P(Z \leq 1.414) \approx 0.9214$$
+$$
+P(S \leq 60) \approx P\left(Z \leq \frac{60 - 50}{\sqrt{50}}\right) = P(Z \leq 1.414) \approx 0.9214
+$$
 
 The exact Poisson probability is 0.9278. The normal approximation is accurate to within 1%.
 
@@ -156,11 +182,17 @@ A fair die is rolled 60 times. Approximate the probability that the total is bet
 
 Each roll has $E[X_i] = 3.5$ and $\mathrm{Var}(X_i) = 35/12$. By the CLT, the total $S_{60}$ satisfies:
 
-$$P(200 < S_{60} < 240) = P\left(\frac{200 - 210}{\sqrt{60 \times 35/12}} < Z < \frac{240 - 210}{\sqrt{60 \times 35/12}}\right)$$
+$$
+P(200 < S_{60} < 240) = P\left(\frac{200 - 210}{\sqrt{60 \times 35/12}} < Z < \frac{240 - 210}{\sqrt{60 \times 35/12}}\right)
+$$
 
-$$= P\left(\frac{-10}{13.23} < Z < \frac{30}{13.23}\right) = P(-0.756 < Z < 2.268)$$
+$$
+= P\left(\frac{-10}{13.23} < Z < \frac{30}{13.23}\right) = P(-0.756 < Z < 2.268)
+$$
 
-$$\approx \Phi(2.268) - \Phi(-0.756) = 0.9883 - 0.2248 = 0.7635$$
+$$
+\approx \Phi(2.268) - \Phi(-0.756) = 0.9883 - 0.2248 = 0.7635
+$$
 
 
 ```mermaid

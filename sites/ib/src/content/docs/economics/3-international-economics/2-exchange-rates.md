@@ -78,7 +78,9 @@ Determined by supply and demand in the foreign exchange market.
 A currency depreciation improves the current account balance only if the sum of the absolute values
 Of PED for exports and PED for imports exceeds 1:
 
-$$|\mathrm{PED}_X| + |\mathrm{PED}_M| > 1$$
+$$
+|\mathrm{PED}_X| + |\mathrm{PED}_M| > 1
+$$
 
 **Intuition:** if demand for both exports and imports is elastic, the depreciation increases export
 Revenue (more units sold at a lower price per unit) and reduces import expenditure (fewer units
@@ -102,12 +104,16 @@ Purchasing power of different currencies:
 
 **Absolute PPP**: the exchange rate should equal the ratio of price levels between two countries:
 
-$$S = \frac{P_{\text{domestic}}}{P_{\text{foreign}}}$$
+$$
+S = \frac{P_{\text{domestic}}}{P_{\text{foreign}}}
+$$
 
 **Relative PPP**: changes in the exchange rate should reflect the inflation differential between two
 Countries:
 
-$$\%\Delta S \approx \pi_{\text{domestic}} - \pi_{\text{foreign}}$$
+$$
+\%\Delta S \approx \pi_{\text{domestic}} - \pi_{\text{foreign}}
+$$
 
 Where $S$ is the spot exchange rate (domestic currency per unit of foreign currency). If domestic
 Inflation exceeds foreign inflation, the domestic currency should depreciate.
@@ -144,11 +150,15 @@ Under a fixed exchange rate system, the central bank must maintain the peg by:
 
 **Absolute PPP:** the exchange rate should equal the ratio of national price levels:
 
-$$S = \frac{P_{\text{domestic}}}{P_{\text{foreign}}}$$
+$$
+S = \frac{P_{\text{domestic}}}{P_{\text{foreign}}}
+$$
 
 **Relative PPP:** the rate of depreciation should equal the inflation differential:
 
-$$\%\Delta S \approx \pi_{\text{domestic}} - \pi_{\text{foreign}}$$
+$$
+\%\Delta S \approx \pi_{\text{domestic}} - \pi_{\text{foreign}}
+$$
 
 **Big Mac Index (The Economist):** a light-hearted but instructive application of PPP. If a Big Mac
 costs `USD 5.50` in the US and `EUR 4.50` in the Eurozone, the PPP-implied exchange rate is
@@ -168,7 +178,9 @@ approximately 10% relative to PPP.
 
 **Covered Interest Rate Parity (CIRP):**
 
-$$F = S \times \frac{1 + i_{\text{domestic}}}{1 + i_{\text{foreign}}}$$
+$$
+F = S \times \frac{1 + i_{\text{domestic}}}{1 + i_{\text{foreign}}}
+$$
 
 Where $F$ is the forward exchange rate and $S$ is the spot rate. If CIRP does not hold, risk-free
 Arbitrage is possible (borrow in the low-interest currency, convert at the spot rate, invest in The
@@ -176,7 +188,9 @@ high-interest currency, and lock in the forward rate).
 
 **Uncovered Interest Rate Parity (UIP):**
 
-$$E(S_{t+1}) = S_t \times \frac{1 + i_{\text{domestic}}}{1 + i_{\text{foreign}}}$$
+$$
+E(S_{t+1}) = S_t \times \frac{1 + i_{\text{domestic}}}{1 + i_{\text{foreign}}}
+$$
 
 Where $E(S_{t+1})$ is the expected future spot rate. UIP states that the expected return on Domestic
 and foreign assets should be equal when adjusted for expected exchange rate changes.
@@ -190,7 +204,9 @@ short run (the "forward premium puzzle").
 The trade balance in domestic currency (assuming imports are denominated in foreign currency and
 Then converted):
 
-$$\mathrm{TB} = P_X \cdot X(S) - S \cdot P_M^* \cdot M(S)$$
+$$
+\mathrm{TB} = P_X \cdot X(S) - S \cdot P_M^* \cdot M(S)
+$$
 
 Where $S$ is the domestic currency price of foreign currency (an increase in $S$ represents
 Depreciation).
@@ -198,7 +214,9 @@ Depreciation).
 For a depreciation to improve the trade balance, the derivative of TB with respect to $S$ must be
 Positive. This condition simplifies to:
 
-$$|\mathrm{PED}_X| + |\mathrm{PED}_M| > 1$$
+$$
+|\mathrm{PED}_X| + |\mathrm{PED}_M| > 1
+$$
 
 Where $\mathrm{PED}_X = \frac{\%\Delta X}{\%\Delta S}$ and
 $\mathrm{PED}_M = \frac{\%\Delta M}{\%\Delta S}$.
@@ -311,10 +329,18 @@ _Disadvantages:_
 
 **Sequence of events:**
 
-$$\text{Capital inflows} \implies \text{Credit boom} \implies \text{Asset price bubble}$$
-$$\implies \text{Loss of confidence} \implies \text{Capital outflows}$$
-$$\implies \text{Reserve depletion} \implies \text{Forced devaluation}$$
-$$\implies \text{Currency crisis} \implies \text{Banking crisis} \implies \text{Recession}$$
+$$
+\text{Capital inflows} \implies \text{Credit boom} \implies \text{Asset price bubble}
+$$
+$$
+\implies \text{Loss of confidence} \implies \text{Capital outflows}
+$$
+$$
+\implies \text{Reserve depletion} \implies \text{Forced devaluation}
+$$
+$$
+\implies \text{Currency crisis} \implies \text{Banking crisis} \implies \text{Recession}
+$$
 
 **Impact:**
 
@@ -355,7 +381,9 @@ $$\implies \text{Currency crisis} \implies \text{Banking crisis} \implies \text{
 
 The EUR/USD rate moves from 1.10 to 1.20. The euro has appreciated by:
 
-$$\frac{1.20 - 1.10}{1.10} \times 100 = 9.09\%$$
+$$
+\frac{1.20 - 1.10}{1.10} \times 100 = 9.09\%
+$$
 
 European exports become 9.09% more expensive for US buyers. European imports from the US become
 cheaper.

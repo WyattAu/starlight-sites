@@ -33,7 +33,9 @@ Difficult to prove in real analysis become straightforward when extended to the 
 
 Any non-zero complex number $z = x + iy$ can be written in **modulus-argument form** (polar form):
 
-$$z = r(\cos\theta + i\sin\theta) = r\,\mathrm{cis}\,\theta$$
+$$
+z = r(\cos\theta + i\sin\theta) = r\,\mathrm{cis}\,\theta
+$$
 
 Where $r = |z| = \sqrt{x^2 + y^2}$ and $\theta = \arg(z)$.
 
@@ -44,15 +46,23 @@ Argument** $\mathrm{Arg}(z)$ satisfies $-\pi \lt \mathrm{Arg}(z) \leq \pi$.
 
 If $z_1 = r_1(\cos\theta_1 + i\sin\theta_1)$ and $z_2 = r_2(\cos\theta_2 + i\sin\theta_2)$ Then:
 
-$$z_1 z_2 = r_1 r_2\bigl(\cos(\theta_1 + \theta_2) + i\sin(\theta_1 + \theta_2)\bigr)$$
+$$
+z_1 z_2 = r_1 r_2\bigl(\cos(\theta_1 + \theta_2) + i\sin(\theta_1 + \theta_2)\bigr)
+$$
 
-$$\frac{z_1}{z_2} = \frac{r_1}{r_2}\bigl(\cos(\theta_1 - \theta_2) + i\sin(\theta_1 - \theta_2)\bigr)$$
+$$
+\frac{z_1}{z_2} = \frac{r_1}{r_2}\bigl(\cos(\theta_1 - \theta_2) + i\sin(\theta_1 - \theta_2)\bigr)
+$$
 
 **Proof.** Using the compound angle formulas:
 
-$$z_1 z_2 = r_1 r_2\bigl(\cos\theta_1\cos\theta_2 - \sin\theta_1\sin\theta_2 + i(\sin\theta_1\cos\theta_2 + \cos\theta_1\sin\theta_2)\bigr)$$
+$$
+z_1 z_2 = r_1 r_2\bigl(\cos\theta_1\cos\theta_2 - \sin\theta_1\sin\theta_2 + i(\sin\theta_1\cos\theta_2 + \cos\theta_1\sin\theta_2)\bigr)
+$$
 
-$$= r_1 r_2\bigl(\cos(\theta_1 + \theta_2) + i\sin(\theta_1 + \theta_2)\bigr) \quad \blacksquare$$
+$$
+= r_1 r_2\bigl(\cos(\theta_1 + \theta_2) + i\sin(\theta_1 + \theta_2)\bigr) \quad \blacksquare
+$$
 
 This confirms: $|z_1 z_2| = |z_1||z_2|$ and $\arg(z_1 z_2) = \arg(z_1) + \arg(z_2)$.
 
@@ -66,15 +76,21 @@ $\theta_1 = \arctan\!\left(\dfrac{\sqrt{3}}{1}\right) = \dfrac{\pi}{3}$.
 Denominator: $1 - i$. $r_2 = \sqrt{1 + 1} = \sqrt{2}$
 $\theta_2 = \arctan\!\left(\dfrac{-1}{1}\right) = -\dfrac{\pi}{4}$.
 
-$$\frac{z_1}{z_2} = \frac{2}{\sqrt{2}}\left(\cos\!\left(\frac{\pi}{3} - \left(-\frac{\pi}{4}\right)\right) + i\sin\!\left(\frac{7\pi}{12}\right)\right)$$
+$$
+\frac{z_1}{z_2} = \frac{2}{\sqrt{2}}\left(\cos\!\left(\frac{\pi}{3} - \left(-\frac{\pi}{4}\right)\right) + i\sin\!\left(\frac{7\pi}{12}\right)\right)
+$$
 
-$$= \sqrt{2}\left(\cos\frac{7\pi}{12} + i\sin\frac{7\pi}{12}\right)$$
+$$
+= \sqrt{2}\left(\cos\frac{7\pi}{12} + i\sin\frac{7\pi}{12}\right)
+$$
 
 ### 1.4 De Moivre's theorem
 
 **Theorem (De Moivre).** For any integer $n$:
 
-$$\bigl(r(\cos\theta + i\sin\theta)\bigr)^n = r^n\bigl(\cos n\theta + i\sin n\theta\bigr)$$
+$$
+\bigl(r(\cos\theta + i\sin\theta)\bigr)^n = r^n\bigl(\cos n\theta + i\sin n\theta\bigr)
+$$
 
 **Proof by induction for $n \geq 0$.**
 
@@ -82,17 +98,25 @@ $$\bigl(r(\cos\theta + i\sin\theta)\bigr)^n = r^n\bigl(\cos n\theta + i\sin n\th
 
 **Inductive step:** Assume true for $n = k$:
 
-$$(\cos\theta + i\sin\theta)^{k+1} = (\cos\theta + i\sin\theta)^k(\cos\theta + i\sin\theta)$$
+$$
+(\cos\theta + i\sin\theta)^{k+1} = (\cos\theta + i\sin\theta)^k(\cos\theta + i\sin\theta)
+$$
 
-$$= (\cos k\theta + i\sin k\theta)(\cos\theta + i\sin\theta)$$
+$$
+= (\cos k\theta + i\sin k\theta)(\cos\theta + i\sin\theta)
+$$
 
-$$= \cos(k+1)\theta + i\sin(k+1)\theta$$
+$$
+= \cos(k+1)\theta + i\sin(k+1)\theta
+$$
 
 By the compound angle formulas. True for $n = k + 1$. $\blacksquare$
 
 For negative integers, note that:
 
-$$(\cos\theta + i\sin\theta)^{-1} = \cos(-\theta) + i\sin(-\theta) = \cos\theta - i\sin\theta$$
+$$
+(\cos\theta + i\sin\theta)^{-1} = \cos(-\theta) + i\sin(-\theta) = \cos\theta - i\sin\theta
+$$
 
 And the result follows by applying the positive case to the reciprocal.
 
@@ -102,7 +126,9 @@ And the result follows by applying the positive case to the reciprocal.
 
 $1 + i = \sqrt{2}\!\left(\cos\dfrac{\pi}{4} + i\sin\dfrac{\pi}{4}\right)$.
 
-$$(1 + i)^{10} = (\sqrt{2})^{10}\!\left(\cos\frac{5\pi}{2} + i\sin\frac{5\pi}{2}\right) = 32(0 + i) = 32i$$
+$$
+(1 + i)^{10} = (\sqrt{2})^{10}\!\left(\cos\frac{5\pi}{2} + i\sin\frac{5\pi}{2}\right) = 32(0 + i) = 32i
+$$
 
 ### 1.6 Trigonometric identities from De Moivre
 
@@ -110,15 +136,21 @@ De Moivre's theorem provides a systematic way to derive multiple-angle formulas.
 
 **Example:** Expanding $(\cos\theta + i\sin\theta)^3$:
 
-$$\cos 3\theta + i\sin 3\theta = \cos^3\theta + 3i\cos^2\theta\sin\theta - 3\cos\theta\sin^2\theta - i\sin^3\theta$$
+$$
+\cos 3\theta + i\sin 3\theta = \cos^3\theta + 3i\cos^2\theta\sin\theta - 3\cos\theta\sin^2\theta - i\sin^3\theta
+$$
 
 Equating real parts:
 
-$$\cos 3\theta = \cos^3\theta - 3\cos\theta\sin^2\theta = 4\cos^3\theta - 3\cos\theta$$
+$$
+\cos 3\theta = \cos^3\theta - 3\cos\theta\sin^2\theta = 4\cos^3\theta - 3\cos\theta
+$$
 
 Equating imaginary parts:
 
-$$\sin 3\theta = 3\cos^2\theta\sin\theta - \sin^3\theta = 3\sin\theta - 4\sin^3\theta$$
+$$
+\sin 3\theta = 3\cos^2\theta\sin\theta - \sin^3\theta = 3\sin\theta - 4\sin^3\theta
+$$
 
 <hr />
 
@@ -128,7 +160,9 @@ $$\sin 3\theta = 3\cos^2\theta\sin\theta - \sin^3\theta = 3\sin\theta - 4\sin^3\
 
 To solve $z^n = w$ where $w = R(\cos\alpha + i\sin\alpha)$:
 
-$$z = R^{1/n}\!\left(\cos\frac{\alpha + 2k\pi}{n} + i\sin\frac{\alpha + 2k\pi}{n}\right), \quad k = 0, 1, 2, \ldots, n-1$$
+$$
+z = R^{1/n}\!\left(\cos\frac{\alpha + 2k\pi}{n} + i\sin\frac{\alpha + 2k\pi}{n}\right), \quad k = 0, 1, 2, \ldots, n-1
+$$
 
 ### 2.2 Geometric interpretation
 
@@ -142,7 +176,9 @@ The sum of all $n$ roots of $z^n = w$ is zero (they form a regular polygon centr
 **Proof.** The roots are $R^{1/n}\,\omega^k$ where $\omega = \mathrm{cis}(2\pi/n)$ and
 $k = 0, 1, \ldots, n-1$.
 
-$$\sum_{k=0}^{n-1}\omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0 \quad \blacksquare$$
+$$
+\sum_{k=0}^{n-1}\omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0 \quad \blacksquare
+$$
 
 ### 2.4 Worked example: cube roots
 
@@ -150,7 +186,9 @@ $$\sum_{k=0}^{n-1}\omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - 
 
 $-8 = 8(\cos\pi + i\sin\pi)$.
 
-$$z_k = 8^{1/3}\!\left(\cos\frac{\pi + 2k\pi}{3} + i\sin\frac{\pi + 2k\pi}{3}\right), \quad k = 0, 1, 2$$
+$$
+z_k = 8^{1/3}\!\left(\cos\frac{\pi + 2k\pi}{3} + i\sin\frac{\pi + 2k\pi}{3}\right), \quad k = 0, 1, 2
+$$
 
 $k = 0$:
 $z_0 = 2\!\left(\cos\dfrac{\pi}{3} + i\sin\dfrac{\pi}{3}\right) = 1 + i\sqrt{3}$
@@ -166,7 +204,9 @@ Check: $(1 + i\sqrt{3}) + (-2) + (1 - i\sqrt{3}) = 0$.
 
 The **$n$-th roots of unity** are the solutions to $z^n = 1$:
 
-$$z_k = \cos\frac{2k\pi}{n} + i\sin\frac{2k\pi}{n}, \quad k = 0, 1, \ldots, n-1$$
+$$
+z_k = \cos\frac{2k\pi}{n} + i\sin\frac{2k\pi}{n}, \quad k = 0, 1, \ldots, n-1
+$$
 
 These form a regular $n$-gon inscribed in the unit circle.
 
@@ -183,7 +223,9 @@ $|z - z_0| = r$ represents a circle with centre $z_0$ and radius $r$.
 
 **Proof.** If $z = x + iy$ and $z_0 = a + ib$:
 
-$$|z - z_0| = \sqrt{(x - a)^2 + (y - b)^2} = r \implies (x - a)^2 + (y - b)^2 = r^2 \quad \blacksquare$$
+$$
+|z - z_0| = \sqrt{(x - a)^2 + (y - b)^2} = r \implies (x - a)^2 + (y - b)^2 = r^2 \quad \blacksquare
+$$
 
 ### 3.2 Perpendicular bisectors
 
@@ -212,7 +254,9 @@ $\arg z = \pi/4$.
 The disc extends from $x = -1$ to $x = 5$ on the real axis. The line $\arg z = \pi/4$ is $y = x$.
 The intersection of $y = x$ with the circle $(x-2)^2 + y^2 = 9$ gives:
 
-$$(x - 2)^2 + x^2 = 9 \implies 2x^2 - 4x - 5 = 0 \implies x = \frac{4 \pm \sqrt{16 + 40}}{4} = \frac{4 \pm \sqrt{56}}{4}$$
+$$
+(x - 2)^2 + x^2 = 9 \implies 2x^2 - 4x - 5 = 0 \implies x = \frac{4 \pm \sqrt{16 + 40}}{4} = \frac{4 \pm \sqrt{56}}{4}
+$$
 
 The relevant intersection is at $x = 1 + \dfrac{\sqrt{14}}{2} \approx 2.87$.
 
@@ -222,19 +266,31 @@ The relevant intersection is at $x = 1 + \dfrac{\sqrt{14}}{2} \approx 2.87$.
 
 Let $z = x + iy$:
 
-$$\sqrt{(x - 3)^2 + (y + 2)^2} = 2\sqrt{(x + 1)^2 + (y - 1)^2}$$
+$$
+\sqrt{(x - 3)^2 + (y + 2)^2} = 2\sqrt{(x + 1)^2 + (y - 1)^2}
+$$
 
-$$(x - 3)^2 + (y + 2)^2 = 4(x + 1)^2 + 4(y - 1)^2$$
+$$
+(x - 3)^2 + (y + 2)^2 = 4(x + 1)^2 + 4(y - 1)^2
+$$
 
-$$x^2 - 6x + 9 + y^2 + 4y + 4 = 4x^2 + 8x + 4 + 4y^2 - 8y + 4$$
+$$
+x^2 - 6x + 9 + y^2 + 4y + 4 = 4x^2 + 8x + 4 + 4y^2 - 8y + 4
+$$
 
-$$3x^2 + 14x + 3y^2 - 12y - 5 = 0$$
+$$
+3x^2 + 14x + 3y^2 - 12y - 5 = 0
+$$
 
 Completing the square:
 
-$$3\!\left(x + \frac{7}{3}\right)^{\!2} + 3\!\left(y - 2\right)^{\!2} = 5 + \frac{49}{3} + 12 = \frac{100}{3}$$
+$$
+3\!\left(x + \frac{7}{3}\right)^{\!2} + 3\!\left(y - 2\right)^{\!2} = 5 + \frac{49}{3} + 12 = \frac{100}{3}
+$$
 
-$$\left(x + \frac{7}{3}\right)^{\!2} + (y - 2)^2 = \frac{100}{9}$$
+$$
+\left(x + \frac{7}{3}\right)^{\!2} + (y - 2)^2 = \frac{100}{9}
+$$
 
 This is a circle with centre $\left(-\dfrac{7}{3}, 2\right)$ and radius $\dfrac{10}{3}$.
 
@@ -246,47 +302,67 @@ This is a circle with centre $\left(-\dfrac{7}{3}, 2\right)$ and radius $\dfrac{
 
 **Euler's formula:**
 
-$$\boxed{e^{i\theta} = \cos\theta + i\sin\theta}$$
+$$
+\boxed{e^{i\theta} = \cos\theta + i\sin\theta}
+$$
 
 This connects the exponential function with trigonometric functions via the imaginary unit.
 
 ### 4.2 Proof (via power series)
 
-$$e^{i\theta} = \sum_{n=0}^{\infty}\frac{(i\theta)^n}{n!} = 1 + i\theta + \frac{(i\theta)^2}{2!} + \frac{(i\theta)^3}{3!} + \cdots$$
+$$
+e^{i\theta} = \sum_{n=0}^{\infty}\frac{(i\theta)^n}{n!} = 1 + i\theta + \frac{(i\theta)^2}{2!} + \frac{(i\theta)^3}{3!} + \cdots
+$$
 
 Since $i^2 = -1$$i^3 = -i$$i^4 = 1$ And this pattern repeats with period 4:
 
-$$= \left(1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\right) + i\left(\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots\right)$$
+$$
+= \left(1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\right) + i\left(\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots\right)
+$$
 
-$$= \cos\theta + i\sin\theta \quad \blacksquare$$
+$$
+= \cos\theta + i\sin\theta \quad \blacksquare
+$$
 
 ### 4.3 Consequences
 
 **Euler's identity:** Setting $\theta = \pi$:
 
-$$e^{i\pi} + 1 = 0$$
+$$
+e^{i\pi} + 1 = 0
+$$
 
 This connects five fundamental constants: $e$$i$$\pi$$1$ And $0$.
 
 **Complex exponential form:** Any complex number can be written as:
 
-$$z = re^{i\theta}$$
+$$
+z = re^{i\theta}
+$$
 
 Where $r = |z|$ and $\theta = \arg(z)$.
 
 ### 4.4 Exponential form of De Moivre
 
-$$\bigl(re^{i\theta}\bigr)^n = r^n e^{in\theta}$$
+$$
+\bigl(re^{i\theta}\bigr)^n = r^n e^{in\theta}
+$$
 
-$$z_1 z_2 = r_1 r_2\,e^{i(\theta_1 + \theta_2)}$$
+$$
+z_1 z_2 = r_1 r_2\,e^{i(\theta_1 + \theta_2)}
+$$
 
 ### 4.5 Exponential form of trigonometric functions
 
 From Euler's formula:
 
-$$\cos\theta = \frac{e^{i\theta} + e^{-i\theta}}{2}$$
+$$
+\cos\theta = \frac{e^{i\theta} + e^{-i\theta}}{2}
+$$
 
-$$\sin\theta = \frac{e^{i\theta} - e^{-i\theta}}{2i}$$
+$$
+\sin\theta = \frac{e^{i\theta} - e^{-i\theta}}{2i}
+$$
 
 ### 4.6 Worked example
 
@@ -294,7 +370,9 @@ $$\sin\theta = \frac{e^{i\theta} - e^{-i\theta}}{2i}$$
 
 $1 + i = \sqrt{2}\,e^{i\pi/4}$$1 - i = \sqrt{2}\,e^{-i\pi/4}$.
 
-$$\frac{(1 + i)^5}{(1 - i)^3} = \frac{(\sqrt{2})^5\,e^{i5\pi/4}}{(\sqrt{2})^3\,e^{-i3\pi/4}} = 4\sqrt{2}\,e^{i2\pi} = 4\sqrt{2}$$
+$$
+\frac{(1 + i)^5}{(1 - i)^3} = \frac{(\sqrt{2})^5\,e^{i5\pi/4}}{(\sqrt{2})^3\,e^{-i3\pi/4}} = 4\sqrt{2}\,e^{i2\pi} = 4\sqrt{2}
+$$
 
 In Cartesian form: $4\sqrt{2} + 0i$.
 
@@ -310,7 +388,9 @@ Equating moduli: $e^x = 2 \implies x = \ln 2$.
 
 Equating arguments: $y = \dfrac{\pi}{3} + 2k\pi$ for $k \in \mathbb{Z}$.
 
-$$z = \ln 2 + i\!\left(\frac{\pi}{3} + 2k\pi\right), \quad k \in \mathbb{Z}$$
+$$
+z = \ln 2 + i\!\left(\frac{\pi}{3} + 2k\pi\right), \quad k \in \mathbb{Z}
+$$
 
 :::caution
 The form $e^z = w$ have infinitely many solutions. Always include the general solution with $2k\pi$.
@@ -417,7 +497,9 @@ $= \dfrac{3 + 4\cos 2\theta + \cos 4\theta}{8}$.
 **Proof.** The $n$-th roots of unity are the roots of $z^n - 1 = 0$. By Vieta's formulas, the
 Product of all $n$ roots equals the constant term (up to sign):
 
-$$\prod_{k=0}^{n-1} z_k = (-1)^n \cdot \frac{-1}{1} = (-1)^{n-1} \quad \blacksquare$$
+$$
+\prod_{k=0}^{n-1} z_k = (-1)^n \cdot \frac{-1}{1} = (-1)^{n-1} \quad \blacksquare
+$$
 
 ### 6.2 Proof: conjugate root theorem for real polynomials
 
@@ -426,17 +508,25 @@ $p(\overline{\alpha}) = 0$.
 
 **Proof.** Let $p(z) = a_n z^n + \cdots + a_1 z + a_0$ with all $a_i \in \mathbb{R}$.
 
-$$p(\overline{\alpha}) = a_n \overline{\alpha}^n + \cdots + a_1 \overline{\alpha} + a_0 = \overline{a_n}\,\overline{\alpha^n} + \cdots + \overline{a_1}\,\overline{\alpha} + \overline{a_0}$$
+$$
+p(\overline{\alpha}) = a_n \overline{\alpha}^n + \cdots + a_1 \overline{\alpha} + a_0 = \overline{a_n}\,\overline{\alpha^n} + \cdots + \overline{a_1}\,\overline{\alpha} + \overline{a_0}
+$$
 
-$$= \overline{a_n \alpha^n + \cdots + a_1 \alpha + a_0} = \overline{p(\alpha)} = \overline{0} = 0 \quad \blacksquare$$
+$$
+= \overline{a_n \alpha^n + \cdots + a_1 \alpha + a_0} = \overline{p(\alpha)} = \overline{0} = 0 \quad \blacksquare
+$$
 
 ### 6.3 Proof: $|z_1 + z_2| \leq |z_1| + |z_2|$ (triangle inequality)
 
 **Proof.** Using the exponential form, let $z_1 = r_1 e^{i\theta_1}$ and $z_2 = r_2 e^{i\theta_2}$.
 
-$$|z_1 + z_2|^2 = (z_1 + z_2)\overline{(z_1 + z_2)} = |z_1|^2 + |z_2|^2 + z_1\overline{z_2} + \overline{z_1}z_2$$
+$$
+|z_1 + z_2|^2 = (z_1 + z_2)\overline{(z_1 + z_2)} = |z_1|^2 + |z_2|^2 + z_1\overline{z_2} + \overline{z_1}z_2
+$$
 
-$$= |z_1|^2 + |z_2|^2 + 2\,\mathrm{Re}(z_1\overline{z_2}) \leq |z_1|^2 + |z_2|^2 + 2|z_1||z_2| = (|z_1| + |z_2|)^2$$
+$$
+= |z_1|^2 + |z_2|^2 + 2\,\mathrm{Re}(z_1\overline{z_2}) \leq |z_1|^2 + |z_2|^2 + 2|z_1||z_2| = (|z_1| + |z_2|)^2
+$$
 
 Since $\mathrm{Re}(w) \leq |w|$ for any complex $w$. Taking square roots gives the result.
 $\blacksquare$
@@ -593,15 +683,23 @@ Therefore $z^6 - 1 = (z-1)(z+1)(z^2 - z + 1)(z^2 + z + 1)$. $\blacksquare$
 
 Expanding the LHS using the binomial theorem:
 
-$$(\cos\theta + i\sin\theta)^5 = \cos^5\theta + 5i\cos^4\theta\sin\theta - 10\cos^3\theta\sin^2\theta - 10i\cos^2\theta\sin^3\theta + 5\cos\theta\sin^4\theta + i\sin^5\theta$$
+$$
+(\cos\theta + i\sin\theta)^5 = \cos^5\theta + 5i\cos^4\theta\sin\theta - 10\cos^3\theta\sin^2\theta - 10i\cos^2\theta\sin^3\theta + 5\cos\theta\sin^4\theta + i\sin^5\theta
+$$
 
 Equating real parts and using $\sin^2\theta = 1 - \cos^2\theta$:
 
-$$\cos 5\theta = \cos^5\theta - 10\cos^3\theta(1-\cos^2\theta) + 5\cos\theta(1-\cos^2\theta)^2$$
+$$
+\cos 5\theta = \cos^5\theta - 10\cos^3\theta(1-\cos^2\theta) + 5\cos\theta(1-\cos^2\theta)^2
+$$
 
-$$= \cos^5\theta - 10\cos^3\theta + 10\cos^5\theta + 5\cos\theta - 10\cos^3\theta + 5\cos^5\theta$$
+$$
+= \cos^5\theta - 10\cos^3\theta + 10\cos^5\theta + 5\cos\theta - 10\cos^3\theta + 5\cos^5\theta
+$$
 
-$$= 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta$$
+$$
+= 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta
+$$
 
 ### Example 9.3: Loci involving arguments
 
@@ -620,7 +718,9 @@ From $i$ along the direction $(1, 1)$Which has Cartesian equation $y - 1 = x$I.e
 
 The disc boundary $(x)^2 + (y - 3)^2 = 4$ intersects $y = x + 1$ at:
 
-$$x^2 + (x + 1 - 3)^2 = 4 \implies x^2 + (x-2)^2 = 4 \implies 2x^2 - 4x = 0 \implies x = 0 \text{ or } x = 2$$
+$$
+x^2 + (x + 1 - 3)^2 = 4 \implies x^2 + (x-2)^2 = 4 \implies 2x^2 - 4x = 0 \implies x = 0 \text{ or } x = 2
+$$
 
 So the intersection points are $(0, 1) = i$ and $(2, 3)$.
 
@@ -631,7 +731,9 @@ $w = \dfrac{z + 1}{z - 1}$. Find the image of the line $\mathrm{Re}(z) = 2$ unde
 
 **Solution.** Let $z = 2 + iy$. Then:
 
-$$w = \frac{2 + iy + 1}{2 + iy - 1} = \frac{3 + iy}{1 + iy} = \frac{(3 + iy)(1 - iy)}{1 + y^2} = \frac{3 + y^2 + i(y - 3y)}{1 + y^2} = \frac{3 + y^2 - 2iy}{1 + y^2}$$
+$$
+w = \frac{2 + iy + 1}{2 + iy - 1} = \frac{3 + iy}{1 + iy} = \frac{(3 + iy)(1 - iy)}{1 + y^2} = \frac{3 + y^2 + i(y - 3y)}{1 + y^2} = \frac{3 + y^2 - 2iy}{1 + y^2}
+$$
 
 So $u = \dfrac{3 + y^2}{1 + y^2}$ and $v = \dfrac{-2y}{1 + y^2}$.
 
@@ -639,13 +741,17 @@ Note that $u = 1 + \dfrac{2}{1 + y^2}$ So $u \geq 1$ (since $1 + y^2 \geq 1$).
 
 Also $u - 1 = \dfrac{2}{1 + y^2}$ and $v^2 = \dfrac{4y^2}{(1+y^2)^2} = \dfrac{4y^2}{(1+y^2)^2}$.
 
-$$v^2 = (u-1)\cdot\frac{2y^2}{1+y^2}$$
+$$
+v^2 = (u-1)\cdot\frac{2y^2}{1+y^2}
+$$
 
 From $v = \dfrac{-2y}{1+y^2}$: $v^2 = \dfrac{4y^2}{(1+y^2)^2}$.
 
 Since $u - 1 = \dfrac{2}{1+y^2}$: $(u-1)(1+y^2) = 2$ So $1+y^2 = \dfrac{2}{u-1}$.
 
-$$v^2 = \frac{4y^2}{(1+y^2)^2} = \frac{4\!\left(\frac{2}{u-1} - 1\right)}{\frac{4}{(u-1)^2}} = \frac{\frac{8 - 2(u-1)}{u-1}}{\frac{4}{(u-1)^2}} = \frac{(10 - 2u)(u-1)}{4} = \frac{(5-u)(u-1)}{2}$$
+$$
+v^2 = \frac{4y^2}{(1+y^2)^2} = \frac{4\!\left(\frac{2}{u-1} - 1\right)}{\frac{4}{(u-1)^2}} = \frac{\frac{8 - 2(u-1)}{u-1}}{\frac{4}{(u-1)^2}} = \frac{(10 - 2u)(u-1)}{4} = \frac{(5-u)(u-1)}{2}
+$$
 
 The image is the arc of the circle defined by $2v^2 = (5-u)(u-1)$ for $u \geq 1$Which is a circle
 With centre $(3, 0)$ and radius $2$ in the $w$-plane.
@@ -656,7 +762,9 @@ With centre $(3, 0)$ and radius $2$ in the $w$-plane.
 
 **Solution.** $1 + i = \sqrt{2}\,e^{i\pi/4}$ So $4\sqrt{2}(1 + i) = 8\,e^{i\pi/4}$.
 
-$$z_k = 8^{1/5}\,e^{i(\pi/4 + 2k\pi)/5} = 2^{3/5}\,e^{i(\pi + 8k\pi)/20}, \quad k = 0, 1, 2, 3, 4$$
+$$
+z_k = 8^{1/5}\,e^{i(\pi/4 + 2k\pi)/5} = 2^{3/5}\,e^{i(\pi + 8k\pi)/20}, \quad k = 0, 1, 2, 3, 4
+$$
 
 The five roots lie on a circle of radius $2^{3/5}$Equally spaced starting from angle $\pi/20$.
 
@@ -667,11 +775,15 @@ Real. Find $a$, $b$ And all roots.
 
 **Solution.** Since $a, b$ are real, the conjugate $1 - 2i$ is also a root.
 
-$$[z - (1 + 2i)][z - (1 - 2i)] = (z-1)^2 + 4 = z^2 - 2z + 5$$
+$$
+[z - (1 + 2i)][z - (1 - 2i)] = (z-1)^2 + 4 = z^2 - 2z + 5
+$$
 
 Dividing $z^3 + az^2 + bz + 12$ by $z^2 - 2z + 5$:
 
-$$z^3 + az^2 + bz + 12 = (z^2 - 2z + 5)(z - c)$$
+$$
+z^3 + az^2 + bz + 12 = (z^2 - 2z + 5)(z - c)
+$$
 
 Expanding: $z^3 - cz^2 - 2z^2 + 2cz + 5z - 5c = z^3 + (-c-2)z^2 + (2c+5)z - 5c$.
 
@@ -769,7 +881,9 @@ $z^n - 1 = \prod_{k=0}^{n-1}(z - \omega^k)$ connects to polynomial theory. See
 
 **(a)** $z^3 = -27i = 27\,e^{i(3\pi/2 + 2k\pi)}$.
 
-$$z_k = 27^{1/3}\,e^{i(3\pi/2 + 2k\pi)/3} = 3\,e^{i(\pi/2 + 2k\pi/3)}, \quad k = 0, 1, 2$$
+$$
+z_k = 27^{1/3}\,e^{i(3\pi/2 + 2k\pi)/3} = 3\,e^{i(\pi/2 + 2k\pi/3)}, \quad k = 0, 1, 2
+$$
 
 $k = 0$: $3e^{i\pi/2} = 3i$. $k = 1$:
 $3e^{i7\pi/6} = 3\!\left(-\dfrac{\sqrt{3}}{2} - \dfrac{i}{2}\right)$. $k = 2$:
@@ -790,15 +904,23 @@ The complex number $w$ satisfies $|w + 2i| = 3$ and $\arg w = \pi/6$. Find $w$ i
 
 Let $w = re^{i\pi/6}$. From $|w + 2i| = 3$:
 
-$$|re^{i\pi/6} + 2i| = 3$$
+$$
+|re^{i\pi/6} + 2i| = 3
+$$
 
 $r\cos(\pi/6) + i\!\left(r\sin(\pi/6) + 2\right) = r\!\left(\dfrac{\sqrt{3}}{2}\right) + i\!\left(\dfrac{r}{2} + 2\right)$.
 
-$$\frac{3r^2}{4} + \left(\frac{r}{2} + 2\right)^2 = 9$$
+$$
+\frac{3r^2}{4} + \left(\frac{r}{2} + 2\right)^2 = 9
+$$
 
-$$\frac{3r^2}{4} + \frac{r^2}{4} + 2r + 4 = 9 \implies r^2 + 2r - 5 = 0$$
+$$
+\frac{3r^2}{4} + \frac{r^2}{4} + 2r + 4 = 9 \implies r^2 + 2r - 5 = 0
+$$
 
-$$r = \frac{-2 \pm \sqrt{4 + 20}}{2} = -1 \pm \sqrt{6}$$
+$$
+r = \frac{-2 \pm \sqrt{4 + 20}}{2} = -1 \pm \sqrt{6}
+$$
 
 Since $r > 0$: $r = \sqrt{6} - 1$.
 
@@ -830,9 +952,13 @@ $a^2 = \dfrac{8\sqrt{3} \pm \sqrt{192 + 64}}{32} = \dfrac{8\sqrt{3} \pm 4\sqrt{1
 
 Since $a^2 \leq 1$: $a^2 = \dfrac{2\sqrt{3} + \sqrt{13}}{8}$.
 
-$$\cos\frac{\pi}{12} = \sqrt{\frac{2\sqrt{3} + \sqrt{13}}{8}} = \frac{\sqrt{2\sqrt{3} + \sqrt{13}}}{2\sqrt{2}}$$
+$$
+\cos\frac{\pi}{12} = \sqrt{\frac{2\sqrt{3} + \sqrt{13}}{8}} = \frac{\sqrt{2\sqrt{3} + \sqrt{13}}}{2\sqrt{2}}
+$$
 
-$$\sin\frac{\pi}{12} = \sqrt{\frac{-2\sqrt{3} + \sqrt{13}}{8}} = \frac{\sqrt{-2\sqrt{3} + \sqrt{13}}}{2\sqrt{2}}$$
+$$
+\sin\frac{\pi}{12} = \sqrt{\frac{-2\sqrt{3} + \sqrt{13}}{8}} = \frac{\sqrt{-2\sqrt{3} + \sqrt{13}}}{2\sqrt{2}}
+$$
 
 </details>
 
@@ -840,7 +966,9 @@ $$\sin\frac{\pi}{12} = \sqrt{\frac{-2\sqrt{3} + \sqrt{13}}{8}} = \frac{\sqrt{-2\
 
 **Prove by induction** that for any positive integer $n$:
 
-$$\sum_{k=0}^{n-1} e^{i(2k+1)\pi/n} = 0$$
+$$
+\sum_{k=0}^{n-1} e^{i(2k+1)\pi/n} = 0
+$$
 
 <details>
 <summary>Solution</summary>
@@ -852,7 +980,9 @@ This is the sum of the $n$-th roots of $-1$ (not unity).
 Let us reconsider: $\displaystyle\sum_{k=0}^{n-1}e^{i(2k+1)\pi/n}$ is a geometric series with first
 Term $e^{i\pi/n}$ and ratio $e^{i2\pi/n}$.
 
-$$\sum_{k=0}^{n-1}e^{i(2k+1)\pi/n} = e^{i\pi/n}\cdot\frac{1 - e^{i2\pi}}{1 - e^{i2\pi/n}} = e^{i\pi/n}\cdot\frac{1 - 1}{1 - e^{i2\pi/n}} = 0 \quad \blacksquare$$
+$$
+\sum_{k=0}^{n-1}e^{i(2k+1)\pi/n} = e^{i\pi/n}\cdot\frac{1 - e^{i2\pi}}{1 - e^{i2\pi/n}} = e^{i\pi/n}\cdot\frac{1 - 1}{1 - e^{i2\pi/n}} = 0 \quad \blacksquare
+$$
 
 (Since $e^{i2\pi} = 1$.)
 
@@ -869,19 +999,27 @@ equilateral triangle, giving both possible values of $z$.
 If $z_1$$z$$z_2$ form an equilateral triangle, then $z$ is obtained by rotating $z_2 - z_1$ by
 $\pm\pi/3$ about $z_1$:
 
-$$z = z_1 + (z_2 - z_1)\,e^{\pm i\pi/3}$$
+$$
+z = z_1 + (z_2 - z_1)\,e^{\pm i\pi/3}
+$$
 
 $z_2 - z_1 = (1 - 2) + (-1 - 3)i = -1 - 4i$.
 
 $e^{i\pi/3} = \dfrac{1}{2} + i\dfrac{\sqrt{3}}{2}$:
 
-$$(-1 - 4i)\!\left(\frac{1}{2} + i\frac{\sqrt{3}}{2}\right) = \frac{-1 + 4\sqrt{3}}{2} + i\frac{-4 - \sqrt{3}}{2}$$
+$$
+(-1 - 4i)\!\left(\frac{1}{2} + i\frac{\sqrt{3}}{2}\right) = \frac{-1 + 4\sqrt{3}}{2} + i\frac{-4 - \sqrt{3}}{2}
+$$
 
-$$z = (2 + 3i) + \frac{-1 + 4\sqrt{3}}{2} + i\frac{-4 - \sqrt{3}}{2} = \frac{3 + 4\sqrt{3}}{2} + i\frac{2 - \sqrt{3}}{2}$$
+$$
+z = (2 + 3i) + \frac{-1 + 4\sqrt{3}}{2} + i\frac{-4 - \sqrt{3}}{2} = \frac{3 + 4\sqrt{3}}{2} + i\frac{2 - \sqrt{3}}{2}
+$$
 
 For the other orientation, $e^{-i\pi/3} = \dfrac{1}{2} - i\dfrac{\sqrt{3}}{2}$:
 
-$$z = (2 + 3i) + \frac{-1 - 4\sqrt{3}}{2} + i\frac{-4 + \sqrt{3}}{2} = \frac{3 - 4\sqrt{3}}{2} + i\frac{2 + \sqrt{3}}{2}$$
+$$
+z = (2 + 3i) + \frac{-1 - 4\sqrt{3}}{2} + i\frac{-4 + \sqrt{3}}{2} = \frac{3 - 4\sqrt{3}}{2} + i\frac{2 + \sqrt{3}}{2}
+$$
 
 </details>
 
@@ -907,7 +1045,9 @@ $$z = (2 + 3i) + \frac{-1 - 4\sqrt{3}}{2} + i\frac{-4 + \sqrt{3}}{2} = \frac{3 -
 Imaginary parts:
 $\sin 4\theta = \binom{4}{1}\cos^3\theta\sin\theta - \binom{4}{3}\cos\theta\sin^3\theta$.
 
-$$\boxed{\sin 4\theta = 4\cos^3\theta\sin\theta - 4\cos\theta\sin^3\theta}$$
+$$
+\boxed{\sin 4\theta = 4\cos^3\theta\sin\theta - 4\cos\theta\sin^3\theta}
+$$
 
 ### Example 12.2: Roots of $z^5 = 1$ and their properties
 
@@ -925,7 +1065,9 @@ Sum: $\displaystyle\sum_{k=0}^{4} \omega^k = \frac{1-\omega^5}{1-\omega} = 0$.
 
 **Solution.** Let $z = x + iy$:
 
-$$(x-1)^2 + (y+2)^2 = 9$$
+$$
+(x-1)^2 + (y+2)^2 = 9
+$$
 
 This is a circle with centre $(1, -2)$ and radius $3$.
 
@@ -936,7 +1078,9 @@ This is a circle with centre $(1, -2)$ and radius $3$.
 **Solution.** The locus is a circle centred at $3i$ with radius $2$. The minimum distance from the
 Origin to any point on this circle is:
 
-$$|3i| - 2 = 3 - 2 = \boxed{1}$$
+$$
+|3i| - 2 = 3 - 2 = \boxed{1}
+$$
 
 The point is $z = i$.
 
@@ -989,7 +1133,9 @@ Express $\cos 3\theta + \cos\theta$ as a product.
 Using the sum-to-product formula:
 $\cos A + \cos B = 2\cos\!\left(\dfrac{A+B}{2}\right)\cos\!\left(\dfrac{A-B}{2}\right)$.
 
-$$\cos 3\theta + \cos\theta = 2\cos 2\theta \cos\theta = \boxed{2\cos\theta\cos 2\theta}$$
+$$
+\cos 3\theta + \cos\theta = 2\cos 2\theta \cos\theta = \boxed{2\cos\theta\cos 2\theta}
+$$
 
 </details>
 

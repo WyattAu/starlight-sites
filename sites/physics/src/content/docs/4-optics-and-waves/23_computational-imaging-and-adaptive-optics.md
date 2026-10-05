@@ -22,7 +22,9 @@ description: "(Candes, Tao, Donoho, 2006) shows that signals that are in some ba
 **Compressed sensing** (Candes, Tao, Donoho, 2006) shows that signals that are **sparse** in some
 basis can be reconstructed from far fewer measurements than Nyquist sampling requires:
 
-$$\hat{\mathbf{x}} = \arg\min_{\mathbf{x}} \|\mathbf{x}\|_1 \quad \text{subject} to  \mathbf{y} = \Phi\mathbf{x}$$
+$$
+\hat{\mathbf{x}} = \arg\min_{\mathbf{x}} \|\mathbf{x}\|_1 \quad \text{subject} to  \mathbf{y} = \Phi\mathbf{x}
+$$
 
 Where $\Phi$ is the measurement matrix and $|\cdot|_1$ is the $L^1$ norm promoting sparsity.
 
@@ -31,7 +33,9 @@ Where $\Phi$ is the measurement matrix and $|\cdot|_1$ is the $L^1$ norm promoti
 **Atmospheric turbulence** causes phase distortions in astronomical images. **Adaptive optics (AO)**
 corrects these in real time using a deformable mirror. The Strehl ratio:
 
-$$S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right]$$
+$$
+S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right]
+$$
 
 For diffraction-limited imaging ($S > 0.8$): $\Delta\phi_{\text{rms} < \lambda/14}$. On an 8 m
 telescope at visible wavelengths, the deformable mirror must update at $>500$ Hz to track the
@@ -148,9 +152,13 @@ flowchart TD
 
 **Solution.** The Strehl ratio is:
 
-$$S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right] = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\left(\frac{\lambda}{20}\right)^2\right]$$
+$$
+S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right] = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\left(\frac{\lambda}{20}\right)^2\right]
+$$
 
-$$S = \exp\left[-\left(\frac{2\pi}{20}\right)^2\right] = \exp\left[-\left(\frac{\pi}{10}\right)^2\right] = \exp(-\pi^2/100) \approx \exp(-0.0987) \approx 0.906$$
+$$
+S = \exp\left[-\left(\frac{2\pi}{20}\right)^2\right] = \exp\left[-\left(\frac{\pi}{10}\right)^2\right] = \exp(-\pi^2/100) \approx \exp(-0.0987) \approx 0.906
+$$
 
 Since $S > 0.8$, the system is diffraction-limited. This meets the Marechal criterion ($S > 0.8$), corresponding to $\Delta\phi_{\rm rms} < \lambda/14$. Our $\lambda/20$ exceeds this requirement.
 

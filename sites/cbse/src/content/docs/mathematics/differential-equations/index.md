@@ -65,16 +65,24 @@ Differential equations relate a function to its derivatives. This topic covers c
 **Solution:**
 
 Separate variables:
-$$y \, dy = x \, dx$$
+$$
+y \, dy = x \, dx
+$$
 
 Integrate both sides:
-$$\frac{y^2}{2} = \frac{x^2}{2} + C$$
+$$
+\frac{y^2}{2} = \frac{x^2}{2} + C
+$$
 
 Apply initial condition $y(0) = 4$:
-$$\frac{16}{2} = 0 + C \implies C = 8$$
+$$
+\frac{16}{2} = 0 + C \implies C = 8
+$$
 
 Solution:
-$$\frac{y^2}{2} = \frac{x^2}{2} + 8 \implies y^2 = x^2 + 16$$
+$$
+\frac{y^2}{2} = \frac{x^2}{2} + 8 \implies y^2 = x^2 + 16
+$$
 
 **Common mistake:** Forgetting to apply the initial condition to find $C$. The general solution is not the final answer.
 
@@ -85,23 +93,37 @@ $$\frac{y^2}{2} = \frac{x^2}{2} + 8 \implies y^2 = x^2 + 16$$
 **Solution:**
 
 Rewrite as:
-$$\frac{dy}{dx} = 1 + \frac{y}{x}$$
+$$
+\frac{dy}{dx} = 1 + \frac{y}{x}
+$$
 
 Let $v = \frac{y}{x}$, so $y = vx$ and $\frac{dy}{dx} = v + x\frac{dv}{dx}$:
 
-$$v + x\frac{dv}{dx} = 1 + v$$
+$$
+v + x\frac{dv}{dx} = 1 + v
+$$
 
-$$x\frac{dv}{dx} = 1$$
+$$
+x\frac{dv}{dx} = 1
+$$
 
 Separate and integrate:
-$$dv = \frac{dx}{x}$$
+$$
+dv = \frac{dx}{x}
+$$
 
-$$v = \ln|x| + C$$
+$$
+v = \ln|x| + C
+$$
 
 Substitute back $v = y/x$:
-$$\frac{y}{x} = \ln|x| + C$$
+$$
+\frac{y}{x} = \ln|x| + C
+$$
 
-$$y = x\ln|x| + Cx$$
+$$
+y = x\ln|x| + Cx
+$$
 
 **Common mistake:** Not recognizing that the equation is homogeneous. If $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$, the substitution $v = y/x$ always works.
 
@@ -114,17 +136,27 @@ $$y = x\ln|x| + Cx$$
 This is linear with $P = \frac{1}{x}$ and $Q = x^2$.
 
 Integrating factor:
-$$\mu = e^{\int \frac{1}{x} dx} = e^{\ln x} = x$$
+$$
+\mu = e^{\int \frac{1}{x} dx} = e^{\ln x} = x
+$$
 
 Multiply through by $\mu$:
-$$x\frac{dy}{dx} + y = x^3$$
+$$
+x\frac{dy}{dx} + y = x^3
+$$
 
-$$\frac{d}{dx}(xy) = x^3$$
+$$
+\frac{d}{dx}(xy) = x^3
+$$
 
 Integrate:
-$$xy = \frac{x^4}{4} + C$$
+$$
+xy = \frac{x^4}{4} + C
+$$
 
-$$y = \frac{x^3}{4} + \frac{C}{x}$$
+$$
+y = \frac{x^3}{4} + \frac{C}{x}
+$$
 
 **Common mistake:** Forgetting to multiply the entire equation by the integrating factor, not just the $dy/dx$ term.
 

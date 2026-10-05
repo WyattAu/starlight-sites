@@ -796,7 +796,9 @@ $V = nRT/p = 0.0747 \times 8.314 \times 298 / (100 \times 10^3) = 1.85 \times 10
 
 The standard electrode potential of a cell indicates whether a redox reaction is feasible:
 
-$$E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode}$$
+$$
+E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode}
+$$
 
 If $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$The reaction is considered thermodynamically feasible
 (proceeds to a significant extent) under standard conditions. If
@@ -815,17 +817,23 @@ Half-equations:
 Zinc is the more reactive metal (more negative $E^\circ$), so it will be oxidised (anode). Copper
 ions will be reduced (cathode).
 
-$$E^\circ_\mathrm{cell} = 0.34 - (-0.76) = +1.10\,\mathrm{V}$$
+$$
+E^\circ_\mathrm{cell} = 0.34 - (-0.76) = +1.10\,\mathrm{V}
+$$
 
 Since $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$The reaction is feasible:
 
-$$\mathrm{Zn}(s) + \mathrm{Cu}^{2+}(aq) \to \mathrm{Zn}^{2+}(aq) + \mathrm{Cu}(s)$$
+$$
+\mathrm{Zn}(s) + \mathrm{Cu}^{2+}(aq) \to \mathrm{Zn}^{2+}(aq) + \mathrm{Cu}(s)
+$$
 
 ### Worked Example: Non-Standard Conditions (Nernst Equation)
 
 The Nernst equation calculates the cell potential under non-standard conditions:
 
-$$E = E^\circ - \frac{RT}{nF}\ln Q$$
+$$
+E = E^\circ - \frac{RT}{nF}\ln Q
+$$
 
 Where $Q$ is the reaction quotient.
 
@@ -833,17 +841,29 @@ Where $Q$ is the reaction quotient.
 $\mathrm{Zn}|\mathrm{Zn}^{2+}(0.010\,\mathrm{mol\,dm^{-3})||\mathrm{Cu}^{2+}(0.001\,\mathrm{mol\,dm^{-3})|\mathrm{Cu}$
 at $298\,\mathrm{K}$.**
 
-$$E^\circ_\mathrm{cell} = 0.34 - (-0.76) = 1.10\,\mathrm{V}$$
+$$
+E^\circ_\mathrm{cell} = 0.34 - (-0.76) = 1.10\,\mathrm{V}
+$$
 
-$$Q = \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Zn}^{+}]} = \frac{0.001}{0.010} = 0.10$$
+$$
+Q = \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Zn}^{+}]} = \frac{0.001}{0.010} = 0.10
+$$
 
-$$E = 1.10 - \frac{8.314 \times 298}{2 \times 96485}\ln(0.10)$$
+$$
+E = 1.10 - \frac{8.314 \times 298}{2 \times 96485}\ln(0.10)
+$$
 
-$$= 1.10 - \frac{2478}{192970}\ln(0.10)$$
+$$
+= 1.10 - \frac{2478}{192970}\ln(0.10)
+$$
 
-$$= 1.10 - 0.01284 \times (-2.303)$$
+$$
+= 1.10 - 0.01284 \times (-2.303)
+$$
 
-$$= 1.10 + 0.0296 = 1.13\,\mathrm{V}$$
+$$
+= 1.10 + 0.0296 = 1.13\,\mathrm{V}
+$$
 
 The cell potential is slightly higher than $E^\circ$ because the lower product concentration
 ([Cu2+]) drives the reaction further to the right.
@@ -878,13 +898,21 @@ overpotentials and internal resistance.
 **Worked Example:** How long does it take to deposit $0.500\,\mathrm{g}$ of nickel from
 $\mathrm{NiSO}_4$ solution using a current of $2.50\,\mathrm{A}$?
 
-$$\mathrm{Ni}^{2+} + 2e^- \to \mathrm{Ni}$$
+$$
+\mathrm{Ni}^{2+} + 2e^- \to \mathrm{Ni}
+$$
 
-$$n(\mathrm{Ni}) = \frac{m}{M} = \frac{0.500}{58.69} = 0.00852\,\mathrm{mol}$$
+$$
+n(\mathrm{Ni}) = \frac{m}{M} = \frac{0.500}{58.69} = 0.00852\,\mathrm{mol}
+$$
 
-$$Q = n \times z \times F = 0.00852 \times 2 \times 96485 = 1643\,\mathrm{C}$$
+$$
+Q = n \times z \times F = 0.00852 \times 2 \times 96485 = 1643\,\mathrm{C}
+$$
 
-$$t = \frac{Q}{I} = \frac{1643}{2.50} = 657\,\mathrm{s} = 11.0\,\mathrm{min}$$
+$$
+t = \frac{Q}{I} = \frac{1643}{2.50} = 657\,\mathrm{s} = 11.0\,\mathrm{min}
+$$
 
 ### Electrochemical Series and Displacement Reactions
 

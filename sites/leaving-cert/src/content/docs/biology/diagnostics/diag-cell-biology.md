@@ -69,7 +69,9 @@ at least four differences.
 
 (c) Image size $= 4.2\,\text{cm} = 42{,}000\,\mu\text{m}$.
 
-$$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{42000}{5000} = 8.4\,\mu\text{m}$$
+$$
+\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{42000}{5000} = 8.4\,\mu\text{m}
+$$
 
 (d) Four differences between prokaryotic and eukaryotic cells:
 

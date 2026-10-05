@@ -56,13 +56,21 @@ different answer. Explain why this is wrong and identify the correct perpendicul
 
 (a) Torque: $\vec{\tau} = \vec{r} \times \vec{F}$
 
-$$\vec{\tau} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 3 & 4 & -2 \\ 12 & -5 & 8 \end{vmatrix}$$
+$$
+\vec{\tau} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 3 & 4 & -2 \\ 12 & -5 & 8 \end{vmatrix}
+$$
 
-$$= \hat{i}(4 \times 8 - (-2) \times (-5)) - \hat{j}(3 \times 8 - (-2) \times 12) + \hat{k}(3 \times (-5) - 4 \times 12)$$
+$$
+= \hat{i}(4 \times 8 - (-2) \times (-5)) - \hat{j}(3 \times 8 - (-2) \times 12) + \hat{k}(3 \times (-5) - 4 \times 12)
+$$
 
-$$= \hat{i}(32 - 10) - \hat{j}(24 + 24) + \hat{k}(-15 - 48)$$
+$$
+= \hat{i}(32 - 10) - \hat{j}(24 + 24) + \hat{k}(-15 - 48)
+$$
 
-$$= 22\hat{i} - 48\hat{j} - 63\hat{k}\,\text{N}\,\text{m}$$
+$$
+= 22\hat{i} - 48\hat{j} - 63\hat{k}\,\text{N}\,\text{m}
+$$
 
 (b) Magnitude:
 $|\vec{\tau}| = \sqrt{22^2 + 48^2 + 63^2} = \sqrt{484 + 2304 + 3969} = \sqrt{6757} = 82.2\,\text{N}\,\text{m}$
@@ -70,17 +78,25 @@ $|\vec{\tau}| = \sqrt{22^2 + 48^2 + 63^2} = \sqrt{484 + 2304 + 3969} = \sqrt{675
 (c) The student computed $|\vec{F}| \times |\vec{r}|$Which is the product of the magnitudes. This is
 only correct when $\vec{F}$ is perpendicular to $\vec{r}$. :
 
-$$|\vec{r} \times \vec{F}| = |\vec{r}||\vec{F}|\sin\theta$$
+$$
+|\vec{r} \times \vec{F}| = |\vec{r}||\vec{F}|\sin\theta
+$$
 
 Where $\theta$ is the angle between $\vec{r}$ and $\vec{F}$.
 
 The correct perpendicular distance (moment arm) is $d = |\vec{r}|\sin\theta$.
 
-$$|\vec{F}| = \sqrt{144 + 25 + 64} = \sqrt{233} = 15.26\,\text{N}$$
+$$
+|\vec{F}| = \sqrt{144 + 25 + 64} = \sqrt{233} = 15.26\,\text{N}
+$$
 
-$$|\vec{r}| = \sqrt{9 + 16 + 4} = \sqrt{29} = 5.385\,\text{m}$$
+$$
+|\vec{r}| = \sqrt{9 + 16 + 4} = \sqrt{29} = 5.385\,\text{m}
+$$
 
-$$|\vec{F}| \times |\vec{r}| = 15.26 \times 5.385 = 82.2\,\text{N}\,\text{m}$$
+$$
+|\vec{F}| \times |\vec{r}| = 15.26 \times 5.385 = 82.2\,\text{N}\,\text{m}
+$$
 
 In this case the product of magnitudes equals the torque magnitude. This occurs because
 $\vec{r} \cdot \vec{F} = 3(12) + 4(-5) + (-2)(8) = 36 - 20 - 16 = 0$ So $\vec{r}$ and $\vec{F}$ are
@@ -124,15 +140,21 @@ $I_{\text{cm}} = \frac{1}{2}MR^2 = \frac{1}{2} \times 8.0 \times 0.09 = 0.360\,\
 
 By the parallel axis theorem, with the pivot at distance $R$ from the centre:
 
-$$I = I_{\text{cm}} + Md^2 = 0.360 + 8.0 \times 0.30^2 = 0.360 + 0.720 = 1.080\,\text{kg}\,\text{m}^2$$
+$$
+I = I_{\text{cm}} + Md^2 = 0.360 + 8.0 \times 0.30^2 = 0.360 + 0.720 = 1.080\,\text{kg}\,\text{m}^2
+$$
 
 (b) For a compound pendulum, the period is:
 
-$$T = 2\pi\sqrt{\frac{I}{Mgd}}$$
+$$
+T = 2\pi\sqrt{\frac{I}{Mgd}}
+$$
 
 Where $d = R = 0.30\,\text{m}$:
 
-$$T = 2\pi\sqrt{\frac{1.080}{8.0 \times 9.81 \times 0.30}} = 2\pi\sqrt{\frac{1.080}{23.54}} = 2\pi\sqrt{0.04588} = 2\pi \times 0.2142 = 1.346\,\text{s}$$
+$$
+T = 2\pi\sqrt{\frac{1.080}{8.0 \times 9.81 \times 0.30}} = 2\pi\sqrt{\frac{1.080}{23.54}} = 2\pi\sqrt{0.04588} = 2\pi \times 0.2142 = 1.346\,\text{s}
+$$
 
 (c) The period is
 $T = 2\pi\sqrt{\frac{I_{\text{cm}} + Md^2}{Mgd}} = 2\pi\sqrt{\frac{R^2/2 + d^2}{gd}}$
@@ -141,11 +163,17 @@ To minimise $T$We minimise $\frac{R^2/2 + d^2}{d} = \frac{R^2}{2d} + d$.
 
 Setting the derivative to zero:
 
-$$\frac{d}{dd}\left(\frac{R^2}{2d} + d\right) = -\frac{R^2}{2d^2} + 1 = 0$$
+$$
+\frac{d}{dd}\left(\frac{R^2}{2d} + d\right) = -\frac{R^2}{2d^2} + 1 = 0
+$$
 
-$$d^2 = \frac{R^2}{2}$$
+$$
+d^2 = \frac{R^2}{2}
+$$
 
-$$d = \frac{R}{\sqrt{2}} = \frac{0.30}{1.414} = 0.212\,\text{m}$$
+$$
+d = \frac{R}{\sqrt{2}} = \frac{0.30}{1.414} = 0.212\,\text{m}
+$$
 
 This is the radius of gyration of the disc, and at this distance the period equals that of a simple
 pendulum of length equal to the radius of gyration.
@@ -181,11 +209,17 @@ identify where the extra energy comes from.
 
 (a) Angular momentum is conserved (no external torque):
 
-$$L = I_1\omega_1 = I_2\omega_2$$
+$$
+L = I_1\omega_1 = I_2\omega_2
+$$
 
-$$4.0 \times 2.0 = 1.2 \times \omega_2$$
+$$
+4.0 \times 2.0 = 1.2 \times \omega_2
+$$
 
-$$\omega_2 = \frac{8.0}{1.2} = 6.67\,\text{rad}\,\text{s}^{-1}$$
+$$
+\omega_2 = \frac{8.0}{1.2} = 6.67\,\text{rad}\,\text{s}^{-1}
+$$
 
 (b) Initial rotational KE:
 $KE_1 = \frac{1}{2}I_1\omega_1^2 = \frac{1}{2} \times 4.0 \times 4.0 = 8.0\,\text{J}$
@@ -231,39 +265,63 @@ For rolling without slipping: $a = r\alpha$ and $v = r\omega$.
 
 Taking forces along the incline (down the slope positive):
 
-$$mg\sin\theta - f = ma \quad \text{--- (1)}$$
+$$
+mg\sin\theta - f = ma \quad \text{--- (1)}
+$$
 
 Torque about the centre of mass: $fr = I_{\text{cm}}\alpha = I_{\text{cm}} \times a/r$
 
-$$f = \frac{I_{\text{cm}}a}{r^2} = \frac{2}{5}ma \quad \text{--- (2)}$$
+$$
+f = \frac{I_{\text{cm}}a}{r^2} = \frac{2}{5}ma \quad \text{--- (2)}
+$$
 
 Substituting (2) into (1):
 
-$$mg\sin\theta - \frac{2}{5}ma = ma$$
+$$
+mg\sin\theta - \frac{2}{5}ma = ma
+$$
 
-$$mg\sin\theta = \frac{7}{5}ma$$
+$$
+mg\sin\theta = \frac{7}{5}ma
+$$
 
-$$a = \frac{5g\sin\theta}{7} = \frac{5 \times 9.81 \times 0.5}{7} = \frac{24.525}{7} = 3.50\,\text{m}\,\text{s}^{-2}$$
+$$
+a = \frac{5g\sin\theta}{7} = \frac{5 \times 9.81 \times 0.5}{7} = \frac{24.525}{7} = 3.50\,\text{m}\,\text{s}^{-2}
+$$
 
 (b) Using $v^2 = u^2 + 2as$ with $u = 0$:
 
-$$v^2 = 2 \times 3.50 \times 3.0 = 21.0$$
+$$
+v^2 = 2 \times 3.50 \times 3.0 = 21.0
+$$
 
-$$v = 4.58\,\text{m}\,\text{s}^{-1}$$
+$$
+v = 4.58\,\text{m}\,\text{s}^{-1}
+$$
 
 Alternatively, using energy conservation:
 
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}mv^2 + \frac{1}{2} \times \frac{2}{5}mr^2 \times \frac{v^2}{r^2}$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}mv^2 + \frac{1}{2} \times \frac{2}{5}mr^2 \times \frac{v^2}{r^2}
+$$
 
-$$mgh = \frac{7}{10}mv^2$$
+$$
+mgh = \frac{7}{10}mv^2
+$$
 
-$$v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.81 \times 3.0 \times \sin 30^\circ}{7}} = \sqrt{\frac{10 \times 9.81 \times 1.5}{7}} = \sqrt{21.02} = 4.58\,\text{m}\,\text{s}^{-1}$$
+$$
+v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.81 \times 3.0 \times \sin 30^\circ}{7}} = \sqrt{\frac{10 \times 9.81 \times 1.5}{7}} = \sqrt{21.02} = 4.58\,\text{m}\,\text{s}^{-1}
+$$
 
 (c) On a frictionless incline, all PE converts to translational KE:
 
-$$mgh = \frac{1}{2}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2
+$$
 
-$$v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 1.5} = \sqrt{29.43} = 5.42\,\text{m}\,\text{s}^{-1}$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 1.5} = \sqrt{29.43} = 5.42\,\text{m}\,\text{s}^{-1}
+$$
 
 The frictionless case gives a higher speed ($5.42\,\text{m}\,\text{s}^{-1}$ vs
 $4.58\,\text{m}\,\text{s}^{-1}$). The difference arises because in the rolling case, some
@@ -312,31 +370,49 @@ Total moment of inertia: $I = 4.0 + 0.20 = 4.20\,\text{kg}\,\text{m}^2$
 
 Initial angular momentum of the bullet about the pivot:
 
-$$L_i = mvL = 0.050 \times 400 \times 2.0 = 40.0\,\text{kg}\,\text{m}^2\,\text{s}^{-1}$$
+$$
+L_i = mvL = 0.050 \times 400 \times 2.0 = 40.0\,\text{kg}\,\text{m}^2\,\text{s}^{-1}
+$$
 
 After collision (angular momentum conserved):
 
-$$L_i = I\omega$$
+$$
+L_i = I\omega
+$$
 
-$$40.0 = 4.20\omega$$
+$$
+40.0 = 4.20\omega
+$$
 
-$$\omega = \frac{40.0}{4.20} = 9.52\,\text{rad}\,\text{s}^{-1}$$
+$$
+\omega = \frac{40.0}{4.20} = 9.52\,\text{rad}\,\text{s}^{-1}
+$$
 
 (b) Energy conservation from the instant after collision to maximum angle $\theta$:
 
-$$\frac{1}{2}I\omega^2 = (M + m)g \times \text{rise of centre of mass}$$
+$$
+\frac{1}{2}I\omega^2 = (M + m)g \times \text{rise of centre of mass}
+$$
 
 The centre of mass of the combined system (rod + bullet at end) is at distance from pivot:
 
-$$d_{\text{cm}} = \frac{M \times L/2 + m \times L}{M + m} = \frac{3.0 \times 1.0 + 0.050 \times 2.0}{3.050} = \frac{3.10}{3.050} = 1.016\,\text{m}$$
+$$
+d_{\text{cm}} = \frac{M \times L/2 + m \times L}{M + m} = \frac{3.0 \times 1.0 + 0.050 \times 2.0}{3.050} = \frac{3.10}{3.050} = 1.016\,\text{m}
+$$
 
 Rise of centre of mass: $\Delta h = d_{\text{cm}}(1 - \cos\theta)$
 
-$$\frac{1}{2} \times 4.20 \times 9.52^2 = 3.050 \times 9.81 \times 1.016(1 - \cos\theta)$$
+$$
+\frac{1}{2} \times 4.20 \times 9.52^2 = 3.050 \times 9.81 \times 1.016(1 - \cos\theta)
+$$
 
-$$190.3 = 30.42(1 - \cos\theta)$$
+$$
+190.3 = 30.42(1 - \cos\theta)
+$$
 
-$$1 - \cos\theta = 6.26$$
+$$
+1 - \cos\theta = 6.26
+$$
 
 Since $1 - \cos\theta$ cannot exceed 2, the rod makes a full revolution. This means the kinetic
 energy after the collision exceeds the gravitational PE needed for a complete rotation.
@@ -358,7 +434,9 @@ $I_{\text{bullet}} = m(L/2)^2 = 0.050 \times 1.0 = 0.050\,\text{kg}\,\text{m}^2$
 
 Total $I = 4.0 + 0.050 = 4.050\,\text{kg}\,\text{m}^2$
 
-$$\omega = \frac{20.0}{4.050} = 4.94\,\text{rad}\,\text{s}^{-1}$$
+$$
+\omega = \frac{20.0}{4.050} = 4.94\,\text{rad}\,\text{s}^{-1}
+$$
 
 The angular velocity is approximately halved when the bullet strikes at the midpoint rather than the
 end, because the angular momentum input is halved (shorter moment arm) while the moment of inertia
@@ -409,17 +487,27 @@ Rotational about the centre: $Tr = I\alpha$
 
 For rolling without slipping (string unwinding): $a = r\alpha$ So $\alpha = a/r$.
 
-$$T = \frac{I\alpha}{r} = \frac{Ia}{r^2}$$
+$$
+T = \frac{I\alpha}{r} = \frac{Ia}{r^2}
+$$
 
 Substituting into the translational equation:
 
-$$mg - \frac{Ia}{r^2} = ma$$
+$$
+mg - \frac{Ia}{r^2} = ma
+$$
 
-$$a\left(m + \frac{I}{r^2}\right) = mg$$
+$$
+a\left(m + \frac{I}{r^2}\right) = mg
+$$
 
-$$a = \frac{mg}{m + I/r^2} = \frac{0.20 \times 9.81}{0.20 + 9.0 \times 10^{-5}/(0.005)^2}$$
+$$
+a = \frac{mg}{m + I/r^2} = \frac{0.20 \times 9.81}{0.20 + 9.0 \times 10^{-5}/(0.005)^2}
+$$
 
-$$a = \frac{1.962}{0.20 + 3.6} = \frac{1.962}{3.8} = 0.516\,\text{m}\,\text{s}^{-2}$$
+$$
+a = \frac{1.962}{0.20 + 3.6} = \frac{1.962}{3.8} = 0.516\,\text{m}\,\text{s}^{-2}
+$$
 
 (c) Tension: $T = mg - ma = 1.962 - 0.20 \times 0.516 = 1.962 - 0.103 = 1.86\,\text{N}$
 

@@ -416,7 +416,9 @@ Them: genes that are farther apart are more likely to be separated by crossing o
 **Recombination frequency:** The percentage of offspring that are recombinant (have a non-parental
 Combination of alleles).
 
-$$\mathrm{Recombination frequency = \frac{\mathrm{Number of recombinant offspring}{\mathrm{Total offspring} \times 100$$
+$$
+\mathrm{Recombination frequency = \frac{\mathrm{Number of recombinant offspring}{\mathrm{Total offspring} \times 100
+$$
 
 - 1% recombination = 1 centimorgan (cM) or 1 map unit.
 - Maximum recombination frequency of 50% means the genes are effectively unlinked (on different
@@ -443,13 +445,17 @@ Total offspring: 728.
 
 Recombination frequency between A and B:
 
-$$\frac{30 + 28 + 5 + 3}{728} \times 100 = \frac{66}{728} \times 100 \approx 9.1\%$$
+$$
+\frac{30 + 28 + 5 + 3}{728} \times 100 = \frac{66}{728} \times 100 \approx 9.1\%
+$$
 
 So A and B are approximately 9.1 cM apart.
 
 Recombination frequency between B and C:
 
-$$\frac{15 + 17 + 5 + 3}{728} \times 100 = \frac{40}{728} \times 100 \approx 5.5\%$$
+$$
+\frac{15 + 17 + 5 + 3}{728} \times 100 = \frac{40}{728} \times 100 \approx 5.5\%
+$$
 
 So B and C are approximately 5.5 cM apart.
 
@@ -461,7 +467,9 @@ Side from A.
 **Why double crossovers matter:** Without the three-point cross, the observed recombination
 Frequency between A and C would be:
 
-$$\frac{30 + 28 + 15 + 17 + 5 + 3}{728} \times 100 = \frac{98}{728} \times 100 \approx 13.5\%$$
+$$
+\frac{30 + 28 + 15 + 17 + 5 + 3}{728} \times 100 = \frac{98}{728} \times 100 \approx 13.5\%
+$$
 
 But the actual distance is $9.1 + 5.5 = 14.6$ cM. The double crossovers make the A-C distance appear
 Shorter than it really is because they swap the alleles back to the parental arrangement. The
@@ -755,13 +763,19 @@ Single crossover between D and E: $\mathrm{DEf$ (60) and $\mathrm{deF$ (70).
 Single crossover between E and F: $\mathrm{Def$ (20) and $\mathrm{dEF$ (30).
 
 Recombination frequency D-E:
-$$\frac{60 + 70 + 15 + 25}{1000} \times 100 = \frac{170}{1000} \times 100 = 17.0\%$$
+$$
+\frac{60 + 70 + 15 + 25}{1000} \times 100 = \frac{170}{1000} \times 100 = 17.0\%
+$$
 
 Recombination frequency E-F:
-$$\frac{20 + 30 + 15 + 25}{1000} \times 100 = \frac{90}{1000} \times 100 = 9.0\%$$
+$$
+\frac{20 + 30 + 15 + 25}{1000} \times 100 = \frac{90}{1000} \times 100 = 9.0\%
+$$
 
 Recombination frequency D-F:
-$$\frac{60 + 70 + 20 + 30 + 15 + 25}{1000} \times 100 = \frac{220}{1000} \times 100 = 22.0\%$$
+$$
+\frac{60 + 70 + 20 + 30 + 15 + 25}{1000} \times 100 = \frac{220}{1000} \times 100 = 22.0\%
+$$
 
 Genetic map: D ---17.0 cM--- E ---9.0 cM--- F
 
@@ -792,7 +806,9 @@ Fitness values: $w_{AA} = 1$$w_{Aa} = 1$$w_{aa} = 0$.
 Mean fitness: $\bar{w} = p^2(1) + 2pq(1) + q^2(0) = 0.9604 + 0.0392 = 0.9996$.
 
 After selection, the frequency of the recessive allele is:
-$$q' = \frac{pq \cdot w_{Aa} + q^2 \cdot w_{aa}}{2\bar{w}} = \frac{0.98 \times 0.02 \times 1 + 0.0004 \times 0}{2 \times 0.9996} = \frac{0.0196}{1.9992} \approx 0.0098$$
+$$
+q' = \frac{pq \cdot w_{Aa} + q^2 \cdot w_{aa}}{2\bar{w}} = \frac{0.98 \times 0.02 \times 1 + 0.0004 \times 0}{2 \times 0.9996} = \frac{0.0196}{1.9992} \approx 0.0098
+$$
 
 After one generation of selection, the allele frequency drops from $q = 0.02$ to
 $q' \approx 0.0098$. The frequency approximately halves because homozygous recessive individuals are
@@ -887,7 +903,9 @@ $X^H$ or $X^h$ from the carrier mother and Y from the father).
 For each son, the probability of being unaffected is 1/2.
 
 Probability that both children are sons AND both are unaffected:
-$$P = \left(\frac{1}{2}\right)^2 \times \left(\frac{1}{2}\right)^2 = \frac{1}{4} \times \frac{1}{4} = \frac{1}{16}$$
+$$
+P = \left(\frac{1}{2}\right)^2 \times \left(\frac{1}{2}\right)^2 = \frac{1}{4} \times \frac{1}{4} = \frac{1}{16}
+$$
 
 Breaking this down: P(both sons) = $(1/2)(1/2) = 1/4$. Given both are sons, P(both unaffected) =
 $(1/2)(1/2) = 1/4$. Combined: $1/4 \times 1/4 = 1/16$.

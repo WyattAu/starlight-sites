@@ -96,7 +96,9 @@ Expected values (3:1 ratio, $n = 1000$):
 - Tall: $1000 \times 3/4 = 750$
 - Dwarf: $1000 \times 1/4 = 250$
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 Tall: $\frac{(732 - 750)^2}{750} = \frac{(-18)^2}{750} = \frac{324}{750} = 0.432$
 
@@ -229,7 +231,9 @@ Let $w_{AA} = 0.85$$w_{AS} = 1.00$$w_{SS} = 0.15$.
 
 At equilibrium under balancing selection, the frequency of allele S is:
 
-$$q = \frac{w_{AS} - w_{AA}}{2w_{AS} - w_{AA} - w_{SS}}$$
+$$
+q = \frac{w_{AS} - w_{AA}}{2w_{AS} - w_{AA} - w_{SS}}
+$$
 
 $q = \frac{1.00 - 0.85}{2(1.00) - 0.85 - 0.15} = \frac{0.15}{2.00 - 1.00} = \frac{0.15}{1.00} = 0.15$
 

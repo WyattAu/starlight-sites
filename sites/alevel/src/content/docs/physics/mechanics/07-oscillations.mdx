@@ -35,7 +35,9 @@ Explore the simulation above to develop intuition for this topic.
 **Definition.** A body undergoes **simple harmonic motion (SHM)** if its acceleration is directly
 Proportional to its displacement from a fixed point and is always directed towards that point:
 
-$$\boxed{a = -\omega^2 x}$$
+$$
+\boxed{a = -\omega^2 x}
+$$
 
 Where $\omega$ is the angular frequency of the oscillation and $x$ is the displacement from the
 Equilibrium position.
@@ -47,20 +49,28 @@ Position (a **restoring force**).
 
 Starting from $a = -\omega^2 x$ And using $a = \frac{d^2x}{dt^2}$:
 
-$$\frac{d^2x}{dt^2} = -\omega^2 x$$
+$$
+\frac{d^2x}{dt^2} = -\omega^2 x
+$$
 
 This is a second-order linear ODE with constant coefficients. We propose a solution of the form
 $x = A\cos(\omega t + \phi)$.
 
 **Verification by double differentiation:**
 
-$$\frac{dx}{dt} = -A\omega\sin(\omega t + \phi)$$
+$$
+\frac{dx}{dt} = -A\omega\sin(\omega t + \phi)
+$$
 
-$$\frac{d^2x}{dt^2} = -A\omega^2\cos(\omega t + \phi) = -\omega^2 x \quad \checkmark$$
+$$
+\frac{d^2x}{dt^2} = -A\omega^2\cos(\omega t + \phi) = -\omega^2 x \quad \checkmark
+$$
 
 Therefore:
 
-$$\boxed{x(t) = A\cos(\omega t + \phi)}$$
+$$
+\boxed{x(t) = A\cos(\omega t + \phi)}
+$$
 
 Where:
 
@@ -74,13 +84,17 @@ An equivalent form is $x = A\sin(\omega t + \phi')$Which differs only by a phase
 
 **Velocity:**
 
-$$v = \frac{dx}{dt} = -A\omega\sin(\omega t + \phi)$$
+$$
+v = \frac{dx}{dt} = -A\omega\sin(\omega t + \phi)
+$$
 
 **Maximum velocity:** $v_{\max} = A\omega$ (at $x = 0$The equilibrium position).
 
 **Acceleration:**
 
-$$a = \frac{d^2x}{dt^2} = -A\omega^2\cos(\omega t + \phi) = -\omega^2 x$$
+$$
+a = \frac{d^2x}{dt^2} = -A\omega^2\cos(\omega t + \phi) = -\omega^2 x
+$$
 
 **Maximum acceleration:** $a_{\max} = A\omega^2$ (at $x = \pm A$The turning points).
 
@@ -88,21 +102,31 @@ $$a = \frac{d^2x}{dt^2} = -A\omega^2\cos(\omega t + \phi) = -\omega^2 x$$
 
 From $x = A\cos(\omega t + \phi)$ and $v = -A\omega\sin(\omega t + \phi)$:
 
-$$\cos(\omega t + \phi) = \frac{x}{A}, \quad \sin(\omega t + \phi) = \frac{-v}{A\omega}$$
+$$
+\cos(\omega t + \phi) = \frac{x}{A}, \quad \sin(\omega t + \phi) = \frac{-v}{A\omega}
+$$
 
 Since $\sin^2 + \cos^2 = 1$:
 
-$$\frac{x^2}{A^2} + \frac{v^2}{A^2\omega^2} = 1$$
+$$
+\frac{x^2}{A^2} + \frac{v^2}{A^2\omega^2} = 1
+$$
 
-$$\boxed{v = \pm\omega\sqrt{A^2 - x^2}}$$
+$$
+\boxed{v = \pm\omega\sqrt{A^2 - x^2}}
+$$
 
 ## 3. Energy in SHM
 
 ### Kinetic Energy
 
-$$E_k = \frac{1}{2}mv^2 = \frac{1}{2}m\omega^2(A^2 - x^2)$$
+$$
+E_k = \frac{1}{2}mv^2 = \frac{1}{2}m\omega^2(A^2 - x^2)
+$$
 
-$$\boxed{E_k = \frac{1}{2}m\omega^2(A^2 - x^2)}$$
+$$
+\boxed{E_k = \frac{1}{2}m\omega^2(A^2 - x^2)}
+$$
 
 **Derivation.** Substituting $v = \omega\sqrt{A^2 - x^2}$ into $E_k = \frac{1}{2}mv^2$. $\square$
 
@@ -111,15 +135,23 @@ $$\boxed{E_k = \frac{1}{2}m\omega^2(A^2 - x^2)}$$
 The potential energy at displacement $x$ is the work done against the restoring force from
 Equilibrium to $x$:
 
-$$E_p = -\int_0^x F\,dx' = -\int_0^x (-m\omega^2 x')\,dx' = m\omega^2\int_0^x x'\,dx'$$
+$$
+E_p = -\int_0^x F\,dx' = -\int_0^x (-m\omega^2 x')\,dx' = m\omega^2\int_0^x x'\,dx'
+$$
 
-$$\boxed{E_p = \frac{1}{2}m\omega^2 x^2}$$
+$$
+\boxed{E_p = \frac{1}{2}m\omega^2 x^2}
+$$
 
 ### Total Energy
 
-$$E_{\mathrm{total}} = E_k + E_p = \frac{1}{2}m\omega^2(A^2 - x^2) + \frac{1}{2}m\omega^2 x^2 = \frac{1}{2}m\omega^2 A^2$$
+$$
+E_{\mathrm{total}} = E_k + E_p = \frac{1}{2}m\omega^2(A^2 - x^2) + \frac{1}{2}m\omega^2 x^2 = \frac{1}{2}m\omega^2 A^2
+$$
 
-$$\boxed{E_{\mathrm{total}} = \frac{1}{2}m\omega^2 A^2 = \mathrm{constant}}$$
+$$
+\boxed{E_{\mathrm{total}} = \frac{1}{2}m\omega^2 A^2 = \mathrm{constant}}
+$$
 
 **Proof that total energy is constant.** The total energy depends only on $m$, $\omega$ And $A$,
 None of which change during the motion. Therefore $E_{\mathrm{total}}$ is conserved. $\square$
@@ -138,7 +170,9 @@ By Newton's second law: $ma = -kx$I.e., $a = -\frac{k}{m}x$.
 
 Comparing with $a = -\omega^2 x$:
 
-$$\boxed{\omega = \sqrt{\frac{k}{m}}, \qquad T = 2\pi\sqrt{\frac{m}{k}}}$$
+$$
+\boxed{\omega = \sqrt{\frac{k}{m}}, \qquad T = 2\pi\sqrt{\frac{m}{k}}}
+$$
 
 **Intuition.** A stiffer spring (larger $k$) gives faster oscillations. A heavier mass (larger $m$)
 Gives slower oscillations. The period is independent of amplitude, this is a defining feature of
@@ -157,16 +191,22 @@ The displacement along the arc is $x = L\theta$.
 
 Newton's second law: $ma = -mg\sin\theta$Where $a = L\ddot{\theta}$:
 
-$$mL\ddot{\theta} = -mg\sin\theta \implies \ddot{\theta} = -\frac{g}{L}\sin\theta$$
+$$
+mL\ddot{\theta} = -mg\sin\theta \implies \ddot{\theta} = -\frac{g}{L}\sin\theta
+$$
 
 **Small angle approximation:** For $\theta \lesssim 10^\circ$, $\sin\theta \approx \theta$ (in
 Radians). Then:
 
-$$\ddot{\theta} = -\frac{g}{L}\theta$$
+$$
+\ddot{\theta} = -\frac{g}{L}\theta
+$$
 
 This is SHM in the variable $\theta$ with angular frequency $\omega = \sqrt{g/L}$:
 
-$$\boxed{T = 2\pi\sqrt{\frac{L}{g}}}$$
+$$
+\boxed{T = 2\pi\sqrt{\frac{L}{g}}}
+$$
 
 <Aside type="caution">
 Common Pitfall The period of a simple pendulum is **independent of mass** and
@@ -377,7 +417,9 @@ Frequency.
 
 For a mass-spring system, the total energy can be written using the spring constant $k$:
 
-$$\boxed{E = \frac{1}{2}kA^2 = \frac{1}{2}m\omega^2 A^2}$$
+$$
+\boxed{E = \frac{1}{2}kA^2 = \frac{1}{2}m\omega^2 A^2}
+$$
 
 **Proof.** Since $\omega^2 = k/m$ for a mass-spring system:
 $\frac{1}{2}m\omega^2 A^2 = \frac{1}{2}m \cdot \frac{k}{m} \cdot A^2 = \frac{1}{2}kA^2$. $\square$
@@ -390,16 +432,24 @@ Does not affect the total.
 
 Substituting $x = A\cos(\omega t + \phi)$ into the energy expressions:
 
-$$E_k(t) = \frac{1}{2}m\omega^2(A^2 - x^2) = \frac{1}{2}m\omega^2 A^2 \sin^2(\omega t + \phi)$$
+$$
+E_k(t) = \frac{1}{2}m\omega^2(A^2 - x^2) = \frac{1}{2}m\omega^2 A^2 \sin^2(\omega t + \phi)
+$$
 
-$$E_p(t) = \frac{1}{2}m\omega^2 x^2 = \frac{1}{2}m\omega^2 A^2 \cos^2(\omega t + \phi)$$
+$$
+E_p(t) = \frac{1}{2}m\omega^2 x^2 = \frac{1}{2}m\omega^2 A^2 \cos^2(\omega t + \phi)
+$$
 
 Applying the double-angle identities $\sin^2\theta = \tfrac{1}{2}(1 - \cos 2\theta)$ and
 $\cos^2\theta = \tfrac{1}{2}(1 + \cos 2\theta)$:
 
-$$E_k(t) = \frac{1}{4}m\omega^2 A^2\bigl(1 - \cos(2\omega t + 2\phi)\bigr)$$
+$$
+E_k(t) = \frac{1}{4}m\omega^2 A^2\bigl(1 - \cos(2\omega t + 2\phi)\bigr)
+$$
 
-$$E_p(t) = \frac{1}{4}m\omega^2 A^2\bigl(1 + \cos(2\omega t + 2\phi)\bigr)$$
+$$
+E_p(t) = \frac{1}{4}m\omega^2 A^2\bigl(1 + \cos(2\omega t + 2\phi)\bigr)
+$$
 
 Both $E_k$ and $E_p$ vary sinusoidally with angular frequency $2\omega$, twice the displacement
 Frequency.
@@ -428,31 +478,41 @@ $E_{\mathrm{total}}$. Their sum is a horizontal line at $E_{\mathrm{total}}$.
 
 A damped oscillator experiences a resistive force proportional to velocity:
 
-$$F_d = -bv$$
+$$
+F_d = -bv
+$$
 
 Where $b$ is the **damping coefficient** (units: kg s$^{-1}$). The negative sign indicates the force
 Opposes the motion.
 
 The equation of motion becomes:
 
-$$m\ddot{x} + b\dot{x} + kx = 0$$
+$$
+m\ddot{x} + b\dot{x} + kx = 0
+$$
 
 ### Light Damping, Exponential Decay of Amplitude
 
 For light damping ($b \lt 2\sqrt{km}$), the solution is:
 
-$$\boxed{x(t) = A_0 \, e^{-bt/(2m)} \cos(\omega' t + \phi)}$$
+$$
+\boxed{x(t) = A_0 \, e^{-bt/(2m)} \cos(\omega' t + \phi)}
+$$
 
 Where $\omega' = \sqrt{\omega_0^2 - b^2/(4m^2)}$ is the damped angular frequency, slightly
 less than The natural frequency $\omega_0 = \sqrt{k/m}$.
 
 The amplitude decays inside the exponential envelope:
 
-$$A(t) = A_0 \, e^{-t/\tau}$$
+$$
+A(t) = A_0 \, e^{-t/\tau}
+$$
 
 Where the **time constant** is:
 
-$$\boxed{\tau = \frac{2m}{b}}$$
+$$
+\boxed{\tau = \frac{2m}{b}}
+$$
 
 **Intuition.** The time constant is the time for the amplitude to fall to $1/e \approx 37\%$ of its
 Initial value. After one time constant, $A = A_0/e$; after two, $A = A_0/e^2 \approx 14\%$; after
@@ -477,7 +537,9 @@ Than critical damping.
 
 The total mechanical energy of a lightly damped oscillator decays as:
 
-$$E(t) = E_0 \, e^{-t/\tau_E}$$
+$$
+E(t) = E_0 \, e^{-t/\tau_E}
+$$
 
 Where $\tau_E = \tau/2 = m/b$. Energy is lost twice as fast as the amplitude decays, since
 $E \propto A^2$.
@@ -512,11 +574,15 @@ The amplitude reaches its maximum value.
 
 The steady-state amplitude of a driven, damped oscillator:
 
-$$A(f_d) = \frac{F_0 / m}{\sqrt{(\omega_0^2 - \omega_d^2)^2 + (b\omega_d/m)^2}}$$
+$$
+A(f_d) = \frac{F_0 / m}{\sqrt{(\omega_0^2 - \omega_d^2)^2 + (b\omega_d/m)^2}}
+$$
 
 At resonance ($\omega_d = \omega_0$):
 
-$$A_{\max} = \frac{F_0}{b\omega_0}$$
+$$
+A_{\max} = \frac{F_0}{b\omega_0}
+$$
 
 **Key features of the resonance curve:**
 
@@ -594,7 +660,9 @@ Same frequency. The resultant phasor is the **vector sum** of the individual pha
 
 For $x_1 = A_1\cos(\omega t)$ and $x_2 = A_2\cos(\omega t + \delta)$:
 
-$$\boxed{A_{\mathrm{res}} = \sqrt{A_1^2 + A_2^2 + 2A_1 A_2 \cos\delta}}$$
+$$
+\boxed{A_{\mathrm{res}} = \sqrt{A_1^2 + A_2^2 + 2A_1 A_2 \cos\delta}}
+$$
 
 **Proof.** The cosine rule applied to the triangle formed by the two phasors and their resultant,
 With included angle $\delta$. $\square$

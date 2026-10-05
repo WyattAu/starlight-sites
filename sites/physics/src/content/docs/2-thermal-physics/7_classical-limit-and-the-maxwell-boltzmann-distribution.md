@@ -22,18 +22,24 @@ description: "In the classical (dilute) limit, both Fermi-Dirac and Bose-Einstei
 In the classical (dilute) limit, both Fermi-Dirac and Bose-Einstein distributions reduce to the
 Maxwell-Boltzmann distribution. The condition for the classical limit is
 
-$$e^{\beta(\varepsilon - \mu)} \gg 1$$
+$$
+e^{\beta(\varepsilon - \mu)} \gg 1
+$$
 
 For all relevant energies. This is equivalent to $n\lambda_{\mathrm{th}^3 \ll 1}$ (the thermal de
 Broglie wavelength is much smaller than the inter-particle spacing).
 
 **Theorem 7.1.** In the classical limit:
 
-$$f_{\mathrm{FD}(\varepsilon) \approx f_{\mathrm{BE}(\varepsilon) \approx f_{\mathrm{MB}(\varepsilon) = e^{-\beta(\varepsilon - \mu)}}}}$$
+$$
+f_{\mathrm{FD}(\varepsilon) \approx f_{\mathrm{BE}(\varepsilon) \approx f_{\mathrm{MB}(\varepsilon) = e^{-\beta(\varepsilon - \mu)}}}}
+$$
 
 _Proof._ When $e^{\beta(\varepsilon - \mu)} \gg 1$The $+1$ or $-1$ in the denominator is negligible:
 
-$$\frac{1}{e^{\beta(\varepsilon - \mu)} \pm 1} \approx \frac{1}{e^{\beta(\varepsilon - \mu)}} = e^{-\beta(\varepsilon - \mu)}$$
+$$
+\frac{1}{e^{\beta(\varepsilon - \mu)} \pm 1} \approx \frac{1}{e^{\beta(\varepsilon - \mu)}} = e^{-\beta(\varepsilon - \mu)}
+$$
 
 $\blacksquare$
 
@@ -41,7 +47,9 @@ $\blacksquare$
 
 For a classical ideal gas, the probability distribution of molecular speeds is
 
-$$f(v)\,dv = 4\pi\left(\frac{m}{2\pi k_BT}\right)^{3/2} v^2 e^{-mv^2/(2k_BT)}\,dv$$
+$$
+f(v)\,dv = 4\pi\left(\frac{m}{2\pi k_BT}\right)^{3/2} v^2 e^{-mv^2/(2k_BT)}\,dv
+$$
 
 **Characteristic speeds:**
 
@@ -55,19 +63,27 @@ The ordering is $v_p < \langle v \rangle < v_{\mathrm{rms}}$.
 
 For a system of $N$ indistinguishable non-interacting particles, the canonical partition function factorises:
 
-$$Z_N = \frac{1}{N!} Z_1^N$$
+$$
+Z_N = \frac{1}{N!} Z_1^N
+$$
 
 where $Z_1$ is the single-particle partition function. For a classical ideal gas in three dimensions:
 
-$$Z_1 = V \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2} = \frac{V}{\lambda_{\mathrm{th}}^3}$$
+$$
+Z_1 = V \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2} = \frac{V}{\lambda_{\mathrm{th}}^3}
+$$
 
 with thermal de Broglie wavelength $\lambda_{\mathrm{th}} = h/\sqrt{2\pi m k_B T}$.
 
 The Helmholtz free energy is $F = -k_B T \ln Z_N$, from which all thermodynamic quantities follow:
 
-$$P = -\frac{\partial F}{\partial V} = \frac{N k_B T}{V}$$
+$$
+P = -\frac{\partial F}{\partial V} = \frac{N k_B T}{V}
+$$
 
-$$S = -\frac{\partial F}{\partial T} = Nk_B\left[\ln\!\left(\frac{V}{N\lambda_{\mathrm{th}}^3}\right) + \frac{5}{2}\right]$$
+$$
+S = -\frac{\partial F}{\partial T} = Nk_B\left[\ln\!\left(\frac{V}{N\lambda_{\mathrm{th}}^3}\right) + \frac{5}{2}\right]
+$$
 
 ### 7.4 Equipartition Theorem
 
@@ -81,11 +97,15 @@ The equipartition theorem fails at low temperatures when quantum effects freeze 
 
 The Maxwell-Boltzmann distribution can be derived by maximising the Boltzmann entropy $S = -k_B \sum_i p_i \ln p_i$ subject to constraints $\sum_i p_i = 1$ and $\sum_i p_i \varepsilon_i = \langle E \rangle$:
 
-$$\delta\left[-k_B \sum_i p_i \ln p_i - \alpha\left(\sum_i p_i - 1\right) - \beta\left(\sum_i p_i \varepsilon_i - \langle E \rangle\right)\right] = 0$$
+$$
+\delta\left[-k_B \sum_i p_i \ln p_i - \alpha\left(\sum_i p_i - 1\right) - \beta\left(\sum_i p_i \varepsilon_i - \langle E \rangle\right)\right] = 0
+$$
 
 This yields $p_i = e^{-\alpha - 1} e^{-\beta \varepsilon_i}$, and normalisation gives:
 
-$$p_i = \frac{e^{-\beta\varepsilon_i}}{\sum_j e^{-\beta\varepsilon_j}} = \frac{e^{-\beta\varepsilon_i}}{Z_1}$$
+$$
+p_i = \frac{e^{-\beta\varepsilon_i}}{\sum_j e^{-\beta\varepsilon_j}} = \frac{e^{-\beta\varepsilon_i}}{Z_1}
+$$
 
 With $\beta = 1/(k_B T)$, this is the Maxwell-Boltzmann distribution for discrete energy states.
 
@@ -98,7 +118,9 @@ With $\beta = 1/(k_B T)$, this is the Maxwell-Boltzmann distribution for discret
 
 The gravitational potential energy of a molecule at height $z$ is $mgz$. In equilibrium, the number density follows the Maxwell-Boltzmann distribution:
 
-$$n(z) = n_0 \exp\!\left(-\frac{mgz}{k_B T}\right)$$
+$$
+n(z) = n_0 \exp\!\left(-\frac{mgz}{k_B T}\right)
+$$
 
 where $n_0$ is the density at $z = 0$. The pressure is $P(z) = n(z) k_B T = P_0 e^{-mgz/(k_B T)}$.
 
@@ -119,21 +141,31 @@ distribution of speeds of the effusing molecules and the mean kinetic energy per
 The effusion rate for molecules with speed between $v$ and $v + dv$ is proportional to
 $v \cdot f(v)\,dv$ (faster molecules hit the hole more frequently). The effusion distribution is:
 
-$$f_{\mathrm{eff}(v)\,dv \propto v \cdot v^2 e^{-mv^2/(2k_BT)}\,dv = v^3 e^{-mv^2/(2k_BT)}\,dv}$$
+$$
+f_{\mathrm{eff}(v)\,dv \propto v \cdot v^2 e^{-mv^2/(2k_BT)}\,dv = v^3 e^{-mv^2/(2k_BT)}\,dv}
+$$
 
 Normalising:
 
-$$f_{\mathrm{eff}(v) = \frac{1}{2(k_BT/m)^2}\,v^3\,e^{-mv^2/(2k_BT)}}$$
+$$
+f_{\mathrm{eff}(v) = \frac{1}{2(k_BT/m)^2}\,v^3\,e^{-mv^2/(2k_BT)}}
+$$
 
 The mean kinetic energy:
 
-$$\langle \varepsilon \rangle_{\mathrm{eff} = \frac{1}{2}m\langle v^2 \rangle_{\mathrm{eff} = \frac{1}{2}m \cdot \frac{\int_0^\infty v^5 e^{-mv^2/(2k_BT)}\,dv}{\int_0^\infty v^3 e^{-mv^2/(2k_BT)}\,dv}}}$$
+$$
+\langle \varepsilon \rangle_{\mathrm{eff} = \frac{1}{2}m\langle v^2 \rangle_{\mathrm{eff} = \frac{1}{2}m \cdot \frac{\int_0^\infty v^5 e^{-mv^2/(2k_BT)}\,dv}{\int_0^\infty v^3 e^{-mv^2/(2k_BT)}\,dv}}}
+$$
 
 Using $\int_0^\infty v^n e^{-av^2}\,dv = \frac{1}{2a^{(n+1)/2}}\Gamma\!\left(\frac{n+1}{2}\right)$:
 
-$$\langle v^2 \rangle_{\mathrm{eff} = \frac{\Gamma(3)/(2a^3)}{\Gamma(2)/(2a^2)} = \frac{2}{a} = \frac{4k_BT}{m}}$$
+$$
+\langle v^2 \rangle_{\mathrm{eff} = \frac{\Gamma(3)/(2a^3)}{\Gamma(2)/(2a^2)} = \frac{2}{a} = \frac{4k_BT}{m}}
+$$
 
-$$\langle \varepsilon \rangle_{\mathrm{eff} = 2k_BT}$$
+$$
+\langle \varepsilon \rangle_{\mathrm{eff} = 2k_BT}
+$$
 
 This is $4/3$ times the bulk average $\frac{3}{2}k_BT$ --- effusing molecules are "hotter" because
 faster molecules escape preferentially. $\blacksquare$
@@ -149,13 +181,19 @@ faster molecules escape preferentially. $\blacksquare$
 
 The mean free path $\lambda$ is the average distance a molecule travels between collisions:
 
-$$\lambda = \frac{1}{\sqrt{2}\,\pi d^2 n}$$
+$$
+\lambda = \frac{1}{\sqrt{2}\,\pi d^2 n}
+$$
 
 where $n$ is the number density and $d$ is the molecular diameter. From the ideal gas law:
 
-$$n = \frac{P}{k_B T} = \frac{1.013 \times 10^5}{1.381 \times 10^{-23} \times 273} \approx 2.69 \times 10^{25}\ \text{m}^{-3}$$
+$$
+n = \frac{P}{k_B T} = \frac{1.013 \times 10^5}{1.381 \times 10^{-23} \times 273} \approx 2.69 \times 10^{25}\ \text{m}^{-3}
+$$
 
-$$\lambda = \frac{1}{\sqrt{2}\,\pi (3.7 \times 10^{-10})^2 \times 2.69 \times 10^{25}} \approx 6.8 \times 10^{-8}\ \text{m} \approx 68\ \text{nm}$$
+$$
+\lambda = \frac{1}{\sqrt{2}\,\pi (3.7 \times 10^{-10})^2 \times 2.69 \times 10^{25}} \approx 6.8 \times 10^{-8}\ \text{m} \approx 68\ \text{nm}
+$$
 
 This is about 200 times the molecular diameter, confirming the diluteness of the gas and the validity of the classical limit.
 

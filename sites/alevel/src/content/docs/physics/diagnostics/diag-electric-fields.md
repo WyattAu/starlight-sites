@@ -55,30 +55,44 @@ Take $\varepsilon_0 = 8.85 \times 10^{-12}\,\text{F}\,\text{m}^{-1}$.
 (a) Consider a small element of charge $\delta Q$ on the ring. The field at $P$ due to this element
 has magnitude:
 
-$$\delta E = \frac{1}{4\pi\varepsilon_0}\frac{\delta Q}{(a^2 + x^2)}$$
+$$
+\delta E = \frac{1}{4\pi\varepsilon_0}\frac{\delta Q}{(a^2 + x^2)}
+$$
 
 By symmetry, the components perpendicular to the axis cancel for all pairs of diametrically opposite
 elements. Only the axial component survives:
 
-$$\delta E_x = \delta E \cos\theta = \delta E \cdot \frac{x}{\sqrt{a^2 + x^2}} = \frac{1}{4\pi\varepsilon_0}\frac{x\,\delta Q}{(a^2 + x^2)^{3/2}}$$
+$$
+\delta E_x = \delta E \cos\theta = \delta E \cdot \frac{x}{\sqrt{a^2 + x^2}} = \frac{1}{4\pi\varepsilon_0}\frac{x\,\delta Q}{(a^2 + x^2)^{3/2}}
+$$
 
 Integrating around the ring:
 
-$$E = \frac{1}{4\pi\varepsilon_0}\frac{Qx}{(a^2 + x^2)^{3/2}}$$
+$$
+E = \frac{1}{4\pi\varepsilon_0}\frac{Qx}{(a^2 + x^2)^{3/2}}
+$$
 
 Directed along the axis.
 
 (b)
 $E = \frac{1}{4\pi \times 8.85 \times 10^{-12}} \times \frac{5.0 \times 10^{-9} \times 0.15}{(0.01 + 0.0225)^{3/2}}$
 
-$$= 8.99 \times 10^9 \times \frac{7.5 \times 10^{-10}}{(0.0325)^{3/2}} = 8.99 \times 10^9 \times \frac{7.5 \times 10^{-10}}{5.856 \times 10^{-3}} = 8.99 \times 10^9 \times 1.281 \times 10^{-7} = 1152\,\text{V}\,\text{m}^{-1}$$
+$$
+= 8.99 \times 10^9 \times \frac{7.5 \times 10^{-10}}{(0.0325)^{3/2}} = 8.99 \times 10^9 \times \frac{7.5 \times 10^{-10}}{5.856 \times 10^{-3}} = 8.99 \times 10^9 \times 1.281 \times 10^{-7} = 1152\,\text{V}\,\text{m}^{-1}
+$$
 
 (c) Maximise $E$ with respect to $x$:
 
-$$\frac{dE}{dx} = \frac{Q}{4\pi\varepsilon_0}\frac{(a^2 + x^2)^{3/2} - x \cdot \frac{3}{2}(a^2 + x^2)^{1/2} \cdot 2x}{(a^2 + x^2)^3} = 0$$
+$$
+\frac{dE}{dx} = \frac{Q}{4\pi\varepsilon_0}\frac{(a^2 + x^2)^{3/2} - x \cdot \frac{3}{2}(a^2 + x^2)^{1/2} \cdot 2x}{(a^2 + x^2)^3} = 0
+$$
 
-$$(a^2 + x^2) - 3x^2 = 0 \Rightarrow a^2 - 2x^2 = 0$$
-$$x = \frac{a}{\sqrt{2}} = \frac{0.10}{1.414} = 0.0707\,\text{m}$$
+$$
+(a^2 + x^2) - 3x^2 = 0 \Rightarrow a^2 - 2x^2 = 0
+$$
+$$
+x = \frac{a}{\sqrt{2}} = \frac{0.10}{1.414} = 0.0707\,\text{m}
+$$
 
 The field is maximum at $x = a/\sqrt{2} = 70.7\,\text{mm}$ from the centre.
 
@@ -115,8 +129,12 @@ $\frac{1}{4\pi\varepsilon_0} = 8.99 \times 10^9\,\text{N}\,\text{m}^2\,\text{C}^
 
 (a) At the midpoint ($r = 0.10\,\text{m}$ from each charge):
 
-$$V = \frac{1}{4\pi\varepsilon_0}\left(\frac{q_1}{r} + \frac{q_2}{r}\right) = 8.99 \times 10^9 \times \frac{3.0 \times 10^{-9} + (-5.0 \times 10^{-9})}{0.10}$$
-$$= 8.99 \times 10^9 \times \frac{-2.0 \times 10^{-9}}{0.10} = 8.99 \times 10^9 \times (-2.0 \times 10^{-8}) = -180\,\text{V}$$
+$$
+V = \frac{1}{4\pi\varepsilon_0}\left(\frac{q_1}{r} + \frac{q_2}{r}\right) = 8.99 \times 10^9 \times \frac{3.0 \times 10^{-9} + (-5.0 \times 10^{-9})}{0.10}
+$$
+$$
+= 8.99 \times 10^9 \times \frac{-2.0 \times 10^{-9}}{0.10} = 8.99 \times 10^9 \times (-2.0 \times 10^{-8}) = -180\,\text{V}
+$$
 
 The potential is negative because the negative charge has a larger magnitude and dominates.
 
@@ -126,14 +144,20 @@ Distance from $q_1$: $r_1 = 0.10\,\text{m}$
 
 Distance from $q_2$: $r_2 = 0.10 + 0.20 = 0.30\,\text{m}$
 
-$$V = 8.99 \times 10^9 \left(\frac{3.0 \times 10^{-9}}{0.10} + \frac{-5.0 \times 10^{-9}}{0.30}\right)$$
-$$= 8.99 \times 10^9 (30 \times 10^{-9} - 16.67 \times 10^{-9}) = 8.99 \times 10^9 \times 13.33 \times 10^{-9} = 120\,\text{V}$$
+$$
+V = 8.99 \times 10^9 \left(\frac{3.0 \times 10^{-9}}{0.10} + \frac{-5.0 \times 10^{-9}}{0.30}\right)
+$$
+$$
+= 8.99 \times 10^9 (30 \times 10^{-9} - 16.67 \times 10^{-9}) = 8.99 \times 10^9 \times 13.33 \times 10^{-9} = 120\,\text{V}
+$$
 
 (c) Work done by external agent $= q(V_{\text{final}} - V_{\text{initial}})$
 
 At infinity, $V = 0$. Moving from the point in (b) where $V = 120\,\text{V}$:
 
-$$W = q(0 - 120) = 1.0 \times 10^{-9} \times (-120) = -1.2 \times 10^{-7}\,\text{J}$$
+$$
+W = q(0 - 120) = 1.0 \times 10^{-9} \times (-120) = -1.2 \times 10^{-7}\,\text{J}
+$$
 
 The negative sign means the electric field does positive work (the test charge is attracted toward
 the negative charge). The external agent must do negative work (i.e., work is done by the field) to
@@ -186,12 +210,16 @@ $t = l/v_x = 5.0 \times 10^{-2}/(3.0 \times 10^7) = 1.667 \times 10^{-9}\,\text{
 Vertical deflection:
 $y = \frac{1}{2}at^2 = 0.5 \times 3.51 \times 10^{15} \times (1.667 \times 10^{-9})^2$
 
-$$= 0.5 \times 3.51 \times 10^{15} \times 2.779 \times 10^{-18} = 0.5 \times 9.755 \times 10^{-3} = 4.88 \times 10^{-3}\,\text{m} = 4.88\,\text{mm}$$
+$$
+= 0.5 \times 3.51 \times 10^{15} \times 2.779 \times 10^{-18} = 0.5 \times 9.755 \times 10^{-3} = 4.88 \times 10^{-3}\,\text{m} = 4.88\,\text{mm}
+$$
 
 (c) Vertical velocity at exit:
 $v_y = at = 3.51 \times 10^{15} \times 1.667 \times 10^{-9} = 5.85 \times 10^6\,\text{m}\,\text{s}^{-1}$
 
-$$\theta = \tan^{-1}(v_y/v_x) = \tan^{-1}(5.85 \times 10^6/3.0 \times 10^7) = \tan^{-1}(0.195) = 11.0^\circ$$
+$$
+\theta = \tan^{-1}(v_y/v_x) = \tan^{-1}(5.85 \times 10^6/3.0 \times 10^7) = \tan^{-1}(0.195) = 11.0^\circ
+$$
 
 The electron exits at $11.0^\circ$ above the horizontal.
 
@@ -222,11 +250,17 @@ Gravitational force: $F_G = \frac{Gm_em_p}{r^2}$
 
 Ratio: $\frac{F_E}{F_G} = \frac{e^2}{4\pi\varepsilon_0 Gm_em_p}$
 
-$$= \frac{(1.60 \times 10^{-19})^2}{4\pi \times 8.85 \times 10^{-12} \times 6.67 \times 10^{-11} \times 9.11 \times 10^{-31} \times 1.67 \times 10^{-27}}$$
+$$
+= \frac{(1.60 \times 10^{-19})^2}{4\pi \times 8.85 \times 10^{-12} \times 6.67 \times 10^{-11} \times 9.11 \times 10^{-31} \times 1.67 \times 10^{-27}}
+$$
 
-$$= \frac{2.56 \times 10^{-38}}{4\pi \times 8.85 \times 10^{-12} \times 6.67 \times 10^{-11} \times 1.521 \times 10^{-57}}$$
+$$
+= \frac{2.56 \times 10^{-38}}{4\pi \times 8.85 \times 10^{-12} \times 6.67 \times 10^{-11} \times 1.521 \times 10^{-57}}
+$$
 
-$$= \frac{2.56 \times 10^{-38}}{4\pi \times 8.99 \times 10^{-79}} = \frac{2.56 \times 10^{-38}}{1.130 \times 10^{-77}} = 2.27 \times 10^{39}$$
+$$
+= \frac{2.56 \times 10^{-38}}{4\pi \times 8.99 \times 10^{-79}} = \frac{2.56 \times 10^{-38}}{1.130 \times 10^{-77}} = 2.27 \times 10^{39}
+$$
 
 The electric force is approximately $10^{39}$ times stronger than gravity. This enormous ratio
 explains why electromagnetic forces dominate at atomic and molecular scales while gravity dominates
@@ -238,9 +272,13 @@ $$qE = mg$$ $$\frac{q}{m} = \frac{g}{E}$$
 
 (c) For the oil drop (Millikan-type experiment):
 
-$$qE = mg \Rightarrow q = \frac{mg}{E} = \frac{mgd}{V}$$
+$$
+qE = mg \Rightarrow q = \frac{mg}{E} = \frac{mgd}{V}
+$$
 
-$$q = \frac{1.0 \times 10^{-14} \times 9.81 \times 8.0 \times 10^{-3}}{3000} = \frac{7.848 \times 10^{-16}}{3000} = 2.616 \times 10^{-19}\,\text{C}$$
+$$
+q = \frac{1.0 \times 10^{-14} \times 9.81 \times 8.0 \times 10^{-3}}{3000} = \frac{7.848 \times 10^{-16}}{3000} = 2.616 \times 10^{-19}\,\text{C}
+$$
 
 In terms of elementary charge: $n = q/e = 2.616 \times 10^{-19}/1.60 \times 10^{-19} = 1.635$
 
@@ -295,9 +333,13 @@ $C_1 = \varepsilon_0 \varepsilon_r A/t = 8.85 \times 10^{-12} \times 3.0 \times 
 Air-filled:
 $C_2 = \varepsilon_0 A/(d - t) = 8.85 \times 10^{-12} \times 0.020/(1.0 \times 10^{-3}) = 1.77 \times 10^{-10}\,\text{F}$
 
-$$\frac{1}{C} = \frac{1}{C_1} + \frac{1}{C_2} = \frac{1}{5.31 \times 10^{-10}} + \frac{1}{1.77 \times 10^{-10}} = 1.883 \times 10^9 + 5.650 \times 10^9 = 7.533 \times 10^9$$
+$$
+\frac{1}{C} = \frac{1}{C_1} + \frac{1}{C_2} = \frac{1}{5.31 \times 10^{-10}} + \frac{1}{1.77 \times 10^{-10}} = 1.883 \times 10^9 + 5.650 \times 10^9 = 7.533 \times 10^9
+$$
 
-$$C = 1.327 \times 10^{-10}\,\text{F} = 133\,\text{pF}$$
+$$
+C = 1.327 \times 10^{-10}\,\text{F} = 133\,\text{pF}
+$$
 
 The capacitance increased from $88.5\,\text{pF}$ to $133\,\text{pF}$A factor of 1.50.
 

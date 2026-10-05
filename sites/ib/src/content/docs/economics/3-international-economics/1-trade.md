@@ -118,7 +118,9 @@ Endowments (e.g., Germany and France trade cars with each other).
 The UK exports Jaguar cars to Germany while importing BMW cars from Germany). The **Grubel-Lloyd
 Index** measures the extent of intra-industry trade:
 
-$$\mathrm{GL}_i = 1 - \frac{|X_i - M_i|}{X_i + M_i}$$
+$$
+\mathrm{GL}_i = 1 - \frac{|X_i - M_i|}{X_i + M_i}
+$$
 
 Where $X_i$ and $M_i$ are exports and imports of industry $i$. GL ranges from 0 (pure Inter-industry
 trade) to 1 (pure intra-industry trade).
@@ -129,7 +131,9 @@ trade) to 1 (pure intra-industry trade).
 
 The **terms of trade** (ToT) measure the ratio of a country's export prices to its import prices:
 
-$$\mathrm{ToT} = \frac{\mathrm{Index\ of\ Export\ Prices}}{\mathrm{Index\ of\ Import\ Prices}} \times 100$$
+$$
+\mathrm{ToT} = \frac{\mathrm{Index\ of\ Export\ Prices}}{\mathrm{Index\ of\ Import\ Prices}} \times 100
+$$
 
 - An **improvement** in the terms of trade (ToT rises) means a country can buy more imports for a
   given volume of exports -- a favourable change
@@ -147,7 +151,9 @@ A ToT improvement is not always beneficial:
 
 The **income terms of trade** adjusts for export volume:
 
-$$\mathrm{Income\ ToT} = \mathrm{ToT} \times \text{Volume of exports}$$
+$$
+\mathrm{Income\ ToT} = \mathrm{ToT} \times \text{Volume of exports}
+$$
 
 This provides a better indicator of a country's capacity to import.
 
@@ -180,7 +186,9 @@ tariff, reducing import volumes and increasing domestic production.
   bought at the world price but not at the tariff-inclusive price) and one from inefficient domestic
   production (domestic firms producing at higher cost than the world price)
 
-$$\mathrm{DWL} = \frac{1}{2} \times t \times (\text{reduction in imports}) + \frac{1}{2} \times t \times (\text{additional domestic production at higher cost})$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times t \times (\text{reduction in imports}) + \frac{1}{2} \times t \times (\text{additional domestic production at higher cost})
+$$
 
 ### Quotas
 
@@ -276,7 +284,9 @@ Resources are allocated to a less efficient producer.
 
 The net welfare effect depends on the relative sizes of trade creation and trade diversion:
 
-$$\text{Net welfare effect} = \text{Trade creation gain} - \text{Trade diversion loss}$$
+$$
+\text{Net welfare effect} = \text{Trade creation gain} - \text{Trade diversion loss}
+$$
 
 A trade bloc is more likely to generate net welfare gains when:
 
@@ -723,7 +733,9 @@ Country A has a comparative advantage in good 1 if $\mathrm{OC}_A < \mathrm{OC}_
 
 The terms of trade must lie between the two opportunity cost ratios:
 
-$$\mathrm{OC}_A < \text{ToT} < \mathrm{OC}_B$$
+$$
+\mathrm{OC}_A < \text{ToT} < \mathrm{OC}_B
+$$
 
 Any terms of trade within this range makes both countries better off than under autarky.
 
@@ -788,7 +800,9 @@ Both countries are strictly better off.
 
 The terms of trade index measures the ratio of export prices to import prices:
 
-$$\mathrm{ToT} = \frac{P_X}{P_M} \times 100$$
+$$
+\mathrm{ToT} = \frac{P_X}{P_M} \times 100
+$$
 
 Where $P_X$ is the export price index and $P_M$ is the import price index, both with base year
 = 100.
@@ -833,7 +847,9 @@ Developing countries that export primary commodities often face deteriorating te
 A tariff of $t$ per unit on a small country importing quantity $Q_{\text{imports}}$ generates
 Revenue:
 
-$$\text{Tariff revenue} = t \times Q_{\text{imports}}$$
+$$
+\text{Tariff revenue} = t \times Q_{\text{imports}}
+$$
 
 **Worked example:** A small country imports 50,000 units at a world price of `USD 100`. A specific
 Tariff of `USD 20` per unit is imposed.
@@ -850,7 +866,9 @@ Tariff revenue $= 20 \times 20,000 = \text{USD 400,000}$.
 A quota of $Q_{\text{quota}}$ units raises the domestic price to the level where total domestic
 Demand minus domestic supply equals the quota:
 
-$$Q_d(P_{\text{quota}}) - Q_s(P_{\text{quota}}) = Q_{\text{quota}}$$
+$$
+Q_d(P_{\text{quota}}) - Q_s(P_{\text{quota}}) = Q_{\text{quota}}
+$$
 
 **Welfare effects compared to free trade:**
 
@@ -868,11 +886,15 @@ $$Q_d(P_{\text{quota}}) - Q_s(P_{\text{quota}}) = Q_{\text{quota}}$$
 For a **large country** (one that can influence world prices), a small tariff can improve national
 Welfare by improving the terms of trade. The optimal tariff maximises:
 
-$$\text{Welfare gain from ToT improvement} - \text{DWL from reduced trade}$$
+$$
+\text{Welfare gain from ToT improvement} - \text{DWL from reduced trade}
+$$
 
 The optimal tariff rate is approximately:
 
-$$t^* \approx \frac{1}{\mathrm{PED}_{\text{foreign export supply}} - 1}$$
+$$
+t^* \approx \frac{1}{\mathrm{PED}_{\text{foreign export supply}} - 1}
+$$
 
 This argument does not apply to small countries (which are price takers) and ignores retaliation By
 trading partners.
@@ -967,7 +989,9 @@ trading partners.
 The Harrod-Domar model (1939, 1946) was one of the first formal models of economic growth. It
 Relates the growth rate to the savings rate and the capital-output ratio:
 
-$$g = \frac{s}{v}$$
+$$
+g = \frac{s}{v}
+$$
 
 Where $g$ is the growth rate of output, $s$ is the savings rate ($S/Y$), and $v$ is the Incremental
 capital-output ratio (ICOR), defined as $v = \Delta K / \Delta Y = I / \Delta Y$.
@@ -975,9 +999,13 @@ capital-output ratio (ICOR), defined as $v = \Delta K / \Delta Y = I / \Delta Y$
 **Derivation:** in equilibrium, saving equals investment ($S = I$). Saving is $sY$. Investment is
 $I = v \cdot \Delta Y$ (each unit of additional output requires $v$ units of additional capital).
 
-$$sY = v \cdot \Delta Y$$
+$$
+sY = v \cdot \Delta Y
+$$
 
-$$\frac{\Delta Y}{Y} = \frac{s}{v}$$
+$$
+\frac{\Delta Y}{Y} = \frac{s}{v}
+$$
 
 **Implications:**
 
@@ -1069,11 +1097,15 @@ using incentives for export-oriented FDI and investment. Common in East Asia fro
 
 The HDI uses a geometric mean to combine three dimension indices:
 
-$$\text{HDI} = (I_{\text{health}} \times I_{\text{education}} \times I_{\text{income}})^{1/3}$$
+$$
+\text{HDI} = (I_{\text{health}} \times I_{\text{education}} \times I_{\text{income}})^{1/3}
+$$
 
 **Dimension indices:**
 
-$$I = \frac{\text{Actual} - \text{Minimum}}{\text{Maximum} - \text{Minimum}}$$
+$$
+I = \frac{\text{Actual} - \text{Minimum}}{\text{Maximum} - \text{Minimum}}
+$$
 
 **Goalposts:**
 
@@ -1086,7 +1118,9 @@ $$I = \frac{\text{Actual} - \text{Minimum}}{\text{Maximum} - \text{Minimum}}$$
 
 The GNI index uses logarithms to reflect diminishing marginal utility of income:
 
-$$I_{\text{income}} = \frac{\ln(\text{GNI per capita}) - \ln(100)}{\ln(75\,000) - \ln(100)}$$
+$$
+I_{\text{income}} = \frac{\ln(\text{GNI per capita}) - \ln(100)}{\ln(75\,000) - \ln(100)}
+$$
 
 **Why geometric mean?** Since 2010, the UNDP has used the geometric mean (instead of the Arithmetic
 mean) to ensure that a very low score in one dimension cannot be fully compensated by High scores in
@@ -1096,7 +1130,9 @@ others. This reflects the principle that each dimension is essential for human D
 
 The GDI adjusts the HDI for gender inequality:
 
-$$\text{GDI} = \frac{\text{Female HDI}}{\text{Male HDI}}$$
+$$
+\text{GDI} = \frac{\text{Female HDI}}{\text{Male HDI}}
+$$
 
 It is calculated as the ratio of female HDI to male HDI, adjusted for the overall level of HDI. A
 GDI of 1 indicates perfect gender parity. A GDI below 1 indicates that female achievement is Lower
@@ -1418,7 +1454,9 @@ $3\%$ and US inflation is $2\%$.
 
 Predicted change in EUR/USD:
 
-$$\%\Delta S \approx \pi_{\text{EUR}} - \pi_{\text{US}} = 3\% - 2\% = 1\%$$
+$$
+\%\Delta S \approx \pi_{\text{EUR}} - \pi_{\text{US}} = 3\% - 2\% = 1\%
+$$
 
 The euro is expected to depreciate by approximately 1% against the dollar. New rate
 $= 1.20 \times 1.01
@@ -1426,7 +1464,9 @@ $= 1.20 \times 1.01
 
 **Verification with exact formula:**
 
-$$\frac{S_1}{S_0} = \frac{1 + \pi_{\text{EUR}}}{1 + \pi_{\text{US}}} = \frac{1.03}{1.02} = 1.0098$$
+$$
+\frac{S_1}{S_0} = \frac{1 + \pi_{\text{EUR}}}{1 + \pi_{\text{US}}} = \frac{1.03}{1.02} = 1.0098
+$$
 
 New rate $= 1.20 \times 1.0098 = 1.212$ USD/EUR.
 
@@ -1437,15 +1477,21 @@ to the dollar.
 
 The **real exchange rate** adjusts the nominal exchange rate for relative price levels:
 
-$$q = \frac{S \cdot P_{\text{domestic}}}{P_{\text{foreign}}}$$
+$$
+q = \frac{S \cdot P_{\text{domestic}}}{P_{\text{foreign}}}
+$$
 
 An increase in $q$ represents a **real depreciation** (the domestic currency loses purchasing
 Power).
 
 If PPP holds exactly, $q = 1$ at all times. Deviations from PPP indicate competitiveness Changes:
 
-$$q > 1 \implies \text{domestic goods are more expensive relative to foreign (real appreciation)}$$
-$$q < 1 \implies \text{domestic goods are cheaper (real depreciation)}$$
+$$
+q > 1 \implies \text{domestic goods are more expensive relative to foreign (real appreciation)}
+$$
+$$
+q < 1 \implies \text{domestic goods are cheaper (real depreciation)}
+$$
 
 ## Transfer Pricing (HL Extension)
 
@@ -1456,8 +1502,12 @@ between related entities within a multinational corporation.
 
 MNCs can manipulate transfer prices to shift profits to low-tax jurisdictions:
 
-$$\text{Revenue in high-tax country} \downarrow \implies \text{Tax liability} \downarrow$$
-$$\text{Revenue in low-tax country} \uparrow \implies \text{After-tax profit} \uparrow$$
+$$
+\text{Revenue in high-tax country} \downarrow \implies \text{Tax liability} \downarrow
+$$
+$$
+\text{Revenue in low-tax country} \uparrow \implies \text{After-tax profit} \uparrow
+$$
 
 **Example:** A pharmaceutical company manufactures a drug at cost of USD 2 per unit in Ireland
 (corporate tax rate 12.5%) and sells it to its subsidiary in Germany (corporate tax rate 30%) At a

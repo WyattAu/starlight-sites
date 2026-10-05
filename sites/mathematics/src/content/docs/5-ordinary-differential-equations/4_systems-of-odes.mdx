@@ -15,7 +15,9 @@ import DesmosGraph from "@components/DesmosGraph";
 
 A system of first-order linear ODEs can be written in matrix form:
 
-$$\mathbf{x}' = A\mathbf{x} + \mathbf{f}(t)$$
+$$
+\mathbf{x}' = A\mathbf{x} + \mathbf{f}(t)
+$$
 
 Where $A$ is an $n \times n$ matrix and $\mathbf{x}, \mathbf{f} \in \mathbb{R}^n$.
 
@@ -23,13 +25,17 @@ Where $A$ is an $n \times n$ matrix and $\mathbf{x}, \mathbf{f} \in \mathbb{R}^n
 
 For $\mathbf{x}' = A\mathbf{x}$Try $\mathbf{x} = \mathbf{v}e^{\lambda t}$:
 
-$$\lambda \mathbf{v} = A\mathbf{v}$$
+$$
+\lambda \mathbf{v} = A\mathbf{v}
+$$
 
 So $\lambda$ is an eigenvalue of $A$ and $\mathbf{v}$ is the corresponding eigenvector.
 
 **Case 1: $A$ has $n$ distinct real eigenvalues.** The general solution is
 
-$$\mathbf{x} = c_1 \mathbf{v}_1 e^{\lambda_1 t} + \cdots + c_n \mathbf{v}_n e^{\lambda_n t}$$
+$$
+\mathbf{x} = c_1 \mathbf{v}_1 e^{\lambda_1 t} + \cdots + c_n \mathbf{v}_n e^{\lambda_n t}
+$$
 
 **Case 2: $A$ has a repeated eigenvalue $\lambda$ with algebraic multiplicity $m$ and geometric
 Multiplicity $k \lt m$.** Include terms involving $t^j e^{\lambda t}$ where generalized Eigenvectors
@@ -175,7 +181,9 @@ _Remark._ The **trace-determinant plane** provides a convenient classification. 
 $\tau = \mathrm{tr}(A)$ and $\Delta = \det(A)$. The eigenvalues satisfy
 $\lambda^2 - \tau\lambda + \Delta = 0$ So:
 
-$$\lambda = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}$$
+$$
+\lambda = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}
+$$
 
 - $\tau^2 - 4\Delta > 0$: real eigenvalues (node or saddle)
 - $\tau^2 - 4\Delta \lt 0$: complex eigenvalues (spiral or center)
@@ -195,7 +203,9 @@ represents the trace $\tau$ and the `y`-axis represents $\Delta$.
 For $\mathbf{x}' = A\mathbf{x} + \mathbf{f}(t)$If $\Phi(t)$ is a fundamental matrix for the
 Homogeneous system, the general solution is
 
-$$\mathbf{x}(t) = \Phi(t)\mathbf{c} + \Phi(t)\int \Phi^{-1}(s)\mathbf{f}(s)\, ds$$
+$$
+\mathbf{x}(t) = \Phi(t)\mathbf{c} + \Phi(t)\int \Phi^{-1}(s)\mathbf{f}(s)\, ds
+$$
 
 **Worked Example.** Solve
 $\mathbf{x}' = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}\mathbf{x} + \begin{pmatrix} e^t \\ 0 \end{pmatrix}$.

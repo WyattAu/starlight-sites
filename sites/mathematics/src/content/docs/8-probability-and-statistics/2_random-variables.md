@@ -22,7 +22,9 @@ tags:
 **Definition.** A **random variable** is a measurable function $X : \Omega \to \mathbb{R}$. The
 **cumulative distribution function (CDF)** of $X$ is
 
-$$F_X(x) = P(X \leq x)$$
+$$
+F_X(x) = P(X \leq x)
+$$
 
 **Proposition 2.1 (Properties of the CDF).**
 
@@ -47,7 +49,9 @@ is $p_X(x) = P(X = x)$.
 
 **Definition (Expected Value).** For a discrete random variable:
 
-$$E[X] = \sum_{x} x\, p_X(x)$$
+$$
+E[X] = \sum_{x} x\, p_X(x)
+$$
 
 Provided the sum converges absolutely.
 
@@ -58,7 +62,9 @@ variables $X$, $Y$ and constants $a$, $b$.
 
 _Proof._ Direct computation from the definition of expected value. For the discrete case:
 
-$$E[aX + bY] = \sum_{x,y} (ax + by)\, p_{X,Y}(x,y) = a\sum_x x\, p_X(x) + b\sum_y y\, p_Y(y) = aE[X] + bE[Y]$$
+$$
+E[aX + bY] = \sum_{x,y} (ax + by)\, p_{X,Y}(x,y) = a\sum_x x\, p_X(x) + b\sum_y y\, p_Y(y) = aE[X] + bE[Y]
+$$
 
 $\blacksquare$
 
@@ -67,7 +73,9 @@ $\blacksquare$
 A random variable is **continuous** if its CDF is absolutely continuous, i.e., there exists a
 **probability density function (PDF)** $f_X$ such that
 
-$$F_X(x) = \int_{-\infty}^{x} f_X(t)\, dt$$
+$$
+F_X(x) = \int_{-\infty}^{x} f_X(t)\, dt
+$$
 
 **Key properties:**
 
@@ -111,7 +119,9 @@ $\blacksquare$
 
 **Theorem 2.4 (Moment Generating Function).** If $X \sim N(\mu, \sigma^2)$ Then
 
-$$M_X(t) = E[e^{tX}] = \exp\left(\mu t + \frac{\sigma^2 t^2}{2}\right)$$
+$$
+M_X(t) = E[e^{tX}] = \exp\left(\mu t + \frac{\sigma^2 t^2}{2}\right)
+$$
 
 _Proof._
 $M_X(t) = \int_{-\infty}^{\infty} e^{tx} \frac{1}{\sigma\sqrt{2\pi}} e^{-(x-\mu)^2/(2\sigma^2)}\, dx$.

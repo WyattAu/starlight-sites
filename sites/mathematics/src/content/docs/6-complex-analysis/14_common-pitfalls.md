@@ -65,7 +65,9 @@ $L$ must be the arc length of the contour, not a diameter or radius.
 their multiplicity/order. A common error is counting only distinct zeros rather than counting with
 multiplicity:
 
-$$\frac{1}{2\pi i}\oint_C \frac{f'(z)}{f(z)}\,dz = N - P$$
+$$
+\frac{1}{2\pi i}\oint_C \frac{f'(z)}{f(z)}\,dz = N - P
+$$
 
 where $N$ is the number of zeros and $P$ the number of poles inside $C$, counted with multiplicity.
 :::

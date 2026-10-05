@@ -56,7 +56,9 @@ exponential), a common source of missing factors.]
 
 This is a composition of three functions. Working from the outside in:
 
-$$\frac{dy}{dx} = 2\sin(e^{3x}) \cdot \cos(e^{3x}) \cdot 3e^{3x}$$
+$$
+\frac{dy}{dx} = 2\sin(e^{3x}) \cdot \cos(e^{3x}) \cdot 3e^{3x}
+$$
 
 The chain rule is applied three times:
 
@@ -64,11 +66,15 @@ The chain rule is applied three times:
 - Middle function $\sin u$: derivative $\cos u$
 - Inner function $e^{3x}$: derivative $3e^{3x}$
 
-$$\frac{dy}{dx} = 6e^{3x}\sin(e^{3x})\cos(e^{3x})$$
+$$
+\frac{dy}{dx} = 6e^{3x}\sin(e^{3x})\cos(e^{3x})
+$$
 
 Using $\sin(2\theta) = 2\sin\theta\cos\theta$:
 
-$$\frac{dy}{dx} = 3e^{3x}\sin(2e^{3x})$$
+$$
+\frac{dy}{dx} = 3e^{3x}\sin(2e^{3x})
+$$
 
 **(b)** The student's answer $2\sin(e^{3x}) \cdot 3e^{3x}$ has two errors:
 
@@ -81,17 +87,27 @@ $$\frac{dy}{dx} = 3e^{3x}\sin(2e^{3x})$$
 
 Apply the product rule: $u = 3e^{3x}$, $v = \sin(2e^{3x})$.
 
-$$\frac{du}{dx} = 9e^{3x}$$
+$$
+\frac{du}{dx} = 9e^{3x}
+$$
 
-$$\frac{dv}{dx} = \cos(2e^{3x}) \cdot 2 \cdot 3e^{3x} = 6e^{3x}\cos(2e^{3x})$$
+$$
+\frac{dv}{dx} = \cos(2e^{3x}) \cdot 2 \cdot 3e^{3x} = 6e^{3x}\cos(2e^{3x})
+$$
 
-$$\frac{d^2y}{dx^2} = 9e^{3x}\sin(2e^{3x}) + 3e^{3x} \cdot 6e^{3x}\cos(2e^{3x})$$
+$$
+\frac{d^2y}{dx^2} = 9e^{3x}\sin(2e^{3x}) + 3e^{3x} \cdot 6e^{3x}\cos(2e^{3x})
+$$
 
-$$= 9e^{3x}\sin(2e^{3x}) + 18e^{6x}\cos(2e^{3x})$$
+$$
+= 9e^{3x}\sin(2e^{3x}) + 18e^{6x}\cos(2e^{3x})
+$$
 
 At $x = 0$: $e^0 = 1$, $2e^0 = 2$.
 
-$$\frac{d^2y}{dx^2}\bigg\rvert_{x=0} = 9\sin 2 + 18\cos 2$$
+$$
+\frac{d^2y}{dx^2}\bigg\rvert_{x=0} = 9\sin 2 + 18\cos 2
+$$
 
 ---
 
@@ -126,20 +142,28 @@ and identification of where the common error coincidentally produces the correct
 
 **(a)** Differentiating $x^2 + xy + y^2 = 12$ with respect to $x$:
 
-$$2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0$$
+$$
+2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0
+$$
 
 The $xy$ term requires the product rule:
 $\frac{d}{dx}(xy) = x\frac{dy}{dx} + y\frac{dx}{dx} = x\frac{dy}{dx} + y$.
 
 Collecting terms:
 
-$$(x + 2y)\frac{dy}{dx} = -2x - y$$
+$$
+(x + 2y)\frac{dy}{dx} = -2x - y
+$$
 
-$$\frac{dy}{dx} = \frac{-2x - y}{x + 2y} = -\frac{2x + y}{x + 2y}$$
+$$
+\frac{dy}{dx} = \frac{-2x - y}{x + 2y} = -\frac{2x + y}{x + 2y}
+$$
 
 **(b)** The student differentiates $xy$ as just $y$ (treating $x$ as a constant):
 
-$$2x + y + 2y\frac{dy}{dx} = 0 \implies \frac{dy}{dx} = -\frac{2x+y}{2y}$$
+$$
+2x + y + 2y\frac{dy}{dx} = 0 \implies \frac{dy}{dx} = -\frac{2x+y}{2y}
+$$
 
 The correct answer is $\frac{dy}{dx} = -\frac{2x+y}{x+2y}$.
 
@@ -151,11 +175,15 @@ So the student's error is masked at the points $(0, 2\sqrt{3})$ and $(0, -2\sqrt
 
 **(c)** The tangent is parallel to the $x$-axis when $\frac{dy}{dx} = 0$:
 
-$$-\frac{2x+y}{x+2y} = 0 \implies 2x + y = 0 \implies y = -2x$$
+$$
+-\frac{2x+y}{x+2y} = 0 \implies 2x + y = 0 \implies y = -2x
+$$
 
 Substituting into the curve equation:
 
-$$x^2 + x(-2x) + (-2x)^2 = 12 \implies x^2 - 2x^2 + 4x^2 = 12 \implies 3x^2 = 12 \implies x = \pm 2$$
+$$
+x^2 + x(-2x) + (-2x)^2 = 12 \implies x^2 - 2x^2 + 4x^2 = 12 \implies 3x^2 = 12 \implies x = \pm 2
+$$
 
 When $x = 2$: $y = -4$. Point: $(2, -4)$.
 
@@ -199,9 +227,13 @@ inflection, and requires higher-order derivative analysis.]
 
 **(a)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1$
 
-$$\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4$$
+$$
+\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4
+$$
 
-$$\frac{d^2y}{dx^2} = 12x^2 - 24x + 12 = 12(x^2 - 2x + 1) = 12(x-1)^2$$
+$$
+\frac{d^2y}{dx^2} = 12x^2 - 24x + 12 = 12(x^2 - 2x + 1) = 12(x-1)^2
+$$
 
 **(b)** $\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4 = 4(x^3 - 3x^2 + 3x - 1) = 4(x-1)^3 = 0$.
 
@@ -349,9 +381,13 @@ Tangent: $y - 2 = -2(x - 1) \implies y = -2x + 4$.
 
 **(b)** For the line $y = -2x + 4$ to be tangent to $C_2$: $y = x^2 + 2x + 1$:
 
-$$x^2 + 2x + 1 = -2x + 4 \implies x^2 + 4x - 3 = 0$$
+$$
+x^2 + 2x + 1 = -2x + 4 \implies x^2 + 4x - 3 = 0
+$$
 
-$$x = \frac{-4 \pm \sqrt{16 + 12}}{2} = \frac{-4 \pm \sqrt{28}}{2} = -2 \pm \sqrt{7}$$
+$$
+x = \frac{-4 \pm \sqrt{16 + 12}}{2} = \frac{-4 \pm \sqrt{28}}{2} = -2 \pm \sqrt{7}
+$$
 
 This gives two distinct intersection points, so the line is a secant, not a tangent.
 
@@ -413,13 +449,17 @@ point classification, and inflection point identification.]
 
 **(a)** $y = xe^{-x}$.
 
-$$\frac{dy}{dx} = e^{-x} + x(-e^{-x}) = e^{-x}(1 - x)$$
+$$
+\frac{dy}{dx} = e^{-x} + x(-e^{-x}) = e^{-x}(1 - x)
+$$
 
 $\frac{dy}{dx} = 0 \implies 1 - x = 0 \implies x = 1$.
 
 $y(1) = e^{-1} = \frac{1}{e}$.
 
-$$\frac{d^2y}{dx^2} = -e^{-x}(1-x) + e^{-x}(-1) = e^{-x}(x - 1 - 1) = e^{-x}(x - 2)$$
+$$
+\frac{d^2y}{dx^2} = -e^{-x}(1-x) + e^{-x}(-1) = e^{-x}(x - 1 - 1) = e^{-x}(x - 2)
+$$
 
 At $x = 1$: $\frac{d^2y}{dx^2} = e^{-1}(-1) = -\frac{1}{e} \lt 0$.
 
@@ -453,7 +493,9 @@ For $x \neq 0$: $m = e^{-x}$Giving $x = -\ln m$ (requiring $m \gt 0$).
 
 For tangency, the gradient of $C$ at this point must equal $m$:
 
-$$\frac{dy}{dx} = e^{-x}(1-x) = m$$
+$$
+\frac{dy}{dx} = e^{-x}(1-x) = m
+$$
 
 Substituting $e^{-x} = m$: $m(1 - (-\ln m)) = m \implies m(1 + \ln m) = m$.
 

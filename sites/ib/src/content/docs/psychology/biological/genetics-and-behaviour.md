@@ -36,7 +36,9 @@ Types of twins share the same family environment (assuming equal environments as
 **Heritability estimates** are calculated by doubling the difference between the MZ and DZ
 Correlations:
 
-$$h^2 = 2(r_{MZ} - r_{DZ})$$
+$$
+h^2 = 2(r_{MZ} - r_{DZ})
+$$
 
 Where $h^2$ is the heritability coefficient, $r_{MZ}$ is the correlation for MZ twins, and $r_{DZ}$
 Is the correlation for DZ twins.

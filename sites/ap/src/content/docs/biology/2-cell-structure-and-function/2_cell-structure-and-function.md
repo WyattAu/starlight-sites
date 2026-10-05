@@ -601,7 +601,9 @@ Specimens.
 
 **Magnification calculation:**
 
-$$\mathrm{Magnification = \frac{\mathrm{Image size}{\mathrm{Actual size}$$
+$$
+\mathrm{Magnification = \frac{\mathrm{Image size}{\mathrm{Actual size}
+$$
 
 **Worked Example:** A mitochondrion measures 8 mm in an electron micrograph at
 $\times$10,000.

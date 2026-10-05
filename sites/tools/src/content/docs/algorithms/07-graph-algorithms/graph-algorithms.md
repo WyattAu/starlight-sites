@@ -152,7 +152,9 @@ def detect_arbitrage(currencies, rates):
 Floyd-Warshall computes shortest paths between **all pairs** of vertices. It works with negative
 Edges (but not negative cycles).
 
-$$dp[k][i][j] = \min(dp[k-1][i][j], dp[k-1][i][k] + dp[k-1][k][j])$$
+$$
+dp[k][i][j] = \min(dp[k-1][i][j], dp[k-1][i][k] + dp[k-1][k][j])
+$$
 
 In practice, we use only a 2D table because $dp[k]$ only depends on $dp[k-1]$.
 

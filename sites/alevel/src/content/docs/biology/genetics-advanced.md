@@ -132,7 +132,9 @@ to be separated by crossing over during meiosis.
 
 The recombination frequency (RF) between two linked genes is calculated from a test cross:
 
-$$\mathrm{RF} = \frac{\text{Number of recombinant offspring}}{\text{Total number of offspring}} \times 100\%$$
+$$
+\mathrm{RF} = \frac{\text{Number of recombinant offspring}}{\text{Total number of offspring}} \times 100\%
+$$
 
 The recombination frequency is approximately equal to the **map distance** between the genes in
 **centiMorgans (cM)**. One centiMorgan corresponds to a 1% probability of crossing over between the
@@ -178,7 +180,9 @@ expected ratios in crosses.
 **Worked Example.** A male with haemophilia (X-linked recessive, $X^hY$) has a daughter who is a
 carrier ($X^HX^h$). She marries a normal male ($X^HY$).
 
-$$X^HX^h \times X^HY$$
+$$
+X^HX^h \times X^HY
+$$
 
 |       | $X^H$              | $Y$                  |
 | ----- | ------------------ | -------------------- |
@@ -226,7 +230,9 @@ $11\ \mathrm{cM}$.
 When the expected frequency in any category is less than 5, the standard chi-squared test is
 unreliable. Yates' correction for continuity is applied:
 
-$$\chi^2_{\mathrm{Yates}} = \sum \frac{(|O - E| - 0.5)^2}{E}$$
+$$
+\chi^2_{\mathrm{Yates}} = \sum \frac{(|O - E| - 0.5)^2}{E}
+$$
 
 This correction reduces the chi-squared value, making the test more conservative (less likely to
 reject the null hypothesis).
@@ -250,7 +256,9 @@ Mean fitness: $\bar{w} = p^2 \cdot 1 + 2pq \cdot 1 + q^2 \cdot 0.5 = 0.64 + 0.32
 
 After selection, the new frequency of $a$:
 
-$$q' = \frac{q^2 \cdot w_{aa} + pq \cdot w_{Aa}}{\bar{w}} = \frac{0.04 \times 0.5 + 0.16 \times 1}{0.98} = \frac{0.02 + 0.16}{0.98} = \frac{0.18}{0.98} = 0.1837$$
+$$
+q' = \frac{q^2 \cdot w_{aa} + pq \cdot w_{Aa}}{\bar{w}} = \frac{0.04 \times 0.5 + 0.16 \times 1}{0.98} = \frac{0.02 + 0.16}{0.98} = \frac{0.18}{0.98} = 0.1837
+$$
 
 The frequency of $a$ has decreased from 0.2 to 0.1837 in one generation due to selection against
 $aa$.
@@ -262,18 +270,24 @@ populations. Its effect is inversely proportional to population size ($N$).
 
 The rate of allele frequency change due to drift can be approximated by the standard deviation:
 
-$$\sigma_q = \sqrt{\frac{pq}{2N}}$$
+$$
+\sigma_q = \sqrt{\frac{pq}{2N}}
+$$
 
 Where $N$ is the effective population size.
 
 **Worked Example.** In a population of $N = 100$ with $p = 0.5$, $q = 0.5$:
 
-$$\sigma_q = \sqrt{\frac{0.5 \times 0.5}{2 \times 100}} = \sqrt{\frac{0.25}{200}} = \sqrt{0.00125} = 0.0354$$
+$$
+\sigma_q = \sqrt{\frac{0.5 \times 0.5}{2 \times 100}} = \sqrt{\frac{0.25}{200}} = \sqrt{0.00125} = 0.0354
+$$
 
 The allele frequency is expected to fluctuate by approximately $\pm 0.035$ per generation due to
 drift. In a population of $N = 10000$:
 
-$$\sigma_q = \sqrt{\frac{0.25}{20000}} = 0.00354$$
+$$
+\sigma_q = \sqrt{\frac{0.25}{20000}} = 0.00354
+$$
 
 The fluctuation is 10 times smaller. This demonstrates that drift is significant only in small
 populations.
@@ -288,7 +302,9 @@ alleles from the source population.
 
 Gene flow (migration) changes allele frequencies when individuals move between populations:
 
-$$\Delta p = m(p_m - p)$$
+$$
+\Delta p = m(p_m - p)
+$$
 
 Where $m$ is the migration rate (proportion of the population that are migrants), $p_m$ is the
 allele frequency in the migrant population, and $p$ is the allele frequency in the resident
@@ -297,9 +313,13 @@ population.
 **Worked Example.** A resident population has $p = 0.9$ for allele $A$. Migrants arrive with
 $p_m = 0.3$. The migration rate is $m = 0.1$ (10% migrants).
 
-$$\Delta p = 0.1(0.3 - 0.9) = 0.1(-0.6) = -0.06$$
+$$
+\Delta p = 0.1(0.3 - 0.9) = 0.1(-0.6) = -0.06
+$$
 
-$$p' = 0.9 - 0.06 = 0.84$$
+$$
+p' = 0.9 - 0.06 = 0.84
+$$
 
 The frequency of $A$ decreases from 0.9 to 0.84 in one generation due to gene flow from the migrant
 population.
@@ -392,9 +412,13 @@ decreases by approximately $sq^2$ per generation (for small $q$).
 **Worked Example: Selection against a lethal recessive.** A population has $q = 0.1$ for a lethal
 recessive allele ($s = 1$).
 
-$$\Delta q = -sq^2 \cdot p = -1 \times 0.01 \times 0.9 = -0.009$$
+$$
+\Delta q = -sq^2 \cdot p = -1 \times 0.01 \times 0.9 = -0.009
+$$
 
-$$q' = 0.1 - 0.009 = 0.091$$
+$$
+q' = 0.1 - 0.009 = 0.091
+$$
 
 The frequency decreases very slowly because most copies of the recessive allele are "hidden" in
 heterozygotes, where they are not exposed to selection.
@@ -407,7 +431,9 @@ The molecular clock hypothesis states that mutations accumulate in DNA at a roug
 so the number of sequence differences between two species is proportional to the time since their
 divergence.
 
-$$\text{Divergence time} = \frac{d}{2\mu}$$
+$$
+\text{Divergence time} = \frac{d}{2\mu}
+$$
 
 Where $d$ is the proportion of nucleotide sites that differ between two species, and $\mu$ is the
 mutation rate per site per year. The factor of 2 accounts for independent accumulation of mutations
@@ -417,7 +443,9 @@ in both lineages.
 region. The mutation rate is estimated at $\mu = 2.5 \times 10^{-9}$ substitutions per site per
 year.
 
-$$\text{Time} = \frac{0.036}{2 \times 2.5 \times 10^{-9}} = \frac{0.036}{5 \times 10^{-9}} = 7.2 \times 10^6\ \text{years}$$
+$$
+\text{Time} = \frac{0.036}{2 \times 2.5 \times 10^{-9}} = \frac{0.036}{5 \times 10^{-9}} = 7.2 \times 10^6\ \text{years}
+$$
 
 The two species diverged approximately 7.2 million years ago.
 
@@ -673,7 +701,9 @@ the likely explanation, not dominance.
 When two genes are linked on the same chromosome, they do not assort independently. The frequency of
 recombinant offspring reflects the distance between the genes.
 
-$$\text{Recombination frequency (RF)} = \frac{\text{Number of recombinant offspring}}{\text{Total offspring}} \times 100\%$$
+$$
+\text{Recombination frequency (RF)} = \frac{\text{Number of recombinant offspring}}{\text{Total offspring}} \times 100\%
+$$
 
 $1\%$ recombination frequency $= 1$ centimorgan (cM) $= 1$ map unit.
 
@@ -696,11 +726,17 @@ The genes $A$ and $B$ are 20 cM apart.
 In a three-point cross, double crossovers (DCOs) may occur less frequently than expected because one
 crossover event can physically interfere with a second nearby crossover.
 
-$$\text{Coincidence (c.o.c.)} = \frac{\text{Observed DCO frequency}}{\text{Expected DCO frequency}}$$
+$$
+\text{Coincidence (c.o.c.)} = \frac{\text{Observed DCO frequency}}{\text{Expected DCO frequency}}
+$$
 
-$$\text{Expected DCO frequency} = \text{RF}_{AB} \times \text{RF}_{BC}$$
+$$
+\text{Expected DCO frequency} = \text{RF}_{AB} \times \text{RF}_{BC}
+$$
 
-$$\text{Interference} = 1 - \text{Coincidence}$$
+$$
+\text{Interference} = 1 - \text{Coincidence}
+$$
 
 **Worked Example.** Three genes ($A$, $B$, $C$) are mapped. $\text{RF}_{AB} = 15\%$,
 $\text{RF}_{BC} = 10\%$. Observed DCO frequency $= 0.5\%$.
@@ -970,7 +1006,9 @@ distribution becomes smoother and more bell-shaped.
 **Heritability** ($h^2$) is the proportion of the total phenotypic variation in a population that is
 due to genetic variation:
 
-$$h^2 = \frac{V_G}{V_P} = \frac{V_G}{V_G + V_E}$$
+$$
+h^2 = \frac{V_G}{V_P} = \frac{V_G}{V_G + V_E}
+$$
 
 Where $V_G$ = genetic variance, $V_E$ = environmental variance, $V_P$ = total phenotypic variance.
 
@@ -1151,7 +1189,9 @@ developmental biology (evo-devo).
 The **selection coefficient** ($s$) measures the reduction in fitness of a genotype relative to the
 fittest genotype. If the fittest genotype has fitness $w = 1.0$ Then:
 
-$$s = 1 - w$$
+$$
+s = 1 - w
+$$
 
 **Worked Example.** Three genotypes at a locus have the following survival rates:
 
@@ -1168,7 +1208,9 @@ The $aa$ genotype has the highest fitness. The $AA$ genotype has $s = 0.10$.
 The change in allele frequency per generation due to selection against a recessive allele is
 approximately:
 
-$$\Delta q \approx \frac{-spq^2}{1 - sq^2}$$
+$$
+\Delta q \approx \frac{-spq^2}{1 - sq^2}
+$$
 
 **Worked Example.** $p = 0.60$$q = 0.40$$s = 0.10$.
 
@@ -1358,22 +1400,36 @@ correct term is "non-coding DNA."
 ($f$) is 0.02. Calculate the expected number of homozygous dominant, heterozygous, and homozygous
 recessive individuals.
 
-$$p = 1 - q = 1 - 0.02 = 0.98$$
+$$
+p = 1 - q = 1 - 0.02 = 0.98
+$$
 
-$$p^2 = (0.98)^2 = 0.9604 \quad \Rightarrow \quad 9604 \text{ individuals}$$
+$$
+p^2 = (0.98)^2 = 0.9604 \quad \Rightarrow \quad 9604 \text{ individuals}
+$$
 
-$$2pq = 2 \times 0.98 \times 0.02 = 0.0392 \quad \Rightarrow \quad 392 \text{ individuals}$$
+$$
+2pq = 2 \times 0.98 \times 0.02 = 0.0392 \quad \Rightarrow \quad 392 \text{ individuals}
+$$
 
-$$q^2 = (0.02)^2 = 0.0004 \quad \Rightarrow \quad 4 \text{ individuals}$$
+$$
+q^2 = (0.02)^2 = 0.0004 \quad \Rightarrow \quad 4 \text{ individuals}
+$$
 
 **Problem:** Sickle cell anaemia has an incidence of 1 in 2,500 in a West African population. What
 proportion of the population are carriers?
 
-$$q^2 = \frac{1}{2500} = 0.0004 \quad \Rightarrow \quad q = 0.02$$
+$$
+q^2 = \frac{1}{2500} = 0.0004 \quad \Rightarrow \quad q = 0.02
+$$
 
-$$p = 1 - 0.02 = 0.98$$
+$$
+p = 1 - 0.02 = 0.98
+$$
 
-$$2pq = 2 \times 0.98 \times 0.02 = 0.0392 \quad \Rightarrow \quad \text{approximately } 3.9\% \text{ of the population are carriers}$$
+$$
+2pq = 2 \times 0.98 \times 0.02 = 0.0392 \quad \Rightarrow \quad \text{approximately } 3.9\% \text{ of the population are carriers}
+$$
 
 ### 19.2 Selection Coefficients and Fitness
 
@@ -1389,14 +1445,18 @@ fittest genotype.
 **Selection against a recessive allele:** when $s$ is small, the change in allele frequency per
 generation ($\Delta q$) is approximately:
 
-$$\Delta q \approx -sq^2(1-q)$$
+$$
+\Delta q \approx -sq^2(1-q)
+$$
 
 This means selection against a recessive allele is very slow when the allele is rare (because most
 copies of the allele are "hidden" in heterozygotes, where they have no effect on fitness).
 
 **Example:** if $s = 0.1$ (10% fitness reduction) and $q = 0.5$:
 
-$$\Delta q \approx -0.1 \times 0.25 \times 0.5 = -0.0125$$
+$$
+\Delta q \approx -0.1 \times 0.25 \times 0.5 = -0.0125
+$$
 
 The frequency of the recessive allele decreases by approximately 0.0125 per generation.
 
@@ -1412,11 +1472,15 @@ bottleneck some alleles may be lost entirely (especially rare alleles like $r$).
 **Probability of allele loss in a bottleneck:** the probability that an allele with frequency $q$ is
 lost in a population of $N$ individuals after a bottleneck is approximately:
 
-$$P(\text{loss}) \approx (1-q)^{2N}$$
+$$
+P(\text{loss}) \approx (1-q)^{2N}
+$$
 
 For allele $r$ ($q = 0.1$) with $N = 10$:
 
-$$P(\text{loss}) \approx (0.9)^{20} \approx 0.122$$
+$$
+P(\text{loss}) \approx (0.9)^{20} \approx 0.122
+$$
 
 There is approximately a 12% chance that allele $r$ is lost after this bottleneck.
 
@@ -1426,7 +1490,9 @@ The effective population size is smaller than the actual (census) population siz
 
 1. Unequal sex ratio: if there are 100 males and 900 females, $N_e$ is much less than 1000.
 
-$$N_e = \frac{4N_m N_f}{N_m + N_f} = \frac{4 \times 100 \times 900}{1000} = 360$$
+$$
+N_e = \frac{4N_m N_f}{N_m + N_f} = \frac{4 \times 100 \times 900}{1000} = 360
+$$
 
 1. Variation in reproductive success: if some individuals produce many offspring and others produce
    none, $N_e$ is reduced.
@@ -1434,7 +1500,9 @@ $$N_e = \frac{4N_m N_f}{N_m + N_f} = \frac{4 \times 100 \times 900}{1000} = 360$
 2. Fluctuating population size: $N_e$ is closer to the harmonic mean of population sizes over time,
    which is dominated by the smallest population size.
 
-$$\frac{1}{N_e} = \frac{1}{t}\left(\frac{1}{N_1} + \frac{1}{N_2} + \cdots + \frac{1}{N_t}\right)$$
+$$
+\frac{1}{N_e} = \frac{1}{t}\left(\frac{1}{N_1} + \frac{1}{N_2} + \cdots + \frac{1}{N_t}\right)
+$$
 
 ## 20. Chromosome Mutations and Karyotyping
 
@@ -1699,7 +1767,9 @@ This produces a normal distribution (bell curve) when plotted as a histogram.
 Heritability ($h^2$) is the proportion of phenotypic variation that is due to genetic variation (as
 opposed to environmental variation):
 
-$$h^2 = \frac{V_G}{V_P} = \frac{V_G}{V_G + V_E}$$
+$$
+h^2 = \frac{V_G}{V_P} = \frac{V_G}{V_G + V_E}
+$$
 
 Where $V_G$ = genetic variance; $V_E$ = environmental variance; $V_P = V_G + V_E$ = total phenotypic
 variance.
@@ -1880,14 +1950,18 @@ independently):
 
 ### 29.2 Calculating Recombination Frequency
 
-$$\text{Recombination frequency} = \frac{\text{Number of recombinant offspring}}{\text{Total number of offspring}} \times 100$$
+$$
+\text{Recombination frequency} = \frac{\text{Number of recombinant offspring}}{\text{Total number of offspring}} \times 100
+$$
 
 **Example:** A test cross of a double heterozygote produces 400 offspring:
 
 - Parental types: 180 AB/ab + 170 Ab/aB = 350
 - Recombinant types: 15 Ab/aB + 35 aB/Ab = 50
 
-$$\text{Recombination frequency} = \frac{50}{400} \times 100 = 12.5\%$$
+$$
+\text{Recombination frequency} = \frac{50}{400} \times 100 = 12.5\%
+$$
 
 The genes are 12.5 map units (centimorgans, cM) apart.
 
@@ -1944,7 +2018,9 @@ So approximately 1 in 25 people is a carrier of cystic fibrosis.
 
 The chi-squared test determines whether observed data deviates significantly from expected ratios:
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 Where $O$ = observed value, $E$ = expected value.
 
@@ -2166,9 +2242,13 @@ time.
 
 ### 53.2 Allele Frequency
 
-$$p = \frac{\text{Number of copies of the dominant allele}}{\text{Total number of alleles in the population}}$$
+$$
+p = \frac{\text{Number of copies of the dominant allele}}{\text{Total number of alleles in the population}}
+$$
 
-$$q = \frac{\text{Number of copies of the recessive allele}}{\text{Total number of alleles in the population}}$$
+$$
+q = \frac{\text{Number of copies of the recessive allele}}{\text{Total number of alleles in the population}}
+$$
 
 Where $p + q = 1$.
 
@@ -2199,7 +2279,9 @@ of a cross differ significantly from the expected (predicted) results based on a
 
 ### 54.2 Formula
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 Where:
 
@@ -2262,7 +2344,9 @@ Mean fitness: $\bar{w} = 0.49 + 0.42 + 0.09 \times 0.4 = 0.49 + 0.42 + 0.036 = 0
 
 New frequency of $a$:
 
-$$q' = \frac{q^2 \cdot w_{aa} + pq \cdot w_{Aa}}{\bar{w}} = \frac{0.09 \times 0.4 + 0.21}{0.946} = \frac{0.036 + 0.21}{0.946} = \frac{0.246}{0.946} = 0.260$$
+$$
+q' = \frac{q^2 \cdot w_{aa} + pq \cdot w_{Aa}}{\bar{w}} = \frac{0.09 \times 0.4 + 0.21}{0.946} = \frac{0.036 + 0.21}{0.946} = \frac{0.246}{0.946} = 0.260
+$$
 
 The frequency decreased from 0.3 to 0.260. $\blacksquare$
 

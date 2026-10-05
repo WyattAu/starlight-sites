@@ -73,7 +73,9 @@ $\mathrm{NTIME(t(n)) = \{L : L \mathrm{ is decided by a nondeterministic TM in  
 
 ### 6.2 The Class P
 
-$$\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)$$
+$$
+\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)
+$$
 
 $\mathrm{P$ is the class of languages decidable in polynomial time by a deterministic TM. This
 Captures the notion of "efficiently solvable."
@@ -88,12 +90,16 @@ Captures the notion of "efficiently solvable."
 
 ### 6.3 The Class NP
 
-$$\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)$$
+$$
+\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)
+$$
 
 **Equivalent definition.** A language $L$ is in NP if there exists a polynomial-time verifier $V$
 And a polynomial $p$ such that:
 
-$$L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}$$
+$$
+L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}
+$$
 
 The string $c$ is called a **certificate** (or witness).
 
@@ -280,13 +286,21 @@ Equal sum?
 
 **Reduction chain:**
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
 <details>
 <summary>Worked Example: Reducing 3-SAT to Independent Set</summary>
@@ -389,7 +403,9 @@ Quantifiers.
 **Equivalent characterisation.** A language $L$ is in $\Sigma_k^P$ iff there exist polynomial-time
 Computable relations $R$ and polynomials $p$ such that:
 
-$$L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}$$
+$$
+L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}
+$$
 
 Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\exists$.
 
@@ -402,7 +418,9 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 **Relationships:**
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
@@ -431,7 +449,9 @@ $\blacksquare$
 
 **PSPACE.** The class of languages decidable in polynomial space:
 
-$$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
+$$
+\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE}$.
 - $\mathrm{P} \neq \mathrm{PSPACE}$ (space hierarchy theorem).
@@ -440,7 +460,9 @@ $$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
 
 **EXPTIME.** The class of languages decidable in exponential time:
 
-$$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
+$$
+\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$.
 - $\mathrm{P} \neq \mathrm{EXPTIME}$ (time hierarchy theorem).
@@ -449,11 +471,17 @@ $$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
 
 **Hierarchy summary:**
 
-$$\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}$$
+$$
+\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}
+$$
 
-$$\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME$$
+$$
+\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME
+$$
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 | Inclusion                                                        | Known to be proper? | Theorem used        |
 | ---------------------------------------------------------------- | ------------------- | ------------------- |

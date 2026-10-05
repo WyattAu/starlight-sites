@@ -73,7 +73,9 @@ $\operatorname{Im}(z)$. The complex number $z = a + bi$ is plotted as the point 
   axis) such that $\tan\theta = \dfrac{b}{a}$With $-\pi < \theta \leq \pi$ (the _principal
   argument_).
 
-$$\boxed{z = a + bi = |z|(\cos\theta + i\sin\theta) = r(\cos\theta + i\sin\theta)}$$
+$$
+\boxed{z = a + bi = |z|(\cos\theta + i\sin\theta) = r(\cos\theta + i\sin\theta)}
+$$
 
 Where $r = |z|$ and $\theta = \arg(z)$.
 
@@ -97,11 +99,15 @@ Where $\overline{z_2} = c - di$ is the _complex conjugate_ of $z_2$.
 
 Find the modulus, argument, and polar form of $z = 1 - \sqrt{3}\,i$.
 
-$$|z| = \sqrt{1^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = 2$$
+$$
+|z| = \sqrt{1^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = 2
+$$
 
 Since $(a, b) = (1, -\sqrt{3})$ lies in the fourth quadrant:
 
-$$\arg(z) = \arctan\!\left(\frac{-\sqrt{3}}{1}\right) = -\frac{\pi}{3}$$
+$$
+\arg(z) = \arctan\!\left(\frac{-\sqrt{3}}{1}\right) = -\frac{\pi}{3}
+$$
 
 Polar form:
 $z = 2\!\left(\cos\!\left(-\dfrac{\pi}{3}\right) + i\sin\!\left(-\dfrac{\pi}{3}\right)\right)$.
@@ -114,7 +120,9 @@ $z = 2\!\left(\cos\!\left(-\dfrac{\pi}{3}\right) + i\sin\!\left(-\dfrac{\pi}{3}\
 
 **Theorem (De Moivre).** For any integer $n$ and any angle $\theta$:
 
-$$\boxed{\left(\cos\theta + i\sin\theta\right)^n = \cos(n\theta) + i\sin(n\theta)}$$
+$$
+\boxed{\left(\cos\theta + i\sin\theta\right)^n = \cos(n\theta) + i\sin(n\theta)}
+$$
 
 ### Proof of De Moivre's Theorem (by induction for $n \geq 0$)
 
@@ -160,15 +168,21 @@ $$
 
 Equating real and imaginary parts:
 
-$$\boxed{\cos 3\theta = 4\cos^3\theta - 3\cos\theta}$$
+$$
+\boxed{\cos 3\theta = 4\cos^3\theta - 3\cos\theta}
+$$
 
-$$\boxed{\sin 3\theta = 3\sin\theta - 4\sin^3\theta}$$
+$$
+\boxed{\sin 3\theta = 3\sin\theta - 4\sin^3\theta}
+$$
 
 ### 2.2 Powers of Complex Numbers
 
 To compute $z^n$ where $z = r(\cos\theta + i\sin\theta)$:
 
-$$z^n = r^n\left(\cos(n\theta) + i\sin(n\theta)\right)$$
+$$
+z^n = r^n\left(\cos(n\theta) + i\sin(n\theta)\right)
+$$
 
 <details>
 <summary>Worked Example: Computing a high power</summary>
@@ -199,7 +213,9 @@ $n \in \mathbb{Z}^+$.
 By De Moivre's theorem, writing $1 = \cos 0 + i\sin 0 = \cos(2k\pi) + i\sin(2k\pi)$ for any integer
 $k$The $n$ distinct solutions are:
 
-$$\boxed{z_k = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, 2, \ldots, n-1}$$
+$$
+\boxed{z_k = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, 2, \ldots, n-1}
+$$
 
 ### 3.1 Geometric Interpretation
 
@@ -211,17 +227,23 @@ Inscribed in the unit circle, with one vertex at $z = 1$.
 
 Since the roots satisfy $z^n - 1 = 0$The sum of all $n$-th roots of unity is zero:
 
-$$\sum_{k=0}^{n-1} z_k = 0$$
+$$
+\sum_{k=0}^{n-1} z_k = 0
+$$
 
 This follows from the coefficient of $z^{n-1}$ in $z^n - 1 = 0$ being zero (by Vieta's formulas).
 Equivalently, the roots form a geometric series with ratio $\omega = e^{2\pi i/n}$ and first term 1,
 Giving:
 
-$$\sum_{k=0}^{n-1} \omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0$$
+$$
+\sum_{k=0}^{n-1} \omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0
+$$
 
 The product of all $n$-th roots of unity is:
 
-$$\prod_{k=0}^{n-1} z_k = (-1)^{n-1}$$
+$$
+\prod_{k=0}^{n-1} z_k = (-1)^{n-1}
+$$
 
 <details>
 <summary>Worked Example: Cube roots of unity</summary>
@@ -255,7 +277,9 @@ $1 \cdot \left(-\dfrac{1}{2} + \dfrac{\sqrt{3}}{2}\,i\right)\left(-\dfrac{1}{2} 
 
 **Definition.** The _exponential form_ of a complex number $z = r(\cos\theta + i\sin\theta)$ is:
 
-$$\boxed{z = re^{i\theta}}$$
+$$
+\boxed{z = re^{i\theta}}
+$$
 
 Where $e^{i\theta} \equiv \cos\theta + i\sin\theta$ by Euler's formula.
 
@@ -263,11 +287,17 @@ Where $e^{i\theta} \equiv \cos\theta + i\sin\theta$ by Euler's formula.
 
 The Maclaurin series for $e^x$, $\cos x$ And $\sin x$ are:
 
-$$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \cdots$$
+$$
+e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \cdots
+$$
 
-$$\cos x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots$$
+$$
+\cos x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots
+$$
 
-$$\sin x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots$$
+$$
+\sin x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots
+$$
 
 Substituting $x = i\theta$ into the series for $e^x$:
 
@@ -281,7 +311,9 @@ $$
 
 Using $i^2 = -1$$i^3 = -i$$i^4 = 1$$i^5 = i$ And so on. Grouping real and imaginary parts:
 
-$$e^{i\theta} = \underbrace{\left(1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\right)}_{=\,\cos\theta} + i\underbrace{\left(\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots\right)}_{=\,\sin\theta}$$
+$$
+e^{i\theta} = \underbrace{\left(1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\right)}_{=\,\cos\theta} + i\underbrace{\left(\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots\right)}_{=\,\sin\theta}
+$$
 
 Therefore $e^{i\theta} = \cos\theta + i\sin\theta$. $\square$
 
@@ -289,7 +321,9 @@ Therefore $e^{i\theta} = \cos\theta + i\sin\theta$. $\square$
 
 Setting $\theta = \pi$:
 
-$$\boxed{e^{i\pi} + 1 = 0}$$
+$$
+\boxed{e^{i\pi} + 1 = 0}
+$$
 
 This celebrated identity connects five fundamental constants: $e$$i$$\pi$$1$ And $0$.
 
@@ -319,7 +353,9 @@ $$
 **Definition.** The locus $|z - a| = r$Where $a \in \mathbb{C}$ and $r \in \mathbb{R}^+$Is a Circle
 with centre $a$ and radius $r$ in the Argand diagram.
 
-$$|z - a| = r \iff \sqrt{(x - \alpha)^2 + (y - \beta)^2} = r \iff (x - \alpha)^2 + (y - \beta)^2 = r^2$$
+$$
+|z - a| = r \iff \sqrt{(x - \alpha)^2 + (y - \beta)^2} = r \iff (x - \alpha)^2 + (y - \beta)^2 = r^2
+$$
 
 Where $a = \alpha + \beta i$ and $z = x + yi$.
 
@@ -427,7 +463,9 @@ Find the image of the line $\operatorname{Re}(z) = 1$ under the transformation $
 
 Let $z = x + yi$ with $x = 1$ So $z = 1 + yi$ and $y \in \mathbb{R}$.
 
-$$w = \frac{1}{1 + yi} = \frac{1 - yi}{1 + y^2} = \frac{1}{1 + y^2} - \frac{y}{1 + y^2}\,i$$
+$$
+w = \frac{1}{1 + yi} = \frac{1 - yi}{1 + y^2} = \frac{1}{1 + y^2} - \frac{y}{1 + y^2}\,i
+$$
 
 Let $w = u + vi$. Then $u = \dfrac{1}{1 + y^2}$ and $v = \dfrac{-y}{1 + y^2}$.
 
@@ -435,7 +473,9 @@ Note that $v = -uy$ So $y = -\dfrac{v}{u}$ (when $u \neq 0$).
 
 Substituting: $u = \dfrac{1}{1 + v^2/u^2} = \dfrac{u^2}{u^2 + v^2}$Giving $u^2 + v^2 = u$I.e.:
 
-$$u^2 - u + v^2 = 0 \implies \left(u - \frac{1}{2}\right)^2 + v^2 = \frac{1}{4}$$
+$$
+u^2 - u + v^2 = 0 \implies \left(u - \frac{1}{2}\right)^2 + v^2 = \frac{1}{4}
+$$
 
 This is a circle with centre $\left(\dfrac{1}{2}, 0\right)$ and radius $\dfrac{1}{2}$ in the
 $w$-plane.
@@ -450,19 +490,33 @@ Edexcel and OCR cover this topic with less depth. CIE focuses more on loci than 
 
 ## 7. Summary of Key Results
 
-$$\boxed{(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)}$$
+$$
+\boxed{(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)}
+$$
 
-$$\boxed{e^{i\theta} = \cos\theta + i\sin\theta}$$
+$$
+\boxed{e^{i\theta} = \cos\theta + i\sin\theta}
+$$
 
-$$\boxed{e^{i\pi} + 1 = 0}$$
+$$
+\boxed{e^{i\pi} + 1 = 0}
+$$
 
-$$\boxed{z_k = e^{2k\pi i/n} = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, \ldots, n-1}$$
+$$
+\boxed{z_k = e^{2k\pi i/n} = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, \ldots, n-1}
+$$
 
-$$\boxed{\sum_{k=0}^{n-1} z_k = 0}$$
+$$
+\boxed{\sum_{k=0}^{n-1} z_k = 0}
+$$
 
-$$\boxed{|z - a| = r \iff \mathrm{circle centre } a \mathrm{ radius } r}$$
+$$
+\boxed{|z - a| = r \iff \mathrm{circle centre } a \mathrm{ radius } r}
+$$
 
-$$\boxed{\arg(z - a) = \alpha \iff \mathrm{half-line from } a \mathrm{ at angle } \alpha}$$
+$$
+\boxed{\arg(z - a) = \alpha \iff \mathrm{half-line from } a \mathrm{ at angle } \alpha}
+$$
 
 <hr />
 
@@ -486,7 +540,9 @@ $|z| = \sqrt{3 + 1} = 2$.
 The point $(-\sqrt{3}, 1)$ is in the second quadrant.
 $\arg(z) = \pi - \arctan\!\left(\dfrac{1}{\sqrt{3}}\right) = \pi - \dfrac{\pi}{6} = \dfrac{5\pi}{6}$.
 
-$$z^5 = 2^5\!\left(\cos\frac{25\pi}{6} + i\sin\frac{25\pi}{6}\right) = 32\!\left(\cos\frac{\pi}{6} + i\sin\frac{\pi}{6}\right) = 32\!\left(\frac{\sqrt{3}}{2} + \frac{1}{2}\,i\right) = 16\sqrt{3} + 16i$$
+$$
+z^5 = 2^5\!\left(\cos\frac{25\pi}{6} + i\sin\frac{25\pi}{6}\right) = 32\!\left(\cos\frac{\pi}{6} + i\sin\frac{\pi}{6}\right) = 32\!\left(\frac{\sqrt{3}}{2} + \frac{1}{2}\,i\right) = 16\sqrt{3} + 16i
+$$
 
 </details>
 
@@ -540,7 +596,9 @@ Write $16i = 16e^{i\pi/2}$ and use the roots formula.
 
 $16i = 16\!\left(\cos\dfrac{\pi}{2} + i\sin\dfrac{\pi}{2}\right)$.
 
-$$z_k = 2\!\left(\cos\!\left(\frac{\pi/2 + 2k\pi}{4}\right) + i\sin\!\left(\frac{\pi/2 + 2k\pi}{4}\right)\right), \quad k = 0, 1, 2, 3$$
+$$
+z_k = 2\!\left(\cos\!\left(\frac{\pi/2 + 2k\pi}{4}\right) + i\sin\!\left(\frac{\pi/2 + 2k\pi}{4}\right)\right), \quad k = 0, 1, 2, 3
+$$
 
 $$
 \begin{aligned}
@@ -577,16 +635,22 @@ $\displaystyle\sum_{k=0}^{4}\omega^k = \frac{1 - \omega^5}{1 - \omega} = \frac{1
 
 Expanding using $\omega^k = \cos\frac{2k\pi}{5} + i\sin\frac{2k\pi}{5}$:
 
-$$\sum_{k=0}^{4}\omega^k = \underbrace{\sum_{k=0}^{4}\cos\frac{2k\pi}{5}}_{\mathrm{real}} + i\underbrace{\sum_{k=0}^{4}\sin\frac{2k\pi}{5}}_{\mathrm{imaginary}} = 0$$
+$$
+\sum_{k=0}^{4}\omega^k = \underbrace{\sum_{k=0}^{4}\cos\frac{2k\pi}{5}}_{\mathrm{real}} + i\underbrace{\sum_{k=0}^{4}\sin\frac{2k\pi}{5}}_{\mathrm{imaginary}} = 0
+$$
 
 The imaginary part is zero by symmetry ($\sin\theta = -\sin(2\pi - \theta)$). The real part gives:
 
-$$1 + \cos\frac{2\pi}{5} + \cos\frac{4\pi}{5} + \cos\frac{6\pi}{5} + \cos\frac{8\pi}{5} = 0$$
+$$
+1 + \cos\frac{2\pi}{5} + \cos\frac{4\pi}{5} + \cos\frac{6\pi}{5} + \cos\frac{8\pi}{5} = 0
+$$
 
 Since $\cos\frac{6\pi}{5} = \cos\frac{4\pi}{5}$ and
 $\cos\frac{8\pi}{5} = \cos\frac{2\pi}{5}$:
 
-$$1 + 2\cos\frac{2\pi}{5} + 2\cos\frac{4\pi}{5} = 0 \implies \cos\frac{2\pi}{5} + \cos\frac{4\pi}{5} = -\frac{1}{2} \quad \square$$
+$$
+1 + 2\cos\frac{2\pi}{5} + 2\cos\frac{4\pi}{5} = 0 \implies \cos\frac{2\pi}{5} + \cos\frac{4\pi}{5} = -\frac{1}{2} \quad \square
+$$
 
 </details>
 
@@ -646,27 +710,45 @@ $w = \dfrac{z + 1}{z - 1} \implies wz - w = z + 1 \implies z(w - 1) = w + 1 \imp
 
 Since $|z| = 2$:
 
-$$\left|\frac{w + 1}{w - 1}\right| = 2 \implies |w + 1| = 2|w - 1|$$
+$$
+\left|\frac{w + 1}{w - 1}\right| = 2 \implies |w + 1| = 2|w - 1|
+$$
 
 Let $w = u + vi$:
 
-$$\sqrt{(u+1)^2 + v^2} = 2\sqrt{(u-1)^2 + v^2}$$
+$$
+\sqrt{(u+1)^2 + v^2} = 2\sqrt{(u-1)^2 + v^2}
+$$
 
 Squaring: $(u+1)^2 + v^2 = 4[(u-1)^2 + v^2]$
 
-$$u^2 + 2u + 1 + v^2 = 4u^2 - 8u + 4 + 4v^2$$
+$$
+u^2 + 2u + 1 + v^2 = 4u^2 - 8u + 4 + 4v^2
+$$
 
-$$0 = 3u^2 - 10u + 3 + 3v^2$$
+$$
+0 = 3u^2 - 10u + 3 + 3v^2
+$$
 
-$$3u^2 - 10u + 3v^2 + 3 = 0$$
+$$
+3u^2 - 10u + 3v^2 + 3 = 0
+$$
 
-$$3\!\left(u^2 - \frac{10}{3}u\right) + 3v^2 = -3$$
+$$
+3\!\left(u^2 - \frac{10}{3}u\right) + 3v^2 = -3
+$$
 
-$$3\!\left(u - \frac{5}{3}\right)^2 - \frac{25}{3} + 3v^2 = -3$$
+$$
+3\!\left(u - \frac{5}{3}\right)^2 - \frac{25}{3} + 3v^2 = -3
+$$
 
-$$3\!\left(u - \frac{5}{3}\right)^2 + 3v^2 = \frac{16}{3}$$
+$$
+3\!\left(u - \frac{5}{3}\right)^2 + 3v^2 = \frac{16}{3}
+$$
 
-$$\left(u - \frac{5}{3}\right)^2 + v^2 = \frac{16}{9}$$
+$$
+\left(u - \frac{5}{3}\right)^2 + v^2 = \frac{16}{9}
+$$
 
 This is a circle with centre $\left(\dfrac{5}{3}, 0\right)$ and radius $\dfrac{4}{3}$ in the
 $w$-plane.
@@ -689,9 +771,13 @@ Write each term in exponential form and use the laws of indices.
 
 $1 + i = \sqrt{2}\,e^{i\pi/4}$ and $1 - i\sqrt{3} = 2\,e^{-i\pi/3}$.
 
-$$\frac{(1+i)^6}{(1-i\sqrt{3})^4} = \frac{(\sqrt{2}\,e^{i\pi/4})^6}{(2\,e^{-i\pi/3})^4} = \frac{8e^{3\pi i/2}}{16\,e^{-4\pi i/3}} = \frac{1}{2}\,e^{i(3\pi/2 + 4\pi/3)}$$
+$$
+\frac{(1+i)^6}{(1-i\sqrt{3})^4} = \frac{(\sqrt{2}\,e^{i\pi/4})^6}{(2\,e^{-i\pi/3})^4} = \frac{8e^{3\pi i/2}}{16\,e^{-4\pi i/3}} = \frac{1}{2}\,e^{i(3\pi/2 + 4\pi/3)}
+$$
 
-$$3\pi/2 + 4\pi/3 = \frac{9\pi + 8\pi}{6} = \frac{17\pi}{6} = 2\pi + \frac{5\pi}{6}$$
+$$
+3\pi/2 + 4\pi/3 = \frac{9\pi + 8\pi}{6} = \frac{17\pi}{6} = 2\pi + \frac{5\pi}{6}
+$$
 
 So:
 $\dfrac{1}{2}\,e^{5\pi i/6} = \dfrac{1}{2}\!\left(\cos\dfrac{5\pi}{6} + i\sin\dfrac{5\pi}{6}\right) = \dfrac{1}{2}\!\left(-\dfrac{\sqrt{3}}{2} + \dfrac{1}{2}\,i\right) = -\dfrac{\sqrt{3}}{4} + \dfrac{1}{4}\,i$
@@ -750,7 +836,9 @@ Equivalently, the roots are $e^{k\pi i/2}$ for $k = 1, 2, 3$.
 
 The sum of roots (by Vieta, coefficient of $z^2$ divided by leading coefficient) is $-1$:
 
-$$i + (-1) + (-i) = -1 \quad \checkmark$$
+$$
+i + (-1) + (-i) = -1 \quad \checkmark
+$$
 
 Now: $e^{i\pi/2} + e^{i\pi} + e^{3i\pi/2} = i + (-1) + (-i) = -1$.
 
@@ -792,12 +880,16 @@ $e^{-i\theta} - 1 = \cos\theta - 1 - i\sin\theta = -2\sin^2\dfrac{\theta}{2} - 2
 
 Denominator: $2 - 2\cos\theta = 4\sin^2\dfrac{\theta}{2}$.
 
-$$\frac{1}{e^{i\theta} - 1} = \frac{-2\sin\frac{\theta}{2}\!\left(\sin\frac{\theta}{2} + i\cos\frac{\theta}{2}\right)}{4\sin^2\frac{\theta}{2}} = \frac{-\sin\frac{\theta}{2} - i\cos\frac{\theta}{2}}{2\sin\frac{\theta}{2}} = -\frac{1}{2} - \frac{i}{2}\cot\frac{\theta}{2} \quad \square$$
+$$
+\frac{1}{e^{i\theta} - 1} = \frac{-2\sin\frac{\theta}{2}\!\left(\sin\frac{\theta}{2} + i\cos\frac{\theta}{2}\right)}{4\sin^2\frac{\theta}{2}} = \frac{-\sin\frac{\theta}{2} - i\cos\frac{\theta}{2}}{2\sin\frac{\theta}{2}} = -\frac{1}{2} - \frac{i}{2}\cot\frac{\theta}{2} \quad \square
+$$
 
 **(b)** Using (a):
 $\dfrac{1}{1 - \omega^k} = -\dfrac{1}{e^{2k\pi i/n} - 1} = \dfrac{1}{2} + \dfrac{i}{2}\cot\dfrac{k\pi}{n}$.
 
-$$\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \sum_{k=1}^{n-1}\!\left(\frac{1}{2} + \frac{i}{2}\cot\frac{k\pi}{n}\right) = \frac{n-1}{2} + \frac{i}{2}\sum_{k=1}^{n-1}\cot\frac{k\pi}{n}$$
+$$
+\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \sum_{k=1}^{n-1}\!\left(\frac{1}{2} + \frac{i}{2}\cot\frac{k\pi}{n}\right) = \frac{n-1}{2} + \frac{i}{2}\sum_{k=1}^{n-1}\cot\frac{k\pi}{n}
+$$
 
 The cotangent sum is zero by symmetry:
 $\cot\dfrac{k\pi}{n} = -\cot\dfrac{(n-k)\pi}{n}$ So terms cancel in pairs.
@@ -827,11 +919,15 @@ Therefore: $\displaystyle\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \frac{n - 1}{2
 
 Expanding by the binomial theorem:
 
-$$(\cos\theta + i\sin\theta)^5 = \cos^5\theta + 5i\cos^4\theta\sin\theta - 10\cos^3\theta\sin^2\theta - 10i\cos^2\theta\sin^3\theta + 5\cos\theta\sin^4\theta + i\sin^5\theta$$
+$$
+(\cos\theta + i\sin\theta)^5 = \cos^5\theta + 5i\cos^4\theta\sin\theta - 10\cos^3\theta\sin^2\theta - 10i\cos^2\theta\sin^3\theta + 5\cos\theta\sin^4\theta + i\sin^5\theta
+$$
 
 Equating real parts:
 
-$$\boxed{\cos 5\theta = 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta}$$
+$$
+\boxed{\cos 5\theta = 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta}
+$$
 
 ### Example 8.2: Solving $z^6 = -64$
 
@@ -839,7 +935,9 @@ $$\boxed{\cos 5\theta = 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta}$$
 
 **Solution.** $-64 = 64e^{i\pi}$. The 6th roots are:
 
-$$z_k = 64^{1/6} \exp\!\left(\frac{i(\pi + 2k\pi)}{6}\right) = 2\exp\!\left(\frac{i(2k+1)\pi}{6}\right)$$
+$$
+z_k = 64^{1/6} \exp\!\left(\frac{i(\pi + 2k\pi)}{6}\right) = 2\exp\!\left(\frac{i(2k+1)\pi}{6}\right)
+$$
 
 For $k = 0, 1, 2, 3, 4, 5$.
 
@@ -854,15 +952,23 @@ These lie on a circle of radius 2, at angles $30°, 90°, 150°, 210°, 270°, 3
 
 **Solution.** Let $z = x + iy$.
 
-$$|z - (3+4i)| = |z - (-1+2i)|$$
+$$
+|z - (3+4i)| = |z - (-1+2i)|
+$$
 
-$$\sqrt{(x-3)^2 + (y-4)^2} = \sqrt{(x+1)^2 + (y-2)^2}$$
+$$
+\sqrt{(x-3)^2 + (y-4)^2} = \sqrt{(x+1)^2 + (y-2)^2}
+$$
 
 Squaring: $(x-3)^2 + (y-4)^2 = (x+1)^2 + (y-2)^2$.
 
-$$x^2 - 6x + 9 + y^2 - 8y + 16 = x^2 + 2x + 1 + y^2 - 4y + 4$$
+$$
+x^2 - 6x + 9 + y^2 - 8y + 16 = x^2 + 2x + 1 + y^2 - 4y + 4
+$$
 
-$$-8x - 4y + 20 = 0 \implies \boxed{2x + y = 5}$$
+$$
+-8x - 4y + 20 = 0 \implies \boxed{2x + y = 5}
+$$
 
 This is the perpendicular bisector of the segment joining $3+4i$ and $-1+2i$.
 
@@ -903,7 +1009,9 @@ The image is the line $\boxed{u + v = 4}$ (where $w = u + iv$).
 
 **Solution.** This is a geometric series with ratio $\omega \neq 1$:
 
-$$\sum_{k=0}^{n-1} \omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0$$
+$$
+\sum_{k=0}^{n-1} \omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0
+$$
 
 $\blacksquare$
 
@@ -1148,7 +1256,9 @@ Is also a root. This is because $\overline{P(z)} = P(\bar{z})$ for real-coeffici
 
 From $e^{i\theta} = \cos\theta + i\sin\theta$ and $e^{-i\theta} = \cos\theta - i\sin\theta$:
 
-$$\cos\theta = \frac{e^{i\theta}+e^{-i\theta}}{2}, \qquad \sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}$$
+$$
+\cos\theta = \frac{e^{i\theta}+e^{-i\theta}}{2}, \qquad \sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}
+$$
 
 These are essential for deriving trigonometric identities and solving certain integrals.
 
@@ -1241,7 +1351,9 @@ This provides a geometric interpretation of all complex arithmetic.
 
 To solve $z^n = w = re^{i\phi}$:
 
-$$z_k = r^{1/n} \exp\!\left(\frac{i(\phi + 2k\pi)}{n}\right) \quad \text{for } k = 0, 1, \ldots, n-1$$
+$$
+z_k = r^{1/n} \exp\!\left(\frac{i(\phi + 2k\pi)}{n}\right) \quad \text{for } k = 0, 1, \ldots, n-1
+$$
 
 The roots lie on a circle of radius $r^{1/n}$Equally spaced.
 

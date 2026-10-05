@@ -60,9 +60,13 @@ Region; the complement $A'$ is everything in the rectangle outside the circle fo
 
 **Theorem.** For any subsets $A$ and $B$ of a universal set $U$:
 
-$$(A \cup B)' = A' \cap B'$$
+$$
+(A \cup B)' = A' \cap B'
+$$
 
-$$(A \cap B)' = A' \cup B'$$
+$$
+(A \cap B)' = A' \cup B'
+$$
 
 _Proof of the first law._ We show mutual inclusion.
 
@@ -95,14 +99,18 @@ There are $2^3 = 8$ subsets, as expected.
 
 For finite sets $A$ and $B$:
 
-$$|A \cup B| = |A| + |B| - |A \cap B|$$
+$$
+|A \cup B| = |A| + |B| - |A \cap B|
+$$
 
 This is the **inclusion-exclusion principle** for two sets. It subtracts the overlap that would
 Otherwise be double-counted.
 
 For three sets $A$, $B$, $C$:
 
-$$|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|$$
+$$
+|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|
+$$
 
 <details>
 <summary>Worked example: Cardinality</summary>
@@ -128,7 +136,9 @@ A function $f$ is an assignment from a **domain** ($X$The set of acceptable inpu
 
 A function $f$ with domain $X$ and codomain $Y$:
 
-$$f: X \to Y$$
+$$
+f: X \to Y
+$$
 
 <details>
 <summary>Non-examples of functions</summary>
@@ -147,7 +157,9 @@ $$f: X \to Y$$
 
 The **range** ($A$) of a function $f: X \to Y$ is the set of all values actually produced:
 
-$$A = \{f(x) \mid x \in X\}, \quad A \subseteq Y$$
+$$
+A = \{f(x) \mid x \in X\}, \quad A \subseteq Y
+$$
 
 ### Classes of Functions
 
@@ -194,7 +206,9 @@ Therefore $f$ is bijective.
 
 If $f: X \to Y$ is bijective, the **inverse function** $f^{-1}: Y \to X$ exists and satisfies:
 
-$$f^{-1}(f(x)) = x \quad \mathrm{for all } x \in X, \qquad f(f^{-1}(y)) = y \quad \mathrm{for all } y \in Y$$
+$$
+f^{-1}(f(x)) = x \quad \mathrm{for all } x \in X, \qquad f(f^{-1}(y)) = y \quad \mathrm{for all } y \in Y
+$$
 
 To find $f^{-1}$: write $y = f(x)$Solve for $x$ in terms of $y$ Then interchange $x$ and $y$.
 
@@ -243,13 +257,17 @@ $f^{-1}(x) = -\sqrt{x}$.
 
 A number in scientific notation has the form:
 
-$$a = b \times 10^k, \quad b \in \mathbb{R},\; 1 \le |b| \lt 10,\; k \in \mathbb{Z}$$
+$$
+a = b \times 10^k, \quad b \in \mathbb{R},\; 1 \le |b| \lt 10,\; k \in \mathbb{Z}
+$$
 
 ### Multiplication of Numbers in Scientific Notation
 
 Let $a_1 = b_1 \times 10^{k_1}$ and $a_2 = b_2 \times 10^{k_2}$. Then:
 
-$$a_1 \cdot a_2 = b_1 \cdot b_2 \times 10^{k_1 + k_2}$$
+$$
+a_1 \cdot a_2 = b_1 \cdot b_2 \times 10^{k_1 + k_2}
+$$
 
 If $|b_1 \cdot b_2| \ge 10$ or $|b_1 \cdot b_2| \lt 1$Adjust the mantissa back into $[1, 10)$ by
 Absorbing a factor of $10$ into the exponent.
@@ -304,14 +322,18 @@ $19.3125 \le A \lt 20.2125$.
 A sequence is a function $f$ with domain $\mathbb{N}$ (or $\mathbb{N}_0$) and codomain $X$. Writing
 $u_n = f(n)$Every sequence is ordered by its index.
 
-$$f: \mathbb{N} \to X, \quad u_n = f(n), \; n \in \mathbb{N}$$
+$$
+f: \mathbb{N} \to X, \quad u_n = f(n), \; n \in \mathbb{N}
+$$
 
 ### Series and Partial Sums
 
 A **series** is the sum of the terms of a sequence. A **partial sum** $S_k$ is the sum of the first
 $k$ terms:
 
-$$S_k = \sum_{n=1}^{k} u_n$$
+$$
+S_k = \sum_{n=1}^{k} u_n
+$$
 
 ### Sigma Notation Properties
 
@@ -319,7 +341,9 @@ Sigma notation obeys the following rules (where $c$ is a constant independent of
 
 **Linearity:**
 
-$$\sum_{n=1}^{k} (au_n + bv_n) = a\sum_{n=1}^{k} u_n + b\sum_{n=1}^{k} v_n$$
+$$
+\sum_{n=1}^{k} (au_n + bv_n) = a\sum_{n=1}^{k} u_n + b\sum_{n=1}^{k} v_n
+$$
 
 _Proof._ Distribute the sum over each term and factor constants out. Each term $au_n$ appears
 Exactly once in the expansion, so grouping gives $a$ times the sum of $u_n$ And similarly for $bv_n$.
@@ -327,7 +351,9 @@ $\blacksquare$
 
 **Index shifting:** Replacing $n$ with $n + m$ shifts the bounds:
 
-$$\sum_{n=p}^{q} u_n = \sum_{n=p+m}^{q+m} u_{n-m}$$
+$$
+\sum_{n=p}^{q} u_n = \sum_{n=p+m}^{q+m} u_{n-m}
+$$
 
 **Telescoping:** If $u_n = v_n - v_{n-1}$ Then $\sum_{n=1}^{k} u_n = v_k - v_0$.
 
@@ -345,7 +371,9 @@ $3\sum_{n=1}^{50} n + \sum_{n=1}^{50} 2 = 3 \cdot \frac{50 \cdot 51}{2} + 2 \cdo
 
 An arithmetic sequence has a constant **common difference** $d$ between consecutive terms:
 
-$$a_n = a_1 + (n-1)d$$
+$$
+a_n = a_1 + (n-1)d
+$$
 
 ### Arithmetic Series, Proof by Pairing
 
@@ -353,29 +381,41 @@ $$a_n = a_1 + (n-1)d$$
 
 _Proof._ Write the sum forward and backward:
 
-$$S_k = a_1 + (a_1 + d) + (a_1 + 2d) + \cdots + (a_1 + (k-1)d)$$
+$$
+S_k = a_1 + (a_1 + d) + (a_1 + 2d) + \cdots + (a_1 + (k-1)d)
+$$
 
-$$S_k = a_k + (a_k - d) + (a_k - 2d) + \cdots + (a_k - (k-1)d)$$
+$$
+S_k = a_k + (a_k - d) + (a_k - 2d) + \cdots + (a_k - (k-1)d)
+$$
 
 Adding term-by-term, each pair sums to $a_1 + a_k$ And there are $k$ such pairs:
 
-$$2S_k = k(a_1 + a_k) \implies S_k = \frac{k}{2}(a_1 + a_k)$$
+$$
+2S_k = k(a_1 + a_k) \implies S_k = \frac{k}{2}(a_1 + a_k)
+$$
 
 Substituting $a_k = a_1 + (k-1)d$ gives the alternative form:
 
-$$S_k = \frac{k}{2}\big(2a_1 + (k-1)d\big)$$
+$$
+S_k = \frac{k}{2}\big(2a_1 + (k-1)d\big)
+$$
 
 $\blacksquare$
 
 :::caution
-$$S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$$
+$$
+S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)
+$$
 :::
 
 ### Geometric Sequences
 
 A geometric sequence has a constant **common ratio** $r$ between consecutive terms:
 
-$$u_n = u_1 \cdot r^{n-1}$$
+$$
+u_n = u_1 \cdot r^{n-1}
+$$
 
 ### Geometric Series, Proof by Subtraction
 
@@ -383,23 +423,35 @@ $$u_n = u_1 \cdot r^{n-1}$$
 
 _Proof._ Write $S_k$ and $rS_k$:
 
-$$S_k = u_1 + u_1 r + u_1 r^2 + \cdots + u_1 r^{k-1}$$
+$$
+S_k = u_1 + u_1 r + u_1 r^2 + \cdots + u_1 r^{k-1}
+$$
 
-$$rS_k = u_1 r + u_1 r^2 + u_1 r^3 + \cdots + u_1 r^k$$
+$$
+rS_k = u_1 r + u_1 r^2 + u_1 r^3 + \cdots + u_1 r^k
+$$
 
 Subtracting:
 
-$$S_k - rS_k = u_1 - u_1 r^k$$
+$$
+S_k - rS_k = u_1 - u_1 r^k
+$$
 
-$$S_k(1 - r) = u_1(1 - r^k)$$
+$$
+S_k(1 - r) = u_1(1 - r^k)
+$$
 
-$$S_k = \frac{u_1(1 - r^k)}{1 - r} \qquad \blacksquare$$
+$$
+S_k = \frac{u_1(1 - r^k)}{1 - r} \qquad \blacksquare
+$$
 
 ### Convergence of Geometric Series
 
 If $|r| \lt 1$ Then $\lim_{k \to \infty} r^k = 0$ So:
 
-$$S_{\infty} = \frac{u_1}{1 - r}$$
+$$
+S_{\infty} = \frac{u_1}{1 - r}
+$$
 
 If $|r| \ge 1$The series diverges.
 
@@ -408,7 +460,9 @@ If $|r| \ge 1$The series diverges.
 If a principal $P$ is invested at rate $r$ per period, compounded each period, the value after $n$
 Periods is:
 
-$$A = P(1 + r)^n$$
+$$
+A = P(1 + r)^n
+$$
 
 This is a geometric sequence with $u_1 = P$ and common ratio $1 + r$.
 
@@ -417,7 +471,9 @@ This is a geometric sequence with $u_1 = P$ and common ratio $1 + r$.
 An annuity pays $d$ per period for $n$ periods, with interest rate $r$ per period. The present value
 Is:
 
-$$PV = \frac{d}{r}\left(1 - \frac{1}{(1+r)^n}\right)$$
+$$
+PV = \frac{d}{r}\left(1 - \frac{1}{(1+r)^n}\right)
+$$
 
 This follows directly from the geometric series sum with first term $\frac{d}{1+r}$ and ratio
 $\frac{1}{1+r}$.
@@ -470,7 +526,9 @@ $3^n - 1 = 6560 \implies 3^n = 6561 = 3^8 \implies n = 8$
 
 A logarithm is the inverse function of the exponential $f(x) = b^x$:
 
-$$\log_b(b^x) = x, \quad b \in \{r \in \mathbb{R} \mid r \gt 0,\; r \ne 1\}$$
+$$
+\log_b(b^x) = x, \quad b \in \{r \in \mathbb{R} \mid r \gt 0,\; r \ne 1\}
+$$
 
 The logarithm $\log_b x$ answers the question: "to what power must $b$ be raised to obtain $x$?"
 
@@ -595,15 +653,25 @@ Prove $\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$.
 
 **Inductive step:**
 
-$$\sum_{i=1}^{k+1} i^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2$$
+$$
+\sum_{i=1}^{k+1} i^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2
+$$
 
-$$= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6}$$
+$$
+= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6}
+$$
 
-$$= \frac{(k+1)\big[k(2k+1) + 6(k+1)\big]}{6}$$
+$$
+= \frac{(k+1)\big[k(2k+1) + 6(k+1)\big]}{6}
+$$
 
-$$= \frac{(k+1)(2k^2 + k + 6k + 6)}{6}$$
+$$
+= \frac{(k+1)(2k^2 + k + 6k + 6)}{6}
+$$
 
-$$= \frac{(k+1)(2k^2 + 7k + 6)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}$$
+$$
+= \frac{(k+1)(2k^2 + 7k + 6)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}
+$$
 
 This equals $\frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}$Which is the formula for $n = k+1$. $\blacksquare$
 
@@ -660,26 +728,38 @@ Since $k \ge 1$We have $2k = k + k \ge k + 1$. Therefore $2^{k+1} \gt k + 1$. $\
 
 For any non-negative integer $n$ and any $a, b \in \mathbb{R}$:
 
-$$(a + b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k$$
+$$
+(a + b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k
+$$
 
 Where the **binomial coefficient** is:
 
-$$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+$$
+\binom{n}{k} = \frac{n!}{k!(n-k)!}
+$$
 
 ### Pascal's Triangle
 
 The binomial coefficients can be generated recursively via **Pascal's triangle**. Each entry is the
 Sum of the two entries above it:
 
-$$\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}$$
+$$
+\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}
+$$
 
 _Proof of Pascal's identity._ Using the factorial definition:
 
-$$\binom{n-1}{k-1} + \binom{n-1}{k} = \frac{(n-1)!}{(k-1)!(n-k)!} + \frac{(n-1)!}{k!(n-1-k)!}$$
+$$
+\binom{n-1}{k-1} + \binom{n-1}{k} = \frac{(n-1)!}{(k-1)!(n-k)!} + \frac{(n-1)!}{k!(n-1-k)!}
+$$
 
-$$= \frac{(n-1)! \cdot k}{k!(n-k)!} + \frac{(n-1)! \cdot (n-k)}{k!(n-k)!}$$
+$$
+= \frac{(n-1)! \cdot k}{k!(n-k)!} + \frac{(n-1)! \cdot (n-k)}{k!(n-k)!}
+$$
 
-$$= \frac{(n-1)!\big(k + n - k\big)}{k!(n-k)!} = \frac{n \cdot (n-1)!}{k!(n-k)!} = \frac{n!}{k!(n-k)!} = \binom{n}{k} \qquad \blacksquare$$
+$$
+= \frac{(n-1)!\big(k + n - k\big)}{k!(n-k)!} = \frac{n \cdot (n-1)!}{k!(n-k)!} = \frac{n!}{k!(n-k)!} = \binom{n}{k} \qquad \blacksquare
+$$
 
 ### Properties of Binomial Coefficients
 
@@ -691,18 +771,26 @@ $$= \frac{(n-1)!\big(k + n - k\big)}{k!(n-k)!} = \frac{n \cdot (n-1)!}{k!(n-k)!}
 
 The general term (the $(k+1)$-th term, since the sum starts at $k=0$) is:
 
-$$T_{k+1} = \binom{n}{k} a^{n-k} b^k$$
+$$
+T_{k+1} = \binom{n}{k} a^{n-k} b^k
+$$
 
 <details>
 <summary>Worked example: Expansion</summary>
 
 Expand $(2x - 3)^4$ using the binomial theorem.
 
-$$(2x - 3)^4 = \binom{4}{0}(2x)^4 + \binom{4}{1}(2x)^3(-3) + \binom{4}{2}(2x)^2(-3)^2 + \binom{4}{3}(2x)(-3)^3 + \binom{4}{4}(-3)^4$$
+$$
+(2x - 3)^4 = \binom{4}{0}(2x)^4 + \binom{4}{1}(2x)^3(-3) + \binom{4}{2}(2x)^2(-3)^2 + \binom{4}{3}(2x)(-3)^3 + \binom{4}{4}(-3)^4
+$$
 
-$$= 16x^4 - 4 \cdot 8x^3 \cdot 3 + 6 \cdot 4x^2 \cdot 9 - 4 \cdot 2x \cdot 27 + 81$$
+$$
+= 16x^4 - 4 \cdot 8x^3 \cdot 3 + 6 \cdot 4x^2 \cdot 9 - 4 \cdot 2x \cdot 27 + 81
+$$
 
-$$= 16x^4 - 96x^3 + 216x^2 - 216x + 81$$
+$$
+= 16x^4 - 96x^3 + 216x^2 - 216x + 81
+$$
 
 </details>
 
@@ -713,7 +801,9 @@ Find the coefficient of $x^3$ in the expansion of $(1 + 2x)^7$.
 
 The term containing $x^3$ occurs when $k = 3$:
 
-$$T_4 = \binom{7}{3}(1)^{7-3}(2x)^3 = 35 \cdot 8x^3 = 280x^3$$
+$$
+T_4 = \binom{7}{3}(1)^{7-3}(2x)^3 = 35 \cdot 8x^3 = 280x^3
+$$
 
 The coefficient is $280$.
 

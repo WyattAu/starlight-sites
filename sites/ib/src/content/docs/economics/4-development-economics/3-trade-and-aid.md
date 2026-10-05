@@ -253,7 +253,9 @@ Other financial services to low-income individuals who lack access to traditiona
 The group lending model (pioneered by Grameen Bank, Muhammad Yunus) uses social collateral instead
 Of physical collateral:
 
-$$\text{Default by one member} \implies \text{Group liability} \implies \text{Social sanctions}$$
+$$
+\text{Default by one member} \implies \text{Group liability} \implies \text{Social sanctions}
+$$
 
 This creates peer monitoring and mutual accountability, overcoming the asymmetric information
 problem That prevents traditional banks from lending to the poor.

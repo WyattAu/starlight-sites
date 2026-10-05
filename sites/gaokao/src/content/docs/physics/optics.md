@@ -78,12 +78,20 @@ description: "Study notes for Optics with worked examples, practice problems, an
 步骤1：由折射定律 $n_1 \sin\theta_1 = n_2 \sin\theta_2$
 
 步骤2：代入数据（空气 $n_1 \approx 1$）：
-$$\sin 45° = \frac{4}{3} \sin\theta_2$$
-$$\frac{\sqrt{2}}{2} = \frac{4}{3} \sin\theta_2$$
+$$
+\sin 45° = \frac{4}{3} \sin\theta_2
+$$
+$$
+\frac{\sqrt{2}}{2} = \frac{4}{3} \sin\theta_2
+$$
 
 步骤3：解得：
-$$\sin\theta_2 = \frac{3\sqrt{2}}{8}$$
-$$\theta_2 = \arcsin\frac{3\sqrt{2}}{8}$$
+$$
+\sin\theta_2 = \frac{3\sqrt{2}}{8}
+$$
+$$
+\theta_2 = \arcsin\frac{3\sqrt{2}}{8}
+$$
 
 **答案：** 折射角为 $\arcsin\frac{3\sqrt{2}}{8}$
 
@@ -96,10 +104,14 @@ $$\theta_2 = \arcsin\frac{3\sqrt{2}}{8}$$
 步骤1：由全反射临界角公式 $\sin C = \frac{1}{n}$
 
 步骤2：代入数据：
-$$\sin C = \frac{1}{1.5} = \frac{2}{3}$$
+$$
+\sin C = \frac{1}{1.5} = \frac{2}{3}
+$$
 
 步骤3：计算临界角：
-$$C = \arcsin\frac{2}{3} \approx 41.8°$$
+$$
+C = \arcsin\frac{2}{3} \approx 41.8°
+$$
 
 **答案：** 临界角约为 $41.8°$
 
@@ -110,13 +122,19 @@ $$C = \arcsin\frac{2}{3} \approx 41.8°$$
 **解答：**
 
 步骤1：计算光子能量：
-$$E = h\nu = 6.63 \times 10^{-34} \times 6 \times 10^{14} = 3.98 \times 10^{-19}\,\text{J}$$
+$$
+E = h\nu = 6.63 \times 10^{-34} \times 6 \times 10^{14} = 3.98 \times 10^{-19}\,\text{J}
+$$
 
 步骤2：换算为电子伏特：
-$$E = \frac{3.98 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 2.49\,\text{eV}$$
+$$
+E = \frac{3.98 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 2.49\,\text{eV}
+$$
 
 步骤3：由光电效应方程：
-$$E_k = E - W_0 = 2.49 - 2.0 = 0.49\,\text{eV}$$
+$$
+E_k = E - W_0 = 2.49 - 2.0 = 0.49\,\text{eV}
+$$
 
 **答案：** 光电子的最大初动能约为 $0.49\,\text{eV}$
 
@@ -140,10 +158,14 @@ $$E_k = E - W_0 = 2.49 - 2.0 = 0.49\,\text{eV}$$
 **解答：**
 
 步骤1：由双缝干涉公式，相邻明纹间距：
-$$\Delta x = \frac{L\lambda}{d}$$
+$$
+\Delta x = \frac{L\lambda}{d}
+$$
 
 步骤2：代入数据：
-$$\Delta x = \frac{1 \times 600 \times 10^{-9}}{0.2 \times 10^{-3}} = \frac{6 \times 10^{-7}}{2 \times 10^{-4}} = 3 \times 10^{-3}\,\text{m} = 3\,\text{mm}$$
+$$
+\Delta x = \frac{1 \times 600 \times 10^{-9}}{0.2 \times 10^{-3}} = \frac{6 \times 10^{-7}}{2 \times 10^{-4}} = 3 \times 10^{-3}\,\text{m} = 3\,\text{mm}
+$$
 
 **答案：** 相邻明纹间距为 $3\,\text{mm}$
 
@@ -154,15 +176,25 @@ $$\Delta x = \frac{1 \times 600 \times 10^{-9}}{0.2 \times 10^{-3}} = \frac{6 \t
 **解答：**
 
 步骤1：由折射定律求折射角：
-$$\sin 45° = 1.5 \sin r \implies \sin r = \frac{\sqrt{2}/2}{1.5} = \frac{\sqrt{2}}{3}$$
-$$r \approx 28.1°$$
+$$
+\sin 45° = 1.5 \sin r \implies \sin r = \frac{\sqrt{2}/2}{1.5} = \frac{\sqrt{2}}{3}
+$$
+$$
+r \approx 28.1°
+$$
 
 步骤2：在玻璃砖内的水平位移：
-$$x = d \tan r = 10 \times \tan 28.1° \approx 10 \times 0.534 = 5.34\,\text{cm}$$
+$$
+x = d \tan r = 10 \times \tan 28.1° \approx 10 \times 0.534 = 5.34\,\text{cm}
+$$
 
 步骤3：侧移量（入射光线延长线与出射光线的垂直距离）：
-$$\delta = d \sin(i - r) / \cos r = 10 \times \sin(45° - 28.1°) / \cos 28.1°$$
-$$= 10 \times \sin 16.9° / \cos 28.1° \approx 10 \times 0.291 / 0.882 = 3.3\,\text{cm}$$
+$$
+\delta = d \sin(i - r) / \cos r = 10 \times \sin(45° - 28.1°) / \cos 28.1°
+$$
+$$
+= 10 \times \sin 16.9° / \cos 28.1° \approx 10 \times 0.291 / 0.882 = 3.3\,\text{cm}
+$$
 
 **答案：** 侧移量约为 $3.3\,\text{cm}$
 
@@ -173,18 +205,30 @@ $$= 10 \times \sin 16.9° / \cos 28.1° \approx 10 \times 0.291 / 0.882 = 3.3\,\
 **解答：**
 
 步骤1：由光电效应方程：
-$$E_{k1} = h\nu_1 - W_0$$
-$$E_{k2} = h\nu_2 - W_0$$
+$$
+E_{k1} = h\nu_1 - W_0
+$$
+$$
+E_{k2} = h\nu_2 - W_0
+$$
 
 步骤2：两式相减：
-$$E_{k1} - E_{k2} = h(\nu_1 - \nu_2)$$
+$$
+E_{k1} - E_{k2} = h(\nu_1 - \nu_2)
+$$
 
 步骤3：解得普朗克常量：
-$$h = \frac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}$$
+$$
+h = \frac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}
+$$
 
 步骤4：代入第一个方程求逸出功：
-$$W_0 = h\nu_1 - E_{k1} = \frac{(E_{k1} - E_{k2})\nu_1}{\nu_1 - \nu_2} - E_{k1}$$
-$$= \frac{E_{k1}\nu_1 - E_{k2}\nu_1 - E_{k1}\nu_1 + E_{k1}\nu_2}{\nu_1 - \nu_2} = \frac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}$$
+$$
+W_0 = h\nu_1 - E_{k1} = \frac{(E_{k1} - E_{k2})\nu_1}{\nu_1 - \nu_2} - E_{k1}
+$$
+$$
+= \frac{E_{k1}\nu_1 - E_{k2}\nu_1 - E_{k1}\nu_1 + E_{k1}\nu_2}{\nu_1 - \nu_2} = \frac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}
+$$
 
 **答案：** $h = \dfrac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}$，$W_0 = \dfrac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}$
 
@@ -210,19 +254,33 @@ $$= \frac{E_{k1}\nu_1 - E_{k2}\nu_1 - E_{k1}\nu_1 + E_{k1}\nu_2}{\nu_1 - \nu_2} 
 **解答：**
 
 步骤1：在第一个界面，由折射定律：
-$$\sin 60° = \sqrt{3} \sin r_1$$
-$$\frac{\sqrt{3}}{2} = \sqrt{3} \sin r_1 \implies \sin r_1 = \frac{1}{2} \implies r_1 = 30°$$
+$$
+\sin 60° = \sqrt{3} \sin r_1
+$$
+$$
+\frac{\sqrt{3}}{2} = \sqrt{3} \sin r_1 \implies \sin r_1 = \frac{1}{2} \implies r_1 = 30°
+$$
 
 步骤2：由棱镜的几何关系，$r_1 + r_2 = A$：
-$$r_2 = A - r_1 = 60° - 30° = 30°$$
+$$
+r_2 = A - r_1 = 60° - 30° = 30°
+$$
 
 步骤3：在第二个界面，由折射定律：
-$$\sqrt{3} \sin r_2 = \sin e$$
-$$\sqrt{3} \sin 30° = \sin e$$
-$$\frac{\sqrt{3}}{2} = \sin e \implies e = 60°$$
+$$
+\sqrt{3} \sin r_2 = \sin e
+$$
+$$
+\sqrt{3} \sin 30° = \sin e
+$$
+$$
+\frac{\sqrt{3}}{2} = \sin e \implies e = 60°
+$$
 
 步骤4：偏向角：
-$$\delta = i + e - A = 60° + 60° - 60° = 60°$$
+$$
+\delta = i + e - A = 60° + 60° - 60° = 60°
+$$
 
 **答案：** 光线的偏向角为 $60°$
 
@@ -235,18 +293,30 @@ $$\delta = i + e - A = 60° + 60° - 60° = 60°$$
 **解答：**
 
 步骤1：由光电效应方程和遏止电压的关系：
-$$eU_1 = h\nu_1 - W_0$$
-$$eU_2 = h\nu_2 - W_0$$
+$$
+eU_1 = h\nu_1 - W_0
+$$
+$$
+eU_2 = h\nu_2 - W_0
+$$
 
 步骤2：两式相减：
-$$e(U_1 - U_2) = h(\nu_1 - \nu_2)$$
+$$
+e(U_1 - U_2) = h(\nu_1 - \nu_2)
+$$
 
 步骤3：解得普朗克常量：
-$$h = \frac{e(U_1 - U_2)}{\nu_1 - \nu_2}$$
+$$
+h = \frac{e(U_1 - U_2)}{\nu_1 - \nu_2}
+$$
 
 步骤4：代入第一个方程求逸出功：
-$$W_0 = h\nu_1 - eU_1 = \frac{e(U_1 - U_2)\nu_1}{\nu_1 - \nu_2} - eU_1$$
-$$= \frac{e\nu_1 U_1 - e\nu_1 U_2 - eU_1 \nu_1 + eU_1 \nu_2}{\nu_1 - \nu_2} = \frac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}$$
+$$
+W_0 = h\nu_1 - eU_1 = \frac{e(U_1 - U_2)\nu_1}{\nu_1 - \nu_2} - eU_1
+$$
+$$
+= \frac{e\nu_1 U_1 - e\nu_1 U_2 - eU_1 \nu_1 + eU_1 \nu_2}{\nu_1 - \nu_2} = \frac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}
+$$
 
 **答案：** $h = \dfrac{e(U_1 - U_2)}{\nu_1 - \nu_2}$，$W_0 = \dfrac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}$
 
@@ -261,10 +331,14 @@ $$= \frac{e\nu_1 U_1 - e\nu_1 U_2 - eU_1 \nu_1 + eU_1 \nu_2}{\nu_1 - \nu_2} = \f
 步骤1：由双缝干涉公式 $\Delta x = \dfrac{L\lambda}{d}$，可知 $\Delta x \propto \lambda$。
 
 步骤2：因此：
-$$\frac{\Delta x'}{\Delta x} = \frac{\lambda'}{\lambda}$$
+$$
+\frac{\Delta x'}{\Delta x} = \frac{\lambda'}{\lambda}
+$$
 
 步骤3：代入数据：
-$$\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500} = 2.8\,\text{mm}$$
+$$
+\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500} = 2.8\,\text{mm}
+$$
 
 **答案：** 相邻明纹间距变为 $2.8\,\text{mm}$
 

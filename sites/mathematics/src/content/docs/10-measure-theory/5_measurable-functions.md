@@ -39,7 +39,9 @@ defined), $|f|$, $\max(f, g)$, and $\min(f, g)$ are all measurable.
 
 A **simple function** is a finite linear combination of indicator functions:
 
-$$s(x) = \sum_{i=1}^{n} a_i \chi_{A_i}(x)$$
+$$
+s(x) = \sum_{i=1}^{n} a_i \chi_{A_i}(x)
+$$
 
 where $a_i \in \mathbb{R}$ and $A_i \in \mathcal{F}$ are measurable sets.
 
@@ -49,7 +51,9 @@ $0 \leq s_1 \leq s_2 \leq \cdots$ converging pointwise to $f$.
 
 _Proof._ For each $n$, partition $[0, n)$ into $n \cdot 2^n$ subintervals of length $2^{-n}$. Define
 
-$$s_n(x) = \begin{cases} \frac{k-1}{2^n} & \text{if } \frac{k-1}{2^n} \leq f(x) < \frac{k}{2^n},\ k = 1, \ldots, n2^n \\ n & \text{if } f(x) \geq n \end{cases}$$
+$$
+s_n(x) = \begin{cases} \frac{k-1}{2^n} & \text{if } \frac{k-1}{2^n} \leq f(x) < \frac{k}{2^n},\ k = 1, \ldots, n2^n \\ n & \text{if } f(x) \geq n \end{cases}
+$$
 
 Each $s_n$ is a simple function, $s_n \leq s_{n+1}$, and $s_n(x) \to f(x)$ for every $x$.
 $\blacksquare$
@@ -70,7 +74,9 @@ $m([a, b] \setminus K) < \varepsilon$ such that $f|_K$ is continuous.
 **Definition.** A sequence of measurable functions $f_n$ converges **in measure** to $f$ if for
 every $\varepsilon > 0$:
 
-$$\lim_{n \to \infty} \mu(\{x : |f_n(x) - f(x)| \geq \varepsilon\}) = 0$$
+$$
+\lim_{n \to \infty} \mu(\{x : |f_n(x) - f(x)| \geq \varepsilon\}) = 0
+$$
 
 **Theorem 5.7.** If $f_n \to f$ a.e. on a finite measure space, then $f_n \to f$ in measure.
 
@@ -87,7 +93,9 @@ to $f$ a.e.
 
 **Definition.** For $1 \leq p < \infty$, $f_n \to f$ in $L^p(\mu)$ if:
 
-$$\int |f_n - f|^p \, d\mu \to 0 \quad \text{as } n \to \infty$$
+$$
+\int |f_n - f|^p \, d\mu \to 0 \quad \text{as } n \to \infty
+$$
 
 **Proposition 5.9.** Convergence in $L^p$ implies convergence in measure.
 
@@ -167,7 +175,9 @@ Measurable functions are the functions that play nicely with measure theory, the
 
 **Theorem 5.13 (Layer Cake Representation).** For a non-negative measurable function $f$:
 
-$$\int_X f\, d\mu = \int_0^\infty \mu(\{x : f(x) > t\})\, dt$$
+$$
+\int_X f\, d\mu = \int_0^\infty \mu(\{x : f(x) > t\})\, dt
+$$
 
 This formula is useful for computing integrals and for proving inequalities such as Chebyshev's
 and the Marcinkiewicz interpolation theorem.

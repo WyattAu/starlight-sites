@@ -630,7 +630,9 @@ $\mathrm{CO_2$ diffuses into the leaf through the stomata and enters the chlorop
 RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase) catalyses the reaction between
 $\mathrm{CO_2$ and ribulose bisphosphate (RuBP, a 5-carbon compound):
 
-$$\mathrm{CO_2 + \mathrm{RuBP (5C) \to 2 \times \mathrm{glycerate 3-phosphate (GP, 3C)$$
+$$
+\mathrm{CO_2 + \mathrm{RuBP (5C) \to 2 \times \mathrm{glycerate 3-phosphate (GP, 3C)
+$$
 
 RuBisCO is the most abundant protein on Earth, but it is inefficient: it can also react with oxygen
 (photorespiration), which reduces the efficiency of photosynthesis, especially at high temperatures.
@@ -640,7 +642,9 @@ RuBisCO is the most abundant protein on Earth, but it is inefficient: it can als
 GP is reduced to triose phosphate (TP, also called glyceraldehyde-3-phosphate or G3P) using ATP and
 NADPH:
 
-$$\mathrm{GP + \mathrm{ATP + \mathrm{NADPH \to \mathrm{TP + \mathrm{NADP^+ + \mathrm{ADP + P_i$$
+$$
+\mathrm{GP + \mathrm{ATP + \mathrm{NADPH \to \mathrm{TP + \mathrm{NADP^+ + \mathrm{ADP + P_i
+$$
 
 **Stage 3 -- Regeneration of RuBP:**
 
@@ -650,7 +654,9 @@ Product that can be used to make glucose and other organic molecules.
 
 **Overall equation for the Calvin cycle (per 3 $\mathrm{CO_2$):**
 
-$$3\mathrm{CO_2 + 9\mathrm{ATP + 6\mathrm{NADPH \to \mathrm{TP (for glucose) + 9\mathrm{ADP + 8P_i + 6\mathrm{NADP^+$$
+$$
+3\mathrm{CO_2 + 9\mathrm{ATP + 6\mathrm{NADPH \to \mathrm{TP (for glucose) + 9\mathrm{ADP + 8P_i + 6\mathrm{NADP^+
+$$
 
 **Uses of triose phosphate:**
 

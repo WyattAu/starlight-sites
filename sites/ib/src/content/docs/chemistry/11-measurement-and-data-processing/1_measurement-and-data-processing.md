@@ -627,20 +627,30 @@ Calculate the concentration of $\mathrm{HCl}$ and its absolute uncertainty.
 
 **Step 1: Calculate the concentration.**
 
-$$n(\mathrm{NaOH}) = 0.1050 \times 0.02345 = 2.4623 \times 10^{-3}\mathrm{ mol}$$
+$$
+n(\mathrm{NaOH}) = 0.1050 \times 0.02345 = 2.4623 \times 10^{-3}\mathrm{ mol}
+$$
 
 By stoichiometry (1:1 reaction):
 $n(\mathrm{HCl}) = n(\mathrm{NaOH}) = 2.4623 \times 10^{-3}\mathrm{ mol}$
 
-$$[\mathrm{HCl}] = \frac{n}{V} = \frac{2.4623 \times 10^{-3}}{0.02500} = 0.09849\mathrm{ M}$$
+$$
+[\mathrm{HCl}] = \frac{n}{V} = \frac{2.4623 \times 10^{-3}}{0.02500} = 0.09849\mathrm{ M}
+$$
 
 **Step 2: Calculate percentage uncertainties.**
 
-$$\%\mathrm{u}([\mathrm{NaOH}]) = \frac{0.0005}{0.1050} \times 100\% = 0.476\%$$
+$$
+\%\mathrm{u}([\mathrm{NaOH}]) = \frac{0.0005}{0.1050} \times 100\% = 0.476\%
+$$
 
-$$\%\mathrm{u}(V_{\mathrm{NaOH}}) = \frac{0.08}{23.45} \times 100\% = 0.341\%$$
+$$
+\%\mathrm{u}(V_{\mathrm{NaOH}}) = \frac{0.08}{23.45} \times 100\% = 0.341\%
+$$
 
-$$\%\mathrm{u}(V_{\mathrm{HCl}}) = \frac{0.03}{25.00} \times 100\% = 0.120\%$$
+$$
+\%\mathrm{u}(V_{\mathrm{HCl}}) = \frac{0.03}{25.00} \times 100\% = 0.120\%
+$$
 
 **Step 3: Propagate uncertainties.**
 
@@ -648,13 +658,19 @@ The calculation is
 $[\mathrm{HCl}] = \dfrac{[\mathrm{NaOH}] \times V_{\mathrm{NaOH}}}{V_{\mathrm{HCl}}}$ So we add
 percentage uncertainties (multiplication and division):
 
-$$\%\mathrm{u}([\mathrm{HCl}]) = 0.476\% + 0.341\% + 0.120\% = 0.937\% \approx 0.9\%$$
+$$
+\%\mathrm{u}([\mathrm{HCl}]) = 0.476\% + 0.341\% + 0.120\% = 0.937\% \approx 0.9\%
+$$
 
 **Step 4: Calculate absolute uncertainty.**
 
-$$\Delta[\mathrm{HCl}] = 0.09849 \times 0.00937 = 0.00092\mathrm{ M}$$
+$$
+\Delta[\mathrm{HCl}] = 0.09849 \times 0.00937 = 0.00092\mathrm{ M}
+$$
 
-$$[\mathrm{HCl}] = 0.0985 \pm 0.0009\mathrm{ M}$$
+$$
+[\mathrm{HCl}] = 0.0985 \pm 0.0009\mathrm{ M}
+$$
 
 The dominant source of uncertainty is the $\mathrm{NaOH}$ concentration, contributing approximately
 51% of the total uncertainty. Improving the accuracy of the standard solution preparation would most
@@ -676,7 +692,9 @@ Determine the molecular formula.
 The M+1 peak arises primarily from $^{13}\mathrm{C}$Which has a natural abundance of 1.1% per Carbon
 atom.
 
-$$\mathrm{Number\ of\ C\ atoms} \approx \frac{\%\mathrm{abundance\ of\ M+1}}{1.1\%} = \frac{6.6\%}{1.1\%} = 6$$
+$$
+\mathrm{Number\ of\ C\ atoms} \approx \frac{\%\mathrm{abundance\ of\ M+1}}{1.1\%} = \frac{6.6\%}{1.1\%} = 6
+$$
 
 **Step 2: Calculate the remaining mass.**
 
@@ -686,11 +704,15 @@ Remaining mass: $78 - 72 = 6$Corresponding to 6 hydrogen atoms.
 
 **Step 3: Propose the molecular formula.**
 
-$$\mathrm{C}_6\mathrm{H}_6$$
+$$
+\mathrm{C}_6\mathrm{H}_6
+$$
 
 **Step 4: Verify with the degree of unsaturation.**
 
-$$\mathrm{DBE} = C + 1 - \frac{H}{2} = 6 + 1 - \frac{6}{2} = 4$$
+$$
+\mathrm{DBE} = C + 1 - \frac{H}{2} = 6 + 1 - \frac{6}{2} = 4
+$$
 
 A DBE of 4 is characteristic of an aromatic ring (one ring + three double bonds), consistent with
 Benzene.
@@ -718,7 +740,9 @@ $\delta\ 11.0\ (s,\ 1\mathrm{H})$. $^{13}\mathrm{C}$ NMR: 4 signals. Identify th
 
 $\mathrm{M} = 88$. Try $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$: $4(12) + 8(1) + 2(16) = 88$.
 
-$$\mathrm{DBE} = 4 + 1 - \frac{8}{2} = 1$$
+$$
+\mathrm{DBE} = 4 + 1 - \frac{8}{2} = 1
+$$
 
 **Step 2: Analyse IR data.**
 
@@ -758,7 +782,9 @@ Concentration is $0.10\mathrm{ M}$ and the acid is monoprotic.
 
 **Step 1: Convert pH to $[\mathrm{H}^+]$.**
 
-$$[\mathrm{H}^+] = 10^{-\mathrm{pH}} = 10^{-4.35} = 4.5 \times 10^{-5}\mathrm{ M}$$
+$$
+[\mathrm{H}^+] = 10^{-\mathrm{pH}} = 10^{-4.35} = 4.5 \times 10^{-5}\mathrm{ M}
+$$
 
 The mantissa of the $\mathrm{pH}$ (4.35) has two decimal places, so $[\mathrm{H}^+]$ has two
 Significant figures: $4.5 \times 10^{-5}\mathrm{ M}$.
@@ -767,12 +793,16 @@ Significant figures: $4.5 \times 10^{-5}\mathrm{ M}$.
 
 For a monoprotic weak acid $\mathrm{HA}$ with $c_0 = 0.10\mathrm{ M}$:
 
-$$K_a = \frac{[\mathrm{H}^+]^2}{c_0 - [\mathrm{H}^+]} = \frac{(4.5 \times 10^{-5})^2}{0.10 - 4.5 \times 10^{-5}}$$
+$$
+K_a = \frac{[\mathrm{H}^+]^2}{c_0 - [\mathrm{H}^+]} = \frac{(4.5 \times 10^{-5})^2}{0.10 - 4.5 \times 10^{-5}}
+$$
 
 Since $[\mathrm{H}^+] \ll c_0$:
 $K_a \approx \dfrac{(4.5 \times 10^{-5})^2}{0.10} = \dfrac{2.025 \times 10^{-9}}{0.10}$
 
-$$K_a = 2.0 \times 10^{-8}$$
+$$
+K_a = 2.0 \times 10^{-8}
+$$
 
 Two significant figures, matching the two significant figures in $[\mathrm{H}^+]$.
 
@@ -798,21 +828,33 @@ $-5000\mathrm{ K}$. Calculate $E_a$ and its absolute uncertainty.
 
 From the Arrhenius equation: $\ln(k) = -\dfrac{E_a}{R} \cdot \dfrac{1}{T} + \ln(A)$
 
-$$\mathrm{gradient} = -\frac{E_a}{R}$$
+$$
+\mathrm{gradient} = -\frac{E_a}{R}
+$$
 
-$$E_a = -\mathrm{gradient} \times R = -(-5400) \times 8.314 = 44900\mathrm{ J/mol} = 44.9\mathrm{ kJ/mol}$$
+$$
+E_a = -\mathrm{gradient} \times R = -(-5400) \times 8.314 = 44900\mathrm{ J/mol} = 44.9\mathrm{ kJ/mol}
+$$
 
 **Step 2: Calculate $E_a$ from the maximum and minimum gradients.**
 
-$$E_{a,\max} = 5800 \times 8.314 = 48200\mathrm{ J/mol} = 48.2\mathrm{ kJ/mol}$$
+$$
+E_{a,\max} = 5800 \times 8.314 = 48200\mathrm{ J/mol} = 48.2\mathrm{ kJ/mol}
+$$
 
-$$E_{a,\min} = 5000 \times 8.314 = 41600\mathrm{ J/mol} = 41.6\mathrm{ kJ/mol}$$
+$$
+E_{a,\min} = 5000 \times 8.314 = 41600\mathrm{ J/mol} = 41.6\mathrm{ kJ/mol}
+$$
 
 **Step 3: Calculate the absolute uncertainty.**
 
-$$\Delta E_a = \frac{E_{a,\max} - E_{a,\min}}{2} = \frac{48.2 - 41.6}{2} = 3.3\mathrm{ kJ/mol}$$
+$$
+\Delta E_a = \frac{E_{a,\max} - E_{a,\min}}{2} = \frac{48.2 - 41.6}{2} = 3.3\mathrm{ kJ/mol}
+$$
 
-$$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
+$$
+E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}
+$$
 
 </details>
 

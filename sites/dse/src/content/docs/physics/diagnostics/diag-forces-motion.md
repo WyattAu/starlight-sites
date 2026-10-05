@@ -60,17 +60,25 @@ body (the book) and are not equal unless $a = 0$.
 
 **(c) For the book (accelerating upward at $3 \text{ m s}^{-2}$):**
 
-$$N_{t \to b} - W_b = m_b a$$
+$$
+N_{t \to b} - W_b = m_b a
+$$
 
-$$N_{t \to b} = m_b(g + a) = 2(9.81 + 3) = 25.62 \text{ N}$$
+$$
+N_{t \to b} = m_b(g + a) = 2(9.81 + 3) = 25.62 \text{ N}
+$$
 
 By Newton's third law: $N_{b \to t} = 25.62$ N (downward).
 
 For the table:
 
-$$N_{f \to t} - W_t - N_{b \to t} = m_t a$$
+$$
+N_{f \to t} - W_t - N_{b \to t} = m_t a
+$$
 
-$$N_{f \to t} = W_t + N_{b \to t} + m_t a = 78.48 + 25.62 + 8(3) = 78.48 + 25.62 + 24 = 128.1 \text{ N}$$
+$$
+N_{f \to t} = W_t + N_{b \to t} + m_t a = 78.48 + 25.62 + 8(3) = 78.48 + 25.62 + 24 = 128.1 \text{ N}
+$$
 
 ---
 
@@ -98,38 +106,56 @@ by the string.
 
 For block B (taking downward as positive):
 
-$$m_B g - T = m_B a \quad \text{--- (1)}$$
+$$
+m_B g - T = m_B a \quad \text{--- (1)}
+$$
 
 For block A (taking rightward toward pulley as positive):
 
-$$T - f = m_A a$$
+$$
+T - f = m_A a
+$$
 
 Where $f = \mu m_A g = 0.4 \times 5 \times 9.81 = 19.62$ N
 
-$$T - 19.62 = 5a \quad \text{--- (2)}$$
+$$
+T - 19.62 = 5a \quad \text{--- (2)}
+$$
 
 Adding (1) and (2):
 
-$$m_B g - f = (m_A + m_B)a$$
+$$
+m_B g - f = (m_A + m_B)a
+$$
 
-$$3(9.81) - 19.62 = 8a$$
+$$
+3(9.81) - 19.62 = 8a
+$$
 
-$$29.43 - 19.62 = 8a$$
+$$
+29.43 - 19.62 = 8a
+$$
 
-$$a = \frac{9.81}{8} = 1.226 \text{ m s}^{-2}$$
+$$
+a = \frac{9.81}{8} = 1.226 \text{ m s}^{-2}
+$$
 
 **(b) Tension:**
 
 From equation (1):
 
-$$T = m_B(g - a) = 3(9.81 - 1.226) = 3(8.584) = 25.75 \text{ N}$$
+$$
+T = m_B(g - a) = 3(9.81 - 1.226) = 3(8.584) = 25.75 \text{ N}
+$$
 
 **(c) Force on pulley:**
 
 The string pulls the pulley downward with tension $T$ on both sides (vertical and horizontal). These
 two tension forces are perpendicular.
 
-$$F_{\text{pulley}} = \sqrt{T^2 + T^2} = T\sqrt{2} = 25.75 \times \sqrt{2} = 36.41 \text{ N}$$
+$$
+F_{\text{pulley}} = \sqrt{T^2 + T^2} = T\sqrt{2} = 25.75 \times \sqrt{2} = 36.41 \text{ N}
+$$
 
 The force on the pulley is directed at $45°$ below the horizontal, toward block A and block B.
 
@@ -161,23 +187,37 @@ Resolving forces:
 
 **Vertically** (perpendicular to the road surface):
 
-$$N \cos \theta = mg$$
+$$
+N \cos \theta = mg
+$$
 
-$$N = \frac{mg}{\cos \theta}$$
+$$
+N = \frac{mg}{\cos \theta}
+$$
 
 **Horizontally** (toward centre of the circle):
 
-$$N \sin \theta = \frac{mv^2}{r}$$
+$$
+N \sin \theta = \frac{mv^2}{r}
+$$
 
 Substituting $N$:
 
-$$\frac{mg \sin \theta}{\cos \theta} = \frac{mv^2}{r}$$
+$$
+\frac{mg \sin \theta}{\cos \theta} = \frac{mv^2}{r}
+$$
 
-$$g \tan \theta = \frac{v^2}{r}$$
+$$
+g \tan \theta = \frac{v^2}{r}
+$$
 
-$$v = \sqrt{rg \tan \theta} = \sqrt{80 \times 9.81 \times \tan 20°}$$
+$$
+v = \sqrt{rg \tan \theta} = \sqrt{80 \times 9.81 \times \tan 20°}
+$$
 
-$$v = \sqrt{80 \times 9.81 \times 0.3640} = \sqrt{285.8} = 16.9 \text{ m s}^{-1}$$
+$$
+v = \sqrt{80 \times 9.81 \times 0.3640} = \sqrt{285.8} = 16.9 \text{ m s}^{-1}
+$$
 
 **Key insight:** At this specific speed, the horizontal component of the normal force alone provides
 the required centripetal force. No friction is needed. If the car goes faster, it tends to slide up;
@@ -218,7 +258,9 @@ Component of weight of B down the $45°$ incline:
 $m_B g \sin 45° = 6 \times 9.81 \times 0.7071 = 41.62$ N
 
 Friction on B (opposes B's motion, so acts up the $45°$ incline):
-$$f = \mu m_B g \cos 45° = 0.3 \times 6 \times 9.81 \times 0.7071 = 12.49 \text{ N}$$
+$$
+f = \mu m_B g \cos 45° = 0.3 \times 6 \times 9.81 \times 0.7071 = 12.49 \text{ N}
+$$
 
 Net force driving A up / B down: $41.62 - 12.49 - 19.62 = 9.51$ N (positive, so motion in this
 direction)
@@ -235,19 +277,29 @@ Net force: $19.62 - (41.62 + 12.49) = -34.49$ N (negative, impossible)
 
 For A (up the incline positive): $T - m_A g \sin 30° = m_A a$
 
-$$T - 19.62 = 4a \quad \text{--- (1)}$$
+$$
+T - 19.62 = 4a \quad \text{--- (1)}
+$$
 
 For B (down the incline positive): $m_B g \sin 45° - T - f = m_B a$
 
-$$41.62 - T - 12.49 = 6a$$
+$$
+41.62 - T - 12.49 = 6a
+$$
 
-$$29.13 - T = 6a \quad \text{--- (2)}$$
+$$
+29.13 - T = 6a \quad \text{--- (2)}
+$$
 
 Adding (1) and (2): $9.51 = 10a$
 
-$$a = 0.951 \text{ m s}^{-2}$$
+$$
+a = 0.951 \text{ m s}^{-2}
+$$
 
-$$T = 19.62 + 4(0.951) = 23.42 \text{ N}$$
+$$
+T = 19.62 + 4(0.951) = 23.42 \text{ N}
+$$
 
 ---
 
@@ -282,33 +334,53 @@ By symmetry, both tensions are equal: $T_1 = T_2 = T$.
 
 **Vertical equilibrium:**
 
-$$2T \cos 30° = mg$$
+$$
+2T \cos 30° = mg
+$$
 
-$$2T \times \frac{\sqrt{3}}{2} = mg$$
+$$
+2T \times \frac{\sqrt{3}}{2} = mg
+$$
 
-$$T = \frac{mg}{\sqrt{3}}$$
+$$
+T = \frac{mg}{\sqrt{3}}
+$$
 
 **Horizontal (centripetal):**
 
 The radius of circular motion is $r = L \sin 30° = \frac{L}{2}$.
 
-$$2T \sin 30° = m\omega^2 r$$
+$$
+2T \sin 30° = m\omega^2 r
+$$
 
-$$2T \times \frac{1}{2} = m\omega^2 \left(\frac{L}{2}\right)$$
+$$
+2T \times \frac{1}{2} = m\omega^2 \left(\frac{L}{2}\right)
+$$
 
-$$T = \frac{m\omega^2 L}{4}$$
+$$
+T = \frac{m\omega^2 L}{4}
+$$
 
 **Equating both expressions for $T$:**
 
-$$\frac{mg}{\sqrt{3}} = \frac{m\omega^2 L}{4}$$
+$$
+\frac{mg}{\sqrt{3}} = \frac{m\omega^2 L}{4}
+$$
 
-$$\omega^2 = \frac{4g}{L\sqrt{3}}$$
+$$
+\omega^2 = \frac{4g}{L\sqrt{3}}
+$$
 
-$$\omega = \sqrt{\frac{4g}{L\sqrt{3}}}$$
+$$
+\omega = \sqrt{\frac{4g}{L\sqrt{3}}}
+$$
 
 And the tension:
 
-$$T = \frac{mg}{\sqrt{3}}$$
+$$
+T = \frac{mg}{\sqrt{3}}
+$$
 
 **Key insight:** The tension simultaneously supports the weight (vertical component) and provides
 centripetal force (horizontal component). Both conditions must be satisfied simultaneously.
@@ -340,17 +412,27 @@ sliding?
 
 The friction force provides the acceleration for the parcel:
 
-$$f_{\max} = \mu_s mg = m a_{\max}$$
+$$
+f_{\max} = \mu_s mg = m a_{\max}
+$$
 
-$$a_{\max} = \mu_s g = 0.5 \times 9.81 = 4.905 \text{ m s}^{-2}$$
+$$
+a_{\max} = \mu_s g = 0.5 \times 9.81 = 4.905 \text{ m s}^{-2}
+$$
 
 **(a) Minimum time to reach $20 \text{ m s}^{-1}$:**
 
-$$v = u + at$$
+$$
+v = u + at
+$$
 
-$$20 = 0 + 4.905 \times t$$
+$$
+20 = 0 + 4.905 \times t
+$$
 
-$$t = \frac{20}{4.905} = 4.08 \text{ s}$$
+$$
+t = \frac{20}{4.905} = 4.08 \text{ s}
+$$
 
 **(b) Minimum stopping distance:**
 
@@ -358,11 +440,17 @@ When braking, friction acts forward on the parcel (opposing relative sliding ten
 
 $$a_{\max} = 4.905 \text{ m s}^{-2}$$ (same magnitude, opposite direction)
 
-$$v^2 = u^2 + 2as$$
+$$
+v^2 = u^2 + 2as
+$$
 
-$$0 = 20^2 + 2(-4.905)s$$
+$$
+0 = 20^2 + 2(-4.905)s
+$$
 
-$$s = \frac{400}{9.81} = 40.77 \text{ m}$$
+$$
+s = \frac{400}{9.81} = 40.77 \text{ m}
+$$
 
 **Key insight:** The maximum frictional force limits both the maximum acceleration and the maximum
 deceleration. The parcel can withstand the same magnitude of acceleration in both directions since

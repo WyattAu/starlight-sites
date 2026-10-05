@@ -128,7 +128,9 @@ how domain restriction affects the inverse.]
 **(a)** To show $f$ is one-to-one on $x \leq -2$We show it is strictly monotonic (strictly
 decreasing) on this domain.
 
-$$f"(x) = 2x + 4$$
+$$
+f"(x) = 2x + 4
+$$
 
 For $x \leq -2$: $2x + 4 \leq 0$With equality only at $x = -2$.
 
@@ -142,7 +144,9 @@ Solving for $x$: $(x+2)^2 = y + 4$ So $x + 2 = \pm\sqrt{y+4}$.
 
 Since $x \leq -2$We have $x + 2 \leq 0$ So we take the negative root:
 
-$$x = -2 - \sqrt{y+4}$$
+$$
+x = -2 - \sqrt{y+4}
+$$
 
 Therefore $f^{-1}(x) = -2 - \sqrt{x+4}$.
 
@@ -206,7 +210,9 @@ $g(h(x)) = (\sqrt{x})^2 - 1 = x - 1$ (domain: $x \geq 0$Since we need $h(x)$ def
 $f(g(h(x))) = f(x - 1) = \frac{2}{(x-1)+1} = \frac{2}{x}$ (domain:
 $x - 1 \neq -1 \implies x \neq 0$Combined with $x \geq 0$)
 
-$$(f \circ g \circ h)(x) = \frac{2}{x}, \quad \text{domain: } x > 0$$
+$$
+(f \circ g \circ h)(x) = \frac{2}{x}, \quad \text{domain: } x > 0
+$$
 
 **(b)** $\frac{2}{x} = 1 \implies x = 2$.
 
@@ -224,7 +230,9 @@ $f(h(x)) = \frac{2}{\sqrt{x}+1}$ (domain: $x \geq 0$, $x \neq 0$ So $x > 0$)
 
 $g(f(h(x))) = \left(\frac{2}{\sqrt{x}+1}\right)^2 - 1 = \frac{4}{(\sqrt{x}+1)^2} - 1 = \frac{4 - (\sqrt{x}+1)^2}{(\sqrt{x}+1)^2}$
 
-$$= \frac{4 - (x + 2\sqrt{x} + 1)}{(\sqrt{x}+1)^2} = \frac{3 - x - 2\sqrt{x}}{(\sqrt{x}+1)^2}$$
+$$
+= \frac{4 - (x + 2\sqrt{x} + 1)}{(\sqrt{x}+1)^2} = \frac{3 - x - 2\sqrt{x}}{(\sqrt{x}+1)^2}
+$$
 
 This does not equal $\frac{2}{x}$ . Let me verify with $x = 4$:
 
@@ -275,7 +283,9 @@ manipulation.]
 
 **(a)** By the AM-GM inequality, for $a = e^{2x} > 0$ and $b = e^{-2x} > 0$:
 
-$$\frac{a + b}{2} \geq \sqrt{ab} = \sqrt{e^{2x} \cdot e^{-2x}} = \sqrt{1} = 1$$
+$$
+\frac{a + b}{2} \geq \sqrt{ab} = \sqrt{e^{2x} \cdot e^{-2x}} = \sqrt{1} = 1
+$$
 
 So $f(x) = e^{2x} + e^{-2x} \geq 2$.
 
@@ -290,16 +300,24 @@ First, note that $e^u = x + \sqrt{x^2+1}$ and
 $e^{-u} = \frac{1}{x + \sqrt{x^2+1}} = \frac{\sqrt{x^2+1}-x}{(x+\sqrt{x^2+1})(\sqrt{x^2+1}-x)} = \sqrt{x^2+1} - x$.
 
 Therefore:
-$$e^{2u} = (x + \sqrt{x^2+1})^2 = x^2 + 2x\sqrt{x^2+1} + x^2 + 1 = 2x^2 + 1 + 2x\sqrt{x^2+1}$$
+$$
+e^{2u} = (x + \sqrt{x^2+1})^2 = x^2 + 2x\sqrt{x^2+1} + x^2 + 1 = 2x^2 + 1 + 2x\sqrt{x^2+1}
+$$
 
-$$e^{-2u} = (\sqrt{x^2+1} - x)^2 = x^2 + 1 - 2x\sqrt{x^2+1} + x^2 = 2x^2 + 1 - 2x\sqrt{x^2+1}$$
+$$
+e^{-2u} = (\sqrt{x^2+1} - x)^2 = x^2 + 1 - 2x\sqrt{x^2+1} + x^2 = 2x^2 + 1 - 2x\sqrt{x^2+1}
+$$
 
-$$f(g(x)) = e^{2u} + e^{-2u} = (2x^2 + 1 + 2x\sqrt{x^2+1}) + (2x^2 + 1 - 2x\sqrt{x^2+1}) = 4x^2 + 2$$
+$$
+f(g(x)) = e^{2u} + e^{-2u} = (2x^2 + 1 + 2x\sqrt{x^2+1}) + (2x^2 + 1 - 2x\sqrt{x^2+1}) = 4x^2 + 2
+$$
 
 **(c)**
 $4x^2 + 2 \leq 10 \implies 4x^2 \leq 8 \implies x^2 \leq 2 \implies -\sqrt{2} \leq x \leq \sqrt{2}$.
 
-$$x \in [-\sqrt{2}, \sqrt{2}]$$
+$$
+x \in [-\sqrt{2}, \sqrt{2}]
+$$
 
 ---
 
@@ -335,28 +353,42 @@ application.]
 
 **(a)** $g(\theta) = \sin\theta + \cos\theta$.
 
-$$R = \sqrt{1^2 + 1^2} = \sqrt{2}$$
+$$
+R = \sqrt{1^2 + 1^2} = \sqrt{2}
+$$
 
-$$\alpha = \arctan\left(\frac{1}{1}\right) = \frac{\pi}{4}$$
+$$
+\alpha = \arctan\left(\frac{1}{1}\right) = \frac{\pi}{4}
+$$
 
-$$g(\theta) = \sqrt{2}\sin\left(\theta + \frac{\pi}{4}\right)$$
+$$
+g(\theta) = \sqrt{2}\sin\left(\theta + \frac{\pi}{4}\right)
+$$
 
 **(b)** $\sin(2\theta) = \sqrt{2}\sin\left(\theta + \frac{\pi}{4}\right)$.
 
 Using the double angle formula $\sin(2\theta) = 2\sin\theta\cos\theta$:
 
-$$2\sin\theta\cos\theta = \sin\theta + \cos\theta$$
+$$
+2\sin\theta\cos\theta = \sin\theta + \cos\theta
+$$
 
-$$2\sin\theta\cos\theta - \sin\theta - \cos\theta = 0$$
+$$
+2\sin\theta\cos\theta - \sin\theta - \cos\theta = 0
+$$
 
 Let $u = \sin\theta$, $v = \cos\theta$. Then $2uv - u - v = 0$I.e. $(2u - 1)(v) - u = 0$Which gives
 $v(2u-1) = u$.
 
 Alternatively, add $\frac{1}{2}$ to both sides:
 
-$$2\sin\theta\cos\theta - \sin\theta - \cos\theta + \frac{1}{2} = \frac{1}{2}$$
+$$
+2\sin\theta\cos\theta - \sin\theta - \cos\theta + \frac{1}{2} = \frac{1}{2}
+$$
 
-$$(2\sin\theta - 1)(\cos\theta - \frac{1}{2}) = 0$$
+$$
+(2\sin\theta - 1)(\cos\theta - \frac{1}{2}) = 0
+$$
 
 Wait: $(2u-1)(v - 1/2) = 2uv - u - v + 1/2$. So $2uv - u - v = (2u-1)(v - 1/2) - 1/2$. That doesn't
 help directly.
@@ -370,11 +402,15 @@ A cleaner approach: let $t = \theta + \pi/4$. Then $\sin\theta + \cos\theta = \s
 $\sin(2\theta) = \sin(2t - \pi/2) = -\cos(2t)$.
 
 $$-\cos(2t) = \sqrt{2}\sin t$$ $$-(1 - 2\sin^2 t) = \sqrt{2}\sin t$$
-$$2\sin^2 t - \sqrt{2}\sin t - 1 = 0$$
+$$
+2\sin^2 t - \sqrt{2}\sin t - 1 = 0
+$$
 
 Let $s = \sin t$:
 
-$$s = \frac{\sqrt{2} \pm \sqrt{2 + 8}}{4} = \frac{\sqrt{2} \pm \sqrt{10}}{4}$$
+$$
+s = \frac{\sqrt{2} \pm \sqrt{2 + 8}}{4} = \frac{\sqrt{2} \pm \sqrt{10}}{4}
+$$
 
 Since $|\sin t| \leq 1$:
 $\frac{\sqrt{2} + \sqrt{10}}{4} \approx \frac{1.414 + 3.162}{4} \approx 1.144 > 1$. Not
@@ -387,27 +423,41 @@ So $\sin t = \frac{\sqrt{2} - \sqrt{10}}{4}$.
 $t = \theta + \frac{\pi}{4}$ So
 $\sin\left(\theta + \frac{\pi}{4}\right) = \frac{\sqrt{2} - \sqrt{10}}{4}$.
 
-$$\theta + \frac{\pi}{4} = \arcsin\left(\frac{\sqrt{2}-\sqrt{10}}{4}\right) \approx -0.452 \text{ or } \pi + 0.452 \approx 3.594$$
+$$
+\theta + \frac{\pi}{4} = \arcsin\left(\frac{\sqrt{2}-\sqrt{10}}{4}\right) \approx -0.452 \text{ or } \pi + 0.452 \approx 3.594
+$$
 
-$$\theta \approx -0.452 - 0.785 = -1.237 \quad \text{or} \quad \theta \approx 3.594 - 0.785 = 2.809$$
+$$
+\theta \approx -0.452 - 0.785 = -1.237 \quad \text{or} \quad \theta \approx 3.594 - 0.785 = 2.809
+$$
 
 In $[0, 2\pi)$: $\theta \approx 2.809$ and $\theta \approx -1.237 + 2\pi \approx 5.046$.
 
 The exact solutions are:
 
-$$\theta = \arcsin\left(\frac{\sqrt{2}-\sqrt{10}}{4}\right) - \frac{\pi}{4} + 2\pi \quad \text{or} \quad \theta = \pi - \arcsin\left(\frac{\sqrt{2}-\sqrt{10}}{4}\right) - \frac{\pi}{4}$$
+$$
+\theta = \arcsin\left(\frac{\sqrt{2}-\sqrt{10}}{4}\right) - \frac{\pi}{4} + 2\pi \quad \text{or} \quad \theta = \pi - \arcsin\left(\frac{\sqrt{2}-\sqrt{10}}{4}\right) - \frac{\pi}{4}
+$$
 
 **(c)** The area condition gives:
 
-$$\frac{1}{2}(3)(4)\sin C = \sin(2 \cdot \frac{C}{2}) \cdot \left(\sin\frac{C}{2} + \cos\frac{C}{2}\right)$$
+$$
+\frac{1}{2}(3)(4)\sin C = \sin(2 \cdot \frac{C}{2}) \cdot \left(\sin\frac{C}{2} + \cos\frac{C}{2}\right)
+$$
 
-$$6\sin C = \sin C \cdot \left(\sin\frac{C}{2} + \cos\frac{C}{2}\right)$$
+$$
+6\sin C = \sin C \cdot \left(\sin\frac{C}{2} + \cos\frac{C}{2}\right)
+$$
 
 If $\sin C \neq 0$:
 
-$$6 = \sin\frac{C}{2} + \cos\frac{C}{2} = \sqrt{2}\sin\left(\frac{C}{2} + \frac{\pi}{4}\right)$$
+$$
+6 = \sin\frac{C}{2} + \cos\frac{C}{2} = \sqrt{2}\sin\left(\frac{C}{2} + \frac{\pi}{4}\right)
+$$
 
-$$\sin\left(\frac{C}{2} + \frac{\pi}{4}\right) = \frac{6}{\sqrt{2}} = 3\sqrt{2}$$
+$$
+\sin\left(\frac{C}{2} + \frac{\pi}{4}\right) = \frac{6}{\sqrt{2}} = 3\sqrt{2}
+$$
 
 Since $3\sqrt{2} \approx 4.24 > 1$This is impossible. Therefore $\sin C = 0$Giving $C = 0$ or
 $C = \pi$. Since $C = 0$ gives a degenerate triangle, $C = \pi$.
@@ -454,11 +504,17 @@ $a_{n+1} > a_n$.
 
 **(a)**
 
-$$a_2 = f(1) = \frac{1}{2}\left(1 + 3\right) = 2$$
+$$
+a_2 = f(1) = \frac{1}{2}\left(1 + 3\right) = 2
+$$
 
-$$a_3 = f(2) = \frac{1}{2}\left(2 + \frac{3}{2}\right) = \frac{1}{2} \cdot \frac{7}{2} = \frac{7}{4}$$
+$$
+a_3 = f(2) = \frac{1}{2}\left(2 + \frac{3}{2}\right) = \frac{1}{2} \cdot \frac{7}{2} = \frac{7}{4}
+$$
 
-$$a_4 = f\left(\frac{7}{4}\right) = \frac{1}{2}\left(\frac{7}{4} + \frac{3 \cdot 4}{7}\right) = \frac{1}{2}\left(\frac{7}{4} + \frac{12}{7}\right) = \frac{1}{2} \cdot \frac{49 + 48}{28} = \frac{97}{56}$$
+$$
+a_4 = f\left(\frac{7}{4}\right) = \frac{1}{2}\left(\frac{7}{4} + \frac{3 \cdot 4}{7}\right) = \frac{1}{2}\left(\frac{7}{4} + \frac{12}{7}\right) = \frac{1}{2} \cdot \frac{49 + 48}{28} = \frac{97}{56}
+$$
 
 **(b)** **Base case:** $a_1 = 1 > 0$. True.
 

@@ -73,7 +73,9 @@ A model with high bias (underfitting) makes strong assumptions and misses
 relevant patterns. A model with high variance (overfitting) captures noise
 along with signal. The total error decomposes as:
 
-$$\text{Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+$$
+\text{Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}
+$$
 
 A linear regression on non-linear data has high bias. A decision tree with no
 depth limit has high variance. Regularisation (L1/L2) and ensemble methods

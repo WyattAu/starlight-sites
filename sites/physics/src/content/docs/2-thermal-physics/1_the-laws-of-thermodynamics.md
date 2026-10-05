@@ -28,7 +28,9 @@ equilibrium if and only if they have the same temperature.
 **Definition.** **Temperature** is the quantity that is equal for all systems in mutual thermal
 equilibrium. The **ideal gas scale** defines temperature via
 
-$$PV = Nk_BT$$
+$$
+PV = Nk_BT
+$$
 
 Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
 
@@ -37,11 +39,15 @@ Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
 **First Law:** The change in internal energy of a system equals the heat added minus the work done
 by the system:
 
-$$dU = \delta Q - \delta W$$
+$$
+dU = \delta Q - \delta W
+$$
 
 For a reversible process: $\delta W = P\,dV$ (PV work), giving
 
-$$dU = \delta Q - P\,dV$$
+$$
+dU = \delta Q - P\,dV
+$$
 
 **Proposition 1.1.** For an adiabatic process ($\delta Q = 0$): $dU = -P\,dV$. For an isochoric
 process ($dV = 0$): $dU = \delta Q$.
@@ -49,7 +55,9 @@ process ($dV = 0$): $dU = \delta Q$.
 **Definition.** The **heat capacity at constant volume** and **heat capacity at constant pressure**
 are:
 
-$$C_V = \left(\frac{\partial U}{\partial T}\right)_V, \qquad C_P = \left(\frac{\partial H}{\partial T}\right)_P$$
+$$
+C_V = \left(\frac{\partial U}{\partial T}\right)_V, \qquad C_P = \left(\frac{\partial H}{\partial T}\right)_P
+$$
 
 Where $H = U + PV$ is the enthalpy.
 
@@ -71,11 +79,15 @@ These are equivalent: each implies the other.
 
 **Definition.** The **entropy** change for a reversible process is
 
-$$dS = \frac{\delta Q_{\mathrm{rev}}{T}}$$
+$$
+dS = \frac{\delta Q_{\mathrm{rev}}{T}}
+$$
 
 **Theorem 1.3 (Clausius Inequality).** For any cyclic process:
 
-$$\oint \frac{\delta Q}{T} \leq 0$$
+$$
+\oint \frac{\delta Q}{T} \leq 0
+$$
 
 With equality for reversible processes.
 
@@ -94,7 +106,9 @@ equality for reversible processes.
 **Third Law (Nernst):** As $T \to 0^+$The entropy of a perfect crystal approaches a constant (which
 can be taken as zero):
 
-$$\lim_{T \to 0} S(T) = 0$$
+$$
+\lim_{T \to 0} S(T) = 0
+$$
 
 **Consequences:**
 
@@ -132,14 +146,18 @@ partial derivatives gives four **Maxwell relations**:
 
 _Solution._ We use the thermodynamic identity $dU = TdS - PdV$. Dividing by $dV$ at constant $T$:
 
-$$\left(\frac{\partial U}{\partial V}\right)_T = T\left(\frac{\partial S}{\partial V}\right)_T - P$$
+$$
+\left(\frac{\partial U}{\partial V}\right)_T = T\left(\frac{\partial S}{\partial V}\right)_T - P
+$$
 
 By the third Maxwell relation: $(\partial S/\partial V)_T = (\partial P/\partial T)_V$. For an ideal
 gas, $P = Nk_BT/V$ So $(\partial P/\partial T)_V = Nk_B/V$.
 
 Therefore:
 
-$$\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{Nk_B}{V} - \frac{Nk_BT}{V} = 0$$
+$$
+\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{Nk_B}{V} - \frac{Nk_BT}{V} = 0
+$$
 
 This confirms that the internal energy of an ideal gas depends only on temperature. $\blacksquare$
 

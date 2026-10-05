@@ -54,13 +54,19 @@ Same truth value for all assignments.
 
 **Negation of quantifiers:**
 
-$$\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)$$
+$$
+\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)
+$$
 
-$$\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)$$
+$$
+\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)
+$$
 
 **Nested quantifiers** must be read carefully. The order matters:
 
-$$\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)$$
+$$
+\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)
+$$
 
 The first says "for every $x$ there is a (possibly different) $y$." The second says "there exists a Single $y$ that works for all $x$."
 

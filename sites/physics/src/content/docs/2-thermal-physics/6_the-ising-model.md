@@ -22,7 +22,9 @@ description: 'The is the simplest model of a phase transition. On a lattice of s
 The **Ising model** is the simplest model of a phase transition. On a lattice of $N$ sites, each
 site $i$ has a spin variable $s_i \in \{+1, -1\}$. The Hamiltonian is
 
-$$H = -J\sum_{\langle i,j\rangle} s_i s_j - h\sum_i s_i$$
+$$
+H = -J\sum_{\langle i,j\rangle} s_i s_j - h\sum_i s_i
+$$
 
 Where $J$ is the coupling constant, $\langle i,j\rangle$ denotes nearest-neighbour pairs, and $h$ is
 an external magnetic field.
@@ -37,22 +39,30 @@ an external magnetic field.
 _Proof (Transfer matrix method)._ Consider a chain of $N$ spins with periodic boundary conditions
 ($s_{N+1} = s_1$). The partition function is:
 
-$$Z = \sum_{\{s_i\}} \prod_{i=1}^{N} e^{\beta J s_i s_{i+1}}$$
+$$
+Z = \sum_{\{s_i\}} \prod_{i=1}^{N} e^{\beta J s_i s_{i+1}}
+$$
 
 Define the **transfer matrix** $\mathbf{T}$ with elements
 $T_{s_i, s_{i+1}} = e^{\beta J s_i s_{i+1}}$:
 
-$$\mathbf{T} = \begin{pmatrix} e^{\beta J} & e^{-\beta J} \\ e^{-\beta J} & e^{\beta J} \end{pmatrix}$$
+$$
+\mathbf{T} = \begin{pmatrix} e^{\beta J} & e^{-\beta J} \\ e^{-\beta J} & e^{\beta J} \end{pmatrix}
+$$
 
 The partition function is $Z = \mathrm{Tr}(\mathbf{T}^N) = \lambda_+^N + \lambda_-^N$ where
 $\lambda_\pm$ are the eigenvalues of $\mathbf{T}$:
 
-$$\lambda_\pm = e^{\beta J} \pm e^{-\beta J}$$
+$$
+\lambda_\pm = e^{\beta J} \pm e^{-\beta J}
+$$
 
 In the thermodynamic limit ($N \to \infty$), $Z \approx \lambda_+^N$ and the free energy per spin
 is:
 
-$$f = -k_BT \ln(e^{\beta J} + e^{-\beta J}) = -k_BT \ln(2\cosh\beta J)$$
+$$
+f = -k_BT \ln(e^{\beta J} + e^{-\beta J}) = -k_BT \ln(2\cosh\beta J)
+$$
 
 The magnetisation $m = -\partial f/\partial h|_{h=0} = 0$ for all $T > 0$Confirming no spontaneous
 magnetisation and hence no phase transition. $\blacksquare$
@@ -62,24 +72,32 @@ magnetisation and hence no phase transition. $\blacksquare$
 **Theorem 6.2 (Mean field approximation).** In mean field theory, each spin feels an effective field
 due to its neighbours. Replacing $s_j$ by its average $\langle s_j \rangle = m$ in the Hamiltonian:
 
-$$H_{\mathrm{MF} = -Jz\, m\sum_i s_i - h\sum_i s_i}$$
+$$
+H_{\mathrm{MF} = -Jz\, m\sum_i s_i - h\sum_i s_i}
+$$
 
 Where $z$ is the coordination number (number of nearest neighbours). Each spin behaves as if in an
 effective field $h_{\mathrm{eff} = h + Jz\,m}$.
 
 The self-consistency equation (mean field equation) is:
 
-$$m = \tanh\!\left(\frac{\beta(h + Jz\,m)}{k_B}\right) = \tanh\!\left(\frac{h + Jz\,m}{k_BT}\right)$$
+$$
+m = \tanh\!\left(\frac{\beta(h + Jz\,m)}{k_B}\right) = \tanh\!\left(\frac{h + Jz\,m}{k_BT}\right)
+$$
 
 For $h = 0$: $m = \tanh(Jz\,m / k_BT)$.
 
 **Critical temperature.** Expanding $\tanh x \approx x - x^3/3$ for small $x$:
 
-$$m = \frac{Jz\,m}{k_BT} - \frac{1}{3}\left(\frac{Jz\,m}{k_BT}\right)^3$$
+$$
+m = \frac{Jz\,m}{k_BT} - \frac{1}{3}\left(\frac{Jz\,m}{k_BT}\right)^3
+$$
 
 For $m \neq 0$Dividing by $m$:
 
-$$1 = \frac{Jz}{k_BT_c} - \frac{1}{3}\left(\frac{Jz}{k_BT_c}\right)^3$$
+$$
+1 = \frac{Jz}{k_BT_c} - \frac{1}{3}\left(\frac{Jz}{k_BT_c}\right)^3
+$$
 
 At $T = T_c$: $T_c = Jz/k_B$.
 
@@ -87,11 +105,15 @@ At $T = T_c$: $T_c = Jz/k_B$.
 
 Near the critical point, thermodynamic quantities follow power laws:
 
-$$m \sim (T_c - T)^{1/\beta}, \quad \chi \sim |T - T_c|^{-\gamma}, \quad C \sim |T - T_c|^{-\alpha}$$
+$$
+m \sim (T_c - T)^{1/\beta}, \quad \chi \sim |T - T_c|^{-\gamma}, \quad C \sim |T - T_c|^{-\alpha}
+$$
 
 Mean field theory predicts:
 
-$$\beta = \frac{1}{2}, \quad \gamma = 1, \quad \alpha = 0\ \text{(jump discontinuity)}$$
+$$
+\beta = \frac{1}{2}, \quad \gamma = 1, \quad \alpha = 0\ \text{(jump discontinuity)}
+$$
 
 These are the **classical** critical exponents. They are independent of the spatial dimension $d$
 and the lattice structure --- a deficiency of mean field theory. Exact results and renormalisation
@@ -133,13 +155,19 @@ in mean field theory.
 
 For small $h$ and $T > T_c$Expand $m = \tanh(\beta(h + Jz\,m))$ to first order in $h$ and $m$:
 
-$$m \approx \beta(h + Jz\,m) = \frac{h}{k_BT} + \frac{Jz}{k_BT}m$$
+$$
+m \approx \beta(h + Jz\,m) = \frac{h}{k_BT} + \frac{Jz}{k_BT}m
+$$
 
 Solving for $m$:
 
-$$m = \frac{h/k_BT}{1 - Jz/(k_BT)} = \frac{h}{k_B(T - T_c)}$$
+$$
+m = \frac{h/k_BT}{1 - Jz/(k_BT)} = \frac{h}{k_B(T - T_c)}
+$$
 
-$$\chi = \frac{\partial m}{\partial h}\bigg|_{h=0} = \frac{1}{k_B(T - T_c)} \propto (T - T_c)^{-1}$$
+$$
+\chi = \frac{\partial m}{\partial h}\bigg|_{h=0} = \frac{1}{k_B(T - T_c)} \propto (T - T_c)^{-1}
+$$
 
 This gives the mean field critical exponent $\gamma = 1$. $\blacksquare$
 

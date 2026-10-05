@@ -243,7 +243,9 @@ Soon (e.g., sequential array access, instruction stream).
 
 Each memory block maps to exactly one cache line.
 
-$$\mathrm{Cache line} = \mathrm{Block address} \bmod (\mathrm{Number of cache lines})$$
+$$
+\mathrm{Cache line} = \mathrm{Block address} \bmod (\mathrm{Number of cache lines})
+$$
 
 - **Advantage:** Simple, fast lookup
 - **Disadvantage:** Conflict misses, two frequently used blocks mapping to the same line evict each
@@ -261,7 +263,9 @@ A memory block can be placed in **any** cache line.
 The cache is divided into $s$ **sets**, each containing $k$ **ways** (lines). A block maps to a
 Specific set, but can be placed in any line within that set.
 
-$$\mathrm{Set} = \mathrm{Block address} \bmod s$$
+$$
+\mathrm{Set} = \mathrm{Block address} \bmod s
+$$
 
 - **$k = 1$:** Direct mapping
 - **$k = s$:** Fully associative
@@ -339,7 +343,9 @@ Without pipelining, $n$ instructions take $n \times k$ cycles (where $k$ is the 
 With pipelining, the first instruction takes $k$ cycles, and each subsequent instruction takes 1
 Cycle. Total: $k + (n - 1)$ cycles.
 
-$$\mathrm{Speedup} = \frac{nk}{k + n - 1} \xrightarrow{n \to \infty} k$$
+$$
+\mathrm{Speedup} = \frac{nk}{k + n - 1} \xrightarrow{n \to \infty} k
+$$
 
 A $k$-stage pipeline achieves at most $k\times$ speedup in the ideal case.
 

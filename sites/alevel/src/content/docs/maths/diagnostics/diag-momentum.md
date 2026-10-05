@@ -76,14 +76,18 @@ m/s.
 
 **(b)** Coefficient of restitution:
 
-$$e = \frac{\text{relative speed of separation}}{\text{relative speed of approach}}$$
+$$
+e = \frac{\text{relative speed of separation}}{\text{relative speed of approach}}
+$$
 
 Relative speed of approach $= 5 - (-3) = 8$ m/s.
 
 Relative speed of separation $= v_B - v_A = \frac{5}{3} - (-2) = \frac{5}{3} + 2 = \frac{11}{3}$
 m/s.
 
-$$e = \frac{11/3}{8} = \frac{11}{24} \approx 0.458$$
+$$
+e = \frac{11/3}{8} = \frac{11}{24} \approx 0.458
+$$
 
 **(c)** With positive = $B$'s initial motion (to the left):
 
@@ -102,11 +106,17 @@ direction, confirming the result is convention-independent.
 
 **(d)** Since $e = \frac{11}{24} \approx 0.458$ and $0 \lt e \lt 1$The collision is **inelastic**.
 
-$$\text{KE}_{\text{before}} = \frac{1}{2}(4)(25) + \frac{1}{2}(6)(9) = 50 + 27 = 77 \text{ J}$$
+$$
+\text{KE}_{\text{before}} = \frac{1}{2}(4)(25) + \frac{1}{2}(6)(9) = 50 + 27 = 77 \text{ J}
+$$
 
-$$\text{KE}_{\text{after}} = \frac{1}{2}(4)(4) + \frac{1}{2}(6)\!\left(\frac{25}{9}\right) = 8 + \frac{75}{9} = 8 + \frac{25}{3} = \frac{49}{3} \approx 16.33 \text{ J}$$
+$$
+\text{KE}_{\text{after}} = \frac{1}{2}(4)(4) + \frac{1}{2}(6)\!\left(\frac{25}{9}\right) = 8 + \frac{75}{9} = 8 + \frac{25}{3} = \frac{49}{3} \approx 16.33 \text{ J}
+$$
 
-$$\Delta\mathrm{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \approx 60.67 \text{ J lost}$$
+$$
+\Delta\mathrm{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \approx 60.67 \text{ J lost}
+$$
 
 ---
 
@@ -152,17 +162,25 @@ Note: $h_1 = e^2 h = 0.36 \times 10 = 3.6$ m. Consistent.
 
 **(b)** After the $n$-th bounce, the speed is $u_n = e^n \sqrt{2gh} = e^n \times 14$.
 
-$$h_n = \frac{u_n^2}{2g} = \frac{e^{2n} \times 196}{19.6} = e^{2n} \times 10 \quad \blacksquare$$
+$$
+h_n = \frac{u_n^2}{2g} = \frac{e^{2n} \times 196}{19.6} = e^{2n} \times 10 \quad \blacksquare
+$$
 
 Total vertical distance $= h + 2h_1 + 2h_2 + \cdots = h + 2\sum_{n=1}^{\infty}h_n$
 
-$$= 10 + 2 \times 10 \sum_{n=1}^{\infty}e^{2n} = 10 + 20 \sum_{n=1}^{\infty}(0.36)^n$$
+$$
+= 10 + 2 \times 10 \sum_{n=1}^{\infty}e^{2n} = 10 + 20 \sum_{n=1}^{\infty}(0.36)^n
+$$
 
 The sum is a geometric series with first term $a = 0.36$ and ratio $r = 0.36$:
 
-$$\sum_{n=1}^{\infty}(0.36)^n = \frac{0.36}{1 - 0.36} = \frac{0.36}{0.64} = \frac{9}{16}$$
+$$
+\sum_{n=1}^{\infty}(0.36)^n = \frac{0.36}{1 - 0.36} = \frac{0.36}{0.64} = \frac{9}{16}
+$$
 
-$$\text{Total distance} = 10 + 20 \times \frac{9}{16} = 10 + \frac{180}{16} = 10 + 11.25 = 21.25 \text{ m}$$
+$$
+\text{Total distance} = 10 + 20 \times \frac{9}{16} = 10 + \frac{180}{16} = 10 + 11.25 = 21.25 \text{ m}
+$$
 
 **(c)** Time for the initial fall:
 $t_0 = \sqrt{\frac{2h}{g}} = \sqrt{\frac{20}{9.8}} = \sqrt{\frac{100}{49}} = \frac{10}{7}$
@@ -170,11 +188,15 @@ s.
 
 After the $n$-th bounce, the time in the air (up and down) is:
 
-$$t_n = \frac{2u_n}{g} = \frac{2e^n \times 14}{9.8} = \frac{2e^n \times 14}{9.8} = \frac{28e^n}{9.8} = \frac{20e^n}{7} \text{ s}$$
+$$
+t_n = \frac{2u_n}{g} = \frac{2e^n \times 14}{9.8} = \frac{2e^n \times 14}{9.8} = \frac{28e^n}{9.8} = \frac{20e^n}{7} \text{ s}
+$$
 
 Total time $= t_0 + \sum_{n=1}^{\infty}t_n = \frac{10}{7} + \frac{20}{7}\sum_{n=1}^{\infty}(0.6)^n$
 
-$$= \frac{10}{7} + \frac{20}{7} \times \frac{0.6}{1 - 0.6} = \frac{10}{7} + \frac{20}{7} \times \frac{3}{2} = \frac{10}{7} + \frac{30}{7} = \frac{40}{7} \approx 5.71 \text{ s}$$
+$$
+= \frac{10}{7} + \frac{20}{7} \times \frac{0.6}{1 - 0.6} = \frac{10}{7} + \frac{20}{7} \times \frac{3}{2} = \frac{10}{7} + \frac{30}{7} = \frac{40}{7} \approx 5.71 \text{ s}
+$$
 
 **(d)** Mathematically, the geometric series converges to a finite sum, meaning the ball completes
 infinitely many bounces in finite time. In practice, once the bounce height falls below the scale of
@@ -219,7 +241,9 @@ between the collision itself and the broader system, and the identification of e
 
 **(a)** Conservation of momentum (perfectly inelastic collision, $e = 0$):
 
-$$2 \times 4 + 3 \times 0 = (2 + 3)v \implies 8 = 5v \implies v = 1.6 \text{ m/s}$$
+$$
+2 \times 4 + 3 \times 0 = (2 + 3)v \implies 8 = 5v \implies v = 1.6 \text{ m/s}
+$$
 
 **(b)** $\text{KE}_{\text{before}} = \frac{1}{2}(2)(16) = 16$ J.
 
@@ -238,9 +262,13 @@ system), but the kinetic energy is not preserved.
 
 **(c)** The combined trolley decelerates from $1.6$ m/s to $0$ in $0.1$ s.
 
-$$F\Delta t = \Delta p = 5(0 - 1.6) = -8 \text{ Ns}$$
+$$
+F\Delta t = \Delta p = 5(0 - 1.6) = -8 \text{ Ns}
+$$
 
-$$F = \frac{-8}{0.1} = -80 \text{ N}$$
+$$
+F = \frac{-8}{0.1} = -80 \text{ N}
+$$
 
 The average force exerted by the buffer on the trolley is $80$ N (opposing the motion).
 
@@ -293,9 +321,13 @@ $\int F\,ds$.]
 **Solution:**
 
 **(a)**
-$$J = \int_0^2 F(t)\,dt = \int_0^2 (12t^2 - 8t + 2)\,dt = \left[4t^3 - 4t^2 + 2t\right]_0^2$$
+$$
+J = \int_0^2 F(t)\,dt = \int_0^2 (12t^2 - 8t + 2)\,dt = \left[4t^3 - 4t^2 + 2t\right]_0^2
+$$
 
-$$= (32 - 16 + 4) - 0 = 20 \text{ Ns}$$
+$$
+= (32 - 16 + 4) - 0 = 20 \text{ Ns}
+$$
 
 **(b)** $J = m\Delta v \implies 20 = 4(v - 0) \implies v = 5$ m/s.
 
@@ -311,17 +343,25 @@ $v(2) = 8 - 4 + 1 = 5$ m/s. Confirmed.
 
 $v(t) = t^3 - t^2 + 0.5t$.
 
-$$W = \int_0^2 (12t^2 - 8t + 2)(t^3 - t^2 + 0.5t)\,dt$$
+$$
+W = \int_0^2 (12t^2 - 8t + 2)(t^3 - t^2 + 0.5t)\,dt
+$$
 
 First, expand the integrand:
 
 $(12t^2 - 8t + 2)(t^3 - t^2 + 0.5t) = 12t^5 - 12t^4 + 6t^3 - 8t^4 + 8t^3 - 4t^2 + 2t^3 - 2t^2 + t$
 
-$$= 12t^5 - 20t^4 + 16t^3 - 6t^2 + t$$
+$$
+= 12t^5 - 20t^4 + 16t^3 - 6t^2 + t
+$$
 
-$$W = \int_0^2 (12t^5 - 20t^4 + 16t^3 - 6t^2 + t)\,dt = \left[2t^6 - 4t^5 + 4t^4 - 2t^3 + \frac{t^2}{2}\right]_0^2$$
+$$
+W = \int_0^2 (12t^5 - 20t^4 + 16t^3 - 6t^2 + t)\,dt = \left[2t^6 - 4t^5 + 4t^4 - 2t^3 + \frac{t^2}{2}\right]_0^2
+$$
 
-$$= (128 - 128 + 64 - 16 + 2) - 0 = 50 \text{ J}$$
+$$
+= (128 - 128 + 64 - 16 + 2) - 0 = 50 \text{ J}
+$$
 
 **(d)** $\Delta\mathrm{KE} = \frac{1}{2}(4)(5^2) - 0 = 50$ J.
 
@@ -376,35 +416,55 @@ $A$: $v_{Ax} = 4\cos 30° = 2\sqrt{3}$, $v_{Ay} = 4\sin 30° = 2$.
 
 **$x$-momentum conservation:**
 
-$$4 \times 2\sqrt{3} + 6v_{Bx} = 70$$
+$$
+4 \times 2\sqrt{3} + 6v_{Bx} = 70
+$$
 
-$$6v_{Bx} = 70 - 8\sqrt{3} \approx 70 - 13.86 = 56.14$$
+$$
+6v_{Bx} = 70 - 8\sqrt{3} \approx 70 - 13.86 = 56.14
+$$
 
-$$v_{Bx} = \frac{70 - 8\sqrt{3}}{6} = \frac{35 - 4\sqrt{3}}{3} \approx 9.36 \text{ m/s}$$
+$$
+v_{Bx} = \frac{70 - 8\sqrt{3}}{6} = \frac{35 - 4\sqrt{3}}{3} \approx 9.36 \text{ m/s}
+$$
 
 **$y$-momentum conservation:**
 
-$$4 \times 2 + 6v_{By} = 0$$
+$$
+4 \times 2 + 6v_{By} = 0
+$$
 
-$$6v_{By} = -8 \implies v_{By} = -\frac{4}{3} \text{ m/s}$$
+$$
+6v_{By} = -8 \implies v_{By} = -\frac{4}{3} \text{ m/s}
+$$
 
 Speed of $B$:
 $v_B = \sqrt{v_{Bx}^2 + v_{By}^2} = \sqrt{\left(\frac{35 - 4\sqrt{3}}{3}\right)^2 + \frac{16}{9}}$
 
-$$= \sqrt{\frac{(35 - 4\sqrt{3})^2 + 16}{9}} = \sqrt{\frac{1225 - 280\sqrt{3} + 48 + 16}{9}} = \sqrt{\frac{1289 - 280\sqrt{3}}{9}}$$
+$$
+= \sqrt{\frac{(35 - 4\sqrt{3})^2 + 16}{9}} = \sqrt{\frac{1225 - 280\sqrt{3} + 48 + 16}{9}} = \sqrt{\frac{1289 - 280\sqrt{3}}{9}}
+$$
 
 $\sqrt{3} \approx 1.732$ So $1289 - 484.96 = 804.04$.
 
-$$v_B = \sqrt{\frac{804.04}{9}} = \sqrt{89.34} \approx 9.45 \text{ m/s}$$
+$$
+v_B = \sqrt{\frac{804.04}{9}} = \sqrt{89.34} \approx 9.45 \text{ m/s}
+$$
 
 **(b)** The coefficient of restitution applies along the line of centres. For a head-on collision
 becoming oblique, the line of centres is the original direction of motion (the $x$-axis).
 
-$$e = \frac{v_{Bx} - v_{Ax}}{u_{Ax} - u_{Bx}} = \frac{\frac{35 - 4\sqrt{3}}{3} - 2\sqrt{3}}{10 - 5}$$
+$$
+e = \frac{v_{Bx} - v_{Ax}}{u_{Ax} - u_{Bx}} = \frac{\frac{35 - 4\sqrt{3}}{3} - 2\sqrt{3}}{10 - 5}
+$$
 
-$$= \frac{\frac{35 - 4\sqrt{3} - 6\sqrt{3}}{3}}{5} = \frac{35 - 10\sqrt{3}}{15} = \frac{7 - 2\sqrt{3}}{3}$$
+$$
+= \frac{\frac{35 - 4\sqrt{3} - 6\sqrt{3}}{3}}{5} = \frac{35 - 10\sqrt{3}}{15} = \frac{7 - 2\sqrt{3}}{3}
+$$
 
-$$= \frac{7 - 3.464}{3} = \frac{3.536}{3} \approx 0.179$$
+$$
+= \frac{7 - 3.464}{3} = \frac{3.536}{3} \approx 0.179
+$$
 
 **(c)** $\text{KE}_{\text{before}} = \frac{1}{2}(4)(100) + \frac{1}{2}(6)(25) = 200 + 75 = 275$ J.
 
@@ -432,9 +492,13 @@ data.
 
 **(d)** From part (a): $v_{Bx} = \frac{35 - 4\sqrt{3}}{3}$ and $v_{By} = -\frac{4}{3}$.
 
-$$\tan\theta = \frac{\lvert v_{By} \rvert}{v_{Bx}} = \frac{4/3}{(35 - 4\sqrt{3})/3} = \frac{4}{35 - 4\sqrt{3}} \approx \frac{4}{28.07} \approx 0.1425$$
+$$
+\tan\theta = \frac{\lvert v_{By} \rvert}{v_{Bx}} = \frac{4/3}{(35 - 4\sqrt{3})/3} = \frac{4}{35 - 4\sqrt{3}} \approx \frac{4}{28.07} \approx 0.1425
+$$
 
-$$\theta \approx \arctan(0.1425) \approx 8.1°$$
+$$
+\theta \approx \arctan(0.1425) \approx 8.1°
+$$
 
 Note: $\tan\theta = \frac{2\sin 30°}{\frac{35 - 4\sqrt{3}}{3} - 2\sqrt{3}}$... This does
 not simplify neatly because the data is inconsistent. The angle is approximately $8.1°$ below the
@@ -504,7 +568,9 @@ Deceleration: $a = -\mu g = -0.4 \times 9.8 = -3.92$ m/s$^2$.
 
 Using $v^2 = u^2 + 2as$ with $v = 0$, $u = 0.6$:
 
-$$0 = 0.36 + 2(-3.92)d \implies d = \frac{0.36}{7.84} \approx 0.0459 \text{ m} \approx 4.6 \text{ cm}$$
+$$
+0 = 0.36 + 2(-3.92)d \implies d = \frac{0.36}{7.84} \approx 0.0459 \text{ m} \approx 4.6 \text{ cm}
+$$
 
 **(d)** **Energy lost at the wall:**
 

@@ -70,7 +70,9 @@ def uniformity_test(hash_func, keys, num_buckets):
 
 ### Multiplicative Hashing
 
-$$h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor$$
+$$
+h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor
+$$
 
 Where $A$ is a constant in $(0, 1)$ and $m$ is the table size. Knuth recommends
 $A = (\sqrt{5} - 1) / 2 \approx 0.6180339887$. This avoids the problem of poor distribution when the
@@ -110,7 +112,9 @@ def splitmix64(x):
 
 ### Polynomial Rolling Hash
 
-$$h(s) = \left(\sum_{i=0}^{k-1} s[i] \cdot p^{k-1-i}\right) \bmod m$$
+$$
+h(s) = \left(\sum_{i=0}^{k-1} s[i] \cdot p^{k-1-i}\right) \bmod m
+$$
 
 Where $p$ is a prime (commonly 31, 37, or 257) and $m$ is $2^{64}$ (using unsigned integer
 Overflow). This is the basis for Java's `String.hashCode()` and many other implementations.
@@ -271,7 +275,9 @@ Collision occurs, we probe for the next available slot using a deterministic pro
 
 ### Linear Probing
 
-$$h(k, i) = (h'(k) + i) \bmod m$$
+$$
+h(k, i) = (h'(k) + i) \bmod m
+$$
 
 The simplest open addressing scheme: on collision at index $h'(k)$Try $h'(k)+1$, $h'(k)+2$Etc.
 
@@ -339,7 +345,9 @@ $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$.
 
 ### Quadratic Probing
 
-$$h(k, i) = (h'(k) + c_1 \cdot i + c_2 \cdot i^2) \bmod m$$
+$$
+h(k, i) = (h'(k) + c_1 \cdot i + c_2 \cdot i^2) \bmod m
+$$
 
 Reduces primary clustering by probing at increasing distances. However, it can suffer from
 **secondary clustering**, keys that hash to the same initial slot follow the same probe sequence.
@@ -349,7 +357,9 @@ Than 0.5, quadratic probing with $c_1 = c_2 = 1/2$ will always find an empty slo
 
 ### Double Hashing
 
-$$h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$$
+$$
+h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m
+$$
 
 Uses a second hash function $h_2(k)$ to determine the probe step size. This eliminates both primary
 And secondary clustering. The table size $m$ and the step size $h_2(k)$ should be relatively prime
@@ -665,7 +675,9 @@ class BloomFilter:
 
 Given $n$ expected items and desired false positive rate $p$:
 
-$$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
+$$
+m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2
+$$
 
 | False positive rate | Bits per element | Hash functions |
 | ------------------- | ---------------- | -------------- |
@@ -753,7 +765,9 @@ Elements) of a set using very little memory, 12 KB for an error rate of about 0.
 3. For each register, track the position of the leftmost 1-bit in the remaining bits
 4. The estimate is based on the harmonic mean of the register values
 
-$$\hat{n} = \alpha_{m} \cdot m^2 \cdot \left(\sum_{j=1}^{m} 2^{-M[j]}\right)^{-1}$$
+$$
+\hat{n} = \alpha_{m} \cdot m^2 \cdot \left(\sum_{j=1}^{m} 2^{-M[j]}\right)^{-1}
+$$
 
 Where $m = 2^b$ is the number of registers, $M[j]$ is the maximum position of the leftmost 1-bit
 Seen in register $j$ And $\alpha_m$ is a bias correction constant.

@@ -93,7 +93,9 @@ Lie type, or one of 26 sporadic groups.
 **Theorem 14.4.** Every finitely generated abelian group $G$ is isomorphic to a direct product of
 Cyclic groups:
 
-$$G \cong \mathbb{Z}^r \times \mathbb{Z}/p_1^{k_1}\mathbb{Z} \times \cdots \times \mathbb{Z}/p_m^{k_m}\mathbb{Z}$$
+$$
+G \cong \mathbb{Z}^r \times \mathbb{Z}/p_1^{k_1}\mathbb{Z} \times \cdots \times \mathbb{Z}/p_m^{k_m}\mathbb{Z}
+$$
 
 Where $r \geq 0$ is the **rank** and $p_i^{k_i}$ are powers of (not necessarily distinct) primes.
 The integers $r, k_1, \ldots, k_m$ are uniquely determined.

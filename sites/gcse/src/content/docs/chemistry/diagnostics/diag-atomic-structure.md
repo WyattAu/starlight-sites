@@ -160,7 +160,9 @@ negatively charged ion (anion).
 
 (c) The relative atomic mass is calculated using the weighted average:
 
-$$A_r = \frac{(35 \times 75.8) + (37 \times 24.2)}{100} = \frac{2653 + 895.4}{100} = \frac{3548.4}{100} = 35.484 \approx 35.5$$
+$$
+A_r = \frac{(35 \times 75.8) + (37 \times 24.2)}{100} = \frac{2653 + 895.4}{100} = \frac{3548.4}{100} = 35.484 \approx 35.5
+$$
 
 (d) The relative atomic mass is not in most cases a whole number because most elements exist as a mixture
 of isotopes with different masses and different abundances. The $A_r$ is a weighted average of these
@@ -269,13 +271,21 @@ equal the number of electrons, giving it a net charge of $-1$.
 
 (b) Let $x$ = percentage abundance of boron-10, then $(100 - x)$ = percentage abundance of boron-11.
 
-$$10.8 = \frac{10x + 11(100 - x)}{100}$$
+$$
+10.8 = \frac{10x + 11(100 - x)}{100}
+$$
 
-$$1080 = 10x + 1100 - 11x$$
+$$
+1080 = 10x + 1100 - 11x
+$$
 
-$$1080 = 1100 - x$$
+$$
+1080 = 1100 - x
+$$
 
-$$x = 20$$
+$$
+x = 20
+$$
 
 Boron-10 abundance = 20%, boron-11 abundance = 80%.
 

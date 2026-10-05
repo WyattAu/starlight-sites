@@ -175,7 +175,9 @@ Comparative advantage arises from differences between countries in:
 The **terms of trade (TOT)** is the ratio of a country"s export prices to its import prices. It
 Measures how many units of imports a country can buy with one unit of exports.
 
-$$\mathrm{Terms of Trade} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100$$
+$$
+\mathrm{Terms of Trade} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100
+$$
 
 ### Interpretation
 
@@ -188,7 +190,9 @@ $$\mathrm{Terms of Trade} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index
 
 If the export price index is 120 and the import price index is 100:
 
-$$\mathrm{TOT} = \frac{120}{100} \times 100 = 120$$
+$$
+\mathrm{TOT} = \frac{120}{100} \times 100 = 120
+$$
 
 A TOT of 120 means the country can buy 20% more imports per unit of exports compared to the base
 Year.
@@ -236,7 +240,9 @@ Making it less competitive compared to domestically produced goods.
 
 **Deadweight loss of a tariff:**
 
-$$\mathrm{DWL} = \mathrm{Loss in consumer surplus} - \mathrm{Gain in producer surplus} - \mathrm{Tariff revenue}$$
+$$
+\mathrm{DWL} = \mathrm{Loss in consumer surplus} - \mathrm{Gain in producer surplus} - \mathrm{Tariff revenue}
+$$
 
 <details>
 <summary>Worked Example: Tariff Deadweight Loss</summary>
@@ -389,7 +395,9 @@ The current account records trade in goods and services, income flows, and curre
 | Primary income                       | Income from investments abroad minus income paid to foreign investors (e.g., dividends, interest) |
 | Secondary income (current transfers) | One-way transfers with nothing received in return (e.g., remittances, foreign aid)                |
 
-$$\mathrm{Current Account Balance} = \mathrm{(X - M)}_{\mathrm{goods}} + \mathrm{(X - M)}_{\mathrm{services}} + \mathrm{Primary Income} + \mathrm{Secondary Income}$$
+$$
+\mathrm{Current Account Balance} = \mathrm{(X - M)}_{\mathrm{goods}} + \mathrm{(X - M)}_{\mathrm{services}} + \mathrm{Primary Income} + \mathrm{Secondary Income}
+$$
 
 **Current account surplus:** When credits (inflows) exceed debits (outflows). The country is earning
 More from abroad than it is spending.
@@ -417,7 +425,9 @@ The financial account records cross-border investments in financial assets.
 
 The balance of payments must always balance (sum to zero):
 
-$$\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0$$
+$$
+\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0
+$$
 
 If the current account is in deficit, the capital and financial accounts must be in surplus by an
 Equal amount (and vice versa).
@@ -538,7 +548,9 @@ The Marshall-Lerner condition states that a currency depreciation will improve t
 Balance only if the sum of the price elasticities of demand for exports and imports is greater than
 1:
 
-$$|\varepsilon_X| + |\varepsilon_M| \gt 1$$
+$$
+|\varepsilon_X| + |\varepsilon_M| \gt 1
+$$
 
 Where:
 
@@ -599,7 +611,9 @@ More expensive (increasing costs and imported inflation), and the current accoun
 Trade dependency measures the degree to which a country's economy relies on international trade. It
 Is measured as:
 
-$$\mathrm{Trade Dependency Ratio} = \frac{\mathrm{Total Trade (Exports + Imports)}}{\mathrm{GDP}} \times 100\%$$
+$$
+\mathrm{Trade Dependency Ratio} = \frac{\mathrm{Total Trade (Exports + Imports)}}{\mathrm{GDP}} \times 100\%
+$$
 
 ### Hong Kong's Trade Dependency
 

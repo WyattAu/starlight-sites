@@ -104,7 +104,9 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 Resolving forces perpendicular to the plane:
 
-$$R = mg\cos 30^\circ + P\sin 30^\circ$$
+$$
+R = mg\cos 30^\circ + P\sin 30^\circ
+$$
 
 Resolving forces parallel to the plane (up the plane positive):
 
@@ -115,18 +117,32 @@ Component of $P$ up the plane: $P\cos 30^\circ$
 (a) **Minimum $P$ to prevent sliding down**: The block is on the point of sliding down, so friction
 acts **up** the plane at its maximum value.
 
-$$P\cos 30^\circ + F_{\max} = mg\sin 30^\circ$$
-$$P\cos 30^\circ + \mu(mg\cos 30^\circ + P\sin 30^\circ) = mg\sin 30^\circ$$
-$$P\cos 30^\circ + 0.25(5.0 \times 9.81 \times \cos 30^\circ + 0.5P) = 5.0 \times 9.81 \times 0.5$$
+$$
+P\cos 30^\circ + F_{\max} = mg\sin 30^\circ
+$$
+$$
+P\cos 30^\circ + \mu(mg\cos 30^\circ + P\sin 30^\circ) = mg\sin 30^\circ
+$$
+$$
+P\cos 30^\circ + 0.25(5.0 \times 9.81 \times \cos 30^\circ + 0.5P) = 5.0 \times 9.81 \times 0.5
+$$
 $$0.866P + 0.25(42.48 + 0.5P) = 24.525$$ $$0.866P + 10.62 + 0.125P = 24.525$$ $$0.991P = 13.905$$
-$$P = 14.0\,\text{N}$$
+$$
+P = 14.0\,\text{N}
+$$
 
 (b) **Maximum $P$ before sliding up**: Friction now acts **down** the plane at its maximum value.
 
-$$P\cos 30^\circ = mg\sin 30^\circ + F_{\max}$$
-$$P\cos 30^\circ = mg\sin 30^\circ + \mu(mg\cos 30^\circ + P\sin 30^\circ)$$
+$$
+P\cos 30^\circ = mg\sin 30^\circ + F_{\max}
+$$
+$$
+P\cos 30^\circ = mg\sin 30^\circ + \mu(mg\cos 30^\circ + P\sin 30^\circ)
+$$
 $$0.866P = 24.525 + 0.25(42.48 + 0.5P)$$ $$0.866P = 24.525 + 10.62 + 0.125P$$ $$0.741P = 35.145$$
-$$P = 47.4\,\text{N}$$
+$$
+P = 47.4\,\text{N}
+$$
 
 (c) With $P = 30\,\text{N}$We first check whether the block is in equilibrium by assuming it is and
 finding the required friction.
@@ -140,7 +156,9 @@ Net force up the plane (without friction): $25.98 - 24.525 = 1.455\,\text{N}$ up
 Since the net force (without friction) is up the plane and the block is in equilibrium, friction
 must act **down** the plane:
 
-$$F = 1.455\,\text{N}\text{ down the plane}$$
+$$
+F = 1.455\,\text{N}\text{ down the plane}
+$$
 
 Check: $F_{\max} = \mu R = 0.25(42.48 + 30 \times 0.5) = 0.25 \times 57.48 = 14.37\,\text{N}$
 
@@ -190,7 +208,9 @@ $F = \mu R = \mu \cdot mg\cos 25^\circ = 0.30 \times 4.0 \times 9.81 \times \cos
 Adding the equations:
 
 $$6.0g - 4.0g\sin 25^\circ - 10.66 = 10.0a$$ $$58.86 - 16.59 - 10.66 = 10.0a$$ $$31.61 = 10.0a$$
-$$a = 3.16\,\text{m}\,\text{s}^{-2}$$
+$$
+a = 3.16\,\text{m}\,\text{s}^{-2}
+$$
 
 From $B$'s equation: $T = 6.0(9.81 - 3.16) = 6.0 \times 6.65 = 39.9\,\text{N}$
 
@@ -202,7 +222,9 @@ Distance already travelled: $s = \frac{1}{2}at^2 = 0.5 \times 3.16 \times 4.0 = 
 
 When the string snaps, $A$ decelerates due to gravity component and friction:
 
-$$a' = \frac{-(mg\sin 25^\circ + F)}{m} = \frac{-(16.59 + 10.66)}{4.0} = \frac{-27.25}{4.0} = -6.81\,\text{m}\,\text{s}^{-2}$$
+$$
+a' = \frac{-(mg\sin 25^\circ + F)}{m} = \frac{-(16.59 + 10.66)}{4.0} = \frac{-27.25}{4.0} = -6.81\,\text{m}\,\text{s}^{-2}
+$$
 
 Distance to stop:
 $s' = \frac{v^2}{2|a'|} = \frac{6.32^2}{2 \times 6.81} = \frac{39.94}{13.62} = 2.93\,\text{m}$
@@ -245,13 +267,19 @@ Weight component down the hill: $2000g \times \frac{1}{20} = 100g = 981\,\text{N
 
 Total resistance: $400 + 200 = 600\,\text{N}$
 
-$$F_{\text{net}} = 4500 - 981 - 600 = 2919\,\text{N}$$
-$$a = \frac{2919}{2000} = 1.460\,\text{m}\,\text{s}^{-2}$$
+$$
+F_{\text{net}} = 4500 - 981 - 600 = 2919\,\text{N}
+$$
+$$
+a = \frac{2919}{2000} = 1.460\,\text{m}\,\text{s}^{-2}
+$$
 
 (b) For the trailer alone:
 
 $$T - 500g \times \frac{1}{20} - 200 = 500a$$ $$T - 245.25 - 200 = 500 \times 1.460$$
-$$T = 729.75 + 445.25 = 1175\,\text{N}$$
+$$
+T = 729.75 + 445.25 = 1175\,\text{N}
+$$
 
 (c) Work done by engine: $W = F \times d = 4500 \times 50 = 225000\,\text{J}$
 
@@ -300,18 +328,24 @@ block slide more or less ? Justify your answer with calculations.
 
 (a) The centripetal force is provided by friction:
 
-$$F = m\omega^2 r \le \mu_s R = \mu_s mg$$
+$$
+F = m\omega^2 r \le \mu_s R = \mu_s mg
+$$
 
 At the limiting case: $m\omega_{\max}^2 r = \mu_s mg$
 
-$$\omega_{\max} = \sqrt{\frac{\mu_s g}{r}}$$
+$$
+\omega_{\max} = \sqrt{\frac{\mu_s g}{r}}
+$$
 
 (b)
 $\omega_{\max} = \sqrt{\frac{0.40 \times 9.81}{0.15}} = \sqrt{\frac{3.924}{0.15}} = \sqrt{26.16} = 5.11\,\text{rad}\,\text{s}^{-1}$
 
 (c) When tilted at $10^\circ$Resolve perpendicular to the surface:
 
-$$R = mg\cos 10^\circ = 0.50 \times 9.81 \times 0.9848 = 4.831\,\text{N}$$
+$$
+R = mg\cos 10^\circ = 0.50 \times 9.81 \times 0.9848 = 4.831\,\text{N}
+$$
 
 Maximum friction: $F_{\max} = \mu_s R = 0.40 \times 4.831 = 1.932\,\text{N}$
 
@@ -330,30 +364,50 @@ $F\cos 10^\circ$ and $F\sin 10^\circ$ respectively.
 
 Resolving horizontally (centripetal direction):
 
-$$F\cos 10^\circ = m\omega^2 r$$
+$$
+F\cos 10^\circ = m\omega^2 r
+$$
 
 Resolving vertically:
 
-$$R\cos 10^\circ + F\sin 10^\circ = mg$$
+$$
+R\cos 10^\circ + F\sin 10^\circ = mg
+$$
 
-$$R = \frac{mg - F\sin 10^\circ}{\cos 10^\circ}$$
+$$
+R = \frac{mg - F\sin 10^\circ}{\cos 10^\circ}
+$$
 
 At limiting friction: $F = \mu_s R$. From the horizontal equation:
 $F = \frac{m\omega^2 r}{\cos 10^\circ}$. Substituting:
 
-$$\frac{m\omega^2 r}{\cos 10^\circ} = \mu_s \cdot \frac{mg - \frac{m\omega^2 r \sin 10^\circ}{\cos 10^\circ}}{\cos 10^\circ}$$
+$$
+\frac{m\omega^2 r}{\cos 10^\circ} = \mu_s \cdot \frac{mg - \frac{m\omega^2 r \sin 10^\circ}{\cos 10^\circ}}{\cos 10^\circ}
+$$
 
-$$\frac{m\omega^2 r}{\cos 10^\circ} = \frac{\mu_s(mg\cos 10^\circ - m\omega^2 r\sin 10^\circ)}{\cos^2 10^\circ}$$
+$$
+\frac{m\omega^2 r}{\cos 10^\circ} = \frac{\mu_s(mg\cos 10^\circ - m\omega^2 r\sin 10^\circ)}{\cos^2 10^\circ}
+$$
 
-$$m\omega^2 r\cos 10^\circ = \mu_s mg\cos 10^\circ - \mu_s m\omega^2 r\sin 10^\circ$$
+$$
+m\omega^2 r\cos 10^\circ = \mu_s mg\cos 10^\circ - \mu_s m\omega^2 r\sin 10^\circ
+$$
 
-$$m\omega^2 r(\cos 10^\circ + \mu_s\sin 10^\circ) = \mu_s mg\cos 10^\circ$$
+$$
+m\omega^2 r(\cos 10^\circ + \mu_s\sin 10^\circ) = \mu_s mg\cos 10^\circ
+$$
 
-$$\omega_{\max}^2 = \frac{\mu_s g\cos 10^\circ}{r(\cos 10^\circ + \mu_s\sin 10^\circ)}$$
+$$
+\omega_{\max}^2 = \frac{\mu_s g\cos 10^\circ}{r(\cos 10^\circ + \mu_s\sin 10^\circ)}
+$$
 
-$$\omega_{\max}^2 = \frac{0.40 \times 9.81 \times 0.9848}{0.15(0.9848 + 0.40 \times 0.1736)} = \frac{3.865}{0.15(0.9848 + 0.06944)} = \frac{3.865}{0.15 \times 1.0542} = \frac{3.865}{0.1581} = 24.45$$
+$$
+\omega_{\max}^2 = \frac{0.40 \times 9.81 \times 0.9848}{0.15(0.9848 + 0.40 \times 0.1736)} = \frac{3.865}{0.15(0.9848 + 0.06944)} = \frac{3.865}{0.15 \times 1.0542} = \frac{3.865}{0.1581} = 24.45
+$$
 
-$$\omega_{\max} = 4.94\,\text{rad}\,\text{s}^{-1}$$
+$$
+\omega_{\max} = 4.94\,\text{rad}\,\text{s}^{-1}
+$$
 
 Since $4.94 \lt 5.11$The block slides **more** when the turntable is tilted. The tilt reduces the
 effective normal reaction and the friction must also counteract the tendency to slide down the
@@ -401,9 +455,15 @@ $$12.0 = \frac{1}{2}(2.0)v_A^2 + \frac{1}{2}(3.0)v_B^2$$ $$12.0 = v_A^2 + 1.5v_B
 
 Substituting $v_A = -1.5v_B$:
 
-$$12.0 = 2.25v_B^2 + 1.5v_B^2 = 3.75v_B^2$$
-$$v_B^2 = 3.20 \Rightarrow v_B = 1.789\,\text{m}\,\text{s}^{-1}$$
-$$v_A = -1.5 \times 1.789 = -2.683\,\text{m}\,\text{s}^{-1}$$
+$$
+12.0 = 2.25v_B^2 + 1.5v_B^2 = 3.75v_B^2
+$$
+$$
+v_B^2 = 3.20 \Rightarrow v_B = 1.789\,\text{m}\,\text{s}^{-1}
+$$
+$$
+v_A = -1.5 \times 1.789 = -2.683\,\text{m}\,\text{s}^{-1}
+$$
 
 Taking rightward as positive: $v_A = 2.68\,\text{m}\,\text{s}^{-1}$ (leftward),
 $v_B = 1.79\,\text{m}\,\text{s}^{-1}$ (rightward).
@@ -420,7 +480,9 @@ $v_B' = -1.0\,\text{m}\,\text{s}^{-1}$ (leftward after rebounding from the wall)
 For the $A$-$B$ collision (they stick together, perfectly inelastic):
 
 $$m_A v_A + m_B v_B' = (m_A + m_B)v_f$$ $$2.0(-2.68) + 3.0(-1.0) = 5.0v_f$$ $$-5.36 - 3.0 = 5.0v_f$$
-$$v_f = -1.67\,\text{m}\,\text{s}^{-1}$$
+$$
+v_f = -1.67\,\text{m}\,\text{s}^{-1}
+$$
 
 Common velocity is $1.67\,\text{m}\,\text{s}^{-1}$ leftward.
 

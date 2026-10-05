@@ -91,7 +91,9 @@ Comparing 2 and 3: [B] doubles, rate unchanged. Zero order in B.
 
 Comparing 2 and 4: [A] doubles, rate doubles. Confirms first order in A.
 
-$$\mathrm{Rate = k[\mathrm{A], \quad k = \frac{0.0080}{0.20} = 0.040 \mathrm{ s^{-1}$$
+$$
+\mathrm{Rate = k[\mathrm{A], \quad k = \frac{0.0080}{0.20} = 0.040 \mathrm{ s^{-1}
+$$
 
 ## Integrated Rate Laws (CED Unit 5)
 
@@ -166,11 +168,15 @@ $$
 A first-order reaction has a rate constant of $0.030 \mathrm{ min^{-1}$. Calculate the half-life And
 the time for 75% decomposition.
 
-$$t_{1/2} = \frac{0.693}{0.030} = 23.1 \mathrm{ min$$
+$$
+t_{1/2} = \frac{0.693}{0.030} = 23.1 \mathrm{ min
+$$
 
 After 75% decomposition, $[\mathrm{A]_t = 0.25[\mathrm{A]_0$:
 
-$$t = \frac{1}{k}\ln\frac{[\mathrm{A]_0}{[\mathrm{A]_t} = \frac{1}{0.030}\ln 4 = 33.3 \times 1.386 = 46.2 \mathrm{ min$$
+$$
+t = \frac{1}{k}\ln\frac{[\mathrm{A]_0}{[\mathrm{A]_t} = \frac{1}{0.030}\ln 4 = 33.3 \times 1.386 = 46.2 \mathrm{ min
+$$
 
 Note that 75% decomposition takes two half-lives (46.2 min $\approx 2 \times 23.1$ min).
 
@@ -289,9 +295,13 @@ $$
 A reaction has $E_a = 75 \mathrm{ kJ/mol$ without a catalyst and $E_a = 50 \mathrm{ kJ/mol$ with a
 Catalyst. Calculate the ratio of rate constants at $298 \mathrm{ K$.
 
-$$\frac{k_{\mathrm{cat}}{k_{\mathrm{uncat}} = \frac{A e^{-50000/(8.314 \times 298)}}{A e^{-75000/(8.314 \times 298)}} = e^{(75000 - 50000)/(8.314 \times 298)}$$
+$$
+\frac{k_{\mathrm{cat}}{k_{\mathrm{uncat}} = \frac{A e^{-50000/(8.314 \times 298)}}{A e^{-75000/(8.314 \times 298)}} = e^{(75000 - 50000)/(8.314 \times 298)}
+$$
 
-$$= e^{25000/2478} = e^{10.09} = 2.4 \times 10^4$$
+$$
+= e^{25000/2478} = e^{10.09} = 2.4 \times 10^4
+$$
 
 The catalyst increases the rate constant by a factor of about 24,000 at room temperature.
 
@@ -431,11 +441,17 @@ Concentrations.
 | $\mathrm{PCl_3$ | 0       | $+x$   | $x$         |
 | $\mathrm{Cl_2$  | 0       | $+x$   | $x$         |
 
-$$K_c = \frac{x^2}{2.00 - x} = 0.0420$$
+$$
+K_c = \frac{x^2}{2.00 - x} = 0.0420
+$$
 
-$$x^2 = 0.0420(2.00 - x) = 0.0840 - 0.0420x$$
+$$
+x^2 = 0.0420(2.00 - x) = 0.0840 - 0.0420x
+$$
 
-$$x^2 + 0.0420x - 0.0840 = 0$$
+$$
+x^2 + 0.0420x - 0.0840 = 0
+$$
 
 Using the quadratic formula:
 $x = \frac{-0.0420 + \sqrt{0.0420^2 + 4(0.0840)}}{2} = \frac{-0.0420 + 0.581}{2} = 0.269 \mathrm{ M$
@@ -448,9 +464,13 @@ $[\mathrm{Cl_2] = 0.269 \mathrm{ M$.
 For $\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$ at
 $400^{\circ}\mathrm{C$, $K_c = 0.500$. Calculate $K_p$.
 
-$$\Delta n = 2 - (1 + 3) = -2$$
+$$
+\Delta n = 2 - (1 + 3) = -2
+$$
 
-$$K_p = K_c(RT)^{\Delta n} = 0.500 \times (0.08206 \times 673)^{-2} = \frac{0.500}{(55.23)^2} = \frac{0.500}{3049} = 1.64 \times 10^{-4}$$
+$$
+K_p = K_c(RT)^{\Delta n} = 0.500 \times (0.08206 \times 673)^{-2} = \frac{0.500}{(55.23)^2} = \frac{0.500}{3049} = 1.64 \times 10^{-4}
+$$
 
 The small $K_p$ reflects the fact that the equilibrium lies to the left at this temperature (the
 Haber process is run at higher temperatures to increase $K$).
@@ -499,18 +519,26 @@ Since $Q_{sp} = 5.0 \times 10^{-10} \lt K_{sp} = 1.7 \times 10^{-5}$No precipita
 The solubility of $\mathrm{AgCl$ in water at $25^{\circ}\mathrm{C$ is
 $1.3 \times 10^{-5} \mathrm{ M$. Calculate $K_{sp}$.
 
-$$\mathrm{AgCl(s) \rightleftharpoons \mathrm{Ag^+(aq) + \mathrm{Cl^-(aq)$$
+$$
+\mathrm{AgCl(s) \rightleftharpoons \mathrm{Ag^+(aq) + \mathrm{Cl^-(aq)
+$$
 
-$$K_{sp} = [\mathrm{Ag^+][\mathrm{Cl^-] = (1.3 \times 10^{-5})^2 = 1.7 \times 10^{-10}$$
+$$
+K_{sp} = [\mathrm{Ag^+][\mathrm{Cl^-] = (1.3 \times 10^{-5})^2 = 1.7 \times 10^{-10}
+$$
 
 ### Worked Example: Common Ion Effect
 
 Calculate the solubility of $\mathrm{AgCl$ in $0.10 \mathrm{ M  \mathrm{NaCl$.
 $K_{sp} = 1.7 \times 10^{-10}$.
 
-$$K_{sp} = s(s + 0.10) \approx s \times 0.10$$
+$$
+K_{sp} = s(s + 0.10) \approx s \times 0.10
+$$
 
-$$s = \frac{1.7 \times 10^{-10}}{0.10} = 1.7 \times 10^{-9} \mathrm{ M$$
+$$
+s = \frac{1.7 \times 10^{-10}}{0.10} = 1.7 \times 10^{-9} \mathrm{ M
+$$
 
 Compare with solubility in pure water:
 $s_0 = \sqrt{1.7 \times 10^{-10}} = 1.3 \times 10^{-5} \mathrm{ M$.
@@ -820,21 +848,35 @@ And the pre-exponential factor $A$.
 
 Using the two-point form of the Arrhenius equation:
 
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
-$$\ln\frac{4.87 \times 10^{-3}}{3.46 \times 10^{-5}} = \frac{E_a}{8.314}\left(\frac{1}{298} - \frac{1}{350}\right)$$
+$$
+\ln\frac{4.87 \times 10^{-3}}{3.46 \times 10^{-5}} = \frac{E_a}{8.314}\left(\frac{1}{298} - \frac{1}{350}\right)
+$$
 
-$$\ln(140.8) = \frac{E_a}{8.314}(0.003356 - 0.002857)$$
+$$
+\ln(140.8) = \frac{E_a}{8.314}(0.003356 - 0.002857)
+$$
 
-$$4.947 = \frac{E_a}{8.314}(0.000499)$$
+$$
+4.947 = \frac{E_a}{8.314}(0.000499)
+$$
 
-$$E_a = \frac{4.947 \times 8.314}{0.000499} = \frac{41.13}{0.000499} = 82,400 \mathrm{ J/mol = 82.4 \mathrm{ kJ/mol$$
+$$
+E_a = \frac{4.947 \times 8.314}{0.000499} = \frac{41.13}{0.000499} = 82,400 \mathrm{ J/mol = 82.4 \mathrm{ kJ/mol
+$$
 
 For the pre-exponential factor $A$Using $k = Ae^{-E_a/RT}$ at $298 \mathrm{ K$:
 
-$$3.46 \times 10^{-5} = A \cdot e^{-82400/(8.314 \times 298)} = A \cdot e^{-33.28}$$
+$$
+3.46 \times 10^{-5} = A \cdot e^{-82400/(8.314 \times 298)} = A \cdot e^{-33.28}
+$$
 
-$$A = \frac{3.46 \times 10^{-5}}{3.62 \times 10^{-15}} = 9.56 \times 10^{9} \mathrm{ s^{-1}}$$
+$$
+A = \frac{3.46 \times 10^{-5}}{3.62 \times 10^{-15}} = 9.56 \times 10^{9} \mathrm{ s^{-1}}
+$$
 
 </details>
 
@@ -879,22 +921,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 :::
 
 ## Intuition

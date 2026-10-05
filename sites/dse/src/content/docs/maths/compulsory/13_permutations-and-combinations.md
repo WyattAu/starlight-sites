@@ -23,21 +23,29 @@ categories: "- DSE - Maths"
 
 For $n \in \mathbb{N}$:
 
-$$n! = n \times (n - 1) \times (n - 2) \times \cdots \times 2 \times 1$$
+$$
+n! = n \times (n - 1) \times (n - 2) \times \cdots \times 2 \times 1
+$$
 
 With $0! = 1$ by convention.
 
 ### Properties
 
-$$n! = n \times (n - 1)!$$
+$$
+n! = n \times (n - 1)!
+$$
 
-$$(n + 1)! = (n + 1) \times n!$$
+$$
+(n + 1)! = (n + 1) \times n!
+$$
 
 ### Worked Example 1
 
 Simplify $\dfrac{10!}{7! \cdot 3!}$.
 
-$$\frac{10!}{7! \cdot 3!} = \frac{10 \times 9 \times 8 \times 7!}{7! \times 6} = \frac{720}{6} = 120$$
+$$
+\frac{10!}{7! \cdot 3!} = \frac{10 \times 9 \times 8 \times 7!}{7! \times 6} = \frac{720}{6} = 120
+$$
 
 ---
 
@@ -57,7 +65,9 @@ $$\frac{10!}{7! \cdot 3!} = \frac{10 \times 9 \times 8 \times 7!}{7! \times 6} =
 A **permutation** is an ordered arrangement of objects. The number of permutations of $r$ objects
 Chosen from $n$ distinct objects:
 
-$$P_r^n = \frac{n!}{(n - r)!}$$
+$$
+P_r^n = \frac{n!}{(n - r)!}
+$$
 
 Also written as $^{n}P_r$ or $P(n, r)$.
 
@@ -69,7 +79,9 @@ Permutations are used when the **order** of selection matters.
 
 In how many ways can 5 students be arranged in a row from a class of 8?
 
-$$P_5^8 = \frac{8!}{3!} = \frac{40320}{6} = 6720$$
+$$
+P_5^8 = \frac{8!}{3!} = \frac{40320}{6} = 6720
+$$
 
 ### Worked Example 3
 
@@ -81,7 +93,9 @@ All 5 letters are distinct: $P_4^5 = \frac{5!}{1!} = 120$.
 
 When some objects are identical, divide by the factorial of the count of each repeated object:
 
-$$\mathrm{Arrangements} = \frac{n!}{n_1!\, n_2!\, \cdots\, n_k!}$$
+$$
+\mathrm{Arrangements} = \frac{n!}{n_1!\, n_2!\, \cdots\, n_k!}
+$$
 
 ### Worked Example 4
 
@@ -90,13 +104,17 @@ How many distinct arrangements of the letters in "BANANA"?
 Total letters: $n = 6$With $\mathrm{A}$ appearing $3$ times, $\mathrm{N}$ appearing $2$ times, and
 $\mathrm{B}$ appearing $1$ time.
 
-$$\frac{6!}{3!\, 2!\, 1!} = \frac{720}{6 \times 2} = 60$$
+$$
+\frac{6!}{3!\, 2!\, 1!} = \frac{720}{6 \times 2} = 60
+$$
 
 ### Circular Permutations
 
 The number of ways to arrange $n$ distinct objects in a circle:
 
-$$(n - 1)!$$
+$$
+(n - 1)!
+$$
 
 This accounts for rotational symmetry (rotating everyone does not create a new arrangement).
 
@@ -104,7 +122,9 @@ This accounts for rotational symmetry (rotating everyone does not create a new a
 
 In how many ways can 6 people sit around a round table?
 
-$$(6 - 1)! = 5! = 120$$
+$$
+(6 - 1)! = 5! = 120
+$$
 
 ---
 
@@ -124,7 +144,9 @@ $$(6 - 1)! = 5! = 120$$
 A **combination** is an unordered selection of objects. The number of combinations of $r$ objects
 Chosen from $n$ distinct objects:
 
-$$C_r^n = \binom{n}{r} = \frac{n!}{r!(n - r)!}$$
+$$
+C_r^n = \binom{n}{r} = \frac{n!}{r!(n - r)!}
+$$
 
 Also written as $^{n}C_r$ or $C(n, r)$.
 
@@ -136,11 +158,15 @@ Combinations are used when only the **group** matters, not the order of selectio
 
 A committee of 4 is to be chosen from 10 people. How many ways?
 
-$$\binom{10}{4} = \frac{10!}{4!\, 6!} = \frac{10 \times 9 \times 8 \times 7}{4 \times 3 \times 2 \times 1} = 210$$
+$$
+\binom{10}{4} = \frac{10!}{4!\, 6!} = \frac{10 \times 9 \times 8 \times 7}{4 \times 3 \times 2 \times 1} = 210
+$$
 
 ### Relation Between Permutations and Combinations
 
-$$P_r^n = r! \times C_r^n$$
+$$
+P_r^n = r! \times C_r^n
+$$
 
 This reflects the fact that each combination of $r$ objects can be arranged in $r!$ ways.
 
@@ -176,25 +202,35 @@ $$
 
 The $k$-th entry (starting from $k = 0$) in row $n$ (starting from $n = 0$) is:
 
-$$\binom{n}{k}$$
+$$
+\binom{n}{k}
+$$
 
 ### Properties of Binomial Coefficients
 
 **Symmetry:**
 
-$$\binom{n}{k} = \binom{n}{n - k}$$
+$$
+\binom{n}{k} = \binom{n}{n - k}
+$$
 
 **Pascal's identity:**
 
-$$\binom{n}{k} = \binom{n - 1}{k - 1} + \binom{n - 1}{k}$$
+$$
+\binom{n}{k} = \binom{n - 1}{k - 1} + \binom{n - 1}{k}
+$$
 
 **Row sum:**
 
-$$\sum_{k=0}^{n} \binom{n}{k} = 2^n$$
+$$
+\sum_{k=0}^{n} \binom{n}{k} = 2^n
+$$
 
 **Alternating sum:**
 
-$$\sum_{k=0}^{n} (-1)^k \binom{n}{k} = 0$$
+$$
+\sum_{k=0}^{n} (-1)^k \binom{n}{k} = 0
+$$
 
 ### Worked Example 7
 
@@ -202,7 +238,9 @@ Find the coefficient of $x^3$ in the expansion of $(1 + 2x)^7$.
 
 By the binomial theorem:
 
-$$(1 + 2x)^7 = \sum_{k=0}^{7} \binom{7}{k}(2x)^k$$
+$$
+(1 + 2x)^7 = \sum_{k=0}^{7} \binom{7}{k}(2x)^k
+$$
 
 For $x^3$: $k = 3$.
 
@@ -242,7 +280,9 @@ Total: $210 + 70 + 5 = 285$.
 
 When it is easier to count the complement and subtract:
 
-$$\mathrm{Desired count} = \mathrm{Total} - \mathrm{Undesired}$$
+$$
+\mathrm{Desired count} = \mathrm{Total} - \mathrm{Undesired}
+$$
 
 ### Worked Example 9
 
@@ -373,7 +413,9 @@ Coefficient: $\binom{8}{4}(2)^4(-3)^4 = 70 \times 16 \times 81 = 90720$.
 
 Letters: M(1), I(4), S(4), P(2). Total: 11.
 
-$$\frac{11!}{4!\, 4!\, 2!\, 1!} = \frac{39916800}{24 \times 24 \times 2} = \frac{39916800}{1152} = 34650$$
+$$
+\frac{11!}{4!\, 4!\, 2!\, 1!} = \frac{39916800}{24 \times 24 \times 2} = \frac{39916800}{1152} = 34650
+$$
 
 1. **Question:** Prove that $\binom{n}{r} + \binom{n}{r - 1} = \binom{n + 1}{r}$.
 
@@ -395,7 +437,9 @@ At least 2 red: $1365 - 630 = 735$.
 
 Number of ways to split $2n$ people into $n$ unordered pairs:
 
-$$\frac{(2n)!}{2^n \cdot n!} = \frac{8!}{2^4 \cdot 4!} = \frac{40320}{16 \times 24} = \frac{40320}{384} = 105$$
+$$
+\frac{(2n)!}{2^n \cdot n!} = \frac{8!}{2^4 \cdot 4!} = \frac{40320}{16 \times 24} = \frac{40320}{384} = 105
+$$
 
 1. **Question:** From 7 men and 5 women, how many committees of 6 can be formed with at least 3 men
     and at least 2 women?
@@ -432,7 +476,9 @@ How many distinct arrangements of the letters in "MATHEMATICS"?
 
 Total letters: $11$. Counts: M($2$), A($2$), T($2$), H($1$), E($1$), I($1$), C($1$), S($1$).
 
-$$\frac{11!}{2! \cdot 2! \cdot 2!} = \frac{39916800}{8} = 4989600$$
+$$
+\frac{11!}{2! \cdot 2! \cdot 2!} = \frac{39916800}{8} = 4989600
+$$
 
 </details>
 
@@ -447,7 +493,9 @@ Treat each couple as a single unit. We have 4 units to arrange: $4! = 24$ ways.
 
 Each couple can swap seats internally: $2^4 = 16$ ways.
 
-$$24 \times 16 = 384$$
+$$
+24 \times 16 = 384
+$$
 
 </details>
 
@@ -461,7 +509,9 @@ In how many ways can 12 identical balls be distributed into 5 distinct boxes (bo
 This is a stars-and-bars problem: we need the number of non-negative integer solutions to
 $x_1 + x_2 + x_3 + x_4 + x_5 = 12$.
 
-$$\binom{12 + 5 - 1}{5 - 1} = \binom{16}{4} = \frac{16 \times 15 \times 14 \times 13}{4 \times 3 \times 2 \times 1} = 1820$$
+$$
+\binom{12 + 5 - 1}{5 - 1} = \binom{16}{4} = \frac{16 \times 15 \times 14 \times 13}{4 \times 3 \times 2 \times 1} = 1820
+$$
 
 </details>
 
@@ -477,7 +527,9 @@ Total passwords (no repetition): $P_4^8 = \dfrac{8!}{4!} = 1680$.
 
 Passwords with no digits (all letters from 5 letters): $P_4^5 = \dfrac{5!}{1!} = 120$.
 
-$$1680 - 120 = 1560$$
+$$
+1680 - 120 = 1560
+$$
 
 **Direct counting verification:**
 
@@ -503,7 +555,9 @@ $\binom{6}{k}(x^2)^{6-k}\!\left(\dfrac{2}{x}\right)^k = \binom{6}{k} \cdot 2^k \
 
 For the constant term: $12 - 3k = 0 \implies k = 4$.
 
-$$\binom{6}{4} \cdot 2^4 = 15 \times 16 = 240$$
+$$
+\binom{6}{4} \cdot 2^4 = 15 \times 16 = 240
+$$
 
 </details>
 
@@ -574,7 +628,9 @@ Total teams of 4 from 11 people: $\binom{11}{4} = 330$.
 
 All-boy teams: $\binom{6}{4} = 15$. All-girl teams: $\binom{5}{4} = 5$.
 
-$$330 - 15 - 5 = 310$$
+$$
+330 - 15 - 5 = 310
+$$
 
 </details>
 
@@ -589,7 +645,9 @@ The first digit must be $4$, $5$, $6$Or $7$: $4$ choices.
 The remaining 4 positions are filled from the remaining $6$ digits without repetition:
 $P_4^6 = \dfrac{6!}{2!} = 360$.
 
-$$4 \times 360 = 1440$$
+$$
+4 \times 360 = 1440
+$$
 
 </details>
 
@@ -602,7 +660,9 @@ General term: $\binom{8}{k}(-2x)^k = (-1)^k \cdot 2^k \cdot \binom{8}{k} \cdot x
 
 For $x^5$: $k = 5$.
 
-$$(-1)^5 \cdot 2^5 \cdot \binom{8}{5} = -32 \times 56 = -1792$$
+$$
+(-1)^5 \cdot 2^5 \cdot \binom{8}{5} = -32 \times 56 = -1792
+$$
 
 </details>
 
@@ -616,7 +676,9 @@ First, seat the 3 girls around the circular table: $(3-1)! = 2! = 2$ ways.
 
 This creates $3$ gaps between the girls. Place the $3$ boys into these $3$ gaps: $3! = 6$ ways.
 
-$$2 \times 6 = 12$$
+$$
+2 \times 6 = 12
+$$
 
 </details>
 
@@ -632,7 +694,9 @@ Within the maths block: $6! = 720$ ways.
 
 Within the physics block: $4! = 24$ ways.
 
-$$2 \times 720 \times 24 = 34560$$
+$$
+2 \times 720 \times 24 = 34560
+$$
 
 </details>
 
@@ -651,7 +715,9 @@ Placements with at least one box empty:
 - Exactly 1 specific box empty: $2^8 = 256$. For $3$ boxes: $3 \times 256 = 768$.
 - Exactly 2 specific boxes empty: $1^8 = 1$. For $\binom{3}{2} = 3$ pairs: $3 \times 1 = 3$.
 
-$$6561 - 768 + 3 = 5796$$
+$$
+6561 - 768 + 3 = 5796
+$$
 
 </details>
 
@@ -665,7 +731,9 @@ fixed: $\binom{2}{2} = 1$.
 
 Since the 3 groups are indistinguishable (no labelling), divide by $3!$:
 
-$$\frac{15 \times 6 \times 1}{6} = 15$$
+$$
+\frac{15 \times 6 \times 1}{6} = 15
+$$
 
 Alternatively: $\dfrac{6!}{2^3 \cdot 3!} = \dfrac{720}{48} = 15$. Correct.
 
@@ -682,9 +750,13 @@ Total arrangements of "SUCCESS": $\dfrac{7!}{3! \cdot 2!} = \dfrac{5040}{12} = 4
 Arrangements with the two C's adjacent: treat "CC" as one unit. We have 6 units: S($3$), "CC"($1$),
 U($1$), E($1$).
 
-$$\frac{6!}{3!} = \frac{720}{6} = 120$$
+$$
+\frac{6!}{3!} = \frac{720}{6} = 120
+$$
 
-$$420 - 120 = 300$$
+$$
+420 - 120 = 300
+$$
 
 </details>
 
@@ -771,11 +843,15 @@ consonants are Q, T, N (3 letters).
 
 Treat the 5 vowels as a single block. We have 4 units to arrange: {VOWELS}, Q, T, N.
 
-$$4! = 24$$
+$$
+4! = 24
+$$
 
 Within the vowel block, the 5 vowels can be arranged in $5! = 120$ ways.
 
-$$24 \times 120 = 2880$$
+$$
+24 \times 120 = 2880
+$$
 
 </details>
 
@@ -809,7 +885,9 @@ First, seat the 4 men around the table: $(4 - 1)! = 3! = 6$ ways (circular permu
 
 This creates 4 gaps between the men. Place the 4 women into these 4 gaps: $4! = 24$ ways.
 
-$$6 \times 24 = 144$$
+$$
+6 \times 24 = 144
+$$
 
 </details>
 
@@ -829,7 +907,9 @@ Number of choices for $b$: $3$ (i.e., $0, 1, 2$).
 
 Number of choices for $c$: $2$ (i.e., $0, 1$).
 
-$$4 \times 3 \times 2 = 24$$
+$$
+4 \times 3 \times 2 = 24
+$$
 
 </details>
 
@@ -842,17 +922,27 @@ Find the first three terms in the expansion of $(1 + 2x)^{-1/2}$ in ascending po
 
 Using the generalised binomial theorem:
 
-$$(1 + 2x)^{-1/2} = \binom{-1/2}{0} + \binom{-1/2}{1}(2x) + \binom{-1/2}{2}(2x)^2 + \cdots$$
+$$
+(1 + 2x)^{-1/2} = \binom{-1/2}{0} + \binom{-1/2}{1}(2x) + \binom{-1/2}{2}(2x)^2 + \cdots
+$$
 
-$$\binom{-1/2}{0} = 1$$
+$$
+\binom{-1/2}{0} = 1
+$$
 
-$$\binom{-1/2}{1} = \frac{-1/2}{1} = -\frac{1}{2}$$
+$$
+\binom{-1/2}{1} = \frac{-1/2}{1} = -\frac{1}{2}
+$$
 
-$$\binom{-1/2}{2} = \frac{(-1/2)(-3/2)}{2!} = \frac{3}{8}$$
+$$
+\binom{-1/2}{2} = \frac{(-1/2)(-3/2)}{2!} = \frac{3}{8}
+$$
 
 Therefore:
 
-$$(1 + 2x)^{-1/2} = 1 - \frac{1}{2}(2x) + \frac{3}{8}(4x^2) + \cdots = 1 - x + \frac{3}{2}x^2 + \cdots$$
+$$
+(1 + 2x)^{-1/2} = 1 - \frac{1}{2}(2x) + \frac{3}{8}(4x^2) + \cdots = 1 - x + \frac{3}{2}x^2 + \cdots
+$$
 
 </details>
 
@@ -866,11 +956,15 @@ correct envelope?
 
 This is a derangement problem. The number of derangements of $n$ objects is:
 
-$$!n = n!\left(1 - \frac{1}{1!} + \frac{1}{2!} - \frac{1}{3!} + \cdots + \frac{(-1)^n}{n!}\right)$$
+$$
+!n = n!\left(1 - \frac{1}{1!} + \frac{1}{2!} - \frac{1}{3!} + \cdots + \frac{(-1)^n}{n!}\right)
+$$
 
 For $n = 5$:
 
-$$!5 = 5!\left(1 - 1 + \frac{1}{2} - \frac{1}{6} + \frac{1}{24} - \frac{1}{120}\right) = 120 \times \frac{44}{120} = 44$$
+$$
+!5 = 5!\left(1 - 1 + \frac{1}{2} - \frac{1}{6} + \frac{1}{24} - \frac{1}{120}\right) = 120 \times \frac{44}{120} = 44
+$$
 
 </details>
 
@@ -899,7 +993,9 @@ Total ways with exactly 2 women: $\binom{5}{2} \times \binom{7}{3} = 10 \times 3
 Subtract committees with neither Mr. A nor Mr. B:
 $\binom{5}{2} \times \binom{5}{3} = 10 \times 10 = 100$.
 
-$$350 - 100 = 250$$
+$$
+350 - 100 = 250
+$$
 
 </details>
 
@@ -910,13 +1006,19 @@ $$350 - 100 = 250$$
 
 First expand $(2 - x)^6$ up to $x^3$:
 
-$$(2 - x)^6 = 2^6 - \binom{6}{1}2^5 x + \binom{6}{2}2^4 x^2 - \binom{6}{3}2^3 x^3 + \cdots = 64 - 192x + 240x^2 - 160x^3 + \cdots$$
+$$
+(2 - x)^6 = 2^6 - \binom{6}{1}2^5 x + \binom{6}{2}2^4 x^2 - \binom{6}{3}2^3 x^3 + \cdots = 64 - 192x + 240x^2 - 160x^3 + \cdots
+$$
 
 Multiply by $(1 + x)$:
 
-$$(1 + x)(64 - 192x + 240x^2 - 160x^3) = 64 - 192x + 240x^2 - 160x^3 + 64x - 192x^2 + 240x^3 + \cdots$$
+$$
+(1 + x)(64 - 192x + 240x^2 - 160x^3) = 64 - 192x + 240x^2 - 160x^3 + 64x - 192x^2 + 240x^3 + \cdots
+$$
 
-$$= 64 - 128x + 48x^2 + 80x^3 + \cdots$$
+$$
+= 64 - 128x + 48x^2 + 80x^3 + \cdots
+$$
 
 The coefficient of $x^3$ is $80$.
 
@@ -939,7 +1041,9 @@ middle boy, etc.). We need to choose 4 of these 5 gaps for the girls: $\binom{5}
 
 Arrange the 4 girls: $4! = 24$.
 
-$$2 \times 1680 \times 5 \times 24 = 403200$$
+$$
+2 \times 1680 \times 5 \times 24 = 403200
+$$
 
 </details>
 
@@ -983,11 +1087,15 @@ $\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n$.
 
 Consider $(1 + 1)^n$. By the binomial theorem:
 
-$$(1 + 1)^n = \sum_{k=0}^{n} \binom{n}{k} 1^{n-k} \cdot 1^k = \sum_{k=0}^{n} \binom{n}{k}$$
+$$
+(1 + 1)^n = \sum_{k=0}^{n} \binom{n}{k} 1^{n-k} \cdot 1^k = \sum_{k=0}^{n} \binom{n}{k}
+$$
 
 Therefore:
 
-$$\sum_{k=0}^{n} \binom{n}{k} = 2^n \qed$$
+$$
+\sum_{k=0}^{n} \binom{n}{k} = 2^n \qed
+$$
 
 </details>
 
@@ -1006,7 +1114,9 @@ All-digit passwords: $10^4 = 10000$.
 
 Passwords with at least one digit and at least one letter:
 
-$$1679616 - 456976 - 10000 = 1212640$$
+$$
+1679616 - 456976 - 10000 = 1212640
+$$
 
 </details>
 
@@ -1022,7 +1132,9 @@ Choose 4 from remaining 8 for Project 2: $\binom{8}{4} = 70$.
 
 The last 4 go to Project 3: $\binom{4}{4} = 1$.
 
-$$495 \times 70 \times 1 = 34650$$
+$$
+495 \times 70 \times 1 = 34650
+$$
 
 Note: we do NOT divide by $3!$ here because the projects are distinct (labelled), unlike the case of
 indistinguishable groups.
@@ -1050,7 +1162,9 @@ done if the committee must include at least 2 women?
 
 **Solution.** Cases: 2 women + 2 men, or 3 women + 1 man, or 4 women.
 
-$${}^5 C_2 \times {}^7 C_2 + {}^5 C_3 \times {}^7 C_1 + {}^5 C_4 \times {}^7 C_0 = 10 \times 21 + 10 \times 7 + 5 \times 1 = 210 + 70 + 5 = 285$$
+$$
+{}^5 C_2 \times {}^7 C_2 + {}^5 C_3 \times {}^7 C_1 + {}^5 C_4 \times {}^7 C_0 = 10 \times 21 + 10 \times 7 + 5 \times 1 = 210 + 70 + 5 = 285
+$$
 
 $\blacksquare$
 

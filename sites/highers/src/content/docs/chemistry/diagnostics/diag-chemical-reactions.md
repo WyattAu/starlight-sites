@@ -112,13 +112,21 @@ $\text{C}_3\text{H}_8(g) + 5\text{O}_2(g) \rightarrow 3\text{CO}_2(g) + 4\text{H
 
 Using Hess's Law with enthalpies of formation:
 
-$$\Delta H_c^\circ = \sum \Delta H_f^\circ(\text{products}) - \sum \Delta H_f^\circ(\text{reactants})$$
+$$
+\Delta H_c^\circ = \sum \Delta H_f^\circ(\text{products}) - \sum \Delta H_f^\circ(\text{reactants})
+$$
 
-$$\Delta H_c^\circ = [3 \times (-394) + 4 \times (-286)] - [-104 + 5 \times 0]$$
+$$
+\Delta H_c^\circ = [3 \times (-394) + 4 \times (-286)] - [-104 + 5 \times 0]
+$$
 
-$$\Delta H_c^\circ = [-1182 + (-1144)] - [-104]$$
+$$
+\Delta H_c^\circ = [-1182 + (-1144)] - [-104]
+$$
 
-$$\Delta H_c^\circ = -2326 + 104 = -2222\,\text{kJ mol}^{-1}$$
+$$
+\Delta H_c^\circ = -2326 + 104 = -2222\,\text{kJ mol}^{-1}
+$$
 
 (c) During combustion, bonds in the reactants ($\text{C}-\text{H}$, $\text{C}-\text{C}$, and
 $\text{O}=\text{O}$) must be broken, which is endothermic (absorbs energy). New bonds are formed in
@@ -133,7 +141,9 @@ $q = mc\Delta T = 200 \times 4.18 \times (54.5 - 22.0) = 200 \times 4.18 \times 
 
 Moles of ethanol: $n = m / M = 0.95 / 46.0 = 0.02065\,\text{mol}$
 
-$$\Delta H_c = -q / n = -27.17 / 0.02065 = -1316\,\text{kJ mol}^{-1}$$
+$$
+\Delta H_c = -q / n = -27.17 / 0.02065 = -1316\,\text{kJ mol}^{-1}
+$$
 
 Two sources of error:
 
@@ -187,11 +197,15 @@ at equilibrium, with each concentration raised to the power of its stoichiometri
 balanced equation. $K_c$ is only affected by temperature, not by changes in concentration or
 pressure.
 
-$$K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}$$
+$$
+K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}
+$$
 
 (c)
 
-$$K_c = \frac{(0.8)^2}{(1.2)(3.6)^3} = \frac{0.64}{1.2 \times 46.656} = \frac{0.64}{55.987} = 0.0114$$
+$$
+K_c = \frac{(0.8)^2}{(1.2)(3.6)^3} = \frac{0.64}{1.2 \times 46.656} = \frac{0.64}{55.987} = 0.0114
+$$
 
 Since $K_c$ is much less than 1, the equilibrium position lies towards the **reactants** (nitrogen
 and hydrogen). The small value indicates that at equilibrium, the concentrations of reactants are
@@ -255,9 +269,13 @@ $\text{NO}_2$ molecules include **London dispersion forces** (present between al
 
 (c) The reaction is: $2\text{NO}_2(g) \rightarrow \text{N}_2\text{O}_4(g)$
 
-$$\Delta H^\circ = \sum \Delta H_f^\circ(\text{products}) - \sum \Delta H_f^\circ(\text{reactants})$$
+$$
+\Delta H^\circ = \sum \Delta H_f^\circ(\text{products}) - \sum \Delta H_f^\circ(\text{reactants})
+$$
 
-$$\Delta H^\circ = (+10) - 2 \times (+33) = 10 - 66 = -56\,\text{kJ mol}^{-1}$$
+$$
+\Delta H^\circ = (+10) - 2 \times (+33) = 10 - 66 = -56\,\text{kJ mol}^{-1}
+$$
 
 The dimerisation reaction is exothermic with $\Delta H^\circ = -56\,\text{kJ mol}^{-1}$.
 
@@ -326,7 +344,9 @@ are still acceptable) while maintaining a fast rate.
 
 (c)
 
-$$K_c = \frac{[\text{SO}_3]^2}{[\text{SO}_2]^2[\text{O}_2]} = \frac{(0.60)^2}{(0.40)^2(0.20)} = \frac{0.36}{0.032} = 11.25$$
+$$
+K_c = \frac{[\text{SO}_3]^2}{[\text{SO}_2]^2[\text{O}_2]} = \frac{(0.60)^2}{(0.40)^2(0.20)} = \frac{0.36}{0.032} = 11.25
+$$
 
 The value of $K_c = 11.25$, indicating that the equilibrium lies towards products ($\text{SO}_3$) at
 this temperature.

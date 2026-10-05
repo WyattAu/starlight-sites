@@ -263,7 +263,9 @@ $11.2 \mathrm{ dm^3}$ at STP, how many moles of gas are present?
 
 At STP, one mole of gas occupies $22.4 \mathrm{ dm^3}$:
 
-$$n = \frac{V}{V_m} = \frac{11.2}{22.4} = 0.500 \mathrm{ mol}$$
+$$
+n = \frac{V}{V_m} = \frac{11.2}{22.4} = 0.500 \mathrm{ mol}
+$$
 
 </details>
 
@@ -278,11 +280,15 @@ Ionic equation.
 
 Full equation:
 
-$$\mathrm{CaCl_2}(aq) + \mathrm{Na_2CO_3}(aq) \to \mathrm{CaCO_3}(s) + 2\mathrm{NaCl}(aq)$$
+$$
+\mathrm{CaCl_2}(aq) + \mathrm{Na_2CO_3}(aq) \to \mathrm{CaCO_3}(s) + 2\mathrm{NaCl}(aq)
+$$
 
 Ionic equation (spectator ions $\mathrm{Na^+}$ and $\mathrm{Cl^-}$ cancel):
 
-$$\mathrm{Ca^{2+}}(aq) + \mathrm{CO_3^{2-}}(aq) \to \mathrm{CaCO_3}(s)$$
+$$
+\mathrm{Ca^{2+}}(aq) + \mathrm{CO_3^{2-}}(aq) \to \mathrm{CaCO_3}(s)
+$$
 
 </details>
 
@@ -371,15 +377,25 @@ _If you get this wrong, revise: VI. Redox and Electrochemistry, Electrolysis_
 <details>
 <summary>Solution</summary>
 
-$$Q = It = 2.00 \times 30.0 \times 60 = 3600 \mathrm{ C}$$
+$$
+Q = It = 2.00 \times 30.0 \times 60 = 3600 \mathrm{ C}
+$$
 
-$$n(e^-) = \frac{Q}{F} = \frac{3600}{96500} = 0.0373 \mathrm{ mol}$$
+$$
+n(e^-) = \frac{Q}{F} = \frac{3600}{96500} = 0.0373 \mathrm{ mol}
+$$
 
-$$\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$$
+$$
+\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
+$$
 
-$$n(\mathrm{Cu}) = \frac{0.0373}{2} = 0.0187 \mathrm{ mol}$$
+$$
+n(\mathrm{Cu}) = \frac{0.0373}{2} = 0.0187 \mathrm{ mol}
+$$
 
-$$m(\mathrm{Cu}) = 0.0187 \times 63.5 = 1.18 \mathrm{ g}$$
+$$
+m(\mathrm{Cu}) = 0.0187 \times 63.5 = 1.18 \mathrm{ g}
+$$
 
 </details>
 
@@ -438,9 +454,13 @@ _If you get this wrong, revise: VII. Carbon Chemistry, Homologous Series_
 
 Empirical formula: $\mathrm{CH_2}$
 
-$$M_r(\mathrm{empirical}) = 12 + 2 = 14$$
+$$
+M_r(\mathrm{empirical}) = 12 + 2 = 14
+$$
 
-$$n = \frac{42.0}{14} = 3$$
+$$
+n = \frac{42.0}{14} = 3
+$$
 
 Molecular formula: $\mathrm{C_3H_6}$
 
@@ -459,12 +479,16 @@ _If you get this wrong, revise: V. Rate of Reaction and Energetics, Enthalpy Cha
 **Exothermic:** $\Delta H \lt 0$ (enthalpy of products is lower than enthalpy of reactants; heat is
 Released to the surroundings). Example: combustion of methane:
 
-$$\mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O} \quad \Delta H = -890 \mathrm{ kJ/mol}$$
+$$
+\mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O} \quad \Delta H = -890 \mathrm{ kJ/mol}
+$$
 
 **Endothermic:** $\Delta H \gt 0$ (enthalpy of products is higher than enthalpy of reactants; heat
 Is absorbed from the surroundings). Example: thermal decomposition of calcium carbonate:
 
-$$\mathrm{CaCO_3} \to \mathrm{CaO} + \mathrm{CO_2} \quad \Delta H = +178 \mathrm{ kJ/mol}$$
+$$
+\mathrm{CaCO_3} \to \mathrm{CaO} + \mathrm{CO_2} \quad \Delta H = +178 \mathrm{ kJ/mol}
+$$
 
 </details>
 
@@ -497,15 +521,23 @@ _If you get this wrong, revise: IV. Acids, Bases, and Salts and III. Stoichiomet
 <details>
 <summary>Solution</summary>
 
-$$\mathrm{CH_3COOH} + \mathrm{NaOH} \to \mathrm{CH_3COONa} + \mathrm{H_2O}$$
+$$
+\mathrm{CH_3COOH} + \mathrm{NaOH} \to \mathrm{CH_3COONa} + \mathrm{H_2O}
+$$
 
 Molar ratio: $1 : 1$
 
-$$n(\mathrm{NaOH}) = 0.100 \times \frac{16.7}{1000} = 1.67 \times 10^{-3} \mathrm{ mol}$$
+$$
+n(\mathrm{NaOH}) = 0.100 \times \frac{16.7}{1000} = 1.67 \times 10^{-3} \mathrm{ mol}
+$$
 
-$$n(\mathrm{CH_3COOH}) = 1.67 \times 10^{-3} \mathrm{ mol}$$
+$$
+n(\mathrm{CH_3COOH}) = 1.67 \times 10^{-3} \mathrm{ mol}
+$$
 
-$$c(\mathrm{CH_3COOH}) = \frac{1.67 \times 10^{-3}}{0.0250} = 0.0668 \mathrm{ mol/dm^3}$$
+$$
+c(\mathrm{CH_3COOH}) = \frac{1.67 \times 10^{-3}}{0.0250} = 0.0668 \mathrm{ mol/dm^3}
+$$
 
 Ethanoic acid is a **weak acid**, it only partially dissociates in aqueous solution, producing a
 Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concentration would.

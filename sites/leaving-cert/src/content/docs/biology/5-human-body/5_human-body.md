@@ -95,7 +95,9 @@ The sequence of events in one heartbeat:
 
 **Cardiac output (HL):**
 
-$$\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate$$
+$$
+\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate
+$$
 
 ### Blood Pressure (OL/HL)
 
@@ -137,7 +139,9 @@ Increases; air is pushed out.
 
 **Worked Example: Fick"s Law and gas exchange.**
 
-$$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}$$
+$$
+\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}
+$$
 
 The alveoli are adapted to maximise the rate of diffusion:
 

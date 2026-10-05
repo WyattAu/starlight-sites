@@ -46,9 +46,13 @@ words, the gene pool does not change -- there is no evolution.
 
 If there are two alleles for a gene, $p$ and $q$:
 
-$$p + q = 1$$
+$$
+p + q = 1
+$$
 
-$$p^2 + 2pq + q^2 = 1$$
+$$
+p^2 + 2pq + q^2 = 1
+$$
 
 Where:
 
@@ -582,7 +586,9 @@ The chi-square ($\chi^2$) test can determine whether observed genotype frequenci
 differ significantly from Hardy-Weinberg expected frequencies (indicating that evolution is
 occurring).
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 Where $O$ = observed frequency, $E$ = expected frequency.
 
@@ -929,7 +935,9 @@ The chi-square ($\chi^2$) test can determine whether observed genotype frequenci
 differ significantly from Hardy-Weinberg expected frequencies (indicating that evolution is
 occurring).
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 Where $O$ = observed frequency, $E$ = expected frequency.
 
@@ -1102,9 +1110,13 @@ gene in the population.
 
 For a gene with two alleles ($A$ and $a$):
 
-$$p + q = 1$$
+$$
+p + q = 1
+$$
 
-$$p^2 + 2pq + q^2 = 1$$
+$$
+p^2 + 2pq + q^2 = 1
+$$
 
 Where:
 

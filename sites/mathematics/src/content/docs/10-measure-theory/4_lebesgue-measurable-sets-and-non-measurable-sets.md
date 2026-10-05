@@ -54,7 +54,9 @@ $v_1 - v_2 \in \mathbb{Q}$, contradicting distinct representatives).
 Now $\bigcup_{q \in \mathbb{Q} \cap [-1, 1]} (V + q) \subseteq [-1, 2]$. If $V$ were measurable,
 each $V + q$ would be measurable with $m(V + q) = m(V)$ by translation invariance. Then
 
-$$m\left(\bigcup_{q}(V+q)\right) = \sum_{q \in \mathbb{Q} \cap [-1,1]} m(V)$$
+$$
+m\left(\bigcup_{q}(V+q)\right) = \sum_{q \in \mathbb{Q} \cap [-1,1]} m(V)
+$$
 
 This is $0$ if $m(V) = 0$, or $\infty$ if $m(V) > 0$. But the union is contained in $[-1, 2]$ which
 has measure $3$. Contradiction. $\blacksquare$
@@ -64,7 +66,9 @@ has measure $3$. Contradiction. $\blacksquare$
 **Theorem 4.8 (Carathéodory).** A set $A \subseteq \mathbb{R}^n$ is Lebesgue measurable if and only
 if for every $E \subseteq \mathbb{R}^n$:
 
-$$m^*(E) = m^*(E \cap A) + m^*(E \setminus A)$$
+$$
+m^*(E) = m^*(E \cap A) + m^*(E \setminus A)
+$$
 
 This criterion provides a definition of measurability that works in any metric space with any
 outer measure.

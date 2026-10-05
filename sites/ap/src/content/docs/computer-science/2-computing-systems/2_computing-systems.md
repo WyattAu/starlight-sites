@@ -173,11 +173,15 @@ An image is a grid of pixels. Each pixel's colour is represented by binary value
 - **Colour depth:** Number of bits per pixel (1 bit = 2 colours, 24 bits = 16,777,216 colours).
 - **Resolution:** Width $\times$ height in pixels.
 
-$$\mathrm{File size (bits) = \mathrm{width \times \mathrm{height \times \mathrm{colour depth$$
+$$
+\mathrm{File size (bits) = \mathrm{width \times \mathrm{height \times \mathrm{colour depth
+$$
 
 **Worked example.** A $1920 \times 1080$ image with 24-bit colour:
 
-$$1920 \times 1080 \times 24 = 49766400 \mathrm{ bits \approx 5.93 \mathrm{ MB$$
+$$
+1920 \times 1080 \times 24 = 49766400 \mathrm{ bits \approx 5.93 \mathrm{ MB
+$$
 
 #### Representing Sound
 
@@ -187,7 +191,9 @@ Sound is digitised by sampling the amplitude of an analogue wave at regular inte
 - **Bit depth:** Bits per sample. CD quality: 16-bit.
 - **Channels:** Mono (1) or stereo (2).
 
-$$\mathrm{File size (bits) = \mathrm{sample rate \times \mathrm{bit depth \times \mathrm{duration \times \mathrm{channels$$
+$$
+\mathrm{File size (bits) = \mathrm{sample rate \times \mathrm{bit depth \times \mathrm{duration \times \mathrm{channels
+$$
 
 **Worked Example.** A 2-minute stereo recording at 48000 Hz with 16-bit depth.
 
@@ -228,9 +234,13 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 
 ### De Morgan's Laws
 
-$$\overline{A \cdot B} = \bar{A} + \bar{B}$$
+$$
+\overline{A \cdot B} = \bar{A} + \bar{B}
+$$
 
-$$\overline{A + B} = \bar{A} \cdot \bar{B}$$
+$$
+\overline{A + B} = \bar{A} \cdot \bar{B}
+$$
 
 **Intuition.** De Morgan's Laws say that the negation of a conjunction is the disjunction of the
 Negations, and vice versa. "It is not true that both A and B are true" is equivalent to "A is false
@@ -280,15 +290,23 @@ This requires: 2 NOT gates, 2 AND gates, 1 OR gate.
 
 **Half adder:** Adds two single bits. Produces sum and carry.
 
-$$\mathrm{Sum = A \oplus B$$
+$$
+\mathrm{Sum = A \oplus B
+$$
 
-$$\mathrm{Carry = A \cdot B$$
+$$
+\mathrm{Carry = A \cdot B
+$$
 
 **Full adder:** Adds two bits and a carry-in. Produces sum and carry-out.
 
-$$\mathrm{Sum = A \oplus B \oplus C_{\mathrm{in}$$
+$$
+\mathrm{Sum = A \oplus B \oplus C_{\mathrm{in}
+$$
 
-$$C_{\mathrm{out} = (A \cdot B) + (C_{\mathrm{in} \cdot (A \oplus B))$$
+$$
+C_{\mathrm{out} = (A \cdot B) + (C_{\mathrm{in} \cdot (A \oplus B))
+$$
 
 **Why full adders matter.** A full adder can be chained to add multi-bit numbers. To add two 8-bit
 Numbers, chain 8 full adders: the carry-out of each stage becomes the carry-in of the next. The
@@ -602,8 +620,12 @@ $2     imes 16 + 11 = 43$.
 
 A half adder adds two single bits:
 
-$$ ext{Sum} = A \oplus B$$
-$$ ext{Carry} = A \cdot B$$
+$$
+ext{Sum} = A \oplus B
+$$
+$$
+ext{Carry} = A \cdot B
+$$
 
 **Implementation using basic gates:** 1 XOR gate (sum), 1 AND gate (carry).
 
@@ -611,7 +633,9 @@ $$ ext{Carry} = A \cdot B$$
 
 A full adder adds two bits and a carry-in:
 
-$$ ext{Sum} = A \oplus B \oplus C\*{ ext{in}}$$
+$$
+ext{Sum} = A \oplus B \oplus C\*{ ext{in}}
+$$
 
 $$
 C*{ ext{out}} = (A \cdot B) + (C\_{ ext{in}} \cdot

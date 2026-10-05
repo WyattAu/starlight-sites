@@ -232,7 +232,9 @@ Height of the left subtree.
 
 ### Balance Factor
 
-$$\mathrm{bf(v) = \mathrm{height(v.\mathrm{right) - \mathrm{height(v.\mathrm{left)$$
+$$
+\mathrm{bf(v) = \mathrm{height(v.\mathrm{right) - \mathrm{height(v.\mathrm{left)
+$$
 
 After every insertion or deletion, we walk back up from the modified node to the root, rebalancing
 As needed. The balance factor must be in $\{-1, 0, 1\}$ for every node.

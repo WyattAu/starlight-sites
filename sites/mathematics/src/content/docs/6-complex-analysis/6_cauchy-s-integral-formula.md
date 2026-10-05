@@ -22,7 +22,9 @@ description: "If is analytic on a connected domain Containing a simple closed po
 **Theorem 6.1 (Cauchy"s Integral Formula).** If $f$ is analytic on a connected domain Containing a
 simple closed positively oriented contour $\gamma$ And $z_0$ is inside $\gamma$ Then
 
-$$f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz$$
+$$
+f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz
+$$
 
 _Proof._ Let $\gamma_\varepsilon$ be a small circle of radius $\varepsilon$ around $z_0$. Since
 $\frac{f(z)}{z - z_0}$ is analytic on the region between $\gamma$ and $\gamma_\varepsilon$
@@ -42,7 +44,9 @@ $\varepsilon \to 0$ by the ML inequality. $\blacksquare$
 
 **Theorem 6.2 (Cauchy's Integral Formula for Derivatives).** Under the same conditions,
 
-$$f^{(n)}(z_0) = \frac{n!}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz$$
+$$
+f^{(n)}(z_0) = \frac{n!}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz
+$$
 
 _Proof._ We proceed by induction. The base case $n = 0$ is Theorem 6.1. For the inductive step,
 Assume the formula holds for $n$. Using the difference quotient:
@@ -64,7 +68,9 @@ This is remarkable: a single complex derivative implies the existence of all der
 **Corollary 6.4 (Cauchy's Estimates).** If $f$ is analytic on and inside a circle $|z - z_0| = R$
 And $|f(z)| \leq M$ on the circle, then
 
-$$|f^{(n)}(z_0)| \leq \frac{n!M}{R^n}$$
+$$
+|f^{(n)}(z_0)| \leq \frac{n!M}{R^n}
+$$
 
 _Proof._ From the integral formula:
 $|f^{(n)}(z_0)| = \frac{n!}{2\pi}\left|\int_{|z-z_0|=R} \frac{f(z)}{(z-z_0)^{n+1}}\, dz\right|

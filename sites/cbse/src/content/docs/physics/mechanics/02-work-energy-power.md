@@ -41,8 +41,12 @@ flowchart TD
 **Problem:** A force $F = (3x^2 + 2x) \, \text{N}$ acts on a particle, moving it from $x = 0$ to $x = 4 \, \text{m}$. Find the work done.
 
 **Solution:**
-$$W = \int_0^4 F \, dx = \int_0^4 (3x^2 + 2x) \, dx$$
-$$= \left[ x^3 + x^2 \right]_0^4 = (64 + 16) - 0 = 80 \, \text{J}$$
+$$
+W = \int_0^4 F \, dx = \int_0^4 (3x^2 + 2x) \, dx
+$$
+$$
+= \left[ x^3 + x^2 \right]_0^4 = (64 + 16) - 0 = 80 \, \text{J}
+$$
 
 ## Worked Example 2, Work-Energy Theorem
 
@@ -51,10 +55,18 @@ $$= \left[ x^3 + x^2 \right]_0^4 = (64 + 16) - 0 = 80 \, \text{J}$$
 **Solution:**
 
 Work done by friction equals change in kinetic energy:
-$$W_{friction} = \Delta K$$
-$$-\mu_k mg \cdot d = 0 - \frac{1}{2}mv_i^2$$
-$$\mu_k \times 9.8 \times 25 = \frac{1}{2} \times 10^2$$
-$$\mu_k = \frac{50}{245} \approx 0.204$$
+$$
+W_{friction} = \Delta K
+$$
+$$
+-\mu_k mg \cdot d = 0 - \frac{1}{2}mv_i^2
+$$
+$$
+\mu_k \times 9.8 \times 25 = \frac{1}{2} \times 10^2
+$$
+$$
+\mu_k = \frac{50}{245} \approx 0.204
+$$
 
 ## Worked Example 3, Conservation of Energy on a Track
 
@@ -62,16 +74,24 @@ $$\mu_k = \frac{50}{245} \approx 0.204$$
 
 **Solution:**
 
-$$mgh = \frac{1}{2}mv^2$$
-$$v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 5} = \sqrt{98} \approx 9.90 \, \text{m/s}$$
+$$
+mgh = \frac{1}{2}mv^2
+$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 5} = \sqrt{98} \approx 9.90 \, \text{m/s}
+$$
 
 ## Worked Example 4, Power Calculation
 
 **Problem:** A car of mass 1000 kg accelerates from rest to $20 \, \text{m/s}$ in 10 seconds. Find the average power delivered by the engine.
 
 **Solution:**
-$$\Delta K = \frac{1}{2}mv^2 = \frac{1}{2} \times 1000 \times 400 = 200{,}000 \, \text{J}$$
-$$P_{avg} = \frac{W}{t} = \frac{200{,}000}{10} = 20{,}000 \, \text{W} = 20 \, \text{kW}$$
+$$
+\Delta K = \frac{1}{2}mv^2 = \frac{1}{2} \times 1000 \times 400 = 200{,}000 \, \text{J}
+$$
+$$
+P_{avg} = \frac{W}{t} = \frac{200{,}000}{10} = 20{,}000 \, \text{W} = 20 \, \text{kW}
+$$
 
 ## Worked Example 5, Work-Energy Theorem with Multiple Forces
 
@@ -80,17 +100,27 @@ $$P_{avg} = \frac{W}{t} = \frac{200{,}000}{10} = 20{,}000 \, \text{W} = 20 \, \t
 **Solution:**
 
 Work done by applied force:
-$$W_F = F \cdot d = 30 \times 8 = 240 \, \text{J}$$
+$$
+W_F = F \cdot d = 30 \times 8 = 240 \, \text{J}
+$$
 
 Work done by friction:
-$$W_f = -\mu_k mg \cdot d = -0.25 \times 4 \times 9.8 \times 8 = -78.4 \, \text{J}$$
+$$
+W_f = -\mu_k mg \cdot d = -0.25 \times 4 \times 9.8 \times 8 = -78.4 \, \text{J}
+$$
 
 Net work:
-$$W_{net} = 240 - 78.4 = 161.6 \, \text{J}$$
+$$
+W_{net} = 240 - 78.4 = 161.6 \, \text{J}
+$$
 
 Using work-energy theorem:
-$$W_{net} = \frac{1}{2}mv_f^2$$
-$$v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8} \approx 8.99 \, \text{m/s}$$
+$$
+W_{net} = \frac{1}{2}mv_f^2
+$$
+$$
+v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8} \approx 8.99 \, \text{m/s}
+$$
 
 ## Practice Problems
 
@@ -110,10 +140,14 @@ $$v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8
 **Solution:**
 
 At maximum height, the vertical component of velocity is zero. The height reached is:
-$$h = \frac{v_{0y}^2}{2g} = \frac{(20\sin 60^\circ)^2}{2 \times 9.8} = \frac{(17.32)^2}{19.6} = \frac{300}{19.6} \approx 15.31 \text{ m}$$
+$$
+h = \frac{v_{0y}^2}{2g} = \frac{(20\sin 60^\circ)^2}{2 \times 9.8} = \frac{(17.32)^2}{19.6} = \frac{300}{19.6} \approx 15.31 \text{ m}
+$$
 
 Work done by gravity:
-$$W = -mgh = -2 \times 9.8 \times 15.31 = -300 \text{ J}$$
+$$
+W = -mgh = -2 \times 9.8 \times 15.31 = -300 \text{ J}
+$$
 
 The work is negative because gravity acts downward while the displacement is upward.
 
@@ -126,10 +160,14 @@ The work is negative because gravity acts downward while the displacement is upw
 **Solution:**
 
 At constant speed, the driving force equals the component of weight down the slope plus the resistive force:
-$$F_{\text{drive}} = mg\sin\theta + F_{\text{resistive}} = 1200 \times 9.8 \times 0.05 + 600 = 588 + 600 = 1188 \text{ N}$$
+$$
+F_{\text{drive}} = mg\sin\theta + F_{\text{resistive}} = 1200 \times 9.8 \times 0.05 + 600 = 588 + 600 = 1188 \text{ N}
+$$
 
 Power at speed $v = 25 \text{ m/s}$:
-$$P = Fv = 1188 \times 25 = 29{,}700 \text{ W} \approx 30 \text{ kW}$$
+$$
+P = Fv = 1188 \times 25 = 29{,}700 \text{ W} \approx 30 \text{ kW}
+$$
 
 **Common mistake:** Forgetting to include the gravitational component when calculating power on a slope.
 
@@ -140,13 +178,21 @@ $$P = Fv = 1188 \times 25 = 29{,}700 \text{ W} \approx 30 \text{ kW}$$
 **Solution:**
 
 For elastic collisions, both momentum and kinetic energy are conserved:
-$$m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}$$
-$$\frac{1}{2}m_1 v_{1i}^2 + \frac{1}{2}m_2 v_{2i}^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2$$
+$$
+m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}
+$$
+$$
+\frac{1}{2}m_1 v_{1i}^2 + \frac{1}{2}m_2 v_{2i}^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2
+$$
 
 Using the elastic collision formulas:
-$$v_{1f} = \frac{m_1 - m_2}{m_1 + m_2}v_{1i} = \frac{1 - 3}{1 + 3} \times 5 = \frac{-2}{4} \times 5 = -2.5 \text{ m/s}$$
+$$
+v_{1f} = \frac{m_1 - m_2}{m_1 + m_2}v_{1i} = \frac{1 - 3}{1 + 3} \times 5 = \frac{-2}{4} \times 5 = -2.5 \text{ m/s}
+$$
 
-$$v_{2f} = \frac{2m_1}{m_1 + m_2}v_{1i} = \frac{2 \times 1}{1 + 3} \times 5 = \frac{2}{4} \times 5 = 2.5 \text{ m/s}$$
+$$
+v_{2f} = \frac{2m_1}{m_1 + m_2}v_{1i} = \frac{2 \times 1}{1 + 3} \times 5 = \frac{2}{4} \times 5 = 2.5 \text{ m/s}
+$$
 
 The 1 kg ball rebounds with speed 2.5 m/s, and the 3 kg ball moves forward at 2.5 m/s.
 

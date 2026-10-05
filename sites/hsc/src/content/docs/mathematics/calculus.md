@@ -45,9 +45,15 @@ flowchart TD
 ### Integration
 
 **Basic Integrals:**
-$$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$$
-$$\int \frac{1}{x} \, dx = \ln|x| + C$$
-$$\int e^x \, dx = e^x + C$$
+$$
+\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)
+$$
+$$
+\int \frac{1}{x} \, dx = \ln|x| + C
+$$
+$$
+\int e^x \, dx = e^x + C
+$$
 
 **Definite Integral:** $\int_a^b f(x) \, dx = F(b) - F(a)$
 
@@ -71,10 +77,14 @@ $$\int e^x \, dx = e^x + C$$
 **Solution:**
 
 Step 1: Apply the power rule to each term:
-$$f'(x) = 3 \cdot 4x^3 - 2 \cdot 2x + 5 \cdot 1 - 0$$
+$$
+f'(x) = 3 \cdot 4x^3 - 2 \cdot 2x + 5 \cdot 1 - 0
+$$
 
 Step 2: Simplify:
-$$f'(x) = 12x^3 - 4x + 5$$
+$$
+f'(x) = 12x^3 - 4x + 5
+$$
 
 **Answer:** $f'(x) = 12x^3 - 4x + 5$
 
@@ -89,7 +99,9 @@ Step 1: Let $u = 3x + 2$, so $y = u^5$
 Step 2: $\frac{dy}{du} = 5u^4$ and $\frac{du}{dx} = 3$
 
 Step 3: Apply chain rule:
-$$\frac{dy}{dx} = 5u^4 \cdot 3 = 15(3x + 2)^4$$
+$$
+\frac{dy}{dx} = 5u^4 \cdot 3 = 15(3x + 2)^4
+$$
 
 **Answer:** $\frac{dy}{dx} = 15(3x + 2)^4$
 
@@ -102,10 +114,14 @@ $$\frac{dy}{dx} = 5u^4 \cdot 3 = 15(3x + 2)^4$$
 Step 1: Find intersection points: $x^2 = x \Rightarrow x(x-1) = 0 \Rightarrow x = 0$ or $x = 1$
 
 Step 2: On $[0, 1]$, $x \geq x^2$, so:
-$$A = \int_0^1 (x - x^2) \, dx$$
+$$
+A = \int_0^1 (x - x^2) \, dx
+$$
 
 Step 3: Integrate:
-$$A = \left[\frac{x^2}{2} - \frac{x^3}{3}\right]_0^1 = \left(\frac{1}{2} - \frac{1}{3}\right) - 0 = \frac{1}{6}$$
+$$
+A = \left[\frac{x^2}{2} - \frac{x^3}{3}\right]_0^1 = \left(\frac{1}{2} - \frac{1}{3}\right) - 0 = \frac{1}{6}
+$$
 
 **Answer:** Area $= \frac{1}{6}$ square units
 
@@ -129,10 +145,14 @@ $$A = \left[\frac{x^2}{2} - \frac{x^3}{3}\right]_0^1 = \left(\frac{1}{2} - \frac
 **Solution:**
 
 Step 1: Apply the product rule with $u = x^2$ and $v = e^x$:
-$$f'(x) = u'v + uv' = 2x \cdot e^x + x^2 \cdot e^x$$
+$$
+f'(x) = u'v + uv' = 2x \cdot e^x + x^2 \cdot e^x
+$$
 
 Step 2: Factor:
-$$f'(x) = e^x(2x + x^2) = xe^x(2 + x)$$
+$$
+f'(x) = e^x(2x + x^2) = xe^x(2 + x)
+$$
 
 **Answer:** $f'(x) = xe^x(x + 2)$
 
@@ -145,10 +165,14 @@ $$f'(x) = e^x(2x + x^2) = xe^x(2 + x)$$
 Step 1: Rewrite: $\int_1^4 x^{-1/2} \, dx$
 
 Step 2: Integrate using the power rule:
-$$\left[\frac{x^{1/2}}{1/2}\right]_1^4 = \left[2\sqrt{x}\right]_1^4$$
+$$
+\left[\frac{x^{1/2}}{1/2}\right]_1^4 = \left[2\sqrt{x}\right]_1^4
+$$
 
 Step 3: Evaluate at limits:
-$$2\sqrt{4} - 2\sqrt{1} = 4 - 2 = 2$$
+$$
+2\sqrt{4} - 2\sqrt{1} = 4 - 2 = 2
+$$
 
 **Answer:** The integral equals $2$
 
@@ -192,16 +216,24 @@ Calculus is the mathematical study of continuous change. Differentiation and int
 **Solution:**
 
 Step 1: Apply the quotient rule with $u = \sin x$ and $v = x^2 + 1$:
-$$f'(x) = \frac{u'v - uv'}{v^2}$$
+$$
+f'(x) = \frac{u'v - uv'}{v^2}
+$$
 
 Step 2: Compute derivatives:
-$$u' = \cos x, \quad v' = 2x$$
+$$
+u' = \cos x, \quad v' = 2x
+$$
 
 Step 3: Substitute:
-$$f'(x) = \frac{\cos x \cdot (x^2 + 1) - \sin x \cdot 2x}{(x^2 + 1)^2}$$
+$$
+f'(x) = \frac{\cos x \cdot (x^2 + 1) - \sin x \cdot 2x}{(x^2 + 1)^2}
+$$
 
 Step 4: Simplify:
-$$f'(x) = \frac{(x^2 + 1)\cos x - 2x\sin x}{(x^2 + 1)^2}$$
+$$
+f'(x) = \frac{(x^2 + 1)\cos x - 2x\sin x}{(x^2 + 1)^2}
+$$
 
 **Answer:** $f'(x) = \frac{(x^2 + 1)\cos x - 2x\sin x}{(x^2 + 1)^2}$
 
@@ -218,10 +250,14 @@ Step 1: Let $u = x^2 + 1$, so $du = 2x \, dx$
 Step 2: Change limits: when $x = 0$, $u = 1$; when $x = 1$, $u = 2$
 
 Step 3: Substitute:
-$$\int_0^1 2x\sqrt{x^2 + 1} \, dx = \int_1^2 \sqrt{u} \, du = \int_1^2 u^{1/2} \, du$$
+$$
+\int_0^1 2x\sqrt{x^2 + 1} \, dx = \int_1^2 \sqrt{u} \, du = \int_1^2 u^{1/2} \, du
+$$
 
 Step 4: Integrate:
-$$\left[\frac{2}{3}u^{3/2}\right]_1^2 = \frac{2}{3}(2^{3/2} - 1^{3/2}) = \frac{2}{3}(2\sqrt{2} - 1)$$
+$$
+\left[\frac{2}{3}u^{3/2}\right]_1^2 = \frac{2}{3}(2^{3/2} - 1^{3/2}) = \frac{2}{3}(2\sqrt{2} - 1)
+$$
 
 **Answer:** $\frac{2}{3}(2\sqrt{2} - 1) \approx 1.22$
 
@@ -234,8 +270,12 @@ $$\left[\frac{2}{3}u^{3/2}\right]_1^2 = \frac{2}{3}(2^{3/2} - 1^{3/2}) = \frac{2
 **Solution:**
 
 Step 1: Find when $v(t) = 0$:
-$$3t^2 - 12t + 9 = 0 \implies t^2 - 4t + 3 = 0 \implies (t-1)(t-3) = 0$$
-$$t = 1 \text{ or } t = 3$$
+$$
+3t^2 - 12t + 9 = 0 \implies t^2 - 4t + 3 = 0 \implies (t-1)(t-3) = 0
+$$
+$$
+t = 1 \text{ or } t = 3
+$$
 
 Step 2: Check the sign of $v(t)$ in each interval:
 
@@ -244,16 +284,26 @@ Step 2: Check the sign of $v(t)$ in each interval:
 - $[3, 4]$: $v(3.5) = 3(12.25) - 12(3.5) + 9 = 36.75 - 42 + 9 = 3.75 > 0$ (moving forward)
 
 Step 3: Distance = $\int_0^4 |v(t)| \, dt$:
-$$= \int_0^1 (3t^2 - 12t + 9) \, dt + \int_1^3 -(3t^2 - 12t + 9) \, dt + \int_3^4 (3t^2 - 12t + 9) \, dt$$
+$$
+= \int_0^1 (3t^2 - 12t + 9) \, dt + \int_1^3 -(3t^2 - 12t + 9) \, dt + \int_3^4 (3t^2 - 12t + 9) \, dt
+$$
 
 Step 4: Compute each integral:
-$$\int (3t^2 - 12t + 9) \, dt = t^3 - 6t^2 + 9t$$
+$$
+\int (3t^2 - 12t + 9) \, dt = t^3 - 6t^2 + 9t
+$$
 
-$$[t^3 - 6t^2 + 9t]_0^1 = (1 - 6 + 9) - 0 = 4$$
+$$
+[t^3 - 6t^2 + 9t]_0^1 = (1 - 6 + 9) - 0 = 4
+$$
 
-$$-[t^3 - 6t^2 + 9t]_1^3 = -[(27 - 54 + 27) - (1 - 6 + 9)] = -[0 - 4] = 4$$
+$$
+-[t^3 - 6t^2 + 9t]_1^3 = -[(27 - 54 + 27) - (1 - 6 + 9)] = -[0 - 4] = 4
+$$
 
-$$[t^3 - 6t^2 + 9t]_3^4 = [(64 - 96 + 36) - (27 - 54 + 27)] = [4 - 0] = 4$$
+$$
+[t^3 - 6t^2 + 9t]_3^4 = [(64 - 96 + 36) - (27 - 54 + 27)] = [4 - 0] = 4
+$$
 
 Step 5: Total distance = $4 + 4 + 4 = 12$ m
 
@@ -268,13 +318,19 @@ Step 5: Total distance = $4 + 4 + 4 = 12$ m
 **Solution:**
 
 Step 1: Differentiate both sides with respect to $x$:
-$$2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0$$
+$$
+2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0
+$$
 
 Step 2: Collect $\frac{dy}{dx}$ terms:
-$$\frac{dy}{dx}(x + 2y) = -2x - y$$
+$$
+\frac{dy}{dx}(x + 2y) = -2x - y
+$$
 
 Step 3: Solve:
-$$\frac{dy}{dx} = \frac{-2x - y}{x + 2y} = -\frac{2x + y}{x + 2y}$$
+$$
+\frac{dy}{dx} = \frac{-2x - y}{x + 2y} = -\frac{2x + y}{x + 2y}
+$$
 
 **Answer:** $\frac{dy}{dx} = -\frac{2x + y}{x + 2y}$
 
@@ -291,10 +347,14 @@ Step 1: Choose $u = x$ and $dv = \cos x \, dx$
 Step 2: Then $du = dx$ and $v = \sin x$
 
 Step 3: Apply integration by parts $\int u \, dv = uv - \int v \, du$:
-$$\int x \cos x \, dx = x \sin x - \int \sin x \, dx$$
+$$
+\int x \cos x \, dx = x \sin x - \int \sin x \, dx
+$$
 
 Step 4: Evaluate the remaining integral:
-$$= x \sin x - (-\cos x) + C = x \sin x + \cos x + C$$
+$$
+= x \sin x - (-\cos x) + C = x \sin x + \cos x + C
+$$
 
 **Answer:** $\int x \cos x \, dx = x \sin x + \cos x + C$
 
@@ -307,13 +367,19 @@ $$= x \sin x - (-\cos x) + C = x \sin x + \cos x + C$$
 **Solution:**
 
 Step 1: The volume formula for rotation about the $x$-axis:
-$$V = \pi \int_a^b [f(x)]^2 \, dx$$
+$$
+V = \pi \int_a^b [f(x)]^2 \, dx
+$$
 
 Step 2: Substitute $f(x) = x^2$, $a = 0$, $b = 1$:
-$$V = \pi \int_0^1 (x^2)^2 \, dx = \pi \int_0^1 x^4 \, dx$$
+$$
+V = \pi \int_0^1 (x^2)^2 \, dx = \pi \int_0^1 x^4 \, dx
+$$
 
 Step 3: Integrate:
-$$V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \frac{\pi}{5}$$
+$$
+V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \frac{\pi}{5}
+$$
 
 **Answer:** Volume $= \frac{\pi}{5}$ cubic units
 

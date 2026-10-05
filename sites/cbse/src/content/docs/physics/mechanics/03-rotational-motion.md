@@ -43,19 +43,29 @@ flowchart TD
 **Problem:** A force of 20 N is applied at the end of a 0.5 m wrench at an angle of $60^\circ$ to the handle. Find the torque about the bolt.
 
 **Solution:**
-$$\tau = rF\sin\theta = 0.5 \times 20 \times \sin 60^\circ$$
-$$= 0.5 \times 20 \times \frac{\sqrt{3}}{2} = 5\sqrt{3} \approx 8.66 \, \text{N}\cdot\text{m}$$
+$$
+\tau = rF\sin\theta = 0.5 \times 20 \times \sin 60^\circ
+$$
+$$
+= 0.5 \times 20 \times \frac{\sqrt{3}}{2} = 5\sqrt{3} \approx 8.66 \, \text{N}\cdot\text{m}
+$$
 
 ## Worked Example 2, Moment of Inertia of a System
 
 **Problem:** Three point masses of 1 kg, 2 kg, and 3 kg are placed at distances of 1 m, 2 m, and 3 m from the axis of rotation. Find the total moment of inertia and the angular acceleration when a net torque of 12 N$\cdot$m is applied.
 
 **Solution:**
-$$I = m_1 r_1^2 + m_2 r_2^2 + m_3 r_3^2 = 1(1)^2 + 2(2)^2 + 3(3)^2$$
-$$= 1 + 8 + 27 = 36 \, \text{kg}\cdot\text{m}^2$$
+$$
+I = m_1 r_1^2 + m_2 r_2^2 + m_3 r_3^2 = 1(1)^2 + 2(2)^2 + 3(3)^2
+$$
+$$
+= 1 + 8 + 27 = 36 \, \text{kg}\cdot\text{m}^2
+$$
 
 Angular acceleration:
-$$\alpha = \frac{\tau}{I} = \frac{12}{36} = \frac{1}{3} \approx 0.333 \, \text{rad/s}^2$$
+$$
+\alpha = \frac{\tau}{I} = \frac{12}{36} = \frac{1}{3} \approx 0.333 \, \text{rad/s}^2
+$$
 
 ## Worked Example 3, Rotational Kinetic Energy
 
@@ -64,10 +74,14 @@ $$\alpha = \frac{\tau}{I} = \frac{12}{36} = \frac{1}{3} \approx 0.333 \, \text{r
 **Solution:**
 
 Moment of inertia of a disc:
-$$I = \frac{1}{2}MR^2 = \frac{1}{2} \times 2 \times (0.3)^2 = 0.09 \, \text{kg}\cdot\text{m}^2$$
+$$
+I = \frac{1}{2}MR^2 = \frac{1}{2} \times 2 \times (0.3)^2 = 0.09 \, \text{kg}\cdot\text{m}^2
+$$
 
 Rotational kinetic energy:
-$$K_{rot} = \frac{1}{2}I\omega^2 = \frac{1}{2} \times 0.09 \times 100 = 4.5 \, \text{J}$$
+$$
+K_{rot} = \frac{1}{2}I\omega^2 = \frac{1}{2} \times 0.09 \times 100 = 4.5 \, \text{J}
+$$
 
 ## Worked Example 4, Conservation of Angular Momentum
 
@@ -76,14 +90,22 @@ $$K_{rot} = \frac{1}{2}I\omega^2 = \frac{1}{2} \times 0.09 \times 100 = 4.5 \, \
 **Solution:**
 
 Conservation of angular momentum:
-$$I_1\omega_1 = I_2\omega_2$$
-$$4 \times 4 = 2 \times \omega_2 \implies \omega_2 = 8 \, \text{rad/s}$$
+$$
+I_1\omega_1 = I_2\omega_2
+$$
+$$
+4 \times 4 = 2 \times \omega_2 \implies \omega_2 = 8 \, \text{rad/s}
+$$
 
 Initial KE:
-$$K_i = \frac{1}{2}I_1\omega_1^2 = \frac{1}{2} \times 4 \times 16 = 32 \, \text{J}$$
+$$
+K_i = \frac{1}{2}I_1\omega_1^2 = \frac{1}{2} \times 4 \times 16 = 32 \, \text{J}
+$$
 
 Final KE:
-$$K_f = \frac{1}{2}I_2\omega_2^2 = \frac{1}{2} \times 2 \times 64 = 64 \, \text{J}$$
+$$
+K_f = \frac{1}{2}I_2\omega_2^2 = \frac{1}{2} \times 2 \times 64 = 64 \, \text{J}
+$$
 
 Change: $\Delta K = 64 - 32 = 32 \, \text{J}$ (energy increases due to work done by the skater pulling arms in).
 
@@ -105,14 +127,22 @@ Change: $\Delta K = 64 - 32 = 32 \, \text{J}$ (energy increases due to work done
 **Solution:**
 
 For rolling without slipping, $v = R\omega$. Using conservation of energy:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2
+$$
 
 For a solid sphere, $I = \frac{2}{5}mR^2$:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{2}{5}mR^2 \cdot \frac{v^2}{R^2}$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{2}{5}mR^2 \cdot \frac{v^2}{R^2}
+$$
 
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{5}mv^2 = \frac{7}{10}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{5}mv^2 = \frac{7}{10}mv^2
+$$
 
-$$v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.8 \times 3}{7}} = \sqrt{42} \approx 6.48 \text{ m/s}$$
+$$
+v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.8 \times 3}{7}} = \sqrt{42} \approx 6.48 \text{ m/s}
+$$
 
 **Common mistake:** Forgetting to include rotational kinetic energy. The answer would be $\sqrt{2gh} = 7.67$ m/s if rotation were ignored.
 
@@ -123,20 +153,32 @@ $$v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.8 \times 3}{7}} = \sqrt{42
 **Solution:**
 
 For the hanging mass:
-$$mg - T = ma$$
+$$
+mg - T = ma
+$$
 
 For the disc (torque $\tau = TR = I\alpha$):
-$$TR = \frac{1}{2}MR^2 \cdot \alpha$$
+$$
+TR = \frac{1}{2}MR^2 \cdot \alpha
+$$
 
 Since $a = R\alpha$:
-$$T = \frac{1}{2}MR\alpha$$
+$$
+T = \frac{1}{2}MR\alpha
+$$
 
 Substituting into the first equation:
-$$mg - \frac{1}{2}MR\alpha = mR\alpha$$
+$$
+mg - \frac{1}{2}MR\alpha = mR\alpha
+$$
 
-$$mg = mR\alpha + \frac{1}{2}MR\alpha = R\alpha\left(m + \frac{M}{2}\right)$$
+$$
+mg = mR\alpha + \frac{1}{2}MR\alpha = R\alpha\left(m + \frac{M}{2}\right)
+$$
 
-$$\alpha = \frac{mg}{R\left(m + \frac{M}{2}\right)} = \frac{0.5 \times 9.8}{0.2 \times (0.5 + 2.5)} = \frac{4.9}{0.6} \approx 8.17 \text{ rad/s}^2$$
+$$
+\alpha = \frac{mg}{R\left(m + \frac{M}{2}\right)} = \frac{0.5 \times 9.8}{0.2 \times (0.5 + 2.5)} = \frac{4.9}{0.6} \approx 8.17 \text{ rad/s}^2
+$$
 
 **Common mistake:** Forgetting that the tension provides the torque, not the weight of the hanging mass.
 
@@ -147,13 +189,19 @@ $$\alpha = \frac{mg}{R\left(m + \frac{M}{2}\right)} = \frac{0.5 \times 9.8}{0.2 
 **Solution:**
 
 The torque due to gravity is:
-$$\tau = Mgr = (0.5)(9.8)(0.1) = 0.49 \text{ N}\cdot\text{m}$$
+$$
+\tau = Mgr = (0.5)(9.8)(0.1) = 0.49 \text{ N}\cdot\text{m}
+$$
 
 The angular momentum of the spinning wheel is:
-$$L = I\omega = 0.04 \times 100 = 4 \text{ kg}\cdot\text{m}^2/\text{s}$$
+$$
+L = I\omega = 0.04 \times 100 = 4 \text{ kg}\cdot\text{m}^2/\text{s}
+$$
 
 Precession angular velocity:
-$$\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}$$
+$$
+\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}
+$$
 
 **Common mistake:** Confusing precession angular velocity with spin angular velocity. Precession is in standard practice much slower than spin.
 

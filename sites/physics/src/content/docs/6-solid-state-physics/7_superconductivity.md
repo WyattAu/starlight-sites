@@ -36,15 +36,21 @@ Key experimental facts:
 
 The **London equations** describe the electromagnetic response of a superconductor:
 
-$$\frac{\partial \mathbf{J}_s}{\partial t} = \frac{n_s e^2}{m_e}\mathbf{E}$$
+$$
+\frac{\partial \mathbf{J}_s}{\partial t} = \frac{n_s e^2}{m_e}\mathbf{E}
+$$
 
-$$\nabla \times \mathbf{J}_s = -\frac{n_s e^2}{m_e}\mathbf{B}$$
+$$
+\nabla \times \mathbf{J}_s = -\frac{n_s e^2}{m_e}\mathbf{B}
+$$
 
 Where $n_s$ is the density of superconducting electrons.
 
 Combining with Maxwell"s equations:
 
-$$\nabla^2 \mathbf{B} = \frac{1}{\lambda_L^2}\mathbf{B}$$
+$$
+\nabla^2 \mathbf{B} = \frac{1}{\lambda_L^2}\mathbf{B}
+$$
 
 Where $\lambda_L = \sqrt{m_e/(\mu_0 n_s e^2)}$ is the **London penetration depth**.
 
@@ -62,7 +68,9 @@ pair Has charge $2e$ and spin 0 (boson).
 
 **The BCS gap equation:**
 
-$$\Delta = V_{\mathrm{pair} \sum_{\mathbf{k}} \frac{\Delta}{2E_{\mathbf{k}}} \tanh\left(\frac{E_{\mathbf{k}}}{2k_B T}\right)}$$
+$$
+\Delta = V_{\mathrm{pair} \sum_{\mathbf{k}} \frac{\Delta}{2E_{\mathbf{k}}} \tanh\left(\frac{E_{\mathbf{k}}}{2k_B T}\right)}
+$$
 
 Where $E_{\mathbf{k}} = \sqrt{\xi_{\mathbf{k}}^2 + \Delta^2}$ is the quasiparticle energy,
 $\xi_{\mathbf{k}}$ Is the normal-state energy relative to $E_F$ And $\Delta$ is the superconducting
@@ -72,7 +80,9 @@ At $T = 0$: $\Delta(0) = 2\hbar\omega_D\, e^{-1/(N(E_F)V_{\mathrm{pair})}}$ (BCS
 
 The critical temperature:
 
-$$k_B T_c = 1.13\,\hbar\omega_D\, e^{-1/(N(E_F)V_{\mathrm{pair})}}$$
+$$
+k_B T_c = 1.13\,\hbar\omega_D\, e^{-1/(N(E_F)V_{\mathrm{pair})}}
+$$
 
 The ratio $2\Delta(0)/(k_B T_c) \approx 3.53$ is a universal BCS prediction.
 

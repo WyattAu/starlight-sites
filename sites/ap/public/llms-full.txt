@@ -3859,9 +3859,13 @@ A projectile of mass $m$ is launched from the origin with initial speed $v_0$ at
 **Solution:**
 
 **(a)** The equations of motion are:
-$$m\frac{dv_x}{dt} = -bv_x \implies \frac{dv_x}{dt} = -\frac{b}{m}v_x$$
+$$
+m\frac{dv_x}{dt} = -bv_x \implies \frac{dv_x}{dt} = -\frac{b}{m}v_x
+$$
 
-$$m\frac{dv_y}{dt} = -mg - bv_y \implies \frac{dv_y}{dt} = -g - \frac{b}{m}v_y$$
+$$
+m\frac{dv_y}{dt} = -mg - bv_y \implies \frac{dv_y}{dt} = -g - \frac{b}{m}v_y
+$$
 
 **(b)** Without air resistance:
 
@@ -3915,15 +3919,23 @@ Rolling condition: $a = R\alpha$
 From torque equation: $fR = \frac{1}{2}MR^2 \cdot \frac{a}{R} \implies f = \frac{1}{2}Ma$
 
 Substituting into translation equation:
-$$Mg\sin\theta - \frac{1}{2}Ma = Ma \implies a = \frac{2g\sin\theta}{3}$$
+$$
+Mg\sin\theta - \frac{1}{2}Ma = Ma \implies a = \frac{2g\sin\theta}{3}
+$$
 
-$$f = \frac{1}{2}M \cdot \frac{2g\sin\theta}{3} = \frac{Mg\sin\theta}{3}$$
+$$
+f = \frac{1}{2}M \cdot \frac{2g\sin\theta}{3} = \frac{Mg\sin\theta}{3}
+$$
 
 Rolling without slipping requires $f \leq \mu_s N = \mu_s Mg\cos\theta$:
-$$\frac{Mg\sin\theta}{3} \leq \mu_s Mg\cos\theta \implies \tan\theta \leq 3\mu_s$$
+$$
+\frac{Mg\sin\theta}{3} \leq \mu_s Mg\cos\theta \implies \tan\theta \leq 3\mu_s
+$$
 
 **(d)** The cylinder begins to slip when $\tan\theta_{\text{min}} = 3\mu_s$, so:
-$$\theta_{\text{min}} = \tan^{-1}(3\mu_s)$$
+$$
+\theta_{\text{min}} = \tan^{-1}(3\mu_s)
+$$
 
 **Scoring rubric:**
 
@@ -5671,7 +5683,9 @@ Specimens.
 
 **Magnification calculation:**
 
-$$\mathrm{Magnification = \frac{\mathrm{Image size}{\mathrm{Actual size}$$
+$$
+\mathrm{Magnification = \frac{\mathrm{Image size}{\mathrm{Actual size}
+$$
 
 **Worked Example:** A mitochondrion measures 8 mm in an electron micrograph at
 $\times$10,000.
@@ -6966,7 +6980,9 @@ When $[\mathrm{H^+]$ increases, the equilibrium shifts left, consuming excess $\
 
 A solution has $[\mathrm{H^+] = 1 \times 10^{-4}$ M.
 
-$$\mathrm{pH = -\log(1 \times 10^{-4}) = 4$$
+$$
+\mathrm{pH = -\log(1 \times 10^{-4}) = 4
+$$
 
 If the solution is diluted by a factor of 10, $[\mathrm{H^+] = 1 \times 10^{-5}$ M, and
 $\mathrm{pH = 5$.
@@ -6980,7 +6996,9 @@ The buffer system, blood pH would drop dangerously.
 
 The bicarbonate buffer system responds:
 
-$$\mathrm{H^+ + \mathrm{HCO_3^- \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+$$
+\mathrm{H^+ + \mathrm{HCO_3^- \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{H_2\mathrm{O + \mathrm{CO_2
+$$
 
 The excess $\mathrm{H^+$ is consumed by reacting with $\mathrm{HCO_3^-$. The resulting
 $\mathrm{CO_2$ is removed by increased breathing rate. Blood pH is maintained close to 7.4.
@@ -7052,7 +7070,9 @@ A triglyceride consists of one glycerol molecule (a 3-carbon alcohol with three 
 Three fatty acid molecules (long hydrocarbon chains with a carboxyl group at one end) by three ester
 Bonds. Each ester bond is formed by a condensation reaction, releasing one water molecule.
 
-$$\mathrm{Glycerol + 3 \mathrm{ Fatty acids \to \mathrm{Triglyceride + 3 \mathrm{ H_2\mathrm{O$$
+$$
+\mathrm{Glycerol + 3 \mathrm{ Fatty acids \to \mathrm{Triglyceride + 3 \mathrm{ H_2\mathrm{O
+$$
 
 The long hydrocarbon tails are hydrophobic, making triglycerides insoluble in water. This makes them
 Ideal for energy storage because they do not affect the water potential of cells.
@@ -7243,7 +7263,9 @@ $$
 The phosphorylation of glucose to glucose-6-phosphate has $\Delta G \approx +13.8$ kJ/mol
 (endergonic). ATP hydrolysis has $\Delta G \approx -30.5$ kJ/mol (exergonic). When coupled:
 
-$$\Delta G_{\mathrm{overall} = +13.8 + (-30.5) = -16.7 \mathrm{ kJ/mol$$
+$$
+\Delta G_{\mathrm{overall} = +13.8 + (-30.5) = -16.7 \mathrm{ kJ/mol
+$$
 
 The overall reaction is now exergonic (spontaneous), so the cell can phosphorylate glucose using the
 Energy from ATP hydrolysis.
@@ -8418,7 +8440,9 @@ Them: genes that are farther apart are more likely to be separated by crossing o
 **Recombination frequency:** The percentage of offspring that are recombinant (have a non-parental
 Combination of alleles).
 
-$$\mathrm{Recombination frequency = \frac{\mathrm{Number of recombinant offspring}{\mathrm{Total offspring} \times 100$$
+$$
+\mathrm{Recombination frequency = \frac{\mathrm{Number of recombinant offspring}{\mathrm{Total offspring} \times 100
+$$
 
 - 1% recombination = 1 centimorgan (cM) or 1 map unit.
 - Maximum recombination frequency of 50% means the genes are effectively unlinked (on different
@@ -8445,13 +8469,17 @@ Total offspring: 728.
 
 Recombination frequency between A and B:
 
-$$\frac{30 + 28 + 5 + 3}{728} \times 100 = \frac{66}{728} \times 100 \approx 9.1\%$$
+$$
+\frac{30 + 28 + 5 + 3}{728} \times 100 = \frac{66}{728} \times 100 \approx 9.1\%
+$$
 
 So A and B are approximately 9.1 cM apart.
 
 Recombination frequency between B and C:
 
-$$\frac{15 + 17 + 5 + 3}{728} \times 100 = \frac{40}{728} \times 100 \approx 5.5\%$$
+$$
+\frac{15 + 17 + 5 + 3}{728} \times 100 = \frac{40}{728} \times 100 \approx 5.5\%
+$$
 
 So B and C are approximately 5.5 cM apart.
 
@@ -8463,7 +8491,9 @@ Side from A.
 **Why double crossovers matter:** Without the three-point cross, the observed recombination
 Frequency between A and C would be:
 
-$$\frac{30 + 28 + 15 + 17 + 5 + 3}{728} \times 100 = \frac{98}{728} \times 100 \approx 13.5\%$$
+$$
+\frac{30 + 28 + 15 + 17 + 5 + 3}{728} \times 100 = \frac{98}{728} \times 100 \approx 13.5\%
+$$
 
 But the actual distance is $9.1 + 5.5 = 14.6$ cM. The double crossovers make the A-C distance appear
 Shorter than it really is because they swap the alleles back to the parental arrangement. The
@@ -8757,13 +8787,19 @@ Single crossover between D and E: $\mathrm{DEf$ (60) and $\mathrm{deF$ (70).
 Single crossover between E and F: $\mathrm{Def$ (20) and $\mathrm{dEF$ (30).
 
 Recombination frequency D-E:
-$$\frac{60 + 70 + 15 + 25}{1000} \times 100 = \frac{170}{1000} \times 100 = 17.0\%$$
+$$
+\frac{60 + 70 + 15 + 25}{1000} \times 100 = \frac{170}{1000} \times 100 = 17.0\%
+$$
 
 Recombination frequency E-F:
-$$\frac{20 + 30 + 15 + 25}{1000} \times 100 = \frac{90}{1000} \times 100 = 9.0\%$$
+$$
+\frac{20 + 30 + 15 + 25}{1000} \times 100 = \frac{90}{1000} \times 100 = 9.0\%
+$$
 
 Recombination frequency D-F:
-$$\frac{60 + 70 + 20 + 30 + 15 + 25}{1000} \times 100 = \frac{220}{1000} \times 100 = 22.0\%$$
+$$
+\frac{60 + 70 + 20 + 30 + 15 + 25}{1000} \times 100 = \frac{220}{1000} \times 100 = 22.0\%
+$$
 
 Genetic map: D ---17.0 cM--- E ---9.0 cM--- F
 
@@ -8794,7 +8830,9 @@ Fitness values: $w_{AA} = 1$$w_{Aa} = 1$$w_{aa} = 0$.
 Mean fitness: $\bar{w} = p^2(1) + 2pq(1) + q^2(0) = 0.9604 + 0.0392 = 0.9996$.
 
 After selection, the frequency of the recessive allele is:
-$$q' = \frac{pq \cdot w_{Aa} + q^2 \cdot w_{aa}}{2\bar{w}} = \frac{0.98 \times 0.02 \times 1 + 0.0004 \times 0}{2 \times 0.9996} = \frac{0.0196}{1.9992} \approx 0.0098$$
+$$
+q' = \frac{pq \cdot w_{Aa} + q^2 \cdot w_{aa}}{2\bar{w}} = \frac{0.98 \times 0.02 \times 1 + 0.0004 \times 0}{2 \times 0.9996} = \frac{0.0196}{1.9992} \approx 0.0098
+$$
 
 After one generation of selection, the allele frequency drops from $q = 0.02$ to
 $q' \approx 0.0098$. The frequency approximately halves because homozygous recessive individuals are
@@ -8889,7 +8927,9 @@ $X^H$ or $X^h$ from the carrier mother and Y from the father).
 For each son, the probability of being unaffected is 1/2.
 
 Probability that both children are sons AND both are unaffected:
-$$P = \left(\frac{1}{2}\right)^2 \times \left(\frac{1}{2}\right)^2 = \frac{1}{4} \times \frac{1}{4} = \frac{1}{16}$$
+$$
+P = \left(\frac{1}{2}\right)^2 \times \left(\frac{1}{2}\right)^2 = \frac{1}{4} \times \frac{1}{4} = \frac{1}{16}
+$$
 
 Breaking this down: P(both sons) = $(1/2)(1/2) = 1/4$. Given both are sons, P(both unaffected) =
 $(1/2)(1/2) = 1/4$. Combined: $1/4 \times 1/4 = 1/16$.
@@ -10122,7 +10162,9 @@ Estimating divergence times that complements the fossil record.
 If gene X in species A and species B differs by 60 nucleotide substitutions, and the estimated
 Mutation rate for gene X is 2 substitutions per million years, then:
 
-$$\mathrm{Time since divergence = \frac{60}{2 \times 2} = 15 \mathrm{ million years$$
+$$
+\mathrm{Time since divergence = \frac{60}{2 \times 2} = 15 \mathrm{ million years
+$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
 Divergence.
@@ -10236,7 +10278,9 @@ Initial genotype frequencies: $p^2 = 0.25$$2pq = 0.50$$q^2 = 0.25$.
 Mean fitness: $\bar{w} = (0.25)(0.7) + (0.50)(0.7) + (0.25)(1.0) = 0.175 + 0.35 + 0.25 = 0.775$.
 
 New frequency of B:
-$$p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452$$
+$$
+p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452
+$$
 
 New frequency of b: $$q' = 1 - p' = 1 - 0.452 = 0.548$$
 
@@ -10259,13 +10303,19 @@ Million years. Estimate the time since these two species diverged from their com
 <summary>Answer</summary>
 
 First, calculate the substitution rate per base pair per million years:
-$$\mathrm{Rate = \frac{1 \mathrm{ substitution}{100 \mathrm{ base pairs \times 1 \mathrm{ million years} = 0.01 \mathrm{ substitutions/bp/Myr$$
+$$
+\mathrm{Rate = \frac{1 \mathrm{ substitution}{100 \mathrm{ base pairs \times 1 \mathrm{ million years} = 0.01 \mathrm{ substitutions/bp/Myr
+$$
 
 Total substitutions observed: 8 in 300 base pairs, so the substitution frequency per base pair is:
-$$\frac{8}{300} = 0.0267 \mathrm{ substitutions/bp$$
+$$
+\frac{8}{300} = 0.0267 \mathrm{ substitutions/bp
+$$
 
 Time since divergence (accounting for both lineages):
-$$\mathrm{Time = \frac{0.0267}{2 \times 0.01} = \frac{0.0267}{0.02} = 1.33 \mathrm{ million years$$
+$$
+\mathrm{Time = \frac{0.0267}{2 \times 0.01} = \frac{0.0267}{0.02} = 1.33 \mathrm{ million years
+$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
 Divergence. The two species diverged approximately 1.33 million years ago.
@@ -10431,7 +10481,9 @@ Step 1: Null hypothesis: data fit 3:1 ratio
 Step 2: Expected: round = $\frac{3}{4} \times 400 = 300$, wrinkled = $\frac{1}{4} \times 400 = 100$
 
 Step 3: Calculate $\chi^2$:
-$$\chi^2 = \frac{(312-300)^2}{300} + \frac{(88-100)^2}{100} = \frac{144}{300} + \frac{144}{100} = 0.48 + 1.44 = 1.92$$
+$$
+\chi^2 = \frac{(312-300)^2}{300} + \frac{(88-100)^2}{100} = \frac{144}{300} + \frac{144}{100} = 0.48 + 1.44 = 1.92
+$$
 
 Step 4: Degrees of freedom = $2 - 1 = 1$
 
@@ -10668,7 +10720,9 @@ Most of the mass are concentrated in a tiny, dense nucleus.
 
 Rutherford derived that the closest approach distance $d$ for a head-on collision is:
 
-$$d = \frac{k \cdot Z_1 Z_2 e^2}{K}$$
+$$
+d = \frac{k \cdot Z_1 Z_2 e^2}{K}
+$$
 
 Where $K$ is the kinetic energy of the alpha particle. For $5.5 \mathrm{ MeV$ alpha particles on
 Gold, $d \approx 3 \times 10^{-14} \mathrm{ m$Which is much smaller than the atomic radius of About
@@ -10692,14 +10746,18 @@ $1 \mathrm{
 Isotopes are atoms of the same element with different numbers of neutrons. The average atomic mass
 Shown on the periodic table is the weighted average of all occurring isotopes:
 
-$$\mathrm{Average atomic mass = \sum f_i \cdot m_i$$
+$$
+\mathrm{Average atomic mass = \sum f_i \cdot m_i
+$$
 
 Where $f_i$ is the fractional abundance and $m_i$ is the mass of isotope $i$.
 
 **Worked Example.** Chlorine has two isotopes: Cl-35 (75.77%, 34.969 amu) and Cl-37 (24.23%, 36.966
 Amu). Calculate the average atomic mass.
 
-$$\mathrm{Average = 0.7577 \times 34.969 + 0.2423 \times 36.966 = 26.496 + 8.958 = 35.454 \mathrm{ amu$$
+$$
+\mathrm{Average = 0.7577 \times 34.969 + 0.2423 \times 36.966 = 26.496 + 8.958 = 35.454 \mathrm{ amu
+$$
 
 This matches the value on the periodic table (35.45).
 
@@ -10890,12 +10948,16 @@ Where $a_0$ is the Bohr radius.
 Starting from the quantisation of angular momentum ($L = mvr = n\hbar$) and equating the Coulomb
 Force with centripetal force:
 
-$$\frac{ke^2}{r^2} = \frac{mv^2}{r}$$
+$$
+\frac{ke^2}{r^2} = \frac{mv^2}{r}
+$$
 
 Solving for $r_n$ and substituting into the total energy
 $E = KE + PE = \frac{1}{2}mv^2 - \frac{ke^2}{r}$:
 
-$$E_n = -\frac{mk^2e^4}{2n^2\hbar^2} = -\frac{13.6 \mathrm{ eV}{n^2}$$
+$$
+E_n = -\frac{mk^2e^4}{2n^2\hbar^2} = -\frac{13.6 \mathrm{ eV}{n^2}
+$$
 
 This derivation shows that the quantised energy levels arise directly from the quantisation of
 Angular momentum.
@@ -10976,9 +11038,13 @@ More photons arrive per unit time) but not their maximum kinetic energy.
 The work function of sodium is $2.28 \mathrm{ eV$. Calculate the maximum kinetic energy of Electrons
 ejected by light of wavelength $400 \mathrm{ nm$.
 
-$$E = \frac{hc}{\lambda} = \frac{1240 \mathrm{ eV\cdot\mathrm{nm}{400 \mathrm{ nm} = 3.10 \mathrm{ eV$$
+$$
+E = \frac{hc}{\lambda} = \frac{1240 \mathrm{ eV\cdot\mathrm{nm}{400 \mathrm{ nm} = 3.10 \mathrm{ eV
+$$
 
-$$KE_{\mathrm{max} = 3.10 - 2.28 = 0.82 \mathrm{ eV$$
+$$
+KE_{\mathrm{max} = 3.10 - 2.28 = 0.82 \mathrm{ eV
+$$
 
 ## Periodic Trends (CED Unit 1)
 
@@ -11378,12 +11444,16 @@ Electrons are ejected, explain why.
 <summary>Answer</summary>
 
 Energy of the photon:
-$$E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34} \mathrm{ J\cdot s)(3.00 \times 10^8 \mathrm{ m/s)}{200 \times 10^{-9} \mathrm{ m} = 9.94 \times 10^{-19} \mathrm{ J$$
+$$
+E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34} \mathrm{ J\cdot s)(3.00 \times 10^8 \mathrm{ m/s)}{200 \times 10^{-9} \mathrm{ m} = 9.94 \times 10^{-19} \mathrm{ J
+$$
 
 Convert to eV: $9.94 \times 10^{-19} / 1.602 \times 10^{-19} = 6.20 \mathrm{ eV$.
 
 Kinetic energy of ejected electrons:
-$$KE = E_{\mathrm{photon} - \phi = 6.20 \mathrm{ eV - 4.0 \mathrm{ eV = 2.20 \mathrm{ eV$$
+$$
+KE = E_{\mathrm{photon} - \phi = 6.20 \mathrm{ eV - 4.0 \mathrm{ eV = 2.20 \mathrm{ eV
+$$
 
 In joules: $2.20 \times 1.602 \times 10^{-19} = 3.52 \times 10^{-19} \mathrm{ J$.
 
@@ -11488,7 +11558,9 @@ Calculate the pH of a $0.050\,\text{mol\,dm}^{-3}$ solution of HCl.
 
 HCl is a strong acid, so $[\text{H}^+] = 0.050\,\text{mol\,dm}^{-3}$.
 
-$$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
+$$
+\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30
+$$
 :::
 
 ## Intuition
@@ -11555,11 +11627,15 @@ Double charges compared to Na$^+$ and Cl$^-$.
 The Born-Haber cycle applies Hess's law to calculate lattice energy from measurable quantities. For
 NaCl:
 
-$$\Delta H_f^\circ = \Delta H_{\mathrm{sub} + IE_1 + \frac{1}{2}D_{\mathrm{Cl_2} + EA_{\mathrm{Cl} + U$$
+$$
+\Delta H_f^\circ = \Delta H_{\mathrm{sub} + IE_1 + \frac{1}{2}D_{\mathrm{Cl_2} + EA_{\mathrm{Cl} + U
+$$
 
 Solving for $U$:
 
-$$U = \Delta H_f^\circ - \Delta H_{\mathrm{sub} - IE_1 - \frac{1}{2}D_{\mathrm{Cl_2} - EA_{\mathrm{Cl}$$
+$$
+U = \Delta H_f^\circ - \Delta H_{\mathrm{sub} - IE_1 - \frac{1}{2}D_{\mathrm{Cl_2} - EA_{\mathrm{Cl}
+$$
 
 Each term represents a step in forming the ionic solid from its elements. The lattice energy $U$ is
 the largest (most negative) term, reflecting the strong electrostatic attraction in the Ionic
@@ -11898,7 +11974,9 @@ Pure covalent (zero electronegativity difference) to ionic (large electronegativ
 
 Percent ionic character can be estimated from the electronegativity difference:
 
-$$\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100$$
+$$
+\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
+$$
 
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
@@ -12005,7 +12083,9 @@ Pure covalent (zero electronegativity difference) to ionic (large electronegativ
 
 Percent ionic character can be estimated from the electronegativity difference:
 
-$$\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100$$
+$$
+\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
+$$
 
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
@@ -12361,9 +12441,13 @@ $15\,\text{N}$. The frictional force is $5.0\,\text{N}$. Calculate the accelerat
 
 **Solution:**
 
-$$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}$$
+$$
+F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}
+$$
 
-$$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}
+$$
 :::
 
 ## Intuition
@@ -13207,7 +13291,9 @@ Comparing 2 and 3: [B] doubles, rate unchanged. Zero order in B.
 
 Comparing 2 and 4: [A] doubles, rate doubles. Confirms first order in A.
 
-$$\mathrm{Rate = k[\mathrm{A], \quad k = \frac{0.0080}{0.20} = 0.040 \mathrm{ s^{-1}$$
+$$
+\mathrm{Rate = k[\mathrm{A], \quad k = \frac{0.0080}{0.20} = 0.040 \mathrm{ s^{-1}
+$$
 
 ## Integrated Rate Laws (CED Unit 5)
 
@@ -13282,11 +13368,15 @@ $$
 A first-order reaction has a rate constant of $0.030 \mathrm{ min^{-1}$. Calculate the half-life And
 the time for 75% decomposition.
 
-$$t_{1/2} = \frac{0.693}{0.030} = 23.1 \mathrm{ min$$
+$$
+t_{1/2} = \frac{0.693}{0.030} = 23.1 \mathrm{ min
+$$
 
 After 75% decomposition, $[\mathrm{A]_t = 0.25[\mathrm{A]_0$:
 
-$$t = \frac{1}{k}\ln\frac{[\mathrm{A]_0}{[\mathrm{A]_t} = \frac{1}{0.030}\ln 4 = 33.3 \times 1.386 = 46.2 \mathrm{ min$$
+$$
+t = \frac{1}{k}\ln\frac{[\mathrm{A]_0}{[\mathrm{A]_t} = \frac{1}{0.030}\ln 4 = 33.3 \times 1.386 = 46.2 \mathrm{ min
+$$
 
 Note that 75% decomposition takes two half-lives (46.2 min $\approx 2 \times 23.1$ min).
 
@@ -13405,9 +13495,13 @@ $$
 A reaction has $E_a = 75 \mathrm{ kJ/mol$ without a catalyst and $E_a = 50 \mathrm{ kJ/mol$ with a
 Catalyst. Calculate the ratio of rate constants at $298 \mathrm{ K$.
 
-$$\frac{k_{\mathrm{cat}}{k_{\mathrm{uncat}} = \frac{A e^{-50000/(8.314 \times 298)}}{A e^{-75000/(8.314 \times 298)}} = e^{(75000 - 50000)/(8.314 \times 298)}$$
+$$
+\frac{k_{\mathrm{cat}}{k_{\mathrm{uncat}} = \frac{A e^{-50000/(8.314 \times 298)}}{A e^{-75000/(8.314 \times 298)}} = e^{(75000 - 50000)/(8.314 \times 298)}
+$$
 
-$$= e^{25000/2478} = e^{10.09} = 2.4 \times 10^4$$
+$$
+= e^{25000/2478} = e^{10.09} = 2.4 \times 10^4
+$$
 
 The catalyst increases the rate constant by a factor of about 24,000 at room temperature.
 
@@ -13547,11 +13641,17 @@ Concentrations.
 | $\mathrm{PCl_3$ | 0       | $+x$   | $x$         |
 | $\mathrm{Cl_2$  | 0       | $+x$   | $x$         |
 
-$$K_c = \frac{x^2}{2.00 - x} = 0.0420$$
+$$
+K_c = \frac{x^2}{2.00 - x} = 0.0420
+$$
 
-$$x^2 = 0.0420(2.00 - x) = 0.0840 - 0.0420x$$
+$$
+x^2 = 0.0420(2.00 - x) = 0.0840 - 0.0420x
+$$
 
-$$x^2 + 0.0420x - 0.0840 = 0$$
+$$
+x^2 + 0.0420x - 0.0840 = 0
+$$
 
 Using the quadratic formula:
 $x = \frac{-0.0420 + \sqrt{0.0420^2 + 4(0.0840)}}{2} = \frac{-0.0420 + 0.581}{2} = 0.269 \mathrm{ M$
@@ -13564,9 +13664,13 @@ $[\mathrm{Cl_2] = 0.269 \mathrm{ M$.
 For $\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$ at
 $400^{\circ}\mathrm{C$, $K_c = 0.500$. Calculate $K_p$.
 
-$$\Delta n = 2 - (1 + 3) = -2$$
+$$
+\Delta n = 2 - (1 + 3) = -2
+$$
 
-$$K_p = K_c(RT)^{\Delta n} = 0.500 \times (0.08206 \times 673)^{-2} = \frac{0.500}{(55.23)^2} = \frac{0.500}{3049} = 1.64 \times 10^{-4}$$
+$$
+K_p = K_c(RT)^{\Delta n} = 0.500 \times (0.08206 \times 673)^{-2} = \frac{0.500}{(55.23)^2} = \frac{0.500}{3049} = 1.64 \times 10^{-4}
+$$
 
 The small $K_p$ reflects the fact that the equilibrium lies to the left at this temperature (the
 Haber process is run at higher temperatures to increase $K$).
@@ -13615,18 +13719,26 @@ Since $Q_{sp} = 5.0 \times 10^{-10} \lt K_{sp} = 1.7 \times 10^{-5}$No precipita
 The solubility of $\mathrm{AgCl$ in water at $25^{\circ}\mathrm{C$ is
 $1.3 \times 10^{-5} \mathrm{ M$. Calculate $K_{sp}$.
 
-$$\mathrm{AgCl(s) \rightleftharpoons \mathrm{Ag^+(aq) + \mathrm{Cl^-(aq)$$
+$$
+\mathrm{AgCl(s) \rightleftharpoons \mathrm{Ag^+(aq) + \mathrm{Cl^-(aq)
+$$
 
-$$K_{sp} = [\mathrm{Ag^+][\mathrm{Cl^-] = (1.3 \times 10^{-5})^2 = 1.7 \times 10^{-10}$$
+$$
+K_{sp} = [\mathrm{Ag^+][\mathrm{Cl^-] = (1.3 \times 10^{-5})^2 = 1.7 \times 10^{-10}
+$$
 
 ### Worked Example: Common Ion Effect
 
 Calculate the solubility of $\mathrm{AgCl$ in $0.10 \mathrm{ M  \mathrm{NaCl$.
 $K_{sp} = 1.7 \times 10^{-10}$.
 
-$$K_{sp} = s(s + 0.10) \approx s \times 0.10$$
+$$
+K_{sp} = s(s + 0.10) \approx s \times 0.10
+$$
 
-$$s = \frac{1.7 \times 10^{-10}}{0.10} = 1.7 \times 10^{-9} \mathrm{ M$$
+$$
+s = \frac{1.7 \times 10^{-10}}{0.10} = 1.7 \times 10^{-9} \mathrm{ M
+$$
 
 Compare with solubility in pure water:
 $s_0 = \sqrt{1.7 \times 10^{-10}} = 1.3 \times 10^{-5} \mathrm{ M$.
@@ -13936,21 +14048,35 @@ And the pre-exponential factor $A$.
 
 Using the two-point form of the Arrhenius equation:
 
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
-$$\ln\frac{4.87 \times 10^{-3}}{3.46 \times 10^{-5}} = \frac{E_a}{8.314}\left(\frac{1}{298} - \frac{1}{350}\right)$$
+$$
+\ln\frac{4.87 \times 10^{-3}}{3.46 \times 10^{-5}} = \frac{E_a}{8.314}\left(\frac{1}{298} - \frac{1}{350}\right)
+$$
 
-$$\ln(140.8) = \frac{E_a}{8.314}(0.003356 - 0.002857)$$
+$$
+\ln(140.8) = \frac{E_a}{8.314}(0.003356 - 0.002857)
+$$
 
-$$4.947 = \frac{E_a}{8.314}(0.000499)$$
+$$
+4.947 = \frac{E_a}{8.314}(0.000499)
+$$
 
-$$E_a = \frac{4.947 \times 8.314}{0.000499} = \frac{41.13}{0.000499} = 82,400 \mathrm{ J/mol = 82.4 \mathrm{ kJ/mol$$
+$$
+E_a = \frac{4.947 \times 8.314}{0.000499} = \frac{41.13}{0.000499} = 82,400 \mathrm{ J/mol = 82.4 \mathrm{ kJ/mol
+$$
 
 For the pre-exponential factor $A$Using $k = Ae^{-E_a/RT}$ at $298 \mathrm{ K$:
 
-$$3.46 \times 10^{-5} = A \cdot e^{-82400/(8.314 \times 298)} = A \cdot e^{-33.28}$$
+$$
+3.46 \times 10^{-5} = A \cdot e^{-82400/(8.314 \times 298)} = A \cdot e^{-33.28}
+$$
 
-$$A = \frac{3.46 \times 10^{-5}}{3.62 \times 10^{-15}} = 9.56 \times 10^{9} \mathrm{ s^{-1}}$$
+$$
+A = \frac{3.46 \times 10^{-5}}{3.62 \times 10^{-15}} = 9.56 \times 10^{9} \mathrm{ s^{-1}}
+$$
 
 </details>
 
@@ -13995,22 +14121,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 :::
 
 ## Intuition
@@ -14361,11 +14495,17 @@ Verify that the percent composition of $\mathrm{Na_2\mathrm{CO_3$ is correct.
 
 Molar mass: $2(22.99) + 12.01 + 3(16.00) = 105.99$ g/mol.
 
-$$\%\mathrm{Na = \frac{45.98}{105.99} \times 100 = 43.38\%$$
+$$
+\%\mathrm{Na = \frac{45.98}{105.99} \times 100 = 43.38\%
+$$
 
-$$\%\mathrm{C = \frac{12.01}{105.99} \times 100 = 11.33\%$$
+$$
+\%\mathrm{C = \frac{12.01}{105.99} \times 100 = 11.33\%
+$$
 
-$$\%\mathrm{O = \frac{48.00}{105.99} \times 100 = 45.29\%$$
+$$
+\%\mathrm{O = \frac{48.00}{105.99} \times 100 = 45.29\%
+$$
 
 Sum: $43.38 + 11.33 + 45.29 = 100.00\%$. Verified.
 
@@ -14429,17 +14569,29 @@ Of oxygen.
 A 0.250 g sample of a compound containing C, H, and O produces 0.366 g CO$_2$ and 0.150 g H$_2$O on
 Combustion. Find the empirical formula.
 
-$$\mathrm{mol C = \frac{0.366}{44.01} = 0.00832 \mathrm{ mol$$
+$$
+\mathrm{mol C = \frac{0.366}{44.01} = 0.00832 \mathrm{ mol
+$$
 
-$$\mathrm{mass C = 0.00832 \times 12.01 = 0.0999 \mathrm{ g$$
+$$
+\mathrm{mass C = 0.00832 \times 12.01 = 0.0999 \mathrm{ g
+$$
 
-$$\mathrm{mol H = 2 \times \frac{0.150}{18.02} = 0.0166 \mathrm{ mol$$
+$$
+\mathrm{mol H = 2 \times \frac{0.150}{18.02} = 0.0166 \mathrm{ mol
+$$
 
-$$\mathrm{mass H = 0.0166 \times 1.008 = 0.0168 \mathrm{ g$$
+$$
+\mathrm{mass H = 0.0166 \times 1.008 = 0.0168 \mathrm{ g
+$$
 
-$$\mathrm{mass O = 0.250 - 0.0999 - 0.0168 = 0.133 \mathrm{ g$$
+$$
+\mathrm{mass O = 0.250 - 0.0999 - 0.0168 = 0.133 \mathrm{ g
+$$
 
-$$\mathrm{mol O = \frac{0.133}{16.00} = 0.00833 \mathrm{ mol$$
+$$
+\mathrm{mol O = \frac{0.133}{16.00} = 0.00833 \mathrm{ mol
+$$
 
 Ratio: $0.00832 : 0.0166 : 0.00833 = 1 : 2 : 1$.
 
@@ -14453,7 +14605,9 @@ Approximately $176 \mathrm{ g/mol$. Find the molecular formula.
 Empirical formula mass:
 $3(12.01) + 4(1.008) + 3(16.00) = 36.03 + 4.032 + 48.00 = 88.06 \mathrm{ g/mol$.
 
-$$n = \frac{176}{88.06} \approx 2$$
+$$
+n = \frac{176}{88.06} \approx 2
+$$
 
 Molecular formula: $\mathrm{C_6\mathrm{H_8\mathrm{O_6$.
 
@@ -14464,17 +14618,29 @@ CO$_2$0.180 g H$\_2$O, and
 0.069 g of N$\_2$ on combustion with excess oxygen. Find the empirical
 formula.
 
-$$\mathrm{mol C = \frac{0.441}{44.01} = 0.01002 \mathrm{ mol$$
+$$
+\mathrm{mol C = \frac{0.441}{44.01} = 0.01002 \mathrm{ mol
+$$
 
-$$\mathrm{mass C = 0.01002 \times 12.01 = 0.1204 \mathrm{ g$$
+$$
+\mathrm{mass C = 0.01002 \times 12.01 = 0.1204 \mathrm{ g
+$$
 
-$$\mathrm{mol H = 2 \times \frac{0.180}{18.02} = 0.01998 \mathrm{ mol$$
+$$
+\mathrm{mol H = 2 \times \frac{0.180}{18.02} = 0.01998 \mathrm{ mol
+$$
 
-$$\mathrm{mass H = 0.01998 \times 1.008 = 0.02014 \mathrm{ g$$
+$$
+\mathrm{mass H = 0.01998 \times 1.008 = 0.02014 \mathrm{ g
+$$
 
-$$\mathrm{mol N = \frac{0.069}{28.02} = 0.00246 \mathrm{ mol$$
+$$
+\mathrm{mol N = \frac{0.069}{28.02} = 0.00246 \mathrm{ mol
+$$
 
-$$\mathrm{mass N = 0.00246 \times 14.01 = 0.0345 \mathrm{ g$$
+$$
+\mathrm{mass N = 0.00246 \times 14.01 = 0.0345 \mathrm{ g
+$$
 
 Total mass accounted for: $0.1204 + 0.02014 + 0.0345 = 0.1750 \mathrm{ g$Which matches the sample
 Mass within rounding.
@@ -14523,7 +14689,9 @@ H: 10 on left, so $5\mathrm{H_2\mathrm{O$ on right.
 
 O on right: $4(2) + 5(1) = 13$. Need $\frac{13}{2}\mathrm{O_2$. Multiply all by 2:
 
-$$2\mathrm{C_4\mathrm{H_{10} + 13\mathrm{O_2 \to 8\mathrm{CO_2 + 10\mathrm{H_2\mathrm{O$$
+$$
+2\mathrm{C_4\mathrm{H_{10} + 13\mathrm{O_2 \to 8\mathrm{CO_2 + 10\mathrm{H_2\mathrm{O
+$$
 
 ## Stoichiometric Calculations (CED Unit 4)
 
@@ -14667,13 +14835,21 @@ A $0.500 \mathrm{ g$ sample of an iron ore is dissolved and the iron is precipit
 $\mathrm{Fe_2\mathrm{O_3$ by heating. If the mass of $\mathrm{Fe_2\mathrm{O_3$ obtained is
 $0.350 \mathrm{ g$Calculate the percentage of iron in the ore.
 
-$$\mathrm{mol Fe_2\mathrm{O_3 = \frac{0.350}{159.69} = 0.00219 \mathrm{ mol$$
+$$
+\mathrm{mol Fe_2\mathrm{O_3 = \frac{0.350}{159.69} = 0.00219 \mathrm{ mol
+$$
 
-$$\mathrm{mol Fe = 2 \times 0.00219 = 0.00438 \mathrm{ mol$$
+$$
+\mathrm{mol Fe = 2 \times 0.00219 = 0.00438 \mathrm{ mol
+$$
 
-$$\mathrm{mass Fe = 0.00438 \times 55.85 = 0.245 \mathrm{ g$$
+$$
+\mathrm{mass Fe = 0.00438 \times 55.85 = 0.245 \mathrm{ g
+$$
 
-$$\%\mathrm{ Fe = \frac{0.245}{0.500} \times 100 = 49.0\%$$
+$$
+\%\mathrm{ Fe = \frac{0.245}{0.500} \times 100 = 49.0\%
+$$
 
 ### Worked Example: Back Titration
 
@@ -14682,19 +14858,33 @@ of $1.00 \mathrm{ M  \mathrm{HCl$ (excess). The remaining acid is titrated With
 $0.500 \mathrm{ M  \mathrm{NaOH$Requiring $32.0 \mathrm{ mL$. Calculate the percentage Purity of
 $\mathrm{CaCO_3$.
 
-$$\mathrm{mol HCl total = 1.00 \times 0.0500 = 0.0500 \mathrm{ mol$$
+$$
+\mathrm{mol HCl total = 1.00 \times 0.0500 = 0.0500 \mathrm{ mol
+$$
 
-$$\mathrm{mol NaOH = 0.500 \times 0.0320 = 0.0160 \mathrm{ mol$$
+$$
+\mathrm{mol NaOH = 0.500 \times 0.0320 = 0.0160 \mathrm{ mol
+$$
 
-$$\mathrm{mol HCl remaining = 0.0160 \mathrm{ mol$$
+$$
+\mathrm{mol HCl remaining = 0.0160 \mathrm{ mol
+$$
 
-$$\mathrm{mol HCl reacted = 0.0500 - 0.0160 = 0.0340 \mathrm{ mol$$
+$$
+\mathrm{mol HCl reacted = 0.0500 - 0.0160 = 0.0340 \mathrm{ mol
+$$
 
-$$\mathrm{mol CaCO_3 = \frac{0.0340}{2} = 0.0170 \mathrm{ mol$$
+$$
+\mathrm{mol CaCO_3 = \frac{0.0340}{2} = 0.0170 \mathrm{ mol
+$$
 
-$$\mathrm{mass CaCO_3 = 0.0170 \times 100.09 = 1.70 \mathrm{ g$$
+$$
+\mathrm{mass CaCO_3 = 0.0170 \times 100.09 = 1.70 \mathrm{ g
+$$
 
-$$\%\mathrm{ purity = \frac{1.70}{2.00} \times 100 = 85.0\%$$
+$$
+\%\mathrm{ purity = \frac{1.70}{2.00} \times 100 = 85.0\%
+$$
 
 ## Gas Laws (CED Unit 3)
 
@@ -14768,7 +14958,9 @@ $PV = nRT$.
 
 At STP ($T = 273.15 \mathrm{ K$$P = 1.00 \mathrm{ atm$):
 
-$$V = \frac{nRT}{P} = \frac{(1.00)(0.08206)(273.15)}{1.00} = 22.4 \mathrm{ L$$
+$$
+V = \frac{nRT}{P} = \frac{(1.00)(0.08206)(273.15)}{1.00} = 22.4 \mathrm{ L
+$$
 
 This is a useful shortcut: one mole of any ideal gas occupies $22.4 \mathrm{ L$ at STP.
 
@@ -14779,13 +14971,21 @@ $2\mathrm{KClO_3(s) \to 2\mathrm{KCl(s) + 3\mathrm{O_2(g)$. The oxygen is collec
 $25^{\circ}\mathrm{C$ and $0.980 \mathrm{ atm$. Vapour pressure of water at $25^{\circ}\mathrm{C$ Is
 $23.8 \mathrm{ mmHg$. Calculate the volume of dry oxygen.
 
-$$\mathrm{mol KClO_3 = \frac{0.200}{122.55} = 0.00163 \mathrm{ mol$$
+$$
+\mathrm{mol KClO_3 = \frac{0.200}{122.55} = 0.00163 \mathrm{ mol
+$$
 
-$$\mathrm{mol O_2 = 0.00163 \times \frac{3}{2} = 0.00245 \mathrm{ mol$$
+$$
+\mathrm{mol O_2 = 0.00163 \times \frac{3}{2} = 0.00245 \mathrm{ mol
+$$
 
-$$P_{\mathrm{O_2} = P_{\mathrm{total} - P_{\mathrm{H_2\mathrm{O} = 0.980 - \frac{23.8}{760} = 0.980 - 0.0313 = 0.949 \mathrm{ atm$$
+$$
+P_{\mathrm{O_2} = P_{\mathrm{total} - P_{\mathrm{H_2\mathrm{O} = 0.980 - \frac{23.8}{760} = 0.980 - 0.0313 = 0.949 \mathrm{ atm
+$$
 
-$$V = \frac{nRT}{P} = \frac{(0.00245)(0.08206)(298)}{0.949} = 0.0630 \mathrm{ L = 63.0 \mathrm{ mL$$
+$$
+V = \frac{nRT}{P} = \frac{(0.00245)(0.08206)(298)}{0.949} = 0.0630 \mathrm{ L = 63.0 \mathrm{ mL
+$$
 
 ## Net Ionic Equations (CED Unit 4)
 
@@ -15142,22 +15342,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 :::
 
 ## Intuition
@@ -15231,11 +15439,17 @@ Convenient because most chemical reactions occur at constant (atmospheric) press
 
 Starting from the first law at constant pressure:
 
-$$\Delta U = q_P + w = q_P - P\Delta V$$
+$$
+\Delta U = q_P + w = q_P - P\Delta V
+$$
 
-$$q_P = \Delta U + P\Delta V$$
+$$
+q_P = \Delta U + P\Delta V
+$$
 
-$$q_P = (U_2 - U_1) + P(V_2 - V_1) = (U_2 + PV_2) - (U_1 + PV_1) = H_2 - H_1 = \Delta H$$
+$$
+q_P = (U_2 - U_1) + P(V_2 - V_1) = (U_2 + PV_2) - (U_1 + PV_1) = H_2 - H_1 = \Delta H
+$$
 
 This derivation shows that enthalpy change equals heat at constant pressure because the $P\Delta V$
 Work term is absorbed into the enthalpy definition.
@@ -15286,7 +15500,9 @@ $\Delta H_3 = -890.3 \mathrm{ kJ/mol$
 
 Using Hess's law: $\Delta H_f(\mathrm{CH_4) = \Delta H_1 + 2\Delta H_2 - \Delta H_3$
 
-$$= -393.5 + 2(-285.8) - (-890.3) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol$$
+$$
+= -393.5 + 2(-285.8) - (-890.3) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol
+$$
 
 ### Worked Example: Hess's Law with Multiple Steps
 
@@ -15322,7 +15538,9 @@ $1 \mathrm{ N\equiv\mathrm{N (945) + 3 \mathrm{ H-H (436) = 945 + 1308 = 2253 \m
 
 Bonds formed: $6 \mathrm{ N-H (391) = 2346 \mathrm{ kJ/mol$
 
-$$\Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol$$
+$$
+\Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol
+$$
 
 (The exact value is $-92.2 \mathrm{ kJ/mol$Showing that bond enthalpies give a good Approximation.)
 
@@ -15419,11 +15637,15 @@ Bomb, stirrer, etc.).
 
 For a bomb calorimetry experiment:
 
-$$\Delta U = q_V = -C_{\mathrm{cal} \cdot \Delta T$$
+$$
+\Delta U = q_V = -C_{\mathrm{cal} \cdot \Delta T
+$$
 
 To convert to $\Delta H$:
 
-$$\Delta H = \Delta U + \Delta n_g RT$$
+$$
+\Delta H = \Delta U + \Delta n_g RT
+$$
 
 Where $\Delta n_g$ is the change in moles of gas. For combustion reactions, $\Delta n_g$ is often
 Negative (fewer gas moles of products than reactants), making $\Delta H$ slightly more negative than
@@ -15437,16 +15659,22 @@ temperature by $3.02 \mathrm{ K$. Calculate $\Delta U$ and $\Delta H$ per mole.
 
 Molar mass of glucose: $180.16 \mathrm{ g/mol$.
 
-$$\Delta U = -894 \times 3.02 = -2700 \mathrm{ J = -2.70 \mathrm{ kJ per gram$$
+$$
+\Delta U = -894 \times 3.02 = -2700 \mathrm{ J = -2.70 \mathrm{ kJ per gram
+$$
 
-$$\Delta U_{\mathrm{per mol} = -2.70 \times 180.16 = -486 \mathrm{ kJ/mol$$
+$$
+\Delta U_{\mathrm{per mol} = -2.70 \times 180.16 = -486 \mathrm{ kJ/mol
+$$
 
 For
 $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6(s) + 6\mathrm{O_2(g) \to 6\mathrm{CO_2(g) + 6\mathrm{H_2\mathrm{O(l)$:
 
 $\Delta n_g = 6 - 6 = 0$ (no net change in gas moles).
 
-$$\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol$$
+$$
+\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol
+$$
 
 (Literature value: $-2803 \mathrm{ kJ/mol$. The difference is due to the calorimeter containing a
 Solution rather than pure water.)
@@ -15532,7 +15760,9 @@ $\mathrm{CaCO_3(s) \to \mathrm{CaO(s) + \mathrm{CO_2(g)$.
 Given: $S^\circ(\mathrm{CaCO_3, s) = 92.9$, $S^\circ(\mathrm{CaO, s) = 39.7$
 $S^\circ(\mathrm{CO_2, g) = 213.7 \mathrm{ J/(mol\cdot\mathrm{K)$.
 
-$$\Delta S^\circ = [39.7 + 213.7] - [92.9] = 253.4 - 92.9 = 160.5 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S^\circ = [39.7 + 213.7] - [92.9] = 253.4 - 92.9 = 160.5 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 The positive $\Delta S^\circ$ is expected because a solid decomposes to produce a gas.
 
@@ -15540,11 +15770,15 @@ The positive $\Delta S^\circ$ is expected because a solid decomposes to produce 
 
 Calculate $\Delta S$ for the vaporisation of $1.00 \mathrm{ mol$ of water at $100^{\circ}\mathrm{C$.
 
-$$\Delta H_{\mathrm{vap} = 40.7 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{vap} = 40.7 \mathrm{ kJ/mol
+$$
 
 At the boiling point, $\Delta G = 0$ So $\Delta H = T\Delta S$:
 
-$$\Delta S = \frac{\Delta H_{\mathrm{vap}}{T} = \frac{40700}{373.15} = 109.1 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S = \frac{\Delta H_{\mathrm{vap}}{T} = \frac{40700}{373.15} = 109.1 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 This positive entropy change confirms that the gas phase has more disorder than the liquid phase.
 
@@ -15556,11 +15790,15 @@ $298 \mathrm{ K$:
 
 $\Delta H^\circ = -36.0 \mathrm{ kJ/mol$ (exothermic, heat released to surroundings).
 
-$$\Delta S_{\mathrm{surroundings} = \frac{-\Delta H^\circ}{T} = \frac{36000}{298} = 120.8 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S_{\mathrm{surroundings} = \frac{-\Delta H^\circ}{T} = \frac{36000}{298} = 120.8 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 $$\Delta S_{\mathrm{system} = 439 \mathrm{ J/(mol\cdot\mathrm{K)$$ (given)
 
-$$\Delta S_{\mathrm{universe} = 439 + 120.8 = 559.8 \mathrm{ J/(mol\cdot\mathrm{K) \gt 0$$
+$$
+\Delta S_{\mathrm{universe} = 439 + 120.8 = 559.8 \mathrm{ J/(mol\cdot\mathrm{K) \gt 0
+$$
 
 The reaction is spontaneous because $\Delta S_{\mathrm{universe} \gt 0$. The positive
 $\Delta S_{\mathrm{system}$ (more gas molecules produced) and the positive
@@ -15657,9 +15895,13 @@ $\Delta H^\circ = -92.2 \mathrm{ kJ/mol$ $\Delta S^\circ = -198.8 \mathrm{ J/(mo
 
 Calculate $\Delta G^\circ$ and $K$.
 
-$$\Delta G^\circ = -92200 - 298(-198.8) = -92200 + 59242 = -32958 \mathrm{ J/mol = -33.0 \mathrm{ kJ/mol$$
+$$
+\Delta G^\circ = -92200 - 298(-198.8) = -92200 + 59242 = -32958 \mathrm{ J/mol = -33.0 \mathrm{ kJ/mol
+$$
 
-$$K = e^{-\Delta G^\circ/(RT)} = e^{32958/(8.314 \times 298)} = e^{13.29} = 5.9 \times 10^5$$
+$$
+K = e^{-\Delta G^\circ/(RT)} = e^{32958/(8.314 \times 298)} = e^{13.29} = 5.9 \times 10^5
+$$
 
 $K \gg 1$Confirming the reaction strongly favours products at $298 \mathrm{ K$.
 
@@ -15669,11 +15911,17 @@ Calculate $\Delta G$ for the reaction $\mathrm{N_2(g) + 3\mathrm{H_2(g) \to 2\ma
 $298 \mathrm{ K$ when $P(\mathrm{N_2) = 10.0 \mathrm{ atm$
 $P(\mathrm{H_2) = 30.0 \mathrm{ atm$, $P(\mathrm{NH_3) = 0.500 \mathrm{ atm$.
 
-$$Q = \frac{(0.500)^2}{(10.0)(30.0)^3} = \frac{0.250}{270000} = 9.26 \times 10^{-7}$$
+$$
+Q = \frac{(0.500)^2}{(10.0)(30.0)^3} = \frac{0.250}{270000} = 9.26 \times 10^{-7}
+$$
 
-$$\Delta G = \Delta G^\circ + RT\ln Q = -33000 + (8.314)(298)\ln(9.26 \times 10^{-7})$$
+$$
+\Delta G = \Delta G^\circ + RT\ln Q = -33000 + (8.314)(298)\ln(9.26 \times 10^{-7})
+$$
 
-$$= -33000 + 2478 \times (-13.89) = -33000 - 34420 = -67420 \mathrm{ J/mol = -67.4 \mathrm{ kJ/mol$$
+$$
+= -33000 + 2478 \times (-13.89) = -33000 - 34420 = -67420 \mathrm{ J/mol = -67.4 \mathrm{ kJ/mol
+$$
 
 $\Delta G \lt 0$ So the reaction is spontaneous under these conditions. The high pressure of
 Reactants and low pressure of product drive the reaction forward.
@@ -16211,7 +16459,9 @@ private static void merge(int[] arr, int left, int mid, int right) {
 **Complexity analysis.** The recursion tree has $\log_2 n$ levels. At each level, a total of $n$
 Elements are merged.
 
-$$T(n) = 2T(n/2) + O(n) \implies T(n) = O(n \log n)$$
+$$
+T(n) = 2T(n/2) + O(n) \implies T(n) = O(n \log n)
+$$
 
 This holds for best, average, and worst case.
 
@@ -18198,11 +18448,15 @@ An image is a grid of pixels. Each pixel's colour is represented by binary value
 - **Colour depth:** Number of bits per pixel (1 bit = 2 colours, 24 bits = 16,777,216 colours).
 - **Resolution:** Width $\times$ height in pixels.
 
-$$\mathrm{File size (bits) = \mathrm{width \times \mathrm{height \times \mathrm{colour depth$$
+$$
+\mathrm{File size (bits) = \mathrm{width \times \mathrm{height \times \mathrm{colour depth
+$$
 
 **Worked example.** A $1920 \times 1080$ image with 24-bit colour:
 
-$$1920 \times 1080 \times 24 = 49766400 \mathrm{ bits \approx 5.93 \mathrm{ MB$$
+$$
+1920 \times 1080 \times 24 = 49766400 \mathrm{ bits \approx 5.93 \mathrm{ MB
+$$
 
 #### Representing Sound
 
@@ -18212,7 +18466,9 @@ Sound is digitised by sampling the amplitude of an analogue wave at regular inte
 - **Bit depth:** Bits per sample. CD quality: 16-bit.
 - **Channels:** Mono (1) or stereo (2).
 
-$$\mathrm{File size (bits) = \mathrm{sample rate \times \mathrm{bit depth \times \mathrm{duration \times \mathrm{channels$$
+$$
+\mathrm{File size (bits) = \mathrm{sample rate \times \mathrm{bit depth \times \mathrm{duration \times \mathrm{channels
+$$
 
 **Worked Example.** A 2-minute stereo recording at 48000 Hz with 16-bit depth.
 
@@ -18253,9 +18509,13 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 
 ### De Morgan's Laws
 
-$$\overline{A \cdot B} = \bar{A} + \bar{B}$$
+$$
+\overline{A \cdot B} = \bar{A} + \bar{B}
+$$
 
-$$\overline{A + B} = \bar{A} \cdot \bar{B}$$
+$$
+\overline{A + B} = \bar{A} \cdot \bar{B}
+$$
 
 **Intuition.** De Morgan's Laws say that the negation of a conjunction is the disjunction of the
 Negations, and vice versa. "It is not true that both A and B are true" is equivalent to "A is false
@@ -18305,15 +18565,23 @@ This requires: 2 NOT gates, 2 AND gates, 1 OR gate.
 
 **Half adder:** Adds two single bits. Produces sum and carry.
 
-$$\mathrm{Sum = A \oplus B$$
+$$
+\mathrm{Sum = A \oplus B
+$$
 
-$$\mathrm{Carry = A \cdot B$$
+$$
+\mathrm{Carry = A \cdot B
+$$
 
 **Full adder:** Adds two bits and a carry-in. Produces sum and carry-out.
 
-$$\mathrm{Sum = A \oplus B \oplus C_{\mathrm{in}$$
+$$
+\mathrm{Sum = A \oplus B \oplus C_{\mathrm{in}
+$$
 
-$$C_{\mathrm{out} = (A \cdot B) + (C_{\mathrm{in} \cdot (A \oplus B))$$
+$$
+C_{\mathrm{out} = (A \cdot B) + (C_{\mathrm{in} \cdot (A \oplus B))
+$$
 
 **Why full adders matter.** A full adder can be chained to add multi-bit numbers. To add two 8-bit
 Numbers, chain 8 full adders: the carry-out of each stage becomes the carry-in of the next. The
@@ -18627,8 +18895,12 @@ $2     imes 16 + 11 = 43$.
 
 A half adder adds two single bits:
 
-$$ ext{Sum} = A \oplus B$$
-$$ ext{Carry} = A \cdot B$$
+$$
+ext{Sum} = A \oplus B
+$$
+$$
+ext{Carry} = A \cdot B
+$$
 
 **Implementation using basic gates:** 1 XOR gate (sum), 1 AND gate (carry).
 
@@ -18636,7 +18908,9 @@ $$ ext{Carry} = A \cdot B$$
 
 A full adder adds two bits and a carry-in:
 
-$$ ext{Sum} = A \oplus B \oplus C\*{ ext{in}}$$
+$$
+ext{Sum} = A \oplus B \oplus C\*{ ext{in}}
+$$
 
 $$
 C*{ ext{out}} = (A \cdot B) + (C\_{ ext{in}} \cdot
@@ -26497,14 +26771,20 @@ Let $y = \sin^2\!\left(e^{3x^2 + 1}\right)$. Find $\dfrac{d^2y}{dx^2}$ and evalu
 
 Let $u = e^{3x^2 + 1}$ Then $y = \sin^2(u) = (\sin u)^2$.
 
-$$\frac{dy}{dx} = 2\sin(u) \cdot \cos(u) \cdot \frac{du}{dx} = \sin(2u) \cdot e^{3x^2+1} \cdot 6x$$
+$$
+\frac{dy}{dx} = 2\sin(u) \cdot \cos(u) \cdot \frac{du}{dx} = \sin(2u) \cdot e^{3x^2+1} \cdot 6x
+$$
 
-$$\frac{dy}{dx} = 6x \, e^{3x^2+1} \sin\!\left(2e^{3x^2+1}\right)$$
+$$
+\frac{dy}{dx} = 6x \, e^{3x^2+1} \sin\!\left(2e^{3x^2+1}\right)
+$$
 
 For $\dfrac{d^2y}{dx^2}$Apply the product rule to $6x \cdot e^{3x^2+1} \cdot \sin(2e^{3x^2+1})$. Let
 $A = 6x$$B = e^{3x^2+1}$$C = \sin(2e^{3x^2+1})$. Then:
 
-$$\frac{d^2y}{dx^2} = A"BC + AB'C + ABC'$$
+$$
+\frac{d^2y}{dx^2} = A"BC + AB'C + ABC'
+$$
 
 $A' = 6$
 
@@ -26512,13 +26792,19 @@ $B' = e^{3x^2+1} \cdot 6x$
 
 $C' = \cos(2e^{3x^2+1}) \cdot 2 \cdot e^{3x^2+1} \cdot 6x = 12x\,e^{3x^2+1}\cos(2e^{3x^2+1})$
 
-$$\frac{d^2y}{dx^2} = 6e^{3x^2+1}\sin(2e^{3x^2+1}) + 6x \cdot 6x\,e^{3x^2+1}\sin(2e^{3x^2+1}) + 6x\,e^{3x^2+1} \cdot 12x\,e^{3x^2+1}\cos(2e^{3x^2+1})$$
+$$
+\frac{d^2y}{dx^2} = 6e^{3x^2+1}\sin(2e^{3x^2+1}) + 6x \cdot 6x\,e^{3x^2+1}\sin(2e^{3x^2+1}) + 6x\,e^{3x^2+1} \cdot 12x\,e^{3x^2+1}\cos(2e^{3x^2+1})
+$$
 
-$$= 6e^{3x^2+1}\sin(2e^{3x^2+1}) + 36x^2\,e^{3x^2+1}\sin(2e^{3x^2+1}) + 72x^2\,e^{2(3x^2+1)}\cos(2e^{3x^2+1})$$
+$$
+= 6e^{3x^2+1}\sin(2e^{3x^2+1}) + 36x^2\,e^{3x^2+1}\sin(2e^{3x^2+1}) + 72x^2\,e^{2(3x^2+1)}\cos(2e^{3x^2+1})
+$$
 
 At $x = 0$: $3(0)^2 + 1 = 1$ So $e^1 = e$ and $2e^{1} = 2e$.
 
-$$\frac{d^2y}{dx^2}\bigg|_{x=0} = 6e\sin(2e) + 0 + 0 = 6e\sin(2e)$$
+$$
+\frac{d^2y}{dx^2}\bigg|_{x=0} = 6e\sin(2e) + 0 + 0 = 6e\sin(2e)
+$$
 
 The common mistake: students forget the chain rule at the innermost level ($3x^2 + 1$) or mishandle
 the product rule when computing the second derivative.
@@ -26544,13 +26830,21 @@ Given $x^2 y + \sin(xy) = 3$Find $\dfrac{d^2y}{dx^2}$ in terms of $x$ and $y$.
 
 Differentiate both sides with respect to $x$ (remembering $y$ is a function of $x$):
 
-$$\frac{d}{dx}[x^2 y] + \frac{d}{dx}[\sin(xy)] = 0$$
+$$
+\frac{d}{dx}[x^2 y] + \frac{d}{dx}[\sin(xy)] = 0
+$$
 
-$$2xy + x^2 y' + \cos(xy) \cdot (y + xy') = 0$$
+$$
+2xy + x^2 y' + \cos(xy) \cdot (y + xy') = 0
+$$
 
-$$(x^2 + x\cos(xy))y' = -(2xy + y\cos(xy))$$
+$$
+(x^2 + x\cos(xy))y' = -(2xy + y\cos(xy))
+$$
 
-$$y' = -\frac{2xy + y\cos(xy)}{x^2 + x\cos(xy)} = -\frac{y(2x + \cos(xy))}{x(x + \cos(xy))}$$
+$$
+y' = -\frac{2xy + y\cos(xy)}{x^2 + x\cos(xy)} = -\frac{y(2x + \cos(xy))}{x(x + \cos(xy))}
+$$
 
 For $y''$Differentiate $y'$ using the quotient rule. Let $u = -y(2x + \cos(xy))$ and
 $v = x(x + \cos(xy))$.
@@ -26559,7 +26853,9 @@ First, $u' = -y'(2x + \cos(xy)) - y\left(2 - \sin(xy)(y + xy')\right)$.
 
 $v' = (x + \cos(xy)) + x(1 - \sin(xy)(y + xy'))$.
 
-$$y'' = \frac{u'v - uv'}{v^2}$$
+$$
+y'' = \frac{u'v - uv'}{v^2}
+$$
 
 This is extremely tedious but tests whether students correctly apply the product rule to the $xy$
 term inside $\sin(xy)$A common error point. The key misconception: students often write
@@ -26595,11 +26891,15 @@ $[-1, 8]$.
 
 (b) $\dfrac{f(8) - f(-1)}{8 - (-1)} = \dfrac{2 - (-1)}{9} = \dfrac{3}{9} = \dfrac{1}{3}$.
 
-$$f'(x) = \frac{1}{3}x^{-2/3} = \frac{1}{3\sqrt[3]{x^2}}$$
+$$
+f'(x) = \frac{1}{3}x^{-2/3} = \frac{1}{3\sqrt[3]{x^2}}
+$$
 
 Set $f'(c) = \frac{1}{3}$:
 
-$$\frac{1}{3\sqrt[3]{c^2}} = \frac{1}{3} \implies \sqrt[3]{c^2} = 1 \implies c^2 = 1 \implies c = \pm 1$$
+$$
+\frac{1}{3\sqrt[3]{c^2}} = \frac{1}{3} \implies \sqrt[3]{c^2} = 1 \implies c^2 = 1 \implies c = \pm 1
+$$
 
 Since we need $c \in (-1, 8)$: $c = -1$ is an endpoint, not in $(-1, 8)$. So the only solution is
 $c = 1$.
@@ -26652,29 +26952,43 @@ Differentiating: $2x\dfrac{dx}{dt} + 2y\dfrac{dy}{dt} = 0$.
 
 When $x = 5$: $y = \sqrt{169 - 25} = 12$. Given $\dfrac{dx}{dt} = 2$:
 
-$$2(5)(2) + 2(12)\frac{dy}{dt} = 0 \implies \frac{dy}{dt} = -\frac{10}{24} = -\frac{5}{12} \text{ ft/s$$
+$$
+2(5)(2) + 2(12)\frac{dy}{dt} = 0 \implies \frac{dy}{dt} = -\frac{10}{24} = -\frac{5}{12} \text{ ft/s
+$$
 
 The negative sign confirms the top moves downward.
 
 (b) Area $A = \dfrac{1}{2}xy$. Differentiating:
 
-$$\frac{dA}{dt} = \frac{1}{2}\left(x\frac{dy}{dt} + y\frac{dx}{dt}\right) = \frac{1}{2}\left(5 \cdot \left(-\frac{5}{12}\right) + 12 \cdot 2\right) = \frac{1}{2}\left(-\frac{25}{12} + 24\right) = \frac{1}{2} \cdot \frac{263}{12} = \frac{263}{24} \text{ ft^2\text{/s$$
+$$
+\frac{dA}{dt} = \frac{1}{2}\left(x\frac{dy}{dt} + y\frac{dx}{dt}\right) = \frac{1}{2}\left(5 \cdot \left(-\frac{5}{12}\right) + 12 \cdot 2\right) = \frac{1}{2}\left(-\frac{25}{12} + 24\right) = \frac{1}{2} \cdot \frac{263}{12} = \frac{263}{24} \text{ ft^2\text{/s
+$$
 
 (c) The point $P$ has coordinates. The bottom of the ladder is at $(x, 0)$ and the top at $(0, y)$
 where $y = \sqrt{169 - x^2}$. The point $P$ is 5 feet from the top, so measured from the bottom it
 is $13 - 5 = 8$ feet along the ladder.
 
-$$P_x = x - \frac{8x}{13} = \frac{5x}{13}, \quad P_y = \frac{8y}{13} = \frac{8\sqrt{169-x^2}}{13}$$
+$$
+P_x = x - \frac{8x}{13} = \frac{5x}{13}, \quad P_y = \frac{8y}{13} = \frac{8\sqrt{169-x^2}}{13}
+$$
 
 The curve starts when $x = 0$ (bottom at wall) and ends at $x = 5$.
 
-$$\text{Arc length = \int_0^5 \sqrt{\left(\frac{dP_x}{dx}\right)^2 + \left(\frac{dP_y}{dx}\right)^2} \, dx$$
+$$
+\text{Arc length = \int_0^5 \sqrt{\left(\frac{dP_x}{dx}\right)^2 + \left(\frac{dP_y}{dx}\right)^2} \, dx
+$$
 
-$$\frac{dP_x}{dx} = \frac{5}{13}, \quad \frac{dP_y}{dx} = \frac{8}{13} \cdot \frac{-x}{\sqrt{169-x^2}}$$
+$$
+\frac{dP_x}{dx} = \frac{5}{13}, \quad \frac{dP_y}{dx} = \frac{8}{13} \cdot \frac{-x}{\sqrt{169-x^2}}
+$$
 
-$$\text{Arc length = \int_0^5 \sqrt{\frac{25}{169} + \frac{64x^2}{169(169-x^2)}} \, dx = \frac{1}{13}\int_0^5 \sqrt{\frac{25(169-x^2) + 64x^2}{169-x^2}} \, dx$$
+$$
+\text{Arc length = \int_0^5 \sqrt{\frac{25}{169} + \frac{64x^2}{169(169-x^2)}} \, dx = \frac{1}{13}\int_0^5 \sqrt{\frac{25(169-x^2) + 64x^2}{169-x^2}} \, dx
+$$
 
-$$= \frac{1}{13}\int_0^5 \sqrt{\frac{4225 - 25x^2 + 64x^2}{169-x^2}} \, dx = \frac{1}{13}\int_0^5 \sqrt{\frac{4225 + 39x^2}{169 - x^2}} \, dx$$
+$$
+= \frac{1}{13}\int_0^5 \sqrt{\frac{4225 - 25x^2 + 64x^2}{169-x^2}} \, dx = \frac{1}{13}\int_0^5 \sqrt{\frac{4225 + 39x^2}{169 - x^2}} \, dx
+$$
 
 ---
 
@@ -26703,9 +27017,13 @@ to $a$ (symmetry) on the $x$-axis has height $4 - a^2$.
 
 Area: $A(a) = 2a(4 - a^2) = 8a - 2a^3$ for $0 \lt a \lt 2$.
 
-$$A'(a) = 8 - 6a^2 = 0 \implies a^2 = \frac{4}{3} \implies a = \frac{2\sqrt{3}}{3}$$
+$$
+A'(a) = 8 - 6a^2 = 0 \implies a^2 = \frac{4}{3} \implies a = \frac{2\sqrt{3}}{3}
+$$
 
-$$A''(a) = -12a \lt 0 \text{ for  a > 0$$
+$$
+A''(a) = -12a \lt 0 \text{ for  a > 0
+$$
 
 Since $A''\!\left(\frac{2\sqrt{3}}{3}\right) = -12 \cdot \frac{2\sqrt{3}}{3} = -8\sqrt{3} \lt 0$This
 is a local maximum (and by endpoints, the global maximum on $[0, 2]$).
@@ -26715,11 +27033,17 @@ $A\!\left(\frac{2\sqrt{3}}{3}\right) = 2 \cdot \frac{2\sqrt{3}}{3}\left(4 - \fra
 
 The area between the curve and the rectangle (the two "caps"):
 
-$$\text{Uncovered area = 2\int_{\frac{2\sqrt{3}}{3}}^{2}(4 - x^2)\,dx = 2\left[4x - \frac{x^3}{3}\right]_{\frac{2\sqrt{3}}{3}}^{2}$$
+$$
+\text{Uncovered area = 2\int_{\frac{2\sqrt{3}}{3}}^{2}(4 - x^2)\,dx = 2\left[4x - \frac{x^3}{3}\right]_{\frac{2\sqrt{3}}{3}}^{2}
+$$
 
-$$= 2\left(\left(8 - \frac{8}{3}\right) - \left(\frac{8\sqrt{3}}{3} - \frac{8 \cdot 3\sqrt{3}}{81}\right)\right) = 2\left(\frac{16}{3} - \frac{8\sqrt{3}}{3} + \frac{8\sqrt{3}}{27}\right)$$
+$$
+= 2\left(\left(8 - \frac{8}{3}\right) - \left(\frac{8\sqrt{3}}{3} - \frac{8 \cdot 3\sqrt{3}}{81}\right)\right) = 2\left(\frac{16}{3} - \frac{8\sqrt{3}}{3} + \frac{8\sqrt{3}}{27}\right)
+$$
 
-$$= 2\left(\frac{16}{3} - \frac{72\sqrt{3} - 8\sqrt{3}}{27}\right) = 2\left(\frac{16}{3} - \frac{64\sqrt{3}}{27}\right) = \frac{32}{3} - \frac{128\sqrt{3}}{27}$$
+$$
+= 2\left(\frac{16}{3} - \frac{72\sqrt{3} - 8\sqrt{3}}{27}\right) = 2\left(\frac{16}{3} - \frac{64\sqrt{3}}{27}\right) = \frac{32}{3} - \frac{128\sqrt{3}}{27}
+$$
 
 ---
 
@@ -26748,20 +27072,30 @@ Identify the error in the student's reasoning and compute the correct value.
 
 The student forgot the chain rule. By the FTC with moving bounds:
 
-$$F'(x) = \frac{d}{dx}\left[x^3\right] \cdot \frac{x^3}{1 + \sin^2(x^3)} - \frac{d}{dx}\left[x^2\right] \cdot \frac{x^2}{1 + \sin^2(x^2)}$$
+$$
+F'(x) = \frac{d}{dx}\left[x^3\right] \cdot \frac{x^3}{1 + \sin^2(x^3)} - \frac{d}{dx}\left[x^2\right] \cdot \frac{x^2}{1 + \sin^2(x^2)}
+$$
 
-$$= 3x^2 \cdot \frac{x^3}{1 + \sin^2(x^3)} - 2x \cdot \frac{x^2}{1 + \sin^2(x^2)}$$
+$$
+= 3x^2 \cdot \frac{x^3}{1 + \sin^2(x^3)} - 2x \cdot \frac{x^2}{1 + \sin^2(x^2)}
+$$
 
-$$= \frac{3x^5}{1 + \sin^2(x^3)} - \frac{2x^3}{1 + \sin^2(x^2)}$$
+$$
+= \frac{3x^5}{1 + \sin^2(x^3)} - \frac{2x^3}{1 + \sin^2(x^2)}
+$$
 
 At $x = 1$:
 
-$$F'(1) = \frac{3}{1 + \sin^2 1} - \frac{2}{1 + \sin^2 1} = \frac{1}{1 + \sin^2 1}$$
+$$
+F'(1) = \frac{3}{1 + \sin^2 1} - \frac{2}{1 + \sin^2 1} = \frac{1}{1 + \sin^2 1}
+$$
 
 The common misconception: students apply FTC part 1 without the chain rule when the bounds are
 functions of $x$ rather than $x$ itself. The correct formula is:
 
-$$\frac{d}{dx}\int_{a(x)}^{b(x)} f(t)\,dt = f(b(x)) \cdot b'(x) - f(a(x)) \cdot a'(x)$$
+$$
+\frac{d}{dx}\int_{a(x)}^{b(x)} f(t)\,dt = f(b(x)) \cdot b'(x) - f(a(x)) \cdot a'(x)
+$$
 
 
 ```mermaid
@@ -26848,13 +27182,17 @@ the theorem does not guarantee uniqueness.
 
 (c) A third solution can be constructed by patching:
 
-$$y(x) = \begin{cases} 0 & \text{if  x \leq a \\ \left(\dfrac{x - a}{3}\right)^3 & \text{if  x > a \end{cases}$$
+$$
+y(x) = \begin{cases} 0 & \text{if  x \leq a \\ \left(\dfrac{x - a}{3}\right)^3 & \text{if  x > a \end{cases}
+$$
 
 For any $a \geq 0$. At $x = a$: $y(a) = 0$ from both sides, and $y"(a) = 0$ from both sides (since
 $\frac{d}{dx}\left[\left(\frac{x-a}{3}\right)^3\right] = \frac{(x-a)^2}{3} = 0$ at $x = a$). So this
 is a valid $C^1$ solution. For $a = 0$This gives:
 
-$$y(x) = \begin{cases} 0 & \text{if  x \leq 0 \\ \dfrac{x^3}{27} & \text{if  x > 0 \end{cases}$$
+$$
+y(x) = \begin{cases} 0 & \text{if  x \leq 0 \\ \dfrac{x^3}{27} & \text{if  x > 0 \end{cases}
+$$
 
 This is a third distinct solution to the IVP.
 
@@ -26944,7 +27282,9 @@ incorrectly assume that halving the step size always quarters the error.
 
 A population $P(t)$ satisfies the logistic differential equation:
 
-$$\frac{dP}{dt} = 0.04P\left(1 - \frac{P}{K}\right)$$
+$$
+\frac{dP}{dt} = 0.04P\left(1 - \frac{P}{K}\right)
+$$
 
 With $P(0) = 100$ and carrying capacity $K$. Suppose the population is growing fastest when
 $P = 250$.
@@ -26957,32 +27297,52 @@ reach $0.9K$?
 (a) The logistic growth rate is maximized when $P = K/2$. Given the maximum growth occurs at
 $P = 250$:
 
-$$\frac{K}{2} = 250 \implies K = 500$$
+$$
+\frac{K}{2} = 250 \implies K = 500
+$$
 
 (b) The general solution to the logistic equation $\dfrac{dP}{dt} = rP\left(1 - \dfrac{P}{K}\right)$
 is:
 
-$$P(t) = \frac{K}{1 + A e^{-rt}}$$
+$$
+P(t) = \frac{K}{1 + A e^{-rt}}
+$$
 
 Where $A = \dfrac{K - P_0}{P_0}$. With $K = 500$$P_0 = 100$$r = 0.04$:
 
-$$A = \frac{500 - 100}{100} = 4$$
+$$
+A = \frac{500 - 100}{100} = 4
+$$
 
-$$P(t) = \frac{500}{1 + 4e^{-0.04t}}$$
+$$
+P(t) = \frac{500}{1 + 4e^{-0.04t}}
+$$
 
 (c) Set $P(t) = 0.9K = 450$:
 
-$$450 = \frac{500}{1 + 4e^{-0.04t}}$$
+$$
+450 = \frac{500}{1 + 4e^{-0.04t}}
+$$
 
-$$1 + 4e^{-0.04t} = \frac{500}{450} = \frac{10}{9}$$
+$$
+1 + 4e^{-0.04t} = \frac{500}{450} = \frac{10}{9}
+$$
 
-$$4e^{-0.04t} = \frac{1}{9}$$
+$$
+4e^{-0.04t} = \frac{1}{9}
+$$
 
-$$e^{-0.04t} = \frac{1}{36}$$
+$$
+e^{-0.04t} = \frac{1}{36}
+$$
 
-$$-0.04t = \ln\!\left(\frac{1}{36}\right) = -\ln 36$$
+$$
+-0.04t = \ln\!\left(\frac{1}{36}\right) = -\ln 36
+$$
 
-$$t = \frac{\ln 36}{0.04} = 25\ln 36 \approx 25(3.584) \approx 89.6$$
+$$
+t = \frac{\ln 36}{0.04} = 25\ln 36 \approx 25(3.584) \approx 89.6
+$$
 
 The population reaches $90\%$ of carrying capacity at approximately $t \approx 89.6$ time units.
 
@@ -27031,15 +27391,23 @@ $y = 0$No solution curve can cross it.
 (c) Separate variables: $y\,dy = x\,dx$. Integrate: $\dfrac{y^2}{2} = \dfrac{x^2}{2} + C$. Using
 $(1, 2)$: $2 = \frac{1}{2} + C \implies C = \frac{3}{2}$.
 
-$$y^2 = x^2 + 3 \implies y = \sqrt{x^2 + 3}$$
+$$
+y^2 = x^2 + 3 \implies y = \sqrt{x^2 + 3}
+$$
 
 Arc length from $x = 1$ to $x = 3$:
 
-$$s = \int_1^3 \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx = \int_1^3 \sqrt{1 + \frac{x^2}{x^2 + 3}}\,dx$$
+$$
+s = \int_1^3 \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx = \int_1^3 \sqrt{1 + \frac{x^2}{x^2 + 3}}\,dx
+$$
 
-$$= \int_1^3 \sqrt{\frac{2x^2 + 3}{x^2 + 3}}\,dx = \int_1^3 \sqrt{\frac{2(x^2 + 3) - 3}{x^2 + 3}}\,dx$$
+$$
+= \int_1^3 \sqrt{\frac{2x^2 + 3}{x^2 + 3}}\,dx = \int_1^3 \sqrt{\frac{2(x^2 + 3) - 3}{x^2 + 3}}\,dx
+$$
 
-$$= \int_1^3 \sqrt{2 - \frac{3}{x^2 + 3}}\,dx$$
+$$
+= \int_1^3 \sqrt{2 - \frac{3}{x^2 + 3}}\,dx
+$$
 
 This integral does not have an elementary antiderivative. It can be evaluated numerically or
 expressed in terms of elliptic integrals. The setup itself tests whether students correctly compute
@@ -27064,7 +27432,9 @@ Solve $\dfrac{dy}{dx} = \dfrac{1}{xy}$ with initial condition $y(1) = 0$.
 
 A student separates variables and writes:
 
-$$\int y\,dy = \int \frac{dx}{x} \implies \frac{y^2}{2} = \ln|x| + C$$
+$$
+\int y\,dy = \int \frac{dx}{x} \implies \frac{y^2}{2} = \ln|x| + C
+$$
 
 Using $y(1) = 0$: $\dfrac{0}{2} = \ln 1 + C \implies C = 0$Giving $y = \pm\sqrt{2\ln|x|}$.
 
@@ -27087,11 +27457,17 @@ $y = 0$.
 (c) With $y(1) = 1$: $f(x, y) = \dfrac{1}{xy}$ is continuous near $(1, 1)$ So a unique solution
 exists.
 
-$$\frac{y^2}{2} = \ln|x| + C \implies \frac{1}{2} = 0 + C \implies C = \frac{1}{2}$$
+$$
+\frac{y^2}{2} = \ln|x| + C \implies \frac{1}{2} = 0 + C \implies C = \frac{1}{2}
+$$
 
-$$y^2 = 2\ln|x| + 1 = \ln(x^2) + 1$$
+$$
+y^2 = 2\ln|x| + 1 = \ln(x^2) + 1
+$$
 
-$$y = \sqrt{1 + \ln(x^2)}$$
+$$
+y = \sqrt{1 + \ln(x^2)}
+$$
 
 (We take the positive branch since $y(1) = 1 > 0$.)
 
@@ -27236,7 +27612,9 @@ URL: https://ap.wyattau.com/maths/diagnostics/diag-integrals/
 
 A student encounters the limit:
 
-$$\lim_{n \to \infty} \sum_{k=1}^{n} \frac{k^2}{n^3} \sqrt{4 - \frac{k^2}{n^2}}$$
+$$
+\lim_{n \to \infty} \sum_{k=1}^{n} \frac{k^2}{n^3} \sqrt{4 - \frac{k^2}{n^2}}
+$$
 
 (a) Express this limit as a definite integral. (b) Identify which type of Riemann sum (left, right,
 midpoint, or trapezoidal) this represents, or state if it is ambiguous. (c) Evaluate the definite
@@ -27246,27 +27624,39 @@ integral.
 
 (a) Factor out $\frac{1}{n}$:
 
-$$\sum_{k=1}^{n} \frac{k^2}{n^3}\sqrt{4 - \frac{k^2}{n^2}} = \sum_{k=1}^{n} \frac{1}{n} \cdot \left(\frac{k}{n}\right)^2 \sqrt{4 - \left(\frac{k}{n}\right)^2}$$
+$$
+\sum_{k=1}^{n} \frac{k^2}{n^3}\sqrt{4 - \frac{k^2}{n^2}} = \sum_{k=1}^{n} \frac{1}{n} \cdot \left(\frac{k}{n}\right)^2 \sqrt{4 - \left(\frac{k}{n}\right)^2}
+$$
 
 With $\Delta x = \frac{1}{n}$ and $x_k = \frac{k}{n}$ (right endpoint of the $k$-th subinterval on
 $[0, 1]$):
 
-$$\lim_{n \to \infty} \sum_{k=1}^{n} \frac{1}{n} \cdot x_k^2 \sqrt{4 - x_k^2} = \int_0^1 x^2\sqrt{4 - x^2}\,dx$$
+$$
+\lim_{n \to \infty} \sum_{k=1}^{n} \frac{1}{n} \cdot x_k^2 \sqrt{4 - x_k^2} = \int_0^1 x^2\sqrt{4 - x^2}\,dx
+$$
 
 (b) Since $x_k = \frac{k}{n}$ uses the right endpoint of each subinterval, this is a **right Riemann
 sum**.
 
 (c) Use the substitution $x = 2\sin\theta$, $dx = 2\cos\theta\,d\theta$:
 
-$$\int_0^1 x^2\sqrt{4-x^2}\,dx = \int_0^{\arcsin(1/2)} 4\sin^2\theta \cdot 2\cos\theta \cdot 2\cos\theta\,d\theta$$
+$$
+\int_0^1 x^2\sqrt{4-x^2}\,dx = \int_0^{\arcsin(1/2)} 4\sin^2\theta \cdot 2\cos\theta \cdot 2\cos\theta\,d\theta
+$$
 
-$$= 16\int_0^{\pi/6} \sin^2\theta\cos^2\theta\,d\theta = 4\int_0^{\pi/6} \sin^2(2\theta)\,d\theta$$
+$$
+= 16\int_0^{\pi/6} \sin^2\theta\cos^2\theta\,d\theta = 4\int_0^{\pi/6} \sin^2(2\theta)\,d\theta
+$$
 
 Using $\sin^2(2\theta) = \frac{1 - \cos(4\theta)}{2}$:
 
-$$= 4\int_0^{\pi/6}\frac{1 - \cos(4\theta)}{2}\,d\theta = 2\left[\theta - \frac{\sin(4\theta)}{4}\right]_0^{\pi/6}$$
+$$
+= 4\int_0^{\pi/6}\frac{1 - \cos(4\theta)}{2}\,d\theta = 2\left[\theta - \frac{\sin(4\theta)}{4}\right]_0^{\pi/6}
+$$
 
-$$= 2\left(\frac{\pi}{6} - \frac{\sin(2\pi/3)}{4}\right) = 2\left(\frac{\pi}{6} - \frac{\sqrt{3}/2}{4}\right) = \frac{\pi}{3} - \frac{\sqrt{3}}{4}$$
+$$
+= 2\left(\frac{\pi}{6} - \frac{\sin(2\pi/3)}{4}\right) = 2\left(\frac{\pi}{6} - \frac{\sqrt{3}/2}{4}\right) = \frac{\pi}{3} - \frac{\sqrt{3}}{4}
+$$
 
 ---
 
@@ -27302,23 +27692,35 @@ Using $u = e^{2x}$, $dv = \sin(3x)\,dx$:
 
 $du = 2e^{2x}\,dx$, $v = -\frac{1}{3}\cos(3x)$.
 
-$$\int e^{2x}\sin(3x)\,dx = -\frac{1}{3}e^{2x}\cos(3x) + \frac{2}{3}\int e^{2x}\cos(3x)\,dx$$
+$$
+\int e^{2x}\sin(3x)\,dx = -\frac{1}{3}e^{2x}\cos(3x) + \frac{2}{3}\int e^{2x}\cos(3x)\,dx
+$$
 
 Apply parts again to the remaining integral. Let $u = e^{2x}$, $dv = \cos(3x)\,dx$:
 
 $du = 2e^{2x}\,dx$, $v = \frac{1}{3}\sin(3x)$.
 
-$$\int e^{2x}\cos(3x)\,dx = \frac{1}{3}e^{2x}\sin(3x) - \frac{2}{3}\int e^{2x}\sin(3x)\,dx$$
+$$
+\int e^{2x}\cos(3x)\,dx = \frac{1}{3}e^{2x}\sin(3x) - \frac{2}{3}\int e^{2x}\sin(3x)\,dx
+$$
 
 Substituting back:
 
-$$I = -\frac{1}{3}e^{2x}\cos(3x) + \frac{2}{3}\left(\frac{1}{3}e^{2x}\sin(3x) - \frac{2}{3}I\right)$$
+$$
+I = -\frac{1}{3}e^{2x}\cos(3x) + \frac{2}{3}\left(\frac{1}{3}e^{2x}\sin(3x) - \frac{2}{3}I\right)
+$$
 
-$$I = -\frac{1}{3}e^{2x}\cos(3x) + \frac{2}{9}e^{2x}\sin(3x) - \frac{4}{9}I$$
+$$
+I = -\frac{1}{3}e^{2x}\cos(3x) + \frac{2}{9}e^{2x}\sin(3x) - \frac{4}{9}I
+$$
 
-$$\frac{13}{9}I = e^{2x}\left(-\frac{1}{3}\cos(3x) + \frac{2}{9}\sin(3x)\right)$$
+$$
+\frac{13}{9}I = e^{2x}\left(-\frac{1}{3}\cos(3x) + \frac{2}{9}\sin(3x)\right)
+$$
 
-$$I = \frac{e^{2x}}{13}(2\sin(3x) - 3\cos(3x)) + C$$
+$$
+I = \frac{e^{2x}}{13}(2\sin(3x) - 3\cos(3x)) + C
+$$
 
 The misconception: students sometimes stop after one application of parts, or they choose a
 different assignment for the second integration by parts (switching $u$ and $dv$), which creates a
@@ -27350,7 +27752,9 @@ First find intersection points: $x^3 - 4x = x^2 - 4 \implies x^3 - x^2 - 4x + 4 
 
 By inspection $x = 1$ is a root: $1 - 1 - 4 + 4 = 0$. Factoring:
 
-$$(x-1)(x^2 - 4) = (x-1)(x-2)(x+2) = 0$$
+$$
+(x-1)(x^2 - 4) = (x-1)(x-2)(x+2) = 0
+$$
 
 Intersection points: $x = -2, 1, 2$.
 
@@ -27362,29 +27766,45 @@ Test point $x = 0$: $x^3 - 4x = 0$, $x^2 - 4 = -4$. So $x^3 - 4x \gt x^2 - 4$ on
 Test point $x = 1.5$: $x^3 - 4x = 3.375 - 6 = -2.625$, $x^2 - 4 = 2.25 - 4 = -1.75$. So
 $x^2 - 4 \gt x^3 - 4x$ on $[1, 2]$.
 
-$$\text{Total area = \int_{-2}^{1}\left[(x^3 - 4x) - (x^2 - 4)\right]\,dx + \int_1^{2}\left[(x^2 - 4) - (x^3 - 4x)\right]\,dx$$
+$$
+\text{Total area = \int_{-2}^{1}\left[(x^3 - 4x) - (x^2 - 4)\right]\,dx + \int_1^{2}\left[(x^2 - 4) - (x^3 - 4x)\right]\,dx
+$$
 
-$$= \int_{-2}^{1}(x^3 - x^2 - 4x + 4)\,dx + \int_1^{2}(-x^3 + x^2 + 4x - 4)\,dx$$
+$$
+= \int_{-2}^{1}(x^3 - x^2 - 4x + 4)\,dx + \int_1^{2}(-x^3 + x^2 + 4x - 4)\,dx
+$$
 
 First integral:
 
-$$\left[\frac{x^4}{4} - \frac{x^3}{3} - 2x^2 + 4x\right]_{-2}^{1} = \left(\frac{1}{4} - \frac{1}{3} - 2 + 4\right) - \left(4 + \frac{8}{3} - 8 - 8\right)$$
+$$
+\left[\frac{x^4}{4} - \frac{x^3}{3} - 2x^2 + 4x\right]_{-2}^{1} = \left(\frac{1}{4} - \frac{1}{3} - 2 + 4\right) - \left(4 + \frac{8}{3} - 8 - 8\right)
+$$
 
-$$= \frac{25}{12} - \left(-\frac{20}{3}\right) = \frac{25}{12} + \frac{80}{12} = \frac{105}{12} = \frac{35}{4}$$
+$$
+= \frac{25}{12} - \left(-\frac{20}{3}\right) = \frac{25}{12} + \frac{80}{12} = \frac{105}{12} = \frac{35}{4}
+$$
 
 Second integral:
 
-$$\left[-\frac{x^4}{4} + \frac{x^3}{3} + 2x^2 - 4x\right]_1^{2} = \left(-4 + \frac{8}{3} + 8 - 8\right) - \left(-\frac{1}{4} + \frac{1}{3} + 2 - 4\right)$$
+$$
+\left[-\frac{x^4}{4} + \frac{x^3}{3} + 2x^2 - 4x\right]_1^{2} = \left(-4 + \frac{8}{3} + 8 - 8\right) - \left(-\frac{1}{4} + \frac{1}{3} + 2 - 4\right)
+$$
 
-$$= -\frac{4}{3} - \left(-\frac{23}{12}\right) = -\frac{16}{12} + \frac{23}{12} = \frac{7}{12}$$
+$$
+= -\frac{4}{3} - \left(-\frac{23}{12}\right) = -\frac{16}{12} + \frac{23}{12} = \frac{7}{12}
+$$
 
-$$\text{Total area = \frac{35}{4} + \frac{7}{12} = \frac{105 + 7}{12} = \frac{112}{12} = \frac{28}{3}$$
+$$
+\text{Total area = \frac{35}{4} + \frac{7}{12} = \frac{105 + 7}{12} = \frac{112}{12} = \frac{28}{3}
+$$
 
 The student's integral gives $\displaystyle\int_{-2}^{2}(x^3 - x^2 - 4x + 4)\,dx = \frac{28}{3}$
 only because the areas happen to be positive in both subintervals when separated correctly. The
 student's single integral from $-2$ to $2$ actually evaluates to:
 
-$$\int_{-2}^{2}(x^3 - x^2 - 4x + 4)\,dx = \left[\frac{x^4}{4} - \frac{x^3}{3} - 2x^2 + 4x\right]_{-2}^{2}$$
+$$
+\int_{-2}^{2}(x^3 - x^2 - 4x + 4)\,dx = \left[\frac{x^4}{4} - \frac{x^3}{3} - 2x^2 + 4x\right]_{-2}^{2}
+$$
 
 This gives $\frac{28}{3}$ here too, but this is coincidental. The fundamental error is not splitting
 at intersection points, which would give wrong answers .
@@ -27425,9 +27845,13 @@ we integrate along the axis perpendicular to the axis of revolution.
 Since we revolve about $x = 6$ (vertical line), shells are vertical: radius $= 6 - x$Height
 $= \sqrt{x} - 0 = \sqrt{x}$.
 
-$$V = 2\pi\int_0^4 (6-x)\sqrt{x}\,dx = 2\pi\int_0^4 (6x^{1/2} - x^{3/2})\,dx$$
+$$
+V = 2\pi\int_0^4 (6-x)\sqrt{x}\,dx = 2\pi\int_0^4 (6x^{1/2} - x^{3/2})\,dx
+$$
 
-$$= 2\pi\left[4x^{3/2} - \frac{2}{5}x^{5/2}\right]_0^4 = 2\pi\left(4 \cdot 8 - \frac{2}{5} \cdot 32\right) = 2\pi\left(32 - \frac{64}{5}\right) = 2\pi \cdot \frac{96}{5} = \frac{192\pi}{5}$$
+$$
+= 2\pi\left[4x^{3/2} - \frac{2}{5}x^{5/2}\right]_0^4 = 2\pi\left(4 \cdot 8 - \frac{2}{5} \cdot 32\right) = 2\pi\left(32 - \frac{64}{5}\right) = 2\pi \cdot \frac{96}{5} = \frac{192\pi}{5}
+$$
 
 (b) Washer method: washers perpendicular to $x = 6$ So we integrate with respect to $y$.
 
@@ -27438,15 +27862,23 @@ Revolved about $x = 6$:
 - Outer radius: $6 - y^2$ (from axis to the left edge of region at $x = y^2$)
 - Inner radius: $6 - 4 = 2$ (from axis to the right edge of region at $x = 4$)
 
-$$V = \pi\int_0^2\left[(6-y^2)^2 - 2^2\right]\,dy = \pi\int_0^2(36 - 12y^2 + y^4 - 4)\,dy$$
+$$
+V = \pi\int_0^2\left[(6-y^2)^2 - 2^2\right]\,dy = \pi\int_0^2(36 - 12y^2 + y^4 - 4)\,dy
+$$
 
-$$= \pi\int_0^2(32 - 12y^2 + y^4)\,dy = \pi\left[32y - 4y^3 + \frac{y^5}{5}\right]_0^2$$
+$$
+= \pi\int_0^2(32 - 12y^2 + y^4)\,dy = \pi\left[32y - 4y^3 + \frac{y^5}{5}\right]_0^2
+$$
 
-$$= \pi\left(64 - 32 + \frac{32}{5}\right) = \pi\left(32 + \frac{32}{5}\right) = \frac{192\pi}{5}$$
+$$
+= \pi\left(64 - 32 + \frac{32}{5}\right) = \pi\left(32 + \frac{32}{5}\right) = \frac{192\pi}{5}
+$$
 
 (c) Volume about the $y$-axis (disk method):
 
-$$V = \pi\int_0^4 (\sqrt{x})^2\,dx = \pi\int_0^4 x\,dx = \pi \cdot 8 = 8\pi$$
+$$
+V = \pi\int_0^4 (\sqrt{x})^2\,dx = \pi\int_0^4 x\,dx = \pi \cdot 8 = 8\pi
+$$
 
 The volumes are different ($\frac{192\pi}{5} \approx 120.6$ vs $8\pi \approx 25.1$). Revolving about
 a different axis changes the radius of every point, so the volume changes. The student's
@@ -27481,7 +27913,9 @@ $\displaystyle\int_0^{\infty} \frac{x^{p-1}}{1+x}\,dx = \int_0^1 \frac{x^{p-1}}{
 
 **Near $x = 0$** (first integral): When $x \in (0, 1)$, $\frac{1}{2} \lt \frac{1}{1+x} \lt 1$ So:
 
-$$\frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-1}$$
+$$
+\frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-1}
+$$
 
 By comparison with $\displaystyle\int_0^1 x^{p-1}\,dx$ (converges iff $p - 1 > -1$I.e., $p > 0$):
 
@@ -27490,7 +27924,9 @@ The first integral converges iff $p > 0$.
 **As $x \to \infty$** (second integral): When $x > 1$,
 $\frac{1}{2} \lt \frac{1}{1+x} \lt \frac{1}{x}$ So:
 
-$$\frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-2}$$
+$$
+\frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-2}
+$$
 
 By comparison with $\displaystyle\int_1^{\infty} x^{p-2}\,dx$ (converges iff $p - 2 \lt -1$I.e.,
 $p \lt 1$):
@@ -27530,11 +27966,15 @@ also have a corner at $x = 2$. Is this correct?
 
 (a) For $0 \leq x \lt 2$:
 
-$$F(x) = \int_0^x 2t\,dt = t^2\Big|_0^x = x^2$$
+$$
+F(x) = \int_0^x 2t\,dt = t^2\Big|_0^x = x^2
+$$
 
 For $2 \leq x \leq 4$:
 
-$$F(x) = \int_0^2 2t\,dt + \int_2^x (8 - 2t)\,dt = 4 + \left[8t - t^2\right]_2^x = 4 + (8x - x^2 - 12) = -x^2 + 8x - 8$$
+$$
+F(x) = \int_0^2 2t\,dt + \int_2^x (8 - 2t)\,dt = 4 + \left[8t - t^2\right]_2^x = 4 + (8x - x^2 - 12) = -x^2 + 8x - 8
+$$
 
 So
 $F(x) = \begin{cases} x^2 & \text{if  0 \leq x \lt 2 \\ -x^2 + 8x - 8 & \text{if  2 \leq x \leq 4 \end{cases}$
@@ -27544,7 +27984,9 @@ differ.)
 
 (b) Check differentiability at $x = 2$:
 
-$$F(2) = -4 + 16 - 8 = 4$$
+$$
+F(2) = -4 + 16 - 8 = 4
+$$
 
 Left-hand derivative:
 $F'_{-}(2) = \lim_{h \to 0^-}\frac{F(2+h) - F(2)}{h} = \lim_{h \to 0^-}\frac{(2+h)^2 - 4}{h} = \lim_{h \to 0^-}\frac{4h + h^2}{h} = 4$.
@@ -27646,13 +28088,17 @@ Let $\varepsilon > 0$. We need $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \va
 
 First, restrict $\delta \leq 1$ so that $|x - 2| \lt 1$Meaning $1 \lt x \lt 3$. On this interval:
 
-$$x^2 + 2x + 4 \lt 9 + 6 + 4 = 19$$
+$$
+x^2 + 2x + 4 \lt 9 + 6 + 4 = 19
+$$
 
 Therefore $|x^2 + 2x + 4| \lt 19$ when $|x - 2| \lt 1$.
 
 Now choose $\delta = \min\left(1, \dfrac{\varepsilon}{19}\right)$. If $|x - 2| \lt \delta$ Then:
 
-$$|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \frac{\varepsilon}{19} \cdot 19 = \varepsilon$$
+$$
+|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \frac{\varepsilon}{19} \cdot 19 = \varepsilon
+$$
 
 The key misconception: students often pick $\delta$ as a simple function of $\varepsilon$ without
 first bounding the non-linear factor. The two-step process (restrict $\delta$ to bound the
@@ -27676,7 +28122,9 @@ non-linear part, then relate $\delta$ to $\varepsilon$) is essential.
 A student attempts to evaluate $\displaystyle\lim_{x \to 0} \frac{x + \sin x}{x}$ by applying
 L'Hopital's rule:
 
-$$\lim_{x \to 0} \frac{x + \sin x}{x} = \lim_{x \to 0} \frac{1 + \cos x}{1} = 2$$
+$$
+\lim_{x \to 0} \frac{x + \sin x}{x} = \lim_{x \to 0} \frac{1 + \cos x}{1} = 2
+$$
 
 (a) Explain why this application of L'Hopital's rule is invalid. (b) Evaluate the limit correctly
 using two different valid methods. (c) Explain why the student's answer happens to be correct
@@ -27687,7 +28135,9 @@ despite the invalid reasoning.
 (a) L'Hopital's rule requires the limit to be of the indeterminate form $\frac{0}{0}$ or
 $\frac{\infty}{\infty}$. Here:
 
-$$\lim_{x \to 0}(x + \sin x) = 0 + 0 = 0 \quad \text{and \quad \lim_{x \to 0} x = 0$$
+$$
+\lim_{x \to 0}(x + \sin x) = 0 + 0 = 0 \quad \text{and \quad \lim_{x \to 0} x = 0
+$$
 
 So the limit IS $\frac{0}{0}$ -- L'Hopital's rule is actually valid here. However, the student did
 not verify the indeterminate form before applying it. Let us reconsider: the student's error is
@@ -27697,12 +28147,16 @@ correct by coincidence.
 **Revised question interpretation:** Suppose instead the student tries to evaluate
 $\displaystyle\lim_{x \to 1} \frac{x^2 - 1}{x - 1}$ using L'Hopital's rule and writes:
 
-$$\lim_{x \to 1} \frac{2x}{1} = 2$$
+$$
+\lim_{x \to 1} \frac{2x}{1} = 2
+$$
 
 This IS valid ($\frac{0}{0}$ form). Now consider
 $\displaystyle\lim_{x \to \infty} \frac{x + \sin x}{x}$. A student applies L'Hopital's:
 
-$$\lim_{x \to \infty} \frac{1 + \cos x}{1}$$
+$$
+\lim_{x \to \infty} \frac{1 + \cos x}{1}
+$$
 
 This limit does not exist (oscillates between 0 and 2). The student concludes the original limit
 DNE.
@@ -27711,11 +28165,15 @@ DNE.
 
 **Method 1 (Algebraic):**
 
-$$\frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}$$
+$$
+\frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}
+$$
 
 Since $-1 \leq \sin x \leq 1$We have $|\sin x / x| \leq 1/|x| \to 0$ as $x \to \infty$. Therefore:
 
-$$\lim_{x \to \infty} \frac{x + \sin x}{x} = 1$$
+$$
+\lim_{x \to \infty} \frac{x + \sin x}{x} = 1
+$$
 
 **Method 2 (Squeeze theorem):** $-1/x \leq \sin x / x \leq 1/x$ And both bounds $\to 0$ So
 $\sin x / x \to 0$.
@@ -27742,7 +28200,9 @@ original limit DNE.
 
 Let $f$ be defined by:
 
-$$f(x) = \begin{cases} \dfrac{x^2 - 4x + 3}{x^2 - 1} & \text{if  x \neq 1, -1 \\ 1 & \text{if  x = 1 \end{cases}$$
+$$
+f(x) = \begin{cases} \dfrac{x^2 - 4x + 3}{x^2 - 1} & \text{if  x \neq 1, -1 \\ 1 & \text{if  x = 1 \end{cases}
+$$
 
 (a) Find $\displaystyle\lim_{x \to 1} f(x)$. (b) Is $f$ continuous at $x = 1$? State all three
 conditions for continuity at a point and verify each. (c) Classify the discontinuity at $x = 1$ if
@@ -27752,9 +28212,13 @@ one exists. (d) Classify the discontinuity at $x = -1$ and explain why it is a d
 
 (a) Factor the numerator and denominator:
 
-$$\frac{x^2 - 4x + 3}{x^2 - 1} = \frac{(x-1)(x-3)}{(x-1)(x+1)} = \frac{x-3}{x+1} \quad \text{for  x \neq 1$$
+$$
+\frac{x^2 - 4x + 3}{x^2 - 1} = \frac{(x-1)(x-3)}{(x-1)(x+1)} = \frac{x-3}{x+1} \quad \text{for  x \neq 1
+$$
 
-$$\lim_{x \to 1} f(x) = \frac{1 - 3}{1 + 1} = \frac{-2}{2} = -1$$
+$$
+\lim_{x \to 1} f(x) = \frac{1 - 3}{1 + 1} = \frac{-2}{2} = -1
+$$
 
 (b) The three conditions for continuity at $x = a$:
 
@@ -27769,7 +28233,9 @@ discontinuity**. We could make $f$ continuous by redefining $f(1) = -1$.
 
 (d) At $x = -1$:
 
-$$\lim_{x \to -1} \frac{x-3}{x+1}$$
+$$
+\lim_{x \to -1} \frac{x-3}{x+1}
+$$
 
 As $x \to -1^+$: $\frac{-4}{0^+} \to -\infty$. As $x \to -1^-$: $\frac{-4}{0^-} \to +\infty$.
 
@@ -27804,20 +28270,28 @@ $g'(x)$.
 
 **Existence (IVT):** $g$ is continuous everywhere as a sum of continuous functions.
 
-$$g(0) = 0 + 0 - 5 + \cos(0) = -5 + 1 = -4 \lt 0$$
+$$
+g(0) = 0 + 0 - 5 + \cos(0) = -5 + 1 = -4 \lt 0
+$$
 
-$$g(2) = 8 + 4 - 5 + \cos(2\pi) = 7 + 1 = 8 \gt 0$$
+$$
+g(2) = 8 + 4 - 5 + \cos(2\pi) = 7 + 1 = 8 \gt 0
+$$
 
 Since $g(0) \lt 0 \lt g(2)$ and $g$ is continuous on $[0, 2]$By the IVT there exists $c \in (0, 2)$
 such that $g(c) = 0$.
 
 **Uniqueness (Rolle's theorem via monotonicity):**
 
-$$g'(x) = 3x^2 + 2 - \pi \sin(\pi x)$$
+$$
+g'(x) = 3x^2 + 2 - \pi \sin(\pi x)
+$$
 
 We need to show $g'(x) > 0$ for all $x$. Note that $-\pi \sin(\pi x) \geq -\pi$ So:
 
-$$g'(x) \geq 3x^2 + 2 - \pi$$
+$$
+g'(x) \geq 3x^2 + 2 - \pi
+$$
 
 For $x \geq 0$: $3x^2 + 2 - \pi > 0$ when $3x^2 > \pi - 2$I.e.,
 $x > \sqrt{(\pi - 2)/3} \approx 0.62$.
@@ -27866,11 +28340,15 @@ $f(x) = |x^2 - 4| = \begin{cases} x^2 - 4 & \text{if  |x| \geq 2 \\ 4 - x^2 & \t
 
 Left-hand derivative:
 
-$$f'_{-}(2) = \lim_{h \to 0^-} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^-} \frac{(4 - (2+h)^2) - 0}{h} = \lim_{h \to 0^-} \frac{-4h - h^2}{h} = \lim_{h \to 0^-}(-4 - h) = -4$$
+$$
+f'_{-}(2) = \lim_{h \to 0^-} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^-} \frac{(4 - (2+h)^2) - 0}{h} = \lim_{h \to 0^-} \frac{-4h - h^2}{h} = \lim_{h \to 0^-}(-4 - h) = -4
+$$
 
 Right-hand derivative:
 
-$$f'_{+}(2) = \lim_{h \to 0^+} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^+} \frac{((2+h)^2 - 4) - 0}{h} = \lim_{h \to 0^+} \frac{4h + h^2}{h} = \lim_{h \to 0^+}(4 + h) = 4$$
+$$
+f'_{+}(2) = \lim_{h \to 0^+} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^+} \frac{((2+h)^2 - 4) - 0}{h} = \lim_{h \to 0^+} \frac{4h + h^2}{h} = \lim_{h \to 0^+}(4 + h) = 4
+$$
 
 Since $f'_{-}(2) = -4 \neq 4 = f'_{+}(2)$, $f$ is **not differentiable** at $x = 2$.
 
@@ -27878,11 +28356,15 @@ Since $f'_{-}(2) = -4 \neq 4 = f'_{+}(2)$, $f$ is **not differentiable** at $x =
 
 Left-hand derivative:
 
-$$f'_{-}(-2) = \lim_{h \to 0^-} \frac{f(-2+h) - f(-2)}{h} = \lim_{h \to 0^-} \frac{((-2+h)^2 - 4) - 0}{h} = \lim_{h \to 0^-} \frac{-4h + h^2}{h} = -4$$
+$$
+f'_{-}(-2) = \lim_{h \to 0^-} \frac{f(-2+h) - f(-2)}{h} = \lim_{h \to 0^-} \frac{((-2+h)^2 - 4) - 0}{h} = \lim_{h \to 0^-} \frac{-4h + h^2}{h} = -4
+$$
 
 Right-hand derivative:
 
-$$f'_{+}(-2) = \lim_{h \to 0^+} \frac{f(-2+h) - f(-2)}{h} = \lim_{h \to 0^+} \frac{(4 - (-2+h)^2) - 0}{h} = \lim_{h \to 0^+} \frac{4h - h^2}{h} = 4$$
+$$
+f'_{+}(-2) = \lim_{h \to 0^+} \frac{f(-2+h) - f(-2)}{h} = \lim_{h \to 0^+} \frac{(4 - (-2+h)^2) - 0}{h} = \lim_{h \to 0^+} \frac{4h - h^2}{h} = 4
+$$
 
 Since $-4 \neq 4$, $f$ is **not differentiable** at $x = -2$ either.
 
@@ -27918,7 +28400,9 @@ $\displaystyle\lim_{x \to \infty} x \cdot F(x)$.
 Since $\displaystyle\int_0^{\infty} e^{-t^2} \, dt = \frac{\sqrt{\pi}}{2} \lt \infty$ (Gaussian
 integral), by the comparison test for improper integrals:
 
-$$\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt \leq \int_0^{\infty} e^{-t^2} \, dt = \frac{\sqrt{\pi}}{2} \lt \infty$$
+$$
+\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt \leq \int_0^{\infty} e^{-t^2} \, dt = \frac{\sqrt{\pi}}{2} \lt \infty
+$$
 
 Therefore $F(x)$ converges to some finite limit
 $L = \displaystyle\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt$ as $x \to \infty$.
@@ -27928,11 +28412,15 @@ $x \cdot F(x) \to \infty$. A more interesting limit is obtained by considering t
 $G(x) = L - F(x) = \displaystyle\int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$ And evaluate
 $\displaystyle\lim_{x \to \infty} x \cdot G(x)$.
 
-$$x \cdot G(x) = x \int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$$
+$$
+x \cdot G(x) = x \int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt
+$$
 
 For large $x$The dominant contribution comes from $t$ near $x$. Substitute $u = t - x$:
 
-$$G(x) \approx \int_0^{\infty} \frac{e^{-(x+u)^2}}{1+(x+u)^2}\,du \approx \frac{e^{-x^2}}{1+x^2} \int_0^{\infty} e^{-2xu}\,du = \frac{e^{-x^2}}{1+x^2} \cdot \frac{1}{2x}$$
+$$
+G(x) \approx \int_0^{\infty} \frac{e^{-(x+u)^2}}{1+(x+u)^2}\,du \approx \frac{e^{-x^2}}{1+x^2} \int_0^{\infty} e^{-2xu}\,du = \frac{e^{-x^2}}{1+x^2} \cdot \frac{1}{2x}
+$$
 
 So $x \cdot G(x) \approx \dfrac{e^{-x^2}}{2(1+x^2)} \to 0$ as $x \to \infty$.
 
@@ -27940,7 +28428,9 @@ More rigorously:
 $0 \lt G(x) = \displaystyle\int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt \lt e^{-x^2}\displaystyle\int_x^{\infty}\frac{dt}{1+t^2} = e^{-x^2}\left(\frac{\pi}{2} - \arctan x\right)$.
 Since $\frac{\pi}{2} - \arctan x \sim \frac{1}{x}$ as $x \to \infty$:
 
-$$0 \lt x \cdot G(x) \lt x \cdot e^{-x^2} \cdot \frac{C}{x} = Ce^{-x^2} \to 0$$
+$$
+0 \lt x \cdot G(x) \lt x \cdot e^{-x^2} \cdot \frac{C}{x} = Ce^{-x^2} \to 0
+$$
 
 Therefore $\displaystyle\lim_{x \to \infty} x \cdot G(x) = 0$.
 
@@ -28031,9 +28521,13 @@ not apply.
 
 To determine convergence, rewrite:
 
-$$\frac{(-1)^n}{\sqrt{n} + (-1)^n} = \frac{(-1)^n(\sqrt{n} - (-1)^n)}{n - 1} = \frac{(-1)^n\sqrt{n}}{n-1} - \frac{1}{n-1}$$
+$$
+\frac{(-1)^n}{\sqrt{n} + (-1)^n} = \frac{(-1)^n(\sqrt{n} - (-1)^n)}{n - 1} = \frac{(-1)^n\sqrt{n}}{n-1} - \frac{1}{n-1}
+$$
 
-$$= \frac{(-1)^n}{\sqrt{n}} \cdot \frac{n}{n-1} - \frac{1}{n-1}$$
+$$
+= \frac{(-1)^n}{\sqrt{n}} \cdot \frac{n}{n-1} - \frac{1}{n-1}
+$$
 
 The first part $\dfrac{(-1)^n}{\sqrt{n}} \cdot \dfrac{n}{n-1}$ converges by the alternating series
 test (since $\dfrac{n}{\sqrt{n}(n-1)} = \dfrac{\sqrt{n}}{n-1} \to 0$ and is eventually decreasing).
@@ -28078,15 +28572,21 @@ $M = \max|f^{(n+1)}(c)|$ for $c$ between $0$ and $x$.
 
 After 3 terms ($n = 3$Using up to the $x^2$ term), the next term involves $f^{(3)}(x) = e^x$:
 
-$$|R_2(0.3)| \leq \frac{e^{0.3} \cdot (0.3)^3}{3!} = \frac{e^{0.3} \cdot 0.027}{6}$$
+$$
+|R_2(0.3)| \leq \frac{e^{0.3} \cdot (0.3)^3}{3!} = \frac{e^{0.3} \cdot 0.027}{6}
+$$
 
 Since $e^{0.3} \lt e^1 \lt 3$:
 
-$$|R_2(0.3)| \lt \frac{3 \cdot 0.027}{6} = \frac{0.081}{6} = 0.0135$$
+$$
+|R_2(0.3)| \lt \frac{3 \cdot 0.027}{6} = \frac{0.081}{6} = 0.0135
+$$
 
 A tighter bound using $e^{0.3} \lt 1.35$:
 
-$$|R_2(0.3)| \lt \frac{1.35 \cdot 0.027}{6} = 0.006075$$
+$$
+|R_2(0.3)| \lt \frac{1.35 \cdot 0.027}{6} = 0.006075
+$$
 
 (c) Actual error: $|e^{0.3} - 1.345| = |1.3498588 - 1.345| = 0.0048588$.
 
@@ -28119,7 +28619,9 @@ $\displaystyle\sum_{n=1}^{\infty} \frac{(x - 2)^n}{n \cdot 3^n}$.
 
 Apply the ratio test:
 
-$$\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim_{n \to \infty}\left|\frac{(x-2)^{n+1}}{(n+1) \cdot 3^{n+1}} \cdot \frac{n \cdot 3^n}{(x-2)^n}\right| = \lim_{n \to \infty}\frac{n}{n+1} \cdot \frac{|x-2|}{3} = \frac{|x-2|}{3}$$
+$$
+\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim_{n \to \infty}\left|\frac{(x-2)^{n+1}}{(n+1) \cdot 3^{n+1}} \cdot \frac{n \cdot 3^n}{(x-2)^n}\right| = \lim_{n \to \infty}\frac{n}{n+1} \cdot \frac{|x-2|}{3} = \frac{|x-2|}{3}
+$$
 
 The ratio test gives convergence when $\dfrac{|x-2|}{3} \lt 1$I.e., $|x - 2| \lt 3$.
 
@@ -28163,23 +28665,33 @@ $|x| \lt 1$Find the exact value of $\displaystyle\sum_{n=1}^{\infty} \frac{n^2}{
 
 From $\displaystyle\sum_{n=0}^{\infty} x^n = \frac{1}{1-x}$Differentiate both sides:
 
-$$\sum_{n=1}^{\infty} nx^{n-1} = \frac{1}{(1-x)^2}$$
+$$
+\sum_{n=1}^{\infty} nx^{n-1} = \frac{1}{(1-x)^2}
+$$
 
 Multiply by $x$:
 
-$$\sum_{n=1}^{\infty} nx^n = \frac{x}{(1-x)^2}$$
+$$
+\sum_{n=1}^{\infty} nx^n = \frac{x}{(1-x)^2}
+$$
 
 Differentiate again:
 
-$$\sum_{n=1}^{\infty} n^2 x^{n-1} = \frac{(1-x)^2 + 2x(1-x)}{(1-x)^4} = \frac{(1-x)(1-x + 2x)}{(1-x)^4} = \frac{1+x}{(1-x)^3}$$
+$$
+\sum_{n=1}^{\infty} n^2 x^{n-1} = \frac{(1-x)^2 + 2x(1-x)}{(1-x)^4} = \frac{(1-x)(1-x + 2x)}{(1-x)^4} = \frac{1+x}{(1-x)^3}
+$$
 
 Multiply by $x$:
 
-$$\sum_{n=1}^{\infty} n^2 x^n = \frac{x(1+x)}{(1-x)^3}$$
+$$
+\sum_{n=1}^{\infty} n^2 x^n = \frac{x(1+x)}{(1-x)^3}
+$$
 
 Set $x = \dfrac{1}{2}$:
 
-$$\sum_{n=1}^{\infty}\frac{n^2}{2^n} = \frac{\frac{1}{2} \cdot \frac{3}{2}}{\left(\frac{1}{2}\right)^3} = \frac{\frac{3}{4}}{\frac{1}{8}} = 6$$
+$$
+\sum_{n=1}^{\infty}\frac{n^2}{2^n} = \frac{\frac{1}{2} \cdot \frac{3}{2}}{\left(\frac{1}{2}\right)^3} = \frac{\frac{3}{4}}{\frac{1}{8}} = 6
+$$
 
 ---
 
@@ -28204,11 +28716,15 @@ using the Lagrange remainder.
 
 (a) Start with $\cos u = 1 - \dfrac{u^2}{2!} + \dfrac{u^4}{4!} - \cdots$. Substitute $u = x^2$:
 
-$$\cos(x^2) = 1 - \frac{x^4}{2!} + \frac{x^8}{4!} - \cdots = 1 - \frac{x^4}{2} + \frac{x^8}{24} - \cdots$$
+$$
+\cos(x^2) = 1 - \frac{x^4}{2!} + \frac{x^8}{4!} - \cdots = 1 - \frac{x^4}{2} + \frac{x^8}{24} - \cdots
+$$
 
 The fourth-degree Maclaurin polynomial (all terms through $x^4$):
 
-$$T_4(x) = 1 - \frac{x^4}{2}$$
+$$
+T_4(x) = 1 - \frac{x^4}{2}
+$$
 
 (b)
 $\displaystyle\int_0^{0.5} T_4(x)\,dx = \int_0^{0.5}\left(1 - \frac{x^4}{2}\right)dx = \left[x - \frac{x^5}{10}\right]_0^{0.5} = 0.5 - \frac{1}{320} = \frac{160 - 1}{320} = \frac{159}{320} \approx 0.496875$
@@ -28216,7 +28732,9 @@ $\displaystyle\int_0^{0.5} T_4(x)\,dx = \int_0^{0.5}\left(1 - \frac{x^4}{2}\righ
 (c) The next term in the series is $\dfrac{x^8}{24}$. The error from truncating after the $x^4$ term
 is bounded by:
 
-$$|R_4(x)| \leq \frac{M|x|^6}{6!}$$
+$$
+|R_4(x)| \leq \frac{M|x|^6}{6!}
+$$
 
 Where $M = \max|f^{(6)}(c)|$ for $c \in [0, 0.5]$. This is complicated. Instead, bound using the
 next series term:
@@ -28224,11 +28742,15 @@ next series term:
 Since the series for $\cos(x^2)$ is alternating and the terms decrease in magnitude for
 $|x| \lt 1$The error in truncating after the $x^4$ term is at most the magnitude of the next term:
 
-$$|R_4(x)| \leq \frac{x^8}{24}$$
+$$
+|R_4(x)| \leq \frac{x^8}{24}
+$$
 
 So the error in the integral is bounded by:
 
-$$\left|\int_0^{0.5} R_4(x)\,dx\right| \leq \int_0^{0.5}\frac{x^8}{24}\,dx = \frac{1}{24}\cdot\frac{(0.5)^9}{9} = \frac{1}{24 \cdot 9 \cdot 512} = \frac{1}{110592} \approx 0.00000904$$
+$$
+\left|\int_0^{0.5} R_4(x)\,dx\right| \leq \int_0^{0.5}\frac{x^8}{24}\,dx = \frac{1}{24}\cdot\frac{(0.5)^9}{9} = \frac{1}{24 \cdot 9 \cdot 512} = \frac{1}{110592} \approx 0.00000904
+$$
 
 More rigorously, using the Lagrange form: $f^{(5)}(x)$ involves $\sin(x^2)$ and $\cos(x^2)$ terms.
 The maximum of $|f^{(5)}(c)|$ on $[0, 0.5]$ is bounded (all derivatives of $\cos(x^2)$ are bounded
@@ -28263,7 +28785,9 @@ $x \geq 2$ (when $p > 0$).
 
 Let $u = \ln x$, $du = \dfrac{dx}{x}$:
 
-$$\int_2^{\infty}\frac{dx}{x(\ln x)^p} = \int_{\ln 2}^{\infty}\frac{du}{u^p}$$
+$$
+\int_2^{\infty}\frac{dx}{x(\ln x)^p} = \int_{\ln 2}^{\infty}\frac{du}{u^p}
+$$
 
 (a) $p = 2$:
 $\displaystyle\int_{\ln 2}^{\infty}\frac{du}{u^2} = \left[-\frac{1}{u}\right]_{\ln 2}^{\infty} = \frac{1}{\ln 2} \lt \infty$.
@@ -28275,15 +28799,21 @@ series **diverges**.
 
 (c) The $p$-integral $\displaystyle\int \frac{du}{u^p}$ converges iff $p > 1$. Therefore:
 
-$$\sum_{n=2}^{\infty}\frac{1}{n(\ln n)^p} \text{ converges iff  p > 1$$
+$$
+\sum_{n=2}^{\infty}\frac{1}{n(\ln n)^p} \text{ converges iff  p > 1
+$$
 
 For the remainder bound with $p = 2$: the error from using $N$ terms satisfies:
 
-$$R_N \leq \int_N^{\infty}\frac{dx}{x(\ln x)^2} = \frac{1}{\ln N}$$
+$$
+R_N \leq \int_N^{\infty}\frac{dx}{x(\ln x)^2} = \frac{1}{\ln N}
+$$
 
 We need $\dfrac{1}{\ln N} \lt 0.001$:
 
-$$\ln N > 1000 \implies N > e^{1000}$$
+$$
+\ln N > 1000 \implies N > e^{1000}
+$$
 
 This is astronomically large, showing that despite convergence, the series converges extremely
 slowly. This illustrates an important limitation of the integral test for error bounds: convergence
@@ -28291,7 +28821,9 @@ does not imply practical computability.
 
 For comparison, even $p = 1.01$ gives:
 
-$$\int_N^{\infty}\frac{du}{u^{1.01}} = \frac{N^{-0.01}}{0.01} = 100N^{-0.01}$$
+$$
+\int_N^{\infty}\frac{du}{u^{1.01}} = \frac{N^{-0.01}}{0.01} = 100N^{-0.01}
+$$
 
 Setting $100N^{-0.01} \lt 0.001$: $N^{-0.01} \lt 0.00001$ So $N^{0.01} > 100000$Giving
 $N > 100000^{100}$. Still impractical. The series $\sum \frac{1}{n(\ln n)^p}$ converges very slowly
@@ -29597,7 +30129,9 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 The **derivative** of a function $f$ at $x = a$ is defined as:
 
-$$f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$$
+$$
+f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}
+$$
 
 The derivative represents the instantaneous rate of change of $f$ at $x = a$, or equivalently, the slope of the tangent line to the graph at that point.
 
@@ -29658,7 +30192,9 @@ A **differential equation** relates a function to its derivatives. The goal is t
 **Separable equations (AB and BC):**
 An equation of the form $\frac{dy}{dx} = g(x)h(y)$ can be solved by separating variables:
 
-$$\int \frac{1}{h(y)} \, dy = \int g(x) \, dx$$
+$$
+\int \frac{1}{h(y)} \, dy = \int g(x) \, dx
+$$
 
 **Example:** Solve $\frac{dy}{dx} = xy$ with $y(0) = 1$.
 
@@ -29674,8 +30210,12 @@ Solution: $y = e^{x^2/2}$
 
 **Euler's method (BC only):** A numerical technique for approximating solutions to differential equations. Starting from $(x_0, y_0)$ with step size $h$:
 
-$$y_{n+1} = y_n + h \cdot f(x_n, y_n)$$
-$$x_{n+1} = x_n + h$$
+$$
+y_{n+1} = y_n + h \cdot f(x_n, y_n)
+$$
+$$
+x_{n+1} = x_n + h
+$$
 
 ### Sequences and Series (BC only)
 
@@ -29695,7 +30235,9 @@ A **sequence** is an ordered list of numbers $\{a_n\}_{n=1}^{\infty}$. A **serie
 
 **Taylor series:** The Taylor series of $f$ centred at $a$ is:
 
-$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$
+$$
+f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
+$$
 
 **Important Taylor series to know:**
 - $e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$
@@ -29714,7 +30256,9 @@ This requires the **product rule** since $f(x) = x^3 \cdot \sin x$.
 Let $u = x^3$ and $v = \sin x$. Then $u' = 3x^2$ and $v' = \cos x$.
 
 By the product rule:
-$$f'(x) = u'v + uv' = 3x^2 \sin x + x^3 \cos x$$
+$$
+f'(x) = u'v + uv' = 3x^2 \sin x + x^3 \cos x
+$$
 
 We can factor: $f'(x) = x^2(3\sin x + x\cos x)$
 
@@ -29728,15 +30272,25 @@ We can factor: $f'(x) = x^2(3\sin x + x\cos x)$
 
 Use the identity $\cos^2 x = \frac{1 + \cos 2x}{2}$:
 
-$$\int_0^{\pi/2} \cos^2 x \, dx = \int_0^{\pi/2} \frac{1 + \cos 2x}{2} \, dx$$
+$$
+\int_0^{\pi/2} \cos^2 x \, dx = \int_0^{\pi/2} \frac{1 + \cos 2x}{2} \, dx
+$$
 
-$$= \frac{1}{2} \int_0^{\pi/2} (1 + \cos 2x) \, dx$$
+$$
+= \frac{1}{2} \int_0^{\pi/2} (1 + \cos 2x) \, dx
+$$
 
-$$= \frac{1}{2} \left[x + \frac{\sin 2x}{2}\right]_0^{\pi/2}$$
+$$
+= \frac{1}{2} \left[x + \frac{\sin 2x}{2}\right]_0^{\pi/2}
+$$
 
-$$= \frac{1}{2} \left[\left(\frac{\pi}{2} + \frac{\sin \pi}{2}\right) - \left(0 + \frac{\sin 0}{2}\right)\right]$$
+$$
+= \frac{1}{2} \left[\left(\frac{\pi}{2} + \frac{\sin \pi}{2}\right) - \left(0 + \frac{\sin 0}{2}\right)\right]
+$$
 
-$$= \frac{1}{2} \cdot \frac{\pi}{2} = \frac{\pi}{4}$$
+$$
+= \frac{1}{2} \cdot \frac{\pi}{2} = \frac{\pi}{4}
+$$
 
 ## Worked Example: Diagnostic Question on Differential Equations
 
@@ -29746,17 +30300,25 @@ $$= \frac{1}{2} \cdot \frac{\pi}{2} = \frac{\pi}{4}$$
 
 This is a separable differential equation. Separate the variables:
 
-$$y \, dy = 2x \, dx$$
+$$
+y \, dy = 2x \, dx
+$$
 
 Integrate both sides:
 
-$$\int y \, dy = \int 2x \, dx$$
+$$
+\int y \, dy = \int 2x \, dx
+$$
 
-$$\frac{y^2}{2} = x^2 + C$$
+$$
+\frac{y^2}{2} = x^2 + C
+$$
 
 Multiply through by 2:
 
-$$y^2 = 2x^2 + C'$$
+$$
+y^2 = 2x^2 + C'
+$$
 
 where $C' = 2C$. This is the equation of a hyperbola (for $C' \neq 0$) or a pair of lines through the origin (for $C' = 0$).
 
@@ -31635,7 +32197,9 @@ $= \lim_{x \to 0} \frac{\sin x}{x(1 + \cos x)} = \lim_{x \to 0} \frac{\sin x}{x}
 
 Determine whether the following function is continuous at $x = 1$:
 
-$$f(x) = \begin{cases} \frac{x^2 - 1}{x - 1} & \mathrm{if  x \ne 1 \\ 4 & \mathrm{if  x = 1 \end{cases}$$
+$$
+f(x) = \begin{cases} \frac{x^2 - 1}{x - 1} & \mathrm{if  x \ne 1 \\ 4 & \mathrm{if  x = 1 \end{cases}
+$$
 
 </details>
 
@@ -33044,24 +33608,34 @@ $R_1$.
 Parallel with a short circuit, so all current flows through the capacitor branch. The equivalent
 Resistance seen by the battery is just $R_1 = 10\,\text{k\Omega$.
 
-$$I_{\text{initial} = \frac{\mathcal{E}}{R_1} = \frac{30}{10000} = 3.0\,\text{mA$$
+$$
+I_{\text{initial} = \frac{\mathcal{E}}{R_1} = \frac{30}{10000} = 3.0\,\text{mA
+$$
 
 (b) At steady state, the capacitor is fully charged and acts as an open circuit. The current flows
 Through $R_1$ and $R_2$ in series.
 
-$$I_{\text{steady} = \frac{\mathcal{E}}{R_1 + R_2} = \frac{30}{10000 + 20000} = 1.0\,\text{mA$$
+$$
+I_{\text{steady} = \frac{\mathcal{E}}{R_1 + R_2} = \frac{30}{10000 + 20000} = 1.0\,\text{mA
+$$
 
 (c) At steady state, the voltage across the capacitor equals the voltage across $R_2$:
 
-$$V_C = I_{\text{steady} R_2 = (0.001)(20000) = 20\,\text{V$$
+$$
+V_C = I_{\text{steady} R_2 = (0.001)(20000) = 20\,\text{V
+$$
 
-$$Q = CV_C = (5 \times 10^{-6})(20) = 100\,\mu\text{C$$
+$$
+Q = CV_C = (5 \times 10^{-6})(20) = 100\,\mu\text{C
+$$
 
 (d) The time constant is found by Thevenin analysis. The Thevenin resistance seen by the capacitor
 is
 $R_{\text{Th} = R_1 \| R_2 = \frac{R_1 R_2}{R_1 + R_2} = \frac{10 \times 20}{30} = 6.67\,\text{k\Omega$.
 
-$$\tau = R_{\text{Th} C = (6670)(5 \times 10^{-6}) = 0.0333\,\text{s = 33.3\,\text{ms$$
+$$
+\tau = R_{\text{Th} C = (6670)(5 \times 10^{-6}) = 0.0333\,\text{s = 33.3\,\text{ms
+$$
 
 </details>
 
@@ -33081,12 +33655,16 @@ conserved.
 (a)
 $W_{\text{battery} = \int_0^\infty \mathcal{E}\, I\, dt = \frac{\mathcal{E}^2}{R}\int_0^\infty e^{-t/(RC)}\, dt = \frac{\mathcal{E}^2}{R} \cdot RC = C\mathcal{E}^2$
 
-$$W_{\text{battery} = (50 \times 10^{-6})(10)^2 = 5.0 \times 10^{-3}\,\text{J = 5.0\,\text{mJ$$
+$$
+W_{\text{battery} = (50 \times 10^{-6})(10)^2 = 5.0 \times 10^{-3}\,\text{J = 5.0\,\text{mJ
+$$
 
 (b)
 $W_R = W_{\text{battery} - U_{\text{cap} = C\mathcal{E}^2 - \frac{1}{2}C\mathcal{E}^2 = \frac{1}{2}C\mathcal{E}^2$
 
-$$W_R = \frac{1}{2}(50 \times 10^{-6})(100) = 2.5 \times 10^{-3}\,\text{J = 2.5\,\text{mJ$$
+$$
+W_R = \frac{1}{2}(50 \times 10^{-6})(100) = 2.5 \times 10^{-3}\,\text{J = 2.5\,\text{mJ
+$$
 
 (c) $U_{\text{cap} = \frac{1}{2}CV^2 = \frac{1}{2}(50 \times 10^{-6})(10)^2 = 2.5\,\text{mJ$
 
@@ -33313,13 +33891,21 @@ A 2 kg block is pushed up a frictionless incline of height 3 m with an initial s
 **Solution:**
 
 Using conservation of energy:
-$$\frac{1}{2}mv_i^2 = \frac{1}{2}mv_f^2 + mgh$$
+$$
+\frac{1}{2}mv_i^2 = \frac{1}{2}mv_f^2 + mgh
+$$
 
-$$\frac{1}{2}(2)(8)^2 = \frac{1}{2}(2)v_f^2 + (2)(9.8)(3)$$
+$$
+\frac{1}{2}(2)(8)^2 = \frac{1}{2}(2)v_f^2 + (2)(9.8)(3)
+$$
 
-$$64 = v_f^2 + 58.8$$
+$$
+64 = v_f^2 + 58.8
+$$
 
-$$v_f^2 = 5.2 \implies v_f = 2.28 \text{ m/s}$$
+$$
+v_f^2 = 5.2 \implies v_f = 2.28 \text{ m/s}
+$$
 
 **Common mistake:** Forgetting to include the gravitational potential energy term at the top.
 
@@ -33332,13 +33918,21 @@ A 0.1 kg ball moving at 5 m/s collides with a 0.3 kg ball at rest. After the col
 **Solution:**
 
 Using conservation of momentum:
-$$m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}$$
+$$
+m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}
+$$
 
-$$(0.1)(5) + (0.3)(0) = (0.1)(2) + (0.3)v_{2f}$$
+$$
+(0.1)(5) + (0.3)(0) = (0.1)(2) + (0.3)v_{2f}
+$$
 
-$$0.5 = 0.2 + 0.3v_{2f}$$
+$$
+0.5 = 0.2 + 0.3v_{2f}
+$$
 
-$$v_{2f} = \frac{0.3}{0.3} = 1 \text{ m/s}$$
+$$
+v_{2f} = \frac{0.3}{0.3} = 1 \text{ m/s}
+$$
 
 **Common mistake:** Not checking if kinetic energy is conserved (it should be for elastic collisions).
 
@@ -33351,15 +33945,23 @@ A solid sphere rolls without slipping down an incline from rest. Find its speed 
 **Solution:**
 
 Using conservation of energy with rolling:
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2
+$$
 
 For a solid sphere, $I = \frac{2}{5}mR^2$ and $\omega = v/R$:
 
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{2}{5}mR^2 \cdot \frac{v^2}{R^2}$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{2}{5}mR^2 \cdot \frac{v^2}{R^2}
+$$
 
-$$mgh = \frac{1}{2}mv^2 + \frac{1}{5}mv^2 = \frac{7}{10}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2 + \frac{1}{5}mv^2 = \frac{7}{10}mv^2
+$$
 
-$$v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10(9.8)(2)}{7}} = \sqrt{28} = 5.29 \text{ m/s}$$
+$$
+v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10(9.8)(2)}{7}} = \sqrt{28} = 5.29 \text{ m/s}
+$$
 
 **Common mistake:** Using $\frac{1}{2}mv^2$ only without the rotational kinetic energy term.
 
@@ -33864,19 +34466,31 @@ cylinder.
 
 (a) Inside ($r < R$): Use a cylindrical Gaussian surface of radius $r$ and length $L$.
 
-$$Q_{\text{enc} = \int_0^r \rho(r') \cdot 2\pi r' L\, dr' = \frac{2\pi \rho_0 L}{R} \int_0^r r'^2\, dr' = \frac{2\pi \rho_0 L r^3}{3R}$$
+$$
+Q_{\text{enc} = \int_0^r \rho(r') \cdot 2\pi r' L\, dr' = \frac{2\pi \rho_0 L}{R} \int_0^r r'^2\, dr' = \frac{2\pi \rho_0 L r^3}{3R}
+$$
 
-$$E \cdot 2\pi r L = \frac{Q_{\text{enc}}{\epsilon_0} = \frac{2\pi \rho_0 r^3 L}{3R\epsilon_0}$$
+$$
+E \cdot 2\pi r L = \frac{Q_{\text{enc}}{\epsilon_0} = \frac{2\pi \rho_0 r^3 L}{3R\epsilon_0}
+$$
 
-$$E = \frac{\rho_0 r^2}{3R\epsilon_0}$$
+$$
+E = \frac{\rho_0 r^2}{3R\epsilon_0}
+$$
 
 (b) Outside ($r > R$):
 
-$$Q_{\text{total} = \frac{2\pi \rho_0 R^3 L}{3R} = \frac{2\pi \rho_0 R^2 L}{3}$$
+$$
+Q_{\text{total} = \frac{2\pi \rho_0 R^3 L}{3R} = \frac{2\pi \rho_0 R^2 L}{3}
+$$
 
-$$E \cdot 2\pi r L = \frac{2\pi \rho_0 R^2 L}{3\epsilon_0}$$
+$$
+E \cdot 2\pi r L = \frac{2\pi \rho_0 R^2 L}{3\epsilon_0}
+$$
 
-$$E = \frac{\rho_0 R^2}{3\epsilon_0 r}$$
+$$
+E = \frac{\rho_0 R^2}{3\epsilon_0 r}
+$$
 
 </details>
 
@@ -33899,17 +34513,25 @@ $\lambda = Q/(\pi R)$.
 The arc opening to the right). A charge element $dq = \lambda R\, d\theta$ at angle $\theta$
 produces:
 
-$$dE_y = \frac{1}{4\pi\epsilon_0}\frac{dq}{R^2}\sin\theta = \frac{\lambda}{4\pi\epsilon_0 R}\sin\theta\, d\theta$$
+$$
+dE_y = \frac{1}{4\pi\epsilon_0}\frac{dq}{R^2}\sin\theta = \frac{\lambda}{4\pi\epsilon_0 R}\sin\theta\, d\theta
+$$
 
-$$E_y = \frac{\lambda}{4\pi\epsilon_0 R}\int_{-\pi/2}^{\pi/2}\sin\theta\, d\theta = \frac{\lambda}{4\pi\epsilon_0 R}[-\cos\theta]_{-\pi/2}^{\pi/2} = \frac{\lambda}{4\pi\epsilon_0 R}(1 - (-1)) = \frac{2\lambda}{4\pi\epsilon_0 R}$$
+$$
+E_y = \frac{\lambda}{4\pi\epsilon_0 R}\int_{-\pi/2}^{\pi/2}\sin\theta\, d\theta = \frac{\lambda}{4\pi\epsilon_0 R}[-\cos\theta]_{-\pi/2}^{\pi/2} = \frac{\lambda}{4\pi\epsilon_0 R}(1 - (-1)) = \frac{2\lambda}{4\pi\epsilon_0 R}
+$$
 
-$$E = \frac{2Q}{4\pi^2\epsilon_0 R^2} = \frac{Q}{2\pi^2\epsilon_0 R^2}$$
+$$
+E = \frac{2Q}{4\pi^2\epsilon_0 R^2} = \frac{Q}{2\pi^2\epsilon_0 R^2}
+$$
 
 The $x$-components cancel by symmetry.
 
 (b) Every charge element is at distance $R$ from the center:
 
-$$V = \frac{1}{4\pi\epsilon_0}\int \frac{dq}{R} = \frac{Q}{4\pi\epsilon_0 R}$$
+$$
+V = \frac{1}{4\pi\epsilon_0}\int \frac{dq}{R} = \frac{Q}{4\pi\epsilon_0 R}
+$$
 
 </details>
 
@@ -35272,14 +35894,20 @@ S.
 
 **Displacement from $t = 0$ to $t = 4$:**
 
-$$\Delta x = \int_0^4 (4t - t^2)\, dt = \left[2t^2 - \frac{t^3}{3}\right]_0^4 = 32 - \frac{64}{3} = 32 - 21.33 = 10.67 \mathrm{ m$$
+$$
+\Delta x = \int_0^4 (4t - t^2)\, dt = \left[2t^2 - \frac{t^3}{3}\right]_0^4 = 32 - \frac{64}{3} = 32 - 21.33 = 10.67 \mathrm{ m
+$$
 
 **Total distance from $t = 0$ to $t = 5$:** The velocity is zero at $t = 0$ and $t = 4$. For
 $0 \lt t \lt 4$$v \gt 0$. For $4 \lt t \lt 5$$v \lt 0$.
 
-$$d = \int_0^4 (4t - t^2)\, dt + \left|\int_4^5 (4t - t^2)\, dt\right| = 10.67 + \left|\left[2t^2 - \frac{t^3}{3}\right]_4^5\right|$$
+$$
+d = \int_0^4 (4t - t^2)\, dt + \left|\int_4^5 (4t - t^2)\, dt\right| = 10.67 + \left|\left[2t^2 - \frac{t^3}{3}\right]_4^5\right|
+$$
 
-$$= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 10.67 + 2.33 = 13.0 \mathrm{ m$$
+$$
+= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 10.67 + 2.33 = 13.0 \mathrm{ m
+$$
 
 ## Uniform Circular Motion: Extended Analysis
 
@@ -35287,24 +35915,38 @@ $$= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 
 
 For an object in uniform circular motion:
 
-$$\omega = 2\pi f = \frac{2\pi}{T}, \qquad v = \frac{2\pi r}{T} = 2\pi rf, \qquad a_c = \frac{4\pi^2 r}{T^2} = \omega^2 r = \frac{v^2}{r}$$
+$$
+\omega = 2\pi f = \frac{2\pi}{T}, \qquad v = \frac{2\pi r}{T} = 2\pi rf, \qquad a_c = \frac{4\pi^2 r}{T^2} = \omega^2 r = \frac{v^2}{r}
+$$
 
 ### Worked Example: Geostationary Orbit
 
 A geostationary satellite orbits above the equator with a period of 24 hours. Given Earth's radius
 $R_E = 6.371 \times 10^6$ m and mass $M_E = 5.97 \times 10^{24}$ kg, find the altitude of the orbit.
 
-$$T = 86400 \mathrm{ s$$
+$$
+T = 86400 \mathrm{ s
+$$
 
-$$T^2 = \frac{4\pi^2 r^3}{GM}$$
+$$
+T^2 = \frac{4\pi^2 r^3}{GM}
+$$
 
-$$r^3 = \frac{GMT^2}{4\pi^2} = \frac{6.674 \times 10^{-11} \times 5.97 \times 10^{24} \times 86400^2}{4\pi^2}$$
+$$
+r^3 = \frac{GMT^2}{4\pi^2} = \frac{6.674 \times 10^{-11} \times 5.97 \times 10^{24} \times 86400^2}{4\pi^2}
+$$
 
-$$r^3 = \frac{2.987 \times 10^{24}}{39.48} = 7.566 \times 10^{22}$$
+$$
+r^3 = \frac{2.987 \times 10^{24}}{39.48} = 7.566 \times 10^{22}
+$$
 
-$$r = \sqrt[3]{7.566 \times 10^{22}} = 4.225 \times 10^7 \mathrm{ m$$
+$$
+r = \sqrt[3]{7.566 \times 10^{22}} = 4.225 \times 10^7 \mathrm{ m
+$$
 
-$$h = r - R_E = 4.225 \times 10^7 - 6.371 \times 10^6 = 3.588 \times 10^7 \mathrm{ m \approx 35880 \mathrm{ km$$
+$$
+h = r - R_E = 4.225 \times 10^7 - 6.371 \times 10^6 = 3.588 \times 10^7 \mathrm{ m \approx 35880 \mathrm{ km
+$$
 
 This is approximately 36000 km above Earth's surface, the standard geostationary orbit altitude.
 
@@ -35314,9 +35956,13 @@ This is approximately 36000 km above Earth's surface, the standard geostationary
 
 The position of a particle is $x(t) = t^4 - 4t^3 + 6t^2$ m.
 
-$$v(t) = \frac{dx}{dt} = 4t^3 - 12t^2 + 12t$$
+$$
+v(t) = \frac{dx}{dt} = 4t^3 - 12t^2 + 12t
+$$
 
-$$a(t) = \frac{dv}{dt} = 12t^2 - 24t + 12 = 12(t^2 - 2t + 1) = 12(t-1)^2$$
+$$
+a(t) = \frac{dv}{dt} = 12t^2 - 24t + 12 = 12(t^2 - 2t + 1) = 12(t-1)^2
+$$
 
 The acceleration is always non-negative (it is zero at $t = 1$). The particle is never decelerating.
 
@@ -35331,15 +35977,21 @@ A particle starts from rest. For $0 \le t \le 3$ s, $a = 6t$ m/s$^2$. For $t \gt
 
 **Phase 1 ($0 \le t \le 3$):**
 
-$$v(t) = \int_0^t 6t'\, dt' = 3t^2$$
+$$
+v(t) = \int_0^t 6t'\, dt' = 3t^2
+$$
 
-$$x(t) = \int_0^t 3t'^2\, dt' = t^3$$
+$$
+x(t) = \int_0^t 3t'^2\, dt' = t^3
+$$
 
 At $t = 3$: $v = 27$ m/s, $x = 27$ m.
 
 **Phase 2 ($t \gt 3$):** Constant velocity $v = 27$ m/s.
 
-$$x(t) = 27 + 27(t - 3)$$
+$$
+x(t) = 27 + 27(t - 3)
+$$
 
 ```mermaid
 flowchart TD
@@ -35411,19 +36063,29 @@ $60^\circ$ east of north. Find the velocity of A relative to B.
 
 **Step 1: Write velocity vectors**
 
-$$\vec{v}_A = 250\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_A = 250\hat{j} \mathrm{ m/s
+$$
 
-$$\vec{v}_B = 200\sin 60°\hat{i} + 200\cos 60°\hat{j} = 173.2\hat{i} + 100\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_B = 200\sin 60°\hat{i} + 200\cos 60°\hat{j} = 173.2\hat{i} + 100\hat{j} \mathrm{ m/s
+$$
 
 **Step 2: Relative velocity**
 
-$$\vec{v}_{AB} = \vec{v}_A - \vec{v}_B = -173.2\hat{i} + (250 - 100)\hat{j} = -173.2\hat{i} + 150\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_{AB} = \vec{v}_A - \vec{v}_B = -173.2\hat{i} + (250 - 100)\hat{j} = -173.2\hat{i} + 150\hat{j} \mathrm{ m/s
+$$
 
 **Step 3: Magnitude and direction**
 
-$$|\vec{v}_{AB}| = \sqrt{173.2^2 + 150^2} = \sqrt{29998 + 22500} = \sqrt{52498} = 229.1 \mathrm{ m/s$$
+$$
+|\vec{v}_{AB}| = \sqrt{173.2^2 + 150^2} = \sqrt{29998 + 22500} = \sqrt{52498} = 229.1 \mathrm{ m/s
+$$
 
-$$\theta = \arctan\left(\frac{150}{-173.2}\right) = 180° - 40.9° = 139.1° \mathrm{ from east$$
+$$
+\theta = \arctan\left(\frac{150}{-173.2}\right) = 180° - 40.9° = 139.1° \mathrm{ from east
+$$
 
 So the velocity of A relative to B is $229.1 \mathrm{ m/s$ at $139.1^\circ$ from east (or
 $50.9^\circ$ west of North).
@@ -35437,7 +36099,9 @@ Find (a) when the particle is at rest, (b) the total distance travelled, and (c)
 
 **Step 1: Find when the particle is at rest**
 
-$$v(t) = t^3 - 6t^2 + 9t = t(t^2 - 6t + 9) = t(t - 3)^2 = 0$$
+$$
+v(t) = t^3 - 6t^2 + 9t = t(t^2 - 6t + 9) = t(t - 3)^2 = 0
+$$
 
 $t = 0$ or $t = 3 \mathrm{ s$.
 
@@ -35451,13 +36115,19 @@ $t = 3$).
 
 **Step 3: Total distance = displacement (since $v \ge 0$ always)**
 
-$$s(5) - s(0) = \int_0^5 (t^3 - 6t^2 + 9t) \, dt = \left[ \frac{t^4}{4} - 2t^3 + \frac{9t^2}{2} \right]_0^5$$
+$$
+s(5) - s(0) = \int_0^5 (t^3 - 6t^2 + 9t) \, dt = \left[ \frac{t^4}{4} - 2t^3 + \frac{9t^2}{2} \right]_0^5
+$$
 
-$$= \frac{625}{4} - 250 + \frac{225}{2} = 156.25 - 250 + 112.5 = 18.75 \mathrm{ m$$
+$$
+= \frac{625}{4} - 250 + \frac{225}{2} = 156.25 - 250 + 112.5 = 18.75 \mathrm{ m
+$$
 
 **Step 4: Acceleration at key points**
 
-$$a(t) = 3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t - 1)(t - 3)$$
+$$
+a(t) = 3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t - 1)(t - 3)
+$$
 
 At $t = 0$: $a = 9 \mathrm{ m/s^2$ (speeding up) At $t = 3$: $a = 3(9 - 12 + 3) = 0 \mathrm{ m/s^2$
 (momentarily stationary, inflection point)
@@ -35478,7 +36148,9 @@ $10 \mathrm{ s$ And (c) the distance fallen after $10 \mathrm{ s$.
 
 At terminal velocity: $mg = kv_T^2$
 
-$$v_T = \sqrt{\frac{mg}{k}} = \sqrt{\frac{70 \times 9.8}{0.25}} = \sqrt{2744} = 52.4 \mathrm{ m/s$$
+$$
+v_T = \sqrt{\frac{mg}{k}} = \sqrt{\frac{70 \times 9.8}{0.25}} = \sqrt{2744} = 52.4 \mathrm{ m/s
+$$
 
 **Step 2: Analytical solution**
 
@@ -35486,21 +36158,33 @@ The equation of motion is $m\frac{dv}{dt} = mg - kv^2$.
 
 This has the solution:
 
-$$v(t) = v_T \tanh\left(\frac{gt}{v_T}\right)$$
+$$
+v(t) = v_T \tanh\left(\frac{gt}{v_T}\right)
+$$
 
-$$v(10) = 52.4 \times \tanh\left(\frac{9.8 \times 10}{52.4}\right) = 52.4 \times \tanh(1.870)$$
+$$
+v(10) = 52.4 \times \tanh\left(\frac{9.8 \times 10}{52.4}\right) = 52.4 \times \tanh(1.870)
+$$
 
-$$\tanh(1.870) = \frac{e^{3.74} - e^{-3.74}}{e^{3.74} + e^{-3.74}} = \frac{42.10 - 0.0238}{42.10 + 0.0238} = 0.9989$$
+$$
+\tanh(1.870) = \frac{e^{3.74} - e^{-3.74}}{e^{3.74} + e^{-3.74}} = \frac{42.10 - 0.0238}{42.10 + 0.0238} = 0.9989
+$$
 
-$$v(10) = 52.4 \times 0.9989 = 52.3 \mathrm{ m/s$$
+$$
+v(10) = 52.4 \times 0.9989 = 52.3 \mathrm{ m/s
+$$
 
 The skydiver has essentially reached terminal velocity after $10 \mathrm{ s$.
 
 **Step 3: Distance fallen**
 
-$$y(t) = \frac{v_T^2}{g}\ln\left(\cosh\left(\frac{gt}{v_T}\right)\right)$$
+$$
+y(t) = \frac{v_T^2}{g}\ln\left(\cosh\left(\frac{gt}{v_T}\right)\right)
+$$
 
-$$y(10) = \frac{2744}{9.8}\ln(\cosh(1.870)) = 280 \times \ln(3.263) = 280 \times 1.183 = 331.2 \mathrm{ m$$
+$$
+y(10) = \frac{2744}{9.8}\ln(\cosh(1.870)) = 280 \times \ln(3.263) = 280 \times 1.183 = 331.2 \mathrm{ m
+$$
 
 ## Common Pitfalls Extended
 
@@ -36261,14 +36945,18 @@ current $I_2 = 5$ A. Find the net magnetic field at the center of the loop.
 
 The field from the straight wire at the center of the loop (distance $d = 0.1$ m):
 
-$$B_{\text{wire} = \frac{\mu_0 I_1}{2\pi d} = \frac{(4\pi \times 10^{-7})(10)}{2\pi(0.1)} = \frac{2 \times 10^{-5}}{0.1} = 2.0 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{wire} = \frac{\mu_0 I_1}{2\pi d} = \frac{(4\pi \times 10^{-7})(10)}{2\pi(0.1)} = \frac{2 \times 10^{-5}}{0.1} = 2.0 \times 10^{-4}\,\text{T
+$$
 
 By the right-hand rule, if the wire is vertical and the loop is to the right, the field from the
 wire At the loop center points out of the page.
 
 The field from the circular loop at its center:
 
-$$B_{\text{loop} = \frac{\mu_0 I_2}{2R} = \frac{(4\pi \times 10^{-7})(5)}{2(0.05)} = \frac{2\pi \times 10^{-6}}{0.05} = 1.257 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{loop} = \frac{\mu_0 I_2}{2R} = \frac{(4\pi \times 10^{-7})(5)}{2(0.05)} = \frac{2\pi \times 10^{-6}}{0.05} = 1.257 \times 10^{-4}\,\text{T
+$$
 
 The direction depends on the current direction in the loop. If the loop current flows
 counterclockwise (viewed from above), the field at the center points out of the page (same direction
@@ -36276,11 +36964,15 @@ as the wire's Field).
 
 If both fields are in the same direction:
 
-$$B_{\text{net} = (2.0 + 1.257) \times 10^{-4} = 3.26 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{net} = (2.0 + 1.257) \times 10^{-4} = 3.26 \times 10^{-4}\,\text{T
+$$
 
 If opposite:
 
-$$B_{\text{net} = (2.0 - 1.257) \times 10^{-4} = 0.74 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{net} = (2.0 - 1.257) \times 10^{-4} = 0.74 \times 10^{-4}\,\text{T
+$$
 
 </details>
 
@@ -36307,7 +36999,9 @@ The induced current: $I = \mathcal{E}/R = Bwv/R$.
 By Lenz's law, the induced current creates a force opposing the motion (upward). The force on the
 Bottom wire is:
 
-$$F_B = BIw = \frac{B^2 w^2 v}{R}$$
+$$
+F_B = BIw = \frac{B^2 w^2 v}{R}
+$$
 
 At terminal velocity, this magnetic force balances gravity:
 
@@ -36346,15 +37040,21 @@ Solution: $I(t) = I_{\max}(1 - e^{-t/\tau}) = 0.2(1 - e^{-200t})$.
 
 Half of this is $20$ A/s:
 
-$$\frac{dI}{dt} = \frac{\mathcal{E}}{L}e^{-t/\tau} = 40e^{-200t} = 20$$
+$$
+\frac{dI}{dt} = \frac{\mathcal{E}}{L}e^{-t/\tau} = 40e^{-200t} = 20
+$$
 
-$$e^{-200t} = 0.5 \implies t = \frac{\ln 2}{200} = 3.47 \times 10^{-3}\,\text{s = 3.47\,\text{ms$$
+$$
+e^{-200t} = 0.5 \implies t = \frac{\ln 2}{200} = 3.47 \times 10^{-3}\,\text{s = 3.47\,\text{ms
+$$
 
 Note: this occurs at $t = \tau \ln 2$.
 
 (c) At $I = 0.8 I_{\max} = 0.16$ A:
 
-$$U_L = \frac{1}{2}LI^2 = \frac{1}{2}(0.5)(0.16)^2 = \frac{1}{2}(0.5)(0.0256) = 6.4 \times 10^{-3}\,\text{J = 6.4\,\text{mJ$$
+$$
+U_L = \frac{1}{2}LI^2 = \frac{1}{2}(0.5)(0.16)^2 = \frac{1}{2}(0.5)(0.0256) = 6.4 \times 10^{-3}\,\text{J = 6.4\,\text{mJ
+$$
 
 </details>
 
@@ -36373,20 +37073,30 @@ change of The electric field between the plates.
 
 (a) By conservation of charge and the continuity of the displacement current:
 
-$$I_d = I = 3\,\text{A$$
+$$
+I_d = I = 3\,\text{A
+$$
 
 (b) Apply the Ampere-Maxwell law with a circular Amperian loop of radius $r = 0.03$ m (note
 $r < R$):
 
-$$B \cdot 2\pi r = \mu_0 I_d \frac{r^2}{R^2} = \mu_0(3)\frac{(0.03)^2}{(0.05)^2} = \mu_0(3)(0.36)$$
+$$
+B \cdot 2\pi r = \mu_0 I_d \frac{r^2}{R^2} = \mu_0(3)\frac{(0.03)^2}{(0.05)^2} = \mu_0(3)(0.36)
+$$
 
-$$B = \frac{(4\pi \times 10^{-7})(1.08)}{2\pi(0.03)} = \frac{4.32\pi \times 10^{-7}}{6\pi \times 10^{-2}} = \frac{4.32 \times 10^{-7}}{0.06} = 7.2 \times 10^{-6}\,\text{T = 7.2\,\mu\text{T$$
+$$
+B = \frac{(4\pi \times 10^{-7})(1.08)}{2\pi(0.03)} = \frac{4.32\pi \times 10^{-7}}{6\pi \times 10^{-2}} = \frac{4.32 \times 10^{-7}}{0.06} = 7.2 \times 10^{-6}\,\text{T = 7.2\,\mu\text{T
+$$
 
 (c) The displacement current is:
 
-$$I_d = \epsilon_0 \frac{d\Phi_E}{dt} = \epsilon_0 \frac{d}{dt}(E \cdot \pi R^2) = \epsilon_0 \pi R^2 \frac{dE}{dt}$$
+$$
+I_d = \epsilon_0 \frac{d\Phi_E}{dt} = \epsilon_0 \frac{d}{dt}(E \cdot \pi R^2) = \epsilon_0 \pi R^2 \frac{dE}{dt}
+$$
 
-$$\frac{dE}{dt} = \frac{I_d}{\epsilon_0 \pi R^2} = \frac{3}{(8.854 \times 10^{-12})\pi(0.05)^2} = \frac{3}{6.95 \times 10^{-14}} = 4.32 \times 10^{13}\,\text{V/m\cdot\text{s$$
+$$
+\frac{dE}{dt} = \frac{I_d}{\epsilon_0 \pi R^2} = \frac{3}{(8.854 \times 10^{-12})\pi(0.05)^2} = \frac{3}{6.95 \times 10^{-14}} = 4.32 \times 10^{13}\,\text{V/m\cdot\text{s
+$$
 
 </details>
 
@@ -36864,9 +37574,13 @@ Impulse and the average force.
 
 The $F$-vs-$t$ graph is a triangle with base $8 \mathrm{ ms$ and height $800 \mathrm{ N$.
 
-$$J = \frac{1}{2} \times 0.008 \times 800 = 3.2 \mathrm{ N s$$
+$$
+J = \frac{1}{2} \times 0.008 \times 800 = 3.2 \mathrm{ N s
+$$
 
-$$F_{\mathrm{avg} = \frac{J}{\Delta t} = \frac{3.2}{0.008} = 400 \mathrm{ N$$
+$$
+F_{\mathrm{avg} = \frac{J}{\Delta t} = \frac{3.2}{0.008} = 400 \mathrm{ N
+$$
 
 The average force is half the peak force, which is always the case for a triangular force profile.
 
@@ -36875,9 +37589,13 @@ The average force is half the peak force, which is always the case for a triangu
 A force $F(t) = 6t^2 - 2t$ (in N) acts on a $3 \mathrm{ kg$ object initially at rest. Find the
 Impulse and velocity at $t = 4 \mathrm{ s$.
 
-$$J = \int_0^4 (6t^2 - 2t)\, dt = \left[2t^3 - t^2\right]_0^4 = 128 - 16 = 112 \mathrm{ N s$$
+$$
+J = \int_0^4 (6t^2 - 2t)\, dt = \left[2t^3 - t^2\right]_0^4 = 128 - 16 = 112 \mathrm{ N s
+$$
 
-$$v = \frac{J}{m} = \frac{112}{3} = 37.3 \mathrm{ m/s$$
+$$
+v = \frac{J}{m} = \frac{112}{3} = 37.3 \mathrm{ m/s
+$$
 
 ## 12. Collisions: Extended Analysis
 
@@ -36889,23 +37607,37 @@ $3 \mathrm{ m/s$. Find the velocity of the $3 \mathrm{ kg$ ball.
 
 **Conservation of $x$-momentum:**
 
-$$2(5) + 0 = 2(3\cos 30^{\circ}) + 3v_{2x}$$
+$$
+2(5) + 0 = 2(3\cos 30^{\circ}) + 3v_{2x}
+$$
 
-$$10 = 5.196 + 3v_{2x}$$
+$$
+10 = 5.196 + 3v_{2x}
+$$
 
-$$v_{2x} = \frac{4.804}{3} = 1.601 \mathrm{ m/s$$
+$$
+v_{2x} = \frac{4.804}{3} = 1.601 \mathrm{ m/s
+$$
 
 **Conservation of $y$-momentum:**
 
-$$0 = 2(3\sin 30^{\circ}) + 3v_{2y}$$
+$$
+0 = 2(3\sin 30^{\circ}) + 3v_{2y}
+$$
 
-$$0 = 3 + 3v_{2y}$$
+$$
+0 = 3 + 3v_{2y}
+$$
 
-$$v_{2y} = -1.0 \mathrm{ m/s$$
+$$
+v_{2y} = -1.0 \mathrm{ m/s
+$$
 
 **Speed of $3 \mathrm{ kg$ ball:**
 
-$$v_2 = \sqrt{1.601^2 + (-1.0)^2} = \sqrt{2.563 + 1} = \sqrt{3.563} = 1.89 \mathrm{ m/s$$
+$$
+v_2 = \sqrt{1.601^2 + (-1.0)^2} = \sqrt{2.563 + 1} = \sqrt{3.563} = 1.89 \mathrm{ m/s
+$$
 
 **Direction:** $\theta = \arctan\left(\frac{-1.0}{1.601}\right) = -32.0^{\circ}$ (below the original
 Direction).
@@ -36917,17 +37649,27 @@ block hanging from a string. Find the maximum height the block reaches.
 
 **Phase 1: Collision (conservation of momentum, perfectly inelastic).**
 
-$$mv = (m + M)V$$
+$$
+mv = (m + M)V
+$$
 
-$$0.01 \times 400 = (0.01 + 2)V$$
+$$
+0.01 \times 400 = (0.01 + 2)V
+$$
 
-$$V = \frac{4}{2.01} = 1.99 \mathrm{ m/s$$
+$$
+V = \frac{4}{2.01} = 1.99 \mathrm{ m/s
+$$
 
 **Phase 2: Swing (conservation of energy).**
 
-$$\frac{1}{2}(m + M)V^2 = (m + M)gh$$
+$$
+\frac{1}{2}(m + M)V^2 = (m + M)gh
+$$
 
-$$h = \frac{V^2}{2g} = \frac{1.99^2}{2 \times 9.8} = \frac{3.96}{19.6} = 0.202 \mathrm{ m$$
+$$
+h = \frac{V^2}{2g} = \frac{1.99^2}{2 \times 9.8} = \frac{3.96}{19.6} = 0.202 \mathrm{ m
+$$
 
 The key insight is that momentum is conserved during the collision (very short time, large internal
 Forces), but mechanical energy is not (the collision is inelastic). After the collision, energy is
@@ -36940,9 +37682,13 @@ Conserved during the upward swing (only gravity does work).
 A thin rod of length $L$ and mass $M$ has linear mass density $\lambda(x) = \lambda_0 x/L$Where $x$
 is the distance from one end. Find the center of mass.
 
-$$\bar{x} = \frac{\int_0^L x\lambda(x)\, dx}{\int_0^L \lambda(x)\, dx} = \frac{\int_0^L x \cdot \frac{\lambda_0 x}{L}\, dx}{\int_0^L \frac{\lambda_0 x}{L}\, dx}$$
+$$
+\bar{x} = \frac{\int_0^L x\lambda(x)\, dx}{\int_0^L \lambda(x)\, dx} = \frac{\int_0^L x \cdot \frac{\lambda_0 x}{L}\, dx}{\int_0^L \frac{\lambda_0 x}{L}\, dx}
+$$
 
-$$= \frac{\frac{\lambda_0}{L}\int_0^L x^2\, dx}{\frac{\lambda_0}{L}\int_0^L x\, dx} = \frac{\frac{L^3}{3}}{\frac{L^2}{2}} = \frac{2L}{3}$$
+$$
+= \frac{\frac{\lambda_0}{L}\int_0^L x^2\, dx}{\frac{\lambda_0}{L}\int_0^L x\, dx} = \frac{\frac{L^3}{3}}{\frac{L^2}{2}} = \frac{2L}{3}
+$$
 
 The center of mass is at $\frac{2}{3}L$ from the lighter end (not at the midpoint), because more
 Mass is concentrated toward the heavier end.
@@ -36955,9 +37701,13 @@ the center of mass.
 Take the origin at the corner. Rod 1 lies along the positive $x$-axis with CM at $(L/2, 0)$. Rod 2
 Lies along the positive $y$-axis with CM at $(0, L/2)$.
 
-$$\bar{x} = \frac{M \cdot L/2 + M \cdot 0}{2M} = \frac{L}{4}$$
+$$
+\bar{x} = \frac{M \cdot L/2 + M \cdot 0}{2M} = \frac{L}{4}
+$$
 
-$$\bar{y} = \frac{M \cdot 0 + M \cdot L/2}{2M} = \frac{L}{4}$$
+$$
+\bar{y} = \frac{M \cdot 0 + M \cdot L/2}{2M} = \frac{L}{4}
+$$
 
 The center of mass is at $(L/4, L/4)$ from the corner.
 
@@ -36968,7 +37718,9 @@ The center of mass is at $(L/4, L/4)$ from the corner.
 A rocket has initial mass $m_0 = 50000 \mathrm{ kg$ and final mass $m_f = 10000 \mathrm{ kg$. The
 Exhaust velocity is $v_e = 3000 \mathrm{ m/s$. Find the velocity gained.
 
-$$\Delta v = v_e \ln\frac{m_0}{m_f} = 3000 \times \ln\left(\frac{50000}{10000}\right) = 3000 \times \ln 5 = 3000 \times 1.609 = 4828 \mathrm{ m/s$$
+$$
+\Delta v = v_e \ln\frac{m_0}{m_f} = 3000 \times \ln\left(\frac{50000}{10000}\right) = 3000 \times \ln 5 = 3000 \times 1.609 = 4828 \mathrm{ m/s
+$$
 
 ### Why Multi-Stage Rockets Are More Efficient
 
@@ -36980,7 +37732,9 @@ Stage.
 For a two-stage rocket with equal exhaust velocities and equal structural fractions, the total
 Velocity gain is:
 
-$$\Delta v_{\mathrm{total} = v_e \ln\frac{m_0}{m_1} + v_e \ln\frac{m_1}{m_f} = v_e \ln\frac{m_0}{m_f}$$
+$$
+\Delta v_{\mathrm{total} = v_e \ln\frac{m_0}{m_1} + v_e \ln\frac{m_1}{m_f} = v_e \ln\frac{m_0}{m_f}
+$$
 
 This is the same as a single-stage rocket with the same mass ratio, but the structural mass is much
 Less because each stage only needs to be strong enough for its own fuel load, not the total fuel
@@ -37033,33 +37787,55 @@ $4 \mathrm{ kg$ object and classify the collision.
 
 **Step 1: Conservation of momentum (x-direction)**
 
-$$m_1 u_1 = m_1 v_{1x} + m_2 v_{2x}$$
+$$
+m_1 u_1 = m_1 v_{1x} + m_2 v_{2x}
+$$
 
-$$4 \times 6 = 4v_{1x} + 6 \times 3\cos 45^\circ$$
+$$
+4 \times 6 = 4v_{1x} + 6 \times 3\cos 45^\circ
+$$
 
-$$24 = 4v_{1x} + 12.728$$
+$$
+24 = 4v_{1x} + 12.728
+$$
 
-$$v_{1x} = \frac{24 - 12.728}{4} = 2.818 \mathrm{ m/s$$
+$$
+v_{1x} = \frac{24 - 12.728}{4} = 2.818 \mathrm{ m/s
+$$
 
 **Step 2: Conservation of momentum (y-direction)**
 
-$$0 = m_1 v_{1y} + m_2 v_{2y}$$
+$$
+0 = m_1 v_{1y} + m_2 v_{2y}
+$$
 
-$$0 = 4v_{1y} + 6 \times 3\sin 45^\circ$$
+$$
+0 = 4v_{1y} + 6 \times 3\sin 45^\circ
+$$
 
-$$v_{1y} = \frac{-12.728}{4} = -3.182 \mathrm{ m/s$$
+$$
+v_{1y} = \frac{-12.728}{4} = -3.182 \mathrm{ m/s
+$$
 
 **Step 3: Final velocity of the $4 \mathrm{ kg$ object**
 
-$$|v_1| = \sqrt{2.818^2 + (-3.182)^2} = \sqrt{7.941 + 10.125} = \sqrt{18.066} = 4.251 \mathrm{ m/s$$
+$$
+|v_1| = \sqrt{2.818^2 + (-3.182)^2} = \sqrt{7.941 + 10.125} = \sqrt{18.066} = 4.251 \mathrm{ m/s
+$$
 
-$$\theta = \arctan\left(\frac{-3.182}{2.818}\right) = -48.5^\circ$$
+$$
+\theta = \arctan\left(\frac{-3.182}{2.818}\right) = -48.5^\circ
+$$
 
 **Step 4: Classify the collision**
 
-$$KE_i = \frac{1}{2}(4)(6^2) = 72 \mathrm{ J$$
+$$
+KE_i = \frac{1}{2}(4)(6^2) = 72 \mathrm{ J
+$$
 
-$$KE_f = \frac{1}{2}(4)(4.251)^2 + \frac{1}{2}(6)(3^2) = \frac{1}{2}(4)(18.07) + \frac{1}{2}(6)(9) = 36.14 + 27 = 63.14 \mathrm{ J$$
+$$
+KE_f = \frac{1}{2}(4)(4.251)^2 + \frac{1}{2}(6)(3^2) = \frac{1}{2}(4)(18.07) + \frac{1}{2}(6)(9) = 36.14 + 27 = 63.14 \mathrm{ J
+$$
 
 $$KE_f \lt KE_i$$, so this is an inelastic collision (but not perfectly inelastic since the objects
 Did not stick together). Energy lost $= 72 - 63.14 = 8.86 \mathrm{ J$.
@@ -37068,26 +37844,38 @@ Did not stick together). Energy lost $= 72 - 63.14 = 8.86 \mathrm{ J$.
 
 A $2 \mathrm{ kg$ object initially at rest is subjected to a force described by:
 
-$$F(t) = \begin{cases} 20t & 0 \le t \le 2 \\ 40 - 10t & 2 \lt t \le 4 \\ 0 & t \gt 4 \end{cases}$$
+$$
+F(t) = \begin{cases} 20t & 0 \le t \le 2 \\ 40 - 10t & 2 \lt t \le 4 \\ 0 & t \gt 4 \end{cases}
+$$
 
 Where $F$ is in newtons and $t$ in seconds. Find the velocity at $t = 4 \mathrm{ s$ and the average
 Force.
 
 **Step 1: Calculate total impulse**
 
-$$J = \int_0^2 20t \, dt + \int_2^4 (40 - 10t) \, dt$$
+$$
+J = \int_0^2 20t \, dt + \int_2^4 (40 - 10t) \, dt
+$$
 
-$$J = \left[ 10t^2 \right]_0^2 + \left[ 40t - 5t^2 \right]_2^4$$
+$$
+J = \left[ 10t^2 \right]_0^2 + \left[ 40t - 5t^2 \right]_2^4
+$$
 
-$$J = (40 - 0) + (160 - 80 - 80 + 20) = 40 + 20 = 60 \mathrm{ N\cdot\mathrm{s$$
+$$
+J = (40 - 0) + (160 - 80 - 80 + 20) = 40 + 20 = 60 \mathrm{ N\cdot\mathrm{s
+$$
 
 **Step 2: Final velocity**
 
-$$J = mv - mu = 2v - 0 \implies v = 30 \mathrm{ m/s$$
+$$
+J = mv - mu = 2v - 0 \implies v = 30 \mathrm{ m/s
+$$
 
 **Step 3: Average force**
 
-$$F_{\mathrm{avg} = \frac{J}{\Delta t} = \frac{60}{4} = 15 \mathrm{ N$$
+$$
+F_{\mathrm{avg} = \frac{J}{\Delta t} = \frac{60}{4} = 15 \mathrm{ N
+$$
 
 ### Example 18: Perfectly Inelastic Collision with Rotation
 
@@ -37096,17 +37884,27 @@ $1.9 \mathrm{ kg$ suspended by a $2 \mathrm{ m$ string. Find the maximum height 
 
 **Step 1: Momentum conservation (perfectly inelastic collision)**
 
-$$mv = (m + M)V$$
+$$
+mv = (m + M)V
+$$
 
-$$0.1 \times 400 = (0.1 + 1.9)V$$
+$$
+0.1 \times 400 = (0.1 + 1.9)V
+$$
 
-$$40 = 2V \implies V = 20 \mathrm{ m/s$$
+$$
+40 = 2V \implies V = 20 \mathrm{ m/s
+$$
 
 **Step 2: Energy conservation (pendulum swing)**
 
-$$\frac{1}{2}(m + M)V^2 = (m + M)gh$$
+$$
+\frac{1}{2}(m + M)V^2 = (m + M)gh
+$$
 
-$$h = \frac{V^2}{2g} = \frac{400}{2 \times 9.8} = 20.4 \mathrm{ m$$
+$$
+h = \frac{V^2}{2g} = \frac{400}{2 \times 9.8} = 20.4 \mathrm{ m
+$$
 
 **Step 3: Check feasibility**
 
@@ -37115,16 +37913,24 @@ block swings past the horizontal. Let us check the velocity at the top of the sw
 
 At the top of a vertical circle, the block must have enough speed to maintain tension:
 
-$$V_{\mathrm{top}^2 = V^2 - 4gL = 400 - 4 \times 9.8 \times 2 = 400 - 78.4 = 321.6$$
+$$
+V_{\mathrm{top}^2 = V^2 - 4gL = 400 - 4 \times 9.8 \times 2 = 400 - 78.4 = 321.6
+$$
 
-$$V_{\mathrm{top} = 17.9 \mathrm{ m/s$$
+$$
+V_{\mathrm{top} = 17.9 \mathrm{ m/s
+$$
 
 Since $V_{\mathrm{top} \gt 0$The block completes full circles. The string remains taut at the top
 If:
 
-$$T + (m+M)g = \frac{(m+M)V_{\mathrm{top}^2}{L}$$
+$$
+T + (m+M)g = \frac{(m+M)V_{\mathrm{top}^2}{L}
+$$
 
-$$T = 2 \times \frac{321.6}{2} - 2 \times 9.8 = 321.6 - 19.6 = 302 \mathrm{ N$$
+$$
+T = 2 \times \frac{321.6}{2} - 2 \times 9.8 = 321.6 - 19.6 = 302 \mathrm{ N
+$$
 
 The tension is positive, so the block does indeed complete full vertical circles.
 
@@ -37770,7 +38576,9 @@ Is lower.
 The steepest angle at which an object on an inclined plane remains stationary is the **angle of
 Repose**, given by:
 
-$$\theta_r = \arctan(\mu_s)$$
+$$
+\theta_r = \arctan(\mu_s)
+$$
 
 This is because the block is on the point of sliding when $mg\sin\theta = \mu_s mg\cos\theta$I.e.,
 $\tan\theta = \mu_s$. This relationship is used in geology to predict landslides and in industry to
@@ -37784,11 +38592,15 @@ Can round the curve without needing any friction.
 At the ideal speed, the horizontal component of the normal force provides the centripetal force, and
 The vertical component balances gravity:
 
-$$N\sin\theta = \frac{mv^2}{r}, \qquad N\cos\theta = mg$$
+$$
+N\sin\theta = \frac{mv^2}{r}, \qquad N\cos\theta = mg
+$$
 
 Dividing: $\tan\theta = \frac{v^2}{rg}$
 
-$$v = \sqrt{rg\tan\theta} = \sqrt{80 \times 9.8 \times \tan 15^{\circ}} = \sqrt{80 \times 9.8 \times 0.2679} = \sqrt{209.9} = 14.5 \mathrm{ m/s$$
+$$
+v = \sqrt{rg\tan\theta} = \sqrt{80 \times 9.8 \times \tan 15^{\circ}} = \sqrt{80 \times 9.8 \times 0.2679} = \sqrt{209.9} = 14.5 \mathrm{ m/s
+$$
 
 At this speed, the car can negotiate the curve even on ice. Below this speed, friction acts up the
 Slope; above it, friction acts down the slope.
@@ -37804,11 +38616,15 @@ Hanging vertically.
 **System approach:** The net force on the system is $m_3 g$ (the weight of the hanging mass). The
 Total mass being accelerated is $m_1 + m_2 + m_3 = 15 \mathrm{ kg$.
 
-$$a = \frac{m_3 g}{m_1 + m_2 + m_3} = \frac{5 \times 9.8}{15} = \frac{49}{15} = 3.27 \mathrm{ m/s^2$$
+$$
+a = \frac{m_3 g}{m_1 + m_2 + m_3} = \frac{5 \times 9.8}{15} = \frac{49}{15} = 3.27 \mathrm{ m/s^2
+$$
 
 **Individual approach for tension:** For $m_3$:
 
-$$m_3 g - T = m_3 a \implies T = m_3(g - a) = 5(9.8 - 3.27) = 5 \times 6.53 = 32.7 \mathrm{ N$$
+$$
+m_3 g - T = m_3 a \implies T = m_3(g - a) = 5(9.8 - 3.27) = 5 \times 6.53 = 32.7 \mathrm{ N
+$$
 
 For the string between $m_1$ and $m_2$ on the table: $T' = m_2 a = 6 \times 3.27 = 19.6 \mathrm{ N$.
 
@@ -37823,7 +38639,9 @@ $m_3$.
 
 At the Earth's surface, $g \approx 9.8 \mathrm{ m/s^2$. At height $h$ above the surface:
 
-$$g(h) = \frac{GM}{(R_E + h)^2}$$
+$$
+g(h) = \frac{GM}{(R_E + h)^2}
+$$
 
 At $h = R_E$ (one Earth radius above the surface):
 $g = \frac{GM}{4R_E^2} = \frac{g_0}{4} \approx 2.45 \mathrm{ m/s^2$.
@@ -37837,9 +38655,13 @@ Surface value.
 
 For a point at distance $r$ from the centre of a uniform sphere of radius $R$ and mass $M$:
 
-$$g(r) = \frac{GMr}{R^3} \quad (r \le R)$$
+$$
+g(r) = \frac{GMr}{R^3} \quad (r \le R)
+$$
 
-$$g(r) = \frac{GM}{r^2} \quad (r \gt R)$$
+$$
+g(r) = \frac{GM}{r^2} \quad (r \gt R)
+$$
 
 Inside the sphere, $g$ increases linearly with $r$ and reaches its maximum at the surface. This is
 Because only the mass within radius $r$ contributes to the gravitational force at that point (by
@@ -37851,17 +38673,25 @@ Newton's shell theorem).
 
 A satellite orbits at an altitude of $500 \mathrm{ km$ above Earth's surface.
 
-$$r = R_E + h = 6.371 \times 10^6 + 5 \times 10^5 = 6.871 \times 10^6 \mathrm{ m$$
+$$
+r = R_E + h = 6.371 \times 10^6 + 5 \times 10^5 = 6.871 \times 10^6 \mathrm{ m
+$$
 
-$$v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{6.674 \times 10^{-11} \times 5.97 \times 10^{24}}{6.871 \times 10^6}} = \sqrt{5.80 \times 10^7} = 7615 \mathrm{ m/s$$
+$$
+v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{6.674 \times 10^{-11} \times 5.97 \times 10^{24}}{6.871 \times 10^6}} = \sqrt{5.80 \times 10^7} = 7615 \mathrm{ m/s
+$$
 
-$$T = \frac{2\pi r}{v} = \frac{2\pi \times 6.871 \times 10^6}{7615} = 5671 \mathrm{ s \approx 94.5 \mathrm{ min$$
+$$
+T = \frac{2\pi r}{v} = \frac{2\pi \times 6.871 \times 10^6}{7615} = 5671 \mathrm{ s \approx 94.5 \mathrm{ min
+$$
 
 ### Worked Example: Escape Velocity from a Planet
 
 The escape velocity from a planet of mass $M$ and radius $R$ is:
 
-$$v_e = \sqrt{\frac{2GM}{R}}$$
+$$
+v_e = \sqrt{\frac{2GM}{R}}
+$$
 
 For Earth:
 $v_e = \sqrt{\frac{2 \times 6.674 \times 10^{-11} \times 5.97 \times 10^{24}}{6.371 \times 10^6}} = 11186 \mathrm{ m/s \approx 11.2 \mathrm{ km/s$.
@@ -37938,37 +38768,57 @@ Pulley.
 
 For $m_1$ (lighter, accelerates up):
 
-$$T_1 - m_1 g = m_1 a$$
+$$
+T_1 - m_1 g = m_1 a
+$$
 
 For $m_2$ (heavier, accelerates down):
 
-$$m_2 g - T_2 = m_2 a$$
+$$
+m_2 g - T_2 = m_2 a
+$$
 
 For the pulley (rotates clockwise):
 
-$$T_2 R - T_1 R = I\alpha = \frac{1}{2}MR^2 \times \frac{a}{R} = \frac{1}{2}MaR$$
+$$
+T_2 R - T_1 R = I\alpha = \frac{1}{2}MR^2 \times \frac{a}{R} = \frac{1}{2}MaR
+$$
 
-$$T_2 - T_1 = \frac{1}{2}Ma$$
+$$
+T_2 - T_1 = \frac{1}{2}Ma
+$$
 
 **Step 2: Solve the system**
 
 From the first two equations:
 
-$$T_1 = m_1(g + a), \quad T_2 = m_2(g - a)$$
+$$
+T_1 = m_1(g + a), \quad T_2 = m_2(g - a)
+$$
 
 Substituting into the pulley equation:
 
-$$m_2(g - a) - m_1(g + a) = \frac{1}{2}Ma$$
+$$
+m_2(g - a) - m_1(g + a) = \frac{1}{2}Ma
+$$
 
-$$(m_2 - m_1)g - (m_1 + m_2)a = \frac{1}{2}Ma$$
+$$
+(m_2 - m_1)g - (m_1 + m_2)a = \frac{1}{2}Ma
+$$
 
-$$a = \frac{(m_2 - m_1)g}{m_1 + m_2 + \frac{1}{2}M} = \frac{(6 - 4) \times 9.8}{4 + 6 + 1} = \frac{19.6}{11} = 1.78 \mathrm{ m/s^2$$
+$$
+a = \frac{(m_2 - m_1)g}{m_1 + m_2 + \frac{1}{2}M} = \frac{(6 - 4) \times 9.8}{4 + 6 + 1} = \frac{19.6}{11} = 1.78 \mathrm{ m/s^2
+$$
 
 **Step 3: Find the tensions**
 
-$$T_1 = 4(9.8 + 1.78) = 4 \times 11.58 = 46.3 \mathrm{ N$$
+$$
+T_1 = 4(9.8 + 1.78) = 4 \times 11.58 = 46.3 \mathrm{ N
+$$
 
-$$T_2 = 6(9.8 - 1.78) = 6 \times 8.02 = 48.1 \mathrm{ N$$
+$$
+T_2 = 6(9.8 - 1.78) = 6 \times 8.02 = 48.1 \mathrm{ N
+$$
 
 <Aside type="note">
 With a massless pulley, $T_1 = T_2$ and
@@ -37986,15 +38836,21 @@ Where $b = 0.8 \mathrm{ N\cdot\mathrm{s/m$. Find (a) the terminal velocity, (b) 
 
 **Step 1: Terminal velocity (net force = 0)**
 
-$$mg = bv_T$$
+$$
+mg = bv_T
+$$
 
-$$v_T = \frac{mg}{b} = \frac{0.5 \times 9.8}{0.8} = 6.125 \mathrm{ m/s$$
+$$
+v_T = \frac{mg}{b} = \frac{0.5 \times 9.8}{0.8} = 6.125 \mathrm{ m/s
+$$
 
 **Step 2: Time constant**
 
 The equation of motion is $ma = mg - bv$Which gives:
 
-$$v(t) = v_T(1 - e^{-t/\tau})$$
+$$
+v(t) = v_T(1 - e^{-t/\tau})
+$$
 
 Where $\tau = m/b = 0.5/0.8 = 0.625 \mathrm{ s$.
 
@@ -38002,7 +38858,9 @@ The time to reach $63\%$ of $v_T$ is $t = \tau = 0.625 \mathrm{ s$.
 
 **Step 3: Velocity after $3 \mathrm{ s$**
 
-$$v(3) = 6.125(1 - e^{-3/0.625}) = 6.125(1 - e^{-4.8}) = 6.125(1 - 0.00823) = 6.125 \times 0.9918 = 6.074 \mathrm{ m/s$$
+$$
+v(3) = 6.125(1 - e^{-3/0.625}) = 6.125(1 - e^{-4.8}) = 6.125(1 - 0.00823) = 6.125 \times 0.9918 = 6.074 \mathrm{ m/s
+$$
 
 The ball is essentially at terminal velocity after $3 \mathrm{ s$ (about $99.2\%$ of $v_T$).
 
@@ -38015,21 +38873,33 @@ horizontal And Cable B makes $45^\circ$ with the horizontal. Find the tension in
 
 Horizontal: $T_A \cos 30° = T_B \cos 45^\circ$
 
-$$T_A \times 0.866 = T_B \times 0.707 \implies T_A = 0.816 T_B$$
+$$
+T_A \times 0.866 = T_B \times 0.707 \implies T_A = 0.816 T_B
+$$
 
 Vertical: $T_A \sin 30° + T_B \sin 45° = mg$
 
-$$T_A \times 0.5 + T_B \times 0.707 = 20 \times 9.8 = 196 \mathrm{ N$$
+$$
+T_A \times 0.5 + T_B \times 0.707 = 20 \times 9.8 = 196 \mathrm{ N
+$$
 
 **Step 2: Substitute and solve**
 
-$$0.816 T_B \times 0.5 + 0.707 T_B = 196$$
+$$
+0.816 T_B \times 0.5 + 0.707 T_B = 196
+$$
 
-$$0.408 T_B + 0.707 T_B = 196$$
+$$
+0.408 T_B + 0.707 T_B = 196
+$$
 
-$$1.115 T_B = 196 \implies T_B = 175.8 \mathrm{ N$$
+$$
+1.115 T_B = 196 \implies T_B = 175.8 \mathrm{ N
+$$
 
-$$T_A = 0.816 \times 175.8 = 143.4 \mathrm{ N$$
+$$
+T_A = 0.816 \times 175.8 = 143.4 \mathrm{ N
+$$
 
 **Check:** $143.4 \times 0.5 + 175.8 \times 0.707 = 71.7 + 124.3 = 196.0 \mathrm{ N$. Confirmed.
 
@@ -38678,25 +39548,39 @@ Rotational motion is the **mirror image of linear motion**, every linear concept
 Divide a solid sphere of mass $M$ and radius $R$ into thin disks of radius $r$ and thickness $dz$ at
 Height $z$ from the centre.
 
-$$r^2 = R^2 - z^2$$
+$$
+r^2 = R^2 - z^2
+$$
 
 The volume of each disk is $dV = \pi r^2 dz = \pi(R^2 - z^2)dz$.
 
-$$dm = \frac{M}{\frac{4}{3}\pi R^3} \cdot \pi(R^2 - z^2)dz = \frac{3M}{4R^3}(R^2 - z^2)dz$$
+$$
+dm = \frac{M}{\frac{4}{3}\pi R^3} \cdot \pi(R^2 - z^2)dz = \frac{3M}{4R^3}(R^2 - z^2)dz
+$$
 
-$$I = \int_{-R}^{R} \frac{1}{2}r^2\, dm = \int_{-R}^{R} \frac{1}{2}(R^2 - z^2) \cdot \frac{3M}{4R^3}(R^2 - z^2)dz$$
+$$
+I = \int_{-R}^{R} \frac{1}{2}r^2\, dm = \int_{-R}^{R} \frac{1}{2}(R^2 - z^2) \cdot \frac{3M}{4R^3}(R^2 - z^2)dz
+$$
 
-$$= \frac{3M}{8R^3}\int_{-R}^{R} (R^2 - z^2)^2 dz = \frac{3M}{8R^3}\int_{-R}^{R} (R^4 - 2R^2z^2 + z^4)dz$$
+$$
+= \frac{3M}{8R^3}\int_{-R}^{R} (R^2 - z^2)^2 dz = \frac{3M}{8R^3}\int_{-R}^{R} (R^4 - 2R^2z^2 + z^4)dz
+$$
 
-$$= \frac{3M}{8R^3}\left[R^4 \cdot 2R - 2R^2 \cdot \frac{2R^3}{3} + \frac{2R^5}{5}\right] = \frac{3M}{8R^3}\left[2R^5 - \frac{4R^5}{3} + \frac{2R^5}{5}\right]$$
+$$
+= \frac{3M}{8R^3}\left[R^4 \cdot 2R - 2R^2 \cdot \frac{2R^3}{3} + \frac{2R^5}{5}\right] = \frac{3M}{8R^3}\left[2R^5 - \frac{4R^5}{3} + \frac{2R^5}{5}\right]
+$$
 
-$$= \frac{3M}{8R^3} \cdot \frac{2R^5}{15}(15 - 10 + 3) = \frac{3M}{8R^3} \cdot \frac{16R^5}{15} = \frac{2MR^2}{5}$$
+$$
+= \frac{3M}{8R^3} \cdot \frac{2R^5}{15}(15 - 10 + 3) = \frac{3M}{8R^3} \cdot \frac{16R^5}{15} = \frac{2MR^2}{5}
+$$
 
 ### Derivation: Thin Rod About One End
 
 A thin uniform rod of mass $M$ and length $L$Pivoted at one end.
 
-$$I = \int_0^L x^2 \frac{M}{L}\, dx = \frac{M}{L}\left[\frac{x^3}{3}\right]_0^L = \frac{ML^2}{3}$$
+$$
+I = \int_0^L x^2 \frac{M}{L}\, dx = \frac{M}{L}\left[\frac{x^3}{3}\right]_0^L = \frac{ML^2}{3}
+$$
 
 Using the parallel axis theorem:
 $I_{\mathrm{end} = I_{\mathrm{cm} + Md^2 = \frac{ML^2}{12} + M\left(\frac{L}{2}\right)^2 = \frac{ML^2}{12} + \frac{ML^2}{4} = \frac{ML^2}{3}$.
@@ -38726,11 +39610,17 @@ KE, so they move more slowly.
 A solid sphere rolls without slipping up a $20^{\circ}$ incline with initial speed $5 \mathrm{ m/s$.
 How far up does it travel?
 
-$$Mgh = \frac{1}{2}Mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}Mv^2 + \frac{1}{2}\cdot\frac{2}{5}MR^2\cdot\frac{v^2}{R^2} = \frac{7}{10}Mv^2$$
+$$
+Mgh = \frac{1}{2}Mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}Mv^2 + \frac{1}{2}\cdot\frac{2}{5}MR^2\cdot\frac{v^2}{R^2} = \frac{7}{10}Mv^2
+$$
 
-$$h = \frac{7v^2}{10g} = \frac{7 \times 25}{10 \times 9.8} = \frac{175}{98} = 1.786 \mathrm{ m$$
+$$
+h = \frac{7v^2}{10g} = \frac{7 \times 25}{10 \times 9.8} = \frac{175}{98} = 1.786 \mathrm{ m
+$$
 
-$$d = \frac{h}{\sin 20^{\circ}} = \frac{1.786}{0.342} = 5.22 \mathrm{ m$$
+$$
+d = \frac{h}{\sin 20^{\circ}} = \frac{1.786}{0.342} = 5.22 \mathrm{ m
+$$
 
 ## 13. Angular Momentum: Extended Examples
 
@@ -38743,17 +39633,27 @@ End, perpendicular to the rod. Find the angular velocity of the rod after the co
 **Conservation of angular momentum** about the pivot (the external forces at the pivot produce no
 Torque about the pivot):
 
-$$L_{\mathrm{initial} = L_{\mathrm{final}$$
+$$
+L_{\mathrm{initial} = L_{\mathrm{final}
+$$
 
-$$mv \cdot L = I_{\mathrm{rod}\omega + mv' \cdot L$$
+$$
+mv \cdot L = I_{\mathrm{rod}\omega + mv' \cdot L
+$$
 
 Since the ball sticks to the end of the rod (perfectly inelastic collision):
 
-$$mvr = (I_{\mathrm{rod} + mr^2)\omega = \left(\frac{1}{3}Mr^2 + mr^2\right)\omega$$
+$$
+mvr = (I_{\mathrm{rod} + mr^2)\omega = \left(\frac{1}{3}Mr^2 + mr^2\right)\omega
+$$
 
-$$\omega = \frac{mvr}{r^2\left(\frac{M}{3} + m\right)} = \frac{mv}{r\left(\frac{M}{3} + m\right)} = \frac{0.05 \times 8}{1 \times \left(\frac{2}{3} + 0.05\right)}$$
+$$
+\omega = \frac{mvr}{r^2\left(\frac{M}{3} + m\right)} = \frac{mv}{r\left(\frac{M}{3} + m\right)} = \frac{0.05 \times 8}{1 \times \left(\frac{2}{3} + 0.05\right)}
+$$
 
-$$= \frac{0.4}{0.717} = 0.558 \mathrm{ rad/s$$
+$$
+= \frac{0.4}{0.717} = 0.558 \mathrm{ rad/s
+$$
 
 ### Worked Example: Person on a Rotating Platform
 
@@ -38765,11 +39665,17 @@ Find the new angular speed.
 
 **Finally:** $I_f = 600 + 60 \times 0^2 = 600 \mathrm{ kg\cdot\mathrm{m^2$.
 
-$$I_i\omega_i = I_f\omega_f$$
+$$
+I_i\omega_i = I_f\omega_f
+$$
 
-$$1140 \times 0.5 = 600 \times \omega_f$$
+$$
+1140 \times 0.5 = 600 \times \omega_f
+$$
 
-$$\omega_f = \frac{570}{600} = 0.95 \mathrm{ rad/s$$
+$$
+\omega_f = \frac{570}{600} = 0.95 \mathrm{ rad/s
+$$
 
 The angular speed nearly doubles. This is the same principle behind figure skaters pulling in their
 Arms to spin faster.
@@ -38798,7 +39704,9 @@ $Mg \times 2\cos 65^{\circ} = 15 \times 9.8 \times 2 \times 0.4226 = 124.2 \math
 
 Anticlockwise (negative): $N_w \times 4\sin 65^{\circ} = N_w \times 3.625$
 
-$$N_w \times 3.625 = 124.2 \implies N_w = 34.3 \mathrm{ N$$
+$$
+N_w \times 3.625 = 124.2 \implies N_w = 34.3 \mathrm{ N
+$$
 
 **Horizontal equilibrium:** $f = N_w = 34.3 \mathrm{ N$
 
@@ -38856,19 +39764,27 @@ Velocity.
 
 **Step 1: Moment of inertia of the wheel (thin ring approximation)**
 
-$$I = MR^2 = 2 \times 0.35^2 = 0.245 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I = MR^2 = 2 \times 0.35^2 = 0.245 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 **Step 2: Angular momentum of the wheel**
 
-$$L = I\omega = 0.245 \times 50 = 12.25 \mathrm{ kg\cdot\mathrm{m^2/\mathrm{s$$
+$$
+L = I\omega = 0.245 \times 50 = 12.25 \mathrm{ kg\cdot\mathrm{m^2/\mathrm{s
+$$
 
 **Step 3: Torque due to gravity about the support**
 
-$$\tau = Mg \times d = 2 \times 9.8 \times 0.15 = 2.94 \mathrm{ N\cdot\mathrm{m$$
+$$
+\tau = Mg \times d = 2 \times 9.8 \times 0.15 = 2.94 \mathrm{ N\cdot\mathrm{m
+$$
 
 **Step 4: Precession angular velocity**
 
-$$\omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s$$
+$$
+\omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s
+$$
 
 The wheel precesses at $0.240 \mathrm{ rad/s$Completing one revolution in
 $T = 2\pi/\omega_p = 26.2 \mathrm{ s$.
@@ -38890,7 +39806,9 @@ $I_{\mathrm{rod} = \frac{1}{3}ML^2 = \frac{1}{3} \times 3 \times 4 = 4 \mathrm{ 
 
 Point mass at the pivot: $I_{\mathrm{pm} = mr^2 = 2 \times 0^2 = 0 \mathrm{ kg\cdot\mathrm{m^2$
 
-$$I_a = 4 + 0 = 4 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I_a = 4 + 0 = 4 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 **Part (b): About the centre of the rod**
 
@@ -38900,24 +39818,34 @@ $I_{\mathrm{rod} = \frac{1}{12}ML^2 = \frac{1}{12} \times 3 \times 4 = 1 \mathrm
 Point mass is $1 \mathrm{ m$ from the centre:
 $I_{\mathrm{pm} = 2 \times 1^2 = 2 \mathrm{ kg\cdot\mathrm{m^2$
 
-$$I_b = 1 + 2 = 3 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I_b = 1 + 2 = 3 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 **Verify with parallel axis theorem (part a from part b):**
 
-$$I_a = I_b + M_{\mathrm{total}d^2 = 3 + 5 \times 1^2 = 8 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I_a = I_b + M_{\mathrm{total}d^2 = 3 + 5 \times 1^2 = 8 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 Wait -- this gives $8$Not $4$. Let me recheck. The parallel axis theorem requires the total mass To
 be at the centre of mass of the _entire system_, not just the rod.
 
 **Centre of mass from the pivot (end with point mass):**
 
-$$x_{\mathrm{cm} = \frac{3 \times 1 + 2 \times 0}{5} = 0.6 \mathrm{ m from pivot$$
+$$
+x_{\mathrm{cm} = \frac{3 \times 1 + 2 \times 0}{5} = 0.6 \mathrm{ m from pivot
+$$
 
 Now using the parallel axis theorem from the centre of mass:
 
-$$I_{\mathrm{cm} = I_b = 3 \mathrm{ kg\cdot\mathrm{m^2 \quad \mathrm{(already calculated)$$
+$$
+I_{\mathrm{cm} = I_b = 3 \mathrm{ kg\cdot\mathrm{m^2 \quad \mathrm{(already calculated)
+$$
 
-$$I_a = I_{\mathrm{cm} + M_{\mathrm{total} \times x_{\mathrm{cm}^2 = 3 + 5 \times 0.36 = 3 + 1.8 = 4.8 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I_a = I_{\mathrm{cm} + M_{\mathrm{total} \times x_{\mathrm{cm}^2 = 3 + 5 \times 0.36 = 3 + 1.8 = 4.8 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 This still does not match. Let me recalculate $I_b$ more carefully. The point mass is at the _end_
 Of the rod, which is $1 \mathrm{ m$ from the centre of the rod. So $I_b = 1 + 2 \times 1^2 = 3$ is
@@ -38953,20 +39881,30 @@ Translation: $mg - T = ma$
 
 Rotation: $TR = I\alpha$Where $R$ is the axle radius and $a = R\alpha$.
 
-$$T \times 0.005 = I \times \frac{a}{0.005}$$
+$$
+T \times 0.005 = I \times \frac{a}{0.005}
+$$
 
 For the yo-yo (solid disk):
 $I = \frac{1}{2}MR_{\mathrm{disk}^2 = \frac{1}{2} \times 0.1 \times 0.03^2 = 4.5 \times 10^{-5} \mathrm{ kg\cdot\mathrm{m^2$
 
-$$T = \frac{Ia}{R^2} = \frac{4.5 \times 10^{-5} \times a}{2.5 \times 10^{-5}} = 1.8a$$
+$$
+T = \frac{Ia}{R^2} = \frac{4.5 \times 10^{-5} \times a}{2.5 \times 10^{-5}} = 1.8a
+$$
 
 **Step 2: Substitute into translational equation**
 
-$$mg - 1.8a = ma$$
+$$
+mg - 1.8a = ma
+$$
 
-$$a = \frac{mg}{m + 1.8} = \frac{0.1 \times 9.8}{0.1 + 1.8} = \frac{0.98}{1.9} = 0.516 \mathrm{ m/s^2$$
+$$
+a = \frac{mg}{m + 1.8} = \frac{0.1 \times 9.8}{0.1 + 1.8} = \frac{0.98}{1.9} = 0.516 \mathrm{ m/s^2
+$$
 
-$$T = 1.8 \times 0.516 = 0.929 \mathrm{ N$$
+$$
+T = 1.8 \times 0.516 = 0.929 \mathrm{ N
+$$
 
 :::note
 $9.8 \mathrm{ m/s^2$) because gravitational PE is converted into both translational and rotational
@@ -39572,7 +40510,9 @@ Work, energy, and power provide a **scalar alternative to vector-based force ana
 A spring obeys Hooke's law with $k = 200 \mathrm{ N/m$. Find the work done compressing it from
 $x = 0$ to $x = 0.15 \mathrm{ m$.
 
-$$W = \int_0^{0.15} (-kx)\, dx = -\left[\frac{1}{2}kx^2\right]_0^{0.15} = -\frac{1}{2}(200)(0.0225) = -2.25 \mathrm{ J$$
+$$
+W = \int_0^{0.15} (-kx)\, dx = -\left[\frac{1}{2}kx^2\right]_0^{0.15} = -\frac{1}{2}(200)(0.0225) = -2.25 \mathrm{ J
+$$
 
 The negative sign indicates the spring force opposes the displacement. The magnitude of work done
 _by_ the spring is $2.25 \mathrm{ J$ And the work done _on_ the spring (by the external agent) is
@@ -39584,11 +40524,15 @@ A force $F(x) = 3x^2 + 2x$ (in N, with $x$ in m) acts on a $2 \mathrm{ kg$ objec
 Done from $x = 0$ to $x = 3 \mathrm{ m$ and the speed at $x = 3 \mathrm{ m$ if the object starts
 From rest.
 
-$$W = \int_0^3 (3x^2 + 2x)\, dx = \left[x^3 + x^2\right]_0^3 = 27 + 9 = 36 \mathrm{ J$$
+$$
+W = \int_0^3 (3x^2 + 2x)\, dx = \left[x^3 + x^2\right]_0^3 = 27 + 9 = 36 \mathrm{ J
+$$
 
 By the work-energy theorem: $W = \frac{1}{2}mv_f^2 - 0$
 
-$$v_f = \sqrt{\frac{2W}{m}} = \sqrt{\frac{72}{2}} = \sqrt{36} = 6 \mathrm{ m/s$$
+$$
+v_f = \sqrt{\frac{2W}{m}} = \sqrt{\frac{72}{2}} = \sqrt{36} = 6 \mathrm{ m/s
+$$
 
 ## 12. Conservation of Energy: Extended Examples
 
@@ -39599,9 +40543,13 @@ With $k = 500 \mathrm{ N/m$. Find the maximum compression of the spring.
 
 At maximum compression, all kinetic energy has been converted to elastic potential energy:
 
-$$\frac{1}{2}mv^2 = \frac{1}{2}kx^2$$
+$$
+\frac{1}{2}mv^2 = \frac{1}{2}kx^2
+$$
 
-$$x = v\sqrt{\frac{m}{k}} = 4\sqrt{\frac{3}{500}} = 4 \times 0.0775 = 0.310 \mathrm{ m$$
+$$
+x = v\sqrt{\frac{m}{k}} = 4\sqrt{\frac{3}{500}} = 4 \times 0.0775 = 0.310 \mathrm{ m
+$$
 
 ### Worked Example: Pendulum with Energy
 
@@ -39610,9 +40558,13 @@ A pendulum of length $L = 1.5 \mathrm{ m$ and mass $m = 0.5 \mathrm{ kg$ is rele
 
 The pendulum bob falls a height $h = L = 1.5 \mathrm{ m$.
 
-$$mgh = \frac{1}{2}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2
+$$
 
-$$v = \sqrt{2gL} = \sqrt{2 \times 9.8 \times 1.5} = \sqrt{29.4} = 5.42 \mathrm{ m/s$$
+$$
+v = \sqrt{2gL} = \sqrt{2 \times 9.8 \times 1.5} = \sqrt{29.4} = 5.42 \mathrm{ m/s
+$$
 
 ### Worked Example: Loop-the-Loop
 
@@ -39624,9 +40576,13 @@ Force is zero).
 
 Using conservation of energy from the top of the ramp to the top of the loop (height $= 2R$):
 
-$$mgh = \frac{1}{2}mv^2 + mg(2R) = \frac{1}{2}m(gR) + 2mgR = \frac{5}{2}mgR$$
+$$
+mgh = \frac{1}{2}mv^2 + mg(2R) = \frac{1}{2}m(gR) + 2mgR = \frac{5}{2}mgR
+$$
 
-$$h = \frac{5}{2}R = 2.5R$$
+$$
+h = \frac{5}{2}R = 2.5R
+$$
 
 The ramp must be at least 2.5 times the radius of the loop.
 
@@ -39634,13 +40590,17 @@ The ramp must be at least 2.5 times the radius of the loop.
 
 ### Worked Example: Interpreting $U(x) = x^4 - 2x^2$
 
-$$F(x) = -\frac{dU}{dx} = -(4x^3 - 4x) = -4x(x^2 - 1) = -4x(x-1)(x+1)$$
+$$
+F(x) = -\frac{dU}{dx} = -(4x^3 - 4x) = -4x(x^2 - 1) = -4x(x-1)(x+1)
+$$
 
 **Equilibrium points:** $F(x) = 0$ at $x = 0, \pm 1$.
 
 **Classification:**
 
-$$\frac{d^2U}{dx^2} = 12x^2 - 4$$
+$$
+\frac{d^2U}{dx^2} = 12x^2 - 4
+$$
 
 - At $x = 0$: $\frac{d^2U}{dx^2} = -4 \lt 0$ -- unstable equilibrium (local maximum)
 - At $x = \pm 1$: $\frac{d^2U}{dx^2} = 8 \gt 0$ -- stable equilibrium (local minima)
@@ -39656,27 +40616,39 @@ Potential wells. It cannot escape because $E \lt U(0) = 0$.
 
 When force and velocity are not constant:
 
-$$P(t) = \vec{F}(t) \cdot \vec{v}(t)$$
+$$
+P(t) = \vec{F}(t) \cdot \vec{v}(t)
+$$
 
 ### Worked Example: Power as a Function of Time
 
 A force $F(t) = 6t$ N acts on a $2 \mathrm{ kg$ object initially at rest. Find the power at $t = 3$
 S.
 
-$$a = \frac{F}{m} = 3t$$
+$$
+a = \frac{F}{m} = 3t
+$$
 
-$$v(t) = \int_0^t 3t'\, dt' = \frac{3t^2}{2}$$
+$$
+v(t) = \int_0^t 3t'\, dt' = \frac{3t^2}{2}
+$$
 
-$$P(3) = F(3) \cdot v(3) = 18 \times \frac{27}{2} = 18 \times 13.5 = 243 \mathrm{ W$$
+$$
+P(3) = F(3) \cdot v(3) = 18 \times \frac{27}{2} = 18 \times 13.5 = 243 \mathrm{ W
+$$
 
 ### Worked Example: Power Needed to Climb at Constant Speed
 
 A $70 \mathrm{ kg$ cyclist climbs a $6^{\circ}$ hill at $5 \mathrm{ m/s$. The total resistive Force
 (friction plus air resistance) is $20 \mathrm{ N$. Find the power output.
 
-$$P = Fv = (mg\sin\theta + F_{\mathrm{resist})v = (70 \times 9.8 \times \sin 6^{\circ} + 20) \times 5$$
+$$
+P = Fv = (mg\sin\theta + F_{\mathrm{resist})v = (70 \times 9.8 \times \sin 6^{\circ} + 20) \times 5
+$$
 
-$$= (70 \times 9.8 \times 0.1045 + 20) \times 5 = (71.7 + 20) \times 5 = 458.5 \mathrm{ W$$
+$$
+= (70 \times 9.8 \times 0.1045 + 20) \times 5 = (71.7 + 20) \times 5 = 458.5 \mathrm{ W
+$$
 
 This is close to the maximum sustained power output of a trained cyclist, illustrating the
 Difficulty of climbing even a modest gradient.
@@ -39742,21 +40714,29 @@ power dissipated by air resistance and rolling friction.
 
 **Step 1: At constant speed, net force is zero**
 
-$$F_{\mathrm{drive} = F_{\mathrm{resist} = 1200 \mathrm{ N$$
+$$
+F_{\mathrm{drive} = F_{\mathrm{resist} = 1200 \mathrm{ N
+$$
 
 **Step 2: Power output**
 
-$$P = Fv = 1200 \times 25 = 30000 \mathrm{ W = 30 \mathrm{ kW$$
+$$
+P = Fv = 1200 \times 25 = 30000 \mathrm{ W = 30 \mathrm{ kW
+$$
 
 **Step 3: All power goes to overcoming resistance**
 
-$$P_{\mathrm{dissipated} = 30 \mathrm{ kW$$
+$$
+P_{\mathrm{dissipated} = 30 \mathrm{ kW
+$$
 
 If the car then accelerates to $30 \mathrm{ m/s$ with the same driving force:
 
 **Step 4: New resistance at $30 \mathrm{ m/s$ (assuming air resistance scales as $v^2$)**
 
-$$F_{\mathrm{air} \propto v^2$$
+$$
+F_{\mathrm{air} \propto v^2
+$$
 
 Let $F_{\mathrm{air,25} = F_{\mathrm{air}(25)$ and $F_{\mathrm{roll}$ be the constant rolling
 Friction.
@@ -39768,9 +40748,13 @@ $F_{\mathrm{air}(30) = F_{\mathrm{air}(25) \times (30/25)^2 = 1.44 \times F_{\ma
 
 Assuming $F_{\mathrm{air}(25) = 1000 \mathrm{ N$ and $F_{\mathrm{roll} = 200 \mathrm{ N$:
 
-$$F_{\mathrm{air}(30) = 1440 \mathrm{ N$$
+$$
+F_{\mathrm{air}(30) = 1440 \mathrm{ N
+$$
 
-$$F_{\mathrm{total resist}(30) = 1440 + 200 = 1640 \mathrm{ N$$
+$$
+F_{\mathrm{total resist}(30) = 1440 + 200 = 1640 \mathrm{ N
+$$
 
 **Net force:** $F_{\mathrm{net} = 1200 - 1640 = -440 \mathrm{ N$
 
@@ -39793,7 +40777,9 @@ Height above the release point.
 
 At equilibrium, spring force balances weight:
 
-$$kx_0 = mg \implies x_0 = \frac{mg}{k} = \frac{2 \times 9.8}{200} = 0.098 \mathrm{ m$$
+$$
+kx_0 = mg \implies x_0 = \frac{mg}{k} = \frac{2 \times 9.8}{200} = 0.098 \mathrm{ m
+$$
 
 **Step 2: Define the zero of potential energy**
 
@@ -39804,11 +40790,15 @@ Position but does not affect the oscillation frequency or amplitude.
 
 Using energy conservation relative to equilibrium:
 
-$$\frac{1}{2}kA^2 = \frac{1}{2}mv_{\max}^2$$
+$$
+\frac{1}{2}kA^2 = \frac{1}{2}mv_{\max}^2
+$$
 
 Where $A = 0.15 \mathrm{ m$ is the amplitude.
 
-$$v_{\max} = A\sqrt{\frac{k}{m}} = 0.15 \times \sqrt{\frac{200}{2}} = 0.15 \times 10 = 1.5 \mathrm{ m/s$$
+$$
+v_{\max} = A\sqrt{\frac{k}{m}} = 0.15 \times \sqrt{\frac{200}{2}} = 0.15 \times 10 = 1.5 \mathrm{ m/s
+$$
 
 **Step 4: Maximum height above release point**
 
@@ -39823,15 +40813,21 @@ At the bottom, its speed is $6 \mathrm{ m/s$. Calculate the work done by frictio
 
 **Step 1: Energy at the top**
 
-$$E_{\mathrm{top} = mgh = 5 \times 9.8 \times 3 = 147 \mathrm{ J$$
+$$
+E_{\mathrm{top} = mgh = 5 \times 9.8 \times 3 = 147 \mathrm{ J
+$$
 
 **Step 2: Energy at the bottom**
 
-$$E_{\mathrm{bottom} = \frac{1}{2}mv^2 = \frac{1}{2} \times 5 \times 36 = 90 \mathrm{ J$$
+$$
+E_{\mathrm{bottom} = \frac{1}{2}mv^2 = \frac{1}{2} \times 5 \times 36 = 90 \mathrm{ J
+$$
 
 **Step 3: Work done by friction**
 
-$$W_f = E_{\mathrm{bottom} - E_{\mathrm{top} = 90 - 147 = -57 \mathrm{ J$$
+$$
+W_f = E_{\mathrm{bottom} - E_{\mathrm{top} = 90 - 147 = -57 \mathrm{ J
+$$
 
 The friction does $-57 \mathrm{ J$ of work (dissipates $57 \mathrm{ J$ of mechanical energy as
 Heat).
@@ -39840,15 +40836,23 @@ Heat).
 
 If the ramp length is $L = 6 \mathrm{ m$:
 
-$$W_f = -fL = -\mu mg\cos\theta \times L$$
+$$
+W_f = -fL = -\mu mg\cos\theta \times L
+$$
 
-$$57 = \mu \times 5 \times 9.8 \times \cos\theta \times 6$$
+$$
+57 = \mu \times 5 \times 9.8 \times \cos\theta \times 6
+$$
 
 With $\cos\theta = 3/6 = 0.5$ (from $h = 3 \mathrm{ m$, $L = 6 \mathrm{ m$):
 
-$$57 = \mu \times 5 \times 9.8 \times 0.5 \times 6 = 147\mu$$
+$$
+57 = \mu \times 5 \times 9.8 \times 0.5 \times 6 = 147\mu
+$$
 
-$$\mu = \frac{57}{147} = 0.388$$
+$$
+\mu = \frac{57}{147} = 0.388
+$$
 
 ## Common Pitfalls Extended
 
@@ -40326,7 +41330,9 @@ When describing a distribution, always address these three characteristics:
 
 The **mean** ($\bar{x}$) is the arithmetic average of all observations.
 
-$$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n} = \frac{x_1 + x_2 + \cdots + x_n}{n}$$
+$$
+\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n} = \frac{x_1 + x_2 + \cdots + x_n}{n}
+$$
 
 - Uses every data value in its calculation
 - Sensitive to outliers and skewness
@@ -40352,7 +41358,9 @@ The **median** is the middle value of an ordered data set.
 
 ### Range
 
-$$\text{Range} = \text{Maximum} - \text{Minimum}$$
+$$
+\text{Range} = \text{Maximum} - \text{Minimum}
+$$
 
 - Simplest measure of spread
 - Uses only two values, so it is sensitive to outliers
@@ -40360,7 +41368,9 @@ $$\text{Range} = \text{Maximum} - \text{Minimum}$$
 
 ### Interquartile Range (IQR)
 
-$$\text{IQR} = Q_3 - Q_1$$
+$$
+\text{IQR} = Q_3 - Q_1
+$$
 
 - Spread of the middle 50% of the data
 - Resistant to outliers
@@ -40371,7 +41381,9 @@ $$\text{IQR} = Q_3 - Q_1$$
 
 The **standard deviation** ($s$) measures the typical distance of each observation from the mean.
 
-$$s = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n - 1}}$$
+$$
+s = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n - 1}}
+$$
 
 The **variance** is $s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$.
 
@@ -40402,7 +41414,9 @@ For any normal distribution:
 
 ### Standardised Scores (z-scores)
 
-$$z = \frac{x - \mu}{\sigma}$$
+$$
+z = \frac{x - \mu}{\sigma}
+$$
 
 A z-score measures the number of standard deviations an observation is from the mean.
 
@@ -40782,20 +41796,28 @@ URL: https://ap.wyattau.com/statistics/3-probability/3_probability/
 
 For any two events $A$ and $B$:
 
-$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+$$
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+$$
 
 If $A$ and $B$ are **mutually exclusive** (disjoint, cannot both occur):
-$$P(A \cup B) = P(A) + P(B)$$
+$$
+P(A \cup B) = P(A) + P(B)
+$$
 
 ### Multiplication Rule
 
-$$P(A \cap B) = P(A) \cdot P(B | A)$$
+$$
+P(A \cap B) = P(A) \cdot P(B | A)
+$$
 
 If $A$ and $B$ are **independent**: $$P(A \cap B) = P(A) \cdot P(B)$$
 
 ### Conditional Probability
 
-$$P(B | A) = \frac{P(A \cap B)}{P(A)}$$
+$$
+P(B | A) = \frac{P(A \cap B)}{P(A)}
+$$
 
 The probability of $B$ **given** that $A$ has occurred. Note that $P(A)$ must be greater than 0.
 
@@ -40804,7 +41826,9 @@ The probability of $B$ **given** that $A$ has occurred. Note that $P(A)$ must be
 Events $A$ and $B$ are **independent** if the occurrence of one does not affect the probability of
 the other:
 
-$$P(B | A) = P(B) \quad \text{and} \quad P(A | B) = P(A)$$
+$$
+P(B | A) = P(B) \quad \text{and} \quad P(A | B) = P(A)
+$$
 
 Equivalently: $P(A \cap B) = P(A) \cdot P(B)$
 
@@ -40831,7 +41855,9 @@ Alternatively, check whether $P(B | A) = P(B)$.
 
 ## Bayes" Theorem
 
-$$P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B | A) \cdot P(A) + P(B | A^c) \cdot P(A^c)}$$
+$$
+P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B | A) \cdot P(A) + P(B | A^c) \cdot P(A^c)}
+$$
 
 Used to find the probability of a "cause" given an observed "effect." Useful for medical testing
 problems.
@@ -40862,15 +41888,21 @@ Requirements:
 
 ### Mean (Expected Value)
 
-$$\mu_X = E(X) = \sum x_i \cdot p_i$$
+$$
+\mu_X = E(X) = \sum x_i \cdot p_i
+$$
 
 The mean of a random variable is the long-run average of its values over many repetitions.
 
 ### Variance and Standard Deviation
 
-$$\sigma_X^2 = \sum (x_i - \mu_X)^2 \cdot p_i = \sum x_i^2 \cdot p_i - \mu_X^2$$
+$$
+\sigma_X^2 = \sum (x_i - \mu_X)^2 \cdot p_i = \sum x_i^2 \cdot p_i - \mu_X^2
+$$
 
-$$\sigma_X = \sqrt{\sigma_X^2}$$
+$$
+\sigma_X = \sqrt{\sigma_X^2}
+$$
 
 ### Rules for Means and Variances
 
@@ -40894,11 +41926,15 @@ A binomial setting has four conditions:
 
 ### Binomial Probability
 
-$$P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$$
+$$
+P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
+$$
 
 ### Mean and Standard Deviation
 
-$$\mu = np, \quad \sigma = \sqrt{np(1-p)}$$
+$$
+\mu = np, \quad \sigma = \sqrt{np(1-p)}
+$$
 
 ## Geometric Distributions
 
@@ -40912,11 +41948,15 @@ The random variable $X$ counts the **number of trials until the first success**.
 
 ### Geometric Probability
 
-$$P(X = k) = (1-p)^{k-1} \cdot p$$
+$$
+P(X = k) = (1-p)^{k-1} \cdot p
+$$
 
 ### Mean
 
-$$\mu = \frac{1}{p}$$
+$$
+\mu = \frac{1}{p}
+$$
 
 ## Normal Distributions and the Central Limit Theorem
 
@@ -40925,7 +41965,9 @@ $$\mu = \frac{1}{p}$$
 For a sufficiently large sample size $n$ ($n \geq 30$ is the standard threshold), the sampling distribution of
 $\bar{x}$ is approximately normal, regardless of the shape of the population distribution.
 
-$$\mu_{\bar{x}} = \mu, \quad \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$$
+$$
+\mu_{\bar{x}} = \mu, \quad \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}
+$$
 
 The CLT allows us to use normal probability calculations for sample means even when the population
 is not normally distributed.
@@ -40934,7 +41976,9 @@ is not normally distributed.
 
 For a sample proportion $\hat{p}$ with population proportion $p$ and sample size $n$:
 
-$$\mu_{\hat{p}} = p, \quad \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}$$
+$$
+\mu_{\hat{p}} = p, \quad \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}
+$$
 
 Approximately normal when $np \geq 10$ and $n(1-p) \geq 10$.
 
@@ -41021,7 +42065,9 @@ variable in time.
 The **correlation coefficient** ($r$) measures the strength and direction of the **linear**
 relationship between two quantitative variables.
 
-$$r = \frac{1}{n-1} \sum \left(\frac{x_i - \bar{x}}{s_x}\right)\left(\frac{y_i - \bar{y}}{s_y}\right)$$
+$$
+r = \frac{1}{n-1} \sum \left(\frac{x_i - \bar{x}}{s_x}\right)\left(\frac{y_i - \bar{y}}{s_y}\right)
+$$
 
 ### Properties of $r$
 
@@ -41038,7 +42084,9 @@ $$r = \frac{1}{n-1} \sum \left(\frac{x_i - \bar{x}}{s_x}\right)\left(\frac{y_i -
 
 ### Calculating $r$
 
-$$r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i - \bar{x})^2 \cdot \sum(y_i - \bar{y})^2}}$$
+$$
+r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i - \bar{x})^2 \cdot \sum(y_i - \bar{y})^2}}
+$$
 
 ## Least-Squares Regression
 
@@ -41047,7 +42095,9 @@ The **least-squares regression line** (LSRL) minimises the sum of the squared ve
 
 ### Equation of the LSRL
 
-$$\hat{y} = a + bx$$
+$$
+\hat{y} = a + bx
+$$
 
 Where:
 
@@ -41071,7 +42121,9 @@ values of $x$ within the range of the original data (**extrapolation** beyond th
 
 A **residual** is the difference between the observed value and the predicted value:
 
-$$e_i = y_i - \hat{y}_i$$
+$$
+e_i = y_i - \hat{y}_i
+$$
 
 - A positive residual: the point is above the regression line (actual $>$ predicted)
 - A negative residual: the point is below the line (actual $<$ predicted)
@@ -41093,7 +42145,9 @@ or the predicted values ($\hat{y}_i$) on the horizontal axis.
 
 ## Coefficient of Determination ($r^2$)
 
-$$r^2 = \frac{\text{variation in } \hat{y}}{\text{variation in } y} = 1 - \frac{\sum e_i^2}{\sum(y_i - \bar{y})^2}$$
+$$
+r^2 = \frac{\text{variation in } \hat{y}}{\text{variation in } y} = 1 - \frac{\sum e_i^2}{\sum(y_i - \bar{y})^2}
+$$
 
 $r^2$ represents the proportion of the variation in $y$ that is accounted for by the linear
 relationship with $x$.
@@ -41163,9 +42217,13 @@ observational data showing correlation.
 On the AP exam, you may be asked to test whether the slope of the population regression line is
 significantly different from zero:
 
-$$H_0: \beta_1 = 0 \quad H_a: \beta_1 \neq 0$$
+$$
+H_0: \beta_1 = 0 \quad H_a: \beta_1 \neq 0
+$$
 
-$$t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2$$
+$$
+t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2
+$$
 
 
 ```mermaid
@@ -41440,7 +42498,9 @@ along with a level of confidence.
 
 ### General Form
 
-$$\text{Statistic} \pm \text{Margin of Error} = (\text{point estimate}) \pm (\text{critical value}) \times (\text{standard error})$$
+$$
+\text{Statistic} \pm \text{Margin of Error} = (\text{point estimate}) \pm (\text{critical value}) \times (\text{standard error})
+$$
 
 ### Confidence Level
 
@@ -41456,7 +42516,9 @@ Conditions:
 - $np \geq 10$ and $n(1-p) \geq 10$ (large enough sample)
 - Population is at least $10n$ (independence / 10% condition)
 
-$$\hat{p} \pm z^{*}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$$
+$$
+\hat{p} \pm z^{*}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
+$$
 
 Where $\hat{p}$ is the sample proportion and $z^*$ is the critical value (1.645 for 90%, 1.960 for
 95%, 2.576 for 99%).
@@ -41470,7 +42532,9 @@ Conditions:
   $n \geq 30$ for CLT)
 - $\sigma$ known: $z$-interval; $\sigma$ unknown: $t$-interval
 
-$$\bar{x} \pm t^{*} \cdot \frac{s}{\sqrt{n}}$$
+$$
+\bar{x} \pm t^{*} \cdot \frac{s}{\sqrt{n}}
+$$
 
 Where $t^*$ is the critical value from the $t$-distribution with $n-1$ degrees of freedom.
 
@@ -41536,11 +42600,15 @@ Power increases with: larger sample size, larger effect size, higher $\alpha$, a
 
 ### One-Sample z-Test for a Proportion
 
-$$z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$$
+$$
+z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}
+$$
 
 ### Two-Sample z-Test for Difference of Proportions
 
-$$z = \frac{(\hat{p}_1 - \hat{p}_2) - 0}{\sqrt{\hat{p}(1-\hat{p})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}$$
+$$
+z = \frac{(\hat{p}_1 - \hat{p}_2) - 0}{\sqrt{\hat{p}(1-\hat{p})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}
+$$
 
 Where $\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$ is the pooled proportion.
 
@@ -41548,13 +42616,17 @@ Where $\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$ is the pooled proportion.
 
 ### One-Sample t-Test
 
-$$t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}$$
+$$
+t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}
+$$
 
 Degrees of freedom: $df = n - 1$
 
 ### Two-Sample t-Test
 
-$$t = \frac{(\bar{x}_1 - \bar{x}_2) - 0}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$$
+$$
+t = \frac{(\bar{x}_1 - \bar{x}_2) - 0}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+$$
 
 Use conservative degrees of freedom: $df = \min(n_1 - 1, n_2 - 1)$ or technology.
 
@@ -41563,7 +42635,9 @@ Use conservative degrees of freedom: $df = \min(n_1 - 1, n_2 - 1)$ or technology
 For matched pairs or before/after data: compute the differences $d = x_1 - x_2$ and run a one-sample
 t-test on the differences.
 
-$$t = \frac{\bar{d} - 0}{s_d / \sqrt{n}}$$
+$$
+t = \frac{\bar{d} - 0}{s_d / \sqrt{n}}
+$$
 
 ## Chi-Square Tests
 
@@ -41571,7 +42645,9 @@ $$t = \frac{\bar{d} - 0}{s_d / \sqrt{n}}$$
 
 Tests whether observed frequencies match expected frequencies based on a specified distribution.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 $df = \text{number of categories} - 1$
 
@@ -41579,7 +42655,9 @@ $df = \text{number of categories} - 1$
 
 Tests whether two categorical variables are independent using a two-way table.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 $df = (\text{rows} - 1)(\text{columns} - 1)$
 
@@ -41598,10 +42676,16 @@ rather than one population classified two ways.
 
 ### Hypothesis Test for Slope
 
-$$H_0: \beta_1 = 0 \quad \text{(no linear relationship)}$$
-$$H_a: \beta_1 \neq 0 \quad \text{(linear relationship exists)}$$
+$$
+H_0: \beta_1 = 0 \quad \text{(no linear relationship)}
+$$
+$$
+H_a: \beta_1 \neq 0 \quad \text{(linear relationship exists)}
+$$
 
-$$t = \frac{b_1 - 0}{SE_{b_1}}$$
+$$
+t = \frac{b_1 - 0}{SE_{b_1}}
+$$
 
 $df = n - 2$
 

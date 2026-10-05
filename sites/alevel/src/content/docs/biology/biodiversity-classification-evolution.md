@@ -57,7 +57,9 @@ But low evenness (where one or a few species dominate).
 Simpson's Diversity Index ($D$) quantifies species diversity by accounting for both richness and
 Evenness:
 
-$$D = 1 - \sum_{i=1}^{S} \frac{n_i(n_i - 1)}{N(N - 1)}$$
+$$
+D = 1 - \sum_{i=1}^{S} \frac{n_i(n_i - 1)}{N(N - 1)}
+$$
 
 Where $S$ is the number of species, $n_i$ is the number of individuals of species $i$ And $N$ is The
 total number of individuals.
@@ -122,7 +124,9 @@ Characteristics and evolutionary relationships.
 
 The traditional Linnaean hierarchy:
 
-$$\mathrm{Domain} \to \mathrm{Kingdom} \to \mathrm{Phylum} \to \mathrm{Class} \to \mathrm{Order} \to \mathrm{Family} \to \mathrm{Genus} \to \mathrm{Species}$$
+$$
+\mathrm{Domain} \to \mathrm{Kingdom} \to \mathrm{Phylum} \to \mathrm{Class} \to \mathrm{Order} \to \mathrm{Family} \to \mathrm{Genus} \to \mathrm{Species}
+$$
 
 A **species** is defined by the **biological species concept** (Mayr, 1942): a group of
 Interbreeding organisms that are reproductively isolated from other such groups, producing fertile
@@ -276,9 +280,13 @@ The Hardy-Weinberg equilibrium describes a theoretical population in which allel
 Change from generation to generation. For a gene with two alleles, $A$ and $a$With frequencies $p$
 And $q$:
 
-$$p + q = 1$$
+$$
+p + q = 1
+$$
 
-$$p^2 + 2pq + q^2 = 1$$
+$$
+p^2 + 2pq + q^2 = 1
+$$
 
 Where $p^2$ = frequency of genotype $AA$$2pq$ = frequency of genotype $Aa$$q^2$ = frequency of
 Genotype $aa$.
@@ -371,7 +379,9 @@ Record. For example, if two species diverged from a common ancestor 10 million y
 determined By fossils) and their DNA sequences now differ at 2% of sites, the mutation rate is
 estimated as:
 
-$$\mu = \frac{0.02}{2 \times 10^7\ \mathrm{years}} = 1 \times 10^{-9}\ \mathrm{mutations\ per\ site\ per\ year}$$
+$$
+\mu = \frac{0.02}{2 \times 10^7\ \mathrm{years}} = 1 \times 10^{-9}\ \mathrm{mutations\ per\ site\ per\ year}
+$$
 
 The factor of 2 accounts for the fact that both lineages have been accumulating mutations
 independently Since divergence.
@@ -408,9 +418,13 @@ combined With fossil evidence.
 When a gene has more than two alleles, the Hardy-Weinberg principle is extended. For three alleles
 with Frequencies $p$, $q$ And $r$:
 
-$$p + q + r = 1$$
+$$
+p + q + r = 1
+$$
 
-$$p^2 + q^2 + r^2 + 2pq + 2pr + 2qr = 1$$
+$$
+p^2 + q^2 + r^2 + 2pq + 2pr + 2qr = 1
+$$
 
 **Worked Example.** The ABO blood group system has three alleles: $I^A$, $I^B$ And $i$. Their
 frequencies In a population are $p = 0.3$$q = 0.1$$r = 0.6$.
@@ -438,7 +452,9 @@ Check: $0.45 + 0.13 + 0.06 + 0.36 = 1.00$. $\square$
 When observed genotype frequencies are given, the chi-squared test determines whether deviations
 from H-W Predictions are statistically significant.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 Where $O$ = observed frequency and $E$ = expected frequency under H-W.
 
@@ -465,11 +481,17 @@ $aa$: $q^2 = 0.1444$Expected $= 144.4$
 
 Step 3: Calculate $\chi^2$.
 
-$$\chi^2 = \frac{(420 - 384.4)^2}{384.4} + \frac{(400 - 471.2)^2}{471.2} + \frac{(180 - 144.4)^2}{144.4}$$
+$$
+\chi^2 = \frac{(420 - 384.4)^2}{384.4} + \frac{(400 - 471.2)^2}{471.2} + \frac{(180 - 144.4)^2}{144.4}
+$$
 
-$$= \frac{1267.36}{384.4} + \frac{5067.84}{471.2} + \frac{1267.36}{144.4}$$
+$$
+= \frac{1267.36}{384.4} + \frac{5067.84}{471.2} + \frac{1267.36}{144.4}
+$$
 
-$$= 3.30 + 10.76 + 8.78 = 22.84$$
+$$
+= 3.30 + 10.76 + 8.78 = 22.84
+$$
 
 Degrees of freedom $= 1$. Critical value at $p = 0.05$ for 1 df is $3.84$.
 
@@ -858,7 +880,9 @@ differs:
 
 ### 11.2 Simpson's Index of Diversity
 
-$$D = 1 - \frac{\sum n(n-1)}{N(N-1)}$$
+$$
+D = 1 - \frac{\sum n(n-1)}{N(N-1)}
+$$
 
 Where $n$ = number of individuals of each species, $N$ = total number of individuals.
 
@@ -1008,7 +1032,9 @@ per generation (i.e., 10% of the island population are immigrants from the mainl
 
 New allele frequency on the island after migration:
 
-$$p_i' = (1 - m) \times p_i + m \times p_m = 0.90 \times 0.20 + 0.10 \times 0.80 = 0.18 + 0.08 = 0.26$$
+$$
+p_i' = (1 - m) \times p_i + m \times p_m = 0.90 \times 0.20 + 0.10 \times 0.80 = 0.18 + 0.08 = 0.26
+$$
 
 After one generation of migration, the island allele frequency has changed from 0.20 to 0.26.
 Continued migration will gradually shift the island population towards the mainland allele
@@ -1439,7 +1465,9 @@ $= \text{mean density} \times \frac{\text{total area}}{\text{quadrat area}}$.
 
 **Standard deviation:**
 
-$$s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}$$
+$$
+s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}
+$$
 
 Standard error $= \frac{s}{\sqrt{n}}$.
 
@@ -1562,7 +1590,9 @@ A biodiversity hotspot is a region that meets two criteria:
 
 The number of species in an area increases with the size of the area:
 
-$$S = cA^z$$
+$$
+S = cA^z
+$$
 
 Where $S$ = number of species; $A$ = area; $c$ and $z$ are constants ($z$ is 0.2--0.35 for islands).
 
@@ -1571,15 +1601,21 @@ approximately 50%. This is why habitat loss is the single greatest threat to bio
 
 **Example:** if a forest of $100\ \mathrm{km^2}$ contains 500 species ($c = 100$, $z = 0.35$):
 
-$$S_1 = 100 \times 100^{0.35} = 100 \times 22.4 = 2240$$
+$$
+S_1 = 100 \times 100^{0.35} = 100 \times 22.4 = 2240
+$$
 
 Wait, let me use the standard form. If a $1000\ \mathrm{km^2}$ area has 200 species:
 
-$$200 = c \times 1000^z$$
+$$
+200 = c \times 1000^z
+$$
 
 If the area is reduced to $100\ \mathrm{km^2}$ (10% of original):
 
-$$S_2 = c \times 100^z = c \times (0.1 \times 1000)^z = c \times 0.1^z \times 1000^z = 0.1^z \times S_1$$
+$$
+S_2 = c \times 100^z = c \times (0.1 \times 1000)^z = c \times 0.1^z \times 1000^z = 0.1^z \times S_1
+$$
 
 With $z = 0.3$: $S_2 = 0.1^{0.3} \times 200 = 0.501 \times 200 = 100$ species lost (50%).
 
@@ -1639,7 +1675,9 @@ When analysing ecological data, it is essential to quantify variability:
 
 Used to compare the means of two independent samples:
 
-$$t = \frac{|\bar{x}_1 - \bar{x}_2|}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$$
+$$
+t = \frac{|\bar{x}_1 - \bar{x}_2|}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+$$
 
 Degrees of freedom = $n_1 + n_2 - 2$.
 
@@ -1647,7 +1685,9 @@ Degrees of freedom = $n_1 + n_2 - 2$.
 
 Field A: $\bar{x}_1 = 6.2$$s_1 = 0.8$$n_1 = 10$. Field B: $\bar{x}_2 = 5.1$$s_2 = 0.7$$n_2 = 10$.
 
-$$t = \frac{|6.2 - 5.1|}{\sqrt{\frac{0.64}{10} + \frac{0.49}{10}}} = \frac{1.1}{\sqrt{0.113}} = \frac{1.1}{0.336} = 3.27$$
+$$
+t = \frac{|6.2 - 5.1|}{\sqrt{\frac{0.64}{10} + \frac{0.49}{10}}} = \frac{1.1}{\sqrt{0.113}} = \frac{1.1}{0.336} = 3.27
+$$
 
 Degrees of freedom $= 18$. Critical value at $p = 0.05$ with 18 df $= 2.101$.
 
@@ -1672,7 +1712,9 @@ in soil pH between the two fields.
 The molecular clock uses the rate of neutral mutations to estimate when two species diverged from a
 common ancestor:
 
-$$\text{Time since divergence} = \frac{\text{Number of nucleotide differences}}{2 \times \text{Mutation rate per year}}$$
+$$
+\text{Time since divergence} = \frac{\text{Number of nucleotide differences}}{2 \times \text{Mutation rate per year}}
+$$
 
 **Assumptions:**
 

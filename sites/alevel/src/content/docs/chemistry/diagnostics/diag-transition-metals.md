@@ -69,13 +69,19 @@ $\text{Cl}^- \lt \text{H}_2\text{O} \lt \text{NH}_3 \lt \text{en} \lt \text{CN}^
 
 (b)
 
-$$E = \frac{hc}{\lambda}$$
+$$
+E = \frac{hc}{\lambda}
+$$
 
-$$E = \frac{6.63 \times 10^{-34} \times 3.00 \times 10^8}{498 \times 10^{-9}} = 3.992 \times 10^{-19}\,\text{J}$$
+$$
+E = \frac{6.63 \times 10^{-34} \times 3.00 \times 10^8}{498 \times 10^{-9}} = 3.992 \times 10^{-19}\,\text{J}
+$$
 
 Per mole:
 
-$$\Delta_o = 3.992 \times 10^{-19} \times 6.02 \times 10^{23} = 240300\,\text{J mol}^{-1} = 240\,\text{kJ mol}^{-1}$$
+$$
+\Delta_o = 3.992 \times 10^{-19} \times 6.02 \times 10^{23} = 240300\,\text{J mol}^{-1} = 240\,\text{kJ mol}^{-1}
+$$
 
 (c) $\text{Zn}^{2+}$ has the electron configuration $[\text{Ar}]\,3d^{10}$. All five d-orbitals are
 **completely filled**. For a d-d transition to occur, an electron must be promoted from a
@@ -115,7 +121,9 @@ is.
 
 (a)
 
-$$\text{[Cu(H}_2\text{O)}_6\text{]}^{2+}(aq) + 4\text{NH}_3(aq) \rightleftharpoons \text{[Cu(NH}_3\text{)}_4(\text{H}_2\text{O)}_2\text{]}^{2+}(aq) + 4\text{H}_2\text{O}(l)$$
+$$
+\text{[Cu(H}_2\text{O)}_6\text{]}^{2+}(aq) + 4\text{NH}_3(aq) \rightleftharpoons \text{[Cu(NH}_3\text{)}_4(\text{H}_2\text{O)}_2\text{]}^{2+}(aq) + 4\text{H}_2\text{O}(l)
+$$
 
 The colour changes from pale blue to deep blue because $\text{NH}_3$ is a **stronger field ligand**
 than $\text{H}_2\text{O}$ (higher in the spectrochemical series). This increases the crystal field
@@ -131,7 +139,9 @@ ammonia ligands bind much more strongly to $\text{Cu}^{2+}$ than water molecules
 
 (c) Adding HCl removes ammonia from the complex by protonating it:
 
-$$\text{[Cu(NH}_3\text{)}_4\text{]}^{2+}(aq) + 4\text{H}^+(aq) + 4\text{H}_2\text{O}(l) \to \text{[Cu(H}_2\text{O)}_6\text{]}^{2+}(aq) + 4\text{NH}_4^+(aq)$$
+$$
+\text{[Cu(NH}_3\text{)}_4\text{]}^{2+}(aq) + 4\text{H}^+(aq) + 4\text{H}_2\text{O}(l) \to \text{[Cu(H}_2\text{O)}_6\text{]}^{2+}(aq) + 4\text{NH}_4^+(aq)
+$$
 
 This is a **ligand substitution reaction** driven by acid-base chemistry: the added $\text{H}^+$
 reacts with $\text{NH}_3$ (a base) to form $\text{NH}_4^+$Removing ammonia ligands from the
@@ -176,23 +186,39 @@ to $\text{Fe}^{3+}$ And state which is the stronger oxidising agent.
 
 **Using the manganate(VII) titration:**
 
-$$\text{MnO}_4^- + 8\text{H}^+ + 5\text{Fe}^{2+} \to \text{Mn}^{2+} + 4\text{H}_2\text{O} + 5\text{Fe}^{3+}$$
+$$
+\text{MnO}_4^- + 8\text{H}^+ + 5\text{Fe}^{2+} \to \text{Mn}^{2+} + 4\text{H}_2\text{O} + 5\text{Fe}^{3+}
+$$
 
-$$n(\text{MnO}_4^-) = 0.0200 \times \frac{18.0}{1000} = 3.60 \times 10^{-4}\,\text{mol}$$
+$$
+n(\text{MnO}_4^-) = 0.0200 \times \frac{18.0}{1000} = 3.60 \times 10^{-4}\,\text{mol}
+$$
 
-$$n(\text{Fe}^{2+}) = 5 \times 3.60 \times 10^{-4} = 1.80 \times 10^{-3}\,\text{mol}$$
+$$
+n(\text{Fe}^{2+}) = 5 \times 3.60 \times 10^{-4} = 1.80 \times 10^{-3}\,\text{mol}
+$$
 
-$$[\text{Fe}^{2+}] = \frac{1.80 \times 10^{-3}}{25.0/1000} = 0.0720\,\text{mol dm}^{-3}$$
+$$
+[\text{Fe}^{2+}] = \frac{1.80 \times 10^{-3}}{25.0/1000} = 0.0720\,\text{mol dm}^{-3}
+$$
 
 Verification with the dichromate titration:
 
-$$\text{Cr}_2\text{O}_7^{2-} + 14\text{H}^+ + 6\text{Fe}^{2+} \to 2\text{Cr}^{3+} + 7\text{H}_2\text{O} + 6\text{Fe}^{3+}$$
+$$
+\text{Cr}_2\text{O}_7^{2-} + 14\text{H}^+ + 6\text{Fe}^{2+} \to 2\text{Cr}^{3+} + 7\text{H}_2\text{O} + 6\text{Fe}^{3+}
+$$
 
-$$n(\text{Cr}_2\text{O}_7^{2-}) = 0.0200 \times \frac{12.0}{1000} = 2.40 \times 10^{-4}\,\text{mol}$$
+$$
+n(\text{Cr}_2\text{O}_7^{2-}) = 0.0200 \times \frac{12.0}{1000} = 2.40 \times 10^{-4}\,\text{mol}
+$$
 
-$$n(\text{Fe}^{2+}) = 6 \times 2.40 \times 10^{-4} = 1.44 \times 10^{-3}\,\text{mol}$$
+$$
+n(\text{Fe}^{2+}) = 6 \times 2.40 \times 10^{-4} = 1.44 \times 10^{-3}\,\text{mol}
+$$
 
-$$[\text{Fe}^{2+}] = \frac{1.44 \times 10^{-3}}{0.0250} = 0.0576\,\text{mol dm}^{-3}$$
+$$
+[\text{Fe}^{2+}] = \frac{1.44 \times 10^{-3}}{0.0250} = 0.0576\,\text{mol dm}^{-3}
+$$
 
 Note: The two titrations give slightly different results, which may indicate experimental error or
 that the dichromate titration is not fully reaching all $\text{Fe}^{2+}$ under the conditions used.
@@ -226,7 +252,9 @@ solution, signalling the end point. No additional indicator is needed.
 The Contact process uses vanadium(V) oxide ($\text{V}_2\text{O}_5$) as a catalyst for the oxidation
 of $\text{SO}_2$:
 
-$$2\text{SO}_2(g) + \text{O}_2(g) \rightleftharpoons 2\text{SO}_3(g)$$
+$$
+2\text{SO}_2(g) + \text{O}_2(g) \rightleftharpoons 2\text{SO}_3(g)
+$$
 
 (a) Describe the catalytic cycle, writing equations for each step involving the vanadium species.
 The vanadium cycles between $+5$ and $+4$ oxidation states.
@@ -241,12 +269,16 @@ is used in the form of a porous solid.
 (a) **Step 1:** $\text{SO}_2$ reduces $\text{V}_2\text{O}_5$ (V$^{5+}$) to $\text{V}_2\text{O}_4$
 (V$^{4+}$):
 
-$$\text{V}_2\text{O}_5(s) + \text{SO}_2(g) \to \text{V}_2\text{O}_4(s) + \text{SO}_3(g)$$
+$$
+\text{V}_2\text{O}_5(s) + \text{SO}_2(g) \to \text{V}_2\text{O}_4(s) + \text{SO}_3(g)
+$$
 
 **Step 2:** $\text{V}_2\text{O}_4$ (V$^{4+}$) is reoxidised by oxygen back to $\text{V}_2\text{O}_5$
 (V$^{5+}$):
 
-$$\text{V}_2\text{O}_4(s) + \tfrac{1}{2}\text{O}_2(g) \to \text{V}_2\text{O}_5(s)$$
+$$
+\text{V}_2\text{O}_4(s) + \tfrac{1}{2}\text{O}_2(g) \to \text{V}_2\text{O}_5(s)
+$$
 
 The vanadium cycles between the $+4$ and $+5$ oxidation states, and the overall reaction (adding
 both steps) is the same as the uncatalysed reaction. The catalyst provides an alternative pathway
@@ -321,7 +353,9 @@ region, transmitting pink (a mixture of red and some blue).
 
 (b)
 
-$$\text{[Co(H}_2\text{O)}_6\text{]}^{2+}(aq) + 4\text{Cl}^-(aq) \rightleftharpoons \text{[CoCl}_4\text{]}^{2-}(aq) + 6\text{H}_2\text{O}(l)$$
+$$
+\text{[Co(H}_2\text{O)}_6\text{]}^{2+}(aq) + 4\text{Cl}^-(aq) \rightleftharpoons \text{[CoCl}_4\text{]}^{2-}(aq) + 6\text{H}_2\text{O}(l)
+$$
 
 The colour changes from pink to blue because:
 
@@ -374,7 +408,9 @@ state, coordinated to a porphyrin ligand.
 (a) $\text{Fe}^{2+}$ is oxidised to $\text{Fe}^{3+}$. Use standard electrode potentials to calculate
 $E^\circ_{\text{cell}}$ for the oxidation of $\text{Fe}^{2+}$ by oxygen in acidic solution:
 
-$$4\text{Fe}^{2+}(aq) + \text{O}_2(g) + 4\text{H}^+(aq) \to 4\text{Fe}^{3+}(aq) + 2\text{H}_2\text{O}(l)$$
+$$
+4\text{Fe}^{2+}(aq) + \text{O}_2(g) + 4\text{H}^+(aq) \to 4\text{Fe}^{3+}(aq) + 2\text{H}_2\text{O}(l)
+$$
 
 $E^\circ(\text{Fe}^{3+}/\text{Fe}^{2+}) = +0.77\,\text{V}$, $E^\circ(\text{O}_2/\text{H}_2\text{O}) = +1.23\,\text{V}$.
 
@@ -391,7 +427,9 @@ Explain this in terms of ligand properties.
 
 $\text{Fe}^{2+}$ is oxidised (anode): $E^\circ_{\text{red}} = +0.77\,\text{V}$
 
-$$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 1.23 - 0.77 = +0.46\,\text{V}$$
+$$
+E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 1.23 - 0.77 = +0.46\,\text{V}
+$$
 
 $E^\circ_{\text{cell}} \gt 0$Confirming the reaction is thermodynamically feasible. The positive
 value ($\gt 0.3\,\text{V}$) indicates the reaction proceeds substantially to the right.

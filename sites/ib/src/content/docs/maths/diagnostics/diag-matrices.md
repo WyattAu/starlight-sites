@@ -61,9 +61,13 @@ equation.]
 
 **(a)**
 
-$$AB = \begin{pmatrix} 1 & 2 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 2 & 1 \\ -1 & 0 \end{pmatrix}$$
+$$
+AB = \begin{pmatrix} 1 & 2 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 2 & 1 \\ -1 & 0 \end{pmatrix}
+$$
 
-$$BA = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 1 & 2 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} 0 & -1 \\ 1 & 2 \end{pmatrix}$$
+$$
+BA = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 1 & 2 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} 0 & -1 \\ 1 & 2 \end{pmatrix}
+$$
 
 Since
 $AB = \begin{pmatrix} 2 & 1 \\ -1 & 0 \end{pmatrix} \neq \begin{pmatrix} 0 & -1 \\ 1 & 2 \end{pmatrix} = BA$The
@@ -71,9 +75,13 @@ matrices do not commute.
 
 **(b)** Let $X = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$. Then:
 
-$$AX = \begin{pmatrix} a + 2c & b + 2d \\ -c & -d \end{pmatrix}$$
+$$
+AX = \begin{pmatrix} a + 2c & b + 2d \\ -c & -d \end{pmatrix}
+$$
 
-$$XA = \begin{pmatrix} a & 2a + b \\ c & 2c + d \end{pmatrix}$$
+$$
+XA = \begin{pmatrix} a & 2a + b \\ c & 2c + d \end{pmatrix}
+$$
 
 Setting $AX = XA$:
 
@@ -118,13 +126,17 @@ concept of defective matrices.]
 
 **(a)** The characteristic equation is $\det(M - \lambda I) = 0$:
 
-$$\det\begin{pmatrix} 2 - \lambda & 1 & 0 \\ 0 & 2 - \lambda & 0 \\ 0 & 0 & 3 - \lambda \end{pmatrix} = (2 - \lambda)^2(3 - \lambda) = 0$$
+$$
+\det\begin{pmatrix} 2 - \lambda & 1 & 0 \\ 0 & 2 - \lambda & 0 \\ 0 & 0 & 3 - \lambda \end{pmatrix} = (2 - \lambda)^2(3 - \lambda) = 0
+$$
 
 Eigenvalues: $\lambda_1 = 2$ (repeated, algebraic multiplicity 2), $\lambda_2 = 3$.
 
 For $\lambda_1 = 2$: $(M - 2I)\mathbf{v} = \mathbf{0}$:
 
-$$\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
+$$
 
 This gives $y = 0$ and $z = 0$With $x$ free. So the eigenvectors are
 $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$ times any scalar. There is only **one** linearly
@@ -132,7 +144,9 @@ independent eigenvector for $\lambda = 2$.
 
 For $\lambda_2 = 3$: $(M - 3I)\mathbf{v} = \mathbf{0}$:
 
-$$\begin{pmatrix} -1 & 1 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 0 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} -1 & 1 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 0 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
+$$
 
 This gives $y = 0$, $-x = 0$ so $x = 0$With $z$ free. Eigenvector:
 $\begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$.
@@ -178,44 +192,68 @@ as $PD^nP^{-1}$ for any positive integer $n$. Is this correct? What conditions m
 
 **(a)** Characteristic equation: $\det(A - \lambda I) = (5 - \lambda)(-2 - \lambda) + 12 = 0$
 
-$$\lambda^2 - 3\lambda - 10 + 12 = \lambda^2 - 3\lambda + 2 = 0$$
+$$
+\lambda^2 - 3\lambda - 10 + 12 = \lambda^2 - 3\lambda + 2 = 0
+$$
 
-$$(\lambda - 1)(\lambda - 2) = 0 \implies \lambda_1 = 1, \; \lambda_2 = 2$$
+$$
+(\lambda - 1)(\lambda - 2) = 0 \implies \lambda_1 = 1, \; \lambda_2 = 2
+$$
 
 For $\lambda_1 = 1$: $(A - I)\mathbf{v} = \mathbf{0}$:
 
-$$\begin{pmatrix} 4 & -6 \\ 2 & -3 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies 4x - 6y = 0 \implies 2x = 3y$$
+$$
+\begin{pmatrix} 4 & -6 \\ 2 & -3 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies 4x - 6y = 0 \implies 2x = 3y
+$$
 
 Eigenvector: $\mathbf{v}_1 = \begin{pmatrix} 3 \\ 2 \end{pmatrix}$.
 
 For $\lambda_2 = 2$: $(A - 2I)\mathbf{v} = \mathbf{0}$:
 
-$$\begin{pmatrix} 3 & -6 \\ 2 & -4 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies x - 2y = 0$$
+$$
+\begin{pmatrix} 3 & -6 \\ 2 & -4 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies x - 2y = 0
+$$
 
 Eigenvector: $\mathbf{v}_2 = \begin{pmatrix} 2 \\ 1 \end{pmatrix}$.
 
 **(b)**
 
-$$P = \begin{pmatrix} 3 & 2 \\ 2 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 3 & 2 \\ 2 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}
+$$
 
-$$\det P = 3 - 4 = -1$$
+$$
+\det P = 3 - 4 = -1
+$$
 
-$$P^{-1} = -\begin{pmatrix} 1 & -2 \\ -2 & 3 \end{pmatrix} = \begin{pmatrix} -1 & 2 \\ 2 & -3 \end{pmatrix}$$
+$$
+P^{-1} = -\begin{pmatrix} 1 & -2 \\ -2 & 3 \end{pmatrix} = \begin{pmatrix} -1 & 2 \\ 2 & -3 \end{pmatrix}
+$$
 
 Verify:
 $PDP^{-1} = \begin{pmatrix} 3 & 2 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 2 & -3 \end{pmatrix} = \begin{pmatrix} 3 & 4 \\ 2 & 2 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 2 & -3 \end{pmatrix}$
 
-$$= \begin{pmatrix} -3 + 8 & 6 - 12 \\ -2 + 4 & 4 - 6 \end{pmatrix} = \begin{pmatrix} 5 & -6 \\ 2 & -2 \end{pmatrix} = A$$
+$$
+= \begin{pmatrix} -3 + 8 & 6 - 12 \\ -2 + 4 & 4 - 6 \end{pmatrix} = \begin{pmatrix} 5 & -6 \\ 2 & -2 \end{pmatrix} = A
+$$
 
 **(c)**
 
-$$D^5 = \begin{pmatrix} 1^5 & 0 \\ 0 & 2^5 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}$$
+$$
+D^5 = \begin{pmatrix} 1^5 & 0 \\ 0 & 2^5 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}
+$$
 
-$$A^5 = PD^5P^{-1} = \begin{pmatrix} 3 & 2 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 2 & -3 \end{pmatrix}$$
+$$
+A^5 = PD^5P^{-1} = \begin{pmatrix} 3 & 2 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 2 & -3 \end{pmatrix}
+$$
 
-$$= \begin{pmatrix} 3 & 64 \\ 2 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 2 & -3 \end{pmatrix} = \begin{pmatrix} -3 + 128 & 6 - 192 \\ -2 + 64 & 4 - 96 \end{pmatrix}$$
+$$
+= \begin{pmatrix} 3 & 64 \\ 2 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 2 & -3 \end{pmatrix} = \begin{pmatrix} -3 + 128 & 6 - 192 \\ -2 + 64 & 4 - 96 \end{pmatrix}
+$$
 
-$$= \begin{pmatrix} 125 & -186 \\ 62 & -92 \end{pmatrix}$$
+$$
+= \begin{pmatrix} 125 & -186 \\ 62 & -92 \end{pmatrix}
+$$
 
 **(d)** The student's claim is correct with the caveat that the matrix must be diagonalisable. Two
 distinct eigenvalues are a **sufficient** condition for diagonalisability, since each eigenvalue

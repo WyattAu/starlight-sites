@@ -43,23 +43,35 @@ section contains key concepts, worked methods, and essential facts. Use this alo
 
 **Adding and subtracting:** Find a common denominator, then add/subtract the numerators.
 
-$$\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$$
+$$
+\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}
+$$
 
-$$\frac{5}{6} + \frac{3}{8} = \frac{20 + 9}{24} = \frac{29}{24} = 1\frac{5}{24}$$
+$$
+\frac{5}{6} + \frac{3}{8} = \frac{20 + 9}{24} = \frac{29}{24} = 1\frac{5}{24}
+$$
 
 **Multiplying:** Multiply numerators together and denominators together, then simplify.
 
-$$\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd}$$
+$$
+\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd}
+$$
 
-$$\frac{3}{4} \times \frac{5}{7} = \frac{15}{28}$$
+$$
+\frac{3}{4} \times \frac{5}{7} = \frac{15}{28}
+$$
 
 **Dividing:** Flip the second fraction (find its reciprocal) and multiply.
 
-$$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{ad}{bc}$$
+$$
+\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{ad}{bc}
+$$
 
 **Simplifying:** Divide numerator and denominator by their highest common factor (HCF).
 
-$$\frac{12}{18} = \frac{12 \div 6}{18 \div 6} = \frac{2}{3}$$
+$$
+\frac{12}{18} = \frac{12 \div 6}{18 \div 6} = \frac{2}{3}
+$$
 
 ### 1.2 Decimals
 
@@ -95,7 +107,9 @@ Total parts $= 2 + 3 = 5$. One part $= 60 \div 5 = 12$. Shares are $£24$ and $�
 
 ### 1.5 Compound Interest and Depreciation
 
-$$\text{Amount} = P\left(1 \pm \frac{r}{100}\right)^n$$
+$$
+\text{Amount} = P\left(1 \pm \frac{r}{100}\right)^n
+$$
 
 Where $P$ is principal, $r$ is the rate per period, and $n$ is the number of periods. Use $+$ for growth,
 $-$ for decay.
@@ -112,7 +126,9 @@ A number in standard form is $A \times 10^n$ where $1 \leq A < 10$ and $n$ is an
 
 **Calculations:** Multiply the $A$ values, add the powers of 10.
 
-$$(2.4 \times 10^5) \times (3 \times 10^3) = 7.2 \times 10^8$$
+$$
+(2.4 \times 10^5) \times (3 \times 10^3) = 7.2 \times 10^8
+$$
 
 ### 1.7 Bounds
 
@@ -145,9 +161,13 @@ For calculated values, combine bounds appropriately:
 
 **Using indices laws:**
 
-$$a^m \times a^n = a^{m+n} \qquad \frac{a^m}{a^n} = a^{m-n} \qquad (a^m)^n = a^{mn}$$
+$$
+a^m \times a^n = a^{m+n} \qquad \frac{a^m}{a^n} = a^{m-n} \qquad (a^m)^n = a^{mn}
+$$
 
-$$a^0 = 1 \qquad a^{-n} = \frac{1}{a^n} \qquad a^{\frac{1}{n}} = \sqrt[n]{a}$$
+$$
+a^0 = 1 \qquad a^{-n} = \frac{1}{a^n} \qquad a^{\frac{1}{n}} = \sqrt[n]{a}
+$$
 
 ### 2.2 Expanding Brackets
 
@@ -155,11 +175,15 @@ $$a^0 = 1 \qquad a^{-n} = \frac{1}{a^n} \qquad a^{\frac{1}{n}} = \sqrt[n]{a}$$
 
 **Double brackets:**
 
-$$(x + 3)(x + 7) = x^2 + 7x + 3x + 21 = x^2 + 10x + 21$$
+$$
+(x + 3)(x + 7) = x^2 + 7x + 3x + 21 = x^2 + 10x + 21
+$$
 
 **Difference of two squares:**
 
-$$(a + b)(a - b) = a^2 - b^2$$
+$$
+(a + b)(a - b) = a^2 - b^2
+$$
 
 ### 2.3 Factorising
 
@@ -175,15 +199,21 @@ $$(a + b)(a - b) = a^2 - b^2$$
 
 **Linear equations:**
 
-$$3x - 7 = 2x + 5 \implies x = 12$$
+$$
+3x - 7 = 2x + 5 \implies x = 12
+$$
 
 **Quadratic equations by factorising:**
 
-$$x^2 + 5x + 6 = 0 \implies (x + 2)(x + 3) = 0 \implies x = -2 \text{ or } x = -3$$
+$$
+x^2 + 5x + 6 = 0 \implies (x + 2)(x + 3) = 0 \implies x = -2 \text{ or } x = -3
+$$
 
 **Quadratic formula:**
 
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
 
 For $ax^2 + bx + c = 0$. The discriminant $\Delta = b^2 - 4ac$ tells you the number of real solutions:
 $\Delta > 0$: two solutions, $\Delta = 0$: one solution, $\Delta < 0$: no real solutions.
@@ -192,7 +222,9 @@ $\Delta > 0$: two solutions, $\Delta = 0$: one solution, $\Delta < 0$: no real s
 
 Solve like equations but **flip the sign** when multiplying or dividing by a negative number.
 
-$$-3x \leq 9 \implies x \geq -3$$
+$$
+-3x \leq 9 \implies x \geq -3
+$$
 
 **Showing inequalities on a number line:** Closed circle for $\leq$ or $\geq$; open circle for $<$ or $>$.
 
@@ -202,7 +234,9 @@ $$-3x \leq 9 \implies x \geq -3$$
 
 For the sequence $5, 8, 11, 14, \ldots$ the common difference is $3$, so:
 
-$$u_n = 3n + 2$$
+$$
+u_n = 3n + 2
+$$
 
 **Quadratic sequences:** The second differences are constant. Halve the second difference to get the
 coefficient of $n^2$.
@@ -211,7 +245,9 @@ coefficient of $n^2$.
 
 **Elimination method:** Multiply one or both equations to make coefficients equal, then add or subtract.
 
-$$2x + y = 7 \quad \text{and} \quad x - y = 2$$
+$$
+2x + y = 7 \quad \text{and} \quad x - y = 2
+$$
 
 Adding: $3x = 9 \implies x = 3$, then $y = 1$.
 
@@ -224,7 +260,9 @@ Apply inverse operations to isolate the required subject. Treat all other letter
 
 **Example.** Make $a$ the subject of $v = u + at$:
 
-$$v - u = at \implies a = \frac{v - u}{t}$$
+$$
+v - u = at \implies a = \frac{v - u}{t}
+$$
 
 ### 2.9 Functions
 
@@ -264,9 +302,13 @@ Each interior angle of a regular polygon $= \frac{(n - 2) \times 180°}{n}$.
 
 ### 3.2 Circles
 
-$$\text{Circumference} = \pi d = 2\pi r$$
+$$
+\text{Circumference} = \pi d = 2\pi r
+$$
 
-$$\text{Area} = \pi r^2$$
+$$
+\text{Area} = \pi r^2
+$$
 
 **Arc length:** $\text{arc} = \frac{\theta}{360} \times 2\pi r$ where $\theta$ is the angle of the sector.
 
@@ -277,29 +319,39 @@ $$\text{Area} = \pi r^2$$
 In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two
 sides.
 
-$$a^2 + b^2 = c^2$$
+$$
+a^2 + b^2 = c^2
+$$
 
 where $c$ is the hypotenuse.
 
 ### 3.4 Trigonometry, SOH CAH TOA
 
-$$\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} \qquad \cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}} \qquad \tan \theta = \frac{\text{opposite}}{\text{adjacent}}$$
+$$
+\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} \qquad \cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}} \qquad \tan \theta = \frac{\text{opposite}}{\text{adjacent}}
+$$
 
 **Sine rule (non-right-angled triangles):**
 
-$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
+$$
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}
+$$
 
 Use when you know an angle and its opposite side.
 
 **Cosine rule:**
 
-$$a^2 = b^2 + c^2 - 2bc \cos A$$
+$$
+a^2 = b^2 + c^2 - 2bc \cos A
+$$
 
 Use when you know two sides and the included angle, or all three sides.
 
 **Area of a triangle:**
 
-$$\text{Area} = \frac{1}{2}ab \sin C$$
+$$
+\text{Area} = \frac{1}{2}ab \sin C
+$$
 
 ### 3.5 Transformations
 
@@ -314,7 +366,9 @@ $$\text{Area} = \frac{1}{2}ab \sin C$$
 
 A vector has both magnitude and direction.
 
-$$\mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$$
+$$
+\mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}
+$$
 
 **Magnitude:** $|\mathbf{a}| = \sqrt{3^2 + 4^2} = 5$
 
@@ -351,7 +405,9 @@ $\mathbf{AB} = \mathbf{OB} - \mathbf{OA}$.
 
 For grouped frequency tables, use the midpoint of each class as an estimate:
 
-$$\text{Estimated mean} = \frac{\sum f \times m}{\sum f}$$
+$$
+\text{Estimated mean} = \frac{\sum f \times m}{\sum f}
+$$
 
 where $f$ is the frequency and $m$ is the class midpoint.
 
@@ -389,7 +445,9 @@ Compare distributions by commenting on the median, IQR (spread), and overall ran
 
 ### 4.7 Probability
 
-$$P(\text{event}) = \frac{\text{number of favourable outcomes}}{\text{total number of outcomes}}$$
+$$
+P(\text{event}) = \frac{\text{number of favourable outcomes}}{\text{total number of outcomes}}
+$$
 
 **Rules:**
 
@@ -402,7 +460,9 @@ $$P(\text{event}) = \frac{\text{number of favourable outcomes}}{\text{total numb
 
 **Conditional probability:** The probability of event $B$ given event $A$ has occurred:
 
-$$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
+$$
+P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}
+$$
 
 ---
 

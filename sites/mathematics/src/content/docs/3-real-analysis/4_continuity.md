@@ -22,14 +22,18 @@ description: "Let where . We say if for Every There exists such that Comprehensi
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
 Every $\varepsilon > 0$There exists $\delta > 0$ such that
 
-$$0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon$$
+$$
+0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
+$$
 
 ### 4.2 Continuity
 
 **Definition.** $f$ is **continuous at $a$** if $\lim_{x \to a} f(x) = f(a)$. In epsilon-delta form:
 For every $\varepsilon > 0$There exists $\delta > 0$ such that
 
-$$|x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon$$
+$$
+|x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon
+$$
 
 _Remark._ A function is continuous on a set $E$ if it is continuous at every point of $E$. A
 function is **globally continuous** (or "continuous") if it is continuous on its entire domain.
@@ -120,7 +124,9 @@ the infimum is similar (consider $-f$). $\blacksquare$
 **Definition.** $f$ is **uniformly continuous** on $D$ if for every $\varepsilon > 0$There exists
 $\delta > 0$ such that for all $x, y \in D$:
 
-$$|x - y| \lt \delta \implies |f(x) - f(y)| \lt \varepsilon$$
+$$
+|x - y| \lt \delta \implies |f(x) - f(y)| \lt \varepsilon
+$$
 
 The key distinction: for ordinary continuity, $\delta$ may depend on both $\varepsilon$ and the
 point $a$; for uniform continuity, $\delta$ depends only on $\varepsilon$.
@@ -141,7 +147,9 @@ By continuity of $f$ at $c$: there exists $\delta > 0$ such that $|x - c| \lt \d
 $|f(x) - f(c)| \lt \varepsilon/2$. For $k$ sufficiently large, $|x_{n_k} - c| \lt \delta$ and
 $|y_{n_k} - c| \lt \delta$ So:
 
-$$|f(x_{n_k}) - f(y_{n_k})| \leq |f(x_{n_k}) - f(c)| + |f(y_{n_k}) - f(c)| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon$$
+$$
+|f(x_{n_k}) - f(y_{n_k})| \leq |f(x_{n_k}) - f(c)| + |f(y_{n_k}) - f(c)| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon
+$$
 
 Contradicting $|f(x_{n_k}) - f(y_{n_k})| \geq \varepsilon$. $\blacksquare$
 
@@ -174,13 +182,17 @@ $|f(x) - 5| = 3|x - 2| \lt 3 \cdot \varepsilon/3 = \varepsilon$. $\blacksquare$
 
 _Solution._ We have $f(3) = 9$. Let $\varepsilon > 0$. Compute:
 
-$$|f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|$$
+$$
+|f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|
+$$
 
 Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$Giving $|x + 3| \lt 7$.
 
 Choose $\delta = \min(1, \varepsilon/7)$. Then $|x - 3| \lt \delta$ implies:
 
-$$|x^2 - 9| = |x + 3| \cdot |x - 3| \lt 7 \cdot \frac{\varepsilon}{7} = \varepsilon$$
+$$
+|x^2 - 9| = |x + 3| \cdot |x - 3| \lt 7 \cdot \frac{\varepsilon}{7} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -193,7 +205,9 @@ _Solution._ We show the negation of uniform continuity. Take $\varepsilon = 1$. 
 Choose $n \in \mathbb{N}$ with $1/n \lt \delta$. Set $x = 1/n$ and $y = 1/(2n)$. Then
 $|x - y| = 1/(2n) \lt 1/n \lt \delta$ But:
 
-$$|f(x) - f(y)| = \left|\frac{1}{1/n} - \frac{1}{1/(2n)}\right| = |n - 2n| = n \geq 1 = \varepsilon$$
+$$
+|f(x) - f(y)| = \left|\frac{1}{1/n} - \frac{1}{1/(2n)}\right| = |n - 2n| = n \geq 1 = \varepsilon
+$$
 
 So no single $\delta$ works for all $x, y \in (0,1)$. $\blacksquare$
 
@@ -218,7 +232,9 @@ _Solution._ For $x \neq 0$, $f$ is a product of continuous functions, hence cont
 
 At $x = 0$: let $\varepsilon > 0$. Choose $\delta = \varepsilon$. For $|x - 0| = |x| \lt \delta$:
 
-$$|f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon$$
+$$
+|f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon
+$$
 
 So $f$ is continuous at $0$. Since $f$ extends continuously from $(0, 1]$ to $[0, 1]$The
 Heine-Cantor Theorem implies $f$ is uniformly continuous on $[0, 1]$. $\blacksquare$
@@ -235,7 +251,9 @@ $|\sin t| \leq |t|$ and $|\cos| \leq 1$.)
 Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Choose $\delta = \varepsilon$. For
 $|x - a| \lt \delta$:
 
-$$|\sin x - \sin a| \leq |x - a| \lt \delta = \varepsilon$$
+$$
+|\sin x - \sin a| \leq |x - a| \lt \delta = \varepsilon
+$$
 
 Since $\delta = \varepsilon$ works independently of $a$, $\sin x$ is actually **uniformly
 continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquare$
@@ -253,7 +271,9 @@ Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$ So $x 
 $e^{\max(x,a)} \leq e^{a+1}$. Choose $\delta = \min(1, \varepsilon / e^{a+1})$. For
 $|x - a| \lt \delta$:
 
-$$|e^x - e^a| \leq e^{a+1} |x - a| \lt e^{a+1} \cdot \frac{\varepsilon}{e^{a+1}} = \varepsilon$$
+$$
+|e^x - e^a| \leq e^{a+1} |x - a| \lt e^{a+1} \cdot \frac{\varepsilon}{e^{a+1}} = \varepsilon
+$$
 
 $\blacksquare$
 

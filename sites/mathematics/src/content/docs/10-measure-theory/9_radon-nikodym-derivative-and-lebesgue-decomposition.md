@@ -37,7 +37,9 @@ $A \in \mathcal{F}$ such that $\mu(A) = 0$ and $\nu(A^c) = 0$.
 space and $\nu$ a $\sigma$-finite signed measure with $\nu \ll \mu$. Then there exists a unique
 (a.e.) measurable function $f : X \to \mathbb{R}$ such that
 
-$$\nu(A) = \int_A f\, d\mu \quad \text{for all } A \in \mathcal{F}$$
+$$
+\nu(A) = \int_A f\, d\mu \quad \text{for all } A \in \mathcal{F}
+$$
 
 This function $f$ is denoted $d\nu/d\mu$ and called the **Radon-Nikodym derivative** of $\nu$ with
 respect to $\mu$.
@@ -51,15 +53,21 @@ by partitioning $X$ into sets of finite measure.
 
 **Proposition 9.3 (Linearity).** If $\nu_1, \nu_2 \ll \mu$ and $a, b \in \mathbb{R}$, then:
 
-$$\frac{d(a\nu_1 + b\nu_2)}{d\mu} = a\frac{d\nu_1}{d\mu} + b\frac{d\nu_2}{d\mu}$$
+$$
+\frac{d(a\nu_1 + b\nu_2)}{d\mu} = a\frac{d\nu_1}{d\mu} + b\frac{d\nu_2}{d\mu}
+$$
 
 **Proposition 9.4 (Chain Rule).** If $\lambda \ll \nu$ and $\nu \ll \mu$, then $\lambda \ll \mu$ and:
 
-$$\frac{d\lambda}{d\mu} = \frac{d\lambda}{d\nu} \cdot \frac{d\nu}{d\mu} \quad \mu\text{-a.e.}$$
+$$
+\frac{d\lambda}{d\mu} = \frac{d\lambda}{d\nu} \cdot \frac{d\nu}{d\mu} \quad \mu\text{-a.e.}
+$$
 
 **Proposition 9.5 (Change of Variables).** If $\nu \ll \mu$ and $f$ is $\nu$-integrable, then:
 
-$$\int f\, d\nu = \int f \frac{d\nu}{d\mu}\, d\mu$$
+$$
+\int f\, d\nu = \int f \frac{d\nu}{d\mu}\, d\mu
+$$
 
 **Example 9.1.** If $\nu$ is absolutely continuous with respect to Lebesgue measure $m$ on
 $\mathbb{R}$, then $d\nu/dm$ is the Radon-Nikodym derivative. For a probability distribution with
@@ -104,7 +112,9 @@ $G \in \mathcal{G}$. Then $\nu \ll P|_\mathcal{G}$, and $\mathbb{E}[X | \mathcal
 differentiation of measures on $\mathbb{R}^n$. The Lebesgue differentiation theorem states that
 for a locally integrable function $f$:
 
-$$\lim_{r \to 0} \frac{1}{m(B_r(x))} \int_{B_r(x)} f\, dm = f(x) \quad \text{a.e.}$$
+$$
+\lim_{r \to 0} \frac{1}{m(B_r(x))} \int_{B_r(x)} f\, dm = f(x) \quad \text{a.e.}
+$$
 
 This is intimately connected with the Radon-Nikodym derivative of the measure $\nu(A) = \int_A f\, dm$.
 

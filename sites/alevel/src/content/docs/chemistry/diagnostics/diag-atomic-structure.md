@@ -54,7 +54,9 @@ distribution.
 
 $\text{Cr}^{3+}$: Remove the $4s^1$ electron first, then two $3d$ electrons:
 
-$$\text{Cr}^{3+}: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^3$$
+$$
+\text{Cr}^{3+}: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^3
+$$
 
 $\text{Cu}$ has atomic number 29. Its ground state configuration is
 $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}\,4s^1$ (not $3d^9\,4s^2$). A fully-filled $3d$ subshell
@@ -62,7 +64,9 @@ provides extra stability.
 
 $\text{Cu}^+$: Remove the $4s^1$ electron:
 
-$$\text{Cu}^+: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}$$
+$$
+\text{Cu}^+: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}
+$$
 
 **Key point:** When forming cations, $4s$ electrons are removed before $3d$ electrons, despite $4s$
 filling before $3d$. This is because once the $3d$ subshell is occupied, the $3d$ orbital energy
@@ -263,22 +267,30 @@ the transition from $n = 4$ to $n = 1$ produces a photon in a different region.
 
 Energy at $n = 2$: $E_2 = -1312/4 = -328.0\,\text{kJ mol}^{-1}$
 
-$$\Delta E = E_2 - E_4 = -328.0 - (-82.0) = -246.0\,\text{kJ mol}^{-1}$$
+$$
+\Delta E = E_2 - E_4 = -328.0 - (-82.0) = -246.0\,\text{kJ mol}^{-1}
+$$
 
 The negative sign indicates energy is released. The photon energy is $246.0\,\text{kJ mol}^{-1}$.
 
 (b) Converting to energy per photon:
 
-$$E_{\text{photon}} = \frac{246.0 \times 10^3}{6.02 \times 10^{23}} = 4.086 \times 10^{-19}\,\text{J}$$
+$$
+E_{\text{photon}} = \frac{246.0 \times 10^3}{6.02 \times 10^{23}} = 4.086 \times 10^{-19}\,\text{J}
+$$
 
-$$\lambda = \frac{hc}{E} = \frac{6.63 \times 10^{-34} \times 3.00 \times 10^8}{4.086 \times 10^{-19}} = \frac{1.989 \times 10^{-25}}{4.086 \times 10^{-19}} = 4.868 \times 10^{-7}\,\text{m} = 486.8\,\text{nm}$$
+$$
+\lambda = \frac{hc}{E} = \frac{6.63 \times 10^{-34} \times 3.00 \times 10^8}{4.086 \times 10^{-19}} = \frac{1.989 \times 10^{-25}}{4.086 \times 10^{-19}} = 4.868 \times 10^{-7}\,\text{m} = 486.8\,\text{nm}
+$$
 
 (c) $486.8\,\text{nm}$ lies in the **visible region** of the electromagnetic spectrum (specifically,
 blue-green light). This is part of the Balmer series.
 
 The transition from $n = 4$ to $n = 1$ involves a much larger energy change:
 
-$$\Delta E = E_1 - E_4 = -1312 - (-82.0) = -1230\,\text{kJ mol}^{-1}$$
+$$
+\Delta E = E_1 - E_4 = -1312 - (-82.0) = -1230\,\text{kJ mol}^{-1}
+$$
 
 This corresponds to a much shorter wavelength ($\approx 97\,\text{nm}$), placing it in the
 **ultraviolet region** (Lyman series). The energy difference between $n = 1$ and $n = 4$ is much
@@ -392,9 +404,13 @@ relative atomic mass of boron is $10.81$. Calculate the percentage abundance of 
 
 Let $x$ be the fraction of $\mathrm{^{10}B}$ and $(1-x)$ be the fraction of $\mathrm{^{11}B}$.
 
-$$10.81 = 10.00x + 11.00(1-x) = 10.00x + 11.00 - 11.00x = 11.00 - x$$
+$$
+10.81 = 10.00x + 11.00(1-x) = 10.00x + 11.00 - 11.00x = 11.00 - x
+$$
 
-$$x = 11.00 - 10.81 = 0.19$$
+$$
+x = 11.00 - 10.81 = 0.19
+$$
 
 $\mathrm{^{10}B}$: $19.0\%$, $\mathrm{^{11}B}$: $81.0\%$
 

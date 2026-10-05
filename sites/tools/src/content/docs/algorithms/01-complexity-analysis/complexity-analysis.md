@@ -40,7 +40,9 @@ Query that completes in 10 milliseconds and one that takes 10 minutes when the d
 $O(g(n))$ is the set of all functions $f(n)$ for which there exist positive constants $c$ and $n_0$
 Such that:
 
-$$0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0
+$$
 
 Big-O provides an **upper bound** on the growth rate of a function. Saying $f(n) = O(n^2)$ means
 That $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
@@ -59,7 +61,9 @@ def print_all_pairs(arr):
 $\Omega(g(n))$ is the set of all functions $f(n)$ for which there exist positive constants $c$ and
 $n_0$ such that:
 
-$$0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0
+$$
 
 Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$It means no matter how
 Clever your implementation, the algorithm will take at least $c \cdot n \log n$ steps for large $n$.
@@ -70,7 +74,9 @@ $\Theta(g(n))$ is the intersection: $f(n) \in \Theta(g(n))$ if and only if $f(n)
 $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exactly the same rate
 As $g(n)$Up to constant factors.
 
-$$0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
+$$
 
 :::note
 Conventionally understood. When someone says "merge sort is $O(n \log n)$" they mean it is
@@ -80,7 +86,9 @@ $\Theta(n \log n)$. Be aware of the distinction when reading academic papers.
 
 $f(n) = o(g(n))$ means $f(n)$ grows strictly slower than $g(n)$:
 
-$$\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$$
+$$
+\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0
+$$
 
 Similarly, $f(n) = \omega(g(n))$ means $f(n)$ grows strictly faster. These are strict versions of
 Big-O and Big-Omega respectively, they exclude the equality case.
@@ -183,7 +191,9 @@ By exponentials. This is the fundamental boundary between tractable and intracta
 
 The Master Theorem provides a closed-form solution for recurrences of the form:
 
-$$T(n) = a \cdot T(n/b) + f(n)$$
+$$
+T(n) = a \cdot T(n/b) + f(n)
+$$
 
 Where $a \ge 1$ and $b \gt 1$. Let $c_{crit} = \log_b a$ (the critical exponent).
 
@@ -324,13 +334,17 @@ For dynamic array append:
 Define a **potential function** $\Phi$ on the data structure state. The amortised cost of operation
 $i$ is:
 
-$$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$
+$$
+\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})
+$$
 
 Where $c_i$ is the actual cost and $\Phi(D_i)$ is the potential after the operation.
 
 For a dynamic array with size $n$ and capacity $m$:
 
-$$\Phi(D) = 2n - m$$
+$$
+\Phi(D) = 2n - m
+$$
 
 - After an $O(1)$ insert (no resize): $\Phi$ increases by 2, amortised cost = $1 + 2 = 3$
 - After a resize from $m$ to $2m$: $\Phi$ goes from $2m - m = m$ to $2m - 2m = 0$A drop of $m$
@@ -606,12 +620,16 @@ The recursion tree has:
 
 The Akra-Bazzi theorem generalises the Master Theorem for recurrences of the form:
 
-$$T(x) = \sum_{i=1}^{k} a_i T(b_i x + h_i(x)) + f(x)$$
+$$
+T(x) = \sum_{i=1}^{k} a_i T(b_i x + h_i(x)) + f(x)
+$$
 
 Where $a_i \gt 0$, $0 \lt b_i \lt 1$ And $h_i(x) = O(x / \log^2 x)$. Find $p$ such that
 $\sum_{i=1}^{k} a_i b_i^p = 1$. Then:
 
-$$T(x) = \Theta\left(x^p \left(1 + \int_1^x \frac{f(u)}{u^{p+1}} du\right)\right)$$
+$$
+T(x) = \Theta\left(x^p \left(1 + \int_1^x \frac{f(u)}{u^{p+1}} du\right)\right)
+$$
 
 This handles cases like $T(n) = T(n/3) + T(2n/3) + O(n)$ where the subproblem sizes are not equal.
 
@@ -621,7 +639,9 @@ For algorithms whose running time depends on the input distribution (e.g., quick
 Analysis gives expected running time over a random input. Quicksort with random pivot selection has
 Expected $O(n \log n)$ comparisons, but the expected number of comparisons can be computed exactly:
 
-$$E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n$$
+$$
+E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
+$$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
 More comparisons than the information-theoretic minimum of $n \log_2 n$Which is remarkably close To
@@ -678,7 +698,9 @@ Amortised cost of each operation is $O(\log n)$Proven using the potential method
 
 The potential function for splay trees is:
 
-$$\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))$$
+$$
+\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))
+$$
 
 Where `size(v)` is the number of nodes in the subtree rooted at `v`. The potential is always
 Non-negative and is $O(n \log n)$ for an $n$-node tree.

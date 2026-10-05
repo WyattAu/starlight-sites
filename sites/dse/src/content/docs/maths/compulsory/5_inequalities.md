@@ -731,9 +731,13 @@ Reject.
 
 Case 2: $m \neq 0$. For $mx^2 + (m-1)x + m > 0$ for all real $x$We need $m > 0$ and $\Delta < 0$:
 
-$$\Delta = (m - 1)^2 - 4m^2 = m^2 - 2m + 1 - 4m^2 = -3m^2 - 2m + 1 < 0$$
+$$
+\Delta = (m - 1)^2 - 4m^2 = m^2 - 2m + 1 - 4m^2 = -3m^2 - 2m + 1 < 0
+$$
 
-$$3m^2 + 2m - 1 > 0 \implies (3m - 1)(m + 1) > 0 \implies m < -1 \;\text{or}\; m > \dfrac{1}{3}$$
+$$
+3m^2 + 2m - 1 > 0 \implies (3m - 1)(m + 1) > 0 \implies m < -1 \;\text{or}\; m > \dfrac{1}{3}
+$$
 
 Combined with $m > 0$: $m > \dfrac{1}{3}$.
 
@@ -774,7 +778,9 @@ Intersection: $(0, 5]$.
 <details>
 <summary>Solution</summary>
 
-$$\frac{2x - 1}{x + 3} - 1 \geq 0 \implies \frac{2x - 1 - x - 3}{x + 3} \geq 0 \implies \frac{x - 4}{x + 3} \geq 0$$
+$$
+\frac{2x - 1}{x + 3} - 1 \geq 0 \implies \frac{2x - 1 - x - 3}{x + 3} \geq 0 \implies \frac{x - 4}{x + 3} \geq 0
+$$
 
 Critical points: $x = -3$ (excluded) and $x = 4$ (included).
 
@@ -795,7 +801,9 @@ Case $k = 0$: $3 > 0$ for all real $x$. So $k = 0$ works.
 
 Case $k \neq 0$: Need $k > 0$ and $\Delta < 0$:
 
-$$\Delta = 4k^2 - 12k = 4k(k - 3) < 0 \implies 0 < k < 3$$
+$$
+\Delta = 4k^2 - 12k = 4k(k - 3) < 0 \implies 0 < k < 3
+$$
 
 Combined with $k = 0$: the answer is $0 \leq k < 3$.
 
@@ -808,9 +816,13 @@ Combined with $k = 0$: the answer is $0 \leq k < 3$.
 
 Square both sides (both sides non-negative):
 
-$$(2x - 3)^2 > (x + 1)^2 \implies 4x^2 - 12x + 9 > x^2 + 2x + 1$$
+$$
+(2x - 3)^2 > (x + 1)^2 \implies 4x^2 - 12x + 9 > x^2 + 2x + 1
+$$
 
-$$3x^2 - 14x + 8 > 0 \implies (3x - 2)(x - 4) > 0$$
+$$
+3x^2 - 14x + 8 > 0 \implies (3x - 2)(x - 4) > 0
+$$
 
 Solution: $x < \dfrac{2}{3}$ or $x > 4$.
 
@@ -842,7 +854,9 @@ $4(k + 1)^2 - 36 < 0 \implies (k + 1)^2 < 9 \implies -3 < k + 1 < 3 \implies -4 
 <details>
 <summary>Solution</summary>
 
-$$\frac{x^2 - x - 6}{x^2 - 4} = \frac{(x - 3)(x + 2)}{(x - 2)(x + 2)} = \frac{x - 3}{x - 2}$$
+$$
+\frac{x^2 - x - 6}{x^2 - 4} = \frac{(x - 3)(x + 2)}{(x - 2)(x + 2)} = \frac{x - 3}{x - 2}
+$$
 
 For $x \neq -2$.
 

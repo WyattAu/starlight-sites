@@ -21,13 +21,17 @@ description: "In free space (, ), take the curl of Faraday' s law: Comprehensive
 
 In free space ($\rho = 0$, $\mathbf{J} = \mathbf{0}$), take the curl of Faraday's law:
 
-$$\nabla \times (\nabla \times \mathbf{E}) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+\nabla \times (\nabla \times \mathbf{E}) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
 Using the identity
 $\nabla \times (\nabla \times \mathbf{E}) = \nabla(\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E}$
 And $\nabla \cdot \mathbf{E} = 0$:
 
-$$\nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+\nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
 Similarly: $\nabla^2 \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{B}}{\partial t^2}$.
 
@@ -74,22 +78,32 @@ Poynting's theorem is the statement of energy conservation for electromagnetic f
 
 **Derivation.** Start with the two Maxwell equations containing time derivatives:
 
-$$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$
+$$
+\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+$$
 
 Compute $\mathbf{B} \cdot (\nabla \times \mathbf{E}) - \mathbf{E} \cdot (\nabla \times \mathbf{B})$:
 
-$$\mathbf{B} \cdot (\nabla \times \mathbf{E}) = -\mathbf{B} \cdot \frac{\partial \mathbf{B}}{\partial t} = -\frac{\partial}{\partial t}\left(\frac{B^2}{2}\right)$$
+$$
+\mathbf{B} \cdot (\nabla \times \mathbf{E}) = -\mathbf{B} \cdot \frac{\partial \mathbf{B}}{\partial t} = -\frac{\partial}{\partial t}\left(\frac{B^2}{2}\right)
+$$
 
-$$-\mathbf{E} \cdot (\nabla \times \mathbf{B}) = -\mu_0 \mathbf{E} \cdot \mathbf{J} - \mu_0 \varepsilon_0 \mathbf{E} \cdot \frac{\partial \mathbf{E}}{\partial t} = -\mu_0 \mathbf{E} \cdot \mathbf{J} - \frac{\partial}{\partial t}\left(\frac{\varepsilon_0 E^2}{2}\right)$$
+$$
+-\mathbf{E} \cdot (\nabla \times \mathbf{B}) = -\mu_0 \mathbf{E} \cdot \mathbf{J} - \mu_0 \varepsilon_0 \mathbf{E} \cdot \frac{\partial \mathbf{E}}{\partial t} = -\mu_0 \mathbf{E} \cdot \mathbf{J} - \frac{\partial}{\partial t}\left(\frac{\varepsilon_0 E^2}{2}\right)
+$$
 
 Using the vector identity
 $\nabla \cdot (\mathbf{E} \times \mathbf{B}) = \mathbf{B} \cdot (\nabla \times \mathbf{E}) - \mathbf{E} \cdot (\nabla \times \mathbf{B})$:
 
-$$\nabla \cdot (\mathbf{E} \times \mathbf{B}) = -\mu_0 \mathbf{J} \cdot \mathbf{E} - \mu_0 \varepsilon_0 \frac{\partial}{\partial t}\left(\frac{E^2}{2}\right) - \frac{\partial}{\partial t}\left(\frac{B^2}{2}\right)$$
+$$
+\nabla \cdot (\mathbf{E} \times \mathbf{B}) = -\mu_0 \mathbf{J} \cdot \mathbf{E} - \mu_0 \varepsilon_0 \frac{\partial}{\partial t}\left(\frac{E^2}{2}\right) - \frac{\partial}{\partial t}\left(\frac{B^2}{2}\right)
+$$
 
 Dividing by $\mu_0$ and rearranging:
 
-$$\boxed{-\nabla \cdot \mathbf{S} = \mathbf{J} \cdot \mathbf{E} + \frac{\partial u}{\partial t}}$$
+$$
+\boxed{-\nabla \cdot \mathbf{S} = \mathbf{J} \cdot \mathbf{E} + \frac{\partial u}{\partial t}}
+$$
 
 Where $\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}$ is the Poynting vector and
 $u = \frac{1}{2}\left(\varepsilon_0 E^2 + \frac{B^2}{\mu_0}\right)$ is the energy density.
@@ -97,13 +111,17 @@ $u = \frac{1}{2}\left(\varepsilon_0 E^2 + \frac{B^2}{\mu_0}\right)$ is the energ
 **Interpretation:** The rate of energy leaving a volume equals the work done on charges plus The
 rate of increase of field energy. In integral form:
 
-$$-\oint_S \mathbf{S} \cdot d\mathbf{A} = \frac{d}{dt}\int_V u\,dV + \int_V \mathbf{J} \cdot \mathbf{E}\,dV$$
+$$
+-\oint_S \mathbf{S} \cdot d\mathbf{A} = \frac{d}{dt}\int_V u\,dV + \int_V \mathbf{J} \cdot \mathbf{E}\,dV
+$$
 
 ### 5.5 EM Wave Propagation: Worked Examples
 
 **Intensity.** For a plane wave, the time-averaged Poynting vector is:
 
-$$\langle\mathbf{S}\rangle = \frac{E_0^2}{2\mu_0 c}\,\hat{\mathbf{k}} = \frac{1}{2}\varepsilon_0 c E_0^2\,\hat{\mathbf{k}}$$
+$$
+\langle\mathbf{S}\rangle = \frac{E_0^2}{2\mu_0 c}\,\hat{\mathbf{k}} = \frac{1}{2}\varepsilon_0 c E_0^2\,\hat{\mathbf{k}}
+$$
 
 <details>
 <summary>Example: Radiation pressure</summary>
@@ -111,11 +129,15 @@ $$\langle\mathbf{S}\rangle = \frac{E_0^2}{2\mu_0 c}\,\hat{\mathbf{k}} = \frac{1}
 A plane wave normally incident on a perfectly absorbing surface exerts a radiation pressure. The
 momentum flux of the wave is $\langle S \rangle/c$ per unit area, so:
 
-$$P_{\mathrm{abs} = \frac{\langle S \rangle}{c} = \frac{\varepsilon_0 E_0^2}{2}}$$
+$$
+P_{\mathrm{abs} = \frac{\langle S \rangle}{c} = \frac{\varepsilon_0 E_0^2}{2}}
+$$
 
 For a perfectly reflecting surface, the momentum transfer is doubled:
 
-$$P_{\mathrm{ref} = \frac{2\langle S \rangle}{c} = \varepsilon_0 E_0^2}$$
+$$
+P_{\mathrm{ref} = \frac{2\langle S \rangle}{c} = \varepsilon_0 E_0^2}
+$$
 
 A 1 kW/m$^2$ beam (like sunlight near Earth) exerts a pressure of about $3.3\ \mu$Pa on a Perfect
 absorber. $\blacksquare$
@@ -130,14 +152,18 @@ Oscillates in a fixed direction.
 
 **Circular polarization.** Two orthogonal linear polarizations with a phase difference of $\pi/2$:
 
-$$\mathbf{E} = E_0\cos(kz - \omega t)\,\hat{\mathbf{x}} \pm E_0\sin(kz - \omega t)\,\hat{\mathbf{y}}$$
+$$
+\mathbf{E} = E_0\cos(kz - \omega t)\,\hat{\mathbf{x}} \pm E_0\sin(kz - \omega t)\,\hat{\mathbf{y}}
+$$
 
 The tip of $\mathbf{E}$ traces a circle. The $+$ sign gives left-circular polarization (LCP) and the
 $-$ sign gives right-circular polarization (RCP).
 
 **Elliptical polarization.** The general case with arbitrary amplitudes and phase:
 
-$$\mathbf{E} = E_{0x}\cos(kz - \omega t)\,\hat{\mathbf{x}} + E_{0y}\cos(kz - \omega t + \delta)\,\hat{\mathbf{y}}$$
+$$
+\mathbf{E} = E_{0x}\cos(kz - \omega t)\,\hat{\mathbf{x}} + E_{0y}\cos(kz - \omega t + \delta)\,\hat{\mathbf{y}}
+$$
 
 $\blacksquare$
 
@@ -148,26 +174,36 @@ $\blacksquare$
 In a conductor with conductivity $\sigma$Ohm's law gives $\mathbf{J} = \sigma\mathbf{E}$.
 Substituting into the Ampere-Maxwell law:
 
-$$\nabla \times \mathbf{B} = \mu_0\sigma\mathbf{E} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}$$
+$$
+\nabla \times \mathbf{B} = \mu_0\sigma\mathbf{E} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}
+$$
 
 For a monochromatic wave $\mathbf{E} = \mathbf{E}_0\,e^{-i\omega t}$This leads to a complex Wave
 number:
 
-$$\tilde{k}^2 = \mu_0\varepsilon_0\omega^2 + i\mu_0\sigma\omega$$
+$$
+\tilde{k}^2 = \mu_0\varepsilon_0\omega^2 + i\mu_0\sigma\omega
+$$
 
 Writing $\tilde{k} = k + i\kappa$ where $k$ is the real part (wave number) and $\kappa$ is the
 Imaginary part (attenuation constant):
 
-$$\mathbf{E}(z,t) = \mathbf{E}_0\,e^{-\kappa z}\cos(kz - \omega t)$$
+$$
+\mathbf{E}(z,t) = \mathbf{E}_0\,e^{-\kappa z}\cos(kz - \omega t)
+$$
 
 The field decays exponentially. The **skin depth** is the distance over which the amplitude Falls by
 a factor of $1/e$:
 
-$$\delta = \frac{1}{\kappa}$$
+$$
+\delta = \frac{1}{\kappa}
+$$
 
 For a good conductor ($\sigma \gg \varepsilon_0\omega$):
 
-$$\delta = \sqrt{\frac{2}{\mu_0\sigma\omega}}$$
+$$
+\delta = \sqrt{\frac{2}{\mu_0\sigma\omega}}
+$$
 
 <details>
 <summary>Example: Skin depth in copper at 60 Hz and 1 MHz</summary>
@@ -176,11 +212,15 @@ Copper: $\sigma = 5.96 \times 10^7$ S/m, $\mu_r \approx 1$.
 
 At $f = 60$ Hz ($\omega = 2\pi \times 60$ rad/s):
 
-$$\delta = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi \times 60}} \approx 8.5\ \mathrm{mm}$$
+$$
+\delta = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi \times 60}} \approx 8.5\ \mathrm{mm}
+$$
 
 At $f = 1$ MHz ($\omega = 2\pi \times 10^6$ rad/s):
 
-$$\delta = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi \times 10^6}} \approx 65\ \mu\mathrm{m}$$
+$$
+\delta = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi \times 10^6}} \approx 65\ \mu\mathrm{m}
+$$
 
 The skin depth decreases as $1/\sqrt{f}$ So higher-frequency signals are confined to thinner Surface
 layers. $\blacksquare$
@@ -195,27 +235,39 @@ waveguide with dimensions $a$ (width) and $b$ (height).
 **TE modes** (transverse electric, $E_z = 0$, $B_z \neq 0$). The lowest-order mode is
 $\mathrm{TE_}{10}$With fields:
 
-$$E_y = E_0 \sin\!\left(\frac{\pi x}{a}\right)\cos(k_g z - \omega t)$$
+$$
+E_y = E_0 \sin\!\left(\frac{\pi x}{a}\right)\cos(k_g z - \omega t)
+$$
 
-$$B_x = -\frac{k_g}{\omega}E_0 \sin\!\left(\frac{\pi x}{a}\right)\cos(k_g z - \omega t)$$
+$$
+B_x = -\frac{k_g}{\omega}E_0 \sin\!\left(\frac{\pi x}{a}\right)\cos(k_g z - \omega t)
+$$
 
-$$B_z = \frac{\pi}{\omega a}E_0 \cos\!\left(\frac{\pi x}{a}\right)\sin(k_g z - \omega t)$$
+$$
+B_z = \frac{\pi}{\omega a}E_0 \cos\!\left(\frac{\pi x}{a}\right)\sin(k_g z - \omega t)
+$$
 
 Where the **guide wave number** is $k_g = \sqrt{(\omega/c)^2 - (\pi/a)^2}$.
 
 **Cutoff frequency.** Waves propagate only when $\omega \gt \omega_c$ where:
 
-$$\omega_{c,mn} = c\pi\sqrt{\left(\frac{m}{a}\right)^2 + \left(\frac{n}{b}\right)^2}$$
+$$
+\omega_{c,mn} = c\pi\sqrt{\left(\frac{m}{a}\right)^2 + \left(\frac{n}{b}\right)^2}
+$$
 
 For the $\mathrm{TE_}{10}$ mode: $f_c = \frac{c}{2a}$.
 
 **Phase and group velocities.** In a waveguide, the phase velocity exceeds $c$:
 
-$$v_p = \frac{\omega}{k_g} = \frac{c}{\sqrt{1 - (\omega_c/\omega)^2}} \gt c$$
+$$
+v_p = \frac{\omega}{k_g} = \frac{c}{\sqrt{1 - (\omega_c/\omega)^2}} \gt c
+$$
 
 The group velocity (signal velocity) is less than $c$:
 
-$$v_g = \frac{d\omega}{dk_g} = c\sqrt{1 - (\omega_c/\omega)^2} \lt c$$
+$$
+v_g = \frac{d\omega}{dk_g} = c\sqrt{1 - (\omega_c/\omega)^2} \lt c
+$$
 
 They satisfy $v_p\,v_g = c^2$.
 
@@ -231,9 +283,13 @@ An oscillating electric dipole is the simplest source of electromagnetic radiati
 Consider a dipole $\mathbf{p}(t) = p_0\cos(\omega t)\,\hat{\mathbf{z}}$. In the **radiation zone**
 ($r \gg \lambda$), the fields are:
 
-$$\mathbf{E} = -\frac{\mu_0 p_0 \omega^2}{4\pi}\frac{\sin\theta}{r}\cos[\omega(t - r/c)]\,\hat{\boldsymbol{\theta}}$$
+$$
+\mathbf{E} = -\frac{\mu_0 p_0 \omega^2}{4\pi}\frac{\sin\theta}{r}\cos[\omega(t - r/c)]\,\hat{\boldsymbol{\theta}}
+$$
 
-$$\mathbf{B} = -\frac{\mu_0 p_0 \omega^2}{4\pi c}\frac{\sin\theta}{r}\cos[\omega(t - r/c)]\,\hat{\boldsymbol{\phi}}$$
+$$
+\mathbf{B} = -\frac{\mu_0 p_0 \omega^2}{4\pi c}\frac{\sin\theta}{r}\cos[\omega(t - r/c)]\,\hat{\boldsymbol{\phi}}
+$$
 
 The fields fall off as $1/r$ (not $1/r^2$ as for static fields), which is characteristic of
 Radiation.
@@ -243,11 +299,15 @@ Equatorial plane ($\theta = \pi/2$) and zero along the dipole axis ($\theta = 0,
 
 **Total radiated power.** Integrating the Poynting vector over a sphere:
 
-$$P = \frac{\mu_0 p_0^2 \omega^4}{12\pi c}$$
+$$
+P = \frac{\mu_0 p_0^2 \omega^4}{12\pi c}
+$$
 
 **Larmor formula.** For a point charge $q$ undergoing acceleration $a$:
 
-$$P = \frac{q^2 a^2}{6\pi\varepsilon_0 c^3}$$
+$$
+P = \frac{q^2 a^2}{6\pi\varepsilon_0 c^3}
+$$
 
 This is the non-relativistic limit and is valid whenever $v \ll c$.
 
@@ -256,15 +316,21 @@ This is the non-relativistic limit and is valid whenever $v \ll c$.
 
 The time-averaged Poynting vector magnitude in the radiation zone:
 
-$$\langle S \rangle = \frac{1}{2\mu_0}\lvert E_\theta\rvert\,\lvert B_\phi\rvert = \frac{\mu_0 p_0^2\omega^4}{32\pi^2 c}\frac{\sin^2\theta}{r^2}$$
+$$
+\langle S \rangle = \frac{1}{2\mu_0}\lvert E_\theta\rvert\,\lvert B_\phi\rvert = \frac{\mu_0 p_0^2\omega^4}{32\pi^2 c}\frac{\sin^2\theta}{r^2}
+$$
 
 The total power through a sphere of radius $r$:
 
-$$P = \int_0^{2\pi}\!\!\int_0^\pi \langle S \rangle\, r^2\sin\theta\,d\theta\,d\phi = \frac{\mu_0 p_0^2\omega^4}{32\pi^2 c} \cdot 2\pi \int_0^\pi \sin^3\theta\,d\theta$$
+$$
+P = \int_0^{2\pi}\!\!\int_0^\pi \langle S \rangle\, r^2\sin\theta\,d\theta\,d\phi = \frac{\mu_0 p_0^2\omega^4}{32\pi^2 c} \cdot 2\pi \int_0^\pi \sin^3\theta\,d\theta
+$$
 
 Using $\int_0^\pi \sin^3\theta\,d\theta = 4/3$:
 
-$$P = \frac{\mu_0 p_0^2\omega^4}{32\pi^2 c} \cdot 2\pi \cdot \frac{4}{3} = \frac{\mu_0 p_0^2\omega^4}{12\pi c}$$
+$$
+P = \frac{\mu_0 p_0^2\omega^4}{32\pi^2 c} \cdot 2\pi \cdot \frac{4}{3} = \frac{\mu_0 p_0^2\omega^4}{12\pi c}
+$$
 
 $\blacksquare$
 

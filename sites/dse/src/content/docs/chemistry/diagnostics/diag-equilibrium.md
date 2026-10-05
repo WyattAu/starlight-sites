@@ -22,7 +22,9 @@ tableOfContents: false
 
 Nitrogen and hydrogen react to form ammonia:
 
-$$N_{2}(g) + 3H_{2}(g) \rightleftharpoons 2NH_{3}(g)$$
+$$
+N_{2}(g) + 3H_{2}(g) \rightleftharpoons 2NH_{3}(g)
+$$
 
 1.00 mol of $N_{2}$ and 3.00 mol of $H_{2}$ were mixed in a sealed container of volume 2.0 dm$^{3}$
 and allowed to reach equilibrium at a certain temperature. At equilibrium, 0.40 mol of $NH_{3}$ was
@@ -61,19 +63,29 @@ $-3 \times 0.20 = -0.60$ mol.
 
 Equilibrium concentrations (dividing by volume 2.0 dm$^{3}$):
 
-$$[N_{2}] = \frac{0.80}{2.0} = 0.40 \text{ mol/dm}^{3}$$
+$$
+[N_{2}] = \frac{0.80}{2.0} = 0.40 \text{ mol/dm}^{3}
+$$
 
-$$[H_{2}] = \frac{2.40}{2.0} = 1.20 \text{ mol/dm}^{3}$$
+$$
+[H_{2}] = \frac{2.40}{2.0} = 1.20 \text{ mol/dm}^{3}
+$$
 
-$$[NH_{3}] = \frac{0.40}{2.0} = 0.20 \text{ mol/dm}^{3}$$
+$$
+[NH_{3}] = \frac{0.40}{2.0} = 0.20 \text{ mol/dm}^{3}
+$$
 
 (b)
-$$K_{c} = \frac{[NH_{3}]^{2}}{[N_{2}][H_{2}]^{3}} = \frac{(0.20)^{2}}{(0.40)(1.20)^{3}} = \frac{0.040}{0.40 \times 1.728} = \frac{0.040}{0.6912} = 0.0579$$
+$$
+K_{c} = \frac{[NH_{3}]^{2}}{[N_{2}][H_{2}]^{3}} = \frac{(0.20)^{2}}{(0.40)(1.20)^{3}} = \frac{0.040}{0.40 \times 1.728} = \frac{0.040}{0.6912} = 0.0579
+$$
 
 $K_{c}$ has units:
 $\frac{(\text{mol dm}^{-3})^{2}}{(\text{mol dm}^{-3})(\text{mol dm}^{-3})^{3}} = \text{mol}^{-2} \text{dm}^{6}$
 
-$$K_{c} = 0.0579 \text{ mol}^{-2} \text{dm}^{6}$$
+$$
+K_{c} = 0.0579 \text{ mol}^{-2} \text{dm}^{6}
+$$
 
 (c) The value of $K_{c}$ **remains unchanged**. $K_{c}$ is a constant at a given temperature and is
 not affected by changes in concentration or pressure. Changing the volume changes the equilibrium
@@ -97,7 +109,9 @@ $[NH_{3}]^{2}/([N_{2}][H_{2}]^{3})$ at the new equilibrium remains the same.
 
 For the exothermic reaction:
 
-$$2SO_{2}(g) + O_{2}(g) \rightleftharpoons 2SO_{3}(g) \quad \Delta H = -197 \text{ kJ/mol}$$
+$$
+2SO_{2}(g) + O_{2}(g) \rightleftharpoons 2SO_{3}(g) \quad \Delta H = -197 \text{ kJ/mol}
+$$
 
 (a) State the effect of increasing temperature on: (i) the equilibrium position, and (ii) the value
 of $K_{c}$. [3 marks]
@@ -159,7 +173,9 @@ reverse, endothermic reaction when temperature is increased).
 
 For the equilibrium:
 
-$$PCl_{5}(g) \rightleftharpoons PCl_{3}(g) + Cl_{2}(g)$$
+$$
+PCl_{5}(g) \rightleftharpoons PCl_{3}(g) + Cl_{2}(g)
+$$
 
 (a) Explain the effect on the equilibrium position when an inert gas (e.g., argon) is added at
 **constant volume**. [2 marks]
@@ -236,7 +252,9 @@ flowchart TD
 
 For the equilibrium:
 
-$$N_{2}O_{4}(g) \rightleftharpoons 2NO_{2}(g)$$
+$$
+N_{2}O_{4}(g) \rightleftharpoons 2NO_{2}(g)
+$$
 
 At 350 K, the total equilibrium pressure is 1.00 atm and the degree of dissociation of $N_{2}O_{4}$
 is 0.50 (50%).
@@ -280,31 +298,51 @@ Mole fraction of $NO_{2}$: $x(NO_{2}) = \frac{1.00}{1.50} = \frac{2}{3}$
 $P(NO_{2}) = x(NO_{2}) \times P_{\text{total}} = \frac{2}{3} \times 1.00 = 0.667$ atm
 
 (c)
-$$K_{p} = \frac{(P_{NO_{2}})^{2}}{P_{N_{2}O_{4}}} = \frac{(0.667)^{2}}{0.333} = \frac{0.445}{0.333} = 1.335 \text{ atm}$$
+$$
+K_{p} = \frac{(P_{NO_{2}})^{2}}{P_{N_{2}O_{4}}} = \frac{(0.667)^{2}}{0.333} = \frac{0.445}{0.333} = 1.335 \text{ atm}
+$$
 
 (d) Let $\alpha$ be the new degree of dissociation at $P = 2.00$ atm.
 
 $n(N_{2}O_{4}) = 1 - \alpha$, $n(NO_{2}) = 2\alpha$Total $= 1 + \alpha$
 
-$$P(N_{2}O_{4}) = \frac{1 - \alpha}{1 + \alpha} \times 2.00$$
+$$
+P(N_{2}O_{4}) = \frac{1 - \alpha}{1 + \alpha} \times 2.00
+$$
 
-$$P(NO_{2}) = \frac{2\alpha}{1 + \alpha} \times 2.00 = \frac{4\alpha}{1 + \alpha}$$
+$$
+P(NO_{2}) = \frac{2\alpha}{1 + \alpha} \times 2.00 = \frac{4\alpha}{1 + \alpha}
+$$
 
-$$K_{p} = \frac{\left(\frac{4\alpha}{1+\alpha}\right)^{2}}{\frac{2(1-\alpha)}{1+\alpha}} = \frac{\frac{16\alpha^{2}}{(1+\alpha)^{2}}}{\frac{2(1-\alpha)}{1+\alpha}} = \frac{16\alpha^{2}}{2(1-\alpha)(1+\alpha)} = \frac{8\alpha^{2}}{1-\alpha^{2}}$$
+$$
+K_{p} = \frac{\left(\frac{4\alpha}{1+\alpha}\right)^{2}}{\frac{2(1-\alpha)}{1+\alpha}} = \frac{\frac{16\alpha^{2}}{(1+\alpha)^{2}}}{\frac{2(1-\alpha)}{1+\alpha}} = \frac{16\alpha^{2}}{2(1-\alpha)(1+\alpha)} = \frac{8\alpha^{2}}{1-\alpha^{2}}
+$$
 
 Set $K_{p} = 1.335$:
 
-$$\frac{8\alpha^{2}}{1-\alpha^{2}} = 1.335$$
+$$
+\frac{8\alpha^{2}}{1-\alpha^{2}} = 1.335
+$$
 
-$$8\alpha^{2} = 1.335(1-\alpha^{2})$$
+$$
+8\alpha^{2} = 1.335(1-\alpha^{2})
+$$
 
-$$8\alpha^{2} = 1.335 - 1.335\alpha^{2}$$
+$$
+8\alpha^{2} = 1.335 - 1.335\alpha^{2}
+$$
 
-$$9.335\alpha^{2} = 1.335$$
+$$
+9.335\alpha^{2} = 1.335
+$$
 
-$$\alpha^{2} = \frac{1.335}{9.335} = 0.1430$$
+$$
+\alpha^{2} = \frac{1.335}{9.335} = 0.1430
+$$
 
-$$\alpha = 0.378$$
+$$
+\alpha = 0.378
+$$
 
 The new degree of dissociation is **0.378** (37.8%), which is less than 0.50, consistent with Le
 Chatelier"s principle (increasing pressure favours the side with fewer gas moles).
@@ -326,7 +364,9 @@ Chatelier"s principle (increasing pressure favours the side with fewer gas moles
 
 The Haber process for ammonia synthesis:
 
-$$N_{2}(g) + 3H_{2}(g) \rightleftharpoons 2NH_{3}(g) \quad \Delta H = -92 \text{ kJ/mol}$$
+$$
+N_{2}(g) + 3H_{2}(g) \rightleftharpoons 2NH_{3}(g) \quad \Delta H = -92 \text{ kJ/mol}
+$$
 
 (a) Explain why industrial conditions use a temperature of approximately 450$^{\circ}$C rather than
 a lower temperature, even though a lower temperature would give a higher equilibrium yield. [3
@@ -393,7 +433,9 @@ A more accurate estimate would give approximately **25%**.
 
 For the equilibrium:
 
-$$H_{2}(g) + I_{2}(g) \rightleftharpoons 2HI(g)$$
+$$
+H_{2}(g) + I_{2}(g) \rightleftharpoons 2HI(g)
+$$
 
 $K_{c} = 49.0$ at a certain temperature. 2.00 mol of $HI$ is placed in a 1.0 dm$^{3}$ container and
 allowed to reach equilibrium.
@@ -424,15 +466,25 @@ Let $x$ mol/dm$^{3}$ of $HI$ dissociate.
 
 At equilibrium: $[HI] = 2.00 - 2x$$[H_{2}] = x$$[I_{2}] = x$.
 
-$$K_{c} = \frac{[HI]^{2}}{[H_{2}][I_{2}]} = \frac{(2.00 - 2x)^{2}}{x^{2}} = 49.0$$
+$$
+K_{c} = \frac{[HI]^{2}}{[H_{2}][I_{2}]} = \frac{(2.00 - 2x)^{2}}{x^{2}} = 49.0
+$$
 
-$$\frac{2.00 - 2x}{x} = 7.00$$
+$$
+\frac{2.00 - 2x}{x} = 7.00
+$$
 
-$$2.00 - 2x = 7x$$
+$$
+2.00 - 2x = 7x
+$$
 
-$$2.00 = 9x$$
+$$
+2.00 = 9x
+$$
 
-$$x = 0.222 \text{ mol/dm}^{3}$$
+$$
+x = 0.222 \text{ mol/dm}^{3}
+$$
 
 At equilibrium:
 
@@ -447,17 +499,27 @@ react with $I_{2}$.
 
 New equilibrium: $[H_{2}] = 0.222 - y$$[I_{2}] = 1.222 - y$$[HI] = 1.556 + 2y$.
 
-$$K_{c} = \frac{(1.556 + 2y)^{2}}{(0.222 - y)(1.222 - y)} = 49.0$$
+$$
+K_{c} = \frac{(1.556 + 2y)^{2}}{(0.222 - y)(1.222 - y)} = 49.0
+$$
 
-$$1.556 + 2y = 7.00\sqrt{(0.222 - y)(1.222 - y)}$$
+$$
+1.556 + 2y = 7.00\sqrt{(0.222 - y)(1.222 - y)}
+$$
 
 Expanding: $(1.556 + 2y)^{2} = 49.0(0.222 - y)(1.222 - y)$
 
-$$2.421 + 6.224y + 4y^{2} = 49.0(0.2713 - 1.444y + y^{2})$$
+$$
+2.421 + 6.224y + 4y^{2} = 49.0(0.2713 - 1.444y + y^{2})
+$$
 
-$$2.421 + 6.224y + 4y^{2} = 13.29 - 70.76y + 49.0y^{2}$$
+$$
+2.421 + 6.224y + 4y^{2} = 13.29 - 70.76y + 49.0y^{2}
+$$
 
-$$0 = 10.87 - 76.98y + 45y^{2}$$
+$$
+0 = 10.87 - 76.98y + 45y^{2}
+$$
 
 Using the quadratic formula:
 $y = \frac{76.98 \pm \sqrt{76.98^{2} - 4 \times 45 \times 10.87}}{2 \times 45}$

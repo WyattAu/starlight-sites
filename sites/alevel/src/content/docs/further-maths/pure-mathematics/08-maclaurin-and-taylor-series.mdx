@@ -52,7 +52,9 @@ Able to derive them and apply them.
 **Definition.** The **Maclaurin series** of a function $f$ that is infinitely differentiable at
 $x = 0$ is
 
-$$\boxed{f(x) = f(0) + xf'(0) + \frac{x^2}{2!}f''(0) + \frac{x^3}{3!}f'''(0) + \cdots = \sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}\,x^n}$$
+$$
+\boxed{f(x) = f(0) + xf'(0) + \frac{x^2}{2!}f''(0) + \frac{x^3}{3!}f'''(0) + \cdots = \sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}\,x^n}
+$$
 
 This is a special case of the Taylor series about $x = a = 0$.
 
@@ -81,9 +83,13 @@ Substituting back gives the Maclaurin series.
 
 Let $f(x) = e^x$. Then $f^{(n)}(x) = e^x$ for all $n$ So $f^{(n)}(0) = 1$ for all $n$.
 
-$$e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots = \sum_{n=0}^{\infty}\frac{x^n}{n!}$$
+$$
+e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots = \sum_{n=0}^{\infty}\frac{x^n}{n!}
+$$
 
-$$\boxed{e^x = \sum_{n=0}^{\infty}\frac{x^n}{n!}} \quad \mathrm{for all } x \in \mathbb{R}$$
+$$
+\boxed{e^x = \sum_{n=0}^{\infty}\frac{x^n}{n!}} \quad \mathrm{for all } x \in \mathbb{R}
+$$
 
 $\square$
 
@@ -97,9 +103,13 @@ Let $f(x) = \sin x$. The derivatives cycle: $\sin x$$\cos x$$-\sin x$$-\cos x$$\
 
 At $x = 0$: $0, 1, 0, -1, 0, 1, 0, -1, \ldots$
 
-$$\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots = \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{(2n+1)!}$$
+$$
+\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots = \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{(2n+1)!}
+$$
 
-$$\boxed{\sin x = \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{(2n+1)!}} \quad \mathrm{for all } x \in \mathbb{R}$$
+$$
+\boxed{\sin x = \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{(2n+1)!}} \quad \mathrm{for all } x \in \mathbb{R}
+$$
 
 $\square$
 
@@ -111,7 +121,9 @@ Let $f(x) = \cos x$. The derivatives cycle: $\cos x$$-\sin x$$-\cos x$$\sin x$$\
 
 At $x = 0$: $1, 0, -1, 0, 1, 0, -1, 0, \ldots$
 
-$$\boxed{\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots = \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n}}{(2n)!}} \quad \mathrm{for all } x \in \mathbb{R}$$
+$$
+\boxed{\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots = \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n}}{(2n)!}} \quad \mathrm{for all } x \in \mathbb{R}
+$$
 
 ### 2.4 Natural logarithm
 
@@ -121,7 +133,9 @@ $f'(x) = \dfrac{1}{1+x}$$f''(x) = -\dfrac{1}{(1+x)^2}$$f'''(x) = \dfrac{2}{(1+x)
 
 $f^{(n)}(x) = \dfrac{(-1)^{n-1}(n-1)!}{(1+x)^n}$ So $f^{(n)}(0) = (-1)^{n-1}(n-1)!$.
 
-$$\boxed{\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots = \sum_{n=1}^{\infty}\frac{(-1)^{n-1}x^n}{n}} \quad \mathrm{for } -1 < x \leq 1$$
+$$
+\boxed{\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots = \sum_{n=1}^{\infty}\frac{(-1)^{n-1}x^n}{n}} \quad \mathrm{for } -1 < x \leq 1
+$$
 
 **Radius of convergence:** 1. The series also converges at $x = 1$ (alternating harmonic series).
 
@@ -129,7 +143,9 @@ $$\boxed{\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots =
 
 For $|x| < 1$ and any real $n$:
 
-$$\boxed{(1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots = \sum_{k=0}^{\infty}\binom{n}{k}x^k}$$
+$$
+\boxed{(1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots = \sum_{k=0}^{\infty}\binom{n}{k}x^k}
+$$
 
 Where $\dbinom{n}{k} = \dfrac{n(n-1)(n-2)\cdots(n-k+1)}{k!}$.
 
@@ -137,7 +153,9 @@ Where $\dbinom{n}{k} = \dfrac{n(n-1)(n-2)\cdots(n-k+1)}{k!}$.
 
 ### 2.6 Arctangent
 
-$$\boxed{\arctan x = x - \frac{x^3}{3} + \frac{x^5}{5} - \frac{x^7}{7} + \cdots = \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{2n+1}} \quad \mathrm{for } |x| \leq 1$$
+$$
+\boxed{\arctan x = x - \frac{x^3}{3} + \frac{x^5}{5} - \frac{x^7}{7} + \cdots = \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{2n+1}} \quad \mathrm{for } |x| \leq 1
+$$
 
 **Radius of convergence:** 1. Converges at $x = \pm 1$ by the alternating series test.
 
@@ -163,7 +181,9 @@ $|x| < 1$Integrate term by term.
 
 **Definition.** The **Taylor series** of $f$ about $x = a$ is
 
-$$\boxed{f(x) = f(a) + (x-a)f'(a) + \frac{(x-a)^2}{2!}f''(a) + \frac{(x-a)^3}{3!}f'''(a) + \cdots = \sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n}$$
+$$
+\boxed{f(x) = f(a) + (x-a)f'(a) + \frac{(x-a)^2}{2!}f''(a) + \frac{(x-a)^3}{3!}f'''(a) + \cdots = \sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n}
+$$
 
 The Maclaurin series is the special case $a = 0$.
 
@@ -171,11 +191,15 @@ The Maclaurin series is the special case $a = 0$.
 
 **Theorem.** If $f$ is $(n+1)$-times differentiable on an interval containing $a$ and $x$ Then
 
-$$f(x) = \sum_{k=0}^{n}\frac{f^{(k)}(a)}{k!}(x-a)^k + R_n$$
+$$
+f(x) = \sum_{k=0}^{n}\frac{f^{(k)}(a)}{k!}(x-a)^k + R_n
+$$
 
 Where the **remainder** in Lagrange form is
 
-$$\boxed{R_n = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}}$$
+$$
+\boxed{R_n = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}}
+$$
 
 For some $c$ between $a$ and $x$.
 
@@ -190,7 +214,9 @@ $f(x) = e^x$$f'(x) = e^x$$f''(x) = e^x$$f'''(x) = e^x$.
 
 At $x = 1$: $f(1) = f'(1) = f''(1) = f'''(1) = e$.
 
-$$e^x = e + e(x-1) + \frac{e}{2}(x-1)^2 + \frac{e}{6}(x-1)^3 + \cdots = e\sum_{n=0}^{\infty}\frac{(x-1)^n}{n!}$$
+$$
+e^x = e + e(x-1) + \frac{e}{2}(x-1)^2 + \frac{e}{6}(x-1)^3 + \cdots = e\sum_{n=0}^{\infty}\frac{(x-1)^n}{n!}
+$$
 
 ### 3.4 Converting between Maclaurin and Taylor series
 
@@ -198,9 +224,13 @@ $$e^x = e + e(x-1) + \frac{e}{2}(x-1)^2 + \frac{e}{6}(x-1)^3 + \cdots = e\sum_{n
 
 Let $u = x - 1$ So $\ln x = \ln(1 + u)$.
 
-$$\ln(1+u) = u - \frac{u^2}{2} + \frac{u^3}{3} - \cdots$$
+$$
+\ln(1+u) = u - \frac{u^2}{2} + \frac{u^3}{3} - \cdots
+$$
 
-$$\boxed{\ln x = (x-1) - \frac{(x-1)^2}{2} + \frac{(x-1)^3}{3} - \cdots} \quad \mathrm{for } 0 < x \leq 2$$
+$$
+\boxed{\ln x = (x-1) - \frac{(x-1)^2}{2} + \frac{(x-1)^3}{3} - \cdots} \quad \mathrm{for } 0 < x \leq 2
+$$
 
 <hr />
 
@@ -219,7 +249,9 @@ $x = \pm R$ must be tested separately.
 
 **Theorem (Ratio test).** For the series $\displaystyle\sum_{n=0}^{\infty}a_n x^n$Let
 
-$$L = \lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|$$
+$$
+L = \lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|
+$$
 
 If $L$ exists, the radius of convergence is $R = \dfrac{1}{L}$.
 
@@ -263,7 +295,9 @@ $S_N = \dfrac{1 - x^{N+1}}{1 - x}$ (standard formula).
 
 Since $|x| < 1$: $x^{N+1} \to 0$ as $N \to \infty$ So $S_N \to \dfrac{1}{1-x}$.
 
-$$\boxed{\sum_{n=0}^{\infty}x^n = \frac{1}{1-x} \quad \mathrm{for } |x| < 1}$$
+$$
+\boxed{\sum_{n=0}^{\infty}x^n = \frac{1}{1-x} \quad \mathrm{for } |x| < 1}
+$$
 
 $\square$
 
@@ -302,11 +336,15 @@ $\dfrac{e^x - 1 - x}{x^2} = \dfrac{1}{2} + \dfrac{x}{6} + \cdots \to \dfrac{1}{2
 
 Substitute $x^2$ into the series for $e^x$:
 
-$$e^{x^2} = 1 + x^2 + \frac{x^4}{2!} + \frac{x^6}{3!} + \cdots = 1 + x^2 + \frac{x^4}{2} + \frac{x^6}{6} + \cdots$$
+$$
+e^{x^2} = 1 + x^2 + \frac{x^4}{2!} + \frac{x^6}{3!} + \cdots = 1 + x^2 + \frac{x^4}{2} + \frac{x^6}{6} + \cdots
+$$
 
 **Example.** Find the Maclaurin series of $\cos(x^2)$ up to the $x^8$ term.
 
-$$\cos(x^2) = 1 - \frac{x^4}{2!} + \frac{x^8}{4!} - \cdots = 1 - \frac{x^4}{2} + \frac{x^8}{24} - \cdots$$
+$$
+\cos(x^2) = 1 - \frac{x^4}{2!} + \frac{x^8}{4!} - \cdots = 1 - \frac{x^4}{2} + \frac{x^8}{24} - \cdots
+$$
 
 **Example.** Find $\dfrac{e^x}{1-x}$ up to the $x^3$ term.
 
@@ -327,7 +365,9 @@ $= 1 + 2x + \dfrac{5}{2}x^2 + \dfrac{8}{3}x^3 + \cdots$
 **Intuition.** L'Hôpital's rule is a consequence of Taylor's theorem. If $f(a) = g(a) = 0$ Then Near
 $a$:
 
-$$\frac{f(x)}{g(x)} \approx \frac{f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^2}{g'(a)(x-a) + \frac{g''(a)}{2}(x-a)^2} = \frac{f'(a) + \frac{f''(a)}{2}(x-a)}{g'(a) + \frac{g''(a)}{2}(x-a)}$$
+$$
+\frac{f(x)}{g(x)} \approx \frac{f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^2}{g'(a)(x-a) + \frac{g''(a)}{2}(x-a)^2} = \frac{f'(a) + \frac{f''(a)}{2}(x-a)}{g'(a) + \frac{g''(a)}{2}(x-a)}
+$$
 
 Taking $x \to a$ gives $\dfrac{f'(a)}{g'(a)}$Which is L'Hôpital's rule. The series approach often
 Gives more information (higher-order terms) than applying L'Hôpital's rule repeatedly.
@@ -380,7 +420,9 @@ $f^{(6)}(0) = -64$.
 Alternatively, substitute $2x$ into
 $\cos x = 1 - \dfrac{x^2}{2!} + \dfrac{x^4}{4!} - \dfrac{x^6}{6!} + \cdots$:
 
-$$\boxed{\cos 2x = 1 - 2x^2 + \frac{2x^4}{3} - \frac{4x^6}{45} + \cdots}$$
+$$
+\boxed{\cos 2x = 1 - 2x^2 + \frac{2x^4}{3} - \frac{4x^6}{45} + \cdots}
+$$
 
 **If you get this wrong, revise:** [Standard Series](#2-standard-maclaurin-series), Section 2.
 
@@ -398,7 +440,9 @@ Find the Maclaurin series of $\ln(1 - x^2)$ up to the $x^6$ term, stating the ra
 
 Substitute $-x^2$ into $\ln(1+u) = u - \dfrac{u^2}{2} + \dfrac{u^3}{3} - \cdots$:
 
-$$\ln(1 - x^2) = -x^2 - \frac{x^4}{2} - \frac{x^6}{3} - \cdots$$
+$$
+\ln(1 - x^2) = -x^2 - \frac{x^4}{2} - \frac{x^6}{3} - \cdots
+$$
 
 Range: $|x^2| < 1 \implies |x| < 1$. Also converges at $x = \pm 1$ (alternating harmonic at $x = 1$
 When substituted, but here $-x^2 - x^4/2 - x^6/3 - \cdots$ at $x = 1$ is $-\sum 1/n$Diverges).
@@ -443,7 +487,9 @@ $f(x) = \sin x$. $f(\pi/3) = \dfrac{\sqrt{3}}{2}$. $f'(x) = \cos x$
 $f'(\pi/3) = \dfrac{1}{2}$. $f''(x) = -\sin x$, $f''(\pi/3) = -\dfrac{\sqrt{3}}{2}$.
 $f'''(x) = -\cos x$, $f'''(\pi/3) = -\dfrac{1}{2}$.
 
-$$\sin x = \frac{\sqrt{3}}{2} + \frac{1}{2}\left(x-\frac{\pi}{3}\right) - \frac{\sqrt{3}}{4}\left(x-\frac{\pi}{3}\right)^2 - \frac{1}{12}\left(x-\frac{\pi}{3}\right)^3 + \cdots$$
+$$
+\sin x = \frac{\sqrt{3}}{2} + \frac{1}{2}\left(x-\frac{\pi}{3}\right) - \frac{\sqrt{3}}{4}\left(x-\frac{\pi}{3}\right)^2 - \frac{1}{12}\left(x-\frac{\pi}{3}\right)^3 + \cdots
+$$
 
 **If you get this wrong, revise:** [Taylor Series About $x = a$](/further-maths/pure-mathematics/08-maclaurin-and-taylor-series/),
 Section 3.
@@ -490,7 +536,9 @@ $= 1 - \dfrac{u}{2} + \dfrac{3u^2}{8} - \dfrac{5u^3}{16} + \cdots$
 
 Substituting $u = 2x$:
 
-$$\boxed{(1+2x)^{-1/2} = 1 - x + \frac{3x^2}{2} - \frac{5x^3}{2} + \cdots}$$
+$$
+\boxed{(1+2x)^{-1/2} = 1 - x + \frac{3x^2}{2} - \frac{5x^3}{2} + \cdots}
+$$
 
 Valid for $|2x| < 1 \implies |x| < \dfrac{1}{2}$.
 
@@ -547,7 +595,9 @@ $x^4$: $\dfrac{x^3}{6} \cdot x + x \cdot \left(-\dfrac{x^3}{6}\right) = 0$
 $x^5$:
 $\dfrac{x^4}{24} \cdot x + \dfrac{x^2}{2}\left(-\dfrac{x^3}{6}\right) + 1 \cdot \dfrac{x^5}{120} = \dfrac{x^5}{24} - \dfrac{x^5}{12} + \dfrac{x^5}{120} = \dfrac{5 - 10 + 1}{120}x^5 = -\dfrac{x^5}{30}$
 
-$$\boxed{e^x \sin x = x + x^2 + \frac{x^3}{3} - \frac{x^5}{30} + \cdots}$$
+$$
+\boxed{e^x \sin x = x + x^2 + \frac{x^3}{3} - \frac{x^5}{30} + \cdots}
+$$
 
 **If you get this wrong, revise:** [Compound Functions](#53-series-expansions-of-compound-functions)
 - Section 5.3.
@@ -608,7 +658,9 @@ $(1 + u)^{-1/2} = 1 - \dfrac{u}{2} + \dfrac{3u^2}{8} - \dfrac{5u^3}{16} + \dfrac
 
 Substituting $u = x^2$:
 
-$$\frac{1}{\sqrt{1+x^2}} = 1 - \frac{x^2}{2} + \frac{3x^4}{8} - \frac{5x^6}{16} + \cdots$$
+$$
+\frac{1}{\sqrt{1+x^2}} = 1 - \frac{x^2}{2} + \frac{3x^4}{8} - \frac{5x^6}{16} + \cdots
+$$
 
 Valid for $|x^2| < 1$I.e., $|x| < 1$.
 
@@ -642,7 +694,9 @@ $1 \cdot (-x^2/2) + x \cdot x = -x^2/2 + x^2 = x^2/2$ $x^3$:
 $1 \cdot 0 + x \cdot (-x^2/2) + (x^2/2) \cdot x = -x^3/2 + x^3/2 = 0$ $x^4$:
 $1 \cdot (x^4/24) + x \cdot 0 + (x^2/2)(-x^2/2) + (x^3/6) \cdot x = x^4/24 - x^4/4 + x^4/6 = (1 - 6 + 4)x^4/24 = -x^4/24$
 
-$$e^x\cos x = 1 + x + \frac{x^2}{2} - \frac{x^4}{24} + \cdots$$
+$$
+e^x\cos x = 1 + x + \frac{x^2}{2} - \frac{x^4}{24} + \cdots
+$$
 
 ### Example 7.4: Series expansion of an inverse function
 
@@ -652,9 +706,13 @@ $$e^x\cos x = 1 + x + \frac{x^2}{2} - \frac{x^4}{24} + \cdots$$
 
 Using $(1 - u)^{-1} = 1 + u + u^2 + \cdots$ with $u = x^2/2 - x^4/24 + \cdots$:
 
-$$\sec x = 1 + \left(\frac{x^2}{2} - \frac{x^4}{24}\right) + \left(\frac{x^2}{2}\right)^2 + \cdots$$
+$$
+\sec x = 1 + \left(\frac{x^2}{2} - \frac{x^4}{24}\right) + \left(\frac{x^2}{2}\right)^2 + \cdots
+$$
 
-$$= 1 + \frac{x^2}{2} + \left(-\frac{x^4}{24} + \frac{x^4}{4}\right) + \cdots = 1 + \frac{x^2}{2} + \frac{5x^4}{24} + \cdots$$
+$$
+= 1 + \frac{x^2}{2} + \left(-\frac{x^4}{24} + \frac{x^4}{4}\right) + \cdots = 1 + \frac{x^2}{2} + \frac{5x^4}{24} + \cdots
+$$
 
 ### Example 7.5: Using series to find a limit
 
@@ -662,7 +720,9 @@ $$= 1 + \frac{x^2}{2} + \left(-\frac{x^4}{24} + \frac{x^4}{4}\right) + \cdots = 
 
 **Solution.** $\sin x = x - \dfrac{x^3}{6} + \dfrac{x^5}{120} - \cdots$
 
-$$\frac{x - \sin x}{x^3} = \frac{x - x + x^3/6 - x^5/120 + \cdots}{x^3} = \frac{1}{6} - \frac{x^2}{120} + \cdots \to \boxed{\frac{1}{6}}$$
+$$
+\frac{x - \sin x}{x^3} = \frac{x - x + x^3/6 - x^5/120 + \cdots}{x^3} = \frac{1}{6} - \frac{x^2}{120} + \cdots \to \boxed{\frac{1}{6}}
+$$
 
 ### Example 7.6: Maclaurin series by differentiation
 
@@ -672,12 +732,16 @@ $$\frac{x - \sin x}{x^3} = \frac{x - x + x^3/6 - x^5/120 + \cdots}{x^3} = \frac{
 
 $e^x = 1 + x + x^2/2 + x^3/6 + \cdots$
 
-$$f(x) = (1 + 3x + 3x^2 + x^3)(1 + x + x^2/2 + x^3/6)$$
+$$
+f(x) = (1 + 3x + 3x^2 + x^3)(1 + x + x^2/2 + x^3/6)
+$$
 
 $1$: $1 \times 1 = 1$ $x$: $1 + 3 = 4$ $x^2$: $1/2 + 3 + 3 = 13/2$ $x^3$:
 $1/6 + 3/2 + 3 + 1 = 1/6 + 9/6 + 18/6 + 6/6 = 34/6 = 17/3$
 
-$$f(x) = 1 + 4x + \frac{13x^2}{2} + \frac{17x^3}{3} + \cdots$$
+$$
+f(x) = 1 + 4x + \frac{13x^2}{2} + \frac{17x^3}{3} + \cdots
+$$
 
 ### Example 7.7: Convergence of alternating series
 
@@ -687,7 +751,9 @@ Approximate $\ln 2$ with an error less than $0.001$?
 **Solution.** This is the alternating harmonic series, with $S = \ln 2$. The error after $N$ terms
 Is bounded by the absolute value of the $(N+1)$-th term:
 
-$$|\text{error}| \leq \frac{1}{N+1} < 0.001 \implies N + 1 > 1000 \implies N \geq 1000$$
+$$
+|\text{error}| \leq \frac{1}{N+1} < 0.001 \implies N + 1 > 1000 \implies N \geq 1000
+$$
 
 So at least 1000 terms are needed.
 
@@ -698,11 +764,17 @@ $\displaystyle\int_0^{1/2} e^{-x^2}\,dx$ to 5 decimal places.
 
 **Solution.** $e^{-x^2} = 1 - x^2 + \dfrac{x^4}{2} - \dfrac{x^6}{6} + \dfrac{x^8}{24} - \cdots$
 
-$$\int_0^{1/2}e^{-x^2}\,dx = \left[x - \frac{x^3}{3} + \frac{x^5}{10} - \frac{x^7}{42} + \frac{x^9}{216}\right]_0^{1/2}$$
+$$
+\int_0^{1/2}e^{-x^2}\,dx = \left[x - \frac{x^3}{3} + \frac{x^5}{10} - \frac{x^7}{42} + \frac{x^9}{216}\right]_0^{1/2}
+$$
 
-$$= \frac{1}{2} - \frac{1}{24} + \frac{1}{320} - \frac{1}{5376} + \frac{1}{110592}$$
+$$
+= \frac{1}{2} - \frac{1}{24} + \frac{1}{320} - \frac{1}{5376} + \frac{1}{110592}
+$$
 
-$$= 0.5 - 0.041667 + 0.003125 - 0.000186 + 0.000009 = 0.461281$$
+$$
+= 0.5 - 0.041667 + 0.003125 - 0.000186 + 0.000009 = 0.461281
+$$
 
 The error is bounded by the next term:
 $\dfrac{1}{11 \times 2^{11}} = \dfrac{1}{22528} \approx 0.000044$.
@@ -749,7 +821,9 @@ $\ln(1+x) = x - \dfrac{x^2}{2} + \dfrac{x^3}{3} - \dfrac{x^4}{4} + \dfrac{x^5}{5
 
 $\ln(1-x) = -x - \dfrac{x^2}{2} - \dfrac{x^3}{3} - \dfrac{x^4}{4} - \dfrac{x^5}{5} - \cdots$
 
-$$\ln\!\left(\frac{1+x}{1-x}\right) = 2x + \frac{2x^3}{3} + \frac{2x^5}{5} + \cdots$$
+$$
+\ln\!\left(\frac{1+x}{1-x}\right) = 2x + \frac{2x^3}{3} + \frac{2x^5}{5} + \cdots
+$$
 
 **(b)** Valid for $-1 < x < 1$ (intersection of validity of $\ln(1+x)$ and $\ln(1-x)$).
 
@@ -764,7 +838,9 @@ Use series to find $\displaystyle\lim_{x\to 0}\frac{1 - \cos x - \frac{x^2}{2}}{
 
 $\cos x = 1 - \dfrac{x^2}{2} + \dfrac{x^4}{24} - \cdots$
 
-$$\frac{1 - \cos x - x^2/2}{x^4} = \frac{1 - (1 - x^2/2 + x^4/24 - \cdots) - x^2/2}{x^4} = \frac{-x^4/24 + \cdots}{x^4} \to \boxed{-\frac{1}{24}}$$
+$$
+\frac{1 - \cos x - x^2/2}{x^4} = \frac{1 - (1 - x^2/2 + x^4/24 - \cdots) - x^2/2}{x^4} = \frac{-x^4/24 + \cdots}{x^4} \to \boxed{-\frac{1}{24}}
+$$
 
 </details>
 
@@ -779,7 +855,9 @@ $$\frac{1 - \cos x - x^2/2}{x^4} = \frac{1 - (1 - x^2/2 + x^4/24 - \cdots) - x^2
 
 **Inductive step.** Assume $\dfrac{d^k}{dx^k}(xe^x) = (x+k)e^x$.
 
-$$\frac{d^{k+1}}{dx^{k+1}}(xe^x) = \frac{d}{dx}[(x+k)e^x] = e^x + (x+k)e^x = (x+k+1)e^x \quad \blacksquare$$
+$$
+\frac{d^{k+1}}{dx^{k+1}}(xe^x) = \frac{d}{dx}[(x+k)e^x] = e^x + (x+k)e^x = (x+k+1)e^x \quad \blacksquare
+$$
 
 </details>
 
@@ -798,9 +876,13 @@ Using $(1+u)^{1/2} = 1 + u/2 - u^2/8 + \cdots$ with $u = -x^2/2 + x^4/24$:
 
 $u^2 = x^4/4 + \cdots$
 
-$$\sqrt{\cos x} = 1 + \frac{1}{2}\!\left(-\frac{x^2}{2} + \frac{x^4}{24}\right) - \frac{1}{8}\!\left(\frac{x^4}{4}\right) + \cdots$$
+$$
+\sqrt{\cos x} = 1 + \frac{1}{2}\!\left(-\frac{x^2}{2} + \frac{x^4}{24}\right) - \frac{1}{8}\!\left(\frac{x^4}{4}\right) + \cdots
+$$
 
-$$= 1 - \frac{x^2}{4} + \frac{x^4}{48} - \frac{x^4}{32} + \cdots = 1 - \frac{x^2}{4} - \frac{x^4}{96} + \cdots$$
+$$
+= 1 - \frac{x^2}{4} + \frac{x^4}{48} - \frac{x^4}{32} + \cdots = 1 - \frac{x^2}{4} - \frac{x^4}{96} + \cdots
+$$
 
 </details>
 
@@ -816,7 +898,9 @@ $\arctan x = x - \dfrac{x^3}{3} + \dfrac{x^5}{5} - \dfrac{x^7}{7} + \cdots$ for 
 
 Setting $x = 1$:
 
-$$\arctan 1 = 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \cdots = \frac{\pi}{4}$$
+$$
+\arctan 1 = 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \cdots = \frac{\pi}{4}
+$$
 
 Therefore $\displaystyle\sum_{n=0}^{\infty}\frac{(-1)^n}{2n+1} = \frac{\pi}{4}$.
 $\blacksquare$
@@ -866,7 +950,9 @@ Actually $x^4$ comes from: $x \cdot (-\frac{x^3}{6}) = -\frac{x^4}{6}$.
 
 So coefficient of $x^4$ is $-\dfrac{1}{6}$.
 
-$$\boxed{e^x\sin x = x + x^2 + \frac{x^3}{3} - \frac{x^4}{6} - \frac{x^5}{30} + O(x^6)}$$
+$$
+\boxed{e^x\sin x = x + x^2 + \frac{x^3}{3} - \frac{x^4}{6} - \frac{x^5}{30} + O(x^6)}
+$$
 
 ### Example 10.2: Taylor series about a non-zero point
 
@@ -877,7 +963,9 @@ $$\boxed{e^x\sin x = x + x^2 + \frac{x^3}{3} - \frac{x^4}{6} - \frac{x^5}{30} + 
 $f'(x) = \dfrac{1}{x}$$f'(1) = 1$. $f''(x) = -\dfrac{1}{x^2}$$f''(1) = -1$.
 $f'''(x) = \dfrac{2}{x^3}$$f'''(1) = 2$. $f^{(4)}(x) = -\dfrac{6}{x^4}$$f^{(4)}(1) = -6$.
 
-$$\ln x = (x-1) - \frac{(x-1)^2}{2} + \frac{(x-1)^3}{3} - \frac{(x-1)^4}{4} + \cdots$$
+$$
+\ln x = (x-1) - \frac{(x-1)^2}{2} + \frac{(x-1)^3}{3} - \frac{(x-1)^4}{4} + \cdots
+$$
 
 ### Example 10.3: Using series to evaluate a limit
 
@@ -885,9 +973,13 @@ $$\ln x = (x-1) - \frac{(x-1)^2}{2} + \frac{(x-1)^3}{3} - \frac{(x-1)^4}{4} + \c
 
 **Solution.** $e^x = 1 + x + \dfrac{x^2}{2} + \dfrac{x^3}{6} + \dfrac{x^4}{24} + \cdots$
 
-$$\frac{e^x - 1 - x - x^2/2}{x^3} = \frac{x^3/6 + x^4/24 + \cdots}{x^3} = \frac{1}{6} + \frac{x}{24} + \cdots$$
+$$
+\frac{e^x - 1 - x - x^2/2}{x^3} = \frac{x^3/6 + x^4/24 + \cdots}{x^3} = \frac{1}{6} + \frac{x}{24} + \cdots
+$$
 
-$$\boxed{\lim_{x \to 0} = \frac{1}{6}}$$
+$$
+\boxed{\lim_{x \to 0} = \frac{1}{6}}
+$$
 
 ### Example 10.4: Convergence of a Maclaurin series
 
@@ -909,7 +1001,9 @@ Decimal places.
 
 **Solution.** $e^{-x^2} = 1 - x^2 + \dfrac{x^4}{2} - \dfrac{x^6}{6} + \dfrac{x^8}{24} - \cdots$
 
-$$\int_0^{0.5} e^{-x^2}\,dx = \left[x - \frac{x^3}{3} + \frac{x^5}{10} - \frac{x^7}{42} + \frac{x^9}{216} - \cdots\right]_0^{0.5}$$
+$$
+\int_0^{0.5} e^{-x^2}\,dx = \left[x - \frac{x^3}{3} + \frac{x^5}{10} - \frac{x^7}{42} + \frac{x^9}{216} - \cdots\right]_0^{0.5}
+$$
 
 $= 0.5 - \dfrac{0.125}{3} + \dfrac{0.03125}{10} - \dfrac{0.0078125}{42} + \dfrac{0.001953125}{216}$
 
@@ -942,7 +1036,9 @@ $= 1 - x + 0 - \frac{x^3}{3} + \left(\frac{1}{24}-\frac{1}{4}+\frac{1}{24}\right
 
 Wait: $\frac{1}{24}-\frac{6}{24}+\frac{1}{24} = -\frac{4}{24} = -\frac{1}{6}$.
 
-$$\boxed{\cos x \cdot e^{-x} = 1 - x - \frac{x^3}{3} - \frac{x^4}{6} + O(x^5)}$$
+$$
+\boxed{\cos x \cdot e^{-x} = 1 - x - \frac{x^3}{3} - \frac{x^4}{6} + O(x^5)}
+$$
 
 ---
 
@@ -1015,7 +1111,9 @@ The $x^7$ term contributes approximately $10^{-12}$Which is negligible.
 
 The error in truncating a Taylor series after $n$ terms is:
 
-$$R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}$$
+$$
+R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}
+$$
 
 For some $c$ between $a$ and $x$. This gives a bound on the truncation error.
 

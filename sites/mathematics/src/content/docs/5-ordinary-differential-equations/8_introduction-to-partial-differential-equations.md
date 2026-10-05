@@ -21,7 +21,9 @@ description: "The general second-order linear PDE in two variables is Comprehens
 
 The general second-order linear PDE in two variables is
 
-$$A u_{xx} + B u_{xy} + C u_{yy} + D u_x + E u_y + F u = G$$
+$$
+A u_{xx} + B u_{xy} + C u_{yy} + D u_x + E u_y + F u = G
+$$
 
 - **Elliptic** ($B^2 - 4AC \lt 0$): e.g., Laplace"s equation $u_{xx} + u_{yy} = 0$.
 - **Parabolic** ($B^2 - 4AC = 0$): e.g., the heat equation $u_t = \alpha^2 u_{xx}$.
@@ -29,7 +31,9 @@ $$A u_{xx} + B u_{xy} + C u_{yy} + D u_x + E u_y + F u = G$$
 
 ### 8.2 The Heat Equation
 
-$$u_t = \alpha^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0$$
+$$
+u_t = \alpha^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0
+$$
 
 With boundary conditions $u(0, t) = u(L, t) = 0$ and initial condition $u(x, 0) = f(x)$.
 
@@ -39,15 +43,21 @@ Consider a thin rod of length $L$ with uniform cross-section and density $\rho$.
 the Temperature at position $x$ and time $t$. By **Fourier's law of heat conduction**, the heat flux
 Through a cross-section is proportional to the negative temperature gradient:
 
-$$q = -\kappa u_x$$
+$$
+q = -\kappa u_x
+$$
 
 Where $\kappa$ is the thermal conductivity. Conservation of energy on $[x, x + \Delta x]$:
 
-$$\rho c \frac{\partial u}{\partial t} \Delta x = q(x) - q(x + \Delta x) = -\kappa u_x(x) + \kappa u_x(x + \Delta x)$$
+$$
+\rho c \frac{\partial u}{\partial t} \Delta x = q(x) - q(x + \Delta x) = -\kappa u_x(x) + \kappa u_x(x + \Delta x)
+$$
 
 Dividing by $\Delta x$ and taking $\Delta x \to 0$:
 
-$$\rho c \, u_t = \kappa u_{xx} \implies u_t = \frac{\kappa}{\rho c} u_{xx} = \alpha^2 u_{xx}$$
+$$
+\rho c \, u_t = \kappa u_{xx} \implies u_t = \frac{\kappa}{\rho c} u_{xx} = \alpha^2 u_{xx}
+$$
 
 Where $\alpha^2 = \kappa/(\rho c)$ is the **thermal diffusivity**.
 
@@ -55,7 +65,9 @@ Where $\alpha^2 = \kappa/(\rho c)$ is the **thermal diffusivity**.
 
 Assume $u(x, t) = X(x)T(t)$. Substituting:
 
-$$X T' = \alpha^2 X'' T \implies \frac{T'}{\alpha^2 T} = \frac{X''}{X} = -\lambda$$
+$$
+X T' = \alpha^2 X'' T \implies \frac{T'}{\alpha^2 T} = \frac{X''}{X} = -\lambda
+$$
 
 This gives two ODEs:
 
@@ -68,7 +80,9 @@ The corresponding $T_n(t) = e^{-\alpha^2 (n\pi/L)^2 t}$.
 
 By superposition:
 
-$$u(x, t) = \sum_{n=1}^{\infty} b_n \sin\frac{n\pi x}{L} e^{-\alpha^2 (n\pi/L)^2 t}$$
+$$
+u(x, t) = \sum_{n=1}^{\infty} b_n \sin\frac{n\pi x}{L} e^{-\alpha^2 (n\pi/L)^2 t}
+$$
 
 Where $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\, dx$ (the sine series coefficients of
 $f$).
@@ -86,7 +100,9 @@ $u(x, t) = e^{-4t}\sin(2x) + 3e^{-25t}\sin(5x)$. $\blacksquare$
 
 ### 8.6 The Wave Equation
 
-$$u_{tt} = c^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0$$
+$$
+u_{tt} = c^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0
+$$
 
 With boundary conditions $u(0, t) = u(L, t) = 0$ And initial conditions $u(x, 0) = f(x)$
 $u_t(x, 0) = g(x)$.
@@ -96,25 +112,37 @@ $u_t(x, 0) = g(x)$.
 Consider a string of length $L$ under tension $T$. Let $u(x, t)$ be the vertical displacement. For A
 small segment $[x, x + \Delta x]$Newton's second law in the vertical direction gives:
 
-$$\rho \Delta x \, u_{tt} = T\sin\theta(x + \Delta x) - T\sin\theta(x)$$
+$$
+\rho \Delta x \, u_{tt} = T\sin\theta(x + \Delta x) - T\sin\theta(x)
+$$
 
 For small displacements, $\sin\theta \approx \tan\theta = u_x$ So:
 
-$$\rho \, u_{tt} = T \frac{u_x(x + \Delta x) - u_x(x)}{\Delta x} \xrightarrow{\Delta x \to 0} T u_{xx}$$
+$$
+\rho \, u_{tt} = T \frac{u_x(x + \Delta x) - u_x(x)}{\Delta x} \xrightarrow{\Delta x \to 0} T u_{xx}
+$$
 
-$$u_{tt} = \frac{T}{\rho} u_{xx} = c^2 u_{xx}, \quad c = \sqrt{T/\rho}$$
+$$
+u_{tt} = \frac{T}{\rho} u_{xx} = c^2 u_{xx}, \quad c = \sqrt{T/\rho}
+$$
 
 ### 8.8 Solving the Wave Equation
 
 Separation of variables $u(x, t) = X(x)T(t)$ gives:
 
-$$X'' + \lambda X = 0, \quad T'' + c^2 \lambda T = 0$$
+$$
+X'' + \lambda X = 0, \quad T'' + c^2 \lambda T = 0
+$$
 
 With $\lambda_n = (n\pi/L)^2$:
 
-$$X_n(x) = \sin\frac{n\pi x}{L}, \quad T_n(t) = a_n \cos\frac{cn\pi t}{L} + b_n \sin\frac{cn\pi t}{L}$$
+$$
+X_n(x) = \sin\frac{n\pi x}{L}, \quad T_n(t) = a_n \cos\frac{cn\pi t}{L} + b_n \sin\frac{cn\pi t}{L}
+$$
 
-$$u(x, t) = \sum_{n=1}^{\infty} \sin\frac{n\pi x}{L}\left(a_n \cos\frac{cn\pi t}{L} + b_n \sin\frac{cn\pi t}{L}\right)$$
+$$
+u(x, t) = \sum_{n=1}^{\infty} \sin\frac{n\pi x}{L}\left(a_n \cos\frac{cn\pi t}{L} + b_n \sin\frac{cn\pi t}{L}\right)
+$$
 
 Where $a_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\, dx$ and
 $b_n = \frac{2}{cn\pi}\int_0^L g(x)\sin\frac{n\pi x}{L}\, dx$.
@@ -123,13 +151,17 @@ $b_n = \frac{2}{cn\pi}\int_0^L g(x)\sin\frac{n\pi x}{L}\, dx$.
 
 For the wave equation on $-\infty \lt x \lt \infty$:
 
-$$u(x, t) = \frac{f(x + ct) + f(x - ct)}{2} + \frac{1}{2c}\int_{x - ct}^{x + ct} g(s)\, ds$$
+$$
+u(x, t) = \frac{f(x + ct) + f(x - ct)}{2} + \frac{1}{2c}\int_{x - ct}^{x + ct} g(s)\, ds
+$$
 
 This represents the solution as a superposition of right-moving and left-moving waves.
 
 ### 8.10 Laplace's Equation
 
-$$u_{xx} + u_{yy} = 0$$
+$$
+u_{xx} + u_{yy} = 0
+$$
 
 On a domain $\Omega \subseteq \mathbb{R}^2$With boundary conditions on $\partial\Omega$.
 
@@ -194,7 +226,9 @@ $\blacksquare$
 
 A **Sturm-Liouville problem** consists of the ODE
 
-$$(p(x)y')' + [\lambda w(x) - q(x)]y = 0$$
+$$
+(p(x)y')' + [\lambda w(x) - q(x)]y = 0
+$$
 
 On $[a, b]$ with homogeneous boundary conditions, where $p, w > 0$ and $p, p', q, w$ are continuous.
 
@@ -215,7 +249,9 @@ $p = 1$, $q = 0$, $w = 1$.
 When the boundary specifies the derivative (heat flux) rather than the value, we have **Neumann
 Conditions**. For the heat equation:
 
-$$u_x(0, t) = 0, \quad u_x(L, t) = 0$$
+$$
+u_x(0, t) = 0, \quad u_x(L, t) = 0
+$$
 
 (insulated ends). The separation of variables gives $X'(0) = X'(L) = 0$Yielding eigenvalues
 $\lambda_0 = 0$ with $X_0 = 1$ And $\lambda_n = (n\pi/L)^2$ for $n \geq 1$ with
@@ -223,7 +259,9 @@ $X_n = \cos(n\pi x/L)$.
 
 The solution is
 
-$$u(x, t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos\frac{n\pi x}{L} e^{-\alpha^2 (n\pi/L)^2 t}$$
+$$
+u(x, t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos\frac{n\pi x}{L} e^{-\alpha^2 (n\pi/L)^2 t}
+$$
 
 Where $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\, dx$.
 

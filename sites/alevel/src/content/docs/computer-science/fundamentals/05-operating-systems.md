@@ -221,7 +221,9 @@ present in memory).
 **Translation:** The page number indexes into the page table to find the frame number. The physical
 Address is the frame number concatenated with the offset:
 
-$$\mathrm{Physical address} = \mathrm{PageTable}[\mathrm{page number}].\mathrm{frame} \,\|\, \mathrm{offset}$$
+$$
+\mathrm{Physical address} = \mathrm{PageTable}[\mathrm{page number}].\mathrm{frame} \,\|\, \mathrm{offset}
+$$
 
 ### Page Faults
 
@@ -251,7 +253,9 @@ Data, stack, heap). Each segment has a base address and a limit (length).
 
 The virtual address comprises a segment number and an offset within that segment:
 
-$$\mathrm{Physical address} = \mathrm{SegmentTable}[\mathrm{segment}].\mathrm{base} + \mathrm{offset}$$
+$$
+\mathrm{Physical address} = \mathrm{SegmentTable}[\mathrm{segment}].\mathrm{base} + \mathrm{offset}
+$$
 
 If offset $\ge$ limit, a segmentation fault is raised.
 

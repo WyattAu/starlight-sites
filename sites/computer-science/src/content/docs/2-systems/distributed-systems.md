@@ -46,7 +46,9 @@ partition.**
 An extension of CAP: If there is a **P**artition, choose **A**vailability or **C**onsistency;
 **E**lse, choose **L**atency or **C**onsistency.
 
-$$\text{PC/EC} \text{ (consistency first)} \quad \text{vs.} \quad \text{PA/EA} \text{ (availability/latency first)}$$
+$$
+\text{PC/EC} \text{ (consistency first)} \quad \text{vs.} \quad \text{PA/EA} \text{ (availability/latency first)}
+$$
 
 ## 2. Consistency Models
 
@@ -55,7 +57,9 @@ $$\text{PC/EC} \text{ (consistency first)} \quad \text{vs.} \quad \text{PA/EA} \
 Every operation appears to execute atomically at a single point in time. The result is equivalent to
 executing operations on a single copy in real-time order.
 
-$$\text{If } o_1 \text{ completes before } o_2 \text{ starts, then } o_1 \text{ appears before } o_2$$
+$$
+\text{If } o_1 \text{ completes before } o_2 \text{ starts, then } o_1 \text{ appears before } o_2
+$$
 
 **Cost:** Requires coordination on every write → higher latency.
 
@@ -64,7 +68,9 @@ $$\text{If } o_1 \text{ completes before } o_2 \text{ starts, then } o_1 \text{ 
 All operations appear in some total order consistent with program order of each process. Less strict
 than linearizability (operations can appear to execute at non-real times).
 
-$$\text{Program order preserved per process; total order exists across processes}$$
+$$
+\text{Program order preserved per process; total order exists across processes}
+$$
 
 ### 2.3 Causal Consistency
 
@@ -249,7 +255,9 @@ multiple, using quorum.
 
 **Quorum reads and writes:**
 
-$$W + R > N$$
+$$
+W + R > N
+$$
 
 where $W$ = write quorum, $R$ = read quorum, $N$ = total replicas.
 
@@ -500,7 +508,9 @@ VECTOR_RECEIVE(process, msg):
 
 **Comparison of vector clocks:**
 
-$$V \leq W \iff V[j] \leq W[j] \text{ for all } j$$
+$$
+V \leq W \iff V[j] \leq W[j] \text{ for all } j
+$$
 
 - If $V \leq W$: event $V$ happened before $W$.
 - If $V \not\leq W$ and $W \not\leq V$: events are **concurrent**.

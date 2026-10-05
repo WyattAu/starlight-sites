@@ -46,7 +46,9 @@ flowchart TD
 
 A student writes the following "simplification":
 
-$$\sum_{n=1}^{5} n = \sum_{n=0}^{4} n$$
+$$
+\sum_{n=1}^{5} n = \sum_{n=0}^{4} n
+$$
 
 **(a)** Identify the error and write the correct identity for shifting the index by $-1$.
 
@@ -63,24 +65,32 @@ verify your answer using the formula for the sum of the first $N$ positive integ
 $n = 1$ to $n' = 0$ and $n = 5$ to $n' = 4$ But the general term must also change. The correct
 identity is:
 
-$$\sum_{n=1}^{5} n = \sum_{n'=0}^{4} (n' + 1)$$
+$$
+\sum_{n=1}^{5} n = \sum_{n'=0}^{4} (n' + 1)
+$$
 
 The student's error was writing $\sum_{n=0}^{4} n$ instead of $\sum_{n=0}^{4} (n + 1)$. The LHS
 equals $15$ but the student's RHS equals $10$.
 
 **(b)** Let $j = k - 2$ So when $k = 3$$j = 1$ And when $k = 20$$j = 18$:
 
-$$\sum_{k=3}^{20} (k - 2) = \sum_{j=1}^{18} j = \frac{18 \times 19}{2} = 171$$
+$$
+\sum_{k=3}^{20} (k - 2) = \sum_{j=1}^{18} j = \frac{18 \times 19}{2} = 171
+$$
 
 Verification: the original sum has 18 terms from $1$ to $18$Confirming the result.
 
 **(c)**
 
-$$\sum_{n=1}^{10} n(n+1) = \sum_{n=1}^{10}(n^2 + n) = \frac{10 \times 11 \times 21}{6} + \frac{10 \times 11}{2} = 385 + 55 = 440$$
+$$
+\sum_{n=1}^{10} n(n+1) = \sum_{n=1}^{10}(n^2 + n) = \frac{10 \times 11 \times 21}{6} + \frac{10 \times 11}{2} = 385 + 55 = 440
+$$
 
 For the second sum, let $m = n - 1$ So when $n = 2$$m = 1$ And when $n = 11$$m = 10$:
 
-$$\sum_{n=2}^{11} (n-1)^2 = \sum_{m=1}^{10} m^2 = \frac{10 \times 11 \times 21}{6} = 385$$
+$$
+\sum_{n=2}^{11} (n-1)^2 = \sum_{m=1}^{10} m^2 = \frac{10 \times 11 \times 21}{6} = 385
+$$
 
 Therefore the difference is $440 - 385 = 55$.
 
@@ -118,13 +128,19 @@ $n = -\frac{1}{2}$ and replacing $x$ with $-2x$:
 
 The general term in $x^k$ is:
 
-$$\binom{-1/2}{k}(-2x)^k$$
+$$
+\binom{-1/2}{k}(-2x)^k
+$$
 
 For $k = 3$:
 
-$$\binom{-1/2}{3} = \frac{(-1/2)(-3/2)(-5/2)}{3!} = \frac{-15/8}{6} = -\frac{15}{48} = -\frac{5}{16}$$
+$$
+\binom{-1/2}{3} = \frac{(-1/2)(-3/2)(-5/2)}{3!} = \frac{-15/8}{6} = -\frac{15}{48} = -\frac{5}{16}
+$$
 
-$$\binom{-1/2}{3}(-2)^3 = -\frac{5}{16} \times (-8) = \frac{5}{2}$$
+$$
+\binom{-1/2}{3}(-2)^3 = -\frac{5}{16} \times (-8) = \frac{5}{2}
+$$
 
 So the coefficient of $x^3$ is $\dfrac{5}{2}$.
 
@@ -134,7 +150,9 @@ $(1 - 2x)^{-1/2}$ So we need $|-2x| \lt 1$I.e., $|x| \lt \dfrac{1}{2}$.
 **(c)** The student computed $\frac{n(n-1)}{2!}(-2)^2$ but used $n = -\frac{1}{2}$ incorrectly. The
 correct computation for the coefficient of $x^2$:
 
-$$\binom{-1/2}{2}(-2)^2 = \frac{(-1/2)(-3/2)}{2} \times 4 = \frac{3/4}{2} \times 4 = \frac{3}{8} \times 4 = \frac{3}{2}$$
+$$
+\binom{-1/2}{2}(-2)^2 = \frac{(-1/2)(-3/2)}{2} \times 4 = \frac{3/4}{2} \times 4 = \frac{3}{8} \times 4 = \frac{3}{2}
+$$
 
 The student's error was multiplying three terms instead of two: $\binom{-1/2}{2}$ only involves two
 factors $\frac{n(n-1)}{2!}$Not three. The correct coefficient is $\dfrac{3}{2}$Not $-3$.
@@ -185,7 +203,9 @@ unnecessary and, if it were the only base case, would not constitute a valid pro
 
 **Inductive step:** We must show $7^{k+1} - 1$ is divisible by $6$.
 
-$$7^{k+1} - 1 = 7 \cdot 7^k - 1 = 7(6m + 1) - 1 = 42m + 7 - 1 = 42m + 6 = 6(7m + 1)$$
+$$
+7^{k+1} - 1 = 7 \cdot 7^k - 1 = 7(6m + 1) - 1 = 42m + 7 - 1 = 42m + 6 = 6(7m + 1)
+$$
 
 Since $7m + 1$ is an integer, $7^{k+1} - 1$ is divisible by $6$.
 
@@ -226,17 +246,25 @@ of $x$. Find the sum to infinity and state the range of $x$ for which it converg
 
 **(a)** Using partial fractions:
 
-$$f(x) = \frac{1}{1 - x^2} = \frac{1}{(1-x)(1+x)} = \frac{1}{2}\left(\frac{1}{1-x} + \frac{1}{1+x}\right)$$
+$$
+f(x) = \frac{1}{1 - x^2} = \frac{1}{(1-x)(1+x)} = \frac{1}{2}\left(\frac{1}{1-x} + \frac{1}{1+x}\right)
+$$
 
 Each fraction is a geometric series:
 
-$$\frac{1}{1-x} = \sum_{n=0}^{\infty} x^n \quad \text{for } |x| \lt 1$$
+$$
+\frac{1}{1-x} = \sum_{n=0}^{\infty} x^n \quad \text{for } |x| \lt 1
+$$
 
-$$\frac{1}{1+x} = \sum_{n=0}^{\infty} (-x)^n = \sum_{n=0}^{\infty} (-1)^n x^n \quad \text{for } |x| \lt 1$$
+$$
+\frac{1}{1+x} = \sum_{n=0}^{\infty} (-x)^n = \sum_{n=0}^{\infty} (-1)^n x^n \quad \text{for } |x| \lt 1
+$$
 
 Therefore:
 
-$$f(x) = \frac{1}{2}\sum_{n=0}^{\infty}\big(1 + (-1)^n\big)x^n$$
+$$
+f(x) = \frac{1}{2}\sum_{n=0}^{\infty}\big(1 + (-1)^n\big)x^n
+$$
 
 This gives $f(x) = 1 + x^2 + x^4 + x^6 + \cdots$A geometric series with first term $1$ and common
 ratio $x^2$Valid for $|x^2| \lt 1$I.e., $x \in (-1, 1)$.
@@ -244,7 +272,9 @@ ratio $x^2$Valid for $|x^2| \lt 1$I.e., $x \in (-1, 1)$.
 **(b)** This is a geometric series with first term $1$ and common ratio $r = \dfrac{1}{4}$. Since
 $|r| \lt 1$:
 
-$$S_{\infty} = \frac{1}{1 - \frac{1}{4}} = \frac{4}{3}$$
+$$
+S_{\infty} = \frac{1}{1 - \frac{1}{4}} = \frac{4}{3}
+$$
 
 **(c)** Rewrite as $\displaystyle\sum_{n=0}^{\infty} \left(\frac{x^2}{3}\right)^n$.
 
@@ -253,7 +283,9 @@ This is a geometric series with first term $1$ and common ratio $r = \dfrac{x^2}
 Convergence requires $|r| \lt 1$ So $\left|\dfrac{x^2}{3}\right| \lt 1$Giving $x^2 \lt 3$I.e.,
 $-\sqrt{3} \lt x \lt \sqrt{3}$.
 
-$$S_{\infty} = \frac{1}{1 - \frac{x^2}{3}} = \frac{3}{3 - x^2}$$
+$$
+S_{\infty} = \frac{1}{1 - \frac{x^2}{3}} = \frac{3}{3 - x^2}
+$$
 
 ---
 

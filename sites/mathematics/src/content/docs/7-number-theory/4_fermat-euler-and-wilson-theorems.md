@@ -22,7 +22,9 @@ categories:
 
 **Theorem (Fermat).** If $p$ is prime and $p \nmid a$, then
 
-$$a^{p-1} \equiv 1 \pmod p.$$
+$$
+a^{p-1} \equiv 1 \pmod p.
+$$
 
 Equivalently, for *every* integer $a$ (including multiples of $p$): $a^p \equiv a \pmod p$.
 
@@ -31,7 +33,9 @@ $p \mid (i-j)a$, and $p \nmid a$, so $p \mid i - j$ with $|i - j| < p$). They ar
 permutation of $1, 2, \ldots, p-1$ modulo $p$. Multiplying the $p-1$ congruences
 $ia \equiv k_i$ together gives
 
-$$a^{p-1}(p-1)! \equiv (p-1)! \pmod p,$$
+$$
+a^{p-1}(p-1)! \equiv (p-1)! \pmod p,
+$$
 
 and since $p \nmid (p-1)!$ we may cancel the factorial. $\blacksquare$
 
@@ -52,7 +56,9 @@ Key values and formulas:
 
 **Theorem (Euler).** If $\gcd(a, n) = 1$ then
 
-$$a^{\varphi(n)} \equiv 1 \pmod n.$$
+$$
+a^{\varphi(n)} \equiv 1 \pmod n.
+$$
 
 *Proof.* The units of $\mathbb{Z}/n\mathbb{Z}$ form a group of order $\varphi(n)$; multiplying all
 units by $a$ permutes the group (cancellation by the unit $a$), and multiplying the permuted

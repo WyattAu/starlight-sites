@@ -107,7 +107,9 @@ Improvement or resource increase is specific to one industry.
 The slope of the PPF at any point represents the **marginal opportunity cost** of producing one more
 Unit of the good on the x-axis, measured in terms of the good on the y-axis:
 
-$$\text{Slope of PPF} = -\frac{\Delta C}{\Delta K}$$
+$$
+\text{Slope of PPF} = -\frac{\Delta C}{\Delta K}
+$$
 
 A linear PPF implies **constant opportunity costs** (resources are equally suited to producing both
 Goods). A concave PPF implies **increasing opportunity costs** (resources are not perfectly
@@ -168,21 +170,29 @@ Producers.
 The actual market price. Graphically, it is the area below the demand curve and above the
 Equilibrium price.
 
-$$\mathrm{CS} = \int_{0}^{Q^*} D(Q) \, dQ - P^* \cdot Q^*$$
+$$
+\mathrm{CS} = \int_{0}^{Q^*} D(Q) \, dQ - P^* \cdot Q^*
+$$
 
 For a linear demand curve $P = a - bQ$:
 
-$$\mathrm{CS} = \frac{1}{2}(a - P^*) \cdot Q^*$$
+$$
+\mathrm{CS} = \frac{1}{2}(a - P^*) \cdot Q^*
+$$
 
 **Producer surplus** is the difference between the actual market price and the minimum price a
 Producer is willing to accept. Graphically, it is the area above the supply curve and below the
 Equilibrium price.
 
-$$\mathrm{PS} = P^* \cdot Q^* - \int_{0}^{Q^*} S(Q) \, dQ$$
+$$
+\mathrm{PS} = P^* \cdot Q^* - \int_{0}^{Q^*} S(Q) \, dQ
+$$
 
 For a linear supply curve $P = c + dQ$:
 
-$$\mathrm{PS} = \frac{1}{2}(P^* - c) \cdot Q^*$$
+$$
+\mathrm{PS} = \frac{1}{2}(P^* - c) \cdot Q^*
+$$
 
 At equilibrium, total welfare (consumer surplus + producer surplus) is maximised. Any deviation from
 Equilibrium creates a **deadweight loss** (DWL):
@@ -257,7 +267,9 @@ $C$? Explain.
 
 (a) Moving from point C (20 $K$85 $C$) to point D (30 $K$70 $C$):
 
-$$\text{Opportunity cost} = \frac{\Delta C}{\Delta K} = \frac{85 - 70}{30 - 20} = \frac{15}{10} = 1.5 \; C \text{ per } K$$
+$$
+\text{Opportunity cost} = \frac{\Delta C}{\Delta K} = \frac{85 - 70}{30 - 20} = \frac{15}{10} = 1.5 \; C \text{ per } K
+$$
 
 Producing 10 additional units of capital goods requires sacrificing 15 units of consumer goods.
 
@@ -331,17 +343,27 @@ The market for a chemical product has the following characteristics:
 
 (a) Market equilibrium: set demand $=$ supply:
 
-$$100 - Q = 20 + Q \implies 2Q = 80 \implies Q_{\text{private}} = 40$$
-$$P_{\text{private}} = 100 - 40 = 60$$
+$$
+100 - Q = 20 + Q \implies 2Q = 80 \implies Q_{\text{private}} = 40
+$$
+$$
+P_{\text{private}} = 100 - 40 = 60
+$$
 
 (b) Social optimum: MSC $=$ MPC $+$ MEC $= (20 + Q) + 10 = 30 + Q$. Set MSB $=$ MSC:
 
-$$100 - Q = 30 + Q \implies 2Q = 70 \implies Q_{\text{social}} = 35$$
-$$P_{\text{social}} = 100 - 35 = 65$$
+$$
+100 - Q = 30 + Q \implies 2Q = 70 \implies Q_{\text{social}} = 35
+$$
+$$
+P_{\text{social}} = 100 - 35 = 65
+$$
 
 (c) Deadweight loss:
 
-$$\mathrm{DWL} = \frac{1}{2} \times \mathrm{MEC} \times (Q_{\text{private}} - Q_{\text{social}}) = \frac{1}{2} \times 10 \times (40 - 35) = \frac{1}{2} \times 10 \times 5 = 25$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times \mathrm{MEC} \times (Q_{\text{private}} - Q_{\text{social}}) = \frac{1}{2} \times 10 \times (40 - 35) = \frac{1}{2} \times 10 \times 5 = 25
+$$
 
 (d) The specific tax should equal the marginal external cost: a tax of `USD 10` per unit. This
 shifts The supply curve from $P = 20 + Q$ to $P = 30 + Q$ (which is MSC), leading to the socially
@@ -368,8 +390,12 @@ $\mathrm{MC} = \frac{d\mathrm{TC}}{dQ} = 10 + 2Q$.
 
 Set MR $=$ MC:
 
-$$150 - 4Q = 10 + 2Q \implies 6Q = 140 \implies Q_m = \frac{140}{6} = 23.33$$
-$$P_m = 150 - 2(23.33) = 150 - 46.67 = 103.33$$
+$$
+150 - 4Q = 10 + 2Q \implies 6Q = 140 \implies Q_m = \frac{140}{6} = 23.33
+$$
+$$
+P_m = 150 - 2(23.33) = 150 - 46.67 = 103.33
+$$
 
 (b) $\mathrm{TR} = P_m \times Q_m = 103.33 \times 23.33 = 2411.1$
 
@@ -383,8 +409,12 @@ $$150 - 2Q = 10 + 2Q \implies 4Q = 140 \implies Q_c = 35$$ $$P_c = 150 - 2(35) =
 
 (d) Deadweight loss:
 
-$$\mathrm{DWL} = \frac{1}{2} \times (P_m - P_c) \times (Q_c - Q_m) = \frac{1}{2} \times (103.33 - 80) \times (35 - 23.33)$$
-$$\mathrm{DWL} = \frac{1}{2} \times 23.33 \times 11.67 = 136.1$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times (P_m - P_c) \times (Q_c - Q_m) = \frac{1}{2} \times (103.33 - 80) \times (35 - 23.33)
+$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times 23.33 \times 11.67 = 136.1
+$$
 
 </details>
 
@@ -451,7 +481,9 @@ $$200Q - Q^2 = 500 + 40Q + Q^2$$ $$2Q^2 - 160Q + 500 = 0$$ $$Q^2 - 80Q + 250 = 0
 
 Using the quadratic formula:
 
-$$Q = \frac{80 \pm \sqrt{6400 - 1000}}{2} = \frac{80 \pm \sqrt{5400}}{2} = \frac{80 \pm 73.48}{2}$$
+$$
+Q = \frac{80 \pm \sqrt{6400 - 1000}}{2} = \frac{80 \pm \sqrt{5400}}{2} = \frac{80 \pm 73.48}{2}
+$$
 
 $Q = 76.74$ (the other root, $Q = 3.26$Gives a higher ATC).
 
@@ -505,7 +537,9 @@ A consumer's budget constraint represents all combinations of two goods they can
 Income and the prices of the goods. If a consumer has income $M$The price of good $X$ is $P_X$And
 The price of good $Y$ is $P_Y$:
 
-$$P_X \cdot X + P_Y \cdot Y = M$$
+$$
+P_X \cdot X + P_Y \cdot Y = M
+$$
 
 The budget line has:
 
@@ -537,7 +571,9 @@ Utility (satisfaction). The consumer is indifferent between any two points on th
 The MRS measures the rate at which a consumer is willing to trade one good for another while
 Maintaining the same utility level:
 
-$$\mathrm{MRS}_{XY} = -\frac{\Delta Y}{\Delta X}$$
+$$
+\mathrm{MRS}_{XY} = -\frac{\Delta Y}{\Delta X}
+$$
 
 At any point on the indifference curve, the MRS equals the absolute value of the slope of the
 Indifference curve. As the consumer moves down along the curve, the MRS diminishes: the more of $X$
@@ -546,18 +582,24 @@ Of $X$.
 
 The MRS also equals the ratio of marginal utilities:
 
-$$\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}$$
+$$
+\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}
+$$
 
 ### Consumer Equilibrium
 
 A rational consumer maximises utility subject to their budget constraint. The optimal consumption
 Bundle occurs where the indifference curve is tangent to the budget line:
 
-$$\mathrm{MRS}_{XY} = \frac{P_X}{P_Y}$$
+$$
+\mathrm{MRS}_{XY} = \frac{P_X}{P_Y}
+$$
 
 Or equivalently:
 
-$$\frac{MU_X}{P_X} = \frac{MU_Y}{P_Y}$$
+$$
+\frac{MU_X}{P_X} = \frac{MU_Y}{P_Y}
+$$
 
 This condition states that the marginal utility per dollar spent must be equal across all goods. If
 $\frac{MU_X}{P_X} > \frac{MU_Y}{P_Y}$The consumer should buy more $X$ and less $Y$ until the Ratio
@@ -601,11 +643,15 @@ $\mathrm{MRS} = \frac{MU_X}{MU_Y} = \frac{0.5 X^{-0.5} Y^{0.5}}{0.5 X^{0.5} Y^{-
 
 Setting $\mathrm{MRS} = P_X / P_Y$:
 
-$$\frac{Y}{X} = \frac{5}{2} \implies Y = 2.5X$$
+$$
+\frac{Y}{X} = \frac{5}{2} \implies Y = 2.5X
+$$
 
 Substituting into the budget constraint:
 
-$$5X + 2(2.5X) = 100 \implies 10X = 100 \implies X^* = 10, \quad Y^* = 25$$
+$$
+5X + 2(2.5X) = 100 \implies 10X = 100 \implies X^* = 10, \quad Y^* = 25
+$$
 
 ### Common Pitfalls in Consumer Choice
 

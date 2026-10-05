@@ -219,7 +219,9 @@ Unary left fold `(... op pack)` expands to a left-associative expression tree.
 By [N4950 §7.6.1], a unary right fold `(pack op ...)` with pack expansion $(e_1, e_2, \ldots, e_n)$
 Is defined as:
 
-$$e_1 \oplus (e_2 \oplus (e_3 \oplus (\ldots \oplus e_n)))$$
+$$
+e_1 \oplus (e_2 \oplus (e_3 \oplus (\ldots \oplus e_n)))
+$$
 
 This can be proved by induction on the pack size $n$.
 
@@ -243,7 +245,9 @@ This is right-associative. $\blacksquare$
 **Proof for unary left fold:** Analogous. By [N4950 §7.6.1], `(... op pack)` with pack
 $(e_1, e_2, \ldots, e_n)$ expands to:
 
-$$(((e_1 \oplus e_2) \oplus e_3) \oplus \ldots) \oplus e_n$$
+$$
+(((e_1 \oplus e_2) \oplus e_3) \oplus \ldots) \oplus e_n
+$$
 
 The inductive structure is: the fold of the first $n$ elements forms the left operand, and $e_{n+1}$
 Is the right operand. This produces a left-associative tree. $\blacksquare$
@@ -332,10 +336,14 @@ Binary folds include an explicit initial value (`init`) that participates in the
 Forms are:
 
 **Binary left fold** `(init op ... op pack)`:
-$$((\mathrm{init \oplus e_1) \oplus e_2) \oplus \ldots \oplus e_n$$
+$$
+((\mathrm{init \oplus e_1) \oplus e_2) \oplus \ldots \oplus e_n
+$$
 
 **Binary right fold** `(pack op ... op init)`:
-$$e_1 \oplus (e_2 \oplus (\ldots \oplus (e_n \oplus \mathrm{init)))$$
+$$
+e_1 \oplus (e_2 \oplus (\ldots \oplus (e_n \oplus \mathrm{init)))
+$$
 
 ```cpp
 #include <iostream>

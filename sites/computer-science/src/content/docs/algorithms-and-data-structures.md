@@ -164,13 +164,17 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 | $O(n!)$       | Factorial   | Generating all permutations      |
 
 **Proposition 1.6.** These classes form a strict hierarchy:
-$$O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)$$
+$$
+O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)
+$$
 
 ### 1.3 Recurrences and the Master Theorem
 
 Many divide-and-conquer algorithms yield recurrences of the form:
 
-$$T(n) = aT(n/b) + f(n)$$
+$$
+T(n) = aT(n/b) + f(n)
+$$
 
 Where $a \geq 1$ is the number of subproblems, $b > 1$ is the factor by which the input is divided,
 and $f(n)$ is the cost of dividing and combining.
@@ -198,7 +202,9 @@ $a / b^{c - \varepsilon} = b^\varepsilon > 1$ So the leaf level dominates. $\bla
 
 Merge sort divides into 2 subproblems of size $n/2$ and combines in $O(n)$ time.
 
-$$T(n) = 2T(n/2) + \Theta(n)$$
+$$
+T(n) = 2T(n/2) + \Theta(n)
+$$
 
 Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
 is Case 2 with $k = 0$.
@@ -210,7 +216,9 @@ Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
 <details>
 <summary>Worked Example: Binary Search Recurrence</summary>
 
-$$T(n) = T(n/2) + O(1)$$
+$$
+T(n) = T(n/2) + O(1)
+$$
 
 Here $a = 1$, $b = 2$ So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
 $k = 0$.
@@ -224,7 +232,9 @@ Therefore $T(n) = \Theta(\log n)$.
 
 Strassen's algorithm divides into 7 subproblems of size $n/2$ and combines in $O(n^2)$ time.
 
-$$T(n) = 7T(n/2) + O(n^2)$$
+$$
+T(n) = 7T(n/2) + O(n^2)
+$$
 
 Here $a = 7$, $b = 2$ So $c = \log_2 7 \approx 2.807$. We have
 $f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$Which is Case 1.
@@ -907,11 +917,15 @@ Let $X_{ij}$ be the indicator random variable that $z_i$ and $z_j$ are compared,
 $z_1, \ldots, z_n$ are the sorted elements. Since elements are compared only if one is an ancestor
 of the other in the recursion tree, and the pivot is chosen uniformly at random:
 
-$$\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}$$
+$$
+\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}
+$$
 
 The total number of comparisons is $X = \sum_{i < j} X_{ij}$ So:
 
-$$\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)$$
+$$
+\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)
+$$
 
 Worst case occurs when the pivot is always the smallest or largest element (e.g., already sorted
 Array with first-element pivot): $T(n) = T(n-1) + O(n) = O(n^2)$. $\blacksquare$
@@ -1393,7 +1407,9 @@ detected!**
 **Algorithm.** For $k = 1, \ldots, V$: for each pair $(i, j)$Check if going through vertex $k$
 Improves the path.
 
-$$d_{ij}^{(k)} = \min(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)})$$
+$$
+d_{ij}^{(k)} = \min(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)})
+$$
 
 **Derivation.** Define $d_{ij}^{(k)}$ as the shortest-path distance from $i$ to $j$ using only
 intermediate vertices from $\\{1, 2, \ldots, k\\}$. Then:
@@ -1419,35 +1435,45 @@ $w(1,2) = 3$, $w(1,3) = 8$, $w(1,4) = -4$ $w(2,1) = 5$, $w(2,3) = 7$, $w(2,4) = 
 $w(3,4) = -1$ $w(4,1) = 6$, $w(4,3) = 9$.
 
 **Initial distance matrix $D^{(0)}$:**
-$$D^{(0)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 2 \\ 2 & \infty & 0 & -1 \\ 6 & \infty & 9 & 0 \end{pmatrix}$$
+$$
+D^{(0)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 2 \\ 2 & \infty & 0 & -1 \\ 6 & \infty & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 1$ (through vertex 1):** $D^{(1)}[2][3] = \min(7, 5 + 8) = 7$.
 $D^{(1)}[2][4] = \min(2, 5 + (-4)) = 1$. $D^{(1)}[3][2] = \min(\infty, 2 + 3) = 5$.
 $D^{(1)}[3][4] = \min(-1, 2 + (-4)) = -2$. $D^{(1)}[4][2] = \min(\infty, 6 + 3) = 9$.
 $D^{(1)}[4][3] = \min(9, 6 + 8) = 9$.
 
-$$D^{(1)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(1)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 2$ (through vertex 2):** $D^{(2)}[1][3] = \min(8, 3 + 7) = 8$.
 $D^{(2)}[1][4] = \min(-4, 3 + 1) = -4$. $D^{(2)}[3][1] = \min(2, 5 + 5) = 2$.
 $D^{(2)}[3][4] = \min(-2, 5 + 1) = -2$. $D^{(2)}[4][1] = \min(6, 9 + 5) = 6$.
 $D^{(2)}[4][3] = \min(9, 9 + 7) = 9$.
 
-$$D^{(2)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(2)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 3$ (through vertex 3):** $D^{(3)}[1][2] = \min(3, 8 + 5) = 3$.
 $D^{(3)}[1][4] = \min(-4, 8 + (-2)) = -4$. $D^{(3)}[2][1] = \min(5, 7 + 2) = 5$.
 $D^{(3)}[2][4] = \min(1, 7 + (-2)) = 1$. $D^{(3)}[4][1] = \min(6, 9 + 2) = 6$.
 $D^{(3)}[4][2] = \min(9, 9 + 5) = 9$.
 
-$$D^{(3)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(3)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 4$ (through vertex 4):** $D^{(4)}[1][2] = \min(3, -4 + 9) = 3$.
 $D^{(4)}[1][3] = \min(8, -4 + 9) = 5$. $D^{(4)}[2][1] = \min(5, 1 + 6) = 5$.
 $D^{(4)}[2][3] = \min(7, 1 + 9) = 7$. $D^{(4)}[3][1] = \min(2, -2 + 6) = 2$.
 $D^{(4)}[3][2] = \min(5, -2 + 9) = 5$.
 
-$$D^{(4)} = \begin{pmatrix} 0 & 3 & 5 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(4)} = \begin{pmatrix} 0 & 3 & 5 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 </details>
 
@@ -1609,7 +1635,9 @@ knapsack of capacity $W$Maximise the total value without exceeding the capacity.
 
 **Recurrence:**
 
-$$dp[i][c] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  c = 0 \\ dp[i-1][c] & \mathrm{if}  w_i > c \\ \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) & \mathrm{if}  w_i \leq c \end{cases}$$
+$$
+dp[i][c] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  c = 0 \\ dp[i-1][c] & \mathrm{if}  w_i > c \\ \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) & \mathrm{if}  w_i \leq c \end{cases}
+$$
 
 **Time:** $O(nW)$. **Space:** $O(nW)$ (can be reduced to $O(W)$ with 1D array).
 
@@ -1648,7 +1676,9 @@ insertions, deletions, and substitutions to transform $s$ into $t$.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}$$
+$$
+dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}
+$$
 
 Where the three cases in the minimum are: delete from $s$Insert into $s$Substitute in $s$.
 
@@ -1686,7 +1716,9 @@ multiplications.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = j \\ \min_{i \leq k < j} (dp[i][k] + dp[k+1][j] + p_{i-1} p_k p_j) & \mathrm{if}  i < j \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = j \\ \min_{i \leq k < j} (dp[i][k] + dp[k+1][j] + p_{i-1} p_k p_j) & \mathrm{if}  i < j \end{cases}
+$$
 
 **Time:** $O(n^3)$. **Space:** $O(n^2)$.
 
@@ -1721,7 +1753,9 @@ Minimum: $dp[1][3] = 4500$Split at $k=2$: $(A_1(A_2 A_3))$.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  j = 0 \\ dp[i-1][j-1] + 1 & \mathrm{if}  x_i = y_j \\ \max(dp[i-1][j], dp[i][j-1]) & \mathrm{if}  x_i \neq y_j \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  j = 0 \\ dp[i-1][j-1] + 1 & \mathrm{if}  x_i = y_j \\ \max(dp[i-1][j], dp[i][j-1]) & \mathrm{if}  x_i \neq y_j \end{cases}
+$$
 
 **Time:** $O(mn)$. **Space:** $O(mn)$ (can be reduced to $O(\min(m,n))$ for the length only).
 
@@ -1736,7 +1770,9 @@ number of coins needed.
 
 **Recurrence:**
 
-$$dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_i] + 1) & \mathrm{if}  c > 0 \end{cases}$$
+$$
+dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_i] + 1) & \mathrm{if}  c > 0 \end{cases}
+$$
 
 **Time:** $O(nM)$. **Space:** $O(M)$.
 
@@ -2122,7 +2158,9 @@ Define $\Phi(D_i) =$ number of 1-bits in the counter after $i$ operations.
 For increment $i$: let $t_i$ be the number of trailing 1s flipped. The actual cost is $t_i + 1$
 (flipping $t_i$ ones and one zero). The number of 1-bits changes by $1 - t_i$.
 
-$$\hat{c}_i = (t_i + 1) + \Phi(D_i) - \Phi(D_{i-1}) = (t_i + 1) + (1 - t_i) = 2$$
+$$
+\hat{c}_i = (t_i + 1) + \Phi(D_i) - \Phi(D_{i-1}) = (t_i + 1) + (1 - t_i) = 2
+$$
 
 The amortised cost per increment is exactly 2, i.e., $O(1)$.
 

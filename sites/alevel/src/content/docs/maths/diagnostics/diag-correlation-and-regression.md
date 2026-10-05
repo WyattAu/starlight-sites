@@ -66,25 +66,45 @@ correlation measures.]
 
 **(a)** We need $\sum x$$\sum y$$\sum x^2$$\sum y^2$$\sum xy$.
 
-$$\sum x = 15 + 22 + 30 + 35 + 42 + 55 + 68 = 267$$
+$$
+\sum x = 15 + 22 + 30 + 35 + 42 + 55 + 68 = 267
+$$
 
-$$\sum y = 3 + 8 + 12 + 18 + 22 + 35 + 48 = 146$$
+$$
+\sum y = 3 + 8 + 12 + 18 + 22 + 35 + 48 = 146
+$$
 
-$$\sum x^2 = 225 + 484 + 900 + 1225 + 1764 + 3025 + 4624 = 12247$$
+$$
+\sum x^2 = 225 + 484 + 900 + 1225 + 1764 + 3025 + 4624 = 12247
+$$
 
-$$\sum y^2 = 9 + 64 + 144 + 324 + 484 + 1225 + 2304 = 4554$$
+$$
+\sum y^2 = 9 + 64 + 144 + 324 + 484 + 1225 + 2304 = 4554
+$$
 
-$$\sum xy = 45 + 176 + 360 + 630 + 924 + 1925 + 3264 = 7324$$
+$$
+\sum xy = 45 + 176 + 360 + 630 + 924 + 1925 + 3264 = 7324
+$$
 
-$$S_{xx} = 12247 - \frac{267^2}{7} = 12247 - \frac{71289}{7} = 12247 - 10184.14... = 2062.857$$
+$$
+S_{xx} = 12247 - \frac{267^2}{7} = 12247 - \frac{71289}{7} = 12247 - 10184.14... = 2062.857
+$$
 
-$$S_{yy} = 4554 - \frac{146^2}{7} = 4554 - \frac{21316}{7} = 4554 - 3045.143 = 1508.857$$
+$$
+S_{yy} = 4554 - \frac{146^2}{7} = 4554 - \frac{21316}{7} = 4554 - 3045.143 = 1508.857
+$$
 
-$$S_{xy} = 7324 - \frac{267 \times 146}{7} = 7324 - \frac{38982}{7} = 7324 - 5568.857 = 1755.143$$
+$$
+S_{xy} = 7324 - \frac{267 \times 146}{7} = 7324 - \frac{38982}{7} = 7324 - 5568.857 = 1755.143
+$$
 
-$$r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = \frac{1755.143}{\sqrt{2062.857 \times 1508.857}}$$
+$$
+r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = \frac{1755.143}{\sqrt{2062.857 \times 1508.857}}
+$$
 
-$$= \frac{1755.143}{\sqrt{3111755.1}} = \frac{1755.143}{1764.02} = 0.9950 \text{ (4 d.p.)}$$
+$$
+= \frac{1755.143}{\sqrt{3111755.1}} = \frac{1755.143}{1764.02} = 0.9950 \text{ (4 d.p.)}
+$$
 
 **(b)** The student's claim is **incorrect**. The PMCC is invariant under linear coding of the form
 $u = ax + b$ and $v = cy + d$ (where $a, c \neq 0$). Here $u = \frac{1}{1000}x$ and
@@ -93,11 +113,17 @@ $v = \frac{1}{100}y$Which are linear transformations.
 To see why: the PMCC is defined as $r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}$.
 Under coding:
 
-$$S_{uv} = \sum uv - \frac{(\sum u)(\sum v)}{n} = ac \sum xy - ac \frac{(\sum x)(\sum y)}{n} = ac \cdot S_{xy}$$
+$$
+S_{uv} = \sum uv - \frac{(\sum u)(\sum v)}{n} = ac \sum xy - ac \frac{(\sum x)(\sum y)}{n} = ac \cdot S_{xy}
+$$
 
-$$S_{uu} = a^2 S_{xx}, \quad S_{vv} = c^2 S_{yy}$$
+$$
+S_{uu} = a^2 S_{xx}, \quad S_{vv} = c^2 S_{yy}
+$$
 
-$$r_{uv} = \frac{ac \cdot S_{xy}}{\sqrt{a^2 S_{xx} \cdot c^2 S_{yy}}} = \frac{ac \cdot S_{xy}}{|ac|\sqrt{S_{xx} \cdot S_{yy}}} = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = r_{xy}$$
+$$
+r_{uv} = \frac{ac \cdot S_{xy}}{\sqrt{a^2 S_{xx} \cdot c^2 S_{yy}}} = \frac{ac \cdot S_{xy}}{|ac|\sqrt{S_{xx} \cdot S_{yy}}} = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = r_{xy}
+$$
 
 The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by scaling or shifting.
 
@@ -113,9 +139,13 @@ The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by sc
 | 55  | 6          | 35  | 6          | 0               | 0     |
 | 68  | 7          | 48  | 7          | 0               | 0     |
 
-$$\sum d^2 = 0$$
+$$
+\sum d^2 = 0
+$$
 
-$$r_s = 1 - \frac{6 \sum d^2}{n(n^2 - 1)} = 1 - 0 = 1$$
+$$
+r_s = 1 - \frac{6 \sum d^2}{n(n^2 - 1)} = 1 - 0 = 1
+$$
 
 Spearman's rank correlation coefficient is 1 (perfect rank correlation).
 
@@ -191,21 +221,29 @@ $b_{yx} = 4.2$.
 
 The formula for the regression coefficient is:
 
-$$b_{yx} = r \cdot \frac{s_y}{s_x}$$
+$$
+b_{yx} = r \cdot \frac{s_y}{s_x}
+$$
 
 We need the standard deviations. Since we have $\bar{x} = 5.0$ and the regression line of $y$ on $x$
 is $y = 4.2x - 3.1$:
 
 We can use the relationship between the two regression coefficients:
 
-$$b_{yx} \cdot b_{xy} = r^2$$
+$$
+b_{yx} \cdot b_{xy} = r^2
+$$
 
 Where $b_{xy}$ is the gradient of the regression line of $x$ on $y$. From the corrected line
 $x = 0.21y + 1.241$: $b_{xy} = 0.21$.
 
-$$r^2 = 4.2 \times 0.21 = 0.882$$
+$$
+r^2 = 4.2 \times 0.21 = 0.882
+$$
 
-$$r = \sqrt{0.882} = 0.939 \text{ (3 d.p.)}$$
+$$
+r = \sqrt{0.882} = 0.939 \text{ (3 d.p.)}
+$$
 
 We take the positive root because both regression coefficients are positive, indicating a positive
 association.
@@ -222,13 +260,17 @@ $x = 15$.
 
 **(d)** The regression line of $y$ on $x$ is:
 
-$$y - \bar{y} = b_{yx}(x - \bar{x})$$
+$$
+y - \bar{y} = b_{yx}(x - \bar{x})
+$$
 
 Setting $x = \bar{x}$ gives $y = \bar{y}$Confirming the line passes through $(\bar{x}, \bar{y})$.
 
 Similarly, the regression line of $x$ on $y$ is:
 
-$$x - \bar{x} = b_{xy}(y - \bar{y})$$
+$$
+x - \bar{x} = b_{xy}(y - \bar{y})
+$$
 
 Setting $y = \bar{y}$ gives $x = \bar{x}$Confirming this line also passes through
 $(\bar{x}, \bar{y})$.
@@ -283,26 +325,38 @@ minimised, and give one situation where minimising vertical distances is inappro
 
 **(a)** Sum of residuals:
 
-$$(-8) + (-3) + 1 + 2 + 3 + 4 + 2 + (-1) + (-5) + 5 = 0 \checkmark$$
+$$
+(-8) + (-3) + 1 + 2 + 3 + 4 + 2 + (-1) + (-5) + 5 = 0 \checkmark
+$$
 
 This must always be zero because the least squares regression line of $y$ on $x$ satisfies
 $\hat{y} = a + bx$ where:
 
-$$b = \frac{S_{xy}}{S_{xx}} = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^2}$$
+$$
+b = \frac{S_{xy}}{S_{xx}} = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^2}
+$$
 
-$$a = \bar{y} - b\bar{x}$$
+$$
+a = \bar{y} - b\bar{x}
+$$
 
 The sum of residuals is:
 
-$$\sum e_i = \sum(y_i - \hat{y}_i) = \sum y_i - \sum(a + bx_i) = \sum y_i - na - b\sum x_i$$
+$$
+\sum e_i = \sum(y_i - \hat{y}_i) = \sum y_i - \sum(a + bx_i) = \sum y_i - na - b\sum x_i
+$$
 
 Substituting $a = \bar{y} - b\bar{x}$:
 
-$$= \sum y_i - n(\bar{y} - b\bar{x}) - b\sum x_i = \sum y_i - n\bar{y} + nb\bar{x} - b\sum x_i$$
+$$
+= \sum y_i - n(\bar{y} - b\bar{x}) - b\sum x_i = \sum y_i - n\bar{y} + nb\bar{x} - b\sum x_i
+$$
 
 Since $\sum y_i = n\bar{y}$ and $\sum x_i = n\bar{x}$:
 
-$$= n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0$$
+$$
+= n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0
+$$
 
 The residuals always sum to zero because the regression line passes through $(\bar{x}, \bar{y})$ And
 the deviations from the mean sum to zero.
@@ -465,11 +519,15 @@ the distributions are different.
 
 The regression line of exam mark $M$ on hours of revision $H$ for a large population of students is:
 
-$$M = 5H + 20$$
+$$
+M = 5H + 20
+$$
 
 The number of revision hours $H$ for a randomly selected student follows the distribution:
 
-$$P(H = h) = \begin{cases} 0.1 & h = 1 \\ 0.2 & h = 2 \\ 0.3 & h = 3 \\ 0.25 & h = 4 \\ 0.15 & h = 5 \end{cases}$$
+$$
+P(H = h) = \begin{cases} 0.1 & h = 1 \\ 0.2 & h = 2 \\ 0.3 & h = 3 \\ 0.25 & h = 4 \\ 0.15 & h = 5 \end{cases}
+$$
 
 **(a)** Find $\mathrm{E}(H)$ and $\mathrm{Var}(H)$.
 
@@ -489,19 +547,31 @@ expectation/variance.]
 
 **(a)**
 
-$$\mathrm{E}(H) = \sum h \cdot P(H = h) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.25) + 5(0.15)$$
+$$
+\mathrm{E}(H) = \sum h \cdot P(H = h) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.25) + 5(0.15)
+$$
 
-$$= 0.1 + 0.4 + 0.9 + 1.0 + 0.75 = 3.15$$
+$$
+= 0.1 + 0.4 + 0.9 + 1.0 + 0.75 = 3.15
+$$
 
-$$\mathrm{E}(H^2) = 1(0.1) + 4(0.2) + 9(0.3) + 16(0.25) + 25(0.15)$$
+$$
+\mathrm{E}(H^2) = 1(0.1) + 4(0.2) + 9(0.3) + 16(0.25) + 25(0.15)
+$$
 
-$$= 0.1 + 0.8 + 2.7 + 4.0 + 3.75 = 11.35$$
+$$
+= 0.1 + 0.8 + 2.7 + 4.0 + 3.75 = 11.35
+$$
 
-$$\mathrm{Var}(H) = \mathrm{E}(H^2) - [\mathrm{E}(H)]^2 = 11.35 - 3.15^2 = 11.35 - 9.9225 = 1.4275$$
+$$
+\mathrm{Var}(H) = \mathrm{E}(H^2) - [\mathrm{E}(H)]^2 = 11.35 - 3.15^2 = 11.35 - 9.9225 = 1.4275
+$$
 
 **(b)** Using the linearity of expectation:
 
-$$\mathrm{E}(M) = \mathrm{E}(5H + 20) = 5\mathrm{E}(H) + 20 = 5(3.15) + 20 = 15.75 + 20 = 35.75$$
+$$
+\mathrm{E}(M) = \mathrm{E}(5H + 20) = 5\mathrm{E}(H) + 20 = 5(3.15) + 20 = 15.75 + 20 = 35.75
+$$
 
 Alternatively, using the law of total expectation: the predicted mark for each value of $H$ is
 $5h + 20$ And we average these predictions weighted by the probability of each $h$. This gives the
@@ -512,17 +582,27 @@ same result.
 1. Variance due to the variation in $H$ across students.
 2. Variance due to the scatter around the regression line.
 
-$$\mathrm{Var}(M) = \mathrm{Var}(5H + 20 + \varepsilon) = \mathrm{Var}(5H) + \mathrm{Var}(\varepsilon)$$
+$$
+\mathrm{Var}(M) = \mathrm{Var}(5H + 20 + \varepsilon) = \mathrm{Var}(5H) + \mathrm{Var}(\varepsilon)
+$$
 
 Where $\varepsilon$ represents the random scatter (residuals), assumed independent of $H$.
 
-$$\mathrm{Var}(5H) = 5^2 \mathrm{Var}(H) = 25 \times 1.4275 = 35.6875$$
+$$
+\mathrm{Var}(5H) = 5^2 \mathrm{Var}(H) = 25 \times 1.4275 = 35.6875
+$$
 
-$$\mathrm{Var}(\varepsilon) = \sigma^2 = 25$$
+$$
+\mathrm{Var}(\varepsilon) = \sigma^2 = 25
+$$
 
-$$\mathrm{Var}(M) = 35.6875 + 25 = 60.6875$$
+$$
+\mathrm{Var}(M) = 35.6875 + 25 = 60.6875
+$$
 
-$$\mathrm{SD}(M) = \sqrt{60.6875} \approx 7.79$$
+$$
+\mathrm{SD}(M) = \sqrt{60.6875} \approx 7.79
+$$
 
 **(d)** The regression line gives the **expected** (mean) exam mark for a given number of revision
 hours. Individual students will score above or below this prediction due to other factors not
@@ -531,9 +611,13 @@ revises 3 hours is the difference between their actual mark and the predicted ma
 
 Assuming the residuals are normally distributed with mean 0 and standard deviation $\sigma = 5$:
 
-$$P(M > 40 \mid H = 3) = P\left(\frac{M - 35}{5} > \frac{40 - 35}{5}\right) = P(Z > 1)$$
+$$
+P(M > 40 \mid H = 3) = P\left(\frac{M - 35}{5} > \frac{40 - 35}{5}\right) = P(Z > 1)
+$$
 
-$$= 1 - \Phi(1) = 1 - 0.8413 = 0.1587$$
+$$
+= 1 - \Phi(1) = 1 - 0.8413 = 0.1587
+$$
 
 The probability is approximately 0.159 (15.9%).
 
@@ -601,23 +685,33 @@ residuals (which range from $-2.2$ to $67.3$).
 
 **(b)** After removing the outlier ($T = 30, S = 50$):
 
-$$r = \frac{S_{TS}}{\sqrt{S_{TT} \cdot S_{SS}}} = \frac{3292}{\sqrt{238 \times 46247}}$$
+$$
+r = \frac{S_{TS}}{\sqrt{S_{TT} \cdot S_{SS}}} = \frac{3292}{\sqrt{238 \times 46247}}
+$$
 
-$$= \frac{3292}{\sqrt{11006786}} = \frac{3292}{3317.65} = 0.9923 \text{ (4 d.p.)}$$
+$$
+= \frac{3292}{\sqrt{11006786}} = \frac{3292}{3317.65} = 0.9923 \text{ (4 d.p.)}
+$$
 
 Regression coefficient:
 
-$$b = \frac{S_{TS}}{S_{TT}} = \frac{3292}{238} = 13.832$$
+$$
+b = \frac{S_{TS}}{S_{TT}} = \frac{3292}{238} = 13.832
+$$
 
 Intercept:
 
-$$a = \bar{S} - b\bar{T} = 160.7 - 13.832(20) = 160.7 - 276.64 = -115.94$$
+$$
+a = \bar{S} - b\bar{T} = 160.7 - 13.832(20) = 160.7 - 276.64 = -115.94
+$$
 
 New regression line: $S = 13.83T - 116$ (to 3 s.f.)
 
 **(c)** Original PMCC: $r = 0.893$. New PMCC: $r = 0.992$.
 
-$$\text{Percentage change} = \frac{0.992 - 0.893}{0.893} \times 100 = \frac{0.099}{0.893} \times 100 = 11.1\%$$
+$$
+\text{Percentage change} = \frac{0.992 - 0.893}{0.893} \times 100 = \frac{0.099}{0.893} \times 100 = 11.1\%
+$$
 
 The PMCC increased by approximately 11.1%. This demonstrates that the PMCC is **sensitive to
 outliers** because it uses the actual data values (and their deviations from the mean). A single

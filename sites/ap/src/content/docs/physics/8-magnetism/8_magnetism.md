@@ -572,14 +572,18 @@ current $I_2 = 5$ A. Find the net magnetic field at the center of the loop.
 
 The field from the straight wire at the center of the loop (distance $d = 0.1$ m):
 
-$$B_{\text{wire} = \frac{\mu_0 I_1}{2\pi d} = \frac{(4\pi \times 10^{-7})(10)}{2\pi(0.1)} = \frac{2 \times 10^{-5}}{0.1} = 2.0 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{wire} = \frac{\mu_0 I_1}{2\pi d} = \frac{(4\pi \times 10^{-7})(10)}{2\pi(0.1)} = \frac{2 \times 10^{-5}}{0.1} = 2.0 \times 10^{-4}\,\text{T
+$$
 
 By the right-hand rule, if the wire is vertical and the loop is to the right, the field from the
 wire At the loop center points out of the page.
 
 The field from the circular loop at its center:
 
-$$B_{\text{loop} = \frac{\mu_0 I_2}{2R} = \frac{(4\pi \times 10^{-7})(5)}{2(0.05)} = \frac{2\pi \times 10^{-6}}{0.05} = 1.257 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{loop} = \frac{\mu_0 I_2}{2R} = \frac{(4\pi \times 10^{-7})(5)}{2(0.05)} = \frac{2\pi \times 10^{-6}}{0.05} = 1.257 \times 10^{-4}\,\text{T
+$$
 
 The direction depends on the current direction in the loop. If the loop current flows
 counterclockwise (viewed from above), the field at the center points out of the page (same direction
@@ -587,11 +591,15 @@ as the wire's Field).
 
 If both fields are in the same direction:
 
-$$B_{\text{net} = (2.0 + 1.257) \times 10^{-4} = 3.26 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{net} = (2.0 + 1.257) \times 10^{-4} = 3.26 \times 10^{-4}\,\text{T
+$$
 
 If opposite:
 
-$$B_{\text{net} = (2.0 - 1.257) \times 10^{-4} = 0.74 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{net} = (2.0 - 1.257) \times 10^{-4} = 0.74 \times 10^{-4}\,\text{T
+$$
 
 </details>
 
@@ -618,7 +626,9 @@ The induced current: $I = \mathcal{E}/R = Bwv/R$.
 By Lenz's law, the induced current creates a force opposing the motion (upward). The force on the
 Bottom wire is:
 
-$$F_B = BIw = \frac{B^2 w^2 v}{R}$$
+$$
+F_B = BIw = \frac{B^2 w^2 v}{R}
+$$
 
 At terminal velocity, this magnetic force balances gravity:
 
@@ -657,15 +667,21 @@ Solution: $I(t) = I_{\max}(1 - e^{-t/\tau}) = 0.2(1 - e^{-200t})$.
 
 Half of this is $20$ A/s:
 
-$$\frac{dI}{dt} = \frac{\mathcal{E}}{L}e^{-t/\tau} = 40e^{-200t} = 20$$
+$$
+\frac{dI}{dt} = \frac{\mathcal{E}}{L}e^{-t/\tau} = 40e^{-200t} = 20
+$$
 
-$$e^{-200t} = 0.5 \implies t = \frac{\ln 2}{200} = 3.47 \times 10^{-3}\,\text{s = 3.47\,\text{ms$$
+$$
+e^{-200t} = 0.5 \implies t = \frac{\ln 2}{200} = 3.47 \times 10^{-3}\,\text{s = 3.47\,\text{ms
+$$
 
 Note: this occurs at $t = \tau \ln 2$.
 
 (c) At $I = 0.8 I_{\max} = 0.16$ A:
 
-$$U_L = \frac{1}{2}LI^2 = \frac{1}{2}(0.5)(0.16)^2 = \frac{1}{2}(0.5)(0.0256) = 6.4 \times 10^{-3}\,\text{J = 6.4\,\text{mJ$$
+$$
+U_L = \frac{1}{2}LI^2 = \frac{1}{2}(0.5)(0.16)^2 = \frac{1}{2}(0.5)(0.0256) = 6.4 \times 10^{-3}\,\text{J = 6.4\,\text{mJ
+$$
 
 </details>
 
@@ -684,20 +700,30 @@ change of The electric field between the plates.
 
 (a) By conservation of charge and the continuity of the displacement current:
 
-$$I_d = I = 3\,\text{A$$
+$$
+I_d = I = 3\,\text{A
+$$
 
 (b) Apply the Ampere-Maxwell law with a circular Amperian loop of radius $r = 0.03$ m (note
 $r < R$):
 
-$$B \cdot 2\pi r = \mu_0 I_d \frac{r^2}{R^2} = \mu_0(3)\frac{(0.03)^2}{(0.05)^2} = \mu_0(3)(0.36)$$
+$$
+B \cdot 2\pi r = \mu_0 I_d \frac{r^2}{R^2} = \mu_0(3)\frac{(0.03)^2}{(0.05)^2} = \mu_0(3)(0.36)
+$$
 
-$$B = \frac{(4\pi \times 10^{-7})(1.08)}{2\pi(0.03)} = \frac{4.32\pi \times 10^{-7}}{6\pi \times 10^{-2}} = \frac{4.32 \times 10^{-7}}{0.06} = 7.2 \times 10^{-6}\,\text{T = 7.2\,\mu\text{T$$
+$$
+B = \frac{(4\pi \times 10^{-7})(1.08)}{2\pi(0.03)} = \frac{4.32\pi \times 10^{-7}}{6\pi \times 10^{-2}} = \frac{4.32 \times 10^{-7}}{0.06} = 7.2 \times 10^{-6}\,\text{T = 7.2\,\mu\text{T
+$$
 
 (c) The displacement current is:
 
-$$I_d = \epsilon_0 \frac{d\Phi_E}{dt} = \epsilon_0 \frac{d}{dt}(E \cdot \pi R^2) = \epsilon_0 \pi R^2 \frac{dE}{dt}$$
+$$
+I_d = \epsilon_0 \frac{d\Phi_E}{dt} = \epsilon_0 \frac{d}{dt}(E \cdot \pi R^2) = \epsilon_0 \pi R^2 \frac{dE}{dt}
+$$
 
-$$\frac{dE}{dt} = \frac{I_d}{\epsilon_0 \pi R^2} = \frac{3}{(8.854 \times 10^{-12})\pi(0.05)^2} = \frac{3}{6.95 \times 10^{-14}} = 4.32 \times 10^{13}\,\text{V/m\cdot\text{s$$
+$$
+\frac{dE}{dt} = \frac{I_d}{\epsilon_0 \pi R^2} = \frac{3}{(8.854 \times 10^{-12})\pi(0.05)^2} = \frac{3}{6.95 \times 10^{-14}} = 4.32 \times 10^{13}\,\text{V/m\cdot\text{s
+$$
 
 </details>
 

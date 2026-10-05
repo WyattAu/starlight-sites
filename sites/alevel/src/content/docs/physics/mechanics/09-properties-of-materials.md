@@ -32,7 +32,9 @@ Level board.
 When an elastic object such as a spring or wire is stretched, the extension is (up to a limit)
 Proportional to the applied force.
 
-$$\boxed{F = k\,\Delta x}$$
+$$
+\boxed{F = k\,\Delta x}
+$$
 
 Where $F$ is the applied force, $k$ is the **spring constant** (N m$^{-1}$), and $\Delta x$ is the
 Extension from the natural length.
@@ -58,11 +60,15 @@ For two springs with spring constants $k_1$ and $k_2$:
 
 **Series** (force is the same through both, extensions add):
 
-$$\frac{1}{k_{\mathrm{series}}} = \frac{1}{k_1} + \frac{1}{k_2}$$
+$$
+\frac{1}{k_{\mathrm{series}}} = \frac{1}{k_1} + \frac{1}{k_2}
+$$
 
 **Parallel** (extension is the same for both, forces add):
 
-$$k_{\mathrm{parallel}} = k_1 + k_2$$
+$$
+k_{\mathrm{parallel}} = k_1 + k_2
+$$
 
 <details>
 <summary>Example</summary>
@@ -83,14 +89,18 @@ Geometry, we use **stress** and **strain**.
 
 **Definition.** **Stress** $\sigma$ is the force per unit cross-sectional area:
 
-$$\boxed{\sigma = \frac{F}{A}}$$
+$$
+\boxed{\sigma = \frac{F}{A}}
+$$
 
 Units: pascals (Pa), where $1\;\mathrm{Pa} = 1\;\mathrm{N m}^{-2}$. Typical values range from
 $\sim 10^6$ Pa for soft metals to $\sim 10^9$ Pa for steel.
 
 **Definition.** **Strain** $\varepsilon$ is the extension per unit original length:
 
-$$\boxed{\varepsilon = \frac{\Delta L}{L}}$$
+$$
+\boxed{\varepsilon = \frac{\Delta L}{L}}
+$$
 
 Strain is dimensionless (a ratio). It is often expressed as a percentage.
 
@@ -106,7 +116,9 @@ like Concrete.
 **Definition.** The **Young's modulus** $E$ of a material is the ratio of tensile stress to tensile
 Strain, within the limit of proportionality:
 
-$$\boxed{E = \frac{\sigma}{\varepsilon} = \frac{F/A}{\Delta L/L} = \frac{FL}{A\,\Delta L}}$$
+$$
+\boxed{E = \frac{\sigma}{\varepsilon} = \frac{F/A}{\Delta L/L} = \frac{FL}{A\,\Delta L}}
+$$
 
 Young's modulus is a measure of **stiffness**, the resistance of a material to elastic deformation
 Under tensile loading. It has units of Pa (same as stress, since strain is dimensionless).
@@ -167,15 +179,21 @@ Wire has exceeded its limit of proportionality.)
 
 Starting from Hooke's law in its force-extension form:
 
-$$F = k\,\Delta x$$
+$$
+F = k\,\Delta x
+$$
 
 Multiply both sides by $L/(A\,\Delta x)$:
 
-$$\frac{FL}{A\,\Delta x} = \frac{kL}{A}$$
+$$
+\frac{FL}{A\,\Delta x} = \frac{kL}{A}
+$$
 
 Define $\sigma = F/A$, $\varepsilon = \Delta x/L$:
 
-$$\frac{\sigma}{\varepsilon} = \frac{kL}{A} = E$$
+$$
+\frac{\sigma}{\varepsilon} = \frac{kL}{A} = E
+$$
 
 Since $k$, $L$ And $A$ are all constants for a given sample (within the proportional limit), $E$ is A
 constant of the material, it does not depend on the dimensions of the sample. $\square$
@@ -248,30 +266,42 @@ Deformed elastic body.
 From Hooke's law, the force varies linearly from $0$ to $F$ as the spring extends from $0$ to
 $\Delta x$. The energy stored equals the area under the force-extension graph:
 
-$$\boxed{E_e = \frac{1}{2}F\,\Delta x = \frac{1}{2}k\,\Delta x^2}$$
+$$
+\boxed{E_e = \frac{1}{2}F\,\Delta x = \frac{1}{2}k\,\Delta x^2}
+$$
 
 ### Proof of Energy Stored in a Wire
 
 Consider a wire of original length $L$ and cross-sectional area $A$. When stretched by an increment
 $d(\Delta L)$The work done is:
 
-$$dW = F\,d(\Delta L)$$
+$$
+dW = F\,d(\Delta L)
+$$
 
 Since $F = \sigma A$ and $\sigma = E\varepsilon = E\,\Delta L/L$:
 
-$$dW = \sigma A\,d(\Delta L) = E\varepsilon A \cdot L\,d\varepsilon = EAL\,\varepsilon\,d\varepsilon$$
+$$
+dW = \sigma A\,d(\Delta L) = E\varepsilon A \cdot L\,d\varepsilon = EAL\,\varepsilon\,d\varepsilon
+$$
 
 Integrating from $\varepsilon = 0$ to $\varepsilon = \varepsilon_{\max}$:
 
-$$E_e = \int_0^{\varepsilon_{\max}} EAL\,\varepsilon\,d\varepsilon = EAL\left[\frac{\varepsilon^2}{2}\right]_0^{\varepsilon_{\max}} = \frac{1}{2}EAL\,\varepsilon_{\max}^2$$
+$$
+E_e = \int_0^{\varepsilon_{\max}} EAL\,\varepsilon\,d\varepsilon = EAL\left[\frac{\varepsilon^2}{2}\right]_0^{\varepsilon_{\max}} = \frac{1}{2}EAL\,\varepsilon_{\max}^2
+$$
 
 Since $E\varepsilon = \sigma$ and $AL = V$ (volume of the wire):
 
-$$\boxed{E_e = \frac{1}{2}\,\frac{\sigma^2}{E}\,V}$$
+$$
+\boxed{E_e = \frac{1}{2}\,\frac{\sigma^2}{E}\,V}
+$$
 
 Alternatively, using $\varepsilon = \sigma/E$:
 
-$$E_e = \frac{1}{2}\,E\,V\,\varepsilon^2 = \frac{1}{2}\,\sigma\,\varepsilon\,V$$
+$$
+E_e = \frac{1}{2}\,E\,V\,\varepsilon^2 = \frac{1}{2}\,\sigma\,\varepsilon\,V
+$$
 
 $\square$
 

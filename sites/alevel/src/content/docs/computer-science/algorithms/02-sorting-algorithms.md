@@ -82,7 +82,9 @@ After $n-1$ passes, all elements are sorted. $\square$
 **Proof of worst case.** In reverse order, each pass performs $n - 1 - i$ swaps for pass $i$. Total
 Comparisons:
 
-$$\sum_{i=0}^{n-2}(n - 1 - i) = \sum_{k=1}^{n-1} k = \frac{n(n-1)}{2} = O(n^2)$$
+$$
+\sum_{i=0}^{n-2}(n - 1 - i) = \sum_{k=1}^{n-1} k = \frac{n(n-1)}{2} = O(n^2)
+$$
 
 $\square$
 
@@ -135,7 +137,9 @@ $\square$
 **Proof of average case.** On average, each insertion shifts approximately half of the sorted
 Portion:
 
-$$T(n) = \sum_{i=1}^{n-1} \frac{i}{2} = \frac{1}{2}\sum_{i=1}^{n-1} i = \frac{1}{2} \cdot \frac{n(n-1)}{2} = \frac{n(n-1)}{4} = O(n^2)$$
+$$
+T(n) = \sum_{i=1}^{n-1} \frac{i}{2} = \frac{1}{2}\sum_{i=1}^{n-1} i = \frac{1}{2} \cdot \frac{n(n-1)}{2} = \frac{n(n-1)}{4} = O(n^2)
+$$
 
 $\square$
 
@@ -196,14 +200,18 @@ The result is a sorted permutation of the input. ✓ $\square$
 
 **Proof.** The recurrence relation is:
 
-$$T(n) = 2T(n/2) + O(n), \quad T(1) = O(1)$$
+$$
+T(n) = 2T(n/2) + O(n), \quad T(1) = O(1)
+$$
 
 The $O(n)$ term comes from the `merge` step, which processes each element exactly once.
 
 By the Master Theorem: $a = 2$, $b = 2$, $f(n) = O(n)$. We have
 $f(n) = O(n^{\log_b a}) = O(n^1) = O(n)$Which is case 2. Therefore:
 
-$$T(n) = O(n \log n)$$
+$$
+T(n) = O(n \log n)
+$$
 
 **Space:** $O(n)$, the merge step requires a temporary array. **Stable:** Yes (merge uses `<=`).
 
@@ -277,7 +285,9 @@ Can change relative order).
 **Proof of worst case.** If the pivot is always the smallest or largest element, one partition has
 Size 0 and the other has size $n-1$:
 
-$$T(n) = T(n-1) + O(n) = \sum_{k=1}^{n} O(k) = O(n^2)$$
+$$
+T(n) = T(n-1) + O(n) = \sum_{k=1}^{n} O(k) = O(n^2)
+$$
 
 **Proof of average case.** With random pivot selection, the expected partition size is roughly
 $n/2$. The recurrence is $T(n) = T(n/2) + O(n)$ on average, giving $T(n) = O(n \log n)$ by the
@@ -310,11 +320,15 @@ There are $n!$ possible permutations of $n$ elements, so the decision tree has a
 
 A binary tree of height $h$ has at most $2^h$ leaves, so:
 
-$$2^h \geq n! \implies h \geq \log_2(n!)$$
+$$
+2^h \geq n! \implies h \geq \log_2(n!)
+$$
 
 Using Stirling"s approximation: $n! \approx \left(\frac{n}{e}\right)^n \sqrt{2\pi n}$
 
-$$\log_2(n!) = n\log_2 n - n\log_2 e + O(\log n) = \Omega(n \log n)$$
+$$
+\log_2(n!) = n\log_2 n - n\log_2 e + O(\log n) = \Omega(n \log n)
+$$
 
 Therefore, any comparison-based sorting algorithm requires at least $\Omega(n \log n)$ comparisons
 In the worst case. $\square$

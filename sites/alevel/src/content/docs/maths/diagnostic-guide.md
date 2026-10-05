@@ -523,9 +523,13 @@ correct the error.
 
 Correct approach using the double-angle identity:
 
-$$\sin^2 x = \frac{1 - \cos 2x}{2}$$
+$$
+\sin^2 x = \frac{1 - \cos 2x}{2}
+$$
 
-$$\int \sin^2 x\,dx = \int \frac{1 - \cos 2x}{2}\,dx = \frac{x}{2} - \frac{\sin 2x}{4} + c$$
+$$
+\int \sin^2 x\,dx = \int \frac{1 - \cos 2x}{2}\,dx = \frac{x}{2} - \frac{\sin 2x}{4} + c
+$$
 
 This error indicates the student needs to review trigonometric identities and integration
 techniques.

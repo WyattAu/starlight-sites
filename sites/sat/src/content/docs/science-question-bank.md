@@ -50,17 +50,27 @@ many generations (rounds of cell division) occurred during this period?
 
 The number of cells after $n$ generations is given by:
 
-$$N = N_0 \times 2^n$$
+$$
+N = N_0 \times 2^n
+$$
 
 where $N_0 = 320$ and $N = 1280$.
 
-$$1280 = 320 \times 2^n$$
+$$
+1280 = 320 \times 2^n
+$$
 
-$$\frac{1280}{320} = 2^n$$
+$$
+\frac{1280}{320} = 2^n
+$$
 
-$$4 = 2^n$$
+$$
+4 = 2^n
+$$
 
-$$n = 2$$
+$$
+n = 2
+$$
 
 **Answer:** 2 generations occurred during the 6-hour period.
 
@@ -128,19 +138,31 @@ The maximum reaction rate ($V_{\max}$) is known to be 50 μmol/min. What is the 
 
 Using the Michaelis-Menten equation:
 
-$$v = \frac{V_{\max} [S]}{K_m + [S]}$$
+$$
+v = \frac{V_{\max} [S]}{K_m + [S]}
+$$
 
 Using the data point where $[S] = 1.0$ mmol/L and $v = 14.3$ μmol/min:
 
-$$14.3 = \frac{50 \times 1.0}{K_m + 1.0}$$
+$$
+14.3 = \frac{50 \times 1.0}{K_m + 1.0}
+$$
 
-$$14.3(K_m + 1.0) = 50$$
+$$
+14.3(K_m + 1.0) = 50
+$$
 
-$$14.3K_m + 14.3 = 50$$
+$$
+14.3K_m + 14.3 = 50
+$$
 
-$$14.3K_m = 35.7$$
+$$
+14.3K_m = 35.7
+$$
 
-$$K_m \approx 2.50 \text{ mmol/L}$$
+$$
+K_m \approx 2.50 \text{ mmol/L}
+$$
 
 **Answer:** $K_m \approx 2.5$ mmol/L
 
@@ -168,19 +190,27 @@ Given: M(NaOH) = 40.0 g/mol, M(NaCl) = 58.5 g/mol
 
 Balanced equation:
 
-$$\text{NaOH} + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O}$$
+$$
+\text{NaOH} + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O}
+$$
 
 Moles of NaOH:
 
-$$n = \frac{25.0}{40.0} = 0.625 \text{ mol}$$
+$$
+n = \frac{25.0}{40.0} = 0.625 \text{ mol}
+$$
 
 The stoichiometric ratio NaOH : NaCl is 1:1, so:
 
-$$n(\text{NaCl}) = 0.625 \text{ mol}$$
+$$
+n(\text{NaCl}) = 0.625 \text{ mol}
+$$
 
 Mass of NaCl:
 
-$$m = 0.625 \times 58.5 = 36.6 \text{ g}$$
+$$
+m = 0.625 \times 58.5 = 36.6 \text{ g}
+$$
 
 **Answer:** 36.6 g of NaCl
 
@@ -204,13 +234,19 @@ pressure is increased to 3.00 atm and the temperature is raised to 450 K, what i
 
 Using the combined gas law:
 
-$$\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}$$
+$$
+\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}
+$$
 
 Solving for $V_2$:
 
-$$V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{1.50 \times 2.00 \times 450}{3.00 \times 300}$$
+$$
+V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{1.50 \times 2.00 \times 450}{3.00 \times 300}
+$$
 
-$$V_2 = \frac{1350}{900} = 1.50 \text{ L}$$
+$$
+V_2 = \frac{1350}{900} = 1.50 \text{ L}
+$$
 
 **Answer:** 1.50 L
 
@@ -235,17 +271,25 @@ Given: M(NaOH) = 40.0 g/mol
 
 Moles of NaOH:
 
-$$n = \frac{0.20}{40.0} = 0.0050 \text{ mol}$$
+$$
+n = \frac{0.20}{40.0} = 0.0050 \text{ mol}
+$$
 
 Concentration of NaOH:
 
-$$[\text{NaOH}] = \frac{0.0050}{0.500} = 0.010 \text{ mol/L}$$
+$$
+[\text{NaOH}] = \frac{0.0050}{0.500} = 0.010 \text{ mol/L}
+$$
 
 Since NaOH is a strong base, $[\text{OH}^-] = 0.010$ mol/L.
 
-$$\text{pOH} = -\log_{10}(0.010) = 2.00$$
+$$
+\text{pOH} = -\log_{10}(0.010) = 2.00
+$$
 
-$$\text{pH} = 14.00 - \text{pOH} = 14.00 - 2.00 = 12.00$$
+$$
+\text{pH} = 14.00 - \text{pOH} = 14.00 - 2.00 = 12.00
+$$
 
 **Answer:** pH = 12.00
 
@@ -271,7 +315,9 @@ during this time?
 
 Using the kinematic equation (starting from rest, $u = 0$):
 
-$$s = ut + \frac{1}{2}at^2 = 0 + \frac{1}{2}(3.0)(8.0)^2 = \frac{1}{2}(3.0)(64) = 96 \text{ m}$$
+$$
+s = ut + \frac{1}{2}at^2 = 0 + \frac{1}{2}(3.0)(8.0)^2 = \frac{1}{2}(3.0)(64) = 96 \text{ m}
+$$
 
 **Answer:** 96 m
 
@@ -298,15 +344,23 @@ Given: $g = 9.8$ m/s²
 
 Net force:
 
-$$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}}$$
+$$
+F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}}
+$$
 
-$$F_{\text{friction}} = \mu_k N = \mu_k mg = 0.30 \times 5.0 \times 9.8 = 14.7 \text{ N}$$
+$$
+F_{\text{friction}} = \mu_k N = \mu_k mg = 0.30 \times 5.0 \times 9.8 = 14.7 \text{ N}
+$$
 
-$$F_{\text{net}} = 20 - 14.7 = 5.3 \text{ N}$$
+$$
+F_{\text{net}} = 20 - 14.7 = 5.3 \text{ N}
+$$
 
 Acceleration:
 
-$$a = \frac{F_{\text{net}}}{m} = \frac{5.3}{5.0} = 1.06 \text{ m/s}^2$$
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{5.3}{5.0} = 1.06 \text{ m/s}^2
+$$
 
 **Answer:** $a \approx 1.1$ m/s²
 
@@ -330,17 +384,25 @@ battery. What is the total power dissipated by the circuit?
 
 Equivalent resistance in parallel:
 
-$$\frac{1}{R_{\text{eq}}} = \frac{1}{12} + \frac{1}{6} = \frac{1}{12} + \frac{2}{12} = \frac{3}{12} = \frac{1}{4}$$
+$$
+\frac{1}{R_{\text{eq}}} = \frac{1}{12} + \frac{1}{6} = \frac{1}{12} + \frac{2}{12} = \frac{3}{12} = \frac{1}{4}
+$$
 
-$$R_{\text{eq}} = 4\,\Omega$$
+$$
+R_{\text{eq}} = 4\,\Omega
+$$
 
 Total current:
 
-$$I = \frac{V}{R_{\text{eq}}} = \frac{12}{4} = 3 \text{ A}$$
+$$
+I = \frac{V}{R_{\text{eq}}} = \frac{12}{4} = 3 \text{ A}
+$$
 
 Total power:
 
-$$P = VI = 12 \times 3 = 36 \text{ W}$$
+$$
+P = VI = 12 \times 3 = 36 \text{ W}
+$$
 
 **Answer:** 36 W
 
@@ -361,9 +423,13 @@ A sound wave has a frequency of 440 Hz and travels at 343 m/s in air. What is it
 
 **Solution:**
 
-$$v = f\lambda$$
+$$
+v = f\lambda
+$$
 
-$$\lambda = \frac{v}{f} = \frac{343}{440} = 0.780 \text{ m}$$
+$$
+\lambda = \frac{v}{f} = \frac{343}{440} = 0.780 \text{ m}
+$$
 
 **Answer:** 0.780 m
 
@@ -391,11 +457,15 @@ of the ridge be after 1 million years?
 Each point moves away from the ridge at 2.5 cm/year. Since they are on opposite sides, the total
 separation rate is:
 
-$$2 \times 2.5 = 5.0 \text{ cm/year}$$
+$$
+2 \times 2.5 = 5.0 \text{ cm/year}
+$$
 
 Over 1 million years:
 
-$$d = 5.0 \times 10^6 \text{ cm} = 50 \text{ km}$$
+$$
+d = 5.0 \times 10^6 \text{ cm} = 50 \text{ km}
+$$
 
 **Answer:** 50 km
 
@@ -421,7 +491,9 @@ volume was 2.00 m³?
 
 Using Boyle"s Law ($P_1 V_1 = P_2 V_2$):
 
-$$V_2 = \frac{P_1 V_1}{P_2} = \frac{101.3 \times 2.00}{50.7} = 4.00 \text{ m}^3$$
+$$
+V_2 = \frac{P_1 V_1}{P_2} = \frac{101.3 \times 2.00}{50.7} = 4.00 \text{ m}^3
+$$
 
 **Answer:** 4.00 m³
 
@@ -460,7 +532,9 @@ The maximum growth rate of 8.0 divisions/hr occurs at **37°C**.
 
 Percentage decrease from 37°C to 40°C:
 
-$$\text{Percentage decrease} = \frac{8.0 - 7.0}{8.0} \times 100\% = \frac{1.0}{8.0} \times 100\% = 12.5\%$$
+$$
+\text{Percentage decrease} = \frac{8.0 - 7.0}{8.0} \times 100\% = \frac{1.0}{8.0} \times 100\% = 12.5\%
+$$
 
 **Answer:** Maximum growth at 37°C; approximately 12.5% decrease from 37°C to 40°C.
 
@@ -493,14 +567,18 @@ What is the acceleration of the ball, and how far does it fall in the first 3 se
 
 The acceleration is the slope of the velocity–time graph:
 
-$$a = \frac{\Delta v}{\Delta t} = \frac{9.8 - 0}{1 - 0} = 9.8 \text{ m/s}^2$$
+$$
+a = \frac{\Delta v}{\Delta t} = \frac{9.8 - 0}{1 - 0} = 9.8 \text{ m/s}^2
+$$
 
 (Checking: $\frac{39.2}{4} = 9.8$, consistent throughout.)
 
 Distance in the first 3 seconds (area under the velocity–time graph, or using
 $s = \frac{1}{2}at^2$):
 
-$$s = \frac{1}{2}(9.8)(3)^2 = \frac{1}{2}(9.8)(9) = 44.1 \text{ m}$$
+$$
+s = \frac{1}{2}(9.8)(3)^2 = \frac{1}{2}(9.8)(9) = 44.1 \text{ m}
+$$
 
 **Answer:** Acceleration = 9.8 m/s²; distance = 44.1 m in the first 3 seconds.
 

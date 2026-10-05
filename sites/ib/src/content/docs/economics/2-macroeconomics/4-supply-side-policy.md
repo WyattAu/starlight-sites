@@ -30,7 +30,9 @@ categories: [ib-economics]
 
 AD is the total planned expenditure on goods and services at each price level:
 
-$$\mathrm{AD} = C + I + G + (X - M)$$
+$$
+\mathrm{AD} = C + I + G + (X - M)
+$$
 
 The AD curve slopes downward due to:
 
@@ -126,11 +128,15 @@ Shift of the LRAS curve. It is the only sustainable source of rising living stan
 
 **Solow growth model**: output depends on capital ($K$), labour ($L$), and technology ($A$):
 
-$$Y = A \cdot f(K, L)$$
+$$
+Y = A \cdot f(K, L)
+$$
 
 In per-worker terms:
 
-$$y = A \cdot f(k)$$
+$$
+y = A \cdot f(k)
+$$
 
 Where $y = Y/L$ and $k = K/L$.
 
@@ -153,7 +159,9 @@ Where $y = Y/L$ and $k = K/L$.
 In the Solow model, the economy converges to a **steady state** where capital per worker is
 constant:
 
-$$s \cdot f(k^*) = (n + \delta) \cdot k^*$$
+$$
+s \cdot f(k^*) = (n + \delta) \cdot k^*
+$$
 
 Where $s$ is the savings rate, $n$ is the population growth rate, and $\delta$ is the depreciation
 Rate. At the steady state:
@@ -181,7 +189,9 @@ economic Decisions:
 A simple endogenous growth model: $Y = A \cdot K$Where $A$ is a constant reflecting the Productivity
 of capital. Here, there are no diminishing returns to capital, and the growth rate is:
 
-$$g_Y = s \cdot A - \delta$$
+$$
+g_Y = s \cdot A - \delta
+$$
 
 Policies that increase the savings rate permanently increase the growth rate.
 
@@ -341,36 +351,54 @@ For any AD/AS question, follow this systematic approach:
 
 Starting with the equilibrium condition in an open economy with government:
 
-$$Y = C + I + G + X - M$$
+$$
+Y = C + I + G + X - M
+$$
 
 Substituting the consumption function $C = a + b(Y - T)$ and the import function $M = mY$:
 
-$$Y = a + b(Y - T) + I + G + X - mY$$
+$$
+Y = a + b(Y - T) + I + G + X - mY
+$$
 
 Assuming a proportional tax $T = tY$:
 
-$$Y = a + bY - btY + I + G + X - mY$$
+$$
+Y = a + bY - btY + I + G + X - mY
+$$
 
-$$Y - bY + btY + mY = a + I + G + X$$
+$$
+Y - bY + btY + mY = a + I + G + X
+$$
 
-$$Y(1 - b + bt + m) = a + I + G + X$$
+$$
+Y(1 - b + bt + m) = a + I + G + X
+$$
 
-$$Y = \frac{a + I + G + X}{1 - b(1 - t) + m}$$
+$$
+Y = \frac{a + I + G + X}{1 - b(1 - t) + m}
+$$
 
 The denominator is the sum of all leakages:
 
-$$k = \frac{1}{1 - b(1 - t) + m} = \frac{1}{\text{MPS} + \text{MPT} + \text{MPM}}$$
+$$
+k = \frac{1}{1 - b(1 - t) + m} = \frac{1}{\text{MPS} + \text{MPT} + \text{MPM}}
+$$
 
 ### The Tax Multiplier
 
 A change in autonomous taxes $\Delta T$ changes disposable income by $\Delta T$Which changes
 Consumption by $b \cdot \Delta T$ (where $b$ is MPC):
 
-$$\Delta Y = \frac{-b}{1 - b(1 - t) + m} \cdot \Delta T$$
+$$
+\Delta Y = \frac{-b}{1 - b(1 - t) + m} \cdot \Delta T
+$$
 
 The tax multiplier is:
 
-$$k_T = \frac{-b}{1 - b(1 - t) + m}$$
+$$
+k_T = \frac{-b}{1 - b(1 - t) + m}
+$$
 
 The tax multiplier is always smaller in absolute value than the spending multiplier because a tax
 Change affects only disposable income, not spending directly. Some of the tax change is absorbed by
@@ -378,7 +406,9 @@ Reduced saving.
 
 **Relationship:**
 
-$$|k_G| = \frac{1}{1 - b(1 - t) + m} > |k_T| = \frac{b}{1 - b(1 - t) + m}$$
+$$
+|k_G| = \frac{1}{1 - b(1 - t) + m} > |k_T| = \frac{b}{1 - b(1 - t) + m}
+$$
 
 Since $b < 1$The spending multiplier always exceeds the absolute value of the tax multiplier.
 
@@ -386,9 +416,13 @@ Since $b < 1$The spending multiplier always exceeds the absolute value of the ta
 
 If $\Delta G = \Delta T$ (lump-sum taxes for simplicity):
 
-$$\Delta Y = k_G \cdot \Delta G + k_T \cdot \Delta T = \frac{1}{1-b}\Delta G + \frac{-b}{1-b}\Delta T$$
+$$
+\Delta Y = k_G \cdot \Delta G + k_T \cdot \Delta T = \frac{1}{1-b}\Delta G + \frac{-b}{1-b}\Delta T
+$$
 
-$$\Delta Y = \frac{\Delta G - b \cdot \Delta G}{1 - b} = \frac{\Delta G(1 - b)}{1 - b} = \Delta G$$
+$$
+\Delta Y = \frac{\Delta G - b \cdot \Delta G}{1 - b} = \frac{\Delta G(1 - b)}{1 - b} = \Delta G
+$$
 
 The balanced budget multiplier equals 1, regardless of the MPC. An equal increase in government
 Spending and taxes increases GDP by exactly the amount of the spending increase.
@@ -415,7 +449,9 @@ Multiplier is confirmed.
 
 The Laffer curve illustrates the theoretical relationship between the tax rate and tax revenue:
 
-$$\text{Tax revenue} = t \times Y(t)$$
+$$
+\text{Tax revenue} = t \times Y(t)
+$$
 
 Where $Y(t)$ is the tax base (income, output), which depends on the tax rate. At $t = 0$Revenue Is
 zero. At $t = 100\%$Revenue is also zero (no one works or invests if all income is taxed). Between
@@ -451,15 +487,21 @@ Growth, and technological progress.
 
 **Production function:**
 
-$$Y = F(K, L)$$
+$$
+Y = F(K, L)
+$$
 
 In per-worker terms ($y = Y/L$, $k = K/L$):
 
-$$y = f(k)$$
+$$
+y = f(k)
+$$
 
 **Capital accumulation:**
 
-$$\dot{k} = s \cdot f(k) - (n + \delta)k$$
+$$
+\dot{k} = s \cdot f(k) - (n + \delta)k
+$$
 
 Where $s$ is the savings rate, $n$ is the population growth rate, and $\delta$ is the depreciation
 Rate.
@@ -493,13 +535,19 @@ Starting from any $k_0$The economy converges to $k^*$ because:
 **Golden Rule of capital accumulation:** the savings rate that maximises steady-state consumption
 Per worker:
 
-$$c^* = f(k^*) - (n + \delta)k^*$$
+$$
+c^* = f(k^*) - (n + \delta)k^*
+$$
 
 Consumption is maximised where the slope of the production function equals $(n + \delta)$:
 
-$$f'(k^{**}) = n + \delta$$
+$$
+f'(k^{**}) = n + \delta
+$$
 
-$$\text{MPK} = n + \delta$$
+$$
+\text{MPK} = n + \delta
+$$
 
 If the actual savings rate is higher than the golden rule rate, the economy is dynamically
 Inefficient: reducing saving would increase both current and future consumption.
@@ -508,7 +556,9 @@ Inefficient: reducing saving would increase both current and future consumption.
 
 An augmented Solow model (Mankiw, Romer, Weil, 1992) includes human capital $H$:
 
-$$Y = K^\alpha H^\beta (AL)^{1-\alpha-\beta}$$
+$$
+Y = K^\alpha H^\beta (AL)^{1-\alpha-\beta}
+$$
 
 Where $H$ represents the stock of human capital. This model explains more of the cross-country
 Variation in income per capita than the basic Solow model, but still predicts convergence (albeit
@@ -519,7 +569,9 @@ Conditional on human capital).
 **Total factor productivity** (TFP, or the Solow residual) measures the portion of output growth Not
 explained by growth in inputs (capital and labour):
 
-$$\frac{\Delta A}{A} = \frac{\Delta Y}{Y} - \alpha \frac{\Delta K}{K} - (1 - \alpha) \frac{\Delta L}{L}$$
+$$
+\frac{\Delta A}{A} = \frac{\Delta Y}{Y} - \alpha \frac{\Delta K}{K} - (1 - \alpha) \frac{\Delta L}{L}
+$$
 
 Where $A$ is TFP and $\alpha$ is capital's share of income (approximately $1/3$ in most economies).
 
@@ -767,7 +819,9 @@ Fiscal policy is highly effective at the ZLB because there is no crowding out. T
 Rightward, but since the LM curve is horizontal, the interest rate does not rise. The full
 Multiplier operates:
 
-$$\Delta Y = k \cdot \Delta G$$
+$$
+\Delta Y = k \cdot \Delta G
+$$
 
 There is no offsetting increase in interest rates to crowd out private investment.
 
@@ -855,8 +909,12 @@ mobility.
   causing capital outflows that depreciate the exchange rate, increasing net exports. Output
   increases by the full multiplier
 
-$$\Delta G > 0 \implies \Delta Y = 0 \quad \text{(fiscal policy is fully crowded out)}$$
-$$\Delta M^s > 0 \implies \Delta Y > 0 \quad \text{(monetary policy is fully effective)}$$
+$$
+\Delta G > 0 \implies \Delta Y = 0 \quad \text{(fiscal policy is fully crowded out)}
+$$
+$$
+\Delta M^s > 0 \implies \Delta Y > 0 \quad \text{(monetary policy is fully effective)}
+$$
 
 **Key result with fixed exchange rates and perfect capital mobility:**
 
@@ -869,8 +927,12 @@ $$\Delta M^s > 0 \implies \Delta Y > 0 \quad \text{(monetary policy is fully eff
   downward pressure on the exchange rate. The central bank must sell reserves to defend the peg,
   reversing the money supply increase
 
-$$\Delta G > 0 \implies \Delta Y > 0 \quad \text{(fiscal policy is amplified)}$$
-$$\Delta M^s > 0 \implies \Delta Y = 0 \quad \text{(monetary policy is fully offset)}$$
+$$
+\Delta G > 0 \implies \Delta Y > 0 \quad \text{(fiscal policy is amplified)}
+$$
+$$
+\Delta M^s > 0 \implies \Delta Y = 0 \quad \text{(monetary policy is fully offset)}
+$$
 
 ### Currency Crises: First-Generation and Second-Generation Models
 
@@ -1219,9 +1281,13 @@ GDP was USD 1 trillion, the permanent loss is USD 38.6 billion per year.
 The BP (balance of payments) curve shows combinations of $Y$ and $r$ that maintain balance of
 Payments equilibrium:
 
-$$\text{Current account} + \text{Capital account} = 0$$
+$$
+\text{Current account} + \text{Capital account} = 0
+$$
 
-$$\text{NX}(Y, e) + \text{CF}(r) = 0$$
+$$
+\text{NX}(Y, e) + \text{CF}(r) = 0
+$$
 
 The slope of the BP curve depends on capital mobility:
 
@@ -1457,7 +1523,9 @@ $200/10 = 20$.
 **Okun's law** describes the empirical relationship between changes in unemployment and changes In
 output:
 
-$$\Delta u = -\beta \left( \frac{\Delta Y}{Y} - g^* \right)$$
+$$
+\Delta u = -\beta \left( \frac{\Delta Y}{Y} - g^* \right)
+$$
 
 Where:
 
@@ -1468,7 +1536,9 @@ Where:
 
 **Alternative form:**
 
-$$\frac{Y - Y^*}{Y^*} = -\gamma (u - u^*)$$
+$$
+\frac{Y - Y^*}{Y^*} = -\gamma (u - u^*)
+$$
 
 Where $\gamma = 1/\beta \approx 2$ in the US. A 1 percentage point increase in the unemployment Rate
 is associated with a 2% decline in output relative to potential.
@@ -1518,7 +1588,9 @@ Additional unemployment.
 
 John Taylor (1993) proposed a rule for setting the central bank policy rate:
 
-$$i = r^* + \pi + 0.5(\pi - \pi^*) + 0.5(y - y^*)$$
+$$
+i = r^* + \pi + 0.5(\pi - \pi^*) + 0.5(y - y^*)
+$$
 
 Where:
 

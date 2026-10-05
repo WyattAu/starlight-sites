@@ -1838,7 +1838,9 @@ Big-O notation provides an upper bound on the growth rate of a function as its i
 Arbitrarily large. Formally, a function $f(n)$ is said to be $O(g(n))$ if there exist positive
 Constants $c$ and $n_0$ such that:
 
-$$f(n) \leq c \cdot g(n) \quad \mathrm{for all } n \geq n_0$$
+$$
+f(n) \leq c \cdot g(n) \quad \mathrm{for all } n \geq n_0
+$$
 
 In other words, $g(n)$ is an asymptotic upper bound for $f(n)$. Big-O describes the worst-case
 Growth rate; it says that $f(n)$ grows no faster than $g(n)$Up to a constant factor, for

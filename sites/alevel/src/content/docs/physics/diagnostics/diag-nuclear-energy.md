@@ -57,7 +57,9 @@ Take $1\,\text{u} = 931.5\,\text{MeV}/c^2$.
 
 (a) Mass defect: $\Delta m = Zm_p + Nm_n - m_{\text{nucleus}}$
 
-$$\Delta m = 2(1.00728) + 2(1.00867) - 4.00150 = 2.01456 + 2.01734 - 4.00150 = 0.03040\,\text{u}$$
+$$
+\Delta m = 2(1.00728) + 2(1.00867) - 4.00150 = 2.01456 + 2.01734 - 4.00150 = 0.03040\,\text{u}
+$$
 
 In MeV/c$^2$: $\Delta m = 0.03040 \times 931.5 = 28.3\,\text{MeV}/c^2$
 
@@ -90,7 +92,9 @@ why alpha decay is a common mode of radioactive decay.
 
 A typical fission reaction is:
 
-$$^{235}_{\ 92}\text{U} + ^1_0\text{n} \to ^{141}_{\ 56}\text{Ba} + ^{92}_{36}\text{Kr} + 3^1_0\text{n}$$
+$$
+^{235}_{\ 92}\text{U} + ^1_0\text{n} \to ^{141}_{\ 56}\text{Ba} + ^{92}_{36}\text{Kr} + 3^1_0\text{n}
+$$
 
 Masses:
 
@@ -122,11 +126,15 @@ Energy released: $E = 0.2153 \times 931.5 = 200.6\,\text{MeV}$
 
 (b) Number of $^{235}\text{U}$ atoms in $1.0\,\text{kg}$:
 
-$$N = \frac{1.0}{235.0439 \times 1.661 \times 10^{-27}} = \frac{1.0}{3.904 \times 10^{-25}} = 2.561 \times 10^{24}$$
+$$
+N = \frac{1.0}{235.0439 \times 1.661 \times 10^{-27}} = \frac{1.0}{3.904 \times 10^{-25}} = 2.561 \times 10^{24}
+$$
 
 Total energy: $E = 2.561 \times 10^{24} \times 200.6 \times 1.60 \times 10^{-13}$
 
-$$= 2.561 \times 10^{24} \times 3.210 \times 10^{-11} = 8.22 \times 10^{13}\,\text{J}$$
+$$
+= 2.561 \times 10^{24} \times 3.210 \times 10^{-11} = 8.22 \times 10^{13}\,\text{J}
+$$
 
 (c) Ratio: $\frac{8.22 \times 10^{13}}{3.0 \times 10^7} = 2.74 \times 10^6$
 
@@ -151,11 +159,15 @@ management and safety.
 
 The first step of the proton-proton chain in the Sun is:
 
-$$p + p \to ^2_1\text{H} + e^+ + \nu_e + 0.42\,\text{MeV}$$
+$$
+p + p \to ^2_1\text{H} + e^+ + \nu_e + 0.42\,\text{MeV}
+$$
 
 The dominant overall reaction in the Sun is:
 
-$$4p \to ^4_2\text{He} + 2e^+ + 2\nu_e + 26.7\,\text{MeV}$$
+$$
+4p \to ^4_2\text{He} + 2e^+ + 2\nu_e + 26.7\,\text{MeV}
+$$
 
 Masses:
 $m_p = 1.00728\,\text{u}$$m_{^{4}\text{He}} = 4.00150\,\text{u}$$m_{e^+} = 0.00055\,\text{u}$.
@@ -226,11 +238,15 @@ the power to double).
 (a) Fission rate:
 $\dot{n} = P/(E_{\text{per fission}}) = 3000 \times 10^6/(200 \times 10^6 \times 1.60 \times 10^{-19})$
 
-$$= \frac{3.0 \times 10^9}{3.20 \times 10^{-11}} = 9.375 \times 10^{19}\,\text{fissions}\,\text{s}^{-1}$$
+$$
+= \frac{3.0 \times 10^9}{3.20 \times 10^{-11}} = 9.375 \times 10^{19}\,\text{fissions}\,\text{s}^{-1}
+$$
 
 (b) The reactor period $T$ is related to $k$ by:
 
-$$P(t) = P_0 e^{t(1-k^{-1})/\ell}$$
+$$
+P(t) = P_0 e^{t(1-k^{-1})/\ell}
+$$
 
 Where $\ell$ is the mean neutron generation time. For thermal neutrons in a moderated reactor,
 $\ell \approx 10^{-4}\,\text{s}$.
@@ -342,7 +358,9 @@ light nuclei, fission for heavy nuclei.
 
 The deuterium-tritium fusion reaction is:
 
-$$^{2}_{1}\text{H} + ^{3}_{1}\text{H} \to ^{4}_{2}\text{He} + ^{1}_{0}\text{n} + 17.6\,\text{MeV}$$
+$$
+^{2}_{1}\text{H} + ^{3}_{1}\text{H} \to ^{4}_{2}\text{He} + ^{1}_{0}\text{n} + 17.6\,\text{MeV}
+$$
 
 Masses:
 $^{2}\text{H} = 2.01410\,\text{u}$$^{3}\text{H} = 3.01605\,\text{u}$$^{4}\text{He} = 4.00260\,\text{u}$$^{1}\text{n} = 1.00867\,\text{u}$.

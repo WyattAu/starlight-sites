@@ -27,9 +27,13 @@ date: 2026-05-31T00:00:00.000Z
 - **Adding vectors:** use tip-to-tail method or resolve into components
 - **Resolving a vector:** split into horizontal ($x$) and vertical ($y$) components
 
-$$F_x = F\cos\theta \quad \text{and} \quad F_y = F\sin\theta$$
+$$
+F_x = F\cos\theta \quad \text{and} \quad F_y = F\sin\theta
+$$
 
-$$F = \sqrt{F_x^2 + F_y^2}$$
+$$
+F = \sqrt{F_x^2 + F_y^2}
+$$
 
 ---
 
@@ -70,7 +74,9 @@ $$F = \sqrt{F_x^2 + F_y^2}$$
 | Speed     | Scalar | Rate of change of distance                    | $\mathrm{m\,s^{-1}}$ |
 | Velocity  | Vector | Rate of change of displacement                | $\mathrm{m\,s^{-1}}$ |
 
-$$v = \frac{\Delta s}{\Delta t}$$
+$$
+v = \frac{\Delta s}{\Delta t}
+$$
 
 **Average speed:** total distance / total time
 **Instantaneous speed:** speed at a specific moment (gradient of distance-time graph at that point)
@@ -110,7 +116,9 @@ $$v = \frac{\Delta s}{\Delta t}$$
 
 **Acceleration** is the rate of change of velocity:
 
-$$a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}$$
+$$
+a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}
+$$
 
 - Units: $\mathrm{m\,s^{-2}}$
 - A positive acceleration means the object is speeding up in the direction of motion
@@ -169,7 +177,9 @@ Where:
 ### Free Fall
 
 All objects in **free fall** (only gravity acting, no air resistance) accelerate at the same rate:
-$$g \approx 9.81\ \mathrm{m\,s^{-2}}$$
+$$
+g \approx 9.81\ \mathrm{m\,s^{-2}}
+$$
 
 ### Key Principles
 
@@ -185,7 +195,9 @@ $$g \approx 9.81\ \mathrm{m\,s^{-2}}$$
 - Timer starts when ball released; stops when it hits trapdoor
 - Repeat for various heights $h$
 
-$$h = \frac{1}{2}gt^2 \implies g = \frac{2h}{t^2}$$
+$$
+h = \frac{1}{2}gt^2 \implies g = \frac{2h}{t^2}
+$$
 
 Plot $h$ vs $t^2$; gradient = $\frac{g}{2}$
 
@@ -221,13 +233,19 @@ A projectile moves under the influence of **gravity only** (air resistance is ne
 ### Equations
 
 **Horizontal:**
-$$x = v_x \cdot t$$
+$$
+x = v_x \cdot t
+$$
 
 where $v_x = v_0\cos\theta$ (constant throughout)
 
 **Vertical:**
-$$v_y = u_y + at = v_0\sin\theta - gt$$
-$$y = u_y t + \frac{1}{2}at^2 = v_0\sin\theta\cdot t - \frac{1}{2}gt^2$$
+$$
+v_y = u_y + at = v_0\sin\theta - gt
+$$
+$$
+y = u_y t + \frac{1}{2}at^2 = v_0\sin\theta\cdot t - \frac{1}{2}gt^2
+$$
 
 ### Key Results
 
@@ -257,7 +275,9 @@ horizontal velocity is never zero (in ideal conditions).
 The **stopping distance** is the total distance a vehicle travels from the moment the driver sees
 a hazard to the moment the vehicle stops:
 
-$$\text{Stopping distance} = \text{Thinking distance} + \text{Braking distance}$$
+$$
+\text{Stopping distance} = \text{Thinking distance} + \text{Braking distance}
+$$
 
 ### Thinking Distance
 
@@ -265,7 +285,9 @@ $$\text{Stopping distance} = \text{Thinking distance} + \text{Braking distance}$
 - Depends on: **speed** (directly proportional), reaction time (affected by alcohol, drugs,
   fatigue, mobile phone use)
 
-$$\text{Thinking distance} = \text{speed} \times \text{reaction time}$$
+$$
+\text{Thinking distance} = \text{speed} \times \text{reaction time}
+$$
 
 ### Braking Distance
 

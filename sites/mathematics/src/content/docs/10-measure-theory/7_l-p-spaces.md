@@ -21,7 +21,9 @@ description: "$L^p$ Spaces: comprehensive educational content notes with precise
 
 For $1 \leq p < \infty$, define
 
-$$L^p(\mu) = \left\{f : X \to \mathbb{R} \text{ measurable} : \int_X |f|^p\, d\mu < \infty\right\}$$
+$$
+L^p(\mu) = \left\{f : X \to \mathbb{R} \text{ measurable} : \int_X |f|^p\, d\mu < \infty\right\}
+$$
 
 with the norm $\|f\|_p = \left(\int |f|^p\, d\mu\right)^{1/p}$.
 
@@ -37,7 +39,9 @@ is well-defined on equivalence classes.
 **Theorem 7.1 (Holder's Inequality).** Let $1 \leq p, q \leq \infty$ with $1/p + 1/q = 1$. If
 $f \in L^p(\mu)$ and $g \in L^q(\mu)$, then $fg \in L^1(\mu)$ and
 
-$$\|fg\|_1 \leq \|f\|_p \cdot \|g\|_q$$
+$$
+\|fg\|_1 \leq \|f\|_p \cdot \|g\|_q
+$$
 
 _Proof sketch._ Use Young's inequality: $ab \leq a^p/p + b^q/q$ for $a, b \geq 0$. Set
 $a = |f|/\|f\|_p$ and $b = |g|/\|g\|_q$ and integrate. $\blacksquare$
@@ -49,12 +53,16 @@ $\|fg\|_1 \leq \|f\|_2 \|g\|_2$.
 
 **Theorem 7.2 (Minkowski's Inequality).** For $1 \leq p \leq \infty$ and $f, g \in L^p(\mu)$:
 
-$$\|f + g\|_p \leq \|f\|_p + \|g\|_p$$
+$$
+\|f + g\|_p \leq \|f\|_p + \|g\|_p
+$$
 
 _Proof sketch (for $1 < p < \infty$)._ Write $|f + g|^p = |f + g| \cdot |f + g|^{p-1}$. Apply
 Holder's inequality with conjugate exponents $p$ and $q = p/(p-1)$:
 
-$$\int |f + g|^p \leq \|f\|_p \|f + g\|_p^{p/q} + \|g\|_p \|f + g\|_p^{p/q}$$
+$$
+\int |f + g|^p \leq \|f\|_p \|f + g\|_p^{p/q} + \|g\|_p \|f + g\|_p^{p/q}
+$$
 
 Divide both sides by $\|f + g\|_p^{p/q}$. $\blacksquare$
 
@@ -82,7 +90,9 @@ _Proof._ Apply Holder's inequality with $q/p$ and its conjugate. $\blacksquare$
 
 **Theorem 7.6 (Riesz Representation for $L^p$).** For $1 < p < \infty$, the dual space $(L^p)^*$ is isometrically isomorphic to $L^q$, where $1/p + 1/q = 1$. The pairing is:
 
-$$\langle f, g \rangle = \int f g\, d\mu, \quad f \in L^p, g \in L^q$$
+$$
+\langle f, g \rangle = \int f g\, d\mu, \quad f \in L^p, g \in L^q
+$$
 
 This also holds for $p = 1$ provided $\mu$ is $\sigma$-finite (the dual of $L^1$ is $L^\infty$). For $p = \infty$, the dual is strictly larger than $L^1$ (except for finite-dimensional spaces).
 
@@ -128,7 +138,9 @@ $\blacksquare$
 
 Write $r = \theta p + (1-\theta)q$ with $\theta \in [0, 1]$, so $1 = \theta p/r + (1-\theta)q/r$. Apply Holder's inequality with exponents $r/(\theta p)$ and $r/((1-\theta)q)$:
 
-$$\int |f|^r = \int |f|^{\theta p} |f|^{(1-\theta)q} \leq \left(\int |f|^p\right)^{\theta r/p} \left(\int |f|^q\right)^{(1-\theta) r/q}$$
+$$
+\int |f|^r = \int |f|^{\theta p} |f|^{(1-\theta)q} \leq \left(\int |f|^p\right)^{\theta r/p} \left(\int |f|^q\right)^{(1-\theta) r/q}
+$$
 
 Therefore $\|f\|_r \leq \|f\|_p^\theta \|f\|_q^{1-\theta}$, establishing both that $f \in L^r$ and a quantitative interpolation inequality.
 
@@ -149,7 +161,9 @@ $L^p$ spaces are complete (Banach spaces) for all $1 \leq p \leq \infty$, but th
 
 **Definition.** The **weak $L^p$ space** $L^{p,\infty}(\mu)$ consists of measurable functions for which
 
-$$[f]_{p,\infty} = \sup_{t > 0} t\, \mu(\{x : |f(x)| > t\})^{1/p} < \infty$$
+$$
+[f]_{p,\infty} = \sup_{t > 0} t\, \mu(\{x : |f(x)| > t\})^{1/p} < \infty
+$$
 
 Weak $L^p$ spaces are larger than $L^p$: $L^p \subseteq L^{p,\infty}$ with $\|f\|_{p,\infty} \leq \|f\|_p$.
 
@@ -195,7 +209,9 @@ $L^p$ spaces formalise the idea of "how big" a function is by integrating its $p
 
 Let $M = \|f\|_\infty$. For any $\varepsilon > 0$, the set $A = \{x : |f(x)| > M - \varepsilon\}$ has $\mu(A) > 0$. Then:
 
-$$\|f\|_p \geq \left(\int_A (M - \varepsilon)^p d\mu\right)^{1/p} = (M - \varepsilon)\,\mu(A)^{1/p}$$
+$$
+\|f\|_p \geq \left(\int_A (M - \varepsilon)^p d\mu\right)^{1/p} = (M - \varepsilon)\,\mu(A)^{1/p}
+$$
 
 As $p \to \infty$, $\mu(A)^{1/p} \to 1$, so $\liminf_{p\to\infty} \|f\|_p \geq M - \varepsilon$. Since $\varepsilon$ is arbitrary, $\liminf \|f\|_p \geq M$.
 

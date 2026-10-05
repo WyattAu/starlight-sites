@@ -64,15 +64,21 @@ $\theta = \arctan(30/20) = 56.3°$ from the $x$-axis.
 
 The **Poynting vector**:
 
-$$\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}$$
+$$
+\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}
+$$
 
 Represents the energy flux (W/m$^2$). The time-averaged intensity for a plane wave:
 
-$$I = \langle S \rangle = \frac{1}{2}c\varepsilon_0 E_0^2$$
+$$
+I = \langle S \rangle = \frac{1}{2}c\varepsilon_0 E_0^2
+$$
 
 The energy density of an EM field is:
 
-$$u = \frac{1}{2}\varepsilon_0 E^2 + \frac{1}{2\mu_0}B^2 = \varepsilon_0 E^2$$
+$$
+u = \frac{1}{2}\varepsilon_0 E^2 + \frac{1}{2\mu_0}B^2 = \varepsilon_0 E^2
+$$
 
 (the electric and magnetic contributions are equal for a plane wave). The intensity is related to
 The energy density by $I = uc$.
@@ -102,11 +108,15 @@ N.
 
 In a linear, isotropic, non-magnetic medium with refractive index $n$:
 
-$$v = \frac{c}{n}, \quad \mathbf{k} = n\frac{\omega}{c}\hat{\mathbf{k}}$$
+$$
+v = \frac{c}{n}, \quad \mathbf{k} = n\frac{\omega}{c}\hat{\mathbf{k}}
+$$
 
 The index of refraction is related to the relative permittivity and permeability:
 
-$$n = \sqrt{\varepsilon_r \mu_r}$$
+$$
+n = \sqrt{\varepsilon_r \mu_r}
+$$
 
 For non-magnetic materials ($\mu_r \approx 1$): $n \approx \sqrt{\varepsilon_r}$.
 
@@ -148,14 +158,18 @@ $z = 0$ and the plane of incidence the $xz$-plane.
 The **phase matching condition** requires the phases of all three waves (incident, reflected,
 Transmitted) to match at $z = 0$ for all $x$ and $t$. This gives:
 
-$$k_1\sin\theta_i = k_1\sin\theta_r = k_2\sin\theta_t$$
+$$
+k_1\sin\theta_i = k_1\sin\theta_r = k_2\sin\theta_t
+$$
 
 From the first equality: $\theta_i = \theta_r$ (**law of reflection**). From the second equality:
 $n_1\sin\theta_i = n_2\sin\theta_t$ (**Snell's law**).
 
 **Proof.** The incident, reflected, and transmitted fields are:
 
-$$E_i \propto e^{i(k_{1x}x + k_{1z}z - \omega t)}, \quad E_r \propto e^{i(k_{1x}'x + k_{1z}'z - \omega t)}, \quad E_t \propto e^{i(k_{2x}x + k_{2z}z - \omega t)}$$
+$$
+E_i \propto e^{i(k_{1x}x + k_{1z}z - \omega t)}, \quad E_r \propto e^{i(k_{1x}'x + k_{1z}'z - \omega t)}, \quad E_t \propto e^{i(k_{2x}x + k_{2z}z - \omega t)}
+$$
 
 At $z = 0$The tangential field must be continuous for all $x$ and $t$:
 $k_{1x} = k_{1x}' = k_{2x}$I.e., $k_1\sin\theta_i = k_1\sin\theta_r = k_2\sin\theta_t$. Since
@@ -169,22 +183,34 @@ Amplitude reflection and transmission coefficients.
 **s-polarisation** ($\mathbf{E}$ perpendicular to the plane of incidence, along $\hat{\mathbf{y}}$):
 The tangential components of $\mathbf{E}$ and $\mathbf{H}$ give:
 
-$$r_s = \frac{E_{0r}}{E_{0i}} = \frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}$$
+$$
+r_s = \frac{E_{0r}}{E_{0i}} = \frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}
+$$
 
-$$t_s = \frac{E_{0t}}{E_{0i}} = \frac{2n_1\cos\theta_i}{n_1\cos\theta_i + n_2\cos\theta_t}$$
+$$
+t_s = \frac{E_{0t}}{E_{0i}} = \frac{2n_1\cos\theta_i}{n_1\cos\theta_i + n_2\cos\theta_t}
+$$
 
 **p-polarisation** ($\mathbf{E}$ parallel to the plane of incidence): The tangential components of
 $\mathbf{E}$ and $\mathbf{H}$ give:
 
-$$r_p = \frac{E_{0r}}{E_{0i}} = \frac{n_2\cos\theta_i - n_1\cos\theta_t}{n_2\cos\theta_i + n_1\cos\theta_t}$$
+$$
+r_p = \frac{E_{0r}}{E_{0i}} = \frac{n_2\cos\theta_i - n_1\cos\theta_t}{n_2\cos\theta_i + n_1\cos\theta_t}
+$$
 
-$$t_p = \frac{E_{0t}}{E_{0i}} = \frac{2n_1\cos\theta_i}{n_2\cos\theta_i + n_1\cos\theta_t}$$
+$$
+t_p = \frac{E_{0t}}{E_{0i}} = \frac{2n_1\cos\theta_i}{n_2\cos\theta_i + n_1\cos\theta_t}
+$$
 
 **Reflectance and transmittance** (energy fractions):
 
-$$R_s = |r_s|^2, \quad T_s = \frac{n_2\cos\theta_t}{n_1\cos\theta_i}|t_s|^2, \quad R_s + T_s = 1$$
+$$
+R_s = |r_s|^2, \quad T_s = \frac{n_2\cos\theta_t}{n_1\cos\theta_i}|t_s|^2, \quad R_s + T_s = 1
+$$
 
-$$R_p = |r_p|^2, \quad T_p = \frac{n_2\cos\theta_t}{n_1\cos\theta_i}|t_p|^2, \quad R_p + T_p = 1$$
+$$
+R_p = |r_p|^2, \quad T_p = \frac{n_2\cos\theta_t}{n_1\cos\theta_i}|t_p|^2, \quad R_p + T_p = 1
+$$
 
 At **normal incidence** ($\theta_i = 0$): $r_s = r_p = (n_1 - n_2)/(n_1 + n_2)$ and
 $R = [(n_1 - n_2)/(n_1 + n_2)]^2$.
@@ -222,7 +248,9 @@ Interchangeable.
 When light travels from a denser to a rarer medium ($n_1 \gt n_2$) and the angle of incidence
 Exceeds the **critical angle**:
 
-$$\theta_c = \arcsin\!\left(\frac{n_2}{n_1}\right)$$
+$$
+\theta_c = \arcsin\!\left(\frac{n_2}{n_1}\right)
+$$
 
 Snell's law gives $\sin\theta_t = (n_1/n_2)\sin\theta_i \gt 1$ So $\theta_t$ becomes complex. Writing
 $\cos\theta_t = i\sqrt{\sin^2\theta_t - 1}$The Fresnel coefficients become complex with
@@ -230,11 +258,15 @@ $|r_s|^2 = |r_p|^2 = 1$: all energy is reflected.
 
 The transmitted field becomes an **evanescent wave**:
 
-$$E_t \propto e^{-\kappa z}\, e^{i(k_x x - \omega t)}$$
+$$
+E_t \propto e^{-\kappa z}\, e^{i(k_x x - \omega t)}
+$$
 
 Where:
 
-$$\kappa = k_0\sqrt{n_1^2\sin^2\theta_i - n_2^2}, \quad k_x = k_0 n_1\sin\theta_i$$
+$$
+\kappa = k_0\sqrt{n_1^2\sin^2\theta_i - n_2^2}, \quad k_x = k_0 n_1\sin\theta_i
+$$
 
 The field decays exponentially with penetration depth $\delta = 1/\kappa$ into the second medium,
 But propagates without loss along the interface. No net energy is transported across the boundary

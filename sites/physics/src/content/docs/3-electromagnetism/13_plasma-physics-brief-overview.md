@@ -21,13 +21,17 @@ description: "A plasma screens electric fields over the : Comprehensive educatio
 
 A plasma screens electric fields over the **Debye length**:
 
-$$\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}}$$
+$$
+\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}}
+$$
 
 For $n_e = 10^{18}$ m$^{-3}$, $T = 10^4$ K: $\lambda_D = 7.4 \times 10^{-5}$ m $= 74\,\mu$M.
 
 The plasma frequency:
 
-$$\omega_p = \sqrt{\frac{n_e e^2}{m_e \varepsilon_0}}$$
+$$
+\omega_p = \sqrt{\frac{n_e e^2}{m_e \varepsilon_0}}
+$$
 
 For $n_e = 10^{18}$ m$^{-3}$: $\omega_p = 5.64 \times 10^{10}$ rad/s, $f_p = 8.98$ GHz. EM waves
 with $\omega < \omega_p$ cannot propagate (evanescent).
@@ -36,7 +40,9 @@ with $\omega < \omega_p$ cannot propagate (evanescent).
 
 Small displacements of the electron cloud create restoring forces, leading to **Langmuir waves**:
 
-$$\omega_{\text{Langmuir} = \omega_p\left(1 + \frac{3k_BT}{2m_e}\frac{k^2}{\omega_p^2}\right)^{-1/2}}$$
+$$
+\omega_{\text{Langmuir} = \omega_p\left(1 + \frac{3k_BT}{2m_e}\frac{k^2}{\omega_p^2}\right)^{-1/2}}
+$$
 
 At long wavelengths ($k \to 0$): $\omega \to \omega_p$ (undamped). With ion motion: the ion-acoustic
 wave has $\omega^2 = k^2 c_s^2/(1 + k^2\lambda_D^2)$ where $c_s = \sqrt{k_BT/m_i}$.
@@ -142,9 +148,13 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 
 **Solution.**
 
-$$\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}} = \sqrt{\frac{(8.85\times10^{-12})(1.38\times10^{-23})(10^6)}{(10^{14})(1.6\times10^{-19})^2}}$$
+$$
+\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}} = \sqrt{\frac{(8.85\times10^{-12})(1.38\times10^{-23})(10^6)}{(10^{14})(1.6\times10^{-19})^2}}
+$$
 
-$$\lambda_D \approx \sqrt{\frac{1.22\times10^{-28}}{2.56\times10^{-24}}} = \sqrt{4.77\times10^{-5}} \approx 6.9\times10^{-3}\;\mathrm{m} = 6.9\;\mathrm{mm}$$
+$$
+\lambda_D \approx \sqrt{\frac{1.22\times10^{-28}}{2.56\times10^{-24}}} = \sqrt{4.77\times10^{-5}} \approx 6.9\times10^{-3}\;\mathrm{m} = 6.9\;\mathrm{mm}
+$$
 
 The Debye sphere volume is $\frac{4}{3}\pi\lambda_D^3 \approx 1.38\times10^{-6}$ m$^3$, containing $N_D = n_e \cdot \frac{4}{3}\pi\lambda_D^3 \approx 10^{14} \times 1.38\times10^{-6} \approx 1.4\times10^8$ electrons. Since $N_D \gg 1$, the corona satisfies the plasma criterion for collective behaviour.
 

@@ -41,7 +41,9 @@ By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientat
 
 A **Möbius transformation** (or linear fractional transformation) is
 
-$$T(z) = \frac{az + b}{cz + d}, \quad ad - bc \neq 0$$
+$$
+T(z) = \frac{az + b}{cz + d}, \quad ad - bc \neq 0
+$$
 
 **Proposition 10.1.** Möbius transformations are conformal (where defined) and map circles and lines
 To circles and lines.
@@ -53,7 +55,9 @@ $T(z_2) = w_2$, $T(z_3) = w_3$.
 
 **Definition.** The **cross-ratio** of four distinct points $z_1, z_2, z_3, z_4$ is
 
-$$(z_1, z_2, z_3, z_4) = \frac{(z_1 - z_3)(z_2 - z_4)}{(z_1 - z_4)(z_2 - z_3)}$$
+$$
+(z_1, z_2, z_3, z_4) = \frac{(z_1 - z_3)(z_2 - z_4)}{(z_1 - z_4)(z_2 - z_3)}
+$$
 
 **Proposition 10.3.** The cross-ratio is invariant under Möbius transformations:
 $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$.
@@ -61,7 +65,9 @@ $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$.
 **Proposition 10.4.** The unique Möbius transformation sending $z_1 \mapsto 0$, $z_2 \mapsto 1$
 $z_3 \mapsto \infty$ is
 
-$$T(z) = \frac{(z - z_1)(z_2 - z_3)}{(z - z_3)(z_2 - z_1)}$$
+$$
+T(z) = \frac{(z - z_1)(z_2 - z_3)}{(z - z_3)(z_2 - z_1)}
+$$
 
 ### 10.6 Classification of Möbius Transformations
 
@@ -139,7 +145,9 @@ mapping the domain to a half-plane or disk, solving there, and mapping back.
 **Solution.** The complex potential for uniform flow past a circle of radius $R$ centered at the
 origin is:
 
-$$w(\zeta) = U\left(\zeta + \frac{R^2}{\zeta}\right)$$
+$$
+w(\zeta) = U\left(\zeta + \frac{R^2}{\zeta}\right)
+$$
 
 The Joukowski transform $z = \zeta + \frac{1}{\zeta}$ maps the circle $|\zeta| = R$ to an ellipse
 (or airfoil for $R$ near 1 with slight offset). Substituting $\zeta$ as a function of $z$ and
@@ -147,7 +155,9 @@ composing gives the flow past the transformed body.
 
 The velocity components are obtained from:
 
-$$v_x - iv_y = \frac{dw}{dz} = \frac{dw}{d\zeta}\cdot\frac{d\zeta}{dz}$$
+$$
+v_x - iv_y = \frac{dw}{dz} = \frac{dw}{d\zeta}\cdot\frac{d\zeta}{dz}
+$$
 
 At infinity, $v_x = U$ and $v_y = 0$ (uniform flow). On the cylinder surface, the flow is tangent
 to the boundary (no penetration condition). $\blacksquare$

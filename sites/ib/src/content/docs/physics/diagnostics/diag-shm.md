@@ -64,14 +64,18 @@ makes it anharmonic. The motion is approximately SHM only when $bx^3 \ll kx$I.e.
 
 (b) The equation of motion for a simple pendulum is:
 
-$$\frac{d^2\theta}{dt^2} + \frac{g}{L}\sin\theta = 0$$
+$$
+\frac{d^2\theta}{dt^2} + \frac{g}{L}\sin\theta = 0
+$$
 
 For SHM, we need $a = -\omega^2 x$ (or $\ddot{\theta} = -\omega^2 \theta$), which requires
 $\sin\theta \approx \theta$ (small angle approximation).
 
 Using $\sin\theta = \theta - \theta^3/6 + \ldots$The exact equation is:
 
-$$\ddot{\theta} = -\frac{g}{L}\theta + \frac{g}{6L}\theta^3 - \ldots$$
+$$
+\ddot{\theta} = -\frac{g}{L}\theta + \frac{g}{6L}\theta^3 - \ldots
+$$
 
 This is SHM only when $\theta$ is small enough that $\theta^3/6 \ll \theta$I.e.
 $\theta \ll \sqrt{6} \approx 2.45\,\text{rad}$ (about $140^\circ$). For practical purposes,
@@ -83,11 +87,15 @@ $T = 2\pi\sqrt{L/g}$ only in the small angle limit.
 (c) If the liquid is displaced by $x$ in one arm, the height difference between the two arms is
 $2x$. The restoring force is the weight of the excess liquid column:
 
-$$F = -\rho A(2x)g = -2\rho Ag x$$
+$$
+F = -\rho A(2x)g = -2\rho Ag x
+$$
 
 Total mass of oscillating liquid: $m = \rho \times 2AL$ (where $L$ is the total length of liquid).
 
-$$a = \frac{F}{m} = \frac{-2\rho Ag x}{2\rho AL} = -\frac{g}{L}x$$
+$$
+a = \frac{F}{m} = \frac{-2\rho Ag x}{2\rho AL} = -\frac{g}{L}x
+$$
 
 This is of the form $a = -\omega^2 x$ with $\omega^2 = g/L$.
 
@@ -124,7 +132,9 @@ conservative." Is this claim correct? Justify your answer.
 
 (a) **Total energy** (at maximum displacement, all PE):
 
-$$E = \frac{1}{2}kA^2 = \frac{1}{2} \times 200 \times 0.01 = 1.0\,\text{J}$$
+$$
+E = \frac{1}{2}kA^2 = \frac{1}{2} \times 200 \times 0.01 = 1.0\,\text{J}
+$$
 
 **Maximum KE** = $E = 1.0\,\text{J}$ (at equilibrium)
 
@@ -132,19 +142,29 @@ $$E = \frac{1}{2}kA^2 = \frac{1}{2} \times 200 \times 0.01 = 1.0\,\text{J}$$
 
 **Speed at equilibrium** (all energy is KE):
 
-$$\frac{1}{2}mv^2 = 1.0 \Rightarrow v = \sqrt{\frac{2.0}{0.50}} = \sqrt{4.0} = 2.0\,\text{m}\,\text{s}^{-1}$$
+$$
+\frac{1}{2}mv^2 = 1.0 \Rightarrow v = \sqrt{\frac{2.0}{0.50}} = \sqrt{4.0} = 2.0\,\text{m}\,\text{s}^{-1}
+$$
 
 (b) KE = PE when:
 
-$$\frac{1}{2}mv^2 = \frac{1}{2}kx^2$$
+$$
+\frac{1}{2}mv^2 = \frac{1}{2}kx^2
+$$
 
 Since $E = \frac{1}{2}mv^2 + \frac{1}{2}kx^2$ and KE = PE:
 
-$$\frac{1}{2}kx^2 = \frac{E}{2} = 0.50\,\text{J}$$
+$$
+\frac{1}{2}kx^2 = \frac{E}{2} = 0.50\,\text{J}
+$$
 
-$$x^2 = \frac{1.0}{200} = 0.005$$
+$$
+x^2 = \frac{1.0}{200} = 0.005
+$$
 
-$$x = \pm 0.0707\,\text{m} = \pm \frac{A}{\sqrt{2}} = \pm 0.10\sqrt{0.5} = \pm 0.0707\,\text{m}$$
+$$
+x = \pm 0.0707\,\text{m} = \pm \frac{A}{\sqrt{2}} = \pm 0.10\sqrt{0.5} = \pm 0.0707\,\text{m}
+$$
 
 The KE equals PE at displacement $x = \pm A/\sqrt{2}$.
 
@@ -191,23 +211,39 @@ System 2: $x_2 = 0.05\cos(4\pi t + \pi/3)$
 
 (b) The resultant amplitude of the superposition of two SHMs with the same frequency is:
 
-$$A_R = \sqrt{A_1^2 + A_2^2 + 2A_1A_2\cos\phi}$$
+$$
+A_R = \sqrt{A_1^2 + A_2^2 + 2A_1A_2\cos\phi}
+$$
 
-$$A_R = \sqrt{0.08^2 + 0.05^2 + 2 \times 0.08 \times 0.05 \times \cos(\pi/3)}$$
+$$
+A_R = \sqrt{0.08^2 + 0.05^2 + 2 \times 0.08 \times 0.05 \times \cos(\pi/3)}
+$$
 
-$$= \sqrt{0.0064 + 0.0025 + 2 \times 0.08 \times 0.05 \times 0.5}$$
+$$
+= \sqrt{0.0064 + 0.0025 + 2 \times 0.08 \times 0.05 \times 0.5}
+$$
 
-$$= \sqrt{0.0064 + 0.0025 + 0.004}$$
+$$
+= \sqrt{0.0064 + 0.0025 + 0.004}
+$$
 
-$$= \sqrt{0.0129} = 0.1136\,\text{m}$$
+$$
+= \sqrt{0.0129} = 0.1136\,\text{m}
+$$
 
 (c) The phase of the resultant relative to system 1:
 
-$$\tan\delta = \frac{A_2\sin\phi}{A_1 + A_2\cos\phi} = \frac{0.05\sin(\pi/3)}{0.08 + 0.05\cos(\pi/3)}$$
+$$
+\tan\delta = \frac{A_2\sin\phi}{A_1 + A_2\cos\phi} = \frac{0.05\sin(\pi/3)}{0.08 + 0.05\cos(\pi/3)}
+$$
 
-$$= \frac{0.05 \times 0.866}{0.08 + 0.05 \times 0.5} = \frac{0.0433}{0.105} = 0.412$$
+$$
+= \frac{0.05 \times 0.866}{0.08 + 0.05 \times 0.5} = \frac{0.0433}{0.105} = 0.412
+$$
 
-$$\delta = \tan^{-1}(0.412) = 0.391\,\text{rad} = 22.4^\circ$$
+$$
+\delta = \tan^{-1}(0.412) = 0.391\,\text{rad} = 22.4^\circ
+$$
 
 The resultant oscillation: $x_R = 0.114\cos(4\pi t + 0.391)$
 
@@ -298,9 +334,13 @@ Since $\zeta \lt 1$The system is **underdamped**.
 
 (b) The resonant frequency (where amplitude is maximum) is:
 
-$$\omega_r = \sqrt{\omega_0^2 - 2\gamma^2} = \sqrt{100 - 2 \times 0.25} = \sqrt{99.5} = 9.975\,\text{rad}\,\text{s}^{-1}$$
+$$
+\omega_r = \sqrt{\omega_0^2 - 2\gamma^2} = \sqrt{100 - 2 \times 0.25} = \sqrt{99.5} = 9.975\,\text{rad}\,\text{s}^{-1}
+$$
 
-$$f_r = \frac{\omega_r}{2\pi} = \frac{9.975}{2\pi} = 1.588\,\text{Hz}$$
+$$
+f_r = \frac{\omega_r}{2\pi} = \frac{9.975}{2\pi} = 1.588\,\text{Hz}
+$$
 
 Note: the resonant frequency is slightly less than the natural frequency ($1.588\,\text{Hz}$ vs
 $1.59\,\text{Hz}$). This difference is small because the damping is light ($\zeta = 0.05$). For
@@ -310,7 +350,9 @@ heavier damping, the shift would be more pronounced.
 
 The amplitude decays as $A(t) = A_0 e^{-\gamma t}$. The time for amplitude to reach $A_0/e$:
 
-$$e^{-\gamma t} = e^{-1} \Rightarrow \gamma t = 1 \Rightarrow t = 1/\gamma = 2.0\,\text{s}$$
+$$
+e^{-\gamma t} = e^{-1} \Rightarrow \gamma t = 1 \Rightarrow t = 1/\gamma = 2.0\,\text{s}
+$$
 
 Number of oscillations in this time: $n = f_0 \times t = 1.59 \times 2.0 = 3.18$
 
@@ -350,25 +392,33 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 (a) At equilibrium: $T = mg$ So $kx_0 = mg$:
 
-$$x_0 = \frac{mg}{k} = \frac{2.0 \times 9.81}{100} = 0.1962\,\text{m}$$
+$$
+x_0 = \frac{mg}{k} = \frac{2.0 \times 9.81}{100} = 0.1962\,\text{m}
+$$
 
 The equilibrium position is $0.1962\,\text{m}$ below the natural length.
 
 When the mass is at displacement $y$ below the equilibrium position, the net force (taking downward
 as positive):
 
-$$F = mg - k(x_0 + y) = mg - kx_0 - ky = -ky$$
+$$
+F = mg - k(x_0 + y) = mg - kx_0 - ky = -ky
+$$
 
 Since $F = ma$ and $F = -ky$:
 
-$$a = -\frac{k}{m}y$$
+$$
+a = -\frac{k}{m}y
+$$
 
 This is SHM with $\omega^2 = k/m$ and equilibrium at $x_0$.
 
 (b) The mass is released from the natural length, which is $x_0 = 0.1962\,\text{m}$ above the
 equilibrium position. So the amplitude is:
 
-$$A = x_0 = 0.1962\,\text{m}$$
+$$
+A = x_0 = 0.1962\,\text{m}
+$$
 
 Maximum speed:
 $v_{\max} = A\omega = A\sqrt{k/m} = 0.1962 \times \sqrt{50} = 0.1962 \times 7.07 = 1.387\,\text{m}\,\text{s}^{-1}$
@@ -377,18 +427,24 @@ Period: $T = 2\pi/\omega = 2\pi\sqrt{m/k} = 2\pi\sqrt{0.02} = 2\pi \times 0.1414
 
 (c) Maximum extension = equilibrium extension + amplitude:
 
-$$x_{\max} = x_0 + A = 0.1962 + 0.1962 = 0.3924\,\text{m}$$
+$$
+x_{\max} = x_0 + A = 0.1962 + 0.1962 = 0.3924\,\text{m}
+$$
 
 **Verification using energy conservation:**
 
 At the natural length (release point), all energy is gravitational PE (taking equilibrium as
 reference):
 
-$$E = mgA = 2.0 \times 9.81 \times 0.1962 = 3.851\,\text{J}$$
+$$
+E = mgA = 2.0 \times 9.81 \times 0.1962 = 3.851\,\text{J}
+$$
 
 At the lowest point (extension $x_{\max}$), all energy is elastic PE minus gravitational PE:
 
-$$\frac{1}{2}kx_{\max}^2 - mgx_{\max} = \frac{1}{2} \times 100 \times x_{\max}^2 - 19.62x_{\max}$$
+$$
+\frac{1}{2}kx_{\max}^2 - mgx_{\max} = \frac{1}{2} \times 100 \times x_{\max}^2 - 19.62x_{\max}
+$$
 
 Setting equal to initial energy (at natural length, all energy is $mgx_{\max}$... But we need to be
 careful with reference).
@@ -396,9 +452,13 @@ careful with reference).
 Using the total energy approach from the release point (natural length, zero spring PE, zero KE,
 height = $x_{\max}$ above lowest point):
 
-$$mgx_{\max} = \frac{1}{2}kx_{\max}^2$$
+$$
+mgx_{\max} = \frac{1}{2}kx_{\max}^2
+$$
 
-$$x_{\max} = \frac{2mg}{k} = 2x_0 = 0.3924\,\text{m}$$
+$$
+x_{\max} = \frac{2mg}{k} = 2x_0 = 0.3924\,\text{m}
+$$
 
 This confirms: $x_{\max} = 2x_0 = x_0 + A = 0.1962 + 0.1962 = 0.3924\,\text{m}$.
 

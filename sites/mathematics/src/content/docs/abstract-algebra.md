@@ -152,7 +152,9 @@ conjugate if and only if they have the same cycle structure.
 
 **Theorem 2.2 (Class equation).** For a finite group $G$:
 
-$$|G| = |Z(G)| + \sum_{i=1}^{r} [G : C_G(g_i)]$$
+$$
+|G| = |Z(G)| + \sum_{i=1}^{r} [G : C_G(g_i)]
+$$
 
 where $g_1, \ldots, g_r$ are representatives of the non-central conjugacy classes, and
 $C_G(g) = \{x \in G : xg = gx\}$ is the **centraliser** of $g$.
@@ -168,7 +170,9 @@ $(g, x) \mapsto g \cdot x$, satisfying $e \cdot x = x$ and $(gh) \cdot x = g \cd
 
 **Theorem 2.3 (Orbit-Stabiliser).** For $x \in X$:
 
-$$|G| = |\operatorname{Orb}(x)| \cdot |\operatorname{Stab}(x)|$$
+$$
+|G| = |\operatorname{Orb}(x)| \cdot |\operatorname{Stab}(x)|
+$$
 
 where $\operatorname{Orb}(x) = \{g \cdot x : g \in G\}$ is the orbit and
 $\operatorname{Stab}(x) = \{g \in G : g \cdot x = x\}$ is the stabiliser.
@@ -200,7 +204,9 @@ A homomorphism is:
 
 **Theorem 3.1 (First Isomorphism Theorem).** If $\phi : G \to H$ is a group homomorphism, then
 
-$$G/\ker(\phi) \cong \operatorname{im}(\phi).$$
+$$
+G/\ker(\phi) \cong \operatorname{im}(\phi).
+$$
 
 This is the fundamental link between homomorphisms and quotient groups. Every normal subgroup
 $N \triangleleft G$ arises as the kernel of the natural projection $\pi : G \to G/N$.
@@ -438,7 +444,9 @@ set $\operatorname{Aut}(K)$ of all automorphisms of $K$ forms a group under comp
 
 For a field extension $K/F$, define
 
-$$\operatorname{Aut}(K/F) = \{\sigma \in \operatorname{Aut}(K) : \sigma(a) = a \text{ for all } a \in F\}.$$
+$$
+\operatorname{Aut}(K/F) = \{\sigma \in \operatorname{Aut}(K) : \sigma(a) = a \text{ for all } a \in F\}.
+$$
 
 ### 6.2 Galois Extensions
 
@@ -462,12 +470,16 @@ automorphisms determined by the signs on $\sqrt{2}$ and $\sqrt{3}$.
 $\mathbb{Q}(\sqrt[3]{2}, \omega)$ where $\omega = e^{2\pi i/3}$, with degree
 $[\mathbb{Q}(\sqrt[3]{2}, \omega) : \mathbb{Q}] = 6$.
 
-$$\operatorname{Gal}(\mathbb{Q}(\sqrt[3]{2}, \omega)/\mathbb{Q}) \cong S_3$$
+$$
+\operatorname{Gal}(\mathbb{Q}(\sqrt[3]{2}, \omega)/\mathbb{Q}) \cong S_3
+$$
 
 The six automorphisms permute the three roots $\sqrt[3]{2}, \omega\sqrt[3]{2}, \omega^2\sqrt[3]{2}$.
 The intermediate fields are:
 
-$$\mathbb{Q} \subset \mathbb{Q}(\omega) \subset \mathbb{Q}(\sqrt[3]{2}, \omega), \qquad \mathbb{Q} \subset \mathbb{Q}(\sqrt[3]{2}) \subset \mathbb{Q}(\sqrt[3]{2}, \omega), \qquad \mathbb{Q} \subset \mathbb{Q}(\omega\sqrt[3]{2}) \subset \mathbb{Q}(\sqrt[3]{2}, \omega)$$
+$$
+\mathbb{Q} \subset \mathbb{Q}(\omega) \subset \mathbb{Q}(\sqrt[3]{2}, \omega), \qquad \mathbb{Q} \subset \mathbb{Q}(\sqrt[3]{2}) \subset \mathbb{Q}(\sqrt[3]{2}, \omega), \qquad \mathbb{Q} \subset \mathbb{Q}(\omega\sqrt[3]{2}) \subset \mathbb{Q}(\sqrt[3]{2}, \omega)
+$$
 
 Only $\mathbb{Q}(\omega)/\mathbb{Q}$ is Galois among the proper intermediate extensions
 (corresponding to the unique normal subgroup $A_3 \triangleleft S_3$).
@@ -477,7 +489,9 @@ Only $\mathbb{Q}(\omega)/\mathbb{Q}$ is Galois among the proper intermediate ext
 **Theorem 6.1 (Fundamental Theorem of Galois Theory).** Let $K/F$ be a Galois extension with Galois
 group $G = \operatorname{Gal}(K/F)$. Then there is a one-to-one, order-reversing correspondence:
 
-$$\{\text{Intermediate fields } F \subseteq E \subseteq K\} \longleftrightarrow \{\text{Subgroups } H \subseteq G\}$$
+$$
+\{\text{Intermediate fields } F \subseteq E \subseteq K\} \longleftrightarrow \{\text{Subgroups } H \subseteq G\}
+$$
 
 given by $E \mapsto \operatorname{Gal}(K/E)$ and $H \mapsto K^H$ (the fixed field of $H$),
 satisfying:
@@ -493,7 +507,9 @@ using only the operations $+$, $-$, $\times$, $\div$, and $n$-th roots.
 
 A group $G$ is **solvable** if there exists a chain of subgroups
 
-$$G = G_0 \trianglerighteq G_1 \trianglerighteq \cdots \trianglerighteq G_n = \{e\}$$
+$$
+G = G_0 \trianglerighteq G_1 \trianglerighteq \cdots \trianglerighteq G_n = \{e\}
+$$
 
 where each $G_{i+1}$ is normal in $G_i$ and each quotient $G_i/G_{i+1}$ is cyclic of prime order.
 

@@ -66,7 +66,9 @@ The inequality follows from $\mathrm{Re}(z\bar{w}) \leq |z\bar{w}| = |z||w|$. $\
 
 Every non-zero complex number can be written in **polar form**:
 
-$$z = r(\cos\theta + i\sin\theta) = re^{i\theta}$$
+$$
+z = r(\cos\theta + i\sin\theta) = re^{i\theta}
+$$
 
 Where $r = |z| = \sqrt{a^2 + b^2}$ is the **modulus** and $\theta = \arg(z)$ is the **argument**.
 
@@ -119,7 +121,9 @@ $z = 5\,e^{i(\pi + \arctan(4/3))}$.
 
 **De Moivre's theorem:** $(e^{i\theta})^n = e^{in\theta}$ So
 
-$$(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)$$
+$$
+(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)
+$$
 
 **Proposition 1.5.** De Moivre's theorem holds for all integers $n$Including negative values.
 
@@ -174,7 +178,9 @@ Taking real parts gives the result.
 **Proposition 1.6.** Every non-zero $w \in \mathbb{C}$ has exactly $n$ distinct $n$-th roots. If
 $w = \rho\, e^{i\phi}$ Then
 
-$$z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n}, \quad k = 0, 1, \ldots, n - 1$$
+$$
+z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n}, \quad k = 0, 1, \ldots, n - 1
+$$
 
 Where $\rho^{1/n} \gt 0$ is the positive real $n$-th root of $\rho$.
 
@@ -189,7 +195,9 @@ Regular $n$-gon.
 
 The $n$-th roots of unity are the solutions of $z^n = 1$:
 
-$$z_k = e^{2\pi i k / n}, \quad k = 0, 1, \ldots, n - 1$$
+$$
+z_k = e^{2\pi i k / n}, \quad k = 0, 1, \ldots, n - 1
+$$
 
 They form a regular $n$-gon on the unit circle in the complex plane.
 

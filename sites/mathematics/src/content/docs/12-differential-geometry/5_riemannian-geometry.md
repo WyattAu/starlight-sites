@@ -22,7 +22,9 @@ description: 'A on a smooth manifold is a smooth family of inner products Compre
 A **Riemannian metric** on a smooth manifold $M$ is a smooth family of inner products
 $g_p : T_p M \times T_p M \to \mathbb{R}$, varying smoothly with $p$. In local coordinates:
 
-$$g = g_{ij}(x)\, dx^i \otimes dx^j$$
+$$
+g = g_{ij}(x)\, dx^i \otimes dx^j
+$$
 
 where $g_{ij} = g\left(\frac{\partial}{\partial x^i}, \frac{\partial}{\partial x^j}\right)$ forms a
 symmetric positive-definite matrix.
@@ -48,11 +50,15 @@ and **torsion-free** ($\nabla_X Y - \nabla_Y X = [X, Y]$).
 In local coordinates, the Levi-Civita connection is determined by the **Christoffel symbols**
 $\Gamma^k_{ij}$:
 
-$$\nabla_{\frac{\partial}{\partial x^i}} \frac{\partial}{\partial x^j} = \Gamma^k_{ij} \frac{\partial}{\partial x^k}$$
+$$
+\nabla_{\frac{\partial}{\partial x^i}} \frac{\partial}{\partial x^j} = \Gamma^k_{ij} \frac{\partial}{\partial x^k}
+$$
 
 These are given by:
 
-$$\Gamma^k_{ij} = \frac{1}{2} g^{k\ell}\left(\frac{\partial g_{j\ell}}{\partial x^i} + \frac{\partial g_{i\ell}}{\partial x^j} - \frac{\partial g_{ij}}{\partial x^\ell}\right)$$
+$$
+\Gamma^k_{ij} = \frac{1}{2} g^{k\ell}\left(\frac{\partial g_{j\ell}}{\partial x^i} + \frac{\partial g_{i\ell}}{\partial x^j} - \frac{\partial g_{ij}}{\partial x^\ell}\right)
+$$
 
 where $(g^{k\ell})$ is the inverse matrix of $(g_{k\ell})$.
 
@@ -60,11 +66,15 @@ where $(g^{k\ell})$ is the inverse matrix of $(g_{k\ell})$.
 
 A **geodesic** is a curve $\gamma : I \to M$ with zero acceleration:
 
-$$\nabla_{\dot\gamma} \dot\gamma = 0$$
+$$
+\nabla_{\dot\gamma} \dot\gamma = 0
+$$
 
 In local coordinates, this gives the geodesic equation:
 
-$$\ddot\gamma^k + \Gamma^k_{ij} \dot\gamma^i \dot\gamma^j = 0$$
+$$
+\ddot\gamma^k + \Gamma^k_{ij} \dot\gamma^i \dot\gamma^j = 0
+$$
 
 **Proposition 5.2.** For any $p \in M$ and $v \in T_p M$, there exists a unique geodesic
 $\gamma_v : I_v \to M$ with $\gamma_v(0) = p$ and $\dot\gamma_v(0) = v$.
@@ -81,7 +91,9 @@ $\Gamma^\theta_{\phi\phi} = \tan\theta$ and $\Gamma^\phi_{\theta\phi} = \Gamma^\
 
 The **Riemann curvature tensor** $R : \mathfrak{X}(M) \times \mathfrak{X}(M) \times \mathfrak{X}(M) \to \mathfrak{X}(M)$ is defined by:
 
-$$R(X, Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z$$
+$$
+R(X, Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z
+$$
 
 **Proposition 5.3 (Symmetries).** For any vector fields $X, Y, Z, W$:
 
@@ -93,19 +105,25 @@ $$R(X, Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z$$
 
 In local coordinates, the components are:
 
-$$R^\ell_{ijk} = \partial_i \Gamma^\ell_{jk} - \partial_j \Gamma^\ell_{ik} + \Gamma^m_{jk} \Gamma^\ell_{im} - \Gamma^m_{ik} \Gamma^\ell_{jm}$$
+$$
+R^\ell_{ijk} = \partial_i \Gamma^\ell_{jk} - \partial_j \Gamma^\ell_{ik} + \Gamma^m_{jk} \Gamma^\ell_{im} - \Gamma^m_{ik} \Gamma^\ell_{jm}
+$$
 
 ### 5.6 Sectional, Ricci, and Scalar Curvature
 
 Let $\Pi \subseteq T_p M$ be a 2-dimensional subspace spanned by $v, w \in T_p M$. The **sectional curvature** is:
 
-$$K(\Pi) = \frac{\langle R(v, w)w, v\rangle}{|v|^2|w|^2 - \langle v, w\rangle^2}$$
+$$
+K(\Pi) = \frac{\langle R(v, w)w, v\rangle}{|v|^2|w|^2 - \langle v, w\rangle^2}
+$$
 
 **Proposition 5.4.** Sectional curvature determines the full Riemann curvature tensor.
 
 The **Ricci curvature** is the trace of the Riemann tensor:
 
-$$\mathrm{Ric}(X, Y) = \sum_{i=1}^n \langle R(X, e_i)Y, e_i\rangle$$
+$$
+\mathrm{Ric}(X, Y) = \sum_{i=1}^n \langle R(X, e_i)Y, e_i\rangle
+$$
 
 where $\{e_i\}$ is an orthonormal basis. In components: $R_{ij} = R^k_{ikj}$.
 
@@ -125,7 +143,9 @@ $\mathbb{H}^2 = \{(x, y) \in \mathbb{R}^2 : y > 0\}$ with metric $g = (dx^2 + dy
 *Solution.* The metric components are $g_{xx} = g_{yy} = 1/y^2$, $g_{xy} = 0$. The inverse metric is
 $g^{xx} = g^{yy} = y^2$, $g^{xy} = 0$. Using $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})$:
 
-$$\Gamma^x_{xy} = \Gamma^x_{yx} = -\frac{1}{y}, \quad \Gamma^y_{xx} = \frac{1}{y}, \quad \Gamma^y_{yy} = -\frac{1}{y}$$
+$$
+\Gamma^x_{xy} = \Gamma^x_{yx} = -\frac{1}{y}, \quad \Gamma^y_{xx} = \frac{1}{y}, \quad \Gamma^y_{yy} = -\frac{1}{y}
+$$
 
 All other Christoffel symbols vanish. The geodesic equation gives: curves that are semicircles centered
 on the $x$-axis or vertical lines. $\blacksquare$

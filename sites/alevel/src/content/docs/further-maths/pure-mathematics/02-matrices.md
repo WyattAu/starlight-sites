@@ -77,7 +77,9 @@ Associative.
 $\mathbf{B} \in M_{p \times n}(\mathbb{R})$The product $\mathbf{AB} \in M_{m \times n}(\mathbb{R})$
 is defined by:
 
-$$\boxed{(\mathbf{AB})_{ij} = \sum_{k=1}^{p} a_{ik}\, b_{kj}}$$
+$$
+\boxed{(\mathbf{AB})_{ij} = \sum_{k=1}^{p} a_{ik}\, b_{kj}}
+$$
 
 Matrix multiplication is associative but **not commutative** : $\mathbf{AB} \neq \mathbf{BA}$.
 
@@ -97,7 +99,9 @@ The rightmost matrix is applied first.
 
 **Definition.** For $\mathbf{A} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
 
-$$\boxed{\det(\mathbf{A}) = ad - bc}$$
+$$
+\boxed{\det(\mathbf{A}) = ad - bc}
+$$
 
 ### 2.2 The $3 \times 3$ Determinant
 
@@ -105,7 +109,9 @@ $$\boxed{\det(\mathbf{A}) = ad - bc}$$
 $\mathbf{A} = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix}$
 The determinant is computed by _cofactor expansion_ along any row or column:
 
-$$\boxed{\det(\mathbf{A}) = a_{11}\begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix} - a_{12}\begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix} + a_{13}\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}}$$
+$$
+\boxed{\det(\mathbf{A}) = a_{11}\begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix} - a_{12}\begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix} + a_{13}\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}}
+$$
 
 The signs alternate $+$, $-$, $+$ along the first row (following the checkerboard pattern).
 
@@ -125,7 +131,9 @@ For $n \times n$ matrices $\mathbf{A}, \mathbf{B}$ and scalar $k$:
 Let $\mathbf{A} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ and
 $\mathbf{B} = \begin{pmatrix} e & f \\ g & h \end{pmatrix}$.
 
-$$\mathbf{AB} = \begin{pmatrix} ae + bg & af + bh \\ ce + dg & cf + dh \end{pmatrix}$$
+$$
+\mathbf{AB} = \begin{pmatrix} ae + bg & af + bh \\ ce + dg & cf + dh \end{pmatrix}
+$$
 
 $$
 \begin{aligned}
@@ -149,7 +157,9 @@ Determinants multiply.
 **Definition.** The _inverse_ of a square matrix $\mathbf{A}$Written $\mathbf{A}^{-1}$Is the Unique
 matrix satisfying:
 
-$$\mathbf{A}\mathbf{A}^{-1} = \mathbf{A}^{-1}\mathbf{A} = \mathbf{I}$$
+$$
+\mathbf{A}\mathbf{A}^{-1} = \mathbf{A}^{-1}\mathbf{A} = \mathbf{I}
+$$
 
 An inverse exists if and only if $\det(\mathbf{A}) \neq 0$. Such a matrix is called _non-singular_.
 
@@ -158,13 +168,17 @@ An inverse exists if and only if $\det(\mathbf{A}) \neq 0$. Such a matrix is cal
 For $\mathbf{A} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ with
 $\det(\mathbf{A}) = ad - bc \neq 0$:
 
-$$\boxed{\mathbf{A}^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}}$$
+$$
+\boxed{\mathbf{A}^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}}
+$$
 
 ### 3.2 The Adjugate Method ($3 \times 3$)
 
 For a $3 \times 3$ matrix $\mathbf{A}$:
 
-$$\boxed{\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})}\operatorname{adj}(\mathbf{A})}$$
+$$
+\boxed{\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})}\operatorname{adj}(\mathbf{A})}
+$$
 
 Where the _adjugate_ (or _adjoint_) matrix $\operatorname{adj}(\mathbf{A})$ is the transpose of the
 _cofactor matrix_.
@@ -177,7 +191,9 @@ $C_{ij}$ And $\operatorname{adj}(\mathbf{A}) = (C_{ij})^T$.
 
 Suppose $\mathbf{B}$ and $\mathbf{C}$ are both inverses of $\mathbf{A}$. Then:
 
-$$\mathbf{B} = \mathbf{B}\mathbf{I} = \mathbf{B}(\mathbf{AC}) = (\mathbf{BA})\mathbf{C} = \mathbf{IC} = \mathbf{C} \quad \square$$
+$$
+\mathbf{B} = \mathbf{B}\mathbf{I} = \mathbf{B}(\mathbf{AC}) = (\mathbf{BA})\mathbf{C} = \mathbf{IC} = \mathbf{C} \quad \square
+$$
 
 :::tip
 Catches sign errors and arithmetic mistakes immediately.
@@ -201,9 +217,13 @@ C_{31} &= +\begin{vmatrix} 2 & 0 \\ 1 & 3 \end{vmatrix} = 6, \quad C_{32} &= -\b
 \end{aligned}
 $$
 
-$$\operatorname{adj}(\mathbf{A}) = \begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}$$
+$$
+\operatorname{adj}(\mathbf{A}) = \begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}
+$$
 
-$$\mathbf{A}^{-1} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}$$
+$$
+\mathbf{A}^{-1} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}
+$$
 
 </details>
 
@@ -217,7 +237,9 @@ The column vector of unknowns, and $\mathbf{b}$ is the column vector of constant
 
 If $\mathbf{A}$ is non-singular, the unique solution is:
 
-$$\boxed{\mathbf{x} = \mathbf{A}^{-1}\mathbf{b}}$$
+$$
+\boxed{\mathbf{x} = \mathbf{A}^{-1}\mathbf{b}}
+$$
 
 ### 4.1 Geometric Interpretation (2D)
 
@@ -232,7 +254,9 @@ For a $2 \times 2$ system:
 
 For a system $\mathbf{A}\mathbf{x} = \mathbf{b}$ where $\det(\mathbf{A}) \neq 0$:
 
-$$x_i = \frac{\det(\mathbf{A}_i)}{\det(\mathbf{A})}$$
+$$
+x_i = \frac{\det(\mathbf{A}_i)}{\det(\mathbf{A})}
+$$
 
 Where $\mathbf{A}_i$ is $\mathbf{A}$ with column $i$ replaced by $\mathbf{b}$.
 
@@ -246,7 +270,9 @@ $\begin{pmatrix} 1 & 2 & 0 \\ 0 & 1 & 3 \\ 1 & 0 & 1 \end{pmatrix}\begin{pmatrix
 
 Using the inverse from the previous example:
 
-$$\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}\begin{pmatrix} 4 \\ 5 \\ 2 \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 4 - 10 + 12 \\ 12 + 5 - 6 \\ -4 + 10 + 2 \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 6 \\ 11 \\ 8 \end{pmatrix} = \begin{pmatrix} 6/7 \\ 11/7 \\ 8/7 \end{pmatrix}$$
+$$
+\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}\begin{pmatrix} 4 \\ 5 \\ 2 \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 4 - 10 + 12 \\ 12 + 5 - 6 \\ -4 + 10 + 2 \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 6 \\ 11 \\ 8 \end{pmatrix} = \begin{pmatrix} 6/7 \\ 11/7 \\ 8/7 \end{pmatrix}
+$$
 
 </details>
 
@@ -268,7 +294,9 @@ $\begin{pmatrix} x' \\ y' \end{pmatrix} = \mathbf{T}\begin{pmatrix} x \\ y \end{
 
 **Reflection in the line $y = \tan\theta\, x$:**
 
-$$\boxed{\mathbf{R} = \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}}$$
+$$
+\boxed{\mathbf{R} = \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}}
+$$
 
 ### Proof of the reflection matrix
 
@@ -276,17 +304,25 @@ The reflection of a vector in a line through the origin making angle $\theta$ wi
 Be decomposed: first rotate by $-\theta$ to align the mirror with the $x$-axis, reflect in the
 $x$-axis, then rotate back by $\theta$.
 
-$$\mathbf{R} = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}$$
+$$
+\mathbf{R} = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}
+$$
 
-$$= \begin{pmatrix} \cos\theta & \sin\theta \\ \sin\theta & -\cos\theta \end{pmatrix}\begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}$$
+$$
+= \begin{pmatrix} \cos\theta & \sin\theta \\ \sin\theta & -\cos\theta \end{pmatrix}\begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}
+$$
 
-$$= \begin{pmatrix} \cos^2\theta - \sin^2\theta & \cos\theta\sin\theta + \sin\theta\cos\theta \\ \sin\theta\cos\theta + \cos\theta\sin\theta & \sin^2\theta - \cos^2\theta \end{pmatrix} = \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix} \quad \square$$
+$$
+= \begin{pmatrix} \cos^2\theta - \sin^2\theta & \cos\theta\sin\theta + \sin\theta\cos\theta \\ \sin\theta\cos\theta + \cos\theta\sin\theta & \sin^2\theta - \cos^2\theta \end{pmatrix} = \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix} \quad \square
+$$
 
 ### 5.2 Rotation
 
 **Rotation anticlockwise by angle $\theta$ about the origin:**
 
-$$\boxed{\mathbf{R}_\theta = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}}$$
+$$
+\boxed{\mathbf{R}_\theta = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}}
+$$
 
 Note: $\det(\mathbf{R}_\theta) = \cos^2\theta + \sin^2\theta = 1$.
 
@@ -349,15 +385,21 @@ On 2D but may include basic $3\times3$ determinant and inverse calculations.
 
 **Rotation about the $x$-axis by angle $\theta$:**
 
-$$\mathbf{R}_x = \begin{pmatrix} 1 & 0 & 0 \\ 0 & \cos\theta & -\sin\theta \\ 0 & \sin\theta & \cos\theta \end{pmatrix}$$
+$$
+\mathbf{R}_x = \begin{pmatrix} 1 & 0 & 0 \\ 0 & \cos\theta & -\sin\theta \\ 0 & \sin\theta & \cos\theta \end{pmatrix}
+$$
 
 **Rotation about the $y$-axis by angle $\theta$:**
 
-$$\mathbf{R}_y = \begin{pmatrix} \cos\theta & 0 & \sin\theta \\ 0 & 1 & 0 \\ -\sin\theta & 0 & \cos\theta \end{pmatrix}$$
+$$
+\mathbf{R}_y = \begin{pmatrix} \cos\theta & 0 & \sin\theta \\ 0 & 1 & 0 \\ -\sin\theta & 0 & \cos\theta \end{pmatrix}
+$$
 
 **Rotation about the $z$-axis by angle $\theta$:**
 
-$$\mathbf{R}_z = \begin{pmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1 \end{pmatrix}$$
+$$
+\mathbf{R}_z = \begin{pmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1 \end{pmatrix}
+$$
 
 Each has $\det = 1$ and represents a rigid motion preserving distances and orientation.
 
@@ -382,7 +424,9 @@ Each has $\det = -1$Confirming orientation reversal.
 **Definition.** Let $\mathbf{A}$ be an $n \times n$ matrix. A scalar $\lambda$ is an _eigenvalue_ of
 $\mathbf{A}$ if there exists a non-zero vector $\mathbf{v}$ such that:
 
-$$\boxed{\mathbf{A}\mathbf{v} = \lambda\mathbf{v}}$$
+$$
+\boxed{\mathbf{A}\mathbf{v} = \lambda\mathbf{v}}
+$$
 
 The vector $\mathbf{v}$ is called an _eigenvector_ corresponding to $\lambda$.
 
@@ -393,7 +437,9 @@ $\mathbf{A}\mathbf{v} = \lambda\mathbf{v} \iff (\mathbf{A} - \lambda\mathbf{I})\
 For a non-trivial solution ($\mathbf{v} \neq \mathbf{0}$), we require
 $\det(\mathbf{A} - \lambda\mathbf{I}) = 0$.
 
-$$\boxed{\det(\mathbf{A} - \lambda\mathbf{I}) = 0}$$
+$$
+\boxed{\det(\mathbf{A} - \lambda\mathbf{I}) = 0}
+$$
 
 This is the _characteristic equation_ of $\mathbf{A}$. Its roots are the eigenvalues.
 
@@ -407,7 +453,9 @@ reduction.
 **Definition.** A matrix $\mathbf{A}$ is _diagonalisable_ if there exists an invertible matrix
 $\mathbf{P}$ and a diagonal matrix $\mathbf{D}$ such that:
 
-$$\boxed{\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}}$$
+$$
+\boxed{\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}}
+$$
 
 The columns of $\mathbf{P}$ are the eigenvectors of $\mathbf{A}$ And the diagonal entries of
 $\mathbf{D}$ are the corresponding eigenvalues.
@@ -428,7 +476,9 @@ $\mathbf{A} = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
 Characteristic equation:
 $\det\!\begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = 0$
 
-$$(4 - \lambda)(3 - \lambda) - 2 = \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2) = 0$$
+$$
+(4 - \lambda)(3 - \lambda) - 2 = \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2) = 0
+$$
 
 Eigenvalues: $\lambda_1 = 5$, $\lambda_2 = 2$.
 
@@ -453,15 +503,25 @@ $\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}$.
 
 ## 8. Summary of Key Results
 
-$$\boxed{\det(\mathbf{AB}) = \det(\mathbf{A})\det(\mathbf{B})}$$
+$$
+\boxed{\det(\mathbf{AB}) = \det(\mathbf{A})\det(\mathbf{B})}
+$$
 
-$$\boxed{\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})}\operatorname{adj}(\mathbf{A}) \quad \mathrm{when } \det(\mathbf{A}) \neq 0}$$
+$$
+\boxed{\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})}\operatorname{adj}(\mathbf{A}) \quad \mathrm{when } \det(\mathbf{A}) \neq 0}
+$$
 
-$$\boxed{\mathrm{Rotation by } \theta: \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}}$$
+$$
+\boxed{\mathrm{Rotation by } \theta: \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}}
+$$
 
-$$\boxed{\mathrm{Reflection in } y = (\tan\theta)x: \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}}$$
+$$
+\boxed{\mathrm{Reflection in } y = (\tan\theta)x: \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}}
+$$
 
-$$\boxed{\det(\mathbf{A} - \lambda\mathbf{I}) = 0 \implies \mathrm{eigenvalues of } \mathbf{A}}$$
+$$
+\boxed{\det(\mathbf{A} - \lambda\mathbf{I}) = 0 \implies \mathrm{eigenvalues of } \mathbf{A}}
+$$
 
 <hr />
 
@@ -480,11 +540,17 @@ Compute both products separately and subtract. They will not be equal.
 <details>
 <summary>Answer</summary>
 
-$$\mathbf{AB} = \begin{pmatrix} 3 & -1 \\ 2 & 4 \end{pmatrix}\begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix} = \begin{pmatrix} 5 & 15 \\ -6 & 10 \end{pmatrix}$$
+$$
+\mathbf{AB} = \begin{pmatrix} 3 & -1 \\ 2 & 4 \end{pmatrix}\begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix} = \begin{pmatrix} 5 & 15 \\ -6 & 10 \end{pmatrix}
+$$
 
-$$\mathbf{BA} = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}\begin{pmatrix} 3 & -1 \\ 2 & 4 \end{pmatrix} = \begin{pmatrix} 13 & 19 \\ -6 & 2 \end{pmatrix}$$
+$$
+\mathbf{BA} = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}\begin{pmatrix} 3 & -1 \\ 2 & 4 \end{pmatrix} = \begin{pmatrix} 13 & 19 \\ -6 & 2 \end{pmatrix}
+$$
 
-$$\mathbf{AB} - \mathbf{BA} = \begin{pmatrix} 5 & 15 \\ -6 & 10 \end{pmatrix} - \begin{pmatrix} 13 & 19 \\ -6 & 2 \end{pmatrix} = \begin{pmatrix} -8 & -4 \\ 0 & 8 \end{pmatrix}$$
+$$
+\mathbf{AB} - \mathbf{BA} = \begin{pmatrix} 5 & 15 \\ -6 & 10 \end{pmatrix} - \begin{pmatrix} 13 & 19 \\ -6 & 2 \end{pmatrix} = \begin{pmatrix} -8 & -4 \\ 0 & 8 \end{pmatrix}
+$$
 
 This confirms $\mathbf{AB} \neq \mathbf{BA}$.
 
@@ -519,9 +585,13 @@ C_{31} = +(2 + 2) = 4, \quad C_{32} = -(4 - 0) = -4, \quad C_{33} = +(-2 - 0) = 
 \end{aligned}
 $$
 
-$$\operatorname{adj}(\mathbf{A}) = \begin{pmatrix} -1 & -1 & 4 \\ 2 & -1 & -4 \\ 1 & 1 & -2 \end{pmatrix}$$
+$$
+\operatorname{adj}(\mathbf{A}) = \begin{pmatrix} -1 & -1 & 4 \\ 2 & -1 & -4 \\ 1 & 1 & -2 \end{pmatrix}
+$$
 
-$$\mathbf{A}^{-1} = \frac{1}{3}\begin{pmatrix} -1 & -1 & 4 \\ 2 & -1 & -4 \\ 1 & 1 & -2 \end{pmatrix}$$
+$$
+\mathbf{A}^{-1} = \frac{1}{3}\begin{pmatrix} -1 & -1 & 4 \\ 2 & -1 & -4 \\ 1 & 1 & -2 \end{pmatrix}
+$$
 
 </details>
 
@@ -543,10 +613,14 @@ Twice is the identity.
 
 $\tan\theta = \sqrt{3} \implies \theta = \dfrac{\pi}{3}$.
 
-$$\mathbf{M} = \begin{pmatrix} \cos\frac{2\pi}{3} & \sin\frac{2\pi}{3} \\ \sin\frac{2\pi}{3} & -\cos\frac{2\pi}{3} \end{pmatrix} = \begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}$$
+$$
+\mathbf{M} = \begin{pmatrix} \cos\frac{2\pi}{3} & \sin\frac{2\pi}{3} \\ \sin\frac{2\pi}{3} & -\cos\frac{2\pi}{3} \end{pmatrix} = \begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}
+$$
 
 Verification:
-$$\mathbf{M}^2 = \begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}\begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix} = \begin{pmatrix} \frac{1}{4} + \frac{3}{4} & -\frac{\sqrt{3}}{4} + \frac{\sqrt{3}}{4} \\ -\frac{\sqrt{3}}{4} + \frac{\sqrt{3}}{4} & \frac{3}{4} + \frac{1}{4} \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = \mathbf{I} \quad \square$$
+$$
+\mathbf{M}^2 = \begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}\begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix} = \begin{pmatrix} \frac{1}{4} + \frac{3}{4} & -\frac{\sqrt{3}}{4} + \frac{\sqrt{3}}{4} \\ -\frac{\sqrt{3}}{4} + \frac{\sqrt{3}}{4} & \frac{3}{4} + \frac{1}{4} \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = \mathbf{I} \quad \square
+$$
 
 </details>
 
@@ -583,7 +657,9 @@ $\det(\mathbf{T}) = 6$ And $|\det(\mathbf{T})| \times \mathrm{original area} = 6
 
 **Problem 5.** Solve the system of equations using matrices:
 
-$$\begin{cases} 2x + y - z = 3 \\ x - y + 2z = 1 \\ 3x + 2y + z = 10 \end{cases}$$
+$$
+\begin{cases} 2x + y - z = 3 \\ x - y + 2z = 1 \\ 3x + 2y + z = 10 \end{cases}
+$$
 
 <details>
 <summary>Hint</summary>
@@ -605,9 +681,13 @@ $= 2(-5) - 1(-5) - 1(5) = -10 + 5 - 5 = -10$
 Cofactors: $C_{11} = -5$$C_{12} = 5$$C_{13} = 5$$C_{21} = -3$$C_{22} = 5$$C_{23} = -1$
 $C_{31} = 1$$C_{32} = -5$$C_{33} = -3$.
 
-$$\mathbf{A}^{-1} = -\frac{1}{10}\begin{pmatrix} -5 & -3 & 1 \\ 5 & 5 & -5 \\ 5 & -1 & -3 \end{pmatrix}$$
+$$
+\mathbf{A}^{-1} = -\frac{1}{10}\begin{pmatrix} -5 & -3 & 1 \\ 5 & 5 & -5 \\ 5 & -1 & -3 \end{pmatrix}
+$$
 
-$$\mathbf{x} = -\frac{1}{10}\begin{pmatrix} -5 & -3 & 1 \\ 5 & 5 & -5 \\ 5 & -1 & -3 \end{pmatrix}\begin{pmatrix} 3 \\ 1 \\ 10 \end{pmatrix} = -\frac{1}{10}\begin{pmatrix} -15 - 3 + 10 \\ 15 + 5 - 50 \\ 15 - 1 - 30 \end{pmatrix} = -\frac{1}{10}\begin{pmatrix} -8 \\ -30 \\ -16 \end{pmatrix} = \begin{pmatrix} 4/5 \\ 3 \\ 8/5 \end{pmatrix}$$
+$$
+\mathbf{x} = -\frac{1}{10}\begin{pmatrix} -5 & -3 & 1 \\ 5 & 5 & -5 \\ 5 & -1 & -3 \end{pmatrix}\begin{pmatrix} 3 \\ 1 \\ 10 \end{pmatrix} = -\frac{1}{10}\begin{pmatrix} -15 - 3 + 10 \\ 15 + 5 - 50 \\ 15 - 1 - 30 \end{pmatrix} = -\frac{1}{10}\begin{pmatrix} -8 \\ -30 \\ -16 \end{pmatrix} = \begin{pmatrix} 4/5 \\ 3 \\ 8/5 \end{pmatrix}
+$$
 
 So $x = \dfrac{4}{5}$$y = 3$$z = \dfrac{8}{5}$.
 
@@ -679,7 +759,9 @@ $\begin{pmatrix} 4 & 4 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix
 
 Eigenvector: $\mathbf{v}_2 = \begin{pmatrix} 1 \\ -1 \end{pmatrix}$.
 
-$$\mathbf{P} = \begin{pmatrix} 4 & 1 \\ 1 & -1 \end{pmatrix}, \quad \mathbf{D} = \begin{pmatrix} 6 & 0 \\ 0 & 1 \end{pmatrix}$$
+$$
+\mathbf{P} = \begin{pmatrix} 4 & 1 \\ 1 & -1 \end{pmatrix}, \quad \mathbf{D} = \begin{pmatrix} 6 & 0 \\ 0 & 1 \end{pmatrix}
+$$
 
 </details>
 
@@ -715,7 +797,9 @@ $\mathbf{P}^{-1} = \begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix}$.
 
 $\mathbf{D}^5 = \begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}$.
 
-$$\mathbf{A}^5 = \mathbf{P}\mathbf{D}^5\mathbf{P}^{-1} = \begin{pmatrix} 1 & 2 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 1 & 64 \\ 1 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 63 & -62 \\ 31 & -30 \end{pmatrix}$$
+$$
+\mathbf{A}^5 = \mathbf{P}\mathbf{D}^5\mathbf{P}^{-1} = \begin{pmatrix} 1 & 2 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 1 & 64 \\ 1 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 63 & -62 \\ 31 & -30 \end{pmatrix}
+$$
 
 </details>
 
@@ -735,11 +819,15 @@ Use the standard formula for $\mathbf{R}_z$ with $\theta = \pi/2$.
 <details>
 <summary>Answer</summary>
 
-$$\mathbf{R}_z = \begin{pmatrix} \cos\frac{\pi}{2} & -\sin\frac{\pi}{2} & 0 \\ \sin\frac{\pi}{2} & \cos\frac{\pi}{2} & 0 \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}$$
+$$
+\mathbf{R}_z = \begin{pmatrix} \cos\frac{\pi}{2} & -\sin\frac{\pi}{2} & 0 \\ \sin\frac{\pi}{2} & \cos\frac{\pi}{2} & 0 \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}
+$$
 
 $\det(\mathbf{R}_z) = 0 \cdot (0 - 0) - (-1)(1 - 0) + 0 = 1$. ✓
 
-$$\mathbf{R}_z\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} \quad \checkmark$$
+$$
+\mathbf{R}_z\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} \quad \checkmark
+$$
 
 The $x$-axis is correctly rotated to the $y$-axis by a $90^\circ$ anticlockwise rotation about $z$.
 
@@ -764,9 +852,13 @@ And invoke uniqueness.
 We need to show that $(\mathbf{AB})(\mathbf{B}^{-1}\mathbf{A}^{-1}) = \mathbf{I}$ and
 $(\mathbf{B}^{-1}\mathbf{A}^{-1})(\mathbf{AB}) = \mathbf{I}$.
 
-$$(\mathbf{AB})(\mathbf{B}^{-1}\mathbf{A}^{-1}) = \mathbf{A}(\mathbf{B}\mathbf{B}^{-1})\mathbf{A}^{-1} = \mathbf{A}\mathbf{I}\mathbf{A}^{-1} = \mathbf{A}\mathbf{A}^{-1} = \mathbf{I}$$
+$$
+(\mathbf{AB})(\mathbf{B}^{-1}\mathbf{A}^{-1}) = \mathbf{A}(\mathbf{B}\mathbf{B}^{-1})\mathbf{A}^{-1} = \mathbf{A}\mathbf{I}\mathbf{A}^{-1} = \mathbf{A}\mathbf{A}^{-1} = \mathbf{I}
+$$
 
-$$(\mathbf{B}^{-1}\mathbf{A}^{-1})(\mathbf{AB}) = \mathbf{B}^{-1}(\mathbf{A}^{-1}\mathbf{A})\mathbf{B} = \mathbf{B}^{-1}\mathbf{I}\mathbf{B} = \mathbf{B}^{-1}\mathbf{B} = \mathbf{I}$$
+$$
+(\mathbf{B}^{-1}\mathbf{A}^{-1})(\mathbf{AB}) = \mathbf{B}^{-1}(\mathbf{A}^{-1}\mathbf{A})\mathbf{B} = \mathbf{B}^{-1}\mathbf{I}\mathbf{B} = \mathbf{B}^{-1}\mathbf{B} = \mathbf{I}
+$$
 
 Since the inverse is unique, $(\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$. $\square$
 
@@ -794,7 +886,9 @@ Then B," you must undo B first, then undo A.
 
 **Solution.** Find eigenvalues: $\det(\mathbf{A}-\lambda\mathbf{I}) = 0$.
 
-$$\det\begin{pmatrix}2-\lambda&1&0\\0&2-\lambda&0\\0&1&3-\lambda\end{pmatrix} = (2-\lambda)^2(3-\lambda) = 0$$
+$$
+\det\begin{pmatrix}2-\lambda&1&0\\0&2-\lambda&0\\0&1&3-\lambda\end{pmatrix} = (2-\lambda)^2(3-\lambda) = 0
+$$
 
 $\lambda_1 = 2$ (repeated), $\lambda_2 = 3$.
 
@@ -826,7 +920,9 @@ Invariant lines of the transformation $\mathbf{x} \mapsto \mathbf{Ax}$.
 **Solution.** **Invariant points:**
 $\mathbf{Ax} = \mathbf{x} \implies (\mathbf{A}-\mathbf{I})\mathbf{x} = \mathbf{0}$.
 
-$$\begin{pmatrix}2&1\\0&1\end{pmatrix}\mathbf{x} = \mathbf{0} \implies x_2 = 0, \; 2x_1 = 0$$
+$$
+\begin{pmatrix}2&1\\0&1\end{pmatrix}\mathbf{x} = \mathbf{0} \implies x_2 = 0, \; 2x_1 = 0
+$$
 
 Only the origin $(0,0)$ is an invariant point.
 
@@ -1109,7 +1205,9 @@ Matrix $\mathbf{D}$ may have 1s on the superdiagonal (Jordan blocks).
 
 For example, if $\mathbf{A}$ has a repeated eigenvalue $\lambda$ with only one eigenvector:
 
-$$\mathbf{P}^{-1}\mathbf{AP} = \begin{pmatrix}\lambda&1\\0&\lambda\end{pmatrix}$$
+$$
+\mathbf{P}^{-1}\mathbf{AP} = \begin{pmatrix}\lambda&1\\0&\lambda\end{pmatrix}
+$$
 
 ### 14.3 Orthogonal diagonalisation
 

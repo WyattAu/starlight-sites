@@ -39,7 +39,9 @@ empirical laws (the four laws of thermodynamics) without reference to atoms or m
 emerge as statistical averages over enormous numbers of microscopic states. The bridge between the
 two perspectives is given by Boltzmann"s entropy formula:
 
-$$S = k_B \ln \Omega$$
+$$
+S = k_B \ln \Omega
+$$
 
 where $\Omega$ is the number of accessible microstates.
 
@@ -73,7 +75,9 @@ thermometers.
 The **ideal gas temperature scale** is defined by the ideal gas law, which experiments show is
 approached by all real gases in the low-density limit:
 
-$$pV = nRT$$
+$$
+pV = nRT
+$$
 
 where $R = 8.314\;\text{J mol}^{-1}\text{K}^{-1}$ is the molar gas constant. The temperature in
 Kelvin is defined such that the triple point of water is exactly $273.16\;\text{K}$.
@@ -83,11 +87,15 @@ Kelvin is defined such that the triple point of water is exactly $273.16\;\text{
 **First Law of Thermodynamics.** The change in internal energy of a system equals the heat added to
 the system minus the work done by the system:
 
-$$dU = \delta Q - \delta W$$
+$$
+dU = \delta Q - \delta W
+$$
 
 or equivalently (sign convention: work done _on_ the system):
 
-$$\Delta U = Q - W$$
+$$
+\Delta U = Q - W
+$$
 
 where $\Delta U$ depends only on the initial and final states (it is a **state function**), while
 $Q$ and $W$ depend on the path taken.
@@ -96,15 +104,21 @@ $Q$ and $W$ depend on the path taken.
 
 For a quasi-static process, the work done by an ideal gas expanding against an external pressure is:
 
-$$\delta W = p\,dV$$
+$$
+\delta W = p\,dV
+$$
 
 Other forms of work include:
 
-$$\delta W = -\mathcal{E}\,dq \quad \text{(electrical)}, \qquad \delta W = \gamma\,dA \quad \text{(surface tension)}, \qquad \delta W = -\mathbf{M} \cdot d\mathbf{B} \quad \text{(magnetic)}$$
+$$
+\delta W = -\mathcal{E}\,dq \quad \text{(electrical)}, \qquad \delta W = \gamma\,dA \quad \text{(surface tension)}, \qquad \delta W = -\mathbf{M} \cdot d\mathbf{B} \quad \text{(magnetic)}
+$$
 
 **Heat capacity** relates heat input to temperature change:
 
-$$C = \frac{\delta Q}{dT}$$
+$$
+C = \frac{\delta Q}{dT}
+$$
 
 For ideal gases:
 
@@ -117,16 +131,22 @@ For ideal gases:
 **Isothermal expansion** ($T = \text{const}$): From $pV = nRT$ and $dU = 0$ (ideal gas internal
 energy depends only on $T$):
 
-$$Q = W = nRT \ln\frac{V_f}{V_i}$$
+$$
+Q = W = nRT \ln\frac{V_f}{V_i}
+$$
 
 **Adiabatic expansion** ($\delta Q = 0$): From the first law, $dU = -\delta W = -p\,dV$. For an
 ideal gas this yields the adiabatic relation:
 
-$$pV^\gamma = \text{const}, \qquad TV^{\gamma-1} = \text{const}$$
+$$
+pV^\gamma = \text{const}, \qquad TV^{\gamma-1} = \text{const}
+$$
 
 **Isobaric expansion** ($p = \text{const}$):
 
-$$W = p(V_f - V_i), \qquad Q = nC_p(T_f - T_i)$$
+$$
+W = p(V_f - V_i), \qquad Q = nC_p(T_f - T_i)
+$$
 
 <details>
 <summary>Worked Example 2.1: Adiabatic Compression of a Monatomic Gas</summary>
@@ -134,9 +154,13 @@ $$W = p(V_f - V_i), \qquad Q = nC_p(T_f - T_i)$$
 A monatomic ideal gas ($\gamma = 5/3$) is compressed adiabatically from $V_1 = 10\;\text{L}$,
 $T_1 = 300\;\text{K}$ to $V_2 = 2\;\text{L}$.
 
-$$T_2 = T_1 \left(\frac{V_1}{V_2}\right)^{\gamma - 1} = 300 \times 5^{2/3} = 300 \times 2.924 = 877\;\text{K}$$
+$$
+T_2 = T_1 \left(\frac{V_1}{V_2}\right)^{\gamma - 1} = 300 \times 5^{2/3} = 300 \times 2.924 = 877\;\text{K}
+$$
 
-$$W = \frac{nR(T_1 - T_2)}{\gamma - 1} = \frac{nR(300 - 877)}{2/3} = -\frac{3}{2}nR \times 577$$
+$$
+W = \frac{nR(T_1 - T_2)}{\gamma - 1} = \frac{nR(300 - 877)}{2/3} = -\frac{3}{2}nR \times 577
+$$
 
 For $n = 1\;\text{mol}$: $W = -\frac{3}{2}(8.314)(577) = -7.19\;\text{kJ}$ (negative = work done on
 the gas).
@@ -166,7 +190,9 @@ consists of four reversible stages:
 
 The **Carnot efficiency** is:
 
-$$\eta_{\text{Carnot}} = 1 - \frac{T_C}{T_H}$$
+$$
+\eta_{\text{Carnot}} = 1 - \frac{T_C}{T_H}
+$$
 
 This is the maximum possible efficiency for any heat engine operating between $T_H$ and $T_C$.
 
@@ -174,27 +200,35 @@ This is the maximum possible efficiency for any heat engine operating between $T
 
 **Definition (Clausius entropy).** For a reversible process:
 
-$$dS = \frac{\delta Q_{\text{rev}}}{T}$$
+$$
+dS = \frac{\delta Q_{\text{rev}}}{T}
+$$
 
 Entropy is a **state function**: its change depends only on initial and final states.
 
 **Second Law (entropy form).** For any process, the total entropy of an isolated system never
 decreases:
 
-$$\Delta S_{\text{total}} \geq 0$$
+$$
+\Delta S_{\text{total}} \geq 0
+$$
 
 with equality if and only if the process is reversible.
 
 For an ideal gas undergoing a reversible process:
 
-$$\Delta S = nC_V \ln\frac{T_f}{T_i} + nR \ln\frac{V_f}{V_i}$$
+$$
+\Delta S = nC_V \ln\frac{T_f}{T_i} + nR \ln\frac{V_f}{V_i}
+$$
 
 ### 3.4 Entropy of Mixing
 
 When $n_A$ moles of ideal gas $A$ and $n_B$ moles of ideal gas $B$, initially separated, are allowed
 to mix at the same $T$ and $p$:
 
-$$\Delta S_{\text{mix}} = -n_A R \ln x_A - n_B R \ln x_B$$
+$$
+\Delta S_{\text{mix}} = -n_A R \ln x_A - n_B R \ln x_B
+$$
 
 where $x_A = n_A/(n_A + n_B)$ is the mole fraction. This is always positive (since $x_i < 1$),
 reflecting the irreversibility of spontaneous mixing.
@@ -203,7 +237,9 @@ reflecting the irreversibility of spontaneous mixing.
 
 For any cyclic process:
 
-$$\oint \frac{\delta Q}{T} \leq 0$$
+$$
+\oint \frac{\delta Q}{T} \leq 0
+$$
 
 with equality for reversible cycles. This generalises the second law: $\delta Q/T$ is a perfect
 differential ($= dS$) only for reversible processes; for irreversible processes, $\delta Q < T\,dS$.
@@ -236,7 +272,9 @@ variables, making analysis of equilibrium and spontaneity purely in terms of sta
 The potentials are related by **Legendre transforms**, which replace one natural variable with its
 conjugate:
 
-$$H = U + pV \quad (\text{replace } V \text{ by } p), \qquad F = U - TS \quad (\text{replace } S \text{ by } T), \qquad G = U - TS + pV$$
+$$
+H = U + pV \quad (\text{replace } V \text{ by } p), \qquad F = U - TS \quad (\text{replace } S \text{ by } T), \qquad G = U - TS + pV
+$$
 
 This structure is systematic: starting from the fundamental relation $U(S, V)$, each Legendre
 transform swaps one variable for its conjugate to obtain a potential that is natural for different
@@ -257,7 +295,9 @@ At equilibrium, the relevant thermodynamic potential is minimised:
 Consider melting of ice at $T = 273\;\text{K}$, $p = 1\;\text{atm}$. At the melting point, both
 phases coexist in equilibrium, so $\Delta G = 0$.
 
-$$\Delta G = \Delta H - T\Delta S = 0 \implies \Delta S = \frac{\Delta H}{T} = \frac{6010\;\text{J/mol}}{273\;\text{K}} = 22.0\;\text{J mol}^{-1}\text{K}^{-1}$$
+$$
+\Delta G = \Delta H - T\Delta S = 0 \implies \Delta S = \frac{\Delta H}{T} = \frac{6010\;\text{J/mol}}{273\;\text{K}} = 22.0\;\text{J mol}^{-1}\text{K}^{-1}
+$$
 
 Above $273\;\text{K}$, $\Delta G < 0$ for melting (spontaneous). Below $273\;\text{K}$,
 $\Delta G > 0$ (melting is non-spontaneous; freezing is).
@@ -276,19 +316,27 @@ Applying this to the four thermodynamic potentials:
 
 **From $dU = T\,dS - p\,dV$:**
 
-$$\left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial p}{\partial S}\right)_V$$
+$$
+\left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial p}{\partial S}\right)_V
+$$
 
 **From $dH = T\,dS + V\,dp$:**
 
-$$\left(\frac{\partial T}{\partial p}\right)_S = \left(\frac{\partial V}{\partial S}\right)_p$$
+$$
+\left(\frac{\partial T}{\partial p}\right)_S = \left(\frac{\partial V}{\partial S}\right)_p
+$$
 
 **From $dF = -S\,dT - p\,dV$:**
 
-$$\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial p}{\partial T}\right)_V$$
+$$
+\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial p}{\partial T}\right)_V
+$$
 
 **From $dG = -S\,dT + V\,dp$:**
 
-$$\left(\frac{\partial S}{\partial p}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_p$$
+$$
+\left(\frac{\partial S}{\partial p}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_p
+$$
 
 These are the four **Maxwell relations**.
 
@@ -297,7 +345,9 @@ These are the four **Maxwell relations**.
 **Example (Relation between $C_p$ and $C_V$):** Using Maxwell relations and the chain rule, this can
 be shown:
 
-$$C_p - C_V = T\left(\frac{\partial p}{\partial T}\right)_V \left(\frac{\partial V}{\partial T}\right)_p$$
+$$
+C_p - C_V = T\left(\frac{\partial p}{\partial T}\right)_V \left(\frac{\partial V}{\partial T}\right)_p
+$$
 
 For an ideal gas, $\left(\frac{\partial p}{\partial T}\right)_V = nR/V$ and
 $\left(\frac{\partial V}{\partial T}\right)_p = nR/p$, giving $C_p - C_V = nR$.
@@ -306,7 +356,9 @@ $\left(\frac{\partial V}{\partial T}\right)_p = nR/p$, giving $C_p - C_V = nR$.
 $\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial p}{\partial T}\right)_V = nR/V$
 and integrating:
 
-$$\left(\frac{\partial U}{\partial V}\right)_T = T\left(\frac{\partial p}{\partial T}\right)_V - p = T \cdot \frac{nR}{V} - p = p - p = 0$$
+$$
+\left(\frac{\partial U}{\partial V}\right)_T = T\left(\frac{\partial p}{\partial T}\right)_V - p = T \cdot \frac{nR}{V} - p = p - p = 0
+$$
 
 This proves that for an ideal gas, $U$ depends only on $T$ (Joule's law).
 
@@ -319,7 +371,9 @@ Phase transitions are classified by the behaviour of thermodynamic quantities an
 **First-order transitions** involve a discontinuity in a first derivative of the Gibbs free energy
 (e.g., $V$ or $S$). There is latent heat:
 
-$$\Delta Q = T \Delta S = T(S_{\text{phase 2}} - S_{\text{phase 1}})$$
+$$
+\Delta Q = T \Delta S = T(S_{\text{phase 2}} - S_{\text{phase 1}})
+$$
 
 Examples: melting, boiling, sublimation.
 
@@ -332,14 +386,18 @@ Examples: superconducting transition, ferromagnetic Curie point, superfluid tran
 
 For a first-order phase transition along the coexistence curve:
 
-$$\frac{dp}{dT} = \frac{\Delta S}{\Delta V} = \frac{L}{T \Delta V}$$
+$$
+\frac{dp}{dT} = \frac{\Delta S}{\Delta V} = \frac{L}{T \Delta V}
+$$
 
 where $L = T\Delta S$ is the latent heat and $\Delta V$ is the volume change.
 
 **Application (liquid–vapour):** If $\Delta V \approx V_{\text{gas}} = nRT/p$ (vapour treated as
 ideal gas, liquid volume neglected):
 
-$$\frac{dp}{dT} = \frac{Lp}{nRT^2} \implies \ln p = -\frac{L}{nR} \cdot \frac{1}{T} + \text{const}$$
+$$
+\frac{dp}{dT} = \frac{Lp}{nRT^2} \implies \ln p = -\frac{L}{nR} \cdot \frac{1}{T} + \text{const}
+$$
 
 This is the approximate form of the vapour pressure curve.
 
@@ -348,7 +406,9 @@ This is the approximate form of the vapour pressure curve.
 At a **critical point**, the distinction between phases vanishes. For the liquid–vapour transition
 in a van der Waals gas, the critical point is at:
 
-$$T_c = \frac{8a}{27bR}, \qquad p_c = \frac{a}{27b^2}, \qquad V_c = 3nb$$
+$$
+T_c = \frac{8a}{27bR}, \qquad p_c = \frac{a}{27b^2}, \qquad V_c = 3nb
+$$
 
 Near the critical point, thermodynamic quantities exhibit power-law behaviour characterised by
 **critical exponents**. For example, the order parameter (e.g., density difference between liquid
@@ -383,7 +443,9 @@ microstates.
 For a system in thermal equilibrium at temperature $T$ with a heat bath, the probability of the
 system being in microstate $i$ with energy $E_i$ is:
 
-$$p_i = \frac{e^{-\beta E_i}}{Z}$$
+$$
+p_i = \frac{e^{-\beta E_i}}{Z}
+$$
 
 where $\beta = 1/(k_B T)$ and $Z$ is the **partition function**.
 
@@ -391,34 +453,50 @@ where $\beta = 1/(k_B T)$ and $Z$ is the **partition function**.
 
 The **canonical partition function** for a system with discrete energy levels is:
 
-$$Z = \sum_i e^{-\beta E_i}$$
+$$
+Z = \sum_i e^{-\beta E_i}
+$$
 
 For a classical ideal gas (continuous energies):
 
-$$Z = \frac{1}{N! h^{3N}} \int e^{-\beta H(\mathbf{p}, \mathbf{q})}\, d^{3N}p\, d^{3N}q$$
+$$
+Z = \frac{1}{N! h^{3N}} \int e^{-\beta H(\mathbf{p}, \mathbf{q})}\, d^{3N}p\, d^{3N}q
+$$
 
 The partition function encodes **all** thermodynamic information:
 
-$$U = -\frac{\partial \ln Z}{\partial \beta}, \qquad F = -k_B T \ln Z, \qquad S = k_B(\ln Z + \beta U)$$
+$$
+U = -\frac{\partial \ln Z}{\partial \beta}, \qquad F = -k_B T \ln Z, \qquad S = k_B(\ln Z + \beta U)
+$$
 
 <details>
 <summary>Worked Example 7.1: Partition Function of a Classical Ideal Gas</summary>
 
 For $N$ non-interacting particles in a 3D box of volume $V$:
 
-$$Z_1 = \frac{V}{\lambda^3} \quad \text{(single-particle partition function)}$$
+$$
+Z_1 = \frac{V}{\lambda^3} \quad \text{(single-particle partition function)}
+$$
 
 where $\lambda = h/\sqrt{2\pi m k_B T}$ is the **thermal de Broglie wavelength**.
 
-$$Z_N = \frac{Z_1^N}{N!} = \frac{1}{N!}\left(\frac{V}{\lambda^3}\right)^N$$
+$$
+Z_N = \frac{Z_1^N}{N!} = \frac{1}{N!}\left(\frac{V}{\lambda^3}\right)^N
+$$
 
-$$F = -k_B T \ln Z_N = -k_B T \left[N \ln \frac{V}{\lambda^3} - \ln N!\right]$$
+$$
+F = -k_B T \ln Z_N = -k_B T \left[N \ln \frac{V}{\lambda^3} - \ln N!\right]
+$$
 
 Using Stirling's approximation $\ln N! \approx N \ln N - N$:
 
-$$F = Nk_B T \left[\ln\left(\frac{N\lambda^3}{V}\right) - 1\right]$$
+$$
+F = Nk_B T \left[\ln\left(\frac{N\lambda^3}{V}\right) - 1\right]
+$$
 
-$$p = -\left(\frac{\partial F}{\partial V}\right)_T = \frac{Nk_B T}{V} \quad \text{(recovers ideal gas law)}$$
+$$
+p = -\left(\frac{\partial F}{\partial V}\right)_T = \frac{Nk_B T}{V} \quad \text{(recovers ideal gas law)}
+$$
 
 </details>
 
@@ -426,11 +504,15 @@ $$p = -\left(\frac{\partial F}{\partial V}\right)_T = \frac{Nk_B T}{V} \quad \te
 
 The statistical definition of entropy is:
 
-$$S = k_B \ln \Omega$$
+$$
+S = k_B \ln \Omega
+$$
 
 For the canonical ensemble:
 
-$$S = k_B(\ln Z + \beta U) = -\left(\frac{\partial F}{\partial T}\right)_V$$
+$$
+S = k_B(\ln Z + \beta U) = -\left(\frac{\partial F}{\partial T}\right)_V
+$$
 
 This connects the microscopic counting of states to the macroscopic entropy defined by the Clausius
 relation $dS = \delta Q_{\text{rev}}/T$.
@@ -444,11 +526,15 @@ reservoir at $T_C$.
 
 **Efficiency:**
 
-$$\eta = \frac{W}{Q_H} = 1 - \frac{Q_C}{Q_H}$$
+$$
+\eta = \frac{W}{Q_H} = 1 - \frac{Q_C}{Q_H}
+$$
 
 **Carnot efficiency** (maximum possible):
 
-$$\eta_{\text{Carnot}} = 1 - \frac{T_C}{T_H}$$
+$$
+\eta_{\text{Carnot}} = 1 - \frac{T_C}{T_H}
+$$
 
 ### 8.2 Refrigerators and Heat Pumps
 
@@ -456,15 +542,21 @@ A **refrigerator** uses work to transfer heat from a cold reservoir to a hot res
 
 **Coefficient of Performance (refrigerator):**
 
-$$\text{COP}_R = \frac{Q_C}{W} = \frac{Q_C}{Q_H - Q_C}$$
+$$
+\text{COP}_R = \frac{Q_C}{W} = \frac{Q_C}{Q_H - Q_C}
+$$
 
 **Carnot COP (refrigerator):**
 
-$$\text{COP}_{R,\text{Carnot}} = \frac{T_C}{T_H - T_C}$$
+$$
+\text{COP}_{R,\text{Carnot}} = \frac{T_C}{T_H - T_C}
+$$
 
 For a **heat pump** (heating mode):
 
-$$\text{COP}_{HP} = \frac{Q_H}{W} = \frac{Q_H}{Q_H - Q_C}, \qquad \text{COP}_{HP,\text{Carnot}} = \frac{T_H}{T_H - T_C}$$
+$$
+\text{COP}_{HP} = \frac{Q_H}{W} = \frac{Q_H}{Q_H - Q_C}, \qquad \text{COP}_{HP,\text{Carnot}} = \frac{T_H}{T_H - T_C}
+$$
 
 ### 8.3 The Otto Cycle
 
@@ -475,7 +567,9 @@ The **Otto cycle** models a petrol engine:
 3. **Adiabatic expansion / power stroke** ($V_2 \to V_1$).
 4. **Isochoric rejection** ($V_1 = \text{const}$, heat $Q_C$ expelled).
 
-$$\eta_{\text{Otto}} = 1 - \frac{1}{r^{\gamma-1}}$$
+$$
+\eta_{\text{Otto}} = 1 - \frac{1}{r^{\gamma-1}}
+$$
 
 where $r = V_1/V_2$ is the **compression ratio**. Higher $r$ gives higher efficiency, but in
 practice is limited by engine knock.
@@ -489,7 +583,9 @@ The **Diesel cycle** models a diesel engine:
 3. **Adiabatic expansion** ($V_3 \to V_4$).
 4. **Isochoric rejection** ($V_4 = \text{const}$, heat $Q_C$ expelled).
 
-$$\eta_{\text{Diesel}} = 1 - \frac{1}{r^{\gamma-1}} \cdot \frac{\alpha^\gamma - 1}{\gamma(\alpha - 1)}$$
+$$
+\eta_{\text{Diesel}} = 1 - \frac{1}{r^{\gamma-1}} \cdot \frac{\alpha^\gamma - 1}{\gamma(\alpha - 1)}
+$$
 
 where $r = V_1/V_2$ is the compression ratio and $\alpha = V_3/V_2$ is the **cut-off ratio**.
 
@@ -498,7 +594,9 @@ where $r = V_1/V_2$ is the compression ratio and $\alpha = V_3/V_2$ is the **cut
 
 A petrol engine with compression ratio $r = 10$ uses air ($\gamma = 1.4$):
 
-$$\eta = 1 - \frac{1}{10^{0.4}} = 1 - \frac{1}{2.512} = 1 - 0.398 = 0.602$$
+$$
+\eta = 1 - \frac{1}{10^{0.4}} = 1 - \frac{1}{2.512} = 1 - 0.398 = 0.602
+$$
 
 That is, 60.2% efficiency in the ideal Otto cycle. Real engines achieve roughly 25–35% due to
 friction, heat losses, incomplete combustion, and finite combustion speed.

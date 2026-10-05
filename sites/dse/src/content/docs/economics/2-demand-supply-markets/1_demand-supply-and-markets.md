@@ -71,7 +71,9 @@ Any other factor causes a **shift** of the curve. DSE exams frequently test this
 
 Market demand is the horizontal sum of all individual demands at each price level.
 
-$$Q_D = q_1 + q_2 + q_3 + \ldots + q_n$$
+$$
+Q_D = q_1 + q_2 + q_3 + \ldots + q_n
+$$
 
 ---
 
@@ -125,7 +127,9 @@ Incentivising producers to supply more.
 
 Market supply is the horizontal sum of all individual firm supplies:
 
-$$Q_S = q_1 + q_2 + q_3 + \ldots + q_n$$
+$$
+Q_S = q_1 + q_2 + q_3 + \ldots + q_n
+$$
 
 ---
 
@@ -153,13 +157,21 @@ Given $Q_D = 100 - 2P$ and $Q_S = 20 + 3P$Find the equilibrium price and quantit
 
 At equilibrium: $Q_D = Q_S$
 
-$$100 - 2P = 20 + 3P$$
+$$
+100 - 2P = 20 + 3P
+$$
 
-$$80 = 5P$$
+$$
+80 = 5P
+$$
 
-$$P = 16$$
+$$
+P = 16
+$$
 
-$$Q = 100 - 2(16) = 100 - 32 = 68$$
+$$
+Q = 100 - 2(16) = 100 - 32 = 68
+$$
 
 ### Disequilibrium
 
@@ -182,13 +194,21 @@ $$Q = 100 - 2(16) = 100 - 32 = 68$$
 
 If demand increases by 30 units at every price (new $Q_D = 130 - 2P$), find the new equilibrium.
 
-$$130 - 2P = 20 + 3P$$
+$$
+130 - 2P = 20 + 3P
+$$
 
-$$110 = 5P$$
+$$
+110 = 5P
+$$
 
-$$P = 22$$
+$$
+P = 22
+$$
 
-$$Q = 130 - 2(22) = 86$$
+$$
+Q = 130 - 2(22) = 86
+$$
 
 Price rose from 16 to 22; quantity rose from 68 to 86.
 
@@ -209,7 +229,9 @@ Price rose from 16 to 22; quantity rose from 68 to 86.
 
 PED measures the responsiveness of quantity demanded to a change in price:
 
-$$\mathrm{PED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}$$
+$$
+\mathrm{PED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}
+$$
 
 Since demand curves slope downward, PED is negative. By convention, we often report the **absolute
 value**.
@@ -236,7 +258,9 @@ value**.
 
 ### PED and Total Revenue
 
-$$\mathrm{Total Revenue (TR)} = P \times Q$$
+$$
+\mathrm{Total Revenue (TR)} = P \times Q
+$$
 
 | PED                    | Price Increase | Price Decrease |
 | ---------------------- | -------------- | -------------- |
@@ -253,11 +277,17 @@ Price if demand is inelastic. This is a very common exam question.
 The price of a good increases from USD 50 to USD 60. Quantity demanded falls from 200 to 160 units.
 Calculate PED.
 
-$$\%\ \mathrm{change in } Q = \frac{160 - 200}{200} \times 100\% = -20\%$$
+$$
+\%\ \mathrm{change in } Q = \frac{160 - 200}{200} \times 100\% = -20\%
+$$
 
-$$\%\ \mathrm{change in } P = \frac{60 - 50}{50} \times 100\% = 20\%$$
+$$
+\%\ \mathrm{change in } P = \frac{60 - 50}{50} \times 100\% = 20\%
+$$
 
-$$\mathrm{PED} = \frac{-20\%}{20\%} = -1$$
+$$
+\mathrm{PED} = \frac{-20\%}{20\%} = -1
+$$
 
 PED = 1 (unit elastic by initial-value method). Note: total revenue changes from
 $50 \times 200 = 10\,000$ to $60 \times 160 = 9\,600$ (a decrease of 400). The rule "PED = 1 Implies
@@ -282,7 +312,9 @@ TR.
 
 PES measures the responsiveness of quantity supplied to a change in price:
 
-$$\mathrm{PES} = \frac{\%\ \mathrm{change in quantity supplied}}{\%\ \mathrm{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}$$
+$$
+\mathrm{PES} = \frac{\%\ \mathrm{change in quantity supplied}}{\%\ \mathrm{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}
+$$
 
 PES is positive because supply curves slope upward.
 
@@ -310,11 +342,17 @@ PES is positive because supply curves slope upward.
 
 Price rises from USD 40 to USD 50. Quantity supplied rises from 300 to 450 units. Calculate PES.
 
-$$\%\ \mathrm{change in } Q = \frac{450 - 300}{300} \times 100\% = 50\%$$
+$$
+\%\ \mathrm{change in } Q = \frac{450 - 300}{300} \times 100\% = 50\%
+$$
 
-$$\%\ \mathrm{change in } P = \frac{50 - 40}{40} \times 100\% = 25\%$$
+$$
+\%\ \mathrm{change in } P = \frac{50 - 40}{40} \times 100\% = 25\%
+$$
 
-$$\mathrm{PES} = \frac{50\%}{25\%} = 2$$
+$$
+\mathrm{PES} = \frac{50\%}{25\%} = 2
+$$
 
 Supply is elastic (PES = 2 &gt; 1).
 
@@ -335,7 +373,9 @@ Supply is elastic (PES = 2 &gt; 1).
 
 YED measures the responsiveness of quantity demanded to a change in income:
 
-$$\mathrm{YED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{change in income}}$$
+$$
+\mathrm{YED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{change in income}}
+$$
 
 ### Categories
 
@@ -363,7 +403,9 @@ $$\mathrm{YED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{cha
 XED measures the responsiveness of quantity demanded of one good to a change in the price of another
 Good:
 
-$$\mathrm{XED} = \frac{\%\ \mathrm{change in quantity demanded of good A}}{\%\ \mathrm{change in price of good B}}$$
+$$
+\mathrm{XED} = \frac{\%\ \mathrm{change in quantity demanded of good A}}{\%\ \mathrm{change in price of good B}}
+$$
 
 ### Categories
 
@@ -409,9 +451,13 @@ Resulting shortage.
 
 At $P = 20$:
 
-$$Q_D = 200 - 4(20) = 200 - 80 = 120$$
+$$
+Q_D = 200 - 4(20) = 200 - 80 = 120
+$$
 
-$$Q_S = 40 + 2(20) = 40 + 40 = 80$$
+$$
+Q_S = 40 + 2(20) = 40 + 40 = 80
+$$
 
 Shortage $= Q_D - Q_S = 120 - 80 = 40$ units
 
@@ -431,9 +477,13 @@ Elasticity:
 - If demand is **inelastic** relative to supply: consumers bear most of the tax burden
 - If supply is **inelastic** relative to demand: producers bear most of the tax burden
 
-$$\mathrm{Consumer burden} = P_{\mathrm{after tax}} - P_{\mathrm{before tax}}$$
+$$
+\mathrm{Consumer burden} = P_{\mathrm{after tax}} - P_{\mathrm{before tax}}
+$$
 
-$$\mathrm{Producer burden} = P_{\mathrm{before tax}} - P_{\mathrm{after tax (net)}}$$
+$$
+\mathrm{Producer burden} = P_{\mathrm{before tax}} - P_{\mathrm{after tax (net)}}
+$$
 
 ### Worked Example 6
 
@@ -444,13 +494,19 @@ Original equilibrium: $100 - P = P - 20$ So $2P = 120$$P = 60$$Q = 40$.
 
 With tax, the supply becomes $Q_S = (P - 10) - 20 = P - 30$ (producers receive $P - 10$):
 
-$$100 - P = P - 30$$
+$$
+100 - P = P - 30
+$$
 
-$$130 = 2P$$
+$$
+130 = 2P
+$$
 
 $$P = 65$$ (price consumers pay)
 
-$$Q = 100 - 65 = 35$$
+$$
+Q = 100 - 65 = 35
+$$
 
 Producers receive $65 - 10 = 55$.
 
@@ -465,9 +521,13 @@ Producer burden $= 60 - 55 = 5$ per unit
 A subsidy shifts the supply curve downward (rightward). Consumers pay less and producers receive
 More.
 
-$$\mathrm{Consumer benefit} = P_{\mathrm{before}} - P_{\mathrm{after}}$$
+$$
+\mathrm{Consumer benefit} = P_{\mathrm{before}} - P_{\mathrm{after}}
+$$
 
-$$\mathrm{Producer benefit} = (P_{\mathrm{after}} + \mathrm{subsidy}) - P_{\mathrm{before}}$$
+$$
+\mathrm{Producer benefit} = (P_{\mathrm{after}} + \mathrm{subsidy}) - P_{\mathrm{before}}
+$$
 
 ---
 
@@ -496,7 +556,9 @@ Or benefit.
 
 **Negative externality (external cost):** The social cost exceeds the private cost.
 
-$$\mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}$$
+$$
+\mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}
+$$
 
 Where MSC = marginal social cost, MPC = marginal private cost, MEC = marginal external cost.
 
@@ -504,7 +566,9 @@ Example: pollution from a factory affects the health of nearby residents.
 
 **Positive externality (external benefit):** The social benefit exceeds the private benefit.
 
-$$\mathrm{MSB} = \mathrm{MPB} + \mathrm{MEB}$$
+$$
+\mathrm{MSB} = \mathrm{MPB} + \mathrm{MEB}
+$$
 
 Where MSB = marginal social benefit, MPB = marginal private benefit, MEB = marginal external
 Benefit.
@@ -833,7 +897,9 @@ National income can be measured in three ways:
 2. **Income method:** Sum of all incomes (wages, rent, interest, profit)
 3. **Expenditure method:** Sum of all spending
 
-$$\mathrm{GDP} = C + I + G + (X - M)$$
+$$
+\mathrm{GDP} = C + I + G + (X - M)
+$$
 
 Where:
 
@@ -966,19 +1032,31 @@ Monetary policy involves the central bank's control of the money supply and inte
 **Question 4:** A firm has fixed costs of USD 200 and variable costs given by VC = 10Q + 0.5Q$^2$.
 Find the output at which average total cost is minimised.
 
-$$TC = 200 + 10Q + 0.5Q^2$$
+$$
+TC = 200 + 10Q + 0.5Q^2
+$$
 
-$$ATC = \frac{200}{Q} + 10 + 0.5Q$$
+$$
+ATC = \frac{200}{Q} + 10 + 0.5Q
+$$
 
 To minimise ATC, take the derivative and set to zero:
 
-$$\frac{d(ATC)}{dQ} = -\frac{200}{Q^2} + 0.5 = 0$$
+$$
+\frac{d(ATC)}{dQ} = -\frac{200}{Q^2} + 0.5 = 0
+$$
 
-$$0.5 = \frac{200}{Q^2}$$
+$$
+0.5 = \frac{200}{Q^2}
+$$
 
-$$Q^2 = 400$$
+$$
+Q^2 = 400
+$$
 
-$$Q = 20$$
+$$
+Q = 20
+$$
 
 At Q = 20: ATC = 200/20 + 10 + 0.5(20) = 10 + 10 + 10 = USD 30.
 

@@ -66,7 +66,9 @@ finite-dimensional.
 Let $X$ be a normed space and $Y \subseteq X$ a closed subspace. The **quotient space** $X / Y$
 consists of equivalence classes $[x] = x + Y$ with the **quotient norm**:
 
-$$\|[x]\|_{X/Y} = \inf_{y \in Y} \|x - y\|$$
+$$
+\|[x]\|_{X/Y} = \inf_{y \in Y} \|x - y\|
+$$
 
 **Theorem 1.8.** If $X$ is a Banach space and $Y$ is a closed subspace, then $X/Y$ is a Banach space.
 
@@ -78,7 +80,9 @@ with $\|\pi\| = 1$.
 The **dual space** $X^*$ of a normed space $X$ is the space of all bounded linear functionals
 $f : X \to \mathbb{F}$, equipped with the operator norm:
 
-$$\|f\| = \sup_{\|x\| \leq 1} |f(x)|$$
+$$
+\|f\| = \sup_{\|x\| \leq 1} |f(x)|
+$$
 
 **Theorem 1.10.** The dual space $X^*$ is always a Banach space, regardless of whether $X$ is
 complete.
@@ -116,11 +120,15 @@ ones:
 
 **Theorem 1.12 (Hölder's Inequality).** For $1 \leq p, q \leq \infty$ with $1/p + 1/q = 1$:
 
-$$\sum_{n=1}^\infty |x_n y_n| \leq \|x\|_p \|y\|_q$$
+$$
+\sum_{n=1}^\infty |x_n y_n| \leq \|x\|_p \|y\|_q
+$$
 
 **Theorem 1.13 (Minkowski's Inequality).** For $1 \leq p \leq \infty$:
 
-$$\|x + y\|_p \leq \|x\|_p + \|y\|_p$$
+$$
+\|x + y\|_p \leq \|x\|_p + \|y\|_p
+$$
 
 These inequalities prove that $\ell^p$ and $L^p$ are normed spaces.
 

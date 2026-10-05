@@ -87,7 +87,9 @@ Galois group of $x^5 - x - 1$ (and many other quintics) Over $\mathbb{Q}$ is $S_
 
 The **discriminant** of $f(x) = (x - \alpha_1)\cdots(x - \alpha_n)$ is
 
-$$\Delta = \prod_{i \lt j} (\alpha_i - \alpha_j)^2$$
+$$
+\Delta = \prod_{i \lt j} (\alpha_i - \alpha_j)^2
+$$
 
 The discriminant is a symmetric function of the roots, so $\Delta \in \mathbb{Q}$ when
 $f \in \mathbb{Q}[x]$.

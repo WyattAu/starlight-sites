@@ -52,14 +52,20 @@ without-replacement scenarios.]
 
 **(b)** By the law of total probability:
 
-$$P(B) = P(B|A)P(A) + P(B|A")P(A') = \frac{4}{7} \cdot \frac{5}{8} + \frac{5}{7} \cdot \frac{3}{8}$$
+$$
+P(B) = P(B|A)P(A) + P(B|A")P(A') = \frac{4}{7} \cdot \frac{5}{8} + \frac{5}{7} \cdot \frac{3}{8}
+$$
 
-$$= \frac{20}{56} + \frac{15}{56} = \frac{35}{56} = \frac{5}{8}$$
+$$
+= \frac{20}{56} + \frac{15}{56} = \frac{35}{56} = \frac{5}{8}
+$$
 
 **(c)** The student's error is applying the independence test $P(A \cap B) = P(A)P(B)$ without
 verifying it. In fact:
 
-$$P(A \cap B) = \frac{5}{14} \neq \frac{5}{8} \times \frac{5}{8} = \frac{25}{64}$$
+$$
+P(A \cap B) = \frac{5}{14} \neq \frac{5}{8} \times \frac{5}{8} = \frac{25}{64}
+$$
 
 So $A$ and $B$ are **not** independent. The fact that $P(B) = P(A)$ is coincidental, it does not
 imply independence. The correct test for independence is $P(A \cap B) = P(A)P(B)$Not
@@ -95,11 +101,17 @@ probability is $0.60 \times 0.03 = 0.018$." Identify the error.
 
 **(a)** Let $D$ be "the item is defective" and $X$ be "produced by Machine $X$."
 
-$$P(X|D) = \frac{P(D|X)P(X)}{P(D)}$$
+$$
+P(X|D) = \frac{P(D|X)P(X)}{P(D)}
+$$
 
-$$P(D) = P(D|X)P(X) + P(D|Y)P(Y) = 0.03 \times 0.60 + 0.05 \times 0.40 = 0.018 + 0.020 = 0.038$$
+$$
+P(D) = P(D|X)P(X) + P(D|Y)P(Y) = 0.03 \times 0.60 + 0.05 \times 0.40 = 0.018 + 0.020 = 0.038
+$$
 
-$$P(X|D) = \frac{0.03 \times 0.60}{0.038} = \frac{0.018}{0.038} = \frac{9}{19} \approx 0.474$$
+$$
+P(X|D) = \frac{0.03 \times 0.60}{0.038} = \frac{0.018}{0.038} = \frac{9}{19} \approx 0.474
+$$
 
 **(b)** The student computed $P(X \cap D)$ instead of $P(X|D)$. Bayes' theorem asks for the
 **posterior** probability $P(X|D)$ (probability the item is from $X$ **given** that it is
@@ -157,7 +169,9 @@ gender:
 Excluded: 0 men, 5 women (1 way) + 1 man, 4 women (35 ways) + 5 men, 0 women (21 ways) + 4 men, 1
 woman (175 ways) = 232 ways.
 
-$$\text{Valid committees} = 792 - 232 = 560$$
+$$
+\text{Valid committees} = 792 - 232 = 560
+$$
 
 **(b)** For each valid committee of 5, there are 5 choices for chairperson. So:
 $560 \times 5 = 2800$ different chaired committees.

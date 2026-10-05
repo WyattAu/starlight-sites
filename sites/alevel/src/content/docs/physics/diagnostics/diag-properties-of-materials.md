@@ -58,27 +58,39 @@ the stress-strain graph.
 
 (a) Young's modulus is the gradient of the linear (proportional) region:
 
-$$E = \frac{\Delta\sigma}{\Delta\varepsilon} = \frac{300 \times 10^6 - 0}{1.50 \times 10^{-3} - 0} = \frac{300 \times 10^6}{1.50 \times 10^{-3}} = 2.00 \times 10^{11}\,\text{Pa} = 200\,\text{GPa}$$
+$$
+E = \frac{\Delta\sigma}{\Delta\varepsilon} = \frac{300 \times 10^6 - 0}{1.50 \times 10^{-3} - 0} = \frac{300 \times 10^6}{1.50 \times 10^{-3}} = 2.00 \times 10^{11}\,\text{Pa} = 200\,\text{GPa}
+$$
 
 This is consistent with steel.
 
 (b) In the linear region (up to $300\,\text{MPa}$), the energy per unit volume is the area under the
 stress-strain curve:
 
-$$u = \frac{1}{2}\sigma\varepsilon = \frac{1}{2} \times 300 \times 10^6 \times 1.50 \times 10^{-3} = 2.25 \times 10^5\,\text{J}\,\text{m}^{-3}$$
+$$
+u = \frac{1}{2}\sigma\varepsilon = \frac{1}{2} \times 300 \times 10^6 \times 1.50 \times 10^{-3} = 2.25 \times 10^5\,\text{J}\,\text{m}^{-3}
+$$
 
 Total elastic energy stored in the wire:
 
-$$U = u \times \text{volume} = 2.25 \times 10^5 \times 2.00 \times 1.5 \times 10^{-6} = 0.675\,\text{J}$$
+$$
+U = u \times \text{volume} = 2.25 \times 10^5 \times 2.00 \times 1.5 \times 10^{-6} = 0.675\,\text{J}
+$$
 
 (c) Total energy per unit volume up to fracture = total area under the stress-strain curve.
 
 Using the trapezium rule on the data:
 
-$$u_{\text{total}} = \frac{1}{2}\left[(0 + 100) \times 0.50 + (100 + 200) \times 0.50 + (200 + 300) \times 0.50 + (300 + 350) \times 0.30 + (350 + 400) \times 0.50 + (400 + 420) \times 0.70 + (420 + 430) \times 1.50\right] \times 10^6 \times 10^{-3}$$
+$$
+u_{\text{total}} = \frac{1}{2}\left[(0 + 100) \times 0.50 + (100 + 200) \times 0.50 + (200 + 300) \times 0.50 + (300 + 350) \times 0.30 + (350 + 400) \times 0.50 + (400 + 420) \times 0.70 + (420 + 430) \times 1.50\right] \times 10^6 \times 10^{-3}
+$$
 
-$$= \frac{1}{2}\left[50 + 150 + 250 + 195 + 375 + 574 + 1275\right] \times 10^3$$
-$$= \frac{1}{2} \times 2869 \times 10^3 = 1.435 \times 10^6\,\text{J}\,\text{m}^{-3}$$
+$$
+= \frac{1}{2}\left[50 + 150 + 250 + 195 + 375 + 574 + 1275\right] \times 10^3
+$$
+$$
+= \frac{1}{2} \times 2869 \times 10^3 = 1.435 \times 10^6\,\text{J}\,\text{m}^{-3}
+$$
 
 The elastic energy recoverable (if unloaded from $300\,\text{MPa}$) is only
 $2.25 \times 10^5\,\text{J}\,\text{m}^{-3}$ So the majority of the energy is dissipated as heat
@@ -117,7 +129,9 @@ $= 1.2 \times 10^{11}\,\text{Pa}$.
 
 (a) Since the wire is in series, the force is the same in both sections:
 
-$$\sigma = \frac{F}{A} = \frac{400}{2.0 \times 10^{-6}} = 2.0 \times 10^8\,\text{Pa} = 200\,\text{MPa}$$
+$$
+\sigma = \frac{F}{A} = \frac{400}{2.0 \times 10^{-6}} = 2.0 \times 10^8\,\text{Pa} = 200\,\text{MPa}
+$$
 
 Both sections experience the same stress of $200\,\text{MPa}$.
 
@@ -137,7 +151,9 @@ Total extension $= 1.50 + 1.67 = 3.17\,\text{mm}$
 
 The effective Young's modulus of the composite wire:
 
-$$E_{\text{eff}} = \frac{F(l_s + l_c)}{A(\Delta l_s + \Delta l_c)} = \frac{400 \times 2.5}{2.0 \times 10^{-6} \times 3.17 \times 10^{-3}} = \frac{1000}{6.34 \times 10^{-9}} = 1.58 \times 10^{11}\,\text{Pa}$$
+$$
+E_{\text{eff}} = \frac{F(l_s + l_c)}{A(\Delta l_s + \Delta l_c)} = \frac{400 \times 2.5}{2.0 \times 10^{-6} \times 3.17 \times 10^{-3}} = \frac{1000}{6.34 \times 10^{-9}} = 1.58 \times 10^{11}\,\text{Pa}
+$$
 
 ---
 
@@ -182,18 +198,30 @@ as it extends. This is characteristic of non-Hookean materials like rubber and p
 
 (b) **Work done during loading** (area under loading curve, using trapezium rule):
 
-$$W_{\text{load}} = \frac{1}{2}\left[(0+1) \times 15 + (1+2) \times 20 + (2+3) \times 25 + (3+4) \times 30 + (4+5) \times 40 + (5+6) \times 50 + (6+7) \times 70\right] \times 10^{-3}$$
+$$
+W_{\text{load}} = \frac{1}{2}\left[(0+1) \times 15 + (1+2) \times 20 + (2+3) \times 25 + (3+4) \times 30 + (4+5) \times 40 + (5+6) \times 50 + (6+7) \times 70\right] \times 10^{-3}
+$$
 
-$$= \frac{1}{2}\left[15 + 60 + 125 + 210 + 360 + 550 + 910\right] \times 10^{-3}$$
-$$= \frac{1}{2} \times 2230 \times 10^{-3} = 1.115\,\text{J}$$
+$$
+= \frac{1}{2}\left[15 + 60 + 125 + 210 + 360 + 550 + 910\right] \times 10^{-3}
+$$
+$$
+= \frac{1}{2} \times 2230 \times 10^{-3} = 1.115\,\text{J}
+$$
 
 **Work done during unloading** (area under unloading curve, using the trapezium rule):
 
-$$W_{\text{unload}} = \sum \frac{F_i + F_{i+1}}{2} \times \Delta x$$
+$$
+W_{\text{unload}} = \sum \frac{F_i + F_{i+1}}{2} \times \Delta x
+$$
 
-$$= \frac{6+5}{2}(250-200) + \frac{5+4}{2}(200-170) + \frac{4+3}{2}(170-150) + \frac{3+2}{2}(150-130) + \frac{2+1}{2}(130-110) + \frac{1+0}{2}(110-80) + \frac{0+0}{2}(80-20)$$
+$$
+= \frac{6+5}{2}(250-200) + \frac{5+4}{2}(200-170) + \frac{4+3}{2}(170-150) + \frac{3+2}{2}(150-130) + \frac{2+1}{2}(130-110) + \frac{1+0}{2}(110-80) + \frac{0+0}{2}(80-20)
+$$
 
-$$= 275 + 135 + 70 + 50 + 30 + 15 + 0 = 575\,\text{mJ} = 0.575\,\text{J}$$
+$$
+= 275 + 135 + 70 + 50 + 30 + 15 + 0 = 575\,\text{mJ} = 0.575\,\text{J}
+$$
 
 (c) Energy dissipated per cycle
 $= W_{\text{load}} - W_{\text{unload}} = 1.115 - 0.575 = 0.540\,\text{J}$
@@ -228,11 +256,15 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 (a) If the wire cannot expand, the thermal expansion is fully converted to elastic strain:
 
-$$\Delta l_{\text{thermal}} = \alpha l \Delta T = 1.2 \times 10^{-5} \times 3.0 \times 40 = 1.44 \times 10^{-3}\,\text{m}$$
+$$
+\Delta l_{\text{thermal}} = \alpha l \Delta T = 1.2 \times 10^{-5} \times 3.0 \times 40 = 1.44 \times 10^{-3}\,\text{m}
+$$
 
 The wire must be compressed back by this amount, so the strain is:
 
-$$\varepsilon = \frac{\Delta l}{l} = \frac{1.44 \times 10^{-3}}{3.0} = 4.8 \times 10^{-4}$$
+$$
+\varepsilon = \frac{\Delta l}{l} = \frac{1.44 \times 10^{-3}}{3.0} = 4.8 \times 10^{-4}
+$$
 
 Stress:
 $\sigma = E\varepsilon = 2.0 \times 10^{11} \times 4.8 \times 10^{-4} = 9.6 \times 10^7\,\text{Pa} = 96\,\text{MPa}$
@@ -241,7 +273,9 @@ This is a compressive stress. The wire would buckle if not properly supported.
 
 (b) Free thermal expansion produces no stress. The extension due to the hanging mass:
 
-$$\Delta l_{\text{mechanical}} = \frac{Fl}{AE} = \frac{50 \times 9.81 \times 3.0}{2.0 \times 10^{-6} \times 2.0 \times 10^{11}} = \frac{1471.5}{4.0 \times 10^5} = 3.68 \times 10^{-3}\,\text{m}$$
+$$
+\Delta l_{\text{mechanical}} = \frac{Fl}{AE} = \frac{50 \times 9.81 \times 3.0}{2.0 \times 10^{-6} \times 2.0 \times 10^{11}} = \frac{1471.5}{4.0 \times 10^5} = 3.68 \times 10^{-3}\,\text{m}
+$$
 
 Total extension
 $= \Delta l_{\text{thermal}} + \Delta l_{\text{mechanical}} = 1.44 + 3.68 = 5.12 \times 10^{-3}\,\text{m} = 5.12\,\text{mm}$
@@ -249,9 +283,15 @@ $= \Delta l_{\text{thermal}} + \Delta l_{\text{mechanical}} = 1.44 + 3.68 = 5.12
 (c) Only the mechanical extension stores elastic energy (thermal expansion without constraint does
 not store elastic energy):
 
-$$U = \frac{1}{2} \times \text{stress} \times \text{strain} \times \text{volume}$$
-$$= \frac{1}{2} \times \frac{F}{A} \times \frac{\Delta l_{\text{mech}}}{l} \times Al = \frac{1}{2}F\Delta l_{\text{mech}}$$
-$$= \frac{1}{2} \times 50 \times 9.81 \times 3.68 \times 10^{-3} = 0.903\,\text{J}$$
+$$
+U = \frac{1}{2} \times \text{stress} \times \text{strain} \times \text{volume}
+$$
+$$
+= \frac{1}{2} \times \frac{F}{A} \times \frac{\Delta l_{\text{mech}}}{l} \times Al = \frac{1}{2}F\Delta l_{\text{mech}}
+$$
+$$
+= \frac{1}{2} \times 50 \times 9.81 \times 3.68 \times 10^{-3} = 0.903\,\text{J}
+$$
 
 ---
 
@@ -296,7 +336,9 @@ Stress: $\sigma = T/A = \rho R^2\omega^2$
 
 (b) $\sigma = \rho R^2\omega^2$
 
-$$\omega = \sqrt{\frac{\sigma}{\rho R^2}} = \sqrt{\frac{200 \times 10^6}{7800 \times 0.25}} = \sqrt{\frac{200 \times 10^6}{1950}} = \sqrt{1.026 \times 10^5} = 320\,\text{rad}\,\text{s}^{-1}$$
+$$
+\omega = \sqrt{\frac{\sigma}{\rho R^2}} = \sqrt{\frac{200 \times 10^6}{7800 \times 0.25}} = \sqrt{\frac{200 \times 10^6}{1950}} = \sqrt{1.026 \times 10^5} = 320\,\text{rad}\,\text{s}^{-1}
+$$
 
 This is about $3060\,\text{rpm}$Or $51\,\text{rev}\,\text{s}^{-1}$.
 
@@ -337,7 +379,9 @@ calculation $U = \frac{1}{2} \times (\text{total weight}) \times (\text{total ex
 (a) The stress varies linearly along the wire. At a distance $y$ from the bottom, the stress is due
 to the weight of wire below:
 
-$$\sigma(y) = \frac{\rho A g y}{A} = \rho g y$$
+$$
+\sigma(y) = \frac{\rho A g y}{A} = \rho g y
+$$
 
 Where $y$ is measured from the bottom ($0 \le y \le L$).
 
@@ -345,28 +389,44 @@ The strain at position $y$: $\varepsilon(y) = \sigma(y)/E = \rho g y/E$
 
 Total extension:
 
-$$\Delta L = \int_0^L \varepsilon(y)\,dy = \int_0^L \frac{\rho g y}{E}\,dy = \frac{\rho g L^2}{2E}$$
+$$
+\Delta L = \int_0^L \varepsilon(y)\,dy = \int_0^L \frac{\rho g y}{E}\,dy = \frac{\rho g L^2}{2E}
+$$
 
-$$= \frac{7800 \times 9.81 \times 100}{2 \times 2.0 \times 10^{11}} = \frac{7.651 \times 10^6}{4.0 \times 10^{11}} = 1.913 \times 10^{-5}\,\text{m} = 0.0191\,\text{mm}$$
+$$
+= \frac{7800 \times 9.81 \times 100}{2 \times 2.0 \times 10^{11}} = \frac{7.651 \times 10^6}{4.0 \times 10^{11}} = 1.913 \times 10^{-5}\,\text{m} = 0.0191\,\text{mm}
+$$
 
 (b) Elastic potential energy per unit volume at position $y$:
 
-$$u(y) = \frac{1}{2}\sigma(y)\varepsilon(y) = \frac{1}{2}\frac{(\rho g y)^2}{E}$$
+$$
+u(y) = \frac{1}{2}\sigma(y)\varepsilon(y) = \frac{1}{2}\frac{(\rho g y)^2}{E}
+$$
 
 Total energy:
 
-$$U = \int_0^L u(y) \times A\,dy = \frac{A}{2E}\int_0^L (\rho g y)^2\,dy = \frac{A\rho^2 g^2 L^3}{6E}$$
+$$
+U = \int_0^L u(y) \times A\,dy = \frac{A}{2E}\int_0^L (\rho g y)^2\,dy = \frac{A\rho^2 g^2 L^3}{6E}
+$$
 
-$$= \frac{1.0 \times 10^{-6} \times (7800)^2 \times (9.81)^2 \times 1000}{6 \times 2.0 \times 10^{11}}$$
+$$
+= \frac{1.0 \times 10^{-6} \times (7800)^2 \times (9.81)^2 \times 1000}{6 \times 2.0 \times 10^{11}}
+$$
 
 Where $7800^2 = 6.084 \times 10^7$$9.81^2 = 96.24$$L^3 = 1000$:
 
-$$= \frac{1.0 \times 10^{-6} \times 6.084 \times 10^7 \times 96.24 \times 10^3}{6 \times 2.0 \times 10^{11}} = \frac{5.855 \times 10^6}{1.2 \times 10^{12}} = 4.879 \times 10^{-6}\,\text{J}$$
+$$
+= \frac{1.0 \times 10^{-6} \times 6.084 \times 10^7 \times 96.24 \times 10^3}{6 \times 2.0 \times 10^{11}} = \frac{5.855 \times 10^6}{1.2 \times 10^{12}} = 4.879 \times 10^{-6}\,\text{J}
+$$
 
 Naive calculation: $U_{\text{naive}} = \frac{1}{2} \times (\rho A L g) \times \Delta L$
 
-$$= \frac{1}{2} \times (7800 \times 1.0 \times 10^{-6} \times 10 \times 9.81) \times 1.913 \times 10^{-5}$$
-$$= \frac{1}{2} \times 0.7651 \times 1.913 \times 10^{-5} = 7.317 \times 10^{-6}\,\text{J}$$
+$$
+= \frac{1}{2} \times (7800 \times 1.0 \times 10^{-6} \times 10 \times 9.81) \times 1.913 \times 10^{-5}
+$$
+$$
+= \frac{1}{2} \times 0.7651 \times 1.913 \times 10^{-5} = 7.317 \times 10^{-6}\,\text{J}
+$$
 
 (c) The ratio is $U_{\text{naive}}/U = 7.317 \times 10^{-6}/4.879 \times 10^{-6} = 1.50$
 

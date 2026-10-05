@@ -22,7 +22,9 @@ description: "When a 2D electron gas (2DEG) is placed in a strong perpendicular 
 When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature,
 the Hall resistance shows quantised plateaux:
 
-$$R_{xy} = \frac{h}{\nu e^2} = \frac{R_K}{\nu}$$
+$$
+R_{xy} = \frac{h}{\nu e^2} = \frac{R_K}{\nu}
+$$
 
 Where $\nu = 1, 2, 3, \ldots$ is an integer and $R_K = h/e^2 \approx 25812.8\,\Omega$ is the von
 Klitzing constant.
@@ -75,7 +77,9 @@ $\kappa$ is thermal conductivity.
 
 The **Mott formula** relates the Seebeck coefficient to the energy derivative of the conductivity:
 
-$$S = -\frac{\pi^2 k_B^2 T}{3e}\frac{d\ln\sigma(\epsilon)}{d\epsilon}\bigg|_{\epsilon_F}$$
+$$
+S = -\frac{\pi^2 k_B^2 T}{3e}\frac{d\ln\sigma(\epsilon)}{d\epsilon}\bigg|_{\epsilon_F}
+$$
 
 Best thermoelectric materials: Bi$_2$Te$_3$ ($ZT \approx 1$ at 300 K), PbTe ($ZT \approx 1.5$ at 700
 K), SnSe ($ZT \approx 2.6$ at 923 K).
@@ -91,13 +95,17 @@ $\nu = n_{2D}h/(eB) = 3 \times 10^{15} \times 6.626 \times 10^{-34}/(1.6 \times 
 The filling factor $\nu \approx 1.24$ is close to $\nu = 1$ So the $\nu = 1$ plateau is observed
 with:
 
-$$R_{xy} = \frac{h}{e^2} = 25812.8\,\Omega$$
+$$
+R_{xy} = \frac{h}{e^2} = 25812.8\,\Omega
+$$
 
 (b) To observe the $\nu = 2$ plateau, we need $B = n_{2D}h/(2e) = 5$ T.
 
 (c) The cyclotron energy at $B = 10$ T:
 
-$$\hbar\omega_c = \hbar\frac{eB}{m^*} = \frac{1.055 \times 10^{-34} \times 1.6 \times 10^{-19} \times 10}{0.067 \times 9.11 \times 10^{-31}} = \frac{1.688 \times 10^{-33}}{6.10 \times 10^{-32}} = 0.0277\,\text{eV} = 27.7\,\text{meV}$$
+$$
+\hbar\omega_c = \hbar\frac{eB}{m^*} = \frac{1.055 \times 10^{-34} \times 1.6 \times 10^{-19} \times 10}{0.067 \times 9.11 \times 10^{-31}} = \frac{1.688 \times 10^{-33}}{6.10 \times 10^{-32}} = 0.0277\,\text{eV} = 27.7\,\text{meV}
+$$
 
 For IQHE plateaux to be resolved: $k_BT \ll \hbar\omega_c$I.e., $T \ll 27.7/0.0862 \approx 321$ K.
 Experiments are done at $T < 4$ K.

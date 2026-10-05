@@ -128,7 +128,9 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 
 A first-order ODE $\frac{dy}{dx} = f(x, y)$ is **separable** if $f(x, y) = g(x)h(y)$.
 
-$$\frac{dy}{dx} = g(x)h(y) \implies \frac{dy}{h(y)} = g(x)\, dx$$
+$$
+\frac{dy}{dx} = g(x)h(y) \implies \frac{dy}{h(y)} = g(x)\, dx
+$$
 
 Integrating both sides: $\int \frac{dy}{h(y)} = \int g(x)\, dx + C$.
 
@@ -141,15 +143,21 @@ $y = Ce^{x^2/2}$ where $C \neq 0$Plus the trivial solution $y = 0$.
 
 A **linear first-order ODE** has the form
 
-$$\frac{dy}{dx} + P(x)y = Q(x)$$
+$$
+\frac{dy}{dx} + P(x)y = Q(x)
+$$
 
 **Theorem 2.1 (Integrating Factor).** The solution is
 
-$$y(x) = e^{-\int P(x)\, dx}\left(\int Q(x) e^{\int P(x)\, dx}\, dx + C\right)$$
+$$
+y(x) = e^{-\int P(x)\, dx}\left(\int Q(x) e^{\int P(x)\, dx}\, dx + C\right)
+$$
 
 _Proof._ Multiply both sides by $\mu(x) = e^{\int P(x)\, dx}$:
 
-$$\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu' y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q$$
+$$
+\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu' y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q
+$$
 
 Integrating: $\mu y = \int \mu Q\, dx + C$. Solving for $y$ gives the result. $\blacksquare$
 
@@ -208,11 +216,15 @@ $\mu(y) = e^{\int \frac{N_x - M_y}{M}\, dy}$.
 
 A **Bernoulli equation** has the form
 
-$$\frac{dy}{dx} + P(x)y = Q(x)y^n$$
+$$
+\frac{dy}{dx} + P(x)y = Q(x)y^n
+$$
 
 Where $n \neq 0, 1$. The substitution $v = y^{1-n}$ transforms it into a linear equation:
 
-$$\frac{dv}{dx} + (1 - n)P(x)v = (1 - n)Q(x)$$
+$$
+\frac{dv}{dx} + (1 - n)P(x)v = (1 - n)Q(x)
+$$
 
 **Example.** Solve $y' + y = y^2 e^x$.
 
@@ -239,7 +251,9 @@ An ODE of the form $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$ is called **homog
 Confused with the linearity sense). The substitution $v = y/x$I.e., $y = vx$Gives $y' = v + xv'$ So
 the equation becomes:
 
-$$v + x\frac{dv}{dx} = F(v) \implies x\frac{dv}{dx} = F(v) - v$$
+$$
+v + x\frac{dv}{dx} = F(v) \implies x\frac{dv}{dx} = F(v) - v
+$$
 
 This is separable: $\frac{dv}{F(v) - v} = \frac{dx}{x}$.
 
@@ -267,12 +281,16 @@ $\frac{y^2}{2x^2} = \ln|x| + C \implies y^2 = 2x^2(\ln|x| + C)$. $\blacksquare$
 
 A **Riccati equation** has the form
 
-$$\frac{dy}{dx} = q_0(x) + q_1(x)y + q_2(x)y^2$$
+$$
+\frac{dy}{dx} = q_0(x) + q_1(x)y + q_2(x)y^2
+$$
 
 If a particular solution $y_1(x)$ is known, the substitution $y = y_1 + \frac{1}{v}$ reduces the
 Riccati equation to a linear first-order equation in $v$:
 
-$$\frac{dv}{dx} = -(q_1 + 2q_2 y_1)v - q_2$$
+$$
+\frac{dv}{dx} = -(q_1 + 2q_2 y_1)v - q_2
+$$
 
 **Example.** Solve $y' = 1 + x^2 - 2xy + y^2$ given that $y_1 = x$ is a particular solution.
 
@@ -404,7 +422,9 @@ $y' = e^{x^2} + \sin(y^2)$ cannot be solved by elementary methods and require nu
 
 A **second-order linear ODE** has the form
 
-$$y'' + p(x)y' + q(x)y = g(x)$$
+$$
+y'' + p(x)y' + q(x)y = g(x)
+$$
 
 **Theorem 3.1.** If $y_1$ and $y_2$ are solutions of the homogeneous equation $y'' + py' + qy = 0$
 Then $c_1 y_1 + c_2 y_2$ is also a solution (superposition principle).
@@ -412,7 +432,9 @@ Then $c_1 y_1 + c_2 y_2$ is also a solution (superposition principle).
 **Theorem 3.2 (Wronskian Criterion).** Two solutions $y_1, y_2$ of the homogeneous equation form a
 **fundamental set** (i.e., span all solutions) if and only if their Wronskian is non-zero:
 
-$$W(y_1, y_2)(x) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} \neq 0$$
+$$
+W(y_1, y_2)(x) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} \neq 0
+$$
 
 **Abel's identity** states that $W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}$.
 
@@ -423,7 +445,9 @@ General solution of the homogeneous equation and $y_p$ is any particular solutio
 
 For $y'' + ay' + by = 0$ with $a, b$ constants, try $y = e^{rx}$:
 
-$$r^2 + ar + b = 0$$
+$$
+r^2 + ar + b = 0
+$$
 
 **Case 1: Two distinct real roots $r_1 \neq r_2$.** $y_h = c_1 e^{r_1 x} + c_2 e^{r_2 x}$.
 
@@ -580,7 +604,9 @@ $y = c_1 e^{-x} + c_2 xe^{-x} - 3e^{-x}\sin x$. $\blacksquare$
 
 Consider the forced harmonic oscillator
 
-$$y'' + \omega_0^2 y = F_0 \cos(\omega t)$$
+$$
+y'' + \omega_0^2 y = F_0 \cos(\omega t)
+$$
 
 **Case 1: $\omega \neq \omega_0$ (Non-resonant).** The particular solution is
 $y_p = \frac{F_0}{\omega_0^2 - \omega^2}\cos(\omega t)$With bounded amplitude.
@@ -592,7 +618,9 @@ $y_p'' + \omega_0^2 y_p = 2A\omega_0 \cos(\omega_0 t) - A\omega_0^2 t\sin(\omega
 
 Setting equal to $F_0 \cos(\omega_0 t)$: $A = \frac{F_0}{2\omega_0}$.
 
-$$y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)$$
+$$
+y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)
+$$
 
 The amplitude grows linearly with $t$ --- this is **resonance**. Physically, the system absorbs
 energy From the periodic forcing at its natural frequency, causing unbounded oscillations.
@@ -625,7 +653,9 @@ $y = t\sin(3t)$. $\blacksquare$
 **Theorem 3.4 (Variation of Parameters).** For $y'' + p(x)y' + q(x)y = g(x)$Let $y_1, y_2$ be a
 Fundamental set of solutions of the homogeneous equation. Then a particular solution is
 
-$$y_p = -y_1 \int \frac{y_2 g}{W}\, dx + y_2 \int \frac{y_1 g}{W}\, dx$$
+$$
+y_p = -y_1 \int \frac{y_2 g}{W}\, dx + y_2 \int \frac{y_1 g}{W}\, dx
+$$
 
 Where $W = W(y_1, y_2) = y_1 y_2' - y_2 y_1'$.
 
@@ -696,11 +726,15 @@ Multiplicity 2). $\blacksquare$
 
 An **Euler-Cauchy (equidimensional) equation** has the form
 
-$$x^2 y'' + axy' + by = 0, \quad x > 0$$
+$$
+x^2 y'' + axy' + by = 0, \quad x > 0
+$$
 
 The substitution $y = x^r$ gives the characteristic equation
 
-$$r(r - 1) + ar + b = r^2 + (a - 1)r + b = 0$$
+$$
+r(r - 1) + ar + b = r^2 + (a - 1)r + b = 0
+$$
 
 **Case 1: Two distinct real roots $r_1 \neq r_2$.** $y_h = c_1 x^{r_1} + c_2 x^{r_2}$.
 
@@ -751,11 +785,15 @@ For $y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1 y' + a_0 y = 0$:
 A mass $m$ on a spring with spring constant $k$ and damping coefficient $c$Subject to external force
 $F(t)$Satisfies
 
-$$mx'' + cx' + kx = F(t)$$
+$$
+mx'' + cx' + kx = F(t)
+$$
 
 Dividing by $m$ and setting $\omega_0 = \sqrt{k/m}$, $\gamma = c/(2m)$:
 
-$$x'' + 2\gamma x' + \omega_0^2 x = \frac{F(t)}{m}$$
+$$
+x'' + 2\gamma x' + \omega_0^2 x = \frac{F(t)}{m}
+$$
 
 The homogeneous solution depends on the discriminant $\gamma^2 - \omega_0^2$:
 
@@ -786,7 +824,9 @@ Prefer undetermined coefficients --- it is much faster.
 **Theorem 3.6 (Abel's Identity).** If $y_1, y_2$ are solutions of $y'' + p(x)y' + q(x)y = 0$ Then
 their Wronskian satisfies
 
-$$W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}$$
+$$
+W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}
+$$
 
 _Proof._ Since $y_1, y_2$ satisfy the ODE:
 
@@ -835,7 +875,9 @@ $y = c_1 e^{2x} + c_2 e^{-2x} - \frac{(x+2)e^x}{9}$. $\blacksquare$
 
 A system of first-order linear ODEs can be written in matrix form:
 
-$$\mathbf{x}' = A\mathbf{x} + \mathbf{f}(t)$$
+$$
+\mathbf{x}' = A\mathbf{x} + \mathbf{f}(t)
+$$
 
 Where $A$ is an $n \times n$ matrix and $\mathbf{x}, \mathbf{f} \in \mathbb{R}^n$.
 
@@ -843,13 +885,17 @@ Where $A$ is an $n \times n$ matrix and $\mathbf{x}, \mathbf{f} \in \mathbb{R}^n
 
 For $\mathbf{x}' = A\mathbf{x}$Try $\mathbf{x} = \mathbf{v}e^{\lambda t}$:
 
-$$\lambda \mathbf{v} = A\mathbf{v}$$
+$$
+\lambda \mathbf{v} = A\mathbf{v}
+$$
 
 So $\lambda$ is an eigenvalue of $A$ and $\mathbf{v}$ is the corresponding eigenvector.
 
 **Case 1: $A$ has $n$ distinct real eigenvalues.** The general solution is
 
-$$\mathbf{x} = c_1 \mathbf{v}_1 e^{\lambda_1 t} + \cdots + c_n \mathbf{v}_n e^{\lambda_n t}$$
+$$
+\mathbf{x} = c_1 \mathbf{v}_1 e^{\lambda_1 t} + \cdots + c_n \mathbf{v}_n e^{\lambda_n t}
+$$
 
 **Case 2: $A$ has a repeated eigenvalue $\lambda$ with algebraic multiplicity $m$ and geometric
 Multiplicity $k \lt m$.** Include terms involving $t^j e^{\lambda t}$ where generalized Eigenvectors
@@ -995,7 +1041,9 @@ _Remark._ The **trace-determinant plane** provides a convenient classification. 
 $\tau = \mathrm{tr}(A)$ and $\Delta = \det(A)$. The eigenvalues satisfy
 $\lambda^2 - \tau\lambda + \Delta = 0$ So:
 
-$$\lambda = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}$$
+$$
+\lambda = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}
+$$
 
 - $\tau^2 - 4\Delta > 0$: real eigenvalues (node or saddle)
 - $\tau^2 - 4\Delta \lt 0$: complex eigenvalues (spiral or center)
@@ -1008,7 +1056,9 @@ Stability is determined by the sign of $\tau$: stable if $\tau \lt 0$Unstable if
 For $\mathbf{x}' = A\mathbf{x} + \mathbf{f}(t)$If $\Phi(t)$ is a fundamental matrix for the
 Homogeneous system, the general solution is
 
-$$\mathbf{x}(t) = \Phi(t)\mathbf{c} + \Phi(t)\int \Phi^{-1}(s)\mathbf{f}(s)\, ds$$
+$$
+\mathbf{x}(t) = \Phi(t)\mathbf{c} + \Phi(t)\int \Phi^{-1}(s)\mathbf{f}(s)\, ds
+$$
 
 **Worked Example.** Solve
 $\mathbf{x}' = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}\mathbf{x} + \begin{pmatrix} e^t \\ 0 \end{pmatrix}$.
@@ -1037,7 +1087,9 @@ $\blacksquare$
 
 The **Laplace transform** of $f(t)$ (defined for $t \geq 0$) is
 
-$$\mathcal{L}\{f(t)\} = F(s) = \int_0^{\infty} e^{-st} f(t)\, dt$$
+$$
+\mathcal{L}\{f(t)\} = F(s) = \int_0^{\infty} e^{-st} f(t)\, dt
+$$
 
 The transform exists when $f$ is piecewise continuous on $[0, \infty)$ and of **exponential order**:
 $|f(t)| \leq Me^{at}$ for some $M, a > 0$.
@@ -1154,7 +1206,9 @@ $f(t) = \frac{1}{4} - \frac{1}{4}\cos 2t$. $\blacksquare$
 
 **Theorem 5.8 (Convolution).** If $F(s) = \mathcal{L}\{f(t)\}$ and $G(s) = \mathcal{L}\{g(t)\}$ Then
 
-$$\mathcal{L}\{f * g\} = F(s)G(s)$$
+$$
+\mathcal{L}\{f * g\} = F(s)G(s)
+$$
 
 Where $(f * g)(t) = \int_0^t f(\tau)g(t - \tau)\, d\tau$.
 
@@ -1233,11 +1287,15 @@ $\blacksquare$
 
 The **Heaviside (unit step) function** is defined as
 
-$$u_c(t) = \begin{cases} 0 & t \lt c \\ 1 & t \geq c \end{cases}$$
+$$
+u_c(t) = \begin{cases} 0 & t \lt c \\ 1 & t \geq c \end{cases}
+$$
 
 It models a sudden switch being turned on at time $t = c$. The second shifting theorem states:
 
-$$\mathcal{L}\{u_c(t)f(t - c)\} = e^{-cs}F(s)$$
+$$
+\mathcal{L}\{u_c(t)f(t - c)\} = e^{-cs}F(s)
+$$
 
 Conversely, if $Y(s) = e^{-cs}G(s)$ Then $y(t) = u_c(t) \cdot g(t - c)$ where
 $g = \mathcal{L}^{-1}\{G\}$.
@@ -1313,7 +1371,9 @@ the step.
 The Picard-Lindelöf theorem can be proved constructively via **Picard iteration**. For the IVP
 $y' = f(x, y)$, $y(x_0) = y_0$Define the sequence
 
-$$\phi_0(x) = y_0, \quad \phi_{n+1}(x) = y_0 + \int_{x_0}^x f(t, \phi_n(t))\, dt$$
+$$
+\phi_0(x) = y_0, \quad \phi_{n+1}(x) = y_0 + \int_{x_0}^x f(t, \phi_n(t))\, dt
+$$
 
 If $f$ and $\partial f/\partial y$ are continuous, one shows by induction that $(\phi_n)$ is
 uniformly Cauchy on some interval $[x_0 - h, x_0 + h]$Hence converges uniformly to a function
@@ -1344,7 +1404,9 @@ Are two linearly independent solutions of the form $x^{r_1}\sum a_n x^n$ and $x^
 
 Bessel's equation of order $\nu$:
 
-$$x^2 y'' + xy' + (x^2 - \nu^2)y = 0$$
+$$
+x^2 y'' + xy' + (x^2 - \nu^2)y = 0
+$$
 
 For $\nu \notin \mathbb{Z}$The solutions are $J_\nu(x)$ and $J_{-\nu}(x)$ (Bessel functions of the
 First kind). For $\nu = n \in \mathbb{N}$The second solution is the Weber function $Y_n(x)$.
@@ -1471,21 +1533,31 @@ $\blacksquare$
 
 A **Fourier series** of a $2\pi$-periodic function $f$ is
 
-$$f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos(nx) + b_n \sin(nx)\right)$$
+$$
+f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos(nx) + b_n \sin(nx)\right)
+$$
 
 Where
 
-$$a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\, dx, \quad b_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\sin(nx)\, dx$$
+$$
+a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\, dx, \quad b_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\sin(nx)\, dx
+$$
 
 ### 7.2 Derivation of Fourier Coefficients
 
 The Fourier coefficients are derived using the orthogonality relations on $[-\pi, \pi]$:
 
-$$\int_{-\pi}^{\pi} \cos(mx)\cos(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 2\pi & m = n = 0 \\ 0 & m \neq n \end{cases}$$
+$$
+\int_{-\pi}^{\pi} \cos(mx)\cos(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 2\pi & m = n = 0 \\ 0 & m \neq n \end{cases}
+$$
 
-$$\int_{-\pi}^{\pi} \sin(mx)\sin(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 0 & m \neq n \end{cases}$$
+$$
+\int_{-\pi}^{\pi} \sin(mx)\sin(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 0 & m \neq n \end{cases}
+$$
 
-$$\int_{-\pi}^{\pi} \cos(mx)\sin(nx)\, dx = 0 \quad \mathrm{for}\; all\; m, n$$
+$$
+\int_{-\pi}^{\pi} \cos(mx)\sin(nx)\, dx = 0 \quad \mathrm{for}\; all\; m, n
+$$
 
 To find $a_n$Multiply both sides of the Fourier expansion by $\cos(nx)$ and integrate over
 $[-\pi, \pi]$. By orthogonality, all terms vanish except the $\cos(nx)$ term, yielding
@@ -1501,7 +1573,9 @@ Series converges to:
 
 ### 7.4 Parseval's Identity
 
-$$\frac{1}{\pi}\int_{-\pi}^{\pi} |f(x)|^2\, dx = \frac{a_0^2}{2} + \sum_{n=1}^{\infty}(a_n^2 + b_n^2)$$
+$$
+\frac{1}{\pi}\int_{-\pi}^{\pi} |f(x)|^2\, dx = \frac{a_0^2}{2} + \sum_{n=1}^{\infty}(a_n^2 + b_n^2)
+$$
 
 _Intuition._ Parseval's identity is the infinite-dimensional analogue of the Pythagorean theorem:
 The "energy" of $f$ (its $L^2$ norm squared) equals the sum of the energies of its Fourier
@@ -1564,7 +1638,9 @@ identity $\sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n^2} = \frac{\pi^2}{12}$. $\blac
 
 Using Euler's formula, the Fourier series can be written in complex form:
 
-$$f(x) \sim \sum_{n=-\infty}^{\infty} c_n e^{inx}$$
+$$
+f(x) \sim \sum_{n=-\infty}^{\infty} c_n e^{inx}
+$$
 
 Where $c_n = \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-inx}\, dx$.
 
@@ -1597,7 +1673,9 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 
 The general second-order linear PDE in two variables is
 
-$$A u_{xx} + B u_{xy} + C u_{yy} + D u_x + E u_y + F u = G$$
+$$
+A u_{xx} + B u_{xy} + C u_{yy} + D u_x + E u_y + F u = G
+$$
 
 - **Elliptic** ($B^2 - 4AC \lt 0$): e.g., Laplace's equation $u_{xx} + u_{yy} = 0$.
 - **Parabolic** ($B^2 - 4AC = 0$): e.g., the heat equation $u_t = \alpha^2 u_{xx}$.
@@ -1605,7 +1683,9 @@ $$A u_{xx} + B u_{xy} + C u_{yy} + D u_x + E u_y + F u = G$$
 
 ### 8.2 The Heat Equation
 
-$$u_t = \alpha^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0$$
+$$
+u_t = \alpha^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0
+$$
 
 With boundary conditions $u(0, t) = u(L, t) = 0$ and initial condition $u(x, 0) = f(x)$.
 
@@ -1615,15 +1695,21 @@ Consider a thin rod of length $L$ with uniform cross-section and density $\rho$.
 the Temperature at position $x$ and time $t$. By **Fourier's law of heat conduction**, the heat flux
 Through a cross-section is proportional to the negative temperature gradient:
 
-$$q = -\kappa u_x$$
+$$
+q = -\kappa u_x
+$$
 
 Where $\kappa$ is the thermal conductivity. Conservation of energy on $[x, x + \Delta x]$:
 
-$$\rho c \frac{\partial u}{\partial t} \Delta x = q(x) - q(x + \Delta x) = -\kappa u_x(x) + \kappa u_x(x + \Delta x)$$
+$$
+\rho c \frac{\partial u}{\partial t} \Delta x = q(x) - q(x + \Delta x) = -\kappa u_x(x) + \kappa u_x(x + \Delta x)
+$$
 
 Dividing by $\Delta x$ and taking $\Delta x \to 0$:
 
-$$\rho c \, u_t = \kappa u_{xx} \implies u_t = \frac{\kappa}{\rho c} u_{xx} = \alpha^2 u_{xx}$$
+$$
+\rho c \, u_t = \kappa u_{xx} \implies u_t = \frac{\kappa}{\rho c} u_{xx} = \alpha^2 u_{xx}
+$$
 
 Where $\alpha^2 = \kappa/(\rho c)$ is the **thermal diffusivity**.
 
@@ -1631,7 +1717,9 @@ Where $\alpha^2 = \kappa/(\rho c)$ is the **thermal diffusivity**.
 
 Assume $u(x, t) = X(x)T(t)$. Substituting:
 
-$$X T' = \alpha^2 X'' T \implies \frac{T'}{\alpha^2 T} = \frac{X''}{X} = -\lambda$$
+$$
+X T' = \alpha^2 X'' T \implies \frac{T'}{\alpha^2 T} = \frac{X''}{X} = -\lambda
+$$
 
 This gives two ODEs:
 
@@ -1644,7 +1732,9 @@ The corresponding $T_n(t) = e^{-\alpha^2 (n\pi/L)^2 t}$.
 
 By superposition:
 
-$$u(x, t) = \sum_{n=1}^{\infty} b_n \sin\frac{n\pi x}{L} e^{-\alpha^2 (n\pi/L)^2 t}$$
+$$
+u(x, t) = \sum_{n=1}^{\infty} b_n \sin\frac{n\pi x}{L} e^{-\alpha^2 (n\pi/L)^2 t}
+$$
 
 Where $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\, dx$ (the sine series coefficients of
 $f$).
@@ -1662,7 +1752,9 @@ $u(x, t) = e^{-4t}\sin(2x) + 3e^{-25t}\sin(5x)$. $\blacksquare$
 
 ### 8.6 The Wave Equation
 
-$$u_{tt} = c^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0$$
+$$
+u_{tt} = c^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0
+$$
 
 With boundary conditions $u(0, t) = u(L, t) = 0$ And initial conditions $u(x, 0) = f(x)$
 $u_t(x, 0) = g(x)$.
@@ -1672,25 +1764,37 @@ $u_t(x, 0) = g(x)$.
 Consider a string of length $L$ under tension $T$. Let $u(x, t)$ be the vertical displacement. For A
 small segment $[x, x + \Delta x]$Newton's second law in the vertical direction gives:
 
-$$\rho \Delta x \, u_{tt} = T\sin\theta(x + \Delta x) - T\sin\theta(x)$$
+$$
+\rho \Delta x \, u_{tt} = T\sin\theta(x + \Delta x) - T\sin\theta(x)
+$$
 
 For small displacements, $\sin\theta \approx \tan\theta = u_x$ So:
 
-$$\rho \, u_{tt} = T \frac{u_x(x + \Delta x) - u_x(x)}{\Delta x} \xrightarrow{\Delta x \to 0} T u_{xx}$$
+$$
+\rho \, u_{tt} = T \frac{u_x(x + \Delta x) - u_x(x)}{\Delta x} \xrightarrow{\Delta x \to 0} T u_{xx}
+$$
 
-$$u_{tt} = \frac{T}{\rho} u_{xx} = c^2 u_{xx}, \quad c = \sqrt{T/\rho}$$
+$$
+u_{tt} = \frac{T}{\rho} u_{xx} = c^2 u_{xx}, \quad c = \sqrt{T/\rho}
+$$
 
 ### 8.8 Solving the Wave Equation
 
 Separation of variables $u(x, t) = X(x)T(t)$ gives:
 
-$$X'' + \lambda X = 0, \quad T'' + c^2 \lambda T = 0$$
+$$
+X'' + \lambda X = 0, \quad T'' + c^2 \lambda T = 0
+$$
 
 With $\lambda_n = (n\pi/L)^2$:
 
-$$X_n(x) = \sin\frac{n\pi x}{L}, \quad T_n(t) = a_n \cos\frac{cn\pi t}{L} + b_n \sin\frac{cn\pi t}{L}$$
+$$
+X_n(x) = \sin\frac{n\pi x}{L}, \quad T_n(t) = a_n \cos\frac{cn\pi t}{L} + b_n \sin\frac{cn\pi t}{L}
+$$
 
-$$u(x, t) = \sum_{n=1}^{\infty} \sin\frac{n\pi x}{L}\left(a_n \cos\frac{cn\pi t}{L} + b_n \sin\frac{cn\pi t}{L}\right)$$
+$$
+u(x, t) = \sum_{n=1}^{\infty} \sin\frac{n\pi x}{L}\left(a_n \cos\frac{cn\pi t}{L} + b_n \sin\frac{cn\pi t}{L}\right)
+$$
 
 Where $a_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\, dx$ and
 $b_n = \frac{2}{cn\pi}\int_0^L g(x)\sin\frac{n\pi x}{L}\, dx$.
@@ -1699,13 +1803,17 @@ $b_n = \frac{2}{cn\pi}\int_0^L g(x)\sin\frac{n\pi x}{L}\, dx$.
 
 For the wave equation on $-\infty \lt x \lt \infty$:
 
-$$u(x, t) = \frac{f(x + ct) + f(x - ct)}{2} + \frac{1}{2c}\int_{x - ct}^{x + ct} g(s)\, ds$$
+$$
+u(x, t) = \frac{f(x + ct) + f(x - ct)}{2} + \frac{1}{2c}\int_{x - ct}^{x + ct} g(s)\, ds
+$$
 
 This represents the solution as a superposition of right-moving and left-moving waves.
 
 ### 8.10 Laplace's Equation
 
-$$u_{xx} + u_{yy} = 0$$
+$$
+u_{xx} + u_{yy} = 0
+$$
 
 On a domain $\Omega \subseteq \mathbb{R}^2$With boundary conditions on $\partial\Omega$.
 
@@ -1770,7 +1878,9 @@ $\blacksquare$
 
 A **Sturm-Liouville problem** consists of the ODE
 
-$$(p(x)y')' + [\lambda w(x) - q(x)]y = 0$$
+$$
+(p(x)y')' + [\lambda w(x) - q(x)]y = 0
+$$
 
 On $[a, b]$ with homogeneous boundary conditions, where $p, w > 0$ and $p, p', q, w$ are continuous.
 
@@ -1791,7 +1901,9 @@ $p = 1$, $q = 0$, $w = 1$.
 When the boundary specifies the derivative (heat flux) rather than the value, we have **Neumann
 Conditions**. For the heat equation:
 
-$$u_x(0, t) = 0, \quad u_x(L, t) = 0$$
+$$
+u_x(0, t) = 0, \quad u_x(L, t) = 0
+$$
 
 (insulated ends). The separation of variables gives $X'(0) = X'(L) = 0$Yielding eigenvalues
 $\lambda_0 = 0$ with $X_0 = 1$ And $\lambda_n = (n\pi/L)^2$ for $n \geq 1$ with
@@ -1799,7 +1911,9 @@ $X_n = \cos(n\pi x/L)$.
 
 The solution is
 
-$$u(x, t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos\frac{n\pi x}{L} e^{-\alpha^2 (n\pi/L)^2 t}$$
+$$
+u(x, t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos\frac{n\pi x}{L} e^{-\alpha^2 (n\pi/L)^2 t}
+$$
 
 Where $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\, dx$.
 
@@ -1941,7 +2055,9 @@ much more complex behaviour (chaos) is possible.
 
 **Example: Van der Pol oscillator.** The equation
 
-$$x'' + \mu(x^2 - 1)x' + x = 0$$
+$$
+x'' + \mu(x^2 - 1)x' + x = 0
+$$
 
 With $\mu > 0$ has a unique stable limit cycle. This system models electrical circuits with
 Nonlinear resistance and arises in biology (cardiac rhythms, neuron firing).
@@ -1974,7 +2090,9 @@ $\blacksquare$
 
 The competing species model is:
 
-$$x' = x(r_1 - a_{11}x - a_{12}y), \quad y' = y(r_2 - a_{21}x - a_{22}y)$$
+$$
+x' = x(r_1 - a_{11}x - a_{12}y), \quad y' = y(r_2 - a_{21}x - a_{22}y)
+$$
 
 Where $r_i > 0$ are growth rates and $a_{ij} > 0$ are competition coefficients. The four critical
 Points are $(0, 0)$, $(r_1/a_{11}, 0)$, $(0, r_2/a_{22})$ And the coexistence point $(x^*, y^*)$
@@ -2547,9 +2665,13 @@ Evaluate $\displaystyle\int_0^2 (3x^2 + 2x)\,dx$.
 
 **Solution:**
 
-$$\int (3x^2 + 2x)\,dx = x^3 + x^2 + c$$
+$$
+\int (3x^2 + 2x)\,dx = x^3 + x^2 + c
+$$
 
-$$\left[x^3 + x^2\right]_0^2 = (8 + 4) - (0) = 12$$
+$$
+\left[x^3 + x^2\right]_0^2 = (8 + 4) - (0) = 12
+$$
 
 **Example 2: Integration by parts**
 
@@ -2559,7 +2681,9 @@ Find $\displaystyle\int x e^{2x}\,dx$.
 
 Let $u = x \implies \frac{du}{dx} = 1$ and $\frac{dv}{dx} = e^{2x} \implies v = \frac{1}{2}e^{2x}$.
 
-$$\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \frac{x e^{2x}}{2} - \frac{e^{2x}}{4} + c = \frac{e^{2x}(2x - 1)}{4} + c$$
+$$
+\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \frac{x e^{2x}}{2} - \frac{e^{2x}}{4} + c = \frac{e^{2x}(2x - 1)}{4} + c
+$$
 
 ```mermaid
 flowchart TD

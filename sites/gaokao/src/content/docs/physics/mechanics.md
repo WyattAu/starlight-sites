@@ -23,9 +23,15 @@ description: "Study notes for Mechanics with worked examples, practice problems,
 ### 匀变速直线运动
 
 **基本公式：**
-$$v = v_0 + at$$
-$$x = v_0 t + \frac{1}{2}at^2$$
-$$v^2 = v_0^2 + 2ax$$
+$$
+v = v_0 + at
+$$
+$$
+x = v_0 t + \frac{1}{2}at^2
+$$
+$$
+v^2 = v_0^2 + 2ax
+$$
 
 **平均速度：** $\bar{v} = \frac{v_0 + v}{2} = \frac{x}{t}$
 
@@ -74,7 +80,9 @@ $$v^2 = v_0^2 + 2ax$$
 步骤2：逆向思维，将匀减速的最后 $2\,\text{s}$ 等价为初速度为零的匀加速运动的前 $2\,\text{s}$
 
 步骤3：计算位移：
-$$x = \frac{1}{2}at^2 = \frac{1}{2} \times 4 \times 2^2 = 8\,\text{m}$$
+$$
+x = \frac{1}{2}at^2 = \frac{1}{2} \times 4 \times 2^2 = 8\,\text{m}
+$$
 
 **答案：** 最后 $2\,\text{s}$ 内的位移为 $8\,\text{m}$
 
@@ -85,10 +93,14 @@ $$x = \frac{1}{2}at^2 = \frac{1}{2} \times 4 \times 2^2 = 8\,\text{m}$$
 **解答：**
 
 步骤1：求合力大小：
-$$F = \sqrt{F_1^2 + F_2^2} = \sqrt{36 + 64} = 10\,\text{N}$$
+$$
+F = \sqrt{F_1^2 + F_2^2} = \sqrt{36 + 64} = 10\,\text{N}
+$$
 
 步骤2：由牛顿第二定律：
-$$a = \frac{F}{m} = \frac{10}{2} = 5\,\text{m/s}^2$$
+$$
+a = \frac{F}{m} = \frac{10}{2} = 5\,\text{m/s}^2
+$$
 
 步骤3：合力方向：$\tan\theta = \frac{F_2}{F_1} = \frac{8}{6} = \frac{4}{3}$
 
@@ -103,7 +115,9 @@ $$a = \frac{F}{m} = \frac{10}{2} = 5\,\text{m/s}^2$$
 步骤1：由机械能守恒：$mgh = \frac{1}{2}mv^2$
 
 步骤2：解得：
-$$v = \sqrt{2gh} = \sqrt{2 \times 10 \times 10} = \sqrt{200} = 10\sqrt{2}\,\text{m/s}$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 10 \times 10} = \sqrt{200} = 10\sqrt{2}\,\text{m/s}
+$$
 
 **答案：** 落地速度为 $10\sqrt{2}\,\text{m/s}$
 
@@ -127,12 +141,16 @@ $$v = \sqrt{2gh} = \sqrt{2 \times 10 \times 10} = \sqrt{200} = 10\sqrt{2}\,\text
 **解答：**
 
 步骤1：由竖直方向自由落体：
-$$v_y = \sqrt{2gh} = \sqrt{2 \times 10 \times 20} = 20\,\text{m/s}$$
+$$
+v_y = \sqrt{2gh} = \sqrt{2 \times 10 \times 20} = 20\,\text{m/s}
+$$
 
 步骤2：水平速度保持不变：$v_x = 15\,\text{m/s}$
 
 步骤3：合速度：
-$$v = \sqrt{v_x^2 + v_y^2} = \sqrt{225 + 400} = \sqrt{625} = 25\,\text{m/s}$$
+$$
+v = \sqrt{v_x^2 + v_y^2} = \sqrt{225 + 400} = \sqrt{625} = 25\,\text{m/s}
+$$
 
 步骤4：速度方向：$\tan\theta = \frac{v_y}{v_x} = \frac{20}{15} = \frac{4}{3}$，$\theta = 53°$
 
@@ -145,13 +163,19 @@ $$v = \sqrt{v_x^2 + v_y^2} = \sqrt{225 + 400} = \sqrt{625} = 25\,\text{m/s}$$
 **解答：**
 
 步骤1：由动量守恒定律：
-$$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'$$
+$$
+m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'
+$$
 
 步骤2：代入数据（$v_2 = 0$）：
-$$3 \times 4 + 1 \times 0 = 3 \times 2 + 1 \times v_2'$$
+$$
+3 \times 4 + 1 \times 0 = 3 \times 2 + 1 \times v_2'
+$$
 
 步骤3：解得：
-$$12 = 6 + v_2' \implies v_2' = 6\,\text{m/s}$$
+$$
+12 = 6 + v_2' \implies v_2' = 6\,\text{m/s}
+$$
 
 **答案：** $m_2$ 的速度为 $6\,\text{m/s}$
 
@@ -162,13 +186,19 @@ $$12 = 6 + v_2' \implies v_2' = 6\,\text{m/s}$$
 **解答：**
 
 步骤1：由能量守恒，重力势能全部转化为摩擦力做的功：
-$$mgh = \mu mg \cdot s$$
+$$
+mgh = \mu mg \cdot s
+$$
 
 步骤2：消去 $mg$：
-$$h = \mu s$$
+$$
+h = \mu s
+$$
 
 步骤3：代入数据：
-$$5 = \mu \times 10 \implies \mu = 0.5$$
+$$
+5 = \mu \times 10 \implies \mu = 0.5
+$$
 
 **答案：** 摩擦系数为 $0.5$
 
@@ -200,16 +230,24 @@ $$5 = \mu \times 10 \implies \mu = 0.5$$
 **解答：**
 
 步骤1：物体刚放上传送带时，速度为零，受到向右的滑动摩擦力：
-$$f = \mu mg = 0.2 \times 2 \times 10 = 4\,\text{N}$$
+$$
+f = \mu mg = 0.2 \times 2 \times 10 = 4\,\text{N}
+$$
 
 步骤2：由牛顿第二定律，加速度：
-$$a = \frac{f}{m} = \frac{4}{2} = 2\,\text{m/s}^2$$
+$$
+a = \frac{f}{m} = \frac{4}{2} = 2\,\text{m/s}^2
+$$
 
 步骤3：物体加速到与传送带速度相同所需时间：
-$$t_1 = \frac{v}{a} = \frac{4}{2} = 2\,\text{s}$$
+$$
+t_1 = \frac{v}{a} = \frac{4}{2} = 2\,\text{s}
+$$
 
 步骤4：加速阶段位移：
-$$x_1 = \frac{1}{2}at_1^2 = \frac{1}{2} \times 2 \times 4 = 4\,\text{m}$$
+$$
+x_1 = \frac{1}{2}at_1^2 = \frac{1}{2} \times 2 \times 4 = 4\,\text{m}
+$$
 
 步骤5：由于 $x_1 = 4\,\text{m} < L = 8\,\text{m}$，物体先加速后匀速。
 
@@ -228,18 +266,30 @@ $$x_1 = \frac{1}{2}at_1^2 = \frac{1}{2} \times 2 \times 4 = 4\,\text{m}$$
 **解答：**
 
 步骤1：物块和木板组成的系统在水平方向不受外力，动量守恒：
-$$mv_0 = (M + m)v$$
+$$
+mv_0 = (M + m)v
+$$
 
 步骤2：代入数据：
-$$1 \times 5 = (4 + 1)v \implies v = 1\,\text{m/s}$$
+$$
+1 \times 5 = (4 + 1)v \implies v = 1\,\text{m/s}
+$$
 
 步骤3：由能量守恒，摩擦力做功等于系统动能的减少：
-$$\mu mg \cdot s = \frac{1}{2}mv_0^2 - \frac{1}{2}(M + m)v^2$$
+$$
+\mu mg \cdot s = \frac{1}{2}mv_0^2 - \frac{1}{2}(M + m)v^2
+$$
 
 步骤4：代入数据：
-$$0.4 \times 1 \times 10 \times s = \frac{1}{2} \times 1 \times 25 - \frac{1}{2} \times 5 \times 1$$
-$$4s = 12.5 - 2.5 = 10$$
-$$s = 2.5\,\text{m}$$
+$$
+0.4 \times 1 \times 10 \times s = \frac{1}{2} \times 1 \times 25 - \frac{1}{2} \times 5 \times 1
+$$
+$$
+4s = 12.5 - 2.5 = 10
+$$
+$$
+s = 2.5\,\text{m}
+$$
 
 **答案：** 共同速度为 $1\,\text{m/s}$，物块在木板上滑行 $2.5\,\text{m}$
 
@@ -250,15 +300,25 @@ $$s = 2.5\,\text{m}$$
 **解答：**
 
 步骤1：由动量守恒：
-$$mv_0 = m \cdot \frac{v_0}{2} + Mv$$
+$$
+mv_0 = m \cdot \frac{v_0}{2} + Mv
+$$
 
 步骤2：解得木块速度：
-$$v = \frac{mv_0}{2M}$$
+$$
+v = \frac{mv_0}{2M}
+$$
 
 步骤3：由能量守恒验证：
-$$Q = \frac{1}{2}mv_0^2 - \frac{1}{2}m\left(\frac{v_0}{2}\right)^2 - \frac{1}{2}Mv^2$$
-$$= \frac{1}{2}mv_0^2 - \frac{1}{8}mv_0^2 - \frac{1}{2}M \cdot \frac{m^2 v_0^2}{4M^2}$$
-$$= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}$$
+$$
+Q = \frac{1}{2}mv_0^2 - \frac{1}{2}m\left(\frac{v_0}{2}\right)^2 - \frac{1}{2}Mv^2
+$$
+$$
+= \frac{1}{2}mv_0^2 - \frac{1}{8}mv_0^2 - \frac{1}{2}M \cdot \frac{m^2 v_0^2}{4M^2}
+$$
+$$
+= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}
+$$
 
 **答案：** 木块获得的速度为 $\dfrac{mv_0}{2M}$
 

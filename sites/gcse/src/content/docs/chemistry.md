@@ -66,7 +66,9 @@ properties (different masses).
 **Relative atomic mass ($A_r$):** The weighted average mass of an atom of an element relative to
 1/12 the mass of a carbon-12 atom.
 
-$$A_r = \frac{\sum (\text{isotope abundance} \times \text{isotope mass})}{\sum (\text{isotope abundance})}$$
+$$
+A_r = \frac{\sum (\text{isotope abundance} \times \text{isotope mass})}{\sum (\text{isotope abundance})}
+$$
 
 ### 1.3 Electron Configuration
 
@@ -111,7 +113,9 @@ attraction between oppositely charged ions is the ionic bond.
 
 **Example.** Sodium chloride:
 
-$$\text{Na} \rightarrow \text{Na}^+ + e^- \qquad \text{Cl} + e^- \rightarrow \text{Cl}^-$$
+$$
+\text{Na} \rightarrow \text{Na}^+ + e^- \qquad \text{Cl} + e^- \rightarrow \text{Cl}^-
+$$
 
 **Dot-and-cross diagram for NaCl:**
 
@@ -178,7 +182,9 @@ the lattice, making it harder for layers to slide, alloys are harder than pure m
 
 The reactivity series ranks metals from most reactive to least reactive:
 
-$$\text{K} > \text{Na} > \text{Li} > \text{Ca} > \text{Mg} > \text{Al} > \text{(C)} > \text{Zn} > \text{Fe} > \text{(H)} > \text{Cu} > \text{Ag} > \text{Au}$$
+$$
+\text{K} > \text{Na} > \text{Li} > \text{Ca} > \text{Mg} > \text{Al} > \text{(C)} > \text{Zn} > \text{Fe} > \text{(H)} > \text{Cu} > \text{Ag} > \text{Au}
+$$
 
 - A more reactive metal displaces a less reactive metal from its compound.
 - Carbon and hydrogen are included as reference points.
@@ -188,12 +194,16 @@ $$\text{K} > \text{Na} > \text{Li} > \text{Ca} > \text{Mg} > \text{Al} > \text{(
 **Metal displacement:** A more reactive metal displaces a less reactive metal from its salt
 solution.
 
-$$\text{Zn(s)} + \text{CuSO}_4\text{(aq)} \rightarrow \text{ZnSO}_4\text{(aq)} + \text{Cu(s)}$$
+$$
+\text{Zn(s)} + \text{CuSO}_4\text{(aq)} \rightarrow \text{ZnSO}_4\text{(aq)} + \text{Cu(s)}
+$$
 
 **Halogen displacement:** A more reactive halogen displaces a less reactive halogen from its
 solution.
 
-$$\text{Cl}_2\text{(aq)} + 2\text{KBr(aq)} \rightarrow 2\text{KCl(aq)} + \text{Br}_2\text{(aq)}$$
+$$
+\text{Cl}_2\text{(aq)} + 2\text{KBr(aq)} \rightarrow 2\text{KCl(aq)} + \text{Br}_2\text{(aq)}
+$$
 
 Reactivity of halogens decreases down the group: $\text{F} > \text{Cl} > \text{Br} > \text{I}$.
 
@@ -207,7 +217,9 @@ Reactivity of halogens decreases down the group: $\text{F} > \text{Cl} > \text{B
 
 **Iron extraction in the blast furnace:**
 
-$$\text{Fe}_2\text{O}_3 + 3\text{CO} \rightarrow 2\text{Fe} + 3\text{CO}_2$$
+$$
+\text{Fe}_2\text{O}_3 + 3\text{CO} \rightarrow 2\text{Fe} + 3\text{CO}_2
+$$
 
 Carbon (coke) reduces iron(III) oxide to iron. Limestone removes impurities as slag.
 
@@ -233,7 +245,9 @@ range.
 
 ### 3.5 Neutralisation and Salt Preparation
 
-$$\text{acid} + \text{base} \rightarrow \text{salt} + \text{water}$$
+$$
+\text{acid} + \text{base} \rightarrow \text{salt} + \text{water}
+$$
 
 **Preparing a soluble salt:**
 
@@ -287,7 +301,9 @@ no atoms are created or destroyed in a chemical reaction.
 
 ### 4.2 Relative Formula Mass ($M_r$)
 
-$$M_r = \sum (\text{relative atomic masses of atoms in the formula})$$
+$$
+M_r = \sum (\text{relative atomic masses of atoms in the formula})
+$$
 
 **Example.** $M_r(\text{H}_2\text{SO}_4) = (2 \times 1) + 32 + (4 \times 16) = 98$
 
@@ -295,7 +311,9 @@ $$M_r = \sum (\text{relative atomic masses of atoms in the formula})$$
 
 One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro"s constant, $N_A$).
 
-$$\text{Number of moles} = \frac{\text{mass (g)}}{M_r}$$
+$$
+\text{Number of moles} = \frac{\text{mass (g)}}{M_r}
+$$
 
 **Example.** 24 g of carbon: $\frac{24}{12} = 2 \text{ mol}$
 
@@ -305,7 +323,9 @@ Using the mole ratio from a balanced equation to calculate masses of reactants o
 
 **Example.** What mass of magnesium oxide is formed when 12 g of magnesium reacts with oxygen?
 
-$$2\text{Mg} + \text{O}_2 \rightarrow 2\text{MgO}$$
+$$
+2\text{Mg} + \text{O}_2 \rightarrow 2\text{MgO}
+$$
 
 1. Moles of Mg: $\frac{12}{24} = 0.5 \text{ mol}$
 2. Ratio Mg:MgO is 2:2 = 1:1, so moles of MgO = 0.5 mol
@@ -313,9 +333,13 @@ $$2\text{Mg} + \text{O}_2 \rightarrow 2\text{MgO}$$
 
 ### 4.5 Concentration
 
-$$\text{Concentration (g/dm}^3\text{)} = \frac{\text{mass (g)}}{\text{volume (dm}^3\text{)}}$$
+$$
+\text{Concentration (g/dm}^3\text{)} = \frac{\text{mass (g)}}{\text{volume (dm}^3\text{)}}
+$$
 
-$$\text{Concentration (mol/dm}^3\text{)} = \frac{\text{moles}}{\text{volume (dm}^3\text{)}}$$
+$$
+\text{Concentration (mol/dm}^3\text{)} = \frac{\text{moles}}{\text{volume (dm}^3\text{)}}
+$$
 
 **Titration calculations:** Use the balanced equation mole ratio and the concentration and volume of
 the known solution to find the concentration or volume of the unknown.
@@ -324,14 +348,18 @@ the known solution to find the concentration or volume of the unknown.
 
 **Percentage yield:**
 
-$$\text{Percentage yield} = \frac{\text{actual mass of product}}{\text{theoretical mass of product}} \times 100$$
+$$
+\text{Percentage yield} = \frac{\text{actual mass of product}}{\text{theoretical mass of product}} \times 100
+$$
 
 Yield is always less than 100% due to incomplete reactions, side reactions, product lost during
 transfer or purification.
 
 **Atom economy:**
 
-$$\text{Atom economy} = \frac{\text{M}_r \text{ of desired product}}{\text{sum of M}_r \text{ of all products}} \times 100$$
+$$
+\text{Atom economy} = \frac{\text{M}_r \text{ of desired product}}{\text{sum of M}_r \text{ of all products}} \times 100
+$$
 
 Reactions with high atom economy produce less waste and are more sustainable. Addition reactions
 always have 100% atom economy.
@@ -405,7 +433,9 @@ double bond opens up and links monomers together.
 
 **Example.** Poly(ethene) from ethene:
 
-$$n\text{CH}_2=\text{CH}_2 \rightarrow \left[-\text{CH}_2-\text{CH}_2-\right]_n$$
+$$
+n\text{CH}_2=\text{CH}_2 \rightarrow \left[-\text{CH}_2-\text{CH}_2-\right]_n
+$$
 
 **Condensation polymers:** Made from two different monomers; each monomer has two functional groups.
 Water is released as a by-product.
@@ -446,7 +476,9 @@ landfill, incineration (produces $\text{CO}_2$), or recycling.
 
 The $R_f$ value identifies substances:
 
-$$R_f = \frac{\text{distance travelled by substance}}{\text{distance travelled by solvent}}$$
+$$
+R_f = \frac{\text{distance travelled by substance}}{\text{distance travelled by solvent}}
+$$
 
 $R_f$ values are always between 0 and 1. The same substance should give the same $R_f$ value in the
 same solvent under the same conditions.
@@ -533,7 +565,9 @@ to occur. A catalyst lowers the activation energy without being consumed.
 
 ### 7.3 Calculating Rate
 
-$$\text{Rate of reaction} = \frac{\text{amount of reactant used (or product formed)}}{\text{time taken}}$$
+$$
+\text{Rate of reaction} = \frac{\text{amount of reactant used (or product formed)}}{\text{time taken}}
+$$
 
 This can be measured as mass of gas produced, volume of gas, or change in concentration over time.
 
@@ -547,7 +581,9 @@ This can be measured as mass of gas produced, volume of gas, or change in concen
 
 Some reactions are reversible, the products can react to reform the original reactants.
 
-$$\text{A} + \text{B} \rightleftharpoons \text{C} + \text{D}$$
+$$
+\text{A} + \text{B} \rightleftharpoons \text{C} + \text{D}
+$$
 
 The symbol $\rightleftharpoons$ indicates a reversible reaction.
 

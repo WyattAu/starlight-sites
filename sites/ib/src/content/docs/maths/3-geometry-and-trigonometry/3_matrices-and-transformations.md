@@ -154,15 +154,21 @@ Where $\frac{1}{2}(A + A^T)$ is symmetric and $\frac{1}{2}(A - A^T)$ is skew-sym
 Decompose $A = \begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix}$ into symmetric and skew-symmetric
 parts.
 
-$$A^T = \begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix}$$
+$$
+A^T = \begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix}
+$$
 
 Symmetric part:
 
-$$S = \frac{1}{2}(A + A^T) = \frac{1}{2}\begin{pmatrix} 6 & 6 \\ 6 & 4 \end{pmatrix} = \begin{pmatrix} 3 & 3 \\ 3 & 2 \end{pmatrix}$$
+$$
+S = \frac{1}{2}(A + A^T) = \frac{1}{2}\begin{pmatrix} 6 & 6 \\ 6 & 4 \end{pmatrix} = \begin{pmatrix} 3 & 3 \\ 3 & 2 \end{pmatrix}
+$$
 
 Skew-symmetric part:
 
-$$K = \frac{1}{2}(A - A^T) = \frac{1}{2}\begin{pmatrix} 0 & 4 \\ -4 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}$$
+$$
+K = \frac{1}{2}(A - A^T) = \frac{1}{2}\begin{pmatrix} 0 & 4 \\ -4 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}
+$$
 
 Check: $S + K = \begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix} = A$.
 
@@ -259,13 +265,19 @@ Transformation of $\mathbb{R}^3$.
 
 Find the determinant of:
 
-$$A = \begin{pmatrix} 1 & 0 & 2 \\ 3 & 1 & -1 \\ 2 & 0 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 0 & 2 \\ 3 & 1 & -1 \\ 2 & 0 & 1 \end{pmatrix}
+$$
 
 Expanding along column 2 (which has many zeros):
 
-$$\det(A) = 0 \cdot C_{12} + 1 \cdot C_{22} + 0 \cdot C_{32} = C_{22}$$
+$$
+\det(A) = 0 \cdot C_{12} + 1 \cdot C_{22} + 0 \cdot C_{32} = C_{22}
+$$
 
-$$C_{22} = (-1)^{2+2}\begin{vmatrix} 1 & 2 \\ 2 & 1 \end{vmatrix} = 1(1) - 2(2) = -3$$
+$$
+C_{22} = (-1)^{2+2}\begin{vmatrix} 1 & 2 \\ 2 & 1 \end{vmatrix} = 1(1) - 2(2) = -3
+$$
 
 So $\det(A) = -3$.
 
@@ -337,7 +349,9 @@ Find the inverse of $A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \en
 
 **Step 1:** Compute $\det(A)$Expanding along row 1:
 
-$$\det(A) = 2\begin{vmatrix} 1 & 1 \\ 0 & 1 \end{vmatrix} - 1\begin{vmatrix} 0 & 1 \\ 1 & 1 \end{vmatrix} + 0 = 2(1) - 1(-1) = 3$$
+$$
+\det(A) = 2\begin{vmatrix} 1 & 1 \\ 0 & 1 \end{vmatrix} - 1\begin{vmatrix} 0 & 1 \\ 1 & 1 \end{vmatrix} + 0 = 2(1) - 1(-1) = 3
+$$
 
 **Step 2:** Compute cofactors:
 
@@ -354,7 +368,9 @@ $\mathrm{adj}(A) = \begin{pmatrix} 1 & -1 & 1 \\ 1 & 2 & -2 \\ -1 & 1 & 2 \end{p
 
 **Step 4:** Divide by $\det(A) = 3$:
 
-$$A^{-1} = \frac{1}{3}\begin{pmatrix} 1 & -1 & 1 \\ 1 & 2 & -2 \\ -1 & 1 & 2 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{3}\begin{pmatrix} 1 & -1 & 1 \\ 1 & 2 & -2 \\ -1 & 1 & 2 \end{pmatrix}
+$$
 
 </details>
 
@@ -558,19 +574,27 @@ Followed by a reflection in the line $y = x$.
 
 Rotation matrix:
 
-$$R_{90} = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$$
+$$
+R_{90} = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}
+$$
 
 Reflection in $y = x$:
 
-$$R_{y=x} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
+$$
+R_{y=x} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+$$
 
 Composite (reflection applied after rotation):
 
-$$M = R_{y=x} \cdot R_{90} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+$$
+M = R_{y=x} \cdot R_{90} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
+$$
 
 This is a reflection in the $x$-axis! Apply to $(2, 3)$:
 
-$$\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} 2 \\ 3 \end{pmatrix} = \begin{pmatrix} 2 \\ -3 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} 2 \\ 3 \end{pmatrix} = \begin{pmatrix} 2 \\ -3 \end{pmatrix}
+$$
 
 The image is $(2, -3)$.
 
@@ -1196,21 +1220,29 @@ Find the eigenvalues and eigenvectors of $A = \begin{pmatrix} 5 & 3 \\ 3 & 5 \en
 
 **Characteristic equation:**
 
-$$\det(A - \lambda I) = (5 - \lambda)^2 - 9 = \lambda^2 - 10\lambda + 16 = 0$$
+$$
+\det(A - \lambda I) = (5 - \lambda)^2 - 9 = \lambda^2 - 10\lambda + 16 = 0
+$$
 
-$$(\lambda - 2)(\lambda - 8) = 0$$
+$$
+(\lambda - 2)(\lambda - 8) = 0
+$$
 
 $\lambda_1 = 2$, $\lambda_2 = 8$.
 
 **Eigenvector for $\lambda_1 = 2$:**
 
-$$\begin{pmatrix} 3 & 3 \\ 3 & 3 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = -v_2$$
+$$
+\begin{pmatrix} 3 & 3 \\ 3 & 3 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = -v_2
+$$
 
 Eigenvector: $\begin{pmatrix} 1 \\ -1 \end{pmatrix}$ (or any scalar multiple).
 
 **Eigenvector for $\lambda_2 = 8$:**
 
-$$\begin{pmatrix} -3 & 3 \\ 3 & -3 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = v_2$$
+$$
+\begin{pmatrix} -3 & 3 \\ 3 & -3 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = v_2
+$$
 
 Eigenvector: $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
@@ -1239,9 +1271,13 @@ $B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$Find $AB$ and $BA$. Comment o
 <details>
 <summary>Solution</summary>
 
-$$AB = \begin{pmatrix} 2(1) + (-1)(-2) & 2(5) + (-1)(0) \\ 4(1) + 3(-2) & 4(5) + 3(0) \end{pmatrix} = \begin{pmatrix} 4 & 10 \\ -2 & 20 \end{pmatrix}$$
+$$
+AB = \begin{pmatrix} 2(1) + (-1)(-2) & 2(5) + (-1)(0) \\ 4(1) + 3(-2) & 4(5) + 3(0) \end{pmatrix} = \begin{pmatrix} 4 & 10 \\ -2 & 20 \end{pmatrix}
+$$
 
-$$BA = \begin{pmatrix} 1(2) + 5(4) & 1(-1) + 5(3) \\ -2(2) + 0(4) & -2(-1) + 0(3) \end{pmatrix} = \begin{pmatrix} 22 & 14 \\ -4 & 2 \end{pmatrix}$$
+$$
+BA = \begin{pmatrix} 1(2) + 5(4) & 1(-1) + 5(3) \\ -2(2) + 0(4) & -2(-1) + 0(3) \end{pmatrix} = \begin{pmatrix} 22 & 14 \\ -4 & 2 \end{pmatrix}
+$$
 
 $AB \neq BA$Confirming that matrix multiplication is not commutative.
 
@@ -1256,11 +1292,15 @@ Find the determinant and inverse of $A = \begin{pmatrix} 5 & 3 \\ 2 & 1 \end{pma
 <details>
 <summary>Solution</summary>
 
-$$\det(A) = 5(1) - 3(2) = 5 - 6 = -1$$
+$$
+\det(A) = 5(1) - 3(2) = 5 - 6 = -1
+$$
 
 Since $\det(A) \neq 0$The inverse exists:
 
-$$A^{-1} = \frac{1}{-1}\begin{pmatrix} 1 & -3 \\ -2 & 5 \end{pmatrix} = \begin{pmatrix} -1 & 3 \\ 2 & -5 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{-1}\begin{pmatrix} 1 & -3 \\ -2 & 5 \end{pmatrix} = \begin{pmatrix} -1 & 3 \\ 2 & -5 \end{pmatrix}
+$$
 
 Verification:
 $AA^{-1} = \begin{pmatrix} 5 & 3 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} -1 & 3 \\ 2 & -5 \end{pmatrix} = \begin{pmatrix} -5+6 & 15-15 \\ -2+2 & 6-5 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$
@@ -1278,13 +1318,21 @@ Find the determinant of $A = \begin{pmatrix} 2 & 3 & 1 \\ 0 & -1 & 2 \\ 1 & 4 & 
 
 Expanding along row 2 (which contains a zero):
 
-$$\det(A) = 0 \cdot C_{21} + (-1) \cdot C_{22} + 2 \cdot C_{23}$$
+$$
+\det(A) = 0 \cdot C_{21} + (-1) \cdot C_{22} + 2 \cdot C_{23}
+$$
 
-$$C_{22} = (-1)^{2+2}\begin{vmatrix} 2 & 1 \\ 1 & -1 \end{vmatrix} = -2 - 1 = -3$$
+$$
+C_{22} = (-1)^{2+2}\begin{vmatrix} 2 & 1 \\ 1 & -1 \end{vmatrix} = -2 - 1 = -3
+$$
 
-$$C_{23} = (-1)^{2+3}\begin{vmatrix} 2 & 3 \\ 1 & 4 \end{vmatrix} = -(8 - 3) = -5$$
+$$
+C_{23} = (-1)^{2+3}\begin{vmatrix} 2 & 3 \\ 1 & 4 \end{vmatrix} = -(8 - 3) = -5
+$$
 
-$$\det(A) = 0 + (-1)(-3) + 2(-5) = 3 - 10 = -7$$
+$$
+\det(A) = 0 + (-1)(-3) + 2(-5) = 3 - 10 = -7
+$$
 
 **If you get this wrong, revise:** 3x3 Determinant -- Cofactor Expansion.
 
@@ -1298,9 +1346,13 @@ Find the image of the point $(1, \sqrt{3})$.
 <details>
 <summary>Solution</summary>
 
-$$R_{60} = \begin{pmatrix} \cos 60^\circ & -\sin 60^\circ \\ \sin 60^\circ & \cos 60^\circ \end{pmatrix} = \begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}$$
+$$
+R_{60} = \begin{pmatrix} \cos 60^\circ & -\sin 60^\circ \\ \sin 60^\circ & \cos 60^\circ \end{pmatrix} = \begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}
+$$
 
-$$\begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}\begin{pmatrix} 1 \\ \sqrt{3} \end{pmatrix} = \begin{pmatrix} \frac{1}{2} - \frac{3}{2} \\ \frac{\sqrt{3}}{2} + \frac{\sqrt{3}}{2} \end{pmatrix} = \begin{pmatrix} -1 \\ \sqrt{3} \end{pmatrix}$$
+$$
+\begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}\begin{pmatrix} 1 \\ \sqrt{3} \end{pmatrix} = \begin{pmatrix} \frac{1}{2} - \frac{3}{2} \\ \frac{\sqrt{3}}{2} + \frac{\sqrt{3}}{2} \end{pmatrix} = \begin{pmatrix} -1 \\ \sqrt{3} \end{pmatrix}
+$$
 
 The image is $(-1, \sqrt{3})$.
 
@@ -1322,7 +1374,9 @@ Enlargement with scale factor $3$: $E_3 = \begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pm
 
 Composite (enlargement applied after reflection):
 
-$$M = E_3 \cdot R_y = \begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} -3 & 0 \\ 0 & 3 \end{pmatrix}$$
+$$
+M = E_3 \cdot R_y = \begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} -3 & 0 \\ 0 & 3 \end{pmatrix}
+$$
 
 Area scale factor: $|\det(M)| = |-3 \times 3 - 0| = 9$.
 
@@ -1347,11 +1401,17 @@ $\det(A) = 3(-1 - 2) - 2(1 - 4) + (-1)(1 + 2) = -9 + 6 - 3 = -6$
 
 By Cramer's rule:
 
-$$x = \frac{\det\begin{pmatrix} 5 & 2 & -1 \\ 1 & -1 & 2 \\ 4 & 1 & 1 \end{pmatrix}}{-6} = \frac{5(-1-2) - 2(1-8) + (-1)(1+4)}{-6} = \frac{-15+14-5}{-6} = \frac{-6}{-6} = 1$$
+$$
+x = \frac{\det\begin{pmatrix} 5 & 2 & -1 \\ 1 & -1 & 2 \\ 4 & 1 & 1 \end{pmatrix}}{-6} = \frac{5(-1-2) - 2(1-8) + (-1)(1+4)}{-6} = \frac{-15+14-5}{-6} = \frac{-6}{-6} = 1
+$$
 
-$$y = \frac{\det\begin{pmatrix} 3 & 5 & -1 \\ 1 & 1 & 2 \\ 2 & 4 & 1 \end{pmatrix}}{-6} = \frac{3(1-8) - 5(1-4) + (-1)(4-2)}{-6} = \frac{-21+15-2}{-6} = \frac{-8}{-6} = \frac{4}{3}$$
+$$
+y = \frac{\det\begin{pmatrix} 3 & 5 & -1 \\ 1 & 1 & 2 \\ 2 & 4 & 1 \end{pmatrix}}{-6} = \frac{3(1-8) - 5(1-4) + (-1)(4-2)}{-6} = \frac{-21+15-2}{-6} = \frac{-8}{-6} = \frac{4}{3}
+$$
 
-$$z = \frac{\det\begin{pmatrix} 3 & 2 & 5 \\ 1 & -1 & 1 \\ 2 & 1 & 4 \end{pmatrix}}{-6} = \frac{3(-4-1) - 2(4-2) + 5(1+2)}{-6} = \frac{-15-4+15}{-6} = \frac{-4}{-6} = \frac{2}{3}$$
+$$
+z = \frac{\det\begin{pmatrix} 3 & 2 & 5 \\ 1 & -1 & 1 \\ 2 & 1 & 4 \end{pmatrix}}{-6} = \frac{3(-4-1) - 2(4-2) + 5(1+2)}{-6} = \frac{-15-4+15}{-6} = \frac{-4}{-6} = \frac{2}{3}
+$$
 
 Solution: $x = 1$$y = \frac{4}{3}$$z = \frac{2}{3}$.
 
@@ -1368,21 +1428,29 @@ Find the eigenvalues and eigenvectors of $A = \begin{pmatrix} 3 & -2 \\ 1 & 0 \e
 
 **Characteristic equation:**
 
-$$\det(A - \lambda I) = (3 - \lambda)(-\lambda) - (-2)(1) = \lambda^2 - 3\lambda + 2 = 0$$
+$$
+\det(A - \lambda I) = (3 - \lambda)(-\lambda) - (-2)(1) = \lambda^2 - 3\lambda + 2 = 0
+$$
 
-$$(\lambda - 1)(\lambda - 2) = 0$$
+$$
+(\lambda - 1)(\lambda - 2) = 0
+$$
 
 $\lambda_1 = 1$, $\lambda_2 = 2$.
 
 **Eigenvector for $\lambda_1 = 1$:**
 
-$$\begin{pmatrix} 2 & -2 \\ 1 & -1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = v_2$$
+$$
+\begin{pmatrix} 2 & -2 \\ 1 & -1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = v_2
+$$
 
 Eigenvector: $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 **Eigenvector for $\lambda_2 = 2$:**
 
-$$\begin{pmatrix} 1 & -2 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = 2v_2$$
+$$
+\begin{pmatrix} 1 & -2 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = 2v_2
+$$
 
 Eigenvector: $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$.
 
@@ -1398,7 +1466,9 @@ $y$-axis with scale factor $3$. Find the single matrix and describe its effect o
 <details>
 <summary>Solution</summary>
 
-$$M = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}$$
+$$
+M = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}
+$$
 
 The unit square (area = 1) is mapped to a rectangle with vertices $(0,0)$, $(2,0)$, $(2,3)$,
 $(0,3)$. The new area is $6$.
@@ -1419,7 +1489,9 @@ $M = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$.
 
 **Invariant points:** Solve $(M - I)\mathbf{x} = \mathbf{0}$:
 
-$$\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
+$$
 
 From row 2: $y = 0$. From row 1: $x + 0 = 0$ So $x = 0$.
 
@@ -1475,13 +1547,17 @@ Block 1: $\begin{pmatrix} 2 \\ 0 \end{pmatrix}$Block 2: $\begin{pmatrix} 19 \\ 2
 
 Block 1:
 
-$$\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 2 \\ 0 \end{pmatrix} = \begin{pmatrix} 4 \\ 2 \end{pmatrix} \equiv \begin{pmatrix} 4 \\ 2 \end{pmatrix} \pmod{26}$$
+$$
+\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 2 \\ 0 \end{pmatrix} = \begin{pmatrix} 4 \\ 2 \end{pmatrix} \equiv \begin{pmatrix} 4 \\ 2 \end{pmatrix} \pmod{26}
+$$
 
 Giving "EC".
 
 Block 2:
 
-$$\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 19 \\ 23 \end{pmatrix} = \begin{pmatrix} 61 \\ 42 \end{pmatrix} \equiv \begin{pmatrix} 9 \\ 16 \end{pmatrix} \pmod{26}$$
+$$
+\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 19 \\ 23 \end{pmatrix} = \begin{pmatrix} 61 \\ 42 \end{pmatrix} \equiv \begin{pmatrix} 9 \\ 16 \end{pmatrix} \pmod{26}
+$$
 
 $61 \bmod 26 = 9$ (J), $42 \bmod 26 = 16$ (Q). Giving "JQ".
 
@@ -1501,9 +1577,13 @@ diagonalisation To find $A^4$.
 
 **Eigenvalues:**
 
-$$\det(A - \lambda I) = (2-\lambda)^2 - 1 = \lambda^2 - 4\lambda + 3 = 0$$
+$$
+\det(A - \lambda I) = (2-\lambda)^2 - 1 = \lambda^2 - 4\lambda + 3 = 0
+$$
 
-$$(\lambda - 1)(\lambda - 3) = 0 \implies \lambda_1 = 1, \lambda_2 = 3$$
+$$
+(\lambda - 1)(\lambda - 3) = 0 \implies \lambda_1 = 1, \lambda_2 = 3
+$$
 
 **Eigenvectors:**
 
@@ -1517,17 +1597,27 @@ $\mathbf{v}_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 **Diagonalisation:**
 
-$$P = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}
+$$
 
-$$\det(P) = 2, \quad P^{-1} = \frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$$
+$$
+\det(P) = 2, \quad P^{-1} = \frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}
+$$
 
 **Compute $A^4$:**
 
-$$D^4 = \begin{pmatrix} 1 & 0 \\ 0 & 81 \end{pmatrix}$$
+$$
+D^4 = \begin{pmatrix} 1 & 0 \\ 0 & 81 \end{pmatrix}
+$$
 
-$$A^4 = PD^4 P^{-1} = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 81 \end{pmatrix}\frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$$
+$$
+A^4 = PD^4 P^{-1} = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 81 \end{pmatrix}\frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}
+$$
 
-$$= \frac{1}{2}\begin{pmatrix} 1 & 81 \\ -1 & 81 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix} = \frac{1}{2}\begin{pmatrix} 82 & 80 \\ 80 & 82 \end{pmatrix} = \begin{pmatrix} 41 & 40 \\ 40 & 41 \end{pmatrix}$$
+$$
+= \frac{1}{2}\begin{pmatrix} 1 & 81 \\ -1 & 81 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix} = \frac{1}{2}\begin{pmatrix} 82 & 80 \\ 80 & 82 \end{pmatrix} = \begin{pmatrix} 41 & 40 \\ 40 & 41 \end{pmatrix}
+$$
 
 **If you get this wrong, revise:** Diagonalisation and Matrix Powers sections.
 

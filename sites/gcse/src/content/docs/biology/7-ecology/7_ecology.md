@@ -28,7 +28,9 @@ categories:
 
 ### 1.1 Levels of Organisation in an Ecosystem
 
-$$\mathrm{Individual \to \mathrm{Population \to \mathrm{Community \to \mathrm{Ecosystem \to \mathrm{Biosphere$$
+$$
+\mathrm{Individual \to \mathrm{Population \to \mathrm{Community \to \mathrm{Ecosystem \to \mathrm{Biosphere
+$$
 
 - **Individual:** A single organism.
 - **Population:** All the organisms of one species in a habitat. The size of a population can change
@@ -131,7 +133,9 @@ Heat.
 
 A **food chain** shows the transfer of energy from one organism to another:
 
-$$\mathrm{Producer \to \mathrm{Primary consumer \to \mathrm{Secondary consumer \to \mathrm{Tertiary consumer$$
+$$
+\mathrm{Producer \to \mathrm{Primary consumer \to \mathrm{Secondary consumer \to \mathrm{Tertiary consumer
+$$
 
 - **Producer:** An organism that makes its own food by photosynthesis (e.g. Plants, algae).
   Producers are the base of all food chains because they are the organisms that convert light energy
@@ -219,12 +223,16 @@ Chains are short ( 3--5 trophic levels): there is not enough energy left to supp
 
 ### 2.5 Calculating Efficiency
 
-$$\mathrm{Efficiency = \frac{\mathrm{energy available at next level}{\mathrm{energy available at current level} \times 100\%$$
+$$
+\mathrm{Efficiency = \frac{\mathrm{energy available at next level}{\mathrm{energy available at current level} \times 100\%
+$$
 
 **Worked Example 1.** 10,000 kJ of energy is available at the producer level. 1,000 kJ is
 Transferred to the primary consumer. Calculate the efficiency.
 
-$$\mathrm{Efficiency = \frac{1000}{10000} \times 100\% = 10\%$$
+$$
+\mathrm{Efficiency = \frac{1000}{10000} \times 100\% = 10\%
+$$
 
 **Worked Example 2.** If a primary consumer has 1,000 kJ of energy and 100 kJ is transferred to the
 Secondary consumer, the efficiency is 10%. The remaining 900 kJ is lost through the processes
@@ -386,7 +394,9 @@ Particular habitat. It includes:
 - **Index of diversity:** Takes into account both the number of species and the abundance of each
   species. It is calculated using the following formula:
 
-$$D = \frac{N(N - 1)}{\sum n(n - 1)}$$
+$$
+D = \frac{N(N - 1)}{\sum n(n - 1)}
+$$
 
 Where $N$ is the total number of organisms and $n$ is the number of organisms of each species.
 
@@ -396,7 +406,9 @@ A higher index of diversity indicates greater biodiversity.
 
 $N = 50 + 30 + 20 = 100$.
 
-$$D = \frac{100 \times 99}{50 \times 49 + 30 \times 29 + 20 \times 19} = \frac{9900}{2450 + 870 + 380} = \frac{9900}{3700} = 2.68$$
+$$
+D = \frac{100 \times 99}{50 \times 49 + 30 \times 29 + 20 \times 19} = \frac{9900}{2450 + 870 + 380} = \frac{9900}{3700} = 2.68
+$$
 
 **Worked Example 2.** Compare two habitats.
 
@@ -560,7 +572,9 @@ Gradient (e.g., from the shore of a lake into the surrounding field).
 
 **Mark-release-recapture:**
 
-$$\mathrm{Estimated population = \frac{n_1 \times n_2}{n_3}$$
+$$
+\mathrm{Estimated population = \frac{n_1 \times n_2}{n_3}
+$$
 
 Where $n_1$ = number captured and marked first time, $n_2$ = number captured second time, $n_3$ =
 Number marked in second capture.
@@ -575,12 +589,16 @@ Number marked in second capture.
 **Worked Example.** 50 woodlice are captured, marked, and released. In a second capture, 40 woodlice
 Are caught, of which 10 are marked.
 
-$$\mathrm{Population = \frac{50 \times 40}{10} = 200$$
+$$
+\mathrm{Population = \frac{50 \times 40}{10} = 200
+$$
 
 **Worked Example 2:** 30 beetles are captured and marked. In a second capture of 50 beetles, 5 are
 Marked.
 
-$$\mathrm{Population = \frac{30 \times 50}{5} = 300$$
+$$
+\mathrm{Population = \frac{30 \times 50}{5} = 300
+$$
 
 ### 5.5 Higher Tier: Reliability and Validity in Ecological Sampling
 

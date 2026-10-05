@@ -28,7 +28,9 @@ The **atomic number** (proton number) $Z$ equals the number of protons in the nu
 
 The **mass number** $A$ equals the number of protons plus neutrons:
 
-$$A = Z + N$$
+$$
+A = Z + N
+$$
 
 Where $N$ is the number of neutrons.
 
@@ -49,7 +51,9 @@ Examples of isotopes:
 Chlorine has two isotopes: Cl-35 (75.8% abundance) and Cl-37 (24.2% abundance). Calculate the
 Relative atomic mass of chlorine.
 
-$$A_r = \frac{35 \times 75.8 + 37 \times 24.2}{100} = \frac{2653 + 895.4}{100} = \frac{3548.4}{100} = 35.48$$
+$$
+A_r = \frac{35 \times 75.8 + 37 \times 24.2}{100} = \frac{2653 + 895.4}{100} = \frac{3548.4}{100} = 35.48
+$$
 
 ### Mass Spectrometry
 
@@ -92,7 +96,9 @@ Each energy level contains subshells:
 
 Electrons fill orbitals in order of increasing energy:
 
-$$1s \lt 2s \lt 2p \lt 3s \lt 3p \lt 4s \lt 3d \lt 4p \lt 5s \lt 4d \lt 5p \lt 6s \lt 4f \lt 5d \lt 6p$$
+$$
+1s \lt 2s \lt 2p \lt 3s \lt 3p \lt 4s \lt 3d \lt 4p \lt 5s \lt 4d \lt 5p \lt 6s \lt 4f \lt 5d \lt 6p
+$$
 
 :::caution
 electrons are in the $3d$ subshell.
@@ -168,7 +174,9 @@ Closer. It increases down a group because additional electron shells are added.
 **First ionisation energy** is the energy required to remove one mole of electrons from one mole of
 Gaseous atoms:
 
-$$\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-$$
+$$
+\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-
+$$
 
 Trends in first ionisation energy:
 
@@ -633,7 +641,9 @@ Bond in the gaseous state.
 
 ### Using Bond Enthalpies to Calculate Enthalpy Changes
 
-$$\Delta H = \sum(\mathrm{Bonds broken}) - \sum(\mathrm{Bonds formed})$$
+$$
+\Delta H = \sum(\mathrm{Bonds broken}) - \sum(\mathrm{Bonds formed})
+$$
 
 - Bonds broken: endothermic (positive value)
 - Bonds formed: exothermic (negative value)
@@ -652,7 +662,9 @@ Bonds formed:
 
 - 2 $\times$ H-Cl = $2 \times 432 = 864 \mathrm{ kJ/mol}$
 
-$$\Delta H = (436 + 243) - 864 = 679 - 864 = -185 \mathrm{ kJ/mol}$$
+$$
+\Delta H = (436 + 243) - 864 = 679 - 864 = -185 \mathrm{ kJ/mol}
+$$
 
 The reaction is exothermic.
 
@@ -671,7 +683,9 @@ Bonds formed:
 - 2 $\times$ C=O = $2 \times 745 = 1490 \mathrm{ kJ/mol}$
 - 4 $\times$ O-H = $4 \times 463 = 1852 \mathrm{ kJ/mol}$
 
-$$\Delta H = (1652 + 996) - (1490 + 1852) = 2648 - 3342 = -694 \mathrm{ kJ/mol}$$
+$$
+\Delta H = (1652 + 996) - (1490 + 1852) = 2648 - 3342 = -694 \mathrm{ kJ/mol}
+$$
 
 :::caution
 reactions involving liquids Or solids because they only account for gaseous state bonds.
@@ -1026,7 +1040,9 @@ Molecule.
 
 **Bond order:**
 
-$$\mathrm{Bond order} = \frac{1}{2}(\mathrm{bonding electrons} - \mathrm{antibonding electrons})$$
+$$
+\mathrm{Bond order} = \frac{1}{2}(\mathrm{bonding electrons} - \mathrm{antibonding electrons})
+$$
 
 - Bond order = 1: single bond
 - Bond order = 2: double bond
@@ -1127,7 +1143,9 @@ _If you get this wrong, revise: Isotopes and Mass Spectrometry_
 <details>
 <summary>Solution</summary>
 
-$$A_r = \frac{10 \times 19.9 + 11 \times 80.1}{100} = \frac{199 + 881.1}{100} = \frac{1080.1}{100} = 10.81$$
+$$
+A_r = \frac{10 \times 19.9 + 11 \times 80.1}{100} = \frac{199 + 881.1}{100} = \frac{1080.1}{100} = 10.81
+$$
 
 </details>
 
@@ -1227,7 +1245,9 @@ mass.
 
 **Problem 7:** Use bond enthalpies to calculate $\Delta H$ for the reaction:
 
-$$\mathrm{N_2} + 3\mathrm{H_2} \to 2\mathrm{NH_3}$$
+$$
+\mathrm{N_2} + 3\mathrm{H_2} \to 2\mathrm{NH_3}
+$$
 
 Given: $\mathrm{N \equiv N} = 945$$\mathrm{H - H} = 436$$\mathrm{N - H} = 391 \mathrm{ kJ/mol}$.
 
@@ -1241,7 +1261,9 @@ $1 \times \mathrm{N \equiv N} + 3 \times \mathrm{H - H} = 945 + 3(436) = 945 + 1
 
 Bonds formed: $6 \times \mathrm{N - H} = 6(391) = 2346 \mathrm{ kJ/mol}$
 
-$$\Delta H = 2253 - 2346 = -93 \mathrm{ kJ/mol}$$
+$$
+\Delta H = 2253 - 2346 = -93 \mathrm{ kJ/mol}
+$$
 
 The reaction is exothermic.
 
@@ -1378,7 +1400,9 @@ shared pair come from the same atom.
 Example: In the ammonium ion ($\mathrm{NH_4^+}$), the fourth N-H bond is a dative bond. The nitrogen
 atom of ammonia donates its lone pair to form a bond with $\mathrm{H^+}$ (which has no electrons):
 
-$$\mathrm{NH_3} + \mathrm{H^+} \to \mathrm{NH_4^+}$$
+$$
+\mathrm{NH_3} + \mathrm{H^+} \to \mathrm{NH_4^+}
+$$
 
 Once formed, the dative bond is indistinguishable from the other three N-H bonds; all four N-H bonds
 are equivalent.
@@ -1502,7 +1526,9 @@ Bond enthalpies give a poor estimate because:
 
 The appropriate method is to use standard enthalpies of formation instead:
 
-$$\Delta H = \Delta H_f^\circ(\mathrm{NH_4Cl}) - \Delta H_f^\circ(\mathrm{NH_3}) - \Delta H_f^\circ(\mathrm{HCl})$$
+$$
+\Delta H = \Delta H_f^\circ(\mathrm{NH_4Cl}) - \Delta H_f^\circ(\mathrm{NH_3}) - \Delta H_f^\circ(\mathrm{HCl})
+$$
 
 </details>
 

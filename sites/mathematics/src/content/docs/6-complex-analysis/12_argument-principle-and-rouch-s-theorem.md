@@ -22,7 +22,9 @@ description: 'If is meromorphic inside and on a simple closed contour . Comprehe
 **Theorem 12.1 (Argument Principle).** If $f$ is meromorphic inside and on a simple closed contour
 $\gamma$ with no zeros or poles on $\gamma$, then
 
-$$\frac{1}{2\pi i}\int_\gamma \frac{f'(z)}{f(z)}\, dz = N - P$$
+$$
+\frac{1}{2\pi i}\int_\gamma \frac{f'(z)}{f(z)}\, dz = N - P
+$$
 
 where $N$ is the number of zeros and $P$ is the number of poles of $f$ inside $\gamma$ (counting
 multiplicities).
@@ -82,7 +84,9 @@ The integral $\frac{1}{2\pi i}\int_\gamma f'(z)/f(z)\, dz$ equals the winding nu
 $f(\gamma)$ around the origin. This geometric interpretation is useful in proving the argument
 principle:
 
-$$N - P = \frac{1}{2\pi} \Delta_\gamma \arg f(z)$$
+$$
+N - P = \frac{1}{2\pi} \Delta_\gamma \arg f(z)
+$$
 
 where $\Delta_\gamma \arg f(z)$ is the net change in the argument of $f(z)$ as $z$ traverses
 $\gamma$.

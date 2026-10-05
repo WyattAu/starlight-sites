@@ -25,15 +25,21 @@ A body remains at rest or in uniform motion unless acted upon by an external for
 **Problem:** A 5 kg block rests on a frictionless surface. A force of 10 N is applied horizontally. Find the acceleration.
 
 **Solution:**
-$$F = ma$$
-$$a = \frac{F}{m} = \frac{10}{5} = 2 \, \text{m/s}^2$$
+$$
+F = ma
+$$
+$$
+a = \frac{F}{m} = \frac{10}{5} = 2 \, \text{m/s}^2
+$$
 
 ### Worked Example 2
 
 **Problem:** A car moving at 20 m/s decelerates uniformly to rest in 5 seconds. Find the deceleration.
 
 **Solution:**
-$$a = \frac{v - u}{t} = \frac{0 - 20}{5} = -4 \, \text{m/s}^2$$
+$$
+a = \frac{v - u}{t} = \frac{0 - 20}{5} = -4 \, \text{m/s}^2
+$$
 
 ## Second Law (F = ma)
 
@@ -44,8 +50,12 @@ The net force on a body equals its mass times acceleration.
 **Problem:** Two forces of 5 N and 12 N act on a 3 kg body at right angles. Find the resultant acceleration.
 
 **Solution:**
-$$F_{net} = \sqrt{5^2 + 12^2} = 13 \, \text{N}$$
-$$a = \frac{F_{net}}{m} = \frac{13}{3} \approx 4.33 \, \text{m/s}^2$$
+$$
+F_{net} = \sqrt{5^2 + 12^2} = 13 \, \text{N}
+$$
+$$
+a = \frac{F_{net}}{m} = \frac{13}{3} \approx 4.33 \, \text{m/s}^2
+$$
 
 ## Third Law (Action-Reaction)
 
@@ -71,16 +81,24 @@ For every action, there is an equal and opposite reaction.
 **Solution:**
 
 Normal force:
-$$N = mg = 10 \times 9.8 = 98 \, \text{N}$$
+$$
+N = mg = 10 \times 9.8 = 98 \, \text{N}
+$$
 
 Friction force:
-$$f_k = \mu_k N = 0.3 \times 98 = 29.4 \, \text{N}$$
+$$
+f_k = \mu_k N = 0.3 \times 98 = 29.4 \, \text{N}
+$$
 
 Net force:
-$$F_{net} = F - f_k = 40 - 29.4 = 10.6 \, \text{N}$$
+$$
+F_{net} = F - f_k = 40 - 29.4 = 10.6 \, \text{N}
+$$
 
 Acceleration:
-$$a = \frac{F_{net}}{m} = \frac{10.6}{10} = 1.06 \, \text{m/s}^2$$
+$$
+a = \frac{F_{net}}{m} = \frac{10.6}{10} = 1.06 \, \text{m/s}^2
+$$
 
 ### Worked Example 6, Inclined Plane with Friction
 
@@ -89,20 +107,32 @@ $$a = \frac{F_{net}}{m} = \frac{10.6}{10} = 1.06 \, \text{m/s}^2$$
 **Solution:**
 
 Component of weight along the incline:
-$$mg \sin\theta = 5 \times 9.8 \times \sin 30^\circ = 5 \times 9.8 \times 0.5 = 24.5 \, \text{N}$$
+$$
+mg \sin\theta = 5 \times 9.8 \times \sin 30^\circ = 5 \times 9.8 \times 0.5 = 24.5 \, \text{N}
+$$
 
 Maximum static friction:
-$$f_{s,\max} = \mu_s N = \mu_s mg \cos\theta = 0.25 \times 5 \times 9.8 \times \cos 30^\circ$$
-$$= 0.25 \times 5 \times 9.8 \times 0.866 = 10.6 \, \text{N}$$
+$$
+f_{s,\max} = \mu_s N = \mu_s mg \cos\theta = 0.25 \times 5 \times 9.8 \times \cos 30^\circ
+$$
+$$
+= 0.25 \times 5 \times 9.8 \times 0.866 = 10.6 \, \text{N}
+$$
 
 Since $mg \sin\theta = 24.5 \, \text{N} > f_{s,\max} = 10.6 \, \text{N}$, the block slides down.
 
 Net force along the incline (using kinetic friction $\mu_k = 0.2$):
-$$F_{net} = mg \sin\theta - \mu_k mg \cos\theta = 24.5 - 0.2 \times 5 \times 9.8 \times 0.866$$
-$$= 24.5 - 8.49 = 16.01 \, \text{N}$$
+$$
+F_{net} = mg \sin\theta - \mu_k mg \cos\theta = 24.5 - 0.2 \times 5 \times 9.8 \times 0.866
+$$
+$$
+= 24.5 - 8.49 = 16.01 \, \text{N}
+$$
 
 Acceleration:
-$$a = \frac{F_{net}}{m} = \frac{16.01}{5} \approx 3.20 \, \text{m/s}^2$$
+$$
+a = \frac{F_{net}}{m} = \frac{16.01}{5} \approx 3.20 \, \text{m/s}^2
+$$
 
 ### Worked Example 7, Connected Blocks (Atwood's Machine)
 
@@ -111,17 +141,27 @@ $$a = \frac{F_{net}}{m} = \frac{16.01}{5} \approx 3.20 \, \text{m/s}^2$$
 **Solution:**
 
 For the heavier mass ($m_2$):
-$$m_2 g - T = m_2 a$$
+$$
+m_2 g - T = m_2 a
+$$
 
 For the lighter mass ($m_1$):
-$$T - m_1 g = m_1 a$$
+$$
+T - m_1 g = m_1 a
+$$
 
 Adding both equations:
-$$m_2 g - m_1 g = (m_1 + m_2) a$$
-$$a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{(5 - 3) \times 9.8}{3 + 5} = \frac{19.6}{8} = 2.45 \, \text{m/s}^2$$
+$$
+m_2 g - m_1 g = (m_1 + m_2) a
+$$
+$$
+a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{(5 - 3) \times 9.8}{3 + 5} = \frac{19.6}{8} = 2.45 \, \text{m/s}^2
+$$
 
 Tension:
-$$T = m_1(g + a) = 3 \times (9.8 + 2.45) = 3 \times 12.25 = 36.75 \, \text{N}$$
+$$
+T = m_1(g + a) = 3 \times (9.8 + 2.45) = 3 \times 12.25 = 36.75 \, \text{N}
+$$
 
 ### Worked Example 8, Lift Problem (Apparent Weight)
 
@@ -132,13 +172,19 @@ $$T = m_1(g + a) = 3 \times (9.8 + 2.45) = 3 \times 12.25 = 36.75 \, \text{N}$$
 The scale reads the normal reaction $N$.
 
 **(a) Accelerating upward:**
-$$N - mg = ma \implies N = m(g + a) = 60(9.8 + 2) = 60 \times 11.8 = 708 \, \text{N}$$
+$$
+N - mg = ma \implies N = m(g + a) = 60(9.8 + 2) = 60 \times 11.8 = 708 \, \text{N}
+$$
 
 **(b) Accelerating downward:**
-$$mg - N = ma \implies N = m(g - a) = 60(9.8 - 2) = 60 \times 7.8 = 468 \, \text{N}$$
+$$
+mg - N = ma \implies N = m(g - a) = 60(9.8 - 2) = 60 \times 7.8 = 468 \, \text{N}
+$$
 
 **(c) Constant velocity ($a = 0$):**
-$$N = mg = 60 \times 9.8 = 588 \, \text{N}$$
+$$
+N = mg = 60 \times 9.8 = 588 \, \text{N}
+$$
 
 ## Practice Problems
 

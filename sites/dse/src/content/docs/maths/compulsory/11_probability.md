@@ -1036,7 +1036,9 @@ self-marking and building a personal test matrix.
 the probability that both are red.
 
 **Solution.**
-$$P(\text{both red}) = \frac{4}{10} \times \frac{3}{9} = \frac{12}{90} = \frac{2}{15}$$
+$$
+P(\text{both red}) = \frac{4}{10} \times \frac{3}{9} = \frac{12}{90} = \frac{2}{15}
+$$
 
 $\blacksquare$
 

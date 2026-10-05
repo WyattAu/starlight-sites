@@ -918,9 +918,13 @@ The liver plays a central role in processing and detoxifying substances:
    ($\mathrm{NH}_2$) from amino acids, converting it to ammonia ($\mathrm{NH}_3$Highly toxic), which
    is then converted to urea (less toxic) via the ornithine cycle in the liver:
 
-$$\mathrm{Amino acid} \to \mathrm{Keto acid} + \mathrm{NH}_3$$
+$$
+\mathrm{Amino acid} \to \mathrm{Keto acid} + \mathrm{NH}_3
+$$
 
-$$2\mathrm{NH}_3 + \mathrm{CO}_2 \to \mathrm{CO(NH}_2)_2 + \mathrm{H}_2\mathrm{O}$$
+$$
+2\mathrm{NH}_3 + \mathrm{CO}_2 \to \mathrm{CO(NH}_2)_2 + \mathrm{H}_2\mathrm{O}
+$$
 
 1. **Detoxification:** The liver converts harmful substances into less harmful ones:
 

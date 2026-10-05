@@ -49,8 +49,12 @@ Probabilities $P(X = x_i) = p_i$ satisfying:
 
 ### 1.2 Expectation and variance
 
-$$E(X) = \mu = \sum x_i\,p_i$$
-$$\mathrm{Var}(X) = \sigma^2 = E(X^2) - [E(X)]^2 = \sum x_i^2\,p_i - \mu^2$$
+$$
+E(X) = \mu = \sum x_i\,p_i
+$$
+$$
+\mathrm{Var}(X) = \sigma^2 = E(X^2) - [E(X)]^2 = \sum x_i^2\,p_i - \mu^2
+$$
 
 <hr />
 
@@ -68,7 +72,9 @@ Distribution**: $X \sim B(n, p)$.
 $p^k(1-p)^{n-k}$. The number of such sequences is $\binom{n}{k}$ (choosing which $k$ of the $n$
 Trials are successes). Therefore:
 
-$$P(X = k) = \binom{n}{k}p^k(1-p)^{n-k}, \quad k = 0, 1, \ldots, n$$
+$$
+P(X = k) = \binom{n}{k}p^k(1-p)^{n-k}, \quad k = 0, 1, \ldots, n
+$$
 
 ### 2.2 Proof that $E(X) = np$
 
@@ -103,16 +109,22 @@ From the probability mass function using algebraic identities.
 
 **Proof.** Starting from the definition of expectation applied to the binomial PMF:
 
-$$E(X) = \sum_{k=0}^{n} k \binom{n}{k}p^k(1-p)^{n-k}$$
+$$
+E(X) = \sum_{k=0}^{n} k \binom{n}{k}p^k(1-p)^{n-k}
+$$
 
 The $k=0$ term vanishes, so begin the sum at $k=1$. Apply the identity
 $k\binom{n}{k} = n\binom{n-1}{k-1}$:
 
-$$E(X) = \sum_{k=1}^{n} n\binom{n-1}{k-1}p^k(1-p)^{n-k} = np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{(n-1)-(k-1)}$$
+$$
+E(X) = \sum_{k=1}^{n} n\binom{n-1}{k-1}p^k(1-p)^{n-k} = np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{(n-1)-(k-1)}
+$$
 
 Substitute $j = k - 1$:
 
-$$E(X) = np\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j}$$
+$$
+E(X) = np\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j}
+$$
 
 By the binomial theorem, $\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j} = [p + (1-p)]^{n-1} = 1$.
 
@@ -122,22 +134,30 @@ Therefore $E(X) = np$. $\blacksquare$
 
 **Proof.** First compute $E(X(X-1))$:
 
-$$E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}$$
+$$
+E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}
+$$
 
 Terms with $k = 0, 1$ are zero. Apply the identity $k(k-1)\binom{n}{k} = n(n-1)\binom{n-2}{k-2}$:
 
-$$E(X(X-1)) = \sum_{k=2}^{n} n(n-1)\binom{n-2}{k-2}p^k(1-p)^{n-k} = n(n-1)p^2\sum_{k=2}^{n}\binom{n-2}{k-2}p^{k-2}(1-p)^{(n-2)-(k-2)}$$
+$$
+E(X(X-1)) = \sum_{k=2}^{n} n(n-1)\binom{n-2}{k-2}p^k(1-p)^{n-k} = n(n-1)p^2\sum_{k=2}^{n}\binom{n-2}{k-2}p^{k-2}(1-p)^{(n-2)-(k-2)}
+$$
 
 Substitute $j = k - 2$:
 
-$$E(X(X-1)) = n(n-1)p^2\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = n(n-1)p^2$$
+$$
+E(X(X-1)) = n(n-1)p^2\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = n(n-1)p^2
+$$
 
 The final equality follows from the binomial theorem:
 $\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = 1$.
 
 Now $E(X^2) = E(X(X-1)) + E(X) = n(n-1)p^2 + np$.
 
-$$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p) \quad \blacksquare$$
+$$
+\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p) \quad \blacksquare
+$$
 
 <hr />
 
@@ -156,7 +176,9 @@ Many small independent effects (height, measurement error, etc.) will be approxi
 
 $X \sim N(\mu, \sigma^2)$ has PDF
 
-$$f(x) = \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+$$
 
 ### 3.3 Properties
 
@@ -174,13 +196,17 @@ Probabilities are found using the standard normal table or a calculator"s invers
 
 ### 3.5 Finding probabilities
 
-$$P(a < X < b) = P\!\left(\frac{a-\mu}{\sigma} < Z < \frac{b-\mu}{\sigma}\right) = \Phi\!\left(\frac{b-\mu}{\sigma}\right) - \Phi\!\left(\frac{a-\mu}{\sigma}\right)$$
+$$
+P(a < X < b) = P\!\left(\frac{a-\mu}{\sigma} < Z < \frac{b-\mu}{\sigma}\right) = \Phi\!\left(\frac{b-\mu}{\sigma}\right) - \Phi\!\left(\frac{a-\mu}{\sigma}\right)
+$$
 
 ### 3.6 Normal approximation to Binomial
 
 For large $n$ with $np \gt 5$ and $n(1-p) \gt 5$:
 
-$$B(n, p) \approx N(np, np(1-p))$$
+$$
+B(n, p) \approx N(np, np(1-p))
+$$
 
 With **continuity correction**:
 $P(X \leq k) \approx P\!\left(Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
@@ -198,7 +224,9 @@ inequality Direction.
 $X \sim \mathrm{Po}(\lambda)$ models the number of events in a fixed interval when events occur
 Independently at a constant average rate $\lambda$.
 
-$$P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!}, \quad k = 0, 1, 2, \ldots$$
+$$
+P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!}, \quad k = 0, 1, 2, \ldots
+$$
 
 ### 4.2 Derivation as a limit of the Binomial
 
@@ -222,7 +250,9 @@ Consider each factor as $n \to \infty$:
 
 Therefore:
 
-$$P(X = k) \to \frac{1}{k!} \cdot \lambda^k \cdot e^{-\lambda} = \frac{e^{-\lambda}\lambda^k}{k!} \quad \blacksquare$$
+$$
+P(X = k) \to \frac{1}{k!} \cdot \lambda^k \cdot e^{-\lambda} = \frac{e^{-\lambda}\lambda^k}{k!} \quad \blacksquare
+$$
 
 ### 4.3 Proof that $E(X) = \lambda$
 
@@ -325,7 +355,9 @@ shifting and scaling a distribution.
 
 **Proof.** Applying the definition of expectation to $Y$:
 
-$$E(Y) = \sum (ax_i + b)\,p_i = a\sum x_i\,p_i + b\sum p_i = aE(X) + b \cdot 1 = aE(X) + b \quad \blacksquare$$
+$$
+E(Y) = \sum (ax_i + b)\,p_i = a\sum x_i\,p_i + b\sum p_i = aE(X) + b \cdot 1 = aE(X) + b \quad \blacksquare
+$$
 
 The key step is $\sum p_i = 1$Since the probabilities sum to 1.
 
@@ -357,7 +389,9 @@ Measured in **squared units** of the original variable.
 
 Since $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$Taking square roots gives:
 
-$$\mathrm{SD}(Y) = |a|\,\mathrm{SD}(X)$$
+$$
+\mathrm{SD}(Y) = |a|\,\mathrm{SD}(X)
+$$
 
 The absolute value ensures the standard deviation remains non-negative regardless of the sign of
 $a$.
@@ -543,9 +577,13 @@ Starting from the definition $E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k}$
 <details>
 <summary>Solution 11</summary>
 
-$$E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k} = \sum_{k=1}^{n} n\binom{n-1}{k-1}p^k(1-p)^{n-k}$$
+$$
+E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k} = \sum_{k=1}^{n} n\binom{n-1}{k-1}p^k(1-p)^{n-k}
+$$
 
-$$= np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{(n-1)-(k-1)} = np\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j}$$
+$$
+= np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{(n-1)-(k-1)} = np\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j}
+$$
 
 By the binomial theorem: $\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j} = [p+(1-p)]^{n-1} = 1$.
 
@@ -625,7 +663,9 @@ Starting from $E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}$Deriv
 <summary>Solution 15</summary>
 Using $k(k-1)\binom{n}{k} = n(n-1)\binom{n-2}{k-2}$:
 
-$$E(X(X-1)) = \sum_{k=2}^{n} n(n-1)\binom{n-2}{k-2}p^k(1-p)^{n-k} = n(n-1)p^2\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = n(n-1)p^2$$
+$$
+E(X(X-1)) = \sum_{k=2}^{n} n(n-1)\binom{n-2}{k-2}p^k(1-p)^{n-k} = n(n-1)p^2\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = n(n-1)p^2
+$$
 
 Then $E(X^2) = E(X(X-1)) + E(X) = n(n-1)p^2 + np$.
 
@@ -649,7 +689,9 @@ $\lambda = np = 120 \times 0.025 = 3$.
 
 (b) $X \approx \mathrm{Po}(3)$.
 
-$$P(X = 5) = \frac{e^{-3} \times 3^5}{5!} = \frac{e^{-3} \times 243}{120} = 2.025\,e^{-3} \approx 2.025 \times 0.0498 \approx 0.1008$$
+$$
+P(X = 5) = \frac{e^{-3} \times 3^5}{5!} = \frac{e^{-3} \times 243}{120} = 2.025\,e^{-3} \approx 2.025 \times 0.0498 \approx 0.1008
+$$
 
 (c) For the normal approximation we need $np \gt 5$ and $n(1-p) \gt 5$. Here $np = 3 \lt 5$ So the
 normal approximation is not appropriate. The Poisson approximation is the correct choice Since $p$

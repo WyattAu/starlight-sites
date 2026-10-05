@@ -123,7 +123,9 @@ Tropical cyclones are classified by sustained wind speed (Hong Kong Observatory 
 Storm surge is the abnormal rise in sea level caused by a tropical cyclone's low pressure and
 strong onshore winds. The surge height can be calculated approximately as:
 
-$$\Delta h \approx \frac{\Delta P}{\rho g}$$
+$$
+\Delta h \approx \frac{\Delta P}{\rho g}
+$$
 
 where $\Delta P$ is the central pressure deficit, $\rho$ is seawater density, and $g$ is
 gravitational acceleration. Storm surge is the greatest killer associated with tropical cyclones,

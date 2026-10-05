@@ -68,7 +68,9 @@ Derived from them.
 
 **Proof.** $A$ and $A'$ are mutually exclusive and $A \cup A' = \Omega$.
 
-$$P(A \cup A') = P(A) + P(A') = P(\Omega) = 1 \implies P(A') = 1 - P(A). \quad \blacksquare$$
+$$
+P(A \cup A') = P(A) + P(A') = P(\Omega) = 1 \implies P(A') = 1 - P(A). \quad \blacksquare
+$$
 
 **Corollary.** For any event $A$, $P(\emptyset) = 0$.
 
@@ -86,13 +88,21 @@ $P(B) = P(A) + P(B \cap A') \geq P(A)$ since $P(B \cap A') \geq 0$. $\blacksquar
 **Proof.** $A \cup B$ can be partitioned into three disjoint sets: $A \cap B'$, $A \cap B$ And
 $A' \cap B$.
 
-$$P(A \cup B) = P(A \cap B') + P(A \cap B) + P(A' \cap B)$$
+$$
+P(A \cup B) = P(A \cap B') + P(A \cap B) + P(A' \cap B)
+$$
 
-$$P(A) = P(A \cap B') + P(A \cap B) \implies P(A \cap B') = P(A) - P(A \cap B)$$
+$$
+P(A) = P(A \cap B') + P(A \cap B) \implies P(A \cap B') = P(A) - P(A \cap B)
+$$
 
-$$P(B) = P(A \cap B) + P(A' \cap B) \implies P(A' \cap B) = P(B) - P(A \cap B)$$
+$$
+P(B) = P(A \cap B) + P(A' \cap B) \implies P(A' \cap B) = P(B) - P(A \cap B)
+$$
 
-$$P(A \cup B) = [P(A) - P(A \cap B)] + P(A \cap B) + [P(B) - P(A \cap B)] = P(A) + P(B) - P(A \cap B). \quad \blacksquare$$
+$$
+P(A \cup B) = [P(A) - P(A \cap B)] + P(A \cap B) + [P(B) - P(A \cap B)] = P(A) + P(B) - P(A \cap B). \quad \blacksquare
+$$
 
 For mutually exclusive events ($A \cap B = \emptyset$): $P(A \cup B) = P(A) + P(B)$.
 
@@ -110,7 +120,9 @@ $\blacksquare$
 
 **General multiplication rule.** For events $A_1, A_2, \ldots, A_n$:
 
-$$P\!\left(\bigcap_{i=1}^{n} A_i\right) = P(A_1) \cdot P(A_2|A_1) \cdot P(A_3|A_1 \cap A_2) \cdots P(A_n|A_1 \cap \cdots \cap A_{n-1})$$
+$$
+P\!\left(\bigcap_{i=1}^{n} A_i\right) = P(A_1) \cdot P(A_2|A_1) \cdot P(A_3|A_1 \cap A_2) \cdots P(A_n|A_1 \cap \cdots \cap A_{n-1})
+$$
 
 <hr />
 
@@ -120,7 +132,9 @@ $$P\!\left(\bigcap_{i=1}^{n} A_i\right) = P(A_1) \cdot P(A_2|A_1) \cdot P(A_3|A_
 
 **Definition.** The conditional probability of $A$ given $B$ is
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)} \quad \mathrm{for } P(B) > 0$$
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)} \quad \mathrm{for } P(B) > 0
+$$
 
 **Intuition.** $P(A|B)$ is the probability of $A$ occurring **given that we already know $B$ has
 Occurred**. Knowing $B$ has happened changes our sample space from $\Omega$ to $B$ And we measure
@@ -137,7 +151,9 @@ $B$ (with $P(B) > 0$).
 2. $P(\Omega|B) = P(\Omega \cap B)/P(B) = P(B)/P(B) = 1$.
 3. If $A_1, A_2, \ldots$ are mutually exclusive, then so are $A_1 \cap B, A_2 \cap B, \ldots$ And
 
-$$P\!\left(\bigcup_i A_i \,\middle|\, B\right) = \frac{P\!\left(\left(\bigcup_i A_i\right) \cap B\right)}{P(B)} = \frac{\sum_i P(A_i \cap B)}{P(B)} = \sum_i P(A_i|B). \quad \blacksquare$$
+$$
+P\!\left(\bigcup_i A_i \,\middle|\, B\right) = \frac{P\!\left(\left(\bigcup_i A_i\right) \cap B\right)}{P(B)} = \frac{\sum_i P(A_i \cap B)}{P(B)} = \sum_i P(A_i|B). \quad \blacksquare
+$$
 
 **Corollary.** The complement rule holds for conditional probability: $P(A'|B) = 1 - P(A|B)$.
 
@@ -152,21 +168,29 @@ Measure, which is justified by the theorem above. $\blacksquare$
 
 **Theorem.** For events $A$ and $B$ with $P(B) \gt 0$:
 
-$$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
 
 ### 4.2 Proof
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{P(B|A) \cdot P(A)}{P(B)} \quad \blacksquare$$
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{P(B|A) \cdot P(A)}{P(B)} \quad \blacksquare
+$$
 
 ### 4.3 Law of Total Probability
 
 If $B_1, B_2, \ldots, B_n$ partition $\Omega$ (mutually exclusive and exhaustive):
 
-$$P(A) = \sum_{i=1}^{n}P(A|B_i)P(B_i)$$
+$$
+P(A) = \sum_{i=1}^{n}P(A|B_i)P(B_i)
+$$
 
 ### 4.4 Extended Bayes' Theorem
 
-$$P(B_k|A) = \frac{P(A|B_k)P(B_k)}{\sum_{i=1}^{n}P(A|B_i)P(B_i)}$$
+$$
+P(B_k|A) = \frac{P(A|B_k)P(B_k)}{\sum_{i=1}^{n}P(A|B_i)P(B_i)}
+$$
 
 :::tip
 Positive, what is the probability the patient actually has the disease?" Always define events and
@@ -181,7 +205,9 @@ identify what is given ($P(A|B)$) versus what is sought ($P(B|A)$).
 
 **Definition.** Events $A$ and $B$ are **independent** if and only if
 
-$$P(A \cap B) = P(A) \cdot P(B)$$
+$$
+P(A \cap B) = P(A) \cdot P(B)
+$$
 
 ### 5.2 Proof: Independence ⟺ conditional probability equals unconditional
 
@@ -207,7 +233,9 @@ independent (since $P(A \cap B) = 0 \neq P(A)P(B)$).
 **Definition.** Events $A_1, A_2, \ldots, A_n$ are **mutually independent** if for every subset
 $\\{i_1, \ldots, i_k\\} \subseteq \\{1, 2, \ldots, n\\}$ with $k \geq 2$:
 
-$$P(A_{i_1} \cap A_{i_2} \cap \cdots \cap A_{i_k}) = P(A_{i_1}) \cdot P(A_{i_2}) \cdots P(A_{i_k})$$
+$$
+P(A_{i_1} \cap A_{i_2} \cap \cdots \cap A_{i_k}) = P(A_{i_1}) \cdot P(A_{i_2}) \cdots P(A_{i_k})
+$$
 
 **Definition.** Events $A_1, A_2, \ldots, A_n$ are **pairwise independent** if every pair
 $(A_i, A_j)$ with $i \neq j$ is independent.
@@ -240,9 +268,13 @@ All paths leading to it (addition rule for mutually exclusive paths).
 
 **Example.** A bag contains 3 red and 2 blue balls. Two balls are drawn without replacement.
 
-$$P(\mathrm{both red}) = \frac{3}{5} \times \frac{2}{4} = \frac{6}{20} = \frac{3}{10}$$
+$$
+P(\mathrm{both red}) = \frac{3}{5} \times \frac{2}{4} = \frac{6}{20} = \frac{3}{10}
+$$
 
-$$P(\mathrm{one of each}) = \frac{3}{5} \times \frac{2}{4} + \frac{2}{5} \times \frac{3}{4} = \frac{6}{20} + \frac{6}{20} = \frac{12}{20} = \frac{3}{5}$$
+$$
+P(\mathrm{one of each}) = \frac{3}{5} \times \frac{2}{4} + \frac{2}{5} \times \frac{3}{4} = \frac{6}{20} + \frac{6}{20} = \frac{12}{20} = \frac{3}{5}
+$$
 
 <hr />
 
@@ -270,32 +302,46 @@ $P(A) = \dfrac{|A|}{|\Omega|} = \dfrac{\mathrm{number of favourable outcomes}}{\
 
 **Theorem (Inclusion-Exclusion for three events).** For events $A$, $B$, $C$:
 
-$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)$$
+$$
+P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)
+$$
 
 **Proof.** Apply the two-event inclusion-exclusion rule twice:
 
-$$P(A \cup B \cup C) = P(A) + P(B \cup C) - P(A \cap (B \cup C))$$
+$$
+P(A \cup B \cup C) = P(A) + P(B \cup C) - P(A \cap (B \cup C))
+$$
 
 Now $P(B \cup C) = P(B) + P(C) - P(B \cap C)$ And by the distributive law of set theory
 $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$ So:
 
-$$P(A \cap (B \cup C)) = P(A \cap B) + P(A \cap C) - P(A \cap B \cap C)$$
+$$
+P(A \cap (B \cup C)) = P(A \cap B) + P(A \cap C) - P(A \cap B \cap C)
+$$
 
 Substituting:
 
-$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(B \cap C) - P(A \cap B) - P(A \cap C) + P(A \cap B \cap C). \quad \blacksquare$$
+$$
+P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(B \cap C) - P(A \cap B) - P(A \cap C) + P(A \cap B \cap C). \quad \blacksquare
+$$
 
 ### 8.2 De Morgan's laws for three events
 
 **Theorem.** For events $A$, $B$, $C$:
 
-$$(A \cup B \cup C)' = A' \cap B' \cap C'$$
+$$
+(A \cup B \cup C)' = A' \cap B' \cap C'
+$$
 
-$$(A \cap B \cap C)' = A' \cup B' \cup C'$$
+$$
+(A \cap B \cap C)' = A' \cup B' \cup C'
+$$
 
 **Proof.** The three-event case follows by induction from the two-event case. For the first law:
 
-$$(A \cup B \cup C)' = ((A \cup B) \cup C)' = (A \cup B)' \cap C' = A' \cap B' \cap C'. \quad \blacksquare$$
+$$
+(A \cup B \cup C)' = ((A \cup B) \cup C)' = (A \cup B)' \cap C' = A' \cap B' \cap C'. \quad \blacksquare
+$$
 
 ### 8.3 Working with three-event Venn diagrams
 
@@ -353,13 +399,21 @@ Find the probability of drawing exactly 2 red balls.
 
 There are $\binom{3}{2} = 3$ ways to arrange the two red draws among three positions: RRB, RBR, BRR.
 
-$$P(\mathrm{RRB}) = \frac{2}{5} \times \frac{1}{4} \times \frac{3}{3} = \frac{6}{60} = \frac{1}{10}$$
+$$
+P(\mathrm{RRB}) = \frac{2}{5} \times \frac{1}{4} \times \frac{3}{3} = \frac{6}{60} = \frac{1}{10}
+$$
 
-$$P(\mathrm{RBR}) = \frac{2}{5} \times \frac{3}{4} \times \frac{1}{3} = \frac{6}{60} = \frac{1}{10}$$
+$$
+P(\mathrm{RBR}) = \frac{2}{5} \times \frac{3}{4} \times \frac{1}{3} = \frac{6}{60} = \frac{1}{10}
+$$
 
-$$P(\mathrm{BRR}) = \frac{3}{5} \times \frac{2}{4} \times \frac{1}{3} = \frac{6}{60} = \frac{1}{10}$$
+$$
+P(\mathrm{BRR}) = \frac{3}{5} \times \frac{2}{4} \times \frac{1}{3} = \frac{6}{60} = \frac{1}{10}
+$$
 
-$$P(\mathrm{exactly 2 red}) = \frac{1}{10} + \frac{1}{10} + \frac{1}{10} = \frac{3}{10}$$
+$$
+P(\mathrm{exactly 2 red}) = \frac{1}{10} + \frac{1}{10} + \frac{1}{10} = \frac{3}{10}
+$$
 
 ### 9.3 At least and at most problems
 
@@ -368,9 +422,13 @@ $P(\mathrm{at least } k) = 1 - P(\mathrm{at most } k-1)$.
 
 **Example.** A fair coin is tossed 4 times. Find $P(\mathrm{at least 3 heads})$.
 
-$$P(\mathrm{at least 3 heads}) = P(\mathrm{exactly 3 heads}) + P(\mathrm{exactly 4 heads})$$
+$$
+P(\mathrm{at least 3 heads}) = P(\mathrm{exactly 3 heads}) + P(\mathrm{exactly 4 heads})
+$$
 
-$$= \binom{4}{3}\left(\frac{1}{2}\right)^4 + \binom{4}{4}\left(\frac{1}{2}\right)^4 = \frac{4}{16} + \frac{1}{16} = \frac{5}{16}$$
+$$
+= \binom{4}{3}\left(\frac{1}{2}\right)^4 + \binom{4}{4}\left(\frac{1}{2}\right)^4 = \frac{4}{16} + \frac{1}{16} = \frac{5}{16}
+$$
 
 Alternatively:
 $P(\mathrm{at least 3 heads}) = 1 - P(\mathrm{at most 2 heads}) = 1 - \frac{11}{16} = \frac{5}{16}$.
@@ -421,7 +479,9 @@ Probabilities sum to 1 by the normalisation axiom. $\blacksquare$
 
 **Definition.** The **cumulative distribution function** (CDF) of a discrete random variable $X$ is
 
-$$F(x) = P(X \leq x) = \sum_{t \leq x} p(t)$$
+$$
+F(x) = P(X \leq x) = \sum_{t \leq x} p(t)
+$$
 
 The CDF is a non-decreasing, right-continuous function with $\lim_{x \to -\infty} F(x) = 0$ and
 $\lim_{x \to +\infty} F(x) = 1$.
@@ -430,19 +490,27 @@ $\lim_{x \to +\infty} F(x) = 1$.
 
 **Definition.** The **expected value** (mean) of a discrete random variable $X$ is
 
-$$E(X) = \mu = \sum_{\mathrm{all } x} x \cdot p(x)$$
+$$
+E(X) = \mu = \sum_{\mathrm{all } x} x \cdot p(x)
+$$
 
 **Definition.** The **variance** of $X$ is
 
-$$\mathrm{Var}(X) = \sigma^2 = E\!\left[(X - \mu)^2\right] = \sum_{\mathrm{all } x} (x - \mu)^2 \cdot p(x)$$
+$$
+\mathrm{Var}(X) = \sigma^2 = E\!\left[(X - \mu)^2\right] = \sum_{\mathrm{all } x} (x - \mu)^2 \cdot p(x)
+$$
 
 An equivalent computational formula is:
 
-$$\mathrm{Var}(X) = E(X^2) - [E(X)]^2$$
+$$
+\mathrm{Var}(X) = E(X^2) - [E(X)]^2
+$$
 
 **Proof of the computational formula:**
 
-$$\mathrm{Var}(X) = E\!\left[(X - \mu)^2\right] = E(X^2 - 2\mu X + \mu^2) = E(X^2) - 2\mu E(X) + \mu^2 = E(X^2) - \mu^2. \quad \blacksquare$$
+$$
+\mathrm{Var}(X) = E\!\left[(X - \mu)^2\right] = E(X^2 - 2\mu X + \mu^2) = E(X^2) - 2\mu E(X) + \mu^2 = E(X^2) - \mu^2. \quad \blacksquare
+$$
 
 ### 10.5 Worked example
 
@@ -456,15 +524,25 @@ A biased die has PMF:
 $1/12 + 1/6 + 1/4 + 1/4 + 1/6 + 1/12 = 1/12 + 2/12 + 3/12 + 3/12 + 2/12 + 1/12 = 12/12 = 1$.
 $\checkmark$
 
-$$E(X) = 1\!\cdot\!\tfrac{1}{12} + 2\!\cdot\!\tfrac{1}{6} + 3\!\cdot\!\tfrac{1}{4} + 4\!\cdot\!\tfrac{1}{4} + 5\!\cdot\!\tfrac{1}{6} + 6\!\cdot\!\tfrac{1}{12}$$
+$$
+E(X) = 1\!\cdot\!\tfrac{1}{12} + 2\!\cdot\!\tfrac{1}{6} + 3\!\cdot\!\tfrac{1}{4} + 4\!\cdot\!\tfrac{1}{4} + 5\!\cdot\!\tfrac{1}{6} + 6\!\cdot\!\tfrac{1}{12}
+$$
 
-$$= \tfrac{1}{12} + \tfrac{2}{6} + \tfrac{3}{4} + \tfrac{4}{4} + \tfrac{5}{6} + \tfrac{6}{12} = \tfrac{1 + 4 + 9 + 12 + 10 + 6}{12} = \tfrac{42}{12} = 3.5$$
+$$
+= \tfrac{1}{12} + \tfrac{2}{6} + \tfrac{3}{4} + \tfrac{4}{4} + \tfrac{5}{6} + \tfrac{6}{12} = \tfrac{1 + 4 + 9 + 12 + 10 + 6}{12} = \tfrac{42}{12} = 3.5
+$$
 
-$$E(X^2) = 1\!\cdot\!\tfrac{1}{12} + 4\!\cdot\!\tfrac{1}{6} + 9\!\cdot\!\tfrac{1}{4} + 16\!\cdot\!\tfrac{1}{4} + 25\!\cdot\!\tfrac{1}{6} + 36\!\cdot\!\tfrac{1}{12}$$
+$$
+E(X^2) = 1\!\cdot\!\tfrac{1}{12} + 4\!\cdot\!\tfrac{1}{6} + 9\!\cdot\!\tfrac{1}{4} + 16\!\cdot\!\tfrac{1}{4} + 25\!\cdot\!\tfrac{1}{6} + 36\!\cdot\!\tfrac{1}{12}
+$$
 
-$$= \tfrac{1 + 8 + 27 + 48 + 50 + 36}{12} = \tfrac{170}{12} = \tfrac{85}{6}$$
+$$
+= \tfrac{1 + 8 + 27 + 48 + 50 + 36}{12} = \tfrac{170}{12} = \tfrac{85}{6}
+$$
 
-$$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \tfrac{85}{6} - \tfrac{49}{4} = \tfrac{170 - 147}{12} = \tfrac{23}{12} \approx 1.917$$
+$$
+\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \tfrac{85}{6} - \tfrac{49}{4} = \tfrac{170 - 147}{12} = \tfrac{23}{12} \approx 1.917
+$$
 
 :::note
 concentrated around the Centre.
@@ -553,8 +631,12 @@ Events $A$$B$$C$ are such that $P(A) = 0.3$$P(B) = 0.4$$P(C) = 0.5$$P(A \cap B) 
 <summary>Solution 5</summary>
 By the inclusion-exclusion principle:
 
-$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)$$
-$$= 0.3 + 0.4 + 0.5 - 0.1 - 0.15 - 0.2 + 0.05 = 0.8$$
+$$
+P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)
+$$
+$$
+= 0.3 + 0.4 + 0.5 - 0.1 - 0.15 - 0.2 + 0.05 = 0.8
+$$
 
 **If you get this wrong, revise:** [Addition Rule](#22-addition-rule), Section 2.2.
 
@@ -618,7 +700,9 @@ A box contains 10 items, 3 of which are defective. Items are inspected one by on
 <summary>Solution 9</summary>
 First two non-defective, third defective:
 
-$$P = \frac{7}{10} \times \frac{6}{9} \times \frac{3}{8} = \frac{7 \times 6 \times 3}{720} = \frac{126}{720} = \frac{7}{40}$$
+$$
+P = \frac{7}{10} \times \frac{6}{9} \times \frac{3}{8} = \frac{7 \times 6 \times 3}{720} = \frac{126}{720} = \frac{7}{40}
+$$
 
 **If you get this wrong, revise:** [Tree Diagrams](#62-tree-diagrams), Section 6.2.
 
@@ -684,11 +768,17 @@ A discrete random variable $X$ has PMF $p(x) = kx$ for $x \in \{1, 2, 3, 4, 5\}$
 <summary>Solution 13</summary>
 For a valid PMF: $\sum_{x=1}^{5} kx = k(1 + 2 + 3 + 4 + 5) = 15k = 1$ So $k = 1/15$.
 
-$$E(X) = \sum_{x=1}^{5} x \cdot \frac{x}{15} = \frac{1 + 4 + 9 + 16 + 25}{15} = \frac{55}{15} = \frac{11}{3}$$
+$$
+E(X) = \sum_{x=1}^{5} x \cdot \frac{x}{15} = \frac{1 + 4 + 9 + 16 + 25}{15} = \frac{55}{15} = \frac{11}{3}
+$$
 
-$$E(X^2) = \sum_{x=1}^{5} x^2 \cdot \frac{x}{15} = \frac{1 + 8 + 27 + 64 + 125}{15} = \frac{225}{15} = 15$$
+$$
+E(X^2) = \sum_{x=1}^{5} x^2 \cdot \frac{x}{15} = \frac{1 + 8 + 27 + 64 + 125}{15} = \frac{225}{15} = 15
+$$
 
-$$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} = \frac{14}{9}$$
+$$
+\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} = \frac{14}{9}
+$$
 
 **If you get this wrong, revise:**
 [Discrete Random Variables](#10-discrete-random-variables-and-probability-mass-functions),
@@ -705,7 +795,9 @@ A bag contains 4 red and 6 blue balls. Balls are drawn one at a time without rep
 <summary>Solution 14</summary>
 We need the first two draws to be blue and the third to be red:
 
-$$P = \frac{6}{10} \times \frac{5}{9} \times \frac{4}{8} = \frac{120}{720} = \frac{1}{6}$$
+$$
+P = \frac{6}{10} \times \frac{5}{9} \times \frac{4}{8} = \frac{120}{720} = \frac{1}{6}
+$$
 
 **If you get this wrong, revise:**
 [Multi-Stage Experiments](#9-multi-stage-experiments-and-tree-diagrams), Section 9.
@@ -716,7 +808,9 @@ $$P = \frac{6}{10} \times \frac{5}{9} \times \frac{4}{8} = \frac{120}{720} = \fr
 <summary>Problem 15</summary>
 Prove Boole's inequality: for events $A_1, A_2, \ldots, A_n$
 
-$$P\!\left(\bigcup_{i=1}^{n} A_i\right) \leq \sum_{i=1}^{n} P(A_i)$$
+$$
+P\!\left(\bigcup_{i=1}^{n} A_i\right) \leq \sum_{i=1}^{n} P(A_i)
+$$
 
 </details>
 
@@ -729,9 +823,13 @@ $\checkmark$
 
 **Inductive step:** Assume $P\!\left(\bigcup_{i=1}^{k} A_i\right) \leq \sum_{i=1}^{k} P(A_i)$. Then
 
-$$P\!\left(\bigcup_{i=1}^{k+1} A_i\right) = P\!\left(\bigcup_{i=1}^{k} A_i\right) + P(A_{k+1}) - P\!\left(\bigcup_{i=1}^{k} A_i \cap A_{k+1}\right)$$
+$$
+P\!\left(\bigcup_{i=1}^{k+1} A_i\right) = P\!\left(\bigcup_{i=1}^{k} A_i\right) + P(A_{k+1}) - P\!\left(\bigcup_{i=1}^{k} A_i \cap A_{k+1}\right)
+$$
 
-$$\leq \sum_{i=1}^{k} P(A_i) + P(A_{k+1}) = \sum_{i=1}^{k+1} P(A_i). \quad \blacksquare$$
+$$
+\leq \sum_{i=1}^{k} P(A_i) + P(A_{k+1}) = \sum_{i=1}^{k+1} P(A_i). \quad \blacksquare
+$$
 
 **If you get this wrong, revise:** [Basic Probability Results](#2-basic-probability-results),
 Section 2.
@@ -749,7 +847,9 @@ $P(T) = 0.7$$P(C) = 0.5$$P(T \cap C) = 0.35$.
 
 $P(T \cup C) = P(T) + P(C) - P(T \cap C) = 0.7 + 0.5 - 0.35 = 0.85$.
 
-$$P(T \cap C \mid T \cup C) = \frac{P(T \cap C)}{P(T \cup C)} = \frac{0.35}{0.85} = \frac{7}{17} \approx 0.412$$
+$$
+P(T \cap C \mid T \cup C) = \frac{P(T \cap C)}{P(T \cup C)} = \frac{0.35}{0.85} = \frac{7}{17} \approx 0.412
+$$
 
 **If you get this wrong, revise:** [Conditional Probability](#3-conditional-probability),
 Section 3.
@@ -765,7 +865,9 @@ A fair coin is tossed 5 times. Using the complement rule, find the probability o
 <summary>Solution 17</summary>
 Let $A$ = "at least one head". Then $A'$ = "no heads" = "all tails".
 
-$$P(A) = 1 - P(A') = 1 - \left(\frac{1}{2}\right)^5 = 1 - \frac{1}{32} = \frac{31}{32}$$
+$$
+P(A) = 1 - P(A') = 1 - \left(\frac{1}{2}\right)^5 = 1 - \frac{1}{32} = \frac{31}{32}
+$$
 
 **If you get this wrong, revise:** [Complement Rule](#21-complement-rule), Section 2.1.
 
@@ -780,11 +882,17 @@ Two events $A$ and $B$ satisfy $P(A) = 0.6$$P(B|A) = 0.4$ And $P(B|A') = 0.7$. F
 <summary>Solution 18</summary>
 By the law of total probability:
 
-$$P(B) = P(B|A)P(A) + P(B|A')P(A') = 0.4 \times 0.6 + 0.7 \times 0.4 = 0.24 + 0.28 = 0.52$$
+$$
+P(B) = P(B|A)P(A) + P(B|A')P(A') = 0.4 \times 0.6 + 0.7 \times 0.4 = 0.24 + 0.28 = 0.52
+$$
 
-$$P(A \cap B) = P(B|A)P(A) = 0.4 \times 0.6 = 0.24$$
+$$
+P(A \cap B) = P(B|A)P(A) = 0.4 \times 0.6 = 0.24
+$$
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{0.24}{0.52} = \frac{6}{13} \approx 0.462$$
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{0.24}{0.52} = \frac{6}{13} \approx 0.462
+$$
 
 Check independence: $P(A)P(B) = 0.6 \times 0.52 = 0.312 \neq 0.24 = P(A \cap B)$. So $A$ and $B$ are
 **not** independent.
@@ -819,7 +927,9 @@ Function. The given CDF has a linear portion, which indicates this CDF actually 
 
 Assuming the problem intended a discrete distribution, the PMF from the jumps is:
 
-$$p(1) = \frac{1}{4}, \quad p(2) = \frac{1}{4}, \quad p(3) = \frac{1}{4}, \quad p(x) = 0 \mathrm{ otherwise}$$
+$$
+p(1) = \frac{1}{4}, \quad p(2) = \frac{1}{4}, \quad p(3) = \frac{1}{4}, \quad p(x) = 0 \mathrm{ otherwise}
+$$
 
 **Check:** $1/4 + 1/4 + 1/4 = 3/4 \neq 1$. This indicates the continuous portion $F(x) = x/4$ on
 $[0,1)$ contributes probability $1/4$ spread over a continuum, confirming this is not a purely
@@ -840,12 +950,18 @@ Three machines $M_1$, $M_2$, $M_3$ produce items with proportions 50%, 30%, 20%.
 <summary>Solution 20</summary>
 Let $D$ = "defective". By the law of total probability:
 
-$$P(D) = P(D|M_1)P(M_1) + P(D|M_2)P(M_2) + P(D|M_3)P(M_3)$$
-$$= 0.02 \times 0.5 + 0.03 \times 0.3 + 0.05 \times 0.2 = 0.01 + 0.009 + 0.01 = 0.029$$
+$$
+P(D) = P(D|M_1)P(M_1) + P(D|M_2)P(M_2) + P(D|M_3)P(M_3)
+$$
+$$
+= 0.02 \times 0.5 + 0.03 \times 0.3 + 0.05 \times 0.2 = 0.01 + 0.009 + 0.01 = 0.029
+$$
 
 By Bayes' theorem:
 
-$$P(M_3|D) = \frac{P(D|M_3)P(M_3)}{P(D)} = \frac{0.05 \times 0.2}{0.029} = \frac{0.01}{0.029} = \frac{10}{29} \approx 0.345$$
+$$
+P(M_3|D) = \frac{P(D|M_3)P(M_3)}{P(D)} = \frac{0.05 \times 0.2}{0.029} = \frac{0.01}{0.029} = \frac{10}{29} \approx 0.345
+$$
 
 **If you get this wrong, revise:** [Extended Bayes' Theorem](#44-extended-bayes-theorem), Section
 4.4.

@@ -4752,7 +4752,9 @@ Height of the left subtree.
 
 ### Balance Factor
 
-$$\mathrm{bf(v) = \mathrm{height(v.\mathrm{right) - \mathrm{height(v.\mathrm{left)$$
+$$
+\mathrm{bf(v) = \mathrm{height(v.\mathrm{right) - \mathrm{height(v.\mathrm{left)
+$$
 
 After every insertion or deletion, we walk back up from the modified node to the root, rebalancing
 As needed. The balance factor must be in $\{-1, 0, 1\}$ for every node.
@@ -5708,7 +5710,9 @@ Query that completes in 10 milliseconds and one that takes 10 minutes when the d
 $O(g(n))$ is the set of all functions $f(n)$ for which there exist positive constants $c$ and $n_0$
 Such that:
 
-$$0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0
+$$
 
 Big-O provides an **upper bound** on the growth rate of a function. Saying $f(n) = O(n^2)$ means
 That $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
@@ -5727,7 +5731,9 @@ def print_all_pairs(arr):
 $\Omega(g(n))$ is the set of all functions $f(n)$ for which there exist positive constants $c$ and
 $n_0$ such that:
 
-$$0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0
+$$
 
 Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$It means no matter how
 Clever your implementation, the algorithm will take at least $c \cdot n \log n$ steps for large $n$.
@@ -5738,7 +5744,9 @@ $\Theta(g(n))$ is the intersection: $f(n) \in \Theta(g(n))$ if and only if $f(n)
 $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exactly the same rate
 As $g(n)$Up to constant factors.
 
-$$0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
+$$
 
 :::note
 Conventionally understood. When someone says "merge sort is $O(n \log n)$" they mean it is
@@ -5748,7 +5756,9 @@ $\Theta(n \log n)$. Be aware of the distinction when reading academic papers.
 
 $f(n) = o(g(n))$ means $f(n)$ grows strictly slower than $g(n)$:
 
-$$\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$$
+$$
+\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0
+$$
 
 Similarly, $f(n) = \omega(g(n))$ means $f(n)$ grows strictly faster. These are strict versions of
 Big-O and Big-Omega respectively, they exclude the equality case.
@@ -5851,7 +5861,9 @@ By exponentials. This is the fundamental boundary between tractable and intracta
 
 The Master Theorem provides a closed-form solution for recurrences of the form:
 
-$$T(n) = a \cdot T(n/b) + f(n)$$
+$$
+T(n) = a \cdot T(n/b) + f(n)
+$$
 
 Where $a \ge 1$ and $b \gt 1$. Let $c_{crit} = \log_b a$ (the critical exponent).
 
@@ -5992,13 +6004,17 @@ For dynamic array append:
 Define a **potential function** $\Phi$ on the data structure state. The amortised cost of operation
 $i$ is:
 
-$$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$
+$$
+\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})
+$$
 
 Where $c_i$ is the actual cost and $\Phi(D_i)$ is the potential after the operation.
 
 For a dynamic array with size $n$ and capacity $m$:
 
-$$\Phi(D) = 2n - m$$
+$$
+\Phi(D) = 2n - m
+$$
 
 - After an $O(1)$ insert (no resize): $\Phi$ increases by 2, amortised cost = $1 + 2 = 3$
 - After a resize from $m$ to $2m$: $\Phi$ goes from $2m - m = m$ to $2m - 2m = 0$A drop of $m$
@@ -6274,12 +6290,16 @@ The recursion tree has:
 
 The Akra-Bazzi theorem generalises the Master Theorem for recurrences of the form:
 
-$$T(x) = \sum_{i=1}^{k} a_i T(b_i x + h_i(x)) + f(x)$$
+$$
+T(x) = \sum_{i=1}^{k} a_i T(b_i x + h_i(x)) + f(x)
+$$
 
 Where $a_i \gt 0$, $0 \lt b_i \lt 1$ And $h_i(x) = O(x / \log^2 x)$. Find $p$ such that
 $\sum_{i=1}^{k} a_i b_i^p = 1$. Then:
 
-$$T(x) = \Theta\left(x^p \left(1 + \int_1^x \frac{f(u)}{u^{p+1}} du\right)\right)$$
+$$
+T(x) = \Theta\left(x^p \left(1 + \int_1^x \frac{f(u)}{u^{p+1}} du\right)\right)
+$$
 
 This handles cases like $T(n) = T(n/3) + T(2n/3) + O(n)$ where the subproblem sizes are not equal.
 
@@ -6289,7 +6309,9 @@ For algorithms whose running time depends on the input distribution (e.g., quick
 Analysis gives expected running time over a random input. Quicksort with random pivot selection has
 Expected $O(n \log n)$ comparisons, but the expected number of comparisons can be computed exactly:
 
-$$E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n$$
+$$
+E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
+$$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
 More comparisons than the information-theoretic minimum of $n \log_2 n$Which is remarkably close To
@@ -6346,7 +6368,9 @@ Amortised cost of each operation is $O(\log n)$Proven using the potential method
 
 The potential function for splay trees is:
 
-$$\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))$$
+$$
+\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))
+$$
 
 Where `size(v)` is the number of nodes in the subtree rooted at `v`. The potential is always
 Non-negative and is $O(n \log n)$ for an $n$-node tree.
@@ -7534,7 +7558,9 @@ Framework.
 Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$Maximise the Total
 value of items selected. Each item can be taken at most once.
 
-$$dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i$$
+$$
+dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i
+$$
 
 ```python
 def knapsack_01(weights, values, capacity):
@@ -7667,7 +7693,9 @@ Partitions of an interval.
 Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions $p_{i-1} \times p_i$Find the
 Parenthesisation that minimises the total number of scalar multiplications.
 
-$$dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + p_{i-1} \cdot p_k \cdot p_j)$$
+$$
+dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + p_{i-1} \cdot p_k \cdot p_j)
+$$
 
 ```python
 def matrix_chain_order(p):
@@ -7942,7 +7970,9 @@ Small $n$ ( $n \le 20$).
 
 Find the shortest Hamiltonian cycle visiting all cities exactly once.
 
-$$dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \{i\}][j] + dist[j][i])$$
+$$
+dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \{i\}][j] + dist[j][i])
+$$
 
 ```python
 def tsp(dist):
@@ -8072,7 +8102,9 @@ def count_no_consecutive_ones(n):
 
 Minimum number of insertions, deletions, and substitutions to transform one string into another.
 
-$$dp[i][j] = \begin{cases} dp[i-1][j-1] & \mathrm{if  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{otherwise \end{cases}$$
+$$
+dp[i][j] = \begin{cases} dp[i-1][j-1] & \mathrm{if  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{otherwise \end{cases}
+$$
 
 ```python
 def edit_distance(s, t):
@@ -8412,7 +8444,9 @@ When both hold, DP reduces an exponential-time recursive solution to polynomial 
 
 How many distinct ways to climb $n$ stairs, taking 1 or 2 steps at a time?
 
-$$dp[i] = dp[i-1] + dp[i-2]$$
+$$
+dp[i] = dp[i-1] + dp[i-2]
+$$
 
 ```python
 def climb_stairs(n):
@@ -8447,7 +8481,9 @@ def climb_stairs_memo(n, memo=None):
 Given an array of non-negative integers representing money at each house, maximise the amount you
 Can rob without robbing two adjacent houses.
 
-$$dp[i] = \max(dp[i-1], dp[i-2] + nums[i])$$
+$$
+dp[i] = \max(dp[i-1], dp[i-2] + nums[i])
+$$
 
 ```python
 def house_robber(nums):
@@ -8475,7 +8511,9 @@ def house_robber(nums):
 Given coins of different denominations and a target amount, find the minimum number of coins needed
 To make that amount. Return -1 if it is not possible.
 
-$$dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin$$
+$$
+dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin
+$$
 
 ```python
 def coin_change(coins, amount):
@@ -8621,7 +8659,9 @@ def edit_distance(s1, s2):
 Given items with weights and values, and a knapsack with capacity $W$Maximise the total value
 Without exceeding the capacity.
 
-$$dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w$$
+$$
+dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w
+$$
 
 ```python
 def knapsack_01(weights, values, capacity):
@@ -8808,7 +8848,9 @@ Given a chain of matrices with dimensions $d_0 \times d_1$, $d_1 \times d_2$...,
 $d_{n-1} \times
 D_n$, find the minimum number of scalar multiplications to compute the product.
 
-$$dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + d_i \cdot d_{k+1} \cdot d_{j+1})$$
+$$
+dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + d_i \cdot d_{k+1} \cdot d_{j+1})
+$$
 
 ```python
 def matrix_chain_order(dims):
@@ -8869,7 +8911,9 @@ Number of elements is small ( $n \le 20$), giving $2^n$ states.
 
 Find the minimum cost to visit all cities exactly once and return to the start.
 
-$$dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \\{i\\}][j] + dist[j][i])$$
+$$
+dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \\{i\\}][j] + dist[j][i])
+$$
 
 ```python
 def tsp(dist):
@@ -9500,7 +9544,9 @@ def detect_arbitrage(currencies, rates):
 Floyd-Warshall computes shortest paths between **all pairs** of vertices. It works with negative
 Edges (but not negative cycles).
 
-$$dp[k][i][j] = \min(dp[k-1][i][j], dp[k-1][i][k] + dp[k-1][k][j])$$
+$$
+dp[k][i][j] = \min(dp[k-1][i][j], dp[k-1][i][k] + dp[k-1][k][j])
+$$
 
 In practice, we use only a 2D table because $dp[k]$ only depends on $dp[k-1]$.
 
@@ -10552,7 +10598,9 @@ def huffman(frequencies):
 
 ### Expected Code Length
 
-$$L = \sum_{i=1}^{n} f_i \cdot \mathrm{len(c_i)$$
+$$
+L = \sum_{i=1}^{n} f_i \cdot \mathrm{len(c_i)
+$$
 
 For a source with entropy $H = -\sum f_i \log_2 f_i$Huffman coding satisfies $H \le L \lt H + 1$
 (one bit per symbol worse than the theoretical minimum).
@@ -11046,7 +11094,9 @@ def uniformity_test(hash_func, keys, num_buckets):
 
 ### Multiplicative Hashing
 
-$$h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor$$
+$$
+h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor
+$$
 
 Where $A$ is a constant in $(0, 1)$ and $m$ is the table size. Knuth recommends
 $A = (\sqrt{5} - 1) / 2 \approx 0.6180339887$. This avoids the problem of poor distribution when the
@@ -11086,7 +11136,9 @@ def splitmix64(x):
 
 ### Polynomial Rolling Hash
 
-$$h(s) = \left(\sum_{i=0}^{k-1} s[i] \cdot p^{k-1-i}\right) \bmod m$$
+$$
+h(s) = \left(\sum_{i=0}^{k-1} s[i] \cdot p^{k-1-i}\right) \bmod m
+$$
 
 Where $p$ is a prime (commonly 31, 37, or 257) and $m$ is $2^{64}$ (using unsigned integer
 Overflow). This is the basis for Java's `String.hashCode()` and many other implementations.
@@ -11247,7 +11299,9 @@ Collision occurs, we probe for the next available slot using a deterministic pro
 
 ### Linear Probing
 
-$$h(k, i) = (h'(k) + i) \bmod m$$
+$$
+h(k, i) = (h'(k) + i) \bmod m
+$$
 
 The simplest open addressing scheme: on collision at index $h'(k)$Try $h'(k)+1$, $h'(k)+2$Etc.
 
@@ -11315,7 +11369,9 @@ $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$.
 
 ### Quadratic Probing
 
-$$h(k, i) = (h'(k) + c_1 \cdot i + c_2 \cdot i^2) \bmod m$$
+$$
+h(k, i) = (h'(k) + c_1 \cdot i + c_2 \cdot i^2) \bmod m
+$$
 
 Reduces primary clustering by probing at increasing distances. However, it can suffer from
 **secondary clustering**, keys that hash to the same initial slot follow the same probe sequence.
@@ -11325,7 +11381,9 @@ Than 0.5, quadratic probing with $c_1 = c_2 = 1/2$ will always find an empty slo
 
 ### Double Hashing
 
-$$h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$$
+$$
+h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m
+$$
 
 Uses a second hash function $h_2(k)$ to determine the probe step size. This eliminates both primary
 And secondary clustering. The table size $m$ and the step size $h_2(k)$ should be relatively prime
@@ -11641,7 +11699,9 @@ class BloomFilter:
 
 Given $n$ expected items and desired false positive rate $p$:
 
-$$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
+$$
+m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2
+$$
 
 | False positive rate | Bits per element | Hash functions |
 | ------------------- | ---------------- | -------------- |
@@ -11729,7 +11789,9 @@ Elements) of a set using very little memory, 12 KB for an error rate of about 0.
 3. For each register, track the position of the leftmost 1-bit in the remaining bits
 4. The estimate is based on the harmonic mean of the register values
 
-$$\hat{n} = \alpha_{m} \cdot m^2 \cdot \left(\sum_{j=1}^{m} 2^{-M[j]}\right)^{-1}$$
+$$
+\hat{n} = \alpha_{m} \cdot m^2 \cdot \left(\sum_{j=1}^{m} 2^{-M[j]}\right)^{-1}
+$$
 
 Where $m = 2^b$ is the number of registers, $M[j]$ is the maximum position of the leftmost 1-bit
 Seen in register $j$ And $\alpha_m$ is a bias correction constant.
@@ -15590,11 +15652,15 @@ It with the hash of the pattern.
 
 ### Rolling Hash
 
-$$h(s[i..j]) = \left(\sum_{k=i}^{j} s[k] \cdot p^{j-k}\right) \bmod q$$
+$$
+h(s[i..j]) = \left(\sum_{k=i}^{j} s[k] \cdot p^{j-k}\right) \bmod q
+$$
 
 When sliding the window by one position:
 
-$$h(s[i+1..j+1]) = (h(s[i..j]) - s[i] \cdot p^{m-1}) \cdot p + s[j+1] \bmod q$$
+$$
+h(s[i+1..j+1]) = (h(s[i..j]) - s[i] \cdot p^{m-1}) \cdot p + s[j+1] \bmod q
+$$
 
 ```python
 def rabin_karp_search(text, pattern, base=256, mod=10**9 + 7):
@@ -19211,7 +19277,9 @@ Inline math: $E = mc^2$ and $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{
 
 Block math with aligned equations:
 
-$$\begin{aligned} \nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\ \nabla \cdot \mathbf{B} &= 0 \end{aligned}$$
+$$
+\begin{aligned} \nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\ \nabla \cdot \mathbf{B} &= 0 \end{aligned}
+$$
 
 ## Summary
 
@@ -40799,7 +40867,9 @@ Given metric spaces $(X, d_X)$ and $(Y, d_Y)$A function $f: X \to Y$ is $K$-Lips
 $K \geq 0$) if: $$ d_Y(f(x_1), f(x_2)) \leq K \cdot d_X(x_1, x_2) \quad \forall x_1, x_2 \in X $$
 
 The **Lipschitz constant** (or Lipschitz semi-norm) is defined as:
-$$\lVert f \rVert_{\mathrm{Lip}} = \sup_{x \neq y} \frac{d_Y(f(x), f(y))}{d_X(x, y)}$$
+$$
+\lVert f \rVert_{\mathrm{Lip}} = \sup_{x \neq y} \frac{d_Y(f(x), f(y))}{d_X(x, y)}
+$$
 
 The set of 1-Lipschitz functions consists of all functions satisfying
 $\lVert f \rVert_{\mathrm{Lip}} \leq 1$.
@@ -41502,7 +41572,9 @@ $f: S \to \mathbb{R}$ be measurable. **If $f$ is non-negative, or if
 $\mathbb{E}[|f(X)|] < \infty$**, then the expectation of $f(X)$ can be
 computed either in the sample space or the target space:
 
-$$\mathbb{E}[f(X)] = \int_\Omega f(X(\omega)) \, dP(\omega) = \int_S f(x) \, dP_X(x)$$
+$$
+\mathbb{E}[f(X)] = \int_\Omega f(X(\omega)) \, dP(\omega) = \int_S f(x) \, dP_X(x)
+$$
 
 _Intuition:_ LOTUS justifies computing expectations using the pushforward measure (distribution)
 rather than the underlying probability space. In ML, this is why we can compute
@@ -41513,7 +41585,9 @@ $P$.
 
 For two random variables $X, Y$ with finite second moments, the covariance is defined as:
 
-$$\mathrm{Cov}(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]$$
+$$
+\mathrm{Cov}(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]
+$$
 
 Equivalently,
 $\mathrm{Cov}(X, Y) = \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y]$.
@@ -41768,7 +41842,9 @@ is a **positive definite kernel** if:
 2. Positive semi-definiteness: For any $n \in \mathbb{N}$. Any
    $x_1, \dots, x_n \in \mathcal{X}$, and any
    $c_1, \dots, c_n \in \mathbb{R}$:
-   $$\sum_{i=1}^n \sum_{j=1}^n c_i c_j k(x_i, x_j) \geq 0$$
+   $$
+   \sum_{i=1}^n \sum_{j=1}^n c_i c_j k(x_i, x_j) \geq 0
+   $$
 
 ### Moore-Aronszajn Theorem
 
@@ -41940,7 +42016,9 @@ See Glivenko-Cantelli theorem.
 Let $X_1, X_2, \dots$ be i.i.d. Random variables with mean $\mu$ and finite covariance $\Sigma$.
 Then:
 
-$$\sqrt{n}(\bar{X}_n - \mu) \xrightarrow{d} \mathcal{N}(0, \Sigma)$$
+$$
+\sqrt{n}(\bar{X}_n - \mu) \xrightarrow{d} \mathcal{N}(0, \Sigma)
+$$
 
 Where $\bar{X}_n = \frac{1}{n}\sum_{i=1}^n X_i$.
 
@@ -42642,7 +42720,9 @@ using a deterministic transformation:
 If $z = T_\phi(\epsilon)$ where $\epsilon \sim p(\epsilon)$ (a fixed, parameter-free distribution)
 and $T_\phi$ is a diffeomorphism, then by LOTUS:
 
-$$\nabla_\phi \mathbb{E}_{z \sim q_\phi}[f(z)] = \nabla_\phi \mathbb{E}_{\epsilon \sim p}[f(T_\phi(\epsilon))] = \mathbb{E}_{\epsilon \sim p}[\nabla_\phi f(T_\phi(\epsilon))]$$
+$$
+\nabla_\phi \mathbb{E}_{z \sim q_\phi}[f(z)] = \nabla_\phi \mathbb{E}_{\epsilon \sim p}[f(T_\phi(\epsilon))] = \mathbb{E}_{\epsilon \sim p}[\nabla_\phi f(T_\phi(\epsilon))]
+$$
 
 _Relevance:_ Foundation of VAE training and differentiable Monte Carlo estimation.
 
@@ -42650,7 +42730,9 @@ _Relevance:_ Foundation of VAE training and differentiable Monte Carlo estimatio
 
 Let $\mu, \nu \in \mathcal{P}(S)$ where $(S, d)$ is a Polish space. The
 $p$-Wasserstein distance is:
-$$W_p(\mu, \nu) = \left( \inf_{\gamma \in \Pi(\mu, \nu)} \int_{S \times S} d(x, y)^p \, d\gamma(x, y) \right)^{1/p}$$
+$$
+W_p(\mu, \nu) = \left( \inf_{\gamma \in \Pi(\mu, \nu)} \int_{S \times S} d(x, y)^p \, d\gamma(x, y) \right)^{1/p}
+$$
 Where $\Pi(\mu, \nu)$ is the set of joint distributions (couplings) with marginals $\mu$ and $\nu$.
 
 _Duality (for $p=1$):_ Via Kantorovich-Rubinstein,
@@ -43198,7 +43280,9 @@ minimize it. Two estimation paradigms dominate:
 
 Gradient descent is the workhorse optimizer. The parameter update rule:
 
-$$\theta^{(t+1)} = \theta^{(t)} - \eta \nabla_\theta \mathcal{L}(\theta^{(t)})$$
+$$
+\theta^{(t+1)} = \theta^{(t)} - \eta \nabla_\theta \mathcal{L}(\theta^{(t)})
+$$
 
 where $\eta$ is the learning rate. Key variants:
 
@@ -43214,7 +43298,9 @@ critical for convergence in practice.
 
 The bias-variance decomposition frames generalization error:
 
-$$\text{Generalization Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+$$
+\text{Generalization Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}
+$$
 
 - **Underfitting (high bias)**: the model is too simple to capture the true data-generating
   distribution. High training error and high test error. Remedy: increase model capacity, add

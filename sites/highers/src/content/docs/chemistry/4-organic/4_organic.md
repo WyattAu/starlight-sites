@@ -59,7 +59,9 @@ Longest chain: 6 carbons (hexane).
 
 Numbering from the end nearest a branch:
 
-$$\mathrm{CH_3-\mathrm{CH(\mathrm{CH_3)-\mathrm{CH_2-\mathrm{CH(\mathrm{C_2\mathrm{H_5)-\mathrm{CH_2-\mathrm{CH_3$$
+$$
+\mathrm{CH_3-\mathrm{CH(\mathrm{CH_3)-\mathrm{CH_2-\mathrm{CH(\mathrm{C_2\mathrm{H_5)-\mathrm{CH_2-\mathrm{CH_3
+$$
 
 Position 2: methyl. Position 4: ethyl.
 
@@ -147,7 +149,9 @@ Initiation: $\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet$
 
 Propagation: $\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl$
 
-$$\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet$$
+$$
+\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet
+$$
 
 Termination: Various radical combinations.
 
@@ -156,18 +160,30 @@ With chlorine, including all three stages.
 
 **Initiation:** UV light provides enough energy to break the Cl-Cl bond homolytically.
 
-$$\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet$$
+$$
+\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet
+$$
 
 **Propagation:** A chlorine radical abstracts a hydrogen atom from methane, forming HCl and a methyl
 Radical. The methyl radical then reacts with another chlorine molecule.
 
-$$\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl$$
-$$\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet$$
+$$
+\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl
+$$
+$$
+\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet
+$$
 
 **Termination:** Any two radicals combine:
-$$\mathrm{Cl^\bullet + \mathrm{Cl^\bullet \to \mathrm{Cl_2$$
-$$\mathrm{CH_3^\bullet + \mathrm{Cl^\bullet \to \mathrm{CH_3\mathrm{Cl$$
-$$\mathrm{CH_3^\bullet + \mathrm{CH_3^\bullet \to \mathrm{C_2\mathrm{H_6$$
+$$
+\mathrm{Cl^\bullet + \mathrm{Cl^\bullet \to \mathrm{Cl_2
+$$
+$$
+\mathrm{CH_3^\bullet + \mathrm{Cl^\bullet \to \mathrm{CH_3\mathrm{Cl
+$$
+$$
+\mathrm{CH_3^\bullet + \mathrm{CH_3^\bullet \to \mathrm{C_2\mathrm{H_6
+$$
 
 Further substitution can occur:
 $\mathrm{CH_3\mathrm{Cl \to \mathrm{CH_2\mathrm{Cl_2 \to \mathrm{CHCl_3 \to \mathrm{CCl_4$.
@@ -179,16 +195,22 @@ Electrophiles.
 
 **Addition of HBr:**
 
-$$\mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br$$
+$$
+\mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br
+$$
 
 **Markovnikov"s Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
 With more hydrogens already attached.
 
-$$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3 \quad \mathrm{(major product)$$
+$$
+\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3 \quad \mathrm{(major product)
+$$
 
 **Addition of water (hydration):**
 
-$$\mathrm{CH_2=\mathrm{CH_2 + \mathrm{H_2\mathrm{O \xrightarrow{\mathrm{H^+} \mathrm{CH_3\mathrm{CH_2\mathrm{OH$$
+$$
+\mathrm{CH_2=\mathrm{CH_2 + \mathrm{H_2\mathrm{O \xrightarrow{\mathrm{H^+} \mathrm{CH_3\mathrm{CH_2\mathrm{OH
+$$
 
 **Worked Example 7:** Write the mechanism for the addition of $\mathrm{Br_2$ to ethene, showing the
 Bromonium ion intermediate.
@@ -196,14 +218,18 @@ Bromonium ion intermediate.
 **Step 1:** The $\pi$ electrons of the C=C bond attack a bromine molecule, forming a bromonium ion
 Intermediate and a bromide ion.
 
-$$\mathrm{CH_2=\mathrm{CH_2 + \mathrm{Br_2 \to \mathrm{CH_2\mathrm{CH_2\mathrm{Br^+ + \mathrm{Br^-$$
+$$
+\mathrm{CH_2=\mathrm{CH_2 + \mathrm{Br_2 \to \mathrm{CH_2\mathrm{CH_2\mathrm{Br^+ + \mathrm{Br^-
+$$
 
 The bromonium ion is a three-membered ring with a positive charge on bromine.
 
 **Step 2:** The bromide ion attacks one carbon of the bromonium ion from the opposite side
 (anti-addition), opening the ring.
 
-$$\mathrm{CH_2\mathrm{CH_2\mathrm{Br^+ + \mathrm{Br^- \to \mathrm{CH_2\mathrm{BrCH_2\mathrm{Br$$
+$$
+\mathrm{CH_2\mathrm{CH_2\mathrm{Br^+ + \mathrm{Br^- \to \mathrm{CH_2\mathrm{BrCH_2\mathrm{Br
+$$
 
 Product: 1,2-dibromoethane.
 
@@ -214,18 +240,24 @@ Product: 1,2-dibromoethane.
 Primary alcohol $\to$ aldehyde $\to$ carboxylic acid (with acidified
 $\mathrm{K_2\mathrm{Cr_2\mathrm{O_7$).
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{OH \xrightarrow{[O]} \mathrm{CH_3\mathrm{CHO \xrightarrow{[O]} \mathrm{CH_3\mathrm{COOH$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{OH \xrightarrow{[O]} \mathrm{CH_3\mathrm{CHO \xrightarrow{[O]} \mathrm{CH_3\mathrm{COOH
+$$
 
 Secondary alcohol $\to$ ketone (stops here).
 
-$$\mathrm{CH_3\mathrm{CH(\mathrm{OH)\mathrm{CH_3 \xrightarrow{[O]} \mathrm{CH_3\mathrm{COCH_3$$
+$$
+\mathrm{CH_3\mathrm{CH(\mathrm{OH)\mathrm{CH_3 \xrightarrow{[O]} \mathrm{CH_3\mathrm{COCH_3
+$$
 
 Tertiary alcohol: not oxidised.
 
 **Worked Example 8:** A student oxidises propan-1-ol using acidified potassium dichromate under
 Reflux. Write the equation and name the organic product.
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH + 2[\mathrm{O] \xrightarrow{\mathrm{reflux} \mathrm{CH_3\mathrm{CH_2\mathrm{COOH + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH + 2[\mathrm{O] \xrightarrow{\mathrm{reflux} \mathrm{CH_3\mathrm{CH_2\mathrm{COOH + \mathrm{H_2\mathrm{O
+$$
 
 Product: propanoic acid. Under reflux, the aldehyde intermediate is further oxidised to the
 Carboxylic acid. To stop at the aldehyde, distillation would be used instead of reflux.
@@ -233,7 +265,9 @@ Carboxylic acid. To stop at the aldehyde, distillation would be used instead of 
 **Dehydration:** Alcohols can be dehydrated to form alkenes using concentrated
 $\mathrm{H_2\mathrm{SO_4$ or $\mathrm{Al_2\mathrm{O_3$ at high temperature.
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{OH \xrightarrow{\mathrm{conc.  \mathrm{H_2\mathrm{SO_4, 170°C} \mathrm{CH_2=\mathrm{CH_2 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{OH \xrightarrow{\mathrm{conc.  \mathrm{H_2\mathrm{SO_4, 170°C} \mathrm{CH_2=\mathrm{CH_2 + \mathrm{H_2\mathrm{O
+$$
 
 ### Carbonyl Compounds
 
@@ -360,18 +394,24 @@ Formed by joining monomers with the elimination of a small molecule (e.g., water
 
 **Polyesters:** Dicarboxylic acid + diol.
 
-$$\mathrm{HOOC-\mathrm{R-\mathrm{COOH + \mathrm{HO-\mathrm{R'-\mathrm{OH \to \mathrm{[OC-\mathrm{R-\mathrm{COO-\mathrm{R'\mathrm{]_n + n\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{HOOC-\mathrm{R-\mathrm{COOH + \mathrm{HO-\mathrm{R'-\mathrm{OH \to \mathrm{[OC-\mathrm{R-\mathrm{COO-\mathrm{R'\mathrm{]_n + n\mathrm{H_2\mathrm{O
+$$
 
 **Worked Example 11:** Draw the repeating unit of the polyester formed from benzene-1,4-dicarboxylic
 Acid and ethane-1,2-diol.
 
 The repeating unit is:
 
-$$\mathrm{[-OC-C_6\mathrm{H_4\mathrm{-COO-CH_2\mathrm{CH_2\mathrm{O-]_n$$
+$$
+\mathrm{[-OC-C_6\mathrm{H_4\mathrm{-COO-CH_2\mathrm{CH_2\mathrm{O-]_n
+$$
 
 **Polyamides:** Dicarboxylic acid + diamine.
 
-$$\mathrm{HOOC-\mathrm{R-\mathrm{COOH + \mathrm{H_2\mathrm{N-\mathrm{R'-\mathrm{NH_2 \to \mathrm{[OC-\mathrm{R-\mathrm{CONH-\mathrm{R'-\mathrm{NH]_n + n\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{HOOC-\mathrm{R-\mathrm{COOH + \mathrm{H_2\mathrm{N-\mathrm{R'-\mathrm{NH_2 \to \mathrm{[OC-\mathrm{R-\mathrm{CONH-\mathrm{R'-\mathrm{NH]_n + n\mathrm{H_2\mathrm{O
+$$
 
 Nylon and Kevlar are examples of polyamides.
 
@@ -508,13 +548,19 @@ Images that rotate plane-polarised light in opposite directions.
 
 Step 1: Add HBr to propene (electrophilic addition):
 
-$$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3$$
+$$
+\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3
+$$
 
 Step 2: Hydrolyse using $\mathrm{NaOH$ (aq) to form the alcohol, then oxidise:
 
-$$\mathrm{CH_3\mathrm{CHBrCH_3 + \mathrm{NaOH \to \mathrm{CH_3\mathrm{CH(OH)CH_3 + \mathrm{NaBr$$
+$$
+\mathrm{CH_3\mathrm{CHBrCH_3 + \mathrm{NaOH \to \mathrm{CH_3\mathrm{CH(OH)CH_3 + \mathrm{NaBr
+$$
 
-$$\mathrm{CH_3\mathrm{CH(OH)CH_3 + 2[\mathrm{O] \to \mathrm{CH_3\mathrm{COOH + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CH_3\mathrm{CH(OH)CH_3 + 2[\mathrm{O] \to \mathrm{CH_3\mathrm{COOH + \mathrm{H_2\mathrm{O
+$$
 
 Wait -- oxidation of propan-2-ol gives propanone, not propanoic acid. Let us use a different route.
 
@@ -522,7 +568,9 @@ Alternative: Use anti-Markovnikov addition (not available without peroxides in t
 Better route:
 
 Step 1: Hydration of propene to propan-1-ol (indirect, via addition then hydrolysis):
-$$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{H_2\mathrm{O \xrightarrow{\mathrm{H^+} \mathrm{CH_3\mathrm{CH(OH)CH_3$$
+$$
+\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{H_2\mathrm{O \xrightarrow{\mathrm{H^+} \mathrm{CH_3\mathrm{CH(OH)CH_3
+$$
 
 This gives propan-2-ol (Markovnikov). To get propanoic acid, we need propan-1-ol.
 
@@ -612,7 +660,9 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 
 **Bioethanol:** Produced by fermentation of sugars using yeast. Can be blended with petrol.
 
-$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \xrightarrow{\mathrm{yeast} 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2$$
+$$
+\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \xrightarrow{\mathrm{yeast} 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2
+$$
 
 **Biodiesel:** Produced by transesterification of vegetable oils with methanol.
 
@@ -722,7 +772,9 @@ To assign E/Z to alkenes:
 
 **Worked Example 21:** Assign E/Z to 1-bromo-2-chloropropene.
 
-$$\mathrm{CH_3\mathrm{C(\mathrm{Br)=\mathrm{C(\mathrm{Cl)\mathrm{H$$
+$$
+\mathrm{CH_3\mathrm{C(\mathrm{Br)=\mathrm{C(\mathrm{Cl)\mathrm{H
+$$
 
 On the left carbon: $\mathrm{Br$ (priority 1) vs. $\mathrm{CH_3$ (priority 2). On the right carbon:
 $\mathrm{Cl$ (priority 1) vs. $\mathrm{H$ (priority 2).
@@ -769,8 +821,12 @@ Cancelling dipoles.
   layer because the C-Cl bond is weak enough to be broken by UV radiation in the stratosphere,
   releasing chlorine radicals that catalyse ozone destruction.
 
-$$\mathrm{Cl^\bullet + \mathrm{O_3 \to \mathrm{ClO^\bullet + \mathrm{O_2$$
-$$\mathrm{ClO^\bullet + \mathrm{O \to \mathrm{Cl^\bullet + \mathrm{O_2$$
+$$
+\mathrm{Cl^\bullet + \mathrm{O_3 \to \mathrm{ClO^\bullet + \mathrm{O_2
+$$
+$$
+\mathrm{ClO^\bullet + \mathrm{O \to \mathrm{Cl^\bullet + \mathrm{O_2
+$$
 
 - **HCFCs** and **HFCs**: Replacement compounds that are less damaging to the ozone layer.
 
@@ -786,7 +842,9 @@ $$\mathrm{ClO^\bullet + \mathrm{O \to \mathrm{Cl^\bullet + \mathrm{O_2$$
 **Worked Example 22:** Describe the reaction of 1-bromopropane with potassium cyanide and explain
 The importance of this reaction in organic synthesis.
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{Br + \mathrm{KCN \to \mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CN + \mathrm{KBr$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{Br + \mathrm{KCN \to \mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CN + \mathrm{KBr
+$$
 
 This is an $S_N2$ reaction. The product is butanenitrile. The importance is that the carbon chain
 Has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently be hydrolysed to a
@@ -845,7 +903,9 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 
 **Solution:**
 
-$$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
+$$
+k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}
+$$
 
 ## Intuition
 

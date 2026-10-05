@@ -817,7 +817,9 @@ $= \lim_{x \to 0} \frac{\sin x}{x(1 + \cos x)} = \lim_{x \to 0} \frac{\sin x}{x}
 
 Determine whether the following function is continuous at $x = 1$:
 
-$$f(x) = \begin{cases} \frac{x^2 - 1}{x - 1} & \mathrm{if  x \ne 1 \\ 4 & \mathrm{if  x = 1 \end{cases}$$
+$$
+f(x) = \begin{cases} \frac{x^2 - 1}{x - 1} & \mathrm{if  x \ne 1 \\ 4 & \mathrm{if  x = 1 \end{cases}
+$$
 
 </details>
 

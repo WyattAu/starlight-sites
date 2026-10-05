@@ -398,7 +398,9 @@ concentration and pH:
 
 Blood pH is maintained between 7.35 and 7.45 by the carbonic acid-bicarbonate buffer system:
 
-$$\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}$$
+$$
+\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}
+$$
 
 This reaction is catalysed by **carbonic anhydrase** in red blood cells. When $p\mathrm{CO_2}$
 rises, the equilibrium shifts to the right, producing more $\mathrm{H^+}$ and lowering pH. The
@@ -1224,7 +1226,9 @@ concentrations.
 To determine whether the effect of auxin on root growth is statistically significant, a t-test can
 be used:
 
-$$t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$$
+$$
+t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+$$
 
 Where $\bar{x}_1, \bar{x}_2$ = mean radicle lengths in the two groups, $s_1, s_2$ = standard
 deviations, $n_1, n_2$ = sample sizes.
@@ -1338,7 +1342,9 @@ mechanisms to maintain their body temperature within an optimal range:
 **Renal clearance** measures the efficiency with which the kidneys remove a substance from the
 blood:
 
-$$C = \frac{U \times V}{P}$$
+$$
+C = \frac{U \times V}{P}
+$$
 
 Where $C$ = clearance ($\mathrm{mL\ min^{-1}}$), $U$ = urine concentration of the substance, $V$ =
 urine flow rate ($\mathrm{mL\ min^{-1}}$), $P$ = plasma concentration of the substance.
@@ -1364,7 +1370,9 @@ uncontrolled diabetes (glycosuria).
 
 ### 18.3 Filtration Fraction
 
-$$\text{Filtration fraction} = \frac{\text{GFR}}{\text{Renal plasma flow (RPF)}} = \frac{125}{650} \approx 0.19 = 19\%$$
+$$
+\text{Filtration fraction} = \frac{\text{GFR}}{\text{Renal plasma flow (RPF)}} = \frac{125}{650} \approx 0.19 = 19\%
+$$
 
 This means approximately 19% of the plasma passing through the glomerulus is filtered into the
 Bowman's capsule.

@@ -44,17 +44,29 @@ If $3(2x - 5) = 4(x + 3) - 7$, what is the value of $x$?
 
 **Solution:**
 
-$$3(2x - 5) = 4(x + 3) - 7$$
+$$
+3(2x - 5) = 4(x + 3) - 7
+$$
 
-$$6x - 15 = 4x + 12 - 7$$
+$$
+6x - 15 = 4x + 12 - 7
+$$
 
-$$6x - 15 = 4x + 5$$
+$$
+6x - 15 = 4x + 5
+$$
 
-$$6x - 4x = 5 + 15$$
+$$
+6x - 4x = 5 + 15
+$$
 
-$$2x = 20$$
+$$
+2x = 20
+$$
 
-$$x = 10$$
+$$
+x = 10
+$$
 
 **Key concept:** Solving a linear equation by distributing, combining like terms, and isolating the
 variable.
@@ -85,21 +97,33 @@ A store sells notebooks for \$3 each and pens for \$2 each. If a customer buys 1
 
 Let $n$ = number of notebooks and $p$ = number of pens.
 
-$$n + p = 14 \quad \text{(total items)}$$
+$$
+n + p = 14 \quad \text{(total items)}
+$$
 
-$$3n + 2p = 34 \quad \text{(total cost)}$$
+$$
+3n + 2p = 34 \quad \text{(total cost)}
+$$
 
 From the first equation: $p = 14 - n$.
 
 Substitute into the second:
 
-$$3n + 2(14 - n) = 34$$
+$$
+3n + 2(14 - n) = 34
+$$
 
-$$3n + 28 - 2n = 34$$
+$$
+3n + 28 - 2n = 34
+$$
 
-$$n + 28 = 34$$
+$$
+n + 28 = 34
+$$
 
-$$n = 6$$
+$$
+n = 6
+$$
 
 The customer bought 6 notebooks.
 
@@ -130,15 +154,23 @@ slope-intercept form?
 
 **Solution:**
 
-$$m = \frac{-7 - 5}{4 - (-2)} = \frac{-12}{6} = -2$$
+$$
+m = \frac{-7 - 5}{4 - (-2)} = \frac{-12}{6} = -2
+$$
 
 Using point-slope form with point $(4, -7)$:
 
-$$y - (-7) = -2(x - 4)$$
+$$
+y - (-7) = -2(x - 4)
+$$
 
-$$y + 7 = -2x + 8$$
+$$
+y + 7 = -2x + 8
+$$
 
-$$y = -2x + 1$$
+$$
+y = -2x + 1
+$$
 
 The equation is $y = -2x + 1$.
 
@@ -168,17 +200,27 @@ Solve the inequality $-3(2x + 1) > 4x - 11$. Express the solution as an inequali
 
 **Solution:**
 
-$$-3(2x + 1) > 4x - 11$$
+$$
+-3(2x + 1) > 4x - 11
+$$
 
-$$-6x - 3 > 4x - 11$$
+$$
+-6x - 3 > 4x - 11
+$$
 
-$$-6x - 4x > -11 + 3$$
+$$
+-6x - 4x > -11 + 3
+$$
 
-$$-10x > -8$$
+$$
+-10x > -8
+$$
 
 Dividing by $-10$ (reverse the inequality sign):
 
-$$x < \frac{4}{5}$$
+$$
+x < \frac{4}{5}
+$$
 
 **Key concept:** Solving a linear inequality, remembering to reverse the inequality sign when
 dividing by a negative number.
@@ -206,15 +248,21 @@ What is the sum of all integer solutions to $|2x - 3| \leq 7$?
 
 **Solution:**
 
-$$|2x - 3| \leq 7 \implies -7 \leq 2x - 3 \leq 7$$
+$$
+|2x - 3| \leq 7 \implies -7 \leq 2x - 3 \leq 7
+$$
 
 Add 3:
 
-$$-4 \leq 2x \leq 10$$
+$$
+-4 \leq 2x \leq 10
+$$
 
 Divide by 2:
 
-$$-2 \leq x \leq 5$$
+$$
+-2 \leq x \leq 5
+$$
 
 The integer solutions are $-2, -1, 0, 1, 2, 3, 4, 5$.
 
@@ -251,9 +299,13 @@ Net rate of change: $15 - 3 = 12$ litres per minute.
 
 Amount needed: $380 - 200 = 180$ litres.
 
-$$12t = 180$$
+$$
+12t = 180
+$$
 
-$$t = \frac{180}{12} = 15$$
+$$
+t = \frac{180}{12} = 15
+$$
 
 It takes 15 minutes.
 
@@ -288,15 +340,25 @@ Factor: find two numbers that multiply to $2 \times (-3) = -6$ and add to $-5$.
 
 The numbers are $-6$ and $1$.
 
-$$2x^2 - 6x + x - 3 = 0$$
+$$
+2x^2 - 6x + x - 3 = 0
+$$
 
-$$2x(x - 3) + 1(x - 3) = 0$$
+$$
+2x(x - 3) + 1(x - 3) = 0
+$$
 
-$$(2x + 1)(x - 3) = 0$$
+$$
+(2x + 1)(x - 3) = 0
+$$
 
-$$2x + 1 = 0 \implies x = -\frac{1}{2}$$
+$$
+2x + 1 = 0 \implies x = -\frac{1}{2}
+$$
 
-$$x - 3 = 0 \implies x = 3$$
+$$
+x - 3 = 0 \implies x = 3
+$$
 
 The solutions are $x = -\frac{1}{2}$ and $x = 3$.
 
@@ -328,13 +390,21 @@ $g(x)$?
 
 By the Remainder Theorem, the remainder is $f(3)$:
 
-$$f(3) = 3^3 + 2(3)^2 - 5(3) + 1$$
+$$
+f(3) = 3^3 + 2(3)^2 - 5(3) + 1
+$$
 
-$$f(3) = 27 + 2(9) - 15 + 1$$
+$$
+f(3) = 27 + 2(9) - 15 + 1
+$$
 
-$$f(3) = 27 + 18 - 15 + 1$$
+$$
+f(3) = 27 + 18 - 15 + 1
+$$
 
-$$f(3) = 31$$
+$$
+f(3) = 31
+$$
 
 The remainder is 31.
 
@@ -375,7 +445,9 @@ D) $500 \cdot 3^{t/2}$
 The population doubles every 3 hours. After $t$ hours, the number of doubling periods is
 $\frac{t}{3}$.
 
-$$P(t) = 500 \cdot 2^{t/3}$$
+$$
+P(t) = 500 \cdot 2^{t/3}
+$$
 
 **Correct answer: C**
 
@@ -407,13 +479,19 @@ If $f(x) = 2x + 1$ and $g(x) = x^2 - 3$, what is $f(g(4))$?
 
 First evaluate $g(4)$:
 
-$$g(4) = 4^2 - 3 = 16 - 3 = 13$$
+$$
+g(4) = 4^2 - 3 = 16 - 3 = 13
+$$
 
 Then evaluate $f$ at this result:
 
-$$f(13) = 2(13) + 1 = 26 + 1 = 27$$
+$$
+f(13) = 2(13) + 1 = 26 + 1 = 27
+$$
 
-$$f(g(4)) = 27$$
+$$
+f(g(4)) = 27
+$$
 
 **Key concept:** Function composition -- evaluating the inner function first, then using its output
 as the input to the outer function.
@@ -443,15 +521,23 @@ If $x^2 + y^2 = 25$ and $x + y = 7$, what is the value of $xy$?
 
 From $x + y = 7$, square both sides:
 
-$$(x + y)^2 = x^2 + 2xy + y^2 = 49$$
+$$
+(x + y)^2 = x^2 + 2xy + y^2 = 49
+$$
 
 Substitute $x^2 + y^2 = 25$:
 
-$$25 + 2xy = 49$$
+$$
+25 + 2xy = 49
+$$
 
-$$2xy = 24$$
+$$
+2xy = 24
+$$
 
-$$xy = 12$$
+$$
+xy = 12
+$$
 
 **Key concept:** Using the identity $(x + y)^2 = x^2 + 2xy + y^2$ to solve a system of equations
 without finding $x$ and $y$ individually.
@@ -481,17 +567,29 @@ If $\frac{x+1}{3} + \frac{x-2}{5} = 2$, what is the value of $x$?
 
 Multiply through by the common denominator, 15:
 
-$$15 \cdot \frac{x+1}{3} + 15 \cdot \frac{x-2}{5} = 15 \cdot 2$$
+$$
+15 \cdot \frac{x+1}{3} + 15 \cdot \frac{x-2}{5} = 15 \cdot 2
+$$
 
-$$5(x + 1) + 3(x - 2) = 30$$
+$$
+5(x + 1) + 3(x - 2) = 30
+$$
 
-$$5x + 5 + 3x - 6 = 30$$
+$$
+5x + 5 + 3x - 6 = 30
+$$
 
-$$8x - 1 = 30$$
+$$
+8x - 1 = 30
+$$
 
-$$8x = 31$$
+$$
+8x = 31
+$$
 
-$$x = \frac{31}{8}$$
+$$
+x = \frac{31}{8}
+$$
 
 **Key concept:** Solving a rational equation by clearing denominators.
 
@@ -521,11 +619,15 @@ value of $h + k$?
 
 Complete the square:
 
-$$f(x) = x^2 - 8x + 3 = (x^2 - 8x + 16) - 16 + 3 = (x - 4)^2 - 13$$
+$$
+f(x) = x^2 - 8x + 3 = (x^2 - 8x + 16) - 16 + 3 = (x - 4)^2 - 13
+$$
 
 So $h = 4$ and $k = -13$.
 
-$$h + k = 4 + (-13) = -9$$
+$$
+h + k = 4 + (-13) = -9
+$$
 
 **Key concept:** Converting a quadratic from standard form to vertex form by completing the square.
 
@@ -559,11 +661,15 @@ to the sale price. What is the final price of the shirt?
 
 After the first discount:
 
-$$80 \times (1 - 0.25) = 80 \times 0.75 = 60$$
+$$
+80 \times (1 - 0.25) = 80 \times 0.75 = 60
+$$
 
 After the second discount:
 
-$$60 \times (1 - 0.10) = 60 \times 0.90 = 54$$
+$$
+60 \times (1 - 0.10) = 60 \times 0.90 = 54
+$$
 
 The final price is \$54.
 
@@ -596,7 +702,9 @@ approximate cost per kilometre to drive this car? (Round to the nearest cent.)
 
 Cost per kilometre = (cost per litre) ÷ (kilometres per litre)
 
-$$\frac{1.45}{12} \approx 0.1208$$
+$$
+\frac{1.45}{12} \approx 0.1208
+$$
 
 Rounded to the nearest cent: approximately \$0.12 per kilometre.
 
@@ -627,7 +735,9 @@ the predicted salary for someone with 8 years of experience?
 
 **Solution:**
 
-$$\hat{y} = 3.2(8) + 1.5 = 25.6 + 1.5 = 27.1$$
+$$
+\hat{y} = 3.2(8) + 1.5 = 25.6 + 1.5 = 27.1
+$$
 
 Since $\hat{y}$ is in thousands of dollars, the predicted salary is $\$27,100$.
 
@@ -666,7 +776,9 @@ After removing one blue marble, 14 marbles remain, 5 of which are blue.
 
 Probability the second is blue: $\frac{5}{14}$.
 
-$$P(\text{both blue}) = \frac{6}{15} \times \frac{5}{14} = \frac{2}{5} \times \frac{5}{14} = \frac{10}{70} = \frac{1}{7}$$
+$$
+P(\text{both blue}) = \frac{6}{15} \times \frac{5}{14} = \frac{2}{5} \times \frac{5}{14} = \frac{10}{70} = \frac{1}{7}
+$$
 
 **Key concept:** Probability of dependent events (without replacement). Multiply the conditional
 probabilities.
@@ -695,13 +807,21 @@ The five numbers $3, 7, a, 11, 15$ have a mean of 10. What is the value of $a$?
 
 **Solution:**
 
-$$\text{Mean} = \frac{3 + 7 + a + 11 + 15}{5} = 10$$
+$$
+\text{Mean} = \frac{3 + 7 + a + 11 + 15}{5} = 10
+$$
 
-$$\frac{36 + a}{5} = 10$$
+$$
+\frac{36 + a}{5} = 10
+$$
 
-$$36 + a = 50$$
+$$
+36 + a = 50
+$$
 
-$$a = 14$$
+$$
+a = 14
+$$
 
 **Key concept:** The mean is the sum of values divided by the count. Use the given mean to find the
 missing value.
@@ -731,7 +851,9 @@ maximum = 45. What is the interquartile range (IQR)?
 
 **Solution:**
 
-$$\text{IQR} = Q_3 - Q_1 = 32 - 18 = 14$$
+$$
+\text{IQR} = Q_3 - Q_1 = 32 - 18 = 14
+$$
 
 **Key concept:** The interquartile range measures the spread of the middle 50% of data.
 
@@ -768,7 +890,9 @@ What fraction of the Year 10 students prefer Science?
 
 Year 10 total = 100. Year 10 students who prefer Science = 40.
 
-$$\frac{40}{100} = \frac{2}{5}$$
+$$
+\frac{40}{100} = \frac{2}{5}
+$$
 
 **Key concept:** Reading a two-way table and computing a conditional probability/fraction from a
 specific row.
@@ -840,7 +964,9 @@ Angle $ABC$ is an inscribed angle that subtends the same arc $AC$.
 
 An inscribed angle is half the measure of its intercepted arc:
 
-$$\angle ABC = \frac{140°}{2} = 70°$$
+$$
+\angle ABC = \frac{140°}{2} = 70°
+$$
 
 **Key concept:** The Inscribed Angle Theorem -- an inscribed angle is half the central angle that
 subtends the same arc.
@@ -871,7 +997,9 @@ the measure of an angle adjacent to this one?
 
 Adjacent angles formed by intersecting lines are supplementary (they sum to $180°$).
 
-$$180° - 125° = 55°$$
+$$
+180° - 125° = 55°
+$$
 
 The adjacent angle measures $55°$.
 
@@ -904,17 +1032,27 @@ $\sin(A)$?
 
 First find $AC$ using the Pythagorean theorem:
 
-$$AC^2 + BC^2 = AB^2$$
+$$
+AC^2 + BC^2 = AB^2
+$$
 
-$$AC^2 + 25 = 169$$
+$$
+AC^2 + 25 = 169
+$$
 
-$$AC^2 = 144$$
+$$
+AC^2 = 144
+$$
 
-$$AC = 12$$
+$$
+AC = 12
+$$
 
 For angle $A$: opposite side is $BC = 5$, hypotenuse is $AB = 13$.
 
-$$\sin(A) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{5}{13}$$
+$$
+\sin(A) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{5}{13}
+$$
 
 **Key concept:** Applying SOH CAH TOA and the Pythagorean theorem in a right triangle.
 
@@ -945,11 +1083,17 @@ is the area of $DEF$?
 
 The ratio of areas of similar figures equals the square of the ratio of corresponding lengths.
 
-$$\frac{\text{Area of } ABC}{\text{Area of } DEF} = \left(\frac{2}{3}\right)^2 = \frac{4}{9}$$
+$$
+\frac{\text{Area of } ABC}{\text{Area of } DEF} = \left(\frac{2}{3}\right)^2 = \frac{4}{9}
+$$
 
-$$\frac{24}{\text{Area of } DEF} = \frac{4}{9}$$
+$$
+\frac{24}{\text{Area of } DEF} = \frac{4}{9}
+$$
 
-$$\text{Area of } DEF = 24 \times \frac{9}{4} = 6 \times 9 = 54$$
+$$
+\text{Area of } DEF = 24 \times \frac{9}{4} = 6 \times 9 = 54
+$$
 
 The area of $DEF$ is 54 square units.
 
@@ -1017,7 +1161,9 @@ $QR = 16$, what is the length of $MN$?
 The segment connecting the midpoints of two sides of a triangle (the midsegment) is parallel to the
 third side and half its length.
 
-$$MN = \frac{1}{2} \times QR = \frac{1}{2} \times 16 = 8$$
+$$
+MN = \frac{1}{2} \times QR = \frac{1}{2} \times 16 = 8
+$$
 
 **Key concept:** The Triangle Midsegment Theorem.
 
@@ -1047,11 +1193,15 @@ What is the sum of the interior angles of a regular octagon?
 
 Sum of interior angles of an $n$-sided polygon:
 
-$$S = (n - 2) \times 180°$$
+$$
+S = (n - 2) \times 180°
+$$
 
 For an octagon ($n = 8$):
 
-$$S = (8 - 2) \times 180° = 6 \times 180° = 1080°$$
+$$
+S = (8 - 2) \times 180° = 6 \times 180° = 1080°
+$$
 
 Each interior angle of a regular octagon: $1080° \div 8 = 135°$.
 
@@ -1085,13 +1235,19 @@ The ground, wall, and ladder form a right triangle. The ladder is the hypotenuse
 
 The distance from the wall (4 ft) is the side adjacent to the $72°$ angle.
 
-$$\cos(72°) = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{4}{L}$$
+$$
+\cos(72°) = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{4}{L}
+$$
 
-$$L = \frac{4}{\cos(72°)}$$
+$$
+L = \frac{4}{\cos(72°)}
+$$
 
 $\cos(72°) \approx 0.309$
 
-$$L = \frac{4}{0.309} \approx 12.94$$
+$$
+L = \frac{4}{0.309} \approx 12.94
+$$
 
 The ladder is approximately 13 feet long.
 
@@ -1126,13 +1282,17 @@ Complete the square for both $x$ and $y$.
 
 Group $x$ terms and $y$ terms, move the constant:
 
-$$(x^2 - 6x) + (y^2 + 8y) = 11$$
+$$
+(x^2 - 6x) + (y^2 + 8y) = 11
+$$
 
 Complete the square for $x$: $x^2 - 6x + 9 = (x - 3)^2$ (add 9 to both sides)
 
 Complete the square for $y$: $y^2 + 8y + 16 = (y + 4)^2$ (add 16 to both sides)
 
-$$(x - 3)^2 + (y + 4)^2 = 11 + 9 + 16 = 36$$
+$$
+(x - 3)^2 + (y + 4)^2 = 11 + 9 + 16 = 36
+$$
 
 This gives centre $(3, -4)$ and radius $r = \sqrt{36} = 6$.
 

@@ -86,7 +86,9 @@ Structure:
   chain
 - **Matrix:** Contains enzymes for the Krebs cycle, mitochondrial DNA, and ribosomes
 
-$$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2 \to 6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} + \mathrm{ATP}$$
+$$
+\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2 \to 6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} + \mathrm{ATP}
+$$
 
 ### Endoplasmic Reticulum (ER)
 
@@ -139,7 +141,9 @@ Structure:
 - **Grana:** Stacks of thylakoids
 - **Stroma:** Fluid-filled space; site of the light-independent reactions (Calvin cycle)
 
-$$6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{light}} \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2$$
+$$
+6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{light}} \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2
+$$
 
 ### Cell Membrane
 
@@ -438,7 +442,9 @@ An enzyme has an optimum temperature of $40^\circ\mathrm{C}$. At $20^\circ\mathr
 Rate is $0.3$ units/s. At $40^\circ\mathrm{C}$The rate is $1.2$ units/s. Calculate the Q10
 (temperature coefficient).
 
-$$Q_{10} = \frac{\mathrm{Rate at }(T + 10)}{\mathrm{Rate at } T}$$
+$$
+Q_{10} = \frac{\mathrm{Rate at }(T + 10)}{\mathrm{Rate at } T}
+$$
 
 Between $20^\circ\mathrm{C}$ and $30^\circ\mathrm{C}$: $Q_{10}$ might be approximately 2 (typical
 For biological reactions). Without the $30^\circ\mathrm{C}$ data, we can estimate the overall
@@ -446,7 +452,9 @@ Effect:
 
 From $20^\circ\mathrm{C}$ to $40^\circ\mathrm{C}$ (a $20^\circ\mathrm{C}$ increase):
 
-$$\mathrm{Rate increase factor} = \frac{1.2}{0.3} = 4$$
+$$
+\mathrm{Rate increase factor} = \frac{1.2}{0.3} = 4
+$$
 
 This is consistent with $Q_{10} \approx 2$ (since $2^2 = 4$).
 
@@ -1159,7 +1167,9 @@ Types.
 
 The water potential of a solution is:
 
-$$\Psi = \Psi_s + \Psi_p$$
+$$
+\Psi = \Psi_s + \Psi_p
+$$
 
 Where:
 
@@ -1168,7 +1178,9 @@ Where:
 
 For a solution with no pressure applied:
 
-$$\Psi = \Psi_s = -iCRT$$
+$$
+\Psi = \Psi_s = -iCRT
+$$
 
 Where:
 
@@ -1182,7 +1194,9 @@ Where:
 Calculate the water potential of a $0.3 \mathrm{ mol/dm}^3$ sucrose solution at
 $25^\circ\mathrm{C}$. ($i = 1$ for sucrose)
 
-$$\Psi_s = -iCRT = -(1)(0.3)(8.314)(298) = -743.3 \mathrm{ kPa}$$
+$$
+\Psi_s = -iCRT = -(1)(0.3)(8.314)(298) = -743.3 \mathrm{ kPa}
+$$
 
 Since there is no pressure: $\Psi = -743.3 \mathrm{ kPa}$
 
@@ -1191,7 +1205,9 @@ Since there is no pressure: $\Psi = -743.3 \mathrm{ kPa}$
 Calculate the water potential of a $0.2 \mathrm{ mol/dm}^3$ $\mathrm{NaCl}$ solution at
 $20^\circ\mathrm{C}$. ($i = 2$ for $\mathrm{NaCl}$)
 
-$$\Psi_s = -(2)(0.2)(8.314)(293) = -974.4 \mathrm{ kPa}$$
+$$
+\Psi_s = -(2)(0.2)(8.314)(293) = -974.4 \mathrm{ kPa}
+$$
 
 $\Psi = -974.0 \mathrm{ kPa}$
 
@@ -1448,7 +1464,9 @@ aerobic and anaerobic respiration.
 | ATP production  | Each triose phosphate is converted to pyruvate (3C), producing 2 ATP per triose phosphate (substrate-level phosphorylation)                         | Produces 4 ATP (2 per triose phosphate) |
 | **Net yield**   |                                                                                                                                                     | **2 ATP + 2 NADH per glucose**          |
 
-$$\text{Glucose (6C)} + 2\mathrm{NAD}^+ + 2\mathrm{ADP} + 2\mathrm{P}_i \to 2\text{ Pyruvate (3C)} + 2\mathrm{NADH} + 2\mathrm{H}^+ + 2\mathrm{ATP} + 2\mathrm{H}_2\mathrm{O}$$
+$$
+\text{Glucose (6C)} + 2\mathrm{NAD}^+ + 2\mathrm{ADP} + 2\mathrm{P}_i \to 2\text{ Pyruvate (3C)} + 2\mathrm{NADH} + 2\mathrm{H}^+ + 2\mathrm{ATP} + 2\mathrm{H}_2\mathrm{O}
+$$
 
 ### The Link Reaction and Krebs Cycle
 
@@ -1502,7 +1520,9 @@ Cells must regenerate NAD$^+$ by alternative pathways to keep glycolysis running
 
 **In animal cells (lactic acid fermentation):**
 
-$$\text{Pyruvate} + \mathrm{NADH} \xrightarrow{\text{LDH}} \text{Lactate} + \mathrm{NAD}^+$$
+$$
+\text{Pyruvate} + \mathrm{NADH} \xrightarrow{\text{LDH}} \text{Lactate} + \mathrm{NAD}^+
+$$
 
 - Net yield: 2 ATP per glucose (only from glycolysis)
 - Lactate accumulates in muscles, causing fatigue and cramping
@@ -1511,9 +1531,13 @@ $$\text{Pyruvate} + \mathrm{NADH} \xrightarrow{\text{LDH}} \text{Lactate} + \mat
 
 **In yeast and plant cells (alcoholic fermentation):**
 
-$$\text{Pyruvate} \xrightarrow{\text{decarboxylase}} \text{Ethanal} + \mathrm{CO}_2$$
+$$
+\text{Pyruvate} \xrightarrow{\text{decarboxylase}} \text{Ethanal} + \mathrm{CO}_2
+$$
 
-$$\text{Ethanal} + \mathrm{NADH} \xrightarrow{\text{alcohol dehydrogenase}} \text{Ethanol} + \mathrm{NAD}^+$$
+$$
+\text{Ethanal} + \mathrm{NADH} \xrightarrow{\text{alcohol dehydrogenase}} \text{Ethanol} + \mathrm{NAD}^+
+$$
 
 - Net yield: 2 ATP per glucose
 - $\mathrm{CO}_2$ and ethanol are produced as waste products
@@ -2213,7 +2237,9 @@ $\blacksquare$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Biology/cell-biology-and-biochemistry.md
 :::

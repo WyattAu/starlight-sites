@@ -241,11 +241,15 @@ Bloodstream.
 
 **Cardiac output:**
 
-$$\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate$$
+$$
+\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate
+$$
 
 **Example:** If stroke volume is $70 \mathrm{ mL$ and heart rate is $72 \mathrm{ bpm$:
 
-$$\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \mathrm{ L/min$$
+$$
+\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \mathrm{ L/min
+$$
 
 ### The Respiratory System
 
@@ -261,7 +265,9 @@ $$\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \math
 
 **Fick's Law of Diffusion:**
 
-$$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}$$
+$$
+\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}
+$$
 
 ### The Digestive System
 

@@ -32,7 +32,9 @@ The collection $\tau$ is called a **topology** on $X$.
 
 **Example 2.1.** Let $X = \{a, b, c\}$. The collection
 
-$$\tau = \{\emptyset, \{a\}, \{a, b\}, \{a, b, c\}\}$$
+$$
+\tau = \{\emptyset, \{a\}, \{a, b\}, \{a, b, c\}\}
+$$
 
 is a topology on $X$.
 
@@ -73,7 +75,9 @@ forms a basis for the standard topology on $\mathbb{R}^n$.
 **Definition.** Let $(X, \tau)$ be a topological space and $Y \subseteq X$. The **subspace
 topology** on $Y$ is
 
-$$\tau_Y = \{U \cap Y : U \in \tau\}.$$
+$$
+\tau_Y = \{U \cap Y : U \in \tau\}.
+$$
 
 **Proposition 2.1.** If $\mathcal{B}$ is a basis for $\tau$, then $\{B \cap Y : B \in \mathcal{B}\}$
 is a basis for the subspace topology on $Y$.

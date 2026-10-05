@@ -66,13 +66,19 @@ This topic covers the Bohr model of the hydrogen atom, X-ray production, nuclear
 **Solution:**
 
 Energy levels:
-$$E_3 = \frac{-13.6}{9} = -1.51 \, \text{eV}, \quad E_2 = \frac{-13.6}{4} = -3.40 \, \text{eV}$$
+$$
+E_3 = \frac{-13.6}{9} = -1.51 \, \text{eV}, \quad E_2 = \frac{-13.6}{4} = -3.40 \, \text{eV}
+$$
 
 Energy of emitted photon:
-$$\Delta E = E_3 - E_2 = -1.51 - (-3.40) = 1.89 \, \text{eV}$$
+$$
+\Delta E = E_3 - E_2 = -1.51 - (-3.40) = 1.89 \, \text{eV}
+$$
 
 Convert to wavelength:
-$$\lambda = \frac{hc}{\Delta E} = \frac{1240}{1.89} = 656 \, \text{nm}$$
+$$
+\lambda = \frac{hc}{\Delta E} = \frac{1240}{1.89} = 656 \, \text{nm}
+$$
 
 This is the red line of the Balmer series.
 
@@ -85,14 +91,22 @@ This is the red line of the Balmer series.
 **Solution:**
 
 Mass defect:
-$$\Delta m = 2(1.00728) + 2(1.00867) - 4.00260$$
-$$= 2.01456 + 2.01734 - 4.00260 = 0.02930 \, \text{u}$$
+$$
+\Delta m = 2(1.00728) + 2(1.00867) - 4.00260
+$$
+$$
+= 2.01456 + 2.01734 - 4.00260 = 0.02930 \, \text{u}
+$$
 
 Binding energy:
-$$E_B = \Delta m \times 931.5 \, \text{MeV/u} = 0.02930 \times 931.5 = 27.3 \, \text{MeV}$$
+$$
+E_B = \Delta m \times 931.5 \, \text{MeV/u} = 0.02930 \times 931.5 = 27.3 \, \text{MeV}
+$$
 
 Binding energy per nucleon:
-$$\frac{E_B}{A} = \frac{27.3}{4} = 6.83 \, \text{MeV/nucleon}$$
+$$
+\frac{E_B}{A} = \frac{27.3}{4} = 6.83 \, \text{MeV/nucleon}
+$$
 
 **Common mistake:** Forgetting to multiply by 931.5 to convert mass defect from atomic mass units to MeV.
 
@@ -103,15 +117,23 @@ $$\frac{E_B}{A} = \frac{27.3}{4} = 6.83 \, \text{MeV/nucleon}$$
 **Solution:**
 
 Number of half-lives:
-$$n = \frac{30}{10} = 3$$
+$$
+n = \frac{30}{10} = 3
+$$
 
 Fraction remaining:
-$$\frac{N}{N_0} = \left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^3 = \frac{1}{8} = 0.125$$
+$$
+\frac{N}{N_0} = \left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^3 = \frac{1}{8} = 0.125
+$$
 
 Alternatively, using the decay formula:
-$$\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{10} = 0.0693 \, \text{day}^{-1}$$
+$$
+\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{10} = 0.0693 \, \text{day}^{-1}
+$$
 
-$$N = N_0 e^{-\lambda t} = N_0 e^{-0.0693 \times 30} = N_0 e^{-2.079} = 0.125 \, N_0$$
+$$
+N = N_0 e^{-\lambda t} = N_0 e^{-0.0693 \times 30} = N_0 e^{-2.079} = 0.125 \, N_0
+$$
 
 **Common mistake:** Using $N = N_0 e^{-t/t_{1/2}}$ instead of $N = N_0 e^{-\lambda t}$ where $\lambda = \ln 2 / t_{1/2}$.
 
@@ -149,11 +171,17 @@ Kinetic energy gained: $eV = \frac{1}{2}mv^2$
 Momentum: $p = mv = \sqrt{2meV}$
 
 de Broglie wavelength:
-$$\lambda = \frac{h}{p} = \frac{h}{\sqrt{2meV}}$$
+$$
+\lambda = \frac{h}{p} = \frac{h}{\sqrt{2meV}}
+$$
 
-$$= \frac{6.63 \times 10^{-34}}{\sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-19} \times 100}}$$
+$$
+= \frac{6.63 \times 10^{-34}}{\sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-19} \times 100}}
+$$
 
-$$= \frac{6.63 \times 10^{-34}}{\sqrt{2.915 \times 10^{-47}}} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10}\,\text{m} = 0.123\,\text{nm}$$
+$$
+= \frac{6.63 \times 10^{-34}}{\sqrt{2.915 \times 10^{-47}}} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10}\,\text{m} = 0.123\,\text{nm}
+$$
 
 **Common mistake:** Forgetting to convert electron-volts to joules. $1\,\text{eV} = 1.6 \times 10^{-19}\,\text{J}$.
 
@@ -169,7 +197,9 @@ Conservation of atomic number: $92 = Z + 2 \implies Z = 90$
 
 The product is $^{234}_{90}\text{Th}$ (thorium-234).
 
-$$^{238}_{92}\text{U} \rightarrow \, ^{234}_{90}\text{Th} + \, ^4_2\text{He}$$
+$$
+^{238}_{92}\text{U} \rightarrow \, ^{234}_{90}\text{Th} + \, ^4_2\text{He}
+$$
 
 **Common mistake:** Forgetting to conserve both mass number and atomic number. Both must balance on both sides.
 
@@ -182,12 +212,18 @@ $$^{238}_{92}\text{U} \rightarrow \, ^{234}_{90}\text{Th} + \, ^4_2\text{He}$$
 Number of half-lives: $n = \frac{15}{5} = 3$
 
 Activity after $n$ half-lives:
-$$A = A_0 \left(\frac{1}{2}\right)^n = 800 \times \left(\frac{1}{2}\right)^3 = 800 \times \frac{1}{8} = 100\,\text{Bq}$$
+$$
+A = A_0 \left(\frac{1}{2}\right)^n = 800 \times \left(\frac{1}{2}\right)^3 = 800 \times \frac{1}{8} = 100\,\text{Bq}
+$$
 
 Alternatively, using the decay formula:
-$$\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{5} = 0.1386\,\text{year}^{-1}$$
+$$
+\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{5} = 0.1386\,\text{year}^{-1}
+$$
 
-$$A = A_0 e^{-\lambda t} = 800 \times e^{-0.1386 \times 15} = 800 \times e^{-2.079} = 800 \times 0.125 = 100\,\text{Bq}$$
+$$
+A = A_0 e^{-\lambda t} = 800 \times e^{-0.1386 \times 15} = 800 \times e^{-2.079} = 800 \times 0.125 = 100\,\text{Bq}
+$$
 
 **Common mistake:** Using the wrong formula for activity. Activity follows the same exponential decay law as the number of radioactive nuclei.
 

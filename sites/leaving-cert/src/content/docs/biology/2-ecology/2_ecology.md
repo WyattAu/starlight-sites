@@ -418,7 +418,9 @@ Shows a J-shaped curve.
 **Logistic growth:** In reality, resources are limited. As the population approaches the carrying
 Capacity ($K$), the growth rate slows. The graph shows an S-shaped (sigmoidal) curve.
 
-$$\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)$$
+$$
+\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)
+$$
 
 When $N$ is small compared to $K$Growth is nearly exponential. When $N$ approaches $K$Growth Slows
 and the population stabilises.
@@ -623,13 +625,17 @@ When it is impractical to count every individual in a population, biologists use
    placed randomly, and organisms within it are counted. The population is estimated by multiplying
    the mean number per quadrat by the total area.
 
-   $$\mathrm{Estimated population = \frac{\mathrm{Mean number per quadrat}{\mathrm{Area of quadrat} \times \mathrm{Total area$$
+   $$
+   \mathrm{Estimated population = \frac{\mathrm{Mean number per quadrat}{\mathrm{Area of quadrat} \times \mathrm{Total area
+   $$
 
 2. **Mark-release-recapture (Lincoln index):** Used for mobile animals. Animals are captured,
    marked, released, and then a second sample is captured. The proportion of marked animals in the
    second sample equals the proportion of marked animals in the total population:
 
-   $$N = \frac{M \times C}{R}$$
+   $$
+   N = \frac{M \times C}{R}
+   $$
 
 where $N$ = estimated population size, $M$ = number marked in first sample, $C$ = total captured in
 second sample, $R$ = number of marked individuals recaptured.
@@ -651,7 +657,9 @@ second sample, $R$ = number of marked individuals recaptured.
 A biologist captures and marks 80 woodlice. The next day, she captures 100 woodlice, of which 20 are
 Marked. What is the estimated population size?
 
-$$N = \frac{80 \times 100}{20} = \frac{8000}{20} = 400$$
+$$
+N = \frac{80 \times 100}{20} = \frac{8000}{20} = 400
+$$
 
 The estimated population is 400 woodlice.
 
@@ -711,8 +719,12 @@ A forest absorbs 5000 tonnes of $\mathrm{CO_2$ per year through photosynthesis. 
 Animals in the forest release 3000 tonnes of $\mathrm{CO_2$ per year through respiration.
 Decomposers Release 800 tonnes per year. What is the net carbon flux?
 
-$$\mathrm{Net flux = \mathrm{Photosynthesis - \mathrm{Respiration - \mathrm{Decomposition$$
-$$\mathrm{Net flux = 5000 - 3000 - 800 = 1200 \mathrm{ tonnes of  \mathrm{CO_2 \mathrm{ absorbed per year$$
+$$
+\mathrm{Net flux = \mathrm{Photosynthesis - \mathrm{Respiration - \mathrm{Decomposition
+$$
+$$
+\mathrm{Net flux = 5000 - 3000 - 800 = 1200 \mathrm{ tonnes of  \mathrm{CO_2 \mathrm{ absorbed per year
+$$
 
 The forest is a net carbon sink, absorbing 1200 tonnes of $\mathrm{CO_2$ per year.
 

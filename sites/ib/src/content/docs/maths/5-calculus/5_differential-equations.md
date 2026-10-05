@@ -45,15 +45,21 @@ or boundary conditions.
 
 A first order ODE is **separable** if it can be written in the form:
 
-$$\frac{dy}{dx} = f(x) \cdot g(y)$$
+$$
+\frac{dy}{dx} = f(x) \cdot g(y)
+$$
 
 Equivalently:
 
-$$\frac{dy}{g(y)} = f(x)\,dx$$
+$$
+\frac{dy}{g(y)} = f(x)\,dx
+$$
 
 Integrate both sides:
 
-$$\int \frac{1}{g(y)}\,dy = \int f(x)\,dx$$
+$$
+\int \frac{1}{g(y)}\,dy = \int f(x)\,dx
+$$
 
 ### Worked Examples
 
@@ -61,25 +67,35 @@ $$\int \frac{1}{g(y)}\,dy = \int f(x)\,dx$$
 
 Separate: $y\,dy = x\,dx$.
 
-$$\int y\,dy = \int x\,dx \implies \frac{y^2}{2} = \frac{x^2}{2} + C$$
+$$
+\int y\,dy = \int x\,dx \implies \frac{y^2}{2} = \frac{x^2}{2} + C
+$$
 
 Apply $y(0) = 2$: $\dfrac{4}{2} = 0 + C \implies C = 2$.
 
-$$y^2 = x^2 + 4 \implies y = \sqrt{x^2 + 4}$$
+$$
+y^2 = x^2 + 4 \implies y = \sqrt{x^2 + 4}
+$$
 
 (We take the positive root since $y(0) = 2 \gt 0$.)
 
 **Example.** Solve $\dfrac{dy}{dx} = xy$.
 
-$$\frac{dy}{y} = x\,dx \implies \ln|y| = \frac{x^2}{2} + C \implies y = Ae^{x^2/2}$$
+$$
+\frac{dy}{y} = x\,dx \implies \ln|y| = \frac{x^2}{2} + C \implies y = Ae^{x^2/2}
+$$
 
 Where $A = \pm e^C$.
 
 **Example.** Solve $\dfrac{dy}{dx} = \dfrac{y + 1}{x}$, $x \gt 0$.
 
-$$\frac{dy}{y + 1} = \frac{dx}{x} \implies \ln|y + 1| = \ln x + C \implies |y + 1| = e^C \cdot x$$
+$$
+\frac{dy}{y + 1} = \frac{dx}{x} \implies \ln|y + 1| = \ln x + C \implies |y + 1| = e^C \cdot x
+$$
 
-$$y + 1 = Ax \implies y = Ax - 1$$
+$$
+y + 1 = Ax \implies y = Ax - 1
+$$
 
 ---
 
@@ -98,25 +114,35 @@ $$y + 1 = Ax \implies y = Ax - 1$$
 
 A first order linear ODE has the form:
 
-$$\frac{dy}{dx} + P(x)\,y = Q(x)$$
+$$
+\frac{dy}{dx} + P(x)\,y = Q(x)
+$$
 
 ### The Integrating Factor
 
 Multiply through by the **integrating factor**:
 
-$$\mu(x) = \exp\!\left(\int P(x)\,dx\right)$$
+$$
+\mu(x) = \exp\!\left(\int P(x)\,dx\right)
+$$
 
 This transforms the equation into:
 
-$$\frac{d}{dx}\bigl[\mu(x) \cdot y\bigr] = \mu(x) \cdot Q(x)$$
+$$
+\frac{d}{dx}\bigl[\mu(x) \cdot y\bigr] = \mu(x) \cdot Q(x)
+$$
 
 Integrate both sides:
 
-$$y = \frac{1}{\mu(x)} \int \mu(x) \cdot Q(x)\,dx$$
+$$
+y = \frac{1}{\mu(x)} \int \mu(x) \cdot Q(x)\,dx
+$$
 
 **Derivation.** By the product rule:
 
-$$\frac{d}{dx}(\mu y) = \mu\frac{dy}{dx} + y\frac{d\mu}{dx}$$
+$$
+\frac{d}{dx}(\mu y) = \mu\frac{dy}{dx} + y\frac{d\mu}{dx}
+$$
 
 We need $\dfrac{d\mu}{dx} = \mu P(x)$Which gives $\dfrac{1}{\mu}\dfrac{d\mu}{dx} = P(x)$Hence
 $\mu = \exp\!\left(\displaystyle\int P(x)\,dx\right)$.
@@ -127,27 +153,39 @@ $\mu = \exp\!\left(\displaystyle\int P(x)\,dx\right)$.
 
 Here $P(x) = \dfrac{1}{x}$ So:
 
-$$\mu(x) = \exp\!\left(\int \frac{1}{x}\,dx\right) = e^{\ln x} = x$$
+$$
+\mu(x) = \exp\!\left(\int \frac{1}{x}\,dx\right) = e^{\ln x} = x
+$$
 
 Multiply through: $x\dfrac{dy}{dx} + y = x^3$I.e. $\dfrac{d}{dx}(xy) = x^3$.
 
-$$xy = \int x^3\,dx = \frac{x^4}{4} + C \implies y = \frac{x^3}{4} + \frac{C}{x}$$
+$$
+xy = \int x^3\,dx = \frac{x^4}{4} + C \implies y = \frac{x^3}{4} + \frac{C}{x}
+$$
 
 **Example.** Solve $\dfrac{dy}{dx} + 2y = e^{-x}$.
 
 $\mu(x) = e^{2x}$.
 
-$$\frac{d}{dx}\bigl(e^{2x} y\bigr) = e^{2x} \cdot e^{-x} = e^x$$
+$$
+\frac{d}{dx}\bigl(e^{2x} y\bigr) = e^{2x} \cdot e^{-x} = e^x
+$$
 
-$$e^{2x} y = e^x + C \implies y = e^{-x} + Ce^{-2x}$$
+$$
+e^{2x} y = e^x + C \implies y = e^{-x} + Ce^{-2x}
+$$
 
 **Example.** Solve $\dfrac{dy}{dx} - 3y = 6$Given $y(0) = 1$.
 
 $\mu(x) = e^{-3x}$.
 
-$$\frac{d}{dx}\bigl(e^{-3x} y\bigr) = 6e^{-3x}$$
+$$
+\frac{d}{dx}\bigl(e^{-3x} y\bigr) = 6e^{-3x}
+$$
 
-$$e^{-3x} y = -2e^{-3x} + C \implies y = -2 + Ce^{3x}$$
+$$
+e^{-3x} y = -2e^{-3x} + C \implies y = -2 + Ce^{3x}
+$$
 
 Using $y(0) = 1$: $1 = -2 + C \implies C = 3$. Hence $y = 3e^{3x} - 2$.
 
@@ -166,7 +204,9 @@ Using $y(0) = 1$: $1 = -2 + C \implies C = 3$. Hence $y = 3e^{3x} - 2$.
 
 ### Form
 
-$$a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = 0$$
+$$
+a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = 0
+$$
 
 Where $a, b, c$ are constants and $a \ne 0$.
 
@@ -174,7 +214,9 @@ Where $a, b, c$ are constants and $a \ne 0$.
 
 Substitute $y = e^{\lambda x}$:
 
-$$a\lambda^2 + b\lambda + c = 0$$
+$$
+a\lambda^2 + b\lambda + c = 0
+$$
 
 This quadratic in $\lambda$ is the **auxiliary** (or **characteristic**) equation.
 
@@ -182,15 +224,21 @@ This quadratic in $\lambda$ is the **auxiliary** (or **characteristic**) equatio
 
 **Case 1: Two distinct real roots** $\lambda_1 \ne \lambda_2$.
 
-$$y = Ae^{\lambda_1 x} + Be^{\lambda_2 x}$$
+$$
+y = Ae^{\lambda_1 x} + Be^{\lambda_2 x}
+$$
 
 **Case 2: Repeated real root** $\lambda$.
 
-$$y = (A + Bx)e^{\lambda x}$$
+$$
+y = (A + Bx)e^{\lambda x}
+$$
 
 **Case 3: Complex conjugate roots** $\lambda = \alpha \pm i\beta$.
 
-$$y = e^{\alpha x}\bigl(A\cos\beta x + B\sin\beta x\bigr)$$
+$$
+y = e^{\alpha x}\bigl(A\cos\beta x + B\sin\beta x\bigr)
+$$
 
 ### Worked Examples
 
@@ -200,7 +248,9 @@ Characteristic equation: $\lambda^2 - 5\lambda + 6 = 0 \implies (\lambda - 2)(\l
 
 Roots: $\lambda_1 = 2$, $\lambda_2 = 3$ (distinct real).
 
-$$y = Ae^{2x} + Be^{3x}$$
+$$
+y = Ae^{2x} + Be^{3x}
+$$
 
 **Example.** Solve $y'' + 4y' + 4y = 0$.
 
@@ -208,17 +258,23 @@ Characteristic equation: $\lambda^2 + 4\lambda + 4 = 0 \implies (\lambda + 2)^2 
 
 Repeated root: $\lambda = -2$.
 
-$$y = (A + Bx)e^{-2x}$$
+$$
+y = (A + Bx)e^{-2x}
+$$
 
 **Example.** Solve $y'' + 2y' + 5y = 0$.
 
 Characteristic equation: $\lambda^2 + 2\lambda + 5 = 0$.
 
-$$\lambda = \frac{-2 \pm \sqrt{4 - 20}}{2} = -1 \pm 2i$$
+$$
+\lambda = \frac{-2 \pm \sqrt{4 - 20}}{2} = -1 \pm 2i
+$$
 
 Here $\alpha = -1$, $\beta = 2$.
 
-$$y = e^{-x}(A\cos 2x + B\sin 2x)$$
+$$
+y = e^{-x}(A\cos 2x + B\sin 2x)
+$$
 
 ### With Initial Conditions
 
@@ -226,11 +282,15 @@ $$y = e^{-x}(A\cos 2x + B\sin 2x)$$
 
 Characteristic equation: $\lambda^2 - 1 = 0 \implies \lambda = \pm 1$.
 
-$$y = Ae^x + Be^{-x}, \qquad y' = Ae^x - Be^{-x}$$
+$$
+y = Ae^x + Be^{-x}, \qquad y' = Ae^x - Be^{-x}
+$$
 
 $y(0) = A + B = 0 \implies B = -A$. $y'(0) = A - B = 1 \implies 2A = 1 \implies A = \dfrac{1}{2}$.
 
-$$y = \frac{1}{2}e^x - \frac{1}{2}e^{-x} = \sinh x$$
+$$
+y = \frac{1}{2}e^x - \frac{1}{2}e^{-x} = \sinh x
+$$
 
 ---
 
@@ -255,17 +315,25 @@ The DE $\dfrac{dN}{dt} = kN$ has the general solution $N = N_0 e^{kt}$.
 **Half-life.** For radioactive decay, $N = N_0 e^{-\lambda t}$ where $\lambda \gt 0$ is the decay
 Constant. The half-life $t_{1/2}$ satisfies:
 
-$$N_0 e^{-\lambda t_{1/2}} = \frac{N_0}{2} \implies t_{1/2} = \frac{\ln 2}{\lambda}$$
+$$
+N_0 e^{-\lambda t_{1/2}} = \frac{N_0}{2} \implies t_{1/2} = \frac{\ln 2}{\lambda}
+$$
 
 **Example.** A substance has a half-life of $5$ years. How long until only $10\%$ remains?
 
-$$\lambda = \frac{\ln 2}{5}$$
+$$
+\lambda = \frac{\ln 2}{5}
+$$
 
-$$0.1N_0 = N_0 e^{-\lambda t} \implies -\lambda t = \ln 0.1 \implies t = \frac{\ln 10}{\ln 2} \cdot 5 \approx 16.6\,\mathrm{years}$$
+$$
+0.1N_0 = N_0 e^{-\lambda t} \implies -\lambda t = \ln 0.1 \implies t = \frac{\ln 10}{\ln 2} \cdot 5 \approx 16.6\,\mathrm{years}
+$$
 
 ### Newton's Law of Cooling
 
-$$\frac{dT}{dt} = -k(T - T_{\mathrm{env}})$$
+$$
+\frac{dT}{dt} = -k(T - T_{\mathrm{env}})
+$$
 
 Where $T$ is the temperature of the object, $T_{\mathrm{env}}$ is the ambient temperature, and
 $k \gt 0$.
@@ -276,19 +344,27 @@ Solution: $T(t) = T_{\mathrm{env}} + (T_0 - T_{\mathrm{env}})e^{-kt}$.
 After $10$ minutes, its temperature is $60\,^{\circ}\mathrm{C}$. Find its temperature after $30$
 minutes.
 
-$$60 = 20 + 70e^{-10k} \implies e^{-10k} = \frac{40}{70} = \frac{4}{7}$$
+$$
+60 = 20 + 70e^{-10k} \implies e^{-10k} = \frac{40}{70} = \frac{4}{7}
+$$
 
-$$T(30) = 20 + 70\left(\frac{4}{7}\right)^3 = 20 + 70 \cdot \frac{64}{343} = 20 + \frac{4480}{343} \approx 33.1\,^{\circ}\mathrm{C}$$
+$$
+T(30) = 20 + 70\left(\frac{4}{7}\right)^3 = 20 + 70 \cdot \frac{64}{343} = 20 + \frac{4480}{343} \approx 33.1\,^{\circ}\mathrm{C}
+$$
 
 ### Simple Harmonic Motion (SHM)
 
 The equation of SHM is:
 
-$$\frac{d^2x}{dt^2} = -\omega^2 x$$
+$$
+\frac{d^2x}{dt^2} = -\omega^2 x
+$$
 
 Characteristic equation: $\lambda^2 + \omega^2 = 0 \implies \lambda = \pm i\omega$.
 
-$$x(t) = A\cos\omega t + B\sin\omega t$$
+$$
+x(t) = A\cos\omega t + B\sin\omega t
+$$
 
 This can also be written as $x(t) = R\cos(\omega t + \phi)$ where $R = \sqrt{A^2 + B^2}$ and
 $\phi = \arctan\!\left(-\dfrac{B}{A}\right)$.
@@ -307,11 +383,15 @@ $\phi = \arctan\!\left(-\dfrac{B}{A}\right)$.
 **Example.** A particle moves with SHM. At $t = 0$, $x = 3$ and $v = 4$. The angular frequency is
 $\omega = 2$. Find $x(t)$.
 
-$$x = A\cos 2t + B\sin 2t, \qquad v = -2A\sin 2t + 2B\cos 2t$$
+$$
+x = A\cos 2t + B\sin 2t, \qquad v = -2A\sin 2t + 2B\cos 2t
+$$
 
 $x(0) = A = 3$, $v(0) = 2B = 4 \implies B = 2$.
 
-$$x(t) = 3\cos 2t + 2\sin 2t$$
+$$
+x(t) = 3\cos 2t + 2\sin 2t
+$$
 
 Amplitude: $R = \sqrt{9 + 4} = \sqrt{13}$.
 
@@ -319,13 +399,17 @@ Amplitude: $R = \sqrt{9 + 4} = \sqrt{13}$.
 
 With damping proportional to velocity:
 
-$$\frac{d^2x}{dt^2} + 2\gamma\frac{dx}{dt} + \omega_0^2\, x = 0$$
+$$
+\frac{d^2x}{dt^2} + 2\gamma\frac{dx}{dt} + \omega_0^2\, x = 0
+$$
 
 Where $\gamma$ is the damping coefficient and $\omega_0$ is the natural frequency.
 
 Characteristic equation: $\lambda^2 + 2\gamma\lambda + \omega_0^2 = 0$.
 
-$$\lambda = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}$$
+$$
+\lambda = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}
+$$
 
 | Condition                 | Type of damping   | Solution                                                |
 | :------------------------ | :---------------- | :------------------------------------------------------ |
@@ -342,15 +426,23 @@ velocity. Find the velocity as a function of time.
 
 Taking downward as positive, with drag force $-kv$:
 
-$$m\frac{dv}{dt} = mg - kv$$
+$$
+m\frac{dv}{dt} = mg - kv
+$$
 
-$$\frac{dv}{dt} + \frac{k}{m}v = g$$
+$$
+\frac{dv}{dt} + \frac{k}{m}v = g
+$$
 
 Integrating factor: $\mu = e^{kt/m}$.
 
-$$\frac{d}{dt}\!\left(ve^{kt/m}\right) = ge^{kt/m}$$
+$$
+\frac{d}{dt}\!\left(ve^{kt/m}\right) = ge^{kt/m}
+$$
 
-$$v = \frac{mg}{k} + Ce^{-kt/m}$$
+$$
+v = \frac{mg}{k} + Ce^{-kt/m}
+$$
 
 If $v(0) = 0$: $C = -\dfrac{mg}{k}$Giving $v = \dfrac{mg}{k}\!\left(1 - e^{-kt/m}\right)$.
 
@@ -374,9 +466,13 @@ The **terminal velocity** is $v_T = \dfrac{mg}{k}$ (as $t \to \infty$).
 For the initial value problem $\dfrac{dy}{dx} = f(x, y)$ with $y(x_0) = y_0$Euler's method Generates
 approximate values using:
 
-$$y_{n+1} = y_n + h \cdot f(x_n, y_n)$$
+$$
+y_{n+1} = y_n + h \cdot f(x_n, y_n)
+$$
 
-$$x_{n+1} = x_n + h$$
+$$
+x_{n+1} = x_n + h
+$$
 
 Where $h$ is the step size.
 
@@ -405,11 +501,15 @@ Euler's approximation: $y(0.5) \approx 1.721$.
 
 **Exact solution.** This is a linear DE: $y' - y = x$. Integrating factor $e^{-x}$:
 
-$$\frac{d}{dx}(ye^{-x}) = xe^{-x}$$
+$$
+\frac{d}{dx}(ye^{-x}) = xe^{-x}
+$$
 
 Integrating by parts: $ye^{-x} = -(x+1)e^{-x} + C$. With $y(0) = 1$: $C = 2$.
 
-$$y = 2e^x - x - 1$$
+$$
+y = 2e^x - x - 1
+$$
 
 At $x = 0.5$: $y = 2e^{0.5} - 1.5 \approx 1.797$.
 
@@ -458,18 +558,28 @@ Solve $\dfrac{dy}{dx} = \dfrac{y^2 - 1}{x}$ with $y(1) = 2$, $x \gt 0$.
 
 Separate variables:
 
-$$\frac{dy}{y^2 - 1} = \frac{dx}{x}$$
+$$
+\frac{dy}{y^2 - 1} = \frac{dx}{x}
+$$
 
 Apply partial fractions to the left side:
 $\dfrac{1}{y^2 - 1} = \dfrac{1}{2(y-1)} - \dfrac{1}{2(y+1)}$.
 
-$$\int \frac{1}{2(y-1)} - \frac{1}{2(y+1)}\,dy = \int \frac{dx}{x}$$
+$$
+\int \frac{1}{2(y-1)} - \frac{1}{2(y+1)}\,dy = \int \frac{dx}{x}
+$$
 
-$$\frac{1}{2}\ln|y-1| - \frac{1}{2}\ln|y+1| = \ln x + C$$
+$$
+\frac{1}{2}\ln|y-1| - \frac{1}{2}\ln|y+1| = \ln x + C
+$$
 
-$$\ln\left|\frac{y-1}{y+1}\right| = 2\ln x + 2C = \ln(x^2) + 2C$$
+$$
+\ln\left|\frac{y-1}{y+1}\right| = 2\ln x + 2C = \ln(x^2) + 2C
+$$
 
-$$\left|\frac{y-1}{y+1}\right| = e^{2C} x^2 = Ax^2$$
+$$
+\left|\frac{y-1}{y+1}\right| = e^{2C} x^2 = Ax^2
+$$
 
 Where $A = e^{2C} \gt 0$.
 
@@ -477,11 +587,17 @@ Apply $y(1) = 2$: $\dfrac{1}{3} = A \cdot 1 \implies A = \dfrac{1}{3}$.
 
 Since $y(1) = 2 \gt 1$The numerator $y - 1$ is positive initially. For $x \gt 0$ near $1$:
 
-$$\frac{y-1}{y+1} = \frac{x^2}{3}$$
+$$
+\frac{y-1}{y+1} = \frac{x^2}{3}
+$$
 
-$$3(y - 1) = x^2(y + 1) \implies 3y - 3 = x^2 y + x^2 \implies y(3 - x^2) = 3 + x^2$$
+$$
+3(y - 1) = x^2(y + 1) \implies 3y - 3 = x^2 y + x^2 \implies y(3 - x^2) = 3 + x^2
+$$
 
-$$y = \frac{3 + x^2}{3 - x^2}$$
+$$
+y = \frac{3 + x^2}{3 - x^2}
+$$
 
 This is valid for $0 \lt x \lt \sqrt{3}$.
 
@@ -496,15 +612,21 @@ Solve $\dfrac{dy}{dx} + y\tan x = \cos x$ for $-\dfrac{\pi}{2} \lt x \lt \dfrac{
 
 Here $P(x) = \tan x$ So:
 
-$$\mu(x) = \exp\!\left(\int \tan x\,dx\right) = \exp(-\ln|\cos x|) = \frac{1}{\cos x} = \sec x$$
+$$
+\mu(x) = \exp\!\left(\int \tan x\,dx\right) = \exp(-\ln|\cos x|) = \frac{1}{\cos x} = \sec x
+$$
 
 Multiply through: $\sec x \dfrac{dy}{dx} + y\sec x \tan x = \sec x \cos x = 1$.
 
 The left side is $\dfrac{d}{dx}(y \sec x)$ So:
 
-$$\frac{d}{dx}(y \sec x) = 1 \implies y \sec x = x + C$$
+$$
+\frac{d}{dx}(y \sec x) = 1 \implies y \sec x = x + C
+$$
 
-$$y = (x + C)\cos x$$
+$$
+y = (x + C)\cos x
+$$
 
 </details>
 
@@ -517,21 +639,29 @@ Solve $y'' - 4y' + 13y = 0$ with $y(0) = 1$ and $y'(0) = 6$.
 
 Characteristic equation: $\lambda^2 - 4\lambda + 13 = 0$.
 
-$$\lambda = \frac{4 \pm \sqrt{16 - 52}}{2} = \frac{4 \pm \sqrt{-36}}{2} = 2 \pm 3i$$
+$$
+\lambda = \frac{4 \pm \sqrt{16 - 52}}{2} = \frac{4 \pm \sqrt{-36}}{2} = 2 \pm 3i
+$$
 
 General solution: $y = e^{2x}(A\cos 3x + B\sin 3x)$.
 
 Compute $y'$:
 
-$$y' = 2e^{2x}(A\cos 3x + B\sin 3x) + e^{2x}(-3A\sin 3x + 3B\cos 3x)$$
+$$
+y' = 2e^{2x}(A\cos 3x + B\sin 3x) + e^{2x}(-3A\sin 3x + 3B\cos 3x)
+$$
 
-$$y' = e^{2x}\bigl[(2A + 3B)\cos 3x + (2B - 3A)\sin 3x\bigr]$$
+$$
+y' = e^{2x}\bigl[(2A + 3B)\cos 3x + (2B - 3A)\sin 3x\bigr]
+$$
 
 Apply $y(0) = 1$: $A = 1$.
 
 Apply $y'(0) = 6$: $2(1) + 3B = 6 \implies 3B = 4 \implies B = \dfrac{4}{3}$.
 
-$$y = e^{2x}\!\left(\cos 3x + \frac{4}{3}\sin 3x\right)$$
+$$
+y = e^{2x}\!\left(\cos 3x + \frac{4}{3}\sin 3x\right)
+$$
 
 </details>
 
@@ -554,9 +684,13 @@ Check consistency: $\left(\dfrac{16}{21}\right)^2 = \dfrac{256}{441} \approx 0.5
 $\dfrac{38}{63} \approx 0.6032$. These are close but not exactly equal, indicating measurement
 Imprecision. Using the $10$-minute data point:
 
-$$e^{-10k} = \frac{38}{63} \implies -10k = \ln\!\left(\frac{38}{63}\right) \implies k = \frac{1}{10}\ln\!\left(\frac{63}{38}\right) \approx 0.0506$$
+$$
+e^{-10k} = \frac{38}{63} \implies -10k = \ln\!\left(\frac{38}{63}\right) \implies k = \frac{1}{10}\ln\!\left(\frac{63}{38}\right) \approx 0.0506
+$$
 
-$$T(20) = 22 + 63\left(\frac{38}{63}\right)^2 = 22 + \frac{1444}{63} \approx 22 + 22.92 = 44.9\,^{\circ}\mathrm{C}$$
+$$
+T(20) = 22 + 63\left(\frac{38}{63}\right)^2 = 22 + \frac{1444}{63} \approx 22 + 22.92 = 44.9\,^{\circ}\mathrm{C}
+$$
 
 </details>
 
@@ -581,7 +715,9 @@ Euler approximation: $y(0.3) \approx 1.505$.
 
 The exact solution (integrating factor): $y' + y = x$, $\mu = e^x$.
 
-$$\frac{d}{dx}(ye^x) = xe^x \implies ye^x = (x - 1)e^x + C$$
+$$
+\frac{d}{dx}(ye^x) = xe^x \implies ye^x = (x - 1)e^x + C
+$$
 
 With $y(0) = 2$: $C = 3$. So $y = x - 1 + 3e^{-x}$.
 

@@ -21,21 +21,29 @@ tags:
 
 **Theorem 5.1 (CDF Method).** If $Y = g(X)$ and $g$ is monotone, then
 
-$$F_Y(y) = P(g(X) \leq y) = \begin{cases} F_X(g^{-1}(y)) & \text{if}  g \text{ is} increasing \\ 1 - F_X(g^{-1}(y)) & \text{if}  g \text{ is} decreasing \end{cases}$$
+$$
+F_Y(y) = P(g(X) \leq y) = \begin{cases} F_X(g^{-1}(y)) & \text{if}  g \text{ is} increasing \\ 1 - F_X(g^{-1}(y)) & \text{if}  g \text{ is} decreasing \end{cases}
+$$
 
 **Theorem 5.2 (Change of Variables).** If $Y = g(X)$ where $g$ is differentiable and strictly
 monotone, then
 
-$$f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|$$
+$$
+f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|
+$$
 
 <details>
 <summary>Worked Example: Distribution of $X^2$ where $X \sim N(0, 1)$</summary>
 
 _Solution._ Let $Y = X^2$ where $X \sim N(0, 1)$. For $y \geq 0$:
 
-$$F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1$$
+$$
+F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1
+$$
 
-$$f_Y(y) = \frac{d}{dy}[2\Phi(\sqrt{y}) - 1] = 2\phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{2\pi y}}\, e^{-y/2}$$
+$$
+f_Y(y) = \frac{d}{dy}[2\Phi(\sqrt{y}) - 1] = 2\phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{2\pi y}}\, e^{-y/2}
+$$
 
 This is the PDF of the $\chi^2(1)$ distribution. $\blacksquare$
 
@@ -46,7 +54,9 @@ This is the PDF of the $\chi^2(1)$ distribution. $\blacksquare$
 **Theorem 5.3.** If $X$ and $Y$ are independent continuous random variables, the PDF of $Z = X + Y$
 is
 
-$$f_Z(z) = (f_X * f_Y)(z) = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx$$
+$$
+f_Z(z) = (f_X * f_Y)(z) = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx
+$$
 
 _Proof._
 $F_Z(z) = P(X + Y \leq z) = \iint_{x+y \leq z} f_{X,Y}(x, y)\, dx\, dy = \int_{-\infty}^{\infty} f_X(x)\left[\int_{-\infty}^{z-x} f_Y(y)\, dy\right] dx = \int_{-\infty}^{\infty} f_X(x)\, F_Y(z - x)\, dx$.
@@ -160,7 +170,9 @@ $M_{X+Y}(t) = M_X(t)\cdot M_Y(t)$.
 
 Let $X \sim \text{Uniform}(0, 1)$. The MGF is:
 
-$$M_X(t) = E[e^{tX}] = \int_0^1 e^{tx}\,dx = \frac{e^t - 1}{t}, \quad t \neq 0$$
+$$
+M_X(t) = E[e^{tX}] = \int_0^1 e^{tx}\,dx = \frac{e^t - 1}{t}, \quad t \neq 0
+$$
 
 Differentiating: $M_X'(0) = E[X] = 1/2$ and $M_X''(0) = E[X^2] = 1/3$.
 

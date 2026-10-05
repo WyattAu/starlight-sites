@@ -64,9 +64,13 @@ Probability quantifies the likelihood of events. This topic covers conditional p
 
 **Solution:**
 
-$$P(\text{both red}) = P(\text{1st red}) \times P(\text{2nd red}|\text{1st red})$$
+$$
+P(\text{both red}) = P(\text{1st red}) \times P(\text{2nd red}|\text{1st red})
+$$
 
-$$= \frac{5}{8} \times \frac{4}{7} = \frac{20}{56} = \frac{5}{14}$$
+$$
+= \frac{5}{8} \times \frac{4}{7} = \frac{20}{56} = \frac{5}{14}
+$$
 
 **Common mistake:** Treating the draws as independent when they are without replacement. The second draw depends on the first.
 
@@ -78,14 +82,22 @@ $$= \frac{5}{8} \times \frac{4}{7} = \frac{20}{56} = \frac{5}{14}$$
 
 Let $D$ = defective, $A$, $B$, $C$ = machines.
 
-$$P(D) = P(D|A)P(A) + P(D|B)P(B) + P(D|C)P(C)$$
+$$
+P(D) = P(D|A)P(A) + P(D|B)P(B) + P(D|C)P(C)
+$$
 
-$$= 0.05 \times 0.30 + 0.03 \times 0.45 + 0.04 \times 0.25$$
+$$
+= 0.05 \times 0.30 + 0.03 \times 0.45 + 0.04 \times 0.25
+$$
 
-$$= 0.015 + 0.0135 + 0.01 = 0.0385$$
+$$
+= 0.015 + 0.0135 + 0.01 = 0.0385
+$$
 
 By Bayes' theorem:
-$$P(A|D) = \frac{P(D|A)P(A)}{P(D)} = \frac{0.015}{0.0385} = \frac{15}{38.5} \approx 0.3896$$
+$$
+P(A|D) = \frac{P(D|A)P(A)}{P(D)} = \frac{0.015}{0.0385} = \frac{15}{38.5} \approx 0.3896
+$$
 
 **Common mistake:** Forgetting to use the total probability $P(D)$ in the denominator. Using only $P(D|A)P(A)$ gives the wrong answer.
 
@@ -97,7 +109,9 @@ $$P(A|D) = \frac{P(D|A)P(A)}{P(D)} = \frac{0.015}{0.0385} = \frac{15}{38.5} \app
 
 This is a binomial distribution with $n = 5$, $r = 3$, $p = 0.5$, $q = 0.5$:
 
-$$P(X = 3) = \binom{5}{3} (0.5)^3 (0.5)^2 = 10 \times 0.125 \times 0.25 = 0.3125$$
+$$
+P(X = 3) = \binom{5}{3} (0.5)^3 (0.5)^2 = 10 \times 0.125 \times 0.25 = 0.3125
+$$
 
 Mean: $\mu = np = 5 \times 0.5 = 2.5$
 
@@ -148,7 +162,9 @@ Probability is fundamental to statistics, data science, risk assessment, and dec
 
 Given the first card is an ace, there are 3 aces left out of 51 remaining cards.
 
-$$P(\text{2nd ace} | \text{1st ace}) = \frac{3}{51} = \frac{1}{17}$$
+$$
+P(\text{2nd ace} | \text{1st ace}) = \frac{3}{51} = \frac{1}{17}
+$$
 
 This is a direct application of conditional probability. The sample space reduces from 52 to 51 cards after the first draw.
 
@@ -166,11 +182,17 @@ Find $E(X)$, $E(X^2)$, and $\text{Var}(X)$.
 
 **Solution:**
 
-$$E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.25) + 4(0.15) = 0 + 0.2 + 0.6 + 0.75 + 0.6 = 2.15$$
+$$
+E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.25) + 4(0.15) = 0 + 0.2 + 0.6 + 0.75 + 0.6 = 2.15
+$$
 
-$$E(X^2) = 0^2(0.1) + 1^2(0.2) + 2^2(0.3) + 3^2(0.25) + 4^2(0.15) = 0 + 0.2 + 1.2 + 2.25 + 2.4 = 6.05$$
+$$
+E(X^2) = 0^2(0.1) + 1^2(0.2) + 2^2(0.3) + 3^2(0.25) + 4^2(0.15) = 0 + 0.2 + 1.2 + 2.25 + 2.4 = 6.05
+$$
 
-$$\text{Var}(X) = E(X^2) - [E(X)]^2 = 6.05 - (2.15)^2 = 6.05 - 4.6225 = 1.4275$$
+$$
+\text{Var}(X) = E(X^2) - [E(X)]^2 = 6.05 - (2.15)^2 = 6.05 - 4.6225 = 1.4275
+$$
 
 **Common mistake:** Forgetting to square $E(X)$ in the variance formula. $\text{Var}(X) = E(X^2) - [E(X)]^2$, not $E(X^2) - E(X)$.
 
@@ -182,7 +204,9 @@ $$\text{Var}(X) = E(X^2) - [E(X)]^2 = 6.05 - (2.15)^2 = 6.05 - 4.6225 = 1.4275$$
 
 This is a binomial distribution with $n = 8$, $p = 0.6$, $q = 0.4$.
 
-$$P(X = 5) = \binom{8}{5} (0.6)^5 (0.4)^3 = 56 \times 0.07776 \times 0.064 = 0.2787$$
+$$
+P(X = 5) = \binom{8}{5} (0.6)^5 (0.4)^3 = 56 \times 0.07776 \times 0.064 = 0.2787
+$$
 
 Mean: $\mu = np = 8 \times 0.6 = 4.8$
 

@@ -37,7 +37,9 @@ functional $\omega_p$ on $T_p M$.
 
 **Definition.** If $F : M \to N$ is a smooth map, the **pullback** $F^* : \Omega^k(N) \to \Omega^k(M)$ is defined by:
 
-$$(F^*\omega)_p(v_1, \ldots, v_k) = \omega_{F(p)}(dF_p(v_1), \ldots, dF_p(v_k))$$
+$$
+(F^*\omega)_p(v_1, \ldots, v_k) = \omega_{F(p)}(dF_p(v_1), \ldots, dF_p(v_k))
+$$
 
 for $v_i \in T_p M$.
 
@@ -51,11 +53,15 @@ for $v_i \in T_p M$.
 
 **Definition.** The **interior product** (contraction) of a vector field $X$ with a $k$-form $\omega$ is the $(k-1)$-form $\iota_X \omega$ defined by:
 
-$$(\iota_X \omega)(v_1, \ldots, v_{k-1}) = \omega(X, v_1, \ldots, v_{k-1})$$
+$$
+(\iota_X \omega)(v_1, \ldots, v_{k-1}) = \omega(X, v_1, \ldots, v_{k-1})
+$$
 
 **Proposition 4.2 (Cartan's Magic Formula).** The Lie derivative $\mathcal{L}_X$ of a differential form satisfies:
 
-$$\mathcal{L}_X \omega = d(\iota_X \omega) + \iota_X(d\omega)$$
+$$
+\mathcal{L}_X \omega = d(\iota_X \omega) + \iota_X(d\omega)
+$$
 
 ### 4.4 Exterior Derivative
 
@@ -77,7 +83,9 @@ $\omega = d\eta$ for some $(k - 1)$-form $\eta$.
 The **wedge product** $\wedge : \Omega^k(M) \times \Omega^\ell(M) \to \Omega^{k+\ell}(M)$ is the
 bilinear, associative, anti-commutative operation:
 
-$$\alpha \wedge \beta = (-1)^{k\ell}\, \beta \wedge \alpha$$
+$$
+\alpha \wedge \beta = (-1)^{k\ell}\, \beta \wedge \alpha
+$$
 
 ### 4.6 Stokes" Theorem
 
@@ -85,7 +93,9 @@ $$\alpha \wedge \beta = (-1)^{k\ell}\, \beta \wedge \alpha$$
 $\partial M$ (with the induced orientation). If $\omega$ is a compactly supported $(n-1)$-form on
 $M$, then:
 
-$$\int_{\partial M} \omega = \int_M d\omega$$
+$$
+\int_{\partial M} \omega = \int_M d\omega
+$$
 
 **Special Cases:**
 
@@ -101,7 +111,9 @@ $$\int_{\partial M} \omega = \int_M d\omega$$
 
 Integration of an $n$-form over an $n$-dimensional oriented manifold is defined by pulling back to $\mathbb{R}^n$ and integrating in coordinates. If $\omega = f\,dx^1 \wedge \cdots \wedge dx^n$ on a coordinate chart $U$ with parametrisation $\phi : U \to \mathbb{R}^n$:
 
-$$\int_U \omega = \int_{\phi(U)} f(x^1, \ldots, x^n)\, dx^1 \cdots dx^n$$
+$$
+\int_U \omega = \int_{\phi(U)} f(x^1, \ldots, x^n)\, dx^1 \cdots dx^n
+$$
 
 ### 4.8 Worked Example: Integrating a 2-Form on the Sphere
 
@@ -114,17 +126,27 @@ Parametrise $S^2$ by spherical coordinates: $x = \sin\theta\cos\phi$, $y = \sin\
 
 Compute $dy \wedge dz$, $dz \wedge dx$, $dx \wedge dy$ in terms of $d\theta \wedge d\phi$:
 
-$$dy \wedge dz = (\sin\theta\cos\phi\,d\theta + \cos\theta\cos\phi\,d\phi) \wedge (-\sin\theta\,d\theta) = \sin^2\theta\cos\phi\,d\theta \wedge d\phi$$
+$$
+dy \wedge dz = (\sin\theta\cos\phi\,d\theta + \cos\theta\cos\phi\,d\phi) \wedge (-\sin\theta\,d\theta) = \sin^2\theta\cos\phi\,d\theta \wedge d\phi
+$$
 
-$$dz \wedge dx = (-\sin\theta\,d\theta) \wedge (\cos\theta\cos\phi\,d\theta - \sin\theta\sin\phi\,d\phi) = \sin^2\theta\sin\phi\,d\theta \wedge d\phi$$
+$$
+dz \wedge dx = (-\sin\theta\,d\theta) \wedge (\cos\theta\cos\phi\,d\theta - \sin\theta\sin\phi\,d\phi) = \sin^2\theta\sin\phi\,d\theta \wedge d\phi
+$$
 
-$$dx \wedge dy = (\cos\theta\cos\phi\,d\theta - \sin\theta\sin\phi\,d\phi) \wedge (\cos\theta\sin\phi\,d\theta + \sin\theta\cos\phi\,d\phi) = \sin\theta\cos\theta\,d\theta \wedge d\phi$$
+$$
+dx \wedge dy = (\cos\theta\cos\phi\,d\theta - \sin\theta\sin\phi\,d\phi) \wedge (\cos\theta\sin\phi\,d\theta + \sin\theta\cos\phi\,d\phi) = \sin\theta\cos\theta\,d\theta \wedge d\phi
+$$
 
 Substituting and simplifying:
 
-$$\omega = (\sin^3\theta\cos^2\phi + \sin^3\theta\sin^2\phi + \sin\theta\cos^2\theta)\,d\theta \wedge d\phi = \sin\theta\,d\theta \wedge d\phi$$
+$$
+\omega = (\sin^3\theta\cos^2\phi + \sin^3\theta\sin^2\phi + \sin\theta\cos^2\theta)\,d\theta \wedge d\phi = \sin\theta\,d\theta \wedge d\phi
+$$
 
-$$\int_{S^2} \omega = \int_0^{2\pi} \int_0^\pi \sin\theta\,d\theta\,d\phi = 4\pi$$
+$$
+\int_{S^2} \omega = \int_0^{2\pi} \int_0^\pi \sin\theta\,d\theta\,d\phi = 4\pi
+$$
 
 $\blacksquare$
 

@@ -42,7 +42,9 @@ between metals (Groups 1, 2) and non-metals (Groups 6, 7).
 
 $$\mathrm{Mg \to \mathrm{Mg^{2+} + 2e^-$$ $$\mathrm{O + 2e^- \to \mathrm{O^{2-}$$
 
-$$\mathrm{Mg(s) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{MgO(s)$$
+$$
+\mathrm{Mg(s) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{MgO(s)
+$$
 
 **Worked Example 1:** Draw a dot-and-cross diagram for calcium fluoride, $\mathrm{CaF_2$.
 
@@ -242,7 +244,9 @@ $4 \times \mathrm{C-H + 2 \times \mathrm{O=O = 4(412) + 2(496) = 1648 + 992 = 26
 Bonds formed:
 $2 \times \mathrm{C=O + 4 \times \mathrm{O-H = 2(743) + 4(463) = 1486 + 1852 = 3338 \mathrm{ kJ/mol$.
 
-$$\Delta H = 2640 - 3338 = -698 \mathrm{ kJ/mol$$
+$$
+\Delta H = 2640 - 3338 = -698 \mathrm{ kJ/mol
+$$
 
 The negative value confirms the reaction is exothermic.
 
@@ -255,7 +259,9 @@ $= 612 + 4(412) + 436 = 612 + 1648 + 436 = 2696 \mathrm{ kJ/mol$.
 Bonds formed: $1 \times \mathrm{C-C + 6 \times \mathrm{C-H$
 $= 348 + 6(412) = 348 + 2472 = 2820 \mathrm{ kJ/mol$.
 
-$$\Delta H = 2696 - 2820 = -124 \mathrm{ kJ/mol$$
+$$
+\Delta H = 2696 - 2820 = -124 \mathrm{ kJ/mol
+$$
 
 **Proof that bond enthalpy gives an approximation:**
 
@@ -282,7 +288,9 @@ Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$Showing that the bond enthalpy 
 
 **Worked Example 7:** Balance the equation for the combustion of propane.
 
-$$\mathrm{C_3\mathrm{H_8 + 5\mathrm{O_2 \to 3\mathrm{CO_2 + 4\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{C_3\mathrm{H_8 + 5\mathrm{O_2 \to 3\mathrm{CO_2 + 4\mathrm{H_2\mathrm{O
+$$
 
 Step-by-step: Balance C first (3 $\mathrm{CO_2$), then H (4 $\mathrm{H_2\mathrm{O$), then O (needs
 $6 + 4 = 10$ O atoms on left, so $5\mathrm{O_2$).
@@ -294,7 +302,9 @@ $\mathrm{Fe_2\mathrm{O_3 + \mathrm{CO \to 2\mathrm{Fe + \mathrm{CO_2$. Balance C
 balanced (1 on each side). Balance O: left has $3 + 1 = 4$ O atoms, right has $2$. Need
 $2\mathrm{CO_2$ on Right, so $2\mathrm{CO$ on left.
 
-$$\mathrm{Fe_2\mathrm{O_3 + 3\mathrm{CO \to 2\mathrm{Fe + 3\mathrm{CO_2$$
+$$
+\mathrm{Fe_2\mathrm{O_3 + 3\mathrm{CO \to 2\mathrm{Fe + 3\mathrm{CO_2
+$$
 
 ### Ionic Equations
 
@@ -304,7 +314,9 @@ Only include species that actually change during the reaction (spectator ions ar
 Chloride.
 
 Full equation:
-$$\mathrm{Ag^+(aq) + \mathrm{NO_3^-(aq) + \mathrm{Na^+(aq) + \mathrm{Cl^-(aq) \to \mathrm{AgCl(s) + \mathrm{Na^+(aq) + \mathrm{NO_3^-(aq)$$
+$$
+\mathrm{Ag^+(aq) + \mathrm{NO_3^-(aq) + \mathrm{Na^+(aq) + \mathrm{Cl^-(aq) \to \mathrm{AgCl(s) + \mathrm{Na^+(aq) + \mathrm{NO_3^-(aq)
+$$
 
 $\mathrm{Na^+$ and $\mathrm{NO_3^-$ are spectator ions.
 
@@ -312,7 +324,9 @@ Net ionic equation: $\mathrm{Ag^+(aq) + \mathrm{Cl^-(aq) \to \mathrm{AgCl(s)$
 
 **Worked Example 10:** Write the ionic equation for the reaction of zinc with dilute sulfuric acid.
 
-$$\mathrm{Zn(s) + 2\mathrm{H^+(aq) + \mathrm{SO_4^{2-}(aq) \to \mathrm{Zn^{2+}(aq) + \mathrm{SO_4^{2-}(aq) + \mathrm{H_2(g)$$
+$$
+\mathrm{Zn(s) + 2\mathrm{H^+(aq) + \mathrm{SO_4^{2-}(aq) \to \mathrm{Zn^{2+}(aq) + \mathrm{SO_4^{2-}(aq) + \mathrm{H_2(g)
+$$
 
 $\mathrm{SO_4^{2-}$ is a spectator ion.
 
@@ -358,7 +372,9 @@ Reduction: $\mathrm{MnO_4^- + 8\mathrm{H^+ + 5e^- \to \mathrm{Mn^{2+} + 4\mathrm
 
 Multiply oxidation by 5:
 
-$$5\mathrm{Fe^{2+} + \mathrm{MnO_4^- + 8\mathrm{H^+ \to 5\mathrm{Fe^{3+} + \mathrm{Mn^{2+} + 4\mathrm{H_2\mathrm{O$$
+$$
+5\mathrm{Fe^{2+} + \mathrm{MnO_4^- + 8\mathrm{H^+ \to 5\mathrm{Fe^{3+} + \mathrm{Mn^{2+} + 4\mathrm{H_2\mathrm{O
+$$
 
 **Worked Example 14:** Balance
 $\mathrm{Cr_2\mathrm{O_7^{2-} + \mathrm{SO_2 \to \mathrm{Cr^{3+} + \mathrm{SO_4^{2-}$ in acidic
@@ -371,7 +387,9 @@ $\mathrm{Cr_2\mathrm{O_7^{2-} + 14\mathrm{H^+ + 6e^- \to 2\mathrm{Cr^{3+} + 7\ma
 
 Multiply oxidation by 3 to balance electrons:
 
-$$\mathrm{Cr_2\mathrm{O_7^{2-} + 3\mathrm{SO_2 + 2\mathrm{H^+ \to 2\mathrm{Cr^{3+} + 3\mathrm{SO_4^{2-} + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{Cr_2\mathrm{O_7^{2-} + 3\mathrm{SO_2 + 2\mathrm{H^+ \to 2\mathrm{Cr^{3+} + 3\mathrm{SO_4^{2-} + \mathrm{H_2\mathrm{O
+$$
 
 Check: Cr: 2 left, 2 right. S: 3 left, 3 right. O: $7 + 6 = 13$ left, $12 + 1 = 13$ right. H: $2$
 Left, $2$ right. Charge: $-2 + 0 + 2 = 0$ left, $6 + (-9) = -6 + 2(+2) = -2$... Let us recheck.
@@ -548,11 +566,17 @@ The cycle involves the following steps:
 
 By Hess's Law:
 
-$$\Delta H_f = \Delta H_{\mathrm{at}(\mathrm{Na) + \tfrac{1}{2}\Delta H_{\mathrm{at}(\mathrm{Cl) + \mathrm{IE_1 + \mathrm{EA_1 + \Delta H_{\mathrm{latt}$$
+$$
+\Delta H_f = \Delta H_{\mathrm{at}(\mathrm{Na) + \tfrac{1}{2}\Delta H_{\mathrm{at}(\mathrm{Cl) + \mathrm{IE_1 + \mathrm{EA_1 + \Delta H_{\mathrm{latt}
+$$
 
-$$-411 = 108 + 122 + 496 + (-349) + \Delta H_{\mathrm{latt}$$
+$$
+-411 = 108 + 122 + 496 + (-349) + \Delta H_{\mathrm{latt}
+$$
 
-$$\Delta H_{\mathrm{latt} = -411 - 108 - 122 - 496 + 349 = -788 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{latt} = -411 - 108 - 122 - 496 + 349 = -788 \mathrm{ kJ/mol
+$$
 
 ### Polarising Power and Covalent Character
 
@@ -796,14 +820,18 @@ Reduced.
 
 **Example:** Chlorine with cold, dilute sodium hydroxide:
 
-$$\mathrm{Cl_2 + 2\mathrm{NaOH \to \mathrm{NaCl + \mathrm{NaClO + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{Cl_2 + 2\mathrm{NaOH \to \mathrm{NaCl + \mathrm{NaClO + \mathrm{H_2\mathrm{O
+$$
 
 Oxidation states: $\mathrm{Cl_2$ (0) $\to$ $\mathrm{Cl^-$ in $\mathrm{NaCl$ (-1) and $\mathrm{Cl^+$
 in $\mathrm{NaClO$ (+1). Chlorine is both reduced (0 to -1) and oxidised (0 to +1).
 
 **Example:** Copper(I) oxide with dilute sulfuric acid:
 
-$$\mathrm{Cu_2\mathrm{O + \mathrm{H_2\mathrm{SO_4 \to \mathrm{Cu + \mathrm{CuSO_4 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{Cu_2\mathrm{O + \mathrm{H_2\mathrm{SO_4 \to \mathrm{Cu + \mathrm{CuSO_4 + \mathrm{H_2\mathrm{O
+$$
 
 Copper goes from +1 in $\mathrm{Cu_2\mathrm{O$ to 0 in $\mathrm{Cu$ (reduction) and to +2 in
 $\mathrm{CuSO_4$ (oxidation).
@@ -839,7 +867,9 @@ Oxidation: $\mathrm{I^- \to \tfrac{1}{2}\mathrm{I_2 + e^-$
 
 **Step 3:** Balance electrons. Multiply oxidation by 5:
 
-$$\mathrm{IO_3^- + 5\mathrm{I^- + 6\mathrm{H^+ \to 3\mathrm{I_2 + 3\mathrm{H_2\mathrm{O$$
+$$
+\mathrm{IO_3^- + 5\mathrm{I^- + 6\mathrm{H^+ \to 3\mathrm{I_2 + 3\mathrm{H_2\mathrm{O
+$$
 
 Check: I: $1 + 5 = 6$ left, $3 \times 2 = 6$ right. O: $3$ left, $3$ right. H: $6$ left, $6$ right.
 Charge: $-1 + 5(-1) + 6(+1) = 0$ left, $0$ right. Balanced.
@@ -873,22 +903,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 ## Intuition
 

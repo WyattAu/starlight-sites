@@ -32,7 +32,9 @@ Inflation is the sustained increase in the general price level over time. The pr
 **Consumer Price Index (CPI)**, which tracks the price of a weighted basket of goods and services
 Representative of household consumption.
 
-$$\mathrm{Inflation\ rate} = \frac{\mathrm{CPI}_t - \mathrm{CPI}_{t-1}}{\mathrm{CPI}_{t-1}} \times 100$$
+$$
+\mathrm{Inflation\ rate} = \frac{\mathrm{CPI}_t - \mathrm{CPI}_{t-1}}{\mathrm{CPI}_{t-1}} \times 100
+$$
 
 **Constructing the CPI:**
 
@@ -57,7 +59,9 @@ $$\mathrm{Inflation\ rate} = \frac{\mathrm{CPI}_t - \mathrm{CPI}_{t-1}}{\mathrm{
 **Demand-pull inflation** occurs when aggregate demand exceeds aggregate supply at full employment,
 Creating an inflationary gap:
 
-$$\mathrm{AD} > \mathrm{LRAS} \implies \mathrm{Price\ level\ rises}$$
+$$
+\mathrm{AD} > \mathrm{LRAS} \implies \mathrm{Price\ level\ rises}
+$$
 
 Causes include excessive growth in the money supply, large budget deficits, rising consumer
 Confidence, or export booms.
@@ -78,7 +82,9 @@ Self-reinforcing cycle.
 
 The Fisher equation of exchange:
 
-$$M \times V = P \times Y$$
+$$
+M \times V = P \times Y
+$$
 
 Where $M$ is the money supply, $V$ is the velocity of circulation (how many times each unit of Money
 is spent per period), $P$ is the price level, and $Y$ is real output.
@@ -86,7 +92,9 @@ is spent per period), $P$ is the price level, and $Y$ is real output.
 If $V$ and $Y$ are constant in the short run, then increases in $M$ lead to proportional increases
 In $P$:
 
-$$\%\Delta M + \%\Delta V = \%\Delta P + \%\Delta Y$$
+$$
+\%\Delta M + \%\Delta V = \%\Delta P + \%\Delta Y
+$$
 
 Monetarists, particularly Milton Friedman, argued that "inflation is always and everywhere a
 Monetary phenomenon" -- sustained inflation cannot occur without excessive growth in the money
@@ -123,7 +131,9 @@ It is not the same as deflation.
 The short-run Phillips Curve (SRPC) depicts an inverse relationship between the rate of inflation
 And the rate of unemployment:
 
-$$\pi = \pi^e - \alpha(u - u_n) + \varepsilon$$
+$$
+\pi = \pi^e - \alpha(u - u_n) + \varepsilon
+$$
 
 Where $\pi$ is actual inflation, $\pi^e$ is expected inflation, $u$ is the unemployment rate, $u_n$
 Is the natural rate of unemployment (NAIRU), $\alpha$ is a parameter, and $\varepsilon$ is a supply
@@ -138,7 +148,9 @@ Non-Accelerating Inflation Rate of Unemployment). In the long run, there is no t
 inflation and Unemployment. Any attempt to keep unemployment below the NAIRU through demand-side
 policies leads Only to accelerating inflation, as workers adjust their expectations:
 
-$$\pi = \pi^e \quad \text{when } u = u_n$$
+$$
+\pi = \pi^e \quad \text{when } u = u_n
+$$
 
 The **expectations-augmented Phillips curve** (Friedman, Phelps): if the government tries to reduce
 Unemployment below $u_n$Initial gains in employment are offset as workers demand higher wages in
@@ -152,7 +164,9 @@ Higher inflation rate.
 The **unemployment rate** is the percentage of the labour force that is actively seeking work but
 Unable to find it:
 
-$$\mathrm{Unemployment\ rate} = \frac{\mathrm{Number\ unemployed}}{\mathrm{Labour\ force}} \times 100$$
+$$
+\mathrm{Unemployment\ rate} = \frac{\mathrm{Number\ unemployed}}{\mathrm{Labour\ force}} \times 100
+$$
 
 The labour force includes all employed persons plus those actively seeking work. It excludes
 Discouraged workers (those who have given up looking for work) and those not seeking work (students,
@@ -198,7 +212,9 @@ Labour supplied exceeds the quantity demanded at the artificially high wage.
 The natural rate of unemployment ($u_n$Or NAIRU) is the rate of unemployment that prevails when The
 economy is at full employment. It equals the sum of frictional and structural unemployment.
 
-$$u_n = u_{\text{frictional}} + u_{\text{structural}}$$
+$$
+u_n = u_{\text{frictional}} + u_{\text{structural}}
+$$
 
 At the natural rate, cyclical unemployment is zero and the economy is operating at its potential
 Output. The natural rate is not fixed; it can change due to:
@@ -274,7 +290,9 @@ The process by which monetary policy affects the real economy:
 In a fractional reserve banking system, commercial banks lend out a fraction of their deposits,
 Creating new money:
 
-$$\text{Money multiplier} = \frac{1}{\text{Reserve ratio}} = \frac{1}{r}$$
+$$
+\text{Money multiplier} = \frac{1}{\text{Reserve ratio}} = \frac{1}{r}
+$$
 
 If the reserve ratio is $r = 0.1$A deposit of `USD 1000` can ultimately support `USD 10000` in
 Deposits through successive rounds of lending and re-depositing.
@@ -310,7 +328,9 @@ Challenges:
 
 The expectations-augmented Phillips curve:
 
-$$\pi_t = \pi_t^e - \alpha(u_t - u_n) + \varepsilon_t$$
+$$
+\pi_t = \pi_t^e - \alpha(u_t - u_n) + \varepsilon_t
+$$
 
 Where:
 
@@ -333,7 +353,9 @@ Where:
 
 Under adaptive expectations, agents form expectations based on past inflation:
 
-$$\pi_t^e = \pi_{t-1}$$
+$$
+\pi_t^e = \pi_{t-1}
+$$
 
 If the government tries to maintain $u_t < u_n$ permanently:
 
@@ -348,11 +370,17 @@ Phelps, 1967).
 
 In the long run, expectations catch up to reality ($\pi_t^e = \pi_t$):
 
-$$\pi_t = \pi_t - \alpha(u_t - u_n) + \varepsilon_t$$
+$$
+\pi_t = \pi_t - \alpha(u_t - u_n) + \varepsilon_t
+$$
 
-$$0 = -\alpha(u_t - u_n) + \varepsilon_t$$
+$$
+0 = -\alpha(u_t - u_n) + \varepsilon_t
+$$
 
-$$u_t = u_n + \frac{\varepsilon_t}{\alpha}$$
+$$
+u_t = u_n + \frac{\varepsilon_t}{\alpha}
+$$
 
 In the absence of supply shocks ($\varepsilon_t = 0$), $u_t = u_n$ regardless of the inflation rate.
 The LRPC is vertical at $u_n$.
@@ -362,7 +390,9 @@ The LRPC is vertical at $u_n$.
 The sacrifice ratio measures the cumulative loss in output (as a percentage of one year's GDP)
 Required to reduce inflation by one percentage point:
 
-$$\text{Sacrifice ratio} = \frac{\text{Cumulative }\%\Delta Y \text{ below trend}}{\text{Reduction in inflation}}$$
+$$
+\text{Sacrifice ratio} = \frac{\text{Cumulative }\%\Delta Y \text{ below trend}}{\text{Reduction in inflation}}
+$$
 
 Typical estimates for advanced economies range from 1.5 to 3. A sacrifice ratio of 2 means that
 Reducing inflation by 1 percentage point requires a cumulative output loss equal to 2% of annual
@@ -422,7 +452,9 @@ The traditional channel through which monetary policy affects the real economy:
 4. Appreciation makes exports more expensive and imports cheaper
 5. Net exports ($X - M$) fall, reducing AD
 
-$$r \uparrow \implies \text{Capital inflows} \uparrow \implies \text{Exchange rate} \uparrow \implies (X - M) \downarrow \implies \text{AD} \downarrow$$
+$$
+r \uparrow \implies \text{Capital inflows} \uparrow \implies \text{Exchange rate} \uparrow \implies (X - M) \downarrow \implies \text{AD} \downarrow
+$$
 
 ### Asset Price Channel
 
@@ -433,7 +465,9 @@ $$r \uparrow \implies \text{Capital inflows} \uparrow \implies \text{Exchange ra
 5. Higher share prices lower the cost of equity financing for firms, encouraging investment
 6. Higher property values increase collateral for borrowing, relaxing credit constraints
 
-$$r \downarrow \implies \text{Asset prices} \uparrow \implies \text{Wealth} \uparrow \implies C \uparrow \implies \text{AD} \uparrow$$
+$$
+r \downarrow \implies \text{Asset prices} \uparrow \implies \text{Wealth} \uparrow \implies C \uparrow \implies \text{AD} \uparrow
+$$
 
 ### Expectations Channel (Forward Guidance)
 
@@ -478,10 +512,18 @@ Financial crises when banks are reluctant to lend.
 A **deflationary spiral** is a self-reinforcing cycle of falling prices, rising real debt burdens,
 Reduced spending, falling output, and further price declines:
 
-$$\text{Prices fall} \implies \text{Real interest rates rise} \implies \text{Borrowing costs increase}$$
-$$\implies \text{Investment falls} \implies \text{Aggregate demand falls}$$
-$$\implies \text{Output falls} \implies \text{Unemployment rises}$$
-$$\implies \text{Demand falls further} \implies \text{Prices fall more}$$
+$$
+\text{Prices fall} \implies \text{Real interest rates rise} \implies \text{Borrowing costs increase}
+$$
+$$
+\implies \text{Investment falls} \implies \text{Aggregate demand falls}
+$$
+$$
+\implies \text{Output falls} \implies \text{Unemployment rises}
+$$
+$$
+\implies \text{Demand falls further} \implies \text{Prices fall more}
+$$
 
 This vicious cycle is difficult to escape because:
 
@@ -495,7 +537,9 @@ This vicious cycle is difficult to escape because:
 
 Irving Fisher (1933) argued that deflation increases the real burden of debt:
 
-$$r_{\text{real}} = i - \pi$$
+$$
+r_{\text{real}} = i - \pi
+$$
 
 When $\pi < 0$ (deflation), the real interest rate exceeds the nominal rate. If firms and households
 Borrowed expecting inflation, deflation increases the real value of their debts, potentially
@@ -557,9 +601,13 @@ government bonds and, corporate bonds and mortgage-backed securities) From the p
 
 **Balance sheet effects:**
 
-$$\text{CB purchases bonds} \implies \text{Bank reserves increase} \implies \text{Lending capacity rises}$$
+$$
+\text{CB purchases bonds} \implies \text{Bank reserves increase} \implies \text{Lending capacity rises}
+$$
 
-$$\text{Bond prices rise} \implies \text{Long-term yields fall} \implies \text{Investment increases}$$
+$$
+\text{Bond prices rise} \implies \text{Long-term yields fall} \implies \text{Investment increases}
+$$
 
 ### QE in Practice
 
@@ -617,7 +665,9 @@ After the 2008 financial crisis:
 
 If the natural rate depends on the actual unemployment rate:
 
-$$u_{n,t} = u_{n,0} + \alpha(u_{t-1} - u_{n,t-1})$$
+$$
+u_{n,t} = u_{n,0} + \alpha(u_{t-1} - u_{n,t-1})
+$$
 
 Where $\alpha > 0$ is the hysteresis parameter. If unemployment was high last period
 ($u_{t-1} > u_{n,t-1}$), the natural rate adjusts upward.
@@ -639,7 +689,9 @@ Robert Solow (1987) observed that "you can see the computer age everywhere but i
 Statistics." Despite massive investment in ICT, measured productivity growth in advanced Economies
 slowed in the 1970s and 1980s.
 
-$$\text{Massive ICT investment} + \text{Slow productivity growth} = \text{The Solow Paradox}$$
+$$
+\text{Massive ICT investment} + \text{Slow productivity growth} = \text{The Solow Paradox}
+$$
 
 ### Possible Explanations
 
@@ -672,7 +724,9 @@ Milton Friedman (1968) and Edmund Phelps (1967) argued that the traditional Phil
 between inflation and unemployment is only temporary. In the long run, unemployment Returns to the
 natural rate regardless of inflation:
 
-$$\pi = \pi^e - \beta(u - u_n) + \epsilon$$
+$$
+\pi = \pi^e - \beta(u - u_n) + \epsilon
+$$
 
 Where:
 
@@ -694,7 +748,9 @@ at the natural rate.
 The **sacrifice ratio** measures the cumulative loss in output required to reduce inflation by 1
 percentage point:
 
-$$\text{Sacrifice ratio} = \frac{\sum \Delta Y}{\Delta \pi}$$
+$$
+\text{Sacrifice ratio} = \frac{\sum \Delta Y}{\Delta \pi}
+$$
 
 **Historical estimates:**
 
@@ -769,13 +825,17 @@ $\pi^e$ accordingly. In this case:
 
 The central bank minimises a loss function:
 
-$$L = (u - u_n)^2 + \alpha(\pi - \pi^*)^2$$
+$$
+L = (u - u_n)^2 + \alpha(\pi - \pi^*)^2
+$$
 
 Where $\pi^*$ is the optimal inflation rate and $\alpha$ measures the weight on inflation Stability.
 
 Under rational expectations, the equilibrium inflation rate is:
 
-$$\pi = \pi^* + \frac{\beta^2}{\alpha} > \pi^*$$
+$$
+\pi = \pi^* + \frac{\beta^2}{\alpha} > \pi^*
+$$
 
 The economy experiences an **inflation bias:** even though the central bank targets $\pi^*$
 Equilibrium inflation is higher because of the time inconsistency problem.
@@ -794,7 +854,9 @@ Where $\pi^e = 3\%$, $u_n = 5\%$, and $\epsilon = 0$.
 
 If the central bank reduces unemployment to 4%:
 
-$$\pi = 3\% - 0.5(4\% - 5\%) = 3\% + 0.5\% = 3.5\%$$
+$$
+\pi = 3\% - 0.5(4\% - 5\%) = 3\% + 0.5\% = 3.5\%
+$$
 
 Inflation rises to 3.5%. In the long run, expectations adjust to $\pi^e = 3.5\%$, and unemployment
 returns to 5% with permanently higher inflation.
@@ -803,7 +865,9 @@ returns to 5% with permanently higher inflation.
 
 $MV = PY$. If $M$ grows by 8%, $V$ is constant, and $Y$ grows at 3%:
 
-$$\pi \approx 8\% - 3\% = 5\%$$
+$$
+\pi \approx 8\% - 3\% = 5\%
+$$
 
 Inflation is approximately 5%.
 

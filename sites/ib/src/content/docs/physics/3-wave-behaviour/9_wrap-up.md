@@ -241,7 +241,9 @@ Transferring matter.
 
 ### The Wave Equation
 
-$$v = f \lambda$$
+$$
+v = f \lambda
+$$
 
 This is one of the most frequently used equations in IB Physics. It applies to all types of waves.
 
@@ -249,7 +251,9 @@ This is one of the most frequently used equations in IB Physics. It applies to a
 
 A sound wave has a frequency of $440$ Hz and a wavelength of $0.78$ m. What is its speed?
 
-$$v = f\lambda = (440)(0.78) = 343 \mathrm{ m s}^{-1}$$
+$$
+v = f\lambda = (440)(0.78) = 343 \mathrm{ m s}^{-1}
+$$
 
 (This is close to the speed of sound in air at room temperature.)
 
@@ -282,7 +286,9 @@ $$v = f\lambda = (440)(0.78) = 343 \mathrm{ m s}^{-1}$$
 **Law of reflection:** The angle of incidence equals the angle of reflection, both measured from the
 Normal.
 
-$$\theta_i = \theta_r$$
+$$
+\theta_i = \theta_r
+$$
 
 For reflection from a **fixed boundary**, the reflected wave is inverted (phase change of $\pi$).
 For a **free boundary**, there is no inversion.
@@ -292,7 +298,9 @@ For a **free boundary**, there is no inversion.
 When a wave crosses a boundary between two media, its speed changes, causing a change in direction.
 **Snell's law** relates the angles and wave speeds:
 
-$$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
+$$
+n_1 \sin\theta_1 = n_2 \sin\theta_2
+$$
 
 Where $n = \frac{c}{v}$ is the **refractive index** of a medium, $c$ is the speed of light in
 Vacuum, and $v$ is the speed of light in the medium.
@@ -300,13 +308,17 @@ Vacuum, and $v$ is the speed of light in the medium.
 **Total internal reflection (TIR)** occurs when light travels from a denser medium ($n_1$) to a less
 Dense medium ($n_2$) and the angle of incidence exceeds the **critical angle** $\theta_c$:
 
-$$\sin\theta_c = \frac{n_2}{n_1}$$
+$$
+\sin\theta_c = \frac{n_2}{n_1}
+$$
 
 ### Worked Example: Critical Angle
 
 Light travels from glass ($n = 1.50$) to air ($n = 1.00$). Find the critical angle.
 
-$$\sin\theta_c = \frac{1.00}{1.50} = 0.667 \implies \theta_c = 41.8^\circ$$
+$$
+\sin\theta_c = \frac{1.00}{1.50} = 0.667 \implies \theta_c = 41.8^\circ
+$$
 
 Any angle of incidence greater than $41.8^\circ$ will result in total internal reflection.
 
@@ -344,7 +356,9 @@ The amount of diffraction depends on the relationship between the wavelength and
 
 For a slit of width $b$The condition for **minima** (destructive interference) is:
 
-$$b \sin\theta = n\lambda, \quad n = 1, 2, 3, \ldots$$
+$$
+b \sin\theta = n\lambda, \quad n = 1, 2, 3, \ldots
+$$
 
 The **central maximum** is twice as wide as the secondary maxima, and is the brightest region.
 
@@ -353,14 +367,18 @@ The **central maximum** is twice as wide as the secondary maxima, and is the bri
 Two sources are just resolved when the central maximum of one diffraction pattern coincides with the
 First minimum of the other. The Rayleigh criterion states:
 
-$$\theta = \frac{1.22\lambda}{b}$$
+$$
+\theta = \frac{1.22\lambda}{b}
+$$
 
 Where $b$ is the aperture diameter.
 
 For a circular aperture (like a telescope or microscope), the minimum resolvable angular separation
 Is:
 
-$$\theta = \frac{1.22\lambda}{D}$$
+$$
+\theta = \frac{1.22\lambda}{D}
+$$
 
 Where $D$ is the diameter of the aperture.
 
@@ -369,7 +387,9 @@ Where $D$ is the diameter of the aperture.
 A telescope with a mirror of diameter $0.10$ m observes light of wavelength $550$ nm. What is the
 Minimum angular separation it can resolve?
 
-$$\theta = \frac{1.22 \times 550 \times 10^{-9}}{0.10} = 6.71 \times 10^{-6} \mathrm{ rad} \approx 0.00038^\circ$$
+$$
+\theta = \frac{1.22 \times 550 \times 10^{-9}}{0.10} = 6.71 \times 10^{-6} \mathrm{ rad} \approx 0.00038^\circ
+$$
 
 > **Exam Tip:** Diffraction is often the limiting factor on the resolving power of optical
 > instruments. A larger aperture gives better resolution. This is why astronomical telescopes use
@@ -404,7 +424,9 @@ Relationship) and have the same frequency.
 
 For two slits separated by distance $d$With the screen at distance $D$ from the slits:
 
-$$\mathrm{Fringe spacing: } s = \frac{\lambda D}{d}$$
+$$
+\mathrm{Fringe spacing: } s = \frac{\lambda D}{d}
+$$
 
 This formula uses the **small angle approximation**
 ($\sin\theta \approx \tan\theta \approx \theta$), which is valid when $D \gg d$.
@@ -414,7 +436,9 @@ This formula uses the **small angle approximation**
 Light of wavelength $600$ nm passes through two slits separated by $0.50$ mm. The screen is $2.0$ m
 Away. Calculate the fringe spacing.
 
-$$s = \frac{\lambda D}{d} = \frac{(600 \times 10^{-9})(2.0)}{0.50 \times 10^{-3}} = \frac{1.2 \times 10^{-6}}{5.0 \times 10^{-4}} = 2.4 \times 10^{-3} \mathrm{ m} = 2.4 \mathrm{ mm}$$
+$$
+s = \frac{\lambda D}{d} = \frac{(600 \times 10^{-9})(2.0)}{0.50 \times 10^{-3}} = \frac{1.2 \times 10^{-6}}{5.0 \times 10^{-4}} = 2.4 \times 10^{-3} \mathrm{ m} = 2.4 \mathrm{ mm}
+$$
 
 ### Thin Film Interference
 
@@ -465,30 +489,40 @@ For a string of length $L$ fixed at both ends:
 
 The wave speed on a string under tension $T$ with mass per unit length $\mu$ is:
 
-$$v = \sqrt{\frac{T}{\mu}}$$
+$$
+v = \sqrt{\frac{T}{\mu}}
+$$
 
 ### Standing Waves in Pipes
 
 **Open pipe** (open at both ends): antinodes at both ends.
 
-$$f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots$$
+$$
+f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots
+$$
 
 **Closed pipe** (closed at one end): node at closed end, antinode at open end. **Only odd
 Harmonics** are present.
 
-$$f_n = \frac{nv}{4L}, \quad n = 1, 3, 5, \ldots$$
+$$
+f_n = \frac{nv}{4L}, \quad n = 1, 3, 5, \ldots
+$$
 
 ### Worked Example: Guitar String
 
 A guitar string of length $0.65$ m has a fundamental frequency of $330$ Hz. What is the speed of
 Waves on the string?
 
-$$v = f_1 \times 2L = (330)(1.30) = 429 \mathrm{ m s}^{-1}$$
+$$
+v = f_1 \times 2L = (330)(1.30) = 429 \mathrm{ m s}^{-1}
+$$
 
 If the string has a mass per unit length of $\mu = 3.5 \times 10^{-3} \mathrm{ kg m}^{-1}$What
 Tension is required?
 
-$$T = \mu v^2 = (3.5 \times 10^{-3})(429)^2 = 644 \mathrm{ N}$$
+$$
+T = \mu v^2 = (3.5 \times 10^{-3})(429)^2 = 644 \mathrm{ N}
+$$
 
 > **Exam Tip:** A closed pipe cannot produce even harmonics ($n = 2, 4, 6, \ldots$). If an IB
 > question asks about the "second harmonic" of a closed pipe, the answer is the third harmonic
@@ -512,7 +546,9 @@ Relative motion between the source and the observer.
 
 ### General Formula
 
-$$f' = f \left(\frac{v \pm v_o}{v \mp v_s}\right)$$
+$$
+f' = f \left(\frac{v \pm v_o}{v \mp v_s}\right)
+$$
 
 Where:
 
@@ -530,7 +566,9 @@ Motion of the source.
 Since EM waves do not require a medium, the relativistic Doppler formula applies. For speeds much
 Less than $c$:
 
-$$\frac{\Delta\lambda}{\lambda} \approx \frac{v}{c}$$
+$$
+\frac{\Delta\lambda}{\lambda} \approx \frac{v}{c}
+$$
 
 - **Redshift** ($\Delta\lambda \gt 0$): source moving away from observer
 - **Blueshift** ($\Delta\lambda \lt 0$): source moving towards observer
@@ -542,11 +580,15 @@ S$^{-1}$.
 
 **Observer stationary, ambulance approaching:**
 
-$$f' = f\left(\frac{v}{v - v_s}\right) = 800\left(\frac{343}{343 - 30}\right) = 800\left(\frac{343}{313}\right) = 877 \mathrm{ Hz}$$
+$$
+f' = f\left(\frac{v}{v - v_s}\right) = 800\left(\frac{343}{343 - 30}\right) = 800\left(\frac{343}{313}\right) = 877 \mathrm{ Hz}
+$$
 
 **Observer stationary, ambulance moving away:**
 
-$$f' = f\left(\frac{v}{v + v_s}\right) = 800\left(\frac{343}{343 + 30}\right) = 800\left(\frac{343}{373}\right) = 736 \mathrm{ Hz}$$
+$$
+f' = f\left(\frac{v}{v + v_s}\right) = 800\left(\frac{343}{343 + 30}\right) = 800\left(\frac{343}{373}\right) = 736 \mathrm{ Hz}
+$$
 
 > **Exam Tip:** For the Doppler effect, always identify whether the source, the observer, or both
 > are moving. The formula changes depending on this. Also remember that the wave speed $v$ is always

@@ -332,7 +332,9 @@ immunocompromised individuals).
 
 **Herd immunity threshold:**
 
-$$\text{Threshold} = \left(1 - \frac{1}{R_0}\right) \times 100\%$$
+$$
+\text{Threshold} = \left(1 - \frac{1}{R_0}\right) \times 100\%
+$$
 
 Where $R_0$ is the basic reproduction number (average number of secondary infections produced by one
 infected individual in a fully susceptible population).
@@ -1094,7 +1096,9 @@ The lymphatic system is a network of vessels, tissues, and organs that:
   protection to those who are not immune
 - The **herd immunity threshold** depends on the basic reproduction number ($R_0$) of the disease:
 
-$$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
+$$
+\text{Herd immunity threshold} = 1 - \frac{1}{R_0}
+$$
 
 | Disease            | $R_0$ | Herd Immunity Threshold |
 | ------------------ | ----- | ----------------------- |

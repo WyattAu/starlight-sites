@@ -41,7 +41,9 @@ To solve $ax^2 + bx + c > 0$ (or $< 0$, $\geq 0$, $\leq 0$):
 Factorising: $(x-2)(x-3) \leq 0$. The parabola opens upward (positive $x^2$ coefficient). The
 expression is non-positive between the roots:
 
-$$2 \leq x \leq 3$$
+$$
+2 \leq x \leq 3
+$$
 
 ### Rational Inequalities
 
@@ -64,21 +66,31 @@ Solution: $x < -2$ or $x > 1$, i.e., $x \in (-\infty, -2) \cup (1, \infty)$.
 
 ### Definition
 
-$$|x| = \begin{cases} x & \text{if } x \geq 0 \\ -x & \text{if } x < 0 \end{cases}$$
+$$
+|x| = \begin{cases} x & \text{if } x \geq 0 \\ -x & \text{if } x < 0 \end{cases}
+$$
 
 ### Properties
 
 $$|ab| = |a| \cdot |b|$$ $$|a + b| \leq |a| + |b| \quad \text{(triangle inequality)}$$
-$$|a - b| \geq ||a| - |b||$$
+$$
+|a - b| \geq ||a| - |b||
+$$
 
 ### Solving Absolute Value Equations
 
-$$|x - 3| = 5 \implies x - 3 = 5 \text{ or } x - 3 = -5 \implies x = 8 \text{ or } x = -2$$
+$$
+|x - 3| = 5 \implies x - 3 = 5 \text{ or } x - 3 = -5 \implies x = 8 \text{ or } x = -2
+$$
 
 ### Solving Absolute Value Inequalities
 
-$$|x - a| < b \implies a - b < x < a + b \quad (b > 0)$$
-$$|x - a| > b \implies x < a - b \text{ or } x > a + b \quad (b > 0)$$
+$$
+|x - a| < b \implies a - b < x < a + b \quad (b > 0)
+$$
+$$
+|x - a| > b \implies x < a - b \text{ or } x > a + b \quad (b > 0)
+$$
 
 ### Absolute Value in the Coordinate Plane
 
@@ -115,7 +127,9 @@ Note that $fg(x) \neq gf(x)$ except when $f$ and $g$ commute.
 
 A function $f$ has an inverse $f^{-1}$ if and only if $f$ is one-to-one (bijective).
 
-$$f(f^{-1}(x)) = x \quad \text{and} \quad f^{-1}(f(x)) = x$$
+$$
+f(f^{-1}(x)) = x \quad \text{and} \quad f^{-1}(f(x)) = x
+$$
 
 **Example**: If $f(x) = \frac{2x + 3}{x - 1}$, find $f^{-1}(x)$.
 
@@ -129,7 +143,9 @@ Therefore, $f^{-1}(x) = \frac{x + 3}{x - 2}$, domain $x \neq 2$.
 
 Writing $f(x) = ax^2 + bx + c$ in vertex form by completing the square:
 
-$$f(x) = a\left(x + \frac{b}{2a}\right)^2 + \frac{4ac - b^2}{4a}$$
+$$
+f(x) = a\left(x + \frac{b}{2a}\right)^2 + \frac{4ac - b^2}{4a}
+$$
 
 The vertex is at $\left(-\frac{b}{2a}, \frac{4ac - b^2}{4a}\right)$.
 
@@ -147,15 +163,21 @@ $$a_n = a_1 r^{n-1}$$ $$S_n = \frac{a_1(1 - r^n)}{1 - r} \quad (r \neq 1)$$
 
 For a convergent geometric series (i.e., $|r| < 1$):
 
-$$S_\infty = \frac{a_1}{1 - r}$$
+$$
+S_\infty = \frac{a_1}{1 - r}
+$$
 
 ### Sigma Notation
 
-$$\sum_{r=1}^{n} ar^{r-1} = \frac{a(1 - r^n)}{1 - r}$$
+$$
+\sum_{r=1}^{n} ar^{r-1} = \frac{a(1 - r^n)}{1 - r}
+$$
 
 **Example**: Evaluate $\sum_{r=1}^{\infty} 3\left(\frac{1}{4}\right)^{r-1}$.
 
-$$S_\infty = \frac{3}{1 - \frac{1}{4}} = \frac{3}{\frac{3}{4}} = 4$$
+$$
+S_\infty = \frac{3}{1 - \frac{1}{4}} = \frac{3}{\frac{3}{4}} = 4
+$$
 
 ### Method of Differences
 
@@ -165,42 +187,64 @@ For certain sequences, the sum can be found using the method of differences.
 
 Note that $r(r+1) = r^2 + r$, so:
 
-$$\sum_{r=1}^{n} r(r+1) = \sum_{r=1}^{n} r^2 + \sum_{r=1}^{n} r = \frac{n(n+1)(2n+1)}{6} + \frac{n(n+1)}{2}$$
+$$
+\sum_{r=1}^{n} r(r+1) = \sum_{r=1}^{n} r^2 + \sum_{r=1}^{n} r = \frac{n(n+1)(2n+1)}{6} + \frac{n(n+1)}{2}
+$$
 
-$$= \frac{n(n+1)}{6}(2n + 1 + 3) = \frac{n(n+1)(n+2)}{3}$$
+$$
+= \frac{n(n+1)}{6}(2n + 1 + 3) = \frac{n(n+1)(n+2)}{3}
+$$
 
 Alternatively, using the method of differences:
 
-$$\frac{1}{r(r+1)} = \frac{1}{r} - \frac{1}{r+1}$$
+$$
+\frac{1}{r(r+1)} = \frac{1}{r} - \frac{1}{r+1}
+$$
 
-$$\sum_{r=1}^{n} \frac{1}{r(r+1)} = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
+$$
+\sum_{r=1}^{n} \frac{1}{r(r+1)} = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{n+1} = \frac{n}{n+1}
+$$
 
 ## Limits
 
 ### Intuitive Notion
 
-$$\lim_{x \to a} f(x) = L$$
+$$
+\lim_{x \to a} f(x) = L
+$$
 
 means that $f(x)$ gets arbitrarily close to $L$ as $x$ gets arbitrarily close to $a$.
 
 ### Limit Laws
 
-$$\lim_{x \to a} [f(x) \pm g(x)] = \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x)$$
-$$\lim_{x \to a} [f(x) \cdot g(x)] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)$$
-$$\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)} \quad \text{(provided } \lim g(x) \neq 0\text{)}$$
+$$
+\lim_{x \to a} [f(x) \pm g(x)] = \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x)
+$$
+$$
+\lim_{x \to a} [f(x) \cdot g(x)] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)
+$$
+$$
+\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)} \quad \text{(provided } \lim g(x) \neq 0\text{)}
+$$
 
 ### Key Limits
 
 $$\lim_{x \to 0} \frac{\sin x}{x} = 1$$ $$\lim_{x \to 0} \frac{1 - \cos x}{x} = 0$$
-$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e$$
+$$
+\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e
+$$
 
 ### Limits at Infinity
 
-$$\lim_{x \to \infty} \frac{1}{x^k} = 0 \quad (k > 0)$$
+$$
+\lim_{x \to \infty} \frac{1}{x^k} = 0 \quad (k > 0)
+$$
 
 For rational functions, divide numerator and denominator by the highest power of $x$:
 
-$$\lim_{x \to \infty} \frac{3x^2 + 2x - 1}{5x^2 - x + 3} = \lim_{x \to \infty} \frac{3 + \frac{2}{x} - \frac{1}{x^2}}{5 - \frac{1}{x} + \frac{3}{x^2}} = \frac{3}{5}$$
+$$
+\lim_{x \to \infty} \frac{3x^2 + 2x - 1}{5x^2 - x + 3} = \lim_{x \to \infty} \frac{3 + \frac{2}{x} - \frac{1}{x^2}}{5 - \frac{1}{x} + \frac{3}{x^2}} = \frac{3}{5}
+$$
 
 ## Differentiation: Advanced
 
@@ -229,7 +273,9 @@ radius is 5 cm, given that air is being pumped in at $100\pi$ cm$^3$/s.
 Volume: $V = \frac{4}{3}\pi r^3$.
 
 $$\frac{dV}{dt} = 4\pi r^2 \frac{dr}{dt}$$ $$100\pi = 4\pi(25)\frac{dr}{dt}$$
-$$\frac{dr}{dt} = \frac{100\pi}{100\pi} = 1 \text{ cm/s}$$
+$$
+\frac{dr}{dt} = \frac{100\pi}{100\pi} = 1 \text{ cm/s}
+$$
 
 ### Second Derivative
 
@@ -258,17 +304,23 @@ To find and classify stationary points:
 
 **Example**: $\int 2x\sqrt{x^2 + 1} \, dx$. Let $u = x^2 + 1$, $du = 2x \, dx$.
 
-$$\int \sqrt{u} \, du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2 + 1)^{3/2} + C$$
+$$
+\int \sqrt{u} \, du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2 + 1)^{3/2} + C
+$$
 
 - **Integration by parts**: $\int u \, dv = uv - \int v \, du$
 
 **Example**: $\int x e^x \, dx$. Let $u = x$, $dv = e^x \, dx$. Then $du = dx$, $v = e^x$.
 
-$$\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = (x - 1)e^x + C$$
+$$
+\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = (x - 1)e^x + C
+$$
 
 ### Definite Integration
 
-$$\int_a^b f(x) \, dx = \left[F(x)\right]_a^b = F(b) - F(a)$$
+$$
+\int_a^b f(x) \, dx = \left[F(x)\right]_a^b = F(b) - F(a)
+$$
 
 ### Area Under Curves
 
@@ -283,13 +335,17 @@ $$\int_a^b f(x) \, dx = \left[F(x)\right]_a^b = F(b) - F(a)$$
 **Example**: Find the volume when the region bounded by $y = \sqrt{x}$, $x = 4$, and $y = 0$ is
 rotated about the x-axis.
 
-$$V = \pi \int_0^4 (\sqrt{x})^2 \, dx = \pi \int_0^4 x \, dx = \pi \left[\frac{x^2}{2}\right]_0^4 = 8\pi$$
+$$
+V = \pi \int_0^4 (\sqrt{x})^2 \, dx = \pi \int_0^4 x \, dx = \pi \left[\frac{x^2}{2}\right]_0^4 = 8\pi
+$$
 
 ### Differential Equations
 
 A first-order separable differential equation has the form:
 
-$$\frac{dy}{dx} = f(x)g(y)$$
+$$
+\frac{dy}{dx} = f(x)g(y)
+$$
 
 Separating variables: $\frac{dy}{g(y)} = f(x) \, dx$.
 
@@ -301,7 +357,9 @@ $$y \, dy = x \, dx$$ $$\int y \, dy = \int x \, dx$$ $$\frac{y^2}{2} = \frac{x^
 
 Using $y = 2$ when $x = 1$: $2 = \frac{1}{2} + C$, so $C = \frac{3}{2}$.
 
-$$y^2 = x^2 + 3$$
+$$
+y^2 = x^2 + 3
+$$
 
 ## Common Pitfalls
 

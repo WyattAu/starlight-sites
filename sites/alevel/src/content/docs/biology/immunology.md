@@ -435,11 +435,15 @@ eliminated.
 The proportion of the population that must be immune to achieve herd immunity depends on the basic
 reproduction number ($R_0$):
 
-$$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
+$$
+\text{Herd immunity threshold} = 1 - \frac{1}{R_0}
+$$
 
 **Worked Example.** Measles has $R_0 \approx 15$ (highly contagious).
 
-$$\text{Threshold} = 1 - \frac{1}{15} = 1 - 0.067 = 0.933 = 93.3\%$$
+$$
+\text{Threshold} = 1 - \frac{1}{15} = 1 - 0.067 = 0.933 = 93.3\%
+$$
 
 Approximately 93% of the population must be immune to measles to prevent outbreaks. This is why
 measles vaccination coverage targets must be very high.
@@ -514,7 +518,9 @@ An unknown patient sample gives an absorbance of 0.55. Determine the antigen con
 From the standard curve, absorbance of 0.55 lies between the 20 ($0.42$) and 40 ($0.78$) data
 points. Using linear interpolation between these two points:
 
-$$\text{Concentration} = 20 + (40 - 20) \times \frac{0.55 - 0.42}{0.78 - 0.42} = 20 + 20 \times \frac{0.13}{0.36} = 20 + 7.2 = 27.2\ \mathrm{ng\ cm^{-3}}$$
+$$
+\text{Concentration} = 20 + (40 - 20) \times \frac{0.55 - 0.42}{0.78 - 0.42} = 20 + 20 \times \frac{0.13}{0.36} = 20 + 7.2 = 27.2\ \mathrm{ng\ cm^{-3}}
+$$
 
 The patient sample contains approximately $27.2\ \mathrm{ng\ cm^{-3}}$ of antigen.
 
@@ -1142,7 +1148,9 @@ protection to those who are not immune.
 
 The herd immunity threshold depends on the basic reproduction number ($R_0$):
 
-$$H = 1 - \frac{1}{R_0}$$
+$$
+H = 1 - \frac{1}{R_0}
+$$
 
 Where $H$ = proportion of the population that must be immune for herd immunity.
 
@@ -1459,7 +1467,9 @@ protection to individuals who are not immune.
 
 The herd immunity threshold depends on the basic reproduction number ($R_0$):
 
-$$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
+$$
+\text{Herd immunity threshold} = 1 - \frac{1}{R_0}
+$$
 
 | Disease            | $R_0$  | Herd Immunity Threshold |
 | ------------------ | ------ | ----------------------- |
@@ -1776,11 +1786,15 @@ Oedema (swelling) occurs when excess tissue fluid accumulates:
 
 The proportion of the population that must be immune to achieve herd immunity depends on $R_0$:
 
-$$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
+$$
+\text{Herd immunity threshold} = 1 - \frac{1}{R_0}
+$$
 
 **Worked example:** Measles has $R_0 \approx 15$.
 
-$$\text{Threshold} = 1 - \frac{1}{15} = 0.933 = 93.3\%$$
+$$
+\text{Threshold} = 1 - \frac{1}{15} = 0.933 = 93.3\%
+$$
 
 Approximately 93.3% of the population must be immune to prevent measles transmission. If vaccine
 coverage is below this threshold, outbreaks can still occur.
@@ -1939,7 +1953,9 @@ disease, providing indirect protection to those who are not immune.
 | Seasonal influenza | 1.5--3                            | 33--67%                                       |
 | Smallpox           | 5--7                              | 80--86%                                       |
 
-$$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
+$$
+\text{Herd immunity threshold} = 1 - \frac{1}{R_0}
+$$
 
 ## 38. HIV/AIDS and the Immune System
 

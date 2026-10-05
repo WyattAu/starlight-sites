@@ -64,22 +64,32 @@ Resolving the initial velocity:
 
 (a) Using $s = ut + \frac{1}{2}at^2$ for the vertical motion, taking upward as positive:
 
-$$35 = 25.38t - \frac{1}{2}(9.81)t^2$$
+$$
+35 = 25.38t - \frac{1}{2}(9.81)t^2
+$$
 
-$$4.905t^2 - 25.38t + 35 = 0$$
+$$
+4.905t^2 - 25.38t + 35 = 0
+$$
 
 Using the quadratic formula:
 
-$$t = \frac{25.38 \pm \sqrt{25.38^2 - 4 \times 4.905 \times 35}}{2 \times 4.905}$$
+$$
+t = \frac{25.38 \pm \sqrt{25.38^2 - 4 \times 4.905 \times 35}}{2 \times 4.905}
+$$
 
-$$t = \frac{25.38 \pm \sqrt{644.1 - 686.7}}{9.81}$$
+$$
+t = \frac{25.38 \pm \sqrt{644.1 - 686.7}}{9.81}
+$$
 
 The discriminant is $644.1 - 686.7 = -42.6 \lt 0$.
 
 Since the discriminant is negative, the ball **never reaches** the height of $B$. The maximum height
 is:
 
-$$h_{\max} = \frac{u_y^2}{2g} = \frac{25.38^2}{2 \times 9.81} = \frac{644.1}{19.62} = 32.83\,\text{m}$$
+$$
+h_{\max} = \frac{u_y^2}{2g} = \frac{25.38^2}{2 \times 9.81} = \frac{644.1}{19.62} = 32.83\,\text{m}
+$$
 
 Since $32.83\,\text{m} \lt 35\,\text{m}$The ball cannot reach $B$. The student must recognise when
 the mathematics reveals a physical impossibility rather than blindly computing.
@@ -225,20 +235,26 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 (a) Using $v^2 = u^2 + 2as$ with $v = 0$$u = 18.0$$a = -9.81$:
 
-$$0 = 18.0^2 - 2(9.81)s \Rightarrow s = \frac{324}{19.62} = 16.52\,\text{m}$$
+$$
+0 = 18.0^2 - 2(9.81)s \Rightarrow s = \frac{324}{19.62} = 16.52\,\text{m}
+$$
 
 Maximum height above ground $= 2.0 + 16.52 = 18.5\,\text{m}$ (3 s.f.)
 
 (b) Speed when the ball hits the ground on the first descent: it falls $18.5\,\text{m}$ from rest
 (at the top).
 
-$$v^2 = 0 + 2(9.81)(18.5) = 363.0 \Rightarrow v = 19.05\,\text{m}\,\text{s}^{-1}$$
+$$
+v^2 = 0 + 2(9.81)(18.5) = 363.0 \Rightarrow v = 19.05\,\text{m}\,\text{s}^{-1}
+$$
 
 After bouncing, speed $= 0.75 \times 19.05 = 14.29\,\text{m}\,\text{s}^{-1}$.
 
 Height on second ascent:
 
-$$s = \frac{v^2}{2g} = \frac{14.29^2}{19.62} = \frac{204.2}{19.62} = 10.41\,\text{m}$$
+$$
+s = \frac{v^2}{2g} = \frac{14.29^2}{19.62} = \frac{204.2}{19.62} = 10.41\,\text{m}
+$$
 
 (c) **First ascent:** $t_1 = u/g = 18.0/9.81 = 1.835\,\text{s}$
 
@@ -280,20 +296,28 @@ Vertical: $y = u\sin\theta \cdot t - \frac{1}{2}gt^2$
 
 Setting $y = x\tan\alpha$:
 
-$$u\sin\theta \cdot t - \frac{1}{2}gt^2 = u\cos\theta \cdot t \cdot \tan\alpha$$
+$$
+u\sin\theta \cdot t - \frac{1}{2}gt^2 = u\cos\theta \cdot t \cdot \tan\alpha
+$$
 
-$$t\left(u\sin\theta - u\cos\theta\tan\alpha - \frac{1}{2}gt\right) = 0$$
+$$
+t\left(u\sin\theta - u\cos\theta\tan\alpha - \frac{1}{2}gt\right) = 0
+$$
 
 Ignoring $t = 0$:
 
-$$t = \frac{2u(\sin\theta - \cos\theta\tan\alpha)}{g} = \frac{2u(\sin\theta\cos\alpha - \cos\theta\sin\alpha)}{g\cos\alpha} = \frac{2u\sin(\theta - \alpha)}{g\cos\alpha}$$
+$$
+t = \frac{2u(\sin\theta - \cos\theta\tan\alpha)}{g} = \frac{2u(\sin\theta\cos\alpha - \cos\theta\sin\alpha)}{g\cos\alpha} = \frac{2u\sin(\theta - \alpha)}{g\cos\alpha}
+$$
 
 As required.
 
 (b) Substituting:
 $t = \frac{2 \times 25 \times \sin(30^\circ - 20^\circ)}{9.81 \times \cos 20^\circ} = \frac{50 \times \sin 10^\circ}{9.81 \times \cos 20^\circ}$
 
-$$= \frac{50 \times 0.1736}{9.81 \times 0.9397} = \frac{8.682}{9.219} = 0.9420\,\text{s}$$
+$$
+= \frac{50 \times 0.1736}{9.81 \times 0.9397} = \frac{8.682}{9.219} = 0.9420\,\text{s}
+$$
 
 Horizontal distance:
 $x = 25\cos 30^\circ \times 0.9420 = 25 \times 0.8660 \times 0.9420 = 20.40\,\text{m}$
@@ -349,13 +373,19 @@ $F_r = \mu R = 0.40 \times 3.0g = 1.2g$
 
 Adding: $5.0g - 1.2g = 8.0a$
 
-$$a = \frac{3.8g}{8.0} = \frac{3.8 \times 9.81}{8.0} = \frac{37.28}{8.0} = 4.66\,\text{m}\,\text{s}^{-2}$$
+$$
+a = \frac{3.8g}{8.0} = \frac{3.8 \times 9.81}{8.0} = \frac{37.28}{8.0} = 4.66\,\text{m}\,\text{s}^{-2}
+$$
 
 (b) $B$ falls $0.80\,\text{m}$ from rest with $a = 4.66\,\text{m}\,\text{s}^{-2}$:
 
-$$v^2 = 0 + 2 \times 4.66 \times 0.80 = 7.456$$
+$$
+v^2 = 0 + 2 \times 4.66 \times 0.80 = 7.456
+$$
 
-$$v = 2.73\,\text{m}\,\text{s}^{-1}$$
+$$
+v = 2.73\,\text{m}\,\text{s}^{-1}
+$$
 
 (c) After $B$ hits the ground, $A$ continues with initial speed $2.73\,\text{m}\,\text{s}^{-1}$ but
 now decelerates due to friction alone.
@@ -408,15 +438,21 @@ Thinking distance $= 20.0 \times 0.7 = 14.0\,\text{m}$.
 
 **Total stopping distance:** Using the trapezium rule on all data:
 
-$$s = 0.5 \times \left[\frac{20.0 + 0}{2} + 17.5 + 14.8 + 11.7 + 8.2 + 4.3\right]$$
+$$
+s = 0.5 \times \left[\frac{20.0 + 0}{2} + 17.5 + 14.8 + 11.7 + 8.2 + 4.3\right]
+$$
 
-$$= 0.5 \times [10.0 + 17.5 + 14.8 + 11.7 + 8.2 + 4.3] = 0.5 \times 66.5 = 33.25\,\text{m}$$
+$$
+= 0.5 \times [10.0 + 17.5 + 14.8 + 11.7 + 8.2 + 4.3] = 0.5 \times 66.5 = 33.25\,\text{m}
+$$
 
 **Braking distance** $= 33.25 - 14.0 = 19.25 \approx 19.3\,\text{m}$
 
 (b) Using the work-energy principle: $Fs = \frac{1}{2}mv^2$
 
-$$F = \frac{0.5 \times 1200 \times 20.0^2}{19.25} = \frac{240000}{19.25} = 12468 \approx 12500\,\text{N}$$
+$$
+F = \frac{0.5 \times 1200 \times 20.0^2}{19.25} = \frac{240000}{19.25} = 12468 \approx 12500\,\text{N}
+$$
 
 (c) New braking force $= 0.60 \times 12500 = 7500\,\text{N}$
 

@@ -128,12 +128,16 @@ Relational algebra provides a formal query language based on operations on relat
 
 **Selection** $\sigma_{\theta}(R)$: Return tuples from $R$ satisfying condition $\theta$.
 
-$$\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}$$
+$$
+\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}
+$$
 
 **Projection** $\pi_{A_1, \ldots, A_k}(R)$: Return a relation containing only attributes
 $A_1, \ldots, A_k$.
 
-$$\pi_{\mathrm{name}, \mathrm{gpa}(\mathrm{Student})}$$
+$$
+\pi_{\mathrm{name}, \mathrm{gpa}(\mathrm{Student})}
+$$
 
 **Union** $R \cup S$: All tuples in $R$ or $S$ (both must be union-compatible: same arity and
 Attribute domains).
@@ -146,7 +150,9 @@ Attribute domains).
 
 **Natural join** $R \bowtie S$: Combine tuples from $R$ and $S$ that agree on all common attributes.
 
-$$R \bowtie S = \pi_{R \cup S}(\sigma_{R.\mathrm{common} = S.\mathrm{common}(R \times S))}$$
+$$
+R \bowtie S = \pi_{R \cup S}(\sigma_{R.\mathrm{common} = S.\mathrm{common}(R \times S))}
+$$
 
 **Theta join** $R \bowtie_{\theta} S$: $\sigma_{\theta}(R \times S)$.
 
@@ -164,11 +170,15 @@ possible; `NULL`-padded otherwise.
 $(t, s)
 \in R$.
 
-$$R \div S = \pi_{R-S}(R) - \pi_{R-S}\Bigl(\bigl(\pi_{R-S}(R) \times S\bigr) - R\Bigr)$$
+$$
+R \div S = \pi_{R-S}(R) - \pi_{R-S}\Bigl(\bigl(\pi_{R-S}(R) \times S\bigr) - R\Bigr)
+$$
 
 **Example.** Find students who have taken **all** courses:
 
-$$\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm{Course})}}$$
+$$
+\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm{Course})}}
+$$
 
 <details>
 <summary>Worked Example 2.1: Complex Relational Algebra Query</summary>
@@ -180,23 +190,33 @@ department.
 
 **Step 1.** Get CS course IDs:
 
-$$C_{\mathrm{CS} = \pi_{\mathrm{cid}\bigl(\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Course})\bigr)}}}$$
+$$
+C_{\mathrm{CS} = \pi_{\mathrm{cid}\bigl(\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Course})\bigr)}}}
+$$
 
 **Step 2.** Get student-course pairs from enrolments:
 
-$$T = \pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes})}$$
+$$
+T = \pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes})}
+$$
 
 **Step 3.** Students who have taken all CS courses (division):
 
-$$S_{\mathrm{all} = T \div C_{\mathrm{CS}}}$$
+$$
+S_{\mathrm{all} = T \div C_{\mathrm{CS}}}
+$$
 
 **Step 4.** Get names:
 
-$$\pi_{\mathrm{name}(S_{\mathrm{all} \bowtie \mathrm{Student})}}$$
+$$
+\pi_{\mathrm{name}(S_{\mathrm{all} \bowtie \mathrm{Student})}}
+$$
 
 **Combined:**
 
-$$\pi_{\mathrm{name}\Bigl(\bigl(\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))\bigr) \bowtie \mathrm{Student}\Bigr)}}}}$$
+$$
+\pi_{\mathrm{name}\Bigl(\bigl(\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))\bigr) \bowtie \mathrm{Student}\Bigr)}}}}
+$$
 
 </details>
 
@@ -208,11 +228,15 @@ have Taken no CS courses (count should be 0).
 
 **Step 1.** Filter enrolments to CS courses:
 
-$$E_{\mathrm{CS} = \pi_{\mathrm{sid}, \mathrm{cid}\bigl(\mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course})\bigr)}}}$$
+$$
+E_{\mathrm{CS} = \pi_{\mathrm{sid}, \mathrm{cid}\bigl(\mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course})\bigr)}}}
+$$
 
 **Step 2.** Left outer join with Student to include those with no CS courses:
 
-$$\mathrm{Result} = \mathrm{Student} \bowtie_{\mathrm{left} E_{\mathrm{CS}}}$$
+$$
+\mathrm{Result} = \mathrm{Student} \bowtie_{\mathrm{left} E_{\mathrm{CS}}}
+$$
 
 Note: aggregation over outer join results handles `NULL` values (they are excluded from `COUNT`).
 
@@ -239,12 +263,16 @@ variable And $P$ is a well-formed formula. The formula is built from:
 - Logical connectives: $\land$ (and), $\lor$ (or), $\lnot$ (not).
 - Quantifiers: $\exists t$ (there exists), $\forall t$ (for all).
 
-$$\{t \mid \exists s \in \mathrm{Takes}(t[\mathrm{name}] = s[\mathrm{name}] \land s[\mathrm{grade}] = \mathrm{'A'})\}$$
+$$
+\{t \mid \exists s \in \mathrm{Takes}(t[\mathrm{name}] = s[\mathrm{name}] \land s[\mathrm{grade}] = \mathrm{'A'})\}
+$$
 
 **Domain relational calculus.** Variables range over individual attribute domains (not entire
 tuples). A query has the form $\\{\langle x_1, \ldots, x_k \rangle \mid P(x_1, \ldots, x_k)\\}$.
 
-$$\{ \langle n \rangle \mid \exists s, g \;(\mathrm{Takes}(s, \mathrm{'CS101'}, g) \land \mathrm{Student}(s, n, \ldots) \land g = \mathrm{'A'})\}$$
+$$
+\{ \langle n \rangle \mid \exists s, g \;(\mathrm{Takes}(s, \mathrm{'CS101'}, g) \land \mathrm{Student}(s, n, \ldots) \land g = \mathrm{'A'})\}
+$$
 
 **Safety.** A calculus expression is **safe** if it yields a finite relation. The expression
 $\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$An infinite set). We
@@ -260,11 +288,15 @@ Equally expressive: every query expressible in one is expressible in the other.
 
 Using tuple relational calculus:
 
-$$\{t \mid t \in \mathrm{Student} \land \lnot \exists s \in \mathrm{Takes}\bigl(s[\mathrm{sid}] = t[\mathrm{sid}] \land \exists c \in \mathrm{Course}(c[\mathrm{cid}] = s[\mathrm{cid}] \land c[\mathrm{dept}] = \mathrm{'CS'}\bigr)\}$$
+$$
+\{t \mid t \in \mathrm{Student} \land \lnot \exists s \in \mathrm{Takes}\bigl(s[\mathrm{sid}] = t[\mathrm{sid}] \land \exists c \in \mathrm{Course}(c[\mathrm{cid}] = s[\mathrm{cid}] \land c[\mathrm{dept}] = \mathrm{'CS'}\bigr)\}
+$$
 
 **Translation to relational algebra:**
 
-$$\pi_{\mathrm{name}(\mathrm{Student}) - \pi_{\mathrm{name}(\mathrm{Student} \bowtie \mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))}}}$$
+$$
+\pi_{\mathrm{name}(\mathrm{Student}) - \pi_{\mathrm{name}(\mathrm{Student} \bowtie \mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))}}}
+$$
 
 </details>
 
@@ -1424,7 +1456,9 @@ with a Midpoint insertion strategy to avoid scan pollution.
 
 ### 7.1 Query Processing Pipeline
 
-$$\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}$$
+$$
+\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}
+$$
 
 ### 7.2 Cost-Based Optimisation
 
@@ -1450,31 +1484,41 @@ $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
 **Nested-loop join.** For each tuple in $R$Scan all of $S$.
 
-$$\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)$$
+$$
+\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)
+$$
 
 If one relation fits in memory, buffer it and scan the other: cost = $n_R + n_S$.
 
 **Block nested-loop join.** Use $B$ buffer pages. Load blocks of $R$ into $B - 2$ buffers, scan $S$
 With the remaining buffer.
 
-$$\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S$$
+$$
+\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S
+$$
 
 **Sort-merge join.** Sort both relations on the join attribute, then merge.
 
-$$\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S$$
+$$
+\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S
+$$
 
 Efficient for large relations, especially when both are already sorted.
 
 **Hash join.** Build a hash table on the smaller relation (build phase), then probe with the larger
 (probe phase).
 
-$$\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}$$
+$$
+\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}
+$$
 
 Best for equi-joins when one relation fits in memory.
 
 **Index nested-loop join.** For each tuple in $R$Use an index on $S$ to find matching tuples.
 
-$$\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)$$
+$$
+\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)
+$$
 
 Efficient if $S$ has an index on the join attribute and $n_R$ is small.
 

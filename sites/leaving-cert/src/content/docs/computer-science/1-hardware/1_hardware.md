@@ -517,9 +517,13 @@ $F = (A \cdot B) + \bar{C}$.
 
 ### De Morgan's Laws (HL)
 
-$$\overline{A \cdot B} = \bar{A} + \bar{B}$$
+$$
+\overline{A \cdot B} = \bar{A} + \bar{B}
+$$
 
-$$\overline{A + B} = \bar{A} \cdot \bar{B}$$
+$$
+\overline{A + B} = \bar{A} \cdot \bar{B}
+$$
 
 **Worked Example (HL).** Simplify $\overline{A \cdot \bar{B}}$ using De Morgan's Laws.
 
@@ -731,7 +735,9 @@ C = 67 = 01000011, a = 97 = 01100001, t = 116 = 01110100.
 
 **Example:** $1920     imes 1080$ image with 24-bit colour:
 
-$$1920     imes 1080     imes 24 / 8 = 6220800     ext{ bytes} pprox 5.93     ext{ MB}$$
+$$
+1920     imes 1080     imes 24 / 8 = 6220800     ext{ bytes} pprox 5.93     ext{ MB}
+$$
 
 **Vector images:** Mathematical descriptions of shapes. Scale without quality loss.
 

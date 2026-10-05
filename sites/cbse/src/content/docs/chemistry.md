@@ -101,7 +101,9 @@ boiling points of water, HF, NH$_3$.
 
 **Key relations:**
 
-$$\Delta G = \Delta H - T\Delta S$$
+$$
+\Delta G = \Delta H - T\Delta S
+$$
 
 - $\Delta G < 0$: spontaneous
 - $\Delta G = 0$: at equilibrium
@@ -113,7 +115,9 @@ $$\Delta G = \Delta H - T\Delta S$$
 
 **Law of mass action:** For $aA + bB \rightleftharpoons cC + dD$:
 
-$$K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
+$$
+K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
+$$
 
 **Le Chatelier's principle:** If a system at equilibrium is disturbed, it shifts to oppose the change.
 

@@ -26,7 +26,9 @@ categories:
 **Definition 1 (sp$^3$ Hybridization):** One $s$ and three $p$ orbitals combine to form four
 equivalent sp$^3$ hybrid orbitals, arranged tetrahedrally with bond angles of 109.5°.
 
-$$\psi_{sp^3} = \frac{1}{2}(\psi_s + \psi_{p_x} + \psi_{p_y} + \psi_{p_z})$$
+$$
+\psi_{sp^3} = \frac{1}{2}(\psi_s + \psi_{p_x} + \psi_{p_y} + \psi_{p_z})
+$$
 
 Each sp$^3$ orbital has 25% $s$ character and 75% $p$ character. Examples: methane (CH$_4$), ethane,
 water (bent due to lone pairs).
@@ -37,7 +39,9 @@ water (bent due to lone pairs).
 equivalent sp$^2$ hybrid orbitals in a trigonal planar arrangement (120°). The remaining
 unhybridized $p_z$ orbital forms $\pi$ bonds.
 
-$$\psi_{sp^2} = \frac{1}{\sqrt{3}}\psi_s + \sqrt{\frac{2}{3}}\psi_p$$
+$$
+\psi_{sp^2} = \frac{1}{\sqrt{3}}\psi_s + \sqrt{\frac{2}{3}}\psi_p
+$$
 
 Each sp$^2$ orbital has 33.3% $s$ character. Examples: ethylene (C$_2$H$_4$), formaldehyde, benzene.
 
@@ -47,7 +51,9 @@ Each sp$^2$ orbital has 33.3% $s$ character. Examples: ethylene (C$_2$H$_4$), fo
 orbitals in a linear arrangement (180°). Two unhybridized $p$ orbitals form two perpendicular $\pi$
 bonds.
 
-$$\psi_{sp} = \frac{1}{\sqrt{2}}(\psi_s + \psi_p)$$
+$$
+\psi_{sp} = \frac{1}{\sqrt{2}}(\psi_s + \psi_p)
+$$
 
 Each sp orbital has 50% $s$ character. Examples: acetylene (C$_2$H$_2$), CO$_2$, HCN.
 
@@ -55,9 +61,13 @@ Each sp orbital has 50% $s$ character. Examples: acetylene (C$_2$H$_2$), CO$_2$,
 
 More $s$ character $\implies$ shorter, stronger bonds:
 
-$$\text{Bond length: } \text{sp}^3 > \text{sp}^2 > \text{sp}$$
+$$
+\text{Bond length: } \text{sp}^3 > \text{sp}^2 > \text{sp}
+$$
 
-$$\text{Bond strength: } \text{sp}^3 < \text{sp}^2 < \text{sp}$$
+$$
+\text{Bond strength: } \text{sp}^3 < \text{sp}^2 < \text{sp}
+$$
 
 | Hybridization | $s$ Character | C–C Bond Length (pm) | C–C Bond Energy (kJ/mol) |
 | ------------- | ------------- | -------------------- | ------------------------ |
@@ -227,16 +237,22 @@ rotate plane-polarized light in opposite directions.
 
 For double bonds (E/Z):
 
-$$\text{E (Entgegen): } \text{higher priority groups on opposite sides}$$
+$$
+\text{E (Entgegen): } \text{higher priority groups on opposite sides}
+$$
 
-$$\text{Z (Zusammen): } \text{higher priority groups on same side}$$
+$$
+\text{Z (Zusammen): } \text{higher priority groups on same side}
+$$
 
 ### 6.3 Optical Activity
 
 **Definition 11 (Optical Activity):** Enantiomers rotate plane-polarized light. The specific
 rotation:
 
-$$[\alpha] = \frac{\alpha_{\text{obs}}}{c \cdot l}$$
+$$
+[\alpha] = \frac{\alpha_{\text{obs}}}{c \cdot l}
+$$
 
 where $\alpha_{\text{obs}}$ is the observed rotation (degrees), $c$ is concentration (g/mL), and $l$
 is path length (dm).
@@ -278,7 +294,9 @@ point where bonds meet; the back carbon by a circle.
 
 The dihedral angle $\phi$ between H atoms on adjacent carbons determines the energy:
 
-$$E(\phi) = \frac{V_0}{2}(1 + \cos 3\phi)$$
+$$
+E(\phi) = \frac{V_0}{2}(1 + \cos 3\phi)
+$$
 
 - **Staggered** ($\phi = 60°, 180°, 300°$): minimum energy.
 - **Eclipsed** ($\phi = 0°, 120°, 240°$): maximum energy ($\sim 12$ kJ/mol above staggered).
@@ -327,11 +345,15 @@ equatorial positions.
 
 For a monosubstituted cyclohexane:
 
-$$K_{\text{eq}} = \frac{[\text{equatorial}]}{[\text{axial}]} = e^{-\Delta G/RT}$$
+$$
+K_{\text{eq}} = \frac{[\text{equatorial}]}{[\text{axial}]} = e^{-\Delta G/RT}
+$$
 
 **Example 3:** For methylcyclohexane at 298 K with $\Delta G = 7.3$ kJ/mol:
 
-$$K_{\text{eq}} = e^{-7300/(8.314 \times 298)} = e^{-2.95} \approx 19$$
+$$
+K_{\text{eq}} = e^{-7300/(8.314 \times 298)} = e^{-2.95} \approx 19
+$$
 
 The equatorial conformer is favored ~95%.
 

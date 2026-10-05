@@ -112,9 +112,13 @@ $V_{\text{out}} = V_{\text{in}} \times \frac{R_2}{R_1 + R_2} = 15.0 \times \frac
 
 (b) With load, $R_2$ and $R_L$ are in parallel:
 
-$$R_{\text{parallel}} = \frac{R_2 R_L}{R_2 + R_L} = \frac{20 \times 10}{30} = 6.667\,\text{k}\Omega$$
+$$
+R_{\text{parallel}} = \frac{R_2 R_L}{R_2 + R_L} = \frac{20 \times 10}{30} = 6.667\,\text{k}\Omega
+$$
 
-$$V_{\text{out}} = 15.0 \times \frac{6.667}{10 + 6.667} = 15.0 \times \frac{6.667}{16.667} = 6.00\,\text{V}$$
+$$
+V_{\text{out}} = 15.0 \times \frac{6.667}{10 + 6.667} = 15.0 \times \frac{6.667}{16.667} = 6.00\,\text{V}
+$$
 
 The output voltage drops from $10.0\,\text{V}$ to $6.0\,\text{V}$ -- a $40\%$ reduction. This
 "loading effect" occurs because the load draws current, changing the effective resistance of the
@@ -122,10 +126,16 @@ divider.
 
 (c) We need $V_{\text{out}} = 5.0\,\text{V}$ (50% of $10.0\,\text{V}$):
 
-$$5.0 = 15.0 \times \frac{R_2 R_L/(R_2 + R_L)}{R_1 + R_2 R_L/(R_2 + R_L)}$$
-$$5.0 = 15.0 \times \frac{20 R_L/(20 + R_L)}{10 + 20 R_L/(20 + R_L)}$$
+$$
+5.0 = 15.0 \times \frac{R_2 R_L/(R_2 + R_L)}{R_1 + R_2 R_L/(R_2 + R_L)}
+$$
+$$
+5.0 = 15.0 \times \frac{20 R_L/(20 + R_L)}{10 + 20 R_L/(20 + R_L)}
+$$
 
-$$\frac{1}{3} = \frac{20 R_L}{10(20 + R_L) + 20 R_L} = \frac{20 R_L}{200 + 10 R_L + 20 R_L} = \frac{20 R_L}{200 + 30 R_L}$$
+$$
+\frac{1}{3} = \frac{20 R_L}{10(20 + R_L) + 20 R_L} = \frac{20 R_L}{200 + 10 R_L + 20 R_L} = \frac{20 R_L}{200 + 30 R_L}
+$$
 
 $$200 + 30 R_L = 60 R_L$$ $$200 = 30 R_L$$ $$R_L = 6.67\,\text{k}\Omega$$
 
@@ -164,15 +174,21 @@ of energy.
 $\varepsilon_2$ And $I_R$ flow through $R$ (downward). Apply Kirchhoff's current law at the top
 junction:
 
-$$I_1 + I_2 = I_R$$
+$$
+I_1 + I_2 = I_R
+$$
 
 Apply Kirchhoff's voltage law to the left loop ($\varepsilon_1$, $r_1$, $R$):
 
-$$\varepsilon_1 - I_1 r_1 - I_R R = 0 \Rightarrow 10.0 - I_1 - 5I_R = 0 \quad (1)$$
+$$
+\varepsilon_1 - I_1 r_1 - I_R R = 0 \Rightarrow 10.0 - I_1 - 5I_R = 0 \quad (1)
+$$
 
 Apply Kirchhoff's voltage law to the right loop ($\varepsilon_2$, $r_2$, $R$):
 
-$$\varepsilon_2 - I_2 r_2 - I_R R = 0 \Rightarrow 6.0 - 2I_2 - 5I_R = 0 \quad (2)$$
+$$
+\varepsilon_2 - I_2 r_2 - I_R R = 0 \Rightarrow 6.0 - 2I_2 - 5I_R = 0 \quad (2)
+$$
 
 From (2): $I_2 = (6.0 - 5I_R)/2 = 3.0 - 2.5I_R$
 
@@ -182,8 +198,12 @@ Substituting into KCL: $(10.0 - 5I_R) + (3.0 - 2.5I_R) = I_R$
 
 $$13.0 - 7.5I_R = I_R$$ $$13.0 = 8.5I_R$$ $$I_R = 1.529\,\text{A}$$
 
-$$I_1 = 10.0 - 5(1.529) = 10.0 - 7.647 = 2.353\,\text{A}$$
-$$I_2 = 3.0 - 2.5(1.529) = 3.0 - 3.824 = -0.824\,\text{A}$$
+$$
+I_1 = 10.0 - 5(1.529) = 10.0 - 7.647 = 2.353\,\text{A}
+$$
+$$
+I_2 = 3.0 - 2.5(1.529) = 3.0 - 3.824 = -0.824\,\text{A}
+$$
 
 The negative sign for $I_2$ means $\varepsilon_2$ is being **charged** by $\varepsilon_1$. Current
 flows into the positive terminal of $\varepsilon_2$.
@@ -236,11 +256,15 @@ capacitor and the energy stored in the capacitor when fully charged.
 voltage. The steady-state charging current is determined by the series circuit of solar panel,
 internal resistances, and battery:
 
-$$I = \frac{\varepsilon_{\text{panel}} - V_{\text{battery terminal}}}{r_{\text{panel}}}$$
+$$
+I = \frac{\varepsilon_{\text{panel}} - V_{\text{battery terminal}}}{r_{\text{panel}}}
+$$
 
 In steady state (capacitor fully charged):
 
-$$V_{\text{terminal}} = \varepsilon_{\text{battery}} + I \times r_{\text{battery}}$$
+$$
+V_{\text{terminal}} = \varepsilon_{\text{battery}} + I \times r_{\text{battery}}
+$$
 
 $$I = \frac{18.0 - (12.0 + I)}{2.0}$$ $$2I = 6.0 - I$$ $$3I = 6.0 \Rightarrow I = 2.0\,\text{A}$$
 
@@ -298,7 +322,9 @@ current through it exceeds $0.8\,\text{A}$.
 
 The current through $R_1$ and $R_2$ in series (with $R_3$ removed):
 
-$$I = \frac{24}{1 + 5 + 10} = \frac{24}{16} = 1.5\,\text{A}$$
+$$
+I = \frac{24}{1 + 5 + 10} = \frac{24}{16} = 1.5\,\text{A}
+$$
 
 Open-circuit voltage: $V_{\text{OC}} = 24 - 1.5(1 + 5) = 24 - 9 = 15\,\text{V}$
 
@@ -309,13 +335,17 @@ Internal resistance (replace the $24\,\text{V}$ source with a short circuit, and
 $r = 1\,\Omega$ and $R_1 = 5\,\Omega$ are in series $= 6\,\Omega$. This combination is in parallel
 with $R_2 = 10\,\Omega$.
 
-$$R_{\text{Th}} = \frac{6 \times 10}{6 + 10} = \frac{60}{16} = 3.75\,\Omega$$
+$$
+R_{\text{Th}} = \frac{6 \times 10}{6 + 10} = \frac{60}{16} = 3.75\,\Omega
+$$
 
 Thevenin equivalent: $V_{\text{Th}} = 15\,\text{V}$, $R_{\text{Th}} = 3.75\,\Omega$.
 
 (b) Current through $R_3$:
 
-$$I_3 = \frac{V_{\text{Th}}}{R_{\text{Th}} + R_3} = \frac{15}{3.75 + 15} = \frac{15}{18.75} = 0.800\,\text{A}$$
+$$
+I_3 = \frac{V_{\text{Th}}}{R_{\text{Th}} + R_3} = \frac{15}{3.75 + 15} = \frac{15}{18.75} = 0.800\,\text{A}
+$$
 
 (c) We need $I_3 \gt 0.8\,\text{A}$:
 
@@ -357,7 +387,9 @@ percentage does each measurement differ from the ideal value?
 
 (b) With ammeter in series: total resistance $= R + R_A = 47.5\,\Omega$
 
-$$I_{\text{measured}} = 9.0/47.5 = 0.1895\,\text{A}$$
+$$
+I_{\text{measured}} = 9.0/47.5 = 0.1895\,\text{A}
+$$
 
 Percentage error: $\frac{0.1915 - 0.1895}{0.1915} \times 100 = 1.04\%$
 
@@ -369,9 +401,13 @@ $R \parallel R_V = \frac{47 \times 5000}{47 + 5000} = \frac{235000}{5047} = 46.5
 The voltmeter draws current, reducing the voltage across $R$. With an ideal supply (negligible
 internal resistance) and only the parallel combination as the load:
 
-$$V_{\text{across } R \parallel R_V} = 9.0\,\text{V}$$
+$$
+V_{\text{across } R \parallel R_V} = 9.0\,\text{V}
+$$
 
-$$I_{\text{total}} = 9.0/46.56 = 0.1933\,\text{A}$$
+$$
+I_{\text{total}} = 9.0/46.56 = 0.1933\,\text{A}
+$$
 
 The voltmeter reads $9.0\,\text{V}$Which equals the ideal value. This is because with no other
 resistance in the circuit, the full supply voltage appears across the parallel combination
@@ -383,7 +419,9 @@ Without voltmeter: $V_R = 9.0 \times 47/(5 + 47) = 9.0 \times 47/52 = 8.134\,\te
 
 With voltmeter: total load $= 46.56\,\Omega$
 
-$$V_{\text{measured}} = 9.0 \times 46.56/(5 + 46.56) = 9.0 \times 46.56/51.56 = 8.127\,\text{V}$$
+$$
+V_{\text{measured}} = 9.0 \times 46.56/(5 + 46.56) = 9.0 \times 46.56/51.56 = 8.127\,\text{V}
+$$
 
 Percentage error: $(8.134 - 8.127)/8.134 \times 100 = 0.086\%$
 

@@ -44,7 +44,9 @@ Differences.
 
 To divide $P(x)$ by $(ax + b)$Perform polynomial long division (or synthetic division) to obtain:
 
-$$P(x) = (ax + b)Q(x) + R$$
+$$
+P(x) = (ax + b)Q(x) + R
+$$
 
 Where $Q(x)$ is the quotient and $R$ is a constant remainder.
 
@@ -54,13 +56,19 @@ Where $Q(x)$ is the quotient and $R$ is a constant remainder.
 
 Let $P(x)$ be divided by $(x - c)$:
 
-$$P(x) = (x - c)Q(x) + R$$
+$$
+P(x) = (x - c)Q(x) + R
+$$
 
 For some polynomial $Q(x)$ and constant $R$. Setting $x = c$:
 
-$$P(c) = (c - c)Q(c) + R = 0 + R = R$$
+$$
+P(c) = (c - c)Q(c) + R = 0 + R = R
+$$
 
-$$\boxed{P(c) = R}$$
+$$
+\boxed{P(c) = R}
+$$
 
 $\square$
 
@@ -105,7 +113,9 @@ $\Delta = c^2 - 4d < 0$.
 
 ### 2.1 Type 1: Linear times irreducible quadratic
 
-$$\boxed{\frac{px + q}{(ax + b)(x^2 + cx + d)} = \frac{A}{ax + b} + \frac{Bx + C}{x^2 + cx + d}}$$
+$$
+\boxed{\frac{px + q}{(ax + b)(x^2 + cx + d)} = \frac{A}{ax + b} + \frac{Bx + C}{x^2 + cx + d}}
+$$
 
 The numerator of the irreducible quadratic factor is always linear ($Bx + C$), not just a constant.
 
@@ -114,9 +124,13 @@ The numerator of the irreducible quadratic factor is always linear ($Bx + C$), n
 
 Express $\dfrac{3x + 5}{(x + 1)(x^2 + 1)}$ in partial fractions.
 
-$$\frac{3x + 5}{(x + 1)(x^2 + 1)} = \frac{A}{x + 1} + \frac{Bx + C}{x^2 + 1}$$
+$$
+\frac{3x + 5}{(x + 1)(x^2 + 1)} = \frac{A}{x + 1} + \frac{Bx + C}{x^2 + 1}
+$$
 
-$$3x + 5 = A(x^2 + 1) + (Bx + C)(x + 1)$$
+$$
+3x + 5 = A(x^2 + 1) + (Bx + C)(x + 1)
+$$
 
 Setting $x = -1$: $3(-1) + 5 = A(2) \implies A = 1$.
 
@@ -124,20 +138,26 @@ Setting $x = 0$: $5 = A + C \implies C = 4$.
 
 Setting $x = 1$: $8 = 2A + (B + C)(2) = 2 + 2(B + 4) \implies 2B + 10 = 6 \implies B = -2$.
 
-$$\frac{3x + 5}{(x + 1)(x^2 + 1)} = \frac{1}{x + 1} + \frac{-2x + 4}{x^2 + 1}$$
+$$
+\frac{3x + 5}{(x + 1)(x^2 + 1)} = \frac{1}{x + 1} + \frac{-2x + 4}{x^2 + 1}
+$$
 
 </details>
 
 ### 2.2 Type 2: Repeated irreducible quadratic
 
-$$\boxed{\frac{px^2 + qx + r}{(x^2 + a)^2} = \frac{Ax + B}{x^2 + a} + \frac{Cx + D}{(x^2 + a)^2}}$$
+$$
+\boxed{\frac{px^2 + qx + r}{(x^2 + a)^2} = \frac{Ax + B}{x^2 + a} + \frac{Cx + D}{(x^2 + a)^2}}
+$$
 
 When the irreducible quadratic is repeated, the numerators follow the same pattern as repeated
 Linear factors.
 
 ### 2.3 Type 3: Distinct irreducible quadratics
 
-$$\boxed{\frac{px^2 + qx + r}{(x^2 + cx + d)(x^2 + ex + f)} = \frac{Ax + B}{x^2 + cx + d} + \frac{Cx + D}{x^2 + ex + f}}$$
+$$
+\boxed{\frac{px^2 + qx + r}{(x^2 + cx + d)(x^2 + ex + f)} = \frac{Ax + B}{x^2 + cx + d} + \frac{Cx + D}{x^2 + ex + f}}
+$$
 
 Each distinct irreducible quadratic factor contributes a linear numerator.
 
@@ -146,9 +166,13 @@ Each distinct irreducible quadratic factor contributes a linear numerator.
 
 Express $\dfrac{x^2 + 1}{(x^2 + 4)^2}$ in partial fractions.
 
-$$\frac{x^2 + 1}{(x^2 + 4)^2} = \frac{Ax + B}{x^2 + 4} + \frac{Cx + D}{(x^2 + 4)^2}$$
+$$
+\frac{x^2 + 1}{(x^2 + 4)^2} = \frac{Ax + B}{x^2 + 4} + \frac{Cx + D}{(x^2 + 4)^2}
+$$
 
-$$x^2 + 1 = (Ax + B)(x^2 + 4) + Cx + D = Ax^3 + Bx^2 + 4Ax + 4B + Cx + D$$
+$$
+x^2 + 1 = (Ax + B)(x^2 + 4) + Cx + D = Ax^3 + Bx^2 + 4Ax + 4B + Cx + D
+$$
 
 Comparing coefficients:
 
@@ -157,7 +181,9 @@ Comparing coefficients:
 - $x^1$: $4A + C = 0 \implies C = 0$
 - $x^0$: $4B + D = 1 \implies 4 + D = 1 \implies D = -3$
 
-$$\frac{x^2 + 1}{(x^2 + 4)^2} = \frac{1}{x^2 + 4} - \frac{3}{(x^2 + 4)^2}$$
+$$
+\frac{x^2 + 1}{(x^2 + 4)^2} = \frac{1}{x^2 + 4} - \frac{3}{(x^2 + 4)^2}
+$$
 
 </details>
 
@@ -172,11 +198,17 @@ If $P(x) = ax^3 + bx^2 + cx + d = a(x - \alpha)(x - \beta)(x - \gamma)$ where $\
 \gamma$
 Are the roots, then:
 
-$$\boxed{\alpha + \beta + \gamma = -\frac{b}{a}}$$
+$$
+\boxed{\alpha + \beta + \gamma = -\frac{b}{a}}
+$$
 
-$$\boxed{\alpha\beta + \alpha\gamma + \beta\gamma = \frac{c}{a}}$$
+$$
+\boxed{\alpha\beta + \alpha\gamma + \beta\gamma = \frac{c}{a}}
+$$
 
-$$\boxed{\alpha\beta\gamma = -\frac{d}{a}}$$
+$$
+\boxed{\alpha\beta\gamma = -\frac{d}{a}}
+$$
 
 ### Proof of the relationship between roots and coefficients for a cubic
 
@@ -186,9 +218,13 @@ Let $P(x) = ax^3 + bx^2 + cx + d = a(x - \alpha)(x - \beta)(x - \gamma)$.
 
 Expanding the RHS:
 
-$$a[(x - \alpha)(x - \beta)(x - \gamma)] = a[x^3 - (\alpha + \beta + \gamma)x^2 + (\alpha\beta + \alpha\gamma + \beta\gamma)x - \alpha\beta\gamma]$$
+$$
+a[(x - \alpha)(x - \beta)(x - \gamma)] = a[x^3 - (\alpha + \beta + \gamma)x^2 + (\alpha\beta + \alpha\gamma + \beta\gamma)x - \alpha\beta\gamma]
+$$
 
-$$= ax^3 - a(\alpha + \beta + \gamma)x^2 + a(\alpha\beta + \alpha\gamma + \beta\gamma)x - a\alpha\beta\gamma$$
+$$
+= ax^3 - a(\alpha + \beta + \gamma)x^2 + a(\alpha\beta + \alpha\gamma + \beta\gamma)x - a\alpha\beta\gamma
+$$
 
 Comparing coefficients with $ax^3 + bx^2 + cx + d$:
 
@@ -203,13 +239,21 @@ $\square$
 
 For $P(x) = ax^4 + bx^3 + cx^2 + dx + e = a(x - \alpha)(x - \beta)(x - \gamma)(x - \delta)$:
 
-$$\boxed{\sum\alpha = \alpha + \beta + \gamma + \delta = -\frac{b}{a}}$$
+$$
+\boxed{\sum\alpha = \alpha + \beta + \gamma + \delta = -\frac{b}{a}}
+$$
 
-$$\boxed{\sum\alpha\beta = \alpha\beta + \alpha\gamma + \alpha\delta + \beta\gamma + \beta\delta + \gamma\delta = \frac{c}{a}}$$
+$$
+\boxed{\sum\alpha\beta = \alpha\beta + \alpha\gamma + \alpha\delta + \beta\gamma + \beta\delta + \gamma\delta = \frac{c}{a}}
+$$
 
-$$\boxed{\sum\alpha\beta\gamma = -\frac{d}{a}}$$
+$$
+\boxed{\sum\alpha\beta\gamma = -\frac{d}{a}}
+$$
 
-$$\boxed{\alpha\beta\gamma\delta = \frac{e}{a}}$$
+$$
+\boxed{\alpha\beta\gamma\delta = \frac{e}{a}}
+$$
 
 ### 3.3 Symmetric functions of roots
 
@@ -228,7 +272,9 @@ $\alpha^2 + \beta^2 + \gamma^2$.
 From the relationships: $\alpha + \beta + \gamma = \dfrac{3}{2}$ and
 $\alpha\beta + \alpha\gamma + \beta\gamma = \dfrac{-4}{2} = -2$.
 
-$$\alpha^2 + \beta^2 + \gamma^2 = \left(\frac{3}{2}\right)^2 - 2(-2) = \frac{9}{4} + 4 = \frac{25}{4}$$
+$$
+\alpha^2 + \beta^2 + \gamma^2 = \left(\frac{3}{2}\right)^2 - 2(-2) = \frac{9}{4} + 4 = \frac{25}{4}
+$$
 
 </details>
 
@@ -240,17 +286,25 @@ $$\alpha^2 + \beta^2 + \gamma^2 = \left(\frac{3}{2}\right)^2 - 2(-2) = \frac{9}{
 
 The following summation formulae are essential:
 
-$$\boxed{\sum_{r=1}^{n} r = \frac{n(n+1)}{2}}$$
+$$
+\boxed{\sum_{r=1}^{n} r = \frac{n(n+1)}{2}}
+$$
 
-$$\boxed{\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}}$$
+$$
+\boxed{\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}}
+$$
 
-$$\boxed{\sum_{r=1}^{n} r^3 = \left[\frac{n(n+1)}{2}\right]^2}$$
+$$
+\boxed{\sum_{r=1}^{n} r^3 = \left[\frac{n(n+1)}{2}\right]^2}
+$$
 
 ### 4.2 The method of differences
 
 To find $\displaystyle\sum_{r=1}^{n} f(r)$ where $f(r)$ can be written as $g(r) - g(r+1)$:
 
-$$\sum_{r=1}^{n} f(r) = \sum_{r=1}^{n} [g(r) - g(r+1)] = g(1) - g(n+1)$$
+$$
+\sum_{r=1}^{n} f(r) = \sum_{r=1}^{n} [g(r) - g(r+1)] = g(1) - g(n+1)
+$$
 
 This is a _telescoping sum_, all intermediate terms cancel.
 
@@ -262,23 +316,35 @@ Note that $r^3 - (r-1)^3 = 3r^2 - 3r + 1$ So $r^2 = \dfrac{r^3 - (r-1)^3 + 3r - 
 
 Summing from $r = 1$ to $n$:
 
-$$\sum_{r=1}^{n} r^2 = \frac{1}{3}\sum_{r=1}^{n}[r^3 - (r-1)^3] + \sum_{r=1}^{n} r - \frac{n}{3}$$
+$$
+\sum_{r=1}^{n} r^2 = \frac{1}{3}\sum_{r=1}^{n}[r^3 - (r-1)^3] + \sum_{r=1}^{n} r - \frac{n}{3}
+$$
 
 The first sum telescopes: $\sum_{r=1}^{n}[r^3 - (r-1)^3] = n^3 - 0 = n^3$.
 
-$$\sum_{r=1}^{n} r^2 = \frac{n^3}{3} + \frac{n(n+1)}{2} - \frac{n}{3} = \frac{2n^3 + 3n^2 + 3n + 2n^2 + 2n - 2n}{6} \cdot \frac{1}{1}$$
+$$
+\sum_{r=1}^{n} r^2 = \frac{n^3}{3} + \frac{n(n+1)}{2} - \frac{n}{3} = \frac{2n^3 + 3n^2 + 3n + 2n^2 + 2n - 2n}{6} \cdot \frac{1}{1}
+$$
 
 More carefully:
 
-$$\sum_{r=1}^{n} r^2 = \frac{n^3}{3} + \frac{n(n+1)}{2} - \frac{n}{3} = \frac{2n^3 + 3n(n+1) - 2n}{6} = \frac{2n^3 + 3n^2 + 3n - 2n}{6}$$
+$$
+\sum_{r=1}^{n} r^2 = \frac{n^3}{3} + \frac{n(n+1)}{2} - \frac{n}{3} = \frac{2n^3 + 3n(n+1) - 2n}{6} = \frac{2n^3 + 3n^2 + 3n - 2n}{6}
+$$
 
-$$= \frac{2n^3 + 3n^2 + n}{6} = \frac{n(2n^2 + 3n + 1)}{6} = \frac{n(n+1)(2n+1)}{6} \quad \square$$
+$$
+= \frac{2n^3 + 3n^2 + n}{6} = \frac{n(2n^2 + 3n + 1)}{6} = \frac{n(n+1)(2n+1)}{6} \quad \square
+$$
 
 ### 4.3 Further standard results
 
-$$\boxed{\sum_{r=1}^{n} r(r+1) = \frac{n(n+1)(n+2)}{3}}$$
+$$
+\boxed{\sum_{r=1}^{n} r(r+1) = \frac{n(n+1)(n+2)}{3}}
+$$
 
-$$\boxed{\sum_{r=1}^{n} r(r+1)(r+2) = \frac{n(n+1)(n+2)(n+3)}{4}}$$
+$$
+\boxed{\sum_{r=1}^{n} r(r+1)(r+2) = \frac{n(n+1)(n+2)(n+3)}{4}}
+$$
 
 $\displaystyle\sum_{r=1}^{n} \binom{r+k}{k+1} = \binom{n+k+1}{k+2}$.
 
@@ -298,9 +364,13 @@ Find $\displaystyle\sum_{r=1}^{n} \frac{1}{r(r+1)}$.
 
 Using partial fractions: $\dfrac{1}{r(r+1)} = \dfrac{1}{r} - \dfrac{1}{r+1}$.
 
-$$\sum_{r=1}^{n}\left(\frac{1}{r} - \frac{1}{r+1}\right) = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right)$$
+$$
+\sum_{r=1}^{n}\left(\frac{1}{r} - \frac{1}{r+1}\right) = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right)
+$$
 
-$$= 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
+$$
+= 1 - \frac{1}{n+1} = \frac{n}{n+1}
+$$
 
 </details>
 
@@ -311,11 +381,15 @@ Find $\displaystyle\sum_{r=1}^{n} \frac{1}{r(r+2)}$.
 
 Partial fractions: $\dfrac{1}{r(r+2)} = \dfrac{1}{2}\!\left(\dfrac{1}{r} - \dfrac{1}{r+2}\right)$.
 
-$$\frac{1}{2}\sum_{r=1}^{n}\left(\frac{1}{r} - \frac{1}{r+2}\right) = \frac{1}{2}\left[\left(1 - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+2}\right)\right]$$
+$$
+\frac{1}{2}\sum_{r=1}^{n}\left(\frac{1}{r} - \frac{1}{r+2}\right) = \frac{1}{2}\left[\left(1 - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+2}\right)\right]
+$$
 
 Terms cancel in pairs. The surviving terms are $1 + \dfrac{1}{2} - \dfrac{1}{n+1} - \dfrac{1}{n+2}$.
 
-$$= \frac{1}{2}\left(\frac{3}{2} - \frac{1}{n+1} - \frac{1}{n+2}\right) = \frac{3}{4} - \frac{2n+3}{2(n+1)(n+2)}$$
+$$
+= \frac{1}{2}\left(\frac{3}{2} - \frac{1}{n+1} - \frac{1}{n+2}\right) = \frac{3}{4} - \frac{2n+3}{2(n+1)(n+2)}
+$$
 
 </details>
 
@@ -323,7 +397,9 @@ $$= \frac{1}{2}\left(\frac{3}{2} - \frac{1}{n+1} - \frac{1}{n+2}\right) = \frac{
 
 To find $\displaystyle\sum_{r=1}^{n} r \cdot a_r$ where $a_r = f(r) - f(r-1)$:
 
-$$\sum_{r=1}^{n} r \cdot a_r = \sum_{r=1}^{n} r[f(r) - f(r-1)] = nf(n) - \sum_{r=0}^{n-1} f(r)$$
+$$
+\sum_{r=1}^{n} r \cdot a_r = \sum_{r=1}^{n} r[f(r) - f(r-1)] = nf(n) - \sum_{r=0}^{n-1} f(r)
+$$
 
 This is known as the _summation by parts_ technique.
 
@@ -339,7 +415,9 @@ _Base case ($n = 1$):_ $\displaystyle\sum_{r=1}^{1} r = 1 = \frac{1 \times 2}{2}
 
 _Inductive step._ Assume $\displaystyle\sum_{r=1}^{k} r = \frac{k(k+1)}{2}$. Then:
 
-$$\sum_{r=1}^{k+1} r = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}$$
+$$
+\sum_{r=1}^{k+1} r = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}
+$$
 
 ✓ $\square$
 
@@ -351,9 +429,13 @@ _Base case ($n = 1$):_ $1^3 = 1 = \left[\dfrac{1 \times 2}{2}\right]^2 = 1$. ✓
 
 _Inductive step._ Assume $\displaystyle\sum_{r=1}^{k} r^3 = \left[\frac{k(k+1)}{2}\right]^2$. Then:
 
-$$\sum_{r=1}^{k+1} r^3 = \left[\frac{k(k+1)}{2}\right]^2 + (k+1)^3 = \frac{k^2(k+1)^2}{4} + \frac{4(k+1)^3}{4}$$
+$$
+\sum_{r=1}^{k+1} r^3 = \left[\frac{k(k+1)}{2}\right]^2 + (k+1)^3 = \frac{k^2(k+1)^2}{4} + \frac{4(k+1)^3}{4}
+$$
 
-$$= \frac{(k+1)^2[k^2 + 4(k+1)]}{4} = \frac{(k+1)^2(k+2)^2}{4} = \left[\frac{(k+1)(k+2)}{2}\right]^2$$
+$$
+= \frac{(k+1)^2[k^2 + 4(k+1)]}{4} = \frac{(k+1)^2(k+2)^2}{4} = \left[\frac{(k+1)(k+2)}{2}\right]^2
+$$
 
 ✓ $\square$
 
@@ -365,15 +447,25 @@ Differences. AQA covers summation in the context of mathematical induction.
 
 ## 7. Summary of Key Results
 
-$$\boxed{P(c) = R \quad \mathrm{(Remainder Theorem)}}$$
+$$
+\boxed{P(c) = R \quad \mathrm{(Remainder Theorem)}}
+$$
 
-$$\boxed{\frac{px + q}{(ax + b)(x^2 + cx + d)} = \frac{A}{ax + b} + \frac{Bx + C}{x^2 + cx + d}}$$
+$$
+\boxed{\frac{px + q}{(ax + b)(x^2 + cx + d)} = \frac{A}{ax + b} + \frac{Bx + C}{x^2 + cx + d}}
+$$
 
-$$\boxed{\alpha + \beta + \gamma = -\frac{b}{a}, \quad \alpha\beta + \alpha\gamma + \beta\gamma = \frac{c}{a}, \quad \alpha\beta\gamma = -\frac{d}{a}}$$
+$$
+\boxed{\alpha + \beta + \gamma = -\frac{b}{a}, \quad \alpha\beta + \alpha\gamma + \beta\gamma = \frac{c}{a}, \quad \alpha\beta\gamma = -\frac{d}{a}}
+$$
 
-$$\boxed{\sum_{r=1}^{n} r = \frac{n(n+1)}{2}, \quad \sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}, \quad \sum_{r=1}^{n} r^3 = \left[\frac{n(n+1)}{2}\right]^2}$$
+$$
+\boxed{\sum_{r=1}^{n} r = \frac{n(n+1)}{2}, \quad \sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}, \quad \sum_{r=1}^{n} r^3 = \left[\frac{n(n+1)}{2}\right]^2}
+$$
 
-$$\boxed{\sum_{r=1}^{n} [g(r) - g(r+1)] = g(1) - g(n+1)}$$
+$$
+\boxed{\sum_{r=1}^{n} [g(r) - g(r+1)] = g(1) - g(n+1)}
+$$
 
 <hr />
 
@@ -392,7 +484,9 @@ $\dfrac{A}{x+2} + \dfrac{Bx + C}{x^2 + 2x + 5}$.
 <details>
 <summary>Answer</summary>
 
-$$\frac{2x^2 + 3x + 4}{(x + 2)(x^2 + 2x + 5)} = \frac{A}{x + 2} + \frac{Bx + C}{x^2 + 2x + 5}$$
+$$
+\frac{2x^2 + 3x + 4}{(x + 2)(x^2 + 2x + 5)} = \frac{A}{x + 2} + \frac{Bx + C}{x^2 + 2x + 5}
+$$
 
 $2x^2 + 3x + 4 = A(x^2 + 2x + 5) + (Bx + C)(x + 2)$
 
@@ -402,7 +496,9 @@ Setting $x = 0$: $4 = 5A + 2C = 6 + 2C \implies C = -1$.
 
 Setting $x = 1$: $2 + 3 + 4 = 5A + (B - 1)(3) = 6 + 3B - 3 \implies 9 = 3 + 3B \implies B = 2$.
 
-$$\frac{2x^2 + 3x + 4}{(x + 2)(x^2 + 2x + 5)} = \frac{6/5}{x + 2} + \frac{2x - 1}{x^2 + 2x + 5}$$
+$$
+\frac{2x^2 + 3x + 4}{(x + 2)(x^2 + 2x + 5)} = \frac{6/5}{x + 2} + \frac{2x - 1}{x^2 + 2x + 5}
+$$
 
 </details>
 
@@ -424,7 +520,9 @@ $\dfrac{1}{\alpha\beta} + \dfrac{1}{\alpha\gamma} + \dfrac{1}{\beta\gamma} = \df
 
 $\alpha + \beta + \gamma = \dfrac{-(-4)}{1} = 4$ and $\alpha\beta\gamma = \dfrac{-6}{1} = -6$.
 
-$$\frac{1}{\alpha\beta} + \frac{1}{\alpha\gamma} + \frac{1}{\beta\gamma} = \frac{\alpha + \beta + \gamma}{\alpha\beta\gamma} = \frac{4}{-6} = -\frac{2}{3}$$
+$$
+\frac{1}{\alpha\beta} + \frac{1}{\alpha\gamma} + \frac{1}{\beta\gamma} = \frac{\alpha + \beta + \gamma}{\alpha\beta\gamma} = \frac{4}{-6} = -\frac{2}{3}
+$$
 
 </details>
 
@@ -443,7 +541,9 @@ $\dfrac{Ax + B}{x^2 + 1} + \dfrac{Cx + D}{x^2 + 4}$.
 <details>
 <summary>Answer</summary>
 
-$$\frac{3x + 1}{(x^2 + 1)(x^2 + 4)} = \frac{Ax + B}{x^2 + 1} + \frac{Cx + D}{x^2 + 4}$$
+$$
+\frac{3x + 1}{(x^2 + 1)(x^2 + 4)} = \frac{Ax + B}{x^2 + 1} + \frac{Cx + D}{x^2 + 4}
+$$
 
 $3x + 1 = (Ax + B)(x^2 + 4) + (Cx + D)(x^2 + 1)$
 
@@ -460,7 +560,9 @@ From $A + C = 0$ and $4A + C = 3$: $3A = 3 \implies A = 1, C = -1$.
 
 From $B + D = 0$ and $4B + D = 1$: $3B = 1 \implies B = \dfrac{1}{3}, D = -\dfrac{1}{3}$.
 
-$$\frac{3x + 1}{(x^2 + 1)(x^2 + 4)} = \frac{x + 1/3}{x^2 + 1} + \frac{-x - 1/3}{x^2 + 4}$$
+$$
+\frac{3x + 1}{(x^2 + 1)(x^2 + 4)} = \frac{x + 1/3}{x^2 + 1} + \frac{-x - 1/3}{x^2 + 4}
+$$
 
 </details>
 
@@ -484,9 +586,13 @@ $\dfrac{2}{r(r+1)(r+2)} = \dfrac{1}{r(r+1)} - \dfrac{1}{(r+1)(r+2)}$.
 
 This telescopes:
 
-$$\sum_{r=1}^{n}\left[\frac{1}{r(r+1)} - \frac{1}{(r+1)(r+2)}\right] = \frac{1}{1 \times 2} - \frac{1}{(n+1)(n+2)}$$
+$$
+\sum_{r=1}^{n}\left[\frac{1}{r(r+1)} - \frac{1}{(r+1)(r+2)}\right] = \frac{1}{1 \times 2} - \frac{1}{(n+1)(n+2)}
+$$
 
-$$= \frac{1}{2} - \frac{1}{(n+1)(n+2)}$$
+$$
+= \frac{1}{2} - \frac{1}{(n+1)(n+2)}
+$$
 
 </details>
 
@@ -544,12 +650,16 @@ The telescoping.
 <details>
 <summary>Answer</summary>
 
-$$\frac{1}{3}\sum_{r=1}^{n}\left(\frac{1}{r} - \frac{1}{r+3}\right) = \frac{1}{3}\left[\left(1 - \frac{1}{4}\right) + \left(\frac{1}{2} - \frac{1}{5}\right) + \left(\frac{1}{3} - \frac{1}{6}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+3}\right)\right]$$
+$$
+\frac{1}{3}\sum_{r=1}^{n}\left(\frac{1}{r} - \frac{1}{r+3}\right) = \frac{1}{3}\left[\left(1 - \frac{1}{4}\right) + \left(\frac{1}{2} - \frac{1}{5}\right) + \left(\frac{1}{3} - \frac{1}{6}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+3}\right)\right]
+$$
 
 The surviving terms are
 $\dfrac{1}{1} + \dfrac{1}{2} + \dfrac{1}{3} - \dfrac{1}{n+1} - \dfrac{1}{n+2} - \dfrac{1}{n+3}$.
 
-$$= \frac{1}{3}\left(\frac{11}{6} - \frac{1}{n+1} - \frac{1}{n+2} - \frac{1}{n+3}\right) = \frac{11}{18} - \frac{1}{3}\!\left(\frac{1}{n+1} + \frac{1}{n+2} + \frac{1}{n+3}\right)$$
+$$
+= \frac{1}{3}\left(\frac{11}{6} - \frac{1}{n+1} - \frac{1}{n+2} - \frac{1}{n+3}\right) = \frac{11}{18} - \frac{1}{3}\!\left(\frac{1}{n+1} + \frac{1}{n+2} + \frac{1}{n+3}\right)
+$$
 
 </details>
 
@@ -603,9 +713,13 @@ _Base case ($n = 1$):_ $1 \times 2 = 2 = \dfrac{1 \times 2 \times 3}{3} = 2$. �
 
 _Inductive step._ Assume $\displaystyle\sum_{r=1}^{k} r(r+1) = \frac{k(k+1)(k+2)}{3}$. Then:
 
-$$\sum_{r=1}^{k+1} r(r+1) = \frac{k(k+1)(k+2)}{3} + (k+1)(k+2)$$
+$$
+\sum_{r=1}^{k+1} r(r+1) = \frac{k(k+1)(k+2)}{3} + (k+1)(k+2)
+$$
 
-$$= \frac{(k+1)(k+2)[k + 3]}{3} = \frac{(k+1)(k+2)(k+3)}{3}$$
+$$
+= \frac{(k+1)(k+2)[k + 3]}{3} = \frac{(k+1)(k+2)(k+3)}{3}
+$$
 
 ✓ $\square$
 
@@ -625,9 +739,13 @@ Use the form $\dfrac{Ax + B}{x^2 + 2x + 3} + \dfrac{Cx + D}{(x^2 + 2x + 3)^2}$.
 <details>
 <summary>Answer</summary>
 
-$$x^2 + 3x + 2 = (Ax + B)(x^2 + 2x + 3) + Cx + D$$
+$$
+x^2 + 3x + 2 = (Ax + B)(x^2 + 2x + 3) + Cx + D
+$$
 
-$$= Ax^3 + (2A + B)x^2 + (3A + 2B + C)x + (3B + D)$$
+$$
+= Ax^3 + (2A + B)x^2 + (3A + 2B + C)x + (3B + D)
+$$
 
 Comparing coefficients:
 
@@ -636,7 +754,9 @@ Comparing coefficients:
 - $x^1$: $2 + C = 3 \implies C = 1$
 - $x^0$: $3 + D = 2 \implies D = -1$
 
-$$\frac{x^2 + 3x + 2}{(x^2 + 2x + 3)^2} = \frac{1}{x^2 + 2x + 3} + \frac{x - 1}{(x^2 + 2x + 3)^2}$$
+$$
+\frac{x^2 + 3x + 2}{(x^2 + 2x + 3)^2} = \frac{1}{x^2 + 2x + 3} + \frac{x - 1}{(x^2 + 2x + 3)^2}
+$$
 
 </details>
 
@@ -691,13 +811,19 @@ The term in $x^4$.
 
 **Solution.** Using the general binomial expansion for $|x| < \dfrac{1}{2}$:
 
-$$(1+y)^n = 1 + ny + \frac{n(n-1)}{2!}y^2 + \frac{n(n-1)(n-2)}{3!}y^3 + \frac{n(n-1)(n-2)(n-3)}{4!}y^4 + \cdots$$
+$$
+(1+y)^n = 1 + ny + \frac{n(n-1)}{2!}y^2 + \frac{n(n-1)(n-2)}{3!}y^3 + \frac{n(n-1)(n-2)(n-3)}{4!}y^4 + \cdots
+$$
 
 With $n = -\dfrac{1}{2}$ and $y = -2x$:
 
-$$(1-2x)^{-1/2} = 1 + \left(-\frac{1}{2}\right)(-2x) + \frac{\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)}{2}(-2x)^2 + \cdots$$
+$$
+(1-2x)^{-1/2} = 1 + \left(-\frac{1}{2}\right)(-2x) + \frac{\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)}{2}(-2x)^2 + \cdots
+$$
 
-$$= 1 + x + \frac{3}{8}(4x^2) + \cdots = 1 + x + \frac{3}{2}x^2 + \cdots$$
+$$
+= 1 + x + \frac{3}{8}(4x^2) + \cdots = 1 + x + \frac{3}{2}x^2 + \cdots
+$$
 
 The $x^4$ coefficient:
 $\dfrac{\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)\left(-\frac{5}{2}\right)\left(-\frac{7}{2}\right)}{24}(16) = \dfrac{105}{16} \cdot \dfrac{16}{24} = \dfrac{105}{24} = \boxed{\dfrac{35}{8}}$.
@@ -710,7 +836,9 @@ Value of $\alpha^2 + \beta^2 + \gamma^2$.
 **Solution.** By Vieta's formulae: $\alpha + \beta + \gamma = 3$ and
 $\alpha\beta + \beta\gamma + \gamma\alpha = 0$.
 
-$$\alpha^2 + \beta^2 + \gamma^2 = (\alpha+\beta+\gamma)^2 - 2(\alpha\beta+\beta\gamma+\gamma\alpha) = 9 - 0 = \boxed{9}$$
+$$
+\alpha^2 + \beta^2 + \gamma^2 = (\alpha+\beta+\gamma)^2 - 2(\alpha\beta+\beta\gamma+\gamma\alpha) = 9 - 0 = \boxed{9}
+$$
 
 ### Example 8.3: Telescoping series via partial fractions
 
@@ -719,7 +847,9 @@ $\displaystyle\sum_{r=1}^{\infty} \frac{1}{r(r+1)}$.
 
 **Solution.** $\dfrac{1}{r(r+1)} = \dfrac{1}{r} - \dfrac{1}{r+1}$.
 
-$$\sum_{r=1}^{n} \frac{1}{r(r+1)} = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
+$$
+\sum_{r=1}^{n} \frac{1}{r(r+1)} = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{n+1} = \frac{n}{n+1}
+$$
 
 As $n \to \infty$: $\displaystyle\sum_{r=1}^{\infty} \frac{1}{r(r+1)} = \boxed{1}$.
 
@@ -734,9 +864,13 @@ As $n \to \infty$: $\displaystyle\sum_{r=1}^{\infty} \frac{1}{r(r+1)} = \boxed{1
 
 **Inductive step:** $\displaystyle\sum_{r=1}^{k+1} r^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2$
 
-$$= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6} = \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}$$
+$$
+= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6} = \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}
+$$
 
-$$= \frac{(k+1)(2k^2 + k + 6k + 6)}{6} = \frac{(k+1)(2k^2 + 7k + 6)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}$$
+$$
+= \frac{(k+1)(2k^2 + k + 6k + 6)}{6} = \frac{(k+1)(2k^2 + 7k + 6)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}
+$$
 
 This is the required form with $n = k+1$. $\blacksquare$
 
@@ -747,9 +881,13 @@ This is the required form with $n = k+1$. $\blacksquare$
 **Solution.**
 $\dfrac{1}{(2r-1)(2r+1)} = \dfrac{1}{2}\!\left(\dfrac{1}{2r-1} - \dfrac{1}{2r+1}\right)$.
 
-$$\sum_{r=1}^{n} \frac{1}{(2r-1)(2r+1)} = \frac{1}{2}\left[\left(\frac{1}{1} - \frac{1}{3}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{2n-1} - \frac{1}{2n+1}\right)\right]$$
+$$
+\sum_{r=1}^{n} \frac{1}{(2r-1)(2r+1)} = \frac{1}{2}\left[\left(\frac{1}{1} - \frac{1}{3}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{2n-1} - \frac{1}{2n+1}\right)\right]
+$$
 
-$$= \frac{1}{2}\left(1 - \frac{1}{2n+1}\right) = \boxed{\frac{n}{2n+1}}$$
+$$
+= \frac{1}{2}\left(1 - \frac{1}{2n+1}\right) = \boxed{\frac{n}{2n+1}}
+$$
 
 ### Example 8.6: Manipulating series with a given recurrence
 
@@ -763,7 +901,9 @@ Let $v_n = \dfrac{1}{u_n}$. Then $v_{n+1} = 1 + v_n$ So $v_n = v_1 + (n-1)$.
 
 Since $v_1 = \dfrac{1}{u_1} = 1$: $v_n = n$ So $u_n = \dfrac{1}{n}$.
 
-$$\sum_{r=1}^{n} u_r = \sum_{r=1}^{n} \frac{1}{r} = H_n$$
+$$
+\sum_{r=1}^{n} u_r = \sum_{r=1}^{n} \frac{1}{r} = H_n
+$$
 
 The $n$-th harmonic number. No simpler closed form exists.
 
@@ -773,7 +913,9 @@ The $n$-th harmonic number. No simpler closed form exists.
 
 **Solution.** In matrix form $\mathbf{M}\mathbf{x} = \mathbf{b}$:
 
-$$\mathbf{M} = \begin{pmatrix}1&2&-1\\2&-1&1\\3&1&2\end{pmatrix}$$
+$$
+\mathbf{M} = \begin{pmatrix}1&2&-1\\2&-1&1\\3&1&2\end{pmatrix}
+$$
 
 $\det(\mathbf{M}) = 1(2-1) - 2(4-3) + (-1)(2+3) = 1 - 2 - 5 = -6 \neq 0$ So the system has a unique
 Solution.
@@ -886,13 +1028,19 @@ Find $\displaystyle\sum_{r=1}^{n} \frac{2}{r(r+2)}$.
 
 $\dfrac{2}{r(r+2)} = \dfrac{1}{r} - \dfrac{1}{r+2}$.
 
-$$\sum_{r=1}^{n} \frac{2}{r(r+2)} = \left(1 - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+2}\right)$$
+$$
+\sum_{r=1}^{n} \frac{2}{r(r+2)} = \left(1 - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+2}\right)
+$$
 
 Terms $\dfrac{1}{3}$ to $\dfrac{1}{n}$ cancel, leaving:
 
-$$= 1 + \frac{1}{2} - \frac{1}{n+1} - \frac{1}{n+2} = \frac{3}{2} - \frac{2n+3}{(n+1)(n+2)} = \frac{3(n+1)(n+2) - 2(2n+3)}{2(n+1)(n+2)}$$
+$$
+= 1 + \frac{1}{2} - \frac{1}{n+1} - \frac{1}{n+2} = \frac{3}{2} - \frac{2n+3}{(n+1)(n+2)} = \frac{3(n+1)(n+2) - 2(2n+3)}{2(n+1)(n+2)}
+$$
 
-$$= \frac{3n^2 + 9n + 6 - 4n - 6}{2(n+1)(n+2)} = \boxed{\frac{3n^2 + 5n}{2(n+1)(n+2)}}$$
+$$
+= \frac{3n^2 + 9n + 6 - 4n - 6}{2(n+1)(n+2)} = \boxed{\frac{3n^2 + 5n}{2(n+1)(n+2)}}
+$$
 
 </details>
 
@@ -1077,7 +1225,9 @@ $\alpha^3 + \beta^3 + \gamma^3 = \boxed{-3q}$.
 
 For $|x| < 1$ and any real $n$:
 
-$$(1+x)^n = \sum_{k=0}^{\infty} \binom{n}{k}x^k = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots$$
+$$
+(1+x)^n = \sum_{k=0}^{\infty} \binom{n}{k}x^k = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots
+$$
 
 When $n$ is a positive integer, this terminates at $k = n$. Otherwise, it is an infinite series.
 
@@ -1085,7 +1235,9 @@ When $n$ is a positive integer, this terminates at $k = n$. Otherwise, it is an 
 
 Analogous to integration by parts:
 
-$$\sum_{r=a}^{b} u_r \Delta v_r = [u_r v_r]_a^{b+1} - \sum_{r=a}^{b} (\Delta u_r) v_{r+1}$$
+$$
+\sum_{r=a}^{b} u_r \Delta v_r = [u_r v_r]_a^{b+1} - \sum_{r=a}^{b} (\Delta u_r) v_{r+1}
+$$
 
 Where $\Delta f(r) = f(r+1) - f(r)$ is the forward difference operator.
 

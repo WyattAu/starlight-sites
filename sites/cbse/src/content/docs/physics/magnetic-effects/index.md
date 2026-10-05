@@ -67,11 +67,17 @@ Magnetic effects of current covers the magnetic field produced by electric curre
 
 Using the Biot-Savart law for a circular loop at its centre:
 
-$$B = \frac{\mu_0 I}{2R}$$
+$$
+B = \frac{\mu_0 I}{2R}
+$$
 
-$$B = \frac{4\pi \times 10^{-7} \times 2}{2 \times 0.1} = \frac{4\pi \times 10^{-7}}{0.1} = 4\pi \times 10^{-6} \, \text{T}$$
+$$
+B = \frac{4\pi \times 10^{-7} \times 2}{2 \times 0.1} = \frac{4\pi \times 10^{-7}}{0.1} = 4\pi \times 10^{-6} \, \text{T}
+$$
 
-$$B \approx 1.26 \times 10^{-5} \, \text{T}$$
+$$
+B \approx 1.26 \times 10^{-5} \, \text{T}
+$$
 
 **Common mistake:** Forgetting that for a coil of $N$ turns, the field is $B = \frac{\mu_0 N I}{2R}$.
 
@@ -81,9 +87,13 @@ $$B \approx 1.26 \times 10^{-5} \, \text{T}$$
 
 **Solution:**
 
-$$F = qvB\sin\theta = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times \sin 30^\circ$$
+$$
+F = qvB\sin\theta = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times \sin 30^\circ
+$$
 
-$$F = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times 0.5 = 1.6 \times 10^{-14} \, \text{N}$$
+$$
+F = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times 0.5 = 1.6 \times 10^{-14} \, \text{N}
+$$
 
 **Common mistake:** Forgetting the $\sin\theta$ factor. When $\theta = 0$ (velocity parallel to field), the force is zero.
 
@@ -95,13 +105,19 @@ $$F = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times 0.5 = 1.6 \time
 
 For an ideal long solenoid:
 
-$$B = \mu_0 n I$$
+$$
+B = \mu_0 n I
+$$
 
 where $n = 500$ turns/m:
 
-$$B = 4\pi \times 10^{-7} \times 500 \times 3 = 4\pi \times 10^{-7} \times 1500$$
+$$
+B = 4\pi \times 10^{-7} \times 500 \times 3 = 4\pi \times 10^{-7} \times 1500
+$$
 
-$$B = 6\pi \times 10^{-4} \approx 1.88 \times 10^{-3} \, \text{T}$$
+$$
+B = 6\pi \times 10^{-4} \approx 1.88 \times 10^{-3} \, \text{T}
+$$
 
 **Common mistake:** Confusing total turns $N$ with turns per unit length $n = N/L$.
 
@@ -113,11 +129,17 @@ $$B = 6\pi \times 10^{-4} \approx 1.88 \times 10^{-3} \, \text{T}$$
 
 The cyclotron frequency is:
 
-$$f = \frac{qB}{2\pi m}$$
+$$
+f = \frac{qB}{2\pi m}
+$$
 
-$$f = \frac{1.6 \times 10^{-19} \times 0.5}{2\pi \times 1.67 \times 10^{-27}}$$
+$$
+f = \frac{1.6 \times 10^{-19} \times 0.5}{2\pi \times 1.67 \times 10^{-27}}
+$$
 
-$$f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \, \text{Hz} \approx 7.62 \, \text{MHz}$$
+$$
+f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \, \text{Hz} \approx 7.62 \, \text{MHz}
+$$
 
 **Common mistake:** The cyclotron frequency is independent of the speed and radius of the particle. the answer varies based on only on the charge, mass, and magnetic field.
 

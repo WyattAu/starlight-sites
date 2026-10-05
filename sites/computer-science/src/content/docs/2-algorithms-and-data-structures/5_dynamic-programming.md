@@ -85,7 +85,9 @@ knapsack of capacity $W$Maximise the total value without exceeding the capacity.
 
 **Recurrence:**
 
-$$dp[i][c] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  c = 0 \\ dp[i-1][c] & \mathrm{if}  w_i > c \\ \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) & \mathrm{if}  w_i \leq c \end{cases}$$
+$$
+dp[i][c] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  c = 0 \\ dp[i-1][c] & \mathrm{if}  w_i > c \\ \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) & \mathrm{if}  w_i \leq c \end{cases}
+$$
 
 **Time:** $O(nW)$. **Space:** $O(nW)$ (can be reduced to $O(W)$ with 1D array).
 
@@ -124,7 +126,9 @@ insertions, deletions, and substitutions to transform $s$ into $t$.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}$$
+$$
+dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}
+$$
 
 Where the three cases in the minimum are: delete from $s$Insert into $s$Substitute in $s$.
 
@@ -162,7 +166,9 @@ multiplications.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = j \\ \min_{i \leq k < j} (dp[i][k] + dp[k+1][j] + p_{i-1} p_k p_j) & \mathrm{if}  i < j \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = j \\ \min_{i \leq k < j} (dp[i][k] + dp[k+1][j] + p_{i-1} p_k p_j) & \mathrm{if}  i < j \end{cases}
+$$
 
 **Time:** $O(n^3)$. **Space:** $O(n^2)$.
 
@@ -197,7 +203,9 @@ Minimum: $dp[1][3] = 4500$Split at $k=2$: $(A_1(A_2 A_3))$.
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  j = 0 \\ dp[i-1][j-1] + 1 & \mathrm{if}  x_i = y_j \\ \max(dp[i-1][j], dp[i][j-1]) & \mathrm{if}  x_i \neq y_j \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 0 & \mathrm{if}  i = 0 \mathrm{ or}  j = 0 \\ dp[i-1][j-1] + 1 & \mathrm{if}  x_i = y_j \\ \max(dp[i-1][j], dp[i][j-1]) & \mathrm{if}  x_i \neq y_j \end{cases}
+$$
 
 **Time:** $O(mn)$. **Space:** $O(mn)$ (can be reduced to $O(\min(m,n))$ for the length only).
 
@@ -212,7 +220,9 @@ number of coins needed.
 
 **Recurrence:**
 
-$$dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_i] + 1) & \mathrm{if}  c > 0 \end{cases}$$
+$$
+dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_i] + 1) & \mathrm{if}  c > 0 \end{cases}
+$$
 
 **Time:** $O(nM)$. **Space:** $O(M)$.
 

@@ -29,14 +29,18 @@ import Citations from '@components/Citations.astro'
 
 For the reaction $aA + bB \to cC + dD$, the rate of reaction is:
 
-$$v = -\frac{1}{a}\frac{d[A]}{dt} = -\frac{1}{b}\frac{d[B]}{dt} = \frac{1}{c}\frac{d[C]}{dt} = \frac{1}{d}\frac{d[D]}{dt}$$
+$$
+v = -\frac{1}{a}\frac{d[A]}{dt} = -\frac{1}{b}\frac{d[B]}{dt} = \frac{1}{c}\frac{d[C]}{dt} = \frac{1}{d}\frac{d[D]}{dt}
+$$
 
 ### 1.2 The Rate Law
 
 **Definition 1 (Rate Law):** For many reactions, the rate is proportional to the concentrations of
 reactants raised to powers:
 
-$$v = k[A]^m[B]^n$$
+$$
+v = k[A]^m[B]^n
+$$
 
 where $k$ is the **rate constant**, $m$ is the order with respect to $A$, $n$ is the order with
 respect to $B$, and the overall order is $m + n$. The orders $m$ and $n$ are experimentally
@@ -54,17 +58,25 @@ For an **elementary reaction** (single molecular event), the order equals the mo
 
 ### 2.1 Zeroth-Order Reactions
 
-$$\frac{d[A]}{dt} = -k$$
+$$
+\frac{d[A]}{dt} = -k
+$$
 
-$$[A] = [A]_0 - kt$$
+$$
+[A] = [A]_0 - kt
+$$
 
 **Half-life:** $t_{1/2} = \frac{[A]_0}{2k}$
 
 ### 2.2 First-Order Reactions
 
-$$\frac{d[A]}{dt} = -k[A]$$
+$$
+\frac{d[A]}{dt} = -k[A]
+$$
 
-$$\ln[A] = \ln[A]_0 - kt \quad \text{or} \quad [A] = [A]_0 e^{-kt}$$
+$$
+\ln[A] = \ln[A]_0 - kt \quad \text{or} \quad [A] = [A]_0 e^{-kt}
+$$
 
 **Half-life:** $t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$
 
@@ -73,9 +85,13 @@ The half-life is **independent** of initial concentration.
 **Example 1:** Radioactive decay of ${}^{14}\text{C}$ has $t_{1/2} = 5730$ years. What fraction
 remains after 10000 years?
 
-$$k = \frac{0.693}{5730} = 1.21 \times 10^{-4} \text{ yr}^{-1}$$
+$$
+k = \frac{0.693}{5730} = 1.21 \times 10^{-4} \text{ yr}^{-1}
+$$
 
-$$\frac{[A]}{[A]_0} = e^{-kt} = e^{-1.21 \times 10^{-4} \times 10000} = e^{-1.21} = 0.298$$
+$$
+\frac{[A]}{[A]_0} = e^{-kt} = e^{-1.21 \times 10^{-4} \times 10000} = e^{-1.21} = 0.298
+$$
 
 About 29.8% remains.
 
@@ -85,19 +101,25 @@ $\blacksquare$
 
 Type I: $A + A \to$ products, rate $= k[A]^2$:
 
-$$\frac{1}{[A]} = \frac{1}{[A]_0} + kt$$
+$$
+\frac{1}{[A]} = \frac{1}{[A]_0} + kt
+$$
 
 **Half-life:** $t_{1/2} = \frac{1}{k[A]_0}$
 
 Type II: $A + B \to$ products with $[A]_0 = [B]_0$:
 
-$$\frac{1}{[A]} = \frac{1}{[A]_0} + kt$$
+$$
+\frac{1}{[A]} = \frac{1}{[A]_0} + kt
+$$
 
 ### 2.4 Pseudo-First-Order Reactions
 
 When one reactant is in large excess ($[B]_0 \gg [A]_0$):
 
-$$v = k[A][B] \approx k"[A]$$
+$$
+v = k[A][B] \approx k"[A]
+$$
 
 where $k' = k[B]_0$ is the pseudo-first-order rate constant.
 
@@ -107,7 +129,9 @@ where $k' = k[B]_0$ is the pseudo-first-order rate constant.
 
 Measure initial rates at different initial concentrations:
 
-$$v_0 = k[A]_0^m \implies \log v_0 = \log k + m\log[A]_0$$
+$$
+v_0 = k[A]_0^m \implies \log v_0 = \log k + m\log[A]_0
+$$
 
 A plot of $\log v_0$ vs $\log[A]_0$ has slope $m$.
 
@@ -131,26 +155,36 @@ Assume a reaction order, plot the corresponding linearized form:
 
 **Theorem 1 (Arrhenius Equation):**
 
-$$k = A\,e^{-E_a/RT}$$
+$$
+k = A\,e^{-E_a/RT}
+$$
 
 where $A$ is the pre-exponential (frequency) factor and $E_a$ is the activation energy.
 
 Logarithmic form:
 
-$$\ln k = \ln A - \frac{E_a}{RT}$$
+$$
+\ln k = \ln A - \frac{E_a}{RT}
+$$
 
 A plot of $\ln k$ vs $1/T$ gives a straight line with slope $-E_a/R$.
 
 ### 4.2 Two-Point Form
 
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
 **Example 2:** A reaction has $k_1 = 3.46 \times 10^{-5}$ s$^{-1}$ at 298 K and
 $k_2 = 1.35 \times 10^{-3}$ s$^{-1}$ at 350 K. Find $E_a$.
 
-$$E_a = R\frac{\ln(k_2/k_1)}{1/T_1 - 1/T_2} = 8.314 \times \frac{\ln(1.35 \times 10^{-3}/3.46 \times 10^{-5})}{1/298 - 1/350}$$
+$$
+E_a = R\frac{\ln(k_2/k_1)}{1/T_1 - 1/T_2} = 8.314 \times \frac{\ln(1.35 \times 10^{-3}/3.46 \times 10^{-5})}{1/298 - 1/350}
+$$
 
-$$= 8.314 \times \frac{3.66}{5.0 \times 10^{-4}} = 60.9 \text{ kJ/mol}$$
+$$
+= 8.314 \times \frac{3.66}{5.0 \times 10^{-4}} = 60.9 \text{ kJ/mol}
+$$
 
 $\blacksquare$
 
@@ -158,7 +192,9 @@ $\blacksquare$
 
 For more accurate descriptions over wide temperature ranges:
 
-$$k = A\,T^n\,e^{-E_a/RT}$$
+$$
+k = A\,T^n\,e^{-E_a/RT}
+$$
 
 ## 5. Collision Theory
 
@@ -166,14 +202,18 @@ $$k = A\,T^n\,e^{-E_a/RT}$$
 
 **Theorem 2 (Collision Theory Rate Constant):**
 
-$$k = \sigma\,N_A\,\langle v_r \rangle\,e^{-E_a/RT}$$
+$$
+k = \sigma\,N_A\,\langle v_r \rangle\,e^{-E_a/RT}
+$$
 
 where $\sigma = \pi(d_A + d_B)^2$ is the collision cross-section and $\langle v_r \rangle$ is the
 relative mean speed.
 
 The mean relative speed from kinetic theory:
 
-$$\langle v_r \rangle = \sqrt{\frac{8k_BT}{\pi\mu}}$$
+$$
+\langle v_r \rangle = \sqrt{\frac{8k_BT}{\pi\mu}}
+$$
 
 where $\mu = \frac{m_A m_B}{m_A + m_B}$ is the reduced mass.
 
@@ -182,7 +222,9 @@ where $\mu = \frac{m_A m_B}{m_A + m_B}$ is the reduced mass.
 **Definition 2 (Steric Factor):** Not every collision leads to reaction. The steric factor $P$
 accounts for orientation requirements:
 
-$$k = P\,\sigma\,N_A\,\langle v_r \rangle\,e^{-E_a/RT}$$
+$$
+k = P\,\sigma\,N_A\,\langle v_r \rangle\,e^{-E_a/RT}
+$$
 
 For simple collisions, $P \approx 1$; for complex molecules, $P \ll 1$.
 
@@ -198,7 +240,9 @@ transition state is the activation energy.
 
 **Theorem 3 (Eyring Equation):**
 
-$$k = \frac{k_B T}{h}\,e^{-\Delta^{\ddagger} G^\circ/RT} = \frac{k_B T}{h}\,e^{\Delta^{\ddagger} S^\circ/R}\,e^{-\Delta^{\ddagger} H^\circ/RT}$$
+$$
+k = \frac{k_B T}{h}\,e^{-\Delta^{\ddagger} G^\circ/RT} = \frac{k_B T}{h}\,e^{\Delta^{\ddagger} S^\circ/R}\,e^{-\Delta^{\ddagger} H^\circ/RT}
+$$
 
 where $k_B$ is Boltzmann's constant, $h$ is Planck’s constant, $\Delta^{\ddagger} G^\circ$,
 $\Delta^{\ddagger} H^\circ$, and $\Delta^{\ddagger} S^\circ$ are the standard Gibbs energy,
@@ -208,9 +252,13 @@ enthalpy, and entropy of activation.
 
 At moderate temperatures:
 
-$$E_a = \Delta^{\ddagger} H^\circ + RT$$
+$$
+E_a = \Delta^{\ddagger} H^\circ + RT
+$$
 
-$$A = e\,\frac{k_B T}{h}\,e^{\Delta^{\ddagger} S^\circ/R}$$
+$$
+A = e\,\frac{k_B T}{h}\,e^{\Delta^{\ddagger} S^\circ/R}
+$$
 
 A large positive $\Delta^{\ddagger} S^\circ$ means a loose, disordered transition state (typical for
 unimolecular reactions). A negative $\Delta^{\ddagger} S^\circ$ means a rigid, ordered transition
@@ -243,9 +291,13 @@ Proposed mechanism:
 
 Steady-state for $\text{NO}_3$:
 
-$$\frac{d[\text{NO}_3]}{dt} = k_1[\text{N}_2\text{O}_5] - k_{-1}[\text{NO}_2][\text{NO}_3] - (k_2 + k_3)[\text{NO}_2][\text{NO}_3] = 0$$
+$$
+\frac{d[\text{NO}_3]}{dt} = k_1[\text{N}_2\text{O}_5] - k_{-1}[\text{NO}_2][\text{NO}_3] - (k_2 + k_3)[\text{NO}_2][\text{NO}_3] = 0
+$$
 
-$$[\text{NO}_3] = \frac{k_1[\text{N}_2\text{O}_5]}{(k_{-1} + k_2 + k_3)[\text{NO}_2]}$$
+$$
+[\text{NO}_3] = \frac{k_1[\text{N}_2\text{O}_5]}{(k_{-1} + k_2 + k_3)[\text{NO}_2]}
+$$
 
 The rate of formation of $\text{O}_2$ (from step 3): $v = k_2[\text{NO}_2][\text{NO}_3]$.
 
@@ -258,7 +310,9 @@ $\blacksquare$
 
 When a rapid equilibrium precedes the rate-determining step:
 
-$$K = \frac{k_1}{k_{-1}} = \frac{[\text{intermediate}]}{[\text{reactant}]}$$
+$$
+K = \frac{k_1}{k_{-1}} = \frac{[\text{intermediate}]}{[\text{reactant}]}
+$$
 
 The rate is determined by the slow step with the intermediate concentration expressed through $K$.
 
@@ -273,7 +327,9 @@ The rate is determined by the slow step with the intermediate concentration expr
 
 **Example 4:** $\text{H}_2 + \text{Br}_2 \to 2\text{HBr}$ (Bodenstein mechanism).
 
-$$v = \frac{k[\text{H}_2][\text{Br}_2]^{1/2}}{1 + k'[\text{HBr}/\text{Br}_2]}$$
+$$
+v = \frac{k[\text{H}_2][\text{Br}_2]^{1/2}}{1 + k'[\text{HBr}/\text{Br}_2]}
+$$
 
 The term $[\text{Br}_2]^{1/2}$ arises from the chain initiation/termination steps.
 
@@ -283,7 +339,9 @@ $\blacksquare$
 
 **Definition 6 (Chain Length):** The number of product molecules formed per initiation event:
 
-$$\nu = \frac{\text{rate of propagation}}{\text{rate of initiation}}$$
+$$
+\nu = \frac{\text{rate of propagation}}{\text{rate of initiation}}
+$$
 
 ### 8.3 Explosions
 
@@ -296,13 +354,17 @@ Chain-branching reactions can lead to explosions (e.g., $\text{H}_2 + \text{O}_2
 
 ### 9.1 Michaelis-Menten Mechanism
 
-$$E + S \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} ES \xrightarrow{k_2} E + P$$
+$$
+E + S \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} ES \xrightarrow{k_2} E + P
+$$
 
 ### 9.2 Michaelis-Menten Equation
 
 **Theorem 5 (Michaelis-Menten Equation):** Under steady-state approximation for $[ES]$:
 
-$$v = \frac{V_{\max}[S]}{K_M + [S]}$$
+$$
+v = \frac{V_{\max}[S]}{K_M + [S]}
+$$
 
 where $V_{\max} = k_2[E]_0$ is the maximum velocity and $K_M = (k_{-1} + k_2)/k_1$ is the Michaelis
 constant.
@@ -311,7 +373,9 @@ constant.
 
 Taking reciprocals:
 
-$$\frac{1}{v} = \frac{K_M}{V_{\max}}\frac{1}{[S]} + \frac{1}{V_{\max}}$$
+$$
+\frac{1}{v} = \frac{K_M}{V_{\max}}\frac{1}{[S]} + \frac{1}{V_{\max}}
+$$
 
 A plot of $1/v$ vs $1/[S]$ gives slope $K_M/V_{\max}$ and intercept $1/V_{\max}$.
 
@@ -319,7 +383,9 @@ A plot of $1/v$ vs $1/[S]$ gives slope $K_M/V_{\max}$ and intercept $1/V_{\max}$
 
 **Definition 7 (Catalytic Efficiency):** For $[S] \ll K_M$:
 
-$$\frac{v}{[E][S]} = \frac{k_2}{K_M}$$
+$$
+\frac{v}{[E][S]} = \frac{k_2}{K_M}
+$$
 
 The quantity $k_2/K_M$ is the catalytic efficiency. The diffusion-controlled limit is
 $\sim 10^8$–$10^9$ M$^{-1}$s$^{-1}$.
@@ -335,7 +401,9 @@ $\sim 10^8$–$10^9$ M$^{-1}$s$^{-1}$.
 
 For competitive inhibition:
 
-$$v = \frac{V_{\max}[S]}{K_M(1 + [I]/K_I) + [S]}$$
+$$
+v = \frac{V_{\max}[S]}{K_M(1 + [I]/K_I) + [S]}
+$$
 
 ## 10. Catalysis
 
@@ -356,7 +424,9 @@ For heterogeneous catalysis on a surface:
 
 Rate depends on surface coverage $\theta$, described by the Langmuir isotherm:
 
-$$\theta = \frac{KP}{1 + KP}$$
+$$
+\theta = \frac{KP}{1 + KP}
+$$
 
 ## 11. Complex Reaction Mechanisms
 
@@ -364,25 +434,37 @@ $$\theta = \frac{KP}{1 + KP}$$
 
 $$A \xrightarrow{k_1} B$$ $$A \xrightarrow{k_2} C$$
 
-$$\frac{[B]}{[C]} = \frac{k_1}{k_2}$$
+$$
+\frac{[B]}{[C]} = \frac{k_1}{k_2}
+$$
 
 The ratio of products is constant and determined by the ratio of rate constants.
 
 ### 11.2 Consecutive Reactions
 
-$$A \xrightarrow{k_1} B \xrightarrow{k_2} C$$
+$$
+A \xrightarrow{k_1} B \xrightarrow{k_2} C
+$$
 
-$$[B] = \frac{k_1[A]_0}{k_2 - k_1}\left(e^{-k_1 t} - e^{-k_2 t}\right)$$
+$$
+[B] = \frac{k_1[A]_0}{k_2 - k_1}\left(e^{-k_1 t} - e^{-k_2 t}\right)
+$$
 
 Maximum concentration of $B$ occurs at $t_{\max} = \frac{\ln(k_2/k_1)}{k_2 - k_1}$.
 
 ### 11.3 Reversible Reactions
 
-$$A \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} B$$
+$$
+A \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} B
+$$
 
-$$\frac{[B]_{\text{eq}}}{[A]_{\text{eq}}} = \frac{k_1}{k_{-1}} = K$$
+$$
+\frac{[B]_{\text{eq}}}{[A]_{\text{eq}}} = \frac{k_1}{k_{-1}} = K
+$$
 
-$$[A] = [A]_0\frac{k_{-1} + k_1 e^{-(k_1 + k_{-1})t}}{k_1 + k_{-1}}$$
+$$
+[A] = [A]_0\frac{k_{-1} + k_1 e^{-(k_1 + k_{-1})t}}{k_1 + k_{-1}}
+$$
 
 ## 12. Photochemistry
 
@@ -390,7 +472,9 @@ $$[A] = [A]_0\frac{k_{-1} + k_1 e^{-(k_1 + k_{-1})t}}{k_1 + k_{-1}}$$
 
 **Theorem 6 (Beer-Lambert Law):**
 
-$$A = \varepsilon\,c\,l = \log_{10}\frac{I_0}{I}$$
+$$
+A = \varepsilon\,c\,l = \log_{10}\frac{I_0}{I}
+$$
 
 where $A$ is absorbance, $\varepsilon$ is the molar absorptivity, $c$ is concentration, $l$ is path
 length, $I_0$ is incident intensity, and $I$ is transmitted intensity.
@@ -399,7 +483,9 @@ length, $I_0$ is incident intensity, and $I$ is transmitted intensity.
 
 **Definition 8 (Quantum Yield):**
 
-$$\Phi = \frac{\text{number of reaction events}}{\text{number of photons absorbed}}$$
+$$
+\Phi = \frac{\text{number of reaction events}}{\text{number of photons absorbed}}
+$$
 
 For a chain reaction, $\Phi \gg 1$; for fluorescence, $\Phi \leq 1$.
 
@@ -407,7 +493,9 @@ For a chain reaction, $\Phi \gg 1$; for fluorescence, $\Phi \leq 1$.
 
 For fluorescence quenching:
 
-$$\frac{I_0}{I} = 1 + k_q\,\tau_0\,[Q] = 1 + K_{SV}[Q]$$
+$$
+\frac{I_0}{I} = 1 + k_q\,\tau_0\,[Q] = 1 + K_{SV}[Q]
+$$
 
 where $[Q]$ is the quencher concentration, $\tau_0$ is the fluorescence lifetime without quencher,
 and $K_{SV}$ is the Stern-Volmer constant.
@@ -420,11 +508,15 @@ For a reaction perturbed from equilibrium by a rapid temperature jump ($T$-jump)
 
 **Theorem 7 (Relaxation Time):** For a single-step reaction $A \rightleftharpoons B$:
 
-$$\frac{1}{\tau} = k_1 + k_{-1}$$
+$$
+\frac{1}{\tau} = k_1 + k_{-1}
+$$
 
 For $A + B \rightleftharpoons C + D$:
 
-$$\frac{1}{\tau} = k_1([A]_{\text{eq}} + [B]_{\text{eq}}) + k_{-1}([C]_{\text{eq}} + [D]_{\text{eq}})$$
+$$
+\frac{1}{\tau} = k_1([A]_{\text{eq}} + [B]_{\text{eq}}) + k_{-1}([C]_{\text{eq}} + [D]_{\text{eq}})
+$$
 
 ### 13.2 Flash Photolysis
 

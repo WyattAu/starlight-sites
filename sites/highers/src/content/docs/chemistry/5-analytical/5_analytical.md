@@ -144,7 +144,9 @@ $M = 58$. Possible formula: $\mathrm{C_3\mathrm{H_6\mathrm{O$ (propanone, $M_r =
 The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$Formed by alpha cleavage of
 Propanone.
 
-$$\mathrm{CH_3\mathrm{COCH_3 \to \mathrm{CH_3\mathrm{CO^+ + \mathrm{CH_3^\bullet$$
+$$
+\mathrm{CH_3\mathrm{COCH_3 \to \mathrm{CH_3\mathrm{CO^+ + \mathrm{CH_3^\bullet
+$$
 
 The compound is likely propanone.
 
@@ -237,7 +239,9 @@ UV-Vis spectroscopy measures the absorption of ultraviolet and visible light by 
 
 **Beer-Lambert Law:**
 
-$$A = \varepsilon c l$$
+$$
+A = \varepsilon c l
+$$
 
 Where $A$ is absorbance, $\varepsilon$ is the molar absorptivity (L mol$^{-1}$ cm$^{-1}$), $c$ is
 Concentration (mol/L), and $l$ is the path length (cm).
@@ -256,12 +260,16 @@ Systems.
 $\varepsilon = 12500 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ has an absorbance of 0.625 in a
 $1 \mathrm{ cm$ cuvette. Find the concentration.
 
-$$c = \frac{A}{\varepsilon l} = \frac{0.625}{12500 \times 1} = 5.0 \times 10^{-5} \mathrm{ mol/L$$
+$$
+c = \frac{A}{\varepsilon l} = \frac{0.625}{12500 \times 1} = 5.0 \times 10^{-5} \mathrm{ mol/L
+$$
 
 **Worked Example 8:** A solution has absorbance 0.450 at 520 nm in a 2 cm cuvette. If
 $\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$Find the concentration.
 
-$$c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5} \mathrm{ mol/L$$
+$$
+c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5} \mathrm{ mol/L
+$$
 
 ---
 
@@ -283,7 +291,9 @@ A mobile phase.
 
 **$R_f$ values:**
 
-$$R_f = \frac{\mathrm{distance travelled by substance}{\mathrm{distance travelled by solvent front}$$
+$$
+R_f = \frac{\mathrm{distance travelled by substance}{\mathrm{distance travelled by solvent front}
+$$
 
 ### Thin Layer Chromatography (TLC)
 
@@ -564,13 +574,21 @@ $\mathrm{SO_2$. If halogens are present, they are collected as silver halides.
 **Worked Example 15:** 0.200 g of a compound containing C, H, and N produced 0.440 g of
 $\mathrm{CO_2$ and 0.180 g of $\mathrm{H_2\mathrm{O$ on combustion. Find the empirical formula.
 
-$$n(\mathrm{C) = \frac{0.440}{44.0} = 0.0100 \mathrm{ mol, \quad m(\mathrm{C) = 0.120 \mathrm{ g$$
+$$
+n(\mathrm{C) = \frac{0.440}{44.0} = 0.0100 \mathrm{ mol, \quad m(\mathrm{C) = 0.120 \mathrm{ g
+$$
 
-$$n(\mathrm{H) = \frac{2 \times 0.180}{18.0} = 0.0200 \mathrm{ mol, \quad m(\mathrm{H) = 0.0200 \mathrm{ g$$
+$$
+n(\mathrm{H) = \frac{2 \times 0.180}{18.0} = 0.0200 \mathrm{ mol, \quad m(\mathrm{H) = 0.0200 \mathrm{ g
+$$
 
-$$m(\mathrm{N) = 0.200 - 0.120 - 0.020 = 0.060 \mathrm{ g$$
+$$
+m(\mathrm{N) = 0.200 - 0.120 - 0.020 = 0.060 \mathrm{ g
+$$
 
-$$n(\mathrm{N) = \frac{0.060}{14.0} = 0.00429 \mathrm{ mol$$
+$$
+n(\mathrm{N) = \frac{0.060}{14.0} = 0.00429 \mathrm{ mol
+$$
 
 Ratio:
 $\mathrm{C : \mathrm{H : \mathrm{N = 0.0100 : 0.0200 : 0.00429 = 2.33 : 4.67 : 1 = 7 : 14 : 3$.
@@ -622,7 +640,9 @@ Absorbance readings:
 An unknown sample gave an absorbance of 0.40. Find the concentration.
 
 From the calibration curve, absorbance is proportional to concentration:
-$$c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm$$
+$$
+c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm
+$$
 
 ---
 
@@ -682,7 +702,9 @@ flowchart TD
 
 Every measurement has uncertainty. Combined uncertainty for multiplication/division:
 
-$$\frac{\Delta y}{y} = \sqrt{\left(\frac{\Delta a}{a}\right)^2 + \left(\frac{\Delta b}{b}\right)^2}$$
+$$
+\frac{\Delta y}{y} = \sqrt{\left(\frac{\Delta a}{a}\right)^2 + \left(\frac{\Delta b}{b}\right)^2}
+$$
 
 ### Significant Figures
 
@@ -758,7 +780,9 @@ Proteins.
 
 **Alpha cleavage:** Breaks the bond adjacent to a carbonyl group, common in ketones and aldehydes.
 
-$$\mathrm{R-CO-R' \to \mathrm{R-CO^+ + \mathrm{R'^\bullet$$
+$$
+\mathrm{R-CO-R' \to \mathrm{R-CO^+ + \mathrm{R'^\bullet
+$$
 
 **McLafferty rearrangement:** A hydrogen atom from the gamma carbon (three bonds away) transfers to
 The carbonyl oxygen, followed by cleavage of the beta-gamma bond. Produces an enol radical cation
@@ -788,7 +812,9 @@ Heteroatom.
 Column efficiency is measured in theoretical plates ($N$). A higher number of plates means better
 Separation.
 
-$$N = 16\left(\frac{t_R}{W}\right)^2$$
+$$
+N = 16\left(\frac{t_R}{W}\right)^2
+$$
 
 Where $t_R$ is retention time and $W$ is peak width at the base.
 
@@ -796,7 +822,9 @@ Where $t_R$ is retention time and $W$ is peak width at the base.
 
 The ability to separate two adjacent peaks:
 
-$$R_s = \frac{2(t_{R2} - t_{R1})}{W_1 + W_2}$$
+$$
+R_s = \frac{2(t_{R2} - t_{R1})}{W_1 + W_2}
+$$
 
 Where $R_s > 1.5$ indicates baseline separation.
 
@@ -858,7 +886,9 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 
 **Solution:**
 
-$$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
+$$
+k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}
+$$
 :::
 
 ## Intuition

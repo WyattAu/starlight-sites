@@ -53,7 +53,9 @@ same angle of incidence.
 
 (a) Critical angle: $\sin\theta_c = 1/n = 1/1.52 = 0.6579$
 
-$$\theta_c = 41.1^\circ$$
+$$
+\theta_c = 41.1^\circ
+$$
 
 (b) At the first face (angle of incidence $i_1 = 40^\circ$):
 
@@ -112,7 +114,9 @@ acceptance angle.
 
 (a) $\sin\theta_c = n_2/n_1 = 1.46/1.50 = 0.9733$
 
-$$\theta_c = 76.7^\circ$$
+$$
+\theta_c = 76.7^\circ
+$$
 
 This is the angle measured from the normal to the core-cladding boundary. The angle with the fibre
 axis is $90^\circ - 76.7^\circ = 13.3^\circ$.
@@ -121,7 +125,9 @@ axis is $90^\circ - 76.7^\circ = 13.3^\circ$.
 
 Using Snell's law at the entry face and the critical angle condition:
 
-$$n_0 \sin\theta_a = \sqrt{n_1^2 - n_2^2} = \sqrt{2.25 - 2.1316} = \sqrt{0.1184} = 0.3441$$
+$$
+n_0 \sin\theta_a = \sqrt{n_1^2 - n_2^2} = \sqrt{2.25 - 2.1316} = \sqrt{0.1184} = 0.3441
+$$
 
 For air ($n_0 = 1$): $\theta_a = \sin^{-1}(0.3441) = 20.1^\circ$
 
@@ -135,7 +141,9 @@ Angle with the axis inside the fibre: $\alpha = 90^\circ - \theta_c = 13.3^\circ
 The ray travels along the fibre axis with horizontal speed $v\cos\alpha$ and bounces between the
 walls. The horizontal distance between bounces:
 
-$$d_{\text{bounce}} = \frac{2r}{\tan\alpha} = \frac{50 \times 10^{-6}}{\tan 13.3^\circ} = \frac{50 \times 10^{-6}}{0.2363} = 2.12 \times 10^{-4}\,\text{m}$$
+$$
+d_{\text{bounce}} = \frac{2r}{\tan\alpha} = \frac{50 \times 10^{-6}}{\tan 13.3^\circ} = \frac{50 \times 10^{-6}}{0.2363} = 2.12 \times 10^{-4}\,\text{m}
+$$
 
 Number of reflections per metre:
 $N = 1/(2.12 \times 10^{-4}) = 4720\,\text{reflections}\,\text{m}^{-1}$
@@ -173,9 +181,13 @@ the glass block as viewed through the liquid.
 Uncertainty:
 $\frac{\Delta n}{n} = \frac{\Delta d_{\text{real}}}{d_{\text{real}}} + \frac{\Delta d_{\text{app}}}{d_{\text{app}}} = \frac{0.5}{40.0} + \frac{0.5}{28.5} = 0.0125 + 0.01754 = 0.0300$
 
-$$\Delta n = 0.0300 \times 1.404 = 0.042$$
+$$
+\Delta n = 0.0300 \times 1.404 = 0.042
+$$
 
-$$n = 1.40 \pm 0.04$$
+$$
+n = 1.40 \pm 0.04
+$$
 
 (b) For near-normal incidence, the apparent depth of an object in a medium of refractive index $n_1$
 viewed from a medium of refractive index $n_2$ is $d_{\text{apparent}} = d \times n_2/n_1$.
@@ -185,7 +197,9 @@ $\to$ air ($n_a = 1.00$).
 
 For the glass block viewed from air through the intervening liquid, the apparent thickness is:
 
-$$d_{\text{app}} = \frac{d_g}{n_g} = \frac{3.0}{1.52} = 1.97\,\text{cm}$$
+$$
+d_{\text{app}} = \frac{d_g}{n_g} = \frac{3.0}{1.52} = 1.97\,\text{cm}
+$$
 
 The apparent depth formula uses the refractive index of the object's medium relative to the
 observer's medium. The liquid layer does not change the apparent thickness of the glass block
@@ -221,11 +235,15 @@ undergoes total internal reflection.
 
 (a) The angle of incidence at the first surface:
 
-$$\sin i_1 = h/R = 6.0/10 = 0.60 \Rightarrow i_1 = 36.9^\circ$$
+$$
+\sin i_1 = h/R = 6.0/10 = 0.60 \Rightarrow i_1 = 36.9^\circ
+$$
 
 By Snell's law: $\sin i_1 = n\sin r_1$
 
-$$\sin r_1 = 0.60/1.50 = 0.40 \Rightarrow r_1 = 23.6^\circ$$
+$$
+\sin r_1 = 0.60/1.50 = 0.40 \Rightarrow r_1 = 23.6^\circ
+$$
 
 (b) The ray travels inside the sphere and hits the far surface. The geometry gives:
 
@@ -243,7 +261,9 @@ $$\sin e_2 = 1.50 \times \sin 23.6^\circ = 1.50 \times 0.400 = 0.600$$ $$e_2 = 3
 The ray emerges parallel to the original direction (as expected for a sphere). The total deviation
 is:
 
-$$\delta = (i_1 - r_1) + (e_2 - i_2) = (36.9 - 23.6) + (36.9 - 23.6) = 26.6^\circ$$
+$$
+\delta = (i_1 - r_1) + (e_2 - i_2) = (36.9 - 23.6) + (36.9 - 23.6) = 26.6^\circ
+$$
 
 For TIR to occur: $r_1 \ge \theta_c = 41.1^\circ$Which requires $i_1$ such that
 $\sin i_1 \ge 1.50 \times \sin 41.1^\circ = 1.50 \times 0.657 = 0.986$I.e. $i_1 \ge 80.4^\circ$ or
@@ -281,7 +301,9 @@ power loss occurs due to bending.
 
 $$A = 10\log_{10}(P_{\text{in}}/P_{\text{out}})$$ $$1.5 = 10\log_{10}(5.0/P_{\text{out}})$$
 $$\log_{10}(5.0/P_{\text{out}}) = 0.15$$ $$5.0/P_{\text{out}} = 10^{0.15} = 1.413$$
-$$P_{\text{out}} = 5.0/1.413 = 3.54\,\text{mW}$$
+$$
+P_{\text{out}} = 5.0/1.413 = 3.54\,\text{mW}
+$$
 
 (b) Maximum acceptance angle: $\theta_a = \sin^{-1}(\text{NA}) = \sin^{-1}(0.22) = 12.7^\circ$
 
@@ -292,7 +314,9 @@ in radians: $\theta_a = 0.22\,\text{rad}$)
 (c) Bending loss becomes significant when the bend radius approaches a critical value. For a
 step-index fibre:
 
-$$R_{\text{critical}} \approx \frac{3n_1^2\lambda}{4\pi(n_1^2 - n_2^2)^{3/2}}$$
+$$
+R_{\text{critical}} \approx \frac{3n_1^2\lambda}{4\pi(n_1^2 - n_2^2)^{3/2}}
+$$
 
 Without the wavelength, we can estimate: for typical telecom fibres, bend losses become significant
 below $R \approx 10$--$30\,\text{mm}$ for single-mode fibres. For multimode fibres with larger
@@ -336,7 +360,9 @@ hypotenuse.
 
 (a) $\sin\theta_c = 1/n = 1/1.55 = 0.6452$
 
-$$\theta_c = 40.2^\circ$$
+$$
+\theta_c = 40.2^\circ
+$$
 
 (b) At normal incidence on the short face, the light enters undeviated ($r_1 = 0$). It hits the
 hypotenuse at $45^\circ$ angle of incidence.
@@ -353,8 +379,12 @@ For TIR: $i_2 \ge \theta_c = 40.2^\circ$
 
 $$45^\circ - r \ge 40.2^\circ$$ $$r \le 4.8^\circ$$
 
-$$\sin i = n\sin r \le 1.55 \times \sin 4.8^\circ = 1.55 \times 0.0837 = 0.1297$$
-$$i \le 7.5^\circ$$
+$$
+\sin i = n\sin r \le 1.55 \times \sin 4.8^\circ = 1.55 \times 0.0837 = 0.1297
+$$
+$$
+i \le 7.5^\circ
+$$
 
 The maximum angle of incidence for TIR at the hypotenuse is $7.5^\circ$. Beyond this, some light is
 transmitted through the hypotenuse and the prism no longer acts as a perfect reflector. This limits

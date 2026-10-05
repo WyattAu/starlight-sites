@@ -359,7 +359,9 @@ A buffer resists changes in pH by minimising the effect of adding acid or alkali
 
 **The bicarbonate buffer system:**
 
-$$\mathrm{H}^+ + \mathrm{HCO}_3^- \rightleftharpoons \mathrm{H}_2\mathrm{CO}_3 \rightleftharpoons \mathrm{CO}_2 + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{H}^+ + \mathrm{HCO}_3^- \rightleftharpoons \mathrm{H}_2\mathrm{CO}_3 \rightleftharpoons \mathrm{CO}_2 + \mathrm{H}_2\mathrm{O}
+$$
 
 - When $\mathrm{H}^+$ ions are added (acid): they combine with $\mathrm{HCO}_3^-$ to form
   $\mathrm{H}_2\mathrm{CO}_3$Which dissociates into $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$.

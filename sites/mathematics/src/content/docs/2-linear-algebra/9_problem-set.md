@@ -63,14 +63,18 @@ _If you get this wrong, revise: Section 2.1 (Linear Independence)._
 
 **Problem 4.** Find a basis for the column space of
 
-$$A = \begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Row-reduce $A$:
 
-$$\begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & -2 & -2 \end{pmatrix} \xrightarrow{R_3 - R_2} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & 0 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & -2 & -2 \end{pmatrix} \xrightarrow{R_3 - R_2} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & 0 & 0 \end{pmatrix}
+$$
 
 Pivots are in columns 1 and 3. A basis for $\mathrm{col}(A)$ is $\{(1, 2, 3), (1, 0, 1)\}$ (the
 pivot columns of the original $A$). $\dim(\mathrm{col}(A)) = 2$.
@@ -98,7 +102,9 @@ _If you get this wrong, revise: Section 2.5 (Dimension Formula)._
 
 **Problem 6.** Compute $\det(A)$ using cofactor expansion where
 
-$$A = \begin{pmatrix} 2 & 0 & 1 & 3 \\ 0 & 1 & 2 & 0 \\ 1 & 0 & 0 & 2 \\ 0 & 3 & 0 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 1 & 3 \\ 0 & 1 & 2 & 0 \\ 1 & 0 & 0 & 2 \\ 0 & 3 & 0 & 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -131,7 +137,9 @@ _If you get this wrong, revise: Section 3.5 (Properties of Determinants)._
 
 **Problem 8.** Use the adjugate formula to find the inverse of
 
-$$A = \begin{pmatrix} 2 & 0 & 1 \\ 1 & 1 & 0 \\ 0 & 1 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 1 \\ 1 & 1 & 0 \\ 0 & 1 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -151,14 +159,20 @@ _If you get this wrong, revise: Section 3.6 (Adjugate and Inverse Formula)._
 
 **Problem 9.** Solve the system by Gaussian elimination:
 
-$$\begin{aligned} x + 2y - z &= 3 \\ 2x + 5y + z &= 8 \\ -x + y + 4z &= 2 \end{aligned}$$
+$$
+\begin{aligned} x + 2y - z &= 3 \\ 2x + 5y + z &= 8 \\ -x + y + 4z &= 2 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 \\ 2 & 5 & 1 & 8 \\ -1 & 1 & 4 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 3 & 3 & 5 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 \\ 2 & 5 & 1 & 8 \\ -1 & 1 & 4 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 3 & 3 & 5 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 3R_2} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 0 & -6 & -1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 3R_2} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 0 & -6 & -1 \end{pmatrix}
+$$
 
 From row 3: $-6z = -1$ So $z = 1/6$. From row 2: $y + 3(1/6) = 2$ So $y = 3/2$. From row 1:
 $x + 2(3/2) - 1/6 = 3$ So $x = 3 - 3 + 1/6 = 1/6$.
@@ -172,12 +186,16 @@ _If you get this wrong, revise: Section 4.1 (Gaussian Elimination)._
 **Problem 10.** Determine whether the following system is consistent using the Rouché--Capelli
 theorem:
 
-$$\begin{aligned} x + y + z &= 1 \\ 2x + 2y + 2z &= 3 \\ x - y + z &= 0 \end{aligned}$$
+$$
+\begin{aligned} x + y + z &= 1 \\ 2x + 2y + 2z &= 3 \\ x - y + z &= 0 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 2 & 2 & 2 & 3 \\ 1 & -1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & -2 & 0 & -1 \end{pmatrix}$$
+$$
+[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 2 & 2 & 2 & 3 \\ 1 & -1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & -2 & 0 & -1 \end{pmatrix}
+$$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
 Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$The system is
@@ -189,18 +207,24 @@ _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._
 
 **Problem 11.** Find the LU decomposition of
 
-$$A = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 $m_{21} = 2/1 = 2$, $m_{31} = -1/1 = -1$:
 
-$$\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 2 & 2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 2 & 2 \end{pmatrix}
+$$
 
 $m_{32} = 2/1 = 2$:
 
-$$U = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix}, \quad L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix}, \quad L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}
+$$
 
 Verify:
 $LU = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix} = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix} = A$.
@@ -212,7 +236,9 @@ _If you get this wrong, revise: Section 4.3 (LU Decomposition)._
 
 **Problem 12.** Find the least squares solution to the system $A\mathbf{x} = \mathbf{b}$ where
 
-$$A = \begin{pmatrix} 1 & 0 \\ 1 & 1 \\ 1 & 2 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 0 \\ 1 & 1 \\ 1 & 2 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -233,7 +259,9 @@ _If you get this wrong, revise: Section 4.5 (Least Squares Solutions)._
 
 **Problem 13.** Find the eigenvalues and a basis for each eigenspace of
 
-$$A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}
+$$
 
 Is $A$ diagonalisable?
 
@@ -254,7 +282,9 @@ _If you get this wrong, revise: Section 5.3 (Diagonalisation) and Section 5.5 (J
 
 **Problem 14.** Diagonalise the matrix
 
-$$A = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & -1 \\ 0 & -1 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & -1 \\ 0 & -1 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -273,7 +303,9 @@ Eigenspace basis: $\{(0, -1, 1)\}$. Geometric multiplicity = 1.
 
 Since $2 + 1 = 3 = n$, $A$ is diagonalisable:
 
-$$P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & -1 \\ 0 & 1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 4 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & -1 \\ 0 & 1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 4 \end{pmatrix}
+$$
 
 _If you get this wrong, revise: Section 5.3 (Diagonalisation)._
 
@@ -419,7 +451,9 @@ $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$.
 $T(x^2) = 2x = 0 \cdot 1 + 2 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 0 \\ 2 \\ 0 \end{pmatrix}$.
 
-$$[T]_{\mathcal{B}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+[T]_{\mathcal{B}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 $\ker(T) = \{p : p' = 0\} = \mathrm{span}\{1\}$ So $\dim(\ker(T)) = 1$.
 

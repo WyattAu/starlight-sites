@@ -58,7 +58,9 @@ An integral domain $R$ is a **unique factorization domain (UFD)** if:
 
 The chain of implications is:
 
-$$\mathrm{Euclidean\ domain} \Rightarrow \mathrm{PID} \Rightarrow \mathrm{UFD}$$
+$$
+\mathrm{Euclidean\ domain} \Rightarrow \mathrm{PID} \Rightarrow \mathrm{UFD}
+$$
 
 None of the reverse implications hold .
 
@@ -102,7 +104,9 @@ Therefore $\mathbb{Z}[\sqrt{-5}]$ is not a UFD. $\blacksquare$
 | UFD               | Unique factorisation into irreducibles              | $\mathbb{Z}[x]$   |
 | Integral domain   | No zero divisors                                    | All of the above  |
 
-$$\mathrm{Fields} \subset \mathrm{Euclidean\ domains} \subset \mathrm{PIDs} \subset \mathrm{UFDs} \subset \mathrm{Integral\ domains}$$
+$$
+\mathrm{Fields} \subset \mathrm{Euclidean\ domains} \subset \mathrm{PIDs} \subset \mathrm{UFDs} \subset \mathrm{Integral\ domains}
+$$
 
 
 ```mermaid

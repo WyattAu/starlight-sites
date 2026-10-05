@@ -22,7 +22,9 @@ description: 'A linear operator between normed spaces is if there exists such th
 A linear operator $T : X \to Y$ between normed spaces is **bounded** if there exists $C \geq 0$ such
 that $\|Tx\|_Y \leq C\|x\|_X$ for all $x \in X$. The **operator norm** is
 
-$$\|T\| = \sup\{\|Tx\|_Y : \|x\|_X \leq 1\} = \sup\{\|Tx\|_Y : \|x\|_X = 1\}$$
+$$
+\|T\| = \sup\{\|Tx\|_Y : \|x\|_X \leq 1\} = \sup\{\|Tx\|_Y : \|x\|_X = 1\}
+$$
 
 **Proposition 3.1.** A linear operator is bounded if and only if it is continuous.
 
@@ -61,11 +63,15 @@ $y \in \ell^\infty$.
 
 Let $M$ be a subspace of a normed space $X$. The **annihilator** of $M$ is
 
-$$M^\perp = \{\varphi \in X^* : \varphi(x) = 0 \text{ for all } x \in M\}$$
+$$
+M^\perp = \{\varphi \in X^* : \varphi(x) = 0 \text{ for all } x \in M\}
+$$
 
 Let $N$ be a subspace of $X^*$. The **pre-annihilator** of $N$ is
 
-$${}^\perp N = \{x \in X : \varphi(x) = 0 \text{ for all } \varphi \in N\}$$
+$$
+{}^\perp N = \{x \in X : \varphi(x) = 0 \text{ for all } \varphi \in N\}
+$$
 
 **Proposition 3.7.** If $M \subseteq X$ is a subspace, then $M^\perp$ is a closed subspace of $X^*$.
 If $N \subseteq X^*$ is a subspace, then ${}^\perp N$ is a closed subspace of $X$.

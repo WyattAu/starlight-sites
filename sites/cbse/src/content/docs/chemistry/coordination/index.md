@@ -93,7 +93,9 @@ Fe$^{3+}$: $[\text{Ar}] 3d^5$ (5 d electrons)
 CN$^-$ is a strong field ligand (high in spectrochemical series), causing large $\Delta_o$.
 
 With large splitting, electrons pair up before occupying higher orbitals:
-$$t_{2g}^5 \, e_g^0$$
+$$
+t_{2g}^5 \, e_g^0
+$$
 
 Unpaired electrons: 1 (one electron in each of the three $t_{2g}$ orbitals, plus one pair)
 
@@ -114,7 +116,9 @@ This complex shows **linkage isomerism**. The NO$_2^-$ ligand can bond through:
 - N (nitro): $-\text{NO}_2$ (nitro complex, yellow)
 - O (nitrito): $-\text{ONO}$ (nitrito complex, red)
 
-$$[\text{Co(NH}_3)_5\text{(NO}_2)]^{2+} \quad \text{vs} \quad [\text{Co(NH}_3)_5\text{(ONO)}]^{2+}$$
+$$
+[\text{Co(NH}_3)_5\text{(NO}_2)]^{2+} \quad \text{vs} \quad [\text{Co(NH}_3)_5\text{(ONO)}]^{2+}
+$$
 
 This occurs because NO$_2^-$ is an ambidentate ligand (can donate through two different atoms).
 

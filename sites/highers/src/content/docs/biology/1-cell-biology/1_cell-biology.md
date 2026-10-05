@@ -138,7 +138,9 @@ Hydrolysed.
 **Water potential ($\psi$):** The tendency of water to move from one area to another. Pure water has
 $\psi = 0$.
 
-$$\psi = \psi_s + \psi_p$$
+$$
+\psi = \psi_s + \psi_p
+$$
 
 Where $\psi_s$ is the solute potential (always negative or zero) and $\psi_p$ is the pressure
 Potential.
@@ -166,7 +168,9 @@ Cell will lose water and may become plasmolysed.
 
 The solute potential $\psi_s$ can be calculated using the formula:
 
-$$\psi_s = -iCRT$$
+$$
+\psi_s = -iCRT
+$$
 
 Where $i$ is the ionisation constant (1 for non-ionic solutes), $C$ is the molar concentration, $R$
 Is the gas constant (0.0083 kPa L mol$^{-1}$ K$^{-1}$), and $T$ is the temperature in Kelvin.

@@ -44,9 +44,15 @@ Electric charge is a fundamental property of matter. This topic covers Coulomb's
 **Problem:** Two point charges $q_1 = +3 \, \mu\text{C}$ and $q_2 = -5 \, \mu\text{C}$ are placed 0.2 m apart. Find the magnitude and direction of the force between them.
 
 **Solution:**
-$$F = k\frac{|q_1 q_2|}{r^2} = 9 \times 10^9 \times \frac{3 \times 10^{-6} \times 5 \times 10^{-6}}{(0.2)^2}$$
-$$= 9 \times 10^9 \times \frac{15 \times 10^{-12}}{0.04} = 9 \times 10^9 \times 3.75 \times 10^{-10}$$
-$$= 3.375 \, \text{N}$$
+$$
+F = k\frac{|q_1 q_2|}{r^2} = 9 \times 10^9 \times \frac{3 \times 10^{-6} \times 5 \times 10^{-6}}{(0.2)^2}
+$$
+$$
+= 9 \times 10^9 \times \frac{15 \times 10^{-12}}{0.04} = 9 \times 10^9 \times 3.75 \times 10^{-10}
+$$
+$$
+= 3.375 \, \text{N}
+$$
 
 Since the charges have opposite signs, the force is attractive (directed toward each other).
 
@@ -59,17 +65,27 @@ Since the charges have opposite signs, the force is attractive (directed toward 
 **Solution:**
 
 Force due to $q_1$ (along $+x$):
-$$F_1 = k\frac{|q \cdot q_1|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{(0.1)^2} = 5.4 \, \text{N} \, \hat{i}$$
+$$
+F_1 = k\frac{|q \cdot q_1|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{(0.1)^2} = 5.4 \, \text{N} \, \hat{i}
+$$
 
 Force due to $q_2$ (along $-y$, attractive):
-$$F_2 = k\frac{|q \cdot q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.1)^2} = 7.2 \, \text{N}$$
+$$
+F_2 = k\frac{|q \cdot q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.1)^2} = 7.2 \, \text{N}
+$$
 
 Since $q_2$ is negative and below $q$, the force on $q$ is toward $q_2$:
-$$\vec{F}_2 = -7.2 \, \hat{j} \, \text{N}$$
+$$
+\vec{F}_2 = -7.2 \, \hat{j} \, \text{N}
+$$
 
 Net force:
-$$\vec{F}_{net} = 5.4 \, \hat{i} - 7.2 \, \hat{j} \, \text{N}$$
-$$|\vec{F}_{net}| = \sqrt{5.4^2 + 7.2^2} = \sqrt{29.16 + 51.84} = \sqrt{81} = 9 \, \text{N}$$
+$$
+\vec{F}_{net} = 5.4 \, \hat{i} - 7.2 \, \hat{j} \, \text{N}
+$$
+$$
+|\vec{F}_{net}| = \sqrt{5.4^2 + 7.2^2} = \sqrt{29.16 + 51.84} = \sqrt{81} = 9 \, \text{N}
+$$
 
 Direction: $\theta = \tan^{-1}\left(\frac{7.2}{5.4}\right) \approx 53.1^\circ$ below the $x$-axis.
 
@@ -83,12 +99,20 @@ Direction: $\theta = \tan^{-1}\left(\frac{7.2}{5.4}\right) \approx 53.1^\circ$ b
 
 For $q_3$ to be in equilibrium, the forces from $q_1$ and $q_2$ must be equal and opposite. Let $q_3$ be at distance $x$ from the origin.
 
-$$k\frac{|q_1 q_3|}{x^2} = k\frac{|q_2 q_3|}{(3-x)^2}$$
-$$\frac{4}{x^2} = \frac{9}{(3-x)^2}$$
+$$
+k\frac{|q_1 q_3|}{x^2} = k\frac{|q_2 q_3|}{(3-x)^2}
+$$
+$$
+\frac{4}{x^2} = \frac{9}{(3-x)^2}
+$$
 
 Taking square roots (both positive):
-$$\frac{2}{x} = \frac{3}{3-x}$$
-$$2(3-x) = 3x \implies 6 - 2x = 3x \implies x = 1.2 \, \text{m}$$
+$$
+\frac{2}{x} = \frac{3}{3-x}
+$$
+$$
+2(3-x) = 3x \implies 6 - 2x = 3x \implies x = 1.2 \, \text{m}
+$$
 
 The third charge should be placed at $x = 1.2$ m from the origin.
 

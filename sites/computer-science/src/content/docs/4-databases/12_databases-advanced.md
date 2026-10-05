@@ -30,11 +30,15 @@ includes:
 **Grouping and aggregation:** $\gamma_{F}(R)$ where $F$ is a list of aggregate functions and
 grouping attributes.
 
-$$\gamma_{\text{dept}, \text{AVG}(salary) \to \text{avg}\_sal}(\text{Employee})$$
+$$
+\gamma_{\text{dept}, \text{AVG}(salary) \to \text{avg}\_sal}(\text{Employee})
+$$
 
 **Generalised projection:** Allows arithmetic expressions in the projection list.
 
-$$\pi_{\text{name}, \text{salary} \times 12 \to \text{annual}(\text{Employee})}$$
+$$
+\pi_{\text{name}, \text{salary} \times 12 \to \text{annual}(\text{Employee})}
+$$
 
 **Outer join:** Preserves unmatched tuples from one or both relations.
 
@@ -49,7 +53,9 @@ Datalog.
 
 **Theorem 1.1.** Division can be expressed using basic relational algebra:
 
-$$R \div S = \pi_{A}(R) - \pi_{A}\left(\pi_{A}(R) \times S - R\right)$$
+$$
+R \div S = \pi_{A}(R) - \pi_{A}\left(\pi_{A}(R) \times S - R\right)
+$$
 
 Where $A$ is the set of attributes of $R$ not in $S$.
 
@@ -145,7 +151,9 @@ FUNCTION(args) OVER (
 
 **Frame specification:**
 
-$$\text{ROWS} | RANGE BETWEEN frame_start AND frame_end$$
+$$
+\text{ROWS} | RANGE BETWEEN frame_start AND frame_end
+$$
 
 | Frame unit            | Meaning                                                  |
 | --------------------- | -------------------------------------------------------- |
@@ -927,7 +935,9 @@ necessarily real-time order).
 
 **Consistency model hierarchy:**
 
-$$\text{Linearisable} \subset \text{Sequential} \subset \text{Causal} \subset \text{Eventual}$$
+$$
+\text{Linearisable} \subset \text{Sequential} \subset \text{Causal} \subset \text{Eventual}
+$$
 
 <details>
 <summary>Worked Example: Consistency Anomalies</summary>
@@ -964,7 +974,9 @@ sort.
 
 **External merge sort cost for relation $R$ with $B$ blocks and $M$ memory blocks:**
 
-$$\text{Sort}(R) = 2B \left(1 + \lceil \log_{M-1} \lceil B / M \rceil \rceil \right)$$
+$$
+\text{Sort}(R) = 2B \left(1 + \lceil \log_{M-1} \lceil B / M \rceil \rceil \right)
+$$
 
 **Phase 2: Merge.** Both sorted relations are scanned simultaneously, outputting matching pairs.
 
@@ -995,7 +1007,9 @@ and the partition of $R$ fits in memory for each partition.
 
 For each tuple in $R$Look up matching tuples in $S$ using an index on the join attribute.
 
-$$\text{Cost} = B_r + R_r \cdot (\text{cost} per probe)$$
+$$
+\text{Cost} = B_r + R_r \cdot (\text{cost} per probe)
+$$
 
 Where $R_r$ is the number of records in $R$ and the cost per probe depends on the index:
 

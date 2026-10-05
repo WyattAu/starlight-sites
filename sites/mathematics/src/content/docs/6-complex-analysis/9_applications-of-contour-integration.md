@@ -26,7 +26,9 @@ Contour integration is a powerful tool for evaluating definite integrals.
 **Theorem 9.1.** If $f(x) = P(x)/Q(x)$ where $\deg(Q) \geq \deg(P) + 2$ and $Q$ has no real roots,
 Then
 
-$$\int_{-\infty}^{\infty} f(x)\, dx = 2\pi i \sum_{\mathrm{Im}(z_k) > 0} \mathrm{Res}(f, z_k)$$
+$$
+\int_{-\infty}^{\infty} f(x)\, dx = 2\pi i \sum_{\mathrm{Im}(z_k) > 0} \mathrm{Res}(f, z_k)
+$$
 
 Where the sum is over poles in the upper half-plane.
 
@@ -78,7 +80,9 @@ $\blacksquare$
 **Theorem 9.2 (Jordan's Lemma).** If $f(z) \to 0$ uniformly as $|z| \to \infty$ in the upper
 Half-plane and $a \gt 0$ Then
 
-$$\lim_{R \to \infty} \int_{C_R} e^{iaz}f(z)\, dz = 0$$
+$$
+\lim_{R \to \infty} \int_{C_R} e^{iaz}f(z)\, dz = 0
+$$
 
 Where $C_R$ is the upper semicircle $|z| = R$, $\mathrm{Im}(z) \geq 0$.
 
@@ -134,7 +138,9 @@ $I = \frac{1}{2i} \cdot 2\pi i \left(-\frac{5}{4} + \frac{17}{12}\right) = \frac
 
 For integrals where the integrand has poles on the real axis, we use the **Cauchy principal value**:
 
-$$\mathrm{PV}\!\int_{-\infty}^{\infty} f(x)\, dx = \lim_{\varepsilon \to 0^+} \left(\int_{-\infty}^{a-\varepsilon} f(x)\, dx + \int_{a+\varepsilon}^{\infty} f(x)\, dx\right)$$
+$$
+\mathrm{PV}\!\int_{-\infty}^{\infty} f(x)\, dx = \lim_{\varepsilon \to 0^+} \left(\int_{-\infty}^{a-\varepsilon} f(x)\, dx + \int_{a+\varepsilon}^{\infty} f(x)\, dx\right)
+$$
 
 <details>
 <summary>Solution</summary>

@@ -31,7 +31,9 @@ categories:
 As an organism increases in size, its volume grows faster than its surface area. For a cube of side
 Length $l$:
 
-$$\mathrm{Surface\ area} = 6l^2, \quad \mathrm{Volume} = l^3, \quad \frac{\mathrm{SA}}{\mathrm{V}} = \frac{6}{l}$$
+$$
+\mathrm{Surface\ area} = 6l^2, \quad \mathrm{Volume} = l^3, \quad \frac{\mathrm{SA}}{\mathrm{V}} = \frac{6}{l}
+$$
 
 The SA:V ratio therefore decreases as size increases. This has critical implications: the surface
 Area available for exchange of gases, nutrients, and heat becomes proportionally smaller relative to
@@ -53,7 +55,9 @@ All gas exchange surfaces share common features:
 
 These features all derive from **Fick"s law of diffusion**:
 
-$$J = -D \frac{\Delta C}{\Delta x}$$
+$$
+J = -D \frac{\Delta C}{\Delta x}
+$$
 
 Where $J$ is the flux (rate of diffusion per unit area), $D$ is the diffusion coefficient,
 $\Delta C$ is the concentration difference, and $\Delta x$ is the diffusion distance.
@@ -106,7 +110,9 @@ Muscles contract (pushing the diaphragm up).
 
 ### 2.4 Pulmonary Ventilation Rate
 
-$$\mathrm{Pulmonary\ ventilation\ rate} = \mathrm{Tidal\ volume} \times \mathrm{breathing\ rate}$$
+$$
+\mathrm{Pulmonary\ ventilation\ rate} = \mathrm{Tidal\ volume} \times \mathrm{breathing\ rate}
+$$
 
 Tidal volume is the volume of air inhaled or exhaled in one normal breath (approximately
 $500\ \mathrm{cm^3}$ at rest). Breathing rate is the number of breaths per minute (approximately 15
@@ -299,7 +305,9 @@ towards the arteries at The top of the heart.
 
 ### 5.4 Cardiac Output
 
-$$\mathrm{Cardiac\ output} = \mathrm{stroke\ volume} \times \mathrm{heart\ rate}$$
+$$
+\mathrm{Cardiac\ output} = \mathrm{stroke\ volume} \times \mathrm{heart\ rate}
+$$
 
 Stroke volume is the volume of blood ejected by one ventricle per beat (approximately
 $70\ \mathrm{cm^3}$ at rest). Heart rate is approximately $72\ \mathrm{beats\ min^{-1}}$ at rest.
@@ -340,7 +348,9 @@ Exchanges substances with cells by diffusion.
 each associated with a **haem group** containing an iron(II) ion ($\mathrm{Fe^{2+}}$) that Binds one
 $\mathrm{O_2}$ molecule. Each Hb can carry up to four $\mathrm{O_2}$ molecules.
 
-$$\mathrm{Hb} + 4\mathrm{O_2} \rightleftharpoons \mathrm{HbO_8}$$
+$$
+\mathrm{Hb} + 4\mathrm{O_2} \rightleftharpoons \mathrm{HbO_8}
+$$
 
 The **oxygen dissociation curve** is sigmoidal (S-shaped) because haemoglobin exhibits **cooperative
 Binding**: the binding of the first $\mathrm{O_2}$ molecule changes the conformation of Hb,
@@ -386,7 +396,9 @@ Be released (the Bohr effect). $\mathrm{HCO_3^-$ ions are exchanged for $\mathrm
 
 Fick's first law of diffusion states:
 
-$$J = -D \frac{\Delta C}{\Delta x}$$
+$$
+J = -D \frac{\Delta C}{\Delta x}
+$$
 
 Where:
 
@@ -398,7 +410,9 @@ Where:
 
 The total rate of diffusion across a surface of area $A$ is:
 
-$$\text{Rate} = J \times A = D \cdot A \cdot \frac{\Delta C}{\Delta x}$$
+$$
+\text{Rate} = J \times A = D \cdot A \cdot \frac{\Delta C}{\Delta x}
+$$
 
 This equation directly explains the adaptations of gas exchange surfaces: maximising $A$ (large
 surface Area), minimising $\Delta x$ (thin barrier), and maximising $\Delta C$ (maintaining a steep
@@ -417,11 +431,17 @@ Using Henry's law, $\mathrm{O_2}$ concentration in water is proportional to part
 Solubility of $\mathrm{O_2}$ in water at $37\ ^\circ\mathrm{C}$ is approximately
 $\alpha = 1.3 \times 10^{-3}\ \mathrm{mol\ m^{-3}\ kPa^{-1}}$.
 
-$$\Delta C = \alpha \times \Delta p\mathrm{O_2} = 1.3 \times 10^{-3} \times (13.3 - 5.3) = 0.0104\ \mathrm{mol\ m^{-3}}$$
+$$
+\Delta C = \alpha \times \Delta p\mathrm{O_2} = 1.3 \times 10^{-3} \times (13.3 - 5.3) = 0.0104\ \mathrm{mol\ m^{-3}}
+$$
 
-$$\text{Rate} = D \cdot A \cdot \frac{\Delta C}{\Delta x} = 1.8 \times 10^{-9} \times 200 \times 10^{-12} \times \frac{0.0104}{0.5 \times 10^{-6}}$$
+$$
+\text{Rate} = D \cdot A \cdot \frac{\Delta C}{\Delta x} = 1.8 \times 10^{-9} \times 200 \times 10^{-12} \times \frac{0.0104}{0.5 \times 10^{-6}}
+$$
 
-$$= 1.8 \times 10^{-9} \times 2 \times 10^{-10} \times 20800 = 7.5 \times 10^{-15}\ \mathrm{mol\ s^{-1}}$$
+$$
+= 1.8 \times 10^{-9} \times 2 \times 10^{-10} \times 20800 = 7.5 \times 10^{-15}\ \mathrm{mol\ s^{-1}}
+$$
 
 Per single alveolus. With $\approx 350$ million alveoli per lung, the total rate is enormous, which
 is Why the human respiratory system can meet the body's $\mathrm{O_2}$ demand.
@@ -430,7 +450,9 @@ is Why the human respiratory system can meet the body's $\mathrm{O_2}$ demand.
 ($\Delta x = 0.5\ \mu\mathrm{m}$) with diffusion through a layer of connective tissue
 ($\Delta x = 5.0\ \mu\mathrm{m}$), all else being equal.
 
-$$\frac{J_{\mathrm{alveolus}}}{J_{\mathrm{tissue}}} = \frac{D \cdot \Delta C / 0.5}{D \cdot \Delta C / 5.0} = \frac{5.0}{0.5} = 10$$
+$$
+\frac{J_{\mathrm{alveolus}}}{J_{\mathrm{tissue}}} = \frac{D \cdot \Delta C / 0.5}{D \cdot \Delta C / 5.0} = \frac{5.0}{0.5} = 10
+$$
 
 The alveolar barrier is 10 times more efficient at gas exchange because it is 10 times thinner. This
 Quantifies the critical importance of a thin diffusion barrier.
@@ -461,7 +483,9 @@ potential.
 
 For plant cells:
 
-$$\Psi_{\mathrm{cell}} = \Psi_s + \Psi_p$$
+$$
+\Psi_{\mathrm{cell}} = \Psi_s + \Psi_p
+$$
 
 ### 8.2 Worked Examples
 
@@ -470,17 +494,25 @@ $\Psi_p = +400\ \mathrm{kPa}$ Is placed in a solution with
 $\Psi_{\mathrm{solution}} = -500\ \mathrm{kPa}$. Determine the direction of Net water movement and
 the cell's equilibrium state.
 
-$$\Psi_{\mathrm{cell}} = -1200 + 400 = -800\ \mathrm{kPa}$$
+$$
+\Psi_{\mathrm{cell}} = -1200 + 400 = -800\ \mathrm{kPa}
+$$
 
 Since $\Psi_{\mathrm{solution}} = -500\ \mathrm{kPa} > \Psi_{\mathrm{cell}} = -800\ \mathrm{kPa}$
 Water moves from the solution into the cell. As water enters, $\Psi_p$ increases (the cell becomes
 more Turgid). Equilibrium when $\Psi_{\mathrm{cell}} = -500\ \mathrm{kPa}$:
 
-$$\Psi_s + \Psi_p = -500$$
+$$
+\Psi_s + \Psi_p = -500
+$$
 
-$$-1200 + \Psi_p = -500$$
+$$
+-1200 + \Psi_p = -500
+$$
 
-$$\Psi_p = +700\ \mathrm{kPa}$$
+$$
+\Psi_p = +700\ \mathrm{kPa}
+$$
 
 The cell reaches equilibrium at a pressure potential of $+700\ \mathrm{kPa}$.
 
@@ -490,15 +522,21 @@ And $\Psi_p = +200\ \mathrm{kPa}$. Describe what happens.
 
 The solute potential of the external solution is approximately:
 
-$$\Psi_s = -iCRT$$
+$$
+\Psi_s = -iCRT
+$$
 
 Where $i = 1$ (sucrose does not ionise),
 $C = 0.3\ \mathrm{mol\ dm^{-3}} = 300\ \mathrm{mol\ m^{-3}}$
 $R = 8.314\ \mathrm{J\ mol^{-1}\ K^{-1}}$, $T = 293\ \mathrm{K}$.
 
-$$\Psi_{\mathrm{solution}} = -1 \times 300 \times 8.314 \times 293 = -730800\ \mathrm{Pa} = -731\ \mathrm{kPa}$$
+$$
+\Psi_{\mathrm{solution}} = -1 \times 300 \times 8.314 \times 293 = -730800\ \mathrm{Pa} = -731\ \mathrm{kPa}
+$$
 
-$$\Psi_{\mathrm{cell}} = -1000 + 200 = -800\ \mathrm{kPa}$$
+$$
+\Psi_{\mathrm{cell}} = -1000 + 200 = -800\ \mathrm{kPa}
+$$
 
 Since $\Psi_{\mathrm{solution}} = -731\ \mathrm{kPa} > \Psi_{\mathrm{cell}} = -800\ \mathrm{kPa}$
 Water moves into the cell. The cell gains water, $\Psi_p$ increases until equilibrium is reached at
@@ -517,7 +555,9 @@ $0.17\ \mathrm{mol\ dm^{-3}}$.
 
 The solute potential of the potato cells at this concentration:
 
-$$\Psi_s = -iCRT = -1 \times 170 \times 8.314 \times 293 = -414000\ \mathrm{Pa} \approx -414\ \mathrm{kPa}$$
+$$
+\Psi_s = -iCRT = -1 \times 170 \times 8.314 \times 293 = -414000\ \mathrm{Pa} \approx -414\ \mathrm{kPa}
+$$
 
 At equilibrium (no net water movement), $\Psi_{\mathrm{cell}} = \Psi_{\mathrm{solution}}$ and
 $\Psi_p = 0$ (the cell is at the point of incipient plasmolysis). Therefore,
@@ -616,7 +656,9 @@ methodologically correct.
 
 When $\mathrm{CO_2}$ enters a red blood cell, carbonic anhydrase catalyses its hydration:
 
-$$\mathrm{CO_2} + \mathrm{H_2O} \rightleftharpoons \mathrm{H_2CO_3} \rightleftharpoons \mathrm{H^+} + \mathrm{HCO_3^-}$$
+$$
+\mathrm{CO_2} + \mathrm{H_2O} \rightleftharpoons \mathrm{H_2CO_3} \rightleftharpoons \mathrm{H^+} + \mathrm{HCO_3^-}
+$$
 
 The $\mathrm{HCO_3^-}$ ions are transported out of the red blood cell in exchange for
 $\mathrm{Cl^-}$ ions Entering from the plasma. This is the **chloride shift** (Hamburger shift),
@@ -627,7 +669,9 @@ Maintains electrochemical neutrality inside the cell.
 
 The $\mathrm{H^+}$ ions are buffered by haemoglobin:
 
-$$\mathrm{HbO_8} + \mathrm{H^+} \rightleftharpoons \mathrm{HHb} + 4\mathrm{O_2}$$
+$$
+\mathrm{HbO_8} + \mathrm{H^+} \rightleftharpoons \mathrm{HHb} + 4\mathrm{O_2}
+$$
 
 This is the molecular basis of the Bohr effect: the binding of $\mathrm{H^+}$ to haemoglobin reduces
 Its affinity for $\mathrm{O_2}$Promoting $\mathrm{O_2}$ unloading in respiring tissues.
@@ -917,9 +961,13 @@ The ECG records the electrical activity of the heart from the body surface:
   speed is $25\ \mathrm{mm\ s^{-1}}$ and the distance between two QRS complexes is
   $20\ \mathrm{mm}$:
 
-$$\text{Time per beat} = \frac{20}{25} = 0.8\ \mathrm{s}$$
+$$
+\text{Time per beat} = \frac{20}{25} = 0.8\ \mathrm{s}
+$$
 
-$$\text{Heart rate} = \frac{60}{0.8} = 75\ \mathrm{bpm}$$
+$$
+\text{Heart rate} = \frac{60}{0.8} = 75\ \mathrm{bpm}
+$$
 
 ### 11.4 Pressure and Volume Changes in the Cardiac Cycle
 
@@ -996,7 +1044,9 @@ $\mathrm{CO_2}$ concentration):
 
 - In actively respiring tissues, $\mathrm{CO_2}$ is produced, which diffuses into red blood cells
   and is converted to $\mathrm{H^+}$ and $\mathrm{HCO_3^-}$ by carbonic anhydrase:
-  $$\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}$$
+  $$
+  \mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}
+  $$
 - The increase in $\mathrm{H^+}$ (lower pH) reduces haemoglobin's affinity for $\mathrm{O_2}$Causing
   it to release $\mathrm{O_2}$ more readily.
 - $\mathrm{H^+}$ binds to amino acid residues on haemoglobin, stabilising the T-state (tense,
@@ -1067,7 +1117,9 @@ The rate of transpiration is affected by:
 transpiration rate). The distance moved by an air bubble in the capillary tube is recorded over
 time:
 
-$$\text{Transpiration rate} = \frac{\text{Volume of water taken up}}{\text{Time}} = \frac{\pi r^2 d}{t}$$
+$$
+\text{Transpiration rate} = \frac{\text{Volume of water taken up}}{\text{Time}} = \frac{\pi r^2 d}{t}
+$$
 
 Where $r$ = radius of capillary tube, $d$ = distance bubble moved, $t$ = time.
 
@@ -1415,7 +1467,9 @@ bypassing the circulatory system:
 
 Adaptations for efficient gas exchange (features related to Fick's Law):
 
-$$\text{Rate of diffusion} \propto \frac{\text{surface area} \times \text{concentration difference}}{\text{diffusion distance}}$$
+$$
+\text{Rate of diffusion} \propto \frac{\text{surface area} \times \text{concentration difference}}{\text{diffusion distance}}
+$$
 
 | Feature                                                     | How It Maximises Diffusion Rate                                                |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -1915,7 +1969,9 @@ The cohesion-tension theory explains how water moves up the xylem against gravit
 
 ### 37.1 The Equation
 
-$$\text{Rate of diffusion} = \frac{D \times A \times \Delta C}{\Delta x}$$
+$$
+\text{Rate of diffusion} = \frac{D \times A \times \Delta C}{\Delta x}
+$$
 
 | Symbol            | Meaning                                                                                           | Unit                                             |
 | ----------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------ |

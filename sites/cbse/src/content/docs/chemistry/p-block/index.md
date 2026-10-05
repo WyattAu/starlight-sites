@@ -65,10 +65,14 @@ P-block elements have their outermost electrons in p-orbitals. This topic covers
 
 Copper reacts with dilute $\text{HNO}_3$ to produce copper(II) nitrate, NO, and water:
 
-$$3\text{Cu} + 8\text{HNO}_3(\text{dilute}) \rightarrow 3\text{Cu(NO}_3)_2 + 2\text{NO} \uparrow + 4\text{H}_2\text{O}$$
+$$
+3\text{Cu} + 8\text{HNO}_3(\text{dilute}) \rightarrow 3\text{Cu(NO}_3)_2 + 2\text{NO} \uparrow + 4\text{H}_2\text{O}
+$$
 
 With concentrated $\text{HNO}_3$, the product is $\text{NO}_2$:
-$$\text{Cu} + 4\text{HNO}_3(\text{conc}) \rightarrow \text{Cu(NO}_3)_2 + 2\text{NO}_2 \uparrow + 2\text{H}_2\text{O}$$
+$$
+\text{Cu} + 4\text{HNO}_3(\text{conc}) \rightarrow \text{Cu(NO}_3)_2 + 2\text{NO}_2 \uparrow + 2\text{H}_2\text{O}
+$$
 
 **Common mistake:** Using $\text{NO}_2$ as the product for dilute $\text{HNO}_3$. Dilute $\text{HNO}_3$ produces NO; concentrated produces $\text{NO}_2$.
 
@@ -85,7 +89,9 @@ Both are allotropes of sulfur with the formula $\text{S}_8$ (crown-shaped ring).
 
 At 95.5°C, rhombic sulfur converts to monoclinic sulfur (transition temperature).
 
-$$\text{S}_{\text{rhombic}} \xrightarrow{95.5°C} \text{S}_{\text{monoclinic}}$$
+$$
+\text{S}_{\text{rhombic}} \xrightarrow{95.5°C} \text{S}_{\text{monoclinic}}
+$$
 
 **Common mistake:** Thinking monoclinic sulfur is always more stable. Rhombic is more stable below the transition temperature.
 

@@ -36,22 +36,30 @@ Thermal equilibrium if and only if they are at the same temperature.
 **First Law (Conservation of Energy):** The change in internal energy of a system equals the heat
 Added to the system minus the work done by the system:
 
-$$dU = \delta Q - \delta W$$
+$$
+dU = \delta Q - \delta W
+$$
 
 Where $\delta Q$ and $\delta W$ are **inexact differentials** (path-dependent), while $dU$ is an
 Exact differential (state function).
 
 For a quasi-static process with pressure-volume work:
 
-$$\delta W = P\,dV$$
+$$
+\delta W = P\,dV
+$$
 
 So the first law becomes:
 
-$$dU = \delta Q - P\,dV$$
+$$
+dU = \delta Q - P\,dV
+$$
 
 **Definition (Heat capacity).** The heat capacity at constant volume and constant pressure are:
 
-$$C_V = \left(\frac{\partial U}{\partial T}\right)_V, \quad C_P = \left(\frac{\partial H}{\partial T}\right)_P$$
+$$
+C_V = \left(\frac{\partial U}{\partial T}\right)_V, \quad C_P = \left(\frac{\partial H}{\partial T}\right)_P
+$$
 
 Where $H = U + PV$ is the enthalpy.
 
@@ -77,11 +85,15 @@ from cold to hot with no external work, violating the Clausius statement. $\blac
 
 **Definition (Entropy).** For a reversible process, the entropy change is:
 
-$$dS = \frac{\delta Q_{\mathrm{rev}}{T}}$$
+$$
+dS = \frac{\delta Q_{\mathrm{rev}}{T}}
+$$
 
 **Clausius Inequality:** For any cyclic process:
 
-$$\oint \frac{\delta Q}{T} \leq 0$$
+$$
+\oint \frac{\delta Q}{T} \leq 0
+$$
 
 With equality if and only if the process is reversible.
 
@@ -89,13 +101,19 @@ With equality if and only if the process is reversible.
 Irreversible process from state $1$ to state $2$ Then returning via a reversible process. By the
 Clausius inequality:
 
-$$\int_1^2 \frac{\delta Q_{\mathrm{irrev}}{T} + \int_2^1 \frac{\delta Q_{\mathrm{rev}}{T} \leq 0}}$$
+$$
+\int_1^2 \frac{\delta Q_{\mathrm{irrev}}{T} + \int_2^1 \frac{\delta Q_{\mathrm{rev}}{T} \leq 0}}
+$$
 
-$$\int_1^2 \frac{\delta Q_{\mathrm{irrev}}{T} - \int_1^2 \frac{\delta Q_{\mathrm{rev}}{T} \leq 0}}$$
+$$
+\int_1^2 \frac{\delta Q_{\mathrm{irrev}}{T} - \int_1^2 \frac{\delta Q_{\mathrm{rev}}{T} \leq 0}}
+$$
 
 Since $dS = \delta Q_{\mathrm{rev}/T}$:
 
-$$\Delta S \geq \int_1^2 \frac{\delta Q}{T}$$
+$$
+\Delta S \geq \int_1^2 \frac{\delta Q}{T}
+$$
 
 With equality for reversible processes. $\blacksquare$
 
@@ -103,7 +121,9 @@ With equality for reversible processes. $\blacksquare$
 
 **Third Law (Nernst Heat Theorem):** As $T \to 0$The entropy of a perfect crystal approaches zero:
 
-$$\lim_{T \to 0} S(T) = 0$$
+$$
+\lim_{T \to 0} S(T) = 0
+$$
 
 This sets an absolute reference for entropy and implies that it is impossible to reach absolute zero
 In a finite number of steps.
@@ -115,35 +135,49 @@ Variables.
 
 **Definition (Isothermal compressibility).**
 
-$$\kappa_T = -\frac{1}{V}\left(\frac{\partial V}{\partial P}\right)_T$$
+$$
+\kappa_T = -\frac{1}{V}\left(\frac{\partial V}{\partial P}\right)_T
+$$
 
 **Definition (Adiabatic compressibility).**
 
-$$\kappa_S = -\frac{1}{V}\left(\frac{\partial V}{\partial P}\right)_S$$
+$$
+\kappa_S = -\frac{1}{V}\left(\frac{\partial V}{\partial P}\right)_S
+$$
 
 **Definition (Coefficient of thermal expansion).**
 
-$$\alpha = \frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_P$$
+$$
+\alpha = \frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_P
+$$
 
 **Theorem 1.2 (Relation between heat capacities).**
 
-$$C_P - C_V = \frac{TV\alpha^2}{\kappa_T}$$
+$$
+C_P - C_V = \frac{TV\alpha^2}{\kappa_T}
+$$
 
 **Proof.** From the identity
 $dS(T, V) = (\partial S/\partial T)_V\,dT + (\partial S/\partial V)_T\,dV$ And writing $dV$ in terms
 of $dT$ and $dP$ along a constant-$P$ path:
 
-$$\left(\frac{\partial S}{\partial T}\right)_P = \left(\frac{\partial S}{\partial T}\right)_V + \left(\frac{\partial S}{\partial V}\right)_T \left(\frac{\partial V}{\partial T}\right)_P$$
+$$
+\left(\frac{\partial S}{\partial T}\right)_P = \left(\frac{\partial S}{\partial T}\right)_V + \left(\frac{\partial S}{\partial V}\right)_T \left(\frac{\partial V}{\partial T}\right)_P
+$$
 
 Multiply by $T$ and use $C_V = T(\partial S/\partial T)_V$, $C_P = T(\partial S/\partial T)_P$ And
 the Maxwell relation $(\partial S/\partial V)_T = (\partial P/\partial T)_V$:
 
-$$C_P - C_V = T\left(\frac{\partial P}{\partial T}\right)_V \left(\frac{\partial V}{\partial T}\right)_P$$
+$$
+C_P - C_V = T\left(\frac{\partial P}{\partial T}\right)_V \left(\frac{\partial V}{\partial T}\right)_P
+$$
 
 Now use the cyclic relation
 $(\partial P/\partial T)_V = -(\partial V/\partial T)_P / (\partial V/\partial P)_T$ To obtain:
 
-$$C_P - C_V = -T\frac{\left(\frac{\partial V}{\partial T}\right)_P^2}{\left(\frac{\partial V}{\partial P}\right)_T} = \frac{TV\alpha^2}{\kappa_T}$$
+$$
+C_P - C_V = -T\frac{\left(\frac{\partial V}{\partial T}\right)_P^2}{\left(\frac{\partial V}{\partial P}\right)_T} = \frac{TV\alpha^2}{\kappa_T}
+$$
 
 $\blacksquare$
 
@@ -151,17 +185,25 @@ Since $\kappa_T \gt 0$ for stable systems and $\alpha^2 \geq 0$We always have $C
 
 **Theorem 1.3 (Adiabatic index).** The ratio $\gamma = C_P/C_V$ satisfies:
 
-$$\gamma = \frac{\kappa_T}{\kappa_S}$$
+$$
+\gamma = \frac{\kappa_T}{\kappa_S}
+$$
 
 **Proof.** Along an adiabat, $dS = 0$. Using the chain rule:
 
-$$dS = \left(\frac{\partial S}{\partial T}\right)_P\,dT + \left(\frac{\partial S}{\partial P}\right)_T\,dP = 0$$
+$$
+dS = \left(\frac{\partial S}{\partial T}\right)_P\,dT + \left(\frac{\partial S}{\partial P}\right)_T\,dP = 0
+$$
 
-$$\left(\frac{\partial P}{\partial T}\right)_S = -\frac{\left(\frac{\partial S}{\partial T}\right)_P}{\left(\frac{\partial S}{\partial P}\right)_T} = -\frac{C_P/T}{-(\partial V/\partial T)_P} = \frac{C_P}{T(\partial V/\partial T)_P}$$
+$$
+\left(\frac{\partial P}{\partial T}\right)_S = -\frac{\left(\frac{\partial S}{\partial T}\right)_P}{\left(\frac{\partial S}{\partial P}\right)_T} = -\frac{C_P/T}{-(\partial V/\partial T)_P} = \frac{C_P}{T(\partial V/\partial T)_P}
+$$
 
 Similarly, along an isotherm:
 
-$$\left(\frac{\partial P}{\partial T}\right)_V = -\frac{(\partial V/\partial T)_P}{(\partial V/\partial P)_T} = \frac{\alpha}{\kappa_T}$$
+$$
+\left(\frac{\partial P}{\partial T}\right)_V = -\frac{(\partial V/\partial T)_P}{(\partial V/\partial P)_T} = \frac{\alpha}{\kappa_T}
+$$
 
 Using the identity $C_P/C_V = (\partial P/\partial T)_S / (\partial P/\partial T)_V$ and simplifying
 gives $\gamma = \kappa_T/\kappa_S$. $\blacksquare$
@@ -219,28 +261,38 @@ Transformations on $U(S, V, N)$We obtain the other potentials:
 
 The Legendre transforms are:
 
-$$H = U + PV, \quad F = U - TS, \quad G = H - TS = U - TS + PV$$
+$$
+H = U + PV, \quad F = U - TS, \quad G = H - TS = U - TS + PV
+$$
 
 ### 2.2 Derivation of the Differential Relations
 
 Starting from the first law for a reversible process:
 
-$$dU = T\,dS - P\,dV + \mu\,dN$$
+$$
+dU = T\,dS - P\,dV + \mu\,dN
+$$
 
 This tells us $T = (\partial U/\partial S)_{V,N}$, $P = -(\partial U/\partial V)_{S,N}$ And
 $\mu = (\partial U/\partial N)_{S,V}$.
 
 For enthalpy, $H = U + PV$ So:
 
-$$dH = dU + P\,dV + V\,dP = T\,dS + V\,dP + \mu\,dN$$
+$$
+dH = dU + P\,dV + V\,dP = T\,dS + V\,dP + \mu\,dN
+$$
 
 For Helmholtz free energy, $F = U - TS$ So:
 
-$$dF = dU - T\,dS - S\,dT = -S\,dT - P\,dV + \mu\,dN$$
+$$
+dF = dU - T\,dS - S\,dT = -S\,dT - P\,dV + \mu\,dN
+$$
 
 For Gibbs free energy, $G = U - TS + PV$ So:
 
-$$dG = -S\,dT + V\,dP + \mu\,dN$$
+$$
+dG = -S\,dT + V\,dP + \mu\,dN
+$$
 
 ### 2.3 Physical Meaning of the Potentials
 
@@ -278,15 +330,21 @@ Volumes.
 
 The total Helmholtz free energy is:
 
-$$F = F_A + F_B = -N_A k_B T \ln\frac{e V_A}{N_A \lambda^3} - N_B k_B T \ln\frac{e V_B}{N_B \lambda^3}$$
+$$
+F = F_A + F_B = -N_A k_B T \ln\frac{e V_A}{N_A \lambda^3} - N_B k_B T \ln\frac{e V_B}{N_B \lambda^3}
+$$
 
 Where $\lambda = h/\sqrt{2\pi m k_B T}$ is the thermal de Broglie wavelength. At constant $T$
 $\lambda$ is constant, so minimising $F$ with respect to $V_A$ (with $V_B = V_{\mathrm{tot} -
 V_A}$):
 
-$$\frac{\partial F}{\partial V_A} = -\frac{N_A k_B T}{V_A} + \frac{N_B k_B T}{V_B} = 0$$
+$$
+\frac{\partial F}{\partial V_A} = -\frac{N_A k_B T}{V_A} + \frac{N_B k_B T}{V_B} = 0
+$$
 
-$$\frac{N_A}{V_A} = \frac{N_B}{V_B}$$
+$$
+\frac{N_A}{V_A} = \frac{N_B}{V_B}
+$$
 
 So $V_A/V_B = N_A/N_B = 2$. With $V_A + V_B = 4$ L: $V_A = 8/3$ L, $V_B = 4/3$ L.
 
@@ -307,7 +365,9 @@ Of system plus reservoir is $S_{\mathrm{tot} = S + S_R}$. At equilibrium, $S_{\m
 Maximised, so $\delta S_{\mathrm{tot} \leq 0}$ for any variation. Since $dS_R = \delta Q_R / T_0$
 And by energy conservation $\delta Q_R = -\delta Q = -(dU + P_0\,dV)$:
 
-$$\delta S_{\mathrm{tot} = \delta S - \frac{1}{T_0}(dU + P_0\,dV) = -\frac{1}{T_0}\delta G \leq 0}$$
+$$
+\delta S_{\mathrm{tot} = \delta S - \frac{1}{T_0}(dU + P_0\,dV) = -\frac{1}{T_0}\delta G \leq 0}
+$$
 
 Where $\delta G = \delta U + P_0\,\delta V - T_0\,\delta S$. Hence $\delta G \geq 0$ So $G$ is
 Minimised. $\blacksquare$
@@ -319,51 +379,75 @@ Minimised. $\blacksquare$
 Since $U, H, F, G$ are state functions, their differentials are exact. By the symmetry of second
 Derivatives (Euler's reciprocity), if $dz = M\,dx + N\,dy$ Then:
 
-$$\left(\frac{\partial M}{\partial y}\right)_x = \left(\frac{\partial N}{\partial x}\right)_y$$
+$$
+\left(\frac{\partial M}{\partial y}\right)_x = \left(\frac{\partial N}{\partial x}\right)_y
+$$
 
 Applying this to each thermodynamic potential:
 
 **From $dU = T\,dS - P\,dV + \mu\,dN$:**
 
-$$\left(\frac{\partial T}{\partial V}\right)_{S,N} = -\left(\frac{\partial P}{\partial S}\right)_{V,N}$$
+$$
+\left(\frac{\partial T}{\partial V}\right)_{S,N} = -\left(\frac{\partial P}{\partial S}\right)_{V,N}
+$$
 
-$$\left(\frac{\partial T}{\partial N}\right)_{S,V} = \left(\frac{\partial \mu}{\partial S}\right)_{V,N}$$
+$$
+\left(\frac{\partial T}{\partial N}\right)_{S,V} = \left(\frac{\partial \mu}{\partial S}\right)_{V,N}
+$$
 
-$$\left(\frac{\partial P}{\partial N}\right)_{S,V} = -\left(\frac{\partial \mu}{\partial V}\right)_{S,N}$$
+$$
+\left(\frac{\partial P}{\partial N}\right)_{S,V} = -\left(\frac{\partial \mu}{\partial V}\right)_{S,N}
+$$
 
 **From $dH = T\,dS + V\,dP + \mu\,dN$:**
 
-$$\left(\frac{\partial T}{\partial P}\right)_{S,N} = \left(\frac{\partial V}{\partial S}\right)_{P,N}$$
+$$
+\left(\frac{\partial T}{\partial P}\right)_{S,N} = \left(\frac{\partial V}{\partial S}\right)_{P,N}
+$$
 
 **From $dF = -S\,dT - P\,dV + \mu\,dN$:**
 
-$$\left(\frac{\partial S}{\partial V}\right)_{T,N} = \left(\frac{\partial P}{\partial T}\right)_{V,N}$$
+$$
+\left(\frac{\partial S}{\partial V}\right)_{T,N} = \left(\frac{\partial P}{\partial T}\right)_{V,N}
+$$
 
 **From $dG = -S\,dT + V\,dP + \mu\,dN$:**
 
-$$\left(\frac{\partial S}{\partial P}\right)_{T,N} = -\left(\frac{\partial V}{\partial T}\right)_{P,N}$$
+$$
+\left(\frac{\partial S}{\partial P}\right)_{T,N} = -\left(\frac{\partial V}{\partial T}\right)_{P,N}
+$$
 
 ### 3.2 Applications
 
 **Derivation of the heat capacity relation.** From $dU = T\,dS - P\,dV$:
 
-$$C_V = T\left(\frac{\partial S}{\partial T}\right)_V, \quad C_P = T\left(\frac{\partial S}{\partial T}\right)_P$$
+$$
+C_V = T\left(\frac{\partial S}{\partial T}\right)_V, \quad C_P = T\left(\frac{\partial S}{\partial T}\right)_P
+$$
 
 Using the chain rule and Maxwell relations:
 
-$$C_P - C_V = T\left(\frac{\partial P}{\partial T}\right)_V \left(\frac{\partial V}{\partial T}\right)_P$$
+$$
+C_P - C_V = T\left(\frac{\partial P}{\partial T}\right)_V \left(\frac{\partial V}{\partial T}\right)_P
+$$
 
 **Proof.** Expand $S(T, V)$ as $S(T, P(T, V))$:
 
-$$\left(\frac{\partial S}{\partial T}\right)_V = \left(\frac{\partial S}{\partial T}\right)_P + \left(\frac{\partial S}{\partial P}\right)_T \left(\frac{\partial P}{\partial T}\right)_V$$
+$$
+\left(\frac{\partial S}{\partial T}\right)_V = \left(\frac{\partial S}{\partial T}\right)_P + \left(\frac{\partial S}{\partial P}\right)_T \left(\frac{\partial P}{\partial T}\right)_V
+$$
 
 Multiply by $T$:
 
-$$C_V = C_P + T\left(\frac{\partial S}{\partial P}\right)_T \left(\frac{\partial P}{\partial T}\right)_V$$
+$$
+C_V = C_P + T\left(\frac{\partial S}{\partial P}\right)_T \left(\frac{\partial P}{\partial T}\right)_V
+$$
 
 Using the Maxwell relation $(\partial S/\partial P)_T = -(\partial V/\partial T)_P$:
 
-$$C_V = C_P - T\left(\frac{\partial V}{\partial T}\right)_P \left(\frac{\partial P}{\partial T}\right)_V$$
+$$
+C_V = C_P - T\left(\frac{\partial V}{\partial T}\right)_P \left(\frac{\partial P}{\partial T}\right)_V
+$$
 
 $\blacksquare$
 
@@ -372,13 +456,17 @@ $\blacksquare$
 **Application: entropy change of an ideal gas.** Using
 $(\partial S/\partial V)_T = (\partial P/\partial T)_V$ And the ideal gas law $P = Nk_B T/V$:
 
-$$\left(\frac{\partial S}{\partial V}\right)_T = \frac{Nk_B}{V}$$
+$$
+\left(\frac{\partial S}{\partial V}\right)_T = \frac{Nk_B}{V}
+$$
 
 Integrating: $\Delta S = Nk_B \ln(V_f/V_i)$ for an isothermal expansion.
 
 Similarly, using $(\partial S/\partial P)_T = -(\partial V/\partial T)_P$:
 
-$$\left(\frac{\partial S}{\partial P}\right)_T = -\frac{Nk_B}{P}$$
+$$
+\left(\frac{\partial S}{\partial P}\right)_T = -\frac{Nk_B}{P}
+$$
 
 So $\Delta S = -Nk_B \ln(P_f/P_i) = Nk_B \ln(V_f/V_i)$Consistent.
 
@@ -386,7 +474,9 @@ So $\Delta S = -Nk_B \ln(P_f/P_i) = Nk_B \ln(V_f/V_i)$Consistent.
 $(\partial U/\partial V)_T = T(\partial P/\partial T)_V - P$ (a Maxwell relation consequence from
 $dU = T\,dS - P\,dV$):
 
-$$\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{Nk_B}{V} - \frac{Nk_B T}{V} = 0$$
+$$
+\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{Nk_B}{V} - \frac{Nk_B T}{V} = 0
+$$
 
 This confirms that the internal energy of an ideal gas depends only on $T$ (Joule's law).
 
@@ -401,17 +491,23 @@ From the EOS: $P = RT/(v - b) - a/v^2$ So $(\partial P/\partial T)_V = R/(v - b)
 
 Therefore:
 
-$$\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{P + a/v^2}{T} - P = \frac{a}{v^2} = \frac{an^2}{V^2}$$
+$$
+\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{P + a/v^2}{T} - P = \frac{a}{v^2} = \frac{an^2}{V^2}
+$$
 
 Integrating at constant $T$:
 
-$$\Delta U = -\frac{an^2}{V_f} + \frac{an^2}{V_i}$$
+$$
+\Delta U = -\frac{an^2}{V_f} + \frac{an^2}{V_i}
+$$
 
 For a free expansion ($W = 0$, $\delta Q = 0$Hence $\Delta U = 0$ for ideal gas), the van der Waals
 Gas heats up because the internal energy depends on volume through the $a/v^2$ term representing
 Intermolecular attraction. The temperature change is:
 
-$$\Delta T = -\frac{a}{C_V}\left(\frac{1}{V_f} - \frac{1}{V_i}\right)$$
+$$
+\Delta T = -\frac{a}{C_V}\left(\frac{1}{V_f} - \frac{1}{V_i}\right)
+$$
 
 Which is negative for $V_f \gt V_i$: the gas cools during free expansion.
 
@@ -431,7 +527,9 @@ $T_c$ (cold):
 
 The efficiency is:
 
-$$\eta = 1 - \frac{Q_c}{Q_h} = 1 - \frac{T_c}{T_h}$$
+$$
+\eta = 1 - \frac{Q_c}{Q_h} = 1 - \frac{T_c}{T_h}
+$$
 
 **Derivation.** For the isothermal steps, $\Delta S_{\mathrm{hot} = Q_h/T_h}$ and
 $\Delta S_{\mathrm{cold} = -Q_c/T_c}$. Since entropy is a state function and the cycle returns to
@@ -441,23 +539,31 @@ The initial state, $\Delta S_{\mathrm{total} = 0}$ So $Q_h/T_h = Q_c/T_c$. $\bla
 
 A **refrigerator** is a Carnot engine run in reverse. The **coefficient of performance (COP)**:
 
-$$\mathrm{COP_}{\mathrm{ref} = \frac{Q_c}{W} = \frac{T_c}{T_h - T_c}}$$
+$$
+\mathrm{COP_}{\mathrm{ref} = \frac{Q_c}{W} = \frac{T_c}{T_h - T_c}}
+$$
 
 A **heat pump** heats the hot reservoir:
 
-$$\mathrm{COP_}{\mathrm{hp} = \frac{Q_h}{W} = \frac{T_h}{T_h - T_c}}$$
+$$
+\mathrm{COP_}{\mathrm{hp} = \frac{Q_h}{W} = \frac{T_h}{T_h - T_c}}
+$$
 
 ### 4.3 The Otto and Diesel Cycles
 
 **Otto cycle** (idealised petrol engine): two isochoric and two adiabatic processes.
 
-$$\eta_{\mathrm{Otto} = 1 - \frac{1}{r^{\gamma - 1}}}$$
+$$
+\eta_{\mathrm{Otto} = 1 - \frac{1}{r^{\gamma - 1}}}
+$$
 
 Where $r = V_{\mathrm{max}/V_{\mathrm{min}}}$ is the compression ratio and $\gamma = C_P/C_V$.
 
 **Diesel cycle:** one isobaric, two adiabatic, and one isochoric process:
 
-$$\eta_{\mathrm{Diesel} = 1 - \frac{1}{r^{\gamma - 1}} \cdot \frac{\alpha^\gamma - 1}{\gamma(\alpha - 1)}}$$
+$$
+\eta_{\mathrm{Diesel} = 1 - \frac{1}{r^{\gamma - 1}} \cdot \frac{\alpha^\gamma - 1}{\gamma(\alpha - 1)}}
+$$
 
 Where $\alpha = V_{\mathrm{max}/V_{\mathrm{cutoff}}}$ is the cutoff ratio.
 
@@ -472,7 +578,9 @@ state $A$ (start of Isothermal expansion): $P_A = 10$ atm, $V_A = 10$ L.
 
 **Step 1: Isothermal expansion at $T_h = 600$ K from $A$ to $B$.** Let $V_B = 20$ L.
 
-$$Q_h = nRT_h \ln\frac{V_B}{V_A} = 2 \times 8.314 \times 600 \times \ln 2 \approx 6915\ \mathrm{J}$$
+$$
+Q_h = nRT_h \ln\frac{V_B}{V_A} = 2 \times 8.314 \times 600 \times \ln 2 \approx 6915\ \mathrm{J}
+$$
 
 $$W_{AB} = Q_h = 6915\ \mathrm{J}$$ (isothermal, so $\Delta U = 0$)
 
@@ -481,7 +589,9 @@ $P_B = P_A V_A/V_B = 5$ atm.
 **Step 2: Adiabatic expansion from $B$ to $C$.** $T_C = T_c = 300$ K. From
 $TV^{\gamma-1} = \mathrm{const}$:
 
-$$V_C = V_B \left(\frac{T_h}{T_c}\right)^{1/(\gamma-1)} = 20 \times 2^{3/2} \approx 56.6\ \mathrm{L}$$
+$$
+V_C = V_B \left(\frac{T_h}{T_c}\right)^{1/(\gamma-1)} = 20 \times 2^{3/2} \approx 56.6\ \mathrm{L}
+$$
 
 $Q_{BC} = 0$,
 $W_{BC} = -\Delta U = nC_V(T_h - T_c) = 2 \times \frac{3}{2} \times 8.314 \times 300 \approx 7483\ \mathrm{J}$.
@@ -490,7 +600,9 @@ $W_{BC} = -\Delta U = nC_V(T_h - T_c) = 2 \times \frac{3}{2} \times 8.314 \times
 $TV^{\gamma-1} = \mathrm{const}$ On the adiabat $DA$:
 $V_D = V_A(T_h/T_c)^{1/(\gamma-1)} = 10 \times 2^{3/2} \approx 28.3$ L.
 
-$$Q_c = nRT_c \ln\frac{V_C}{V_D} = 2 \times 8.314 \times 300 \times \ln\frac{56.6}{28.3} \approx 3458\ \mathrm{J}$$
+$$
+Q_c = nRT_c \ln\frac{V_C}{V_D} = 2 \times 8.314 \times 300 \times \ln\frac{56.6}{28.3} \approx 3458\ \mathrm{J}
+$$
 
 $W_{CD} = Q_c = 3458$ J (heat rejected; $W \lt 0$ for compression).
 
@@ -517,7 +629,9 @@ The efficiency matches the Carnot prediction exactly, as expected for a reversib
 
 **Definition (Boltzmann Entropy).** For a macrostate with $\Omega$ accessible microstates:
 
-$$S = k_B \ln \Omega$$
+$$
+S = k_B \ln \Omega
+$$
 
 Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
 
@@ -529,7 +643,9 @@ Is the unique function satisfying $f(xy) = f(x) + f(y)$. $\blacksquare$
 
 For a system with probability $p_i$ of being in microstate $i$:
 
-$$S = -k_B \sum_i p_i \ln p_i$$
+$$
+S = -k_B \sum_i p_i \ln p_i
+$$
 
 This reduces to the Boltzmann formula when all accessible microstates are equally probable:
 $p_i = 1/\Omega$.
@@ -540,7 +656,9 @@ Microstates are equally probable.
 **Proof.** Maximise $S = -k_B \sum_i p_i \ln p_i$ subject to $\sum_i p_i = 1$ using a Lagrange
 Multiplier $\lambda$:
 
-$$\frac{\partial}{\partial p_j}\left[-\sum_i p_i \ln p_i - \lambda\left(\sum_i p_i - 1\right)\right] = -\ln p_j - 1 - \lambda = 0$$
+$$
+\frac{\partial}{\partial p_j}\left[-\sum_i p_i \ln p_i - \lambda\left(\sum_i p_i - 1\right)\right] = -\ln p_j - 1 - \lambda = 0
+$$
 
 This gives $p_j = e^{-1-\lambda} = \mathrm{const}$ for all $j$. The constraint $\sum_i p_i = 1$ Then
 gives $p_i = 1/\Omega$. $\blacksquare$
@@ -549,11 +667,15 @@ gives $p_i = 1/\Omega$. $\blacksquare$
 Microstates, the most probable macrostate has $n_i = N/\Omega$ systems in each microstate. The
 Number of ways to arrange this is:
 
-$$W = \frac{N!}{\prod_i n_i!}$$
+$$
+W = \frac{N!}{\prod_i n_i!}
+$$
 
 Using Stirling's approximation $\ln N! \approx N \ln N - N$:
 
-$$\ln W = N \ln N - N - \sum_i (n_i \ln n_i - n_i) = -N \sum_i p_i \ln p_i$$
+$$
+\ln W = N \ln N - N - \sum_i (n_i \ln n_i - n_i) = -N \sum_i p_i \ln p_i
+$$
 
 Where $p_i = n_i/N$. Multiplying by $k_B$ gives the Gibbs entropy. $\blacksquare$
 
@@ -561,19 +683,27 @@ Where $p_i = n_i/N$. Multiplying by $k_B$ gives the Gibbs entropy. $\blacksquare
 
 The Helmholtz free energy connects thermodynamics to statistical mechanics:
 
-$$F = -k_B T \ln Z$$
+$$
+F = -k_B T \ln Z
+$$
 
 Where $Z = \sum_i e^{-\beta E_i}$ is the canonical partition function and $\beta = 1/(k_B T)$.
 
 **Derivation.** From the Gibbs entropy with the Boltzmann distribution $p_i = e^{-\beta E_i}/Z$:
 
-$$S = -k_B \sum_i \frac{e^{-\beta E_i}}{Z} \left(-\beta E_i - \ln Z\right) = k_B \beta \langle E \rangle + k_B \ln Z$$
+$$
+S = -k_B \sum_i \frac{e^{-\beta E_i}}{Z} \left(-\beta E_i - \ln Z\right) = k_B \beta \langle E \rangle + k_B \ln Z
+$$
 
 Since $\langle E \rangle = U$ and $k_B \beta = 1/T$:
 
-$$S = \frac{U}{T} + k_B \ln Z$$
+$$
+S = \frac{U}{T} + k_B \ln Z
+$$
 
-$$F = U - TS = U - T\left(\frac{U}{T} + k_B \ln Z\right) = -k_B T \ln Z$$
+$$
+F = U - TS = U - T\left(\frac{U}{T} + k_B \ln Z\right) = -k_B T \ln Z
+$$
 
 $\blacksquare$
 
@@ -596,15 +726,21 @@ For a first-order phase transition between phases $\alpha$ and $\beta$ in equili
 ($G_\alpha =
 G_\beta$):
 
-$$\frac{dP}{dT} = \frac{S_\beta - S_\alpha}{V_\beta - V_\alpha} = \frac{L}{T \Delta V}$$
+$$
+\frac{dP}{dT} = \frac{S_\beta - S_\alpha}{V_\beta - V_\alpha} = \frac{L}{T \Delta V}
+$$
 
 Where $L$ is the latent heat and $\Delta V = V_\beta - V_\alpha$.
 
 **Derivation.** Along the coexistence curve, $dG_\alpha = dG_\beta$. Since $dG = -S\,dT + V\,dP$:
 
-$$-S_\alpha\,dT + V_\alpha\,dP = -S_\beta\,dT + V_\beta\,dP$$
+$$
+-S_\alpha\,dT + V_\alpha\,dP = -S_\beta\,dT + V_\beta\,dP
+$$
 
-$$\frac{dP}{dT} = \frac{S_\beta - S_\alpha}{V_\beta - V_\alpha} = \frac{L}{T \Delta V}$$
+$$
+\frac{dP}{dT} = \frac{S_\beta - S_\alpha}{V_\beta - V_\alpha} = \frac{L}{T \Delta V}
+$$
 
 $\blacksquare$
 
@@ -612,11 +748,15 @@ $\blacksquare$
 $V_{\mathrm{gas}
 \gg V_{\mathrm{liquid}}}$:
 
-$$\frac{dP}{dT} \approx \frac{L}{T \cdot nRT/P} = \frac{PL}{nRT^2}$$
+$$
+\frac{dP}{dT} \approx \frac{L}{T \cdot nRT/P} = \frac{PL}{nRT^2}
+$$
 
 Integrating (assuming $L$ is constant) gives the **Clausius equation**:
 
-$$\ln P = -\frac{L}{nRT} + \mathrm{const}$$
+$$
+\ln P = -\frac{L}{nRT} + \mathrm{const}
+$$
 
 ### 6.4 Worked Example: Clausius-Clapeyron Applications
 
@@ -628,15 +768,25 @@ the Boiling point at $P = 0.5$ atm.
 
 Integrating the Clausius-Clapeyron equation:
 
-$$\ln\frac{P_2}{P_1} = -\frac{L_v}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{P_2}{P_1} = -\frac{L_v}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
-$$\ln\frac{0.5}{1} = -\frac{40700}{8.314}\left(\frac{1}{T_2} - \frac{1}{373.15}\right)$$
+$$
+\ln\frac{0.5}{1} = -\frac{40700}{8.314}\left(\frac{1}{T_2} - \frac{1}{373.15}\right)
+$$
 
-$$-0.693 = -4894\left(\frac{1}{T_2} - 0.00268\right)$$
+$$
+-0.693 = -4894\left(\frac{1}{T_2} - 0.00268\right)
+$$
 
-$$\frac{1}{T_2} = 0.00268 + \frac{0.693}{4894} = 0.00282$$
+$$
+\frac{1}{T_2} = 0.00268 + \frac{0.693}{4894} = 0.00282
+$$
 
-$$T_2 \approx 354.6\ \mathrm{K} \approx 81.5\degree\mathrm{C}$$
+$$
+T_2 \approx 354.6\ \mathrm{K} \approx 81.5\degree\mathrm{C}
+$$
 
 This explains why water boils at a lower temperature at high altitude.
 
@@ -650,11 +800,15 @@ $\Delta V = V_{\mathrm{water} - V_{\mathrm{ice} = 18.0 \times 10^{-6} - 19.7 \ti
 = -1.7 \times 10^{-6}}}$
 m$^3$/mol.
 
-$$\frac{dP}{dT} = \frac{L_f}{T_m \Delta V} = \frac{6008}{273.15 \times (-1.7 \times 10^{-6})} \approx -1.29 \times 10^7\ \mathrm{Pa}/K$$
+$$
+\frac{dP}{dT} = \frac{L_f}{T_m \Delta V} = \frac{6008}{273.15 \times (-1.7 \times 10^{-6})} \approx -1.29 \times 10^7\ \mathrm{Pa}/K
+$$
 
 The negative slope means increasing pressure _lowers_ the melting point:
 
-$$\frac{dT}{dP} = -7.7 \times 10^{-8}\ \mathrm{K}/Pa = -0.0077\ \mathrm{K}/atm$$
+$$
+\frac{dT}{dP} = -7.7 \times 10^{-8}\ \mathrm{K}/Pa = -0.0077\ \mathrm{K}/atm
+$$
 
 At $P = 100$ atm: $\Delta T \approx -0.77$ K, so ice melts at approximately $272.4$ K. This is the
 Principle behind ice skating: the pressure under the blade slightly lowers the melting point,
@@ -676,18 +830,26 @@ Estimate, we find where the sublimation curve meets the vaporisation curve.
 
 For the sublimation curve: $L_s = L_f + L_v = 45000$ J/mol.
 
-$$\ln\frac{P_{\mathrm{sub}}{P_0} = -\frac{L_s}{R}\left(\frac{1}{T} - \frac{1}{T_0}\right)}$$
+$$
+\ln\frac{P_{\mathrm{sub}}{P_0} = -\frac{L_s}{R}\left(\frac{1}{T} - \frac{1}{T_0}\right)}
+$$
 
 At $T = T_m = 280$ K on the sublimation curve (assuming solid-gas equilibrium at the melting point
 At low $P$):
 
-$$P_{\mathrm{sub}(280) = P_0 \exp\left[-\frac{45000}{8.314}\left(\frac{1}{280} - \frac{1}{T_0}\right)\right]}$$
+$$
+P_{\mathrm{sub}(280) = P_0 \exp\left[-\frac{45000}{8.314}\left(\frac{1}{280} - \frac{1}{T_0}\right)\right]}
+$$
 
 For the vaporisation curve at $T = 280$ K:
 
-$$P_{\mathrm{vap}(280) = 1\ \mathrm{atm} \times \exp\left[-\frac{35000}{8.314}\left(\frac{1}{280} - \frac{1}{353}\right)\right]}$$
+$$
+P_{\mathrm{vap}(280) = 1\ \mathrm{atm} \times \exp\left[-\frac{35000}{8.314}\left(\frac{1}{280} - \frac{1}{353}\right)\right]}
+$$
 
-$$= \exp\left[-4210 \times (0.00357 - 0.00283)\right] = \exp(-3.12) \approx 0.044\ \mathrm{atm}$$
+$$
+= \exp\left[-4210 \times (0.00357 - 0.00283)\right] = \exp(-3.12) \approx 0.044\ \mathrm{atm}
+$$
 
 The triple point is where the sublimation and vaporisation curves intersect. In this simplified
 Model (neglecting the curvature of the solid-liquid line), the triple point is near $P \approx
@@ -707,22 +869,32 @@ Total energy $E_{\mathrm{tot} = E_S + E_R}$ is conserved.
 The probability that $S$ is in state $i$ with energy $E_i$ is proportional to the number of
 Microstates of the reservoir:
 
-$$P_i \propto \Omega_R(E_{\mathrm{tot} - E_i)}$$
+$$
+P_i \propto \Omega_R(E_{\mathrm{tot} - E_i)}
+$$
 
 Since the reservoir is large, expand $\ln \Omega_R$ to first order:
 
-$$\ln \Omega_R(E_{\mathrm{tot} - E_i) \approx \ln \Omega_R(E_{\mathrm{tot}) - E_i \left(\frac{\partial \ln \Omega_R}{\partial E}\right)_V}}$$
+$$
+\ln \Omega_R(E_{\mathrm{tot} - E_i) \approx \ln \Omega_R(E_{\mathrm{tot}) - E_i \left(\frac{\partial \ln \Omega_R}{\partial E}\right)_V}}
+$$
 
-$$= \ln \Omega_R(E_{\mathrm{tot}) - \frac{E_i}{k_B T}}$$
+$$
+= \ln \Omega_R(E_{\mathrm{tot}) - \frac{E_i}{k_B T}}
+$$
 
 Where we used $\partial \ln \Omega_R / \partial E = 1/(k_B T)$ (the thermodynamic definition of
 Temperature). Therefore:
 
-$$P_i \propto e^{-E_i/(k_B T)} = e^{-\beta E_i}$$
+$$
+P_i \propto e^{-E_i/(k_B T)} = e^{-\beta E_i}
+$$
 
 Normalising:
 
-$$P_i = \frac{e^{-\beta E_i}}{Z}, \quad Z = \sum_i e^{-\beta E_i}$$
+$$
+P_i = \frac{e^{-\beta E_i}}{Z}, \quad Z = \sum_i e^{-\beta E_i}
+$$
 
 This is the **Boltzmann distribution** (canonical ensemble).
 
@@ -740,11 +912,17 @@ From the partition function, all thermodynamic quantities follow:
 
 A system has two energy levels: $E_0 = 0$ and $E_1 = \varepsilon$.
 
-$$Z = 1 + e^{-\beta\varepsilon}$$
+$$
+Z = 1 + e^{-\beta\varepsilon}
+$$
 
-$$U = -\frac{\partial \ln Z}{\partial \beta} = \frac{\varepsilon e^{-\beta\varepsilon}}{1 + e^{-\beta\varepsilon}} = \frac{\varepsilon}{e^{\beta\varepsilon} + 1}$$
+$$
+U = -\frac{\partial \ln Z}{\partial \beta} = \frac{\varepsilon e^{-\beta\varepsilon}}{1 + e^{-\beta\varepsilon}} = \frac{\varepsilon}{e^{\beta\varepsilon} + 1}
+$$
 
-$$C = \frac{\partial U}{\partial T} = k_B \beta^2 \varepsilon^2 \frac{e^{\beta\varepsilon}}{(1 + e^{\beta\varepsilon})^2}$$
+$$
+C = \frac{\partial U}{\partial T} = k_B \beta^2 \varepsilon^2 \frac{e^{\beta\varepsilon}}{(1 + e^{\beta\varepsilon})^2}
+$$
 
 At high $T$ ($\beta \to 0$): $U \to \varepsilon/2$ and $C \to 0$ (equipartition). At low $T$
 ($\beta \to \infty$): $U \to 0$ and $C \to 0$ (Schottky anomaly).
@@ -756,25 +934,35 @@ At high $T$ ($\beta \to 0$): $U \to \varepsilon/2$ and $C \to 0$ (equipartition)
 For a single molecule, the total partition function factors into contributions from different
 Degrees of freedom:
 
-$$z = z_{\mathrm{trans} \cdot z_{\mathrm{rot} \cdot z_{\mathrm{vib} \cdot z_{\mathrm{elec}}}}}$$
+$$
+z = z_{\mathrm{trans} \cdot z_{\mathrm{rot} \cdot z_{\mathrm{vib} \cdot z_{\mathrm{elec}}}}}
+$$
 
 ### 8.2 Translational Partition Function
 
 For a particle of mass $m$ in a box of volume $V$:
 
-$$z_{\mathrm{trans} = \sum_{\mathbf{k}} e^{-\beta \hbar^2 k^2/(2m)}}$$
+$$
+z_{\mathrm{trans} = \sum_{\mathbf{k}} e^{-\beta \hbar^2 k^2/(2m)}}
+$$
 
 In the continuum limit (replace sum with integral):
 
-$$z_{\mathrm{trans} = V \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2} = V n_Q}$$
+$$
+z_{\mathrm{trans} = V \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2} = V n_Q}
+$$
 
 Where $n_Q = (2\pi m k_B T / h^2)^{3/2}$ is the **quantum concentration**.
 
 **Derivation.** Using $\sum_{\mathbf{k}} \to V/(2\pi)^3 \int d^3k$:
 
-$$z_{\mathrm{trans} = \frac{V}{(2\pi)^3} \int e^{-\beta \hbar^2 k^2/(2m)} d^3k = \frac{V}{(2\pi)^3} \left(\frac{2\pi m}{\beta \hbar^2}\right)^{3/2} \int_0^\infty 4\pi u^2 e^{-u^2}\,du}$$
+$$
+z_{\mathrm{trans} = \frac{V}{(2\pi)^3} \int e^{-\beta \hbar^2 k^2/(2m)} d^3k = \frac{V}{(2\pi)^3} \left(\frac{2\pi m}{\beta \hbar^2}\right)^{3/2} \int_0^\infty 4\pi u^2 e^{-u^2}\,du}
+$$
 
-$$= \frac{V}{(2\pi)^3} \left(\frac{2\pi m k_B T}{\hbar^2}\right)^{3/2} \pi^{3/2} = V \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}$$
+$$
+= \frac{V}{(2\pi)^3} \left(\frac{2\pi m k_B T}{\hbar^2}\right)^{3/2} \pi^{3/2} = V \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}
+$$
 
 $\blacksquare$
 
@@ -782,12 +970,16 @@ $\blacksquare$
 
 For a rigid rotor (diatomic molecule) with moment of inertia $I$:
 
-$$z_{\mathrm{rot} = \sum_{J=0}^{\infty} (2J + 1) e^{-\beta \hbar^2 J(J+1)/(2I)}}$$
+$$
+z_{\mathrm{rot} = \sum_{J=0}^{\infty} (2J + 1) e^{-\beta \hbar^2 J(J+1)/(2I)}}
+$$
 
 At high temperature ($T \gg \Theta_{\mathrm{rot} = \hbar^2/(2Ik_B)}$), the sum can be approximated
 By an integral:
 
-$$z_{\mathrm{rot} \approx \frac{T}{\Theta_{\mathrm{rot}} = \frac{2Ik_B T}{\hbar^2}}}$$
+$$
+z_{\mathrm{rot} \approx \frac{T}{\Theta_{\mathrm{rot}} = \frac{2Ik_B T}{\hbar^2}}}
+$$
 
 For a heteronuclear diatomic, we multiply by the symmetry number $\sigma = 1$. For a homonuclear
 Diatomic, $\sigma = 2$ (exchange of identical nuclei gives indistinguishable configurations).
@@ -796,11 +988,15 @@ Diatomic, $\sigma = 2$ (exchange of identical nuclei gives indistinguishable con
 
 For a harmonic oscillator with frequency $\nu$:
 
-$$z_{\mathrm{vib} = \sum_{n=0}^{\infty} e^{-\beta \hbar \nu (n + 1/2)} = \frac{e^{-\beta \hbar \nu / 2}}{1 - e^{-\beta \hbar \nu}}}$$
+$$
+z_{\mathrm{vib} = \sum_{n=0}^{\infty} e^{-\beta \hbar \nu (n + 1/2)} = \frac{e^{-\beta \hbar \nu / 2}}{1 - e^{-\beta \hbar \nu}}}
+$$
 
 The mean vibrational energy is:
 
-$$\langle E_{\mathrm{vib} \rangle = \frac{\hbar \nu}{2} + \frac{\hbar \nu}{e^{\beta \hbar \nu} - 1}}$$
+$$
+\langle E_{\mathrm{vib} \rangle = \frac{\hbar \nu}{2} + \frac{\hbar \nu}{e^{\beta \hbar \nu} - 1}}
+$$
 
 The first term is the zero-point energy.
 
@@ -810,7 +1006,9 @@ The first term is the zero-point energy.
 
 For $N$ distinguishable particles, $Z = z^N$. For $N$ **indistinguishable** particles:
 
-$$Z = \frac{z^N}{N!}$$
+$$
+Z = \frac{z^N}{N!}
+$$
 
 The factor $1/N!$ corrects for overcounting (Gibbs paradox).
 
@@ -818,9 +1016,13 @@ The factor $1/N!$ corrects for overcounting (Gibbs paradox).
 Extensive: mixing two identical gases gives $S_{\mathrm{mix} = 2S + Nk_B \ln 2 \neq 2S}$. With
 $1/N!$Using Stirling's approximation:
 
-$$F = -Nk_B T \ln\left(\frac{z}{N}\right) - Nk_B T$$
+$$
+F = -Nk_B T \ln\left(\frac{z}{N}\right) - Nk_B T
+$$
 
-$$S = -\left(\frac{\partial F}{\partial T}\right)_V = Nk_B \left[\ln\left(\frac{z}{N}\right) + 1\right] + \frac{U}{T}$$
+$$
+S = -\left(\frac{\partial F}{\partial T}\right)_V = Nk_B \left[\ln\left(\frac{z}{N}\right) + 1\right] + \frac{U}{T}
+$$
 
 Which is now extensive. $\blacksquare$
 
@@ -828,11 +1030,17 @@ Which is now extensive. $\blacksquare$
 
 From the translational partition function:
 
-$$Z = \frac{1}{N!}\left[V\left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}\right]^N$$
+$$
+Z = \frac{1}{N!}\left[V\left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}\right]^N
+$$
 
-$$F = -k_B T \ln Z = -Nk_B T \left[\ln\left(\frac{V}{N}\left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}\right) + 1\right]$$
+$$
+F = -k_B T \ln Z = -Nk_B T \left[\ln\left(\frac{V}{N}\left(\frac{2\pi m k_B T}{h^2}\right)^{3/2}\right) + 1\right]
+$$
 
-$$P = -\left(\frac{\partial F}{\partial V}\right)_{T,N} = \frac{Nk_B T}{V}$$
+$$
+P = -\left(\frac{\partial F}{\partial V}\right)_{T,N} = \frac{Nk_B T}{V}
+$$
 
 This recovers the **ideal gas law** $PV = Nk_B T$.
 
@@ -840,7 +1048,9 @@ This recovers the **ideal gas law** $PV = Nk_B T$.
 
 The probability distribution for the speed $v$ of a molecule in an ideal gas at temperature $T$:
 
-$$f(v)\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}\,dv$$
+$$
+f(v)\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}\,dv
+$$
 
 **Characteristic speeds:**
 
@@ -855,7 +1065,9 @@ $\frac{1}{2}k_B T$ to the average energy.
 
 **Proof.** If $H$ contains a term $aq_i^2$ or $bp_i^2$ with $a, b \gt 0$ Then:
 
-$$\langle q_i^2 \rangle = \frac{\int q_i^2 e^{-\beta a q_i^2}\,dq_i}{\int e^{-\beta a q_i^2}\,dq_i} = \frac{1}{2a\beta} = \frac{k_B T}{2a}$$
+$$
+\langle q_i^2 \rangle = \frac{\int q_i^2 e^{-\beta a q_i^2}\,dq_i}{\int e^{-\beta a q_i^2}\,dq_i} = \frac{1}{2a\beta} = \frac{k_B T}{2a}
+$$
 
 So $\langle aq_i^2 \rangle = k_B T / 2$. Similarly for momentum terms. $\blacksquare$
 
@@ -872,7 +1084,9 @@ Collisions.
 **Theorem 9.2 (Mean free path).** For a gas of $N$ hard-sphere molecules of diameter $d$ in volume
 $V$:
 
-$$\lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi d^2 n}}$$
+$$
+\lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi d^2 n}}
+$$
 
 Where $n = N/V$ is the number density.
 
@@ -882,12 +1096,16 @@ $\pi(2d/2)^2 = \pi d^2$ But the relative velocity correction introduces the fact
 time $\Delta t$The molecule travels $v\,\Delta t$ and sweeps volume $\sigma v\,\Delta t$. The Number
 of collisions is $n\sigma v\,\Delta t$ So the mean free path is:
 
-$$\lambda_{\mathrm{mfp} = \frac{v\,\Delta t}{n\sigma v\,\Delta t} = \frac{1}{n\sigma}}$$
+$$
+\lambda_{\mathrm{mfp} = \frac{v\,\Delta t}{n\sigma v\,\Delta t} = \frac{1}{n\sigma}}
+$$
 
 For the correct treatment, one must use the mean relative velocity. Since both colliding molecules
 Are moving, the relative speed is $\sqrt{2}$ times the mean speed:
 
-$$\lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi d^2 n}}$$
+$$
+\lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi d^2 n}}
+$$
 
 $\blacksquare$
 
@@ -895,7 +1113,9 @@ $\blacksquare$
 $d \approx 3.7
 \times 10^{-10}$ m):
 
-$$\lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi (3.7 \times 10^{-10})^2 \times 2.7 \times 10^{25}} \approx 6.8 \times 10^{-8}\ \mathrm{m} \approx 68\ \mathrm{nm}}$$
+$$
+\lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi (3.7 \times 10^{-10})^2 \times 2.7 \times 10^{25}} \approx 6.8 \times 10^{-8}\ \mathrm{m} \approx 68\ \mathrm{nm}}
+$$
 
 The collision frequency is
 $f_{\mathrm{coll} = \langle v \rangle / \lambda_{\mathrm{mfp} \approx
@@ -906,11 +1126,15 @@ s$^{-1}$.
 
 **Viscosity.** The shear viscosity of a dilute gas:
 
-$$\eta = \frac{1}{3} n m \langle v \rangle \lambda_{\mathrm{mfp} = \frac{1}{3} \frac{m\langle v \rangle}{\pi d^2 \sqrt{2}}}$$
+$$
+\eta = \frac{1}{3} n m \langle v \rangle \lambda_{\mathrm{mfp} = \frac{1}{3} \frac{m\langle v \rangle}{\pi d^2 \sqrt{2}}}
+$$
 
 Substituting $\langle v \rangle = \sqrt{8k_B T/(\pi m)}$:
 
-$$\eta = \frac{2}{3\pi^{3/2}} \frac{\sqrt{mk_B T}}{d^2}$$
+$$
+\eta = \frac{2}{3\pi^{3/2}} \frac{\sqrt{mk_B T}}{d^2}
+$$
 
 A key prediction: viscosity is _independent of density_ for a dilute gas (Maxwell's result, Verified
 experimentally). This is because $\lambda_{\mathrm{mfp} \propto 1/n}$ but the momentum Transfer per
@@ -919,18 +1143,24 @@ $\eta \propto n \cdot (1/n) = \mathrm{const}$.
 
 **Thermal conductivity.** For a monatomic gas:
 
-$$\kappa = \frac{1}{3} n \langle v \rangle \lambda_{\mathrm{mfp} \cdot \frac{f}{2}k_B = \frac{f}{2}\frac{k_B}{m}\eta}$$
+$$
+\kappa = \frac{1}{3} n \langle v \rangle \lambda_{\mathrm{mfp} \cdot \frac{f}{2}k_B = \frac{f}{2}\frac{k_B}{m}\eta}
+$$
 
 Where $f = 3$ for a monatomic gas. The ratio $\kappa/(\eta c_V/m) = f/2$ is predicted to be a
 Universal constant (Eucken's formula).
 
 **Diffusion (self-diffusion).** The self-diffusion coefficient:
 
-$$D = \frac{1}{3}\langle v \rangle \lambda_{\mathrm{mfp} = \frac{1}{3}\frac{\langle v \rangle}{\sqrt{2}\,\pi d^2 n}}$$
+$$
+D = \frac{1}{3}\langle v \rangle \lambda_{\mathrm{mfp} = \frac{1}{3}\frac{\langle v \rangle}{\sqrt{2}\,\pi d^2 n}}
+$$
 
 **Theorem 9.3 (Einstein relation).** The diffusion coefficient is related to mobility $\mu$ by:
 
-$$D = \mu k_B T$$
+$$
+D = \mu k_B T
+$$
 
 This is a consequence of the fluctuation-dissipation theorem.
 
@@ -939,11 +1169,17 @@ This is a consequence of the fluctuation-dissipation theorem.
 
 For N$_2$ at $T = 273$ K: $m = 4.65 \times 10^{-26}$ kg, $d = 3.7 \times 10^{-10}$ m.
 
-$$\eta = \frac{2}{3\pi^{3/2}} \frac{\sqrt{(4.65 \times 10^{-26})(1.381 \times 10^{-23})(273)}}{(3.7 \times 10^{-10})^2}$$
+$$
+\eta = \frac{2}{3\pi^{3/2}} \frac{\sqrt{(4.65 \times 10^{-26})(1.381 \times 10^{-23})(273)}}{(3.7 \times 10^{-10})^2}
+$$
 
-$$= \frac{2}{3\pi^{3/2}} \frac{\sqrt{1.75 \times 10^{-46}}}{1.37 \times 10^{-19}} = \frac{2}{16.69} \times \frac{1.32 \times 10^{-23}}{1.37 \times 10^{-19}}$$
+$$
+= \frac{2}{3\pi^{3/2}} \frac{\sqrt{1.75 \times 10^{-46}}}{1.37 \times 10^{-19}} = \frac{2}{16.69} \times \frac{1.32 \times 10^{-23}}{1.37 \times 10^{-19}}
+$$
 
-$$\approx 1.15 \times 10^{-5}\ \mathrm{Pa}\cdot s$$
+$$
+\approx 1.15 \times 10^{-5}\ \mathrm{Pa}\cdot s
+$$
 
 The experimental value is $\eta \approx 1.66 \times 10^{-5}$ Pa$\cdot$S. The discrepancy is due to
 The hard-sphere model being an approximation; real molecules have softer repulsive potentials.
@@ -954,31 +1190,43 @@ The hard-sphere model being an approximation; real molecules have softer repulsi
 
 **Theorem 9.4.** The speed distribution for molecules in an ideal gas at temperature $T$ is:
 
-$$f(v)\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}\,dv$$
+$$
+f(v)\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}\,dv
+$$
 
 **Proof.** In the canonical ensemble, the probability of a molecule having momentum $\mathbf{p}$ is
 Proportional to $e^{-\beta p^2/(2m)}$. The velocity distribution is:
 
-$$P(\mathbf{v})\,d^3v = \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{mv^2}{2k_B T}\right)\,d^3v$$
+$$
+P(\mathbf{v})\,d^3v = \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{mv^2}{2k_B T}\right)\,d^3v
+$$
 
 To find the speed distribution, transform to spherical coordinates in velocity space and integrate
 Over angles:
 
-$$f(v)\,dv = P(\mathbf{v}) \cdot 4\pi v^2\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}\,dv$$
+$$
+f(v)\,dv = P(\mathbf{v}) \cdot 4\pi v^2\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}\,dv
+$$
 
 $\blacksquare$
 
 **Characteristic speeds from $f(v)$.** The most probable speed maximises $v^2 e^{-mv^2/(2k_BT)}$:
 
-$$\frac{d}{dv}\left(v^2 e^{-mv^2/(2k_BT)}\right) = 0 \implies v_p = \sqrt{\frac{2k_B T}{m}}$$
+$$
+\frac{d}{dv}\left(v^2 e^{-mv^2/(2k_BT)}\right) = 0 \implies v_p = \sqrt{\frac{2k_B T}{m}}
+$$
 
 The mean speed:
 
-$$\langle v \rangle = \int_0^\infty v\,f(v)\,dv = 4\pi\left(\frac{m}{2\pi k_B T}\right)^{3/2}\int_0^\infty v^3 e^{-mv^2/(2k_BT)}\,dv = \sqrt{\frac{8k_B T}{\pi m}}$$
+$$
+\langle v \rangle = \int_0^\infty v\,f(v)\,dv = 4\pi\left(\frac{m}{2\pi k_B T}\right)^{3/2}\int_0^\infty v^3 e^{-mv^2/(2k_BT)}\,dv = \sqrt{\frac{8k_B T}{\pi m}}
+$$
 
 The RMS speed:
 
-$$v_{\mathrm{rms} = \sqrt{\langle v^2 \rangle} = \sqrt{\frac{3k_B T}{m}}}$$
+$$
+v_{\mathrm{rms} = \sqrt{\langle v^2 \rangle} = \sqrt{\frac{3k_B T}{m}}}
+$$
 
 ## 10. Quantum Statistical Mechanics
 
@@ -997,14 +1245,20 @@ Or $1$.
 
 The average occupation number:
 
-$$\langle n_i \rangle = \frac{1}{e^{\beta(\varepsilon_i - \mu)} + 1} = f_{\mathrm{FD}(\varepsilon_i)}$$
+$$
+\langle n_i \rangle = \frac{1}{e^{\beta(\varepsilon_i - \mu)} + 1} = f_{\mathrm{FD}(\varepsilon_i)}
+$$
 
 **Derivation from the grand canonical ensemble.** The grand partition function for a single state at
 Energy $\varepsilon_i$:
 
-$$\mathcal{Z}_i = \sum_{n_i=0}^{1} e^{-\beta n_i(\varepsilon_i - \mu)} = 1 + e^{-\beta(\varepsilon_i - \mu)}$$
+$$
+\mathcal{Z}_i = \sum_{n_i=0}^{1} e^{-\beta n_i(\varepsilon_i - \mu)} = 1 + e^{-\beta(\varepsilon_i - \mu)}
+$$
 
-$$\langle n_i \rangle = -\frac{1}{\beta}\frac{\partial \ln \mathcal{Z}_i}{\partial \mu} = \frac{e^{-\beta(\varepsilon_i - \mu)}}{1 + e^{-\beta(\varepsilon_i - \mu)}} = \frac{1}{e^{\beta(\varepsilon_i - \mu)} + 1}$$
+$$
+\langle n_i \rangle = -\frac{1}{\beta}\frac{\partial \ln \mathcal{Z}_i}{\partial \mu} = \frac{e^{-\beta(\varepsilon_i - \mu)}}{1 + e^{-\beta(\varepsilon_i - \mu)}} = \frac{1}{e^{\beta(\varepsilon_i - \mu)} + 1}
+$$
 
 $\blacksquare$
 
@@ -1016,26 +1270,36 @@ $f_{\mathrm{FD}(\varepsilon)
 
 **Density of states** for a 3D free electron gas:
 
-$$g(\varepsilon) = \frac{V}{2\pi^2}\left(\frac{2m}{\hbar^2}\right)^{3/2} \sqrt{\varepsilon}$$
+$$
+g(\varepsilon) = \frac{V}{2\pi^2}\left(\frac{2m}{\hbar^2}\right)^{3/2} \sqrt{\varepsilon}
+$$
 
 The total number of electrons:
 
-$$N = \int_0^{\varepsilon_F} g(\varepsilon)\,d\varepsilon = \frac{V}{3\pi^2}\left(\frac{2m\varepsilon_F}{\hbar^2}\right)^{3/2}$$
+$$
+N = \int_0^{\varepsilon_F} g(\varepsilon)\,d\varepsilon = \frac{V}{3\pi^2}\left(\frac{2m\varepsilon_F}{\hbar^2}\right)^{3/2}
+$$
 
 ### 10.3 Bose-Einstein Statistics
 
 For bosons, any number of particles can occupy a single state:
 
-$$\langle n_i \rangle = \frac{1}{e^{\beta(\varepsilon_i - \mu)} - 1} = f_{\mathrm{BE}(\varepsilon_i)}$$
+$$
+\langle n_i \rangle = \frac{1}{e^{\beta(\varepsilon_i - \mu)} - 1} = f_{\mathrm{BE}(\varepsilon_i)}
+$$
 
 The chemical potential for bosons must satisfy $\mu \leq \varepsilon_0$ (lowest single-particle
 Energy) to ensure $\langle n_i \rangle \geq 0$.
 
 **Derivation.** For a single bosonic state:
 
-$$\mathcal{Z}_i = \sum_{n_i=0}^{\infty} e^{-\beta n_i(\varepsilon_i - \mu)} = \frac{1}{1 - e^{-\beta(\varepsilon_i - \mu)}}$$
+$$
+\mathcal{Z}_i = \sum_{n_i=0}^{\infty} e^{-\beta n_i(\varepsilon_i - \mu)} = \frac{1}{1 - e^{-\beta(\varepsilon_i - \mu)}}
+$$
 
-$$\langle n_i \rangle = -\frac{1}{\beta}\frac{\partial \ln \mathcal{Z}_i}{\partial \mu} = \frac{e^{-\beta(\varepsilon_i - \mu)}}{1 - e^{-\beta(\varepsilon_i - \mu)}} = \frac{1}{e^{\beta(\varepsilon_i - \mu)} - 1}$$
+$$
+\langle n_i \rangle = -\frac{1}{\beta}\frac{\partial \ln \mathcal{Z}_i}{\partial \mu} = \frac{e^{-\beta(\varepsilon_i - \mu)}}{1 - e^{-\beta(\varepsilon_i - \mu)}} = \frac{1}{e^{\beta(\varepsilon_i - \mu)} - 1}
+$$
 
 $\blacksquare$
 
@@ -1043,18 +1307,24 @@ $\blacksquare$
 
 For an ideal Bose gas in 3D, the critical temperature is:
 
-$$T_c = \frac{2\pi\hbar^2}{mk_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$$
+$$
+T_c = \frac{2\pi\hbar^2}{mk_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}
+$$
 
 Where $n = N/V$ is the particle density and $\zeta(3/2) \approx 2.612$.
 
 Below $T_c$The chemical potential is essentially zero ($\mu \approx 0$), and a macroscopic Fraction
 of particles condense into the ground state:
 
-$$\frac{N_0}{N} = 1 - \left(\frac{T}{T_c}\right)^{3/2}$$
+$$
+\frac{N_0}{N} = 1 - \left(\frac{T}{T_c}\right)^{3/2}
+$$
 
 **Derivation.** The number of particles in excited states is:
 
-$$N_{\mathrm{ex} = \int_0^{\infty} \frac{g(\varepsilon)\,d\varepsilon}{e^{\beta\varepsilon} - 1} = V\left(\frac{mk_B T}{2\pi\hbar^2}\right)^{3/2} \zeta(3/2)}$$
+$$
+N_{\mathrm{ex} = \int_0^{\infty} \frac{g(\varepsilon)\,d\varepsilon}{e^{\beta\varepsilon} - 1} = V\left(\frac{mk_B T}{2\pi\hbar^2}\right)^{3/2} \zeta(3/2)}
+$$
 
 This has a maximum value at $\mu = 0$. When $N \gt N_{\mathrm{ex}^{\mathrm{max}}}$The excess
 Particles must go to the ground state. Setting $N = N_{\mathrm{ex}^{\mathrm{max}}}$ at $T = T_c$
@@ -1062,7 +1332,9 @@ Gives the critical temperature above. $\blacksquare$
 
 ### 10.5 Comparison of the Three Statistics
 
-$$f_{\mathrm{MB} = e^{-\beta(\varepsilon - \mu)}, \quad f_{\mathrm{FD} = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1}, \quad f_{\mathrm{BE} = \frac{1}{e^{\beta(\varepsilon - \mu)} - 1}}}}$$
+$$
+f_{\mathrm{MB} = e^{-\beta(\varepsilon - \mu)}, \quad f_{\mathrm{FD} = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1}, \quad f_{\mathrm{BE} = \frac{1}{e^{\beta(\varepsilon - \mu)} - 1}}}}
+$$
 
 In the classical (dilute) limit $e^{\beta(\varepsilon - \mu)} \gg 1$All three reduce to the
 Maxwell-Boltzmann distribution. This occurs when $n \ll n_Q$ (dilute gas) or $T \gg T_F$ for
@@ -1072,14 +1344,20 @@ Fermions.
 
 For copper: one conduction electron per atom, $n \approx 8.5 \times 10^{28}$ m$^{-3}$.
 
-$$\varepsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3} \approx 7.0 \times 10^{-19}\ \mathrm{J} \approx 4.4\ \mathrm{eV}$$
+$$
+\varepsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3} \approx 7.0 \times 10^{-19}\ \mathrm{J} \approx 4.4\ \mathrm{eV}
+$$
 
-$$T_F = \frac{\varepsilon_F}{k_B} \approx 51000\ \mathrm{K}$$
+$$
+T_F = \frac{\varepsilon_F}{k_B} \approx 51000\ \mathrm{K}
+$$
 
 At room temperature ($T = 300$ K), $T/T_F \approx 0.006$ So the gas is deeply degenerate. The heat
 Capacity is:
 
-$$C_V \approx \frac{\pi^2}{2}Nk_B\frac{T}{T_F}$$
+$$
+C_V \approx \frac{\pi^2}{2}Nk_B\frac{T}{T_F}
+$$
 
 This is much smaller than the classical prediction $C_V = \frac{3}{2}Nk_B$Explaining why electrons
 Contribute negligibly to the heat capacity of metals at room temperature.
@@ -1093,15 +1371,21 @@ A reservoir at temperature $T$ and chemical potential $\mu$.
 
 The **grand partition function:**
 
-$$\Xi = \sum_N \sum_i e^{-\beta(E_i - \mu N)}$$
+$$
+\Xi = \sum_N \sum_i e^{-\beta(E_i - \mu N)}
+$$
 
 The probability of finding the system in state $i$ with $N$ particles:
 
-$$P_{i,N} = \frac{e^{-\beta(E_i - \mu N)}}{\Xi}$$
+$$
+P_{i,N} = \frac{e^{-\beta(E_i - \mu N)}}{\Xi}
+$$
 
 ### 11.2 Connection to Thermodynamics
 
-$$\ln \Xi = \beta PV$$
+$$
+\ln \Xi = \beta PV
+$$
 
 This follows from the Euler relation for the grand potential $\Phi_G = -PV = F - \mu N$.
 
@@ -1116,7 +1400,9 @@ This follows from the Euler relation for the grand potential $\Phi_G = -PV = F -
 
 The number fluctuations in the grand canonical ensemble:
 
-$$\frac{\langle N^2 \rangle - \langle N \rangle^2}{\langle N \rangle^2} = \frac{k_B T \kappa_T}{V}$$
+$$
+\frac{\langle N^2 \rangle - \langle N \rangle^2}{\langle N \rangle^2} = \frac{k_B T \kappa_T}{V}
+$$
 
 Where $\kappa_T = -\frac{1}{V}(\partial V/\partial P)_T$ is the isothermal compressibility. For an
 Ideal gas, this gives $\langle N^2 \rangle - \langle N \rangle^2 = \langle N \rangle$Consistent With
@@ -1128,7 +1414,9 @@ Poisson .../4-statistics-and-probability/2_statistics.
 
 In the canonical ensemble:
 
-$$\langle E^2 \rangle - \langle E \rangle^2 = k_B T^2 C_V$$
+$$
+\langle E^2 \rangle - \langle E \rangle^2 = k_B T^2 C_V
+$$
 
 **Proof.**
 $\langle E^2 \rangle - \langle E \rangle^2 = \frac{\partial^2 \ln Z}{\partial \beta^2}
@@ -1142,7 +1430,9 @@ This is a manifestation of the **fluctuation-dissipation theorem**: the response
 
 For a general observable $X$ coupled to its conjugate field $f$ via $H' = -fX$:
 
-$$\chi = \beta \left(\langle X^2 \rangle - \langle X \rangle^2\right)$$
+$$
+\chi = \beta \left(\langle X^2 \rangle - \langle X \rangle^2\right)
+$$
 
 Where $\chi = \partial \langle X \rangle / \partial f$ is the susceptibility. This connects the
 Linear response of a system to its spontaneous fluctuations.
@@ -1154,17 +1444,23 @@ Linear response of a system to its spontaneous fluctuations.
 Treating electromagnetic radiation in a cavity as a gas of non-interacting photons (bosons with
 $\mu = 0$):
 
-$$\langle n(\omega) \rangle = \frac{1}{e^{\beta\hbar\omega} - 1}$$
+$$
+\langle n(\omega) \rangle = \frac{1}{e^{\beta\hbar\omega} - 1}
+$$
 
 The **spectral energy density** (energy per unit volume per unit frequency):
 
-$$u(\omega) = \frac{\hbar \omega^3}{\pi^2 c^3} \cdot \frac{1}{e^{\beta\hbar\omega} - 1}$$
+$$
+u(\omega) = \frac{\hbar \omega^3}{\pi^2 c^3} \cdot \frac{1}{e^{\beta\hbar\omega} - 1}
+$$
 
 **Derivation.** The density of photon states in a cavity of volume $V$ is
 $g(\omega) = V\omega^2/(\pi^2 c^3)$. Each photon has energy $\hbar\omega$ And the mean occupation
 Number is the Bose-Einstein distribution with $\mu = 0$:
 
-$$u(\omega) = \frac{g(\omega)}{V} \cdot \hbar\omega \cdot \langle n(\omega) \rangle = \frac{\omega^2}{\pi^2 c^3} \cdot \frac{\hbar\omega}{e^{\beta\hbar\omega} - 1}$$
+$$
+u(\omega) = \frac{g(\omega)}{V} \cdot \hbar\omega \cdot \langle n(\omega) \rangle = \frac{\omega^2}{\pi^2 c^3} \cdot \frac{\hbar\omega}{e^{\beta\hbar\omega} - 1}
+$$
 
 $\blacksquare$
 
@@ -1172,21 +1468,29 @@ $\blacksquare$
 
 The total energy density:
 
-$$u = \int_0^\infty u(\omega)\,d\omega = \frac{\hbar}{\pi^2 c^3} \int_0^\infty \frac{\omega^3\,d\omega}{e^{\beta\hbar\omega} - 1}$$
+$$
+u = \int_0^\infty u(\omega)\,d\omega = \frac{\hbar}{\pi^2 c^3} \int_0^\infty \frac{\omega^3\,d\omega}{e^{\beta\hbar\omega} - 1}
+$$
 
 Substituting $x = \beta\hbar\omega$:
 
-$$u = \frac{(k_B T)^4}{\pi^2 \hbar^3 c^3} \int_0^\infty \frac{x^3}{e^x - 1}\,dx = \frac{(k_B T)^4}{\pi^2 \hbar^3 c^3} \cdot \frac{\pi^4}{15} = \frac{\pi^2 k_B^4}{15\hbar^3 c^3} T^4$$
+$$
+u = \frac{(k_B T)^4}{\pi^2 \hbar^3 c^3} \int_0^\infty \frac{x^3}{e^x - 1}\,dx = \frac{(k_B T)^4}{\pi^2 \hbar^3 c^3} \cdot \frac{\pi^4}{15} = \frac{\pi^2 k_B^4}{15\hbar^3 c^3} T^4
+$$
 
 The **Stefan-Boltzmann law** for radiated power per unit area:
 
-$${j = \frac{c}{4} u = \sigma T^4, \quad \sigma = \frac{\pi^2 k_B^4}{60\hbar^3 c^2} \approx 5.67 \times 10^{-8}\ \mathrm{W}\,m^{-2}\,K^{-4}}$$
+$$
+{j = \frac{c}{4} u = \sigma T^4, \quad \sigma = \frac{\pi^2 k_B^4}{60\hbar^3 c^2} \approx 5.67 \times 10^{-8}\ \mathrm{W}\,m^{-2}\,K^{-4}}
+$$
 
 ### 13.3 Wien's Displacement Law
 
 The peak of $u(\lambda)$ occurs at:
 
-$$\lambda_{\mathrm{max} T = 2.898 \times 10^{-3}\ \mathrm{m}\cdot K}$$
+$$
+\lambda_{\mathrm{max} T = 2.898 \times 10^{-3}\ \mathrm{m}\cdot K}
+$$
 
 This follows from maximising $u(\lambda) = (8\pi h c / \lambda^5)(e^{hc/(\lambda k_B T)} - 1)^{-1}$
 With respect to $\lambda$.
@@ -1195,7 +1499,9 @@ With respect to $\lambda$.
 
 **Theorem 13.1 (Planck's law).** The spectral radiance of a blackbody is:
 
-$$B(\omega) = \frac{\hbar \omega^3}{4\pi^3 c^2} \cdot \frac{1}{e^{\beta\hbar\omega} - 1}$$
+$$
+B(\omega) = \frac{\hbar \omega^3}{4\pi^3 c^2} \cdot \frac{1}{e^{\beta\hbar\omega} - 1}
+$$
 
 **Proof.** Consider electromagnetic modes in a cavity of volume $V = L^3$ with periodic boundary
 Conditions. The allowed wavevectors are $\mathbf{k} = (2\pi/L)(n_x, n_y, n_z)$ with
@@ -1203,24 +1509,34 @@ $n_i \in
 \mathbb{Z}$. The number of modes with wavevector magnitude between $K$ and $K + dk$
 (counting two Polarisations) is:
 
-$$g(k)\,dk = \frac{V \cdot 4\pi k^2\,dk}{(2\pi)^3} \times 2 = \frac{Vk^2}{\pi^2}\,dk$$
+$$
+g(k)\,dk = \frac{V \cdot 4\pi k^2\,dk}{(2\pi)^3} \times 2 = \frac{Vk^2}{\pi^2}\,dk
+$$
 
 Converting to frequency using $\omega = ck$ and $dk = d\omega/c$:
 
-$$g(\omega)\,d\omega = \frac{V\omega^2}{\pi^2 c^3}\,d\omega$$
+$$
+g(\omega)\,d\omega = \frac{V\omega^2}{\pi^2 c^3}\,d\omega
+$$
 
 Each mode is a quantum harmonic oscillator with energy $\hbar\omega(n + 1/2)$. Since photons are
 Bosons with $\mu = 0$ (photon number is not conserved), the mean occupation number is:
 
-$$\langle n(\omega) \rangle = \frac{1}{e^{\beta\hbar\omega} - 1}$$
+$$
+\langle n(\omega) \rangle = \frac{1}{e^{\beta\hbar\omega} - 1}
+$$
 
 The energy in modes between $\omega$ and $\omega + d\omega$ is:
 
-$$dU = g(\omega)\,d\omega \cdot \hbar\omega \cdot \langle n(\omega) \rangle = \frac{V\hbar\omega^3}{\pi^2 c^3} \cdot \frac{d\omega}{e^{\beta\hbar\omega} - 1}$$
+$$
+dU = g(\omega)\,d\omega \cdot \hbar\omega \cdot \langle n(\omega) \rangle = \frac{V\hbar\omega^3}{\pi^2 c^3} \cdot \frac{d\omega}{e^{\beta\hbar\omega} - 1}
+$$
 
 The spectral energy density is $u(\omega) = (1/V)\,dU/d\omega$:
 
-$$u(\omega) = \frac{\hbar\omega^3}{\pi^2 c^3} \cdot \frac{1}{e^{\beta\hbar\omega} - 1}$$
+$$
+u(\omega) = \frac{\hbar\omega^3}{\pi^2 c^3} \cdot \frac{1}{e^{\beta\hbar\omega} - 1}
+$$
 
 $\blacksquare$
 
@@ -1234,24 +1550,34 @@ energy is quantised in units of $\hbar\omega$.
 
 **Theorem 13.2 (Stefan-Boltzmann).** The total radiated power per unit area from a blackbody is:
 
-$$j = \sigma T^4, \quad \sigma = \frac{\pi^2 k_B^4}{60\hbar^3 c^2}$$
+$$
+j = \sigma T^4, \quad \sigma = \frac{\pi^2 k_B^4}{60\hbar^3 c^2}
+$$
 
 **Proof.** Integrate the spectral energy density:
 
-$$u = \int_0^\infty u(\omega)\,d\omega = \frac{\hbar}{\pi^2 c^3} \int_0^\infty \frac{\omega^3\,d\omega}{e^{\beta\hbar\omega} - 1}$$
+$$
+u = \int_0^\infty u(\omega)\,d\omega = \frac{\hbar}{\pi^2 c^3} \int_0^\infty \frac{\omega^3\,d\omega}{e^{\beta\hbar\omega} - 1}
+$$
 
 Substituting $x = \beta\hbar\omega$:
 
-$$u = \frac{(k_B T)^4}{\pi^2 \hbar^3 c^3} \int_0^\infty \frac{x^3\,dx}{e^x - 1}$$
+$$
+u = \frac{(k_B T)^4}{\pi^2 \hbar^3 c^3} \int_0^\infty \frac{x^3\,dx}{e^x - 1}
+$$
 
 The integral $\int_0^\infty x^3/(e^x - 1)\,dx = \Gamma(4)\,\zeta(4) = 6 \times \pi^4/90 = \pi^4/15$.
 
-$$u = \frac{\pi^2 k_B^4}{15\hbar^3 c^3}\,T^4$$
+$$
+u = \frac{\pi^2 k_B^4}{15\hbar^3 c^3}\,T^4
+$$
 
 The radiated power per unit area (intensity) relates to the energy density by $j = cu/4$ (the Factor
 of $1/4$ accounts for the projection effect and the average of $\cos\theta$ over the Hemisphere):
 
-$$j = \frac{c}{4}u = \frac{\pi^2 k_B^4}{60\hbar^3 c^2}\,T^4 = \sigma T^4$$
+$$
+j = \frac{c}{4}u = \frac{\pi^2 k_B^4}{60\hbar^3 c^2}\,T^4 = \sigma T^4
+$$
 
 $\blacksquare$
 
@@ -1259,15 +1585,21 @@ $\blacksquare$
 
 **Theorem 13.3 (Wien's displacement law).** The peak of $u(\lambda)$ occurs at:
 
-$$\lambda_{\mathrm{max} T = b = 2.898 \times 10^{-3}\ \mathrm{m} \cdot K}$$
+$$
+\lambda_{\mathrm{max} T = b = 2.898 \times 10^{-3}\ \mathrm{m} \cdot K}
+$$
 
 **Proof.** Express the spectral energy density in terms of wavelength $\lambda = 2\pi c/\omega$:
 
-$$u(\lambda) = \frac{8\pi h c}{\lambda^5} \cdot \frac{1}{e^{hc/(\lambda k_B T)} - 1}$$
+$$
+u(\lambda) = \frac{8\pi h c}{\lambda^5} \cdot \frac{1}{e^{hc/(\lambda k_B T)} - 1}
+$$
 
 Setting $du/d\lambda = 0$ and substituting $x = hc/(\lambda k_B T)$:
 
-$$\frac{d}{dx}\left(\frac{x^5}{e^x - 1}\right) = 0 \implies 5(e^x - 1) - xe^x = 0$$
+$$
+\frac{d}{dx}\left(\frac{x^5}{e^x - 1}\right) = 0 \implies 5(e^x - 1) - xe^x = 0
+$$
 
 This transcendental equation has the solution $x \approx 4.965$Giving
 $\lambda_{\mathrm{max} T
@@ -1278,15 +1610,21 @@ $\lambda_{\mathrm{max} T
 
 The Sun's emission peaks at $\lambda_{\mathrm{max} \approx 502}$ nm (green). Using Wien’s law:
 
-$$T = \frac{b}{\lambda_{\mathrm{max}} = \frac{2.898 \times 10^{-3}}{502 \times 10^{-9}} \approx 5770\ \mathrm{K}}$$
+$$
+T = \frac{b}{\lambda_{\mathrm{max}} = \frac{2.898 \times 10^{-3}}{502 \times 10^{-9}} \approx 5770\ \mathrm{K}}
+$$
 
 The total radiated power per unit area:
 
-$$j = \sigma T^4 = (5.67 \times 10^{-8})(5770)^4 \approx 6.32 \times 10^7\ \mathrm{W}/m^2$$
+$$
+j = \sigma T^4 = (5.67 \times 10^{-8})(5770)^4 \approx 6.32 \times 10^7\ \mathrm{W}/m^2
+$$
 
 With solar radius $R_\odot \approx 6.96 \times 10^8$ m, the total luminosity is:
 
-$$L = 4\pi R_\odot^2 \cdot j \approx 4\pi(6.96 \times 10^8)^2 \times 6.32 \times 10^7 \approx 3.85 \times 10^{26}\ \mathrm{W}$$
+$$
+L = 4\pi R_\odot^2 \cdot j \approx 4\pi(6.96 \times 10^8)^2 \times 6.32 \times 10^7 \approx 3.85 \times 10^{26}\ \mathrm{W}
+$$
 
 This matches the measured solar luminosity to within a few percent, validating blackbody theory.
 
@@ -1298,7 +1636,9 @@ This matches the measured solar luminosity to within a few percent, validating b
 
 The **Ising model** is a lattice of $N$ spin-1/2 variables $s_i \in \\{+1, -1\\}$ with Hamiltonian:
 
-$$H = -J \sum_{\langle i,j \rangle} s_i s_j - h \sum_i s_i$$
+$$
+H = -J \sum_{\langle i,j \rangle} s_i s_j - h \sum_i s_i
+$$
 
 Where $J$ is the coupling constant, $\langle i,j \rangle$ denotes nearest neighbours, and $h$ is an
 External magnetic field.
@@ -1313,7 +1653,9 @@ External magnetic field.
 **Proof sketch.** Using the transfer matrix method, the partition function for $N$ spins with
 Periodic boundary conditions is:
 
-$$Z = \lambda_+^N + \lambda_-^N$$
+$$
+Z = \lambda_+^N + \lambda_-^N
+$$
 
 Where
 $\lambda_\pm = e^{\beta J}\cosh(\beta h) \pm \sqrt{e^{2\beta J}\sinh^2(\beta h) + e^{-2\beta J}}$.
@@ -1322,7 +1664,9 @@ In the thermodynamic limit ($N \to \infty$), $Z \to \lambda_+^N$ (the larger eig
 
 The magnetisation per spin is:
 
-$$m = \frac{1}{\beta}\frac{\partial \ln \lambda_+}{\partial h}$$
+$$
+m = \frac{1}{\beta}\frac{\partial \ln \lambda_+}{\partial h}
+$$
 
 For $h = 0$: $\lambda_+ = e^{\beta J} + e^{-\beta J} = 2\cosh(\beta J)$ And $m = 0$ for all
 $T \gt 0$. There is no spontaneous magnetisation, hence no phase transition. $\blacksquare$
@@ -1331,11 +1675,15 @@ $T \gt 0$. There is no spontaneous magnetisation, hence no phase transition. $\b
 
 Replace the interaction of spin $s_i$ with its neighbours by the mean field $m = \langle s \rangle$:
 
-$$H_{\mathrm{MF} = -J z m \sum_i s_i - h \sum_i s_i}$$
+$$
+H_{\mathrm{MF} = -J z m \sum_i s_i - h \sum_i s_i}
+$$
 
 Where $z$ is the coordination number. The self-consistency equation:
 
-$$m = \tanh\left[\beta(Jzm + h)\right]$$
+$$
+m = \tanh\left[\beta(Jzm + h)\right]
+$$
 
 For $h = 0$A non-zero solution exists when $T \lt T_c = Jz/k_B$.
 
@@ -1346,7 +1694,9 @@ The critical exponents in mean-field theory: $\beta = 1/2$, $\gamma = 1$, $\delt
 The Landau theory provides a phenomenological description of second-order phase transitions using a
 Free energy expanded in the **order parameter** $\phi$:
 
-$$F(\phi, T) = F_0(T) + a(T - T_c)\phi^2 + b\phi^4 + \cdots$$
+$$
+F(\phi, T) = F_0(T) + a(T - T_c)\phi^2 + b\phi^4 + \cdots
+$$
 
 Where $a \gt 0$ and $b \gt 0$.
 
@@ -1355,7 +1705,9 @@ Where $a \gt 0$ and $b \gt 0$.
 
 **Specific heat jump.** The entropy $S = -\partial F/\partial T$ has a discontinuity at $T_c$:
 
-$$\Delta C_P = -T_c \frac{\partial^2 F}{\partial T^2}\bigg|_{T_c^+}^{T_c^-} = \frac{a^2 T_c}{2b}$$
+$$
+\Delta C_P = -T_c \frac{\partial^2 F}{\partial T^2}\bigg|_{T_c^+}^{T_c^-} = \frac{a^2 T_c}{2b}
+$$
 
 **Limitations.** Landau theory neglects fluctuations and gives incorrect critical exponents in low
 Dimensions. It is exact in mean-field (infinite-range) models and above the upper critical dimension
@@ -1374,11 +1726,17 @@ Near a critical point, thermodynamic quantities follow power laws:
 
 The **scaling relations** (from the homogeneity hypothesis):
 
-$$\alpha + 2\beta + \gamma = 2 \quad \mathrm{(Rushbrooke)}$$
+$$
+\alpha + 2\beta + \gamma = 2 \quad \mathrm{(Rushbrooke)}
+$$
 
-$$\gamma = \beta(\delta - 1) \quad \mathrm{(Widom)}$$
+$$
+\gamma = \beta(\delta - 1) \quad \mathrm{(Widom)}
+$$
 
-$$\gamma = (2 - \eta)\nu \quad \mathrm{(Fisher)}$$
+$$
+\gamma = (2 - \eta)\nu \quad \mathrm{(Fisher)}
+$$
 
 These are verified experimentally and by renormalisation group calculations.
 
@@ -1399,7 +1757,9 @@ Particle number $N$. The fundamental postulate of statistical mechanics states:
 
 For a classical system, the number of microstates with energy between $E$ and $E + \delta E$ is:
 
-$$\Omega(E, V, N) = \frac{1}{N!h^{3N}} \int_{E \lt H(\mathbf{q},\mathbf{p}) \lt E+\delta E} d^{3N}q\,d^{3N}p$$
+$$
+\Omega(E, V, N) = \frac{1}{N!h^{3N}} \int_{E \lt H(\mathbf{q},\mathbf{p}) \lt E+\delta E} d^{3N}q\,d^{3N}p
+$$
 
 The factor $h^{3N}$ makes $\Omega$ dimensionless (and is justified by quantum mechanics), and $1/N!$
 accounts for indistinguishability.
@@ -1408,35 +1768,49 @@ accounts for indistinguishability.
 
 **Definition (Microcanonical temperature).** The temperature is defined by:
 
-$$\frac{1}{T} = \left(\frac{\partial S}{\partial E}\right)_{V,N}, \quad S = k_B \ln \Omega$$
+$$
+\frac{1}{T} = \left(\frac{\partial S}{\partial E}\right)_{V,N}, \quad S = k_B \ln \Omega
+$$
 
 **Definition (Microcanonical pressure).**
 
-$$P = T\left(\frac{\partial S}{\partial V}\right)_{E,N}$$
+$$
+P = T\left(\frac{\partial S}{\partial V}\right)_{E,N}
+$$
 
 **Definition (Microcanonical chemical potential).**
 
-$$\mu = -T\left(\frac{\partial S}{\partial N}\right)_{E,V}$$
+$$
+\mu = -T\left(\frac{\partial S}{\partial N}\right)_{E,V}
+$$
 
 ### 15.3 The Ideal Gas in the Microcanonical Ensemble
 
 **Theorem 15.1 (Sackur-Tetrode equation).** The entropy of a monatomic ideal gas is:
 
-$$S = Nk_B\left[\ln\left(\frac{V}{N}\left(\frac{4\pi m E}{3Nh^2}\right)^{3/2}\right) + \frac{5}{2}\right]$$
+$$
+S = Nk_B\left[\ln\left(\frac{V}{N}\left(\frac{4\pi m E}{3Nh^2}\right)^{3/2}\right) + \frac{5}{2}\right]
+$$
 
 **Proof.** For $N$ non-interacting particles, $H = \sum_{i=1}^N p_i^2/(2m)$. The number of
 Microstates with total energy between $E$ and $E + \delta E$ is the volume of a spherical shell in
 $3N$-dimensional momentum space:
 
-$$\Omega = \frac{1}{N!h^{3N}} V^N \cdot \frac{2\pi^{3N/2}}{\Gamma(3N/2)} (2mE)^{3N/2} \cdot \frac{3N\,\delta E}{2E}$$
+$$
+\Omega = \frac{1}{N!h^{3N}} V^N \cdot \frac{2\pi^{3N/2}}{\Gamma(3N/2)} (2mE)^{3N/2} \cdot \frac{3N\,\delta E}{2E}
+$$
 
 The factor $(3N\,\delta E)/(2E)$ is the shell thickness in radius. Taking the logarithm:
 
-$$\ln\Omega = N\ln V - \ln N! + \frac{3N}{2}\ln(2\pi m k_B T) - 3N\ln h + \frac{3N}{2} + \ln\left(\frac{3N\,\delta E}{2E}\right)$$
+$$
+\ln\Omega = N\ln V - \ln N! + \frac{3N}{2}\ln(2\pi m k_B T) - 3N\ln h + \frac{3N}{2} + \ln\left(\frac{3N\,\delta E}{2E}\right)
+$$
 
 Using Stirling's approximation $\ln N! \approx N\ln N - N$ and $E = \frac{3}{2}Nk_B T$:
 
-$$S = k_B\ln\Omega = Nk_B\left[\ln\left(\frac{V}{N}\left(\frac{4\pi m E}{3Nh^2}\right)^{3/2}\right) + \frac{5}{2}\right] + \mathcal{O}(\ln N)$$
+$$
+S = k_B\ln\Omega = Nk_B\left[\ln\left(\frac{V}{N}\left(\frac{4\pi m E}{3Nh^2}\right)^{3/2}\right) + \frac{5}{2}\right] + \mathcal{O}(\ln N)
+$$
 
 The $\mathcal{O}(\ln N)$ terms (from the shell thickness) are negligible compared to the
 $\mathcal{O}(N)$ Terms in the thermodynamic limit. $\blacksquare$
@@ -1454,15 +1828,21 @@ Distribution.
 Energy $E_S$) and reservoir $R$ (with energy $E_R = E_{\mathrm{tot} - E_S}$). The probability that
 $S$ is in a specific microstate with energy $E_S$ is:
 
-$$P(E_S) = \frac{\Omega_R(E_{\mathrm{tot} - E_S)}{\Omega_{\mathrm{tot}(E_{\mathrm{tot})}}}}$$
+$$
+P(E_S) = \frac{\Omega_R(E_{\mathrm{tot} - E_S)}{\Omega_{\mathrm{tot}(E_{\mathrm{tot})}}}}
+$$
 
 Since the reservoir is large, expand to first order:
 
-$$\ln\Omega_R(E_{\mathrm{tot} - E_S) \approx \ln\Omega_R(E_{\mathrm{tot}) - E_S\frac{\partial \ln\Omega_R}{\partial E_R}}}$$
+$$
+\ln\Omega_R(E_{\mathrm{tot} - E_S) \approx \ln\Omega_R(E_{\mathrm{tot}) - E_S\frac{\partial \ln\Omega_R}{\partial E_R}}}
+$$
 
 Using $\partial\ln\Omega_R/\partial E_R = 1/(k_B T)$:
 
-$$P(E_S) \propto e^{-E_S/(k_B T)} = e^{-\beta E_S}$$
+$$
+P(E_S) \propto e^{-E_S/(k_B T)} = e^{-\beta E_S}
+$$
 
 Normalising gives the Boltzmann distribution $P_i = e^{-\beta E_i}/Z$. $\blacksquare$
 
@@ -1476,11 +1856,15 @@ Before mixing: each gas occupies volume $V$. The total entropy is $S_i = 2 \time
 
 After mixing: each gas occupies volume $2V$. The total entropy is:
 
-$$S_f = S(N, 2V, T) + S(N, 2V, T) = 2 \times S(N, 2V, T)$$
+$$
+S_f = S(N, 2V, T) + S(N, 2V, T) = 2 \times S(N, 2V, T)
+$$
 
 From the Sackur-Tetrode equation, the change for each gas is:
 
-$$\Delta S_{\mathrm{one\ gas} = Nk_B\ln\frac{2V}{V} = Nk_B\ln 2}$$
+$$
+\Delta S_{\mathrm{one\ gas} = Nk_B\ln\frac{2V}{V} = Nk_B\ln 2}
+$$
 
 If the gases are _different_: $\Delta S = 2Nk_B\ln 2$.
 
@@ -1496,7 +1880,9 @@ partition function automatically resolves this paradox.
 
 The canonical partition function is $Z = \sum_i e^{-\beta E_i}$ for a discrete spectrum, or
 
-$$Z = \frac{1}{N!h^{3N}}\int e^{-\beta H(\mathbf{q},\mathbf{p})}\,d^{3N}q\,d^{3N}p$$
+$$
+Z = \frac{1}{N!h^{3N}}\int e^{-\beta H(\mathbf{q},\mathbf{p})}\,d^{3N}q\,d^{3N}p
+$$
 
 For a classical system.
 
@@ -1513,11 +1899,17 @@ For a classical system.
 
 **Proof (energy and heat capacity).**
 
-$$U = \langle E \rangle = \frac{1}{Z}\sum_i E_i e^{-\beta E_i} = -\frac{1}{Z}\frac{\partial Z}{\partial \beta} = -\frac{\partial \ln Z}{\partial \beta}$$
+$$
+U = \langle E \rangle = \frac{1}{Z}\sum_i E_i e^{-\beta E_i} = -\frac{1}{Z}\frac{\partial Z}{\partial \beta} = -\frac{\partial \ln Z}{\partial \beta}
+$$
 
-$$\langle E^2 \rangle = \frac{1}{Z}\sum_i E_i^2 e^{-\beta E_i} = \frac{1}{Z}\frac{\partial^2 Z}{\partial \beta^2}$$
+$$
+\langle E^2 \rangle = \frac{1}{Z}\sum_i E_i^2 e^{-\beta E_i} = \frac{1}{Z}\frac{\partial^2 Z}{\partial \beta^2}
+$$
 
-$$\langle E^2 \rangle - \langle E \rangle^2 = \frac{\partial^2 \ln Z}{\partial \beta^2} = -\frac{\partial U}{\partial \beta} = k_B T^2 C_V$$
+$$
+\langle E^2 \rangle - \langle E \rangle^2 = \frac{\partial^2 \ln Z}{\partial \beta^2} = -\frac{\partial U}{\partial \beta} = k_B T^2 C_V
+$$
 
 $\blacksquare$
 
@@ -1525,19 +1917,27 @@ $\blacksquare$
 
 **Theorem 16.2.** The classical partition function for $N$ indistinguishable ideal gas particles is:
 
-$$Z = \frac{1}{N!}\left(\frac{V}{\lambda^3}\right)^N$$
+$$
+Z = \frac{1}{N!}\left(\frac{V}{\lambda^3}\right)^N
+$$
 
 Where $\lambda = h/\sqrt{2\pi m k_B T}$ is the thermal de Broglie wavelength.
 
 **Proof.** For non-interacting particles, $H = \sum_{i=1}^N p_i^2/(2m)$:
 
-$$Z = \frac{1}{N!h^{3N}}\int_V d^{3N}q \int_{-\infty}^\infty d^{3N}p\;\exp\left(-\beta\sum_{i=1}^N\frac{p_i^2}{2m}\right)$$
+$$
+Z = \frac{1}{N!h^{3N}}\int_V d^{3N}q \int_{-\infty}^\infty d^{3N}p\;\exp\left(-\beta\sum_{i=1}^N\frac{p_i^2}{2m}\right)
+$$
 
-$$= \frac{V^N}{N!h^{3N}}\left[\int_{-\infty}^\infty e^{-\beta p^2/(2m)}\,dp\right]^{3N}$$
+$$
+= \frac{V^N}{N!h^{3N}}\left[\int_{-\infty}^\infty e^{-\beta p^2/(2m)}\,dp\right]^{3N}
+$$
 
 Using the Gaussian integral $\int_{-\infty}^\infty e^{-ax^2}\,dx = \sqrt{\pi/a}$:
 
-$$= \frac{V^N}{N!h^{3N}}\left(\frac{2\pi m}{\beta}\right)^{3N/2} = \frac{1}{N!}\left[\frac{V}{h^3}\left(\frac{2\pi m}{\beta}\right)^{3/2}\right]^N = \frac{1}{N!}\left(\frac{V}{\lambda^3}\right)^N$$
+$$
+= \frac{V^N}{N!h^{3N}}\left(\frac{2\pi m}{\beta}\right)^{3N/2} = \frac{1}{N!}\left[\frac{V}{h^3}\left(\frac{2\pi m}{\beta}\right)^{3/2}\right]^N = \frac{1}{N!}\left(\frac{V}{\lambda^3}\right)^N
+$$
 
 $\blacksquare$
 
@@ -1555,7 +1955,9 @@ done). Calculate $\Delta S$. Does this violate the second law?
 **Solution.** For a free expansion, $Q = 0$ and $W = 0$ So $\Delta U = 0$ and $\Delta T = 0$ (ideal
 gas). The entropy change is:
 
-$$\Delta S = nR\ln\frac{V_f}{V_i} = R\ln 2 \approx 5.76\ \mathrm{J}/K$$
+$$
+\Delta S = nR\ln\frac{V_f}{V_i} = R\ln 2 \approx 5.76\ \mathrm{J}/K
+$$
 
 This does not violate the second law. The second law states $\Delta S_{\mathrm{universe} \geq 0}$.
 For the system, $\Delta S = R\ln 2 \gt 0$. For the surroundings, $\Delta S_{\mathrm{surr} = 0}$ (no
@@ -1575,11 +1977,17 @@ Cycle from the hot reservoir. Find $Q_c$, $W$ And $\eta$.
 
 **Solution.**
 
-$$\eta = 1 - \frac{T_c}{T_h} = 1 - \frac{300}{500} = 0.4$$
+$$
+\eta = 1 - \frac{T_c}{T_h} = 1 - \frac{300}{500} = 0.4
+$$
 
-$$W = \eta Q_h = 0.4 \times 1000 = 400\ \mathrm{J}$$
+$$
+W = \eta Q_h = 0.4 \times 1000 = 400\ \mathrm{J}
+$$
 
-$$Q_c = Q_h - W = 600\ \mathrm{J}$$
+$$
+Q_c = Q_h - W = 600\ \mathrm{J}
+$$
 
 **If you get this wrong, revise:** Section 4.1 (Carnot cycle) and Theorem 1.1 (Carnot's theorem).
 
@@ -1593,11 +2001,15 @@ Find $(\partial S/\partial V)_T$.
 
 **Solution.** Using $(\partial S/\partial V)_T = (\partial P/\partial T)_V$:
 
-$$\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V = \frac{R}{V_m - b}$$
+$$
+\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V = \frac{R}{V_m - b}
+$$
 
 Integrating at constant $T$:
 
-$$\Delta S = R\ln\frac{V_{m,f} - b}{V_{m,i} - b}$$
+$$
+\Delta S = R\ln\frac{V_{m,f} - b}{V_{m,i} - b}
+$$
 
 **If you get this wrong, revise:** Section 3.1 (Maxwell relation derivation) and Section 3.3
 (applications).
@@ -1613,11 +2025,17 @@ $C_P - C_V$ and $C_V$.
 
 **Solution.**
 
-$$C_P - C_V = \frac{TV_m\alpha^2}{\kappa_T} = \frac{300 \times 2.5 \times 10^{-5} \times (3 \times 10^{-5})^2}{6 \times 10^{-12}}$$
+$$
+C_P - C_V = \frac{TV_m\alpha^2}{\kappa_T} = \frac{300 \times 2.5 \times 10^{-5} \times (3 \times 10^{-5})^2}{6 \times 10^{-12}}
+$$
 
-$$= \frac{300 \times 2.5 \times 10^{-5} \times 9 \times 10^{-10}}{6 \times 10^{-12}} = \frac{6.75 \times 10^{-12}}{6 \times 10^{-12}} = 1.125\ \mathrm{J}/(mol \cdot K)$$
+$$
+= \frac{300 \times 2.5 \times 10^{-5} \times 9 \times 10^{-10}}{6 \times 10^{-12}} = \frac{6.75 \times 10^{-12}}{6 \times 10^{-12}} = 1.125\ \mathrm{J}/(mol \cdot K)
+$$
 
-$$C_V = C_P - 1.125 \approx 23.9\ \mathrm{J}/(mol \cdot K)$$
+$$
+C_V = C_P - 1.125 \approx 23.9\ \mathrm{J}/(mol \cdot K)
+$$
 
 For a solid at room temperature, $C_P - C_V$ is small (a few percent of $C_P$).
 
@@ -1635,13 +2053,21 @@ $M = -(\partial F/\partial B)_T$.
 **Solution.** Single-particle partition function:
 $z = e^{\beta\mu_B B} + e^{-\beta\mu_B B} = 2\cosh(\beta\mu_B B)$.
 
-$$Z = z^N = 2^N \cosh^N(\beta\mu_B B)$$
+$$
+Z = z^N = 2^N \cosh^N(\beta\mu_B B)
+$$
 
-$$F = -k_B T \ln Z = -Nk_B T\left[\ln 2 + \ln\cosh(\beta\mu_B B)\right]$$
+$$
+F = -k_B T \ln Z = -Nk_B T\left[\ln 2 + \ln\cosh(\beta\mu_B B)\right]
+$$
 
-$$S = -\left(\frac{\partial F}{\partial T}\right)_B = Nk_B\left[\ln 2 + \ln\cosh(\beta\mu_B B) - \beta\mu_B B\tanh(\beta\mu_B B)\right]$$
+$$
+S = -\left(\frac{\partial F}{\partial T}\right)_B = Nk_B\left[\ln 2 + \ln\cosh(\beta\mu_B B) - \beta\mu_B B\tanh(\beta\mu_B B)\right]
+$$
 
-$$M = -\left(\frac{\partial F}{\partial B}\right)_T = N\mu_B\tanh(\beta\mu_B B)$$
+$$
+M = -\left(\frac{\partial F}{\partial B}\right)_T = N\mu_B\tanh(\beta\mu_B B)
+$$
 
 At high $T$: $M \approx N\mu_B^2 B/(k_B T)$ (Curie's law). At $T = 0$: $M = N\mu_B$ (saturation).
 
@@ -1658,11 +2084,17 @@ $C_V$ And $S$. Find the high- and low-temperature limits.
 
 **Solution.**
 
-$$Z = \sum_{n=0}^\infty e^{-\beta\hbar\omega(n+1/2)} = \frac{e^{-\beta\hbar\omega/2}}{1 - e^{-\beta\hbar\omega}}$$
+$$
+Z = \sum_{n=0}^\infty e^{-\beta\hbar\omega(n+1/2)} = \frac{e^{-\beta\hbar\omega/2}}{1 - e^{-\beta\hbar\omega}}
+$$
 
-$$U = -\frac{\partial\ln Z}{\partial\beta} = \frac{\hbar\omega}{2} + \frac{\hbar\omega}{e^{\beta\hbar\omega} - 1}$$
+$$
+U = -\frac{\partial\ln Z}{\partial\beta} = \frac{\hbar\omega}{2} + \frac{\hbar\omega}{e^{\beta\hbar\omega} - 1}
+$$
 
-$$C_V = \frac{\partial U}{\partial T} = k_B(\beta\hbar\omega)^2 \frac{e^{\beta\hbar\omega}}{(e^{\beta\hbar\omega} - 1)^2}$$
+$$
+C_V = \frac{\partial U}{\partial T} = k_B(\beta\hbar\omega)^2 \frac{e^{\beta\hbar\omega}}{(e^{\beta\hbar\omega} - 1)^2}
+$$
 
 High $T$ ($\beta\hbar\omega \ll 1$): $U \approx k_B T$, $C_V \approx k_B$ (equipartition). Low $T$
 ($\beta\hbar\omega \gg 1$): $U \approx \hbar\omega/2$ (zero-point energy),
@@ -1684,13 +2116,21 @@ Kg/m$^3$. Calculate the Fermi energy $\varepsilon_F$ and Fermi temperature $T_F$
 $n = (\rho N_A / M) = (970 \times 6.022 \times 10^{23}) / (0.023)
 = 2.54 \times 10^{28}$ m$^{-3}$.
 
-$$\varepsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3} = \frac{(1.055 \times 10^{-34})^2}{2 \times 9.109 \times 10^{-31}}(3\pi^2 \times 2.54 \times 10^{28})^{2/3}$$
+$$
+\varepsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3} = \frac{(1.055 \times 10^{-34})^2}{2 \times 9.109 \times 10^{-31}}(3\pi^2 \times 2.54 \times 10^{28})^{2/3}
+$$
 
-$${(3\pi^2 n)^{2/3} = (7.55 \times 10^{29})^{2/3} = 8.28 \times 10^{19}\ \mathrm{m}^{-2}}$$
+$$
+{(3\pi^2 n)^{2/3} = (7.55 \times 10^{29})^{2/3} = 8.28 \times 10^{19}\ \mathrm{m}^{-2}}
+$$
 
-$$\varepsilon_F = \frac{1.113 \times 10^{-68}}{1.822 \times 10^{-30}} \times 8.28 \times 10^{19} = 5.06 \times 10^{-19}\ \mathrm{J} \approx 3.16\ \mathrm{eV}$$
+$$
+\varepsilon_F = \frac{1.113 \times 10^{-68}}{1.822 \times 10^{-30}} \times 8.28 \times 10^{19} = 5.06 \times 10^{-19}\ \mathrm{J} \approx 3.16\ \mathrm{eV}
+$$
 
-$$T_F = \frac{\varepsilon_F}{k_B} = \frac{5.06 \times 10^{-19}}{1.381 \times 10^{-23}} \approx 36600\ \mathrm{K}$$
+$$
+T_F = \frac{\varepsilon_F}{k_B} = \frac{5.06 \times 10^{-19}}{1.381 \times 10^{-23}} \approx 36600\ \mathrm{K}
+$$
 
 **If you get this wrong, revise:** Section 10.2 (Fermi-Dirac
 .../4-statistics-and-probability/2_statistics) and Section 10.6 (electron Gas in metals).
@@ -1709,13 +2149,19 @@ $g(\varepsilon) = \varepsilon^2 /
 $\bar\omega = (\omega_x\omega_y\omega_z)^{1/3}$. The BEC condition Is
 $N = \zeta(3)(k_B T_c/\hbar\bar\omega)^3$:
 
-$$T_c = \frac{\hbar\bar\omega}{k_B}\left(\frac{N}{\zeta(3)}\right)^{1/3}$$
+$$
+T_c = \frac{\hbar\bar\omega}{k_B}\left(\frac{N}{\zeta(3)}\right)^{1/3}
+$$
 
 Assuming $\bar\omega = 2\pi \times 100$ Hz:
 
-$$T_c = \frac{1.055 \times 10^{-34} \times 2\pi \times 100}{1.381 \times 10^{-23}} \times \left(\frac{10^4}{2.612}\right)^{1/3}$$
+$$
+T_c = \frac{1.055 \times 10^{-34} \times 2\pi \times 100}{1.381 \times 10^{-23}} \times \left(\frac{10^4}{2.612}\right)^{1/3}
+$$
 
-$$= 4.80 \times 10^{-9} \times 15.7 \approx 7.5 \times 10^{-8}\ \mathrm{K} = 75\ \mathrm{nK}$$
+$$
+= 4.80 \times 10^{-9} \times 15.7 \approx 7.5 \times 10^{-8}\ \mathrm{K} = 75\ \mathrm{nK}
+$$
 
 This is consistent with experimental BEC observations in laser-cooled atom traps.
 
@@ -1733,7 +2179,9 @@ Discuss the sign of $\mu$.
 
 **Solution.** From $F = -Nk_B T[\ln(V/N\lambda^3) + 1]$:
 
-$$\mu = \left(\frac{\partial F}{\partial N}\right)_{T,V} = -k_B T\ln\left(\frac{V}{N\lambda^3}\right) = k_B T\ln\left(\frac{N\lambda^3}{V}\right) = k_B T\ln(n\lambda^3)$$
+$$
+\mu = \left(\frac{\partial F}{\partial N}\right)_{T,V} = -k_B T\ln\left(\frac{V}{N\lambda^3}\right) = k_B T\ln\left(\frac{N\lambda^3}{V}\right) = k_B T\ln(n\lambda^3)
+$$
 
 When $n\lambda^3 \ll 1$ (classical regime, dilute gas or high $T$): $\mu \lt 0$. When
 $n\lambda^3 \to
@@ -1753,13 +2201,19 @@ Is the total entropy? If a field is applied and all spins align, what is $\Delta
 
 **Solution.** In zero field, all $2^N$ microstates are equally probable:
 
-$$S = k_B\ln\Omega = k_B\ln(2^N) = Nk_B\ln 2 = 100 \times 1.381 \times 10^{-23} \times 0.693 \approx 9.57 \times 10^{-22}\ \mathrm{J}/K$$
+$$
+S = k_B\ln\Omega = k_B\ln(2^N) = Nk_B\ln 2 = 100 \times 1.381 \times 10^{-23} \times 0.693 \approx 9.57 \times 10^{-22}\ \mathrm{J}/K
+$$
 
 When all spins are aligned (one microstate):
 
-$$S_f = k_B\ln 1 = 0$$
+$$
+S_f = k_B\ln 1 = 0
+$$
 
-$$\Delta S = -Nk_B\ln 2$$
+$$
+\Delta S = -Nk_B\ln 2
+$$
 
 This is the maximum entropy change achievable by applying a magnetic field to a spin system, and
 Forms the basis of magnetic cooling (adiabatic demagnetisation refrigeration).
@@ -1776,11 +2230,17 @@ energy inside and the radiation pressure on the walls.
 
 **Solution.** Total energy density:
 
-$$u = \frac{\pi^2 k_B^4}{15\hbar^3 c^3}\,T^4 = \frac{\pi^2(1.381 \times 10^{-23})^4}{15(1.055 \times 10^{-34})^3(3 \times 10^8)^3} \times (1000)^4$$
+$$
+u = \frac{\pi^2 k_B^4}{15\hbar^3 c^3}\,T^4 = \frac{\pi^2(1.381 \times 10^{-23})^4}{15(1.055 \times 10^{-34})^3(3 \times 10^8)^3} \times (1000)^4
+$$
 
-$$= \frac{7.56 \times 10^{-16}}{15 \times 1.17 \times 10^{-102} \times 2.7 \times 10^{25}} \times 10^{12}$$
+$$
+= \frac{7.56 \times 10^{-16}}{15 \times 1.17 \times 10^{-102} \times 2.7 \times 10^{25}} \times 10^{12}
+$$
 
-$$u \approx 7.56 \times 10^{-16}\ \mathrm{J}/m^3$$
+$$
+u \approx 7.56 \times 10^{-16}\ \mathrm{J}/m^3
+$$
 
 Total energy: $U = uV = 7.56 \times 10^{-16} \times 10^{-6} = 7.56 \times 10^{-22}$ J.
 
@@ -1799,23 +2259,39 @@ Estimate the enthalpy of vaporisation and the normal boiling point.
 
 **Solution.** From the integrated Clausius-Clapeyron equation:
 
-$$\ln\frac{P_2}{P_1} = -\frac{L_v}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{P_2}{P_1} = -\frac{L_v}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
-$$\ln\frac{300}{75} = -\frac{L_v}{8.314}\left(\frac{1}{323} - \frac{1}{293}\right)$$
+$$
+\ln\frac{300}{75} = -\frac{L_v}{8.314}\left(\frac{1}{323} - \frac{1}{293}\right)
+$$
 
-$$\ln 4 = 1.386 = -\frac{L_v}{8.314}(-3.16 \times 10^{-4})$$
+$$
+\ln 4 = 1.386 = -\frac{L_v}{8.314}(-3.16 \times 10^{-4})
+$$
 
-$$L_v = \frac{1.386 \times 8.314}{3.16 \times 10^{-4}} \approx 36400\ \mathrm{J}/mol$$
+$$
+L_v = \frac{1.386 \times 8.314}{3.16 \times 10^{-4}} \approx 36400\ \mathrm{J}/mol
+$$
 
 Normal boiling point ($P = 760$ mmHg):
 
-$$\ln\frac{760}{75} = -\frac{36400}{8.314}\left(\frac{1}{T_b} - \frac{1}{293}\right)$$
+$$
+\ln\frac{760}{75} = -\frac{36400}{8.314}\left(\frac{1}{T_b} - \frac{1}{293}\right)
+$$
 
-$$2.313 = -4378\left(\frac{1}{T_b} - 0.00341\right)$$
+$$
+2.313 = -4378\left(\frac{1}{T_b} - 0.00341\right)
+$$
 
-$$\frac{1}{T_b} = 0.00341 + \frac{2.313}{4378} = 0.00394$$
+$$
+\frac{1}{T_b} = 0.00341 + \frac{2.313}{4378} = 0.00394
+$$
 
-$$T_b \approx 354\ \mathrm{K} \approx 81\degree\mathrm{C}$$
+$$
+T_b \approx 354\ \mathrm{K} \approx 81\degree\mathrm{C}
+$$
 
 (Experimental value: $80.1\degree$C, showing good agreement.)
 
@@ -1835,19 +2311,29 @@ $\langle N^2 \rangle - \langle N \rangle^2$ for (a) fermions and (b) bosons.
 
 **(a) Fermions:** $\mathcal{Z} = 1 + e^{-\beta(\varepsilon - \mu)}$.
 
-$$\langle N \rangle = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1} = f_{\mathrm{FD}}$$
+$$
+\langle N \rangle = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1} = f_{\mathrm{FD}}
+$$
 
 $$\langle N^2 \rangle = \langle N \rangle$$ (since $N^2 = N$ for $N = 0, 1$)
 
-$$\langle N^2 \rangle - \langle N \rangle^2 = f_{\mathrm{FD}(1 - f_{\mathrm{FD})}}$$
+$$
+\langle N^2 \rangle - \langle N \rangle^2 = f_{\mathrm{FD}(1 - f_{\mathrm{FD})}}
+$$
 
 **(b) Bosons:** $\mathcal{Z} = (1 - e^{-\beta(\varepsilon - \mu)})^{-1}$.
 
-$$\langle N \rangle = \frac{1}{e^{\beta(\varepsilon - \mu)} - 1} = f_{\mathrm{BE}}$$
+$$
+\langle N \rangle = \frac{1}{e^{\beta(\varepsilon - \mu)} - 1} = f_{\mathrm{BE}}
+$$
 
-$$\langle N^2 \rangle = \frac{1 + e^{-\beta(\varepsilon - \mu)}}{(1 - e^{-\beta(\varepsilon - \mu)})^2}$$
+$$
+\langle N^2 \rangle = \frac{1 + e^{-\beta(\varepsilon - \mu)}}{(1 - e^{-\beta(\varepsilon - \mu)})^2}
+$$
 
-$$\langle N^2 \rangle - \langle N \rangle^2 = f_{\mathrm{BE}(1 + f_{\mathrm{BE})}}$$
+$$
+\langle N^2 \rangle - \langle N \rangle^2 = f_{\mathrm{BE}(1 + f_{\mathrm{BE})}}
+$$
 
 Note: boson fluctuations are larger than fermion fluctuations at the same $\varepsilon, \mu, T$.
 
@@ -1866,11 +2352,15 @@ $T_c^{\mathrm{exact} = 2J/(k_B\ln(1 +
 
 **Solution.** The coordination number is $z = 4$. Mean-field theory gives:
 
-$$T_c^{\mathrm{MF} = \frac{Jz}{k_B} = \frac{4J}{k_B}}$$
+$$
+T_c^{\mathrm{MF} = \frac{Jz}{k_B} = \frac{4J}{k_B}}
+$$
 
 Exact result:
 
-$$T_c^{\mathrm{exact} = \frac{2J}{k_B\ln(1 + \sqrt{2})} = \frac{2J}{k_B \times 0.881} = \frac{2.27J}{k_B}}$$
+$$
+T_c^{\mathrm{exact} = \frac{2J}{k_B\ln(1 + \sqrt{2})} = \frac{2J}{k_B \times 0.881} = \frac{2.27J}{k_B}}
+$$
 
 The ratio: $T_c^{\mathrm{MF}/T_c^{\mathrm{exact} = 4/2.27 \approx 1.76}}$. Mean-field theory
 Overestimates $T_c$ by 76% in 2D, because fluctuations (neglected in mean-field) are large in two
@@ -1908,15 +2398,21 @@ $d = 3.6 \times 10^{-10}$ m, $C_V = \frac{3}{2}k_B$ per atom.)
 
 With $n = P/(k_B T) = 101325/(1.381 \times 10^{-23} \times 273) = 2.69 \times 10^{25}$ m$^{-3}$:
 
-$$\lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi(3.6 \times 10^{-10})^2 \times 2.69 \times 10^{25}} \approx 6.5 \times 10^{-8}\ \mathrm{m}}$$
+$$
+\lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi(3.6 \times 10^{-10})^2 \times 2.69 \times 10^{25}} \approx 6.5 \times 10^{-8}\ \mathrm{m}}
+$$
 
 Mean speed:
 $\langle v \rangle = \sqrt{8k_B T/(\pi m)} = \sqrt{8 \times 1.381 \times 10^{-23} \times 273 / (\pi \times 6.63 \times 10^{-26})} \approx 398$
 m/s.
 
-$$\kappa = \frac{1}{3}n\langle v\rangle\lambda_{\mathrm{mfp} \cdot \frac{3}{2}k_B = \frac{1}{2}nk_B\langle v\rangle\lambda_{\mathrm{mfp}}}$$
+$$
+\kappa = \frac{1}{3}n\langle v\rangle\lambda_{\mathrm{mfp} \cdot \frac{3}{2}k_B = \frac{1}{2}nk_B\langle v\rangle\lambda_{\mathrm{mfp}}}
+$$
 
-$$= \frac{1}{2} \times 2.69 \times 10^{25} \times 1.381 \times 10^{-23} \times 398 \times 6.5 \times 10^{-8} \approx 0.019\ \mathrm{W}/(m \cdot K)$$
+$$
+= \frac{1}{2} \times 2.69 \times 10^{25} \times 1.381 \times 10^{-23} \times 398 \times 6.5 \times 10^{-8} \approx 0.019\ \mathrm{W}/(m \cdot K)
+$$
 
 The experimental value is approximately 0.018 W/(m$\cdot$K), reasonable agreement for the
 hard-sphere Model.
@@ -1934,11 +2430,15 @@ $T = 90$ K and the specific heat jump $\Delta C_P$ at $T_c$.
 
 **Solution.** Order parameter below $T_c$:
 
-$$\phi = \pm\sqrt{\frac{a(T_c - T)}{2b}} = \pm\sqrt{\frac{0.1 \times 10}{2 \times 0.05}} = \pm\sqrt{10} \approx \pm 3.16$$
+$$
+\phi = \pm\sqrt{\frac{a(T_c - T)}{2b}} = \pm\sqrt{\frac{0.1 \times 10}{2 \times 0.05}} = \pm\sqrt{10} \approx \pm 3.16
+$$
 
 Specific heat jump:
 
-$$\Delta C_P = \frac{a^2 T_c}{2b} = \frac{0.01 \times 100}{0.1} = 10\ \mathrm{J}/(mol \cdot K)$$
+$$
+\Delta C_P = \frac{a^2 T_c}{2b} = \frac{0.01 \times 100}{0.1} = 10\ \mathrm{J}/(mol \cdot K)
+$$
 
 **If you get this wrong, revise:** Section 14.4 (Landau theory) and Section 6.1 (classification of
 Phase transitions).
@@ -1956,11 +2456,15 @@ $\sqrt{\langle N^2 \rangle - \langle N \rangle^2}/\langle N \rangle = 1/\sqrt{\l
 Contributions. Each single-particle state contributes independently, so the particle number is a sum
 Of independent Bernoulli-like random variables. By the central limit theorem:
 
-$$\langle N^2 \rangle - \langle N \rangle^2 = \langle N \rangle$$
+$$
+\langle N^2 \rangle - \langle N \rangle^2 = \langle N \rangle
+$$
 
 (Poisson .../4-statistics-and-probability/2_statistics for an ideal gas.)
 
-$$\frac{\sqrt{\langle N^2 \rangle - \langle N \rangle^2}}{\langle N \rangle} = \frac{1}{\sqrt{\langle N \rangle}}$$
+$$
+\frac{\sqrt{\langle N^2 \rangle - \langle N \rangle^2}}{\langle N \rangle} = \frac{1}{\sqrt{\langle N \rangle}}
+$$
 
 For $\langle N \rangle = 10^{23}$: relative fluctuations are $\sim 10^{-11.5}$Completely negligible
 - the grand canonical and canonical ensembles are equivalent for macroscopic systems.
@@ -2001,14 +2505,20 @@ $T$ near the melting point). Find $T_m$ and $L_f$.
 
 **Solution.** At the melting point, $G_{\mathrm{solid} = G_{\mathrm{liquid}}}$:
 
-$$-10000 + 30T_m = -9500 + 25T_m$$
+$$
+-10000 + 30T_m = -9500 + 25T_m
+$$
 
-$$5T_m = 500 \implies T_m = 100\ \mathrm{K}$$
+$$
+5T_m = 500 \implies T_m = 100\ \mathrm{K}
+$$
 
 Latent heat:
 $L_f = T_m(S_{\mathrm{liquid} - S_{\mathrm{solid}) = T_m(-\partial G_{\mathrm{liquid}/\partial T + \partial G_{\mathrm{solid}/\partial T)}}}}$
 
-$$L_f = 100 \times (30 - 25) = 500\ \mathrm{J}/mol$$
+$$
+L_f = 100 \times (30 - 25) = 500\ \mathrm{J}/mol
+$$
 
 We can verify with the Clausius-Clapeyron equation if $\Delta V$ is known.
 
@@ -2041,7 +2551,9 @@ Identical particles) and ensures that entropy is extensive.
 
 For a system not in equilibrium, the second law takes the form:
 
-$$\frac{dS}{dt} = \frac{dS_e}{dt} + \frac{dS_i}{dt} \geq 0$$
+$$
+\frac{dS}{dt} = \frac{dS_e}{dt} + \frac{dS_i}{dt} \geq 0
+$$
 
 Where $dS_e/dt$ is the entropy exchange with the environment (can be positive or negative) and
 $dS_i/dt \geq 0$ is the **entropy production** rate (always non-negative).
@@ -2049,13 +2561,17 @@ $dS_i/dt \geq 0$ is the **entropy production** rate (always non-negative).
 For coupled transport processes (heat flow $\mathbf{J}_q$ and particle flow $\mathbf{J}_n$ driven by
 $\nabla(1/T)$ and $-\nabla(\mu/T)$):
 
-$$\frac{dS_i}{dt} = \int\left[\mathbf{J}_q \cdot \nabla\!\left(\frac{1}{T}\right) - \mathbf{J}_n \cdot \nabla\!\left(\frac{\mu}{T}\right)\right] dV \geq 0$$
+$$
+\frac{dS_i}{dt} = \int\left[\mathbf{J}_q \cdot \nabla\!\left(\frac{1}{T}\right) - \mathbf{J}_n \cdot \nabla\!\left(\frac{\mu}{T}\right)\right] dV \geq 0
+$$
 
 ### 13.2 Onsager Reciprocal Relations
 
 In the linear regime (small gradients), the fluxes are linear functions of the forces:
 
-$$J_i = \sum_j L_{ij}F_j$$
+$$
+J_i = \sum_j L_{ij}F_j
+$$
 
 **Onsager's theorem:** The Onsager coefficients satisfy $L_{ij} = L_{ji}$ (when the forces and
 fluxes are chosen as conjugate pairs). This is a consequence of microscopic reversibility and has
@@ -2071,11 +2587,15 @@ important implications:
 The Boltzmann equation describes the evolution of the distribution function
 $f(\mathbf{r}, \mathbf{v}, t)$:
 
-$$\frac{\partial f}{\partial t} + \mathbf{v}\cdot\nabla_{\mathbf{r}}f + \frac{\mathbf{F}}{m}\cdot\nabla_{\mathbf{v}}f = \left(\frac{\partial f}{\partial t}\right)_{\text{coll}}$$
+$$
+\frac{\partial f}{\partial t} + \mathbf{v}\cdot\nabla_{\mathbf{r}}f + \frac{\mathbf{F}}{m}\cdot\nabla_{\mathbf{v}}f = \left(\frac{\partial f}{\partial t}\right)_{\text{coll}}
+$$
 
 The collision integral is often approximated by the **relaxation time approximation**:
 
-$$\left(\frac{\partial f}{\partial t}\right)_{\text{coll} \approx -\frac{f - f_0}{\tau(\mathbf{v})}}$$
+$$
+\left(\frac{\partial f}{\partial t}\right)_{\text{coll} \approx -\frac{f - f_0}{\tau(\mathbf{v})}}
+$$
 
 Where $f_0$ is the equilibrium (Maxwell--Boltzmann) distribution and $\tau$ is the relaxation time.
 
@@ -2092,7 +2612,9 @@ $dH/dt \leq 0$With equality only at equilibrium. This is the microscopic basis o
 
 **Green's function solution** (point source at origin, $t = 0$):
 
-$$n(\mathbf{r}, t) = \frac{N}{(4\pi Dt)^{3/2}}\exp\!\left(-\frac{r^2}{4Dt}\right)$$
+$$
+n(\mathbf{r}, t) = \frac{N}{(4\pi Dt)^{3/2}}\exp\!\left(-\frac{r^2}{4Dt}\right)
+$$
 
 The mean squared displacement: $\langle r^2 \rangle = 6Dt$.
 
@@ -2102,7 +2624,9 @@ The mean squared displacement: $\langle r^2 \rangle = 6Dt$.
 In a mixture of two gases with a temperature gradient, particles tend to migrate toward the cold
 end. The mass flux includes a thermal diffusion term:
 
-$$\mathbf{J}_n = -D\nabla n - nD_T\nabla T$$
+$$
+\mathbf{J}_n = -D\nabla n - nD_T\nabla T
+$$
 
 Where $D_T$ is the thermal diffusion coefficient. The **Soret coefficient** $S_T = D_T/D$
 characterises the strength of the effect.
@@ -2113,11 +2637,15 @@ millikelvin physics.
 
 The steady-state concentration gradient is:
 
-$$\frac{\nabla n}{n} = -S_T\,\nabla T$$
+$$
+\frac{\nabla n}{n} = -S_T\,\nabla T
+$$
 
 For $S_T = 0.01$ K$^{-1}$ and $\Delta T = 0.1$ K across a 10 cm column:
 
-$$\frac{\Delta n}{n} = S_T \Delta T = 0.001 = 0.1\%$$
+$$
+\frac{\Delta n}{n} = S_T \Delta T = 0.001 = 0.1\%
+$$
 
 </details>
 
@@ -2127,11 +2655,15 @@ $$\frac{\Delta n}{n} = S_T \Delta T = 0.001 = 0.1\%$$
 
 The velocity distribution of an ideal gas at temperature $T$:
 
-$$f(\mathbf{v}) = n\left(\frac{m}{2\pi k_B T}\right)^{3/2}\exp\!\left(-\frac{mv^2}{2k_B T}\right)$$
+$$
+f(\mathbf{v}) = n\left(\frac{m}{2\pi k_B T}\right)^{3/2}\exp\!\left(-\frac{mv^2}{2k_B T}\right)
+$$
 
 **Speed distribution** (integrating over angles):
 
-$$f(v)\,dv = 4\pi n\left(\frac{m}{2\pi k_B T}\right)^{3/2}v^2\exp\!\left(-\frac{mv^2}{2k_B T}\right)dv$$
+$$
+f(v)\,dv = 4\pi n\left(\frac{m}{2\pi k_B T}\right)^{3/2}v^2\exp\!\left(-\frac{mv^2}{2k_B T}\right)dv
+$$
 
 **Characteristic speeds:**
 
@@ -2143,7 +2675,9 @@ $$f(v)\,dv = 4\pi n\left(\frac{m}{2\pi k_B T}\right)^{3/2}v^2\exp\!\left(-\frac{
 
 The **mean free path** for hard-sphere molecules of diameter $d$:
 
-$$\ell = \frac{1}{\sqrt{2}\,n\pi d^2}$$
+$$
+\ell = \frac{1}{\sqrt{2}\,n\pi d^2}
+$$
 
 The factor $\sqrt{2}$ accounts for the relative motion of the scattering partners.
 
@@ -2151,9 +2685,13 @@ The **collision frequency:** $\nu = \langle v \rangle/\ell = \sqrt{2}\,n\pi d^2\
 
 For air at STP ($n \approx 2.5 \times 10^{25}$ m$^{-3}$, $d \approx 3.7 \times 10^{-10}$ m):
 
-$$\ell = \frac{1}{\sqrt{2} \times 2.5 \times 10^{25} \times \pi \times (3.7 \times 10^{-10})^2} = \frac{1}{1.52 \times 10^7} = 66\ \text{nm}$$
+$$
+\ell = \frac{1}{\sqrt{2} \times 2.5 \times 10^{25} \times \pi \times (3.7 \times 10^{-10})^2} = \frac{1}{1.52 \times 10^7} = 66\ \text{nm}
+$$
 
-$$\nu = \frac{445\ \text{m}/s}{66 \times 10^{-9}\,\text{m} = 6.7 \times 10^9\ \text{s}^{-1}}$$
+$$
+\nu = \frac{445\ \text{m}/s}{66 \times 10^{-9}\,\text{m} = 6.7 \times 10^9\ \text{s}^{-1}}
+$$
 
 ### 14.3 Transport Coefficients
 
@@ -2168,7 +2706,9 @@ $c_v$ is the specific heat per unit mass.
 
 **Chapman--Enskog theory** gives more accurate expressions with numerical corrections:
 
-$$\eta = \frac{5}{16}\frac{\sqrt{\pi m k_B T}}{\pi d^2}$$
+$$
+\eta = \frac{5}{16}\frac{\sqrt{\pi m k_B T}}{\pi d^2}
+$$
 
 <details>
 <summary>Worked Example 14.1: Effusion Through a Small Hole</summary>
@@ -2176,20 +2716,28 @@ $$\eta = \frac{5}{16}\frac{\sqrt{\pi m k_B T}}{\pi d^2}$$
 A container of nitrogen ($m = 28$ amu, $T = 300$ K) has a small hole of area $A$. The effusion rate
 (molecules per second escaping):
 
-$$\Phi = \frac{1}{4}n\langle v\rangle A = \frac{1}{4}n\sqrt{\frac{8k_BT}{\pi m}}\,A$$
+$$
+\Phi = \frac{1}{4}n\langle v\rangle A = \frac{1}{4}n\sqrt{\frac{8k_BT}{\pi m}}\,A
+$$
 
 At $P = 100$ Pa, $T = 300$ K:
 $n = P/(k_BT) = 100/(1.38 \times 10^{-23} \times 300) = 2.42 \times 10^{22}$ m$^{-3}$.
 
-$$\langle v \rangle = \sqrt{\frac{8 \times 1.38 \times 10^{-23} \times 300}{\pi \times 28 \times 1.66 \times 10^{-27}}} = \sqrt{\frac{3.31 \times 10^{-20}}{1.46 \times 10^{-25}}} = \sqrt{2.27 \times 10^5} = 476\ \text{m}/s$$
+$$
+\langle v \rangle = \sqrt{\frac{8 \times 1.38 \times 10^{-23} \times 300}{\pi \times 28 \times 1.66 \times 10^{-27}}} = \sqrt{\frac{3.31 \times 10^{-20}}{1.46 \times 10^{-25}}} = \sqrt{2.27 \times 10^5} = 476\ \text{m}/s
+$$
 
-$$\Phi = \frac{1}{4} \times 2.42 \times 10^{22} \times 476 \times A = 2.88 \times 10^{24}\,A\ \text{s}^{-1}$$
+$$
+\Phi = \frac{1}{4} \times 2.42 \times 10^{22} \times 476 \times A = 2.88 \times 10^{24}\,A\ \text{s}^{-1}
+$$
 
 For $A = 1\,\text{mm}^2 = 10^{-6}\,\text{m}^2$: $\Phi = 2.88 \times 10^{18}$ molecules/s.
 
 **Knudsen effusion:** The ratio of effusion rates for two gases with masses $m_1$ and $m_2$:
 
-$$\frac{\Phi_1}{\Phi_2} = \sqrt{\frac{m_2}{m_1}}$$
+$$
+\frac{\Phi_1}{\Phi_2} = \sqrt{\frac{m_2}{m_1}}
+$$
 
 This is the basis for isotope separation by gaseous diffusion.
 
@@ -2201,7 +2749,9 @@ This is the basis for isotope separation by gaseous diffusion.
 
 The **Shannon entropy** of a probability distribution $\{p_i\}$:
 
-$$S_{\text{Shannon} = -\sum_i p_i\ln p_i}$$
+$$
+S_{\text{Shannon} = -\sum_i p_i\ln p_i}
+$$
 
 This is mathematically identical to the Boltzmann entropy (up to the constant $k_B$), providing a
 deep connection between information theory and thermodynamics.
@@ -2215,7 +2765,9 @@ distribution.
 
 Erasing one bit of information in a memory element necessarily dissipates at least:
 
-$$E \geq k_B T \ln 2$$
+$$
+E \geq k_B T \ln 2
+$$
 
 Of energy as heat. This establishes a fundamental lower bound on the energy cost of computation.
 
@@ -2241,9 +2793,13 @@ subject to the constraint $\sum_n n\,p_n = \mu$ (fixed mean).
 
 Using Lagrange multipliers:
 
-$$\frac{\partial}{\partial p_n}\left[-\sum_n p_n\ln p_n - \lambda\sum_n p_n - \beta\sum_n n\,p_n\right] = 0$$
+$$
+\frac{\partial}{\partial p_n}\left[-\sum_n p_n\ln p_n - \lambda\sum_n p_n - \beta\sum_n n\,p_n\right] = 0
+$$
 
-$$-\ln p_n - 1 - \lambda - \beta n = 0 \implies p_n = e^{-1-\lambda}\,e^{-\beta n}$$
+$$
+-\ln p_n - 1 - \lambda - \beta n = 0 \implies p_n = e^{-1-\lambda}\,e^{-\beta n}
+$$
 
 Normalising $\sum_n p_n = 1$: $p_n = (1 - e^{-\beta})\,e^{-\beta n}$ (geometric distribution).
 
@@ -2310,21 +2866,33 @@ Mean free path:
 $\ell = 1/(\sqrt{2}\,n\pi d^2) = 1/(1.414 \times 2.69 \times 10^{25} \times \pi \times 1.296 \times 10^{-19}) = 1/(1.38 \times 10^7) = 72.5$
 nm.
 
-$$\kappa = \frac{1}{3}\rho\langle v\rangle\ell\,c_v = \frac{1}{3}\frac{nm\langle v\rangle\ell \times 3k_B}{2m} = \frac{1}{2}n\langle v\rangle\ell\,k_B$$
+$$
+\kappa = \frac{1}{3}\rho\langle v\rangle\ell\,c_v = \frac{1}{3}\frac{nm\langle v\rangle\ell \times 3k_B}{2m} = \frac{1}{2}n\langle v\rangle\ell\,k_B
+$$
 
-$$= \frac{1}{2} \times 2.69 \times 10^{25} \times 399 \times 72.5 \times 10^{-9} \times 1.38 \times 10^{-23}$$
+$$
+= \frac{1}{2} \times 2.69 \times 10^{25} \times 399 \times 72.5 \times 10^{-9} \times 1.38 \times 10^{-23}
+$$
 
-$$= \frac{1}{2} \times 2.69 \times 10^{25} \times 399 \times 10^{-9} \times 72.5 \times 1.38 \times 10^{-23}$$
+$$
+= \frac{1}{2} \times 2.69 \times 10^{25} \times 399 \times 10^{-9} \times 72.5 \times 1.38 \times 10^{-23}
+$$
 
-$$= 0.5 \times 2.69 \times 10^{25} \times 3.995 \times 10^2 \times 10^{-9} \times 10^{-23}$$
+$$
+= 0.5 \times 2.69 \times 10^{25} \times 3.995 \times 10^2 \times 10^{-9} \times 10^{-23}
+$$
 
-$$= 0.5 \times 2.69 \times 3.995 \times 72.5 \times 10^{-5} = 0.5 \times 7789 \times 10^{-5} = 0.0390\ \text{W}/(m\cdot\text{K})$$
+$$
+= 0.5 \times 2.69 \times 3.995 \times 72.5 \times 10^{-5} = 0.5 \times 7789 \times 10^{-5} = 0.0390\ \text{W}/(m\cdot\text{K})
+$$
 
 The kinetic theory prediction (0.039) overestimates the experimental value (0.0177) by about a
 factor of 2.2. This discrepancy is systematic and is resolved by the Chapman--Enskog theory, which
 gives:
 
-$$\kappa_{\text{CE} = \frac{25}{32}\kappa_{\text{simple} \approx 0.78 \times 0.039 = 0.030\ \text{W}/(m\cdot\text{K})}}$$
+$$
+\kappa_{\text{CE} = \frac{25}{32}\kappa_{\text{simple} \approx 0.78 \times 0.039 = 0.030\ \text{W}/(m\cdot\text{K})}}
+$$
 
 Still an overestimate; the remaining discrepancy is due to the hard-sphere model not accurately
 representing the real intermolecular potential of argon (which has an attractive well that reduces
@@ -2344,24 +2912,38 @@ $C[f] = -(f - f_0)/\tau$ leads to $dH/dt \leq 0$ where $H = \int f\ln f\, d^3v$.
 
 (a) For a spatially uniform gas with no external forces: $\partial f/\partial t = -(f - f_0)/\tau$.
 
-$$\frac{dH}{dt} = \int \frac{\partial f}{\partial t}(1 + \ln f)\,d^3v = -\frac{1}{\tau}\int(f - f_0)(1 + \ln f)\,d^3v$$
+$$
+\frac{dH}{dt} = \int \frac{\partial f}{\partial t}(1 + \ln f)\,d^3v = -\frac{1}{\tau}\int(f - f_0)(1 + \ln f)\,d^3v
+$$
 
-$$= -\frac{1}{\tau}\left[\int f\,d^3v - \int f_0\,d^3v + \int f\ln f\,d^3v - \int f_0\ln f\,d^3v\right]$$
+$$
+= -\frac{1}{\tau}\left[\int f\,d^3v - \int f_0\,d^3v + \int f\ln f\,d^3v - \int f_0\ln f\,d^3v\right]
+$$
 
 Since $\int f\,d^3v = \int f_0\,d^3v = n$ (number conservation):
 
-$$\frac{dH}{dt} = -\frac{1}{\tau}\left[\int f\ln f\,d^3v - \int f_0\ln f\,d^3v\right]$$
+$$
+\frac{dH}{dt} = -\frac{1}{\tau}\left[\int f\ln f\,d^3v - \int f_0\ln f\,d^3v\right]
+$$
 
-$$= -\frac{1}{\tau}\int (f - f_0)\ln f\,d^3v$$
+$$
+= -\frac{1}{\tau}\int (f - f_0)\ln f\,d^3v
+$$
 
 Using the Gibbs inequality $\int (f - f_0)\ln f\,d^3v \geq 0$ (since $x\ln x - x + 1 \geq 0$ with
 equality at $x = 1$):
 
-$$\frac{dH}{dt} = -\frac{1}{\tau}\int(f - f_0)(\ln f - \ln f_0)\,d^3v - \frac{1}{\tau}\int(f - f_0)\ln f_0\,d^3v$$
+$$
+\frac{dH}{dt} = -\frac{1}{\tau}\int(f - f_0)(\ln f - \ln f_0)\,d^3v - \frac{1}{\tau}\int(f - f_0)\ln f_0\,d^3v
+$$
 
-$$= -\frac{1}{\tau}\int(f - f_0)\ln(f/f_0)\,d^3v - \frac{\ln f_0}{\tau}\int(f - f_0)\,d^3v$$
+$$
+= -\frac{1}{\tau}\int(f - f_0)\ln(f/f_0)\,d^3v - \frac{\ln f_0}{\tau}\int(f - f_0)\,d^3v
+$$
 
-$$= -\frac{1}{\tau}\int(f - f_0)\ln(f/f_0)\,d^3v$$
+$$
+= -\frac{1}{\tau}\int(f - f_0)\ln(f/f_0)\,d^3v
+$$
 
 Since $x\ln x \geq x - 1$ for $x > 0$ (with equality at $x = 1$), the integrand
 $(f/f_0)\ln(f/f_0) - (f/f_0) + 1 \geq 0$ So $\int(f - f_0)\ln(f/f_0)\,d^3v \geq 0$.
@@ -2383,17 +2965,23 @@ mechanics.
 
 **Correlation functions:** The spin-spin correlation function:
 
-$$\langle\sigma_i\sigma_j\rangle = \tanh^n(\beta J)$$
+$$
+\langle\sigma_i\sigma_j\rangle = \tanh^n(\beta J)
+$$
 
 For the 1D chain with $n = |i - j|$. The **correlation length**:
 
-$$\xi = -\frac{1}{\ln\tanh(\beta J)}$$
+$$
+\xi = -\frac{1}{\ln\tanh(\beta J)}
+$$
 
 As $T \to T_c^-$: $\xi \to \infty$ (critical point).
 
 **Scaling near $T_c$:** The correlation function takes the scaling form:
 
-$$\langle\sigma_0\sigma_r\rangle \sim \frac{e^{-r/\xi}}{r^{(d-2+\eta)}}$$
+$$
+\langle\sigma_0\sigma_r\rangle \sim \frac{e^{-r/\xi}}{r^{(d-2+\eta)}}
+$$
 
 Where $\eta$ is a critical exponent ($\eta = 1/4$ for the 2D Ising model).
 
@@ -2421,15 +3009,21 @@ points correspond to scale-invariant theories (critical points).
 
 **epsilon expansion:** Expand in $\epsilon = 4 - d$. At one loop:
 
-$$\beta_u = \epsilon u - \frac{3}{16\pi^2}u^2 + \cdots$$
+$$
+\beta_u = \epsilon u - \frac{3}{16\pi^2}u^2 + \cdots
+$$
 
-$$\beta_\lambda = \epsilon\lambda - \frac{3}{16\pi^2}\lambda u + \cdots$$
+$$
+\beta_\lambda = \epsilon\lambda - \frac{3}{16\pi^2}\lambda u + \cdots
+$$
 
 Setting $\beta_u = 0$: $u^* = 16\pi^2\epsilon/3 + O(\epsilon^2)$.
 
 The critical exponents to order $\epsilon$:
 
-$$\nu = \frac{1}{2} + \frac{\epsilon}{6} + O(\epsilon^2)$$
+$$
+\nu = \frac{1}{2} + \frac{\epsilon}{6} + O(\epsilon^2)
+$$
 
 For $\epsilon = 1$ ($d = 3$): $\nu = 2/3 \approx 0.667$ (compare with the numerical value
 $\nu \approx 0.630$).
@@ -2438,7 +3032,9 @@ $\nu \approx 0.630$).
 
 The **Landau free energy** for a scalar order parameter $\phi$ near $T_c$:
 
-$$f(\phi, T) = f_0(T) + \frac{a_0}{2}(T - T_c)\phi^2 + \frac{b}{4}\phi^4$$
+$$
+f(\phi, T) = f_0(T) + \frac{a_0}{2}(T - T_c)\phi^2 + \frac{b}{4}\phi^4
+$$
 
 **Mean-field exponents:** $\alpha = 0$ (jump in $C$), $\beta = 1/2$, $\gamma = 1$, $\delta = 3$,
 $\eta = 0$.
@@ -2449,7 +3045,9 @@ exponents (as computed by the epsilon expansion).
 **Ginzburg criterion:** Mean-field theory is valid when the fluctuation contribution to the free
 energy is small compared to the mean-field part:
 
-$$\xi^d \ll (T_c - T)^{-(4-d)/2}\frac{1}{b^2}$$
+$$
+\xi^d \ll (T_c - T)^{-(4-d)/2}\frac{1}{b^2}
+$$
 
 This gives a **Ginzburg temperature** $T_G$ below which fluctuations become important. For
 conventional superconductors ($\xi_0 \sim 100$ nm, $T_c \sim 10$ K): $T_G/T_c \sim 10^{-14}$

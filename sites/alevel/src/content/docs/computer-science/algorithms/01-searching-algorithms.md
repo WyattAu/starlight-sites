@@ -129,7 +129,9 @@ iterations is $\lfloor \log_2 n \rfloor + 1 = O(\log n)$. $\square$
 
 **Formal derivation.** Let $T(n)$ be the number of comparisons for an array of size $n$.
 
-$$T(n) = T(n/2) + O(1), \quad T(1) = O(1)$$
+$$
+T(n) = T(n/2) + O(1), \quad T(1) = O(1)
+$$
 
 By the Master Theorem (case 2): $T(n) = O(\log n)$.
 
@@ -140,7 +142,9 @@ Requires $\Omega(\log n)$ comparisons in the worst case.
 ($n$ possible positions for $x$Plus "not found"). A binary tree of height $h$ has at most
 $2^{h+1} - 1$ leaves, so:
 
-$$n + 1 \leq 2^{h+1} - 1 \implies h \geq \lceil \log_2(n + 2) \rceil - 1 = \Omega(\log n)$$
+$$
+n + 1 \leq 2^{h+1} - 1 \implies h \geq \lceil \log_2(n + 2) \rceil - 1 = \Omega(\log n)
+$$
 
 $\square$
 

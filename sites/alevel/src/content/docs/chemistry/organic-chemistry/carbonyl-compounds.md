@@ -616,7 +616,9 @@ Tollens' test identifies ethanal. The remaining three are: propanone, ethanol, e
 
 **Reduction of butanal to butan-1-ol:**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{NaBH}_4,\,\text{then }\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{NaBH}_4,\,\text{then }\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH}
+$$
 
 **Mechanism:**
 
@@ -624,11 +626,15 @@ Step 1: The hydride ion ($\mathrm{H}^-$) from $\mathrm{BH}_4^-$ attacks the elec
 carbon of butanal. The $\pi$ electrons of C=O move onto the oxygen, forming a tetrahedral alkoxide
 intermediate:
 
-$$\mathrm{H}^- + \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}(\mathrm{O}^-)\mathrm{H}$$
+$$
+\mathrm{H}^- + \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}(\mathrm{O}^-)\mathrm{H}
+$$
 
 Step 2: Acid work-up protonates the alkoxide:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}(\mathrm{O}^-)\mathrm{H} + \mathrm{H}_3\mathrm{O}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}(\mathrm{O}^-)\mathrm{H} + \mathrm{H}_3\mathrm{O}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} + \mathrm{H}_2\mathrm{O}
+$$
 
 **Stereochemistry:** The hydride attacks from either face of the planar carbonyl, giving a racemic
 mixture if the carbonyl carbon is prochiral (attached to four different groups after addition).
@@ -639,7 +645,9 @@ mixture if the carbonyl carbon is prochiral (attached to four different groups a
 followed by dehydration. Calculate the maximum mass of product that can be obtained from
 $5.00\,\mathrm{g}$ of ethanal.**
 
-$$2\mathrm{CH}_3\mathrm{CHO} \xrightarrow{\mathrm{NaOH}} \mathrm{CH}_3\mathrm{CH}=\mathrm{CHCHO} + \mathrm{H}_2\mathrm{O}$$
+$$
+2\mathrm{CH}_3\mathrm{CHO} \xrightarrow{\mathrm{NaOH}} \mathrm{CH}_3\mathrm{CH}=\mathrm{CHCHO} + \mathrm{H}_2\mathrm{O}
+$$
 
 Moles of ethanal: $n = \frac{5.00}{44.05} = 0.1135\,\mathrm{mol}$
 
@@ -658,11 +666,15 @@ Maximum mass: $m = 0.0568 \times 70.09 = 3.98\,\mathrm{g}$
 
 Step 1: Cyanohydrin formation:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN}
+$$
 
 Step 2: Acid hydrolysis of the nitrile:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{H}^+ \xrightarrow{\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH} + \mathrm{NH}_4^+$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{H}^+ \xrightarrow{\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH} + \mathrm{NH}_4^+
+$$
 
 The product is 2-hydroxybutanoic acid. The cyanohydrin reaction extends the carbon chain by one
 carbon and introduces both $-\mathrm{OH}$ and $-\mathrm{COOH}$ groups in a single sequence.
@@ -674,25 +686,33 @@ with water, ethanol, ammonia, and methylamine.**
 
 (a) Hydrolysis:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + \mathrm{H}_2\mathrm{O} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + \mathrm{HCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + \mathrm{H}_2\mathrm{O} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + \mathrm{HCl}
+$$
 
 Observation: Vigorous, exothermic. HCl fumes observed. Benzoic acid forms as a white solid.
 
 (b) Alcoholysis:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{HCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{HCl}
+$$
 
 Observation: Exothermic. HCl fumes. Fruity smell of ethyl benzoate.
 
 (c) With ammonia:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + 2\mathrm{NH}_3 \to \mathrm{C}_6\mathrm{H}_5\mathrm{CONH}_2 + \mathrm{NH}_4\mathrm{Cl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + 2\mathrm{NH}_3 \to \mathrm{C}_6\mathrm{H}_5\mathrm{CONH}_2 + \mathrm{NH}_4\mathrm{Cl}
+$$
 
 Observation: White solid of benzamide forms. $\mathrm{NH}_4\mathrm{Cl}$ also forms as a white solid.
 
 (d) With methylamine:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + 2\mathrm{CH}_3\mathrm{NH}_2 \to \mathrm{C}_6\mathrm{H}_5\mathrm{CONHCH}_3 + \mathrm{CH}_3\mathrm{NH}_3^+\mathrm{Cl}^-$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + 2\mathrm{CH}_3\mathrm{NH}_2 \to \mathrm{C}_6\mathrm{H}_5\mathrm{CONHCH}_3 + \mathrm{CH}_3\mathrm{NH}_3^+\mathrm{Cl}^-
+$$
 
 Observation: White solid of N-methylbenzamide forms.
 
@@ -717,15 +737,21 @@ is more typical, but the exact position depends on the specific compound and sol
 
 Step 1: Friedel-Crafts acylation:
 
-$$\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{COCl} \xrightarrow{\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{HCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{COCl} \xrightarrow{\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{HCl}
+$$
 
 Step 2: Oxidation of the methyl group on the ketone (haloform reaction or similar):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + 3\mathrm{I}_2 + 4\mathrm{NaOH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COONa} + \mathrm{CHI}_3 + 3\mathrm{NaI} + 3\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + 3\mathrm{I}_2 + 4\mathrm{NaOH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COONa} + \mathrm{CHI}_3 + 3\mathrm{NaI} + 3\mathrm{H}_2\mathrm{O}
+$$
 
 Step 3: Acidification:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COONa} + \mathrm{HCl} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + \mathrm{NaCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COONa} + \mathrm{HCl} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + \mathrm{NaCl}
+$$
 
 The iodoform reaction cleaves a methyl ketone to a carboxylic acid with one fewer carbon, providing
 a useful route to aromatic carboxylic acids.
@@ -764,9 +790,15 @@ corrosive. Wear eye protection and gloves. Work in a fume cupboard.
 
 **Yield calculation:**
 
-$$\text{Theoretical moles of aspirin} = \frac{5.00}{138.12} = 0.0362\,\mathrm{mol}$$
-$$\text{Theoretical mass} = 0.0362 \times 180.16 = 6.52\,\mathrm{g}$$
-$$\text{Percentage yield} = \frac{\text{actual mass}}{6.52} \times 100$$
+$$
+\text{Theoretical moles of aspirin} = \frac{5.00}{138.12} = 0.0362\,\mathrm{mol}
+$$
+$$
+\text{Theoretical mass} = 0.0362 \times 180.16 = 6.52\,\mathrm{g}
+$$
+$$
+\text{Percentage yield} = \frac{\text{actual mass}}{6.52} \times 100
+$$
 
 ## Exam-Style Questions with Full Mark Schemes
 
@@ -907,7 +939,9 @@ Retrosynthetic analysis:
 
 **Forward synthesis:**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{HCN}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+,\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{HCN}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+,\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH}
+$$
 
 ---
 

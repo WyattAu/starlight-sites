@@ -164,7 +164,9 @@ $A \in (0, 1)$, ideally $A = \frac{\sqrt{5}-1}{2}$.
 **Universal hashing:** Pick $h$ randomly from a family $\mathcal{H}$ such that for any distinct
 $x, y$:
 
-$$\Pr_{h \in \mathcal{H}}[h(x) = h(y)] \leq \frac{1}{m}$$
+$$
+\Pr_{h \in \mathcal{H}}[h(x) = h(y)] \leq \frac{1}{m}
+$$
 
 ### 3.2 Chaining
 
@@ -576,7 +578,9 @@ $\$2k \geq k$ to pay for copying.
 
 Define a **potential function** $\Phi$ on the data structure. Amortized cost of operation $i$:
 
-$$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$
+$$
+\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})
+$$
 
 **Requirements:** $\Phi(D_0) = 0$ and $\Phi(D_i) \geq 0$ for all $i$.
 

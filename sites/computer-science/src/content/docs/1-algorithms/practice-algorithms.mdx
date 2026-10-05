@@ -42,7 +42,9 @@ Compare $f(n) = n^2$ with $n^{\log_b a} = n^2$:
 
 Since $f(n) = \Theta(n^2) = \Theta(n^{\log_b a})$, we are in **Case 2** of the Master Theorem.
 
-$$T(n) = \Theta(n^2 \log n)$$
+$$
+T(n) = \Theta(n^2 \log n)
+$$
 
 **Verification:** The recursion tree has $\log_2 n$ levels. At each level $i$, there are $4^i$ subproblems of size $n/2^i$, each costing $(n/2^i)^2 = n^2/4^i$. Total work per level: $4^i \times n^2/4^i = n^2$. Summing over $\log_2 n$ levels: $T(n) = n^2 \log_2 n = \Theta(n^2 \log n)$. ✓
 

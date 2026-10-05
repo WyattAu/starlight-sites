@@ -72,7 +72,9 @@ data points. Proceeding with orders $A = 1$, $B = 2$ as determined from experime
 
 From experiment 1:
 
-$$k = \frac{1.2 \times 10^{-4}}{0.10 \times (0.10)^{2}} = \frac{1.2 \times 10^{-4}}{0.001} = 0.12 \text{ dm}^{6} \text{ mol}^{-2} \text{ s}^{-1}$$
+$$
+k = \frac{1.2 \times 10^{-4}}{0.10 \times (0.10)^{2}} = \frac{1.2 \times 10^{-4}}{0.001} = 0.12 \text{ dm}^{6} \text{ mol}^{-2} \text{ s}^{-1}
+$$
 
 Units:
 $\frac{\text{mol dm}^{-3} \text{ s}^{-1}}{(\text{mol dm}^{-3})^{3}} = \text{dm}^{6} \text{ mol}^{-2} \text{ s}^{-1}$
@@ -160,7 +162,9 @@ molecules have sufficient energy to react.
 
 The decomposition of hydrogen peroxide is catalysed by manganese(IV) oxide:
 
-$$2H_{2}O_{2}(aq) \rightarrow 2H_{2}O(l) + O_{2}(g)$$
+$$
+2H_{2}O_{2}(aq) \rightarrow 2H_{2}O(l) + O_{2}(g)
+$$
 
 (a) Define the term **activation energy**. [1 mark]
 
@@ -242,13 +246,17 @@ flowchart TD
 The reaction $2NO_{2}(g) + F_{2}(g) \rightarrow 2NO_{2}F(g)$ has the experimentally determined rate
 equation:
 
-$$\text{Rate} = k[NO_{2}][F_{2}]$$
+$$
+\text{Rate} = k[NO_{2}][F_{2}]
+$$
 
 (a) What is the overall order of the reaction? [1 mark]
 
 (b) A student proposes the following one-step mechanism:
 
-$$2NO_{2} + F_{2} \rightarrow 2NO_{2}F$$
+$$
+2NO_{2} + F_{2} \rightarrow 2NO_{2}F
+$$
 
 Explain why this proposed mechanism is **inconsistent** with the rate equation. [2 marks]
 
@@ -276,7 +284,9 @@ tripled while $[F_{2}]$ is kept constant, by what factor does the rate change? [
 (b) If the reaction occurred in a single step involving the collision of $2NO_{2}$ and $F_{2}$
 simultaneously (a termolecular collision), the rate equation would be:
 
-$$\text{Rate} = k[NO_{2}]^{2}[F_{2}]$$
+$$
+\text{Rate} = k[NO_{2}]^{2}[F_{2}]
+$$
 
 This predicts **second order** with respect to $NO_{2}$Which contradicts the experimentally
 determined rate equation (first order in $NO_{2}$). Therefore, the one-step mechanism is
@@ -292,7 +302,9 @@ inconsistent.
 
 The rate equation is determined by the rate-determining step:
 
-$$\text{Rate} = k[NO_{2}][F_{2}]$$
+$$
+\text{Rate} = k[NO_{2}][F_{2}]
+$$
 
 This matches the experimental rate equation.
 
@@ -376,7 +388,9 @@ For a first-order reaction: Rate $= k[A]$.
 
 From the gradient of $\ln[A]$ vs $t$:
 
-$$k = \frac{(-1.386) - (-0.223)}{400 - 0} = \frac{-1.163}{400} = 2.91 \times 10^{-3} \text{ s}^{-1}$$
+$$
+k = \frac{(-1.386) - (-0.223)}{400 - 0} = \frac{-1.163}{400} = 2.91 \times 10^{-3} \text{ s}^{-1}
+$$
 
 Rate at $t = 200$ s:
 $k[A] = 2.91 \times 10^{-3} \times 0.45 = 1.31 \times 10^{-3} \text{ mol dm}^{-3} \text{ s}^{-1}$
@@ -414,7 +428,9 @@ $1.0 \times 10^{-2}$ s$^{-1}$.
 
 (a) Calculate the activation energy for this reaction using the Arrhenius equation:
 
-$$\ln\left(\frac{k_{2}}{k_{1}}\right) = \frac{E_{a}}{R}\left(\frac{1}{T_{1}} - \frac{1}{T_{2}}\right)$$
+$$
+\ln\left(\frac{k_{2}}{k_{1}}\right) = \frac{E_{a}}{R}\left(\frac{1}{T_{1}} - \frac{1}{T_{2}}\right)
+$$
 
 ($R = 8.314$ J mol$^{-1}$ K$^{-1}$) [4 marks]
 
@@ -437,28 +453,48 @@ all molecules will have energy above $E_{a}$." Evaluate this statement. [2 marks
 **Worked Solution**
 
 (a)
-$$\ln\left(\frac{1.0 \times 10^{-2}}{2.5 \times 10^{-3}}\right) = \frac{E_{a}}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)$$
+$$
+\ln\left(\frac{1.0 \times 10^{-2}}{2.5 \times 10^{-3}}\right) = \frac{E_{a}}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)
+$$
 
-$$\ln(4) = \frac{E_{a}}{8.314}\left(\frac{320 - 300}{300 \times 320}\right)$$
+$$
+\ln(4) = \frac{E_{a}}{8.314}\left(\frac{320 - 300}{300 \times 320}\right)
+$$
 
-$$1.386 = \frac{E_{a}}{8.314} \times \frac{20}{96000}$$
+$$
+1.386 = \frac{E_{a}}{8.314} \times \frac{20}{96000}
+$$
 
-$$1.386 = \frac{E_{a}}{8.314} \times 2.083 \times 10^{-4}$$
+$$
+1.386 = \frac{E_{a}}{8.314} \times 2.083 \times 10^{-4}
+$$
 
-$$E_{a} = \frac{1.386 \times 8.314}{2.083 \times 10^{-4}}$$
+$$
+E_{a} = \frac{1.386 \times 8.314}{2.083 \times 10^{-4}}
+$$
 
-$$E_{a} = \frac{11.523}{2.083 \times 10^{-4}} = 55320 \text{ J/mol} = 55.3 \text{ kJ/mol}$$
+$$
+E_{a} = \frac{11.523}{2.083 \times 10^{-4}} = 55320 \text{ J/mol} = 55.3 \text{ kJ/mol}
+$$
 
 (b) Using the Arrhenius equation with $T_{1} = 300$ K, $k_{1} = 2.5 \times 10^{-3}$
 s$^{-1}$, $T_{2} = 340$ K:
 
-$$\ln\left(\frac{k_{2}}{2.5 \times 10^{-3}}\right) = \frac{55320}{8.314}\left(\frac{1}{300} - \frac{1}{340}\right)$$
+$$
+\ln\left(\frac{k_{2}}{2.5 \times 10^{-3}}\right) = \frac{55320}{8.314}\left(\frac{1}{300} - \frac{1}{340}\right)
+$$
 
-$$= 6654.7 \times \frac{40}{102000} = 6654.7 \times 3.922 \times 10^{-4} = 2.610$$
+$$
+= 6654.7 \times \frac{40}{102000} = 6654.7 \times 3.922 \times 10^{-4} = 2.610
+$$
 
-$$\frac{k_{2}}{2.5 \times 10^{-3}} = e^{2.610} = 13.60$$
+$$
+\frac{k_{2}}{2.5 \times 10^{-3}} = e^{2.610} = 13.60
+$$
 
-$$k_{2} = 13.60 \times 2.5 \times 10^{-3} = 3.40 \times 10^{-2} \text{ s}^{-1}$$
+$$
+k_{2} = 13.60 \times 2.5 \times 10^{-3} = 3.40 \times 10^{-2} \text{ s}^{-1}
+$$
 
 (c) The statement is an **overgeneralisation**. While it is true that at higher temperatures, a
 larger proportion of molecules have energy above $E_{a}$The Maxwell-Boltzmann distribution always

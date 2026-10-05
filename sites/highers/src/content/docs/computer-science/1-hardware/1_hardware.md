@@ -30,7 +30,9 @@ categories:
 
 **Converting binary to decimal:**
 
-$$1101_2 = 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 8 + 4 + 0 + 1 = 13_{10}$$
+$$
+1101_2 = 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 8 + 4 + 0 + 1 = 13_{10}
+$$
 
 **Converting decimal to binary:** Repeatedly divide by 2 and record remainders.
 
@@ -44,11 +46,15 @@ Reading bottom to top: $11001000_2$.
 **Hexadecimal:** Base-16 using digits 0-9 and A-F. Used for memory addresses, colour codes, and MAC
 Addresses.
 
-$$\mathrm{A3_{16} = 10 \times 16 + 3 = 163_{10}$$
+$$
+\mathrm{A3_{16} = 10 \times 16 + 3 = 163_{10}
+$$
 
 **Binary to hex:** Group binary digits in fours from the right.
 
-$$11010110_2 = 1101 \; 0110 = \mathrm{D6_{16}$$
+$$
+11010110_2 = 1101 \; 0110 = \mathrm{D6_{16}
+$$
 
 **Worked Example.** Convert $\mathrm{FF_{16}$ to binary and decimal.
 
@@ -214,7 +220,9 @@ C = 67 = 01000011, a = 97 = 01100001, t = 116 = 01110100.
 
 **Example:** A $1920 \times 1080$ image with 24-bit colour depth:
 
-$$1920 \times 1080 \times 24 / 8 = 6220800 \mathrm{ bytes \approx 5.93 \mathrm{ MB$$
+$$
+1920 \times 1080 \times 24 / 8 = 6220800 \mathrm{ bytes \approx 5.93 \mathrm{ MB
+$$
 
 **Worked Example.** An image has 4 megapixels (4,000,000 pixels) and a file size of 6 MB. What is
 The colour depth?
@@ -259,7 +267,9 @@ Without loss of quality. Smaller file sizes for simple images.
 
 **Example:** A 3-minute stereo (2 channels) audio file at CD quality:
 
-$$44100 \times 180 \times 16 \times 2 = 254016000 \mathrm{ bits \approx 30.2 \mathrm{ MB$$
+$$
+44100 \times 180 \times 16 \times 2 = 254016000 \mathrm{ bits \approx 30.2 \mathrm{ MB
+$$
 
 **Nyquist theorem.** The sample rate must be at least twice the highest frequency to accurately
 Reproduce the sound. Human hearing goes up to about 20,000 Hz, so 44,100 Hz is sufficient.

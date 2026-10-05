@@ -42,7 +42,9 @@ flowchart TD
 
 Solve the inequality:
 
-$$\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0$$
+$$
+\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0
+$$
 
 State your answer using set notation, identifying all excluded values.
 
@@ -65,7 +67,9 @@ Excluded value: $x = 2$ (makes denominator zero). Also $x = -3$ is excluded.
 
 **Step 3: Determine the sign of the expression in each interval.**
 
-$$\frac{(x-1)(x-2)}{(x+3)(x-2)} = \frac{(x-1)(x-2)}{(x+3)(x-2)}$$
+$$
+\frac{(x-1)(x-2)}{(x+3)(x-2)} = \frac{(x-1)(x-2)}{(x+3)(x-2)}
+$$
 
 For $x \neq 2$We can cancel $(x-2)$ but must remember the sign changes. Instead, analyse using a
 sign table:
@@ -95,7 +99,9 @@ Sign analysis:
 
 The expression is non-negative when $x < -3$, $1 \leq x < 2$Or $x > 2$.
 
-$$x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)$$
+$$
+x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)
+$$
 
 ---
 
@@ -114,7 +120,9 @@ $$x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)$$
 
 Solve the equation:
 
-$$|x^2 - 5x + 6| = |2x - 4|$$
+$$
+|x^2 - 5x + 6| = |2x - 4|
+$$
 
 Giving all real solutions in exact form.
 
@@ -132,7 +140,9 @@ $$x^2 - 7x + 10 = 0$$ $$(x-2)(x-5) = 0$$ $$x = 2 \quad \text{or} \quad x = 5$$
 **Case 2:** $x^2 - 5x + 6 = -(2x - 4)$
 
 $$x^2 - 5x + 6 = -2x + 4$$ $$x^2 - 3x + 2 = 0$$ $$(x-1)(x-2) = 0$$
-$$x = 1 \quad \text{or} \quad x = 2$$
+$$
+x = 1 \quad \text{or} \quad x = 2
+$$
 
 **Verification:**
 
@@ -159,11 +169,15 @@ The solutions are $x = 1, 2, 5$.
 
 Prove that the following system of equations has no real solutions:
 
-$$\begin{cases} x^2 + y^2 = 1 \\ x + y = 2 \end{cases}$$
+$$
+\begin{cases} x^2 + y^2 = 1 \\ x + y = 2 \end{cases}
+$$
 
 Then find the smallest positive value of $k$ such that the system:
 
-$$\begin{cases} x^2 + y^2 = 1 \\ x + y = k \end{cases}$$
+$$
+\begin{cases} x^2 + y^2 = 1 \\ x + y = k \end{cases}
+$$
 
 Has exactly one real solution, and state that solution.
 
@@ -196,8 +210,12 @@ $$4k^2 - 8(k^2 - 1) = 0$$ $$4k^2 - 8k^2 + 8 = 0$$ $$-4k^2 + 8 = 0$$ $$k^2 = 2$$ 
 
 **The solution:** When $\Delta = 0$:
 
-$$x = \frac{2k}{4} = \frac{k}{2} = \frac{\sqrt{2}}{2}$$
-$$y = k - x = \sqrt{2} - \frac{\sqrt{2}}{2} = \frac{\sqrt{2}}{2}$$
+$$
+x = \frac{2k}{4} = \frac{k}{2} = \frac{\sqrt{2}}{2}
+$$
+$$
+y = k - x = \sqrt{2} - \frac{\sqrt{2}}{2} = \frac{\sqrt{2}}{2}
+$$
 
 The single solution is
 $\left(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right)$.
@@ -205,7 +223,9 @@ $\left(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right)$.
 **Geometric interpretation:** The first equation is the unit circle and the second is the line
 $x + y = k$. The line is tangent to the circle when its distance from the origin equals the radius:
 
-$$\frac{|0 + 0 - k|}{\sqrt{1^2 + 1^2}} = 1 \implies \frac{k}{\sqrt{2}} = 1 \implies k = \sqrt{2}$$
+$$
+\frac{|0 + 0 - k|}{\sqrt{1^2 + 1^2}} = 1 \implies \frac{k}{\sqrt{2}} = 1 \implies k = \sqrt{2}
+$$
 
 This confirms our algebraic result.
 
@@ -262,7 +282,9 @@ $$2x^2 - x - 6 = x^2 + 2x - 3$$ $$x^2 - 3x - 3 = 0$$
 
 By the quadratic formula:
 
-$$x = \frac{3 \pm \sqrt{9 + 12}}{2} = \frac{3 \pm \sqrt{21}}{2}$$
+$$
+x = \frac{3 \pm \sqrt{9 + 12}}{2} = \frac{3 \pm \sqrt{21}}{2}
+$$
 
 Now check the domain restriction $x > 1$:
 
@@ -314,11 +336,17 @@ The sequence $(a_n)$ is defined by $a_n = \frac{n^2 + n}{n + 2}$ for $n \geq 1$.
 Since $n + 2 > 0$ for all $n \geq 1$We can multiply both sides by $n + 2$ without flipping the
 inequality:
 
-$$n^2 + n > (n-1)(n+2) = n^2 + 2n - n - 2 = n^2 + n - 2$$
+$$
+n^2 + n > (n-1)(n+2) = n^2 + 2n - n - 2 = n^2 + n - 2
+$$
 
-$$n^2 + n > n^2 + n - 2$$
+$$
+n^2 + n > n^2 + n - 2
+$$
 
-$$0 > -2$$
+$$
+0 > -2
+$$
 
 This is always true. Therefore $a_n > n - 1$ for all $n \geq 1$.
 
@@ -328,11 +356,15 @@ $$n^2 + n > 100n + 200$$ $$n^2 - 99n - 200 > 0$$
 
 Roots of $n^2 - 99n - 200 = 0$:
 
-$$n = \frac{99 \pm \sqrt{9801 + 800}}{2} = \frac{99 \pm \sqrt{10601}}{2}$$
+$$
+n = \frac{99 \pm \sqrt{9801 + 800}}{2} = \frac{99 \pm \sqrt{10601}}{2}
+$$
 
 $\sqrt{10601} \approx 102.96$ So:
 
-$$n \approx \frac{99 + 102.96}{2} \approx 100.98$$
+$$
+n \approx \frac{99 + 102.96}{2} \approx 100.98
+$$
 
 Since the quadratic opens upward, $n^2 - 99n - 200 > 0$ for
 $n > \frac{99+\sqrt{10601}}{2} \approx 100.98$.
@@ -343,27 +375,41 @@ The smallest integer $N$ is $\boxed{101}$.
 
 Perform the division $\frac{n^2+n}{n+2}$:
 
-$$\frac{n^2+n}{n+2} = n - 1 + \frac{2}{n+2}$$
+$$
+\frac{n^2+n}{n+2} = n - 1 + \frac{2}{n+2}
+$$
 
 Verify: $(n-1)(n+2) + 2 = n^2 + 2n - n - 2 + 2 = n^2 + n$. Confirmed.
 
 Therefore:
 
-$$\sum_{n=1}^{100} a_n = \sum_{n=1}^{100}\left(n - 1 + \frac{2}{n+2}\right) = \sum_{n=1}^{100}(n-1) + 2\sum_{n=1}^{100}\frac{1}{n+2}$$
+$$
+\sum_{n=1}^{100} a_n = \sum_{n=1}^{100}\left(n - 1 + \frac{2}{n+2}\right) = \sum_{n=1}^{100}(n-1) + 2\sum_{n=1}^{100}\frac{1}{n+2}
+$$
 
-$$= \sum_{k=0}^{99} k + 2\sum_{m=3}^{102}\frac{1}{m}$$
+$$
+= \sum_{k=0}^{99} k + 2\sum_{m=3}^{102}\frac{1}{m}
+$$
 
 Where $k = n-1$ and $m = n+2$.
 
-$$= \frac{99 \times 100}{2} + 2\sum_{m=3}^{102}\frac{1}{m}$$
+$$
+= \frac{99 \times 100}{2} + 2\sum_{m=3}^{102}\frac{1}{m}
+$$
 
-$$= 4950 + 2\left(H_{102} - 1 - \frac{1}{2}\right)$$
+$$
+= 4950 + 2\left(H_{102} - 1 - \frac{1}{2}\right)
+$$
 
 Where $H_n = \sum_{k=1}^{n} \frac{1}{k}$ is the $n$-th harmonic number.
 
-$$= 4950 + 2H_{102} - 3$$
+$$
+= 4950 + 2H_{102} - 3
+$$
 
-$$= 4947 + 2H_{102}$$
+$$
+= 4947 + 2H_{102}
+$$
 
 This is the exact value in terms of the harmonic number $H_{102}$. Note that $H_{102}$ does not
 simplify to a closed form using elementary functions; this is the most precise exact answer.
@@ -385,7 +431,9 @@ simplify to a closed form using elementary functions; this is the most precise e
 
 A region $R$ in the $xy$-plane is defined by the inequalities:
 
-$$\begin{cases} y \geq x^2 - 4x + 3 \\ y \leq 4 - x^2 \\ y \geq |x - 2| - 1 \end{cases}$$
+$$
+\begin{cases} y \geq x^2 - 4x + 3 \\ y \leq 4 - x^2 \\ y \geq |x - 2| - 1 \end{cases}
+$$
 
 **(a)** Find the coordinates of all vertices of $R$.
 
@@ -404,7 +452,9 @@ parabola) **Curve 3:** $y = |x-2| - 1$ (V-shape with vertex at $(2, -1)$)
 **Intersection of Curves 1 and 2:**
 
 $$x^2 - 4x + 3 = 4 - x^2$$ $$2x^2 - 4x - 1 = 0$$
-$$x = \frac{4 \pm \sqrt{16 + 8}}{4} = \frac{4 \pm \sqrt{24}}{4} = \frac{4 \pm 2\sqrt{6}}{4} = \frac{2 \pm \sqrt{6}}{2} = 1 \pm \frac{\sqrt{6}}{2}$$
+$$
+x = \frac{4 \pm \sqrt{16 + 8}}{4} = \frac{4 \pm \sqrt{24}}{4} = \frac{4 \pm 2\sqrt{6}}{4} = \frac{2 \pm \sqrt{6}}{2} = 1 \pm \frac{\sqrt{6}}{2}
+$$
 
 For $x = 1 + \sqrt{6}/2 \approx 2.225$:
 $y = 4 - (1+\sqrt{6}/2)^2 = 4 - (1+\sqrt{6}+3/2) = 4 - 5/2 - \sqrt{6} = 3/2 - \sqrt{6}$.

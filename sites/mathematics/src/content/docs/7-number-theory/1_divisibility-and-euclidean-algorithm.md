@@ -102,7 +102,9 @@ with remainder −144. The uniqueness is what makes the algorithm deterministic 
 **Theorem (Division Algorithm).** For integers $a$ and $b$ with $b > 0$, there exist **unique**
 integers $q$ (quotient) and $r$ (remainder) such that
 
-$$a = bq + r, \qquad 0 \leq r < b.$$
+$$
+a = bq + r, \qquad 0 \leq r < b.
+$$
 
 *Proof of existence.* The set $\{bq \leq a : q \in \mathbb{Z}\}$ is non-empty (take $q$
 sufficiently negative) and bounded above by $a/b$. Let $q$ be its supremum, which is an integer
@@ -141,7 +143,9 @@ $\mathbb{Z}_{\geq 0}$ (every non-empty subset has a least element) does the heav
 
 **Theorem (Bézout's Identity).** $\gcd(a, b)$ is the **smallest positive** integer in the set
 
-$$S = \{ax + by : x, y \in \mathbb{Z}\}.$$
+$$
+S = \{ax + by : x, y \in \mathbb{Z}\}.
+$$
 
 In particular, there exist integers $x, y$ with $ax + by = \gcd(a, b)$.
 

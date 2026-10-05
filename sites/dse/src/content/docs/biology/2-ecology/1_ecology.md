@@ -152,9 +152,13 @@ individuals. The mutation occurs regardless of the antibiotic's presence.
 The Hardy-Weinberg principle describes a theoretical population in which allele frequencies remain
 Constant from generation to generation in the absence of evolutionary forces.
 
-$$p^2 + 2pq + q^2 = 1$$
+$$
+p^2 + 2pq + q^2 = 1
+$$
 
-$$p + q = 1$$
+$$
+p + q = 1
+$$
 
 Where:
 
@@ -185,13 +189,21 @@ Work.
 In a population, 16% of individuals exhibit a recessive disorder (homozygous recessive,
 $q^2 = 0.16$).
 
-$$q = \sqrt{0.16} = 0.4$$
+$$
+q = \sqrt{0.16} = 0.4
+$$
 
-$$p = 1 - 0.4 = 0.6$$
+$$
+p = 1 - 0.4 = 0.6
+$$
 
-$$p^2 = (0.6)^2 = 0.36$$
+$$
+p^2 = (0.6)^2 = 0.36
+$$
 
-$$2pq = 2(0.6)(0.4) = 0.48$$
+$$
+2pq = 2(0.6)(0.4) = 0.48
+$$
 
 Genotype frequencies: 36% homozygous dominant, 48% heterozygous, 16% homozygous recessive.
 
@@ -205,9 +217,13 @@ Number of A alleles = $(200 \times 2) + 200 = 600$
 
 Number of a alleles = $(100 \times 2) + 200 = 400$
 
-$$p = \frac{600}{1000} = 0.6$$
+$$
+p = \frac{600}{1000} = 0.6
+$$
 
-$$q = \frac{400}{1000} = 0.4$$
+$$
+q = \frac{400}{1000} = 0.4
+$$
 
 :::note
 $q$ from $q^2$ (the homozygous recessive frequency), and then $p$ from $p = 1 - q$. The heterozygote
@@ -520,7 +536,9 @@ Activity times, different food sizes).
 
 When resources are unlimited, a population grows exponentially:
 
-$$\frac{dN}{dt} = rN$$
+$$
+\frac{dN}{dt} = rN
+$$
 
 Where $N$ = population size, $r$ = intrinsic growth rate, $t$ = time.
 
@@ -532,7 +550,9 @@ Sustainable long-term.
 As resources become limiting, growth rate slows and the population stabilises at the carrying
 Capacity:
 
-$$\frac{dN}{dt} = rN\left(\frac{K - N}{K}\right)$$
+$$
+\frac{dN}{dt} = rN\left(\frac{K - N}{K}\right)
+$$
 
 Where $K$ = carrying capacity.
 
@@ -743,7 +763,9 @@ Is lost through:
 This rule explains why food chains are limited to 4-5 trophic levels -- there is Insufficient energy
 to sustain higher levels.
 
-$$\mathrm{Energy available at level } n = 0.1^n \times \mathrm{Energy at producer level}$$
+$$
+\mathrm{Energy available at level } n = 0.1^n \times \mathrm{Energy at producer level}
+$$
 
 :::note
 Energy-efficient than warm-blooded ones. In DSE calculations, use 10% unless the question specifies
@@ -810,12 +832,16 @@ Key processes:
   per unit area per unit time
 - **Net Primary Productivity (NPP):** GPP minus the energy used by producers for respiration (R):
 
-$$\mathrm{NPP} = \mathrm{GPP} - R$$
+$$
+\mathrm{NPP} = \mathrm{GPP} - R
+$$
 
 NPP represents the energy available to consumers (herbivores and decomposers). NPP is a measure of
 How much biomass is available for the rest of the food chain.
 
-$$\mathrm{NPP} = \mathrm{energy stored in plant biomass}$$
+$$
+\mathrm{NPP} = \mathrm{energy stored in plant biomass}
+$$
 
 ---
 
@@ -1038,7 +1064,9 @@ If producers have 10,000 kJ of energy:
 
 Doubling time can be estimated using the rule of 70:
 
-$$\mathrm{Doubling time} \approx \frac{70}{r \times 100}$$
+$$
+\mathrm{Doubling time} \approx \frac{70}{r \times 100}
+$$
 
 Where $r$ is the per capita growth rate expressed as a decimal.
 
@@ -1071,7 +1099,9 @@ Key elements the DSE expects in ecology and evolution experimental design questi
 :::note
 Frequencies differ significantly from Hardy-Weinberg expected frequencies:
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 Where $O$ = observed frequency and $E$ = expected frequency. Compare the calculated value to the
 Critical value at the appropriate degrees of freedom ($df = \mathrm{number of categories} - 1$) and
@@ -1109,15 +1139,23 @@ If you get this wrong, revise: Genetics of Evolution -- Hardy-Weinberg Equilibri
 
 Sickle cell disease is homozygous recessive, so:
 
-$$q^2 = \frac{160}{10000} = 0.016$$
+$$
+q^2 = \frac{160}{10000} = 0.016
+$$
 
-$$q = \sqrt{0.016} = 0.1265$$
+$$
+q = \sqrt{0.016} = 0.1265
+$$
 
 Frequency of HbS = 0.1265 (or 12.65%)
 
-$$p = 1 - 0.1265 = 0.8735$$
+$$
+p = 1 - 0.1265 = 0.8735
+$$
 
-$$2pq = 2(0.8735)(0.1265) = 0.2210$$
+$$
+2pq = 2(0.8735)(0.1265) = 0.2210
+$$
 
 Number of heterozygotes = $0.2210 \times 10000 = 2210$ people
 
@@ -1178,9 +1216,13 @@ cells
 
 (b) Using the logistic equation:
 
-$$N = \frac{K}{1 + \left(\frac{K - N_0}{N_0}\right) e^{-rt}} = \frac{5000}{1 + \left(\frac{5000 - 100}{100}\right) e^{-0.5 \times 6}}$$
+$$
+N = \frac{K}{1 + \left(\frac{K - N_0}{N_0}\right) e^{-rt}} = \frac{5000}{1 + \left(\frac{5000 - 100}{100}\right) e^{-0.5 \times 6}}
+$$
 
-$$N = \frac{5000}{1 + 49 \times e^{-3}} = \frac{5000}{1 + 49 \times 0.0498} = \frac{5000}{1 + 2.44} = \frac{5000}{3.44} = 1453 \mathrm{ cells}$$
+$$
+N = \frac{5000}{1 + 49 \times e^{-3}} = \frac{5000}{1 + 49 \times 0.0498} = \frac{5000}{1 + 2.44} = \frac{5000}{3.44} = 1453 \mathrm{ cells}
+$$
 
 The logistic model predicts fewer cells (1,453 vs 2,009) because it accounts for the limiting effect
 of carrying capacity -- as the population grows, resources become scarcer and the growth rate
@@ -1202,7 +1244,9 @@ If you get this wrong, revise: Genetics of Evolution -- Hardy-Weinberg Equilibri
 <details>
 <summary>Solution</summary>
 
-$$q^2 = \frac{160}{1000} = 0.16, \quad q = 0.4, \quad p = 0.6$$
+$$
+q^2 = \frac{160}{1000} = 0.16, \quad q = 0.4, \quad p = 0.6
+$$
 
 Expected frequencies: $p^2 = 0.36$$2pq = 0.48$$q^2 = 0.16$
 
@@ -1211,7 +1255,9 @@ $0.16 \times 1000 = 160$
 
 Red (RR + Rr): $360 + 480 = 840$; White (rr): 160
 
-$$\chi^2 = \frac{(840 - 840)^2}{840} + \frac{(160 - 160)^2}{160} = 0$$
+$$
+\chi^2 = \frac{(840 - 840)^2}{840} + \frac{(160 - 160)^2}{160} = 0
+$$
 
 The chi-squared value is 0, which is less than the critical value of 3.84 (for $df = 1$ at
 $p = 0.05$). There is no significant difference between observed and expected frequencies. The
@@ -1643,7 +1689,9 @@ self-marking and building a personal test matrix.
 Under ideal conditions (unlimited resources, no predators, no disease), populations grow
 exponentially:
 
-$$\frac{dN}{dt} = rN$$
+$$
+\frac{dN}{dt} = rN
+$$
 
 Where $N$ = population size, $r$ = intrinsic rate of natural increase, $t$ = time.
 
@@ -1655,7 +1703,9 @@ to a new environment with abundant resources.
 In reality, resources are limited. Population growth slows as it approaches the carrying capacity
 ($K$):
 
-$$\frac{dN}{dt} = rN\left(\frac{K - N}{K}\right)$$
+$$
+\frac{dN}{dt} = rN\left(\frac{K - N}{K}\right)
+$$
 
 Where $K$ = carrying capacity (maximum population size the environment can sustain).
 
@@ -1814,7 +1864,9 @@ over a 12-month period.
 Standard deviation is a measure of the spread of data around the mean. It is used to assess the
 reliability of data:
 
-$$s = \sqrt{\frac{\sum (x - \bar{x})^2}{n - 1}}$$
+$$
+s = \sqrt{\frac{\sum (x - \bar{x})^2}{n - 1}}
+$$
 
 Where:
 

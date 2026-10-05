@@ -35,7 +35,9 @@ Goods are excluded because their value is already embedded in the final product.
 - $X - M$ = net exports (exports minus imports)
 
 1. **Income method**: sums all factor incomes earned by residents:
-   $$GDP = W + R + I + P + (\text{Mixed income}) + (\text{Taxes on production} - \text{Subsidies})$$
+   $$
+   GDP = W + R + I + P + (\text{Mixed income}) + (\text{Taxes on production} - \text{Subsidies})
+   $$
    Where $W$ = wages, $R$ = rent, $I$ = interest, $P$ = profit.
 
 2. **Output (value-added) method**: sums the value added at each stage of production:
@@ -49,19 +51,25 @@ Changes in prices.
 
 **Real GDP** adjusts for price level changes and is a better measure of actual output growth:
 
-$$\mathrm{Real\ GDP} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{GDP\ Deflator}} \times 100$$
+$$
+\mathrm{Real\ GDP} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{GDP\ Deflator}} \times 100
+$$
 
 The **GDP deflator** is a broad measure of the price level that includes all domestically produced
 Goods and services:
 
-$$\mathrm{GDP\ Deflator} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{Real\ GDP}} \times 100$$
+$$
+\mathrm{GDP\ Deflator} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{Real\ GDP}} \times 100
+$$
 
 ### GNP and GNI
 
 **Gross National Product (GNP)** measures the total output produced by a country's residents
 Regardless of where it is produced:
 
-$$\mathrm{GNP} = \mathrm{GDP} + \text{Net factor income from abroad}$$
+$$
+\mathrm{GNP} = \mathrm{GDP} + \text{Net factor income from abroad}
+$$
 
 Net factor income from abroad includes wages, profits, and rent earned by domestic residents from
 Their foreign investments, minus the corresponding income earned by foreign residents within the
@@ -70,7 +78,9 @@ Domestic economy.
 **Gross National Income (GNI)** is the preferred modern measure and is conceptually equivalent to
 GNP. It includes net primary income from abroad (compensation of employees, investment income):
 
-$$\mathrm{GNI} = \mathrm{GDP} + \text{Net primary income from abroad}$$
+$$
+\mathrm{GNI} = \mathrm{GDP} + \text{Net primary income from abroad}
+$$
 
 ### GDP per Capita and Purchasing Power Parity
 
@@ -140,7 +150,9 @@ Investment $= \$1100$, Government spending $= \$1500$Exports $= \$800$, Imports 
 
 (a) $GDP = C + I + G + (X - M) = 4200 + 1100 + 1500 + (800 - 950)$
 
-$$GDP = 4200 + 1100 + 1500 + (-150) = \$6650 \text{ billion}$$
+$$
+GDP = 4200 + 1100 + 1500 + (-150) = \$6650 \text{ billion}
+$$
 
 Net exports $= X - M = 800 - 950 = -\$150$ billion (a trade deficit).
 
@@ -187,8 +199,12 @@ The marginal tax rate is $0.2$ And the marginal propensity to import is $0.15$.
 
 (a) $\mathrm{MPS} = 1 - 0.75 = 0.25$
 
-$$k = \frac{1}{\mathrm{MPS} + t \times \mathrm{MPC} + \mathrm{MPM}} = \frac{1}{0.25 + 0.2 \times 0.75 + 0.15}$$
-$$k = \frac{1}{0.25 + 0.15 + 0.15} = \frac{1}{0.55} = 1.818$$
+$$
+k = \frac{1}{\mathrm{MPS} + t \times \mathrm{MPC} + \mathrm{MPM}} = \frac{1}{0.25 + 0.2 \times 0.75 + 0.15}
+$$
+$$
+k = \frac{1}{0.25 + 0.15 + 0.15} = \frac{1}{0.55} = 1.818
+$$
 
 (b) $\Delta Y = k \times \Delta G = 1.818 \times 50 = \$90.9 \text{ billion}$
 
@@ -249,7 +265,9 @@ Accelerate.
 (a) With unemployment at $3\%$Which is below the natural rate of $5\%$The economy is Overheating.
 The expectations-augmented Phillips curve predicts:
 
-$$\pi = \pi^e - \alpha(u - u_n)$$
+$$
+\pi = \pi^e - \alpha(u - u_n)
+$$
 
 Since $u < u_n$Actual inflation exceeds expected inflation ($4\% > 2\%$). Workers will observe that
 Inflation is higher than expected and will revise their expectations upward in the next period. As
@@ -340,7 +358,9 @@ In the quantities of goods and services produced and changes in their prices.
 **Real GDP** values output at constant (base year) prices, isolating the effect of quantity changes
 From price changes.
 
-$$\text{Real GDP}_t = \sum_{i=1}^{n} P_{i,0} \cdot Q_{i,t}$$
+$$
+\text{Real GDP}_t = \sum_{i=1}^{n} P_{i,0} \cdot Q_{i,t}
+$$
 
 Where $P_{i,0}$ is the base-year price of good $i$ and $Q_{i,t}$ is the quantity produced in year
 $t$.
@@ -350,7 +370,9 @@ $t$.
 The GDP deflator is the most comprehensive price index because it covers all domestically produced
 Goods and services (consumption, investment, government spending, and net exports):
 
-$$\text{GDP Deflator}_t = \frac{\text{Nominal GDP}_t}{\text{Real GDP}_t} \times 100$$
+$$
+\text{GDP Deflator}_t = \frac{\text{Nominal GDP}_t}{\text{Real GDP}_t} \times 100
+$$
 
 Unlike the CPI, the GDP deflator:
 
@@ -361,9 +383,13 @@ Unlike the CPI, the GDP deflator:
 
 ### GDP per Capita Calculations
 
-$$\text{GDP per capita} = \frac{\text{GDP}}{\text{Population}}$$
+$$
+\text{GDP per capita} = \frac{\text{GDP}}{\text{Population}}
+$$
 
-$$\text{Real GDP per capita} = \frac{\text{Real GDP}}{\text{Population}}$$
+$$
+\text{Real GDP per capita} = \frac{\text{Real GDP}}{\text{Population}}
+$$
 
 **Limitations as a welfare measure:**
 
@@ -383,7 +409,9 @@ $$\text{Real GDP per capita} = \frac{\text{Real GDP}}{\text{Population}}$$
 Modern national accounts use **chain-weighting** to avoid the substitution bias of fixed-weight
 Indices. Chain-weighted GDP uses a moving base year, averaging Laspeyres and Paasche measures:
 
-$$\text{Chain-weighted growth rate} = \sqrt{\text{Laspeyres growth rate} \times \text{Paasche growth rate}}$$
+$$
+\text{Chain-weighted growth rate} = \sqrt{\text{Laspeyres growth rate} \times \text{Paasche growth rate}}
+$$
 
 This provides a more accurate measure of real growth, particularly when relative prices change
 Significantly.
@@ -406,7 +434,9 @@ Significantly.
 Country X has the following data (in $ billions): $C = 800$, $I = 200$, $G = 300$, $X = 150$,
 $M = 180$.
 
-$$GDP = C + I + G + (X - M) = 800 + 200 + 300 + (150 - 180) = 1,270$$
+$$
+GDP = C + I + G + (X - M) = 800 + 200 + 300 + (150 - 180) = 1,270
+$$
 
 Net exports are negative ($-30$), indicating a trade deficit.
 
@@ -414,7 +444,9 @@ Net exports are negative ($-30$), indicating a trade deficit.
 
 Nominal GDP in 2024 is $2,000$ billion. The GDP deflator is 125 (base year = 2020).
 
-$$\text{Real GDP} = \frac{2,000}{125} \times 100 = 1,600 \text{ billion}$$
+$$
+\text{Real GDP} = \frac{2,000}{125} \times 100 = 1,600 \text{ billion}
+$$
 
 Real GDP ($1,600$ billion) is lower than nominal GDP ($2,000$ billion), indicating that prices
 have risen by 25% since the base year.

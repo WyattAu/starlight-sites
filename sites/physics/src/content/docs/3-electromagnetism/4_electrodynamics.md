@@ -21,7 +21,9 @@ description: "A changing magnetic field induces an electric field: Comprehensive
 
 A changing magnetic field induces an electric field:
 
-$$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$$
+$$
+\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
+$$
 
 **Lenz's Law:** The induced EMF opposes the change in flux that produced it.
 
@@ -38,7 +40,9 @@ Maxwell's key insight: Ampere’s law $\nabla \times \mathbf{B} = \mu_0 \mathbf{
 with The continuity equation. Adding the **displacement current** term
 $\mu_0 \varepsilon_0 \partial \mathbf{E}/\partial t$ Resolves this:
 
-$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$
+$$
+\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+$$
 
 ### 4.3 Worked Example
 
@@ -53,11 +57,17 @@ $\frac{\partial E}{\partial t} = \frac{I}{\pi R^2 \varepsilon_0}$.
 
 By symmetry, use an Amperian loop of radius $r \lt R$:
 
-$$\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \varepsilon_0 \frac{\partial}{\partial t}\int \mathbf{E} \cdot d\mathbf{A}$$
+$$
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \varepsilon_0 \frac{\partial}{\partial t}\int \mathbf{E} \cdot d\mathbf{A}
+$$
 
-$$B \cdot 2\pi r = \mu_0 \varepsilon_0 \cdot \frac{I}{\pi R^2 \varepsilon_0} \cdot \pi r^2 = \frac{\mu_0 I r^2}{R^2}$$
+$$
+B \cdot 2\pi r = \mu_0 \varepsilon_0 \cdot \frac{I}{\pi R^2 \varepsilon_0} \cdot \pi r^2 = \frac{\mu_0 I r^2}{R^2}
+$$
 
-$$B = \frac{\mu_0 I r}{2\pi R^2}$$
+$$
+B = \frac{\mu_0 I r}{2\pi R^2}
+$$
 
 $\blacksquare$
 
@@ -65,7 +75,9 @@ $\blacksquare$
 
 When a conductor moves through a magnetic field, the Lorentz force on the charges produces an EMF:
 
-$$\mathcal{E} = \oint (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l}$$
+$$
+\mathcal{E} = \oint (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l}
+$$
 
 This is consistent with the flux rule $\mathcal{E} = -d\Phi_B/dt$ since changing the Circuit's
 geometry or position changes the flux.
@@ -79,7 +91,9 @@ plane.
 
 The motional EMF:
 
-$$\mathcal{E} = \int_0^L (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} = vBL$$
+$$
+\mathcal{E} = \int_0^L (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} = vBL
+$$
 
 The induced current: $I = \mathcal{E}/R = vBL/R$.
 
@@ -95,20 +109,28 @@ rod. $\blacksquare$
 **Problem with Ampere's original law.** The original Ampere’s law was
 $\nabla \times \mathbf{B} = \mu_0 \mathbf{J}$. Taking the divergence:
 
-$$\nabla \cdot (\nabla \times \mathbf{B}) = 0 = \mu_0 \nabla \cdot \mathbf{J}$$
+$$
+\nabla \cdot (\nabla \times \mathbf{B}) = 0 = \mu_0 \nabla \cdot \mathbf{J}
+$$
 
 This requires $\nabla \cdot \mathbf{J} = 0$ at all times, which contradicts the continuity Equation
 $\nabla \cdot \mathbf{J} = -\partial\rho/\partial t$ whenever charge density changes.
 
 **Resolution.** Use Gauss's law to rewrite the continuity equation:
 
-$$\nabla \cdot \mathbf{J} = -\frac{\partial\rho}{\partial t} = -\frac{\partial}{\partial t}(\varepsilon_0 \nabla \cdot \mathbf{E}) = -\nabla \cdot \left(\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}\right)$$
+$$
+\nabla \cdot \mathbf{J} = -\frac{\partial\rho}{\partial t} = -\frac{\partial}{\partial t}(\varepsilon_0 \nabla \cdot \mathbf{E}) = -\nabla \cdot \left(\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}\right)
+$$
 
-$$\nabla \cdot \left(\mathbf{J} + \varepsilon_0\frac{\partial \mathbf{E}}{\partial t}\right) = 0$$
+$$
+\nabla \cdot \left(\mathbf{J} + \varepsilon_0\frac{\partial \mathbf{E}}{\partial t}\right) = 0
+$$
 
 This suggests modifying Ampere's law to:
 
-$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$
+$$
+\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+$$
 
 Now taking the divergence gives zero identically, consistent with charge conservation. The Term
 $\mu_0 \varepsilon_0\,\partial\mathbf{E}/\partial t$ is the **displacement current**.
@@ -144,27 +166,39 @@ freely. As it exits, the braking force reappears. $\blacksquare$
 
 **Mutual inductance.** When circuit 1 produces flux $\Phi_{21}$ through circuit 2:
 
-$$M = \frac{\Phi_{21}}{I_1}$$
+$$
+M = \frac{\Phi_{21}}{I_1}
+$$
 
 The EMF induced in circuit 2 by a changing current in circuit 1:
 
-$$\mathcal{E}_2 = -M\frac{dI_1}{dt}$$
+$$
+\mathcal{E}_2 = -M\frac{dI_1}{dt}
+$$
 
 **Self-inductance.** A circuit carrying current $I$ produces flux $\Phi$ through itself:
 
-$$L = \frac{N\Phi}{I}$$
+$$
+L = \frac{N\Phi}{I}
+$$
 
 The back-EMF:
 
-$$\mathcal{E} = -L\frac{dI}{dt}$$
+$$
+\mathcal{E} = -L\frac{dI}{dt}
+$$
 
 **Energy stored** in an inductor:
 
-$$U = \frac{1}{2}LI^2$$
+$$
+U = \frac{1}{2}LI^2
+$$
 
 **Example: Solenoid.** A long solenoid of length $\ell$ with $N$ turns, cross-sectional area $A$:
 
-$$L = \frac{\mu_0 N^2 A}{\ell}$$
+$$
+L = \frac{\mu_0 N^2 A}{\ell}
+$$
 
 
 ```mermaid

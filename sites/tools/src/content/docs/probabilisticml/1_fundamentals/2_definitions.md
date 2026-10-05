@@ -123,7 +123,9 @@ Given metric spaces $(X, d_X)$ and $(Y, d_Y)$A function $f: X \to Y$ is $K$-Lips
 $K \geq 0$) if: $$ d_Y(f(x_1), f(x_2)) \leq K \cdot d_X(x_1, x_2) \quad \forall x_1, x_2 \in X $$
 
 The **Lipschitz constant** (or Lipschitz semi-norm) is defined as:
-$$\lVert f \rVert_{\mathrm{Lip}} = \sup_{x \neq y} \frac{d_Y(f(x), f(y))}{d_X(x, y)}$$
+$$
+\lVert f \rVert_{\mathrm{Lip}} = \sup_{x \neq y} \frac{d_Y(f(x), f(y))}{d_X(x, y)}
+$$
 
 The set of 1-Lipschitz functions consists of all functions satisfying
 $\lVert f \rVert_{\mathrm{Lip}} \leq 1$.
@@ -826,7 +828,9 @@ $f: S \to \mathbb{R}$ be measurable. **If $f$ is non-negative, or if
 $\mathbb{E}[|f(X)|] < \infty$**, then the expectation of $f(X)$ can be
 computed either in the sample space or the target space:
 
-$$\mathbb{E}[f(X)] = \int_\Omega f(X(\omega)) \, dP(\omega) = \int_S f(x) \, dP_X(x)$$
+$$
+\mathbb{E}[f(X)] = \int_\Omega f(X(\omega)) \, dP(\omega) = \int_S f(x) \, dP_X(x)
+$$
 
 _Intuition:_ LOTUS justifies computing expectations using the pushforward measure (distribution)
 rather than the underlying probability space. In ML, this is why we can compute
@@ -837,7 +841,9 @@ $P$.
 
 For two random variables $X, Y$ with finite second moments, the covariance is defined as:
 
-$$\mathrm{Cov}(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]$$
+$$
+\mathrm{Cov}(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]
+$$
 
 Equivalently,
 $\mathrm{Cov}(X, Y) = \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y]$.
@@ -1092,7 +1098,9 @@ is a **positive definite kernel** if:
 2. Positive semi-definiteness: For any $n \in \mathbb{N}$. Any
    $x_1, \dots, x_n \in \mathcal{X}$, and any
    $c_1, \dots, c_n \in \mathbb{R}$:
-   $$\sum_{i=1}^n \sum_{j=1}^n c_i c_j k(x_i, x_j) \geq 0$$
+   $$
+   \sum_{i=1}^n \sum_{j=1}^n c_i c_j k(x_i, x_j) \geq 0
+   $$
 
 ### Moore-Aronszajn Theorem
 
@@ -1264,7 +1272,9 @@ See Glivenko-Cantelli theorem.
 Let $X_1, X_2, \dots$ be i.i.d. Random variables with mean $\mu$ and finite covariance $\Sigma$.
 Then:
 
-$$\sqrt{n}(\bar{X}_n - \mu) \xrightarrow{d} \mathcal{N}(0, \Sigma)$$
+$$
+\sqrt{n}(\bar{X}_n - \mu) \xrightarrow{d} \mathcal{N}(0, \Sigma)
+$$
 
 Where $\bar{X}_n = \frac{1}{n}\sum_{i=1}^n X_i$.
 
@@ -1966,7 +1976,9 @@ using a deterministic transformation:
 If $z = T_\phi(\epsilon)$ where $\epsilon \sim p(\epsilon)$ (a fixed, parameter-free distribution)
 and $T_\phi$ is a diffeomorphism, then by LOTUS:
 
-$$\nabla_\phi \mathbb{E}_{z \sim q_\phi}[f(z)] = \nabla_\phi \mathbb{E}_{\epsilon \sim p}[f(T_\phi(\epsilon))] = \mathbb{E}_{\epsilon \sim p}[\nabla_\phi f(T_\phi(\epsilon))]$$
+$$
+\nabla_\phi \mathbb{E}_{z \sim q_\phi}[f(z)] = \nabla_\phi \mathbb{E}_{\epsilon \sim p}[f(T_\phi(\epsilon))] = \mathbb{E}_{\epsilon \sim p}[\nabla_\phi f(T_\phi(\epsilon))]
+$$
 
 _Relevance:_ Foundation of VAE training and differentiable Monte Carlo estimation.
 
@@ -1974,7 +1986,9 @@ _Relevance:_ Foundation of VAE training and differentiable Monte Carlo estimatio
 
 Let $\mu, \nu \in \mathcal{P}(S)$ where $(S, d)$ is a Polish space. The
 $p$-Wasserstein distance is:
-$$W_p(\mu, \nu) = \left( \inf_{\gamma \in \Pi(\mu, \nu)} \int_{S \times S} d(x, y)^p \, d\gamma(x, y) \right)^{1/p}$$
+$$
+W_p(\mu, \nu) = \left( \inf_{\gamma \in \Pi(\mu, \nu)} \int_{S \times S} d(x, y)^p \, d\gamma(x, y) \right)^{1/p}
+$$
 Where $\Pi(\mu, \nu)$ is the set of joint distributions (couplings) with marginals $\mu$ and $\nu$.
 
 _Duality (for $p=1$):_ Via Kantorovich-Rubinstein,

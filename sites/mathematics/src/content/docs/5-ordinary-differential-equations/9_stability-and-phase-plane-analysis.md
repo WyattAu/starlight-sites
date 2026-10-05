@@ -114,7 +114,9 @@ much more complex behaviour (chaos) is possible.
 
 **Example: Van der Pol oscillator.** The equation
 
-$$x'' + \mu(x^2 - 1)x' + x = 0$$
+$$
+x'' + \mu(x^2 - 1)x' + x = 0
+$$
 
 With $\mu > 0$ has a unique stable limit cycle. This system models electrical circuits with
 Nonlinear resistance and arises in biology (cardiac rhythms, neuron firing).
@@ -153,7 +155,9 @@ The Hartman-Grobman theorem guarantees that near a hyperbolic critical point (no
 
 The competing species model is:
 
-$$x' = x(r_1 - a_{11}x - a_{12}y), \quad y' = y(r_2 - a_{21}x - a_{22}y)$$
+$$
+x' = x(r_1 - a_{11}x - a_{12}y), \quad y' = y(r_2 - a_{21}x - a_{22}y)
+$$
 
 Where $r_i > 0$ are growth rates and $a_{ij} > 0$ are competition coefficients. The four critical
 Points are $(0, 0)$, $(r_1/a_{11}, 0)$, $(0, r_2/a_{22})$ And the coexistence point $(x^*, y^*)$

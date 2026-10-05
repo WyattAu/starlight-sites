@@ -569,7 +569,9 @@ become the aldehyde.
 The nitronium ion is formed by the reaction of concentrated nitric acid with concentrated sulphuric
 acid:
 
-$$\mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}
+$$
 
 Electron flow: The lone pair on the oxygen of $\mathrm{HNO}_3$ attacks the hydrogen of
 $\mathrm{H}_2\mathrm{SO}_4$Forming $\mathrm{H}_2\mathrm{NO}_3^+$. Water is eliminated, leaving
@@ -590,14 +592,18 @@ aromaticity. The sulphuric acid is regenerated.
 
 **Acylation of benzene with ethanoyl chloride:**
 
-$$\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{COCl} \xrightarrow{\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{HCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{COCl} \xrightarrow{\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{HCl}
+$$
 
 **Step 1: Formation of the electrophile.**
 
 $\mathrm{AlCl}_3$ (a Lewis acid) coordinates to the chlorine of ethanoyl chloride, polarising the
 C--Cl bond and forming the acylium ion:
 
-$$\mathrm{CH}_3\mathrm{COCl} + \mathrm{AlCl}_3 \to \mathrm{CH}_3\mathrm{CO}^+ + \mathrm{AlCl}_4^-$$
+$$
+\mathrm{CH}_3\mathrm{COCl} + \mathrm{AlCl}_3 \to \mathrm{CH}_3\mathrm{CO}^+ + \mathrm{AlCl}_4^-
+$$
 
 The acylium ion is resonance-stabilised:
 $\mathrm{CH}_3\mathrm{C}\equiv\mathrm{O}^+ \leftrightarrow \mathrm{CH}_3\mathrm{C}^+=\mathrm{O}$
@@ -620,11 +626,15 @@ Step 1: Nitration of toluene. The $-\mathrm{CH}_3$ group is ortho/para directing
 mixture of 2-nitrotoluene (ortho) and 4-nitrotoluene (para). Isolate 4-nitrotoluene by fractional
 distillation.
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_3 \xrightarrow{\mathrm{HNO}_3/\mathrm{H}_2\mathrm{SO}_4} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{CH}_3 \text{ (major)}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_3 \xrightarrow{\mathrm{HNO}_3/\mathrm{H}_2\mathrm{SO}_4} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{CH}_3 \text{ (major)}
+$$
 
 Step 2: Oxidation of the methyl group to carboxylic acid:
 
-$$4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{CH}_3 \xrightarrow{\mathrm{KMnO}_4,\,\Delta} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{COOH}$$
+$$
+4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{CH}_3 \xrightarrow{\mathrm{KMnO}_4,\,\Delta} 4\text{-}\mathrm{O}_2\mathrm{NC}_6\mathrm{H}_4\mathrm{COOH}
+$$
 
 Step 3: A second nitration would place the nitro group meta to the $-\mathrm{COOH}$ group (meta
 director). But we need it ortho to the $-\mathrm{COOH}$.
@@ -647,7 +657,9 @@ $\Delta H_\mathrm{hydrogenation} = 3 \times (-120) = -360\,\mathrm{kJ/mol}$
 Experimental:
 $\mathrm{C}_6\mathrm{H}_6 + 3\mathrm{H}_2 \to \mathrm{C}_6\mathrm{H}_{12}$$\Delta H = -208\,\mathrm{kJ/mol}$
 
-$$\text{Delocalisation energy} = -360 - (-208) = -152\,\mathrm{kJ/mol}$$
+$$
+\text{Delocalisation energy} = -360 - (-208) = -152\,\mathrm{kJ/mol}
+$$
 
 The negative sign indicates that benzene is stabilised by $152\,\mathrm{kJ/mol}$ relative to the
 hypothetical Kekule structure with three isolated double bonds.
@@ -689,7 +701,9 @@ by resonance delocalisation of the negative charge over the aromatic ring, where
 
 Resonance structures of the phenoxide ion:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{O}^- \leftrightarrow \overset{-}{\mathrm{C}}_6\mathrm{H}_4 = \mathrm{O} \leftrightarrow \mathrm{C}_6\mathrm{H}_4 = \overset{+}{\mathrm{O}} \leftrightarrow \dots$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{O}^- \leftrightarrow \overset{-}{\mathrm{C}}_6\mathrm{H}_4 = \mathrm{O} \leftrightarrow \mathrm{C}_6\mathrm{H}_4 = \overset{+}{\mathrm{O}} \leftrightarrow \dots
+$$
 
 The negative charge is distributed over the ortho and para carbons of the ring, making the phenoxide
 ion significantly more stable than the ethoxide ion.
@@ -710,11 +724,15 @@ $\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2 \xrightarrow{\mathrm{NaNO}_2/\mathrm{HCl}
 
 Step 4: Hydrolysis of the diazonium salt to phenol:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{H}_2\mathrm{O} \xrightarrow{\Delta} \mathrm{C}_6\mathrm{H}_5\mathrm{OH} + \mathrm{N}_2 + \mathrm{H}^+$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{H}_2\mathrm{O} \xrightarrow{\Delta} \mathrm{C}_6\mathrm{H}_5\mathrm{OH} + \mathrm{N}_2 + \mathrm{H}^+
+$$
 
 Step 5: Bromination of phenol with bromine water (no catalyst needed):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{OH} + \mathrm{Br}_2(aq) \to 4\text{-}\mathrm{BrC}_6\mathrm{H}_4\mathrm{OH} \text{ (mono-bromination at para)}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{OH} + \mathrm{Br}_2(aq) \to 4\text{-}\mathrm{BrC}_6\mathrm{H}_4\mathrm{OH} \text{ (mono-bromination at para)}
+$$
 
 Note: Controlling mono-bromination of phenol requires careful control of bromine stoichiometry (use
 1 equivalent of $\mathrm{Br}_2$ in a non-aqueous solvent such as $\mathrm{CS}_2$ at low

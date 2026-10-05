@@ -243,7 +243,9 @@ _Inductive step._ Let $u$ be the next vertex extracted. Assume for contradiction
 $\mathrm{dist}[u] \gt d(s, u)$. Then there exists a shortest path $P$ from $s$ to $u$. Let $x$ be
 The first vertex on $P$ not in $S$ And let $y$ be the predecessor of $x$ on $P$ ($y \in S$). Then:
 
-$$\mathrm{dist}[x] \leq \mathrm{dist}[y] + w(y, x) = d(s, y) + w(y, x) = d(s, x) \leq d(s, u) < \mathrm{dist}[u]$$
+$$
+\mathrm{dist}[x] \leq \mathrm{dist}[y] + w(y, x) = d(s, y) + w(y, x) = d(s, x) \leq d(s, u) < \mathrm{dist}[u]
+$$
 
 Since $\mathrm{dist}[x] \lt \mathrm{dist}[u]$, $x$ would have been extracted from the priority Queue
 before $u$, contradiction. Therefore $\mathrm{dist}[u] = d(s, u)$. $\square$
@@ -394,7 +396,9 @@ Vertices: `{A, B, C, D}`. Edges: `{A-B, A-C, B-C, C-D, D-A}`
 
 Adjacency matrix (index: A=0, B=1, C=2, D=3):
 
-$$\begin{pmatrix} 0 & 1 & 1 & 1 \\ 1 & 0 & 1 & 0 \\ 1 & 1 & 0 & 1 \\ 1 & 0 & 1 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 0 & 1 & 1 & 1 \\ 1 & 0 & 1 & 0 \\ 1 & 1 & 0 & 1 \\ 1 & 0 & 1 & 0 \end{pmatrix}
+$$
 
 Adjacency list:
 
@@ -537,7 +541,9 @@ Not-yet-visited vertex, invalidating the greedy choice.
 
 **Counterexample (CLRS, Exercise 24.3-5).** Consider vertices $S, A, B, C$ with edges:
 
-$$S \xrightarrow{1} A \xrightarrow{2} B \xrightarrow{1} C, \quad S \xrightarrow{4} C \xrightarrow{-3} B$$
+$$
+S \xrightarrow{1} A \xrightarrow{2} B \xrightarrow{1} C, \quad S \xrightarrow{4} C \xrightarrow{-3} B
+$$
 
 **Dijkstra execution:**
 

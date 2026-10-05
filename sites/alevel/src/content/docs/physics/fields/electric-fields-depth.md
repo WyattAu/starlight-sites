@@ -26,7 +26,9 @@ categories: [Physics]
 **Coulomb's Law.** The electrostatic force between two point charges $q_1$ and $q_2$ separated by
 Distance $r$ in vacuum is:
 
-$$\boxed{F = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}}$$
+$$
+\boxed{F = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}}
+$$
 
 Where $\varepsilon_0 = 8.85 \times 10^{-12}$ F m$^{-1}$ is the permittivity of free space and
 $k = 1/(4\pi\varepsilon_0) = 8.99 \times 10^9$ N m$^2$ C$^{-2}$ is Coulomb's constant.
@@ -39,7 +41,9 @@ the Line joining them.
 The net force on a charge due to multiple other charges is the **vector sum** of the individual
 Coulomb forces:
 
-$$\mathbf{F}_{\mathrm{net}} = \sum_i \frac{q\,q_i}{4\pi\varepsilon_0 r_i^2}\,\hat{\mathbf{r}}_i$$
+$$
+\mathbf{F}_{\mathrm{net}} = \sum_i \frac{q\,q_i}{4\pi\varepsilon_0 r_i^2}\,\hat{\mathbf{r}}_i
+$$
 
 This linearity is fundamental: each pair of charges interacts independently of all others.
 
@@ -62,13 +66,17 @@ by Electromagnetic forces.
 **Definition.** The electric field strength $\mathbf{E}$ at a point is the force per unit positive
 Charge:
 
-$$\boxed{\mathbf{E} = \frac{\mathbf{F}}{q}}$$
+$$
+\boxed{\mathbf{E} = \frac{\mathbf{F}}{q}}
+$$
 
 SI units: N C$^{-1}$Equivalent to V m$^{-1}$.
 
 ### Field of a Point Charge
 
-$$\boxed{E = \frac{Q}{4\pi\varepsilon_0 r^2}}$$
+$$
+\boxed{E = \frac{Q}{4\pi\varepsilon_0 r^2}}
+$$
 
 **Proof.** Place test charge $q$ at distance $r$ from $Q$. By Coulomb's law:
 $F = Qq/(4\pi\varepsilon_0 r^2)$. Therefore $E = F/q = Q/(4\pi\varepsilon_0 r^2)$. $\square$
@@ -78,7 +86,9 @@ charge.
 
 ### Uniform Electric Field Between Parallel Plates
 
-$$\boxed{E = \frac{V}{d}}$$
+$$
+\boxed{E = \frac{V}{d}}
+$$
 
 Where $V$ is the potential difference and $d$ is the plate separation.
 
@@ -104,13 +114,17 @@ Field lines provide a visual representation of the electric field:
 **Definition.** The electric potential $V$ at a point is the work done per unit positive charge in
 Bringing a small test charge from infinity to that point:
 
-$$\boxed{V = \frac{Q}{4\pi\varepsilon_0 r}}$$
+$$
+\boxed{V = \frac{Q}{4\pi\varepsilon_0 r}}
+$$
 
 SI units: volts (V), where 1 V = 1 J C$^{-1}$.
 
 ### Derivation from Coulomb's Law
 
-$$V = \frac{W}{q} = \frac{1}{q}\int_{\infty}^{r}\frac{Qq}{4\pi\varepsilon_0 r'^2}\,dr' = \frac{Q}{4\pi\varepsilon_0}\left[-\frac{1}{r'}\right]_{\infty}^{r} = \frac{Q}{4\pi\varepsilon_0 r}$$
+$$
+V = \frac{W}{q} = \frac{1}{q}\int_{\infty}^{r}\frac{Qq}{4\pi\varepsilon_0 r'^2}\,dr' = \frac{Q}{4\pi\varepsilon_0}\left[-\frac{1}{r'}\right]_{\infty}^{r} = \frac{Q}{4\pi\varepsilon_0 r}
+$$
 
 $\square$
 
@@ -120,7 +134,9 @@ distance, Approaching zero at infinity.
 
 ### Field--Potential Relationship
 
-$$\boxed{E = -\frac{dV}{dr}}$$
+$$
+\boxed{E = -\frac{dV}{dr}}
+$$
 
 **Proof.** Consider a test charge $q$ moved by $dr$ in the direction of the field. Work done by the
 Field: $dW = qE\,dr$. This equals the loss in potential energy: $dW = -q\,dV$. Therefore
@@ -134,7 +150,9 @@ $-\frac{dV}{dr} = -\frac{Q}{4\pi\varepsilon_0}\left(-\frac{1}{r^2}\right) = \fra
 
 ### Electric Potential Energy
 
-$$\boxed{U = \frac{q_1 q_2}{4\pi\varepsilon_0 r}}$$
+$$
+\boxed{U = \frac{q_1 q_2}{4\pi\varepsilon_0 r}}
+$$
 
 This is the work required to bring two charges from infinite separation to distance $r$.
 
@@ -175,13 +193,19 @@ Perpendicular to the field, between plates of length $L$.
 
 **Horizontal** (perpendicular to field): uniform motion.
 
-$$x = vt, \qquad t = \frac{L}{v}$$
+$$
+x = vt, \qquad t = \frac{L}{v}
+$$
 
 **Vertical** (parallel to field): uniformly accelerated.
 
-$$F = qE, \qquad a = \frac{qE}{m}$$
+$$
+F = qE, \qquad a = \frac{qE}{m}
+$$
 
-$$y = \frac{1}{2}at^2 = \frac{qEL^2}{2mv^2}$$
+$$
+y = \frac{1}{2}at^2 = \frac{qEL^2}{2mv^2}
+$$
 
 Eliminating $t$: $y = \frac{qE}{2mv^2}\,x^2$. This is a parabola.
 
@@ -194,7 +218,9 @@ Eliminating $t$: $y = \frac{qE}{2mv^2}\,x^2$. This is a parabola.
 An alternative approach uses energy conservation. The kinetic energy gained by the particle equals
 the Work done by the field:
 
-$$\Delta E_k = qV = qEd$$
+$$
+\Delta E_k = qV = qEd
+$$
 
 Where $d$ is the vertical displacement. This is often quicker than the kinematic approach.
 
@@ -235,9 +261,13 @@ A CRT uses electric fields to control and deflect a beam of electrons:
 
 From energy conservation:
 
-$$\frac{1}{2}m_e v^2 = eV_{\mathrm{acc}}$$
+$$
+\frac{1}{2}m_e v^2 = eV_{\mathrm{acc}}
+$$
 
-$$\boxed{v = \sqrt{\frac{2eV_{\mathrm{acc}}}{m_e}}}$$
+$$
+\boxed{v = \sqrt{\frac{2eV_{\mathrm{acc}}}{m_e}}}
+$$
 
 For $V_{\mathrm{acc}} = 2000$ V:
 $v = \sqrt{2 \times 1.60 \times 10^{-19} \times 2000 / 9.11 \times 10^{-31}} = 2.65 \times 10^7$
@@ -247,7 +277,9 @@ m s$^{-1}$.
 
 The deflection sensitivity $S$ is the deflection per unit deflection voltage:
 
-$$S = \frac{y}{V_d} = \frac{eL^2}{2m_e v^2 d} = \frac{L^2}{4V_{\mathrm{acc}}\,d}$$
+$$
+S = \frac{y}{V_d} = \frac{eL^2}{2m_e v^2 d} = \frac{L^2}{4V_{\mathrm{acc}}\,d}
+$$
 
 Where $L$ is the plate length and $d$ is the plate separation. Higher sensitivity requires longer
 Plates, closer spacing, and lower acceleration voltage.
@@ -264,13 +296,17 @@ Deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{ac
 A ring of radius $a$ carrying total charge $Q$. The field at distance $x$ from the centre along the
 Axis:
 
-$$\boxed{E = \frac{Qx}{4\pi\varepsilon_0(x^2 + a^2)^{3/2}}}$$
+$$
+\boxed{E = \frac{Qx}{4\pi\varepsilon_0(x^2 + a^2)^{3/2}}}
+$$
 
 **Proof.** By symmetry, the transverse components cancel. Each element $dq$ contributes
 $dE = dq/(4\pi\varepsilon_0(x^2 + a^2))$. The axial component is
 $dE_x = dE \cdot x/\sqrt{x^2 + a^2}$. Integrating over the ring:
 
-$$E_x = \frac{Q}{4\pi\varepsilon_0}\cdot\frac{x}{(x^2 + a^2)^{3/2}}$$
+$$
+E_x = \frac{Q}{4\pi\varepsilon_0}\cdot\frac{x}{(x^2 + a^2)^{3/2}}
+$$
 
 $\square$
 
@@ -281,7 +317,9 @@ $\square$
 
 For a line of charge with linear charge density $\lambda$ (C m$^{-1}$):
 
-$$\boxed{E = \frac{\lambda}{2\pi\varepsilon_0 r}}$$
+$$
+\boxed{E = \frac{\lambda}{2\pi\varepsilon_0 r}}
+$$
 
 Where $r$ is the perpendicular distance from the line. Note: the field falls off as $1/r$Not $1/r^2$
 Because a line charge is an extended source in one dimension.
@@ -296,9 +334,13 @@ In a uniform electric field.
 **Method:** An oil drop of mass $m$ carries charge $q$. In a uniform upward field $E$The drop is
 Suspended when the electric force balances gravity:
 
-$$qE = mg$$
+$$
+qE = mg
+$$
 
-$$\boxed{q = \frac{mg}{E}}$$
+$$
+\boxed{q = \frac{mg}{E}}
+$$
 
 The mass is found from the terminal velocity (using Stokes' law for the drag force in air). Millikan
 Found that all measured charges were integer multiples of $e = 1.60 \times 10^{-19}$ C.
@@ -310,22 +352,30 @@ Size $e$.
 
 For a parallel-plate capacitor with plate area $A$ and separation $d$:
 
-$$C = \frac{\varepsilon_0 A}{d}$$
+$$
+C = \frac{\varepsilon_0 A}{d}
+$$
 
 The energy stored when the capacitor carries charge $Q$ at potential difference $V$:
 
-$$\boxed{U = \frac{1}{2}QV = \frac{1}{2}CV^2 = \frac{Q^2}{2C}}$$
+$$
+\boxed{U = \frac{1}{2}QV = \frac{1}{2}CV^2 = \frac{Q^2}{2C}}
+$$
 
 **Proof.** During charging, the p.d. At any instant is $v = q/C$. Work to transfer charge $dq$:
 $dW = v\,dq = q\,dq/C$.
 
-$$W = \int_0^Q \frac{q}{C}\,dq = \frac{Q^2}{2C}$$
+$$
+W = \int_0^Q \frac{q}{C}\,dq = \frac{Q^2}{2C}
+$$
 
 $\square$
 
 The energy is stored in the electric field between the plates. The energy density is:
 
-$$u = \frac{1}{2}\varepsilon_0 E^2$$
+$$
+u = \frac{1}{2}\varepsilon_0 E^2
+$$
 
 ## Problem Set
 
@@ -481,7 +531,9 @@ between the plates.
 
 Force on the electron:
 
-$$F = eE = 1.6 \times 10^{-19} \times 40000 = 6.4 \times 10^{-15}\ \mathrm{N}$$
+$$
+F = eE = 1.6 \times 10^{-19} \times 40000 = 6.4 \times 10^{-15}\ \mathrm{N}
+$$
 
 $\blacksquare$
 
@@ -491,9 +543,13 @@ $\blacksquare$
 $10\ \mathrm{cm}$ in vacuum. Calculate the electrostatic force between them.
 
 **Solution.**
-$$F = \frac{1}{4\pi\varepsilon_0} \frac{|q_1 q_2|}{r^2} = \frac{8.99 \times 10^9 \times 3 \times 10^{-9} \times 5 \times 10^{-9}}{(0.1)^2}$$
+$$
+F = \frac{1}{4\pi\varepsilon_0} \frac{|q_1 q_2|}{r^2} = \frac{8.99 \times 10^9 \times 3 \times 10^{-9} \times 5 \times 10^{-9}}{(0.1)^2}
+$$
 
-$$F = \frac{8.99 \times 10^9 \times 15 \times 10^{-18}}{0.01} = \frac{134.85 \times 10^{-9}}{0.01} = 1.35 \times 10^{-5}\ \mathrm{N}$$
+$$
+F = \frac{8.99 \times 10^9 \times 15 \times 10^{-18}}{0.01} = \frac{134.85 \times 10^{-9}}{0.01} = 1.35 \times 10^{-5}\ \mathrm{N}
+$$
 
 The force is attractive (opposite charges).
 

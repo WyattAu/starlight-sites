@@ -356,7 +356,9 @@ detected!**
 **Algorithm.** For $k = 1, \ldots, V$: for each pair $(i, j)$Check if going through vertex $k$
 Improves the path.
 
-$$d_{ij}^{(k)} = \min(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)})$$
+$$
+d_{ij}^{(k)} = \min(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)})
+$$
 
 **Derivation.** Define $d_{ij}^{(k)}$ as the shortest-path distance from $i$ to $j$ using only
 intermediate vertices from $\\{1, 2, \ldots, k\\}$. Then:
@@ -382,35 +384,45 @@ $w(1,2) = 3$, $w(1,3) = 8$, $w(1,4) = -4$ $w(2,1) = 5$, $w(2,3) = 7$, $w(2,4) = 
 $w(3,4) = -1$ $w(4,1) = 6$, $w(4,3) = 9$.
 
 **Initial distance matrix $D^{(0)}$:**
-$$D^{(0)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 2 \\ 2 & \infty & 0 & -1 \\ 6 & \infty & 9 & 0 \end{pmatrix}$$
+$$
+D^{(0)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 2 \\ 2 & \infty & 0 & -1 \\ 6 & \infty & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 1$ (through vertex 1):** $D^{(1)}[2][3] = \min(7, 5 + 8) = 7$.
 $D^{(1)}[2][4] = \min(2, 5 + (-4)) = 1$. $D^{(1)}[3][2] = \min(\infty, 2 + 3) = 5$.
 $D^{(1)}[3][4] = \min(-1, 2 + (-4)) = -2$. $D^{(1)}[4][2] = \min(\infty, 6 + 3) = 9$.
 $D^{(1)}[4][3] = \min(9, 6 + 8) = 9$.
 
-$$D^{(1)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(1)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 2$ (through vertex 2):** $D^{(2)}[1][3] = \min(8, 3 + 7) = 8$.
 $D^{(2)}[1][4] = \min(-4, 3 + 1) = -4$. $D^{(2)}[3][1] = \min(2, 5 + 5) = 2$.
 $D^{(2)}[3][4] = \min(-2, 5 + 1) = -2$. $D^{(2)}[4][1] = \min(6, 9 + 5) = 6$.
 $D^{(2)}[4][3] = \min(9, 9 + 7) = 9$.
 
-$$D^{(2)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(2)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 3$ (through vertex 3):** $D^{(3)}[1][2] = \min(3, 8 + 5) = 3$.
 $D^{(3)}[1][4] = \min(-4, 8 + (-2)) = -4$. $D^{(3)}[2][1] = \min(5, 7 + 2) = 5$.
 $D^{(3)}[2][4] = \min(1, 7 + (-2)) = 1$. $D^{(3)}[4][1] = \min(6, 9 + 2) = 6$.
 $D^{(3)}[4][2] = \min(9, 9 + 5) = 9$.
 
-$$D^{(3)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(3)} = \begin{pmatrix} 0 & 3 & 8 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 **$k = 4$ (through vertex 4):** $D^{(4)}[1][2] = \min(3, -4 + 9) = 3$.
 $D^{(4)}[1][3] = \min(8, -4 + 9) = 5$. $D^{(4)}[2][1] = \min(5, 1 + 6) = 5$.
 $D^{(4)}[2][3] = \min(7, 1 + 9) = 7$. $D^{(4)}[3][1] = \min(2, -2 + 6) = 2$.
 $D^{(4)}[3][2] = \min(5, -2 + 9) = 5$.
 
-$$D^{(4)} = \begin{pmatrix} 0 & 3 & 5 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}$$
+$$
+D^{(4)} = \begin{pmatrix} 0 & 3 & 5 & -4 \\ 5 & 0 & 7 & 1 \\ 2 & 5 & 0 & -2 \\ 6 & 9 & 9 & 0 \end{pmatrix}
+$$
 
 </details>
 

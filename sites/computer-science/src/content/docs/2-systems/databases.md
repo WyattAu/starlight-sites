@@ -48,15 +48,21 @@ is an attribute from domain $D_i$.
 
 **Selection** ($\sigma$): Filter rows.
 
-$$\sigma_{\text{condition}}(R) = \{t \in R : t \text{ satisfies condition}\}$$
+$$
+\sigma_{\text{condition}}(R) = \{t \in R : t \text{ satisfies condition}\}
+$$
 
 **Projection** ($\pi$): Select columns.
 
-$$\pi_{A_1, A_2, \ldots}(R) = \{t[A_1, A_2, \ldots] : t \in R\}$$
+$$
+\pi_{A_1, A_2, \ldots}(R) = \{t[A_1, A_2, \ldots] : t \in R\}
+$$
 
 **Join** ($\bowtie$): Combine relations.
 
-$$R \bowtie_{\text{condition}} S = \sigma_{\text{condition}}(R \times S)$$
+$$
+R \bowtie_{\text{condition}} S = \sigma_{\text{condition}}(R \times S)
+$$
 
 **Natural join** ($\bowtie$): Join on all shared attributes, eliminating duplicates.
 
@@ -216,15 +222,21 @@ CLOSURE(X, F):
 **2NF:** 1NF and no partial dependencies. Every non-prime attribute is fully dependent on the entire
 candidate key.
 
-$$X \to Y \text{ is a partial dependency if } Y \text{ is non-prime and } X \text{ is a proper subset of a candidate key}$$
+$$
+X \to Y \text{ is a partial dependency if } Y \text{ is non-prime and } X \text{ is a proper subset of a candidate key}
+$$
 
 **3NF:** 2NF and no transitive dependencies. For every non-trivial FD $X \to Y$:
 
-$$X \text{ is a superkey} \quad \text{or} \quad Y \text{ is a prime attribute}$$
+$$
+X \text{ is a superkey} \quad \text{or} \quad Y \text{ is a prime attribute}
+$$
 
 **BCNF (Boyce-Codd Normal Form):** For every non-trivial FD $X \to Y$:
 
-$$X \text{ is a superkey}$$
+$$
+X \text{ is a superkey}
+$$
 
 **Decomposition into BCNF:**
 
@@ -473,15 +485,23 @@ Cost: $O(|R|\log|R| + |S|\log|S|)$. Good for range joins and sorted output.
 
 **Selectivity:** Fraction of rows satisfying a condition.
 
-$$\text{sel}(A = v) = \frac{1}{|V(A,R)|}$$
+$$
+\text{sel}(A = v) = \frac{1}{|V(A,R)|}
+$$
 
-$$\text{sel}(A > v) \approx \frac{\text{distinct values above } v}{|V(A,R)|}$$
+$$
+\text{sel}(A > v) \approx \frac{\text{distinct values above } v}{|V(A,R)|}
+$$
 
-$$\text{sel}(A \text{ LIKE '\%x\%'}) \approx \frac{1}{3} \text{ (heuristic)}$$
+$$
+\text{sel}(A \text{ LIKE '\%x\%'}) \approx \frac{1}{3} \text{ (heuristic)}
+$$
 
 **Join size estimation:**
 
-$$|R \bowtie S| \approx \frac{|R| \cdot |S|}{\max(V(R.key), V(S.key))}$$
+$$
+|R \bowtie S| \approx \frac{|R| \cdot |S|}{\max(V(R.key), V(S.key))}
+$$
 
 ### 6.5 EXPLAIN and Query Plans
 

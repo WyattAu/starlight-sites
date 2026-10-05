@@ -71,19 +71,25 @@ Determine the rate law and rate constant.
 **Solution:**
 
 Comparing experiments 1 and 2 ([O$_2$] constant):
-$$\frac{\text{Rate}_2}{\text{Rate}_1} = \frac{1.0 \times 10^{-4}}{2.5 \times 10^{-5}} = 4 = \left(\frac{0.020}{0.010}\right)^m = 2^m$$
+$$
+\frac{\text{Rate}_2}{\text{Rate}_1} = \frac{1.0 \times 10^{-4}}{2.5 \times 10^{-5}} = 4 = \left(\frac{0.020}{0.010}\right)^m = 2^m
+$$
 
 So $m = 2$ (second order in NO).
 
 Comparing experiments 1 and 3 ([NO] constant):
-$$\frac{\text{Rate}_3}{\text{Rate}_1} = \frac{5.0 \times 10^{-5}}{2.5 \times 10^{-5}} = 2 = \left(\frac{0.020}{0.010}\right)^n = 2^n$$
+$$
+\frac{\text{Rate}_3}{\text{Rate}_1} = \frac{5.0 \times 10^{-5}}{2.5 \times 10^{-5}} = 2 = \left(\frac{0.020}{0.010}\right)^n = 2^n
+$$
 
 So $n = 1$ (first order in O$_2$).
 
 Rate law: $\text{rate} = k[\text{NO}]^2[\text{O}_2]$
 
 Using experiment 1:
-$$k = \frac{\text{rate}}{[\text{NO}]^2[\text{O}_2]} = \frac{2.5 \times 10^{-5}}{(0.010)^2(0.010)} = 2.5 \times 10^3 \text{ M}^{-2}\text{s}^{-1}$$
+$$
+k = \frac{\text{rate}}{[\text{NO}]^2[\text{O}_2]} = \frac{2.5 \times 10^{-5}}{(0.010)^2(0.010)} = 2.5 \times 10^3 \text{ M}^{-2}\text{s}^{-1}
+$$
 
 **Common mistake:** Assuming the rate law from the stoichiometric coefficients. The exponents must be determined experimentally, not from the balanced equation.
 
@@ -94,10 +100,14 @@ $$k = \frac{\text{rate}}{[\text{NO}]^2[\text{O}_2]} = \frac{2.5 \times 10^{-5}}{
 **Solution:**
 
 Number of half-lives in 60 minutes:
-$$n = \frac{60}{20} = 3$$
+$$
+n = \frac{60}{20} = 3
+$$
 
 Fraction remaining after $n$ half-lives:
-$$\frac{[A]}{[A]_0} = \left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^3 = \frac{1}{8} = 0.125$$
+$$
+\frac{[A]}{[A]_0} = \left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^3 = \frac{1}{8} = 0.125
+$$
 
 Percentage remaining: $12.5\%$
 
@@ -110,16 +120,26 @@ Percentage remaining: $12.5\%$
 **Solution:**
 
 Using the Arrhenius equation in ratio form:
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
 Given $k_2/k_1 = 2$, $T_1 = 300$ K, $T_2 = 310$ K:
-$$\ln 2 = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{310}\right)$$
+$$
+\ln 2 = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{310}\right)
+$$
 
-$$0.693 = \frac{E_a}{8.314} \times \frac{10}{300 \times 310}$$
+$$
+0.693 = \frac{E_a}{8.314} \times \frac{10}{300 \times 310}
+$$
 
-$$0.693 = \frac{E_a}{8.314} \times 1.075 \times 10^{-4}$$
+$$
+0.693 = \frac{E_a}{8.314} \times 1.075 \times 10^{-4}
+$$
 
-$$E_a = \frac{0.693 \times 8.314}{1.075 \times 10^{-4}} = 53.6 \text{ kJ/mol}$$
+$$
+E_a = \frac{0.693 \times 8.314}{1.075 \times 10^{-4}} = 53.6 \text{ kJ/mol}
+$$
 
 **Common mistake:** Using $R = 8.314$ J/(mol·K) without converting $E_a$ to J/mol. The answer should be reported in kJ/mol by dividing by 1000.
 

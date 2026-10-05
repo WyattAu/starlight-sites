@@ -735,13 +735,19 @@ Calculate the lattice energy of sodium chloride using the Born-Haber cycle.
 
 The Born-Haber cycle relates the enthalpy of formation to the individual energy steps:
 
-$$\Delta H_f^\circ = \Delta H_\mathrm{atom}(\mathrm{Na}) + \Delta H_\mathrm{atom}(\mathrm{Cl}) + IE_1(\mathrm{Na}) + EA_1(\mathrm{Cl}) + U$$
+$$
+\Delta H_f^\circ = \Delta H_\mathrm{atom}(\mathrm{Na}) + \Delta H_\mathrm{atom}(\mathrm{Cl}) + IE_1(\mathrm{Na}) + EA_1(\mathrm{Cl}) + U
+$$
 
 Solving for the lattice energy $U$:
 
-$$U = \Delta H_f^\circ - \Delta H_\mathrm{atom}(\mathrm{Na}) - \Delta H_\mathrm{atom}(\mathrm{Cl}) - IE_1(\mathrm{Na}) - EA_1(\mathrm{Cl})$$
+$$
+U = \Delta H_f^\circ - \Delta H_\mathrm{atom}(\mathrm{Na}) - \Delta H_\mathrm{atom}(\mathrm{Cl}) - IE_1(\mathrm{Na}) - EA_1(\mathrm{Cl})
+$$
 
-$$U = -411 - 108 - 122 - 496 - (-349) = -788\;\mathrm{kJ/mol}$$
+$$
+U = -411 - 108 - 122 - 496 - (-349) = -788\;\mathrm{kJ/mol}
+$$
 
 The lattice energy of $\mathrm{NaCl}$ is $-788\;\mathrm{kJ/mol}$. The large negative value reflects
 the strong electrostatic attraction between $\mathrm{Na}^+$ and $\mathrm{Cl}^-$ in the ionic
@@ -785,20 +791,32 @@ $-363\;\mathrm{kJ/mol}$Determine the hydration enthalpy of $\mathrm{Ca}^{2+}$.
 The enthalpy of solution is the sum of the endothermic lattice-breaking step and the exothermic
 hydration step:
 
-$$\Delta H_\mathrm{sol} = \Delta H_\mathrm{lattice} + \Delta H_\mathrm{hydration}$$
+$$
+\Delta H_\mathrm{sol} = \Delta H_\mathrm{lattice} + \Delta H_\mathrm{hydration}
+$$
 
-$$-82.8 = +2258 + \Delta H_\mathrm{hydration}$$
+$$
+-82.8 = +2258 + \Delta H_\mathrm{hydration}
+$$
 
-$$\Delta H_\mathrm{hydration} = -82.8 - 2258 = -2341\;\mathrm{kJ/mol}$$
+$$
+\Delta H_\mathrm{hydration} = -82.8 - 2258 = -2341\;\mathrm{kJ/mol}
+$$
 
 The total hydration enthalpy is $-2341\;\mathrm{kJ/mol}$Which is the sum of the hydration enthalpies
 of all ions:
 
-$$\Delta H_\mathrm{hydration} = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2 \times \Delta H_\mathrm{hyd}(\mathrm{Cl}^-)$$
+$$
+\Delta H_\mathrm{hydration} = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2 \times \Delta H_\mathrm{hyd}(\mathrm{Cl}^-)
+$$
 
-$$-2341 = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2(-363)$$
+$$
+-2341 = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2(-363)
+$$
 
-$$\Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) = -2341 + 726 = -1615\;\mathrm{kJ/mol}$$
+$$
+\Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) = -2341 + 726 = -1615\;\mathrm{kJ/mol}
+$$
 
 The hydration enthalpy of $\mathrm{Ca}^{2+}$ is $-1615\;\mathrm{kJ/mol}$. This large magnitude
 reflects the high charge density of the small, doubly charged cation and its strong interaction with
@@ -820,25 +838,37 @@ $25.0\;\mathrm{mL}$ of $0.100\;\mathrm{M}$ $\mathrm{FeSO}_4$ solution.
 **(a) Balancing the equation:**
 
 Reduction half-reaction:
-$$\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6e^- \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6e^- \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}
+$$
 
 Oxidation half-reaction: $$\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-$$
 
 Balancing electrons ($\times 6$ for the iron half-reaction):
-$$6\mathrm{Fe}^{2+} \to 6\mathrm{Fe}^{3+} + 6e^-$$
+$$
+6\mathrm{Fe}^{2+} \to 6\mathrm{Fe}^{3+} + 6e^-
+$$
 
 Overall:
-$$\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6\mathrm{Fe}^{2+} \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O} + 6\mathrm{Fe}^{3+}$$
+$$
+\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6\mathrm{Fe}^{2+} \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O} + 6\mathrm{Fe}^{3+}
+$$
 
 **(b) Stoichiometric calculation:**
 
-$$n(\mathrm{Fe}^{2+}) = 0.100 \times 0.0250 = 0.00250\;\mathrm{mol}$$
+$$
+n(\mathrm{Fe}^{2+}) = 0.100 \times 0.0250 = 0.00250\;\mathrm{mol}
+$$
 
 From the equation, $6\;\mathrm{mol\;Fe}^{2+}$ react with $1\;\mathrm{mol\;Cr}_2\mathrm{O}_7^{2-}$:
 
-$$n(\mathrm{Cr}_2\mathrm{O}_7^{2-}) = \frac{0.00250}{6} = 4.17 \times 10^{-4}\;\mathrm{mol}$$
+$$
+n(\mathrm{Cr}_2\mathrm{O}_7^{2-}) = \frac{0.00250}{6} = 4.17 \times 10^{-4}\;\mathrm{mol}
+$$
 
-$$V(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7) = \frac{n}{c} = \frac{4.17 \times 10^{-4}}{0.0200} = 0.0208\;\mathrm{L} = 20.8\;\mathrm{mL}$$
+$$
+V(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7) = \frac{n}{c} = \frac{4.17 \times 10^{-4}}{0.0200} = 0.0208\;\mathrm{L} = 20.8\;\mathrm{mL}
+$$
 
 </details>
 

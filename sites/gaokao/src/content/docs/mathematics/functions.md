@@ -57,12 +57,20 @@ description: "Study notes for Functions with worked examples, practice problems,
 ### 指数与对数
 
 **指数运算律：**
-$$a^m \cdot a^n = a^{m+n}, \quad \frac{a^m}{a^n} = a^{m-n}, \quad (a^m)^n = a^{mn}$$
+$$
+a^m \cdot a^n = a^{m+n}, \quad \frac{a^m}{a^n} = a^{m-n}, \quad (a^m)^n = a^{mn}
+$$
 
 **对数运算律：**
-$$\log_a(MN) = \log_a M + \log_a N$$
-$$\log_a \frac{M}{N} = \log_a M - \log_a N$$
-$$\log_a M^n = n \log_a M$$
+$$
+\log_a(MN) = \log_a M + \log_a N
+$$
+$$
+\log_a \frac{M}{N} = \log_a M - \log_a N
+$$
+$$
+\log_a M^n = n \log_a M
+$$
 
 **换底公式：** $\log_a b = \frac{\ln b}{\ln a} = \frac{\log_c b}{\log_c a}$
 
@@ -111,7 +119,9 @@ $$\log_a M^n = n \log_a M$$
 **解答：**
 
 步骤1：化简左边：
-$$2^{x+1} - 2^x = 2 \cdot 2^x - 2^x = 2^x(2 - 1) = 2^x$$
+$$
+2^{x+1} - 2^x = 2 \cdot 2^x - 2^x = 2^x(2 - 1) = 2^x
+$$
 
 步骤2：方程化为 $2^x = 3$
 
@@ -141,7 +151,9 @@ $$2^{x+1} - 2^x = 2 \cdot 2^x - 2^x = 2^x(2 - 1) = 2^x$$
 步骤1：定义域为 $\mathbb{R}$，关于原点对称。
 
 步骤2：计算 $f(-x)$：
-$$f(-x) = \frac{e^{-x} - e^x}{e^{-x} + e^x} = \frac{-(e^x - e^{-x})}{e^x + e^{-x}} = -f(x)$$
+$$
+f(-x) = \frac{e^{-x} - e^x}{e^{-x} + e^x} = \frac{-(e^x - e^{-x})}{e^x + e^{-x}} = -f(x)
+$$
 
 步骤3：由 $f(-x) = -f(x)$，$f(x)$ 为奇函数。
 
@@ -173,17 +185,27 @@ $$f(-x) = \frac{e^{-x} - e^x}{e^{-x} + e^x} = \frac{-(e^x - e^{-x})}{e^x + e^{-x
 **解答：**
 
 步骤1：由对数定义，真数须为正：
-$$x + 3 > 0 \implies x > -3$$
-$$x - 1 > 0 \implies x > 1$$
+$$
+x + 3 > 0 \implies x > -3
+$$
+$$
+x - 1 > 0 \implies x > 1
+$$
 
 步骤2：合并对数：
-$$\log_2[(x+3)(x-1)] = 3$$
+$$
+\log_2[(x+3)(x-1)] = 3
+$$
 
 步骤3：化为指数形式：
-$$(x+3)(x-1) = 8$$
+$$
+(x+3)(x-1) = 8
+$$
 
 步骤4：展开并整理：
-$$x^2 + 2x - 3 = 8 \implies x^2 + 2x - 11 = 0$$
+$$
+x^2 + 2x - 3 = 8 \implies x^2 + 2x - 11 = 0
+$$
 
 步骤5：求解：$x = \frac{-2 \pm \sqrt{4 + 44}}{2} = \frac{-2 \pm \sqrt{48}}{2} = -1 \pm 2\sqrt{3}$
 
@@ -200,8 +222,12 @@ $$x^2 + 2x - 3 = 8 \implies x^2 + 2x - 11 = 0$$
 **解答：**
 
 步骤1：设 $0 < x_1 < x_2$，计算 $f(x_1) - f(x_2)$：
-$$f(x_1) - f(x_2) = \left(x_1 + \frac{4}{x_1}\right) - \left(x_2 + \frac{4}{x_2}\right)$$
-$$= (x_1 - x_2) + \frac{4(x_2 - x_1)}{x_1 x_2} = (x_1 - x_2)\left(1 - \frac{4}{x_1 x_2}\right)$$
+$$
+f(x_1) - f(x_2) = \left(x_1 + \frac{4}{x_1}\right) - \left(x_2 + \frac{4}{x_2}\right)
+$$
+$$
+= (x_1 - x_2) + \frac{4(x_2 - x_1)}{x_1 x_2} = (x_1 - x_2)\left(1 - \frac{4}{x_1 x_2}\right)
+$$
 
 步骤2：分析符号：
 
@@ -223,7 +249,9 @@ $$= (x_1 - x_2) + \frac{4(x_2 - x_1)}{x_1 x_2} = (x_1 - x_2)\left(1 - \frac{4}{x
 步骤2：由 $5^b = 10$，取对数得 $b \lg 5 = \lg 10 = 1$，故 $\dfrac{1}{b} = \lg 5$。
 
 步骤3：相加：
-$$\frac{1}{a} + \frac{1}{b} = \lg 2 + \lg 5 = \lg(2 \times 5) = \lg 10 = 1$$
+$$
+\frac{1}{a} + \frac{1}{b} = \lg 2 + \lg 5 = \lg(2 \times 5) = \lg 10 = 1
+$$
 
 **答案：** $\dfrac{1}{a} + \dfrac{1}{b} = 1$
 

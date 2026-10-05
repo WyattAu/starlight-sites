@@ -38,7 +38,9 @@ Calculating probabilities. For example: "$X \sim B(20, 0.3)$".
 A random variable $X$ has a **binomial distribution** with parameters $n$ and $p$ (written
 $X \sim B(n, p)$) if:
 
-$$P(X = r) = \binom{n}{r}p^r(1-p)^{n-r}, \quad r = 0, 1, 2, \ldots, n$$
+$$
+P(X = r) = \binom{n}{r}p^r(1-p)^{n-r}, \quad r = 0, 1, 2, \ldots, n
+$$
 
 **Conditions for a binomial distribution:**
 
@@ -49,21 +51,31 @@ $$P(X = r) = \binom{n}{r}p^r(1-p)^{n-r}, \quad r = 0, 1, 2, \ldots, n$$
 
 ### 1.2 Mean and variance
 
-$$E(X) = np, \qquad \mathrm{Var}(X) = np(1-p)$$
+$$
+E(X) = np, \qquad \mathrm{Var}(X) = np(1-p)
+$$
 
 **Proof of $E(X) = np$.**
 
-$$E(X) = \sum_{r=0}^{n} r\binom{n}{r}p^r(1-p)^{n-r} = \sum_{r=1}^{n} r\binom{n}{r}p^r(1-p)^{n-r}$$
+$$
+E(X) = \sum_{r=0}^{n} r\binom{n}{r}p^r(1-p)^{n-r} = \sum_{r=1}^{n} r\binom{n}{r}p^r(1-p)^{n-r}
+$$
 
 Using $r\binom{n}{r} = n\binom{n-1}{r-1}$:
 
-$$= np\sum_{r=1}^{n}\binom{n-1}{r-1}p^{r-1}(1-p)^{n-r} = np\sum_{k=0}^{n-1}\binom{n-1}{k}p^k(1-p)^{n-1-k} = np \cdot 1 = np \quad \blacksquare$$
+$$
+= np\sum_{r=1}^{n}\binom{n-1}{r-1}p^{r-1}(1-p)^{n-r} = np\sum_{k=0}^{n-1}\binom{n-1}{k}p^k(1-p)^{n-1-k} = np \cdot 1 = np \quad \blacksquare
+$$
 
 ### 1.3 Cumulative probabilities
 
-$$P(X \leq r) = \sum_{k=0}^{r}\binom{n}{k}p^k(1-p)^{n-k}$$
+$$
+P(X \leq r) = \sum_{k=0}^{r}\binom{n}{k}p^k(1-p)^{n-k}
+$$
 
-$$P(X \geq r) = 1 - P(X \leq r-1)$$
+$$
+P(X \geq r) = 1 - P(X \leq r-1)
+$$
 
 ### 1.4 Worked example
 
@@ -93,7 +105,9 @@ $P(5 \leq X \leq 9) = 1 - \dfrac{794}{4096} - \dfrac{79}{4096} = \dfrac{3223}{40
 A random variable $X$ has a **normal distribution** with parameters $\mu$ and $\sigma^2$ (written
 $X \sim N(\mu, \sigma^2)$) if its probability density function is:
 
-$$f(x) = \frac{1}{\sigma\sqrt{2\pi}}\exp\!\left(-\frac{(x - \mu)^2}{2\sigma^2}\right), \quad x \in \mathbb{R}$$
+$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}}\exp\!\left(-\frac{(x - \mu)^2}{2\sigma^2}\right), \quad x \in \mathbb{R}
+$$
 
 ### 2.2 Properties
 
@@ -108,9 +122,13 @@ $$f(x) = \frac{1}{\sigma\sqrt{2\pi}}\exp\!\left(-\frac{(x - \mu)^2}{2\sigma^2}\r
 
 To find probabilities, we standardise to the **standard normal** $Z \sim N(0, 1)$:
 
-$$Z = \frac{X - \mu}{\sigma}$$
+$$
+Z = \frac{X - \mu}{\sigma}
+$$
 
-$$P(X \leq x) = P\!\left(Z \leq \frac{x - \mu}{\sigma}\right) = \Phi\!\left(\frac{x - \mu}{\sigma}\right)$$
+$$
+P(X \leq x) = P\!\left(Z \leq \frac{x - \mu}{\sigma}\right) = \Phi\!\left(\frac{x - \mu}{\sigma}\right)
+$$
 
 Where $\Phi(z)$ denotes the cumulative distribution function of the standard normal.
 
@@ -139,7 +157,9 @@ $m = 1.02 + 0.03 \times 1.282 = 1.058\;\mathrm{kg}$
 
 If $X \sim B(n, p)$ and $n$ is large, then $X$ is approximately normal with:
 
-$$X \approx N(np, np(1-p))$$
+$$
+X \approx N(np, np(1-p))
+$$
 
 **Continuity correction.** Since the binomial is discrete and the normal is continuous, apply a
 Continuity correction:
@@ -171,7 +191,9 @@ $= 1 - \Phi(-0.337) = \Phi(0.337) \approx 0.632$
 A random variable $X$ has a **Poisson distribution** with parameter $\lambda$ (written
 $X \sim \mathrm{Po}(\lambda)$) if:
 
-$$P(X = r) = \frac{e^{-\lambda}\lambda^r}{r!}, \quad r = 0, 1, 2, \ldots$$
+$$
+P(X = r) = \frac{e^{-\lambda}\lambda^r}{r!}, \quad r = 0, 1, 2, \ldots
+$$
 
 **Conditions:**
 
@@ -181,7 +203,9 @@ $$P(X = r) = \frac{e^{-\lambda}\lambda^r}{r!}, \quad r = 0, 1, 2, \ldots$$
 
 ### 3.2 Mean and variance
 
-$$E(X) = \lambda, \qquad \mathrm{Var}(X) = \lambda$$
+$$
+E(X) = \lambda, \qquad \mathrm{Var}(X) = \lambda
+$$
 
 The equality of mean and variance is a distinguishing feature of the Poisson distribution.
 
@@ -207,7 +231,9 @@ $P(Y \gt 8) = 1 - P(Y \leq 8) = 1 - e^{-9}\displaystyle\sum_{r=0}^{8}\dfrac{9^r}
 
 If $X \sim B(n, p)$ where $n$ is large and $p$ is small (so that $np$ is moderate), then:
 
-$$X \approx \mathrm{Po}(np)$$
+$$
+X \approx \mathrm{Po}(np)
+$$
 
 This is valid when $n \geq 50$ and $p \leq 0.1$ (and $np \leq 10$ as a rough guideline).
 
@@ -218,7 +244,9 @@ Probability that exactly 3 are defective.
 
 $X \sim B(200, 0.02)$. Since $n = 200$ is large and $p = 0.02$ is small, $X \approx \mathrm{Po}(4)$.
 
-$$P(X = 3) = \frac{e^{-4} \cdot 4^3}{3!} = \frac{64e^{-4}}{6} = \frac{32}{3}e^{-4} \approx 0.1954$$
+$$
+P(X = 3) = \frac{e^{-4} \cdot 4^3}{3!} = \frac{64e^{-4}}{6} = \frac{32}{3}e^{-4} \approx 0.1954
+$$
 
 <hr />
 
@@ -239,9 +267,13 @@ Then $X + Y \sim \mathrm{Po}(\lambda_1 + \lambda_2)$.
 
 **Proof sketch.** Using MGFs or direct convolution:
 
-$$P(X + Y = r) = \sum_{k=0}^{r}P(X = k)P(Y = r-k) = \sum_{k=0}^{r}\frac{e^{-\lambda_1}\lambda_1^k}{k!} \cdot \frac{e^{-\lambda_2}\lambda_2^{r-k}}{(r-k)!}$$
+$$
+P(X + Y = r) = \sum_{k=0}^{r}P(X = k)P(Y = r-k) = \sum_{k=0}^{r}\frac{e^{-\lambda_1}\lambda_1^k}{k!} \cdot \frac{e^{-\lambda_2}\lambda_2^{r-k}}{(r-k)!}
+$$
 
-$$= \frac{e^{-(\lambda_1+\lambda_2)}}{r!}\sum_{k=0}^{r}\binom{r}{k}\lambda_1^k\lambda_2^{r-k} = \frac{e^{-(\lambda_1+\lambda_2)}(\lambda_1+\lambda_2)^r}{r!} \quad \blacksquare$$
+$$
+= \frac{e^{-(\lambda_1+\lambda_2)}}{r!}\sum_{k=0}^{r}\binom{r}{k}\lambda_1^k\lambda_2^{r-k} = \frac{e^{-(\lambda_1+\lambda_2)}(\lambda_1+\lambda_2)^r}{r!} \quad \blacksquare
+$$
 
 ### 4.3 Worked example
 
@@ -374,9 +406,13 @@ probability of getting between 45 and 55 heads inclusive.
 
 Continuity correction: $P(45 \leq X \leq 55) \approx P(44.5 < Y < 55.5)$ where $Y \sim N(50, 25)$.
 
-$$z_1 = \frac{44.5 - 50}{5} = -1.1, \quad z_2 = \frac{55.5 - 50}{5} = 1.1$$
+$$
+z_1 = \frac{44.5 - 50}{5} = -1.1, \quad z_2 = \frac{55.5 - 50}{5} = 1.1
+$$
 
-$$P(-1.1 < Z < 1.1) = \Phi(1.1) - \Phi(-1.1) = 2\Phi(1.1) - 1 = 2(0.8643) - 1 = 0.7286$$
+$$
+P(-1.1 < Z < 1.1) = \Phi(1.1) - \Phi(-1.1) = 2\Phi(1.1) - 1 = 2(0.8643) - 1 = 0.7286
+$$
 
 $\blacksquare$
 
@@ -387,9 +423,13 @@ exactly 6 calls in one hour and the probability of fewer than 3 calls.
 
 **Solution.** $X \sim \mathrm{Po}(4)$.
 
-$$P(X = 6) = \frac{e^{-4} \times 4^6}{6!} = \frac{0.01832 \times 4096}{720} = \frac{75.08}{720} \approx 0.1043$$
+$$
+P(X = 6) = \frac{e^{-4} \times 4^6}{6!} = \frac{0.01832 \times 4096}{720} = \frac{75.08}{720} \approx 0.1043
+$$
 
-$$P(X < 3) = P(X = 0) + P(X = 1) + P(X = 2) = e^{-4}(1 + 4 + 8) = 13e^{-4} \approx 0.2381$$
+$$
+P(X < 3) = P(X = 0) + P(X = 1) + P(X = 2) = e^{-4}(1 + 4 + 8) = 13e^{-4} \approx 0.2381
+$$
 
 $\blacksquare$
 

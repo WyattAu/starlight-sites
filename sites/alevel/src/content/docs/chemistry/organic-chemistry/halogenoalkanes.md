@@ -525,11 +525,15 @@ The reaction is second-order overall (first-order with respect to each reactant)
 
 Step 1: Convert butan-2-ol to 2-bromobutane using concentrated HBr:
 
-$$\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}
+$$
 
 Step 2: Nucleophilic substitution with excess ammonia:
 
-$$\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{NH}_3 \to \mathrm{CH}_3\mathrm{CH}(\mathrm{NH}_2)\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr}$$
+$$
+\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{NH}_3 \to \mathrm{CH}_3\mathrm{CH}(\mathrm{NH}_2)\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr}
+$$
 
 The excess ammonia ensures that the primary amine is the major product, minimising further
 alkylation to secondary and tertiary amines.
@@ -559,19 +563,27 @@ alkylation to secondary and tertiary amines.
 
 **Reaction:** 2-bromo-2-methylpropane with ethanol at $50^\circ\mathrm{C}$.
 
-$$\mathrm{(CH}_3)_3\mathrm{CBr} \xrightarrow{\mathrm{EtOH},\,50^\circ\mathrm{C}} \mathrm{(CH}_3)_2\mathrm{C}=\mathrm{CH}_2 + \mathrm{(CH}_3)_3\mathrm{COCH}_2\mathrm{CH}_3$$
+$$
+\mathrm{(CH}_3)_3\mathrm{CBr} \xrightarrow{\mathrm{EtOH},\,50^\circ\mathrm{C}} \mathrm{(CH}_3)_2\mathrm{C}=\mathrm{CH}_2 + \mathrm{(CH}_3)_3\mathrm{COCH}_2\mathrm{CH}_3
+$$
 
 Both products form via the same carbocation intermediate:
 
-$$(\mathrm{CH}_3)_3\mathrm{CBr} \xrightarrow{\text{slow}} (\mathrm{CH}_3)_3\mathrm{C}^+ + \mathrm{Br}^-$$
+$$
+(\mathrm{CH}_3)_3\mathrm{CBr} \xrightarrow{\text{slow}} (\mathrm{CH}_3)_3\mathrm{C}^+ + \mathrm{Br}^-
+$$
 
 **E1 pathway (major):** The carbocation loses a proton to the solvent:
 
-$$(\mathrm{CH}_3)_3\mathrm{C}^+ \xrightarrow{-\mathrm{H}^+} (\mathrm{CH}_3)_2\mathrm{C}=\mathrm{CH}_2 \text{ (2-methylpropene)}$$
+$$
+(\mathrm{CH}_3)_3\mathrm{C}^+ \xrightarrow{-\mathrm{H}^+} (\mathrm{CH}_3)_2\mathrm{C}=\mathrm{CH}_2 \text{ (2-methylpropene)}
+$$
 
 **SN1 pathway (minor):** The carbocation is attacked by ethanol:
 
-$$(\mathrm{CH}_3)_3\mathrm{C}^+ + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \to (\mathrm{CH}_3)_3\mathrm{COCH}_2\mathrm{CH}_3 \text{ (2-ethoxy-2-methylpropane)}$$
+$$
+(\mathrm{CH}_3)_3\mathrm{C}^+ + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \to (\mathrm{CH}_3)_3\mathrm{COCH}_2\mathrm{CH}_3 \text{ (2-ethoxy-2-methylpropane)}
+$$
 
 At elevated temperature, elimination predominates (higher activation energy pathway favoured by
 Arrhenius equation).
@@ -607,11 +619,15 @@ $\mathrm{C}\text{-}\mathrm{Cl} \,(339\,\mathrm{kJ/mol}) \gt \mathrm{C}\text{-}\m
 
 Step 1: Nucleophilic substitution with $\mathrm{KCN}$:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{KCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CN} + \mathrm{KBr}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{KCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CN} + \mathrm{KBr}
+$$
 
 Step 2: Hydrolysis of the nitrile to carboxylic acid (reflux with dilute $\mathrm{HCl}$):
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{HCl} \xrightarrow{\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH} + \mathrm{NH}_4\mathrm{Cl}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{HCl} \xrightarrow{\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH} + \mathrm{NH}_4\mathrm{Cl}
+$$
 
 **Mechanism of Step 1 (SN2):** The $\mathrm{CN}^-$ ion attacks the electrophilic carbon of
 bromoethane from the opposite side of the C--Br bond. The C--Br bond breaks as the C--CN bond forms,
@@ -625,21 +641,29 @@ $\mathrm{NaCN}$) in ethanol ensures the cyanide ion is available as a free nucle
 
 **Reaction:** Hydrolysis of (R)-2-bromobutane in aqueous ethanol.
 
-$$\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr}$$
+$$
+\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr}
+$$
 
 **Mechanism (SN1):**
 
 Step 1 (slow): Heterolytic cleavage of the C--Br bond forms a planar secondary carbocation:
 
-$$\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 \to \mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_2\mathrm{CH}_3 + \mathrm{Br}^-$$
+$$
+\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 \to \mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_2\mathrm{CH}_3 + \mathrm{Br}^-
+$$
 
 Step 2 (fast): Water attacks the planar carbocation from either face with equal probability:
 
-$$\mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3
+$$
 
 Step 3: Deprotonation gives the alcohol:
 
-$$\mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{H}^+$$
+$$
+\mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{H}^+
+$$
 
 **Stereochemistry:** The product is a racemic mixture of (R)-butan-2-ol and (S)-butan-2-ol. The
 planar carbocation intermediate can be attacked with equal probability from either face, resulting
@@ -878,13 +902,19 @@ Retrosynthetic analysis:
 
 **Forward synthesis:**
 
-$$\mathrm{C}_6\mathrm{H}_6 \xrightarrow{\mathrm{CH}_3\mathrm{CH}_2\mathrm{COCl},\,\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_2\mathrm{CH}_3 \xrightarrow[\mathrm{Zn(Hg)}]{\mathrm{HCl}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{C}_6\mathrm{H}_6 \xrightarrow{\mathrm{CH}_3\mathrm{CH}_2\mathrm{COCl},\,\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_2\mathrm{CH}_3 \xrightarrow[\mathrm{Zn(Hg)}]{\mathrm{HCl}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \xrightarrow{\mathrm{Br}_2,\,h\nu} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CHBrCH}_3 + \mathrm{C}_6\mathrm{H}_5\mathrm{CHBrCH}_2\mathrm{CH}_3$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \xrightarrow{\mathrm{Br}_2,\,h\nu} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CHBrCH}_3 + \mathrm{C}_6\mathrm{H}_5\mathrm{CHBrCH}_2\mathrm{CH}_3
+$$
 
 Note: Radical bromination gives a mixture. A more controlled route would use the following:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{\mathrm{PBr}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} \xrightarrow{\mathrm{KCN}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CN} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{\mathrm{PBr}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} \xrightarrow{\mathrm{KCN}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CN} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2
+$$
 
 ---
 

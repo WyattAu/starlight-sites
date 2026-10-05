@@ -24,7 +24,9 @@ categories:
 
 The gradient $m$ of a line passing through $(x_1, y_1)$ and $(x_2, y_2)$ is:
 
-$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+$$
+m = \frac{y_2 - y_1}{x_2 - x_1}
+$$
 
 ### Equations of a Line
 
@@ -40,13 +42,17 @@ $$m = \frac{y_2 - y_1}{x_2 - x_1}$$
 
 ### Distance Between Points
 
-$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+$$
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+$$
 
 ### Distance from a Point to a Line
 
 The perpendicular distance from $(x_0, y_0)$ to $Ax + By + C = 0$:
 
-$$d = \frac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}}$$
+$$
+d = \frac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}}
+$$
 
 ### Intersection of Two Lines
 
@@ -61,7 +67,9 @@ intersection).
 
 The acute angle $\theta$ between two lines with gradients $m_1$ and $m_2$:
 
-$$\tan \theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right|$$
+$$
+\tan \theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right|
+$$
 
 ## Coordinate Geometry of Circles
 
@@ -69,11 +77,15 @@ $$\tan \theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right|$$
 
 A circle with centre $(h, k)$ and radius $r$:
 
-$$(x - h)^2 + (y - k)^2 = r^2$$
+$$
+(x - h)^2 + (y - k)^2 = r^2
+$$
 
 ### General Form
 
-$$x^2 + y^2 + Dx + Ey + F = 0$$
+$$
+x^2 + y^2 + Dx + Ey + F = 0
+$$
 
 Centre: $\left(-\frac{D}{2}, -\frac{E}{2}\right)$. Radius: $r = \frac{1}{2}\sqrt{D^2 + E^2 - 4F}$.
 
@@ -93,11 +105,15 @@ half the length of the diameter.
 
 A tangent to a circle at point $(x_1, y_1)$ on $(x - h)^2 + (y - k)^2 = r^2$:
 
-$$(x_1 - h)(x - h) + (y_1 - k)(y - k) = r^2$$
+$$
+(x_1 - h)(x - h) + (y_1 - k)(y - k) = r^2
+$$
 
 **Example**: Find the equation of the tangent to $x^2 + y^2 = 25$ at the point $(3, 4)$.
 
-$$3x + 4y = 25$$
+$$
+3x + 4y = 25
+$$
 
 ### Intersection of a Line and a Circle
 
@@ -139,7 +155,9 @@ For the parabola $y^2 = 4ax$, a general point is $(at^2, 2at)$ where $t$ is the 
 
 For $y^2 = 4ax$, the tangent at the point $(at_1^2, 2at_1)$ is:
 
-$$ty = x + at_1^2$$
+$$
+ty = x + at_1^2
+$$
 
 ### Reflective Property
 
@@ -156,7 +174,9 @@ constant.
 
 **Horizontal major axis**:
 
-$$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \quad (a > b)$$
+$$
+\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \quad (a > b)
+$$
 
 Centre: $(0, 0)$. Foci: $(\pm c, 0)$ where $c^2 = a^2 - b^2$. Major axis length: $2a$. Minor axis
 length: $2b$. Vertices: $(\pm a, 0)$. Co-vertices: $(0, \pm b)$. Eccentricity: $e = \frac{c}{a}$
@@ -164,7 +184,9 @@ where $0 < e < 1$.
 
 **Vertical major axis**:
 
-$$\frac{x^2}{b^2} + \frac{y^2}{a^2} = 1 \quad (a > b)$$
+$$
+\frac{x^2}{b^2} + \frac{y^2}{a^2} = 1 \quad (a > b)
+$$
 
 Foci: $(0, \pm c)$ where $c^2 = a^2 - b^2$.
 
@@ -180,7 +202,9 @@ Foci: $(0, \pm c)$ where $c^2 = a^2 - b^2$.
 
 For $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, the tangent at $(x_1, y_1)$ is:
 
-$$\frac{x x_1}{a^2} + \frac{y y_1}{b^2} = 1$$
+$$
+\frac{x x_1}{a^2} + \frac{y y_1}{b^2} = 1
+$$
 
 ## Conic Sections: Hyperbola
 
@@ -191,14 +215,18 @@ A hyperbola is the locus of points such that the difference of distances from tw
 
 **Horizontal transverse axis**:
 
-$$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$$
+$$
+\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1
+$$
 
 Centre: $(0, 0)$. Foci: $(\pm c, 0)$ where $c^2 = a^2 + b^2$. Vertices: $(\pm a, 0)$. Asymptotes:
 $y = \pm \frac{b}{a} x$. Eccentricity: $e = \frac{c}{a}$ where $e > 1$.
 
 **Vertical transverse axis**:
 
-$$\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1$$
+$$
+\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1
+$$
 
 Foci: $(0, \pm c)$ where $c^2 = a^2 + b^2$. Asymptotes: $y = \pm \frac{a}{b} x$.
 
@@ -214,7 +242,9 @@ Foci: $(0, \pm c)$ where $c^2 = a^2 + b^2$. Asymptotes: $y = \pm \frac{a}{b} x$.
 
 For $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, the tangent at $(x_1, y_1)$ is:
 
-$$\frac{x x_1}{a^2} - \frac{y y_1}{b^2} = 1$$
+$$
+\frac{x x_1}{a^2} - \frac{y y_1}{b^2} = 1
+$$
 
 ## Comparing Conic Sections
 
@@ -270,11 +300,15 @@ The position vector of point $P(x, y)$ is $\vec{OP} = \begin{pmatrix} x \\ y \en
 
 Through point $A$ with position vector $\mathbf{a}$, in the direction of vector $\mathbf{d}$:
 
-$$\mathbf{r} = \mathbf{a} + t\mathbf{d} \quad (t \in \mathbb{R})$$
+$$
+\mathbf{r} = \mathbf{a} + t\mathbf{d} \quad (t \in \mathbb{R})
+$$
 
 In Cartesian form, if $\mathbf{d} = \begin{pmatrix} d_1 \\ d_2 \end{pmatrix}$:
 
-$$\frac{x - a_1}{d_1} = \frac{y - a_2}{d_2}$$
+$$
+\frac{x - a_1}{d_1} = \frac{y - a_2}{d_2}
+$$
 
 ### Using Vectors to Prove Geometric Properties
 
@@ -298,27 +332,37 @@ diagonals bisect each other.
 Two vectors $\mathbf{u}$ and $\mathbf{v}$ are perpendicular if and only if their dot product is
 zero:
 
-$$\mathbf{u} \cdot \mathbf{v} = 0$$
+$$
+\mathbf{u} \cdot \mathbf{v} = 0
+$$
 
-$$\mathbf{u} \cdot \mathbf{v} = |\mathbf{u}||\mathbf{v}|\cos\theta$$
+$$
+\mathbf{u} \cdot \mathbf{v} = |\mathbf{u}||\mathbf{v}|\cos\theta
+$$
 
 ### Area Using Vectors
 
 The area of triangle $ABC$ is:
 
-$$\text{Area} = \frac{1}{2}|\overrightarrow{AB} \times \overrightarrow{AC}|$$
+$$
+\text{Area} = \frac{1}{2}|\overrightarrow{AB} \times \overrightarrow{AC}|
+$$
 
 In 2D, if $\overrightarrow{AB} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ and
 $\overrightarrow{AC} = \begin{pmatrix} c_1 \\ c_2 \end{pmatrix}$:
 
-$$\text{Area} = \frac{1}{2}|a_1 c_2 - a_2 c_1|$$
+$$
+\text{Area} = \frac{1}{2}|a_1 c_2 - a_2 c_1|
+$$
 
 ### Vector Proofs for Collinearity
 
 Three points $A$, $B$, $C$ are collinear if and only if $\overrightarrow{AB}$ is parallel to
 $\overrightarrow{AC}$, i.e.:
 
-$$\overrightarrow{AB} = k\overrightarrow{AC} \quad \text{for some scalar } k$$
+$$
+\overrightarrow{AB} = k\overrightarrow{AC} \quad \text{for some scalar } k
+$$
 
 ## Common Pitfalls
 

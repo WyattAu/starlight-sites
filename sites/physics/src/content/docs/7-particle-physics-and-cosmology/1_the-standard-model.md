@@ -47,7 +47,9 @@ The fundamental particles are:
 
 The Standard Model is a **renormalisable quantum field theory** based on the gauge group:
 
-$$G_{\mathrm{SM} = \mathrm{SU}(3)_C \times \mathrm{SU}(2)_L \times \mathrm{U}(1)_Y}$$
+$$
+G_{\mathrm{SM} = \mathrm{SU}(3)_C \times \mathrm{SU}(2)_L \times \mathrm{U}(1)_Y}
+$$
 
 Each factor corresponds to a fundamental interaction:
 
@@ -74,14 +76,18 @@ Symmetry and gives different masses to the $W^\pm$, $Z^0$ And photon.
 At energies well above the electroweak scale ($E \gg v \approx 246$ GeV), the four gauge bosons
 $W^1, W^2, W^3, B$ have equal status and the symmetry is manifest. At low energies, the mixing:
 
-$$\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\theta_W \\ -\sin\theta_W & \cos\theta_W \end{pmatrix} \begin{pmatrix} W^3 \\ B \end{pmatrix}$$
+$$
+\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\theta_W \\ -\sin\theta_W & \cos\theta_W \end{pmatrix} \begin{pmatrix} W^3 \\ B \end{pmatrix}
+$$
 
 Produces the massive $Z^0$ and the massless photon $A$. The Weinberg angle $\theta_W$ determines The
 mixing and satisfies $\sin^2\theta_W \approx 0.231$.
 
 The electromagnetic coupling $e$ and the weak couplings $g$, $g"$ are related by:
 
-$$e = g\sin\theta_W = g'\cos\theta_W$$
+$$
+e = g\sin\theta_W = g'\cos\theta_W
+$$
 
 This relationship is a direct prediction of the unified theory and has been verified experimentally
 To high precision at LEP and SLC.
@@ -145,7 +151,9 @@ The $\Omega^-$ has the following quantum numbers: $Q = -1$, $B = 1$, $S = -3$ St
 Since $B = 1$It is a baryon, so it consists of three quarks. The strangeness Contributes $-1$ per
 strange quark, so all three quarks must be strange:
 
-$$\Omega^- = sss$$
+$$
+\Omega^- = sss
+$$
 
 **Check the charge:** Each strange quark has $Q = -1/3$ So $Q(sss) = 3 \times (-1/3) = -1$. **Check
 the baryon number:** $B(sss) = 3 \times (1/3) = 1$. Both agree.
@@ -166,7 +174,9 @@ decay products. The decay conserves strangeness if $X^0$ has $S = +1$ So It cont
 The quantum numbers of $X^0$: $Q = 0$, $S = +1$. A meson with these properties Containing a
 $\bar{s}$ quark must be:
 
-$$X^0 = K^0 = d\bar{s}$$
+$$
+X^0 = K^0 = d\bar{s}
+$$
 
 **Verification:** $K^0 \to K^+ + \pi^-$ conserves charge ($0 = +1 + (-1)$) And strangeness
 ($+1 = +1 + 0$). This decay proceeds via the weak interaction.
@@ -207,20 +217,26 @@ The Standard Model is like a periodic table for fundamental particles. It tells 
 The Cabibbo--Kobayashi--Maskawa (CKM) matrix relates the weak interaction eigenstates to The mass
 eigenstates of quarks:
 
-$$\begin{pmatrix} d' \\ s' \\ b' \end{pmatrix} = V_{\mathrm{CKM} \begin{pmatrix} d \\ s \\ b \end{pmatrix}}$$
+$$
+\begin{pmatrix} d' \\ s' \\ b' \end{pmatrix} = V_{\mathrm{CKM} \begin{pmatrix} d \\ s \\ b \end{pmatrix}}
+$$
 
 Where $d'$, $s'$, $b'$ are the weak eigenstates that couple to the $W$ boson. The Magnitude of the
 CKM elements determines the relative rates of flavour-changing weak Decays.
 
 The experimentally measured magnitudes are approximately:
 
-$$\lvert V_{\mathrm{CKM}\rvert \approx \begin{pmatrix} 0.974 & 0.225 & 0.0036 \\ 0.225 & 0.973 & 0.041 \\ 0.0086 & 0.040 & 0.999 \end{pmatrix}}$$
+$$
+\lvert V_{\mathrm{CKM}\rvert \approx \begin{pmatrix} 0.974 & 0.225 & 0.0036 \\ 0.225 & 0.973 & 0.041 \\ 0.0086 & 0.040 & 0.999 \end{pmatrix}}
+$$
 
 **Application.** The decay $b \to c$ proceeds with amplitude proportional to
 $\lvert V_{cb}\rvert \approx 0.041$While $b \to u$ proceeds with
 $\lvert V_{ub}\rvert \approx 0.0036$. The ratio of partial widths is approximately:
 
-$$\frac{\Gamma(b \to u)}{\Gamma(b \to c)} \sim \frac{\lvert V_{ub}\rvert^2}{\lvert V_{cb}\rvert^2} = \frac{(0.0036)^2}{(0.041)^2} \approx 0.0077$$
+$$
+\frac{\Gamma(b \to u)}{\Gamma(b \to c)} \sim \frac{\lvert V_{ub}\rvert^2}{\lvert V_{cb}\rvert^2} = \frac{(0.0036)^2}{(0.041)^2} \approx 0.0077
+$$
 
 This means the $b \to u$ transition is suppressed by roughly two orders of magnitude Relative to
 $b \to c$Which is why the $B$ meson predominantly decays to charm, not Up quarks.

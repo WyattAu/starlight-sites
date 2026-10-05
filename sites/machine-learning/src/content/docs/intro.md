@@ -37,7 +37,9 @@ The fundamental trade-off is between:
 - **Bias:** error from overly simplistic assumptions (underfitting)
 - **Variance:** error from sensitivity to training data fluctuations (overfitting)
 
-$$\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+$$
+\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}
+$$
 
 ### Model Evaluation
 
@@ -56,7 +58,9 @@ $$\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible No
 
 Fits $h(x) = w^T x + b$ by minimizing mean squared error:
 
-$$\mathcal{L}(w) = \frac{1}{n} \sum_{i=1}^{n} (y_i - w^T x_i - b)^2$$
+$$
+\mathcal{L}(w) = \frac{1}{n} \sum_{i=1}^{n} (y_i - w^T x_i - b)^2
+$$
 
 Closed-form solution (normal equation): $w = (X^T X)^{-1} X^T y$
 
@@ -68,7 +72,9 @@ For binary classification, models $P(y=1|x) = \sigma(w^T x + b)$ where $\sigma(z
 
 Minimizes binary cross-entropy:
 
-$$\mathcal{L}(w) = -\frac{1}{n}\sum_{i=1}^{n} [y_i \log h(x_i) + (1-y_i)\log(1-h(x_i))]$$
+$$
+\mathcal{L}(w) = -\frac{1}{n}\sum_{i=1}^{n} [y_i \log h(x_i) + (1-y_i)\log(1-h(x_i))]
+$$
 
 ### Decision Trees
 
@@ -81,7 +87,9 @@ Partitions feature space through recursive binary splits. Each internal node tes
 
 Finds the maximum-margin hyperplane separating classes. For linearly separable data:
 
-$$\min_{w,b} \frac{1}{2}\|w\|^2 \quad \text{subject to} \quad y_i(w^T x_i + b) \geq 1$$
+$$
+\min_{w,b} \frac{1}{2}\|w\|^2 \quad \text{subject to} \quad y_i(w^T x_i + b) \geq 1
+$$
 
 The kernel trick extends SVMs to non-linear boundaries: $K(x_i, x_j) = \phi(x_i)^T \phi(x_j)$
 
@@ -128,7 +136,9 @@ Computes gradients of the loss with respect to all parameters using the chain ru
 
 **Optimization:** Stochastic Gradient Descent (SGD) with momentum, Adam, AdaGrad, RMSprop.
 
-$$w_{t+1} = w_t - \eta \nabla_w \mathcal{L}(w_t)$$
+$$
+w_{t+1} = w_t - \eta \nabla_w \mathcal{L}(w_t)
+$$
 
 ### Convolutional Neural Networks (CNNs)
 
@@ -144,7 +154,9 @@ Process sequential data by maintaining hidden states. LSTMs and GRUs address the
 
 Use self-attention to process sequences in parallel. The attention mechanism computes weighted sums of all positions:
 
-$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+$$
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+$$
 
 Transformers underpin modern language models (BERT, GPT, T5).
 

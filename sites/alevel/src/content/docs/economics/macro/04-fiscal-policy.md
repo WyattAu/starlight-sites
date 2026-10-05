@@ -27,7 +27,9 @@ categories:
 We define **fiscal policy** as the use of government spending ($G$) and taxation ($T$) to influence
 The level of aggregate demand, economic activity, and the allocation of resources in the economy.
 
-$$\mathrm{Fiscal policy tools: } G, T, \mathrm{ and } (G - T)$$
+$$
+\mathrm{Fiscal policy tools: } G, T, \mathrm{ and } (G - T)
+$$
 
 Fiscal policy is conducted by the government (Chancellor of the Exchequer in the UK, Secretary of
 The Treasury in the US) alongside the central bank"s monetary policy.
@@ -36,7 +38,9 @@ The Treasury in the US) alongside the central bank"s monetary policy.
 
 The government budget records planned revenue and expenditure:
 
-$$\mathrm{Budget balance} = T - G$$
+$$
+\mathrm{Budget balance} = T - G
+$$
 
 - **Budget surplus**: $T > G$ (government revenue exceeds spending)
 - **Budget deficit**: $G > T$ (government spending exceeds revenue)
@@ -63,7 +67,9 @@ And supplementary target).
 - Research and development
 - IT infrastructure
 
-$$G = G_{current} + G_{capital}$$
+$$
+G = G_{current} + G_{capital}
+$$
 
 Only $G$ in the AD equation ($AD = C + I + G + (X - M)$) represents spending on goods and services.
 Transfer payments are not directly part of $G$, they affect $AD$ indirectly through their effect on
@@ -76,7 +82,9 @@ They affect $C$Not $G$ directly. However, exam questions sometimes use "governme
 
 ### 2.2 Government Spending as a Share of GDP
 
-$$\mathrm{Government spending ratio} = \frac{G}{Y} \times 100\%$$
+$$
+\mathrm{Government spending ratio} = \frac{G}{Y} \times 100\%
+$$
 
 In the UK, this ratio was approximately 45% of GDP in 2023–24, reflecting the expansionary fiscal
 Response to COVID-19 and the energy crisis. The long-run average is closer to 40%.
@@ -110,21 +118,29 @@ consumers.
 
 We define these in terms of the **average tax rate (ATR)** as income changes:
 
-$$ATR = \frac{T(Y)}{Y}$$
+$$
+ATR = \frac{T(Y)}{Y}
+$$
 
 Where $T(Y)$ is the total tax paid by someone earning income $Y$.
 
 **Progressive tax**: ATR rises as income rises.
 
-$$\frac{d(ATR)}{dY} > 0$$
+$$
+\frac{d(ATR)}{dY} > 0
+$$
 
 **Proportional tax (flat tax)**: ATR is constant regardless of income.
 
-$$\frac{d(ATR)}{dY} = 0$$
+$$
+\frac{d(ATR)}{dY} = 0
+$$
 
 **Regressive tax**: ATR falls as income rises.
 
-$$\frac{d(ATR)}{dY} < 0$$
+$$
+\frac{d(ATR)}{dY} < 0
+$$
 
 **Proof with examples.**
 
@@ -165,7 +181,9 @@ Earners).
 
 The **Laffer curve** illustrates the theoretical relationship between the tax rate and tax revenue:
 
-$$R = t \cdot Y(t)$$
+$$
+R = t \cdot Y(t)
+$$
 
 Where $t$ is the tax rate and $Y(t)$ is the tax base (income), which depends on $t$ because higher
 Tax rates discourage work, investment, and encourage tax evasion.
@@ -178,7 +196,9 @@ $R = 0$. Since $R$ is continuous, by the Intermediate Value Theorem there exists
 maximum $t^*$ where $\frac{dR}{dt} = 0$. At this point, the marginal gain from a higher rate (more
 tax per unit of income) exactly equals the marginal loss from a smaller tax base. $\blacksquare$
 
-$$\frac{dR}{dt} = Y(t) + t \cdot \frac{dY}{dt} = 0 \quad \mathrm{at } t^*$$
+$$
+\frac{dR}{dt} = Y(t) + t \cdot \frac{dY}{dt} = 0 \quad \mathrm{at } t^*
+$$
 
 The key debate is **where** $t^*$ lies. Supply-side economists (e.g., Arthur Laffer) argue that many
 Economies are already to the right of $t^*$ So cutting rates would increase revenue. Empirical
@@ -190,15 +210,21 @@ Evidence is mixed.
 
 **Budget deficit**: the amount by which government spending exceeds revenue in a given year.
 
-$$\mathrm{Deficit}_t = G_t - T_t$$
+$$
+\mathrm{Deficit}_t = G_t - T_t
+$$
 
 **National debt**: the accumulated total of all past budget deficits minus surpluses.
 
-$$D_t = D_{t-1} + (G_t - T_t)$$
+$$
+D_t = D_{t-1} + (G_t - T_t)
+$$
 
 **Debt-to-GDP ratio**:
 
-$$\frac{D}{Y} = \frac{D_t}{Y_t}$$
+$$
+\frac{D}{Y} = \frac{D_t}{Y_t}
+$$
 
 This is the preferred measure of debt sustainability, since a large absolute debt is manageable if
 GDP is also large.
@@ -212,7 +238,9 @@ the debt, it Merely slows the rate at which debt grows. Only a surplus reduces t
 
 The evolution of the debt-to-GDP ratio is given by:
 
-$$\frac{D_{t}}{Y_{t}} = \frac{(1 + r) D_{t-1} + (G_t - T_t)}{(1 + g) Y_{t-1}}$$
+$$
+\frac{D_{t}}{Y_{t}} = \frac{(1 + r) D_{t-1} + (G_t - T_t)}{(1 + g) Y_{t-1}}
+$$
 
 Where $r$ is the average interest rate on government debt and $g$ is the GDP growth rate.
 
@@ -244,7 +272,9 @@ Used to increase aggregate demand during a recession:
 
 The total effect on output:
 
-$$\Delta Y = k \cdot \Delta G \quad \mathrm{or} \quad \Delta Y = k \cdot MPC \cdot \Delta T$$
+$$
+\Delta Y = k \cdot \Delta G \quad \mathrm{or} \quad \Delta Y = k \cdot MPC \cdot \Delta T
+$$
 
 Where $k$ is the complex multiplier.
 
@@ -266,11 +296,15 @@ Increase.**
 _Proof._ The increase in $G$ directly adds $\Delta G$ to AD. The increase in $T$ reduces disposable
 Income by $\Delta T = \Delta G$Reducing consumption by $MPC \times \Delta G$. The net injection Is:
 
-$$\Delta A = \Delta G - MPC \cdot \Delta G = (1 - MPC) \cdot \Delta G = MPS \cdot \Delta G$$
+$$
+\Delta A = \Delta G - MPC \cdot \Delta G = (1 - MPC) \cdot \Delta G = MPS \cdot \Delta G
+$$
 
 The total change in output:
 
-$$\Delta Y = k \cdot \Delta A = \frac{1}{MPS} \cdot MPS \cdot \Delta G = \Delta G$$
+$$
+\Delta Y = k \cdot \Delta A = \frac{1}{MPS} \cdot MPS \cdot \Delta G = \Delta G
+$$
 
 So $\Delta Y / \Delta G = 1$ when $\Delta G = \Delta T$. The balanced budget multiplier equals 1.
 $\blacksquare$
@@ -286,11 +320,15 @@ Results from an increase in government spending.
 
 When the government runs a deficit, it must borrow by selling bonds:
 
-$$G > T \Rightarrow \mathrm{government issues bonds} \Rightarrow \mathrm{demand for loanable funds rises}$$
+$$
+G > T \Rightarrow \mathrm{government issues bonds} \Rightarrow \mathrm{demand for loanable funds rises}
+$$
 
 This increases the demand for loanable funds, pushing up the real interest rate:
 
-$$r \uparrow \Rightarrow I \downarrow$$
+$$
+r \uparrow \Rightarrow I \downarrow
+$$
 
 The rise in $r$ reduces private investment, partially (or fully) offsetting the expansionary effect
 Of $\Delta G$ on AD.
@@ -300,7 +338,9 @@ Of $\Delta G$ on AD.
 **Financial crowding out**: the mechanism described above, government borrowing raises interest
 Rates, reducing private investment.
 
-$$\Delta I = -\frac{1}{MPS} \cdot \Delta G \quad \mathrm{(full crowding out in extreme case)}$$
+$$
+\Delta I = -\frac{1}{MPS} \cdot \Delta G \quad \mathrm{(full crowding out in extreme case)}
+$$
 
 **Resource crowding out**: if the economy is at full employment, government spending uses resources
 That would otherwise be employed by the private sector. The increase in $G$ bids up wages and
@@ -335,7 +375,9 @@ At full employment (Classical view). Reference the state of the economic cycle.
 **Automatic stabilisers** are features of the tax and benefit system that automatically dampen
 Fluctuations in economic activity, without any deliberate policy action.
 
-$$\mathrm{Automatic stabilisers: } T(Y) \mathrm{ and } B(Y) \mathrm{ where } \frac{dT}{dY} > 0 \mathrm{ and } \frac{dB}{dY} < 0$$
+$$
+\mathrm{Automatic stabilisers: } T(Y) \mathrm{ and } B(Y) \mathrm{ where } \frac{dT}{dY} > 0 \mathrm{ and } \frac{dB}{dY} < 0
+$$
 
 ### 7.2 Mechanism
 
@@ -358,13 +400,17 @@ $$\mathrm{Automatic stabilisers: } T(Y) \mathrm{ and } B(Y) \mathrm{ where } \fr
 
 The budget balance as a function of output:
 
-$$BB(Y) = T(Y) - G - B(Y)$$
+$$
+BB(Y) = T(Y) - G - B(Y)
+$$
 
 Where $T'(Y) > 0$ and $B'(Y) < 0$.
 
 The **cyclical component** of the budget balance:
 
-$$BB_{cyclical} = BB(Y) - BB(Y^*)$$
+$$
+BB_{cyclical} = BB(Y) - BB(Y^*)
+$$
 
 Where $Y^*$ is potential output. During a recession ($Y < Y^*$), $BB_{cyclical} < 0$ (the deficit
 Widens automatically). During a boom ($Y > Y^*$), $BB_{cyclical} > 0$ (the deficit narrows or a
@@ -414,7 +460,9 @@ Fiscal policy is subject to three significant lags:
 
 The effectiveness of fiscal policy depends on the size of the multiplier:
 
-$$k = \frac{1}{MPS + MPT + MPM}$$
+$$
+k = \frac{1}{MPS + MPT + MPM}
+$$
 
 - **Large multiplier**: economy in deep recession, MPC high, economy relatively closed (low MPM),
   interest rates at the zero lower bound (no crowding out)
@@ -433,7 +481,9 @@ _Argument._ Rational, forward-looking households anticipate that current governm
 Implies future tax increases to repay the debt. They increase saving by exactly the amount of the
 Deficit to pay the expected future taxes:
 
-$$\Delta G \mathrm{ (deficit-financed)} \Rightarrow \Delta S_{private} = \Delta G \Rightarrow \Delta C = 0$$
+$$
+\Delta G \mathrm{ (deficit-financed)} \Rightarrow \Delta S_{private} = \Delta G \Rightarrow \Delta C = 0
+$$
 
 Therefore, the multiplier is zero, fiscal policy is completely ineffective.
 
@@ -612,10 +662,14 @@ Partially false. Crowding out was limited during 2008–09 because: (1) The econ
 The government increases spending by GBP 40 billion, financed entirely by borrowing.
 
 **Step 1: Calculate the multiplier.**
-$$k = \frac{1}{MPS + MPT + MPM} = \frac{1}{0.25 + 0.2 + 0.15} = \frac{1}{0.6} = 1.667$$
+$$
+k = \frac{1}{MPS + MPT + MPM} = \frac{1}{0.25 + 0.2 + 0.15} = \frac{1}{0.6} = 1.667
+$$
 
 **Step 2: Calculate the change in GDP.**
-$$\Delta Y = k \times \Delta G = 1.667 \times 40 = \text{GBP } 66.7 \text{ billion}$$
+$$
+\Delta Y = k \times \Delta G = 1.667 \times 40 = \text{GBP } 66.7 \text{ billion}
+$$
 
 **Step 3: Assess the output gap.** Current gap $= 2100 - 2000 = \text{GBP } 100\text{bn}$. The
 fiscal expansion closes $66.7/100 = 66.7\%$ of the gap. New GDP $= 2066.7\text{bn}$.
@@ -644,9 +698,13 @@ not output. If the output gap is fully closed, further stimulus would be purely 
 - Primary deficit: 2% of GDP
 
 **Step 1: Apply the debt dynamics equation.**
-$$\Delta\left(\frac{D}{Y}\right) \approx (r - g)\frac{D}{Y} + \frac{\text{primary deficit}}{Y}$$
+$$
+\Delta\left(\frac{D}{Y}\right) \approx (r - g)\frac{D}{Y} + \frac{\text{primary deficit}}{Y}
+$$
 $$= (3.8\% - 4.5\%) \times 95\% + 2\%$$ $$= (-0.7\%) \times 0.95 + 2\%$$
-$$= -0.665\% + 2\% = 1.335\%$$
+$$
+= -0.665\% + 2\% = 1.335\%
+$$
 
 The debt ratio rises by approximately 1.34 percentage points per year.
 
@@ -656,7 +714,9 @@ is not sufficient to offset the ongoing borrowing.
 
 **Step 3: Policy implications.** To stabilise the debt ratio ($\Delta(D/Y) = 0$), the primary
 deficit must be reduced to:
-$$\frac{\text{required primary surplus}}{Y} = -(r - g)\frac{D}{Y} = 0.7\% \times 95\% = 0.665\%$$
+$$
+\frac{\text{required primary surplus}}{Y} = -(r - g)\frac{D}{Y} = 0.7\% \times 95\% = 0.665\%
+$$
 
 The government needs a primary SURPLUS of 0.665% of GDP (currently running a 2% primary deficit).
 This requires fiscal tightening of approximately 2.67% of GDP -- a very significant adjustment.
@@ -979,7 +1039,9 @@ principles.
 at approximately 55-60%. But the OPTIMAL rate balances revenue against efficiency and equity.
 
 **Mirrlees framework:** The optimal tax rate for income bracket $z$ is:
-$$\tau_z = \frac{1 - g(z)}{1 - g(z) + a \times e(z)}$$
+$$
+\tau_z = \frac{1 - g(z)}{1 - g(z) + a \times e(z)}
+$$
 
 Where $g(z)$ is the social marginal welfare weight (how much society values an extra pound for
 someone at income $z$), $a$ is the Pareto parameter (measuring inequality at the top), and $e(z)$ is

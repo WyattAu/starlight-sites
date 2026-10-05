@@ -49,7 +49,9 @@ Have the same RREF.
 **Theorem 4.2 (Rouché--Capelli).** The system $A\mathbf{x} = \mathbf{b}$ is consistent (has at least
 one Solution) if and only if
 
-$$\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}])$$
+$$
+\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}])
+$$
 
 If consistent, the solution set has $\dim(\mathrm{null}(A))$ free parameters, where
 $\dim(\mathrm{null}(A)) = n - \mathrm{rank}(A)$.
@@ -75,20 +77,28 @@ Triangular portion. The resulting upper triangular matrix is $U$ And the multipl
 
 **Worked Example.** Find the LU decomposition of
 
-$$A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Step 1: Eliminate below $a_{11}$. $m_{21} = 4/2 = 2$, $m_{31} = 8/2 = 4$.
 
-$$\begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 3 & 5 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 3 & 5 \end{pmatrix}
+$$
 
 Step 2: Eliminate below $a_{22}$. $m_{32} = 3/1 = 3$.
 
-$$U = \begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}
+$$
 
-$$L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ 4 & 3 & 1 \end{pmatrix}$$
+$$
+L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ 4 & 3 & 1 \end{pmatrix}
+$$
 
 Verify: $LU = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix} = A$. $\blacksquare$
 
@@ -105,30 +115,42 @@ Stability.
 
 **Problem.** Solve the system using Gaussian elimination with partial pivoting:
 
-$$\begin{aligned} x_1 + 2x_2 + x_3 &= 5 \\ 3x_1 + x_2 - x_3 &= 2 \\ 2x_1 + 3x_2 + 4x_3 &= 11 \end{aligned}$$
+$$
+\begin{aligned} x_1 + 2x_2 + x_3 &= 5 \\ 3x_1 + x_2 - x_3 &= 2 \\ 2x_1 + 3x_2 + 4x_3 &= 11 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Augmented matrix:
 
-$$[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 2 & 1 & 5 \\ 3 & 1 & -1 & 2 \\ 2 & 3 & 4 & 11 \end{pmatrix}$$
+$$
+[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 2 & 1 & 5 \\ 3 & 1 & -1 & 2 \\ 2 & 3 & 4 & 11 \end{pmatrix}
+$$
 
 **Step 1.** Column 1: largest entry is 3 in row 2. Swap $R_1 \leftrightarrow R_2$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 1 & 2 & 1 & 5 \\ 2 & 3 & 4 & 11 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 1 & 2 & 1 & 5 \\ 2 & 3 & 4 & 11 \end{pmatrix}
+$$
 
 $R_2 \to R_2 - \frac{1}{3}R_1$, $R_3 \to R_3 - \frac{2}{3}R_1$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 5/3 & 4/3 & 13/3 \\ 0 & 7/3 & 14/3 & 29/3 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 5/3 & 4/3 & 13/3 \\ 0 & 7/3 & 14/3 & 29/3 \end{pmatrix}
+$$
 
 **Step 2.** Column 2: largest entry below pivot is $7/3$ in row 3. Swap $R_2 \leftrightarrow R_3$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 5/3 & 4/3 & 13/3 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 5/3 & 4/3 & 13/3 \end{pmatrix}
+$$
 
 $R_3 \to R_3 - \frac{5}{7}R_2$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 0 & -2/7 & -6/7 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 0 & -2/7 & -6/7 \end{pmatrix}
+$$
 
 **Back substitution.** From row 3: $-\frac{2}{7}x_3 = -\frac{6}{7}$ So $x_3 = 3$.
 
@@ -149,7 +171,9 @@ We seek $\mathbf{x}$ that minimises $\lVert A\mathbf{x} - \mathbf{b} \rVert^2$.
 
 **Theorem 4.4 (Normal Equations).** The least squares solution $\hat{\mathbf{x}}$ satisfies
 
-$$A^T A \hat{\mathbf{x}} = A^T \mathbf{b}$$
+$$
+A^T A \hat{\mathbf{x}} = A^T \mathbf{b}
+$$
 
 If $A$ has full column rank, then $A^T A$ is invertible and
 $\hat{\mathbf{x}} = (A^T A)^{-1} A^T \mathbf{b}$.
@@ -193,30 +217,44 @@ The least squares line is $y = x - 1/3$. $\blacksquare$
 
 **Problem.** Solve the system:
 
-$$\begin{aligned} x_1 + 2x_2 - x_3 + 3x_4 &= 1 \\ 2x_1 + 4x_2 - x_3 + 5x_4 &= 2 \\ x_1 + 2x_2 + x_3 + x_4 &= 0 \end{aligned}$$
+$$
+\begin{aligned} x_1 + 2x_2 - x_3 + 3x_4 &= 1 \\ 2x_1 + 4x_2 - x_3 + 5x_4 &= 2 \\ x_1 + 2x_2 + x_3 + x_4 &= 0 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & -1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & -1 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & -1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & -1 \end{pmatrix}
+$$
 
 The last row reads $0 = -1$ So the system is **inconsistent** (no solution).
 
 **Revised problem:** Change the last equation to $x_1 + 2x_2 + x_3 + x_4 = 2$:
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 1 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 1 \end{pmatrix}
+$$
 
 Still inconsistent! The RREF reveals $0 = 1$ in the last row.
 
 **Revised again:** Change the last equation to $x_1 + 2x_2 + x_3 + x_4 = 1$:
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 0 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{pmatrix}
+$$
 
 Now the system is consistent. Pivots in columns 1 and 3; free variables are $x_2$ and $x_4$. From
 row 2: $x_3 = x_4$. From row 1: $x_1 = 1 - 2x_2 + x_3 - 3x_4 = 1 - 2x_2 - 2x_4$.
@@ -272,26 +310,36 @@ intersect in a line, plane, or higher-dimensional flat, reflecting the infinitel
 
 **Problem.** Solve the system:
 
-$$\begin{aligned} x_1 + x_2 + x_3 + x_4 &= 10 \\ 2x_1 + 3x_2 + x_3 + 2x_4 &= 19 \\ x_1 + 2x_2 + 3x_3 + x_4 &= 16 \\ 3x_1 + x_2 + 2x_3 + 3x_4 &= 23 \end{aligned}$$
+$$
+\begin{aligned} x_1 + x_2 + x_3 + x_4 &= 10 \\ 2x_1 + 3x_2 + x_3 + 2x_4 &= 19 \\ x_1 + 2x_2 + 3x_3 + x_4 &= 16 \\ 3x_1 + x_2 + 2x_3 + 3x_4 &= 23 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Augmented matrix:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 2 & 3 & 1 & 2 & 19 \\ 1 & 2 & 3 & 1 & 16 \\ 3 & 1 & 2 & 3 & 23 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 2 & 3 & 1 & 2 & 19 \\ 1 & 2 & 3 & 1 & 16 \\ 3 & 1 & 2 & 3 & 23 \end{pmatrix}
+$$
 
 $R_2 - 2R_1$, $R_3 - R_1$, $R_4 - 3R_1$:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 1 & 2 & 0 & 6 \\ 0 & -2 & -1 & 0 & -7 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 1 & 2 & 0 & 6 \\ 0 & -2 & -1 & 0 & -7 \end{pmatrix}
+$$
 
 $R_3 - R_2$, $R_4 + 2R_2$:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & -3 & 0 & -9 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & -3 & 0 & -9 \end{pmatrix}
+$$
 
 $R_4 + R_3$:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & 0 & 0 & -2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & 0 & 0 & -2 \end{pmatrix}
+$$
 
 The last row gives $0 = -2$, so the system is **inconsistent** (no solution).
 

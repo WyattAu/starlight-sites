@@ -501,19 +501,31 @@ cylinder.
 
 (a) Inside ($r < R$): Use a cylindrical Gaussian surface of radius $r$ and length $L$.
 
-$$Q_{\text{enc} = \int_0^r \rho(r') \cdot 2\pi r' L\, dr' = \frac{2\pi \rho_0 L}{R} \int_0^r r'^2\, dr' = \frac{2\pi \rho_0 L r^3}{3R}$$
+$$
+Q_{\text{enc} = \int_0^r \rho(r') \cdot 2\pi r' L\, dr' = \frac{2\pi \rho_0 L}{R} \int_0^r r'^2\, dr' = \frac{2\pi \rho_0 L r^3}{3R}
+$$
 
-$$E \cdot 2\pi r L = \frac{Q_{\text{enc}}{\epsilon_0} = \frac{2\pi \rho_0 r^3 L}{3R\epsilon_0}$$
+$$
+E \cdot 2\pi r L = \frac{Q_{\text{enc}}{\epsilon_0} = \frac{2\pi \rho_0 r^3 L}{3R\epsilon_0}
+$$
 
-$$E = \frac{\rho_0 r^2}{3R\epsilon_0}$$
+$$
+E = \frac{\rho_0 r^2}{3R\epsilon_0}
+$$
 
 (b) Outside ($r > R$):
 
-$$Q_{\text{total} = \frac{2\pi \rho_0 R^3 L}{3R} = \frac{2\pi \rho_0 R^2 L}{3}$$
+$$
+Q_{\text{total} = \frac{2\pi \rho_0 R^3 L}{3R} = \frac{2\pi \rho_0 R^2 L}{3}
+$$
 
-$$E \cdot 2\pi r L = \frac{2\pi \rho_0 R^2 L}{3\epsilon_0}$$
+$$
+E \cdot 2\pi r L = \frac{2\pi \rho_0 R^2 L}{3\epsilon_0}
+$$
 
-$$E = \frac{\rho_0 R^2}{3\epsilon_0 r}$$
+$$
+E = \frac{\rho_0 R^2}{3\epsilon_0 r}
+$$
 
 </details>
 
@@ -536,17 +548,25 @@ $\lambda = Q/(\pi R)$.
 The arc opening to the right). A charge element $dq = \lambda R\, d\theta$ at angle $\theta$
 produces:
 
-$$dE_y = \frac{1}{4\pi\epsilon_0}\frac{dq}{R^2}\sin\theta = \frac{\lambda}{4\pi\epsilon_0 R}\sin\theta\, d\theta$$
+$$
+dE_y = \frac{1}{4\pi\epsilon_0}\frac{dq}{R^2}\sin\theta = \frac{\lambda}{4\pi\epsilon_0 R}\sin\theta\, d\theta
+$$
 
-$$E_y = \frac{\lambda}{4\pi\epsilon_0 R}\int_{-\pi/2}^{\pi/2}\sin\theta\, d\theta = \frac{\lambda}{4\pi\epsilon_0 R}[-\cos\theta]_{-\pi/2}^{\pi/2} = \frac{\lambda}{4\pi\epsilon_0 R}(1 - (-1)) = \frac{2\lambda}{4\pi\epsilon_0 R}$$
+$$
+E_y = \frac{\lambda}{4\pi\epsilon_0 R}\int_{-\pi/2}^{\pi/2}\sin\theta\, d\theta = \frac{\lambda}{4\pi\epsilon_0 R}[-\cos\theta]_{-\pi/2}^{\pi/2} = \frac{\lambda}{4\pi\epsilon_0 R}(1 - (-1)) = \frac{2\lambda}{4\pi\epsilon_0 R}
+$$
 
-$$E = \frac{2Q}{4\pi^2\epsilon_0 R^2} = \frac{Q}{2\pi^2\epsilon_0 R^2}$$
+$$
+E = \frac{2Q}{4\pi^2\epsilon_0 R^2} = \frac{Q}{2\pi^2\epsilon_0 R^2}
+$$
 
 The $x$-components cancel by symmetry.
 
 (b) Every charge element is at distance $R$ from the center:
 
-$$V = \frac{1}{4\pi\epsilon_0}\int \frac{dq}{R} = \frac{Q}{4\pi\epsilon_0 R}$$
+$$
+V = \frac{1}{4\pi\epsilon_0}\int \frac{dq}{R} = \frac{Q}{4\pi\epsilon_0 R}
+$$
 
 </details>
 

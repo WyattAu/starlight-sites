@@ -52,7 +52,9 @@ Population variance formula (dividing by $n$). Edexcel and OCR use $n-1$ for sam
 
 **Definition.** The mean of $n$ values $x_1, x_2, \ldots, x_n$ is
 
-$$\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i$$
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i
+$$
 
 ### 1.2 The mean minimises the sum of squared deviations
 
@@ -61,9 +63,13 @@ $a = \bar{x}$.
 
 **Proof.** Expand $S(a)$:
 
-$$S(a) = \sum(x_i^2 - 2ax_i + a^2) = \sum x_i^2 - 2a\sum x_i + na^2$$
+$$
+S(a) = \sum(x_i^2 - 2ax_i + a^2) = \sum x_i^2 - 2a\sum x_i + na^2
+$$
 
-$$\frac{dS}{da} = -2\sum x_i + 2na$$
+$$
+\frac{dS}{da} = -2\sum x_i + 2na
+$$
 
 Setting $\dfrac{dS}{da} = 0$:
 $2na = 2\sum x_i \implies a = \dfrac{\sum x_i}{n} = \bar{x}$.
@@ -101,7 +107,9 @@ Mode.
 
 The **variance** of $x_1, \ldots, x_n$ is
 
-$$\sigma^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \bar{x})^2$$
+$$
+\sigma^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \bar{x})^2
+$$
 
 The **standard deviation** is $\sigma = \sqrt{\sigma^2}$.
 
@@ -128,7 +136,9 @@ Remember: "mean of squares minus square of mean."
 
 For sample data, the **unbiased estimator** of the population variance is
 
-$$s^2 = \frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2 = \frac{\sum x_i^2 - n\bar{x}^2}{n-1}$$
+$$
+s^2 = \frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2 = \frac{\sum x_i^2 - n\bar{x}^2}{n-1}
+$$
 
 The division by $n-1$ (Bessel"s correction) accounts for the fact that $\bar{x}$ is estimated from
 The same data, losing one degree of freedom.
@@ -158,8 +168,12 @@ A box plot displays:
 
 An outlier is a value that lies more than $1.5 \times \mathrm{IQR}$ below $Q_1$ or above $Q_3$:
 
-$$\mathrm{Lower fence} = Q_1 - 1.5 \times \mathrm{IQR}$$
-$$\mathrm{Upper fence} = Q_3 + 1.5 \times \mathrm{IQR}$$
+$$
+\mathrm{Lower fence} = Q_1 - 1.5 \times \mathrm{IQR}
+$$
+$$
+\mathrm{Upper fence} = Q_3 + 1.5 \times \mathrm{IQR}
+$$
 
 Values outside these fences are potential outliers.
 
@@ -177,13 +191,19 @@ Values outside these fences are potential outliers.
 
 If $y_i = \dfrac{x_i - a}{c}$ Then:
 
-$$\bar{y} = \frac{\bar{x} - a}{c}, \qquad \sigma_y = \frac{\sigma_x}{|c|}$$
+$$
+\bar{y} = \frac{\bar{x} - a}{c}, \qquad \sigma_y = \frac{\sigma_x}{|c|}
+$$
 
 **Proof.**
 
-$$\bar{y} = \frac{1}{n}\sum y_i = \frac{1}{n}\sum\frac{x_i - a}{c} = \frac{1}{c}\left(\frac{\sum x_i}{n} - a\right) = \frac{\bar{x} - a}{c}$$
+$$
+\bar{y} = \frac{1}{n}\sum y_i = \frac{1}{n}\sum\frac{x_i - a}{c} = \frac{1}{c}\left(\frac{\sum x_i}{n} - a\right) = \frac{\bar{x} - a}{c}
+$$
 
-$$\sigma_y^2 = \frac{1}{n}\sum(y_i - \bar{y})^2 = \frac{1}{n}\sum\left(\frac{x_i - a}{c} - \frac{\bar{x}-a}{c}\right)^2 = \frac{1}{c^2}\cdot\frac{1}{n}\sum(x_i-\bar{x})^2 = \frac{\sigma_x^2}{c^2}$$
+$$
+\sigma_y^2 = \frac{1}{n}\sum(y_i - \bar{y})^2 = \frac{1}{n}\sum\left(\frac{x_i - a}{c} - \frac{\bar{x}-a}{c}\right)^2 = \frac{1}{c^2}\cdot\frac{1}{n}\sum(x_i-\bar{x})^2 = \frac{\sigma_x^2}{c^2}
+$$
 
 Hence $\sigma_y = \sigma_x/|c|$. $\blacksquare$
 
@@ -200,7 +220,9 @@ But does not affect the spread.
 
 For data with frequencies $f_1, f_2, \ldots, f_k$:
 
-$$\bar{x} = \frac{\sum f_i x_i}{\sum f_i}, \qquad \sigma^2 = \frac{\sum f_i x_i^2}{\sum f_i} - \bar{x}^2$$
+$$
+\bar{x} = \frac{\sum f_i x_i}{\sum f_i}, \qquad \sigma^2 = \frac{\sum f_i x_i^2}{\sum f_i} - \bar{x}^2
+$$
 
 ### 5.2 Grouped continuous data
 
@@ -223,11 +245,15 @@ Skewness measures the asymmetry of a distribution about its centre. A distributi
 
 **Pearson's first coefficient** uses the mean, median, and standard deviation:
 
-$$S_1 = \frac{3\left(\bar{x} - Q_2\right)}{\sigma}$$
+$$
+S_1 = \frac{3\left(\bar{x} - Q_2\right)}{\sigma}
+$$
 
 **Pearson's second coefficient** uses only the quartiles:
 
-$$S_2 = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1}$$
+$$
+S_2 = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1}
+$$
 
 **Interpretation:**
 
@@ -263,19 +289,27 @@ Distinguish between mild and extreme outliers:
   nearest quartile.
 - **Extreme outlier**: a value more than $3 \times \mathrm{IQR}$ from the nearest quartile.
 
-$$\mathrm{Extreme lower fence} = Q_1 - 3 \times \mathrm{IQR}$$
-$$\mathrm{Extreme upper fence} = Q_3 + 3 \times \mathrm{IQR}$$
+$$
+\mathrm{Extreme lower fence} = Q_1 - 3 \times \mathrm{IQR}
+$$
+$$
+\mathrm{Extreme upper fence} = Q_3 + 3 \times \mathrm{IQR}
+$$
 
 ### 7.2 The modified z-score method
 
 The modified z-score uses the **median absolute deviation** (MAD). For a dataset
 $x_1, x_2, \ldots, x_n$ with median $\tilde{x}$:
 
-$$\mathrm{MAD} = \mathrm{median}\left(|x_i - \tilde{x}|\right)$$
+$$
+\mathrm{MAD} = \mathrm{median}\left(|x_i - \tilde{x}|\right)
+$$
 
 The modified z-score for each observation is:
 
-$$M_i = \frac{0.6745\left(x_i - \tilde{x}\right)}{\mathrm{MAD}}$$
+$$
+M_i = \frac{0.6745\left(x_i - \tilde{x}\right)}{\mathrm{MAD}}
+$$
 
 An observation is flagged as an outlier if $|M_i| \gt 3.5$.
 
@@ -389,7 +423,9 @@ Always relate numerical comparisons to the original context of the data.
 When data are grouped into classes, quantiles are estimated using **linear interpolation**. For the
 $p$-th percentile:
 
-$$x_p = L + \left(\frac{p \cdot n}{100} - c_f\right) \cdot \frac{w}{f}$$
+$$
+x_p = L + \left(\frac{p \cdot n}{100} - c_f\right) \cdot \frac{w}{f}
+$$
 
 Where:
 
@@ -401,11 +437,15 @@ Where:
 
 For the **median** ($p = 50$):
 
-$$Q_2 = L + \left(\frac{n}{2} - c_f\right) \cdot \frac{w}{f}$$
+$$
+Q_2 = L + \left(\frac{n}{2} - c_f\right) \cdot \frac{w}{f}
+$$
 
 For **quartiles** ($p = 25$ and $p = 75$):
 
-$$Q_1 = L + \left(\frac{n}{4} - c_f\right) \cdot \frac{w}{f}, \qquad Q_3 = L + \left(\frac{3n}{4} - c_f\right) \cdot \frac{w}{f}$$
+$$
+Q_1 = L + \left(\frac{n}{4} - c_f\right) \cdot \frac{w}{f}, \qquad Q_3 = L + \left(\frac{3n}{4} - c_f\right) \cdot \frac{w}{f}
+$$
 
 ### 10.2 Worked example
 
@@ -423,7 +463,9 @@ $n = 47$. The median position is $n/2 = 23.5$.
 
 Cumulative frequencies: 5, 17, 35, 43, 47. The 23.5th value falls in the class $20 \lt x \le 30$.
 
-$$Q_2 = 20 + \left(23.5 - 17\right) \cdot \frac{10}{18} = 20 + 6.5 \cdot \frac{10}{18} = 20 + \frac{65}{18} \approx 23.6$$
+$$
+Q_2 = 20 + \left(23.5 - 17\right) \cdot \frac{10}{18} = 20 + 6.5 \cdot \frac{10}{18} = 20 + \frac{65}{18} \approx 23.6
+$$
 
 :::note
 the class.
@@ -545,7 +587,9 @@ Prove that $\displaystyle\sum_{i=1}^{n}(x_i - \bar{x}) = 0$.
 
 <details>
 <summary>Solution 6</summary>
-$$\sum(x_i - \bar{x}) = \sum x_i - n\bar{x} = \sum x_i - n \cdot \frac{\sum x_i}{n} = \sum x_i - \sum x_i = 0 \quad \blacksquare$$
+$$
+\sum(x_i - \bar{x}) = \sum x_i - n\bar{x} = \sum x_i - n \cdot \frac{\sum x_i}{n} = \sum x_i - \sum x_i = 0 \quad \blacksquare
+$$
 
 **If you get this wrong, revise:** [Mean](#11-mean), Section 1.1.
 
@@ -630,7 +674,9 @@ $\sum x^2 = 4 + 16 + 25 + 36 + 49 + 64 + 144 + 225 + 784 = 1347$.
 $\sigma^2 = 1347/9 - 9.67^2 = 149.67 - 93.51 = 56.16$ So $\sigma = 7.49$.
 
 Pearson's first coefficient:
-$$S_1 = \frac{3(9.67 - 7)}{7.49} = \frac{3 \times 2.67}{7.49} = \frac{8.01}{7.49} \approx 1.07$$
+$$
+S_1 = \frac{3(9.67 - 7)}{7.49} = \frac{3 \times 2.67}{7.49} = \frac{8.01}{7.49} \approx 1.07
+$$
 
 Since $S_1 \gt 0$The distribution is positively skewed. This is consistent with the right tail
 Produced by the value 28.
@@ -720,15 +766,21 @@ $n = 60$.
 **Median** ($n/2 = 30$Th value). Cumulative frequencies: 8, 23, 45, 55, 60. The 30th value falls in
 The class $30 \lt x \le 40$.
 
-$$Q_2 = 30 + \left(\frac{60}{2} - 23\right) \cdot \frac{10}{22} = 30 + (30 - 23) \cdot \frac{10}{22} = 30 + 7 \cdot \frac{10}{22} = 30 + \frac{70}{22} \approx 33.18$$
+$$
+Q_2 = 30 + \left(\frac{60}{2} - 23\right) \cdot \frac{10}{22} = 30 + (30 - 23) \cdot \frac{10}{22} = 30 + 7 \cdot \frac{10}{22} = 30 + \frac{70}{22} \approx 33.18
+$$
 
 **Lower quartile** ($n/4 = 15$Th value). The 15th value falls in $20 \lt x \le 30$.
 
-$$Q_1 = 20 + \left(15 - 8\right) \cdot \frac{10}{15} = 20 + 7 \cdot \frac{10}{15} = 20 + \frac{70}{15} \approx 24.67$$
+$$
+Q_1 = 20 + \left(15 - 8\right) \cdot \frac{10}{15} = 20 + 7 \cdot \frac{10}{15} = 20 + \frac{70}{15} \approx 24.67
+$$
 
 **Upper quartile** ($3n/4 = 45$Th value). The 45th value falls in $30 \lt x \le 40$.
 
-$$Q_3 = 30 + \left(45 - 23\right) \cdot \frac{10}{22} = 30 + 22 \cdot \frac{10}{22} = 30 + 10 = 40$$
+$$
+Q_3 = 30 + \left(45 - 23\right) \cdot \frac{10}{22} = 30 + 22 \cdot \frac{10}{22} = 30 + 10 = 40
+$$
 
 $\mathrm{IQR} = Q_3 - Q_1 = 40 - 24.67 = 15.33$.
 
@@ -748,7 +800,9 @@ Modified z-score method to determine whether the value 48 is an outlier.
 $\tilde{x} = 12$ (median). $\mathrm{MAD} = 4$.
 
 For $x = 48$:
-$$M = \frac{0.6745(48 - 12)}{4} = \frac{0.6745 \times 36}{4} = \frac{24.282}{4} = 6.07$$
+$$
+M = \frac{0.6745(48 - 12)}{4} = \frac{0.6745 \times 36}{4} = \frac{24.282}{4} = 6.07
+$$
 
 Since $|M| = 6.07 \gt 3.5$The value 48 is classified as an outlier by the modified z-score Method.
 
@@ -771,7 +825,9 @@ The 60th value falls in the class $50 \lt w \le 60$.
 
 $L = 50$$c_f = 32$$f = 14$$w = 10$.
 
-$$Q_3 = 50 + \left(60 - 32\right) \cdot \frac{10}{14} = 50 + 28 \cdot \frac{10}{14} = 50 + \frac{280}{14} = 50 + 20 = 70$$
+$$
+Q_3 = 50 + \left(60 - 32\right) \cdot \frac{10}{14} = 50 + 28 \cdot \frac{10}{14} = 50 + \frac{280}{14} = 50 + 20 = 70
+$$
 
 **If you get this wrong, revise:**
 [Interpolation from Grouped Data](#10-interpolation-from-grouped-data), Section 10.1.
@@ -798,10 +854,14 @@ $\sum x^2 = 9 + 25 + 36 + 49 + 64 + 81 + 100 + 144 + 2025 = 2533$.
 $\sigma^2 = 2533/9 - 11.67^2 = 281.44 - 136.19 = 145.25$ So $\sigma = 12.05$.
 
 **Pearson's first coefficient:**
-$$S_1 = \frac{3(11.67 - 8)}{12.05} = \frac{11.01}{12.05} \approx 0.91$$
+$$
+S_1 = \frac{3(11.67 - 8)}{12.05} = \frac{11.01}{12.05} \approx 0.91
+$$
 
 **Pearson's second coefficient:**
-$$S_2 = \frac{11 + 5.5 - 2 \times 8}{11 - 5.5} = \frac{16.5 - 16}{5.5} = \frac{0.5}{5.5} \approx 0.09$$
+$$
+S_2 = \frac{11 + 5.5 - 2 \times 8}{11 - 5.5} = \frac{16.5 - 16}{5.5} = \frac{0.5}{5.5} \approx 0.09
+$$
 
 Both coefficients are positive, so they agree on positive skew. However, $S_1$ is much larger
 Because the mean (11.67) is strongly pulled by the outlier 45, whereas $S_2$ depends only on the

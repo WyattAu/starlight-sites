@@ -205,7 +205,9 @@ $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^
 **Implicit differentiation.** When $y$ is defined implicitly by $F(x, y) = 0$Differentiate both
 Sides with respect to $x$Treating $y$ as a function of $x$:
 
-$$\frac{d}{dx}[F(x, y)] = \frac{\partial F}{\partial x} + \frac{\partial F}{\partial y}\frac{dy}{dx} = 0$$
+$$
+\frac{d}{dx}[F(x, y)] = \frac{\partial F}{\partial x} + \frac{\partial F}{\partial y}\frac{dy}{dx} = 0
+$$
 
 ### 4.2 Integration
 
@@ -286,11 +288,15 @@ Sum to infinity: $S_\infty = \frac{a_1}{1 - r}$Convergent for $|r| < 1$.
 
 A recurrence relation defines $a_n$ in terms of previous terms. A first-order linear recurrence:
 
-$$a_{n+1} = ra_n + c$$
+$$
+a_{n+1} = ra_n + c
+$$
 
 Has the general solution:
 
-$$a_n = A r^{n-1} + \frac{c}{1 - r}$$
+$$
+a_n = A r^{n-1} + \frac{c}{1 - r}
+$$
 
 For $r \neq 1$Where $A$ is determined by the initial condition.
 
@@ -298,14 +304,18 @@ For $r \neq 1$Where $A$ is determined by the initial condition.
 
 **Telescoping series.** Terms cancel in pairs. For example:
 
-$$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right) = 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
+$$
+\sum_{k=1}^{n} \frac{1}{k(k+1)} = \sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right) = 1 - \frac{1}{n+1} = \frac{n}{n+1}
+$$
 
 **Method of differences.** If $a_k = f(k) - f(k-1)$ Then $\sum_{k=1}^{n} a_k = f(n) - f(0)$. The key
 is finding $f$ given $a_k$Often by partial fraction decomposition.
 
 **Binomial expansion.** For $|x| < 1$ and $\alpha \in \mathbb{R}$:
 
-$$(1 + x)^\alpha = \sum_{k=0}^{\infty} \binom{\alpha}{k} x^k$$
+$$
+(1 + x)^\alpha = \sum_{k=0}^{\infty} \binom{\alpha}{k} x^k
+$$
 
 Where $\binom{\alpha}{k} = \frac{\alpha(\alpha-1)\cdots(\alpha-k+1)}{k!}$.
 
@@ -341,9 +351,13 @@ Where $\binom{\alpha}{k} = \frac{\alpha(\alpha-1)\cdots(\alpha-k+1)}{k!}$.
 
 **Negation:**
 
-$$\neg(\forall x \, P(x)) \equiv \exists x \, \neg P(x)$$
+$$
+\neg(\forall x \, P(x)) \equiv \exists x \, \neg P(x)
+$$
 
-$$\neg(\exists x \, P(x)) \equiv \forall x \, \neg P(x)$$
+$$
+\neg(\exists x \, P(x)) \equiv \forall x \, \neg P(x)
+$$
 
 ### 6.3 Proof Techniques
 
@@ -389,7 +403,9 @@ Which $P(x)$ is false.
 
 **Solution.** By the chain rule:
 
-$$\frac{d}{dx}[f(f(x))] = f'(f(x)) \cdot f'(x)$$
+$$
+\frac{d}{dx}[f(f(x))] = f'(f(x)) \cdot f'(x)
+$$
 
 Stationary points occur where $f'(f(x)) \cdot f'(x) = 0$I.e., where $f'(x) = 0$ or $f'(f(x)) = 0$.
 
@@ -431,7 +447,9 @@ So $n^5 \equiv n \pmod{5}$Giving $n^5 - n \equiv 0 \pmod{5}$.
 
 Alternatively, by factorisation:
 
-$$n^5 - n = n(n^4 - 1) = n(n^2 - 1)(n^2 + 1) = n(n-1)(n+1)(n^2 + 1)$$
+$$
+n^5 - n = n(n^4 - 1) = n(n^2 - 1)(n^2 + 1) = n(n-1)(n+1)(n^2 + 1)
+$$
 
 Among any 5 consecutive integers, one is divisible by 5. The product $n(n-1)(n+1)$ gives three
 Consecutive integers. If none of these is divisible by 5, then $n \equiv 2 \pmod{5}$ or
@@ -474,13 +492,17 @@ $2 \times 3 \times 5 = 30$.
 
 **(i)** Using the quotient rule:
 
-$$\frac{dy}{dx} = \frac{(2x)(x-1) - x^2(1)}{(x-1)^2} = \frac{2x^2 - 2x - x^2}{(x-1)^2} = \frac{x^2 - 2x}{(x-1)^2} = \frac{x(x-2)}{(x-1)^2}$$
+$$
+\frac{dy}{dx} = \frac{(2x)(x-1) - x^2(1)}{(x-1)^2} = \frac{2x^2 - 2x - x^2}{(x-1)^2} = \frac{x^2 - 2x}{(x-1)^2} = \frac{x(x-2)}{(x-1)^2}
+$$
 
 Setting $\frac{dy}{dx} = 0$: $x(x - 2) = 0$ So $x = 0$ or $x = 2$.
 
 At $x = 0$: $y = 0$. The second derivative:
 
-$$\frac{d^2y}{dx^2} = \frac{d}{dx}\left[\frac{x^2 - 2x}{(x-1)^2}\right]$$
+$$
+\frac{d^2y}{dx^2} = \frac{d}{dx}\left[\frac{x^2 - 2x}{(x-1)^2}\right]
+$$
 
 At $x = 0$The numerator $x^2 - 2x$ changes from positive (for $x < 0$) to negative (for
 $0 < x < 1$), So $\frac{dy}{dx}$ changes from positive to negative. Hence $(0, 0)$ is a local
@@ -491,7 +513,9 @@ a Local minimum.
 
 **(ii)** Vertical asymptote at $x = 1$. For the horizontal/oblique asymptote, divide:
 
-$$\frac{x^2}{x - 1} = x + 1 + \frac{1}{x - 1}$$
+$$
+\frac{x^2}{x - 1} = x + 1 + \frac{1}{x - 1}
+$$
 
 As $x \to \pm\infty$, $\frac{1}{x-1} \to 0$ So $y \approx x + 1$. The oblique asymptote is $y = x + 1$.
 
@@ -529,28 +553,42 @@ $S_1 = \frac{1}{2}$, $S_2 = \frac{1}{2} + \frac{2}{4} = 1$, $S_3 = 1 + \frac{3}{
 
 **(ii)** Write:
 
-$$S_n = \sum_{k=1}^{n} \frac{k}{2^k}$$
+$$
+S_n = \sum_{k=1}^{n} \frac{k}{2^k}
+$$
 
 Multiply by $\frac{1}{2}$:
 
-$$\frac{1}{2}S_n = \sum_{k=1}^{n} \frac{k}{2^{k+1}} = \sum_{k=2}^{n+1} \frac{k-1}{2^k}$$
+$$
+\frac{1}{2}S_n = \sum_{k=1}^{n} \frac{k}{2^{k+1}} = \sum_{k=2}^{n+1} \frac{k-1}{2^k}
+$$
 
 Subtract:
 
-$$S_n - \frac{1}{2}S_n = \frac{1}{2} + \sum_{k=2}^{n} \frac{k - (k-1)}{2^k} - \frac{n}{2^{n+1}}$$
+$$
+S_n - \frac{1}{2}S_n = \frac{1}{2} + \sum_{k=2}^{n} \frac{k - (k-1)}{2^k} - \frac{n}{2^{n+1}}
+$$
 
-$$\frac{1}{2}S_n = \frac{1}{2} + \sum_{k=2}^{n} \frac{1}{2^k} - \frac{n}{2^{n+1}}$$
+$$
+\frac{1}{2}S_n = \frac{1}{2} + \sum_{k=2}^{n} \frac{1}{2^k} - \frac{n}{2^{n+1}}
+$$
 
-$$\frac{1}{2}S_n = \sum_{k=1}^{n} \frac{1}{2^k} - \frac{n}{2^{n+1}}$$
+$$
+\frac{1}{2}S_n = \sum_{k=1}^{n} \frac{1}{2^k} - \frac{n}{2^{n+1}}
+$$
 
 The geometric sum
 $\sum_{k=1}^{n} \frac{1}{2^k} = \frac{\frac{1}{2}(1 - \frac{1}{2^n})}{1 - \frac{1}{2}} = 1 - \frac{1}{2^n}$.
 
 Therefore:
 
-$$\frac{1}{2}S_n = 1 - \frac{1}{2^n} - \frac{n}{2^{n+1}} = 1 - \frac{2 + n}{2^{n+1}}$$
+$$
+\frac{1}{2}S_n = 1 - \frac{1}{2^n} - \frac{n}{2^{n+1}} = 1 - \frac{2 + n}{2^{n+1}}
+$$
 
-$$S_n = 2 - \frac{n + 2}{2^n}$$
+$$
+S_n = 2 - \frac{n + 2}{2^n}
+$$
 
 **(iii)**
 $\sum_{k=1}^{\infty} \frac{k}{2^k} = \lim_{n \to \infty} S_n = \lim_{n \to \infty} \left(2 - \frac{n+2}{2^n}\right) = 2 - 0 = 2$.
@@ -603,7 +641,9 @@ Therefore $f(n) = n$ for all $n \in \mathbb{Z}$.
 
 In Case 2: For any rational $p/q$ (with $q \neq 0$):
 
-$$f\left(\frac{p}{q}\right) = f\left(\frac{p}{q}\right)$$
+$$
+f\left(\frac{p}{q}\right) = f\left(\frac{p}{q}\right)
+$$
 
 Since $f(q \cdot \frac{p}{q}) = f(q)f(\frac{p}{q})$ and $f(p) = p$We get
 $p = q \cdot f(\frac{p}{q})$ So $f(\frac{p}{q}) = \frac{p}{q}$.

@@ -58,7 +58,9 @@ $$
 
 Adding the two rows term by term, each pair sums to $2a + (n-1)d$ And there are $n$ such pairs:
 
-$$2S_n = n[2a + (n-1)d] \implies S_n = \frac{n}{2}[2a + (n-1)d] \quad \blacksquare$$
+$$
+2S_n = n[2a + (n-1)d] \implies S_n = \frac{n}{2}[2a + (n-1)d] \quad \blacksquare
+$$
 
 ### 1.3 Example: the difference of squares
 
@@ -66,7 +68,9 @@ $$2S_n = n[2a + (n-1)d] \implies S_n = \frac{n}{2}[2a + (n-1)d] \quad \blacksqua
 
 **Proof.** Expanding the right-hand side:
 
-$$(a-b)(a+b) = a^2 + ab - ab - b^2 = a^2 - b^2 \quad \blacksquare$$
+$$
+(a-b)(a+b) = a^2 + ab - ab - b^2 = a^2 - b^2 \quad \blacksquare
+$$
 
 <hr />
 
@@ -103,12 +107,16 @@ $\blacksquare$
 **Proof.** Suppose $\sqrt{2} = \dfrac{a}{b}$ where $a, b \in \mathbb{Z}$, $b \neq 0$ And
 $\gcd(a,b) = 1$ (the fraction is in lowest terms).
 
-$$2 = \frac{a^2}{b^2} \implies a^2 = 2b^2$$
+$$
+2 = \frac{a^2}{b^2} \implies a^2 = 2b^2
+$$
 
 So $a^2$ is even, which means $a$ is even (since the square of an odd number is odd). Write
 $a = 2k$.
 
-$$(2k)^2 = 2b^2 \implies 4k^2 = 2b^2 \implies b^2 = 2k^2$$
+$$
+(2k)^2 = 2b^2 \implies 4k^2 = 2b^2 \implies b^2 = 2k^2
+$$
 
 So $b^2$ is even, meaning $b$ is even. But then $\gcd(a,b) \geq 2$Contradicting $\gcd(a,b) = 1$.
 $\blacksquare$
@@ -119,7 +127,9 @@ $\blacksquare$
 
 **Proof.** Suppose $\log_2 3 = \dfrac{a}{b}$ where $a, b \in \mathbb{Z}^+$ and $\gcd(a,b) = 1$.
 
-$$2^{a/b} = 3 \implies 2^a = 3^b$$
+$$
+2^{a/b} = 3 \implies 2^a = 3^b
+$$
 
 Since $2^a$ is even and $3^b$ is odd, this is a contradiction. $\blacksquare$
 
@@ -500,7 +510,9 @@ Prove that if $a^2 + b^2 = c^2$ for integers $a, b, c$ Then at least one of $a, 
 <summary>Solution 10</summary>
 Proof by contradiction. Suppose both $a$ and $b$ are odd. Write $a = 2m+1$, $b = 2n+1$.
 
-$$a^2 + b^2 = (2m+1)^2 + (2n+1)^2 = 4m^2+4m+1 + 4n^2+4n+1 = 2(2m^2+2m+2n^2+2n+1)$$
+$$
+a^2 + b^2 = (2m+1)^2 + (2n+1)^2 = 4m^2+4m+1 + 4n^2+4n+1 = 2(2m^2+2m+2n^2+2n+1)
+$$
 
 This is even but not divisible by 4. So $c^2$ is even but not divisible by 4, meaning $c$ is even
 (if $c = 2p$, $c^2 = 4p^2$Which IS divisible by 4). Contradiction. $\blacksquare$

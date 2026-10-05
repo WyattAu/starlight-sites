@@ -48,7 +48,9 @@ $\mathbb{R}$).
 
 **Proof.** Let $\mathcal{U} = \{U_\alpha\}$ be an open cover of $[a, b]$. Let
 
-$$S = \{x \in [a, b] : [a, x] \text{ has a finite subcover from } \mathcal{U}\}.$$
+$$
+S = \{x \in [a, b] : [a, x] \text{ has a finite subcover from } \mathcal{U}\}.
+$$
 
 Then $a \in S$ (since $a \in$ some $U_\alpha$), so $S \neq \emptyset$. Let $s = \sup S$. One shows
 $s \in S$ and $s = b$, completing the proof. $\square$
@@ -136,7 +138,9 @@ This characterisation is often more convenient for proofs. For example, it immed
 
 **Stereographic projection** maps $S^n \setminus \{N\}$ (sphere minus north pole) to $\mathbb{R}^n$. For $S^1$, the map is:
 
-$$f(x, y) = \frac{x}{1 - y}$$
+$$
+f(x, y) = \frac{x}{1 - y}
+$$
 
 with inverse $f^{-1}(t) = \left(\frac{2t}{t^2 + 1}, \frac{t^2 - 1}{t^2 + 1}\right)$.
 

@@ -68,7 +68,9 @@ This topic covers the chemistry behind drugs, food additives, detergents, and ot
 
 Aspirin is prepared by acetylation of salicylic acid with acetic anhydride:
 
-$$\text{C}_6\text{H}_4(\text{OH})\text{COOH} + (\text{CH}_3\text{CO})_2\text{O} \xrightarrow{\text{H}_2\text{SO}_4} \text{C}_6\text{H}_4(\text{OCOCH}_3)\text{COOH} + \text{CH}_3\text{COOH}$$
+$$
+\text{C}_6\text{H}_4(\text{OH})\text{COOH} + (\text{CH}_3\text{CO})_2\text{O} \xrightarrow{\text{H}_2\text{SO}_4} \text{C}_6\text{H}_4(\text{OCOCH}_3)\text{COOH} + \text{CH}_3\text{COOH}
+$$
 
 Salicylic acid + acetic anhydride $\rightarrow$ acetylsalicylic acid (aspirin) + acetic acid
 
@@ -86,7 +88,9 @@ The -OH group of salicylic acid is acetylated, reducing its acidity and side eff
 
 Soaps (sodium stearate, $\text{C}_{17}\text{H}_{35}\text{COONa}$) react with these ions:
 
-$$2\text{C}_{17}\text{H}_{35}\text{COO}^- + \text{Ca}^{2+} \rightarrow (\text{C}_{17}\text{H}_{35}\text{COO})_2\text{Ca} \downarrow$$
+$$
+2\text{C}_{17}\text{H}_{35}\text{COO}^- + \text{Ca}^{2+} \rightarrow (\text{C}_{17}\text{H}_{35}\text{COO})_2\text{Ca} \downarrow
+$$
 
 This forms an insoluble precipitate (scum) that does not clean.
 
@@ -104,11 +108,17 @@ Stomach acid is dilute HCl (pH 1-2). Excess acid causes heartburn and indigestio
 
 Antacids neutralize the excess acid:
 
-$$\text{NaHCO}_3 + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{NaHCO}_3 + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O} + \text{CO}_2
+$$
 
-$$\text{Mg(OH)}_2 + 2\text{HCl} \rightarrow \text{MgCl}_2 + 2\text{H}_2\text{O}$$
+$$
+\text{Mg(OH)}_2 + 2\text{HCl} \rightarrow \text{MgCl}_2 + 2\text{H}_2\text{O}
+$$
 
-$$\text{Al(OH)}_3 + 3\text{HCl} \rightarrow \text{AlCl}_3 + 3\text{H}_2\text{O}$$
+$$
+\text{Al(OH)}_3 + 3\text{HCl} \rightarrow \text{AlCl}_3 + 3\text{H}_2\text{O}
+$$
 
 The neutralization raises stomach pH, reducing acidity and providing relief.
 

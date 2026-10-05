@@ -40,7 +40,9 @@ moments, and include the direction (clockwise/anticlockwise) of each moment.
 
 **Definition.** The **moment** of a force $F$ about a point $O$ is
 
-$$M = F \times d$$
+$$
+M = F \times d
+$$
 
 Where $d$ is the perpendicular distance from $O$ to the line of action of $F$.
 
@@ -87,7 +89,9 @@ Consider a rigid body in equilibrium. For equilibrium, two conditions must hold:
 
 For rotational equilibrium, consider any point $O$. The total torque about $O$ must be zero:
 
-$$\sum_{i} \mathbf{r}_i \times \mathbf{F}_i = \mathbf{0}$$
+$$
+\sum_{i} \mathbf{r}_i \times \mathbf{F}_i = \mathbf{0}
+$$
 
 Where $\mathbf{r}_i$ is the position vector of the point of application of $\mathbf{F}_i$ relative
 To $O$.
@@ -144,7 +148,9 @@ no acceleration of the centre of mass. However, the net moment (torque) is non-z
 
 For a couple with forces $F$ separated by perpendicular distance $d$:
 
-$$\mathrm{Torque} = F \times d$$
+$$
+\mathrm{Torque} = F \times d
+$$
 
 The moment of a couple is the same about **any** point in the plane. This is a key property: unlike
 The moment of a single force, the torque of a couple does not depend on the choice of reference
@@ -153,7 +159,9 @@ Point.
 **Proof.** Consider two forces $+F$ and $-F$ acting at points $A$ and $B$ respectively, with
 $AB = d$ perpendicular to the forces. Taking moments about an arbitrary point $O$:
 
-$$M_O = F \times d_A - F \times d_B = F(d_A - d_B) = F \times d$$
+$$
+M_O = F \times d_A - F \times d_B = F(d_A - d_B) = F \times d
+$$
 
 Where $d_A$ and $d_B$ are the perpendicular distances from $O$ to the lines of action. The result is
 Independent of $O$. $\blacksquare$
@@ -170,7 +178,9 @@ Independent of $O$. $\blacksquare$
 In two dimensions, torque (moment) can be treated as a scalar with a sign indicating direction. In
 Three dimensions, torque is a vector:
 
-$$\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}$$
+$$
+\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}
+$$
 
 The direction of $\boldsymbol{\tau}$ is given by the right-hand rule and is perpendicular to the
 Plane containing $\mathbf{r}$ and $\mathbf{F}$.
@@ -182,7 +192,9 @@ Plane containing $\mathbf{r}$ and $\mathbf{F}$.
 If a body is acted on by several couples, the body is in rotational equilibrium if and only if the
 Total torque is zero:
 
-$$\sum \tau_i = 0$$
+$$
+\sum \tau_i = 0
+$$
 
 This condition is independent of the translational equilibrium conditions, since couples contribute
 Zero net force.
@@ -214,13 +226,17 @@ Always apply all three equilibrium conditions:
 2. **Vertical forces:** $R_g = W$ (or $W +$ any extra load on the ladder)
 3. **Moments about a convenient point** ( the base of the ladder to eliminate $F$ and $R_g$):
 
-$$R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta$$
+$$
+R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta
+$$
 
 ### 3.2.3 Key results
 
 For a uniform ladder against a smooth wall on rough ground:
 
-$$R_w = \frac{W}{2}\cot\theta, \qquad F = R_w, \qquad \mu_{\min} = \frac{R_w}{R_g} = \frac{1}{2}\cot\theta$$
+$$
+R_w = \frac{W}{2}\cot\theta, \qquad F = R_w, \qquad \mu_{\min} = \frac{R_w}{R_g} = \frac{1}{2}\cot\theta
+$$
 
 The minimum coefficient of friction depends only on the angle $\theta$. As the ladder becomes
 Steeper ($\theta$ increases), $\cot\theta$ decreases and less friction is needed.
@@ -235,7 +251,9 @@ Equation. Always read the question carefully to determine whether the wall is sm
 When a person of weight $P$ stands on the ladder at a fraction $\alpha$ of the way up (distance
 $\alpha L$ from the base), the moment equation becomes:
 
-$$R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta + P \times \alpha L\cos\theta$$
+$$
+R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta + P \times \alpha L\cos\theta
+$$
 
 This gives $R_w = \left(\dfrac{W}{2} + P\alpha\right)\cot\theta$ And the required friction Increases
 accordingly. The higher the person climbs (larger $\alpha$), the more friction is needed, Climb too
@@ -322,12 +340,16 @@ For a uniform lamina (constant density), the centre of mass coincides with the c
 For a body made of several parts with masses $m_1, m_2, \ldots$ at positions
 $(x_1, y_1), (x_2, y_2), \ldots$:
 
-$$\bar{x} = \frac{\sum m_i x_i}{\sum m_i}, \qquad \bar{y} = \frac{\sum m_i y_i}{\sum m_i}$$
+$$
+\bar{x} = \frac{\sum m_i x_i}{\sum m_i}, \qquad \bar{y} = \frac{\sum m_i y_i}{\sum m_i}
+$$
 
 **Derivation.** Taking moments about the $y$-axis for the total system and the equivalent point
 Mass:
 
-$$\sum m_i x_i = M\bar{x} \implies \bar{x} = \frac{\sum m_i x_i}{M}$$
+$$
+\sum m_i x_i = M\bar{x} \implies \bar{x} = \frac{\sum m_i x_i}{M}
+$$
 
 Where $M = \sum m_i$. Similarly for $\bar{y}$. $\blacksquare$
 
@@ -368,7 +390,9 @@ $\left(\dfrac{6+6+6}{3}, \dfrac{0+4+(4+2\sqrt{3})}{3}\right) = \left(6, \dfrac{8
 
 **Step 2: Apply the formula.**
 
-$$\bar{x} = \frac{24 \times 3 + 4\sqrt{3} \times 6}{24 + 4\sqrt{3}} = \frac{72 + 24\sqrt{3}}{24 + 4\sqrt{3}}$$
+$$
+\bar{x} = \frac{24 \times 3 + 4\sqrt{3} \times 6}{24 + 4\sqrt{3}} = \frac{72 + 24\sqrt{3}}{24 + 4\sqrt{3}}
+$$
 
 Dividing numerator and denominator by 4:
 $\bar{x} = \dfrac{18 + 6\sqrt{3}}{6 + \sqrt{3}}$.
@@ -376,7 +400,9 @@ $\bar{x} = \dfrac{18 + 6\sqrt{3}}{6 + \sqrt{3}}$.
 Rationalising:
 $\bar{x} = \dfrac{(18 + 6\sqrt{3})(6 - \sqrt{3})}{36 - 3} = \dfrac{108 - 18\sqrt{3} + 36\sqrt{3} - 18}{33} = \dfrac{90 + 18\sqrt{3}}{33} \approx 3.69\,\mathrm{cm}$.
 
-$$\bar{y} = \frac{24 \times 2 + 4\sqrt{3} \times \frac{8+2\sqrt{3}}{3}}{24 + 4\sqrt{3}} = \frac{48 + \frac{32\sqrt{3}+24}{3}}{24 + 4\sqrt{3}} = \frac{\frac{168+32\sqrt{3}}{3}}{24+4\sqrt{3}}$$
+$$
+\bar{y} = \frac{24 \times 2 + 4\sqrt{3} \times \frac{8+2\sqrt{3}}{3}}{24 + 4\sqrt{3}} = \frac{48 + \frac{32\sqrt{3}+24}{3}}{24 + 4\sqrt{3}} = \frac{\frac{168+32\sqrt{3}}{3}}{24+4\sqrt{3}}
+$$
 
 $\bar{y} = \dfrac{168 + 32\sqrt{3}}{72 + 12\sqrt{3}} \approx 2.30\,\mathrm{cm}$.
 
@@ -385,7 +411,9 @@ $\bar{y} = \dfrac{168 + 32\sqrt{3}}{72 + 12\sqrt{3}} \approx 2.30\,\mathrm{cm}$.
 When a shape has a hole or cut-out, treat it as a **negative mass**. If a rectangle of area $A_2$ is
 Removed from a larger rectangle of area $A_1$:
 
-$$\bar{x} = \frac{A_1 x_1 - A_2 x_2}{A_1 - A_2}$$
+$$
+\bar{x} = \frac{A_1 x_1 - A_2 x_2}{A_1 - A_2}
+$$
 
 This is extremely useful for L-shapes, T-shapes, and shapes with circular or triangular cut-outs.
 
@@ -412,7 +440,9 @@ Point of tilting exceeds the restoring moment.
 
 A body will **topple** before it **slides** if:
 
-$$\frac{h}{d} > \frac{1}{\mu}$$
+$$
+\frac{h}{d} > \frac{1}{\mu}
+$$
 
 Where $h$ is the height at which the force is applied and $d$ is half the base width.
 

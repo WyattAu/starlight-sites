@@ -40,7 +40,9 @@ flowchart TD
 
 Nitrogen and hydrogen react to form ammonia:
 
-$$\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)$$
+$$
+\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)
+$$
 
 $1.00\,\text{mol}$ of $\text{N}_2$ and $3.00\,\text{mol}$ of $\text{H}_2$ are mixed in a sealed
 container of volume $5.00\,\text{dm}^3$ and allowed to reach equilibrium at $500\,^\circ\text{C}$.
@@ -81,11 +83,15 @@ Partial pressures ($p_i = x_i \times p_{\text{total}}$):
 
 (b)
 
-$$K_p = \frac{p(\text{NH}_3)^2}{p(\text{N}_2) \times p(\text{H}_2)^3} = \frac{22.2^2}{44.4 \times 133.3^3} = \frac{492.8}{44.4 \times 2368593} = \frac{492.8}{1.0517 \times 10^8} = 4.68 \times 10^{-6}$$
+$$
+K_p = \frac{p(\text{NH}_3)^2}{p(\text{N}_2) \times p(\text{H}_2)^3} = \frac{22.2^2}{44.4 \times 133.3^3} = \frac{492.8}{44.4 \times 2368593} = \frac{492.8}{1.0517 \times 10^8} = 4.68 \times 10^{-6}
+$$
 
 Units: $\text{atm}^{-2}$
 
-$$K_p = 4.68 \times 10^{-6}\,\text{atm}^{-2}$$
+$$
+K_p = 4.68 \times 10^{-6}\,\text{atm}^{-2}
+$$
 
 (c) $K_p$ is a constant at a given temperature. When the total pressure changes, the system adjusts
 the equilibrium position (Le Chatelier"s principle) to restore the original $K_p$ value. Increasing
@@ -111,7 +117,9 @@ pressure.
 
 For the equilibrium:
 
-$$\text{PCl}_5(g) \rightleftharpoons \text{PCl}_3(g) + \text{Cl}_2(g) \quad \Delta H = +124\,\text{kJ mol}^{-1}$$
+$$
+\text{PCl}_5(g) \rightleftharpoons \text{PCl}_3(g) + \text{Cl}_2(g) \quad \Delta H = +124\,\text{kJ mol}^{-1}
+$$
 
 $K_c = 0.0211\,\text{mol dm}^{-3}$ at $500\,\text{K}$.
 
@@ -133,20 +141,32 @@ increasing with temperature: $K_c$ increases when temperature increases for endo
 
 (b) Using the van't Hoff equation:
 
-$$\ln\left(\frac{K_{550}}{K_{500}}\right) = \frac{124000}{8.31}\left(\frac{1}{500} - \frac{1}{550}\right)$$
+$$
+\ln\left(\frac{K_{550}}{K_{500}}\right) = \frac{124000}{8.31}\left(\frac{1}{500} - \frac{1}{550}\right)
+$$
 
-$$\ln\left(\frac{K_{550}}{0.0211}\right) = 14922 \times \left(0.002000 - 0.001818\right) = 14922 \times 1.818 \times 10^{-4} = 2.713$$
+$$
+\ln\left(\frac{K_{550}}{0.0211}\right) = 14922 \times \left(0.002000 - 0.001818\right) = 14922 \times 1.818 \times 10^{-4} = 2.713
+$$
 
-$$\frac{K_{550}}{0.0211} = e^{2.713} = 15.08$$
+$$
+\frac{K_{550}}{0.0211} = e^{2.713} = 15.08
+$$
 
-$$K_{550} = 15.08 \times 0.0211 = 0.318\,\text{mol dm}^{-3}$$
+$$
+K_{550} = 15.08 \times 0.0211 = 0.318\,\text{mol dm}^{-3}
+$$
 
 Verification: $K_{600} = 0.0420$ should also be consistent. Using the equation between 500 K and 600
 K:
 
-$$\ln(0.0420/0.0211) = \frac{124000}{8.31}(1/500 - 1/600) = 14922 \times 3.333 \times 10^{-4} = 4.974$$
+$$
+\ln(0.0420/0.0211) = \frac{124000}{8.31}(1/500 - 1/600) = 14922 \times 3.333 \times 10^{-4} = 4.974
+$$
 
-$$\ln(1.990) = 0.688$$
+$$
+\ln(1.990) = 0.688
+$$
 
 This gives $0.688$ vs the expected $4.974$Which indicates the van't Hoff equation is being applied
 over too wide a temperature range. The values given at 500 K and 600 K may not be perfectly
@@ -176,7 +196,9 @@ remains the same.
 
 For the thermal decomposition of calcium carbonate:
 
-$$\text{CaCO}_3(s) \rightleftharpoons \text{CaO}(s) + \text{CO}_2(g) \quad \Delta H = +178\,\text{kJ mol}^{-1}$$
+$$
+\text{CaCO}_3(s) \rightleftharpoons \text{CaO}(s) + \text{CO}_2(g) \quad \Delta H = +178\,\text{kJ mol}^{-1}
+$$
 
 (a) Write the expression for $K_p$ for this equilibrium and explain why the concentrations of the
 solids are not included.
@@ -191,7 +213,9 @@ total pressure.
 
 (a)
 
-$$K_p = p(\text{CO}_2)$$
+$$
+K_p = p(\text{CO}_2)
+$$
 
 Solids ($\text{CaCO}_3$ and $\text{CaO}$) are excluded from the equilibrium expression because their
 concentrations (and hence activities) are effectively constant. The concentration of a pure solid
@@ -202,7 +226,9 @@ incorporated into the equilibrium constant, only the gaseous species appears.
 $Q_p \gt K_p$Where $Q_p$ is the reaction quotient). The minimum $\text{CO}_2$ pressure to prevent
 decomposition is when $Q_p = K_p$:
 
-$$p(\text{CO}_2)_{\text{min}} = K_p = 0.220\,\text{atm}$$
+$$
+p(\text{CO}_2)_{\text{min}} = K_p = 0.220\,\text{atm}
+$$
 
 If the partial pressure of $\text{CO}_2$ exceeds $0.220\,\text{atm}$The reverse reaction is favoured
 and decomposition is suppressed.
@@ -223,7 +249,9 @@ of gas (the products side, which has 1 mol of gas vs 0 mol on the reactant side)
 
 The Haber process for ammonia synthesis:
 
-$$\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g) \quad \Delta H = -92\,\text{kJ mol}^{-1}$$
+$$
+\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g) \quad \Delta H = -92\,\text{kJ mol}^{-1}
+$$
 
 (a) Explain why industrial conditions of approximately $450\,^\circ\text{C}$ and $200\,\text{atm}$
 are used, given that low temperature and high pressure would give a higher equilibrium yield.
@@ -276,7 +304,9 @@ reactor, making the process economically efficient.
 $2.00\,\text{mol}$ of $\text{SO}_2$ and $1.50\,\text{mol}$ of $\text{O}_2$ are mixed in a
 $10.0\,\text{dm}^3$ container and allowed to reach equilibrium:
 
-$$2\text{SO}_2(g) + \text{O}_2(g) \rightleftharpoons 2\text{SO}_3(g)$$
+$$
+2\text{SO}_2(g) + \text{O}_2(g) \rightleftharpoons 2\text{SO}_3(g)
+$$
 
 At equilibrium, $1.20\,\text{mol}$ of $\text{SO}_3$ is present.
 
@@ -307,7 +337,9 @@ Equilibrium concentrations (dividing by $10.0\,\text{dm}^3$):
 - $[\text{O}_2] = 0.0900\,\text{mol dm}^{-3}$
 - $[\text{SO}_3] = 0.120\,\text{mol dm}^{-3}$
 
-$$K_c = \frac{[\text{SO}_3]^2}{[\text{SO}_2]^2[\text{O}_2]} = \frac{0.120^2}{0.0800^2 \times 0.0900} = \frac{0.01440}{5.760 \times 10^{-4}} = 25.0\,\text{mol}^{-1}\text{ dm}^3$$
+$$
+K_c = \frac{[\text{SO}_3]^2}{[\text{SO}_2]^2[\text{O}_2]} = \frac{0.120^2}{0.0800^2 \times 0.0900} = \frac{0.01440}{5.760 \times 10^{-4}} = 25.0\,\text{mol}^{-1}\text{ dm}^3
+$$
 
 (b) Total equilibrium moles: $0.800 + 0.900 + 1.20 = 2.90\,\text{mol}$
 
@@ -317,7 +349,9 @@ Partial pressures:
 - $p(\text{O}_2) = (0.900/2.90) \times 5.00 = 1.552\,\text{atm}$
 - $p(\text{SO}_3) = (1.20/2.90) \times 5.00 = 2.069\,\text{atm}$
 
-$$K_p = \frac{p(\text{SO}_3)^2}{p(\text{SO}_2)^2 \times p(\text{O}_2)} = \frac{2.069^2}{1.379^2 \times 1.552} = \frac{4.281}{2.952 \times 1.552} = \frac{4.281}{4.583} = 0.934\,\text{atm}^{-1}$$
+$$
+K_p = \frac{p(\text{SO}_3)^2}{p(\text{SO}_2)^2 \times p(\text{O}_2)} = \frac{2.069^2}{1.379^2 \times 1.552} = \frac{4.281}{2.952 \times 1.552} = \frac{4.281}{4.583} = 0.934\,\text{atm}^{-1}
+$$
 
 (c) When volume is halved ($5.00\,\text{dm}^3$), all concentrations initially double, so
 $Q_c \gt K_c$ (since the denominator increases more due to the squared terms). The equilibrium
@@ -331,11 +365,17 @@ Let $y$ mol of additional $\text{SO}_3$ form:
 
 Concentrations (dividing by $5.00\,\text{dm}^3$):
 
-$$K_c = 25.0 = \frac{((1.20+y)/5.00)^2}{((0.800-y)/5.00)^2 \times ((0.900-y/2)/5.00)}$$
+$$
+K_c = 25.0 = \frac{((1.20+y)/5.00)^2}{((0.800-y)/5.00)^2 \times ((0.900-y/2)/5.00)}
+$$
 
-$$25.0 = \frac{(1.20+y)^2 \times 5.00}{(0.800-y)^2 \times (0.900 - y/2)}$$
+$$
+25.0 = \frac{(1.20+y)^2 \times 5.00}{(0.800-y)^2 \times (0.900 - y/2)}
+$$
 
-$$5.0(1.20+y)^2 = 25.0(0.800-y)^2(0.900-y/2)$$
+$$
+5.0(1.20+y)^2 = 25.0(0.800-y)^2(0.900-y/2)
+$$
 
 This is a cubic equation. Solving iteratively or by approximation: since the volume halved
 (significant change), the equilibrium shifts substantially. An approximate solution gives
@@ -365,7 +405,9 @@ $\to$ 2 mol).
 
 Ethanoic acid dissociates in water:
 
-$$\text{CH}_3\text{COOH}(aq) \rightleftharpoons \text{CH}_3\text{COO}^-(aq) + \text{H}^+(aq)$$
+$$
+\text{CH}_3\text{COOH}(aq) \rightleftharpoons \text{CH}_3\text{COO}^-(aq) + \text{H}^+(aq)
+$$
 
 $K_a = 1.74 \times 10^{-5}\,\text{mol dm}^{-3}$ at $298\,\text{K}$.
 
@@ -382,37 +424,59 @@ incorrect and calculate the actual pH.
 
 (a) Let $x$ be the concentration of $\text{H}^+$ at equilibrium:
 
-$$K_a = \frac{x^2}{0.100 - x} = 1.74 \times 10^{-5}$$
+$$
+K_a = \frac{x^2}{0.100 - x} = 1.74 \times 10^{-5}
+$$
 
 **Approximation:** Since $K_a$ is very small, $x \ll 0.100$ So $0.100 - x \approx 0.100$:
 
-$$x^2 = 1.74 \times 10^{-5} \times 0.100 = 1.74 \times 10^{-6}$$
+$$
+x^2 = 1.74 \times 10^{-5} \times 0.100 = 1.74 \times 10^{-6}
+$$
 
-$$x = \sqrt{1.74 \times 10^{-6}} = 1.319 \times 10^{-3}\,\text{mol dm}^{-3}$$
+$$
+x = \sqrt{1.74 \times 10^{-6}} = 1.319 \times 10^{-3}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = -\log(1.319 \times 10^{-3}) = 2.88$$
+$$
+\text{pH} = -\log(1.319 \times 10^{-3}) = 2.88
+$$
 
 Verification: $x/0.100 = 0.01319 = 1.32\%$ So the approximation is valid (less than 5%).
 
 (b)
 
-$$\text{Percentage dissociation} = \frac{1.319 \times 10^{-3}}{0.100} \times 100 = 1.32\%$$
+$$
+\text{Percentage dissociation} = \frac{1.319 \times 10^{-3}}{0.100} \times 100 = 1.32\%
+$$
 
 (c) At $0.00100\,\text{mol dm}^{-3}$:
 
-$$K_a = \frac{x^2}{0.00100 - x} = 1.74 \times 10^{-5}$$
+$$
+K_a = \frac{x^2}{0.00100 - x} = 1.74 \times 10^{-5}
+$$
 
 Here, $x$ may not be negligible compared to $0.00100$. Solving the quadratic:
 
-$$x^2 + 1.74 \times 10^{-5}x - 1.74 \times 10^{-8} = 0$$
+$$
+x^2 + 1.74 \times 10^{-5}x - 1.74 \times 10^{-8} = 0
+$$
 
-$$x = \frac{-1.74 \times 10^{-5} + \sqrt{(1.74 \times 10^{-5})^2 + 4 \times 1.74 \times 10^{-8}}}{2}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + \sqrt{(1.74 \times 10^{-5})^2 + 4 \times 1.74 \times 10^{-8}}}{2}
+$$
 
-$$x = \frac{-1.74 \times 10^{-5} + \sqrt{3.028 \times 10^{-10} + 6.960 \times 10^{-8}}}{2}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + \sqrt{3.028 \times 10^{-10} + 6.960 \times 10^{-8}}}{2}
+$$
 
-$$x = \frac{-1.74 \times 10^{-5} + \sqrt{6.990 \times 10^{-8}}}{2} = \frac{-1.74 \times 10^{-5} + 2.644 \times 10^{-4}}{2} = 1.235 \times 10^{-4}\,\text{mol dm}^{-3}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + \sqrt{6.990 \times 10^{-8}}}{2} = \frac{-1.74 \times 10^{-5} + 2.644 \times 10^{-4}}{2} = 1.235 \times 10^{-4}\,\text{mol dm}^{-3}
+$$
 
-$$\text{pH} = -\log(1.235 \times 10^{-4}) = 3.91$$
+$$
+\text{pH} = -\log(1.235 \times 10^{-4}) = 3.91
+$$
 
 The pH change is from $2.88$ to $3.91$A change of $1.03$ units (not 2 units). This is because
 diluting a weak acid increases the percentage dissociation (from $1.32\%$ to $12.4\%$), partially
@@ -441,12 +505,16 @@ total pressure at equilibrium is $0.660\,\mathrm{atm}$ at $298\,\mathrm{K}$. Cal
 
 Since the solid does not appear in the expression:
 
-$$K_p = p(\mathrm{NH}_3) \times p(\mathrm{H}_2\mathrm{S})$$
+$$
+K_p = p(\mathrm{NH}_3) \times p(\mathrm{H}_2\mathrm{S})
+$$
 
 From stoichiometry,
 $p(\mathrm{NH}_3) = p(\mathrm{H}_2\mathrm{S}) = \frac{0.660}{2} = 0.330\,\mathrm{atm}$ (1 mark).
 
-$$K_p = 0.330 \times 0.330 = 0.109\,\mathrm{atm}^2$$
+$$
+K_p = 0.330 \times 0.330 = 0.109\,\mathrm{atm}^2
+$$
 (1 mark).
 
 ## Common Mistakes
@@ -504,13 +572,17 @@ $298\,\mathrm{K}$.
 
 (a) $\Delta G^\circ = -41000 - 298 \times (-42) = -41000 + 12516 = -28484\,\mathrm{J\,mol^{-1}}$
 
-$$K_p = \exp\left(\frac{28484}{8.314 \times 298}\right) = \exp(11.50) = 9.89 \times 10^4$$
+$$
+K_p = \exp\left(\frac{28484}{8.314 \times 298}\right) = \exp(11.50) = 9.89 \times 10^4
+$$
 
 Since $\Delta n = 0$, $K_p$ is dimensionless (1 mark).
 
 (b) $K_p = 1$ when $\Delta G^\circ = 0$:
 
-$$T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{-41000}{-0.042} = 976\,\mathrm{K}$$
+$$
+T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{-41000}{-0.042} = 976\,\mathrm{K}
+$$
 (1 mark).
 
 (c) ICE table (pressures in atm):
@@ -521,15 +593,25 @@ $$T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{-41000}{-0.042} = 976\,\math
 | Change      | $-x$          | $-x$                     | $+x$            | $+x$           |
 | Equilibrium | $1-x$         | $1-x$                    | $x$             | $x$            |
 
-$$K_p = \frac{x^2}{(1-x)^2} = 9.89 \times 10^4$$
+$$
+K_p = \frac{x^2}{(1-x)^2} = 9.89 \times 10^4
+$$
 
-$$\frac{x}{1-x} = \sqrt{9.89 \times 10^4} = 314.5$$
+$$
+\frac{x}{1-x} = \sqrt{9.89 \times 10^4} = 314.5
+$$
 
-$$x = 314.5(1-x) = 314.5 - 314.5x$$
+$$
+x = 314.5(1-x) = 314.5 - 314.5x
+$$
 
-$$315.5x = 314.5$$
+$$
+315.5x = 314.5
+$$
 
-$$x = 0.997\,\mathrm{atm}$$
+$$
+x = 0.997\,\mathrm{atm}
+$$
 
 Equilibrium:
 $p(\mathrm{CO}) = p(\mathrm{H}_2\mathrm{O}) = 0.003\,\mathrm{atm}$, $p(\mathrm{CO}_2) = p(\mathrm{H}_2) = 0.997\,\mathrm{atm}$

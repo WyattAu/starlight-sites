@@ -26,14 +26,20 @@ the displacement current term.
 
 Take the divergence of the Ampere-Maxwell law:
 
-$$\nabla \cdot (\nabla \times \mathbf{B}) = \mu_0\nabla \cdot \mathbf{J} + \mu_0\varepsilon_0\frac{\partial}{\partial t}(\nabla \cdot \mathbf{E})$$
+$$
+\nabla \cdot (\nabla \times \mathbf{B}) = \mu_0\nabla \cdot \mathbf{J} + \mu_0\varepsilon_0\frac{\partial}{\partial t}(\nabla \cdot \mathbf{E})
+$$
 
 Since $\nabla \cdot (\nabla \times \mathbf{B}) = 0$ and
 $\nabla \cdot \mathbf{E} = \rho/\varepsilon_0$:
 
-$$0 = \mu_0\nabla \cdot \mathbf{J} + \mu_0\varepsilon_0\frac{\partial}{\partial t}\!\left(\frac{\rho}{\varepsilon_0}\right) = \mu_0\!\left(\nabla \cdot \mathbf{J} + \frac{\partial\rho}{\partial t}\right)$$
+$$
+0 = \mu_0\nabla \cdot \mathbf{J} + \mu_0\varepsilon_0\frac{\partial}{\partial t}\!\left(\frac{\rho}{\varepsilon_0}\right) = \mu_0\!\left(\nabla \cdot \mathbf{J} + \frac{\partial\rho}{\partial t}\right)
+$$
 
-$$\nabla \cdot \mathbf{J} + \frac{\partial\rho}{\partial t} = 0$$
+$$
+\nabla \cdot \mathbf{J} + \frac{\partial\rho}{\partial t} = 0
+$$
 
 Without the displacement current term, we would obtain $\nabla \cdot \mathbf{J} = 0$Which Violates
 charge conservation whenever $\partial\rho/\partial t \neq 0$ (e.g., inside a Charging capacitor).
@@ -88,9 +94,13 @@ For $r \lt R$: no charge enclosed, so $\mathbf{E} = \mathbf{0}$.
 
 For $r \gt R$: the enclosed charge is $Q_{\mathrm{enc} = \sigma \cdot 2\pi R L}$.
 
-$$E \cdot 2\pi r L = \frac{\sigma \cdot 2\pi R L}{\varepsilon_0}$$
+$$
+E \cdot 2\pi r L = \frac{\sigma \cdot 2\pi R L}{\varepsilon_0}
+$$
 
-$$\mathbf{E} = \frac{\sigma R}{\varepsilon_0 r}\,\hat{\mathbf{r}}$$
+$$
+\mathbf{E} = \frac{\sigma R}{\varepsilon_0 r}\,\hat{\mathbf{r}}
+$$
 
 At the surface ($r = R^+$): $E = \sigma/\varepsilon_0$Which is the discontinuity expected From the
 surface charge.
@@ -113,7 +123,9 @@ $r \lt a$: $\mathbf{E} = \mathbf{0}$ (conductor interior), so $V = V_a$ (constan
 $a \lt r \lt b$:
 $E \cdot 4\pi r^2 = Q/\varepsilon_0 \implies \mathbf{E} = \frac{Q}{4\pi\varepsilon_0 r^2}\,\hat{\mathbf{r}}$.
 
-$$V(r) = -\int_a^r E\,dr' + V_a = \frac{Q}{4\pi\varepsilon_0}\!\left(\frac{1}{r} - \frac{1}{a}\right) + V_a$$
+$$
+V(r) = -\int_a^r E\,dr' + V_a = \frac{Q}{4\pi\varepsilon_0}\!\left(\frac{1}{r} - \frac{1}{a}\right) + V_a
+$$
 
 $b \lt r \lt c$: $\mathbf{E} = \mathbf{0}$ (conductor), so $V = V_b$ (constant).
 
@@ -124,7 +136,9 @@ $r \gt c$: $E \cdot 4\pi r^2 = (Q - Q)/\varepsilon_0 = 0 \implies \mathbf{E} = \
 
 Since $V_c = 0$ and $V_c = V_b$ (same conductor), $V_b = 0$:
 
-$$V_a = \frac{Q}{4\pi\varepsilon_0}\!\left(\frac{1}{a} - \frac{1}{b}\right)$$
+$$
+V_a = \frac{Q}{4\pi\varepsilon_0}\!\left(\frac{1}{a} - \frac{1}{b}\right)
+$$
 
 This is the capacitance of the spherical capacitor: $C = Q/V_a = 4\pi\varepsilon_0 ab/(b-a)$.
 
@@ -141,25 +155,35 @@ $V(\theta) = V_0\cos\theta$. Find the potential inside and outside the sphere.
 Inside ($r \lt R$), solve Laplace's equation by separation of variables in spherical Coordinates.
 The general azimuthally symmetric solution is:
 
-$$V(r,\theta) = \sum_{l=0}^{\infty}\left(A_l r^l + \frac{B_l}{r^{l+1}}\right)P_l(\cos\theta)$$
+$$
+V(r,\theta) = \sum_{l=0}^{\infty}\left(A_l r^l + \frac{B_l}{r^{l+1}}\right)P_l(\cos\theta)
+$$
 
 For $r \lt R$: finiteness at $r = 0$ requires $B_l = 0$.
 
-$$V_{\mathrm{in} = \sum_{l=0}^{\infty} A_l\,r^l\,P_l(\cos\theta)}$$
+$$
+V_{\mathrm{in} = \sum_{l=0}^{\infty} A_l\,r^l\,P_l(\cos\theta)}
+$$
 
 Boundary condition at $r = R$: $V_{\mathrm{in}(R,\theta) = V_0\cos\theta = V_0 P_1(\cos\theta)}$.
 
 By orthogonality of Legendre polynomials, only $l = 1$ contributes: $A_1 = V_0/R$.
 
-$$V_{\mathrm{in} = \frac{V_0}{R}\,r\cos\theta = \frac{V_0}{R}\,z}$$
+$$
+V_{\mathrm{in} = \frac{V_0}{R}\,r\cos\theta = \frac{V_0}{R}\,z}
+$$
 
 For $r \gt R$: $V \to 0$ as $r \to \infty$ requires $A_l = 0$.
 
-$$V_{\mathrm{out} = \sum_{l=0}^{\infty}\frac{B_l}{r^{l+1}}P_l(\cos\theta)}$$
+$$
+V_{\mathrm{out} = \sum_{l=0}^{\infty}\frac{B_l}{r^{l+1}}P_l(\cos\theta)}
+$$
 
 Matching at $r = R$: $B_1/R^2 = V_0 \implies B_1 = V_0 R^2$.
 
-$$V_{\mathrm{out} = \frac{V_0 R^2}{r^2}\cos\theta}$$
+$$
+V_{\mathrm{out} = \frac{V_0 R^2}{r^2}\cos\theta}
+$$
 
 The interior field is uniform:
 $\mathbf{E}_{\mathrm{in} = -\nabla V_{\mathrm{in} = -(V_0/R)\,\hat{\mathbf{z}}}}$.
@@ -181,7 +205,9 @@ $\nabla^2 U = 0$ in $\mathcal{V}$ and $\partial U/\partial n = 0$ on $\mathcal{S
 
 Apply Green's first identity with $\phi = \psi = U$:
 
-$$\int_{\mathcal{V}}\lvert\nabla U\rvert^2\,dV = \oint_{\mathcal{S}} U\,\frac{\partial U}{\partial n}\,dA = 0$$
+$$
+\int_{\mathcal{V}}\lvert\nabla U\rvert^2\,dV = \oint_{\mathcal{S}} U\,\frac{\partial U}{\partial n}\,dA = 0
+$$
 
 Since the integrand $\lvert\nabla U\rvert^2 \geq 0$We conclude $\nabla U = \mathbf{0}$ In
 $\mathcal{V}$ So $U$ is constant throughout $\mathcal{V}$.
@@ -205,21 +231,29 @@ $z$-axis (inside the sphere).
 
 For $V = 0$ on the sphere ($r = R$), we need:
 
-$$\frac{q}{d_1} + \frac{q'}{d_2} = 0 \quad \mathrm{for\ all\ }\theta$$
+$$
+\frac{q}{d_1} + \frac{q'}{d_2} = 0 \quad \mathrm{for\ all\ }\theta
+$$
 
 Where $d_1^2 = R^2 + a^2 - 2Ra\cos\theta$ and $d_2^2 = R^2 + b^2 - 2Rb\cos\theta$.
 
 The ratio $d_2/d_1$ must be constant. Setting $b = R^2/a$:
 
-$$\frac{d_2^2}{d_1^2} = \frac{R^2 + R^4/a^2 - 2R^3\cos\theta/a}{R^2 + a^2 - 2Ra\cos\theta} = \frac{R^2}{a^2}$$
+$$
+\frac{d_2^2}{d_1^2} = \frac{R^2 + R^4/a^2 - 2R^3\cos\theta/a}{R^2 + a^2 - 2Ra\cos\theta} = \frac{R^2}{a^2}
+$$
 
 This is constant (independent of $\theta$). With $q'/q = -R/a$:
 
-$$q' = -\frac{qR}{a}, \quad b = \frac{R^2}{a}$$
+$$
+q' = -\frac{qR}{a}, \quad b = \frac{R^2}{a}
+$$
 
 The force on $q$ is the Coulomb force due to $q'$:
 
-$$\mathbf{F} = \frac{qq'}{4\pi\varepsilon_0(a-b)^2}\,\hat{\mathbf{z}} = \frac{q(-qR/a)}{4\pi\varepsilon_0(a-R^2/a)^2}\,\hat{\mathbf{z}} = -\frac{q^2R}{4\pi\varepsilon_0 a(a^2-R^2)}\,\hat{\mathbf{z}}$$
+$$
+\mathbf{F} = \frac{qq'}{4\pi\varepsilon_0(a-b)^2}\,\hat{\mathbf{z}} = \frac{q(-qR/a)}{4\pi\varepsilon_0(a-R^2/a)^2}\,\hat{\mathbf{z}} = -\frac{q^2R}{4\pi\varepsilon_0 a(a^2-R^2)}\,\hat{\mathbf{z}}
+$$
 
 The negative sign indicates attraction toward the sphere. $\blacksquare$
 
@@ -236,11 +270,15 @@ origin.
 
 The dipole moment:
 
-$$\mathbf{p} = \sum_i q_i\mathbf{r}_i = q\!\left(\frac{d}{2}\right)\hat{\mathbf{z}} + (-q)\!\left(-\frac{d}{2}\right)\hat{\mathbf{z}} = qd\,\hat{\mathbf{z}}$$
+$$
+\mathbf{p} = \sum_i q_i\mathbf{r}_i = q\!\left(\frac{d}{2}\right)\hat{\mathbf{z}} + (-q)\!\left(-\frac{d}{2}\right)\hat{\mathbf{z}} = qd\,\hat{\mathbf{z}}
+$$
 
 The dipole potential:
 
-$$V_1(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{r^2}$$
+$$
+V_1(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{r^2}
+$$
 
 In the $xy$-plane, $\hat{\mathbf{r}} = \cos\phi\,\hat{\mathbf{x}} + \sin\phi\,\hat{\mathbf{y}}$ So
 $\mathbf{p}\cdot\hat{\mathbf{r}} = qd\,\hat{\mathbf{z}}\cdot\hat{\mathbf{r}} = 0$.
@@ -268,11 +306,15 @@ In vacuum ($d \lt x \lt D$): $E_2 = D/\varepsilon_0 = Q/(\varepsilon_0 A)$.
 
 The potential difference:
 
-$$V = E_1 d + E_2(D - d) = \frac{Q}{A}\!\left(\frac{d}{\varepsilon} + \frac{D-d}{\varepsilon_0}\right)$$
+$$
+V = E_1 d + E_2(D - d) = \frac{Q}{A}\!\left(\frac{d}{\varepsilon} + \frac{D-d}{\varepsilon_0}\right)
+$$
 
 The capacitance:
 
-$$C = \frac{Q}{V} = \frac{\varepsilon_0 A}{D - d + d/\varepsilon_r}$$
+$$
+C = \frac{Q}{V} = \frac{\varepsilon_0 A}{D - d + d/\varepsilon_r}
+$$
 
 Where $\varepsilon_r = \varepsilon/\varepsilon_0$. For $d = D$ (fully filled):
 $C = \varepsilon_r\varepsilon_0 A/D$Which is $\varepsilon_r$ times the vacuum capacitance.
@@ -291,20 +333,30 @@ By symmetry, each side contributes equally. Consider one side from $(a/2, -a/2, 
 $(a/2, a/2, 0)$. For this side, $d\mathbf{l} = dy\,\hat{\mathbf{y}}$ and
 $\mathbf{r} = (a/2)\hat{\mathbf{x}} - y\hat{\mathbf{y}}$ So $r = \sqrt{(a/2)^2 + y^2}$.
 
-$$d\mathbf{B} = \frac{\mu_0 I}{4\pi}\frac{d\mathbf{l} \times \mathbf{r}}{r^3} = \frac{\mu_0 I}{4\pi}\frac{dy\,\hat{\mathbf{y}} \times [(a/2)\hat{\mathbf{x}} - y\hat{\mathbf{y}}]}{r^3}$$
+$$
+d\mathbf{B} = \frac{\mu_0 I}{4\pi}\frac{d\mathbf{l} \times \mathbf{r}}{r^3} = \frac{\mu_0 I}{4\pi}\frac{dy\,\hat{\mathbf{y}} \times [(a/2)\hat{\mathbf{x}} - y\hat{\mathbf{y}}]}{r^3}
+$$
 
-$$= \frac{\mu_0 I}{4\pi}\frac{(-a/2)\,dy}{[(a/2)^2+y^2]^{3/2}}\,\hat{\mathbf{z}}$$
+$$
+= \frac{\mu_0 I}{4\pi}\frac{(-a/2)\,dy}{[(a/2)^2+y^2]^{3/2}}\,\hat{\mathbf{z}}
+$$
 
-$$B_{\mathrm{one\ side} = \frac{\mu_0 I}{4\pi}\!\left(-\frac{a}{2}\right)\!\int_{-a/2}^{a/2}\frac{dy}{[(a/2)^2+y^2]^{3/2}}}$$
+$$
+B_{\mathrm{one\ side} = \frac{\mu_0 I}{4\pi}\!\left(-\frac{a}{2}\right)\!\int_{-a/2}^{a/2}\frac{dy}{[(a/2)^2+y^2]^{3/2}}}
+$$
 
 Using $\int dy/(s^2+y^2)^{3/2} = y/[s^2\sqrt{s^2+y^2}]$ with $s = a/2$:
 
-$$B_{\mathrm{one\ side} = \frac{\mu_0 I}{4\pi}\!\left(-\frac{a}{2}\right)\frac{2}{(a/2)\sqrt{(a/2)^2+(a/2)^2}} \cdot 2 = -\frac{\mu_0 I}{\pi a}\cdot\frac{1}{\sqrt{2}} \cdot 2 = -\frac{\mu_0 I}{\pi a}\sqrt{2}}$$
+$$
+B_{\mathrm{one\ side} = \frac{\mu_0 I}{4\pi}\!\left(-\frac{a}{2}\right)\frac{2}{(a/2)\sqrt{(a/2)^2+(a/2)^2}} \cdot 2 = -\frac{\mu_0 I}{\pi a}\cdot\frac{1}{\sqrt{2}} \cdot 2 = -\frac{\mu_0 I}{\pi a}\sqrt{2}}
+$$
 
 The magnitude from all four sides:
 $B = 4 \times \frac{\sqrt{2}\,\mu_0 I}{\pi a} = \frac{2\sqrt{2}\,\mu_0 I}{\pi a}$.
 
-$$\mathbf{B} = -\frac{2\sqrt{2}\,\mu_0 I}{\pi a}\,\hat{\mathbf{z}}$$
+$$
+\mathbf{B} = -\frac{2\sqrt{2}\,\mu_0 I}{\pi a}\,\hat{\mathbf{z}}
+$$
 
 (by the right-hand rule, into the page for counterclockwise current). $\blacksquare$
 
@@ -325,7 +377,9 @@ For $r \lt a$: no current is enclosed, so $\mathbf{B} = \mathbf{0}$.
 
 For $a \lt r \lt b$: the Amperian loop encloses all $N$ turns.
 
-$$B \cdot 2\pi r = \mu_0 N I \implies \mathbf{B} = \frac{\mu_0 N I}{2\pi r}\,\hat{\boldsymbol{\phi}}$$
+$$
+B \cdot 2\pi r = \mu_0 N I \implies \mathbf{B} = \frac{\mu_0 N I}{2\pi r}\,\hat{\boldsymbol{\phi}}
+$$
 
 For $r \gt b$: the net enclosed current is $NI - NI = 0$ So $\mathbf{B} = \mathbf{0}$.
 
@@ -349,15 +403,21 @@ From the Biot-Savart law, every element $d\mathbf{l}$ is perpendicular to $\hat{
 $d\mathbf{B} = \frac{\mu_0 I}{4\pi}\frac{dl}{R^2+z^2}$. By symmetry, only the axial component
 Survives:
 
-$$B_z = \frac{\mu_0 I}{4\pi(R^2+z^2)}\frac{R}{\sqrt{R^2+z^2}} \cdot 2\pi R = \frac{\mu_0 I R^2}{2(R^2+z^2)^{3/2}}$$
+$$
+B_z = \frac{\mu_0 I}{4\pi(R^2+z^2)}\frac{R}{\sqrt{R^2+z^2}} \cdot 2\pi R = \frac{\mu_0 I R^2}{2(R^2+z^2)^{3/2}}
+$$
 
 For $z \gg R$: $(R^2+z^2)^{3/2} \approx z^3(1 + 3R^2/2z^2) \approx z^3$.
 
-$$B_z \approx \frac{\mu_0 I R^2}{2z^3} = \frac{\mu_0}{4\pi}\frac{2m}{z^3}$$
+$$
+B_z \approx \frac{\mu_0 I R^2}{2z^3} = \frac{\mu_0}{4\pi}\frac{2m}{z^3}
+$$
 
 The dipole field formula gives, on the axis ($\theta = 0$):
 
-$$\mathbf{B}_{\mathrm{dip} = \frac{\mu_0}{4\pi}\frac{2\mathbf{m}}{z^3}}$$
+$$
+\mathbf{B}_{\mathrm{dip} = \frac{\mu_0}{4\pi}\frac{2\mathbf{m}}{z^3}}
+$$
 
 This matches. $\blacksquare$
 
@@ -374,7 +434,9 @@ Potential $\mathbf{A}$ and verify that $\nabla \times \mathbf{A}$ gives the corr
 By cylindrical symmetry, $\mathbf{A}$ can only depend on $s$ (the radial distance) and must Point
 along $\hat{\mathbf{z}}$ (parallel to the current).
 
-$$\mathbf{A}(s) = -\frac{\mu_0 I}{2\pi}\ln\!\left(\frac{s}{s_0}\right)\hat{\mathbf{z}}$$
+$$
+\mathbf{A}(s) = -\frac{\mu_0 I}{2\pi}\ln\!\left(\frac{s}{s_0}\right)\hat{\mathbf{z}}
+$$
 
 Where $s_0$ is an arbitrary reference distance (gauge-dependent).
 
@@ -383,9 +445,13 @@ Verify: $\mathbf{B} = \nabla \times \mathbf{A}$.
 In cylindrical coordinates,
 $\nabla \times (A_z\,\hat{\mathbf{z}}) = -\frac{\partial A_z}{\partial s}\,\hat{\boldsymbol{\phi}}$.
 
-$$B_\phi = -\frac{\partial}{\partial s}\!\left(-\frac{\mu_0 I}{2\pi}\ln\frac{s}{s_0}\right) = \frac{\mu_0 I}{2\pi s}$$
+$$
+B_\phi = -\frac{\partial}{\partial s}\!\left(-\frac{\mu_0 I}{2\pi}\ln\frac{s}{s_0}\right) = \frac{\mu_0 I}{2\pi s}
+$$
 
-$$\mathbf{B} = \frac{\mu_0 I}{2\pi s}\,\hat{\boldsymbol{\phi}}$$
+$$
+\mathbf{B} = \frac{\mu_0 I}{2\pi s}\,\hat{\boldsymbol{\phi}}
+$$
 
 This matches the Ampere's law result. $\blacksquare$
 
@@ -402,13 +468,21 @@ $H$, $M$ And the total flux through the ring.
 
 Apply Ampere's law for $\mathbf{H}$ around the ring:
 
-$$\oint \mathbf{H} \cdot d\mathbf{l} = NI \implies H \cdot 2\pi R = NI$$
+$$
+\oint \mathbf{H} \cdot d\mathbf{l} = NI \implies H \cdot 2\pi R = NI
+$$
 
-$$H = \frac{NI}{2\pi R} = \frac{200 \times 2}{2\pi \times 0.10} = \frac{400}{0.628} \approx 637\ \mathrm{A}/m$$
+$$
+H = \frac{NI}{2\pi R} = \frac{200 \times 2}{2\pi \times 0.10} = \frac{400}{0.628} \approx 637\ \mathrm{A}/m
+$$
 
-$$B = \mu_0 \mu_r H = 4\pi \times 10^{-7} \times 500 \times 637 \approx 0.40\ \mathrm{T}$$
+$$
+B = \mu_0 \mu_r H = 4\pi \times 10^{-7} \times 500 \times 637 \approx 0.40\ \mathrm{T}
+$$
 
-$$M = \chi_m H = (\mu_r - 1)H = 499 \times 637 \approx 3.18 \times 10^5\ \mathrm{A}/m$$
+$$
+M = \chi_m H = (\mu_r - 1)H = 499 \times 637 \approx 3.18 \times 10^5\ \mathrm{A}/m
+$$
 
 Total flux: $\Phi = BA = 0.40 \times 4 \times 10^{-4} = 1.6 \times 10^{-4}\ \mathrm{Wb}$.
 
@@ -425,13 +499,19 @@ resistance $R = 5\ \Omega$. One end enters a region of uniform magnetic field $B
 
 As the loop enters the field with its leading edge at position $x$ inside the field:
 
-$$\Phi_B = B \cdot w \cdot x$$
+$$
+\Phi_B = B \cdot w \cdot x
+$$
 
-$$\mathcal{E} = -\frac{d\Phi_B}{dt} = -Bw\frac{dx}{dt} = -Bwv = -0.5 \times 0.1 \times 2 = -0.1\ \mathrm{V}$$
+$$
+\mathcal{E} = -\frac{d\Phi_B}{dt} = -Bw\frac{dx}{dt} = -Bwv = -0.5 \times 0.1 \times 2 = -0.1\ \mathrm{V}
+$$
 
 The magnitude is $0.1$ V. The current is:
 
-$$I = \frac{\lvert\mathcal{E}\rvert}{R} = \frac{0.1}{5} = 0.02\ \mathrm{A}$$
+$$
+I = \frac{\lvert\mathcal{E}\rvert}{R} = \frac{0.1}{5} = 0.02\ \mathrm{A}
+$$
 
 By Lenz's law, the current flows to oppose the increasing flux (counterclockwise when viewed From
 the direction of $\mathbf{B}$).
@@ -456,11 +536,15 @@ $\mathbf{B} = 3.33 \times 10^{-7}\cos(kz - \omega t)\,\hat{\mathbf{y}}$ T.
 
 Time-averaged Poynting vector magnitude:
 
-$$\langle S \rangle = \frac{E_0^2}{2\mu_0 c} = \frac{100^2}{2 \times 4\pi \times 10^{-7} \times 3 \times 10^8} = \frac{10^4}{754} \approx 13.3\ \mathrm{W}/m^2$$
+$$
+\langle S \rangle = \frac{E_0^2}{2\mu_0 c} = \frac{100^2}{2 \times 4\pi \times 10^{-7} \times 3 \times 10^8} = \frac{10^4}{754} \approx 13.3\ \mathrm{W}/m^2
+$$
 
 Radiation pressure on a perfect absorber:
 
-$$P_{\mathrm{rad} = \frac{\langle S \rangle}{c} = \frac{13.3}{3 \times 10^8} \approx 4.4 \times 10^{-8}\ \mathrm{Pa}}$$
+$$
+P_{\mathrm{rad} = \frac{\langle S \rangle}{c} = \frac{13.3}{3 \times 10^8} \approx 4.4 \times 10^{-8}\ \mathrm{Pa}}
+$$
 
 _Cross-reference:_ Section 5.2, Section 5.4, Section 5.5.
 
@@ -475,17 +559,27 @@ $\mu$M?
 
 At $f = 1$ MHz:
 
-$$\delta = \sqrt{\frac{2}{\mu_0\sigma\omega}} = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi \times 10^6}}$$
+$$
+\delta = \sqrt{\frac{2}{\mu_0\sigma\omega}} = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi \times 10^6}}
+$$
 
-$$= \sqrt{\frac{2}{4\pi \times 5.96 \times 2\pi^2 \times 10^6}} = \sqrt{\frac{2}{4.70 \times 10^8}} \approx 65.2\ \mu\mathrm{m}$$
+$$
+= \sqrt{\frac{2}{4\pi \times 5.96 \times 2\pi^2 \times 10^6}} = \sqrt{\frac{2}{4.70 \times 10^8}} \approx 65.2\ \mu\mathrm{m}
+$$
 
 For $\delta = 1\ \mu$M:
 
-$$1 \times 10^{-6} = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi f}}$$
+$$
+1 \times 10^{-6} = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi f}}
+$$
 
-$$10^{-12} = \frac{2}{4\pi \times 5.96 \times 2\pi \times f} = \frac{2}{470.4\,f}$$
+$$
+10^{-12} = \frac{2}{4\pi \times 5.96 \times 2\pi \times f} = \frac{2}{470.4\,f}
+$$
 
-$$f = \frac{2}{470.4 \times 10^{-12}} \approx 4.25 \times 10^9\ \mathrm{Hz} = 4.25\ \mathrm{GHz}$$
+$$
+f = \frac{2}{470.4 \times 10^{-12}} \approx 4.25 \times 10^9\ \mathrm{Hz} = 4.25\ \mathrm{GHz}
+$$
 
 _Cross-reference:_ Section 5.6.
 
@@ -499,28 +593,44 @@ $\partial_\mu F^{\mu\nu} = \mu_0 J^\nu$ reproduce the Ampere-Maxwell law for $\n
 
 For $\nu = 1$:
 
-$$\partial_\mu F^{\mu 1} = \mu_0 J^1 = \mu_0 J_x$$
+$$
+\partial_\mu F^{\mu 1} = \mu_0 J^1 = \mu_0 J_x
+$$
 
 From the field tensor:
 
-$$F^{\mu 1} = (E_x/c,\ 0,\ -B_z,\ B_y) \quad \mathrm{for\ }\mu = 0, 1, 2, 3$$
+$$
+F^{\mu 1} = (E_x/c,\ 0,\ -B_z,\ B_y) \quad \mathrm{for\ }\mu = 0, 1, 2, 3
+$$
 
 So:
 
-$$\partial_0 F^{01} + \partial_2 F^{21} + \partial_3 F^{31} = \mu_0 J_x$$
+$$
+\partial_0 F^{01} + \partial_2 F^{21} + \partial_3 F^{31} = \mu_0 J_x
+$$
 
-$$\frac{1}{c}\frac{\partial}{\partial t}\!\left(\frac{E_x}{c}\right) + \frac{\partial}{\partial y}(-B_z) + \frac{\partial}{\partial z}(B_y) = \mu_0 J_x$$
+$$
+\frac{1}{c}\frac{\partial}{\partial t}\!\left(\frac{E_x}{c}\right) + \frac{\partial}{\partial y}(-B_z) + \frac{\partial}{\partial z}(B_y) = \mu_0 J_x
+$$
 
-$$\frac{1}{c^2}\frac{\partial E_x}{\partial t} - \frac{\partial B_z}{\partial y} + \frac{\partial B_y}{\partial z} = \mu_0 J_x$$
+$$
+\frac{1}{c^2}\frac{\partial E_x}{\partial t} - \frac{\partial B_z}{\partial y} + \frac{\partial B_y}{\partial z} = \mu_0 J_x
+$$
 
 Using $c^2 = 1/(\mu_0\varepsilon_0)$ and noting that
 $-(\partial B_z/\partial y) + (\partial B_y/\partial z) = -(\nabla \times \mathbf{B})_x$:
 
-$$\mu_0\varepsilon_0\frac{\partial E_x}{\partial t} - (\nabla \times \mathbf{B})_x = \mu_0 J_x$$
+$$
+\mu_0\varepsilon_0\frac{\partial E_x}{\partial t} - (\nabla \times \mathbf{B})_x = \mu_0 J_x
+$$
 
-$$(\nabla \times \mathbf{B})_x = \mu_0\varepsilon_0\frac{\partial E_x}{\partial t} - \mu_0 J_x$$
+$$
+(\nabla \times \mathbf{B})_x = \mu_0\varepsilon_0\frac{\partial E_x}{\partial t} - \mu_0 J_x
+$$
 
-$$\nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial\mathbf{E}}{\partial t}$$
+$$
+\nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial\mathbf{E}}{\partial t}
+$$
 
 This is the Ampere-Maxwell law. $\blacksquare$
 

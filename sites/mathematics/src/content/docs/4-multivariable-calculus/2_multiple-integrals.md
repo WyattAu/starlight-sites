@@ -22,20 +22,28 @@ description: "The of over a rectangle is defined as the limit of Riemann sums: C
 The **double integral** of $f$ over a rectangle $R = [a,b] \times [c,d]$ is defined as the limit of
 Riemann sums:
 
-$$\iint_R f(x,y)\, dA = \lim_{\lVert P \rVert \to 0} \sum_{i,j} f(x_{ij}^*, y_{ij}^*) \Delta A_{ij}$$
+$$
+\iint_R f(x,y)\, dA = \lim_{\lVert P \rVert \to 0} \sum_{i,j} f(x_{ij}^*, y_{ij}^*) \Delta A_{ij}
+$$
 
 **Theorem 2.1 (Fubini"s Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$ Then
 
-$$\iint_R f(x,y)\, dA = \int_a^b \left(\int_c^d f(x,y)\, dy\right) dx = \int_c^d \left(\int_a^b f(x,y)\, dx\right) dy$$
+$$
+\iint_R f(x,y)\, dA = \int_a^b \left(\int_c^d f(x,y)\, dy\right) dx = \int_c^d \left(\int_a^b f(x,y)\, dx\right) dy
+$$
 
 _Proof (sketch)._ For a continuous function $f$ on the compact rectangle $R$Define
 
-$$F(x) = \int_c^d f(x,y)\, dy$$
+$$
+F(x) = \int_c^d f(x,y)\, dy
+$$
 
 Since $f$ is continuous, $F$ is continuous on $[a,b]$. For each partition
 $P = \\{(x_0, \ldots, x_m)\\}$ of $[a,b]$Define Riemann sums for the outer integral:
 
-$$S(P) = \sum_{i=1}^m F(x_i^*)\, \Delta x_i = \sum_{i=1}^m \int_c^d f(x_i^*, y)\, dy\, \Delta x_i$$
+$$
+S(P) = \sum_{i=1}^m F(x_i^*)\, \Delta x_i = \sum_{i=1}^m \int_c^d f(x_i^*, y)\, dy\, \Delta x_i
+$$
 
 By Fubini's theorem for Riemann integrals (proven via uniform continuity of $f$ on the compact set
 $R$), As $\lVert P \rVert \to 0$ these sums converge to both $\iint_R f\, dA$ and
@@ -47,11 +55,15 @@ For a general region $D$ in $\mathbb{R}^2$:
 
 - **Type I region**: $D = \\{(x,y) : a \leq x \leq b,\, g_1(x) \leq y \leq g_2(x)\\}$
 
-$$\iint_D f\, dA = \int_a^b \int_{g_1(x)}^{g_2(x)} f(x,y)\, dy\, dx$$
+$$
+\iint_D f\, dA = \int_a^b \int_{g_1(x)}^{g_2(x)} f(x,y)\, dy\, dx
+$$
 
 - **Type II region**: $D = \\{(x,y) : c \leq y \leq d,\, h_1(y) \leq x \leq h_2(y)\\}$
 
-$$\iint_D f\, dA = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x,y)\, dx\, dy$$
+$$
+\iint_D f\, dA = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x,y)\, dx\, dy
+$$
 
 **Problem.** Evaluate $\iint_D xy\, dA$ where $D$ is the region bounded by $y = x^2$ and
 $y = x + 2$.
@@ -62,17 +74,29 @@ $y = x + 2$.
 The curves intersect when $x^2 = x + 2$I.e., $x^2 - x - 2 = 0$ So $(x-2)(x+1) = 0$Giving $x = -1$ and
 $x = 2$. As a Type I region, $D = \\{(x,y) : -1 \leq x \leq 2,\, x^2 \leq y \leq x+2\\}$.
 
-$$\iint_D xy\, dA = \int_{-1}^{2} \int_{x^2}^{x+2} xy\, dy\, dx = \int_{-1}^{2} x \left[\frac{y^2}{2}\right]_{x^2}^{x+2}\, dx$$
+$$
+\iint_D xy\, dA = \int_{-1}^{2} \int_{x^2}^{x+2} xy\, dy\, dx = \int_{-1}^{2} x \left[\frac{y^2}{2}\right]_{x^2}^{x+2}\, dx
+$$
 
-$$= \int_{-1}^{2} \frac{x}{2}\left[(x+2)^2 - x^4\right]\, dx = \frac{1}{2} \int_{-1}^{2} \left[x(x+2)^2 - x^5\right]\, dx$$
+$$
+= \int_{-1}^{2} \frac{x}{2}\left[(x+2)^2 - x^4\right]\, dx = \frac{1}{2} \int_{-1}^{2} \left[x(x+2)^2 - x^5\right]\, dx
+$$
 
-$$= \frac{1}{2} \int_{-1}^{2} \left[x^3 + 4x^2 + 4x - x^5\right]\, dx$$
+$$
+= \frac{1}{2} \int_{-1}^{2} \left[x^3 + 4x^2 + 4x - x^5\right]\, dx
+$$
 
-$$= \frac{1}{2}\left[\frac{x^4}{4} + \frac{4x^3}{3} + 2x^2 - \frac{x^6}{6}\right]_{-1}^{2}$$
+$$
+= \frac{1}{2}\left[\frac{x^4}{4} + \frac{4x^3}{3} + 2x^2 - \frac{x^6}{6}\right]_{-1}^{2}
+$$
 
-$$= \frac{1}{2}\left[\left(4 + \frac{32}{3} + 8 - \frac{64}{6}\right) - \left(\frac{1}{4} - \frac{4}{3} + 2 - \frac{1}{6}\right)\right]$$
+$$
+= \frac{1}{2}\left[\left(4 + \frac{32}{3} + 8 - \frac{64}{6}\right) - \left(\frac{1}{4} - \frac{4}{3} + 2 - \frac{1}{6}\right)\right]
+$$
 
-$$= \frac{1}{2}\left[\frac{36}{3} - \frac{9}{12}\right] = \frac{1}{2}\left[12 - \frac{3}{4}\right] = \frac{45}{8}$$
+$$
+= \frac{1}{2}\left[\frac{36}{3} - \frac{9}{12}\right] = \frac{1}{2}\left[12 - \frac{3}{4}\right] = \frac{45}{8}
+$$
 
 $\blacksquare$
 
@@ -90,9 +114,13 @@ $x + y = 2$ intersects $y = x$ at $(1, 1)$ and $y = 2x$ at $(2/3, 4/3)$.
 As a Type I region, we must split: for $0 \leq x \leq 2/3$, $x \leq y \leq 2x$; for
 $2/3 \leq x \leq 1$, $x \leq y \leq 2 - x$.
 
-$$\iint_D x\, dA = \int_0^{2/3} \int_x^{2x} x\, dy\, dx + \int_{2/3}^1 \int_x^{2-x} x\, dy\, dx$$
+$$
+\iint_D x\, dA = \int_0^{2/3} \int_x^{2x} x\, dy\, dx + \int_{2/3}^1 \int_x^{2-x} x\, dy\, dx
+$$
 
-$$= \int_0^{2/3} x(x - x)\, dx...$$
+$$
+= \int_0^{2/3} x(x - x)\, dx...
+$$
 
 Wait, this is getting messy. Let me use Type II instead. For each $y$, $x$ ranges from $y/2$ to $y$
 (for $0 \leq y \leq 4/3$) and from $y/2$ to $2 - y$ (for $4/3 \leq y \leq 1$). Actually, the
@@ -106,7 +134,9 @@ $x \leq y$ is tighter.
 
 For $0 \leq y \leq 1$: $y/2 \leq x \leq y$.
 
-$$\iint_D x\, dA = \int_0^1 \int_{y/2}^y x\, dx\, dy = \int_0^1 \left[\frac{x^2}{2}\right]_{y/2}^y\, dy = \int_0^1 \frac{y^2}{2} - \frac{y^2}{8}\, dy = \int_0^1 \frac{3y^2}{8}\, dy = \frac{3}{8} \cdot \frac{1}{3} = \frac{1}{8}$$
+$$
+\iint_D x\, dA = \int_0^1 \int_{y/2}^y x\, dx\, dy = \int_0^1 \left[\frac{x^2}{2}\right]_{y/2}^y\, dy = \int_0^1 \frac{y^2}{2} - \frac{y^2}{8}\, dy = \int_0^1 \frac{3y^2}{8}\, dy = \frac{3}{8} \cdot \frac{1}{3} = \frac{1}{8}
+$$
 
 $\blacksquare$
 
@@ -116,7 +146,9 @@ $\blacksquare$
 
 Triple integrals extend to $\mathbb{R}^3$:
 
-$$\iiint_E f(x,y,z)\, dV = \iint_D \left(\int_{g_1(x,y)}^{g_2(x,y)} f(x,y,z)\, dz\right) dA$$
+$$
+\iiint_E f(x,y,z)\, dV = \iint_D \left(\int_{g_1(x,y)}^{g_2(x,y)} f(x,y,z)\, dz\right) dA
+$$
 
 **Problem.** Evaluate $\iiint_E z\, dV$ where $E$ is the tetrahedron in the first octant bounded by
 The coordinate planes and $x + y + z = 1$.
@@ -127,13 +159,19 @@ The coordinate planes and $x + y + z = 1$.
 The region $E$ can be described as
 $\\{(x,y,z) : 0 \leq x \leq 1,\, 0 \leq y \leq 1-x,\, 0 \leq z \leq 1-x-y\\}$.
 
-$$\iiint_E z\, dV = \int_0^1 \int_0^{1-x} \int_0^{1-x-y} z\, dz\, dy\, dx$$
+$$
+\iiint_E z\, dV = \int_0^1 \int_0^{1-x} \int_0^{1-x-y} z\, dz\, dy\, dx
+$$
 
-$$= \int_0^1 \int_0^{1-x} \left[\frac{z^2}{2}\right]_0^{1-x-y}\, dy\, dx = \int_0^1 \int_0^{1-x} \frac{(1-x-y)^2}{2}\, dy\, dx$$
+$$
+= \int_0^1 \int_0^{1-x} \left[\frac{z^2}{2}\right]_0^{1-x-y}\, dy\, dx = \int_0^1 \int_0^{1-x} \frac{(1-x-y)^2}{2}\, dy\, dx
+$$
 
 Substituting $u = 1 - x - y$, $du = -dy$:
 
-$$= \int_0^1 \frac{(1-x)^3}{6}\, dx = \frac{1}{6}\left[-\frac{(1-x)^4}{4}\right]_0^1 = \frac{1}{6} \cdot \frac{1}{4} = \frac{1}{24}$$
+$$
+= \int_0^1 \frac{(1-x)^3}{6}\, dx = \frac{1}{6}\left[-\frac{(1-x)^4}{4}\right]_0^1 = \frac{1}{6} \cdot \frac{1}{4} = \frac{1}{24}
+$$
 
 $\blacksquare$
 
@@ -144,35 +182,49 @@ $\blacksquare$
 **Theorem 2.2 (Change of Variables).** Let $T : D \subseteq \mathbb{R}^n \to \mathbb{R}^n$ be a
 $C^1$ diffeomorphism with Jacobian determinant $J_T$. Then
 
-$$\int_{T(D)} f(\mathbf{u})\, d\mathbf{u} = \int_D f(T(\mathbf{x}))\, \lvert J_T(\mathbf{x})\rvert\, d\mathbf{x}$$
+$$
+\int_{T(D)} f(\mathbf{u})\, d\mathbf{u} = \int_D f(T(\mathbf{x}))\, \lvert J_T(\mathbf{x})\rvert\, d\mathbf{x}
+$$
 
 _Derivation of the Jacobian factor (for $n = 2$)._ Let $T(x, y) = (u(x,y),\, v(x,y))$ be a $C^1$
 Diffeomorphism. Partition $D$ into small rectangles $R_{ij}$ of area $\Delta x\, \Delta y$. The
 image $T(R_{ij})$ is approximately a parallelogram spanned by the vectors
 
-$$\mathbf{a} = T(x + \Delta x, y) - T(x, y) \approx \left(\frac{\partial u}{\partial x}\Delta x,\, \frac{\partial v}{\partial x}\Delta x\right)$$
+$$
+\mathbf{a} = T(x + \Delta x, y) - T(x, y) \approx \left(\frac{\partial u}{\partial x}\Delta x,\, \frac{\partial v}{\partial x}\Delta x\right)
+$$
 
-$$\mathbf{b} = T(x, y + \Delta y) - T(x, y) \approx \left(\frac{\partial u}{\partial y}\Delta y,\, \frac{\partial v}{\partial y}\Delta y\right)$$
+$$
+\mathbf{b} = T(x, y + \Delta y) - T(x, y) \approx \left(\frac{\partial u}{\partial y}\Delta y,\, \frac{\partial v}{\partial y}\Delta y\right)
+$$
 
 The area of this parallelogram is $\lvert \mathbf{a} \times \mathbf{b} \rvert$Which equals
 
-$$\left\lvert \frac{\partial u}{\partial x}\frac{\partial v}{\partial y} - \frac{\partial u}{\partial y}\frac{\partial v}{\partial x} \right\rvert \Delta x\, \Delta y = \lvert J_T \rvert\, \Delta x\, \Delta y$$
+$$
+\left\lvert \frac{\partial u}{\partial x}\frac{\partial v}{\partial y} - \frac{\partial u}{\partial y}\frac{\partial v}{\partial x} \right\rvert \Delta x\, \Delta y = \lvert J_T \rvert\, \Delta x\, \Delta y
+$$
 
 Summing over all subrectangles and taking the limit gives the change of variables formula.
 $\blacksquare$
 
 **Polar coordinates:** $x = r\cos\theta$, $y = r\sin\theta$, $\lvert J \rvert = r$.
 
-$$\iint_D f(x,y)\, dA = \iint_{D'} f(r\cos\theta, r\sin\theta)\, r\, dr\, d\theta$$
+$$
+\iint_D f(x,y)\, dA = \iint_{D'} f(r\cos\theta, r\sin\theta)\, r\, dr\, d\theta
+$$
 
 **Cylindrical coordinates:** $x = r\cos\theta$, $y = r\sin\theta$, $z = z$, $\lvert J \rvert = r$.
 
-$$\iiint_E f(x,y,z)\, dV = \iiint_{E'} f(r\cos\theta, r\sin\theta, z)\, r\, dr\, d\theta\, dz$$
+$$
+\iiint_E f(x,y,z)\, dV = \iiint_{E'} f(r\cos\theta, r\sin\theta, z)\, r\, dr\, d\theta\, dz
+$$
 
 **Spherical coordinates:** $x = \rho\sin\phi\cos\theta$, $y = \rho\sin\phi\sin\theta$,
 $z = \rho\cos\phi$ $\lvert J \rvert = \rho^2 \sin\phi$.
 
-$$\iiint_E f(x,y,z)\, dV = \iiint_{E'} f(\rho\sin\phi\cos\theta, \rho\sin\phi\sin\theta, \rho\cos\phi)\, \rho^2 \sin\phi\, d\rho\, d\phi\, d\theta$$
+$$
+\iiint_E f(x,y,z)\, dV = \iiint_{E'} f(\rho\sin\phi\cos\theta, \rho\sin\phi\sin\theta, \rho\cos\phi)\, \rho^2 \sin\phi\, d\rho\, d\phi\, d\theta
+$$
 
 ### 2.5 Coordinate System Worked Examples
 
@@ -183,12 +235,16 @@ $$\iiint_E f(x,y,z)\, dV = \iiint_{E'} f(\rho\sin\phi\cos\theta, \rho\sin\phi\si
 
 Use polar coordinates. The region $D'$ is $0 \leq r \lt \infty$, $0 \leq \theta \leq 2\pi$.
 
-$$\iint_D e^{-(x^2+y^2)}\, dA = \int_0^{2\pi} \int_0^{\infty} e^{-r^2}\, r\, dr\, d\theta$$
+$$
+\iint_D e^{-(x^2+y^2)}\, dA = \int_0^{2\pi} \int_0^{\infty} e^{-r^2}\, r\, dr\, d\theta
+$$
 
 The inner integral:
 $\int_0^{\infty} r e^{-r^2}\, dr = \left[-\frac{1}{2}e^{-r^2}\right]_0^{\infty} = \frac{1}{2}$.
 
-$$= \int_0^{2\pi} \frac{1}{2}\, d\theta = \pi$$
+$$
+= \int_0^{2\pi} \frac{1}{2}\, d\theta = \pi
+$$
 
 $\blacksquare$
 
@@ -207,13 +263,21 @@ The surfaces intersect when $x^2 + y^2 + (x^2 + y^2)^2 = 2$. Let $r^2 = x^2 + y^
 $r^2 + r^4 = 2$I.e., $(r^2 + 2)(r^2 - 1) = 0$ So $r = 1$ (positive root). Use Cylindrical
 coordinates. The region $E'$ is
 
-$$0 \leq r \leq 1, \quad 0 \leq \theta \leq 2\pi, \quad r^2 \leq z \leq \sqrt{2 - r^2}$$
+$$
+0 \leq r \leq 1, \quad 0 \leq \theta \leq 2\pi, \quad r^2 \leq z \leq \sqrt{2 - r^2}
+$$
 
-$$\iiint_E z\, dV = \int_0^{2\pi} \int_0^1 \int_{r^2}^{\sqrt{2-r^2}} z\, r\, dz\, dr\, d\theta$$
+$$
+\iiint_E z\, dV = \int_0^{2\pi} \int_0^1 \int_{r^2}^{\sqrt{2-r^2}} z\, r\, dz\, dr\, d\theta
+$$
 
-$$= \int_0^{2\pi} \int_0^1 \frac{r}{2}\left[(2 - r^2) - r^4\right]\, dr\, d\theta = \int_0^{2\pi} \int_0^1 \frac{r}{2}(2 - r^2 - r^4)\, dr\, d\theta$$
+$$
+= \int_0^{2\pi} \int_0^1 \frac{r}{2}\left[(2 - r^2) - r^4\right]\, dr\, d\theta = \int_0^{2\pi} \int_0^1 \frac{r}{2}(2 - r^2 - r^4)\, dr\, d\theta
+$$
 
-$$= \int_0^{2\pi} \frac{1}{2}\left[r^2 - \frac{r^4}{4} - \frac{r^6}{6}\right]_0^1\, d\theta = \int_0^{2\pi} \frac{1}{2} \cdot \frac{7}{12}\, d\theta = \frac{7\pi}{12}$$
+$$
+= \int_0^{2\pi} \frac{1}{2}\left[r^2 - \frac{r^4}{4} - \frac{r^6}{6}\right]_0^1\, d\theta = \int_0^{2\pi} \frac{1}{2} \cdot \frac{7}{12}\, d\theta = \frac{7\pi}{12}
+$$
 
 $\blacksquare$
 
@@ -228,11 +292,17 @@ $x^2 + y^2 + z^2 \leq a^2$.
 Use spherical coordinates. In spherical: $x^2 + y^2 + z^2 = \rho^2$ And $E'$ is $0 \leq \rho \leq a$,
 $0 \leq \phi \leq \pi$, $0 \leq \theta \leq 2\pi$.
 
-$$\iiint_E (x^2 + y^2 + z^2)\, dV = \int_0^{2\pi} \int_0^{\pi} \int_0^a \rho^2 \cdot \rho^2 \sin\phi\, d\rho\, d\phi\, d\theta$$
+$$
+\iiint_E (x^2 + y^2 + z^2)\, dV = \int_0^{2\pi} \int_0^{\pi} \int_0^a \rho^2 \cdot \rho^2 \sin\phi\, d\rho\, d\phi\, d\theta
+$$
 
-$$= \left(\int_0^a \rho^4\, d\rho\right)\left(\int_0^{\pi} \sin\phi\, d\phi\right)\left(\int_0^{2\pi} d\theta\right)$$
+$$
+= \left(\int_0^a \rho^4\, d\rho\right)\left(\int_0^{\pi} \sin\phi\, d\phi\right)\left(\int_0^{2\pi} d\theta\right)
+$$
 
-$$= \frac{a^5}{5} \cdot 2 \cdot 2\pi = \frac{4\pi a^5}{5}$$
+$$
+= \frac{a^5}{5} \cdot 2 \cdot 2\pi = \frac{4\pi a^5}{5}
+$$
 
 $\blacksquare$
 
@@ -244,9 +314,13 @@ $\blacksquare$
 
 _Solution._ Use polar coordinates. The region $D'$ is $0 \leq r \leq 2$, $0 \leq \theta \leq 2\pi$.
 
-$$\iint_D (x^2 + y^2)\, dA = \int_0^{2\pi} \int_0^2 r^2 \cdot r\, dr\, d\theta = \int_0^{2\pi} \int_0^2 r^3\, dr\, d\theta$$
+$$
+\iint_D (x^2 + y^2)\, dA = \int_0^{2\pi} \int_0^2 r^2 \cdot r\, dr\, d\theta = \int_0^{2\pi} \int_0^2 r^3\, dr\, d\theta
+$$
 
-$$= \int_0^{2\pi} \left[\frac{r^4}{4}\right]_0^2 d\theta = \int_0^{2\pi} 4\, d\theta = 8\pi$$
+$$
+= \int_0^{2\pi} \left[\frac{r^4}{4}\right]_0^2 d\theta = \int_0^{2\pi} 4\, d\theta = 8\pi
+$$
 
 $\blacksquare$
 
@@ -258,9 +332,13 @@ $x = 1$.
 
 The region $D = \\{(x,y) : 0 \leq x \leq 1,\, x \leq y \leq 2x\\}$.
 
-$$\iint_D \frac{y}{x}\, dA = \int_0^1 \int_x^{2x} \frac{y}{x}\, dy\, dx = \int_0^1 \frac{1}{x}\left[\frac{y^2}{2}\right]_x^{2x}\, dx$$
+$$
+\iint_D \frac{y}{x}\, dA = \int_0^1 \int_x^{2x} \frac{y}{x}\, dy\, dx = \int_0^1 \frac{1}{x}\left[\frac{y^2}{2}\right]_x^{2x}\, dx
+$$
 
-$$= \int_0^1 \frac{1}{x}\left[\frac{4x^2}{2} - \frac{x^2}{2}\right]\, dx = \int_0^1 \frac{1}{x} \cdot \frac{3x^2}{2}\, dx = \frac{3}{2}\int_0^1 x\, dx = \frac{3}{4}$$
+$$
+= \int_0^1 \frac{1}{x}\left[\frac{4x^2}{2} - \frac{x^2}{2}\right]\, dx = \int_0^1 \frac{1}{x} \cdot \frac{3x^2}{2}\, dx = \frac{3}{2}\int_0^1 x\, dx = \frac{3}{4}
+$$
 
 $\blacksquare$
 
@@ -275,13 +353,19 @@ $\int_0^1 \int_{x^2}^1 x e^{y^2}\, dy\, dx$.
 The region is $0 \leq x \leq 1$, $x^2 \leq y \leq 1$Which is the same as $0 \leq y \leq 1$
 $0 \leq x \leq \sqrt{y}$.
 
-$$\int_0^1 \int_{x^2}^1 x e^{y^2}\, dy\, dx = \int_0^1 \int_0^{\sqrt{y}} x e^{y^2}\, dx\, dy = \int_0^1 e^{y^2}\left[\frac{x^2}{2}\right]_0^{\sqrt{y}}\, dy$$
+$$
+\int_0^1 \int_{x^2}^1 x e^{y^2}\, dy\, dx = \int_0^1 \int_0^{\sqrt{y}} x e^{y^2}\, dx\, dy = \int_0^1 e^{y^2}\left[\frac{x^2}{2}\right]_0^{\sqrt{y}}\, dy
+$$
 
-$$= \int_0^1 \frac{y}{2} e^{y^2}\, dy$$
+$$
+= \int_0^1 \frac{y}{2} e^{y^2}\, dy
+$$
 
 Let $u = y^2$, $du = 2y\, dy$:
 
-$$= \frac{1}{4}\int_0^1 e^u\, du = \frac{1}{4}(e - 1)$$
+$$
+= \frac{1}{4}\int_0^1 e^u\, du = \frac{1}{4}(e - 1)
+$$
 
 $\blacksquare$
 

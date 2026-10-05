@@ -407,7 +407,9 @@ edges).
 
 **Theorem:** In any flow network, the maximum flow value equals the minimum cut capacity:
 
-$$|f^*| = c(S^*, T^*)$$
+$$
+|f^*| = c(S^*, T^*)
+$$
 
 where $S^*$ is the set of vertices reachable from $s$ in the residual graph when no augmenting path
 exists, and $T^* = V \setminus S^*$.
@@ -481,7 +483,9 @@ HUNGARIAN(W):
 
 A bipartite graph $G = (L, R, E)$ has a perfect matching iff for every subset $S \subseteq L$:
 
-$$|N(S)| \geq |S|$$
+$$
+|N(S)| \geq |S|
+$$
 
 where $N(S)$ is the set of neighbors of $S$ in $R$.
 

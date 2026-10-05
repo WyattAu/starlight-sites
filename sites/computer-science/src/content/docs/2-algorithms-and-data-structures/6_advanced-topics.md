@@ -364,7 +364,9 @@ Define $\Phi(D_i) =$ number of 1-bits in the counter after $i$ operations.
 For increment $i$: let $t_i$ be the number of trailing 1s flipped. The actual cost is $t_i + 1$
 (flipping $t_i$ ones and one zero). The number of 1-bits changes by $1 - t_i$.
 
-$$\hat{c}_i = (t_i + 1) + \Phi(D_i) - \Phi(D_{i-1}) = (t_i + 1) + (1 - t_i) = 2$$
+$$
+\hat{c}_i = (t_i + 1) + \Phi(D_i) - \Phi(D_{i-1}) = (t_i + 1) + (1 - t_i) = 2
+$$
 
 The amortised cost per increment is exactly 2, i.e., $O(1)$.
 

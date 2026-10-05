@@ -25,7 +25,9 @@ description: ': the time over which the wave maintains a well-defined phase. Com
 
 For a source with spectral width $\Delta\nu$:
 
-$$\tau_c \approx \frac{1}{\Delta\nu}, \quad L_c \approx \frac{c}{\Delta\nu} = \frac{\lambda^2}{\Delta\lambda}$$
+$$
+\tau_c \approx \frac{1}{\Delta\nu}, \quad L_c \approx \frac{c}{\Delta\nu} = \frac{\lambda^2}{\Delta\lambda}
+$$
 
 A sodium lamp ($\Delta\lambda \approx 0.6$ nm at $\lambda = 589$ nm) has $L_c \approx 0.6$ mm. A
 laser ($\Delta\lambda \approx 10^{-6}$ nm) has $L_c \approx 300$ m.
@@ -59,17 +61,23 @@ Incoherent source is given by the Fourier transform of the source intensity dist
 
 For a circular source of angular diameter $\theta_s$The transverse coherence length is:
 
-$$l_c \approx \frac{1.22\lambda}{\theta_s}$$
+$$
+l_c \approx \frac{1.22\lambda}{\theta_s}
+$$
 
 ### 8.3 The Mutual Coherence Function
 
 The **mutual coherence function** quantifies the correlation between the wave field at two spacetime points:
 
-$$\Gamma_{12}(\tau) = \langle E^*(r_1, t) E(r_2, t + \tau) \rangle$$
+$$
+\Gamma_{12}(\tau) = \langle E^*(r_1, t) E(r_2, t + \tau) \rangle
+$$
 
 The **complex degree of coherence** is the normalised quantity:
 
-$$\gamma_{12}(\tau) = \frac{\Gamma_{12}(\tau)}{\sqrt{\Gamma_{11}(0) \Gamma_{22}(0)}}$$
+$$
+\gamma_{12}(\tau) = \frac{\Gamma_{12}(\tau)}{\sqrt{\Gamma_{11}(0) \Gamma_{22}(0)}}
+$$
 
 For quasi-monochromatic light, the visibility of interference fringes equals $|\gamma_{12}(\tau)|$. Fringes are visible when $0 < |\gamma| \leq 1$, with $|\gamma| = 1$ for perfectly coherent light and $|\gamma| = 0$ for incoherent light.
 
@@ -77,7 +85,9 @@ For quasi-monochromatic light, the visibility of interference fringes equals $|\
 
 The **Wiener-Khinchin theorem** relates the power spectral density $S(\omega)$ of a stationary random process to the autocorrelation function via Fourier transform:
 
-$$\Gamma_{11}(\tau) = \int_{-\infty}^{\infty} S(\omega) e^{-i\omega\tau} d\omega$$
+$$
+\Gamma_{11}(\tau) = \int_{-\infty}^{\infty} S(\omega) e^{-i\omega\tau} d\omega
+$$
 
 The coherence time is inversely related to the spectral width: $\tau_c = \int_{-\infty}^{\infty} |\gamma_{11}(\tau)|^2 d\tau$. For a Lorentzian line shape, $\tau_c = 1/(\pi\Delta\nu)$.
 
@@ -85,7 +95,9 @@ The coherence time is inversely related to the spectral width: $\tau_c = \int_{-
 
 Partially coherent light is described by the **cross-spectral density function** $W(r_1, r_2, \omega)$, which is the Fourier transform of the mutual coherence function:
 
-$$W(r_1, r_2, \omega) = \frac{1}{2\pi} \int_{-\infty}^{\infty} \Gamma(r_1, r_2, \tau) e^{i\omega\tau} d\tau$$
+$$
+W(r_1, r_2, \omega) = \frac{1}{2\pi} \int_{-\infty}^{\infty} \Gamma(r_1, r_2, \tau) e^{i\omega\tau} d\tau
+$$
 
 The Wolf equations govern the propagation of the cross-spectral density, generalising the Helmholtz equation to partially coherent fields.
 
@@ -93,7 +105,9 @@ The Wolf equations govern the propagation of the cross-spectral density, general
 
 **Second-order coherence** measures intensity correlations:
 
-$$g^{(2)}(\tau) = \frac{\langle I(t) I(t+\tau) \rangle}{\langle I(t) \rangle^2}$$
+$$
+g^{(2)}(\tau) = \frac{\langle I(t) I(t+\tau) \rangle}{\langle I(t) \rangle^2}
+$$
 
 - **Thermal light** (chaotic): $g^{(2)}(0) = 2$, exhibiting **photon bunching**.
 - **Coherent light** (laser): $g^{(2)}(\tau) = 1$ for all $\tau$.
@@ -112,15 +126,21 @@ interferometer as a function of path difference.
 
 The interference pattern is the sum of patterns from each line:
 
-$$I = I_0\left[2 + \cos\!\left(\frac{2\pi\Delta x}{\lambda_1}\right) + \cos\!\left(\frac{2\pi\Delta x}{\lambda_2}\right)\right]$$
+$$
+I = I_0\left[2 + \cos\!\left(\frac{2\pi\Delta x}{\lambda_1}\right) + \cos\!\left(\frac{2\pi\Delta x}{\lambda_2}\right)\right]
+$$
 
 Using the sum-to-product identity:
 
-$$I = 2I_0\left[1 + \cos\!\left(\frac{\pi\Delta x}{\lambda_1} + \frac{\pi\Delta x}{\lambda_2}\right) \cos\!\left(\frac{\pi\Delta x}{\lambda_1} - \frac{\pi\Delta x}{\lambda_2}\right)\right]$$
+$$
+I = 2I_0\left[1 + \cos\!\left(\frac{\pi\Delta x}{\lambda_1} + \frac{\pi\Delta x}{\lambda_2}\right) \cos\!\left(\frac{\pi\Delta x}{\lambda_1} - \frac{\pi\Delta x}{\lambda_2}\right)\right]
+$$
 
 For $\Delta\lambda \ll \lambda$, this becomes:
 
-$$I = 2I_0\left[1 + \cos\!\left(\frac{2\pi\Delta x}{\bar{\lambda}}\right) \cos\!\left(\frac{\pi\Delta x\,\Delta\lambda}{\bar{\lambda}^2}\right)\right]$$
+$$
+I = 2I_0\left[1 + \cos\!\left(\frac{2\pi\Delta x}{\bar{\lambda}}\right) \cos\!\left(\frac{\pi\Delta x\,\Delta\lambda}{\bar{\lambda}^2}\right)\right]
+$$
 
 where $\bar{\lambda}$ is the mean wavelength. The fringe visibility is $|\cos(\pi\Delta x\,\Delta\lambda/\bar{\lambda}^2)|$, which drops to zero when $\Delta x = \bar{\lambda}^2/(2\Delta\lambda)$. This is the coherence length for a two-line source.
 
@@ -133,7 +153,9 @@ $\blacksquare$
 Two separated mirrors direct light from a distant star into a single telescope. Fringes are observed
 When the mirror separation $d$ satisfies:
 
-$$d \lt \frac{1.22\lambda}{\theta_s}$$
+$$
+d \lt \frac{1.22\lambda}{\theta_s}
+$$
 
 The first disappearance of fringes gives the angular diameter of the star:
 $\theta_s = 1.22\lambda/d$.
@@ -159,7 +181,9 @@ The angular diameter in radians: $\theta_s = 0.53^\circ \times \pi/180 \approx 9
 
 Using the van Cittert-Zernike theorem for a circular source:
 
-$$l_c \approx \frac{1.22\lambda}{\theta_s} = \frac{1.22 \times 550 \times 10^{-9}}{9.25 \times 10^{-3}} \approx 7.3 \times 10^{-5}\ \text{m} \approx 73\ \mu\text{m}$$
+$$
+l_c \approx \frac{1.22\lambda}{\theta_s} = \frac{1.22 \times 550 \times 10^{-9}}{9.25 \times 10^{-3}} \approx 7.3 \times 10^{-5}\ \text{m} \approx 73\ \mu\text{m}
+$$
 
 This means sunlight is coherent over a distance of about $73\ \mu$m transverse to the propagation direction. Two pinholes spaced closer than this will produce visible interference fringes.
 

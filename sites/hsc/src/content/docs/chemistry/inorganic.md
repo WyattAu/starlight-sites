@@ -71,7 +71,9 @@ flowchart TD
 ### Example 1: Balancing Redox Equations
 
 **Problem:** Balance the following equation in acidic solution:
-$$\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$$
+$$
+\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}
+$$
 
 **Solution:**
 
@@ -83,32 +85,44 @@ Step 1: Identify oxidation states:
 Step 2: Balance electron transfer: multiply $\text{Fe}^{2+}$ by 5
 
 Step 3: Balance oxygen with water and hydrogen with $\text{H}^+$:
-$$\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$$
+$$
+\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}
+$$
 
 **Answer:** $\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$
 
 ### Example 2: Enthalpy Calculation
 
 **Problem:** Calculate the enthalpy change for the combustion of methane:
-$$\text{CH}_4(g) + 2\text{O}_2(g) \rightarrow \text{CO}_2(g) + 2\text{H}_2\text{O}(l)$$
+$$
+\text{CH}_4(g) + 2\text{O}_2(g) \rightarrow \text{CO}_2(g) + 2\text{H}_2\text{O}(l)
+$$
 
 Given: $\Delta H_f°(\text{CH}_4) = -74.8\,\text{kJ/mol}$, $\Delta H_f°(\text{CO}_2) = -393.5\,\text{kJ/mol}$, $\Delta H_f°(\text{H}_2\text{O}) = -285.8\,\text{kJ/mol}$
 
 **Solution:**
 
 Step 1: Apply Hess's Law:
-$$\Delta H = \sum \Delta H_f°(\text{products}) - \sum \Delta H_f°(\text{reactants})$$
+$$
+\Delta H = \sum \Delta H_f°(\text{products}) - \sum \Delta H_f°(\text{reactants})
+$$
 
 Step 2: Calculate:
-$$\Delta H = [(-393.5) + 2(-285.8)] - [(-74.8) + 2(0)]$$
-$$\Delta H = -965.1 + 74.8 = -890.3\,\text{kJ/mol}$$
+$$
+\Delta H = [(-393.5) + 2(-285.8)] - [(-74.8) + 2(0)]
+$$
+$$
+\Delta H = -965.1 + 74.8 = -890.3\,\text{kJ/mol}
+$$
 
 **Answer:** $\Delta H = -890.3\,\text{kJ/mol}$
 
 ### Example 3: Electrochemistry
 
 **Problem:** Calculate the cell potential for a Daniell cell:
-$$\text{Zn} | \text{Zn}^{2+} || \text{Cu}^{2+} | \text{Cu}$$
+$$
+\text{Zn} | \text{Zn}^{2+} || \text{Cu}^{2+} | \text{Cu}
+$$
 
 Given: $E°(\text{Zn}^{2+}/\text{Zn}) = -0.76\,\text{V}$, $E°(\text{Cu}^{2+}/\text{Cu}) = +0.34\,\text{V}$
 
@@ -120,7 +134,9 @@ Step 1: Identify cathode (reduction) and anode (oxidation):
 - Anode: Zn → Zn²⁺ + 2e⁻ (oxidation)
 
 Step 2: Calculate cell potential:
-$$E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}} = 0.34 - (-0.76) = 1.10\,\text{V}$$
+$$
+E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}} = 0.34 - (-0.76) = 1.10\,\text{V}
+$$
 
 **Answer:** $E_{\text{cell}} = 1.10\,\text{V}$
 
@@ -144,7 +160,9 @@ $$E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}} = 0.34 - (-0.76) = 1.1
 **Solution:**
 
 Step 1: Identify the possible products by ion exchange:
-$$\text{AgNO}_3 + \text{NaCl} \rightarrow \text{AgCl} + \text{NaNO}_3$$
+$$
+\text{AgNO}_3 + \text{NaCl} \rightarrow \text{AgCl} + \text{NaNO}_3
+$$
 
 Step 2: Check solubility rules:
 
@@ -164,16 +182,24 @@ Step 3: Since $\text{AgCl}$ is insoluble, a precipitate will form.
 **Solution:**
 
 Step 1: Calculate total mass of solution:
-$$m = (50 + 50) \times 1.0 = 100\,\text{g}$$
+$$
+m = (50 + 50) \times 1.0 = 100\,\text{g}
+$$
 
 Step 2: Calculate heat absorbed:
-$$q = mc\Delta T = 100 \times 4.18 \times (31.4 - 25.0) = 100 \times 4.18 \times 6.4 = 2675.2\,\text{J} = 2.675\,\text{kJ}$$
+$$
+q = mc\Delta T = 100 \times 4.18 \times (31.4 - 25.0) = 100 \times 4.18 \times 6.4 = 2675.2\,\text{J} = 2.675\,\text{kJ}
+$$
 
 Step 3: Moles of water formed:
-$$n = 0.050 \times 1.0 = 0.050\,\text{mol}$$
+$$
+n = 0.050 \times 1.0 = 0.050\,\text{mol}
+$$
 
 Step 4: Enthalpy of neutralisation:
-$$\Delta H = -\frac{q}{n} = -\frac{2.675}{0.050} = -53.5\,\text{kJ/mol}$$
+$$
+\Delta H = -\frac{q}{n} = -\frac{2.675}{0.050} = -53.5\,\text{kJ/mol}
+$$
 
 **Answer:** $\Delta H = -53.5\,\text{kJ/mol}$ (close to the theoretical value of $-57.1\,\text{kJ/mol}$)
 
@@ -186,16 +212,24 @@ $$\Delta H = -\frac{q}{n} = -\frac{2.675}{0.050} = -53.5\,\text{kJ/mol}$$
 **Solution:**
 
 Step 1: Write the cell reaction:
-$$\text{Zn}(s) + \text{Cu}^{2+}(aq) \rightarrow \text{Zn}^{2+}(aq) + \text{Cu}(s)$$
+$$
+\text{Zn}(s) + \text{Cu}^{2+}(aq) \rightarrow \text{Zn}^{2+}(aq) + \text{Cu}(s)
+$$
 
 Step 2: Write the reaction quotient:
-$$Q = \frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]} = \frac{0.5}{0.01} = 50$$
+$$
+Q = \frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]} = \frac{0.5}{0.01} = 50
+$$
 
 Step 3: Apply the Nernst equation ($n = 2$ electrons transferred):
-$$E = E° - \frac{RT}{nF}\ln Q = 1.10 - \frac{0.0257}{2}\ln 50$$
+$$
+E = E° - \frac{RT}{nF}\ln Q = 1.10 - \frac{0.0257}{2}\ln 50
+$$
 
 Step 4: Calculate:
-$$E = 1.10 - 0.01285 \times 3.912 = 1.10 - 0.0503 = 1.050\,\text{V}$$
+$$
+E = 1.10 - 0.01285 \times 3.912 = 1.10 - 0.0503 = 1.050\,\text{V}
+$$
 
 **Answer:** $E = 1.05\,\text{V}$
 
@@ -235,14 +269,22 @@ Step 4: Order: Na < Al < Mg < Si < P
 **Solution:**
 
 Step 1: The formation reaction is:
-$$2\text{C}(s) + 3\text{H}_2(g) \rightarrow \text{C}_2\text{H}_6(g)$$
+$$
+2\text{C}(s) + 3\text{H}_2(g) \rightarrow \text{C}_2\text{H}_6(g)
+$$
 
 Step 2: Using Hess's Law:
-$$\Delta H_f = 2\Delta H_2 + 3\Delta H_3 - \Delta H_1$$
+$$
+\Delta H_f = 2\Delta H_2 + 3\Delta H_3 - \Delta H_1
+$$
 
 Step 3: Calculate:
-$$\Delta H_f = 2(-393.5) + 3(-285.8) - (-1560)$$
-$$= -787 - 857.4 + 1560 = -84.4\,\text{kJ/mol}$$
+$$
+\Delta H_f = 2(-393.5) + 3(-285.8) - (-1560)
+$$
+$$
+= -787 - 857.4 + 1560 = -84.4\,\text{kJ/mol}
+$$
 
 **Answer:** $\Delta H_f(\text{C}_2\text{H}_6) = -84.4\,\text{kJ/mol}$
 
@@ -260,13 +302,19 @@ Step 1: Identify cathode and anode:
 - Ag has the higher reduction potential, so it is reduced (cathode)
 
 Step 2: Cell notation:
-$$\text{Fe}(s) | \text{Fe}^{2+}(aq) || \text{Ag}^{+}(aq) | \text{Ag}(s)$$
+$$
+\text{Fe}(s) | \text{Fe}^{2+}(aq) || \text{Ag}^{+}(aq) | \text{Ag}(s)
+$$
 
 Step 3: Cell potential:
-$$E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}} = 0.80 - (-0.44) = 1.24\,\text{V}$$
+$$
+E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}} = 0.80 - (-0.44) = 1.24\,\text{V}
+$$
 
 Step 4: Spontaneous reaction:
-$$\text{Fe}(s) + 2\text{Ag}^{+}(aq) \rightarrow \text{Fe}^{2+}(aq) + 2\text{Ag}(s)$$
+$$
+\text{Fe}(s) + 2\text{Ag}^{+}(aq) \rightarrow \text{Fe}^{2+}(aq) + 2\text{Ag}(s)
+$$
 
 **Answer:** $E_{\text{cell}} = 1.24\,\text{V}$, reaction: $\text{Fe} + 2\text{Ag}^{+} \rightarrow \text{Fe}^{2+} + 2\text{Ag}$
 

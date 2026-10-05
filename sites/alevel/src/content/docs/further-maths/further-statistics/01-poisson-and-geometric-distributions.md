@@ -64,7 +64,9 @@ $r = 0, 1, 2, \ldots$ (number of failures). AQA uses $r = 1, 2, \ldots$.
 **Definition.** A discrete random variable $X$ follows a **Poisson distribution** with parameter
 $\lambda$ (where $\lambda > 0$), written $X \sim \mathrm{Po}(\lambda)$If
 
-$$P(X = r) = \frac{e^{-\lambda}\lambda^r}{r!}, \quad r = 0, 1, 2, \ldots$$
+$$
+P(X = r) = \frac{e^{-\lambda}\lambda^r}{r!}, \quad r = 0, 1, 2, \ldots
+$$
 
 The Poisson distribution models the number of events occurring in a fixed interval of time or space
 When:
@@ -94,7 +96,9 @@ Consider each factor as $n \to \infty$:
 
 Therefore:
 
-$$P(X = r) \to \frac{1}{r!}\cdot\lambda^r \cdot e^{-\lambda} = \frac{e^{-\lambda}\lambda^r}{r!} \quad \blacksquare$$
+$$
+P(X = r) \to \frac{1}{r!}\cdot\lambda^r \cdot e^{-\lambda} = \frac{e^{-\lambda}\lambda^r}{r!} \quad \blacksquare
+$$
 
 ### 1.3 Proof that $E(X) = \lambda$
 
@@ -123,9 +127,13 @@ $$
 
 Since $E(X^2) = E(X(X-1)) + E(X) = \lambda^2 + \lambda$:
 
-$$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \lambda^2 + \lambda - \lambda^2 = \lambda \quad \blacksquare$$
+$$
+\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \lambda^2 + \lambda - \lambda^2 = \lambda \quad \blacksquare
+$$
 
-$$\boxed{E(X) = \mathrm{Var}(X) = \lambda}$$
+$$
+\boxed{E(X) = \mathrm{Var}(X) = \lambda}
+$$
 
 This is the defining property of the Poisson distribution: the mean equals the variance.
 
@@ -133,13 +141,17 @@ This is the defining property of the Poisson distribution: the mean equals the v
 
 If $X \sim \mathrm{Po}(\lambda)$ and $Y \sim \mathrm{Po}(\mu)$ are independent, then
 
-$$\boxed{X + Y \sim \mathrm{Po}(\lambda + \mu)}$$
+$$
+\boxed{X + Y \sim \mathrm{Po}(\lambda + \mu)}
+$$
 
 ### 1.6 Cumulative probabilities
 
 Cumulative Poisson probabilities are found using:
 
-$$P(X \leq r) = \sum_{k=0}^{r}\frac{e^{-\lambda}\lambda^k}{k!}$$
+$$
+P(X \leq r) = \sum_{k=0}^{r}\frac{e^{-\lambda}\lambda^k}{k!}
+$$
 
 These are obtained from tables or a calculator. Key relationships:
 
@@ -186,7 +198,9 @@ Critical region: $X \leq 0$ or $X \geq 11$.
 $p$ (where $0 < p \leq 1$), written $X \sim \mathrm{Geo}(p)$If $X$ is the number of the trial on
 Which the first success occurs:
 
-$$P(X = r) = (1-p)^{r-1}p, \quad r = 1, 2, 3, \ldots$$
+$$
+P(X = r) = (1-p)^{r-1}p, \quad r = 1, 2, 3, \ldots
+$$
 
 Each trial is independent with probability $p$ of success.
 
@@ -205,11 +219,15 @@ $\sum_{r=0}^{\infty}q^r = \frac{1}{1-q}$ for $|q| < 1$.
 
 Differentiating both sides with respect to $q$:
 
-$$\sum_{r=1}^{\infty}rq^{r-1} = \frac{1}{(1-q)^2}$$
+$$
+\sum_{r=1}^{\infty}rq^{r-1} = \frac{1}{(1-q)^2}
+$$
 
 Therefore:
 
-$$E(X) = p \cdot \frac{1}{(1-q)^2} = p \cdot \frac{1}{p^2} = \frac{1}{p} \quad \blacksquare$$
+$$
+E(X) = p \cdot \frac{1}{(1-q)^2} = p \cdot \frac{1}{p^2} = \frac{1}{p} \quad \blacksquare
+$$
 
 ### 2.3 Proof that $\mathrm{Var}(X) = \frac{1-p}{p^2}$
 
@@ -225,7 +243,9 @@ $$
 
 Starting from $\sum_{r=0}^{\infty}q^r = \frac{1}{1-q}$Differentiating twice:
 
-$$\sum_{r=2}^{\infty}r(r-1)q^{r-2} = \frac{2}{(1-q)^3}$$
+$$
+\sum_{r=2}^{\infty}r(r-1)q^{r-2} = \frac{2}{(1-q)^3}
+$$
 
 So $E(X(X-1)) = p\,q\cdot\frac{2}{(1-q)^3} = p\,q\cdot\frac{2}{p^3} = \frac{2q}{p^2}$.
 
@@ -236,13 +256,17 @@ E(X^2) &= \frac{2q}{p^2} + \frac{1}{p} = \frac{2q + p}{p^2} = \frac{2(1-p) + p}{
 \end{aligned}
 $$
 
-$$\boxed{E(X) = \frac{1}{p}, \qquad \mathrm{Var}(X) = \frac{1-p}{p^2}}$$
+$$
+\boxed{E(X) = \frac{1}{p}, \qquad \mathrm{Var}(X) = \frac{1-p}{p^2}}
+$$
 
 ### 2.4 The memoryless property
 
 **Theorem.** The geometric distribution is the only discrete memoryless distribution:
 
-$$P(X > m + n \mid X > m) = P(X > n)$$
+$$
+P(X > m + n \mid X > m) = P(X > n)
+$$
 
 ### Proof
 
@@ -268,7 +292,9 @@ You were starting fresh. The process "forgets" its history.
 
 ### 2.5 Cumulative distribution function
 
-$$P(X \leq r) = 1 - q^r = 1 - (1-p)^r$$
+$$
+P(X \leq r) = 1 - q^r = 1 - (1-p)^r
+$$
 
 ### 2.6 Geometric hypothesis testing
 
@@ -305,7 +331,9 @@ Critical region: $X \geq 10$.
 
 When $n$ is large and $p$ is small such that $np \leq 10$:
 
-$$B(n, p) \approx \mathrm{Po}(np)$$
+$$
+B(n, p) \approx \mathrm{Po}(np)
+$$
 
 **Example.** $X \sim B(200, 0.02)$. Then $\lambda = np = 4$ So $X \approx \mathrm{Po}(4)$.
 
@@ -535,11 +563,15 @@ Approximation.
 
 **Solution.** **(a) Binomial:** $X \sim \mathrm{Bin}(200, 0.02)$.
 
-$$P(X = 3) = \binom{200}{3}(0.02)^3(0.98)^{197} = \frac{200 \times 199 \times 198}{6} \times 8 \times 10^{-6} \times (0.98)^{197}$$
+$$
+P(X = 3) = \binom{200}{3}(0.02)^3(0.98)^{197} = \frac{200 \times 199 \times 198}{6} \times 8 \times 10^{-6} \times (0.98)^{197}
+$$
 
 **(b) Poisson approximation:** $\lambda = np = 200 \times 0.02 = 4$. $X \approx \mathrm{Po}(4)$.
 
-$$P(X = 3) = \frac{e^{-4} \cdot 4^3}{3!} = \frac{64}{6e^4} = \frac{32}{3e^4} \approx 0.1954$$
+$$
+P(X = 3) = \frac{e^{-4} \cdot 4^3}{3!} = \frac{64}{6e^4} = \frac{32}{3e^4} \approx 0.1954
+$$
 
 The approximation is valid since $n \geq 50$ and $p \leq 0.1$.
 
@@ -550,11 +582,15 @@ Needed. Verify the memoryless property: $P(X > m + n \mid X > m) = P(X > n)$.
 
 **Solution.** $X \sim \mathrm{Geo}(1/6)$.
 
-$$P(X > 4) = \left(\frac{5}{6}\right)^4 = \frac{625}{1296} \approx 0.4823$$
+$$
+P(X > 4) = \left(\frac{5}{6}\right)^4 = \frac{625}{1296} \approx 0.4823
+$$
 
 **Memoryless property:**
 
-$$P(X > m + n \mid X > m) = \frac{P(X > m + n)}{P(X > m)} = \frac{(5/6)^{m+n}}{(5/6)^m} = \left(\frac{5}{6}\right)^n = P(X > n) \quad \blacksquare$$
+$$
+P(X > m + n \mid X > m) = \frac{P(X > m + n)}{P(X > m)} = \frac{(5/6)^{m+n}}{(5/6)^m} = \left(\frac{5}{6}\right)^n = P(X > n) \quad \blacksquare
+$$
 
 ### Example 7.3: Cumulative Poisson probabilities
 
@@ -563,13 +599,21 @@ More than 5 calls arrive in a 3-minute period.
 
 **Solution.** For a 3-minute period: $\lambda = 2.5 \times 3 = 7.5$. $X \sim \mathrm{Po}(7.5)$.
 
-$$P(X > 5) = 1 - P(X \leq 5) = 1 - \sum_{k=0}^{5}\frac{e^{-7.5}(7.5)^k}{k!}$$
+$$
+P(X > 5) = 1 - P(X \leq 5) = 1 - \sum_{k=0}^{5}\frac{e^{-7.5}(7.5)^k}{k!}
+$$
 
-$$= 1 - e^{-7.5}\!\left(1 + 7.5 + \frac{7.5^2}{2} + \frac{7.5^3}{6} + \frac{7.5^4}{24} + \frac{7.5^5}{120}\right)$$
+$$
+= 1 - e^{-7.5}\!\left(1 + 7.5 + \frac{7.5^2}{2} + \frac{7.5^3}{6} + \frac{7.5^4}{24} + \frac{7.5^5}{120}\right)
+$$
 
-$$= 1 - e^{-7.5}\!\left(1 + 7.5 + 28.125 + 70.3125 + 131.836 + 197.754 + 197.754\right)$$
+$$
+= 1 - e^{-7.5}\!\left(1 + 7.5 + 28.125 + 70.3125 + 131.836 + 197.754 + 197.754\right)
+$$
 
-$$= 1 - e^{-7.5} \times 633.577 \approx 1 - 0.554 \times 0.634 = 1 - 0.351 = 0.649$$
+$$
+= 1 - e^{-7.5} \times 633.577 \approx 1 - 0.554 \times 0.634 = 1 - 0.351 = 0.649
+$$
 
 ### Example 7.4: Hypothesis testing with the Poisson distribution
 
@@ -621,7 +665,9 @@ Rounds.
 
 **Solution.** $X \sim \mathrm{Geo}(0.3)$. By the memoryless property:
 
-$$P(X \leq 8 \mid X > 5) = P(X \leq 3) = 1 - (0.7)^3 = 1 - 0.343 = 0.657$$
+$$
+P(X \leq 8 \mid X > 5) = P(X \leq 3) = 1 - (0.7)^3 = 1 - 0.343 = 0.657
+$$
 
 ### Example 7.7: Sum of independent Poisson variables
 
@@ -630,7 +676,9 @@ Distribution of $X + Y$ and find $P(X + Y = 6)$.
 
 **Solution.** $X + Y \sim \mathrm{Po}(3 + 5) = \mathrm{Po}(8)$.
 
-$$P(X + Y = 6) = \frac{e^{-8} \cdot 8^6}{6!} = \frac{262144 \cdot e^{-8}}{720} = \frac{364.09 \cdot e^{-8}}{1} \approx 0.1221$$
+$$
+P(X + Y = 6) = \frac{e^{-8} \cdot 8^6}{6!} = \frac{262144 \cdot e^{-8}}{720} = \frac{364.09 \cdot e^{-8}}{1} \approx 0.1221
+$$
 
 ### Example 7.8: Poisson as a limiting case
 
@@ -639,9 +687,13 @@ Then $P(X = k) \to \dfrac{e^{-\lambda}\lambda^k}{k!}$.
 
 **Solution.**
 
-$$P(X = k) = \binom{n}{k}p^k(1-p)^{n-k} = \frac{n!}{k!(n-k)!}\cdot\frac{\lambda^k}{n^k}\cdot\left(1-\frac{\lambda}{n}\right)^{n-k}$$
+$$
+P(X = k) = \binom{n}{k}p^k(1-p)^{n-k} = \frac{n!}{k!(n-k)!}\cdot\frac{\lambda^k}{n^k}\cdot\left(1-\frac{\lambda}{n}\right)^{n-k}
+$$
 
-$$= \frac{\lambda^k}{k!}\cdot\frac{n(n-1)\cdots(n-k+1)}{n^k}\cdot\left(1-\frac{\lambda}{n}\right)^{n-k}$$
+$$
+= \frac{\lambda^k}{k!}\cdot\frac{n(n-1)\cdots(n-k+1)}{n^k}\cdot\left(1-\frac{\lambda}{n}\right)^{n-k}
+$$
 
 As $n \to \infty$: $\dfrac{n(n-1)\cdots(n-k+1)}{n^k} \to 1$ and
 $\left(1-\dfrac{\lambda}{n}\right)^{n-k} \to e^{-\lambda}$.
@@ -702,11 +754,15 @@ Customers arrive in a given hour. **(b)** More than 2 customers arrive in a 30-m
 
 **(a)** $X \sim \mathrm{Po}(4)$.
 
-$$P(X = 3) = \frac{e^{-4}\cdot 64}{6} = \frac{32}{3e^4} \approx 0.1954$$
+$$
+P(X = 3) = \frac{e^{-4}\cdot 64}{6} = \frac{32}{3e^4} \approx 0.1954
+$$
 
 **(b)** For 30 minutes: $Y \sim \mathrm{Po}(2)$.
 
-$$P(Y > 2) = 1 - P(Y \leq 2) = 1 - e^{-2}(1 + 2 + 2) = 1 - 5e^{-2} \approx 0.3233$$
+$$
+P(Y > 2) = 1 - P(Y \leq 2) = 1 - e^{-2}(1 + 2 + 2) = 1 - 5e^{-2} \approx 0.3233
+$$
 
 </details>
 
@@ -725,7 +781,9 @@ A coin is tossed until the first head appears. The probability of heads is $p$.
 
 **(b)** $P(X \text{ is even}) = P(X = 2) + P(X = 4) + P(X = 6) + \cdots$
 
-$$= qp + q^3p + q^5p + \cdots = qp(1 + q^2 + q^4 + \cdots) = qp \cdot \frac{1}{1 - q^2} = \frac{qp}{(1-q)(1+q)} = \frac{q}{1+q}$$
+$$
+= qp + q^3p + q^5p + \cdots = qp(1 + q^2 + q^4 + \cdots) = qp \cdot \frac{1}{1 - q^2} = \frac{qp}{(1-q)(1+q)} = \frac{q}{1+q}
+$$
 
 </details>
 
@@ -742,7 +800,9 @@ $G_{X_i}(t) = e^{\lambda_i(t-1)}$.
 
 For independent random variables, the PGF of the sum is the product:
 
-$$G_S(t) = \prod_{i=1}^{n}e^{\lambda_i(t-1)} = e^{(t-1)\sum\lambda_i}$$
+$$
+G_S(t) = \prod_{i=1}^{n}e^{\lambda_i(t-1)} = e^{(t-1)\sum\lambda_i}
+$$
 
 This is the PGF of $\mathrm{Po}\!\left(\sum\lambda_i\right)$. Therefore
 $S \sim \mathrm{Po}\!\left(\sum\lambda_i\right)$. $\blacksquare$
@@ -825,7 +885,9 @@ That the total number of messages in a 2-hour period exceeds 20.
 
 Total messages $= \mathrm{Po}(10+6) = \mathrm{Po}(16)$.
 
-$$P(X > 20) = 1 - P(X \leq 20) = 1 - \sum_{k=0}^{20} \frac{e^{-16} \cdot 16^k}{k!} \approx 1 - 0.8688 = \boxed{0.131}$$
+$$
+P(X > 20) = 1 - P(X \leq 20) = 1 - \sum_{k=0}^{20} \frac{e^{-16} \cdot 16^k}{k!} \approx 1 - 0.8688 = \boxed{0.131}
+$$
 
 ### Example 8.3: Conditional probability with the geometric distribution
 
@@ -833,7 +895,9 @@ $$P(X > 20) = 1 - P(X \leq 20) = 1 - \sum_{k=0}^{20} \frac{e^{-16} \cdot 16^k}{k
 
 **Solution.** The geometric distribution has the memoryless property:
 
-$$P(X > 4 \mid X > 2) = P(X > 2) = (1-0.3)^2 = 0.49$$
+$$
+P(X > 4 \mid X > 2) = P(X > 2) = (1-0.3)^2 = 0.49
+$$
 
 Verification: $P(X > 4) = 0.7^4 = 0.2401$, $P(X > 2) = 0.49$.
 $P(X>4 \mid X>2) = \dfrac{0.2401}{0.49} = 0.49$. ✓
@@ -849,7 +913,9 @@ Under $H_0$Total calls in 10 minutes $\sim \mathrm{Po}(60)$.
 
 For large $\lambda$Approximate with $N(60, 60)$.
 
-$$P(X \geq 72) \approx P\!\left(Z \geq \frac{71.5 - 60}{\sqrt{60}}\right) = P(Z \geq 1.485) = 1 - 0.9311 = 0.069$$
+$$
+P(X \geq 72) \approx P\!\left(Z \geq \frac{71.5 - 60}{\sqrt{60}}\right) = P(Z \geq 1.485) = 1 - 0.9311 = 0.069
+$$
 
 (using continuity correction).
 
@@ -861,9 +927,13 @@ $0.069 > 0.05$: **do not reject** $H_0$. Insufficient evidence that the rate has
 
 **Solution.** The mode $m$ satisfies $P(X = m) \geq P(X = m-1)$ and $P(X = m) \geq P(X = m+1)$.
 
-$$\frac{e^{-\lambda}\lambda^m}{m!} \geq \frac{e^{-\lambda}\lambda^{m-1}}{(m-1)!} \implies \frac{\lambda}{m} \geq 1 \implies m \leq \lambda$$
+$$
+\frac{e^{-\lambda}\lambda^m}{m!} \geq \frac{e^{-\lambda}\lambda^{m-1}}{(m-1)!} \implies \frac{\lambda}{m} \geq 1 \implies m \leq \lambda
+$$
 
-$$\frac{e^{-\lambda}\lambda^m}{m!} \geq \frac{e^{-\lambda}\lambda^{m+1}}{(m+1)!} \implies \frac{m+1}{\lambda} \geq 1 \implies m \geq \lambda - 1$$
+$$
+\frac{e^{-\lambda}\lambda^m}{m!} \geq \frac{e^{-\lambda}\lambda^{m+1}}{(m+1)!} \implies \frac{m+1}{\lambda} \geq 1 \implies m \geq \lambda - 1
+$$
 
 So $\lambda - 1 \leq m \leq \lambda$Meaning the mode is $\lfloor\lambda\rfloor$ (and also $\lambda$
 if $\lambda$ is an integer).
@@ -876,7 +946,9 @@ Probability that the time between two consecutive events exceeds 30 minutes.
 **Solution.** For a Poisson process with rate $\lambda$The inter-arrival time
 $T \sim \mathrm{Exp}(\lambda)$.
 
-$$P(T > 0.5) = e^{-4 \times 0.5} = e^{-2} \approx \boxed{0.135}$$
+$$
+P(T > 0.5) = e^{-4 \times 0.5} = e^{-2} \approx \boxed{0.135}
+$$
 
 ### Example 8.7: Variance of the geometric distribution
 
@@ -890,9 +962,13 @@ $E(X^2) = \displaystyle\sum_{k=1}^{\infty} k^2 p(1-p)^{k-1}$.
 Using the identity $\displaystyle\sum_{k=1}^{\infty} k^2 r^{k-1} = \frac{1+r}{(1-r)^3}$ with
 $r = 1-p$:
 
-$$E(X^2) = \frac{p(2-p)}{p^3} = \frac{2-p}{p^2}$$
+$$
+E(X^2) = \frac{p(2-p)}{p^3} = \frac{2-p}{p^2}
+$$
 
-$$\mathrm{Var}(X) = \frac{2-p}{p^2} - \frac{1}{p^2} = \boxed{\frac{1-p}{p^2}}$$
+$$
+\mathrm{Var}(X) = \frac{2-p}{p^2} - \frac{1}{p^2} = \boxed{\frac{1-p}{p^2}}
+$$
 
 ---
 
@@ -937,7 +1013,9 @@ Exactly 5 errors.
 
 Total errors $\sim \mathrm{Po}(6)$.
 
-$$P(X = 5) = \frac{e^{-6} \cdot 6^5}{120} = \frac{7776 \cdot e^{-6}}{120} \approx \boxed{0.1606}$$
+$$
+P(X = 5) = \frac{e^{-6} \cdot 6^5}{120} = \frac{7776 \cdot e^{-6}}{120} \approx \boxed{0.1606}
+$$
 
 </details>
 
@@ -948,11 +1026,15 @@ $$P(X = 5) = \frac{e^{-6} \cdot 6^5}{120} = \frac{7776 \cdot e^{-6}}{120} \appro
 <details>
 <summary>Solution</summary>
 
-$$E(X) = \sum_{k=0}^{\infty} k \cdot \frac{e^{-\lambda}\lambda^k}{k!} = \sum_{k=1}^{\infty} \frac{e^{-\lambda}\lambda^k}{(k-1)!}$$
+$$
+E(X) = \sum_{k=0}^{\infty} k \cdot \frac{e^{-\lambda}\lambda^k}{k!} = \sum_{k=1}^{\infty} \frac{e^{-\lambda}\lambda^k}{(k-1)!}
+$$
 
 Let $j = k-1$:
 
-$$= \lambda e^{-\lambda} \sum_{j=0}^{\infty} \frac{\lambda^j}{j!} = \lambda e^{-\lambda} \cdot e^{\lambda} = \lambda$$
+$$
+= \lambda e^{-\lambda} \sum_{j=0}^{\infty} \frac{\lambda^j}{j!} = \lambda e^{-\lambda} \cdot e^{\lambda} = \lambda
+$$
 
 $\blacksquare$
 
@@ -1182,7 +1264,9 @@ A Poisson process with rate $\lambda$ is a counting process $N(t)$ satisfying:
 
 For $X \sim \mathrm{Po}(\lambda_1)$ and $Y \sim \mathrm{Po}(\lambda_2)$Independent:
 
-$$P(X = k \mid X + Y = n) = \binom{n}{k}\!\left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k\left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}$$
+$$
+P(X = k \mid X + Y = n) = \binom{n}{k}\!\left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k\left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}
+$$
 
 This is $\mathrm{Bin}(n, \lambda_1/(\lambda_1+\lambda_2))$, the conditional distribution is
 Binomial!
@@ -1191,7 +1275,9 @@ Binomial!
 
 The number of trials until the $r$-th success follows $\mathrm{NegBin}(r, p)$:
 
-$$P(X = n) = \binom{n-1}{r-1}p^r(1-p)^{n-r} \quad \text{for } n = r, r+1, \ldots$$
+$$
+P(X = n) = \binom{n-1}{r-1}p^r(1-p)^{n-r} \quad \text{for } n = r, r+1, \ldots
+$$
 
 $E(X) = \dfrac{r}{p}$, $\mathrm{Var}(X) = \dfrac{r(1-p)}{p^2}$.
 

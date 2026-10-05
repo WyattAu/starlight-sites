@@ -129,7 +129,9 @@ minimize it. Two estimation paradigms dominate:
 
 Gradient descent is the workhorse optimizer. The parameter update rule:
 
-$$\theta^{(t+1)} = \theta^{(t)} - \eta \nabla_\theta \mathcal{L}(\theta^{(t)})$$
+$$
+\theta^{(t+1)} = \theta^{(t)} - \eta \nabla_\theta \mathcal{L}(\theta^{(t)})
+$$
 
 where $\eta$ is the learning rate. Key variants:
 
@@ -145,7 +147,9 @@ critical for convergence in practice.
 
 The bias-variance decomposition frames generalization error:
 
-$$\text{Generalization Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+$$
+\text{Generalization Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}
+$$
 
 - **Underfitting (high bias)**: the model is too simple to capture the true data-generating
   distribution. High training error and high test error. Remedy: increase model capacity, add

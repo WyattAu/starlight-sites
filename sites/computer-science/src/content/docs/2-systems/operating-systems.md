@@ -542,7 +542,9 @@ TLB_LOOKUP(page_number):
 
 **Effective access time:**
 
-$$\text{EAT} = h \cdot t_{\text{TLB}} + (1 - h) \cdot (t_{\text{mem}} + t_{\text{TLB}})$$
+$$
+\text{EAT} = h \cdot t_{\text{TLB}} + (1 - h) \cdot (t_{\text{mem}} + t_{\text{TLB}})
+$$
 
 With TLB + two-level page table:
 $\text{EAT} = h(t_{\text{TLB}} + t_{\text{mem}}) + (1-h)(t_{\text{TLB}} + 2 \cdot t_{\text{mem}})$.
@@ -632,7 +634,9 @@ LRU(pages, frames):
 
 When a process spends more time paging than executing.
 
-$$\text{Thrashing occurs when } \sum \text{working sets} > \text{available frames}$$
+$$
+\text{Thrashing occurs when } \sum \text{working sets} > \text{available frames}
+$$
 
 **Working set model:** $W(t, \Delta) =$ set of pages referenced in the last $\Delta$ memory
 references.

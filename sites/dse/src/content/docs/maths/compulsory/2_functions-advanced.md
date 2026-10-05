@@ -78,11 +78,15 @@ Non-negative: $\mathrm{range}(f) = [0, 2]$.
 
 Given $f$ and $g$The composite $f \circ g$ is:
 
-$$(f \circ g)(x) = f(g(x))$$
+$$
+(f \circ g)(x) = f(g(x))
+$$
 
 ### Domain of a Composite
 
-$$\mathrm{dom}(f \circ g) = \{x \in \mathrm{dom}(g) : g(x) \in \mathrm{dom}(f)\}$$
+$$
+\mathrm{dom}(f \circ g) = \{x \in \mathrm{dom}(g) : g(x) \in \mathrm{dom}(f)\}
+$$
 
 ### Worked Example 2
 
@@ -93,7 +97,9 @@ $\mathrm{dom}(g) = \mathbb{R}$.
 $\mathrm{dom}(f) = [ -1, \infty)$ So we need $g(x) \geqslant -1$I.e.,
 $x^2 - 4 \geqslant -1 \implies x^2 \geqslant 3$.
 
-$$\mathrm{dom}(f \circ g) = (-\infty, -\sqrt{3}] \cup [\sqrt{3}, \infty)$$
+$$
+\mathrm{dom}(f \circ g) = (-\infty, -\sqrt{3}] \cup [\sqrt{3}, \infty)
+$$
 
 ### Worked Example 3
 
@@ -143,7 +149,9 @@ Set $y = \dfrac{2x - 3}{x + 1}$.
 
 $y(x + 1) = 2x - 3 \implies yx + y = 2x - 3 \implies yx - 2x = -3 - y \implies x(y - 2) = -(y + 3)$
 
-$$x = \frac{-(y + 3)}{y - 2} = \frac{y + 3}{2 - y}$$
+$$
+x = \frac{-(y + 3)}{y - 2} = \frac{y + 3}{2 - y}
+$$
 
 Therefore $f^{-1}(x) = \dfrac{x + 3}{2 - x}$With domain $\mathbb{R} \setminus \{2\}$.
 
@@ -217,7 +225,9 @@ A piecewise function is defined by different expressions on different intervals 
 
 ### Worked Example 7
 
-$$f(x) = \begin{cases} x^2 & \mathrm{if } x \lt 0 \\ 2x + 1 & \mathrm{if } 0 \leqslant x \leqslant 3 \\ 10 - x & \mathrm{if } x \gt 3 \end{cases}$$
+$$
+f(x) = \begin{cases} x^2 & \mathrm{if } x \lt 0 \\ 2x + 1 & \mathrm{if } 0 \leqslant x \leqslant 3 \\ 10 - x & \mathrm{if } x \gt 3 \end{cases}
+$$
 
 Find $f(-2)$, $f(0)$, $f(3)$ And $f(5)$.
 
@@ -354,7 +364,9 @@ Range: $x^2 + 1 \geqslant 1$ So $0 \lt \dfrac{1}{x^2 + 1} \leqslant 1$. $\mathrm
 
 Critical points at $x = 3$ and $x = -1$:
 
-$$f(x) = \begin{cases} -(x - 3) + -(x + 1) = -2x + 2 & \mathrm{if } x \lt -1 \\ -(x - 3) + (x + 1) = 4 & \mathrm{if } -1 \leqslant x \leqslant 3 \\ (x - 3) + (x + 1) = 2x - 2 & \mathrm{if } x \gt 3 \end{cases}$$
+$$
+f(x) = \begin{cases} -(x - 3) + -(x + 1) = -2x + 2 & \mathrm{if } x \lt -1 \\ -(x - 3) + (x + 1) = 4 & \mathrm{if } -1 \leqslant x \leqslant 3 \\ (x - 3) + (x + 1) = 2x - 2 & \mathrm{if } x \gt 3 \end{cases}
+$$
 
 For $x \lt -1$: $f(x) = -2x + 2$Which is decreasing (as $x$ increases towards $-1$). As
 $x \to -1^-$: $f(x) \to 4$.
@@ -398,7 +410,9 @@ $\mathrm{dom}(f \circ g) = [3, \infty) \setminus \{7\}$.
 
 **For $g \circ f$:** We need $x \in \mathrm{dom}(f)$ and $f(x) \geq 3$.
 
-$$\frac{x+1}{x-2} \geq 3 \implies \frac{x+1-3(x-2)}{x-2} \geq 0 \implies \frac{-2x+7}{x-2} \geq 0$$
+$$
+\frac{x+1}{x-2} \geq 3 \implies \frac{x+1-3(x-2)}{x-2} \geq 0 \implies \frac{-2x+7}{x-2} \geq 0
+$$
 
 Critical points: $x = \dfrac{7}{2}$ and $x = 2$.
 
@@ -430,13 +444,19 @@ Range: $[-3, \infty)$.
 
 Set $y = 2(x-2)^2 - 3$:
 
-$$(x-2)^2 = \frac{y+3}{2}$$
+$$
+(x-2)^2 = \frac{y+3}{2}
+$$
 
-$$x = 2 + \sqrt{\frac{y+3}{2}}$$
+$$
+x = 2 + \sqrt{\frac{y+3}{2}}
+$$
 
 (positive root since $x \geq 2$)
 
-$$f^{-1}(x) = 2 + \sqrt{\frac{x+3}{2}}$$
+$$
+f^{-1}(x) = 2 + \sqrt{\frac{x+3}{2}}
+$$
 
 $\mathrm{dom}(f^{-1}) = [-3, \infty)$$\mathrm{range}(f^{-1}) = [2, \infty)$.
 
@@ -456,14 +476,18 @@ Rewrite: $y = 2f(3(x-2)) + 5$.
 
 **For $(1, 4)$ on $y = f(x)$:** Set $3(x-2) = 1$ So $x - 2 = \dfrac{1}{3}$Giving $x = \dfrac{7}{3}$.
 
-$$y = 2(4) + 5 = 13$$
+$$
+y = 2(4) + 5 = 13
+$$
 
 Corresponding point: $\left(\dfrac{7}{3},\; 13\right)$.
 
 **For the minimum at $(2, -1)$:** Set $3(x-2) = 2$ So $x - 2 = \dfrac{2}{3}$Giving
 $x = \dfrac{8}{3}$.
 
-$$y = 2(-1) + 5 = 3$$
+$$
+y = 2(-1) + 5 = 3
+$$
 
 Corresponding point: $\left(\dfrac{8}{3},\; 3\right)$. This is the minimum of the transformed graph.
 
@@ -500,13 +524,19 @@ Show that $f(x) = \dfrac{3x - 2}{x - 3}$ ($x \neq 3$) is self-inverse.
 
 Set $y = \dfrac{3x - 2}{x - 3}$:
 
-$$y(x - 3) = 3x - 2 \implies xy - 3y = 3x - 2 \implies xy - 3x = 3y - 2$$
+$$
+y(x - 3) = 3x - 2 \implies xy - 3y = 3x - 2 \implies xy - 3x = 3y - 2
+$$
 
-$$x(y - 3) = 3y - 2 \implies x = \frac{3y - 2}{y - 3}$$
+$$
+x(y - 3) = 3y - 2 \implies x = \frac{3y - 2}{y - 3}
+$$
 
 Interchanging $x$ and $y$:
 
-$$f^{-1}(x) = \frac{3x - 2}{x - 3} = f(x)$$
+$$
+f^{-1}(x) = \frac{3x - 2}{x - 3} = f(x)
+$$
 
 Since $f^{-1} = f$The function is self-inverse.
 
@@ -574,7 +604,9 @@ $(f \circ g)(x)$ and its domain.
 <details>
 <summary>Solution</summary>
 
-$$(f \circ g)(x) = f(\sqrt{x+2}) = \frac{2\sqrt{x+2} + 3}{\sqrt{x+2} - 1}$$
+$$
+(f \circ g)(x) = f(\sqrt{x+2}) = \frac{2\sqrt{x+2} + 3}{\sqrt{x+2} - 1}
+$$
 
 $\mathrm{dom}(g) = [-2, \infty)$. $\mathrm{dom}(f) = \mathbb{R} \setminus \{1\}$.
 
@@ -592,19 +624,31 @@ whether $f(x) = f^{-1}(x)$ has any real solutions.
 
 Set $y = \dfrac{2x-1}{x+3}$: $y(x+3) = 2x-1 \implies xy + 3y = 2x - 1 \implies x(y-2) = -1 - 3y$.
 
-$$f^{-1}(x) = \frac{-1-3x}{x-2} = \frac{3x+1}{2-x}$$
+$$
+f^{-1}(x) = \frac{-1-3x}{x-2} = \frac{3x+1}{2-x}
+$$
 
 For $f(x) = f^{-1}(x)$:
 
-$$\frac{2x-1}{x+3} = \frac{3x+1}{2-x}$$
+$$
+\frac{2x-1}{x+3} = \frac{3x+1}{2-x}
+$$
 
-$$(2x-1)(2-x) = (3x+1)(x+3)$$
+$$
+(2x-1)(2-x) = (3x+1)(x+3)
+$$
 
-$$4x - 2x^2 - 2 + x = 3x^2 + 9x + x + 3$$
+$$
+4x - 2x^2 - 2 + x = 3x^2 + 9x + x + 3
+$$
 
-$$-2x^2 + 5x - 2 = 3x^2 + 10x + 3$$
+$$
+-2x^2 + 5x - 2 = 3x^2 + 10x + 3
+$$
 
-$$-5x^2 - 5x - 5 = 0 \implies x^2 + x + 1 = 0$$
+$$
+-5x^2 - 5x - 5 = 0 \implies x^2 + x + 1 = 0
+$$
 
 $\Delta = 1 - 4 = -3 \lt 0$. No real solutions.
 
@@ -621,7 +665,9 @@ Range: $[-4, \infty)$. Since $5 \geq -4$, $f^{-1}(5)$ exists.
 
 Set $(x+2)^2 - 4 = 5 \implies (x+2)^2 = 9 \implies x + 2 = 3$ (positive root).
 
-$$x = 1$$
+$$
+x = 1
+$$
 
 $f^{-1}(5) = 1$. Verification: $f(1) = 1 + 4 = 5$. Correct.
 
@@ -653,7 +699,9 @@ First, $(g \circ f)(x) = g(f(x)) = \left(\dfrac{1}{x+1}\right)^2 = \dfrac{1}{(x+
 
 Then:
 
-$$(f \circ g \circ f)(x) = f\!\left(\frac{1}{(x+1)^2}\right) = \frac{1}{\dfrac{1}{(x+1)^2} + 1} = \frac{(x+1)^2}{(x+1)^2 + 1} = \frac{(x+1)^2}{x^2 + 2x + 2}$$
+$$
+(f \circ g \circ f)(x) = f\!\left(\frac{1}{(x+1)^2}\right) = \frac{1}{\dfrac{1}{(x+1)^2} + 1} = \frac{(x+1)^2}{(x+1)^2 + 1} = \frac{(x+1)^2}{x^2 + 2x + 2}
+$$
 
 Domain: need $x + 1 \neq 0 \implies x \neq -1$ And $\dfrac{1}{(x+1)^2} + 1 \neq 0$.
 
@@ -679,7 +727,9 @@ For $x \geq \dfrac{1}{2}$: $f(x) = (2x-1) + (x+3) = 3x + 2$ (increasing).
 
 The minimum occurs at the transition from decreasing to increasing, i.e., at $x = \dfrac{1}{2}$:
 
-$$f\!\left(\frac{1}{2}\right) = 3\!\left(\frac{1}{2}\right) + 2 = \frac{7}{2}$$
+$$
+f\!\left(\frac{1}{2}\right) = 3\!\left(\frac{1}{2}\right) + 2 = \frac{7}{2}
+$$
 
 Minimum value: $\dfrac{7}{2}$Attained at $x = \dfrac{1}{2}$.
 
@@ -694,7 +744,9 @@ Let $y = \dfrac{x}{x^2 + 1}$. Then $yx^2 + y = x \implies yx^2 - x + y = 0$.
 
 For real $x$This quadratic in $x$ must have $\Delta \geq 0$:
 
-$$\Delta = 1 - 4y^2 \geq 0 \implies y^2 \leq \frac{1}{4} \implies -\frac{1}{2} \leq y \leq \frac{1}{2}$$
+$$
+\Delta = 1 - 4y^2 \geq 0 \implies y^2 \leq \frac{1}{4} \implies -\frac{1}{2} \leq y \leq \frac{1}{2}
+$$
 
 When $y = \dfrac{1}{2}$:
 $\dfrac{1}{2}x^2 - x + \dfrac{1}{2} = 0 \implies (x-1)^2 = 0 \implies x = 1$. Attainable.
@@ -846,11 +898,17 @@ one-to-one on $(3, \infty)$.
 
 Set $y = \dfrac{2x}{x - 3}$:
 
-$$y(x - 3) = 2x \implies yx - 3y = 2x \implies x(y - 2) = 3y$$
+$$
+y(x - 3) = 2x \implies yx - 3y = 2x \implies x(y - 2) = 3y
+$$
 
-$$x = \frac{3y}{y - 2}$$
+$$
+x = \frac{3y}{y - 2}
+$$
 
-$$f^{-1}(x) = \frac{3x}{x - 2}$$
+$$
+f^{-1}(x) = \frac{3x}{x - 2}
+$$
 
 To find the domain of $f^{-1}$: since $\mathrm{range}(f)$ must equal $\mathrm{dom}(f^{-1})$.
 
@@ -867,7 +925,9 @@ Determine whether $f(x) = \dfrac{x}{x^2 + 1}$ is even, odd, or neither.
 <details>
 <summary>Solution</summary>
 
-$$f(-x) = \frac{-x}{(-x)^2 + 1} = \frac{-x}{x^2 + 1} = -f(x)$$
+$$
+f(-x) = \frac{-x}{(-x)^2 + 1} = \frac{-x}{x^2 + 1} = -f(x)
+$$
 
 Since $f(-x) = -f(x)$ for all real $x$, $f$ is an odd function.
 
@@ -883,13 +943,19 @@ Find the range of $f(x) = \dfrac{x^2 - x + 1}{x^2 + x + 1}$.
 Let $y = \dfrac{x^2 - x + 1}{x^2 + x + 1}$. Since
 $x^2 + x + 1 = \left(x + \dfrac{1}{2}\right)^2 + \dfrac{3}{4} > 0$ for all $x$:
 
-$$y(x^2 + x + 1) = x^2 - x + 1 \implies (y - 1)x^2 + (y + 1)x + (y - 1) = 0$$
+$$
+y(x^2 + x + 1) = x^2 - x + 1 \implies (y - 1)x^2 + (y + 1)x + (y - 1) = 0
+$$
 
 For real $x$, $\Delta \geq 0$:
 
-$$(y + 1)^2 - 4(y - 1)^2 \geq 0 \implies (y + 1 - 2y + 2)(y + 1 + 2y - 2) \geq 0$$
+$$
+(y + 1)^2 - 4(y - 1)^2 \geq 0 \implies (y + 1 - 2y + 2)(y + 1 + 2y - 2) \geq 0
+$$
 
-$$(-y + 3)(3y - 1) \geq 0 \implies (y - 3)(3y - 1) \leq 0 \implies \frac{1}{3} \leq y \leq 3$$
+$$
+(-y + 3)(3y - 1) \geq 0 \implies (y - 3)(3y - 1) \leq 0 \implies \frac{1}{3} \leq y \leq 3
+$$
 
 Range: $\left[\dfrac{1}{3},\; 3\right]$.
 

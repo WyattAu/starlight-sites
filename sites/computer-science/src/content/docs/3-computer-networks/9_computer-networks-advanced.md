@@ -227,7 +227,9 @@ TCP uses an **additive-increase multiplicative-decrease (AIMD)** algorithm for c
 
 **Theorem 2.1 (TCP throughput).** The average throughput of TCP Reno is approximately:
 
-$$\text{Throughput} \approx \frac{1.22 \cdot \text{MSS}{\text{RTT} \cdot \sqrt{p}}}$$
+$$
+\text{Throughput} \approx \frac{1.22 \cdot \text{MSS}{\text{RTT} \cdot \sqrt{p}}}
+$$
 
 Where $p$ is the packet loss rate.
 
@@ -251,7 +253,9 @@ $\blacksquare$
 
 **TCP Cubic.** Replaces the linear increase with a cubic function:
 
-$$\text{cwnd}(t) = W_{\max} + \beta \cdot \left(\frac{t}{K}\right)^3 - (W_{\max} - \text{cwnd_}{\text{low})}$$
+$$
+\text{cwnd}(t) = W_{\max} + \beta \cdot \left(\frac{t}{K}\right)^3 - (W_{\max} - \text{cwnd_}{\text{low})}
+$$
 
 Where $W_{\max}$ is the window size at the last loss event,
 $K = \sqrt[3]{W_{\max} \cdot \beta / C}$, $\beta = 0.4$ And $C = 0.4$.
@@ -351,11 +355,15 @@ This illustrates the dramatic effect of high utilisation on queueing delays.
 **Throughput:** Total data delivered per unit time (including retransmissions). **Goodput:** Useful
 application data delivered per unit time (excluding headers, retransmissions).
 
-$$\text{Goodput} = \text{Throughput} \times \frac{\text{Application} data}{\text{Total} bytes transferred} \times (1 - \text{loss} rate)$$
+$$
+\text{Goodput} = \text{Throughput} \times \frac{\text{Application} data}{\text{Total} bytes transferred} \times (1 - \text{loss} rate)
+$$
 
 **Bandwidth-Delay Product (BDP):** The amount of data "in flight" (sent but not yet acknowledged):
 
-$$\text{BDP} = \text{Bandwidth} \times \text{RTT}$$
+$$
+\text{BDP} = \text{Bandwidth} \times \text{RTT}
+$$
 
 For a 1 Gbps link with 50 ms RTT: $\text{BDP} = 10^9 \times 0.05 = 50 \times 10^6$ bits $= 6.25$ MB.
 
@@ -774,7 +782,9 @@ mitigates this: the AP's CTS is heard by both stations.
 **Theorem 10.1.** The throughput of Wi-Fi under saturation (always a packet to send) with $n$
 stations is approximately:
 
-$$S \approx \frac{P_s \cdot P_{tr} \cdot E[p]}{(1 - P_{tr})\sigma + P_{tr}P_s T_s + P_{tr}(1 - P_s)T_c}$$
+$$
+S \approx \frac{P_s \cdot P_{tr} \cdot E[p]}{(1 - P_{tr})\sigma + P_{tr}P_s T_s + P_{tr}(1 - P_s)T_c}
+$$
 
 Where $P_{tr}$ is the probability that at least one station transmits, $P_s$ is the probability of
 exactly one transmission, $T_s$ is the time for a successful transmission, $T_c$ is the time for a
@@ -1142,11 +1152,15 @@ per server).
 
 **Erlang C formula** (probability that an arriving customer must wait):
 
-$$P(\text{wait}) = \frac{(c\rho)^c}{c!(1 - \rho)} \cdot \frac{1}{\sum_{k=0}^{c-1} \frac{(c\rho)^k}{k!} + \frac{(c\rho)^c}{c!(1-\rho)}}$$
+$$
+P(\text{wait}) = \frac{(c\rho)^c}{c!(1 - \rho)} \cdot \frac{1}{\sum_{k=0}^{c-1} \frac{(c\rho)^k}{k!} + \frac{(c\rho)^c}{c!(1-\rho)}}
+$$
 
 **Average number in queue:**
 
-$$L_q = \frac{P(\text{wait}) \cdot \rho}{1 - \rho}$$
+$$
+L_q = \frac{P(\text{wait}) \cdot \rho}{1 - \rho}
+$$
 
 <details>
 <summary>Worked Example: M/M/c Queue for Server Farm</summary>
@@ -1163,7 +1177,9 @@ complex to compute by hand. Let me use the simplified formula.
 
 $a = \lambda / \mu = 10/3 = 3.333$.
 
-$$P_0 = \left[\sum_{k=0}^{3} \frac{a^k}{k!} + \frac{a^4}{4!(1-\rho)}\right]^{-1}$$
+$$
+P_0 = \left[\sum_{k=0}^{3} \frac{a^k}{k!} + \frac{a^4}{4!(1-\rho)}\right]^{-1}
+$$
 
 $= [1 + 3.333 + 5.556 + 6.173 + \frac{123.46}{24 \times 0.167}]^{-1}$
 $= [1 + 3.333 + 5.556 + 6.173 + 30.77]^{-1}$ $= [46.83]^{-1} = 0.0214$
@@ -1248,11 +1264,15 @@ exceeds 20 packets. (Hint: $P(n \geq k) = \rho^k$.)
 
 Using the TCP Reno throughput formula:
 
-$$\text{Throughput} \approx \frac{1.22 \times \text{MSS}{\text{RTT} \times \sqrt{p}}}$$
+$$
+\text{Throughput} \approx \frac{1.22 \times \text{MSS}{\text{RTT} \times \sqrt{p}}}
+$$
 
 $\text{MSS} = 1460$ bytes $= 11680$ bits. $\text{RTT} = 80$ ms $= 0.08$ s. $p = 0.001$.
 
-$$\text{Throughput} \approx \frac{1.22 \times 11680}{0.08 \times \sqrt{0.001}} = \frac{14249.6}{0.08 \times 0.03162} = \frac{14249.6}{0.002530} \approx 5\,632\,727 \text{ bits/s} \approx 5.63 \text{ Mbps}$$
+$$
+\text{Throughput} \approx \frac{1.22 \times 11680}{0.08 \times \sqrt{0.001}} = \frac{14249.6}{0.08 \times 0.03162} = \frac{14249.6}{0.002530} \approx 5\,632\,727 \text{ bits/s} \approx 5.63 \text{ Mbps}
+$$
 
 The BDP is $\text{BW} \times \text{RTT} = 5.63 \times 10^6 \times 0.08 = 450\,640$ bits
 $\approx 54.9$ KB. The receive window must be at least this for full utilisation.

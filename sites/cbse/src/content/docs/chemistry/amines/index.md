@@ -84,11 +84,15 @@ Decreasing basicity: $(\text{CH}_3)_2\text{NH} > \text{CH}_3\text{NH}_2 > \text{
 The Hinsberg reagent is benzenesulfonyl chloride ($\text{C}_6\text{H}_5\text{SO}_2\text{Cl}$).
 
 - **Primary amine:** Reacts to form a sulfonamide with an acidic N-H proton. Dissolves in NaOH:
-  $$\text{RNH}_2 + \text{C}_6\text{H}_5\text{SO}_2\text{Cl} \rightarrow \text{C}_6\text{H}_5\text{SO}_2\text{NHR} + \text{HCl}$$
+  $$
+  \text{RNH}_2 + \text{C}_6\text{H}_5\text{SO}_2\text{Cl} \rightarrow \text{C}_6\text{H}_5\text{SO}_2\text{NHR} + \text{HCl}
+  $$
   Product is soluble in NaOH.
 
 - **Secondary amine:** Reacts to form a sulfonamide without acidic proton. Insoluble in NaOH:
-  $$\text{R}_2\text{NH} + \text{C}_6\text{H}_5\text{SO}_2\text{Cl} \rightarrow \text{C}_6\text{H}_5\text{SO}_2\text{NR}_2 + \text{HCl}$$
+  $$
+  \text{R}_2\text{NH} + \text{C}_6\text{H}_5\text{SO}_2\text{Cl} \rightarrow \text{C}_6\text{H}_5\text{SO}_2\text{NR}_2 + \text{HCl}
+  $$
   Product is insoluble in NaOH.
 
 - **Tertiary amine:** Does not react with benzenesulfonyl chloride.
@@ -101,7 +105,9 @@ The Hinsberg reagent is benzenesulfonyl chloride ($\text{C}_6\text{H}_5\text{SO}
 
 **Solution:**
 
-$$\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + \text{C}_6\text{H}_5\text{OH} \xrightarrow{\text{NaOH}} \text{C}_6\text{H}_5-\text{N}=\text{N}-\text{C}_6\text{H}_4-\text{OH} + \text{NaCl} + \text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + \text{C}_6\text{H}_5\text{OH} \xrightarrow{\text{NaOH}} \text{C}_6\text{H}_5-\text{N}=\text{N}-\text{C}_6\text{H}_4-\text{OH} + \text{NaCl} + \text{H}_2\text{O}
+$$
 
 Product: 4-hydroxyazobenzene (an orange-red azo dye)
 

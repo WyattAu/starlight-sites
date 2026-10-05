@@ -279,7 +279,9 @@ maximum-weight subset of non-overlapping intervals.
 = the largest index $i < j$ such that interval $i$ does not overlap interval $j$ (i.e.,
 $f_i \leq s_j$).
 
-$$OPT(j) = \max\{w_j + OPT(p(j)),\ OPT(j-1)\}$$
+$$
+OPT(j) = \max\{w_j + OPT(p(j)),\ OPT(j-1)\}
+$$
 
 Base case: $OPT(0) = 0$.
 
@@ -343,13 +345,17 @@ dummy key probabilities $q_0, q_1, \ldots, q_n$ (for searches between keys), fin
 the expected search cost.
 
 **Expected cost:**
-$$E[\text{cost}] = \sum_{i=1}^{n} (d(k_i) + 1) \cdot p_i + \sum_{j=0}^{n} (d(d_j) + 1) \cdot q_j$$
+$$
+E[\text{cost}] = \sum_{i=1}^{n} (d(k_i) + 1) \cdot p_i + \sum_{j=0}^{n} (d(d_j) + 1) \cdot q_j
+$$
 
 Where $d$ is the depth of the node and $d_j$ is the depth of dummy key $j$.
 
 **DP formulation:** Let $e[i, j]$ be the expected search cost for keys $k_i, \ldots, k_j$.
 
-$$e[i, j] = \begin{cases} q_{i-1} & \text{if}  j = i - 1 \\ \min_{r=i}^{j}\{e[i, r-1] + e[r+1, j] + w(i, j)\} & \text{if}  i \leq j \end{cases}$$
+$$
+e[i, j] = \begin{cases} q_{i-1} & \text{if}  j = i - 1 \\ \min_{r=i}^{j}\{e[i, r-1] + e[r+1, j] + w(i, j)\} & \text{if}  i \leq j \end{cases}
+$$
 
 Where $w(i, j) = \sum_{l=i}^{j} p_l + \sum_{l=i-1}^{j} q_l$ is the total probability of the subtree.
 
@@ -406,11 +412,15 @@ $S \subseteq \{0, \ldots, n-1\}$ is represented as an integer where bit $i$ is s
 **The Travelling Salesman Problem (TSP).** Find the shortest tour visiting all $n$ cities exactly
 once and returning to the start.
 
-$$dp[S][i] = \text{minimum} cost to visit all cities in  S \text{ starting} from city 0, ending at city  i$$
+$$
+dp[S][i] = \text{minimum} cost to visit all cities in  S \text{ starting} from city 0, ending at city  i
+$$
 
 **Recurrence:**
 
-$$dp[S][i] = \min_{j \in S, j \neq i} \{dp[S \setminus \{i\}][j] + \text{dist}(j, i)\}$$
+$$
+dp[S][i] = \min_{j \in S, j \neq i} \{dp[S \setminus \{i\}][j] + \text{dist}(j, i)\}
+$$
 
 **Base case:** $dp[\{0\}][0] = 0$, $dp[S][i] = \infty$ for $i \notin S$.
 
@@ -535,7 +545,9 @@ per comparison.
 $h(s) = \left(\sum_{i=0}^{m-1} s[i] \cdot p^{m-1-i}\right) \bmod q$The hash of the substring
 $T[i+1..i+m]$ can be computed from the hash of $T[i..i+m-1]$ in $O(1)$:
 
-$$h(T[i+1..i+m]) = (h(T[i..i+m-1]) - T[i] \cdot p^{m-1}) \cdot p + T[i+m] \pmod q$$
+$$
+h(T[i+1..i+m]) = (h(T[i..i+m-1]) - T[i] \cdot p^{m-1}) \cdot p + T[i+m] \pmod q
+$$
 
 **Expected time:** $O(n + m)$ average, $O(nm)$ worst case (when many hash collisions occur).
 
@@ -732,7 +744,9 @@ the min-cut property). The probability of contracting an edge of the minimum cut
 $k / (ik/2) = 2/i$.
 
 The probability that the minimum cut survives is:
-$$\prod_{i=3}^{n} \left(1 - \frac{2}{i}\right) = \prod_{i=3}^{n} \frac{i-2}{i} = \frac{(n-2)!}{n!} \cdot 2! = \frac{2}{n(n-1)}$$
+$$
+\prod_{i=3}^{n} \left(1 - \frac{2}{i}\right) = \prod_{i=3}^{n} \frac{i-2}{i} = \frac{(n-2)!}{n!} \cdot 2! = \frac{2}{n(n-1)}
+$$
 $\blacksquare$
 
 **Running $O(n^2 \log n)$ repetitions** gives probability of failure at most $1/n$ (by union bound).
@@ -1070,7 +1084,9 @@ _Proof._ 3-SAT is in NP. To show NP-hardness, reduce from SAT. Given a clause $C
 literals, introduce new variables $y_1, \ldots, y_{k-3}$ and replace
 $C = (l_1 \lor l_2 \lor \cdots \lor l_k)$ with:
 
-$$(l_1 \lor l_2 \lor y_1) \land (\neg y_1 \lor l_3 \lor y_2) \land (\neg y_2 \lor l_4 \lor y_3) \land \cdots \land (\neg y_{k-3} \lor l_{k-1} \lor l_k)$$
+$$
+(l_1 \lor l_2 \lor y_1) \land (\neg y_1 \lor l_3 \lor y_2) \land (\neg y_2 \lor l_4 \lor y_3) \land \cdots \land (\neg y_{k-3} \lor l_{k-1} \lor l_k)
+$$
 
 This is satisfiable iff the original clause is satisfiable. The reduction is polynomial.
 $\blacksquare$
@@ -1170,7 +1186,9 @@ Given a string $S$ of length $n$Find the length of the longest subsequence that 
 
 **Recurrence:**
 
-$$dp[i][j] = \begin{cases} 1 & \text{if} {} i = j \\ 2 + dp[i+1][j-1] & \text{if} {} S[i] = S[j] \\ \max(dp[i+1][j], dp[i][j-1]) & \text{if} {} S[i] \neq S[j] \end{cases}$$
+$$
+dp[i][j] = \begin{cases} 1 & \text{if} {} i = j \\ 2 + dp[i+1][j-1] & \text{if} {} S[i] = S[j] \\ \max(dp[i+1][j], dp[i][j-1]) & \text{if} {} S[i] \neq S[j] \end{cases}
+$$
 
 **Running time:** $O(n^2)$Space $O(n^2)$ (or $O(n)$ with optimisation).
 
@@ -1318,7 +1336,9 @@ Encrypt $m = 3$: $c = 3^5 \bmod 91 = 243 \bmod 91 = 61$. Decrypt: $m = 61^{29} \
 The **FFT** computes the Discrete Fourier Transform in $O(n \log n)$ time, compared to $O(n^2)$ for
 the naive DFT.
 
-$$X_k = \sum_{j=0}^{n-1} x_j \cdot \omega^{jk}$$
+$$
+X_k = \sum_{j=0}^{n-1} x_j \cdot \omega^{jk}
+$$
 
 Where $\omega = e^{-2\pi i / n}$ is the $n$-th root of unity.
 
@@ -1506,7 +1526,9 @@ assigned.
 
 **Problem 5.** Solve the TSP for 5 cities with the following distance matrix using bitmask DP:
 
-$$D = \begin{pmatrix} 0 & 3 & 1 & 5 & 2 \\ 3 & 0 & 6 & 4 & 3 \\ 1 & 6 & 0 & 2 & 1 \\ 5 & 4 & 2 & 0 & 7 \\ 2 & 3 & 1 & 7 & 0 \end{pmatrix}$$
+$$
+D = \begin{pmatrix} 0 & 3 & 1 & 5 & 2 \\ 3 & 0 & 6 & 4 & 3 \\ 1 & 6 & 0 & 2 & 1 \\ 5 & 4 & 2 & 0 & 7 \\ 2 & 3 & 1 & 7 & 0 \end{pmatrix}
+$$
 
 **Problem 6.** Given $n$ jobs with start times, finish times, and profits, find the maximum profit
 subset of non-overlapping jobs. Jobs: (1, 3, 50), (2, 5, 10), (4, 6, 40), (6, 9, 70), (5, 7, 30),

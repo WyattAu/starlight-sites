@@ -21,26 +21,38 @@ description: "Reciprocal Lattice: comprehensive educational content notes with p
 
 The **reciprocal lattice vectors** are defined by:
 
-$$\mathbf{b}_1 = 2\pi\frac{\mathbf{a}_2 \times \mathbf{a}_3}{\mathbf{a}_1 \cdot (\mathbf{a}_2 \times \mathbf{a}_3)}$$
+$$
+\mathbf{b}_1 = 2\pi\frac{\mathbf{a}_2 \times \mathbf{a}_3}{\mathbf{a}_1 \cdot (\mathbf{a}_2 \times \mathbf{a}_3)}
+$$
 
-$$\mathbf{b}_2 = 2\pi\frac{\mathbf{a}_3 \times \mathbf{a}_1}{\mathbf{a}_1 \cdot (\mathbf{a}_2 \times \mathbf{a}_3)}$$
+$$
+\mathbf{b}_2 = 2\pi\frac{\mathbf{a}_3 \times \mathbf{a}_1}{\mathbf{a}_1 \cdot (\mathbf{a}_2 \times \mathbf{a}_3)}
+$$
 
-$$\mathbf{b}_3 = 2\pi\frac{\mathbf{a}_1 \times \mathbf{a}_2}{\mathbf{a}_1 \cdot (\mathbf{a}_2 \times \mathbf{a}_3)}$$
+$$
+\mathbf{b}_3 = 2\pi\frac{\mathbf{a}_1 \times \mathbf{a}_2}{\mathbf{a}_1 \cdot (\mathbf{a}_2 \times \mathbf{a}_3)}
+$$
 
 Every reciprocal lattice point is at:
 
-$$\mathbf{G} = m_1\mathbf{b}_1 + m_2\mathbf{b}_2 + m_3\mathbf{b}_3, \quad m_i \in \mathbb{Z}$$
+$$
+\mathbf{G} = m_1\mathbf{b}_1 + m_2\mathbf{b}_2 + m_3\mathbf{b}_3, \quad m_i \in \mathbb{Z}
+$$
 
 **Key property:** $\mathbf{G} \cdot \mathbf{R} = 2\pi \times \mathrm{integer}$ So
 $e^{i\mathbf{G}\cdot\mathbf{R}} = 1$.
 
 **Proof of key property.**
 
-$$\mathbf{G} \cdot \mathbf{R} = (m_1\mathbf{b}_1 + m_2\mathbf{b}_2 + m_3\mathbf{b}_3) \cdot (n_1\mathbf{a}_1 + n_2\mathbf{a}_2 + n_3\mathbf{a}_3)$$
+$$
+\mathbf{G} \cdot \mathbf{R} = (m_1\mathbf{b}_1 + m_2\mathbf{b}_2 + m_3\mathbf{b}_3) \cdot (n_1\mathbf{a}_1 + n_2\mathbf{a}_2 + n_3\mathbf{a}_3)
+$$
 
 By the orthogonality relation $\mathbf{b}_i \cdot \mathbf{a}_j = 2\pi\delta_{ij}$:
 
-$$\mathbf{G} \cdot \mathbf{R} = 2\pi(m_1 n_1 + m_2 n_2 + m_3 n_3) = 2\pi \times \mathrm{integer}$$
+$$
+\mathbf{G} \cdot \mathbf{R} = 2\pi(m_1 n_1 + m_2 n_2 + m_3 n_3) = 2\pi \times \mathrm{integer}
+$$
 
 $\blacksquare$
 
@@ -90,7 +102,9 @@ plane is $d_{hkl} = 2\pi/\lvert\mathbf{G}_{hkl}\rvert$. $\blacksquare$
 
 For a 2D square lattice with primitive vectors $\mathbf{a}_1 = a\hat{x}$, $\mathbf{a}_2 = a\hat{y}$:
 
-$$\mathbf{b}_1 = \frac{2\pi}{a}\hat{x}, \quad \mathbf{b}_2 = \frac{2\pi}{a}\hat{y}$$
+$$
+\mathbf{b}_1 = \frac{2\pi}{a}\hat{x}, \quad \mathbf{b}_2 = \frac{2\pi}{a}\hat{y}
+$$
 
 The nearest reciprocal lattice points to the origin are at $(\pm 2\pi/a,\, 0)$ and
 $(0,\, \pm 2\pi/a)$. Their perpendicular bisectors are the lines $k_x = \pm\pi/a$ and
@@ -113,7 +127,9 @@ Neighbours.
 For a 2D hexagonal lattice with $\mathbf{a}_1 = a\hat{x}$
 $\mathbf{a}_2 = a(\hat{x}/2 + \sqrt{3}\hat{y}/2)$:
 
-$$\mathbf{b}_1 = \frac{2\pi}{a}\left(\hat{x} - \frac{\hat{y}}{\sqrt{3}}\right), \quad \mathbf{b}_2 = \frac{4\pi}{a\sqrt{3}}\hat{y}$$
+$$
+\mathbf{b}_1 = \frac{2\pi}{a}\left(\hat{x} - \frac{\hat{y}}{\sqrt{3}}\right), \quad \mathbf{b}_2 = \frac{4\pi}{a\sqrt{3}}\hat{y}
+$$
 
 The six nearest reciprocal lattice points form a regular hexagon. The perpendicular bisectors of The
 six nearest-neighbour vectors form a regular hexagon centred at the origin --- the first Brillouin
@@ -181,7 +197,9 @@ $h,k,l$ are all even or all odd.
 
 For allowed FCC reflections, the basis factor is:
 
-$$F_{\mathrm{basis} = f_{\mathrm{Na} + f_{\mathrm{Cl}\, e^{-i\pi h}}}}$$
+$$
+F_{\mathrm{basis} = f_{\mathrm{Na} + f_{\mathrm{Cl}\, e^{-i\pi h}}}}
+$$
 
 When $h,k,l$ are all even: $F = f_{\mathrm{Na} + f_{\mathrm{Cl}}}$. When $h,k,l$ are all odd:
 $F = f_{\mathrm{Na} - f_{\mathrm{Cl}}}$.

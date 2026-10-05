@@ -967,11 +967,17 @@ Mole of water formed.
 <details>
 <summary>Answer</summary>
 
-$$q = mc\Delta T = 100.0 \times 4.18 \times 6.8 = 2842\mathrm{ J} = 2.842\mathrm{ kJ}$$
+$$
+q = mc\Delta T = 100.0 \times 4.18 \times 6.8 = 2842\mathrm{ J} = 2.842\mathrm{ kJ}
+$$
 
-$$n(\mathrm{H}_2\mathrm{O}) = 0.0500 \times 1.0 = 0.0500\mathrm{ mol}$$
+$$
+n(\mathrm{H}_2\mathrm{O}) = 0.0500 \times 1.0 = 0.0500\mathrm{ mol}
+$$
 
-$$\Delta H = -\frac{2.842}{0.0500} = -56.8\mathrm{ kJ/mol}$$
+$$
+\Delta H = -\frac{2.842}{0.0500} = -56.8\mathrm{ kJ/mol}
+$$
 
 </details>
 
@@ -980,7 +986,9 @@ $$\Delta H = -\frac{2.842}{0.0500} = -56.8\mathrm{ kJ/mol}$$
 
 Using standard enthalpies of formation, calculate $\Delta H_r^\circ$ for the combustion of propane:
 
-$$\mathrm{C}_3\mathrm{H}_8(g) + 5\mathrm{O}_2(g) \to 3\mathrm{CO}_2(g) + 4\mathrm{H}_2\mathrm{O}(l)$$
+$$
+\mathrm{C}_3\mathrm{H}_8(g) + 5\mathrm{O}_2(g) \to 3\mathrm{CO}_2(g) + 4\mathrm{H}_2\mathrm{O}(l)
+$$
 
 Given: $\Delta H_f^\circ(\mathrm{C}_3\mathrm{H}_8) = -104\mathrm{ kJ/mol}$
 $\Delta H_f^\circ(\mathrm{CO}_2) = -394\mathrm{ kJ/mol}$
@@ -991,11 +999,17 @@ $\Delta H_f^\circ(\mathrm{H}_2\mathrm{O}) = -286\mathrm{ kJ/mol}$.
 <details>
 <summary>Answer</summary>
 
-$$\Delta H_r^\circ = \sum \Delta H_f^\circ(\mathrm{products}) - \sum \Delta H_f^\circ(\mathrm{reactants})$$
+$$
+\Delta H_r^\circ = \sum \Delta H_f^\circ(\mathrm{products}) - \sum \Delta H_f^\circ(\mathrm{reactants})
+$$
 
-$$= [3(-394) + 4(-286)] - [(-104) + 5(0)]$$
+$$
+= [3(-394) + 4(-286)] - [(-104) + 5(0)]
+$$
 
-$$= (-1182 - 1144) - (-104) = -2326 + 104 = -2222\mathrm{ kJ/mol}$$
+$$
+= (-1182 - 1144) - (-104) = -2326 + 104 = -2222\mathrm{ kJ/mol}
+$$
 
 </details>
 
@@ -1004,7 +1018,9 @@ $$= (-1182 - 1144) - (-104) = -2326 + 104 = -2222\mathrm{ kJ/mol}$$
 
 Using average bond enthalpies, calculate $\Delta H$ for the reaction:
 
-$$\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \to 2\mathrm{NH}_3(g)$$
+$$
+\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \to 2\mathrm{NH}_3(g)
+$$
 
 Given: $\mathrm{N} \equiv \mathrm{N} = 945\mathrm{ kJ/mol}$
 $\mathrm{H}-\mathrm{H} = 436\mathrm{ kJ/mol}$, $\mathrm{N}-\mathrm{H} = 391\mathrm{ kJ/mol}$.
@@ -1019,7 +1035,9 @@ $1(\mathrm{N} \equiv \mathrm{N}) + 3(\mathrm{H}-\mathrm{H}) = 945 + 3(436) = 945
 
 Bonds formed: $6(\mathrm{N}-\mathrm{H}) = 6 \times 391 = 2346\mathrm{ kJ/mol}$
 
-$$\Delta H = 2253 - 2346 = -93\mathrm{ kJ/mol}$$
+$$
+\Delta H = 2253 - 2346 = -93\mathrm{ kJ/mol}
+$$
 
 The actual value is $-92\mathrm{ kJ/mol}$ So the bond enthalpy approximation is close.
 
@@ -1030,7 +1048,9 @@ The actual value is $-92\mathrm{ kJ/mol}$ So the bond enthalpy approximation is 
 
 For the decomposition of calcium carbonate:
 
-$$\mathrm{CaCO}_3(s) \to \mathrm{CaO}(s) + \mathrm{CO}_2(g)$$
+$$
+\mathrm{CaCO}_3(s) \to \mathrm{CaO}(s) + \mathrm{CO}_2(g)
+$$
 
 $\Delta H = +178\mathrm{ kJ/mol}$, $\Delta S = +161\mathrm{ J/(mol \cdot K)}$.
 
@@ -1044,13 +1064,17 @@ $\Delta H = +178\mathrm{ kJ/mol}$, $\Delta S = +161\mathrm{ J/(mol \cdot K)}$.
 <summary>Answer</summary>
 
 (a)
-$$\Delta G = \Delta H - T\Delta S = 178000 - 298 \times 161 = 178000 - 47978 = +130\,022\mathrm{ J/mol} = +130\mathrm{ kJ/mol}$$
+$$
+\Delta G = \Delta H - T\Delta S = 178000 - 298 \times 161 = 178000 - 47978 = +130\,022\mathrm{ J/mol} = +130\mathrm{ kJ/mol}
+$$
 
 Since $\Delta G \gt 0$The reaction is **not spontaneous** at $298\mathrm{ K}$.
 
 (b) At $\Delta G = 0$:
 
-$$T = \frac{\Delta H}{\Delta S} = \frac{178000}{161} = 1106\mathrm{ K}$$
+$$
+T = \frac{\Delta H}{\Delta S} = \frac{178000}{161} = 1106\mathrm{ K}
+$$
 
 The reaction becomes spontaneous above $1106\mathrm{ K}$ (approximately $833\degree\mathrm{C}$).
 

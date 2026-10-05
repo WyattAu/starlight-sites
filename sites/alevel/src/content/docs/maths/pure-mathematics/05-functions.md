@@ -66,7 +66,9 @@ Domain: $[-2, 1) \cup (1, \infty)$.
 **Definition.** Given functions $f: A \to B$ and $g: B \to C$The _composition_ $g \circ f: A \to C$
 is defined by:
 
-$$(g \circ f)(x) = g(f(x))$$
+$$
+(g \circ f)(x) = g(f(x))
+$$
 
 **Theorem.** Function composition is associative: $(h \circ g) \circ f = h \circ (g \circ f)$.
 
@@ -128,17 +130,29 @@ Codomain (surjectivity).
 <summary>Example</summary>
 Find the inverse of $f(x) = \frac{2x + 3}{x - 1}$, $x \neq 1$.
 
-$$y = \frac{2x + 3}{x - 1}$$
+$$
+y = \frac{2x + 3}{x - 1}
+$$
 
-$$y(x - 1) = 2x + 3$$
+$$
+y(x - 1) = 2x + 3
+$$
 
-$$yx - y = 2x + 3$$
+$$
+yx - y = 2x + 3
+$$
 
-$$yx - 2x = y + 3$$
+$$
+yx - 2x = y + 3
+$$
 
-$$x(y - 2) = y + 3$$
+$$
+x(y - 2) = y + 3
+$$
 
-$$x = \frac{y + 3}{y - 2}$$
+$$
+x = \frac{y + 3}{y - 2}
+$$
 
 So $f^{-1}(x) = \frac{x + 3}{x - 2}$With domain $x \neq 2$.
 
@@ -159,7 +173,9 @@ $y = f^{-1}(x)$. Swapping coordinates is reflection in $y = x$. $\blacksquare$
 
 **Definition.** The _modulus_ (absolute value) function is defined by:
 
-$$|x| = \begin{cases} x & \mathrm{if } x \geq 0 \\ -x & \mathrm{if } x < 0 \end{cases}$$
+$$
+|x| = \begin{cases} x & \mathrm{if } x \geq 0 \\ -x & \mathrm{if } x < 0 \end{cases}
+$$
 
 **Properties:**
 
@@ -261,7 +277,9 @@ $f(ax)$ stretches by $\frac{1}{a}$ (not $a$). This is the single most common err
 
 When multiple transformations are applied, the order matters. The convention is:
 
-$$y = af(x - p) + q$$
+$$
+y = af(x - p) + q
+$$
 
 Represents: horizontal translation by $p$ (right), vertical stretch by factor $a$Vertical
 Translation by $q$ (up).
@@ -364,7 +382,9 @@ Bijective. And by definition of inverse, $f^{-1} = f$. $\blacksquare$
 
 _Proof for $f(x) = (ax+b)/(cx-a)$._ Let $f(x) = \frac{ax+b}{cx-a}$. Then:
 
-$$f(f(x)) = \frac{a \cdot \frac{ax+b}{cx-a} + b}{c \cdot \frac{ax+b}{cx-a} - a} = \frac{\frac{a(ax+b) + b(cx-a)}{cx-a}}{\frac{c(ax+b) - a(cx-a)}{cx-a}} = \frac{a^2 x + ab + bcx - ab}{acx + bc - acx + a^2} = \frac{(a^2 + bc)x}{a^2 + bc} = x$$
+$$
+f(f(x)) = \frac{a \cdot \frac{ax+b}{cx-a} + b}{c \cdot \frac{ax+b}{cx-a} - a} = \frac{\frac{a(ax+b) + b(cx-a)}{cx-a}}{\frac{c(ax+b) - a(cx-a)}{cx-a}} = \frac{a^2 x + ab + bcx - ab}{acx + bc - acx + a^2} = \frac{(a^2 + bc)x}{a^2 + bc} = x
+$$
 
 $\blacksquare$ (provided $a^2 + bc \neq 0$).
 
@@ -481,11 +501,15 @@ Completing the square: $f(x) = (x - 2)^2 + 5$.
 
 For $x \geq 2$$f$ is injective (strictly increasing).
 
-$$y = (x - 2)^2 + 5 \implies (x - 2)^2 = y - 5 \implies x - 2 = \sqrt{y - 5}$$
+$$
+y = (x - 2)^2 + 5 \implies (x - 2)^2 = y - 5 \implies x - 2 = \sqrt{y - 5}
+$$
 
 (taking the positive root since $x \geq 2$).
 
-$$x = \sqrt{y - 5} + 2$$
+$$
+x = \sqrt{y - 5} + 2
+$$
 
 $f^{-1}(x) = \sqrt{x - 5} + 2$Domain $x \geq 5$.
 
@@ -588,9 +612,13 @@ X^2 - 6x + 9 &> 4x^2 + 4x + 1 \\
 \end{aligned}
 $$
 
-$$(3x - 2)(x + 4) < 0$$
+$$
+(3x - 2)(x + 4) < 0
+$$
 
-$$-4 < x < \frac{2}{3}$$
+$$
+-4 < x < \frac{2}{3}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Modulus function](#4-the-modulus-function)
@@ -701,7 +729,9 @@ $\{x \in \mathbb{R} : f(x) \geq 1\} = \{x : 2x + 3 \geq 1\} = \{x : x \geq -1\} 
 
 <details>
 <summary>Solution</summary>
-$$f(f(x)) = \frac{3 \cdot \frac{3x+2}{x-3} + 2}{\frac{3x+2}{x-3} - 3} = \frac{\frac{3(3x+2) + 2(x-3)}{x-3}}{\frac{3x+2 - 3(x-3)}{x-3}} = \frac{9x + 6 + 2x - 6}{3x + 2 - 3x + 9} = \frac{11x}{11} = x$$
+$$
+f(f(x)) = \frac{3 \cdot \frac{3x+2}{x-3} + 2}{\frac{3x+2}{x-3} - 3} = \frac{\frac{3(3x+2) + 2(x-3)}{x-3}}{\frac{3x+2 - 3(x-3)}{x-3}} = \frac{9x + 6 + 2x - 6}{3x + 2 - 3x + 9} = \frac{11x}{11} = x
+$$
 
 Since $f(f(x)) = x$$f$ is self-inverse. ✓
 

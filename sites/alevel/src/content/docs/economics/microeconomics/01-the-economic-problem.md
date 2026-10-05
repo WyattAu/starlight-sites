@@ -51,7 +51,9 @@ Maximises an objective function subject to constraints.
 We define the **opportunity cost** of a decision as the value of the next-best alternative forgone
 As a result of that decision.
 
-$$\mathrm{Opportunity cost of } A = \max_{B \neq A} \{U(B)\}$$
+$$
+\mathrm{Opportunity cost of } A = \max_{B \neq A} \{U(B)\}
+$$
 
 Where $U(B)$ is the utility (or value) of alternative $B$. This is not the sum of all alternatives,
 Only the single best one that was rejected.
@@ -139,7 +141,9 @@ Consider an economy that produces two goods, $X$ and $Y$Using a fixed quantity o
 Define the **production possibility frontier (PPF)** as the set of all maximum combinations of $X$
 And $Y$ that the economy can produce when all resources are fully and efficiently employed.
 
-$$\mathrm{PPF} = \{(x, y) : x = f_X(L_X), \; y = f_Y(L_Y), \; L_X + L_Y = \bar{L}, \; f'_X, f'_Y > 0\}$$
+$$
+\mathrm{PPF} = \{(x, y) : x = f_X(L_X), \; y = f_Y(L_Y), \; L_X + L_Y = \bar{L}, \; f'_X, f'_Y > 0\}
+$$
 
 Where $L_X$ and $L_Y$ are the quantities of labour allocated to goods $X$ and $Y$ respectively, and
 $\bar{L}$ is total labour available.
@@ -158,7 +162,9 @@ Giving up _more_ $Y$.
 Formally, if the marginal product of labour in $X$ is diminishing ($f''_X < 0$) and the marginal
 Product in $Y$ is also diminishing, then:
 
-$$\frac{dy}{dx} = -\frac{f'_Y(L_Y)}{f'_X(L_X)}$$
+$$
+\frac{dy}{dx} = -\frac{f'_Y(L_Y)}{f'_X(L_X)}
+$$
 
 As $L_X$ increases, $f'_X(L_X)$ decreases (diminishing returns). As $L_Y$ decreases, $f'_Y(L_Y)$
 Increases. Therefore $\left|\frac{dy}{dx}\right|$ increases, the slope becomes steeper, producing
@@ -194,13 +200,17 @@ We define two types of efficiency:
 **Productive efficiency**: achieved when the economy is producing on the PPF (not inside it). All
 Resources are fully employed and used in their most productive applications.
 
-$$\mathrm{Productive efficiency} \iff (x, y) \in \mathrm{PPF}$$
+$$
+\mathrm{Productive efficiency} \iff (x, y) \in \mathrm{PPF}
+$$
 
 **Allocative efficiency**: achieved when the economy is producing the combination of goods that
 _society values most_. This requires that the marginal rate of transformation equals the marginal
 Rate of substitution:
 
-$$\mathrm{MRT}_{XY} = \mathrm{MRS}_{XY}$$
+$$
+\mathrm{MRT}_{XY} = \mathrm{MRS}_{XY}
+$$
 
 Where $\mathrm{MRT}_{XY} = \left|\frac{dy}{dx}\right|$ is the slope of the PPF and
 $\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}$ is the ratio of marginal utilities.
@@ -212,7 +222,9 @@ Outside the PPF is unattainable given current resources and technology.
 <summary>Example: PPF Analysis</summary>
 An economy can produce either guns or butter. Its PPF is given by:
 
-$$y = 100 - x^2$$
+$$
+y = 100 - x^2
+$$
 
 Where $x$ = guns, $y$ = butter (both in thousands of units).
 
@@ -331,12 +343,16 @@ Essay questions frequently ask students to assess the relative merits of differe
 A **positive statement** is a claim about what _is_, it can be tested against evidence and is
 Either true or false.
 
-$$\mathrm{Example: "A 10\% increase in the minimum wage reduces employment by 2\%."}$$
+$$
+\mathrm{Example: "A 10\% increase in the minimum wage reduces employment by 2\%."}
+$$
 
 A **normative statement** is a claim about what _ought to be_, it involves value judgements and
 Cannot be tested.
 
-$$\mathrm{Example: "The government should increase the minimum wage."}$$
+$$
+\mathrm{Example: "The government should increase the minimum wage."}
+$$
 
 ### 3.2 The Distinction Matters
 
@@ -686,12 +702,16 @@ This question requires evaluating the assumptions of rational choice theory agai
 **Example.** An economy produces two goods: capital goods ($K$) and consumer goods ($C$). The PPF is
 given by:
 
-$$C = 100 - 0.01K^2$$
+$$
+C = 100 - 0.01K^2
+$$
 
 **Current production:** $K = 40$, $C = 100 - 0.01(1600) = 84$.
 
 **Opportunity cost of increasing $K$ from 40 to 50:**
-$$\Delta C = C(50) - C(40) = (100 - 0.01(2500)) - (100 - 0.01(1600)) = 75 - 84 = -9$$
+$$
+\Delta C = C(50) - C(40) = (100 - 0.01(2500)) - (100 - 0.01(1600)) = 75 - 84 = -9
+$$
 
 The opportunity cost of 10 additional units of $K$ is 9 units of $C$.
 
@@ -722,14 +742,18 @@ used, requiring larger sacrifices of consumer goods.
 **Capital accumulation.** If the economy produces at $K = 60$, $C = 64$ And the capital stock grows
 at 5% per year:
 
-$$K_{t+1} = K_t + 0.05K_t = 1.05K_t$$
+$$
+K_{t+1} = K_t + 0.05K_t = 1.05K_t
+$$
 
 The new PPF (next period): $C = 100(1.05)^2 - 0.01K^2 \approx 110.25 - 0.01K^2$.
 
 Wait -- this is not quite right. Capital accumulation shifts the PPF outward because it increases
 the economy's productive capacity. If the PPF shifts proportionally:
 
-$$C = a(100 - 0.01K^2)$$
+$$
+C = a(100 - 0.01K^2)
+$$
 
 Where $a = 1.05$ (5% growth). New PPF: $C = 105 - 0.0105K^2$.
 
@@ -877,12 +901,16 @@ to the terms of trade gains less.
 
 **Example.** A small open economy can produce food ($F$) and clothing ($C$). Its PPF is:
 
-$$F = 500 - 0.005C^2$$
+$$
+F = 500 - 0.005C^2
+$$
 
 **Autarky equilibrium (no trade):** The domestic price ratio is $P_F/P_C = 0.01C$ (the slope of the
 PPF). If consumer preferences give an MRS of 2 (consumers value food at twice clothing):
 
-$$0.01C = 2 \Rightarrow C = 200, F = 500 - 0.005(40000) = 300$$
+$$
+0.01C = 2 \Rightarrow C = 200, F = 500 - 0.005(40000) = 300
+$$
 
 **With trade at world price ratio $P_F/P_C = 1$:** The economy specialises according to comparative
 advantage. The world price of 1 is BELOW the autarky price of 2, meaning food is relatively cheaper
@@ -970,7 +998,9 @@ $C(49) = 200 - 0.02(2401) = 151.98$. Opportunity cost $= 151.98 - 150 = 1.98 \ap
 
 **(c) PPF shift from 5% capital growth (5 marks).** A 5% increase in the capital stock means the
 productive capacity of the economy grows by 5%. If the PPF shifts proportionally:
-$$C = 1.05(200 - 0.02K^2) = 210 - 0.021K^2$$
+$$
+C = 1.05(200 - 0.02K^2) = 210 - 0.021K^2
+$$
 
 New maximum consumer goods: $C = 210$ (was 200). Increase of 10 units (5%). New maximum capital
 goods: $K = \sqrt{210/0.021} = \sqrt{10000} = 100$. No change in maximum $K$ because the

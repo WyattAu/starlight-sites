@@ -53,12 +53,16 @@ hydrogen cyanide ($\text{HCN}$), showing the formation of 2-hydroxybutanenitrile
 the electrophilic carbonyl carbon of propanal. The $\pi$-electrons of the C$=$O bond move onto the
 oxygen, forming a tetrahedral intermediate with a negatively charged oxygen:
 
-$$\text{CN}^- + \text{CH}_3\text{CH}_2\text{CH}=\text{O} \to \text{CH}_3\text{CH}_2\text{CH}(\text{CN})\text{O}^-$$
+$$
+\text{CN}^- + \text{CH}_3\text{CH}_2\text{CH}=\text{O} \to \text{CH}_3\text{CH}_2\text{CH}(\text{CN})\text{O}^-
+$$
 
 **Step 2:** The negatively charged oxygen is protonated by a hydrogen ion (from $\text{HCN}$ or
 $\text{H}_3\text{O}^+$ in solution), forming the hydroxynitrile:
 
-$$\text{CH}_3\text{CH}_2\text{CH}(\text{CN})\text{O}^- + \text{H}^+ \to \text{CH}_3\text{CH}_2\text{CH}(\text{CN})\text{OH}$$
+$$
+\text{CH}_3\text{CH}_2\text{CH}(\text{CN})\text{O}^- + \text{H}^+ \to \text{CH}_3\text{CH}_2\text{CH}(\text{CN})\text{OH}
+$$
 
 Product: **2-hydroxybutanenitrile** (also called 2-hydroxybutyronitrile).
 
@@ -67,7 +71,9 @@ very little $\text{CN}^-$ nucleophile is present. The nucleophile in the reactio
 (not HCN itself, which has no lone pair available on carbon). A **base catalyst** (even weak bases
 like $\text{CN}^-$ itself) removes a proton from HCN to generate $\text{CN}^-$:
 
-$$\text{HCN} + \text{OH}^- \rightleftharpoons \text{CN}^- + \text{H}_2\text{O}$$
+$$
+\text{HCN} + \text{OH}^- \rightleftharpoons \text{CN}^- + \text{H}_2\text{O}
+$$
 
 This shifts the equilibrium to produce more $\text{CN}^-$Dramatically increasing the rate of
 nucleophilic attack. Without a base, the concentration of $\text{CN}^-$ is vanishingly small and the
@@ -119,7 +125,9 @@ the methyl group.
 Concentrated nitric acid and concentrated sulfuric acid generate the nitronium ion
 ($\text{NO}_2^+$):
 
-$$\text{HNO}_3 + \text{H}_2\text{SO}_4 \to \text{NO}_2^+ + \text{HSO}_4^- + \text{H}_2\text{O}$$
+$$
+\text{HNO}_3 + \text{H}_2\text{SO}_4 \to \text{NO}_2^+ + \text{HSO}_4^- + \text{H}_2\text{O}
+$$
 
 $\text{H}_2\text{SO}_4$ acts as a stronger acid, protonating $\text{HNO}_3$Which then loses water to
 form $\text{NO}_2^+$.
@@ -211,7 +219,9 @@ $\pi$-system of the benzene ring (delocalisation), making it less available for 
 
 (b) Phenylamine reacts with nitrous acid:
 
-$$\text{C}_6\text{H}_5\text{NH}_2 + \text{HNO}_2 + \text{HCl} \to \text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + 2\text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{NH}_2 + \text{HNO}_2 + \text{HCl} \to \text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + 2\text{H}_2\text{O}
+$$
 
 Product: **benzenediazonium chloride**
 
@@ -254,19 +264,25 @@ Explain why these are in the 4-position relative to each other.
 **Step 1:** Friedel-Crafts alkylation (or acylation followed by reduction) to introduce an alkyl
 side chain:
 
-$$\text{C}_6\text{H}_6 + \text{CH}_3\text{Cl} \xrightarrow{\text{AlCl}_3} \text{C}_6\text{H}_5\text{CH}_3 + \text{HCl}$$
+$$
+\text{C}_6\text{H}_6 + \text{CH}_3\text{Cl} \xrightarrow{\text{AlCl}_3} \text{C}_6\text{H}_5\text{CH}_3 + \text{HCl}
+$$
 
 Product: **methylbenzene** (toluene)
 
 **Step 2:** Oxidation of the methyl group to carboxylic acid:
 
-$$\text{C}_6\text{H}_5\text{CH}_3 \xrightarrow{\text{KMnO}_4, \text{H}^+, \text{reflux}} \text{C}_6\text{H}_5\text{COOH}$$
+$$
+\text{C}_6\text{H}_5\text{CH}_3 \xrightarrow{\text{KMnO}_4, \text{H}^+, \text{reflux}} \text{C}_6\text{H}_5\text{COOH}
+$$
 
 Product: **benzoic acid**
 
 **Step 3:** Nitration of benzoic acid:
 
-$$\text{C}_6\text{H}_5\text{COOH} + \text{HNO}_3 \xrightarrow{\text{conc. H}_2\text{SO}_4, 50\,^\circ\text{C}} \text{4-O}_2\text{N}-\text{C}_6\text{H}_4-\text{COOH}$$
+$$
+\text{C}_6\text{H}_5\text{COOH} + \text{HNO}_3 \xrightarrow{\text{conc. H}_2\text{SO}_4, 50\,^\circ\text{C}} \text{4-O}_2\text{N}-\text{C}_6\text{H}_4-\text{COOH}
+$$
 
 Product: **4-nitrobenzoic acid**
 
@@ -291,11 +307,15 @@ Wait -- the $-\text{COOH}$ group is meta-directing, so nitration of benzoic acid
 
 **Step 1:** Nitration of benzene:
 
-$$\text{C}_6\text{H}_6 \xrightarrow{\text{HNO}_3/\text{H}_2\text{SO}_4} \text{C}_6\text{H}_5\text{NO}_2$$
+$$
+\text{C}_6\text{H}_6 \xrightarrow{\text{HNO}_3/\text{H}_2\text{SO}_4} \text{C}_6\text{H}_5\text{NO}_2
+$$
 
 **Step 2:** Reduction of nitro group to amine:
 
-$$\text{C}_6\text{H}_5\text{NO}_2 \xrightarrow{\text{Sn/HCl}} \text{C}_6\text{H}_5\text{NH}_2$$
+$$
+\text{C}_6\text{H}_5\text{NO}_2 \xrightarrow{\text{Sn/HCl}} \text{C}_6\text{H}_5\text{NH}_2
+$$
 
 **Step 3:** Protect/amide formation, then carboxylation... This is getting complex.
 
@@ -304,7 +324,9 @@ $$\text{C}_6\text{H}_5\text{NO}_2 \xrightarrow{\text{Sn/HCl}} \text{C}_6\text{H}
 **Step 1:** Friedel-Crafts alkylation of benzene with $\text{CH}_3\text{COCl}/\text{AlCl}_3$
 (acylation):
 
-$$\text{C}_6\text{H}_6 + \text{CH}_3\text{COCl} \xrightarrow{\text{AlCl}_3} \text{C}_6\text{H}_5\text{COCH}_3$$
+$$
+\text{C}_6\text{H}_6 + \text{CH}_3\text{COCl} \xrightarrow{\text{AlCl}_3} \text{C}_6\text{H}_5\text{COCH}_3
+$$
 
 **Step 2:** Nitration (methyl ketone is ortho/para-directing):
 
@@ -312,7 +334,9 @@ The nitro group enters the 4-position (para to the acyl group).
 
 **Step 3:** Oxidation of the acyl group to carboxylic acid:
 
-$$4\text{-O}_2\text{N}-\text{C}_6\text{H}_4-\text{COCH}_3 \xrightarrow{\text{KMnO}_4} 4\text{-O}_2\text{N}-\text{C}_6\text{H}_4-\text{COOH}$$
+$$
+4\text{-O}_2\text{N}-\text{C}_6\text{H}_4-\text{COCH}_3 \xrightarrow{\text{KMnO}_4} 4\text{-O}_2\text{N}-\text{C}_6\text{H}_4-\text{COOH}
+$$
 
 (c) The acyl (ketone) group in Step 2 is ortho/para-directing, so the nitro group enters the
 4-position (para, less sterically hindered than ortho). After oxidation, the 4-relationship is
@@ -409,7 +433,9 @@ molecular structure.
 
 (a) The reaction is **azo coupling** (electrophilic substitution):
 
-$$\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + \text{C}_6\text{H}_5\text{OH} \to \text{C}_6\text{H}_5\text{N}=\text{N}\text{C}_6\text{H}_4\text{OH} + \text{HCl}$$
+$$
+\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + \text{C}_6\text{H}_5\text{OH} \to \text{C}_6\text{H}_5\text{N}=\text{N}\text{C}_6\text{H}_4\text{OH} + \text{HCl}
+$$
 
 Product: **4-hydroxyazobenzene** (orange azo dye)
 

@@ -102,7 +102,9 @@ angle identities.]
 
 **(a)** Using $\cos 2x = 1 - 2\sin^2 x$:
 
-$$2\sin^2 x = 1 - \cos 2x \implies \sin^2 x = \frac{1 - \cos 2x}{2}$$
+$$
+2\sin^2 x = 1 - \cos 2x \implies \sin^2 x = \frac{1 - \cos 2x}{2}
+$$
 
 **(b)** The correct expression is $\sin(2x) = 2\sin x \cos x$Not $2\sin^2 x$. The student confused
 the double angle formula for sine with $\sin^2 x$. These are fundamentally different: $\sin(2x)$ is
@@ -110,13 +112,19 @@ the sine of double the angle, while $\sin^2 x$ is the square of the sine.
 
 **(c)** Using the identity $\sin^2 x = \frac{1 - \cos 2x}{2}$:
 
-$$\cos^4\!\left(\frac{\pi}{8}\right) = \left(\cos^2\!\left(\frac{\pi}{8}\right)\right)^2$$
+$$
+\cos^4\!\left(\frac{\pi}{8}\right) = \left(\cos^2\!\left(\frac{\pi}{8}\right)\right)^2
+$$
 
 Using $\cos^2 x = \frac{1 + \cos 2x}{2}$:
 
-$$\cos^2\!\left(\frac{\pi}{8}\right) = \frac{1 + \cos\frac{\pi}{4}}{2} = \frac{1 + \frac{\sqrt{2}}{2}}{2} = \frac{2 + \sqrt{2}}{4}$$
+$$
+\cos^2\!\left(\frac{\pi}{8}\right) = \frac{1 + \cos\frac{\pi}{4}}{2} = \frac{1 + \frac{\sqrt{2}}{2}}{2} = \frac{2 + \sqrt{2}}{4}
+$$
 
-$$\cos^4\!\left(\frac{\pi}{8}\right) = \left(\frac{2 + \sqrt{2}}{4}\right)^2 = \frac{4 + 4\sqrt{2} + 2}{16} = \frac{6 + 4\sqrt{2}}{16} = \frac{3 + 2\sqrt{2}}{8}$$
+$$
+\cos^4\!\left(\frac{\pi}{8}\right) = \left(\frac{2 + \sqrt{2}}{4}\right)^2 = \frac{4 + 4\sqrt{2} + 2}{16} = \frac{6 + 4\sqrt{2}}{16} = \frac{3 + 2\sqrt{2}}{8}
+$$
 
 ---
 
@@ -141,13 +149,17 @@ reciprocal.]
 
 **Solution:**
 
-$$R = \sqrt{3^2 + (-4)^2} = \sqrt{9 + 16} = \sqrt{25} = 5$$
+$$
+R = \sqrt{3^2 + (-4)^2} = \sqrt{9 + 16} = \sqrt{25} = 5
+$$
 
 For $3\sin x - 4\cos x = R\sin(x - \alpha)$We need $\tan\alpha = \frac{4}{3}$ (note: the coefficient
 of $\cos x$ is $-4$ And $\sin(x - \alpha) = \sin x\cos\alpha - \cos x\sin\alpha$ So $R\cos\alpha = 3$
 and $R\sin\alpha = 4$).
 
-$$\alpha = \arctan\!\left(\frac{4}{3}\right)$$
+$$
+\alpha = \arctan\!\left(\frac{4}{3}\right)
+$$
 
 So $3\sin x - 4\cos x = 5\sin\!\left(x - \arctan\!\frac{4}{3}\right)$.
 
@@ -160,12 +172,16 @@ Since $\sin(x - \alpha) + 1 \in [0, 2]$The denominator $\in [0, 10]$.
 
 The maximum value of the reciprocal occurs when the denominator is at its minimum:
 
-$$\text{Maximum} = \frac{1}{0}$$
+$$
+\text{Maximum} = \frac{1}{0}
+$$
 
 Wait, when $\sin(x - \alpha) = -1$The denominator is $0$Which is undefined. The range of the
 denominator is $(0, 10]$ So:
 
-$$\frac{1}{3\sin x - 4\cos x + 5} \in \left[\frac{1}{10}, \infty\right)$$
+$$
+\frac{1}{3\sin x - 4\cos x + 5} \in \left[\frac{1}{10}, \infty\right)
+$$
 
 The maximum does not exist (unbounded). The minimum is $\dfrac{1}{10}$Occurring when
 $\sin(x - \alpha) = 1$I.e., $x = \alpha + \frac{\pi}{2} + 2n\pi$.
@@ -200,17 +216,25 @@ $\displaystyle\int_0^1 u^2(1 - u^2)\,du$. Complete this calculation.
 
 **(a)** Using $\sin^2 x\cos^2 x = \dfrac{\sin^2 2x}{4}$:
 
-$$\int_0^{\pi/2} \frac{\sin^2 2x}{4}\,dx = \frac{1}{4}\int_0^{\pi/2} \sin^2 2x\,dx$$
+$$
+\int_0^{\pi/2} \frac{\sin^2 2x}{4}\,dx = \frac{1}{4}\int_0^{\pi/2} \sin^2 2x\,dx
+$$
 
 Using $\sin^2 2x = \dfrac{1 - \cos 4x}{2}$:
 
-$$= \frac{1}{8}\int_0^{\pi/2}(1 - \cos 4x)\,dx = \frac{1}{8}\left[x - \frac{\sin 4x}{4}\right]_0^{\pi/2} = \frac{1}{8} \cdot \frac{\pi}{2} = \frac{\pi}{16}$$
+$$
+= \frac{1}{8}\int_0^{\pi/2}(1 - \cos 4x)\,dx = \frac{1}{8}\left[x - \frac{\sin 4x}{4}\right]_0^{\pi/2} = \frac{1}{8} \cdot \frac{\pi}{2} = \frac{\pi}{16}
+$$
 
 **(b)** With $u = \sin x$, $du = \cos x\,dx$When $x = 0$: $u = 0$When $x = \frac{\pi}{2}$: $u = 1$:
 
-$$\int_0^{\pi/2} \sin^2 x\cos^2 x\,dx = \int_0^1 u^2(1 - u^2)\,du = \int_0^1 (u^2 - u^4)\,du$$
+$$
+\int_0^{\pi/2} \sin^2 x\cos^2 x\,dx = \int_0^1 u^2(1 - u^2)\,du = \int_0^1 (u^2 - u^4)\,du
+$$
 
-$$= \left[\frac{u^3}{3} - \frac{u^5}{5}\right]_0^1 = \frac{1}{3} - \frac{1}{5} = \frac{2}{15}$$
+$$
+= \left[\frac{u^3}{3} - \frac{u^5}{5}\right]_0^1 = \frac{1}{3} - \frac{1}{5} = \frac{2}{15}
+$$
 
 Note: this does NOT equal $\frac{\pi}{16}$. The student's substitution $du = \cos x\,dx$ loses the
 sign information when $\cos x$ changes sign. The substitution $u = \sin x$ is only valid on
@@ -226,11 +250,15 @@ remaining $\cos x$ with $\sqrt{1-u^2}$ unless we are careful about signs.
 
 The correct $u$-substitution: $du = \cos x\,dx$ So:
 
-$$\int_0^{\pi/2} \sin^2 x \cos^2 x\,dx = \int_0^1 u^2 \cos x\,du$$
+$$
+\int_0^{\pi/2} \sin^2 x \cos^2 x\,dx = \int_0^1 u^2 \cos x\,du
+$$
 
 But $\cos x = \sqrt{1 - u^2}$ on this interval, so:
 
-$$= \int_0^1 u^2\sqrt{1-u^2}\,du$$
+$$
+= \int_0^1 u^2\sqrt{1-u^2}\,du
+$$
 
 This is an elliptic integral and does not have an elementary closed form. The correct answer
 $\frac{\pi}{16}$ comes from the double-angle identity approach, not from this substitution. The

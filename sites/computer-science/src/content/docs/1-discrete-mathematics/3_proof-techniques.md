@@ -33,7 +33,9 @@ $\blacksquare$
 
 Let $a = p/q$ and $b = r/s$ where $p, q, r, s \in \mathbb{Z}$ and $q, s \neq 0$. Then
 
-$$a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}$$
+$$
+a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}
+$$
 
 Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$The sum $a + b$
 is rational. $\blacksquare$
@@ -97,7 +99,9 @@ _Proof._ Base case: $n = 1$: $1 = 1 \cdot 2 / 2$. True.
 
 Inductive step: Assume $\sum_{i=1}^{k} i = k(k+1)/2$. Then
 
-$$\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}$$
+$$
+\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}
+$$
 
 $\blacksquare$
 
@@ -129,7 +133,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^{0+1} - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 

@@ -35,7 +35,9 @@ Explore the simulation above to develop intuition for this topic.
 **Definition.** The **refractive index** $n$ of a medium is the ratio of the speed of light in
 Vacuum to the speed of light in the medium:
 
-$$\boxed{n = \frac{c}{v}}$$
+$$
+\boxed{n = \frac{c}{v}}
+$$
 
 Since $v < c$ for all material media, $n > 1$. The refractive index is a dimensionless quantity.
 
@@ -58,7 +60,9 @@ interact more strongly with the electrons in the material.
 
 For glass, a typical empirical relationship (Cauchy's equation) is:
 
-$$n(\lambda) = A + \frac{B}{\lambda^2}$$
+$$
+n(\lambda) = A + \frac{B}{\lambda^2}
+$$
 
 Where $A$ and $B$ are constants specific to the material and $\lambda$ is the wavelength in vacuum.
 This wavelength dependence is what causes white light to separate into a spectrum when passing
@@ -78,7 +82,9 @@ through the crown always hits pavilion facets at angles exceeding the critical a
 
 **Snell's Law.** At the boundary between two media with refractive indices $n_1$ and $n_2$:
 
-$$\boxed{n_1 \sin\theta_1 = n_2 \sin\theta_2}$$
+$$
+\boxed{n_1 \sin\theta_1 = n_2 \sin\theta_2}
+$$
 
 Where $\theta_1$ is the angle of incidence and $\theta_2$ is the angle of refraction, both measured
 From the normal.
@@ -93,11 +99,15 @@ Medium 2 and travelled a distance $v_2 t$ as a secondary wavelet, where $t = BB'
 
 The new wavefront is the tangent from $B'$ to the wavelet centred at $A$. The geometry gives:
 
-$$\frac{\sin\theta_1}{\sin\theta_2} = \frac{BB'/AB'}{v_2 t / AB'} = \frac{BB'}{v_2 t} = \frac{v_1 t}{v_2 t} = \frac{v_1}{v_2}$$
+$$
+\frac{\sin\theta_1}{\sin\theta_2} = \frac{BB'/AB'}{v_2 t / AB'} = \frac{BB'}{v_2 t} = \frac{v_1 t}{v_2 t} = \frac{v_1}{v_2}
+$$
 
 Since $n = c/v$:
 
-$$\frac{\sin\theta_1}{\sin\theta_2} = \frac{n_2}{n_1} \implies n_1 \sin\theta_1 = n_2 \sin\theta_2$$
+$$
+\frac{\sin\theta_1}{\sin\theta_2} = \frac{n_2}{n_1} \implies n_1 \sin\theta_1 = n_2 \sin\theta_2
+$$
 
 $\square$
 
@@ -112,17 +122,25 @@ Hits the boundary at $(x, 0)$.
 
 The total travel time is:
 
-$$t = \frac{\sqrt{x^2 + h_1^2}}{v_1} + \frac{\sqrt{(d-x)^2 + h_2^2}}{v_2}$$
+$$
+t = \frac{\sqrt{x^2 + h_1^2}}{v_1} + \frac{\sqrt{(d-x)^2 + h_2^2}}{v_2}
+$$
 
 For the minimum time, $dt/dx = 0$:
 
-$$\frac{x}{v_1\sqrt{x^2 + h_1^2}} - \frac{d-x}{v_2\sqrt{(d-x)^2 + h_2^2}} = 0$$
+$$
+\frac{x}{v_1\sqrt{x^2 + h_1^2}} - \frac{d-x}{v_2\sqrt{(d-x)^2 + h_2^2}} = 0
+$$
 
 Noting that $\sin\theta_1 = x/\sqrt{x^2 + h_1^2}$ and $\sin\theta_2 = (d-x)/\sqrt{(d-x)^2 + h_2^2}$:
 
-$$\frac{\sin\theta_1}{v_1} = \frac{\sin\theta_2}{v_2}$$
+$$
+\frac{\sin\theta_1}{v_1} = \frac{\sin\theta_2}{v_2}
+$$
 
-$$\frac{n_1 \sin\theta_1}{c} = \frac{n_2 \sin\theta_2}{c} \implies n_1 \sin\theta_1 = n_2 \sin\theta_2$$
+$$
+\frac{n_1 \sin\theta_1}{c} = \frac{n_2 \sin\theta_2}{c} \implies n_1 \sin\theta_1 = n_2 \sin\theta_2
+$$
 
 $\square$
 
@@ -145,7 +163,9 @@ $1.50 \times \sin 25.4° = 1.00 \times \sin\theta_4$. $\theta_4 = 40^\circ$.
 **Result.** The emergent ray is parallel to the incident ray but laterally displaced. This lateral
 Displacement $d$ depends on the thickness $t$ of the slab:
 
-$$d = t \cdot \sin\theta_1 \left(1 - \frac{\cos\theta_1}{\sqrt{n^2 - \sin^2\theta_1}}\right)$$
+$$
+d = t \cdot \sin\theta_1 \left(1 - \frac{\cos\theta_1}{\sqrt{n^2 - \sin^2\theta_1}}\right)
+$$
 
 <Aside type="note">
 Board Coverage AQA Paper 2 (required practical on refraction) | Edexcel CP2 | OCR (A) Paper
@@ -166,13 +186,19 @@ Total internal reflection (TIR) occurs when:
 
 At the critical angle, the refracted ray travels along the boundary ($\theta_2 = 90^\circ$):
 
-$$n_1 \sin\theta_c = n_2 \sin 90° = n_2$$
+$$
+n_1 \sin\theta_c = n_2 \sin 90° = n_2
+$$
 
-$$\boxed{\sin\theta_c = \frac{n_2}{n_1}}$$
+$$
+\boxed{\sin\theta_c = \frac{n_2}{n_1}}
+$$
 
 For light going from a medium of refractive index $n$ into air ($n_2 \approx 1$):
 
-$$\boxed{\sin\theta_c = \frac{1}{n}}$$
+$$
+\boxed{\sin\theta_c = \frac{1}{n}}
+$$
 
 **Derivation of why TIR only occurs from denser to less dense.** Snell's law gives
 $\sin\theta_2 = \frac{n_1}{n_2}\sin\theta_1$. If $n_1 > n_2$ Then $\frac{n_1}{n_2} > 1$ and
@@ -217,7 +243,9 @@ Along the boundary. For angles just beyond the critical angle, an **evanescent w
 Short distance into the second medium. This wave carries no energy away from the boundary and decays
 Exponentially:
 
-$$E = E_0 \, e^{-z/\delta}$$
+$$
+E = E_0 \, e^{-z/\delta}
+$$
 
 Where $\delta$ is the penetration depth and $z$ is the distance into the second medium. The
 Evanescent wave is exploited in technologies such as:
@@ -258,7 +286,9 @@ $\sin\theta_{\max} = n_1\cos\theta_c = n_1\sqrt{1 - \sin^2\theta_c} = n_1\sqrt{1
 
 The **numerical aperture** is:
 
-$$\mathrm{NA} = \sqrt{n_1^2 - n_2^2}$$
+$$
+\mathrm{NA} = \sqrt{n_1^2 - n_2^2}
+$$
 
 ### Signal Degradation
 

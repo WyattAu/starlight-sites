@@ -216,13 +216,17 @@ Resistors, the concept of internal resistance and terminal PD, and using the pot
 
 Pressure is defined as force per unit area:
 
-$$P = \frac{F}{A}$$
+$$
+P = \frac{F}{A}
+$$
 
 The SI unit is the pascal (Pa), where $1 \mathrm{ Pa} = 1 \mathrm{ N m}^{-2}$.
 
 **Hydrostatic pressure** in a fluid column of density $\rho$ at depth $h$ is:
 
-$$P = P_0 + \rho g h$$
+$$
+P = P_0 + \rho g h
+$$
 
 Where $P_0$ is the pressure at the surface (often atmospheric pressure,
 $P_{\mathrm{atm}} \approx 1.01 \times 10^5$ Pa).
@@ -231,7 +235,9 @@ $P_{\mathrm{atm}} \approx 1.01 \times 10^5$ Pa).
 Undiminished to every portion of the fluid and the walls of the container. This is the basis of
 Hydraulic systems:
 
-$$\frac{F_1}{A_1} = \frac{F_2}{A_2}$$
+$$
+\frac{F_1}{A_1} = \frac{F_2}{A_2}
+$$
 
 ### Worked Example: Hydraulic Lift
 
@@ -265,15 +271,21 @@ Conservation).
 **Archimedes' principle:** An object wholly or partially immersed in a fluid experiences an upward
 Buoyant force equal to the weight of the fluid displaced.
 
-$$F_b = \rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g$$
+$$
+F_b = \rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g
+$$
 
 An object floats when $F_b = mg$I.e., when:
 
-$$\rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g = \rho_{\mathrm{object}} \cdot V_{\mathrm{object}} \cdot g$$
+$$
+\rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g = \rho_{\mathrm{object}} \cdot V_{\mathrm{object}} \cdot g
+$$
 
 This simplifies to the **fraction submerged**:
 
-$$\mathrm{Fraction submerged} = \frac{\rho_{\mathrm{object}}}{\rho_{\mathrm{fluid}}}$$
+$$
+\mathrm{Fraction submerged} = \frac{\rho_{\mathrm{object}}}{\rho_{\mathrm{fluid}}}
+$$
 
 ### Worked Example: Floating Block
 
@@ -305,7 +317,9 @@ Water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
 For an **ideal fluid** (incompressible, non-viscous, steady flow), Bernoulli's equation states that
 Along a streamline:
 
-$$P + \frac{1}{2}\rho v^2 + \rho g h = \mathrm{constant}$$
+$$
+P + \frac{1}{2}\rho v^2 + \rho g h = \mathrm{constant}
+$$
 
 This is a statement of **conservation of energy** per unit volume of fluid:
 
@@ -316,11 +330,15 @@ This is a statement of **conservation of energy** per unit volume of fluid:
 **Key consequence, the Venturi effect:** Where the fluid speed increases, the pressure decreases.
 For a horizontal pipe ($h = \mathrm{const.}$):
 
-$$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$$
+$$
+P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2
+$$
 
 Combined with the **continuity equation** (conservation of mass for incompressible flow):
 
-$$A_1 v_1 = A_2 v_2$$
+$$
+A_1 v_1 = A_2 v_2
+$$
 
 ### Worked Example: Pipe Flow
 
@@ -331,8 +349,12 @@ The pressure there is $1.5 \times 10^5$ Pa.
 - **Speed in narrow section:**
   $v_2 = \frac{A_1 v_1}{A_2} = \frac{(0.050)(2.0)}{0.020} = 5.0 \mathrm{ m s}^{-1}$
 - **Pressure in narrow section (horizontal):**
-  $$P_2 = P_1 + \frac{1}{2}\rho(v_1^2 - v_2^2) = 1.5 \times 10^5 + \frac{1}{2}(1000)(4.0 - 25.0)$$
-  $$P_2 = 1.5 \times 10^5 - 10500 = 1.395 \times 10^5 \mathrm{ Pa}$$
+  $$
+  P_2 = P_1 + \frac{1}{2}\rho(v_1^2 - v_2^2) = 1.5 \times 10^5 + \frac{1}{2}(1000)(4.0 - 25.0)
+  $$
+  $$
+  P_2 = 1.5 \times 10^5 - 10500 = 1.395 \times 10^5 \mathrm{ Pa}
+  $$
 
 The pressure **drops** where the fluid speeds up, this is the Venturi effect.
 
@@ -373,7 +395,9 @@ The ideal gas model makes the following assumptions:
 
 All of these are unified in the **ideal gas equation**:
 
-$$PV = nRT$$
+$$
+PV = nRT
+$$
 
 Where $R = 8.31 \mathrm{ J mol}^{-1}\mathrm{K}^{-1}$ is the universal gas constant and $T$ is the
 Absolute temperature in Kelvin.
@@ -383,18 +407,24 @@ Absolute temperature in Kelvin.
 From kinetic theory, the pressure of an ideal gas arises from molecular collisions with the
 Container walls:
 
-$$P = \frac{1}{3}\frac{N}{V} m \langle c^2 \rangle$$
+$$
+P = \frac{1}{3}\frac{N}{V} m \langle c^2 \rangle
+$$
 
 Where $N$ is the number of molecules, $m$ is the mass of one molecule, and $\langle c^2 \rangle$ is
 The mean square speed.
 
 Combining with $PV = Nk_BT$ (where $k_B = \frac{R}{N_A}$ is Boltzmann's constant):
 
-$$\frac{1}{2}m\langle c^2 \rangle = \frac{3}{2}k_BT$$
+$$
+\frac{1}{2}m\langle c^2 \rangle = \frac{3}{2}k_BT
+$$
 
 The **root-mean-square speed** is:
 
-$$c_{\mathrm{rms}} = \sqrt{\langle c^2 \rangle} = \sqrt{\frac{3k_BT}{m}} = \sqrt{\frac{3RT}{M}}$$
+$$
+c_{\mathrm{rms}} = \sqrt{\langle c^2 \rangle} = \sqrt{\frac{3k_BT}{m}} = \sqrt{\frac{3RT}{M}}
+$$
 
 Where $M$ is the molar mass (kg mol$^{-1}$).
 
@@ -402,7 +432,9 @@ Where $M$ is the molar mass (kg mol$^{-1}$).
 
 Calculate the rms speed of nitrogen molecules ($M = 0.028 \mathrm{ kg mol}^{-1}$) at $300$ K.
 
-$$c_{\mathrm{rms}} = \sqrt{\frac{3(8.31)(300)}{0.028}} = \sqrt{\frac{7479}{0.028}} = \sqrt{267107} \approx 517 \mathrm{ m s}^{-1}$$
+$$
+c_{\mathrm{rms}} = \sqrt{\frac{3(8.31)(300)}{0.028}} = \sqrt{\frac{7479}{0.028}} = \sqrt{267107} \approx 517 \mathrm{ m s}^{-1}
+$$
 
 > **Exam Tip:** When converting between $c_{\mathrm{rms}}$ forms, remember that $m$ is the mass of a
 > **single molecule** ($m = M/N_A$) while $M$ is the **molar mass**. Mixing these up is a very
@@ -417,7 +449,9 @@ Real gases deviate from ideal behaviour at **high pressure** and **low temperatu
 
 The **van der Waals equation** corrects for these:
 
-$$\left(P + \frac{an^2}{V^2}\right)(V - nb) = nRT$$
+$$
+\left(P + \frac{an^2}{V^2}\right)(V - nb) = nRT
+$$
 
 Where $a$ accounts for intermolecular attraction and $b$ accounts for molecular volume.
 

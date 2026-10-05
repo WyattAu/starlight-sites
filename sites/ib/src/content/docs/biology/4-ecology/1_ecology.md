@@ -840,7 +840,9 @@ and explain your reasoning.
 
 When resources are unlimited, populations grow exponentially:
 
-$$\frac{dN}{dt} = rN$$
+$$
+\frac{dN}{dt} = rN
+$$
 
 Solution: $N_t = N_0 e^{rt}$
 
@@ -854,7 +856,9 @@ Exponential growth cannot continue indefinitely because resources are finite.
 
 The **logistic equation** (Verhulst, 1838) incorporates a carrying capacity ($K$):
 
-$$\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right)$$
+$$
+\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right)
+$$
 
 Solution: $N_t = \frac{K}{1 + \left(\frac{K - N_0}{N_0}\right) e^{-rt}}$
 

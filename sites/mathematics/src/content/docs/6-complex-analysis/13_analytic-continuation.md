@@ -45,7 +45,9 @@ defined. This is the core reason why analytic continuation is unique.
 
 The Gamma function $\Gamma(z)$ provides a classic example. The integral representation
 
-$$\Gamma(z) = \int_0^\infty t^{z-1} e^{-t}\,dt$$
+$$
+\Gamma(z) = \int_0^\infty t^{z-1} e^{-t}\,dt
+$$
 
 converges only for $\mathrm{Re}(z) > 0$. However, using the functional equation
 $\Gamma(z+1) = z\Gamma(z)$, we can extend $\Gamma(z)$ meromorphically to the entire complex
@@ -62,7 +64,9 @@ $\Gamma(z)\Gamma(1-z) = \pi / \sin(\pi z)$, which relates values across the whol
 
 The Riemann zeta function is defined for $\mathrm{Re}(s) > 1$ by the Dirichlet series
 
-$$\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}$$
+$$
+\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
+$$
 
 This series diverges for $\mathrm{Re}(s) \leq 1$. However, $\zeta(s)$ admits an analytic
 continuation to $\mathbb{C} \setminus \{1\}$ with a simple pole at $s = 1$.
@@ -70,7 +74,9 @@ continuation to $\mathbb{C} \setminus \{1\}$ with a simple pole at $s = 1$.
 **Continuation via the functional equation.** The Riemann zeta function satisfies the
 functional equation
 
-$$\zeta(s) = 2^s \pi^{s-1} \sin\left(\frac{\pi s}{2}\right) \Gamma(1-s) \zeta(1-s)$$
+$$
+\zeta(s) = 2^s \pi^{s-1} \sin\left(\frac{\pi s}{2}\right) \Gamma(1-s) \zeta(1-s)
+$$
 
 which relates $\zeta(s)$ to $\zeta(1-s)$ and provides the continuation to $\mathrm{Re}(s) < 0$.
 The trivial zeros at $s = -2, -4, -6, \dots$ arise from the sine factor.

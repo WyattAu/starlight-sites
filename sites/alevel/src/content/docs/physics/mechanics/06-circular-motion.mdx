@@ -29,15 +29,21 @@ Is measured in radians (rad).
 
 **Definition.** The **angular velocity** $\omega$ is the rate of change of angular displacement:
 
-$$\boxed{\omega = \frac{d\theta}{dt}}$$
+$$
+\boxed{\omega = \frac{d\theta}{dt}}
+$$
 
 The SI unit is rad s$^{-1}$. The relationship with linear velocity is:
 
-$$v = \omega r$$
+$$
+v = \omega r
+$$
 
 **Period and frequency.** For uniform circular motion:
 
-$$\omega = \frac{2\pi}{T} = 2\pi f$$
+$$
+\omega = \frac{2\pi}{T} = 2\pi f
+$$
 
 Where $T$ is the period (time for one revolution) and $f$ is the frequency.
 
@@ -60,20 +66,28 @@ Magnitude $a = v^2/r = \omega^2 r$ directed towards the centre.
 
 The position vector of a particle moving in a circle in the $xy$-plane is:
 
-$$\mathbf{r}(t) = r\cos(\omega t)\,\mathbf{i} + r\sin(\omega t)\,\mathbf{j}$$
+$$
+\mathbf{r}(t) = r\cos(\omega t)\,\mathbf{i} + r\sin(\omega t)\,\mathbf{j}
+$$
 
 Differentiating to find velocity:
 
-$$\mathbf{v}(t) = \frac{d\mathbf{r}}{dt} = -r\omega\sin(\omega t)\,\mathbf{i} + r\omega\cos(\omega t)\,\mathbf{j}$$
+$$
+\mathbf{v}(t) = \frac{d\mathbf{r}}{dt} = -r\omega\sin(\omega t)\,\mathbf{i} + r\omega\cos(\omega t)\,\mathbf{j}
+$$
 
 Note: $|\mathbf{v}| = r\omega\sqrt{\sin^2(\omega t) + \cos^2(\omega t)} = r\omega = v$.
 $\checkmark$
 
 Differentiating again to find acceleration:
 
-$$\mathbf{a}(t) = \frac{d\mathbf{v}}{dt} = -r\omega^2\cos(\omega t)\,\mathbf{i} - r\omega^2\sin(\omega t)\,\mathbf{j} = -\omega^2\mathbf{r}(t)$$
+$$
+\mathbf{a}(t) = \frac{d\mathbf{v}}{dt} = -r\omega^2\cos(\omega t)\,\mathbf{i} - r\omega^2\sin(\omega t)\,\mathbf{j} = -\omega^2\mathbf{r}(t)
+$$
 
-$$\boxed{\mathbf{a} = -\omega^2 r\,\hat{\mathbf{r}}}$$
+$$
+\boxed{\mathbf{a} = -\omega^2 r\,\hat{\mathbf{r}}}
+$$
 
 The acceleration has magnitude $|\mathbf{a}| = \omega^2 r = \frac{v^2}{r}$ and is directed radially
 **inward** (towards the centre). The negative sign indicates this inward direction. $\square$
@@ -96,17 +110,23 @@ preparation.
 Consider two positions of the particle separated by a small angle $\delta\theta$. The change in
 Velocity $\delta\mathbf{v}$ is directed towards the centre. From the isosceles triangle formed:
 
-$$\frac{|\delta\mathbf{v}|}{v} = \frac{|\delta\mathbf{s}|}{r} \implies |\delta\mathbf{v}| = \frac{v}{r}|\delta\mathbf{s}|$$
+$$
+\frac{|\delta\mathbf{v}|}{v} = \frac{|\delta\mathbf{s}|}{r} \implies |\delta\mathbf{v}| = \frac{v}{r}|\delta\mathbf{s}|
+$$
 
 Dividing by $\delta t$ and taking the limit:
 
-$$a = \frac{|\delta\mathbf{v}|}{\delta t} = \frac{v}{r}\frac{|\delta\mathbf{s}|}{\delta t} = \frac{v^2}{r}$$
+$$
+a = \frac{|\delta\mathbf{v}|}{\delta t} = \frac{v}{r}\frac{|\delta\mathbf{s}|}{\delta t} = \frac{v^2}{r}
+$$
 
 ## 3. Centripetal Force
 
 By Newton's second law, the net force producing centripetal acceleration is:
 
-$$\boxed{F_c = \frac{mv^2}{r} = m\omega^2 r}$$
+$$
+\boxed{F_c = \frac{mv^2}{r} = m\omega^2 r}
+$$
 
 <Aside type="caution">
 Common Pitfall **Centripetal force is not a separate force.** It is the _net_ inward
@@ -145,18 +165,26 @@ Horizontal (centripetal): $T\sin\alpha = \frac{mv^2}{r}$ ... (ii)
 
 Dividing (ii) by (i):
 
-$$\tan\alpha = \frac{v^2}{rg} = \frac{\omega^2 r}{g}$$
+$$
+\tan\alpha = \frac{v^2}{rg} = \frac{\omega^2 r}{g}
+$$
 
 From (i), the tension is:
 
-$$\boxed{T = \frac{mg}{\cos\alpha} = \frac{mgL}{\sqrt{L^2 - r^2}}}$$
+$$
+\boxed{T = \frac{mg}{\cos\alpha} = \frac{mgL}{\sqrt{L^2 - r^2}}}
+$$
 
 The period of the conical pendulum can be expressed by substituting $r = L\sin\alpha$ and
 $v = \omega r$ into the result for $\tan\alpha$:
 
-$$\tan\alpha = \frac{\omega^2 L\sin\alpha}{g} \implies \omega^2 = \frac{g}{L\cos\alpha}$$
+$$
+\tan\alpha = \frac{\omega^2 L\sin\alpha}{g} \implies \omega^2 = \frac{g}{L\cos\alpha}
+$$
 
-$$\boxed{T = 2\pi\sqrt{\frac{L\cos\alpha}{g}}}$$
+$$
+\boxed{T = 2\pi\sqrt{\frac{L\cos\alpha}{g}}}
+$$
 
 **Example.** A conical pendulum with $L = 1.0$ m and $\alpha = 30^\circ$ has period
 $T = 2\pi\sqrt{1.0 \times \cos 30°/9.81} = 2\pi\sqrt{0.0883} = 1.86$ s.
@@ -179,9 +207,13 @@ Resolving horizontally: $N\sin\theta = \frac{mv^2}{r}$ ... (ii)
 
 Dividing (ii) by (i):
 
-$$\boxed{\tan\theta = \frac{v^2}{rg}}$$
+$$
+\boxed{\tan\theta = \frac{v^2}{rg}}
+$$
 
-$$\boxed{v_{\mathrm{optimum}} = \sqrt{rg\tan\theta}}$$
+$$
+\boxed{v_{\mathrm{optimum}} = \sqrt{rg\tan\theta}}
+$$
 
 **Intuition.** At the optimum speed, the horizontal component of the normal reaction provides
 Exactly the centripetal force. If the vehicle goes faster, friction acts down the slope; if slower,
@@ -196,21 +228,31 @@ Resolving perpendicular to the slope: $N = mg\cos\theta + \frac{mv^2}{r}\sin\the
 
 Resolving parallel to the slope (friction acts down the slope for maximum speed):
 
-$$N\sin\theta + \mu N\cos\theta = \frac{mv^2}{r}$$
+$$
+N\sin\theta + \mu N\cos\theta = \frac{mv^2}{r}
+$$
 
 Combining:
 
-$$\frac{mv^2}{r} = N(\sin\theta + \mu\cos\theta) = (mg\cos\theta + \frac{mv^2}{r}\sin\theta)(\sin\theta + \mu\cos\theta)$$
+$$
+\frac{mv^2}{r} = N(\sin\theta + \mu\cos\theta) = (mg\cos\theta + \frac{mv^2}{r}\sin\theta)(\sin\theta + \mu\cos\theta)
+$$
 
 This gives:
 
-$$\frac{v^2}{r}\left[1 - \sin\theta(\sin\theta + \mu\cos\theta)\right] = g\cos\theta(\sin\theta + \mu\cos\theta)$$
+$$
+\frac{v^2}{r}\left[1 - \sin\theta(\sin\theta + \mu\cos\theta)\right] = g\cos\theta(\sin\theta + \mu\cos\theta)
+$$
 
-$$\boxed{v_{\max} = \sqrt{\frac{rg(\sin\theta + \mu\cos\theta)}{\cos\theta - \mu\sin\theta}} = \sqrt{\frac{rg(\tan\theta + \mu)}{1 - \mu\tan\theta}}}$$
+$$
+\boxed{v_{\max} = \sqrt{\frac{rg(\sin\theta + \mu\cos\theta)}{\cos\theta - \mu\sin\theta}} = \sqrt{\frac{rg(\tan\theta + \mu)}{1 - \mu\tan\theta}}}
+$$
 
 For the **minimum** speed, friction acts up the slope, giving:
 
-$$\boxed{v_{\min} = \sqrt{\frac{rg(\tan\theta - \mu)}{1 + \mu\tan\theta}}}$$
+$$
+\boxed{v_{\min} = \sqrt{\frac{rg(\tan\theta - \mu)}{1 + \mu\tan\theta}}}
+$$
 
 **Real-world example.** Motorways are banked at about $2$--$3^\circ$ for drainage and slight curve
 Assistance. At higher angles, velodromes use banking up to $45^\circ$ so cyclists can maintain speed
@@ -232,25 +274,37 @@ Down).
 
 **At the top of the circle** (both $T$ and $mg$ act towards the centre):
 
-$$T + mg = \frac{mv^2}{r}$$
+$$
+T + mg = \frac{mv^2}{r}
+$$
 
 **Condition for the string to remain taut:** $T \geq 0$ So:
 
-$$\frac{mv^2}{r} \geq mg \implies v \geq \sqrt{gr}$$
+$$
+\frac{mv^2}{r} \geq mg \implies v \geq \sqrt{gr}
+$$
 
 **At the bottom of the circle** (centripetal direction is upward):
 
-$$T - mg = \frac{mv^2}{r}$$
+$$
+T - mg = \frac{mv^2}{r}
+$$
 
 **Energy conservation** relates speeds at top and bottom:
 
-$$\frac{1}{2}mv_{\mathrm{bottom}}^2 = \frac{1}{2}mv_{\mathrm{top}}^2 + mg(2r)$$
+$$
+\frac{1}{2}mv_{\mathrm{bottom}}^2 = \frac{1}{2}mv_{\mathrm{top}}^2 + mg(2r)
+$$
 
-$$v_{\mathrm{bottom}}^2 = v_{\mathrm{top}}^2 + 4gr$$
+$$
+v_{\mathrm{bottom}}^2 = v_{\mathrm{top}}^2 + 4gr
+$$
 
 For the minimum speed at the top ($v_{\mathrm{top}} = \sqrt{gr}$):
 
-$$v_{\mathrm{bottom}}^2 = gr + 4gr = 5gr \implies v_{\mathrm{bottom}} = \sqrt{5gr}$$
+$$
+v_{\mathrm{bottom}}^2 = gr + 4gr = 5gr \implies v_{\mathrm{bottom}} = \sqrt{5gr}
+$$
 
 ## Problem Set
 
@@ -427,45 +481,67 @@ Position where the string makes angle $\theta$ with the downward vertical, the f
 
 Resolving along the radial direction (towards the centre):
 
-$$T - mg\cos\theta = \frac{mv^2}{r}$$
+$$
+T - mg\cos\theta = \frac{mv^2}{r}
+$$
 
-$$\boxed{T = \frac{mv^2}{r} + mg\cos\theta}$$
+$$
+\boxed{T = \frac{mv^2}{r} + mg\cos\theta}
+$$
 
 **At the top** ($\theta = 180^\circ$ So $\cos\theta = -1$):
 
-$$\boxed{T_{\mathrm{top}} = \frac{mv^2}{r} - mg}$$
+$$
+\boxed{T_{\mathrm{top}} = \frac{mv^2}{r} - mg}
+$$
 
 Both $T$ and $mg$ point towards the centre. The string remains taut if $T_{\mathrm{top}} \geq 0$
 Giving the minimum speed at the top:
 
-$$\boxed{v_{\min} = \sqrt{gr}}$$
+$$
+\boxed{v_{\min} = \sqrt{gr}}
+$$
 
 **At the bottom** ($\theta = 0^\circ$ So $\cos\theta = 1$):
 
-$$\boxed{T_{\mathrm{bottom}} = \frac{mv^2}{r} + mg}$$
+$$
+\boxed{T_{\mathrm{bottom}} = \frac{mv^2}{r} + mg}
+$$
 
 The tension must overcome gravity and provide the centripetal force, so $T_{\mathrm{bottom}}$ is
 Always greater than $T_{\mathrm{top}}$ for the same speed.
 
 ### Energy Conservation Between Top and Bottom
 
-$$\tfrac{1}{2}mv_b^2 = \tfrac{1}{2}mv_t^2 + mg(2r)$$
+$$
+\tfrac{1}{2}mv_b^2 = \tfrac{1}{2}mv_t^2 + mg(2r)
+$$
 
-$$\boxed{v_b^2 = v_t^2 + 4gr}$$
+$$
+\boxed{v_b^2 = v_t^2 + 4gr}
+$$
 
 For the minimum case ($v_t = \sqrt{gr}$):
 
-$$v_b^2 = gr + 4gr = 5gr \implies \boxed{v_b = \sqrt{5gr}}$$
+$$
+v_b^2 = gr + 4gr = 5gr \implies \boxed{v_b = \sqrt{5gr}}
+$$
 
 ### Difference in Tension: Top vs Bottom
 
-$$T_{\mathrm{bottom}} - T_{\mathrm{top}} = \left(\frac{mv_b^2}{r} + mg\right) - \left(\frac{mv_t^2}{r} - mg\right) = \frac{m(v_b^2 - v_t^2)}{r} + 2mg$$
+$$
+T_{\mathrm{bottom}} - T_{\mathrm{top}} = \left(\frac{mv_b^2}{r} + mg\right) - \left(\frac{mv_t^2}{r} - mg\right) = \frac{m(v_b^2 - v_t^2)}{r} + 2mg
+$$
 
 Using $v_b^2 - v_t^2 = 4gr$:
 
-$$T_{\mathrm{bottom}} - T_{\mathrm{top}} = \frac{m \cdot 4gr}{r} + 2mg = 4mg + 2mg = 6mg$$
+$$
+T_{\mathrm{bottom}} - T_{\mathrm{top}} = \frac{m \cdot 4gr}{r} + 2mg = 4mg + 2mg = 6mg
+$$
 
-$$\boxed{T_{\mathrm{bottom}} - T_{\mathrm{top}} = 6mg}$$
+$$
+\boxed{T_{\mathrm{bottom}} - T_{\mathrm{top}} = 6mg}
+$$
 
 This result is independent of the radius and speed -- only on the mass and $g$.
 
@@ -517,26 +593,36 @@ Horizontal circle of radius $r$. The string makes a constant angle $\alpha$ with
 
 **Geometry.** The horizontal circle radius and string length are related by:
 
-$$\boxed{r = L\sin\alpha}$$
+$$
+\boxed{r = L\sin\alpha}
+$$
 
 **Forces.** Two forces act on the mass: tension $T$ along the string (at angle $\alpha$ to the
 Vertical) and weight $mg$ downward.
 
 Resolving vertically (no vertical acceleration):
 
-$$T\cos\alpha = mg \implies \boxed{T = \frac{mg}{\cos\alpha}}$$
+$$
+T\cos\alpha = mg \implies \boxed{T = \frac{mg}{\cos\alpha}}
+$$
 
 Resolving horizontally (centripetal acceleration towards centre):
 
-$$T\sin\alpha = \frac{mv^2}{r} = m\omega^2 r$$
+$$
+T\sin\alpha = \frac{mv^2}{r} = m\omega^2 r
+$$
 
 Substituting $T = mg/\cos\alpha$ and $r = L\sin\alpha$ Then simplifying for $\sin\alpha \neq 0$:
 
-$$\frac{mg}{\cos\alpha}\sin\alpha = m\omega^2 L\sin\alpha \implies \omega^2 = \frac{g}{L\cos\alpha}$$
+$$
+\frac{mg}{\cos\alpha}\sin\alpha = m\omega^2 L\sin\alpha \implies \omega^2 = \frac{g}{L\cos\alpha}
+$$
 
 The period is therefore:
 
-$$\boxed{T = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{L\cos\alpha}{g}}}$$
+$$
+\boxed{T = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{L\cos\alpha}{g}}}
+$$
 
 **Key features of the period formula:**
 
@@ -566,7 +652,9 @@ Exert an inward force to change the passengers' direction -- this is the centrip
 In the rotating frame of the car, the passengers appear stationary. To make Newton's second law work
 In this non-inertial frame, we must introduce a fictitious outward force:
 
-$$\boxed{F_{\mathrm{centrifugal}} = m\omega^2 r = \frac{mv^2}{r}}$$
+$$
+\boxed{F_{\mathrm{centrifugal}} = m\omega^2 r = \frac{mv^2}{r}}
+$$
 
 This has the same magnitude as the centripetal force but points in the opposite direction.
 

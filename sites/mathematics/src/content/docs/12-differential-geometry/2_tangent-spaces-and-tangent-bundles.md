@@ -24,7 +24,9 @@ There are several equivalent definitions of the tangent space $T_p M$ at $p \in 
 **Definition (Directional Derivatives).** A tangent vector at $p$ is a derivation at $p$: a linear
 map $v : C^\infty(M) \to \mathbb{R}$ satisfying the Leibniz rule:
 
-$$v(fg) = f(p) \cdot v(g) + v(f) \cdot g(p)$$
+$$
+v(fg) = f(p) \cdot v(g) + v(f) \cdot g(p)
+$$
 
 **Definition (Equivalence Classes of Curves).** A tangent vector is an equivalence class of smooth
 curves $\gamma : (-\varepsilon, \varepsilon) \to M$ with $\gamma(0) = p$, where
@@ -37,7 +39,9 @@ $\gamma_1 \sim \gamma_2$ if $(\varphi \circ \gamma_1)'(0) = (\varphi \circ \gamm
 
 The **tangent bundle** of $M$ is
 
-$$TM = \bigsqcup_{p \in M} T_p M = \{(p, v) : p \in M,\ v \in T_p M\}$$
+$$
+TM = \bigsqcup_{p \in M} T_p M = \{(p, v) : p \in M,\ v \in T_p M\}
+$$
 
 It is a smooth manifold of dimension $2n$ with projection $\pi : TM \to M$ given by $\pi(p, v) = p$.
 
@@ -49,7 +53,9 @@ $\pi \circ X = \mathrm{id}_M$, written $X(p) = X_p \in T_p M$.
 Let $f : M \to N$ be a smooth map. The **differential** (or pushforward) of $f$ at $p$ is the linear
 map:
 
-$$df_p : T_p M \to T_{f(p)} N, \quad df_p(v)(g) = v(g \circ f)$$
+$$
+df_p : T_p M \to T_{f(p)} N, \quad df_p(v)(g) = v(g \circ f)
+$$
 
 for $v \in T_p M$ and $g \in C^\infty(N)$. In local coordinates, $df_p$ is represented by the
 Jacobian matrix $D(f \circ \varphi^{-1}))$.
@@ -62,11 +68,15 @@ In local coordinates $(x^1, \ldots, x^n)$ around $p$, the **coordinate vectors**
 $\partial/\partial x^i|_p$ form a basis of $T_p M$. Any tangent vector $v \in T_p M$ can be
 expressed as:
 
-$$v = v^i \frac{\partial}{\partial x^i}\bigg|_p$$
+$$
+v = v^i \frac{\partial}{\partial x^i}\bigg|_p
+$$
 
 For a smooth function $f : M \to \mathbb{R}$, the action of $v$ on $f$ is:
 
-$$v(f) = v^i \frac{\partial f}{\partial x^i}(p)$$
+$$
+v(f) = v^i \frac{\partial f}{\partial x^i}(p)
+$$
 
 **Example 2.1.** On $\mathbb{R}^n$, $T_p \mathbb{R}^n \cong \mathbb{R}^n$ with basis
 $\partial/\partial x^1, \ldots, \partial/\partial x^n$. A tangent vector $v = (v^1, \ldots, v^n)$
@@ -80,12 +90,16 @@ $T_p S^2$ is spanned by $\partial/\partial\theta$ and $\partial/\partial\phi$ ev
 If $(x^1, \ldots, x^n)$ and $(y^1, \ldots, y^n)$ are two coordinate systems around $p$, the
 transition formula for tangent vectors is:
 
-$$\frac{\partial}{\partial y^j} = \frac{\partial x^i}{\partial y^j} \frac{\partial}{\partial x^i}$$
+$$
+\frac{\partial}{\partial y^j} = \frac{\partial x^i}{\partial y^j} \frac{\partial}{\partial x^i}
+$$
 
 Thus the components of a vector $v = v^i \partial/\partial x^i = \tilde v^j \partial/\partial y^j$
 transform as:
 
-$$\tilde v^j = v^i \frac{\partial y^j}{\partial x^i}$$
+$$
+\tilde v^j = v^i \frac{\partial y^j}{\partial x^i}
+$$
 
 This **contravariant** transformation law characterizes tangent vectors: their components transform
 using the Jacobian of the coordinate change.
@@ -93,7 +107,9 @@ using the Jacobian of the coordinate change.
 **Example 2.3.** In polar coordinates $(r, \theta)$ on $\mathbb{R}^2$, the relation between
 Cartesian and polar basis vectors is:
 
-$$\frac{\partial}{\partial r} = \cos\theta\,\frac{\partial}{\partial x} + \sin\theta\,\frac{\partial}{\partial y}, \quad \frac{\partial}{\partial\theta} = -r\sin\theta\,\frac{\partial}{\partial x} + r\cos\theta\,\frac{\partial}{\partial y}$$
+$$
+\frac{\partial}{\partial r} = \cos\theta\,\frac{\partial}{\partial x} + \sin\theta\,\frac{\partial}{\partial y}, \quad \frac{\partial}{\partial\theta} = -r\sin\theta\,\frac{\partial}{\partial x} + r\cos\theta\,\frac{\partial}{\partial y}
+$$
 
 ### 2.6 The Cotangent Space
 
@@ -101,12 +117,16 @@ The dual space $T_p^* M = (T_p M)^*$ is called the **cotangent space** at $p$. I
 **covectors** (linear functionals on $T_p M$). The basis dual to $\{\partial/\partial x^i\}$ is
 denoted $\{dx^i|_p\}$, where:
 
-$$dx^i\left(\frac{\partial}{\partial x^j}\right) = \delta^i_j$$
+$$
+dx^i\left(\frac{\partial}{\partial x^j}\right) = \delta^i_j
+$$
 
 **Proposition 2.3.** For a smooth function $f : M \to \mathbb{R}$, the differential $df_p \in T_p^* M$
 is given in coordinates by:
 
-$$df_p = \frac{\partial f}{\partial x^i}(p)\, dx^i|_p$$
+$$
+df_p = \frac{\partial f}{\partial x^i}(p)\, dx^i|_p
+$$
 
 ### 2.7 Vector Bundles
 

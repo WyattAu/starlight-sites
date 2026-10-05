@@ -84,7 +84,9 @@ $(1,2) \in R$ and $(2,3) \in R$, but $(1,3) \notin R$. No, $R$ is not transitive
 **Solution:**
 
 **Injective:** Suppose $f(a) = f(b)$:
-$$a^2 + 1 = b^2 + 1 \implies a^2 = b^2 \implies a = \pm b$$
+$$
+a^2 + 1 = b^2 + 1 \implies a^2 = b^2 \implies a = \pm b
+$$
 
 Since $a$ and $b$ could have opposite signs (e.g., $f(1) = f(-1) = 2$), $f$ is not injective.
 
@@ -100,9 +102,13 @@ Since $f$ is neither injective nor surjective, it is not bijective.
 
 **Solution:**
 
-$$(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 3$$
+$$
+(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 3
+$$
 
-$$(g \circ f)(x) = g(f(x)) = g(2x + 3) = (2x + 3)^2 = 4x^2 + 12x + 9$$
+$$
+(g \circ f)(x) = g(f(x)) = g(2x + 3) = (2x + 3)^2 = 4x^2 + 12x + 9
+$$
 
 Note that $f \circ g \neq g \circ f$ as a rule.
 
@@ -163,7 +169,9 @@ Equivalence classes:
 **Solution:**
 
 **Injective:** Suppose $f(a) = f(b)$:
-$$2a + 1 = 2b + 1 \implies a = b$$
+$$
+2a + 1 = 2b + 1 \implies a = b
+$$
 Yes, $f$ is injective.
 
 **Surjective:** Is every positive integer in the range? For $f(n) = 2n + 1$, the range is $\{3, 5, 7, 9, ...\}$ (odd numbers greater than or equal to 3). So $1$ and $2$ are not in the range. No, $f$ is not surjective.
@@ -181,14 +189,26 @@ Since $f$ is injective but not surjective, it is not bijective.
 Let $y = \frac{2x + 3}{x - 1}$.
 
 Solve for $x$:
-$$y(x - 1) = 2x + 3$$
-$$xy - y = 2x + 3$$
-$$xy - 2x = y + 3$$
-$$x(y - 2) = y + 3$$
-$$x = \frac{y + 3}{y - 2}$$
+$$
+y(x - 1) = 2x + 3
+$$
+$$
+xy - y = 2x + 3
+$$
+$$
+xy - 2x = y + 3
+$$
+$$
+x(y - 2) = y + 3
+$$
+$$
+x = \frac{y + 3}{y - 2}
+$$
 
 Therefore:
-$$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
+$$
+f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2
+$$
 
 **Common mistake:** Forgetting to specify the domain of the inverse function. The domain of $f^{-1}$ is $\mathbb{R} \setminus \{2\}$.
 

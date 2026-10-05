@@ -818,7 +818,9 @@ Find the sum of all coefficients of $(2x - 3)^5$.
 
 The sum of coefficients equals $f(1)$ where $f(x) = (2x - 3)^5$.
 
-$$f(1) = (2 - 3)^5 = (-1)^5 = -1$$
+$$
+f(1) = (2 - 3)^5 = (-1)^5 = -1
+$$
 
 </details>
 
@@ -836,7 +838,9 @@ $\omega^3 = 1$).
 
 By the remainder theorem for quadratic divisors:
 
-$$f(\omega) = a\omega + b \quad \text{and} \quad f(\omega^2) = a\omega^2 + b$$
+$$
+f(\omega) = a\omega + b \quad \text{and} \quad f(\omega^2) = a\omega^2 + b
+$$
 
 Since $\omega^2 + \omega + 1 = 0$ (i.e., $\omega^2 = -\omega - 1$) and $\omega^3 = 1$:
 
@@ -863,9 +867,13 @@ $\alpha^2 + \beta^2 + \gamma^2$.
 From Vieta:
 $\alpha + \beta + \gamma = 2$$\alpha\beta + \beta\gamma + \gamma\alpha = 3$$\alpha\beta\gamma = 4$.
 
-$$(\alpha + \beta + \gamma)^2 = \alpha^2 + \beta^2 + \gamma^2 + 2(\alpha\beta + \beta\gamma + \gamma\alpha)$$
+$$
+(\alpha + \beta + \gamma)^2 = \alpha^2 + \beta^2 + \gamma^2 + 2(\alpha\beta + \beta\gamma + \gamma\alpha)
+$$
 
-$$4 = \alpha^2 + \beta^2 + \gamma^2 + 6 \implies \alpha^2 + \beta^2 + \gamma^2 = -2$$
+$$
+4 = \alpha^2 + \beta^2 + \gamma^2 + 6 \implies \alpha^2 + \beta^2 + \gamma^2 = -2
+$$
 
 </details>
 
@@ -876,9 +884,13 @@ If $\binom{n}{3} = 3\binom{n-1}{2}$Find $n$.
 <details>
 <summary>Solution</summary>
 
-$$\frac{n!}{3!(n-3)!} = 3 \cdot \frac{(n-1)!}{2!(n-3)!}$$
+$$
+\frac{n!}{3!(n-3)!} = 3 \cdot \frac{(n-1)!}{2!(n-3)!}
+$$
 
-$$\frac{n}{6} = \frac{3}{2} \implies n = 9$$
+$$
+\frac{n}{6} = \frac{3}{2} \implies n = 9
+$$
 
 </details>
 
@@ -927,7 +939,9 @@ theorem.
 The general term from choosing $a$ ones, $b$ copies of $2x$ And $c$ copies of $-x^2$ where
 $a + b + c = 5$:
 
-$$\frac{5!}{a!\,b!\,c!} \cdot 1^a \cdot (2x)^b \cdot (-x^2)^c = \frac{5!}{a!\,b!\,c!} \cdot 2^b \cdot (-1)^c \cdot x^{b + 2c}$$
+$$
+\frac{5!}{a!\,b!\,c!} \cdot 1^a \cdot (2x)^b \cdot (-x^2)^c = \frac{5!}{a!\,b!\,c!} \cdot 2^b \cdot (-1)^c \cdot x^{b + 2c}
+$$
 
 For $x^3$: $b + 2c = 3$ with $a + b + c = 5$, $a, b, c \geq 0$.
 
@@ -967,13 +981,19 @@ correct to 5 decimal places.
 <details>
 <summary>Solution</summary>
 
-$$(1 + x)^{10} = \sum_{k=0}^{10} \binom{10}{k} x^k = 1 + 10x + 45x^2 + 120x^3 + 210x^4 + 252x^5 + \cdots$$
+$$
+(1 + x)^{10} = \sum_{k=0}^{10} \binom{10}{k} x^k = 1 + 10x + 45x^2 + 120x^3 + 210x^4 + 252x^5 + \cdots
+$$
 
 Set $x = 0.01$:
 
-$$(1.01)^{10} \approx 1 + 10(0.01) + 45(0.0001) + 120(0.000001) + 210(0.00000001)$$
+$$
+(1.01)^{10} \approx 1 + 10(0.01) + 45(0.0001) + 120(0.000001) + 210(0.00000001)
+$$
 
-$$= 1 + 0.1 + 0.0045 + 0.00012 + 0.0000021 = 1.1046221$$
+$$
+= 1 + 0.1 + 0.0045 + 0.00012 + 0.0000021 = 1.1046221
+$$
 
 To 5 decimal places: $1.10462$.
 
@@ -986,13 +1006,21 @@ To 5 decimal places: $1.10462$.
 
 By the AM-GM inequality applied to the $n$ numbers $1, 2, 3, \ldots, n$:
 
-$$\frac{1 + 2 + \cdots + n}{n} \geq (1 \cdot 2 \cdots n)^{1/n}$$
+$$
+\frac{1 + 2 + \cdots + n}{n} \geq (1 \cdot 2 \cdots n)^{1/n}
+$$
 
-$$\frac{n(n+1)}{2n} \geq (n!)^{1/n}$$
+$$
+\frac{n(n+1)}{2n} \geq (n!)^{1/n}
+$$
 
-$$\frac{n+1}{2} \geq (n!)^{1/n}$$
+$$
+\frac{n+1}{2} \geq (n!)^{1/n}
+$$
 
-$$\left(\frac{n+1}{2}\right)^n \geq n!$$
+$$
+\left(\frac{n+1}{2}\right)^n \geq n!
+$$
 
 We need to show $n^n > 2^{n-1} \cdot n!$I.e., $n^n / n! > 2^{n-1}$I.e., $\dfrac{n^n}{n!} > 2^{n-1}$.
 
@@ -1041,14 +1069,18 @@ The inequality holds strictly for $n \geq 3$. For $n = 2$Equality holds.
 factorise $f(x)$ completely.
 
 **Solution.** By the Factor Theorem, $f(2) = 0$:
-$$8 - 12 + 2a + 6 = 0 \implies 2a + 2 = 0 \implies a = -1$$
+$$
+8 - 12 + 2a + 6 = 0 \implies 2a + 2 = 0 \implies a = -1
+$$
 
 So $f(x) = x^3 - 3x^2 - x + 6$. Dividing by $(x - 2)$:
 
 $x^3 - 3x^2 - x + 6 = (x-2)(x^2 - x - 3)$
 
 The quadratic $x^2 - x - 3 = 0$ has $\Delta = 1 + 12 = 13$, so:
-$$f(x) = (x-2)\left(x - \frac{1+\sqrt{13}}{2}\right)\left(x - \frac{1-\sqrt{13}}{2}\right)$$
+$$
+f(x) = (x-2)\left(x - \frac{1+\sqrt{13}}{2}\right)\left(x - \frac{1-\sqrt{13}}{2}\right)
+$$
 
 $\blacksquare$
 
@@ -1058,7 +1090,9 @@ $\blacksquare$
 $p$.
 
 **Solution.** By the Remainder Theorem: $f(1) = 4$.
-$$2(1)^3 + p(1)^2 - 5(1) + 3 = 4 \implies 2 + p - 5 + 3 = 4 \implies p = 4$$
+$$
+2(1)^3 + p(1)^2 - 5(1) + 3 = 4 \implies 2 + p - 5 + 3 = 4 \implies p = 4
+$$
 
 # $\blacksquare$
 

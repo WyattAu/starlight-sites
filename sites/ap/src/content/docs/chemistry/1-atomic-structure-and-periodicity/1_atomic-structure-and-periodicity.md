@@ -50,7 +50,9 @@ Most of the mass are concentrated in a tiny, dense nucleus.
 
 Rutherford derived that the closest approach distance $d$ for a head-on collision is:
 
-$$d = \frac{k \cdot Z_1 Z_2 e^2}{K}$$
+$$
+d = \frac{k \cdot Z_1 Z_2 e^2}{K}
+$$
 
 Where $K$ is the kinetic energy of the alpha particle. For $5.5 \mathrm{ MeV$ alpha particles on
 Gold, $d \approx 3 \times 10^{-14} \mathrm{ m$Which is much smaller than the atomic radius of About
@@ -74,14 +76,18 @@ $1 \mathrm{
 Isotopes are atoms of the same element with different numbers of neutrons. The average atomic mass
 Shown on the periodic table is the weighted average of all occurring isotopes:
 
-$$\mathrm{Average atomic mass = \sum f_i \cdot m_i$$
+$$
+\mathrm{Average atomic mass = \sum f_i \cdot m_i
+$$
 
 Where $f_i$ is the fractional abundance and $m_i$ is the mass of isotope $i$.
 
 **Worked Example.** Chlorine has two isotopes: Cl-35 (75.77%, 34.969 amu) and Cl-37 (24.23%, 36.966
 Amu). Calculate the average atomic mass.
 
-$$\mathrm{Average = 0.7577 \times 34.969 + 0.2423 \times 36.966 = 26.496 + 8.958 = 35.454 \mathrm{ amu$$
+$$
+\mathrm{Average = 0.7577 \times 34.969 + 0.2423 \times 36.966 = 26.496 + 8.958 = 35.454 \mathrm{ amu
+$$
 
 This matches the value on the periodic table (35.45).
 
@@ -272,12 +278,16 @@ Where $a_0$ is the Bohr radius.
 Starting from the quantisation of angular momentum ($L = mvr = n\hbar$) and equating the Coulomb
 Force with centripetal force:
 
-$$\frac{ke^2}{r^2} = \frac{mv^2}{r}$$
+$$
+\frac{ke^2}{r^2} = \frac{mv^2}{r}
+$$
 
 Solving for $r_n$ and substituting into the total energy
 $E = KE + PE = \frac{1}{2}mv^2 - \frac{ke^2}{r}$:
 
-$$E_n = -\frac{mk^2e^4}{2n^2\hbar^2} = -\frac{13.6 \mathrm{ eV}{n^2}$$
+$$
+E_n = -\frac{mk^2e^4}{2n^2\hbar^2} = -\frac{13.6 \mathrm{ eV}{n^2}
+$$
 
 This derivation shows that the quantised energy levels arise directly from the quantisation of
 Angular momentum.
@@ -358,9 +368,13 @@ More photons arrive per unit time) but not their maximum kinetic energy.
 The work function of sodium is $2.28 \mathrm{ eV$. Calculate the maximum kinetic energy of Electrons
 ejected by light of wavelength $400 \mathrm{ nm$.
 
-$$E = \frac{hc}{\lambda} = \frac{1240 \mathrm{ eV\cdot\mathrm{nm}{400 \mathrm{ nm} = 3.10 \mathrm{ eV$$
+$$
+E = \frac{hc}{\lambda} = \frac{1240 \mathrm{ eV\cdot\mathrm{nm}{400 \mathrm{ nm} = 3.10 \mathrm{ eV
+$$
 
-$$KE_{\mathrm{max} = 3.10 - 2.28 = 0.82 \mathrm{ eV$$
+$$
+KE_{\mathrm{max} = 3.10 - 2.28 = 0.82 \mathrm{ eV
+$$
 
 ## Periodic Trends (CED Unit 1)
 
@@ -760,12 +774,16 @@ Electrons are ejected, explain why.
 <summary>Answer</summary>
 
 Energy of the photon:
-$$E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34} \mathrm{ J\cdot s)(3.00 \times 10^8 \mathrm{ m/s)}{200 \times 10^{-9} \mathrm{ m} = 9.94 \times 10^{-19} \mathrm{ J$$
+$$
+E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34} \mathrm{ J\cdot s)(3.00 \times 10^8 \mathrm{ m/s)}{200 \times 10^{-9} \mathrm{ m} = 9.94 \times 10^{-19} \mathrm{ J
+$$
 
 Convert to eV: $9.94 \times 10^{-19} / 1.602 \times 10^{-19} = 6.20 \mathrm{ eV$.
 
 Kinetic energy of ejected electrons:
-$$KE = E_{\mathrm{photon} - \phi = 6.20 \mathrm{ eV - 4.0 \mathrm{ eV = 2.20 \mathrm{ eV$$
+$$
+KE = E_{\mathrm{photon} - \phi = 6.20 \mathrm{ eV - 4.0 \mathrm{ eV = 2.20 \mathrm{ eV
+$$
 
 In joules: $2.20 \times 1.602 \times 10^{-19} = 3.52 \times 10^{-19} \mathrm{ J$.
 
@@ -870,7 +888,9 @@ Calculate the pH of a $0.050\,\text{mol\,dm}^{-3}$ solution of HCl.
 
 HCl is a strong acid, so $[\text{H}^+] = 0.050\,\text{mol\,dm}^{-3}$.
 
-$$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
+$$
+\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30
+$$
 :::
 
 ## Intuition

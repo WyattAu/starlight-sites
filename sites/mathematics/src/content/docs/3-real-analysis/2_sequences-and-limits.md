@@ -22,7 +22,9 @@ description: 'A sequence in to a limit if for Every There exists such that Compr
 A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
 Every $\varepsilon > 0$There exists $N \in \mathbb{N}$ such that
 
-$$|a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N$$
+$$
+|a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
+$$
 
 We write $a_n \to L$ or $\lim_{n \to \infty} a_n = L$. A sequence that does not converge is said to
 **diverge**.
@@ -33,7 +35,9 @@ _Proof._ Suppose $a_n \to L$ and $a_n \to M$ with $L \neq M$. Let $\varepsilon =
 There Exists $N_1$ such that $|a_n - L| \lt \varepsilon$ for $n \geq N_1$ And $N_2$ such that
 $|a_n - M| \lt \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 
-$$|L - M| \leq |a_n - L| + |a_n - M| \lt 2\varepsilon = |L - M|$$
+$$
+|L - M| \leq |a_n - L| + |a_n - M| \lt 2\varepsilon = |L - M|
+$$
 
 A contradiction. $\blacksquare$
 
@@ -73,7 +77,9 @@ A sequence $(a_n)$ is a **Cauchy sequence** if for every $\varepsilon > 0$There 
 $N \in
 \mathbb{N}$ such that
 
-$$|a_n - a_m| \lt \varepsilon \quad \mathrm{for\ all\ } m, n \geq N$$
+$$
+|a_n - a_m| \lt \varepsilon \quad \mathrm{for\ all\ } m, n \geq N
+$$
 
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
@@ -92,7 +98,9 @@ Given $\varepsilon > 0$Choose $N_1$ so that $|a_n - a_m| \lt \varepsilon/2$ for 
 $K$ so that $|a_{n_k} - L| \lt \varepsilon/2$ for $k \geq K$. For $n \geq N_1$Choose $k \geq K$ with
 $n_k \geq N_1$ (possible since $n_k \to \infty$). Then
 
-$$|a_n - L| \leq |a_n - a_{n_k}| + |a_{n_k} - L| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon$$
+$$
+|a_n - L| \leq |a_n - a_{n_k}| + |a_{n_k} - L| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -130,10 +138,14 @@ $|a_{n_k} - c| \leq \mathrm{length}(I_k) \to 0$. Hence $a_{n_k} \to c$. $\blacks
 
 Let $(a_n)$ be a bounded sequence. Define:
 
-$$\limsup_{n \to \infty} a_n = \inf_{n \geq 1} \sup_{k \geq n} a_k, \qquad \liminf_{n \to \infty} a_n = \sup_{n \geq 1} \inf_{k \geq n} a_k$$
+$$
+\limsup_{n \to \infty} a_n = \inf_{n \geq 1} \sup_{k \geq n} a_k, \qquad \liminf_{n \to \infty} a_n = \sup_{n \geq 1} \inf_{k \geq n} a_k
+$$
 
 **Proposition 2.5.** For every bounded sequence $(a_n)$:
-$$\liminf_{n \to \infty} a_n \leq \limsup_{n \to \infty} a_n$$
+$$
+\liminf_{n \to \infty} a_n \leq \limsup_{n \to \infty} a_n
+$$
 
 _Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. Taking supremum over
 $n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
@@ -235,12 +247,16 @@ $x$ with $0 < |x - a| < \delta$").
 
 _Solution._ Let $\varepsilon > 0$. We compute:
 
-$$\left|\frac{3n+1}{n+2} - 3\right| = \left|\frac{3n+1 - 3(n+2)}{n+2}\right| = \left|\frac{-5}{n+2}\right| = \frac{5}{n+2}$$
+$$
+\left|\frac{3n+1}{n+2} - 3\right| = \left|\frac{3n+1 - 3(n+2)}{n+2}\right| = \left|\frac{-5}{n+2}\right| = \frac{5}{n+2}
+$$
 
 We need $\frac{5}{n+2} \lt \varepsilon$ i.e., $n + 2 > 5/\varepsilon$ i.e., $n > 5/\varepsilon - 2$.
 Choose $N = \lceil 5/\varepsilon \rceil$. Then for $n \geq N$:
 
-$$\left|\frac{3n+1}{n+2} - 3\right| = \frac{5}{n+2} \leq \frac{5}{N+2} \leq \frac{5}{5/\varepsilon} = \varepsilon$$
+$$
+\left|\frac{3n+1}{n+2} - 3\right| = \frac{5}{n+2} \leq \frac{5}{N+2} \leq \frac{5}{5/\varepsilon} = \varepsilon
+$$
 
 $\blacksquare$
 

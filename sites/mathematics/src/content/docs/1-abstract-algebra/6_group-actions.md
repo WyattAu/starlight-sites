@@ -35,7 +35,9 @@ The **stabilizer** of $x \in X$ is $\mathrm{Stab}(x) = \{g \in G : g \cdot x = x
 
 **Theorem 6.2 (Orbit-Stabilizer Theorem).** For any $x \in X$
 
-$$|\mathrm{Orb}(x)| = [G : \mathrm{Stab}(x)] = \frac{|G|}{|\mathrm{Stab}(x)|}$$
+$$
+|\mathrm{Orb}(x)| = [G : \mathrm{Stab}(x)] = \frac{|G|}{|\mathrm{Stab}(x)|}
+$$
 
 _Proof._ Define $\phi : G \to \mathrm{Orb}(x)$ by $\phi(g) = g \cdot x$. Then $g$ and $h$ have the
 same Image iff $g \cdot x = h \cdot x$ iff $h^{-1}g \cdot x = x$ iff $h^{-1}g \in \mathrm{Stab}(x)$
@@ -48,7 +50,9 @@ element of $\mathrm{Orb}(x)$. $\blacksquare$
 **Theorem 6.3 (Burnside's Lemma).** If a finite group $G$ acts on a finite set $X$ Then the number Of
 orbits is
 
-$$\frac{1}{|G|} \sum_{g \in G} |\mathrm{Fix}(g)|$$
+$$
+\frac{1}{|G|} \sum_{g \in G} |\mathrm{Fix}(g)|
+$$
 
 Where $\mathrm{Fix}(g) = \{x \in X : g \cdot x = x\}$.
 
@@ -67,7 +71,9 @@ $C_G(x) = \{g \in G : gx = xg\}$.
 
 **Theorem 6.4 (Class Equation).** For a finite group $G$
 
-$$|G| = |Z(G)| + \sum_{i} [G : C_G(x_i)]$$
+$$
+|G| = |Z(G)| + \sum_{i} [G : C_G(x_i)]
+$$
 
 Where the sum is over representatives $x_i$ of the non-central conjugacy classes.
 
@@ -111,14 +117,18 @@ $n \geq 1$), then $Z(G)$ is non-trivial: $|Z(G)| \geq p$.
 
 _Proof._ By the class equation:
 
-$$|G| = |Z(G)| + \sum_{i=1}^{r} [G : C_G(x_i)]$$
+$$
+|G| = |Z(G)| + \sum_{i=1}^{r} [G : C_G(x_i)]
+$$
 
 Where $x_1, \ldots, x_r$ are representatives of the non-central conjugacy classes. For each $i$
 $x_i$ is non-central, so $C_G(x_i) \neq G$. Thus $[G : C_G(x_i)]$ is a divisor of $|G| = p^n$ That
 is strictly greater than $1$Hence $p$ divides $[G : C_G(x_i)]$. Since $p$ also divides $|G|$ We
 have:
 
-$$|Z(G)| = |G| - \sum_{i=1}^{r} [G : C_G(x_i)] \equiv 0 - 0 \equiv 0 \pmod{p}$$
+$$
+|Z(G)| = |G| - \sum_{i=1}^{r} [G : C_G(x_i)] \equiv 0 - 0 \equiv 0 \pmod{p}
+$$
 
 Since $e \in Z(G)$We have $|Z(G)| \geq 1$. Therefore $|Z(G)| \geq p$. $\blacksquare$
 

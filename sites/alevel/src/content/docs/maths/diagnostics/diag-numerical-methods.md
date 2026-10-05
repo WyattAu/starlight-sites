@@ -73,15 +73,21 @@ one real root.
 
 $x_0 = 0$: $f(0) = 2$, $f'(0) = -2$.
 
-$$x_1 = 0 - \frac{2}{-2} = 1$$
+$$
+x_1 = 0 - \frac{2}{-2} = 1
+$$
 
 $x_1 = 1$: $f(1) = 1$, $f'(1) = 1$.
 
-$$x_2 = 1 - \frac{1}{1} = 0$$
+$$
+x_2 = 1 - \frac{1}{1} = 0
+$$
 
 $x_2 = 0$: $f(0) = 2$, $f'(0) = -2$.
 
-$$x_3 = 0 - \frac{2}{-2} = 1$$
+$$
+x_3 = 0 - \frac{2}{-2} = 1
+$$
 
 The iteration cycles: $0, 1, 0, 1, 0, 1, \ldots$
 
@@ -100,9 +106,13 @@ strictly decreasing (and hence $f$ and $f'$ have useful properties for convergen
 
 For example, $x_0 = -2$: $f(-2) = -2$, $f'(-2) = 10$.
 
-$$x_1 = -2 - \frac{-2}{10} = -2 + 0.2 = -1.8$$
+$$
+x_1 = -2 - \frac{-2}{10} = -2 + 0.2 = -1.8
+$$
 
-$$x_2 = -1.8 - \frac{-1.8^3 + 3.6 + 2}{3(3.24)-2} = -1.8 - \frac{-5.832 + 5.6}{7.72} = -1.8 + \frac{0.232}{7.72} \approx -1.770$$
+$$
+x_2 = -1.8 - \frac{-1.8^3 + 3.6 + 2}{3(3.24)-2} = -1.8 - \frac{-5.832 + 5.6}{7.72} = -1.8 + \frac{0.232}{7.72} \approx -1.770
+$$
 
 This converges rapidly to the root.
 
@@ -147,11 +157,17 @@ Positive root: $\alpha = \sqrt{3}$.
 
 **(b)** $x_0 = 2$:
 
-$$x_1 = \frac{1}{2}\left(2 + \frac{3}{2}\right) = \frac{7}{4} = 1.75$$
+$$
+x_1 = \frac{1}{2}\left(2 + \frac{3}{2}\right) = \frac{7}{4} = 1.75
+$$
 
-$$x_2 = \frac{1}{2}\left(\frac{7}{4} + \frac{3 \times 4}{7}\right) = \frac{1}{2}\left(\frac{7}{4} + \frac{12}{7}\right) = \frac{1}{2} \cdot \frac{49 + 48}{28} = \frac{97}{56} \approx 1.73214$$
+$$
+x_2 = \frac{1}{2}\left(\frac{7}{4} + \frac{3 \times 4}{7}\right) = \frac{1}{2}\left(\frac{7}{4} + \frac{12}{7}\right) = \frac{1}{2} \cdot \frac{49 + 48}{28} = \frac{97}{56} \approx 1.73214
+$$
 
-$$x_3 = \frac{1}{2}\left(\frac{97}{56} + \frac{3 \times 56}{97}\right) = \frac{1}{2}\left(\frac{97}{56} + \frac{168}{97}\right) = \frac{1}{2} \cdot \frac{9409 + 9408}{5432} = \frac{18817}{10864} \approx 1.73205$$
+$$
+x_3 = \frac{1}{2}\left(\frac{97}{56} + \frac{3 \times 56}{97}\right) = \frac{1}{2}\left(\frac{97}{56} + \frac{168}{97}\right) = \frac{1}{2} \cdot \frac{9409 + 9408}{5432} = \frac{18817}{10864} \approx 1.73205
+$$
 
 The iteration converges rapidly to $\sqrt{3} \approx 1.73205$.
 
@@ -171,11 +187,17 @@ iteration diverges near the root.
 
 Verification with $x_0 = 2$:
 
-$$x_1 = 4 - 3 + 2 = 3$$
+$$
+x_1 = 4 - 3 + 2 = 3
+$$
 
-$$x_2 = 9 - 3 + 3 = 9$$
+$$
+x_2 = 9 - 3 + 3 = 9
+$$
 
-$$x_3 = 81 - 3 + 9 = 87$$
+$$
+x_3 = 81 - 3 + 9 = 87
+$$
 
 diverging.
 
@@ -218,9 +240,13 @@ error bound formula for determining required strip count.]
 | -------------- | --- | ----------------------------------------------- | --- | --------------------------- | ------------------------- |
 | $y = \sqrt{x}$ | 0   | $\frac{1}{\sqrt{2}} \approx 0.7071$ | 1   | $\sqrt{1.5} \approx 1.2247$ | $\sqrt{2} \approx 1.4142$ |
 
-$$T_4 = \frac{0.5}{2}\left[0 + 2(0.7071 + 1 + 1.2247) + 1.4142\right]$$
+$$
+T_4 = \frac{0.5}{2}\left[0 + 2(0.7071 + 1 + 1.2247) + 1.4142\right]
+$$
 
-$$= 0.25[0 + 5.8636 + 1.4142] = 0.25 \times 7.2778 = 1.8194$$
+$$
+= 0.25[0 + 5.8636 + 1.4142] = 0.25 \times 7.2778 = 1.8194
+$$
 
 **(b)** $f(x) = x^{1/2}$. $f'(x) = \frac{1}{2}x^{-1/2}$. $f''(x) = -\frac{1}{4}x^{-3/2}$.
 
@@ -231,7 +257,9 @@ the curve is concave down (the trapezia lie above the curve).
 
 **(c)** Exact value: $\frac{4\sqrt{2}}{3} \approx 1.8856$.
 
-$$\text{Percentage error} = \frac{\lvert 1.8194 - 1.8856 \rvert}{1.8856} \times 100\% \approx 3.51\%$$
+$$
+\text{Percentage error} = \frac{\lvert 1.8194 - 1.8856 \rvert}{1.8856} \times 100\% \approx 3.51\%
+$$
 
 **(d)** The error bound:
 $\lvert E \rvert \leq \frac{(b-a)^3}{12n^2}\max_{[a,b]}\lvert f''(x) \rvert$.
@@ -300,9 +328,13 @@ combining numerical methods with differentiation.]
 
 **(a)** $f(x) = x^4 - 4x^3 + 8x^2 - 8x + 3$.
 
-$$f'(x) = 4x^3 - 12x^2 + 16x - 8$$
+$$
+f'(x) = 4x^3 - 12x^2 + 16x - 8
+$$
 
-$$f''(x) = 12x^2 - 24x + 16$$
+$$
+f''(x) = 12x^2 - 24x + 16
+$$
 
 **(b)** We apply Newton-Raphson to $g(x) = f'(x) = 4x^3 - 12x^2 + 16x - 8$:
 
@@ -401,25 +433,45 @@ exactly one root.
 
 **(b)** $x_0 = 0.5$:
 
-$$x_1 = \cos(0.5) \approx 0.87758$$
+$$
+x_1 = \cos(0.5) \approx 0.87758
+$$
 
-$$x_2 = \cos(0.87758) \approx 0.63901$$
+$$
+x_2 = \cos(0.87758) \approx 0.63901
+$$
 
-$$x_3 = \cos(0.63901) \approx 0.80269$$
+$$
+x_3 = \cos(0.63901) \approx 0.80269
+$$
 
-$$x_4 = \cos(0.80269) \approx 0.69478$$
+$$
+x_4 = \cos(0.80269) \approx 0.69478
+$$
 
-$$x_5 = \cos(0.69478) \approx 0.76820$$
+$$
+x_5 = \cos(0.69478) \approx 0.76820
+$$
 
-$$x_6 = \cos(0.76820) \approx 0.71917$$
+$$
+x_6 = \cos(0.76820) \approx 0.71917
+$$
 
-$$x_7 = \cos(0.71917) \approx 0.75236$$
+$$
+x_7 = \cos(0.71917) \approx 0.75236
+$$
 
-$$x_8 = \cos(0.75236) \approx 0.73012$$
+$$
+x_8 = \cos(0.75236) \approx 0.73012
+$$
 
-$$x_9 = \cos(0.73012) \approx 0.74512$$
+$$
+x_9 = \cos(0.73012) \approx 0.74512
+$$
 
-$$x_{10} = \cos(0.74512) \approx 0.73501$$
+$$
+x_{10} = \cos(0.74512) \approx 0.73501
+$$
 
 This converges slowly (oscillating above and below the root). After approximately 25-30 iterations,
 $x_n \approx 0.73909$.
@@ -438,11 +490,17 @@ since $0 \lt \lvert g'(\alpha) \rvert \lt 1$).
 
 $x_0 = 0.5$: $f(0.5) = \cos 0.5 - 0.5 \approx 0.37758$, $f'(0.5) = -\sin 0.5 - 1 \approx -1.47943$.
 
-$$x_1 = 0.5 - \frac{0.37758}{-1.47943} \approx 0.5 + 0.25521 = 0.75521$$
+$$
+x_1 = 0.5 - \frac{0.37758}{-1.47943} \approx 0.5 + 0.25521 = 0.75521
+$$
 
-$$x_2 = 0.75521 - \frac{\cos 0.75521 - 0.75521}{-\sin 0.75521 - 1} \approx 0.75521 - \frac{-0.02760}{-1.68560} \approx 0.75521 - 0.01637 = 0.73884$$
+$$
+x_2 = 0.75521 - \frac{\cos 0.75521 - 0.75521}{-\sin 0.75521 - 1} \approx 0.75521 - \frac{-0.02760}{-1.68560} \approx 0.75521 - 0.01637 = 0.73884
+$$
 
-$$x_3 \approx 0.73884 - \frac{\cos 0.73884 - 0.73884}{-\sin 0.73884 - 1} \approx 0.73884 - \frac{0.00004}{-1.67378} \approx 0.73909$$
+$$
+x_3 \approx 0.73884 - \frac{\cos 0.73884 - 0.73884}{-\sin 0.73884 - 1} \approx 0.73884 - \frac{0.00004}{-1.67378} \approx 0.73909
+$$
 
 Newton-Raphson converges in 3 iterations to 5 decimal places, compared to approximately 25-30
 iterations for fixed-point iteration. Newton-Raphson has quadratic convergence while fixed-point has
@@ -488,9 +546,13 @@ integral, and error analysis via concavity.]
 | ---------- | --- | ----------------------------- | --------------------------- | ----------------------------- | ------------------------ |
 | $e^{-x^2}$ | 1   | $e^{-0.0625} \approx 0.93941$ | $e^{-0.25} \approx 0.77880$ | $e^{-0.5625} \approx 0.56978$ | $e^{-1} \approx 0.36788$ |
 
-$$T_4 = \frac{0.25}{2}[1 + 2(0.93941 + 0.77880 + 0.56978) + 0.36788]$$
+$$
+T_4 = \frac{0.25}{2}[1 + 2(0.93941 + 0.77880 + 0.56978) + 0.36788]
+$$
 
-$$= 0.125[1 + 4.57598 + 0.36788] = 0.125 \times 5.94386 = 0.74298$$
+$$
+= 0.125[1 + 4.57598 + 0.36788] = 0.125 \times 5.94386 = 0.74298
+$$
 
 **(b)** $n = 8$, $h = 0.125$.
 
@@ -498,9 +560,13 @@ $$= 0.125[1 + 4.57598 + 0.36788] = 0.125 \times 5.94386 = 0.74298$$
 | ---------- | --- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | $e^{-x^2}$ | 1   | 0.98450 | 0.93941 | 0.86936 | 0.77880 | 0.67706 | 0.56978 | 0.46353 | 0.36788 |
 
-$$T_8 = \frac{0.125}{2}[1 + 2(0.98450 + 0.93941 + 0.86936 + 0.77880 + 0.67706 + 0.56978 + 0.46353) + 0.36788]$$
+$$
+T_8 = \frac{0.125}{2}[1 + 2(0.98450 + 0.93941 + 0.86936 + 0.77880 + 0.67706 + 0.56978 + 0.46353) + 0.36788]
+$$
 
-$$= 0.0625[1 + 2 \times 5.28244 + 0.36788] = 0.0625[1 + 10.56488 + 0.36788] = 0.0625 \times 11.93276 = 0.74580$$
+$$
+= 0.0625[1 + 2 \times 5.28244 + 0.36788] = 0.0625[1 + 10.56488 + 0.36788] = 0.0625 \times 11.93276 = 0.74580
+$$
 
 The exact value (to 5 d.p.) is $\int_0^1 e^{-x^2}\, dx \approx 0.74682$.
 
@@ -530,9 +596,13 @@ are below the exact value).
 
 **(d)** Using the first four terms of the Maclaurin series:
 
-$$\int_0^1 \left(1 - x^2 + \frac{x^4}{2} - \frac{x^6}{6}\right) dx = \left[x - \frac{x^3}{3} + \frac{x^5}{10} - \frac{x^7}{42}\right]_0^1$$
+$$
+\int_0^1 \left(1 - x^2 + \frac{x^4}{2} - \frac{x^6}{6}\right) dx = \left[x - \frac{x^3}{3} + \frac{x^5}{10} - \frac{x^7}{42}\right]_0^1
+$$
 
-$$= 1 - \frac{1}{3} + \frac{1}{10} - \frac{1}{42} = \frac{210 - 70 + 21 - 5}{210} = \frac{156}{210} = \frac{26}{35} \approx 0.74286$$
+$$
+= 1 - \frac{1}{3} + \frac{1}{10} - \frac{1}{42} = \frac{210 - 70 + 21 - 5}{210} = \frac{156}{210} = \frac{26}{35} \approx 0.74286
+$$
 
 Comparison:
 

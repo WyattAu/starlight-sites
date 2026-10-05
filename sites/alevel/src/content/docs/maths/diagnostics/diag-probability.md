@@ -65,7 +65,9 @@ Here $\mathrm{P}(A \cap B) = 0.1 \neq 0$ So $A$ and $B$ are **not mutually exclu
 **(b)** Events $A$ and $B$ are independent if
 $\mathrm{P}(A \cap B) = \mathrm{P}(A) \times \mathrm{P}(B)$.
 
-$$\mathrm{P}(A) \times \mathrm{P}(B) = 0.4 \times 0.5 = 0.20$$
+$$
+\mathrm{P}(A) \times \mathrm{P}(B) = 0.4 \times 0.5 = 0.20
+$$
 
 But $\mathrm{P}(A \cap B) = 0.1 \neq 0.20$ So $A$ and $B$ are **not independent**.
 
@@ -143,13 +145,21 @@ We need $\mathrm{P}(D \mid +)$.
 
 By Bayes' theorem (or using a tree diagram / contingency table):
 
-$$\mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}$$
+$$
+\mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}
+$$
 
-$$\mathrm{P}(+) = \mathrm{P}(+ \mid D)\mathrm{P}(D) + \mathrm{P}(+ \mid D')\mathrm{P}(D')$$
+$$
+\mathrm{P}(+) = \mathrm{P}(+ \mid D)\mathrm{P}(D) + \mathrm{P}(+ \mid D')\mathrm{P}(D')
+$$
 
-$$= (0.95)(0.01) + (0.02)(0.99) = 0.0095 + 0.0198 = 0.0293$$
+$$
+= (0.95)(0.01) + (0.02)(0.99) = 0.0095 + 0.0198 = 0.0293
+$$
 
-$$\mathrm{P}(D \mid +) = \frac{0.0095}{0.0293} = 0.3242... \approx 0.324$$
+$$
+\mathrm{P}(D \mid +) = \frac{0.0095}{0.0293} = 0.3242... \approx 0.324
+$$
 
 So there is approximately a 32.4% chance the person actually has the disease, despite the positive
 test.
@@ -169,17 +179,29 @@ even with a "95% accurate" test.
 
 Let $p = \mathrm{P}(D)$ be the prevalence. Then:
 
-$$\mathrm{P}(+) = 0.95p + 0.02(1 - p) = 0.95p + 0.02 - 0.02p = 0.93p + 0.02$$
+$$
+\mathrm{P}(+) = 0.95p + 0.02(1 - p) = 0.95p + 0.02 - 0.02p = 0.93p + 0.02
+$$
 
-$$\mathrm{P}(D \mid +) = \frac{0.95p}{0.93p + 0.02} \geq 0.5$$
+$$
+\mathrm{P}(D \mid +) = \frac{0.95p}{0.93p + 0.02} \geq 0.5
+$$
 
-$$0.95p \geq 0.5(0.93p + 0.02) = 0.465p + 0.01$$
+$$
+0.95p \geq 0.5(0.93p + 0.02) = 0.465p + 0.01
+$$
 
-$$0.95p - 0.465p \geq 0.01$$
+$$
+0.95p - 0.465p \geq 0.01
+$$
 
-$$0.485p \geq 0.01$$
+$$
+0.485p \geq 0.01
+$$
 
-$$p \geq \frac{0.01}{0.485} = 0.02062...$$
+$$
+p \geq \frac{0.01}{0.485} = 0.02062...
+$$
 
 The minimum prevalence is approximately 2.06%. At this prevalence, exactly half of all positive
 tests are true positives.
@@ -189,7 +211,9 @@ $\mathrm{P}(+ \mid D)$ is the sensitivity of the test (among people with the dis
 test positive), while $\mathrm{P}(D \mid +)$ is the positive predictive value (among people who test
 positive, what fraction actually have the disease). These are related by Bayes' theorem:
 
-$$\mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}$$
+$$
+\mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}
+$$
 
 They would be equal only when $\mathrm{P}(D) = \mathrm{P}(+)$I.e., when the prevalence equals the
 overall probability of a positive test. This is a very specific condition that would not generally
@@ -234,33 +258,53 @@ and a proof about a fundamental identity.]
 
 **(a)** $X$ can take values 0, 1, 2, 3.
 
-$$\mathrm{P}(X = 0) = \frac{\binom{6}{3}}{\binom{10}{3}} = \frac{20}{120} = \frac{1}{6}$$
+$$
+\mathrm{P}(X = 0) = \frac{\binom{6}{3}}{\binom{10}{3}} = \frac{20}{120} = \frac{1}{6}
+$$
 
-$$\mathrm{P}(X = 1) = \frac{\binom{4}{1}\binom{6}{2}}{\binom{10}{3}} = \frac{4 \times 15}{120} = \frac{60}{120} = \frac{1}{2}$$
+$$
+\mathrm{P}(X = 1) = \frac{\binom{4}{1}\binom{6}{2}}{\binom{10}{3}} = \frac{4 \times 15}{120} = \frac{60}{120} = \frac{1}{2}
+$$
 
-$$\mathrm{P}(X = 2) = \frac{\binom{4}{2}\binom{6}{1}}{\binom{10}{3}} = \frac{6 \times 6}{120} = \frac{36}{120} = \frac{3}{10}$$
+$$
+\mathrm{P}(X = 2) = \frac{\binom{4}{2}\binom{6}{1}}{\binom{10}{3}} = \frac{6 \times 6}{120} = \frac{36}{120} = \frac{3}{10}
+$$
 
-$$\mathrm{P}(X = 3) = \frac{\binom{4}{3}}{\binom{10}{3}} = \frac{4}{120} = \frac{1}{30}$$
+$$
+\mathrm{P}(X = 3) = \frac{\binom{4}{3}}{\binom{10}{3}} = \frac{4}{120} = \frac{1}{30}
+$$
 
 **Verification:**
 
-$$\frac{1}{6} + \frac{1}{2} + \frac{3}{10} + \frac{1}{30} = \frac{5}{30} + \frac{15}{30} + \frac{9}{30} + \frac{1}{30} = \frac{30}{30} = 1 \checkmark$$
+$$
+\frac{1}{6} + \frac{1}{2} + \frac{3}{10} + \frac{1}{30} = \frac{5}{30} + \frac{15}{30} + \frac{9}{30} + \frac{1}{30} = \frac{30}{30} = 1 \checkmark
+$$
 
 **(b)**
 
-$$\mathrm{E}(X) = \sum x \cdot \mathrm{P}(X = x) = 0\left(\frac{1}{6}\right) + 1\left(\frac{1}{2}\right) + 2\left(\frac{3}{10}\right) + 3\left(\frac{1}{30}\right)$$
+$$
+\mathrm{E}(X) = \sum x \cdot \mathrm{P}(X = x) = 0\left(\frac{1}{6}\right) + 1\left(\frac{1}{2}\right) + 2\left(\frac{3}{10}\right) + 3\left(\frac{1}{30}\right)
+$$
 
-$$= 0 + \frac{1}{2} + \frac{6}{10} + \frac{3}{30} = \frac{1}{2} + \frac{3}{5} + \frac{1}{10} = \frac{5}{10} + \frac{6}{10} + \frac{1}{10} = \frac{12}{10} = 1.2$$
+$$
+= 0 + \frac{1}{2} + \frac{6}{10} + \frac{3}{30} = \frac{1}{2} + \frac{3}{5} + \frac{1}{10} = \frac{5}{10} + \frac{6}{10} + \frac{1}{10} = \frac{12}{10} = 1.2
+$$
 
 **Alternative check:**
 $\mathrm{E}(X) = n \times \frac{\text{number of red}}{\text{total}} = 3 \times \frac{4}{10} = 1.2$.
 This confirms our result.
 
-$$\mathrm{E}(X^2) = 0^2\left(\frac{1}{6}\right) + 1^2\left(\frac{1}{2}\right) + 2^2\left(\frac{3}{10}\right) + 3^2\left(\frac{1}{30}\right)$$
+$$
+\mathrm{E}(X^2) = 0^2\left(\frac{1}{6}\right) + 1^2\left(\frac{1}{2}\right) + 2^2\left(\frac{3}{10}\right) + 3^2\left(\frac{1}{30}\right)
+$$
 
-$$= 0 + \frac{1}{2} + \frac{12}{10} + \frac{9}{30} = \frac{1}{2} + \frac{6}{5} + \frac{3}{10} = \frac{5}{10} + \frac{12}{10} + \frac{3}{10} = \frac{20}{10} = 2$$
+$$
+= 0 + \frac{1}{2} + \frac{12}{10} + \frac{9}{30} = \frac{1}{2} + \frac{6}{5} + \frac{3}{10} = \frac{5}{10} + \frac{12}{10} + \frac{3}{10} = \frac{20}{10} = 2
+$$
 
-$$\mathrm{Var}(X) = \mathrm{E}(X^2) - [\mathrm{E}(X)]^2 = 2 - 1.44 = 0.56$$
+$$
+\mathrm{Var}(X) = \mathrm{E}(X^2) - [\mathrm{E}(X)]^2 = 2 - 1.44 = 0.56
+$$
 
 **(c)** Let $A$ = "at least one red ball is drawn" and $B$ = "no red balls are drawn".
 
@@ -269,14 +313,18 @@ Note that $A = B'$ (the complement of $B$). This is always true: "at least one" 
 
 By the complement rule (which holds for all events):
 
-$$\mathrm{P}(A) = \mathrm{P}(B') = 1 - \mathrm{P}(B)$$
+$$
+\mathrm{P}(A) = \mathrm{P}(B') = 1 - \mathrm{P}(B)
+$$
 
 This is $\mathrm{P}(\text{at least one red}) = 1 - \mathrm{P}(\text{no red})$.
 
 The complement rule $\mathrm{P}(B') = 1 - \mathrm{P}(B)$ is derived from the addition rule: since
 $B$ and $B'$ are mutually exclusive and exhaustive (they form a partition of the sample space):
 
-$$\mathrm{P}(B \cup B') = \mathrm{P}(B) + \mathrm{P}(B') = 1$$
+$$
+\mathrm{P}(B \cup B') = \mathrm{P}(B) + \mathrm{P}(B') = 1
+$$
 
 So $\mathrm{P}(B') = 1 - \mathrm{P}(B)$.
 
@@ -288,13 +336,19 @@ $\mathrm{P}(\text{red}) = \frac{4}{10} = 0.4$.
 
 Let $Y$ = number of draws until the first red ball. Then $Y \sim \text{Geo}(0.4)$.
 
-$$\mathrm{P}(Y \leq 5) = 1 - \mathrm{P}(Y > 5) = 1 - \mathrm{P}(\text{first 5 draws are all blue}) = 1 - (0.6)^5$$
+$$
+\mathrm{P}(Y \leq 5) = 1 - \mathrm{P}(Y > 5) = 1 - \mathrm{P}(\text{first 5 draws are all blue}) = 1 - (0.6)^5
+$$
 
-$$= 1 - 0.07776 = 0.92224 \approx 0.922$$
+$$
+= 1 - 0.07776 = 0.92224 \approx 0.922
+$$
 
 Alternatively, using the geometric CDF:
 
-$$\mathrm{P}(Y \leq 5) = \sum_{k=1}^{5} (0.6)^{k-1}(0.4) = 0.4 + 0.24 + 0.144 + 0.0864 + 0.05184 = 0.92224$$
+$$
+\mathrm{P}(Y \leq 5) = \sum_{k=1}^{5} (0.6)^{k-1}(0.4) = 0.4 + 0.24 + 0.144 + 0.0864 + 0.05184 = 0.92224
+$$
 
 ---
 
@@ -337,46 +391,68 @@ indicator variables.]
 
 **(a)** Define $X_i$ as follows:
 
-$$X_i = \begin{cases} 1 & \text{if the } i\text{-th trial is a success} \\ 0 & \text{if the } i\text{-th trial is a failure} \end{cases}$$
+$$
+X_i = \begin{cases} 1 & \text{if the } i\text{-th trial is a success} \\ 0 & \text{if the } i\text{-th trial is a failure} \end{cases}
+$$
 
 Each $X_i$ follows a Bernoulli distribution with parameter $p$:
 
-$$\mathrm{E}(X_i) = 1 \cdot p + 0 \cdot (1-p) = p$$
+$$
+\mathrm{E}(X_i) = 1 \cdot p + 0 \cdot (1-p) = p
+$$
 
 The total number of successes is $X = X_1 + X_2 + \cdots + X_n = \sum_{i=1}^{n} X_i$.
 
 By the linearity of expectation (which holds regardless of independence):
 
-$$\mathrm{E}(X) = \mathrm{E}\left(\sum_{i=1}^{n} X_i\right) = \sum_{i=1}^{n} \mathrm{E}(X_i) = \sum_{i=1}^{n} p = np$$
+$$
+\mathrm{E}(X) = \mathrm{E}\left(\sum_{i=1}^{n} X_i\right) = \sum_{i=1}^{n} \mathrm{E}(X_i) = \sum_{i=1}^{n} p = np
+$$
 
 **(b)** For each $X_i$:
 
-$$\mathrm{E}(X_i^2) = 1^2 \cdot p + 0^2 \cdot (1-p) = p$$
+$$
+\mathrm{E}(X_i^2) = 1^2 \cdot p + 0^2 \cdot (1-p) = p
+$$
 
-$$\mathrm{Var}(X_i) = \mathrm{E}(X_i^2) - [\mathrm{E}(X_i)]^2 = p - p^2 = p(1-p)$$
+$$
+\mathrm{Var}(X_i) = \mathrm{E}(X_i^2) - [\mathrm{E}(X_i)]^2 = p - p^2 = p(1-p)
+$$
 
 Since the trials are independent, the $X_i$ are independent random variables. For independent random
 variables, the variance of the sum equals the sum of the variances:
 
-$$\mathrm{Var}(X) = \mathrm{Var}\left(\sum_{i=1}^{n} X_i\right) = \sum_{i=1}^{n} \mathrm{Var}(X_i) = \sum_{i=1}^{n} p(1-p) = np(1-p)$$
+$$
+\mathrm{Var}(X) = \mathrm{Var}\left(\sum_{i=1}^{n} X_i\right) = \sum_{i=1}^{n} \mathrm{Var}(X_i) = \sum_{i=1}^{n} p(1-p) = np(1-p)
+$$
 
 Note: This step requires independence. If the trials were dependent, we would need to add covariance
 terms, and the result would not simplify to $np(1-p)$.
 
 **(c)** For a fair coin: $n = 20$, $p = 0.5$.
 
-$$\mathrm{E}(X) = 20 \times 0.5 = 10$$
+$$
+\mathrm{E}(X) = 20 \times 0.5 = 10
+$$
 
-$$\mathrm{Var}(X) = 20 \times 0.5 \times 0.5 = 5$$
+$$
+\mathrm{Var}(X) = 20 \times 0.5 \times 0.5 = 5
+$$
 
-$$\mathrm{E}(X^2) = \mathrm{Var}(X) + [\mathrm{E}(X)]^2 = 5 + 100 = 105$$
+$$
+\mathrm{E}(X^2) = \mathrm{Var}(X) + [\mathrm{E}(X)]^2 = 5 + 100 = 105
+$$
 
 **(d)** Using $\mathrm{E}(aX + b) = a\mathrm{E}(X) + b$ and
 $\mathrm{Var}(aX + b) = a^2\mathrm{Var}(X)$:
 
-$$\mathrm{E}(Y) = 3\mathrm{E}(X) - 5 = 3(10) - 5 = 25$$
+$$
+\mathrm{E}(Y) = 3\mathrm{E}(X) - 5 = 3(10) - 5 = 25
+$$
 
-$$\mathrm{Var}(Y) = 3^2 \mathrm{Var}(X) = 9 \times 5 = 45$$
+$$
+\mathrm{Var}(Y) = 3^2 \mathrm{Var}(X) = 9 \times 5 = 45
+$$
 
 Note that the additive constant $-5$ has no effect on the variance. This is a common source of
 error: students sometimes write $\mathrm{Var}(Y) = \mathrm{Var}(3X) + \mathrm{Var}(-5)$Which is
@@ -427,13 +503,19 @@ testing.]
 | 11  | (5,6), (6,5)                      | 2     |
 | 12  | (6,6)                             | 1     |
 
-$$\mathrm{P}(A) = \frac{5 + 4 + 3 + 2 + 1}{36} = \frac{15}{36} = \frac{5}{12}$$
+$$
+\mathrm{P}(A) = \frac{5 + 4 + 3 + 2 + 1}{36} = \frac{15}{36} = \frac{5}{12}
+$$
 
 **For $B$ (at least one prime):** Prime numbers on a die are 2, 3, 5.
 
-$$\mathrm{P}(\text{prime on one roll}) = \frac{3}{6} = \frac{1}{2}$$
+$$
+\mathrm{P}(\text{prime on one roll}) = \frac{3}{6} = \frac{1}{2}
+$$
 
-$$\mathrm{P}(B) = 1 - \mathrm{P}(\text{no primes}) = 1 - \left(\frac{3}{6}\right)^2 = 1 - \frac{9}{36} = \frac{27}{36} = \frac{3}{4}$$
+$$
+\mathrm{P}(B) = 1 - \mathrm{P}(\text{no primes}) = 1 - \left(\frac{3}{6}\right)^2 = 1 - \frac{9}{36} = \frac{27}{36} = \frac{3}{4}
+$$
 
 (Non-prime faces are 1, 4, 6, so 3 out of 6 faces are non-prime.)
 
@@ -479,9 +561,13 @@ Listing outcomes with sum $> 7$ and at least one prime:
 - Sum 11: (5,6) [5 prime], (6,5) [5 prime]. Both 2 outcomes.
 - Sum 12: (6,6) [neither prime]. That is 0 outcomes.
 
-$$\mathrm{P}(A \cap B) = \frac{4 + 4 + 1 + 2 + 0}{36} = \frac{11}{36}$$
+$$
+\mathrm{P}(A \cap B) = \frac{4 + 4 + 1 + 2 + 0}{36} = \frac{11}{36}
+$$
 
-$$\mathrm{P}(A) \cdot \mathrm{P}(B) = \frac{5}{12} \times \frac{3}{4} = \frac{5}{16} = \frac{11.25}{36}$$
+$$
+\mathrm{P}(A) \cdot \mathrm{P}(B) = \frac{5}{12} \times \frac{3}{4} = \frac{5}{16} = \frac{11.25}{36}
+$$
 
 Since $\frac{11}{36} \neq \frac{11.25}{36}$Events $A$ and $B$ are **not independent**.
 
@@ -546,11 +632,15 @@ shows a prime slightly decreases the probability of a large sum. This is because
 
 **(a)** Using a Venn diagram, prove that for any two events $A$ and $B$:
 
-$$\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)$$
+$$
+\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)
+$$
 
 **(b)** Hence prove that for three events $A$, $B$ And $C$:
 
-$$\mathrm{P}(A \cup B \cup C) = \mathrm{P}(A) + \mathrm{P}(B) + \mathrm{P}(C) - \mathrm{P}(A \cap B) - \mathrm{P}(A \cap C) - \mathrm{P}(B \cap C) + \mathrm{P}(A \cap B \cap C)$$
+$$
+\mathrm{P}(A \cup B \cup C) = \mathrm{P}(A) + \mathrm{P}(B) + \mathrm{P}(C) - \mathrm{P}(A \cap B) - \mathrm{P}(A \cap C) - \mathrm{P}(B \cap C) + \mathrm{P}(A \cap B \cap C)
+$$
 
 **(c)** In a class of 40 students: 18 study Mathematics, 15 study Physics, 12 study Chemistry, 7
 study both Mathematics and Physics, 5 study both Mathematics and Chemistry, 4 study both Physics and
@@ -585,15 +675,23 @@ Now:
 
 Therefore:
 
-$$\mathrm{P}(A) + \mathrm{P}(B) = [\mathrm{P}(A \cap B) + \mathrm{P}(A \cap B')] + [\mathrm{P}(A \cap B) + \mathrm{P}(A' \cap B)]$$
+$$
+\mathrm{P}(A) + \mathrm{P}(B) = [\mathrm{P}(A \cap B) + \mathrm{P}(A \cap B')] + [\mathrm{P}(A \cap B) + \mathrm{P}(A' \cap B)]
+$$
 
-$$= \mathrm{P}(A \cap B) + \mathrm{P}(A \cap B') + \mathrm{P}(A' \cap B) + \mathrm{P}(A \cap B)$$
+$$
+= \mathrm{P}(A \cap B) + \mathrm{P}(A \cap B') + \mathrm{P}(A' \cap B) + \mathrm{P}(A \cap B)
+$$
 
-$$= \mathrm{P}(A \cup B) + \mathrm{P}(A \cap B)$$
+$$
+= \mathrm{P}(A \cup B) + \mathrm{P}(A \cap B)
+$$
 
 Rearranging:
 
-$$\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)$$
+$$
+\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)
+$$
 
 This is the **inclusion-exclusion principle** for two events. The term $\mathrm{P}(A \cap B)$ is
 subtracted because the overlap was counted twice (once in $\mathrm{P}(A)$ and once in
@@ -601,25 +699,37 @@ $\mathrm{P}(B)$).
 
 **(b)** Apply the two-event formula repeatedly:
 
-$$\mathrm{P}(A \cup B \cup C) = \mathrm{P}((A \cup B) \cup C)$$
+$$
+\mathrm{P}(A \cup B \cup C) = \mathrm{P}((A \cup B) \cup C)
+$$
 
-$$= \mathrm{P}(A \cup B) + \mathrm{P}(C) - \mathrm{P}((A \cup B) \cap C)$$
+$$
+= \mathrm{P}(A \cup B) + \mathrm{P}(C) - \mathrm{P}((A \cup B) \cap C)
+$$
 
 Using the two-event formula for $\mathrm{P}(A \cup B)$:
 
-$$= [\mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)] + \mathrm{P}(C) - \mathrm{P}((A \cap C) \cup (B \cap C))$$
+$$
+= [\mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)] + \mathrm{P}(C) - \mathrm{P}((A \cap C) \cup (B \cap C))
+$$
 
 Using the two-event formula for $\mathrm{P}((A \cap C) \cup (B \cap C))$:
 
-$$= \mathrm{P}(A \cap C) + \mathrm{P}(B \cap C) - \mathrm{P}(A \cap B \cap C)$$
+$$
+= \mathrm{P}(A \cap C) + \mathrm{P}(B \cap C) - \mathrm{P}(A \cap B \cap C)
+$$
 
 Substituting back:
 
-$$\mathrm{P}(A \cup B \cup C) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B) + \mathrm{P}(C) - \mathrm{P}(A \cap C) - \mathrm{P}(B \cap C) + \mathrm{P}(A \cap B \cap C)$$
+$$
+\mathrm{P}(A \cup B \cup C) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B) + \mathrm{P}(C) - \mathrm{P}(A \cap C) - \mathrm{P}(B \cap C) + \mathrm{P}(A \cap B \cap C)
+$$
 
 Rearranging:
 
-$$\mathrm{P}(A \cup B \cup C) = \mathrm{P}(A) + \mathrm{P}(B) + \mathrm{P}(C) - \mathrm{P}(A \cap B) - \mathrm{P}(A \cap C) - \mathrm{P}(B \cap C) + \mathrm{P}(A \cap B \cap C)$$
+$$
+\mathrm{P}(A \cup B \cup C) = \mathrm{P}(A) + \mathrm{P}(B) + \mathrm{P}(C) - \mathrm{P}(A \cap B) - \mathrm{P}(A \cap C) - \mathrm{P}(B \cap C) + \mathrm{P}(A \cap B \cap C)
+$$
 
 This is the inclusion-exclusion principle for three events.
 
@@ -642,12 +752,16 @@ Number studying exactly one subject:
 
 Total studying exactly one: $8 + 6 + 5 = 19$
 
-$$\mathrm{P}(\text{exactly one}) = \frac{19}{40}$$
+$$
+\mathrm{P}(\text{exactly one}) = \frac{19}{40}
+$$
 
 **(d)** The claim is **false**. If $\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B)$ Then from
 the inclusion-exclusion principle:
 
-$$\mathrm{P}(A) + \mathrm{P}(B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)$$
+$$
+\mathrm{P}(A) + \mathrm{P}(B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)
+$$
 
 This gives $\mathrm{P}(A \cap B) = 0$Meaning $A$ and $B$ are **mutually exclusive**, not
 independent.

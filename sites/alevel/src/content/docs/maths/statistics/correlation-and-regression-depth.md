@@ -73,15 +73,23 @@ coefficient. Always examine Your scatter diagram before relying on numerical mea
 The **product moment correlation coefficient** (also called Pearson's correlation coefficient) For a
 sample of $n$ pairs $(x_i, y_i)$ is:
 
-$$r = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}$$
+$$
+r = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}
+$$
 
 Where:
 
-$$S_{xy} = \sum(x_i - \bar{x})(y_i - \bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}$$
+$$
+S_{xy} = \sum(x_i - \bar{x})(y_i - \bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}
+$$
 
-$$S_{xx} = \sum(x_i - \bar{x})^2 = \sum x_i^2 - n\bar{x}^2$$
+$$
+S_{xx} = \sum(x_i - \bar{x})^2 = \sum x_i^2 - n\bar{x}^2
+$$
 
-$$S_{yy} = \sum(y_i - \bar{y})^2 = \sum y_i^2 - n\bar{y}^2$$
+$$
+S_{yy} = \sum(y_i - \bar{y})^2 = \sum y_i^2 - n\bar{y}^2
+$$
 
 ### 2.2 Properties
 
@@ -97,13 +105,19 @@ $$S_{yy} = \sum(y_i - \bar{y})^2 = \sum y_i^2 - n\bar{y}^2$$
 
 **Proof.** By the Cauchy-Schwarz inequality:
 
-$$\left(\sum a_i b_i\right)^2 \leq \left(\sum a_i^2\right)\!\left(\sum b_i^2\right)$$
+$$
+\left(\sum a_i b_i\right)^2 \leq \left(\sum a_i^2\right)\!\left(\sum b_i^2\right)
+$$
 
 Setting $a_i = x_i - \bar{x}$ and $b_i = y_i - \bar{y}$:
 
-$$S_{xy}^2 \leq S_{xx}\,S_{yy}$$
+$$
+S_{xy}^2 \leq S_{xx}\,S_{yy}
+$$
 
-$$r^2 = \frac{S_{xy}^2}{S_{xx}\,S_{yy}} \leq 1 \implies |r| \leq 1 \quad \blacksquare$$
+$$
+r^2 = \frac{S_{xy}^2}{S_{xx}\,S_{yy}} \leq 1 \implies |r| \leq 1 \quad \blacksquare
+$$
 
 ### 2.4 Worked example
 
@@ -123,7 +137,9 @@ $\sum x_i^2 = 4 + 16 + 36 + 64 + 100 = 220$$S_{xx} = 220 - 5(36) = 40$
 
 $\sum y_i^2 = 9 + 25 + 16 + 49 + 81 = 180$$S_{yy} = 180 - 5(31.36) = 180 - 156.8 = 23.2$
 
-$$r = \frac{28}{\sqrt{40 \times 23.2}} = \frac{28}{\sqrt{928}} = \frac{28}{30.46} \approx 0.919$$
+$$
+r = \frac{28}{\sqrt{40 \times 23.2}} = \frac{28}{\sqrt{928}} = \frac{28}{30.46} \approx 0.919
+$$
 
 This indicates strong positive linear correlation.
 
@@ -143,7 +159,9 @@ The PMCC is unchanged by coding: $r_{xy} = r_{uv}$.
 **Spearman's rank correlation coefficient** $r_s$ measures the strength of the **monotonic**
 Relationship between two variables:
 
-$$r_s = 1 - \frac{6\sum d_i^2}{n(n^2 - 1)}$$
+$$
+r_s = 1 - \frac{6\sum d_i^2}{n(n^2 - 1)}
+$$
 
 Where $d_i = \mathrm{rank}(x_i) - \mathrm{rank}(y_i)$ is the difference in ranks for the $i$-th
 pair.
@@ -162,7 +180,9 @@ tied for ranks 3 and 4, both receive rank 3.5.
 
 When ties exist, the simplified formula is only approximate. A more accurate formula uses:
 
-$$r_s = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}$$
+$$
+r_s = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}
+$$
 
 Applied to the rank data.
 
@@ -180,7 +200,9 @@ Applied to the rank data.
 
 $\sum d_i^2 = 1 + 4 + 1 + 1 + 1 + 4 = 12$
 
-$$r_s = 1 - \frac{6 \times 12}{6(35)} = 1 - \frac{72}{210} = 1 - 0.343 = 0.657$$
+$$
+r_s = 1 - \frac{6 \times 12}{6(35)} = 1 - \frac{72}{210} = 1 - 0.343 = 0.657
+$$
 
 This indicates moderate positive agreement between the judges.
 
@@ -200,7 +222,9 @@ $d_i$: 0, 0.5, -0.5, 0, 0.
 
 $\sum d_i^2 = 0 + 0.25 + 0.25 + 0 + 0 = 0.5$
 
-$$r_s = 1 - \frac{6 \times 0.5}{5 \times 24} = 1 - \frac{3}{120} = 1 - 0.025 = 0.975$$
+$$
+r_s = 1 - \frac{6 \times 0.5}{5 \times 24} = 1 - \frac{3}{120} = 1 - 0.025 = 0.975
+$$
 
 Very strong positive monotonic relationship.
 
@@ -213,22 +237,32 @@ Very strong positive monotonic relationship.
 The **least squares regression line** of $y$ on $x$ is the line $y = a + bx$ that minimises the Sum
 of squared residuals:
 
-$$S = \sum_{i=1}^{n}(y_i - a - bx_i)^2$$
+$$
+S = \sum_{i=1}^{n}(y_i - a - bx_i)^2
+$$
 
 Setting $\dfrac{\partial S}{\partial a} = 0$ and
 $\dfrac{\partial S}{\partial b} = 0$:
 
-$$b = \frac{S_{xy}}{S_{xx}} = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^2}$$
+$$
+b = \frac{S_{xy}}{S_{xx}} = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^2}
+$$
 
-$$a = \bar{y} - b\bar{x}$$
+$$
+a = \bar{y} - b\bar{x}
+$$
 
 **Key property:** The regression line always passes through the point $(\bar{x}, \bar{y})$.
 
 ### 4.2 Derivation of the normal equations
 
-$$\frac{\partial S}{\partial a} = -2\sum(y_i - a - bx_i) = 0 \implies na + b\sum x_i = \sum y_i$$
+$$
+\frac{\partial S}{\partial a} = -2\sum(y_i - a - bx_i) = 0 \implies na + b\sum x_i = \sum y_i
+$$
 
-$$\frac{\partial S}{\partial b} = -2\sum x_i(y_i - a - bx_i) = 0 \implies a\sum x_i + b\sum x_i^2 = \sum x_i y_i$$
+$$
+\frac{\partial S}{\partial b} = -2\sum x_i(y_i - a - bx_i) = 0 \implies a\sum x_i + b\sum x_i^2 = \sum x_i y_i
+$$
 
 These are the **normal equations**. Dividing the first by $n$ gives $\bar{y} = a + b\bar{x}$
 Confirming the line passes through the mean point.
@@ -241,7 +275,9 @@ $b = \dfrac{S_{xy}}{S_{xx}} = \dfrac{28}{40} = 0.7$
 
 $a = \bar{y} - b\bar{x} = 5.6 - 0.7(6) = 5.6 - 4.2 = 1.4$
 
-$$y = 1.4 + 0.7x$$
+$$
+y = 1.4 + 0.7x
+$$
 
 To predict $y$ when $x = 7$: $y = 1.4 + 4.9 = 6.3$.
 
@@ -249,7 +285,9 @@ To predict $y$ when $x = 7$: $y = 1.4 + 4.9 = 6.3$.
 
 The regression line of $x$ on $y$ (used when predicting $x$ from $y$) is:
 
-$$x = \bar{x} + \frac{S_{xy}}{S_{yy}}(y - \bar{y})$$
+$$
+x = \bar{x} + \frac{S_{xy}}{S_{yy}}(y - \bar{y})
+$$
 
 **Important:** The two regression lines are different unless $|r| = 1$. The line of $y$ on $x$
 Minimises vertical residuals; the line of $x$ on $y$ minimises horizontal residuals.
@@ -275,7 +313,9 @@ vice versa. Use the appropriate regression line for the direction of prediction.
 A **residual** for the $i$-th data point is the difference between the observed value and the
 Predicted value:
 
-$$e_i = y_i - \hat{y}_i = y_i - (a + bx_i)$$
+$$
+e_i = y_i - \hat{y}_i = y_i - (a + bx_i)
+$$
 
 ### 5.2 Properties of residuals
 
@@ -404,11 +444,15 @@ $\sum x_i^2 = 1 + 4 + 9 + 16 + 25 = 55$. $S_{xx} = 55 - 5(9) = 10$.
 
 $\sum y_i^2 = 9 + 25 + 36 + 64 + 121 = 255$. $S_{yy} = 255 - 5(43.56) = 255 - 217.8 = 37.2$.
 
-$$r = \frac{19}{\sqrt{10 \times 37.2}} = \frac{19}{19.29} \approx 0.985$$
+$$
+r = \frac{19}{\sqrt{10 \times 37.2}} = \frac{19}{19.29} \approx 0.985
+$$
 
 Regression: $b = \frac{19}{10} = 1.9$, $a = 6.6 - 1.9(3) = 0.9$.
 
-$$y = 0.9 + 1.9x$$
+$$
+y = 0.9 + 1.9x
+$$
 
 $\blacksquare$
 
@@ -436,7 +480,9 @@ Judge 2 ranks: E=1, A=2, C=3, B=4, D=5.
 
 $\sum d_i^2 = 1 + 0.25 + 1 + 0.25 + 0 = 2.5$.
 
-$$r_s = 1 - \frac{6 \times 2.5}{5 \times 24} = 1 - \frac{15}{120} = 1 - 0.125 = 0.875$$
+$$
+r_s = 1 - \frac{6 \times 2.5}{5 \times 24} = 1 - \frac{15}{120} = 1 - 0.125 = 0.875
+$$
 
 $\blacksquare$
 

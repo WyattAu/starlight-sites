@@ -251,7 +251,9 @@ Solutions: $x = \dfrac{\pi}{6}, \dfrac{\pi}{2}, \dfrac{5\pi}{6}, \dfrac{3\pi}{2}
 
 Let $u = \cos x$. Then $3u^2 - u - 2 = 0$.
 
-$$(3u + 2)(u - 1) = 0$$
+$$
+(3u + 2)(u - 1) = 0
+$$
 
 $u = -\dfrac{2}{3}$ or $u = 1$.
 
@@ -298,7 +300,9 @@ $$
 2\cos^2 x - 3\cos x + 1 = 0
 $$
 
-$$(2\cos x - 1)(\cos x - 1) = 0$$
+$$
+(2\cos x - 1)(\cos x - 1) = 0
+$$
 
 $\cos x = \frac{1}{2}$: $x = \frac{\pi}{3}, \frac{5\pi}{3}$.
 
@@ -379,7 +383,9 @@ $R = \sqrt{a^2 + b^2}$. Dividing: $\tan\alpha = b/a$.
 
 **Example:** Express $3\sin x + 4\cos x$ in the form $R\sin(x + \alpha)$.
 
-$$R = \sqrt{9 + 16} = 5$$
+$$
+R = \sqrt{9 + 16} = 5
+$$
 
 $$
 \alpha = \arctan\left(\frac{4}{3}\right)
@@ -504,9 +510,13 @@ $\sqrt{g^2 + f^2 - c}$ (provided $g^2 + f^2 - c > 0$).
 
 Complete the square:
 
-$$(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4$$
+$$
+(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4
+$$
 
-$$(x - 3)^2 + (y + 2)^2 = 25$$
+$$
+(x - 3)^2 + (y + 2)^2 = 25
+$$
 
 Centre $(3, -2)$Radius $5$.
 
@@ -516,7 +526,9 @@ $$
 R^2 = (5 - 2)^2 + (1 + 3)^2 = 9 + 16 = 25
 $$
 
-$$(x - 2)^2 + (y + 3)^2 = 25$$
+$$
+(x - 2)^2 + (y + 3)^2 = 25
+$$
 
 **Tangent to a Circle:**
 
@@ -570,9 +582,13 @@ $$
 5x^2 + 4x - 9 = 0
 $$
 
-$$(5x + 9)(x - 1) = 0$$
+$$
+(5x + 9)(x - 1) = 0
+$$
 
-$$x = -\frac{9}{5} \mathrm{ or  x = 1$$
+$$
+x = -\frac{9}{5} \mathrm{ or  x = 1
+$$
 
 When $x = 1$: $y = 3$. When $x = -\dfrac{9}{5}$: $y = -\dfrac{13}{5}$.
 
@@ -647,11 +663,17 @@ $L_2$: $\mathbf{r} = (3, 1, -1) + t(1, -1, 3)$
 
 Equate coordinates:
 
-$$1 + 2s = 3 + t \quad (1)$$
+$$
+1 + 2s = 3 + t \quad (1)
+$$
 
-$$s = 1 - t \quad (2)$$
+$$
+s = 1 - t \quad (2)
+$$
 
-$$2 - s = -1 + 3t \quad (3)$$
+$$
+2 - s = -1 + 3t \quad (3)
+$$
 
 From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$Giving $t = 0$,
 $s = 1$.

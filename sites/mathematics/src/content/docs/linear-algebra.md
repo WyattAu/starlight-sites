@@ -110,12 +110,16 @@ inherited from $V$. $\blacksquare$
 Closed under all finite linear combinations: for all $\mathbf{v}_1, \ldots, \mathbf{v}_k \in W$ and
 All $\alpha_1, \ldots, \alpha_k \in F$
 
-$$\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W$$
+$$
+\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W
+$$
 
 _Proof._ We proceed by induction on $k$. For $k = 1$, $\alpha_1 \mathbf{v}_1 \in W$ by closure under
 Scalar multiplication. Assume the result holds for $k - 1$ vectors. Then
 
-$$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_k \mathbf{v}_k = (\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1}) + \alpha_k \mathbf{v}_k$$
+$$
+\alpha_1 \mathbf{v}_1 + \cdots + \alpha_k \mathbf{v}_k = (\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1}) + \alpha_k \mathbf{v}_k
+$$
 
 By the inductive hypothesis,
 $\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1} \in W$ And
@@ -141,11 +145,15 @@ a Subspace of $\mathbb{R}^n$Called the **null space** of $A$.
 **(a)** Let $\mathbf{u} = (x_1, y_1, z_1)$ and $\mathbf{v} = (x_2, y_2, z_2)$ be in $W_1$ So
 $x_1 + 2y_1 - z_1 = 0$ and $x_2 + 2y_2 - z_2 = 0$. Then
 
-$$(x_1 + x_2) + 2(y_1 + y_2) - (z_1 + z_2) = (x_1 + 2y_1 - z_1) + (x_2 + 2y_2 - z_2) = 0 + 0 = 0$$
+$$
+(x_1 + x_2) + 2(y_1 + y_2) - (z_1 + z_2) = (x_1 + 2y_1 - z_1) + (x_2 + 2y_2 - z_2) = 0 + 0 = 0
+$$
 
 So $\mathbf{u} + \mathbf{v} \in W_1$. For $\alpha \in \mathbb{R}$
 
-$$(\alpha x_1) + 2(\alpha y_1) - (\alpha z_1) = \alpha(x_1 + 2y_1 - z_1) = \alpha \cdot 0 = 0$$
+$$
+(\alpha x_1) + 2(\alpha y_1) - (\alpha z_1) = \alpha(x_1 + 2y_1 - z_1) = \alpha \cdot 0 = 0
+$$
 
 So $\alpha \mathbf{u} \in W_1$. Since $W_1$ is non-empty (e.g., $\mathbf{0} \in W_1$), it is a
 subspace.
@@ -215,7 +223,9 @@ $\blacksquare$
 A set of vectors $\{\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k\} \subseteq V$ is **linearly
 Independent** if the equation
 
-$$\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k = \mathbf{0}$$
+$$
+\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k = \mathbf{0}
+$$
 
 Implies $\alpha_1 = \alpha_2 = \cdots = \alpha_k = 0$. Otherwise the set is **linearly dependent**.
 
@@ -242,7 +252,9 @@ by (3), $\alpha_i = 0$ for all $i$. $\blacksquare$
 The **span** of a set $S \subseteq V$Denoted $\mathrm{span}(S)$Is the set of all finite linear
 Combinations of elements of $S$:
 
-$$\mathrm{span}(S) = \left\{ \sum_{i=1}^k \alpha_i \mathbf{v}_i : k \in \mathbb{N},\, \alpha_i \in F,\, \mathbf{v}_i \in S \right\}$$
+$$
+\mathrm{span}(S) = \left\{ \sum_{i=1}^k \alpha_i \mathbf{v}_i : k \in \mathbb{N},\, \alpha_i \in F,\, \mathbf{v}_i \in S \right\}
+$$
 
 **Proposition 2.2.** $\mathrm{span}(S)$ is always a subspace of $V$. In fact, $\mathrm{span}(S)$ is
 The smallest subspace containing $S$: if $W$ is any subspace with $S \subseteq W$ Then
@@ -272,7 +284,9 @@ The **dimension** of $V$Denoted $\dim(V)$Is the cardinality of any basis for $V$
 Independent set in $V$ And let $\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ be a spanning set for $V$.
 Then $k \leq m$ And after relabelling the $\mathbf{w}_j$The set
 
-$$\{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_m\}$$
+$$
+\{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_m\}
+$$
 
 Also spans $V$.
 
@@ -289,7 +303,9 @@ $\mathbf{w}_1 = \alpha_1^{-1}(\mathbf{u}_k - \sum_{j=2}^m \alpha_j \mathbf{w}_j)
 $\mathbf{w}_1 \in \mathrm{span}\{\mathbf{u}_k, \mathbf{w}_2, \ldots, \mathbf{w}_m\}$. It follows
 that
 
-$$\mathrm{span}\{\mathbf{w}_1, \ldots, \mathbf{w}_m\} = \mathrm{span}\{\mathbf{u}_k, \mathbf{w}_2, \ldots, \mathbf{w}_m\} = V$$
+$$
+\mathrm{span}\{\mathbf{w}_1, \ldots, \mathbf{w}_m\} = \mathrm{span}\{\mathbf{u}_k, \mathbf{w}_2, \ldots, \mathbf{w}_m\} = V
+$$
 
 Now $\{\mathbf{u}_1, \ldots, \mathbf{u}_{k-1}\}$ is linearly independent and
 $\{\mathbf{u}_k, \mathbf{w}_2, \ldots, \mathbf{w}_m\}$ spans $V$. By the inductive hypothesis,
@@ -312,13 +328,17 @@ $m \leq k$. Hence $k = m$. $\blacksquare$
 **Theorem 2.5 (Dimension Formula).** If $U$ and $W$ are subspaces of a finite-dimensional vector
 Space $V$ Then
 
-$$\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W)$$
+$$
+\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W)
+$$
 
 ### 2.6 Rank-Nullity Theorem
 
 **Theorem 2.6 (Rank-Nullity Theorem).** Let $A \in \mathcal{M}_{m \times n}(F)$. Then
 
-$$\mathrm{rank}(A) + \mathrm{nullity}(A) = n$$
+$$
+\mathrm{rank}(A) + \mathrm{nullity}(A) = n
+$$
 
 Where $\mathrm{rank}(A) = \dim(\mathrm{col}(A))$ and $\mathrm{nullity}(A) = \dim(\mathrm{null}(A))$.
 
@@ -331,7 +351,9 @@ We claim that $\{A\mathbf{v}_{k+1}, \ldots, A\mathbf{v}_n\}$ is a basis for $\ma
 _Spanning:_ For any $\mathbf{y} \in \mathrm{col}(A)$There exists $\mathbf{x} \in F^n$ With
 $\mathbf{y} = A\mathbf{x}$. Writing $\mathbf{x} = \sum_{i=1}^n \alpha_i \mathbf{v}_i$
 
-$$\mathbf{y} = A\left(\sum_{i=1}^n \alpha_i \mathbf{v}_i\right) = \sum_{i=1}^n \alpha_i A\mathbf{v}_i = \sum_{i=k+1}^n \alpha_i A\mathbf{v}_i$$
+$$
+\mathbf{y} = A\left(\sum_{i=1}^n \alpha_i \mathbf{v}_i\right) = \sum_{i=1}^n \alpha_i A\mathbf{v}_i = \sum_{i=k+1}^n \alpha_i A\mathbf{v}_i
+$$
 
 Since $A\mathbf{v}_i = \mathbf{0}$ for $i \leq k$.
 
@@ -355,9 +377,13 @@ $W = \mathrm{span}\{(1, 2, -1, 0), (3, 1, 0, 2), (-1, 3, -2, -2)\}$ of $\mathbb{
 
 Form the matrix whose rows are the given vectors and row-reduce:
 
-$$\begin{pmatrix} 1 & 2 & -1 & 0 \\ 3 & 1 & 0 & 2 \\ -1 & 3 & -2 & -2 \end{pmatrix} \xrightarrow{R_2 - 3R_1} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ -1 & 3 & -2 & -2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 0 \\ 3 & 1 & 0 & 2 \\ -1 & 3 & -2 & -2 \end{pmatrix} \xrightarrow{R_2 - 3R_1} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ -1 & 3 & -2 & -2 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ 0 & 5 & -3 & -2 \end{pmatrix} \xrightarrow{R_3 + R_2} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ 0 & 0 & 0 & 0 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ 0 & 5 & -3 & -2 \end{pmatrix} \xrightarrow{R_3 + R_2} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ 0 & 0 & 0 & 0 \end{pmatrix}
+$$
 
 The row echelon form has two non-zero rows, so $\dim(W) = 2$. A basis is given by the non-zero Rows:
 $\{(1, 2, -1, 0), (0, -5, 3, 2)\}$. $\blacksquare$
@@ -366,14 +392,18 @@ $\{(1, 2, -1, 0), (0, -5, 3, 2)\}$. $\blacksquare$
 
 **Problem.** Find a basis for the null space of
 
-$$A = \begin{pmatrix} 1 & 2 & 1 & -1 \\ 2 & 4 & 0 & 1 \\ 0 & 0 & 1 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 1 & -1 \\ 2 & 4 & 0 & 1 \\ 0 & 0 & 1 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Row-reduce $A$:
 
-$$\begin{pmatrix} 1 & 2 & 1 & -1 \\ 2 & 4 & 0 & 1 \\ 0 & 0 & 1 & 3 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & 1 & -1 \\ 0 & 0 & -2 & 3 \\ 0 & 0 & 1 & 3 \end{pmatrix} \xrightarrow{R_3 + R_2/2} \begin{pmatrix} 1 & 2 & 1 & -1 \\ 0 & 0 & -2 & 3 \\ 0 & 0 & 0 & 9/2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & 1 & -1 \\ 2 & 4 & 0 & 1 \\ 0 & 0 & 1 & 3 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & 1 & -1 \\ 0 & 0 & -2 & 3 \\ 0 & 0 & 1 & 3 \end{pmatrix} \xrightarrow{R_3 + R_2/2} \begin{pmatrix} 1 & 2 & 1 & -1 \\ 0 & 0 & -2 & 3 \\ 0 & 0 & 0 & 9/2 \end{pmatrix}
+$$
 
 This has pivots in columns 1, 3, and 4. The free variable is $x_2$. Setting $x_2 = t$ and
 Back-substituting: $x_4 = 0$, $x_3 = 0$, $x_1 = -2t$. The null space is
@@ -391,7 +421,9 @@ $\mathbf{v}_3 = (7, 8, 9)$ form a basis For $\mathbb{R}^3$.
 Form the matrix $A = [\mathbf{v}_1 \mid \mathbf{v}_2 \mid \mathbf{v}_3]$ and compute Its
 determinant:
 
-$$\det(A) = 1(45 - 48) - 2(36 - 42) + 3(32 - 35) = -3 + 12 - 9 = 0$$
+$$
+\det(A) = 1(45 - 48) - 2(36 - 42) + 3(32 - 35) = -3 + 12 - 9 = 0
+$$
 
 Since $\det(A) = 0$The columns are linearly dependent, so
 $\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3\}$ Is not a basis. In fact,
@@ -461,7 +493,9 @@ $(\alpha A)_{ij} = \alpha A_{ij}$.
 **Matrix multiplication.** For $A \in \mathcal{M}_{m \times n}(F)$ and
 $B \in \mathcal{M}_{n \times p}(F)$ The product $AB \in \mathcal{M}_{m \times p}(F)$ is defined by
 
-$$(AB)_{ij} = \sum_{k=1}^n A_{ik} B_{kj}$$
+$$
+(AB)_{ij} = \sum_{k=1}^n A_{ik} B_{kj}
+$$
 
 **Proposition 3.1.** Matrix multiplication is associative but not commutative .
 
@@ -490,7 +524,9 @@ $(A^T)_{ij} = A_{ji}$.
 A square matrix $A \in \mathcal{M}_{n \times n}(F)$ is **invertible** if there exists a matrix
 $A^{-1} \in \mathcal{M}_{n \times n}(F)$ such that
 
-$$AA^{-1} = A^{-1}A = I_n$$
+$$
+AA^{-1} = A^{-1}A = I_n
+$$
 
 **Theorem 3.1.** The following are equivalent for $A \in \mathcal{M}_{n \times n}(F)$:
 
@@ -507,7 +543,9 @@ $$AA^{-1} = A^{-1}A = I_n$$
 The **determinant** is a function $\det : \mathcal{M}_{n \times n}(F) \to F$ defined recursively by
 **Laplace expansion** along the first row:
 
-$$\det(A) = \sum_{j=1}^n (-1)^{1+j} a_{1j} M_{1j}$$
+$$
+\det(A) = \sum_{j=1}^n (-1)^{1+j} a_{1j} M_{1j}
+$$
 
 Where $M_{1j}$ is the $(1,j)$-minor (the determinant of the $(n-1) \times (n-1)$ matrix obtained by
 Deleting row 1 and column $j$).
@@ -532,7 +570,9 @@ $\det$ is multiplied by $\alpha$.
 
 (3) Adding $\alpha$ times row $j$ to row $i$ ($i \neq j$): by multilinearity in row $i$
 
-$$\det(\mathrm{new}~A) = \det(A) + \alpha \cdot \det(\mathrm{matrix~with~rows~i~and~j~equal})$$
+$$
+\det(\mathrm{new}~A) = \det(A) + \alpha \cdot \det(\mathrm{matrix~with~rows~i~and~j~equal})
+$$
 
 A matrix with two equal rows has determinant 0 (by antisymmetry: swapping them leaves the matrix
 Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$Hence $\det = 0$). Therefore
@@ -540,7 +580,9 @@ $\det(\mathrm{new}~A) = \det(A)$. $\blacksquare$
 
 **Theorem 3.3 (Multiplicativity).** For $A, B \in \mathcal{M}_{n \times n}(F)$
 
-$$\det(AB) = \det(A)\det(B)$$
+$$
+\det(AB) = \det(A)\det(B)
+$$
 
 _Proof (via elementary matrices)._ Every matrix $B$ can be written as a product of elementary
 matrices Times an upper triangular matrix: $B = E_1 E_2 \cdots E_k U$. For an elementary matrix $E$:
@@ -553,7 +595,9 @@ matrices Times an upper triangular matrix: $B = E_1 E_2 \cdots E_k U$. For an el
 
 Thus $\det(AE) = \det(A)\det(E)$ for every elementary matrix. By induction,
 
-$$\det(AB) = \det(A \cdot E_1 \cdots E_k U) = \det(A) \cdot \det(E_1) \cdots \det(E_k) \cdot \det(U) = \det(A) \cdot \det(B)$$
+$$
+\det(AB) = \det(A \cdot E_1 \cdots E_k U) = \det(A) \cdot \det(E_1) \cdots \det(E_k) \cdot \det(U) = \det(A) \cdot \det(B)
+$$
 
 Since $\det(B) = \det(E_1)\cdots\det(E_k)\det(U)$. $\blacksquare$
 
@@ -567,14 +611,18 @@ same effects on the determinant. $\blacksquare$
 
 **Definition.** The **adjugate** (or **adjoint**) of $A \in \mathcal{M}_{n \times n}(F)$ is
 
-$$\mathrm{adj}(A) = (C_{ji})_{i,j=1}^n$$
+$$
+\mathrm{adj}(A) = (C_{ji})_{i,j=1}^n
+$$
 
 Where $C_{ij}$ is the $(i,j)$-cofactor of $A$. That is, $\mathrm{adj}(A)$ is the transpose of the
 Cofactor matrix.
 
 **Theorem 3.5.** For any $A \in \mathcal{M}_{n \times n}(F)$
 
-$$A \cdot \mathrm{adj}(A) = \mathrm{adj}(A) \cdot A = \det(A) \cdot I_n$$
+$$
+A \cdot \mathrm{adj}(A) = \mathrm{adj}(A) \cdot A = \det(A) \cdot I_n
+$$
 
 In particular, if $\det(A) \neq 0$ Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
 
@@ -587,16 +635,22 @@ $i$Which has two equal rows and hence determinant 0. $\blacksquare$
 
 **Problem.** Compute $\det(A)$ where
 
-$$A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Expanding along the first column:
 
-$$\det(A) = 1 \cdot \det\begin{pmatrix} 1 & 4 \\ 6 & 0 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}$$
+$$
+\det(A) = 1 \cdot \det\begin{pmatrix} 1 & 4 \\ 6 & 0 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}
+$$
 
-$$= 1 \cdot (0 - 24) + 5 \cdot (8 - 3) = -24 + 25 = 1$$
+$$
+= 1 \cdot (0 - 24) + 5 \cdot (8 - 3) = -24 + 25 = 1
+$$
 
 $\blacksquare$
 
@@ -604,27 +658,37 @@ $\blacksquare$
 
 **Problem.** Compute $\det(A)$ by row reduction where
 
-$$A = \begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Apply row operations and track their effect on the determinant:
 
-$$\begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 0 & -1 & 1 \\ 0 & 0 & -1 & 2 \\ 0 & 1/2 & -1/2 & 1/2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 0 & -1 & 1 \\ 0 & 0 & -1 & 2 \\ 0 & 1/2 & -1/2 & 1/2 \end{pmatrix}
+$$
 
 The determinant is unchanged (only type 3 operations). Now swap $R_2$ and $R_4$ (multiplies $\det$
 by $-1$):
 
-$$\xrightarrow{R_2 \leftrightarrow R_4} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & -1 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_2 \leftrightarrow R_4} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & -1 & 1 \end{pmatrix}
+$$
 
 Now $R_4 \to R_4 - R_3$ (determinant unchanged):
 
-$$\begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & 0 & -1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & 0 & -1 \end{pmatrix}
+$$
 
 The determinant is the product of diagonal entries, times $-1$ for the row swap:
 
-$$\det(A) = (-1) \cdot 2 \cdot \frac{1}{2} \cdot (-1) \cdot (-1) = -1$$
+$$
+\det(A) = (-1) \cdot 2 \cdot \frac{1}{2} \cdot (-1) \cdot (-1) = -1
+$$
 
 $\blacksquare$
 
@@ -632,7 +696,9 @@ $\blacksquare$
 
 **Problem.** Find $A^{-1}$ using the adjugate formula, where
 
-$$A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -641,9 +707,13 @@ $\det(A) = 1 \cdot 4 - 2 \cdot 3 = -2 \neq 0$ So $A$ is invertible.
 
 Cofactors: $C_{11} = 4$, $C_{12} = -3$, $C_{21} = -2$, $C_{22} = 1$.
 
-$$\mathrm{adj}(A) = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}$$
+$$
+\mathrm{adj}(A) = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}
+$$
 
-$$A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}
+$$
 
 Verify:
 $AA^{-1} = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix} = \begin{pmatrix} -2 + 3 & 1 - 1 \\ -6 + 6 & 3 - 2 \end{pmatrix} = I_2$.
@@ -660,16 +730,22 @@ $\det(AB) = \det(A)\det(B)$ with a Non-existent formula for non-square matrices.
 
 **Problem.** Compute $\det(A)$ where
 
-$$A = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 This matrix has Pascal-like entries. We use row operations:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 1 & 3 & 6 \\ 0 & 1 & 4 & 10 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 1 & 4 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 1 & 3 & 6 \\ 0 & 1 & 4 & 10 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 1 & 4 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_4 - R_3} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_4 - R_3} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 0 & 1 \end{pmatrix}
+$$
 
 All operations were type 3 (adding a multiple of one row to another), so the determinant is
 Unchanged. The upper triangular matrix has diagonal entries $1, 1, 1, 1$ So $\det(A) = 1$.
@@ -737,7 +813,9 @@ Have the same RREF.
 **Theorem 4.2 (Rouché--Capelli).** The system $A\mathbf{x} = \mathbf{b}$ is consistent (has at least
 one Solution) if and only if
 
-$$\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}])$$
+$$
+\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}])
+$$
 
 If consistent, the solution set has $\dim(\mathrm{null}(A))$ free parameters, where
 $\dim(\mathrm{null}(A)) = n - \mathrm{rank}(A)$.
@@ -763,20 +841,28 @@ Triangular portion. The resulting upper triangular matrix is $U$ And the multipl
 
 **Worked Example.** Find the LU decomposition of
 
-$$A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Step 1: Eliminate below $a_{11}$. $m_{21} = 4/2 = 2$, $m_{31} = 8/2 = 4$.
 
-$$\begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 3 & 5 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 3 & 5 \end{pmatrix}
+$$
 
 Step 2: Eliminate below $a_{22}$. $m_{32} = 3/1 = 3$.
 
-$$U = \begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}
+$$
 
-$$L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ 4 & 3 & 1 \end{pmatrix}$$
+$$
+L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ 4 & 3 & 1 \end{pmatrix}
+$$
 
 Verify: $LU = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix} = A$. $\blacksquare$
 
@@ -793,30 +879,42 @@ Stability.
 
 **Problem.** Solve the system using Gaussian elimination with partial pivoting:
 
-$$\begin{aligned} x_1 + 2x_2 + x_3 &= 5 \\ 3x_1 + x_2 - x_3 &= 2 \\ 2x_1 + 3x_2 + 4x_3 &= 11 \end{aligned}$$
+$$
+\begin{aligned} x_1 + 2x_2 + x_3 &= 5 \\ 3x_1 + x_2 - x_3 &= 2 \\ 2x_1 + 3x_2 + 4x_3 &= 11 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Augmented matrix:
 
-$$[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 2 & 1 & 5 \\ 3 & 1 & -1 & 2 \\ 2 & 3 & 4 & 11 \end{pmatrix}$$
+$$
+[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 2 & 1 & 5 \\ 3 & 1 & -1 & 2 \\ 2 & 3 & 4 & 11 \end{pmatrix}
+$$
 
 **Step 1.** Column 1: largest entry is 3 in row 2. Swap $R_1 \leftrightarrow R_2$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 1 & 2 & 1 & 5 \\ 2 & 3 & 4 & 11 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 1 & 2 & 1 & 5 \\ 2 & 3 & 4 & 11 \end{pmatrix}
+$$
 
 $R_2 \to R_2 - \frac{1}{3}R_1$, $R_3 \to R_3 - \frac{2}{3}R_1$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 5/3 & 4/3 & 13/3 \\ 0 & 7/3 & 14/3 & 29/3 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 5/3 & 4/3 & 13/3 \\ 0 & 7/3 & 14/3 & 29/3 \end{pmatrix}
+$$
 
 **Step 2.** Column 2: largest entry below pivot is $7/3$ in row 3. Swap $R_2 \leftrightarrow R_3$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 5/3 & 4/3 & 13/3 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 5/3 & 4/3 & 13/3 \end{pmatrix}
+$$
 
 $R_3 \to R_3 - \frac{5}{7}R_2$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 0 & -2/7 & -6/7 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 0 & -2/7 & -6/7 \end{pmatrix}
+$$
 
 **Back substitution.** From row 3: $-\frac{2}{7}x_3 = -\frac{6}{7}$ So $x_3 = 3$.
 
@@ -837,7 +935,9 @@ We seek $\mathbf{x}$ that minimises $\lVert A\mathbf{x} - \mathbf{b} \rVert^2$.
 
 **Theorem 4.4 (Normal Equations).** The least squares solution $\hat{\mathbf{x}}$ satisfies
 
-$$A^T A \hat{\mathbf{x}} = A^T \mathbf{b}$$
+$$
+A^T A \hat{\mathbf{x}} = A^T \mathbf{b}
+$$
 
 If $A$ has full column rank, then $A^T A$ is invertible and
 $\hat{\mathbf{x}} = (A^T A)^{-1} A^T \mathbf{b}$.
@@ -881,30 +981,44 @@ The least squares line is $y = x - 1/3$. $\blacksquare$
 
 **Problem.** Solve the system:
 
-$$\begin{aligned} x_1 + 2x_2 - x_3 + 3x_4 &= 1 \\ 2x_1 + 4x_2 - x_3 + 5x_4 &= 2 \\ x_1 + 2x_2 + x_3 + x_4 &= 0 \end{aligned}$$
+$$
+\begin{aligned} x_1 + 2x_2 - x_3 + 3x_4 &= 1 \\ 2x_1 + 4x_2 - x_3 + 5x_4 &= 2 \\ x_1 + 2x_2 + x_3 + x_4 &= 0 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & -1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & -1 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & -1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & -1 \end{pmatrix}
+$$
 
 The last row reads $0 = -1$ So the system is **inconsistent** (no solution).
 
 **Revised problem:** Change the last equation to $x_1 + 2x_2 + x_3 + x_4 = 2$:
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 1 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 1 \end{pmatrix}
+$$
 
 Still inconsistent! The RREF reveals $0 = 1$ in the last row.
 
 **Revised again:** Change the last equation to $x_1 + 2x_2 + x_3 + x_4 = 1$:
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 0 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{pmatrix}
+$$
 
 Now the system is consistent. Pivots in columns 1 and 3; free variables are $x_2$ and $x_4$. From
 row 2: $x_3 = x_4$. From row 1: $x_1 = 1 - 2x_2 + x_3 - 3x_4 = 1 - 2x_2 - 2x_4$.
@@ -945,7 +1059,9 @@ The solution space is a 2-dimensional affine subspace (a plane) in $\mathbb{R}^4
 Let $A \in \mathcal{M}_{n \times n}(F)$. A scalar $\lambda \in F$ is an **eigenvalue** of $A$ if
 there Exists a non-zero vector $\mathbf{v} \in F^n$ such that
 
-$$A\mathbf{v} = \lambda \mathbf{v}$$
+$$
+A\mathbf{v} = \lambda \mathbf{v}
+$$
 
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
@@ -972,7 +1088,9 @@ $\\lambda_i$.
 **Definition.** $A$ is **diagonalisable** if there exists an invertible matrix $P$ and a diagonal
 Matrix $D$ such that
 
-$$A = PDP^{-1}$$
+$$
+A = PDP^{-1}
+$$
 
 **Theorem 5.3.** $A \in \mathcal{M}_{n \times n}(F)$ is diagonalisable (over $F$) if and only if $A$
 has $n$ linearly independent Eigenvectors (over $F$). Equivalently, the sum of the geometric
@@ -996,11 +1114,15 @@ $\mathrm{adj}(\lambda I - A)$ is a polynomial in $\lambda$ of degree at most $n 
 $\mathrm{adj}(\lambda I - A) = B_{n-1}\lambda^{n-1} + \cdots + B_1\lambda + B_0$ for Matrices $B_i$.
 Multiplying out and comparing coefficients of $\lambda^k$:
 
-$$B_{n-1} = I, \quad B_{n-2} - AB_{n-1} = c_{n-1}I, \quad \ldots, \quad -AB_0 = c_0 I$$
+$$
+B_{n-1} = I, \quad B_{n-2} - AB_{n-1} = c_{n-1}I, \quad \ldots, \quad -AB_0 = c_0 I
+$$
 
 Multiplying the $k$-th equation on the left by $A^k$ and summing over $k$:
 
-$$A^n B_{n-1} + A^{n-1}(B_{n-2} - AB_{n-1}) + \cdots + A^0(-AB_0) = A^n + c_{n-1}A^{n-1} + \cdots + c_0 I = p(A)$$
+$$
+A^n B_{n-1} + A^{n-1}(B_{n-2} - AB_{n-1}) + \cdots + A^0(-AB_0) = A^n + c_{n-1}A^{n-1} + \cdots + c_0 I = p(A)
+$$
 
 But the left side telescopes to zero, so $p(A) = 0$. $\blacksquare$
 
@@ -1012,11 +1134,15 @@ Representation.
 **Theorem 5.6.** Let $A \in \mathcal{M}_{n \times n}(\mathbb{C})$. Then $A$ is similar to a
 block-diagonal Matrix
 
-$$J = \begin{pmatrix} J_1 & & \\ & \ddots & \\ & & J_k \end{pmatrix}$$
+$$
+J = \begin{pmatrix} J_1 & & \\ & \ddots & \\ & & J_k \end{pmatrix}
+$$
 
 Where each **Jordan block** has the form
 
-$$J_i = \begin{pmatrix} \lambda_i & 1 & & \\ & \lambda_i & \ddots & \\ & & \ddots & 1 \\ & & & \lambda_i \end{pmatrix}$$
+$$
+J_i = \begin{pmatrix} \lambda_i & 1 & & \\ & \lambda_i & \ddots & \\ & & \ddots & 1 \\ & & & \lambda_i \end{pmatrix}
+$$
 
 The Jordan form is unique up to permutation of the blocks.
 
@@ -1027,7 +1153,9 @@ eigenvectors**. A diagonalisable matrix has all Jordan blocks of size $1 \times 
 
 **Problem.** Find the Jordan normal form of
 
-$$A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -1041,7 +1169,9 @@ Multiplicity is $\dim(\ker(A - 3I)) = 2 - 1 = 1$.
 Since the geometric multiplicity (1) is less than the algebraic multiplicity (2), $A$ is not
 Diagonalisable. The Jordan form has one block of size 2:
 
-$$J = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
+$$
+J = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}
+$$
 
 (In this case, $A$ is already in Jordan form.) $\blacksquare$
 
@@ -1061,11 +1191,15 @@ _Proof._ We prove (1) and then (2) and (3) by induction on $n$.
 **(1)** Let $\lambda \in \mathbb{C}$ be an eigenvalue with eigenvector $\mathbf{v} \in \mathbb{C}^n$
 $\mathbf{v} \neq \mathbf{0}$. Then
 
-$$\overline{\mathbf{v}}^T A \mathbf{v} = \overline{\mathbf{v}}^T (\lambda \mathbf{v}) = \lambda \overline{\mathbf{v}}^T \mathbf{v}$$
+$$
+\overline{\mathbf{v}}^T A \mathbf{v} = \overline{\mathbf{v}}^T (\lambda \mathbf{v}) = \lambda \overline{\mathbf{v}}^T \mathbf{v}
+$$
 
 Since $A = A^T$ and $A$ has real entries, $\overline{A} = A = A^T$ So
 
-$$\overline{\mathbf{v}}^T A \mathbf{v} = (A\overline{\mathbf{v}})^T \mathbf{v} = (\overline{A\mathbf{v}})^T \mathbf{v} = (\overline{\lambda}\,\overline{\mathbf{v}})^T \mathbf{v} = \overline{\lambda}\,\overline{\mathbf{v}}^T \mathbf{v}$$
+$$
+\overline{\mathbf{v}}^T A \mathbf{v} = (A\overline{\mathbf{v}})^T \mathbf{v} = (\overline{A\mathbf{v}})^T \mathbf{v} = (\overline{\lambda}\,\overline{\mathbf{v}})^T \mathbf{v} = \overline{\lambda}\,\overline{\mathbf{v}}^T \mathbf{v}
+$$
 
 Therefore $(\lambda - \overline{\lambda})\overline{\mathbf{v}}^T\mathbf{v} = 0$. Since
 $\overline{\mathbf{v}}^T\mathbf{v} \gt 0$ We have $\lambda = \overline{\lambda}$ So
@@ -1079,7 +1213,9 @@ $\mathbf{q}_1 = \mathbf{v}_1 / \lVert \mathbf{v}_1 \rVert$.
 Let $W = \mathbf{q}_1^\perp = \{\mathbf{w} \in \mathbb{R}^n : \mathbf{q}_1^T \mathbf{w} = 0\}$. For
 any $\mathbf{w} \in W$:
 
-$$\mathbf{q}_1^T (A\mathbf{w}) = (A\mathbf{q}_1)^T \mathbf{w} = (\lambda_1 \mathbf{q}_1)^T \mathbf{w} = \lambda_1 \cdot 0 = 0$$
+$$
+\mathbf{q}_1^T (A\mathbf{w}) = (A\mathbf{q}_1)^T \mathbf{w} = (\lambda_1 \mathbf{q}_1)^T \mathbf{w} = \lambda_1 \cdot 0 = 0
+$$
 
 So $A\mathbf{w} \in W$. Therefore $A$ restricts to a symmetric linear map $A|_W : W \to W$ on an
 $(n-1)$-dimensional space. By the inductive hypothesis, $W$ has an orthonormal basis
@@ -1093,32 +1229,46 @@ $\blacksquare$
 
 **Problem.** Find the eigenvalues, eigenvectors, and diagonalise
 
-$$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 The characteristic polynomial is
 
-$$\det(A - \lambda I) = \det\begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = (4 - \lambda)(3 - \lambda) - 2$$
+$$
+\det(A - \lambda I) = \det\begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = (4 - \lambda)(3 - \lambda) - 2
+$$
 
-$$= \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2)$$
+$$
+= \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2)
+$$
 
 So the eigenvalues are $\lambda_1 = 5$ and $\lambda_2 = 2$.
 
 For $\lambda_1 = 5$: Solve $(A - 5I)\mathbf{v} = \mathbf{0}$.
 
-$$\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies -v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
+$$
+\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies -v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ 1 \end{pmatrix}
+$$
 
 For $\lambda_2 = 2$: Solve $(A - 2I)\mathbf{v} = \mathbf{0}$.
 
-$$\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies 2v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ -2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies 2v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ -2 \end{pmatrix}
+$$
 
 Therefore $A = PDP^{-1}$ with
 
-$$P = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}, \quad D = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}, \quad D = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}
+$$
 
-$$P^{-1} = \frac{1}{-3}\begin{pmatrix} -2 & -1 \\ -1 & 1 \end{pmatrix} = \begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}$$
+$$
+P^{-1} = \frac{1}{-3}\begin{pmatrix} -2 & -1 \\ -1 & 1 \end{pmatrix} = \begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}
+$$
 
 **Verification:**
 $PDP^{-1} = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}$
@@ -1138,7 +1288,9 @@ $A^2 = 7A - 10I$.
 
 To find $A^{10}$Divide $\lambda^{10}$ by $p(\lambda)$:
 
-$$\lambda^{10} = q(\lambda)(\lambda^2 - 7\lambda + 10) + r(\lambda)$$
+$$
+\lambda^{10} = q(\lambda)(\lambda^2 - 7\lambda + 10) + r(\lambda)
+$$
 
 Where $r(\lambda) = a\lambda + b$ has degree less than 2. Then $A^{10} = r(A) = aA + bI$.
 
@@ -1166,7 +1318,9 @@ not diagonalisable.
 
 **Problem.** Orthogonally diagonalise the symmetric matrix
 
-$$A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -1263,8 +1417,12 @@ coordinate vector of $T(\mathbf{v}_j)$ with respect to $\mathcal{B}_W$.
 
 The **kernel** (null space) and **image** (range) of $T$ are:
 
-$$\ker(T) = \{\mathbf{v} \in V : T(\mathbf{v}) = \mathbf{0}\}$$
-$$\mathrm{im}(T) = \{T(\mathbf{v}) : \mathbf{v} \in V\}$$
+$$
+\ker(T) = \{\mathbf{v} \in V : T(\mathbf{v}) = \mathbf{0}\}
+$$
+$$
+\mathrm{im}(T) = \{T(\mathbf{v}) : \mathbf{v} \in V\}
+$$
 
 **Proposition 6.2.** $\ker(T)$ is a subspace of $V$ and $\mathrm{im}(T)$ is a subspace of $W$.
 
@@ -1272,7 +1430,9 @@ $$\mathrm{im}(T) = \{T(\mathbf{v}) : \mathbf{v} \in V\}$$
 
 **Theorem 6.3 (Rank-Nullity).** For $T \in \mathcal{L}(V, W)$ with $V$ finite-dimensional:
 
-$$\dim(\ker(T)) + \dim(\mathrm{im}(T)) = \dim(V)$$
+$$
+\dim(\ker(T)) + \dim(\mathrm{im}(T)) = \dim(V)
+$$
 
 _Proof._ Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a basis for $\ker(T)$Where
 $k = \dim(\ker(T))$. Extend to a basis
@@ -1284,7 +1444,9 @@ We claim $\{T(\mathbf{u}_{k+1}), \ldots, T(\mathbf{u}_n)\}$ is a basis for $\mat
 _Spanning:_ For any $\mathbf{w} \in \mathrm{im}(T)$Write $\mathbf{w} = T(\mathbf{v})$ for some
 $\mathbf{v} = \sum_{i=1}^n \alpha_i \mathbf{u}_i \in V$. Then
 
-$$\mathbf{w} = T\left(\sum_{i=1}^n \alpha_i \mathbf{u}_i\right) = \sum_{i=1}^n \alpha_i T(\mathbf{u}_i) = \sum_{i=k+1}^n \alpha_i T(\mathbf{u}_i)$$
+$$
+\mathbf{w} = T\left(\sum_{i=1}^n \alpha_i \mathbf{u}_i\right) = \sum_{i=1}^n \alpha_i T(\mathbf{u}_i) = \sum_{i=k+1}^n \alpha_i T(\mathbf{u}_i)
+$$
 
 Since $T(\mathbf{u}_i) = \mathbf{0}$ for $i \leq k$.
 
@@ -1319,7 +1481,9 @@ $\blacksquare$
 If $P$ is the change-of-basis matrix from basis $\mathcal{B}$ to basis $\mathcal{B}'$ Then for a
 Linear transformation $T$ with matrix representations $[T]_{\mathcal{B}}$ and $[T]_{\mathcal{B}'}$:
 
-$$[T]_{\mathcal{B}'} = P^{-1}[T]_{\mathcal{B}} P$$
+$$
+[T]_{\mathcal{B}'} = P^{-1}[T]_{\mathcal{B}} P
+$$
 
 This is the **similarity transformation**. Similar matrices represent the same linear transformation
 In different bases and share the same eigenvalues, determinant, and trace.
@@ -1336,7 +1500,9 @@ $[T]_{\mathcal{B}} = P^{-1}[T]_{\mathcal{E}} P$.
 
 **(a)** $T(1, 0) = (2, 1)$ and $T(0, 1) = (1, 2)$ So
 
-$$[T]_{\mathcal{E}} = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$$
+$$
+[T]_{\mathcal{E}} = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}
+$$
 
 **(b)** Compute $T$ on the basis $\mathcal{B}$:
 
@@ -1346,13 +1512,19 @@ $\begin{pmatrix} 3 \\ 0 \end{pmatrix}_{\mathcal{B}}$.
 $T(1, -1) = (1, -1) = 0(1, 1) + 1(1, -1)$ So coordinates are
 $\begin{pmatrix} 0 \\ 1 \end{pmatrix}_{\mathcal{B}}$.
 
-$$[T]_{\mathcal{B}} = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix}$$
+$$
+[T]_{\mathcal{B}} = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix}
+$$
 
 **(c)** The change-of-basis matrix from $\mathcal{E}$ to $\mathcal{B}$ is
 
-$$P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}, \quad P^{-1} = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & -1/2 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}, \quad P^{-1} = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & -1/2 \end{pmatrix}
+$$
 
-$$P^{-1}[T]_{\mathcal{E}} P = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & -1/2 \end{pmatrix}\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
+$$
+P^{-1}[T]_{\mathcal{E}} P = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & -1/2 \end{pmatrix}\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
+$$
 
 $= \begin{pmatrix} 3/2 & 3/2 \\ 1/2 & -1/2 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix} = [T]_{\mathcal{B}}$.
 $\blacksquare$
@@ -1393,7 +1565,9 @@ Isomorphism is a special feature of finite-dimensional spaces.
 
 **Definition.** For a subset $S \subseteq V$The **annihilator** of $S$ is
 
-$$S^0 = \{f \in V^* : f(s) = 0 \mathrm{~for~all~} s \in S\}$$
+$$
+S^0 = \{f \in V^* : f(s) = 0 \mathrm{~for~all~} s \in S\}
+$$
 
 **Proposition 6.8.** $S^0$ is a subspace of $V^*$ And if $W$ is a subspace of $V$ with
 $\dim(V) = n$ Then $\dim(W^0) = n - \dim(W)$.
@@ -1445,11 +1619,15 @@ $\langle \mathbf{x}, \mathbf{y} \rangle = \sum_{i=1}^n x_i \overline{y_i}$.
 
 Every inner product induces a **norm**:
 
-$$\lVert \mathbf{v} \rVert = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}$$
+$$
+\lVert \mathbf{v} \rVert = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}
+$$
 
 **Theorem 7.1 (Cauchy--Schwarz Inequality).** For all $\mathbf{u}, \mathbf{v} \in V$
 
-$$\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \, \lVert \mathbf{v} \rVert$$
+$$
+\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \, \lVert \mathbf{v} \rVert
+$$
 
 With equality if and only if $\mathbf{u}$ and $\mathbf{v}$ are linearly dependent.
 
@@ -1457,12 +1635,16 @@ _Proof._ If $\mathbf{v} = \mathbf{0}$Both sides are 0 and the result holds. Assu
 $\mathbf{v} \neq \mathbf{0}$. For any $t \in \mathbb{R}$ (or $\mathbb{C}$), positive definiteness
 gives
 
-$$0 \leq \langle \mathbf{u} - t\mathbf{v}, \mathbf{u} - t\mathbf{v} \rangle = \langle \mathbf{u}, \mathbf{u} \rangle - t\langle \mathbf{v}, \mathbf{u} \rangle - \overline{t}\langle \mathbf{u}, \mathbf{v} \rangle + \lvert t \rvert^2 \langle \mathbf{v}, \mathbf{v} \rangle$$
+$$
+0 \leq \langle \mathbf{u} - t\mathbf{v}, \mathbf{u} - t\mathbf{v} \rangle = \langle \mathbf{u}, \mathbf{u} \rangle - t\langle \mathbf{v}, \mathbf{u} \rangle - \overline{t}\langle \mathbf{u}, \mathbf{v} \rangle + \lvert t \rvert^2 \langle \mathbf{v}, \mathbf{v} \rangle
+$$
 
 Set $t = \frac{\langle \mathbf{u}, \mathbf{v} \rangle}{\langle \mathbf{v}, \mathbf{v} \rangle}$ (the
 value that minimises the right side):
 
-$$0 \leq \lVert \mathbf{u} \rVert^2 - \frac{\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert^2}{\lVert \mathbf{v} \rVert^2}$$
+$$
+0 \leq \lVert \mathbf{u} \rVert^2 - \frac{\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert^2}{\lVert \mathbf{v} \rVert^2}
+$$
 
 Rearranging:
 $\lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert^2 \leq \lVert \mathbf{u} \rVert^2 \lVert \mathbf{v} \rVert^2$.
@@ -1471,16 +1653,22 @@ I.e., $\mathbf{u}$ and $\mathbf{v}$ are linearly dependent. $\blacksquare$
 
 **Theorem 7.2 (Triangle Inequality).**
 
-$$\lVert \mathbf{u} + \mathbf{v} \rVert \leq \lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert$$
+$$
+\lVert \mathbf{u} + \mathbf{v} \rVert \leq \lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert
+$$
 
 _Proof._
 
-$$\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \langle \mathbf{u} + \mathbf{v}, \mathbf{u} + \mathbf{v} \rangle = \lVert \mathbf{u} \rVert^2 + 2\,\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle + \lVert \mathbf{v} \rVert^2$$
+$$
+\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \langle \mathbf{u} + \mathbf{v}, \mathbf{u} + \mathbf{v} \rangle = \lVert \mathbf{u} \rVert^2 + 2\,\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle + \lVert \mathbf{v} \rVert^2
+$$
 
 By Cauchy--Schwarz,
 $\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle \leq \lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert$ So
 
-$$\lVert \mathbf{u} + \mathbf{v} \rVert^2 \leq \lVert \mathbf{u} \rVert^2 + 2\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert + \lVert \mathbf{v} \rVert^2 = (\lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert)^2$$
+$$
+\lVert \mathbf{u} + \mathbf{v} \rVert^2 \leq \lVert \mathbf{u} \rVert^2 + 2\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert + \lVert \mathbf{v} \rVert^2 = (\lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert)^2
+$$
 
 Taking square roots gives the result. $\blacksquare$
 
@@ -1493,7 +1681,9 @@ An **orthonormal set** $\{e_1, \ldots, e_k\}$ satisfies $\langle e_i, e_j \rangl
 
 **Theorem 7.3 (Pythagorean Theorem).** If $\mathbf{u} \perp \mathbf{v}$ Then
 
-$$\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2$$
+$$
+\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2
+$$
 
 _Proof._
 $\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + 2\langle \mathbf{u}, \mathbf{v} \rangle + \lVert \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2$.
@@ -1510,9 +1700,13 @@ $j$. $\blacksquare$
 The **Gram--Schmidt process** converts a linearly independent set
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_n\}$ into an orthonormal set $\{e_1, \ldots, e_n\}$:
 
-$$\mathbf{u}_1 = \mathbf{v}_1, \quad e_1 = \frac{\mathbf{u}_1}{\lVert \mathbf{u}_1 \rVert}$$
+$$
+\mathbf{u}_1 = \mathbf{v}_1, \quad e_1 = \frac{\mathbf{u}_1}{\lVert \mathbf{u}_1 \rVert}
+$$
 
-$$\mathbf{u}_k = \mathbf{v}_k - \sum_{i=1}^{k-1} \langle \mathbf{v}_k, e_i \rangle e_i, \quad e_k = \frac{\mathbf{u}_k}{\lVert \mathbf{u}_k \rVert}$$
+$$
+\mathbf{u}_k = \mathbf{v}_k - \sum_{i=1}^{k-1} \langle \mathbf{v}_k, e_i \rangle e_i, \quad e_k = \frac{\mathbf{u}_k}{\lVert \mathbf{u}_k \rVert}
+$$
 
 **Proposition 7.5.** At each step,
 $\mathrm{span}\{e_1, \ldots, e_k\} = \mathrm{span}\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$.
@@ -1528,19 +1722,25 @@ Since each $e_i$ is a scalar multiple of $\mathbf{u}_i$The spans coincide. $\bla
 The **orthogonal projection** of $\mathbf{v}$ onto a subspace $W$ with orthonormal basis
 $\{e_1, \ldots, e_k\}$ is
 
-$$\mathrm{proj_W}(\mathbf{v}) = \sum_{i=1}^k \langle \mathbf{v}, e_i \rangle e_i$$
+$$
+\mathrm{proj_W}(\mathbf{v}) = \sum_{i=1}^k \langle \mathbf{v}, e_i \rangle e_i
+$$
 
 **Theorem 7.6 (Best Approximation).** Among all vectors in $W$The orthogonal projection
 $\mathrm{proj_W}(\mathbf{v})$ minimises the distance to $\mathbf{v}$:
 
-$$\lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert \leq \lVert \mathbf{v} - \mathbf{w} \rVert \quad \mathrm{for}~all~ \mathbf{w} \in W$$
+$$
+\lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert \leq \lVert \mathbf{v} - \mathbf{w} \rVert \quad \mathrm{for}~all~ \mathbf{w} \in W
+$$
 
 _Proof._ For any $\mathbf{w} \in W$Write
 $\mathbf{v} - \mathbf{w} = (\mathbf{v} - \mathrm{proj_W}(\mathbf{v})) + (\mathrm{proj_W}(\mathbf{v}) - \mathbf{w})$.
 The first term is orthogonal to $W$ (hence to the second term, which lies in $W$), so by the
 Pythagorean theorem:
 
-$$\lVert \mathbf{v} - \mathbf{w} \rVert^2 = \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert^2 + \lVert \mathrm{proj_W}(\mathbf{v}) - \mathbf{w} \rVert^2 \geq \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert^2$$
+$$
+\lVert \mathbf{v} - \mathbf{w} \rVert^2 = \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert^2 + \lVert \mathrm{proj_W}(\mathbf{v}) - \mathbf{w} \rVert^2 \geq \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert^2
+$$
 
 With equality iff $\mathbf{w} = \mathrm{proj_W}(\mathbf{v})$. $\blacksquare$
 
@@ -1683,7 +1883,9 @@ $\blacksquare$
 **Theorem 8.1 (Singular Value Decomposition).** Every matrix
 $A \in \mathcal{M}_{m \times n}(\mathbb{R})$ can be factored as
 
-$$A = U \Sigma V^T$$
+$$
+A = U \Sigma V^T
+$$
 
 Where $U \in \mathcal{M}_{m \times m}(\mathbb{R})$ is orthogonal,
 $V \in \mathcal{M}_{n \times n}(\mathbb{R})$ is orthogonal, and
@@ -1702,12 +1904,16 @@ $V$.
 For each $i$ with $\sigma_i > 0$Define $\mathbf{u}_i = A\mathbf{v}_i / \sigma_i$. We verify that
 these form an orthonormal set:
 
-$$\mathbf{u}_i^T \mathbf{u}_j = \frac{\mathbf{v}_i^T A^T A \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2 \mathbf{v}_i^T \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2}{\sigma_i \sigma_j} \delta_{ij} = \delta_{ij}$$
+$$
+\mathbf{u}_i^T \mathbf{u}_j = \frac{\mathbf{v}_i^T A^T A \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2 \mathbf{v}_i^T \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2}{\sigma_i \sigma_j} \delta_{ij} = \delta_{ij}
+$$
 
 Extend $\{\mathbf{u}_1, \ldots, \mathbf{u}_r\}$ to an orthonormal basis of $\mathbb{R}^m$ to form
 $U$. Then for any vector $\mathbf{x} \in \mathbb{R}^n$:
 
-$$A\mathbf{x} = A\left(\sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x})\mathbf{v}_i\right) = \sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x}) A\mathbf{v}_i = \sum_{i=1}^{r} \sigma_i (\mathbf{v}_i^T \mathbf{x}) \mathbf{u}_i = U \Sigma V^T \mathbf{x}$$
+$$
+A\mathbf{x} = A\left(\sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x})\mathbf{v}_i\right) = \sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x}) A\mathbf{v}_i = \sum_{i=1}^{r} \sigma_i (\mathbf{v}_i^T \mathbf{x}) \mathbf{u}_i = U \Sigma V^T \mathbf{x}
+$$
 
 Since this holds for all $\mathbf{x}$We have $A = U \Sigma V^T$. $\blacksquare$
 
@@ -1718,7 +1924,9 @@ Since this holds for all $\mathbf{x}$We have $A = U \Sigma V^T$. $\blacksquare$
 
 _Proof._ From the construction above, $A^T A \mathbf{v}_i = \sigma_i^2 \mathbf{v}_i$. For $AA^T$:
 
-$$AA^T \mathbf{u}_i = \frac{A(A^T A)\mathbf{v}_i}{\sigma_i} = \frac{\sigma_i^2 A\mathbf{v}_i}{\sigma_i} = \sigma_i^2 \mathbf{u}_i$$
+$$
+AA^T \mathbf{u}_i = \frac{A(A^T A)\mathbf{v}_i}{\sigma_i} = \frac{\sigma_i^2 A\mathbf{v}_i}{\sigma_i} = \sigma_i^2 \mathbf{u}_i
+$$
 
 So $\mathbf{u}_i$ is an eigenvector of $AA^T$ with eigenvalue $\sigma_i^2$. The non-zero eigenvalues
 of $A^T A$ and $AA^T$ coincide (since if $A^T A \mathbf{v} = \lambda \mathbf{v}$ with
@@ -1750,22 +1958,30 @@ semi-axes $\sigma_1$ and $\sigma_2$ aligned with the columns of $U$.
 $\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$. For any $k < r$The best rank-$k$
 approximation to $A$ (in both the Frobenius and spectral norms) is
 
-$$A_k = \sum_{i=1}^{k} \sigma_i \mathbf{u}_i \mathbf{v}_i^T = U_k \Sigma_k V_k^T$$
+$$
+A_k = \sum_{i=1}^{k} \sigma_i \mathbf{u}_i \mathbf{v}_i^T = U_k \Sigma_k V_k^T
+$$
 
 And the approximation error is
 
-$$\lVert A - A_k \rVert_F = \sqrt{\sigma_{k+1}^2 + \cdots + \sigma_r^2}, \qquad \lVert A - A_k \rVert_2 = \sigma_{k+1}$$
+$$
+\lVert A - A_k \rVert_F = \sqrt{\sigma_{k+1}^2 + \cdots + \sigma_r^2}, \qquad \lVert A - A_k \rVert_2 = \sigma_{k+1}
+$$
 
 _Proof (Frobenius norm)._ Any rank-$k$ matrix $B$ can be written in terms of an orthonormal basis of
 its column space. Let $W \in \mathcal{M}_{n \times k}(\mathbb{R})$ have orthonormal columns spanning
 the column space of $B$. Then $B = CW^T$ for some $C$ And:
 
-$$\lVert A - B \rVert_F^2 = \lVert A(I - WW^T) \rVert_F^2 + \lVert (A - C)W^T \rVert_F^2 \geq \lVert A(I - WW^T) \rVert_F^2$$
+$$
+\lVert A - B \rVert_F^2 = \lVert A(I - WW^T) \rVert_F^2 + \lVert (A - C)W^T \rVert_F^2 \geq \lVert A(I - WW^T) \rVert_F^2
+$$
 
 The minimum over $W$ is achieved when $W$ spans the subspace spanned by
 $\mathbf{v}_1, \ldots, \mathbf{v}_k$ (the top $k$ right singular vectors), giving:
 
-$$\lVert A - A_k \rVert_F^2 = \sum_{i=k+1}^{r} \sigma_i^2$$
+$$
+\lVert A - A_k \rVert_F^2 = \sum_{i=k+1}^{r} \sigma_i^2
+$$
 
 The spectral norm result follows because $\lVert A - A_k \rVert_2 = \sigma_{k+1}$ is the largest
 singular value of $A - A_k$. $\blacksquare$
@@ -1774,12 +1990,16 @@ singular value of $A - A_k$. $\blacksquare$
 
 **Definition.** The **Moore--Penrose pseudoinverse** of $A = U \Sigma V^T$ is
 
-$$A^+ = V \Sigma^+ U^T$$
+$$
+A^+ = V \Sigma^+ U^T
+$$
 
 Where $\Sigma^+$ is obtained from $\Sigma$ by transposing and inverting each non-zero singular
 value:
 
-$$(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \text{if}  \sigma_i = 0 \end{cases}$$
+$$
+(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \text{if}  \sigma_i = 0 \end{cases}
+$$
 
 **Theorem 8.5.** The pseudoinverse satisfies the four Moore--Penrose conditions:
 
@@ -1790,7 +2010,9 @@ $$(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \t
 
 _Proof._ Direct computation using $A = U \Sigma V^T$ and $A^+ = V \Sigma^+ U^T$:
 
-$$AA^+A = U \Sigma V^T V \Sigma^+ U^T U \Sigma V^T = U \Sigma \Sigma^+ \Sigma V^T = U \Sigma V^T = A$$
+$$
+AA^+A = U \Sigma V^T V \Sigma^+ U^T U \Sigma V^T = U \Sigma \Sigma^+ \Sigma V^T = U \Sigma V^T = A
+$$
 
 Since $\Sigma \Sigma^+ \Sigma = \Sigma$ (the non-zero singular values are preserved, zeros remain
 zero). The remaining conditions follow similarly. $\blacksquare$
@@ -1808,14 +2030,18 @@ $\mathbf{x}^* = A^+\mathbf{b}$. $\blacksquare$
 
 **Definition.** The **condition number** of $A$ (with respect to the spectral norm) is
 
-$$\kappa(A) = \lVert A \rVert_2 \cdot \lVert A^+ \rVert_2 = \frac{\sigma_1}{\sigma_r}$$
+$$
+\kappa(A) = \lVert A \rVert_2 \cdot \lVert A^+ \rVert_2 = \frac{\sigma_1}{\sigma_r}
+$$
 
 Where $\sigma_1$ is the largest and $\sigma_r$ is the smallest non-zero singular value.
 
 **Theorem 8.7 (Sensitivity of Linear Systems).** If $A\mathbf{x} = \mathbf{b}$ and
 $A(\mathbf{x} + \delta\mathbf{x}) = \mathbf{b} + \delta\mathbf{b}$ Then
 
-$$\frac{\lVert \delta\mathbf{x} \rVert}{\lVert \mathbf{x} \rVert} \leq \kappa(A) \cdot \frac{\lVert \delta\mathbf{b} \rVert}{\lVert \mathbf{b} \rVert}$$
+$$
+\frac{\lVert \delta\mathbf{x} \rVert}{\lVert \mathbf{x} \rVert} \leq \kappa(A) \cdot \frac{\lVert \delta\mathbf{b} \rVert}{\lVert \mathbf{b} \rVert}
+$$
 
 _Proof._ From $A\delta\mathbf{x} = \delta\mathbf{b}$:
 $\lVert \delta\mathbf{x} \rVert = \lVert A^{-1}\delta\mathbf{b} \rVert \leq \lVert A^{-1} \rVert \lVert \delta\mathbf{b} \rVert = \sigma_r^{-1} \lVert \delta\mathbf{b} \rVert$.
@@ -1862,11 +2088,17 @@ Since $A$ is $3 \times 2$We need a third left singular vector $\mathbf{u}_3$ ort
 $\mathbf{u}_1$ and $\mathbf{u}_2$. Compute
 $\mathbf{u}_3 = \mathbf{u}_1 \times \mathbf{u}_2 = \frac{1}{\sqrt{52}}(4, -4, -2) = \frac{1}{\sqrt{26}}(2, -2, -1)$.
 
-$$U = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}
+$$
 
-$$\Sigma = \begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}$$
+$$
+\Sigma = \begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}
+$$
 
-$$A = U \Sigma V^T = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}\begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
+$$
+A = U \Sigma V^T = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}\begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
+$$
 
 **Verification:** $U$ and $V$ are orthogonal, $\Sigma$ has the correct singular values on the
 diagonal, and $A = U\Sigma V^T$ recovers the original matrix. $\blacksquare$
@@ -2021,14 +2253,18 @@ _If you get this wrong, revise: Section 2.1 (Linear Independence)._
 
 **Problem 4.** Find a basis for the column space of
 
-$$A = \begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Row-reduce $A$:
 
-$$\begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & -2 & -2 \end{pmatrix} \xrightarrow{R_3 - R_2} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & 0 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & -2 & -2 \end{pmatrix} \xrightarrow{R_3 - R_2} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & 0 & 0 \end{pmatrix}
+$$
 
 Pivots are in columns 1 and 3. A basis for $\mathrm{col}(A)$ is $\{(1, 2, 3), (1, 0, 1)\}$ (the
 pivot columns of the original $A$). $\dim(\mathrm{col}(A)) = 2$.
@@ -2056,7 +2292,9 @@ _If you get this wrong, revise: Section 2.5 (Dimension Formula)._
 
 **Problem 6.** Compute $\det(A)$ using cofactor expansion where
 
-$$A = \begin{pmatrix} 2 & 0 & 1 & 3 \\ 0 & 1 & 2 & 0 \\ 1 & 0 & 0 & 2 \\ 0 & 3 & 0 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 1 & 3 \\ 0 & 1 & 2 & 0 \\ 1 & 0 & 0 & 2 \\ 0 & 3 & 0 & 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -2089,7 +2327,9 @@ _If you get this wrong, revise: Section 3.5 (Properties of Determinants)._
 
 **Problem 8.** Use the adjugate formula to find the inverse of
 
-$$A = \begin{pmatrix} 2 & 0 & 1 \\ 1 & 1 & 0 \\ 0 & 1 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 1 \\ 1 & 1 & 0 \\ 0 & 1 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -2109,14 +2349,20 @@ _If you get this wrong, revise: Section 3.6 (Adjugate and Inverse Formula)._
 
 **Problem 9.** Solve the system by Gaussian elimination:
 
-$$\begin{aligned} x + 2y - z &= 3 \\ 2x + 5y + z &= 8 \\ -x + y + 4z &= 2 \end{aligned}$$
+$$
+\begin{aligned} x + 2y - z &= 3 \\ 2x + 5y + z &= 8 \\ -x + y + 4z &= 2 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 \\ 2 & 5 & 1 & 8 \\ -1 & 1 & 4 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 3 & 3 & 5 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 \\ 2 & 5 & 1 & 8 \\ -1 & 1 & 4 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 3 & 3 & 5 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 3R_2} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 0 & -6 & -1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 3R_2} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 0 & -6 & -1 \end{pmatrix}
+$$
 
 From row 3: $-6z = -1$ So $z = 1/6$. From row 2: $y + 3(1/6) = 2$ So $y = 3/2$. From row 1:
 $x + 2(3/2) - 1/6 = 3$ So $x = 3 - 3 + 1/6 = 1/6$.
@@ -2130,12 +2376,16 @@ _If you get this wrong, revise: Section 4.1 (Gaussian Elimination)._
 **Problem 10.** Determine whether the following system is consistent using the Rouché--Capelli
 theorem:
 
-$$\begin{aligned} x + y + z &= 1 \\ 2x + 2y + 2z &= 3 \\ x - y + z &= 0 \end{aligned}$$
+$$
+\begin{aligned} x + y + z &= 1 \\ 2x + 2y + 2z &= 3 \\ x - y + z &= 0 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 2 & 2 & 2 & 3 \\ 1 & -1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & -2 & 0 & -1 \end{pmatrix}$$
+$$
+[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 2 & 2 & 2 & 3 \\ 1 & -1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & -2 & 0 & -1 \end{pmatrix}
+$$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
 Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$The system is
@@ -2147,18 +2397,24 @@ _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._
 
 **Problem 11.** Find the LU decomposition of
 
-$$A = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 $m_{21} = 2/1 = 2$, $m_{31} = -1/1 = -1$:
 
-$$\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 2 & 2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 2 & 2 \end{pmatrix}
+$$
 
 $m_{32} = 2/1 = 2$:
 
-$$U = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix}, \quad L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix}, \quad L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}
+$$
 
 Verify:
 $LU = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix} = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix} = A$.
@@ -2170,7 +2426,9 @@ _If you get this wrong, revise: Section 4.3 (LU Decomposition)._
 
 **Problem 12.** Find the least squares solution to the system $A\mathbf{x} = \mathbf{b}$ where
 
-$$A = \begin{pmatrix} 1 & 0 \\ 1 & 1 \\ 1 & 2 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 0 \\ 1 & 1 \\ 1 & 2 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -2191,7 +2449,9 @@ _If you get this wrong, revise: Section 4.5 (Least Squares Solutions)._
 
 **Problem 13.** Find the eigenvalues and a basis for each eigenspace of
 
-$$A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}
+$$
 
 Is $A$ diagonalisable?
 
@@ -2212,7 +2472,9 @@ _If you get this wrong, revise: Section 5.3 (Diagonalisation) and Section 5.5 (J
 
 **Problem 14.** Diagonalise the matrix
 
-$$A = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & -1 \\ 0 & -1 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & -1 \\ 0 & -1 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -2231,7 +2493,9 @@ Eigenspace basis: $\{(0, -1, 1)\}$. Geometric multiplicity = 1.
 
 Since $2 + 1 = 3 = n$, $A$ is diagonalisable:
 
-$$P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & -1 \\ 0 & 1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 4 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & -1 \\ 0 & 1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 4 \end{pmatrix}
+$$
 
 _If you get this wrong, revise: Section 5.3 (Diagonalisation)._
 
@@ -2377,7 +2641,9 @@ $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$.
 $T(x^2) = 2x = 0 \cdot 1 + 2 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 0 \\ 2 \\ 0 \end{pmatrix}$.
 
-$$[T]_{\mathcal{B}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+[T]_{\mathcal{B}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 $\ker(T) = \{p : p' = 0\} = \mathrm{span}\{1\}$ So $\dim(\ker(T)) = 1$.
 
@@ -2406,7 +2672,9 @@ $A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
 
 **Solution.** Characteristic polynomial:
 
-$$\det(A - \lambda I) = (4-\lambda)(3-\lambda) - 2 = \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2) = 0$$
+$$
+\det(A - \lambda I) = (4-\lambda)(3-\lambda) - 2 = \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2) = 0
+$$
 
 Eigenvalues: $\lambda_1 = 5$, $\lambda_2 = 2$.
 

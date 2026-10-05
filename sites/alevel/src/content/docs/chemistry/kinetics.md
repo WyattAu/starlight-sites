@@ -843,7 +843,9 @@ the molecularity of the rate-determining step.
 
 **Example:** The reaction between propanone and iodine in acidic solution:
 
-$$\mathrm{CH}_3\mathrm{COCH}_3 + \mathrm{I}_2 \to \mathrm{CH}_2\mathrm{ICOCH}_3 + \mathrm{HI}$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_3 + \mathrm{I}_2 \to \mathrm{CH}_2\mathrm{ICOCH}_3 + \mathrm{HI}
+$$
 
 The observed rate equation is: Rate $= k[\mathrm{CH}_3\mathrm{COCH}_3}][\mathrm{H}^+]$
 
@@ -854,15 +856,21 @@ participates in a fast step after the rate-determining step.
 
 Step 1 (slow, rate-determining): Protonation of propanone:
 
-$$\mathrm{CH}_3\mathrm{COCH}_3 + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{C(OH}^+)\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_3 + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{C(OH}^+)\mathrm{CH}_3
+$$
 
 Step 2 (fast): Enolisation:
 
-$$\mathrm{CH}_3\mathrm{C(OH}^+)\mathrm{CH}_3 \to \mathrm{CH}_2=\mathrm{C(OH})\mathrm{CH}_3 + \mathrm{H}^+$$
+$$
+\mathrm{CH}_3\mathrm{C(OH}^+)\mathrm{CH}_3 \to \mathrm{CH}_2=\mathrm{C(OH})\mathrm{CH}_3 + \mathrm{H}^+
+$$
 
 Step 3 (fast): Reaction with iodine:
 
-$$\mathrm{CH}_2=\mathrm{C(OH})\mathrm{CH}_3 + \mathrm{I}_2 \to \mathrm{CH}_2\mathrm{ICOCH}_3 + \mathrm{HI}$$
+$$
+\mathrm{CH}_2=\mathrm{C(OH})\mathrm{CH}_3 + \mathrm{I}_2 \to \mathrm{CH}_2\mathrm{ICOCH}_3 + \mathrm{HI}
+$$
 
 The rate equation (Rate $= k[\mathrm{CH}_3\mathrm{COCH}_3}][\mathrm{H}^+]$) matches step 1,
 confirming it is the rate-determining step.
@@ -876,7 +884,9 @@ consumption).
 
 **Example:** The decomposition of $\mathrm{N}_2\mathrm{O}_5$:
 
-$$2\mathrm{N}_2\mathrm{O}_5 \to 4\mathrm{NO}_2 + \mathrm{O}_2$$
+$$
+2\mathrm{N}_2\mathrm{O}_5 \to 4\mathrm{NO}_2 + \mathrm{O}_2
+$$
 
 Mechanism:
 
@@ -890,7 +900,9 @@ Step 3: $\mathrm{NO} + \mathrm{NO}_3 \to 2\mathrm{NO}_2$ (fast)
 Applying the steady-state approximation to the intermediates $\mathrm{NO}_2$ and $\mathrm{NO}_3$
 gives the rate equation:
 
-$$\text{Rate} = k[\mathrm{N}_2\mathrm{O}_5]$$
+$$
+\text{Rate} = k[\mathrm{N}_2\mathrm{O}_5]
+$$
 
 This is first-order with respect to $\mathrm{N}_2\mathrm{O}_5$Consistent with experimental
 observation.
@@ -942,7 +954,9 @@ For a first-order reaction, the half-life is constant and independent of concent
 concentration vs time and measure the time for the concentration to halve at several points. If the
 half-life is constant, the reaction is first-order.
 
-$$t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$$
+$$
+t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}
+$$
 
 ### Arrhenius Applications: Catalyst Effect on Activation Energy
 
@@ -950,9 +964,13 @@ $$t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$$
 $E_a = 50\,\mathrm{kJ/mol}$ with a catalyst. Calculate the ratio of rate constants at
 $298\,\mathrm{K}$Assuming the pre-exponential factor $A$ is unchanged.
 
-$$\frac{k_\text{cat}}{k_\text{uncat}} = \frac{Ae^{-E_{a,\text{cat}}/RT}}{Ae^{-E_{a,\text{uncat}}/RT}} = e^{(E_{a,\text{uncat}} - E_{a,\text{cat}})/RT}$$
+$$
+\frac{k_\text{cat}}{k_\text{uncat}} = \frac{Ae^{-E_{a,\text{cat}}/RT}}{Ae^{-E_{a,\text{uncat}}/RT}} = e^{(E_{a,\text{uncat}} - E_{a,\text{cat}})/RT}
+$$
 
-$$= e^{(75000 - 50000)/(8.314 \times 298)} = e^{25000/2478} = e^{10.09} = 2.4 \times 10^4$$
+$$
+= e^{(75000 - 50000)/(8.314 \times 298)} = e^{25000/2478} = e^{10.09} = 2.4 \times 10^4
+$$
 
 The catalyst increases the rate by a factor of approximately 24,000 at $298\,\mathrm{K}$.
 

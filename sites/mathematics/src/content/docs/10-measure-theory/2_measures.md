@@ -26,7 +26,9 @@ $\mu : \mathcal{F} \to [0, \infty]$ satisfying:
 2. **Countable additivity**: if $\{A_n\}_{n=1}^{\infty}$ are pairwise disjoint sets in
    $\mathcal{F}$, then
 
-$$\mu\left(\bigcup_{n=1}^{\infty} A_n\right) = \sum_{n=1}^{\infty} \mu(A_n)$$
+$$
+\mu\left(\bigcup_{n=1}^{\infty} A_n\right) = \sum_{n=1}^{\infty} \mu(A_n)
+$$
 
 The triple $(X, \mathcal{F}, \mu)$ is called a **measure space**.
 
@@ -37,7 +39,9 @@ $\mu(B) = \mu(A) + \mu(B \setminus A) \geq \mu(A)$. $\blacksquare$
 
 **Proposition 2.2 (Countable Subadditivity).** For any sequence $\{A_n\} \subseteq \mathcal{F}$:
 
-$$\mu\left(\bigcup_{n=1}^{\infty} A_n\right) \leq \sum_{n=1}^{\infty} \mu(A_n)$$
+$$
+\mu\left(\bigcup_{n=1}^{\infty} A_n\right) \leq \sum_{n=1}^{\infty} \mu(A_n)
+$$
 
 _Proof._ Define $B_1 = A_1$ and $B_n = A_n \setminus \bigcup_{k=1}^{n-1} A_k$ for $n \geq 2$. Then
 $\{B_n\}$ are pairwise disjoint with $\bigcup B_n = \bigcup A_n$. By countable additivity and
@@ -45,7 +49,9 @@ monotonicity, $\mu(\bigcup A_n) = \sum \mu(B_n) \leq \sum \mu(A_n)$. $\blacksqua
 
 **Proposition 2.3 (Continuity from Below).** If $A_1 \subseteq A_2 \subseteq \cdots$, then
 
-$$\mu\left(\bigcup_{n=1}^{\infty} A_n\right) = \lim_{n \to \infty} \mu(A_n)$$
+$$
+\mu\left(\bigcup_{n=1}^{\infty} A_n\right) = \lim_{n \to \infty} \mu(A_n)
+$$
 
 _Proof._ Write $\bigcup A_n = A_1 \cup (A_2 \setminus A_1) \cup (A_3 \setminus A_2) \cup \cdots$, a
 disjoint union. Then
@@ -55,7 +61,9 @@ $\blacksquare$
 **Proposition 2.4 (Continuity from Above).** If $A_1 \supseteq A_2 \supseteq \cdots$ and
 $\mu(A_1) < \infty$, then
 
-$$\mu\left(\bigcap_{n=1}^{\infty} A_n\right) = \lim_{n \to \infty} \mu(A_n)$$
+$$
+\mu\left(\bigcap_{n=1}^{\infty} A_n\right) = \lim_{n \to \infty} \mu(A_n)
+$$
 
 ### 2.2 Examples of Measures
 
@@ -100,7 +108,9 @@ satisfying $(\mu \times \nu)(A \times B) = \mu(A)\nu(B)$ for all $A \in \mathcal
 **Theorem 2.8 (Fubini-Tonelli).** If $f(x, y)$ is nonnegative and measurable (Tonelli) or integrable
 (Fubini), then:
 
-$$\int_{X \times Y} f\, d(\mu \times \nu) = \int_X \left(\int_Y f(x, y)\, d\nu(y)\right) d\mu(x) = \int_Y \left(\int_X f(x, y)\, d\mu(x)\right) d\nu(y)$$
+$$
+\int_{X \times Y} f\, d(\mu \times \nu) = \int_X \left(\int_Y f(x, y)\, d\nu(y)\right) d\mu(x) = \int_Y \left(\int_X f(x, y)\, d\mu(x)\right) d\nu(y)
+$$
 
 ### 2.6 Signed Measures
 
@@ -144,7 +154,9 @@ The Cantor set is constructed by removing the middle third $(1/3, 2/3)$ from $[0
 the middle third of each remaining interval, ad infinitum. After $n$ stages, $2^n$ intervals each of
 length $3^{-n}$ remain. The measure of the removed set is:
 
-$$\sum_{n=0}^\infty \frac{2^n}{3^{n+1}} = \frac{1}{3}\sum_{n=0}^\infty \left(\frac{2}{3}\right)^n = \frac{1}{3} \cdot \frac{1}{1-2/3} = 1$$
+$$
+\sum_{n=0}^\infty \frac{2^n}{3^{n+1}} = \frac{1}{3}\sum_{n=0}^\infty \left(\frac{2}{3}\right)^n = \frac{1}{3} \cdot \frac{1}{1-2/3} = 1
+$$
 
 Therefore $m(C) = 1 - 1 = 0$. The Cantor set is an uncountable null set.
 

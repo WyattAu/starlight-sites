@@ -944,7 +944,9 @@ Bottom up, killing most aquatic life.
 
 **Osmotic pressure** ($\Pi$) can be calculated using the van't Hoff equation:
 
-$$\Pi = iCRT$$
+$$
+\Pi = iCRT
+$$
 
 Where $i$ is the van't Hoff factor (number of particles per formula unit), $C$ is molar
 concentration, $R$ is the gas constant ($0.0831\;\mathrm{L\;bar\;K^{-1}\;mol^{-1}}$), and $T$ is
@@ -1059,7 +1061,9 @@ Increases the affinity of the remaining haem groups for subsequent $\mathrm{O}_2
 Temperature shift the oxygen dissociation curve to the **right**, reducing $\mathrm{Hb}$ affinity
 and Promoting $\mathrm{O}_2$ unloading in metabolically active tissues.
 
-$$\mathrm{H}^+ + \mathrm{HbO}_2 \rightleftharpoons \mathrm{HHb} + \mathrm{O}_2$$
+$$
+\mathrm{H}^+ + \mathrm{HbO}_2 \rightleftharpoons \mathrm{HHb} + \mathrm{O}_2
+$$
 
 **2,3-BPG (bisphosphoglycerate):** binds to deoxyhaemoglobin (T state), stabilising it and Reducing
 $\mathrm{O}_2$ affinity. Concentrations increase at high altitude (adaptive response), Enhancing
@@ -1113,7 +1117,9 @@ In addition to the double helix, DNA in cells is further twisted (**supercoiled*
 **Denaturation (melting):** heating DNA separates the two strands by breaking hydrogen bonds. The
 **melting temperature ($T_m$)** is the temperature at which $50\%$ of the DNA is denatured.
 
-$$T_m = 69.3 + 0.41(\%\mathrm{GC}) - 0.72(\% \text{formamide})$$
+$$
+T_m = 69.3 + 0.41(\%\mathrm{GC}) - 0.72(\% \text{formamide})
+$$
 
 Where $\%\mathrm{GC}$ is the percentage of G+C base pairs. Higher GC content $\to$ higher $T_m$
 (because G-C pairs have 3 hydrogen bonds vs 2 for A-T pairs).

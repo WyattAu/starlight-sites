@@ -30,28 +30,38 @@ Self-intersections.
 
 **Definition.** For a contour $\gamma$ and a continuous function $f$ on $\gamma$:
 
-$$\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma"(t)\, dt$$
+$$
+\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma"(t)\, dt
+$$
 
 ### 4.3 Basic Properties
 
 **Proposition 4.1.** The complex integral is linear:
 
-$$\int_\gamma (af + bg)\, dz = a\int_\gamma f\, dz + b\int_\gamma g\, dz$$
+$$
+\int_\gamma (af + bg)\, dz = a\int_\gamma f\, dz + b\int_\gamma g\, dz
+$$
 
 **Proposition 4.2.** Reversing orientation changes the sign:
 
-$$\int_{-\gamma} f\, dz = -\int_\gamma f\, dz$$
+$$
+\int_{-\gamma} f\, dz = -\int_\gamma f\, dz
+$$
 
 **Proposition 4.3.** Additivity over contours:
 
-$$\int_{\gamma_1 + \gamma_2} f\, dz = \int_{\gamma_1} f\, dz + \int_{\gamma_2} f\, dz$$
+$$
+\int_{\gamma_1 + \gamma_2} f\, dz = \int_{\gamma_1} f\, dz + \int_{\gamma_2} f\, dz
+$$
 
 ### 4.4 ML Inequality
 
 **Proposition 4.4 (ML Inequality).** If $|f(z)| \leq M$ for all $z$ on a contour $\gamma$ of length
 $L$Then
 
-$$\left|\int_\gamma f(z)\, dz\right| \leq ML$$
+$$
+\left|\int_\gamma f(z)\, dz\right| \leq ML
+$$
 
 _Proof._
 $\left|\int_a^b f(\gamma(t))\gamma'(t)\, dt\right| \leq \int_a^b |f(\gamma(t))||\gamma'(t)|\, dt
@@ -137,7 +147,9 @@ $\left|\int_\gamma \frac{dz}{z^2 + 4}\right| \leq \frac{1}{5} \cdot 6\pi = \frac
 
 When $f$ is analytic on a connected domain and has a known antiderivative $F$ with $F' = f$:
 
-$$\int_\gamma f(z)\, dz = F(\gamma(b)) - F(\gamma(a))$$
+$$
+\int_\gamma f(z)\, dz = F(\gamma(b)) - F(\gamma(a))
+$$
 
 This follows from the fundamental theorem of calculus applied to $F(\gamma(t))$.
 

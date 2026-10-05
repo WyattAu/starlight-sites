@@ -390,7 +390,9 @@ marks]
 
 (b) Calculate the enthalpy change for the reaction:
 
-$$CH_{4}(g) + 4Cl_{2}(g) \rightarrow CCl_{4}(g) + 4HCl(g)$$
+$$
+CH_{4}(g) + 4Cl_{2}(g) \rightarrow CCl_{4}(g) + 4HCl(g)
+$$
 
 [3 marks]
 
@@ -427,7 +429,9 @@ Bonds formed (exothermic):
 - $4 \times H-Cl = 4 \times 431 = 1724$ kJ/mol (using $H-Cl = 431$)
 - Total bonds formed = $1308 + 1724 = 3032$ kJ/mol
 
-$$\Delta H = \text{Bonds broken} - \text{Bonds formed} = 2620 - 3032 = -412 \text{ kJ/mol}$$
+$$
+\Delta H = \text{Bonds broken} - \text{Bonds formed} = 2620 - 3032 = -412 \text{ kJ/mol}
+$$
 
 The reaction is exothermic.
 

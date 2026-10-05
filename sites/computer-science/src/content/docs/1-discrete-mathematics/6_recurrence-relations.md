@@ -26,11 +26,15 @@ terms.
 
 ### 6.2 Linear Homogeneous Recurrences with Constant Coefficients
 
-$$a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0$$
+$$
+a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0
+$$
 
 **Solution method.** Form the **characteristic equation**:
 
-$$r^k + c_1 r^{k-1} + \cdots + c_k = 0$$
+$$
+r^k + c_1 r^{k-1} + \cdots + c_k = 0
+$$
 
 **Case 1 (distinct roots).** If $r_1, \ldots, r_k$ are distinct, then
 $a_n = A_1 r_1^n + \cdots + A_k r_k^n$.
@@ -69,7 +73,9 @@ So $a_n = (1 + 2n) \cdot 2^n$. $\blacksquare$
 
 The **generating function** of a sequence $\{a_n\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Example.** The generating function for $a_n = 1$ (all ones) is $G(x) = 1/(1-x)$.
 
@@ -86,9 +92,13 @@ $F_n = F_{n-1} + F_{n-2}$ With $F_0 = 0$, $F_1 = 1$.
 
 Let $G(x) = \sum_{n=0}^{\infty} F_n x^n$.
 
-$$G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)$$
+$$
+G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)
+$$
 
-$$G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}$$
+$$
+G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}
+$$
 
 Factor: $1 - x - x^2 = (1 - \alpha x)(1 - \beta x)$ where $\alpha = (1 + \sqrt{5})/2$ and
 $\beta = (1 - \sqrt{5})/2$.
@@ -106,9 +116,13 @@ $F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet"s formula). $\blacksquare$
 
 Let $G(x) = \sum_{n=0}^{\infty} a_n x^n$.
 
-$$G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}$$
+$$
+G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}
+$$
 
-$$(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}$$
+$$
+(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}
+$$
 
 Partial fractions: $\frac{x}{(1-x)(1-2x)} = \frac{A}{1-x} + \frac{B}{1-2x}$.
 
@@ -127,7 +141,9 @@ manipulated algebraically.
 
 The Master Theorem provides asymptotic solutions to recurrences of the form
 
-$$T(n) = a\,T(n/b) + f(n)$$
+$$
+T(n) = a\,T(n/b) + f(n)
+$$
 
 Where $a \geq 1$, $b \gt 1$ are constants and $f(n)$ is asymptotically positive. Define
 $c_{\mathrm{crit{}} = \log_b a$ (the **critical exponent**).
@@ -189,7 +205,9 @@ Therefore $T(n) = \Theta(n^2)$.
 There are $a^j$ subproblems, each of size $n/b^j$Each contributing $f(n/b^j)$ work. The tree has
 $\log_b n$ levels, with $a^{\log_b n} = n^{c_{\mathrm{crit{}}}$ leaves. The total work is
 
-$$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}$$
+$$
+T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}
+$$
 
 - **Case 1:** $f(n) = O(n^c)$ with $c \lt c_{\mathrm{crit{}}$. The sum is dominated by the leaves,
   giving $T(n) = \Theta(n^{c_{\mathrm{crit{}}})$.

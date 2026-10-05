@@ -72,7 +72,9 @@ defined in several equivalent ways:
 **Definition (Derivations).** A **tangent vector** at $p$ is a linear map
 $v : C^\infty(M) \to \mathbb{R}$ satisfying the Leibniz rule:
 
-$$v(fg) = f(p)\, v(g) + v(f)\, g(p)$$
+$$
+v(fg) = f(p)\, v(g) + v(f)\, g(p)
+$$
 
 The space of all such derivations is $T_p M$, an $n$-dimensional vector space.
 
@@ -86,7 +88,9 @@ operators $\{\partial/\partial x^i|_p\}$.
 **The differential.** For a smooth map $f : M \to N$, the **pushforward** or **differential**
 $df_p : T_p M \to T_{f(p)} N$ is defined by:
 
-$$df_p(v)(g) = v(g \circ f)$$
+$$
+df_p(v)(g) = v(g \circ f)
+$$
 
 for $g \in C^\infty(N)$. In coordinates, $df_p$ is represented by the Jacobian matrix.
 
@@ -100,7 +104,9 @@ $dx^i(\partial/\partial x^j) = \delta^i_j$.
 
 The **differential** of a function $f \in C^\infty(M)$ at $p$ is the covector:
 
-$$df_p(v) = v(f)$$
+$$
+df_p(v) = v(f)
+$$
 
 In coordinates: $df = \frac{\partial f}{\partial x^i}\, dx^i$.
 
@@ -109,7 +115,9 @@ In coordinates: $df = \frac{\partial f}{\partial x^i}\, dx^i$.
 A **smooth vector field** $X$ on $M$ assigns a tangent vector $X_p \in T_p M$ smoothly to each
 $p \in M$. In coordinates:
 
-$$X = X^i(x) \frac{\partial}{\partial x^i}$$
+$$
+X = X^i(x) \frac{\partial}{\partial x^i}
+$$
 
 where $X^i$ are smooth functions.
 
@@ -119,7 +127,9 @@ diffeomorphisms.
 
 **Lie bracket.** The Lie bracket of two vector fields $X, Y$ is:
 
-$$X, Y = X(Y(f)) - Y(X(f))$$
+$$
+X, Y = X(Y(f)) - Y(X(f))
+$$
 
 In coordinates: $[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$.
 

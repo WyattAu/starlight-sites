@@ -186,7 +186,9 @@ classes and under-represents wide classes.
 
 The correct quantity for the vertical axis is the **frequency density**, defined as:
 
-$$\text{Frequency density} = \frac{\text{Frequency}}{\text{Class width}}$$
+$$
+\text{Frequency density} = \frac{\text{Frequency}}{\text{Class width}}
+$$
 
 **(b)** Frequency densities:
 
@@ -208,9 +210,13 @@ To estimate the mean, we use the midpoint of each class:
 | $35 \lt t \leq 60$ | 47.5         | 65            | 3087.5 |
 | $60 \lt t \leq 90$ | 75           | 29            | 2175   |
 
-$$\sum f = 200, \quad \sum fx = 7432.5$$
+$$
+\sum f = 200, \quad \sum fx = 7432.5
+$$
 
-$$\bar{x} = \frac{7432.5}{200} = 37.2 \text{ minutes}$$
+$$
+\bar{x} = \frac{7432.5}{200} = 37.2 \text{ minutes}
+$$
 
 **(c)** The class $35 \lt t \leq 60$ has the highest **frequency** (65), so more employees fall in
 this class than any other. However, the class with the highest **frequency density** is
@@ -237,25 +243,45 @@ class width of the 35--60 minute class inflates its frequency.
 
 **(a)** We need $\sum x$$\sum y$$\sum x^2$$\sum y^2$$\sum xy$.
 
-$$\sum x = 15 + 22 + 30 + 35 + 42 + 55 + 68 = 267$$
+$$
+\sum x = 15 + 22 + 30 + 35 + 42 + 55 + 68 = 267
+$$
 
-$$\sum y = 3 + 8 + 12 + 18 + 22 + 35 + 48 = 146$$
+$$
+\sum y = 3 + 8 + 12 + 18 + 22 + 35 + 48 = 146
+$$
 
-$$\sum x^2 = 225 + 484 + 900 + 1225 + 1764 + 3025 + 4624 = 12247$$
+$$
+\sum x^2 = 225 + 484 + 900 + 1225 + 1764 + 3025 + 4624 = 12247
+$$
 
-$$\sum y^2 = 9 + 64 + 144 + 324 + 484 + 1225 + 2304 = 4554$$
+$$
+\sum y^2 = 9 + 64 + 144 + 324 + 484 + 1225 + 2304 = 4554
+$$
 
-$$\sum xy = 45 + 176 + 360 + 630 + 924 + 1925 + 3264 = 7324$$
+$$
+\sum xy = 45 + 176 + 360 + 630 + 924 + 1925 + 3264 = 7324
+$$
 
-$$S_{xx} = 12247 - \frac{267^2}{7} = 12247 - \frac{71289}{7} = 12247 - 10184.14... = 2062.857$$
+$$
+S_{xx} = 12247 - \frac{267^2}{7} = 12247 - \frac{71289}{7} = 12247 - 10184.14... = 2062.857
+$$
 
-$$S_{yy} = 4554 - \frac{146^2}{7} = 4554 - \frac{21316}{7} = 4554 - 3045.143 = 1508.857$$
+$$
+S_{yy} = 4554 - \frac{146^2}{7} = 4554 - \frac{21316}{7} = 4554 - 3045.143 = 1508.857
+$$
 
-$$S_{xy} = 7324 - \frac{267 \times 146}{7} = 7324 - \frac{38982}{7} = 7324 - 5568.857 = 1755.143$$
+$$
+S_{xy} = 7324 - \frac{267 \times 146}{7} = 7324 - \frac{38982}{7} = 7324 - 5568.857 = 1755.143
+$$
 
-$$r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = \frac{1755.143}{\sqrt{2062.857 \times 1508.857}}$$
+$$
+r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = \frac{1755.143}{\sqrt{2062.857 \times 1508.857}}
+$$
 
-$$= \frac{1755.143}{\sqrt{3111755.1}} = \frac{1755.143}{1764.02} = 0.9950 \text{ (4 d.p.)}$$
+$$
+= \frac{1755.143}{\sqrt{3111755.1}} = \frac{1755.143}{1764.02} = 0.9950 \text{ (4 d.p.)}
+$$
 
 **(b)** The student's claim is **incorrect**. The PMCC is invariant under linear coding of the form
 $u = ax + b$ and $v = cy + d$ (where $a, c \neq 0$). Here $u = \frac{1}{1000}x$ and
@@ -264,9 +290,13 @@ $v = \frac{1}{100}y$Which are linear transformations.
 To see why: the PMCC is defined as $r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}$.
 Under coding:
 
-$$S_{uv} = ac \cdot S_{xy}, \quad S_{uu} = a^2 S_{xx}, \quad S_{vv} = c^2 S_{yy}$$
+$$
+S_{uv} = ac \cdot S_{xy}, \quad S_{uu} = a^2 S_{xx}, \quad S_{vv} = c^2 S_{yy}
+$$
 
-$$r_{uv} = \frac{ac \cdot S_{xy}}{\sqrt{a^2 S_{xx} \cdot c^2 S_{yy}}} = \frac{ac \cdot S_{xy}}{|ac|\sqrt{S_{xx} \cdot S_{yy}}} = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = r_{xy}$$
+$$
+r_{uv} = \frac{ac \cdot S_{xy}}{\sqrt{a^2 S_{xx} \cdot c^2 S_{yy}}} = \frac{ac \cdot S_{xy}}{|ac|\sqrt{S_{xx} \cdot S_{yy}}} = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = r_{xy}
+$$
 
 The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by scaling or shifting.
 
@@ -282,9 +312,13 @@ The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by sc
 | 55  | 6          | 35  | 6          | 0               | 0     |
 | 68  | 7          | 48  | 7          | 0               | 0     |
 
-$$\sum d^2 = 0$$
+$$
+\sum d^2 = 0
+$$
 
-$$r_s = 1 - \frac{6 \sum d^2}{n(n^2 - 1)} = 1 - 0 = 1$$
+$$
+r_s = 1 - \frac{6 \sum d^2}{n(n^2 - 1)} = 1 - 0 = 1
+$$
 
 Spearman's rank correlation coefficient is 1 (perfect rank correlation).
 
@@ -322,13 +356,21 @@ We need $\mathrm{P}(D \mid +)$.
 
 By Bayes' theorem (or using a tree diagram / contingency table):
 
-$$\mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}$$
+$$
+\mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}
+$$
 
-$$\mathrm{P}(+) = \mathrm{P}(+ \mid D)\mathrm{P}(D) + \mathrm{P}(+ \mid D')\mathrm{P}(D')$$
+$$
+\mathrm{P}(+) = \mathrm{P}(+ \mid D)\mathrm{P}(D) + \mathrm{P}(+ \mid D')\mathrm{P}(D')
+$$
 
-$$= (0.95)(0.01) + (0.02)(0.99) = 0.0095 + 0.0198 = 0.0293$$
+$$
+= (0.95)(0.01) + (0.02)(0.99) = 0.0095 + 0.0198 = 0.0293
+$$
 
-$$\mathrm{P}(D \mid +) = \frac{0.0095}{0.0293} = 0.3242... \approx 0.324$$
+$$
+\mathrm{P}(D \mid +) = \frac{0.0095}{0.0293} = 0.3242... \approx 0.324
+$$
 
 So there is approximately a 32.4% chance the person actually has the disease, despite the positive
 test.
@@ -348,17 +390,29 @@ even with a "95% accurate" test.
 
 Let $p = \mathrm{P}(D)$ be the prevalence. Then:
 
-$$\mathrm{P}(+) = 0.95p + 0.02(1 - p) = 0.95p + 0.02 - 0.02p = 0.93p + 0.02$$
+$$
+\mathrm{P}(+) = 0.95p + 0.02(1 - p) = 0.95p + 0.02 - 0.02p = 0.93p + 0.02
+$$
 
-$$\mathrm{P}(D \mid +) = \frac{0.95p}{0.93p + 0.02} \geq 0.5$$
+$$
+\mathrm{P}(D \mid +) = \frac{0.95p}{0.93p + 0.02} \geq 0.5
+$$
 
-$$0.95p \geq 0.5(0.93p + 0.02) = 0.465p + 0.01$$
+$$
+0.95p \geq 0.5(0.93p + 0.02) = 0.465p + 0.01
+$$
 
-$$0.95p - 0.465p \geq 0.01$$
+$$
+0.95p - 0.465p \geq 0.01
+$$
 
-$$0.485p \geq 0.01$$
+$$
+0.485p \geq 0.01
+$$
 
-$$p \geq \frac{0.01}{0.485} = 0.02062...$$
+$$
+p \geq \frac{0.01}{0.485} = 0.02062...
+$$
 
 The minimum prevalence is approximately 2.06%. At this prevalence, exactly half of all positive
 tests are true positives.
@@ -368,7 +422,9 @@ $\mathrm{P}(+ \mid D)$ is the sensitivity of the test (among people with the dis
 test positive), while $\mathrm{P}(D \mid +)$ is the positive predictive value (among people who test
 positive, what fraction actually have the disease). These are related by Bayes' theorem:
 
-$$\mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}$$
+$$
+\mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}
+$$
 
 They would be equal only when $\mathrm{P}(D) = \mathrm{P}(+)$I.e., when the prevalence equals the
 overall probability of a positive test. This is a very specific condition that would not generally
@@ -449,11 +505,15 @@ and $V_2 \sim B(5, 0.25)$. Then $V = 5 + V_2$ and $V_2 \sim B(5, 0.25)$.
 **(a)** Under $H_0$: $\bar{X} \sim N\left(0, \frac{15^2}{25}\right) = N(0, 9)$ So
 $\sigma_{\bar{X}} = 3$.
 
-$$z = \frac{\bar{x} - 0}{3} = \frac{-5.2}{3} = -1.733$$
+$$
+z = \frac{\bar{x} - 0}{3} = \frac{-5.2}{3} = -1.733
+$$
 
 This is a one-tailed test (left-tailed), so the p-value is:
 
-$$\text{p-value} = \mathrm{P}(Z \leq -1.733) = \Phi(-1.733) = 1 - \Phi(1.733) = 1 - 0.9586 = 0.0414$$
+$$
+\text{p-value} = \mathrm{P}(Z \leq -1.733) = \Phi(-1.733) = 1 - \Phi(1.733) = 1 - 0.9586 = 0.0414
+$$
 
 The p-value is approximately 0.0414.
 
@@ -495,9 +555,13 @@ probabilities), which go beyond the scope of classical hypothesis testing.
 **(d)** With $n = 50$: $\bar{X} \sim N\left(0, \frac{15^2}{50}\right) = N(0, 4.5)$ So
 $\sigma_{\bar{X}} = \sqrt{4.5} \approx 2.121$.
 
-$$z = \frac{-5.2}{\sqrt{4.5}} = \frac{-5.2}{2.121} = -2.451$$
+$$
+z = \frac{-5.2}{\sqrt{4.5}} = \frac{-5.2}{2.121} = -2.451
+$$
 
-$$\text{p-value} = \mathrm{P}(Z \leq -2.451) = 1 - \Phi(2.451) = 1 - 0.9929 = 0.0071$$
+$$
+\text{p-value} = \mathrm{P}(Z \leq -2.451) = 1 - \Phi(2.451) = 1 - 0.9929 = 0.0071
+$$
 
 The new p-value is approximately 0.0071, which is much smaller than the original 0.0414.
 

@@ -45,11 +45,15 @@ The following are conserved in all known interactions:
 The Gell-Mann--Nishijima formula relates the electric charge of a hadron to its isospin Projection
 $I_3$Baryon number $B$ And strangeness $S$:
 
-$$Q = I_3 + \frac{B + S}{2}$$
+$$
+Q = I_3 + \frac{B + S}{2}
+$$
 
 This can be generalised to include charm $C$Bottomness $B"$ And topness $T$:
 
-$$Q = I_3 + \frac{1}{2}(B + S + C + B' + T)$$
+$$
+Q = I_3 + \frac{1}{2}(B + S + C + B' + T)
+$$
 
 **Derivation.** The formula follows from the definition of the hypercharge $Y = B + S$ and the
 Relation $Q = I_3 + Y/2$Which is a direct consequence of the embedding of
@@ -64,17 +68,23 @@ Verify the charges of the following hadrons:
 **(a) Proton ($uud$):** $B = 1$, $S = 0$, $C = 0$, $B' = 0$, $T = 0$. The proton belongs to The
 isospin doublet with $I = 1/2$, $I_3 = +1/2$.
 
-$$Q = \frac{1}{2} + \frac{1 + 0}{2} = \frac{1}{2} + \frac{1}{2} = 1 \quad \checkmark$$
+$$
+Q = \frac{1}{2} + \frac{1 + 0}{2} = \frac{1}{2} + \frac{1}{2} = 1 \quad \checkmark
+$$
 
 **(b) $\Xi^-$ ($ssd$):** $B = 1$, $S = -2$, $C = 0$, $B' = 0$, $T = 0$. The cascade Particle belongs
 to the isospin doublet with $I = 1/2$, $I_3 = -1/2$.
 
-$$Q = -\frac{1}{2} + \frac{1 + (-2)}{2} = -\frac{1}{2} + \left(-\frac{1}{2}\right) = -1 \quad \checkmark$$
+$$
+Q = -\frac{1}{2} + \frac{1 + (-2)}{2} = -\frac{1}{2} + \left(-\frac{1}{2}\right) = -1 \quad \checkmark
+$$
 
 **(c) $D^+$ ($c\bar{d}$):** $B = 0$, $S = 0$, $C = +1$, $B' = 0$, $T = 0$. The $D$ mesons form an
 isospin doublet with $I = 1/2$, $I_3 = +1/2$.
 
-$$Q = \frac{1}{2} + \frac{0 + 0 + 1}{2} = \frac{1}{2} + \frac{1}{2} = 1 \quad \checkmark$$
+$$
+Q = \frac{1}{2} + \frac{0 + 0 + 1}{2} = \frac{1}{2} + \frac{1}{2} = 1 \quad \checkmark
+$$
 
 </details>
 
@@ -92,7 +102,9 @@ The weak interaction **maximally violates parity**: only left-handed fermions (a
 Antifermions) participate in charged-current weak interactions. This is encoded in the $V - A$
 structure of the weak current:
 
-$$J^\mu_{\mathrm{weak} = \bar{\psi}\gamma^\mu(1 - \gamma^5)\psi}$$
+$$
+J^\mu_{\mathrm{weak} = \bar{\psi}\gamma^\mu(1 - \gamma^5)\psi}
+$$
 
 Where the $(1 - \gamma^5)$ projector selects the left-handed chirality component.
 

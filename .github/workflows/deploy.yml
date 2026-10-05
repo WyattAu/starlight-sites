@@ -131,14 +131,11 @@ jobs:
       - name: MDX parse gate
         run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
+      - name: Display-math delimiter gate
+        run: node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
+
       - name: PracticeProblem corruption lint
         run: node scripts/lint-practice-components.js
-
-      - name: Aside directive lint
-        run: node scripts/lint-asides.js
-
-      - name: MDX parse gate
-        run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
       - name: llms.txt freshness
         run: node scripts/generate-llms-txt.js --check

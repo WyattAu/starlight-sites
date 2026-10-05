@@ -44,28 +44,46 @@ $\frac{2x^2 - 8}{x^2 - 4x + 4} = \frac{2(x^2 - 4)}{(x - 2)^2} = \frac{2(x - 2)(x
 
 (b) Multiply through by 12 (the LCM of 4 and 3):
 
-$$12 \times \frac{3x + 1}{4} - 12 \times \frac{x - 2}{3} = 12 \times 2$$
+$$
+12 \times \frac{3x + 1}{4} - 12 \times \frac{x - 2}{3} = 12 \times 2
+$$
 
-$$3(3x + 1) - 4(x - 2) = 24$$
+$$
+3(3x + 1) - 4(x - 2) = 24
+$$
 
-$$9x + 3 - 4x + 8 = 24$$
+$$
+9x + 3 - 4x + 8 = 24
+$$
 
-$$5x + 11 = 24$$
+$$
+5x + 11 = 24
+$$
 
-$$5x = 13$$
+$$
+5x = 13
+$$
 
-$$x = \frac{13}{5}$$
+$$
+x = \frac{13}{5}
+$$
 
 (c) $x^3 - x^2 - 12x = x(x^2 - x - 12) = x(x - 4)(x + 3)$
 
 (d) Using the difference of two squares: $a^2 - b^2 = (a - b)(a + b)$ where $a = 2x - 1$ and
 $b = x + 3$:
 
-$$(2x - 1)^2 - (x + 3)^2 = [(2x - 1) - (x + 3)][(2x - 1) + (x + 3)]$$
+$$
+(2x - 1)^2 - (x + 3)^2 = [(2x - 1) - (x + 3)][(2x - 1) + (x + 3)]
+$$
 
-$$= (2x - 1 - x - 3)(2x - 1 + x + 3)$$
+$$
+= (2x - 1 - x - 3)(2x - 1 + x + 3)
+$$
 
-$$= (x - 4)(3x + 2)$$
+$$
+= (x - 4)(3x + 2)
+$$
 
 ---
 
@@ -105,7 +123,9 @@ $p(q(x)) = x$ and hence explain the relationship between $p$ and $q$.
 (b) Let $y = \frac{x + 2}{x - 1}$. Then:
 
 $$y(x - 1) = x + 2$$ $$xy - y = x + 2$$ $$xy - x = y + 2$$ $$x(y - 1) = y + 2$$
-$$x = \frac{y + 2}{y - 1}$$
+$$
+x = \frac{y + 2}{y - 1}
+$$
 
 So $h^{-1}(x) = \frac{x + 2}{x - 1}$, which equals $h(x)$ itself (this function is self-inverse).
 
@@ -117,14 +137,18 @@ Since $\sqrt{2x - 6}$ is always non-negative, the **range** is $y \geq 0$, or $[
 
 (d) $q(x) = \frac{x}{2} + 1$. Then:
 
-$$p(q(x)) = 3\left(\frac{x}{2} + 1\right) - 1 = \frac{3x}{2} + 3 - 1 = \frac{3x}{2} + 2$$
+$$
+p(q(x)) = 3\left(\frac{x}{2} + 1\right) - 1 = \frac{3x}{2} + 3 - 1 = \frac{3x}{2} + 2
+$$
 
 This does not equal $x$. Let me verify:
 $p(q(x)) = 3(\frac{x}{2} + 1) - 1 = \frac{3x}{2} + 3 - 1 = \frac{3x}{2} + 2$.
 
 This is not equal to $x$ for all $x$. However, let us check $q(p(x))$:
 
-$$q(p(x)) = \frac{3x - 1}{2} + 1 = \frac{3x - 1 + 2}{2} = \frac{3x + 1}{2}$$
+$$
+q(p(x)) = \frac{3x - 1}{2} + 1 = \frac{3x - 1 + 2}{2} = \frac{3x + 1}{2}
+$$
 
 This is also not $x$. Let me re-examine the question. For $p$ and $q$ to be inverses, we need
 $p(q(x)) = x$. The given functions do not satisfy this, so the question may contain an error. If
@@ -254,7 +278,9 @@ $h(2) = -5(4) + 20(2) + 1 = -20 + 40 + 1 = 21$ metres.
 
 The ball hits the ground when $h = 0$: $-5t^2 + 20t + 1 = 0$, so $5t^2 - 20t - 1 = 0$.
 
-$$t = \frac{20 \pm \sqrt{400 + 20}}{10} = \frac{20 \pm \sqrt{420}}{10} = \frac{20 \pm 20.49}{10}$$
+$$
+t = \frac{20 \pm \sqrt{400 + 20}}{10} = \frac{20 \pm \sqrt{420}}{10} = \frac{20 \pm 20.49}{10}
+$$
 
 Taking the positive root: $t = \frac{40.49}{10} \approx 4.05$ seconds.
 
@@ -301,7 +327,9 @@ $f(2) = 6$, and $f(3) = 28$, find the values of $a$, $b$, $c$, and $d$.
 Since the domain is $x \geq 3$, $f(x) \geq -4$ (range). Let $y = (x - 3)^2 - 4$:
 
 $$y + 4 = (x - 3)^2$$ $$x - 3 = \sqrt{y + 4}$$ (taking positive root since $x \geq 3$)
-$$x = 3 + \sqrt{y + 4}$$
+$$
+x = 3 + \sqrt{y + 4}
+$$
 
 $f^{-1}(x) = 3 + \sqrt{x + 4}$.
 

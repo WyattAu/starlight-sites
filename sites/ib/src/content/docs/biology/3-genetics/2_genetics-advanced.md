@@ -448,7 +448,9 @@ When two genes are on the same chromosome, they do not assort independently. The
 Deviates from $9:3:3:1$.
 
 **Recombination frequency (RF)**:
-$$\mathrm{RF} = \frac{\text{number of recombinant offspring}}{\text{total offspring}} \times 100\%$$
+$$
+\mathrm{RF} = \frac{\text{number of recombinant offspring}}{\text{total offspring}} \times 100\%
+$$
 
 - $\mathrm{RF} < 10\%$: genes are closely linked.
 - $\mathrm{RF} \approx 50\%$: genes assort independently (on different chromosomes or very far
@@ -458,7 +460,9 @@ $$\mathrm{RF} = \frac{\text{number of recombinant offspring}}{\text{total offspr
 
 Used to determine whether observed data deviate significantly from expected ratios:
 
-$$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
+$$
+\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
+$$
 
 **Steps:**
 

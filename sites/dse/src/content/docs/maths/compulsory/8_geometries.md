@@ -806,9 +806,13 @@ $C_1$ and $C_2$ touch externally, find $r$.
 
 For external tangency, the distance between centres equals the sum of the radii:
 
-$$d = \sqrt{(7 - 1)^2 + (2 - 2)^2} = 6$$
+$$
+d = \sqrt{(7 - 1)^2 + (2 - 2)^2} = 6
+$$
 
-$$3 + r = 6 \implies r = 3$$
+$$
+3 + r = 6 \implies r = 3
+$$
 
 </details>
 
@@ -860,15 +864,23 @@ Find the volume of the tetrahedron with vertices $A(0, 0, 0)$$B(2, 0, 0)$$C(0, 3
 
 The volume of a tetrahedron with vertices at the origin and on the coordinate axes is:
 
-$$V = \frac{1}{6}|x_B \cdot y_C \cdot z_D| = \frac{1}{6}(2)(3)(4) = 4$$
+$$
+V = \frac{1}{6}|x_B \cdot y_C \cdot z_D| = \frac{1}{6}(2)(3)(4) = 4
+$$
 
 Alternatively, using the scalar triple product:
 
-$$V = \frac{1}{6}|\overrightarrow{AB} \cdot (\overrightarrow{AC} \times \overrightarrow{AD})| = \frac{1}{6}|(2, 0, 0) \cdot ((0, 3, 0) \times (0, 0, 4))|$$
+$$
+V = \frac{1}{6}|\overrightarrow{AB} \cdot (\overrightarrow{AC} \times \overrightarrow{AD})| = \frac{1}{6}|(2, 0, 0) \cdot ((0, 3, 0) \times (0, 0, 4))|
+$$
 
-$$(0, 3, 0) \times (0, 0, 4) = (12, 0, 0)$$
+$$
+(0, 3, 0) \times (0, 0, 4) = (12, 0, 0)
+$$
 
-$$V = \frac{1}{6}|(2)(12)| = \frac{1}{6}(24) = 4$$
+$$
+V = \frac{1}{6}|(2)(12)| = \frac{1}{6}(24) = 4
+$$
 
 </details>
 
@@ -881,9 +893,13 @@ Find the angle between the lines joining $A(1, 0, 0)$ to $B(0, 1, 0)$ and $A$ to
 
 $\overrightarrow{AB} = (-1, 1, 0)$$\overrightarrow{AC} = (-1, 0, 1)$.
 
-$$\cos\theta = \frac{|(-1)(-1) + (1)(0) + (0)(1)|}{\sqrt{1 + 1 + 0} \cdot \sqrt{1 + 0 + 1}} = \frac{1}{\sqrt{2}\sqrt{2}} = \frac{1}{2}$$
+$$
+\cos\theta = \frac{|(-1)(-1) + (1)(0) + (0)(1)|}{\sqrt{1 + 1 + 0} \cdot \sqrt{1 + 0 + 1}} = \frac{1}{\sqrt{2}\sqrt{2}} = \frac{1}{2}
+$$
 
-$$\theta = 60^\circ$$
+$$
+\theta = 60^\circ
+$$
 
 </details>
 
@@ -900,11 +916,17 @@ Using the tangent formula for the general circle equation $x^2 + y^2 + Dx + Ey +
 
 Replace $x^2 \to x \cdot 5$$y^2 \to y \cdot 1$$x \to \dfrac{x + 5}{2}$$y \to \dfrac{y + 1}{2}$:
 
-$$5x + y - 4\cdot\frac{x + 5}{2} + 6\cdot\frac{y + 1}{2} - 12 = 0$$
+$$
+5x + y - 4\cdot\frac{x + 5}{2} + 6\cdot\frac{y + 1}{2} - 12 = 0
+$$
 
-$$5x + y - 2x - 10 + 3y + 3 - 12 = 0$$
+$$
+5x + y - 2x - 10 + 3y + 3 - 12 = 0
+$$
 
-$$3x + 4y - 19 = 0$$
+$$
+3x + 4y - 19 = 0
+$$
 
 </details>
 
@@ -931,7 +953,9 @@ Let the centre be $C(h, k)$. Since $C$ lies on $x - y + 2 = 0$: $h - k + 2 = 0 \
 
 $CA^2 = CB^2$ where $A = (0, 0)$ and $B = (0, 4)$:
 
-$$h^2 + k^2 = h^2 + (k - 4)^2 \implies k^2 = k^2 - 8k + 16 \implies 8k = 16 \implies k = 2$$
+$$
+h^2 + k^2 = h^2 + (k - 4)^2 \implies k^2 = k^2 - 8k + 16 \implies 8k = 16 \implies k = 2
+$$
 
 $h = k - 2 = 0$.
 
@@ -973,7 +997,9 @@ Perimeter of sector $= 2r + r\theta = 20 + 10\theta = 30$.
 
 $10\theta = 10 \implies \theta = 1$ rad.
 
-$$\mathrm{Area} = \frac{1}{2}r^2\theta = \frac{1}{2}(100)(1) = 50\mathrm{ cm}^2$$
+$$
+\mathrm{Area} = \frac{1}{2}r^2\theta = \frac{1}{2}(100)(1) = 50\mathrm{ cm}^2
+$$
 
 </details>
 
@@ -1015,9 +1041,13 @@ $AB = 6$.
 Normal to first plane: $\mathbf{n_1} = (2, -1, 2)$. Normal to second plane:
 $\mathbf{n_2} = (1, 2, -2)$.
 
-$$\cos\theta = \frac{|2(1) + (-1)(2) + 2(-2)|}{\sqrt{4 + 1 + 4} \cdot \sqrt{1 + 4 + 4}} = \frac{|2 - 2 - 4|}{3 \cdot 3} = \frac{4}{9}$$
+$$
+\cos\theta = \frac{|2(1) + (-1)(2) + 2(-2)|}{\sqrt{4 + 1 + 4} \cdot \sqrt{1 + 4 + 4}} = \frac{|2 - 2 - 4|}{3 \cdot 3} = \frac{4}{9}
+$$
 
-$$\theta = \arccos\!\left(\frac{4}{9}\right) \approx 63.6^\circ$$
+$$
+\theta = \arccos\!\left(\frac{4}{9}\right) \approx 63.6^\circ
+$$
 
 </details>
 
@@ -1042,9 +1072,13 @@ $VM = \sqrt{VO^2 + OM^2} = \sqrt{75 + 9} = \sqrt{84} = 2\sqrt{21}$.
 
 The angle between face $VAB$ and the base is the angle between $VM$ and $OM$:
 
-$$\cos\phi = \frac{OM}{VM} = \frac{3}{2\sqrt{21}} = \frac{\sqrt{21}}{14}$$
+$$
+\cos\phi = \frac{OM}{VM} = \frac{3}{2\sqrt{21}} = \frac{\sqrt{21}}{14}
+$$
 
-$$\phi = \arccos\!\left(\frac{\sqrt{21}}{14}\right) \approx 69.2^\circ$$
+$$
+\phi = \arccos\!\left(\frac{\sqrt{21}}{14}\right) \approx 69.2^\circ
+$$
 
 </details>
 
@@ -1056,7 +1090,9 @@ $B$. Find the area of the minor segment cut off by the chord $AB$.
 
 Distance from the centre $(0, 0)$ to the line:
 
-$$d = \frac{|25|}{5} = 5$$
+$$
+d = \frac{|25|}{5} = 5
+$$
 
 Since $d = r = 5$The line is tangent to the circle (not a chord). There is no minor segment -- the
 line touches the circle at exactly one point.

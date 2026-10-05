@@ -66,7 +66,9 @@ are directly connected.
 
 **Definition.** For a finite CW-complex (e.g., a polyhedron), the **Euler characteristic** is:
 
-$$\chi = V - E + F$$
+$$
+\chi = V - E + F
+$$
 
 where $V$ = number of vertices, $E$ = number of edges, $F$ = number of faces (or higher-dimensional
 cells more generally).

@@ -156,7 +156,9 @@ private static void merge(int[] arr, int left, int mid, int right) {
 **Complexity analysis.** The recursion tree has $\log_2 n$ levels. At each level, a total of $n$
 Elements are merged.
 
-$$T(n) = 2T(n/2) + O(n) \implies T(n) = O(n \log n)$$
+$$
+T(n) = 2T(n/2) + O(n) \implies T(n) = O(n \log n)
+$$
 
 This holds for best, average, and worst case.
 

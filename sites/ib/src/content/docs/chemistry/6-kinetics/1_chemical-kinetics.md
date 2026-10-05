@@ -1081,13 +1081,19 @@ $\mathrm{A} = 1$.
 Comparing experiments 1 and 3: doubling $[\mathrm{B}]$ quadruples the rate, so order in
 $\mathrm{B} = 2$.
 
-$$\mathrm{Rate} = k[\mathrm{A}][\mathrm{B}]^2$$
+$$
+\mathrm{Rate} = k[\mathrm{A}][\mathrm{B}]^2
+$$
 
 (b) From experiment 1:
 
-$$1.2 \times 10^{-3} = k(0.10)(0.10)^2 = k(0.001)$$
+$$
+1.2 \times 10^{-3} = k(0.10)(0.10)^2 = k(0.001)
+$$
 
-$$k = \frac{1.2 \times 10^{-3}}{0.001} = 1.2\mathrm{ L}^2/(\mathrm{mol}^2 \cdot \mathrm{s})$$
+$$
+k = \frac{1.2 \times 10^{-3}}{0.001} = 1.2\mathrm{ L}^2/(\mathrm{mol}^2 \cdot \mathrm{s})
+$$
 
 (c) Units of $k$: $\mathrm{L}^2/(\mathrm{mol}^2 \cdot \mathrm{s})$
 
@@ -1105,15 +1111,25 @@ Activation energy.
 <details>
 <summary>Answer</summary>
 
-$$\ln\!\left(\frac{k_2}{k_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\!\left(\frac{k_2}{k_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
-$$\ln\!\left(\frac{2.5 \times 10^{-2}}{4.0 \times 10^{-3}}\right) = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{350}\right)$$
+$$
+\ln\!\left(\frac{2.5 \times 10^{-2}}{4.0 \times 10^{-3}}\right) = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{350}\right)
+$$
 
-$$\ln(6.25) = \frac{E_a}{8.314}(0.000476)$$
+$$
+\ln(6.25) = \frac{E_a}{8.314}(0.000476)
+$$
 
-$$1.833 = \frac{E_a}{8.314}(0.000476)$$
+$$
+1.833 = \frac{E_a}{8.314}(0.000476)
+$$
 
-$$E_a = \frac{1.833 \times 8.314}{0.000476} = 32000\mathrm{ J/mol} = 32.0\mathrm{ kJ/mol}$$
+$$
+E_a = \frac{1.833 \times 8.314}{0.000476} = 32000\mathrm{ J/mol} = 32.0\mathrm{ kJ/mol}
+$$
 
 </details>
 
@@ -1136,9 +1152,13 @@ $20\mathrm{ minutes}$?
 
 (b) $$\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt = \ln(0.80) - 0.050 \times 20$$
 
-$$\ln[\mathrm{A}] = -0.223 - 1.000 = -1.223$$
+$$
+\ln[\mathrm{A}] = -0.223 - 1.000 = -1.223
+$$
 
-$$[\mathrm{A}] = e^{-1.223} = 0.294\mathrm{ M}$$
+$$
+[\mathrm{A}] = e^{-1.223} = 0.294\mathrm{ M}
+$$
 
 </details>
 
@@ -1167,7 +1187,9 @@ Step 2 (fast): $\mathrm{NO}_2 + \mathrm{F} \to \mathrm{NO}_2\mathrm{F}$
 
 (b) The rate equation is determined by the slow step:
 
-$$\mathrm{Rate} = k[\mathrm{NO}_2][\mathrm{F}_2]$$
+$$
+\mathrm{Rate} = k[\mathrm{NO}_2][\mathrm{F}_2]
+$$
 
 (c) The intermediate is the fluorine atom ($\mathrm{F}$), which is produced in step 1 and consumed
 In step 2. It does not appear in the overall reaction or the rate equation.
@@ -1185,13 +1207,21 @@ Activation energy is $50.0\mathrm{ kJ/mol}$. Calculate the rate constant at $320
 <details>
 <summary>Answer</summary>
 
-$$\ln\!\left(\frac{k_{320}}{k_{300}}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+$$
+\ln\!\left(\frac{k_{320}}{k_{300}}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
 
-$$= \frac{50000}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right) = 6014 \times 0.000208 = 1.251$$
+$$
+= \frac{50000}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right) = 6014 \times 0.000208 = 1.251
+$$
 
-$$\frac{k_{320}}{2.0 \times 10^{-3}} = e^{1.251} = 3.494$$
+$$
+\frac{k_{320}}{2.0 \times 10^{-3}} = e^{1.251} = 3.494
+$$
 
-$$k_{320} = 3.494 \times 2.0 \times 10^{-3} = 6.99 \times 10^{-3}\mathrm{ s}^{-1}$$
+$$
+k_{320} = 3.494 \times 2.0 \times 10^{-3} = 6.99 \times 10^{-3}\mathrm{ s}^{-1}
+$$
 
 </details>
 

@@ -83,7 +83,9 @@ Outliers are values below $0$ or above $112$.
 
 A dataset has the following coded values. The coding is $y = \frac{x - 50}{10}$:
 
-$$\sum y = 45, \quad \sum y^2 = 285, \quad n = 9$$
+$$
+\sum y = 45, \quad \sum y^2 = 285, \quad n = 9
+$$
 
 **(a)** Find $\bar{x}$ and $s_x$ (the standard deviation of $x$).
 
@@ -98,13 +100,19 @@ concludes $s_x = s_y$. Explain why this is wrong.
 
 Since $y = \frac{x - 50}{10}$We have $x = 10y + 50$:
 
-$$\bar{x} = 10\bar{y} + 50 = 10(5) + 50 = 100$$
+$$
+\bar{x} = 10\bar{y} + 50 = 10(5) + 50 = 100
+$$
 
 For the standard deviation: $s_x = 10s_y$.
 
-$$s_y = \sqrt{\frac{\sum y^2}{n} - \bar{y}^2} = \sqrt{\frac{285}{9} - 25} = \sqrt{31.67 - 25} = \sqrt{6.67} \approx 2.58$$
+$$
+s_y = \sqrt{\frac{\sum y^2}{n} - \bar{y}^2} = \sqrt{\frac{285}{9} - 25} = \sqrt{31.67 - 25} = \sqrt{6.67} \approx 2.58
+$$
 
-$$s_x = 10 \times 2.58 = 25.8$$
+$$
+s_x = 10 \times 2.58 = 25.8
+$$
 
 **(b)** The student's error is concluding $s_x = s_y$. The coding $y = \frac{x-50}{10}$ scales by a
 factor of $\frac{1}{10}$ and shifts by $50$. Scaling by $c$ multiplies the standard deviation by
@@ -147,17 +155,25 @@ $y = a + bx$.
 
 **(a)**
 
-$$b = \frac{n\sum x_iy_i - \sum x_i \sum y_i}{n\sum x_i^2 - (\sum x_i)^2} = \frac{5(68) - 15(20)}{5(55) - 225} = \frac{340 - 300}{275 - 225} = \frac{40}{50} = 0.8$$
+$$
+b = \frac{n\sum x_iy_i - \sum x_i \sum y_i}{n\sum x_i^2 - (\sum x_i)^2} = \frac{5(68) - 15(20)}{5(55) - 225} = \frac{340 - 300}{275 - 225} = \frac{40}{50} = 0.8
+$$
 
-$$a = \bar{y} - b\bar{x} = \frac{20}{5} - 0.8 \times \frac{15}{5} = 4 - 2.4 = 1.6$$
+$$
+a = \bar{y} - b\bar{x} = \frac{20}{5} - 0.8 \times \frac{15}{5} = 4 - 2.4 = 1.6
+$$
 
 Regression line: $y = 1.6 + 0.8x$.
 
 **(b)**
 
-$$r = \frac{n\sum x_iy_i - \sum x_i\sum y_i}{\sqrt{\big[n\sum x_i^2 - (\sum x_i)^2\big]\big[n\sum y_i^2 - (\sum y_i)^2\big]}}$$
+$$
+r = \frac{n\sum x_iy_i - \sum x_i\sum y_i}{\sqrt{\big[n\sum x_i^2 - (\sum x_i)^2\big]\big[n\sum y_i^2 - (\sum y_i)^2\big]}}
+$$
 
-$$= \frac{340 - 300}{\sqrt{(275 - 225)(450 - 400)}} = \frac{40}{\sqrt{50 \times 50}} = \frac{40}{50} = 0.8$$
+$$
+= \frac{340 - 300}{\sqrt{(275 - 225)(450 - 400)}} = \frac{40}{\sqrt{50 \times 50}} = \frac{40}{50} = 0.8
+$$
 
 **(c)** When $x = 5$: $y = 1.6 + 0.8(5) = 1.6 + 4 = 5.6$.
 

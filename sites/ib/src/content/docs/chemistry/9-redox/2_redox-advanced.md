@@ -763,9 +763,13 @@ Cathode (reduction): $\mathrm{Ag}^+(aq, 0.100\;\mathrm{M}) + e^- \to \mathrm{Ag}
 
 Since $E_{\mathrm{cell}}^\circ = 0$ (same half-reaction), the Nernst equation gives:
 
-$$E_{\mathrm{cell}} = 0 - \frac{0.0592}{1}\log\!\left(\frac{[\mathrm{Ag}^+]_{\mathrm{anode}}}{[\mathrm{Ag}^+]_{\mathrm{cathode}}}\right)$$
+$$
+E_{\mathrm{cell}} = 0 - \frac{0.0592}{1}\log\!\left(\frac{[\mathrm{Ag}^+]_{\mathrm{anode}}}{[\mathrm{Ag}^+]_{\mathrm{cathode}}}\right)
+$$
 
-$$E_{\mathrm{cell}} = -0.0592\log\!\left(\frac{0.0010}{0.100}\right) = -0.0592\log(0.010) = -0.0592 \times (-2) = +0.118\;\mathrm{V}$$
+$$
+E_{\mathrm{cell}} = -0.0592\log\!\left(\frac{0.0010}{0.100}\right) = -0.0592\log(0.010) = -0.0592 \times (-2) = +0.118\;\mathrm{V}
+$$
 
 The cell potential is $+0.118\;\mathrm{V}$. The reaction spontaneously proceeds to equalise the
 concentrations, and the cell potential decreases to zero as the concentrations converge.
@@ -786,33 +790,51 @@ efficiency for $\mathrm{Cl}_2$ production and the mass of $\mathrm{O}_2$ produce
 
 **Theoretical mass of $\mathrm{Cl}_2$:**
 
-$$Q = It = 5.00 \times 7200 = 36000\;\mathrm{C}$$
+$$
+Q = It = 5.00 \times 7200 = 36000\;\mathrm{C}
+$$
 
-$$n(e^-) = \frac{Q}{F} = \frac{36000}{96485} = 0.373\;\mathrm{mol\;e^-}$$
+$$
+n(e^-) = \frac{Q}{F} = \frac{36000}{96485} = 0.373\;\mathrm{mol\;e^-}
+$$
 
 For $\mathrm{Cl}_2$: $2\;\mathrm{mol\;e^-}$ per mol $\mathrm{Cl}_2$:
 
-$$n(\mathrm{Cl}_2)_{\mathrm{theoretical}} = \frac{0.373}{2} = 0.187\;\mathrm{mol}$$
+$$
+n(\mathrm{Cl}_2)_{\mathrm{theoretical}} = \frac{0.373}{2} = 0.187\;\mathrm{mol}
+$$
 
-$$m(\mathrm{Cl}_2)_{\mathrm{theoretical}} = 0.187 \times 71.0 = 13.2\;\mathrm{g}$$
+$$
+m(\mathrm{Cl}_2)_{\mathrm{theoretical}} = 0.187 \times 71.0 = 13.2\;\mathrm{g}
+$$
 
 **Current efficiency:**
 
-$$\mathrm{Efficiency} = \frac{8.90}{13.2} \times 100 = 67.4\%$$
+$$
+\mathrm{Efficiency} = \frac{8.90}{13.2} \times 100 = 67.4\%
+$$
 
 **Electrons used for $\mathrm{Cl}_2$:**
 
-$$n(e^-)_{\mathrm{Cl}_2} = 2 \times \frac{8.90}{71.0} = 0.251\;\mathrm{mol\;e^-}$$
+$$
+n(e^-)_{\mathrm{Cl}_2} = 2 \times \frac{8.90}{71.0} = 0.251\;\mathrm{mol\;e^-}
+$$
 
 **Remaining electrons used for $\mathrm{O}_2$:**
 
-$$n(e^-)_{\mathrm{O}_2} = 0.373 - 0.251 = 0.122\;\mathrm{mol\;e^-}$$
+$$
+n(e^-)_{\mathrm{O}_2} = 0.373 - 0.251 = 0.122\;\mathrm{mol\;e^-}
+$$
 
 For $\mathrm{O}_2$: $4\;\mathrm{mol\;e^-}$ per mol $\mathrm{O}_2$:
 
-$$n(\mathrm{O}_2) = \frac{0.122}{4} = 0.0305\;\mathrm{mol}$$
+$$
+n(\mathrm{O}_2) = \frac{0.122}{4} = 0.0305\;\mathrm{mol}
+$$
 
-$$m(\mathrm{O}_2) = 0.0305 \times 32.0 = 0.976\;\mathrm{g}$$
+$$
+m(\mathrm{O}_2) = 0.0305 \times 32.0 = 0.976\;\mathrm{g}
+$$
 
 </details>
 
@@ -829,21 +851,35 @@ $\Delta G$ when $[\mathrm{Ag}^+] = 0.010\;\mathrm{M}$ and $[\mathrm{Cu}^{2+}] = 
 
 **(a) Standard conditions:**
 
-$$E_{\mathrm{cell}}^\circ = E_{\mathrm{cathode}}^\circ - E_{\mathrm{anode}}^\circ = 0.80 - 0.34 = +0.46\;\mathrm{V}$$
+$$
+E_{\mathrm{cell}}^\circ = E_{\mathrm{cathode}}^\circ - E_{\mathrm{anode}}^\circ = 0.80 - 0.34 = +0.46\;\mathrm{V}
+$$
 
-$$\Delta G^\circ = -nFE_{\mathrm{cell}}^\circ = -2 \times 96485 \times 0.46 = -88\,766\;\mathrm{J/mol} = -88.8\;\mathrm{kJ/mol}$$
+$$
+\Delta G^\circ = -nFE_{\mathrm{cell}}^\circ = -2 \times 96485 \times 0.46 = -88\,766\;\mathrm{J/mol} = -88.8\;\mathrm{kJ/mol}
+$$
 
-$$\log K = \frac{nE^\circ}{0.0592} = \frac{2 \times 0.46}{0.0592} = 15.5$$
+$$
+\log K = \frac{nE^\circ}{0.0592} = \frac{2 \times 0.46}{0.0592} = 15.5
+$$
 
-$$K = 10^{15.5} = 3.2 \times 10^{15}$$
+$$
+K = 10^{15.5} = 3.2 \times 10^{15}
+$$
 
 **(b) Non-standard conditions:**
 
-$$Q = \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Ag}^+]^2} = \frac{0.10}{(0.010)^2} = \frac{0.10}{0.00010} = 1000$$
+$$
+Q = \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Ag}^+]^2} = \frac{0.10}{(0.010)^2} = \frac{0.10}{0.00010} = 1000
+$$
 
-$$E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac{0.0592}{n}\log Q = 0.46 - \frac{0.0592}{2}\log(1000) = 0.46 - \frac{0.0592}{2} \times 3 = 0.46 - 0.0888 = 0.371\;\mathrm{V}$$
+$$
+E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac{0.0592}{n}\log Q = 0.46 - \frac{0.0592}{2}\log(1000) = 0.46 - \frac{0.0592}{2} \times 3 = 0.46 - 0.0888 = 0.371\;\mathrm{V}
+$$
 
-$$\Delta G = -nFE_{\mathrm{cell}} = -2 \times 96485 \times 0.371 = -71\,600\;\mathrm{J/mol} = -71.6\;\mathrm{kJ/mol}$$
+$$
+\Delta G = -nFE_{\mathrm{cell}} = -2 \times 96485 \times 0.371 = -71\,600\;\mathrm{J/mol} = -71.6\;\mathrm{kJ/mol}
+$$
 
 The reaction is still spontaneous ($\Delta G < 0$, $E_{\mathrm{cell}} > 0$) but less strongly so
 because the high product-to-reactant ratio pushes the reaction back toward equilibrium.
@@ -867,7 +903,9 @@ because the high product-to-reactant ratio pushes the reaction back toward equil
 <summary>Problem 9: Quantitative -- Lead-Acid Battery Discharge</summary>
 
 A $12\;\mathrm{V}$ car battery contains six lead-acid cells in series. The overall cell reaction is:
-$$\mathrm{Pb}(s) + \mathrm{PbO}_2(s) + 2\mathrm{H}_2\mathrm{SO}_4(aq) \to 2\mathrm{PbSO}_4(s) + 2\mathrm{H}_2\mathrm{O}(l)$$
+$$
+\mathrm{Pb}(s) + \mathrm{PbO}_2(s) + 2\mathrm{H}_2\mathrm{SO}_4(aq) \to 2\mathrm{PbSO}_4(s) + 2\mathrm{H}_2\mathrm{O}(l)
+$$
 
 (a) Calculate $E_{\mathrm{cell}}^\circ$ per cell given that $K = 1.0 \times 10^{81}$ at
 $298\;\mathrm{K}$. (b) If the battery can deliver $4.0\;\mathrm{A}$ for $60\;\mathrm{minutes}$
@@ -924,7 +962,9 @@ electrically connected to the magnesium block. (d) Discuss why impressed-current
 
 During the electrolysis of $\mathrm{CuSO}_4(aq)$ with inert electrodes, $\mathrm{O}_2$ is produced
 at the anode and $\mathrm{Cu}$ is deposited at the cathode. The overall reaction is:
-$$2\mathrm{Cu}^{2+}(aq) + 2\mathrm{H}_2\mathrm{O}(l) \to 2\mathrm{Cu}(s) + 4\mathrm{H}^+(aq) + \mathrm{O}_2(g)$$
+$$
+2\mathrm{Cu}^{2+}(aq) + 2\mathrm{H}_2\mathrm{O}(l) \to 2\mathrm{Cu}(s) + 4\mathrm{H}^+(aq) + \mathrm{O}_2(g)
+$$
 
 A current of $2.50\;\mathrm{A}$ is passed through $500\;\mathrm{mL}$ of $0.200\;\mathrm{M}$
 $\mathrm{CuSO}_4$ solution for $30.0\;\mathrm{minutes}$. (a) Calculate the concentration of

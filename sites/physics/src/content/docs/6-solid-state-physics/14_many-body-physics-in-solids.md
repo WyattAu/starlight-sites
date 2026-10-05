@@ -22,11 +22,15 @@ description: "In a metal, the Coulomb interaction between electrons is screened 
 In a metal, the Coulomb interaction between electrons is screened by the other electrons. The
 **Thomas--Fermi screening wavevector**:
 
-$$q_{\text{TF}^2 = \frac{e^2 g(\varepsilon_F)}{\varepsilon_0} = \frac{4k_F}{\pi a_0}}$$
+$$
+q_{\text{TF}^2 = \frac{e^2 g(\varepsilon_F)}{\varepsilon_0} = \frac{4k_F}{\pi a_0}}
+$$
 
 Where $a_0 = 4\pi\varepsilon_0\hbar^2/(m_e e^2)$ is the Bohr radius. The screened potential:
 
-$$V_{\text{scr}(r) = \frac{e^2}{4\pi\varepsilon_0 r}\,e^{-q_{\text{TF} r}}}$$
+$$
+V_{\text{scr}(r) = \frac{e^2}{4\pi\varepsilon_0 r}\,e^{-q_{\text{TF} r}}}
+$$
 
 The screening length $\lambda_{\text{TF} = 1/q_{\text{TF} \sim 0.5}}$ Å in metals (about one atomic
 spacing), meaning the Coulomb interaction is very short-ranged.
@@ -36,7 +40,9 @@ spacing), meaning the Coulomb interaction is very short-ranged.
 The Hubbard model captures the competition between kinetic energy (delocalisation) and on-site
 Coulomb repulsion (localisation):
 
-$$\hat{H} = -t\sum_{\langle i,j\rangle,\sigma}\hat{c}_{i\sigma}^\dagger\hat{c}_{j\sigma} + U\sum_i \hat{n}_{i\uparrow}\hat{n}_{i\downarrow}$$
+$$
+\hat{H} = -t\sum_{\langle i,j\rangle,\sigma}\hat{c}_{i\sigma}^\dagger\hat{c}_{j\sigma} + U\sum_i \hat{n}_{i\uparrow}\hat{n}_{i\downarrow}
+$$
 
 Where $t$ is the hopping integral and $U$ is the on-site repulsion energy.
 
@@ -81,7 +87,9 @@ spin is screened by conduction electrons at low temperature, forming a singlet s
 
 The Kondo temperature $T_K$ sets the energy scale:
 
-$$k_B T_K \sim D\,e^{-1/(N(E_F)J)}$$
+$$
+k_B T_K \sim D\,e^{-1/(N(E_F)J)}
+$$
 
 Where $D$ is the bandwidth and $J$ is the exchange coupling. Below $T_K$:
 
@@ -118,7 +126,9 @@ mJ/(mol$\cdot$K$^2$).
 
 The mass enhancement:
 
-$$\frac{m^*}{m_e} = \frac{\gamma}{\gamma_0} \approx \frac{1000}{1} = 1000$$
+$$
+\frac{m^*}{m_e} = \frac{\gamma}{\gamma_0} \approx \frac{1000}{1} = 1000
+$$
 
 This enormous enhancement arises from the Kondo effect: the $4f$ electrons of Ce hybridise with
 conduction electrons, forming heavy quasiparticles. The Kondo temperature $T_K \sim 10$ K is the

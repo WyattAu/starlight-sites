@@ -58,11 +58,15 @@ Double charges compared to Na$^+$ and Cl$^-$.
 The Born-Haber cycle applies Hess's law to calculate lattice energy from measurable quantities. For
 NaCl:
 
-$$\Delta H_f^\circ = \Delta H_{\mathrm{sub} + IE_1 + \frac{1}{2}D_{\mathrm{Cl_2} + EA_{\mathrm{Cl} + U$$
+$$
+\Delta H_f^\circ = \Delta H_{\mathrm{sub} + IE_1 + \frac{1}{2}D_{\mathrm{Cl_2} + EA_{\mathrm{Cl} + U
+$$
 
 Solving for $U$:
 
-$$U = \Delta H_f^\circ - \Delta H_{\mathrm{sub} - IE_1 - \frac{1}{2}D_{\mathrm{Cl_2} - EA_{\mathrm{Cl}$$
+$$
+U = \Delta H_f^\circ - \Delta H_{\mathrm{sub} - IE_1 - \frac{1}{2}D_{\mathrm{Cl_2} - EA_{\mathrm{Cl}
+$$
 
 Each term represents a step in forming the ionic solid from its elements. The lattice energy $U$ is
 the largest (most negative) term, reflecting the strong electrostatic attraction in the Ionic
@@ -401,7 +405,9 @@ Pure covalent (zero electronegativity difference) to ionic (large electronegativ
 
 Percent ionic character can be estimated from the electronegativity difference:
 
-$$\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100$$
+$$
+\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
+$$
 
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
@@ -508,7 +514,9 @@ Pure covalent (zero electronegativity difference) to ionic (large electronegativ
 
 Percent ionic character can be estimated from the electronegativity difference:
 
-$$\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100$$
+$$
+\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
+$$
 
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
@@ -864,9 +872,13 @@ $15\,\text{N}$. The frictional force is $5.0\,\text{N}$. Calculate the accelerat
 
 **Solution:**
 
-$$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}$$
+$$
+F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}
+$$
 
-$$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}
+$$
 :::
 
 ## Intuition

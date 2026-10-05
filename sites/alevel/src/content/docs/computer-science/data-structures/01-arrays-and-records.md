@@ -29,7 +29,9 @@ Type, stored in **contiguous memory locations**. Each element is accessed by an 
 
 Formally, an array $A$ of type $T$ with $n$ elements maps indices to memory:
 
-$$A: \{0, 1, \ldots, n-1\} \to \mathrm{Memory addresses}$$
+$$
+A: \{0, 1, \ldots, n-1\} \to \mathrm{Memory addresses}
+$$
 
 Where $A[i]$ is stored at base address $b + i \times s$ And $s$ is the size (in bytes) of one Element
 of type $T$.
@@ -38,7 +40,9 @@ of type $T$.
 
 **Address calculation:**
 
-$$\mathrm{addr}(A[i]) = b + i \cdot s$$
+$$
+\mathrm{addr}(A[i]) = b + i \cdot s
+$$
 
 Where $b$ is the base address of the array, $i$ is the index, and $s$ is the element size.
 
@@ -108,7 +112,9 @@ class StaticArray:
 A **two-dimensional array** is an array of arrays, a matrix with $m$ rows and $n$ columns.
 Formally:
 
-$$A: \{0,\ldots,m-1\} \times \{0,\ldots,n-1\} \to \mathrm{Memory}$$
+$$
+A: \{0,\ldots,m-1\} \times \{0,\ldots,n-1\} \to \mathrm{Memory}
+$$
 
 ### Memory Layouts
 
@@ -116,7 +122,9 @@ $$A: \{0,\ldots,m-1\} \times \{0,\ldots,n-1\} \to \mathrm{Memory}$$
 
 Elements of each row are stored contiguously. Row 0 first, then row 1, etc.
 
-$$\mathrm{addr}(A[i][j]) = b + (i \cdot n + j) \cdot s$$
+$$
+\mathrm{addr}(A[i][j]) = b + (i \cdot n + j) \cdot s
+$$
 
 This is the default in C, C++, Python (NumPy default), and most modern languages.
 
@@ -124,7 +132,9 @@ This is the default in C, C++, Python (NumPy default), and most modern languages
 
 Elements of each column are stored contiguously. Column 0 first, then column 1, etc.
 
-$$\mathrm{addr}(A[i][j]) = b + (j \cdot m + i) \cdot s$$
+$$
+\mathrm{addr}(A[i][j]) = b + (j \cdot m + i) \cdot s
+$$
 
 This is the default in Fortran, MATLAB, R, and Julia.
 
@@ -169,7 +179,9 @@ Consider a dynamic array that starts at capacity 1 and doubles when full.
 **Proof.** A resize at capacity $c$ copies $c$ elements. Resizes occur at capacities
 $1, 2, 4, 8, \ldots, 2^{\lfloor \log_2 n \rfloor}$. The total cost of all copies is:
 
-$$\sum_{k=0}^{\lfloor \log_2 n \rfloor} 2^k = 2^{\lfloor \log_2 n \rfloor + 1} - 1 \leq 2n - 1 = O(n)$$
+$$
+\sum_{k=0}^{\lfloor \log_2 n \rfloor} 2^k = 2^{\lfloor \log_2 n \rfloor + 1} - 1 \leq 2n - 1 = O(n)
+$$
 
 Over $n$ operations, the amortised cost per operation is $O(n)/n = O(1)$. $\square$
 

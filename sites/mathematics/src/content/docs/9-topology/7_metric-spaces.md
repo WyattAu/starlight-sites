@@ -32,17 +32,23 @@ $B_r(p) = \{x : d(x, p) < r\}$.
 
 **Example 7.1 (Euclidean metric).** On $\mathbb{R}^n$:
 
-$$d_2(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}.$$
+$$
+d_2(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}.
+$$
 
 **Example 7.2 ($p$-norm metrics).** For $1 \leq p \leq \infty$:
 
-$$d_p(\mathbf{x}, \mathbf{y}) = \left(\sum_{i=1}^{n} |x_i - y_i|^p\right)^{1/p}, \qquad d_\infty(\mathbf{x}, \mathbf{y}) = \max_{1 \leq i \leq n} |x_i - y_i|.$$
+$$
+d_p(\mathbf{x}, \mathbf{y}) = \left(\sum_{i=1}^{n} |x_i - y_i|^p\right)^{1/p}, \qquad d_\infty(\mathbf{x}, \mathbf{y}) = \max_{1 \leq i \leq n} |x_i - y_i|.
+$$
 
 All of these induce the standard topology on $\mathbb{R}^n$.
 
 **Example 7.3 (Discrete metric).** For any set $X$:
 
-$$d(x, y) = \begin{cases} 0 & \text{if } x = y, \\ 1 & \text{if } x \neq y. \end{cases}$$
+$$
+d(x, y) = \begin{cases} 0 & \text{if } x = y, \\ 1 & \text{if } x \neq y. \end{cases}
+$$
 
 The discrete metric induces the discrete topology.
 

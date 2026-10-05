@@ -36,18 +36,24 @@ Goods are excluded to avoid double counting.
 
 **1. Output (production) approach:**
 
-$$\mathrm{GDP} = \sum \mathrm{Gross Value Added} = \sum (Q_i \times P_i) - \sum \mathrm{intermediate consumption}$$
+$$
+\mathrm{GDP} = \sum \mathrm{Gross Value Added} = \sum (Q_i \times P_i) - \sum \mathrm{intermediate consumption}
+$$
 
 **2. Income approach:**
 
-$$\mathrm{GDP} = W + R + i + \pi + D + T_{ind} - S$$
+$$
+\mathrm{GDP} = W + R + i + \pi + D + T_{ind} - S
+$$
 
 Where $W$ = wages, $R$ = rent, $i$ = interest, $\pi$ = profit, $D$ = depreciation, $T_{ind}$ =
 Indirect taxes minus subsidies.
 
 **3. Expenditure approach:**
 
-$$\mathrm{GDP} = C + I + G + (X - M)$$
+$$
+\mathrm{GDP} = C + I + G + (X - M)
+$$
 
 Where $C$ = consumption, $I$ = investment, $G$ = government spending, $X$ = exports, $M$ = imports.
 
@@ -68,17 +74,25 @@ particularly in Countries with large informal sectors.
 **Nominal GDP** is measured at current prices. **Real GDP** adjusts for price changes using a price
 Index (GDP deflator):
 
-$$\mathrm{Real GDP} = \frac{\mathrm{Nominal GDP}}{\mathrm{GDP Deflator}} \times 100$$
+$$
+\mathrm{Real GDP} = \frac{\mathrm{Nominal GDP}}{\mathrm{GDP Deflator}} \times 100
+$$
 
-$$\mathrm{GDP Deflator} = \frac{\mathrm{Nominal GDP}}{\mathrm{Real GDP}} \times 100$$
+$$
+\mathrm{GDP Deflator} = \frac{\mathrm{Nominal GDP}}{\mathrm{Real GDP}} \times 100
+$$
 
 **GDP growth rate:**
 
-$$g = \frac{\mathrm{GDP}_t - \mathrm{GDP}_{t-1}}{\mathrm{GDP}_{t-1}} \times 100\%$$
+$$
+g = \frac{\mathrm{GDP}_t - \mathrm{GDP}_{t-1}}{\mathrm{GDP}_{t-1}} \times 100\%
+$$
 
 ### 1.4 GDP Per Capita
 
-$$\mathrm{GDP per capita} = \frac{\mathrm{GDP}}{\mathrm{Population}}$$
+$$
+\mathrm{GDP per capita} = \frac{\mathrm{GDP}}{\mathrm{Population}}
+$$
 
 GDP per capita is a better (though imperfect) measure of average living standards than total GDP.
 
@@ -147,7 +161,9 @@ Outcomes.
 
 We define **inflation** as a sustained increase in the general price level over time.
 
-$$\mathrm{Inflation rate} = \frac{P_t - P_{t-1}}{P_{t-1}} \times 100\%$$
+$$
+\mathrm{Inflation rate} = \frac{P_t - P_{t-1}}{P_{t-1}} \times 100\%
+$$
 
 **Deflation**: a sustained _decrease_ in the general price level ($\pi \lt 0$). **Disinflation**: A
 _reduction_ in the rate of inflation (prices still rising, but more slowly).
@@ -157,7 +173,9 @@ _reduction_ in the rate of inflation (prices still rising, but more slowly).
 **Consumer Price Index (CPI)**: measures the change in the cost of a basket of goods and services
 Representative of household consumption.
 
-$$\mathrm{CPI}_t = \frac{\sum_{i} P_{i,t} \cdot Q_{i,0}}{\sum_{i} P_{i,0} \cdot Q_{i,0}} \times 100$$
+$$
+\mathrm{CPI}_t = \frac{\sum_{i} P_{i,t} \cdot Q_{i,0}}{\sum_{i} P_{i,0} \cdot Q_{i,0}} \times 100
+$$
 
 Where $Q_{i,0}$ are base-period quantities (Laspeyres index).
 
@@ -208,14 +226,18 @@ receive higher Payments, increasing government debt costs.
 
 **Demand-pull inflation**: caused by excess aggregate demand.
 
-$$AD > \mathrm{full employment output} \Rightarrow P \uparrow$$
+$$
+AD > \mathrm{full employment output} \Rightarrow P \uparrow
+$$
 
 When the economy is at or near full capacity, any further increase in AD cannot increase output
 (resources are fully employed) and instead bids up prices.
 
 **Cost-push inflation**: caused by increases in costs of production.
 
-$$\mathrm{Costs } \uparrow \Rightarrow SRAS \mathrm{ shifts left} \Rightarrow P \uparrow, Y \downarrow$$
+$$
+\mathrm{Costs } \uparrow \Rightarrow SRAS \mathrm{ shifts left} \Rightarrow P \uparrow, Y \downarrow
+$$
 
 Causes: rising wages (wage-price spiral), rising commodity prices (oil shocks), exchange rate
 Depreciation (imported inflation), higher taxes.
@@ -299,7 +321,9 @@ Rapidly, making it much harder and more painful to bring inflation back down.
 
 The **unemployment rate** is:
 
-$$u = \frac{\mathrm{Number unemployed}}{\mathrm{Labour force}} \times 100\% = \frac{U}{U + E} \times 100\%$$
+$$
+u = \frac{\mathrm{Number unemployed}}{\mathrm{Labour force}} \times 100\% = \frac{U}{U + E} \times 100\%
+$$
 
 Where the **labour force** = employed + unemployed. The unemployed are those without work, actively
 Seeking work, and available to start work.
@@ -320,7 +344,9 @@ Discouraged workers, homemakers).
 **Natural rate of unemployment (NAIRU)**: the rate of unemployment consistent with stable inflation
 - the sum of frictional and structural unemployment.
 
-$$u^* = u_{frictional} + u_{structural}$$
+$$
+u^* = u_{frictional} + u_{structural}
+$$
 
 When $u = u^*$The economy is at full employment (no cyclical unemployment).
 
@@ -372,7 +398,9 @@ regional Policy in the UK.
 **Okun's Law**: for every 1% increase in the unemployment rate above the natural rate, GDP falls by
 Approximately 2% below potential:
 
-$$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
+$$
+\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)
+$$
 
 Where $\beta \approx 2$.
 
@@ -431,7 +459,9 @@ Measures of underemployment and job quality.
 The **balance of payments (BoP)** records all transactions between residents of a country and the
 Rest of the world.
 
-$$\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0$$
+$$
+\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0
+$$
 
 **Current Account:**
 
@@ -516,7 +546,9 @@ Capital inflows.
 The **Phillips curve** (Phillips, 1958) shows an inverse relationship between inflation and
 Unemployment:
 
-$$\pi = \pi^e - \beta(u - u^*) + \varepsilon$$
+$$
+\pi = \pi^e - \beta(u - u^*) + \varepsilon
+$$
 
 In the short run, lower unemployment is associated with higher inflation. The mechanism: tight
 Labour markets $\Rightarrow$ wages rise (workers have bargaining power) $\Rightarrow$ costs rise
@@ -538,7 +570,9 @@ Wages return to their original level, and employment falls back to $u^*$. The ec
 The short-run Phillips curve to a point with higher inflation but the same unemployment rate.
 $\blacksquare$
 
-$$\mathrm{Long-run Phillips curve: } u = u^* \mathrm{ (vertical)}$$
+$$
+\mathrm{Long-run Phillips curve: } u = u^* \mathrm{ (vertical)}
+$$
 
 ### 5.3 Expectations and the Phillips Curve
 
@@ -845,14 +879,22 @@ An economy has the following components (GBP billions):
 Current account balance $= X - M = 500 - 550 = -50$ (deficit).
 
 **Real GDP adjustment:** If the GDP deflator is 110 (base year = 100):
-$$\text{Real GDP} = \frac{1900}{110} \times 100 = 1727.27$$
+$$
+\text{Real GDP} = \frac{1900}{110} \times 100 = 1727.27
+$$
 
 GDP growth rate from previous year (Real GDP was 1650):
-$$g = \frac{1727.27 - 1650}{1650} \times 100 = 4.68\%$$
+$$
+g = \frac{1727.27 - 1650}{1650} \times 100 = 4.68\%
+$$
 
 **Per capita adjustment:** If population = 68 million:
-$$\text{GDP per capita} = \frac{1900}{68} = \pounds 27\,941$$
-$$\text{Real GDP per capita} = \frac{1727.27}{68} = \pounds 25\,395$$
+$$
+\text{GDP per capita} = \frac{1900}{68} = \pounds 27\,941
+$$
+$$
+\text{Real GDP per capita} = \frac{1727.27}{68} = \pounds 25\,395
+$$
 
 ### 8.2 Inflation Calculations with Weighted Index
 
@@ -871,18 +913,30 @@ $$\text{Real GDP per capita} = \frac{1727.27}{68} = \pounds 25\,395$$
 **Laspeyres CPI calculation:**
 
 Cost of base basket at current prices:
-$$\text{Basket cost}_{2024} = 10(1.30) + 100(1.55) + 1(1150) + 5(35) + 20(12) + 50(5) + \text{Other}(1.04 \times \text{Other}_{2019})$$
-$$= 13 + 155 + 1150 + 175 + 240 + 250 + \text{Other}$$
+$$
+\text{Basket cost}_{2024} = 10(1.30) + 100(1.55) + 1(1150) + 5(35) + 20(12) + 50(5) + \text{Other}(1.04 \times \text{Other}_{2019})
+$$
+$$
+= 13 + 155 + 1150 + 175 + 240 + 250 + \text{Other}
+$$
 
 The "Other" category at base prices cost, say, GBP 500. At current prices: $500 \times 1.04 = 520$.
-$$\text{Total}_{2024} = 13 + 155 + 1150 + 175 + 240 + 250 + 520 = 2503$$
+$$
+\text{Total}_{2024} = 13 + 155 + 1150 + 175 + 240 + 250 + 520 = 2503
+$$
 
 Cost of base basket at base prices:
-$$\text{Total}_{2019} = 10(1.00) + 100(1.20) + 1(1000) + 5(30) + 20(10) + 50(5) + 500 = 10 + 120 + 1000 + 150 + 200 + 250 + 500 = 2230$$
+$$
+\text{Total}_{2019} = 10(1.00) + 100(1.20) + 1(1000) + 5(30) + 20(10) + 50(5) + 500 = 10 + 120 + 1000 + 150 + 200 + 250 + 500 = 2230
+$$
 
-$$\text{CPI}_{2024} = \frac{2503}{2230} \times 100 = 112.24$$
+$$
+\text{CPI}_{2024} = \frac{2503}{2230} \times 100 = 112.24
+$$
 
-$$\text{Inflation rate} = \frac{112.24 - 100}{100} \times 100 = 12.24\%$$
+$$
+\text{Inflation rate} = \frac{112.24 - 100}{100} \times 100 = 12.24\%
+$$
 
 ### 8.3 Unemployment and Okun's Law: Detailed Application
 
@@ -896,7 +950,9 @@ that reduces unemployment to 3%.
 Output rises 4% above potential.
 
 **Phillips curve (short-run):**
-$$\pi = \pi^e - \beta(u - u^*) = 3 - 2(0.03 - 0.05) = 3 + 0.04 = 7\%$$
+$$
+\pi = \pi^e - \beta(u - u^*) = 3 - 2(0.03 - 0.05) = 3 + 0.04 = 7\%
+$$
 
 **Dynamic adjustment:**
 
@@ -932,7 +988,9 @@ trade-off was self-defeating.
 - **Current account: $-120 + 100 - 40 - 25 = -\text{GBP } 85\text{bn}$ (deficit)**
 
 **As a percentage of GDP:** If GDP = GBP 2,200bn:
-$$\text{CA deficit} = \frac{85}{2200} \times 100 = 3.86\%$$
+$$
+\text{CA deficit} = \frac{85}{2200} \times 100 = 3.86\%
+$$
 
 **Interpretation:** The UK has a persistent current account deficit of approximately 4% of GDP,
 reflecting the structural trade deficit in goods partly offset by the surplus in services. The

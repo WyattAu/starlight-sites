@@ -54,7 +54,9 @@ States:
 **Light microscopy** uses visible light ($\lambda \approx 400$--$700\ \mathrm{nm}$) focused through
 Glass lenses. The maximum resolving power of a light microscope is limited by diffraction:
 
-$$d = \frac{0.61\lambda}{n\sin\theta}$$
+$$
+d = \frac{0.61\lambda}{n\sin\theta}
+$$
 
 Where $d$ is the minimum resolvable distance, $\lambda$ is the wavelength, $n$ is the refractive
 Index of the medium, and $\theta$ is the half-angle of the cone of light. For light microscopy,
@@ -80,7 +82,9 @@ Of surface features.
 
 **Magnification** is defined as:
 
-$$\mathrm{Magnification} = \frac{\mathrm{Image\ size}}{\mathrm{Actual\ size}}$$
+$$
+\mathrm{Magnification} = \frac{\mathrm{Image\ size}}{\mathrm{Actual\ size}}
+$$
 
 **Laser scanning confocal microscopy** uses laser light and pinhole apertures to eliminate
 Out-of-focus light, producing sharp optical sections through thick specimens. This allows 3D
@@ -319,7 +323,9 @@ Ions) through transmembrane proteins. Two types:
 **Osmosis**: the net movement of water molecules across a partially permeable membrane from a region
 Of higher water potential to a region of lower water potential.
 
-$$\Psi = \Psi_s + \Psi_p$$
+$$
+\Psi = \Psi_s + \Psi_p
+$$
 
 Where $\Psi$ is water potential, $\Psi_s$ is solute potential (always negative), and $\Psi_p$ is
 Pressure potential.
@@ -386,25 +392,33 @@ To uncontrolled division (cancer).
 
 Microscopy calculations appear frequently in examinations. The fundamental relationship is:
 
-$$\mathrm{Magnification} = \frac{\mathrm{Image\ size}}{\mathrm{Actual\ size}}$$
+$$
+\mathrm{Magnification} = \frac{\mathrm{Image\ size}}{\mathrm{Actual\ size}}
+$$
 
 This can be rearranged to find any one variable when the other two are known. Units must be
 consistent -- convert all measurements to the same unit ( $\mu\mathrm{m}$) before calculating.
 
 **Conversion factors:**
 
-$$1\ \mathrm{mm} = 1000\ \mu\mathrm{m}, \quad 1\ \mu\mathrm{m} = 1000\ \mathrm{nm}, \quad 1\ \mathrm{nm} = 1000\ \mathrm{pm}$$
+$$
+1\ \mathrm{mm} = 1000\ \mu\mathrm{m}, \quad 1\ \mu\mathrm{m} = 1000\ \mathrm{nm}, \quad 1\ \mathrm{nm} = 1000\ \mathrm{pm}
+$$
 
 **Worked Example 1.** A cell is observed under a microscope with a magnification of $\times 400$.
 The Image of the cell measures $4.8\ \mathrm{mm}$ across. Calculate the actual diameter of the cell.
 
-$$\mathrm{Actual\ size} = \frac{\mathrm{Image\ size}}{\mathrm{Magnification}} = \frac{4.8\ \mathrm{mm}}{400} = 0.012\ \mathrm{mm} = 12\ \mu\mathrm{m}$$
+$$
+\mathrm{Actual\ size} = \frac{\mathrm{Image\ size}}{\mathrm{Magnification}} = \frac{4.8\ \mathrm{mm}}{400} = 0.012\ \mathrm{mm} = 12\ \mu\mathrm{m}
+$$
 
 **Worked Example 2.** A mitochondrion has an actual length of $5\ \mu\mathrm{m}$. If an electron
 Micrograph is taken at a magnification of $\times 50000$What will be the length of the mitochondrion
 In the image?
 
-$$\mathrm{Image\ size} = 5\ \mu\mathrm{m} \times 50000 = 250000\ \mu\mathrm{m} = 250\ \mathrm{mm} = 25\ \mathrm{cm}$$
+$$
+\mathrm{Image\ size} = 5\ \mu\mathrm{m} \times 50000 = 250000\ \mu\mathrm{m} = 250\ \mathrm{mm} = 25\ \mathrm{cm}
+$$
 
 ### 7.2 Scale Bars
 
@@ -435,7 +449,9 @@ calculate Actual size from the image:
 **Worked Example 4.** A TEM image is labelled $\times 200000$. A ribosome on the image measures
 $0.25\ \mathrm{mm}$ in diameter. Calculate the actual diameter.
 
-$$\mathrm{Actual\ diameter} = \frac{0.25 \times 10^{-3}\ \mathrm{m}}{200000} = 1.25 \times 10^{-9}\ \mathrm{m} = 1.25\ \mathrm{nm}$$
+$$
+\mathrm{Actual\ diameter} = \frac{0.25 \times 10^{-3}\ \mathrm{m}}{200000} = 1.25 \times 10^{-9}\ \mathrm{m} = 1.25\ \mathrm{nm}
+$$
 
 This is consistent with the expected diameter of a ribosome ($\approx 20\ \mathrm{nm}$) only if the
 Measurement is of a sub-component. If the full ribosome is being measured, the student should
@@ -502,7 +518,9 @@ Water potential ($\Psi$) is measured in pressure units (kilopascals, $\mathrm{kP
 Standard temperature and pressure has a water potential of $0\ \mathrm{kPa}$. The addition of
 solutes Lowers water potential (makes it more negative):
 
-$$\Psi = \Psi_s + \Psi_p$$
+$$
+\Psi = \Psi_s + \Psi_p
+$$
 
 Where $\Psi_s$ (solute potential, also called osmotic potential) is always zero or negative, and
 $\Psi_p$ (pressure potential) is positive in turgid plant cells and zero in animal cells and flaccid
@@ -515,7 +533,9 @@ $\Psi_{\mathrm{solution}} = -400\ \mathrm{kPa}$. The cell has a solute potential
 $\Psi_s = -700\ \mathrm{kPa}$ And a pressure potential $\Psi_p = +300\ \mathrm{kPa}$. Determine the
 direction of net water movement.
 
-$$\Psi_{\mathrm{cell}} = \Psi_s + \Psi_p = -700 + 300 = -400\ \mathrm{kPa}$$
+$$
+\Psi_{\mathrm{cell}} = \Psi_s + \Psi_p = -700 + 300 = -400\ \mathrm{kPa}
+$$
 
 Since $\Psi_{\mathrm{cell}} = \Psi_{\mathrm{solution}} = -400\ \mathrm{kPa}$There is no net water
 Movement. The cell is in equilibrium with the external solution.
@@ -524,7 +544,9 @@ Movement. The cell is in equilibrium with the external solution.
 $\Psi_p = +450\ \mathrm{kPa}$ is Placed in pure water ($\Psi = 0\ \mathrm{kPa}$). Describe what
 happens.
 
-$$\Psi_{\mathrm{cell}} = -900 + 450 = -450\ \mathrm{kPa}$$
+$$
+\Psi_{\mathrm{cell}} = -900 + 450 = -450\ \mathrm{kPa}
+$$
 
 Water moves from pure water ($0\ \mathrm{kPa}$) into the cell ($-450\ \mathrm{kPa}$) down the water
 Potential gradient. As water enters, the pressure potential increases (the cell becomes more
@@ -535,7 +557,9 @@ $\Psi_p = +900\ \mathrm{kPa}$.
 in A solution with $\Psi = -300\ \mathrm{kPa}$. The red blood cell has
 $\Psi_s = -300\ \mathrm{kPa}$. What Happens?
 
-$$\Psi_{\mathrm{cell}} = -300 + 0 = -300\ \mathrm{kPa}$$
+$$
+\Psi_{\mathrm{cell}} = -300 + 0 = -300\ \mathrm{kPa}
+$$
 
 No net water movement -- the solution is isotonic. If the solution had $\Psi = -100\ \mathrm{kPa}$
 (hypotonic), water would enter the cell, causing it to swell and potentially burst (haemolysis). If
@@ -944,7 +968,9 @@ cilia are needed to establish left-right asymmetry during embryonic development)
 The endomembrane system is a network of organelles that work together to synthesise, modify,
 package, and transport proteins and lipids:
 
-$$\text{Rough ER} \to \text{Vesicles} \to \text{Golgi apparatus} \to \text{Secretory vesicles} \to \text{Cell membrane}$$
+$$
+\text{Rough ER} \to \text{Vesicles} \to \text{Golgi apparatus} \to \text{Secretory vesicles} \to \text{Cell membrane}
+$$
 
 ### 14.2 The Golgi Apparatus in Detail
 
@@ -1188,7 +1214,9 @@ active transport) to drive the transport of another molecule against its concent
 The $\mathrm{Na^+/K^+}$ ATPase maintains the resting membrane potential and the concentration
 gradients of $\mathrm{Na^+}$ and $\mathrm{K^+}$:
 
-$$\text{ATP} + 3\mathrm{Na^+}_{\text{in}} + 2\mathrm{K^+}_{\text{out}} \to \text{ADP} + \mathrm{P_i} + 3\mathrm{Na^+}_{\text{out}} + 2\mathrm{K^+}_{\text{in}}$$
+$$
+\text{ATP} + 3\mathrm{Na^+}_{\text{in}} + 2\mathrm{K^+}_{\text{out}} \to \text{ADP} + \mathrm{P_i} + 3\mathrm{Na^+}_{\text{out}} + 2\mathrm{K^+}_{\text{in}}
+$$
 
 - Pumps 3 $\mathrm{Na^+}$ out and 2 $\mathrm{K^+}$ in per ATP hydrolysed.
 - **Electrogenic**: the unequal exchange (3:2) creates a net outward current, contributing to the
@@ -1340,7 +1368,9 @@ Mean division time $= \frac{6.6 \times 60}{13.3} \approx 30$ minutes.
 
 ### 20.1 Resolution and Magnification
 
-$$\text{Resolution} = \frac{0.61\lambda}{n\sin\theta}$$
+$$
+\text{Resolution} = \frac{0.61\lambda}{n\sin\theta}
+$$
 
 Where $\lambda$ = wavelength of light/electrons; $n$ = refractive index of the medium; $\theta$ =
 half-angle of the cone of light entering the objective.
@@ -1585,12 +1615,16 @@ $\beta$-phage.
 
 ### 26.1 Calculating Magnification
 
-$$\text{Magnification} = \frac{\text{size of image}}{\text{size of object}}$$
+$$
+\text{Magnification} = \frac{\text{size of image}}{\text{size of object}}
+$$
 
 **Example:** a cell is observed through a microscope at 400x magnification. The cell measures
 $4\ \mathrm{mm}$ on the micrograph. What is the actual size?
 
-$$\text{Actual size} = \frac{\text{image size}}{\text{magnification}} = \frac{4\ \mathrm{mm}}{400} = 0.01\ \mathrm{mm} = 10\ \mu\mathrm{m}$$
+$$
+\text{Actual size} = \frac{\text{image size}}{\text{magnification}} = \frac{4\ \mathrm{mm}}{400} = 0.01\ \mathrm{mm} = 10\ \mu\mathrm{m}
+$$
 
 ### 26.2 Preparing a Temporary Mount
 
@@ -1604,7 +1638,9 @@ $$\text{Actual size} = \frac{\text{image size}}{\text{magnification}} = \frac{4\
 The mitotic index is the percentage of cells in a population that are undergoing mitosis at a given
 time:
 
-$$\text{Mitotic index} = \frac{\text{number of cells in mitosis}}{\text{total number of cells observed}} \times 100$$
+$$
+\text{Mitotic index} = \frac{\text{number of cells in mitosis}}{\text{total number of cells observed}} \times 100
+$$
 
 **Example:** In a sample of 200 cells, 12 are in prophase, 8 in metaphase, 4 in anaphase, and 6 in
 telophase.
@@ -1859,9 +1895,13 @@ development and tissue homeostasis.
 
 ### 35.2 Magnification and Scale
 
-$$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
+$$
+\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}
+$$
 
-$$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}}$$
+$$
+\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}}
+$$
 
 | Unit       | Symbol | Conversion  |
 | ---------- | ------ | ----------- |

@@ -46,9 +46,13 @@ Degrades. Any distributed system must tolerate partitions, which means the real 
 The PACELC theorem (Abadi, 2012) extends CAP: when there is **no** partition (the EL part), the
 System must choose between **L**atency and **C**onsistency:
 
-$$\mathrm{PA \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency$$
+$$
+\mathrm{PA \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency
+$$
 
-$$\mathrm{PC \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency$$
+$$
+\mathrm{PC \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency
+$$
 
 This captures a nuance that CAP misses: even during normal operation (no partition), systems make
 Consistency-latency trade-offs. DynamoDB defaults to eventual consistency for low latency but can be
@@ -340,7 +344,9 @@ Availability across multiple data centers.
 For reads and writes to be consistent (read-your-writes), the sum of read and write consistency
 Levels must exceed the replication factor:
 
-$$W + R \gt RF$$
+$$
+W + R \gt RF
+$$
 
 For example, with replication factor 3: `QUORUM` writes + `QUORUM` reads ($2 + 2 = 4 \gt 3$)
 Guarantees that the read sees the latest write.

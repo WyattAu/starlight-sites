@@ -35,7 +35,9 @@ Explore the simulation above to develop intuition for this topic.
 **Definition.** The **work done** by a constant force $\mathbf{F}$ when its point of application
 Moves through displacement $\mathbf{s}$ is:
 
-$$W = \mathbf{F} \cdot \mathbf{s} = Fs\cos\theta$$
+$$
+W = \mathbf{F} \cdot \mathbf{s} = Fs\cos\theta
+$$
 
 Where $\theta$ is the angle between $\mathbf{F}$ and $\mathbf{s}$.
 
@@ -52,46 +54,62 @@ Negative when opposing motion.
 
 **Work done by a variable force.** For a force $F(x)$ that varies with position:
 
-$$W = \int_{x_1}^{x_2} F(x)\,dx$$
+$$
+W = \int_{x_1}^{x_2} F(x)\,dx
+$$
 
 ## 2. Kinetic Energy
 
 **Definition.** The **kinetic energy** of a body of mass $m$ moving with velocity $v$ is:
 
-$$\boxed{E_k = \frac{1}{2}mv^2}$$
+$$
+\boxed{E_k = \frac{1}{2}mv^2}
+$$
 
 **Derivation from the work-energy theorem.** Consider a body of mass $m$ accelerated from rest to
 Speed $v$ by a constant net force $F$ over distance $s$. The work done is:
 
-$$W = Fs = mas$$
+$$
+W = Fs = mas
+$$
 
 Using $v^2 = u^2 + 2as$ with $u = 0$: $s = v^2/(2a)$. Therefore:
 
-$$W = ma \cdot \frac{v^2}{2a} = \frac{1}{2}mv^2$$
+$$
+W = ma \cdot \frac{v^2}{2a} = \frac{1}{2}mv^2
+$$
 
 We define this work done as the kinetic energy gained. $\square$
 
 **General proof (variable force).** From Newton's second law: $F = m\frac{dv}{dt}$. The work done
 Is:
 
-$$W = \int_{s_1}^{s_2} F\,ds = \int_{s_1}^{s_2} m\frac{dv}{dt}\,ds = \int_{v_1}^{v_2} mv\,dv = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2$$
+$$
+W = \int_{s_1}^{s_2} F\,ds = \int_{s_1}^{s_2} m\frac{dv}{dt}\,ds = \int_{v_1}^{v_2} mv\,dv = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+$$
 
 This is the **work-energy theorem**: the net work done on a body equals its change in kinetic
 Energy.
 
-$$\boxed{W_{\mathrm{net}} = \Delta E_k}$$
+$$
+\boxed{W_{\mathrm{net}} = \Delta E_k}
+$$
 
 ## 3. Gravitational Potential Energy
 
 **Definition.** The **gravitational potential energy** of a body of mass $m$ at height $h$ above a
 Reference level is:
 
-$$\boxed{E_p = mgh}$$
+$$
+\boxed{E_p = mgh}
+$$
 
 **Derivation.** The work done against gravity in lifting a mass $m$ through a vertical height $h$ at
 Constant velocity (so $a = 0$ and applied force $= mg$):
 
-$$W = Fd = mg \times h = mgh$$
+$$
+W = Fd = mg \times h = mgh
+$$
 
 This work is stored as gravitational potential energy. $\square$
 
@@ -103,14 +121,18 @@ Are physically meaningful. The convention is to take $E_p = 0$ at the lowest poi
 **Definition.** The **elastic potential energy** stored in a spring (or any elastic body obeying
 Hooke's law) extended by $x$ from its natural length is:
 
-$$\boxed{E_e = \frac{1}{2}kx^2}$$
+$$
+\boxed{E_e = \frac{1}{2}kx^2}
+$$
 
 Where $k$ is the spring constant (force per unit extension).
 
 **Derivation.** By Hooke's law, the force required to extend the spring by $x$ is $F = kx$. Since
 The force varies with extension, we integrate:
 
-$$W = \int_0^x F\,dx' = \int_0^x kx'\,dx' = \left[\frac{1}{2}kx'^2\right]_0^x = \frac{1}{2}kx^2$$
+$$
+W = \int_0^x F\,dx' = \int_0^x kx'\,dx' = \left[\frac{1}{2}kx'^2\right]_0^x = \frac{1}{2}kx^2
+$$
 
 This work is stored as elastic potential energy. $\square$
 
@@ -122,9 +144,13 @@ Under the line $F = kx$Which is a triangle of base $x$ and height $kx$Giving $\f
 **Parallel** (same extension, forces add). Two springs with constants $k_1$ and $k_2$ share the same
 Extension $x$:
 
-$$E_e = \frac{1}{2}k_1 x^2 + \frac{1}{2}k_2 x^2 = \frac{1}{2}(k_1 + k_2)x^2 = \frac{1}{2}k_{\mathrm{eff}}x^2$$
+$$
+E_e = \frac{1}{2}k_1 x^2 + \frac{1}{2}k_2 x^2 = \frac{1}{2}(k_1 + k_2)x^2 = \frac{1}{2}k_{\mathrm{eff}}x^2
+$$
 
-$$\boxed{k_{\mathrm{parallel}} = k_1 + k_2}$$
+$$
+\boxed{k_{\mathrm{parallel}} = k_1 + k_2}
+$$
 
 **Proof from equilibrium.** Both springs exert force on the mass:
 $F = k_1 x + k_2 x = (k_1 + k_2)x$ So $k_{\mathrm{eff}} = k_1 + k_2$. $\square$
@@ -135,7 +161,9 @@ Same force $F$:
 $F = k_1 x_1 = k_2 x_2$ So $x_1 = F/k_1$ and $x_2 = F/k_2$. Total extension:
 $x = x_1 + x_2 = F(1/k_1 + 1/k_2)$.
 
-$$\boxed{\frac{1}{k_{\mathrm{series}}} = \frac{1}{k_1} + \frac{1}{k_2}}$$
+$$
+\boxed{\frac{1}{k_{\mathrm{series}}} = \frac{1}{k_1} + \frac{1}{k_2}}
+$$
 
 **Intuition.** Parallel springs are stiffer (each contributes to resisting displacement). Series
 Springs are less stiff (each stretches under the same load, giving more total compliance). This is
@@ -146,26 +174,38 @@ Analogous to electrical circuits: parallel resistors decrease, series resistors 
 **Principle of Conservation of Energy.** Energy cannot be created or destroyed, only transferred
 From one form to another.
 
-$$\sum E_{\mathrm{initial}} = \sum E_{\mathrm{final}}$$
+$$
+\sum E_{\mathrm{initial}} = \sum E_{\mathrm{final}}
+$$
 
 For a conservative system (no dissipative forces like friction):
 
-$$E_k + E_p + E_e = \mathrm{constant}$$
+$$
+E_k + E_p + E_e = \mathrm{constant}
+$$
 
 **Proof for a mass falling under gravity.** A mass $m$ falls from height $h_1$ (at rest) to height
 $h_2$ (speed $v$). By the work-energy theorem:
 
-$$W_{\mathrm{gravity}} = \Delta E_k$$
+$$
+W_{\mathrm{gravity}} = \Delta E_k
+$$
 
 But $W_{\mathrm{gravity}} = mg(h_1 - h_2) = -\Delta E_p$. Therefore:
 
-$$-\Delta E_p = \Delta E_k \implies \Delta E_k + \Delta E_p = 0$$
+$$
+-\Delta E_p = \Delta E_k \implies \Delta E_k + \Delta E_p = 0
+$$
 
-$$E_k + E_p = \mathrm{constant} \quad \square$$
+$$
+E_k + E_p = \mathrm{constant} \quad \square
+$$
 
 **With non-conservative forces:**
 
-$$W_{\mathrm{nc}} = \Delta E_k + \Delta E_p$$
+$$
+W_{\mathrm{nc}} = \Delta E_k + \Delta E_p
+$$
 
 Where $W_{\mathrm{nc}}$ is the work done by non-conservative forces (e.g., friction does negative
 Work, reducing total mechanical energy).
@@ -175,15 +215,21 @@ Work, reducing total mechanical energy).
 When friction acts, mechanical energy is not conserved -- it decreases monotonically as energy is
 Transferred to thermal energy. For a block sliding to rest on a rough horizontal surface:
 
-$$E_k(\mathrm{initial}) = E_k(\mathrm{final}) + W_f$$
+$$
+E_k(\mathrm{initial}) = E_k(\mathrm{final}) + W_f
+$$
 
 Where $W_f = \mu mg d$ is the work done against friction over distance $d$.
 
 Setting $E_k(\mathrm{final}) = 0$ (block comes to rest):
 
-$$\frac{1}{2}mv^2 = \mu mgd$$
+$$
+\frac{1}{2}mv^2 = \mu mgd
+$$
 
-$$\boxed{d = \frac{v^2}{2\mu g}}$$
+$$
+\boxed{d = \frac{v^2}{2\mu g}}
+$$
 
 **Intuition.** The stopping distance is proportional to $v^2$ (not $v$), which is why driving at
 Twice the speed requires **four times** the braking distance. This quadratic dependence is a direct
@@ -220,7 +266,9 @@ Deep connection between symmetry and conservation is one of the most profound re
 
 **Definition.** **Power** is the rate at which work is done (or energy is transferred):
 
-$$\boxed{P = \frac{dW}{dt} = \frac{\Delta E}{\Delta t}}$$
+$$
+\boxed{P = \frac{dW}{dt} = \frac{\Delta E}{\Delta t}}
+$$
 
 **Units.** 1 watt (W) $= 1$ J s$^{-1}$.
 
@@ -228,21 +276,29 @@ $$\boxed{P = \frac{dW}{dt} = \frac{\Delta E}{\Delta t}}$$
 
 For a force $F$ moving a body at velocity $v$:
 
-$$P = \frac{dW}{dt} = \frac{F \, ds}{dt} = Fv$$
+$$
+P = \frac{dW}{dt} = \frac{F \, ds}{dt} = Fv
+$$
 
 More generally, for a force at angle $\theta$ to the velocity:
 
-$$\boxed{P = Fv\cos\theta}$$
+$$
+\boxed{P = Fv\cos\theta}
+$$
 
 ### Average Power for Constant Acceleration
 
 When a constant force accelerates a body from $u$ to $v$ over distance $s$:
 
-$$P_{\mathrm{avg}} = \frac{W}{t} = \frac{Fs}{t} = F \cdot \frac{s}{t} = F\bar{v}$$
+$$
+P_{\mathrm{avg}} = \frac{W}{t} = \frac{Fs}{t} = F \cdot \frac{s}{t} = F\bar{v}
+$$
 
 Since the average velocity is $\bar{v} = (u + v)/2$:
 
-$$\boxed{P_{\mathrm{avg}} = \frac{F(u + v)}{2}}$$
+$$
+\boxed{P_{\mathrm{avg}} = \frac{F(u + v)}{2}}
+$$
 
 This is useful because it relates power to the initial and final velocities directly, without
 Needing to know the distance or time separately.
@@ -257,11 +313,15 @@ Over the whole acceleration is $F(u+v)/2$.
 
 **Definition.** The **efficiency** of an energy transfer is:
 
-$$\eta = \frac{\mathrm{useful energy output}}{\mathrm{total energy input}} \times 100\%$$
+$$
+\eta = \frac{\mathrm{useful energy output}}{\mathrm{total energy input}} \times 100\%
+$$
 
 Or equivalently for power:
 
-$$\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} \times 100\%$$
+$$
+\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} \times 100\%
+$$
 
 Efficiency is always between 0% and 100%. In practice, some energy is always dissipated ( as Thermal
 energy due to friction or resistance).

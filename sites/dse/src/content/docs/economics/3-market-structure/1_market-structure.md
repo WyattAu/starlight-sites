@@ -85,7 +85,9 @@ Marginal unit.
 Regardless of market structure, a profit-maximising firm produces where `MR = MC`Provided that Price
 at that output covers average variable cost (the shutdown condition in the short run).
 
-$$\mathrm{Profit} = \mathrm{TR} - \mathrm{TC} = Q(P - \mathrm{ATC})$$
+$$
+\mathrm{Profit} = \mathrm{TR} - \mathrm{TC} = Q(P - \mathrm{ATC})
+$$
 
 ---
 
@@ -122,7 +124,9 @@ Above the market price (consumers would buy from competitors instead). It has no
 Below the market price (it can sell any quantity it wants at the market price). Therefore, the firm
 Faces a perfectly elastic (horizontal) individual demand curve at the market price `P`.
 
-$$\mathrm{AR} = \mathrm{MR} = P$$
+$$
+\mathrm{AR} = \mathrm{MR} = P
+$$
 
 ### Short-Run Equilibrium
 
@@ -240,7 +244,9 @@ Long-run equilibrium is driven by entry and exit:
 
 The long-run equilibrium conditions are:
 
-$$P = MR = MC = \mathrm{ATC}_{\min}$$
+$$
+P = MR = MC = \mathrm{ATC}_{\min}
+$$
 
 At long-run equilibrium:
 
@@ -368,7 +374,9 @@ Demand curve is downward-sloping, `AR` is also downward-sloping.
 Units sold, not just the marginal unit. The relationship between `AR` and `MR` for a linear demand
 Curve `P = a - bQ` is:
 
-$$\mathrm{MR} = a - 2bQ$$
+$$
+\mathrm{MR} = a - 2bQ
+$$
 
 The `MR` curve has twice the slope of the `AR` curve and intersects the quantity axis at half the
 Quantity where `AR` intersects it.
@@ -378,15 +386,21 @@ Quantity where `AR` intersects it.
 The monopolist produces where `MR = MC`Then charges the price read off the `AR` (demand) curve at
 That quantity.
 
-$$Q_m : \mathrm{MR} = \mathrm{MC}$$
+$$
+Q_m : \mathrm{MR} = \mathrm{MC}
+$$
 
-$$P_m : P = \mathrm{AR}(Q_m)$$
+$$
+P_m : P = \mathrm{AR}(Q_m)
+$$
 
 **Supernormal profit** in the long run: Because barriers to entry prevent new firms from entering,
 The monopolist can earn supernormal profit indefinitely. This is the key difference from perfect
 Competition, where long-run equilibrium yields only normal profit.
 
-$$\mathrm{Supernormal profit} = Q_m \times (P_m - \mathrm{ATC}(Q_m))$$
+$$
+\mathrm{Supernormal profit} = Q_m \times (P_m - \mathrm{ATC}(Q_m))
+$$
 
 <details>
 <summary>Worked Example: Monopoly Profit Maximisation</summary>
@@ -418,7 +432,9 @@ Minimum).
 **Deadweight loss (DWL):** The welfare loss from monopoly is the area between the demand curve and
 The `MC` curve, from `Q_m` to `Q_c` (the competitive output where `P = MC`).
 
-$$\mathrm{DWL} = \frac{1}{2}(P_m - \mathrm{MC}(Q_m))(Q_c - Q_m)$$
+$$
+\mathrm{DWL} = \frac{1}{2}(P_m - \mathrm{MC}(Q_m))(Q_c - Q_m)
+$$
 
 This DWL represents the total surplus that is neither captured by the monopolist nor by consumers.
 It is a pure loss to society.
@@ -512,7 +528,9 @@ Price.
 The monopolist allocates output between segments such that `MR` is equal across all segments and
 Equals `MC`:
 
-$$\mathrm{MR}_1 = \mathrm{MR}_2 = \ldots = \mathrm{MR}_n = \mathrm{MC}$$
+$$
+\mathrm{MR}_1 = \mathrm{MR}_2 = \ldots = \mathrm{MR}_n = \mathrm{MC}
+$$
 
 This implies that the segment with more elastic demand pays a lower price (because `MR` is a
 Function of elasticity).
@@ -587,9 +605,13 @@ Until remaining firms earn normal profit.
 
 Long-run equilibrium conditions:
 
-$$\mathrm{MR} = \mathrm{MC} \mathrm{ (profit maximisation)}$$
+$$
+\mathrm{MR} = \mathrm{MC} \mathrm{ (profit maximisation)}
+$$
 
-$$P = \mathrm{ATC} \mathrm{ (zero economic profit due to free entry/exit)}$$
+$$
+P = \mathrm{ATC} \mathrm{ (zero economic profit due to free entry/exit)}
+$$
 
 Note: In monopolistic competition, `P \gt MC` at equilibrium (allocative inefficiency persists) and
 The firm does NOT produce at the minimum `ATC` (productive inefficiency). The demand curve is
@@ -602,7 +624,9 @@ The difference between the output where `ATC` is minimised and the actual output
 Firm in long-run equilibrium is called **excess capacity**. This represents the cost of product
 Variety: society pays higher average costs in exchange for having differentiated products.
 
-$$\mathrm{Excess capacity} = Q_{\mathrm{ATC}_{\min}} - Q^*$$
+$$
+\mathrm{Excess capacity} = Q_{\mathrm{ATC}_{\min}} - Q^*
+$$
 
 ### Diagram Description: Long-Run Monopolistic Competition
 

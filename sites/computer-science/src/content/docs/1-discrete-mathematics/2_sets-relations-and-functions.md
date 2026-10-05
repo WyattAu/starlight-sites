@@ -28,7 +28,9 @@ description: "Sets, Relations, and Functions: comprehensive educational content 
 
 **De Morgan"s Laws:**
 
-$$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
+$$
+(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c
+$$
 
 **Power set:** $\mathcal{P}(A) = \\{B : B \subseteq A\\}$. If $|A| = n$ Then
 $|\mathcal{P}(A)| = 2^n$.
@@ -151,7 +153,9 @@ countable Is **uncountable**.
 
 _Proof._ The function $f : \mathbb{N} \to \mathbb{Z}$ defined by
 
-$$f(n) = \begin{cases} n/2 & \mathrm{if}\; n\; \mathrm{is}\; even \\ -(n+1)/2 & \mathrm{if}\; n\; \mathrm{is}\; odd \end{cases}$$
+$$
+f(n) = \begin{cases} n/2 & \mathrm{if}\; n\; \mathrm{is}\; even \\ -(n+1)/2 & \mathrm{if}\; n\; \mathrm{is}\; odd \end{cases}
+$$
 
 Is a bijection, enumerating $0, -1, 1, -2, 2, -3, 3, \ldots$ $\blacksquare$
 
@@ -175,7 +179,9 @@ the expansion that does not end in all 9s to avoid dual representations).
 
 Define $s = 0.s_1 s_2 s_3 \ldots$ by
 
-$$s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} = 5 \end{cases}$$
+$$
+s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} = 5 \end{cases}
+$$
 
 Then $s \in [0, 1)$ and $s$ differs from $r_i$ in the $i$-th decimal place for every $i$ So
 $s \notin \\{r_1, r_2, \ldots\\}$Contradicting the assumption that the list was complete. Therefore

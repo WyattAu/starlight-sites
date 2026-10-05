@@ -25,7 +25,9 @@ description: "Study notes for Algebra with worked examples, practice problems, a
 一元二次方程的标准形式为 $ax^2 + bx + c = 0$（$a \neq 0$），其解法包括：
 
 **求根公式：**
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
 
 **判别式 $\Delta = b^2 - 4ac$：**
 
@@ -34,7 +36,9 @@ $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 - $\Delta < 0$：无实数根（两个共轭复数根）
 
 **韦达定理：** 若 $x_1, x_2$ 是方程的两个根，则：
-$$x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}$$
+$$
+x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}
+$$
 
 ### 集合与逻辑
 
@@ -47,17 +51,25 @@ $$x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}$$
 - 补集：$\complement_U A = \{x \mid x \in U \text{ 且 } x \notin A\}$
 
 **德摩根定律：**
-$$\complement_U(A \cap B) = (\complement_U A) \cup (\complement_U B)$$
-$$\complement_U(A \cup B) = (\complement_U A) \cap (\complement_U B)$$
+$$
+\complement_U(A \cap B) = (\complement_U A) \cup (\complement_U B)
+$$
+$$
+\complement_U(A \cup B) = (\complement_U A) \cap (\complement_U B)
+$$
 
 ### 不等式
 
 **均值不等式：** 对于正数 $a, b$：
-$$\frac{a + b}{2} \geq \sqrt{ab}$$
+$$
+\frac{a + b}{2} \geq \sqrt{ab}
+$$
 等号成立当且仅当 $a = b$。
 
 **柯西不等式（二维形式）：**
-$$(a^2 + b^2)(c^2 + d^2) \geq (ac + bd)^2$$
+$$
+(a^2 + b^2)(c^2 + d^2) \geq (ac + bd)^2
+$$
 
 ### 等差数列与等比数列
 
@@ -76,10 +88,14 @@ $$(a^2 + b^2)(c^2 + d^2) \geq (ac + bd)^2$$
 步骤1：识别系数 $a = 1, b = -5, c = 6$
 
 步骤2：由韦达定理：
-$$x_1 + x_2 = 5, \quad x_1 \cdot x_2 = 6$$
+$$
+x_1 + x_2 = 5, \quad x_1 \cdot x_2 = 6
+$$
 
 步骤3：利用恒等变换：
-$$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 25 - 12 = 13$$
+$$
+x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 25 - 12 = 13
+$$
 
 **答案：** $x_1^2 + x_2^2 = 13$
 
@@ -90,12 +106,16 @@ $$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 25 - 12 = 13$$
 **解答：**
 
 步骤1：由等差数列通项公式建立方程组：
-$$\begin{cases} a_1 + 2d = 7 \\ a_1 + 6d = 19 \end{cases}$$
+$$
+\begin{cases} a_1 + 2d = 7 \\ a_1 + 6d = 19 \end{cases}
+$$
 
 步骤2：两式相减得 $4d = 12$，故 $d = 3$
 
 步骤3：代入得 $a_1 = 1$，因此：
-$$a_{10} = a_1 + 9d = 1 + 27 = 28$$
+$$
+a_{10} = a_1 + 9d = 1 + 27 = 28
+$$
 
 **答案：** $a_{10} = 28$
 
@@ -133,10 +153,14 @@ $$a_{10} = a_1 + 9d = 1 + 27 = 28$$
 **解答：**
 
 步骤1：由等比数列求和公式：
-$$S_n = \frac{a_1(1 - q^n)}{1 - q}$$
+$$
+S_n = \frac{a_1(1 - q^n)}{1 - q}
+$$
 
 步骤2：代入数据：
-$$S_5 = \frac{2(1 - 3^5)}{1 - 3} = \frac{2(1 - 243)}{-2} = \frac{2 \times (-242)}{-2} = 242$$
+$$
+S_5 = \frac{2(1 - 3^5)}{1 - 3} = \frac{2(1 - 243)}{-2} = \frac{2 \times (-242)}{-2} = 242
+$$
 
 **答案：** $S_5 = 242$
 
@@ -147,10 +171,14 @@ $$S_5 = \frac{2(1 - 3^5)}{1 - 3} = \frac{2(1 - 243)}{-2} = \frac{2 \times (-242)
 **解答：**
 
 步骤1：由均值不等式，对正数 $a, b$：
-$$\frac{a + b}{2} \geq \sqrt{ab}$$
+$$
+\frac{a + b}{2} \geq \sqrt{ab}
+$$
 
 步骤2：令 $a = x$，$b = \frac{1}{x}$：
-$$\frac{x + \frac{1}{x}}{2} \geq \sqrt{x \cdot \frac{1}{x}} = 1$$
+$$
+\frac{x + \frac{1}{x}}{2} \geq \sqrt{x \cdot \frac{1}{x}} = 1
+$$
 
 步骤3：因此 $x + \frac{1}{x} \geq 2$，等号成立当且仅当 $x = \frac{1}{x}$，即 $x = 1$。
 
@@ -165,8 +193,12 @@ $$\frac{x + \frac{1}{x}}{2} \geq \sqrt{x \cdot \frac{1}{x}} = 1$$
 步骤1：设两根为 $x_1 = a$，$x_2 = 2a$。
 
 步骤2：由韦达定理：
-$$x_1 + x_2 = 3a = 3 \implies a = 1$$
-$$x_1 \cdot x_2 = 2a^2 = m \implies m = 2$$
+$$
+x_1 + x_2 = 3a = 3 \implies a = 1
+$$
+$$
+x_1 \cdot x_2 = 2a^2 = m \implies m = 2
+$$
 
 步骤3：验证判别式 $\Delta = 9 - 8 = 1 > 0$，方程有两个不相等的实数根。
 
@@ -179,13 +211,19 @@ $$x_1 \cdot x_2 = 2a^2 = m \implies m = 2$$
 对于方程 $ax^2 + bx + c = 0$（$a > 0$），判别式 $\Delta = b^2 - 4ac$ 决定了根的情况。但在高考中，经常考查根的分布问题，即讨论根在某个区间内的条件。
 
 **两根都大于 $k$ 的条件：**
-$$\Delta \geq 0, \quad -\frac{b}{2a} > k, \quad f(k) > 0$$
+$$
+\Delta \geq 0, \quad -\frac{b}{2a} > k, \quad f(k) > 0
+$$
 
 **两根都小于 $k$ 的条件：**
-$$\Delta \geq 0, \quad -\frac{b}{2a} < k, \quad f(k) > 0$$
+$$
+\Delta \geq 0, \quad -\frac{b}{2a} < k, \quad f(k) > 0
+$$
 
 **一根大于 $k$，一根小于 $k$ 的条件：**
-$$f(k) < 0$$
+$$
+f(k) < 0
+$$
 
 ### 数列的综合应用
 
@@ -212,12 +250,20 @@ $$f(k) < 0$$
 步骤1：由题意，方程有两个不相等的实数根，故判别式 $\Delta > 0$。
 
 步骤2：计算判别式：
-$$\Delta = (2m)^2 - 4(m + 2) = 4m^2 - 4m - 8$$
+$$
+\Delta = (2m)^2 - 4(m + 2) = 4m^2 - 4m - 8
+$$
 
 步骤3：令 $\Delta > 0$：
-$$4m^2 - 4m - 8 > 0$$
-$$m^2 - m - 2 > 0$$
-$$(m - 2)(m + 1) > 0$$
+$$
+4m^2 - 4m - 8 > 0
+$$
+$$
+m^2 - m - 2 > 0
+$$
+$$
+(m - 2)(m + 1) > 0
+$$
 
 步骤4：解不等式得 $m < -1$ 或 $m > 2$。
 
@@ -232,15 +278,21 @@ $$(m - 2)(m + 1) > 0$$
 **解答：**
 
 步骤1：由等差数列求和公式 $S_n = na_1 + \frac{n(n-1)}{2}d$，列出方程组：
-$$\begin{cases} 10a_1 + 45d = 100 \\ 20a_1 + 190d = 400 \end{cases}$$
+$$
+\begin{cases} 10a_1 + 45d = 100 \\ 20a_1 + 190d = 400 \end{cases}
+$$
 
 步骤2：化简：
-$$\begin{cases} a_1 + 4.5d = 10 \\ a_1 + 9.5d = 20 \end{cases}$$
+$$
+\begin{cases} a_1 + 4.5d = 10 \\ a_1 + 9.5d = 20 \end{cases}
+$$
 
 步骤3：两式相减得 $5d = 10$，故 $d = 2$，$a_1 = 1$。
 
 步骤4：计算 $S_{30}$：
-$$S_{30} = 30 \times 1 + \frac{30 \times 29}{2} \times 2 = 30 + 870 = 900$$
+$$
+S_{30} = 30 \times 1 + \frac{30 \times 29}{2} \times 2 = 30 + 870 = 900
+$$
 
 **答案：** $S_{30} = 900$
 
@@ -253,8 +305,12 @@ $$S_{30} = 30 \times 1 + \frac{30 \times 29}{2} \times 2 = 30 + 870 = 900$$
 **解答：**
 
 步骤1：解不等式 $x^2 - 2x - 3 < 0$：
-$$(x - 3)(x + 1) < 0$$
-$$A = (-1, 3)$$
+$$
+(x - 3)(x + 1) < 0
+$$
+$$
+A = (-1, 3)
+$$
 
 步骤2：由 $A \subseteq B$，即 $(-1, 3) \subseteq (a, +\infty)$。
 
@@ -300,9 +356,15 @@ f(1) > 0
 **解答：**
 
 步骤1：由 $S_9 = S_{17}$，利用求和公式：
-$$9a_1 + \frac{9 \times 8}{2}d = 17a_1 + \frac{17 \times 16}{2}d$$
-$$9a_1 + 36d = 17a_1 + 136d$$
-$$-8a_1 = 100d \implies d = -\frac{2a_1}{25}$$
+$$
+9a_1 + \frac{9 \times 8}{2}d = 17a_1 + \frac{17 \times 16}{2}d
+$$
+$$
+9a_1 + 36d = 17a_1 + 136d
+$$
+$$
+-8a_1 = 100d \implies d = -\frac{2a_1}{25}
+$$
 
 步骤2：由 $a_1 > 0$ 且 $d < 0$，数列递减。$S_n$ 最大时 $a_n \geq 0$ 且 $a_{n+1} \leq 0$。
 

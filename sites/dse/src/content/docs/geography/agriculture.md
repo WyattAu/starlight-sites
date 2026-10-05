@@ -73,7 +73,9 @@ farming (lower transport costs per unit value), and finally livestock ranching a
 
 Land rent at any point is determined by:
 
-$$\text{Land Rent} = \text{Market Price} - \text{Production Cost} - \text{Transport Cost}$$
+$$
+\text{Land Rent} = \text{Market Price} - \text{Production Cost} - \text{Transport Cost}
+$$
 
 Crops that are bulky, heavy, or perishable have steeper transport cost gradients and are located
 closer to the market.

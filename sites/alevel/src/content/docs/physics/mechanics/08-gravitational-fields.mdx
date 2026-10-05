@@ -38,7 +38,9 @@ Particle with a force that is:
 1. Directly proportional to the product of their masses
 2. Inversely proportional to the square of the distance between them
 
-$$\boxed{F = \frac{Gm_1 m_2}{r^2}}$$
+$$
+\boxed{F = \frac{Gm_1 m_2}{r^2}}
+$$
 
 Where $G = 6.67 \times 10^{-11}$ N m$^2$ kg$^{-2}$ is the **gravitational constant**.
 
@@ -51,13 +53,17 @@ $1/r^2$. This is the same geometric reason that the intensity of light decreases
 **Definition.** The **gravitational field strength** $g$ at a point is the force per unit mass
 Experienced by a small test mass placed at that point:
 
-$$\boxed{g = \frac{F}{m}}$$
+$$
+\boxed{g = \frac{F}{m}}
+$$
 
 **Units.** N kg$^{-1}$Which is equivalent to m s$^{-2}$.
 
 For a point mass (or spherical body):
 
-$$\boxed{g = \frac{GM}{r^2}}$$
+$$
+\boxed{g = \frac{GM}{r^2}}
+$$
 
 **Proof.** From $F = \frac{GMm}{r^2}$Dividing by $m$: $g = F/m = GM/r^2$. $\square$
 
@@ -72,7 +78,9 @@ $$\boxed{g = \frac{GM}{r^2}}$$
 **Definition.** The **gravitational potential** $V$ at a point is the work done per unit mass in
 Bringing a small test mass from infinity to that point:
 
-$$\boxed{V = -\frac{GM}{r}}$$
+$$
+\boxed{V = -\frac{GM}{r}}
+$$
 
 **Units.** J kg$^{-1}$.
 
@@ -80,11 +88,15 @@ $$\boxed{V = -\frac{GM}{r}}$$
 
 The work done to move a mass $m$ from infinity to distance $r$ from mass $M$:
 
-$$W = \int_{\infty}^{r} F\,dr' = \int_{\infty}^{r} \frac{GMm}{r'^2}\,dr' = GMm\left[-\frac{1}{r'}\right]_{\infty}^{r} = -\frac{GMm}{r}$$
+$$
+W = \int_{\infty}^{r} F\,dr' = \int_{\infty}^{r} \frac{GMm}{r'^2}\,dr' = GMm\left[-\frac{1}{r'}\right]_{\infty}^{r} = -\frac{GMm}{r}
+$$
 
 The potential (work per unit mass) is:
 
-$$V = \frac{W}{m} = -\frac{GM}{r} \quad \square$$
+$$
+V = \frac{W}{m} = -\frac{GM}{r} \quad \square
+$$
 
 **Intuition: Why is gravitational potential negative?** We define $V = 0$ at infinity. To bring a
 Mass from infinity towards $M$Gravity does positive work (the mass accelerates), meaning the System
@@ -94,7 +106,9 @@ negative as you approach the mass.
 
 ### Proof that $g = -\frac{dV}{dr}$
 
-$$-\frac{dV}{dr} = -\frac{d}{dr}\left(-\frac{GM}{r}\right) = -\left(\frac{GM}{r^2}\right) \cdot (-1) = \frac{GM}{r^2} = g \quad \square$$
+$$
+-\frac{dV}{dr} = -\frac{d}{dr}\left(-\frac{GM}{r}\right) = -\left(\frac{GM}{r^2}\right) \cdot (-1) = \frac{GM}{r^2} = g \quad \square
+$$
 
 The negative sign ensures that the field points in the direction of **decreasing** potential
 (towards the mass).
@@ -103,14 +117,18 @@ The negative sign ensures that the field points in the direction of **decreasing
 
 For two masses $M$ and $m$ separated by distance $r$:
 
-$$\boxed{E_p = -\frac{GMm}{r}}$$
+$$
+\boxed{E_p = -\frac{GMm}{r}}
+$$
 
 This is the energy required to separate the masses to infinity (or equivalently, the energy released
 When bringing them together from infinity).
 
 **Connection to $E_p = mgh$ near the surface.** For height $h \ll R_E$:
 
-$$\Delta E_p = -\frac{GMm}{R_E + h} - \left(-\frac{GMm}{R_E}\right) = GMm\left(\frac{1}{R_E} - \frac{1}{R_E + h}\right) = \frac{GMmh}{R_E(R_E + h)} \approx \frac{GMmh}{R_E^2} = mgh$$
+$$
+\Delta E_p = -\frac{GMm}{R_E + h} - \left(-\frac{GMm}{R_E}\right) = GMm\left(\frac{1}{R_E} - \frac{1}{R_E + h}\right) = \frac{GMmh}{R_E(R_E + h)} \approx \frac{GMmh}{R_E^2} = mgh
+$$
 
 Since $g = GM/R_E^2$. This shows that $E_p = mgh$ is the small-height approximation of the full
 Gravitational potential energy.
@@ -133,19 +151,27 @@ Small, $v_\perp$ must be large, and vice versa.
 
 The square of the orbital period is proportional to the cube of the semi-major axis:
 
-$$\boxed{T^2 \propto a^3}$$
+$$
+\boxed{T^2 \propto a^3}
+$$
 
 ### Derivation of Kepler's Third Law (for circular orbits)
 
 For a circular orbit of radius $r$The centripetal force is provided by gravity:
 
-$$\frac{GMm}{r^2} = \frac{mv^2}{r} \implies v^2 = \frac{GM}{r}$$
+$$
+\frac{GMm}{r^2} = \frac{mv^2}{r} \implies v^2 = \frac{GM}{r}
+$$
 
 The period is $T = \frac{2\pi r}{v}$ So $v = \frac{2\pi r}{T}$:
 
-$$\frac{4\pi^2 r^2}{T^2} = \frac{GM}{r}$$
+$$
+\frac{4\pi^2 r^2}{T^2} = \frac{GM}{r}
+$$
 
-$$\boxed{T^2 = \frac{4\pi^2}{GM}r^3}$$
+$$
+\boxed{T^2 = \frac{4\pi^2}{GM}r^3}
+$$
 
 Since $\frac{4\pi^2}{GM}$ is constant for a given central body, $T^2 \propto r^3$.
 $\square$
@@ -159,9 +185,13 @@ Gravitational field (i.e., reach infinity with zero speed).
 $\frac{1}{2}mv_e^2$ and potential energy $-\frac{GMm}{r}$. At infinity, both KE and PE are zero. By
 Conservation of energy:
 
-$$\frac{1}{2}mv_e^2 - \frac{GMm}{r} = 0$$
+$$
+\frac{1}{2}mv_e^2 - \frac{GMm}{r} = 0
+$$
 
-$$\boxed{v_e = \sqrt{\frac{2GM}{r}}}$$
+$$
+\boxed{v_e = \sqrt{\frac{2GM}{r}}}
+$$
 
 For Earth:
 $v_e = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.37 \times 10^6}} = \sqrt{1.25 \times 10^8} \approx 11.2$
@@ -177,15 +207,21 @@ For a satellite of mass $m$ in a circular orbit of radius $r$ around mass $M$:
 
 **Kinetic energy:**
 
-$$E_k = \frac{1}{2}mv^2 = \frac{1}{2}m\frac{GM}{r} = \frac{GMm}{2r}$$
+$$
+E_k = \frac{1}{2}mv^2 = \frac{1}{2}m\frac{GM}{r} = \frac{GMm}{2r}
+$$
 
 **Potential energy:**
 
-$$E_p = -\frac{GMm}{r}$$
+$$
+E_p = -\frac{GMm}{r}
+$$
 
 **Total energy:**
 
-$$\boxed{E_{\mathrm{total}} = E_k + E_p = -\frac{GMm}{2r}}$$
+$$
+\boxed{E_{\mathrm{total}} = E_k + E_p = -\frac{GMm}{2r}}
+$$
 
 **Intuition.** The total energy is negative, the satellite is bound. To move to a higher orbit,
 Energy must be added. The total energy is exactly half the potential energy (and the negative of the
@@ -347,13 +383,17 @@ Energy but is moving slower, the extra energy is in the form of gravitational po
 
 The gravitational field strength decreases with distance from the centre of a planet:
 
-$$g(r) = \frac{GM}{r^2}$$
+$$
+g(r) = \frac{GM}{r^2}
+$$
 
 ### Field Strength at Height $h$ Above the Surface
 
 At a height $h$ above the surface of a planet of radius $R$:
 
-$$\boxed{g_h = \frac{GM}{(R + h)^2} = g_0 \left(\frac{R}{R + h}\right)^2}$$
+$$
+\boxed{g_h = \frac{GM}{(R + h)^2} = g_0 \left(\frac{R}{R + h}\right)^2}
+$$
 
 Where $g_0 = GM/R^2$ is the field strength at the surface.
 
@@ -361,7 +401,9 @@ Where $g_0 = GM/R^2$ is the field strength at the surface.
 
 For $h \ll R$Using the binomial approximation $(1 + h/R)^{-2} \approx 1 - 2h/R$:
 
-$$g_h \approx g_0\left(1 - \frac{2h}{R}\right)$$
+$$
+g_h \approx g_0\left(1 - \frac{2h}{R}\right)
+$$
 
 The fractional decrease is approximately $2h/R$.
 
@@ -385,7 +427,9 @@ $g_{\mathrm{GEO}} = 9.81 \times (6370/42156)^2 = 9.81 \times 0.0228 = 0.224$ N k
 For a uniform sphere of radius $R$ and mass $M$The field strength at distance $r$ from the centre
 ($r \lt R$) is:
 
-$$g(r) = \frac{GM_{\mathrm{enc}}}{r^2} = \frac{G(Mr^3/R^3)}{r^2} = \frac{GM}{R^3}\,r = g_0 \frac{r}{R}$$
+$$
+g(r) = \frac{GM_{\mathrm{enc}}}{r^2} = \frac{G(Mr^3/R^3)}{r^2} = \frac{GM}{R^3}\,r = g_0 \frac{r}{R}
+$$
 
 Where $M_{\mathrm{enc}} = M(r/R)^3$ is the mass enclosed within radius $r$ (shell theorem).
 
@@ -409,26 +453,38 @@ Relative to a point on Earth's surface.
 
 The centripetal acceleration of the satellite is provided by gravity:
 
-$$\frac{GMm}{r^2} = m\omega^2 r$$
+$$
+\frac{GMm}{r^2} = m\omega^2 r
+$$
 
 Where $\omega = 2\pi/T$ and $T = 24 \times 3600 = 86400$ s.
 
-$$\frac{GM}{r^2} = \omega^2 r \implies r^3 = \frac{GM}{\omega^2}$$
+$$
+\frac{GM}{r^2} = \omega^2 r \implies r^3 = \frac{GM}{\omega^2}
+$$
 
-$$\boxed{r = \sqrt[3]{\frac{GM}{\omega^2}}}$$
+$$
+\boxed{r = \sqrt[3]{\frac{GM}{\omega^2}}}
+$$
 
 Substituting $GM = 3.976 \times 10^{14}$ N m$^2$ kg$^{-1}$ and
 $\omega = 2\pi/86400 = 7.272 \times 10^{-5}$ rad s$^{-1}$:
 
-$$r^3 = \frac{3.976 \times 10^{14}}{(7.272 \times 10^{-5})^2} = \frac{3.976 \times 10^{14}}{5.288 \times 10^{-9}} = 7.52 \times 10^{22}$$
+$$
+r^3 = \frac{3.976 \times 10^{14}}{(7.272 \times 10^{-5})^2} = \frac{3.976 \times 10^{14}}{5.288 \times 10^{-9}} = 7.52 \times 10^{22}
+$$
 
-$$r = \sqrt[3]{7.52 \times 10^{22}} = 4.22 \times 10^7 \mathrm{ m} = 42\,200 \mathrm{ km}$$
+$$
+r = \sqrt[3]{7.52 \times 10^{22}} = 4.22 \times 10^7 \mathrm{ m} = 42\,200 \mathrm{ km}
+$$
 
 The altitude above Earth's surface is $h = r - R_E = 42200 - 6370 = 35\,830$ km.
 
 ### Orbital Speed
 
-$$v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{3.976 \times 10^{14}}{4.22 \times 10^7}} = \sqrt{9.42 \times 10^6} = 3070 \mathrm{ m s}^{-1}$$
+$$
+v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{3.976 \times 10^{14}}{4.22 \times 10^7}} = \sqrt{9.42 \times 10^6} = 3070 \mathrm{ m s}^{-1}
+$$
 
 **Verification:** $v = \omega r = (7.272 \times 10^{-5})(4.22 \times 10^7) = 3070$ m s$^{-1}$.
 $\checkmark$
@@ -460,7 +516,9 @@ Circular.
 
 The gravitational potential energy of two masses $M$ and $m$ separated by distance $r$ is:
 
-$$\boxed{E_p = -\frac{GMm}{r}}$$
+$$
+\boxed{E_p = -\frac{GMm}{r}}
+$$
 
 This is negative because the zero of potential energy is defined at infinity ($r \to \infty$). Work
 Must be done against gravity to separate the masses, increasing $E_p$ towards zero.
@@ -469,22 +527,32 @@ Must be done against gravity to separate the masses, increasing $E_p$ towards ze
 
 For a mass at height $h$ above Earth's surface ($r = R_E + h$):
 
-$$E_p(R_E + h) = -\frac{GMm}{R_E + h} = -\frac{GMm}{R_E}\left(1 + \frac{h}{R_E}\right)^{-1}$$
+$$
+E_p(R_E + h) = -\frac{GMm}{R_E + h} = -\frac{GMm}{R_E}\left(1 + \frac{h}{R_E}\right)^{-1}
+$$
 
 For $h \ll R_E$Expand using the binomial series $(1 + x)^{-1} \approx 1 - x + x^2 - \cdots$ with
 $x = h/R_E$:
 
-$$E_p(R_E + h) \approx -\frac{GMm}{R_E}\left(1 - \frac{h}{R_E} + \frac{h^2}{R_E^2} - \cdots\right)$$
+$$
+E_p(R_E + h) \approx -\frac{GMm}{R_E}\left(1 - \frac{h}{R_E} + \frac{h^2}{R_E^2} - \cdots\right)
+$$
 
 The change in potential energy from the surface to height $h$:
 
-$$\Delta E_p = E_p(R_E + h) - E_p(R_E) = -\frac{GMm}{R_E}\left(1 - \frac{h}{R_E}\right) - \left(-\frac{GMm}{R_E}\right)$$
+$$
+\Delta E_p = E_p(R_E + h) - E_p(R_E) = -\frac{GMm}{R_E}\left(1 - \frac{h}{R_E}\right) - \left(-\frac{GMm}{R_E}\right)
+$$
 
-$$\Delta E_p = \frac{GMmh}{R_E^2} = mgh$$
+$$
+\Delta E_p = \frac{GMmh}{R_E^2} = mgh
+$$
 
 Since $g = GM/R_E^2$.
 
-$$\boxed{\Delta E_p = mgh \quad \mathrm{(valid for } h \ll R_E\mathrm{)}}$$
+$$
+\boxed{\Delta E_p = mgh \quad \mathrm{(valid for } h \ll R_E\mathrm{)}}
+$$
 
 **Proof that this is the first-order approximation.** The Taylor expansion gives
 $\Delta E_p = mgh(1 - h/R_E + h^2/R_E^2 - \cdots)$. The leading term is $mgh$ And the correction is
@@ -516,9 +584,13 @@ At the surface of a planet (radius $r$), an object of mass $m$ has:
 
 To just reach infinity with zero speed (the minimum condition for escape):
 
-$$\frac{1}{2}mv_{\mathrm{esc}}^2 - \frac{GMm}{r} = 0$$
+$$
+\frac{1}{2}mv_{\mathrm{esc}}^2 - \frac{GMm}{r} = 0
+$$
 
-$$\boxed{v_{\mathrm{esc}} = \sqrt{\frac{2GM}{r}}}$$
+$$
+\boxed{v_{\mathrm{esc}} = \sqrt{\frac{2GM}{r}}}
+$$
 
 ### Numerical Values
 
@@ -533,7 +605,9 @@ $$\boxed{v_{\mathrm{esc}} = \sqrt{\frac{2GM}{r}}}$$
 
 The circular orbital speed at radius $r$ is $v_{\mathrm{orbit}} = \sqrt{GM/r}$. Comparing:
 
-$$v_{\mathrm{esc}} = \sqrt{2} \, v_{\mathrm{orbit}}$$
+$$
+v_{\mathrm{esc}} = \sqrt{2} \, v_{\mathrm{orbit}}
+$$
 
 The escape velocity is $\sqrt{2} \approx 1.41$ times the circular orbital speed at the same radius.
 This factor of $\sqrt{2}$ arises because escaping requires exactly twice the kinetic energy of a

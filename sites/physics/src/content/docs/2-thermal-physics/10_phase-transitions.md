@@ -31,11 +31,15 @@ derivative of the Gibbs free energy is discontinuous.
 
 For a first-order transition at temperature $T_c$The **latent heat** is:
 
-$$L = T_c \Delta S = T_c \left(S_{\text{phase} 2} - S_{\text{phase} 1}\right)$$
+$$
+L = T_c \Delta S = T_c \left(S_{\text{phase} 2} - S_{\text{phase} 1}\right)
+$$
 
 The **Clausius--Clapeyron equation** governs the slope of the coexistence curve:
 
-$$\frac{dP}{dT} = \frac{L}{T_c \Delta v}$$
+$$
+\frac{dP}{dT} = \frac{L}{T_c \Delta v}
+$$
 
 Where $\Delta v = v_2 - v_1$ is the change in specific volume.
 
@@ -43,25 +47,35 @@ Where $\Delta v = v_2 - v_1$ is the change in specific volume.
 
 The van der Waals equation of state modifies the ideal gas law to account for intermolecular forces:
 
-$$\left(P + \frac{a}{v^2}\right)(v - b) = k_B T$$
+$$
+\left(P + \frac{a}{v^2}\right)(v - b) = k_B T
+$$
 
 Where $a$ accounts for attractive interactions and $b$ for the finite molecular volume. The critical
 point $(T_c, P_c, v_c)$ satisfies:
 
-$$\frac{\partial P}{\partial v}\bigg|_{T_c} = 0, \qquad \frac{\partial^2 P}{\partial v^2}\bigg|_{T_c} = 0$$
+$$
+\frac{\partial P}{\partial v}\bigg|_{T_c} = 0, \qquad \frac{\partial^2 P}{\partial v^2}\bigg|_{T_c} = 0
+$$
 
 Solving gives:
 
-$$T_c = \frac{8a}{27bk_B}, \qquad P_c = \frac{a}{27b^2}, \qquad v_c = 3b$$
+$$
+T_c = \frac{8a}{27bk_B}, \qquad P_c = \frac{a}{27b^2}, \qquad v_c = 3b
+$$
 
 Near the critical point, define the **reduced variables** $\tilde{T} = T/T_c$, $\tilde{P} = P/P_c$,
 $\tilde{v} = v/v_c$ to obtain the universal form:
 
-$$\left(\tilde{P} + \frac{3}{\tilde{v}^2}\right)(3\tilde{v} - 1) = 8\tilde{T}$$
+$$
+\left(\tilde{P} + \frac{3}{\tilde{v}^2}\right)(3\tilde{v} - 1) = 8\tilde{T}
+$$
 
 The **order parameter** $\phi = (v_{\text{gas} - v_{\text{liquid})/(v_c)}}$ vanishes as:
 
-$$\phi \propto (T_c - T)^{\beta}$$
+$$
+\phi \propto (T_c - T)^{\beta}
+$$
 
 Where $\beta = 1/2$ is the **mean-field critical exponent** (van der Waals prediction).
 
@@ -85,7 +99,9 @@ Where $t = (T - T_c)/T_c$ is the reduced temperature and $h$ is the conjugate fi
 For the water--steam transition at 1 atm, $T_c = 373.15$ K, $L = 2260$ kJ/kg,
 $v_{\text{steam} = 1.673}$ m$^3$/kg, $v_{\text{water} = 1.043 \times 10^{-3}}$ m$^3$/kg.
 
-$$\frac{dP}{dT} = \frac{L}{T \Delta v} = \frac{2.26 \times 10^6}{373.15 \times 1.673} = \frac{2.26 \times 10^6}{624.3} \approx 3620 \text{ Pa/K} \approx 0.0357 \text{ atm/K}$$
+$$
+\frac{dP}{dT} = \frac{L}{T \Delta v} = \frac{2.26 \times 10^6}{373.15 \times 1.673} = \frac{2.26 \times 10^6}{624.3} \approx 3620 \text{ Pa/K} \approx 0.0357 \text{ atm/K}
+$$
 
 This means increasing the boiling temperature by 1 K requires increasing the pressure by about 0.036
 atm.
@@ -98,9 +114,13 @@ atm.
 For CO$_2$, $a = 0.364$ Pa$\cdot$M$^6$/mol$^2$, $b = 4.27 \times 10^{-5}$ m$^3$/mol. Using the
 critical point formulas:
 
-$$T_c = \frac{8a}{27Rb} = \frac{8 \times 0.364}{27 \times 8.314 \times 4.27 \times 10^{-5}} = \frac{2.912}{9.585 \times 10^{-3}} \approx 303.7 \text{ K}$$
+$$
+T_c = \frac{8a}{27Rb} = \frac{8 \times 0.364}{27 \times 8.314 \times 4.27 \times 10^{-5}} = \frac{2.912}{9.585 \times 10^{-3}} \approx 303.7 \text{ K}
+$$
 
-$$P_c = \frac{a}{27b^2} = \frac{0.364}{27 \times (4.27 \times 10^{-5})^2} = \frac{0.364}{4.923 \times 10^{-8}} \approx 7.40 \times 10^6 \text{ Pa} = 74.0 \text{ atm}$$
+$$
+P_c = \frac{a}{27b^2} = \frac{0.364}{27 \times (4.27 \times 10^{-5})^2} = \frac{0.364}{4.923 \times 10^{-8}} \approx 7.40 \times 10^6 \text{ Pa} = 74.0 \text{ atm}
+$$
 
 The experimental values are $T_c = 304.3$ K and $P_c = 73.8$ atm, showing good agreement.
 
@@ -117,15 +137,21 @@ The experimental values are $T_c = 304.3$ K and $P_c = 73.8$ atm, showing good a
 
 Near a second-order transition, the free energy can be expanded as a power series in the order parameter $\phi$:
 
-$$F(T, \phi) = F_0(T) + a(T)\phi^2 + b(T)\phi^4 + \cdots$$
+$$
+F(T, \phi) = F_0(T) + a(T)\phi^2 + b(T)\phi^4 + \cdots
+$$
 
 For $T > T_c$, $a(T) > 0$ and the minimum is at $\phi = 0$. For $T < T_c$, $a(T) < 0$ and the minima are at $\phi = \pm \sqrt{-a/(2b)}$. The simplest choice is $a(T) = a_0(T - T_c)$ with $a_0 > 0$, giving:
 
-$$\phi = \pm \sqrt{\frac{a_0}{2b}(T_c - T)^{1/2}} \propto (T_c - T)^\beta$$
+$$
+\phi = \pm \sqrt{\frac{a_0}{2b}(T_c - T)^{1/2}} \propto (T_c - T)^\beta
+$$
 
 with $\beta = 1/2$, recovering the mean-field result. The free energy at the minimum is:
 
-$$F(T) = F_0(T) - \frac{a_0^2}{4b}(T_c - T)^2$$
+$$
+F(T) = F_0(T) - \frac{a_0^2}{4b}(T_c - T)^2
+$$
 
 The heat capacity jumps at $T_c$: $\Delta C = \frac{a_0^2 T_c}{2b}$, which is the mean-field prediction $\alpha = 0$.
 
@@ -133,11 +159,15 @@ The heat capacity jumps at $T_c$: $\Delta C = \frac{a_0^2 T_c}{2b}$, which is th
 
 The Clausius-Clapeyron equation can be integrated if $L$ and $\Delta v$ are treated as approximately constant over a small temperature range:
 
-$$P(T) = P_0 + \frac{L}{\Delta v}\ln\left(\frac{T}{T_0}\right)$$
+$$
+P(T) = P_0 + \frac{L}{\Delta v}\ln\left(\frac{T}{T_0}\right)
+$$
 
 For water near $100^\circ$C, using $L = 2.26 \times 10^6$ J/kg, $\Delta v = 1.672$ m$^3$/kg, $T_0 = 373.15$ K, $P_0 = 1.013 \times 10^5$ Pa:
 
-$$P(T) \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln\left(\frac{T}{373.15}\right) \text{ Pa}$$
+$$
+P(T) \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln\left(\frac{T}{373.15}\right) \text{ Pa}
+$$
 
 At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln(1.00268) \approx 1.049 \times 10^5$ Pa, or about 1.036 atm, consistent with the linear approximation of 0.036 atm/K.
 

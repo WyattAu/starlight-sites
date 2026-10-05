@@ -3192,7 +3192,9 @@ intercalate ", " ["a", "b", "c"]  -- => "a, b, c"
 
 The relationship between these three type classes is:
 
-$$\text{Functor} \subset \text{Applicative} \subset \text{Monad}$$
+$$
+\text{Functor} \subset \text{Applicative} \subset \text{Monad}
+$$
 
 Every `Monad` is an `Applicative`and every `Applicative` is a `Functor`. However, there are useful
 types that are `Functor` or `Applicative` but not `Monad`:

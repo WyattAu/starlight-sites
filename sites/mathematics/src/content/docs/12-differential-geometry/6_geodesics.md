@@ -24,7 +24,9 @@ $\nabla_{\dot{\gamma}} \dot{\gamma} = 0$.
 
 In local coordinates, the geodesic equation is:
 
-$$\ddot{\gamma}^k + \Gamma^k_{ij}\, \dot{\gamma}^i \dot{\gamma}^j = 0$$
+$$
+\ddot{\gamma}^k + \Gamma^k_{ij}\, \dot{\gamma}^i \dot{\gamma}^j = 0
+$$
 
 This is a second-order ODE, so geodesics exist and are unique given an initial point and velocity.
 
@@ -61,7 +63,9 @@ all time (i.e., on $\mathbb{R}$).
 A **Jacobi field** $J(t)$ along a geodesic $\gamma$ is a vector field that satisfies the **Jacobi
 equation**:
 
-$$\frac{D^2}{dt^2} J(t) + R(J(t), \dot{\gamma}(t)) \dot{\gamma}(t) = 0$$
+$$
+\frac{D^2}{dt^2} J(t) + R(J(t), \dot{\gamma}(t)) \dot{\gamma}(t) = 0
+$$
 
 Jacobi fields describe the variation of nearby geodesics. They measure how geodesics spread apart
 or come together under the influence of curvature.
@@ -84,7 +88,9 @@ the curve, demonstrating that $\gamma$ is not a local minimum of length. $\black
 
 The **geodesic deviation equation** describes the relative acceleration of nearby geodesics:
 
-$$\frac{D^2}{dt^2} J^i = -R^i_{\,jkl} \dot{\gamma}^j J^k \dot{\gamma}^l$$
+$$
+\frac{D^2}{dt^2} J^i = -R^i_{\,jkl} \dot{\gamma}^j J^k \dot{\gamma}^l
+$$
 
 as a rule relativity, this is the equation of **geodesic deviation** that governs tidal forces.
 For a congruence of timelike geodesics in the standard model of cosmology, it gives the relative acceleration of nearby test particles.
@@ -106,7 +112,9 @@ $\varphi = \exp_p^{-1} : U \to T_p M \cong \mathbb{R}^n$. In these coordinates:
 **Lemma 6.6 (Gauss Lemma).** For $v \in T_p M$, $\exp_p$ is a radial isometry: for any
 $w \in T_v(T_p M) \cong T_p M$:
 
-$$\langle d(\exp_p)_v(v), d(\exp_p)_v(w) \rangle = \langle v, w \rangle$$
+$$
+\langle d(\exp_p)_v(v), d(\exp_p)_v(w) \rangle = \langle v, w \rangle
+$$
 
 **Corollary.** Geodesics are locally length-minimizing: for $v$ sufficiently small,
 $\gamma(t) = \exp_p(tv)$ is the unique shortest curve from $p$ to $\exp_p(v)$.
@@ -133,7 +141,9 @@ exponential map $\exp_p$ is a covering map for every $p \in M$ (Cartan-Hadamard 
 
 Geodesics can also be characterized as critical points of the **energy functional**:
 
-$$E(\gamma) = \frac{1}{2} \int_a^b \|\dot{\gamma}(t)\|^2\, dt$$
+$$
+E(\gamma) = \frac{1}{2} \int_a^b \|\dot{\gamma}(t)\|^2\, dt
+$$
 
 The Euler-Lagrange equations for $E$ give the geodesic equation. The length functional
 $L(\gamma) = \int_a^b \|\dot{\gamma}(t)\|\, dt$ has the same critical points but is
@@ -143,14 +153,18 @@ parametrization-independent.
 
 **First variation formula:**
 
-$$\left.\frac{d}{ds}\right|_{s=0} E(\gamma_s) = -\int_a^b \langle V(t), \nabla_{\dot{\gamma}}\dot{\gamma}\rangle\, dt - \sum_i \langle V(t_i), \Delta\dot{\gamma}(t_i)\rangle$$
+$$
+\left.\frac{d}{ds}\right|_{s=0} E(\gamma_s) = -\int_a^b \langle V(t), \nabla_{\dot{\gamma}}\dot{\gamma}\rangle\, dt - \sum_i \langle V(t_i), \Delta\dot{\gamma}(t_i)\rangle
+$$
 
 where $V(t)$ is the variation field and $\Delta\dot{\gamma}$ is the jump discontinuity at
 break points.
 
 **Second variation formula:**
 
-$$\left.\frac{d^2}{ds^2}\right|_{s=0} E(\gamma_s) = \int_a^b \left(\left\|\frac{DV}{dt}\right\|^2 - \langle R(V, \dot{\gamma})\dot{\gamma}, V\rangle\right) dt + \text{boundary terms}$$
+$$
+\left.\frac{d^2}{ds^2}\right|_{s=0} E(\gamma_s) = \int_a^b \left(\left\|\frac{DV}{dt}\right\|^2 - \langle R(V, \dot{\gamma})\dot{\gamma}, V\rangle\right) dt + \text{boundary terms}
+$$
 
 The second variation is used to study stability of geodesics and to prove that conjugate points
 indicate loss of minimizing property.
@@ -177,7 +191,9 @@ The equation $\ddot\gamma^k + \Gamma^k_{ij}\dot\gamma^i\dot\gamma^j = 0$ require
 On a surface of constant curvature $K$, the area of a geodesic triangle with interior angles
 $\alpha, \beta, \gamma$ is:
 
-$$K \cdot \text{Area} = \alpha + \beta + \gamma - \pi$$
+$$
+K \cdot \text{Area} = \alpha + \beta + \gamma - \pi
+$$
 
 - On $S^2$ ($K = 1$): sum of angles $> \pi$, area $= \alpha + \beta + \gamma - \pi$.
 - On $\mathbb{H}^2$ ($K = -1$): sum of angles $< \pi$, area $= \pi - (\alpha + \beta + \gamma)$.

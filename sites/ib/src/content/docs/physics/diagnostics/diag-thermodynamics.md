@@ -56,16 +56,22 @@ fundamental law of nature." Refute this claim.
 
 (a) **Ideal gas:**
 
-$$PV = nRT \Rightarrow V = \frac{nRT}{P} = \frac{2.0 \times 8.314 \times 300}{100 \times 1.013 \times 10^5}$$
+$$
+PV = nRT \Rightarrow V = \frac{nRT}{P} = \frac{2.0 \times 8.314 \times 300}{100 \times 1.013 \times 10^5}
+$$
 
-$$V = \frac{4988.4}{1.013 \times 10^7} = 4.92 \times 10^{-4}\,\text{m}^3 = 0.492\,\text{L}$$
+$$
+V = \frac{4988.4}{1.013 \times 10^7} = 4.92 \times 10^{-4}\,\text{m}^3 = 0.492\,\text{L}
+$$
 
 **Van der Waals equation:** $\left(P + \frac{an^2}{V^2}\right)(V - nb) = nRT$
 
 This must be solved numerically. Substituting
 $P = 1.013 \times 10^7\,\text{Pa}$$n = 2.0$$T = 300\,\text{K}$:
 
-$$\left(1.013 \times 10^7 + \frac{0.137 \times 4.0}{V^2}\right)(V - 7.74 \times 10^{-5}) = 4988.4$$
+$$
+\left(1.013 \times 10^7 + \frac{0.137 \times 4.0}{V^2}\right)(V - 7.74 \times 10^{-5}) = 4988.4
+$$
 
 By iterative solution, $V \approx 4.60 \times 10^{-4}\,\text{m}^3 = 0.460\,\text{L}$.
 
@@ -148,7 +154,9 @@ $Q = W$ (all heat input equals work output, or vice versa)
 
 Work done on the gas (compression):
 
-$$W_{\text{on}} = nRT\ln\frac{V_2}{V_1} = P_2V_2\ln\frac{V_2}{V_1}$$
+$$
+W_{\text{on}} = nRT\ln\frac{V_2}{V_1} = P_2V_2\ln\frac{V_2}{V_1}
+$$
 
 We need $P_2$ at the start of process B. From process A, the final state has
 $V_2 = 5.0 \times 10^{-3}\,\text{m}^3$ and $P = 2.0 \times 10^5\,\text{Pa}$. We need the
@@ -168,9 +176,13 @@ $T_B = P_B V_B/(nR) = 2.0 \times 10^5 \times 5.0 \times 10^{-3}/(nR)$
 
 The work done on the gas during isothermal compression:
 
-$$W_{\text{on}} = nRT_B\ln(V_2/V_1) = P_BV_B\ln(5.0/2.0) = 2.0 \times 10^5 \times 5.0 \times 10^{-3} \times \ln(2.5)$$
+$$
+W_{\text{on}} = nRT_B\ln(V_2/V_1) = P_BV_B\ln(5.0/2.0) = 2.0 \times 10^5 \times 5.0 \times 10^{-3} \times \ln(2.5)
+$$
 
-$$= 1000 \times 0.916 = 916\,\text{J}$$
+$$
+= 1000 \times 0.916 = 916\,\text{J}
+$$
 
 Since $\Delta U = 0$: $Q = W = 916\,\text{J}$ of heat must be **removed** from the gas (negative $Q$
 in the first law convention).
@@ -271,25 +283,37 @@ Final volume: $V_2 = 2V_1 = 4.989 \times 10^{-2}\,\text{m}^3$
 
 Adiabatic relation: $T_1V_1^{\gamma - 1} = T_2V_2^{\gamma - 1}$
 
-$$T_2 = T_1\left(\frac{V_1}{V_2}\right)^{\gamma - 1} = 400 \times \left(\frac{1}{2}\right)^{2/3} = 400 \times 0.6300 = 252\,\text{K}$$
+$$
+T_2 = T_1\left(\frac{V_1}{V_2}\right)^{\gamma - 1} = 400 \times \left(\frac{1}{2}\right)^{2/3} = 400 \times 0.6300 = 252\,\text{K}
+$$
 
 Adiabatic relation: $P_1V_1^\gamma = P_2V_2^\gamma$
 
-$$P_2 = P_1\left(\frac{V_1}{V_2}\right)^\gamma = 4.0 \times 10^5 \times \left(\frac{1}{2}\right)^{5/3} = 4.0 \times 10^5 \times 0.3150 = 1.26 \times 10^5\,\text{Pa}$$
+$$
+P_2 = P_1\left(\frac{V_1}{V_2}\right)^\gamma = 4.0 \times 10^5 \times \left(\frac{1}{2}\right)^{5/3} = 4.0 \times 10^5 \times 0.3150 = 1.26 \times 10^5\,\text{Pa}
+$$
 
 (b) For an adiabatic process, $Q = 0$ So $W = -\Delta U$:
 
-$$\Delta U = nC_v(T_2 - T_1) = 3.0 \times \frac{3}{2}R \times (252 - 400)$$
+$$
+\Delta U = nC_v(T_2 - T_1) = 3.0 \times \frac{3}{2}R \times (252 - 400)
+$$
 
-$$= 3.0 \times 12.471 \times (-148) = -5537\,\text{J}$$
+$$
+= 3.0 \times 12.471 \times (-148) = -5537\,\text{J}
+$$
 
 Work done by gas: $W = -\Delta U = 5537\,\text{J}$
 
 (c) Isothermal expansion to double volume:
 
-$$W = nRT_1\ln\frac{V_2}{V_1} = 3.0 \times 8.314 \times 400 \times \ln 2$$
+$$
+W = nRT_1\ln\frac{V_2}{V_1} = 3.0 \times 8.314 \times 400 \times \ln 2
+$$
 
-$$= 9976.8 \times 0.6931 = 6915\,\text{J}$$
+$$
+= 9976.8 \times 0.6931 = 6915\,\text{J}
+$$
 
 The isothermal work ($6915\,\text{J}$) is greater than the adiabatic work ($5537\,\text{J}$). This
 is because in the adiabatic case, the gas cools as it expands, reducing the pressure and therefore
@@ -430,7 +454,9 @@ $m = 6.63 \times 10^{-26}\,\text{kg}$.
 (b) RMS speed: $v_{\text{rms}} = \sqrt{\frac{3RT}{M}}$ where
 $M = m \times N_A = 6.63 \times 10^{-26} \times 6.022 \times 10^{23} = 0.0399\,\text{kg}\,\text{mol}^{-1}$
 
-$$v_{\text{rms}} = \sqrt{\frac{3 \times 8.314 \times 350}{0.0399}} = \sqrt{\frac{8729.7}{0.0399}} = \sqrt{218793} = 468\,\text{m}\,\text{s}^{-1}$$
+$$
+v_{\text{rms}} = \sqrt{\frac{3 \times 8.314 \times 350}{0.0399}} = \sqrt{\frac{8729.7}{0.0399}} = \sqrt{218793} = 468\,\text{m}\,\text{s}^{-1}
+$$
 
 Average KE per molecule:
 $\langle E_k \rangle = \frac{3}{2}k_BT = \frac{3}{2} \times 1.381 \times 10^{-23} \times 350 = 7.25 \times 10^{-21}\,\text{J}$
@@ -443,7 +469,9 @@ at constant $V$.
 Change in internal energy:
 $\Delta U = nC_v\Delta T = 0.40 \times \frac{3}{2} \times 8.314 \times (700 - 350)$
 
-$$= 0.40 \times 12.471 \times 350 = 1746\,\text{J}$$
+$$
+= 0.40 \times 12.471 \times 350 = 1746\,\text{J}
+$$
 
 New RMS speed:
 $v_{\text{rms}}' = \sqrt{\frac{3 \times 8.314 \times 700}{0.0399}} = \sqrt{437586} = 661\,\text{m}\,\text{s}^{-1}$

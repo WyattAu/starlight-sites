@@ -37,7 +37,9 @@ a Basis for expansion.
 **Postulate 3 (Measurement).** A measurement of observable $\hat{A}$ yields one of the eigenvalues
 $a_n$ of $\hat{A}$. The probability of measuring $a_n$ when the system is in state $|\psi\rangle$ is
 
-$$P(a_n) = |\langle a_n | \psi \rangle|^2$$
+$$
+P(a_n) = |\langle a_n | \psi \rangle|^2
+$$
 
 Where $|a_n\rangle$ is the eigenstate corresponding to $a_n$. After measurement, the state collapses
 To $|a_n\rangle$.
@@ -50,7 +52,9 @@ particle detections.
 **Postulate 4 (Time Evolution).** The time evolution of the state is governed by the
 **time-dependent Schrodinger equation**:
 
-$$i\hbar \frac{\partial}{\partial t}|\psi(t)\rangle = \hat{H}|\psi(t)\rangle$$
+$$
+i\hbar \frac{\partial}{\partial t}|\psi(t)\rangle = \hat{H}|\psi(t)\rangle
+$$
 
 Where $\hat{H}$ is the Hamiltonian (energy operator).
 
@@ -106,7 +110,9 @@ Provides a more general description than the state vector.
 $\hat{\rho} = |\psi\rangle\langle\psi|$. For a statistical mixture of states $|\psi_i\rangle$ with
 probabilities $p_i$:
 
-$$\hat{\rho} = \sum_i p_i\,|\psi_i\rangle\langle\psi_i|$$
+$$
+\hat{\rho} = \sum_i p_i\,|\psi_i\rangle\langle\psi_i|
+$$
 
 **Properties:**
 

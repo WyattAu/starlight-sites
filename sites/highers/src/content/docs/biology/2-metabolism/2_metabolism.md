@@ -72,7 +72,9 @@ Widely accepted.
 The relationship between enzyme activity and substrate concentration is described by the
 Michaelis-Menten equation:
 
-$$v = \frac{V_{\max}[S]}{K_m + [S]}$$
+$$
+v = \frac{V_{\max}[S]}{K_m + [S]}
+$$
 
 Where:
 
@@ -88,7 +90,9 @@ Where:
 
 **Lineweaver-Burk plot:** A double reciprocal plot of $1/v$ vs. $1/[S]$:
 
-$$\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}$$
+$$
+\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}
+$$
 
 - Y-intercept: $1/V_{\max}$
 - X-intercept: $-1/K_m$
@@ -135,7 +139,9 @@ Glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$) is broken down to two molecules
 
 Pyruvate is decarboxylated and dehydrogenated:
 
-$$\mathrm{Pyruvate + \mathrm{NAD^+ + \mathrm{CoA \to \mathrm{Acetyl-CoA + \mathrm{CO_2 + \mathrm{NADH$$
+$$
+\mathrm{Pyruvate + \mathrm{NAD^+ + \mathrm{CoA \to \mathrm{Acetyl-CoA + \mathrm{CO_2 + \mathrm{NADH
+$$
 
 (Per glucose: 2 $\mathrm{CO_2$2 NADH)
 
@@ -693,7 +699,9 @@ Transpirational water loss. This is why CAM plants dominate in arid environments
 During intense exercise, oxygen supply to muscle cells may be insufficient for aerobic respiration.
 Muscle cells switch to anaerobic respiration:
 
-$$\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{lactate + 2 \mathrm{ATP$$
+$$
+\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{lactate + 2 \mathrm{ATP
+$$
 
 Pyruvate is reduced to lactate by the enzyme lactate dehydrogenase (LDH), which regenerates
 $\mathrm{NAD^+$ from NADH. This allows glycolysis to continue producing ATP even in the absence of
@@ -707,7 +715,9 @@ Which is why breathing rate remains elevated after exercise (to repay the oxygen
 
 **Alcoholic fermentation in yeast:**
 
-$$\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{ethanol + 2 \mathrm{CO_2 + 2 \mathrm{ATP$$
+$$
+\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{ethanol + 2 \mathrm{CO_2 + 2 \mathrm{ATP
+$$
 
 Pyruvate is decarboxylated to acetaldehyde (by pyruvate decarboxylase) and then reduced to ethanol
 (by alcohol dehydrogenase). This regenerates $\mathrm{NAD^+$ for glycolysis. Alcoholic fermentation

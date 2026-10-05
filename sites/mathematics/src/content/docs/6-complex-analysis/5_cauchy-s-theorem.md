@@ -22,11 +22,15 @@ description: "If is analytic on a connected domain and Is a simple closed contou
 **Theorem 5.1 (Cauchy"s Theorem).** If $f$ is analytic on a connected domain $D$ and $\gamma$ Is a
 simple closed contour in $D$ Then
 
-$$\int_\gamma f(z)\, dz = 0$$
+$$
+\int_\gamma f(z)\, dz = 0
+$$
 
 _Proof (for $f'$ continuous)._ By Green’s theorem in the plane, writing $f = u + iv$:
 
-$$\int_\gamma f\, dz = \int_\gamma (u\, dx - v\, dy) + i\int_\gamma (v\, dx + u\, dy)$$
+$$
+\int_\gamma f\, dz = \int_\gamma (u\, dx - v\, dy) + i\int_\gamma (v\, dx + u\, dy)
+$$
 
 Applying Green's theorem to each integral:
 
@@ -53,7 +57,9 @@ $\int_{z_0}^{z_1} f(z)\, dz$ is independent of the path from $z_0$ to $z_1$ in $
 **Theorem 5.3.** If $f$ is analytic on a connected domain $D$ Then $f$ has an antiderivative $F$ in
 $D$ (i.e., $F'(z) = f(z)$), and
 
-$$\int_\gamma f(z)\, dz = F(z_1) - F(z_0)$$
+$$
+\int_\gamma f(z)\, dz = F(z_1) - F(z_0)
+$$
 
 Where $z_0$ and $z_1$ are the endpoints of $\gamma$.
 
@@ -64,7 +70,9 @@ $\gamma, \gamma_1, \ldots, \gamma_n$ where $\gamma_1, \ldots, \gamma_n$ Lie in t
 $\gamma$ and the region between $\gamma$ and the $\gamma_k$ is contained in $D$ And all contours are
 positively oriented, then
 
-$$\int_\gamma f(z)\, dz = \sum_{k=1}^n \int_{\gamma_k} f(z)\, dz$$
+$$
+\int_\gamma f(z)\, dz = \sum_{k=1}^n \int_{\gamma_k} f(z)\, dz
+$$
 
 ### 5.6 Deformation of Contours
 
@@ -72,7 +80,9 @@ $$\int_\gamma f(z)\, dz = \sum_{k=1}^n \int_{\gamma_k} f(z)\, dz$$
 Closed contours $\gamma_1$ and $\gamma_2$ where one can be continuously deformed into the other
 Within the domain of analyticity of $f$ Then
 
-$$\int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz$$
+$$
+\int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz
+$$
 
 _Proof._ This follows directly from Theorem 5.4 applied to the region between $\gamma_1$ and
 $\gamma_2$. $\blacksquare$
@@ -120,11 +130,15 @@ $\int_\gamma \frac{dz}{z^2 - 1} = \frac{1}{2}(2\pi i - 2\pi i) = 0$.
 
 **Solution.** Let $z = e^{i\theta}$, so $d\theta = dz/(iz)$ and $\cos\theta = (z + z^{-1})/2$.
 
-$$I = \oint_{|z|=1} \frac{1}{2 + (z + z^{-1})/2} \cdot \frac{dz}{iz} = \oint_{|z|=1} \frac{2}{4z + z^2 + 1} \cdot \frac{dz}{i} = \frac{2}{i} \oint_{|z|=1} \frac{dz}{z^2 + 4z + 1}$$
+$$
+I = \oint_{|z|=1} \frac{1}{2 + (z + z^{-1})/2} \cdot \frac{dz}{iz} = \oint_{|z|=1} \frac{2}{4z + z^2 + 1} \cdot \frac{dz}{i} = \frac{2}{i} \oint_{|z|=1} \frac{dz}{z^2 + 4z + 1}
+$$
 
 The denominator factors as $(z + 2 - \sqrt{3})(z + 2 + \sqrt{3})$. Only the root $z = -2 + \sqrt{3}$ lies inside $|z| = 1$. By Cauchy's theorem applied to the directly connected region after deformation:
 
-$$I = \frac{2}{i} \cdot 2\pi i \cdot \operatorname{Res}_{z=-2+\sqrt{3}} \frac{1}{z^2 + 4z + 1} = 4\pi \cdot \frac{1}{2\sqrt{3}} = \frac{2\pi}{\sqrt{3}}$$
+$$
+I = \frac{2}{i} \cdot 2\pi i \cdot \operatorname{Res}_{z=-2+\sqrt{3}} \frac{1}{z^2 + 4z + 1} = 4\pi \cdot \frac{1}{2\sqrt{3}} = \frac{2\pi}{\sqrt{3}}
+$$
 
 ## Worked Example: Branch Cut Integration
 
@@ -132,11 +146,15 @@ $$I = \frac{2}{i} \cdot 2\pi i \cdot \operatorname{Res}_{z=-2+\sqrt{3}} \frac{1}
 
 **Solution.** Consider $f(z) = \frac{\sqrt{z}}{z^2 + 1}$ with a branch cut along the positive real axis. Integrate around a keyhole contour $\gamma$ consisting of $C_R$ (large circle radius $R$), $C_\varepsilon$ (small circle radius $\varepsilon$), and two straight segments just above and below the cut. On the upper segment, $\sqrt{z} = \sqrt{x}$; on the lower segment, $\sqrt{z} = -\sqrt{x}$ (due to the $2\pi$ phase change). By Cauchy's theorem:
 
-$$\int_\gamma f(z)\,dz = 2\pi i \left(\operatorname{Res}_{z=i} f(z) + \operatorname{Res}_{z=-i} f(z)\right)$$
+$$
+\int_\gamma f(z)\,dz = 2\pi i \left(\operatorname{Res}_{z=i} f(z) + \operatorname{Res}_{z=-i} f(z)\right)
+$$
 
 As $R \to \infty$ and $\varepsilon \to 0$, the circular contributions vanish, leaving:
 
-$$2\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = 2\pi i \left(\frac{\sqrt{i}}{2i} + \frac{\sqrt{-i}}{-2i}\right) = \frac{\pi}{\sqrt{2}}$$
+$$
+2\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = 2\pi i \left(\frac{\sqrt{i}}{2i} + \frac{\sqrt{-i}}{-2i}\right) = \frac{\pi}{\sqrt{2}}
+$$
 
 Hence $\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = \frac{\pi}{\sqrt{2}}$.
 

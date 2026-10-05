@@ -70,7 +70,9 @@ Cathode (reduction): $\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}$
 
 Overall: $\text{Zn} + \text{Cu}^{2+} \rightarrow \text{Zn}^{2+} + \text{Cu}$
 
-$$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 0.34 - (-0.76) = 1.10 \text{ V}$$
+$$
+E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 0.34 - (-0.76) = 1.10 \text{ V}
+$$
 
 **Common mistake:** Forgetting to subtract the anode potential. The formula is $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$, not directly the sum of the two potentials.
 
@@ -81,13 +83,19 @@ $$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 0.
 **Solution:**
 
 The Nernst equation at 298 K:
-$$E = E^\circ - \frac{0.0592}{n} \log Q$$
+$$
+E = E^\circ - \frac{0.0592}{n} \log Q
+$$
 
 For the reaction: $\text{Zn} + \text{Cu}^{2+} \rightarrow \text{Zn}^{2+} + \text{Cu}$
 
-$$Q = \frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]} = \frac{0.01}{1.0} = 0.01$$
+$$
+Q = \frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]} = \frac{0.01}{1.0} = 0.01
+$$
 
-$$E = 1.10 - \frac{0.0592}{2} \log(0.01) = 1.10 - 0.0296 \times (-2) = 1.10 + 0.0592 = 1.159 \text{ V}$$
+$$
+E = 1.10 - \frac{0.0592}{2} \log(0.01) = 1.10 - 0.0296 \times (-2) = 1.10 + 0.0592 = 1.159 \text{ V}
+$$
 
 **Common mistake:** Using $n = 1$ instead of $n = 2$. The number of electrons transferred in the balanced equation is 2, so $n = 2$.
 
@@ -98,13 +106,19 @@ $$E = 1.10 - \frac{0.0592}{2} \log(0.01) = 1.10 - 0.0296 \times (-2) = 1.10 + 0.
 **Solution:**
 
 Moles of Cu deposited:
-$$n = \frac{2.0}{63.5} = 0.0315 \text{ mol}$$
+$$
+n = \frac{2.0}{63.5} = 0.0315 \text{ mol}
+$$
 
 Charge required (Cu$^{2+}$ + 2e$^-$ → Cu, so 2 mol e$^-$ per mol Cu):
-$$Q = n \times 2 \times F = 0.0315 \times 2 \times 96{,}485 = 6{,}078 \text{ C}$$
+$$
+Q = n \times 2 \times F = 0.0315 \times 2 \times 96{,}485 = 6{,}078 \text{ C}
+$$
 
 Time:
-$$t = \frac{Q}{I} = \frac{6{,}078}{2.0} = 3{,}039 \text{ s} \approx 50.6 \text{ min}$$
+$$
+t = \frac{Q}{I} = \frac{6{,}078}{2.0} = 3{,}039 \text{ s} \approx 50.6 \text{ min}
+$$
 
 **Common mistake:** Forgetting that copper is deposited as Cu$^{2+}$, requiring 2 electrons per atom. Using $n = 1$ gives double the correct answer.
 
@@ -136,10 +150,14 @@ $$t = \frac{Q}{I} = \frac{6{,}078}{2.0} = 3{,}039 \text{ s} \approx 50.6 \text{ 
 **Solution:**
 
 At the cathode: Cu$^{2+}$ is preferentially reduced over H$^+$ because Cu$^{2+}$ has a higher reduction potential.
-$$\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}$$
+$$
+\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}
+$$
 
 At the anode: OH$^-$ from water is oxidized (SO$_4^{2-}$ is not oxidized).
-$$2\text{H}_2\text{O} \rightarrow \text{O}_2 + 4\text{H}^+ + 4e^-$$
+$$
+2\text{H}_2\text{O} \rightarrow \text{O}_2 + 4\text{H}^+ + 4e^-
+$$
 
 Charge passed: $Q = It = 2.0 \times 30 \times 60 = 3{,}600$ C
 
@@ -171,11 +189,15 @@ Molar conductivity: $\Lambda_m = \frac{\kappa}{c} = \frac{1.42 \times 10^{-3}}{0
 
 **Solution:**
 
-$$\Delta G = -nFE_{\text{cell}}$$
+$$
+\Delta G = -nFE_{\text{cell}}
+$$
 
 $n = 2$ (2 electrons transferred), $F = 96{,}485$ C/mol
 
-$$\Delta G = -2 \times 96{,}485 \times 1.10 = -212{,}267 \text{ J/mol} \approx -212.3 \text{ kJ/mol}$$
+$$
+\Delta G = -2 \times 96{,}485 \times 1.10 = -212{,}267 \text{ J/mol} \approx -212.3 \text{ kJ/mol}
+$$
 
 Since $\Delta G < 0$, the reaction is spontaneous.
 

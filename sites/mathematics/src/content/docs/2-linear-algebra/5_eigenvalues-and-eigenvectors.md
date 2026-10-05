@@ -22,7 +22,9 @@ description: 'Let . A scalar is an of if there Exists a non-zero vector such tha
 Let $A \in \mathcal{M}_{n \times n}(F)$. A scalar $\lambda \in F$ is an **eigenvalue** of $A$ if
 there Exists a non-zero vector $\mathbf{v} \in F^n$ such that
 
-$$A\mathbf{v} = \lambda \mathbf{v}$$
+$$
+A\mathbf{v} = \lambda \mathbf{v}
+$$
 
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
@@ -49,7 +51,9 @@ $\\lambda_i$.
 **Definition.** $A$ is **diagonalisable** if there exists an invertible matrix $P$ and a diagonal
 Matrix $D$ such that
 
-$$A = PDP^{-1}$$
+$$
+A = PDP^{-1}
+$$
 
 **Theorem 5.3.** $A \in \mathcal{M}_{n \times n}(F)$ is diagonalisable (over $F$) if and only if $A$
 has $n$ linearly independent Eigenvectors (over $F$). Equivalently, the sum of the geometric
@@ -73,11 +77,15 @@ $\mathrm{adj}(\lambda I - A)$ is a polynomial in $\lambda$ of degree at most $n 
 $\mathrm{adj}(\lambda I - A) = B_{n-1}\lambda^{n-1} + \cdots + B_1\lambda + B_0$ for Matrices $B_i$.
 Multiplying out and comparing coefficients of $\lambda^k$:
 
-$$B_{n-1} = I, \quad B_{n-2} - AB_{n-1} = c_{n-1}I, \quad \ldots, \quad -AB_0 = c_0 I$$
+$$
+B_{n-1} = I, \quad B_{n-2} - AB_{n-1} = c_{n-1}I, \quad \ldots, \quad -AB_0 = c_0 I
+$$
 
 Multiplying the $k$-th equation on the left by $A^k$ and summing over $k$:
 
-$$A^n B_{n-1} + A^{n-1}(B_{n-2} - AB_{n-1}) + \cdots + A^0(-AB_0) = A^n + c_{n-1}A^{n-1} + \cdots + c_0 I = p(A)$$
+$$
+A^n B_{n-1} + A^{n-1}(B_{n-2} - AB_{n-1}) + \cdots + A^0(-AB_0) = A^n + c_{n-1}A^{n-1} + \cdots + c_0 I = p(A)
+$$
 
 But the left side telescopes to zero, so $p(A) = 0$. $\blacksquare$
 
@@ -89,11 +97,15 @@ Representation.
 **Theorem 5.6.** Let $A \in \mathcal{M}_{n \times n}(\mathbb{C})$. Then $A$ is similar to a
 block-diagonal Matrix
 
-$$J = \begin{pmatrix} J_1 & & \\ & \ddots & \\ & & J_k \end{pmatrix}$$
+$$
+J = \begin{pmatrix} J_1 & & \\ & \ddots & \\ & & J_k \end{pmatrix}
+$$
 
 Where each **Jordan block** has the form
 
-$$J_i = \begin{pmatrix} \lambda_i & 1 & & \\ & \lambda_i & \ddots & \\ & & \ddots & 1 \\ & & & \lambda_i \end{pmatrix}$$
+$$
+J_i = \begin{pmatrix} \lambda_i & 1 & & \\ & \lambda_i & \ddots & \\ & & \ddots & 1 \\ & & & \lambda_i \end{pmatrix}
+$$
 
 The Jordan form is unique up to permutation of the blocks.
 
@@ -104,7 +116,9 @@ eigenvectors**. A diagonalisable matrix has all Jordan blocks of size $1 \times 
 
 **Problem.** Find the Jordan normal form of
 
-$$A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -118,7 +132,9 @@ Multiplicity is $\dim(\ker(A - 3I)) = 2 - 1 = 1$.
 Since the geometric multiplicity (1) is less than the algebraic multiplicity (2), $A$ is not
 Diagonalisable. The Jordan form has one block of size 2:
 
-$$J = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
+$$
+J = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}
+$$
 
 (In this case, $A$ is already in Jordan form.) $\blacksquare$
 
@@ -138,11 +154,15 @@ _Proof._ We prove (1) and then (2) and (3) by induction on $n$.
 **(1)** Let $\lambda \in \mathbb{C}$ be an eigenvalue with eigenvector $\mathbf{v} \in \mathbb{C}^n$
 $\mathbf{v} \neq \mathbf{0}$. Then
 
-$$\overline{\mathbf{v}}^T A \mathbf{v} = \overline{\mathbf{v}}^T (\lambda \mathbf{v}) = \lambda \overline{\mathbf{v}}^T \mathbf{v}$$
+$$
+\overline{\mathbf{v}}^T A \mathbf{v} = \overline{\mathbf{v}}^T (\lambda \mathbf{v}) = \lambda \overline{\mathbf{v}}^T \mathbf{v}
+$$
 
 Since $A = A^T$ and $A$ has real entries, $\overline{A} = A = A^T$ So
 
-$$\overline{\mathbf{v}}^T A \mathbf{v} = (A\overline{\mathbf{v}})^T \mathbf{v} = (\overline{A\mathbf{v}})^T \mathbf{v} = (\overline{\lambda}\,\overline{\mathbf{v}})^T \mathbf{v} = \overline{\lambda}\,\overline{\mathbf{v}}^T \mathbf{v}$$
+$$
+\overline{\mathbf{v}}^T A \mathbf{v} = (A\overline{\mathbf{v}})^T \mathbf{v} = (\overline{A\mathbf{v}})^T \mathbf{v} = (\overline{\lambda}\,\overline{\mathbf{v}})^T \mathbf{v} = \overline{\lambda}\,\overline{\mathbf{v}}^T \mathbf{v}
+$$
 
 Therefore $(\lambda - \overline{\lambda})\overline{\mathbf{v}}^T\mathbf{v} = 0$. Since
 $\overline{\mathbf{v}}^T\mathbf{v} \gt 0$ We have $\lambda = \overline{\lambda}$ So
@@ -156,7 +176,9 @@ $\mathbf{q}_1 = \mathbf{v}_1 / \lVert \mathbf{v}_1 \rVert$.
 Let $W = \mathbf{q}_1^\perp = \{\mathbf{w} \in \mathbb{R}^n : \mathbf{q}_1^T \mathbf{w} = 0\}$. For
 any $\mathbf{w} \in W$:
 
-$$\mathbf{q}_1^T (A\mathbf{w}) = (A\mathbf{q}_1)^T \mathbf{w} = (\lambda_1 \mathbf{q}_1)^T \mathbf{w} = \lambda_1 \cdot 0 = 0$$
+$$
+\mathbf{q}_1^T (A\mathbf{w}) = (A\mathbf{q}_1)^T \mathbf{w} = (\lambda_1 \mathbf{q}_1)^T \mathbf{w} = \lambda_1 \cdot 0 = 0
+$$
 
 So $A\mathbf{w} \in W$. Therefore $A$ restricts to a symmetric linear map $A|_W : W \to W$ on an
 $(n-1)$-dimensional space. By the inductive hypothesis, $W$ has an orthonormal basis
@@ -170,32 +192,46 @@ $\blacksquare$
 
 **Problem.** Find the eigenvalues, eigenvectors, and diagonalise
 
-$$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 The characteristic polynomial is
 
-$$\det(A - \lambda I) = \det\begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = (4 - \lambda)(3 - \lambda) - 2$$
+$$
+\det(A - \lambda I) = \det\begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = (4 - \lambda)(3 - \lambda) - 2
+$$
 
-$$= \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2)$$
+$$
+= \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2)
+$$
 
 So the eigenvalues are $\lambda_1 = 5$ and $\lambda_2 = 2$.
 
 For $\lambda_1 = 5$: Solve $(A - 5I)\mathbf{v} = \mathbf{0}$.
 
-$$\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies -v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
+$$
+\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies -v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ 1 \end{pmatrix}
+$$
 
 For $\lambda_2 = 2$: Solve $(A - 2I)\mathbf{v} = \mathbf{0}$.
 
-$$\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies 2v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ -2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies 2v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ -2 \end{pmatrix}
+$$
 
 Therefore $A = PDP^{-1}$ with
 
-$$P = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}, \quad D = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}, \quad D = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}
+$$
 
-$$P^{-1} = \frac{1}{-3}\begin{pmatrix} -2 & -1 \\ -1 & 1 \end{pmatrix} = \begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}$$
+$$
+P^{-1} = \frac{1}{-3}\begin{pmatrix} -2 & -1 \\ -1 & 1 \end{pmatrix} = \begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}
+$$
 
 **Verification:**
 $PDP^{-1} = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}$
@@ -240,7 +276,9 @@ $\mathrm{Re}(\lambda_i) > 0$, the system grows without bound (unstable).
 
 **Problem.** Diagonalise the matrix
 
-$$A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -250,20 +288,26 @@ $\lambda_2 = 3$ (with algebraic multiplicity 2).
 
 For $\lambda_1 = 2$: Solve $(A - 2I)\mathbf{v} = \mathbf{0}$.
 
-$$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \to \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \to \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 Free variable: $x_1 = t$. Eigenvector: $\mathbf{v}_1 = (1, 0, 0)^T$.
 
 For $\lambda_2 = 3$: Solve $(A - 3I)\mathbf{v} = \mathbf{0}$.
 
-$$A - 3I = \begin{pmatrix} -1 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+A - 3I = \begin{pmatrix} -1 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 Free variables: $x_2 = s$, $x_3 = t$. Then $x_1 = s$. Eigenvectors: $s(1, 1, 0)^T + t(0, 0, 1)^T$.
 
 The geometric multiplicity of $\lambda_2 = 3$ is 2, equal to its algebraic multiplicity. Therefore
 $A$ is diagonalisable with
 
-$$P = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}
+$$
 
 **Key observation:** When the geometric multiplicity equals the algebraic multiplicity for every
 eigenvalue, the matrix is diagonalisable. When they differ (as in the Jordan form example in
@@ -282,7 +326,9 @@ $A^2 = 7A - 10I$.
 
 To find $A^{10}$Divide $\lambda^{10}$ by $p(\lambda)$:
 
-$$\lambda^{10} = q(\lambda)(\lambda^2 - 7\lambda + 10) + r(\lambda)$$
+$$
+\lambda^{10} = q(\lambda)(\lambda^2 - 7\lambda + 10) + r(\lambda)
+$$
 
 Where $r(\lambda) = a\lambda + b$ has degree less than 2. Then $A^{10} = r(A) = aA + bI$.
 
@@ -309,7 +355,9 @@ not diagonalisable.
 
 **Problem.** Orthogonally diagonalise the symmetric matrix
 
-$$A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>

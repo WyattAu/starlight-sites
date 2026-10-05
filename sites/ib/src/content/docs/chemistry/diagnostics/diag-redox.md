@@ -80,7 +80,9 @@ exception to the usual $-2$).
 
 **Question:** Balance the following redox equation in acidic solution:
 
-$$\text{MnO}_4^- + \text{Fe}^{2+} \to \text{Mn}^{2+} + \text{Fe}^{3+}$$
+$$
+\text{MnO}_4^- + \text{Fe}^{2+} \to \text{Mn}^{2+} + \text{Fe}^{3+}
+$$
 
 **Solution:**
 

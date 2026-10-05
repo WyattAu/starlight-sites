@@ -151,11 +151,15 @@ Reactions are:
 
 Complete combustion (in excess oxygen):
 
-$$\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
+$$
 
 Incomplete combustion (in limited oxygen):
 
-$$2\mathrm{C}_n\mathrm{H}_{2n+2} + (2n+1)\mathrm{O}_2 \to 2n\mathrm{CO} + (2n+2)\mathrm{H}_2\mathrm{O}$$
+$$
+2\mathrm{C}_n\mathrm{H}_{2n+2} + (2n+1)\mathrm{O}_2 \to 2n\mathrm{CO} + (2n+2)\mathrm{H}_2\mathrm{O}
+$$
 
 Carbon (soot) may also be produced.
 
@@ -164,7 +168,9 @@ Carbon (soot) may also be produced.
 Alkanes react with halogens ($\mathrm{Cl}_2$ or $\mathrm{Br}_2$) in the presence of UV light to form
 Haloalkanes.
 
-$$\mathrm{CH}_4 + \mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} \mathrm{CH}_3\mathrm{Cl} + \mathrm{HCl}$$
+$$
+\mathrm{CH}_4 + \mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} \mathrm{CH}_3\mathrm{Cl} + \mathrm{HCl}
+$$
 
 This is a **substitution** reaction because a hydrogen atom is replaced by a chlorine atom.
 
@@ -175,24 +181,36 @@ The reaction proceeds via a **free radical chain mechanism** with three stages:
 **Initiation:** UV light provides energy to break the Cl-Cl bond homolytically (each atom gets one
 Electron), generating chlorine free radicals.
 
-$$\mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} 2\mathrm{Cl}^\bullet$$
+$$
+\mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} 2\mathrm{Cl}^\bullet
+$$
 
 **Propagation:** The chlorine radical attacks a methane molecule, abstracting a hydrogen atom and
 Forming HCl and a methyl radical. The methyl radical then attacks another chlorine molecule.
 
-$$\mathrm{Cl}^\bullet + \mathrm{CH}_4 \to \mathrm{HCl} + \mathrm{CH}_3^\bullet$$
+$$
+\mathrm{Cl}^\bullet + \mathrm{CH}_4 \to \mathrm{HCl} + \mathrm{CH}_3^\bullet
+$$
 
-$$\mathrm{CH}_3^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{Cl} + \mathrm{Cl}^\bullet$$
+$$
+\mathrm{CH}_3^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{Cl} + \mathrm{Cl}^\bullet
+$$
 
 The chain continues because a new chlorine radical is generated in each propagation step.
 
 **Termination:** Two radicals combine, ending the chain. Any two radicals can combine.
 
-$$\mathrm{Cl}^\bullet + \mathrm{Cl}^\bullet \to \mathrm{Cl}_2$$
+$$
+\mathrm{Cl}^\bullet + \mathrm{Cl}^\bullet \to \mathrm{Cl}_2
+$$
 
-$$\mathrm{CH}_3^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6$$
+$$
+\mathrm{CH}_3^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6
+$$
 
-$$\mathrm{CH}_3^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{Cl}$$
+$$
+\mathrm{CH}_3^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{Cl}
+$$
 
 :::caution
 $\mathrm{CCl}_4$ Because the substitution can continue on the same carbon atom. Controlling the
@@ -211,7 +229,9 @@ Supply from fractional distillation.
 - Produces a mixture of alkanes and alkenes
 - Produces shorter-chain alkanes as fuels
 
-$$\mathrm{C}_{14}\mathrm{H}_{30} \xrightarrow{\Delta} \mathrm{C}_7\mathrm{H}_{16} + \mathrm{C}_7\mathrm{H}_{14}$$
+$$
+\mathrm{C}_{14}\mathrm{H}_{30} \xrightarrow{\Delta} \mathrm{C}_7\mathrm{H}_{16} + \mathrm{C}_7\mathrm{H}_{14}
+$$
 
 **Catalytic cracking:**
 
@@ -233,9 +253,13 @@ $\sigma$ bond.
 Alkenes are named by replacing the -ane suffix with -ene. The position of the double bond is
 Indicated by the lower-numbered carbon atom involved.
 
-$$\mathrm{CH}_2=\mathrm{CHCH}_2\mathrm{CH}_3 \quad \mathrm{but-1-ene}$$
+$$
+\mathrm{CH}_2=\mathrm{CHCH}_2\mathrm{CH}_3 \quad \mathrm{but-1-ene}
+$$
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CHCH}_3 \quad \mathrm{but-2-ene}$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CHCH}_3 \quad \mathrm{but-2-ene}
+$$
 
 #### E/Z (Cis/Trans) Isomerism
 
@@ -276,37 +300,49 @@ Breaks to allow **addition reactions**, where atoms or groups are added across t
 When bromine water (orange-brown) is added to an alkene, the bromine adds across the double bond and
 The solution is decolourised.
 
-$$\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}$$
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}
+$$
 
 This is a useful test to distinguish alkenes from alkanes (alkanes do not decolourise bromine water
 Without UV light).
 
 **Hydrogenation:**
 
-$$\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2 \xrightarrow{\mathrm{Ni catalyst, } 150^\circ\mathrm{C}} \mathrm{CH}_3\mathrm{CH}_3$$
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2 \xrightarrow{\mathrm{Ni catalyst, } 150^\circ\mathrm{C}} \mathrm{CH}_3\mathrm{CH}_3
+$$
 
 Used industrially to convert vegetable oils to margarine (hardening).
 
 **Halogenation:**
 
-$$\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Cl}_2 \to \mathrm{CH}_2\mathrm{ClCH}_2\mathrm{Cl}$$
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Cl}_2 \to \mathrm{CH}_2\mathrm{ClCH}_2\mathrm{Cl}
+$$
 
 Halogenation of alkenes does not require UV light (unlike alkanes).
 
 **Hydration:**
 
-$$\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3\mathrm{PO}_4, 300^\circ\mathrm{C}, \mathrm{high pressure}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}$$
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3\mathrm{PO}_4, 300^\circ\mathrm{C}, \mathrm{high pressure}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}
+$$
 
 **Hydrohalogenation:**
 
-$$\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}$$
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}
+$$
 
 **Markovnikov"s Rule:**
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon that already has
 More hydrogen atoms (the less substituted carbon).
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3 \quad \mathrm{(2-bromopropane, major product)}$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3 \quad \mathrm{(2-bromopropane, major product)}
+$$
 
 The minor product, 1-bromopropane ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}$), is formed
 In smaller amounts.
@@ -336,9 +372,13 @@ Known as acetylene.
 
 Alkynes are named by replacing the -ane suffix with -yne.
 
-$$\mathrm{HC}\equiv\mathrm{CH} \quad \mathrm{ethyne}$$
+$$
+\mathrm{HC}\equiv\mathrm{CH} \quad \mathrm{ethyne}
+$$
 
-$$\mathrm{CH}_3\mathrm{C}\equiv\mathrm{CH} \quad \mathrm{propyne}$$
+$$
+\mathrm{CH}_3\mathrm{C}\equiv\mathrm{CH} \quad \mathrm{propyne}
+$$
 
 #### Physical Properties
 
@@ -352,18 +392,24 @@ The triple bond has two $\pi$ bonds.
 
 **Hydrogenation (stepwise):**
 
-$$\mathrm{HC}\equiv\mathrm{CH} + \mathrm{H}_2 \xrightarrow{\mathrm{Pd/C}} \mathrm{H}_2\mathrm{C}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2} \mathrm{CH}_3\mathrm{CH}_3$$
+$$
+\mathrm{HC}\equiv\mathrm{CH} + \mathrm{H}_2 \xrightarrow{\mathrm{Pd/C}} \mathrm{H}_2\mathrm{C}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2} \mathrm{CH}_3\mathrm{CH}_3
+$$
 
 **Halogenation (stepwise):**
 
-$$\mathrm{HC}\equiv\mathrm{CH} + \mathrm{Br}_2 \to \mathrm{BrHC}=\mathrm{CHBr} \xrightarrow{\mathrm{Br}_2} \mathrm{Br}_2\mathrm{HC}-\mathrm{CHBr}_2$$
+$$
+\mathrm{HC}\equiv\mathrm{CH} + \mathrm{Br}_2 \to \mathrm{BrHC}=\mathrm{CHBr} \xrightarrow{\mathrm{Br}_2} \mathrm{Br}_2\mathrm{HC}-\mathrm{CHBr}_2
+$$
 
 **Hydration:**
 
 Ethyne reacts with water in the presence of $\mathrm{HgSO}_4$ and dilute $\mathrm{H}_2\mathrm{SO}_4$
 Catalyst to form ethanal (acetaldehyde):
 
-$$\mathrm{HC}\equiv\mathrm{CH} + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{HgSO}_4, \mathrm{H}^+} \mathrm{CH}_3\mathrm{CHO}$$
+$$
+\mathrm{HC}\equiv\mathrm{CH} + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{HgSO}_4, \mathrm{H}^+} \mathrm{CH}_3\mathrm{CHO}
+$$
 
 Higher alkynes give ketones.
 
@@ -377,7 +423,9 @@ type of reaction.
 
 Since ethyne has two $\pi$ bonds, it can react with two moles of $\mathrm{Br_2}$:
 
-$$\mathrm{HC}\equiv\mathrm{CH} + 2\mathrm{Br_2} \to \mathrm{Br_2HC}-\mathrm{CHBr_2}$$
+$$
+\mathrm{HC}\equiv\mathrm{CH} + 2\mathrm{Br_2} \to \mathrm{Br_2HC}-\mathrm{CHBr_2}
+$$
 
 The product is 1,1,2,2-tetrabromoethane. This is an **addition reaction** (bromine adds across both
 $\pi$ bonds stepwise). The bromine water is decolourised.
@@ -429,9 +477,13 @@ Benzene has the molecular formula $\mathrm{C}_6\mathrm{H}_6$. Two models describ
 - Represented as a hexagon with a circle inside, or alternating double bonds with understanding that
   the $\pi$ electrons are delocalised
 
-$$\mathrm{Bond length in benzene} = 0.140 \mathrm{ nm}$$
+$$
+\mathrm{Bond length in benzene} = 0.140 \mathrm{ nm}
+$$
 
-$$\mathrm{C-C single bond} = 0.154 \mathrm{ nm}, \quad \mathrm{C=C double bond} = 0.134 \mathrm{ nm}$$
+$$
+\mathrm{C-C single bond} = 0.154 \mathrm{ nm}, \quad \mathrm{C=C double bond} = 0.134 \mathrm{ nm}
+$$
 
 The intermediate bond length confirms the delocalised model.
 
@@ -453,11 +505,15 @@ $50$--$60^\circ\mathrm{C}$.
 
 Generation of electrophile:
 
-$$\mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}
+$$
 
 Substitution:
 
-$$\mathrm{C}_6\mathrm{H}_6 + \mathrm{NO}_2^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2 + \mathrm{H}^+$$
+$$
+\mathrm{C}_6\mathrm{H}_6 + \mathrm{NO}_2^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2 + \mathrm{H}^+
+$$
 
 Product: nitrobenzene.
 
@@ -466,17 +522,25 @@ Product: nitrobenzene.
 Reagents: $\mathrm{Cl}_2$ or $\mathrm{Br}_2$ with a Lewis acid catalyst such as $\mathrm{AlCl}_3$ or
 $\mathrm{FeBr}_3$.
 
-$$\mathrm{Cl}_2 + \mathrm{AlCl}_3 \to \mathrm{Cl}^+ + \mathrm{AlCl}_4^-$$
+$$
+\mathrm{Cl}_2 + \mathrm{AlCl}_3 \to \mathrm{Cl}^+ + \mathrm{AlCl}_4^-
+$$
 
-$$\mathrm{C}_6\mathrm{H}_6 + \mathrm{Cl}^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{Cl} + \mathrm{H}^+$$
+$$
+\mathrm{C}_6\mathrm{H}_6 + \mathrm{Cl}^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{Cl} + \mathrm{H}^+
+$$
 
 **Friedel-Crafts Alkylation:**
 
 Reagents: haloalkane with $\mathrm{AlCl}_3$ catalyst.
 
-$$\mathrm{CH}_3\mathrm{Cl} + \mathrm{AlCl}_3 \to \mathrm{CH}_3^+ + \mathrm{AlCl}_4^-$$
+$$
+\mathrm{CH}_3\mathrm{Cl} + \mathrm{AlCl}_3 \to \mathrm{CH}_3^+ + \mathrm{AlCl}_4^-
+$$
 
-$$\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_3 + \mathrm{H}^+$$
+$$
+\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_3 + \mathrm{H}^+
+$$
 
 Product: methylbenzene (toluene).
 
@@ -484,9 +548,13 @@ Product: methylbenzene (toluene).
 
 Reagents: acyl chloride with $\mathrm{AlCl}_3$ catalyst.
 
-$$\mathrm{CH}_3\mathrm{COCl} + \mathrm{AlCl}_3 \to \mathrm{CH}_3\mathrm{CO}^+ + \mathrm{AlCl}_4^-$$
+$$
+\mathrm{CH}_3\mathrm{COCl} + \mathrm{AlCl}_3 \to \mathrm{CH}_3\mathrm{CO}^+ + \mathrm{AlCl}_4^-
+$$
 
-$$\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{CO}^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{H}^+$$
+$$
+\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{CO}^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{H}^+
+$$
 
 Product: phenylethanone (acetophenone).
 
@@ -505,17 +573,25 @@ Predict the products when benzene undergoes (a) chlorination with $\mathrm{Cl_2}
 
 (a) **Chlorination:**
 
-$$\mathrm{Cl_2} + \mathrm{AlCl_3} \to \mathrm{Cl^+} + \mathrm{AlCl_4^-}$$
+$$
+\mathrm{Cl_2} + \mathrm{AlCl_3} \to \mathrm{Cl^+} + \mathrm{AlCl_4^-}
+$$
 
-$$\mathrm{C_6H_6} + \mathrm{Cl^+} \to \mathrm{C_6H_5Cl} + \mathrm{H^+}$$
+$$
+\mathrm{C_6H_6} + \mathrm{Cl^+} \to \mathrm{C_6H_5Cl} + \mathrm{H^+}
+$$
 
 Product: **chlorobenzene** ($\mathrm{C_6H_5Cl}$)
 
 (b) **Friedel-Crafts alkylation:**
 
-$$\mathrm{CH_3CH_2Cl} + \mathrm{AlCl_3} \to \mathrm{CH_3CH_2^+ + \mathrm{AlCl_4^-}$$
+$$
+\mathrm{CH_3CH_2Cl} + \mathrm{AlCl_3} \to \mathrm{CH_3CH_2^+ + \mathrm{AlCl_4^-}
+$$
 
-$$\mathrm{C_6H_6} + \mathrm{CH_3CH_2^+} \to \mathrm{C_6H_5CH_2CH_3 + \mathrm{H^+}$$
+$$
+\mathrm{C_6H_6} + \mathrm{CH_3CH_2^+} \to \mathrm{C_6H_5CH_2CH_3 + \mathrm{H^+}
+$$
 
 Product: **ethylbenzene** ($\mathrm{C_6H_5CH_2CH_3}$)
 
@@ -570,9 +646,13 @@ Alcohols contain the hydroxyl group (-OH) attached to an $sp^3$ hybridised carbo
 
 Alcohols are named using the -ol suffix. The position of the -OH group is indicated by a number.
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \quad \mathrm{propan-1-ol}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \quad \mathrm{propan-1-ol}
+$$
 
-$$\mathrm{CH}_3\mathrm{CH(OH)CH}_3 \quad \mathrm{propan-2-ol}$$
+$$
+\mathrm{CH}_3\mathrm{CH(OH)CH}_3 \quad \mathrm{propan-2-ol}
+$$
 
 #### Physical Properties
 
@@ -590,7 +670,9 @@ Different classes of alcohols give different products upon oxidation.
 
 Oxidised first to aldehydes, then to carboxylic acids.
 
-$$\mathrm{RCH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}]} \mathrm{RCHO} \xrightarrow{[\mathrm{O}]} \mathrm{RCOOH}$$
+$$
+\mathrm{RCH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}]} \mathrm{RCHO} \xrightarrow{[\mathrm{O}]} \mathrm{RCOOH}
+$$
 
 To obtain the aldehyde (without further oxidation to the carboxylic acid), distil the product out as
 It forms.
@@ -603,7 +685,9 @@ Upon reduction.
 
 Oxidised to ketones (which are resistant to further oxidation).
 
-$$\mathrm{R}_2\mathrm{CHOH} \xrightarrow{[\mathrm{O}]} \mathrm{R}_2\mathrm{C=O}$$
+$$
+\mathrm{R}_2\mathrm{CHOH} \xrightarrow{[\mathrm{O}]} \mathrm{R}_2\mathrm{C=O}
+$$
 
 **Tertiary alcohols:**
 
@@ -621,13 +705,17 @@ under reflux: (a) butan-1-ol, (b) butan-2-ol, (c) 2-methylpropan-2-ol.
 (a) **Butan-1-ol** ($\mathrm{CH_3CH_2CH_2CH_2OH}$) is primary. Under reflux (strong oxidation), it
 is fully oxidised to butanoic acid:
 
-$$\mathrm{CH_3CH_2CH_2CH_2OH} \xrightarrow{[\mathrm{O}],\ \mathrm{reflux}} \mathrm{CH_3CH_2CH_2COOH}$$
+$$
+\mathrm{CH_3CH_2CH_2CH_2OH} \xrightarrow{[\mathrm{O}],\ \mathrm{reflux}} \mathrm{CH_3CH_2CH_2COOH}
+$$
 
 The colour change is orange to green.
 
 (b) **Butan-2-ol** ($\mathrm{CH_3CH_2CH(OH)CH_3}$) is secondary. It oxidises to butanone:
 
-$$\mathrm{CH_3CH_2CH(OH)CH_3} \xrightarrow{[\mathrm{O}]} \mathrm{CH_3CH_2COCH_3}$$
+$$
+\mathrm{CH_3CH_2CH(OH)CH_3} \xrightarrow{[\mathrm{O}]} \mathrm{CH_3CH_2COCH_3}
+$$
 
 (c) **2-Methylpropan-2-ol** ($\mathrm{(CH_3)_3COH}$) is tertiary. No oxidation occurs; the orange
 colour of dichromate persists.
@@ -640,11 +728,17 @@ colour of dichromate persists.
 
 Carboxylic acids contain the -COOH group and are named with the -oic acid suffix.
 
-$$\mathrm{HCOOH} \quad \mathrm{methanoic acid}$$
+$$
+\mathrm{HCOOH} \quad \mathrm{methanoic acid}
+$$
 
-$$\mathrm{CH}_3\mathrm{COOH} \quad \mathrm{ethanoic acid}$$
+$$
+\mathrm{CH}_3\mathrm{COOH} \quad \mathrm{ethanoic acid}
+$$
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH} \quad \mathrm{propanoic acid}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH} \quad \mathrm{propanoic acid}
+$$
 
 #### Properties
 
@@ -652,11 +746,17 @@ $$\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH} \quad \mathrm{propanoic acid}$$
 
 Carboxylic acids are weak acids. They partially dissociate in water:
 
-$$\mathrm{CH}_3\mathrm{COOH} \rightleftharpoons \mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}^+$$
+$$
+\mathrm{CH}_3\mathrm{COOH} \rightleftharpoons \mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}^+
+$$
 
-$$K_a = \frac{[\mathrm{CH}_3\mathrm{COO}^-][\mathrm{H}^+]}{[\mathrm{CH}_3\mathrm{COOH}]} = 1.8 \times 10^{-5}$$
+$$
+K_a = \frac{[\mathrm{CH}_3\mathrm{COO}^-][\mathrm{H}^+]}{[\mathrm{CH}_3\mathrm{COOH}]} = 1.8 \times 10^{-5}
+$$
 
-$$\mathrm{p}K_a = -\log_{10}(1.8 \times 10^{-5}) = 4.74$$
+$$
+\mathrm{p}K_a = -\log_{10}(1.8 \times 10^{-5}) = 4.74
+$$
 
 Carboxylic acids are stronger acids than alcohols (phenol has $\mathrm{p}K_a \approx 10$) but weaker
 Than mineral acids. The carboxylate ion ($\mathrm{RCOO}^-$) is stabilised by resonance
@@ -676,7 +776,9 @@ Delocalisation of the negative charge over the two oxygen atoms.
 Carboxylic acids react with alcohols in the presence of a strong acid catalyst (concentrated
 $\mathrm{H}_2\mathrm{SO}_4$) to form esters:
 
-$$\mathrm{RCOOH} + \mathrm{R}'\mathrm{OH} \rightleftharpoons \mathrm{RCOOR}' + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{RCOOH} + \mathrm{R}'\mathrm{OH} \rightleftharpoons \mathrm{RCOOR}' + \mathrm{H}_2\mathrm{O}
+$$
 
 This is a reversible, **condensation reaction** (two molecules join with the elimination of a small
 Molecule, in this case water). The equilibrium can be shifted towards the ester by using an excess
@@ -689,7 +791,9 @@ Of one reactant or by removing water.
 Esters are named with the alkyl group from the alcohol first, followed by the -oate from the
 Carboxylic acid.
 
-$$\mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 \quad \mathrm{ethyl ethanoate}$$
+$$
+\mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 \quad \mathrm{ethyl ethanoate}
+$$
 
 #### Properties
 
@@ -702,12 +806,16 @@ $$\mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 \quad \mathrm{ethyl ethanoate}$$
 
 **Acid hydrolysis:** Reversible reaction; the ester is heated with dilute acid.
 
-$$\mathrm{RCOOR}' + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}^+} \mathrm{RCOOH} + \mathrm{R}'\mathrm{OH}$$
+$$
+\mathrm{RCOOR}' + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}^+} \mathrm{RCOOH} + \mathrm{R}'\mathrm{OH}
+$$
 
 **Alkaline hydrolysis (saponification):** Irreversible reaction; the ester is heated with aqueous
 NaOH or KOH.
 
-$$\mathrm{RCOOR}' + \mathrm{NaOH} \to \mathrm{RCOONa} + \mathrm{R}'\mathrm{OH}$$
+$$
+\mathrm{RCOOR}' + \mathrm{NaOH} \to \mathrm{RCOONa} + \mathrm{R}'\mathrm{OH}
+$$
 
 The carboxylate salt produced is the soap (if a long-chain ester is used). This is the basis of
 **soap making**:
@@ -726,13 +834,17 @@ Compare the products of acid hydrolysis and alkaline hydrolysis of methyl propan
 
 **Acid hydrolysis:**
 
-$$\mathrm{CH_3CH_2COOCH_3} + \mathrm{H_2O} \xrightarrow{\mathrm{H^+}} \mathrm{CH_3CH_2COOH} + \mathrm{CH_3OH}$$
+$$
+\mathrm{CH_3CH_2COOCH_3} + \mathrm{H_2O} \xrightarrow{\mathrm{H^+}} \mathrm{CH_3CH_2COOH} + \mathrm{CH_3OH}
+$$
 
 Products: propanoic acid and methanol. This is reversible.
 
 **Alkaline hydrolysis (saponification):**
 
-$$\mathrm{CH_3CH_2COOCH_3} + \mathrm{NaOH} \to \mathrm{CH_3CH_2COONa} + \mathrm{CH_3OH}$$
+$$
+\mathrm{CH_3CH_2COOCH_3} + \mathrm{NaOH} \to \mathrm{CH_3CH_2COONa} + \mathrm{CH_3OH}
+$$
 
 Products: sodium propanoate and methanol. This is irreversible.
 
@@ -750,19 +862,27 @@ Both contain the carbonyl group (>C=O).
 
 **Aldehydes:** The carbonyl group is at the end of the carbon chain (bonded to at least one H).
 
-$$\mathrm{RCHO}$$
+$$
+\mathrm{RCHO}
+$$
 
 Naming: -al suffix. The -al carbon is always carbon 1.
 
-$$\mathrm{CH}_3\mathrm{CHO} \quad \mathrm{ethanal}$$
+$$
+\mathrm{CH}_3\mathrm{CHO} \quad \mathrm{ethanal}
+$$
 
 **Ketones:** The carbonyl group is within the carbon chain (bonded to two carbons).
 
-$$\mathrm{R}_2\mathrm{C=O}$$
+$$
+\mathrm{R}_2\mathrm{C=O}
+$$
 
 Naming: -one suffix. The position is indicated by a number.
 
-$$\mathrm{CH}_3\mathrm{COCH}_3 \quad \mathrm{propanone}$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_3 \quad \mathrm{propanone}
+$$
 
 #### Properties
 
@@ -779,7 +899,9 @@ Making it susceptible to attack by nucleophiles.
 
 **Reaction with HCN (cyanohydrin formation):**
 
-$$\mathrm{RCHO} + \mathrm{HCN} \to \mathrm{RCH(OH)CN}$$
+$$
+\mathrm{RCHO} + \mathrm{HCN} \to \mathrm{RCH(OH)CN}
+$$
 
 The mechanism:
 
@@ -804,11 +926,15 @@ To the nitrogen:
 
 Amines are weak bases. The lone pair on nitrogen can accept a proton:
 
-$$\mathrm{RNH}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{RNH}_3^+ + \mathrm{OH}^-$$
+$$
+\mathrm{RNH}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{RNH}_3^+ + \mathrm{OH}^-
+$$
 
 Amines form salts with acids:
 
-$$\mathrm{CH}_3\mathrm{NH}_2 + \mathrm{HCl} \to \mathrm{CH}_3\mathrm{NH}_3^+\mathrm{Cl}^-$$
+$$
+\mathrm{CH}_3\mathrm{NH}_2 + \mathrm{HCl} \to \mathrm{CH}_3\mathrm{NH}_3^+\mathrm{Cl}^-
+$$
 
 The basicity of amines depends on the availability of the lone pair. Electron-donating groups
 Increase basicity; electron-withdrawing groups decrease it.
@@ -838,7 +964,9 @@ Small molecule. The double bond opens to form single bonds linking monomers into
 
 **General reaction:**
 
-$$n\mathrm{CH}_2=\mathrm{CHX} \to \left[\mathrm{--CH}_2\mathrm{--CHX--}\right]_n$$
+$$
+n\mathrm{CH}_2=\mathrm{CHX} \to \left[\mathrm{--CH}_2\mathrm{--CHX--}\right]_n
+$$
 
 | Polymer       | Monomer                | Repeating Unit                                             | Uses                       |
 | ------------- | ---------------------- | ---------------------------------------------------------- | -------------------------- |
@@ -861,17 +989,23 @@ water or HCl). The monomers must have two functional groups each.
 
 Formed from a dicarboxylic acid and a diol.
 
-$$n\mathrm{HOOC}\mathrm{--R}\mathrm{--COOH} + n\mathrm{HO}\mathrm{--R}'\mathrm{--OH} \to \left[\mathrm{--OC}\mathrm{--R}\mathrm{--COO}\mathrm{--R}'\mathrm{--O--}\right]_n + 2n\mathrm{H}_2\mathrm{O}$$
+$$
+n\mathrm{HOOC}\mathrm{--R}\mathrm{--COOH} + n\mathrm{HO}\mathrm{--R}'\mathrm{--OH} \to \left[\mathrm{--OC}\mathrm{--R}\mathrm{--COO}\mathrm{--R}'\mathrm{--O--}\right]_n + 2n\mathrm{H}_2\mathrm{O}
+$$
 
 Example: Terylene (PET) from benzene-1,4-dicarboxylic acid and ethane-1,2-diol.
 
-$$\mathrm{HOOC}\mathrm{--C}_6\mathrm{H}_4\mathrm{--COOH} + \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{OH} \to \left[\mathrm{--OC}\mathrm{--C}_6\mathrm{H}_4\mathrm{--COOCH}_2\mathrm{CH}_2\mathrm{O--}\right]_n + 2n\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{HOOC}\mathrm{--C}_6\mathrm{H}_4\mathrm{--COOH} + \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{OH} \to \left[\mathrm{--OC}\mathrm{--C}_6\mathrm{H}_4\mathrm{--COOCH}_2\mathrm{CH}_2\mathrm{O--}\right]_n + 2n\mathrm{H}_2\mathrm{O}
+$$
 
 **Polyamides (Nylons):**
 
 Formed from a dicarboxylic acid and a diamine.
 
-$$n\mathrm{HOOC}\mathrm{--R}\mathrm{--COOH} + n\mathrm{H}_2\mathrm{N}\mathrm{--R}'\mathrm{--NH}_2 \to \left[\mathrm{--OC}\mathrm{--R}\mathrm{--CONH}\mathrm{--R}'\mathrm{--NH--}\right]_n + 2n\mathrm{H}_2\mathrm{O}$$
+$$
+n\mathrm{HOOC}\mathrm{--R}\mathrm{--COOH} + n\mathrm{H}_2\mathrm{N}\mathrm{--R}'\mathrm{--NH}_2 \to \left[\mathrm{--OC}\mathrm{--R}\mathrm{--CONH}\mathrm{--R}'\mathrm{--NH--}\right]_n + 2n\mathrm{H}_2\mathrm{O}
+$$
 
 Example: Nylon-6,6 from hexanedioic acid and hexane-1,6-diamine.
 
@@ -886,7 +1020,9 @@ What small molecule is eliminated?
 
 (a)
 
-$$n\mathrm{HOOC(CH_2)_4COOH} + n\mathrm{H_2N(CH_2)_6NH_2} \to \left[\mathrm{--OC(CH_2)_4CONH(CH_2)_6NH--}\right]_n + 2n\mathrm{H_2O}$$
+$$
+n\mathrm{HOOC(CH_2)_4COOH} + n\mathrm{H_2N(CH_2)_6NH_2} \to \left[\mathrm{--OC(CH_2)_4CONH(CH_2)_6NH--}\right]_n + 2n\mathrm{H_2O}
+$$
 
 (b) Water ($\mathrm{H_2O}$) is eliminated at each amide bond formed. For each repeating unit, one
 molecule of water is eliminated (from the -COOH of the acid and one -NH$_2$ of the diamine).
@@ -962,11 +1098,17 @@ Management.
 
 The oxidation pathway depends on the class of alcohol:
 
-$$\mathrm{Primary alcohol} \xrightarrow{[\mathrm{O}]} \mathrm{Aldehyde} \xrightarrow{[\mathrm{O}]} \mathrm{Carboxylic acid} \xrightarrow{[\mathrm{O}]} \mathrm{CO}_2 + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{Primary alcohol} \xrightarrow{[\mathrm{O}]} \mathrm{Aldehyde} \xrightarrow{[\mathrm{O}]} \mathrm{Carboxylic acid} \xrightarrow{[\mathrm{O}]} \mathrm{CO}_2 + \mathrm{H}_2\mathrm{O}
+$$
 
-$$\mathrm{Secondary alcohol} \xrightarrow{[\mathrm{O}]} \mathrm{Ketone} \quad \mathrm{(no further oxidation)}$$
+$$
+\mathrm{Secondary alcohol} \xrightarrow{[\mathrm{O}]} \mathrm{Ketone} \quad \mathrm{(no further oxidation)}
+$$
 
-$$\mathrm{Tertiary alcohol} \quad \mathrm{(no oxidation with common reagents)}$$
+$$
+\mathrm{Tertiary alcohol} \quad \mathrm{(no oxidation with common reagents)}
+$$
 
 **Oxidising agents used:**
 
@@ -1091,7 +1233,9 @@ Calculate the volume of $\mathrm{CO}_2$ produced (at r.t.p.) when $5.8 \mathrm{ 
 
 **Solution:**
 
-$$\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 3\mathrm{O}_2 \to 2\mathrm{CO}_2 + 3\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 3\mathrm{O}_2 \to 2\mathrm{CO}_2 + 3\mathrm{H}_2\mathrm{O}
+$$
 
 Molar mass of $\mathrm{C}_2\mathrm{H}_5\mathrm{OH} = 2(12) + 6(1) + 16 = 46 \mathrm{ g/mol}$
 
@@ -1152,7 +1296,9 @@ Propene: $\mathrm{CH}_2=\mathrm{CHCH}_3$
 
 The double bond opens during addition polymerisation:
 
-$$n\mathrm{CH}_2=\mathrm{CHCH}_3 \to \left[\mathrm{--CH}_2\mathrm{--CH}(\mathrm{CH}_3)--\right]_n$$
+$$
+n\mathrm{CH}_2=\mathrm{CHCH}_3 \to \left[\mathrm{--CH}_2\mathrm{--CH}(\mathrm{CH}_3)--\right]_n
+$$
 
 Repeating unit: $--\mathrm{CH}_2\mathrm{--CH}(\mathrm{CH}_3)--$
 
@@ -1166,7 +1312,9 @@ $6.5 \mathrm{ g}$ of ethyl ethanoate.
 
 **Solution:**
 
-$$\mathrm{CH}_3\mathrm{COOH} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \rightleftharpoons \mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{COOH} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \rightleftharpoons \mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}
+$$
 
 Molar mass of $\mathrm{CH}_3\mathrm{COOH} = 60 \mathrm{ g/mol}$
 
@@ -1178,7 +1326,9 @@ Molar mass of $\mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 = 88 \mathrm{ g/mol}$
 
 Theoretical mass of ester $= 0.10 \times 88 = 8.8 \mathrm{ g}$
 
-$$\mathrm{Percentage yield} = \frac{6.5}{8.8} \times 100\% = 73.9\%$$
+$$
+\mathrm{Percentage yield} = \frac{6.5}{8.8} \times 100\% = 73.9\%
+$$
 
 ### Worked Example 8
 
@@ -1187,13 +1337,17 @@ $\mathrm{H}_2\mathrm{SO}_4$ in the reaction.
 
 **Solution:**
 
-$$\mathrm{C}_6\mathrm{H}_6 + \mathrm{HNO}_3 \xrightarrow{\mathrm{conc. } \mathrm{H}_2\mathrm{SO}_4, 50\mathrm{--}60^\circ\mathrm{C}} \mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2 + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{C}_6\mathrm{H}_6 + \mathrm{HNO}_3 \xrightarrow{\mathrm{conc. } \mathrm{H}_2\mathrm{SO}_4, 50\mathrm{--}60^\circ\mathrm{C}} \mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2 + \mathrm{H}_2\mathrm{O}
+$$
 
 Concentrated $\mathrm{H}_2\mathrm{SO}_4$ acts as a catalyst and as a dehydrating agent. It
 Protonates $\mathrm{HNO}_3$ to generate the nitronium ion ($\mathrm{NO}_2^+$), which is the
 Electrophile that attacks the benzene ring:
 
-$$\mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}
+$$
 
 ### Worked Example 9
 
@@ -1247,13 +1401,17 @@ $2.0 \mathrm{ dm^3}$ of butane gas ($\mathrm{C_4H_{10}}$).
 <details>
 <summary>Solution</summary>
 
-$$2\mathrm{C_4H_{10}} + 13\mathrm{O_2} \to 8\mathrm{CO_2} + 10\mathrm{H_2O}$$
+$$
+2\mathrm{C_4H_{10}} + 13\mathrm{O_2} \to 8\mathrm{CO_2} + 10\mathrm{H_2O}
+$$
 
 From the equation: 2 moles of butane react with 13 moles of $\mathrm{O_2}$.
 
 Since volumes of gases at the same temperature and pressure are proportional to moles:
 
-$$V(\mathrm{O_2}) = \frac{13}{2} \times V(\mathrm{C_4H_{10}}) = \frac{13}{2} \times 2.0 = 13.0 \mathrm{ dm^3}$$
+$$
+V(\mathrm{O_2}) = \frac{13}{2} \times V(\mathrm{C_4H_{10}}) = \frac{13}{2} \times 2.0 = 13.0 \mathrm{ dm^3}
+$$
 
 </details>
 
@@ -1272,11 +1430,15 @@ The electron-rich double bond polarises $\mathrm{HBr}$.
 The H adds to C-1 (the less substituted carbon, following Markovnikov's rule), and a secondary
 carbocation intermediate forms at C-2:
 
-$$\mathrm{CH_2}=\mathrm{CHCH_3} + \mathrm{HBr} \to \mathrm{CH_3}-\mathrm{C^+HCH_3} + \mathrm{Br^-}$$
+$$
+\mathrm{CH_2}=\mathrm{CHCH_3} + \mathrm{HBr} \to \mathrm{CH_3}-\mathrm{C^+HCH_3} + \mathrm{Br^-}
+$$
 
 **Step 3:** The bromide ion attacks the carbocation:
 
-$$\mathrm{CH_3}-\mathrm{C^+HCH_3} + \mathrm{Br^-} \to \mathrm{CH_3CHBrCH_3}$$
+$$
+\mathrm{CH_3}-\mathrm{C^+HCH_3} + \mathrm{Br^-} \to \mathrm{CH_3CHBrCH_3}
+$$
 
 The major product is 2-bromopropane because the secondary carbocation intermediate is more stable
 than the primary carbocation that would form if H added to C-2.
@@ -1314,7 +1476,9 @@ why the ester is immiscible with water.
 (propanoate): **ethyl propanoate**.
 
 (b)
-$$\mathrm{CH_3CH_2COOH} + \mathrm{CH_3CH_2OH} \rightleftharpoons \mathrm{CH_3CH_2COOCH_2CH_3} + \mathrm{H_2O}$$
+$$
+\mathrm{CH_3CH_2COOH} + \mathrm{CH_3CH_2OH} \rightleftharpoons \mathrm{CH_3CH_2COOCH_2CH_3} + \mathrm{H_2O}
+$$
 
 Conditions: concentrated $\mathrm{H_2SO_4}$ catalyst, heat under reflux.
 
@@ -1397,12 +1561,16 @@ Step 2: The $\pi$ bond breaks and a new $\sigma$ bond forms between one carbon a
 Bromine atom. The $\mathrm{Br}$-$\mathrm{Br}$ bond breaks heterolytically, producing a bromide ion
 ($\mathrm{Br}^-$). A **carbocation intermediate** is formed:
 
-$$\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{Br}-\mathrm{CH}_2^+ + \mathrm{Br}^-$$
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{Br}-\mathrm{CH}_2^+ + \mathrm{Br}^-
+$$
 
 Step 3: The bromide ion attacks the carbocation from the opposite side, forming the product
 1,2-dibromoethane:
 
-$$\mathrm{CH}_2\mathrm{Br}-\mathrm{CH}_2^+ + \mathrm{Br}^- \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}$$
+$$
+\mathrm{CH}_2\mathrm{Br}-\mathrm{CH}_2^+ + \mathrm{Br}^- \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}
+$$
 
 **Question 4:** Explain why benzene undergoes substitution reactions rather than addition reactions
 With bromine, despite having a high electron density.
@@ -1436,7 +1604,9 @@ $\mathrm{Y}$ = ethyl ethanoate: $\mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3$
 
 Formation equation:
 
-$$\mathrm{CH}_3\mathrm{COOH} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \rightleftharpoons \mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{COOH} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \rightleftharpoons \mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}
+$$
 
 Conditions: concentrated $\mathrm{H}_2\mathrm{SO}_4$ catalyst, heat under reflux.
 
@@ -1471,7 +1641,9 @@ Hexane-1,6-diamine: $\mathrm{H}_2\mathrm{N}(\mathrm{CH}_2)_6\mathrm{NH}_2$
 
 Repeating unit of Nylon-6,6:
 
-$$\left[\mathrm{--OC}(\mathrm{CH}_2)_4\mathrm{CONH}(\mathrm{CH}_2)_6\mathrm{NH--}\right]_n$$
+$$
+\left[\mathrm{--OC}(\mathrm{CH}_2)_4\mathrm{CONH}(\mathrm{CH}_2)_6\mathrm{NH--}\right]_n
+$$
 
 The condensation polymerisation eliminates water molecules at each amide bond formed.
 
@@ -1700,7 +1872,9 @@ pressure.
 
 Type: **hydration** (addition reaction).
 
-$$\mathrm{CH_3CH=CH_2} + \mathrm{H_2O} \xrightarrow{\mathrm{H_3PO_4}} \mathrm{CH_3CH_2CH_2OH}$$
+$$
+\mathrm{CH_3CH=CH_2} + \mathrm{H_2O} \xrightarrow{\mathrm{H_3PO_4}} \mathrm{CH_3CH_2CH_2OH}
+$$
 
 Note: The major product follows Markovnikov's rule, giving propan-2-ol. To obtain propan-1-ol
 specifically, an indirect route via hydroboration-oxidation would be needed (beyond DSE scope).
@@ -1736,7 +1910,9 @@ _If you get this wrong, revise: Electrophilic Aromatic Substitution (Section 2.4
 Conditions: concentrated $\mathrm{HNO_3}$ with concentrated $\mathrm{H_2SO_4}$ (catalyst) at
 $50$--$60^\circ\mathrm{C}$.
 
-$$\mathrm{C_6H_5CH_3} + \mathrm{HNO_3} \xrightarrow{\mathrm{conc.\ H_2SO_4}} \mathrm{C_6H_4(CH_3)(NO_2)} + \mathrm{H_2O}$$
+$$
+\mathrm{C_6H_5CH_3} + \mathrm{HNO_3} \xrightarrow{\mathrm{conc.\ H_2SO_4}} \mathrm{C_6H_4(CH_3)(NO_2)} + \mathrm{H_2O}
+$$
 
 The product is a mixture of 2-nitrotoluene (minor) and 4-nitrotoluene (major), because the
 $-\mathrm{CH_3}$ group directs substitution to the ortho and para positions.
@@ -1786,7 +1962,9 @@ _If you get this wrong, revise: Addition Polymerisation (Section 4.1)_
 <details>
 <summary>Solution</summary>
 
-$$n\mathrm{CH_2=CHCl} \to \left[\mathrm{--CH_2--CHCl--}\right]_n$$
+$$
+n\mathrm{CH_2=CHCl} \to \left[\mathrm{--CH_2--CHCl--}\right]_n
+$$
 
 Repeating unit: $--\mathrm{CH_2--CHCl}--$
 
@@ -1828,7 +2006,9 @@ Reagent: acidified $\mathrm{K_2Cr_2O_7}$
 
 Conditions: heat, distil the product out as it forms (to prevent further oxidation)
 
-$$\mathrm{CH_3CH_2OH} \xrightarrow{[\mathrm{O}],\ \mathrm{distil}} \mathrm{CH_3CHO}$$
+$$
+\mathrm{CH_3CH_2OH} \xrightarrow{[\mathrm{O}],\ \mathrm{distil}} \mathrm{CH_3CHO}
+$$
 
 **Step 2:** Ethanal to ethanoic acid (strong oxidation)
 
@@ -1836,7 +2016,9 @@ Reagent: acidified $\mathrm{K_2Cr_2O_7}$
 
 Conditions: heat under reflux (ensures complete oxidation)
 
-$$\mathrm{CH_3CHO} \xrightarrow{[\mathrm{O}],\ \mathrm{reflux}} \mathrm{CH_3COOH}$$
+$$
+\mathrm{CH_3CHO} \xrightarrow{[\mathrm{O}],\ \mathrm{reflux}} \mathrm{CH_3COOH}
+$$
 
 Alternatively, a single step of oxidation under reflux converts ethanol directly to ethanoic acid.
 
@@ -1851,15 +2033,25 @@ _If you get this wrong, revise: Combustion and Stoichiometry (Section 2.1)_
 <details>
 <summary>Solution</summary>
 
-$$\mathrm{CaCO_3} + 2\mathrm{HCl} \to \mathrm{CaCl_2} + \mathrm{H_2O} + \mathrm{CO_2}$$
+$$
+\mathrm{CaCO_3} + 2\mathrm{HCl} \to \mathrm{CaCl_2} + \mathrm{H_2O} + \mathrm{CO_2}
+$$
 
-$$n(\mathrm{CO_2}) = \frac{1.15}{24.0} = 0.0479 \mathrm{ mol}$$
+$$
+n(\mathrm{CO_2}) = \frac{1.15}{24.0} = 0.0479 \mathrm{ mol}
+$$
 
-$$n(\mathrm{CaCO_3}) = 0.0479 \mathrm{ mol}$$
+$$
+n(\mathrm{CaCO_3}) = 0.0479 \mathrm{ mol}
+$$
 
-$$m(\mathrm{pure\ CaCO_3}) = 0.0479 \times 100 = 4.79 \mathrm{ g}$$
+$$
+m(\mathrm{pure\ CaCO_3}) = 0.0479 \times 100 = 4.79 \mathrm{ g}
+$$
 
-$$\mathrm{Percentage\ purity} = \frac{4.79}{6.0} \times 100\% = 79.8\%$$
+$$
+\mathrm{Percentage\ purity} = \frac{4.79}{6.0} \times 100\% = 79.8\%
+$$
 
 </details>
 
@@ -1873,11 +2065,15 @@ _If you get this wrong, revise: Chemical Properties of Alkanes (Section 2.1)_
 
 Complete combustion (excess $\mathrm{O_2}$):
 
-$$\mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O}$$
+$$
+\mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O}
+$$
 
 Incomplete combustion (limited $\mathrm{O_2}$):
 
-$$2\mathrm{CH_4} + 3\mathrm{O_2} \to 2\mathrm{CO} + 4\mathrm{H_2O}$$
+$$
+2\mathrm{CH_4} + 3\mathrm{O_2} \to 2\mathrm{CO} + 4\mathrm{H_2O}
+$$
 
 With even less oxygen, carbon (soot) may also be produced:
 $\mathrm{CH_4} + \mathrm{O_2} \to \mathrm{C} + 2\mathrm{H_2O}$
@@ -1931,7 +2127,9 @@ Type: **condensation polymerisation** (water is eliminated).
 
 Repeating unit:
 
-$$\left[\mathrm{--OC\mathrm{-}C_6H_4\mathrm{-}COOCH_2CH_2O--}\right]_n$$
+$$
+\left[\mathrm{--OC\mathrm{-}C_6H_4\mathrm{-}COOCH_2CH_2O--}\right]_n
+$$
 
 The benzene-1,4-dicarboxylic acid provides the $-\mathrm{COO-}$ linkage and the ethane-1,2-diol
 provides the $-\mathrm{OCH_2CH_2O-}$ linkage.
@@ -1954,7 +2152,9 @@ $\mathrm{P}$ = **ethyl propanoate**: $\mathrm{CH_3CH_2COOCH_2CH_3}$
 
 (b) Formation (esterification):
 
-$$\mathrm{CH_3CH_2COOH} + \mathrm{CH_3CH_2OH} \rightleftharpoons \mathrm{CH_3CH_2COOCH_2CH_3} + \mathrm{H_2O}$$
+$$
+\mathrm{CH_3CH_2COOH} + \mathrm{CH_3CH_2OH} \rightleftharpoons \mathrm{CH_3CH_2COOCH_2CH_3} + \mathrm{H_2O}
+$$
 
 Conditions: concentrated $\mathrm{H_2SO_4}$ catalyst, heat under reflux.
 
@@ -1987,7 +2187,9 @@ _If you get this wrong, revise: Cracking of Hydrocarbons (Section 2.1)_
 <details>
 <summary>Solution</summary>
 
-$$\mathrm{C_{14}H_{30}} \to \mathrm{C_2H_4} + \mathrm{C_{12}H_{26}}$$
+$$
+\mathrm{C_{14}H_{30}} \to \mathrm{C_2H_4} + \mathrm{C_{12}H_{26}}
+$$
 
 Type: **thermal cracking** (produces a mixture of alkanes and alkenes).
 
@@ -2029,13 +2231,19 @@ _If you get this wrong, revise: Esterification (Section 3.2)_
 <details>
 <summary>Solution</summary>
 
-$$n(\mathrm{propanoic\ acid}) = \frac{5.0}{74.0} = 0.0676 \mathrm{ mol}$$
+$$
+n(\mathrm{propanoic\ acid}) = \frac{5.0}{74.0} = 0.0676 \mathrm{ mol}
+$$
 
 Theoretical moles of ester $= 0.0676 \mathrm{ mol}$ (1:1 ratio)
 
-$$\mathrm{Theoretical\ mass} = 0.0676 \times 102 = 6.90 \mathrm{ g}$$
+$$
+\mathrm{Theoretical\ mass} = 0.0676 \times 102 = 6.90 \mathrm{ g}
+$$
 
-$$\mathrm{Percentage\ yield} = \frac{4.8}{6.90} \times 100\% = 69.6\%$$
+$$
+\mathrm{Percentage\ yield} = \frac{4.8}{6.90} \times 100\% = 69.6\%
+$$
 
 </details>
 

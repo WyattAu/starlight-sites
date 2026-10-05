@@ -16,7 +16,9 @@ import DesmosGraph from "@components/DesmosGraph";
 
 A **second-order linear ODE** has the form
 
-$$y'' + p(x)y' + q(x)y = g(x)$$
+$$
+y'' + p(x)y' + q(x)y = g(x)
+$$
 
 **Theorem 3.1.** If $y_1$ and $y_2$ are solutions of the homogeneous equation $y'' + py' + qy = 0$
 Then $c_1 y_1 + c_2 y_2$ is also a solution (superposition principle).
@@ -24,7 +26,9 @@ Then $c_1 y_1 + c_2 y_2$ is also a solution (superposition principle).
 **Theorem 3.2 (Wronskian Criterion).** Two solutions $y_1, y_2$ of the homogeneous equation form a
 **fundamental set** (i.e., span all solutions) if and only if their Wronskian is non-zero:
 
-$$W(y_1, y_2)(x) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} \neq 0$$
+$$
+W(y_1, y_2)(x) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} \neq 0
+$$
 
 **Abel's identity** states that $W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}$.
 
@@ -35,7 +39,9 @@ General solution of the homogeneous equation and $y_p$ is any particular solutio
 
 For $y'' + ay' + by = 0$ with $a, b$ constants, try $y = e^{rx}$:
 
-$$r^2 + ar + b = 0$$
+$$
+r^2 + ar + b = 0
+$$
 
 **Case 1: Two distinct real roots $r_1 \neq r_2$.** $y_h = c_1 e^{r_1 x} + c_2 e^{r_2 x}$.
 
@@ -192,7 +198,9 @@ $y = c_1 e^{-x} + c_2 xe^{-x} - 3e^{-x}\sin x$. $\blacksquare$
 
 Consider the forced harmonic oscillator
 
-$$y'' + \omega_0^2 y = F_0 \cos(\omega t)$$
+$$
+y'' + \omega_0^2 y = F_0 \cos(\omega t)
+$$
 
 **Case 1: $\omega \neq \omega_0$ (Non-resonant).** The particular solution is
 $y_p = \frac{F_0}{\omega_0^2 - \omega^2}\cos(\omega t)$With bounded amplitude.
@@ -204,7 +212,9 @@ $y_p'' + \omega_0^2 y_p = 2A\omega_0 \cos(\omega_0 t) - A\omega_0^2 t\sin(\omega
 
 Setting equal to $F_0 \cos(\omega_0 t)$: $A = \frac{F_0}{2\omega_0}$.
 
-$$y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)$$
+$$
+y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)
+$$
 
 The amplitude grows linearly with $t$ --- this is **resonance**. Physically, the system absorbs
 energy From the periodic forcing at its natural frequency, causing unbounded oscillations.
@@ -237,7 +247,9 @@ $y = t\sin(3t)$. $\blacksquare$
 **Theorem 3.4 (Variation of Parameters).** For $y'' + p(x)y' + q(x)y = g(x)$Let $y_1, y_2$ be a
 Fundamental set of solutions of the homogeneous equation. Then a particular solution is
 
-$$y_p = -y_1 \int \frac{y_2 g}{W}\, dx + y_2 \int \frac{y_1 g}{W}\, dx$$
+$$
+y_p = -y_1 \int \frac{y_2 g}{W}\, dx + y_2 \int \frac{y_1 g}{W}\, dx
+$$
 
 Where $W = W(y_1, y_2) = y_1 y_2' - y_2 y_1'$.
 
@@ -308,11 +320,15 @@ Multiplicity 2). $\blacksquare$
 
 An **Euler-Cauchy (equidimensional) equation** has the form
 
-$$x^2 y'' + axy' + by = 0, \quad x > 0$$
+$$
+x^2 y'' + axy' + by = 0, \quad x > 0
+$$
 
 The substitution $y = x^r$ gives the characteristic equation
 
-$$r(r - 1) + ar + b = r^2 + (a - 1)r + b = 0$$
+$$
+r(r - 1) + ar + b = r^2 + (a - 1)r + b = 0
+$$
 
 **Case 1: Two distinct real roots $r_1 \neq r_2$.** $y_h = c_1 x^{r_1} + c_2 x^{r_2}$.
 
@@ -363,11 +379,15 @@ For $y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1 y' + a_0 y = 0$:
 A mass $m$ on a spring with spring constant $k$ and damping coefficient $c$, subject to external
 force $F(t)$, satisfies
 
-$$mx'' + cx' + kx = F(t)$$
+$$
+mx'' + cx' + kx = F(t)
+$$
 
 Dividing by $m$ and setting $\omega_0 = \sqrt{k/m}$, $\gamma = c/(2m)$:
 
-$$x'' + 2\gamma x' + \omega_0^2 x = \frac{F(t)}{m}$$
+$$
+x'' + 2\gamma x' + \omega_0^2 x = \frac{F(t)}{m}
+$$
 
 The homogeneous solution depends on the discriminant $\gamma^2 - \omega_0^2$:
 
@@ -414,7 +434,9 @@ grows:
 
 Consider the forced harmonic oscillator
 
-$$y'' + \omega_0^2 y = F_0 \cos(\omega t)$$
+$$
+y'' + \omega_0^2 y = F_0 \cos(\omega t)
+$$
 
 **Case 1: $\omega \neq \omega_0$ (Non-resonant).** The particular solution is
 $y_p = \frac{F_0}{\omega_0^2 - \omega^2}\cos(\omega t)$ with bounded amplitude.
@@ -426,7 +448,9 @@ $y_p'' + \omega_0^2 y_p = 2A\omega_0 \cos(\omega_0 t) - A\omega_0^2 t\sin(\omega
 
 Setting equal to $F_0 \cos(\omega_0 t)$: $A = \frac{F_0}{2\omega_0}$.
 
-$$y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)$$
+$$
+y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)
+$$
 
 The amplitude grows linearly with $t$ --- this is **resonance**. Physically, the system absorbs
 energy from the periodic forcing at its natural frequency, causing unbounded oscillations.
@@ -478,7 +502,9 @@ Prefer undetermined coefficients --- it is much faster.
 **Theorem 3.6 (Abel's Identity).** If $y_1, y_2$ are solutions of $y'' + p(x)y' + q(x)y = 0$ Then
 their Wronskian satisfies
 
-$$W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}$$
+$$
+W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}
+$$
 
 _Proof._ Since $y_1, y_2$ satisfy the ODE:
 

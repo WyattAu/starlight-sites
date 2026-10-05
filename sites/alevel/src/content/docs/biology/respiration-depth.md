@@ -33,9 +33,13 @@ produce ATP. It is an exergonic, enzyme-catalysed process that occurs in every l
 
 The overall equation for aerobic respiration of glucose:
 
-$$\mathrm{C_6H_{12}O_6 + 6O_2 \to 6CO_2 + 6H_2O}$$
+$$
+\mathrm{C_6H_{12}O_6 + 6O_2 \to 6CO_2 + 6H_2O}
+$$
 
-$$\Delta G = -2870\ \mathrm{kJ\ mol^{-1}}$$
+$$
+\Delta G = -2870\ \mathrm{kJ\ mol^{-1}}
+$$
 
 However, not all of this energy is captured as ATP. Approximately 40% is captured (theoretical
 maximum approximately 38 ATP; actual yield approximately 30--32 ATP). The remainder is released as
@@ -67,7 +71,9 @@ occurs in the cytoplasm and does not require oxygen. One molecule of glucose
 **Step 1: Phosphorylation of glucose.** Glucose is phosphorylated by hexokinase (or glucokinase in
 the liver), using ATP:
 
-$$\mathrm{Glucose + ATP \to glucose\text{-}6\text{-}phosphate + ADP}$$
+$$
+\mathrm{Glucose + ATP \to glucose\text{-}6\text{-}phosphate + ADP}
+$$
 
 This traps glucose inside the cell (phosphorylated glucose cannot cross the cell membrane) and makes
 it more reactive.
@@ -79,7 +85,9 @@ compounds later.
 **Step 3: Second phosphorylation.** Fructose-6-phosphate is phosphorylated by phosphofructokinase
 (PFK), using a second ATP:
 
-$$\mathrm{Fructose\text{-}6\text{-}phosphate + ATP \to fructose\text{-}1,6\text{-}bisphosphate + ADP}$$
+$$
+\mathrm{Fructose\text{-}6\text{-}phosphate + ATP \to fructose\text{-}1,6\text{-}bisphosphate + ADP}
+$$
 
 PFK is a key regulatory enzyme: it is allosterically inhibited by ATP and citrate (signalling high
 energy status) and activated by AMP and fructose-2,6-bisphosphate (signalling low energy status).
@@ -97,12 +105,16 @@ both molecules follow the same pathway. All subsequent steps occur twice per glu
 which transfers two electrons and a proton to $\mathrm{NAD^+}$Forming NADH. A phosphate group is
 added from inorganic phosphate ($P_i$), producing 1,3-bisphosphoglycerate:
 
-$$\mathrm{G3P + NAD^+ + P_i \to 1,3\text{-}BPG + NADH + H^+}$$
+$$
+\mathrm{G3P + NAD^+ + P_i \to 1,3\text{-}BPG + NADH + H^+}
+$$
 
 **Step 7: Substrate-level phosphorylation (first).** Phosphoglycerate kinase transfers a phosphate
 group from 1,3-BPG to ADP, producing ATP and 3-phosphoglycerate:
 
-$$\mathrm{1,3\text{-}BPG + ADP \to 3\text{-}phosphoglycerate + ATP}$$
+$$
+\mathrm{1,3\text{-}BPG + ADP \to 3\text{-}phosphoglycerate + ATP}
+$$
 
 This occurs twice per glucose, producing 2 ATP (recovering the 2 ATP invested in steps 1 and 3).
 
@@ -112,12 +124,16 @@ mutase.
 **Step 9: Dehydration.** 2-phosphoglycerate is converted to phosphoenolpyruvate (PEP) by enolase,
 releasing one molecule of $\mathrm{H_2O}$ per molecule (2 per glucose):
 
-$$\mathrm{2\text{-}phosphoglycerate \to PEP + H_2O}$$
+$$
+\mathrm{2\text{-}phosphoglycerate \to PEP + H_2O}
+$$
 
 **Step 10: Substrate-level phosphorylation (second).** Pyruvate kinase transfers the phosphate from
 PEP to ADP, producing ATP and pyruvate:
 
-$$\mathrm{PEP + ADP \to pyruvate + ATP}$$
+$$
+\mathrm{PEP + ADP \to pyruvate + ATP}
+$$
 
 This occurs twice per glucose, producing 2 additional ATP.
 
@@ -132,7 +148,9 @@ This occurs twice per glucose, producing 2 additional ATP.
 
 ### 2.4 Energetics of Glycolysis
 
-$$\Delta G^\circ_{\text{glycolysis}} = -63\ \mathrm{kJ\ mol^{-1}}$$
+$$
+\Delta G^\circ_{\text{glycolysis}} = -63\ \mathrm{kJ\ mol^{-1}}
+$$
 
 The reaction is exergonic overall but contains both endergonic and exergonic steps. The
 energy-investment steps (steps 1 and 3) are endergonic and are coupled to the exergonic hydrolysis
@@ -156,7 +174,9 @@ that follow require oxygen to regenerate $\mathrm{NAD^+}$ and FAD).
 
 The reaction occurs twice per glucose molecule (one per pyruvate):
 
-$$\mathrm{Pyruvate + CoA + NAD^+ \to acetyl\ CoA + CO_2 + NADH + H^+}$$
+$$
+\mathrm{Pyruvate + CoA + NAD^+ \to acetyl\ CoA + CO_2 + NADH + H^+}
+$$
 
 **Key points:**
 
@@ -189,7 +209,9 @@ The cycle turns twice per glucose molecule (one turn per acetyl CoA).
 **Step 1: Formation of citrate.** Acetyl CoA (2-carbon) combines with oxaloacetate (4-carbon) to
 form citrate (6-carbon). CoA is released and recycled. Catalysed by citrate synthase.
 
-$$\mathrm{Acetyl\ CoA + oxaloacetate + H_2O \to citrate + CoA + H^+}$$
+$$
+\mathrm{Acetyl\ CoA + oxaloacetate + H_2O \to citrate + CoA + H^+}
+$$
 
 **Step 2: Isomerisation to isocitrate.** Citrate is converted to isocitrate by aconitase. This
 rearrangement makes the molecule more reactive for the next step.
@@ -198,35 +220,47 @@ rearrangement makes the molecule more reactive for the next step.
 dehydrogenase, producing $\alpha$-ketoglutarate (5-carbon), $\mathrm{CO_2}$ And NADH. This is a key
 regulatory step.
 
-$$\mathrm{Isocitrate + NAD^+ \to \alpha\text{-}ketoglutarate + CO_2 + NADH + H^+}$$
+$$
+\mathrm{Isocitrate + NAD^+ \to \alpha\text{-}ketoglutarate + CO_2 + NADH + H^+}
+$$
 
 **Step 4: Second oxidative decarboxylation.** $\alpha$-Ketoglutarate is oxidised and decarboxylated
 by the $\alpha$-ketoglutarate dehydrogenase complex, producing succinyl CoA (4-carbon),
 $\mathrm{CO_2}$ And NADH.
 
-$$\mathrm{\alpha\text{-}Ketoglutarate + CoA + NAD^+ \to succinyl\ CoA + CO_2 + NADH + H^+}$$
+$$
+\mathrm{\alpha\text{-}Ketoglutarate + CoA + NAD^+ \to succinyl\ CoA + CO_2 + NADH + H^+}
+$$
 
 **Step 5: Substrate-level phosphorylation.** Succinyl CoA is converted to succinate by succinyl
 thiokinase (succinyl CoA synthetase). The energy released by cleaving the thioester bond in succinyl
 CoA is used to phosphorylate GDP to GTP, which is equivalent to ATP:
 
-$$\mathrm{Succinyl\ CoA + GDP + P_i \to succinate + GTP + CoA + H^+}$$
+$$
+\mathrm{Succinyl\ CoA + GDP + P_i \to succinate + GTP + CoA + H^+}
+$$
 
 **Step 6: Oxidation of succinate.** Succinate is oxidised to fumarate by succinate dehydrogenase (an
 integral membrane protein embedded in the inner mitochondrial membrane, directly feeding electrons
 to the electron transport chain via FAD). FAD is reduced to $\mathrm{FADH_2}$.
 
-$$\mathrm{Succinate + FAD \to fumarate + FADH_2}$$
+$$
+\mathrm{Succinate + FAD \to fumarate + FADH_2}
+$$
 
 **Step 7: Hydration.** Fumarate is hydrated to malate by fumarase, adding $\mathrm{H_2O}$:
 
-$$\mathrm{Fumarate + H_2O \to malate}$$
+$$
+\mathrm{Fumarate + H_2O \to malate}
+$$
 
 **Step 8: Oxidation to oxaloacetate.** Malate is oxidised to oxaloacetate by malate dehydrogenase,
 reducing $\mathrm{NAD^+}$ to NADH. This regenerates oxaloacetate, which can accept another acetyl
 CoA, continuing the cycle.
 
-$$\mathrm{Malate + NAD^+ \to oxaloacetate + NADH + H^+}$$
+$$
+\mathrm{Malate + NAD^+ \to oxaloacetate + NADH + H^+}
+$$
 
 ### 4.3 Summary Per Glucose Molecule (Two Turns)
 
@@ -290,7 +324,9 @@ across the inner membrane.
    molecular oxygen ($\mathrm{O_2}$), the final electron acceptor. Oxygen combines with electrons
    and protons to form water:
 
-$$\mathrm{O_2 + 4e^- + 4H^+ \to 2H_2O}$$
+$$
+\mathrm{O_2 + 4e^- + 4H^+ \to 2H_2O}
+$$
 
 Complex IV pumps $2\ \mathrm{H^+}$.
 
@@ -305,7 +341,9 @@ The chemiosmotic theory explains how the energy from electron transport is used 
    in $\mathrm{H^+}$ concentration) and an **electrical gradient** (difference in charge).
 3. The combined electrochemical gradient is called the **proton motive force (PMF)**:
 
-$$\mathrm{PMF} = \Delta\Psi - \frac{2.303RT}{F}\Delta\mathrm{pH}$$
+$$
+\mathrm{PMF} = \Delta\Psi - \frac{2.303RT}{F}\Delta\mathrm{pH}
+$$
 
 Where $\Delta\Psi$ is the membrane potential (approximately $150$--$180\ \mathrm{mV}$) and
 $\Delta\mathrm{pH}$ is the pH difference across the membrane (approximately 0.5--1.0 unit).
@@ -315,7 +353,9 @@ $\Delta\mathrm{pH}$ is the pH difference across the membrane (approximately 0.5-
 2. As protons flow through ATP synthase, the flow drives the rotation of a rotor, which induces
    conformational changes in the catalytic domains that synthesise ATP from ADP and $P_i$:
 
-$$\mathrm{ADP + P_i \to ATP}$$
+$$
+\mathrm{ADP + P_i \to ATP}
+$$
 
 **Proton pumping summary:**
 
@@ -373,7 +413,9 @@ In the absence of oxygen, pyruvate from glycolysis cannot enter the mitochondria
 reaction and Krebs cycle. Instead, pyruvate is converted to **lactate** (lactic acid) by the enzyme
 **lactate dehydrogenase**:
 
-$$\mathrm{Pyruvate + NADH + H^+ \to lactate + NAD^+}$$
+$$
+\mathrm{Pyruvate + NADH + H^+ \to lactate + NAD^+}
+$$
 
 The critical purpose of this reaction is to **regenerate $\mathrm{NAD^+}$**, allowing glycolysis to
 continue. Without $\mathrm{NAD^+}$Glycolysis would stop at step 6, and the cell would have no ATP
@@ -386,9 +428,13 @@ reaction, Krebs cycle, and oxidative phosphorylation do not occur).
 
 Yeast and some plant cells carry out alcoholic fermentation:
 
-$$\mathrm{Pyruvate \xrightarrow{\text{decarboxylase}} ethanal + CO_2}$$
+$$
+\mathrm{Pyruvate \xrightarrow{\text{decarboxylase}} ethanal + CO_2}
+$$
 
-$$\mathrm{Ethanal + NADH + H^+ \xrightarrow{\text{alcohol dehydrogenase}} ethanol + NAD^+}$$
+$$
+\mathrm{Ethanal + NADH + H^+ \xrightarrow{\text{alcohol dehydrogenase}} ethanol + NAD^+}
+$$
 
 Products: **ethanol** and $\mathrm{CO_2}$. ATP yield: 2 ATP per glucose.
 
@@ -426,7 +472,9 @@ $\mathrm{C{-}O$ bonds). This is why lipids are preferred for long-term energy st
 
 The respiratory quotient (RQ) is the ratio of $\mathrm{CO_2}$ produced to $\mathrm{O_2}$ consumed:
 
-$$RQ = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volume of }\mathrm{O_2}\text{ consumed}}$$
+$$
+RQ = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volume of }\mathrm{O_2}\text{ consumed}}
+$$
 
 For different substrates:
 
@@ -450,7 +498,9 @@ For different substrates:
 A respirometer experiment shows that a germinating seedling consumes $24.0\ \mathrm{cm^3}$ of
 $\mathrm{O_2}$ and produces $17.0\ \mathrm{cm^3}$ of $\mathrm{CO_2}$ in 30 minutes.
 
-$$RQ = \frac{17.0}{24.0} = 0.71$$
+$$
+RQ = \frac{17.0}{24.0} = 0.71
+$$
 
 An RQ of 0.71 indicates that the seedling is primarily respiring lipids (using energy stores in the
 seed).
@@ -673,7 +723,9 @@ varies:
 
 Overall efficiency of aerobic respiration:
 
-$$\text{Efficiency} = \frac{\text{Energy captured as ATP}}{\text{Total energy released}} = \frac{30 \times 30.5}{2870} = \frac{915}{2870} = 31.9\%$$
+$$
+\text{Efficiency} = \frac{\text{Energy captured as ATP}}{\text{Total energy released}} = \frac{30 \times 30.5}{2870} = \frac{915}{2870} = 31.9\%
+$$
 
 This means approximately 68% of the energy in glucose is lost as heat. While this seems inefficient,
 it is sufficient for the metabolic demands of most organisms because glucose is continuously
@@ -771,7 +823,9 @@ $\mathrm{O_2}$ consumed and $\mathrm{CO_2}$ produced. For carbohydrate substrate
 is zero (volumes cancel). For lipid substrates where $RQ < 1$The measured volume change
 underestimates $\mathrm{O_2}$ consumption.
 
-$$\text{True}\ \mathrm{O_2}\text{consumption} = \text{Measured volume change} \times \frac{1}{1 - RQ}$$
+$$
+\text{True}\ \mathrm{O_2}\text{consumption} = \text{Measured volume change} \times \frac{1}{1 - RQ}
+$$
 
 ### 12.2 Worked Example: Determining the Respiratory Substrate
 
@@ -786,7 +840,9 @@ produced $= 1.5\ \mathrm{cm^3}$.
 
 Therefore: $\mathrm{CO_2}$ produced $= 3.0 - 1.5 = 1.5\ \mathrm{cm^3}$.
 
-$$RQ = \frac{1.5}{3.0} = 0.50$$
+$$
+RQ = \frac{1.5}{3.0} = 0.50
+$$
 
 An RQ of 0.50 suggests a mix of carbohydrate and lipid substrates being respired. A purely
 carbohydrate substrate would give $RQ = 1.0$; a purely lipid substrate would give $RQ \approx 0.7$.
@@ -859,7 +915,9 @@ $\mathrm{O_2}$ required to oxidise the accumulated lactate after exercise.
 
 The oxidation of lactate:
 
-$$\mathrm{C_3H_6O_3 + 3O_2 \to 3CO_2 + 3H_2O}$$
+$$
+\mathrm{C_3H_6O_3 + 3O_2 \to 3CO_2 + 3H_2O}
+$$
 
 Molar mass of lactate $= 90\ \mathrm{g\ mol^{-1}}$.
 
@@ -870,7 +928,9 @@ $\mathrm{O_2}$ required $= 0.00556 \times 3 = 0.0167\ \mathrm{mol}$.
 Volume of $\mathrm{O_2}$ at room temperature (assuming $1\ \mathrm{mol}$ gas
 $\approx 24\ \mathrm{dm^3}$):
 
-$$V = 0.0167 \times 24 = 0.40\ \mathrm{dm^3} = 400\ \mathrm{cm^3}$$
+$$
+V = 0.0167 \times 24 = 0.40\ \mathrm{dm^3} = 400\ \mathrm{cm^3}
+$$
 
 The runner must breathe an additional $400\ \mathrm{cm^3}$ of $\mathrm{O_2}$ above resting
 requirements to fully repay the oxygen debt.
@@ -990,7 +1050,9 @@ anaerobically.
 
 **Anaerobic respiration in yeast (alcoholic fermentation):**
 
-$$\text{Glucose} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2} + 2\ \text{ATP}
+$$
 
 This is used in:
 
@@ -1003,7 +1065,9 @@ This is used in:
 
 ### 16.2 Lactate Fermentation in Animals
 
-$$\text{Glucose} \to 2\ \text{lactate} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{lactate} + 2\ \text{ATP}
+$$
 
 Lactate fermentation occurs in:
 
@@ -1134,7 +1198,9 @@ Typical values:
 
 $\dot{V}\mathrm{O_2}$ max is determined by the **Fick equation**:
 
-$$\dot{V}\mathrm{O_2\ max} = Q \times (C_a - C_v)$$
+$$
+\dot{V}\mathrm{O_2\ max} = Q \times (C_a - C_v)
+$$
 
 Where $Q$ = cardiac output (L/min), $C_a$ = arterial $\mathrm{O_2}$ content, $C_v$ = venous
 $\mathrm{O_2}$ content. The difference $(C_a - C_v)$ is the **arteriovenous $\mathrm{O_2}$
@@ -1180,7 +1246,9 @@ difference**.
 
 Respiration and photosynthesis are complementary processes that drive the global carbon cycle:
 
-$$6\mathrm{CO_2 + 6H_2O \xrightleftharpoons[\text{respiration}]{\text{photosynthesis}} C_6H_{12}O_6 + 6O_2}$$
+$$
+6\mathrm{CO_2 + 6H_2O \xrightleftharpoons[\text{respiration}]{\text{photosynthesis}} C_6H_{12}O_6 + 6O_2}
+$$
 
 In the short term, the two processes are approximately balanced: the $\mathrm{O_2}$ produced by
 photosynthesis is approximately equal to the $\mathrm{O_2}$ consumed by respiration, and the
@@ -1387,7 +1455,9 @@ of amino acids enter metabolic pathways at various points:
 The amino group is converted to ammonia ($\mathrm{NH_3}$), which is highly toxic. In the liver,
 ammonia is converted to urea by the **ornithine cycle** (urea cycle):
 
-$$2\mathrm{NH_3} + \mathrm{CO_2} + 3\mathrm{ATP} \to \text{urea}(\mathrm{CO(NH_2)_2}) + 2\mathrm{H_2O} + 3\mathrm{ADP} + 2\mathrm{P_i}$$
+$$
+2\mathrm{NH_3} + \mathrm{CO_2} + 3\mathrm{ATP} \to \text{urea}(\mathrm{CO(NH_2)_2}) + 2\mathrm{H_2O} + 3\mathrm{ADP} + 2\mathrm{P_i}
+$$
 
 Urea is less toxic than ammonia, relatively soluble in water, and excreted by the kidneys.
 
@@ -1398,7 +1468,9 @@ Urea is less toxic than ammonia, relatively soluble in water, and excreted by th
 The respiratory quotient (RQ) is the ratio of $\mathrm{CO_2}$ produced to $\mathrm{O_2}$ consumed
 during respiration:
 
-$$\mathrm{RQ} = \frac{\text{volume of } \mathrm{CO_2} \text{ produced}}{\text{volume of } \mathrm{O_2} \text{ consumed}}$$
+$$
+\mathrm{RQ} = \frac{\text{volume of } \mathrm{CO_2} \text{ produced}}{\text{volume of } \mathrm{O_2} \text{ consumed}}
+$$
 
 | Substrate             | RQ                 | Explanation                                                                                            |
 | --------------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
@@ -1410,7 +1482,9 @@ $$\mathrm{RQ} = \frac{\text{volume of } \mathrm{CO_2} \text{ produced}}{\text{vo
 **Example calculation:** An organism consumes $240\ \mathrm{cm^3}$ of $\mathrm{O_2}$ and produces
 $192\ \mathrm{cm^3}$ of $\mathrm{CO_2}$.
 
-$$\mathrm{RQ} = \frac{192}{240} = 0.8$$
+$$
+\mathrm{RQ} = \frac{192}{240} = 0.8
+$$
 
 This indicates a mixture of carbohydrate and lipid (or protein) is being respired.
 
@@ -1589,7 +1663,9 @@ but no children of an affected father will. The severity of mitochondrial diseas
 
 Location: mitochondrial matrix.
 
-$$\text{Pyruvate (3C)} + \mathrm{NAD^+} + \text{CoA} \to \text{acetyl CoA (2C)} + \mathrm{CO_2} + \mathrm{NADH}$$
+$$
+\text{Pyruvate (3C)} + \mathrm{NAD^+} + \text{CoA} \to \text{acetyl CoA (2C)} + \mathrm{CO_2} + \mathrm{NADH}
+$$
 
 For each glucose molecule, the link reaction occurs twice (one for each pyruvate).
 
@@ -1641,7 +1717,9 @@ Location: mitochondrial matrix.
 
 Yeast carries out alcoholic fermentation in the absence of $\mathrm{O_2}$:
 
-$$\text{Glucose} \to 2\text{ pyruvate} \to 2\text{ ethanol} + 2\mathrm{CO_2} + 2\text{ ATP}$$
+$$
+\text{Glucose} \to 2\text{ pyruvate} \to 2\text{ ethanol} + 2\mathrm{CO_2} + 2\text{ ATP}
+$$
 
 Steps:
 
@@ -1660,7 +1738,9 @@ biofuel production (bioethanol).
 
 Mammalian muscle cells carry out lactate fermentation during intense exercise:
 
-$$\text{Glucose} \to 2\text{ pyruvate} \to 2\text{ lactate} + 2\text{ ATP}$$
+$$
+\text{Glucose} \to 2\text{ pyruvate} \to 2\text{ lactate} + 2\text{ ATP}
+$$
 
 Steps:
 
@@ -1808,7 +1888,9 @@ The body can switch between metabolic fuels depending on circumstances:
 During intense exercise, muscles may not receive enough $\mathrm{O_2}$ for aerobic respiration.
 Anaerobic respiration occurs:
 
-$$\text{Glucose} \to 2\ \text{lactate} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{lactate} + 2\ \text{ATP}
+$$
 
 The oxygen debt is the amount of extra $\mathrm{O_2}$ required after exercise to:
 
@@ -1845,7 +1927,9 @@ dangerous lactate accumulation in the blood and recycles carbon skeletons.
 
 The respiratory quotient is the ratio of $\mathrm{CO_2}$ produced to $\mathrm{O_2}$ consumed:
 
-$$\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Volume of } \mathrm{O_2} \text{ consumed}}$$
+$$
+\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Volume of } \mathrm{O_2} \text{ consumed}}
+$$
 
 ### 31.2 RQ Values for Different Substrates
 
@@ -1893,7 +1977,9 @@ $$\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Vo
 
 ### 33.1 Anaerobic Respiration in Yeast (Fermentation)
 
-$$\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2} + 2\ \text{ATP}
+$$
 
 | Step                        | Enzyme                          | What Happens                                                                                                        |
 | --------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -1903,7 +1989,9 @@ $$\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2}
 
 ### 33.2 Anaerobic Respiration in Mammalian Muscle
 
-$$\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{lactate} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{lactate} + 2\ \text{ATP}
+$$
 
 | Step                  | Enzyme                      | What Happens                                                                   |
 | --------------------- | --------------------------- | ------------------------------------------------------------------------------ |
@@ -1959,7 +2047,9 @@ prokaryotes that were engulfed by a larger host cell:
 
 ### 35.2 ATP Hydrolysis
 
-$$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
+$$
+\mathrm{ATP + H_2O \to ADP + P_i + energy}
+$$
 
 | Feature                  | Value                                                                                                        |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------ |
@@ -2020,7 +2110,9 @@ $$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
 | 3    | The remaining 2C fragment is oxidised: NAD$^+$ is reduced to NADH                                            |
 | 4    | The oxidised 2C fragment combines with coenzyme A (CoA) to form acetyl CoA                                   |
 
-$$\text{Pyruvate (3C)} + \text{CoA} + \text{NAD}^+ \to \text{Acetyl CoA (2C)} + \mathrm{CO_2} + \text{NADH}$$
+$$
+\text{Pyruvate (3C)} + \text{CoA} + \text{NAD}^+ \to \text{Acetyl CoA (2C)} + \mathrm{CO_2} + \text{NADH}
+$$
 
 Enzyme: **Pyruvate dehydrogenase** (a large multi-enzyme complex).
 
@@ -2145,7 +2237,9 @@ molecule (6 vs 10). Always use 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2}
 
 ### 43.2 Calculating RQ
 
-$$\mathrm{RQ} = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volume of }\mathrm{O_2}\text{ consumed}}$$
+$$
+\mathrm{RQ} = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volume of }\mathrm{O_2}\text{ consumed}}
+$$
 
 | Substrate                    | Equation                                               | RQ Calculation       |
 | ---------------------------- | ------------------------------------------------------ | -------------------- |
@@ -2251,7 +2345,9 @@ producing 7 $\mathrm{FADH_2}$, 7 NADH, and 8 acetyl CoA.
 - 8 acetyl CoA through Krebs cycle: $8 \times 10 = 80$ ATP (24 NADH, 8 $\mathrm{FADH_2}$, 8 GTP)
 - Activation cost: $-2$ ATP
 
-$$\text{Total} = 10.5 + 17.5 + 80 - 2 = 106\ \mathrm{ATP}$$
+$$
+\text{Total} = 10.5 + 17.5 + 80 - 2 = 106\ \mathrm{ATP}
+$$
 
 $\blacksquare$
 
@@ -2265,7 +2361,9 @@ in $\mathrm{cm^3\ min^{-1}}$.
 
 Volume: $V = 0.785 \times 24 = 18.84\ \mathrm{mm^3} = 0.01884\ \mathrm{cm^3}$.
 
-$$\text{Rate} = \frac{0.01884}{15} = 0.00126\ \mathrm{cm^3\ min^{-1}}$$
+$$
+\text{Rate} = \frac{0.01884}{15} = 0.00126\ \mathrm{cm^3\ min^{-1}}
+$$
 
 $\blacksquare$
 

@@ -792,7 +792,9 @@ $K_p$.
 
 The relationship between $K$ and temperature is given by the van 't Hoff equation:
 
-$$\ln\frac{K_2}{K_1} = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{K_2}{K_1} = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 ### Kp Calculations: Heterogeneous Equilibria
 
@@ -802,7 +804,9 @@ not appear in the $K_c$ or $K_p$ expression.
 
 **Example:** $\mathrm{CaCO}_3(s) \rightleftharpoons \mathrm{CaO}(s) + \mathrm{CO}_2(g)$
 
-$$K_p = p(\mathrm{CO}_2)$$
+$$
+K_p = p(\mathrm{CO}_2)
+$$
 
 At $900^\circ\mathrm{C}$$K_p = 1.04\,\mathrm{atm}$. This means that in a closed container,
 $\mathrm{CaCO}_3$ decomposes until the partial pressure of $\mathrm{CO}_2$ reaches
@@ -828,20 +832,30 @@ $\mathrm{N}_2$ and $\mathrm{H}_2$ are recycled.
 The solubility product is the equilibrium constant for the dissolution of a sparingly soluble ionic
 compound:
 
-$$\mathrm{M}_a\mathrm{X}_b(s) \rightleftharpoons a\mathrm{M}^{b+}(aq) + b\mathrm{X}^{a-}(aq)$$
+$$
+\mathrm{M}_a\mathrm{X}_b(s) \rightleftharpoons a\mathrm{M}^{b+}(aq) + b\mathrm{X}^{a-}(aq)
+$$
 
-$$K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b$$
+$$
+K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b
+$$
 
 **Worked Example:** Calculate the solubility of $\mathrm{BaSO}_4$ in pure water.
 $K_{sp}(\mathrm{BaSO}_4) = 1.08 \times 10^{-10}\,\mathrm{mol^2\,dm^{-6}}$.
 
-$$\mathrm{BaSO}_4(s) \rightleftharpoons \mathrm{Ba}^{2+}(aq) + \mathrm{SO}_4^{2-}(aq)$$
+$$
+\mathrm{BaSO}_4(s) \rightleftharpoons \mathrm{Ba}^{2+}(aq) + \mathrm{SO}_4^{2-}(aq)
+$$
 
 If $s$ is the solubility in $\mathrm{mol\,dm^{-3}}$:
 
-$$K_{sp} = s \times s = s^2$$
+$$
+K_{sp} = s \times s = s^2
+$$
 
-$$s = \sqrt{K_{sp}} = \sqrt{1.08 \times 10^{-10}} = 1.04 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}$$
+$$
+s = \sqrt{K_{sp}} = \sqrt{1.08 \times 10^{-10}} = 1.04 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}
+$$
 
 **Common ion effect:** The solubility of $\mathrm{BaSO}_4$ is reduced in the presence of
 $\mathrm{Na}_2\mathrm{SO}_4$ (a common source of $\mathrm{SO}_4^{2-}$). Adding $\mathrm{SO}_4^{2-}$
@@ -855,7 +869,9 @@ After mixing, concentrations are halved:
 
 $[\mathrm{Ba}^{2+}] = 0.0050\,\mathrm{mol\,dm^{-3}}$$[\mathrm{SO}_4^{2-}] = 0.0050\,\mathrm{mol\,dm^{-3}}$
 
-$$Q = [\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}] = (0.0050)^2 = 2.5 \times 10^{-5}$$
+$$
+Q = [\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}] = (0.0050)^2 = 2.5 \times 10^{-5}
+$$
 
 Since $Q = 2.5 \times 10^{-5} \gg K_{sp} = 1.08 \times 10^{-10}$Precipitation will occur until
 $[\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}] = K_{sp}$.
@@ -867,7 +883,9 @@ $[\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}] = K_{sp}$.
 **Objective:** To determine the effect of concentration on the position of equilibrium for the
 reaction between iron(III) ions and thiocyanate ions.
 
-$$\mathrm{Fe}^{3+}(aq) + \mathrm{SCN}^-(aq) \rightleftharpoons \mathrm{FeSCN}^{2+}(aq)$$
+$$
+\mathrm{Fe}^{3+}(aq) + \mathrm{SCN}^-(aq) \rightleftharpoons \mathrm{FeSCN}^{2+}(aq)
+$$
 
 The $\mathrm{FeSCN}^{2+}$ ion is blood-red in colour. The intensity of the colour (measured by
 colorimetry) is proportional to its concentration.
@@ -912,19 +930,29 @@ $y(\mathrm{N}_2) = \frac{1-x}{4-2x}$$y(\mathrm{H}_2) = \frac{3-3x}{4-2x}$$y(\mat
 
 Partial pressures: $p_i = y_i \times P_\mathrm{total}$
 
-$$K_p = \frac{p(\mathrm{NH}_3)^2}{p(\mathrm{N}_2) \times p(\mathrm{H}_2)^3} = \frac{\left(\frac{2x}{4-2x} \times 200\right)^2}{\left(\frac{1-x}{4-2x} \times 200\right)\left(\frac{3-3x}{4-2x} \times 200\right)^3}$$
+$$
+K_p = \frac{p(\mathrm{NH}_3)^2}{p(\mathrm{N}_2) \times p(\mathrm{H}_2)^3} = \frac{\left(\frac{2x}{4-2x} \times 200\right)^2}{\left(\frac{1-x}{4-2x} \times 200\right)\left(\frac{3-3x}{4-2x} \times 200\right)^3}
+$$
 
 This simplifies to:
 
-$$K_p = \frac{4x^2(4-2x)^2}{(1-x)(3-3x)^3 \times 200^2}$$
+$$
+K_p = \frac{4x^2(4-2x)^2}{(1-x)(3-3x)^3 \times 200^2}
+$$
 
 Assuming $x$ is small (5% approximation): $4 - 2x \approx 4$$1 - x \approx 1$$3 - 3x \approx 3$:
 
-$$6.0 \times 10^{-3} = \frac{4x^2 \times 16}{1 \times 27 \times 40000} = \frac{64x^2}{1080000}$$
+$$
+6.0 \times 10^{-3} = \frac{4x^2 \times 16}{1 \times 27 \times 40000} = \frac{64x^2}{1080000}
+$$
 
-$$x^2 = \frac{6.0 \times 10^{-3} \times 1080000}{64} = \frac{6480}{64} = 101.25$$
+$$
+x^2 = \frac{6.0 \times 10^{-3} \times 1080000}{64} = \frac{6480}{64} = 101.25
+$$
 
-$$x \approx 10.1$$
+$$
+x \approx 10.1
+$$
 
 This is inconsistent with the assumption that $x$ is small (it exceeds the initial moles of
 $\mathrm{N}_2$). This shows that at 200 atm and $500^\circ\mathrm{C}$The equilibrium lies
@@ -979,7 +1007,9 @@ $\mathrm{CH}_3\mathrm{COOH} = 1.00 - 0.667 = 0.333\,\mathrm{mol}$$\mathrm{CH}_3\
 
 Since all species are in the same volume (cancels in $K_c$):
 
-$$K_c = \frac{[\mathrm{ester}][\mathrm{H}_2\mathrm{O}]}{[\mathrm{acid}][\mathrm{alcohol}]} = \frac{0.667 \times 0.667}{0.333 \times 0.333} = \frac{0.445}{0.111} = 4.01$$
+$$
+K_c = \frac{[\mathrm{ester}][\mathrm{H}_2\mathrm{O}]}{[\mathrm{acid}][\mathrm{alcohol}]} = \frac{0.667 \times 0.667}{0.333 \times 0.333} = \frac{0.445}{0.111} = 4.01
+$$
 
 (1 mark for equilibrium moles, 1 mark for expression, 1 mark for calculation.)
 
@@ -1006,13 +1036,19 @@ stoichiometric coefficient.
 
 Calculation (3 marks):
 
-$$\mathrm{PbI}_2(s) \rightleftharpoons \mathrm{Pb}^{2+}(aq) + 2\mathrm{I}^-(aq)$$
+$$
+\mathrm{PbI}_2(s) \rightleftharpoons \mathrm{Pb}^{2+}(aq) + 2\mathrm{I}^-(aq)
+$$
 
 If $s$ is the solubility: $[\mathrm{Pb}^{2+}] = s$$[\mathrm{I}^-] = 2s$
 
-$$K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = s \times (2s)^2 = 4s^3$$
+$$
+K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = s \times (2s)^2 = 4s^3
+$$
 
-$$s = \sqrt[3]{\frac{K_{sp}}{4}} = \sqrt[3]{\frac{9.8 \times 10^{-9}}{4}} = \sqrt[3]{2.45 \times 10^{-9}} = 1.35 \times 10^{-3}\,\mathrm{mol\,dm^{-3}}$$
+$$
+s = \sqrt[3]{\frac{K_{sp}}{4}} = \sqrt[3]{\frac{9.8 \times 10^{-9}}{4}} = \sqrt[3]{2.45 \times 10^{-9}} = 1.35 \times 10^{-3}\,\mathrm{mol\,dm^{-3}}
+$$
 
 (1 mark for expression, 1 mark for substitution, 1 mark for calculation.)
 

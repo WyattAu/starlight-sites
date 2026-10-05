@@ -44,7 +44,9 @@ When both hold, DP reduces an exponential-time recursive solution to polynomial 
 
 How many distinct ways to climb $n$ stairs, taking 1 or 2 steps at a time?
 
-$$dp[i] = dp[i-1] + dp[i-2]$$
+$$
+dp[i] = dp[i-1] + dp[i-2]
+$$
 
 ```python
 def climb_stairs(n):
@@ -79,7 +81,9 @@ def climb_stairs_memo(n, memo=None):
 Given an array of non-negative integers representing money at each house, maximise the amount you
 Can rob without robbing two adjacent houses.
 
-$$dp[i] = \max(dp[i-1], dp[i-2] + nums[i])$$
+$$
+dp[i] = \max(dp[i-1], dp[i-2] + nums[i])
+$$
 
 ```python
 def house_robber(nums):
@@ -107,7 +111,9 @@ def house_robber(nums):
 Given coins of different denominations and a target amount, find the minimum number of coins needed
 To make that amount. Return -1 if it is not possible.
 
-$$dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin$$
+$$
+dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin
+$$
 
 ```python
 def coin_change(coins, amount):
@@ -253,7 +259,9 @@ def edit_distance(s1, s2):
 Given items with weights and values, and a knapsack with capacity $W$Maximise the total value
 Without exceeding the capacity.
 
-$$dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w$$
+$$
+dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w
+$$
 
 ```python
 def knapsack_01(weights, values, capacity):
@@ -440,7 +448,9 @@ Given a chain of matrices with dimensions $d_0 \times d_1$, $d_1 \times d_2$...,
 $d_{n-1} \times
 D_n$, find the minimum number of scalar multiplications to compute the product.
 
-$$dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + d_i \cdot d_{k+1} \cdot d_{j+1})$$
+$$
+dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + d_i \cdot d_{k+1} \cdot d_{j+1})
+$$
 
 ```python
 def matrix_chain_order(dims):
@@ -501,7 +511,9 @@ Number of elements is small ( $n \le 20$), giving $2^n$ states.
 
 Find the minimum cost to visit all cities exactly once and return to the start.
 
-$$dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \\{i\\}][j] + dist[j][i])$$
+$$
+dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \\{i\\}][j] + dist[j][i])
+$$
 
 ```python
 def tsp(dist):

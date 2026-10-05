@@ -21,7 +21,9 @@ description: "For a plane wave propagating in the -direction: Comprehensive educ
 
 For a plane wave propagating in the $z$-direction:
 
-$$\mathbf{E} = E_{0x}\cos(kz - \omega t)\,\hat{\mathbf{x}} + E_{0y}\cos(kz - \omega t + \delta)\,\hat{\mathbf{y}}$$
+$$
+\mathbf{E} = E_{0x}\cos(kz - \omega t)\,\hat{\mathbf{x}} + E_{0y}\cos(kz - \omega t + \delta)\,\hat{\mathbf{y}}
+$$
 
 - **Linear polarization:** $\delta = 0$ or $\delta = \pi$. The E-field oscillates along a fixed
   line.
@@ -34,7 +36,9 @@ $$\mathbf{E} = E_{0x}\cos(kz - \omega t)\,\hat{\mathbf{x}} + E_{0y}\cos(kz - \om
 When linearly polarised light of intensity $I_0$ passes through a polariser at angle $\theta$ to the
 Polarisation direction:
 
-$$I = I_0 \cos^2\theta$$
+$$
+I = I_0 \cos^2\theta
+$$
 
 **Proof.** The component of $\mathbf{E}$ along the polariser axis is $E\cos\theta$. Since
 $I \propto E^2$: $I = I_0 \cos^2\theta$. $\blacksquare$
@@ -65,7 +69,9 @@ Birefringent crystals (e.g., calcite) have two refractive indices: $n_o$ (ordina
 A **wave plate** of thickness $t$ introduces a relative phase shift between the two polarisation
 Components:
 
-$$\Delta\phi = \frac{2\pi}{\lambda}(n_o - n_e)\,t$$
+$$
+\Delta\phi = \frac{2\pi}{\lambda}(n_o - n_e)\,t
+$$
 
 **Quarter-wave plate (QWP):** $\Delta\phi = \pi/2$ So $t_{\mathrm{QWP} = \lambda/(4|n_o - n_e|)}$.
 Converts linear polarisation at $45°$ to the fast/slow axes into circular polarisation, and vice
@@ -104,7 +110,9 @@ amplitudes ($0.866 \neq 0.500$), So the output is **elliptically polarised** (no
 Certain materials (sugars, quartz) rotate the plane of linearly polarised light. The specific
 Rotation is:
 
-$$[\alpha] = \frac{\theta}{c \cdot l}$$
+$$
+[\alpha] = \frac{\theta}{c \cdot l}
+$$
 
 Where $\theta$ is the rotation angle, $c$ is the concentration, and $l$ is the path length.
 
@@ -112,7 +120,9 @@ Optical activity arises from the helical structure of molecules, which gives dif
 Indices for left- and right-circularly polarised light (circular birefringence). If $n_L$ and $n_R$
 Are the refractive indices for left and right circular polarisation:
 
-$$\theta = \frac{\pi l}{\lambda}(n_L - n_R)$$
+$$
+\theta = \frac{\pi l}{\lambda}(n_L - n_R)
+$$
 
 Optical activity is **reciprocal**: if the beam is reflected back through the medium, the rotation
 Is cancelled.
@@ -121,16 +131,22 @@ Is cancelled.
 
 At the **Brewster angle** $\theta_B$The reflected beam for p-polarised light vanishes ($r_p = 0$):
 
-$$\tan\theta_B = \frac{n_2}{n_1}$$
+$$
+\tan\theta_B = \frac{n_2}{n_1}
+$$
 
 **Proof.** Setting $r_p = 0$ requires $n_2\cos\theta_i = n_1\cos\theta_t$. Using Snell's law
 $n_1\sin\theta_i = n_2\sin\theta_t$:
 
-$$\frac{\cos\theta_i}{\sin\theta_i} = \frac{\cos\theta_t}{\sin\theta_t} \implies \cot\theta_i = \cot\theta_t \implies \theta_i = \theta_t'$$
+$$
+\frac{\cos\theta_i}{\sin\theta_i} = \frac{\cos\theta_t}{\sin\theta_t} \implies \cot\theta_i = \cot\theta_t \implies \theta_i = \theta_t'
+$$
 
 Where $\theta_t' = 90° - \theta_t$. This gives $\theta_i + \theta_t = 90°$ So:
 
-$$\tan\theta_i = \frac{n_2}{n_1} \quad \blacksquare$$
+$$
+\tan\theta_i = \frac{n_2}{n_1} \quad \blacksquare
+$$
 
 At Brewster's angle, the reflected beam is purely s-polarised, and the reflected and refracted beams
 Are perpendicular ($\theta_B + \theta_t = 90°$). This principle is used in Brewster windows and
@@ -166,7 +182,9 @@ The reflected light is 100% s-polarised with intensity $0.074\,I_0$ (about 7.4% 
 In a magneto-optical material with a magnetic field $\mathbf{B}$ applied along the propagation
 Direction, the plane of polarisation rotates by:
 
-$$\theta_F = V B l$$
+$$
+\theta_F = V B l
+$$
 
 Where $V$ is the **Verdet constant** (rad/(T$\cdot$M)), $B$ is the magnetic field strength, and $l$
 is the path length through the material.

@@ -421,14 +421,18 @@ counterexample.
 **Structure.** To prove $P \Rightarrow Q$ directly, assume $P$ is true and deduce $Q$ through a
 Chain of valid deductions.
 
-$$P \Rightarrow S_1 \Rightarrow S_2 \Rightarrow \cdots \Rightarrow Q$$
+$$
+P \Rightarrow S_1 \Rightarrow S_2 \Rightarrow \cdots \Rightarrow Q
+$$
 
 **Worked example.** Prove that the sum of two even integers is even.
 
 **Proof.** Let $a$ and $b$ be even integers. By definition of evenness, there exist integers $k$ and
 $m$ such that $a = 2k$ and $b = 2m$. Then
 
-$$a + b = 2k + 2m = 2(k + m)$$
+$$
+a + b = 2k + 2m = 2(k + m)
+$$
 
 Since $k + m$ is an integer (the integers are closed under addition), $a + b$ is divisible by 2, and
 Therefore $a + b$ is even. $\square$
@@ -443,19 +447,25 @@ Backbone of most direct .../1-number-and-algebra/3_proof-and-logics.
 that is always false, such as $0 = 1$ or $q^2 = 2$ where $q$ is rational). Since the Assumption
 $\neg P$ led to an impossibility, $\neg P$ must be false, so $P$ is true.
 
-$$\neg P \Rightarrow \cdots \Rightarrow \mathrm{contradiction} \quad \therefore P$$
+$$
+\neg P \Rightarrow \cdots \Rightarrow \mathrm{contradiction} \quad \therefore P
+$$
 
 **Worked example 1.** Prove that $\sqrt{2}$ is irrational.
 
 **Proof.** Suppose, for contradiction, that $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{a}{b}$
 For some coprime integers $a$ and $b$ (i.e. $\gcd(a, b) = 1$), with $b \neq 0$. Squaring both sides:
 
-$$2 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 2b^2$$
+$$
+2 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 2b^2
+$$
 
 This means $a^2$ is even. Since the square of an odd number is odd, $a$ must be even. Write $a = 2k$
 For some integer $k$. Substituting:
 
-$$(2k)^2 = 2b^2 \quad \Rightarrow \quad 4k^2 = 2b^2 \quad \Rightarrow \quad b^2 = 2k^2$$
+$$
+(2k)^2 = 2b^2 \quad \Rightarrow \quad 4k^2 = 2b^2 \quad \Rightarrow \quad b^2 = 2k^2
+$$
 
 So $b^2$ is even, and therefore $b$ is even. But now both $a$ and $b$ are even, contradicting
 $\gcd(a, b) = 1$. Hence $\sqrt{2}$ is irrational. $\square$
@@ -465,7 +475,9 @@ $\gcd(a, b) = 1$. Hence $\sqrt{2}$ is irrational. $\square$
 **Proof.** Suppose, for contradiction, that there are only finitely many primes. List them as
 $p_1, p_2, \ldots, p_n$. Consider the number
 
-$$N = p_1 p_2 \cdots p_n + 1$$
+$$
+N = p_1 p_2 \cdots p_n + 1
+$$
 
 When $N$ is divided by any $p_i$The remainder is 1 (since each $p_i$ divides the product
 $p_1 p_2 \cdots p_n$ but not the added 1). Therefore no $p_i$ divides $N$. Since every integer
@@ -477,7 +489,9 @@ Hence there are infinitely many primes. $\square$
 **Structure.** To prove $P \Rightarrow Q$Instead prove the logically equivalent contrapositive
 $\neg Q \Rightarrow \neg P$.
 
-$$\neg Q \Rightarrow \cdots \Rightarrow \neg P$$
+$$
+\neg Q \Rightarrow \cdots \Rightarrow \neg P
+$$
 
 This is useful when the negation of the conclusion gives you more to work with than the hypothesis
 Does.
@@ -489,7 +503,9 @@ $n$ is not even (i.e. $n$ is odd), then $n^2$ is not even (i.e. $n^2$ is odd).
 
 **Proof.** Let $n$ be an odd integer. Then $n = 2k + 1$ for some integer $k$. Computing:
 
-$$n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$$
+$$
+n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1
+$$
 
 Since $2k^2 + 2k$ is an integer, $n^2$ is of the form $2m + 1$Which means $n^2$ is odd. We have
 Shown: if $n$ is odd then $n^2$ is odd. By contrapositive, if $n^2$ is even then $n$ is even.
@@ -500,7 +516,9 @@ $\square$
 **Structure.** Split the domain into exhaustive, mutually exclusive cases and prove the result holds
 In each one.
 
-$$\mathrm{Case 1: } C_1 \Rightarrow Q \qquad \mathrm{Case 2: } C_2 \Rightarrow Q \qquad \cdots$$
+$$
+\mathrm{Case 1: } C_1 \Rightarrow Q \qquad \mathrm{Case 2: } C_2 \Rightarrow Q \qquad \cdots
+$$
 
 Since the cases cover all possibilities, $Q$ holds unconditionally.
 
@@ -644,12 +662,16 @@ Prove by contradiction that $\sqrt{3}$ is irrational.
 
 Assume $\sqrt{3} = \frac{a}{b}$ where $a, b$ are coprime integers and $b \neq 0$. Then:
 
-$$3 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 3b^2$$
+$$
+3 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 3b^2
+$$
 
 So $a^2$ is a multiple of 3, which means $a$ is a multiple of 3 (if 3 divides $a^2$ Then 3 must
 Divide $a$). Write $a = 3k$. Substituting:
 
-$$9k^2 = 3b^2 \quad \Rightarrow \quad b^2 = 3k^2$$
+$$
+9k^2 = 3b^2 \quad \Rightarrow \quad b^2 = 3k^2
+$$
 
 So $b^2$ is a multiple of 3, meaning $b$ is a multiple of 3. But then both $a$ and $b$ are multiples
 Of 3, contradicting $\gcd(a, b) = 1$. Hence $\sqrt{3}$ is irrational. $\square$
@@ -689,7 +711,9 @@ Counterexample.
 
 Factorise: $f(x) = (x - 2)(x - 3)$. Testing $x = 2.5$:
 
-$$f(2.5) = (2.5 - 2)(2.5 - 3) = (0.5)(-0.5) = -0.25 \lt 0$$
+$$
+f(2.5) = (2.5 - 2)(2.5 - 3) = (0.5)(-0.5) = -0.25 \lt 0
+$$
 
 So $f(2.5) \lt 0$Providing a counterexample. The claim is false. (In fact, $f(x) \ge 0$ only when
 $x \le 2$ or $x \ge 3$.)
@@ -705,13 +729,17 @@ Prove by cases: for all integers $n$, $n^2 + n$ is even.
 
 **Case 1: $n$ is even.** Then $n = 2k$ for some integer $k$.
 
-$$n^2 + n = 4k^2 + 2k = 2(2k^2 + k)$$
+$$
+n^2 + n = 4k^2 + 2k = 2(2k^2 + k)
+$$
 
 Since $2k^2 + k$ is an integer, $n^2 + n$ is even.
 
 **Case 2: $n$ is odd.** Then $n = 2k + 1$ for some integer $k$.
 
-$$n^2 + n = (2k+1)^2 + (2k+1) = 4k^2 + 4k + 1 + 2k + 1 = 4k^2 + 6k + 2 = 2(2k^2 + 3k + 1)$$
+$$
+n^2 + n = (2k+1)^2 + (2k+1) = 4k^2 + 4k + 1 + 2k + 1 = 4k^2 + 6k + 2 = 2(2k^2 + 3k + 1)
+$$
 
 Since $2k^2 + 3k + 1$ is an integer, $n^2 + n$ is even.
 
@@ -751,7 +779,9 @@ Is even).
 
 **Proof.** Let $n$ be even, so $n = 2k$ for some integer $k$. Then:
 
-$$3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$$
+$$
+3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)
+$$
 
 Since $3k + 1$ is an integer, $3n + 2$ is even. By contrapositive, if $3n + 2$ is odd then $n$ is
 Odd. $\square$

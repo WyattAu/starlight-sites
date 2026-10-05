@@ -460,25 +460,39 @@ Rotational motion is the **mirror image of linear motion**, every linear concept
 Divide a solid sphere of mass $M$ and radius $R$ into thin disks of radius $r$ and thickness $dz$ at
 Height $z$ from the centre.
 
-$$r^2 = R^2 - z^2$$
+$$
+r^2 = R^2 - z^2
+$$
 
 The volume of each disk is $dV = \pi r^2 dz = \pi(R^2 - z^2)dz$.
 
-$$dm = \frac{M}{\frac{4}{3}\pi R^3} \cdot \pi(R^2 - z^2)dz = \frac{3M}{4R^3}(R^2 - z^2)dz$$
+$$
+dm = \frac{M}{\frac{4}{3}\pi R^3} \cdot \pi(R^2 - z^2)dz = \frac{3M}{4R^3}(R^2 - z^2)dz
+$$
 
-$$I = \int_{-R}^{R} \frac{1}{2}r^2\, dm = \int_{-R}^{R} \frac{1}{2}(R^2 - z^2) \cdot \frac{3M}{4R^3}(R^2 - z^2)dz$$
+$$
+I = \int_{-R}^{R} \frac{1}{2}r^2\, dm = \int_{-R}^{R} \frac{1}{2}(R^2 - z^2) \cdot \frac{3M}{4R^3}(R^2 - z^2)dz
+$$
 
-$$= \frac{3M}{8R^3}\int_{-R}^{R} (R^2 - z^2)^2 dz = \frac{3M}{8R^3}\int_{-R}^{R} (R^4 - 2R^2z^2 + z^4)dz$$
+$$
+= \frac{3M}{8R^3}\int_{-R}^{R} (R^2 - z^2)^2 dz = \frac{3M}{8R^3}\int_{-R}^{R} (R^4 - 2R^2z^2 + z^4)dz
+$$
 
-$$= \frac{3M}{8R^3}\left[R^4 \cdot 2R - 2R^2 \cdot \frac{2R^3}{3} + \frac{2R^5}{5}\right] = \frac{3M}{8R^3}\left[2R^5 - \frac{4R^5}{3} + \frac{2R^5}{5}\right]$$
+$$
+= \frac{3M}{8R^3}\left[R^4 \cdot 2R - 2R^2 \cdot \frac{2R^3}{3} + \frac{2R^5}{5}\right] = \frac{3M}{8R^3}\left[2R^5 - \frac{4R^5}{3} + \frac{2R^5}{5}\right]
+$$
 
-$$= \frac{3M}{8R^3} \cdot \frac{2R^5}{15}(15 - 10 + 3) = \frac{3M}{8R^3} \cdot \frac{16R^5}{15} = \frac{2MR^2}{5}$$
+$$
+= \frac{3M}{8R^3} \cdot \frac{2R^5}{15}(15 - 10 + 3) = \frac{3M}{8R^3} \cdot \frac{16R^5}{15} = \frac{2MR^2}{5}
+$$
 
 ### Derivation: Thin Rod About One End
 
 A thin uniform rod of mass $M$ and length $L$Pivoted at one end.
 
-$$I = \int_0^L x^2 \frac{M}{L}\, dx = \frac{M}{L}\left[\frac{x^3}{3}\right]_0^L = \frac{ML^2}{3}$$
+$$
+I = \int_0^L x^2 \frac{M}{L}\, dx = \frac{M}{L}\left[\frac{x^3}{3}\right]_0^L = \frac{ML^2}{3}
+$$
 
 Using the parallel axis theorem:
 $I_{\mathrm{end} = I_{\mathrm{cm} + Md^2 = \frac{ML^2}{12} + M\left(\frac{L}{2}\right)^2 = \frac{ML^2}{12} + \frac{ML^2}{4} = \frac{ML^2}{3}$.
@@ -508,11 +522,17 @@ KE, so they move more slowly.
 A solid sphere rolls without slipping up a $20^{\circ}$ incline with initial speed $5 \mathrm{ m/s$.
 How far up does it travel?
 
-$$Mgh = \frac{1}{2}Mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}Mv^2 + \frac{1}{2}\cdot\frac{2}{5}MR^2\cdot\frac{v^2}{R^2} = \frac{7}{10}Mv^2$$
+$$
+Mgh = \frac{1}{2}Mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}Mv^2 + \frac{1}{2}\cdot\frac{2}{5}MR^2\cdot\frac{v^2}{R^2} = \frac{7}{10}Mv^2
+$$
 
-$$h = \frac{7v^2}{10g} = \frac{7 \times 25}{10 \times 9.8} = \frac{175}{98} = 1.786 \mathrm{ m$$
+$$
+h = \frac{7v^2}{10g} = \frac{7 \times 25}{10 \times 9.8} = \frac{175}{98} = 1.786 \mathrm{ m
+$$
 
-$$d = \frac{h}{\sin 20^{\circ}} = \frac{1.786}{0.342} = 5.22 \mathrm{ m$$
+$$
+d = \frac{h}{\sin 20^{\circ}} = \frac{1.786}{0.342} = 5.22 \mathrm{ m
+$$
 
 ## 13. Angular Momentum: Extended Examples
 
@@ -525,17 +545,27 @@ End, perpendicular to the rod. Find the angular velocity of the rod after the co
 **Conservation of angular momentum** about the pivot (the external forces at the pivot produce no
 Torque about the pivot):
 
-$$L_{\mathrm{initial} = L_{\mathrm{final}$$
+$$
+L_{\mathrm{initial} = L_{\mathrm{final}
+$$
 
-$$mv \cdot L = I_{\mathrm{rod}\omega + mv' \cdot L$$
+$$
+mv \cdot L = I_{\mathrm{rod}\omega + mv' \cdot L
+$$
 
 Since the ball sticks to the end of the rod (perfectly inelastic collision):
 
-$$mvr = (I_{\mathrm{rod} + mr^2)\omega = \left(\frac{1}{3}Mr^2 + mr^2\right)\omega$$
+$$
+mvr = (I_{\mathrm{rod} + mr^2)\omega = \left(\frac{1}{3}Mr^2 + mr^2\right)\omega
+$$
 
-$$\omega = \frac{mvr}{r^2\left(\frac{M}{3} + m\right)} = \frac{mv}{r\left(\frac{M}{3} + m\right)} = \frac{0.05 \times 8}{1 \times \left(\frac{2}{3} + 0.05\right)}$$
+$$
+\omega = \frac{mvr}{r^2\left(\frac{M}{3} + m\right)} = \frac{mv}{r\left(\frac{M}{3} + m\right)} = \frac{0.05 \times 8}{1 \times \left(\frac{2}{3} + 0.05\right)}
+$$
 
-$$= \frac{0.4}{0.717} = 0.558 \mathrm{ rad/s$$
+$$
+= \frac{0.4}{0.717} = 0.558 \mathrm{ rad/s
+$$
 
 ### Worked Example: Person on a Rotating Platform
 
@@ -547,11 +577,17 @@ Find the new angular speed.
 
 **Finally:** $I_f = 600 + 60 \times 0^2 = 600 \mathrm{ kg\cdot\mathrm{m^2$.
 
-$$I_i\omega_i = I_f\omega_f$$
+$$
+I_i\omega_i = I_f\omega_f
+$$
 
-$$1140 \times 0.5 = 600 \times \omega_f$$
+$$
+1140 \times 0.5 = 600 \times \omega_f
+$$
 
-$$\omega_f = \frac{570}{600} = 0.95 \mathrm{ rad/s$$
+$$
+\omega_f = \frac{570}{600} = 0.95 \mathrm{ rad/s
+$$
 
 The angular speed nearly doubles. This is the same principle behind figure skaters pulling in their
 Arms to spin faster.
@@ -580,7 +616,9 @@ $Mg \times 2\cos 65^{\circ} = 15 \times 9.8 \times 2 \times 0.4226 = 124.2 \math
 
 Anticlockwise (negative): $N_w \times 4\sin 65^{\circ} = N_w \times 3.625$
 
-$$N_w \times 3.625 = 124.2 \implies N_w = 34.3 \mathrm{ N$$
+$$
+N_w \times 3.625 = 124.2 \implies N_w = 34.3 \mathrm{ N
+$$
 
 **Horizontal equilibrium:** $f = N_w = 34.3 \mathrm{ N$
 
@@ -638,19 +676,27 @@ Velocity.
 
 **Step 1: Moment of inertia of the wheel (thin ring approximation)**
 
-$$I = MR^2 = 2 \times 0.35^2 = 0.245 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I = MR^2 = 2 \times 0.35^2 = 0.245 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 **Step 2: Angular momentum of the wheel**
 
-$$L = I\omega = 0.245 \times 50 = 12.25 \mathrm{ kg\cdot\mathrm{m^2/\mathrm{s$$
+$$
+L = I\omega = 0.245 \times 50 = 12.25 \mathrm{ kg\cdot\mathrm{m^2/\mathrm{s
+$$
 
 **Step 3: Torque due to gravity about the support**
 
-$$\tau = Mg \times d = 2 \times 9.8 \times 0.15 = 2.94 \mathrm{ N\cdot\mathrm{m$$
+$$
+\tau = Mg \times d = 2 \times 9.8 \times 0.15 = 2.94 \mathrm{ N\cdot\mathrm{m
+$$
 
 **Step 4: Precession angular velocity**
 
-$$\omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s$$
+$$
+\omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s
+$$
 
 The wheel precesses at $0.240 \mathrm{ rad/s$Completing one revolution in
 $T = 2\pi/\omega_p = 26.2 \mathrm{ s$.
@@ -672,7 +718,9 @@ $I_{\mathrm{rod} = \frac{1}{3}ML^2 = \frac{1}{3} \times 3 \times 4 = 4 \mathrm{ 
 
 Point mass at the pivot: $I_{\mathrm{pm} = mr^2 = 2 \times 0^2 = 0 \mathrm{ kg\cdot\mathrm{m^2$
 
-$$I_a = 4 + 0 = 4 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I_a = 4 + 0 = 4 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 **Part (b): About the centre of the rod**
 
@@ -682,24 +730,34 @@ $I_{\mathrm{rod} = \frac{1}{12}ML^2 = \frac{1}{12} \times 3 \times 4 = 1 \mathrm
 Point mass is $1 \mathrm{ m$ from the centre:
 $I_{\mathrm{pm} = 2 \times 1^2 = 2 \mathrm{ kg\cdot\mathrm{m^2$
 
-$$I_b = 1 + 2 = 3 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I_b = 1 + 2 = 3 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 **Verify with parallel axis theorem (part a from part b):**
 
-$$I_a = I_b + M_{\mathrm{total}d^2 = 3 + 5 \times 1^2 = 8 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I_a = I_b + M_{\mathrm{total}d^2 = 3 + 5 \times 1^2 = 8 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 Wait -- this gives $8$Not $4$. Let me recheck. The parallel axis theorem requires the total mass To
 be at the centre of mass of the _entire system_, not just the rod.
 
 **Centre of mass from the pivot (end with point mass):**
 
-$$x_{\mathrm{cm} = \frac{3 \times 1 + 2 \times 0}{5} = 0.6 \mathrm{ m from pivot$$
+$$
+x_{\mathrm{cm} = \frac{3 \times 1 + 2 \times 0}{5} = 0.6 \mathrm{ m from pivot
+$$
 
 Now using the parallel axis theorem from the centre of mass:
 
-$$I_{\mathrm{cm} = I_b = 3 \mathrm{ kg\cdot\mathrm{m^2 \quad \mathrm{(already calculated)$$
+$$
+I_{\mathrm{cm} = I_b = 3 \mathrm{ kg\cdot\mathrm{m^2 \quad \mathrm{(already calculated)
+$$
 
-$$I_a = I_{\mathrm{cm} + M_{\mathrm{total} \times x_{\mathrm{cm}^2 = 3 + 5 \times 0.36 = 3 + 1.8 = 4.8 \mathrm{ kg\cdot\mathrm{m^2$$
+$$
+I_a = I_{\mathrm{cm} + M_{\mathrm{total} \times x_{\mathrm{cm}^2 = 3 + 5 \times 0.36 = 3 + 1.8 = 4.8 \mathrm{ kg\cdot\mathrm{m^2
+$$
 
 This still does not match. Let me recalculate $I_b$ more carefully. The point mass is at the _end_
 Of the rod, which is $1 \mathrm{ m$ from the centre of the rod. So $I_b = 1 + 2 \times 1^2 = 3$ is
@@ -735,20 +793,30 @@ Translation: $mg - T = ma$
 
 Rotation: $TR = I\alpha$Where $R$ is the axle radius and $a = R\alpha$.
 
-$$T \times 0.005 = I \times \frac{a}{0.005}$$
+$$
+T \times 0.005 = I \times \frac{a}{0.005}
+$$
 
 For the yo-yo (solid disk):
 $I = \frac{1}{2}MR_{\mathrm{disk}^2 = \frac{1}{2} \times 0.1 \times 0.03^2 = 4.5 \times 10^{-5} \mathrm{ kg\cdot\mathrm{m^2$
 
-$$T = \frac{Ia}{R^2} = \frac{4.5 \times 10^{-5} \times a}{2.5 \times 10^{-5}} = 1.8a$$
+$$
+T = \frac{Ia}{R^2} = \frac{4.5 \times 10^{-5} \times a}{2.5 \times 10^{-5}} = 1.8a
+$$
 
 **Step 2: Substitute into translational equation**
 
-$$mg - 1.8a = ma$$
+$$
+mg - 1.8a = ma
+$$
 
-$$a = \frac{mg}{m + 1.8} = \frac{0.1 \times 9.8}{0.1 + 1.8} = \frac{0.98}{1.9} = 0.516 \mathrm{ m/s^2$$
+$$
+a = \frac{mg}{m + 1.8} = \frac{0.1 \times 9.8}{0.1 + 1.8} = \frac{0.98}{1.9} = 0.516 \mathrm{ m/s^2
+$$
 
-$$T = 1.8 \times 0.516 = 0.929 \mathrm{ N$$
+$$
+T = 1.8 \times 0.516 = 0.929 \mathrm{ N
+$$
 
 :::note
 $9.8 \mathrm{ m/s^2$) because gravitational PE is converted into both translational and rotational

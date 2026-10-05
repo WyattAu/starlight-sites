@@ -571,14 +571,20 @@ S.
 
 **Displacement from $t = 0$ to $t = 4$:**
 
-$$\Delta x = \int_0^4 (4t - t^2)\, dt = \left[2t^2 - \frac{t^3}{3}\right]_0^4 = 32 - \frac{64}{3} = 32 - 21.33 = 10.67 \mathrm{ m$$
+$$
+\Delta x = \int_0^4 (4t - t^2)\, dt = \left[2t^2 - \frac{t^3}{3}\right]_0^4 = 32 - \frac{64}{3} = 32 - 21.33 = 10.67 \mathrm{ m
+$$
 
 **Total distance from $t = 0$ to $t = 5$:** The velocity is zero at $t = 0$ and $t = 4$. For
 $0 \lt t \lt 4$$v \gt 0$. For $4 \lt t \lt 5$$v \lt 0$.
 
-$$d = \int_0^4 (4t - t^2)\, dt + \left|\int_4^5 (4t - t^2)\, dt\right| = 10.67 + \left|\left[2t^2 - \frac{t^3}{3}\right]_4^5\right|$$
+$$
+d = \int_0^4 (4t - t^2)\, dt + \left|\int_4^5 (4t - t^2)\, dt\right| = 10.67 + \left|\left[2t^2 - \frac{t^3}{3}\right]_4^5\right|
+$$
 
-$$= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 10.67 + 2.33 = 13.0 \mathrm{ m$$
+$$
+= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 10.67 + 2.33 = 13.0 \mathrm{ m
+$$
 
 ## Uniform Circular Motion: Extended Analysis
 
@@ -586,24 +592,38 @@ $$= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 
 
 For an object in uniform circular motion:
 
-$$\omega = 2\pi f = \frac{2\pi}{T}, \qquad v = \frac{2\pi r}{T} = 2\pi rf, \qquad a_c = \frac{4\pi^2 r}{T^2} = \omega^2 r = \frac{v^2}{r}$$
+$$
+\omega = 2\pi f = \frac{2\pi}{T}, \qquad v = \frac{2\pi r}{T} = 2\pi rf, \qquad a_c = \frac{4\pi^2 r}{T^2} = \omega^2 r = \frac{v^2}{r}
+$$
 
 ### Worked Example: Geostationary Orbit
 
 A geostationary satellite orbits above the equator with a period of 24 hours. Given Earth's radius
 $R_E = 6.371 \times 10^6$ m and mass $M_E = 5.97 \times 10^{24}$ kg, find the altitude of the orbit.
 
-$$T = 86400 \mathrm{ s$$
+$$
+T = 86400 \mathrm{ s
+$$
 
-$$T^2 = \frac{4\pi^2 r^3}{GM}$$
+$$
+T^2 = \frac{4\pi^2 r^3}{GM}
+$$
 
-$$r^3 = \frac{GMT^2}{4\pi^2} = \frac{6.674 \times 10^{-11} \times 5.97 \times 10^{24} \times 86400^2}{4\pi^2}$$
+$$
+r^3 = \frac{GMT^2}{4\pi^2} = \frac{6.674 \times 10^{-11} \times 5.97 \times 10^{24} \times 86400^2}{4\pi^2}
+$$
 
-$$r^3 = \frac{2.987 \times 10^{24}}{39.48} = 7.566 \times 10^{22}$$
+$$
+r^3 = \frac{2.987 \times 10^{24}}{39.48} = 7.566 \times 10^{22}
+$$
 
-$$r = \sqrt[3]{7.566 \times 10^{22}} = 4.225 \times 10^7 \mathrm{ m$$
+$$
+r = \sqrt[3]{7.566 \times 10^{22}} = 4.225 \times 10^7 \mathrm{ m
+$$
 
-$$h = r - R_E = 4.225 \times 10^7 - 6.371 \times 10^6 = 3.588 \times 10^7 \mathrm{ m \approx 35880 \mathrm{ km$$
+$$
+h = r - R_E = 4.225 \times 10^7 - 6.371 \times 10^6 = 3.588 \times 10^7 \mathrm{ m \approx 35880 \mathrm{ km
+$$
 
 This is approximately 36000 km above Earth's surface, the standard geostationary orbit altitude.
 
@@ -613,9 +633,13 @@ This is approximately 36000 km above Earth's surface, the standard geostationary
 
 The position of a particle is $x(t) = t^4 - 4t^3 + 6t^2$ m.
 
-$$v(t) = \frac{dx}{dt} = 4t^3 - 12t^2 + 12t$$
+$$
+v(t) = \frac{dx}{dt} = 4t^3 - 12t^2 + 12t
+$$
 
-$$a(t) = \frac{dv}{dt} = 12t^2 - 24t + 12 = 12(t^2 - 2t + 1) = 12(t-1)^2$$
+$$
+a(t) = \frac{dv}{dt} = 12t^2 - 24t + 12 = 12(t^2 - 2t + 1) = 12(t-1)^2
+$$
 
 The acceleration is always non-negative (it is zero at $t = 1$). The particle is never decelerating.
 
@@ -630,15 +654,21 @@ A particle starts from rest. For $0 \le t \le 3$ s, $a = 6t$ m/s$^2$. For $t \gt
 
 **Phase 1 ($0 \le t \le 3$):**
 
-$$v(t) = \int_0^t 6t'\, dt' = 3t^2$$
+$$
+v(t) = \int_0^t 6t'\, dt' = 3t^2
+$$
 
-$$x(t) = \int_0^t 3t'^2\, dt' = t^3$$
+$$
+x(t) = \int_0^t 3t'^2\, dt' = t^3
+$$
 
 At $t = 3$: $v = 27$ m/s, $x = 27$ m.
 
 **Phase 2 ($t \gt 3$):** Constant velocity $v = 27$ m/s.
 
-$$x(t) = 27 + 27(t - 3)$$
+$$
+x(t) = 27 + 27(t - 3)
+$$
 
 ```mermaid
 flowchart TD
@@ -710,19 +740,29 @@ $60^\circ$ east of north. Find the velocity of A relative to B.
 
 **Step 1: Write velocity vectors**
 
-$$\vec{v}_A = 250\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_A = 250\hat{j} \mathrm{ m/s
+$$
 
-$$\vec{v}_B = 200\sin 60°\hat{i} + 200\cos 60°\hat{j} = 173.2\hat{i} + 100\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_B = 200\sin 60°\hat{i} + 200\cos 60°\hat{j} = 173.2\hat{i} + 100\hat{j} \mathrm{ m/s
+$$
 
 **Step 2: Relative velocity**
 
-$$\vec{v}_{AB} = \vec{v}_A - \vec{v}_B = -173.2\hat{i} + (250 - 100)\hat{j} = -173.2\hat{i} + 150\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_{AB} = \vec{v}_A - \vec{v}_B = -173.2\hat{i} + (250 - 100)\hat{j} = -173.2\hat{i} + 150\hat{j} \mathrm{ m/s
+$$
 
 **Step 3: Magnitude and direction**
 
-$$|\vec{v}_{AB}| = \sqrt{173.2^2 + 150^2} = \sqrt{29998 + 22500} = \sqrt{52498} = 229.1 \mathrm{ m/s$$
+$$
+|\vec{v}_{AB}| = \sqrt{173.2^2 + 150^2} = \sqrt{29998 + 22500} = \sqrt{52498} = 229.1 \mathrm{ m/s
+$$
 
-$$\theta = \arctan\left(\frac{150}{-173.2}\right) = 180° - 40.9° = 139.1° \mathrm{ from east$$
+$$
+\theta = \arctan\left(\frac{150}{-173.2}\right) = 180° - 40.9° = 139.1° \mathrm{ from east
+$$
 
 So the velocity of A relative to B is $229.1 \mathrm{ m/s$ at $139.1^\circ$ from east (or
 $50.9^\circ$ west of North).
@@ -736,7 +776,9 @@ Find (a) when the particle is at rest, (b) the total distance travelled, and (c)
 
 **Step 1: Find when the particle is at rest**
 
-$$v(t) = t^3 - 6t^2 + 9t = t(t^2 - 6t + 9) = t(t - 3)^2 = 0$$
+$$
+v(t) = t^3 - 6t^2 + 9t = t(t^2 - 6t + 9) = t(t - 3)^2 = 0
+$$
 
 $t = 0$ or $t = 3 \mathrm{ s$.
 
@@ -750,13 +792,19 @@ $t = 3$).
 
 **Step 3: Total distance = displacement (since $v \ge 0$ always)**
 
-$$s(5) - s(0) = \int_0^5 (t^3 - 6t^2 + 9t) \, dt = \left[ \frac{t^4}{4} - 2t^3 + \frac{9t^2}{2} \right]_0^5$$
+$$
+s(5) - s(0) = \int_0^5 (t^3 - 6t^2 + 9t) \, dt = \left[ \frac{t^4}{4} - 2t^3 + \frac{9t^2}{2} \right]_0^5
+$$
 
-$$= \frac{625}{4} - 250 + \frac{225}{2} = 156.25 - 250 + 112.5 = 18.75 \mathrm{ m$$
+$$
+= \frac{625}{4} - 250 + \frac{225}{2} = 156.25 - 250 + 112.5 = 18.75 \mathrm{ m
+$$
 
 **Step 4: Acceleration at key points**
 
-$$a(t) = 3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t - 1)(t - 3)$$
+$$
+a(t) = 3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t - 1)(t - 3)
+$$
 
 At $t = 0$: $a = 9 \mathrm{ m/s^2$ (speeding up) At $t = 3$: $a = 3(9 - 12 + 3) = 0 \mathrm{ m/s^2$
 (momentarily stationary, inflection point)
@@ -777,7 +825,9 @@ $10 \mathrm{ s$ And (c) the distance fallen after $10 \mathrm{ s$.
 
 At terminal velocity: $mg = kv_T^2$
 
-$$v_T = \sqrt{\frac{mg}{k}} = \sqrt{\frac{70 \times 9.8}{0.25}} = \sqrt{2744} = 52.4 \mathrm{ m/s$$
+$$
+v_T = \sqrt{\frac{mg}{k}} = \sqrt{\frac{70 \times 9.8}{0.25}} = \sqrt{2744} = 52.4 \mathrm{ m/s
+$$
 
 **Step 2: Analytical solution**
 
@@ -785,21 +835,33 @@ The equation of motion is $m\frac{dv}{dt} = mg - kv^2$.
 
 This has the solution:
 
-$$v(t) = v_T \tanh\left(\frac{gt}{v_T}\right)$$
+$$
+v(t) = v_T \tanh\left(\frac{gt}{v_T}\right)
+$$
 
-$$v(10) = 52.4 \times \tanh\left(\frac{9.8 \times 10}{52.4}\right) = 52.4 \times \tanh(1.870)$$
+$$
+v(10) = 52.4 \times \tanh\left(\frac{9.8 \times 10}{52.4}\right) = 52.4 \times \tanh(1.870)
+$$
 
-$$\tanh(1.870) = \frac{e^{3.74} - e^{-3.74}}{e^{3.74} + e^{-3.74}} = \frac{42.10 - 0.0238}{42.10 + 0.0238} = 0.9989$$
+$$
+\tanh(1.870) = \frac{e^{3.74} - e^{-3.74}}{e^{3.74} + e^{-3.74}} = \frac{42.10 - 0.0238}{42.10 + 0.0238} = 0.9989
+$$
 
-$$v(10) = 52.4 \times 0.9989 = 52.3 \mathrm{ m/s$$
+$$
+v(10) = 52.4 \times 0.9989 = 52.3 \mathrm{ m/s
+$$
 
 The skydiver has essentially reached terminal velocity after $10 \mathrm{ s$.
 
 **Step 3: Distance fallen**
 
-$$y(t) = \frac{v_T^2}{g}\ln\left(\cosh\left(\frac{gt}{v_T}\right)\right)$$
+$$
+y(t) = \frac{v_T^2}{g}\ln\left(\cosh\left(\frac{gt}{v_T}\right)\right)
+$$
 
-$$y(10) = \frac{2744}{9.8}\ln(\cosh(1.870)) = 280 \times \ln(3.263) = 280 \times 1.183 = 331.2 \mathrm{ m$$
+$$
+y(10) = \frac{2744}{9.8}\ln(\cosh(1.870)) = 280 \times \ln(3.263) = 280 \times 1.183 = 331.2 \mathrm{ m
+$$
 
 ## Common Pitfalls Extended
 

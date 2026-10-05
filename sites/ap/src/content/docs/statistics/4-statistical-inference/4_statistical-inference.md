@@ -33,7 +33,9 @@ along with a level of confidence.
 
 ### General Form
 
-$$\text{Statistic} \pm \text{Margin of Error} = (\text{point estimate}) \pm (\text{critical value}) \times (\text{standard error})$$
+$$
+\text{Statistic} \pm \text{Margin of Error} = (\text{point estimate}) \pm (\text{critical value}) \times (\text{standard error})
+$$
 
 ### Confidence Level
 
@@ -49,7 +51,9 @@ Conditions:
 - $np \geq 10$ and $n(1-p) \geq 10$ (large enough sample)
 - Population is at least $10n$ (independence / 10% condition)
 
-$$\hat{p} \pm z^{*}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$$
+$$
+\hat{p} \pm z^{*}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
+$$
 
 Where $\hat{p}$ is the sample proportion and $z^*$ is the critical value (1.645 for 90%, 1.960 for
 95%, 2.576 for 99%).
@@ -63,7 +67,9 @@ Conditions:
   $n \geq 30$ for CLT)
 - $\sigma$ known: $z$-interval; $\sigma$ unknown: $t$-interval
 
-$$\bar{x} \pm t^{*} \cdot \frac{s}{\sqrt{n}}$$
+$$
+\bar{x} \pm t^{*} \cdot \frac{s}{\sqrt{n}}
+$$
 
 Where $t^*$ is the critical value from the $t$-distribution with $n-1$ degrees of freedom.
 
@@ -129,11 +135,15 @@ Power increases with: larger sample size, larger effect size, higher $\alpha$, a
 
 ### One-Sample z-Test for a Proportion
 
-$$z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$$
+$$
+z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}
+$$
 
 ### Two-Sample z-Test for Difference of Proportions
 
-$$z = \frac{(\hat{p}_1 - \hat{p}_2) - 0}{\sqrt{\hat{p}(1-\hat{p})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}$$
+$$
+z = \frac{(\hat{p}_1 - \hat{p}_2) - 0}{\sqrt{\hat{p}(1-\hat{p})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}
+$$
 
 Where $\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$ is the pooled proportion.
 
@@ -141,13 +151,17 @@ Where $\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$ is the pooled proportion.
 
 ### One-Sample t-Test
 
-$$t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}$$
+$$
+t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}
+$$
 
 Degrees of freedom: $df = n - 1$
 
 ### Two-Sample t-Test
 
-$$t = \frac{(\bar{x}_1 - \bar{x}_2) - 0}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$$
+$$
+t = \frac{(\bar{x}_1 - \bar{x}_2) - 0}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+$$
 
 Use conservative degrees of freedom: $df = \min(n_1 - 1, n_2 - 1)$ or technology.
 
@@ -156,7 +170,9 @@ Use conservative degrees of freedom: $df = \min(n_1 - 1, n_2 - 1)$ or technology
 For matched pairs or before/after data: compute the differences $d = x_1 - x_2$ and run a one-sample
 t-test on the differences.
 
-$$t = \frac{\bar{d} - 0}{s_d / \sqrt{n}}$$
+$$
+t = \frac{\bar{d} - 0}{s_d / \sqrt{n}}
+$$
 
 ## Chi-Square Tests
 
@@ -164,7 +180,9 @@ $$t = \frac{\bar{d} - 0}{s_d / \sqrt{n}}$$
 
 Tests whether observed frequencies match expected frequencies based on a specified distribution.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 $df = \text{number of categories} - 1$
 
@@ -172,7 +190,9 @@ $df = \text{number of categories} - 1$
 
 Tests whether two categorical variables are independent using a two-way table.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 $df = (\text{rows} - 1)(\text{columns} - 1)$
 
@@ -191,10 +211,16 @@ rather than one population classified two ways.
 
 ### Hypothesis Test for Slope
 
-$$H_0: \beta_1 = 0 \quad \text{(no linear relationship)}$$
-$$H_a: \beta_1 \neq 0 \quad \text{(linear relationship exists)}$$
+$$
+H_0: \beta_1 = 0 \quad \text{(no linear relationship)}
+$$
+$$
+H_a: \beta_1 \neq 0 \quad \text{(linear relationship exists)}
+$$
 
-$$t = \frac{b_1 - 0}{SE_{b_1}}$$
+$$
+t = \frac{b_1 - 0}{SE_{b_1}}
+$$
 
 $df = n - 2$
 

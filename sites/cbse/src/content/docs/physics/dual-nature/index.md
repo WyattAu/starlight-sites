@@ -64,13 +64,19 @@ This topic covers the wave-particle duality of light and matter, including the p
 **Solution:**
 
 Photon energy:
-$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.95 \times 10^{-19} \, \text{J}$$
+$$
+E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.95 \times 10^{-19} \, \text{J}
+$$
 
 Convert to eV:
-$$E = \frac{9.95 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 6.22 \, \text{eV}$$
+$$
+E = \frac{9.95 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 6.22 \, \text{eV}
+$$
 
 Maximum kinetic energy:
-$$K_{\max} = E - W_0 = 6.22 - 3.0 = 3.22 \, \text{eV}$$
+$$
+K_{\max} = E - W_0 = 6.22 - 3.0 = 3.22 \, \text{eV}
+$$
 
 **Common mistake:** Forgetting to convert units between joules and electron volts. Always work in consistent units.
 
@@ -81,16 +87,24 @@ $$K_{\max} = E - W_0 = 6.22 - 3.0 = 3.22 \, \text{eV}$$
 **Solution:**
 
 Maximum kinetic energy:
-$$K_{\max} = eV_0 = 0.5 \, \text{eV}$$
+$$
+K_{\max} = eV_0 = 0.5 \, \text{eV}
+$$
 
 Photon energy:
-$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{400 \times 10^{-9}} \times \frac{1}{1.6 \times 10^{-19}} \approx 3.11 \, \text{eV}$$
+$$
+E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{400 \times 10^{-9}} \times \frac{1}{1.6 \times 10^{-19}} \approx 3.11 \, \text{eV}
+$$
 
 Work function:
-$$W_0 = E - K_{\max} = 3.11 - 0.5 = 2.61 \, \text{eV}$$
+$$
+W_0 = E - K_{\max} = 3.11 - 0.5 = 2.61 \, \text{eV}
+$$
 
 Threshold wavelength:
-$$\lambda_0 = \frac{hc}{W_0} = \frac{1240 \, \text{eV·nm}}{2.61 \, \text{eV}} \approx 475 \, \text{nm}$$
+$$
+\lambda_0 = \frac{hc}{W_0} = \frac{1240 \, \text{eV·nm}}{2.61 \, \text{eV}} \approx 475 \, \text{nm}
+$$
 
 **Common mistake:** Using $\lambda_0 = hc/W_0$ without converting $W_0$ to joules, or using the shortcut $hc = 1240 \, \text{eV·nm}$ incorrectly.
 
@@ -101,15 +115,23 @@ $$\lambda_0 = \frac{hc}{W_0} = \frac{1240 \, \text{eV·nm}}{2.61 \, \text{eV}} \
 **Solution:**
 
 Kinetic energy gained:
-$$K = eV = 100 \, \text{eV} = 1.6 \times 10^{-17} \, \text{J}$$
+$$
+K = eV = 100 \, \text{eV} = 1.6 \times 10^{-17} \, \text{J}
+$$
 
 Momentum:
-$$p = \sqrt{2mK} = \sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-17}}$$
+$$
+p = \sqrt{2mK} = \sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-17}}
+$$
 
-$$p = \sqrt{2.915 \times 10^{-47}} = 5.40 \times 10^{-24} \, \text{kg·m/s}$$
+$$
+p = \sqrt{2.915 \times 10^{-47}} = 5.40 \times 10^{-24} \, \text{kg·m/s}
+$$
 
 de Broglie wavelength:
-$$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10} \, \text{m} = 0.123 \, \text{nm}$$
+$$
+\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10} \, \text{m} = 0.123 \, \text{nm}
+$$
 
 **Common mistake:** Forgetting to take the square root when calculating momentum from kinetic energy.
 
@@ -120,16 +142,24 @@ $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.
 **Solution:**
 
 Photon energy:
-$$E = h\nu = 6.63 \times 10^{-34} \times 8 \times 10^{14} = 5.30 \times 10^{-19} \, \text{J}$$
+$$
+E = h\nu = 6.63 \times 10^{-34} \times 8 \times 10^{14} = 5.30 \times 10^{-19} \, \text{J}
+$$
 
 Convert to eV:
-$$E = \frac{5.30 \times 10^{-19}}{1.6 \times 10^{-19}} = 3.31 \, \text{eV}$$
+$$
+E = \frac{5.30 \times 10^{-19}}{1.6 \times 10^{-19}} = 3.31 \, \text{eV}
+$$
 
 Maximum kinetic energy:
-$$K_{\max} = E - W_0 = 3.31 - 2.0 = 1.31 \, \text{eV}$$
+$$
+K_{\max} = E - W_0 = 3.31 - 2.0 = 1.31 \, \text{eV}
+$$
 
 Stopping potential:
-$$V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}$$
+$$
+V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}
+$$
 
 **Common mistake:** The stopping potential equals $K_{\max}$ in eV, but is measured in volts. Do not confuse the two.
 

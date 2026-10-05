@@ -30,7 +30,9 @@ $(\alpha A)_{ij} = \alpha A_{ij}$.
 **Matrix multiplication.** For $A \in \mathcal{M}_{m \times n}(F)$ and
 $B \in \mathcal{M}_{n \times p}(F)$ The product $AB \in \mathcal{M}_{m \times p}(F)$ is defined by
 
-$$(AB)_{ij} = \sum_{k=1}^n A_{ik} B_{kj}$$
+$$
+(AB)_{ij} = \sum_{k=1}^n A_{ik} B_{kj}
+$$
 
 **Proposition 3.1.** Matrix multiplication is associative but not commutative .
 
@@ -59,7 +61,9 @@ $(A^T)_{ij} = A_{ji}$.
 A square matrix $A \in \mathcal{M}_{n \times n}(F)$ is **invertible** if there exists a matrix
 $A^{-1} \in \mathcal{M}_{n \times n}(F)$ such that
 
-$$AA^{-1} = A^{-1}A = I_n$$
+$$
+AA^{-1} = A^{-1}A = I_n
+$$
 
 **Theorem 3.1.** The following are equivalent for $A \in \mathcal{M}_{n \times n}(F)$:
 
@@ -76,7 +80,9 @@ $$AA^{-1} = A^{-1}A = I_n$$
 The **determinant** is a function $\det : \mathcal{M}_{n \times n}(F) \to F$ defined recursively by
 **Laplace expansion** along the first row:
 
-$$\det(A) = \sum_{j=1}^n (-1)^{1+j} a_{1j} M_{1j}$$
+$$
+\det(A) = \sum_{j=1}^n (-1)^{1+j} a_{1j} M_{1j}
+$$
 
 Where $M_{1j}$ is the $(1,j)$-minor (the determinant of the $(n-1) \times (n-1)$ matrix obtained by
 Deleting row 1 and column $j$).
@@ -101,7 +107,9 @@ $\det$ is multiplied by $\alpha$.
 
 (3) Adding $\alpha$ times row $j$ to row $i$ ($i \neq j$): by multilinearity in row $i$
 
-$$\det(\mathrm{new}~A) = \det(A) + \alpha \cdot \det(\mathrm{matrix}~with~rows~i\mathrm{~and~j\mathrm}{~equal)}$$
+$$
+\det(\mathrm{new}~A) = \det(A) + \alpha \cdot \det(\mathrm{matrix}~with~rows~i\mathrm{~and~j\mathrm}{~equal)}
+$$
 
 A matrix with two equal rows has determinant 0 (by antisymmetry: swapping them leaves the matrix
 Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$Hence $\det = 0$). Therefore
@@ -109,7 +117,9 @@ $\det(\mathrm{new}~A) = \det(A)$. $\blacksquare$
 
 **Theorem 3.3 (Multiplicativity).** For $A, B \in \mathcal{M}_{n \times n}(F)$
 
-$$\det(AB) = \det(A)\det(B)$$
+$$
+\det(AB) = \det(A)\det(B)
+$$
 
 _Proof (via elementary matrices)._ Every matrix $B$ can be written as a product of elementary
 matrices Times an upper triangular matrix: $B = E_1 E_2 \cdots E_k U$. For an elementary matrix $E$:
@@ -122,7 +132,9 @@ matrices Times an upper triangular matrix: $B = E_1 E_2 \cdots E_k U$. For an el
 
 Thus $\det(AE) = \det(A)\det(E)$ for every elementary matrix. By induction,
 
-$$\det(AB) = \det(A \cdot E_1 \cdots E_k U) = \det(A) \cdot \det(E_1) \cdots \det(E_k) \cdot \det(U) = \det(A) \cdot \det(B)$$
+$$
+\det(AB) = \det(A \cdot E_1 \cdots E_k U) = \det(A) \cdot \det(E_1) \cdots \det(E_k) \cdot \det(U) = \det(A) \cdot \det(B)
+$$
 
 Since $\det(B) = \det(E_1)\cdots\det(E_k)\det(U)$. $\blacksquare$
 
@@ -136,14 +148,18 @@ same effects on the determinant. $\blacksquare$
 
 **Definition.** The **adjugate** (or **adjoint**) of $A \in \mathcal{M}_{n \times n}(F)$ is
 
-$$\mathrm{adj}(A) = (C_{ji})_{i,j=1}^n$$
+$$
+\mathrm{adj}(A) = (C_{ji})_{i,j=1}^n
+$$
 
 Where $C_{ij}$ is the $(i,j)$-cofactor of $A$. That is, $\mathrm{adj}(A)$ is the transpose of the
 Cofactor matrix.
 
 **Theorem 3.5.** For any $A \in \mathcal{M}_{n \times n}(F)$
 
-$$A \cdot \mathrm{adj}(A) = \mathrm{adj}(A) \cdot A = \det(A) \cdot I_n$$
+$$
+A \cdot \mathrm{adj}(A) = \mathrm{adj}(A) \cdot A = \det(A) \cdot I_n
+$$
 
 In particular, if $\det(A) \neq 0$ Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
 
@@ -156,16 +172,22 @@ $i$Which has two equal rows and hence determinant 0. $\blacksquare$
 
 **Problem.** Compute $\det(A)$ where
 
-$$A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Expanding along the first column:
 
-$$\det(A) = 1 \cdot \det\begin{pmatrix} 1 & 4 \\ 6 & 0 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}$$
+$$
+\det(A) = 1 \cdot \det\begin{pmatrix} 1 & 4 \\ 6 & 0 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}
+$$
 
-$$= 1 \cdot (0 - 24) + 5 \cdot (8 - 3) = -24 + 25 = 1$$
+$$
+= 1 \cdot (0 - 24) + 5 \cdot (8 - 3) = -24 + 25 = 1
+$$
 
 $\blacksquare$
 
@@ -173,27 +195,37 @@ $\blacksquare$
 
 **Problem.** Compute $\det(A)$ by row reduction where
 
-$$A = \begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Apply row operations and track their effect on the determinant:
 
-$$\begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 0 & -1 & 1 \\ 0 & 0 & -1 & 2 \\ 0 & 1/2 & -1/2 & 1/2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 0 & -1 & 1 \\ 0 & 0 & -1 & 2 \\ 0 & 1/2 & -1/2 & 1/2 \end{pmatrix}
+$$
 
 The determinant is unchanged (only type 3 operations). Now swap $R_2$ and $R_4$ (multiplies $\det$
 by $-1$):
 
-$$\xrightarrow{R_2 \leftrightarrow R_4} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & -1 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_2 \leftrightarrow R_4} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & -1 & 1 \end{pmatrix}
+$$
 
 Now $R_4 \to R_4 - R_3$ (determinant unchanged):
 
-$$\begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & 0 & -1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & 0 & -1 \end{pmatrix}
+$$
 
 The determinant is the product of diagonal entries, times $-1$ for the row swap:
 
-$$\det(A) = (-1) \cdot 2 \cdot \frac{1}{2} \cdot (-1) \cdot (-1) = -1$$
+$$
+\det(A) = (-1) \cdot 2 \cdot \frac{1}{2} \cdot (-1) \cdot (-1) = -1
+$$
 
 $\blacksquare$
 
@@ -201,7 +233,9 @@ $\blacksquare$
 
 **Problem.** Find $A^{-1}$ using the adjugate formula, where
 
-$$A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -210,9 +244,13 @@ $\det(A) = 1 \cdot 4 - 2 \cdot 3 = -2 \neq 0$ So $A$ is invertible.
 
 Cofactors: $C_{11} = 4$, $C_{12} = -3$, $C_{21} = -2$, $C_{22} = 1$.
 
-$$\mathrm{adj}(A) = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}$$
+$$
+\mathrm{adj}(A) = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}
+$$
 
-$$A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}
+$$
 
 Verify:
 $AA^{-1} = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix} = \begin{pmatrix} -2 + 3 & 1 - 1 \\ -6 + 6 & 3 - 2 \end{pmatrix} = I_2$.
@@ -228,16 +266,22 @@ $\det(AB) = \det(A)\det(B)$ with a Non-existent formula for non-square matrices.
 
 **Problem.** Compute $\det(A)$ where
 
-$$A = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 This matrix has Pascal-like entries. We use row operations:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 1 & 3 & 6 \\ 0 & 1 & 4 & 10 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 1 & 4 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 1 & 3 & 6 \\ 0 & 1 & 4 & 10 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 1 & 4 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_4 - R_3} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_4 - R_3} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 0 & 1 \end{pmatrix}
+$$
 
 All operations were type 3 (adding a multiple of one row to another), so the determinant is
 unchanged. The upper triangular matrix has diagonal entries $1, 1, 1, 1$ so $\det(A) = 1$.
@@ -276,22 +320,32 @@ implies $A$ is not invertible: a map that squishes volume to zero cannot be reve
 
 **Problem.** Compute $\det(A)$ where
 
-$$A = \begin{pmatrix} 2 & -1 & 0 \\ 3 & 4 & -2 \\ 1 & 0 & 5 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & -1 & 0 \\ 3 & 4 & -2 \\ 1 & 0 & 5 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Expand along the first row:
 
-$$\det(A) = 2 \cdot \det\begin{pmatrix} 4 & -2 \\ 0 & 5 \end{pmatrix} - (-1) \cdot \det\begin{pmatrix} 3 & -2 \\ 1 & 5 \end{pmatrix} + 0 \cdot \det\begin{pmatrix} 3 & 4 \\ 1 & 0 \end{pmatrix}$$
+$$
+\det(A) = 2 \cdot \det\begin{pmatrix} 4 & -2 \\ 0 & 5 \end{pmatrix} - (-1) \cdot \det\begin{pmatrix} 3 & -2 \\ 1 & 5 \end{pmatrix} + 0 \cdot \det\begin{pmatrix} 3 & 4 \\ 1 & 0 \end{pmatrix}
+$$
 
-$$= 2(20 - 0) + 1(15 + 2) + 0 = 40 + 17 = 57$$
+$$
+= 2(20 - 0) + 1(15 + 2) + 0 = 40 + 17 = 57
+$$
 
 Alternatively, expand along the third row (which has a zero):
 
-$$\det(A) = 1 \cdot \det\begin{pmatrix} -1 & 0 \\ 4 & -2 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}$$
+$$
+\det(A) = 1 \cdot \det\begin{pmatrix} -1 & 0 \\ 4 & -2 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
+$$
 
-$$= 1(2 - 0) + 5(8 + 3) = 2 + 55 = 57 \quad \checkmark$$
+$$
+= 1(2 - 0) + 5(8 + 3) = 2 + 55 = 57 \quad \checkmark
+$$
 
 The second method is faster because the zero entry in the third row eliminates one $2 \times 2$
 determinant computation. Always look for rows or columns with the most zeros before choosing

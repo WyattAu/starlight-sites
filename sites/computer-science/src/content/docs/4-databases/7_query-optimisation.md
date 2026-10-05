@@ -19,7 +19,9 @@ description: 'The optimiser estimates the cost of alternative execution plans an
 
 ### 7.1 Query Processing Pipeline
 
-$$\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}$$
+$$
+\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}
+$$
 
 ### 7.2 Cost-Based Optimisation
 
@@ -45,31 +47,41 @@ $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
 **Nested-loop join.** For each tuple in $R$Scan all of $S$.
 
-$$\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)$$
+$$
+\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)
+$$
 
 If one relation fits in memory, buffer it and scan the other: cost = $n_R + n_S$.
 
 **Block nested-loop join.** Use $B$ buffer pages. Load blocks of $R$ into $B - 2$ buffers, scan $S$
 With the remaining buffer.
 
-$$\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S$$
+$$
+\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S
+$$
 
 **Sort-merge join.** Sort both relations on the join attribute, then merge.
 
-$$\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S$$
+$$
+\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S
+$$
 
 Efficient for large relations, especially when both are already sorted.
 
 **Hash join.** Build a hash table on the smaller relation (build phase), then probe with the larger
 (probe phase).
 
-$$\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}$$
+$$
+\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}
+$$
 
 Best for equi-joins when one relation fits in memory.
 
 **Index nested-loop join.** For each tuple in $R$Use an index on $S$ to find matching tuples.
 
-$$\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)$$
+$$
+\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)
+$$
 
 Efficient if $S$ has an index on the join attribute and $n_R$ is small.
 

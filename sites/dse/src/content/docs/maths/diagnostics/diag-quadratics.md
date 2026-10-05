@@ -33,7 +33,9 @@ For two distinct real roots, we need $\Delta > 0$ AND $a \neq 0$.
 
 $a = k - 1$$b = -2k$$c = k + 3$.
 
-$$\Delta = (-2k)^2 - 4(k-1)(k+3) = 4k^2 - 4(k^2 + 2k - 3) = 4k^2 - 4k^2 - 8k + 12 = -8k + 12$$
+$$
+\Delta = (-2k)^2 - 4(k-1)(k+3) = 4k^2 - 4(k^2 + 2k - 3) = 4k^2 - 4k^2 - 8k + 12 = -8k + 12
+$$
 
 $\Delta > 0 \implies -8k + 12 > 0 \implies k < \dfrac{3}{2}$.
 
@@ -65,11 +67,17 @@ Solve $4^{x+1} - 5 \cdot 2^x + 1 = 0$.
 
 Let $u = 2^x$ (so $u > 0$). Then $4^{x+1} = 4 \cdot 4^x = 4u^2$.
 
-$$4u^2 - 5u + 1 = 0$$
+$$
+4u^2 - 5u + 1 = 0
+$$
 
-$$(4u - 1)(u - 1) = 0$$
+$$
+(4u - 1)(u - 1) = 0
+$$
 
-$$u = \frac{1}{4} \quad \text{or} \quad u = 1$$
+$$
+u = \frac{1}{4} \quad \text{or} \quad u = 1
+$$
 
 Since $u > 0$Both are valid.
 
@@ -101,7 +109,9 @@ without solving the equation.
 
 By Vieta's formulas: $\alpha + \beta = \dfrac{6}{2} = 3$ and $\alpha\beta = \dfrac{1}{2}$.
 
-$$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = 9 - 2\left(\frac{1}{2}\right) = 9 - 1 = 8$$
+$$
+\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = 9 - 2\left(\frac{1}{2}\right) = 9 - 1 = 8
+$$
 
 ---
 
@@ -122,11 +132,15 @@ Find the range of $f(x) = -3x^2 + 12x - 7$.
 
 **Solution:**
 
-$$f(x) = -3(x^2 - 4x) - 7 = -3(x - 2)^2 + 12 - 7 = -3(x - 2)^2 + 5$$
+$$
+f(x) = -3(x^2 - 4x) - 7 = -3(x - 2)^2 + 12 - 7 = -3(x - 2)^2 + 5
+$$
 
 Since $-3(x - 2)^2 \leq 0$ for all $x$The maximum value is $5$ at $x = 2$.
 
-$$\mathrm{ran}(f) = (-\infty,\; 5]$$
+$$
+\mathrm{ran}(f) = (-\infty,\; 5]
+$$
 
 ---
 
@@ -151,7 +165,9 @@ We need $ac = 6 \times (-20) = -120$ and $b = -7$.
 
 Two numbers multiplying to $-120$ and adding to $-7$: $-15$ and $8$.
 
-$$6x^2 - 15x + 8x - 20 = 3x(2x - 5) + 4(2x - 5) = (3x + 4)(2x - 5)$$
+$$
+6x^2 - 15x + 8x - 20 = 3x(2x - 5) + 4(2x - 5) = (3x + 4)(2x - 5)
+$$
 
 ---
 
@@ -218,7 +234,9 @@ of $k$.
 
 No real roots means $\Delta < 0$:
 
-$$\Delta = 16 - 4k < 0 \implies k > 4$$
+$$
+\Delta = 16 - 4k < 0 \implies k > 4
+$$
 
 Also $f(2) = 4 - 8 + k = k - 4 > 0 \implies k > 4$.
 
@@ -248,17 +266,25 @@ coordinates of $A$ and $B$ And the length of $AB$.
 
 Setting equal: $x^2 - 3x + 7 = 2x + 1$
 
-$$x^2 - 5x + 6 = 0$$
+$$
+x^2 - 5x + 6 = 0
+$$
 
-$$(x - 2)(x - 3) = 0$$
+$$
+(x - 2)(x - 3) = 0
+$$
 
-$$x = 2 \quad \text{or} \quad x = 3$$
+$$
+x = 2 \quad \text{or} \quad x = 3
+$$
 
 When $x = 2$: $y = 2(2) + 1 = 5$. So $A = (2, 5)$.
 
 When $x = 3$: $y = 2(3) + 1 = 7$. So $B = (3, 7)$.
 
-$$AB = \sqrt{(3-2)^2 + (7-5)^2} = \sqrt{1 + 4} = \sqrt{5}$$
+$$
+AB = \sqrt{(3-2)^2 + (7-5)^2} = \sqrt{1 + 4} = \sqrt{5}
+$$
 
 ---
 
@@ -284,15 +310,23 @@ are $\alpha^2$ and $\beta^2$.
 
 By Vieta's formulas: $\alpha + \beta = \dfrac{5}{3}$ and $\alpha\beta = \dfrac{2}{3}$.
 
-$$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{25}{9} - \frac{4}{3} = \frac{25 - 12}{9} = \frac{13}{9}$$
+$$
+\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{25}{9} - \frac{4}{3} = \frac{25 - 12}{9} = \frac{13}{9}
+$$
 
-$$\alpha^2 \beta^2 = (\alpha\beta)^2 = \frac{4}{9}$$
+$$
+\alpha^2 \beta^2 = (\alpha\beta)^2 = \frac{4}{9}
+$$
 
 The required equation has sum $= \dfrac{13}{9}$ and product $= \dfrac{4}{9}$:
 
-$$x^2 - \frac{13}{9}x + \frac{4}{9} = 0$$
+$$
+x^2 - \frac{13}{9}x + \frac{4}{9} = 0
+$$
 
-$$9x^2 - 13x + 4 = 0$$
+$$
+9x^2 - 13x + 4 = 0
+$$
 
 ---
 
@@ -343,11 +377,17 @@ Solve $x^4 - 5x^2 + 4 = 0$.
 
 Let $u = x^2$ ($u \geq 0$).
 
-$$u^2 - 5u + 4 = 0$$
+$$
+u^2 - 5u + 4 = 0
+$$
 
-$$(u - 1)(u - 4) = 0$$
+$$
+(u - 1)(u - 4) = 0
+$$
 
-$$u = 1 \quad \text{or} \quad u = 4$$
+$$
+u = 1 \quad \text{or} \quad u = 4
+$$
 
 $x^2 = 1 \implies x = 1$ or $x = -1$.
 
@@ -384,7 +424,9 @@ $2y + x = 100 \implies y = \dfrac{100 - x}{2} = 50 - \dfrac{x}{2}$.
 
 Area: $A = xy = x\left(50 - \dfrac{x}{2}\right) = 50x - \dfrac{x^2}{2}$.
 
-$$A = -\frac{1}{2}(x^2 - 100x) = -\frac{1}{2}(x - 50)^2 + 1250$$
+$$
+A = -\frac{1}{2}(x^2 - 100x) = -\frac{1}{2}(x - 50)^2 + 1250
+$$
 
 Maximum area is $1250$ m$^2$ when $x = 50$ m, $y = 25$ m.
 
@@ -409,13 +451,19 @@ Find the value of $c$ for which the line $y = 2x + c$ is tangent to the curve $y
 
 Set equal: $x^2 + 3x - 1 = 2x + c$.
 
-$$x^2 + x - (1 + c) = 0$$
+$$
+x^2 + x - (1 + c) = 0
+$$
 
 For tangency, $\Delta = 0$:
 
-$$\Delta = 1 - 4(1)(-(1+c)) = 1 + 4(1+c) = 5 + 4c = 0$$
+$$
+\Delta = 1 - 4(1)(-(1+c)) = 1 + 4(1+c) = 5 + 4c = 0
+$$
 
-$$c = -\frac{5}{4}$$
+$$
+c = -\frac{5}{4}
+$$
 
 ---
 
@@ -441,9 +489,13 @@ $\alpha\beta = k + 3$.
 
 Substituting: $\alpha\beta = -(\alpha + \beta) + 3$.
 
-$$\alpha\beta + \alpha + \beta = 3$$
+$$
+\alpha\beta + \alpha + \beta = 3
+$$
 
-$$(\alpha + 1)(\beta + 1) = 4$$
+$$
+(\alpha + 1)(\beta + 1) = 4
+$$
 
 Factor pairs of 4: $(1,4), (2,2), (4,1), (-1,-4), (-2,-2), (-4,-1)$.
 
@@ -480,9 +532,13 @@ $\dfrac{1}{\alpha}$ and $\dfrac{1}{\beta}$.
 
 $\alpha + \beta = 7$, $\alpha\beta = 10$.
 
-$$\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta} = \frac{7}{10}$$
+$$
+\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta} = \frac{7}{10}
+$$
 
-$$\frac{1}{\alpha} \cdot \frac{1}{\beta} = \frac{1}{\alpha\beta} = \frac{1}{10}$$
+$$
+\frac{1}{\alpha} \cdot \frac{1}{\beta} = \frac{1}{\alpha\beta} = \frac{1}{10}
+$$
 
 Required equation: $x^2 - \dfrac{7}{10}x + \dfrac{1}{10} = 0$I.e. $10x^2 - 7x + 1 = 0$.
 
@@ -603,7 +659,9 @@ flowchart TD
 
 $a = k$$b = -(k + 3)$$c = 3$.
 
-$$\Delta = (k + 3)^2 - 4(k)(3) = k^2 + 6k + 9 - 12k = k^2 - 6k + 9 = (k - 3)^2$$
+$$
+\Delta = (k + 3)^2 - 4(k)(3) = k^2 + 6k + 9 - 12k = k^2 - 6k + 9 = (k - 3)^2
+$$
 
 $\Delta > 0 \implies (k - 3)^2 > 0 \implies k \neq 3$.
 
@@ -644,13 +702,21 @@ From (1): $p^2 - 2q = 10 \implies q = \dfrac{p^2 - 10}{2}$.
 
 Substituting into (2): $-p^3 + 3p \cdot \dfrac{p^2 - 10}{2} = 28$.
 
-$$-p^3 + \frac{3p^3 - 30p}{2} = 28$$
+$$
+-p^3 + \frac{3p^3 - 30p}{2} = 28
+$$
 
-$$\frac{-2p^3 + 3p^3 - 30p}{2} = 28$$
+$$
+\frac{-2p^3 + 3p^3 - 30p}{2} = 28
+$$
 
-$$p^3 - 30p = 56$$
+$$
+p^3 - 30p = 56
+$$
 
-$$p^3 - 30p - 56 = 0$$
+$$
+p^3 - 30p - 56 = 0
+$$
 
 By trial: $p = -2$: $-8 + 60 - 56 = -4 \neq 0$.
 
@@ -684,7 +750,9 @@ minimum value of $f(x)$ is $-1$Find $k$. (3 marks)
 
 (a) $f(x) > 0$ for all $x$ requires $\Delta < 0$ (since leading coefficient $= 1 > 0$).
 
-$$\Delta = (-2k)^2 - 4(k^2 + k - 3) = 4k^2 - 4k^2 - 4k + 12 = -4k + 12$$
+$$
+\Delta = (-2k)^2 - 4(k^2 + k - 3) = 4k^2 - 4k^2 - 4k + 12 = -4k + 12
+$$
 
 $\Delta < 0 \implies -4k + 12 < 0 \implies k > 3$.
 
@@ -749,20 +817,30 @@ $k$ such that $\dfrac{1}{\alpha^2} + \dfrac{1}{\beta^2} = 1$. (4 marks)
 
 (a) $\alpha + \beta = -2$, $\alpha\beta = \dfrac{k}{2}$.
 
-$$\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta} = \frac{-2}{k/2} = -\frac{4}{k}$$
+$$
+\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta} = \frac{-2}{k/2} = -\frac{4}{k}
+$$
 
 (b)
 $\dfrac{1}{\alpha^2} + \dfrac{1}{\beta^2} = \left(\dfrac{1}{\alpha} + \dfrac{1}{\beta}\right)^2 - \dfrac{2}{\alpha\beta} = \dfrac{16}{k^2} - \dfrac{4}{k}$.
 
 Setting equal to 1:
 
-$$\frac{16}{k^2} - \frac{4}{k} = 1$$
+$$
+\frac{16}{k^2} - \frac{4}{k} = 1
+$$
 
-$$16 - 4k = k^2$$
+$$
+16 - 4k = k^2
+$$
 
-$$k^2 + 4k - 16 = 0$$
+$$
+k^2 + 4k - 16 = 0
+$$
 
-$$k = \frac{-4 \pm \sqrt{16 + 64}}{2} = \frac{-4 \pm \sqrt{80}}{2} = -2 \pm 2\sqrt{5}$$
+$$
+k = \frac{-4 \pm \sqrt{16 + 64}}{2} = \frac{-4 \pm \sqrt{80}}{2} = -2 \pm 2\sqrt{5}
+$$
 
 Both are valid provided the original equation has real roots: $\Delta = 16 - 8k > 0 \implies k < 2$.
 Since $-2 + 2\sqrt{5} \approx 2.47 > 2$Only $k = -2 - 2\sqrt{5}$ gives real roots. Check:

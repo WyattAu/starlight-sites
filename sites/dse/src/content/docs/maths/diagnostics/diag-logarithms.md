@@ -26,7 +26,9 @@ tableOfContents: false
 
 Which of the following statements are true? Justify your answer.
 
-$$\text{(i)}\; \log(ab) = \log a + \log b \qquad \text{(ii)}\; \log(a + b) = \log a + \log b$$
+$$
+\text{(i)}\; \log(ab) = \log a + \log b \qquad \text{(ii)}\; \log(a + b) = \log a + \log b
+$$
 
 **Solution:**
 
@@ -65,15 +67,25 @@ Domain: $x - 2 > 0$ and $x + 1 > 0$ So $x > 2$.
 
 Using the product law:
 
-$$\log_3[(x-2)(x+1)] = 1$$
+$$
+\log_3[(x-2)(x+1)] = 1
+$$
 
-$$(x-2)(x+1) = 3$$
+$$
+(x-2)(x+1) = 3
+$$
 
-$$x^2 - x - 2 = 3$$
+$$
+x^2 - x - 2 = 3
+$$
 
-$$x^2 - x - 5 = 0$$
+$$
+x^2 - x - 5 = 0
+$$
 
-$$x = \frac{1 \pm \sqrt{1 + 20}}{2} = \frac{1 \pm \sqrt{21}}{2}$$
+$$
+x = \frac{1 \pm \sqrt{1 + 20}}{2} = \frac{1 \pm \sqrt{21}}{2}
+$$
 
 $x = \dfrac{1 + \sqrt{21}}{2} \approx 2.79$ (valid since $> 2$).
 
@@ -102,7 +114,9 @@ Given that $\log_2 3 = a$ and $\log_2 5 = b$Express $\log_{15} 4$ in terms of $a
 
 **Solution:**
 
-$$\log_{15} 4 = \frac{\log_2 4}{\log_2 15} = \frac{2}{\log_2(3 \times 5)} = \frac{2}{\log_2 3 + \log_2 5} = \frac{2}{a + b}$$
+$$
+\log_{15} 4 = \frac{\log_2 4}{\log_2 15} = \frac{2}{\log_2(3 \times 5)} = \frac{2}{\log_2 3 + \log_2 5} = \frac{2}{a + b}
+$$
 
 ---
 
@@ -125,11 +139,17 @@ Solve $(\log_2 x)^2 - 3\log_2 x - 4 = 0$.
 
 Let $u = \log_2 x$ (domain: $x > 0$).
 
-$$u^2 - 3u - 4 = 0$$
+$$
+u^2 - 3u - 4 = 0
+$$
 
-$$(u - 4)(u + 1) = 0$$
+$$
+(u - 4)(u + 1) = 0
+$$
 
-$$u = 4 \quad \text{or} \quad u = -1$$
+$$
+u = 4 \quad \text{or} \quad u = -1
+$$
 
 $\log_2 x = 4 \implies x = 16$.
 
@@ -162,13 +182,21 @@ Using change of base: $\log_x 4 = \dfrac{\log_4 4}{\log_4 x} = \dfrac{1}{\log_4 
 
 Let $u = \log_4 x$ (domain: $x > 0$, $x \neq 1$ So $u \neq 0$).
 
-$$\frac{2}{u} - u = 1$$
+$$
+\frac{2}{u} - u = 1
+$$
 
-$$2 - u^2 = u$$
+$$
+2 - u^2 = u
+$$
 
-$$u^2 + u - 2 = 0$$
+$$
+u^2 + u - 2 = 0
+$$
 
-$$(u + 2)(u - 1) = 0$$
+$$
+(u + 2)(u - 1) = 0
+$$
 
 $u = -2$ or $u = 1$.
 
@@ -203,9 +231,13 @@ Solve $3^{2x} - 4 \cdot 3^x + 3 = 0$.
 
 Let $u = 3^x$ ($u > 0$).
 
-$$u^2 - 4u + 3 = 0$$
+$$
+u^2 - 4u + 3 = 0
+$$
 
-$$(u - 1)(u - 3) = 0$$
+$$
+(u - 1)(u - 3) = 0
+$$
 
 $u = 1$ or $u = 3$.
 
@@ -236,9 +268,13 @@ Solve $\log_3(x + 4) > \log_3(8 - x)$.
 
 Since $\log_3$ is increasing, we can compare arguments directly:
 
-$$x + 4 > 8 - x$$
+$$
+x + 4 > 8 - x
+$$
 
-$$2x > 4 \implies x > 2$$
+$$
+2x > 4 \implies x > 2
+$$
 
 Domain: $x + 4 > 0$ and $8 - x > 0$Giving $-4 < x < 8$.
 
@@ -302,15 +338,25 @@ Domain: $x + 4 > 0$ and $x - 2 > 0$ So $x > 2$.
 
 Using the product law:
 
-$$\log_2[(x+4)(x-2)] = 3$$
+$$
+\log_2[(x+4)(x-2)] = 3
+$$
 
-$$(x+4)(x-2) = 2^3 = 8$$
+$$
+(x+4)(x-2) = 2^3 = 8
+$$
 
-$$x^2 + 2x - 8 = 8$$
+$$
+x^2 + 2x - 8 = 8
+$$
 
-$$x^2 + 2x - 16 = 0$$
+$$
+x^2 + 2x - 16 = 0
+$$
 
-$$x = \frac{-2 \pm \sqrt{4 + 64}}{2} = \frac{-2 \pm \sqrt{68}}{2} = -1 \pm \sqrt{17}$$
+$$
+x = \frac{-2 \pm \sqrt{4 + 64}}{2} = \frac{-2 \pm \sqrt{68}}{2} = -1 \pm \sqrt{17}
+$$
 
 $x = -1 + \sqrt{17} \approx 3.12$ (valid, $> 2$).
 
@@ -395,11 +441,17 @@ Given that $\log_3 2 = a$Express $\log_3 16 - \log_3 4$ in terms of $a$.
 
 **Solution:**
 
-$$\log_3 16 = \log_3 2^4 = 4\log_3 2 = 4a$$
+$$
+\log_3 16 = \log_3 2^4 = 4\log_3 2 = 4a
+$$
 
-$$\log_3 4 = \log_3 2^2 = 2\log_3 2 = 2a$$
+$$
+\log_3 4 = \log_3 2^2 = 2\log_3 2 = 2a
+$$
 
-$$\log_3 16 - \log_3 4 = 4a - 2a = 2a$$
+$$
+\log_3 16 - \log_3 4 = 4a - 2a = 2a
+$$
 
 Alternatively: $\log_3 16 - \log_3 4 = \log_3 \dfrac{16}{4} = \log_3 4 = 2a$.
 
@@ -427,9 +479,13 @@ Domain: $2x - 1 > 0$ and $x + 2 > 0$Giving $x > \dfrac{1}{2}$ and $x > -2$ So $x
 Since the base $0.5$ is between 0 and 1, the logarithmic function is **decreasing**. Therefore the
 inequality **reverses**:
 
-$$2x - 1 < x + 2$$
+$$
+2x - 1 < x + 2
+$$
 
-$$x < 3$$
+$$
+x < 3
+$$
 
 Combining with the domain: $\dfrac{1}{2} < x < 3$.
 
@@ -458,13 +514,17 @@ Given $\log_4 5 = a$Find $\log_8 10$ in terms of $a$.
 
 **Solution:**
 
-$$\log_8 10 = \frac{\log_4 10}{\log_4 8}$$
+$$
+\log_8 10 = \frac{\log_4 10}{\log_4 8}
+$$
 
 $\log_4 10 = \log_4(2 \times 5) = \log_4 2 + \log_4 5 = \dfrac{1}{2} + a$.
 
 $\log_4 8 = \log_4(4 \times 2) = 1 + \dfrac{1}{2} = \dfrac{3}{2}$.
 
-$$\log_8 10 = \frac{\frac{1}{2} + a}{\frac{3}{2}} = \frac{1 + 2a}{3}$$
+$$
+\log_8 10 = \frac{\frac{1}{2} + a}{\frac{3}{2}} = \frac{1 + 2a}{3}
+$$
 
 ---
 
@@ -495,7 +555,9 @@ From (2): $x = y + 2$. Substituting into (1):
 
 $(y + 2)y = 32 \implies y^2 + 2y - 32 = 0$.
 
-$$y = \frac{-2 \pm \sqrt{4 + 128}}{2} = \frac{-2 \pm \sqrt{132}}{2} = -1 \pm \sqrt{33}$$
+$$
+y = \frac{-2 \pm \sqrt{4 + 128}}{2} = \frac{-2 \pm \sqrt{132}}{2} = -1 \pm \sqrt{33}
+$$
 
 Since $y > 0$: $y = -1 + \sqrt{33}$.
 
@@ -524,17 +586,29 @@ Solve $5^{x+1} = 2^{2x-1}$.
 
 Take logarithms of both sides (any base, say base 10 or natural log):
 
-$$(x+1)\ln 5 = (2x - 1)\ln 2$$
+$$
+(x+1)\ln 5 = (2x - 1)\ln 2
+$$
 
-$$x\ln 5 + \ln 5 = 2x\ln 2 - \ln 2$$
+$$
+x\ln 5 + \ln 5 = 2x\ln 2 - \ln 2
+$$
 
-$$x\ln 5 - 2x\ln 2 = -\ln 2 - \ln 5$$
+$$
+x\ln 5 - 2x\ln 2 = -\ln 2 - \ln 5
+$$
 
-$$x(\ln 5 - 2\ln 2) = -(\ln 2 + \ln 5)$$
+$$
+x(\ln 5 - 2\ln 2) = -(\ln 2 + \ln 5)
+$$
 
-$$x = \frac{-(\ln 2 + \ln 5)}{\ln 5 - 2\ln 2} = \frac{-(\ln 10)}{\ln 5 - \ln 4} = \frac{-\ln 10}{\ln(5/4)} = \frac{\ln 10}{\ln(4/5)}$$
+$$
+x = \frac{-(\ln 2 + \ln 5)}{\ln 5 - 2\ln 2} = \frac{-(\ln 10)}{\ln 5 - \ln 4} = \frac{-\ln 10}{\ln(5/4)} = \frac{\ln 10}{\ln(4/5)}
+$$
 
-$$x = \frac{\ln 10}{\ln(4/5)} \approx \frac{2.303}{-0.223} \approx -10.33$$
+$$
+x = \frac{\ln 10}{\ln(4/5)} \approx \frac{2.303}{-0.223} \approx -10.33
+$$
 
 ---
 
@@ -749,15 +823,25 @@ Solve the inequality $\log_2(x + 3) + \log_2(x - 1) \leq 3$.
 
 Domain: $x + 3 > 0$ and $x - 1 > 0$ So $x > 1$.
 
-$$\log_2[(x+3)(x-1)] \leq 3$$
+$$
+\log_2[(x+3)(x-1)] \leq 3
+$$
 
-$$(x+3)(x-1) \leq 8$$
+$$
+(x+3)(x-1) \leq 8
+$$
 
-$$x^2 + 2x - 3 \leq 8$$
+$$
+x^2 + 2x - 3 \leq 8
+$$
 
-$$x^2 + 2x - 11 \leq 0$$
+$$
+x^2 + 2x - 11 \leq 0
+$$
 
-$$x = \frac{-2 \pm \sqrt{4 + 44}}{2} = \frac{-2 \pm \sqrt{48}}{2} = -1 \pm 2\sqrt{3}$$
+$$
+x = \frac{-2 \pm \sqrt{4 + 44}}{2} = \frac{-2 \pm \sqrt{48}}{2} = -1 \pm 2\sqrt{3}
+$$
 
 Solution of quadratic: $-1 - 2\sqrt{3} \leq x \leq -1 + 2\sqrt{3}$.
 

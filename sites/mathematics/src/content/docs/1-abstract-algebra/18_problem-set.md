@@ -323,9 +323,13 @@ $\mathbb{Q}[x]$.
 
 _Solution._
 
-$$x^3 - 2x + 1 = x(x^2 - 1) + (-x + 1)$$
+$$
+x^3 - 2x + 1 = x(x^2 - 1) + (-x + 1)
+$$
 
-$$x^2 - 1 = (-x - 1)(-x + 1) + 0$$
+$$
+x^2 - 1 = (-x - 1)(-x + 1) + 0
+$$
 
 Since the last non-zero remainder is $-x + 1$We have $\gcd(x^3 - 2x + 1, x^2 - 1) = x - 1$ (up to
 multiplication by a unit in $\mathbb{Q}[x]$I.e., a non-zero constant). $\blacksquare$

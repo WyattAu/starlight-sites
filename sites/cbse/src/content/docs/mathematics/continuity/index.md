@@ -63,7 +63,9 @@ Continuity ensures a function has no breaks, jumps, or holes. Differentiability 
 **Solution:**
 
 For $x \neq 2$:
-$$f(x) = \frac{x^2 - 4}{x - 2} = \frac{(x-2)(x+2)}{x-2} = x + 2$$
+$$
+f(x) = \frac{x^2 - 4}{x - 2} = \frac{(x-2)(x+2)}{x-2} = x + 2
+$$
 
 Left-hand limit: $\lim_{x \to 2^-} f(x) = 2 + 2 = 4$
 
@@ -83,9 +85,13 @@ Since $\lim_{x \to 2} f(x) \neq f(2)$, the function is not continuous at $x = 2$
 
 Let $u = \ln(x^2 + 1)$, $v = \sin(u)$:
 
-$$\frac{d}{dx}[\sin(\ln(x^2 + 1))] = \cos(\ln(x^2 + 1)) \cdot \frac{1}{x^2 + 1} \cdot 2x$$
+$$
+\frac{d}{dx}[\sin(\ln(x^2 + 1))] = \cos(\ln(x^2 + 1)) \cdot \frac{1}{x^2 + 1} \cdot 2x
+$$
 
-$$= \frac{2x \cos(\ln(x^2 + 1))}{x^2 + 1}$$
+$$
+= \frac{2x \cos(\ln(x^2 + 1))}{x^2 + 1}
+$$
 
 **Common mistake:** Forgetting one of the chain rule steps. Each nested function requires one more derivative factor.
 
@@ -96,12 +102,18 @@ $$= \frac{2x \cos(\ln(x^2 + 1))}{x^2 + 1}$$
 **Solution:**
 
 Take $\ln$ of both sides:
-$$\ln y = x \ln x$$
+$$
+\ln y = x \ln x
+$$
 
 Differentiate implicitly:
-$$\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1$$
+$$
+\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1
+$$
 
-$$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
+$$
+\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)
+$$
 
 **Common mistake:** Trying to use the power rule for $x^x$. The power rule applies to $x^n$ (constant exponent), not $a^x$ (constant base).
 
@@ -166,9 +178,13 @@ Setting equal: $3k + 1 = 5 \implies k = \frac{4}{3}$
 Simplify first: $\ln\left(\sqrt{\sin(x^2)}\right) = \frac{1}{2} \ln(\sin(x^2))$
 
 Now differentiate:
-$$\frac{d}{dx} \left[ \frac{1}{2} \ln(\sin(x^2)) \right] = \frac{1}{2} \cdot \frac{1}{\sin(x^2)} \cdot \cos(x^2) \cdot 2x$$
+$$
+\frac{d}{dx} \left[ \frac{1}{2} \ln(\sin(x^2)) \right] = \frac{1}{2} \cdot \frac{1}{\sin(x^2)} \cdot \cos(x^2) \cdot 2x
+$$
 
-$$= \frac{x \cos(x^2)}{\sin(x^2)} = x \cot(x^2)$$
+$$
+= \frac{x \cos(x^2)}{\sin(x^2)} = x \cot(x^2)
+$$
 
 **Common mistake:** Not simplifying before differentiating. Simplifying $\ln(\sqrt{u})$ to $\frac{1}{2}\ln u$ makes the chain rule much easier.
 
@@ -179,15 +195,23 @@ $$= \frac{x \cos(x^2)}{\sin(x^2)} = x \cot(x^2)$$
 **Solution:**
 
 Differentiate both sides with respect to $x$:
-$$2x + 2y \frac{dy}{dx} + \cos(xy) \left(y + x \frac{dy}{dx}\right) = 0$$
+$$
+2x + 2y \frac{dy}{dx} + \cos(xy) \left(y + x \frac{dy}{dx}\right) = 0
+$$
 
 Expand:
-$$2x + 2y \frac{dy}{dx} + y\cos(xy) + x\cos(xy) \frac{dy}{dx} = 0$$
+$$
+2x + 2y \frac{dy}{dx} + y\cos(xy) + x\cos(xy) \frac{dy}{dx} = 0
+$$
 
 Collect $\frac{dy}{dx}$ terms:
-$$\frac{dy}{dx} \left(2y + x\cos(xy)\right) = -2x - y\cos(xy)$$
+$$
+\frac{dy}{dx} \left(2y + x\cos(xy)\right) = -2x - y\cos(xy)
+$$
 
-$$\frac{dy}{dx} = \frac{-2x - y\cos(xy)}{2y + x\cos(xy)}$$
+$$
+\frac{dy}{dx} = \frac{-2x - y\cos(xy)}{2y + x\cos(xy)}
+$$
 
 **Common mistake:** Forgetting to apply the chain rule when differentiating $\sin(xy)$. The derivative of $\sin(xy)$ is $\cos(xy) \cdot (y + x \frac{dy}{dx})$.
 

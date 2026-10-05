@@ -97,7 +97,9 @@ inference is _modus ponens_: from $P \implies Q$ and $P$We deduce $Q$.
 
 **(a)** Negate the following statement:
 
-$$\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; \forall x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \implies (|f(x) - f(a)| \lt \varepsilon)$$
+$$
+\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; \forall x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \implies (|f(x) - f(a)| \lt \varepsilon)
+$$
 
 **(b)** A student writes the negation as
 "$\exists \varepsilon \gt 0, \; \exists \delta \gt 0, \; \forall x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \implies (|f(x) - f(a)| \geq \varepsilon)$".
@@ -110,11 +112,15 @@ Identify the errors.
 **(a)** To negate, flip each quantifier and negate the predicate. The negation of an implication
 $P \implies Q$ is $P \wedge \neg Q$.
 
-$$\neg(P \implies Q) = \neg(\neg P \vee Q) = P \wedge \neg Q$$
+$$
+\neg(P \implies Q) = \neg(\neg P \vee Q) = P \wedge \neg Q
+$$
 
 So:
 
-$$\exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \exists x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \;\wedge\; (|f(x) - f(a)| \geq \varepsilon)$$
+$$
+\exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \exists x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \;\wedge\; (|f(x) - f(a)| \geq \varepsilon)
+$$
 
 **(b)** The student made two errors:
 
@@ -212,15 +218,25 @@ $n \in \mathbb{N}$.
 
 **Inductive step:** Consider $n = k + 1$:
 
-$$3^{2(k+1)+1} + 2^{(k+1)+2} = 3^{2k+3} + 2^{k+3}$$
+$$
+3^{2(k+1)+1} + 2^{(k+1)+2} = 3^{2k+3} + 2^{k+3}
+$$
 
-$$= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2}$$
+$$
+= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2}
+$$
 
-$$= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2} + 7 \cdot 3^{2k+1} - 7 \cdot 3^{2k+1}$$
+$$
+= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2} + 7 \cdot 3^{2k+1} - 7 \cdot 3^{2k+1}
+$$
 
-$$= 7 \cdot 3^{2k+1} + 2(3^{2k+1} + 2^{k+2})$$
+$$
+= 7 \cdot 3^{2k+1} + 2(3^{2k+1} + 2^{k+2})
+$$
 
-$$= 7 \cdot 3^{2k+1} + 2 \cdot 7m = 7(3^{2k+1} + 2m)$$
+$$
+= 7 \cdot 3^{2k+1} + 2 \cdot 7m = 7(3^{2k+1} + 2m)
+$$
 
 Since $3^{2k+1} + 2m$ is an integer, $3^{2k+3} + 2^{k+3}$ is divisible by $7$.
 
@@ -253,9 +269,13 @@ positive integers $a, b$.
 
 Squaring: $2 + 2\sqrt{6} + 3 = \frac{a^2}{b^2}$ So:
 
-$$2\sqrt{6} = \frac{a^2}{b^2} - 5$$
+$$
+2\sqrt{6} = \frac{a^2}{b^2} - 5
+$$
 
-$$\sqrt{6} = \frac{a^2 - 5b^2}{2b^2}$$
+$$
+\sqrt{6} = \frac{a^2 - 5b^2}{2b^2}
+$$
 
 Since $a, b$ are integers, the RHS is rational. So $\sqrt{6}$ is rational. But $\sqrt{6}$ is
 irrational (proved by the standard contradiction proof: if $\sqrt{6} = \frac{p}{q}$ in lowest terms,

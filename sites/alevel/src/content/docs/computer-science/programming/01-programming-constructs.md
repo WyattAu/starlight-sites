@@ -196,7 +196,9 @@ _Base case._ $n = 0$: returns 1 = $0!$. ✓
 
 _Inductive step._ Assume `factorial(k) = k!` for all $k \leq n$. Then:
 
-$$\mathrm{factorial}(n+1) = (n+1) \times \mathrm{factorial}(n) = (n+1) \times n! = (n+1)!$$
+$$
+\mathrm{factorial}(n+1) = (n+1) \times \mathrm{factorial}(n) = (n+1) \times n! = (n+1)!
+$$
 
 ✓ $\square$
 

@@ -21,21 +21,31 @@ description: "Fourier Series: comprehensive educational content notes with preci
 
 A **Fourier series** of a $2\pi$-periodic function $f$ is
 
-$$f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos(nx) + b_n \sin(nx)\right)$$
+$$
+f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos(nx) + b_n \sin(nx)\right)
+$$
 
 Where
 
-$$a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\, dx, \quad b_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\sin(nx)\, dx$$
+$$
+a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\, dx, \quad b_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\sin(nx)\, dx
+$$
 
 ### 7.2 Derivation of Fourier Coefficients
 
 The Fourier coefficients are derived using the orthogonality relations on $[-\pi, \pi]$:
 
-$$\int_{-\pi}^{\pi} \cos(mx)\cos(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 2\pi & m = n = 0 \\ 0 & m \neq n \end{cases}$$
+$$
+\int_{-\pi}^{\pi} \cos(mx)\cos(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 2\pi & m = n = 0 \\ 0 & m \neq n \end{cases}
+$$
 
-$$\int_{-\pi}^{\pi} \sin(mx)\sin(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 0 & m \neq n \end{cases}$$
+$$
+\int_{-\pi}^{\pi} \sin(mx)\sin(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 0 & m \neq n \end{cases}
+$$
 
-$$\int_{-\pi}^{\pi} \cos(mx)\sin(nx)\, dx = 0 \quad \mathrm{for}\; all\; m, n$$
+$$
+\int_{-\pi}^{\pi} \cos(mx)\sin(nx)\, dx = 0 \quad \mathrm{for}\; all\; m, n
+$$
 
 To find $a_n$Multiply both sides of the Fourier expansion by $\cos(nx)$ and integrate over
 $[-\pi, \pi]$. By orthogonality, all terms vanish except the $\cos(nx)$ term, yielding
@@ -51,7 +61,9 @@ Series converges to:
 
 ### 7.4 Parseval's Identity
 
-$$\frac{1}{\pi}\int_{-\pi}^{\pi} |f(x)|^2\, dx = \frac{a_0^2}{2} + \sum_{n=1}^{\infty}(a_n^2 + b_n^2)$$
+$$
+\frac{1}{\pi}\int_{-\pi}^{\pi} |f(x)|^2\, dx = \frac{a_0^2}{2} + \sum_{n=1}^{\infty}(a_n^2 + b_n^2)
+$$
 
 _Intuition._ Parseval's identity is the infinite-dimensional analogue of the Pythagorean theorem:
 The "energy" of $f$ (its $L^2$ norm squared) equals the sum of the energies of its Fourier
@@ -114,7 +126,9 @@ identity $\sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n^2} = \frac{\pi^2}{12}$. $\blac
 
 Using Euler's formula, the Fourier series can be written in complex form:
 
-$$f(x) \sim \sum_{n=-\infty}^{\infty} c_n e^{inx}$$
+$$
+f(x) \sim \sum_{n=-\infty}^{\infty} c_n e^{inx}
+$$
 
 Where $c_n = \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-inx}\, dx$.
 

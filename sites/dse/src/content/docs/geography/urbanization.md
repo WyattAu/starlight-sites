@@ -44,7 +44,9 @@ stabilised or are experiencing counter-urbanisation.
 
 Urbanisation can be measured by:
 
-$$\text{Urbanisation Rate} = \frac{\text{Urban Population}}{\text{Total Population}} \times 100$$
+$$
+\text{Urbanisation Rate} = \frac{\text{Urban Population}}{\text{Total Population}} \times 100
+$$
 
 Hong Kong's urbanisation rate exceeds 100% in a geographical sense because virtually the entire
 territory is urbanised. The population density in urban areas reaches extraordinary levels: Kowloon
@@ -68,7 +70,9 @@ Central Business District (CBD). The five zones are:
 The model reflects bid-rent theory: land values decrease with distance from the CBD because
 accessibility declines.
 
-$$\text{Bid Rent} \propto \frac{1}{\text{Distance from CBD}}$$
+$$
+\text{Bid Rent} \propto \frac{1}{\text{Distance from CBD}}
+$$
 
 ### Hoyt Sector Model (1939)
 

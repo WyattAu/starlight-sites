@@ -64,7 +64,9 @@ Records transactions in financial assets and liabilities:
 
 ### The Balance of Payments Identity
 
-$$\mathrm{Current\ Account} + \mathrm{Capital\ Account} + \mathrm{Financial\ Account} + \mathrm{Statistical\ Discrepancy} = 0$$
+$$
+\mathrm{Current\ Account} + \mathrm{Capital\ Account} + \mathrm{Financial\ Account} + \mathrm{Statistical\ Discrepancy} = 0
+$$
 
 A current account deficit must be financed by a surplus on the capital and financial accounts (net
 Capital inflows). A current account surplus corresponds to net capital outflows.
@@ -208,7 +210,9 @@ Economy.
 
 ### The Balance of Payments Identity
 
-$$\mathrm{CA} + \mathrm{KA} + \mathrm{FA} + \mathrm{EO} = 0$$
+$$
+\mathrm{CA} + \mathrm{KA} + \mathrm{FA} + \mathrm{EO} = 0
+$$
 
 Where CA = Current Account, KA = Capital Account, FA = Financial Account, EO = Errors and Omissions.
 
@@ -527,7 +531,9 @@ both prices and volumes recovering.
 
 The spillover effect of FDI on domestic firms can be modelled as:
 
-$$\text{TFP}_{d,i} = \alpha + \beta \text{FDI}_{s,j} + \gamma X_i + \epsilon_i$$
+$$
+\text{TFP}_{d,i} = \alpha + \beta \text{FDI}_{s,j} + \gamma X_i + \epsilon_i
+$$
 
 Where:
 

@@ -107,7 +107,9 @@ When $[\mathrm{H^+]$ increases, the equilibrium shifts left, consuming excess $\
 
 A solution has $[\mathrm{H^+] = 1 \times 10^{-4}$ M.
 
-$$\mathrm{pH = -\log(1 \times 10^{-4}) = 4$$
+$$
+\mathrm{pH = -\log(1 \times 10^{-4}) = 4
+$$
 
 If the solution is diluted by a factor of 10, $[\mathrm{H^+] = 1 \times 10^{-5}$ M, and
 $\mathrm{pH = 5$.
@@ -121,7 +123,9 @@ The buffer system, blood pH would drop dangerously.
 
 The bicarbonate buffer system responds:
 
-$$\mathrm{H^+ + \mathrm{HCO_3^- \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+$$
+\mathrm{H^+ + \mathrm{HCO_3^- \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{H_2\mathrm{O + \mathrm{CO_2
+$$
 
 The excess $\mathrm{H^+$ is consumed by reacting with $\mathrm{HCO_3^-$. The resulting
 $\mathrm{CO_2$ is removed by increased breathing rate. Blood pH is maintained close to 7.4.
@@ -193,7 +197,9 @@ A triglyceride consists of one glycerol molecule (a 3-carbon alcohol with three 
 Three fatty acid molecules (long hydrocarbon chains with a carboxyl group at one end) by three ester
 Bonds. Each ester bond is formed by a condensation reaction, releasing one water molecule.
 
-$$\mathrm{Glycerol + 3 \mathrm{ Fatty acids \to \mathrm{Triglyceride + 3 \mathrm{ H_2\mathrm{O$$
+$$
+\mathrm{Glycerol + 3 \mathrm{ Fatty acids \to \mathrm{Triglyceride + 3 \mathrm{ H_2\mathrm{O
+$$
 
 The long hydrocarbon tails are hydrophobic, making triglycerides insoluble in water. This makes them
 Ideal for energy storage because they do not affect the water potential of cells.
@@ -384,7 +390,9 @@ $$
 The phosphorylation of glucose to glucose-6-phosphate has $\Delta G \approx +13.8$ kJ/mol
 (endergonic). ATP hydrolysis has $\Delta G \approx -30.5$ kJ/mol (exergonic). When coupled:
 
-$$\Delta G_{\mathrm{overall} = +13.8 + (-30.5) = -16.7 \mathrm{ kJ/mol$$
+$$
+\Delta G_{\mathrm{overall} = +13.8 + (-30.5) = -16.7 \mathrm{ kJ/mol
+$$
 
 The overall reaction is now exergonic (spontaneous), so the cell can phosphorylate glucose using the
 Energy from ATP hydrolysis.

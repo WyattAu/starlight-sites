@@ -105,7 +105,9 @@ regular $T_1$.
 
 The hierarchy of separation axioms:
 
-$$T_4 \implies T_{3.5} \implies T_3 \implies T_2 \implies T_1 \implies T_0$$
+$$
+T_4 \implies T_{3.5} \implies T_3 \implies T_2 \implies T_1 \implies T_0
+$$
 
 Each implication is strict: there exist spaces satisfying each level but not the next.
 

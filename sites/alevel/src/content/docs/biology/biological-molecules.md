@@ -184,7 +184,9 @@ Modified triglycerides where one fatty acid is replaced by a **phosphate group**
 
 Formed by condensation between the amino group of one amino acid and the carboxyl group of another:
 
-$$\mathrm{amino\ acid_1 + amino\ acid_2 \to dipeptide + H_2O}$$
+$$
+\mathrm{amino\ acid_1 + amino\ acid_2 \to dipeptide + H_2O}
+$$
 
 ### Levels of Protein Structure
 
@@ -252,7 +254,9 @@ tertiary structure stability.
 
 **Adenosine triphosphate**, the universal energy currency:
 
-$$\mathrm{ATP} \rightleftharpoons \mathrm{ADP} + P_i + \text{energy}$$
+$$
+\mathrm{ATP} \rightleftharpoons \mathrm{ADP} + P_i + \text{energy}
+$$
 
 Hydrolysis of one phosphate bond releases $\approx 30.6\ \mathrm{kJ\,mol^{-1}}$. ATP is
 **regenerated** through respiration and photosynthesis. It is **not a long-term energy store**.

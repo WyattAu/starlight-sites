@@ -18,25 +18,37 @@ Let $f$ be defined on an open interval containing $a$Except possibly at $a$ itse
 $\displaystyle\lim_{x \to a} f(x) = L$ if for every $\varepsilon \gt 0$There exists a $\delta \gt 0$
 such that:
 
-$$0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon$$
+$$
+0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
+$$
 
 ### Limit Laws
 
 If $\displaystyle\lim_{x \to a} f(x) = L$ and $\displaystyle\lim_{x \to a} g(x) = M$ Then:
 
-$$\lim_{x \to a}\bigl[f(x) + g(x)\bigr] = L + M$$
+$$
+\lim_{x \to a}\bigl[f(x) + g(x)\bigr] = L + M
+$$
 
-$$\lim_{x \to a}\bigl[f(x) \cdot g(x)\bigr] = L \cdot M$$
+$$
+\lim_{x \to a}\bigl[f(x) \cdot g(x)\bigr] = L \cdot M
+$$
 
-$$\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M}, \quad M \ne 0$$
+$$
+\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M}, \quad M \ne 0
+$$
 
-$$\lim_{x \to a} \bigl[f(x)\bigr]^n = L^n, \quad n \in \mathbb{Z}^{+}$$
+$$
+\lim_{x \to a} \bigl[f(x)\bigr]^n = L^n, \quad n \in \mathbb{Z}^{+}
+$$
 
 ### One-Sided Limits
 
 A two-sided limit exists if and only if both one-sided limits exist and are equal:
 
-$$\lim_{x \to a} f(x) = L \iff \lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L$$
+$$
+\lim_{x \to a} f(x) = L \iff \lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L
+$$
 
 ### Indeterminate Forms
 
@@ -91,7 +103,9 @@ Function on a closed interval attains every intermediate value.
 
 The **derivative** of $f$ at $a$ is:
 
-$$f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$$
+$$
+f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}
+$$
 
 Provided this limit exists. When it does, $f$ is said to be **differentiable** at $a$.
 
@@ -102,23 +116,33 @@ $f(x) = |x|$ is continuous everywhere but not differentiable at $x = 0$.
 
 **Power rule.** For $n \in \mathbb{R}$:
 
-$$\frac{d}{dx}\bigl[x^n\bigr] = nx^{n-1}$$
+$$
+\frac{d}{dx}\bigl[x^n\bigr] = nx^{n-1}
+$$
 
 **Constant multiple and sum rules:**
 
-$$\frac{d}{dx}\bigl[cf(x)\bigr] = c\,f'(x), \qquad \frac{d}{dx}\bigl[f(x) \pm g(x)\bigr] = f'(x) \pm g'(x)$$
+$$
+\frac{d}{dx}\bigl[cf(x)\bigr] = c\,f'(x), \qquad \frac{d}{dx}\bigl[f(x) \pm g(x)\bigr] = f'(x) \pm g'(x)
+$$
 
 **Product rule:**
 
-$$\frac{d}{dx}\bigl[uv\bigr] = u'v + uv'$$
+$$
+\frac{d}{dx}\bigl[uv\bigr] = u'v + uv'
+$$
 
 **Quotient rule:**
 
-$$\frac{d}{dx}\left[\frac{u}{v}\right] = \frac{u'v - uv'}{v^2}, \quad v \ne 0$$
+$$
+\frac{d}{dx}\left[\frac{u}{v}\right] = \frac{u'v - uv'}{v^2}, \quad v \ne 0
+$$
 
 **Chain rule.** If $y = f(g(x))$ Then:
 
-$$\frac{dy}{dx} = f'(g(x)) \cdot g'(x)$$
+$$
+\frac{dy}{dx} = f'(g(x)) \cdot g'(x)
+$$
 
 ### Derivatives of Standard Functions
 
@@ -199,7 +223,9 @@ Systematic curve sketching involves:
 
 The **tangent** to $y = f(x)$ at $x = a$ has equation:
 
-$$y - f(a) = f'(a)(x - a)$$
+$$
+y - f(a) = f'(a)(x - a)
+$$
 
 The **normal** is perpendicular to the tangent, with gradient $-\dfrac{1}{f'(a)}$ (provided
 $f'(a) \ne 0$).
@@ -213,45 +239,65 @@ $f'(a) \ne 0$).
 The **antiderivative** of $f(x)$ is a function $F(x)$ such that $F'(x) = f(x)$. The general
 Antiderivative includes an arbitrary constant:
 
-$$\int f(x)\,dx = F(x) + C$$
+$$
+\int f(x)\,dx = F(x) + C
+$$
 
 ### Fundamental Theorem of Calculus
 
 **First part.** If $f$ is continuous on $[a, b]$ and $F'(x) = f(x)$ Then:
 
-$$\int_a^b f(x)\,dx = F(b) - F(a)$$
+$$
+\int_a^b f(x)\,dx = F(b) - F(a)
+$$
 
 **Second part.** If $f$ is continuous on $[a, b]$ Then:
 
-$$\frac{d}{dx}\int_a^x f(t)\,dt = f(x)$$
+$$
+\frac{d}{dx}\int_a^x f(t)\,dt = f(x)
+$$
 
 ### Definite Integrals
 
 Properties of definite integrals (assuming $f, g$ are integrable):
 
-$$\int_a^b \bigl[cf(x)\bigr]\,dx = c\int_a^b f(x)\,dx$$
+$$
+\int_a^b \bigl[cf(x)\bigr]\,dx = c\int_a^b f(x)\,dx
+$$
 
-$$\int_a^b \bigl[f(x) \pm g(x)\bigr]\,dx = \int_a^b f(x)\,dx \pm \int_a^b g(x)\,dx$$
+$$
+\int_a^b \bigl[f(x) \pm g(x)\bigr]\,dx = \int_a^b f(x)\,dx \pm \int_a^b g(x)\,dx
+$$
 
-$$\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx$$
+$$
+\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx
+$$
 
-$$\int_a^b f(x)\,dx = \int_a^c f(x)\,dx + \int_c^b f(x)\,dx$$
+$$
+\int_a^b f(x)\,dx = \int_a^c f(x)\,dx + \int_c^b f(x)\,dx
+$$
 
 ### Area Under a Curve
 
 If $f(x) \ge 0$ on $[a, b]$The area between the curve and the $x$-axis is:
 
-$$A = \int_a^b f(x)\,dx$$
+$$
+A = \int_a^b f(x)\,dx
+$$
 
 If $f$ changes sign, compute the integral piecewise. The total **enclosed area** is:
 
-$$A = \int_a^b |f(x)|\,dx$$
+$$
+A = \int_a^b |f(x)|\,dx
+$$
 
 ### Area Between Curves
 
 The area between $y = f(x)$ and $y = g(x)$ from $x = a$ to $x = b$Where $f(x) \ge g(x)$:
 
-$$A = \int_a^b \bigl[f(x) - g(x)\bigr]\,dx$$
+$$
+A = \int_a^b \bigl[f(x) - g(x)\bigr]\,dx
+$$
 
 ### Standard Integrals
 
@@ -275,7 +321,9 @@ $$A = \int_a^b \bigl[f(x) - g(x)\bigr]\,dx$$
 **Theorem.** Let $u = g(x)$ where $g'$ is continuous and $f$ is continuous on the range of $g$.
 Then:
 
-$$\int f(g(x))\,g'(x)\,dx = \int f(u)\,du$$
+$$
+\int f(g(x))\,g'(x)\,dx = \int f(u)\,du
+$$
 
 **Strategy.** Identify an "inner function" and its derivative as a factor. Substitute $u = g(x)$
 Replace $dx$ with $\dfrac{du}{g'(x)}$ And integrate with respect to $u$.
@@ -284,13 +332,17 @@ Replace $dx$ with $\dfrac{du}{g'(x)}$ And integrate with respect to $u$.
 
 Let $u = x^2 + 1$ So $du = 2x\,dx$. Then:
 
-$$\int 2x\sqrt{x^2 + 1}\,dx = \int \sqrt{u}\,du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2 + 1)^{3/2} + C$$
+$$
+\int 2x\sqrt{x^2 + 1}\,dx = \int \sqrt{u}\,du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2 + 1)^{3/2} + C
+$$
 
 ### Integration by Parts
 
 **Theorem.** If $u$ and $v$ are differentiable functions:
 
-$$\int u\,dv = uv - \int v\,du$$
+$$
+\int u\,dv = uv - \int v\,du
+$$
 
 **LIATE priority** for choosing $u$: Logarithmic, Inverse trigonometric, Algebraic, Trigonometric,
 Exponential. Choose $u$ as the function that appears highest on this list.
@@ -299,7 +351,9 @@ Exponential. Choose $u$ as the function that appears highest on this list.
 
 Let $u = x$$dv = e^x\,dx$. Then $du = dx$$v = e^x$:
 
-$$\int x e^x\,dx = xe^x - \int e^x\,dx = xe^x - e^x + C = (x - 1)e^x + C$$
+$$
+\int x e^x\,dx = xe^x - \int e^x\,dx = xe^x - e^x + C = (x - 1)e^x + C
+$$
 
 ### Repeated Integration by Parts
 
@@ -311,22 +365,30 @@ Factor until it reaches zero, integrate the other factor, and alternate signs.
 
 **About the $x$-axis.** Rotating $y = f(x)$ about the $x$-axis from $x = a$ to $x = b$:
 
-$$V = \pi \int_a^b \bigl[f(x)\bigr]^2\,dx$$
+$$
+V = \pi \int_a^b \bigl[f(x)\bigr]^2\,dx
+$$
 
 **About the $y$-axis.** Rotating $x = g(y)$ about the $y$-axis from $y = c$ to $y = d$:
 
-$$V = \pi \int_c^d \bigl[g(y)\bigr]^2\,dy$$
+$$
+V = \pi \int_c^d \bigl[g(y)\bigr]^2\,dy
+$$
 
 **Cylindrical shells** (rotating about the $y$-axis):
 
-$$V = 2\pi \int_a^b x\,|f(x)|\,dx$$
+$$
+V = 2\pi \int_a^b x\,|f(x)|\,dx
+$$
 
 ### Improper Integrals
 
 An improper integral involves an infinite limit of integration or an unbounded integrand. Evaluate
 As a limit:
 
-$$\int_a^\infty f(x)\,dx = \lim_{b \to \infty} \int_a^b f(x)\,dx$$
+$$
+\int_a^\infty f(x)\,dx = \lim_{b \to \infty} \int_a^b f(x)\,dx
+$$
 
 The integral **converges** if this limit exists (is finite); otherwise it **diverges**.
 
@@ -471,11 +533,15 @@ Evaluate $\displaystyle\lim_{x \to 0} \frac{e^{3x} - 1 - 3x}{x^2}$.
 As $x \to 0$Both numerator and denominator approach $0$ So we have the indeterminate form
 $\dfrac{0}{0}$. Apply l'H\^opital's rule once:
 
-$$\lim_{x \to 0} \frac{3e^{3x} - 3}{2x}$$
+$$
+\lim_{x \to 0} \frac{3e^{3x} - 3}{2x}
+$$
 
 This still gives $\dfrac{0}{0}$ So apply l'H\^opital's rule a second time:
 
-$$\lim_{x \to 0} \frac{9e^{3x}}{2} = \frac{9}{2}$$
+$$
+\lim_{x \to 0} \frac{9e^{3x}}{2} = \frac{9}{2}
+$$
 
 </details>
 
@@ -497,7 +563,9 @@ since Degree of numerator equals degree of denominator, $y = \dfrac{1}{1} = 1$.
 
 **Derivative.** By the quotient rule:
 
-$$\frac{dy}{dx} = \frac{2x(x^2 - 1) - (x^2 - 4)(2x)}{(x^2 - 1)^2} = \frac{6x}{(x^2 - 1)^2}$$
+$$
+\frac{dy}{dx} = \frac{2x(x^2 - 1) - (x^2 - 4)(2x)}{(x^2 - 1)^2} = \frac{6x}{(x^2 - 1)^2}
+$$
 
 **Stationary points.** $\dfrac{dy}{dx} = 0 \implies x = 0$. Substituting: $y = 4$. The second
 derivative At $x = 0$ is negative (since
@@ -518,9 +586,13 @@ Evaluate $\displaystyle\int_0^{\pi/2} x \cos x\,dx$.
 
 Let $u = x$$dv = \cos x\,dx$. Then $du = dx$$v = \sin x$.
 
-$$\int_0^{\pi/2} x \cos x\,dx = \bigl[x \sin x\bigr]_0^{\pi/2} - \int_0^{\pi/2} \sin x\,dx$$
+$$
+\int_0^{\pi/2} x \cos x\,dx = \bigl[x \sin x\bigr]_0^{\pi/2} - \int_0^{\pi/2} \sin x\,dx
+$$
 
-$$= \frac{\pi}{2} \cdot 1 - 0 - \bigl[-\cos x\bigr]_0^{\pi/2} = \frac{\pi}{2} - (0 - 1) = \frac{\pi}{2} + 1$$
+$$
+= \frac{\pi}{2} \cdot 1 - 0 - \bigl[-\cos x\bigr]_0^{\pi/2} = \frac{\pi}{2} - (0 - 1) = \frac{\pi}{2} + 1
+$$
 
 </details>
 
@@ -534,7 +606,9 @@ $360^\circ$ About the $y$-axis.
 
 Using cylindrical shells about the $y$-axis:
 
-$$V = 2\pi \int_0^2 x \cdot x^2\,dx = 2\pi \int_0^2 x^3\,dx = 2\pi \left[\frac{x^4}{4}\right]_0^2 = 2\pi \cdot 4 = 8\pi$$
+$$
+V = 2\pi \int_0^2 x \cdot x^2\,dx = 2\pi \int_0^2 x^3\,dx = 2\pi \left[\frac{x^4}{4}\right]_0^2 = 2\pi \cdot 4 = 8\pi
+$$
 
 </details>
 
@@ -547,30 +621,44 @@ Given $x^3 + y^3 = 6xy$Find $\dfrac{dy}{dx}$ and $\dfrac{d^2y}{dx^2}$ at the poi
 
 Differentiating implicitly with respect to $x$:
 
-$$3x^2 + 3y^2 \frac{dy}{dx} = 6y + 6x \frac{dy}{dx}$$
+$$
+3x^2 + 3y^2 \frac{dy}{dx} = 6y + 6x \frac{dy}{dx}
+$$
 
 Rearranging: $\dfrac{dy}{dx}(3y^2 - 6x) = 6y - 3x^2$ So
 
-$$\frac{dy}{dx} = \frac{6y - 3x^2}{3y^2 - 6x} = \frac{2y - x^2}{y^2 - 2x}$$
+$$
+\frac{dy}{dx} = \frac{6y - 3x^2}{3y^2 - 6x} = \frac{2y - x^2}{y^2 - 2x}
+$$
 
 At $(3, 3)$: $\dfrac{dy}{dx} = \dfrac{6 - 9}{9 - 6} = \dfrac{-3}{3} = -1$.
 
 For the second derivative, differentiate $\dfrac{dy}{dx}$ using the quotient rule, then substitute
 $x = 3$, $y = 3$ And $\dfrac{dy}{dx} = -1$. Alternatively, start from
 
-$$(3y^2 - 6x)\frac{dy}{dx} = 6y - 3x^2$$
+$$
+(3y^2 - 6x)\frac{dy}{dx} = 6y - 3x^2
+$$
 
 Differentiating both sides:
 
-$$6y\left(\frac{dy}{dx}\right)^2 + (3y^2 - 6x)\frac{d^2y}{dx^2} - 6 = 6\frac{dy}{dx} - 6x$$
+$$
+6y\left(\frac{dy}{dx}\right)^2 + (3y^2 - 6x)\frac{d^2y}{dx^2} - 6 = 6\frac{dy}{dx} - 6x
+$$
 
 At $(3, 3)$ with $\dfrac{dy}{dx} = -1$:
 
-$$6(3)(1) + 3 \cdot \frac{d^2y}{dx^2} - 6 = -6 - 18$$
+$$
+6(3)(1) + 3 \cdot \frac{d^2y}{dx^2} - 6 = -6 - 18
+$$
 
-$$18 + 3\frac{d^2y}{dx^2} - 6 = -24$$
+$$
+18 + 3\frac{d^2y}{dx^2} - 6 = -24
+$$
 
-$$3\frac{d^2y}{dx^2} = -36 \implies \frac{d^2y}{dx^2} = -12$$
+$$
+3\frac{d^2y}{dx^2} = -36 \implies \frac{d^2y}{dx^2} = -12
+$$
 
 </details>
 

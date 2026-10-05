@@ -1076,9 +1076,13 @@ For a $3p$ electron:
 - $n - 1$ shell $(2s, 2p)^8$: $8 \times 0.85 = 6.80$
 - $n - 2$ shell $(1s)^2$: $2 \times 1.00 = 2.00$
 
-$$ S = 2.10 + 6.80 + 2.00 = 10.90 $$
+$$
+S = 2.10 + 6.80 + 2.00 = 10.90
+$$
 
-$$ Z\_{\mathrm{eff}} = 17 - 10.90 = 6.10 $$
+$$
+Z\_{\mathrm{eff}} = 17 - 10.90 = 6.10
+$$
 :::
 :::note
 Example, $Z_{\mathrm{eff}}$ for a $3d$ electron in scandium ($Z = 21$)
@@ -1091,9 +1095,13 @@ For the $3d$ electron:
   $8 \times 1.00 = 8.00$
 - Shells $n - 2$ and lower: $(2s, 2p)^8(1s)^2$ = $10 \times 1.00 = 10.00$
 
-$$ S = 0 + 8.00 + 10.00 = 18.00 $$
+$$
+S = 0 + 8.00 + 10.00 = 18.00
+$$
 
-$$ Z\_{\mathrm{eff}} = 21 - 18.00 = 3.00 $$
+$$
+Z\_{\mathrm{eff}} = 21 - 18.00 = 3.00
+$$
 
 The low $Z_{\mathrm{eff}}$ on the $3d$ electron explains why the $4s$ orbital fills before $3d$,
 The $4s$ electron experiences a higher effective nuclear charge.
@@ -1522,7 +1530,9 @@ Relative atomic mass of boron.
 <details>
 <summary>Answer</summary>
 
-$$A_r = (10.01 \times 0.199) + (11.01 \times 0.801) = 1.992 + 8.819 = 10.81$$
+$$
+A_r = (10.01 \times 0.199) + (11.01 \times 0.801) = 1.992 + 8.819 = 10.81
+$$
 
 The relative atomic mass of boron is $10.81\mathrm{ u}$.
 
@@ -1542,7 +1552,9 @@ The relative atomic mass of boron is $10.81\mathrm{ u}$.
 
 (a) Chromium is an exception to the Aufbau principle. A half-filled $d$-subshell is more stable:
 
-$$\mathrm{Cr}: [\mathrm{Ar}]\, 4s^1\, 3d^5$$
+$$
+\mathrm{Cr}: [\mathrm{Ar}]\, 4s^1\, 3d^5
+$$
 
 (b) The last electron enters the $3d$ subshell:
 
@@ -1589,7 +1601,9 @@ $\mathrm{O}^{2-}$$\mathrm{F}^-$$\mathrm{Na}^+$$\mathrm{Mg}^{2+}$$\mathrm{Al}^{3+
 
 All five species are isoelectronic with the neon configuration ($1s^2\, 2s^2\, 2p^6$10 electrons).
 
-$$\mathrm{Al}^{3+} \lt \mathrm{Mg}^{2+} \lt \mathrm{Na}^+ \lt \mathrm{F}^- \lt \mathrm{O}^{2-}$$
+$$
+\mathrm{Al}^{3+} \lt \mathrm{Mg}^{2+} \lt \mathrm{Na}^+ \lt \mathrm{F}^- \lt \mathrm{O}^{2-}
+$$
 
 All have the same number of electrons, but the nuclear charge increases from $\mathrm{O}$ ($Z = 8$)
 To $\mathrm{Al}$ ($Z = 13$). A higher nuclear charge pulls the electron cloud closer to the nucleus,
@@ -1608,11 +1622,17 @@ $n = 4$ to $n = 2$. Use the Rydberg equation with $R_H = 1.097 \times 10^7\mathr
 <details>
 <summary>Answer</summary>
 
-$$\frac{1}{\lambda} = R_H \left(\frac{1}{n_f^2} - \frac{1}{n_i^2}\right) = 1.097 \times 10^7 \left(\frac{1}{4} - \frac{1}{16}\right)$$
+$$
+\frac{1}{\lambda} = R_H \left(\frac{1}{n_f^2} - \frac{1}{n_i^2}\right) = 1.097 \times 10^7 \left(\frac{1}{4} - \frac{1}{16}\right)
+$$
 
-$$\frac{1}{\lambda} = 1.097 \times 10^7 \times \left(\frac{4 - 1}{16}\right) = 1.097 \times 10^7 \times 0.1875 = 2.057 \times 10^6\mathrm{ m}^{-1}$$
+$$
+\frac{1}{\lambda} = 1.097 \times 10^7 \times \left(\frac{4 - 1}{16}\right) = 1.097 \times 10^7 \times 0.1875 = 2.057 \times 10^6\mathrm{ m}^{-1}
+$$
 
-$$\lambda = \frac{1}{2.057 \times 10^6} = 4.86 \times 10^{-7}\mathrm{ m} = 486\mathrm{ nm}$$
+$$
+\lambda = \frac{1}{2.057 \times 10^6} = 4.86 \times 10^{-7}\mathrm{ m} = 486\mathrm{ nm}
+$$
 
 This corresponds to the cyan line in the Balmer series (visible region).
 

@@ -108,11 +108,15 @@ Permeability of the membrane.
 
 The equilibrium potential for a single ion is calculated using the Nernst equation:
 
-$$E_{\mathrm{ion}} = \frac{RT}{zF} \ln \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}$$
+$$
+E_{\mathrm{ion}} = \frac{RT}{zF} \ln \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}
+$$
 
 At body temperature ($37^\circ\mathrm{C} = 310\;\mathrm{K}$), this simplifies to:
 
-$$E_{\mathrm{ion}} = \frac{61.5}{z} \log_{10} \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}$$
+$$
+E_{\mathrm{ion}} = \frac{61.5}{z} \log_{10} \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}
+$$
 
 Where $R$ is the gas constant, $T$ is temperature, $z$ is the ion"s valence, and $F$ is Faraday's
 Constant.
@@ -205,7 +209,9 @@ In unmyelinated axons, the action potential propagates as a wave of depolarisati
 Axolemma. Adjacent regions of the membrane are depolarised to threshold by local current flow from
 The active region (current spreads through the axoplasm and extracellular fluid).
 
-$$v \propto \sqrt{d}$$
+$$
+v \propto \sqrt{d}
+$$
 
 Where $d$ is the axon diameter. Conduction velocity in unmyelinated axons ranges from $0.5$ to
 $2\;\mathrm{m/s}$.

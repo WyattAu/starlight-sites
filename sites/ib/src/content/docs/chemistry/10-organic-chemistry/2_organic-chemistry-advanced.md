@@ -537,12 +537,16 @@ SN1 is also possible but elevated temperature shifts the product distribution to
 The base abstracts a proton from a $\beta$-carbon while the leaving group departs. By Zaitsev's
 Rule, the more substituted (more stable) alkene is the major product:
 
-$$\mathrm{(CH_3)_3CBr + KOH \to (CH_3)_2C=CH_2 + KBr + H_2O}$$
+$$
+\mathrm{(CH_3)_3CBr + KOH \to (CH_3)_2C=CH_2 + KBr + H_2O}
+$$
 
 This is the **Hofmann product** (less substituted). The Zaitsev product would require removing a
 Proton from a methyl group:
 
-$$\mathrm{(CH_3)_3CBr + KOH \to CH_3CH=C(CH_3)_2 + KBr + H_2O}$$
+$$
+\mathrm{(CH_3)_3CBr + KOH \to CH_3CH=C(CH_3)_2 + KBr + H_2O}
+$$
 
 Actually, for $(CH_3)_3CBr$There are no $\beta$-hydrogens on the carbon bearing two methyl groups
 That are distinct from the terminal methyl groups. The only elimination products are
@@ -612,7 +616,9 @@ Butanedioic acid (succinic acid): $\mathrm{HOOCCH_2CH_2COOH}$
 
 **Step 2: Write the condensation equation.**
 
-$$n\mathrm{HOCH_2CH_2CH_2OH} + n\mathrm{HOOCCH_2CH_2COOH} \to \left[-\mathrm{OCH_2CH_2CH_2OOCCH_2CH_2CO}-\right]_n + 2n\mathrm{H_2O}$$
+$$
+n\mathrm{HOCH_2CH_2CH_2OH} + n\mathrm{HOOCCH_2CH_2COOH} \to \left[-\mathrm{OCH_2CH_2CH_2OOCCH_2CH_2CO}-\right]_n + 2n\mathrm{H_2O}
+$$
 
 **Step 3: Identify the repeating unit.**
 
@@ -629,14 +635,18 @@ $\mathrm{C}_7\mathrm{H}_{14}\mathrm{O}_6$
 Wait --- let me recount. Each repeat consumes one diol ($\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2$) And
 one diacid ($\mathrm{C}_4\mathrm{H}_6\mathrm{O}_4$):
 
-$$\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2 + \mathrm{C}_4\mathrm{H}_6\mathrm{O}_4 \to \mathrm{C}_7\mathrm{H}_{12}\mathrm{O}_4 \mathrm{(repeating unit)} + 2\mathrm{H_2O}$$
+$$
+\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2 + \mathrm{C}_4\mathrm{H}_6\mathrm{O}_4 \to \mathrm{C}_7\mathrm{H}_{12}\mathrm{O}_4 \mathrm{(repeating unit)} + 2\mathrm{H_2O}
+$$
 
 Check atoms: LHS = $\mathrm{C}_7\mathrm{H}_{14}\mathrm{O}_6$. RHS =
 $\mathrm{C}_7\mathrm{H}_{12}\mathrm{O}_4 + \mathrm{H_4}\mathrm{O}_2 = \mathrm{C}_7\mathrm{H}_{16}\mathrm{O}_6$.
 
 That does not balance. The correct stoichiometry is:
 
-$$\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2 + \mathrm{C}_4\mathrm{H}_6\mathrm{O}_4 \to \mathrm{C}_7\mathrm{H}_{10}\mathrm{O}_4 + 2\mathrm{H_2O}$$
+$$
+\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2 + \mathrm{C}_4\mathrm{H}_6\mathrm{O}_4 \to \mathrm{C}_7\mathrm{H}_{10}\mathrm{O}_4 + 2\mathrm{H_2O}
+$$
 
 Check: LHS = $\mathrm{C}_7\mathrm{H}_{14}\mathrm{O}_6$. RHS =
 $\mathrm{C}_7\mathrm{H}_{10}\mathrm{O}_4 + \mathrm{H_4}\mathrm{O}_2 = \mathrm{C}_7\mathrm{H}_{14}\mathrm{O}_6$.
@@ -659,7 +669,9 @@ Identify the compound.
 
 **Step 1: Calculate the degree of unsaturation.**
 
-$$\mathrm{DBE} = 8 + 1 - \frac{8}{2} = 5$$
+$$
+\mathrm{DBE} = 8 + 1 - \frac{8}{2} = 5
+$$
 
 DBE = 5 is consistent with a benzene ring (DBE = 4) plus one additional unsaturation (likely C=O).
 
@@ -718,7 +730,9 @@ $\mathrm{H}_2\mathrm{O}$ at $25\degree\mathrm{C}$:
 
 Mechanism: **SN2** (primary substrates do not form stable carbocations, so SN1/E1 are not possible).
 
-$$\mathrm{CH_3CH_2Br + OH^- \to CH_3CH_2OH + Br^-}$$
+$$
+\mathrm{CH_3CH_2Br + OH^- \to CH_3CH_2OH + Br^-}
+$$
 
 Product: ethanol ($\mathrm{CH_3CH_2OH}$). Stereochemistry: Walden inversion at carbon.
 

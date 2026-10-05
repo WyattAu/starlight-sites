@@ -63,23 +63,35 @@ distance** from the point to the line of action of the force.
 The force acts vertically downwards at $B$. The perpendicular distance from $A$ to the vertical line
 through $B$ is the horizontal distance from $A$ to $B$:
 
-$$d = AB \times \cos 40° = 3\cos 40° \approx 2.298 \text{ m}$$
+$$
+d = AB \times \cos 40° = 3\cos 40° \approx 2.298 \text{ m}
+$$
 
-$$\text{Moment} = F \times d = 50 \times 3\cos 40° = 150\cos 40° \approx 114.9 \text{ Nm}$$
+$$
+\text{Moment} = F \times d = 50 \times 3\cos 40° = 150\cos 40° \approx 114.9 \text{ Nm}
+$$
 
 **(b)** The student used the distance $AB = 3$ m instead of the perpendicular distance
 $3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$Not $F \times d_{\text{along rod}}$.
 
-$$\text{Student"s answer} = 150 \text{ Nm}$$
+$$
+\text{Student"s answer} = 150 \text{ Nm}
+$$
 
-$$\text{Correct answer} = 150\cos 40° \approx 114.9 \text{ Nm}$$
+$$
+\text{Correct answer} = 150\cos 40° \approx 114.9 \text{ Nm}
+$$
 
-$$\text{Percentage overestimate} = \frac{150 - 150\cos 40°}{150\cos 40°} \times 100\% = \frac{1 - \cos 40°}{\cos 40°} \times 100\% = \left(\frac{1}{\cos 40°} - 1\right) \times 100\% \approx 30.5\%$$
+$$
+\text{Percentage overestimate} = \frac{150 - 150\cos 40°}{150\cos 40°} \times 100\% = \frac{1 - \cos 40°}{\cos 40°} \times 100\% = \left(\frac{1}{\cos 40°} - 1\right) \times 100\% \approx 30.5\%
+$$
 
 **(c)** If the $50$ N force acts perpendicular to the rod at $B$The perpendicular distance from $A$
 to the line of action is the length of the rod:
 
-$$\text{Moment} = 50 \times 3 = 150 \text{ Nm}$$
+$$
+\text{Moment} = 50 \times 3 = 150 \text{ Nm}
+$$
 
 This is larger because the perpendicular distance equals the full length of the rod ($3$ m), whereas
 in part (a) the perpendicular distance was only $3\cos 40° \approx 2.298$ m. A force applied
@@ -125,11 +137,15 @@ the applied force). The height at which $P$ acts is $1.6 - 0.4 = 1.2$ m above th
 Taking moments about the bottom-right corner at the point of toppling (the left edge of the base
 lifts, reaction concentrates at the right edge):
 
-$$P \times 1.2 = 600 \times 0.4$$
+$$
+P \times 1.2 = 600 \times 0.4
+$$
 
 (The weight acts at the centre, $0.4$ m from the right corner.)
 
-$$P = \frac{240}{1.2} = 200 \text{ N}$$
+$$
+P = \frac{240}{1.2} = 200 \text{ N}
+$$
 
 Since $200 \lt 300$The block **topples first** at $P = 200$ N.
 
@@ -177,27 +193,43 @@ support reactions, then using that information for subsequent calculations.]
 
 Taking moments about $B$ (clockwise positive):
 
-$$R_A \times 5 = 200 \times (5 - x)$$
+$$
+R_A \times 5 = 200 \times (5 - x)
+$$
 
-$$90 \times 5 = 200(5 - x)$$
+$$
+90 \times 5 = 200(5 - x)
+$$
 
-$$450 = 1000 - 200x$$
+$$
+450 = 1000 - 200x
+$$
 
-$$200x = 550 \implies x = 2.75 \text{ m}$$
+$$
+200x = 550 \implies x = 2.75 \text{ m}
+$$
 
 The centre of mass is $2.75$ m from $A$ (i.e., $0.25$ m to the right of the midpoint).
 
 **(b)** With the $150$ N load at $2$ m from $A$Taking moments about $B$:
 
-$$R_A \times 5 = 200 \times (5 - 2.75) + 150 \times (5 - 2)$$
+$$
+R_A \times 5 = 200 \times (5 - 2.75) + 150 \times (5 - 2)
+$$
 
-$$5R_A = 200 \times 2.25 + 150 \times 3 = 450 + 450 = 900$$
+$$
+5R_A = 200 \times 2.25 + 150 \times 3 = 450 + 450 = 900
+$$
 
-$$R_A = 180 \text{ N}$$
+$$
+R_A = 180 \text{ N}
+$$
 
 By vertical equilibrium: $R_A + R_B = 200 + 150 = 350$ N.
 
-$$R_B = 350 - 180 = 170 \text{ N}$$
+$$
+R_B = 350 - 180 = 170 \text{ N}
+$$
 
 **(c)** The student assumed $x = 2.5$ m. Using the correct $x = 2.75$ m:
 
@@ -205,9 +237,13 @@ Student's answer: $R_A = 190$ N.
 
 Correct answer: $R_A = 180$ N.
 
-$$\text{Error} = 190 - 180 = 10 \text{ N}$$
+$$
+\text{Error} = 190 - 180 = 10 \text{ N}
+$$
 
-$$\text{Percentage error} = \frac{10}{180} \times 100\% \approx 5.56\%$$
+$$
+\text{Percentage error} = \frac{10}{180} \times 100\% \approx 5.56\%
+$$
 
 The student's error arose from assuming the beam is uniform when the support reactions ($90$ N and
 $110$ N, which are unequal) indicate it is not.
@@ -263,11 +299,17 @@ Taking moments about the foot of the ladder (to eliminate $F_g$ and $R_g$):
 
 Clockwise moments (from $R_w$ and $W$):
 
-$$R_w \times 6\sin 55° - W \times 3\cos 55° - F_w \times 6\cos 55° = 0$$
+$$
+R_w \times 6\sin 55° - W \times 3\cos 55° - F_w \times 6\cos 55° = 0
+$$
 
-$$R_w \times 6\sin 55° = 400 \times 3\cos 55° + F_w \times 6\cos 55°$$
+$$
+R_w \times 6\sin 55° = 400 \times 3\cos 55° + F_w \times 6\cos 55°
+$$
 
-$$6R_w\sin 55° = 1200\cos 55° + 6F_w\cos 55°$$
+$$
+6R_w\sin 55° = 1200\cos 55° + 6F_w\cos 55°
+$$
 
 This has two unknowns ($R_w$ and $F_w$). We need another equation.
 
@@ -284,9 +326,13 @@ From horizontal equilibrium: $R_w = F_g = 0.4R_g$ So $R_g = \frac{R_w}{0.4} = 2.
 
 From vertical equilibrium: $R_g + F_w = 400 \implies 2.5R_w + 0.3R_w = 400 \implies 2.8R_w = 400$.
 
-$$R_w = \frac{400}{2.8} = \frac{1000}{7} \approx 142.9 \text{ N}$$
+$$
+R_w = \frac{400}{2.8} = \frac{1000}{7} \approx 142.9 \text{ N}
+$$
 
-$$R_g = 2.5 \times \frac{1000}{7} = \frac{2500}{7} \approx 357.1 \text{ N}$$
+$$
+R_g = 2.5 \times \frac{1000}{7} = \frac{2500}{7} \approx 357.1 \text{ N}
+$$
 
 **(b)** $F_w = 0.3R_w = 0.3 \times \frac{1000}{7} = \frac{300}{7} \approx 42.9$ N (upward).
 
@@ -294,15 +340,25 @@ $F_g = 0.4R_g = 0.4 \times \frac{2500}{7} = \frac{1000}{7} \approx 142.9$ N (tow
 
 We assumed limiting equilibrium at both surfaces. Verification using the moment equation:
 
-$$6 \times \frac{1000}{7} \times \sin 55° = 1200\cos 55° + 6 \times \frac{300}{7} \times \cos 55°$$
+$$
+6 \times \frac{1000}{7} \times \sin 55° = 1200\cos 55° + 6 \times \frac{300}{7} \times \cos 55°
+$$
 
-$$\frac{6000\sin 55°}{7} = \cos 55°\left(1200 + \frac{1800}{7}\right) = \cos 55° \times \frac{10200}{7}$$
+$$
+\frac{6000\sin 55°}{7} = \cos 55°\left(1200 + \frac{1800}{7}\right) = \cos 55° \times \frac{10200}{7}
+$$
 
-$$\frac{6000\sin 55°}{7} = \frac{10200\cos 55°}{7}$$
+$$
+\frac{6000\sin 55°}{7} = \frac{10200\cos 55°}{7}
+$$
 
-$$6000\sin 55° = 10200\cos 55°$$
+$$
+6000\sin 55° = 10200\cos 55°
+$$
 
-$$\tan 55° = \frac{10200}{6000} = 1.7$$
+$$
+\tan 55° = \frac{10200}{6000} = 1.7
+$$
 
 $\tan 55° \approx 1.428$. Since $1.428 \neq 1.7$The assumption of simultaneous limiting equilibrium
 at both surfaces is inconsistent. The ladder cannot be at limiting friction at both surfaces
@@ -314,11 +370,17 @@ foot and using $F_w \leq 0.3R_w$ and $R_w = F_g \leq 0.4R_g$:
 The correct approach is to solve the moment equation without assuming limiting friction at both
 surfaces. With $R_w = F_g$ and $R_g = 400 - F_w$:
 
-$$R_w \times 6\sin 55° = 400 \times 3\cos 55° + F_w \times 6\cos 55°$$
+$$
+R_w \times 6\sin 55° = 400 \times 3\cos 55° + F_w \times 6\cos 55°
+$$
 
-$$R_w = \frac{1200\cos 55° + 6F_w\cos 55°}{6\sin 55°} = \frac{200\cos 55° + F_w\cos 55°}{\sin 55°}$$
+$$
+R_w = \frac{1200\cos 55° + 6F_w\cos 55°}{6\sin 55°} = \frac{200\cos 55° + F_w\cos 55°}{\sin 55°}
+$$
 
-$$R_w = \frac{(200 + F_w)\cos 55°}{\sin 55°} = (200 + F_w)\cot 55°$$
+$$
+R_w = \frac{(200 + F_w)\cos 55°}{\sin 55°} = (200 + F_w)\cot 55°
+$$
 
 Also $R_w = F_g \leq 0.4R_g = 0.4(400 - F_w) = 160 - 0.4F_w$.
 
@@ -327,7 +389,9 @@ And $F_w \leq 0.3R_w$.
 If the ground is at limiting friction: $R_w = 160 - 0.4F_w$ And substituting into the moment
 equation:
 
-$$160 - 0.4F_w = (200 + F_w)\cot 55°$$
+$$
+160 - 0.4F_w = (200 + F_w)\cot 55°
+$$
 
 $160 - 0.4F_w = (200 + F_w)(0.7002)$
 
@@ -359,17 +423,27 @@ $R_w(1 + 0.3\mu_g) = 400\mu_g \implies R_w = \frac{400\mu_g}{1 + 0.3\mu_g}$.
 
 Substituting into the moment equation with $F_w = 0.3R_w$:
 
-$$R_w \times 6\sin 55° = 400 \times 3\cos 55° + 0.3R_w \times 6\cos 55°$$
+$$
+R_w \times 6\sin 55° = 400 \times 3\cos 55° + 0.3R_w \times 6\cos 55°
+$$
 
-$$R_w(6\sin 55° - 1.8\cos 55°) = 1200\cos 55°$$
+$$
+R_w(6\sin 55° - 1.8\cos 55°) = 1200\cos 55°
+$$
 
-$$R_w = \frac{1200\cos 55°}{6\sin 55° - 1.8\cos 55°}$$
+$$
+R_w = \frac{1200\cos 55°}{6\sin 55° - 1.8\cos 55°}
+$$
 
 $\sin 55° \approx 0.8192$, $\cos 55° \approx 0.5736$.
 
-$$R_w = \frac{688.3}{4.915 - 1.032} = \frac{688.3}{3.883} \approx 177.3 \text{ N}$$
+$$
+R_w = \frac{688.3}{4.915 - 1.032} = \frac{688.3}{3.883} \approx 177.3 \text{ N}
+$$
 
-$$\mu_g = \frac{R_w}{400 - 0.3R_w} = \frac{177.3}{400 - 53.2} = \frac{177.3}{346.8} \approx 0.511$$
+$$
+\mu_g = \frac{R_w}{400 - 0.3R_w} = \frac{177.3}{400 - 53.2} = \frac{177.3}{346.8} \approx 0.511
+$$
 
 The minimum coefficient of friction at the ground is approximately $0.511$.
 
@@ -416,11 +490,17 @@ Gain in KE $= \frac{1}{2}I\omega^2$Where $I$ is the moment of inertia of the rod
 For a uniform rod of mass $m$ and length $L$ about one end:
 $I = \frac{1}{3}mL^2 = \frac{1}{3}(8)(4) = \frac{32}{3}$ kg m$^2$.
 
-$$\frac{1}{2} \times \frac{32}{3} \times \omega^2 = 78.4$$
+$$
+\frac{1}{2} \times \frac{32}{3} \times \omega^2 = 78.4
+$$
 
-$$\omega^2 = \frac{78.4 \times 6}{32} = \frac{470.4}{32} = 14.7$$
+$$
+\omega^2 = \frac{78.4 \times 6}{32} = \frac{470.4}{32} = 14.7
+$$
 
-$$\omega = \sqrt{14.7} \approx 3.83 \text{ rad/s}$$
+$$
+\omega = \sqrt{14.7} \approx 3.83 \text{ rad/s}
+$$
 
 **(b)** The speed of end $B$ is $v = \omega L = \omega \times 2 = 2\sqrt{14.7} \approx 7.67$ m/s.
 
@@ -430,13 +510,19 @@ horizontal.
 The only force creating a moment about $A$ is the weight, acting at the centre of mass ($1$ m from
 $A$):
 
-$$\text{Moment} = mg \times 1 = 8 \times 9.8 \times 1 = 78.4 \text{ Nm}$$
+$$
+\text{Moment} = mg \times 1 = 8 \times 9.8 \times 1 = 78.4 \text{ Nm}
+$$
 
 By Newton's Second Law for rotation: $\Sigma M = I\alpha$.
 
-$$78.4 = \frac{32}{3}\alpha$$
+$$
+78.4 = \frac{32}{3}\alpha
+$$
 
-$$\alpha = \frac{78.4 \times 3}{32} = \frac{235.2}{32} = 7.35 \text{ rad/s}^2$$
+$$
+\alpha = \frac{78.4 \times 3}{32} = \frac{235.2}{32} = 7.35 \text{ rad/s}^2
+$$
 
 ---
 
@@ -474,15 +560,23 @@ configurations of the beam, using both moment equilibrium and force balance.]
 
 **Configuration 1 (load at $Q$Tension $= 800$ N):** Taking moments about $P$:
 
-$$800 \times 4 = Wx + 500 \times 6$$
+$$
+800 \times 4 = Wx + 500 \times 6
+$$
 
-$$3200 = Wx + 3000 \tag{1}$$
+$$
+3200 = Wx + 3000 \tag{1}
+$$
 
 **Configuration 2 (no load, tension $= 250$ N):** Taking moments about $P$:
 
-$$250 \times 4 = Wx$$
+$$
+250 \times 4 = Wx
+$$
 
-$$1000 = Wx \tag{2}$$
+$$
+1000 = Wx \tag{2}
+$$
 
 From (2): $Wx = 1000$.
 

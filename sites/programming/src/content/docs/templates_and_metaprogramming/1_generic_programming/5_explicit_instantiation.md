@@ -191,7 +191,9 @@ all five steps 50 times.
 
 The savings are proportional to:
 
-$$\mathrm{savings \propto \mathrm{template\_complexity \times (\mathrm{num\_TUs - 1)$$
+$$
+\mathrm{savings \propto \mathrm{template\_complexity \times (\mathrm{num\_TUs - 1)
+$$
 
 For a project with 1000 `.cpp` files that all include a heavy templated utility header, the
 Compilation time reduction can reach 20--40% for the affected templates [N4950 §13.9.3].

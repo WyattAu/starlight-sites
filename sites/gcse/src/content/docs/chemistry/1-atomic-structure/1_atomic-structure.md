@@ -52,9 +52,15 @@ Understand scattering experiments and the behaviour of matter.
 
 **Key relationships:**
 
-$$\mathrm{Atomic number (Z) = \mathrm{number of protons$$
-$$\mathrm{Mass number (A) = \mathrm{number of protons + \mathrm{number of neutrons$$
-$$\mathrm{In a neutral atom: number of protons = \mathrm{number of electrons$$
+$$
+\mathrm{Atomic number (Z) = \mathrm{number of protons
+$$
+$$
+\mathrm{Mass number (A) = \mathrm{number of protons + \mathrm{number of neutrons
+$$
+$$
+\mathrm{In a neutral atom: number of protons = \mathrm{number of electrons
+$$
 
 These three equations are foundational. The atomic number uniquely identifies an element: no two
 Elements share the same value of $Z$. The mass number, by contrast, can vary within a single element
@@ -176,19 +182,29 @@ Carbon-14 dating works precisely because 5730 years is on a comparable timescale
 The **half-life** ($t_{1/2}$) is the time taken for half of the radioactive nuclei in a sample to
 Decay. It is a constant for a given isotope and is independent of the amount of sample.
 
-$$\mathrm{After  n \mathrm{ half-lives:  \frac{1}{2^n} \mathrm{ of the original remains$$
+$$
+\mathrm{After  n \mathrm{ half-lives:  \frac{1}{2^n} \mathrm{ of the original remains
+$$
 
 **Worked Example.** A sample contains 80 g of iodine-131 (half-life = 8 days). How much remains
 After 32 days?
 
-$$n = \frac{32}{8} = 4 \mathrm{ half-lives$$
-$$\mathrm{Remaining = 80 \times \frac{1}{2^4} = 80 \times \frac{1}{16} = 5 \mathrm{ g$$
+$$
+n = \frac{32}{8} = 4 \mathrm{ half-lives
+$$
+$$
+\mathrm{Remaining = 80 \times \frac{1}{2^4} = 80 \times \frac{1}{16} = 5 \mathrm{ g
+$$
 
 **Worked Example.** A sample of cobalt-60 has an initial activity of 800 counts per minute. Its
 Half-life is 5.3 years. What is the activity after 15.9 years?
 
-$$n = \frac{15.9}{5.3} = 3 \mathrm{ half-lives$$
-$$\mathrm{Activity = 800 \times \frac{1}{2^3} = 800 \times \frac{1}{8} = 100 \mathrm{ counts/min$$
+$$
+n = \frac{15.9}{5.3} = 3 \mathrm{ half-lives
+$$
+$$
+\mathrm{Activity = 800 \times \frac{1}{2^3} = 800 \times \frac{1}{8} = 100 \mathrm{ counts/min
+$$
 
 **Worked Example.** A radioactive sample starts at 40 g. After 90 minutes, 5 g remain. Calculate the
 Half-life.
@@ -201,17 +217,27 @@ $t_{1/2} = \frac{90}{3} = 30$ minutes.
 
 The number of undecayed nuclei at time $t$ follows an exponential decay:
 
-$$N(t) = N_0 \cdot e^{-\lambda t}$$
+$$
+N(t) = N_0 \cdot e^{-\lambda t}
+$$
 
 Where $\lambda$ is the decay constant. After one half-life, $N = \frac{N_0}{2}$:
 
-$$\frac{N_0}{2} = N_0 \cdot e^{-\lambda t_{1/2}}$$
+$$
+\frac{N_0}{2} = N_0 \cdot e^{-\lambda t_{1/2}}
+$$
 
-$$\frac{1}{2} = e^{-\lambda t_{1/2}}$$
+$$
+\frac{1}{2} = e^{-\lambda t_{1/2}}
+$$
 
-$$\ln\!\left(\frac{1}{2}\right) = -\lambda t_{1/2}$$
+$$
+\ln\!\left(\frac{1}{2}\right) = -\lambda t_{1/2}
+$$
 
-$$t_{1/2} = \frac{\ln 2}{\lambda} = \frac{0.693}{\lambda}$$
+$$
+t_{1/2} = \frac{\ln 2}{\lambda} = \frac{0.693}{\lambda}
+$$
 
 This derivation shows that half-life is inversely proportional to the decay constant. A large decay
 Constant (rapid decay) corresponds to a short half-life.
@@ -234,7 +260,9 @@ Subshell fills after the 4s subshell, and this detail is not required.
 Has $2(2\ell + 1)$ orbitals, each holding 2 electrons. Summing over all subshells from $\ell = 0$ to
 $\ell = n - 1$:
 
-$$\sum_{\ell=0}^{n-1} 2(2\ell + 1) = 2\sum_{\ell=0}^{n-1}(2\ell + 1) = 2n^2$$
+$$
+\sum_{\ell=0}^{n-1} 2(2\ell + 1) = 2\sum_{\ell=0}^{n-1}(2\ell + 1) = 2n^2
+$$
 
 The sum of the first $n$ odd numbers equals $n^2$Which is a well-known result from arithmetic.
 
@@ -247,7 +275,9 @@ The sum of the first $n$ odd numbers equals $n^2$Which is a well-known result fr
 
 **Worked Example.** Write the electron configuration of calcium ($Z = 20$).
 
-$$\mathrm{Ca:  2, 8, 8, 2$$
+$$
+\mathrm{Ca:  2, 8, 8, 2
+$$
 
 Calcium has 20 electrons. The first three shells hold $2 + 8 + 8 = 18$ electrons, leaving 2 in the
 Fourth shell. This places calcium in group 2 (two outer electrons) and period 4 (four occupied
@@ -255,24 +285,32 @@ Shells).
 
 **Worked Example.** Write the electron configuration of phosphorus ($Z = 15$).
 
-$$\mathrm{P:  2, 8, 5$$
+$$
+\mathrm{P:  2, 8, 5
+$$
 
 **Worked Example.** Write the electron configuration of sulfur ($Z = 16$).
 
-$$\mathrm{S:  2, 8, 6$$
+$$
+\mathrm{S:  2, 8, 6
+$$
 
 Sulfur is two electrons short of a full outer shell, which explains why it readily gains two
 Electrons to form S$^{2-}$Achieving the stable configuration of argon.
 
 **Worked Example.** Write the electron configuration of argon ($Z = 18$).
 
-$$\mathrm{Ar:  2, 8, 8$$
+$$
+\mathrm{Ar:  2, 8, 8
+$$
 
 Argon has a full outer shell, which explains why it is chemically inert.
 
 **Worked Example.** Write the electron configuration of potassium ($Z = 19$).
 
-$$\mathrm{K:  2, 8, 8, 1$$
+$$
+\mathrm{K:  2, 8, 8, 1
+$$
 
 Potassium starts a new shell rather than filling the third shell to 18, because the fourth shell is
 Lower in energy once the third shell has 8 electrons.
@@ -301,21 +339,27 @@ When atoms gain or lose electrons to form ions, the electron configuration chang
 
 **Example:** Sodium ion (Na$^+$)
 
-$$\mathrm{Na:  2, 8, 1 \implies \mathrm{Na^+: 2, 8$$
+$$
+\mathrm{Na:  2, 8, 1 \implies \mathrm{Na^+: 2, 8
+$$
 
 The sodium ion has the same electron configuration as neon. This is why sodium forms a $1+$ ion: by
 Losing one electron, it achieves a full outer shell.
 
 **Example:** Oxide ion (O$^{2-}$)
 
-$$\mathrm{O:  2, 6 \implies \mathrm{O^{2-}: 2, 8$$
+$$
+\mathrm{O:  2, 6 \implies \mathrm{O^{2-}: 2, 8
+$$
 
 The oxide ion has the same electron configuration as neon. By gaining two electrons, oxygen achieves
 A full outer shell.
 
 **Example:** Calcium ion (Ca$^{2+}$)
 
-$$\mathrm{Ca:  2, 8, 8, 2 \implies \mathrm{Ca^{2+}: 2, 8, 8$$
+$$
+\mathrm{Ca:  2, 8, 8, 2 \implies \mathrm{Ca^{2+}: 2, 8, 8
+$$
 
 Calcium loses its two outer electrons to achieve the configuration of argon.
 
@@ -336,7 +380,9 @@ And group 7 non-metals readily gain one electron (high electron affinity, high r
 The **relative atomic mass** ($A_r$) of an element is the weighted mean mass of an atom of the
 Element relative to 1/12 the mass of a carbon-12 atom.
 
-$$A_r = \frac{\sum (\mathrm{isotope mass \times \mathrm{abundance)}{\sum \mathrm{abundance}$$
+$$
+A_r = \frac{\sum (\mathrm{isotope mass \times \mathrm{abundance)}{\sum \mathrm{abundance}
+$$
 
 The word "weighted" is crucial. Relative atomic mass is not a simple average; it accounts for the
 Fact that some isotopes are much more abundant than others. A rare but heavy isotope contributes
@@ -347,32 +393,46 @@ Less to the average than a common but lighter one.
 **Worked Example.** Chlorine has two isotopes: Cl-35 (75% abundance) and Cl-37 (25% abundance).
 Calculate the relative atomic mass of chlorine.
 
-$$A_r = \frac{(35 \times 75) + (37 \times 25)}{100} = \frac{2625 + 925}{100} = \frac{3550}{100} = 35.5$$
+$$
+A_r = \frac{(35 \times 75) + (37 \times 25)}{100} = \frac{2625 + 925}{100} = \frac{3550}{100} = 35.5
+$$
 
 **Worked Example.** Magnesium has three isotopes: Mg-24 (79%), Mg-25 (10%), and Mg-26 (11%).
 Calculate $A_r$.
 
-$$A_r = \frac{(24 \times 79) + (25 \times 10) + (26 \times 11)}{100} = \frac{1896 + 250 + 286}{100} = \frac{2432}{100} = 24.32$$
+$$
+A_r = \frac{(24 \times 79) + (25 \times 10) + (26 \times 11)}{100} = \frac{1896 + 250 + 286}{100} = \frac{2432}{100} = 24.32
+$$
 
 **Worked Example.** Boron has two isotopes: B-10 (20%) and B-11 (80%). Calculate $A_r$.
 
-$$A_r = \frac{(10 \times 20) + (11 \times 80)}{100} = \frac{200 + 880}{100} = \frac{1080}{100} = 10.8$$
+$$
+A_r = \frac{(10 \times 20) + (11 \times 80)}{100} = \frac{200 + 880}{100} = \frac{1080}{100} = 10.8
+$$
 
 **Worked Example.** Neon has three isotopes: Ne-20 (90.5%), Ne-21 (0.3%), and Ne-22 (9.2%).
 Calculate $A_r$.
 
-$$A_r = \frac{(20 \times 90.5) + (21 \times 0.3) + (22 \times 9.2)}{100} = \frac{1810 + 0.63 + 202.4}{100} = \frac{2013.03}{100} = 20.13$$
+$$
+A_r = \frac{(20 \times 90.5) + (21 \times 0.3) + (22 \times 9.2)}{100} = \frac{1810 + 0.63 + 202.4}{100} = \frac{2013.03}{100} = 20.13
+$$
 
 **Worked Example.** A sample of boron has $A_r = 10.81$. Given that boron has two isotopes, B-10 and
 B-11, calculate the percentage abundance of each.
 
 Let $x\%$ be the abundance of B-10. Then $(100 - x)\%$ is the abundance of B-11.
 
-$$10.81 = \frac{10x + 11(100 - x)}{100} = \frac{10x + 1100 - 11x}{100} = \frac{1100 - x}{100}$$
+$$
+10.81 = \frac{10x + 11(100 - x)}{100} = \frac{10x + 1100 - 11x}{100} = \frac{1100 - x}{100}
+$$
 
-$$1081 = 1100 - x$$
+$$
+1081 = 1100 - x
+$$
 
-$$x = 19\%$$
+$$
+x = 19\%
+$$
 
 So B-10 is 19% and B-11 is 81%.
 
@@ -432,27 +492,35 @@ their outer electron, lower ionisation energy means greater reactivity.
 
 **Reactions with water:**
 
-$$2\mathrm{Na + 2\mathrm{H_2\mathrm{O \to 2\mathrm{NaOH + \mathrm{H_2$$
+$$
+2\mathrm{Na + 2\mathrm{H_2\mathrm{O \to 2\mathrm{NaOH + \mathrm{H_2
+$$
 
 Lithium fizzes steadily; sodium melts and moves vigorously; potassium ignites with a lilac flame.
 
 **Reactions with chlorine:**
 
-$$2\mathrm{Na + \mathrm{Cl_2 \to 2\mathrm{NaCl$$
+$$
+2\mathrm{Na + \mathrm{Cl_2 \to 2\mathrm{NaCl
+$$
 
 These form **ionic compounds** called metal halides.
 
 **Worked Example.** Predict the products and write a balanced equation for the reaction of potassium
 With water.
 
-$$2\mathrm{K + 2\mathrm{H_2\mathrm{O \to 2\mathrm{KOH + \mathrm{H_2$$
+$$
+2\mathrm{K + 2\mathrm{H_2\mathrm{O \to 2\mathrm{KOH + \mathrm{H_2
+$$
 
 Potassium hydroxide and hydrogen gas are produced. The reaction is more vigorous than that of sodium
 Because potassium is more reactive.
 
 **Worked Example.** Write the balanced equation for lithium reacting with chlorine.
 
-$$2\mathrm{Li + \mathrm{Cl_2 \to 2\mathrm{LiCl$$
+$$
+2\mathrm{Li + \mathrm{Cl_2 \to 2\mathrm{LiCl
+$$
 
 ### 5.4 Group 7: The Halogens
 
@@ -472,7 +540,9 @@ Decreases. This makes the halogen less eager to accept an electron, hence less r
 **Displacement reactions:** A more reactive halogen displaces a less reactive halogen from its
 Compound.
 
-$$\mathrm{Cl_2 + 2\mathrm{KBr \to 2\mathrm{KCl + \mathrm{Br_2$$
+$$
+\mathrm{Cl_2 + 2\mathrm{KBr \to 2\mathrm{KCl + \mathrm{Br_2
+$$
 
 Chlorine displaces bromine from potassium bromide solution (chlorine is more reactive).
 
@@ -483,7 +553,9 @@ Solution.
 
 Bromine is more reactive than iodine, so it will displace iodine:
 
-$$\mathrm{Br_2 + 2\mathrm{KI \to 2\mathrm{KBr + \mathrm{I_2$$
+$$
+\mathrm{Br_2 + 2\mathrm{KI \to 2\mathrm{KBr + \mathrm{I_2
+$$
 
 The solution would turn brown as iodine is formed.
 
@@ -563,19 +635,27 @@ Bonding and reactivity.
 
 **Group 1 elements** lose 1 electron to form $1+$ ions:
 
-$$\mathrm{Na \to \mathrm{Na^+ + e^-$$
+$$
+\mathrm{Na \to \mathrm{Na^+ + e^-
+$$
 
 **Group 2 elements** lose 2 electrons to form $2+$ ions:
 
-$$\mathrm{Mg \to \mathrm{Mg^{2+} + 2e^-$$
+$$
+\mathrm{Mg \to \mathrm{Mg^{2+} + 2e^-
+$$
 
 **Group 6 elements** gain 2 electrons to form $2-$ ions:
 
-$$\mathrm{O + 2e^- \to \mathrm{O^{2-}$$
+$$
+\mathrm{O + 2e^- \to \mathrm{O^{2-}
+$$
 
 **Group 7 elements** gain 1 electron to form $1-$ ions:
 
-$$\mathrm{Cl + e^- \to \mathrm{Cl^-$$
+$$
+\mathrm{Cl + e^- \to \mathrm{Cl^-
+$$
 
 ### 6.3 Ionic Charges
 
@@ -606,7 +686,9 @@ Shell. The charge is the negative of this number: $-(8 - \mathrm{group number)$.
 The **first ionisation energy** is the energy required to remove one electron from each atom in a
 Mole of gaseous atoms.
 
-$$\mathrm{X(g) \to \mathrm{X^+(g) + e^-$$
+$$
+\mathrm{X(g) \to \mathrm{X^+(g) + e^-
+$$
 
 **Trends across a period:** Ionisation energy generally increases because the nuclear charge
 Increases while the shielding remains roughly constant. The outer electron is more strongly
@@ -650,7 +732,9 @@ That relative atomic masses are measured in practice.
 **Worked Example.** The mass spectrum of an element shows peaks at $m/z = 63$ (69%) and $m/z = 65$
 (31%). Calculate the relative atomic mass and identify the element.
 
-$$A_r = \frac{(63 \times 69) + (65 \times 31)}{100} = \frac{4347 + 2015}{100} = \frac{6362}{100} = 63.62$$
+$$
+A_r = \frac{(63 \times 69) + (65 \times 31)}{100} = \frac{4347 + 2015}{100} = \frac{6362}{100} = 63.62
+$$
 
 This matches copper ($A_r \approx 63.5$). The isotopes are Cu-63 and Cu-65.
 

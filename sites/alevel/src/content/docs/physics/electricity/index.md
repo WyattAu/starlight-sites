@@ -91,7 +91,9 @@ The EMF ($\varepsilon$) of a cell is the energy provided per coulomb of charge w
 flows. In practice, all cells have internal resistance $r$, so the terminal potential difference is
 less than the EMF when current flows:
 
-$$\varepsilon = V + Ir$$
+$$
+\varepsilon = V + Ir
+$$
 
 Where $V$ is the terminal p.d., $I$ is the current, and $r$ is the internal resistance. To measure
 $r$ experimentally, vary the external resistance and plot $V$ against $I$, the gradient is $-r$ and

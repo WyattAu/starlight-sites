@@ -57,7 +57,9 @@ evolutionary mechanism that could explain this change.
 **Solution:**
 
 (a) The frequency of the recessive phenotype (light moths, genotype $bb$) is:
-$$q^2 = \frac{45}{500} = 0.09$$
+$$
+q^2 = \frac{45}{500} = 0.09
+$$
 
 The frequency of the $b$ allele: $$q = \sqrt{q^2} = \sqrt{0.09} = 0.30$$
 

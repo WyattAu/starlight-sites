@@ -416,13 +416,17 @@ Priority order (highest first): carboxylic acid, aldehyde, ketone, alcohol, alke
 
 **Step 1:** The $\pi$ electrons attack HBr. The H adds to the less substituted carbon (Markovnikov).
 
-$$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH^+\mathrm{CH_3 + \mathrm{Br^-$$
+$$
+\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH^+\mathrm{CH_3 + \mathrm{Br^-
+$$
 
 The secondary carbocation is more stable than the alternative primary carbocation.
 
 **Step 2:** The bromide ion attacks the carbocation.
 
-$$\mathrm{CH_3\mathrm{CH^+\mathrm{CH_3 + \mathrm{Br^- \to \mathrm{CH_3\mathrm{CHBrCH_3$$
+$$
+\mathrm{CH_3\mathrm{CH^+\mathrm{CH_3 + \mathrm{Br^- \to \mathrm{CH_3\mathrm{CHBrCH_3
+$$
 
 Product: 2-bromopropane (major product). The minor product, 1-bromopropane, forms from the less
 Stable primary carbocation.
@@ -464,11 +468,15 @@ Between them using acidified potassium dichromate.
 
 Propan-1-ol $\to$ propanal (aldehyde). The dichromate changes from orange to green.
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH \xrightarrow{[O], \mathrm{distill} \mathrm{CH_3\mathrm{CH_2\mathrm{CHO$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH \xrightarrow{[O], \mathrm{distill} \mathrm{CH_3\mathrm{CH_2\mathrm{CHO
+$$
 
 Propan-2-ol $\to$ propanone (ketone). The dichromate also changes colour.
 
-$$\mathrm{CH_3\mathrm{CH(OH)CH_3 \xrightarrow{[O]} \mathrm{CH_3\mathrm{COCH_3$$
+$$
+\mathrm{CH_3\mathrm{CH(OH)CH_3 \xrightarrow{[O]} \mathrm{CH_3\mathrm{COCH_3
+$$
 
 **Distinguishing test:** The products can be distinguished using Tollens' reagent. Propanal gives a
 Silver mirror; propanone does not. Alternatively, Fehling's solution can be used (propanal gives a
@@ -476,7 +484,9 @@ Brick-red precipitate).
 
 ### Esterification: Mechanism and Conditions
 
-$$\mathrm{CH_3\mathrm{COOH + \mathrm{CH_3\mathrm{CH_2\mathrm{OH \rightleftharpoons \mathrm{CH_3\mathrm{COOCH_2\mathrm{CH_3 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CH_3\mathrm{COOH + \mathrm{CH_3\mathrm{CH_2\mathrm{OH \rightleftharpoons \mathrm{CH_3\mathrm{COOCH_2\mathrm{CH_3 + \mathrm{H_2\mathrm{O
+$$
 
 Conditions: concentrated $\mathrm{H_2\mathrm{SO_4$ catalyst, heat under reflux.
 
@@ -489,7 +499,9 @@ When an alcohol is dehydrated, the major product follows Zaitsev's rule (more su
 
 **Example:** Dehydration of butan-2-ol:
 
-$$\mathrm{CH_3\mathrm{CH(OH)CH_2\mathrm{CH_3 \to \mathrm{CH_3\mathrm{CH=\mathrm{CHCH_3 \mathrm{ (but-2-ene, major)$$
+$$
+\mathrm{CH_3\mathrm{CH(OH)CH_2\mathrm{CH_3 \to \mathrm{CH_3\mathrm{CH=\mathrm{CHCH_3 \mathrm{ (but-2-ene, major)
+$$
 
 Minor product: but-1-ene.
 
@@ -512,11 +524,15 @@ Minor product: but-1-ene.
 
 **Step 1:** $\mathrm{CN^-$ attacks the electrophilic carbonyl carbon.
 
-$$\mathrm{CH_3\mathrm{CHO + \mathrm{CN^- \to \mathrm{CH_3\mathrm{CH(OH)CN$$
+$$
+\mathrm{CH_3\mathrm{CHO + \mathrm{CN^- \to \mathrm{CH_3\mathrm{CH(OH)CN
+$$
 
 **Step 2:** Protonation of the alkoxide intermediate.
 
-$$\mathrm{CH_3\mathrm{CH(OH)CN + \mathrm{H^+ \to \mathrm{CH_3\mathrm{CH(OH)CN$$
+$$
+\mathrm{CH_3\mathrm{CH(OH)CN + \mathrm{H^+ \to \mathrm{CH_3\mathrm{CH(OH)CN
+$$
 
 Product: 2-hydroxypropanenitrile. This reaction extends the carbon chain and creates a new chiral
 Centre.
@@ -658,10 +674,18 @@ Groups ($\mathrm{H$ and $\mathrm{H$).
 
 The free radical substitution of alkanes gives a mixture of products. For methane + chlorine:
 
-$$\mathrm{CH_4 + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{HCl$$
-$$\mathrm{CH_3\mathrm{Cl + \mathrm{Cl_2 \to \mathrm{CH_2\mathrm{Cl_2 + \mathrm{HCl$$
-$$\mathrm{CH_2\mathrm{Cl_2 + \mathrm{Cl_2 \to \mathrm{CHCl_3 + \mathrm{HCl$$
-$$\mathrm{CHCl_3 + \mathrm{Cl_2 \to \mathrm{CCl_4 + \mathrm{HCl$$
+$$
+\mathrm{CH_4 + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{HCl
+$$
+$$
+\mathrm{CH_3\mathrm{Cl + \mathrm{Cl_2 \to \mathrm{CH_2\mathrm{Cl_2 + \mathrm{HCl
+$$
+$$
+\mathrm{CH_2\mathrm{Cl_2 + \mathrm{Cl_2 \to \mathrm{CHCl_3 + \mathrm{HCl
+$$
+$$
+\mathrm{CHCl_3 + \mathrm{Cl_2 \to \mathrm{CCl_4 + \mathrm{HCl
+$$
 
 Controlling the product requires controlling the ratio of methane to chlorine (excess methane
 Favours $\mathrm{CH_3\mathrm{Cl$).
@@ -780,11 +804,15 @@ Monomer (with the double bond opened).
 
 **Polythene (polyethylene):**
 
-$$n\mathrm{CH_2=\mathrm{CH_2 \to -(\mathrm{CH_2-\mathrm{CH_2)-_n$$
+$$
+n\mathrm{CH_2=\mathrm{CH_2 \to -(\mathrm{CH_2-\mathrm{CH_2)-_n
+$$
 
 **PVC (polyvinyl chloride):**
 
-$$n\mathrm{CH_2=\mathrm{CHCl \to -(\mathrm{CH_2-\mathrm{CHCl)-_n$$
+$$
+n\mathrm{CH_2=\mathrm{CHCl \to -(\mathrm{CH_2-\mathrm{CHCl)-_n
+$$
 
 ### Condensation Polymers
 
@@ -885,22 +913,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 ## Intuition
 

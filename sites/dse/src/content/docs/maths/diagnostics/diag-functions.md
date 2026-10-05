@@ -41,17 +41,23 @@ $\mathrm{dom}(f) = \\{x \in \mathbb{R} : x \geq 1\\}$.
 
 For $f \circ g$ to be defined, we need $g(x) \geq 1$:
 
-$$\frac{1}{x+2} \geq 1$$
+$$
+\frac{1}{x+2} \geq 1
+$$
 
 **Case 1:** $x + 2 > 0$ (i.e. $x > -2$):
 
-$$1 \geq x + 2 \implies x \leq -1$$
+$$
+1 \geq x + 2 \implies x \leq -1
+$$
 
 Combined with $x > -2$: $-2 < x \leq -1$.
 
 **Case 2:** $x + 2 < 0$ (i.e. $x < -2$):
 
-$$1 \leq x + 2 \implies x \geq -1$$
+$$
+1 \leq x + 2 \implies x \geq -1
+$$
 
 This contradicts $x < -2$. No solutions in this case.
 
@@ -74,7 +80,9 @@ Therefore $\mathrm{dom}(f \circ g) = (-2,\; -1]$.
 
 Let $f(x) = \dfrac{2x + 3}{x - 1}$, $x \neq 1$. Which of the following equals $f^{-1}(5)$?
 
-$$\text{(A)}\; \frac{1}{f(5)} \qquad \text{(B)}\; f(5) \qquad \text{(C)}\; \text{Neither}$$
+$$
+\text{(A)}\; \frac{1}{f(5)} \qquad \text{(B)}\; f(5) \qquad \text{(C)}\; \text{Neither}
+$$
 
 Find the correct value.
 
@@ -82,13 +90,21 @@ Find the correct value.
 
 $f^{-1}(5)$ is the value of $x$ such that $f(x) = 5$:
 
-$$\frac{2x + 3}{x - 1} = 5$$
+$$
+\frac{2x + 3}{x - 1} = 5
+$$
 
-$$2x + 3 = 5x - 5$$
+$$
+2x + 3 = 5x - 5
+$$
 
-$$3x = 8$$
+$$
+3x = 8
+$$
 
-$$x = \frac{8}{3}$$
+$$
+x = \frac{8}{3}
+$$
 
 Check option (A): $\dfrac{1}{f(5)} = \dfrac{1}{\frac{13}{4}} = \dfrac{4}{13} \neq \dfrac{8}{3}$.
 
@@ -115,7 +131,9 @@ the function at that point, nor is it the function itself. $f^{-1}(5) = \dfrac{8
 The graph of $y = f(x)$ passes through the point $(2, 7)$. Which transformation maps this point to
 $(5, 7)$?
 
-$$\text{(A)}\; y = f(x + 3) \qquad \text{(B)}\; y = f(x - 3)$$
+$$
+\text{(A)}\; y = f(x + 3) \qquad \text{(B)}\; y = f(x - 3)
+$$
 
 **Solution:**
 
@@ -162,11 +180,17 @@ Restricting to $\mathrm{dom}(f) = [2,\; \infty)$ makes $f$ strictly increasing.
 
 For $y = (x - 2)^2 - 1$:
 
-$$y + 1 = (x - 2)^2$$
+$$
+y + 1 = (x - 2)^2
+$$
 
-$$x - 2 = \sqrt{y + 1} \quad (\text{since } x \geq 2)$$
+$$
+x - 2 = \sqrt{y + 1} \quad (\text{since } x \geq 2)
+$$
 
-$$x = 2 + \sqrt{y + 1}$$
+$$
+x = 2 + \sqrt{y + 1}
+$$
 
 Therefore $f^{-1}(x) = 2 + \sqrt{x + 1}$ with $\mathrm{dom}(f^{-1}) = [-1,\; \infty)$.
 
@@ -193,15 +217,21 @@ $g \circ f = g(f(x)) = (2x - 1)^2 + 4(2x - 1) + 5$.
 
 Expanding:
 
-$$= 4x^2 - 4x + 1 + 8x - 4 + 5 = 4x^2 + 4x + 2$$
+$$
+= 4x^2 - 4x + 1 + 8x - 4 + 5 = 4x^2 + 4x + 2
+$$
 
 Complete the square:
 
-$$= 4\left(x^2 + x\right) + 2 = 4\left(x + \tfrac{1}{2}\right)^2 - 1 + 2 = 4\left(x + \tfrac{1}{2}\right)^2 + 1$$
+$$
+= 4\left(x^2 + x\right) + 2 = 4\left(x + \tfrac{1}{2}\right)^2 - 1 + 2 = 4\left(x + \tfrac{1}{2}\right)^2 + 1
+$$
 
 Since $4\left(x + \tfrac{1}{2}\right)^2 \geq 0$ for all $x \in \mathbb{R}$:
 
-$$\mathrm{ran}(g \circ f) = [1,\; \infty)$$
+$$
+\mathrm{ran}(g \circ f) = [1,\; \infty)
+$$
 
 ---
 
@@ -229,13 +259,19 @@ Given that $f(1) = 3$Find $a$, $b$ And $c$ And hence find the range of $f^{-1}$.
 
 Since the minimum is $-5$ at $x = 3$We can write:
 
-$$f(x) = a(x - 3)^2 - 5$$
+$$
+f(x) = a(x - 3)^2 - 5
+$$
 
 Using $f(1) = 3$:
 
-$$a(1 - 3)^2 - 5 = 3$$
+$$
+a(1 - 3)^2 - 5 = 3
+$$
 
-$$4a - 5 = 3 \implies a = 2$$
+$$
+4a - 5 = 3 \implies a = 2
+$$
 
 So $f(x) = 2(x - 3)^2 - 5 = 2x^2 - 12x + 13$.
 
@@ -271,11 +307,15 @@ So $f^{-1}(x) = 2^x - 1$ with $\mathrm{dom}(f^{-1}) = \mathbb{R}$.
 
 Solving $f(x) = f^{-1}(x)$:
 
-$$\log_2(x + 1) = 2^x - 1$$
+$$
+\log_2(x + 1) = 2^x - 1
+$$
 
 Let $y = x + 1$ (so $y > 0$):
 
-$$\log_2 y = 2^{y-1} - 1$$
+$$
+\log_2 y = 2^{y-1} - 1
+$$
 
 By inspection: $y = 2$ gives $\log_2 2 = 1$ and $2^{1} - 1 = 1$. Check.
 
@@ -309,17 +349,23 @@ is tangent to the curve at the point $(2,\; 4)$. Find $k$$m$ And $c$.
 
 Since $(2, 4)$ lies on the hyperbola:
 
-$$4 = \frac{k}{2} \implies k = 8$$
+$$
+4 = \frac{k}{2} \implies k = 8
+$$
 
 So $f(x) = \dfrac{8}{x}$.
 
 Since $(2, 4)$ lies on the tangent line:
 
-$$4 = 2m + c \tag{1}$$
+$$
+4 = 2m + c \tag{1}
+$$
 
 The tangent has the same gradient as the curve at $x = 2$:
 
-$$f"(x) = -\frac{8}{x^2} \implies f'(2) = -\frac{8}{4} = -2$$
+$$
+f"(x) = -\frac{8}{x^2} \implies f'(2) = -\frac{8}{4} = -2
+$$
 
 So $m = -2$.
 
@@ -350,13 +396,17 @@ Find the domain and range of $f(x) = \dfrac{2}{x^2 + 1}$.
 
 Domain: $x^2 + 1 \neq 0$ for all real $x$ (since $x^2 \geq 0$).
 
-$$\mathrm{dom}(f) = \mathbb{R}$$
+$$
+\mathrm{dom}(f) = \mathbb{R}
+$$
 
 Range: $x^2 + 1 \geq 1$ for all $x$ So $0 < \dfrac{2}{x^2 + 1} \leq 2$.
 
 Maximum value $2$ occurs at $x = 0$. The function approaches $0$ as $|x| \to \infty$.
 
-$$\mathrm{ran}(f) = (0,\; 2]$$
+$$
+\mathrm{ran}(f) = (0,\; 2]
+$$
 
 ---
 
@@ -410,11 +460,17 @@ $y = 2x^2 + 4x - 1 = 2(x^2 + 2x) - 1 = 2(x + 1)^2 - 2 - 1 = 2(x + 1)^2 - 3$.
 
 For $x \geq -1$: $y + 3 = 2(x + 1)^2 \geq 0$.
 
-$$x + 1 = \sqrt{\frac{y + 3}{2}}$$
+$$
+x + 1 = \sqrt{\frac{y + 3}{2}}
+$$
 
-$$x = \sqrt{\frac{y + 3}{2}} - 1$$
+$$
+x = \sqrt{\frac{y + 3}{2}} - 1
+$$
 
-$$f^{-1}(x) = \sqrt{\frac{x + 3}{2}} - 1$$
+$$
+f^{-1}(x) = \sqrt{\frac{x + 3}{2}} - 1
+$$
 
 $\mathrm{dom}(f^{-1}) = \mathrm{ran}(f) = [-3,\; \infty)$.
 
@@ -534,7 +590,9 @@ $f \circ g(x) = f(g(x)) = f(x - 4) = \sqrt{x - 4}$.
 
 Domain of $f \circ g$: we need $x - 4 \geq 0$I.e. $x \geq 4$.
 
-$$\mathrm{dom}(f \circ g) = [4,\; \infty)$$
+$$
+\mathrm{dom}(f \circ g) = [4,\; \infty)
+$$
 
 Note: $g(x) = x - 4$ is defined for all $x \in \mathbb{R}$ But the range of $g$ must fall within the
 domain of $f$ (which is $[0, \infty)$), so $g(x) \geq 0 \implies x \geq 4$.
@@ -560,17 +618,29 @@ Determine whether $f(x) = \dfrac{2x + 3}{x - 1}$ is injective.
 
 Suppose $f(a) = f(b)$:
 
-$$\frac{2a + 3}{a - 1} = \frac{2b + 3}{b - 1}$$
+$$
+\frac{2a + 3}{a - 1} = \frac{2b + 3}{b - 1}
+$$
 
-$$(2a + 3)(b - 1) = (2b + 3)(a - 1)$$
+$$
+(2a + 3)(b - 1) = (2b + 3)(a - 1)
+$$
 
-$$2ab - 2a + 3b - 3 = 2ab - 2b + 3a - 3$$
+$$
+2ab - 2a + 3b - 3 = 2ab - 2b + 3a - 3
+$$
 
-$$-2a + 3b = -2b + 3a$$
+$$
+-2a + 3b = -2b + 3a
+$$
 
-$$5b = 5a$$
+$$
+5b = 5a
+$$
 
-$$a = b$$
+$$
+a = b
+$$
 
 Since $f(a) = f(b) \implies a = b$The function is **injective**.
 
@@ -655,7 +725,9 @@ $x(y - 3) = -1 - 2y$.
 
 $x = \dfrac{-1 - 2y}{y - 3} = \dfrac{2y + 1}{3 - y}$.
 
-$$f^{-1}(x) = \frac{2x + 1}{3 - x}$$
+$$
+f^{-1}(x) = \frac{2x + 1}{3 - x}
+$$
 
 (b) $\mathrm{dom}(f^{-1}) = \mathrm{ran}(f)$. Since
 $f(x) = \dfrac{3x - 1}{x + 2} = 3 - \dfrac{7}{x + 2}$ and $\dfrac{7}{x+2}$ takes all non-zero real
@@ -723,7 +795,9 @@ $f(x) = \dfrac{1}{5}$. (2 marks)
 
 (a) $x^2 - 4 \neq 0 \implies x \neq \pm 2$.
 
-$$\mathrm{dom}(f) = \{x \in \mathbb{R} : x \neq -2 \text{ and } x \neq 2\}$$
+$$
+\mathrm{dom}(f) = \{x \in \mathbb{R} : x \neq -2 \text{ and } x \neq 2\}
+$$
 
 (b) Let $y = \dfrac{1}{x^2 - 4}$. Then $x^2 - 4 = \dfrac{1}{y}$ So
 $x^2 = 4 + \dfrac{1}{y} = \dfrac{4y + 1}{y}$.
@@ -734,7 +808,9 @@ Critical values: $y = 0$ (asymptote) and $y = -\dfrac{1}{4}$.
 
 $\dfrac{4y + 1}{y} \geq 0 \implies y < -\dfrac{1}{4}$ or $y > 0$.
 
-$$\mathrm{ran}(f) = \left(-\infty,\; -\dfrac{1}{4}\right) \cup (0,\; \infty)$$
+$$
+\mathrm{ran}(f) = \left(-\infty,\; -\dfrac{1}{4}\right) \cup (0,\; \infty)
+$$
 
 (c) $\dfrac{1}{x^2 - 4} = \dfrac{1}{5} \implies x^2 - 4 = 5 \implies x^2 = 9 \implies x = \pm 3$.
 

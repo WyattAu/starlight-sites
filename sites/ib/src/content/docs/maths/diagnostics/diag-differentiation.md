@@ -61,54 +61,86 @@ substituting $\frac{dy}{dx}$ back.]
 
 **(a)** Differentiate implicitly with respect to $x$:
 
-$$2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0$$
+$$
+2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0
+$$
 
-$$(x + 2y)\frac{dy}{dx} = -(2x + y)$$
+$$
+(x + 2y)\frac{dy}{dx} = -(2x + y)
+$$
 
-$$\frac{dy}{dx} = -\frac{2x + y}{x + 2y}$$
+$$
+\frac{dy}{dx} = -\frac{2x + y}{x + 2y}
+$$
 
 **(b)** Differentiate $\dfrac{dy}{dx}$ with respect to $x$ using the quotient rule:
 
-$$\frac{d^2y}{dx^2} = -\frac{(x + 2y)\left(2 + \frac{dy}{dx}\right) - (2x + y)\left(1 + 2\frac{dy}{dx}\right)}{(x + 2y)^2}$$
+$$
+\frac{d^2y}{dx^2} = -\frac{(x + 2y)\left(2 + \frac{dy}{dx}\right) - (2x + y)\left(1 + 2\frac{dy}{dx}\right)}{(x + 2y)^2}
+$$
 
 Expand the numerator:
 
-$$= -\frac{(x + 2y)(2 + \frac{dy}{dx}) - (2x + y)(1 + 2\frac{dy}{dx})}{(x + 2y)^2}$$
+$$
+= -\frac{(x + 2y)(2 + \frac{dy}{dx}) - (2x + y)(1 + 2\frac{dy}{dx})}{(x + 2y)^2}
+$$
 
 Substitute $\frac{dy}{dx} = -\frac{2x + y}{x + 2y}$:
 
-$$= -\frac{(x + 2y)\left(2 - \frac{2x + y}{x + 2y}\right) - (2x + y)\left(1 - \frac{2(2x + y)}{x + 2y}\right)}{(x + 2y)^2}$$
+$$
+= -\frac{(x + 2y)\left(2 - \frac{2x + y}{x + 2y}\right) - (2x + y)\left(1 - \frac{2(2x + y)}{x + 2y}\right)}{(x + 2y)^2}
+$$
 
-$$= -\frac{(x + 2y) \cdot \frac{2(x + 2y) - (2x + y)}{x + 2y} - (2x + y) \cdot \frac{(x + 2y) - 2(2x + y)}{x + 2y}}{(x + 2y)^2}$$
+$$
+= -\frac{(x + 2y) \cdot \frac{2(x + 2y) - (2x + y)}{x + 2y} - (2x + y) \cdot \frac{(x + 2y) - 2(2x + y)}{x + 2y}}{(x + 2y)^2}
+$$
 
 Numerator of the inner fractions:
 
-$$2(x + 2y) - (2x + y) = 2x + 4y - 2x - y = 3y$$
+$$
+2(x + 2y) - (2x + y) = 2x + 4y - 2x - y = 3y
+$$
 
-$$(x + 2y) - 2(2x + y) = x + 2y - 4x - 2y = -3x$$
+$$
+(x + 2y) - 2(2x + y) = x + 2y - 4x - 2y = -3x
+$$
 
 So:
 
-$$\frac{d^2y}{dx^2} = -\frac{3y - (2x + y)\left(\frac{-3x}{x + 2y}\right)}{(x + 2y)^2} = -\frac{3y + \frac{3x(2x + y)}{x + 2y}}{(x + 2y)^2}$$
+$$
+\frac{d^2y}{dx^2} = -\frac{3y - (2x + y)\left(\frac{-3x}{x + 2y}\right)}{(x + 2y)^2} = -\frac{3y + \frac{3x(2x + y)}{x + 2y}}{(x + 2y)^2}
+$$
 
-$$= -\frac{3y(x + 2y) + 3x(2x + y)}{(x + 2y)^3} = -\frac{3xy + 6y^2 + 6x^2 + 3xy}{(x + 2y)^3}$$
+$$
+= -\frac{3y(x + 2y) + 3x(2x + y)}{(x + 2y)^3} = -\frac{3xy + 6y^2 + 6x^2 + 3xy}{(x + 2y)^3}
+$$
 
-$$= -\frac{6x^2 + 6xy + 6y^2}{(x + 2y)^3} = -\frac{6(x^2 + xy + y^2)}{(x + 2y)^3} = -\frac{42}{(x + 2y)^3}$$
+$$
+= -\frac{6x^2 + 6xy + 6y^2}{(x + 2y)^3} = -\frac{6(x^2 + xy + y^2)}{(x + 2y)^3} = -\frac{42}{(x + 2y)^3}
+$$
 
 **(c)** The student's approach of differentiating the original equation twice is valid. Starting
 from:
 
-$$2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0$$
+$$
+2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0
+$$
 
 Differentiate again:
 
-$$2 + \frac{dy}{dx} + \frac{dy}{dx} + x\frac{d^2y}{dx^2} + 2\left(\frac{dy}{dx}\right)^2 + 2y\frac{d^2y}{dx^2} = 0$$
+$$
+2 + \frac{dy}{dx} + \frac{dy}{dx} + x\frac{d^2y}{dx^2} + 2\left(\frac{dy}{dx}\right)^2 + 2y\frac{d^2y}{dx^2} = 0
+$$
 
-$$2 + 2\frac{dy}{dx} + 2\left(\frac{dy}{dx}\right)^2 + (x + 2y)\frac{d^2y}{dx^2} = 0$$
+$$
+2 + 2\frac{dy}{dx} + 2\left(\frac{dy}{dx}\right)^2 + (x + 2y)\frac{d^2y}{dx^2} = 0
+$$
 
 Solving for $\frac{d^2y}{dx^2}$:
 
-$$\frac{d^2y}{dx^2} = -\frac{2 + 2\frac{dy}{dx} + 2\left(\frac{dy}{dx}\right)^2}{x + 2y}$$
+$$
+\frac{d^2y}{dx^2} = -\frac{2 + 2\frac{dy}{dx} + 2\left(\frac{dy}{dx}\right)^2}{x + 2y}
+$$
 
 This is equivalent to the result in (b) after substituting $\frac{dy}{dx} = -\frac{2x + y}{x + 2y}$
 and simplifying. Both forms are correct; they just express the answer differently.
@@ -143,25 +175,35 @@ indeterminate loop.]
 
 First application:
 
-$$\lim_{x \to 0}\frac{e^x - 1 - x}{3x^2}$$
+$$
+\lim_{x \to 0}\frac{e^x - 1 - x}{3x^2}
+$$
 
 Still $\frac{0}{0}$:
 
-$$\lim_{x \to 0}\frac{e^x - 1}{6x}$$
+$$
+\lim_{x \to 0}\frac{e^x - 1}{6x}
+$$
 
 Still $\frac{0}{0}$:
 
-$$\lim_{x \to 0}\frac{e^x}{6} = \frac{1}{6}$$
+$$
+\lim_{x \to 0}\frac{e^x}{6} = \frac{1}{6}
+$$
 
 **(b)** Direct substitution of $x \to \infty$ gives $\frac{\infty}{\infty}$ So L'Hopital technically
 applies.
 
-$$\lim_{x \to \infty}\frac{1 + \cos x}{1} = \lim_{x \to \infty}(1 + \cos x)$$
+$$
+\lim_{x \to \infty}\frac{1 + \cos x}{1} = \lim_{x \to \infty}(1 + \cos x)
+$$
 
 This limit does not exist because $\cos x$ oscillates between $-1$ and $1$. The result is misleading
 because the **original limit does exist**:
 
-$$\frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}$$
+$$
+\frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}
+$$
 
 Since $\lvert \sin x \rvert \le 1$ and $x \to \infty$We have $\frac{\sin x}{x} \to 0$ by the squeeze
 theorem.
@@ -202,15 +244,25 @@ rule correctly to all three functions. Explain the error.
 
 Using the product rule for three functions:
 
-$$(uvw)' = u'vw + uv'w + uvw'$$
+$$
+(uvw)' = u'vw + uv'w + uvw'
+$$
 
-$$u' = 2x, \quad v' = 3e^{3x}, \quad w' = \cos x$$
+$$
+u' = 2x, \quad v' = 3e^{3x}, \quad w' = \cos x
+$$
 
-$$f'(x) = 2x \cdot e^{3x} \cdot \sin x + x^2 \cdot 3e^{3x} \cdot \sin x + x^2 \cdot e^{3x} \cdot \cos x$$
+$$
+f'(x) = 2x \cdot e^{3x} \cdot \sin x + x^2 \cdot 3e^{3x} \cdot \sin x + x^2 \cdot e^{3x} \cdot \cos x
+$$
 
-$$= e^{3x}\sin x(2x + 3x^2) + x^2 e^{3x}\cos x$$
+$$
+= e^{3x}\sin x(2x + 3x^2) + x^2 e^{3x}\cos x
+$$
 
-$$= e^{3x}\left[(2x + 3x^2)\sin x + x^2\cos x\right]$$
+$$
+= e^{3x}\left[(2x + 3x^2)\sin x + x^2\cos x\right]
+$$
 
 **(b)** The student's error is that they differentiated each factor independently and multiplied the
 results: $f'(x) \neq u' \cdot v' \cdot w'$. The derivative of a product is **not** the product of
@@ -250,13 +302,19 @@ Let $f(x) = x^{x}$ for $x \gt 0$.
 
 **(a)** Let $y = x^x$. Take natural logarithms:
 
-$$\ln y = x \ln x$$
+$$
+\ln y = x \ln x
+$$
 
 Differentiate implicitly with respect to $x$:
 
-$$\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1$$
+$$
+\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1
+$$
 
-$$\frac{dy}{dx} = y(\ln x + 1) = x^x(1 + \ln x)$$
+$$
+\frac{dy}{dx} = y(\ln x + 1) = x^x(1 + \ln x)
+$$
 
 **(b)** Stationary points: $f'(x) = 0 \implies x^x(1 + \ln x) = 0$.
 
@@ -270,17 +328,25 @@ So $x = \frac{1}{e}$ is a **local minimum**.
 
 **(c)** $f(x) = e^{x\ln x}$. Then:
 
-$$f'(x) = e^{x\ln x} \cdot (\ln x + 1) = x^x(1 + \ln x)$$
+$$
+f'(x) = e^{x\ln x} \cdot (\ln x + 1) = x^x(1 + \ln x)
+$$
 
 For the second derivative:
 
-$$f''(x) = \frac{d}{dx}\!\left[x^x(1 + \ln x)\right]$$
+$$
+f''(x) = \frac{d}{dx}\!\left[x^x(1 + \ln x)\right]
+$$
 
-$$= x^x(1 + \ln x)^2 + x^x \cdot \frac{1}{x} = x^x\!\left[(1 + \ln x)^2 + \frac{1}{x}\right]$$
+$$
+= x^x(1 + \ln x)^2 + x^x \cdot \frac{1}{x} = x^x\!\left[(1 + \ln x)^2 + \frac{1}{x}\right]
+$$
 
 At $x = \frac{1}{e}$:
 
-$$f''\!\left(\frac{1}{e}\right) = \left(\frac{1}{e}\right)^{1/e}\!\left[0 + e\right] = e \cdot e^{-1/e} = e^{1 - 1/e} \gt 0$$
+$$
+f''\!\left(\frac{1}{e}\right) = \left(\frac{1}{e}\right)^{1/e}\!\left[0 + e\right] = e \cdot e^{-1/e} = e^{1 - 1/e} \gt 0
+$$
 
 Since $f''\!\left(\frac{1}{e}\right) \gt 0$The stationary point is confirmed as a local minimum by
 the second derivative test.

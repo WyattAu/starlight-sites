@@ -31,7 +31,9 @@ In quantum mechanics, the state space of a system is a Hilbert space $H$ (in sta
 $L^2(\mathbb{R}^3)$, the space of square-integrable wavefunctions). Observables are self-adjoint operators on $H$. The spectral theorem guarantees
 that every observable has a spectral decomposition:
 
-$$A = \int_{\sigma(A)} \lambda\, dP(\lambda)$$
+$$
+A = \int_{\sigma(A)} \lambda\, dP(\lambda)
+$$
 
 where $P$ is the projection-valued measure associated with $A$.
 
@@ -48,7 +50,9 @@ Consider the Poisson equation $-\Delta u = f$ on a bounded domain $\Omega \subse
 $u|_{\partial\Omega} = 0$. Multiply both sides by a smooth test function $\varphi$ with
 $\varphi|_{\partial\Omega} = 0$ and integrate by parts:
 
-$$\int_\Omega \nabla u \cdot \nabla \varphi\, dx = \int_\Omega f \varphi\, dx$$
+$$
+\int_\Omega \nabla u \cdot \nabla \varphi\, dx = \int_\Omega f \varphi\, dx
+$$
 
 This is the **weak formulation**: find $u$ in a suitable function space such that the above holds
 for all test functions $\varphi$.
@@ -73,7 +77,9 @@ Banach spaces, and $W^{k,2} = H^k$ are Hilbert spaces.
 
 The Fourier transform on $L^2(\mathbb{R}^n)$ is a unitary operator $\mathcal{F} : L^2 \to L^2$ defined by:
 
-$$(\mathcal{F}f)(\xi) = \frac{1}{(2\pi)^{n/2}} \int_{\mathbb{R}^n} f(x) e^{-i x \cdot \xi} dx$$
+$$
+(\mathcal{F}f)(\xi) = \frac{1}{(2\pi)^{n/2}} \int_{\mathbb{R}^n} f(x) e^{-i x \cdot \xi} dx
+$$
 
 Plancherel's theorem states $\|\mathcal{F}f\|_2 = \|f\|_2$. The Schwartz space $\mathcal{S}(\mathbb{R}^n)$ of rapidly decaying smooth functions is dense in $L^2$ and is invariant under the Fourier transform.
 
@@ -83,17 +89,23 @@ In signal processing, the sampling theorem (Nyquist-Shannon) follows from the Pa
 
 The Galerkin method approximates solutions of PDEs by projecting onto finite-dimensional subspaces. Let $V_h \subset H^1_0(\Omega)$ be a finite-dimensional subspace (e.g., finite elements). Find $u_h \in V_h$ such that:
 
-$$\int_\Omega \nabla u_h \cdot \nabla v_h\, dx = \int_\Omega f v_h\, dx \quad \forall v_h \in V_h$$
+$$
+\int_\Omega \nabla u_h \cdot \nabla v_h\, dx = \int_\Omega f v_h\, dx \quad \forall v_h \in V_h
+$$
 
 This reduces to solving a linear system $A\mathbf{u} = \mathbf{b}$ where $A_{ij} = \int_\Omega \nabla\phi_i \cdot \nabla\phi_j\, dx$ for basis functions $\{\phi_i\}$. Céa's lemma provides a quasi-optimal error estimate:
 
-$$\|u - u_h\|_{H^1} \leq C \inf_{v_h \in V_h} \|u - v_h\|_{H^1}$$
+$$
+\|u - u_h\|_{H^1} \leq C \inf_{v_h \in V_h} \|u - v_h\|_{H^1}
+$$
 
 ### 7.6 Optimisation and Control Theory
 
 In convex optimisation, the existence of minimisers for a functional $J : H \to \mathbb{R}$ follows from the direct method of calculus of variations: if $J$ is coercive, lower semicontinuous, and $H$ is reflexive, then a minimiser exists. This applies to problems such as:
 
-$$\min_{u \in H^1_0(\Omega)} \frac{1}{2} \int_\Omega |\nabla u|^2\, dx - \int_\Omega f u\, dx$$
+$$
+\min_{u \in H^1_0(\Omega)} \frac{1}{2} \int_\Omega |\nabla u|^2\, dx - \int_\Omega f u\, dx
+$$
 
 The optimality condition is precisely the weak formulation of the Poisson equation.
 
@@ -110,7 +122,9 @@ The integral operator $(T u)(x) = \int_a^b K(x, y) u(y) dy$ is compact on $L^2[a
 
 The solution can be expressed using the resolvent operator $R_\lambda = (I - \lambda T)^{-1}$:
 
-$$u = f + \lambda R_\lambda f$$
+$$
+u = f + \lambda R_\lambda f
+$$
 
 For degenerate (separable) kernels $K(x, y) = \sum_{i=1}^n g_i(x) h_i(y)$, the equation reduces to an $n \times n$ linear system.
 
@@ -127,7 +141,9 @@ $\blacksquare$
 
 Since $\|T\| < 1$, the Neumann series $(I - T)^{-1} = \sum_{n=0}^\infty T^n$ converges in operator norm. The solution is:
 
-$$u = \sum_{n=0}^\infty T^n f$$
+$$
+u = \sum_{n=0}^\infty T^n f
+$$
 
 The error after $N$ terms satisfies $\|u - u_N\| \leq \frac{\|T\|^{N+1}}{1 - \|T\|} \|f\|$.
 
@@ -139,11 +155,15 @@ $\blacksquare$
 
 In optimal control, the **linear-quadratic regulator (LQR)** problem seeks to minimise:
 
-$$J(u) = \int_0^\infty (x(t)^T Q x(t) + u(t)^T R u(t))\, dt$$
+$$
+J(u) = \int_0^\infty (x(t)^T Q x(t) + u(t)^T R u(t))\, dt
+$$
 
 subject to $\dot{x} = Ax + Bu$. The optimal control is $u = -Kx$ where $K = R^{-1}B^T P$ and $P$ solves the **algebraic Riccati equation**:
 
-$$A^T P + P A - P B R^{-1} B^T P + Q = 0$$
+$$
+A^T P + P A - P B R^{-1} B^T P + Q = 0
+$$
 
 The existence and uniqueness of a positive definite solution $P$ follows from spectral theory of Hamiltonian matrices and functional analysis on the space of symmetric operators.
 

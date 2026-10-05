@@ -106,7 +106,9 @@ and one carbon (not four different groups).
 
 (c)
 
-$$\text{Enantiomeric excess (ee)} = \frac{\text{observed rotation}}{\text{rotation of pure enantiomer}} \times 100 = \frac{13.5}{23.1} \times 100 = 58.4\%$$
+$$
+\text{Enantiomeric excess (ee)} = \frac{\text{observed rotation}}{\text{rotation of pure enantiomer}} \times 100 = \frac{13.5}{23.1} \times 100 = 58.4\%
+$$
 
 This means the mixture contains $58.4\%$ excess of the $(R)$-enantiomer.
 
@@ -114,7 +116,9 @@ Ratio: $[(R) - (S)]/[(R) + (S)] = 0.584$
 
 $$(R) + (S) = 100\%$$ $$(R) - (S) = 58.4\%$$
 
-$$(R) = 79.2\%, \quad (S) = 20.8\%$$
+$$
+(R) = 79.2\%, \quad (S) = 20.8\%
+$$
 
 Ratio $(R):(S) = 79.2 : 20.8 \approx 3.81 : 1$
 
@@ -256,7 +260,9 @@ acid ($\text{CH}_3\text{COOH}$). Include reagents, conditions, and intermediate 
 
 **Step 1:** Ethene to ethanol
 
-$$\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{H}_3\text{PO}_4, 300\,^\circ\text{C}, 60\,\text{atm}} \text{CH}_3\text{CH}_2\text{OH}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{H}_3\text{PO}_4, 300\,^\circ\text{C}, 60\,\text{atm}} \text{CH}_3\text{CH}_2\text{OH}
+$$
 
 **Reaction type:** Electrophilic addition (hydration)
 
@@ -265,7 +271,9 @@ equivalent.
 
 **Step 2:** Ethanol to ethanal
 
-$$\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{K}_2\text{Cr}_2\text{O}_7/\text{H}^+, \text{distillation}} \text{CH}_3\text{CHO} + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{K}_2\text{Cr}_2\text{O}_7/\text{H}^+, \text{distillation}} \text{CH}_3\text{CHO} + \text{H}_2\text{O}
+$$
 
 **Reaction type:** Oxidation
 
@@ -274,7 +282,9 @@ it forms.
 
 **Step 3:** Ethanal to ethanoic acid
 
-$$\text{CH}_3\text{CHO} \xrightarrow{\text{K}_2\text{Cr}_2\text{O}_7/\text{H}^+, \text{reflux}} \text{CH}_3\text{COOH}$$
+$$
+\text{CH}_3\text{CHO} \xrightarrow{\text{K}_2\text{Cr}_2\text{O}_7/\text{H}^+, \text{reflux}} \text{CH}_3\text{COOH}
+$$
 
 **Reaction type:** Oxidation
 

@@ -22,7 +22,9 @@ description: 'Singular Value Decomposition: comprehensive educational content no
 **Theorem 8.1 (Singular Value Decomposition).** Every matrix
 $A \in \mathcal{M}_{m \times n}(\mathbb{R})$ can be factored as
 
-$$A = U \Sigma V^T$$
+$$
+A = U \Sigma V^T
+$$
 
 Where $U \in \mathcal{M}_{m \times m}(\mathbb{R})$ is orthogonal,
 $V \in \mathcal{M}_{n \times n}(\mathbb{R})$ is orthogonal, and
@@ -41,12 +43,16 @@ $V$.
 For each $i$ with $\sigma_i > 0$Define $\mathbf{u}_i = A\mathbf{v}_i / \sigma_i$. We verify that
 these form an orthonormal set:
 
-$$\mathbf{u}_i^T \mathbf{u}_j = \frac{\mathbf{v}_i^T A^T A \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2 \mathbf{v}_i^T \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2}{\sigma_i \sigma_j} \delta_{ij} = \delta_{ij}$$
+$$
+\mathbf{u}_i^T \mathbf{u}_j = \frac{\mathbf{v}_i^T A^T A \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2 \mathbf{v}_i^T \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2}{\sigma_i \sigma_j} \delta_{ij} = \delta_{ij}
+$$
 
 Extend $\{\mathbf{u}_1, \ldots, \mathbf{u}_r\}$ to an orthonormal basis of $\mathbb{R}^m$ to form
 $U$. Then for any vector $\mathbf{x} \in \mathbb{R}^n$:
 
-$$A\mathbf{x} = A\left(\sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x})\mathbf{v}_i\right) = \sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x}) A\mathbf{v}_i = \sum_{i=1}^{r} \sigma_i (\mathbf{v}_i^T \mathbf{x}) \mathbf{u}_i = U \Sigma V^T \mathbf{x}$$
+$$
+A\mathbf{x} = A\left(\sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x})\mathbf{v}_i\right) = \sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x}) A\mathbf{v}_i = \sum_{i=1}^{r} \sigma_i (\mathbf{v}_i^T \mathbf{x}) \mathbf{u}_i = U \Sigma V^T \mathbf{x}
+$$
 
 Since this holds for all $\mathbf{x}$We have $A = U \Sigma V^T$. $\blacksquare$
 
@@ -57,7 +63,9 @@ Since this holds for all $\mathbf{x}$We have $A = U \Sigma V^T$. $\blacksquare$
 
 _Proof._ From the construction above, $A^T A \mathbf{v}_i = \sigma_i^2 \mathbf{v}_i$. For $AA^T$:
 
-$$AA^T \mathbf{u}_i = \frac{A(A^T A)\mathbf{v}_i}{\sigma_i} = \frac{\sigma_i^2 A\mathbf{v}_i}{\sigma_i} = \sigma_i^2 \mathbf{u}_i$$
+$$
+AA^T \mathbf{u}_i = \frac{A(A^T A)\mathbf{v}_i}{\sigma_i} = \frac{\sigma_i^2 A\mathbf{v}_i}{\sigma_i} = \sigma_i^2 \mathbf{u}_i
+$$
 
 So $\mathbf{u}_i$ is an eigenvector of $AA^T$ with eigenvalue $\sigma_i^2$. The non-zero eigenvalues
 of $A^T A$ and $AA^T$ coincide (since if $A^T A \mathbf{v} = \lambda \mathbf{v}$ with
@@ -89,22 +97,30 @@ semi-axes $\sigma_1$ and $\sigma_2$ aligned with the columns of $U$.
 $\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$. For any $k < r$The best rank-$k$
 approximation to $A$ (in both the Frobenius and spectral norms) is
 
-$$A_k = \sum_{i=1}^{k} \sigma_i \mathbf{u}_i \mathbf{v}_i^T = U_k \Sigma_k V_k^T$$
+$$
+A_k = \sum_{i=1}^{k} \sigma_i \mathbf{u}_i \mathbf{v}_i^T = U_k \Sigma_k V_k^T
+$$
 
 And the approximation error is
 
-$$\lVert A - A_k \rVert_F = \sqrt{\sigma_{k+1}^2 + \cdots + \sigma_r^2}, \qquad \lVert A - A_k \rVert_2 = \sigma_{k+1}$$
+$$
+\lVert A - A_k \rVert_F = \sqrt{\sigma_{k+1}^2 + \cdots + \sigma_r^2}, \qquad \lVert A - A_k \rVert_2 = \sigma_{k+1}
+$$
 
 _Proof (Frobenius norm)._ Any rank-$k$ matrix $B$ can be written in terms of an orthonormal basis of
 its column space. Let $W \in \mathcal{M}_{n \times k}(\mathbb{R})$ have orthonormal columns spanning
 the column space of $B$. Then $B = CW^T$ for some $C$ And:
 
-$$\lVert A - B \rVert_F^2 = \lVert A(I - WW^T) \rVert_F^2 + \lVert (A - C)W^T \rVert_F^2 \geq \lVert A(I - WW^T) \rVert_F^2$$
+$$
+\lVert A - B \rVert_F^2 = \lVert A(I - WW^T) \rVert_F^2 + \lVert (A - C)W^T \rVert_F^2 \geq \lVert A(I - WW^T) \rVert_F^2
+$$
 
 The minimum over $W$ is achieved when $W$ spans the subspace spanned by
 $\mathbf{v}_1, \ldots, \mathbf{v}_k$ (the top $k$ right singular vectors), giving:
 
-$$\lVert A - A_k \rVert_F^2 = \sum_{i=k+1}^{r} \sigma_i^2$$
+$$
+\lVert A - A_k \rVert_F^2 = \sum_{i=k+1}^{r} \sigma_i^2
+$$
 
 The spectral norm result follows because $\lVert A - A_k \rVert_2 = \sigma_{k+1}$ is the largest
 singular value of $A - A_k$. $\blacksquare$
@@ -113,12 +129,16 @@ singular value of $A - A_k$. $\blacksquare$
 
 **Definition.** The **Moore--Penrose pseudoinverse** of $A = U \Sigma V^T$ is
 
-$$A^+ = V \Sigma^+ U^T$$
+$$
+A^+ = V \Sigma^+ U^T
+$$
 
 Where $\Sigma^+$ is obtained from $\Sigma$ by transposing and inverting each non-zero singular
 value:
 
-$$(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \text{if}  \sigma_i = 0 \end{cases}$$
+$$
+(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \text{if}  \sigma_i = 0 \end{cases}
+$$
 
 **Theorem 8.5.** The pseudoinverse satisfies the four Moore--Penrose conditions:
 
@@ -129,7 +149,9 @@ $$(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \t
 
 _Proof._ Direct computation using $A = U \Sigma V^T$ and $A^+ = V \Sigma^+ U^T$:
 
-$$AA^+A = U \Sigma V^T V \Sigma^+ U^T U \Sigma V^T = U \Sigma \Sigma^+ \Sigma V^T = U \Sigma V^T = A$$
+$$
+AA^+A = U \Sigma V^T V \Sigma^+ U^T U \Sigma V^T = U \Sigma \Sigma^+ \Sigma V^T = U \Sigma V^T = A
+$$
 
 Since $\Sigma \Sigma^+ \Sigma = \Sigma$ (the non-zero singular values are preserved, zeros remain
 zero). The remaining conditions follow similarly. $\blacksquare$
@@ -147,14 +169,18 @@ $\mathbf{x}^* = A^+\mathbf{b}$. $\blacksquare$
 
 **Definition.** The **condition number** of $A$ (with respect to the spectral norm) is
 
-$$\kappa(A) = \lVert A \rVert_2 \cdot \lVert A^+ \rVert_2 = \frac{\sigma_1}{\sigma_r}$$
+$$
+\kappa(A) = \lVert A \rVert_2 \cdot \lVert A^+ \rVert_2 = \frac{\sigma_1}{\sigma_r}
+$$
 
 Where $\sigma_1$ is the largest and $\sigma_r$ is the smallest non-zero singular value.
 
 **Theorem 8.7 (Sensitivity of Linear Systems).** If $A\mathbf{x} = \mathbf{b}$ and
 $A(\mathbf{x} + \delta\mathbf{x}) = \mathbf{b} + \delta\mathbf{b}$ Then
 
-$$\frac{\lVert \delta\mathbf{x} \rVert}{\lVert \mathbf{x} \rVert} \leq \kappa(A) \cdot \frac{\lVert \delta\mathbf{b} \rVert}{\lVert \mathbf{b} \rVert}$$
+$$
+\frac{\lVert \delta\mathbf{x} \rVert}{\lVert \mathbf{x} \rVert} \leq \kappa(A) \cdot \frac{\lVert \delta\mathbf{b} \rVert}{\lVert \mathbf{b} \rVert}
+$$
 
 _Proof._ From $A\delta\mathbf{x} = \delta\mathbf{b}$:
 $\lVert \delta\mathbf{x} \rVert = \lVert A^{-1}\delta\mathbf{b} \rVert \leq \lVert A^{-1} \rVert \lVert \delta\mathbf{b} \rVert = \sigma_r^{-1} \lVert \delta\mathbf{b} \rVert$.
@@ -201,11 +227,17 @@ Since $A$ is $3 \times 2$We need a third left singular vector $\mathbf{u}_3$ ort
 $\mathbf{u}_1$ and $\mathbf{u}_2$. Compute
 $\mathbf{u}_3 = \mathbf{u}_1 \times \mathbf{u}_2 = \frac{1}{\sqrt{52}}(4, -4, -2) = \frac{1}{\sqrt{26}}(2, -2, -1)$.
 
-$$U = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}
+$$
 
-$$\Sigma = \begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}$$
+$$
+\Sigma = \begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}
+$$
 
-$$A = U \Sigma V^T = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}\begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
+$$
+A = U \Sigma V^T = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}\begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
+$$
 
 **Verification:** $U$ and $V$ are orthogonal, $\Sigma$ has the correct singular values on the
 diagonal, and $A = U\Sigma V^T$ recovers the original matrix. $\blacksquare$

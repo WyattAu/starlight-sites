@@ -57,23 +57,37 @@ accuracy, and the generalised binomial coefficient.]
 
 **(a)** By the general binomial theorem:
 
-$$(1 + 2x)^{1/2} = \sum_{r=0}^{\infty} \binom{1/2}{r} (2x)^r$$
+$$
+(1 + 2x)^{1/2} = \sum_{r=0}^{\infty} \binom{1/2}{r} (2x)^r
+$$
 
 Computing the coefficients:
 
-$$\binom{1/2}{0} = 1$$
+$$
+\binom{1/2}{0} = 1
+$$
 
-$$\binom{1/2}{1} = \frac{1/2}{1} = \frac{1}{2}$$
+$$
+\binom{1/2}{1} = \frac{1/2}{1} = \frac{1}{2}
+$$
 
-$$\binom{1/2}{2} = \frac{(1/2)(1/2 - 1)}{2!} = \frac{(1/2)(-1/2)}{2} = -\frac{1}{8}$$
+$$
+\binom{1/2}{2} = \frac{(1/2)(1/2 - 1)}{2!} = \frac{(1/2)(-1/2)}{2} = -\frac{1}{8}
+$$
 
-$$\binom{1/2}{3} = \frac{(1/2)(-1/2)(-3/2)}{3!} = \frac{3/8}{6} = \frac{1}{16}$$
+$$
+\binom{1/2}{3} = \frac{(1/2)(-1/2)(-3/2)}{3!} = \frac{3/8}{6} = \frac{1}{16}
+$$
 
 So:
 
-$$(1 + 2x)^{1/2} = 1 + \frac{1}{2}(2x) + \left(-\frac{1}{8}\right)(2x)^2 + \frac{1}{16}(2x)^3 + \cdots$$
+$$
+(1 + 2x)^{1/2} = 1 + \frac{1}{2}(2x) + \left(-\frac{1}{8}\right)(2x)^2 + \frac{1}{16}(2x)^3 + \cdots
+$$
 
-$$= 1 + x - \frac{1}{2}x^2 + \frac{1}{2}x^3 + \cdots$$
+$$
+= 1 + x - \frac{1}{2}x^2 + \frac{1}{2}x^3 + \cdots
+$$
 
 The expansion is valid when $|2x| < 1$I.e. $|x| < \frac{1}{2}$.
 
@@ -81,11 +95,17 @@ The expansion is valid when $|2x| < 1$I.e. $|x| < \frac{1}{2}$.
 
 Since $|0.01| < 0.5$The expansion is valid.
 
-$$\sqrt{1.02} \approx 1 + 0.01 - \frac{1}{2}(0.0001) + \frac{1}{2}(0.000001)$$
+$$
+\sqrt{1.02} \approx 1 + 0.01 - \frac{1}{2}(0.0001) + \frac{1}{2}(0.000001)
+$$
 
-$$= 1 + 0.01 - 0.00005 + 0.0000005$$
+$$
+= 1 + 0.01 - 0.00005 + 0.0000005
+$$
 
-$$= 1.0099505$$
+$$
+= 1.0099505
+$$
 
 The next term in the expansion involves $x^4$: the coefficient of $x^4$ is $\binom{1/2}{4}(2)^4$.
 Computing
@@ -102,11 +122,17 @@ $x^3$ is an overestimate. (The terms alternate in sign: $+x$$-x^2/2$$+x^3/2$$-5x
 
 **(c)** The generalised binomial coefficient:
 
-$$\binom{1/2}{r} = \frac{(1/2)(1/2 - 1)(1/2 - 2) \cdots (1/2 - r + 1)}{r!}$$
+$$
+\binom{1/2}{r} = \frac{(1/2)(1/2 - 1)(1/2 - 2) \cdots (1/2 - r + 1)}{r!}
+$$
 
-$$= \frac{(1/2)(-1/2)(-3/2) \cdots \left(\frac{3 - 2r}{2}\right)}{r!}$$
+$$
+= \frac{(1/2)(-1/2)(-3/2) \cdots \left(\frac{3 - 2r}{2}\right)}{r!}
+$$
 
-$$= \frac{(-1)^{r-1}(1 \cdot 3 \cdot 5 \cdots (2r - 3))}{2^r \cdot r!} \quad \text{for } r \geq 2$$
+$$
+= \frac{(-1)^{r-1}(1 \cdot 3 \cdot 5 \cdots (2r - 3))}{2^r \cdot r!} \quad \text{for } r \geq 2
+$$
 
 This can also be written using double factorials or the relation
 $\binom{1/2}{r} = \frac{(-1)^{r-1}(2r-3)!!}{2^r \cdot r!}$ for $r \geq 2$.
@@ -128,7 +154,9 @@ $\binom{1/2}{r} = \frac{(-1)^{r-1}(2r-3)!!}{2^r \cdot r!}$ for $r \geq 2$.
 
 Find the coefficient of $x^4$ in the expansion of:
 
-$$\frac{(1 + 2x)^5}{(1 - x)^3}$$
+$$
+\frac{(1 + 2x)^5}{(1 - x)^3}
+$$
 
 [Difficulty: hard. Tests combining the standard binomial expansion with the general binomial
 expansion to extract a specific coefficient.]
@@ -137,19 +165,29 @@ expansion to extract a specific coefficient.]
 
 **Step 1: Expand the numerator.**
 
-$$(1 + 2x)^5 = \sum_{r=0}^{5} \binom{5}{r} (2x)^r = 1 + 10x + 40x^2 + 80x^3 + 80x^4 + 32x^5$$
+$$
+(1 + 2x)^5 = \sum_{r=0}^{5} \binom{5}{r} (2x)^r = 1 + 10x + 40x^2 + 80x^3 + 80x^4 + 32x^5
+$$
 
 **Step 2: Expand the denominator using the general binomial theorem.**
 
-$$(1 - x)^{-3} = \sum_{s=0}^{\infty} \binom{-3}{s}(-x)^s$$
+$$
+(1 - x)^{-3} = \sum_{s=0}^{\infty} \binom{-3}{s}(-x)^s
+$$
 
-$$\binom{-3}{s} = \frac{(-3)(-4)(-5)\cdots(-3-s+1)}{s!} = \frac{(-1)^s \cdot 3 \cdot 4 \cdot 5 \cdots (s+2)}{s!} = \frac{(-1)^s (s+2)!}{2! \cdot s!} = (-1)^s \binom{s+2}{2}$$
+$$
+\binom{-3}{s} = \frac{(-3)(-4)(-5)\cdots(-3-s+1)}{s!} = \frac{(-1)^s \cdot 3 \cdot 4 \cdot 5 \cdots (s+2)}{s!} = \frac{(-1)^s (s+2)!}{2! \cdot s!} = (-1)^s \binom{s+2}{2}
+$$
 
 Therefore:
 
-$$(1-x)^{-3} = \sum_{s=0}^{\infty} (-1)^s \binom{s+2}{2} (-x)^s = \sum_{s=0}^{\infty} \binom{s+2}{2} x^s$$
+$$
+(1-x)^{-3} = \sum_{s=0}^{\infty} (-1)^s \binom{s+2}{2} (-x)^s = \sum_{s=0}^{\infty} \binom{s+2}{2} x^s
+$$
 
-$$= \sum_{s=0}^{\infty} \frac{(s+1)(s+2)}{2} x^s = 1 + 3x + 6x^2 + 10x^3 + 15x^4 + 21x^5 + \cdots$$
+$$
+= \sum_{s=0}^{\infty} \frac{(s+1)(s+2)}{2} x^s = 1 + 3x + 6x^2 + 10x^3 + 15x^4 + 21x^5 + \cdots
+$$
 
 **Step 3: Multiply the series and extract the $x^4$ coefficient.**
 
@@ -188,7 +226,9 @@ value of $a$.
 
 **(c)** Use the expansion from part (a) to find the value of the infinite series:
 
-$$1 + \frac{3}{2} + \frac{27}{8} + \frac{135}{16} + \cdots$$
+$$
+1 + \frac{3}{2} + \frac{27}{8} + \frac{135}{16} + \cdots
+$$
 
 [Difficulty: hard. Tests manipulation of the general binomial theorem with negative integer
 exponents and connection to infinite series.]
@@ -200,21 +240,33 @@ $(2 - 3x)^{-2} = 2^{-2}(1 - \frac{3x}{2})^{-2} = \frac{1}{4}(1 - \frac{3x}{2})^{
 
 Using the general binomial theorem:
 
-$$(1 - \tfrac{3x}{2})^{-2} = \sum_{r=0}^{\infty} \binom{-2}{r}(-\tfrac{3x}{2})^r$$
+$$
+(1 - \tfrac{3x}{2})^{-2} = \sum_{r=0}^{\infty} \binom{-2}{r}(-\tfrac{3x}{2})^r
+$$
 
-$$\binom{-2}{r} = \frac{(-2)(-3)\cdots(-2-r+1)}{r!} = (-1)^r \frac{(r+1)!}{r!} = (-1)^r(r+1)$$
+$$
+\binom{-2}{r} = \frac{(-2)(-3)\cdots(-2-r+1)}{r!} = (-1)^r \frac{(r+1)!}{r!} = (-1)^r(r+1)
+$$
 
 Therefore:
 
-$$(1 - \tfrac{3x}{2})^{-2} = \sum_{r=0}^{\infty} (-1)^r(r+1)(-1)^r(\tfrac{3x}{2})^r = \sum_{r=0}^{\infty}(r+1)(\tfrac{3x}{2})^r$$
+$$
+(1 - \tfrac{3x}{2})^{-2} = \sum_{r=0}^{\infty} (-1)^r(r+1)(-1)^r(\tfrac{3x}{2})^r = \sum_{r=0}^{\infty}(r+1)(\tfrac{3x}{2})^r
+$$
 
-$$= 1 + 2 \cdot \frac{3x}{2} + 3 \cdot \frac{9x^2}{4} + 4 \cdot \frac{27x^3}{8} + \cdots$$
+$$
+= 1 + 2 \cdot \frac{3x}{2} + 3 \cdot \frac{9x^2}{4} + 4 \cdot \frac{27x^3}{8} + \cdots
+$$
 
-$$= 1 + 3x + \frac{27x^2}{4} + \frac{27x^3}{2} + \cdots$$
+$$
+= 1 + 3x + \frac{27x^2}{4} + \frac{27x^3}{2} + \cdots
+$$
 
 Multiplying by $\frac{1}{4}$:
 
-$$(2-3x)^{-2} = \frac{1}{4} + \frac{3x}{4} + \frac{27x^2}{16} + \frac{27x^3}{8} + \cdots$$
+$$
+(2-3x)^{-2} = \frac{1}{4} + \frac{3x}{4} + \frac{27x^2}{16} + \frac{27x^3}{8} + \cdots
+$$
 
 Valid when $|\frac{3x}{2}| < 1$I.e. $|x| < \frac{2}{3}$.
 
@@ -223,7 +275,9 @@ $(2-3x)^{-2}(1+ax) = \left(\frac{1}{4} + \frac{3x}{4} + \frac{27x^2}{16} + \cdot
 
 Coefficient of $x^2$: $\frac{27}{16} + a \cdot \frac{3}{4} = 0$.
 
-$$\frac{27}{16} + \frac{3a}{4} = 0 \implies \frac{3a}{4} = -\frac{27}{16} \implies a = -\frac{27}{16} \cdot \frac{4}{3} = -\frac{9}{4}$$
+$$
+\frac{27}{16} + \frac{3a}{4} = 0 \implies \frac{3a}{4} = -\frac{27}{16} \implies a = -\frac{27}{16} \cdot \frac{4}{3} = -\frac{9}{4}
+$$
 
 **(c)** The series $1 + \frac{3}{2} + \frac{27}{8} + \frac{135}{16} + \cdots$ can be compared with
 the expansion.
@@ -252,7 +306,9 @@ Consider $(2-3x)^{-2}$ at $x = 1/2$: $(2 - 3/2)^{-2} = (1/2)^{-2} = 4$.
 
 The expansion at $x = 1/2$ (note $|1/2| < 2/3$ So valid):
 
-$$\frac{1}{4} + \frac{3}{8} + \frac{27}{64} + \frac{27}{64} + \cdots$$
+$$
+\frac{1}{4} + \frac{3}{8} + \frac{27}{64} + \frac{27}{64} + \cdots
+$$
 
 This sums to 4, but doesn't match the given series.
 
@@ -299,7 +355,9 @@ this question, the sum is $\boxed{4}$.
 
 The expansion of $(1 + x)^{1/3}$ is:
 
-$$(1+x)^{1/3} = 1 + \frac{1}{3}x - \frac{1}{9}x^2 + \frac{5}{81}x^3 - \cdots$$
+$$
+(1+x)^{1/3} = 1 + \frac{1}{3}x - \frac{1}{9}x^2 + \frac{5}{81}x^3 - \cdots
+$$
 
 **(a)** By differentiating the expansion term by term, find the expansion of
 $\frac{1}{3}(1+x)^{-2/3}$ up to and including the term in $x^2$.
@@ -315,32 +373,50 @@ $\frac{1}{3}(1+x)^{-2/3}$ up to and including the term in $x^2$.
 **(a)** Differentiating
 $(1+x)^{1/3} = 1 + \frac{1}{3}x - \frac{1}{9}x^2 + \frac{5}{81}x^3 - \cdots$:
 
-$$\frac{1}{3}(1+x)^{-2/3} = \frac{1}{3} - \frac{2}{9}x + \frac{5}{27}x^2 - \cdots$$
+$$
+\frac{1}{3}(1+x)^{-2/3} = \frac{1}{3} - \frac{2}{9}x + \frac{5}{27}x^2 - \cdots
+$$
 
 **(b)** Multiplying by 3:
 
-$$(1+x)^{-2/3} = 1 - \frac{2}{3}x + \frac{5}{9}x^2 - \cdots$$
+$$
+(1+x)^{-2/3} = 1 - \frac{2}{3}x + \frac{5}{9}x^2 - \cdots
+$$
 
 **Verification using direct binomial expansion:**
 
-$$(1+x)^{-2/3} = 1 + \binom{-2/3}{1}x + \binom{-2/3}{2}x^2 + \cdots$$
+$$
+(1+x)^{-2/3} = 1 + \binom{-2/3}{1}x + \binom{-2/3}{2}x^2 + \cdots
+$$
 
-$$\binom{-2/3}{1} = -\frac{2}{3}$$
+$$
+\binom{-2/3}{1} = -\frac{2}{3}
+$$
 
-$$\binom{-2/3}{2} = \frac{(-2/3)(-5/3)}{2} = \frac{10/9}{2} = \frac{5}{9}$$
+$$
+\binom{-2/3}{2} = \frac{(-2/3)(-5/3)}{2} = \frac{10/9}{2} = \frac{5}{9}
+$$
 
 Confirmed.
 
 **(c)**
 $\int_0^{0.1} (1+x)^{-2/3} \, dx = \int_0^{0.1} \left(1 - \frac{2}{3}x + \frac{5}{9}x^2 - \cdots\right) dx$
 
-$$= \left[x - \frac{1}{3}x^2 + \frac{5}{27}x^3 - \cdots\right]_0^{0.1}$$
+$$
+= \left[x - \frac{1}{3}x^2 + \frac{5}{27}x^3 - \cdots\right]_0^{0.1}
+$$
 
-$$= 0.1 - \frac{1}{3}(0.01) + \frac{5}{27}(0.001) - \cdots$$
+$$
+= 0.1 - \frac{1}{3}(0.01) + \frac{5}{27}(0.001) - \cdots
+$$
 
-$$= 0.1 - 0.003333... + 0.000185...$$
+$$
+= 0.1 - 0.003333... + 0.000185...
+$$
 
-$$= 0.096851851...$$
+$$
+= 0.096851851...
+$$
 
 The next term involves $\binom{-2/3}{3}x^3$Which integrates to give a term of order $10^{-5}$Not
 affecting 8 decimal places.
@@ -380,9 +456,13 @@ proofs.]
 
 By the binomial theorem:
 
-$$(8+1)^n = \sum_{r=0}^{n} \binom{n}{r} 8^r \cdot 1^{n-r} = 1 + \binom{n}{1}8 + \binom{n}{2}8^2 + \cdots + 8^n$$
+$$
+(8+1)^n = \sum_{r=0}^{n} \binom{n}{r} 8^r \cdot 1^{n-r} = 1 + \binom{n}{1}8 + \binom{n}{2}8^2 + \cdots + 8^n
+$$
 
-$$= 1 + 8n + 8^2\binom{n}{2} + \cdots + 8^n$$
+$$
+= 1 + 8n + 8^2\binom{n}{2} + \cdots + 8^n
+$$
 
 Every term except the first contains a factor of 8.
 
@@ -395,7 +475,9 @@ Since the quantity in parentheses is an integer, $3^{2n} - 1$ is divisible by 8 
 
 By the binomial theorem: $(6+1)^n = 1 + 6n + 6^2\binom{n}{2} + \cdots + 6^n$.
 
-$$7^n - 1 = 6n + 6^2\binom{n}{2} + \cdots + 6^n = 6\left(n + 6\binom{n}{2} + \cdots + 6^{n-1}\right)$$
+$$
+7^n - 1 = 6n + 6^2\binom{n}{2} + \cdots + 6^n = 6\left(n + 6\binom{n}{2} + \cdots + 6^{n-1}\right)
+$$
 
 Since the expression in parentheses is an integer, $7^n - 1$ is divisible by 6 for all $n \geq 1$.
 
@@ -419,11 +501,17 @@ Let me proceed with $3^{2n+1} + 2^{n+2}$:
 
 For $n = k + 1$:
 
-$$3^{2(k+1)+1} + 2^{(k+1)+2} = 3^{2k+3} + 2^{k+3} = 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2}$$
+$$
+3^{2(k+1)+1} + 2^{(k+1)+2} = 3^{2k+3} + 2^{k+3} = 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2}
+$$
 
-$$= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2} = 7 \cdot 3^{2k+1} + 2(3^{2k+1} + 2^{k+2})$$
+$$
+= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2} = 7 \cdot 3^{2k+1} + 2(3^{2k+1} + 2^{k+2})
+$$
 
-$$= 7 \cdot 3^{2k+1} + 2 \cdot 7m = 7(3^{2k+1} + 2m)$$
+$$
+= 7 \cdot 3^{2k+1} + 2 \cdot 7m = 7(3^{2k+1} + 2m)
+$$
 
 This is divisible by 7. By induction, $3^{2n+1} + 2^{n+2}$ is divisible by 7 for all $n \geq 1$.
 
@@ -462,25 +550,39 @@ applied to binomial sums.]
 
 **(a)** Starting from the right side:
 
-$$\binom{n+1}{r} = \frac{(n+1)!}{r!(n+1-r)!} = \frac{(n+1) \cdot n!}{r!(n+1-r)(n-r)!}$$
+$$
+\binom{n+1}{r} = \frac{(n+1)!}{r!(n+1-r)!} = \frac{(n+1) \cdot n!}{r!(n+1-r)(n-r)!}
+$$
 
-$$= \frac{n!}{r!(n-r)!} \cdot \frac{n+1}{n+1-r} = \frac{n!}{r!(n-r)!} \cdot \frac{n+1-r+r}{n+1-r}$$
+$$
+= \frac{n!}{r!(n-r)!} \cdot \frac{n+1}{n+1-r} = \frac{n!}{r!(n-r)!} \cdot \frac{n+1-r+r}{n+1-r}
+$$
 
-$$= \frac{n!}{r!(n-r)!} + \frac{r \cdot n!}{r!(n-r+1)(n-r)!}$$
+$$
+= \frac{n!}{r!(n-r)!} + \frac{r \cdot n!}{r!(n-r+1)(n-r)!}
+$$
 
-$$= \frac{n!}{r!(n-r)!} + \frac{n!}{(r-1)!(n-r+1)!} = \binom{n}{r} + \binom{n}{r-1}$$
+$$
+= \frac{n!}{r!(n-r)!} + \frac{n!}{(r-1)!(n-r+1)!} = \binom{n}{r} + \binom{n}{r-1}
+$$
 
 **(b)** Using Pascal's identity: $\binom{r}{k} = \binom{r+1}{k+1} - \binom{r}{k+1}$.
 
-$$\sum_{r=k}^{n} \binom{r}{k} = \sum_{r=k}^{n}\left[\binom{r+1}{k+1} - \binom{r}{k+1}\right]$$
+$$
+\sum_{r=k}^{n} \binom{r}{k} = \sum_{r=k}^{n}\left[\binom{r+1}{k+1} - \binom{r}{k+1}\right]
+$$
 
 This is a telescoping sum:
 
-$$= \left[\binom{k+1}{k+1} - \binom{k}{k+1}\right] + \left[\binom{k+2}{k+1} - \binom{k+1}{k+1}\right] + \cdots + \left[\binom{n+1}{k+1} - \binom{n}{k+1}\right]$$
+$$
+= \left[\binom{k+1}{k+1} - \binom{k}{k+1}\right] + \left[\binom{k+2}{k+1} - \binom{k+1}{k+1}\right] + \cdots + \left[\binom{n+1}{k+1} - \binom{n}{k+1}\right]
+$$
 
 Since $\binom{k}{k+1} = 0$:
 
-$$= \binom{n+1}{k+1}$$
+$$
+= \binom{n+1}{k+1}
+$$
 
 **(c)** The number of ways to choose 2 vertices from $n$ vertices is
 $\binom{n}{2} = \frac{n(n-1)}{2}$.
@@ -492,11 +594,15 @@ segment.
 
 Differentiate twice:
 
-$$n(n-1)(1+x)^{n-2} = \sum_{r=0}^{n} r(r-1)\binom{n}{r} x^{r-2}$$
+$$
+n(n-1)(1+x)^{n-2} = \sum_{r=0}^{n} r(r-1)\binom{n}{r} x^{r-2}
+$$
 
 Setting $x = 1$:
 
-$$n(n-1) \cdot 2^{n-2} = \sum_{r=0}^{n} r(r-1)\binom{n}{r}$$
+$$
+n(n-1) \cdot 2^{n-2} = \sum_{r=0}^{n} r(r-1)\binom{n}{r}
+$$
 
 **Verification for $n = 4$:** LHS $= 4 \cdot 3 \cdot 4 = 48$. RHS
 $= 0 + 0 + 2 \cdot 6 + 6 \cdot 4 + 12 \cdot 1 = 12 + 24 + 12 = 48$. Confirmed.

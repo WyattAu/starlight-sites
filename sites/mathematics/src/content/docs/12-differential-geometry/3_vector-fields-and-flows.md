@@ -30,7 +30,9 @@ $I_p \subseteq \mathbb{R}$ containing $0$.
 
 For vector fields $X, Y$ on $M$, the **Lie bracket** $[X, Y]$ is the vector field defined by:
 
-$$X, Y = X(Y(f)) - Y(X(f))$$
+$$
+X, Y = X(Y(f)) - Y(X(f))
+$$
 
 for $f \in C^\infty(M)$.
 
@@ -111,15 +113,21 @@ the non-commutativity of the Lie algebra $\mathfrak{so}(3)$.
 
 In local coordinates $(x^1, \ldots, x^n)$, a vector field $X$ can be written as:
 
-$$X = X^i(x) \frac{\partial}{\partial x^i}$$
+$$
+X = X^i(x) \frac{\partial}{\partial x^i}
+$$
 
 The integral curve equation $\dot\gamma(t) = X_{\gamma(t)}$ becomes the system of ODEs:
 
-$$\dot\gamma^i(t) = X^i(\gamma(t)), \quad i = 1, \ldots, n$$
+$$
+\dot\gamma^i(t) = X^i(\gamma(t)), \quad i = 1, \ldots, n
+$$
 
 The Lie bracket in coordinates is:
 
-$$[X, Y]^i = X^j \frac{\partial Y^i}{\partial x^j} - Y^j \frac{\partial X^i}{\partial x^j}$$
+$$
+[X, Y]^i = X^j \frac{\partial Y^i}{\partial x^j} - Y^j \frac{\partial X^i}{\partial x^j}
+$$
 
 ### 3.8 Worked Examples
 
@@ -134,9 +142,13 @@ $\mathbb{R}^2$. What do their flows look like?
 
 *Solution.* Using the coordinate formula: $X^1 = y$, $X^2 = 0$, $Y^1 = 0$, $Y^2 = x$.
 
-$$[X, Y]^1 = y\frac{\partial(0)}{\partial x} - 0\frac{\partial(y)}{\partial x} + 0\frac{\partial(0)}{\partial y} - x\frac{\partial(y)}{\partial y} = -x$$
+$$
+[X, Y]^1 = y\frac{\partial(0)}{\partial x} - 0\frac{\partial(y)}{\partial x} + 0\frac{\partial(0)}{\partial y} - x\frac{\partial(y)}{\partial y} = -x
+$$
 
-$$[X, Y]^2 = y\frac{\partial(x)}{\partial x} - 0\frac{\partial(0)}{\partial x} + 0\frac{\partial(x)}{\partial y} - x\frac{\partial(0)}{\partial y} = y$$
+$$
+[X, Y]^2 = y\frac{\partial(x)}{\partial x} - 0\frac{\partial(0)}{\partial x} + 0\frac{\partial(x)}{\partial y} - x\frac{\partial(0)}{\partial y} = y
+$$
 
 So $[X, Y] = -x \partial/\partial x + y \partial/\partial y$. The flows are: $\Phi_t^X(x,y) = (x+yt, y)$
 (shear), $\Phi_s^Y(x,y) = (x, y+xs)$ (shear). These do not commute. $\blacksquare$

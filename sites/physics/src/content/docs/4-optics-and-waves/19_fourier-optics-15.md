@@ -22,13 +22,17 @@ description: "Study notes for Fourier Optics with worked examples, practice prob
 In the Fraunhofer (far-field) limit, the diffraction pattern of an aperture with transmission
 function $t(x, y)$ is the Fourier transform:
 
-$$U(x", y") = \frac{e^{ikz}}{i\lambda z}\,e^{ik(x'^2 + y'^2)/(2z)}\iint t(x, y)\,e^{-ik(xx' + yy')/z}\,dx\,dy$$
+$$
+U(x", y") = \frac{e^{ikz}}{i\lambda z}\,e^{ik(x'^2 + y'^2)/(2z)}\iint t(x, y)\,e^{-ik(xx' + yy')/z}\,dx\,dy
+$$
 
 Where $(x', y')$ are coordinates in the observation plane at distance $z$ from the aperture.
 
 Defining spatial frequencies $f_x = x'/(\lambda z)$, $f_y = y'/(\lambda z)$:
 
-$$U(f_x, f_y) \propto \mathcal{F}\{t(x,y)\}(f_x, f_y)$$
+$$
+U(f_x, f_y) \propto \mathcal{F}\{t(x,y)\}(f_x, f_y)
+$$
 
 This correspondence between diffraction and Fourier transforms is the foundation of Fourier optics
 and has profound implications for image processing and optical information processing.
@@ -41,12 +45,16 @@ focal plane), and the eyepiece (or tube lens) performs the inverse transform.
 
 **Resolution limit:** The finest spatial frequency that can pass through the objective is:
 
-$$f_{\max} = \frac{\text{NA}{\lambda}}$$
+$$
+f_{\max} = \frac{\text{NA}{\lambda}}
+$$
 
 Where $\text{NA} = n\sin\theta$ is the numerical aperture. The minimum resolvable distance (Abbe
 limit):
 
-$$d_{\min} = \frac{\lambda}{2\,\text{NA}}$$
+$$
+d_{\min} = \frac{\lambda}{2\,\text{NA}}
+$$
 
 For green light ($\lambda = 550$ nm) and NA = 1.4 (oil immersion): $d_{\min} \approx 196$ nm.
 
@@ -119,11 +127,15 @@ The first zero occurs at $r = 1.22\lambda f/D$, which is the Rayleigh criterion.
 
 A diffraction grating with $N$ slits of width $a$ and spacing $d$ has transmission function:
 
-$$t(x) = \sum_{n=0}^{N-1}\text{rect}\!\left(\frac{x - nd}{a}\right)$$
+$$
+t(x) = \sum_{n=0}^{N-1}\text{rect}\!\left(\frac{x - nd}{a}\right)
+$$
 
 The Fraunhofer pattern is:
 
-$$I(\theta) = I_0\left(\frac{\sin\alpha}{\alpha}\right)^2\left(\frac{\sin N\beta}{\sin\beta}\right)^2$$
+$$
+I(\theta) = I_0\left(\frac{\sin\alpha}{\alpha}\right)^2\left(\frac{\sin N\beta}{\sin\beta}\right)^2
+$$
 
 Where $\alpha = \pi a\sin\theta/\lambda$ (single-slit envelope) and
 $\beta = \pi d\sin\theta/\lambda$ (multi-slit interference).

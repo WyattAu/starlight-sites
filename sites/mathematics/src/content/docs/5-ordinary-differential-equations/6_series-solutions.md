@@ -39,7 +39,9 @@ Are two linearly independent solutions of the form $x^{r_1}\sum a_n x^n$ and $x^
 
 Bessel's equation of order $\nu$:
 
-$$x^2 y'' + xy' + (x^2 - \nu^2)y = 0$$
+$$
+x^2 y'' + xy' + (x^2 - \nu^2)y = 0
+$$
 
 For $\nu \notin \mathbb{Z}$The solutions are $J_\nu(x)$ and $J_{-\nu}(x)$ (Bessel functions of the
 First kind). For $\nu = n \in \mathbb{N}$The second solution is the Weber function $Y_n(x)$.

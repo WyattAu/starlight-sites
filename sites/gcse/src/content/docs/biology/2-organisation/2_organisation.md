@@ -361,7 +361,9 @@ Into the blood; carbon dioxide diffuses from the blood into the alveoli.
 
 Fick's law states:
 
-$$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}$$
+$$
+\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}
+$$
 
 The alveoli are adapted to maximise the rate of diffusion by:
 

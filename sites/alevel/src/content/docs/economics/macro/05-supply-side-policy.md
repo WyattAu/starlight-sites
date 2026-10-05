@@ -27,7 +27,9 @@ categories:
 We define **supply-side policies** as government policies designed to increase the productive
 Capacity of the economy by shifting the long-run aggregate supply (LRAS) curve to the right.
 
-$$\mathrm{LRAS shifts right: } Y^* \uparrow \Rightarrow P \downarrow, Y \uparrow$$
+$$
+\mathrm{LRAS shifts right: } Y^* \uparrow \Rightarrow P \downarrow, Y \uparrow
+$$
 
 Unlike demand-side policies (fiscal and monetary policy), which aim to manage AD to smooth the
 Business cycle, supply-side policies aim to raise the economy"s **potential output**, improving the
@@ -43,7 +45,9 @@ Raise output above potential in the long run (LRAS is vertical). Only by increas
 Itself, through better technology, more capital, a more skilled workforce, or more efficient
 Markets, can the economy produce more goods and services sustainably. $\blacksquare$
 
-$$\mathrm{Long-run growth} = f(\Delta K, \Delta L, \Delta A)$$
+$$
+\mathrm{Long-run growth} = f(\Delta K, \Delta L, \Delta A)
+$$
 
 Where $K$ = capital, $L$ = labour, $A$ = total factor productivity (technology and efficiency).
 
@@ -79,7 +83,9 @@ All, not how many hours).
 
 **Reduction in corporation tax** to incentivise investment:
 
-$$I = I(r, \tau_c) \quad \mathrm{where } \frac{\partial I}{\partial \tau_c} < 0$$
+$$
+I = I(r, \tau_c) \quad \mathrm{where } \frac{\partial I}{\partial \tau_c} < 0
+$$
 
 A lower corporation tax rate $\tau_c$ increases the after-tax return on investment, encouraging
 Firms to invest in capital. The UK reduced corporation tax from 28% (2010) to 19% (2017), partially
@@ -90,11 +96,15 @@ Rate of 0%, revenue is zero. As the rate rises, revenue initially increases. Bey
 $t^*$Further increases reduce revenue because the tax base shrinks (people work less, evade more, Or
 relocate).
 
-$$R = t \cdot B(t) \quad \mathrm{where } \frac{dB}{dt} \lt 0 \mathrm{ for } t \gt t^*$$
+$$
+R = t \cdot B(t) \quad \mathrm{where } \frac{dB}{dt} \lt 0 \mathrm{ for } t \gt t^*
+$$
 
 Where $R$ is tax revenue, $t$ is the tax rate, and $B(t)$ is the tax base.
 
-$$\frac{dR}{dt} = B(t) + t \cdot \frac{dB}{dt} = 0 \quad \mathrm{at the revenue-maximising rate } t^*$$
+$$
+\frac{dR}{dt} = B(t) + t \cdot \frac{dB}{dt} = 0 \quad \mathrm{at the revenue-maximising rate } t^*
+$$
 
 The key debate is where the UK sits relative to $t^*$. Most empirical estimates (including the IFS
 And OBR) suggest that for income tax, the UK is to the **left** of $t^*$, meaning tax cuts would
@@ -122,7 +132,9 @@ Demand and a stable regulatory environment before committing to investment, rega
 Unemployment (real-wage unemployment). Reducing union power (e.g., secret ballots, restrictions on
 Strikes) allows wages to adjust to market-clearing levels.
 
-$$w > w^* \Rightarrow \mathrm{labour demand } < \mathrm{labour supply} \Rightarrow \mathrm{unemployment}$$
+$$
+w > w^* \Rightarrow \mathrm{labour demand } < \mathrm{labour supply} \Rightarrow \mathrm{unemployment}
+$$
 
 **Reducing employment protection legislation**: Making it easier to hire and fire workers reduces
 Firms' perceived risk of taking on new employees, potentially increasing employment. However, it may
@@ -155,7 +167,9 @@ Arguments against:
 
 **Deregulation**: removing barriers to entry, reducing red tape, and simplifying regulations.
 
-$$\mathrm{Fewer barriers} \Rightarrow \mathrm{more firms enter} \Rightarrow \mathrm{more competition} \Rightarrow \mathrm{lower prices, higher quality, more innovation}$$
+$$
+\mathrm{Fewer barriers} \Rightarrow \mathrm{more firms enter} \Rightarrow \mathrm{more competition} \Rightarrow \mathrm{lower prices, higher quality, more innovation}
+$$
 
 Example: The Big Bang (1986) deregulated London's financial markets, contributing to the growth of
 The City as a global financial centre.
@@ -204,7 +218,9 @@ Anti-competitive practices include:
 - **Predatory pricing**: setting prices below cost to drive out competitors
 - **Abuse of market power**: exclusionary practices by dominant firms
 
-$$\mathrm{More competition} \Rightarrow P \downarrow, Q \uparrow, \mathrm{consumer surplus } \uparrow, \mathrm{deadweight loss } \downarrow$$
+$$
+\mathrm{More competition} \Rightarrow P \downarrow, Q \uparrow, \mathrm{consumer surplus } \uparrow, \mathrm{deadweight loss } \downarrow
+$$
 
 ## 3. Interventionist Supply-Side Policies
 
@@ -216,7 +232,9 @@ Production.
 **Human capital theory** (Becker, 1964): education and training increase the productivity of labour,
 Shifting the production function upward.
 
-$$Y = A \cdot F(K, hL)$$
+$$
+Y = A \cdot F(K, hL)
+$$
 
 Where $h$ is human capital per worker (education, skills, health).
 
@@ -265,7 +283,9 @@ well-explained Real-world examples. OCR (H460) links education policy to labour 
 
 Public investment in transport, broadband, energy, and communications:
 
-$$\mathrm{Better infrastructure} \Rightarrow \mathrm{lower transport/communication costs} \Rightarrow \mathrm{higher productivity}$$
+$$
+\mathrm{Better infrastructure} \Rightarrow \mathrm{lower transport/communication costs} \Rightarrow \mathrm{higher productivity}
+$$
 
 The UK's Northern Powerhouse Rail, HS2 (now partially cancelled), and gigabit broadband rollout are
 Examples.
@@ -279,7 +299,9 @@ While also improving long-run productivity.
 Government funding for basic research (which private firms underprovide due to positive
 Externalities):
 
-$$\mathrm{Social return to R\&D} > \mathrm{private return to R\&D}$$
+$$
+\mathrm{Social return to R\&D} > \mathrm{private return to R\&D}
+$$
 
 Policies: R&D tax credits, direct funding for universities, patent protection, research councils.
 
@@ -330,7 +352,9 @@ Market vs intervention dichotomy.
 Innovation, and human development indices, while maintaining lower inequality than the UK and US.
 Unemployment rates are comparable to or lower than the UK average.
 
-$$\mathrm{Nordic model}: \mathrm{flexibility} + \mathrm{security} + \mathrm{investment} \Rightarrow \mathrm{high } h, \mathrm{ high } A, \mathrm{ low inequality}$$
+$$
+\mathrm{Nordic model}: \mathrm{flexibility} + \mathrm{security} + \mathrm{investment} \Rightarrow \mathrm{high } h, \mathrm{ high } A, \mathrm{ low inequality}
+$$
 
 **Evaluation.** The Nordic model suggests that market-oriented and interventionist policies are not
 Mutually exclusive, they can be **complementary**. High taxes fund the education and infrastructure
@@ -366,7 +390,9 @@ Market-oriented policies tend to be most effective when:
 - Externalities are minimal (private and social costs/benefits are aligned)
 - Institutions are strong (property rights, rule of law, contract enforcement)
 
-$$\mathrm{Market efficiency} \propto \frac{\mathrm{Competition} \times \mathrm{Information} \times \mathrm{Institutions}}{\mathrm{Externalities} \times \mathrm{Market power}}$$
+$$
+\mathrm{Market efficiency} \propto \frac{\mathrm{Competition} \times \mathrm{Information} \times \mathrm{Institutions}}{\mathrm{Externalities} \times \mathrm{Market power}}
+$$
 
 Interventionist policies tend to be most effective when:
 
@@ -377,7 +403,9 @@ Interventionist policies tend to be most effective when:
 - Equity objectives require redistribution (regional policy, progressive education funding)
 - The government has a strong track record of effective implementation
 
-$$\mathrm{Intervention effectiveness} \propto \frac{\mathrm{Market failure severity} \times \mathrm{State capacity}}{\mathrm{Government failure risk} \times \mathrm{Implementation cost}}$$
+$$
+\mathrm{Intervention effectiveness} \propto \frac{\mathrm{Market failure severity} \times \mathrm{State capacity}}{\mathrm{Government failure risk} \times \mathrm{Implementation cost}}
+$$
 
 The crucial insight is that **the optimal policy mix varies by sector and context**. Financial
 Services may benefit most from deregulation and competition, while education and infrastructure
@@ -415,7 +443,9 @@ Supply-side reforms. But sustained growth requires both. Always reference the ti
 Supply-side policies that reduce the natural rate of unemployment ($u^*$) or increase productivity
 Shift the short-run Phillips curve to the left:
 
-$$\pi = \pi^e - \beta(u - u^*) + \varepsilon$$
+$$
+\pi = \pi^e - \beta(u - u^*) + \varepsilon
+$$
 
 If supply-side policy reduces $u^*$ from 6% to 4%, the Phillips curve shifts left. At any given
 Inflation rate, unemployment is now lower. Alternatively, at any given unemployment rate, inflation
@@ -424,9 +454,13 @@ Is now lower.
 **Productivity growth** (a key supply-side objective) also shifts the Phillips curve left by
 Reducing cost-push inflation:
 
-$$\mathrm{Productivity } \uparrow \Rightarrow \mathrm{unit labour costs } \downarrow \Rightarrow \mathrm{SRAS shifts right} \Rightarrow P \downarrow$$
+$$
+\mathrm{Productivity } \uparrow \Rightarrow \mathrm{unit labour costs } \downarrow \Rightarrow \mathrm{SRAS shifts right} \Rightarrow P \downarrow
+$$
 
-$$\pi_{\mathrm{new}} = \pi_{\mathrm{old}} - \Delta(\mathrm{productivity})$$
+$$
+\pi_{\mathrm{new}} = \pi_{\mathrm{old}} - \Delta(\mathrm{productivity})
+$$
 
 ### 4.4 General Evaluation of Supply-Side Policies
 
@@ -468,7 +502,9 @@ Politically motivated "picking winners" (subsidising declining industries for el
 Regulatory capture (industries influencing the regulators meant to control them), and implementation
 Failure (ambitious infrastructure projects that go over budget and under-deliver, such as HS2).
 
-$$\mathrm{Net benefit of supply-side policy} = \mathrm{Efficiency gain} - \mathrm{Cost} - \mathrm{Distributional loss} - \mathrm{Government failure risk}$$
+$$
+\mathrm{Net benefit of supply-side policy} = \mathrm{Efficiency gain} - \mathrm{Cost} - \mathrm{Distributional loss} - \mathrm{Government failure risk}
+$$
 
 :::tip
 [policy] may [benefit] because [reason]. On the other hand, [counter-argument] because [reason].
@@ -482,14 +518,20 @@ Therefore" structure is what examiners look for in Level 4 (AQA) or Band A (CIE)
 
 The key metric for evaluating supply-side policies is **productivity growth**:
 
-$$\mathrm{Labour productivity} = \frac{Y}{L} = \frac{\mathrm{Output}}{\mathrm{Hours worked}}$$
+$$
+\mathrm{Labour productivity} = \frac{Y}{L} = \frac{\mathrm{Output}}{\mathrm{Hours worked}}
+$$
 
-$$\mathrm{Total factor productivity (TFP)} = \frac{Y}{K^\alpha L^{1-\alpha}}$$
+$$
+\mathrm{Total factor productivity (TFP)} = \frac{Y}{K^\alpha L^{1-\alpha}}
+$$
 
 TFP captures the efficiency with which capital and labour are combined, it reflects technology,
 Institutions, and know-how. Long-run growth in living standards depends primarily on TFP growth.
 
-$$g_Y = g_A + \alpha g_K + (1-\alpha) g_L$$
+$$
+g_Y = g_A + \alpha g_K + (1-\alpha) g_L
+$$
 
 Where $g_A$ is TFP growth. In most advanced economies, $g_A$ accounts for 50–70% of long-run per
 Capita growth (Solow residual).
@@ -734,7 +776,9 @@ supply, and emigration).
 
 **Revenue-maximising tax rate:** $$\frac{dR}{dt} = 1000 - 16t = 0 \Rightarrow t^* = 62.5\%$$
 
-$$R(62.5\%) = 62.5(1000 - 8 \times 62.5) = 62.5 \times 500 = 31\,250$$
+$$
+R(62.5\%) = 62.5(1000 - 8 \times 62.5) = 62.5 \times 500 = 31\,250
+$$
 
 **Revenue at different tax rates:**
 
@@ -758,7 +802,9 @@ $$R(62.5\%) = 62.5(1000 - 8 \times 62.5) = 62.5 \times 500 = 31\,250$$
   the current rate. This means income tax cuts would reduce revenue.
 
 **Elasticity condition for the Laffer effect:**
-$$\frac{\Delta R}{R} = \frac{\Delta t}{t} + \frac{\Delta B}{B} = \frac{\Delta t}{t}(1 + \varepsilon_B)$$
+$$
+\frac{\Delta R}{R} = \frac{\Delta t}{t} + \frac{\Delta B}{B} = \frac{\Delta t}{t}(1 + \varepsilon_B)
+$$
 
 For a tax cut to increase revenue, we need $1 + \varepsilon_B < 0$I.e., $\varepsilon_B < -1$. The
 tax base must be elastic (absolute value greater than 1). Empirical evidence suggests income tax
@@ -768,7 +814,9 @@ elasticity in the UK is approximately -0.3 to -0.5 -- well below the threshold f
 
 **Example.** The Mincer earnings function estimates the return to education:
 
-$$\ln(w) = \alpha + \beta S + \gamma E - \delta E^2$$
+$$
+\ln(w) = \alpha + \beta S + \gamma E - \delta E^2
+$$
 
 Where $w$ is the wage, $S$ is years of schooling, and $E$ is years of work experience.
 
@@ -781,11 +829,17 @@ Where $w$ is the wage, $S$ is years of schooling, and $E$ is years of work exper
 **Calculation.** Compare a worker with A-levels ($S = 13$) and 10 years of experience to a worker
 with a degree ($S = 16$) and 7 years of experience (same age):
 
-$$\ln(w_A) = \alpha + 0.10(13) + 0.04(10) - 0.0006(100) = \alpha + 1.30 + 0.40 - 0.06 = \alpha + 1.64$$
+$$
+\ln(w_A) = \alpha + 0.10(13) + 0.04(10) - 0.0006(100) = \alpha + 1.30 + 0.40 - 0.06 = \alpha + 1.64
+$$
 
-$$\ln(w_D) = \alpha + 0.10(16) + 0.04(7) - 0.0006(49) = \alpha + 1.60 + 0.28 - 0.029 = \alpha + 1.851$$
+$$
+\ln(w_D) = \alpha + 0.10(16) + 0.04(7) - 0.0006(49) = \alpha + 1.60 + 0.28 - 0.029 = \alpha + 1.851
+$$
 
-$$\frac{w_D}{w_A} = e^{1.851 - 1.64} = e^{0.211} = 1.235$$
+$$
+\frac{w_D}{w_A} = e^{1.851 - 1.64} = e^{0.211} = 1.235
+$$
 
 The degree holder earns approximately 23.5% more than the A-level holder.
 
@@ -800,13 +854,21 @@ The degree holder earns approximately 23.5% more than the A-level holder.
 - Payback period: $111\,750 / 6\,580 = 17$ years (ignoring discounting).
 
 **Present value calculation (discount rate 5%):**
-$$PV = \sum_{t=4}^{43} \frac{6580}{1.05^t} = 6580 \times \frac{1 - 1.05^{-40}}{0.05 \times 1.05^3} = 6580 \times 15.046 = \text{GBP } 99\,003$$
+$$
+PV = \sum_{t=4}^{43} \frac{6580}{1.05^t} = 6580 \times \frac{1 - 1.05^{-40}}{0.05 \times 1.05^3} = 6580 \times 15.046 = \text{GBP } 99\,003
+$$
 
-$$NPV = 99\,003 - 111\,750 = -\text{GBP } 12\,747$$
+$$
+NPV = 99\,003 - 111\,750 = -\text{GBP } 12\,747
+$$
 
 At a 5% discount rate, the NPV is negative. At 3%:
-$$PV = 6580 \times \frac{1 - 1.03^{-40}}{0.03 \times 1.03^3} = 6580 \times 21.35 = \text{GBP } 140\,483$$
-$$NPV = 140\,483 - 111\,750 = +\text{GBP } 28\,733$$
+$$
+PV = 6580 \times \frac{1 - 1.03^{-40}}{0.03 \times 1.03^3} = 6580 \times 21.35 = \text{GBP } 140\,483
+$$
+$$
+NPV = 140\,483 - 111\,750 = +\text{GBP } 28\,733
+$$
 
 The investment is sensitive to the discount rate. Lower discount rates (reflecting social rather
 than private returns, including positive externalities of education) make the investment more
@@ -834,7 +896,9 @@ firms expect lower future prices, reducing wage demands. SRAS shifts right.
 
 New SRAS: $Y = 3P - 320$ (shift right by 120).
 
-$$1000 - 2P = 3P - 320 \Rightarrow 1320 = 5P \Rightarrow P = 264, Y = 472$$
+$$
+1000 - 2P = 3P - 320 \Rightarrow 1320 = 5P \Rightarrow P = 264, Y = 472
+$$
 
 Wait -- the price level has risen, not fallen. This is because the SRAS shift was insufficient. Let
 me reconsider.
@@ -868,7 +932,9 @@ advantage of supply-side policy: it simultaneously addresses inflation and growt
 generates annual revenue of GBP 25,000 for 5 years, after which it has zero scrap value.
 
 **Without tax:**
-$$NPV = \sum_{t=1}^{5} \frac{25\,000}{1.10^t} - 100\,000 = 25\,000 \times 3.791 - 100\,000 = 94\,775 - 100\,000 = -\text{GBP } 5\,225$$
+$$
+NPV = \sum_{t=1}^{5} \frac{25\,000}{1.10^t} - 100\,000 = 25\,000 \times 3.791 - 100\,000 = 94\,775 - 100\,000 = -\text{GBP } 5\,225
+$$
 
 The project is NOT profitable without tax. The firm does not invest.
 
@@ -888,11 +954,17 @@ Year 3: Allowance = $67\,240 \times 0.18 = 12\,103$. Tax saved = $12\,103 \times
 Year 4: Allowance = $55\,137 \times 0.18 = 9\,925$. Tax saved = $9\,925 \times 0.19 = 1\,886$. Year
 5: Allowance = $45\,212 \times 0.18 = 8\,138$. Tax saved = $8\,138 \times 0.19 = 1\,546$.
 
-$$NPV = \sum_{t=1}^{5} \frac{20\,250}{1.10^t} + \sum_{t=1}^{5} \frac{\text{Tax saved}_t}{1.10^t} - 100\,000$$
+$$
+NPV = \sum_{t=1}^{5} \frac{20\,250}{1.10^t} + \sum_{t=1}^{5} \frac{\text{Tax saved}_t}{1.10^t} - 100\,000
+$$
 
-$$= 20\,250 \times 3.791 + \frac{3\,420}{1.10} + \frac{2\,804}{1.10^2} + \frac{2\,300}{1.10^3} + \frac{1\,886}{1.10^4} + \frac{1\,546}{1.10^5} - 100\,000$$
+$$
+= 20\,250 \times 3.791 + \frac{3\,420}{1.10} + \frac{2\,804}{1.10^2} + \frac{2\,300}{1.10^3} + \frac{1\,886}{1.10^4} + \frac{1\,546}{1.10^5} - 100\,000
+$$
 
-$$= 76\,767 + 3\,109 + 2\,318 + 1\,728 + 1\,288 + 960 - 100\,000 = -\text{GBP } 13\,830$$
+$$
+= 76\,767 + 3\,109 + 2\,318 + 1\,728 + 1\,288 + 960 - 100\,000 = -\text{GBP } 13\,830
+$$
 
 Even with capital allowances, the project is not profitable under a 19% corporate tax. This
 illustrates that corporate tax creates a tax wedge on investment, reducing the capital stock below
@@ -906,7 +978,9 @@ lower corporate tax rates) can close this gap.
 The Solow model predicts that long-run growth is determined by exogenous technological progress. The
 AK model (Rebelo, 1991) assumes output is proportional to capital, with no diminishing returns:
 
-$$Y = AK$$
+$$
+Y = AK
+$$
 
 Where $A$ represents technology AND human capital. If education spending increases $A$:
 

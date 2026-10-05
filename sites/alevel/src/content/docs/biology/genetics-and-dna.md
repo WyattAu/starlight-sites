@@ -516,7 +516,9 @@ determination).
 The chi-squared test is used to determine whether observed results from a genetic cross fit the
 expected Mendelian ratio.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 **Worked Example.** A dihybrid cross is expected to give a 9:3:3:1 ratio. The observed results are:
 
@@ -1492,7 +1494,9 @@ DNA fingerprinting analyses highly variable regions of the genome:
 If each STR locus has a probability of a random match of approximately 0.1 (10%), and 10 loci are
 analysed:
 
-$$P(\text{random match at all 10 loci}) = 0.1^{10} = 1 \times 10^{-10} \text{ (1 in 10 billion)}$$
+$$
+P(\text{random match at all 10 loci}) = 0.1^{10} = 1 \times 10^{-10} \text{ (1 in 10 billion)}
+$$
 
 This is well below the world population ($\approx 8$ billion), so the match is essentially unique.
 
@@ -1741,7 +1745,9 @@ and the 5'-phosphate of the next:
 If a human cell has 6.4 Gbp (3.2 billion base pairs per haploid genome; 6.4 billion in diploid) and
 DNA polymerase adds ~50 nucleotides per second:
 
-$$\text{Time for leading strand} = \frac{3.2 \times 10^9}{50} = 64 \times 10^6\ \text{seconds} \approx 740\ \text{days}$$
+$$
+\text{Time for leading strand} = \frac{3.2 \times 10^9}{50} = 64 \times 10^6\ \text{seconds} \approx 740\ \text{days}
+$$
 
 In practice, replication takes hours because:
 

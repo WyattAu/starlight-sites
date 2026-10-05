@@ -116,7 +116,9 @@ F → ( E ) | id | num
 
 **Leftmost derivation:** Always expand the leftmost variable.
 
-$$E \Rightarrow E + T \Rightarrow T + T \Rightarrow F + T \Rightarrow \mathbf{id} + T \Rightarrow \mathbf{id} + T * F \Rightarrow \mathbf{id} + F * F \Rightarrow \mathbf{id} + \mathbf{id} * \mathbf{id}$$
+$$
+E \Rightarrow E + T \Rightarrow T + T \Rightarrow F + T \Rightarrow \mathbf{id} + T \Rightarrow \mathbf{id} + T * F \Rightarrow \mathbf{id} + F * F \Rightarrow \mathbf{id} + \mathbf{id} * \mathbf{id}
+$$
 
 **Rightmost derivation:** Always expand the rightmost variable (used in bottom-up parsing).
 
@@ -181,9 +183,13 @@ For each production A → α:
 
 **FIRST and FOLLOW sets:**
 
-$$\text{FIRST}(\alpha) = \{a : \alpha \Rightarrow^* a\beta\} \cup \{\epsilon\} \text{ if } \alpha \Rightarrow^* \epsilon$$
+$$
+\text{FIRST}(\alpha) = \{a : \alpha \Rightarrow^* a\beta\} \cup \{\epsilon\} \text{ if } \alpha \Rightarrow^* \epsilon
+$$
 
-$$\text{FOLLOW}(A) = \{a : S \Rightarrow^* \alpha Aa\beta\} \cup \{\$ \text{ if } S \Rightarrow^* \alpha A\}$$
+$$
+\text{FOLLOW}(A) = \{a : S \Rightarrow^* \alpha Aa\beta\} \cup \{\$ \text{ if } S \Rightarrow^* \alpha A\}
+$$
 
 **LL(1) condition:** No multiple entries in the parsing table.
 
@@ -576,8 +582,12 @@ for i = 0; i < 96; i += 4:
 
 **Reaching definitions:** Which definitions of a variable may reach each program point?
 
-$$\text{OUT}[B] = \text{gen}[B] \cup (\text{IN}[B] - \text{kill}[B])$$
-$$\text{IN}[B] = \bigcup_{P \in \text{pred}(B)} \text{OUT}[P]$$
+$$
+\text{OUT}[B] = \text{gen}[B] \cup (\text{IN}[B] - \text{kill}[B])
+$$
+$$
+\text{IN}[B] = \bigcup_{P \in \text{pred}(B)} \text{OUT}[P]
+$$
 
 Iterate until convergence (fixed point).
 

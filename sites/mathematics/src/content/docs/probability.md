@@ -68,16 +68,22 @@ $1 = 1 + P(\emptyset) + P(\emptyset) + \cdots$ So $P(\emptyset) = 0$.
 
 **Definition.** The **conditional probability** of $A$ given $B$ (with $P(B) > 0$) is
 
-$$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
+$$
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}
+$$
 
 **Theorem 1.2 (Law of Total Probability).** If $B_1, \ldots, B_n$ form a partition of $\Omega$ with
 $P(B_i) > 0$ for all $i$ Then
 
-$$P(A) = \sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)$$
+$$
+P(A) = \sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)
+$$
 
 **Theorem 1.3 (Bayes' Theorem).** Under the same conditions:
 
-$$P(B_j \mid A) = \frac{P(A \mid B_j)\, P(B_j)}{\sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)}$$
+$$
+P(B_j \mid A) = \frac{P(A \mid B_j)\, P(B_j)}{\sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)}
+$$
 
 **Definition.** Events $A$ and $B$ are **independent** if $P(A \cap B) = P(A)\,P(B)$.
 
@@ -88,7 +94,9 @@ _Proof._ $P(A \mid B) = P(A \cap B)/P(B) = P(A)P(B)/P(B) = P(A)$. $\blacksquare$
 **Definition.** Events $A_1, \ldots, A_n$ are **mutually independent** if for every subset
 $J \subseteq \{1, \ldots, n\}$:
 
-$$P\left(\bigcap_{j \in J} A_j\right) = \prod_{j \in J} P(A_j)$$
+$$
+P\left(\bigcap_{j \in J} A_j\right) = \prod_{j \in J} P(A_j)
+$$
 
 Pairwise independence does not imply mutual independence.
 
@@ -119,7 +127,9 @@ So $A$, $B$, $C$ are pairwise independent but not mutually independent. $\blacks
 **Definition.** A **random variable** is a measurable function $X : \Omega \to \mathbb{R}$. The
 **cumulative distribution function (CDF)** of $X$ is
 
-$$F_X(x) = P(X \leq x)$$
+$$
+F_X(x) = P(X \leq x)
+$$
 
 **Proposition 2.1 (Properties of the CDF).**
 
@@ -144,7 +154,9 @@ is $p_X(x) = P(X = x)$.
 
 **Definition (Expected Value).** For a discrete random variable:
 
-$$E[X] = \sum_{x} x\, p_X(x)$$
+$$
+E[X] = \sum_{x} x\, p_X(x)
+$$
 
 Provided the sum converges absolutely.
 
@@ -155,7 +167,9 @@ variables $X$, $Y$ and constants $a$, $b$.
 
 _Proof._ Direct computation from the definition of expected value. For the discrete case:
 
-$$E[aX + bY] = \sum_{x,y} (ax + by)\, p_{X,Y}(x,y) = a\sum_x x\, p_X(x) + b\sum_y y\, p_Y(y) = aE[X] + bE[Y]$$
+$$
+E[aX + bY] = \sum_{x,y} (ax + by)\, p_{X,Y}(x,y) = a\sum_x x\, p_X(x) + b\sum_y y\, p_Y(y) = aE[X] + bE[Y]
+$$
 
 $\blacksquare$
 
@@ -164,7 +178,9 @@ $\blacksquare$
 A random variable is **continuous** if its CDF is absolutely continuous, i.e., there exists a
 **probability density function (PDF)** $f_X$ such that
 
-$$F_X(x) = \int_{-\infty}^{x} f_X(t)\, dt$$
+$$
+F_X(x) = \int_{-\infty}^{x} f_X(t)\, dt
+$$
 
 **Key properties:**
 
@@ -208,7 +224,9 @@ $\blacksquare$
 
 **Theorem 2.4 (Moment Generating Function).** If $X \sim N(\mu, \sigma^2)$ Then
 
-$$M_X(t) = E[e^{tX}] = \exp\left(\mu t + \frac{\sigma^2 t^2}{2}\right)$$
+$$
+M_X(t) = E[e^{tX}] = \exp\left(\mu t + \frac{\sigma^2 t^2}{2}\right)
+$$
 
 _Proof._
 $M_X(t) = \int_{-\infty}^{\infty} e^{tx} \frac{1}{\sigma\sqrt{2\pi}} e^{-(x-\mu)^2/(2\sigma^2)}\, dx$.
@@ -264,7 +282,9 @@ $M \sim \mathrm{Exp}(\lambda)$. $\blacksquare$
 **Definition.** The **joint PDF** (for continuous random variables) is $f_{X,Y}(x, y) \geq 0$ such
 that
 
-$$F_{X,Y}(x, y) = \int_{-\infty}^{x}\int_{-\infty}^{y} f_{X,Y}(u, v)\, du\, dv$$
+$$
+F_{X,Y}(x, y) = \int_{-\infty}^{x}\int_{-\infty}^{y} f_{X,Y}(u, v)\, du\, dv
+$$
 
 **Definition.** The **marginal PDF** of $X$ is
 $f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x, y)\, dy$.
@@ -273,14 +293,18 @@ $f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x, y)\, dy$.
 
 **Definition.** The **covariance** of $X$ and $Y$ is
 
-$$\mathrm{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])] = E[XY] - E[X]E[Y]$$
+$$
+\mathrm{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])] = E[XY] - E[X]E[Y]
+$$
 
 **Proposition 2.6.** $\mathrm{Cov}(X, Y) = \mathrm{Cov}(Y, X)$ and
 $\mathrm{Cov}(aX + b, cY + d) = ac\,\mathrm{Cov}(X, Y)$.
 
 **Definition.** The **correlation coefficient** is
 
-$$\rho(X, Y) = \frac{\mathrm{Cov}(X, Y)}{\sqrt{\mathrm{Var}(X)\,\mathrm{Var}(Y)}}$$
+$$
+\rho(X, Y) = \frac{\mathrm{Cov}(X, Y)}{\sqrt{\mathrm{Var}(X)\,\mathrm{Var}(Y)}}
+$$
 
 **Theorem 2.7 (Cauchy--Schwarz for Random Variables).** $|\rho(X, Y)| \leq 1$With equality if and
 only if $Y = aX + b$ almost surely for some $a, b$.
@@ -312,18 +336,24 @@ But $Y$ is completely determined by $X$ So they are not independent. $\blacksqua
 **Theorem 4.1 (Weak Law of Large Numbers).** Let $X_1, X_2, \ldots$ be i.i.d. With $E[X_i] = \mu$
 and $\mathrm{Var}(X_i) = \sigma^2 < \infty$. Then for every $\varepsilon > 0$:
 
-$$\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum_{i=1}^{n} X_i - \mu\right| \geq \varepsilon\right) = 0$$
+$$
+\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum_{i=1}^{n} X_i - \mu\right| \geq \varepsilon\right) = 0
+$$
 
 _Proof._ Let $S_n = \frac{1}{n}\sum_{i=1}^{n} X_i$. Then $E[S_n] = \mu$ and
 $\mathrm{Var}(S_n) = \sigma^2/n$. By Chebyshev's inequality:
 
-$$P(|S_n - \mu| \geq \varepsilon) \leq \frac{\mathrm{Var}(S_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2} \to 0 \quad \mathrm{as\ } n \to \infty$$
+$$
+P(|S_n - \mu| \geq \varepsilon) \leq \frac{\mathrm{Var}(S_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2} \to 0 \quad \mathrm{as\ } n \to \infty
+$$
 
 $\blacksquare$
 
 **Theorem 4.2 (Strong Law of Large Numbers).** Under the same conditions:
 
-$$P\left(\lim_{n \to \infty} \frac{1}{n}\sum_{i=1}^{n} X_i = \mu\right) = 1$$
+$$
+P\left(\lim_{n \to \infty} \frac{1}{n}\sum_{i=1}^{n} X_i = \mu\right) = 1
+$$
 
 The sample mean converges to the population mean almost surely.
 
@@ -332,30 +362,40 @@ The sample mean converges to the population mean almost surely.
 **Theorem 4.3 (Central Limit Theorem).** Let $X_1, X_2, \ldots$ be i.i.d. With $E[X_i] = \mu$ and
 $\mathrm{Var}(X_i) = \sigma^2 \in (0, \infty)$. Then
 
-$$\frac{S_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} N(0, 1)$$
+$$
+\frac{S_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} N(0, 1)
+$$
 
 Where $S_n = \sum_{i=1}^{n} X_i$ and $\xrightarrow{d}$ denotes convergence in distribution.
 
 Equivalently, for large $n$:
 
-$$P\left(\frac{S_n - n\mu}{\sigma\sqrt{n}} \leq z\right) \approx \Phi(z)$$
+$$
+P\left(\frac{S_n - n\mu}{\sigma\sqrt{n}} \leq z\right) \approx \Phi(z)
+$$
 
 Where $\Phi$ is the CDF of the standard normal.
 
 _Proof (using characteristic functions)._ Let $\varphi_X(t) = E[e^{itX}]$ be the characteristic
 function of $X_1$. The characteristic function of $(S_n - n\mu)/(\sigma\sqrt{n})$ is:
 
-$$\varphi_n(t) = \left[\varphi_X\left(\frac{t}{\sigma\sqrt{n}}\right)\right]^n \cdot e^{-it\sqrt{n}\mu/\sigma}$$
+$$
+\varphi_n(t) = \left[\varphi_X\left(\frac{t}{\sigma\sqrt{n}}\right)\right]^n \cdot e^{-it\sqrt{n}\mu/\sigma}
+$$
 
 Expanding $\varphi_X$ around 0:
 $\varphi_X(s) = 1 + i\mu s - \frac{(\sigma^2 + \mu^2)s^2}{2} + o(s^2)$. Substituting
 $s = t/(\sigma\sqrt{n})$:
 
-$$\varphi_n(t) = \left[1 + \frac{i\mu t}{\sigma\sqrt{n}} - \frac{(\sigma^2 + \mu^2)t^2}{2\sigma^2 n} + o\left(\frac{1}{n}\right)\right]^n \cdot e^{-it\sqrt{n}\mu/\sigma}$$
+$$
+\varphi_n(t) = \left[1 + \frac{i\mu t}{\sigma\sqrt{n}} - \frac{(\sigma^2 + \mu^2)t^2}{2\sigma^2 n} + o\left(\frac{1}{n}\right)\right]^n \cdot e^{-it\sqrt{n}\mu/\sigma}
+$$
 
 Using $\lim_{n \to \infty}(1 + a_n/n)^n = e^{\lim a_n}$:
 
-$$\lim_{n \to \infty} \varphi_n(t) = \exp\left(\frac{i\mu t}{\sigma} - \frac{(\sigma^2 + \mu^2)t^2}{2\sigma^2}\right) \cdot \exp\left(-\frac{i\mu t}{\sigma}\right) = e^{-t^2/2}$$
+$$
+\lim_{n \to \infty} \varphi_n(t) = \exp\left(\frac{i\mu t}{\sigma} - \frac{(\sigma^2 + \mu^2)t^2}{2\sigma^2}\right) \cdot \exp\left(-\frac{i\mu t}{\sigma}\right) = e^{-t^2/2}
+$$
 
 This is the characteristic function of $N(0, 1)$. By Levy's continuity theorem, the convergence in
 distribution follows. $\blacksquare$
@@ -372,9 +412,13 @@ $\mathrm{Var}(X_i) = 35/12 \approx 2.917$.
 
 $S_{100} = \sum_{i=1}^{100} X_i$. By the CLT:
 
-$$\frac{S_{100} - 350}{\sqrt{100 \cdot 35/12}} \approx N(0, 1)$$
+$$
+\frac{S_{100} - 350}{\sqrt{100 \cdot 35/12}} \approx N(0, 1)
+$$
 
-$$P(S_{100} > 370) = P\left(Z > \frac{370 - 350}{\sqrt{291.7}}\right) \approx P(Z > 1.17) \approx 0.121$$
+$$
+P(S_{100} > 370) = P\left(Z > \frac{370 - 350}{\sqrt{291.7}}\right) \approx P(Z > 1.17) \approx 0.121
+$$
 
 $\blacksquare$
 
@@ -388,7 +432,9 @@ of a sample of 64 observations exceeds 52.
 
 By the CLT, $\bar{X} \approx N(50, 100/64) = N(50, 1.5625)$.
 
-$$P(\bar{X} > 52) = P\left(Z > \frac{52 - 50}{\sqrt{1.5625}}\right) = P(Z > 1.6) \approx 0.0548$$
+$$
+P(\bar{X} > 52) = P\left(Z > \frac{52 - 50}{\sqrt{1.5625}}\right) = P(Z > 1.6) \approx 0.0548
+$$
 
 $\blacksquare$
 
@@ -412,21 +458,29 @@ $\blacksquare$
 
 **Theorem 5.1 (CDF Method).** If $Y = g(X)$ and $g$ is monotone, then
 
-$$F_Y(y) = P(g(X) \leq y) = \begin{cases} F_X(g^{-1}(y)) & \text{if}  g \text{ is} increasing \\ 1 - F_X(g^{-1}(y)) & \text{if}  g \text{ is} decreasing \end{cases}$$
+$$
+F_Y(y) = P(g(X) \leq y) = \begin{cases} F_X(g^{-1}(y)) & \text{if}  g \text{ is} increasing \\ 1 - F_X(g^{-1}(y)) & \text{if}  g \text{ is} decreasing \end{cases}
+$$
 
 **Theorem 5.2 (Change of Variables).** If $Y = g(X)$ where $g$ is differentiable and strictly
 monotone, then
 
-$$f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|$$
+$$
+f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|
+$$
 
 <details>
 <summary>Worked Example: Distribution of $X^2$ where $X \sim N(0, 1)$</summary>
 
 _Solution._ Let $Y = X^2$ where $X \sim N(0, 1)$. For $y \geq 0$:
 
-$$F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1$$
+$$
+F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1
+$$
 
-$$f_Y(y) = \frac{d}{dy}[2\Phi(\sqrt{y}) - 1] = 2\phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{2\pi y}}\, e^{-y/2}$$
+$$
+f_Y(y) = \frac{d}{dy}[2\Phi(\sqrt{y}) - 1] = 2\phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{2\pi y}}\, e^{-y/2}
+$$
 
 This is the PDF of the $\chi^2(1)$ distribution. $\blacksquare$
 
@@ -437,7 +491,9 @@ This is the PDF of the $\chi^2(1)$ distribution. $\blacksquare$
 **Theorem 5.3.** If $X$ and $Y$ are independent continuous random variables, the PDF of $Z = X + Y$
 is
 
-$$f_Z(z) = (f_X * f_Y)(z) = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx$$
+$$
+f_Z(z) = (f_X * f_Y)(z) = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx
+$$
 
 _Proof._
 $F_Z(z) = P(X + Y \leq z) = \iint_{x+y \leq z} f_{X,Y}(x, y)\, dx\, dy = \int_{-\infty}^{\infty} f_X(x)\left[\int_{-\infty}^{z-x} f_Y(y)\, dy\right] dx = \int_{-\infty}^{\infty} f_X(x)\, F_Y(z - x)\, dx$.

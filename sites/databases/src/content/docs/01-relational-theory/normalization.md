@@ -76,7 +76,9 @@ Maintenance debt that compounds over time.
 
 Each normal form is a strict subset of the one below it:
 
-$$1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF$$
+$$
+1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF
+$$
 
 A relation in BCNF is automatically in 3NF, 2NF, and 1NF. The higher the normal form, the less
 Redundancy, but the more relations you need (and the more JOINs you must perform).
@@ -92,7 +94,9 @@ Discussing any normal form, you must understand FDs thoroughly.
 $Y \subseteq R$A functional dependency $X \rightarrow Y$ holds on $R$ if and only if, for every Pair
 of tuples $t_1$ and $t_2$ in any legal instance of $R$:
 
-$$t_1[X] = t_2[X] \implies t_1[Y] = t_2[Y]$$
+$$
+t_1[X] = t_2[X] \implies t_1[Y] = t_2[Y]
+$$
 
 In plain language: if two tuples agree on all attributes in $X$They must also agree on all
 Attributes in $Y$. $X$ is called the **determinant** and $Y$ is called the **dependent**.
@@ -602,7 +606,9 @@ A join dependency generalizes the concept of lossless-join decomposition to $n$ 
 Relation $R$ satisfies a join dependency $JD(R_1, R_2, \ldots, R_n)$ if and only if $R$ is equal to
 The natural join of its projections on $R_1, R_2, \ldots, R_n$:
 
-$$R = \pi_{R_1}(R) \bowtie \pi_{R_2}(R) \bowtie \ldots \bowtie \pi_{R_n}(R)$$
+$$
+R = \pi_{R_1}(R) \bowtie \pi_{R_2}(R) \bowtie \ldots \bowtie \pi_{R_n}(R)
+$$
 
 5NF violations are extremely rare. They arise in ternary (or higher-arity) relationships where the
 Constraint is inherently multi-way and cannot be decomposed into binary relationships without losing
@@ -842,7 +848,9 @@ Two properties to be valid.
 **Definition.** A decomposition of relation $R$ into $R_1$ and $R_2$ is a lossless-join
 Decomposition if and only if, for every legal instance of $R$:
 
-$$R = R_1 \bowtie R_2$$
+$$
+R = R_1 \bowtie R_2
+$$
 
 That is, joining the decomposed relations produces exactly the original relation, with no spurious
 Tuples and no missing tuples.
@@ -850,9 +858,13 @@ Tuples and no missing tuples.
 **Theorem.** A decomposition of $R$ into $R_1$ and $R_2$ is lossless if and only if at least one of
 The following holds:
 
-$$R_1 \cap R_2 \rightarrow R_1$$
+$$
+R_1 \cap R_2 \rightarrow R_1
+$$
 
-$$R_1 \cap R_2 \rightarrow R_2$$
+$$
+R_1 \cap R_2 \rightarrow R_2
+$$
 
 In words: the common attributes must form a superkey for at least one of the decomposed relations.
 
@@ -898,7 +910,9 @@ Only if, for every functional dependency $X \rightarrow Y$ in the closure of $F$
 Of FDs), $X \cup Y \subseteq R_i$ for some $i$. Equivalently, the union of the restrictions of $F$
 To each $R_i$ is logically equivalent to $F$:
 
-$$(F_{R_1} \cup F_{R_2} \cup \ldots \cup F_{R_n})^+ = F^+$$
+$$
+(F_{R_1} \cup F_{R_2} \cup \ldots \cup F_{R_n})^+ = F^+
+$$
 
 In plain language: every functional dependency from the original relation can be verified by
 Examining a single decomposed relation. You do not need to join the relations back together to check

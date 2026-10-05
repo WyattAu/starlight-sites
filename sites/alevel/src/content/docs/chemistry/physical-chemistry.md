@@ -72,7 +72,9 @@ Electrons fill shells in order: 1 → 2 → 3 → 4...
 
 **First ionisation energy:** energy to remove one mole of electrons from one mole of gaseous atoms:
 
-$$\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-$$
+$$
+\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-
+$$
 
 **Trends:**
 
@@ -93,7 +95,9 @@ $$\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-$$
 
 The **relative atomic mass** is calculated from the weighted average of isotopes:
 
-$$A_r = \frac{\sum(m_i \times a_i)}{\sum a_i}$$
+$$
+A_r = \frac{\sum(m_i \times a_i)}{\sum a_i}
+$$
 
 ---
 
@@ -170,7 +174,9 @@ bonds).
 
 ### Enthalpy Changes
 
-$$\Delta H = H_{\text{products}} - H_{\text{reactants}}$$
+$$
+\Delta H = H_{\text{products}} - H_{\text{reactants}}
+$$
 
 | Type                                                   | Definition                                                                    |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------- |
@@ -186,21 +192,27 @@ $$\Delta H = H_{\text{products}} - H_{\text{reactants}}$$
 The enthalpy change for a reaction is independent of the route taken, the answer varies by context
 only on initial and final states.
 
-$$\Delta H_{\text{reaction}} = \sum \Delta H_f^\ominus(\text{products}) - \sum \Delta H_f^\ominus(\text{reactants})$$
+$$
+\Delta H_{\text{reaction}} = \sum \Delta H_f^\ominus(\text{products}) - \sum \Delta H_f^\ominus(\text{reactants})
+$$
 
 ### Bond Enthalpies
 
 Mean bond enthalpy is the average energy required to break one mole of a particular bond in the
 gaseous state.
 
-$$\Delta H \approx \sum(\text{bonds broken}) - \sum(\text{bonds formed})$$
+$$
+\Delta H \approx \sum(\text{bonds broken}) - \sum(\text{bonds formed})
+$$
 
 > **Limitation:** Bond enthalpies are averaged values from many different compounds, so they are
 > less accurate than calorimetry-based $\Delta H$ values.
 
 ### Calorimetry
 
-$$q = mc\Delta T$$
+$$
+q = mc\Delta T
+$$
 
 - $q$ = heat energy (J)
 - $m$ = mass of solution (g)
@@ -211,7 +223,9 @@ $$q = mc\Delta T$$
 
 Used to calculate lattice enthalpies for ionic compounds. The cycle links:
 
-$$\Delta_f H^\ominus = \text{atomisation} + \text{ionisation} + \text{electron affinity} + \text{lattice enthalpy} + \text{other terms}$$
+$$
+\Delta_f H^\ominus = \text{atomisation} + \text{ionisation} + \text{electron affinity} + \text{lattice enthalpy} + \text{other terms}
+$$
 
 ---
 
@@ -230,7 +244,9 @@ $$\Delta_f H^\ominus = \text{atomisation} + \text{ionisation} + \text{electron a
 
 For a reaction $\mathrm{A} + \mathrm{B} \to \text{products}$, the rate equation is:
 
-$$\text{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n$$
+$$
+\text{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n
+$$
 
 - $k$ = rate constant (units depend on overall order)
 - $m$, $n$ = orders of reaction with respect to each reactant
@@ -250,9 +266,13 @@ the rate equation are in most cases involved in or before the rate-determining s
 
 ### Arrhenius Equation
 
-$$k = A e^{-E_a / RT}$$
+$$
+k = A e^{-E_a / RT}
+$$
 
-$$\ln k = \ln A - \frac{E_a}{RT}$$
+$$
+\ln k = \ln A - \frac{E_a}{RT}
+$$
 
 A plot of $\ln k$ vs $\frac{1}{T}$ gives a straight line:
 
@@ -294,11 +314,15 @@ If a system at equilibrium is subjected to a change, the equilibrium shifts to o
 
 **$K_c$** (concentration):
 
-$$K_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}$$
+$$
+K_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}
+$$
 
 **$K_p$** (partial pressure, for gas-phase reactions):
 
-$$K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathrm{B}})^b}$$
+$$
+K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathrm{B}})^b}
+$$
 
 - Equilibrium constants are **temperature-dependent** only
 - $K > 1$: products favoured at equilibrium
@@ -327,7 +351,9 @@ $$K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathr
 
 ### pH Scale
 
-$$\mathrm{pH} = -\log_{10}[\mathrm{H}^+]$$
+$$
+\mathrm{pH} = -\log_{10}[\mathrm{H}^+]
+$$
 
 - pH 0–6: acidic; pH 7: neutral; pH 8–14: alkaline
 - At 25 °C: $[\mathrm{H}^+][\mathrm{OH}^-] = 10^{-14}$
@@ -340,9 +366,13 @@ $$\mathrm{pH} = -\log_{10}[\mathrm{H}^+]$$
 
 ### Acid Dissociation Constant ($K_a$)
 
-$$K_a = \frac{[\mathrm{H}^+][\mathrm{A}^-]}{[\mathrm{HA}]}$$
+$$
+K_a = \frac{[\mathrm{H}^+][\mathrm{A}^-]}{[\mathrm{HA}]}
+$$
 
-$$\mathrm{p}K_a = -\log_{10} K_a$$
+$$
+\mathrm{p}K_a = -\log_{10} K_a
+$$
 
 For a weak monoprotic acid: $[\mathrm{H}^+] \approx \sqrt{K_a \times [\mathrm{HA}]}$
 
@@ -352,11 +382,15 @@ A **buffer** resists changes in pH when small amounts of acid or base are added.
 
 **Acidic buffer:** weak acid + its conjugate base (e.g. $\mathrm{CH_3COOH}$ + $\mathrm{CH_3COO}^-$)
 
-$$[\mathrm{H}^+] = K_a \times \frac{[\text{acid}]}{[\text{salt}]}$$
+$$
+[\mathrm{H}^+] = K_a \times \frac{[\text{acid}]}{[\text{salt}]}
+$$
 
 **Henderson-Hasselbalch equation:**
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log_{10}\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log_{10}\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}
+$$
 
 ### Indicators
 
@@ -402,7 +436,9 @@ Balance half-equations: atoms → charge → combine → cancel electrons.
 A voltaic cell converts chemical energy to electrical energy. The more negative $E^\ominus$ value is
 the oxidation half-reaction (anode); the more positive is the reduction half-reaction (cathode).
 
-$$E^\ominus_{\text{cell}} = E^\ominus_{\text{reduction}} - E^\ominus_{\text{oxidation}}$$
+$$
+E^\ominus_{\text{cell}} = E^\ominus_{\text{reduction}} - E^\ominus_{\text{oxidation}}
+$$
 
 If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard conditions.
 

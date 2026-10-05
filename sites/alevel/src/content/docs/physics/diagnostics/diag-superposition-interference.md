@@ -164,7 +164,9 @@ present.
 (a) For a closed pipe, the fundamental has a node at the closed end and an antinode at the open end.
 The effective length is $L = \lambda/4$.
 
-$$f_1 = \frac{v}{4L} \Rightarrow L = \frac{v}{4f_1} = \frac{340}{4 \times 220} = \frac{340}{880} = 0.386\,\text{m}$$
+$$
+f_1 = \frac{v}{4L} \Rightarrow L = \frac{v}{4f_1} = \frac{340}{4 \times 220} = \frac{340}{880} = 0.386\,\text{m}
+$$
 
 (b) For a closed pipe, only odd harmonics exist: $f_n = n \times f_1$ where $n = 1, 3, 5, \ldots$
 
@@ -208,7 +210,9 @@ $\Delta y = \lambda D/d = 600 \times 10^{-9} \times 1.20/(0.50 \times 10^{-3}) =
 (b) The glass slab adds optical path length: the light travels a distance $t$ through glass (optical
 path $nt$) instead of air (optical path $t$). The additional optical path is:
 
-$$\Delta = (n - 1)t = (1.50 - 1) \times 0.10 \times 10^{-3} = 0.050 \times 10^{-3} = 5.0 \times 10^{-5}\,\text{m}$$
+$$
+\Delta = (n - 1)t = (1.50 - 1) \times 0.10 \times 10^{-3} = 0.050 \times 10^{-3} = 5.0 \times 10^{-5}\,\text{m}
+$$
 
 This is equivalent to $5.0 \times 10^{-5}/(600 \times 10^{-9}) = 83.3$ wavelengths.
 
@@ -216,8 +220,12 @@ This is equivalent to $5.0 \times 10^{-5}/(600 \times 10^{-9}) = 83.3$ wavelengt
 now occurs where the path difference from the two slits equals the optical path difference
 introduced by the glass:
 
-$$\frac{d \times y_{\text{shift}}}{D} = (n-1)t$$
-$$y_{\text{shift}} = \frac{(n-1)tD}{d} = \frac{5.0 \times 10^{-5} \times 1.20}{0.50 \times 10^{-3}} = \frac{6.0 \times 10^{-5}}{5.0 \times 10^{-4}} = 0.120\,\text{m} = 120\,\text{mm}$$
+$$
+\frac{d \times y_{\text{shift}}}{D} = (n-1)t
+$$
+$$
+y_{\text{shift}} = \frac{(n-1)tD}{d} = \frac{5.0 \times 10^{-5} \times 1.20}{0.50 \times 10^{-3}} = \frac{6.0 \times 10^{-5}}{5.0 \times 10^{-4}} = 0.120\,\text{m} = 120\,\text{mm}
+$$
 
 The central maximum shifts by $120\,\text{mm}$ towards the slit with the glass (since the light
 through the glass is delayed, the central maximum moves to make the path through air longer to
@@ -310,11 +318,15 @@ The net phase difference from reflections is $\pi$.
 (b) For constructive interference (strong reflection), the path difference must be
 $(m + 1/2)\lambda_{\text{film}}$ (accounting for the $\pi$ phase change):
 
-$$2nt = (m + 1/2)\lambda$$
+$$
+2nt = (m + 1/2)\lambda
+$$
 
 For the film: $2 \times 1.45 \times 300 \times 10^{-9} = (m + 1/2)\lambda$
 
-$$870\,\text{nm} = (m + 1/2)\lambda$$
+$$
+870\,\text{nm} = (m + 1/2)\lambda
+$$
 
 For $m = 0$: $\lambda = 1740\,\text{nm}$ (infrared, not visible)
 
@@ -331,7 +343,9 @@ change already provides the half-wavelength)
 
 For minimum thickness ($m = 1$):
 
-$$t = \frac{\lambda}{2n} = \frac{550}{2 \times 1.45} = \frac{550}{2.90} = 190\,\text{nm}$$
+$$
+t = \frac{\lambda}{2n} = \frac{550}{2 \times 1.45} = \frac{550}{2.90} = 190\,\text{nm}
+$$
 
 $$
 

@@ -55,7 +55,9 @@ Thermodynamics describes the energy changes and spontaneity of reactions through
 
 Consider a reaction with $\Delta H = -92.2 \text{ kJ mol}^{-1}$ and $\Delta S = -198.7 \text{ J K}^{-1} \text{mol}^{-1}$ at $T = 298 \text{ K}$. Converting entropy to kJ: $\Delta S = -0.1987 \text{ kJ K}^{-1} \text{mol}^{-1}$. Applying the equation:
 
-$$\Delta G = -92.2 - (298)(-0.1987) = -92.2 + 59.2 = -33.0 \text{ kJ mol}^{-1}$$
+$$
+\Delta G = -92.2 - (298)(-0.1987) = -92.2 + 59.2 = -33.0 \text{ kJ mol}^{-1}
+$$
 
 Since $\Delta G < 0$, the reaction is spontaneous under these conditions.
 

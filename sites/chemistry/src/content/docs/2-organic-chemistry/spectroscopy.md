@@ -25,7 +25,9 @@ categories:
 
 **Theorem 1 (Beer-Lambert Law):**
 
-$$A = \varepsilon\,c\,l = \log_{10}\left(\frac{I_0}{I}\right)$$
+$$
+A = \varepsilon\,c\,l = \log_{10}\left(\frac{I_0}{I}\right)
+$$
 
 where $A$ is absorbance (unitless), $\varepsilon$ is the molar extinction coefficient (M$^{-1}$cm$^{-1}$),
 $c$ is concentration (M), and $l$ is path length (cm).
@@ -49,7 +51,9 @@ $c$ is concentration (M), and $l$ is path length (cm).
 
 For polyenes, the Woodward-Fieser rules estimate $\lambda_{\max}$:
 
-$$\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \text{substituent corrections}$$
+$$
+\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \text{substituent corrections}
+$$
 
 | Structural Feature        | $\lambda_{\max}$ Increment (nm) |
 | ------------------------ | ------------------------------ |
@@ -61,7 +65,9 @@ $$\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \
 **Example 1:** Predict $\lambda_{\max}$ for a diene with one exocyclic double bond and one alkyl
 substituent:
 
-$$\lambda_{\max} = 214 + 30 + 5 + 5 = 254 \text{ nm}$$
+$$
+\lambda_{\max} = 214 + 30 + 5 + 5 = 254 \text{ nm}
+$$
 
 $\blacksquare$
 
@@ -79,7 +85,9 @@ $\blacksquare$
 IR spectroscopy measures absorption of infrared radiation corresponding to vibrational transitions.
 The frequency of absorption depends on:
 
-$$\tilde{\nu} = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}}$$
+$$
+\tilde{\nu} = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}}
+$$
 
 where $k$ is the force constant (N/m) and $\mu = \frac{m_1 m_2}{m_1 + m_2}$ is the reduced mass.
 
@@ -131,12 +139,16 @@ align with or against an external magnetic field $B_0$.
 
 **Resonance condition:**
 
-$$\nu = \frac{\gamma}{2\pi}B_0$$
+$$
+\nu = \frac{\gamma}{2\pi}B_0
+$$
 
 where $\gamma$ is the gyromagnetic ratio. The frequency difference between two nuclei is expressed
 relative to a reference (TMS) as the **chemical shift**:
 
-$$\delta = \frac{\nu_{\text{sample}} - \nu_{\text{ref}}}{\nu_{\text{ref}}} \times 10^6 \text{ ppm}$$
+$$
+\delta = \frac{\nu_{\text{sample}} - \nu_{\text{ref}}}{\nu_{\text{ref}}} \times 10^6 \text{ ppm}
+$$
 
 ### 3.2 $^1\text{H}$ NMR: Chemical Shifts
 
@@ -257,7 +269,9 @@ $\beta$-cleavage. Common in carbonyl compounds.
 
 **Alpha cleavage:** Cleavage adjacent to a heteroatom or carbonyl:
 
-$$\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\text{O})\text{R}'$$
+$$
+\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\text{O})\text{R}'
+$$
 
 **Common fragmentation:**
 
@@ -276,8 +290,12 @@ $$\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\te
 **Definition 9 (High-Resolution MS):** Determines exact mass to 4–6 decimal places, distinguishing
 between formulas with the same nominal mass:
 
-$$\text{C}_6\text{H}_{12}\text{O}_6: \text{exact mass} = 180.0634$$
-$$\text{C}_8\text{H}_{12}\text{N}_2\text{O}_3: \text{exact mass} = 180.0899$$
+$$
+\text{C}_6\text{H}_{12}\text{O}_6: \text{exact mass} = 180.0634
+$$
+$$
+\text{C}_8\text{H}_{12}\text{N}_2\text{O}_3: \text{exact mass} = 180.0899
+$$
 
 ### 4.5 Nitrogen Rule
 
@@ -302,7 +320,9 @@ weight; a molecule with an even number (or zero) of nitrogen atoms has an even m
 
 **Theorem 6 (Degrees of Unsaturation):** For a formula C$_c$H$_h$N$_n$O$_o$X$_x$ (X = halogen):
 
-$$\text{DoU} = c + 1 - \frac{h - n + x}{2}$$
+$$
+\text{DoU} = c + 1 - \frac{h - n + x}{2}
+$$
 
 Each DoU corresponds to one double bond or ring.
 

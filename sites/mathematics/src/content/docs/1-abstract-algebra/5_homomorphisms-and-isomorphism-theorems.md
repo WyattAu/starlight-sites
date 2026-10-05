@@ -56,7 +56,9 @@ $\mathrm{im}(\phi) \leq H$ is straightforward. $\blacksquare$
 
 **Theorem 5.3 (First Isomorphism Theorem).** If $\phi : G \to H$ is a surjective homomorphism, then
 
-$$G / \ker(\phi) \cong H$$
+$$
+G / \ker(\phi) \cong H
+$$
 
 More generally (even if $\phi$ is not surjective), $G / \ker(\phi) \cong \mathrm{im}(\phi)$.
 
@@ -73,7 +75,9 @@ By construction, $\mathrm{im}(\overline{\phi}) = \mathrm{im}(\phi)$. $\blacksqua
 **Theorem 5.4 (Second Isomorphism Theorem).** If $N \trianglelefteq G$ and $H \leq G$ Then
 $HN \leq G$ $N \trianglelefteq HN$, $H \cap N \trianglelefteq H$ And
 
-$$H / (H \cap N) \cong HN / N$$
+$$
+H / (H \cap N) \cong HN / N
+$$
 
 _Proof._ Define $\phi : H \to HN/N$ by $\phi(h) = hN$. This is a homomorphism (since $N$ is normal).
 It is surjective: any element of $HN/N$ has the form $hnN = hN = \phi(h)$. Its kernel is
@@ -83,7 +87,9 @@ $H/(H \cap N) \cong HN/N$. $\blacksquare$
 **Theorem 5.5 (Third Isomorphism Theorem).** If $K \trianglelefteq N \trianglelefteq G$ with
 $K \trianglelefteq G$ Then
 
-$$(G/K)/(N/K) \cong G/N$$
+$$
+(G/K)/(N/K) \cong G/N
+$$
 
 _Proof._ Define $\phi : G/K \to G/N$ by $\phi(gK) = gN$. Well-defined: $gK = g'K$ implies
 $g^{-1}g' \in K \subseteq N$ So $gN = g'N$. Surjective and $\ker(\phi) = N/K$. Apply the first
@@ -139,7 +145,9 @@ projection). $\blacksquare$
 **Theorem 5.6 (Correspondence Theorem / Fourth Isomorphism Theorem).** Let $\phi : G \to H$ be a
 Surjective homomorphism with $K = \ker(\phi)$. Then there is an inclusion-preserving bijection
 
-$$\{\mathrm{subgroups\ of\ } G \mathrm{\ containing\ } K\} \longleftrightarrow \{\mathrm{subgroups\ of\ } H\}$$
+$$
+\{\mathrm{subgroups\ of\ } G \mathrm{\ containing\ } K\} \longleftrightarrow \{\mathrm{subgroups\ of\ } H\}
+$$
 
 Given by $U \mapsto \phi(U)$ with inverse $V \mapsto \phi^{-1}(V)$. This bijection satisfies:
 
@@ -228,7 +236,9 @@ normal subgroup associated with a homomorphism.
 **Definition.** Let $H$ and $K$ be groups and let $\phi : K \to \mathrm{Aut}(H)$ be a homomorphism.
 The **semidirect product** $H \rtimes_\phi K$ is the set $H \times K$ with the group operation
 
-$$(h_1, k_1)(h_2, k_2) = (h_1 \cdot \phi(k_1)(h_2), k_1 k_2)$$
+$$
+(h_1, k_1)(h_2, k_2) = (h_1 \cdot \phi(k_1)(h_2), k_1 k_2)
+$$
 
 When $\phi$ is the trivial homomorphism, this reduces to the direct product $H \times K$.
 

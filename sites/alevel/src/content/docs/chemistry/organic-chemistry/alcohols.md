@@ -560,7 +560,9 @@ forms.
 
 **Stage 1: Alcohol to aldehyde.**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} + \mathrm{H}_2\mathrm{O}
+$$
 
 Conditions: Distillation with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$. The aldehyde
 (butanal, b.p. $75^\circ\mathrm{C}$) distils off as it forms, before it can be further oxidised. The
@@ -568,7 +570,9 @@ orange dichromate turns green.
 
 **Stage 2: Aldehyde to carboxylic acid.**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} + \mathrm{H}_2\mathrm{O}
+$$
 
 Conditions: Reflux with excess acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$. The aldehyde
 remains in the reaction mixture and is further oxidised to butanoic acid.
@@ -590,15 +594,21 @@ $\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2\mathrm{OH} + \mathrm{H}^+ \to \mat
 
 Step 2: Loss of water forms a primary carbocation (unstable):
 
-$$\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2\mathrm{OH}_2^+ \to \mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2^+ + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2\mathrm{OH}_2^+ \to \mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2^+ + \mathrm{H}_2\mathrm{O}
+$$
 
 Step 3: Hydride shift from the adjacent carbon to form a more stable tertiary carbocation:
 
-$$\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2^+ \to \mathrm{(CH}_3)_2\overset{+}{\mathrm{C}}\mathrm{CH}_2\mathrm{CH}(\mathrm{CH}_3)_2$$
+$$
+\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2^+ \to \mathrm{(CH}_3)_2\overset{+}{\mathrm{C}}\mathrm{CH}_2\mathrm{CH}(\mathrm{CH}_3)_2
+$$
 
 Step 4: Loss of a proton gives the alkene:
 
-$$\mathrm{(CH}_3)_2\overset{+}{\mathrm{C}}\mathrm{CH}_2\mathrm{CH}(\mathrm{CH}_3)_2 \to \mathrm{(CH}_3)_2\mathrm{C}=\mathrm{CHCH}(\mathrm{CH}_3)_2 + \mathrm{H}^+$$
+$$
+\mathrm{(CH}_3)_2\overset{+}{\mathrm{C}}\mathrm{CH}_2\mathrm{CH}(\mathrm{CH}_3)_2 \to \mathrm{(CH}_3)_2\mathrm{C}=\mathrm{CHCH}(\mathrm{CH}_3)_2 + \mathrm{H}^+
+$$
 
 The product is 2,3,3-trimethylbut-1-ene. The carbocation rearrangement (hydride shift) occurs
 because the tertiary carbocation is much more stable than the primary carbocation.
@@ -610,11 +620,15 @@ because the tertiary carbocation is much more stable than the primary carbocatio
 The Williamson ether synthesis requires an alkoxide and a halogenoalkane. Phenol is acidic enough to
 be deprotonated by $\mathrm{NaOH}$:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{OH} + \mathrm{NaOH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{O}^-\mathrm{Na}^+ + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{OH} + \mathrm{NaOH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{O}^-\mathrm{Na}^+ + \mathrm{H}_2\mathrm{O}
+$$
 
 Then reaction with bromoethane (SN2):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{O}^- + \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} \to \mathrm{C}_6\mathrm{H}_5\mathrm{OCH}_2\mathrm{CH}_3 + \mathrm{Br}^-$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{O}^- + \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} \to \mathrm{C}_6\mathrm{H}_5\mathrm{OCH}_2\mathrm{CH}_3 + \mathrm{Br}^-
+$$
 
 **Important:** The halogenoalkane must be primary to avoid elimination. If we used 2-bromopropane,
 elimination would compete strongly with substitution.
@@ -626,13 +640,17 @@ elimination would compete strongly with substitution.
 $\mathrm{H}_2\mathrm{SO}_4$. After purification, $4.20\,\mathrm{g}$ of ethyl ethanoate
 ($M = 88.11\,\mathrm{g/mol}$) is obtained. Calculate the percentage yield.**
 
-$$n(\text{ethanoic acid}) = \frac{6.00}{60.05} = 0.0999\,\mathrm{mol}$$
+$$
+n(\text{ethanoic acid}) = \frac{6.00}{60.05} = 0.0999\,\mathrm{mol}
+$$
 
 Theoretical moles of ethyl ethanoate (1:1 ratio): $0.0999\,\mathrm{mol}$
 
 Theoretical mass: $0.0999 \times 88.11 = 8.80\,\mathrm{g}$
 
-$$\text{Percentage yield} = \frac{4.20}{8.80} \times 100 = 47.7\%$$
+$$
+\text{Percentage yield} = \frac{4.20}{8.80} \times 100 = 47.7\%
+$$
 
 The yield is less than 50% because esterification is a reversible equilibrium. Using excess ethanol
 or removing water would improve the yield.
@@ -643,28 +661,40 @@ or removing water would improve the yield.
 
 Step 1: Markovnikov addition of HBr:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3
+$$
 
 Step 2: Substitution with aqueous NaOH (SN2 on a secondary halide -- gives a mixture with some
 elimination, but substitution predominates in aqueous conditions):
 
-$$\mathrm{CH}_3\mathrm{CHBrCH}_3 + \mathrm{NaOH}(aq) \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CHBrCH}_3 + \mathrm{NaOH}(aq) \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3
+$$
 
 Step 3: Oxidation of propan-2-ol with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ under
 reflux:
 
-$$\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{COCH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{COCH}_3
+$$
 
 This gives propanone (a ketone), not propanoic acid. Ketones cannot be further oxidised by
 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$.
 
 **Corrected route:** Use anti-Markovnikov addition to get the primary alcohol:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
-$$\mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH}(aq) \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH}(aq) \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}
+$$
 
 This gives propanoic acid as required. The key was using the anti-Markovnikov addition to obtain the
 primary alcohol.
@@ -693,19 +723,25 @@ The cloudiness is caused by the formation of the insoluble chloroalkane.
 
 **Method 1:** Concentrated HBr (heat under reflux).
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{H}_2\mathrm{O}
+$$
 
 Product: Bromoethane. Mechanism: SN2 (protonated $-\mathrm{OH}_2^+$ is the leaving group).
 
 **Method 2:** $\mathrm{PBr}_3$ (room temperature).
 
-$$3\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{PBr}_3 \to 3\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{H}_3\mathrm{PO}_3$$
+$$
+3\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{PBr}_3 \to 3\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{H}_3\mathrm{PO}_3
+$$
 
 Product: Bromoethane. Mechanism: SN2 (bromide from $\mathrm{PBr}_3$ is the nucleophile).
 
 **Method 3:** $\mathrm{SOCl}_2$ (pyridine, room temperature).
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{SOCl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{SO}_2 + \mathrm{HCl}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{SOCl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{SO}_2 + \mathrm{HCl}
+$$
 
 Product: Chloroethane (not bromoethane). Mechanism: SN2. Advantage: gaseous byproducts escape,
 driving the reaction to completion.

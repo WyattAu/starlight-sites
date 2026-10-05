@@ -103,7 +103,9 @@ When describing a distribution, always address these three characteristics:
 
 The **mean** ($\bar{x}$) is the arithmetic average of all observations.
 
-$$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n} = \frac{x_1 + x_2 + \cdots + x_n}{n}$$
+$$
+\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n} = \frac{x_1 + x_2 + \cdots + x_n}{n}
+$$
 
 - Uses every data value in its calculation
 - Sensitive to outliers and skewness
@@ -129,7 +131,9 @@ The **median** is the middle value of an ordered data set.
 
 ### Range
 
-$$\text{Range} = \text{Maximum} - \text{Minimum}$$
+$$
+\text{Range} = \text{Maximum} - \text{Minimum}
+$$
 
 - Simplest measure of spread
 - Uses only two values, so it is sensitive to outliers
@@ -137,7 +141,9 @@ $$\text{Range} = \text{Maximum} - \text{Minimum}$$
 
 ### Interquartile Range (IQR)
 
-$$\text{IQR} = Q_3 - Q_1$$
+$$
+\text{IQR} = Q_3 - Q_1
+$$
 
 - Spread of the middle 50% of the data
 - Resistant to outliers
@@ -148,7 +154,9 @@ $$\text{IQR} = Q_3 - Q_1$$
 
 The **standard deviation** ($s$) measures the typical distance of each observation from the mean.
 
-$$s = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n - 1}}$$
+$$
+s = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n - 1}}
+$$
 
 The **variance** is $s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$.
 
@@ -179,7 +187,9 @@ For any normal distribution:
 
 ### Standardised Scores (z-scores)
 
-$$z = \frac{x - \mu}{\sigma}$$
+$$
+z = \frac{x - \mu}{\sigma}
+$$
 
 A z-score measures the number of standard deviations an observation is from the mean.
 

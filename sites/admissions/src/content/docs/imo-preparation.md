@@ -83,7 +83,9 @@ BMO level. Key features include:
 Euler's totient function $\phi(n)$ counts the integers in $\{1, 2, \ldots, n\}$ that are coprime to
 $n$. For prime $p$: $\phi(p) = p - 1$. For $n = p_1^{a_1} \cdots p_k^{a_k}$:
 
-$$\phi(n) = n \prod_{p \mid n}\left(1 - \frac{1}{p}\right)$$
+$$
+\phi(n) = n \prod_{p \mid n}\left(1 - \frac{1}{p}\right)
+$$
 
 **Euler's Theorem.** If $\gcd(a, n) = 1$ Then $a^{\phi(n)} \equiv 1 \pmod{n}$.
 
@@ -125,21 +127,29 @@ modulo $p$ is $(p-1)/2$.
 
 **Quadratic reciprocity.** For odd primes $p, q$:
 
-$$\left(\frac{p}{q}\right)\left(\frac{q}{p}\right) = (-1)^{\frac{p-1}{2} \cdot \frac{q-1}{2}}$$
+$$
+\left(\frac{p}{q}\right)\left(\frac{q}{p}\right) = (-1)^{\frac{p-1}{2} \cdot \frac{q-1}{2}}
+$$
 
 **Supplementary laws.**
 
-$$\left(\frac{-1}{p}\right) = (-1)^{(p-1)/2}, \quad \left(\frac{2}{p}\right) = (-1)^{(p^2-1)/8}$$
+$$
+\left(\frac{-1}{p}\right) = (-1)^{(p-1)/2}, \quad \left(\frac{2}{p}\right) = (-1)^{(p^2-1)/8}
+$$
 
 ### 2.4 Lifting the Exponent Lemma (LTE)
 
 For an odd prime $p$ and integers $a, b$ with $p \mid a - b$ and $p \nmid ab$:
 
-$$v_p(a^n - b^n) = v_p(a - b) + v_p(n)$$
+$$
+v_p(a^n - b^n) = v_p(a - b) + v_p(n)
+$$
 
 For $p = 2$ and $a, b$ both odd with $4 \mid a - b$:
 
-$$v_2(a^n - b^n) = v_2(a - b) + v_2(a + b) + v_2(n) - 1$$
+$$
+v_2(a^n - b^n) = v_2(a - b) + v_2(a + b) + v_2(n) - 1
+$$
 
 **Technique: LTE in Diophantine equations.** LTE is extremely useful for determining the exact power
 of A prime dividing an expression. Combined with size bounds, this often forces the only possible
@@ -245,7 +255,9 @@ The generating function $C(x) = \sum C_n x^n$ satisfies $C(x) = 1 + xC(x)^2$.
 
 **Cauchy-Schwarz (Engel form).** For positive reals and real weights:
 
-$$\frac{a_1^2}{b_1} + \frac{a_2^2}{b_2} + \cdots + \frac{a_n^2}{b_n} \geq \frac{(a_1 + a_2 + \cdots + a_n)^2}{b_1 + b_2 + \cdots + b_n}$$
+$$
+\frac{a_1^2}{b_1} + \frac{a_2^2}{b_2} + \cdots + \frac{a_n^2}{b_n} \geq \frac{(a_1 + a_2 + \cdots + a_n)^2}{b_1 + b_2 + \cdots + b_n}
+$$
 
 This form is particularly useful for olympiad problems because it directly produces the desired
 Bound without an intermediate step.
@@ -253,7 +265,9 @@ Bound without an intermediate step.
 **Holder's Inequality.** For $a_{ij} > 0$ and $p_1, p_2, \ldots, p_k > 1$ with
 $1/p_1 + \cdots + 1/p_k = 1$:
 
-$$\sum_{i=1}^{n}\prod_{j=1}^{k} a_{ij} \leq \prod_{j=1}^{k}\left(\sum_{i=1}^{n} a_{ij}^{p_j}\right)^{1/p_j}$$
+$$
+\sum_{i=1}^{n}\prod_{j=1}^{k} a_{ij} \leq \prod_{j=1}^{k}\left(\sum_{i=1}^{n} a_{ij}^{p_j}\right)^{1/p_j}
+$$
 
 **Muirhead's Inequality.** A symmetric sum $\sum_{\text{sym} x_1^{a_1} x_2^{a_2} \cdots x_n^{a_n}$
 Is denoted $[a_1, a_2, \ldots, a_n]$. We say $(a_1, \ldots, a_n)$ majorises $(b_1, \ldots, b_n)$ If
@@ -263,7 +277,9 @@ $x_1, \ldots, x_n > 0$ Then $[a] \geq [b]$.
 
 **Schur's Inequality.** For $r \geq 0$ and $x, y, z \geq 0$:
 
-$$x^r(x-y)(x-z) + y^r(y-z)(y-x) + z^r(z-x)(z-y) \geq 0$$
+$$
+x^r(x-y)(x-z) + y^r(y-z)(y-x) + z^r(z-x)(z-y) \geq 0
+$$
 
 For $r = 1$: $x^3 + y^3 + z^3 + 3xyz \geq x^2y + x^2z + y^2x + y^2z + z^2x + z^2y$.
 
@@ -272,7 +288,9 @@ For $r = 1$: $x^3 + y^3 + z^3 + 3xyz \geq x^2y + x^2z + y^2x + y^2z + z^2x + z^2
 **Resultant.** The resultant of polynomials $P$ and $Q$ is zero if and only if $P$ and $Q$ share a
 Common root. For $P(x) = a\prod(x - \alpha_i)$ and $Q(x) = b\prod(x - \beta_j)$:
 
-$$\text{Res(P, Q) = a^m b^n \prod_{i,j}(\alpha_i - \beta_j) = a^m \prod_i Q(\alpha_i) = b^n \prod_j P(\beta_j)$$
+$$
+\text{Res(P, Q) = a^m b^n \prod_{i,j}(\alpha_i - \beta_j) = a^m \prod_i Q(\alpha_i) = b^n \prod_j P(\beta_j)
+$$
 
 Where $m = \deg P$ and $n = \deg Q$.
 
@@ -356,7 +374,9 @@ transformation.
 
 **Cross-ratio.** For four collinear points $A, B, C, D$:
 
-$$(A, B; C, D) = \frac{AC \cdot BD}{AD \cdot BC}$$
+$$
+(A, B; C, D) = \frac{AC \cdot BD}{AD \cdot BC}
+$$
 
 This is invariant under projective transformations.
 
@@ -388,7 +408,9 @@ $\frac{p - q}{r - s} \in i\mathbb{R}$.
 **Technique: the foot of the perpendicular.** The foot of the perpendicular from $P$ to line $AB$
 (where $a, b$ are on the unit circle) is:
 
-$$f = \frac{a + b + p - ab\bar{p}}{2}$$
+$$
+f = \frac{a + b + p - ab\bar{p}}{2}
+$$
 
 ### 5.4 Barycentric Coordinates
 
@@ -405,7 +427,9 @@ Where $x + y + z \neq 0$ and $P$ is the weighted average $P = \frac{xA + yB + zC
 **Collinearity.** Three points $(x_1:y_1:z_1)$, $(x_2:y_2:z_2)$, $(x_3:y_3:z_3)$ are collinear if And
 only if:
 
-$$\begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{vmatrix} = 0$$
+$$
+\begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{vmatrix} = 0
+$$
 
 **Concyclicity.** A point $P = (x:y:z)$ lies on the circumcircle of $ABC$ if and only if
 $a^2yz + b^2zx + c^2xy = 0$.
@@ -480,14 +504,18 @@ $u$ and $v$ themselves give at most $n$ vertices).
 
 Summing over all edges:
 
-$$\sum_{uv \in E}(d_u + d_v) \leq mn$$
+$$
+\sum_{uv \in E}(d_u + d_v) \leq mn
+$$
 
 The left side equals $\sum_{v \in V} d_v^2$ (each vertex $v$ contributes $d_v$ to each of its $d_v$
 incident edges).
 
 By Cauchy-Schwarz:
 
-$$\sum_v d_v^2 \geq \frac{\left(\sum_v d_v\right)^2}{n} = \frac{(2m)^2}{n} = \frac{4m^2}{n}$$
+$$
+\sum_v d_v^2 \geq \frac{\left(\sum_v d_v\right)^2}{n} = \frac{(2m)^2}{n} = \frac{4m^2}{n}
+$$
 
 Combining: $4m^2/n \leq mn$ So $4m \leq n^2$Giving $m \leq n^2/4$.
 
@@ -515,17 +543,23 @@ edge. This is achieved by the complete bipartite graph $K_{\lfloor n/2 \rfloor, 
 
 **Solution.** By Titu's lemma (the Engel form of Cauchy-Schwarz):
 
-$$\sum \frac{a^3}{b^2 - bc + c^2} = \sum \frac{a^4}{a(b^2 - bc + c^2)} \geq \frac{(a^2 + b^2 + c^2)^2}{\sum a(b^2 - bc + c^2)}$$
+$$
+\sum \frac{a^3}{b^2 - bc + c^2} = \sum \frac{a^4}{a(b^2 - bc + c^2)} \geq \frac{(a^2 + b^2 + c^2)^2}{\sum a(b^2 - bc + c^2)}
+$$
 
 The denominator expands as:
 
-$$\sum a(b^2 - bc + c^2) = \sum_{\text{sym} a^2 b - 3abc$$
+$$
+\sum a(b^2 - bc + c^2) = \sum_{\text{sym} a^2 b - 3abc
+$$
 
 Where $\sum_{\text{sym} a^2 b = a^2b + a^2c + ab^2 + ac^2 + b^2c + bc^2$.
 
 We need to show:
 
-$$\frac{(a^2 + b^2 + c^2)^2}{\sum_{\text{sym} a^2 b - 3abc} \geq a + b + c$$
+$$
+\frac{(a^2 + b^2 + c^2)^2}{\sum_{\text{sym} a^2 b - 3abc} \geq a + b + c
+$$
 
 I.e., $(a^2 + b^2 + c^2)^2 \geq (a + b + c)\left(\sum_{\text{sym} a^2 b - 3abc\right)$.
 
@@ -540,15 +574,21 @@ We need $S^4 - 4S^2 Q + 4Q^2 \geq S^2 Q - 6SP$I.e., $S^4 - 5S^2 Q + 4Q^2 + 6SP \
 Rather than expanding in symmetric polynomials, we proceed directly. The inequality is equivalent
 to:
 
-$$\sum a^4 + 2\sum a^2 b^2 \geq \sum_{\text{sym} a^3 b - \sum a^2 bc$$
+$$
+\sum a^4 + 2\sum a^2 b^2 \geq \sum_{\text{sym} a^3 b - \sum a^2 bc
+$$
 
 Which simplifies to:
 
-$$\sum a^4 + \sum a^2 bc \geq \sum_{\text{sym} a^3 b$$
+$$
+\sum a^4 + \sum a^2 bc \geq \sum_{\text{sym} a^3 b
+$$
 
 But this is precisely Schur's inequality with $r = 1$:
 
-$$\sum a(a-b)(a-c) = \sum a^4 + abc(a+b+c) - \sum_{\text{sym} a^3 b \geq 0$$
+$$
+\sum a(a-b)(a-c) = \sum a^4 + abc(a+b+c) - \sum_{\text{sym} a^3 b \geq 0
+$$
 
 I.e., $\sum a^4 + \sum a^2 bc \geq \sum_{\text{sym} a^3 b$.
 
@@ -650,7 +690,9 @@ Matrix (the $i$-th row is $\mathbf{v}_i$). The system is $A\mathbf{s} = \mathbf{
 $A$ is symmetric with zero diagonal. The quadratic form $q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x}$
 Satisfies:
 
-$$q(\mathbf{x}) = \sum_{i,j} A_{ij} x_i x_j = 2\sum_{i < j} A_{ij} x_i x_j + \sum_i A_{ii} x_i^2 = 0$$
+$$
+q(\mathbf{x}) = \sum_{i,j} A_{ij} x_i x_j = 2\sum_{i < j} A_{ij} x_i x_j + \sum_i A_{ii} x_i^2 = 0
+$$
 
 Since $2 = 0$ in $\mathbb{F}_2$ and $A_{ii} = 0$. So $q(\mathbf{x}) = 0$ for all $\mathbf{x}$.
 
@@ -688,13 +730,17 @@ $\alpha + \beta + \gamma = 1$.
 **Proof.** Triangles $PBD$ and $ABD$ share the altitude from $B$ to $AD$ So
 $\frac{[PBD]}{[ABD]} = \frac{PD}{AD}$. Similarly, $\frac{[PCD]}{[ACD]} = \frac{PD}{AD}$. Therefore:
 
-$$\frac{PD}{AD} = \frac{[PBD]}{[ABD]} = \frac{[PCD]}{[ACD]} = \frac{[PBD] + [PCD]}{[ABD] + [ACD]} = \frac{[PBC]}{[ABC]}$$
+$$
+\frac{PD}{AD} = \frac{[PBD]}{[ABD]} = \frac{[PCD]}{[ACD]} = \frac{[PBD] + [PCD]}{[ABD] + [ACD]} = \frac{[PBC]}{[ABC]}
+$$
 
 Similarly, $\frac{PE}{BE} = \frac{[PCA]}{[ABC]}$ and $\frac{PF}{CF} = \frac{[PAB]}{[ABC]}$.
 
 Therefore:
 
-$$\frac{PD}{AD} + \frac{PE}{BE} + \frac{PF}{CF} = \frac{[PBC] + [PCA] + [PAB]}{[ABC]} = \frac{[ABC]}{[ABC]} = 1$$
+$$
+\frac{PD}{AD} + \frac{PE}{BE} + \frac{PF}{CF} = \frac{[PBC] + [PCA] + [PAB]}{[ABC]} = \frac{[ABC]}{[ABC]} = 1
+$$
 
 The last equality holds because $P$ lies in the interior of $\triangle ABC$ So the three triangles
 $PBC$, $PCA$, $PAB$ partition $\triangle ABC$ without overlap.

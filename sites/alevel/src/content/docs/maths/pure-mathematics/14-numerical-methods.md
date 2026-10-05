@@ -68,7 +68,9 @@ Sea level at some point, provided the ground is continuous (no teleporting).
 
 To solve $f(x) = 0$Rewrite as $x = g(x)$ and iterate:
 
-$$x_{n+1} = g(x_n)$$
+$$
+x_{n+1} = g(x_n)
+$$
 
 Starting from an initial guess $x_0$. If the sequence converges to $\alpha$ Then $f(\alpha) = 0$.
 
@@ -82,15 +84,21 @@ If $|g'(\alpha)| \gt 1$The iteration diverges.
 
 **Proof (linear convergence).** Near $\alpha$By Taylor's theorem:
 
-$$g(x_n) = g(\alpha) + g'(\alpha)(x_n - \alpha) + O((x_n-\alpha)^2)$$
+$$
+g(x_n) = g(\alpha) + g'(\alpha)(x_n - \alpha) + O((x_n-\alpha)^2)
+$$
 
 Since $g(\alpha) = \alpha$:
 
-$$x_{n+1} - \alpha = g'(\alpha)(x_n - \alpha) + O((x_n-\alpha)^2)$$
+$$
+x_{n+1} - \alpha = g'(\alpha)(x_n - \alpha) + O((x_n-\alpha)^2)
+$$
 
 For $x_n$ close to $\alpha$:
 
-$$|x_{n+1} - \alpha| \approx |g'(\alpha)| \cdot |x_n - \alpha|$$
+$$
+|x_{n+1} - \alpha| \approx |g'(\alpha)| \cdot |x_n - \alpha|
+$$
 
 If $|g'(\alpha)| \lt 1$ Then $|x_{n+1} - \alpha| \lt |x_n - \alpha|$: the error shrinks, so the
 Iteration converges. If $|g'(\alpha)| \gt 1$The error grows and the iteration diverges.
@@ -135,13 +143,19 @@ Taylor expansion vanishes.
 To solve $f(x) = 0$Start from $x_0$ and draw the tangent to $y = f(x)$ at $x_0$. The tangent line
 Is:
 
-$$y - f(x_n) = f'(x_n)(x - x_n)$$
+$$
+y - f(x_n) = f'(x_n)(x - x_n)
+$$
 
 Setting $y = 0$ (where the tangent crosses the $x$-axis):
 
-$$0 - f(x_n) = f'(x_n)(x_{n+1} - x_n)$$
+$$
+0 - f(x_n) = f'(x_n)(x_{n+1} - x_n)
+$$
 
-$$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
+$$
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+$$
 
 This is the **Newton-Raphson formula**.
 
@@ -153,15 +167,23 @@ $|x_{n+1} - \alpha| \leq C|x_n - \alpha|^2$.
 
 **Proof (sketch).** By Taylor's theorem about $x_n$:
 
-$$0 = f(\alpha) = f(x_n) + f'(x_n)(\alpha - x_n) + \frac{f''(\xi)}{2}(\alpha - x_n)^2$$
+$$
+0 = f(\alpha) = f(x_n) + f'(x_n)(\alpha - x_n) + \frac{f''(\xi)}{2}(\alpha - x_n)^2
+$$
 
 For some $\xi$ between $\alpha$ and $x_n$. Rearranging:
 
-$$\frac{f(x_n)}{f'(x_n)} = (\alpha - x_n) + \frac{f''(\xi)}{2f'(x_n)}(\alpha - x_n)^2$$
+$$
+\frac{f(x_n)}{f'(x_n)} = (\alpha - x_n) + \frac{f''(\xi)}{2f'(x_n)}(\alpha - x_n)^2
+$$
 
-$$x_n - \frac{f(x_n)}{f'(x_n)} = \alpha - \frac{f''(\xi)}{2f'(x_n)}(\alpha - x_n)^2$$
+$$
+x_n - \frac{f(x_n)}{f'(x_n)} = \alpha - \frac{f''(\xi)}{2f'(x_n)}(\alpha - x_n)^2
+$$
 
-$$x_{n+1} - \alpha = -\frac{f''(\xi)}{2f'(x_n)}(x_n - \alpha)^2$$
+$$
+x_{n+1} - \alpha = -\frac{f''(\xi)}{2f'(x_n)}(x_n - \alpha)^2
+$$
 
 Taking absolute values:
 $|x_{n+1} - \alpha| = \dfrac{|f''(\xi)|}{2|f'(x_n)|}|x_n - \alpha|^2 \leq C|x_n - \alpha|^2$.
@@ -210,25 +232,41 @@ With an inflection point, so that $f'(\alpha) = 0$Convergence degrades from quad
 **Theorem.** If $f(\alpha) = 0$$f'(\alpha) = 0$$f''(\alpha) \neq 0$ And $x_0$ is sufficiently Close
 to $\alpha$ Then Newton-Raphson converges linearly with rate $1/2$:
 
-$$|x_{n+1} - \alpha| \approx \frac{1}{2}|x_n - \alpha|$$
+$$
+|x_{n+1} - \alpha| \approx \frac{1}{2}|x_n - \alpha|
+$$
 
 **Proof sketch.** Expanding by Taylor's theorem to third order about $\alpha$:
 
-$$f(x_n) = \frac{f''(\alpha)}{2}(x_n - \alpha)^2 + \frac{f'''(\alpha)}{6}(x_n - \alpha)^3 + O((x_n - \alpha)^4)$$
+$$
+f(x_n) = \frac{f''(\alpha)}{2}(x_n - \alpha)^2 + \frac{f'''(\alpha)}{6}(x_n - \alpha)^3 + O((x_n - \alpha)^4)
+$$
 
-$$f'(x_n) = f''(\alpha)(x_n - \alpha) + \frac{f'''(\alpha)}{2}(x_n - \alpha)^2 + O((x_n - \alpha)^3)$$
+$$
+f'(x_n) = f''(\alpha)(x_n - \alpha) + \frac{f'''(\alpha)}{2}(x_n - \alpha)^2 + O((x_n - \alpha)^3)
+$$
 
 Therefore:
 
-$$x_{n+1} - \alpha = x_n - \alpha - \frac{f(x_n)}{f'(x_n)}$$
+$$
+x_{n+1} - \alpha = x_n - \alpha - \frac{f(x_n)}{f'(x_n)}
+$$
 
-$$= (x_n - \alpha) - \frac{\frac{f''(\alpha)}{2}(x_n - \alpha)^2 + O((x_n - \alpha)^3)}{f''(\alpha)(x_n - \alpha) + O((x_n - \alpha)^2)}$$
+$$
+= (x_n - \alpha) - \frac{\frac{f''(\alpha)}{2}(x_n - \alpha)^2 + O((x_n - \alpha)^3)}{f''(\alpha)(x_n - \alpha) + O((x_n - \alpha)^2)}
+$$
 
-$$= (x_n - \alpha) - \frac{\frac{f''(\alpha)}{2}(x_n - \alpha) + O((x_n - \alpha)^2)}{f''(\alpha) + O(x_n - \alpha)}$$
+$$
+= (x_n - \alpha) - \frac{\frac{f''(\alpha)}{2}(x_n - \alpha) + O((x_n - \alpha)^2)}{f''(\alpha) + O(x_n - \alpha)}
+$$
 
-$$= (x_n - \alpha) - \frac{1}{2}(x_n - \alpha)\left(1 + O(x_n - \alpha)\right)$$
+$$
+= (x_n - \alpha) - \frac{1}{2}(x_n - \alpha)\left(1 + O(x_n - \alpha)\right)
+$$
 
-$$= \frac{1}{2}(x_n - \alpha) + O((x_n - \alpha)^2)$$
+$$
+= \frac{1}{2}(x_n - \alpha) + O((x_n - \alpha)^2)
+$$
 
 So $|x_{n+1} - \alpha| \to \frac{1}{2}|x_n - \alpha|$ as $x_n \to \alpha$: the error is halved each
 Step (linear convergence with rate $1/2$), not squared. $\blacksquare$
@@ -236,7 +274,9 @@ Step (linear convergence with rate $1/2$), not squared. $\blacksquare$
 **Example.** $f(x) = (x-1)^3$ has a root at $x = 1$ where $f'(1) = 0$. The Newton-Raphson iteration
 Becomes:
 
-$$x_{n+1} = x_n - \frac{(x_n - 1)^3}{3(x_n - 1)^2} = x_n - \frac{x_n - 1}{3} = \frac{2x_n + 1}{3}$$
+$$
+x_{n+1} = x_n - \frac{(x_n - 1)^3}{3(x_n - 1)^2} = x_n - \frac{x_n - 1}{3} = \frac{2x_n + 1}{3}
+$$
 
 Starting at $x_0 = 4$: $x_1 = 3$$x_2 = 7/3 \approx 2.333$$x_3 = 17/9 \approx 1.889$
 $x_4 = 37/27 \approx 1.370$$x_5 = 75/81 \approx 1.210$...
@@ -251,7 +291,9 @@ Only adds a fixed fraction of a digit.
 
 ### 4.1 Formula
 
-$$\int_a^b f(x)\,dx \approx \frac{h}{2}\left[y_0 + 2y_1 + \cdots + 2y_{n-1} + y_n\right]$$
+$$
+\int_a^b f(x)\,dx \approx \frac{h}{2}\left[y_0 + 2y_1 + \cdots + 2y_{n-1} + y_n\right]
+$$
 
 Where $h = (b-a)/n$ and $y_i = f(a+ih)$.
 
@@ -259,45 +301,65 @@ Where $h = (b-a)/n$ and $y_i = f(a+ih)$.
 
 **Theorem.** The error in the composite trapezium rule is:
 
-$$E_T = -\frac{(b-a)^3}{12n^2}\,f''(\eta)$$
+$$
+E_T = -\frac{(b-a)^3}{12n^2}\,f''(\eta)
+$$
 
 For some $\eta \in (a, b)$Provided $f$ is twice continuously differentiable on $[a, b]$.
 
 **Derivation.** Consider a single strip $[x_i, x_{i+1}]$ of width $h$. The trapezium rule
 Approximates $\int_{x_i}^{x_{i+1}} f(x)\,dx$ by the area of a trapezium:
 
-$$\int_{x_i}^{x_{i+1}} f(x)\,dx \approx \frac{h}{2}\left[f(x_i) + f(x_{i+1})\right]$$
+$$
+\int_{x_i}^{x_{i+1}} f(x)\,dx \approx \frac{h}{2}\left[f(x_i) + f(x_{i+1})\right]
+$$
 
 To find the error, expand $f$ about the midpoint $m_i = x_i + h/2$. Let $\delta = h/2$:
 
-$$f(x_i) = f(m_i - \delta) = f(m_i) - \delta\, f'(m_i) + \frac{\delta^2}{2}f''(m_i) - \frac{\delta^3}{6}f'''(\zeta_1)$$
+$$
+f(x_i) = f(m_i - \delta) = f(m_i) - \delta\, f'(m_i) + \frac{\delta^2}{2}f''(m_i) - \frac{\delta^3}{6}f'''(\zeta_1)
+$$
 
-$$f(x_{i+1}) = f(m_i + \delta) = f(m_i) + \delta\, f'(m_i) + \frac{\delta^2}{2}f''(m_i) + \frac{\delta^3}{6}f'''(\zeta_2)$$
+$$
+f(x_{i+1}) = f(m_i + \delta) = f(m_i) + \delta\, f'(m_i) + \frac{\delta^2}{2}f''(m_i) + \frac{\delta^3}{6}f'''(\zeta_2)
+$$
 
 Adding these:
 
-$$f(x_i) + f(x_{i+1}) = 2f(m_i) + \delta^2 f''(m_i) + O(h^3)$$
+$$
+f(x_i) + f(x_{i+1}) = 2f(m_i) + \delta^2 f''(m_i) + O(h^3)
+$$
 
 The trapezium approximation for this strip is:
 
-$$\frac{h}{2}\left[f(x_i) + f(x_{i+1})\right] = h\,f(m_i) + \frac{h\,\delta^2}{2}f''(m_i) + O(h^4) = h\,f(m_i) + \frac{h^3}{8}f''(m_i) + O(h^4)$$
+$$
+\frac{h}{2}\left[f(x_i) + f(x_{i+1})\right] = h\,f(m_i) + \frac{h\,\delta^2}{2}f''(m_i) + O(h^4) = h\,f(m_i) + \frac{h^3}{8}f''(m_i) + O(h^4)
+$$
 
 The exact integral over this strip is (by Taylor expansion of the integral):
 
-$$\int_{x_i}^{x_{i+1}} f(x)\,dx = h\,f(m_i) + \frac{h^3}{24}f''(m_i) + O(h^5)$$
+$$
+\int_{x_i}^{x_{i+1}} f(x)\,dx = h\,f(m_i) + \frac{h^3}{24}f''(m_i) + O(h^5)
+$$
 
 Therefore the error on a single strip is:
 
-$$E_i = \frac{h}{2}\left[f(x_i) + f(x_{i+1})\right] - \int_{x_i}^{x_{i+1}} f(x)\,dx = \left(\frac{1}{8} - \frac{1}{24}\right)h^3 f''(m_i) + O(h^4) = \frac{h^3}{12}f''(m_i) + O(h^4)$$
+$$
+E_i = \frac{h}{2}\left[f(x_i) + f(x_{i+1})\right] - \int_{x_i}^{x_{i+1}} f(x)\,dx = \left(\frac{1}{8} - \frac{1}{24}\right)h^3 f''(m_i) + O(h^4) = \frac{h^3}{12}f''(m_i) + O(h^4)
+$$
 
 Summing over all $n$ strips and applying the Intermediate Value Theorem to $f''$ (which is
 Continuous), there exists $\eta \in (a, b)$ such that:
 
-$$E_T = \sum_{i=0}^{n-1} E_i = \frac{h^3}{12}\sum_{i=0}^{n-1} f''(m_i) + O(n \cdot h^4) = \frac{h^3}{12}\cdot\frac{n\, f''(\eta)}{1} + O(h^4 \cdot n)$$
+$$
+E_T = \sum_{i=0}^{n-1} E_i = \frac{h^3}{12}\sum_{i=0}^{n-1} f''(m_i) + O(n \cdot h^4) = \frac{h^3}{12}\cdot\frac{n\, f''(\eta)}{1} + O(h^4 \cdot n)
+$$
 
 Since $\sum_{i=0}^{n-1} f''(m_i) \cdot h \approx \int_a^b f''(x)\,dx$ and $nh = b - a$:
 
-$$E_T = -\frac{(b-a)^3}{12n^2}\,f''(\eta)$$
+$$
+E_T = -\frac{(b-a)^3}{12n^2}\,f''(\eta)
+$$
 
 (The negative sign arises from the exact derivation via the Euler-Maclaurin formula; the key point
 Is the $h^2$ scaling.) $\blacksquare$
@@ -309,12 +371,16 @@ Is the $h^2$ scaling.) $\blacksquare$
 
 From the error formula, since $|f''(\eta)| \leq M$ for all $\eta \in [a,b]$:
 
-$$|E_T| \leq \frac{(b-a)^3}{12n^2}\,M$$
+$$
+|E_T| \leq \frac{(b-a)^3}{12n^2}\,M
+$$
 
 This gives a **guaranteed** upper bound on the absolute error. If we require the error to satisfy
 $|E_T| \lt \varepsilon$We need:
 
-$$n \gt \sqrt{\frac{(b-a)^3\, M}{12\,\varepsilon}}$$
+$$
+n \gt \sqrt{\frac{(b-a)^3\, M}{12\,\varepsilon}}
+$$
 
 **Example.** Approximate $\displaystyle\int_0^1 e^{-x^2}\,dx$ with the trapezium rule. Here
 $f(x) = e^{-x^2}$ So $f'(x) = -2x\,e^{-x^2}$ and $f''(x) = (4x^2 - 2)e^{-x^2}$. On $[0,1]$:
@@ -322,7 +388,9 @@ $|f''(x)| \leq 2$ (achieved at $x = 0$Where $f''(0) = -2$).
 
 For error $\lt 10^{-4}$:
 
-$$n \gt \sqrt{\frac{1^3 \times 2}{12 \times 10^{-4}}} = \sqrt{\frac{2}{0.0012}} = \sqrt{1666.\bar{6}} \approx 40.8$$
+$$
+n \gt \sqrt{\frac{1^3 \times 2}{12 \times 10^{-4}}} = \sqrt{\frac{2}{0.0012}} = \sqrt{1666.\bar{6}} \approx 40.8
+$$
 
 So $n = 42$ strips suffice (rounding up to the nearest even number, which is convenient if one later
 Wishes to compare with Simpson's rule).
@@ -335,7 +403,9 @@ Wishes to compare with Simpson's rule).
 
 For an even number $n$ of strips:
 
-$$\int_a^b f(x)\,dx \approx \frac{h}{3}\left[y_0 + 4y_1 + 2y_2 + 4y_3 + 2y_4 + \cdots + 4y_{n-1} + y_n\right]$$
+$$
+\int_a^b f(x)\,dx \approx \frac{h}{3}\left[y_0 + 4y_1 + 2y_2 + 4y_3 + 2y_4 + \cdots + 4y_{n-1} + y_n\right]
+$$
 
 The coefficients follow the pattern: $1, 4, 2, 4, 2, \ldots, 4, 1$.
 
@@ -347,7 +417,9 @@ Integrating this quadratic gives the area $\dfrac{h}{3}(y_{2k} + 4y_{2k+1} + y_{
 
 ### 5.3 Error bound
 
-$$|E| \leq \frac{(b-a)^5}{180n^4}M$$
+$$
+|E| \leq \frac{(b-a)^5}{180n^4}M
+$$
 
 Where $|f^{(4)}(x)| \leq M$ on $[a,b]$.
 
@@ -500,8 +572,12 @@ Use Simpson's rule with 4 strips to approximate $\displaystyle\int_0^2 e^{-x^2}\
 <summary>Solution 5</summary>
 $h = 0.5$. Values: $y_0 = 1$$y_1 = e^{-0.25} \approx 0.7788$$y_2 = e^{-1} \approx 0.3679$$y_3 = e^{-2.25} \approx 0.1054$$y_4 = e^{-4} \approx 0.0183$.
 
-$$\int_0^2 e^{-x^2}\,dx \approx \frac{0.5}{3}[1 + 4(0.7788) + 2(0.3679) + 4(0.1054) + 0.0183]$$
-$$= \frac{0.5}{3}[1 + 3.1152 + 0.7358 + 0.4216 + 0.0183] = \frac{0.5}{3}(5.2909) \approx 0.8818$$
+$$
+\int_0^2 e^{-x^2}\,dx \approx \frac{0.5}{3}[1 + 4(0.7788) + 2(0.3679) + 4(0.1054) + 0.0183]
+$$
+$$
+= \frac{0.5}{3}[1 + 3.1152 + 0.7358 + 0.4216 + 0.0183] = \frac{0.5}{3}(5.2909) \approx 0.8818
+$$
 
 **If you get this wrong, revise:** [Simpson's Rule](#5-simpsons-rule), Section 5.
 
@@ -559,8 +635,12 @@ Use the trapezium rule with 6 strips to approximate $\displaystyle\int_1^4 \ln x
 <summary>Solution 8</summary>
 $h = 0.5$. Values: $\ln 1 = 0$$\ln 1.5 \approx 0.4055$$\ln 2 \approx 0.6931$$\ln 2.5 \approx 0.9163$$\ln 3 \approx 1.0986$$\ln 3.5 \approx 1.2528$$\ln 4 \approx 1.3863$.
 
-$$\mathrm{Approx} = \frac{0.5}{2}[0 + 2(0.4055+0.6931+0.9163+1.0986+1.2528) + 1.3863]$$
-$$= 0.25[0 + 2(4.3663) + 1.3863] = 0.25[8.7326 + 1.3863] = 0.25 \times 10.1189 \approx 2.5297$$
+$$
+\mathrm{Approx} = \frac{0.5}{2}[0 + 2(0.4055+0.6931+0.9163+1.0986+1.2528) + 1.3863]
+$$
+$$
+= 0.25[0 + 2(4.3663) + 1.3863] = 0.25[8.7326 + 1.3863] = 0.25 \times 10.1189 \approx 2.5297
+$$
 
 (Exact: $[x\ln x - x]_1^4 = 4\ln 4 - 4 + 1 = 8\ln 2 - 3 \approx 2.5452$.)
 
@@ -651,7 +731,9 @@ $[0,2]$ and hence bound the error in your approximation.
 $y_0 = f(0) = 1$$y_1 = f(0.5) = 1/1.25 = 0.8$$y_2 = f(1) = 0.5$
 $y_3 = f(1.5) = 1/3.25 \approx 0.3077$$y_4 = f(2) = 0.2$.
 
-$$\mathrm{Approx} = \frac{0.5}{2}[1 + 2(0.8 + 0.5 + 0.3077) + 0.2] = 0.25[1 + 2(1.6077) + 0.2] = 0.25 \times 4.4154 \approx 1.1039$$
+$$
+\mathrm{Approx} = \frac{0.5}{2}[1 + 2(0.8 + 0.5 + 0.3077) + 0.2] = 0.25[1 + 2(1.6077) + 0.2] = 0.25 \times 4.4154 \approx 1.1039
+$$
 
 (Exact value: $\arctan 2 \approx 1.1071$.)
 
@@ -750,7 +832,9 @@ Approximately $1/2$.
 <summary>Solution 15</summary>
 (a) $h = 0.5$. $y_0 = \sqrt{0} = 0$$y_1 = \sqrt{0.5} \approx 0.7071$$y_2 = \sqrt{1} = 1$.
 
-$$\mathrm{Approx} = \frac{0.5}{2}[0 + 2(0.7071) + 1] = 0.25 \times 2.4142 = 0.6036$$
+$$
+\mathrm{Approx} = \frac{0.5}{2}[0 + 2(0.7071) + 1] = 0.25 \times 2.4142 = 0.6036
+$$
 
 (b) Exact: $2/3 \approx 0.6667$. Actual error: $|0.6667 - 0.6036| = 0.0631$.
 

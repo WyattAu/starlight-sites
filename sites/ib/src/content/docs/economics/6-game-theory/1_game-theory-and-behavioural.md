@@ -61,7 +61,9 @@ A **Nash equilibrium** is a set of strategies where no player can improve their 
 Unilaterally changing their strategy, given the strategies chosen by all other players. Formally,
 For each player $i$ with strategy $s_i^*$:
 
-$$u_i(s_i^*, s_{-i}^*) \geq u_i(s_i, s_{-i}^*) \quad \forall \; s_i$$
+$$
+u_i(s_i^*, s_{-i}^*) \geq u_i(s_i, s_{-i}^*) \quad \forall \; s_i
+$$
 
 Where $u_i$ is player $i$'s payoff function and $s_{-i}^*$ represents the strategies of all other
 Players.
@@ -237,14 +239,18 @@ The **value function** in prospect theory is:
 
 Traditional models assume exponential discounting:
 
-$$U = \sum_{t=0}^{T} \delta^t \cdot u(c_t)$$
+$$
+U = \sum_{t=0}^{T} \delta^t \cdot u(c_t)
+$$
 
 Where $\delta$ is a constant discount factor.
 
 Behavioural evidence supports **hyperbolic discounting**, where the discount rate declines over
 Time:
 
-$$U = \sum_{t=0}^{T} \frac{1}{(1 + k \cdot t)^b} \cdot u(c_t)$$
+$$
+U = \sum_{t=0}^{T} \frac{1}{(1 + k \cdot t)^b} \cdot u(c_t)
+$$
 
 Where $k > 0$ governs impatience and $b > 0$ governs the degree of hyperbolic discounting.
 
@@ -357,8 +363,12 @@ Find the mixed strategy Nash equilibrium.
 Let Player 1 play Up with probability $p$ and Down with probability $1 - p$. For Player 2 to be
 Indifferent between Left and Right:
 
-$$\mathrm{Expected payoff (Left)} = p(-3) + (1-p)(2)$$
-$$\mathrm{Expected payoff (Right)} = p(1) + (1-p)(-4)$$
+$$
+\mathrm{Expected payoff (Left)} = p(-3) + (1-p)(2)
+$$
+$$
+\mathrm{Expected payoff (Right)} = p(1) + (1-p)(-4)
+$$
 
 Setting them equal:
 
@@ -368,7 +378,9 @@ Let Player 2 play Left with probability $q$ and Right with probability $1 - q$. 
 Indifferent:
 
 $$3q - 1(1-q) = -2q + 4(1-q)$$ $$3q - 1 + q = -2q + 4 - 4q$$ $$4q - 1 = -6q + 4$$ $$10q = 5$$
-$$q = 0.5$$
+$$
+q = 0.5
+$$
 
 The mixed strategy Nash equilibrium is: Player 1 plays Up with probability $0.6$ and Down with
 Probability $0.4$; Player 2 plays Left with probability $0.5$ and Right with probability $0.5$.
@@ -482,16 +494,22 @@ defects, switch to the Nash equilibrium (competitive) outcome forever.
 For collusion to be sustainable, the present value of cooperation must exceed the one-time gain From
 defection:
 
-$$\frac{\pi_{\text{collusion}}}{1 - \delta} \geq \pi_{\text{defection}} + \frac{\delta \cdot \pi_{\text{Nash}}}{1 - \delta}$$
+$$
+\frac{\pi_{\text{collusion}}}{1 - \delta} \geq \pi_{\text{defection}} + \frac{\delta \cdot \pi_{\text{Nash}}}{1 - \delta}
+$$
 
 Where $\delta$ is the discount factor ($0 < \delta < 1$). Rearranging:
 
-$$\delta \geq \frac{\pi_{\text{defection}} - \pi_{\text{collusion}}}{\pi_{\text{defection}} - \pi_{\text{Nash}}}$$
+$$
+\delta \geq \frac{\pi_{\text{defection}} - \pi_{\text{collusion}}}{\pi_{\text{defection}} - \pi_{\text{Nash}}}
+$$
 
 **Numerical example:** In the pricing game from earlier, $\pi_{\text{collusion}} = 8$ (High, High),
 $\pi_{\text{defection}} = 12$ (Low while other plays High), $\pi_{\text{Nash}} = 5$ (Low, Low).
 
-$$\delta \geq \frac{12 - 8}{12 - 5} = \frac{4}{7} = 0.571$$
+$$
+\delta \geq \frac{12 - 8}{12 - 5} = \frac{4}{7} = 0.571
+$$
 
 If $\delta \geq 0.571$ (i.e., firms value future profits at least 57.1% as much as current Profits),
 collusion is sustainable. This requires:
@@ -572,7 +590,9 @@ People value goods more highly because they own them. In experiments, participan
 demanded a higher price to sell it than participants who did not own the mug were willing To pay to
 buy it.
 
-$$\text{WTA (willingness to accept)} > \text{WTP (willingness to pay)}$$
+$$
+\text{WTA (willingness to accept)} > \text{WTP (willingness to pay)}
+$$
 
 This violates the standard Coase theorem prediction that transaction costs aside, initial Ownership
 should not affect the efficiency of outcomes.
@@ -723,7 +743,9 @@ both play Low. Nash equilibrium: (Low, Low) with payoffs (3, 3).
 Gain from defection: $10 - 6 = 4$ (one-time gain) Loss from punishment: $6 - 3 = 3$ per period
 forever
 
-$$\delta \geq \frac{4}{4 + 3} = \frac{4}{7} \approx 0.571$$
+$$
+\delta \geq \frac{4}{4 + 3} = \frac{4}{7} \approx 0.571
+$$
 
 The discount factor must be at least 0.571. If firms interact weekly and use a weekly discount Rate
 of $r$ Then $\delta = 1/(1 + r)$. For $\delta = 0.571$: $r \leq 0.751$ (75.1% per week), Which is
@@ -869,7 +891,9 @@ In common-value auctions, each bidder has an estimate of the item's true value, 
 are imperfect. The bidder with the highest estimate (the winner) is likely to have Overestimated the
 value, because the highest of several noisy estimates tends to exceed the True value.
 
-$$E[\text{True value} | \text{Winning} ] < \text{Winning bid}$$
+$$
+E[\text{True value} | \text{Winning} ] < \text{Winning bid}
+$$
 
 **Example:** bidding for an oil lease. Each firm commissions a geological survey estimating the
 Amount of oil. The firm with the highest estimate wins the auction but discovers that the Actual
@@ -1092,7 +1116,9 @@ response to the strategies of all other types, given their beliefs.
 
 Formally, for each player $i$ with type $\theta_i$:
 
-$$s_i^*(\theta_i) \in \arg\max_{s_i} \sum_{\theta_{-i}} p_i(\theta_{-i} | \theta_i) \cdot u_i(s_i, s_{-i}^*, \theta_i, \theta_{-i})$$
+$$
+s_i^*(\theta_i) \in \arg\max_{s_i} \sum_{\theta_{-i}} p_i(\theta_{-i} | \theta_i) \cdot u_i(s_i, s_{-i}^*, \theta_i, \theta_{-i})
+$$
 
 ### Worked Example: Entry Game with Incomplete Information
 
@@ -1140,7 +1166,9 @@ Accommodates.
 
 The entrant's expected payoff from entering:
 
-$$E[\text{payoff}] = 0.5 \times (-2) + 0.5 \times 3 = -1 + 1.5 = 0.5$$
+$$
+E[\text{payoff}] = 0.5 \times (-2) + 0.5 \times 3 = -1 + 1.5 = 0.5
+$$
 
 Since $0.5 > 0$ (the payoff from staying out), the entrant enters.
 
@@ -1163,14 +1191,18 @@ costs $c_L > c_H$.
 A **separating equilibrium** exists if the cost difference is large enough that high-productivity
 Workers obtain education while low-productivity workers do not:
 
-$$w_H - w_L > c_H \cdot e \quad \text{but} \quad w_H - w_L < c_L \cdot e$$
+$$
+w_H - w_L > c_H \cdot e \quad \text{but} \quad w_H - w_L < c_L \cdot e
+$$
 
 Where $e$ is the required education level, $w_H$ is the wage paid to educated workers, and $w_L$ is
 The wage paid to uneducated workers.
 
 The separating equilibrium condition is:
 
-$$\frac{w_H - w_L}{c_H} > e > \frac{w_H - w_L}{c_L}$$
+$$
+\frac{w_H - w_L}{c_H} > e > \frac{w_H - w_L}{c_L}
+$$
 
 This interval must be non-empty for a separating equilibrium to exist.
 
@@ -1190,11 +1222,15 @@ despite the higher premium. The menu of contracts **screens** the two types.
 
 The screening condition for the safe type to choose partial coverage:
 
-$$u_s(\text{partial}) > u_s(\text{full})$$
+$$
+u_s(\text{partial}) > u_s(\text{full})
+$$
 
 And for the reckless type to choose full coverage:
 
-$$u_r(\text{full}) > u_r(\text{partial})$$
+$$
+u_r(\text{full}) > u_r(\text{partial})
+$$
 
 Where $u$ denotes expected utility under each contract.
 
@@ -1247,13 +1283,19 @@ $b_H$.
 In a first-price auction with independent private values, the equilibrium bid for a player with Cost
 $c_i$ drawn from distribution $F$ on $[\underline{c}, \overline{c}]$ is:
 
-$$b_i(c_i) = \frac{1}{F(c_i)} \int_{\underline{c}}^{c_i} y \, f(y) \, dy$$
+$$
+b_i(c_i) = \frac{1}{F(c_i)} \int_{\underline{c}}^{c_i} y \, f(y) \, dy
+$$
 
 For Firm 1 with cost $c \sim \text{Uniform}[10, 20]$:
 
-$$b_1(c) = \frac{1}{(c - 10)/10} \int_{10}^{c} y \cdot \frac{1}{10} \, dy = \frac{10}{c - 10} \cdot \frac{y^2}{20} \bigg|_{10}^{c} = \frac{10}{c - 10} \cdot \frac{c^2 - 100}{20}$$
+$$
+b_1(c) = \frac{1}{(c - 10)/10} \int_{10}^{c} y \cdot \frac{1}{10} \, dy = \frac{10}{c - 10} \cdot \frac{y^2}{20} \bigg|_{10}^{c} = \frac{10}{c - 10} \cdot \frac{c^2 - 100}{20}
+$$
 
-$$b_1(c) = \frac{c^2 - 100}{2(c - 10)} = \frac{(c - 10)(c + 10)}{2(c - 10)} = \frac{c + 10}{2}$$
+$$
+b_1(c) = \frac{c^2 - 100}{2(c - 10)} = \frac{(c - 10)(c + 10)}{2(c - 10)} = \frac{c + 10}{2}
+$$
 
 When $c = 10$: $b_1 = (10 + 10)/2 = 10$ (bids at cost, earning zero surplus)
 
@@ -1275,7 +1317,9 @@ $b_1$ is uniform on $[10, 15]$.
 
 Firm 2 wins when its bid is below Firm 1's bid. Firm 2's expected profit when bidding $b_2$:
 
-$$E[\pi_2] = (b_2 - 15) \cdot P(b_2 < b_1) = (b_2 - 15) \cdot \frac{b_2 - 10}{5}$$
+$$
+E[\pi_2] = (b_2 - 15) \cdot P(b_2 < b_1) = (b_2 - 15) \cdot \frac{b_2 - 10}{5}
+$$
 
 Maximising: $\frac{d}{db_2}\left[(b_2 - 15)(b_2 - 10)\right] = 2b_2 - 25 = 0$
 
@@ -1361,7 +1405,9 @@ Probability weights: $\pi(0.70) = 0.70^{0.65} = 0.792$, $\pi(0.30) = 0.30^{0.65}
 
 Prospect theory value:
 
-$$V_A = \pi(0.70) \cdot v(10) + \pi(0.30) \cdot v(-20)$$
+$$
+V_A = \pi(0.70) \cdot v(10) + \pi(0.30) \cdot v(-20)
+$$
 
 Using the value function $v(x) = x^{0.88}$ for gains and $v(x) = -\lambda|x|^{0.88}$ for losses:
 
@@ -1420,9 +1466,13 @@ A, as both strategies would involve only gains.
 When the prisoner's dilemma is repeated a known, finite number of times, backward induction Predicts
 defection in every round:
 
-$$\text{Round } T: \text{defect (no future punishment possible)}$$
+$$
+\text{Round } T: \text{defect (no future punishment possible)}
+$$
 $$\text{Round } T-1: \text{defect (round } T \text{ will be defection regardless)}$$ $$\vdots$$
-$$\text{Round 1: defect}$$
+$$
+\text{Round 1: defect}
+$$
 
 The unique subgame perfect equilibrium is (Defect, Defect) in every round.
 
@@ -1437,7 +1487,9 @@ Defects once, defect forever.
 **Cooperation condition:** cooperation is sustainable if the present discounted value of Cooperating
 exceeds the one-time gain from defection:
 
-$$\frac{g}{1 - \delta} \geq t$$
+$$
+\frac{g}{1 - \delta} \geq t
+$$
 
 Where:
 
@@ -1447,7 +1499,9 @@ Where:
 
 Rearranging:
 
-$$\delta \geq \frac{t - g}{t - p}$$
+$$
+\delta \geq \frac{t - g}{t - p}
+$$
 
 Where $p$ is the punishment payoff (mutual defection).
 
@@ -1488,7 +1542,9 @@ competed against each other. The winner was **Tit-for-Tat** (Anatol Rapoport):
 1. **Oligopoly pricing:** firms in an oligopoly can sustain collusive (monopoly) pricing if the game
    is repeated and the discount factor is high enough. The condition is:
 
-$$\delta \geq \frac{1}{n}$$
+$$
+\delta \geq \frac{1}{n}
+$$
 
 Where $n$ is the number of firms. More firms make cooperation harder (the discount factor must Be
 higher). With 2 firms, $\delta \geq 0.5$; with 10 firms, $\delta \geq 0.9$.
@@ -1534,13 +1590,17 @@ $s_i = V + \epsilon_i$ Where $\epsilon_i$ is noise.
 
 The expected value of $V$ given that you won the auction is:
 
-$$E[V | s_i \text{ is the highest signal}] < s_i$$
+$$
+E[V | s_i \text{ is the highest signal}] < s_i
+$$
 
 Because winning the auction provides information that your signal was likely the most optimistic.
 
 **Mitigation:** rational bidders should shade their bids below their signal:
 
-$$\text{Optimal bid} = s_i - \frac{\sigma^2}{s_i}$$
+$$
+\text{Optimal bid} = s_i - \frac{\sigma^2}{s_i}
+$$
 
 Where $\sigma^2$ is the variance of the signal noise. The more uncertain the value, the more Bidders
 should shade their bids.
@@ -1630,7 +1690,9 @@ revenue is the same as the first-price auction. [5 marks]
 (a) In a first-price sealed-bid auction with two bidders and valuations uniformly distributed on
 $[0, V]$The symmetric equilibrium bidding strategy is:
 
-$$b(v) = \frac{n-1}{n} \cdot v = \frac{1}{2} v$$
+$$
+b(v) = \frac{n-1}{n} \cdot v = \frac{1}{2} v
+$$
 
 Each bidder shades their bid to half their valuation.
 
@@ -1748,7 +1810,9 @@ In evolutionary game theory, strategies are not chosen rationally but spread thr
 Based on their relative fitness (payoff). The **replicator equation** describes how the Frequency of
 a strategy changes over time:
 
-$$\frac{dx_i}{dt} = x_i \left[ f_i(\mathbf{x}) - \bar{f}(\mathbf{x}) \right]$$
+$$
+\frac{dx_i}{dt} = x_i \left[ f_i(\mathbf{x}) - \bar{f}(\mathbf{x}) \right]
+$$
 
 Where:
 
@@ -1763,11 +1827,15 @@ Strategies with above-average fitness grow; those with below-average fitness shr
 A strategy $s^*$ is an **evolutionary stable strategy** if, when adopted by the entire population,
 No mutant strategy can invade:
 
-$$u(s^*, s^*) \geq u(s, s^*) \text{ for all } s$$
+$$
+u(s^*, s^*) \geq u(s, s^*) \text{ for all } s
+$$
 
 And for any neutral mutant ($u(s, s^*) = u(s^*, s^*)$):
 
-$$u(s^*, s) > u(s, s)$$
+$$
+u(s^*, s) > u(s, s)
+$$
 
 **Application to the Prisoner's Dilemma:**
 
@@ -1788,7 +1856,9 @@ Average fitness: $\bar{f} = x(3x) + (1-x)(1+4x) = 3x^2 + 1 + 4x - x - 4x^2 = 1 +
 
 Replicator dynamics:
 
-$$\frac{dx}{dt} = x(3x - 1 - 3x + x^2) = x(x^2 - 1) = x(x-1)(x+1)$$
+$$
+\frac{dx}{dt} = x(3x - 1 - 3x + x^2) = x(x^2 - 1) = x(x-1)(x+1)
+$$
 
 Since $x \in [0, 1]$, $\frac{dx}{dt} < 0$ for all $x \in (0, 1)$. Cooperators always decline.
 
@@ -1985,7 +2055,9 @@ Future, leading to time-inconsistent preferences.
 
 **Quasi-hyperbolic discounting (Laibson, 1997):**
 
-$$U = u(c_t) + \beta \sum_{s=1}^{T} \delta^s u(c_{t+s})$$
+$$
+U = u(c_t) + \beta \sum_{s=1}^{T} \delta^s u(c_{t+s})
+$$
 
 Where $\beta < 1$ captures present bias ( $\beta \approx 0.7$) and $\delta$ is the Standard
 exponential discount factor.
@@ -2142,7 +2214,9 @@ mechanisms (enforcement, penalties, reputation).
 The **Nash bargaining solution** maximises the product of the players' gains over their Disagreement
 (threat) points:
 
-$$\max_{(u_1, u_2)} (u_1 - d_1)(u_2 - d_2)$$
+$$
+\max_{(u_1, u_2)} (u_1 - d_1)(u_2 - d_2)
+$$
 
 Subject to $u_1 \geq d_1$, $u_2 \geq d_2$ And $(u_1, u_2)$ being feasible.
 
@@ -2397,7 +2471,9 @@ Behavioural economics and experimental evidence demonstrate that people have **s
 
 Individuals maximise:
 
-$$U_i = x_i - \alpha_i \frac{1}{n-1} \sum_{j \neq i} \max(x_j - x_i, 0) - \beta_i \frac{1}{n-1} \sum_{j \neq i} \max(x_i - x_j, 0)$$
+$$
+U_i = x_i - \alpha_i \frac{1}{n-1} \sum_{j \neq i} \max(x_j - x_i, 0) - \beta_i \frac{1}{n-1} \sum_{j \neq i} \max(x_i - x_j, 0)
+$$
 
 Where:
 

@@ -996,21 +996,35 @@ ethanoic acid ($K_a = 1.74 \times 10^{-5}$).
 
 Let $x = [\mathrm{H}^+] = [\mathrm{CH}_3\mathrm{COO}^-]$.
 
-$$K_a = \frac{x^2}{1.00 \times 10^{-4} - x} = 1.74 \times 10^{-5}$$
+$$
+K_a = \frac{x^2}{1.00 \times 10^{-4} - x} = 1.74 \times 10^{-5}
+$$
 
-$$x^2 = 1.74 \times 10^{-5}(1.00 \times 10^{-4} - x) = 1.74 \times 10^{-9} - 1.74 \times 10^{-5}x$$
+$$
+x^2 = 1.74 \times 10^{-5}(1.00 \times 10^{-4} - x) = 1.74 \times 10^{-9} - 1.74 \times 10^{-5}x
+$$
 
-$$x^2 + 1.74 \times 10^{-5}x - 1.74 \times 10^{-9} = 0$$
+$$
+x^2 + 1.74 \times 10^{-5}x - 1.74 \times 10^{-9} = 0
+$$
 
 Using the quadratic formula:
 
-$$x = \frac{-1.74 \times 10^{-5} + \sqrt{(1.74 \times 10^{-5})^2 + 4(1.74 \times 10^{-9})}}{2}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + \sqrt{(1.74 \times 10^{-5})^2 + 4(1.74 \times 10^{-9})}}{2}
+$$
 
-$$x = \frac{-1.74 \times 10^{-5} + \sqrt{3.03 \times 10^{-10} + 6.96 \times 10^{-9}}}{2} = \frac{-1.74 \times 10^{-5} + \sqrt{7.26 \times 10^{-9}}}{2}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + \sqrt{3.03 \times 10^{-10} + 6.96 \times 10^{-9}}}{2} = \frac{-1.74 \times 10^{-5} + \sqrt{7.26 \times 10^{-9}}}{2}
+$$
 
-$$x = \frac{-1.74 \times 10^{-5} + 8.52 \times 10^{-5}}{2} = \frac{6.78 \times 10^{-5}}{2} = 3.39 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + 8.52 \times 10^{-5}}{2} = \frac{6.78 \times 10^{-5}}{2} = 3.39 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}
+$$
 
-$$\mathrm{pH} = -\log(3.39 \times 10^{-5}) = 4.47$$
+$$
+\mathrm{pH} = -\log(3.39 \times 10^{-5}) = 4.47
+$$
 
 Check: $\frac{3.39 \times 10^{-5}}{1.00 \times 10^{-4}} \times 100 = 33.9\%$
 dissociation. Since this exceeds 5%, the approximation was not valid and the quadratic solution was
@@ -1025,25 +1039,41 @@ $[\mathrm{HA}] = [\mathrm{A}^-]$). The useful range is $\mathrm{p}K_a \pm 1$.
 $0.200\,\mathrm{mol\,dm^{-3}}$ ethanoic acid ($\mathrm{p}K_a = 4.76$) to produce a buffer with pH
 $= 5.00$?
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}
+$$
 
-$$5.00 = 4.76 + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}$$
+$$
+5.00 = 4.76 + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}
+$$
 
-$$\log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 0.24$$
+$$
+\log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 0.24
+$$
 
-$$\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 10^{0.24} = 1.74$$
+$$
+\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 10^{0.24} = 1.74
+$$
 
 Initial moles of ethanoic acid: $n = 0.200 \times 0.500 = 0.100\,\mathrm{mol}$
 
 Let $x$ = moles of $\mathrm{NaOH}$ added. Then $[\mathrm{A}^-] = x$ and $[\mathrm{HA}] = 0.100 - x$.
 
-$$\frac{x}{0.100 - x} = 1.74$$
+$$
+\frac{x}{0.100 - x} = 1.74
+$$
 
-$$x = 1.74(0.100 - x) = 0.174 - 1.74x$$
+$$
+x = 1.74(0.100 - x) = 0.174 - 1.74x
+$$
 
-$$2.74x = 0.174$$
+$$
+2.74x = 0.174
+$$
 
-$$x = 0.0635\,\mathrm{mol}$$
+$$
+x = 0.0635\,\mathrm{mol}
+$$
 
 So $0.0635\,\mathrm{mol}$ of $\mathrm{NaOH}$ must be added. This converts $0.0635\,\mathrm{mol}$ of
 ethanoic acid to sodium ethanoate, leaving $0.0365\,\mathrm{mol}$ of ethanoic acid unreacted.
@@ -1084,17 +1114,29 @@ $[\mathrm{CH}_3\mathrm{COO}^-] = \frac{2.50 \times 10^{-3}}{0.0500} = 0.0500\,\m
 
 The ethanoate ion hydrolyses:
 
-$$\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-$$
+$$
+\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-
+$$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.00 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.00 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}
+$$
 
-$$K_b = \frac{[\mathrm{OH}^-]^2}{[\mathrm{CH}_3\mathrm{COO}^-]} = \frac{x^2}{0.0500} = 5.75 \times 10^{-10}$$
+$$
+K_b = \frac{[\mathrm{OH}^-]^2}{[\mathrm{CH}_3\mathrm{COO}^-]} = \frac{x^2}{0.0500} = 5.75 \times 10^{-10}
+$$
 
-$$x = \sqrt{5.75 \times 10^{-10} \times 0.0500} = 5.37 \times 10^{-6}\,\mathrm{mol\,dm^{-3}}$$
+$$
+x = \sqrt{5.75 \times 10^{-10} \times 0.0500} = 5.37 \times 10^{-6}\,\mathrm{mol\,dm^{-3}}
+$$
 
-$$\mathrm{pOH} = -\log(5.37 \times 10^{-6}) = 5.27$$
+$$
+\mathrm{pOH} = -\log(5.37 \times 10^{-6}) = 5.27
+$$
 
-$$\mathrm{pH} = 14 - 5.27 = 8.73$$
+$$
+\mathrm{pH} = 14 - 5.27 = 8.73
+$$
 
 ### Choosing an Indicator
 
@@ -1124,18 +1166,26 @@ $[\mathrm{HSO}_4^-] = 0.050\,\mathrm{mol\,dm^{-3}$.
 
 For the second dissociation: let $x$ be the additional $[\mathrm{H}^+]$ from $\mathrm{HSO}_4^-$.
 
-$$K_{a2} = \frac{(0.050 + x)(x)}{0.050 - x} = 1.02 \times 10^{-2}$$
+$$
+K_{a2} = \frac{(0.050 + x)(x)}{0.050 - x} = 1.02 \times 10^{-2}
+$$
 
 Approximation: $0.050 + x \approx 0.050$, $0.050 - x \approx 0.050$:
 
-$$x = 1.02 \times 10^{-2} = 0.0102\,\mathrm{mol\,dm^{-3}}$$
+$$
+x = 1.02 \times 10^{-2} = 0.0102\,\mathrm{mol\,dm^{-3}}
+$$
 
 Check: $\frac{0.0102}{0.050} \times 100 = 20.4\%$ -- the approximation is marginal. For greater
 accuracy, use the quadratic formula. However, for A-Level purposes:
 
-$$[\mathrm{H}^+]_\text{total} \approx 0.050 + 0.010 = 0.060\,\mathrm{mol\,dm^{-3}}$$
+$$
+[\mathrm{H}^+]_\text{total} \approx 0.050 + 0.010 = 0.060\,\mathrm{mol\,dm^{-3}}
+$$
 
-$$\mathrm{pH} = -\log(0.060) = 1.22$$
+$$
+\mathrm{pH} = -\log(0.060) = 1.22
+$$
 
 ## Exam-Style Questions with Full Mark Schemes
 
@@ -1187,7 +1237,9 @@ added to $25.0\,\mathrm{cm}^3$ of the buffer. (3 marks)
 
 $n(\mathrm{CH}_3\mathrm{COO}^-) = 0.100\,\mathrm{mol}$
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{CH}_3\mathrm{COO}^-]}{[\mathrm{CH}_3\mathrm{COOH}]} = 4.76 + \log\frac{0.100}{0.100} = 4.76 + 0 = 4.76$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{CH}_3\mathrm{COO}^-]}{[\mathrm{CH}_3\mathrm{COOH}]} = 4.76 + \log\frac{0.100}{0.100} = 4.76 + 0 = 4.76
+$$
 (1 mark for expression, 1 mark for answer.)
 
 (b) $n(\mathrm{HCl}) = 1.00 \times 0.001 = 1.00 \times 10^{-3}\,\mathrm{mol}$
@@ -1201,7 +1253,9 @@ After adding $\mathrm{HCl}$: $n(\mathrm{CH}_3\mathrm{COOH}) = 0.0100 + 0.001 = 0
 
 $n(\mathrm{CH}_3\mathrm{COO}^-) = 0.0100 - 0.001 = 0.0090\,\mathrm{mol}$
 
-$$\mathrm{pH} = 4.76 + \log\frac{0.0090}{0.0110} = 4.76 + \log(0.818) = 4.76 - 0.087 = 4.67$$
+$$
+\mathrm{pH} = 4.76 + \log\frac{0.0090}{0.0110} = 4.76 + \log(0.818) = 4.76 - 0.087 = 4.67
+$$
 
 (1 mark for calculating moles after reaction, 1 mark for expression, 1 mark for answer.)
 

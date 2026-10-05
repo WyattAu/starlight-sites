@@ -53,7 +53,9 @@ Count atoms: Fe: 1 on left, 2 on right. O: 2 on left, 3 on right.
 
 To balance Fe: put 4 on the left. To balance O: put 3 O$_2$ on the left.
 
-$$4\mathrm{Fe + 3\mathrm{O_2 \to 2\mathrm{Fe_2\mathrm{O_3$$
+$$
+4\mathrm{Fe + 3\mathrm{O_2 \to 2\mathrm{Fe_2\mathrm{O_3
+$$
 
 Check: Fe: 4 = 4, O: 6 = 6.
 
@@ -61,17 +63,23 @@ Check: Fe: 4 = 4, O: 6 = 6.
 
 Unbalanced: $\mathrm{Al + \mathrm{HCl \to \mathrm{AlCl_3 + \mathrm{H_2$
 
-$$2\mathrm{Al + 6\mathrm{HCl \to 2\mathrm{AlCl_3 + 3\mathrm{H_2$$
+$$
+2\mathrm{Al + 6\mathrm{HCl \to 2\mathrm{AlCl_3 + 3\mathrm{H_2
+$$
 
 **Worked Example.** Balance the combustion of ethane.
 
 Unbalanced: $\mathrm{C_2\mathrm{H_6 + \mathrm{O_2 \to \mathrm{CO_2 + \mathrm{H_2\mathrm{O$
 
-$$2\mathrm{C_2\mathrm{H_6 + 7\mathrm{O_2 \to 4\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O$$
+$$
+2\mathrm{C_2\mathrm{H_6 + 7\mathrm{O_2 \to 4\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O
+$$
 
 **Worked Example.** Balance the reaction of zinc with copper(II) sulfate.
 
-$$\mathrm{Zn + \mathrm{CuSO_4 \to \mathrm{ZnSO_4 + \mathrm{Cu$$
+$$
+\mathrm{Zn + \mathrm{CuSO_4 \to \mathrm{ZnSO_4 + \mathrm{Cu
+$$
 
 This equation is already balanced. One atom of each element appears on both sides.
 
@@ -91,17 +99,23 @@ That occurs.
 **Worked Example.** Write a balanced symbol equation with state symbols for the reaction of calcium
 With hydrochloric acid.
 
-$$\mathrm{Ca(s) + 2\mathrm{HCl(aq) \to \mathrm{CaCl_2\mathrm{(aq) + \mathrm{H_2\mathrm{(g)$$
+$$
+\mathrm{Ca(s) + 2\mathrm{HCl(aq) \to \mathrm{CaCl_2\mathrm{(aq) + \mathrm{H_2\mathrm{(g)
+$$
 
 **Worked Example.** Write the balanced equation for the thermal decomposition of copper(II)
 Carbonate.
 
-$$\mathrm{CuCO_3\mathrm{(s) \to \mathrm{CuO(s) + \mathrm{CO_2\mathrm{(g)$$
+$$
+\mathrm{CuCO_3\mathrm{(s) \to \mathrm{CuO(s) + \mathrm{CO_2\mathrm{(g)
+$$
 
 **Worked Example.** Write the balanced equation for the reaction between sodium hydroxide and
 Sulfuric acid.
 
-$$2\mathrm{NaOH(aq) + \mathrm{H_2\mathrm{SO_4\mathrm{(aq) \to \mathrm{Na_2\mathrm{SO_4\mathrm{(aq) + 2\mathrm{H_2\mathrm{O(l)$$
+$$
+2\mathrm{NaOH(aq) + \mathrm{H_2\mathrm{SO_4\mathrm{(aq) \to \mathrm{Na_2\mathrm{SO_4\mathrm{(aq) + 2\mathrm{H_2\mathrm{O(l)
+$$
 
 ### 1.4 Ionic Equations
 
@@ -190,14 +204,18 @@ Energy.
 
 **Exothermic:**
 
-$$\mathrm{Reactants \xrightarrow{\mathrm{activation energy} \mathrm{Products + \mathrm{energy$$
+$$
+\mathrm{Reactants \xrightarrow{\mathrm{activation energy} \mathrm{Products + \mathrm{energy
+$$
 
 Products are at a lower energy level than reactants. The difference in energy levels is the energy
 Released.
 
 **Endothermic:**
 
-$$\mathrm{Reactants + \mathrm{energy \xrightarrow{\mathrm{activation energy} \mathrm{Products$$
+$$
+\mathrm{Reactants + \mathrm{energy \xrightarrow{\mathrm{activation energy} \mathrm{Products
+$$
 
 Products are at a higher energy level than reactants. The difference in energy levels is the energy
 Absorbed.
@@ -211,7 +229,9 @@ The **bond energy** is the energy required to break one mole of a particular bon
 - Energy is **absorbed** to break bonds (endothermic)
 - Energy is **released** when new bonds form (exothermic)
 
-$$\Delta H = \mathrm{energy absorbed (breaking) - \mathrm{energy released (forming)$$
+$$
+\Delta H = \mathrm{energy absorbed (breaking) - \mathrm{energy released (forming)
+$$
 
 If $\Delta H$ is negative, the reaction is exothermic. If $\Delta H$ is positive, the reaction is
 Endothermic.
@@ -224,9 +244,15 @@ $\mathrm{H_2 + \mathrm{Cl_2 \to 2\mathrm{HCl$
 
 Given: H-H bond energy = 436 kJ/mol, Cl-Cl bond energy = 242 kJ/mol, H-Cl bond energy = 431 kJ/mol.
 
-$$\mathrm{Energy absorbed = 436 + 242 = 678 \mathrm{ kJ$$
-$$\mathrm{Energy released = 2 \times 431 = 862 \mathrm{ kJ$$
-$$\Delta H = 678 - 862 = -184 \mathrm{ kJ/mol$$
+$$
+\mathrm{Energy absorbed = 436 + 242 = 678 \mathrm{ kJ
+$$
+$$
+\mathrm{Energy released = 2 \times 431 = 862 \mathrm{ kJ
+$$
+$$
+\Delta H = 678 - 862 = -184 \mathrm{ kJ/mol
+$$
 
 The reaction is exothermic ($\Delta H \lt 0$).
 
@@ -235,18 +261,30 @@ $\mathrm{N_2 + 3\mathrm{H_2 \to 2\mathrm{NH_3$
 
 Given: N$\equiv$N = 945 kJ/mol, H-H = 436 kJ/mol, N-H = 391 kJ/mol.
 
-$$\mathrm{Energy absorbed = 945 + 3(436) = 945 + 1308 = 2253 \mathrm{ kJ$$
-$$\mathrm{Energy released = 6(391) = 2346 \mathrm{ kJ$$
-$$\Delta H = 2253 - 2346 = -93 \mathrm{ kJ/mol$$
+$$
+\mathrm{Energy absorbed = 945 + 3(436) = 945 + 1308 = 2253 \mathrm{ kJ
+$$
+$$
+\mathrm{Energy released = 6(391) = 2346 \mathrm{ kJ
+$$
+$$
+\Delta H = 2253 - 2346 = -93 \mathrm{ kJ/mol
+$$
 
 **Worked Example.** Calculate the enthalpy change for the combustion of methane:
 $\mathrm{CH_4 + 2\mathrm{O_2 \to \mathrm{CO_2 + 2\mathrm{H_2\mathrm{O$
 
 Given: C-H = 413 kJ/mol, O=O = 495 kJ/mol, C=O = 805 kJ/mol, O-H = 464 kJ/mol.
 
-$$\mathrm{Energy absorbed = 4(413) + 2(495) = 1652 + 990 = 2642 \mathrm{ kJ$$
-$$\mathrm{Energy released = 2(805) + 4(464) = 1610 + 1856 = 3466 \mathrm{ kJ$$
-$$\Delta H = 2642 - 3466 = -824 \mathrm{ kJ/mol$$
+$$
+\mathrm{Energy absorbed = 4(413) + 2(495) = 1652 + 990 = 2642 \mathrm{ kJ
+$$
+$$
+\mathrm{Energy released = 2(805) + 4(464) = 1610 + 1856 = 3466 \mathrm{ kJ
+$$
+$$
+\Delta H = 2642 - 3466 = -824 \mathrm{ kJ/mol
+$$
 
 ### 2.4 Required Practical: Investigating Temperature Changes
 
@@ -254,7 +292,9 @@ Measure the temperature change when a known mass of solid is added to a known vo
 
 The energy change can be calculated using:
 
-$$q = mc\Delta T$$
+$$
+q = mc\Delta T
+$$
 
 Where $m$ is the mass of the solution (g), $c$ is the specific heat capacity of water
 ($4.18
@@ -263,7 +303,9 @@ Where $m$ is the mass of the solution (g), $c$ is the specific heat capacity of 
 **Worked Example.** When 2.0 g of calcium chloride is dissolved in 50 g of water, the temperature
 Rises by $8.5^{\circ}\mathrm{C$. Calculate the energy change.
 
-$$q = 50 \times 4.18 \times 8.5 = 1776.5 \mathrm{ J = 1.78 \mathrm{ kJ$$
+$$
+q = 50 \times 4.18 \times 8.5 = 1776.5 \mathrm{ J = 1.78 \mathrm{ kJ
+$$
 
 Since the temperature increased, the reaction is exothermic, so $\Delta H = -1.78 \mathrm{ kJ$.
 
@@ -362,7 +404,9 @@ Same maximum if the same total amount of reactant is used (assuming complete rea
 
 The rate at a particular time is equal to the gradient of the tangent to the curve at that point.
 
-$$\mathrm{Rate = \frac{\Delta y}{\Delta x}$$
+$$
+\mathrm{Rate = \frac{\Delta y}{\Delta x}
+$$
 
 Where $\Delta y$ is the change in the quantity measured (volume, mass, concentration) and $\Delta x$
 Is the change in time.
@@ -370,7 +414,9 @@ Is the change in time.
 **Worked Example.** In an experiment, 20 cm$^3$ of gas is collected in the first 30 seconds.
 Calculate the mean rate of reaction.
 
-$$\mathrm{Rate = \frac{20}{30} = 0.67 \mathrm{ cm^3/\mathrm{s$$
+$$
+\mathrm{Rate = \frac{20}{30} = 0.67 \mathrm{ cm^3/\mathrm{s
+$$
 
 ## 4. Reversible Reactions and Equilibrium
 
@@ -381,7 +427,9 @@ Reversible arrow ($\rightleftharpoons$).
 
 **Example:** Ammonium chloride decomposes on heating and reforms on cooling.
 
-$$\mathrm{NH_4\mathrm{Cl(s) \rightleftharpoons \mathrm{NH_3\mathrm{(g) + \mathrm{HCl(g)$$
+$$
+\mathrm{NH_4\mathrm{Cl(s) \rightleftharpoons \mathrm{NH_3\mathrm{(g) + \mathrm{HCl(g)
+$$
 
 ### 4.2 Dynamic Equilibrium
 
@@ -421,7 +469,9 @@ Shifts in the direction that counteracts the change.
 
 ### 4.4 The Haber Process
 
-$$\mathrm{N_2\mathrm{(g) + 3\mathrm{H_2\mathrm{(g) \rightleftharpoons 2\mathrm{NH_3\mathrm{(g) \quad \Delta H = -92 \mathrm{ kJ/mol$$
+$$
+\mathrm{N_2\mathrm{(g) + 3\mathrm{H_2\mathrm{(g) \rightleftharpoons 2\mathrm{NH_3\mathrm{(g) \quad \Delta H = -92 \mathrm{ kJ/mol
+$$
 
 **Conditions used:**
 
@@ -444,7 +494,9 @@ Hydrogen and less ammonia. The yield of ammonia decreases, but the rate of react
 
 ### 4.5 The Contact Process
 
-$$2\mathrm{SO_2\mathrm{(g) + \mathrm{O_2\mathrm{(g) \rightleftharpoons 2\mathrm{SO_3\mathrm{(g) \quad \Delta H = -197 \mathrm{ kJ/mol$$
+$$
+2\mathrm{SO_2\mathrm{(g) + \mathrm{O_2\mathrm{(g) \rightleftharpoons 2\mathrm{SO_3\mathrm{(g) \quad \Delta H = -197 \mathrm{ kJ/mol
+$$
 
 Conditions: 450$^{\circ}$C, 1-2 atm, vanadium(V) oxide catalyst.
 
@@ -483,11 +535,15 @@ Concentration. A solution of pH 3 has ten times the $[\mathrm{H^+]$ of a solutio
 
 **Strong acids** fully dissociate in water:
 
-$$\mathrm{HCl \to \mathrm{H^+ + \mathrm{Cl^-$$
+$$
+\mathrm{HCl \to \mathrm{H^+ + \mathrm{Cl^-
+$$
 
 **Weak acids** partially dissociate in water:
 
-$$\mathrm{CH_3\mathrm{COOH \rightleftharpoons \mathrm{H^+ + \mathrm{CH_3\mathrm{COO^-$$
+$$
+\mathrm{CH_3\mathrm{COOH \rightleftharpoons \mathrm{H^+ + \mathrm{CH_3\mathrm{COO^-
+$$
 
 A weak acid has a higher pH than a strong acid of the same concentration. This is because the weak
 Acid produces fewer H$^+$ ions per unit volume.
@@ -534,11 +590,15 @@ Alkali.
 **Worked Example.** 25.0 cm$^3$ of 0.100 mol/dm$^3$ NaOH is neutralised by HCl. The average titre is
 22.5 cm$^3$. Calculate the concentration of the HCl.
 
-$$n(\mathrm{NaOH) = 0.100 \times 0.0250 = 0.00250 \mathrm{ mol$$
+$$
+n(\mathrm{NaOH) = 0.100 \times 0.0250 = 0.00250 \mathrm{ mol
+$$
 
 Mole ratio 1:1, so $n(\mathrm{HCl) = 0.00250 \mathrm{ mol$.
 
-$$c(\mathrm{HCl) = \frac{0.00250}{0.0225} = 0.111 \mathrm{ mol/dm^3$$
+$$
+c(\mathrm{HCl) = \frac{0.00250}{0.0225} = 0.111 \mathrm{ mol/dm^3
+$$
 
 ### 5.6 Tests for Gases
 
@@ -598,32 +658,44 @@ Inert electrodes.
 
 Cathode: Copper is less reactive than hydrogen, so copper is produced:
 
-$$\mathrm{Cu^{2+} + 2e^- \to \mathrm{Cu$$
+$$
+\mathrm{Cu^{2+} + 2e^- \to \mathrm{Cu
+$$
 
 Anode: Sulfate is not a halide, so oxygen is produced:
 
-$$4\mathrm{OH^- \to 2\mathrm{H_2\mathrm{O + \mathrm{O_2 + 4e^-$$
+$$
+4\mathrm{OH^- \to 2\mathrm{H_2\mathrm{O + \mathrm{O_2 + 4e^-
+$$
 
 **Worked Example.** Predict the products of the electrolysis of aqueous sodium chloride using inert
 Electrodes.
 
 Cathode: Sodium is more reactive than hydrogen, so hydrogen is produced:
 
-$$2\mathrm{H^+ + 2e^- \to \mathrm{H_2$$
+$$
+2\mathrm{H^+ + 2e^- \to \mathrm{H_2
+$$
 
 Anode: Chloride is a halide, so chlorine is produced:
 
-$$2\mathrm{Cl^- \to \mathrm{Cl_2 + 2e^-$$
+$$
+2\mathrm{Cl^- \to \mathrm{Cl_2 + 2e^-
+$$
 
 **Worked Example.** Predict the products of the electrolysis of aqueous potassium iodide.
 
 Cathode: Potassium is more reactive than hydrogen, so hydrogen is produced from water:
 
-$$2\mathrm{H_2\mathrm{O + 2e^- \to \mathrm{H_2 + 2\mathrm{OH^-$$
+$$
+2\mathrm{H_2\mathrm{O + 2e^- \to \mathrm{H_2 + 2\mathrm{OH^-
+$$
 
 Anode: Iodide is a halide, so iodine is produced:
 
-$$2\mathrm{I^- \to \mathrm{I_2 + 2e^-$$
+$$
+2\mathrm{I^- \to \mathrm{I_2 + 2e^-
+$$
 
 ### 6.5 Electrolysis in Industry
 
@@ -871,7 +943,9 @@ $[\text{H}_2] = 1.50\,\text{mol\,dm}^{-3}$, $[\text{NH}_3] = 0.25\,\text{mol\,dm
 
 **Solution:**
 
-$$K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{(0.25)^2}{(0.50)(1.50)^3} = \frac{0.0625}{1.6875} \approx 0.0370\,\text{mol}^{-2}\,\text{dm}^6$$
+$$
+K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{(0.25)^2}{(0.50)(1.50)^3} = \frac{0.0625}{1.6875} \approx 0.0370\,\text{mol}^{-2}\,\text{dm}^6
+$$
 
 
 ```mermaid

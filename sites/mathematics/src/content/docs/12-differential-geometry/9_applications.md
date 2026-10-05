@@ -25,7 +25,9 @@ determined by the distribution of matter and energy via the Einstein field equat
 
 **Example (Schwarzschild Metric).** The metric outside a spherically symmetric mass $M$ is:
 
-$$ds^2 = -\left(1 - \frac{2GM}{c^2 r}\right)c^2 dt^2 + \left(1 - \frac{2GM}{c^2 r}\right)^{-1} dr^2 + r^2 d\Omega^2$$
+$$
+ds^2 = -\left(1 - \frac{2GM}{c^2 r}\right)c^2 dt^2 + \left(1 - \frac{2GM}{c^2 r}\right)^{-1} dr^2 + r^2 d\Omega^2
+$$
 
 This metric describes non-rotating black holes and predicts phenomena such as gravitational
 redshift, perihelion precession, and gravitational lensing.
@@ -34,7 +36,9 @@ redshift, perihelion precession, and gravitational lensing.
 tidal forces experienced by extended bodies. The Ricci tensor $R_{\mu\nu} = R^\rho_{\ \mu\rho\nu}$
 and scalar curvature $R = g^{\mu\nu}R_{\mu\nu}$ appear directly in the Einstein field equations:
 
-$$R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}$$
+$$
+R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}
+$$
 
 ### 9.2 Gauge Theory
 
@@ -93,7 +97,9 @@ measured by the first fundamental form.
 The **Gauss-Bonnet theorem** relates the total Gaussian curvature of a surface to its Euler
 characteristic:
 
-$$\int_M K\,dA + \int_{\partial M} k_g\,ds = 2\pi\chi(M)$$
+$$
+\int_M K\,dA + \int_{\partial M} k_g\,ds = 2\pi\chi(M)
+$$
 
 For a compact orientable surface without boundary, $\int_M K\,dA = 2\pi\chi(M)$. This explains
 why a sphere (Euler characteristic 2) cannot be mapped to a plane without distortion: the total

@@ -54,9 +54,13 @@ A **process** is an instance of a program in execution. The OS maintains a **pro
 
 **Process states.** Processes transition through states:
 
-$$\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}$$
+$$
+\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}
+$$
 
-$$\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}$$
+$$
+\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}
+$$
 
 The scheduler dispatches processes from **ready** to **running**. A running process may be
 **preempted** back to ready, or may **block** on I/O or a synchronisation event.

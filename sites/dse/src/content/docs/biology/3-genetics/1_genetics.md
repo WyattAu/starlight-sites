@@ -120,17 +120,29 @@ Independent assortment).
 
 Rather than constructing a 4 x 4 Punnett square, the two monohybrid ratios can be multiplied:
 
-$$\mathrm{P(round)} = \frac{3}{4}, \quad \mathrm{P(wrinkled)} = \frac{1}{4}$$
+$$
+\mathrm{P(round)} = \frac{3}{4}, \quad \mathrm{P(wrinkled)} = \frac{1}{4}
+$$
 
-$$\mathrm{P(yellow)} = \frac{3}{4}, \quad \mathrm{P(green)} = \frac{1}{4}$$
+$$
+\mathrm{P(yellow)} = \frac{3}{4}, \quad \mathrm{P(green)} = \frac{1}{4}
+$$
 
-$$\mathrm{P(round, yellow)} = \frac{3}{4} \times \frac{3}{4} = \frac{9}{16}$$
+$$
+\mathrm{P(round, yellow)} = \frac{3}{4} \times \frac{3}{4} = \frac{9}{16}
+$$
 
-$$\mathrm{P(round, green)} = \frac{3}{4} \times \frac{1}{4} = \frac{3}{16}$$
+$$
+\mathrm{P(round, green)} = \frac{3}{4} \times \frac{1}{4} = \frac{3}{16}
+$$
 
-$$\mathrm{P(wrinkled, yellow)} = \frac{1}{4} \times \frac{3}{4} = \frac{3}{16}$$
+$$
+\mathrm{P(wrinkled, yellow)} = \frac{1}{4} \times \frac{3}{4} = \frac{3}{16}
+$$
 
-$$\mathrm{P(wrinkled, green)} = \frac{1}{4} \times \frac{1}{4} = \frac{1}{16}$$
+$$
+\mathrm{P(wrinkled, green)} = \frac{1}{4} \times \frac{1}{4} = \frac{1}{16}
+$$
 
 This yields the familiar 9:3:3:1 ratio and is significantly faster on an exam.
 
@@ -336,7 +348,9 @@ Humans have 23 pairs of chromosomes: 22 pairs of autosomes and 1 pair of sex chr
 The sex of the offspring is determined by the sperm: if an X-bearing sperm fertilises the egg, the
 Result is XX (female); if a Y-bearing sperm fertilises the egg, the result is XY (male).
 
-$$P(\mathrm{female}) = \frac{1}{2}, \quad P(\mathrm{male}) = \frac{1}{2}$$
+$$
+P(\mathrm{female}) = \frac{1}{2}, \quad P(\mathrm{male}) = \frac{1}{2}
+$$
 
 ### X-Linked Inheritance
 
@@ -788,7 +802,9 @@ PCR amplifies a specific segment of DNA exponentially.
 3. **Extension (72 degrees C):** Taq polymerase adds nucleotides to the 3-prime end of each primer,
    synthesising new DNA strands.
 
-$$\mathrm{After } n \mathrm{ cycles: } N = N_0 \times 2^n$$
+$$
+\mathrm{After } n \mathrm{ cycles: } N = N_0 \times 2^n
+$$
 
 ### Gel Electrophoresis
 

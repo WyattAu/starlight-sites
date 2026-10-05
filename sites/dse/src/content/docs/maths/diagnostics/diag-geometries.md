@@ -70,7 +70,9 @@ $OA \perp TA$ and $OB \perp TB$ (tangent perpendicular to radius).
 
 In quadrilateral $OATB$: $\angle OAT = \angle OBT = 90°$.
 
-$$\angle AOB = 360° - 90° - 90° - 50° = 130°$$
+$$
+\angle AOB = 360° - 90° - 90° - 50° = 130°
+$$
 
 ---
 
@@ -123,13 +125,19 @@ $\vec{AB} = \mathbf{b} - \mathbf{a}$.
 
 $P$ divides $AB$ in ratio $2:1$ (i.e. $AP:PB = 2:1$):
 
-$$\vec{OP} = \vec{OA} + \frac{2}{3}\vec{AB} = \mathbf{a} + \frac{2}{3}(\mathbf{b} - \mathbf{a}) = \frac{1}{3}\mathbf{a} + \frac{2}{3}\mathbf{b}$$
+$$
+\vec{OP} = \vec{OA} + \frac{2}{3}\vec{AB} = \mathbf{a} + \frac{2}{3}(\mathbf{b} - \mathbf{a}) = \frac{1}{3}\mathbf{a} + \frac{2}{3}\mathbf{b}
+$$
 
 $Q$ divides $AB$ in ratio $3:2$ (i.e. $AQ:QB = 3:2$):
 
-$$\vec{OQ} = \vec{OA} + \frac{3}{5}\vec{AB} = \mathbf{a} + \frac{3}{5}(\mathbf{b} - \mathbf{a}) = \frac{2}{5}\mathbf{a} + \frac{3}{5}\mathbf{b}$$
+$$
+\vec{OQ} = \vec{OA} + \frac{3}{5}\vec{AB} = \mathbf{a} + \frac{3}{5}(\mathbf{b} - \mathbf{a}) = \frac{2}{5}\mathbf{a} + \frac{3}{5}\mathbf{b}
+$$
 
-$$\vec{PQ} = \vec{OQ} - \vec{OP} = \left(\frac{2}{5} - \frac{1}{3}\right)\mathbf{a} + \left(\frac{3}{5} - \frac{2}{3}\right)\mathbf{b} = \frac{1}{15}\mathbf{a} - \frac{1}{15}\mathbf{b} = \frac{1}{15}(\mathbf{a} - \mathbf{b})$$
+$$
+\vec{PQ} = \vec{OQ} - \vec{OP} = \left(\frac{2}{5} - \frac{1}{3}\right)\mathbf{a} + \left(\frac{3}{5} - \frac{2}{3}\right)\mathbf{b} = \frac{1}{15}\mathbf{a} - \frac{1}{15}\mathbf{b} = \frac{1}{15}(\mathbf{a} - \mathbf{b})
+$$
 
 ---
 
@@ -218,17 +226,29 @@ $\mathbf{c} = 4\mathbf{i} + 7\mathbf{j}$. Prove that $A$$B$$C$ form an isosceles
 
 **Solution:**
 
-$$\vec{AB} = \mathbf{b} - \mathbf{a} = 6\mathbf{i} - 4\mathbf{j}$$
+$$
+\vec{AB} = \mathbf{b} - \mathbf{a} = 6\mathbf{i} - 4\mathbf{j}
+$$
 
-$$|\vec{AB}| = \sqrt{36 + 16} = \sqrt{52} = 2\sqrt{13}$$
+$$
+|\vec{AB}| = \sqrt{36 + 16} = \sqrt{52} = 2\sqrt{13}
+$$
 
-$$\vec{AC} = \mathbf{c} - \mathbf{a} = 2\mathbf{i} + 4\mathbf{j}$$
+$$
+\vec{AC} = \mathbf{c} - \mathbf{a} = 2\mathbf{i} + 4\mathbf{j}
+$$
 
-$$|\vec{AC}| = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5}$$
+$$
+|\vec{AC}| = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5}
+$$
 
-$$\vec{BC} = \mathbf{c} - \mathbf{b} = -4\mathbf{i} + 8\mathbf{j}$$
+$$
+\vec{BC} = \mathbf{c} - \mathbf{b} = -4\mathbf{i} + 8\mathbf{j}
+$$
 
-$$|\vec{BC}| = \sqrt{16 + 64} = \sqrt{80} = 4\sqrt{5}$$
+$$
+|\vec{BC}| = \sqrt{16 + 64} = \sqrt{80} = 4\sqrt{5}
+$$
 
 $|\vec{AB}| = 2\sqrt{13}$$|\vec{AC}| = 2\sqrt{5}$$|\vec{BC}| = 4\sqrt{5}$.
 
@@ -259,13 +279,21 @@ The points $(1, 2)$$(3, 6)$ And $(k, 10)$ are collinear. Find $k$.
 
 Collinearity means equal slopes:
 
-$$\frac{6 - 2}{3 - 1} = \frac{10 - 6}{k - 3}$$
+$$
+\frac{6 - 2}{3 - 1} = \frac{10 - 6}{k - 3}
+$$
 
-$$\frac{4}{2} = \frac{4}{k - 3}$$
+$$
+\frac{4}{2} = \frac{4}{k - 3}
+$$
 
-$$2 = \frac{4}{k - 3}$$
+$$
+2 = \frac{4}{k - 3}
+$$
 
-$$k - 3 = 2 \implies k = 5$$
+$$
+k - 3 = 2 \implies k = 5
+$$
 
 ---
 
@@ -325,9 +353,13 @@ Drop the perpendicular from $O$ to $AB$Meeting at $M$.
 
 Since $OM$ bisects $\angle AOB$: $\angle AOM = 60°$.
 
-$$AM = OA \sin 60° = 10 \times \frac{\sqrt{3}}{2} = 5\sqrt{3}$$
+$$
+AM = OA \sin 60° = 10 \times \frac{\sqrt{3}}{2} = 5\sqrt{3}
+$$
 
-$$AB = 2 \times AM = 10\sqrt{3} \text{ cm}$$
+$$
+AB = 2 \times AM = 10\sqrt{3} \text{ cm}
+$$
 
 ---
 
@@ -400,9 +432,13 @@ $PB = 6$ cm, and $CP = 3$ cm, find $PD$.
 
 By the intersecting chords theorem: $AP \times PB = CP \times PD$.
 
-$$4 \times 6 = 3 \times PD$$
+$$
+4 \times 6 = 3 \times PD
+$$
 
-$$PD = \frac{24}{3} = 8 \text{ cm}$$
+$$
+PD = \frac{24}{3} = 8 \text{ cm}
+$$
 
 ---
 
@@ -431,9 +467,13 @@ cm$^2$.
 
 (b) The triangle formed by the two radii and the chord:
 
-$$\text{Area of triangle} = \frac{1}{2} \times 8 \times 8 \times \sin 135° = 32 \times \frac{\sqrt{2}}{2} = 16\sqrt{2} \text{ cm}^2$$
+$$
+\text{Area of triangle} = \frac{1}{2} \times 8 \times 8 \times \sin 135° = 32 \times \frac{\sqrt{2}}{2} = 16\sqrt{2} \text{ cm}^2
+$$
 
-$$\text{Area of segment} = 24\pi - 16\sqrt{2} \text{ cm}^2$$
+$$
+\text{Area of segment} = 24\pi - 16\sqrt{2} \text{ cm}^2
+$$
 
 ---
 
@@ -455,15 +495,21 @@ $\vec{AD} = \dfrac{1}{2}(\vec{AB} + \vec{AC})$.
 
 **Solution:**
 
-$$\vec{AD} = \vec{AB} + \vec{BD}$$
+$$
+\vec{AD} = \vec{AB} + \vec{BD}
+$$
 
 Since $D$ is the midpoint of $BC$: $\vec{BD} = \dfrac{1}{2}\vec{BC}$.
 
-$$\vec{BC} = \vec{BA} + \vec{AC} = -\vec{AB} + \vec{AC}$$
+$$
+\vec{BC} = \vec{BA} + \vec{AC} = -\vec{AB} + \vec{AC}
+$$
 
 Therefore:
 
-$$\vec{AD} = \vec{AB} + \frac{1}{2}(-\vec{AB} + \vec{AC}) = \vec{AB} - \frac{1}{2}\vec{AB} + \frac{1}{2}\vec{AC} = \frac{1}{2}\vec{AB} + \frac{1}{2}\vec{AC} = \frac{1}{2}(\vec{AB} + \vec{AC})$$
+$$
+\vec{AD} = \vec{AB} + \frac{1}{2}(-\vec{AB} + \vec{AC}) = \vec{AB} - \frac{1}{2}\vec{AB} + \frac{1}{2}\vec{AC} = \frac{1}{2}\vec{AB} + \frac{1}{2}\vec{AC} = \frac{1}{2}(\vec{AB} + \vec{AC})
+$$
 
 ---
 
@@ -521,15 +567,25 @@ $\angle EGB = 3x + 10°$ and $\angle CHG = 5x - 30°$Find $x$.
 Since $AB \parallel CD$ and $EF$ is a transversal, $\angle EGB$ and $\angle CHG$ are supplementary
 (interior angles on the same side of the transversal).
 
-$$\angle EGB + \angle CHG = 180°$$
+$$
+\angle EGB + \angle CHG = 180°
+$$
 
-$$(3x + 10°) + (5x - 30°) = 180°$$
+$$
+(3x + 10°) + (5x - 30°) = 180°
+$$
 
-$$8x - 20° = 180°$$
+$$
+8x - 20° = 180°
+$$
 
-$$8x = 200°$$
+$$
+8x = 200°
+$$
 
-$$x = 25°$$
+$$
+x = 25°
+$$
 
 ---
 
@@ -688,9 +744,13 @@ perpendicular from $P$ to $QR$. (2 marks)
 
 (a) By the cosine rule:
 
-$$QR^2 = PQ^2 + PR^2 - 2 \cdot PQ \cdot PR \cdot \cos 60° = 49 + 25 - 2 \times 7 \times 5 \times \frac{1}{2} = 74 - 35 = 39$$
+$$
+QR^2 = PQ^2 + PR^2 - 2 \cdot PQ \cdot PR \cdot \cos 60° = 49 + 25 - 2 \times 7 \times 5 \times \frac{1}{2} = 74 - 35 = 39
+$$
 
-$$QR = \sqrt{39} \text{ cm}$$
+$$
+QR = \sqrt{39} \text{ cm}
+$$
 
 (b) Area
 $= \dfrac{1}{2} \times PQ \times PR \times \sin 60° = \dfrac{1}{2} \times 7 \times 5 \times \dfrac{\sqrt{3}}{2} = \dfrac{35\sqrt{3}}{4}$
@@ -698,9 +758,13 @@ cm$^2$.
 
 (c) Area $= \dfrac{1}{2} \times QR \times h$ where $h$ is the perpendicular from $P$ to $QR$.
 
-$$\frac{35\sqrt{3}}{4} = \frac{1}{2} \times \sqrt{39} \times h$$
+$$
+\frac{35\sqrt{3}}{4} = \frac{1}{2} \times \sqrt{39} \times h
+$$
 
-$$h = \frac{35\sqrt{3}}{2\sqrt{39}} = \frac{35\sqrt{3}}{2\sqrt{39}} \cdot \frac{\sqrt{39}}{\sqrt{39}} = \frac{35\sqrt{117}}{78} = \frac{35 \times 3\sqrt{13}}{78} = \frac{35\sqrt{13}}{26} \text{ cm}$$
+$$
+h = \frac{35\sqrt{3}}{2\sqrt{39}} = \frac{35\sqrt{3}}{2\sqrt{39}} \cdot \frac{\sqrt{39}}{\sqrt{39}} = \frac{35\sqrt{117}}{78} = \frac{35 \times 3\sqrt{13}}{78} = \frac{35\sqrt{13}}{26} \text{ cm}
+$$
 
 ---
 
@@ -725,13 +789,19 @@ midpoint of $BC$Prove that $A$$D$$E$ are collinear. (4 marks)
 
 (a) $\vec{AD} = \dfrac{1}{3}\vec{AC} = \dfrac{1}{3}(\mathbf{c} - \mathbf{a})$.
 
-$$\vec{OD} = \vec{OA} + \vec{AD} = \mathbf{a} + \frac{1}{3}(\mathbf{c} - \mathbf{a}) = \frac{2}{3}\mathbf{a} + \frac{1}{3}\mathbf{c}$$
+$$
+\vec{OD} = \vec{OA} + \vec{AD} = \mathbf{a} + \frac{1}{3}(\mathbf{c} - \mathbf{a}) = \frac{2}{3}\mathbf{a} + \frac{1}{3}\mathbf{c}
+$$
 
 (b) $\vec{OE} = \dfrac{1}{2}(\mathbf{b} + \mathbf{c})$.
 
-$$\vec{AE} = \vec{OE} - \vec{OA} = \frac{1}{2}(\mathbf{b} + \mathbf{c}) - \mathbf{a}$$
+$$
+\vec{AE} = \vec{OE} - \vec{OA} = \frac{1}{2}(\mathbf{b} + \mathbf{c}) - \mathbf{a}
+$$
 
-$$\vec{AD} = \frac{1}{3}(\mathbf{c} - \mathbf{a})$$
+$$
+\vec{AD} = \frac{1}{3}(\mathbf{c} - \mathbf{a})
+$$
 
 For collinearity, $\vec{AE}$ must be a scalar multiple of $\vec{AD}$. This requires more information
 about the relationship between $\mathbf{a}$, $\mathbf{b}$ And $\mathbf{c}$. If $D$ divides $AE$ in some

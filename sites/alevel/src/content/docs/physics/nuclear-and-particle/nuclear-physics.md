@@ -44,13 +44,19 @@ and Is repelled by the Coulomb force.
 For a head-on collision, the alpha particle momentarily stops (all kinetic energy converted to
 Electric potential energy):
 
-$$\frac{1}{2}m_\alpha v^2 = \frac{Z_{\mathrm{Au}} \cdot 2e^2}{4\pi\varepsilon_0 d}$$
+$$
+\frac{1}{2}m_\alpha v^2 = \frac{Z_{\mathrm{Au}} \cdot 2e^2}{4\pi\varepsilon_0 d}
+$$
 
-$$\boxed{d = \frac{Z_{\mathrm{Au}} e^2}{2\pi\varepsilon_0 E_k}}$$
+$$
+\boxed{d = \frac{Z_{\mathrm{Au}} e^2}{2\pi\varepsilon_0 E_k}}
+$$
 
 Where $d$ is the distance of closest approach. For 5.5 MeV alpha particles on gold ($Z = 79$):
 
-$$d = \frac{79 \times (1.60 \times 10^{-19})^2}{2\pi \times 8.85 \times 10^{-12} \times 5.5 \times 10^6 \times 1.60 \times 10^{-19}} \approx 4.1 \times 10^{-14}\ \mathrm{m}$$
+$$
+d = \frac{79 \times (1.60 \times 10^{-19})^2}{2\pi \times 8.85 \times 10^{-12} \times 5.5 \times 10^6 \times 1.60 \times 10^{-19}} \approx 4.1 \times 10^{-14}\ \mathrm{m}
+$$
 
 This gives an upper bound on the nuclear radius of gold ($\sim 10^{-14}$ m, compared to the atomic
 Radius of $\sim 10^{-10}$ m).
@@ -84,23 +90,31 @@ Identical chemical properties but different nuclear properties (stability, half-
 The mass of a nucleus is **less** than the sum of the masses of its constituent nucleons. The
 Difference is the **mass defect**:
 
-$$\boxed{\Delta m = Zm_p + Nm_n - m_{\mathrm{nucleus}}}$$
+$$
+\boxed{\Delta m = Zm_p + Nm_n - m_{\mathrm{nucleus}}}
+$$
 
 ### Einstein's Mass--Energy Equivalence
 
-$$\boxed{E = mc^2}$$
+$$
+\boxed{E = mc^2}
+$$
 
 The mass defect corresponds to the binding energy, the energy released when the nucleus was formed
 From its constituent nucleons, or equivalently, the energy required to separate the nucleus into its
 Individual nucleons.
 
-$$\boxed{E_b = \Delta m\,c^2}$$
+$$
+\boxed{E_b = \Delta m\,c^2}
+$$
 
 ### Binding Energy per Nucleon
 
 The binding energy per nucleon is a measure of nuclear stability:
 
-$$\boxed{\frac{E_b}{A} = \frac{\Delta m\,c^2}{A}}$$
+$$
+\boxed{\frac{E_b}{A} = \frac{\Delta m\,c^2}{A}}
+$$
 
 <details>
 <summary>Worked Example: Binding Energy of Helium-4</summary>
@@ -171,7 +185,9 @@ Nucleus, predicted by the nuclear shell model (Mayer and Jensen, 1949).
 
 An alpha particle ($\prescript{4}{2}\alpha = \prescript{4}{2}\mathrm{He}$) is emitted:
 
-$$\prescript{A}{Z}\mathrm{X} \to \prescript{A-4}{Z-2}\mathrm{Y} + \prescript{4}{2}\alpha$$
+$$
+\prescript{A}{Z}\mathrm{X} \to \prescript{A-4}{Z-2}\mathrm{Y} + \prescript{4}{2}\alpha
+$$
 
 **Conservation:** $A$ decreases by 4, $Z$ decreases by 2. Highly ionising, stopped by paper.
 
@@ -179,7 +195,9 @@ $$\prescript{A}{Z}\mathrm{X} \to \prescript{A-4}{Z-2}\mathrm{Y} + \prescript{4}{
 
 A neutron converts to a proton, emitting an electron and an antineutrino:
 
-$$\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z+1}\mathrm{Y} + \prescript{0}{-1}\beta^- + \bar{\nu}_e$$
+$$
+\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z+1}\mathrm{Y} + \prescript{0}{-1}\beta^- + \bar{\nu}_e
+$$
 
 **Conservation:** $A$ unchanged, $Z$ increases by 1. The antineutrino was postulated (Pauli, 1930;
 Fermi, 1934) to conserve energy and momentum, the continuous electron energy spectrum requires a
@@ -189,7 +207,9 @@ Third particle to carry away the remaining energy.
 
 A proton converts to a neutron, emitting a positron and a neutrino:
 
-$$\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z-1}\mathrm{Y} + \prescript{0}{+1}\beta^+ + \nu_e$$
+$$
+\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z-1}\mathrm{Y} + \prescript{0}{+1}\beta^+ + \nu_e
+$$
 
 This requires $m_{\mathrm{parent}} \gt m_{\mathrm{daughter}} + 2m_e$ (the positron mass must be
 Created).
@@ -198,7 +218,9 @@ Created).
 
 Excited nucleus de-excites by emitting a high-energy photon:
 
-$$\prescript{A}{Z}\mathrm{X}^* \to \prescript{A}{Z}\mathrm{X} + \gamma$$
+$$
+\prescript{A}{Z}\mathrm{X}^* \to \prescript{A}{Z}\mathrm{X} + \gamma
+$$
 
 No change in $A$ or $Z$. Weakly ionising, highly penetrating (requires thick lead or concrete).
 
@@ -213,19 +235,29 @@ decay.
 The decay constant $\lambda$ is the probability per unit time that a single nucleus will decay. If
 There are $N$ nuclei:
 
-$$\frac{dN}{dt} = -\lambda N$$
+$$
+\frac{dN}{dt} = -\lambda N
+$$
 
 Separating variables and integrating from $N_0$ at $t = 0$ to $N$ at time $t$:
 
-$$\int_{N_0}^{N}\frac{dN'}{N'} = -\int_0^t \lambda\,dt'$$
+$$
+\int_{N_0}^{N}\frac{dN'}{N'} = -\int_0^t \lambda\,dt'
+$$
 
-$$\ln\left(\frac{N}{N_0}\right) = -\lambda t$$
+$$
+\ln\left(\frac{N}{N_0}\right) = -\lambda t
+$$
 
-$$\boxed{N = N_0 e^{-\lambda t}}$$
+$$
+\boxed{N = N_0 e^{-\lambda t}}
+$$
 
 ### Activity
 
-$$\boxed{A = \lambda N = -\frac{dN}{dt}}$$
+$$
+\boxed{A = \lambda N = -\frac{dN}{dt}}
+$$
 
 SI unit: becquerel (Bq). $1\ \mathrm{Bq} = 1\ \mathrm{decay\,s}^{-1}$.
 
@@ -233,9 +265,13 @@ SI unit: becquerel (Bq). $1\ \mathrm{Bq} = 1\ \mathrm{decay\,s}^{-1}$.
 
 Setting $N = N_0/2$ at $t = t_{1/2}$:
 
-$$\frac{1}{2} = e^{-\lambda t_{1/2}} \implies t_{1/2} = \frac{\ln 2}{\lambda}$$
+$$
+\frac{1}{2} = e^{-\lambda t_{1/2}} \implies t_{1/2} = \frac{\ln 2}{\lambda}
+$$
 
-$$\boxed{t_{1/2} = \frac{\ln 2}{\lambda}}$$
+$$
+\boxed{t_{1/2} = \frac{\ln 2}{\lambda}}
+$$
 
 ## 7. Nuclear Fission
 
@@ -245,7 +281,9 @@ A heavy nucleus ( $\prescript{235}_{92}\mathrm{U}$ or $\prescript{239}_{94}\math
 neutron, becoming unstable and splitting into two lighter nuclei (fission fragments) plus 2--3
 neutrons and energy:
 
-$$\prescript{235}_{92}\mathrm{U} + \prescript{1}_{0}\mathrm{n} \to \prescript{236}_{92}\mathrm{U}^* \to \prescript{141}_{56}\mathrm{Ba} + \prescript{92}_{36}\mathrm{Kr} + 3\prescript{1}_{0}\mathrm{n} + \mathrm{energy}$$
+$$
+\prescript{235}_{92}\mathrm{U} + \prescript{1}_{0}\mathrm{n} \to \prescript{236}_{92}\mathrm{U}^* \to \prescript{141}_{56}\mathrm{Ba} + \prescript{92}_{36}\mathrm{Kr} + 3\prescript{1}_{0}\mathrm{n} + \mathrm{energy}
+$$
 
 ### Energy Release
 
@@ -295,7 +333,9 @@ strong Nuclear force ($\sim 10^{-15}$ m). This requires:
 
 The product of these three quantities is the Lawson criterion:
 
-$$n\tau \gt 10^{20}\ \mathrm{s\,m^{-3}}$$
+$$
+n\tau \gt 10^{20}\ \mathrm{s\,m^{-3}}
+$$
 
 For deuterium--tritium fusion.
 
@@ -304,7 +344,9 @@ For deuterium--tritium fusion.
 In the Sun's core ($T \approx 1.5 \times 10^7$ K), hydrogen fuses to helium via the proton--proton
 Chain:
 
-$$4\prescript{1}{1}\mathrm{H} \to \prescript{4}{2}\mathrm{He} + 2\prescript{0}{+1}\beta^+ + 2\nu_e + 2\gamma$$
+$$
+4\prescript{1}{1}\mathrm{H} \to \prescript{4}{2}\mathrm{He} + 2\prescript{0}{+1}\beta^+ + 2\nu_e + 2\gamma
+$$
 
 Net energy release: $\sim 26.7$ MeV per helium-4 nucleus formed.
 

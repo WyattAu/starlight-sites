@@ -32,9 +32,13 @@ Dividing all parts by their highest common factor.
 
 **Worked Example.** Simplify the ratio $24 : 36 : 48$.
 
-$$\mathrm{HCF(24, 36, 48) = 12$$
+$$
+\mathrm{HCF(24, 36, 48) = 12
+$$
 
-$$24 : 36 : 48 = 2 : 3 : 4$$
+$$
+24 : 36 : 48 = 2 : 3 : 4
+$$
 
 **Worked Example.** Express the ratio $0.4 : 1.2$ in its simplest form.
 
@@ -51,14 +55,18 @@ Multiply both by 4: $10 : 15 = 2 : 3$.
 
 To share a quantity $Q$ in the ratio $a : b$:
 
-$$\mathrm{Each share = \frac{Q}{a + b}$$
+$$
+\mathrm{Each share = \frac{Q}{a + b}
+$$
 
 First share $= \frac{aQ}{a + b}$Second share $= \frac{bQ}{a + b}$.
 
 **Worked Example.** Share 360 pounds in the ratio $2 : 3 : 4$.
 
 $$\mathrm{Total parts = 2 + 3 + 4 = 9$$ $$\mathrm{One part = \frac{360}{9} = 40$$
-$$\mathrm{Shares = 80, 120, 160$$
+$$
+\mathrm{Shares = 80, 120, 160
+$$
 
 **Worked Example (Higher Tier).** Share 560 pounds in the ratio
 $\frac{1}{2} : \frac{1}{3} : \frac{1}{4}$.
@@ -80,7 +88,9 @@ The ratio $a : b$ means:
 **Worked Example.** In a class, the ratio of boys to girls is $3 : 5$. What fraction of the class
 Are girls?
 
-$$\frac{5}{3 + 5} = \frac{5}{8}$$
+$$
+\frac{5}{3 + 5} = \frac{5}{8}
+$$
 
 ### 1.4 Combining Ratios
 
@@ -104,8 +114,12 @@ $A : B : C = 9 : 12 : 14$.
 
 **Worked Example.** 8 chocolate bars cost 3.60 pounds. Find the cost of 15 bars.
 
-$$\mathrm{Cost per bar = \frac{3.60}{8} = 0.45 \mathrm{ pounds$$
-$$\mathrm{Cost of 15 bars = 15 \times 0.45 = 6.75 \mathrm{ pounds$$
+$$
+\mathrm{Cost per bar = \frac{3.60}{8} = 0.45 \mathrm{ pounds
+$$
+$$
+\mathrm{Cost of 15 bars = 15 \times 0.45 = 6.75 \mathrm{ pounds
+$$
 
 **Worked Example (Higher Tier).** It takes 5 people 8 hours to paint a fence. How long would it take
 3 people?
@@ -160,9 +174,13 @@ $$24 = 8k \implies k = 3$$ $$y = 3 \times 125 = 375$$
 **Worked Example (Higher Tier).** The kinetic energy $E$ of an object is directly proportional to
 The square of its velocity $v$. When $v = 10$ m/s, $E = 500$ J. Find $E$ when $v = 15$ m/s.
 
-$$E = kv^2 \implies 500 = 100k \implies k = 5$$
+$$
+E = kv^2 \implies 500 = 100k \implies k = 5
+$$
 
-$$E = 5 \times 225 = 1125 \mathrm{ J$$
+$$
+E = 5 \times 225 = 1125 \mathrm{ J
+$$
 
 ## 3. Real-Life Graphs
 
@@ -206,7 +224,9 @@ Displacement.
 **Worked Example.** A car accelerates from rest at 3 m/s$^2$ for 8 seconds. Find the distance
 Travelled.
 
-$$s = 0 \times 8 + \frac{1}{2} \times 3 \times 64 = 96 \mathrm{ m$$
+$$
+s = 0 \times 8 + \frac{1}{2} \times 3 \times 64 = 96 \mathrm{ m
+$$
 
 **Worked Example (Higher Tier).** A car travels at 20 m/s for 5 s, then decelerates uniformly to
 Rest in 4 s. Find the total distance travelled.
@@ -222,14 +242,18 @@ Total: 140 m.
 
 The **rate of change** of a quantity is how fast it changes per unit of another quantity ( Time).
 
-$$\mathrm{Rate of change = \frac{\mathrm{change in quantity}{\mathrm{change in time}$$
+$$
+\mathrm{Rate of change = \frac{\mathrm{change in quantity}{\mathrm{change in time}
+$$
 
 This is the gradient of the graph of that quantity against time.
 
 **Worked Example.** The population of a town was 45000 in 2020 and 54000 in 2025. Find the average
 Rate of change.
 
-$$\mathrm{Rate = \frac{54000 - 45000}{2025 - 2020} = \frac{9000}{5} = 1800 \mathrm{ people per year$$
+$$
+\mathrm{Rate = \frac{54000 - 45000}{2025 - 2020} = \frac{9000}{5} = 1800 \mathrm{ people per year
+$$
 
 ### 3.4 Instantaneous Rate of Change
 
@@ -247,18 +271,24 @@ $$\frac{dV}{dt} = 4t + 3$$ $$\mathrm{At  t = 4: \frac{dV}{dt} = 16 + 3 = 19 \mat
 
 ### 4.1 Exponential Growth
 
-$$y = a(1 + r)^t$$
+$$
+y = a(1 + r)^t
+$$
 
 Where $a$ is the initial amount, $r$ is the growth rate (as a decimal), and $t$ is time.
 
 ### 4.2 Exponential Decay
 
-$$y = a(1 - r)^t$$
+$$
+y = a(1 - r)^t
+$$
 
 **Worked Example.** A radioactive substance decays at a rate of 8% per hour. If there are initially
 500 g, how much remains after 12 hours?
 
-$$y = 500 \times 0.92^{12} = 500 \times 0.3677\ldots = 183.8 \mathrm{ g$$
+$$
+y = 500 \times 0.92^{12} = 500 \times 0.3677\ldots = 183.8 \mathrm{ g
+$$
 
 ### 4.3 Half-Life
 
@@ -266,19 +296,27 @@ The **half-life** is the time taken for a quantity to reduce to half its initial
 
 For exponential decay with rate $r$:
 
-$$t_{1/2} = \frac{\ln 2}{-\ln(1 - r)}$$
+$$
+t_{1/2} = \frac{\ln 2}{-\ln(1 - r)}
+$$
 
 **Worked Example.** A substance has a half-life of 6 hours. If the initial mass is 80 g, find the
 Mass after 24 hours.
 
-$$\mathrm{Number of half-lives = \frac{24}{6} = 4$$
-$$\mathrm{Mass = 80 \times \left(\frac{1}{2}\right)^4 = 80 \times \frac{1}{16} = 5 \mathrm{ g$$
+$$
+\mathrm{Number of half-lives = \frac{24}{6} = 4
+$$
+$$
+\mathrm{Mass = 80 \times \left(\frac{1}{2}\right)^4 = 80 \times \frac{1}{16} = 5 \mathrm{ g
+$$
 
 **Worked Example (Higher Tier).** The mass of a radioactive substance after $t$ years is given by
 $m = 200 \times 0.95^t$ grams. Find the half-life.
 
 $$100 = 200 \times 0.95^t$$ $$0.5 = 0.95^t$$
-$$t = \frac{\ln 0.5}{\ln 0.95} = \frac{-0.693}{-0.0513} \approx 13.5 \mathrm{ years$$
+$$
+t = \frac{\ln 0.5}{\ln 0.95} = \frac{-0.693}{-0.0513} \approx 13.5 \mathrm{ years
+$$
 
 ## 5. Compound Measures
 
@@ -293,16 +331,22 @@ $$t = \frac{\ln 0.5}{\ln 0.95} = \frac{-0.693}{-0.0513} \approx 13.5 \mathrm{ ye
 **Worked Example.** A block of metal has mass 1.8 kg and volume 200 cm$^3$. Find its density in
 G/cm$^3$.
 
-$$\rho = \frac{1800 \mathrm{ g}{200 \mathrm{ cm^3} = 9 \mathrm{ g/cm^3$$
+$$
+\rho = \frac{1800 \mathrm{ g}{200 \mathrm{ cm^3} = 9 \mathrm{ g/cm^3
+$$
 
 **Worked Example.** A force of 600 N acts on an area of 0.75 m$^2$. Find the pressure.
 
-$$P = \frac{600}{0.75} = 800 \mathrm{ Pa$$
+$$
+P = \frac{600}{0.75} = 800 \mathrm{ Pa
+$$
 
 **Worked Example (Higher Tier).** A pressure of 5000 Pa is exerted on an area of 0.04 m$^2$. Find
 The force.
 
-$$F = P \times A = 5000 \times 0.04 = 200 \mathrm{ N$$
+$$
+F = P \times A = 5000 \times 0.04 = 200 \mathrm{ N
+$$
 
 ### 5.2 Unit Conversions
 
@@ -316,7 +360,9 @@ $$F = P \times A = 5000 \times 0.04 = 200 \mathrm{ N$$
 
 **Worked Example.** Convert 72 km/h to m/s.
 
-$$72 \mathrm{ km/h = \frac{72000 \mathrm{ m}{3600 \mathrm{ s} = 20 \mathrm{ m/s$$
+$$
+72 \mathrm{ km/h = \frac{72000 \mathrm{ m}{3600 \mathrm{ s} = 20 \mathrm{ m/s
+$$
 
 **Shortcut:** To convert km/h to m/s, divide by 3.6. To convert m/s to km/h, multiply by 3.6.
 
@@ -324,12 +370,16 @@ $$72 \mathrm{ km/h = \frac{72000 \mathrm{ m}{3600 \mathrm{ s} = 20 \mathrm{ m/s$
 
 **Worked Example.** The exchange rate is 1 pound = 1.25 euros. Convert 240 pounds to euros.
 
-$$240 \times 1.25 = 300 \mathrm{ euros$$
+$$
+240 \times 1.25 = 300 \mathrm{ euros
+$$
 
 **Worked Example (Higher Tier).** The exchange rate is 1 dollar = 0.82 pounds. A laptop costs 899
 Dollars. How much is this in pounds?
 
-$$899 \times 0.82 = 737.18 \mathrm{ pounds$$
+$$
+899 \times 0.82 = 737.18 \mathrm{ pounds
+$$
 
 ### 5.4 Best Buy Problems
 
@@ -338,8 +388,12 @@ Compare the **unit cost** (cost per gram, per litre, etc.) of different products
 **Worked Example.** Brand A: 400 g for 3.20 pounds. Brand B: 650 g for 4.55 pounds. Which is better
 Value?
 
-$$\mathrm{Brand A:  \frac{320}{400} = 0.80 \mathrm{ p/g$$
-$$\mathrm{Brand B:  \frac{455}{650} = 0.70 \mathrm{ p/g$$
+$$
+\mathrm{Brand A:  \frac{320}{400} = 0.80 \mathrm{ p/g
+$$
+$$
+\mathrm{Brand B:  \frac{455}{650} = 0.70 \mathrm{ p/g
+$$
 
 Brand B is better value (lower cost per gram).
 
@@ -366,7 +420,9 @@ Is proportional).
 **Worked Example.** A conversion graph between miles and kilometres passes through $(0, 0)$ and
 $(5, 8)$. Find the conversion factor.
 
-$$\mathrm{Gradient = \frac{8 - 0}{5 - 0} = 1.6$$
+$$
+\mathrm{Gradient = \frac{8 - 0}{5 - 0} = 1.6
+$$
 
 So 1 mile = 1.6 km.
 

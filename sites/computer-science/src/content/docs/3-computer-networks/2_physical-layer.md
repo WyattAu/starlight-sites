@@ -51,7 +51,9 @@ Line-of-sight constraints.
 - **Bit rate:** Number of bits transmitted per second (bps).
 - **Nyquist theorem:** For a noiseless channel of bandwidth $H$ Hz with $V$ discrete signal levels:
 
-$$C = 2H \log_2 V \;\mathrm{bps}$$
+$$
+C = 2H \log_2 V \;\mathrm{bps}
+$$
 
 **Theorem 2.1 (Nyquist--Shannon Sampling Theorem).** A bandlimited signal of bandwidth $H$ Hz can Be
 perfectly reconstructed from samples taken at a rate of at least $2H$ samples per second.
@@ -65,7 +67,9 @@ $H$. When $f_s \lt 2H$Aliasing occurs and perfect recovery is Impossible. $\blac
 
 - **Shannon capacity:** For a noisy channel with signal-to-noise ratio $\mathrm{SNR}$:
 
-$$C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}$$
+$$
+C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}
+$$
 
 **Theorem 2.2 (Shannon--Hartley Theorem).** The channel capacity $C$ is the maximum error-free data
 Rate achievable on a channel of bandwidth $H$ with signal-to-noise ratio $\mathrm{SNR}$.
@@ -101,8 +105,12 @@ A satellite channel has a bandwidth of 36 MHz and an SNR of 30 dB. Find the maxi
 First convert SNR from dB to linear: $$\mathrm{SNR_}{\mathrm{linear} = 10^{30/10} = 1000}$$
 
 Apply Shannon's formula: $$C = H \log_2(1 + \mathrm{SNR}) = 36 \times 10^6 \times \log_2(1001)$$
-$$\log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967$$
-$$C = 36 \times 10^6 \times 9.967 \approx 358.8 \times 10^6 \;\mathrm{bps} \approx 358.8\;\mathrm{Mbps}$$
+$$
+\log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967
+$$
+$$
+C = 36 \times 10^6 \times 9.967 \approx 358.8 \times 10^6 \;\mathrm{bps} \approx 358.8\;\mathrm{Mbps}
+$$
 
 **Answer:** The maximum achievable data rate is approximately 358.8 Mbps. Any attempt to exceed This
 rate will result in an unacceptable error rate regardless of the modulation scheme used.
@@ -117,14 +125,18 @@ A channel has $H = 6000$ Hz and $\mathrm{SNR} = 1023$ (30 dB).
 **Shannon limit:** $$C = 6000 \times \log_2(1024) = 6000 \times 10 = 60000\;\mathrm{bps}$$
 
 **Nyquist limit with $V = 8$:**
-$$C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}$$
+$$
+C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}
+$$
 
 The Nyquist limit (36 kbps) is below the Shannon limit (60 kbps), so 8 signal levels are Achievable.
 With $V = 64$: $$C = 12000 \times 6 = 72000\;\mathrm{bps}$$
 
 This exceeds Shannon's limit of 60 kbps, meaning 64 levels would produce errors. The maximum Number
 of levels consistent with Shannon:
-$$C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \implies V = 32}$$
+$$
+C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \implies V = 32}
+$$
 
 **Answer:** At most 32 signal levels can be used reliably on this channel.
 
@@ -172,14 +184,22 @@ $\log_2 M = 2k$ bits. The symbol rate equals the bandwidth $B$ (Nyquist: 2 symbo
 
 A 256-QAM modem operates over a 20 MHz channel. What is the maximum data rate?
 
-$$M = 256, \quad \log_2 256 = 8 \;\mathrm{bits}/symbol$$
+$$
+M = 256, \quad \log_2 256 = 8 \;\mathrm{bits}/symbol
+$$
 
-$$\mathrm{Bit}\;rate = 8 \times 20 \times 10^6 = 160\;\mathrm{Mbps}$$
+$$
+\mathrm{Bit}\;rate = 8 \times 20 \times 10^6 = 160\;\mathrm{Mbps}
+$$
 
 If the channel has SNR = 24 dB, verify against Shannon:
 
-$$\mathrm{SNR_}{\mathrm{linear} = 10^{24/10} = 251.2}$$
-$$C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \approx 159.6\;\mathrm{Mbps}$$
+$$
+\mathrm{SNR_}{\mathrm{linear} = 10^{24/10} = 251.2}
+$$
+$$
+C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \approx 159.6\;\mathrm{Mbps}
+$$
 
 The Nyquist-based rate (160 Mbps) is very close to the Shannon limit (159.6 Mbps), meaning 256-QAM
 Is near-optimal for this channel but has almost no margin for noise or interference.

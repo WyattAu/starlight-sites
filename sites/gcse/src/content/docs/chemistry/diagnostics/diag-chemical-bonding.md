@@ -255,7 +255,9 @@ with supporting examples.
 
 (b) The balanced equation is:
 
-$$2\text{Na} + \text{Cl}_2 \rightarrow 2\text{NaCl}$$
+$$
+2\text{Na} + \text{Cl}_2 \rightarrow 2\text{NaCl}
+$$
 
 Each sodium atom loses one electron to become $\text{Na}^+$, and each chlorine atom gains one
 electron to become $\text{Cl}^-$. The product is sodium chloride, which has ionic bonding -- the

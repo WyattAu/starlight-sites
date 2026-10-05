@@ -22,15 +22,21 @@ description: 'When an electron adiabatically traverses a closed loop in -space, 
 When an electron adiabatically traverses a closed loop in $\mathbf{k}$-space, its Bloch state
 acquires a geometric phase:
 
-$$\gamma_n(\mathcal{C}) = i\oint_{\mathcal{C}} \langle u_{n\mathbf{k}}|\nabla_{\mathbf{k}} u_{n\mathbf{k}}\rangle \cdot d\mathbf{k}$$
+$$
+\gamma_n(\mathcal{C}) = i\oint_{\mathcal{C}} \langle u_{n\mathbf{k}}|\nabla_{\mathbf{k}} u_{n\mathbf{k}}\rangle \cdot d\mathbf{k}
+$$
 
 The **Berry curvature** is the $\mathbf{k}$-space analog of a magnetic field:
 
-$$\boldsymbol{\Omega}_n(\mathbf{k}) = \nabla_{\mathbf{k}} \times \langle u_{n\mathbf{k}}|i\nabla_{\mathbf{k}} u_{n\mathbf{k}}\rangle$$
+$$
+\boldsymbol{\Omega}_n(\mathbf{k}) = \nabla_{\mathbf{k}} \times \langle u_{n\mathbf{k}}|i\nabla_{\mathbf{k}} u_{n\mathbf{k}}\rangle
+$$
 
 The Berry phase for a loop $\mathcal{C}$ enclosing area $\mathcal{A}$ is:
 
-$$\gamma = \int_{\mathcal{A}} \boldsymbol{\Omega} \cdot d\mathcal{A}$$
+$$
+\gamma = \int_{\mathcal{A}} \boldsymbol{\Omega} \cdot d\mathcal{A}
+$$
 
 For graphene near a Dirac point, the Berry phase is $\gamma = \pi$ (a half-flux quantum), which
 leads to the **absence of backscattering** and contributes to the high mobility of graphene.
@@ -59,7 +65,9 @@ spins moving in opposite directions).
 **Weyl semimetals** have band touchings at discrete points (Weyl nodes) in the Brillouin zone where
 the dispersion is linear in all three directions:
 
-$$\varepsilon(\mathbf{k}) = \pm\hbar v_F |\mathbf{k} - \mathbf{k}_W|$$
+$$
+\varepsilon(\mathbf{k}) = \pm\hbar v_F |\mathbf{k} - \mathbf{k}_W|
+$$
 
 Weyl nodes come in pairs of opposite chirality and are topologically protected. Key signatures:
 
@@ -109,11 +117,15 @@ chirality). Examples: Na$_3$Bi, Cd$_3$As$_2$.
 
 The **Chern number** for a 2D band is the integral of the Berry curvature over the Brillouin zone:
 
-$$C = \frac{1}{2\pi}\int_{\text{BZ} \Omega_z(\mathbf{k})\, d^2k}$$
+$$
+C = \frac{1}{2\pi}\int_{\text{BZ} \Omega_z(\mathbf{k})\, d^2k}
+$$
 
 The Chern number is an integer (topological invariant). The Hall conductivity is quantised:
 
-$$\sigma_{xy} = C\frac{e^2}{h}$$
+$$
+\sigma_{xy} = C\frac{e^2}{h}
+$$
 
 For the integer quantum Hall effect with filling factor $\nu$, $C = \nu$.
 
@@ -129,7 +141,9 @@ disorder.
 The $Z_2$ invariant $\nu$ for a 3D TI with inversion symmetry can be computed from the parity
 eigenvalues $\xi_{2m}(\Lambda_i)$ at the eight time-reversal-invariant momenta (TRIM) $\Lambda_i$:
 
-$$(-1)^\nu = \prod_{i=1}^8 \prod_{m=1}^N \xi_{2m}(\Lambda_i)$$
+$$
+(-1)^\nu = \prod_{i=1}^8 \prod_{m=1}^N \xi_{2m}(\Lambda_i)
+$$
 
 where $N$ is the number of occupied bands and $\xi_{2m}(\Lambda_i) = \pm 1$ is the parity eigenvalue
 of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicates $\nu = 1$ (TI).
