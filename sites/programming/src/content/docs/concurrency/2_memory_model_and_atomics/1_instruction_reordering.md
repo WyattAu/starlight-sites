@@ -138,7 +138,7 @@ On ARM, it is possible for both loads to see 0 (Load-Load reordering and Load-St
 
 A CPU can forward a store value directly from the store buffer to a subsequent load to the same
 Address, bypassing the cache. This is called **store forwarding**. While this is an optimization
-Rather than a reordering, it means a thread can always see its own stores immediately, even if other
+rather than a reordering, it means a thread can always see its own stores immediately, even if other
 Threads cannot.
 
 ### Interleaving Diagram: Store Buffering Litmus Test

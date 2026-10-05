@@ -125,7 +125,7 @@ This means that an `extern template` declaration suppresses implicit instantiati
 Uses**. If the template is used in a context that requires its definition (e.g., taking its address,
 Or using it in a constant expression), the compiler may still need to instantiate it. The practical
 Consequence is that `extern template` is most effective for function templates and class templates
-Whose member functions are called --- the call site emits a reference, not a definition.
+whose member functions are called --- the call site emits a reference, not a definition.
 
 ## Proof: Explicit Instantiation Definition Prevents Implicit Instantiation
 

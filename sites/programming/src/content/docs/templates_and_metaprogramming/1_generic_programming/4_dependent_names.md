@@ -427,7 +427,7 @@ Member template (a template member function or a nested template class). The rul
 | `T::func&lt;Args&gt;()` where `T` is non-dependent               | No                   | `std::make_shared&lt;int&gt;()`         |
 
 The `template` disambiguator is needed in exactly the same situations where the compiler would
-Otherwise parse the `&lt;` as a less-than operator rather than the start of a template argument
+otherwise parse the `&lt;` as a less-than operator rather than the start of a template argument
 List.
 
 ## ADL and Dependent Names

@@ -239,7 +239,7 @@ class Student:
 ### Memory Layout
 
 Fields are stored contiguously in memory, in the order declared. The size of a record is the sum of
-Its field sizes, plus any **padding** added for alignment.
+its field sizes, plus any **padding** added for alignment.
 
 **Alignment rule:** On most architectures, an $n$-byte field must be stored at an address that is a
 Multiple of $n$ (or the largest alignment requirement).

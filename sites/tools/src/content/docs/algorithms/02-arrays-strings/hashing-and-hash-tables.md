@@ -427,7 +427,7 @@ class DoubleHashingHashTable:
 
 Robin Hood hashing reduces the variance of probe lengths. When inserting, if the new element has
 Probed more times than the element at the current slot (i.e., the new element is "poorer"), swap
-Them. The new element continues probing from the swapped position.
+them. The new element continues probing from the swapped position.
 
 The key insight: instead of minimising the average probe length, Robin Hood minimises the variance,
 Which means worst-case lookups are much faster. The probe length of an element never exceeds

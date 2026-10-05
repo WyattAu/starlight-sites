@@ -850,7 +850,7 @@ Information and communication technology and those who do not.
 
 **Definition.** **E-waste** (electronic waste) refers to discarded electrical or electronic devices.
 The UN estimates approximately 50 million tonnes of e-waste are generated globally each year, of
-Which only about 20% is formally recycled.
+which only about 20% is formally recycled.
 
 Key issues:
 

@@ -125,7 +125,7 @@ Tunnels, or pipelines.
 
 Demand-side strategies reduce water consumption without increasing supply. They are generally
 Cheaper, more environmentally sustainable, and faster to implement than supply-side strategies, but
-Their effectiveness depends on strong governance, appropriate pricing, and behavioural change.
+their effectiveness depends on strong governance, appropriate pricing, and behavioural change.
 
 | Strategy                       | Mechanism                                                                                                               | Effectiveness                                                                                              | Limitations                                                                                                             |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |

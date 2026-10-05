@@ -40,7 +40,7 @@ of salt preparation. It is essential for both Ordinary and Higher Level.
 ### Conjugate Acid-Base Pairs (HL)
 
 When an acid donates a proton, it forms its conjugate base. When a base accepts a proton, it forms
-Its conjugate acid.
+its conjugate acid.
 
 $$
 \mathrm{HA + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{H_3\mathrm{O^+ + \mathrm{A^-

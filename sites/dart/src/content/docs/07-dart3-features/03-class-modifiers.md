@@ -26,7 +26,7 @@ Libraries. Before Dart 3, any class could be extended, implemented, or mixed in 
 was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
 
 The problem: maximum flexibility is maximum liability. Library authors could not prevent misuse of
-Their APIs. A class designed for inheritance could be `implement`-ed (losing all behavior). A class
+their APIs. A class designed for inheritance could be `implement`-ed (losing all behavior). A class
 Designed as a pure interface could be `extend`-ed (coupling to implementation details). A class
 Designed as a leaf could be subclassed (breaking invariants).
 

@@ -92,7 +92,7 @@ more explicitly commercial ethos.
 
 The play stages this cultural collision in microcosm. Stanley Kowalski, the son of Polish
 Immigrants, represents the new urban America: physically vigorous, sexually direct, democratic in
-His instincts (his poker friends include Jews, Italians, and Irishmen), and contemptuous of
+his instincts (his poker friends include Jews, Italians, and Irishmen), and contemptuous of
 Aristocratic pretension. Blanche DuBois represents the dying Old South: educated, refined, obsessed
 with lineage and manners, but also decadent, hypocritical, and unable to survive in the modern
 World. Their conflict is not merely interpersonal; it is civilisational.
@@ -168,7 +168,7 @@ Later stage directions become increasingly expressionistic as Blanche's mental s
 In Scene 10, the stage direction reads: "The 'Varsouviana' is heard. The night is filled with
 Inhuman voices like cries in a jungle." The music and the jungle imagery are not realistic; they
 Externalise Blanche's psychological disintegration, transforming the apartment into a projection of
-Her terror. This technique -- using stage design and sound to render subjective experience visible
+her terror. This technique -- using stage design and sound to render subjective experience visible
 and audible -- is the hallmark of Williams's plastic theater.
 
 ### Expressionist Techniques: Music, Lighting, Color Symbolism
@@ -386,7 +386,7 @@ Vital and destructive.
 
 The rape scene is the play's moral centre, and it demands careful analysis. Williams does not stage
 the rape explicitly; the stage direction reads: "He crosses to her and seizes her. She strikes at
-Him. He catches her wrist. She sinks to her knees. He picks up her inert figure and carries her to
+him. He catches her wrist. She sinks to her knees. He picks up her inert figure and carries her to
 the bed." The violence is elliptical, conveyed through implication rather than representation, and
 this ellipsis is itself significant: Williams forces the audience to confront the act in their
 Imagination, where it is more disturbing than any literal depiction could be.
@@ -414,7 +414,7 @@ Illusion -- is sufficient for a fully human life.
 
 Stella is the play's most enigmatic character, and her role is often underestimated in critical
 Discussions that focus on the more flamboyant Blanche and Stanley. Yet Stella is the axis around
-Which the play's central conflict turns: she is the bridge between the Old South and the New,
+which the play's central conflict turns: she is the bridge between the Old South and the New,
 Between refined illusion and brutal reality, and her choices determine the outcome of the drama.
 
 **Pragmatism and Compromise.** Stella has chosen to leave behind the world of Belle Reve and embrace
@@ -458,7 +458,7 @@ of Blanche represents the play's most sustained attempt at emotional connection.
 Emotionally expressive model represented by his relationship with his mother and his interest in
 Blanche, and the aggressive, sexually dominant model represented by Stanley and the poker culture.
 Williams presents this conflict sympathetically: Mitch is not contemptible for his sensitivity, but
-His inability to reconcile it with the expectations of his social world renders him incapable of the
+his inability to reconcile it with the expectations of his social world renders him incapable of the
 Action that might save Blanche.
 
 Mitch's confrontation with Blanche in Scene 9 is one of the play's most painful scenes. Having
@@ -526,7 +526,7 @@ One grounded in physical dominance, material possession, and the assertion of ma
 Investigation of Blanche's past in Scene 7, for example, is presented as a quest for truth but is
 Motivated by a desire to destroy Blanche's credibility and eliminate her as a rival for Stella's
 Loyalty. The "truth" he uncovers -- Blanche's sexual history in Laurel -- is real, but the use to
-Which he puts it is manipulative and cruel.
+which he puts it is manipulative and cruel.
 
 Blanche's "illusions," similarly, are not merely fanciful but serve genuine psychological and social
 Functions. Her refusal to be seen in bright light is not mere vanity but a strategy for maintaining
@@ -763,7 +763,7 @@ the play.
 
 Scene 4 contains Blanche's most explicit articulation of the play's central metaphor. In a
 Conversation with Stella, she describes the itinerary that brought her to Elysian Fields: "They told
-Me to take a streetcar named Desire, and transfer to one called Cemeteries." She then elaborates on
+me to take a streetcar named Desire, and transfer to one called Cemeteries." She then elaborates on
 the symbolic meaning: "Desire -- death -- that's the way the old joke goes. The opposite of death is
 Desire."
 
@@ -811,13 +811,13 @@ Meanings: what has she done to Blanche, to her marriage, to her own moral integr
 Stella's decision to stay with Stanley is the play's most disturbing and most realistic element.
 Williams does not present it as a heroic act of loyalty or as a weak capitulation to abuse; rather,
 He presents it as a complex, morally ambiguous choice that reflects the genuine constraints under
-Which women live. Stella needs Stanley -- emotionally, sexually, economically -- and the play does
+which women live. Stella needs Stanley -- emotionally, sexually, economically -- and the play does
 not allow the audience to dismiss this need as false consciousness or internalised oppression.
 
 Blanche's final departure is staged with extraordinary tenderness. The doctor, initially presented
 as an anonymous authority figure, reveals himself to be kind and gentle: he takes off his hat and
 Speaks to Blanche with a courtesy that no other male character in the play has shown. Blanche, in
-Her final lucid moment, takes his arm and says: "Whoever you are -- I have always depended on the
+her final lucid moment, takes his arm and says: "Whoever you are -- I have always depended on the
 Kindness of strangers." This line -- at once heartbreaking and bitterly ironic -- encapsulates the
 Play's central paradox: that kindness, in Williams's world, is most often found among strangers,
 While those closest to us are the source of the greatest cruelty.
@@ -902,7 +902,7 @@ Blanche retreats into memories of the dead and the Varsouviana polka begins to p
 ### Music: The Varsouviana Polka
 
 The Varsouviana polka has been discussed above in the context of its function as a leitmotif, but
-Its symbolic significance extends beyond its narrative role. The polka is a dance -- a form of
+its symbolic significance extends beyond its narrative role. The polka is a dance -- a form of
 Structured, communal movement that implies order, repetition, and the possibility of harmony. But
 the Varsouviana is associated with the moment of greatest disorder in Blanche's life: the suicide of
 Allan Grey. The dissonance between the dance's cheerful form and its traumatic associations mirrors
@@ -968,7 +968,7 @@ Theater concept and demands careful attention from the reader.
 
 Blanche's first entrance is introduced by a stage direction that runs to several paragraphs: "Her
 Delicate beauty must avoid a strong light. There is something about her uncertain manner, as well as
-Her white clothes, that suggests a moth." This description -- which establishes Blanche's fragility,
+her white clothes, that suggests a moth." This description -- which establishes Blanche's fragility,
 Her aversion to truth, and her association with a creature drawn to flame -- is character exposition
 of extraordinary density and precision. It tells us, before Blanche speaks a single word, who she is
 and what her tragic trajectory will be.
@@ -1159,9 +1159,9 @@ Choice in the cultural context of 1947.
 
 A queer theory reading of _Streetcar_ centres on the play's exploration of non-normative desire,
 Gender performance, and the relationship between sexuality and identity. Blanche's character, with
-Her elaborate performance of femininity, her history of sexual transgression, and her ultimate
+her elaborate performance of femininity, her history of sexual transgression, and her ultimate
 Destruction by a normative masculine order, can be read as a figure for the queer subject: someone
-Whose identity is constructed through performance and whose relationship to dominant norms is one of
+whose identity is constructed through performance and whose relationship to dominant norms is one of
 both attraction and resistance.
 
 Allan Grey -- the absent presence at the heart of the play -- is the character most open To queer

@@ -215,7 +215,7 @@ void ref_counting_demo() {
 ### Control Block State Transition Diagram
 
 The control block moves through four distinct states during its lifetime. Each state determines
-Which operations are valid and what happens when the last reference of each type is released:
+which operations are valid and what happens when the last reference of each type is released:
 
 ```
                     ┌─────────────────────────────────────────────────────┐

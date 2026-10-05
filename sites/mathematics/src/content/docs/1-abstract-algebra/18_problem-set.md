@@ -200,7 +200,7 @@ _If you get this wrong, revise: Section 5.7, Theorem 5.6._
 <summary>Solution</summary>
 
 _Solution._ Conjugacy classes in $S_n$ are determined by cycle type. The cycle types in $S_4$ and
-Their sizes:
+their sizes:
 
 1. $(1)(2)(3)(4)$. Identity. Size: $1$.
 2. $(a\ b)$. Transpositions. Count: $\binom{4}{2} = 6$.

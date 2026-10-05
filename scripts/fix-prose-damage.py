@@ -129,6 +129,13 @@ CLOSED_CLASS = frozenset(
         "another", "other", "others", "much", "many", "few", "several",
         "enough", "more", "most", "less", "least", "than", "he", "she",
         "it", "they", "we", "you", "there", "here", "then", "thus", "hence",
+        # possessive/object pronouns and relative determiners. Closed class,
+        # and common enough at wrap points ("...releasing / Their contents")
+        # that leaving them out would forfeit several hundred safe repairs.
+        "him", "his", "her", "hers", "its", "ours", "our", "yours", "your",
+        "theirs", "their", "my",
+        "them", "us", "me", "my", "which", "whose", "whom", "what",
+        "rather", "unlike", "regardless", "otherwise", "instead", "meanwhile",
         "therefore", "however", "moreover", "furthermore", "also", "only",
         "even", "not", "when", "where", "while", "whenever", "wherever",
         "whatever", "whoever", "so", "very", "just", "quite",
@@ -145,6 +152,17 @@ RE_FIRST_WORD = re.compile(r"^([A-Z])([a-z]+\b)")
 RE_RUNON = re.compile(r"(?<![\w$])(\$[^$\n]{1,120}\$)\s+([A-Z][a-z]{2,})\b")
 
 PLACEHOLDER = "\x00{}\x00"
+
+
+def load_approved(path: str) -> frozenset[str]:
+    """Read an approved word list from scripts/prose-capitalisation-worklist.py."""
+    words: set[str] = set()
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            w = line.split("#", 1)[0].strip()
+            if w and re.fullmatch(r"[A-Za-z][a-z]+", w):
+                words.add(w)
+    return frozenset(words)
 
 
 def is_prose(line: str) -> bool:
@@ -190,7 +208,9 @@ def fix_line(line: str) -> tuple[str, int]:
     return out, n
 
 
-def fix_continuation(line: str, prev: str | None) -> tuple[str, int, str]:
+def fix_continuation(
+    line: str, prev: str | None, approved: frozenset[str] = frozenset()
+) -> tuple[str, int, str]:
     """Apply classes 3 and 4. Returns (line, repair count, reason)."""
     if prev is None or not is_prose(line) or GOOD_END.search(prev):
         return line, 0, ""
@@ -201,10 +221,11 @@ def fix_continuation(line: str, prev: str | None) -> tuple[str, int, str]:
     if RE_NON_PREFIX.match(line):
         # `Non-` is the only capitalised content-word prefix in English prose.
         return "non" + line[3:], 1, "non-prefix"
-    if word.lower() not in CLOSED_CLASS:
+    if word.lower() not in CLOSED_CLASS and word not in approved:
         return line, 0, "ambiguous"
     # group(1) is the single leading capital; everything after it is intact.
-    return m.group(1).lower() + line[m.end(1) :], 1, "closed-class"
+    reason = "closed-class" if word.lower() in CLOSED_CLASS else "approved"
+    return m.group(1).lower() + line[m.end(1) :], 1, reason
 
 
 def run_ons(text: str) -> list[str]:
@@ -222,7 +243,9 @@ def run_ons(text: str) -> list[str]:
     return found
 
 
-def scan(paths: list[str]) -> tuple[list[tuple[str, list[str], list[str]]], list[str], int]:
+def scan(
+    paths: list[str], approved: frozenset[str] = frozenset()
+) -> tuple[list[tuple[str, list[str], list[str]]], list[str], int]:
     """Return (per-file repairs, run-on fragments, ambiguous count)."""
     repairs: list[tuple[str, list[str], list[str]]] = []
     runon_frags: list[str] = []
@@ -251,7 +274,7 @@ def scan(paths: list[str]) -> tuple[list[tuple[str, list[str], list[str]]], list
                 out[i] = new
                 touched = True
 
-            fixed, c, reason = fix_continuation(new, prev)
+            fixed, c, reason = fix_continuation(new, prev, approved)
             if reason == "ambiguous":
                 ambiguous += 1
             elif c:
@@ -269,7 +292,12 @@ def scan(paths: list[str]) -> tuple[list[tuple[str, list[str], list[str]]], list
 def main(argv: list[str]) -> int:
     check = "--check" in argv
     report = "--report" in argv
-    args = [a for a in argv if not a.startswith("--")]
+    approve = None
+    for i, a in enumerate(argv):
+        if a == "--approve" and i + 1 < len(argv):
+            approve = argv[i + 1]
+    approved = load_approved(approve) if approve else frozenset()
+    args = [a for a in argv if not a.startswith("--") and a != approve]
 
     if args:
         paths = sorted({f for a in args for f in glob.glob(a, recursive=True)})
@@ -279,19 +307,21 @@ def main(argv: list[str]) -> int:
             + glob.glob("sites/*/src/content/docs/**/*.mdx", recursive=True)
         )
 
-    repairs, _, ambiguous = scan(paths)
+    repairs, _, ambiguous = scan(paths, approved)
 
     if report:
-        total = 0
-        for _, _, frags in repairs:
-            total += len(frags)
+        total = sum(len(frags) for _, _, frags in repairs)
         print("un-repaired classes (worklist, needs an editor):")
-        print(f"  run-on math (missing full stop): see --report detail")
+        print(f"  run-on math (missing full stop): {total} occurrence(s)")
         print(f"  wrapped-line capitals, ambiguous content word: {ambiguous}")
-        print(
-            "Run with a glob and inspect with: "
-            "python3 scripts/fix-prose-damage.py --report <glob>"
-        )
+        if approved:
+            print(f"  (approved list applied: {len(approved)} word(s))")
+        else:
+            print(
+                "\n  Approve words in bulk with:\n"
+                "    python3 scripts/prose-capitalisation-worklist.py --emit approve.txt\n"
+                "    python3 scripts/fix-prose-damage.py --approve approve.txt"
+            )
         return 0
 
     if check:

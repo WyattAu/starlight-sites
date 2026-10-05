@@ -457,7 +457,7 @@ $$
 $$
 
 The term $\frac{Q}{V}$ is the current concentration in the tank, so $\frac{r_o}{V}Q$ is the rate at
-Which substance leaves.
+which substance leaves.
 :::
 
 :::note[Example]

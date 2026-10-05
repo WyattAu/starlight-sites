@@ -115,7 +115,7 @@ has 12 execution ports:
 | 11    | Load (AGU)                       |
 
 AMD Zen 4 has 10 execution ports with a different allocation. The key takeaway for tuning is that
-Your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
+your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
 every instruction depends on the previous one (a long dependency chain), most ports sit idle.
 
 ---
@@ -688,7 +688,7 @@ SMT may be unacceptable.
 
 CPU microcode updates can change power management behavior, fix errata, and even adjust boost
 Algorithms. After a microcode update (delivered via BIOS/UEFI or Linux firmware package), re-test
-Your tuning settings. A stable overclock or undervolt may become unstable after a microcode update.
+your tuning settings. A stable overclock or undervolt may become unstable after a microcode update.
 
 ### Measuring Frequency with the Wrong Tool
 

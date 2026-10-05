@@ -58,7 +58,7 @@ Group even at personal cost.
 **3. Social comparison:** The process of comparing one's in-group with relevant out-groups. People
 have a fundamental need for positive self-esteem (which they seek to satisfy through their social
 Identity). To maintain positive social identity, people engage in intergroup comparisons that favour
-Their in-group. This leads to:
+their in-group. This leads to:
 
 - **In-group favouritism:** Preferential treatment of members of one's own group (e.g., allocating
   more resources to in-group members, evaluating in-group members more positively).

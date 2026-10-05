@@ -349,7 +349,7 @@ A complete, objective account, and this is precisely the point.
 
 Both texts feature working-class characters who occupy a peripheral position relative to the central
 Tragedy yet possess critical knowledge that could prevent it. Neither intervenes effectively, making
-Them emblematic of the bystander effect and the moral paralysis that both authors critique.
+them emblematic of the bystander effect and the moral paralysis that both authors critique.
 
 ### Eunice
 
@@ -545,7 +545,7 @@ it conflicts with individual desire. Marquez does so by distributing guilt acros
 Community, using fragmented testimony to show how collective silence enables violence. Williams does
 so by concentrating the conflict in a single, devastating character arc, using plastic theatre to
 Make the audience feel Blanche's destruction from within. Both texts ultimately argue that societies
-Which prioritise codes over compassion produce tragedies that are, in different ways, foretold.
+which prioritise codes over compassion produce tragedies that are, in different ways, foretold.
 
 ## Practice Questions
 

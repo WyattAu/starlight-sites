@@ -51,7 +51,7 @@ Reference models are not academic exercises. They provide:
 The end-to-end principle (RFC 8890, originally articulated by Saltzer, Reed, and Clark in 1984) is
 Arguably the most important design principle of the Internet. It states that functions placed at the
 Lower levels of a system may be redundant or of little value when compared to the cost of providing
-Them at the higher levels.
+them at the higher levels.
 
 In practical terms: reliability, security, and ordering should be implemented at the endpoints (the
 Application), not in the network. The network"s job is to deliver packets as quickly and efficiently
@@ -762,7 +762,7 @@ into multiple broadcast domains. Routers separate broadcast domains entirely.
 ### VLANs and Layer 2 Segmentation
 
 VLANs (Virtual LANs, IEEE 802.1Q) divide a physical switch into multiple logical switches, each with
-Its own broadcast domain. VLANs add a 4-byte tag to the Ethernet frame:
+its own broadcast domain. VLANs add a 4-byte tag to the Ethernet frame:
 
 ```
 +-------------------+---------+-------------------+

@@ -58,7 +58,7 @@ Variance.
 Undervolting is the most compelling reason to tune for laptops and small-form-factor builds. A 100
 MV reduction on a 65 W CPU can shave 8–12 W off the package power, which translates directly to
 Longer battery life, lower fan noise, and a cooler chassis. On desktops, the same reduction means
-Your cooling solution lasts longer and your power bill is marginally lower.
+your cooling solution lasts longer and your power bill is marginally lower.
 
 ### Noise Reduction
 

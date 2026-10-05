@@ -191,7 +191,7 @@ Without nitrate ions, the plant cannot make amino acids (amino acids contain nit
 from nitrates). Without amino acids, the plant cannot make proteins. Proteins are needed for growth
 (new cells require proteins for their structure and enzymes), so the plant cannot grow properly. The
 Pale leaves are because the plant cannot make enough chlorophyll (chlorophyll contains nitrogen in
-Its structure), reducing the rate of photosynthesis.
+its structure), reducing the rate of photosynthesis.
 
 ### 1.6 Higher Tier: Limiting Factors and Greenhouse Management
 

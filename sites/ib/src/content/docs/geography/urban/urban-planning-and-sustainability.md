@@ -222,7 +222,7 @@ City aims to be carbon-neutral by 2050.
 
 Participatory planning involves the active engagement of citizens and communities in the planning
 and design of their neighbourhoods and cities. It moves beyond traditional top-down planning (in
-Which decisions are made by planners and politicians with limited public input) toward
+which decisions are made by planners and politicians with limited public input) toward
 Collaborative, bottom-up processes.
 
 **Methods of participation:**

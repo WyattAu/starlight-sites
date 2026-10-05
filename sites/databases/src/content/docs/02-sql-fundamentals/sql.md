@@ -842,7 +842,7 @@ an `ANALYZE`Or after a version upgrade.
 ### Using DISTINCT as a Substitute for Proper Joins
 
 `SELECT DISTINCT` to remove duplicates caused by an incorrect join is a performance anti-pattern. If
-Your join produces duplicates, the join condition or the schema is wrong. Fix the root cause.
+your join produces duplicates, the join condition or the schema is wrong. Fix the root cause.
 
 ### Forgetting That COUNT(column) Skips NULLs
 

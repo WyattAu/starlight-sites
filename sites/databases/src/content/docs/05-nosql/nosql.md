@@ -568,7 +568,7 @@ Service Architecture with Polyglot Persistence:
 Replication configuration, monitoring, upgrade path, and failure modes. Before introducing a new
 Database technology, ensure your team has the expertise to operate it in production. The cost of
 Operating 5 different databases often exceeds the cost of operating one database that handles 80% of
-Your use cases adequately.
+your use cases adequately.
 
 ## Intuition
 
@@ -673,7 +673,7 @@ Garbage (tombstones in OR-Set).
 ### LSM Trees (Log-Structured Merge Trees)
 
 Most NoSQL databases that are write-optimised (Cassandra, RocksDB, LevelDB, HBase) use LSM trees
-Instead of B-trees. LSM trees batch writes in memory and flush to disk in sorted runs, which
+instead of B-trees. LSM trees batch writes in memory and flush to disk in sorted runs, which
 Dramatically reduces write amplification.
 
 **Write path:**

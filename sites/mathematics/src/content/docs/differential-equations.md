@@ -28,7 +28,7 @@ import Citations from '@components/Citations.astro'
 A **differential equation (DE)** is an equation involving an unknown function and its derivatives.
 An **ordinary differential equation (ODE)** involves a function of one variable and its ordinary
 Derivatives. A **partial differential equation (PDE)** involves a function of several variables and
-Its partial derivatives.
+its partial derivatives.
 
 ### 1.2 Classification of ODEs
 

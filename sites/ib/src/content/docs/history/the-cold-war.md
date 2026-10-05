@@ -142,7 +142,7 @@ Afford to support the Greek monarchy against communist insurgents or maintain it
 in the Turkish Straits.
 
 In response, President Truman addressed a joint session of Congress on 12 March 1947, articulating
-What would become known as the Truman Doctrine. The core principle was containment: the United
+what would become known as the Truman Doctrine. The core principle was containment: the United
 States would provide political, military, and economic assistance to all democratic nations under
 Threat from external or internal authoritarian forces. Truman requested and received $400 million in
 Aid for Greece and Turkey.
@@ -440,7 +440,7 @@ on the Moon, while Michael Collins orbited above.
 
 The American victory in the Space Race was decisive, but it came at enormous cost. The Apollo
 Programme consumed a significant proportion of NASA's budget, and its scientific value relative to
-Its cost remains debated. Politically, however, it was a triumph: it demonstrated American
+its cost remains debated. Politically, however, it was a triumph: it demonstrated American
 Technological superiority at a time when the Vietnam War was eroding American prestige and
 Confidence.
 
@@ -577,7 +577,7 @@ Nuclear parity. By the late 1960s, the Soviet Union had achieved rough numerical
 United States in strategic nuclear weapons. This parity made the concept of "nuclear superiority"
 Increasingly meaningless as a basis for strategy and reinforced the logic of MAD. If neither side
 could win a nuclear war, then the competition had to be managed through diplomacy and arms control
-Rather than through the futile pursuit of strategic advantage.
+rather than through the futile pursuit of strategic advantage.
 
 Economic burden. The arms race was imposing enormous costs on both superpowers. For the United
 States, the combined burden of the Vietnam War and military spending was creating inflationary
@@ -1168,7 +1168,7 @@ Contradictions of managing a competition while reducing tensions.
 **End of the Cold War:** "Assess the relative importance of internal and external factors in
 Bringing about the end of the Cold War." This is a classic comparative question requiring balanced
 Analysis of Soviet economic and political decline, Western pressure, and the role of Gorbachev and
-His reforms.
+his reforms.
 
 ## Common Pitfalls
 

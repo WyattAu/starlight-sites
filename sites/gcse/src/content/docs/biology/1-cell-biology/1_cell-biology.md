@@ -532,7 +532,7 @@ Membrane.
 
 **Why active transport is necessary.** Diffusion alone cannot always supply a cell with everything
 It needs. For example, root hair cells in plants need to absorb mineral ions from the soil, where
-Their concentration is already very low. Diffusion would move ions out of the cell, not into it.
+their concentration is already very low. Diffusion would move ions out of the cell, not into it.
 Active transport uses energy to pump ions into the cell against the concentration gradient.
 
 **Example:** Mineral ions in the soil are absorbed by root hair cells against the concentration

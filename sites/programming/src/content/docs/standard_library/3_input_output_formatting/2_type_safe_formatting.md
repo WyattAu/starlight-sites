@@ -315,7 +315,7 @@ Error messages (stderr is unbuffered) or protect stdout with a mutex.
 ### Custom Type Formatter
 
 To make a user-defined type work with `std::format`You must specialize `std::formatter&lt;T>` for
-Your type [N4950 §22.14.6.3]. The specialization must be placed in the `std` namespace and provide:
+your type [N4950 §22.14.6.3]. The specialization must be placed in the `std` namespace and provide:
 
 1. A `parse()` method that parses the format specification (everything after `:`).
 2. A `format()` method that produces the output.

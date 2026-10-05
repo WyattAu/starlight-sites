@@ -48,7 +48,7 @@ Own instructions (though modern systems prevent this for security).
 ### Definition
 
 The **Harvard architecture** uses **separate memory spaces** for instructions and data, each with
-Its own bus.
+its own bus.
 
 ### Comparison: Von Neumann vs Harvard
 

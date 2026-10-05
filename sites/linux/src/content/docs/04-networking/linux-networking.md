@@ -142,7 +142,7 @@ ip route flush table cache    # flush routing cache
 ### Policy Routing
 
 Linux supports multiple routing tables and policy-based routing (PBR). The `ip rule` command selects
-Which routing table to use based on source address, destination address, TOS, firewall mark, etc.
+which routing table to use based on source address, destination address, TOS, firewall mark, etc.
 
 ```bash
 # List routing rules

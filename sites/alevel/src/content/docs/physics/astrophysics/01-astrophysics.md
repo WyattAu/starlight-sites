@@ -417,7 +417,7 @@ So that $\Delta \lambda / \lambda = z = v/c$ for $v \ll c$.
 ### Hubble's Law
 
 Edwin Hubble (1929) discovered a linear relationship between the recession velocity of galaxies and
-Their distance:
+their distance:
 
 $$
 \boxed{v = H_0 d}
@@ -745,7 +745,7 @@ $$
 $$
 
 This is in the **ultraviolet** region. The star appears blue-white to the human eye, with most of
-Its visible output at shorter (blue) wavelengths.
+its visible output at shorter (blue) wavelengths.
 
 </details>
 

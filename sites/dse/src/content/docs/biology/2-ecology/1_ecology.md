@@ -26,7 +26,7 @@ Over successive generations, driven by mechanisms such as natural selection, gen
 Flow, and mutation.
 
 Evolution operates on populations, not individuals. An individual organism does not evolve during
-Its lifetime; rather, the genetic composition of the population shifts across generations. The unit
+its lifetime; rather, the genetic composition of the population shifts across generations. The unit
 of evolution is the population; the unit of selection is the individual (or, the Gene).
 
 ### Evidence for Evolution
@@ -769,7 +769,7 @@ $$
 
 :::note
 Energy-efficient than warm-blooded ones. In DSE calculations, use 10% unless the question specifies
-Otherwise.
+otherwise.
 :::
 
 ### Nutrient Cycles

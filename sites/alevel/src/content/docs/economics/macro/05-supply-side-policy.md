@@ -410,7 +410,7 @@ $$
 The crucial insight is that **the optimal policy mix varies by sector and context**. Financial
 Services may benefit most from deregulation and competition, while education and infrastructure
 Require government leadership. A pragmatic approach selects the appropriate tool for each situation
-Rather than adhering to a rigid ideological position.
+rather than adhering to a rigid ideological position.
 
 :::note
 Of market-oriented and interventionist supply-side policies. Edexcel (A) Paper 3 may present a

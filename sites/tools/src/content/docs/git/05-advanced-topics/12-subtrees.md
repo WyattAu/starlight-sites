@@ -542,7 +542,7 @@ Mitigate by:
 
 The `git subtree pull` and `git subtree push` commands require the repository URL every time. If you
 do not add a named remote, you must type the full URL on every command, and it must match exactly
-What you used for `git subtree add`:
+what you used for `git subtree add`:
 
 ```bash
 # WRONG: different URL (even if it resolves to the same repo)

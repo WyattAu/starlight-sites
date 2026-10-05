@@ -897,7 +897,7 @@ $$
 $$
 
 The error in $\sqrt[3]{126}$ is at most $5 \times 5.3 \times 10^{-9} \approx 2.7 \times 10^{-8}$
-Which is negligible for 4 decimal places. The approximation $5.0133$ is reliable.
+which is negligible for 4 decimal places. The approximation $5.0133$ is reliable.
 
 </details>
 <b>If you get this wrong, revise:</b> [Binomial approximation and error estimation](#6-binomial-approximation-and-error-estimation)

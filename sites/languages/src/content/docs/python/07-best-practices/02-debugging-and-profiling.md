@@ -1188,7 +1188,7 @@ no-ops without requiring code changes. Better yet, use a linter rule that forbid
 
 CProfile measures wall-clock time by default. If your function spends 90% of its time waiting for a
 Database query, cProfile reports that the function is slow, but the bottleneck is the database, not
-Your Python code. For I/O-bound profiling, you need to separate I/O time from CPU time. Use
+your Python code. For I/O-bound profiling, you need to separate I/O time from CPU time. Use
 `cProfile` with `timer=time.process_time` (measures CPU time only) or use async profiling tools that
 Distinguish between waiting and computing.
 

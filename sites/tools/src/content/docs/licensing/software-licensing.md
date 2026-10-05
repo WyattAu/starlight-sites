@@ -175,7 +175,7 @@ Incorporate code that is available only under GPLv3.
 
 **Why GPLv2 is incompatible with GPLv3:** GPLv2 Section 4 states: "You may not copy, modify,
 Sublicense, or distribute the Program except as expressly provided under this License. Any attempt
-Otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically
+otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically
 Terminate your rights under this License." GPLv3 adds restrictions that are not present in GPLv2
 (patent retaliation, anti-Tivoization, additional source distribution requirements). Since GPLv2
 Prohibits adding restrictions, and GPLv3 adds restrictions, GPLv2-only code cannot be combined with
@@ -806,7 +806,7 @@ Restricted tier.
 
 Dependency license auditing is an essential operational practice for any organization that
 Distributes software. The goal is to maintain a complete, accurate inventory of every license in
-Your dependency tree and to identify compliance risks before they become legal problems.
+your dependency tree and to identify compliance risks before they become legal problems.
 
 **Automated tools:**
 
@@ -918,7 +918,7 @@ on a GPLv2-only project (like the Linux kernel), you cannot incorporate Apache 2
 **Not including license notices in binary distributions.** Most permissive licenses (MIT, BSD,
 Apache 2.0) require including the license text in binary distributions. This is not optional, it is
 A condition of the license grant. Failing to include license notices in your shipped binaries means
-Your downstream recipients do not have a valid license to use the software, and you are committing
+your downstream recipients do not have a valid license to use the software, and you are committing
 Copyright infringement. In practice, your binary distribution must include a `LICENSE` file, a
 `NOTICE` file (for Apache 2.0), or equivalent documentation containing all applicable license texts
 and copyright notices. Automate this, tools like `licensee``go-licenses`And `pip-licenses` can

@@ -793,7 +793,7 @@ data.par_iter().enumerate().for_each(|(i, &x)| {
 ```
 
 Rayon uses a work-stealing scheduler: each thread has a local deque of tasks. When a thread finishes
-Its work, it steals tasks from other threads' deques. This provides automatic load balancing without
+its work, it steals tasks from other threads' deques. This provides automatic load balancing without
 Central coordination.
 
 ### Async Mutex (tokio)
@@ -862,7 +862,7 @@ unsafe impl Sync for MyType {}
 
 :::danger
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
-Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
+your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
 Thread safety (e.g., when using platform-specific synchronization primitives that the compiler
 cannot see).
 

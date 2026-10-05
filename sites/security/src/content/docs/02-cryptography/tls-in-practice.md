@@ -45,7 +45,7 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt \
 
 :::caution
 Explicitly trusted. Never use self-signed certificates in production for public-facing services. Use
-Them only for internal services where you control the trust store.
+them only for internal services where you control the trust store.
 
 ## ACME Protocol
 
@@ -630,7 +630,7 @@ openssl x509 -in cert.pem -noout -text | grep -A1 "Subject Alternative Name"
 ### Disabling TLS 1.0/1.1 Too Early
 
 While TLS 1.0 and 1.1 are deprecated (RFC 8996), some legacy clients still require them. Disable
-Them only after auditing client requirements. PCI DSS 3.2.1 mandated disabling TLS 1.0 by June 2018
+them only after auditing client requirements. PCI DSS 3.2.1 mandated disabling TLS 1.0 by June 2018
 and TLS 1.1 by June 2019.
 
 ## Summary

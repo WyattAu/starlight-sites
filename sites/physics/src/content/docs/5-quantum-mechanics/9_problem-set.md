@@ -34,7 +34,7 @@ Small-angle approximation $\sin\theta \approx \theta$ for the double-slit formul
 $d\sin\theta = \lambda$.
 
 **4.** (Postulates) Explain why the state space of quantum mechanics must be a complex vector space
-Rather than a real vector space. Give a physical example that demonstrates the necessity of Complex
+rather than a real vector space. Give a physical example that demonstrates the necessity of Complex
 amplitudes. Hint: consider the Mach-Zehnder interferometer with phase shifters.
 
 **5.** (Continuity equation) Starting from the Schrodinger equation, derive the continuity equation

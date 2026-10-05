@@ -510,7 +510,7 @@ CERT rules provide a formal security justification for checks you might already 
 ## 12. False Positive Management at Scale
 
 In large codebases (100k+ lines), false positives are inevitable. A disciplined approach to managing
-Them prevents the suppression mechanism from becoming a liability:
+them prevents the suppression mechanism from becoming a liability:
 
 ### Tiered Suppression Strategy
 
@@ -591,7 +591,7 @@ clang-format -i src/**/*.cpp src/**/*.hpp src/**/*.h
 Always run clang-tidy fixes in a separate commit. Review the diff carefully before
 
 Merging. Some fixes (e.g., `modernize-use-auto`) can change semantics if the deduced type is not
-What you expected.
+what you expected.
 
 ### Bulk Refactoring with `--fix`
 

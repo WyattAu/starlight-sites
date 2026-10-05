@@ -36,7 +36,7 @@ Clone becomes prohibitive. The problem manifests in three dimensions: **time**, 
 A frontend developer working on the Chromium monorepo does not need the `chrome/browser/`
 `chrome/test/`Or `third_party/ffmpeg/` directories. A backend developer does not need `ui/` or
 `chrome/renderer/`. Yet a full `git clone` downloads every object in the repository regardless of
-What the developer intends to work on.
+what the developer intends to work on.
 
 This is where **sparse checkout** and **partial clone** come in. They are two complementary
 Mechanisms that solve different parts of the problem:
@@ -56,7 +56,7 @@ is a filtered view of the tree at HEAD.
 
 Cone mode is the modern and recommended approach. It works with directories (not file patterns) and
 is significantly faster than non-cone mode because Git can use directory-based pathspec matching
-Instead of evaluating every pattern against every file.
+instead of evaluating every pattern against every file.
 
 ```bash
 ## Initialize sparse checkout with cone mode (the default in Git 2.37+)

@@ -160,7 +160,7 @@ Single fibre. Dense WDM (DWDM) supports 80+ channels.
 
 **Code-Division Multiple Access (CDMA).** Each user is assigned a unique code. All users transmit
 Simultaneously on the same frequency; codes are mathematically orthogonal so receivers can isolate
-Their signal.
+their signal.
 
 ### 2.4 Modulation
 

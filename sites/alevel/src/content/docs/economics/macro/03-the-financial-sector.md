@@ -397,7 +397,7 @@ between 2009 and 2022 boosted GDP by around 1.5-2% and raised inflation by 0.75-
 Points. However, the distributional effects were significant: the Bank of England estimated in 2012
 that its QE programme had increased the wealth of the top 5% of households by up to 40%, while the
 Bottom 50% saw minimal benefit. This is because the top 5% hold the majority of financial assets
-Whose prices were inflated by QE.
+whose prices were inflated by QE.
 
 **Real-world example, QE and the COVID-19 recovery:** Between March 2020 and late 2021, the BoE
 Purchased an additional GBP 450 billion of government bonds. Despite this massive expansion of the

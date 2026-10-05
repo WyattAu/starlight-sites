@@ -24,7 +24,7 @@ description: "The Treaty of Versailles was the most consequential of the Paris P
 ### The Treaty of Versailles (28 June 1919)
 
 The Treaty of Versailles was the most consequential of the Paris Peace Conference settlements, and
-Its perceived injustices became a central grievance driving German revisionism throughout the
+its perceived injustices became a central grievance driving German revisionism throughout the
 Interwar period.
 
 #### Key Terms
@@ -166,7 +166,7 @@ Hoare and French Prime Minister Pierre Laval, proposed to grant Italy large port
 Exchange for a nominal cessation of hostilities. When details were leaked to the press, the public
 Outcry forced Hoare's resignation and the collapse of the agreement, but the damage was done: the
 Pact revealed that the League's leading members were prepared to sacrifice Abyssinian sovereignty
-Rather than confront Mussolini.
+rather than confront Mussolini.
 
 Italy completed its conquest in May 1936. League sanctions were lifted on 4 July 1936. The
 Abyssinian crisis was the death blow to collective security: it demonstrated that the League would
@@ -413,7 +413,7 @@ Duty -- to lead Asia against Western imperialism).
 
 The Kwantung Army's seizure of Manchuria in 1931 established the puppet state of Manchukuo,
 Nominally ruled by the last Qing emperor, Puyi. Japan withdrew from the League of Nations in 1933
-Rather than accept the Lytton Commission's findings. The full-scale invasion of China, launched on 7
+rather than accept the Lytton Commission's findings. The full-scale invasion of China, launched on 7
 July 1937 after the Marco Polo Bridge incident, resulted in the occupation of much of eastern China,
 Including Nanjing, where Japanese forces committed the Nanjing Massacre (December 1937--January
 1938), in which an estimated 200,000 to 300,000 Chinese civilians and disarmed combatants were
@@ -911,7 +911,7 @@ the Sudeten Germans into the Reich -- and were not fundamentally different from 
 Stresemann or Brüning.
 
 The outbreak of war in September 1939 was the result of diplomatic accident and miscalculation
-Rather than deliberate planning. Britain and France, by issuing the guarantee to Poland, created a
+rather than deliberate planning. Britain and France, by issuing the guarantee to Poland, created a
 Situation in which a German-Polish dispute over Danzig (a city that was, in Taylor's view, a
 Legitimate German grievance) escalated into a general European war. The war was not "Hitler's war"
 In the sense that he willed it; it was a conventional diplomatic crisis that spiralled out of
@@ -1051,7 +1051,7 @@ Chairmanship of Eleanor Roosevelt, represented a watershed in the recognition of
 under international law, directly influenced by the atrocities of the war and the Holocaust.
 
 The UN's effectiveness, like that of the League, has been constrained by the national interests of
-Its great-power members, particularly during the Cold War. However, its specialised agencies
+its great-power members, particularly during the Cold War. However, its specialised agencies
 (UNICEF, UNESCO, WHO, the World Bank, and the IMF) have achieved significant successes, and the UN
 has provided an indispensable framework for international diplomacy.
 
@@ -1093,7 +1093,7 @@ Burma in 1948.
 The war strengthened nationalist movements in the colonies. Colonial troops who had fought for the
 Allies -- approximately 2.5 million from India alone -- returned with heightened political
 Consciousness and diminished respect for colonial authority. The Atlantic Charter (August 1941), in
-Which Roosevelt and Churchill affirmed "the right of all peoples to choose the form of government
+which Roosevelt and Churchill affirmed "the right of all peoples to choose the form of government
 under which they will live," raised expectations that proved difficult to contain.
 
 The superpowers, particularly the United States and the Soviet Union, were broadly hostile to

@@ -349,7 +349,7 @@ where
 `&mut T` is invariant in both `'a` and `T`. You cannot substitute a `&'long mut T` where a
 `&'short mut T` is expected. This prevents soundness issues where a mutable reference to a
 Shorter-lived value could be used to write a longer-lived reference, extending its validity beyond
-Its scope:
+its scope:
 
 ```rust
 fn takes_short_mut<'a>(r: &'a mut i32) {
@@ -461,7 +461,7 @@ Shorter-lived requirement.
 ### The Self-Referential Struct Problem
 
 Rust cannot express structs that hold references to their own fields in safe code. The struct and
-Its field share the same lifetime, but the borrow checker treats them as independent:
+its field share the same lifetime, but the borrow checker treats them as independent:
 
 ```rust
 // This does NOT compile:

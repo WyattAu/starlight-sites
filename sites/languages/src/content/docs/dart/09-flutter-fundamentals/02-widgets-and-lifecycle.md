@@ -23,7 +23,7 @@ categories:
 ## 1. What is a Widget
 
 Flutter's rendering model is declarative. You do not mutate a view object in place; you describe
-What the UI should look like for a given state, and the framework diffs that description against the
+what the UI should look like for a given state, and the framework diffs that description against the
 Current tree and applies the minimal set of changes. A **widget** is the immutable data structure
 that carries that description.
 

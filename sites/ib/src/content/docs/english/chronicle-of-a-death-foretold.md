@@ -69,7 +69,7 @@ Norms and honor).
 
 Marquez invites the reader to reconstruct the murder through fragmented interviews, while allowing
 Readers to interpret the collective guilt of the community following a reader-response approach
-Rather than a new criticism approach.
+rather than a new criticism approach.
 
 ## Critiques
 
@@ -152,7 +152,7 @@ Interviews with the townspeople.
 
 Santiago Nasar returns home in the early morning after a wedding celebration for Angela Vicario and
 Bayardo San Roman. On her wedding night, Bayardo discovers Angela is not a virgin and returns her to
-Her family. Under pressure from their mother, Angela's twin brothers Pedro and Pablo declare they
+her family. Under pressure from their mother, Angela's twin brothers Pedro and Pablo declare they
 must kill the man who dishonoured their sister. Angela names Santiago Nasar.
 
 The brothers announce their intention publicly, sharpening their knives in the butcher shop. Despite
@@ -235,7 +235,7 @@ Placida locks the front door, believing Santiago has already entered. This act s
 ### Honor (Honour Code)
 
 The honor code is the central force driving the plot. It demands that the Vicario brothers restore
-Their family's reputation through violence. Marquez exposes this code as both performative and
+their family's reputation through violence. Marquez exposes this code as both performative and
 Hypocritical:
 
 - The brothers confess to the priest before committing the murder, suggesting they know it is a sin
@@ -386,7 +386,7 @@ Physical attribute.
 
 The difference lies in agency and response. Angela exercises a form of passive resistance: she
 Writes thousands of letters to Bayardo, reclaiming her voice within the very system that silenced
-Her. Blanche constructs elaborate illusions to survive, but her defences are progressively stripped
+her. Blanche constructs elaborate illusions to survive, but her defences are progressively stripped
 Away. Both women are ultimately broken by the patriarchal systems they inhabit, but Angela achieves
 A kind of ambiguous reintegration (Bayardo returns), while Blanche is permanently exiled.
 
@@ -483,7 +483,7 @@ Absence justifies public humiliation and murder.
 Maria Alejandrina Cervantes offers a counterpoint. As a sex worker, she occupies a paradoxical
 Position: she is socially marginalised yet economically independent. The narrator describes her as a
 Woman who "did it out of charity" and who "taught them the mysteries of love." Marquez constructs
-Her as a figure of genuine agency within a patriarchal world, suggesting that sexual autonomy and
+her as a figure of genuine agency within a patriarchal world, suggesting that sexual autonomy and
 Economic self-sufficiency are inseparable.
 
 The feminist reading must also account for Placida Linero, whose act of locking the door -- the
@@ -605,7 +605,7 @@ Angela writes approximately 2,000 letters to Bayardo San Roman over more than tw
 Letters constitute a form of written resistance within an oral, masculine culture. Writing is a
 Solitary, deliberate act; it allows Angela to construct and control her own narrative in a way that
 the town's gossip and testimony do not. The devastating irony is that Bayardo never reads any of
-Them. He returns not because of what the letters say but because of the gesture itself -- a
+them. He returns not because of what the letters say but because of the gesture itself -- a
 Performative recognition of Angela's devotion that empties the letters of their communicative
 Function.
 

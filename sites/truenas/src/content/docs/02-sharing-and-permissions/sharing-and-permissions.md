@@ -758,7 +758,7 @@ Environment requires it.
 ## SMB3 Encryption Configuration
 
 SMB3 encryption protects data in transit between client and server. TrueNAS supports SMB3 encryption
-Which can be enabled globally or per-share. Encrypted SMB traffic adds CPU overhead ( 10-25%
+which can be enabled globally or per-share. Encrypted SMB traffic adds CPU overhead ( 10-25%
 depending on the cipher used) but eliminates the need for separate VPN tunnels for data Protection.
 
 ### Enabling SMB3 Encryption Globally

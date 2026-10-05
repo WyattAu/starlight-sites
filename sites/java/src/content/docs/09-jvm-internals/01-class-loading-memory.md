@@ -322,7 +322,7 @@ A contiguous area.
 ZGC (Z Garbage Collector) performs almost all GC work concurrently with the application. It uses
 Colored pointers (storing metadata in the high bits of object references on 64-bit platforms) to
 Track object state without stopping application threads. Pause times are consistently under 1 ms
-Regardless of heap size. ZGC can handle heaps from 8 MB to 16 TB.
+regardless of heap size. ZGC can handle heaps from 8 MB to 16 TB.
 
 ```bash
 java -XX:+UseZGC MyApp  # Default since JDK 21 for server-class machines

@@ -24,7 +24,7 @@ TypeScript program. TypeScript adds a compile-time type system that is erased du
 Producing standard JavaScript output.
 
 The type system is **structural**, meaning type compatibility is determined by the shape of values
-Rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
+rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
 with JavaScript's own duck-typing semantics while providing compile-time guarantees that catch a
 Broad class of errors before runtime.
 
@@ -39,7 +39,7 @@ Tasks:
 
 Because TypeScript is a superset, existing JavaScript codebases can be adopted incrementally. The
 Compiler's `strict` flag can be enabled progressively, allowing teams to tighten type safety at
-Their own pace.
+their own pace.
 
 ## Key Language Features
 

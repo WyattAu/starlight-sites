@@ -313,7 +313,7 @@ print(bubble_sort(numbers))
 ### 3.2 Insertion Sort
 
 The **insertion sort** builds the sorted array one element at a time by inserting each element into
-Its correct position.
+its correct position.
 
 **Pseudocode:**
 
@@ -331,7 +331,7 @@ FUNCTION insertion_sort(array):
 
 **Intuition.** Imagine sorting a hand of playing cards. You hold the first card in your left hand
 (sorted). You pick up the next card with your right hand and insert it into the correct position in
-Your left hand by shifting larger cards to the right. You repeat for every card.
+your left hand by shifting larger cards to the right. You repeat for every card.
 
 **Worked Example.** Sort [5, 1, 4, 2, 8].
 

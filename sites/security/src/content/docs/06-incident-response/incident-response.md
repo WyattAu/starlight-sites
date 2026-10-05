@@ -684,7 +684,7 @@ with legal guidance.
 Not every incident is a catastrophic breach, but every incident is an opportunity to improve. A
 Phishing email that reached an inbox reveals a gap in email filtering. A successful brute-force
 Attempt on SSH reveals a need for key-based authentication. Small incidents are free lessons, treat
-Them as such.
+them as such.
 
 ### Pitfall 8: Not Preserving Volatile Evidence
 

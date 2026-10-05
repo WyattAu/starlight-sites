@@ -550,7 +550,7 @@ def list_users():
 
 Always validate the `iss` claim against a known list of trusted issuers. If your API accepts tokens
 from `https://auth.example.com` but also accepts tokens from any issuer, an attacker can create
-Their own authorization server and issue tokens with arbitrary claims.
+their own authorization server and issue tokens with arbitrary claims.
 
 ## Summary
 

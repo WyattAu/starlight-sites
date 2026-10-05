@@ -683,7 +683,7 @@ $= \dfrac{188.3}{1.016} \approx 185.3 \implies v_{\min} \approx 13.6\,\mathrm{m 
 
 The optimum speed (no friction needed) is
 $v_{\mathrm{opt}} = \sqrt{80 \times 9.8 \times \tan 30°} = \sqrt{452.6} \approx 21.3\,\mathrm{m s}^{-1}$
-Which lies between $v_{\min}$ and $v_{\max}$ as expected.
+which lies between $v_{\min}$ and $v_{\max}$ as expected.
 
 <hr />
 

@@ -56,7 +56,7 @@ $$
 
 **Hong Kong example:** Many Hong Kong firms have operations and investments in mainland China and
 Southeast Asia. The income from these overseas operations is counted in Hong Kong's GNP but not in
-Its GDP. Conversely, profits earned by foreign-owned firms operating in Hong Kong are counted in
+its GDP. Conversely, profits earned by foreign-owned firms operating in Hong Kong are counted in
 Hong Kong's GDP but not in its GNP. Historically, Hong Kong's GNP has been larger than its GDP
 because net factor income from abroad has been positive.
 
@@ -356,7 +356,7 @@ Improvement.
 
 GDP does not distinguish between growth driven by sustainable productivity improvements and growth
 Driven by depleting natural resources or accumulating debt. A country can boost GDP by deforesting
-Its land (selling timber) or overfishing its waters, but this growth is not sustainable.
+its land (selling timber) or overfishing its waters, but this growth is not sustainable.
 
 ### 7. Defensive Expenditures Counted Positively
 

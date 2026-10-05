@@ -277,7 +277,7 @@ An Abstract Data Type is defined by two components:
 
 **Specification:** The public interface -- the set of operations, their names, parameters, return
 Types, preconditions, and postconditions. The specification defines the contract between the ADT and
-Its users.
+its users.
 
 **Implementation:** The internal representation of the data and the algorithms that implement the
 Operations. The implementation is hidden from users and can be changed without affecting the

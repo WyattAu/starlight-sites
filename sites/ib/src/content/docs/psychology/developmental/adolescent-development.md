@@ -223,7 +223,7 @@ Age (e.g., through initiation ceremonies, marriage, or entry into the workforce)
 
 **2. Autonomy and independence:** Western cultures emphasise individual autonomy and independence as
 Developmental goals. Adolescents are expected to develop a distinct personal identity separate from
-Their family. In collectivistic cultures, interdependence and family obligation are emphasised. The
+their family. In collectivistic cultures, interdependence and family obligation are emphasised. The
 Developmental task is not to separate from the family but to find one's place within it.
 
 **3. Parent-adolescent conflict:** Research consistently shows that parent-adolescent conflict is

@@ -388,7 +388,7 @@ A foil character is one whose traits contrast with and thereby highlight those o
 In _Jekyll and Hyde_, Utterson's measured rationality and moral steadiness serve as a foil to
 Jekyll's reckless ambition and Hyde's savage violence. In _Great Expectations_, Joe Gargery's simple
 Goodness is a foil to Pip's snobbish aspiration. When writing about foil characters, always explain
-What the contrast reveals about both characters.
+what the contrast reveals about both characters.
 
 ## 6. Setting as Character
 

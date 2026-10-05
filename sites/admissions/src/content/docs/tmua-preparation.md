@@ -458,7 +458,7 @@ With $k = 0.2$ The exact doubling time is $5\ln 2$ And the closest interpretatio
 intended when the question uses $k = 1$.
 
 For the purpose of this exercise, with $k = 0.2$: the doubling time is $5\ln 2$ hours. If the model
-Instead stated $P(t) = P_0 \cdot 2^{0.2t}$ Then $0.2t = 1$ gives $t = 5$ Which is option B.
+instead stated $P(t) = P_0 \cdot 2^{0.2t}$ Then $0.2t = 1$ gives $t = 5$ Which is option B.
 
 Given the ambiguity, the most likely intended answer with the model $P(t) = P_0 e^{0.2t}$ and the
 Standard doubling time formula is **A** (the symbolic answer $\ln 2$ expressed as the natural form),

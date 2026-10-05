@@ -62,7 +62,7 @@ Each factor corresponds to a fundamental interaction:
 
 The gauge principle requires that the Lagrangian be invariant under local gauge transformations.
 This forces the introduction of the gauge bosons as connections (covariant derivatives) and fixes
-Their self-interactions. The non-Abelian groups $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ give rise to
+their self-interactions. The non-Abelian groups $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ give rise to
 Self-interacting gauge bosons ($W^3W^+W^-$ vertices, three-gluon and four-gluon vertices), while The
 Abelian group $\mathrm{U}(1)$ gives a non-self-interacting photon.
 

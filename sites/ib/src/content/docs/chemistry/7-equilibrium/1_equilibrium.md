@@ -574,7 +574,7 @@ The solubility is much lower due to the common ion effect.
 
 For the equilibrium
 $2\mathrm{SO}_2(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{SO}_3(\mathrm{g})$
-What happens when the pressure is increased?
+what happens when the pressure is increased?
 
 The product side has 2 moles of gas, the reactant side has 3. The equilibrium shifts to the right
 (fewer moles of gas), increasing [SO$_3$]. Note that $K_p$ is a constant at a given temperature and

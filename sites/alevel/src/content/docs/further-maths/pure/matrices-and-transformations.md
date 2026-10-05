@@ -260,7 +260,7 @@ A\mathbf{v} = \lambda\mathbf{v}
 $$
 
 Geometrically, $A$ stretches or compresses the eigenvector by a factor of $\lambda$ without changing
-Its direction.
+its direction.
 
 ### 5.2 Finding eigenvalues
 

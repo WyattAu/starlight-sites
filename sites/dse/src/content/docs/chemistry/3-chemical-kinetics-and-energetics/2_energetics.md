@@ -337,7 +337,7 @@ $\Delta H = 2648 - 3466 = -818 \mathrm{ kJ/mol}$
 
 Note: the accepted value is $-890.3 \mathrm{ kJ/mol}$ (for $\mathrm{H}_2\mathrm{O}_{(l)}$). The
 Discrepancy arises because bond enthalpies are averages and we used $\mathrm{H}_2\mathrm{O}_{(g)}$
-Rather than $\mathrm{H}_2\mathrm{O}_{(l)}$.
+rather than $\mathrm{H}_2\mathrm{O}_{(l)}$.
 
 </details>
 

@@ -807,7 +807,7 @@ Notation, multi-character numerals), then implements just enough code to satisfy
 
 **Problem 5.** A software team has 500 test cases. Running all tests takes 2 hours. After a code
 Change, the team only wants to run the tests most likely to fail. Describe a strategy for selecting
-Which tests to run.
+which tests to run.
 
 <details>
 <summary>Answer</summary>

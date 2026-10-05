@@ -31,7 +31,7 @@ categories:
 ## What Are References
 
 A reference (or "ref") is a named pointer to a Git object, almost always a commit. References are
-What make Git's object graph navigable. Without them, commits would exist as isolated objects with
+what make Git's object graph navigable. Without them, commits would exist as isolated objects with
 no way to find them (except by hash).
 
 References are stored as plain text files under `.git/refs/`Each containing a 40-character SHA-1

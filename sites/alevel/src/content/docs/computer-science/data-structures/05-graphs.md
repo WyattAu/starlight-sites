@@ -534,7 +534,7 @@ Counterexample.
 Dijkstra's algorithm relies on the **greedy choice property**: once a vertex $u$ is extracted from
 the priority queue, $\mathrm{dist}[u]$ is assumed to be final. This is valid only when all edge
 Weights are non-negative, because any alternative path to $u$ must pass through an unvisited vertex
-Whose distance is at least $\mathrm{dist}[u]$.
+whose distance is at least $\mathrm{dist}[u]$.
 
 With negative edges, a shorter path to an already-visited vertex may be discovered later through a
 not-yet-visited vertex, invalidating the greedy choice.

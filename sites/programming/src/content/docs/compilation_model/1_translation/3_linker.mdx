@@ -88,7 +88,7 @@ void optional_hook() \{ \}
 
 **Common symbols:** These are a special case of tentative definitions. When GCC encounters an
 Uninitialized global in a C translation unit, it emits it as a "common" symbol (in the `COM` section
-Rather than `BSS`). Common symbols can be merged: if multiple TUs define `int x;` without
+rather than `BSS`). Common symbols can be merged: if multiple TUs define `int x;` without
 Initialization, the linker allocates storage once and aligns to the largest requested alignment. The
 `-fno-common` flag (now default in GCC 10+) disables this behavior and makes uninitialized globals
 Ordinary weak symbols instead.

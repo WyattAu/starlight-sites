@@ -492,7 +492,7 @@ extracellular fluid With high selectivity.
 ### 8.2 Mechanism of Exocytosis
 
 Exocytosis is the reverse process: intracellular vesicles fuse with the plasma membrane, releasing
-Their contents to the extracellular space. This requires:
+their contents to the extracellular space. This requires:
 
 1. **Vesicle transport**: vesicles are moved along microtubules by motor proteins (kinesin and
    dynein) using ATP.

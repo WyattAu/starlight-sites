@@ -753,7 +753,7 @@ int main() {
 
 Even with `memory_order_relaxed`The `fetch_add` issues a read-modify-write on the cache line,
 Triggering MESI invalidation traffic. The padded version eliminates this by placing each atomic on
-Its own cache line.
+its own cache line.
 
 ## Cache Coherence and Lock-Free Data Structures
 

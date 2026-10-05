@@ -222,7 +222,7 @@ Freedom.
 Both Chronicle and Streetcar present characters caught between the weight of social determinism and
 the possibility -- however constrained -- of individual agency. Santiago's fate and Blanche's
 Decline both raise questions about the extent to which individuals can resist the forces that shape
-Them.
+them.
 
 ### Postcolonial Criticism
 
@@ -261,7 +261,7 @@ New historicism, associated with Stephen Greenblatt and the work of the Berkeley
 the reciprocal relationship between literary texts and their historical contexts. Unlike traditional
 Historicism, which treats history as a stable background against which literature is set, new
 Historicism argues that texts are both products of and participants in the ideological struggles of
-Their time. Literary texts do not merely reflect history; they help to produce it.
+their time. Literary texts do not merely reflect history; they help to produce it.
 
 New historicist readings of the set texts would situate Streetcar within the specific social
 Conditions of post-war America -- the GI Bill, the suburbanisation of the American middle class, the
@@ -336,7 +336,7 @@ Context is a required element of IB English analysis, but it must be handled wit
 Contextual information -- biographical, historical, cultural -- is valuable only insofar as it
 Illuminates specific features of the text. A common weakness in student essays is the inclusion of
 Biographical or historical detail that floats free of textual analysis, functioning as background
-Rather than as evidence. The most effective use of context occurs when a specific historical fact or
+rather than as evidence. The most effective use of context occurs when a specific historical fact or
 Biographical detail is shown to shape a specific formal choice: when, for example, Williams'
 Experience of his sister's institutionalisation is connected to the specific mechanisms by which
 Blanche's madness is represented on stage.

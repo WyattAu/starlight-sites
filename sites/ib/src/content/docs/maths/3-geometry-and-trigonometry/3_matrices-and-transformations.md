@@ -79,7 +79,7 @@ Vector space over $\mathbb{R}$):
 ### Matrix Multiplication
 
 If $A$ is $m \times p$ and $B$ is $p \times n$ Then the product $C = AB$ is an $m \times n$ matrix
-Whose entries are:
+whose entries are:
 
 $$
 C_`\{ij}` = \sum_{k=1}^{p} a_`\{ik}` b_`\{kj}`

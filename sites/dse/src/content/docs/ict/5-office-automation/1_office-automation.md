@@ -632,7 +632,7 @@ Steps:
 3. Stop recording.
 
 Now, whenever you open a new sales report, running `FormatHeader` applies all formatting in one step
-Instead of performing each action manually.
+instead of performing each action manually.
 
 </details>
 

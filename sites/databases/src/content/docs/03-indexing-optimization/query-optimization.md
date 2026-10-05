@@ -915,7 +915,7 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-04-01';
 ### Partition-Wise Joins
 
 PostgreSQL 11+ supports partition-wise joins, where the optimizer joins matching partitions directly
-Instead of joining entire partitioned tables:
+instead of joining entire partitioned tables:
 
 ```sql
 -- Enable partition-wise joins

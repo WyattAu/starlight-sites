@@ -840,7 +840,7 @@ Dart's default `LinkedHashSet` is a hash table with open addressing:
 | `union()`        | O(\|A\| + \|B\|)     |
 
 Hash collisions degrade to O(n) in the worst case, but this is rare with a good hash function. If
-Your custom `hashCode` implementation is poor (e.g., always returns the same value), you get a
+your custom `hashCode` implementation is poor (e.g., always returns the same value), you get a
 Degenerate linked list and O(n) for everything.
 
 ### Map, Hash Table

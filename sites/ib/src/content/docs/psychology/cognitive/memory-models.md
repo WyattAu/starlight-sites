@@ -21,7 +21,7 @@ description: "The multi-store model (MSM) proposed by Atkinson and Shiffrin is o
 
 The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models
 in cognitive psychology. It conceptualises memory as consisting of three structural stores through
-Which information flows in a linear sequence.
+which information flows in a linear sequence.
 
 #### The Three Stores
 
@@ -158,7 +158,7 @@ As predicted by the working memory model.
 Craik and Lockhart proposed the levels of processing (LOP) framework as an alternative to the
 Structural models of memory (the MSM and working memory model). The key claim is that memory is not
 A function of the store in which information is held or the amount of rehearsal it receives, but
-Rather of the depth of processing applied to the information at encoding.
+rather of the depth of processing applied to the information at encoding.
 
 **Three levels of processing:**
 

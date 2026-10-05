@@ -417,7 +417,7 @@ The statement is largely correct: only supply-side policies shift LRAS right, ra
 
 **Q33.** Country A can produce 8 cars or 4 tonnes of wheat per worker per day. Country B can produce
 3 cars or 3 tonnes of wheat per worker per day. (a) Which country has a comparative advantage in
-Which good? (b) If they specialise and trade at an exchange rate of 1.5 wheat per car, show that
+which good? (b) If they specialise and trade at an exchange rate of 1.5 wheat per car, show that
 both gain from trade.
 
 <details>

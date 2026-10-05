@@ -60,7 +60,7 @@ Nitrogen to demonstrate semi-conservative replication.
 **Worked Example: The Meselson-Stahl experiment.**
 
 Bacteria are grown in medium containing $^{15}\mathrm{N$ (heavy nitrogen) for many generations. All
-Their DNA is heavy ($^{15}\mathrm{N/^{15}\mathrm{N$). They are then transferred to medium Containing
+their DNA is heavy ($^{15}\mathrm{N/^{15}\mathrm{N$). They are then transferred to medium Containing
 $^{14}\mathrm{N$ (light nitrogen) and allowed to replicate once.
 
 If replication is semi-conservative: each new DNA molecule contains one heavy strand and one light

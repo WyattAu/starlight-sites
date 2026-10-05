@@ -491,7 +491,7 @@ Reduction: $4037 \times 10^6\;\mathrm{g/km^2/year} = 4037\;\mathrm{t\;CO_2/km^2/
 
 An organism is unicellular, eukaryotic, photosynthetic, and has cellulose cell walls. Using the
 Three-domain system and additional classification, determine its most likely kingdom and explain
-Your reasoning.
+your reasoning.
 
 </details>
 
@@ -1674,7 +1674,7 @@ In specimens of wild animals and plants. Appendix I (most endangered: trade bann
 ### Keystone Species and Trophic Cascades
 
 A **keystone species** is one whose impact on the community is disproportionately large relative to
-Its abundance. Removing a keystone species causes dramatic changes in community structure.
+its abundance. Removing a keystone species causes dramatic changes in community structure.
 
 **Classic example -- starfish (Pisaster ochraceus)**: Paine (1966) experimentally removed starfish
 From intertidal rock pools. The starfish prey on mussels (Mytilus). Without starfish predation,

@@ -595,7 +595,7 @@ public:
 ### Move-Only Types and Containers
 
 Move-only types can be stored in standard containers, but you must use move semantics to insert
-Them:
+them:
 
 ```cpp
 #include <vector>

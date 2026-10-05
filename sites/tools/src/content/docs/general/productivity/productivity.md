@@ -945,7 +945,7 @@ until the snapshot that references it is destroyed.
 Think of it like a version control system for your entire filesystem. Every change creates a new
 'commit.' Old commits stay around until you explicitly delete them. This means you can always
 Recover previous versions of any file, but it also means that modifying a file takes up new space
-Instead of reusing the old space."
+instead of reusing the old space."
 
 If you cannot explain the difference between CoW and redirect-on-write, or you cannot explain why
 CoW benefits snapshots but can cause write amplification, you have identified knowledge gaps.

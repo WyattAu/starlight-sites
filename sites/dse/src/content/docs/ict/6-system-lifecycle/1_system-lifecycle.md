@@ -648,7 +648,7 @@ their contents.
 Answer:
 
 (a) **Interviews with teachers:** Teachers currently take manual attendance. Interviews would reveal
-Their current workflow, pain points (e.g., time wasted, inaccurate records), and what features they
+their current workflow, pain points (e.g., time wasted, inaccurate records), and what features they
 Need in the new system.
 
 **Observation:** Observe the morning registration process to understand exactly how attendance is
@@ -756,7 +756,7 @@ Answer:
 
 (d) Task E (Documentation) has a duration of 3 weeks and is followed by Task F (Training). Task F
 Depends on both D and E. Task D ends at week 15. If E is delayed by 1 week (now ends at week 17
-Instead of 16), F starts at week 17 (when both D and E are complete). Since F only takes 1 week And
+instead of 16), F starts at week 17 (when both D and E are complete). Since F only takes 1 week And
 starts at week 17, and G follows at week 18, the overall project is NOT delayed. Task E had 1 Week
 of float (E could finish as late as week 16 without affecting F's start at week 17). A 1-week Delay
 uses up this float but does not extend the project.

@@ -72,7 +72,7 @@ $$
 $$
 
 Net factor income from abroad includes wages, profits, and rent earned by domestic residents from
-Their foreign investments, minus the corresponding income earned by foreign residents within the
+their foreign investments, minus the corresponding income earned by foreign residents within the
 Domestic economy.
 
 **Gross National Income (GNI)** is the preferred modern measure and is conceptually equivalent to

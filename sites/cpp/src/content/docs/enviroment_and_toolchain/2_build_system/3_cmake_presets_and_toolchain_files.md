@@ -551,7 +551,7 @@ False). Use `cmake --list-presets` to verify that all expected presets are visib
 
 Single-config generators (Ninja, Unix Makefiles) require `CMAKE_BUILD_TYPE` to be set. Multi-config
 Generators (Visual Studio, Ninja Multi-Config) ignore `CMAKE_BUILD_TYPE` and use the `--config` flag
-Instead. If you target both platforms, use generator-specific presets:
+instead. If you target both platforms, use generator-specific presets:
 
 ```json
 {

@@ -183,7 +183,7 @@ Type error fires first.
 | `+`       | 1 or more | `--file a.txt b.txt`       | `["a.txt", "b.txt"]`      |
 
 `nargs="?"` has special behavior: when the flag is present without a value, `const` is stored
-Instead of `default`. When the flag is absent entirely, `default` is stored.
+instead of `default`. When the flag is absent entirely, `default` is stored.
 
 ```python
 parser.add_argument("--sort", nargs="?", const="asc", default="none",
@@ -294,7 +294,7 @@ Parse time, not when you open the file later. This fails fast with a clear error
 
 `click.File()` opens the file and passes a file object to your function. The file is opened at parse
 Time and closed when the context exits. This means a typo in a required input file path prevents
-Your function from ever running.
+your function from ever running.
 
 ### Groups and Subcommands
 

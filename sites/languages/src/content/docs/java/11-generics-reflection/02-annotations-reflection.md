@@ -343,7 +343,7 @@ public void process(Order order) { }
 The **Annotation Processing API** (`javax.annotation.processing`) runs during compilation. Build
 Tools like Lombok, MapStruct, and AutoValue use this. Register the processor in
 `META-INF/services/javax.annotation.processing.Processor`. Most projects use existing processors
-Rather than writing their own.
+rather than writing their own.
 
 ### Runtime Annotation Processing
 

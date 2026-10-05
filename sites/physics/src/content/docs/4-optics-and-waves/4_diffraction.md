@@ -226,7 +226,7 @@ the Airy disk.
 
 **Problem.** A telescope has a primary mirror of diameter $D = 150$ mm. Find its angular resolution
 At $\lambda = 550$ nm. Two stars are separated by $0.50"'$ (arcseconds). Can this telescope resolve
-Them?
+them?
 
 **Solution.** Angular resolution:
 $\theta_{\min} = 1.22\lambda/D = 1.22(550 \times 10^{-9})/(0.150) = 4.47 \times 10^{-6}$ rad.

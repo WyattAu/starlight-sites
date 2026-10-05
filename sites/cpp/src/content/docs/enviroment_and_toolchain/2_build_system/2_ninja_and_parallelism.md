@@ -122,7 +122,7 @@ Ninja's DAG-based scheduling satisfies both invariants by construction:
 
 **Invariant 1 (Dependency completeness):** Ninja performs a topological sort of the DAG before
 Execution. A topological sort of a DAG produces a linear ordering where every node appears after all
-Its predecessors. When Ninja executes edges in this order, every input is guaranteed to be available
+its predecessors. When Ninja executes edges in this order, every input is guaranteed to be available
 before the edge that consumes it runs.
 
 Formally, for every edge $e: (I_1, I_2, \ldots, I_n) \to O$ The topological sort ensures that
@@ -528,7 +528,7 @@ build run_tests: CUSTOM_COMMAND test_binary
 
 When CMake generates `build.ninja`It assigns the `console` pool to targets like `RUN_TESTS` and
 Custom commands that the user invokes directly. This means `ctest` output appears in real time
-Rather than being buffered and displayed only on failure.
+rather than being buffered and displayed only on failure.
 
 ## Dynamic Dependencies (`dyndep`)
 

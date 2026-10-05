@@ -558,7 +558,7 @@ Two approaches.
 
 **Problem 3.** Explain why VAT is considered regressive despite being charged at a flat rate. Use a
 Numerical example with two individuals earning £15,000 and £80,000, both spending 90% and 60% of
-Their income respectively on VAT-able goods at 20%.
+their income respectively on VAT-able goods at 20%.
 
 <details>
 <summary>Hint</summary>

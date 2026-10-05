@@ -478,7 +478,7 @@ This is an unstable equilibrium point.
 <details>
 <summary>Problem 9</summary>
 A proton is released from rest in a uniform electric field of $3.0 \times 10^4$ V m$^{-1}$. Calculate
-Its acceleration and the kinetic energy gained after moving 5.0 cm.
+its acceleration and the kinetic energy gained after moving 5.0 cm.
 
 **Answer.**
 $a = qE/m_p = 1.60 \times 10^{-19} \times 3.0 \times 10^4 / 1.67 \times 10^{-27} = 2.88 \times 10^{12}$

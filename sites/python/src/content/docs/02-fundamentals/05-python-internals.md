@@ -238,7 +238,7 @@ Object, which triggers `__del__`Which might access other objects in the cycle th
 deallocated.
 
 In CPython 3.4+, the GC handles this by placing such objects in a list (`gc.garbage`) and reporting
-Them as unreachable but uncollectible. The programmer must explicitly break the cycle.
+them as unreachable but uncollectible. The programmer must explicitly break the cycle.
 
 ```python
 import gc

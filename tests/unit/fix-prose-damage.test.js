@@ -176,6 +176,23 @@ describe('fix-prose-damage: wrapped lines wrongly capitalised', () => {
     assert.match(out, /^Same name\.$/m)
   })
 
+  it('repairs possessive and relative pronouns', () => {
+    // Closed class, and frequent enough at wrap points that omitting them
+    // would forfeit several hundred safe repairs.
+    assert.match(
+      repair(['releasing', 'Their contents to the cell.', ''].join('\n')),
+      /^their contents/m,
+    )
+    assert.match(
+      repair(['of which', 'Which only 20% is recycled.', ''].join('\n')),
+      /^which only 20%/m,
+    )
+    assert.match(
+      repair(['requiring', 'Them to contrast Keynesian.', ''].join('\n')),
+      /^them to contrast/m,
+    )
+  })
+
   it('repairs the Non- prefix', () => {
     const out = repair(['a positive number is', 'Non-negative).', ''].join('\n'))
     assert.match(out, /^non-negative\)\.$/m)
@@ -204,6 +221,44 @@ describe('fix-prose-damage: wrapped lines wrongly capitalised', () => {
   it('does not repair a heading', () => {
     const src = ['Some prose line here', '## Of Mice and Men', ''].join('\n')
     assert.equal(repair(src), src)
+  })
+})
+
+describe('fix-prose-damage: approved word list', () => {
+  it('repairs an approved content word at a wrap point', () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'prose-approve-'))
+    const list = path.join(dir, 'approve.txt')
+    fs.writeFileSync(list, '# comment\nSame\n\n', 'utf8')
+    const file = path.join(dir, 'page.md')
+    fs.writeFileSync(file, 'by defining a method with the\nSame name.\n', 'utf8')
+    execFileSync('python3', [SCRIPT, '--approve', list, file], { encoding: 'utf8' })
+    assert.match(fs.readFileSync(file, 'utf8'), /^same name\.$/m)
+  })
+
+  it('leaves words outside the approved list alone', () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'prose-approve-'))
+    const list = path.join(dir, 'approve.txt')
+    fs.writeFileSync(list, 'Same\n', 'utf8')
+    const file = path.join(dir, 'page.md')
+    fs.writeFileSync(
+      file,
+      'the gateway to the\nInternational Mathematical Olympiad team.\n',
+      'utf8',
+    )
+    execFileSync('python3', [SCRIPT, '--approve', list, file], { encoding: 'utf8' })
+    assert.match(fs.readFileSync(file, 'utf8'), /^International Mathematical/m)
+  })
+
+  it('ignores comments and non-words in the list', () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'prose-approve-'))
+    const list = path.join(dir, 'approve.txt')
+    fs.writeFileSync(list, '# Same\nSame  # trailing\n2bad\n', 'utf8')
+    const file = path.join(dir, 'page.md')
+    fs.writeFileSync(file, 'by defining a method with the\nSame name.\n', 'utf8')
+    // `Same` must be honoured despite the leading comment, the trailing
+    // text, and the adjacent non-word line.
+    execFileSync('python3', [SCRIPT, '--approve', list, file], { encoding: 'utf8' })
+    assert.match(fs.readFileSync(file, 'utf8'), /^same name\.$/m)
   })
 })
 

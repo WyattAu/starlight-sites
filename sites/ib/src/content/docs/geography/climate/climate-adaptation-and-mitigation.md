@@ -38,7 +38,7 @@ Climate change.
 Both are necessary. Even under the most ambitious mitigation scenarios, some degree of additional
 Warming and its associated impacts are already locked in due to the thermal inertia of the climate
 System and the long atmospheric lifetime of $\mathrm{CO_2}$. Adaptation is therefore required
-Regardless of mitigation efforts.
+regardless of mitigation efforts.
 
 ## Mitigation Strategies
 

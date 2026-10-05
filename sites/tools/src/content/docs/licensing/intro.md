@@ -114,7 +114,7 @@ Failing to audit their license obligations.
 **Compliance.** Organizations that distribute software (or provide it as a service, in the AGPL
 Case) must comply with license terms. This means including license notices in distributions,
 Providing source code when required, not mixing incompatible licenses, and maintaining records of
-What license applies to what code. Non-compliance is copyright infringement, which carries statutory
+what license applies to what code. Non-compliance is copyright infringement, which carries statutory
 Damages of up to $150,000 per work infringed in the US.
 
 **Contributor agreements.** If you contribute to an open-source project, you may be asked to sign a

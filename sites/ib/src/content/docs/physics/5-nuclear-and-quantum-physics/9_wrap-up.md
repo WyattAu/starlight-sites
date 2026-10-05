@@ -436,7 +436,7 @@ Explain:
 
 Einstein's explanation: Light consists of discrete packets of energy called **photons**, each with
 Energy $E = hf$. One photon interacts with one electron. If $hf \lt \Phi$ No emission occurs
-Regardless of intensity.
+regardless of intensity.
 
 ---
 

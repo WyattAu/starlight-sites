@@ -227,7 +227,7 @@ Not equal. Finding solutions to PCP instances can be very difficult, there is no
 **Theorem 5.6.** PCP is undecidable.
 
 _Proof (sketch)._ Reduce from $A_{\mathrm{TM}}$. Given TM $M$ and input $w$ Construct a PCP instance
-Whose tiles encode the computation history of $M$ on $w$. The tiles are designed so that a matching
+whose tiles encode the computation history of $M$ on $w$. The tiles are designed so that a matching
 Sequence corresponds to a valid accepting computation: the first tile starts the computation, middle
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
 Tile allows termination only if an accept state is reached. Thus the PCP instance has a solution iff

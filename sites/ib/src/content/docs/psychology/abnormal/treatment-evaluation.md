@@ -154,7 +154,7 @@ for depression. The study compared four conditions:
 ### Hollon et al. (2005): Long-Term Outcomes
 
 Hollon and colleagues conducted a follow-up study comparing CBT, pharmacotherapy (imipramine), and
-Their combination for depression, with a particular focus on long-term outcomes after treatment
+their combination for depression, with a particular focus on long-term outcomes after treatment
 Discontinuation.
 
 **Key findings:**

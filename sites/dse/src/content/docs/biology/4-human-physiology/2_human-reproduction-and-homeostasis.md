@@ -897,7 +897,7 @@ Metabolic reactions that, if allowed to accumulate, would be toxic or harmful.
 
 **Key distinction:** Excretion is NOT the same as egestion. Egestion (defaecation) is the removal of
 Undigested food (faeces) from the body. Faeces have never been part of the body's metabolism, so
-Their removal is not excretion.
+their removal is not excretion.
 
 ### Excretory Products
 

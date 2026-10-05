@@ -80,7 +80,7 @@ A name goes out of scope, it is decremented. If the count hits zero, the object 
 Immediately.
 
 This is fast and deterministic, but it means every operation on a Python object potentially mutates
-Its reference count. If two threads simultaneously manipulated the same object's reference count,
+its reference count. If two threads simultaneously manipulated the same object's reference count,
 The count could become inconsistent, leading to double-frees or use-after-free bugs.
 
 The GIL eliminates this class of bugs entirely by ensuring that only one thread executes Python

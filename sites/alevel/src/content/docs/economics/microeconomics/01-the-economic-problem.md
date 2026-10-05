@@ -609,7 +609,7 @@ Even a "free" school meal costs resources that could have been used elsewhere (t
 **Problem 11.** An economy produces capital goods ($K$) and consumer goods ($C$) with PPF
 $C = 400 - K^2$. The economy currently produces at $K = 10, C = 300$. (a) Is this point on, inside,
 Or outside the PPF? (b) If the government wants to increase capital goods production to $K = 15$
-What is the opportunity cost in terms of consumer goods? (c) Evaluate whether this trade-off is
+what is the opportunity cost in terms of consumer goods? (c) Evaluate whether this trade-off is
 Justified for a developing economy seeking long-term growth.
 
 <details>

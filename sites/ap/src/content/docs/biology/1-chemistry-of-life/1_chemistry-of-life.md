@@ -528,7 +528,7 @@ between cysteine residues). The tertiary structure determines the protein's func
 
 **Quaternary structure:** The assembly of two or more polypeptide subunits into a functional
 Protein. Example: haemoglobin has four subunits (two alpha and two beta chains). Each subunit has
-Its own tertiary structure, and the subunits interact to form the quaternary structure.
+its own tertiary structure, and the subunits interact to form the quaternary structure.
 
 **Worked Example: Effect of pH on protein structure.**
 
@@ -559,7 +559,7 @@ The ability of carbon to form four bonds allows the construction of an enormous 
 Molecules. For example, a chain of just 20 carbon atoms can be arranged in over 300,000 different
 Structural isomers. This diversity is the foundation of the complexity of biological molecules
 (proteins, nucleic acids, carbohydrates, and lipids), each with specific structures that determine
-Their functions.
+their functions.
 
 ## Review: Nucleic Acid Structure and Replication
 

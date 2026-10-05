@@ -958,7 +958,7 @@ Hydrolysis of an ester producing a carboxylic acid), the conductivity is measure
 ### Discontinuous Monitoring Methods
 
 These methods involve taking samples (aliquots) from the reaction at regular intervals and analysing
-Them.
+them.
 
 **Titration:** A sample is withdrawn, the reaction is quenched (e.g., by cooling or adding a
 Reactant that stops the reaction), and the concentration is determined by titration.
@@ -993,7 +993,7 @@ A chemical that reacts with a catalyst or reactant.
 ### Definition
 
 The half-life ($t_{1/2}$) is the time taken for the concentration of a reactant to decrease to half
-Its initial value.
+its initial value.
 
 ### Zero-Order Half-Life
 

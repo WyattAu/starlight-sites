@@ -375,7 +375,7 @@ For elliptical orbits, replace $r$ with the semi-major axis $a$. $\square$
 
 The proportionality constant $4\pi^2/(GM)$ depends only on the central body, not on the orbiting
 Object. This is how Kepler determined the relative distances of the planets from the Sun using only
-Their observed periods.
+their observed periods.
 
 ## 7. Geostationary Orbits
 

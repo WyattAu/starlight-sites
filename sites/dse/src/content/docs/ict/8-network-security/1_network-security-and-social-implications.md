@@ -698,7 +698,7 @@ Specifying which keys are used at each stage.
 Answer:
 
 (a) **Digital signature for authentication:** Alice hashes her message and encrypts the hash with
-Her **private key**. Bob decrypts the hash with Alice's **public key** and verifies it matches his
+her **private key**. Bob decrypts the hash with Alice's **public key** and verifies it matches his
 Own hash of the received message. This proves the message came from Alice (authentication) and was
 not modified (integrity).
 

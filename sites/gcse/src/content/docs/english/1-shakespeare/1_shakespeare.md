@@ -172,7 +172,7 @@ Imagery clusters are crucial for GCSE analysis. In _Macbeth_, the recurring imag
 Darkness, and disorder reinforces the play's central concerns with guilt and the corruption of the
 Natural order. In _Romeo and Juliet_, the opposition between light and dark imagery structures the
 Presentation of the lovers' relationship. Students should trace imagery patterns across a play
-Rather than treating individual images in isolation.
+rather than treating individual images in isolation.
 
 ## 4. Key Plays by Category
 

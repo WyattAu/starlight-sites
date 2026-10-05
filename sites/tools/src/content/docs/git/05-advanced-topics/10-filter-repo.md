@@ -575,7 +575,7 @@ After removing a file from commit B:
 ```
 
 The content of commits D and E may be identical to before, but their SHAs are different because
-Their ancestors changed.
+their ancestors changed.
 
 ### Force Push Is Destructive
 

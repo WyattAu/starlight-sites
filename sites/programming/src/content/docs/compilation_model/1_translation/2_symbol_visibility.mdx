@@ -316,7 +316,7 @@ struct Config \{
 
 The compiler and linker cooperate: each TU emits a definition, and the linker picks one (they must
 all be identical). The `inline` keyword tells the linker "multiple definitions are expected; merge
-Them."
+them."
 Without `inline`A static member defined in a header would cause "multiple definition" errors when
 Included in multiple TUs (unless it was `const` or `constexpr`Which already had special ODR
 Exemptions)

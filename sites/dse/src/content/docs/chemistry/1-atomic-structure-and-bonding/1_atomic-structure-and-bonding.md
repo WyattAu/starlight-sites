@@ -941,7 +941,7 @@ Both have giant ionic lattices, but $\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$ hav
 than $\mathrm{Na}^+$ and $\mathrm{Cl}^-$. The electrostatic attraction is proportional to the
 Product of the charges: $\mathrm{MgO}$ has $2 \times 2 = 4$ while $\mathrm{NaCl}$ has
 $1 \times 1 = 1$. Additionally, $\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$ are smaller ions, allowing
-Them to get closer together. Both factors result in stronger ionic bonds and a higher melting point
+them to get closer together. Both factors result in stronger ionic bonds and a higher melting point
 for $\mathrm{MgO}$.
 
 **Question 8:** Draw the dot-and-cross diagram for $\mathrm{CO}_2$ and explain why it is a linear

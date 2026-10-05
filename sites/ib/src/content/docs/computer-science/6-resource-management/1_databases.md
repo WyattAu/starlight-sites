@@ -2012,7 +2012,7 @@ HAVING COUNT(*) > 5;
 
 **(d)** The `teacherID` column in any Club row where `teacherID = 3` is set to NULL. The club record
 is preserved; only the reference to the teacher is cleared. If `ON DELETE CASCADE` had been used
-Instead, the clubs themselves would have been deleted.
+instead, the clubs themselves would have been deleted.
 
 </details>
 

@@ -293,7 +293,7 @@ int main() \{
 
 Fixing with extra parentheses (`#define SQUARE(x) ((x) * (x))`) helps but doesn't solve the
 Side-effect problem. The modern C++ solution is to use `constexpr` functions or `inline` functions
-Instead:
+instead:
 
 ```cpp
 constexpr int square(int x) \{ return x * x; \}  // Safe: evaluates argument once

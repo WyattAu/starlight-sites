@@ -975,7 +975,7 @@ Operate on instances.
 
 `@classmethod` defines a method that receives the class (`cls`) as its first argument, not the
 Instance. It is used for **alternative constructors** and methods that operate on the class itself
-Rather than instances.
+rather than instances.
 
 ```python
 class DateFormatter:
@@ -1257,7 +1257,7 @@ print(example.__wrapped__)       # <function example at 0x...>
 Without `functools.wraps`The following tools and patterns break:
 
 **1. Debugging and tracebacks.** The wrapper's `__name__` is `wrapper`Which appears in tracebacks
-Instead of the original function name. When you have multiple decorators, every traceback shows
+instead of the original function name. When you have multiple decorators, every traceback shows
 `wrapper` and you cannot tell which function actually failed.
 
 **2. Documentation tools.** Sphinx, pydoc, and IDEs read `__doc__` and `__annotations__` to generate

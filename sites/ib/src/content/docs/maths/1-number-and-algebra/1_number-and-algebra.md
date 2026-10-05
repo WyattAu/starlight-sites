@@ -104,7 +104,7 @@ $$
 $$
 
 This is the **inclusion-exclusion principle** for two sets. It subtracts the overlap that would
-Otherwise be double-counted.
+otherwise be double-counted.
 
 For three sets $A$, $B$, $C$:
 

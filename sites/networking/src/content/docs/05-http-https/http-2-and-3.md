@@ -128,7 +128,7 @@ Values in a way that leaks information.
 ### Server Push
 
 HTTP/2 allows the server to proactively send resources to the client before the client requests
-Them. The server sends a PUSH_PROMISE frame that includes the request headers for the pushed
+them. The server sends a PUSH_PROMISE frame that includes the request headers for the pushed
 Resource. The client can reject pushed resources with a RST_STREAM frame.
 
 ```
@@ -246,7 +246,7 @@ because HTTP/1.1's multiple TCP connections provide independent loss recovery.
 ### Overview
 
 HTTP/3 (RFC 9114) replaces TCP with QUIC as the transport layer. QUIC runs over UDP and implements
-Its own reliability, congestion control, and flow control. The key advantage: QUIC handles loss
+its own reliability, congestion control, and flow control. The key advantage: QUIC handles loss
 Recovery per-stream, so a lost packet on one stream does not block other streams.
 
 ### QUIC as Transport

@@ -410,8 +410,8 @@ to genes on different chromosomes.
 
 **Crossing over and recombination:** During Prophase I of meiosis, homologous chromosomes pair up
 And exchange segments at chiasmata. Crossing over can separate linked genes if it occurs between
-Them. The probability of crossing over between two genes is proportional to the distance between
-Them: genes that are farther apart are more likely to be separated by crossing over.
+them. The probability of crossing over between two genes is proportional to the distance between
+them: genes that are farther apart are more likely to be separated by crossing over.
 
 **Recombination frequency:** The percentage of offspring that are recombinant (have a non-parental
 Combination of alleles).

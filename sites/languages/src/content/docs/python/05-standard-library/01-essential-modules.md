@@ -1017,7 +1017,7 @@ print(dt.isoformat())     # 2025-06-04T14:30:00+00:00
 
 A naive `datetime` has no timezone information. It represents an abstract time that cannot be mapped
 to a specific instant on the timeline. An aware `datetime` carries a `tzinfo` subclass that defines
-Its offset from UTC.
+its offset from UTC.
 
 ```python
 from datetime import datetime, timezone, timedelta

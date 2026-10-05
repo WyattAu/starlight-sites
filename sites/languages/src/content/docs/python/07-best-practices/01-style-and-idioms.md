@@ -32,7 +32,7 @@ Different implicit choices about naming, structure, and error handling.
 The practical consequences are severe: inconsistent code is harder to review, harder to refactor,
 And harder to onboard new contributors into. The tools and conventions described in this document
 Exist to eliminate these problems at the mechanical level, freeing developers to focus on logic
-Rather than formatting.
+rather than formatting.
 
 ## PEP 8 Essentials
 
@@ -1075,7 +1075,7 @@ def test_encode_decode_roundtrip(text):
 The key insight of property-based testing is that you identify **properties** of your code
 (invariants, round-trip behaviors, idempotency) rather than specific input/output pairs. The testing
 Framework then generates thousands of random inputs and verifies that the property holds for all of
-Them. When a failure is found, Hypothesis automatically minimizes the failing input to the smallest
+them. When a failure is found, Hypothesis automatically minimizes the failing input to the smallest
 Counterexample, making it easy to understand and fix the bug.
 
 ## Docstrings

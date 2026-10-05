@@ -345,7 +345,7 @@ Compressed oops.
 ### TreeSet
 
 `TreeSet<E>` is a `NavigableSet` implementation backed by a `TreeMap`. Elements are ordered using
-Their natural ordering (if they implement `Comparable`) or a `Comparator` provided at construction
+their natural ordering (if they implement `Comparable`) or a `Comparator` provided at construction
 Time. It provides guaranteed O(log n) time for `add``remove`And `contains`.
 
 ```java

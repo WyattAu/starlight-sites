@@ -138,7 +138,7 @@ $$
 
 **Intuition.** $P(A|B)$ is the probability of $A$ occurring **given that we already know $B$ has
 Occurred**. Knowing $B$ has happened changes our sample space from $\Omega$ to $B$ And we measure
-What fraction of $B$ is also in $A$.
+what fraction of $B$ is also in $A$.
 
 ### 3.2 Properties of conditional probability
 
@@ -262,7 +262,7 @@ Venn diagrams represent events as regions. Useful for visualising:
 ### 6.2 Tree diagrams
 
 Tree diagrams are useful for sequential experiments. Each branch represents a possible outcome with
-Its probability. The probability along any path is the product of the probabilities along its
+its probability. The probability along any path is the product of the probabilities along its
 Branches (multiplication rule). The probability of any event is found by adding the probabilities of
 all paths leading to it (addition rule for mutually exclusive paths).
 

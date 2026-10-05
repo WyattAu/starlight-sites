@@ -137,7 +137,7 @@ Perspectives of those who witnessed it.
 The title itself -- _Chronicle of a Death Foretold_ -- announces the novel's preoccupation with
 Foreknowledge and inevitability. The word "foretold" carries biblical connotations of prophecy,
 Suggesting that Santiago's death has the quality of a predestined event, something foreordained
-Rather than merely anticipated. Yet the novel systematically undermines any simple reading of fate.
+rather than merely anticipated. Yet the novel systematically undermines any simple reading of fate.
 The foretelling is, in fact, a product of human agency: the Vicario brothers announce their
 Intention to kill Santiago to virtually every person they encounter, and those people fail to act.
 The "foretelling" is thus a product of collective negligence, not divine providence.
@@ -463,7 +463,7 @@ Knives, announce their intentions, wait in a public place, and execute their vic
 of the town. Every element of the event -- the time, the place, the weapons, the witnesses -- is
 Determined by the code of honour, which specifies not only that the murder must occur but _how_ it
 must occur. The ritual quality of the violence is what distinguishes it from mere criminality and
-What makes it, paradoxically, socially acceptable.
+what makes it, paradoxically, socially acceptable.
 
 The autopsy scene extends this ritual logic into the realm of the grotesque. Father Amador, who
 Performs the autopsy, is not a qualified medical examiner, and his treatment of Santiago's body is
@@ -499,7 +499,7 @@ Vulnerable to the accusations of the majority.
 
 The novel presents love in its most contradictory forms. Bayardo's love for Angela is possessive and
 Transactional; Angela's love for Bayardo is obsessive and self-destructive; the twins' love for
-Their sister is expressed through violence; the town's love for its own traditions is expressed
+their sister is expressed through violence; the town's love for its own traditions is expressed
 through complicity in murder. Yet the novel also suggests that love -- in its most authentic form --
 Has the power to transcend these destructive patterns. Angela's letters to Bayardo, written over
 Seventeen years without any expectation of a response, represent a kind of love that is pure in its
@@ -748,7 +748,7 @@ Light" captures the novel's epistemological sophistication.
 The novel also deploys extended metaphors that operate across multiple passages. The metaphor of the
 Town as a body -- in which each individual is an organ or limb, and the murder is a wound to the
 Collective organism -- recurs throughout the text. The twins' knives are described as extensions of
-Their arms, as though the violence they commit is not a choice but a physiological reflex. The
+their arms, as though the violence they commit is not a choice but a physiological reflex. The
 River, which Santiago crosses on the morning of the murder, functions as a metaphor for the boundary
 between life and death, the conscious and the unconscious, the known and the unknown.
 
@@ -895,7 +895,7 @@ Angela Vicario's relationship with truth can also be read through a psychoanalyt
 Accusation against Santiago -- which may or may not be true -- is a product of extreme psychological
 Pressure: she is beaten, terrified, and compelled to produce a name. The name she gives functions as
 A kind of screen memory, a psychic defence mechanism that protects her from the full knowledge of
-Her own experience. Whether Santiago is the real perpetrator or a convenient placeholder, the
+her own experience. Whether Santiago is the real perpetrator or a convenient placeholder, the
 Accusation serves the psychic function of channelling the violence of the community away from Angela
 Herself and toward a designated scapegoat.
 

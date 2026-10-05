@@ -157,7 +157,7 @@ true
 ### GPG Agent and Passphrase Caching
 
 The `gpg-agent` daemon manages your private keys and caches passphrases so you don't have to enter
-Them for every commit:
+them for every commit:
 
 ```bash
 # Check if gpg-agent is running
@@ -472,7 +472,7 @@ Primary key fingerprint: 1122 3344 5566 7788 9900  AABB CCDD EEFF 0011 2233
 ```
 
 The "WARNING: This key is not certified" message means the key is not signed by any other key in
-Your local trust database. This is **normal** and does not indicate a problem, it means you Have
+your local trust database. This is **normal** and does not indicate a problem, it means you Have
 not built a web of trust. The signature itself is still valid.
 
 ## Key Management

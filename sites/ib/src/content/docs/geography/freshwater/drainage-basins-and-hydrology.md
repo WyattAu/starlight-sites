@@ -246,7 +246,7 @@ Examination questions frequently ask students to explain the shape of a given hy
 Error is to attribute the hydrograph shape to a single factor (e.g., "the basin is urban, so the
 Hydrograph is flashy"). In reality, the hydrograph shape results from the interaction of multiple
 Factors. A strong answer will identify the dominant factor and then explain how other factors modify
-Its effect. For example, "The short lag time is primarily due to the impermeable clay geology, which
+its effect. For example, "The short lag time is primarily due to the impermeable clay geology, which
 Limits infiltration. However, the mature forest cover partially offsets this by intercepting
 Rainfall and increasing infiltration through root action, which explains why the peak discharge is
 Lower than would be expected for bare clay."

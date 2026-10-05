@@ -619,7 +619,7 @@ lock. Know your isolation level.
 ### Advisory Lock Leaks
 
 Session-level advisory locks persist until the session ends or the lock is explicitly released. If
-Your application crashes or the connection pool drops the connection, the lock is automatically
+your application crashes or the connection pool drops the connection, the lock is automatically
 Released when the TCP connection closes. However, with PgBouncer in session mode, a recycled
 Connection may still hold a lock from a previous session. Use transaction-level advisory locks
 (`pg_advisory_xact_lock`) for automatic cleanup.

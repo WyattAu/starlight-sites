@@ -158,7 +158,7 @@ A summary route (or aggregate route) represents multiple more-specific routes wi
 This reduces the size of the routing table.
 
 For example, if you have 10.1.0.0/24, 10.1.1.0/24, 10.1.2.0/24, and 10.1.3.0/24, you can summarize
-Them as 10.1.0.0/22:
+them as 10.1.0.0/22:
 
 ```
 ip route 10.1.0.0 255.255.252.0 10.0.0.2

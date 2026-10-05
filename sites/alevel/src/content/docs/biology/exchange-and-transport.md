@@ -674,7 +674,7 @@ $$
 $$
 
 This is the molecular basis of the Bohr effect: the binding of $\mathrm{H^+}$ to haemoglobin reduces
-Its affinity for $\mathrm{O_2}$ Promoting $\mathrm{O_2}$ unloading in respiring tissues.
+its affinity for $\mathrm{O_2}$ Promoting $\mathrm{O_2}$ unloading in respiring tissues.
 
 ### 10.2 Reversal in the Lungs
 
@@ -714,7 +714,7 @@ System achieves approximately 80% oxygen extraction versus approximately 50% for
 <details>
 <summary>Problem 2</summary>
 Describe the mechanism by which water is transported through the xylem from roots to leaves. In
-Your answer, refer to the cohesion-tension theory and the role of transpiration.
+your answer, refer to the cohesion-tension theory and the role of transpiration.
 
 **Answer.** The cohesion-tension theory explains water movement in xylem. Water evaporates from the
 Cell walls of mesophyll cells in the leaf into the sub-stomatal air space and exits through stomata

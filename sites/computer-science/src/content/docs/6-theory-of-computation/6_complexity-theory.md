@@ -370,7 +370,7 @@ $O(n)$ space to store the current assignment, giving $O(n^2)$ total.
 *Proof (hardness).* Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A
 Computation of a PSPACE TM on input $w$ of length $n$ uses at most $p(n)$ cells for some Polynomial
 $p$. The number of distinct configurations is at most $N = |\Gamma|^{p(n)} \cdot p(n) \cdot |Q|$
-Which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
+which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
 alternating reachability formula can be encoded as a quantified Boolean formula of Polynomial size.
 $\blacksquare$
 

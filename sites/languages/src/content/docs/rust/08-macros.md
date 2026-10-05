@@ -1086,7 +1086,7 @@ let (query, params) = sql!("SELECT * FROM users WHERE id = $1 AND name = $2", us
 
 :::caution
 Validate parameter bindings at compile time, and generate type-safe code. Libraries like `sqlx` with
-Its `query!` macro provide this level of sophistication.
+its `query!` macro provide this level of sophistication.
 
 ## The `syn` and `quote` Ecosystem
 

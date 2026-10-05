@@ -517,7 +517,7 @@ Unlimited messages, which can overwhelm the server if not rate-limited.
 ### Redis Pub/Sub
 
 When running multiple backend instances, messages must be broadcast to all relevant connections
-Regardless of which backend holds the connection. Redis pub/sub provides the message distribution
+regardless of which backend holds the connection. Redis pub/sub provides the message distribution
 Backbone.
 
 ```

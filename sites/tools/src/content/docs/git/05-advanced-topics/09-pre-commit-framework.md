@@ -908,14 +908,14 @@ jobs:
 
 This is the most common source of confusion. The `pre-commit` framework stages files internally
 before running hooks. If you edit a file after staging it, the hook sees the **staged** version, not
-Your latest edit. Fix: run `git add` again after editing.
+your latest edit. Fix: run `git add` again after editing.
 
 ### The Framework Creates Isolated Virtual Environments
 
 Each hook repository gets its own virtual environment under `~/.cache/pre-commit/`. If a hook
 Depends on a library that your project also uses, the versions may differ. This is by design, it
 Prevents hook dependencies from conflicting with project dependencies. If you need a hook to use
-Your project's environment, use `language: system` and manage dependencies yourself.
+your project's environment, use `language: system` and manage dependencies yourself.
 
 ### First Run Is Slow
 

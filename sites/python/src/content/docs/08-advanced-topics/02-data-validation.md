@@ -1100,7 +1100,7 @@ Recursive models.
 ### JSON Schema Precision Loss
 
 `Decimal` fields are serialized as `number` in JSON Schema, which means JSON consumers may parse
-Them as floating-point values, losing precision. If exact decimal precision matters (financial
+them as floating-point values, losing precision. If exact decimal precision matters (financial
 Calculations, scientific measurements), consider serializing decimals as strings and documenting the
 Expected format.
 

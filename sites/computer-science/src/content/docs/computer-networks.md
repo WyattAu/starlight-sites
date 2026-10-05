@@ -232,7 +232,7 @@ Single fibre. Dense WDM (DWDM) supports 80+ channels.
 
 **Code-Division Multiple Access (CDMA).** Each user is assigned a unique code. All users transmit
 Simultaneously on the same frequency; codes are mathematically orthogonal so receivers can isolate
-Their signal.
+their signal.
 
 ### 2.4 Modulation
 
@@ -1477,7 +1477,7 @@ Leases are time-limited; clients must renew before expiry (T1 at 50%, T2 at 87.5
 **DHCP relay.** In networks with multiple subnets, clients broadcast DHCPDISCOVER, which routers do
 Not forward. A DHCP relay agent (configured on the router) converts the broadcast to a unicast and
 Forwards it to the DHCP server, adding the `giaddr` (gateway IP address) field so the server knows
-Which subnet to allocate an address from.
+which subnet to allocate an address from.
 
 **DHCPv6.** Uses multicast (`ff02::1:2` for servers) and supports rapid commit (2-message exchange
 Instead of 4-message DORA). Stateless DHCPv6 provides only configuration (DNS, NTP) without address

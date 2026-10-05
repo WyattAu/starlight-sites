@@ -371,7 +371,7 @@ When evaluating a source, consider:
 ### Q4 Strategy: Synthesis
 
 This question requires you to use **all** the provided sources plus your own knowledge. Structure
-Your response:
+your response:
 
 1. **Introduction:** State your argument .
 2. **Body paragraphs:** Group by theme or argument, not by source. In each paragraph, cite specific

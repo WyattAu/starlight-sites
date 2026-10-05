@@ -1093,7 +1093,7 @@ $$
 
 **Definition.** **Sacrificial anodes** are blocks of a more reactive metal ( zinc, magnesium, Or
 aluminum) attached to the iron structure. The more reactive metal acts as the anode and corrodes
-Instead of the iron.
+instead of the iron.
 
 Applications: ship hulls, underground pipelines, water heaters, offshore oil platforms.
 

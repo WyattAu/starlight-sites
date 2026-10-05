@@ -187,7 +187,7 @@ go clean -modcache
 
 Go uses Minimal Version Selection, not SemVer resolution. For each dependency, Go selects the
 Maximum version required by any module in the graph. It does not upgrade transitive dependencies to
-Their latest version.
+their latest version.
 
 Example: if A requires C@v1.1.0 and B requires C@v1.2.0, Go uses C@v1.2.0 (the maximum required
 Version). It does not use C@v1.3.0 even if that exists, because no module requires it.

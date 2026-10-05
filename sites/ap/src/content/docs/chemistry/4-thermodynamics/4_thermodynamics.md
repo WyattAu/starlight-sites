@@ -93,7 +93,7 @@ $$
 $$
 
 Standard conditions: $1 \mathrm{ atm$, $298 \mathrm{ K$ ($25^\circ\mathrm{C$), pure substances in
-Their most stable form. By convention, $\Delta H_f^\circ = 0$ for elements in their standard state.
+their most stable form. By convention, $\Delta H_f^\circ = 0$ for elements in their standard state.
 
 The standard state of an element is its most stable form at $1 \mathrm{ atm$ and
 $25^\circ\mathrm{C$: e.g., $\mathrm{O_2(g)$ Not $\mathrm{O_3(g)$ or $\mathrm{O_2(l)$;

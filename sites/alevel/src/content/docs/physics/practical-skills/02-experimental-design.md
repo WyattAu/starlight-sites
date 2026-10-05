@@ -72,7 +72,7 @@ Mnemonic: "I change the **I**ndependent variable, and I measure the **D**ependen
 ### Control Variables in Depth
 
 Control variables are often the most neglected part of experimental design, yet failing to control
-Them is the most common reason experiments produce invalid results.
+them is the most common reason experiments produce invalid results.
 
 **Why control variables matter:** If a control variable is not held constant, it becomes a
 **confounding variable**, you cannot determine whether the change in the dependent variable is due

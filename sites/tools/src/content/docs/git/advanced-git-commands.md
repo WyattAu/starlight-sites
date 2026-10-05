@@ -192,7 +192,7 @@ git filter-repo --replace-refs delete-no-add
 
 :::caution
 History. If the replacement changes commit hashes, downstream branches may break. Coordinate with
-Your team before pushing replacement refs.
+your team before pushing replacement refs.
 
 ### Comparison Table
 

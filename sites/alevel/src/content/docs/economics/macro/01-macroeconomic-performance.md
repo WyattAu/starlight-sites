@@ -536,7 +536,7 @@ When evaluating a current account deficit, consider:
 
 **Exam conclusion**: A current account deficit is neither inherently good nor bad. The key is to
 Examine its causes, its financing, and the broader macroeconomic context. The UK's deficit reflects
-Its position as a service-based, open economy that imports manufactured goods and relies on foreign
+its position as a service-based, open economy that imports manufactured goods and relies on foreign
 Capital inflows.
 
 ## 5. The Phillips Curve
@@ -565,7 +565,7 @@ Natural rate of unemployment.
 _Proof._ If the government tries to maintain $u \lt u^*$ through expansionary policy, inflation
 Rises. Initially, workers suffer from **money illusion**, they accept nominal wage increases not
 Realising prices are rising faster. Real wages fall, firms hire more. But eventually, workers update
-Their inflation expectations ($\pi^e$ rises). They demand higher nominal wages to compensate. Real
+their inflation expectations ($\pi^e$ rises). They demand higher nominal wages to compensate. Real
 Wages return to their original level, and employment falls back to $u^*$. The economy moves up along
 the short-run Phillips curve to a point with higher inflation but the same unemployment rate.
 $\blacksquare$

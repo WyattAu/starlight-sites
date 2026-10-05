@@ -89,7 +89,7 @@ $p$-subgroups by conjugation. Write $\mathrm{Syl_p}(G) = \{P = P_1, P_2, \ldots,
 
 **Step 1: $n_p \equiv 1 \pmod{p}$.** A Sylow $p$-subgroup $P_i$ is a fixed point of the $P$-action
 Iff $P \subseteq N_G(P_i)$. But then $PP_i \leq N_G(P_i)$ And $|PP_i| = p^n \cdot p^n / |P \cap P_i|$
-Which is a power of $p$. Since $p^n$ is the maximal power of $p$ dividing $|G|$ and
+which is a power of $p$. Since $p^n$ is the maximal power of $p$ dividing $|G|$ and
 $PP_i \subseteq G$ We get $|PP_i| = p^n$ Hence $P = PP_i = P_i$ (since $P \subseteq PP_i$).
 
 Thus $P$ is the **unique** fixed point. All other orbits have size $[P : \mathrm{Stab_P}(P_i)]$ A

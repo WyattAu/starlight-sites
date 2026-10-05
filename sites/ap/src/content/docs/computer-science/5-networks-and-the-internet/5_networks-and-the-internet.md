@@ -647,7 +647,7 @@ Poor due to inconsistent packet arrival times.
 
 The Key Reinstallation Attack (KRACK) exploits a vulnerability in the 4-way handshake. By
 Manipulating and replaying handshake messages, an attacker can force the reuse of a nonce, allowing
-Them to decrypt packets and inject data.
+them to decrypt packets and inject data.
 
 **Mitigation:** Upgrade to WPA3, which uses Simultaneous Authentication of Equals (SAE) and is
 Immune to KRACK.

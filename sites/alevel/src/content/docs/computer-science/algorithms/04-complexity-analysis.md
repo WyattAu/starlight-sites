@@ -811,7 +811,7 @@ def algorithm_p(arr):
 
 (a) Determine the time complexity of each algorithm. (b) For $n = 10\,000$ Estimate the number of
 Operations for each algorithm. (c) Which algorithm is more efficient and by what factor? Explain
-Your reasoning.
+your reasoning.
 
 <details>
 <summary>Hint</summary>

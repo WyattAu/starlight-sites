@@ -1257,7 +1257,7 @@ within the same sieve tube) can transport sap in different directions simultaneo
 A source (exporting sucrose to roots) and a sink (importing sucrose for its own growth) at different
 Times or for different compounds. Xylem transport is always unidirectional (upward, from roots to
 Leaves) because it is driven by transpiration pull (a negative pressure) and root pressure, both of
-Which only operate in one direction.
+which only operate in one direction.
 
 </details>
 

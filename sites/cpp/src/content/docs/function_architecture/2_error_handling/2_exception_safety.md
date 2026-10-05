@@ -643,7 +643,7 @@ Normal function return.
 This design choice means that exception-heavy code paths are expensive, but exception-free code
 Paths pay nothing. This is the rationale behind `noexcept`: marking a function `noexcept` tells the
 Compiler it does not need to generate unwind tables for that function, and allows callers to skip
-Their own unwind bookkeeping.
+their own unwind bookkeeping.
 
 On MSVC (Windows), exceptions use a different mechanism (table-based with code cookies) that also
 has zero cost on the happy path, but the table format and runtime are different from the Itanium

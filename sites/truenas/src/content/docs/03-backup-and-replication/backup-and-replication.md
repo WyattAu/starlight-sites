@@ -99,7 +99,7 @@ zfs list -t snapshot -S used -o name,used | head -20
 
 Snapshots can be destroyed to reclaim space, but you cannot destroy an individual snapshot if it has
 Clones. Destroy all clones first, or use `zfs destroy -R` to recursively destroy a snapshot and all
-Its dependents.
+its dependents.
 
 ```bash
 # Destroy a specific snapshot

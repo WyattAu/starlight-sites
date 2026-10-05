@@ -280,7 +280,7 @@ Profit is zero.
 ### Industry Supply Curve in the Short Run
 
 The short-run industry supply curve is the horizontal sum of all individual firms' `MC` curves above
-Their respective `AVC` minimums. Each firm supplies along its `MC` curve for prices above its
+their respective `AVC` minimums. Each firm supplies along its `MC` curve for prices above its
 Shutdown point.
 
 ### Industry Supply Curve in the Long Run
@@ -721,7 +721,7 @@ Advertising is a central feature of monopolistic competition. Its effects are de
 
 Oligopoly is a market structure dominated by a few large firms. The key distinguishing feature is
 **mutual interdependence**: each firm's decisions (price, output, advertising) significantly affect
-Its rivals, and each firm must anticipate rivals' reactions when making decisions.
+its rivals, and each firm must anticipate rivals' reactions when making decisions.
 
 1. **Few large firms:** Each firm has a significant share of the market. A small number of firms
    dominate.
@@ -1056,7 +1056,7 @@ Run? Explain. (e) If the market price falls to USD 25, what will the firm do?
 | 260 | 50 | 43.3 | 35.0 | 8.3 | | 7 | 320 | 60 | 45.7 | 38.6 | 7.1 |
 
 (b) The firm produces where `P = MC`. At `P = 40`: `MC = 40` at `Q = 1` and `Q = 5`. To determine
-Which, check: at `Q = 1``MR = 40 \gt MC = 40` is borderline (producing the first unit is Profitable
+which, check: at `Q = 1``MR = 40 \gt MC = 40` is borderline (producing the first unit is Profitable
 since `P \gt AVC`). At `Q = 5``MR = 40 = MC`. For `Q = 6``MC = 50 \gt MR = 40`So The firm should NOT
 produce the 6th unit. The profit-maximising output is `Q = 5`.
 

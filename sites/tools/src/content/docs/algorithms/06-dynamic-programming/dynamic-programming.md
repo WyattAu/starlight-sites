@@ -749,7 +749,7 @@ The hardest part of DP is defining the state. A good state should be:
 - **Minimal**, the state does not contain redundant information
 
 Common mistake: trying to use too many state variables. Start with a recursive solution, identify
-What parameters change in recursive calls, and those are your state variables.
+what parameters change in recursive calls, and those are your state variables.
 
 ### 2. Wrong Base Case
 

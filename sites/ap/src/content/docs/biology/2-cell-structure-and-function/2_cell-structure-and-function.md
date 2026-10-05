@@ -258,7 +258,7 @@ Programmed cell death, critical for development and homeostasis. Key regulators:
 7. Glucose is released into the blood, raising blood glucose levels.
 
 This pathway amplifies the signal: one epinephrine molecule can activate many G-proteins, each of
-Which produces many cAMP molecules, each of which activates many PKA enzymes.
+which produces many cAMP molecules, each of which activates many PKA enzymes.
 
 ### Receptor Tyrosine Kinases (RTKs)
 
@@ -523,7 +523,7 @@ Considered semi-autonomous organelles (they have their own DNA and replicate ind
 **Worked Example: Tracing a lysosomal enzyme.**
 
 A lysosomal enzyme (a hydrolytic enzyme) is synthesised in the same way as a secretory protein, but
-Instead of being secreted, it is tagged with a mannose-6-phosphate marker in the Golgi apparatus.
+instead of being secreted, it is tagged with a mannose-6-phosphate marker in the Golgi apparatus.
 This marker is recognised by receptors on the Golgi membrane, and the enzyme is packaged into
 Vesicles that fuse with lysosomes. Without this tagging system, the enzyme would be secreted from
 the cell. This demonstrates how the Golgi apparatus sorts proteins to different destinations.

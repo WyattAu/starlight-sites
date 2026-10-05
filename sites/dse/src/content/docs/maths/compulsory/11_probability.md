@@ -913,7 +913,7 @@ $$
 $$
 
 Despite producing 60% of items, Machine $X$ accounts for only about 39.1% of defective items because
-Its defect rate is lower.
+its defect rate is lower.
 
 1. **Question:** A fair die is rolled twice. Find the probability that the sum of the two results
 Is 8, given that the first result is at least 3.

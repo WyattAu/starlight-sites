@@ -840,7 +840,7 @@ P(\mathrm{error in array) = 1 - (1 - UBER)^{N_{drives} \times N_{reads}}
 $$
 
 This is why ZFS checksumming is essential, it detects and corrects these errors that would
-Otherwise cause silent data corruption.
+otherwise cause silent data corruption.
 
 ### Wear Leveling Depth
 

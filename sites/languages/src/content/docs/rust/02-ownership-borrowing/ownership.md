@@ -942,7 +942,7 @@ takes_short(long);  // OK, 'static can be shortened to 'a
 `&'a mut T` is invariant in `'a`. You cannot substitute a longer-lived `&'long mut T` where a
 `&'short mut T` is expected. This prevents soundness issues where a mutable reference to a
 Shorter-lived value could be used to write a longer-lived reference, extending its lifetime beyond
-Its valid scope.
+its valid scope.
 
 ```rust
 fn takes_short_mut<'a>(r: &'a mut i32) {}

@@ -25,7 +25,7 @@ Overhead. A machine with 8 GB of RAM can run roughly 8,000 threads before exhaus
 Space alone. In practice, the scheduler overhead degrades performance long before that.
 
 Most server workloads are I/O-bound. A thread handling an HTTP request spends the vast majority of
-Its time waiting for database queries, network calls, or file I/O. During that wait, the thread's
+its time waiting for database queries, network calls, or file I/O. During that wait, the thread's
 Stack sits in memory doing nothing. The traditional solution -- thread pools bounded to some
 Reasonable size (200-500 threads) -- works but introduces complexity: every blocking operation must
 be non-blocking or async, and async code is hard to write, hard to read, and hard to debug.
@@ -35,7 +35,7 @@ Virtual threads solve this by decoupling the Java-level thread from the OS threa
 ### What Is a Virtual Thread
 
 A virtual thread is a lightweight thread managed by the JVM rather than the operating system. It has
-Its own stack, its own thread-local variables, and its own interrupt state -- but the stack is
+its own stack, its own thread-local variables, and its own interrupt state -- but the stack is
 Allocated on the heap as a linked list of stack frames (called "continuations"), not as a contiguous
 Block of memory. When a virtual thread blocks on I/O, the JVM unmounts it from its carrier (the OS
 Thread) and mounts a different virtual thread. When the I/O completes, the JVM remounts the original
@@ -480,7 +480,7 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 ### Synchronized Still Pins (JDK 21-23)
 
 Any blocking operation inside a `synchronized` block pins the virtual thread to its carrier. Audit
-Your codebase for `synchronized` blocks that contain I/O operations and replace with
+your codebase for `synchronized` blocks that contain I/O operations and replace with
 `ReentrantLock`.
 
 ### `ThreadLocal` in Virtual Thread Per-Task Executors

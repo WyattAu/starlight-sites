@@ -80,7 +80,7 @@ $$
 
 :::note
 (9708) Paper 4 often asks students to evaluate the effectiveness of demand-side policies, requiring
-Them to contrast Keynesian and monetarist perspectives. Edexcel requires students to discuss the
+them to contrast Keynesian and monetarist perspectives. Edexcel requires students to discuss the
 "battle of the economists" in the context of policy debates.
 :::
 
@@ -205,7 +205,7 @@ Lags**:
 October 2008 and March 2009, but the UK recession continued until Q3 2009. Fiscal stimulus (the 2008
 Temporary VAT cut from 17.5% to 15%) was implemented relatively quickly but had limited effect, the
 Multiplier was estimated at only 0.3–0.5 (IMF, 2010) because households saved the extra income
-Rather than spending it (the **paradox of thrift**).
+rather than spending it (the **paradox of thrift**).
 
 **Implication**: By the time discretionary policy takes effect, the economic conditions may have
 Changed, potentially making the policy **pro-cyclical** (stimulating when the economy is already

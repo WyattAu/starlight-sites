@@ -480,7 +480,7 @@ $$
 :::note[Example]
 A figure skater with arms extended has $I = 4.5\mathrm{ kg}\cdot\mathrm{m}^2$ and spins at
 $2\mathrm{ rad/s}$. She pulls her arms in, reducing $I$ to $1.5\mathrm{ kg}\cdot\mathrm{m}^2$. Find
-Her new angular velocity.
+her new angular velocity.
 
 $$
 I_1\omega_1 = I_2\omega_2

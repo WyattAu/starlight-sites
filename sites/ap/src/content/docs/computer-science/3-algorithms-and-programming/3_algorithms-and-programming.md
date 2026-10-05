@@ -107,7 +107,7 @@ public static void insertionSort(int[] arr) {
 
 **Intuition.** Imagine sorting a hand of playing cards. You hold the first card in your left hand
 (sorted). You pick up the next card with your right hand and insert it into the correct position in
-Your left hand by shifting larger cards to the right.
+your left hand by shifting larger cards to the right.
 
 **Why insertion sort is $O(n^2)$ in the worst case.** If the array is in reverse order, each new
 Element must be shifted all the way to the front. The $i$-th element requires up to $i$ shifts, so

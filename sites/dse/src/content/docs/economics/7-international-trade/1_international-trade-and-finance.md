@@ -992,7 +992,7 @@ Depreciates against the HKD.
 <summary>Question 7: Trade Policy Evaluation</summary>
 
 The government of a developing country is considering imposing a tariff on imported steel to protect
-Its domestic steel industry. Discuss the economic arguments for and against this policy.
+its domestic steel industry. Discuss the economic arguments for and against this policy.
 
 **Arguments for the tariff:**
 

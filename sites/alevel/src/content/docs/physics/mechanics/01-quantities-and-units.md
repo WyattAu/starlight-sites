@@ -279,7 +279,7 @@ $$
 $$
 
 This is the statistical (root-sum-square) combination, which gives the most probable uncertainty
-Rather than the worst case. For A Level exams, use the simpler worst-case rules above unless
+rather than the worst case. For A Level exams, use the simpler worst-case rules above unless
 Instructed otherwise.
 
 ### Significant Figures and Uncertainty

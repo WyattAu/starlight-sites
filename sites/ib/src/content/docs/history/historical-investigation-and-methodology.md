@@ -189,7 +189,7 @@ Critically.
 **Official documents:** Government records, diplomatic correspondence, legislation, treaties,
 Military orders, intelligence reports, census data. Official documents have the authority of the
 State behind them but reflect the interests, biases, and purposes of the institution that produced
-Them. The Zimmermann Telegram (1917) is a primary source that reveals German diplomatic intentions;
+them. The Zimmermann Telegram (1917) is a primary source that reveals German diplomatic intentions;
 The Reichstag Fire Decree (1933) is a primary source that reveals the legal mechanisms the Nazis
 Used to dismantle democracy.
 
@@ -767,7 +767,7 @@ After the first full citation, use a shortened form:
 
 The bibliography lists all sources consulted, alphabetised by author's surname. The format differs
 Slightly from footnotes: the author's surname comes first, and the citation ends with a period
-Rather than a page number.
+rather than a page number.
 
 Kershaw, Ian. _Hitler 1889--1936: Hubris_. London: Penguin, 1998.
 

@@ -37,13 +37,15 @@ Repair with `node scripts/fix-display-math.mjs` (it rewrites the line into
 the three-line fenced form, preserving total delimiter parity so no block
 becomes unbalanced). Fenced code blocks and HTML comments are skipped.
 
-This class was worth 20,495 rewrites across 911 files — the largest single
-visual defect found in the content layer.
+This class was worth 20,495 rewrites across 911 files in 24 sites — the
+largest single visual defect found in the content layer, and four months old
+when it was finally caught.
 
 ## 4. Prose damage lint (`scripts/fix-prose-damage.py --check`)
 
-The em-dash normalization pass also ate punctuation *inside* prose. Four
-mechanical classes, repaired:
+Four classes, all repaired. `git log -S` traces them all to the initial
+Docusaurus → Starlight migration (`75e8b5ab7`); the em-dash pass was not
+responsible and did not cause them:
 
 - `Fermat"s Little Theorem` — curly closing quote used as an apostrophe (578)
 - `$1 \pmod{m}$Where $\phi$ is` — inline math glued to the following word (8,520)
@@ -82,14 +84,45 @@ Not repaired, tracked via `--report`: the run-on class `$...$ Then`, where the
 math closed a sentence and the full stop was eaten. Restoring the stop also
 requires re-casing `Then` -> `then`, which is editorial.
 
-## 5. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
+## 5. Capitalisation worklist (`scripts/prose-capitalisation-worklist.py`)
+
+Roughly 32,600 wrapped-line capitals remain un-repaired. They contain both
+damage and correct English:
+
+```
+...only within the          ...defining a method with the
+Windows ecosystem.          Same name.
+```
+
+No automatic filter separates those. The obvious candidate — "safe if the
+word is never capitalised mid-sentence anywhere in the network" — was
+implemented and discarded: with ~100,000 mid-sentence capitals across 46
+sites almost every common word has a hit, so the rule admitted nothing, and
+its counter-examples are direct. `the Same magnification` and `maximum
+Number of` are damage that is capitalised mid-sentence, identical in shape
+to the correct `In Python, / produces a float`. Excluding frontmatter,
+LaTeX `\text{...}` and ld+json from the tally did not rescue it.
+
+So the tool produces a ranked per-word list with a real sample attached and
+applies nothing. `--emit` writes a candidate file; approving a word is a
+one-token decision that then permits safe mechanical repair of every
+occurrence:
+
+```
+python3 scripts/prose-capitalisation-worklist.py --top 40    # review a batch
+python3 scripts/fix-prose-damage.py --approve reviewed.txt # apply it
+```
+
+Reviewing the list is the work; the repair is then exact and repeatable.
+
+## 6. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
 
 Generates the AI-crawler-facing site indexes: a network root
 (`sites/main/public/llms.txt`) and one per site. `--check` fails when the
 committed files are stale relative to content. Regenerate with
 `node scripts/generate-llms-txt.js`.
 
-## 6. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
+## 7. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
 
 Parses markdown and `href=` links network-wide (14,000+ internal links),
 resolving each against the page index with browser semantics:
@@ -105,13 +138,24 @@ correct target verifiably exists in the page index. Flip to blocking
 
 ## Historical context
 
-The 2026-09 em-dash normalization pass merged JSX spread separators and
-aside fences across ~800 files; these gates exist so that class of
-damage can never reach production again.
+Two distinct causes, and they matter because the second one is invisible in
+review.
 
-The display-math delimiter gate came out of a different failure mode: no
-single event broke it. The defect was simply always present, an artifact
-of writing formulas the way chat models emit them, and it only became
-visible once someone opened a rendered page and looked at it rather than
-at the markdown. Gates are how a class like that gets retired instead of
-rediscovered.
+**The 2026-09 em-dash normalization pass** (`d97d0439d`) rewrote every
+em-dash across the network and merged JSX spread separators and aside
+fences across ~800 files. Gates 1 and 2 exist so that class of damage can
+never reach production again.
+
+**The 2026-06 Docusaurus → Starlight migration** (`75e8b5ab7`) is where
+gates 3 and 4 came from. Both defects were present in the content the day
+it was migrated and were never introduced by any later pass — `git log -S`
+traces them back to that one commit. They stayed invisible because they are
+only wrong *in the rendered page*: the markdown reads perfectly, and nobody
+had opened a chemistry or physics page and looked at the formulas until
+2026-10.
+
+That is the general lesson worth recording. A defect that no tool in the
+pipeline can see is not a defect the pipeline will ever catch, so each one
+that turns up needs a gate as well as a fix. The display-math gate
+(20,495 blocks) and the prose-damage gates (9,000+ lines) are both retired
+this way rather than left to be rediscovered.

@@ -129,7 +129,7 @@ Suitable for higher-ability students who have mastered the fundamentals of parag
 
 No single paragraph structure is inherently superior. The best structure is the one that the student
 can execute most effectively under examination conditions. Students should practise with PETAL as
-Their default structure, experiment with alternatives, and develop a personal style that is
+their default structure, experiment with alternatives, and develop a personal style that is
 Consistent, logical, and well-supported with evidence.
 
 ## 3. Analytical, Evaluative, and Argumentative Essays
@@ -501,7 +501,7 @@ not, / Speak then to me" (1.3) -- is characterised by curiosity rather than cove
 Metaphor of the "seeds of time" suggests that Banquo accepts the uncertainty of the future, whereas
 Macbeth demands certainty and acts to secure it. Banquo's self-knowledge -- "there is no art / To
 Find the mind's construction in the face" (1.4) -- contrasts with Macbeth's inability to recognise
-His own moral corruption, and his murder at Macbeth's command confirms the play's central argument:
+his own moral corruption, and his murder at Macbeth's command confirms the play's central argument:
 Ambition destroys not only the ambitious individual but those around them.
 
 [**Conclusion: synthesises the argument and offers an evaluative judgement.**]

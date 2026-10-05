@@ -921,7 +921,7 @@ Write volume.
 ### Optimizing Recordsize Per Dataset
 
 The `recordsize` property controls the maximum block size ZFS uses for files. Matching recordsize to
-Your workload's typical I/O size is critical:
+your workload's typical I/O size is critical:
 
 | Workload                 | Recommended recordsize | Rationale                                               |
 | ------------------------ | ---------------------- | ------------------------------------------------------- |

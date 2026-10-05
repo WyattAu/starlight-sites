@@ -840,7 +840,7 @@ the contact point (instantaneously at rest).
 ### Pitfall 8: Forgetting Units in Moment of Inertia
 
 Moment of inertia has units of $\mathrm{kg\cdot\mathrm{m^2$. A common error is to use centimetres
-Instead of metres when calculating $I = mr^2$ Giving answers that are off by a factor of $10^4$.
+instead of metres when calculating $I = mr^2$ Giving answers that are off by a factor of $10^4$.
 Always convert to SI units before calculating.
 
 ## Additional Practice Problems

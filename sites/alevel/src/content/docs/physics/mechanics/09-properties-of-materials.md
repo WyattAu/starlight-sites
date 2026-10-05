@@ -524,7 +524,7 @@ Material.
 Tension). Steel is strong in both tension and compression (UTS $\approx 400$–$2000$ MPa) and is
 Ductile. In reinforced concrete, the steel bars carry the tensile loads while the concrete carries
 the compressive loads. The steel's ductility also means the composite structure deforms gradually
-Rather than failing suddenly, giving warning before collapse.
+rather than failing suddenly, giving warning before collapse.
 
 <b>If you get this wrong, revise:</b>
 [Material Properties Comparison](#6-material-properties-comparison)

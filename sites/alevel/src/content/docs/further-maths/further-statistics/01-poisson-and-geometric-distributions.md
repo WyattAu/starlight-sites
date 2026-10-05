@@ -196,7 +196,7 @@ Critical region: $X \leq 0$ or $X \geq 11$.
 
 **Definition.** A discrete random variable $X$ follows a **geometric distribution** with parameter
 $p$ (where $0 < p \leq 1$), written $X \sim \mathrm{Geo}(p)$ If $X$ is the number of the trial on
-Which the first success occurs:
+which the first success occurs:
 
 $$
 P(X = r) = (1-p)^{r-1}p, \quad r = 1, 2, 3, \ldots

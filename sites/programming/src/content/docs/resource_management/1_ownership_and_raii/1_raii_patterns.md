@@ -127,7 +127,7 @@ MutexLock. They are the standard library's RAII wrappers for mutexes.
 ## 1.4 Standard Library RAII Wrappers
 
 The C++ standard library provides RAII wrappers for the most common resource types. Using these
-Instead of hand-rolled wrappers is preferred, they are well-tested, well-documented, and handle
+instead of hand-rolled wrappers is preferred, they are well-tested, well-documented, and handle
 Edge cases you might forget.
 
 ### `std::lock_guard` and `std::scoped_lock`

@@ -159,7 +159,7 @@ B_z = \oint dB\,\sin\alpha = \frac{\mu_0 I}{4\pi(R^2+z^2)}\frac{R}{\sqrt{R^2+z^2
 $$
 
 For $z \gg R$: $B_z \approx \frac{\mu_0 I R^2}{2z^3} = \frac{\mu_0}{4\pi}\frac{2\mathbf{m}}{z^3}$
-Which matches the dipole formula with $\mathbf{m} = I\pi R^2\,\hat{\mathbf{z}}$. $\blacksquare$
+which matches the dipole formula with $\mathbf{m} = I\pi R^2\,\hat{\mathbf{z}}$. $\blacksquare$
 
 </details>
 

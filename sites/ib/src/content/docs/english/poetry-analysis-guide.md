@@ -357,7 +357,7 @@ Collapsing the distance between the speaker and the addressed entity.
 
 Imagery is descriptive language that appeals to the senses. It is the primary means by which poetry
 Creates concrete, vivid experiences in the reader's imagination. When analysing imagery, identify
-Which senses are invoked and explain why the poet has chosen those particular sensory modes.
+which senses are invoked and explain why the poet has chosen those particular sensory modes.
 
 | Type        | Definition                                          | Example                                        |
 | ----------- | --------------------------------------------------- | ---------------------------------------------- |
@@ -745,7 +745,7 @@ Design?
 The conclusion of a poetry analysis essay should not merely summarise the poem or restate the
 Thesis. It should synthesise the essay's findings into a broader statement about the poem's
 Significance. What does the analysis reveal about the poet's purposes, the poem's relationship to
-Its context, or the larger themes it engages with? A strong conclusion demonstrates that the
+its context, or the larger themes it engages with? A strong conclusion demonstrates that the
 Analysis has produced insight that goes beyond the individual poem.
 
 ---

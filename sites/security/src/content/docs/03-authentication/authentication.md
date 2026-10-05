@@ -654,7 +654,7 @@ Validate redirect URIs against an exact-match allowlist (no wildcards, no open r
 
 Accepting any algorithm in the JWT header, or not explicitly specifying the expected algorithm
 during validation, enables the algorithm confusion attack. Always specify `algorithms=["RS256"]` (or
-Your expected algorithm) explicitly.
+your expected algorithm) explicitly.
 
 ### Pitfall 7: Session Fixation
 

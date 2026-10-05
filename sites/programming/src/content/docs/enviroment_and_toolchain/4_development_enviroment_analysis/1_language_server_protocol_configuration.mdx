@@ -447,7 +447,7 @@ File is compiled. Understanding its structure is essential for debugging LSP iss
 **Generated Headers:** If your build generates headers (e.g., protobuf, CMake configure_file), they
 May not exist when clangd parses the source. Use the `.clangd` `CompileFlags.Add` to add the
 Generated header directory, or ensure the build directory is created before opening the project in
-Your editor.
+your editor.
 
 **Multiple Compilation Databases:** If you have preset-specific build directories (e.g.,
 `build/debug, build/release`), clangd can only use one at a time. Use a symlink at the project Root

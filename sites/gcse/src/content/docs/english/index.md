@@ -137,7 +137,7 @@ full coverage.
 
 Close reading is the foundation of all literary analysis. It means attending to the specific choices
 A writer has made at the level of the word, the sentence, and the structural unit, and explaining
-What effects those choices produce. A close reading response does not merely paraphrase what
+what effects those choices produce. A close reading response does not merely paraphrase what
 Happens; it explains how the text communicates its meanings.
 
 ### Essay Writing

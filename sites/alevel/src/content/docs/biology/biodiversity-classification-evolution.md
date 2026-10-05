@@ -156,7 +156,7 @@ measured in number of mutations).
 
 **Cladistics** is a method of classification based purely on evolutionary relationships, grouping
 Organisms into **clades** (monophyletic groups): a clade consists of an ancestral species and all of
-Its descendants.
+its descendants.
 
 A **cladogram** is constructed by comparing homologous characteristics:
 

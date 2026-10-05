@@ -194,7 +194,7 @@ the point of instantiation.
 
 The **point of instantiation (POI)** [N4950 S13.8.2] is the location in the source code where the
 Compiler logically performs instantiation. Understanding the POI is critical because it determines
-Which declarations are visible during instantiation and therefore which overload of a function gets
+which declarations are visible during instantiation and therefore which overload of a function gets
 Called, which specialization gets selected, and which type aliases are resolved.
 
 For a **function template specialization**, the POI is defined recursively [N4950 S13.8.2/2]:

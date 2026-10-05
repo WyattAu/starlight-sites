@@ -182,7 +182,7 @@ Empirical evidence to model how people actually make decisions.
 ### Bounded Rationality
 
 Herbert Simon (1955) proposed that individuals are **boundedly rational**: they make satisfactory
-Rather than optimal decisions because of limited information, limited cognitive processing capacity,
+rather than optimal decisions because of limited information, limited cognitive processing capacity,
 And limited time. People use **heuristics**, mental shortcuts, to simplify complex decisions.
 
 ### Heuristics and Biases
@@ -428,7 +428,7 @@ This has important implications for savings behaviour, health decisions, and com
 
 A government wants to increase organ donation rates. Currently, citizens must actively opt in to
 Become donors, and the participation rate is $25\%$. Design a nudge-based intervention and evaluate
-Its potential effectiveness and ethical considerations.
+its potential effectiveness and ethical considerations.
 
 **Intervention: Change the default from opt-in to opt-out.** Under an opt-out (presumed consent)
 System, all citizens are automatically registered as organ donors unless they actively withdraw.

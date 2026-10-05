@@ -46,14 +46,14 @@ to the digestive tract via ducts.
 That are too large and insoluble to cross cell membranes. Even if they could cross, your body cannot
 Use them directly -- it needs the subunits: glucose from starch, amino acids from proteins, fatty
 Acids and glycerol from lipids. Digestion is the process of breaking these large molecules down into
-Their absorbable subunits.
+their absorbable subunits.
 
 ### 1.2 Enzymes
 
 **Enzymes** are biological catalysts -- they speed up chemical reactions without being used up. They
 Are proteins, and each enzyme catalyses a specific reaction. The specificity of enzymes arises from
 the unique three-dimensional shape of their active site, which is complementary to the shape of
-Their substrate.
+their substrate.
 
 **The lock and key model:** The substrate (reactant) fits into the active site of the enzyme, like a
 Key fitting into a lock. Only the correct substrate can fit each enzyme. An alternative and more

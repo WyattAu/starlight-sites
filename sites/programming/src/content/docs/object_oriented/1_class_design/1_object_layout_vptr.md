@@ -76,7 +76,7 @@ Structs.
 ## 1.2 The `this` Pointer [N4950 §11.4.3.2]
 
 Every non-static member function receives an implicit first parameter: a pointer to the object on
-Which the function is invoked. This pointer is named `this` and has the type `T*` in a non-const
+which the function is invoked. This pointer is named `this` and has the type `T*` in a non-const
 Member function, `const T*` in a const member function, and `volatile T*` in a volatile member
 Function.
 

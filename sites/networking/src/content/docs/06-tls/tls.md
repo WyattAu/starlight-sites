@@ -23,7 +23,7 @@ categories:
 Transport Layer Security (TLS) provides encryption, authentication, and integrity for data
 Transmitted over a network. TLS is the successor to Secure Sockets Layer (SSL), which was developed
 by Netscape in the mid-1990s. SSL 3.0 (1996) was the last SSL version; TLS 1.0 (1999, RFC 2246) was
-Its successor. All SSL versions are now considered insecure and deprecated.
+its successor. All SSL versions are now considered insecure and deprecated.
 
 TLS operates between the transport layer and the application layer, encrypting application data
 (HTTP, SMTP, IMAP, etc.) before it is sent over the network.

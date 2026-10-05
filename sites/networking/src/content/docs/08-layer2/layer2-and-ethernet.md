@@ -770,7 +770,7 @@ Countermeasures:
 An MTU mismatch between two devices on the same path causes black holes for large packets. If a
 Switch is configured with an MTU of 9000 (jumbo frames) but the endpoint is at 1500, the endpoint
 Sends packets that the switch can forward, but intermediate devices with 1500-byte MTU may drop
-Them. If ICMP is blocked, Path MTU Discovery fails and the connection stalls.
+them. If ICMP is blocked, Path MTU Discovery fails and the connection stalls.
 
 ### VLAN 1 as Native VLAN
 

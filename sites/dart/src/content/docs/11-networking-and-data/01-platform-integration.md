@@ -602,7 +602,7 @@ Plugins that need a simple bidirectional pipe.
 
 Pigeon is a code generation tool that produces type-safe platform channel bindings. Instead of
 Manually writing `MethodChannel` calls on the Dart side and handlers on the native side, you define
-Your API in a Dart file and Pigeon generates the corresponding code for all platforms.
+your API in a Dart file and Pigeon generates the corresponding code for all platforms.
 
 ### Why Pigeon
 

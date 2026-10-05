@@ -86,7 +86,7 @@ $1050 \mathrm{ cm^{-1}$ is in the C-O stretching region, consistent with a prima
 ### Mass Spectrometry
 
 Mass spectrometry determines the molecular mass and structure by ionising molecules and separating
-Them by their mass-to-charge ratio ($m/z$).
+them by their mass-to-charge ratio ($m/z$).
 
 **Process:**
 

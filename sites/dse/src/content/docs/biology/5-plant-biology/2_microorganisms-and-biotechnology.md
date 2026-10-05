@@ -109,7 +109,7 @@ $$
 ### Viruses
 
 Viruses are **not considered living organisms** because they do not carry out any life processes on
-Their own. They are obligate intracellular parasites -- they can only reproduce inside a host cell.
+their own. They are obligate intracellular parasites -- they can only reproduce inside a host cell.
 
 **Structure:**
 

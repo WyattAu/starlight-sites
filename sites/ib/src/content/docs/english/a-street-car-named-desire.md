@@ -41,7 +41,7 @@ Tennessee Williams (1911--1983) is among the most significant American playwrigh
 Century. Born Thomas Lanier Williams III in Columbus, Mississippi, he spent much of his youth in St.
 Louis, Missouri, an experience of displacement that profoundly shaped his literary imagination. His
 Work is characterised by its lyrical intensity, its preoccupation with desire and vulnerability, and
-Its unflinching examination of the violence -- emotional and physical -- that structures American
+its unflinching examination of the violence -- emotional and physical -- that structures American
 Life.
 
 Williams wrote A Streetcar Named Desire in 1947, in the immediate aftermath of the Second World War.
@@ -261,7 +261,7 @@ Moral cowardice.
 ### Light vs Dark
 
 Light functions as the play's most persistent symbol. Blanche avoids bright light because it exposes
-Her age, her fading beauty, and the truth of her past. She covers the bare lightbulb with a paper
+her age, her fading beauty, and the truth of her past. She covers the bare lightbulb with a paper
 Lantern, insisting on a softened, filtered world. Stanley, by contrast, demands exposure: he tears
 the paper lantern from the bulb in the play's climactic scene, a gesture that symbolises his
 Determination to strip Blanche of all pretence. The conflict between light and dark maps directly
@@ -280,7 +280,7 @@ Desire is not private but social, not individual but systemic. Everyone rides th
 ### The Paper Lantern
 
 The paper lantern Blanche places over the bare lightbulb is her most potent symbol. It represents
-Her entire strategy of survival: the creation of a softened, beautified version of reality that
+her entire strategy of survival: the creation of a softened, beautified version of reality that
 Makes existence tolerable. When Stanley tears the lantern down, he does not merely destroy an object
 -- he destroys the conditions under which Blanche can live. The lantern is fragile, temporary, and
 Ultimately insufficient, but it is the only shelter Blanche has.
@@ -329,7 +329,7 @@ Williams coined the term "plastic theatre" to describe his method of integrating
 Plastic theatre, these elements are not decorative but expressive: they carry meaning in the same
 Way that dialogue and action do. The paper lantern, the coloured glass, the jungle-like growth on
 the exterior walls, the blue piano music -- all are components of a total theatrical experience in
-Which every element communicates.
+which every element communicates.
 
 ### Stage Directions as Narrative Device
 

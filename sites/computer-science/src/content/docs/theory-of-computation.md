@@ -1262,7 +1262,7 @@ Not equal. Finding solutions to PCP instances can be very difficult, there is no
 **Theorem 5.6.** PCP is undecidable.
 
 _Proof (sketch)._ Reduce from $A_{\mathrm{TM}}$. Given TM $M$ and input $w$ Construct a PCP instance
-Whose tiles encode the computation history of $M$ on $w$. The tiles are designed so that a matching
+whose tiles encode the computation history of $M$ on $w$. The tiles are designed so that a matching
 Sequence corresponds to a valid accepting computation: the first tile starts the computation, middle
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
 Tile allows termination only if an accept state is reached. Thus the PCP instance has a solution iff
@@ -1645,7 +1645,7 @@ $O(n)$ space to store the current assignment, giving $O(n^2)$ total.
 _Proof (hardness)._ Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A
 Computation of a PSPACE TM on input $w$ of length $n$ uses at most $p(n)$ cells for some Polynomial
 $p$. The number of distinct configurations is at most $N = |\Gamma|^{p(n)} \cdot p(n) \cdot |Q|$
-Which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
+which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
 alternating reachability formula can be encoded as a quantified Boolean formula of Polynomial size.
 $\blacksquare$
 

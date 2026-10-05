@@ -258,7 +258,7 @@ Pack produce different results. The programmer must choose the fold direction de
 **Corollary:** The evaluation order of the operands within the fold follows the order of the
 Parameter pack (left to right as declared), but the **tree structure** (the order in which operator
 Applications are nested) depends on the fold direction. The operands are evaluated in pack order
-Regardless of fold direction, but the operator precedence is determined by the tree structure.
+regardless of fold direction, but the operator precedence is determined by the tree structure.
 
 ## Unary Folds
 

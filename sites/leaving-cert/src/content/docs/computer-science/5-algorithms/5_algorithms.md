@@ -289,7 +289,7 @@ Level 1:
 4. Output the result.
 
 Level 2 (refine step 2): 2.1 Find the maximum value and its index. 2.2 Find the minimum value and
-Its index. 2.3 Remove both from the list.
+its index. 2.3 Remove both from the list.
 
 Level 3 (implement):
 

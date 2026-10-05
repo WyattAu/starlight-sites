@@ -960,7 +960,7 @@ fn process_order(order_id: u64) -> Result<Order> {
 ```
 
 Each `.context()` call adds a layer to the error chain, making it easy to trace the error back to
-Its origin:
+its origin:
 
 ```
 Error: payment processing failed for order 42

@@ -822,7 +822,7 @@ $\dim(\mathrm{null}(A)) = n - \mathrm{rank}(A)$.
 
 _Proof._ Let the RREF of $[A \mid \mathbf{b}]$ have $r = \mathrm{rank}(A)$ pivots in the coefficient
 Columns. The system is inconsistent if and only if the last non-zero row is $[0 \cdots 0 \mid 1]$
-Which occurs precisely when the augmented column contains a pivot, i.e., when
+which occurs precisely when the augmented column contains a pivot, i.e., when
 $\mathrm{rank}([A \mid \mathbf{b}]) \gt r$.
 
 If consistent, the $r$ pivot variables are determined by the $n - r$ free variables, yielding

@@ -671,7 +671,7 @@ Regain access to the promoter. Gene expression would increase (or be reactivated
 for **epigenetic therapy** in certain cancers (e.g., azacitidine for myelodysplastic syndromes).
 
 (c) Identical twins have the same genome but accumulate different epigenetic modifications over
-Their lifetimes due to: different environmental exposures (diet, toxins, stress, physical activity),
+their lifetimes due to: different environmental exposures (diet, toxins, stress, physical activity),
 Different stochastic (random) epigenetic changes, and different in utero environments. These
 Epigenetic differences alter gene expression patterns, contributing to discordant disease
 Susceptibility (e.g., one twin develops autoimmune disease or cancer while the other does not).

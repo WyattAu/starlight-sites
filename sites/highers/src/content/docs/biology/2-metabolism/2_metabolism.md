@@ -654,7 +654,7 @@ At very high $[S]$ (e.g., 100 mM):
 
 Unlike the competitive inhibitor, the non-competitive inhibitor reduces the maximum rate even at
 very high substrate concentrations, because it reduces the number of functional enzyme molecules
-Regardless of substrate concentration.
+regardless of substrate concentration.
 
 ## Review: C4 and CAM Photosynthesis (Advanced Higher)
 

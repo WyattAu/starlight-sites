@@ -25,7 +25,7 @@ categories:
 Code generation in Dart is the process of automatically producing Dart source code from annotations,
 Builders, and configuration at build time. It reduces boilerplate, eliminates human error in
 Repetitive code (serialization, equality, copyWith), and ensures consistency between models and
-Their derived code.
+their derived code.
 
 The Dart ecosystem relies on the `build_runner` package as the foundation for all code generation
 Workflows. Packages like `freezed``json_serializable``injectable``retrofit`And `auto_route` All use

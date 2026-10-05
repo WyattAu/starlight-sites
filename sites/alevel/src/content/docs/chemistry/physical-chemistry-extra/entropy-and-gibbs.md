@@ -280,7 +280,7 @@ Small temperature ranges but fails over large ranges where heat capacities chang
 ### Non-Standard Conditions: $\Delta G$ vs $\Delta G^\circ$
 
 The standard free energy change ($\Delta G^\circ$) applies when all reactants and products are in
-Their standard states (1 mol/dm$^3$ for solutions, 1 bar for gases). Under non-standard conditions:
+their standard states (1 mol/dm$^3$ for solutions, 1 bar for gases). Under non-standard conditions:
 
 $$
 \Delta G = \Delta G^\circ + RT\ln Q

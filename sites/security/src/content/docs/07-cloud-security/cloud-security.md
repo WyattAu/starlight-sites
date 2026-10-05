@@ -82,7 +82,7 @@ You always own the responsibility for:
 ## Identity and Access Management (IAM)
 
 IAM is the foundational security control in cloud environments. It determines who can do what to
-Which resources.
+which resources.
 
 ### Core Concepts
 
@@ -644,7 +644,7 @@ Default to allow all outbound traffic. Always review and harden defaults.
 ### Not Enabling Logging
 
 Without CloudTrail, Azure Activity Logs, or GCP Audit Logs, you have no visibility into who is doing
-What in your environment. After a breach, you will not be able to determine the scope or timeline of
+what in your environment. After a breach, you will not be able to determine the scope or timeline of
 the attack.
 
 ### Cross-Account Trust Misconfiguration

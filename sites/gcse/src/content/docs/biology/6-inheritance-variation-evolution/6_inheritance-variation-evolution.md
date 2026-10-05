@@ -505,7 +505,7 @@ Bacteria can develop resistance to antibiotics through natural selection:
 
 **Why antibiotic resistance is a major public health concern.** The rate at which bacteria evolve
 Resistance is outpacing the rate at which new antibiotics are being developed. If antibiotics lose
-Their effectiveness, routine medical procedures (surgery, organ transplants, cancer treatment)
+their effectiveness, routine medical procedures (surgery, organ transplants, cancer treatment)
 Become much more dangerous because the risk of untreatable infections increases.
 
 **Preventing antibiotic resistance:**

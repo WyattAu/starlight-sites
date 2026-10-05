@@ -283,7 +283,7 @@ int main() {
 :::note
 `std::vector::emplace_back`And virtually every factory or emplacement function in the standard
 Library. Without forwarding references and `std::forward`These functions would be forced to copy
-Their arguments or require separate overloads for every combination of lvalue/rvalue parameters, a
+their arguments or require separate overloads for every combination of lvalue/rvalue parameters, a
 Combinatorial explosion.
 :::
 
