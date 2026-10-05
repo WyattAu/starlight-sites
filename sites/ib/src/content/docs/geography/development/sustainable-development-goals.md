@@ -29,7 +29,7 @@ description: "Study notes for Sustainable Development Goals with worked examples
 ### Origins and Structure
 
 The Sustainable Development Goals (SDGs), officially titled "Transforming our World: the 2030 Agenda
-For Sustainable Development," were adopted by all 193 UN member states at the UN Sustainable
+for Sustainable Development," were adopted by all 193 UN member states at the UN Sustainable
 Development Summit in September 2015. They succeeded the Millennium Development Goals (MDGs,
 2000--2015) and expanded the development agenda from a focus on poverty in developing countries to a
 Universal framework applicable to all countries.
@@ -64,7 +64,7 @@ Developing countries through finance, technology transfer, and capacity building
 
 **Integration.** The SDGs are designed to be interdependent and indivisible: progress on one goal
 Often depends on progress on others, and the goals should be pursued as an integrated whole rather
-Than in isolation.
+than in isolation.
 
 **The "Five Ps."** The SDGs are organised around five dimensions of sustainable development: People
 (ending poverty and ensuring dignity), Prosperity (economic growth that is inclusive and
@@ -74,7 +74,7 @@ Societies), and Partnership (global solidarity).
 **"Leave no one behind."** The overarching principle of the SDGs is that progress should be
 Inclusive, reaching the most vulnerable and marginalised groups first. This requires disaggregating
 Data by sex, age, disability, income, geographic location, and other characteristics to identify who
-Is being left behind.
+is being left behind.
 
 ## Geography-Relevant SDGs
 
@@ -119,8 +119,8 @@ Linked to SDG 7 (clean energy), SDG 12 (responsible consumption), SDG 14 (life b
 Approximately 57 Gt $\mathrm{CO_2}$ E in 2023. Current NDCs are insufficient to limit warming to
 2$^\circ$C, let alone 1.5$^\circ$C. Climate finance for developing countries remains inadequate
 (approximately USD 100 billion per year was committed but delivery was delayed, and the actual need
-Is estimated at USD 1 trillion per year). Adaptation finance is particularly deficient, receiving
-Only a fraction of total climate finance.
+is estimated at USD 1 trillion per year). Adaptation finance is particularly deficient, receiving
+only a fraction of total climate finance.
 
 ### SDG 15: Life on Land
 
@@ -130,7 +130,7 @@ Loss."
 
 **Progress and challenges.** The world is experiencing unprecedented biodiversity loss: the Living
 Planet Index (WWF, 2022) shows an average decline of 69% in monitored wildlife populations
-Since 1970. Approximately 10 million hectares of forest are lost annually (though the rate of
+since 1970. Approximately 10 million hectares of forest are lost annually (though the rate of
 Deforestation has declined from approximately 16 million hectares per year in the 1990s).
 Approximately 40% of the world"s land is degraded (UNCCD, 2023), affecting approximately 3.2 billion
 People.
@@ -176,8 +176,8 @@ Tracking progress toward the SDGs requires comprehensive, timely, and disaggrega
 
 The UN Conference on Trade and Development (UNCTAD) estimates that achieving the SDGs in developing
 Countries requires additional annual investment of approximately USD 2.5--4 trillion. Current levels
-Of development assistance (approximately USD 200 billion per year) and private investment are far
-Below this level.
+of development assistance (approximately USD 200 billion per year) and private investment are far
+below this level.
 
 **Financing gaps are particularly acute for:**
 
@@ -208,7 +208,7 @@ Managing these trade-offs is a critical aspect of sustainable development.
 ### Economic Growth vs Environmental Sustainability
 
 SDG 8 (Decent Work and Economic Growth) can conflict with SDG 13 (Climate Action), SDG 14 (Life
-Below Water), and SDG 15 (Life on Land). Economic growth driven by fossil fuel consumption,
+below Water), and SDG 15 (Life on Land). Economic growth driven by fossil fuel consumption,
 Deforestation, or industrial pollution advances SDG 8 but undermines environmental goals. The
 Fundamental question is whether economic growth can be "decoupled" from environmental degradation --
 That is, whether GDP can grow while greenhouse gas emissions, resource consumption, and biodiversity
@@ -232,7 +232,7 @@ SDG 7 (Affordable and Clean Energy) aims to ensure universal access to modern en
 675 million people (predominantly in Sub-Saharan Africa) lack access to electricity. Providing
 Universal energy access may require expanded fossil fuel use in the short term, conflicting with
 SDG 13. The challenge is to leapfrog to renewable energy systems, but this requires investment that
-Many low-income countries cannot afford without international support.
+many low-income countries cannot afford without international support.
 
 ### Agricultural Intensification vs Ecosystem Conservation
 
@@ -240,7 +240,7 @@ SDG 2 (Zero Hunger) requires increasing agricultural production to feed a growin
 (approximately 10 billion by 2050). However, agricultural expansion and intensification are the
 Primary drivers of deforestation (SDG 15), biodiversity loss, water pollution (SDG 6), and
 Greenhouse gas emissions (agriculture accounts for approximately 12% of emissions, rising to 26--34%
-When land-use change is included). Meeting food demand while protecting ecosystems requires
+when land-use change is included). Meeting food demand while protecting ecosystems requires
 Sustainably intensifying production on existing agricultural land (reducing yield gaps, reducing
 Food waste, shifting toward plant-based diets) rather than expanding agricultural area.
 
@@ -250,7 +250,7 @@ Rwanda provides a notable example of SDG implementation in a low-income country.
 
 **Context.** Rwanda (population approximately 14 million, GDP per capita approximately USD 900) is
 Classified as a least developed country. The 1994 genocide devastated the country's human capital
-And infrastructure. Since then, Rwanda has pursued rapid development with a strong emphasis on
+and infrastructure. Since then, Rwanda has pursued rapid development with a strong emphasis on
 Governance, environmental sustainability, and social progress.
 
 **SDG progress.** Rwanda has made significant progress on several goals:
@@ -266,7 +266,7 @@ Governance, environmental sustainability, and social progress.
 
 **Governance and innovation.** Rwanda has implemented performance contracts (imihigo) that hold
 Local government officials accountable for specific development targets. The government has invested
-In ICT infrastructure (Rwanda aims to become a knowledge-based economy) and has promoted gender
+in ICT infrastructure (Rwanda aims to become a knowledge-based economy) and has promoted gender
 Equality (women hold approximately 61% of parliamentary seats, the highest proportion in the world).
 
 **Remaining challenges:** GDP per capita remains low; the fertility rate (approximately 4.0) is
@@ -280,9 +280,9 @@ A frequent error in examination responses is to discuss SDGs individually, as if
 Pursued in isolation. The strength of the SDG framework lies in its recognition of the
 Interdependence of economic, social, and environmental goals. When discussing any SDG, consider its
 Interactions with other goals -- both synergies (where progress on one goal supports progress on
-Another) and trade-offs (where progress on one goal may conflict with another). A strong answer will
+another) and trade-offs (where progress on one goal may conflict with another). A strong answer will
 Identify specific synergies and trade-offs with reference to case studies, and discuss how they
-Might be managed.
+might be managed.
 
 </details>
 

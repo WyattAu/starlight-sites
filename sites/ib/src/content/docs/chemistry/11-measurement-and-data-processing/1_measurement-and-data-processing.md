@@ -195,7 +195,7 @@ $$
 $$
 
 The y-intercept uncertainty follows the same procedure using the maximum and minimum gradient lines
-At $x = 0$.
+at $x = 0$.
 
 ### Interpolation and Extrapolation
 
@@ -231,7 +231,7 @@ For $y = kx^n$ with $n = 1$ The graph of $y$ versus $x$ is linear through the or
 ### Principle
 
 IR spectroscopy measures the absorption of infrared radiation by molecular bonds. Absorption occurs
-When the photon energy matches the energy difference between vibrational states:
+when the photon energy matches the energy difference between vibrational states:
 
 $$
 \Delta E = h\nu = \frac`\{hc}`{\lambda}
@@ -351,7 +351,7 @@ Atoms.
 ### Principle
 
 Nuclei with non-zero spin ($I = 1/2$ for $\mathrm{^1H}$ and $\mathrm{^{13}C}$) align with or against
-An external magnetic field. Radiofrequency radiation causes transitions between spin states. The
+an external magnetic field. Radiofrequency radiation causes transitions between spin states. The
 Resonance frequency depends on the electronic environment.
 
 ### Chemical Shift
@@ -809,7 +809,7 @@ Two significant figures, matching the two significant figures in $[\mathrm{H}^+]
 **Step 3: Common error to avoid.**
 
 Writing $K_a = 2.025 \times 10^{-8}$ would be incorrect --- the result cannot be more precise than
-The input data. The $\mathrm{pH}$ was given to two decimal places, limiting all derived quantities
+the input data. The $\mathrm{pH}$ was given to two decimal places, limiting all derived quantities
 to Two significant figures.
 
 </details>

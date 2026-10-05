@@ -29,7 +29,7 @@ tags:
 ### Michaelis-Menten Kinetics
 
 The **Michaelis-Menten equation** describes the relationship between substrate concentration $[S]$
-And reaction velocity $v$:
+and reaction velocity $v$:
 
 $$
 v = \frac{V_{\max} [S]}{K_m + [S]}
@@ -185,7 +185,7 @@ reduce the actual Yield to approximately $30$--$32$ ATP per glucose.
 ### Overview
 
 Glycolysis ("sugar splitting") occurs in the **cytoplasm** and does not require oxygen. It converts
-One molecule of glucose ($\mathrm{C_6H_{12}O_6}$) into two molecules of pyruvate
+one molecule of glucose ($\mathrm{C_6H_{12}O_6}$) into two molecules of pyruvate
 ($\mathrm{C_3H_4O_3}$).
 
 ### Stages
@@ -508,7 +508,7 @@ The rate of photosynthesis is affected by:
 | **Water**                         | Severe water stress closes stomata, limiting $\mathrm{CO}_2$ uptake.                                                                            | Rate drops sharply as water availability decreases |
 
 **$\mathrm{C_4}$ and CAM adaptations**: in hot, dry conditions, $\mathrm{C_3}$ plants lose water
-Through open stomata and suffer from photorespiration. $\mathrm{C_4}$ plants (maize, sugarcane) use
+through open stomata and suffer from photorespiration. $\mathrm{C_4}$ plants (maize, sugarcane) use
 PEP carboxylase (which has no oxygenase activity) to fix $\mathrm{CO}_2$ into a 4-carbon compound In
 mesophyll cells, then transport it to bundle-sheath cells where $\mathrm{CO}_2$ is released at High
 concentration for Rubisco. CAM plants (cactus, pineapple) fix $\mathrm{CO}_2$ at night (open Stomata
@@ -735,7 +735,7 @@ oxidises 1 mole of glucose, calculate the approximate volume of $\mathrm{O}_2$ c
 $\mathrm{RQ} = \frac{\mathrm{CO}_2\text{ produced}}{\mathrm{O}_2\text{ consumed}} = \frac{58}{60} = 0.967$
 
 (b) An RQ close to $1.0$ indicates that the primary substrate is **carbohydrate** (glucose), since
-The complete oxidation of glucose produces equal moles of $\mathrm{CO}_2$ and $\mathrm{O}_2$
+the complete oxidation of glucose produces equal moles of $\mathrm{CO}_2$ and $\mathrm{O}_2$
 Consumed:
 $\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2 \to 6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O}$.
 For lipids, RQ $\approx 0.7$; for proteins, RQ $\approx 0.8$--$0.9$.
@@ -768,10 +768,10 @@ Identify the type of inhibition and justify your answer.
 <summary>Answer</summary>
 
 At high $[S]$ ($50\;\mathrm{mM}$), the velocity with inhibitor ($43.2$) approaches the velocity
-Without inhibitor ($44.0$). The $V_{\max}$ is approximately the same with and without the inhibitor.
+without inhibitor ($44.0$). The $V_{\max}$ is approximately the same with and without the inhibitor.
 
 At low $[S]$ ($2\;\mathrm{mM}$), the velocity with inhibitor ($7.5$) is substantially lower than
-Without ($12.0$), indicating a higher apparent $K_m$.
+without ($12.0$), indicating a higher apparent $K_m$.
 
 Since $V_{\max}$ is unchanged and $K_m$ is increased, the inhibition is **competitive**. The
 Inhibitor competes with the substrate for the active site but can be overcome by increasing
@@ -838,7 +838,7 @@ Concentration, (d) the proton gradient. Explain the mechanism.
 <summary>Solution</summary>
 
 (a) **$\mathrm{O}_2$ consumption decreases to zero**. Oligomycin blocks ATP synthase, so protons
-Cannot flow back into the matrix. The proton gradient builds up until the PMF is so large that the
+cannot flow back into the matrix. The proton gradient builds up until the PMF is so large that the
 Electron transport chain cannot pump more protons against it. Electron transport stops, and
 $\mathrm{O}_2$ Is no longer reduced.
 
@@ -847,11 +847,11 @@ glycolysis Remain (and possibly 2 GTP from the Krebs cycle, though the Krebs cyc
 NAD$^+$ Runs out).
 
 (c) **NADH concentration increases**. Without the ETC accepting electrons, NADH from glycolysis and
-The Krebs cycle cannot be oxidised to $\mathrm{NAD}^+$. The $\mathrm{NADH/NAD}^+$ ratio increases
+the Krebs cycle cannot be oxidised to $\mathrm{NAD}^+$. The $\mathrm{NADH/NAD}^+$ ratio increases
 Dramatically.
 
 (d) **The proton gradient increases to its maximum** and is maintained. The ETC has stopped, so no
-More protons are pumped, but the existing gradient cannot dissipate through ATP synthase.
+more protons are pumped, but the existing gradient cannot dissipate through ATP synthase.
 
 This is analogous to a car engine where the exhaust is blocked: fuel cannot be consumed, energy
 Production ceases, and intermediates accumulate.
@@ -861,7 +861,7 @@ Production ceases, and intermediates accumulate.
 **Worked Example: Photorespiration Quantification**
 
 At $35^\circ\mathrm{C}$ and atmospheric $\mathrm{CO}_2$ ($0.04\%$), Rubisco's relative specificity
-For $\mathrm{CO}_2$ vs $\mathrm{O}_2$ is $80$ (i.e., Rubisco reacts with $\mathrm{CO}_2$ 80 Times
+for $\mathrm{CO}_2$ vs $\mathrm{O}_2$ is $80$ (i.e., Rubisco reacts with $\mathrm{CO}_2$ 80 Times
 more readily than with $\mathrm{O}_2$ Per molecule). The $\mathrm{O}_2$ concentration in The leaf is
 $21\%$. Calculate the ratio of carboxylation to oxygenation reactions. If each Oxygenation reaction
 wastes 2 ATP and 1 NADPH, calculate the energy wasted per 1000 Rubisco Reactions.
@@ -870,7 +870,7 @@ wastes 2 ATP and 1 NADPH, calculate the energy wasted per 1000 Rubisco Reactions
 <summary>Solution</summary>
 
 The ratio of carboxylation to oxygenation depends on the relative concentrations of $\mathrm{CO}_2$
-And $\mathrm{O}_2$ at the Rubisco active site, weighted by Rubisco's relative specificity:
+and $\mathrm{O}_2$ at the Rubisco active site, weighted by Rubisco's relative specificity:
 
 $\frac{V_{\mathrm{carboxylation}}}{V_{\mathrm{oxygenation}}} = \frac{[\mathrm{CO}_2]}{[\mathrm{O}_2]} \times \frac{S_{\mathrm{CO_2/O_2}}}{1} = \frac{0.04}{21} \times 80 = \frac{3.2}{21} \approx 0.152$
 
@@ -958,7 +958,7 @@ An aquatic plant is placed in a solution of $\mathrm{NaHCO}_3$ (providing dissol
 $\mathrm{CO}_2$). The rate of oxygen production is measured at different light intensities and
 temperatures. (a) Predict and explain the effect of increasing temperature from $15^\circ\mathrm{C}$
 to $35^\circ\mathrm{C}$ on the rate of photosynthesis at saturating light intensity. (b) Explain why
-The rate decreases above $35^\circ\mathrm{C}$. (c) If the experiment is repeated with a
+the rate decreases above $35^\circ\mathrm{C}$. (c) If the experiment is repeated with a
 $\mathrm{C_4}$ Plant, predict how the temperature response would differ and explain why.
 
 </details>
@@ -1419,7 +1419,7 @@ and the $\mathrm{CO}_2$ enters the Calvin cycle.
 <summary>Problem 9: Data Analysis -- Oxygen Dissociation Curve Shift</summary>
 
 The following data show the percentage saturation of haemoglobin at different $\mathrm{pO}_2$ values
-Under normal conditions and in the presence of 2,3-BPG:
+under normal conditions and in the presence of 2,3-BPG:
 
 | $\mathrm{pO}_2$ (kPa) | Normal saturation (%) | + 2,3-BPG (%) |
 | --------------------- | --------------------- | ------------- |
@@ -1433,7 +1433,7 @@ Under normal conditions and in the presence of 2,3-BPG:
 
 (a) Sketch both curves on the same axes. (b) At a $\mathrm{pO}_2$ of $5.0\;\mathrm{kPa}$ (typical Of
 active muscle tissue), how much more $\mathrm{O}_2$ is unloaded in the presence of 2,3-BPG compared
-To normal conditions? (c) Explain the molecular mechanism by which 2,3-BPG shifts the curve. (d)
+to normal conditions? (c) Explain the molecular mechanism by which 2,3-BPG shifts the curve. (d)
 Explain Why 2,3-BPG levels increase at high altitude and how this is beneficial.
 
 </details>
@@ -1472,7 +1472,7 @@ to Protons. (a) Explain the effect of DNP on oxidative phosphorylation. (b) Pred
 $\mathrm{O}_2$ consumption, $\mathrm{CO}_2$ production, and heat production in the presence of DNP.
 (c) Explain the role of uncoupling protein 1 (UCP1, thermogenin) in brown adipose tissue (BAT) and
 How it relates to DNP's mechanism. (d) Explain why DNP was used as a weight-loss drug in the 1930s
-And why it is extremely dangerous.
+and why it is extremely dangerous.
 
 </details>
 

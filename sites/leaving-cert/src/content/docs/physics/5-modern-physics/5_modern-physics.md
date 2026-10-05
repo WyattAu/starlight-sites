@@ -65,9 +65,9 @@ Classical wave theory predicts that:
 - At low intensities, electrons should need time to accumulate sufficient energy before emission.
 
 None of these predictions match observation. The threshold frequency and the instantaneous emission
-At low intensity are particularly fatal to the classical picture. A wave spread over a large area
-Would deposit energy continuously; an electron at a specific point on the surface would need to wait
-To accumulate enough energy. Yet experiment shows no delay.
+at low intensity are particularly fatal to the classical picture. A wave spread over a large area
+would deposit energy continuously; an electron at a specific point on the surface would need to wait
+to accumulate enough energy. Yet experiment shows no delay.
 
 ### Einstein's Explanation (1905)
 
@@ -81,7 +81,7 @@ Where $h = 6.63 \times 10^{-34}\mathrm{ J s$ (Planck's constant) and $f$ is the 
 
 When a photon strikes the metal surface, it transfers all its energy to a single electron. The
 Electron uses some of this energy to escape the metal (overcoming the binding energy) and retains
-The rest as kinetic energy.
+the rest as kinetic energy.
 
 Einstein's photoelectric equation:
 
@@ -131,7 +131,7 @@ EV_s = E_{k(\max)} = hf - \phi
 $$
 
 A plot of $E_{k(\max)}$ versus $f$ yields a straight line with slope $h$ and intercept $-\phi$. This
-Is how Millikan experimentally determined Planck's constant in 1916, confirming Einstein's equation.
+is how Millikan experimentally determined Planck's constant in 1916, confirming Einstein's equation.
 
 **Example (HL):** Light of wavelength $400\mathrm{ nm$ is incident on a metal surface with work
 Function $2.0\mathrm{ eV$. Find the maximum kinetic energy of the emitted electrons and the stopping
@@ -179,7 +179,7 @@ $$
 $$
 
 This is in the green region of the visible spectrum. Sodium can be photoelectrically excited by blue
-And violet light, but not by red or orange light.
+and violet light, but not by red or orange light.
 
 ### Intensity and Photocurrent
 
@@ -236,7 +236,7 @@ Struck by an alpha particle.
 **Why the Thomson model failed:** In the plum pudding model, the positive charge is spread out. The
 Maximum Coulomb force on an alpha particle passing through a diffuse positive sphere would be much
 Smaller than what is needed to produce the observed large-angle deflections. Rutherford calculated
-That to produce a deflection of greater than $90^\circ$ The alpha particle must encounter a
+that to produce a deflection of greater than $90^\circ$ The alpha particle must encounter a
 concentrated Charge within a radius of approximately $10^{-14}\mathrm{ m$ About four orders of
 magnitude smaller Than the known atomic radius ($\approx 10^{-10}\mathrm{ m$).
 
@@ -423,7 +423,7 @@ $$
 ### Limitations of the Bohr Model
 
 The Bohr model works only for hydrogen and hydrogen-like ions (single electron). It cannot predict
-The spectra of helium or more complex atoms. It also cannot explain:
+the spectra of helium or more complex atoms. It also cannot explain:
 
 - Why only certain orbits are allowed (the full answer requires quantum mechanics).
 - Fine structure (small splittings of spectral lines).
@@ -446,7 +446,7 @@ $$
 $$
 
 This is the **de Broglie wavelength**. For macroscopic objects, $\lambda$ is negligibly small, which
-Is why we do not observe wave behaviour in everyday life.
+is why we do not observe wave behaviour in everyday life.
 
 ### Why de Broglie Wavelengths Are Not Observable for Macroscopic Objects
 
@@ -479,8 +479,8 @@ The observed diffraction peaks matched the predicted angles, confirming de Brogl
 ### Electron Diffraction and the Bohr Model
 
 De Broglie's hypothesis provides a physical justification for the Bohr quantisation condition. If
-The electron is a standing wave around the orbit, then the circumference must be an integer number
-Of wavelengths:
+the electron is a standing wave around the orbit, then the circumference must be an integer number
+of wavelengths:
 
 $$
 2\pi r = n\lambda = \frac{nh}{mv}
@@ -505,12 +505,12 @@ $$
 $$
 
 This is comparable to the spacing between atomic planes in a crystal ($\sim 0.2\mathrm{ nm$), which
-Is why electron diffraction is observable.
+is why electron diffraction is observable.
 
 ### Heisenberg Uncertainty Principle (HL)
 
 Werner Heisenberg showed that there is a fundamental limit to the precision with which certain pairs
-Of physical properties can be known simultaneously. The most commonly used form is:
+of physical properties can be known simultaneously. The most commonly used form is:
 
 $$
 \Delta x \cdot \Delta p \geq \frac{h}{4\pi} = \frac{\hbar}{2}
@@ -519,7 +519,7 @@ $$
 Where $\Delta x$ is the uncertainty in position and $\Delta p$ is the uncertainty in momentum.
 
 This is not a limitation of measurement technology; it is a fundamental property of nature arising
-From the wave nature of matter. A particle localised to a small region of space must have a large
+from the wave nature of matter. A particle localised to a small region of space must have a large
 Spread in momentum, and vice versa.
 
 **Implications:**
@@ -587,7 +587,7 @@ Where $m_p = 1.6726 \times 10^{-27}\mathrm{ kg$ is the proton mass and
 $m_n = 1.6749 \times 10^{-27}\mathrm{ kg$ is the neutron mass.
 
 In practice, atomic masses (which include the mass of the electrons) are used, and the calculation
-Is simplified by noting that the electron masses cancel:
+is simplified by noting that the electron masses cancel:
 
 $$
 \Delta m = Zm(\mathrm{^1H}) + (A - Z)m_n - m(\mathrm{atom)
@@ -649,10 +649,10 @@ Lower energy state. The nucleus remains the same isotope; only its energy change
 ### Why Beta Decay Requires the Neutrino
 
 In beta-minus decay, the emitted electron has a continuous spectrum of kinetic energies, from zero
-Up to a maximum value. If only the electron and daughter nucleus were produced, energy and momentum
+up to a maximum value. If only the electron and daughter nucleus were produced, energy and momentum
 Conservation would require the electron to have a fixed energy. The continuous spectrum implies a
 Third particle carrying away the remaining energy and momentum: the **antineutrino**. Pauli proposed
-The neutrino in 1930, and it was experimentally confirmed in 1956 by Cowan and Reines.
+the neutrino in 1930, and it was experimentally confirmed in 1956 by Cowan and Reines.
 
 ### Nuclear Equations and Conservation Laws
 
@@ -764,7 +764,7 @@ Reactor, control rods absorb some neutrons to maintain a controlled, steady rate
 
 **Critical mass:** The minimum mass of fissile material required to sustain a chain reaction. Below
 The critical mass, too many neutrons escape without causing further fission, and the reaction dies
-Out.
+out.
 
 **Fusion:** Light nuclei combine to form a heavier nucleus, releasing energy because the product has
 Higher binding energy per nucleon. Fusion requires extremely high temperatures
@@ -781,7 +781,7 @@ Fusion on Earth remains an active area of research (e.g., tokamak reactors and l
 ### Energy Released in Fission
 
 The energy released in a single fission event of U-235 is approximately $200\mathrm{ MeV$. This can
-Be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$ While The
+be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$ While The
 fission products have about $8.5\mathrm{ MeV/nucleon$. The difference of about
 $0.9\mathrm{ MeV/nucleon$ times 235 nucleons gives approximately $210\mathrm{ MeV$.
 

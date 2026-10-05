@@ -146,7 +146,7 @@ $$
 $$
 
 Corresponding to a frequency $\nu_L = \omega_L/(2\pi) = 28$ GHz (microwave range). This is the basis
-Of Electron Spin Resonance (ESR) and Nuclear Magnetic Resonance (NMR) spectroscopy, where
+of Electron Spin Resonance (ESR) and Nuclear Magnetic Resonance (NMR) spectroscopy, where
 transitions Between spin states are driven by oscillating magnetic fields at the Larmor frequency.
 
 **Example 7.1.** An electron starts in the state $|\psi(0)\rangle = |\uparrow\rangle$. A magnetic

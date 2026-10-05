@@ -75,11 +75,11 @@ The xvalue category occupies the intersection, it is both a glvalue (it has iden
 C++98 distinguished only lvalues (things you can take the address of) and rvalues (everything else).
 C++11 introduced move semantics, requiring the xvalue category to represent "things that have
 Identity but are about to expire." C++17 refined the model by making prvalues non-objects until they
-Are materialized, which enabled guaranteed copy elision [N4950 S8.4.4].
+are materialized, which enabled guaranteed copy elision [N4950 S8.4.4].
 
 :::note
 (via reference binding rules), whether a move constructor or copy constructor is invoked, and
-Whether temporary lifetime extension applies. Understanding value categories is essential to
+whether temporary lifetime extension applies. Understanding value categories is essential to
 Understanding why move semantics work.
 :::
 
@@ -242,7 +242,7 @@ $$
 
 The following matrix shows how common expression forms are classified. Each entry maps an expression
 Form to its primary value category, the `decltype` of the expression, and the references it can bind
-To:
+to:
 
 | Expression            | Category | `decltype((e))`              | Binds to `T&`? | Binds to `T&&`? | Binds to `const T&`? |
 | :-------------------- | :------- | :--------------------------- | :------------- | :-------------- | :------------------- |
@@ -266,7 +266,7 @@ To:
 ## 3.2 `decltype` Behavior for Each Category
 
 The `decltype` specifier behaves differently depending on the value category of its argument. This
-Is critical for understanding template metaprogramming and SFINAE constraints.
+is critical for understanding template metaprogramming and SFINAE constraints.
 
 | Expression `e`             | `decltype(e)` | `decltype((e))`               | Explanation                           |
 | :------------------------- | :------------ | :---------------------------- | :------------------------------------ |
@@ -279,7 +279,7 @@ Is critical for understanding template metaprogramming and SFINAE constraints.
 
 The key rule: `decltype((e))` (with extra parentheses) yields the type of the **expression**, which
 Includes reference qualifiers. `decltype(e)` (without extra parentheses) yields the **declared type
-Of the identifier**, stripping references.
+of the identifier**, stripping references.
 
 ```cpp
 #include <type_traits>
@@ -375,7 +375,7 @@ int main() {
 ## 3.4 Move Semantics as a Consequence of the Taxonomy
 
 Move semantics are not a separate language feature bolted onto C++, they are a **direct consequence
-Of the value category taxonomy**. The mechanism works as follows:
+of the value category taxonomy**. The mechanism works as follows:
 
 1. Overload resolution prefers rvalue reference bindings for rvalue arguments.
 2. `std::move` converts an lvalue to an xvalue (an rvalue).
@@ -449,7 +449,7 @@ int main() {
 ## 3.5 `std::move` and `std::forward` as Category Converters
 
 Both `std::move` and `std::forward` are casts that change the value category of an expression. They
-Do not move anything, they enable move semantics by converting the expression to an rvalue.
+do not move anything, they enable move semantics by converting the expression to an rvalue.
 
 ### `std::move`: lvalue $\to$ xvalue
 
@@ -462,7 +462,7 @@ constexpr typename std::remove_reference_t<T>&& move(T&& t) noexcept {
 ```
 
 `std::move` unconditionally casts its argument to an rvalue reference. The argument can be an lvalue
-Or an rvalue, in either case, the result is an xvalue.
+or an rvalue, in either case, the result is an xvalue.
 
 ### `std::forward`: preserves original category
 
@@ -792,7 +792,7 @@ int y = x + 1;  // x is an lvalue, but '+' requires prvalues
 ```
 
 The lvalue-to-rvalue conversion does **not** change the value category of `x` itself, `x` remains
-An lvalue. The conversion produces a **new** prvalue expression from the value stored in `x`.
+an lvalue. The conversion produces a **new** prvalue expression from the value stored in `x`.
 
 ### Array-to-Pointer Conversion
 
@@ -817,7 +817,7 @@ void (*pf)() = f;  // f decays to prvalue void(*)()
 ### Temporary Materialization (C++17)
 
 In C++17, a prvalue is not an object, it is a recipe for constructing one. When a prvalue needs to
-Be treated as an object (to bind to a reference, take its address, or access a member), it is
+be treated as an object (to bind to a reference, take its address, or access a member), it is
 **materialized** into a temporary [N4950 S7.3.5]. This is the mechanism behind guaranteed copy
 Elision:
 

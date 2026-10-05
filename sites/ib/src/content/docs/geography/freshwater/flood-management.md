@@ -28,7 +28,7 @@ Produced by the interaction of meteorological, hydrological, and human factors.
 Profile and raise water tables, reducing infiltration capacity and generating overland flow. Intense
 Convective storms (common in tropical regions and during summer in mid-latitudes) can produce
 Rainfall rates exceeding 50 mm per hour, rapidly generating surface runoff. The 2022 Pakistan floods
-Were caused by monsoonal rainfall that was approximately 190% above the 30-year average, displacing
+were caused by monsoonal rainfall that was approximately 190% above the 30-year average, displacing
 Approximately 33 million people and submerging approximately one-third of the country.
 
 **Snowmelt.** Rapid warming in spring can cause large volumes of snow to melt over a short period,
@@ -45,7 +45,7 @@ Inundating the coastal zone and killing approximately 3400 people.
 
 **Urbanisation.** Impermeable surfaces (roads, buildings, pavements) reduce infiltration and
 Increase overland flow velocity and volume. Urban drainage systems concentrate and accelerate flow
-Into rivers. In a fully urbanised basin, the percentage of impermeable surface can exceed 80%,
+into rivers. In a fully urbanised basin, the percentage of impermeable surface can exceed 80%,
 Compared to approximately 5% in a natural vegetated basin. The August 2002 floods in Prague and
 Dresden were exacerbated by urbanisation in the Elbe basin.
 
@@ -116,7 +116,7 @@ Maintain (channels require regular dredging to prevent sediment accumulation).
 ### Flood Walls and Barriers
 
 Flood walls are vertical concrete or steel barriers designed to protect specific areas of high value
-From floodwater. Movable storm surge barriers (e.g., the Thames Barrier, the Maeslantkering in the
+from floodwater. Movable storm surge barriers (e.g., the Thames Barrier, the Maeslantkering in the
 Netherlands) can be closed during flood events and opened at other times to allow navigation and
 Tidal flow.
 
@@ -135,7 +135,7 @@ a lower level of protection and may not be sufficient for high-risk areas.
 ### Afforestation
 
 Planting trees in the upper reaches of a drainage basin increases interception (reducing the volume
-Of water reaching the ground), enhances infiltration (through root systems and improved soil
+of water reaching the ground), enhances infiltration (through root systems and improved soil
 Structure), and increases evapotranspiration. Research in the UK uplands has shown that converting
 Grazed pasture to native woodland can reduce peak discharge by 15--40% for moderate storms.
 
@@ -211,7 +211,7 @@ International Flood Management Initiative.
 ## Case Study: Flood Management in Bangladesh
 
 Bangladesh is one of the most flood-prone countries in the world. Approximately 80% of its land area
-Is low-lying floodplain, formed by the Ganges, Brahmaputra, and Meghna rivers. Flooding is a regular
+is low-lying floodplain, formed by the Ganges, Brahmaputra, and Meghna rivers. Flooding is a regular
 Occurrence: approximately 20% of the country is inundated in a normal year; in severe flood years
 (e.g., 1988, 1998, 2004, 2022), over 60% can be submerged.
 
@@ -271,7 +271,7 @@ The sea, with a budget of over EUR 20 billion. Key elements include:
 <summary>Common Pitfalls: Presenting Hard and Soft Engineering as Binary Choices</summary>
 
 Examination questions often ask students to evaluate flood management strategies. A common error is
-To present hard and soft engineering as mutually exclusive alternatives, arguing that one is
+to present hard and soft engineering as mutually exclusive alternatives, arguing that one is
 Inherently superior to the other. In practice, most modern flood management strategies combine
 Elements of both. The Netherlands, for example, uses both hard engineering (the Maeslantkering
 Barrier, reinforced dikes) and soft engineering (Room for the River, floodplain restoration). The

@@ -80,13 +80,13 @@ Increasing atmospheric $\mathrm{CO_2}$ concentration by approximately 2.5 ppm pe
 ## Carbon Sequestration
 
 Carbon sequestration is the process of removing $\mathrm{CO_2}$ from the atmosphere and storing it
-In a stable form. Sequestration methods are classified as natural or technological.
+in a stable form. Sequestration methods are classified as natural or technological.
 
 ### Natural Sequestration
 
 **Afforestation and reforestation.** Planting trees on previously non-forested land (afforestation)
 Or replanting trees on deforested land (reforestation) removes $\mathrm{CO_2}$ from the atmosphere
-Through photosynthesis and stores it as biomass and soil organic carbon.
+through photosynthesis and stores it as biomass and soil organic carbon.
 
 - **Capacity:** a hectare of tropical forest can sequester approximately 5--10 tonnes of carbon per
   year during the growth phase. Global afforestation and reforestation could potentially sequester
@@ -140,8 +140,8 @@ Reservoirs) for permanent storage.
 
 **Bioenergy with Carbon Capture and Storage (BECCS).** BECCS involves growing biomass (trees, energy
 Crops), burning it for energy, capturing the $\mathrm{CO_2}$ emitted during combustion, and storing
-It geologically. In theory, BECCS can achieve "negative emissions" because the carbon captured
-During biomass growth exceeds the carbon emitted during combustion.
+it geologically. In theory, BECCS can achieve "negative emissions" because the carbon captured
+during biomass growth exceeds the carbon emitted during combustion.
 
 - **Potential:** many integrated assessment models (IAMs) rely heavily on BECCS to achieve net-zero
   emissions. The IPCC's 1.5$^\circ$C pathway assumes approximately 5--15 Gt $\mathrm{CO_2}$ per year
@@ -164,7 +164,7 @@ Solvents or solid sorbents, followed by release of concentrated $\mathrm{CO_2}$ 
 ## REDD+ Framework
 
 REDD+ (Reducing Emissions from Deforestation and Forest Degradation, plus the sustainable management
-Of forests, and the conservation and enhancement of forest carbon stocks) is a UN framework that
+of forests, and the conservation and enhancement of forest carbon stocks) is a UN framework that
 Provides financial incentives for developing countries to reduce deforestation and forest
 Degradation.
 
@@ -201,7 +201,7 @@ Cap-and-trade systems set a total cap on greenhouse gas emissions for participat
 Allocate or auction emission allowances (each allowance permits the emission of one tonne of
 $\mathrm{CO_2}$ equivalent). Allowances can be traded among participants: firms that can reduce
 Emissions cheaply sell excess allowances; firms facing high reduction costs buy allowances. The cap
-Is reduced over time, driving progressively deeper emission cuts.
+is reduced over time, driving progressively deeper emission cuts.
 
 **Major emissions trading systems:**
 
@@ -242,7 +242,7 @@ Pathway to limiting warming to 1.5$^\circ$C is rapid, deep emission reductions a
 Supplemented by carbon removal to address residual emissions. Over-reliance on future carbon removal
 Technologies (particularly BECCS and DAC, which currently operate at negligible scale) risks
 Delaying the emission reductions that are needed now. When discussing sequestration, always frame it
-As a complement to, not a substitute for, emission reduction.
+as a complement to, not a substitute for, emission reduction.
 
 </details>
 

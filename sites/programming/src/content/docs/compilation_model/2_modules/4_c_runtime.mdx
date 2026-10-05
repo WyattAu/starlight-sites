@@ -44,7 +44,7 @@ Language itself:
 ## The Physical Entry Point
 
 When the OS Loader (e.g., `ld.so` on Linux or `ntdll.dll` on Windows) loads a binary, it jumps to
-The address specified in the file header (ELF or PE). This address does **not** point to `main`.
+the address specified in the file header (ELF or PE). This address does **not** point to `main`.
 
 - **Linux (ELF):** Points to `_start`Provided by `crt1.o`.
 - **Windows (PE):** Points to `mainCRTStartup` (or `wmainCRTStartup`), provided by the MSVC Runtime.
@@ -61,7 +61,7 @@ readelf -h ./app | grep Entry
 ```
 
 On modern Linux with PIE (Position-Independent Executables), the entry point is a relative offset
-That the dynamic linker resolves at load time. The kernel sets the instruction pointer to this
+that the dynamic linker resolves at load time. The kernel sets the instruction pointer to this
 Address after mapping the binary's `PT_LOAD` segments into memory.
 
 ## The Startup Sequence
@@ -200,7 +200,7 @@ Initialization begins. The implementation is free to order them in any way, and 
 Change between compiler versions, link orders, or optimization levels.
 
 This is not merely an academic concern. In practice, the initialization order depends on the order
-In which object files appear in the linker's input, which is determined by the build system. A
+in which object files appear in the linker's input, which is determined by the build system. A
 Seemingly unrelated change to `CMakeLists.txt` (adding a new source file) can silently reorder the
 Linker input and cause a previously correct program to crash during startup.
 
@@ -473,7 +473,7 @@ Recommended alternative to `abort` when you need to skip destructors intentional
 ## CRT Linkage Modes (Windows Specific)
 
 On Linux, the CRT is almost always linked dynamically (`glibc`). On Windows, MSVC offers a choice
-That profoundly affects architecture.
+that profoundly affects architecture.
 
 ### 1. Dynamic Linking (`/MD, /MDd`)
 
@@ -599,7 +599,7 @@ LD_DEBUG=init ./app
 ```
 
 A common pitfall is using a global object from one DSO during the construction of a global object in
-Another DSO -- if the DSO ordering is wrong, the dependency may not yet be constructed. The
+another DSO -- if the DSO ordering is wrong, the dependency may not yet be constructed. The
 "construct on first use" pattern (magic statics) mitigates this by deferring initialization to first
 Access rather than load time.
 
@@ -694,7 +694,7 @@ void operator delete(void* ptr) noexcept \{
 ```
 
 Per [N4950 S17.7.3], replacing the global `operator new` is allowed but must be done consistently
-Across all TUs in the program. If one TU replaces `operator new` and another does not, the ODR is
+across all TUs in the program. If one TU replaces `operator new` and another does not, the ODR is
 Violated and behavior is undefined. This is because `operator new` has external linkage and the
 Linker resolves it to a single definition.
 
@@ -710,7 +710,7 @@ Delivered (e.g., `SIGSEGV, SIGFPE`), the CRT's signal handler may:
 3. **Default action:** If no handler is registered, the default action ( termination) is taken.
 
 On Itanium ABI platforms (Linux, macOS), the CRT installs a signal handler during startup that uses
-The `.eh_frame` section to unwind the stack when an exception is thrown. The unwinder (`_Unwind_*`
+the `.eh_frame` section to unwind the stack when an exception is thrown. The unwinder (`_Unwind_*`
 Functions) is part of the CRT, not the compiler.
 
 ## Environment Variables and the CRT

@@ -28,7 +28,7 @@ Composable pipeline operations.
 
 C++23 introduced `std::generator<T>` [N4950 §25.4.4], a standard library type that wraps a coroutine
 Producing a sequence of values via `co_yield`. It is an input iterator whose `operator++` resumes
-The coroutine and whose `operator*` returns the yielded value.
+the coroutine and whose `operator*` returns the yielded value.
 
 The declaration (simplified) [N4950 §25.4.4]:
 
@@ -40,7 +40,7 @@ class generator : public ranges::view_interface<generator<Ref, V, Allocator>> {
 ```
 
 `std::generator<T>` is a **view**, it is lightweight, non-owning, and models `input_range`. Values
-Are computed lazily on demand.
+are computed lazily on demand.
 
 ## `co_yield` as Syntactic Sugar
 
@@ -281,7 +281,7 @@ int main() {
 ## Recursive Generators
 
 Generators can call themselves recursively. Each recursive invocation creates a new coroutine frame
-On the heap. This is useful for tree traversal, combinatorial generation, and recursive descent
+on the heap. This is useful for tree traversal, combinatorial generation, and recursive descent
 Parsing.
 
 ```cpp

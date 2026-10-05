@@ -21,7 +21,7 @@ categories:
 ## The CAP Theorem
 
 The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer's 2000 conjecture, states
-That a distributed data store can provide at most two of three guarantees:
+that a distributed data store can provide at most two of three guarantees:
 
 - **Consistency (C):** every read receives the most recent write or an error
 - **Availability (A):** every request receives a non-error response (without guarantee about which
@@ -298,8 +298,8 @@ Millions of columns and queries access a subset of columns.
 ### Architecture
 
 Data is stored in column families, where each column family contains related columns. On disk, data
-Is stored by column family (not by row), which makes reading all values of a specific column across
-Many rows very efficient.
+is stored by column family (not by row), which makes reading all values of a specific column across
+many rows very efficient.
 
 ```text
 Traditional row-oriented storage:
@@ -408,7 +408,7 @@ Key characteristics:
 ## Graph Databases
 
 Graph databases model data as nodes (entities) and edges (relationships), optimising for queries
-That traverse relationships. They are the natural choice for data with complex, interconnected
+that traverse relationships. They are the natural choice for data with complex, interconnected
 Relationships: social networks, fraud detection, recommendation engines, knowledge graphs.
 
 ### Neo4j
@@ -456,12 +456,12 @@ RETURN p
 
 :::tip
 Relational database for transactional data and a graph database for relationship-heavy queries. This
-Is the **polyglot persistence** pattern: use the right tool for each part of the problem.
+is the **polyglot persistence** pattern: use the right tool for each part of the problem.
 
 ## Time Series Databases
 
 Time series databases are optimised for storing and querying data points indexed by time. They are
-The standard for monitoring, IoT sensor data, financial tick data, and application metrics.
+the standard for monitoring, IoT sensor data, financial tick data, and application metrics.
 
 ### InfluxDB
 
@@ -599,8 +599,8 @@ Model around your access patterns, not your entity relationships.
 ### Underestimating Operational Complexity
 
 Running a Redis cluster, a Cassandra ring, or a MongoDB replica set in production requires expertise
-In the specific database's failure modes, backup procedures, monitoring, and upgrade paths. Budget
-For this expertise before adopting a new technology.
+in the specific database's failure modes, backup procedures, monitoring, and upgrade paths. Budget
+for this expertise before adopting a new technology.
 
 ### Not Setting TTL on Cache Data
 
@@ -667,7 +667,7 @@ Resolution. They guarantee eventual consistency without requiring coordination.
 | LWW-Register | Assign value with timestamp | Last-writer-wins                    |
 
 CRDTs are used in Riak, Redis CRDT module, and some edge computing frameworks. The trade-off: they
-Only support a limited set of operations (no arbitrary transactions), and some types accumulate
+only support a limited set of operations (no arbitrary transactions), and some types accumulate
 Garbage (tombstones in OR-Set).
 
 ### LSM Trees (Log-Structured Merge Trees)

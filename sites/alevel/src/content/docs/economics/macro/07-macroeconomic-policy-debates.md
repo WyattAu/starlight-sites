@@ -165,7 +165,7 @@ i = 2 + 5 + 0.5(5 - 2) + 0.5(-3) = 2 + 5 + 1.5 - 1.5 = 7\%
 $$
 
 The Taylor Rule prescribes a 7% policy rate: above neutral (4%) to fight inflation, but moderated by
-The recessionary output gap.
+the recessionary output gap.
 
 </details>
 
@@ -272,14 +272,14 @@ $$
 ### 4.1 The Zero Lower Bound (ZLB)
 
 The **zero lower bound** is the constraint that nominal interest rates cannot fall significantly
-Below zero (since holding cash pays zero nominal interest).
+below zero (since holding cash pays zero nominal interest).
 
 $$
 i \geq 0 \mathrm{ (approximately)}
 $$
 
 When the equilibrium real interest rate is negative (as during a severe recession), the central bank
-Cannot cut rates far enough to stimulate the economy. The economy is caught in a **liquidity trap**
+cannot cut rates far enough to stimulate the economy. The economy is caught in a **liquidity trap**
 (Keynes, 1936):
 
 $$
@@ -401,7 +401,7 @@ Contributed, requiring a strong monetary tightening.
 ### 4.6 The COVID-19 Policy Response: Real-World Examples
 
 The pandemic triggered an unprecedented policy response, illustrating both the power and limitations
-Of macroeconomic policy:
+of macroeconomic policy:
 
 **Fiscal packages by country:**
 
@@ -415,7 +415,7 @@ Of macroeconomic policy:
 **Evaluation**: The scale of fiscal response was justified by the Keynesian logic that when the
 Private sector withdraws spending simultaneously (lockdowns), the government must fill the gap. The
 Furlough scheme was particularly effective at preventing mass unemployment (UK unemployment peaked
-At only 5.2%, compared to the OBR's initial forecast of 12%). However, the withdrawal of stimulus in
+at only 5.2%, compared to the OBR's initial forecast of 12%). However, the withdrawal of stimulus in
 2021–22, combined with supply bottlenecks, contributed to the inflation surge.
 
 ### 4.7 Brexit Policy Trade-Offs
@@ -659,7 +659,7 @@ The dilemma: the economy faces both high inflation (requiring contractionary pol
 
 **Problem 6.** "Inflation targeting has been a success and should continue to be the primary
 Objective of monetary policy." Evaluate this statement with reference to the experience of the UK
-Since 1992.
+since 1992.
 
 <details>
 <summary>Hint</summary>
@@ -719,11 +719,11 @@ Central bank and buy riskier assets), which is not captured in traditional model
 **Expectations**: QE's effectiveness depends partly on signalling (forward guidance), the central
 Bank's announcement effect. If the public's expectations formation process changes in response to QE
 (e.g., learning that the central bank will buy bonds in a crisis), then the historical relationship
-Between policy and expectations is unreliable. (4) **Counterargument**: some relationships have
+between policy and expectations is unreliable. (4) **Counterargument**: some relationships have
 Proved relatively stable. The Phillips curve, despite shifting, still shows a short-run trade-off.
 The Taylor Rule, while not followed mechanically, still provides a useful benchmark for the
 `` `{BoE}` ``'s rate decisions. Overall: the Lucas critique remains highly relevant, it reminds us
-That the unprecedented scale of QE means historical evidence may be an unreliable guide to its
+that the unprecedented scale of QE means historical evidence may be an unreliable guide to its
 Effects, particularly regarding inflation and the exit strategy.
 </details>
 
@@ -738,16 +738,16 @@ Tightened prematurely as inflation rose due to supply shocks. (2) **Handles supp
 The 2021–2023 inflation was partly cost-push (energy, supply chains). Under NGDP targeting, the
 `` `{BoE}` `` would have accommodated more inflation (since real GDP was falling), reducing the
 Depth of the recession. (3) **Simplicity**: a single target for the growth of total nominal income
-Is arguably easier to communicate than an inflation target. (4) **Financial stability**: by not
+is arguably easier to communicate than an inflation target. (4) **Financial stability**: by not
 Overtightening after supply shocks, NGDP targeting may reduce the risk of triggering a financial
 Crisis. Case against: (1) **Measurement problems**: GDP data is revised frequently and with long
 Lags (3–6 months). The `` `{BoE}` `` might be targeting an incorrect number. Inflation data, by
 Contrast, is available monthly with less revision. (2) **No precedent**: no major central bank has
 Adopted NGDP targeting, so there is no real-world evidence of its effectiveness. (3) **Legitimacy**:
 NGDP targeting could be seen as "giving up on price stability", the public may resist a framework
-That explicitly tolerates higher inflation. (4) **Confusion**: the public understands "2% inflation"
+that explicitly tolerates higher inflation. (4) **Confusion**: the public understands "2% inflation"
 But may not understand "5% nominal GDP growth." (5) **Distributional effects**: accommodative policy
-After supply shocks may benefit borrowers at the expense of savers. Conclusion: NGDP targeting is
+after supply shocks may benefit borrowers at the expense of savers. Conclusion: NGDP targeting is
 Intellectually appealing but faces significant practical obstacles. The best reform may be a more
 Flexible inflation target (average inflation targeting, as adopted by the Fed in 2020) rather than a
 Complete regime change.

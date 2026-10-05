@@ -416,7 +416,7 @@ Evaluate $\int_\gamma \frac{e^z \sin z}{(z - \pi)^3}\, dz$ where $\gamma$ is $|z
 Only $z = \pi$ is inside $\gamma$ (a pole of order $3$).
 
 By CIF for derivatives: $\int_\gamma \frac{f(z)}{(z - \pi)^3}\, dz = \frac{2\pi i}{2!}\,f''(\pi)$
-Where $f(z) = e^z \sin z$.
+where $f(z) = e^z \sin z$.
 
 $f'(z) = e^z \sin z + e^z \cos z = e^z(\sin z + \cos z)$.
 $f''(z) = e^z(\sin z + \cos z) + e^z(\cos z - \sin z) = 2e^z \cos z$.

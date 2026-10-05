@@ -28,7 +28,7 @@ L = \frac{1}{2}m\dot{r}^2 + \frac{l^2}{2mr^2} - V(r)
 $$
 
 The effective potential is $V_{\mathrm{eff}(r) = V(r) + \frac{l^2}{2mr^2}}$ Where the second term is
-The **centrifugal barrier**.
+the **centrifugal barrier**.
 
 ### 6.2 Effective Potential Analysis
 
@@ -1879,7 +1879,7 @@ $$
 $$
 
 The boundary term vanishes since $\eta(t_1) = \eta(t_2) = 0$. For $\delta S = 0$ for all $\eta$ By
-The fundamental lemma of the calculus of variations:
+the fundamental lemma of the calculus of variations:
 
 $$
 \frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}} = 0
@@ -2619,7 +2619,7 @@ $\blacksquare$
 ### 1.10 From Newton to Variational Principles
 
 Newton's laws work well in Cartesian coordinates but become cumbersome in constrained systems or
-Non-Cartesian coordinates. The **Lagrangian** and **Hamiltonian** formulations provide a more
+non-Cartesian coordinates. The **Lagrangian** and **Hamiltonian** formulations provide a more
 general And elegant framework based on energy principles.
 
 The key insight: instead of tracking forces, track the **energy** of the system. The trajectory is
@@ -10271,7 +10271,7 @@ Body without external work.
 
 **Theorem 1.1 (Carnot's Theorem).** No engine operating between two heat reservoirs is more
 Efficient than a Carnot engine. All reversible engines operating between the same two reservoirs
-Have the same efficiency.
+have the same efficiency.
 
 **Proof.** Suppose engine $A$ (claimed more efficient than Carnot) operates between reservoirs at
 $T_h$ and $T_c$. Let $A$ extract heat $Q_h$ from the hot reservoir, do work $W$ And reject heat
@@ -10325,7 +10325,7 @@ $$
 $$
 
 This sets an absolute reference for entropy and implies that it is impossible to reach absolute zero
-In a finite number of steps.
+in a finite number of steps.
 
 ### 1.6 Thermodynamic Response Functions
 
@@ -10523,7 +10523,7 @@ ones (equations of state).
 <summary>Solution: Worked Example, Free Energy Minimisation</summary>
 
 A gas cylinder at $T = 300$ K is divided by a frictionless piston. Side $A$ has volume $V_A = 1$ L
-With $N_A = 0.04$ mol of ideal gas. Side $B$ has volume $V_B = 3$ L with $N_B = 0.02$ mol of ideal
+with $N_A = 0.04$ mol of ideal gas. Side $B$ has volume $V_B = 3$ L with $N_B = 0.02$ mol of ideal
 Gas. The piston is released and the system equilibrates at constant $T$. Find the equilibrium
 Volumes.
 
@@ -10562,7 +10562,7 @@ This is just mechanical equilibrium: $P_A = P_B$ I.e., $N_A k_B T/V_A = N_B k_B 
 **Proof (for $G$).** Consider a system in contact with a reservoir at $T_0, P_0$. The total entropy
 Of system plus reservoir is $S_{\mathrm{tot} = S + S_R}$. At equilibrium, $S_{\mathrm{tot}}$ is
 Maximised, so $\delta S_{\mathrm{tot} \leq 0}$ for any variation. Since $dS_R = \delta Q_R / T_0$
-And by energy conservation $\delta Q_R = -\delta Q = -(dU + P_0\,dV)$:
+and by energy conservation $\delta Q_R = -\delta Q = -(dU + P_0\,dV)$:
 
 $$
 \delta S_{\mathrm{tot} = \delta S - \frac{1}{T_0}(dU + P_0\,dV) = -\frac{1}{T_0}\delta G \leq 0}
@@ -10732,7 +10732,7 @@ $$
 
 **Derivation.** For the isothermal steps, $\Delta S_{\mathrm{hot} = Q_h/T_h}$ and
 $\Delta S_{\mathrm{cold} = -Q_c/T_c}$. Since entropy is a state function and the cycle returns to
-The initial state, $\Delta S_{\mathrm{total} = 0}$ So $Q_h/T_h = Q_c/T_c$. $\blacksquare$
+the initial state, $\Delta S_{\mathrm{total} = 0}$ So $Q_h/T_h = Q_c/T_c$. $\blacksquare$
 
 ### 4.2 Heat Pumps and Refrigerators
 
@@ -10836,7 +10836,7 @@ Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
 
 **Justification.** Consider two independent systems $A$ and $B$. The total number of microstates is
 $\Omega_{AB} = \Omega_A \cdot \Omega_B$. We require $S_{AB} = S_A + S_B$ (additivity). The logarithm
-Is the unique function satisfying $f(xy) = f(x) + f(y)$. $\blacksquare$
+is the unique function satisfying $f(xy) = f(x) + f(y)$. $\blacksquare$
 
 ### 5.2 Gibbs Entropy Formula
 
@@ -11034,7 +11034,7 @@ $$
 $$
 
 At $T = T_m = 280$ K on the sublimation curve (assuming solid-gas equilibrium at the melting point
-At low $P$):
+at low $P$):
 
 $$
 P_{\mathrm{sub}(280) = P_0 \exp\left[-\frac{45000}{8.314}\left(\frac{1}{280} - \frac{1}{T_0}\right)\right]}
@@ -11174,7 +11174,7 @@ z_{\mathrm{rot} = \sum_{J=0}^{\infty} (2J + 1) e^{-\beta \hbar^2 J(J+1)/(2I)}}
 $$
 
 At high temperature ($T \gg \Theta_{\mathrm{rot} = \hbar^2/(2Ik_B)}$), the sum can be approximated
-By an integral:
+by an integral:
 
 $$
 z_{\mathrm{rot} \approx \frac{T}{\Theta_{\mathrm{rot}} = \frac{2Ik_B T}{\hbar^2}}}
@@ -11300,7 +11300,7 @@ $$
 $$
 
 For the correct treatment, one must use the mean relative velocity. Since both colliding molecules
-Are moving, the relative speed is $\sqrt{2}$ times the mean speed:
+are moving, the relative speed is $\sqrt{2}$ times the mean speed:
 
 $$
 \lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi d^2 n}}
@@ -11381,7 +11381,7 @@ $$
 $$
 
 The experimental value is $\eta \approx 1.66 \times 10^{-5}$ Pa$\cdot$S. The discrepancy is due to
-The hard-sphere model being an approximation; real molecules have softer repulsive potentials.
+the hard-sphere model being an approximation; real molecules have softer repulsive potentials.
 
 </details>
 
@@ -11401,7 +11401,7 @@ P(\mathbf{v})\,d^3v = \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{m
 $$
 
 To find the speed distribution, transform to spherical coordinates in velocity space and integrate
-Over angles:
+over angles:
 
 $$
 f(v)\,dv = P(\mathbf{v}) \cdot 4\pi v^2\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}\,dv
@@ -11440,7 +11440,7 @@ Classical particles are distinguishable. Quantum particles are not. There are tw
 ### 10.2 Fermi-Dirac Statistics
 
 For fermions, each state can be occupied by at most one particle. The occupation number is $n_i = 0$
-Or $1$.
+or $1$.
 
 The average occupation number:
 
@@ -11692,7 +11692,7 @@ $$
 $$
 
 This follows from maximising $u(\lambda) = (8\pi h c / \lambda^5)(e^{hc/(\lambda k_B T)} - 1)^{-1}$
-With respect to $\lambda$.
+with respect to $\lambda$.
 
 ### 13.4 Detailed Derivation of Planck's Law
 
@@ -12653,7 +12653,7 @@ $\sqrt{\langle N^2 \rangle - \langle N \rangle^2}/\langle N \rangle = 1/\sqrt{\l
 
 **Solution.** The grand partition function for an ideal gas factorises into single-particle
 Contributions. Each single-particle state contributes independently, so the particle number is a sum
-Of independent Bernoulli-like random variables. By the central limit theorem:
+of independent Bernoulli-like random variables. By the central limit theorem:
 
 $$
 \langle N^2 \rangle - \langle N \rangle^2 = \langle N \rangle
@@ -12734,7 +12734,7 @@ Ensembles give the same thermodynamic results, but they differ in their fluctuat
 
 :::caution
 _quadratic_ degrees of freedom. Vibrational modes contribute $k_B T$ (not $k_B T/2$) because they
-Have both kinetic and potential energy terms. Electronic and rotational degrees of freedom may be
+have both kinetic and potential energy terms. Electronic and rotational degrees of freedom may be
 "frozen out" at low temperatures when $k_B T$ is much less than the level spacing.
 :::
 
@@ -14145,7 +14145,7 @@ $$
 
 Using the identity
 $\nabla \times (\nabla \times \mathbf{E}) = \nabla(\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E}$
-And $\nabla \cdot \mathbf{E} = 0$:
+and $\nabla \cdot \mathbf{E} = 0$:
 
 $$
 \nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
@@ -14696,7 +14696,7 @@ Radial line.
 
 We must verify that $V = 0$ on the sphere. Place $q$ at distance $a$ from the origin along the
 $z$-axis and $q'$ at distance $b$ along the $z$-axis. At any point on the sphere at distance $R$
-From the origin, the distances to $q$ and $q'$ are $d_1$ and $d_2$ where:
+from the origin, the distances to $q$ and $q'$ are $d_1$ and $d_2$ where:
 
 $$
 d_1^2 = R^2 + a^2 - 2Ra\cos\theta, \quad d_2^2 = R^2 + b^2 - 2Rb\cos\theta
@@ -14719,7 +14719,7 @@ $\blacksquare$
 For a localized charge distribution $\rho(\mathbf{r}')$ The potential at large distance
 $r = \lvert\mathbf{r}\rvert \gg r' = \lvert\mathbf{r}'\rvert$ is expanded using
 $\frac{1}{\lvert\mathbf{r}-\mathbf{r}'\rvert} = \sum_{n=0}^{\infty} \frac{r'^n}{r^{n+1}} P_n(\cos\alpha)$
-Where $\alpha$ is the angle between $\mathbf{r}$ and $\mathbf{r}'$:
+where $\alpha$ is the angle between $\mathbf{r}$ and $\mathbf{r}'$:
 
 $$
 V(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\sum_{n=0}^{\infty}\frac{1}{r^{n+1}}\int r'^n P_n(\cos\alpha)\,\rho(\mathbf{r}')\,d^3\mathbf{r}'
@@ -16323,7 +16323,7 @@ This confirms that $V$ satisfies the wave equation. $\blacksquare$
 ### 6.5 Lienard-Wiechert Potentials
 
 For a **moving point charge** $q$ following trajectory $\mathbf{r}_s(t)$ The retarded potentials
-Cannot be evaluated naively because the retarded time $t_r$ satisfies a non-trivial equation:
+cannot be evaluated naively because the retarded time $t_r$ satisfies a non-trivial equation:
 
 $$
 c(t - t_r) = \lvert\mathbf{r} - \mathbf{r}_s(t_r)\rvert
@@ -17797,7 +17797,7 @@ Implied).
 ### 7.2 Four-Vectors
 
 A **four-vector** $A^\mu = (A^0, A^1, A^2, A^3)$ transforms as $A'^\mu = \Lambda^\mu_{\ \nu}\,A^\nu$
-Under Lorentz transformations. The inner product $A_\mu B^\mu = \eta_{\mu\nu}A^\mu B^\nu$ is a
+under Lorentz transformations. The inner product $A_\mu B^\mu = \eta_{\mu\nu}A^\mu B^\nu$ is a
 Lorentz scalar (invariant).
 
 Key four-vectors in electromagnetism:
@@ -18603,7 +18603,7 @@ $\blacksquare$
 ### 8.8 Worked Example: Michelson Stellar Interferometer
 
 Two separated mirrors direct light from a distant star into a single telescope. Fringes are observed
-When the mirror separation $d$ satisfies:
+when the mirror separation $d$ satisfies:
 
 $$
 d \lt \frac{1.22\lambda}{\theta_s}
@@ -19782,7 +19782,7 @@ E(P) = \frac{i}{\lambda}\iint_{\mathrm{aperture} E(Q)\,\frac{e^{-ikr}}{r}\cos\th
 $$
 
 Where $E(Q)$ is the field at the aperture point $Q$, $r$ is the distance from $Q$ to $P$ And $\theta$
-Is the angle between the normal to the aperture and the direction to $P$. The obliquity factor
+is the angle between the normal to the aperture and the direction to $P$. The obliquity factor
 $\cos\theta$ ensures that wavelets do not propagate backwards. In the Fraunhofer limit
 ($r \to \infty$), This integral reduces to the Fourier transform of the aperture function (see
 Sections 4.8 and 7.1).
@@ -19994,7 +19994,7 @@ Single blurred source.
 ### 4.8 Introduction to Fourier Optics
 
 The Fraunhofer diffraction integral has a deep connection with Fourier analysis. For an aperture
-With transmission function $t(x, y)$ The far-field diffraction pattern is:
+with transmission function $t(x, y)$ The far-field diffraction pattern is:
 
 $$
 E(\theta_x, \theta_y) \propto \iint t(x,y)\, e^{-i(k_x x + k_y y)}\,dx\,dy
@@ -20403,7 +20403,7 @@ u = \frac{1}{2}\varepsilon_0 E^2 + \frac{1}{2\mu_0}B^2 = \varepsilon_0 E^2
 $$
 
 (the electric and magnetic contributions are equal for a plane wave). The intensity is related to
-The energy density by $I = uc$.
+the energy density by $I = uc$.
 
 **Radiation pressure.** For a perfectly absorbing surface: $P_{\mathrm{rad} = I/c}$. For a perfectly
 Reflecting surface: $P_{\mathrm{rad} = 2I/c}$.
@@ -20443,7 +20443,7 @@ $$
 For non-magnetic materials ($\mu_r \approx 1$): $n \approx \sqrt{\varepsilon_r}$.
 
 The wavelength inside a medium of refractive index $n$ is $\lambda_n = \lambda_0/n$ Where $\lambda_0$
-Is the vacuum wavelength. The frequency remains unchanged across the boundary.
+is the vacuum wavelength. The frequency remains unchanged across the boundary.
 
 <details>
 <summary>Worked Example: EM wave propagation in glass</summary>
@@ -20451,7 +20451,7 @@ Is the vacuum wavelength. The frequency remains unchanged across the boundary.
 **Problem.** A plane wave of wavelength $\lambda_0 = 600$ nm in vacuum enters a glass slab
 ($n = 1.50$) at normal incidence. Find (a) the wavelength and wave speed inside the glass, (b) the
 Frequency, and (c) the ratio of intensities inside and outside the glass, accounting for reflection
-At the front surface.
+at the front surface.
 
 **Solution.**
 
@@ -21631,7 +21631,7 @@ Which gives $n_1 \sin\theta_1 = n_2 \sin\theta_2$. $\blacksquare$
 ### 6.2 Total Internal Reflection
 
 When light travels from a denser to a rarer medium ($n_1 \gt n_2$), total internal reflection occurs
-When $\theta_1 \geq \theta_c$ where:
+when $\theta_1 \geq \theta_c$ where:
 
 $$
 \sin\theta_c = \frac{n_2}{n_1}
@@ -22060,7 +22060,7 @@ central maximum.
 ### 3.3 Thin-Film Interference
 
 Light reflecting from a thin film of thickness $t$ and refractive index $n$ undergoes interference
-Between the wave reflected from the top surface and the wave reflected from the bottom surface.
+between the wave reflected from the top surface and the wave reflected from the bottom surface.
 
 **Path difference:** $2nt\cos\theta_t$ where $\theta_t$ is the angle of refraction inside the film.
 
@@ -23444,14 +23444,14 @@ Where $\theta$ is the rotation angle, $c$ is the concentration, and $l$ is the p
 
 Optical activity arises from the helical structure of molecules, which gives different refractive
 Indices for left- and right-circularly polarised light (circular birefringence). If $n_L$ and $n_R$
-Are the refractive indices for left and right circular polarisation:
+are the refractive indices for left and right circular polarisation:
 
 $$
 \theta = \frac{\pi l}{\lambda}(n_L - n_R)
 $$
 
 Optical activity is **reciprocal**: if the beam is reflected back through the medium, the rotation
-Is cancelled.
+is cancelled.
 
 ### 5.5 Brewster's Angle
 
@@ -23475,7 +23475,7 @@ $$
 $$
 
 At Brewster's angle, the reflected beam is purely s-polarised, and the reflected and refracted beams
-Are perpendicular ($\theta_B + \theta_t = 90°$). This principle is used in Brewster windows and
+are perpendicular ($\theta_B + \theta_t = 90°$). This principle is used in Brewster windows and
 Polarisation by reflection.
 
 For an air-glass interface ($n_1 = 1$, $n_2 = 1.5$): $\theta_B = \arctan(1.5) = 56.3°$.
@@ -23553,7 +23553,7 @@ $\mathbf{E}$-field oscillates in the $xy$-plane. An observer along $\hat{\mathbf
 Angle $90°$) receives radiation from the accelerating electrons. The dipole radiation pattern of an
 Oscillator along $\hat{\mathbf{y}}$ has zero intensity along $\hat{\mathbf{y}}$ but maximum along
 $\hat{\mathbf{x}}$. The oscillator along $\hat{\mathbf{x}}$ radiates zero along its own axis. Thus
-The observer along $\hat{\mathbf{x}}$ sees only the $y$-component: the scattered light is Polarised
+the observer along $\hat{\mathbf{x}}$ sees only the $y$-component: the scattered light is Polarised
 along $\hat{\mathbf{y}}$. $\blacksquare$
 
 This explains why the sky is polarised at $90°$ from the sun and why polarising sunglasses reduce
@@ -23884,7 +23884,7 @@ Equation $\partial^2 u/\partial x^2 = (1/v^2)\partial^2 u/\partial t^2$. Identif
 Meaning of each term and find the condition on $\omega$ and $k$.
 
 **3.** A wave packet in a dispersive medium has central angular frequency $\omega_0 = 10^{15}$ rad/s
-And bandwidth $\Delta\omega = 10^{12}$ rad/s. The group velocity dispersion is
+and bandwidth $\Delta\omega = 10^{12}$ rad/s. The group velocity dispersion is
 $\alpha = d^2\omega/dk^2 = 2.0 \times 10^6$ m$^2$/s. Estimate the time required for the packet To
 double in spatial width after travelling a distance of 1.0 m.
 
@@ -23929,7 +23929,7 @@ width is Needed to resolve these lines in the second order?
 
 **14.** The Hubble Space Telescope has a primary mirror of diameter $D = 2.4$ m. Calculate its
 Angular resolution at $\lambda = 500$ nm in both radians and arcseconds. A ground-based telescope
-With $D = 8$ m operates under atmospheric seeing of $1.0''$. Which telescope achieves better
+with $D = 8$ m operates under atmospheric seeing of $1.0''$. Which telescope achieves better
 Resolution, and why?
 
 **15.** Unpolarised light of intensity $I_0$ passes through two ideal linear polarisers whose
@@ -24283,7 +24283,7 @@ k_n L = (n + 1/2)\pi \implies f_n = \frac{(2n+1)v}{4L}, \quad n = 0, 1, 2, \ldot
 $$
 
 Only odd harmonics are present. A pipe open at one end and closed at the other behaves analogously
-For sound waves.
+for sound waves.
 
 <details>
 <summary>Worked Example: Guitar string harmonics</summary>
@@ -24382,7 +24382,7 @@ $I = \langle P \rangle/A_{\mathrm{wire} = 34.7/(7.85 \times 10^{-7}) = 4.42 \tim
 ### 1.6 Wave Packets and Group Velocity
 
 A real wave is never perfectly monochromatic. A **wave packet** is a superposition of plane waves
-With a narrow range of frequencies and wave vectors:
+with a narrow range of frequencies and wave vectors:
 
 $$
 \psi(x,t) = \int_{-\infty}^{\infty} A(k)\, e^{i(kx - \omega(k)t)}\,dk
@@ -24761,7 +24761,7 @@ $\Delta n$ is unrestricted (energy conservation determines which transitions are
 
 _Proof sketch._ The matrix element $\langle n'l'm'|\hat{z}|nlm\rangle$ involves the integral
 $\int Y_{l'}^{m'*}(\theta,\phi)\cos\theta\,Y_l^m(\theta,\phi)\,d\Omega$. Using the addition theorem
-For spherical harmonics, $\cos\theta = \sqrt{4\pi/3}\,Y_1^0$ The integral becomes a product of
+for spherical harmonics, $\cos\theta = \sqrt{4\pi/3}\,Y_1^0$ The integral becomes a product of
 Clebsch-Gordan coefficients that vanishes unless $l' = l \pm 1$ and $m' = m$. $\blacksquare$
 
 ### 6.6 Orbital Shapes and Quantum Numbers
@@ -24869,7 +24869,7 @@ $$
 
 **Physical interpretation.** The first-order energy correction is the expectation value of the
 Perturbation in the unperturbed state. The second-order correction accounts for virtual transitions
-To other states: if the perturbation mixes in state $|m\rangle$ with amplitude proportional to
+to other states: if the perturbation mixes in state $|m\rangle$ with amplitude proportional to
 $V_{mn}/(E_n - E_m)$ The energy shift is the sum of $|V_{mn}|^2/(E_n - E_m)$ over all Intermediate
 states. Lower-energy intermediate states ($E_m \lt E_n$) always lower the energy, While
 higher-energy ones raise it.
@@ -25695,7 +25695,7 @@ Light.
 
 Compton scattering provides direct evidence that photons carry momentum. When an X-ray photon of
 Wavelength $\lambda$ scatters off a free (or loosely bound) electron at rest, the scattered photon
-Has a longer wavelength $\lambda'$.
+has a longer wavelength $\lambda'$.
 
 **Setup.** Incident photon: energy $E = hc/\lambda$ Momentum $p = h/\lambda$. Target electron: At
 rest, energy $m_e c^2$ Momentum $0$. After scattering, the photon is deflected by angle $\theta$ And
@@ -25796,7 +25796,7 @@ Hypothesis that particles have wave-like properties.
 Directed at a nickel crystal. The scattered electrons are detected at various angles $\phi$.
 
 **de Broglie relation.** An electron accelerated through potential $V$ has kinetic energy $K = eV$
-And momentum:
+and momentum:
 
 $$
 p = \sqrt{2m_e eV}
@@ -26697,7 +26697,7 @@ energy, Follows directly from the exponential dependence of $T$ on the barrier w
 A sharp tip and a conducting surface. Electrons tunnel across the gap, producing a current that
 Depends exponentially on the tip-surface distance: $I \propto e^{-2\kappa d}$. This allows atomic-
 Resolution imaging of surfaces, as a change in distance of $0.1$ nm changes the current by a factor
-Of about 10.
+of about 10.
 
 ```mermaid
 flowchart TD
@@ -26858,7 +26858,7 @@ $$
 $$
 
 This is a quadratic in $\lambda$ that is non-negative for all $\lambda$ So its discriminant must be
-Non-positive:
+non-positive:
 
 $$
 (\langle[\Delta\hat{A}, \Delta\hat{B}]\rangle)^2 - 4\sigma_A^2\sigma_B^2 \leq 0
@@ -26939,7 +26939,7 @@ $\blacksquare$
 Classical limit (large quantum numbers or $\hbar \to 0$), quantum expectation values follow
 Classical trajectories. However, this is only exact for linear or quadratic potentials; for general
 Potentials, $\langle V'(x) \rangle \neq V'(\langle x \rangle)$ So quantum corrections persist even
-For large systems.
+for large systems.
 
 ### 4.6 Solving Eigenvalue Equations
 
@@ -27034,7 +27034,7 @@ Vector $|\psi\rangle$ in a complex Hilbert space $\mathcal{H}$.
 
 _Physical motivation._ Superposition is observed in interference experiments (e.g., double-slit),
 Where a particle can traverse multiple paths simultaneously. The complex-valued nature of the state
-Is essential: relative phases between superposition components produce observable interference
+is essential: relative phases between superposition components produce observable interference
 Patterns that cannot be replicated with real amplitudes alone.
 
 **Postulate 2 (Observables).** Every measurable quantity (observable) is represented by a Hermitian
@@ -27052,7 +27052,7 @@ P(a_n) = |\langle a_n | \psi \rangle|^2
 $$
 
 Where $|a_n\rangle$ is the eigenstate corresponding to $a_n$. After measurement, the state collapses
-To $|a_n\rangle$.
+to $|a_n\rangle$.
 
 _Physical motivation._ The Born rule $P = |\langle a_n|\psi\rangle|^2$ was postulated by Born (1926)
 To connect wave functions to observable probabilities. It correctly predicts the intensity
@@ -27476,7 +27476,7 @@ URL: https://physics.wyattau.com/5-quantum-mechanics/9_problem-set/
 ### Problems
 
 **1.** (Photoelectric effect) A sodium surface has work function $\phi = 2.28$ eV. When illuminated
-With light of wavelength $\lambda = 400$ nm, find (a) the maximum kinetic energy of emitted
+with light of wavelength $\lambda = 400$ nm, find (a) the maximum kinetic energy of emitted
 Electrons, and (b) the stopping potential.
 
 **2.** (Compton scattering) X-rays of wavelength $0.071$ nm are scattered at $\theta = 45°$ from a
@@ -27502,7 +27502,7 @@ What does this imply about the probability distribution?
 zero Otherwise). Find $\langle x \rangle$, $\langle x^2 \rangle$ And $\langle p^2 \rangle$.
 
 **7.** (Hermitian operators) Prove that the momentum operator $\hat{p} = -i\hbar\,d/dx$ is Hermitian
-On the space of wave functions that vanish at infinity. What boundary conditions are required? Show
+on the space of wave functions that vanish at infinity. What boundary conditions are required? Show
 by counterexample that $\hat{p}$ is not Hermitian if the boundary terms do not vanish.
 
 **8.** (Uncertainty principle) For the harmonic oscillator ground state
@@ -27513,7 +27513,7 @@ symmetry.
 
 **9.** (Eigenvalue problem) Find the eigenvalues and normalised eigenvectors of the matrix
 $\hat{A} = \begin{pmatrix}3 & 1\\1 & 3\end{pmatrix}$. Verify that the eigenvectors are orthogonal
-And that they form a complete basis for $\mathbb{C}^2$. Generalise: what are the eigenvalues of
+and that they form a complete basis for $\mathbb{C}^2$. Generalise: what are the eigenvalues of
 $\begin{pmatrix}a & b\\b & a\end{pmatrix}$?
 
 **10.** (Infinite square well) A particle is in the ground state of an infinite square well of Width
@@ -27539,7 +27539,7 @@ $\hat{L}_+|l,l\rangle = 0$ and hence derive the normalisation constant for $\hat
 
 **15.** (Hydrogen atom) Calculate $\langle r \rangle$, $\langle r^2 \rangle$ And
 $\langle 1/r \rangle$ for the hydrogen atom ground state $\psi_{100}$. Compare $\langle r \rangle$
-With the Bohr radius $a_0$. Use the virial theorem to relate $\langle T \rangle$ and
+with the Bohr radius $a_0$. Use the virial theorem to relate $\langle T \rangle$ and
 $\langle V \rangle$ for The Coulomb potential.
 
 **16.** (Spin) An electron is in the spin state
@@ -29024,7 +29024,7 @@ $$
 $$
 
 Corresponding to a frequency $\nu_L = \omega_L/(2\pi) = 28$ GHz (microwave range). This is the basis
-Of Electron Spin Resonance (ESR) and Nuclear Magnetic Resonance (NMR) spectroscopy, where
+of Electron Spin Resonance (ESR) and Nuclear Magnetic Resonance (NMR) spectroscopy, where
 transitions Between spin states are driven by oscillating magnetic fields at the Larmor frequency.
 
 **Example 7.1.** An electron starts in the state $|\psi(0)\rangle = |\uparrow\rangle$. A magnetic
@@ -29691,7 +29691,7 @@ URL: https://physics.wyattau.com/5-quantum-mechanics/3_wave-functions-and-the-sc
 ### 3.1 Wave Functions
 
 In the position representation, the state is described by a **wave function** $\psi(\mathbf{r}, t)$
-Where $|\psi(\mathbf{r}, t)|^2$ is the probability density:
+where $|\psi(\mathbf{r}, t)|^2$ is the probability density:
 
 $$
 P(\mathbf{r} \in [\mathbf{r}, \mathbf{r} + d\mathbf{r}]) = |\psi(\mathbf{r}, t)|^2\, d^3\mathbf{r}
@@ -29877,7 +29877,7 @@ $$
 So $\Delta x = \sqrt{\langle x^2 \rangle - \langle x \rangle^2} = 1/(\sqrt{2}\,\alpha)$.
 
 The uncertainty product for this state is $\sigma_x\,\sigma_p = \hbar/(2\sqrt{2})$ Which is larger
-Than the minimum $\hbar/2$ Showing this is not a minimum-uncertainty state.
+than the minimum $\hbar/2$ Showing this is not a minimum-uncertainty state.
 
 </details>
 
@@ -31157,7 +31157,7 @@ A crystal is defined by a **lattice** (infinite array of points with translation
 **basis** (the arrangement of atoms associated with each lattice point).
 
 The lattice is specified by **primitive lattice vectors** $\mathbf{a}_1, \mathbf{a}_2, \mathbf{a}_3$
-Such that every lattice point is at:
+such that every lattice point is at:
 
 $$
 \mathbf{R} = n_1\mathbf{a}_1 + n_2\mathbf{a}_2 + n_3\mathbf{a}_3, \quad n_i \in \mathbb{Z}
@@ -31211,7 +31211,7 @@ Directions are written as $[hkl]$; families of equivalent directions as $\langle
 ### 1.5 Wigner-Seitz Cell
 
 The **Wigner-Seitz cell** is the primitive cell constructed by drawing perpendicular bisector planes
-Between a lattice point and all its neighbours. It is the region of space closer to the given
+between a lattice point and all its neighbours. It is the region of space closer to the given
 lattice Point than to any other.
 
 ### 1.6 Packing Fractions and Density
@@ -31683,7 +31683,7 @@ $$
 
 This is equivalent to Bragg's law. Since $\lvert\mathbf{k}\rvert = \lvert\mathbf{k}'\rvert$ (elastic
 Scattering), the Laue condition requires $\mathbf{k}$ to terminate on the **Ewald sphere** (a sphere
-Of radius $k$ centred at the tip of $\mathbf{k}$).
+of radius $k$ centred at the tip of $\mathbf{k}$).
 
 **Equivalence with Bragg's law.** From
 $\lvert\mathbf{k}\rvert = \lvert\mathbf{k} + \mathbf{G}\rvert$:
@@ -31753,7 +31753,7 @@ For allowed FCC reflections:
   $\propto \lvert 4f(1 \pm i)\rvert^2 = 32f^2$.
 
 The extra absence at $h + k + l = 4n + 2$ is the signature of the diamond structure, distinguishing
-It from a simple FCC lattice.
+it from a simple FCC lattice.
 
 </details>
 
@@ -31780,7 +31780,7 @@ $2h + k = 3n \pm 1$: both even and odd $l$ give reflections but with different i
 ### 3.5 Systematic Absences
 
 Systematic absences arise from lattice centring and glide planes/screw axes, and are summarised by
-The structure factor:
+the structure factor:
 
 | Structure | Condition for reflection                | Systematic absence         |
 | --------- | --------------------------------------- | -------------------------- |
@@ -31797,11 +31797,11 @@ $(110)$ Identifies FCC.
 ### 3.6 Powder Diffraction
 
 In a **powder diffraction** experiment, a polycrystalline sample with randomly oriented crystallites
-Is illuminated by a monochromatic X-ray beam. Each family of planes $(hkl)$ that satisfies Bragg's
+is illuminated by a monochromatic X-ray beam. Each family of planes $(hkl)$ that satisfies Bragg's
 Law produces a diffraction cone at angle $2\theta$ from the incident beam.
 
 The **Bragg--Brentano geometry** uses a divergent beam and a focusing detector, recording intensity
-As a function of $2\theta$. Each peak position gives $d_{hkl}$ via Bragg's law, and the peak
+as a function of $2\theta$. Each peak position gives $d_{hkl}$ via Bragg's law, and the peak
 Intensity is proportional to $\lvert S_{hkl}\rvert^2$ times multiplicity and geometric factors.
 
 **Scherrer equation.** For crystallites of size $L$ The diffraction peaks are broadened. The Full
@@ -31931,12 +31931,12 @@ effect, cyclotron resonance).
 In real metals, the periodic potential distorts the Fermi surface from a sphere. At the Brillouin
 Zone boundaries, band gaps open and the Fermi surface can develop "necks" (connecting to adjacent
 Zones) or become multiply connected. The topology of the Fermi surface determines whether a material
-Is a metal or insulator: a material is metallic if the Fermi surface crosses any Brillouin zone
+is a metal or insulator: a material is metallic if the Fermi surface crosses any Brillouin zone
 Boundary.
 
 The number of electrons per atom determines the filling: 1 electron/atom (e.g., Na, Cu) gives a
 Nearly spherical Fermi surface well within the first BZ. 2 electrons/atom (e.g., Mg) nearly fills
-The first BZ and the Fermi surface contacts the zone boundary. 3--4 electrons/atom (e.g., Al, Pb)
+the first BZ and the Fermi surface contacts the zone boundary. 3--4 electrons/atom (e.g., Al, Pb)
 Produce complex multiply-connected Fermi surfaces.
 
 ### 5.3 Bloch's Theorem
@@ -32107,7 +32107,7 @@ I = \int_0^\infty h(\varepsilon)f(\varepsilon)\,d\varepsilon = \int_0^\infty \fr
 $$
 
 Since $f(0) \approx 1$ and $f(\infty) = 0$ And $-\partial f/\partial \varepsilon$ is sharply peaked
-At $\varepsilon = \mu$ with width $\sim k_B T$ We expand $H(\varepsilon)$ about $\mu$:
+at $\varepsilon = \mu$ with width $\sim k_B T$ We expand $H(\varepsilon)$ about $\mu$:
 
 $$
 I = \int_0^\mu h(\varepsilon)\,d\varepsilon + \frac{\pi^2}{6}(k_B T)^2 h'(\mu) + \cdots
@@ -32247,7 +32247,7 @@ Hohenberg, Kohn, and Sham (1964--1965).
 
 **Hohenberg--Kohn theorems.** (1) The ground-state energy of a many-electron system is a unique
 Functional of the electron density $n(\mathbf{r})$. (2) The correct ground-state density minimises
-This functional.
+this functional.
 
 **Kohn--Sham equations.** The interacting system is mapped to a fictitious system of non-interacting
 Electrons in an effective potential:
@@ -32724,7 +32724,7 @@ creation) or $\hbar\omega = -\hbar\omega_{\mathbf{q}s}$ (phonon annihilation). T
 measurement of The full phonon dispersion relation $\omega(\mathbf{q})$.
 
 Time-of-flight and triple-axis spectrometers are the primary instruments used. Neutron scattering
-Has provided definitive measurements of phonon dispersions in virtually all important crystals.
+has provided definitive measurements of phonon dispersions in virtually all important crystals.
 :::
 
 
@@ -32853,7 +32853,7 @@ $$
 
 Where $x = g_J\mu_B J B/(k_B T)$ and
 $B_J(x) = \frac{2J+1}{2J}\coth\left(\frac{2J+1}{2J}x\right) - \frac{1}{2J}\coth\left(\frac{x}{2J}\right)$
-Is the Brillouin function. For $J = 1/2$ (spin-1/2), $B_{1/2}(x) = \tanh x$.
+is the Brillouin function. For $J = 1/2$ (spin-1/2), $B_{1/2}(x) = \tanh x$.
 
 **Pauli paramagnetism.** In a metal, the conduction electrons form a degenerate Fermi gas. Only
 Electrons near $\varepsilon_F$ can flip their spins in response to a field:
@@ -32943,11 +32943,11 @@ T_N = \frac{\lvert J\rvert z S(S+1)}{3k_B}
 $$
 
 Where $z$ is the number of nearest neighbours. The susceptibility peaks at $T_N$ and decreases at
-Both higher and lower temperatures.
+both higher and lower temperatures.
 
 **Ferrimagnetism.** In ferrimagnets (e.g., Fe$_3$O$_4$), antiparallel sublattices have different
 Magnetic moments, giving a net spontaneous magnetisation. The temperature dependence of $M(T)$ is
-More complex than for simple ferromagnets.
+more complex than for simple ferromagnets.
 
 **Heisenberg model.** The exchange interaction between neighbouring spins is described by:
 
@@ -32957,7 +32957,7 @@ $$
 
 For $J \gt 0$: ferromagnetic coupling (spins parallel). For $J \lt 0$: antiferromagnetic coupling
 (spins antiparallel). The exchange integral $J$ arises from the combination of Coulomb repulsion and
-The Pauli exclusion principle (not from magnetic dipole interactions, which are far too weak).
+the Pauli exclusion principle (not from magnetic dipole interactions, which are far too weak).
 
 ### 10.7 Spin Waves (Magnons)
 
@@ -33867,11 +33867,11 @@ The shortest reciprocal lattice vector has magnitude
 $G_{\min} = 2\pi/(a\sqrt{2}) = 1.10 \times 10^{10}$ m$^{-1}$ (the (111) reflection of FCC).
 
 Since $k = 4.08 \times 10^{10}$ m$^{-1} \gt G_{\min}$The (111) point can lie on the Ewald sphere
-When the crystal is appropriately oriented. The maximum accessible $G$ is
+when the crystal is appropriately oriented. The maximum accessible $G$ is
 $G_{\max} = 2k = 8.16 \times 10^{10}$ M$^{-1}$Which allows access to many reflections.
 
 The **limiting sphere** of radius $2k$ centred at the origin contains all reciprocal lattice points
-That can potentially be accessed by rotating the crystal. Points outside this sphere can never
+that can potentially be accessed by rotating the crystal. Points outside this sphere can never
 Satisfy the diffraction condition for the given wavelength.
 
 </details>
@@ -34061,8 +34061,8 @@ This $C \propto 1/\sqrt{V_0 - V}$ dependence is used experimentally to determine
 ### 6.4 Band Diagrams
 
 In equilibrium, the Fermi level is constant across the junction. Under forward bias, the bands on
-The n-side are raised relative to the p-side, reducing the barrier. Under reverse bias, the barrier
-Is increased.
+the n-side are raised relative to the p-side, reducing the barrier. Under reverse bias, the barrier
+is increased.
 
 ### 6.5 Band Gap Engineering
 
@@ -34071,7 +34071,7 @@ The electronic and optical properties of semiconductors can be tailored by formi
 
 **Band offsets.** When two semiconductors with different band gaps are joined, the conduction band
 Minimum and valence band maximum are offset. The **type-I** (straddling) alignment has the band gap
-Of one material contained within the gap of the other (e.g., GaAs/AlGaAs). The **type-II**
+of one material contained within the gap of the other (e.g., GaAs/AlGaAs). The **type-II**
 (staggered) alignment has the conduction and valence band edges of different materials at different
 Energies (e.g., InAs/GaSb).
 
@@ -34084,11 +34084,11 @@ E_n = \frac{n^2 \pi^2 \hbar^2}{2m^* L^2}
 $$
 
 This quantisation raises the effective band gap, allowing the optical transition energy to be tuned
-By varying $L$.
+by varying $L$.
 
 **Quantum wires and dots.** Further confinement in two dimensions (quantum wire) or three dimensions
 (quantum dot) leads to additional quantisation. Quantum dots have discrete, atom-like energy levels
-And are often called "artificial atoms."
+and are often called "artificial atoms."
 
 **Strain engineering.** Lattice mismatch between a thin film and its substrate induces strain,
 Modifying the band structure. Tensile strain reduces the band gap, while compressive Strain can lift
@@ -34170,7 +34170,7 @@ mismatch, thermalisation, and radiative recombination losses.
 
 **Field-effect transistor (FET).** A voltage applied to a gate electrode modulates the conductivity
 Of a semiconductor channel. In a MOSFET (metal--oxide--semiconductor FET), the gate voltage creates
-An inversion layer at the oxide--semiconductor interface, forming a conductive channel. The
+an inversion layer at the oxide--semiconductor interface, forming a conductive channel. The
 Threshold voltage $V_T$ depends on the oxide thickness, doping, and work function difference.
 
 **HEMTs and HBTs.** High-electron-mobility transistors (HEMTs) use heterojunctions (e.g.,
@@ -34273,7 +34273,7 @@ $$
 Where $\lambda_L = \sqrt{m_e/(\mu_0 n_s e^2)}$ is the **London penetration depth**.
 
 The solution $\mathbf{B}(x) = B_0 e^{-x/\lambda_L}$ shows that magnetic fields decay exponentially
-Inside the superconductor, explaining the Meissner effect.
+inside the superconductor, explaining the Meissner effect.
 
 ### 7.3 BCS Theory
 
@@ -34737,7 +34737,7 @@ $$
 
 Where $\rho_0$ is the residual resistivity (temperature-independent, from impurities and defects)
 And $\rho_{\mathrm{ph}(T)}$ is the phonon contribution (proportional to $T$ at high $T$ and to $T^5$
-At low $T$ via the Bloch--Grüneisen formula). The **resistance ratio**
+at low $T$ via the Bloch--Grüneisen formula). The **resistance ratio**
 $RRR = \rho(300\ \mathrm{K})/\rho_0$ Is a measure of sample purity.
 
 **Bloch--Grüneisen formula.** For electron--phonon scattering in a free electron metal:
@@ -35615,7 +35615,7 @@ Experimental reach.
 ### 9.4 Quantum Gravity
 
 The reconciliation of general relativity with quantum mechanics remains the central unsolved problem
-In theoretical physics.
+in theoretical physics.
 
 **Approaches:**
 
@@ -36121,7 +36121,7 @@ budget.
 ### 7.8 Dark Energy
 
 In 1998, two teams (Riess et al., Perlmutter et al.) observed that Type Ia supernovae are fainter
-Than expected for a decelerating universe. This implies the expansion is **accelerating**:
+than expected for a decelerating universe. This implies the expansion is **accelerating**:
 $\ddot{a} \gt 0$.
 
 From the acceleration equation, this requires $\rho + 3P/c^2 \lt 0$ Which is satisfied by a Component
@@ -36273,7 +36273,7 @@ The Hubble constant $H_0$ measured from the CMB ($\sim 67.4$ km/s/Mpc, Planck 20
 $\Lambda$ CDM) disagrees with local distance-ladder measurements ($\sim 73.0$ km/s/Mpc, SH0ES).
 
 This discrepancy is now at the $\sim 5\sigma$ level and is one of the most significant open problems
-In cosmology. Possible resolutions include:
+in cosmology. Possible resolutions include:
 
 1. **Systematic errors** in one or both measurement methods.
 2. **New physics** prior to recombination (e.g., additional radiation, early dark energy).
@@ -36993,7 +36993,7 @@ Before QCD, Gell-Mann and Ne"eman organised hadrons using approximate SU(3) flav
 - **Baryon decuplet:** $\Delta^{++}, \Delta^+, \Delta^0, \Delta^-, \Sigma^*, \Xi^*, \Omega^-$.
 
 The prediction of the $\Omega^-$ (with strangeness $S = -3$) by Gell-Mann in 1962 and its discovery
-In 1964 was a triumph of the quark model.
+in 1964 was a triumph of the quark model.
 
 <details>
 <summary>Example 5.3: Eightfold way mass formula for the baryon octet</summary>
@@ -37283,7 +37283,7 @@ URL: https://physics.wyattau.com/7-particle-physics-and-cosmology/8_neutrino-phy
 ### 8.1 Neutrino Oscillations
 
 Neutrinos are produced and detected in flavour eigenstates $(\nu_e, \nu_\mu, \nu_\tau)$ But propagate
-As mass eigenstates $(\nu_1, \nu_2, \nu_3)$ related by the **PMNS mixing matrix** $U$:
+as mass eigenstates $(\nu_1, \nu_2, \nu_3)$ related by the **PMNS mixing matrix** $U$:
 
 $$
 |\nu_\alpha\rangle = \sum_i U_{\alpha i}^* |\nu_i\rangle
@@ -38217,7 +38217,7 @@ The negative sign (for $n_f \lt 33/2$) means the strong coupling **decreases** w
 
 **Interpretation.** The gluon self-interaction (the $C_A$ term) dominates over fermion screening
 (the $n_f$ term) for the physically relevant number of flavours. Gluons carry colour charge and
-Therefore antiscreen, leading to the coupling decreasing at short distances.
+therefore antiscreen, leading to the coupling decreasing at short distances.
 
 ### 6.3 Grand Unification and the Unification Scale
 
@@ -38679,7 +38679,7 @@ e = g\sin\theta_W = g'\cos\theta_W
 $$
 
 This relationship is a direct prediction of the unified theory and has been verified experimentally
-To high precision at LEP and SLC.
+to high precision at LEP and SLC.
 
 ### 1.4 Quarks and Leptons
 

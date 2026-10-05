@@ -23,9 +23,9 @@ categories:
 
 Building command-line interfaces in Python is not a "pick one and go" decision. The standard library
 Gives you `sys.argv` (bare metal) and `argparse` (batteries-included), while third-party libraries
-Like `click` and `typer` offer increasingly ergonomic abstractions. Each layer trades control for
+like `click` and `typer` offer increasingly ergonomic abstractions. Each layer trades control for
 Convenience. Understanding what happens beneath the abstractions,how arguments are parsed, how types
-Are coerced, how errors are surfaced,matters when your tool runs in production, in CI pipelines, on
+are coerced, how errors are surfaced,matters when your tool runs in production, in CI pipelines, on
 Windows terminals with broken encodings, or under `set -e` where non-zero exits kill the entire
 Script.
 
@@ -37,7 +37,7 @@ But _why_ the mechanism exists and where it breaks.
 
 `sys.argv` is a list of strings passed to the Python interpreter. It is the lowest-level argument
 Interface available,no parsing, no validation, no help text. You get exactly what the shell gave
-You, split on whitespace according to the shell"s own rules.
+you, split on whitespace according to the shell"s own rules.
 
 ```python
 import sys
@@ -78,7 +78,7 @@ Use repeatedly, use a real parser.
 ## argparse
 
 `argparse` is the standard library's argument parsing module. It is comprehensive, well-tested, and
-Has zero dependencies. It handles positional arguments, optional flags, type coercion, defaults,
+has zero dependencies. It handles positional arguments, optional flags, type coercion, defaults,
 Mutually exclusive groups, subcommands, and help formatting. The API is verbose but explicit,every
 Behavior is opt-in.
 
@@ -120,7 +120,7 @@ parser.add_argument("output", help="Path to the output file")
 ```
 
 Positional arguments are required by default. The order matters,they are bound to their position in
-The command line, not their name.
+the command line, not their name.
 
 ### Optional Arguments
 
@@ -204,7 +204,7 @@ group.add_argument("--update", action="store_true", help="Update the resource")
 ```
 
 Exactly one of `--create``--delete`Or `--update` must be provided. If none or more than one is
-Given, argparse exits with an error message.
+given, argparse exits with an error message.
 
 ### Subparsers
 
@@ -241,7 +241,7 @@ Consistent.
 
 `click` is a third-party library (`pip install click`) that replaces argparse's imperative API with
 A declarative decorator-based one. The core idea: a CLI command is a function, arguments and options
-Are decorators on that function's parameters.
+are decorators on that function's parameters.
 
 ### Basic Command
 
@@ -356,7 +356,7 @@ with click.progressbar(range(100), label="Processing") as bar:
 
 Click's progress bar writes directly to stderr by default, so it does not interfere with piped
 Stdout. It handles terminal width detection and falls back to a simple linear output when stdout is
-Not a TTY (e.g., in CI).
+not a TTY (e.g., in CI).
 
 ### Colors
 
@@ -610,11 +610,11 @@ mytool-gui = "mypackage.gui:main"
 
 `gui-scripts` is identical to `scripts` except on Windows, where `console_scripts` generates `.exe`
 Wrappers that open a console window and `gui-scripts` generates `.exe` wrappers that do not. On
-Non-Windows platforms, there is no difference.
+non-Windows platforms, there is no difference.
 
 **Entry points vs `__main__.py`:** Use both. `__main__.py` supports `python -m mypackage` for
 Development and debugging. `[project.scripts]` supports `mytool` for installed usage. They can (and
-Should) call the same `main()` function.
+should) call the same `main()` function.
 
 ## Configuration Files
 
@@ -668,7 +668,7 @@ logs = %(base)s/logs
 ```
 
 Limitations: no nested sections, no native list/dict types (everything is a string), no comments on
-The same line as a value in the default format.
+the same line as a value in the default format.
 
 ### tomllib (Python 3.11+)
 
@@ -864,7 +864,7 @@ console.print(tree)
 
 Use `click.echo()` for simple status messages, prompts, and output that should remain
 Plain-text-compatible (piped to files, processed by other tools). Use `rich` for display output
-Where formatting enhances readability (tables, progress, structured data). They coexist well,rich
+where formatting enhances readability (tables, progress, structured data). They coexist well,rich
 Writes to stderr for progress, click.echo writes to stdout for data output.
 
 ## Common Patterns
@@ -904,8 +904,8 @@ def deploy(env, dry_run):
 ```
 
 Dry-run is critical for infrastructure tools. The principle: the tool should print exactly what it
-Would do, using the same code path as the real operation, but skip the side effects. If your dry-run
-And real execution follow different code paths, the dry-run output is a lie.
+would do, using the same code path as the real operation, but skip the side effects. If your dry-run
+and real execution follow different code paths, the dry-run output is a lie.
 
 ### Output Format Selection
 
@@ -1034,7 +1034,7 @@ Propagates through `finally` blocks, so cleanup code will still run.
 
 Windows uses a different default encoding than Unix. `sys.stdout.encoding` may be `cp1252` on
 Windows, which cannot represent all Unicode characters. When your tool outputs UTF-8 text (JSON with
-Non-ASCII, user names with accents, etc.), this causes `UnicodeEncodeError`.
+non-ASCII, user names with accents, etc.), this causes `UnicodeEncodeError`.
 
 ```python
 import sys
@@ -1066,7 +1066,7 @@ mytool --input "my file.txt"
 
 This is not a Python bug. It is a shell behavior. However, your tool should produce a clear error
 Message in this case, not a confusing traceback. Argparse does this reasonably well; click and typer
-Do too. Test your tool with paths containing spaces to verify.
+do too. Test your tool with paths containing spaces to verify.
 
 ### Boolean Flags: store_true vs flag_value
 
@@ -1079,7 +1079,7 @@ parser.add_argument("--verbose", action="store_false")  # CONFLICT: same dest, d
 ```
 
 This does not work as expected. Both flags write to `args.verbose`But one sets it `True` and the
-Other `False`. The last one to appear on the command line wins, which is confusing.
+other `False`. The last one to appear on the command line wins, which is confusing.
 
 The fix in argparse 3.9+:
 
@@ -1105,7 +1105,7 @@ verbose: bool = False
 ### Argument Parsing in Subcommands
 
 A common mistake is defining a global option on the parent parser and expecting it to be available
-In subcommands without explicit propagation. In argparse, parent arguments are available in
+in subcommands without explicit propagation. In argparse, parent arguments are available in
 Subcommands only if you use `parents=[parent_parser]` or parse the entire argv once. In click and
 Typer, options defined on the group function are available to all subcommands via
 `click.pass_context`.

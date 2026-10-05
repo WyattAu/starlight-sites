@@ -27,7 +27,7 @@ Flow, and mutation.
 
 Evolution operates on populations, not individuals. An individual organism does not evolve during
 Its lifetime; rather, the genetic composition of the population shifts across generations. The unit
-Of evolution is the population; the unit of selection is the individual (or, the Gene).
+of evolution is the population; the unit of selection is the individual (or, the Gene).
 
 ### Evidence for Evolution
 
@@ -82,7 +82,7 @@ Darwin's theory rests on five key observations and inferences:
 
 **Definition.** Natural selection is the process by which organisms with traits that enhance
 Survival and reproduction in a given environment tend to leave more offspring than those without
-Such traits, causing the favourable traits to increase in frequency over time.
+such traits, causing the favourable traits to increase in frequency over time.
 
 ### Conditions for Natural Selection
 
@@ -127,7 +127,7 @@ Disease. Homozygous HbA/HbA individuals are normal. Heterozygous HbA/HbS individ
 Cell trait with mild or no symptoms and are resistant to malaria. In regions where malaria is
 Endemic, the heterozygote has a selective advantage -- this is **heterozygote advantage** (balanced
 Polymorphism). The allele is maintained in the population at higher frequency than would be expected
-If it were purely deleterious.
+if it were purely deleterious.
 
 :::caution
 Survive. Resistance arises from random pre-existing mutations; the antibiotic selects for Resistant
@@ -240,7 +240,7 @@ Chance events, having a more pronounced effect in small populations.
 A small group of individuals breaks off from a larger population to establish a new colony. The new
 Population may have allele frequencies very different from the original. The Amish population in
 Pennsylvania has a high incidence of Ellis-van Creveld syndrome (a form of dwarfism) because several
-Of the original founders carried the recessive allele.
+of the original founders carried the recessive allele.
 
 **Bottleneck effect:**
 
@@ -339,7 +339,7 @@ Examples:
 ### Molecular Clocks
 
 The molecular clock hypothesis states that mutations accumulate in DNA at a roughly constant rate
-Over time. By comparing the number of sequence differences between two species in a neutral gene
+over time. By comparing the number of sequence differences between two species in a neutral gene
 (one not subject to natural selection), researchers can estimate the time since the two species
 Diverged from a common ancestor.
 
@@ -429,7 +429,7 @@ Closely related to humans than to chimpanzees.
 ### Out of Africa Theory
 
 The "Recent African Origin" (Out of Africa) model proposes that modern humans (Homo sapiens) evolved
-In Africa approximately 300,000 years ago and subsequently migrated to other parts of the world,
+in Africa approximately 300,000 years ago and subsequently migrated to other parts of the world,
 Replacing existing hominin populations (such as Neanderthals in Europe).
 
 Key evidence:
@@ -449,11 +449,11 @@ Mitochondrial DNA (mtDNA) is inherited exclusively through the maternal line (no
 Comparing mtDNA sequences from diverse human populations, researchers estimated that the most recent
 Common maternal ancestor of all living humans lived approximately 150,000-200,000 years ago in
 Africa. This individual is called "Mitochondrial Eve" -- not the only woman alive at the time, but
-The only one whose matrilineal line has survived unbroken to the present day.
+the only one whose matrilineal line has survived unbroken to the present day.
 
 :::note
 Female alive. Many other women lived at the same time, but their matrilineal lines happened to die
-Out at some point. The Y-chromosomal Adam (the most recent common paternal ancestor) lived
+out at some point. The Y-chromosomal Adam (the most recent common paternal ancestor) lived
 Approximately 200,000-300,000 years ago, and the two individuals were not contemporaries.
 :::
 
@@ -499,7 +499,7 @@ Ecology studies interactions at multiple hierarchical levels:
 
 **Definition.** A niche is the role and position a species has in its environment, including all
 Interactions with biotic and abiotic factors. It encompasses how a species meets its needs for food
-And shelter, how it survives, and how it reproduces.
+and shelter, how it survives, and how it reproduces.
 
 - **Fundamental niche:** The full range of environmental conditions and resources a species can
   theoretically use in the absence of competitors or other limiting factors.
@@ -557,13 +557,13 @@ $$
 Where $K$ = carrying capacity.
 
 Characteristics: initial exponential growth, deceleration as $N$ approaches $K$ Stabilisation at or
-Near $K$.
+near $K$.
 
 ### Carrying Capacity
 
 **Definition.** Carrying capacity ($K$) is the maximum population size that an environment can
 Sustain indefinitely, given the available resources (food, water, shelter, etc.), without degrading
-The environment.
+the environment.
 
 Carrying capacity is not fixed -- it can change due to:
 
@@ -753,7 +753,7 @@ Energy enters ecosystems through photosynthesis and flows through trophic levels
 ### The 10% Rule
 
 Approximately 10% of the energy at one trophic level is transferred to the next. The remaining 90%
-Is lost through:
+is lost through:
 
 - Respiration (converted to heat)
 - Excretion (waste products)

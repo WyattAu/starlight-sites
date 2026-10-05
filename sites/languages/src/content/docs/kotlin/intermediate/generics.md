@@ -93,7 +93,7 @@ val dogConsumer: Consumer<Dog> = animalConsumer  // OK
 ```
 
 The compiler enforces that `T` only appears in **in-positions** (parameter types). It cannot appear
-As a return type.
+as a return type.
 
 ### Variance Mnemonic
 
@@ -105,7 +105,7 @@ Consumer<in T>   -- consumes T, contravariant
 ### Declaration-Site vs Use-Site Variance
 
 Kotlin prefers declaration-site variance (Java only has use-site). Declaration-site variance means
-The class author decides the variance once, and all call sites benefit.
+the class author decides the variance once, and all call sites benefit.
 
 ```kotlin
 // Declaration-site (Kotlin style)
@@ -266,7 +266,7 @@ val <K, V> Map<K, V>.keysAsStrings: String
 ## Type Erasure and Runtime
 
 Generic type parameters are erased at runtime. Two instances of `List<String>` and `List<Int>` are
-Both `List` at runtime.
+both `List` at runtime.
 
 ```kotlin
 val stringList = listOf("a", "b")
@@ -276,7 +276,7 @@ println(stringList::class == intList::class)  // true -- both are ArrayList
 ```
 
 Reified types and inline functions are the primary mechanism for accessing generic type information
-At runtime in Kotlin.
+at runtime in Kotlin.
 
 ## Common Pitfalls
 

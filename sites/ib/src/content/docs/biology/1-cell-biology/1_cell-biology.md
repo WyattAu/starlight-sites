@@ -470,7 +470,7 @@ Cell.
 
 Water moves from higher water potential ($-400\;\mathrm{kPa}$) to lower water potential
 ($-700\;\mathrm{kPa}$). The net movement of water is into the cell by osmosis. The cell will swell
-As water enters, and if the volume increase is sufficient, the cell may undergo lysis (burst), since
+as water enters, and if the volume increase is sufficient, the cell may undergo lysis (burst), since
 Animal cells lack a rigid cell wall.
 
 </details>
@@ -479,7 +479,7 @@ Animal cells lack a rigid cell wall.
 <summary>Question 4: Meiosis and Genetic Variation</summary>
 
 A diploid organism has $2n = 8$ chromosomes. How many genetically distinct gametes can be produced
-From independent assortment alone? If a single pair of homologous chromosomes undergoes a single
+from independent assortment alone? If a single pair of homologous chromosomes undergoes a single
 Crossover, how many chromatids are affected?
 
 </details>
@@ -508,7 +508,7 @@ Support its function.
 <summary>Answer</summary>
 
 The organelle is a **mitochondrion**. The **inner folds (cristae)** increase the surface area for
-The electron transport chain and ATP synthase, maximising ATP production. The **presence of its own
+the electron transport chain and ATP synthase, maximising ATP production. The **presence of its own
 DNA** supports the endosymbiotic theory and allows the mitochondrion to produce some of its own
 Proteins independently of nuclear genes.
 
@@ -531,7 +531,7 @@ Proteins independently of nuclear genes.
 
 A cuboidal epithelial cell has a side length of $10\;\mathrm{\mu m}$. It doubles in each linear
 Dimension to become $20\;\mathrm{\mu m}$ per side. Calculate the surface-area-to-volume ratio before
-And after the enlargement, and determine the factor by which the ratio decreases.
+and after the enlargement, and determine the factor by which the ratio decreases.
 
 <details>
 <summary>Solution</summary>
@@ -594,11 +594,11 @@ $5\;\mathrm{mmol/L}$ out):
 $\frac{[\mathrm{K}^+]_{\mathrm{in}}}{[\mathrm{K}^+]_{\mathrm{out}}} = \frac{150}{5} = 30$
 
 The pump is **electrogenic** because it moves $3$ positive charges out but only $2$ positive charges
-In per cycle, resulting in a net export of one positive charge per ATP hydrolysed. This net outward
+in per cycle, resulting in a net export of one positive charge per ATP hydrolysed. This net outward
 Current contributes directly to the negative resting membrane potential (approximately
 $-70\;\mathrm{mV}$), alongside the $\mathrm{K}^+$ diffusion potential established by leak channels.
 If the pump moved equal numbers of cations in each direction, it would not directly contribute to
-The membrane potential.
+the membrane potential.
 
 </details>
 
@@ -704,7 +704,7 @@ $35^\circ\mathrm{C}$.
 Mitochondria possess their own circular DNA, $70\mathrm{S}$ ribosomes, a double membrane, and the
 Ability to replicate independently by binary fission. Evaluate the extent to which these features
 Support the endosymbiotic theory. In your response, address at least two alternative explanations
-And discuss additional evidence (e.g., molecular phylogenetics) that strengthens the argument.
+and discuss additional evidence (e.g., molecular phylogenetics) that strengthens the argument.
 
 </details>
 
@@ -723,8 +723,8 @@ A researcher observes $200$ cells under a microscope and records their mitotic p
 
 The expected values assume each mitotic phase occupies equal time. Use the chi-squared test
 ($\chi^2 = \sum \frac{(O - E)^2}{E}$) at the $p = 0.05$ significance level (critical value $= 9.49$
-For $4$ degrees of freedom) to determine whether the observed distribution differs significantly
-From the expected. State your null hypothesis.
+for $4$ degrees of freedom) to determine whether the observed distribution differs significantly
+from the expected. State your null hypothesis.
 
 </details>
 
@@ -745,7 +745,7 @@ Archaeon rather than a bacterium.
 
 Cholesterol modulates cell membrane fluidity. Describe and explain the dual role of cholesterol in
 Membrane fluidity at both low and high temperatures. Discuss how this relates to the observation
-That cold-water fish species have a higher proportion of unsaturated fatty acids in their membrane
+that cold-water fish species have a higher proportion of unsaturated fatty acids in their membrane
 Phospholipids compared with warm-water species.
 
 </details>
@@ -777,7 +777,7 @@ Reduces total surface area to $35\;\mathrm{m}^2$ Would affect this rate.
 
 Choose three specialised cells from different organ systems (e.g., small intestine epithelium,
 Alveolar epithelium, proximal convoluted tubule). For each cell, describe one structural adaptation
-That increases surface area, and explain how this adaptation relates to the cell's physiological
+that increases surface area, and explain how this adaptation relates to the cell's physiological
 Function. Use the concept of surface-area-to-volume ratio in your explanation.
 
 </details>
@@ -841,7 +841,7 @@ Function. Use the concept of surface-area-to-volume ratio in your explanation.
 ### Induced Pluripotent Stem Cells (iPSCs)
 
 IPSCs are adult somatic cells that have been reprogrammed to a pluripotent state by the introduction
-Of **transcription factors** (originally Oct4, Sox2, Klf4, c-Myc --- Yamanaka factors, 2006).
+of **transcription factors** (originally Oct4, Sox2, Klf4, c-Myc --- Yamanaka factors, 2006).
 
 **Advantages over embryonic stem cells**: no ethical concerns about embryo destruction;
 patient-specific (matching the donor's genetics, reducing rejection risk).
@@ -889,7 +889,7 @@ Is associated with some cancers (cells fail to undergo apoptosis).
 ### Cancer and the Cell Cycle
 
 Cancer is a disease of uncontrolled cell division resulting from mutations in genes that regulate
-The cell cycle.
+the cell cycle.
 
 | Gene type                   | Normal function                                              | Mutated in cancer (oncogene / tumour suppressor)                                                                       |
 | --------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
@@ -1117,7 +1117,7 @@ mutations.
 <summary>Problem 12: Quantitative -- Surface Area and Diffusion</summary>
 
 A spherical human egg cell has a diameter of $120\;\mathrm{\mu m}$. (a) Calculate its surface area
-And volume. (b) After fertilisation, the zygote undergoes 6 rounds of cleavage (mitosis without
+and volume. (b) After fertilisation, the zygote undergoes 6 rounds of cleavage (mitosis without
 Growth) to form a morula of $64$ cells. Assuming the morula is roughly spherical with the same Total
 volume as the original zygote, calculate the surface-area-to-volume ratio of each cell in The morula
 (assuming equal cell sizes). (c) Explain the biological significance of the change in SA:V ratio
@@ -1470,7 +1470,7 @@ plated. Concentration $= \frac{72}{0.1\;\mathrm{mL}} \times 10^6 = 7.2 \times 10
 (d) The OD600 counts all cells (both viable and dead) because it measures light scattering by all
 Particles in suspension. The plate count only measures viable (living) cells that can form colonies.
 The $25\%$ difference represents dead or non-viable cells in the culture, which may have been killed
-By nutrient depletion, toxin accumulation, or being in a dormant (non-culturable) state.
+by nutrient depletion, toxin accumulation, or being in a dormant (non-culturable) state.
 
 </details>
 

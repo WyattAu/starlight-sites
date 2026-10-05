@@ -238,7 +238,7 @@ $$
 
 A tree diagram represents a sequence of events. Each branch represents a possible outcome with its
 Probability. The probability of any path through the tree is the product of the probabilities along
-That path.
+that path.
 
 ### 4.2 Rules
 

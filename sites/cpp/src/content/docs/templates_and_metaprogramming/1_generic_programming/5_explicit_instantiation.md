@@ -100,7 +100,7 @@ extern template < template-argument-list > declaration
 ```
 
 This tells the compiler: "An instantiation of this template with these arguments exists in some
-Other translation unit. Do **not** implicitly instantiate it here." The effect is that the
+other translation unit. Do **not** implicitly instantiate it here." The effect is that the
 Translation unit emits an **external reference** (a symbol that the linker must resolve) rather than
 Generating the instantiation"s object code.
 
@@ -214,7 +214,7 @@ Deduction and standard library internals:
 | **Total per TU**                                         | **~28 ms**                           | **~3 ms**                     | **~28 ms**                             |
 
 For a project with $N = 500$ translation units, the total wall-clock time for this template alone
-Is:
+is:
 
 - **Without `extern template`:** $500 \times 28\mathrm{ms = 14\,000\mathrm{ms = 14\mathrm{s$
 - **With `extern template`:**
@@ -318,7 +318,7 @@ In a project with 200 translation units, the compilation cost for `DataProcessor
 ## Interaction with the One Definition Rule (ODR)
 
 The One Definition Rule [N4950 §6.3] is central to understanding why explicit instantiation works
-And where it can go wrong.
+and where it can go wrong.
 
 **ODR compliance with explicit instantiation definition.** An explicit instantiation definition
 Generates a single, well-defined set of entities for the given template arguments. Because the
@@ -405,7 +405,7 @@ template int& Vector<int>::operator;
 ```
 
 This selective approach is useful when a class has many member functions but only a few are used
-With a particular type. However, selective instantiation is fragile --- adding a call to a new
+with a particular type. However, selective instantiation is fragile --- adding a call to a new
 Member function without adding its explicit instantiation causes a linker error.
 
 ### Explicit Instantiation of Member Templates
@@ -477,7 +477,7 @@ extern template struct fmt::formatter<std::string>;
 ```
 
 Then include `fmt_inst.h` instead of `fmt/format.h` in your `.cpp` files. The template definitions
-Are still visible (through the include), but the `extern template` declarations suppress redundant
+are still visible (through the include), but the `extern template` declarations suppress redundant
 Instantiation.
 
 :::caution
@@ -490,7 +490,7 @@ Always add both the Declaration and the definition in the same commit.
 ### Pattern 1: The Facade Header
 
 For a template-heavy library, provide a facade header that includes the full template definition but
-Also declares common explicit instantiations. The library ships both the facade header and a
+also declares common explicit instantiations. The library ships both the facade header and a
 Pre-compiled object file:
 
 ```cpp
@@ -555,8 +555,8 @@ Cost once, in the single translation unit that uses the rare type.
 ### Pattern 3: Test Isolation with Explicit Instantiation
 
 In test code, you can use explicit instantiation to force the compiler to generate code for types
-That might not be exercised by the production code paths. This catches template instantiation errors
-At compile time rather than at the call site:
+that might not be exercised by the production code paths. This catches template instantiation errors
+at compile time rather than at the call site:
 
 ```cpp
 // ---- test_instantiations.cpp ----
@@ -665,7 +665,7 @@ Explicit instantiation is telling the compiler "generate this template now, in t
 **Forgetting `extern template` in the header.** If you provide the explicit instantiation definition
 In a `.cpp` file but do not suppress implicit instantiation in the header, every translation unit
 Still performs the full instantiation. The explicit definition becomes dead code that the linker
-Must discard --- you get zero benefit and potentially slower link times.
+must discard --- you get zero benefit and potentially slower link times.
 
 **Mismatched template arguments.** The arguments in the `extern template` declaration must exactly
 Match those in the explicit instantiation definition. A common mistake is declaring
@@ -676,7 +676,7 @@ Symbol for the other.
 **`extern template` and `inline` functions.** Member functions defined inside the class body are
 Implicitly `inline`. `extern template` does not suppress implicit instantiation of `inline`
 Functions [N4950 §13.9.3]. Only out-of-line member function definitions are suppressed. This means
-That if all your member functions are defined inside the class, `extern template` provides no
+that if all your member functions are defined inside the class, `extern template` provides no
 Compile-time benefit.
 
 **Changing template arguments after adding `extern template`.** If you add a new type to your
@@ -691,7 +691,7 @@ Linker errors. Keep the `extern` declarations and explicit definitions in sync.
 
 **Multiple explicit instantiation definitions across translation units.** If two `.cpp` files both
 Contain `template class Foo<int>;`The program has undefined behavior [N4950 §13.9.2/2]. The linker
-May merge them silently, emit a multiple-definition error, or produce incorrect code. There must be
+may merge them silently, emit a multiple-definition error, or produce incorrect code. There must be
 Exactly one explicit instantiation definition per instantiation.
 
 **Explicit instantiation definition with incomplete type.** If the template argument is an
@@ -703,7 +703,7 @@ Function templates, the full definition of the function must be visible.
 Subject to an `extern template` declaration can still be invoked in a constant expression context.
 In such cases, the compiler performs the instantiation internally for constant evaluation purposes,
 But does not emit the generated code as an external symbol. This is an exception to the general rule
-And does not cause linker errors.
+and does not cause linker errors.
 
 ## Explicit Specialization vs. Explicit Instantiation
 
@@ -749,13 +749,13 @@ behavior change with explicit instantiation alone.
 
 When a template is defined in a C++20 module and exported, the `extern template` mechanism is
 Largely superseded by the module system. The module interface unit (`.cppm`) serves a similar role
-To a header with `extern template` declarations: downstream importers see the template definition
-But do not re-instantiate unless they use a new type.
+to a header with `extern template` declarations: downstream importers see the template definition
+but do not re-instantiate unless they use a new type.
 
 However, `extern template` remains useful within **non-module code** and in the transition period
-Where a codebase mixes modules and traditional headers. If a module exports a template, importers
-That use a common type benefit from the module system's built-in deduplication --- the BMI ensures
-The template is instantiated once and shared across all importers.
+where a codebase mixes modules and traditional headers. If a module exports a template, importers
+that use a common type benefit from the module system's built-in deduplication --- the BMI ensures
+the template is instantiated once and shared across all importers.
 
 For header-only libraries consumed via the Global Module Fragment, you can still use
 `extern template` inside the module to suppress redundant instantiation:

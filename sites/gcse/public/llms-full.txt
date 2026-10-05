@@ -3248,7 +3248,7 @@ URL: https://gcse.wyattau.com/intro/
 
 These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE
 Syllabus. Every definition is precise, every result is derived (or its derivation is sketched with
-Enough detail for you to complete it), and every formula is justified from first principles.
+enough detail for you to complete it), and every formula is justified from first principles.
 
 The goal is not just exam preparation -- it is to build the deep mathematical, scientific, literary,
 And logical intuition that makes exam questions feel like applications of things you truly
@@ -6688,19 +6688,19 @@ URL: https://gcse.wyattau.com/biology/4-bioenergetics/4_bioenergetics/
 ### 1.1 The Equation
 
 Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water
-Into glucose and oxygen.
+into glucose and oxygen.
 
 $$
 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \xrightarrow{\mathrm{light energy} \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2
 $$
 
 Photosynthesis is an **endothermic** reaction -- it absorbs energy from the environment (in the form
-Of light). This energy is stored in the chemical bonds of glucose, which can later be released
-Through respiration.
+of light). This energy is stored in the chemical bonds of glucose, which can later be released
+through respiration.
 
 **Why this reaction matters.** Photosynthesis is the primary source of energy for nearly all life on
 Earth. It produces the oxygen in the atmosphere (essential for aerobic respiration) and fixes carbon
-From $\mathrm{CO_2$ into organic molecules that form the base of all food chains. Without
+from $\mathrm{CO_2$ into organic molecules that form the base of all food chains. Without
 Photosynthesis, there would be no food, no oxygen, and no complex life.
 
 **Balancing the equation.** To check that the equation is balanced, count the atoms on each side:
@@ -6735,7 +6735,7 @@ Plants appear green).
 **Stomata and gas exchange.** Stomata are pores on the underside of the leaf, surrounded by guard
 Cells that can open and close them. When guard cells are turgid (full of water), the stomata are
 Open, allowing $\mathrm{CO_2$ to enter for photosynthesis. When guard cells are flaccid (water has
-Been lost), the stomata close, reducing water loss. This is a trade-off: open stomata allow
+been lost), the stomata close, reducing water loss. This is a trade-off: open stomata allow
 Photosynthesis but also allow water to evaporate (transpiration).
 
 ### 1.3 Factors Affecting the Rate of Photosynthesis
@@ -6752,7 +6752,7 @@ Any given time, only ONE factor is limiting. This is known as the **law of limit
 
 **Understanding the graphs.** A graph of photosynthesis rate against any single factor shows the
 Same characteristic shape: the rate increases linearly at first (because the factor being increased
-Is the limiting factor), then levels off (because a different factor has become limiting). This
+is the limiting factor), then levels off (because a different factor has become limiting). This
 Plateau tells you that increasing the original factor further will have no effect until the new
 Limiting factor is also increased.
 
@@ -6814,14 +6814,14 @@ Step-by-step interpretation:
 **Worked Example: Calculating light intensity.**
 
 Light intensity follows an inverse square law: intensity $\propto 1/d^2$ Where $d$ is the distance
-From the lamp.
+from the lamp.
 
 If the lamp is 10 cm from the pondweed and produces 100 bubbles per minute, what rate would you
 Expect at 20 cm?
 
 At 20 cm, the distance is doubled, so the light intensity decreases by a factor of $2^2 = 4$. The
 Rate should decrease by a factor of 4: $100 / 4 = 25$ bubbles per minute (assuming light is still
-The limiting factor).
+the limiting factor).
 
 ### 1.5 Uses of Glucose from Photosynthesis
 
@@ -6847,7 +6847,7 @@ A farmer notices that a crop of wheat has pale leaves and stunted growth. The so
 Nitrate ions.
 
 Without nitrate ions, the plant cannot make amino acids (amino acids contain nitrogen, which comes
-From nitrates). Without amino acids, the plant cannot make proteins. Proteins are needed for growth
+from nitrates). Without amino acids, the plant cannot make proteins. Proteins are needed for growth
 (new cells require proteins for their structure and enzymes), so the plant cannot grow properly. The
 Pale leaves are because the plant cannot make enough chlorophyll (chlorophyll contains nitrogen in
 Its structure), reducing the rate of photosynthesis.
@@ -6864,7 +6864,7 @@ Commercial greenhouse operators manipulate limiting factors to maximise crop yie
 
 **The economic argument.** The cost of providing additional light, $\mathrm{CO_2$ And heat must be
 Weighed against the value of the increased crop yield. There is a point of diminishing returns where
-The cost of increasing a factor exceeds the value of the additional growth.
+the cost of increasing a factor exceeds the value of the additional growth.
 
 **Worked Example: Evaluating greenhouse management decisions.**
 
@@ -6902,7 +6902,7 @@ Photosynthesis occurs in two stages:
 
 The two stages are linked: the light-dependent reactions produce the ATP and NADPH that the Calvin
 Cycle needs. Without light, the light-dependent reactions stop, and the Calvin cycle gradually runs
-Out of ATP and NADPH.
+out of ATP and NADPH.
 
 **Summary table: comparing the two stages of photosynthesis.**
 
@@ -6959,7 +6959,7 @@ Activity and contributes to the feeling of muscle fatigue.
 **Oxygen debt:** After exercise, extra oxygen is needed to break down the lactic acid. This is why
 You continue to breathe heavily after exercise -- your body is taking in extra oxygen to repay the
 Oxygen debt. The lactic acid is transported to the liver, where it is converted back to pyruvate and
-Then either oxidised further (via the Krebs cycle) or converted back to glucose (via
+then either oxidised further (via the Krebs cycle) or converted back to glucose (via
 Gluconeogenesis).
 
 $$
@@ -7015,7 +7015,7 @@ At room temperature and pressure, 1 mole of gas occupies approximately 24 litres
 Volume of $\mathrm{O_2$ needed: $0.004 \times 24000 = 96$ mL of extra oxygen.
 
 This is why the student continues to breathe heavily for several minutes after the race -- they need
-To take in this extra oxygen to fully oxidise the accumulated lactic acid.
+to take in this extra oxygen to fully oxidise the accumulated lactic acid.
 
 ### 2.4 Metabolism
 
@@ -7063,7 +7063,7 @@ To take in this extra oxygen to fully oxidise the accumulated lactic acid.
 
 **Why soda lime is essential.** Respiration produces $\mathrm{CO_2$ as well as consuming
 $\mathrm{O_2$. If the $\mathrm{CO_2$ were not absorbed, the volume change would be the difference
-Between $\mathrm{O_2$ consumed and $\mathrm{CO_2$ produced, not the true rate of oxygen consumption.
+between $\mathrm{O_2$ consumed and $\mathrm{CO_2$ produced, not the true rate of oxygen consumption.
 Since soda lime absorbs $\mathrm{CO_2$ The measured volume change reflects only $\mathrm{O_2$
 Consumption.
 
@@ -7302,7 +7302,7 @@ Hairs, for healthy growth:
 
 **Why mineral deficiencies affect photosynthesis.** Both nitrates and magnesium are needed for
 Chlorophyll production. Without chlorophyll, leaves cannot absorb light energy, and photosynthesis
-Cannot occur. Without nitrates, the plant cannot make proteins, so new cells cannot be built and
+cannot occur. Without nitrates, the plant cannot make proteins, so new cells cannot be built and
 Growth stops. Without phosphate, the plant cannot make ATP (the energy currency of the cell) or DNA,
 So cell division cannot occur.
 
@@ -7314,7 +7314,7 @@ The older leaves are affected first.
 **Diagnosis:** This is a classic symptom of **magnesium deficiency**. Magnesium is a central
 Component of the chlorophyll molecule. Without magnesium, the plant cannot synthesise chlorophyll,
 So the leaves lose their green colour (chlorosis). The yellowing appears between the veins because
-The veins still contain some chlorophyll. Older leaves are affected first because the plant
+the veins still contain some chlorophyll. Older leaves are affected first because the plant
 Redistributes its limited magnesium supply to younger, growing leaves.
 
 ## 9. Higher Tier: Respirometer Calculations in Context
@@ -7324,7 +7324,7 @@ Redistributes its limited magnesium supply to younger, growing leaves.
 A student sets up two respirometers. Respirometer A contains 5 g of germinating peas at
 20$\degree$C. Respirometer B contains 5 g of germinating peas at 10$\degree$C. After 10 minutes, the
 Liquid in A moves 15 mm and the liquid in B moves 8 mm. The capillary tube has an internal diameter
-Of 0.8 mm.
+of 0.8 mm.
 
 Calculate the rate of oxygen consumption per gram per minute for each respirometer.
 
@@ -7410,7 +7410,7 @@ $\mathrm{CO_2$ The rate is 10 bubbles/min. At 4% $\mathrm{CO_2$ The rate is 10 b
 
 Between 1% and 2%, the rate increases from 5 to 9 bubbles/min (an increase of 4). Between 2% and 3%,
 The rate increases from 9 to 10 (an increase of only 1). Between 3% and 4%, there is no increase at
-All. This shows that above 3% $\mathrm{CO_2$, $\mathrm{CO_2$ is no longer the limiting factor.
+all. This shows that above 3% $\mathrm{CO_2$, $\mathrm{CO_2$ is no longer the limiting factor.
 Another Factor (light intensity or temperature) is now limiting, and increasing $\mathrm{CO_2$
 further has no Effect.
 
@@ -7418,7 +7418,7 @@ further has no Effect.
 
 Understanding anaerobic respiration is important for sports science. During intense exercise, the
 Body's demand for energy exceeds what aerobic respiration can supply, even with increased heart rate
-And breathing rate. The muscles switch to anaerobic respiration to produce additional ATP.
+and breathing rate. The muscles switch to anaerobic respiration to produce additional ATP.
 
 **The lactate threshold:** The exercise intensity at which lactate begins to accumulate in the blood
 Faster than it can be removed. Above this threshold, the athlete is relying increasingly on
@@ -7426,7 +7426,7 @@ Anaerobic respiration.
 
 **Training effects:** Endurance training increases the lactate threshold by improving the body's
 Ability to deliver oxygen to muscles (increased capillary density, increased myoglobin content) and
-By increasing the number and size of mitochondria in muscle cells. This allows trained athletes to
+by increasing the number and size of mitochondria in muscle cells. This allows trained athletes to
 Sustain higher exercise intensities before reaching their lactate threshold.
 
 **Recovery:** After intense exercise, the accumulated lactate is transported to the liver, where it
@@ -7628,7 +7628,7 @@ Cell biology is the study of **the fundamental unit of life**. The key insight i
 
 All living organisms are made of cells. This is the first principle of cell theory, proposed by
 Schleiden and Schwann in the 1830s and extended by Virchow in 1855. Animal and plant cells share
-Many structures but have key differences. Understanding these differences is fundamental: they
+many structures but have key differences. Understanding these differences is fundamental: they
 Explain why plants can stand upright without a skeleton, why only plant cells can photosynthesise,
 And why plant cells have a fixed, rectangular shape while animal cells are flexible and irregular.
 
@@ -7653,8 +7653,8 @@ Permeability is essential for maintaining the internal conditions of the cell (h
 Instructions for making every protein the cell needs. DNA is organised into structures called
 Chromosomes, which become visible as distinct threads during cell division. When a cell needs to
 Make a particular protein, the relevant section of DNA (the gene) is "read" and a copy is made in
-The form of messenger RNA (mRNA). The mRNA leaves the nucleus through nuclear pores and travels to
-The ribosomes, where the protein is assembled.
+the form of messenger RNA (mRNA). The mRNA leaves the nucleus through nuclear pores and travels to
+the ribosomes, where the protein is assembled.
 
 **Mitochondria as the powerhouses.** Mitochondria are the sites of aerobic respiration, where
 Glucose is broken down using oxygen to release energy in the form of ATP. Cells that have high
@@ -7665,7 +7665,7 @@ Chemical reactions of respiration, increasing the rate of ATP production.
 
 **Ribosomes as the protein factories.** Ribosomes are the sites of protein synthesis. They read the
 MRNA code and assemble amino acids in the correct order to make proteins. Ribosomes are found free
-In the cytoplasm (making proteins for use within the cell) and attached to the rough endoplasmic
+in the cytoplasm (making proteins for use within the cell) and attached to the rough endoplasmic
 Reticulum (making proteins for export or insertion into the cell membrane).
 
 **Chloroplasts as the solar panels.** Chloroplasts are the sites of photosynthesis in plant cells.
@@ -7686,8 +7686,8 @@ Wall also prevents plant cells from bursting when they take in water by osmosis.
 Compartment filled with cell sap (a solution of sugars, salts, and pigments). It pushes the
 Cytoplasm against the cell wall, creating turgor pressure. This pressure keeps the cell firm and
 Provides structural support to the plant. When a plant is well-watered, all its cells are turgid and
-The plant stands upright. When the plant is dehydrated, the cells lose water, become flaccid, and
-The plant wilts.
+the plant stands upright. When the plant is dehydrated, the cells lose water, become flaccid, and
+the plant wilts.
 
 ### 1.2 Eukaryotic and Prokaryotic Cells
 
@@ -7737,7 +7737,7 @@ to antibiotics and why bacterial infections can spread so rapidly.
 
 Cells are specialised to perform specific functions. Every specialisation you encounter can be
 Understood by asking one question: what structural feature increases the rate of whatever process
-The cell needs to carry out?
+the cell needs to carry out?
 
 | Cell Type        | Specialisation                                   | Function                     |
 | ---------------- | ------------------------------------------------ | ---------------------------- |
@@ -7754,31 +7754,31 @@ The cell needs to carry out?
 **Building intuition for specialisation.** The red blood cell is a particularly elegant example. Its
 Biconcave disc shape maximises surface area for oxygen diffusion. It has no nucleus -- this might
 Seem like a disadvantage, but it creates more space inside the cell for haemoglobin, the protein
-That carries oxygen. The trade-off is that red blood cells cannot divide or repair themselves; they
-Have a limited lifespan of about 120 days and are continuously replaced in bone marrow. At any given
+that carries oxygen. The trade-off is that red blood cells cannot divide or repair themselves; they
+have a limited lifespan of about 120 days and are continuously replaced in bone marrow. At any given
 Moment, you have approximately 25 trillion red blood cells circulating in your body, and
 Approximately 2.4 million new ones are produced every second.
 
 The sperm cell illustrates another principle: energy supply. The many mitochondria in the midpiece
 Provide the ATP needed for the tail (flagellum) to beat and propel the sperm towards the egg. The
 Acrosome at the tip contains digestive enzymes that break down the outer layers of the egg, allowing
-The sperm to penetrate. Only a few hundred sperm out of millions will reach the egg, and normally
-Only one will fertilise it.
+the sperm to penetrate. Only a few hundred sperm out of millions will reach the egg, and normally
+only one will fertilise it.
 
 The nerve cell (neurone) is adapted for rapid, long-distance communication. Its long axon (which can
-Be up to 1 metre in the sciatic nerve) allows electrical impulses to travel quickly over long
+be up to 1 metre in the sciatic nerve) allows electrical impulses to travel quickly over long
 Distances. The myelin sheath (an insulating layer of fat) further speeds up transmission by allowing
-The impulse to "jump" between gaps in the myelin (nodes of Ranvier). Branched dendrites at the
+the impulse to "jump" between gaps in the myelin (nodes of Ranvier). Branched dendrites at the
 Receiving end connect to many other neurones, allowing complex networks of communication.
 
 The root hair cell is an excellent example of how surface area relates to function. The elongated
 Hair-like projection massively increases the surface area in contact with the soil water, allowing
-More efficient absorption of water and mineral ions. The root hair cell also has many mitochondria
-To supply ATP for the active transport of mineral ions from the soil (where their concentration is
+more efficient absorption of water and mineral ions. The root hair cell also has many mitochondria
+to supply ATP for the active transport of mineral ions from the soil (where their concentration is
 Often very low) into the cell.
 
 The egg cell (ovum) is the largest human cell, with a diameter of approximately 0.1 mm (visible to
-The naked eye). It contains a large cytoplasm with stores of nutrients (lipid droplets and protein
+the naked eye). It contains a large cytoplasm with stores of nutrients (lipid droplets and protein
 Granules) to sustain the early embryo before it implants in the uterus and establishes a blood
 Supply from the mother.
 
@@ -7885,7 +7885,7 @@ Questions test whether you know that DNA replication occurs during interphase, n
 
 **Why chromosomes must line up at the metaphase plate.** This is a quality control step. If
 Chromosomes did not line up correctly, one daughter cell might receive two copies of a chromosome
-While the other receives none. This would be lethal or cause serious genetic disorders. The cell has
+while the other receives none. This would be lethal or cause serious genetic disorders. The cell has
 Checkpoint mechanisms that delay anaphase until all chromosomes are correctly attached to spindle
 Fibres.
 
@@ -7908,7 +7908,7 @@ Fibres.
 
 **Stem cells** are unspecialised cells that can differentiate into specialised cell types. They are
 The biological equivalent of blank templates: they carry the complete set of genetic instructions
-But have not yet activated the specific subset of genes that defines a specialised cell.
+but have not yet activated the specific subset of genes that defines a specialised cell.
 
 **How differentiation works.** Every cell in your body contains the same DNA (with minor exceptions
 Such as red blood cells, which have no DNA at all). The difference between a nerve cell and a muscle
@@ -7964,7 +7964,7 @@ Stem cell can become a limited range of cell types within a particular tissue. A
 ### 2.4 Cancer
 
 Cancer is the result of uncontrolled cell division. It occurs when mutations in genes that control
-The cell cycle (specifically **proto-oncogenes**, which promote cell division, and **tumour
+the cell cycle (specifically **proto-oncogenes**, which promote cell division, and **tumour
 Suppressor genes**, which inhibit it) cause cells to divide repeatedly without stopping, forming a
 **tumour**.
 
@@ -8004,7 +8004,7 @@ Lower concentration, down the concentration gradient.
 
 **Why diffusion works (the physical intuition).** Particles are in constant random motion due to
 Their kinetic energy. In a region of high concentration, there are more particles moving in any
-Given direction. In a region of low concentration, there are fewer. The net result is that more
+given direction. In a region of low concentration, there are fewer. The net result is that more
 Particles move from high to low concentration than the reverse, until equilibrium is reached (equal
 Concentration on both sides). At equilibrium, particles continue to move, but there is no net
 Movement in either direction.
@@ -8033,7 +8033,7 @@ Movement in either direction.
 
 **Worked Example.** Oxygen diffuses from the alveoli (high concentration) into the blood (low
 Concentration). Carbon dioxide diffuses from the blood into the alveoli. This simultaneous exchange
-Of gases is efficient because both processes use the same concentration gradient in opposite
+of gases is efficient because both processes use the same concentration gradient in opposite
 Directions: the alveoli have high $\mathrm{O_2$ and low $\mathrm{CO_2$ (because fresh air is
 Continually breathed in), while the blood arriving at the lungs has low $\mathrm{O_2$ and high
 $\mathrm{CO_2$ (because it has just returned from the body tissues where respiration occurred).
@@ -8128,7 +8128,7 @@ Active transport uses energy to pump ions into the cell against the concentratio
 **Example:** Mineral ions in the soil are absorbed by root hair cells against the concentration
 Gradient. The root hair cells have many mitochondria to supply the ATP needed for active transport.
 This is why root hair cells in low-nutrient soils can still absorb minerals: they are not limited by
-The concentration gradient in the soil.
+the concentration gradient in the soil.
 
 **Another example:** In the small intestine, glucose is absorbed from the gut into the blood. After
 A meal, the concentration of glucose in the gut may be higher than in the blood, so diffusion
@@ -8377,7 +8377,7 @@ Convert to micrometres: $0.012 \times 1000 = 12 \mathrm{ \mu m$.
 
 A plant cell with a solute potential of $-500 \mathrm{ kPa$ and a pressure potential of
 $200 \mathrm{ kPa$ is placed in a solution with a water potential of $-100 \mathrm{ kPa$. Predict
-The direction of water movement and explain what will happen to the cell.
+the direction of water movement and explain what will happen to the cell.
 
 </details>
 
@@ -8430,7 +8430,7 @@ Predict the relative rates and explain the shape of the resulting graph.
 The rate is highest at pH 7 (the optimum). At pH 5 and pH 9, the rate is lower because changes in pH
 Alter the ionisation of amino acid side chains in the active site, disrupting the enzyme's shape and
 Reducing substrate binding. The graph is a bell-shaped curve, symmetric if the enzyme tolerates acid
-And alkali equally, peaking at pH 7.
+and alkali equally, peaking at pH 7.
 
 </details>
 
@@ -8438,7 +8438,7 @@ And alkali equally, peaking at pH 7.
 <summary>Question 5: Cell specialisation</summary>
 
 Explain how a root hair cell is specialised for its function of absorbing water and mineral ions
-From the soil.
+from the soil.
 
 </details>
 
@@ -8446,7 +8446,7 @@ From the soil.
 <summary>Answer</summary>
 
 Root hair cells have an elongated, finger-like projection that greatly increases the surface area
-For absorption. They have a large number of mitochondria to provide ATP for active transport of
+for absorption. They have a large number of mitochondria to provide ATP for active transport of
 Mineral ions against their concentration gradient. They have thin walls to reduce the diffusion
 Distance for water uptake. Their permanent vacuole contains a high concentration of solutes to
 Maintain a steep water potential gradient for osmosis.
@@ -10186,8 +10186,8 @@ $$
   nutrients would be locked in dead material indefinitely.
 
 A **food web** shows many interconnected food chains in an ecosystem. Food webs are more realistic
-Than food chains because most organisms eat more than one type of food and are eaten by more than
-One type of predator.
+than food chains because most organisms eat more than one type of food and are eaten by more than
+one type of predator.
 
 ### 2.2 Trophic Levels
 
@@ -10385,7 +10385,7 @@ Optimum, the enzymes denature and decomposition slows.
 The nitrogen cycle describes how nitrogen is converted between different chemical forms and
 Circulates through the ecosystem. Nitrogen is essential for making amino acids and proteins, DNA,
 And other biomolecules, but most organisms cannot use atmospheric nitrogen ($\mathrm{N_2$) directly
-Because the triple bond between the two nitrogen atoms is very strong.
+because the triple bond between the two nitrogen atoms is very strong.
 
 **Key processes:**
 
@@ -10454,7 +10454,7 @@ Habitat 1: Species A (90), Species B (5), Species C (5). Total: 100. Species ric
 Habitat 2: Species A (34), Species B (33), Species C (33). Total: 100. Species richness: 3.
 
 Both habitats have the same species richness (3 species), but Habitat 2 has higher biodiversity
-Because the species are more evenly distributed.
+because the species are more evenly distributed.
 
 Habitat 1:
 $D = \frac{100 \times 99}{90 \times 89 + 5 \times 4 + 5 \times 4} = \frac{9900}{8010 + 20 + 20} = \frac{9900}{8050} = 1.23$
@@ -10734,7 +10734,7 @@ Conditions).
 **Worked Example: Carbon in a food chain.**
 
 A food chain consists of grass $\to$ rabbit $\to$ fox. Assume 10% efficiency of energy transfer at
-Each trophic level. If the grass fixes 50,000 kJ of carbon (as glucose) per day through
+each trophic level. If the grass fixes 50,000 kJ of carbon (as glucose) per day through
 Photosynthesis:
 
 1. Energy available to rabbits: $50,000 \times 0.10 = 5,000$ kJ/day.
@@ -10744,7 +10744,7 @@ Photosynthesis:
 
 This means 99% of the energy fixed by photosynthesis is lost before reaching the fox. This
 Illustrates why food chains are limited to a few trophic levels and why ecosystems can support far
-More herbivores than carnivores.
+more herbivores than carnivores.
 
 ## 7. Higher Tier: Peat Bogs and Climate Change
 
@@ -10756,13 +10756,13 @@ Decomposition is very slow, and carbon accumulates over thousands of years.
 
 **Why peat bogs are carbon stores:** Peat bogs cover only about 3% of the Earth's land surface but
 Store approximately 30% of all soil carbon. This makes them one of the most important carbon stores
-On the planet.
+on the planet.
 
 **The problem:** When peat bogs are drained for agriculture (e.g., for palm oil plantations in
 Southeast Asia) or harvested for fuel, the peat is exposed to air. Aerobic decomposition resumes,
 And the stored carbon is released as $\mathrm{CO_2$. Drained tropical peatlands are estimated to
 Release approximately 1.5 billion tonnes of $\mathrm{CO_2$ per year, making them a major contributor
-To climate change.
+to climate change.
 
 **Conservation:** Protecting and restoring peat bogs is an important strategy for mitigating climate
 Change. Rewetting drained peatlands can stop the release of stored carbon and allow the bogs to
@@ -10808,8 +10808,8 @@ Land use change is one of the most significant drivers of biodiversity loss worl
 
 **Deforestation for agriculture:** Tropical rainforests are cleared for cattle ranching and soya
 Production. Rainforests contain an estimated 50% of all species on Earth, despite covering only
-About 6% of the land surface. Deforestation destroys habitats, fragments populations (making them
-More vulnerable to extinction), and releases stored carbon.
+about 6% of the land surface. Deforestation destroys habitats, fragments populations (making them
+more vulnerable to extinction), and releases stored carbon.
 
 **Urbanisation:** Building cities and roads on natural habitats removes vegetation, increases
 Surface runoff (leading to flooding), creates heat islands (urban areas are warmer than surrounding
@@ -10846,7 +10846,7 @@ After a volcanic eruption). Stages:
 
 **Secondary succession:** Occurs on a surface where an existing ecosystem has been disturbed (e.g.,
 After a forest fire, flood, or farming). The soil is already present, so succession proceeds faster
-Than primary succession. It begins with grasses and herbs rather than pioneer lichens.
+than primary succession. It begins with grasses and herbs rather than pioneer lichens.
 
 **Key concepts:**
 
@@ -11686,7 +11686,7 @@ Nucleus of cells and is organised into structures called **chromosomes**.
 **Why base pairing is specific.** The sizes and shapes of the bases determine which pairs can form.
 A and T form two hydrogen bonds because they have complementary shapes. C and G form three hydrogen
 Bonds. This specificity is fundamental to the accuracy of DNA replication: each base can only pair
-With its complementary partner, ensuring that the genetic information is copied correctly.
+with its complementary partner, ensuring that the genetic information is copied correctly.
 
 **Nucleotide structure in detail.** Each nucleotide consists of three parts:
 
@@ -11696,7 +11696,7 @@ With its complementary partner, ensuring that the genetic information is copied 
 
 Nucleotides are joined together by phosphodiester bonds between the phosphate group of one
 Nucleotide and the sugar of the next, forming a sugar-phosphate backbone. The bases project inwards
-From the backbone and pair with complementary bases on the opposite strand.
+from the backbone and pair with complementary bases on the opposite strand.
 
 ### 1.2 Genes and Chromosomes
 
@@ -11748,7 +11748,7 @@ Amino acid sequence, potentially altering the protein's shape and function.
 ### 1.4 Genome
 
 The **genome** is the entire genetic material of an organism. The Human Genome Project (completed
-In 2003) mapped all the genes in human DNA.
+in 2003) mapped all the genes in human DNA.
 
 **Benefits of the Human Genome Project:**
 
@@ -11929,7 +11929,7 @@ Probability of a child with cystic fibrosis: 25%
 **Understanding why carriers do not show the disease.** A carrier (Ff) has one dominant allele (F)
 That produces enough functional protein to maintain normal health. The recessive allele (f) does not
 Produce functional protein, but one copy of the dominant allele is sufficient. This is the principle
-Of **dominance**: the dominant allele masks the effect of the recessive allele in the heterozygote.
+of **dominance**: the dominant allele masks the effect of the recessive allele in the heterozygote.
 
 **Worked Example 3: A two-generation cross.**
 
@@ -11984,8 +11984,8 @@ Y chromosome, while the mother always contributes an X chromosome.
 **Why recessive disorders are more common than dominant disorders.** A recessive disorder can be
 "hidden" in carriers (heterozygotes) who do not show the disease. These carriers can pass the
 Recessive allele to their children without knowing it. A dominant disorder cannot be hidden: anyone
-With the allele shows the disease. Dominant disorders are therefore more likely to be selected
-Against (affected individuals may have reduced fitness and fewer children), while recessive
+with the allele shows the disease. Dominant disorders are therefore more likely to be selected
+against (affected individuals may have reduced fitness and fewer children), while recessive
 Disorders can persist in the population for many generations through carriers.
 
 **Genetic testing and screening:**
@@ -12037,7 +12037,7 @@ Punnett square:
 Results: 25% normal female, 25% carrier female, 25% normal male, 25% haemophiliac male.
 
 The probability that a son will have haemophilia: 50% (because a son inherits his only X chromosome
-From his mother, and there is a 50% chance she passes on the $X^h$ allele).
+from his mother, and there is a 50% chance she passes on the $X^h$ allele).
 
 ## 4. Variation and Evolution
 
@@ -12112,7 +12112,7 @@ Changes in the environment.
 
 **Homologous vs. Analogous structures.** Homologous structures have the same evolutionary origin but
 May serve different functions (e.g., the pentadactyl limb in humans, bats, whales, and birds -- all
-Have the same basic bone structure despite being used for grasping, flying, swimming, and walking
+have the same basic bone structure despite being used for grasping, flying, swimming, and walking
 Respectively). Analogous structures have different evolutionary origins but serve similar functions
 (e.g., the wings of birds and insects). Only homologous structures provide evidence for common
 Ancestry.
@@ -12430,7 +12430,7 @@ A pedigree chart for a rare disorder shows:
 
 A **dihybrid cross** investigates the inheritance of two characteristics simultaneously. Mendel's
 Law of independent assortment states that alleles of different genes are distributed independently
-Of one another during gamete formation (provided the genes are on different chromosomes).
+of one another during gamete formation (provided the genes are on different chromosomes).
 
 **Worked Example: Dihybrid cross in pea plants.**
 
@@ -12661,7 +12661,7 @@ URL: https://gcse.wyattau.com/biology/2-organisation/2_organisation/
 ### 1.1 Overview
 
 The digestive system breaks down large, insoluble food molecules into small, soluble molecules that
-Can be absorbed into the blood. This is not a single process but a coordinated sequence of
+can be absorbed into the blood. This is not a single process but a coordinated sequence of
 Mechanical and chemical events, each occurring in a specific region of the gut where conditions are
 Optimised for that step.
 
@@ -12671,8 +12671,8 @@ Mouth $\to$ Oesophagus $\to$ Stomach $\to$ Small intestine $\to$ Large intestine
 Anus
 
 Accessory organs: Liver, pancreas, salivary glands. These are called "accessory" because food does
-Not pass through them directly; instead, they produce substances (bile, enzymes) that are delivered
-To the digestive tract via ducts.
+not pass through them directly; instead, they produce substances (bile, enzymes) that are delivered
+to the digestive tract via ducts.
 
 **Why digestion is necessary.** The food you eat contains macromolecules (starch, proteins, lipids)
 That are too large and insoluble to cross cell membranes. Even if they could cross, your body cannot
@@ -12684,18 +12684,18 @@ Their absorbable subunits.
 
 **Enzymes** are biological catalysts -- they speed up chemical reactions without being used up. They
 Are proteins, and each enzyme catalyses a specific reaction. The specificity of enzymes arises from
-The unique three-dimensional shape of their active site, which is complementary to the shape of
+the unique three-dimensional shape of their active site, which is complementary to the shape of
 Their substrate.
 
 **The lock and key model:** The substrate (reactant) fits into the active site of the enzyme, like a
 Key fitting into a lock. Only the correct substrate can fit each enzyme. An alternative and more
 Widely accepted model is the **induced fit model**, in which the active site changes shape slightly
-When the substrate binds, improving the fit and making the reaction more efficient.
+when the substrate binds, improving the fit and making the reaction more efficient.
 
 **Why enzymes are essential for digestion.** Without enzymes, digestion would be far too slow to
 Provide the body with the nutrients it needs. At body temperature, the chemical reactions of
 Digestion would take days or weeks without catalysis. Enzymes speed up these reactions by a factor
-Of millions, allowing digestion to occur within hours.
+of millions, allowing digestion to occur within hours.
 
 **Factors affecting enzyme activity:**
 
@@ -12747,7 +12747,7 @@ A student investigates the effect of temperature on amylase activity. The result
 **Why different enzymes work at different pH.** The stomach produces hydrochloric acid, creating a
 PH of approximately 2. This is optimal for pepsin (a protease), which begins protein digestion. The
 Small intestine has an alkaline pH (approximately 8) because bile neutralises the acid arriving from
-The stomach. This alkaline environment is optimal for pancreatic enzymes (amylase, trypsin, lipase).
+the stomach. This alkaline environment is optimal for pancreatic enzymes (amylase, trypsin, lipase).
 This compartmentalisation means that each enzyme works in the conditions best suited to it,
 Maximising the overall efficiency of digestion.
 
@@ -12777,7 +12777,7 @@ Intestine through the bile duct.
 **Bile vs. Lipase -- a common confusion.** Bile is not an enzyme. It does not break chemical bonds.
 It only physically breaks large fat droplets into smaller ones (emulsification). Lipase is the
 Enzyme that chemically digests fats by breaking ester bonds in triglycerides. Bile prepares the fats
-For lipase by increasing the surface area available for the enzyme to act upon.
+for lipase by increasing the surface area available for the enzyme to act upon.
 
 ### 1.5 Absorption
 
@@ -12798,13 +12798,13 @@ Too much, the result is constipation.
 **Worked Example: Why villi are so effective.**
 
 A student calculates the total surface area of the small intestine. Without villi, the surface area
-Is approximately 0.5 m$^2$. With villi, the surface area increases to approximately 10 m$^2$. With
+is approximately 0.5 m$^2$. With villi, the surface area increases to approximately 10 m$^2$. With
 Microvilli on top of the villi, the total absorptive surface area reaches approximately 200 m$^2$.
 
 The rate of diffusion is directly proportional to surface area (Fick's law). So, by increasing the
 Surface area by a factor of 400 (from 0.5 to 200 m$^2$), the small intestine can absorb nutrients
 400 times faster than a simple tube without villi. This is why the small intestine is so effective
-At absorbing digested food.
+at absorbing digested food.
 
 ### 1.6 Required Practical: Enzyme Activity
 
@@ -12846,9 +12846,9 @@ Colour change is due to enzyme activity, not spontaneous breakdown.
 
 **Understanding the structural differences.** Arteries need thick, elastic walls because they carry
 Blood at high pressure generated by the heart's contraction. The elasticity allows them to expand
-And recoil, smoothing out the pulsatile flow. Veins carry blood at low pressure and need valves to
+and recoil, smoothing out the pulsatile flow. Veins carry blood at low pressure and need valves to
 Prevent backflow (since there is not enough pressure to keep blood moving on its own). Capillaries
-Are only one cell thick to allow rapid diffusion of oxygen, nutrients, and waste products between
+are only one cell thick to allow rapid diffusion of oxygen, nutrients, and waste products between
 Blood and tissues.
 
 **Detailed comparison of artery and vein structure.**
@@ -12920,13 +12920,13 @@ Step-by-step:
 Reversibly to oxygen. In the lungs (high oxygen concentration), haemoglobin binds oxygen to form
 Oxyhaemoglobin. In the tissues (low oxygen concentration), oxyhaemoglobin releases oxygen. This
 Reversible binding is critical: it allows the same molecule to pick up oxygen where it is abundant
-And release it where it is needed.
+and release it where it is needed.
 
 **Phagocytes and lymphocytes.** Phagocytes (a type of white blood cell) defend the body by engulfing
 And digesting pathogens in a process called phagocytosis. Lymphocytes (another type of white blood
 Cell) produce antibodies -- specific proteins that bind to and neutralise specific pathogens. Each
 Lymphocyte produces one type of antibody that is specific to one type of pathogen. This specificity
-Is the basis of the immune response.
+is the basis of the immune response.
 
 **Worked Example: Adaptations of red blood cells.**
 
@@ -12978,7 +12978,7 @@ Expand when food is swallowed).
 ### 3.2 Gas Exchange
 
 Gas exchange occurs in the **alveoli** (air sacs in the lungs). Oxygen diffuses from the alveoli
-Into the blood; carbon dioxide diffuses from the blood into the alveoli.
+into the blood; carbon dioxide diffuses from the blood into the alveoli.
 
 **Adaptations of alveoli for gas exchange:**
 
@@ -13866,7 +13866,7 @@ $$
 
 These three equations are foundational. The atomic number uniquely identifies an element: no two
 Elements share the same value of $Z$. The mass number, by contrast, can vary within a single element
-Because the number of neutrons is not fixed. This is the basis of isotopes.
+because the number of neutrons is not fixed. This is the basis of isotopes.
 
 **Notation:** An atom of element X with mass number $A$ and atomic number $Z$ is written as
 $\prescript{A}{Z}\mathrm{X$.
@@ -14188,7 +14188,7 @@ $$
 
 The word "weighted" is crucial. Relative atomic mass is not a simple average; it accounts for the
 Fact that some isotopes are much more abundant than others. A rare but heavy isotope contributes
-Less to the average than a common but lighter one.
+less to the average than a common but lighter one.
 
 ### 4.2 Calculating Relative Atomic Mass
 
@@ -14289,7 +14289,7 @@ Helps to explain why transition metals have variable oxidation states.
 
 As you descend the group, the outer electron is in a shell further from the nucleus. Even though the
 Nuclear charge increases, the extra inner shells provide significant shielding. The net effect is
-That the outer electron is less strongly held and is more lost. Since Group 1 metals react by Losing
+that the outer electron is less strongly held and is more lost. Since Group 1 metals react by Losing
 their outer electron, lower ionisation energy means greater reactivity.
 
 **Reactions with water:**
@@ -14316,7 +14316,7 @@ $$
 $$
 
 Potassium hydroxide and hydrogen gas are produced. The reaction is more vigorous than that of sodium
-Because potassium is more reactive.
+because potassium is more reactive.
 
 **Worked Example.** Write the balanced equation for lithium reacting with chlorine.
 
@@ -14395,7 +14395,7 @@ Properties:
 The variable oxidation states arise because transition metals have electrons in both the 4s and 3d
 Subshells, and electrons from both can be lost. Iron, for example, has the configuration
 $[\mathrm{Ar]\,4s^2 3d^6$. It can lose the two 4s electrons to form Fe$^{2+}$Or both 4s electrons
-And one 3d electron to form Fe$^{3+}$.
+and one 3d electron to form Fe$^{3+}$.
 
 ### 5.7 Comparing Group 1 Metals with Transition Metals
 
@@ -14420,14 +14420,14 @@ Lose 2 electrons to form a $2+$ ion, achieving the configuration of argon (2, 8,
 Charge of its ion.
 
 Period 4 means 4 shells. Group 7 means 7 outer electrons. Electron configuration: 2, 8, 8, 7. It
-Will gain 1 electron to form a $1-$ ion, achieving the configuration of krypton (2, 8, 18, 8).
+will gain 1 electron to form a $1-$ ion, achieving the configuration of krypton (2, 8, 18, 8).
 
 ## 6. Atomic Structure and Chemical Properties
 
 ### 6.1 Why Elements React
 
 Elements react in order to achieve a full outer shell of electrons (a stable electron configuration
-Like the noble gases). This drive towards stability is the fundamental explanation for all chemical
+like the noble gases). This drive towards stability is the fundamental explanation for all chemical
 Bonding and reactivity.
 
 - Metals **lose** electrons to form positive ions (cations)
@@ -14510,8 +14510,8 @@ Nucleus and is shielded by additional inner shells.
 ### 7.2 Successive Ionisation Energies
 
 Each successive ionisation energy is larger than the previous one because the remaining electrons
-Are held more tightly by an increasingly positive ion. Large jumps occur when an electron is removed
-From a new, inner shell.
+are held more tightly by an increasingly positive ion. Large jumps occur when an electron is removed
+from a new, inner shell.
 
 **Worked Example.** The first five ionisation energies of an element are: 578, 1817, 2745, 11578,
 14842 kJ/mol. Identify the group.
@@ -14527,7 +14527,7 @@ Spectrum shows peaks at different mass-to-charge ratios ($m/z$), and the height 
 Proportional to the abundance of that isotope.
 
 This is a more precise method than simple calculation from percentage abundances, and it is the way
-That relative atomic masses are measured in practice.
+that relative atomic masses are measured in practice.
 
 ### 7.4 Mass Spectrum Interpretation
 
@@ -14800,7 +14800,7 @@ The driving force is the achievement of a full outer shell. A metal atom in Grou
 Electron to attain the electron configuration of the previous noble gas. A non-metal atom in Group 7
 Gains one electron to attain the configuration of the next noble gas. Both species achieve a lower
 Energy state, and the energy released when the ions come together (the lattice energy) is what holds
-The ionic compound together.
+the ionic compound together.
 
 **Example: Sodium chloride (NaCl)**
 
@@ -14834,14 +14834,14 @@ Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends i
 
 The brittleness of ionic compounds has a clear structural explanation. When a force is applied, one
 Layer of ions shifts relative to another. Ions of the same charge are brought into proximity, and
-The resulting electrostatic repulsion causes the crystal to shatter. This is fundamentally different
-From the response of metals, where layers can slide past each other without breaking bonds.
+the resulting electrostatic repulsion causes the crystal to shatter. This is fundamentally different
+from the response of metals, where layers can slide past each other without breaking bonds.
 
 ### 1.3 Dot and Cross Diagrams
 
 Dot and cross diagrams show the transfer of electrons in ionic bonding. The original electrons of
-Each atom are shown as dots or crosses, and transferred electrons are shown in the colour/symbol of
-The receiving atom.
+each atom are shown as dots or crosses, and transferred electrons are shown in the colour/symbol of
+the receiving atom.
 
 **Example: Magnesium oxide (MgO)**
 
@@ -14883,7 +14883,7 @@ $$
 **Worked Example.** Draw the dot and cross diagram for calcium fluoride (CaF$_2$).
 
 Calcium ($2, 8, 8, 2$) loses 2 electrons to form Ca$^{2+}$. Each fluorine ($2, 7$) gains 1 electron
-To form F$^-$. Two fluorine atoms are needed to accept the 2 electrons from calcium. The Ca$^{2+}$
+to form F$^-$. Two fluorine atoms are needed to accept the 2 electrons from calcium. The Ca$^{2+}$
 Ion achieves the configuration of argon; each F$^-$ achieves the configuration of neon.
 
 **Worked Example.** Draw the dot and cross diagram for lithium oxide (Li$_2$O).
@@ -14894,7 +14894,7 @@ O$^{2-}$. Two lithium atoms are needed.
 **Worked Example.** Draw the dot and cross diagram for potassium sulfide (K$_2$S).
 
 Each potassium ($2, 8, 8, 1$) loses 1 electron to form K$^+$. Sulfur ($2, 8, 6$) gains 2 electrons
-To form S$^{2-}$. Two potassium atoms are needed. Each K$^+$ achieves the configuration of argon;
+to form S$^{2-}$. Two potassium atoms are needed. Each K$^+$ achieves the configuration of argon;
 S$^{2-}$ achieves the configuration of argon.
 
 ### 1.4 Formulae of Ionic Compounds
@@ -14955,8 +14955,8 @@ F \propto \frac{q_1 \cdot q_2}{r^2}
 $$
 
 Where $q_1$ and $q_2$ are the ion charges and $r$ is the distance between ion centres. For compounds
-With higher charges (e.g. MgO with $2+$ and $2-$) and smaller ions (shorter $r$), the forces are
-Much stronger and the melting point is much higher. This explains why MgO melts at
+with higher charges (e.g. MgO with $2+$ and $2-$) and smaller ions (shorter $r$), the forces are
+much stronger and the melting point is much higher. This explains why MgO melts at
 $2852^{\circ}\mathrm{C$ while NaCl melts at only $801^{\circ}\mathrm{C$.
 
 ### 1.7 Comparison of Ionic Compound Properties
@@ -15001,7 +15001,7 @@ Shared.
 Electrons and needs 2 more. Each oxygen forms a double bond with carbon.
 
 Carbon forms two double bonds, one with each oxygen. Each double bond consists of two shared pairs
-Of electrons.
+of electrons.
 
 **Methane (CH$_4$):** Carbon forms four single bonds with four hydrogen atoms. Carbon achieves a
 Full outer shell of 8 electrons, and each hydrogen achieves a full outer shell of 2 electrons.
@@ -15028,7 +15028,7 @@ Pair.
 
 Phosphorus is in group 5 with 5 outer electrons. It needs 3 more to complete its octet. Each
 Chlorine has 7 outer electrons and needs 1 more. Phosphorus forms three single covalent bonds, one
-With each chlorine, and retains one lone pair. The structure is analogous to ammonia.
+with each chlorine, and retains one lone pair. The structure is analogous to ammonia.
 
 ### 2.3 Properties of Simple Covalent Molecules
 
@@ -15040,14 +15040,14 @@ With each chlorine, and retains one lone pair. The structure is analogous to amm
 
 :::caution
 Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are strong, but there
-Are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
+are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
 Atoms -- this does not happen during melting or boiling.
 :::
 
 The distinction between intramolecular bonds (within molecules) and intermolecular forces (between
 Molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
 Molecule are strong (about 464 kJ/mol for O-H), but the hydrogen bonds between water molecules are
-Much weaker (about 20 kJ/mol). It is these weaker forces that are overcome when water boils at
+much weaker (about 20 kJ/mol). It is these weaker forces that are overcome when water boils at
 $100^{\circ}\mathrm{C$.
 
 ### 2.4 Bonding in Giant Covalent Structures
@@ -15105,7 +15105,7 @@ Properties. They are used in composite materials and electronics.
 ### 2.6 Bond Polarity
 
 When two different non-metals form a covalent bond, the shared electrons may be pulled more towards
-One atom than the other (because of different electronegativities).
+one atom than the other (because of different electronegativities).
 
 - If the electrons are shared equally, the bond is **non-polar** (e.g. H-H, Cl-Cl)
 - If the electrons are pulled towards one atom, the bond is **polar** (e.g. H-Cl)
@@ -15134,9 +15134,9 @@ Stronger still.
 ### 2.8 Derivation: Why Multiple Bonds Are Stronger
 
 A double bond consists of one sigma bond and one pi bond. A triple bond consists of one sigma bond
-And two pi bonds. Each additional shared pair adds more electron density between the nuclei,
+and two pi bonds. Each additional shared pair adds more electron density between the nuclei,
 Increasing the net attractive force and pulling the nuclei closer together. The shorter bond length
-Also contributes to the higher bond energy because the electrons are closer to both nuclei.
+also contributes to the higher bond energy because the electrons are closer to both nuclei.
 
 The relationship between bond order, bond length, and bond energy:
 
@@ -15151,12 +15151,12 @@ The relationship between bond order, bond length, and bond energy:
 ### 3.1 The Model
 
 In metals, the outer electrons of each atom are **delocalised** -- they are free to move throughout
-The metallic structure. This creates a "sea" of delocalised electrons surrounding positive metal
+the metallic structure. This creates a "sea" of delocalised electrons surrounding positive metal
 Ions.
 
 The metallic bond is the strong electrostatic attraction between the positive metal ions and the
 Delocalised electrons. This model accounts for the key properties of metals and distinguishes them
-From both ionic and covalent substances.
+from both ionic and covalent substances.
 
 ### 3.2 Properties of Metals
 
@@ -15172,8 +15172,8 @@ From both ionic and covalent substances.
 The malleability and ductility of metals are consequences of the non-directional nature of the
 Metallic bond. When a force is applied, layers of metal ions can slide past each other. The
 Delocalised electrons adjust their positions to maintain the electrostatic attraction, so the metal
-Does not shatter. This is in stark contrast to ionic solids, where displacement of layers brings
-Like charges together and causes fracture.
+does not shatter. This is in stark contrast to ionic solids, where displacement of layers brings
+like charges together and causes fracture.
 
 ### 3.3 Alloys
 
@@ -15384,7 +15384,7 @@ Substances with stronger intermolecular forces have higher boiling points.
 
 **Example:** Water has a much higher boiling point than hydrogen sulfide, despite H$_2$S having a
 Larger relative molecular mass. This is because water forms hydrogen bonds, which are much stronger
-Than the dipole-dipole forces in H$_2$S.
+than the dipole-dipole forces in H$_2$S.
 
 **Example:** Explain why the boiling point increases from F$_2$ to Cl$_2$ to Br$_2$ to I$_2$.
 
@@ -15404,7 +15404,7 @@ Reasoning: F$_2$Cl$_2$Br$_2$.
 
 F$_2$ &lt; Cl$_2$ &lt; Br$_2$. All three have only London dispersion forces. As the number of
 Electrons increases (F$_2$: 18, Cl$_2$: 34, Br$_2$: 70), London forces become stronger, requiring
-More energy to overcome. Hence the boiling point increases.
+more energy to overcome. Hence the boiling point increases.
 
 **Worked Example.** Explain why ethanol (C$_2$H$_5$OH, boiling point $78^{\circ}\mathrm{C$) has a
 Much higher boiling point than dimethyl ether (CH$_3$OCH$_3$Boiling point $-24^{\circ}\mathrm{C$)
@@ -15448,7 +15448,7 @@ $$
 $$
 
 The ratio is inversely proportional to the side length. As $s$ decreases, the ratio increases. This
-Is why nanoparticles have such large surface area to volume ratios: their small size means a large
+is why nanoparticles have such large surface area to volume ratios: their small size means a large
 Proportion of atoms are on the surface, available for catalysis or other reactions.
 
 ### 6.5 Summary: Intermolecular Forces and Boiling Points
@@ -15747,7 +15747,7 @@ A word equation describes a chemical reaction using the names of the reactants a
 
 Word equations are useful as a first step but they lack precision. Different compounds can share the
 Same name in different contexts, and word equations convey no information about the stoichiometry of
-The reaction.
+the reaction.
 
 ### 1.2 Symbol Equations
 
@@ -15755,7 +15755,7 @@ A symbol equation uses chemical formulae. It must be **balanced** -- the same nu
 Atom must appear on both sides (conservation of mass).
 
 The conservation of mass is a consequence of the fact that atoms are neither created nor destroyed
-In a chemical reaction. The atoms are rearranged into different molecules. This is one of the Most
+in a chemical reaction. The atoms are rearranged into different molecules. This is one of the Most
 fundamental principles in chemistry.
 
 **Worked Example.** Balance the equation for the reaction between iron and oxygen to form iron(III)
@@ -15808,7 +15808,7 @@ This equation is already balanced. One atom of each element appears on both side
 
 State symbols provide information about the physical state of each substance under the reaction
 Conditions. This is important because the state affects the energy change and the type of reaction
-That occurs.
+that occurs.
 
 **Worked Example.** Write a balanced symbol equation with state symbols for the reaction of calcium
 With hydrochloric acid.
@@ -15906,7 +15906,7 @@ Barrier that must be surmounted for the reaction to proceed.
 An exothermic reaction releases energy overall, but bonds must still be broken before new bonds can
 Form. Breaking bonds always requires an energy input. The activation energy is the energy needed to
 Break the initial bonds. Once the reaction has started, the energy released from forming new bonds
-More than compensates for the initial input.
+more than compensates for the initial input.
 
 Consider a ball rolling down a hill. The ball releases energy (potential energy converts to kinetic
 Energy), but it first needs to be pushed over a small bump at the top. The bump is the activation
@@ -15951,7 +15951,7 @@ If $\Delta H$ is negative, the reaction is exothermic. If $\Delta H$ is positive
 Endothermic.
 
 This is a consequence of energy conservation. If more energy is released by forming new bonds than
-Is absorbed by breaking old bonds, the excess is released to the surroundings (exothermic).
+is absorbed by breaking old bonds, the excess is released to the surroundings (exothermic).
 
 **Worked Example.** Calculate the enthalpy change for the reaction:
 $\mathrm{H_2 + \mathrm{Cl_2 \to 2\mathrm{HCl$
@@ -16053,7 +16053,7 @@ Correct orientation) will increase the rate.
 **Temperature** has a particularly strong effect because it changes the distribution of molecular
 Energies. A small increase in temperature shifts a much larger fraction of molecules above the
 Activation energy threshold. The rate approximately doubles for every $10^{\circ}\mathrm{C$ increase
-In temperature.
+in temperature.
 
 **Surface area** matters for solid reactants. A lump of calcium carbonate has a small surface area,
 But the same mass as a powder has a much larger surface area. Since reactions occur at the surface,
@@ -16062,7 +16062,7 @@ The powder reacts much faster.
 ### 3.3 Catalysts
 
 A **catalyst** is a substance that increases the rate of a reaction without being used up. It works
-By providing an alternative reaction pathway with a lower activation energy.
+by providing an alternative reaction pathway with a lower activation energy.
 
 **Examples:**
 
@@ -16123,7 +16123,7 @@ $$
 $$
 
 Where $\Delta y$ is the change in the quantity measured (volume, mass, concentration) and $\Delta x$
-Is the change in time.
+is the change in time.
 
 **Worked Example.** In an experiment, 20 cm$^3$ of gas is collected in the first 30 seconds.
 Calculate the mean rate of reaction.
@@ -16148,7 +16148,7 @@ $$
 ### 4.2 Dynamic Equilibrium
 
 When a reversible reaction takes place in a **closed system**, the forward and reverse reactions
-Both occur. Eventually, the rates of the forward and reverse reactions become equal, and the
+both occur. Eventually, the rates of the forward and reverse reactions become equal, and the
 Concentrations of reactants and products remain constant. This state is called **dynamic
 Equilibrium**.
 
@@ -16215,7 +16215,7 @@ $$
 Conditions: 450$^{\circ}$C, 1-2 atm, vanadium(V) oxide catalyst.
 
 The moderate temperature is again a compromise between equilibrium yield and rate. The pressure is
-Only slightly above atmospheric because the equilibrium already favours the product side (3 moles
+only slightly above atmospheric because the equilibrium already favours the product side (3 moles
 $\to$ 2 moles of gas), so very high pressure is not economically justified.
 
 ### 4.6 Equilibrium Summary Table
@@ -16340,7 +16340,7 @@ $$
 ### 6.2 Electrolysis of Molten Ionic Compounds
 
 When a molten ionic compound is electrolysed, the metal is produced at the cathode and the non-metal
-Is produced at the anode.
+is produced at the anode.
 
 **Example:** Electrolysis of molten lead(II) bromide.
 
@@ -16415,7 +16415,7 @@ $$
 
 **Extraction of aluminium:** Aluminium oxide (bauxite) is dissolved in molten cryolite and
 Electrolysed. Aluminium is produced at the cathode and oxygen at the anode. The carbon anodes react
-With the oxygen and must be replaced periodically.
+with the oxygen and must be replaced periodically.
 
 Cathode: $\mathrm{Al^{3+} + 3e^- \to \mathrm{Al$
 
@@ -16423,7 +16423,7 @@ Anode: $2\mathrm{O^{2-} \to \mathrm{O_2 + 4e^-$
 
 **Electroplating:** The cathode is the object to be plated. The anode is made of the plating metal.
 The electrolyte contains ions of the plating metal. For example, to copper-plate a key, the key is
-The cathode, a copper bar is the anode, and the electrolyte is copper(II) sulfate solution.
+the cathode, a copper bar is the anode, and the electrolyte is copper(II) sulfate solution.
 
 ## 7. Types of Chemical Reaction Summary
 
@@ -18228,7 +18228,7 @@ Virtually unlimited length. This property, called **catenation**, gives rise to 
 Organic compounds.
 
 Carbon forms four covalent bonds because it has four electrons in its outer shell and needs four
-More to achieve a stable configuration. The strength and versatility of the C-C bond (about 348
+more to achieve a stable configuration. The strength and versatility of the C-C bond (about 348
 KJ/mol) makes long chains stable, while the C-H bond (about 412 kJ/mol) provides a convenient way to
 Satisfy the remaining valences.
 
@@ -18287,7 +18287,7 @@ $$
 
 The formula is derived from the fact that each carbon atom forms four bonds. In a straight chain,
 The two end carbons are bonded to three hydrogens each, and the remaining $(n-2)$ carbons are bonded
-To two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 4 = 2n + 2$.
+to two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 4 = 2n + 2$.
 
 | Name    | Formula       | Structure | Boiling Point ($^{\circ}$ C) |
 | ------- | ------------- | --------- | --------------------------- |
@@ -18326,7 +18326,7 @@ $$
 
 :::caution
 Strongly than oxygen, preventing oxygen transport in the blood. Incomplete combustion is dangerous
-Because CO is produced without any visible or olfactory warning.
+because CO is produced without any visible or olfactory warning.
 
 Incomplete combustion occurs when the oxygen supply is insufficient. The extent of incompleteness
 Depends on the oxygen-to-fuel ratio. With very limited oxygen, solid carbon (soot) is produced; with
@@ -18426,7 +18426,7 @@ Sigma bond and is what makes alkenes more reactive than alkanes.
 ### 3.2 Test for Unsaturation
 
 Alkenes decolourise **bromine water** (orange to colourless). This is because the double bond opens
-And bromine adds across it:
+and bromine adds across it:
 
 $$
 \mathrm{C_2\mathrm{H_4 + \mathrm{Br_2 \to \mathrm{C_2\mathrm{H_4\mathrm{Br_2
@@ -18545,7 +18545,7 @@ $$
 $$
 
 The oxidation proceeds in two stages: ethanol is first oxidised to ethanal (an aldehyde), which is
-Then further oxidised to ethanoic acid (a carboxylic acid).
+then further oxidised to ethanoic acid (a carboxylic acid).
 
 **Dehydration:** Ethanol can be dehydrated to ethene using aluminium oxide catalyst at high
 Temperature.
@@ -18659,7 +18659,7 @@ Esters are formed when a carboxylic acid reacts with an alcohol (esterification)
 
 The reaction is catalysed by a strong acid (e.g. Concentrated sulfuric acid). The reaction is
 Reversible, so the yield can be improved by using an excess of one reactant or by removing the water
-As it forms.
+as it forms.
 
 Esters have distinctive sweet/fruity smells and are used in:
 
@@ -18751,7 +18751,7 @@ $$
 | DNA       | Nucleotides | Phosphodiester bonds |
 
 Natural polymers are formed by condensation polymerisation, where monomers join with the elimination
-Of a small molecule ( water).
+of a small molecule ( water).
 
 ### 7.2 Biodegradable Polymers
 
@@ -18896,7 +18896,7 @@ To identify the monomer, remove the brackets and the subscript $n$:
 ### 10.3 Biodegradable Alternatives
 
 PLA (polylactic acid) is made from fermented corn starch. It breaks down in composting conditions
-Within months. PHB (polyhydroxybutyrate) is produced by bacterial fermentation and is fully
+within months. PHB (polyhydroxybutyrate) is produced by bacterial fermentation and is fully
 Biodegradable.
 
 ### 10.4 Worked Examples
@@ -18923,7 +18923,7 @@ The polymer is poly(but-2-ene), also called polybutene.
 ### 11.1 Why Cracking Is Necessary
 
 The demand for shorter-chain hydrocarbons (for petrol, alkenes for polymers) is much greater than
-The supply from fractional distillation. Cracking converts less useful long-chain alkanes into more
+the supply from fractional distillation. Cracking converts less useful long-chain alkanes into more
 Valuable shorter-chain alkanes and alkenes.
 
 ### 11.2 Types of Cracking
@@ -18951,7 +18951,7 @@ In thermal cracking, the C-C bonds break randomly. When a bond breaks and the re
 Rearrange, at least one fragment will have an unsaturated (double) bond because there are too few
 Hydrogen atoms to fully saturate all the carbon atoms. This is a consequence of the fact that
 Alkanes have a general formula of C$_n$H$_{2n+2}$ -- splitting a chain necessarily creates fragments
-With fewer hydrogen atoms relative to their carbon atoms.
+with fewer hydrogen atoms relative to their carbon atoms.
 
 ## 12. Additional Practice Questions
 
@@ -19469,8 +19469,8 @@ The **mole** is the unit for amount of substance. One mole contains exactly $6.0
 Particles (this number is **Avogadro's constant**, $N_A$).
 
 The mole bridges the gap between the atomic scale and the macroscopic scale. One mole of carbon-12
-Has a mass of exactly 12 g. One mole of any substance contains the same number of particles as there
-Are atoms in 12 g of carbon-12.
+has a mass of exactly 12 g. One mole of any substance contains the same number of particles as there
+are atoms in 12 g of carbon-12.
 
 ### 2.2 Why the Mole Is Useful
 
@@ -19555,7 +19555,7 @@ $$
 ### 2.6 Molar Volume of Gas
 
 At room temperature and pressure (RTP, approximately $25^{\circ}\mathrm{C$ and 1 atm), one mole of
-Any gas occupies approximately **24 dm$^3$**.
+any gas occupies approximately **24 dm$^3$**.
 
 $$
 n = \frac{V}{24}
@@ -19602,14 +19602,14 @@ $$
 Avogadro's law states that equal volumes of all gases at the same temperature and pressure contain
 Equal numbers of molecules. This arises because gas molecules are very far apart compared to their
 Size, so the volume depends on the number of molecules, not on their identity. At RTP, one mole of
-Any ideal gas occupies 24 dm$^3$.
+any ideal gas occupies 24 dm$^3$.
 
 ## 3. Conservation of Mass and Balanced Equations
 
 ### 3.1 The Law of Conservation of Mass
 
 In a closed system, the total mass of the reactants equals the total mass of the products. No atoms
-Are created or destroyed in a chemical reaction.
+are created or destroyed in a chemical reaction.
 
 This law holds exactly in a closed system. In an open system, mass may appear to be lost (e.g., gas
 Escaping) or gained (e.g., gas from the atmosphere dissolving), but the atoms are still conserved.
@@ -19931,7 +19931,7 @@ $$
 
 In industry, both yield and atom economy are important. A reaction with high atom economy but low
 Yield may waste less material per mole of reactant but produce little product overall. A reaction
-With high yield but low atom economy produces a lot of waste. The best processes maximise both.
+with high yield but low atom economy produces a lot of waste. The best processes maximise both.
 
 | Reaction                                         | Atom Economy | Comment                      |
 | ------------------------------------------------ | ------------ | ---------------------------- |
@@ -20129,7 +20129,7 @@ $$
 
 **Problem:** 20.0 g of CaCO$_3$ is reacted with 150 cm$^3$ of 1.0 mol/dm$^3$ HCl. (a) Identify the
 Limiting reactant. (b) Calculate the mass of CaCl$_2$ produced. (c) Calculate the volume of CO$_2$
-At RTP. (d) Calculate the percentage yield if 15.0 g of CaCl$_2$ was obtained.
+at RTP. (d) Calculate the percentage yield if 15.0 g of CaCl$_2$ was obtained.
 
 $$
 \mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2
@@ -20593,7 +20593,7 @@ You need to be able to read, trace, and write algorithms in pseudocode and flowc
 
 Two different algorithms can solve the same problem but have vastly different performance. For
 Instance, searching through a million sorted records takes at most 20 comparisons with binary search
-But could take all 1,000,000 comparisons with linear search. This difference grows faster than
+but could take all 1,000,000 comparisons with linear search. This difference grows faster than
 Intuition suggests because the number of operations scales with the **size of the input**, which is
 Exactly what Big-O notation captures.
 
@@ -20602,7 +20602,7 @@ Exactly what Big-O notation captures.
 ### 2.1 Linear Search
 
 The **linear search** checks each element in a list one by one until the target is found or the end
-Of the list is reached.
+of the list is reached.
 
 **Pseudocode:**
 
@@ -20733,13 +20733,13 @@ print(f"Found at index: {result}")
 - Binary search worst case: $\log_2(1048576) = 20$ comparisons
 
 Binary search is over 50,000 times faster in the worst case for this input size. This gap widens
-Even further as $n$ grows.
+even further as $n$ grows.
 
 ### 2.4 Why Must Binary Search Data Be Sorted?
 
 Binary search relies on the **monotonic ordering** of the array to eliminate half of the remaining
 Search space at each step. When you compare `array[mid]` with the target, you can only conclude that
-The target must be in the left half or the right half because the array is sorted. If the array were
+the target must be in the left half or the right half because the array is sorted. If the array were
 Unsorted, a value greater than `array[mid]` could appear anywhere, and you would have no basis for
 Discarding either half.
 
@@ -20748,7 +20748,7 @@ $t$ exists at index $k$. At each step, the algorithm maintains the invariant tha
 $a_{\mathrm{low} \le t \le a_{\mathrm{high}$. If $a_{\mathrm{mid} \lt t$ Then by monotonicity every
 Element at index $\le \mathrm{mid$ is also $\lt t$ So $k \gt \mathrm{mid$ and we safely set
 $\mathrm{low = \mathrm{mid - 1$. The argument is symmetric for the other case. The loop terminates
-When $\mathrm{low \gt
+when $\mathrm{low \gt
 \mathrm{high$, meaning the search space is empty and $T$ does not exist in the
 Array.
 
@@ -20757,7 +20757,7 @@ Array.
 ### 3.1 Bubble Sort
 
 The **bubble sort** repeatedly steps through the list, compares adjacent elements, and swaps them if
-They are in the wrong order.
+they are in the wrong order.
 
 **Pseudocode:**
 
@@ -22582,7 +22582,7 @@ Discarded, leaving 0. Therefore $y = -x$ in two's complement arithmetic. $\black
 ### 1.6 Logical Binary Shifts (Higher Tier)
 
 A **logical left shift** moves all bits to the left by a specified number of positions. Zeros fill
-The vacated positions on the right. Each left shift multiplies by 2.
+the vacated positions on the right. Each left shift multiplies by 2.
 
 **Example.** $00001100$ (12) shifted left by 2: $00110000$ (48).
 
@@ -22748,7 +22748,7 @@ C = 67 = 01000011, a = 97 = 01100001, t = 116 = 01110100.
 ### 3.3 Unicode
 
 Unicode supports multiple languages and special characters. The first 128 characters of Unicode are
-The same as ASCII (backwards compatible).
+the same as ASCII (backwards compatible).
 
 Unicode uses up to 4 bytes per character. Common encodings include UTF-8 (variable length, 1--4
 Bytes) and UTF-16.
@@ -22944,7 +22944,7 @@ sample values (aliasing), making reconstruction ambiguous. $\blacksquare$
 
 **Aliasing in practice.** If a 30,000 Hz tone is sampled at 44,100 Hz, the reconstructed frequency
 Is $|44100 - 30000| = 14100$ Hz, which is completely wrong. Anti-aliasing filters remove frequencies
-Above the Nyquist limit before sampling.
+above the Nyquist limit before sampling.
 
 ## 6. Data Compression
 
@@ -23051,7 +23051,7 @@ Occurrences) gets the longest code (111).
 
 **Why prefix-free?** If the code for A were "1" and the code for B were "10", then "10" could be
 Decoded as either B or A followed by the start of another character. Prefix-free codes eliminate
-This ambiguity, making decoding unambiguous.
+this ambiguity, making decoding unambiguous.
 
 **Worked Example.** Calculate the total number of bits to encode "BCCABBDDAECCBBAEDDCC" using the
 Huffman codes above.
@@ -23288,7 +23288,7 @@ Conductor of the CPU orchestra.
 
 **Key distinction:** The PC holds an **address** (where to go next). The MAR also holds an
 **address** (where to read/write data). The MDR holds the actual **data** (what was read or what
-Will be written). The CIR holds the **instruction** (what to do).
+will be written). The CIR holds the **instruction** (what to do).
 
 ### 1.3 The Fetch-Decode-Execute Cycle
 
@@ -23399,7 +23399,7 @@ $2 \times 10^9$ cycles/second $\times$ 4 bytes/cycle = $8 \times 10^9$ bytes/sec
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** ROM contains the BIOS (Basic Input/Output System), which is the first
 Code the CPU executes when the computer is powered on. The BIOS initialises hardware and loads the
@@ -23440,7 +23440,7 @@ Times longer than a RAM access.
 **Worked Example.** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
 Operating system allocates 8 GB to RAM and uses 4 GB of virtual memory on the SSD. When a program
 Accesses data in virtual memory, a page fault occurs and the OS swaps the required page from the SSD
-Into RAM, potentially moving a less-used page from RAM to the SSD.
+into RAM, potentially moving a less-used page from RAM to the SSD.
 
 **Thrashing.** If too many programs are running and the system spends more time swapping pages than
 Executing instructions, the system becomes extremely slow. This condition is called thrashing. The
@@ -23618,7 +23618,7 @@ Utility software helps maintain and manage the computer:
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
 Defragmentation reorganises files into contiguous blocks. Note: SSDs do not need defragmentation and
-It can actually reduce their lifespan.
+it can actually reduce their lifespan.
 
 ### 4.4 Types of Operating System (Higher Tier)
 
@@ -23765,7 +23765,7 @@ Instruction per clock cycle (vs one every 3 cycles without pipelining).
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** ROM contains the BIOS (Basic Input/Output System), which is the first
 Code the CPU executes when the computer is powered on. The BIOS initialises hardware and loads the
@@ -23882,7 +23882,7 @@ Stage and provides a record for future maintenance.
 
 **Worked Example.** A function validates that a percentage is between 0 and 100 inclusive. Using
 Boundary value analysis, the test cases should include: -1, 0, 1, 99, 100, 101. The values 0 and 100
-Are the boundaries where off-by-one errors are most likely.
+are the boundaries where off-by-one errors are most likely.
 
 **Worked Example (Higher Tier).** For a search function that accepts a string of 1 to 50 characters,
 Identify the equivalence classes and boundary values.
@@ -24978,7 +24978,7 @@ Internet. Draw and describe the network topology.
 
 All devices connect to a central switch (star topology). The switch connects to the router, which
 Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
-Through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
+through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
 
 ## 2. Network Hardware
 
@@ -24997,7 +24997,7 @@ Through one of the computers. This is a LAN with a star topology connected to a 
 ### 2.2 Switch vs Hub
 
 A **hub** broadcasts incoming data to ALL ports. This is inefficient and causes collisions because
-Every device receives every message, even if it was not the intended recipient.
+every device receives every message, even if it was not the intended recipient.
 
 A **switch** learns which device is connected to each port and directs data only to the intended
 Recipient. This is more efficient and reduces collisions.
@@ -25017,7 +25017,7 @@ A **switch** connects devices within a single LAN and forwards frames based on M
 
 A **router** connects different networks (e.g., a LAN to the Internet) and forwards packets based on
 IP addresses. Routers can also perform NAT (Network Address Translation), allowing multiple devices
-On a LAN to share a single public IP address.
+on a LAN to share a single public IP address.
 
 **Device comparison by OSI layer:**
 
@@ -25073,7 +25073,7 @@ Link layer combines OSI layers 1 and 2.
 
 **Encapsulation.** At each layer, data is wrapped (encapsulated) with a header. At the receiving
 End, each layer removes (decapsulates) its header before passing data up. The application receives
-Only the original message.
+only the original message.
 
 **Encapsulation sequence:**
 
@@ -25123,7 +25123,7 @@ Packet loss.
 **When to use UDP.** UDP is appropriate when speed matters more than reliability. A few lost packets
 In a video stream are barely noticeable (a momentary glitch), but waiting for retransmission would
 Cause visible lag. Similarly, in online gaming, a stale position update is useless -- the game needs
-The most recent data, not old reliable data.
+the most recent data, not old reliable data.
 
 ### 4.3 Protocol Port Numbers
 
@@ -25396,7 +25396,7 @@ Internet. Describe the network topology.
 
 All devices connect to a central switch (star topology). The switch connects to the router, which
 Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
-Through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
+through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
 
 **Worked Example.** A school has two buildings, each with 20 computers connected by switches. The
 two Buildings are connected by a fibre optic cable. Describe the topology.
@@ -25422,7 +25422,7 @@ Manages inter-building traffic.
 ### 2.2 Switch vs Hub
 
 A **hub** broadcasts incoming data to ALL ports. This is inefficient and causes collisions because
-Every device receives every message, even if it was not the intended recipient.
+every device receives every message, even if it was not the intended recipient.
 
 A **switch** learns which device is connected to each port and directs data only to the intended
 Recipient. This is more efficient and reduces collisions.
@@ -25442,7 +25442,7 @@ A **switch** connects devices within a single LAN and forwards frames based on M
 
 A **router** connects different networks (e.g., a LAN to the Internet) and forwards packets based on
 IP addresses. Routers can also perform NAT (Network Address Translation), allowing multiple devices
-On a LAN to share a single public IP address.
+on a LAN to share a single public IP address.
 
 **Device comparison by OSI layer:**
 
@@ -25486,7 +25486,7 @@ Using MAC addresses. IP addresses are used at layer 3 (Network) for routing betw
 Medium should they use and why?
 
 Fibre optic cable. Copper (twisted pair) has a maximum reliable distance of 100 metres. Fibre optic
-Can span the 500 metres without repeaters and provides higher bandwidth for future growth.
+can span the 500 metres without repeaters and provides higher bandwidth for future growth.
 
 ## 8. Data Transmission
 
@@ -26337,7 +26337,7 @@ Returns. If there is no base case, the stack grows until memory is exhausted, ca
 
 **When to use recursion vs iteration:** Any recursive function can be rewritten as an iterative
 Version (using a loop). Iteration is generally more memory-efficient because it does not add frames
-To the call stack. Recursion is more natural for problems with a self-similar structure, such as
+to the call stack. Recursion is more natural for problems with a self-similar structure, such as
 Tree traversal or divide-and-conquer algorithms.
 
 ## 4. String Manipulation
@@ -26721,19 +26721,19 @@ WJEC/Eduqas Paper 2 Section A
 The nineteenth century is the great age of the English novel. Between the publication of Jane
 Austen's _Pride and Prejudice_ (1813) and the death of Thomas Hardy (1928), the novel emerged as the
 Dominant literary form in Britain, displacing poetry from the central position it had occupied since
-The Renaissance. This was a period of extraordinary formal experimentation and thematic ambition:
+the Renaissance. This was a period of extraordinary formal experimentation and thematic ambition:
 The novel expanded from the comic realism of Austen to encompass social protest, psychological
 Depth, Gothic horror, and imperial adventure.
 
 For GCSE purposes, the "19th-century novel" encompasses fiction published between approximately 1800
-And 1914, though the specific texts set by each board cluster in the mid-to-late Victorian period
+and 1914, though the specific texts set by each board cluster in the mid-to-late Victorian period
 (1837--1901). The genre is unified not by a single formal characteristic but by its engagement with
-The social, political, and intellectual upheavals of the age.
+the social, political, and intellectual upheavals of the age.
 
 ### 1.1 Realism and Its Discontents
 
 The dominant mode of the Victorian novel is **realism**: the attempt to represent the world as it
-Is, with fidelity to the details of ordinary life. Realist novelists -- Dickens, Eliot, Gaskell,
+is, with fidelity to the details of ordinary life. Realist novelists -- Dickens, Eliot, Gaskell,
 Bronte -- create densely imagined social worlds populated by characters whose motivations are
 Psychologically plausible and whose circumstances reflect the conditions of contemporary society.
 
@@ -26742,7 +26742,7 @@ Gothic horror, romance, allegory, and symbolism. Stevenson's _Strange Case of Dr
 (1886) is a realist novella that draws on Gothic conventions. Dickens's _A Christmas Carol_ (1843)
 Is a realist social critique structured as a supernatural allegory. Shelley's _Frankenstein_ (1818)
 Combines realist epistolary narrative with Gothic and Romantic elements. The tension between realism
-And other modes is one of the defining features of 19th-century fiction.
+and other modes is one of the defining features of 19th-century fiction.
 
 ### 1.2 Romanticism vs Realism
 
@@ -26754,7 +26754,7 @@ Dehumanising effects.
 
 By the mid-nineteenth century, realism had become the dominant mode. The realist novel focused on
 Social institutions -- marriage, the family, the class system, the law -- and on the ordinary lives
-Of people within those institutions. The transition from Romanticism to realism is not a clean
+of people within those institutions. The transition from Romanticism to realism is not a clean
 Break; most 19th-century novels contain elements of both.
 
 | Feature       | Romanticism                                 | Realism                                   |
@@ -26777,10 +26777,10 @@ Concentration of wealth in the hands of industrial capitalists, and the creation
 Conditions that were, by any standard, appalling.
 
 The industrial cities -- Manchester, Birmingham, Leeds, Sheffield -- grew at a rate that outstripped
-The development of housing, sanitation, and public health infrastructure. Overcrowding, disease,
+the development of housing, sanitation, and public health infrastructure. Overcrowding, disease,
 Pollution, and poverty were endemic. Dickens's fiction is saturated with images of urban squalor:
 The fog-choked streets of London, the Coketown of _Hard Times_ (1854), the filth and desperation of
-The workhouse in _Oliver Twist_ (1837--39).
+the workhouse in _Oliver Twist_ (1837--39).
 
 ### 2.2 Social Class
 
@@ -26796,14 +26796,14 @@ The Victorian class system was rigidly stratified and acutely felt. The major di
 Class mobility was possible but difficult. Education was the primary vehicle, and the expansion of
 State-funded schooling from the 1870 Education Act onward was a direct response to the demand for
 Social mobility. Dickens's _Great Expectations_ (1860--61) is the archetypal novel of class ambition
-And its moral costs.
+and its moral costs.
 
 ### 2.3 Poverty and Social Responsibility
 
 The Poor Law Amendment Act of 1834 established workhouses as the primary means of relieving poverty.
 The workhouse system was designed to be so unpleasant that only the truly desperate would enter it.
 Conditions were deliberately harsh: families were separated, inmates were fed meagre rations, and
-The regime was punitive. Dickens's portrayal of the workhouse in _Oliver Twist_ contributed to
+the regime was punitive. Dickens's portrayal of the workhouse in _Oliver Twist_ contributed to
 Public outrage and eventual reform.
 
 The tension between individualism and social responsibility is a central preoccupation of the
@@ -26816,7 +26816,7 @@ Victorian legacy of class inequality.
 ### 2.4 Education
 
 Before the 1870 Education Act, schooling in Britain was patchy, inconsistent, and largely dependent
-On charitable provision. The Act established school boards with the power to build and maintain
+on charitable provision. The Act established school boards with the power to build and maintain
 Elementary schools, funded by local rates. Universal compulsory education was introduced in 1880.
 The expansion of literacy was one of the most significant social changes of the century, and it had
 Direct consequences for the novel: as the reading public grew, so did the market for fiction, and
@@ -26826,11 +26826,11 @@ Novelists began to write for a broader audience.
 
 The British Empire reached its territorial zenith in the late nineteenth century. Imperial expansion
 Brought wealth, trade routes, and raw materials to Britain, but it also raised urgent questions
-About power, race, and exploitation. The empire appears in 19th-century fiction both as a source of
+about power, race, and exploitation. The empire appears in 19th-century fiction both as a source of
 Exotic setting and adventure (Stevenson's _Treasure Island_, 1883) and as a site of moral anxiety
 (Conrad's _Heart of Darkness_, 1899). Conan Doyle's _The Sign of Four_ (1890), set on the OCR
 Specification, opens with the aftermath of the Indian Mutiny of 1857, embedding the novel's mystery
-Within the context of colonial violence and exploitation.
+within the context of colonial violence and exploitation.
 
 ### 2.6 Science, Religion, and Doubt
 
@@ -26920,7 +26920,7 @@ Consequences of wealth; self-deception and self-knowledge; crime and punishment.
 The second Sherlock Holmes novel. Mary Morstan approaches Holmes with a mystery: her father
 Disappeared ten years ago, and she now receives a pearl annually from an unknown benefactor.
 Holmes's investigation uncovers a story of colonial betrayal, stolen treasure, and murder rooted in
-The Indian Mutiny of 1857.
+the Indian Mutiny of 1857.
 
 **Key themes:** Empire and colonialism; justice and revenge; reason versus emotion; the drug-like
 Nature of obsession; the relationship between Holmes and Watson; racial stereotyping and its
@@ -26929,13 +26929,13 @@ Critique.
 **Silas Marner** by George Eliot (1861)
 
 The story of Silas Marner, a weaver who is falsely accused of theft in his rural community and flees
-To the isolated village of Raveloe. There, he becomes a miser, hoarding gold until it is stolen and
+to the isolated village of Raveloe. There, he becomes a miser, hoarding gold until it is stolen and
 Replaced by the golden-haired child Eppie, who restores him to human connection and community. The
 Novel is a study of alienation and redemption, individualism and community, materialism and love.
 
 **Key themes:** Isolation and community; materialism and human connection; the redemptive power of
 Love; the contrast between rural and industrial life; faith and its loss and recovery; social class
-And the rural poor.
+and the rural poor.
 
 ### 3.4 WJEC/Eduqas
 
@@ -26944,7 +26944,7 @@ And the rural poor.
 A musical play (studied as a drama text) telling the story of twin brothers, Mickey and Eddie,
 Separated at birth and raised in different social classes. Their lives intersect and ultimately
 Collide, with fatal consequences. Though set in the mid-to-late twentieth century, the play engages
-With themes of class inequality that have their roots in the 19th-century social structures
+with themes of class inequality that have their roots in the 19th-century social structures
 Described above.
 
 **Key themes:** Class inequality; nature versus nurture; superstition and fate; friendship and
@@ -27023,7 +27023,7 @@ This irony exposes Birling's foolishness and underscores Priestley's political m
 ### 4.5 Pathetic Fallacy
 
 The pathetic fallacy is the attribution of human emotions to natural phenomena -- when the weather
-Or landscape reflects the mood of a scene or character. The term was coined by John Ruskin in
+or landscape reflects the mood of a scene or character. The term was coined by John Ruskin in
 _Modern Painters_ (1856). In _Frankenstein_, the Arctic landscape that frames the narrative reflects
 Victor's desolation and the Creature's isolation. In _Jekyll and Hyde_, the fog that pervades London
 Mirrors the moral obscurity of the narrative.
@@ -27033,7 +27033,7 @@ Mirrors the moral obscurity of the narrative.
 Stream of consciousness is a narrative technique that attempts to represent the continuous flow of a
 Character's thoughts, perceptions, and associations. It is more characteristic of 20th-century
 Modernism (Woolf, Joyce) than of Victorian fiction, but the technique has 19th-century precursors in
-The interior monologues of Eliot and the psychological depth of the Brontes. Jane Eyre's
+the interior monologues of Eliot and the psychological depth of the Brontes. Jane Eyre's
 First-person narration frequently approaches stream of consciousness in its intensity and immediacy.
 
 ## 5. Characterisation Methods
@@ -27048,8 +27048,8 @@ Scrooge is like.
 **Indirect characterisation** occurs when a character's traits are revealed through their actions,
 Speech, thoughts, appearance, and the responses of others. The reader must infer the character's
 Qualities from the evidence provided. When Scrooge says "If they would rather die, they had better
-Do it, and decrease the surplus population," the reader infers his callousness from his words
-Without being directly told.
+do it, and decrease the surplus population," the reader infers his callousness from his words
+without being directly told.
 
 The most effective characterisation in 19th-century fiction combines both methods. The strongest
 GCSE responses will identify and analyse both.
@@ -27058,8 +27058,8 @@ GCSE responses will identify and analyse both.
 
 The distinction between flat and round characters was articulated by E.M. Forster in _Aspects of the
 Novel_ (1927). **Flat characters** are defined by a single trait or idea; they are two-dimensional
-And do not develop. **Round characters** are complex, multi-dimensional, and capable of surprising
-The reader in convincing ways.
+and do not develop. **Round characters** are complex, multi-dimensional, and capable of surprising
+the reader in convincing ways.
 
 In _A Christmas Carol_, the Ghost of Christmas Yet to Come is a flat character: it is defined
 Entirely by its function as a silent, terrifying agent of prophecy. Scrooge, by contrast, is a round
@@ -27091,7 +27091,7 @@ Theme, and often a force that shapes character and plot.
 The weather in a 19th-century novel is rarely neutral. Storms, fog, darkness, and extreme cold are
 Deployed to create atmosphere, to reflect character states, and to signal thematic concerns. In
 _Frankenstein_, the storm that accompanies Victor's creation of the Creature reflects the disruption
-Of the natural order. In _Jekyll and Hyde_, the fog of London is both a literal description of the
+of the natural order. In _Jekyll and Hyde_, the fog of London is both a literal description of the
 City's pollution and a metaphor for moral obscurity.
 
 ### 6.2 Landscape
@@ -27124,11 +27124,11 @@ Manifestation of her psychological stagnation.
 ### 7.1 Class
 
 Class is arguably the dominant thematic concern of the 19th-century novel. The rigid stratification
-Of Victorian society and the growing awareness of its injustices produced fiction that is deeply
+of Victorian society and the growing awareness of its injustices produced fiction that is deeply
 Engaged with questions of social mobility, economic inequality, and the relationship between wealth
-And moral worth. _Great Expectations_ explores class through Pip's aspiration to gentility and his
+and moral worth. _Great Expectations_ explores class through Pip's aspiration to gentility and his
 Gradual recognition that social status does not confer moral superiority. _An Inspector Calls_ uses
-The Birling family to expose the callousness of the Edwardian upper middle class.
+the Birling family to expose the callousness of the Edwardian upper middle class.
 
 ### 7.2 Power
 
@@ -27151,14 +27151,14 @@ Fiction.
 
 The question of social responsibility -- what we owe to others, particularly to those less fortunate
 -- is central to several set texts. Priestley's _An Inspector Calls_ is essentially a dramatic essay
-On collective responsibility. Dickens's _A Christmas Carol_ argues that the wealthy have a moral
+on collective responsibility. Dickens's _A Christmas Carol_ argues that the wealthy have a moral
 Obligation to the poor. Shelley's _Frankenstein_ raises the question of the creator's responsibility
-For the created.
+for the created.
 
 ### 7.5 Isolation
 
 Isolation -- physical, emotional, social, or moral -- is a recurring theme. Frankenstein's Creature
-Is isolated by his appearance and his lack of social connection. Silas Marner is isolated by
+is isolated by his appearance and his lack of social connection. Silas Marner is isolated by
 Betrayal and loss. Jekyll is isolated by his secret. These characters' isolation drives the plot and
 Shapes the reader's sympathies.
 
@@ -27233,11 +27233,11 @@ Step-by-step approach is designed for this task.
 
 **Step 1: Read the extract twice.** On the first reading, focus on comprehension: what is happening,
 Who is involved, where and when does the scene take place? On the second reading, focus on language
-And style: what techniques does the writer use, and what effects do they create?
+and style: what techniques does the writer use, and what effects do they create?
 
 **Step 2: Identify the genre and register.** Is this a Gothic description? A realist social
 Observation? A romantic interior monologue? The genre will shape the reader's expectations and guide
-The analysis.
+the analysis.
 
 **Step 3: Analyse the language.** Identify specific word choices (diction), sentence structures
 (syntax), figurative language (metaphor, simile, personification), and sound devices (alliteration,
@@ -28826,7 +28826,7 @@ URL: https://gcse.wyattau.com/english/4-essay-writing/4_essay-writing/
 ### 1.1 The Introduction
 
 The introduction has three functions: to engage the reader, to establish the essay"s argument, and
-To provide a roadmap for the discussion that follows. An effective introduction for GCSE English
+to provide a roadmap for the discussion that follows. An effective introduction for GCSE English
 Literature should be concise (no more than four or five sentences) and should accomplish the
 Following:
 
@@ -28856,7 +28856,7 @@ Annihilating.
 
 Each body paragraph should develop a single point that supports the thesis. The paragraph should
 Begin with a topic sentence that states the point, followed by evidence (quotation), analysis of
-That evidence, and a linking sentence that connects the paragraph back to the thesis or to the next
+that evidence, and a linking sentence that connects the paragraph back to the thesis or to the next
 Paragraph. See Section 2 below for detailed paragraph structures.
 
 ### 1.3 The Conclusion
@@ -28897,20 +28897,20 @@ Prescriptive, but it risks insufficient attention to how the text creates meanin
 ### 2.3 PEA
 
 Point, Evidence, Analysis. The most minimal paragraph structure. It is useful for timed examinations
-When speed is essential, but it risks underdeveloped analysis. Each PEA paragraph should be
+when speed is essential, but it risks underdeveloped analysis. Each PEA paragraph should be
 Developed with sufficient detail to avoid superficiality.
 
 ### 2.4 TEEL
 
 Topic sentence, Evidence, Explanation, Link. Functionally equivalent to PEEL. Some teachers prefer
-The term "topic sentence" to "point" because it emphasises that the first sentence of the paragraph
-Should state the topic of the paragraph, not merely a general point.
+the term "topic sentence" to "point" because it emphasises that the first sentence of the paragraph
+should state the topic of the paragraph, not merely a general point.
 
 ### 2.5 TEAC
 
 Topic sentence, Evidence, Analysis, Context. This structure ensures that contextual knowledge is
 Integrated into every paragraph, which is essential for addressing AO3. It is particularly useful
-For the 19th-century novel and Shakespeare components.
+for the 19th-century novel and Shakespeare components.
 
 ### 2.6 The ABC Method
 
@@ -28927,7 +28927,7 @@ Suitable for higher-ability students who have mastered the fundamentals of parag
 ### 2.7 Choosing a Structure
 
 No single paragraph structure is inherently superior. The best structure is the one that the student
-Can execute most effectively under examination conditions. Students should practise with PETAL as
+can execute most effectively under examination conditions. Students should practise with PETAL as
 Their default structure, experiment with alternatives, and develop a personal style that is
 Consistent, logical, and well-supported with evidence.
 
@@ -28952,7 +28952,7 @@ Or quality of a text or a particular aspect of it. Evaluative language includes 
 - "Owen's imagery is devastating in its..."
 
 Evaluation is not required by all specifications, but it distinguishes the highest-mark responses
-From merely competent ones.
+from merely competent ones.
 
 ### 3.3 Argumentative Essays
 
@@ -28979,7 +28979,7 @@ Is the cornerstone of the argumentative essay.
 
 **Integrated comparison** (alternating between texts within each paragraph) is the preferred
 Approach because it demonstrates genuine comparative thinking. Each paragraph makes a point about
-Both texts, showing how they are similar, different, or related.
+both texts, showing how they are similar, different, or related.
 
 **Block comparison** (writing about one text in full, then the other) is easier to manage but is
 Generally less effective because it does not require the student to make connections between the
@@ -28993,12 +28993,12 @@ Both Owen's "Dulce et Decorum Est" and Hughes's "Bayonet Charge" present war as 
 Experience that strips soldiers of their individuality. Owen describes the gas victim as
 "flound'ring like a man in fire or lime," the simile reducing the soldier to a generic figure of
 Suffering; the word "flound'ring" suggests both physical helplessness and the loss of coordination
-And agency. Similarly, Hughes describes the soldier in "Bayonet Charge" as caught in "cold
+and agency. Similarly, Hughes describes the soldier in "Bayonet Charge" as caught in "cold
 Clockwork," an extended metaphor that reduces him to a component of a mechanical system. However,
 While Owen's focus is on the physical suffering of the victim, Hughes's focus is on the
 Psychological disorientation of the combatant: the soldier "was bewildered" and "bewildering,"
 Caught between instinct and obligation. This difference in focus reflects the distinct purposes of
-The two poems: Owen's poem is an indictment of those who glorify war, while Hughes's is an
+the two poems: Owen's poem is an indictment of those who glorify war, while Hughes's is an
 Exploration of the individual's experience of being caught in forces beyond his control.
 
 </details>
@@ -29009,7 +29009,7 @@ Exploration of the individual's experience of being caught in forces beyond his 
 
 A quotation is the verbatim reproduction of a writer's words, enclosed in quotation marks. In a
 Closed-book examination, quotations must be memorised. In an open-book examination, quotations
-Should be copied accurately.
+should be copied accurately.
 
 **Rules for quotations:**
 
@@ -29039,7 +29039,7 @@ Suggesting that the fog is not merely weather but a shroud that blankets and suf
 Paraphrasing is the restatement of a writer's ideas in your own words. Paraphrase is useful for
 Conveying the content of a passage when a direct quotation is not necessary, but it does not
 Substitute for quotation. In GCSE English Literature, the examiner expects to see direct quotations
-As evidence. Paraphrase should support, not replace, quotation.
+as evidence. Paraphrase should support, not replace, quotation.
 
 ### 5.4 References
 
@@ -29068,7 +29068,7 @@ Owen's war poetry: the tradition of Georgian poetry that Owen reacted against.
 **Biographical context** refers to the life of the author and how it may have influenced the text.
 This is the least important form of context for GCSE and should be used sparingly. Shakespeare's
 Biography, for example, tells us almost nothing useful about _Macbeth_ that is not already evident
-In the text.
+in the text.
 
 ### 6.2 Integrating Context into Analysis
 
@@ -29092,7 +29092,7 @@ Alone. We are members of one body. We are responsible for each other" -- articul
 Socialist philosophy in its most direct form. The play was written in 1945, at the end of the Second
 World War, when the British electorate had just voted in a Labour government committed to the
 Creation of the welfare state. Priestley, a committed socialist, intended the play as a contribution
-To the post-war debate about the kind of society Britain should become. By setting the play in 1912
+to the post-war debate about the kind of society Britain should become. By setting the play in 1912
 -- before the First World War, before the Russian Revolution, before the Labour Party became a
 Significant political force -- Priestley creates dramatic irony: the audience of 1945 knows the
 Catastrophic consequences of the attitudes that the Birlings express with such confidence, and the
@@ -29237,7 +29237,7 @@ identify its key terms, and ensure that every paragraph addresses those terms.
 ### 9.7 Weak Conclusions
 
 A conclusion that merely repeats the introduction or summarises the essay's content without offering
-Any evaluative insight wastes the final opportunity to impress the examiner. Use the conclusion to
+any evaluative insight wastes the final opportunity to impress the examiner. Use the conclusion to
 Synthesise, evaluate, and leave a final impression.
 
 ## 10. Worked Example Essay with Annotations
@@ -29254,7 +29254,7 @@ Macbeth's initial reluctance -- "I have no spur / To prick the sides of my inten
 Vaulting ambition, which o'erleaps itself" (1.7) -- reveals his awareness that ambition is an
 Inadequate and dangerous motivation, yet his subsequent actions demonstrate that this awareness is
 Insufficient to restrain it. Through the progressive deterioration of Macbeth's character, the use
-Of blood and darkness imagery, and the structural contrast with Banquo, Shakespeare develops a
+of blood and darkness imagery, and the structural contrast with Banquo, Shakespeare develops a
 Vision of ambition as a compulsion that annihilates the very things it seeks to attain.
 
 [**Paragraph 1: PETAL structure. Point, Evidence, Technique, Analysis, Link.**]
@@ -29273,30 +29273,30 @@ Feat" (1.7) -- demonstrates the fragility of his moral resistance in the face of
 
 As the play progresses, ambition ceases to be a motive and becomes a compulsion. In Act 3, Scene 1,
 Macbeth no longer needs external prompting: he plots the murder of Banquo independently, driven by
-The paranoid logic that "To be thus is nothing, but to be safely thus" (3.1). The repetition of
+the paranoid logic that "To be thus is nothing, but to be safely thus" (3.1). The repetition of
 "thus" -- to be king is meaningless unless one is securely king -- reveals how ambition has
 Transformed from a desire for power into an anxiety about its loss. The structural parallel between
-The murder of Duncan (Act 2) and the murder of Banquo (Act 3) demonstrates the escalation of
+the murder of Duncan (Act 2) and the murder of Banquo (Act 3) demonstrates the escalation of
 Macbeth's ambition: each murder makes the next one both more necessary and more horrific.
 
 [**Paragraph 3: introduces contextual knowledge, integrated with analysis.**]
 
 Shakespeare's presentation of ambition as a threat to the natural order reflects the Jacobean belief
-In the divine right of kings and the Great Chain of Being. Macbeth's regicide is not merely a
+in the divine right of kings and the Great Chain of Being. Macbeth's regicide is not merely a
 Political act but a sacrilege that disrupts the cosmic order, symbolised by the unnatural events
-That follow Duncan's murder: "Tis unnatural, / Even like the deed that's done. On Tuesday last, / A
+that follow Duncan's murder: "Tis unnatural, / Even like the deed that's done. On Tuesday last, / A
 Falcon, towering in her pride of place, / Was by a mousing owl hawked at and killed" (2.4). The
 Image of the owl killing the falcon -- a creature of prey killed by a creature normally below it in
-The natural hierarchy -- mirrors Macbeth's violation of the social and cosmic order. For a Jacobean
+the natural hierarchy -- mirrors Macbeth's violation of the social and cosmic order. For a Jacobean
 Audience, who had witnessed the Gunpowder Plot of 1605, this association between political treason
-And cosmic disorder would have been immediately resonant and politically charged.
+and cosmic disorder would have been immediately resonant and politically charged.
 
 [**Paragraph 4: introduces Banquo as a structural contrast.**]
 
 Shakespeare uses Banquo as a structural foil to Macbeth in order to demonstrate that ambition need
-Not be destructive. Like Macbeth, Banquo receives a prophecy from the Weird Sisters, but his
+not be destructive. Like Macbeth, Banquo receives a prophecy from the Weird Sisters, but his
 Response -- "If you can look into the seeds of time, / And say which grain will grow and which will
-Not, / Speak then to me" (1.3) -- is characterised by curiosity rather than covetousness. The
+not, / Speak then to me" (1.3) -- is characterised by curiosity rather than covetousness. The
 Metaphor of the "seeds of time" suggests that Banquo accepts the uncertainty of the future, whereas
 Macbeth demands certainty and acts to secure it. Banquo's self-knowledge -- "there is no art / To
 Find the mind's construction in the face" (1.4) -- contrasts with Macbeth's inability to recognise
@@ -29309,8 +29309,8 @@ Shakespeare's presentation of ambition in _Macbeth_ is not that ambition is evil
 that would not sustain the play's complexity -- but that ambition, once activated, becomes a
 Self-sustaining and self-destructive force that the individual cannot control. The progression from
 Macbeth's initial reluctance to his final nihilism ("Tomorrow, and tomorrow, and tomorrow") traces
-The complete arc of ambition's corrosive power. The play's enduring power lies in its recognition
-That ambition is not an external temptation but an internal compulsion, and that the line between
+the complete arc of ambition's corrosive power. The play's enduring power lies in its recognition
+that ambition is not an external temptation but an internal compulsion, and that the line between
 Aspiration and destruction is terrifyingly thin.
 
 </details>
@@ -29338,7 +29338,7 @@ Aspiration and destruction is terrifyingly thin.
 
 **Estimated grade: Level 6 (high).** The essay demonstrates sustained, perceptive analysis,
 Effective use of evidence, and integrated contextual knowledge. With more explicit attention to form
-And structure, it would achieve the highest level.
+and structure, it would achieve the highest level.
 
 </details>
 
@@ -29844,13 +29844,13 @@ Absence of an anthology, and whether texts may be taken into the examination.
 ## Assessment Objectives
 
 All four boards assess students against versions of the same four assessment objectives. These are
-The lens through which every essay is marked, and students must understand them before attempting
-Any examination response.
+the lens through which every essay is marked, and students must understand them before attempting
+any examination response.
 
 **AO1 -- Read, understand, and respond to texts.** This objective rewards clear, accurate
 Comprehension of the text and the ability to maintain a coherent, relevant argument throughout a
 Response. It also assesses the quality of written expression: spelling, punctuation, grammar, and
-The use of appropriate literary terminology.
+the use of appropriate literary terminology.
 
 **AO2 -- Analyse the language, form, and structure used by a writer to create meanings and
 Effects.** This is the core analytical objective. It requires students to engage with how a text is
@@ -29867,7 +29867,7 @@ Accurate spelling and punctuation.** On some boards this is integrated into AO1;
 Assessed separately. In all cases, the quality of written communication affects the overall mark.
 
 The weighting of these objectives varies by board and by question. For detailed breakdowns, consult
-The individual board specification documents.
+the individual board specification documents.
 
 ## Paper 1: Shakespeare and the 19th-Century Novel
 
@@ -29877,7 +29877,7 @@ as a whole. The 19th-century novel component follows a similar pattern: an extra
 a whole-text question, depending on the board.
 
 The skills assessed are close reading of literary language, sustained argument, and the integration
-Of contextual knowledge into literary analysis. See the dedicated guides on
+of contextual knowledge into literary analysis. See the dedicated guides on
 [Shakespeare](/english/1-shakespeare/1_shakespeare/) and the
 [19th-Century Novel](/english/2-19th-century-novel/2_19th-century-novel/) for detailed treatment Of these
 components.
@@ -29887,7 +29887,7 @@ components.
 This paper covers post-1914 drama or prose, an examined poetry anthology (where applicable), and
 Unseen poetry. The unseen poetry component is a distinctive feature of GCSE English Literature: it
 Requires students to apply their analytical skills to a poem they have not studied, demonstrating
-That their critical abilities are transferable rather than rote-learned.
+that their critical abilities are transferable rather than rote-learned.
 
 The poetry anthology varies by board. AQA requires study of 15 poems from the "Power and Conflict"
 Or "Love and Relationships" clusters. Edexcel specifies a collection organised by theme. OCR
@@ -29909,7 +29909,7 @@ Happens; it explains how the text communicates its meanings.
 ### Essay Writing
 
 GCSE English Literature demands sustained, discursive essays. Students must construct an argument
-With a clear thesis, support it with precisely chosen textual evidence, and analyse that evidence
+with a clear thesis, support it with precisely chosen textual evidence, and analyse that evidence
 Using appropriate literary terminology. The [Essay Writing](/english/4-essay-writing/4_essay-writing/) guide
 provides Comprehensive frameworks for structuring and writing examination essays.
 
@@ -29997,7 +29997,7 @@ URL: https://gcse.wyattau.com/english/3-modern-texts-and-poetry/3_modern-texts-a
 ## 1. Modern Texts (Post-1914)
 
 The "modern texts" component of GCSE English Literature encompasses fiction, drama, and occasionally
-Non-fiction published after 1914. The choice of modern text varies by board and by centre. The
+non-fiction published after 1914. The choice of modern text varies by board and by centre. The
 Following are the most commonly set texts.
 
 ### 1.1 Modern Drama
@@ -30013,7 +30013,7 @@ The play is structured as a well-made play: a single setting (the Birlings' dini
 Timeframe (a single evening), escalating revelations, and a climactic twist (the Inspector's
 Identity and the possibility that he was not a real police officer). Priestley uses this
 Conventional structure to deliver a radical political argument about collective responsibility and
-The interconnectedness of all members of society.
+the interconnectedness of all members of society.
 
 **Key themes:** Social responsibility and collective guilt; class inequality and the abuse of power;
 Generational conflict (the younger Birlings learn; the older ones do not); gender and the
@@ -30093,7 +30093,7 @@ Poems: "Dulce et Decorum Est," "Anthem for Doomed Youth," "Exposure," "The Send-
 
 Like Owen, a war poet whose early romantic patriotism gave way to savage indignation. Sassoon's
 Poetry is more direct and satirical than Owen's, less reliant on complex figurative language and
-More on biting statement. Key poems: "The General," "Suicide in the Trenches," "Base Details."
+more on biting statement. Key poems: "The General," "Suicide in the Trenches," "Base Details."
 
 **Sylvia Plath (1932--1963)**
 
@@ -30106,13 +30106,13 @@ Striking, sometimes disturbing imagery. Key poems: "Poppies in July," "The Moon 
 
 Poet Laureate from 1984 to 1998, Hughes is best known for his poems about the natural world, which
 Present nature as a site of violence, power, and primal energy. His marriage to Plath and his poems
-About their relationship have also attracted critical attention. Key poems: "Hawk Roosting,"
+about their relationship have also attracted critical attention. Key poems: "Hawk Roosting,"
 "Bayonet Charge," "The Thought-Fox," "Wind."
 
 **Seamus Heaney (1939--2013)**
 
 An Irish poet whose work explores the landscapes and histories of rural Ireland, the conflict
-Between personal and political identity, and the relationship between the individual and the
+between personal and political identity, and the relationship between the individual and the
 Ancestral past. Heaney won the Nobel Prize for Literature in 1995. Key poems: "Digging," "Mid-Term
 Break," "Follower," "Death of a Naturalist."
 
@@ -30147,7 +30147,7 @@ Cluster and answer one comparative question.
 
 **Edexcel:** An anthology of 16 poems organised under the themes of "Conflict" or "Comedy and
 Genre." Students study the full anthology and answer one essay question on a named poem, comparing
-It with at least one other from the anthology.
+it with at least one other from the anthology.
 
 **WJEC/Eduqas:** An anthology of 18 poems by Welsh and English-language poets, organised
 Thematically. Students answer one question requiring comparison of two poems from the anthology.
@@ -30278,12 +30278,12 @@ When analysing a poem, address the following five elements in a structured, inte
 ### 4.1 Form and Structure
 
 What type of poem is this? How is it organised? Is the structure regular or irregular, and what does
-That choice suggest? Where are the turning points, and how do they affect the poem's meaning?
+that choice suggest? Where are the turning points, and how do they affect the poem's meaning?
 
 ### 4.2 Voice and Tone
 
 Who is speaking? To whom? What is their attitude toward their subject? Tone is the emotional quality
-Of the speaker's voice: it may be angry, tender, bitter, nostalgic, ironic, resigned, celebratory,
+of the speaker's voice: it may be angry, tender, bitter, nostalgic, ironic, resigned, celebratory,
 Or any combination of these. Tone is conveyed through word choice, sentence structure, and the
 Relationship between the speaker and the subject.
 
@@ -30301,8 +30301,8 @@ Use form, structure, language, and imagery to explore those questions?
 ### 4.5 Personal Response
 
 What is your response to the poem? Which aspects are most effective, and why? A personal response is
-Not a substitute for analysis, but it can add depth and conviction to an essay when it is grounded
-In specific textual evidence.
+not a substitute for analysis, but it can add depth and conviction to an essay when it is grounded
+in specific textual evidence.
 
 <details>
 <summary>Worked Analysis: "Bayonet Charge" by Ted Hughes (Excerpt)</summary>
@@ -30358,7 +30358,7 @@ Before writing, identify the **points of comparison** between the poems. These m
 ### 5.2 Structuring the Comparative Essay
 
 The most effective comparative essays use **integrated comparison**: each paragraph makes a point
-About both poems, rather than writing about one poem and then the other.
+about both poems, rather than writing about one poem and then the other.
 
 A comparative paragraph structure might follow this pattern:
 
@@ -30382,7 +30382,7 @@ Use comparative language to make the links between poems explicit:
 ## 6. Unseen Poetry Analysis
 
 The unseen poetry component requires students to analyse one or two poems they have not studied
-Before. This tests transferable analytical skills rather than rote knowledge.
+before. This tests transferable analytical skills rather than rote knowledge.
 
 ### 6.1 Step-by-Step Approach
 
@@ -30408,7 +30408,7 @@ Matters more than quantity of quotation.
 
 **Step 7: Write a thesis statement.** Before beginning the essay, formulate a clear argument about
 The poem's meaning and how it is achieved. The thesis should be specific, debatable, and grounded in
-The text.
+the text.
 
 ### 6.2 Timing
 
@@ -30437,9 +30437,9 @@ For the unseen poetry question, time management is critical:
 
 War poetry is dominated by the First World War poets (Owen, Sassoon, Rosenberg, Brooke) and their
 Successors. The dominant themes are the horror and futility of industrialised warfare; the betrayal
-Of the young by the old; the gap between the rhetoric of patriotism and the reality of combat; the
+of the young by the old; the gap between the rhetoric of patriotism and the reality of combat; the
 Physical and psychological damage inflicted on soldiers; and the inadequacy of language to convey
-The experience of war.
+the experience of war.
 
 ### 7.2 Identity
 
@@ -30484,7 +30484,7 @@ Intensity.
 
 Paper 2, Section B: Poetry. Students answer one question from their chosen cluster (Love and
 Relationships, or Power and Conflict). The question requires comparison of one named poem with at
-Least one other from the cluster. The question carries 30 marks. The paper is closed-book.
+least one other from the cluster. The question carries 30 marks. The paper is closed-book.
 
 Section C: Unseen Poetry. Students answer one question on one unseen poem (24 marks) and one
 Comparative question on two unseen poems (8 marks).
@@ -30499,7 +30499,7 @@ Carries 32 marks. The paper is closed-book.
 
 Paper 1, Section B: Pre-1900 Poetry. Students study a prescribed anthology of poetry from the
 English literary heritage alongside Shakespeare. The question requires comparison of two poems from
-The anthology. Open-book.
+the anthology. Open-book.
 
 Paper 2, Section C: Unseen Poetry. Students answer one comparative question on two unseen
 Contemporary poems. The question carries 24 marks.
@@ -30975,13 +30975,13 @@ URL: https://gcse.wyattau.com/english/1-shakespeare/1_shakespeare/
 William Shakespeare (1564--1616) is the only writer whose work is prescribed on every GCSE English
 Literature specification in the United Kingdom. This is not merely an act of institutional
 Conservatism. Shakespeare's plays occupy a unique position in the English literary canon: they are
-The most frequently performed, the most widely studied, and the most thoroughly critiqued works in
-The language. They have shaped the development of English drama, influenced virtually every major
+the most frequently performed, the most widely studied, and the most thoroughly critiqued works in
+the language. They have shaped the development of English drama, influenced virtually every major
 Writer who followed, and continue to be adapted into film, fiction, and theatre worldwide.
 
 From an examination perspective, Shakespeare tests the full range of literary-critical skills: close
 Reading of complex language, interpretation of dramatic structure, analysis of character development
-Across an entire play, and the integration of historical context into literary argument. A student
+across an entire play, and the integration of historical context into literary argument. A student
 Who can write well about Shakespeare can write well about almost anything on the syllabus.
 
 ## 2. Shakespeare's Context
@@ -31015,7 +31015,7 @@ Key contextual factors for GCSE study include:
 
 Shakespeare's plays were performed at the Globe Theatre on the south bank of the Thames from 1599.
 Understanding the physical conditions of the Globe is essential to understanding how the plays work
-As drama.
+as drama.
 
 - **The stage was thrust into the audience.** There was no proscenium arch separating actors from
   spectators. Audience members stood in the yard (the "groundlings") or sat in the galleries that
@@ -31110,7 +31110,7 @@ Yorkist faction.
 Shakespeare's figurative language is his most powerful analytical tool. Extended metaphors (or
 **conceits**) structure whole passages or scenes. The "taper" (candle) metaphor in _Macbeth_ 5.5 --
 "She should have died hereafter; / There would have been a time for such a word" -- develops into
-The image of life as a "poor player / That struts and frets his hour upon the stage," linking the
+the image of life as a "poor player / That struts and frets his hour upon the stage," linking the
 Themes of mortality, performance, and meaninglessness.
 
 Imagery clusters are crucial for GCSE analysis. In _Macbeth_, the recurring imagery of blood,
@@ -31161,7 +31161,7 @@ Psychological disintegration; appearance versus reality.
 #### Romeo and Juliet (c. 1595)
 
 Set in Verona, the play tells the story of two young lovers from feuding families, the Montagues and
-The Capulets, whose secret marriage ends in both their deaths. The play is notable for its extreme
+the Capulets, whose secret marriage ends in both their deaths. The play is notable for its extreme
 Compression of time (the entire action takes place over fewer than five days) and its blending of
 Tragic and comic elements.
 
@@ -31328,22 +31328,22 @@ When analysing a soliloquy, address the following elements:
 
 Engaging with critical perspectives can elevate a GCSE response, although it is not required by any
 Specification. The following are key critical traditions relevant to the plays most commonly studied
-At GCSE.
+at GCSE.
 
 ### 6.1 Samuel Johnson (1765)
 
 Johnson's _Preface to Shakespeare_ defended Shakespeare against neoclassical criticism. He argued
-That Shakespeare's plays should be judged not by adherence to classical rules of unity (time, place,
+that Shakespeare's plays should be judged not by adherence to classical rules of unity (time, place,
 Action) but by their fidelity to human nature. Johnson praised Shakespeare's "just representation of
 General nature" -- his ability to create characters who are universal in their recognisability.
 
 ### 6.2 A.C. Bradley (1904)
 
 Bradley's _Shakespearean Tragedy_ established the character-based approach to Shakespeare criticism
-That still dominates secondary education. Bradley treated Shakespeare's characters as if they were
+that still dominates secondary education. Bradley treated Shakespeare's characters as if they were
 Real people whose motivations could be analysed psychologically. His readings of Hamlet, Othello,
 Lear, and Macbeth remain influential, though they have been challenged for treating the plays as if
-They were novels rather than drama.
+they were novels rather than drama.
 
 ### 6.3 Jan Kott (1961)
 
@@ -31359,7 +31359,7 @@ Greenblatt's _Renaissance Self-Fashioning_ (1980) and _Will in the World_ (2004)
 Shakespeare's plays engage with the political, religious, and social tensions of Elizabethan and
 Jacobean England. This approach is particularly relevant to GCSE because it directly addresses AO3
 (context). For example, reading _Macbeth_ through a New Historicist lens means attending not only to
-The play's internal themes of ambition and guilt but also to its engagement with the Gunpowder Plot,
+the play's internal themes of ambition and guilt but also to its engagement with the Gunpowder Plot,
 The Stuart succession, and contemporary anxieties about treason.
 
 ### 6.5 Feminist Criticism
@@ -31391,7 +31391,7 @@ Five-act structure follows this pattern:
 | reconciliation.      |
 
 Students should be able to identify the structural function of any given scene within this framework
-And to explain how Shakespeare uses structure to shape the audience's experience.
+and to explain how Shakespeare uses structure to shape the audience's experience.
 
 ### 7.2 Character
 
@@ -31434,8 +31434,8 @@ Shakespeare presents Macbeth's ambition as a force that violates the natural ord
 Contemplates the murder of Duncan, the imagery of cosmic disruption -- "Stars, hide your fires; /
 Let not light see my black and deep desires" (1.4) -- connects his personal ambition to the larger
 Framework of the Great Chain of Being. In Jacobean England, the murder of a divinely appointed king
-Was not merely a political act but a sacrilege that threatened to unravel the entire moral fabric of
-The universe. Shakespeare's audience, acutely aware of the recent Gunpowder Plot (1605), would have
+was not merely a political act but a sacrilege that threatened to unravel the entire moral fabric of
+the universe. Shakespeare's audience, acutely aware of the recent Gunpowder Plot (1605), would have
 Understood Macbeth's regicide as a direct analogue to the Catholic conspiracy against James I. The
 Image of the stars hiding their light thus operates on both a personal level (Macbeth's desire to
 Conceal his thoughts) and a cosmic level (the disruption of the divine order).
@@ -31471,7 +31471,7 @@ Edexcel requires the study of one Shakespeare play from:
 - _Julius Caesar_
 
 The examination consists of two parts: a short extract-based question (10 marks) and a longer essay
-On the play as a whole (20 marks). The paper is closed-book.
+on the play as a whole (20 marks). The paper is closed-book.
 
 ### OCR
 
@@ -31985,7 +31985,7 @@ $$
 Roots: $x = 1$ and $x = -\frac{5}{2}$.
 
 Since the coefficient of $x^2$ is positive, the parabola opens upward. The expression is negative
-Between the roots:
+between the roots:
 
 $$
 -\frac{5}{2} \lt x \lt 1
@@ -32265,7 +32265,7 @@ Translation right by 3, up by 1: $(2 + 3, 5 + 1) = (5, 6)$.
 **Worked Example (Higher Tier).** Given $f(x) = x^2$ Sketch $y = -f(2x) + 3$.
 
 $y = -(2x)^2 + 3 = -4x^2 + 3$. This is a parabola opening downward with vertex at $(0, 3)$ Narrower
-Than $y = x^2$ by a factor of 2 in the $x$-direction.
+than $y = x^2$ by a factor of 2 in the $x$-direction.
 
 ## 6. Algebraic Fractions
 
@@ -32356,14 +32356,14 @@ Let the consecutive integers be $n$ and $n + 1$.
 $n^2 + (n+1)^2 - 1 = n^2 + n^2 + 2n + 1 - 1 = 2n^2 + 2n = 2n(n + 1)$.
 
 Since $n$ and $n + 1$ are consecutive, one is even, so $n(n+1)$ is even, meaning $n(n+1) = 2k$ for
-Some integer $k$.
+some integer $k$.
 
 Therefore $2n(n+1) = 4k$ Which is divisible by 4 but not necessarily by 8. The original claim that
-This is always divisible by 8 is **false**. For example, when $n = 1$: $1 + 4 - 1 = 4$ Which is not
+this is always divisible by 8 is **false**. For example, when $n = 1$: $1 + 4 - 1 = 4$ Which is not
 Divisible by 8.
 
 ::warning Not every claim about numbers is true. When asked to prove something, first check whether
-The statement is actually correct with a small example.
+the statement is actually correct with a small example.
 
 ### 7.3 Disproof by Counterexample
 
@@ -34095,7 +34095,7 @@ $$h^2 + 6^2 = 10^2$$ $$h^2 = 100 - 36 = 64$$ $$h = 8 \mathrm{ m$$
 Right-angled, or obtuse?
 
 $7^2 + 11^2 = 49 + 121 = 170$. Since $170 \gt 13^2 = 169$ The triangle is acute (the angle opposite
-The longest side is less than $90^{\circ}$).
+the longest side is less than $90^{\circ}$).
 
 **Test for triangle type:**
 
@@ -34355,7 +34355,7 @@ Therefore $AB = AC$. $\blacksquare$
 
 **Proof of the area of a trapezium.** A trapezium with parallel sides $a$ and $b$ and height $h$ can
 Be divided into a rectangle and two triangles. The rectangle has area $ah$ and the two triangles
-Have total area $\frac{1}{2}(b-a)h + \frac{1}{2}(b-a)h = (b-a)h$. Total:
+have total area $\frac{1}{2}(b-a)h + \frac{1}{2}(b-a)h = (b-a)h$. Total:
 $ah + (b-a)h = bh - ah + ah
 = (a+b)h/2$. $\blacksquare$
 
@@ -34546,7 +34546,7 @@ The region is a quarter circle of radius 8 m centred at the corner.
 Region of points that are within 5 units of $A$ and closer to $A$ than to $B$.
 
 The first condition is a circle of radius 5 centred at $A$. The second condition is the half-plane
-On $A$'s side of the perpendicular bisector of $AB$. The shaded region is the intersection.
+on $A$'s side of the perpendicular bisector of $AB$. The shaded region is the intersection.
 
 ## 8. 3D Geometry (Higher Tier)
 
@@ -34988,7 +34988,7 @@ URL: https://gcse.wyattau.com/maths/1-number/1_number/
 ### 1.1 The Number System
 
 The real numbers can be classified into several nested subsets. Understanding these classifications
-Is essential for working with the number system fluently.
+is essential for working with the number system fluently.
 
 **Definition.** The set of **natural numbers** is $\mathbb{N} = \{1, 2, 3, \ldots\}$. The set of
 **integers** is $\mathbb{Z} = \{\ldots, -2, -1, 0, 1, 2, \ldots\}$.
@@ -35075,14 +35075,14 @@ $$
 **Proof.** Suppose there are finitely many primes $p_1, p_2, \ldots, p_n$. Consider
 $N = p_1 p_2
 \cdots p_n + 1$. For each prime $P_i$, $N$ leaves remainder 1 when divided by $P_i$, so
-No $p_i$ divides $N$. Either $N$ is prime (contradicting that the list was complete) or $N$ has a
+no $p_i$ divides $N$. Either $N$ is prime (contradicting that the list was complete) or $N$ has a
 Prime factor not in the list (also a contradiction). $\blacksquare$
 
 ### 1.3 Highest Common Factor and Lowest Common Multiple
 
 Given two integers $a$ and $b$ Their **highest common factor** (HCF) is the largest integer that
 Divides both $a$ and $b$. Their **lowest common multiple** (LCM) is the smallest positive integer
-That is a multiple of both.
+that is a multiple of both.
 
 If the prime factorisations are $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots$ and
 $b = p_1^{\beta_1} p_2^{\beta_2} \cdots$ Then:
@@ -35746,7 +35746,7 @@ Prime. $\blacksquare$
 **Example.** Prove that $n^2 + n$ is always even for all integers $n$.
 
 $n^2 + n = n(n + 1)$. Among any two consecutive integers, one must be even. Therefore their product
-Is even. $\blacksquare$
+is even. $\blacksquare$
 
 **Example.** Prove that the difference between the squares of any two consecutive odd numbers is
 Divisible by 8.
@@ -36363,7 +36363,7 @@ $$
 ### 3.4 Instantaneous Rate of Change
 
 The **instantaneous rate of change** at a point is the gradient of the **tangent** to the curve at
-That point.
+that point.
 
 **Worked Example.** The volume of water in a tank is given by $V = 2t^2 + 3t$ litres, where $t$ is
 In minutes. Find the rate at which the volume is increasing when $t = 4$.
@@ -36520,7 +36520,7 @@ When interpreting real-life graphs:
 ### 6.3 Conversion Graphs
 
 A conversion graph between two units is always a straight line through the origin (if the conversion
-Is proportional).
+is proportional).
 
 **Worked Example.** A conversion graph between miles and kilometres passes through $(0, 0)$ and
 $(5, 8)$. Find the conversion factor.
@@ -36555,7 +36555,7 @@ $$\frac{3x + 8}{5x} = \frac{5}{6}$$ $$6(3x + 8) = 25x$$ $$18x + 48 = 25x$$ $$7x 
 
 Since $x$ must be an integer, there is no solution with whole counters. Let us re-check: $7x = 48$
 Gives $x = 48/7$ Which is not an integer. This suggests the problem has no integer solution, which
-Would need to be re-examined in context.
+would need to be re-examined in context.
 
 ### 7.3 More Complex Ratio Problems (Higher Tier)
 
@@ -36706,7 +36706,7 @@ Total distance = $100 + 400 + 50 = 550$ m.
 ### 9.4 Reverse Percentage Problems
 
 A reverse percentage problem asks: "A price after VAT is 120 pounds. The VAT rate is 20%. What was
-The original price?"
+the original price?"
 
 The original price is NOT $120 - 24 = 96$ pounds. Instead:
 
@@ -36835,7 +36835,7 @@ I = Prt
 $$
 
 Where $P$ is the principal, $r$ is the annual rate, and $t$ is the time in years. The total amount
-Is $A = P + Prt = P(1 + rt)$.
+is $A = P + Prt = P(1 + rt)$.
 
 **Compound interest** is calculated on the principal plus accumulated interest:
 
@@ -37305,7 +37305,7 @@ From the ogive, the median falls in the $25 \leq d \lt 40$ class.
 
 **Line of best fit:** A straight line drawn through the data that approximately follows the trend.
 It should pass through the mean point $(\bar{x}, \bar{y})$ and have roughly equal numbers of points
-On each side.
+on each side.
 
 :::caution
 Factor, or by coincidence.
@@ -37318,7 +37318,7 @@ Factor, or by coincidence.
 
 **Worked Example (Higher Tier).** A scatter graph of exam score against hours of revision shows a
 Strong positive correlation. The line of best fit passes through $(2, 35)$ and $(10, 85)$. Estimate
-The exam score for a student who revised for 7 hours.
+the exam score for a student who revised for 7 hours.
 
 Gradient: $m = \frac{85 - 35}{10 - 2} = \frac{50}{8} = 6.25$.
 
@@ -37520,7 +37520,7 @@ $$
 The mean and standard deviation?
 
 The new mean is $\bar{x} + 5$. The standard deviation is unchanged, because adding a constant shifts
-All values by the same amount but does not change their spread.
+all values by the same amount but does not change their spread.
 
 If every value is multiplied by $k$ The new mean is $k\bar{x}$ and the new standard deviation is
 $|k|\sigma$.
@@ -37578,7 +37578,7 @@ Independent (because $P(A \cap B) = 0 \neq P(A) \times P(B)$ when both are posit
 
 **Example.** A card is drawn from a standard 52-card deck. Let $A$ be "the card is a heart" and $B$
 Be "the card is a king". These events are NOT mutually exclusive (the king of hearts is both), but
-They ARE independent: $P(A) = 13/52 = 1/4$, $P(B) = 4/52 = 1/13$ And
+they ARE independent: $P(A) = 13/52 = 1/4$, $P(B) = 4/52 = 1/13$ And
 $P(A \cap B) = 1/52 = (1/4)(1/13)$.
 
 ### 9.2 Why the Standard Deviation Uses Squared Differences
@@ -39416,7 +39416,7 @@ Total: $R_{\mathrm{total} = 3 + 4 = 7 \mathrm{  \Omega$.
 ### 2.5 Why Adding Resistors in Series Increases Total Resistance
 
 Each additional series resistor adds more opposition to the flow of current. The electrons must pass
-Through every resistor in turn, so the total resistance is the sum of all individual resistances.
+through every resistor in turn, so the total resistance is the sum of all individual resistances.
 This is analogous to adding length to a pipe: a longer pipe offers more resistance to fluid flow.
 
 ## 3. Circuit Components
@@ -39607,7 +39607,7 @@ Outdoors.
 ### 6.1 Electric Charge
 
 When certain materials are rubbed together, electrons are transferred from one material to the
-Other:
+other:
 
 - The material that **gains** electrons becomes **negatively charged**
 - The material that **loses** electrons becomes **positively charged**
@@ -39643,9 +39643,9 @@ Discharged areas. The toner is then transferred to paper and heated to fix it in
 ### 6.4 Electrostatic Precipitators
 
 Industrial electrostatic precipitators remove particulate matter from exhaust gases. The gas passes
-Through a grid of wires maintained at a high voltage. The wires ionise the air, charging the dust
+through a grid of wires maintained at a high voltage. The wires ionise the air, charging the dust
 Particles. The charged particles are then attracted to oppositely charged plates, where they collect
-And can be removed. This is how power stations reduce particulate pollution.
+and can be removed. This is how power stations reduce particulate pollution.
 
 ## 7. Internal Resistance (Higher Tier)
 
@@ -39835,7 +39835,7 @@ $$
 
 As temperature increases, the thermistor resistance decreases, and the output voltage decreases.
 This circuit could be used to trigger a heater when the temperature drops (the output voltage rises
-When it is cold).
+when it is cold).
 
 ## 10. Why Current Is the Same Everywhere in a Series Circuit
 
@@ -40079,7 +40079,7 @@ Confirmed.
 ### Example 28: Internal Resistance and Maximum Current
 
 A battery has EMF $9 \mathrm{ V$ and internal resistance $1.5 \Omega$. What is the maximum current
-That can be drawn, and what is the terminal PD at this current?
+that can be drawn, and what is the terminal PD at this current?
 
 **Step 1: Maximum current (short circuit)**
 
@@ -40214,7 +40214,7 @@ Cost $= 300 \times 15 = 4500 \mathrm{ p = \pounds 45.00$.
 <summary>Question 4: Current, charge, and time</summary>
 
 A torch bulb passes a current of $0.3 \mathrm{ A$ for 2 minutes. Calculate the charge that flows
-Through the bulb.
+through the bulb.
 
 </details>
 
@@ -40229,7 +40229,7 @@ $Q = It = 0.3 \times 120 = 36 \mathrm{ C$.
 <summary>Question 5: Potential difference and energy transfer</summary>
 
 A $10 \Omega$ resistor in a circuit has a current of $0.5 \mathrm{ A$ flowing through it. Calculate
-The energy transferred by the resistor in 30 seconds.
+the energy transferred by the resistor in 30 seconds.
 
 </details>
 
@@ -40296,13 +40296,13 @@ Explore the simulation above to develop intuition for this topic.
 One of the most fundamental laws of physics.
 
 A **system** is an object or group of objects. When a system changes, energy is **transferred** to
-Or from the system. We identify energy **stores** (where energy is held) and energy **transfers**
+or from the system. We identify energy **stores** (where energy is held) and energy **transfers**
 (pathways by which energy moves).
 
 Why this framing matters: you cannot "use up" energy. A car does not "use" energy -- it transfers
 Chemical energy from fuel into kinetic energy, thermal energy, and sound. The total energy before
-And after any process is identical. What changes is the distribution of energy across stores. This
-Is not a cosmetic distinction; it underpins every energy calculation you will perform.
+and after any process is identical. What changes is the distribution of energy across stores. This
+is not a cosmetic distinction; it underpins every energy calculation you will perform.
 
 ### 1.2 Energy Stores
 
@@ -40332,7 +40332,7 @@ Energy is transferred by four main pathways:
 Energy changes.
 
 The system is the box and the Earth. Energy is transferred from the chemical store of the person to
-The gravitational potential store of the box.
+the gravitational potential store of the box.
 
 $$
 \Delta E_p = mgh = 5 \times 9.8 \times 1.5 = 73.5 \mathrm{ J
@@ -40376,7 +40376,7 @@ Since work done $W = Fd$ The kinetic energy is $E_k = \frac{1}{2}mv^2$.
 
 The $\frac{1}{2}$ in $E_k = \frac{1}{2}mv^2$ is not arbitrary. It arises because the object
 Accelerates uniformly from rest: it covers distance $d$ in time $t$ And the average velocity during
-That interval is $\frac{0 + v}{2} = \frac{v}{2}$. The work done is force times distance, which
+that interval is $\frac{0 + v}{2} = \frac{v}{2}$. The work done is force times distance, which
 Equals $m \cdot \frac{v}{t} \cdot \frac{v}{2} \cdot t = \frac{1}{2}mv^2$. If the factor were
 Different, the work-energy theorem would fail, and conservation of energy would be violated. The
 Factor of one-half is a direct, unavoidable consequence of Newton's second law and the definition of
@@ -40398,12 +40398,12 @@ Calculations).
 
 The height $h$ is measured from an arbitrarily chosen reference level (often the ground). Only
 _changes_ in gravitational potential energy are physically meaningful, so the choice of reference
-Does not affect the answer to any real problem.
+does not affect the answer to any real problem.
 
 ### 2.4 Conservation of Energy: Falling Objects
 
 When an object falls freely (ignoring air resistance), gravitational potential energy is converted
-To kinetic energy.
+to kinetic energy.
 
 $$mgh = \frac{1}{2}mv^2$$ $$v = \sqrt{2gh}$$
 
@@ -40418,7 +40418,7 @@ $$
 
 In the equation $v = \sqrt{2gh}$ The mass $m$ cancels out. This means a bowling ball and a feather
 Dropped from the same height in a vacuum hit the ground at the same speed. The reason is that
-Although a heavier object has more gravitational potential energy, it also requires more force to
+although a heavier object has more gravitational potential energy, it also requires more force to
 Accelerate (it has more inertia), and these two effects cancel exactly. This is a deep result: it is
 A direct consequence of the equivalence of gravitational and inertial mass, which is the starting
 Point for Einstein's general theory of relativity.
@@ -40432,7 +40432,7 @@ $$
 Where $k$ is the spring constant (N/m) and $e$ is the extension (m).
 
 This formula applies to objects that obey **Hooke's law**: the extension is directly proportional to
-The force applied, up to the **limit of proportionality**.
+the force applied, up to the **limit of proportionality**.
 
 **Derivation.** The force needed to extend a spring by $e$ is $F = ke$. The average force during
 Extension from 0 to $e$ is $\frac{0 + ke}{2} = \frac{1}{2}ke$. The work done (energy stored) is:
@@ -40442,7 +40442,7 @@ E_e = \mathrm{average force \times \mathrm{distance = \frac{1}{2}ke \times e = \
 $$
 
 Alternatively, using calculus (for Higher tier students): the work done is the integral of force
-With respect to displacement:
+with respect to displacement:
 
 $$
 E_e = \int_0^e F\, dx = \int_0^e kx\, dx = \left[\frac{1}{2}kx^2\right]_0^e = \frac{1}{2}ke^2
@@ -40452,7 +40452,7 @@ $$
 
 When a mass is hung from a spring and released, the energy oscillates between elastic potential and
 Gravitational potential and kinetic energy. At the equilibrium position, the spring is extended but
-The mass is moving fastest (maximum kinetic energy). At the lowest point, the spring has maximum
+the mass is moving fastest (maximum kinetic energy). At the lowest point, the spring has maximum
 Extension (maximum elastic potential energy) and the mass is momentarily at rest (zero kinetic
 Energy).
 
@@ -40462,7 +40462,7 @@ A bungee cord has spring constant $k = 50$ N/m and natural length $15$ m. A jump
 Falls from a bridge. Find the maximum extension of the cord.
 
 At maximum extension, velocity is zero. All energy has been transferred from gravitational potential
-To elastic potential (measuring from the point where the cord first becomes taut):
+to elastic potential (measuring from the point where the cord first becomes taut):
 
 $$
 mgh = \frac{1}{2}ke^2
@@ -40482,7 +40482,7 @@ The total distance fallen is $15 + 23.52 = 38.52$ m.
 ### 3.1 Definition
 
 The **specific heat capacity** $c$ of a substance is the energy required to change the temperature
-Of 1 kg of the substance by $1^{\circ}\mathrm{C$ (or 1 K).
+of 1 kg of the substance by $1^{\circ}\mathrm{C$ (or 1 K).
 
 $$
 \Delta E = mc\Delta T
@@ -40492,7 +40492,7 @@ $$
 
 Temperature is a measure of the average kinetic energy of the particles in a substance. When you
 Heat a material, you increase the kinetic energy of its particles. The specific heat capacity tells
-You how much energy is needed to produce a given temperature increase. Materials with high specific
+you how much energy is needed to produce a given temperature increase. Materials with high specific
 Heat capacities (like water) require more energy per degree of temperature rise because their
 Particles need more energy input to increase their average kinetic energy. This can be due to
 Intermolecular forces (hydrogen bonds in water, for instance, absorb energy without increasing
@@ -40515,8 +40515,8 @@ Coastal climates are more moderate.
 
 Water's specific heat capacity of 4200 J/(kg $^{\circ}$ C) is anomalously high compared to most
 Liquids. The consequence: a large body of water (ocean, lake) absorbs or releases enormous amounts
-Of energy with only a small temperature change. This is why coastal regions have milder climates
-Than inland areas at the same latitude. It is also why water is used as a coolant in car engines and
+of energy with only a small temperature change. This is why coastal regions have milder climates
+than inland areas at the same latitude. It is also why water is used as a coolant in car engines and
 Nuclear reactors: it can absorb a great deal of waste heat before its temperature rises to dangerous
 Levels.
 
@@ -40609,12 +40609,12 @@ Where $F$ is force (N) and $v$ is velocity (m/s).
 **Derivation.** $P = \frac{W}{t} = \frac{Fd}{t} = F \times \frac{d}{t} = Fv$.
 
 This assumes the force is in the same direction as the velocity. If the force is at angle $\theta$
-To the velocity, then $P = Fv\cos\theta$.
+to the velocity, then $P = Fv\cos\theta$.
 
 ### 4.3 Power, Force, and Constant Speed
 
 When a vehicle travels at constant speed, the driving force equals the resistive force (friction
-Plus air resistance). The engine's power output is:
+plus air resistance). The engine's power output is:
 
 $$
 P = F_{\mathrm{drive} \times v = F_{\mathrm{resistive} \times v
@@ -40622,7 +40622,7 @@ $$
 
 This means that for a given engine power, doubling the speed halves the available driving force
 (because $F = P/v$). This is why accelerating from 60 mph to 120 mph requires far more than double
-The power -- the resistive force (especially air resistance) increases with speed.
+the power -- the resistive force (especially air resistance) increases with speed.
 
 **Worked Example.** A car engine provides a driving force of 3000 N at a speed of 25 m/s. Calculate
 The power output.
@@ -40740,7 +40740,7 @@ Thermal stores in the surroundings) due to friction, air resistance, or electric
 ### 6.2 Why Efficiency Cannot Reach 100 Percent
 
 The second law of thermodynamics sets a fundamental upper limit on the efficiency of any process
-That converts thermal energy into work. Even in principle, a perfect heat engine cannot convert all
+that converts thermal energy into work. Even in principle, a perfect heat engine cannot convert all
 Its input thermal energy into useful work. In practice, all real machines lose energy to friction,
 Electrical resistance, sound, and thermal radiation. These losses are not a design flaw; they are a
 Consequence of the laws of physics.
@@ -40807,7 +40807,7 @@ Fluid replaces them, creating a **convection current**.
 ### 7.4 Why Convection Cannot Occur in Solids
 
 Convection requires bulk motion of the medium. In a solid, particles are locked in fixed positions
-By strong intermolecular forces and can only vibrate. They cannot move through the material, so no
+by strong intermolecular forces and can only vibrate. They cannot move through the material, so no
 Convection current can form. This is why the handle of a metal spoon gets hot by conduction, not
 Convection.
 
@@ -40847,7 +40847,7 @@ The faster the energy transfer.
 
 **Expected result:** The insulated object cools more slowly (smaller gradient on the
 Temperature-time graph). The gradient is steepest at the start (when the temperature difference
-Between the object and its surroundings is greatest) and gradually decreases.
+between the object and its surroundings is greatest) and gradually decreases.
 
 ### 7.8 Vacuum Flasks: How They Work
 
@@ -40869,7 +40869,7 @@ Hours.
 ### 8.1 Energy in the Human Body
 
 The average adult requires about 8000--10,000 kJ of energy per day from food. This energy is used
-For:
+for:
 
 - Basal metabolic rate (maintaining body temperature, organ function): about 60--70% of total
 - Physical activity: about 20--30%
@@ -40892,7 +40892,7 @@ A typical UK household uses about 3000--4000 kWh of electricity per year. Major 
 | Electric shower | 10000             | 0.2               | 2.0                |
 
 The electric shower is one of the largest single energy consumers in a home because it heats water
-Very rapidly (high power = high rate of energy transfer).
+very rapidly (high power = high rate of energy transfer).
 
 ## 9. Sankey Diagrams
 
@@ -41016,7 +41016,7 @@ E_{\mathrm{total} = 10500 + 167000 + 105000 = 282500 \mathrm{ J \approx 283 \mat
 $$
 
 Notice that the melting stage (Stage 2) requires by far the most energy -- over half the total. This
-Is a common pattern: changing state requires more energy than changing temperature by the Same
+is a common pattern: changing state requires more energy than changing temperature by the Same
 number of degrees.
 
 ## 11. Summary Table: Energy Stores and Their Formulas
@@ -41083,7 +41083,7 @@ P = Fv = 84.8 \times 6 = 508.8 \mathrm{ W
 $$
 
 This is roughly 500 W, which is elite cyclist-level output. It illustrates why cycling uphill is so
-Much harder than cycling on the flat: the additional force needed to overcome gravity at even a
+much harder than cycling on the flat: the additional force needed to overcome gravity at even a
 Modest gradient significantly increases the required power.
 
 ## 14. Worked Example: Efficiency of a Multi-Stage Process
@@ -41105,14 +41105,14 @@ $$
 
 Over one hour, the wasted energy is $255.2 \times 3600 = 918720 \mathrm{ MJ$ Enough to heat over
 20000 homes. This highlights the enormous scale of energy waste in fossil fuel power stations and
-The importance of improving efficiency.
+the importance of improving efficiency.
 
 ## 15. The Concept of Specific Heat Capacity: Microscopic View
 
 At the microscopic level, temperature is a measure of the average kinetic energy of the particles in
 A substance. When you add energy to a substance, the particles gain kinetic energy (they move
 Faster) and the temperature rises. The specific heat capacity tells you how much energy is needed
-Per kilogram per degree of temperature rise.
+per kilogram per degree of temperature rise.
 
 Materials with high specific heat capacities have structural features that absorb energy without
 Increasing kinetic energy. In water, the hydrogen bonds between molecules absorb energy as the bonds
@@ -41355,7 +41355,7 @@ $$
 ### 1.5 Resolving Vectors into Components (Higher Tier)
 
 Any vector can be resolved into two perpendicular components. For a force $F$ at angle $\theta$ to
-The horizontal:
+the horizontal:
 
 $$
 F_x = F\cos\theta \quad \mathrm{(horizontal component)
@@ -41441,8 +41441,8 @@ When two objects interact, they exert equal and opposite forces on each other.
 **Example:** A book rests on a table. The book exerts a downward force on the table (its weight),
 And the table exerts an equal upward force on the book (the normal reaction). These are a Newton's
 Third law pair? No -- the normal reaction and weight are NOT a third law pair because they act on
-The SAME object. The true pairs are: Earth pulls book down / book pulls Earth up; book pushes table
-Down / table pushes book up.
+the SAME object. The true pairs are: Earth pulls book down / book pulls Earth up; book pushes table
+down / table pushes book up.
 
 <Aside type="caution">
 Newton's third law pairs always act on different objects. The normal reaction and weight
@@ -41498,8 +41498,8 @@ $$
 
 Mass is an intrinsic property: it does not depend on where the object is. Weight is a force that
 Depends on the local gravitational field. An astronaut on the Moon has the same mass as on Earth but
-Only one-sixth the weight. If you were in deep space, far from any gravitational field, your mass
-Would be unchanged but your weight would be zero. You would still have inertia (resistance to
+only one-sixth the weight. If you were in deep space, far from any gravitational field, your mass
+would be unchanged but your weight would be zero. You would still have inertia (resistance to
 Acceleration) even though you would be weightless.
 
 ### 3.3 Centre of Mass
@@ -41519,7 +41519,7 @@ For a uniform, regular solid, the centre of mass is at its geometric centre.
 ### 3.4 Centre of Mass and Stability
 
 An object is stable if its centre of mass lies above its base. If the centre of mass moves outside
-The base, the object topples. This is why:
+the base, the object topples. This is why:
 
 - A wide-based object is harder to topple than a narrow-based one.
 - A low centre of mass makes an object more stable (double-decker buses have heavy engines at the
@@ -41558,7 +41558,7 @@ When an object falls through a fluid:
 Terminal velocity is the speed at which the drag force exactly equals the driving force (in free
 Fall, the weight). It is a _dynamic equilibrium_: the forces are balanced, so the acceleration is
 Zero, but the object is still moving. The word "terminal" does not mean the object stops; it means
-The speed stops increasing.
+the speed stops increasing.
 
 ### 4.4 Factors Affecting Terminal Velocity
 
@@ -41593,7 +41593,7 @@ D = mg = 80 \times 9.8 = 784 \mathrm{ N
 $$
 
 After opening the parachute, the terminal velocity drops from about 55 m/s to about 5 m/s because
-The increased surface area produces much more drag at any given speed.
+the increased surface area produces much more drag at any given speed.
 
 ## 5. Stopping Distances
 
@@ -41627,7 +41627,7 @@ $$
 
 For a given braking force $F$ The braking distance $d = \frac{mv^2}{2F}$ is proportional to $v^2$.
 Doubling the speed quadruples the braking distance. Tripling the speed multiplies it by nine. This
-Is the single most important fact about road safety: small increases in speed produce very large
+is the single most important fact about road safety: small increases in speed produce very large
 Increases in stopping distance.
 
 ### 5.3 Reaction Time
@@ -41693,7 +41693,7 @@ F = \frac{\Delta p}{\Delta t} = \frac{mv - mu}{t}
 $$
 
 This shows that force equals the rate of change of momentum. This form of Newton's second law is
-More general than $F = ma$ because it remains valid even when the mass changes (e.g., a rocket
+more general than $F = ma$ because it remains valid even when the mass changes (e.g., a rocket
 Expelling fuel).
 
 ### 6.5 Impact Forces and Safety
@@ -41737,7 +41737,7 @@ M = Fd
 $$
 
 Where $M$ is moment (Nm), $F$ is force (N), and $d$ is the perpendicular distance from the pivot to
-The line of action of the force (m).
+the line of action of the force (m).
 
 **Principle of moments:** For an object in equilibrium, the sum of clockwise moments equals the sum
 Of anticlockwise moments.
@@ -41759,12 +41759,12 @@ $$
 The moment depends on the perpendicular distance from the pivot to the line of action of the force,
 Not the distance from the pivot to the point where the force is applied. If the force acts at an
 Angle, the effective moment arm is reduced. This is why pushing a door near the hinge requires much
-More force than pushing near the handle: the perpendicular distance is much smaller.
+more force than pushing near the handle: the perpendicular distance is much smaller.
 
 ### 7.3 Levers
 
 A **lever** is a simple machine that uses moments. A small force applied at a large distance from
-The pivot can balance (or overcome) a large force at a small distance.
+the pivot can balance (or overcome) a large force at a small distance.
 
 **Mechanical advantage** = load / effort = distance from effort to pivot / distance from load to
 Pivot.
@@ -41789,7 +41789,7 @@ $$
 $$
 
 This is a consequence of conservation of energy: if the small gear rotates faster, it must exert
-Less torque, because $P = \tau \omega$ (power = torque times angular velocity), and the power
+less torque, because $P = \tau \omega$ (power = torque times angular velocity), and the power
 Transmitted through the gears is (ideally) the same.
 
 ## 8. Hooke's Law
@@ -41860,13 +41860,13 @@ $$
 Where $h$ is the depth, $\rho$ is the density of the fluid, and $g$ is gravitational field strength.
 
 This explains why dams are thicker at the bottom: the pressure from the water increases linearly
-With depth, so the base must withstand a much greater force than the top.
+with depth, so the base must withstand a much greater force than the top.
 
 ### 9.3 Upthrust and Floating
 
 An object submerged in a fluid experiences an upward force called **upthrust** equal to the weight
-Of the fluid displaced. An object floats when its weight equals the upthrust. A steel ship floats
-Because its hull encloses a large volume of air, making its average density less than that of water.
+of the fluid displaced. An object floats when its weight equals the upthrust. A steel ship floats
+because its hull encloses a large volume of air, making its average density less than that of water.
 
 ## Common Pitfalls
 
@@ -41942,7 +41942,7 @@ Because its hull encloses a large volume of air, making its average density less
 
 The relationship between braking distance and speed can be derived rigorously using the work-energy
 Theorem. When a vehicle brakes to a stop, the braking force does negative work equal to the change
-In kinetic energy:
+in kinetic energy:
 
 $$
 F d = \frac{1}{2}mv^2
@@ -41958,7 +41958,7 @@ This derivation reveals two key facts. First, for a given braking force $F$ The 
 Proportional to $v^2$: doubling the speed quadruples the braking distance. Second, for a given
 Speed, the braking distance is inversely proportional to the braking force: better brakes (larger
 $F$) reduce the stopping distance, but the improvement is limited because the maximum braking force
-Is set by the friction between the tyres and the road.
+is set by the friction between the tyres and the road.
 
 ## 11. Worked Example: Block on an Inclined Plane with Friction
 
@@ -42059,7 +42059,7 @@ $$
 
 This proof extends to any number of particles. Internal forces always cancel in pairs, so the total
 Momentum of a closed system is conserved. This is not a separate law -- it is a direct consequence
-Of Newton's second and third laws.
+of Newton's second and third laws.
 
 ## 14. Summary Table: Types of Force
 
@@ -43012,7 +43012,7 @@ Moving charges produce magnetic fields. In a current-carrying wire, the conducti
 Moving, and their motion generates a magnetic field. This is a fundamental property of nature: the
 Magnetic field and the electric field are two aspects of the same electromagnetic phenomenon, as
 Described by Maxwell's equations. You cannot have a magnetic field without moving charges (at least
-In classical physics).
+in classical physics).
 
 ### 2.3 The Motor Effect
 
@@ -43075,9 +43075,9 @@ A DC motor uses the motor effect to produce continuous rotation.
 ### 2.6 Why the Commutator Is Necessary
 
 Without the commutator, the coil would rotate to the vertical position and then be pushed back (past
-It) in the opposite direction, oscillating rather than rotating continuously. The commutator
+it) in the opposite direction, oscillating rather than rotating continuously. The commutator
 Reverses the current at exactly the right moment (when the coil passes through the vertical), so
-That the force on each side of the coil always acts in the same rotational direction.
+that the force on each side of the coil always acts in the same rotational direction.
 
 ### 2.7 Factors Affecting Motor Speed
 
@@ -43091,7 +43091,7 @@ The speed of a DC motor depends on:
 ### 2.8 Electromagnets
 
 An **electromagnet** is a coil of wire (solenoid) carrying a current. It produces a magnetic field
-When current flows and the field disappears when the current stops.
+when current flows and the field disappears when the current stops.
 
 **Magnetic field of a solenoid:**
 
@@ -43119,7 +43119,7 @@ A relay is an electrically operated switch. A small current through the relay's 
 Magnetic field that attracts an iron armature, closing (or opening) a set of contacts in a second
 Circuit. This allows a low-current circuit (e.g., a microcontroller output) to control a
 High-current circuit (e.g., a motor or heater) safely. The two circuits are electrically isolated
-From each other.
+from each other.
 
 ## 3. Electromagnetic Induction
 
@@ -43160,7 +43160,7 @@ Change in the external field.
 **Example:** If a north pole of a magnet is pushed into a coil, the induced current creates a
 Magnetic field that opposes the incoming north pole -- the end of the coil nearest the magnet
 Becomes a north pole, repelling the magnet. If the magnet is pulled out, the current reverses to try
-To keep the magnet inside.
+to keep the magnet inside.
 
 ### 3.5 Generators (Alternators)
 
@@ -43306,7 +43306,7 @@ A loudspeaker is essentially a motor working in reverse:
 An induction cooktop uses electromagnetic induction to heat a pan directly. A coil beneath the
 Ceramic surface carries a high-frequency alternating current, producing a rapidly changing magnetic
 Field. This field induces eddy currents in the base of the pan (which must be ferromagnetic), and
-The resistance of the pan material converts the eddy current energy into heat. The ceramic surface
+the resistance of the pan material converts the eddy current energy into heat. The ceramic surface
 Itself does not heat up directly, making induction cooking more efficient and safer than gas or
 Conventional electric hobs.
 
@@ -43322,7 +43322,7 @@ B = \frac{F}{Il}
 $$
 
 The unit is the tesla (T). A field of 1 T exerts a force of 1 N on a wire carrying 1 A with a length
-Of 1 m perpendicular to the field.
+of 1 m perpendicular to the field.
 
 ### 6.2 Magnetic Flux
 
@@ -43554,7 +43554,7 @@ Direction of energy conversion:
 | Output            | Continuous rotation      | Alternating EMF      |
 
 The split-ring commutator in a motor ensures that the current always flows in the correct direction
-To produce a torque that maintains rotation. In a generator, the slip rings maintain continuous
+to produce a torque that maintains rotation. In a generator, the slip rings maintain continuous
 Contact with the coil without reversing, so the AC produced by the rotating coil is transmitted
 Directly to the external circuit.
 
@@ -43592,7 +43592,7 @@ The RMS voltage would be $377 / \sqrt{2} \approx 267 \mathrm{ V$.
 | Hysteresis loss        | Low                               | High                      |
 
 The distinction is critical for applications. A transformer core must be made of soft iron so that
-It can be magnetised and demagnetised rapidly by the alternating current without significant energy
+it can be magnetised and demagnetised rapidly by the alternating current without significant energy
 Loss. A permanent magnet in a motor must be made of a hard magnetic material so that it retains its
 Magnetism despite the changing fields produced by the motor's coils.
 
@@ -43694,7 +43694,7 @@ At $400 \mathrm{ kV$: $\eta = \frac{500 - 3.125}{500} \times 100 = 99.375\%$
 Step-up transformers increase the voltage (and decrease the current) for transmission,
 
 Dramatically reducing $I^2R$ losses. Step-down transformers then reduce the voltage to safe levels
-For domestic use. This is the fundamental reason the National Grid uses high-voltage transmission.
+for domestic use. This is the fundamental reason the National Grid uses high-voltage transmission.
 
 ### Example 28: Designing an Electromagnet
 
@@ -43754,7 +43754,7 @@ Gap to achieve the required field with a more practical current.
 ### Pitfall 6: Confusing Magnetic Field Lines with Electric Field Lines
 
 Magnetic field lines form _closed loops_ (they have no beginning or end). Electric field lines start
-On positive charges and end on negative charges. This is a consequence of the fact that there are no
+on positive charges and end on negative charges. This is a consequence of the fact that there are no
 Magnetic monopoles (isolated north or south poles).
 
 ### Pitfall 7: Getting the Transformer Equation Wrong
@@ -44505,14 +44505,14 @@ Constant, a decrease in speed produces a proportional decrease in wavelength.
 ### 3.5 Total Internal Reflection
 
 When light travels from a denser medium to a less dense medium, if the angle of incidence exceeds
-The **critical angle**, all the light is reflected back into the denser medium.
+the **critical angle**, all the light is reflected back into the denser medium.
 
 $$
 \sin c = \frac{n_2}{n_1}
 $$
 
 Where $c$ is the critical angle, $n_1$ is the refractive index of the denser medium, and $n_2$ is
-The refractive index of the less dense medium.
+the refractive index of the less dense medium.
 
 **Applications of total internal reflection:**
 
@@ -44524,7 +44524,7 @@ The refractive index of the less dense medium.
 An optical fibre consists of a core with a higher refractive index surrounded by a cladding with a
 Lower refractive index. Light entering the fibre at an angle greater than the critical angle
 Undergoes repeated total internal reflection and travels along the fibre with minimal loss. This is
-The basis of modern telecommunications: millions of phone calls and internet data streams are
+the basis of modern telecommunications: millions of phone calls and internet data streams are
 Carried by light pulses through bundles of optical fibres.
 
 **Signal degradation:** Over long distances, some light is absorbed by the fibre material, and some
@@ -44568,7 +44568,7 @@ E = hf
 $$
 
 Where $h$ is Planck's constant ($6.63 \times 10^{-34}$ J s). Higher frequency means higher energy
-Per photon. This is why gamma rays and X-rays are dangerous (high energy per photon can damage DNA)
+per photon. This is why gamma rays and X-rays are dangerous (high energy per photon can damage DNA)
 While radio waves are harmless (the energy per photon is far too low to break chemical bonds).
 
 ### 4.4 Applications
@@ -44600,7 +44600,7 @@ Cancer and cataracts. Sunscreen works by absorbing UV radiation before it reache
 ### 5.1 Production and Detection
 
 Sound waves are longitudinal waves produced by vibrating objects. They require a medium to travel
-Through (they cannot travel through a vacuum).
+through (they cannot travel through a vacuum).
 
 **Detection:** Microphones convert sound waves to electrical signals. The human ear detects sound
 Waves between approximately 20 Hz and 20,000 Hz.
@@ -44608,9 +44608,9 @@ Waves between approximately 20 Hz and 20,000 Hz.
 ### 5.2 Why Sound Cannot Travel Through a Vacuum
 
 Sound is a mechanical wave: it propagates by particles colliding with their neighbours and passing
-On the disturbance. In a vacuum, there are no particles to collide, so the disturbance cannot
+on the disturbance. In a vacuum, there are no particles to collide, so the disturbance cannot
 Propagate. Light, being an electromagnetic wave, does not require a medium, which is why we can see
-The Sun but cannot hear it.
+the Sun but cannot hear it.
 
 ### 5.3 Properties of Sound
 
@@ -44622,7 +44622,7 @@ The Sun but cannot hear it.
 
 The human ear can detect frequencies from about 20 Hz to 20,000 Hz. This range decreases with age,
 Particularly at the upper end. The ear is most sensitive to frequencies around 3000--4000 Hz, which
-Is roughly the frequency range of human speech. The threshold of hearing is $10^{-12}$ W/m$^2$ at
+is roughly the frequency range of human speech. The threshold of hearing is $10^{-12}$ W/m$^2$ at
 1000 Hz, and the threshold of pain is about 1 W/m$^2$ -- a range of $10^{12}$ Which is why the
 Decibel (logarithmic) scale is used.
 
@@ -44669,7 +44669,7 @@ Waves do not diffract noticeably around everyday objects because their wavelengt
 
 Diffraction is a consequence of Huygens' principle: every point on a wavefront acts as a source of
 Secondary wavelets. When a wave passes through a gap, the wavelets from the edges of the gap spread
-Out into the region behind the gap. If the gap is much wider than the wavelength, most of the wave
+out into the region behind the gap. If the gap is much wider than the wavelength, most of the wave
 Passes through undisturbed and only the edges show diffraction. If the gap is comparable to the
 Wavelength, the secondary wavelets from all parts of the gap overlap significantly, producing a
 Broad diffraction pattern.
@@ -44686,7 +44686,7 @@ When two waves meet, they **superpose** (their displacements add together).
 
 Path difference is the difference in distance travelled by two waves from their sources to a given
 Point. Phase difference is how much one wave is shifted relative to the other, measured in degrees
-Or radians.
+or radians.
 
 - Path difference $= 0, \lambda, 2\lambda, \ldots$: constructive interference (phase difference
   $= 0, 360^{\circ}, 720^{\circ}, \ldots$).
@@ -44752,7 +44752,7 @@ Three standard rays for a convex lens:
 
 A **real image** is formed where light rays actually converge. It can be projected onto a screen. A
 **virtual image** is formed where light rays only _appear_ to diverge from; no light actually passes
-Through the image position. It cannot be projected onto a screen.
+through the image position. It cannot be projected onto a screen.
 
 ### 7.5 The Thin Lens Equation
 
@@ -44772,7 +44772,7 @@ $$
 ### 7.6 Concave (Diverging) Lenses (Higher Tier)
 
 A concave lens is thinner at the centre than at the edges. It causes parallel rays to diverge as if
-They came from the principal focus on the same side as the incident light. The image formed is
+they came from the principal focus on the same side as the incident light. The image formed is
 Always virtual, upright, and diminished.
 
 ## 8. The Inverse Square Law for Waves
@@ -44789,7 +44789,7 @@ $$
 Where $P$ is the power of the source and $r$ is the distance from the source.
 
 This means that doubling the distance from a source reduces the intensity to one-quarter. Tripling
-The distance reduces it to one-ninth. This applies to all point sources: sound, light, gamma
+the distance reduces it to one-ninth. This applies to all point sources: sound, light, gamma
 Radiation, etc.
 
 ### 8.2 Worked Example
@@ -44937,7 +44937,7 @@ Fringes on each side plus the central maximum, giving 7 fringes in total.
 ## 11. Why Sound Intensity Follows the Inverse Square Law
 
 For a point source emitting sound uniformly in all directions, the power $P$ is spread over a sphere
-Of surface area $4\pi r^2$. The intensity (power per unit area) is:
+of surface area $4\pi r^2$. The intensity (power per unit area) is:
 
 $$
 I = \frac{P}{4\pi r^2}
@@ -44973,7 +44973,7 @@ $$
 $$
 
 The distance increased by a factor of 4, so the intensity decreased by a factor of 16 ($4^2$), and
-The decibel level decreased by $10\log_{10}(16) = 12.0 \mathrm{ dB$.
+the decibel level decreased by $10\log_{10}(16) = 12.0 \mathrm{ dB$.
 
 ## 13. Polarisation (Higher Tier)
 
@@ -44982,7 +44982,7 @@ Polarised.
 
 **How Polaroid filters work:** A Polaroid filter contains long-chain polymer molecules aligned in
 One direction. The filter absorbs the component of the electric field parallel to the polymer chains
-And transmits the perpendicular component. The transmitted light is polarised.
+and transmits the perpendicular component. The transmitted light is polarised.
 
 **Two Polaroid filters at right angles:** The first filter polarises the light. The second filter
 (the analyser) is at $90^{\circ}$ to the first, so it blocks all the polarised light. No light
@@ -45014,7 +45014,7 @@ v = \frac{c}{n} = \frac{3 \times 10^8}{1.5} = 2 \times 10^8 \mathrm{ m/s
 $$
 
 Light travels two-thirds as fast in glass as in a vacuum. This is why light bends towards the normal
-When it enters glass: the part of the wavefront that enters the glass first slows down, causing the
+when it enters glass: the part of the wavefront that enters the glass first slows down, causing the
 Wavefront to rotate.
 
 ## 15. Summary Table: Wave Behaviours
@@ -45046,7 +45046,7 @@ Reflection, producing its characteristic brilliance.
 ## 17. Worked Example: Measuring the Speed of Sound with an Echo
 
 A student stands 50 m from a large wall and claps. The echo returns 0.3 s after the clap. Calculate
-The speed of sound.
+the speed of sound.
 
 The sound travels to the wall and back, so the total distance is $2 \times 50 = 100 \mathrm{ m$.
 
@@ -45119,7 +45119,7 @@ $$
 **Step 3: What happens to the amplitude**
 
 When the wave slows down and the wavelength decreases, the wave height (amplitude) increases. Energy
-Is conserved, and since the wave is moving more slowly, the energy is concentrated in a shorter
+is conserved, and since the wave is moving more slowly, the energy is concentrated in a shorter
 Wavelength.
 
 <Aside type="note">
@@ -45184,7 +45184,7 @@ Quantities are frequency (Hz) and intensity (W/m^2) or amplitude (m).
 
 Electromagnetic waves (light, radio, X-rays) do NOT require a medium and can travel through a
 Vacuum. Mechanical waves (sound, water waves, waves on a string) DO require a medium. This is why we
-Can see the Sun but cannot hear solar flares.
+can see the Sun but cannot hear solar flares.
 
 ### Pitfall 8: Misidentifying the Wavelength in Diagrams
 
@@ -45235,7 +45235,7 @@ $v = f\lambda = 250 \times 1.5 = 375 \mathrm{ m/s$.
 
 Arrange the following in order of increasing wavelength: gamma rays, microwaves, visible light,
 X-rays, radio waves, ultraviolet, infrared. State which type has the highest frequency and which has
-The highest energy.
+the highest energy.
 
 </details>
 
@@ -45255,7 +45255,7 @@ Radio waves have the longest wavelength and the lowest frequency and energy.
 <summary>Question 3: Transverse and longitudinal waves</summary>
 
 Compare transverse and longitudinal waves, giving an example of each. Describe how vibrations differ
-In the two types.
+in the two types.
 
 </details>
 
@@ -45274,7 +45274,7 @@ Waves. They have compressions (high pressure) and rarefactions (low pressure).
 <summary>Question 4: Reflection and refraction</summary>
 
 A ray of light strikes a plane mirror at an angle of $35^\circ$ to the normal. Calculate the angle
-Of reflection and draw a ray diagram.
+of reflection and draw a ray diagram.
 
 </details>
 
@@ -45292,7 +45292,7 @@ The angle between the incident ray and the mirror surface is $90^\circ - 35^\cir
 <summary>Question 5: Speed of sound experiment</summary>
 
 Two students stand $150 \mathrm{ m$ apart. One student claps two blocks of wood together, and the
-Other starts a stopwatch when they see the clap and stops it when they hear the sound. The time
+other starts a stopwatch when they see the clap and stops it when they hear the sound. The time
 Recorded is $0.44 \mathrm{ s$. Calculate the speed of sound.
 
 </details>

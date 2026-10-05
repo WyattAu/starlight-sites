@@ -254,7 +254,7 @@ ldap_filter = f"(uid={safe_username})"
 ## A04: Insecure Design
 
 Insecure design refers to fundamental flaws in the application's architecture and design, as opposed
-To implementation bugs.
+to implementation bugs.
 
 ### Missing Threat Modeling
 

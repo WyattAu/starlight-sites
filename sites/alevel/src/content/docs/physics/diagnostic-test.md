@@ -230,7 +230,7 @@ M s$^{-1}$.
 <summary>Q22. State Faraday's law and Lenz's law.</summary>
 **Answer.** **Faraday's law:** the induced e.m.f. Equals the negative rate of change of flux
 Linkage: $\mathcal{E} = -d(N\Phi)/dt$. **Lenz's law:** the direction of the induced current opposes
-The change in flux that produced it.
+the change in flux that produced it.
 
 <b>If you get this wrong, revise:</b> [Magnetic Fields](/physics/fields/02-magnetic-fields/)
 
@@ -345,7 +345,7 @@ M $= 103$ nm.
 **Answer.** The binding energy per nucleon is the total binding energy divided by the mass number,
 The average energy needed to remove one nucleon. Iron-56 has the highest binding energy per nucleon
 ($\sim 8.8$ MeV), meaning it requires the most energy per nucleon to disassemble. This corresponds
-To the maximum nuclear stability. Nuclei lighter than iron release energy by fusion; nuclei heavier
+to the maximum nuclear stability. Nuclei lighter than iron release energy by fusion; nuclei heavier
 Release energy by fission, both processes move towards the iron peak.
 
 <b>If you get this wrong, revise:</b>
@@ -398,7 +398,7 @@ $2(0.2/3.0) + 0.3/4.0 = 0.133 + 0.075 = 0.208 = 20.8\%$.
 <summary>Q38. What is the difference between a systematic error and a random error?</summary>
 **Answer.** A systematic error is a consistent deviation from the true value, affecting all readings
 In the same direction (e.g., a zero error on a balance). A random error causes unpredictable scatter
-In repeated readings (e.g., reaction time with a stopwatch). Systematic errors affect accuracy;
+in repeated readings (e.g., reaction time with a stopwatch). Systematic errors affect accuracy;
 Random errors affect precision.
 
 <b>If you get this wrong, revise:</b>
@@ -463,7 +463,7 @@ Result is consistent with the accepted value at this level of uncertainty.
 <summary>Q44. In a circuit experiment, a student uses an ammeter with resistance $0.5\,\Omega$ to measure current in a branch with resistance $5\,\Omega$. What percentage error does the ammeter introduce?</summary>
 **Answer.** The actual branch resistance is $5.0\,\Omega$. With the ammeter: total $= 5.5\,\Omega$.
 The current is reduced by a factor of $5.0/5.5 = 0.909$ An error of $\sim 9.1\%$. (The ammeter
-Should ideally have zero resistance.)
+should ideally have zero resistance.)
 
 <b>If you get this wrong, revise:</b> [DC Circuits](/physics/electricity/02-dc-circuits/)
 

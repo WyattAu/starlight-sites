@@ -41,8 +41,8 @@ The hydrological cycle operates at the drainage basin scale through a series of 
 Flows. Precipitation falling on the basin is intercepted by vegetation (interception store) or
 Reaches the ground surface. Water on the surface may infiltrate into the soil (soil moisture store)
 Or flow over the surface as overland flow. Infiltrated water moves through the soil as throughflow
-Or percolates downward to recharge groundwater (groundwater store). Groundwater moves slowly toward
-The river channel as baseflow. Water is returned to the atmosphere through evaporation from open
+or percolates downward to recharge groundwater (groundwater store). Groundwater moves slowly toward
+the river channel as baseflow. Water is returned to the atmosphere through evaporation from open
 Water and soil surfaces, and transpiration from vegetation.
 
 The relative importance of each flow pathway depends on the physical characteristics of the basin
@@ -100,7 +100,7 @@ Gentle rising limb, broader and lower peak, and extended recession, indicating t
 Baseflow dominate.
 
 The **unit hydrograph** technique, developed by Sherman (1932), is a standard method for predicting
-The hydrograph response of a drainage basin to a given rainfall input. The unit hydrograph is the
+the hydrograph response of a drainage basin to a given rainfall input. The unit hydrograph is the
 Hydrograph resulting from 1 unit (e.g., 1 cm) of effective rainfall (rainfall that contributes to
 Runoff, after accounting for losses to infiltration and interception) falling uniformly over the
 Basin within a specified duration. The principle of superposition allows the unit hydrograph to be
@@ -140,7 +140,7 @@ Peaks in the wet season, lower flows in the dry season).
 
 **Agricultural drainage.** Land drainage (under-drainage with perforated pipes, open ditches) is
 Installed to lower the water table and improve agricultural productivity. However, it accelerates
-The movement of water through the soil profile, increasing the volume and speed of throughflow
+the movement of water through the soil profile, increasing the volume and speed of throughflow
 Reaching the channel, resulting in a shorter lag time and higher peak discharge.
 
 <details>
@@ -152,7 +152,7 @@ Generating surface runoff regardless of how much water the soil can hold in tota
 Arid and semi-arid environments, urban areas, and compacted soils. **Saturation overland flow**
 (also called the Dunne mechanism) occurs when the soil profile becomes saturated from below (e.g.,
 By rising groundwater or throughflow convergence at the base of slopes), and any additional rainfall
-Cannot infiltrate and flows over the surface. This is common in humid environments with shallow
+cannot infiltrate and flows over the surface. This is common in humid environments with shallow
 Soils. In many temperate environments, saturation overland flow is the dominant mechanism, not
 Hortonian overland flow. Always specify which mechanism you are describing.
 
@@ -177,8 +177,8 @@ Interception capacity was exhausted.
 
 **Middle and Lower Severn.** As the river crosses the lowlands of the Severn Valley, the geology
 Becomes more varied (Permo-Triassic sandstones, which are highly permeable and store large volumes
-Of groundwater). Baseflow contribution increases, and the hydrograph becomes less flashy. The Severn
-Is prone to flooding in its middle and lower reaches, particularly at Shrewsbury, Worcester, and
+of groundwater). Baseflow contribution increases, and the hydrograph becomes less flashy. The Severn
+is prone to flooding in its middle and lower reaches, particularly at Shrewsbury, Worcester, and
 Gloucester. The autumn and winter floods of 2019--2020 produced the highest recorded flows on the
 Severn at several gauging stations, attributed to a succession of storms (Storm Ciara, Storm Dennis)
 Falling on already-saturated ground.
@@ -199,13 +199,13 @@ From approximately 3000 m$^3$/s to over 100 000 m$^3$/s.
 **Snow and glacial melt.** The upper reaches of both the Ganges and Brahmaputra receive significant
 Contributions from snow and glacial melt from the Himalayas and the Tibetan Plateau. Meltwater
 Contributes approximately 10% of annual flow of the Ganges, but this proportion can reach 30--40%
-During the pre-monsoon period (April--June), when meltwater is critical for irrigation in the
+during the pre-monsoon period (April--June), when meltwater is critical for irrigation in the
 Gangetic Plain.
 
 **Flooding.** The confluence of the Ganges and Brahmaputra in Bangladesh, combined with monsoonal
 Rainfall and Himalayan snowmelt, produces catastrophic flooding almost annually. The 1998 flood
 Inundated approximately 100 000 km$^2$ of Bangladesh (approximately 70% of the country), affecting
-Over 30 million people, destroying approximately 500 000 homes, and causing estimated damage of
+over 30 million people, destroying approximately 500 000 homes, and causing estimated damage of
 Approximately USD 2 billion. The 2022 floods affected approximately 7.2 million people in
 Bangladesh's northeastern Sylhet region.
 

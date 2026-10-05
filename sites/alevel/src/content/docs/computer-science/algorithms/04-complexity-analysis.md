@@ -204,7 +204,7 @@ Cost per insertion: $O(1)$.
 
 Assign an **amortised cost** to each operation. Some operations are charged more than their actual
 Cost (creating a "credit"); others are charged less (consuming credit). The credit must always be
-Non-negative.
+non-negative.
 
 **Example: Dynamic array.** Charge $\$3$ per insertion: $\$1$ for the actual insert, $\$2$ saved for
 Future resizing. When a resize of $k$ elements occurs, it costs $O(k)$ Which is covered by the $2k$
@@ -251,7 +251,7 @@ Time.
 ### Logarithmic Factors
 
 $\log n$ grows very slowly. For all practical input sizes, $O(n \log n)$ is often acceptable even
-When $O(n)$ is achievable with more complex algorithms.
+when $O(n)$ is achievable with more complex algorithms.
 
 | $n$    | $\log_2 n$ | $n \log_2 n$       |
 | ------ | ---------- | ------------------ |
@@ -287,7 +287,7 @@ Choose $c = 14$ and $n_0 = 1$. ✓
 For all $n \geq n_0$.
 
 This implies $n \leq c$ for all $n \geq n_0$. But $n$ grows without bound, so this is impossible for
-Any fixed $c$. Contradiction. $\square$
+any fixed $c$. Contradiction. $\square$
 
 Equivalently: $\lim_{n \to \infty} n^2 / n = \lim_{n \to \infty} n = \infty \neq 0$ So
 $n^2 \neq O(n)$.
@@ -526,7 +526,7 @@ $\lceil \log_2 n \rceil$.
 
 **Problem 3.** Algorithm A has time complexity $O(n \log n)$ with a constant factor of 10, and
 Algorithm B has time complexity $O(n^2)$ with a constant factor of 1. For approximately what values
-Of $n$ is Algorithm A faster than Algorithm B?
+of $n$ is Algorithm A faster than Algorithm B?
 
 <details>
 <summary>Hint</summary>
@@ -670,7 +670,7 @@ Each case, describe the type of input that produces that complexity and explain 
 <summary>Hint</summary>
 
 Quicksort's performance depends on how the pivot partitions the array. Consider what happens when
-The pivot is the median element, a random element, and the minimum or maximum element.
+the pivot is the median element, a random element, and the minimum or maximum element.
 
 </details>
 
@@ -734,7 +734,7 @@ $$
 **Why log n is efficient:** $\log_2 n$ grows extremely slowly. For $n = 10^9$ (one billion),
 $\log_2 n
 \approx 30$. This means binary search finds any element in a sorted billion-element array
-With at most 30 comparisons.
+with at most 30 comparisons.
 
 </details>
 
@@ -754,7 +754,7 @@ def recursive_func(n):
 <summary>Hint</summary>
 
 Set up the recurrence relation. The function does $O(n)$ work (the for loop) and then calls itself
-With $n/2$. This gives $T(n) = T(n/2) + O(n)$. Apply the Master Theorem.
+with $n/2$. This gives $T(n) = T(n/2) + O(n)$. Apply the Master Theorem.
 
 </details>
 
@@ -859,7 +859,7 @@ Algorithm Q is approximately **376 times faster** than Algorithm P for $n = 10\,
 
 **Reasoning:** The difference grows with $n$. For $n = 1\,000\,000$ Algorithm P would perform
 $\approx 5 \times 10^{11}$ operations while Algorithm Q performs $\approx 20\,000\,000$, a factor
-Of 25,000×. This demonstrates the critical importance of choosing algorithms with better asymptotic
+of 25,000×. This demonstrates the critical importance of choosing algorithms with better asymptotic
 Complexity for large inputs.
 
 </details>

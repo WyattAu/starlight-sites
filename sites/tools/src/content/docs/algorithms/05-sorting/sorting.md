@@ -41,7 +41,7 @@ Ranges, known distributions).
 ### Bubble Sort
 
 Repeatedly swap adjacent elements that are out of order. After $i$ passes, the last $i$ elements are
-In their final position.
+in their final position.
 
 ```python
 def bubble_sort(arr):
@@ -64,7 +64,7 @@ def bubble_sort(arr):
 ```
 
 Bubble sort is primarily of educational value. Its only practical advantage is that it can detect
-Whether the input is already sorted in a single pass ($O(n)$), but insertion sort does this better.
+whether the input is already sorted in a single pass ($O(n)$), but insertion sort does this better.
 
 ### Selection Sort
 
@@ -89,7 +89,7 @@ def selection_sort(arr):
 ```
 
 Selection sort makes exactly $n(n-1)/2$ comparisons regardless of input, it is never adaptive. Its
-Only advantage is that it does at most $n$ swaps, which matters when writes are expensive (e.g.,
+only advantage is that it does at most $n$ swaps, which matters when writes are expensive (e.g.,
 Flash memory with limited write cycles).
 
 ### Insertion Sort
@@ -298,7 +298,7 @@ Worst-case guarantee of heapsort.
 ## Non-Comparison-Based Sorting
 
 Non-comparison sorts exploit properties of the input to achieve $O(n)$ or $O(nk)$ time, bypassing
-The $\Omega(n \log n)$ comparison sort lower bound.
+the $\Omega(n \log n)$ comparison sort lower bound.
 
 ### Counting Sort
 
@@ -597,7 +597,7 @@ Selection or introsort.
 ### 2. Assuming All Sorts Are Stable
 
 Merge sort and TimSort are stable; quicksort and heapsort are not. If you sort by one key and then
-By another, the second sort will destroy the ordering from the first unless the sort is stable. When
+by another, the second sort will destroy the ordering from the first unless the sort is stable. When
 Stability matters, verify the sort implementation or use a compound comparison key.
 
 ### 3. Radix Sort on Floating-Point Numbers
@@ -609,7 +609,7 @@ Preserves the ordering for positive floats, and reversing it for negative floats
 ### 4. Counting Sort Memory Blowup
 
 Counting sort uses $O(k)$ space where $k$ is the range of values. If you have 1,000 integers ranging
-From 0 to $10^9$ Counting sort allocates a $10^9$-element array. Always check that $k = O(n)$ Before
+from 0 to $10^9$ Counting sort allocates a $10^9$-element array. Always check that $k = O(n)$ Before
 using counting sort, or use radix sort instead.
 
 ### 5. Ignoring the Base Case in Recursive Sorts
@@ -627,8 +627,8 @@ Allocations to $O(n)$. This is a significant performance improvement in practice
 ### 7. Stability in Multi-Key Sorting
 
 When sorting records by multiple fields (e.g., sort by last name, then by first name), you must sort
-By the least significant key first using a stable sort, then by more significant keys. Sorting by
-The most significant key first and then by less significant keys will destroy the primary ordering.
+by the least significant key first using a stable sort, then by more significant keys. Sorting by
+the most significant key first and then by less significant keys will destroy the primary ordering.
 Alternatively, use a compound comparison key.
 
 ## Parallel Sorting
@@ -741,7 +741,7 @@ def sort_by_multiple(records, keys):
 ## Sorting Stability Proof
 
 Why does merge sort preserve stability? Consider two equal elements $a$ and $b$ where $a$ appears
-Before $b$ in the input. During the merge step, when we compare $a$ and $b$:
+before $b$ in the input. During the merge step, when we compare $a$ and $b$:
 
 1. If $a$ and $b$ are in different halves, $a$ (from the left half) is chosen first because the
    merge uses `<=` (not `\lt{}`)
@@ -749,12 +749,12 @@ Before $b$ in the input. During the merge step, when we compare $a$ and $b$:
 
 This inductive argument proves that merge sort is stable. Quicksort is unstable because the
 Partition operation does not preserve the relative order of equal elements, an element swapped from
-The left side of the pivot may pass over an equal element on the right side.
+the left side of the pivot may pass over an equal element on the right side.
 
 ## Sorting Network Lower Bounds
 
 A sorting network is a fixed sequence of compare-and-swap operations that sorts any input. The depth
-Of a sorting network is the minimum number of parallel steps needed. Known bounds:
+of a sorting network is the minimum number of parallel steps needed. Known bounds:
 
 | Network             | Depth         | Comparators     | Notes                              |
 | ------------------- | ------------- | --------------- | ---------------------------------- |
@@ -938,7 +938,7 @@ Tight, you cannot do asymptotically better with comparisons alone.
 ### Information-Theoretic Argument
 
 Sorting $n$ elements requires distinguishing among $n!$ permutations. Each comparison provides at
-Most 1 bit of information (the answer is yes or no). The information content of the answer is
+most 1 bit of information (the answer is yes or no). The information content of the answer is
 $\log_2(n!) = \Theta(n \log n)$ bits, so at least $\Theta(n \log n)$ comparisons are needed.
 
 This argument also shows that the number of comparisons cannot be reduced below

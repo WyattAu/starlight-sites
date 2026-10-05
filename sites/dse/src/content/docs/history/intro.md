@@ -82,7 +82,7 @@ Commonwealth, the Non-Aligned Movement, and the continuing influence of former c
 
 China's modernisation from the late Qing Dynasty to the present is a major examination theme. Key
 events include the Self-Strengthening Movement, the Hundred Days' Reform, the 1911 Revolution, the
-May Fourth Movement, the Northern Expedition, the Long March, the Yan'an period, the establishment
+may Fourth Movement, the Northern Expedition, the Long March, the Yan'an period, the establishment
 of the PRC, the Great Leap Forward, the Cultural Revolution, and the Reform and Opening Up under
 Deng Xiaoping.
 

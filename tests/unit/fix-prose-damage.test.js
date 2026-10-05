@@ -145,6 +145,68 @@ describe('fix-prose-damage: false-positive guards', () => {
   })
 })
 
+describe('fix-prose-damage: wrapped lines wrongly capitalised', () => {
+  it('lower-cases a closed-class word starting a wrapped line', () => {
+    const out = repair(['fewest evolutionary changes', 'Is preferred.', ''].join('\n'))
+    assert.match(out, /^is preferred\.$/m)
+  })
+
+  it('repairs several classes on one paragraph', () => {
+    const out = repair(
+      ['the effect on each species in terms', 'Of natural selection.', ''].join('\n'),
+    )
+    assert.match(out, /^of natural selection\.$/m)
+  })
+
+  it('leaves a proper noun untouched', () => {
+    // The discriminating case. Same shape as the damage above, but
+    // `International` cannot be lower-cased: this is a real name.
+    const out = repair(
+      ['It serves as the gateway to the', 'International Mathematical Olympiad team.', ''].join(
+        '\n',
+      ),
+    )
+    assert.match(out, /^International Mathematical Olympiad team\.$/m)
+  })
+
+  it('leaves content words alone', () => {
+    // `Same`, `Function`, `Type` are legitimately capitalised inside
+    // technical terms, so they are ambiguous rather than damaged.
+    const out = repair(['by defining a method with the', 'Same name.', ''].join('\n'))
+    assert.match(out, /^Same name\.$/m)
+  })
+
+  it('repairs the Non- prefix', () => {
+    const out = repair(['a positive number is', 'Non-negative).', ''].join('\n'))
+    assert.match(out, /^non-negative\)\.$/m)
+  })
+
+  it('does not repair when the previous line ends a sentence', () => {
+    const src = ['The clause ends here.', 'The next sentence follows.', ''].join('\n')
+    assert.equal(repair(src), src)
+  })
+
+  it('does not repair the first line of a paragraph', () => {
+    const src = ['Is a copula.', ''].join('\n')
+    assert.equal(repair(src), src)
+  })
+
+  it('does not repair across a blank line', () => {
+    const src = ['An unrelated line.', '', 'Is a copula.', ''].join('\n')
+    assert.equal(repair(src), src)
+  })
+
+  it('does not repair inside a list item', () => {
+    const src = ['- The methods are:', '  Are grouped by cost.', ''].join('\n')
+    assert.equal(repair(src), src)
+  })
+
+  it('does not repair a heading', () => {
+    const src = ['Some prose line here', '## Of Mice and Men', ''].join('\n')
+    assert.equal(repair(src), src)
+  })
+})
+
 describe('fix-prose-damage: idempotence', () => {
   it('produces no further repairs on a second pass', () => {
     const src = [

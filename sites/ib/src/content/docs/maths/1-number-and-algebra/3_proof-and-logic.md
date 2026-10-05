@@ -28,7 +28,7 @@ Examinable at both Standard Level and Higher Level, with HL extensions marked wh
 ### 1.1 Propositions and Truth Values
 
 A **proposition** is a declarative sentence that is either **true** or **false**, never both, never
-Neither.
+neither.
 
 "7 is prime" is a proposition (true). "Solve for x" is not a proposition. "This sentence is false"
 Is not a proposition (it is paradoxical).
@@ -84,7 +84,7 @@ There are five fundamental connectives. Let $P$ and $Q$ be propositions.
 |  F  |  F  |       T        |
 
 The implication $P \implies Q$ is only false when a true premise leads to a false conclusion. This
-Is the single most misunderstood truth table entry in all of mathematics. When $P$ is false, the
+is the single most misunderstood truth table entry in all of mathematics. When $P$ is false, the
 Implication is **vacuously true**, there is no counterexample to "whenever P holds, Q holds."
 
 **Biconditional:**
@@ -137,7 +137,7 @@ Negation is $\neg C \vee \neg D$ I.e., "$f$ is either not continuous or not diff
 
 :::note
 "$f$ is continuous and differentiable" is NOT "$f$ is not continuous and not differentiable", that
-Is too strong.
+is too strong.
 :::
 
 ### 1.5 The Contrapositive
@@ -186,7 +186,7 @@ Fundamental rule of direct .../1-number-and-algebra/3_proof-and-logic.
 **Modus Tollens:** $((P \implies Q) \wedge \neg Q) \implies \neg P$
 
 This says: if you know $P \implies Q$ and you know $\neg Q$ Then you can conclude $\neg P$. This is
-The fundamental rule of .../1-number-and-algebra/3_proof-and-logic by contrapositive.
+the fundamental rule of .../1-number-and-algebra/3_proof-and-logic by contrapositive.
 
 ### 1.7 Quantifiers
 
@@ -228,7 +228,7 @@ $$
 **Worked Example, Negating a nested quantifier statement:**
 
 Negate: "For every positive real number $\varepsilon$ There exists a positive real number $\delta$
-Such that..."
+such that..."
 
 $$
 \neg\left(\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; P(\varepsilon, \delta)\right) \equiv \exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \neg P(\varepsilon, \delta)
@@ -245,14 +245,14 @@ same sequence but With each quantifier flipped.
 <summary>Worked Example: Negate $\forall n \in \mathbb{Z}^+, \; \exists p \mathrm{ prime}, \; p \gt n$</summary>
 
 Step 1: Identify the structure, it is $\forall n, \; \exists p, \; P(n,p)$ where $P(n,p)$ is "$p$
-Is prime and $p \gt n$."
+is prime and $p \gt n$."
 
 Step 2: Negate, $\exists n \in \mathbb{Z}^+, \; \forall p \mathrm{ prime}, \; \neg(p \gt n)$
 
 Step 3: Simplify, $\exists n \in \mathbb{Z}^+, \; \forall p \mathrm{ prime}, \; p \le n$
 
 Reading: "There exists a positive integer $n$ such that every prime $p$ satisfies $p \le n$." This
-Is false (there are infinitely many primes), so the original statement is true.
+is false (there are infinitely many primes), so the original statement is true.
 
 </details>
 
@@ -330,7 +330,7 @@ that is always false, like $1 = 0$ or $0 \lt 0$).
 4. Therefore $\neg P$ is false, so $P$ is true.
 
 This method is especially powerful when the statement you want to prove is a negation itself ("there
-Does not exist..." or "there are no...").
+does not exist..." or "there are no...").
 
 :::note
 Middle ($P \vee \neg P$ must be true).
@@ -398,7 +398,7 @@ Assume $n$ is odd. Then $n = 2k + 1$ for some $k \in \mathbb{Z}$.
 $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$
 
 This is odd. Therefore, if $n$ is odd, $n^2$ is odd. By contrapositive, if $n^2$ is even, then $n$
-Is even.
+is even.
 
 :::tip
 that $n^2$ is Both even and odd). But the contrapositive .../1-number-and-algebra/3_proof-and-logic
@@ -581,13 +581,13 @@ Stamps. $P(11)$: ... Hmm, $P(12)$: three 4-cent stamps. $P(13)$: two 4-cent + on
 One 4-cent + two 5-cent. $P(15)$: three 5-cent stamps.
 
 Let us use base cases $P(12)$, $P(13)$, $P(14)$, $P(15)$. Strong inductive hypothesis: assume $P(j)$
-For all $12 \le j \le k$ Where $k \ge 15$.
+for all $12 \le j \le k$ Where $k \ge 15$.
 
 For $P(k+1)$: note that $(k+1) - 4 = k - 3 \ge 12$ (since $k \ge 15$). By strong IH, $P(k-3)$ holds,
 Meaning we can form $(k-3)$ cents. Adding one 4-cent stamp gives $(k-3) + 4 = k+1$ cents.
 
 By strong induction, $P(n)$ holds for all $n \ge 12$. But we should verify the smaller cases: $P(4)$
-Through $P(11)$. We find $P(4)$, $P(5)$, $P(8)$, $P(9)$$P(10)$ hold, but $P(6)$$P(7)$$P(11)$ Do not.
+through $P(11)$. We find $P(4)$, $P(5)$, $P(8)$, $P(9)$$P(10)$ hold, but $P(6)$$P(7)$$P(11)$ Do not.
 So the correct statement is: all postage $n \ge 8$ except $n = 11$. Or: all $n \ge 12$.
 
 The cleanest formulation: all $n \ge 12$ can be formed. Base cases $P(12)$ through $P(15)$.
@@ -729,7 +729,7 @@ Since $p \ge 1$$2^p$ is a power of 2. Its only prime factor is 2.
 Since $q \ge 1$$3^q$ is a power of 3. Its only prime factor is 3.
 
 By the Fundamental Theorem of Arithmetic, prime factorizations are unique. The number $2^p = 3^q$
-Would need to have prime factorization consisting of only 2's AND only 3's simultaneously. This is
+would need to have prime factorization consisting of only 2's AND only 3's simultaneously. This is
 Impossible unless $p = q = 0$ But $p \ge 1$.
 
 Contradiction. Hence $\log_2{3}$ is irrational. $\blacksquare$
@@ -823,7 +823,7 @@ Since $mx + ny \in \mathbb{Z}$$d \mid (ax + by)$. $\blacksquare$
 
 :::note
 Called a **linear combination** of $a$ and $b$. The greatest common divisor $\gcd(a, b)$ can always
-Be expressed as a linear combination of $a$ and $b$ (Bezout's identity).
+be expressed as a linear combination of $a$ and $b$ (Bezout's identity).
 :::
 
 ### 3.6 Inequality Proofs
@@ -1250,7 +1250,7 @@ $P(k+1)$ requires both $P(1)$ and $P(2)$ as base cases.
 Let $P(n)$: $F_n \le 2^n$.
 
 Base cases: $F_1 = 1 \le 2 = 2^1$. True. $F_2 = 1 \le 4 = 2^2$. True. We need TWO base cases because
-The recurrence $F_{k+1} = F_k + F_{k-1}$ references two previous terms.
+the recurrence $F_{k+1} = F_k + F_{k-1}$ references two previous terms.
 
 Strong inductive hypothesis: Assume $F_j \le 2^j$ for all $1 \le j \le k$ Where $k \ge 2$.
 
@@ -1263,7 +1263,7 @@ Now, $3 \cdot 2^{k-1} \le 4 \cdot 2^{k-1} = 2^{k+1}$ since $3 \le 4$.
 Therefore $F_{k+1} \le 2^{k+1}$. By strong induction, $P(n)$ holds for all $n \ge 1$.
 
 If we had only checked $P(1)$ and tried to use weak induction, the inductive step from $P(k)$ alone
-Would not suffice because $F_{k+1}$ depends on $F_{k-1}$ as well.
+would not suffice because $F_{k+1}$ depends on $F_{k-1}$ as well.
 
 </details>
 
@@ -1319,7 +1319,7 @@ Showing $P$ is false does NOT disprove the implication.
 
 :::danger
 Different from "There exists a person who is the mother of everyone." The negation of "for every x
-There exists y" is "there exists x such that for every y", quantifiers flip but their order is
+there exists y" is "there exists x such that for every y", quantifiers flip but their order is
 Preserved.
 :::
 

@@ -169,7 +169,7 @@ Before QCD, Gell-Mann and Ne"eman organised hadrons using approximate SU(3) flav
 - **Baryon decuplet:** $\Delta^{++}, \Delta^+, \Delta^0, \Delta^-, \Sigma^*, \Xi^*, \Omega^-$.
 
 The prediction of the $\Omega^-$ (with strangeness $S = -3$) by Gell-Mann in 1962 and its discovery
-In 1964 was a triumph of the quark model.
+in 1964 was a triumph of the quark model.
 
 <details>
 <summary>Example 5.3: Eightfold way mass formula for the baryon octet</summary>

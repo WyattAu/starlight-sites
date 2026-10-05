@@ -46,7 +46,7 @@ return a reference. The returned reference would point to freed memory. Lifetime
 by which the compiler tracks and enforces this constraint.
 
 Every reference in Rust has a lifetime, a region of code during which the reference is valid. In
-Most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
+most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
 Relationship between input and output lifetimes is ambiguous.
 
 ## Lifetime Annotation Syntax
@@ -87,7 +87,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 ```
 
 The return type's lifetime is tied only to `'a`. The compiler does not require `'a` and `'b` to have
-Any relationship, they are independent.
+any relationship, they are independent.
 
 ## Function Lifetimes
 

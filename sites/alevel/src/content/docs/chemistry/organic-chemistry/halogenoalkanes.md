@@ -83,7 +83,7 @@ Involving a carbocation intermediate.
 **Rate equation:** Rate $= k[\mathrm{R-X}]$
 
 The rate depends only on the concentration of the halogenoalkane. The nucleophile does not appear in
-The rate equation because it participates only in the fast second step.
+the rate equation because it participates only in the fast second step.
 
 **Mechanism for the reaction of 2-bromo-2-methylpropane with hydroxide:**
 
@@ -211,7 +211,7 @@ $$
 Net reaction: $\mathrm{O}_3 + \mathrm{O} \to 2\mathrm{O}_2$
 
 The chlorine radical is regenerated in the second step, acting as a catalyst. A single chlorine atom
-Can destroy up to $100,000$ ozone molecules before being removed from the catalytic cycle.
+can destroy up to $100,000$ ozone molecules before being removed from the catalytic cycle.
 
 ### Consequences
 
@@ -416,7 +416,7 @@ Product.
 <summary>Problem 2</summary>
 
 Explain why the rate of hydrolysis of 1-chlorobutane is much slower than that of 1-iodobutane under
-The same conditions.
+the same conditions.
 
 **Solution:**
 
@@ -426,7 +426,7 @@ Bond dissociation enthalpy ($238\,\mathrm{kJ/mol}$). The stronger C--Cl bond has
 Energy for cleavage, giving a slower reaction rate.
 
 Additionally, $\mathrm{Cl}^-$ is a poorer leaving group than $\mathrm{I}^-$ because $\mathrm{Cl}^-$
-Is a stronger base (more willing to accept a proton, less willing to depart with its lone pair). The
+is a stronger base (more willing to accept a proton, less willing to depart with its lone pair). The
 Larger, more polarisable $\mathrm{I}^-$ stabilises the departing negative charge more effectively.
 
 </details>

@@ -405,7 +405,7 @@ $$
 
 Use the Nernst equation to calculate the cell potential for
 $\mathrm{Zn} \mid \mathrm{Zn}^{2+}(0.010\mathrm{ M}) \parallel \mathrm{Cu}^{2+}(1.0\mathrm{ M}) \mid \mathrm{Cu}$
-At $298\mathrm{ K}$.
+at $298\mathrm{ K}$.
 
 **Solution:**
 
@@ -422,7 +422,7 @@ E_{\mathrm{cell}} = 1.10 - \frac{0.0592}{2}\log(0.010) = 1.10 - \frac{0.0592}{2}
 $$
 
 The lower concentration of $\mathrm{Zn}^{2+}$ drives the reaction further (Le Chatelier), increasing
-The cell potential.
+the cell potential.
 
 </details>
 

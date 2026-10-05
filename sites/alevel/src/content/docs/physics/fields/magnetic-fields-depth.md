@@ -75,7 +75,7 @@ Change the speed of a charged particle, only its direction.
 ## 3. Circular Motion in a Magnetic Field
 
 When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides
-The centripetal acceleration:
+the centripetal acceleration:
 
 $$
 Bqv = \frac{mv^2}{r}
@@ -494,7 +494,7 @@ Reducing the useful power delivered to the secondary.
 
 Lamination divides the core into thin, electrically insulated sheets perpendicular to the eddy
 Current paths. This increases the effective resistance of each current loop, reducing the magnitude
-Of the eddy currents and thus the power dissipated.
+of the eddy currents and thus the power dissipated.
 
 </details>
 

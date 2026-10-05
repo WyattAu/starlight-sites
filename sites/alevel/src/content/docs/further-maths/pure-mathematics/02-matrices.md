@@ -107,7 +107,7 @@ $$
 
 **Definition.** For
 $\mathbf{A} = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix}$
-The determinant is computed by _cofactor expansion_ along any row or column:
+the determinant is computed by _cofactor expansion_ along any row or column:
 
 $$
 \boxed{\det(\mathbf{A}) = a_{11}\begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix} - a_{12}\begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix} + a_{13}\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}}
@@ -233,7 +233,7 @@ $$
 
 A system of $n$ linear equations in $n$ unknowns can be written as
 $\mathbf{A}\mathbf{x} = \mathbf{b}$ where $\mathbf{A}$ is the coefficient matrix, $\mathbf{x}$ is
-The column vector of unknowns, and $\mathbf{b}$ is the column vector of constants.
+the column vector of unknowns, and $\mathbf{b}$ is the column vector of constants.
 
 If $\mathbf{A}$ is non-singular, the unique solution is:
 
@@ -301,7 +301,7 @@ $$
 ### Proof of the reflection matrix
 
 The reflection of a vector in a line through the origin making angle $\theta$ with the $x$-axis can
-Be decomposed: first rotate by $-\theta$ to align the mirror with the $x$-axis, reflect in the
+be decomposed: first rotate by $-\theta$ to align the mirror with the $x$-axis, reflect in the
 $x$-axis, then rotate back by $\theta$.
 
 $$
@@ -461,7 +461,7 @@ The columns of $\mathbf{P}$ are the eigenvectors of $\mathbf{A}$ And the diagona
 $\mathbf{D}$ are the corresponding eigenvalues.
 
 A matrix is diagonalisable if and only if it has $n$ linearly independent eigenvectors (always true
-For $n$ distinct eigenvalues).
+for $n$ distinct eigenvalues).
 
 **Intuition.** Diagonalisation changes to a coordinate system where the transformation acts
 Independently on each axis (stretching by eigenvalues). In this basis, the matrix takes its simplest
@@ -628,7 +628,7 @@ $$
 
 **Problem 4.** The triangle with vertices $(0, 0)$$(2, 0)$$(0, 1)$ is transformed by the matrix
 $\mathbf{T} = \begin{pmatrix} 3 & 1 \\ 0 & 2 \end{pmatrix}$. Find the coordinates of the vertices of
-The image, and verify that the area scales by $|\det(\mathbf{T})|$.
+the image, and verify that the area scales by $|\det(\mathbf{T})|$.
 
 <details>
 <summary>Hint</summary>
@@ -842,7 +842,7 @@ Then $(\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$.
 <summary>Hint</summary>
 
 Show that $\mathbf{B}^{-1}\mathbf{A}^{-1}$ satisfies the definition of the inverse of $\mathbf{AB}$
-And invoke uniqueness.
+and invoke uniqueness.
 
 </details>
 
@@ -895,7 +895,7 @@ $\lambda_1 = 2$ (repeated), $\lambda_2 = 3$.
 For $\lambda = 2$: $(\mathbf{A}-2\mathbf{I})\mathbf{v} = \mathbf{0}$ gives
 $\begin{pmatrix}0&1&0\\0&0&0\\0&1&1\end{pmatrix}\mathbf{v} = \mathbf{0}$ So $v_2 = 0$ and
 $v_3 = 0$ With $v_1$ free. Only one eigenvector: $(1,0,0)$. Since the geometric multiplicity (1) is
-Less than the algebraic multiplicity (2), $\mathbf{A}$ is **not diagonalisable**.
+less than the algebraic multiplicity (2), $\mathbf{A}$ is **not diagonalisable**.
 
 ### Example 8.2: Finding $\mathbf{A}^n$ using Cayley--Hamilton
 
@@ -1215,7 +1215,7 @@ A real symmetric matrix $\mathbf{A}$ can always be diagonalised by an orthogonal
 $\mathbf{A} = \mathbf{Q}\mathbf{D}\mathbf{Q}^T$ where $\mathbf{Q}^T = \mathbf{Q}^{-1}$.
 
 The Spectral Theorem states that $\mathbf{A} = \sum_{i=1}^{n} \lambda_i \mathbf{q}_i\mathbf{q}_i^T$
-Where $\lambda_i$ are eigenvalues and $\mathbf{q}_i$ are orthonormal eigenvectors.
+where $\lambda_i$ are eigenvalues and $\mathbf{q}_i$ are orthonormal eigenvectors.
 
 ### 14.4 Matrix norms
 
@@ -1321,7 +1321,7 @@ Orthogonal and $\boldsymbol{\Sigma}$ is diagonal with non-negative singular valu
 ### 16.4 Positive definite matrices
 
 A symmetric matrix $\mathbf{A}$ is positive definite if $\mathbf{x}^T\mathbf{A}\mathbf{x} > 0$ for
-All $\mathbf{x} \neq \mathbf{0}$.
+all $\mathbf{x} \neq \mathbf{0}$.
 
 Equivalent conditions: all eigenvalues positive, all leading principal minors positive.
 

@@ -36,7 +36,7 @@ The driving force is the achievement of a full outer shell. A metal atom in Grou
 Electron to attain the electron configuration of the previous noble gas. A non-metal atom in Group 7
 Gains one electron to attain the configuration of the next noble gas. Both species achieve a lower
 Energy state, and the energy released when the ions come together (the lattice energy) is what holds
-The ionic compound together.
+the ionic compound together.
 
 **Example: Sodium chloride (NaCl)**
 
@@ -70,14 +70,14 @@ Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends i
 
 The brittleness of ionic compounds has a clear structural explanation. When a force is applied, one
 Layer of ions shifts relative to another. Ions of the same charge are brought into proximity, and
-The resulting electrostatic repulsion causes the crystal to shatter. This is fundamentally different
-From the response of metals, where layers can slide past each other without breaking bonds.
+the resulting electrostatic repulsion causes the crystal to shatter. This is fundamentally different
+from the response of metals, where layers can slide past each other without breaking bonds.
 
 ### 1.3 Dot and Cross Diagrams
 
 Dot and cross diagrams show the transfer of electrons in ionic bonding. The original electrons of
-Each atom are shown as dots or crosses, and transferred electrons are shown in the colour/symbol of
-The receiving atom.
+each atom are shown as dots or crosses, and transferred electrons are shown in the colour/symbol of
+the receiving atom.
 
 **Example: Magnesium oxide (MgO)**
 
@@ -119,7 +119,7 @@ $$
 **Worked Example.** Draw the dot and cross diagram for calcium fluoride (CaF$_2$).
 
 Calcium ($2, 8, 8, 2$) loses 2 electrons to form Ca$^{2+}$. Each fluorine ($2, 7$) gains 1 electron
-To form F$^-$. Two fluorine atoms are needed to accept the 2 electrons from calcium. The Ca$^{2+}$
+to form F$^-$. Two fluorine atoms are needed to accept the 2 electrons from calcium. The Ca$^{2+}$
 Ion achieves the configuration of argon; each F$^-$ achieves the configuration of neon.
 
 **Worked Example.** Draw the dot and cross diagram for lithium oxide (Li$_2$O).
@@ -130,7 +130,7 @@ O$^{2-}$. Two lithium atoms are needed.
 **Worked Example.** Draw the dot and cross diagram for potassium sulfide (K$_2$S).
 
 Each potassium ($2, 8, 8, 1$) loses 1 electron to form K$^+$. Sulfur ($2, 8, 6$) gains 2 electrons
-To form S$^{2-}$. Two potassium atoms are needed. Each K$^+$ achieves the configuration of argon;
+to form S$^{2-}$. Two potassium atoms are needed. Each K$^+$ achieves the configuration of argon;
 S$^{2-}$ achieves the configuration of argon.
 
 ### 1.4 Formulae of Ionic Compounds
@@ -191,8 +191,8 @@ F \propto \frac{q_1 \cdot q_2}{r^2}
 $$
 
 Where $q_1$ and $q_2$ are the ion charges and $r$ is the distance between ion centres. For compounds
-With higher charges (e.g. MgO with $2+$ and $2-$) and smaller ions (shorter $r$), the forces are
-Much stronger and the melting point is much higher. This explains why MgO melts at
+with higher charges (e.g. MgO with $2+$ and $2-$) and smaller ions (shorter $r$), the forces are
+much stronger and the melting point is much higher. This explains why MgO melts at
 $2852^{\circ}\mathrm{C$ while NaCl melts at only $801^{\circ}\mathrm{C$.
 
 ### 1.7 Comparison of Ionic Compound Properties
@@ -237,7 +237,7 @@ Shared.
 Electrons and needs 2 more. Each oxygen forms a double bond with carbon.
 
 Carbon forms two double bonds, one with each oxygen. Each double bond consists of two shared pairs
-Of electrons.
+of electrons.
 
 **Methane (CH$_4$):** Carbon forms four single bonds with four hydrogen atoms. Carbon achieves a
 Full outer shell of 8 electrons, and each hydrogen achieves a full outer shell of 2 electrons.
@@ -264,7 +264,7 @@ Pair.
 
 Phosphorus is in group 5 with 5 outer electrons. It needs 3 more to complete its octet. Each
 Chlorine has 7 outer electrons and needs 1 more. Phosphorus forms three single covalent bonds, one
-With each chlorine, and retains one lone pair. The structure is analogous to ammonia.
+with each chlorine, and retains one lone pair. The structure is analogous to ammonia.
 
 ### 2.3 Properties of Simple Covalent Molecules
 
@@ -276,14 +276,14 @@ With each chlorine, and retains one lone pair. The structure is analogous to amm
 
 :::caution
 Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are strong, but there
-Are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
+are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
 Atoms -- this does not happen during melting or boiling.
 :::
 
 The distinction between intramolecular bonds (within molecules) and intermolecular forces (between
 Molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
 Molecule are strong (about 464 kJ/mol for O-H), but the hydrogen bonds between water molecules are
-Much weaker (about 20 kJ/mol). It is these weaker forces that are overcome when water boils at
+much weaker (about 20 kJ/mol). It is these weaker forces that are overcome when water boils at
 $100^{\circ}\mathrm{C$.
 
 ### 2.4 Bonding in Giant Covalent Structures
@@ -341,7 +341,7 @@ Properties. They are used in composite materials and electronics.
 ### 2.6 Bond Polarity
 
 When two different non-metals form a covalent bond, the shared electrons may be pulled more towards
-One atom than the other (because of different electronegativities).
+one atom than the other (because of different electronegativities).
 
 - If the electrons are shared equally, the bond is **non-polar** (e.g. H-H, Cl-Cl)
 - If the electrons are pulled towards one atom, the bond is **polar** (e.g. H-Cl)
@@ -370,9 +370,9 @@ Stronger still.
 ### 2.8 Derivation: Why Multiple Bonds Are Stronger
 
 A double bond consists of one sigma bond and one pi bond. A triple bond consists of one sigma bond
-And two pi bonds. Each additional shared pair adds more electron density between the nuclei,
+and two pi bonds. Each additional shared pair adds more electron density between the nuclei,
 Increasing the net attractive force and pulling the nuclei closer together. The shorter bond length
-Also contributes to the higher bond energy because the electrons are closer to both nuclei.
+also contributes to the higher bond energy because the electrons are closer to both nuclei.
 
 The relationship between bond order, bond length, and bond energy:
 
@@ -387,12 +387,12 @@ The relationship between bond order, bond length, and bond energy:
 ### 3.1 The Model
 
 In metals, the outer electrons of each atom are **delocalised** -- they are free to move throughout
-The metallic structure. This creates a "sea" of delocalised electrons surrounding positive metal
+the metallic structure. This creates a "sea" of delocalised electrons surrounding positive metal
 Ions.
 
 The metallic bond is the strong electrostatic attraction between the positive metal ions and the
 Delocalised electrons. This model accounts for the key properties of metals and distinguishes them
-From both ionic and covalent substances.
+from both ionic and covalent substances.
 
 ### 3.2 Properties of Metals
 
@@ -408,8 +408,8 @@ From both ionic and covalent substances.
 The malleability and ductility of metals are consequences of the non-directional nature of the
 Metallic bond. When a force is applied, layers of metal ions can slide past each other. The
 Delocalised electrons adjust their positions to maintain the electrostatic attraction, so the metal
-Does not shatter. This is in stark contrast to ionic solids, where displacement of layers brings
-Like charges together and causes fracture.
+does not shatter. This is in stark contrast to ionic solids, where displacement of layers brings
+like charges together and causes fracture.
 
 ### 3.3 Alloys
 
@@ -620,7 +620,7 @@ Substances with stronger intermolecular forces have higher boiling points.
 
 **Example:** Water has a much higher boiling point than hydrogen sulfide, despite H$_2$S having a
 Larger relative molecular mass. This is because water forms hydrogen bonds, which are much stronger
-Than the dipole-dipole forces in H$_2$S.
+than the dipole-dipole forces in H$_2$S.
 
 **Example:** Explain why the boiling point increases from F$_2$ to Cl$_2$ to Br$_2$ to I$_2$.
 
@@ -640,7 +640,7 @@ Reasoning: F$_2$Cl$_2$Br$_2$.
 
 F$_2$ &lt; Cl$_2$ &lt; Br$_2$. All three have only London dispersion forces. As the number of
 Electrons increases (F$_2$: 18, Cl$_2$: 34, Br$_2$: 70), London forces become stronger, requiring
-More energy to overcome. Hence the boiling point increases.
+more energy to overcome. Hence the boiling point increases.
 
 **Worked Example.** Explain why ethanol (C$_2$H$_5$OH, boiling point $78^{\circ}\mathrm{C$) has a
 Much higher boiling point than dimethyl ether (CH$_3$OCH$_3$Boiling point $-24^{\circ}\mathrm{C$)
@@ -684,7 +684,7 @@ $$
 $$
 
 The ratio is inversely proportional to the side length. As $s$ decreases, the ratio increases. This
-Is why nanoparticles have such large surface area to volume ratios: their small size means a large
+is why nanoparticles have such large surface area to volume ratios: their small size means a large
 Proportion of atoms are on the surface, available for catalysis or other reactions.
 
 ### 6.5 Summary: Intermolecular Forces and Boiling Points

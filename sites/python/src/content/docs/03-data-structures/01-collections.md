@@ -62,8 +62,8 @@ Objects inline -- it stores references. This means:
 ### Growth Strategy and Amortized O(1) Append
 
 When `list.append()` runs and the internal array is full, CPython must allocate a new, larger array
-And copy all existing pointers into it. The growth strategy determines how much larger the new array
-Is.
+and copy all existing pointers into it. The growth strategy determines how much larger the new array
+is.
 
 ```mermaid
 graph TD
@@ -163,7 +163,7 @@ lst.copy()           # shallow copy [3, 1, 4, 1, 5]
 ### Slicing
 
 Slicing creates a **new list** containing copies of the pointer slots in the specified range. It
-Does not copy the referenced objects.
+does not copy the referenced objects.
 
 ```python
 lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -215,12 +215,12 @@ Actions. If the comprehension has no useful result, use a `for` loop instead.
 ## Tuples
 
 Tuples are **ordered, immutable sequences**. The immutability is their defining characteristic and
-The source of their advantages.
+the source of their advantages.
 
 ### Immutability Mechanics
 
 "Immutable" in Python means that the tuple's container (the array of pointers) cannot be modified
-After creation. The pointers themselves cannot be added, removed, or reordered. However, if a
+after creation. The pointers themselves cannot be added, removed, or reordered. However, if a
 Pointer refers to a mutable object (like a list), that inner object can still be mutated.
 
 ```python
@@ -280,8 +280,8 @@ class Point(NamedTuple):
 ### Structural Typing with Tuples
 
 Tuples are the idiomatic Python representation for heterogeneous, fixed-length data -- records where
-The position carries meaning. This is structural typing: the "shape" of the tuple (what types appear
-At which positions) defines a type, without requiring a named class.
+the position carries meaning. This is structural typing: the "shape" of the tuple (what types appear
+at which positions) defines a type, without requiring a named class.
 
 ```python
 # A common pattern: returning multiple values

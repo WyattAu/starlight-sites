@@ -173,7 +173,7 @@ S13.8.2.1] are:
 
 The critical asymmetry is that passing an lvalue to a forwarding reference deduces `T` as a
 _reference type_, while passing an rvalue deduces `T` as a non-reference type. This is the mechanism
-That enables perfect forwarding with `std::forward`:
+that enables perfect forwarding with `std::forward`:
 
 ```cpp
 #include <iostream>
@@ -488,7 +488,7 @@ int main() {
 
 The deduction guide `Pair(T, U) -> Pair&lt;std::decay_t&lt;T&gt;, std::decay_t&lt;U&gt;&gt;` uses
 `std::decay_t` to ensure that array and function types decay to pointer types (matching the behavior
-Of pass-by-value constructors), just as `std::make_pair` does.
+of pass-by-value constructors), just as `std::make_pair` does.
 
 ### Deduction Guides for Type-Conversion Patterns
 

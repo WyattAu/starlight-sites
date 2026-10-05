@@ -21,7 +21,7 @@ categories:
 ## Interface Basics
 
 An interface in Go defines a set of method signatures. A type satisfies an interface by implementing
-All of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
+all of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
 Structural.
 
 ```go
@@ -193,12 +193,12 @@ func main() {
 The rule: if any method of an interface has a pointer receiver, only a pointer to the type (not the
 Value itself) satisfies the interface. This is because calling a pointer receiver on a copy of the
 Value would be meaningless -- the method modifies the receiver, but the modification is lost when
-The copy is discarded.
+the copy is discarded.
 
 ## Nil Interface Values
 
 An interface value is a two-word tuple: (type, value). A nil interface has both type and value set
-To nil:
+to nil:
 
 ```go
 var s Speaker

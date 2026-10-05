@@ -440,7 +440,7 @@ Nephrons.
 **Worked Example: Diabetes insipidus.**
 
 A patient produces very large volumes of dilute urine and is constantly thirsty. This is a symptom
-Of diabetes insipidus, which is caused by a lack of ADH (or by the kidneys not responding to ADH).
+of diabetes insipidus, which is caused by a lack of ADH (or by the kidneys not responding to ADH).
 Without ADH, the collecting ducts remain impermeable to water, so water is not reabsorbed. The
 Result is large volumes of dilute urine (polyuria) and excessive thirst (polydipsia) as the body
 Tries to replace the lost water.
@@ -504,14 +504,14 @@ Many drugs work by affecting synaptic transmission:
 
 **Negative feedback:** The mechanism by which the body maintains homeostasis. When a condition
 Deviates from its set point, the body initiates a corrective response that brings the condition back
-To normal, then the corrective response is switched off.
+to normal, then the corrective response is switched off.
 
 **Worked Example: Blood glucose regulation.**
 
 After a meal, blood glucose rises above the normal range (approximately 4--6 mmol/L). The pancreas
 Detects this and secretes insulin. Insulin stimulates cells (especially liver and muscle cells) to
 Take up glucose from the blood and convert it to glycogen (glycogenesis). Blood glucose falls back
-To normal, and insulin secretion decreases.
+to normal, and insulin secretion decreases.
 
 During fasting or exercise, blood glucose falls below normal. The pancreas secretes glucagon.
 Glucagon stimulates the liver to break down glycogen into glucose (glycogenolysis) and, if
@@ -584,13 +584,13 @@ Main organs of osmoregulation.
 **Role of antidiuretic hormone (ADH):**
 
 ADH is released from the posterior pituitary gland when the blood water potential is too low (blood
-Is too concentrated). ADH increases the permeability of the collecting duct to water by causing
+is too concentrated). ADH increases the permeability of the collecting duct to water by causing
 Aquaporin channels to be inserted into the cell membranes. More water is reabsorbed from the
 Filtrate into the blood, producing a smaller volume of more concentrated urine.
 
 When the blood water potential is too high (blood is too dilute), less ADH is released. The
 Collecting duct becomes less permeable to water, less water is reabsorbed, and a larger volume of
-More dilute urine is produced.
+more dilute urine is produced.
 
 **Worked Example: Explaining osmoregulation after drinking a large volume of water.**
 
@@ -644,8 +644,8 @@ Environment. It is divided into:
 **Transmission of nerve impulses:**
 
 At rest, the inside of the neuron is negatively charged relative to the outside (resting potential
-Of approximately -70 mV). This is maintained by the sodium-potassium pump, which pumps 3 sodium ions
-Out and 2 potassium ions in for each ATP hydrolysed.
+of approximately -70 mV). This is maintained by the sodium-potassium pump, which pumps 3 sodium ions
+out and 2 potassium ions in for each ATP hydrolysed.
 
 When a stimulus depolarises the membrane to the threshold level (approximately -55 mV),
 Voltage-gated sodium channels open. Sodium ions rush in, causing further depolarisation. This is the
@@ -653,7 +653,7 @@ Action potential (approximately +40 mV). The action potential travels along the 
 Depolarisation.
 
 After the action potential passes, voltage-gated potassium channels open and potassium ions flow
-Out, repolarising the membrane. The sodium-potassium pump restores the resting potential (refractory
+out, repolarising the membrane. The sodium-potassium pump restores the resting potential (refractory
 Period), ensuring the impulse travels in one direction only.
 
 **Synapses:**
@@ -707,7 +707,7 @@ Response faster.
 **Hormones and their effects:**
 
 Hormones are chemical messengers secreted by endocrine glands into the bloodstream. They travel
-Throughout the body but only affect specific target cells that have the appropriate receptors.
+throughout the body but only affect specific target cells that have the appropriate receptors.
 
 **Key endocrine glands and hormones:**
 

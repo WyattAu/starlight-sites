@@ -238,10 +238,10 @@ $G$:
 3. Set the target: $k' = n + 2k$.
 
 The cover must include at least one endpoint of each variable-gadget edge ($n$ vertices) and at
-Least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
+least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
 Cover removes it from clause consideration; the remaining two triangle vertices must be in the
 Cover. The formula is satisfiable iff we can choose literal vertices such that each clause triangle
-Has at most one vertex already excluded. $\blacksquare$
+has at most one vertex already excluded. $\blacksquare$
 
 **Clique.** Given $G = (V, E)$ and integer $k$ Does $G$ contain a clique of size $k$?
 

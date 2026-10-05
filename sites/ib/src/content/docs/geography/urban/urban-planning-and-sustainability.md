@@ -82,7 +82,7 @@ Smart city elements include: real-time bicycle traffic monitoring (Copenhagen ha
 Km of segregated cycle lanes, and cycling accounts for approximately 49% of all commutes); a smart
 Grid integrating wind energy (Denmark generates approximately 55% of electricity from wind); and
 Data-driven urban planning using digital models of microclimate, wind patterns, and solar exposure
-To optimise building design and placement.
+to optimise building design and placement.
 
 **Barcelona.** The "Superblocks" (superilles) programme redesigns street grids to prioritise
 Pedestrians and cyclists over motor vehicles. By restricting through-traffic in designated blocks of
@@ -144,7 +144,7 @@ Master plan.
 
 **Results:** Curitiba has approximately 52 m$^2$ of green space per inhabitant (one of the highest
 Ratios among major cities in developing countries), achieved through the preservation of floodplains
-As parks. The BRT system carries approximately 70% of weekday commuter trips. Curitiba's per capita
+as parks. The BRT system carries approximately 70% of weekday commuter trips. Curitiba's per capita
 Fuel consumption is approximately 30% lower than comparable Brazilian cities.
 
 **Limitations:** the model benefits the formal city while the metropolitan periphery (approximately
@@ -157,7 +157,7 @@ Lerner) that may not be replicable in all contexts.
 ### Definition and Functions
 
 Green infrastructure is a network of natural and semi-natural features within and around urban areas
-That provide ecosystem services. It includes parks, urban forests, green roofs, green walls, street
+that provide ecosystem services. It includes parks, urban forests, green roofs, green walls, street
 Trees, wetlands, urban agriculture, and ecological corridors.
 
 **Ecosystem services provided by urban green infrastructure:**
@@ -221,7 +221,7 @@ City aims to be carbon-neutral by 2050.
 ### Principles
 
 Participatory planning involves the active engagement of citizens and communities in the planning
-And design of their neighbourhoods and cities. It moves beyond traditional top-down planning (in
+and design of their neighbourhoods and cities. It moves beyond traditional top-down planning (in
 Which decisions are made by planners and politicians with limited public input) toward
 Collaborative, bottom-up processes.
 
@@ -242,7 +242,7 @@ Collaborative, bottom-up processes.
 <summary>Common Pitfalls: Assuming Sustainable Urban Solutions Are Universally Applicable</summary>
 
 Examination questions often ask students to evaluate sustainable urban strategies. A common error is
-To present strategies (e.g., BRT, smart cities, green infrastructure) as universally beneficial,
+to present strategies (e.g., BRT, smart cities, green infrastructure) as universally beneficial,
 Without considering context. A strategy that works in one context may fail in another due to
 Differences in income levels, governance capacity, institutional frameworks, cultural norms,
 Climate, or existing urban form. Curitiba's BRT system, for example, was implemented within a strong

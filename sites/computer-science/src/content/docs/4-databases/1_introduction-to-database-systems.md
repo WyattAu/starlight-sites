@@ -44,7 +44,7 @@ Committee) Architecture defines three levels of abstraction:
    compression, encryption). Includes data structures, access paths, and storage allocation.
 
 The DBMS maps between levels via the **external/conceptual mapping** (translates external views to
-The conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
+the conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
 Internal storage).
 
 **Data independence:**

@@ -80,7 +80,7 @@ $$
 ### Arithmetic Mean
 
 The arithmetic mean of $a$ and $b$ is $\dfrac{a + b}{2}$. In an arithmetic sequence, each term is
-The arithmetic mean of its neighbours.
+the arithmetic mean of its neighbours.
 
 ---
 
@@ -248,7 +248,7 @@ The series converges.
 ### Integral Test
 
 If $f$ is continuous, positive, and decreasing on $[1, \infty)$ Then $\sum f(n)$ converges if and
-Only if $\displaystyle\int_1^{\infty} f(x)\,dx$ converges.
+only if $\displaystyle\int_1^{\infty} f(x)\,dx$ converges.
 
 **Example.** The harmonic series diverges because:
 
@@ -612,7 +612,7 @@ $$
 $$
 
 The actual value of the error function at $0.5$ gives approximately $0.4613$ Confirming the accuracy
-Of this approximation.
+of this approximation.
 
 </details>
 
@@ -681,7 +681,7 @@ This is the formula with $n = j + 1$. By induction, the result holds for all $n 
 **Worked Example: Taylor Series Error Bound**
 
 Use a second degree Taylor polynomial of $\ln(1 + x)$ about $x = 0$ to approximate $\ln(1.2)$. Bound
-The error.
+the error.
 
 <details>
 <summary>Solution</summary>

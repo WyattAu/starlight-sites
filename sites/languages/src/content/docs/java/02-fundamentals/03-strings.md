@@ -64,14 +64,14 @@ System.out.println(a.equals(c)); // true, same content
 ```
 
 The `new String(...)` constructor always creates a new object on the heap, bypassing the pool. This
-Is almost always the wrong thing to do.
+is almost always the wrong thing to do.
 
 ### `intern()`
 
 `String.intern()` returns a canonical representation from the pool. If the string is not already in
-The pool, it is added. Interning can reduce memory when you have many duplicate strings, but the
+the pool, it is added. Interning can reduce memory when you have many duplicate strings, but the
 Pool lives in the heap (since JDK 7) and is managed by the GC. Over-interning can cause GC pressure
-And pool bloat.
+and pool bloat.
 
 ```java
 String s1 = new String("hello").intern();
@@ -117,7 +117,7 @@ Encoding is used; it is determined automatically at construction time.
 
 **`String`**, Use for values that do not change. Literals, constants, method return values for
 Immutable data, keys in maps, and any case where immutability is desired. The JVM's escape analysis
-And JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
+and JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
 
 **`StringBuilder`**, Use for building strings in a single thread. This covers the vast majority of
 Use cases: constructing SQL queries, building JSON, accumulating log messages, reading file
@@ -528,8 +528,8 @@ String result = template.formatted("Alice", 5);
 ## `StringTokenizer` (Legacy)
 
 `StringTokenizer` predates `String.split()` and `Pattern`. It is retained for backward compatibility
-But should not be used in new code. It does not support regex, cannot handle empty tokens, and has
-No way to limit splits.
+but should not be used in new code. It does not support regex, cannot handle empty tokens, and has
+no way to limit splits.
 
 ```java
 // LEGACY, do not use
@@ -658,13 +658,13 @@ java -XX:+UseG1GC -XX:+StringDeduplication ...
 ```
 
 Deduplication reduces memory usage without any code changes. It is most effective for applications
-With large heaps and many duplicate strings (e.g., web servers processing similar requests, XML/JSON
+with large heaps and many duplicate strings (e.g., web servers processing similar requests, XML/JSON
 Parsers).
 
 ### Unicode Normalization
 
 The same logical text can have different binary representations in Unicode. For example, `"é"` can
-Be a single code point (U+00E9) or `e` + combining accent (U+0065 + U+0301). These are visually
+be a single code point (U+00E9) or `e` + combining accent (U+0065 + U+0301). These are visually
 Identical but `String.equals()` returns `false`.
 
 ```java
@@ -760,7 +760,7 @@ public static String safeTrim(String s) {
 Prior to JDK 7u6, `String.substring()` shared the backing `char[]` with the original string. If you
 Extracted a small substring from a very large string and held a reference to the substring, the
 Entire large `char[]` remained in memory. This was fixed in JDK 7u6, where `substring` now copies
-The characters into a new array.
+the characters into a new array.
 
 ### Regex Backtracking Catastrophe
 

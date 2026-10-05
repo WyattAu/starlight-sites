@@ -18,7 +18,7 @@ description: "Regular expressions are the backbone of text processing on Linux. 
 ## Regular Expressions
 
 Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each
-With different capabilities and syntax.
+with different capabilities and syntax.
 
 ### BRE vs ERE vs PCRE
 

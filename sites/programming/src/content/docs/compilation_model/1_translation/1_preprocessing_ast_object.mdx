@@ -20,7 +20,7 @@ Preprocessor (a single source file plus all included headers).
 
 The preprocessor is a legacy text-manipulation engine inherited from C. It operates on source text
 _before_ the compiler understands C++ syntax. It does not know what a `class` or `function` is; it
-Only knows tokens.
+only knows tokens.
 
 ### Mechanics
 
@@ -228,8 +228,8 @@ dumpbin /SYMBOLS main.obj
 </Tabs>
 
 The compiler produces a collection of **Object Files**. These files contain optimized machine code
-But rely on "Undefined Symbols" (like `std::cout` or function calls to other files). They cannot run
-Yet. Resolving these symbols is the job of the **Linker**.
+but rely on "Undefined Symbols" (like `std::cout` or function calls to other files). They cannot run
+yet. Resolving these symbols is the job of the **Linker**.
 
 ---
 
@@ -237,7 +237,7 @@ Yet. Resolving these symbols is the job of the **Linker**.
 
 The C++ standard [N4950 §5.1.1] defines the translation of a source file into an executable as a
 Sequence of **translation phases** (also called "phases of translation"). These are numbered 1
-Through 9:
+through 9:
 
 | Phase | Description                                                                                                  |
 | :---- | :----------------------------------------------------------------------------------------------------------- |
@@ -370,7 +370,7 @@ Traditional include guards use preprocessor conditionals to prevent multiple inc
 ```
 
 `#pragma once` is a non-standard but universally supported directive that achieves the same result
-More concisely:
+more concisely:
 
 ```cpp
 // my_header.h
@@ -417,7 +417,7 @@ Confusing.
 
 The compiler encodes function signatures, namespaces, and template arguments into a single string
 Called the **mangled name**. This is what appears in the object file's symbol table. Name mangling
-Is necessary because the linker only sees flat strings, not C++ scope.
+is necessary because the linker only sees flat strings, not C++ scope.
 
 ```cpp
 // code.cpp
@@ -454,7 +454,7 @@ c++filt _ZN4math3addEii
 ### LLVM IR Structure
 
 LLVM IR is a typed, SSA-based assembly language. Every value is computed exactly once and assigned
-To a register (`%0, %1`Etc.). This makes dataflow analysis trivial for the optimizer.
+to a register (`%0, %1`Etc.). This makes dataflow analysis trivial for the optimizer.
 
 ```cpp
 // sum.cpp
@@ -513,8 +513,8 @@ g++ -fdump-tree-optimized sum.cpp
 ### Relocation Entries
 
 When the compiler generates an object file, it cannot know the final addresses of symbols defined in
-Other translation units. It emits **relocation entries**, instructions to the linker saying "patch
-This offset with the final address of symbol X."
+other translation units. It emits **relocation entries**, instructions to the linker saying "patch
+this offset with the final address of symbol X."
 
 ```bash
 # View relocations in an object file

@@ -295,7 +295,7 @@ $$
 ### Worked Example 3
 
 A student sets up an electrochemical cell with a $\mathrm{Zn}$ electrode in $\mathrm{ZnSO_4}(aq)$
-And a $\mathrm{Cu}$ electrode in $\mathrm{CuSO_4}(aq)$. Identify the anode, cathode, and the
+and a $\mathrm{Cu}$ electrode in $\mathrm{CuSO_4}(aq)$. Identify the anode, cathode, and the
 Direction of electron flow.
 
 <details>

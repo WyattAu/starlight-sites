@@ -78,7 +78,7 @@ $$
 
 **Theorem 5.5 (Deformation of Contours).** If $f$ is analytic on a domain containing two simple
 Closed contours $\gamma_1$ and $\gamma_2$ where one can be continuously deformed into the other
-Within the domain of analyticity of $f$ Then
+within the domain of analyticity of $f$ Then
 
 $$
 \int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz

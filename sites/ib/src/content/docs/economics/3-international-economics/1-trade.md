@@ -21,7 +21,7 @@ categories: [ib-economics]
 ### Absolute and Comparative Advantage
 
 A country has an **absolute advantage** in producing a good if it can produce more output per unit
-Of resources than another country.
+of resources than another country.
 
 A country has a **comparative advantage** in producing a good if it can produce it at a lower
 Opportunity cost than another country. Comparative advantage is the basis for mutually beneficial
@@ -68,7 +68,7 @@ After specialisation (A produces only wine, B produces only cloth):
 - World total: 600 wine, 400 cloth
 
 Both wine and cloth production have increased. If they trade at 1 wine $= 1$ cloth, both countries
-Can consume more of both goods than before trade.
+can consume more of both goods than before trade.
 
 ### Assumptions and Limitations of the Ricardian Model
 
@@ -89,7 +89,7 @@ Complicate the picture.
 
 The Heckscher-Ohlin (H-O) model extends the theory by linking comparative advantage to **factor
 Endowments**: countries export goods that intensively use their abundant factors and import goods
-That intensively use their scarce factors.
+that intensively use their scarce factors.
 
 **Key propositions:**
 
@@ -160,7 +160,7 @@ This provides a better indicator of a country's capacity to import.
 ### The Prebisch-Singer Hypothesis
 
 The Prebisch-Singer hypothesis argues that the terms of trade for primary commodity exporters tend
-To deteriorate over time relative to manufactured goods exporters. Reasons include:
+to deteriorate over time relative to manufactured goods exporters. Reasons include:
 
 - Low income elasticity of demand for primary commodities (Engel's Law: as incomes rise, the share
   of spending on food and raw materials falls)
@@ -206,7 +206,7 @@ Unlike tariffs, the revenue from the higher price may accrue to:
 
 A production subsidy to domestic producers lowers their costs, enabling them to compete more
 Effectively against imports. Unlike tariffs, subsidies do not directly raise consumer prices, but
-They impose a fiscal cost on the government and may provoke retaliation under WTO rules.
+they impose a fiscal cost on the government and may provoke retaliation under WTO rules.
 
 ### Administrative Barriers
 
@@ -557,7 +557,7 @@ Revenue from more units sold is outweighed by the decrease in revenue per unit, 
 Import expenditure from fewer units bought is outweighed by the increase in price per unit.
 
 (b) The J-curve describes the short-run deterioration followed by long-run improvement. Immediately
-After depreciation:
+after depreciation:
 
 - Import costs rise in domestic currency terms (contracts are in foreign currency)
 - Export volumes are slow to adjust (new contracts take time to negotiate)
@@ -1218,7 +1218,7 @@ import.
 <summary>Problem 8: Exchange Rate with Interest Rate Parity</summary>
 
 The spot exchange rate is `USD 1.20` per euro. The one-year interest rate in the Eurozone is $1\%$
-And in the US is $3\%$.
+and in the US is $3\%$.
 
 (a) Calculate the forward exchange rate implied by covered interest rate parity.
 
@@ -1856,7 +1856,7 @@ debt was USD 70 billion (50% of GDP).
 
 (a) Thailand maintained a fixed exchange rate and free capital mobility, sacrificing independent
 Monetary policy. When the US raised interest rates in 1994--95, Thailand could not follow suit
-Because its economy was slowing. The interest differential (Thai rates < US rates) encouraged
+because its economy was slowing. The interest differential (Thai rates < US rates) encouraged
 Capital outflows, putting downward pressure on the baht.
 
 To defend the peg, the Bank of Thailand had to sell USD reserves and buy baht, depleting Reserves

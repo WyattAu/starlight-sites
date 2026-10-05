@@ -37,7 +37,7 @@ _Proof._ Each edge contributes 1 to the degree of each of its two endpoints. $\b
 ### 5.2 Paths, Cycles, and Connectivity
 
 A **walk** is a sequence of vertices where consecutive vertices are adjacent. A **path** is a walk
-With no repeated vertices. A **cycle** is a path that returns to its starting vertex.
+with no repeated vertices. A **cycle** is a path that returns to its starting vertex.
 
 A graph is **connected** if there is a path between every pair of vertices. A **connected
 component** Is a maximal connected subgraph.
@@ -166,7 +166,7 @@ $K_n$ (complete graph on $n$ vertices): every pair of vertices is adjacent, so a
 Receive distinct colours. Hence $\chi(K_n) = n$.
 
 $K_{m,n}$ (complete bipartite graph): no two vertices within the same partition are adjacent, so we
-Can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
+can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
 Hence $\chi(K_{m,n}) = 2$ (for $m, n \geq 1$).
 
 </details>
@@ -188,7 +188,7 @@ Checking: $P(K_3, 2) = 2 \cdot 1 \cdot 0 = 0$ (not 2-colourable, as expected). $
 ### 5.6 Euler and Hamilton Paths
 
 An **Euler path** visits every edge exactly once. An **Euler circuit** is an Euler path that starts
-And ends at the same vertex.
+and ends at the same vertex.
 
 **Theorem 5.14.** A connected graph has an Euler circuit if and only if every vertex has even
 degree. It has an Euler path (but not circuit) if and only if exactly two vertices have odd degree.
@@ -206,7 +206,7 @@ yields an Euler circuit of the full graph. $\blacksquare$
 <summary>Solution</summary>
 
 $K_{2,3}$ has 5 vertices. The two vertices in the first partition each have degree 3 (connected to
-All three in the second partition). The three vertices in the second partition each have degree 2.
+all three in the second partition). The three vertices in the second partition each have degree 2.
 
 Vertices of odd degree: two (each of degree 3). Since exactly two vertices have odd degree,
 $K_{2,3}$ has an Euler path (starting at one odd-degree vertex, ending at the other) but not an
@@ -276,7 +276,7 @@ Endpoint). A vertex is **matched** if it is an endpoint of an edge in $M$; other
 
 **Theorem 5.17 (Hall's Marriage Theorem, 1935).** Let $G = (V, E)$ be a bipartite graph with
 Partitions $X$ and $Y$. There exists a matching that covers every vertex in $X$ if and only if for
-Every subset $S \subseteq X$
+every subset $S \subseteq X$
 
 $$
 |N(S)| \geq |S|
@@ -299,7 +299,7 @@ the Strict inequality). By the induction hypothesis, $X \setminus \\{x\\}$ can b
 Adding $xy$ Gives the desired matching.
 
 _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. Match $T$ to $N(T)$
-By the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
+by the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
 $$

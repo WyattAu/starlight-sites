@@ -22,7 +22,7 @@ categories: "- DSE - Economics"
 ### Gross Domestic Product (GDP)
 
 GDP is the total market value of all final goods and services produced within a country's borders
-During a given time period ( one year).
+during a given time period ( one year).
 
 Key attributes:
 
@@ -58,7 +58,7 @@ $$
 Southeast Asia. The income from these overseas operations is counted in Hong Kong's GNP but not in
 Its GDP. Conversely, profits earned by foreign-owned firms operating in Hong Kong are counted in
 Hong Kong's GDP but not in its GNP. Historically, Hong Kong's GNP has been larger than its GDP
-Because net factor income from abroad has been positive.
+because net factor income from abroad has been positive.
 
 ### Net Domestic Product (NDP) and Net National Product (NNP)
 
@@ -86,7 +86,7 @@ $$
 $$
 
 Disposable income is the income households have available for spending (consumption) and saving
-After paying taxes. It is the most relevant measure for analysing household behaviour.
+after paying taxes. It is the most relevant measure for analysing household behaviour.
 
 ---
 
@@ -114,7 +114,7 @@ $$
 
 Real GDP is GDP measured at constant (base-year) prices. It changes only when output quantities
 Change, holding prices constant. Real GDP is the preferred measure for comparing output across time
-Because it strips out the effect of price changes (inflation).
+because it strips out the effect of price changes (inflation).
 
 $$
 \mathrm{Real GDP} = \sum_{i=1}^{n} P_{i,\mathrm{base}} \times Q_{i,t}
@@ -361,7 +361,7 @@ Its land (selling timber) or overfishing its waters, but this growth is not sust
 ### 7. Defensive Expenditures Counted Positively
 
 Spending on repairing damage (flood defences, pollution cleanup, crime prevention) adds to GDP, even
-Though it represents a cost rather than a genuine improvement in welfare.
+though it represents a cost rather than a genuine improvement in welfare.
 
 ---
 
@@ -379,7 +379,7 @@ Though it represents a cost rather than a genuine improvement in welfare.
 ### Definition and Measurement
 
 The unemployment rate is the percentage of the labour force that is actively seeking work but unable
-To find it.
+to find it.
 
 $$
 \mathrm{Unemployment rate} = \frac{\mathrm{Number of unemployed}}{\mathrm{Labour force}} \times 100\%
@@ -417,7 +417,7 @@ Indicates a healthy, flexible labour market.
 
 **Structural unemployment** is more serious because it reflects a fundamental mismatch in the
 Economy. Technological change (automation replacing labour) and globalisation (manufacturing moving
-To lower-cost countries) are major drivers. Structural unemployment tends to be long-term and
+to lower-cost countries) are major drivers. Structural unemployment tends to be long-term and
 Requires retraining or relocation, which is costly and time-consuming.
 
 **Cyclical unemployment** rises during recessions and falls during expansions. It is directly linked
@@ -490,7 +490,7 @@ Exist.
 ### Definition
 
 Inflation is a sustained increase in the general price level over time. A single price increase is
-Not inflation; inflation refers to a broad-based, persistent rise in prices.
+not inflation; inflation refers to a broad-based, persistent rise in prices.
 
 $$
 \mathrm{Inflation rate} = \frac{P_t - P_{t-1}}{P_{t-1}} \times 100\%
@@ -604,7 +604,7 @@ Curve is vertical at the natural rate of unemployment (NRU).
 Running expansionary policy, inflation rises. Initially, workers do not anticipate the higher
 Inflation, so they accept jobs at what they believe are higher real wages (money illusion). Once
 Workers realise that prices have risen, they demand higher nominal wages to compensate. This shifts
-The SRAS curve left, returning unemployment to the NRU but at a higher inflation rate. The economy
+the SRAS curve left, returning unemployment to the NRU but at a higher inflation rate. The economy
 Moves up along the long-run vertical Phillips curve.
 
 ### Diagram Description: Short-Run and Long-Run Phillips Curves
@@ -702,7 +702,7 @@ Only technological progress and productivity improvements can drive long-run per
 ### Definition
 
 The business cycle (economic cycle or trade cycle) refers to the fluctuations in economic activity
-Around its long-term trend. Real GDP does not grow at a constant rate; it experiences periods of
+around its long-term trend. Real GDP does not grow at a constant rate; it experiences periods of
 Expansion and contraction.
 
 ### Phases of the Business Cycle
@@ -747,7 +747,7 @@ Reliable leading indicators of a recession, historically preceding most US reces
 ```
 
 The economy fluctuates around the long-term trend line. Peaks are above the trend; troughs are below
-It.
+it.
 
 ---
 
@@ -823,7 +823,7 @@ Fluctuations without requiring deliberate government action.
 | Welfare programmes     | More people qualify for means-tested benefits during downturns.                                                                    | Fewer people qualify during upswings.                                                                |
 
 Automatic stabilisers reduce the amplitude of the business cycle but do not eliminate it. They work
-Without legislative delay, unlike discretionary fiscal policy.
+without legislative delay, unlike discretionary fiscal policy.
 
 ---
 
@@ -1014,7 +1014,7 @@ CPI = (4300 / 3800) x 100 = 113.16
 (c) **Substitution bias:** The CPI uses a fixed basket, assuming the household buys the same
 Quantities regardless of price changes. In reality, if pork becomes more expensive (25 vs 20), the
 Household may substitute toward chicken or fish. The CPI overstates inflation by not accounting for
-This substitution toward relatively cheaper goods.
+this substitution toward relatively cheaper goods.
 
 </details>
 
@@ -1022,12 +1022,12 @@ This substitution toward relatively cheaper goods.
 <summary>Question 4: Unemployment Calculations</summary>
 
 An economy has a working-age population of 10 million. Of these: 6 million are employed, 0.4 million
-Are unemployed and actively seeking work, 1.5 million are full-time students, 1.8 million are
+are unemployed and actively seeking work, 1.5 million are full-time students, 1.8 million are
 Retirees, and 0.3 million are discouraged workers (want to work but have stopped looking).
 
 (a) Calculate the labour force. (b) Calculate the unemployment rate. (c) Calculate the labour force
 Participation rate. (d) If 0.1 million discouraged workers start actively seeking work, what happens
-To the unemployment rate?
+to the unemployment rate?
 
 (a) Labour force = Employed + Unemployed = 6.0 + 0.4 = 6.4 million
 
@@ -1111,7 +1111,7 @@ Taxpayer C (USD 100,000): Tax = 30,000 x 10% + 30,000 x 20% + 40,000 x 30% = 3,0
 
 (b) Yes, this is a progressive tax system. The average tax rate increases with income: 10% for USD
 20,000, 14% for USD 50,000, and 21% for USD 100,000. Higher-income earners pay a larger proportion
-Of their income in tax.
+of their income in tax.
 
 (c) Taxpayer A: Taxable income = 20,000 - 5,000 = 15,000. Tax = 15,000 x 15% = 2,250. Average tax
 Rate = 2,250 / 20,000 = 11.25%.
@@ -1180,7 +1180,7 @@ An economy produces only two goods:
 Using 2023 as the base year:
 
 (a) Calculate nominal and real GDP for both years. (b) Calculate the GDP deflator and inflation rate
-For 2024. (c) Calculate the real GDP growth rate.
+for 2024. (c) Calculate the real GDP growth rate.
 
 <details>
 <summary>Solution</summary>
@@ -1335,7 +1335,7 @@ compensate. Higher wages shift the SRAS curve left, returning unemployment to 5%
 inflation rate. The economy moves up along the vertical LRPC. The long-run trade-off disappears.
 
 (c) Starting at the intersection of SRPC1 and LRPC (5% unemployment, 2% inflation), the policy moves
-The economy left along SRPC1 to (3%, higher inflation). Over time, expectations adjust and SRPC1
+the economy left along SRPC1 to (3%, higher inflation). Over time, expectations adjust and SRPC1
 Shifts up to SRPC2. The economy returns to 5% unemployment but at a higher inflation rate. This
 Demonstrates the accelerationist hypothesis.
 

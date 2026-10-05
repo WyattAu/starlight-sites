@@ -59,7 +59,7 @@ Determinants:
 
 **Question:** The market for rental housing has demand $P = 8000 - 20Q$ and supply $P = 2000 + 20Q$
 (where $P$ is monthly rent in HKD and $Q$ is in thousands of units). (a) Calculate equilibrium price
-And quantity. (b) Calculate consumer surplus and producer surplus at equilibrium. (c) The government
+and quantity. (b) Calculate consumer surplus and producer surplus at equilibrium. (c) The government
 Imposes a rent ceiling at $\$4000$. Calculate the new quantity traded, consumer surplus, producer
 Surplus, and deadweight loss.
 
@@ -100,7 +100,7 @@ $= \frac{1}{2} \times (150 - 100) \times (6000 - 4000) = \frac{1}{2} \times 50 \
 
 **Question:** A seafood restaurant's supply of fresh fish per day is given by $Q_s = -20 + 5P$ where
 $P$ is in HKD. (a) Calculate the PES when price rises from $\$50$ to $\$70$. (b) At what price does
-The restaurant start supplying fish? Explain the economic meaning. (c) If a new competitor opens
+the restaurant start supplying fish? Explain the economic meaning. (c) If a new competitor opens
 Nearby and the supply shifts to $Q_s = -20 + 7P$ Compare the new PES over the same price range and
 Explain the change.
 
@@ -161,7 +161,7 @@ Revenue $= 10 \times 90 = \$900$.
 
 (d) Cigarette consumption creates negative externalities: second-hand smoke harms non-smokers'
 Health, smoking-related illnesses increase public healthcare costs, and productivity losses affect
-The economy. In an unregulated market, consumers overconsume cigarettes because they do not bear the
+the economy. In an unregulated market, consumers overconsume cigarettes because they do not bear the
 Full social cost. The tax internalises the externality by raising the price closer to the social
 Cost. If the tax equals the marginal external cost, the deadweight loss from overconsumption is
 Eliminated, and the remaining deadweight loss from reduced trade is offset by the gain from
@@ -182,8 +182,8 @@ Schedules:
 
 (a) Determine equilibrium price and quantity. (b) If the MTR extends a new line, causing supply to
 Increase by 100 thousand rides at every price, calculate the new equilibrium. (c) Calculate PED
-Between the original and new equilibrium for consumers. (d) Explain how this relates to the concept
-Of opportunity cost for commuters who switch from taxis to MTR.
+between the original and new equilibrium for consumers. (d) Explain how this relates to the concept
+of opportunity cost for commuters who switch from taxis to MTR.
 
 **Solution:**
 

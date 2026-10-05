@@ -144,7 +144,7 @@ Using the compound angle identities. ✓
 
 For negative integers, note that
 $\dfrac{1}{\cos\theta + i\sin\theta} = \cos\theta - i\sin\theta = \cos(-\theta) + i\sin(-\theta)$
-So the result follows. $\square$
+so the result follows. $\square$
 
 **Intuition.** De Moivre's theorem says that raising a complex number on the unit circle to the
 $n$-th power multiplies its angle by $n$. This is because multiplication of complex numbers Adds
@@ -251,7 +251,7 @@ $$
 Find all cube roots of unity and verify that their sum is zero.
 
 $z^3 = 1 \implies z_k = \cos\!\left(\dfrac{2k\pi}{3}\right) + i\sin\!\left(\dfrac{2k\pi}{3}\right)$
-For $k = 0, 1, 2$.
+for $k = 0, 1, 2$.
 
 $$
 \begin{aligned}
@@ -385,7 +385,7 @@ Regions, be careful about whether boundaries are included (solid line) or exclud
 
 :::tip
 Common exam technique: identify the boundary (circle, line, half-line), then determine which side of
-The boundary is included by testing a point.
+the boundary is included by testing a point.
 :::
 
 <details>
@@ -393,7 +393,7 @@ The boundary is included by testing a point.
 
 A complex number $z$ satisfies $|z - 2i| \leq 3$ and
 $0 \leq \arg(z) \leq \dfrac{\pi}{2}$. Find the greatest possible value of $|z|$ and the
-Least possible value of $|z|$.
+least possible value of $|z|$.
 
 The first condition: $|z - 2i| \leq 3$ is the closed disc of radius 3 centred at $2i$ I.e. At
 $(0, 2)$.
@@ -423,7 +423,7 @@ Setting $y = 0$, $x^2 + 4 = 9 \implies x = \sqrt{5}$. So $|z| = \sqrt{5}$.
 ### 6.1 The Mapping $w = f(z)$
 
 A complex transformation is a function $w = f(z)$ that maps points in the $z$-plane (Argand diagram
-For $z$) to points in the $w$-plane (Argand diagram for $w$).
+for $z$) to points in the $w$-plane (Argand diagram for $w$).
 
 ### 6.2 Linear Transformations: $w = az + b$
 
@@ -856,10 +856,10 @@ $\cos\dfrac{2\pi}{4} + \cos\dfrac{4\pi}{4} + \cos\dfrac{6\pi}{4} = \cos\dfrac{\p
 
 **Problem 10.** (a) Show that
 $\dfrac{1}{e^{i\theta} - 1} = -\dfrac{1}{2} - \dfrac{i}{2}\cot\dfrac{\theta}{2}$
-For $\theta \notin 2\pi\mathbb{Z}$.
+for $\theta \notin 2\pi\mathbb{Z}$.
 
 (b) Hence, or otherwise, find $\displaystyle\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k}$
-Where $\omega = e^{2\pi i/n}$.
+where $\omega = e^{2\pi i/n}$.
 
 <details>
 <summary>Hint</summary>
@@ -980,7 +980,7 @@ $0 \leq \arg(z) \leq \dfrac{\pi}{4}$.
 **Solution.** $|z - 2i| \leq 3$ is the closed disc of radius 3 centred at $2i$ (i.e., $(0, 2)$).
 
 $0 \leq \arg(z) \leq \dfrac{\pi}{4}$ is the sector between the positive real axis and
-The line $y = x$ (for $x \geq 0$).
+the line $y = x$ (for $x \geq 0$).
 
 The required region is the intersection: a segment of the disc in the first quadrant between angles
 $0$ and $\pi/4$.
@@ -1181,7 +1181,7 @@ Solve $z^3 = -8i$ Giving roots in Cartesian form.
 <summary>Solution</summary>
 
 $-8i = 8e^{-i\pi/2}$. Roots: $z_k = 2\exp\!\left(\dfrac{-i\pi/2 + 2k\pi i}{3}\right)$
-For $k=0,1,2$.
+for $k=0,1,2$.
 
 $z_0 = 2e^{-i\pi/6} = 2\!\left(\dfrac{\sqrt{3}}{2} - \dfrac{i}{2}\right) = \sqrt{3}-i$.
 
@@ -1240,7 +1240,7 @@ This connects five fundamental constants: $e$$i$$\pi$$1$ And $0$.
 ### 14.3 Complex conjugate and roots of polynomials
 
 If $P(z)$ is a polynomial with real coefficients and $z = a + bi$ is a root, then $\bar{z} = a - bi$
-Is also a root. This is because $\overline{P(z)} = P(\bar{z})$ for real-coefficient polynomials.
+is also a root. This is because $\overline{P(z)} = P(\bar{z})$ for real-coefficient polynomials.
 
 ### 14.4 Regions in the Argand diagram
 
@@ -1314,7 +1314,7 @@ Let $z = x+iy$. Then $\bar{z} = x-iy$ and $z\bar{z} = x^2+y^2$.
 $x^2+y^2 + 2x = 3 \implies (x+1)^2 + y^2 = 4$.
 
 This is a circle with centre $(-1, 0)$ and radius $2$. All complex numbers on this circle satisfy
-The equation.
+the equation.
 
 </details>
 

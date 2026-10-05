@@ -76,7 +76,7 @@ Enzyme.
 #### Large Intestine
 
 Absorption of water and mineral ions. Undigested material forms faeces, eliminated via the rectum
-And anus.
+and anus.
 
 ### Absorption
 
@@ -147,7 +147,7 @@ Typical resting cardiac output: $\approx 5\;\mathrm{L/min}$.
 ### Haemoglobin and Oxygen Transport
 
 Haemoglobin ($\mathrm{Hb}$) is a quaternary protein with four subunits, each containing a haem group
-With an iron ion ($\mathrm{Fe}^{2+}$) that binds one $\mathrm{O}_2$ molecule.
+with an iron ion ($\mathrm{Fe}^{2+}$) that binds one $\mathrm{O}_2$ molecule.
 
 **Oxygen dissociation curve**: an S-shaped (sigmoidal) curve plotting percentage saturation of
 $\mathrm{Hb}$ against partial pressure of $\mathrm{O}_2$ ($\mathrm{pO}_2$).
@@ -390,7 +390,7 @@ Cells with specific receptors.
 ### Thermoregulation
 
 The **hypothalamus** acts as the body"s thermostat, receiving input from thermoreceptors in the skin
-And core.
+and core.
 
 | Condition                                                   | Mechanisms of Heat Loss                                                                      | Mechanisms of Heat Conservation / Production                                                                                                              |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -575,7 +575,7 @@ Negative feedback.
 Excessive TSH (thyroid-stimulating hormone) would overstimulate the thyroid gland, causing it to
 Enlarge (goitre) and secrete excess thyroxine ($\mathrm{T}_4$). Blood thyroxine levels would be
 Elevated (hyperthyroidism), leading to increased metabolic rate, weight loss, rapid heart rate, and
-Other symptoms.
+other symptoms.
 
 Normally, thyroxine exerts **negative feedback** on both the hypothalamus (reducing TRH secretion)
 And the anterior pituitary (reducing TSH secretion). In this case, the tumour disrupts this feedback
@@ -589,7 +589,7 @@ Concentration.
 <summary>Question 5: Digestion and Absorption</summary>
 
 A patient has a condition that prevents the pancreas from secreting lipase. Explain the consequence
-For fat digestion and absorption, and predict what would be found in the patient's faeces.
+for fat digestion and absorption, and predict what would be found in the patient's faeces.
 
 </details>
 
@@ -599,8 +599,8 @@ For fat digestion and absorption, and predict what would be found in the patient
 Without pancreatic lipase, triglycerides in the small intestine cannot be hydrolysed into
 Monoglycerides and free fatty acids. Although bile salts still emulsify the fat into smaller
 Droplets, the large triglyceride molecules cannot be absorbed across the intestinal epithelium (they
-Are too large and hydrophobic). The undigested fat passes into the large intestine and is excreted
-In the faeces. The faeces would be pale, bulky, greasy, and difficult to flush (steatorrhoea). The
+are too large and hydrophobic). The undigested fat passes into the large intestine and is excreted
+in the faeces. The faeces would be pale, bulky, greasy, and difficult to flush (steatorrhoea). The
 Patient would also experience fat-soluble vitamin (A, D, E, K) deficiencies due to malabsorption,
 Since these vitamins require dietary fat for absorption.
 
@@ -625,7 +625,7 @@ A $70\;\mathrm{kg}$ athlete at rest has a heart rate of $60\;\mathrm{bpm}$ and a
 $70\;\mathrm{mL}$. During maximal exercise, her heart rate increases to $190\;\mathrm{bpm}$ and her
 Stroke volume increases to $120\;\mathrm{mL}$. Her arterial $\mathrm{O}_2$ content is
 $200\;\mathrm{mL\;O_2/L}$ blood and her venous $\mathrm{O}_2$ content is $150\;\mathrm{mL\;O_2/L}$
-At rest, decreasing to $50\;\mathrm{mL\;O_2/L}$ during exercise. Calculate the cardiac output and
+at rest, decreasing to $50\;\mathrm{mL\;O_2/L}$ during exercise. Calculate the cardiac output and
 Oxygen consumption at rest and during maximal exercise.
 
 <details>
@@ -656,7 +656,7 @@ A patient's fasting blood glucose is measured at $12\;\mathrm{mmol/L}$ (normal: 
 $5\;\mathrm{mmol/L}$). The total blood volume is $5\;\mathrm{L}$. The molar mass of glucose is
 $180\;\mathrm{g/mol}$. Calculate the mass of excess glucose in the patient's blood. Assuming the
 Renal threshold for glucose is approximately $10\;\mathrm{mmol/L}$ Explain why glucose would appear
-In the urine (glycosuria).
+in the urine (glycosuria).
 
 <details>
 <summary>Solution</summary>
@@ -832,7 +832,7 @@ physiologically relevant than minute ventilation.
 
 Organophosphate pesticides inhibit acetylcholinesterase. (a) Describe the normal role of
 Acetylcholinesterase at a cholinergic synapse. (b) Explain the effect of organophosphate poisoning
-On synaptic transmission, including the effect on postsynaptic membrane potential. (c) Describe two
+on synaptic transmission, including the effect on postsynaptic membrane potential. (c) Describe two
 Symptoms that would be expected and explain the physiological basis for each. (d) Explain how
 Atropine (a muscarinic acetylcholine receptor antagonist) can be used as an antidote.
 
@@ -856,7 +856,7 @@ The following data show hormone concentrations across a $28$-day menstrual cycle
 
 (a) Identify the day of ovulation and justify with reference to the data. (b) Describe the feedback
 Mechanism responsible for the LH surge. (c) Explain why progesterone peaks after oestrogen, and what
-Would happen to the cycle if progesterone secretion were artificially maintained at high levels.
+would happen to the cycle if progesterone secretion were artificially maintained at high levels.
 
 </details>
 
@@ -1832,7 +1832,7 @@ Example (thyroid axis):
 
 A drug containing cortisol is administered intravenously at a dose of $200\;\mathrm{mg}$. The
 Elimination half-life of cortisol is $90\;\mathrm{minutes}$. (a) Calculate the plasma concentration
-After $6$ hours if the volume of distribution is $10\;\mathrm{L}$. (b) How long until the plasma
+after $6$ hours if the volume of distribution is $10\;\mathrm{L}$. (b) How long until the plasma
 Concentration falls below $5\;\mathrm{mg/L}$? (c) Explain why cortisol must be administered More
 frequently than aldosterone (half-life $\approx 20\;\mathrm{minutes}$).
 

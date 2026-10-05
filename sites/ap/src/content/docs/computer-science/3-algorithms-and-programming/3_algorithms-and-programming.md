@@ -111,7 +111,7 @@ Your left hand by shifting larger cards to the right.
 
 **Why insertion sort is $O(n^2)$ in the worst case.** If the array is in reverse order, each new
 Element must be shifted all the way to the front. The $i$-th element requires up to $i$ shifts, so
-The total is $1 + 2 + \cdots + (n-1) = O(n^2)$.
+the total is $1 + 2 + \cdots + (n-1) = O(n^2)$.
 
 **Best case $O(n)$.** If the array is already sorted, each element requires zero shifts.
 
@@ -251,7 +251,7 @@ Big-O notation describes the upper bound of an algorithm"s time or space complex
 ### Formal Definition
 
 $f(n) = O(g(n))$ if there exist positive constants $c$ and $n_0$ such that $f(n) \le c \cdot g(n)$
-For all $n \ge n_0$.
+for all $n \ge n_0$.
 
 ### Analyzing Code
 
@@ -399,7 +399,7 @@ Merge [27, 38] and [3, 43]: [3, 27, 38, 43].
 
 Quick sort has $O(n^2)$ worst case when the pivot is always the smallest or largest element. This
 Happens when the array is already sorted (or reverse sorted) and the first or last element is used
-As the pivot.
+as the pivot.
 
 **Mitigation:** Choose the middle element or a random element as the pivot.
 
@@ -494,7 +494,7 @@ private static int partition(int[] arr, int low, int high) {
 
 **Quick Sort worst case.** $O(n^2)$ when the pivot is always the smallest or largest element. This
 Happens when the array is already sorted (or reverse sorted) and the first or last element is used
-As the pivot.
+as the pivot.
 
 **Mitigation:** Choose the middle element or a random element as the pivot.
 
@@ -575,7 +575,7 @@ public static boolean isPalindrome(String s) {
 
 **Proof of correctness.** The loop compares characters at symmetric positions: position 0 with
 Position n-1, position 1 with position n-2, etc. If any pair differs, the string is not a palindrome
-And the method returns false. If all pairs match, the string reads the same forwards and backwards,
+and the method returns false. If all pairs match, the string reads the same forwards and backwards,
 So it is a palindrome. $lacksquare$
 
 **String reversal (iterative):**

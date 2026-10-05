@@ -56,7 +56,7 @@ Newly synthesised strand.
 **Worked Example: DNA replication fork.**
 
 At a replication fork, the two strands of DNA are separated. DNA polymerase can only synthesise in
-The 5' to 3' direction. On the leading strand (oriented 3' to 5'), synthesis is continuous. On the
+the 5' to 3' direction. On the leading strand (oriented 3' to 5'), synthesis is continuous. On the
 Lagging strand (oriented 5' to 3'), synthesis must be discontinuous because DNA polymerase can only
 Move along the template in one direction.
 
@@ -199,7 +199,7 @@ Steps:
 ### The Principle
 
 For a large, randomly mating population with no mutation, migration, or natural selection, allele
-And genotype frequencies remain constant from generation to generation.
+and genotype frequencies remain constant from generation to generation.
 
 $$
 P + q = 1
@@ -390,7 +390,7 @@ $28 + 22 = 50\%$.
 
 Each strand of the original DNA molecule serves as a template for the synthesis of a new
 Complementary strand. After replication, each daughter DNA molecule contains one original strand and
-One new strand.
+one new strand.
 
 **Key enzymes:**
 
@@ -470,7 +470,7 @@ That produces more offspring that survive to reproduce is more "fit" than one th
 
 This is a classic example of directional selection: the antibiotic creates a strong selection
 Pressure that favours the resistant phenotype. The problem is worsened by the overuse of antibiotics
-In medicine and agriculture.
+in medicine and agriculture.
 
 ## Review: Evidence for Evolution
 
@@ -555,7 +555,7 @@ Variation.
 
 **Example:** Human birth weight. Babies with very low or very high birth weights have higher
 Mortality. The intermediate birth weight (approximately 3.5 kg) has the highest survival rate. This
-Is stabilising selection maintaining the average birth weight.
+is stabilising selection maintaining the average birth weight.
 
 ### Disruptive Selection
 
@@ -564,8 +564,8 @@ Distinct phenotypes in the population.
 
 **Example:** In African seedcracker finches, birds with very large or very small beaks are favoured
 Because the available seeds are either very large or very small. Birds with intermediate beaks are
-Less efficient at handling either seed type and have lower fitness. Over time, disruptive selection
-Can lead to the population splitting into two distinct groups.
+less efficient at handling either seed type and have lower fitness. Over time, disruptive selection
+can lead to the population splitting into two distinct groups.
 
 ### Allopatric Speciation
 
@@ -612,7 +612,7 @@ Equilibrium.
 **Worked Example 2: Cystic fibrosis carrier frequency.**
 
 Cystic fibrosis is an autosomal recessive disorder. The incidence is approximately 1 in 2500 births
-In some populations.
+in some populations.
 
 $q^2 = 1/2500 = 0.0004$.
 
@@ -638,7 +638,7 @@ Observed: AA = 400, Aa = 200, aa = 400.
 
 The observed frequencies do not match the expected Hardy-Weinberg frequencies. There is a
 Significant excess of homozygotes (AA and aa) and a deficit of heterozygotes. This pattern suggests
-Non-random mating, such as inbreeding or positive assortative mating (individuals with similar
+non-random mating, such as inbreeding or positive assortative mating (individuals with similar
 Genotypes preferentially mate with each other).
 
 Using the chi-squared test:
@@ -655,14 +655,14 @@ Equilibrium.
 **Types of natural selection:**
 
 Natural selection can act on phenotypic variation in different ways, depending on the relationship
-Between fitness and the trait:
+between fitness and the trait:
 
 **1. Directional selection:**
 
 Favours individuals at one extreme of the phenotypic range. The mean value of the trait shifts in
-One direction over time. Example: Antibiotic resistance in bacteria -- when antibiotics are applied,
+one direction over time. Example: Antibiotic resistance in bacteria -- when antibiotics are applied,
 Bacteria with resistance genes have higher survival and reproduction, shifting the population
-Towards resistance.
+towards resistance.
 
 **2. Stabilising selection:**
 
@@ -739,9 +739,9 @@ Phalanges) adapted for different functions (grasping, swimming, flying, running)
 **3. Biogeography:**
 
 The geographic distribution of species provides evidence for evolution. Species on oceanic islands
-Are often more similar to species on the nearest mainland than to species on other islands, even if
-The other islands have similar environments. This is consistent with species colonising islands from
-The mainland and then diverging through natural selection.
+are often more similar to species on the nearest mainland than to species on other islands, even if
+the other islands have similar environments. This is consistent with species colonising islands from
+the mainland and then diverging through natural selection.
 
 **4. Embryology:**
 

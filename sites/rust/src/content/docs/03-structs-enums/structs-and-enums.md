@@ -72,7 +72,7 @@ assert_eq!(p.distance_from_origin(), 5.0);
 ```
 
 Tuple structs with a single field implement the **newtype pattern**, creating a distinct type from
-The wrapped type:
+the wrapped type:
 
 ```rust
 struct UserId(u64);
@@ -190,7 +190,7 @@ mod geometry {
 ```
 
 Note: making a struct `pub` does not make its fields `pub`. Each field must be individually marked
-As `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
+as `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
 Members public.
 
 ### Methods and Associated Functions
@@ -237,7 +237,7 @@ assert_eq!(r.area(), 12.0);
 ### Multiple `impl` Blocks
 
 A type can have multiple `impl` blocks. This is useful for organizing methods by functionality or
-For separating trait implementations from inherent methods:
+for separating trait implementations from inherent methods:
 
 ```rust
 impl Rectangle {
@@ -331,7 +331,7 @@ enum Event {
 ### Enum Memory Layout
 
 The compiler stores a discriminant tag alongside the variant data. The default discriminant type is
-The smallest integer that can represent all variants:
+the smallest integer that can represent all variants:
 
 ```rust
 enum Color {
@@ -403,7 +403,7 @@ Contains itself recursively.
 ## Pattern Matching
 
 Pattern matching is Rust's primary control flow mechanism for enums and is exhaustively checked by
-The compiler.
+the compiler.
 
 ### `match` Expressions
 
@@ -456,7 +456,7 @@ match num {
 ```
 
 Match guards do not participate in exhaustiveness checking. The compiler cannot prove that a guard
-Will always match for a given variant, so you may still need a catch-all arm.
+will always match for a given variant, so you may still need a catch-all arm.
 
 ### Binding Modes
 

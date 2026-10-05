@@ -296,7 +296,7 @@ The business cycle refers to fluctuations in economic activity around the long-r
 ### Real Business Cycle Theory
 
 A school of thought that attributes business cycles primarily to real (technology) shocks rather
-Than monetary or demand-side factors. Proponents argue that fluctuations in GDP represent optimal
+than monetary or demand-side factors. Proponents argue that fluctuations in GDP represent optimal
 Responses to changes in productivity, and that government intervention to stabilise the cycle is
 Unnecessary and potentially harmful.
 
@@ -1035,7 +1035,7 @@ shocks it faces.
 
 An open economy with perfect capital mobility and a floating exchange rate. The IS curve is
 $Y = 800 - 40r$ and the LM curve is $Y = 400 + 20r$. The net export function is $NX = 100 - 5e$
-Where $e$ is the exchange rate (higher $e$ means depreciation).
+where $e$ is the exchange rate (higher $e$ means depreciation).
 
 (a) Find the initial equilibrium.
 

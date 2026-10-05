@@ -139,7 +139,7 @@ On $n$ elements take $O(m \cdot \alpha(n))$ time, where $\alpha$ is the inverse 
 ### Prim's Algorithm (Detailed)
 
 Prim's grows the MST one vertex at a time, always adding the minimum-weight edge connecting the MST
-To a non-MST vertex.
+to a non-MST vertex.
 
 **Complexity comparison:**
 
@@ -162,7 +162,7 @@ Covers basic graph traversal (BFS, DFS) and shortest path.
 ### Problem Definition
 
 Given a complete weighted graph, find the shortest possible route that visits every vertex exactly
-Once and returns to the origin.
+once and returns to the origin.
 
 ### NP-Hardness
 
@@ -367,7 +367,7 @@ Extract C(7). B = 7+(-2) = 5 = no improvement. But A→B→C = 3+2-2 = 3 < 7! B 
 5, but C should be 3. The algorithm returns C=7, missing the better path.
 
 Wait, C is already extracted. The issue is that when C is extracted at distance 7, a shorter path
-Through B (distance 5 → C = 3) exists but is never explored because B hasn't been processed yet and
+through B (distance 5 → C = 3) exists but is never explored because B hasn't been processed yet and
 C is already marked as visited.
 
 </details>
@@ -430,7 +430,7 @@ Edges, which are always suboptimal in metric TSP.
 2-opt does **not** always find the optimal solution. It can get stuck in local optima,
 Configurations where no single 2-opt swap improves the tour, but a sequence of swaps (or a swap
 Involving more edges, like 3-opt) would. However, for many practical instances, 2-opt produces
-Near-optimal solutions.
+near-optimal solutions.
 
 </details>
 
@@ -538,7 +538,7 @@ D–T(4). Show the priority queue state at each step.
 <summary>Hint</summary>
 
 At each step, extract the vertex with the minimum tentative distance from the priority queue. Show
-The queue contents after each extraction and relaxation.
+the queue contents after each extraction and relaxation.
 
 </details>
 
@@ -576,7 +576,7 @@ The queue contents after each extraction and relaxation.
 <summary>Hint</summary>
 
 First, sort all edges by weight in ascending order. Then add edges one at a time, skipping any that
-Would create a cycle (use the Union-Find concept to track connected components).
+would create a cycle (use the Union-Find concept to track connected components).
 
 </details>
 
@@ -790,7 +790,7 @@ Complexity. Dijkstra's is only necessary when edge weights vary.
 
 **Problem 9.** A company needs to connect all 8 of its office buildings with fibre optic cables.
 Explain whether they should use a minimum spanning tree algorithm or a shortest path algorithm. What
-If they only need to connect the headquarters to every other office (but offices don't need to
+if they only need to connect the headquarters to every other office (but offices don't need to
 Connect to each other)?
 
 <details>

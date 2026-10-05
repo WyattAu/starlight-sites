@@ -29,7 +29,7 @@ tags:
 ### Principle
 
 The **Valence Shell Electron Pair Repulsion** (VSEPR) theory predicts molecular geometry based on
-The repulsion between electron pairs (both bonding and lone pairs) around a central atom.
+the repulsion between electron pairs (both bonding and lone pairs) around a central atom.
 
 **Postulates:**
 
@@ -153,7 +153,7 @@ $$
   third) bond in a multiple bond.
 
 A double bond consists of one $\sigma$ and one $\pi$ bond. A triple bond consists of one $\sigma$
-And two $\pi$ bonds.
+and two $\pi$ bonds.
 
 $$
 \mathrm{C=C}: 1\sigma + 1\pi, \qquad \mathrm{C\equiv C}: 1\sigma + 2\pi
@@ -403,7 +403,7 @@ Sodium ($98\degree\mathrm{C}$).
 Aluminium has the electron configuration $[\mathrm{Ne}]\, 3s^2\, 3p^1$ and contributes **three**
 Delocalised electrons to the metallic bond. Sodium has $[\mathrm{Ne}]\, 3s^1$ and contributes only
 **one**. More delocalised electrons produce stronger electrostatic attraction between the cations
-And the electron sea. Additionally, $\mathrm{Al}^{3+}$ is smaller than $\mathrm{Na}^+$ So the Charge
+and the electron sea. Additionally, $\mathrm{Al}^{3+}$ is smaller than $\mathrm{Na}^+$ So the Charge
 density is higher and the ions are closer together. Both factors increase the strength of the
 Metallic bond and therefore the melting point.
 

@@ -23,15 +23,15 @@ categories:
 
 Dart 2.12 introduced sound null safety. This is not a nullable annotation system bolted onto an
 Existing type system. It is a fundamental rewrite of the type hierarchy: `Null` is a subtype of
-Every type, but only of nullable types. The compiler and runtime together guarantee that a
-Non-nullable variable never holds `null` at runtime. This guarantee is **sound**, it holds across
+every type, but only of nullable types. The compiler and runtime together guarantee that a
+non-nullable variable never holds `null` at runtime. This guarantee is **sound**, it holds across
 Function boundaries, class hierarchies, generic instantiations, and asynchronous code paths.
 
 ### Sound vs Unsounded Null Safety
 
 **Definition.** Soundness (in the type-theoretic sense) means: if the type checker accepts a
 Program, no runtime type error related to null dereference can occur. The guarantee is global, it
-Does not depend on the programmer annotating every variable correctly, because the type checker
+does not depend on the programmer annotating every variable correctly, because the type checker
 Enforces consistency at all boundaries.
 
 Unsound null safety (e.g., TypeScript's `strictNullChecks`Kotlin's platform types at interop
@@ -132,7 +132,7 @@ The `!` operator is a code smell in production code, it means you are bypassing 
 ### Late Initialization
 
 The `late` keyword tells the compiler: "this variable will be initialized before it is used, but not
-At the point of declaration." The compiler trusts this assertion and does not require an
+at the point of declaration." The compiler trusts this assertion and does not require an
 Initializer. At runtime, accessing an uninitialized `late` variable throws a
 `LateInitializationError`.
 
@@ -324,7 +324,7 @@ example();            // compile error: missing required parameter
 The return type of functions that never return normally (they always throw or loop forever).
 
 `Never` is a subtype of every type. This makes it useful for exhaustive analysis in pattern matching
-And control flow.
+and control flow.
 
 ```dart
 // A function that never returns
@@ -359,7 +359,7 @@ int eval(Expr expr) => switch (expr) {
 ### Flow Analysis and Its Limitations
 
 Dart's flow analysis tracks nullability through local variables. If you check a nullable variable
-For non-null, the type is promoted within the scope where the check holds.
+for non-null, the type is promoted within the scope where the check holds.
 
 ```dart
 String? name = getName();
@@ -404,7 +404,7 @@ String? getName() => 'Dart';
 
 :::caution
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
-Will not promote it inside the closure.
+will not promote it inside the closure.
 
 ### Migration Patterns
 
@@ -451,7 +451,7 @@ class User {
 **Definition.** `dart:ffi` (Foreign Function Interface) is a Dart library that allows Dart code to
 Call C functions directly, without writing glue code in an intermediate language. It provides
 Bindings for C types, pointers, structs, callbacks, and dynamic library loading. It is the mechanism
-By which Dart interacts with native system libraries, operating system APIs, and
+by which Dart interacts with native system libraries, operating system APIs, and
 Performance-critical C/C++ code.
 
 `dart:ffi` is available on native platforms (iOS, Android, macOS, Windows, Linux). It is not
@@ -907,7 +907,7 @@ Event loop, and thread of execution. Isolates do not share memory, communication
 Strictly via message passing through ports.
 
 This is fundamentally different from threads in Java, C++, or Go. In those languages, threads share
-The same heap and require synchronization primitives (mutexes, semaphores, atomics) to prevent data
+the same heap and require synchronization primitives (mutexes, semaphores, atomics) to prevent data
 Races. Dart's isolates eliminate data races by eliminating shared state.
 
 ```
@@ -1540,7 +1540,7 @@ void correctStringUsing() {
 ### Dangling Pointers
 
 Using a pointer after the underlying memory has been freed causes undefined behavior. The Dart VM
-Does not detect use-after-free.
+does not detect use-after-free.
 
 ```dart
 // DANGEROUS: pointer used after free

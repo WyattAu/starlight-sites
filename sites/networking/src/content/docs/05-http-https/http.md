@@ -22,7 +22,7 @@ categories:
 
 HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web.
 Originally designed for retrieving hypertext documents (RFC 1945, HTTP/1.0 in 1996), it has evolved
-Into a general-purpose application protocol used for APIs, streaming, IoT communication, and
+into a general-purpose application protocol used for APIs, streaming, IoT communication, and
 Virtually every client-server interaction on the Internet.
 
 This section covers HTTP/1.1 (RFC 9112), HTTP/2 (RFC 9113), HTTP/3 (RFC 9114), and the practical
@@ -180,7 +180,7 @@ To signal that the connection should be closed after the response.
 
 **Pipelining (RFC 7230):** HTTP/1.1 pipelining allows the client to send multiple requests without
 Waiting for responses. The server must respond in order. Pipelining was never widely implemented due
-To head-of-line blocking (a slow response blocks all subsequent responses) and is deprecated in
+to head-of-line blocking (a slow response blocks all subsequent responses) and is deprecated in
 Practice.
 
 ### Chunked Transfer Encoding
@@ -320,7 +320,7 @@ Multiplexing (many streams competing for the same connection).
 
 HTTP/2 allows clients to assign priorities to streams using `PRIORITY` frames and priority fields in
 `HEADERS` frames. Each stream has a weight (1-256) and a dependency on another stream. This allows
-The server to allocate bandwidth based on client preferences (e.g., prioritize CSS over images).
+the server to allocate bandwidth based on client preferences (e.g., prioritize CSS over images).
 
 ### TCP Head-of-Line Blocking Persists
 
@@ -744,13 +744,13 @@ ServerHello:
 ```
 
 Without ALPN, the client would complete the TLS handshake, then send an HTTP request, and the server
-Would respond with an Upgrade or redirect. ALPN negotiates the protocol during the handshake, saving
+would respond with an Upgrade or redirect. ALPN negotiates the protocol during the handshake, saving
 A round trip.
 
 ### Alt-Svc Header
 
 The `Alt-Svc` (Alternative Service) header informs the client that the service is also available
-Over a different protocol or port:
+over a different protocol or port:
 
 ```
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
@@ -851,12 +851,12 @@ Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
 ```
 
 After the upgrade, the connection is no longer HTTP. Both sides can send frames (text or binary) at
-Any time. WebSocket is used for chat applications, real-time notifications, gaming, and
+any time. WebSocket is used for chat applications, real-time notifications, gaming, and
 Collaborative editing.
 
 WebSocket frames have a 2-14 byte header (depending on payload length) and support fragmentation,
 Ping/pong keepalive, and close handshake. The connection is secured by using `wss://` (WebSocket
-Over TLS).
+over TLS).
 :::
 
 :::caution

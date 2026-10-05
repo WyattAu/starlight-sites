@@ -23,7 +23,7 @@ categories:
 ## Amines
 
 Amines are organic derivatives of ammonia ($\mathrm{NH}_3$) in which one or more hydrogen atoms have
-Been replaced by alkyl or aryl groups. They are classified as primary ($1^\circ$), secondary
+been replaced by alkyl or aryl groups. They are classified as primary ($1^\circ$), secondary
 ($2^\circ$), or tertiary ($3^\circ$) based on the number of carbon groups attached to the nitrogen.
 Amines containing four organic groups (quaternary ammonium ions, $\mathrm{R}_4\mathrm{N}^+$) are
 Positively charged.
@@ -96,18 +96,18 @@ $$
 $$
 
 The $\mathrm{p}K_b$ of a typical aliphatic amine is 3--4, making them significantly stronger bases
-Than ammonia ($\mathrm{p}K_b = 4.75$).
+than ammonia ($\mathrm{p}K_b = 4.75$).
 
 ### Why Aliphatic Amines Are Stronger Bases Than Ammonia
 
 The alkyl group is electron-donating through the inductive effect, increasing the electron density
-On the nitrogen and making it more willing to accept a proton. The ammonium ion is stabilised by the
+on the nitrogen and making it more willing to accept a proton. The ammonium ion is stabilised by the
 Inductive donation from the alkyl group.
 
 ### Aromatic Amines Are Weaker Bases
 
 Phenylamine ($\mathrm{p}K_b = 9.38$) is a much weaker base than aliphatic amines. This is because
-The nitrogen lone pair is delocalised into the benzene ring through resonance, making it less
+the nitrogen lone pair is delocalised into the benzene ring through resonance, making it less
 Available for protonation:
 
 $$
@@ -115,7 +115,7 @@ $$
 $$
 
 The resonance structures show the lone pair being donated into the ring, which is the same effect
-That activates the ring toward electrophilic substitution.
+that activates the ring toward electrophilic substitution.
 
 ### Basicity Order
 
@@ -126,7 +126,7 @@ $$
 $$
 
 The secondary amine is the strongest base because the inductive effect of two alkyl groups outweighs
-The steric hindrance. For tertiary amines, the steric hindrance to solvation of the ammonium ion
+the steric hindrance. For tertiary amines, the steric hindrance to solvation of the ammonium ion
 Reduces the effective basicity.
 
 ## Nucleophilic Substitution by Amines
@@ -411,7 +411,7 @@ $$
 $$
 
 Step 4: Coupling with a naphthalene derivative (e.g. Naphthalen-2-ol) in alkaline conditions to form
-The azo dye.
+the azo dye.
 
 The key principle is that the azo linkage is formed between the diazonium salt and an activated
 Aromatic compound (phenol or amine) under the appropriate pH conditions.
@@ -426,14 +426,14 @@ Explain why phenylamine is a weaker base than ethylamine, even though both are p
 **Solution:**
 
 In ethylamine ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{NH}_2$), the ethyl group donates electron density
-To the nitrogen through the inductive effect, increasing the electron density on the lone pair and
+to the nitrogen through the inductive effect, increasing the electron density on the lone pair and
 Making it more available for protonation. The resulting ethylammonium ion is stabilised by the
 Inductive effect of the alkyl group.
 
 In phenylamine ($\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2$), the nitrogen lone pair is partially
 Delocalised into the benzene ring through resonance. The lone pair overlaps with the $\pi$ system of
-The ring, distributing the electron density over a larger volume. This reduces the electron density
-On the nitrogen, making it less available to accept a proton. The resonance stabilisation of the
+the ring, distributing the electron density over a larger volume. This reduces the electron density
+on the nitrogen, making it less available to accept a proton. The resonance stabilisation of the
 Free amine is greater than that of the protonated form (in the anilinium ion, the lone pair is no
 Longer available for delocalisation), so the equilibrium favours the unprotonated form.
 

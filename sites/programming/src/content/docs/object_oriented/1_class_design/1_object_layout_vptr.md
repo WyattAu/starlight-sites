@@ -150,8 +150,8 @@ int main() {
 ## 1.4 Empty Base Optimization (EBO)
 
 The Standard requires that every complete object has a unique address [N4950 §6.9]. This means that
-Even an empty class, one with no non-static data members and no virtual functions, must occupy at
-Least one byte:
+even an empty class, one with no non-static data members and no virtual functions, must occupy at
+least one byte:
 
 ```cpp
 #include <cstddef>
@@ -291,7 +291,7 @@ int main() {
 ### The `this` Pointer Adjustment Problem
 
 When a virtual function is called through a pointer to a non-first base, the compiler must adjust
-The `this` pointer before invoking the function. This adjustment is encoded in the **vtable** or
+the `this` pointer before invoking the function. This adjustment is encoded in the **vtable** or
 Performed by a **thunk** (a small code stub):
 
 ```cpp
@@ -303,7 +303,7 @@ Performed by a **thunk** (a small code stub):
 ```
 
 This has a runtime cost: one additional instruction (a `sub` or `add` on the `this` pointer) for
-Every virtual call through a non-first base pointer. In hot paths, this can be measurable.
+every virtual call through a non-first base pointer. In hot paths, this can be measurable.
 
 ## 1.7 Virtual Inheritance Layout
 
@@ -380,7 +380,7 @@ Often stores virtual base offsets in the vtable itself.
 
 **Performance cost:** Every access to a virtual base member requires an additional indirection
 Through the vbptr table. Construction of a diamond object requires multiple `this` adjustments as
-Each base constructor is called.
+each base constructor is called.
 
 ## 1.8 vtable Internals
 
@@ -632,14 +632,14 @@ struct Polymorphic {
 
 Any class that is intended to be used as a base class with polymorphic deletion must have a virtual
 Destructor. This is the single most common C++ bug related to object layout. If a destructor is
-Non-virtual and the class has any virtual functions, deleting through a base pointer causes
+non-virtual and the class has any virtual functions, deleting through a base pointer causes
 Undefined Behavior.
 
 ### 4. Multiple Inheritance `this` Pointer Adjustments
 
 When casting between base class pointers in a multiple inheritance hierarchy, the pointer value may
 Change. This is surprising but correct, the different base subobjects are at different offsets
-Within the derived object. Always use `static_cast` for known-safe downcasts and `dynamic_cast` for
+within the derived object. Always use `static_cast` for known-safe downcasts and `dynamic_cast` for
 Runtime-checked downcasts.
 
 ### 5. EBO Failure with Same-Type Bases

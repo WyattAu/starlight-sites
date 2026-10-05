@@ -235,7 +235,7 @@ $$h^2 + 6^2 = 10^2$$ $$h^2 = 100 - 36 = 64$$ $$h = 8 \mathrm{ m$$
 Right-angled, or obtuse?
 
 $7^2 + 11^2 = 49 + 121 = 170$. Since $170 \gt 13^2 = 169$ The triangle is acute (the angle opposite
-The longest side is less than $90^{\circ}$).
+the longest side is less than $90^{\circ}$).
 
 **Test for triangle type:**
 
@@ -495,7 +495,7 @@ Therefore $AB = AC$. $\blacksquare$
 
 **Proof of the area of a trapezium.** A trapezium with parallel sides $a$ and $b$ and height $h$ can
 Be divided into a rectangle and two triangles. The rectangle has area $ah$ and the two triangles
-Have total area $\frac{1}{2}(b-a)h + \frac{1}{2}(b-a)h = (b-a)h$. Total:
+have total area $\frac{1}{2}(b-a)h + \frac{1}{2}(b-a)h = (b-a)h$. Total:
 $ah + (b-a)h = bh - ah + ah
 = (a+b)h/2$. $\blacksquare$
 
@@ -686,7 +686,7 @@ The region is a quarter circle of radius 8 m centred at the corner.
 Region of points that are within 5 units of $A$ and closer to $A$ than to $B$.
 
 The first condition is a circle of radius 5 centred at $A$. The second condition is the half-plane
-On $A$'s side of the perpendicular bisector of $AB$. The shaded region is the intersection.
+on $A$'s side of the perpendicular bisector of $AB$. The shaded region is the intersection.
 
 ## 8. 3D Geometry (Higher Tier)
 

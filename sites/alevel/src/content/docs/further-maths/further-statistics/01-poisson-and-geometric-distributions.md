@@ -69,7 +69,7 @@ P(X = r) = \frac{e^{-\lambda}\lambda^r}{r!}, \quad r = 0, 1, 2, \ldots
 $$
 
 The Poisson distribution models the number of events occurring in a fixed interval of time or space
-When:
+when:
 
 - Events occur independently
 - Events occur at a constant average rate $\lambda$
@@ -620,7 +620,7 @@ $$
 **Problem.** A traffic survey records the number of cars passing a point in 10-second intervals. The
 Observed frequencies for $k$ cars are compared with the expected frequencies under $H_0$:
 $X \sim \mathrm{Po}(3)$. Calculate the expected frequency for each value of $k$ if 200 intervals
-Were observed.
+were observed.
 
 **Solution.** Under $H_0$: $P(X = k) = \dfrac{e^{-3} \cdot 3^k}{k!}$.
 
@@ -1125,7 +1125,7 @@ Distribution. See
 
 A shop receives customers at a rate of 8 per hour. Find the probability that: (a) exactly 5
 Customers arrive in a 30-minute period; (b) more than 10 customers arrive in an hour; (c) the time
-Between two consecutive arrivals exceeds 20 minutes.
+between two consecutive arrivals exceeds 20 minutes.
 
 <details>
 <summary>Solution</summary>

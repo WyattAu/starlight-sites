@@ -61,7 +61,7 @@ val description = when (x) {
 ### Exhaustiveness
 
 When used as an expression, `when` must be exhaustive. If all cases are covered, the `else` branch
-Is not required. With `sealed` classes or `enum` classes, the compiler verifies exhaustiveness.
+is not required. With `sealed` classes or `enum` classes, the compiler verifies exhaustiveness.
 
 ```kotlin
 enum class Color { RED, GREEN, BLUE }

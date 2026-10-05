@@ -164,7 +164,7 @@ $= 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta$.
 
 **Problem.** Show that
 $\sum_{k=0}^{n-1} \cos(k\theta) = \frac{\sin(n\theta/2)}{\sin(\theta/2)}\cos\!\left(\frac{(n-1)\theta}{2}\right)$
-For $\theta \notin 2\pi\mathbb{Z}$.
+for $\theta \notin 2\pi\mathbb{Z}$.
 
 Consider $S = \sum_{k=0}^{n-1} e^{ik\theta} = \frac{1 - e^{in\theta}}{1 - e^{i\theta}}$ (geometric
 series with $r = e^{i\theta} \neq 1$).
@@ -238,7 +238,7 @@ $z_0 = 2\,e^{i\pi/8}$, $z_1 = 2\,e^{i5\pi/8}$, $z_2 = 2\,e^{i9\pi/8}$, $z_3 = 2\
 
 The roots are
 $z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n} = z_0 \cdot \left(e^{2\pi i/n}\right)^k = z_0 \cdot \omega^k$
-Where $\omega = e^{2\pi i/n}$ is a primitive $n$-th root of unity. This is a geometric sequence With
+where $\omega = e^{2\pi i/n}$ is a primitive $n$-th root of unity. This is a geometric sequence With
 ratio $\omega$.
 
 </details>
@@ -262,7 +262,7 @@ The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$ There
 $\delta \gt 0$ Such that $0 \lt |z - z_0| \lt \delta$ implies $|f(z) - L| \lt \varepsilon$.
 
 Unlike the real case, $z$ can approach $z_0$ from any direction in $\mathbb{C}$. This makes limits
-More restrictive.
+more restrictive.
 
 **Proposition 2.1.** $\lim_{z \to z_0} f(z) = L$ if and only if
 $\lim_{(x,y) \to (x_0, y_0)} u(x, y) = a$ And $\lim_{(x,y) \to (x_0, y_0)} v(x, y) = b$ where
@@ -303,7 +303,7 @@ Makes complex differentiability far more restrictive than real differentiability
 
 **Definition.** A function $f$ is **analytic** (or **holomorphic**) on an open set
 $U \subseteq \mathbb{C}$ if $f$ is differentiable at every point of $U$. A function that is analytic
-On all of $\mathbb{C}$ is called **entire**.
+on all of $\mathbb{C}$ is called **entire**.
 
 **Examples of entire functions:** $z^n$, $e^z$, $\sin z$, $\cos z$ Polynomials.
 
@@ -413,7 +413,7 @@ f'(z) = \lim_{k \to 0} \frac{u(x, y+k) - u(x, y)}{ik} + i\lim_{k \to 0} \frac{v(
 $$
 
 Equating real and imaginary parts: $\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}$
-And $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
+and $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
 
 ### 3.2 Sufficiency Condition
 
@@ -760,7 +760,7 @@ $$
 
 **Theorem 5.5 (Deformation of Contours).** If $f$ is analytic on a domain containing two simple
 Closed contours $\gamma_1$ and $\gamma_2$ where one can be continuously deformed into the other
-Within the domain of analyticity of $f$ Then
+within the domain of analyticity of $f$ Then
 
 $$
 \int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz
@@ -1210,7 +1210,7 @@ At $z = 2$ (simple pole): $\mathrm{Res} = \frac{e^2}{(2-1)^2} = e^2$.
 
 **Theorem 8.4 (Residue Theorem).** If $f$ is analytic inside and on a simple closed positively
 Oriented contour $\gamma$ except for isolated singularities $z_1, z_2, \ldots, z_n$ inside $\gamma$
-Then
+then
 
 $$
 \int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)
@@ -1269,7 +1269,7 @@ Where the sum is over poles in the upper half-plane.
 
 _Proof._ Integrate $f(z)$ over the semicircular contour $\gamma_R$ consisting of $[-R, R]$ on the
 Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$ The integral over
-The semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
+the semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
 
 ### 9.3 Worked Example
 
@@ -1410,7 +1410,7 @@ Mapping preserves angles (both magnitude and orientation) between curves.
 ### 10.2 Geometric Interpretation
 
 If $f'(z_0) = re^{i\theta}$ Then near $z_0$ the mapping $f$ acts as a rotation by $\theta$ followed
-By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
+by a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
 
 ### 10.3 Common Conformal Mappings
 
@@ -1622,7 +1622,7 @@ Continuation** of $f_1$.
 With a limit point in $D$ Then $f = g$ on all of $D$.
 
 _Proof._ Let $E = \{z \in D : f^{(n)}(z) = g^{(n)}(z) \mathrm{\ for\ all\ } n \geq 0\}$. $E$ is
-Non-empty (it contains the limit point by continuity of derivatives). $E$ is closed (by continuity).
+non-empty (it contains the limit point by continuity of derivatives). $E$ is closed (by continuity).
 If $z_0 \in E$ The Taylor series of $f$ and $g$ at $z_0$ coincide, so $f = g$ in a neighbourhood of
 $z_0$ Giving $E$ open. Since $D$ is connected, $E = D$. $\blacksquare$
 
@@ -1631,7 +1631,7 @@ $z_0$ Giving $E$ open. Since $D$ is connected, $E = D$. $\blacksquare$
 :::caution
 Differentiability. The partial derivatives must also be continuous. For example,
 $f(z) = \exp(-1/z^4)$ extended by $f(0) = 0$ satisfies the Cauchy-Riemann equations at the origin
-But is not differentiable there.
+but is not differentiable there.
 :::
 
 :::caution
@@ -1658,7 +1658,7 @@ Point. At $z = 0$ It is not conformal because $f'(0) = 0$.
 :::caution
 Interior, but the minimum can occur in the interior (e.g., $f(z) = z$ on the unit disk has minimum
 $|f| = 0$ at $z = 0$). For the minimum principle, one needs the additional hypothesis that $f$ has
-No zeros in the domain.
+no zeros in the domain.
 :::
 
 :::caution
@@ -2073,7 +2073,7 @@ Evaluate $\int_\gamma \frac{e^z \sin z}{(z - \pi)^3}\, dz$ where $\gamma$ is $|z
 Only $z = \pi$ is inside $\gamma$ (a pole of order $3$).
 
 By CIF for derivatives: $\int_\gamma \frac{f(z)}{(z - \pi)^3}\, dz = \frac{2\pi i}{2!}\,f''(\pi)$
-Where $f(z) = e^z \sin z$.
+where $f(z) = e^z \sin z$.
 
 $f'(z) = e^z \sin z + e^z \cos z = e^z(\sin z + \cos z)$.
 $f''(z) = e^z(\sin z + \cos z) + e^z(\cos z - \sin z) = 2e^z \cos z$.

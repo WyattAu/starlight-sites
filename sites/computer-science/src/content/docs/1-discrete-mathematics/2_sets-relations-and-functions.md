@@ -52,8 +52,8 @@ classes.
 **Partial order:** reflexive, antisymmetric, transitive. Written $(A, \preceq)$.
 
 A **Hasse diagram** is a graphical representation of a finite poset $(A, \preceq)$: an element $a$
-Is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
-From $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
+is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
+from $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
 
 **Worked Example.** Show that $R$ on $\mathbb{Z}$ defined by $a\,R\,b$ iff
 $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence classes.

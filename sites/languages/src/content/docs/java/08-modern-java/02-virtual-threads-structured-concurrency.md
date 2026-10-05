@@ -28,7 +28,7 @@ Most server workloads are I/O-bound. A thread handling an HTTP request spends th
 Its time waiting for database queries, network calls, or file I/O. During that wait, the thread's
 Stack sits in memory doing nothing. The traditional solution -- thread pools bounded to some
 Reasonable size (200-500 threads) -- works but introduces complexity: every blocking operation must
-Be non-blocking or async, and async code is hard to write, hard to read, and hard to debug.
+be non-blocking or async, and async code is hard to write, hard to read, and hard to debug.
 
 Virtual threads solve this by decoupling the Java-level thread from the OS thread.
 
@@ -75,7 +75,7 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 `Executors.newVirtualThreadPerTaskExecutor()` creates a new virtual thread for every submitted task.
 There is no pooling -- virtual threads are cheap enough that pooling is unnecessary and
 Counterproductive. The executor implements `AutoCloseable`; closing it waits for all submitted tasks
-To complete.
+to complete.
 
 ### How Virtual Threads Work Internally
 
@@ -182,7 +182,7 @@ Use `ScopedValue` (discussed below) instead of `ThreadLocal` when working with v
 Traditional Java concurrency is unstructured: you create a thread, submit tasks to an executor, and
 Collect results with `Future.get()`. There is no relationship between the parent task and the child
 Tasks. If a child task fails, the parent must manually cancel the remaining children. If the parent
-Is interrupted, cleanup is manual. This leads to leaked threads, resource exhaustion, and subtle
+is interrupted, cleanup is manual. This leads to leaked threads, resource exhaustion, and subtle
 Bugs.
 
 ```java
@@ -422,8 +422,8 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 | Blocking I/O        | Transparent unmount          | Transparent unmount            |
 
 Go goroutines are more mature (available since Go 1.0 in 2012) and have no pinning issue because Go
-Does not have monitor-based locking. Java virtual threads are catching up, and the pinning issue is
-Being addressed in JDK 24+.
+does not have monitor-based locking. Java virtual threads are catching up, and the pinning issue is
+being addressed in JDK 24+.
 
 ### Virtual Threads vs C# async/await
 
@@ -458,7 +458,7 @@ Performance reasoning.
 
 Kotlin coroutines are compiler-transformed suspending functions, similar to C# async/await. They use
 `suspend` keyword and `Dispatchers` for thread context. Virtual threads are a runtime feature with
-No language changes required.
+no language changes required.
 
 ## Intuition
 
@@ -515,7 +515,7 @@ try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
 ### Forgetting `join()`
 
 Forgetting to call `join()` means the scope's `close()` will wait for children, but you will not
-Have access to their results:
+have access to their results:
 
 ```java
 try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {

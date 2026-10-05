@@ -181,7 +181,7 @@ FROM Student;
 ```
 
 `PERCENT_RANK()` returns a value in $[0, 1]$ representing the fractional rank. `NTILE(4)` divides
-The partition into 4 approximately equal groups (quartiles).
+the partition into 4 approximately equal groups (quartiles).
 
 </details>
 
@@ -259,7 +259,7 @@ ORDER BY total_qty DESC;
 ```
 
 The recursive step multiplies the quantity at each level to accumulate the total needed quantity for
-Each sub-component.
+each sub-component.
 
 </details>
 

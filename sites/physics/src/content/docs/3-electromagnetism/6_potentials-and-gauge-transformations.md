@@ -162,7 +162,7 @@ This confirms that $V$ satisfies the wave equation. $\blacksquare$
 ### 6.5 Lienard-Wiechert Potentials
 
 For a **moving point charge** $q$ following trajectory $\mathbf{r}_s(t)$ The retarded potentials
-Cannot be evaluated naively because the retarded time $t_r$ satisfies a non-trivial equation:
+cannot be evaluated naively because the retarded time $t_r$ satisfies a non-trivial equation:
 
 $$
 c(t - t_r) = \lvert\mathbf{r} - \mathbf{r}_s(t_r)\rvert

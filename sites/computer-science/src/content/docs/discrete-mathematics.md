@@ -393,8 +393,8 @@ classes.
 **Partial order:** reflexive, antisymmetric, transitive. Written $(A, \preceq)$.
 
 A **Hasse diagram** is a graphical representation of a finite poset $(A, \preceq)$: an element $a$
-Is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
-From $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
+is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
+from $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
 
 **Worked Example.** Show that $R$ on $\mathbb{Z}$ defined by $a\,R\,b$ iff
 $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence classes.
@@ -695,7 +695,7 @@ Suppose $S \neq \emptyset$. By WOP, $S$ has a least element $m$.
 Let $2^k$ be the largest power of 2 not exceeding $m$ (so $2^k \leq m \lt 2^{k+1}$). Then
 $m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$ Then $m = 2^k$ is a single power of 2,
 Contradicting $m \in S$. If $m - 2^k \gt 0$ Then $m - 2^k \lt m$ So $m - 2^k \notin S$ (by minimality
-Of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
+of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
 Gives $m$ as a sum of distinct powers of 2, contradicting $m \in S$. Therefore $S = \emptyset$.
 $\blacksquare$
 
@@ -858,7 +858,7 @@ Subsequence starting at $a_i$.
 Suppose for contradiction that every monotone subsequence has length at most $n$. Then
 $1 \leq d_i \leq n$ and $1 \leq e_i \leq n$ So there are at most $n^2$ distinct ordered pairs
 $(d_i, e_i)$. Since we have $n^2 + 1$ elements, by the pigeonhole principle two indices $i \lt j$
-Have $(d_i, e_i) = (d_j, e_j)$.
+have $(d_i, e_i) = (d_j, e_j)$.
 
 If $a_i \lt a_j$ Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
 $a_j$), contradicting $d_i = d_j$.
@@ -880,7 +880,7 @@ at most $m$ objects, then the total number of objects is at most $km$.
 <summary>Solution</summary>
 
 There are 3 colours (boxes). By the generalised pigeonhole principle, drawing $n$ socks guarantees
-At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
+at least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
 $n \geq 10$.
 
 With 9 socks it is possible to have 3 of each colour (no colour reaches 4). With 10 socks, one
@@ -1003,7 +1003,7 @@ _Proof._ Each edge contributes 1 to the degree of each of its two endpoints. $\b
 ### 5.2 Paths, Cycles, and Connectivity
 
 A **walk** is a sequence of vertices where consecutive vertices are adjacent. A **path** is a walk
-With no repeated vertices. A **cycle** is a path that returns to its starting vertex.
+with no repeated vertices. A **cycle** is a path that returns to its starting vertex.
 
 A graph is **connected** if there is a path between every pair of vertices. A **connected
 component** Is a maximal connected subgraph.
@@ -1132,7 +1132,7 @@ $K_n$ (complete graph on $n$ vertices): every pair of vertices is adjacent, so a
 Receive distinct colours. Hence $\chi(K_n) = n$.
 
 $K_{m,n}$ (complete bipartite graph): no two vertices within the same partition are adjacent, so we
-Can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
+can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
 Hence $\chi(K_{m,n}) = 2$ (for $m, n \geq 1$).
 
 </details>
@@ -1154,7 +1154,7 @@ Checking: $P(K_3, 2) = 2 \cdot 1 \cdot 0 = 0$ (not 2-colourable, as expected). $
 ### 5.6 Euler and Hamilton Paths
 
 An **Euler path** visits every edge exactly once. An **Euler circuit** is an Euler path that starts
-And ends at the same vertex.
+and ends at the same vertex.
 
 **Theorem 5.14.** A connected graph has an Euler circuit if and only if every vertex has even
 degree. It has an Euler path (but not circuit) if and only if exactly two vertices have odd degree.
@@ -1172,7 +1172,7 @@ yields an Euler circuit of the full graph. $\blacksquare$
 <summary>Solution</summary>
 
 $K_{2,3}$ has 5 vertices. The two vertices in the first partition each have degree 3 (connected to
-All three in the second partition). The three vertices in the second partition each have degree 2.
+all three in the second partition). The three vertices in the second partition each have degree 2.
 
 Vertices of odd degree: two (each of degree 3). Since exactly two vertices have odd degree,
 $K_{2,3}$ has an Euler path (starting at one odd-degree vertex, ending at the other) but not an
@@ -1243,7 +1243,7 @@ Endpoint). A vertex is **matched** if it is an endpoint of an edge in $M$; other
 
 **Theorem 5.17 (Hall's Marriage Theorem, 1935).** Let $G = (V, E)$ be a bipartite graph with
 Partitions $X$ and $Y$. There exists a matching that covers every vertex in $X$ if and only if for
-Every subset $S \subseteq X$
+every subset $S \subseteq X$
 
 $$
 |N(S)| \geq |S|
@@ -1266,7 +1266,7 @@ the Strict inequality). By the induction hypothesis, $X \setminus \\{x\\}$ can b
 Adding $xy$ Gives the desired matching.
 
 _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. Match $T$ to $N(T)$
-By the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
+by the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
 $$
@@ -1632,7 +1632,7 @@ $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 Note $g \circ f \neq f \circ g$ So composition is not commutative.
 
 $g \circ f$ is not injective: $(g \circ f)(0) = 1$ and $(g \circ f)(-1) = 4(-1)^2 + 4(-1) + 1 = 1$
-But $0 \neq -1$.
+but $0 \neq -1$.
 
 If you get this wrong, revise: Section 2.3.
 

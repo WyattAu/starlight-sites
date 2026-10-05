@@ -42,7 +42,7 @@ Faster than heap allocation.
 ## 2. The Stack Frame Layout
 
 A **Stack Frame** is the memory region dedicated to a single function call. Its structure adheres to
-The platform's ABI (Application Binary Interface).
+the platform's ABI (Application Binary Interface).
 
 ### The Sequence of a Function Call
 
@@ -102,7 +102,7 @@ If `user_input` is 32 bytes long:
 3. **Bytes 24-31 overwrite the Return Address.**
 
 When `vulnerable_function` executes `ret`The CPU pops the corrupted Return Address into `RIP`. If
-The attacker crafts this address to point to malicious code (Shellcode) or existing library
+the attacker crafts this address to point to malicious code (Shellcode) or existing library
 Functions (Return Oriented Programming - ROP), they gain control of the process.
 
 ## 4. Architectural Mitigations
@@ -149,7 +149,7 @@ Newer CPUs (Intel Tiger Lake+, AMD Zen 3+) support **Control-flow Enforcement Te
 ## 5. C++23 Safety Strategies
 
 While compiler mitigations are powerful, the architectural solution is to avoid using constructs
-That allow unchecked writes.
+that allow unchecked writes.
 
 ### Avoid Raw Arrays
 
@@ -166,7 +166,7 @@ void process(int* ptr) \{
 ### Use `std::span` (C++20) and `std::array`
 
 `std::array` allocates on the stack but provides a class interface. `std::span` provides a
-Non-owning view with size information.
+non-owning view with size information.
 
 **Good:**
 
@@ -247,7 +247,7 @@ Every thread receives a fixed-size stack at creation time. The default size vari
 ### Detecting Stack Exhaustion
 
 Stack overflow is not catchable via C++ exceptions. When the stack pointer crosses the guard page at
-The bottom of the stack region, the OS delivers a `SIGSEGV` (Linux/macOS) or a `STACK_OVERFLOW`
+the bottom of the stack region, the OS delivers a `SIGSEGV` (Linux/macOS) or a `STACK_OVERFLOW`
 Exception (Windows). These are fatal signals, there is no recovery.
 
 ```cpp
@@ -370,8 +370,8 @@ void aligned_stack_example() \{
 ```
 
 The compiler inserts padding in the stack frame to satisfy alignment requirements. If you inspect
-The assembly, you will see `sub rsp, 0x20` or similar, where the allocation size is rounded up to
-The next multiple of 16 (or 32 for AVX).
+the assembly, you will see `sub rsp, 0x20` or similar, where the allocation size is rounded up to
+the next multiple of 16 (or 32 for AVX).
 
 ### Manual Alignment with `alignas`
 
@@ -617,7 +617,7 @@ int x = dangling();  // Reads from deallocated stack memory
 ### 3. Stack Canaries and `-fno-omit-frame-pointer`
 
 When `-fstack-protector-strong` is enabled, the compiler may be forced to emit frame pointers even
-If `-fomit-frame-pointer` is specified, because the canary must be placed at a known offset from
+if `-fomit-frame-pointer` is specified, because the canary must be placed at a known offset from
 `RBP`. This costs one register on x86_64.
 
 ### 4. Debug Builds and Stack Usage
@@ -629,7 +629,7 @@ Debug builds (`-O0`) allocate more stack space than release builds because:
 - Additional stack probes may be inserted for debugging.
 
 A program that runs fine in debug mode may overflow the stack in release mode (or vice versa, though
-Less commonly) if stack usage is near the limit.
+less commonly) if stack usage is near the limit.
 
 
 ```mermaid

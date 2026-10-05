@@ -22,7 +22,7 @@ categories:
 ## What State Management Is
 
 Flutter renders UI by calling `build()` on widgets. The `build()` method returns a widget tree based
-On the current state. When state changes, `build()` must be called again to produce an updated tree.
+on the current state. When state changes, `build()` must be called again to produce an updated tree.
 The problem is: where does the state live, how does it change, and how does the framework know to
 Rebuild?
 
@@ -31,7 +31,7 @@ Variables. This works for a prototype but collapses under the weight of a real a
 Propagating a change from a deep widget to an ancestor requires passing callbacks through every
 Intermediate widget (callback hell), shared state becomes uncontrollable without a single source of
 Truth, and rebuilds become unpredictable because the framework cannot determine which widgets depend
-On which state.
+on which state.
 
 State management is the discipline of controlling **where** state is stored, **how** it is modified,
 And **which** widgets rebuild when it changes. Every solution in this document addresses the same
@@ -41,7 +41,7 @@ Fundamental problem, they differ in complexity, boilerplate, testability, and sc
 
 `setState` marks a single `State` object as dirty, triggering a rebuild of that widget and its
 Descendants. This works for local UI state (a toggle, a text field, an animation progress) but fails
-For shared application state (user session, shopping cart, feature flags):
+for shared application state (user session, shopping cart, feature flags):
 
 ```dart
 class CounterPage extends StatefulWidget {
@@ -97,7 +97,7 @@ setState(() {
 ```
 
 The callback is synchronous. It runs immediately, not on the next frame. The rebuild is scheduled
-For the next frame. Multiple `setState` calls within the same microtask are batched into a single
+for the next frame. Multiple `setState` calls within the same microtask are batched into a single
 Rebuild.
 
 ### Scope Limitations
@@ -244,7 +244,7 @@ bool updateShouldNotify(AppState oldWidget) {
 ## Provider
 
 `Provider` is a thin wrapper around `InheritedWidget` that eliminates the boilerplate. It is the
-Most widely used state management solution in Flutter, recommended by the Flutter team for small to
+most widely used state management solution in Flutter, recommended by the Flutter team for small to
 Medium applications.
 
 ```yaml
@@ -425,7 +425,7 @@ dev_dependencies:
 ### Providers as Immutable Declarative Values
 
 In Riverpod, a provider is a declaration of how to create a value, not a mutable object. Providers
-Are immutable globals that you reference by name. The framework handles creation, disposal, and
+are immutable globals that you reference by name. The framework handles creation, disposal, and
 Dependency tracking:
 
 ```dart
@@ -790,7 +790,7 @@ class CounterCubit extends Cubit<int> {
 ```
 
 Use `Cubit` when the state transitions are simple (no complex event-driven logic). Use `Bloc` when
-You need event tracing, replayability, or complex state machines.
+you need event tracing, replayability, or complex state machines.
 
 ### BlocProvider, BlocBuilder, BlocListener, BlocConsumer
 
@@ -1224,7 +1224,7 @@ final tickerProvider = StreamProvider.autoDispose<int>((ref) {
 Using Provider for one feature, Riverpod for another, and raw BLoC for a third creates an
 Inconsistent codebase where developers must understand three systems. Pick one solution for the app
 Layer. It is acceptable to use `setState` for truly local widget state regardless of which solution
-The app uses, `setState` is the correct tool for ephemeral, widget-scoped state like animation
+the app uses, `setState` is the correct tool for ephemeral, widget-scoped state like animation
 Progress or a text field controller.
 
 ### 8. Not Extracting State Logic from Widgets

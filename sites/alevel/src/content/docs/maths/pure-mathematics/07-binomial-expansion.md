@@ -503,7 +503,7 @@ $$
 
 **Why?** The product expansion is obtained by multiplying the individual series term by term. If
 Either series diverges, the term-by-term multiplication is not justified, so the product expansion
-May not equal the original expression.
+may not equal the original expression.
 
 ### 8.3 More Complex Cases
 
@@ -822,7 +822,7 @@ $$
 $0^n = 0$ for $n \geq 1$. $\blacksquare$
 
 _Intuition._ This counts the difference between subsets of even size and subsets of odd size, which
-Is zero by a parity argument (there's a bijection between even-sized and odd-sized subsets: add or
+is zero by a parity argument (there's a bijection between even-sized and odd-sized subsets: add or
 Remove one element).
 
 </details>

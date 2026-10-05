@@ -2625,7 +2625,7 @@ URL: https://tools.wyattau.com/algorithms/07-graph-algorithms/advanced-graph-alg
 ## Strongly Connected Components
 
 A strongly connected component (SCC) of a directed graph is a maximal set of vertices such that
-There is a path from every vertex to every other vertex within the set.
+there is a path from every vertex to every other vertex within the set.
 
 ### Kosaraju's Algorithm
 
@@ -2869,7 +2869,7 @@ Cycle. Biconnected components are separated by articulation points.
 ## 2-SAT
 
 The 2-SAT problem asks whether a boolean formula in conjunctive normal form with exactly 2 literals
-Per clause is satisfiable. It reduces to finding SCCs in an implication graph.
+per clause is satisfiable. It reduces to finding SCCs in an implication graph.
 
 ### Reduction to Implication Graph
 
@@ -3491,7 +3491,7 @@ Output.
 ### 8. Flow Network Construction
 
 When reducing a problem to max-flow, ensure the flow network is correctly constructed: (1) all edges
-Have non-negative capacity, (2) the source has only outgoing edges, (3) the sink has only incoming
+have non-negative capacity, (2) the source has only outgoing edges, (3) the sink has only incoming
 Edges, (4) the graph is directed (or convert undirected edges to two directed edges), and (5)
 Capacities are integers if using Ford-Fulkerson with DFS.
 
@@ -3717,7 +3717,7 @@ Key properties of UTF-8:
 
 This matters for algorithms: iterating over a UTF-8 string by code point is $O(n)$ in bytes, but
 Finding the $k$-th code point is $O(k)$ unless you build an index. In Python, strings are sequences
-Of Unicode code points (so `len(s)` gives the number of code points), but the underlying storage is
+of Unicode code points (so `len(s)` gives the number of code points), but the underlying storage is
 UTF-8 (in CPython 3.3+, PEP 393).
 
 ### String Complexity
@@ -3805,7 +3805,7 @@ def is_palindrome(s):
 ## Sliding Window
 
 The sliding window technique maintains a contiguous subarray (window) that expands or contracts as
-It moves through the array. It is applicable when you need to find a subarray satisfying some
+it moves through the array. It is applicable when you need to find a subarray satisfying some
 Constraint.
 
 ### Fixed-Size Window
@@ -3868,7 +3868,7 @@ def longest_substring_without_repeats(s):
 
 :::note
 Nor `right` ever moves backward. This is what gives the $O(n)$ time bound: each element is added to
-And removed from the window at most once.
+and removed from the window at most once.
 
 ## Prefix Sums
 
@@ -4467,7 +4467,7 @@ Handle grapheme clusters (e.g., the emoji flags sequence). Use language-appropri
 ### 5. Hash Map Key Mutability
 
 If you use a mutable object as a hash map key and then mutate it, the object's hash changes and you
-Can no longer find it in the map. In Python, this manifests as a `dict` key becoming invisible after
+can no longer find it in the map. In Python, this manifests as a `dict` key becoming invisible after
 Mutation. Always use immutable types (tuples, frozensets, strings) as keys, or ensure keys are never
 Mutated after insertion.
 
@@ -4481,7 +4481,7 @@ Arbitrary precision, but in C/C++/Java, use `long long`/`long`).
 
 In sliding window problems, "at most k distinct elements" requires shrinking the window when the
 Count exceeds $k$ While "exactly k distinct elements" requires maintaining two windows (one for at
-Most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
+most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
 
 ```mermaid
 flowchart TD
@@ -4670,7 +4670,7 @@ graph TD
 
 For $n$ distinct keys inserted in random order, the expected height of a BST is approximately
 $2 \ln n \approx 1.39 \log_2 n$. This is only about 39% taller than a perfectly balanced tree, but
-The worst case (sorted input) gives height $n$.
+the worst case (sorted input) gives height $n$.
 
 ### Traversals
 
@@ -4757,7 +4757,7 @@ $$
 $$
 
 After every insertion or deletion, we walk back up from the modified node to the root, rebalancing
-As needed. The balance factor must be in $\{-1, 0, 1\}$ for every node.
+as needed. The balance factor must be in $\{-1, 0, 1\}$ for every node.
 
 ### Rotations
 
@@ -4934,7 +4934,7 @@ $F_k \approx \phi^k / \sqrt{5}$ We get $h \le c \log_\phi(n)$ for some constant 
 
 :::note
 Rotations in the worst case, because a deletion can increase the height difference at each ancestor
-Along the path to the root.
+along the path to the root.
 
 ## Red-Black Trees
 
@@ -4960,7 +4960,7 @@ Internal nodes has height at most $2 \log_2(n+1)$.
 **Proof sketch**: the shortest path from root to leaf has only black nodes (length = bh), and the
 Longest has alternating red-black (length = 2 \cdot bh). Since at least half the nodes on any
 Root-to-leaf path are black, the height $h \le 2 \cdot \mathrm{bh$. A tree with black-height $b$ has
-At least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$ Giving $h \le 2 \log_2(n+1)$.
+at least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$ Giving $h \le 2 \log_2(n+1)$.
 
 ### Node Definition
 
@@ -5216,7 +5216,7 @@ class BTree:
 ## B+ Trees
 
 A B+ tree is a variant of the B-tree used in database systems and file systems. All data is stored
-In the leaf nodes, and internal nodes contain only keys for navigation.
+in the leaf nodes, and internal nodes contain only keys for navigation.
 
 ### Differences from B-Trees
 
@@ -5282,7 +5282,7 @@ Leaf pages form a doubly-linked list, enabling both forward and backward scans.
 ## Splay Trees
 
 A splay tree is a self-adjusting BST that has no explicit balance information. Instead, it moves the
-Most recently accessed node to the root using a series of rotations called a **splay operation**.
+most recently accessed node to the root using a series of rotations called a **splay operation**.
 
 ### Splay Operation
 
@@ -5378,7 +5378,7 @@ class SplayTree:
 
 The splay operation has amortised cost $O(\log n)$ using the **potential method**. Define the
 Potential of node $x$ with rank $r(x) = \lfloor \log_2(\mathrm{size(x)) \rfloor$. The amortised cost
-Of a splay is bounded by $1 + 3(r(\mathrm{root) - r(x)) = O(\log n)$.
+of a splay is bounded by $1 + 3(r(\mathrm{root) - r(x)) = O(\log n)$.
 
 The **access lemma** states that the amortised cost of splaying node $x$ is at most
 $3(\log_2 n - \log_2(\mathrm{size(x))) + 1$ Which means frequently accessed nodes move toward the
@@ -5394,7 +5394,7 @@ tree. This means splay trees are within a constant factor of optimal for any acc
 
 A treap (tree + heap) is a BST ordered by key with heap ordering on randomly assigned priorities.
 Each node has a key and a priority; the BST property holds for keys, and the min-heap property holds
-For priorities.
+for priorities.
 
 ```python
 import random
@@ -5611,7 +5611,7 @@ Errors during rotation.
 ### 4. B-Tree Node Size Selection
 
 Choosing the node size requires understanding the hardware. On a disk-based system, the node size
-Should match the disk block size ( 4 KB). In memory, larger nodes may benefit from cache Line
+should match the disk block size ( 4 KB). In memory, larger nodes may benefit from cache Line
 effects. A node that fits in a single cache line (64 bytes) enables single-instruction Comparisons
 for the entire node.
 
@@ -5619,7 +5619,7 @@ for the entire node.
 
 While splay trees have $O(\log n)$ amortised performance, individual operations can take $O(n)$
 Time. If you need strict worst-case guarantees, use AVL or red-black trees instead. Splay trees are
-Also not suitable for real-time systems where latency spikes are unacceptable.
+also not suitable for real-time systems where latency spikes are unacceptable.
 
 ### 6. Treap Priority Collisions
 
@@ -5708,14 +5708,14 @@ Query that completes in 10 milliseconds and one that takes 10 minutes when the d
 ### Big-O: Upper Bound
 
 $O(g(n))$ is the set of all functions $f(n)$ for which there exist positive constants $c$ and $n_0$
-Such that:
+such that:
 
 $$
 0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0
 $$
 
 Big-O provides an **upper bound** on the growth rate of a function. Saying $f(n) = O(n^2)$ means
-That $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
+that $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
 
 ```python
 ## Example: nested loop is O(n^2)
@@ -5742,7 +5742,7 @@ Clever your implementation, the algorithm will take at least $c \cdot n \log n$ 
 
 $\Theta(g(n))$ is the intersection: $f(n) \in \Theta(g(n))$ if and only if $f(n) \in O(g(n))$ and
 $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exactly the same rate
-As $g(n)$ Up to constant factors.
+as $g(n)$ Up to constant factors.
 
 $$
 0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
@@ -5827,7 +5827,7 @@ Core). In reality:
 
 :::caution
 A well-optimised $O(n^2)$ algorithm can outperform a naive $O(n \log n)$ algorithm for small $n$ or
-With favourable cache behaviour. Always benchmark.
+with favourable cache behaviour. Always benchmark.
 
 ## Formal Manipulation Rules
 
@@ -5855,7 +5855,7 @@ Logarithm does not matter in Big-O notation because changing base only introduce
 ### Exponential vs Polynomial
 
 For any constants $k$ and $c \gt 1$: $n^k = o(c^n)$. Polynomials are always asymptotically dominated
-By exponentials. This is the fundamental boundary between tractable and intractable problems.
+by exponentials. This is the fundamental boundary between tractable and intractable problems.
 
 ## The Master Theorem
 
@@ -5970,7 +5970,7 @@ Causing CPU exhaustion. This is why many languages (Python, Rust, Go) now use ha
 ## Amortised Analysis
 
 Amortised analysis gives a tighter bound for a sequence of operations when individual operations may
-Be expensive but the expensive operations are rare enough that the total cost is bounded.
+be expensive but the expensive operations are rare enough that the total cost is bounded.
 
 ### Aggregate Method
 
@@ -6137,7 +6137,7 @@ graph TD
 ### Reductions
 
 A problem $A$ **reduces to** problem $B$ (written $A \le_p B$) if an algorithm for $B$ can be used
-To solve $A$ in polynomial time. If $A$ is NP-complete and $A \le_p B$ Then $B$ is also NP-hard. If
+to solve $A$ in polynomial time. If $A$ is NP-complete and $A \le_p B$ Then $B$ is also NP-hard. If
 $B$ is also in NP, then $B$ is NP-complete.
 
 **Cook-Levin Theorem:** SAT (Boolean satisfiability) is NP-complete. Every other NP-complete problem
@@ -6182,7 +6182,7 @@ Asymptotic analysis ignores the memory hierarchy. In practice, cache effects dom
   number of cache misses per operation by a factor of $\log_2 B$ where $B$ is the block size
 
 A linked list traversal that is $O(n)$ in theory can be 10-100x slower than an array traversal that
-Is also $O(n)$ Because the array has spatial locality.
+is also $O(n)$ Because the array has spatial locality.
 
 ### Constant Factors
 
@@ -6228,7 +6228,7 @@ This is why it is the default sort in most standard libraries (with introsort fa
 ### 3. Forgetting About Space
 
 An $O(n)$ time algorithm that uses $O(n^2)$ space is often worse than an $O(n \log n)$ algorithm
-That uses $O(1)$ space. Memory is not infinite, and allocation is not free.
+that uses $O(1)$ space. Memory is not infinite, and allocation is not free.
 
 ### 4. Misapplying the Master Theorem
 
@@ -6253,9 +6253,9 @@ Substrings), the "constant-time" lookup is not actually constant.
 ### 7. Ignoring Amortisation in Latency-Sensitive Systems
 
 Amortised $O(1)$ means the average over many operations is constant. Individual operations can still
-Be $O(n)$. In a latency-sensitive system (real-time trading, game loop, audio processing), a single
+be $O(n)$. In a latency-sensitive system (real-time trading, game loop, audio processing), a single
 $O(n)$ operation can cause a deadline miss even if the amortised cost is fine. Use data structures
-With worst-case guarantees (e.g., std::deque instead of std::vector with occasional reallocation)
+with worst-case guarantees (e.g., std::deque instead of std::vector with occasional reallocation)
 For real-time contexts.
 
 ### 8. Dropping Constants That Actually Matter
@@ -6314,14 +6314,14 @@ E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
 $$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
-More comparisons than the information-theoretic minimum of $n \log_2 n$ Which is remarkably close To
+more comparisons than the information-theoretic minimum of $n \log_2 n$ Which is remarkably close To
 optimal for a comparison sort.
 
 ### Smoothed Analysis
 
 Worst-case analysis can be too pessimistic for algorithms that perform well on typical inputs but
 Badly on adversarial ones. Smoothed analysis (Spielman and Teng, 2004) measures expected performance
-Under small random perturbations of the input. It explains why the simplex method for linear
+under small random perturbations of the input. It explains why the simplex method for linear
 Programming is efficient in practice despite having exponential worst-case complexity: the
 Adversarial inputs that trigger exponential behaviour are unstable under small perturbations.
 
@@ -6356,14 +6356,14 @@ Vitter, 1988) counts:
 | B-tree search | $O(\log N)$ time   | $O(\log_B N)$ I/Os              |
 
 The gap between internal and external memory complexity is why B-trees exist: a binary tree search
-Does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For
+does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For
 $N =
 10^9$ and $B = 100$, binary tree needs ~30 I/Os while B-tree needs ~5 I/Os, a 6x improvement.
 
 ### Amortised Analysis: Splay Trees
 
 Splay trees are self-adjusting BSTs with no explicit balance information. Every access is followed
-By a "splay" operation that moves the accessed node to the root using a sequence of rotations. The
+by a "splay" operation that moves the accessed node to the root using a sequence of rotations. The
 Amortised cost of each operation is $O(\log n)$ Proven using the potential method.
 
 The potential function for splay trees is:
@@ -6373,7 +6373,7 @@ $$
 $$
 
 Where `size(v)` is the number of nodes in the subtree rooted at `v`. The potential is always
-Non-negative and is $O(n \log n)$ for an $n$-node tree.
+non-negative and is $O(n \log n)$ for an $n$-node tree.
 
 **Key properties:**
 
@@ -6435,12 +6435,12 @@ $\sum_{k=0}^{\log n - 1} n(\log n - k) + n = n \sum_{j=1}^{\log n} j + n = n \cd
 ### Multiple Recursive Calls
 
 When an algorithm makes multiple recursive calls of different sizes, the analysis requires summing
-The costs of all calls.
+the costs of all calls.
 
 **Example:** $T(n) = T(n/3) + T(2n/3) + cn$
 
 The recursion tree has $\log_{3/2} n$ levels (the longest path goes by the 2/3 branch). Each level
-Does $cn$ work. Total: $O(n \log n)$.
+does $cn$ work. Total: $O(n \log n)$.
 
 ### Recursive Algorithms with Reduction
 
@@ -6532,7 +6532,7 @@ def benchmark_sorts():
 
 :::caution
 On the actual production workload due to access patterns, data distribution, and interaction with
-Other system components. Always benchmark with realistic data and in a realistic environment.
+other system components. Always benchmark with realistic data and in a realistic environment.
 
 ## Summary
 
@@ -6600,7 +6600,7 @@ Ends. It generalises both stacks (LIFO) and queues (FIFO).
 ### Circular Buffer Implementation
 
 A circular buffer (ring buffer) implements a deque using a fixed-size array with two indices (head
-And tail) that wrap around.
+and tail) that wrap around.
 
 ```python
 class CircularBufferDeque:
@@ -6751,7 +6751,7 @@ Access.
 ## Priority Queue ADT
 
 A priority queue supports inserting elements with associated priorities and extracting the element
-With the highest (or lowest) priority.
+with the highest (or lowest) priority.
 
 ### Operations
 
@@ -6947,12 +6947,12 @@ A d-ary heap is a generalisation where each node has up to $d$ children. For a n
 
 For Dijkstra's algorithm on sparse graphs ($E = O(V)$), $d = 2$ is optimal. For dense graphs
 ($E = O(V^2)$), $d \approx V/2$ gives the best performance because sift-down is called more often
-Than sift-up.
+than sift-up.
 
 ## Binomial Heap
 
 A binomial heap is a collection of binomial trees that supports efficient merge. It is the basis for
-The Fibonacci heap.
+the Fibonacci heap.
 
 ### Binomial Trees
 
@@ -7264,7 +7264,7 @@ Times relative to `extract_min`. In practice:
 
 :::caution
 Heaps (or 4-ary heaps) are almost always faster in practice. Pairing heaps are a simpler alternative
-That achieves the same amortised bounds for most operations.
+that achieves the same amortised bounds for most operations.
 
 ## Pairing Heap
 
@@ -7582,7 +7582,7 @@ def knapsack_01(weights, values, capacity):
 
 :::note
 Iterate forward, `dp[c - w]` may already include item $i$ Violating the 0/1 constraint. This is the
-Most common bug in knapsack implementations.
+most common bug in knapsack implementations.
 
 ### Unbounded Knapsack
 
@@ -8037,7 +8037,7 @@ def assignment(cost):
 ## Digit DP
 
 Digit DP counts numbers in a range that satisfy certain digit-based properties by processing digits
-From most significant to least significant.
+from most significant to least significant.
 
 ### Template
 
@@ -8220,7 +8220,7 @@ def is_match(s, p):
 
 Every impartial game (where the available moves depend only on the position, not on which player is
 Moving) is equivalent to a Nim heap. The Sprague-Grundy theorem states that the Grundy number (mex
-Of children's Grundy numbers) determines the winning strategy.
+of children's Grundy numbers) determines the winning strategy.
 
 ```python
 def grundy_number(positions):
@@ -8277,7 +8277,7 @@ def coin_game(coins):
 ## Greedy-Reducible DP
 
 Some DP problems have greedy solutions that are simpler and faster. The key question: does making
-The locally optimal choice always lead to the globally optimal solution?
+the locally optimal choice always lead to the globally optimal solution?
 
 ### When Greedy Works Instead of DP
 
@@ -8309,14 +8309,14 @@ The locally optimal choice always lead to the globally optimal solution?
 ### 1. Wrong Iteration Order
 
 The fill order must respect the dependency: if `dp[i]` depends on `dp[j]`Then `j` must be computed
-Before `i`. For interval DP, always iterate by increasing interval length. For 1D DP, verify whether
+before `i`. For interval DP, always iterate by increasing interval length. For 1D DP, verify whether
 Forward or backward iteration is needed (0/1 knapsack needs backward, unbounded needs forward).
 
 ### 2. Integer Overflow in DP Values
 
 DP values can grow exponentially (e.g., counting paths in a grid). Use Python's arbitrary-precision
 Integers, or in C++/Java, use `long long` or `BigInteger`. Always check whether the problem asks for
-The result modulo some value.
+the result modulo some value.
 
 ### 3. Off-by-One in Bitmask DP
 
@@ -8479,7 +8479,7 @@ def climb_stairs_memo(n, memo=None):
 ### House Robber
 
 Given an array of non-negative integers representing money at each house, maximise the amount you
-Can rob without robbing two adjacent houses.
+can rob without robbing two adjacent houses.
 
 $$
 dp[i] = \max(dp[i-1], dp[i-2] + nums[i])
@@ -8509,7 +8509,7 @@ def house_robber(nums):
 ### Coin Change
 
 Given coins of different denominations and a target amount, find the minimum number of coins needed
-To make that amount. Return -1 if it is not possible.
+to make that amount. Return -1 if it is not possible.
 
 $$
 dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin
@@ -8551,7 +8551,7 @@ def coin_change_combinations(coins, amount):
 :::caution
 And coins second, you count permutations (different orderings of the same coins are counted
 Separately). If you iterate coins first and amount second, you count combinations (each combination
-Is counted once). This is a common source of incorrect DP solutions.
+is counted once). This is a common source of incorrect DP solutions.
 
 ## 2D DP
 
@@ -8657,7 +8657,7 @@ def edit_distance(s1, s2):
 ### Knapsack Problem
 
 Given items with weights and values, and a knapsack with capacity $W$ Maximise the total value
-Without exceeding the capacity.
+without exceeding the capacity.
 
 $$
 dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w
@@ -9155,7 +9155,7 @@ What parameters change in recursive calls, and those are your state variables.
 
 DP base cases are analogous to loop initialisation. Getting them wrong produces wrong answers for
 Small inputs that cascade into wrong answers for large inputs. Always test with the smallest
-Non-trivial input (e.g., $n = 1$ Empty string, single element).
+non-trivial input (e.g., $n = 1$ Empty string, single element).
 
 ### 3. Wrong Fill Order in Bottom-Up DP
 
@@ -9193,7 +9193,7 @@ Still stack overflow for large $n$. Use bottom-up DP for problems with deep recu
 ### 8. Using the Wrong Subproblem Decomposition
 
 Many DP problems have multiple valid decompositions, but some lead to efficient solutions and others
-Do not. For the longest increasing subsequence, the $O(n^2)$ DP ($dp[i]$ = length of LIS ending at
+do not. For the longest increasing subsequence, the $O(n^2)$ DP ($dp[i]$ = length of LIS ending at
 $i$) works but the $O(n \log n)$ solution using patience sorting requires a different approach
 Entirely. Always consider whether a more efficient state representation exists.
 
@@ -9202,7 +9202,7 @@ Entirely. Always consider whether a more efficient state representation exists.
 ### Digit DP
 
 Digit DP solves counting problems on ranges by processing numbers digit by digit. It is applicable
-When the problem involves counting numbers in a range that satisfy a property based on their digits.
+when the problem involves counting numbers in a range that satisfy a property based on their digits.
 
 ```python
 def count_numbers_without_digit(n, forbidden):
@@ -9419,8 +9419,8 @@ URL: https://tools.wyattau.com/algorithms/07-graph-algorithms/graph-algorithms/
 ### Dijkstra's Algorithm
 
 Dijkstra's algorithm finds the shortest path from a single source to all other vertices in a graph
-With non-negative edge weights. It uses a greedy strategy: always process the unvisited vertex with
-The smallest known distance.
+with non-negative edge weights. It uses a greedy strategy: always process the unvisited vertex with
+the smallest known distance.
 
 ```python
 import heapq
@@ -9468,7 +9468,7 @@ def reconstruct_path(prev, target):
 
 **Why Dijkstra fails with negative edges:** Dijkstra's greedy choice assumes that once a vertex is
 Processed, its distance is final. With negative edges, a shorter path may be discovered later
-Through a vertex that has already been processed.
+through a vertex that has already been processed.
 
 | Graph Type                   | Dijkstra                         | Bellman-Ford              | Floyd-Warshall |
 | ---------------------------- | -------------------------------- | ------------------------- | -------------- |
@@ -9907,8 +9907,8 @@ def ford_fulkerson(n, capacity, source, sink):
 ### Edmonds-Karp Algorithm
 
 Edmonds-Karp is Ford-Fulkerson where the augmenting path is found using BFS (shortest path in terms
-Of number of edges). This guarantees $O(VE^2)$ time complexity and always terminates (even with
-Non-integer capacities).
+of number of edges). This guarantees $O(VE^2)$ time complexity and always terminates (even with
+non-integer capacities).
 
 ### Max-Flow Min-Cut Theorem
 
@@ -10030,7 +10030,7 @@ Uses at most $\Delta + 1$ colors, and for most graphs, $\Delta$ colors.
 ## Travelling Salesman Problem (TSP)
 
 Given a complete graph with weighted edges, find the Hamiltonian cycle of minimum total weight. TSP
-Is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$ Feasible for $n \le 20$).
+is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$ Feasible for $n \le 20$).
 
 ### Approximation Algorithms
 
@@ -10157,10 +10157,10 @@ Graph, collect the modifications and apply them after the traversal completes.
 ### 8. Ignoring Edge Cases in Flow Networks
 
 Ford-Fulkerson may not terminate with irrational capacities (the flow can converge without reaching
-The maximum). Edmonds-Karp (BFS-based) always terminates with $O(VE^2)$ complexity. For integer
+the maximum). Edmonds-Karp (BFS-based) always terminates with $O(VE^2)$ complexity. For integer
 Capacities, Ford-Fulkerson terminates in $O(E \cdot f^*)$ where $f^*$ is the max flow value, this
-Can be exponential. Always use Edmonds-Karp or Dinic's algorithm unless you have a specific reason
-Not to.
+can be exponential. Always use Edmonds-Karp or Dinic's algorithm unless you have a specific reason
+not to.
 
 ## Dinic's Algorithm
 
@@ -10396,7 +10396,7 @@ def two_sat(n_vars, clauses):
 ```
 
 The key theorem: a 2-SAT formula is satisfiable if and only if no variable and its negation are in
-The same strongly connected component. This gives a linear-time algorithm for a problem that is
+the same strongly connected component. This gives a linear-time algorithm for a problem that is
 NP-hard for 3-SAT.
 
 ```mermaid
@@ -10489,7 +10489,7 @@ Optimal solution with the greedy choice without making the solution worse.
 ### Example: Activity Selection
 
 Given $n$ activities with start times $s_i$ and finish times $f_i$ Select the maximum number of
-Non-overlapping activities.
+non-overlapping activities.
 
 **Greedy**: always pick the activity with the earliest finish time.
 
@@ -10757,7 +10757,7 @@ def kruskal(n, edges):
 ### Prim's Algorithm
 
 Grow the MST from an arbitrary vertex, always adding the cheapest edge connecting the tree to a
-Non-tree vertex.
+non-tree vertex.
 
 ```python
 import heapq
@@ -10828,7 +10828,7 @@ Negative cycles.
 ## Matroid Theory
 
 A matroid is a combinatorial structure that captures the notion of "independence." Greedy algorithms
-Are optimal on matroids.
+are optimal on matroids.
 
 ### Definition
 
@@ -10866,7 +10866,7 @@ graph TD
 
 The independent sets of the 0/1 knapsack (sets whose total weight does not exceed capacity) do not
 Satisfy the exchange property. Consider capacity 10, items of weights {6, 6, 5}. Sets {6} and {5}
-Are independent, but neither can be extended by the other to remain within capacity 10. This is why
+are independent, but neither can be extended by the other to remain within capacity 10. This is why
 Greedy fails for 0/1 knapsack.
 
 ## Job Scheduling
@@ -11044,7 +11044,7 @@ URL: https://tools.wyattau.com/algorithms/02-arrays-strings/hashing-and-hash-tab
 A hash function maps an input from a large domain to a smaller, fixed-size range. Formally,
 $h: U \to \{0, 1, \ldots, m-1\}$ where $U$ is the universe of possible keys and $m$ is the table
 Size. The quality of a hash function determines the performance of every data structure built on top
-Of it.
+of it.
 
 ### Desirable Properties
 
@@ -11068,7 +11068,7 @@ Output value significantly (not just one output bit).
 A perfectly uniform hash function distributes $n$ keys across $m$ buckets so that each bucket
 Contains approximately $n/m$ keys. In practice, we measure uniformity by hashing a large sample of
 Inputs and checking that the chi-squared statistic of the bucket distribution is close to what we
-Would expect from a truly random distribution.
+would expect from a truly random distribution.
 
 ```python
 def uniformity_test(hash_func, keys, num_buckets):
@@ -11116,7 +11116,7 @@ def multiplicative_hash(k, m, A=0x9E3779B9):
 ### Integer Hashing (Murmur-style Mixing)
 
 For general-purpose hashing of integers, bit-mixing functions are preferred. These scramble the bits
-Of the input so that small changes in the input produce large changes in the output.
+of the input so that small changes in the input produce large changes in the output.
 
 ```python
 def splitmix64(x):
@@ -11188,7 +11188,7 @@ def fnv1a_64(data):
 
 When the universe of keys $U$ is small, we can use an array of size $|U|$ where index $k$ stores the
 Element with key $k$. This gives $O(1)$ worst-case insert, delete, and lookup, but wastes memory
-When $|U|$ is much larger than the actual number of keys $n$.
+when $|U|$ is much larger than the actual number of keys $n$.
 
 | Operation | Time   | Space      |
 | --------- | ------ | ---------- |
@@ -11364,7 +11364,7 @@ class LinearProbingHashTable:
 
 **Primary clustering**: linear probing suffers from primary clustering, when a cluster of occupied
 Slots forms, new keys that hash into or near the cluster extend it. The expected number of probes
-For an unsuccessful search with linear probing is approximately
+for an unsuccessful search with linear probing is approximately
 $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$.
 
 ### Quadratic Probing
@@ -11386,8 +11386,8 @@ h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m
 $$
 
 Uses a second hash function $h_2(k)$ to determine the probe step size. This eliminates both primary
-And secondary clustering. The table size $m$ and the step size $h_2(k)$ should be relatively prime
-For the probe sequence to visit all slots.
+and secondary clustering. The table size $m$ and the step size $h_2(k)$ should be relatively prime
+for the probe sequence to visit all slots.
 
 ```python
 class DoubleHashingHashTable:
@@ -11482,7 +11482,7 @@ def robin_hood_insert(table, key, value, hashes):
 ## Cuckoo Hashing
 
 Cuckoo hashing uses two hash functions and two arrays (or one array split into two halves). Each key
-Is stored at either $h_1(k)$ or $h_2(k)$. On collision, the existing element is "kicked out" to its
+is stored at either $h_1(k)$ or $h_2(k)$. On collision, the existing element is "kicked out" to its
 Alternative position. If a cycle is detected, the table is rebuilt with new hash functions.
 
 **Properties:**
@@ -11642,7 +11642,7 @@ High probability.
 ## Bloom Filters
 
 A bloom filter is a space-efficient probabilistic data structure for membership testing. It can tell
-You whether an element is **definitely not** in the set or **possibly** in the set (with a
+you whether an element is **definitely not** in the set or **possibly** in the set (with a
 Configurable false positive rate).
 
 ### Structure
@@ -11741,7 +11741,7 @@ Function $h_i$ maps an element to a row and column.
 | Space     | $d \times w$ counters                     | N/A    | N/A                      |
 
 The estimate is always an **overestimate**: $\hat{f}(x) \ge f(x)$ with high probability. The error
-Is bounded by $\epsilon \cdot N$ where $N$ is the total count and $\epsilon = e / w$.
+is bounded by $\epsilon \cdot N$ where $N$ is the total count and $\epsilon = e / w$.
 
 ```python
 import hashlib
@@ -11865,7 +11865,7 @@ class HyperLogLog:
 
 :::note
 Are necessary only when an adversary can choose inputs (e.g., hash DoS attacks). Python switched
-From a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
+from a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
 Flooding attacks.
 
 ## Hash Table Implementation Details
@@ -11938,14 +11938,14 @@ Freeze objects before hashing.
 ### 2. Hash Flooding Attacks
 
 An adversary who can control the keys inserted into a hash table can choose keys that all hash to
-The same bucket, degrading performance from $O(1)$ to $O(n)$ per operation. Defences: hash
+the same bucket, degrading performance from $O(1)$ to $O(n)$ per operation. Defences: hash
 Randomisation (Python's `PYTHONHASHSEED`), SipHash (Python 3.4+), or switching to balanced trees for
 Long chains (Java 8+).
 
 ### 3. Forgetting to Override Both `__hash__` and `__eq__`
 
 In Python, if you override `__eq__` without overriding `__hash__`The class becomes unhashable. If
-You override `__hash__` without overriding `__eq__`Objects that compare equal may hash to Different
+you override `__hash__` without overriding `__eq__`Objects that compare equal may hash to Different
 values. Both must be consistent: if `a == b`Then `hash(a) == hash(b)`.
 
 ### 4. Integer Overflow in Hash Computation
@@ -11978,7 +11978,7 @@ Filter correctly and monitor the actual false positive rate in production.
 
 Use a bloom filter for membership testing (set membership), count-min sketch for frequency
 Estimation, and HyperLogLog for cardinality estimation. Each is optimised for a different query type
-And cannot substitute for another.
+and cannot substitute for another.
 
 ```mermaid
 flowchart TD
@@ -12081,7 +12081,7 @@ graph LR
 ```
 
 The relationship is not one-to-one. A hash table can implement a set or a map. A balanced BST can do
-The same. Which one you choose depends on whether you need ordered iteration, worst-case guarantees,
+the same. Which one you choose depends on whether you need ordered iteration, worst-case guarantees,
 Or amortised constant-time operations. These trade-offs are the substance of systems engineering.
 
 ## Mathematical Prerequisites
@@ -12117,7 +12117,7 @@ This subject assumes familiarity with:
 These notes are written for systems engineers who need to understand algorithms at the level
 Required to make informed design decisions, not just pass an interview. Each chapter includes
 Complexity analysis, practical implementation considerations, and a "Common Pitfalls" section drawn
-From real production failures.
+from real production failures.
 
 Read the chapters in order if you are building foundational knowledge. Use them as reference
 Material if you are looking up a specific algorithm or trying to understand why a particular data
@@ -12247,7 +12247,7 @@ The linked list was first described by Hans Peter Luhn at IBM (1953). The concep
 
 A singly linked list is a sequence of nodes where each node contains a value and a reference to the
 Next node. The list is accessed through a head pointer; traversal requires following pointers from
-The head.
+the head.
 
 ```python
 class ListNode:
@@ -12291,7 +12291,7 @@ def delete_node(head, val):
 
 :::note
 Position (given a pointer to the preceding node). The critical disadvantage is $O(n)$ random access
-And poor cache locality. In practice, arrays dominate because cache effects matter more than
+and poor cache locality. In practice, arrays dominate because cache effects matter more than
 Theoretical complexity for typical data sizes.
 
 ### Reversal
@@ -12798,7 +12798,7 @@ class MinHeap:
 ## Monotonic Stack
 
 A monotonic stack maintains elements in either strictly increasing or strictly decreasing order. It
-Is used to find the next greater/lesser element, previous greater/lesser element, and similar
+is used to find the next greater/lesser element, previous greater/lesser element, and similar
 Patterns.
 
 ### Next Greater Element
@@ -13013,7 +13013,7 @@ Extra lines) and the performance difference is enormous for large inputs.
 Python's default recursion limit is 1000. For linked lists with more than 1000 nodes, recursive
 Solutions (recursive reversal, recursive palindrome check) will crash with `RecursionError`. Use
 Iterative solutions for production code, or increase the limit with `sys.setrecursionlimit()` if you
-Are certain the input size is bounded.
+are certain the input size is bounded.
 
 ### 7. Priority Queue Inefficiency for Update Operations
 
@@ -13100,7 +13100,7 @@ Ranges, known distributions).
 ### Bubble Sort
 
 Repeatedly swap adjacent elements that are out of order. After $i$ passes, the last $i$ elements are
-In their final position.
+in their final position.
 
 ```python
 def bubble_sort(arr):
@@ -13123,7 +13123,7 @@ def bubble_sort(arr):
 ```
 
 Bubble sort is primarily of educational value. Its only practical advantage is that it can detect
-Whether the input is already sorted in a single pass ($O(n)$), but insertion sort does this better.
+whether the input is already sorted in a single pass ($O(n)$), but insertion sort does this better.
 
 ### Selection Sort
 
@@ -13148,7 +13148,7 @@ def selection_sort(arr):
 ```
 
 Selection sort makes exactly $n(n-1)/2$ comparisons regardless of input, it is never adaptive. Its
-Only advantage is that it does at most $n$ swaps, which matters when writes are expensive (e.g.,
+only advantage is that it does at most $n$ swaps, which matters when writes are expensive (e.g.,
 Flash memory with limited write cycles).
 
 ### Insertion Sort
@@ -13357,7 +13357,7 @@ Worst-case guarantee of heapsort.
 ## Non-Comparison-Based Sorting
 
 Non-comparison sorts exploit properties of the input to achieve $O(n)$ or $O(nk)$ time, bypassing
-The $\Omega(n \log n)$ comparison sort lower bound.
+the $\Omega(n \log n)$ comparison sort lower bound.
 
 ### Counting Sort
 
@@ -13656,7 +13656,7 @@ Selection or introsort.
 ### 2. Assuming All Sorts Are Stable
 
 Merge sort and TimSort are stable; quicksort and heapsort are not. If you sort by one key and then
-By another, the second sort will destroy the ordering from the first unless the sort is stable. When
+by another, the second sort will destroy the ordering from the first unless the sort is stable. When
 Stability matters, verify the sort implementation or use a compound comparison key.
 
 ### 3. Radix Sort on Floating-Point Numbers
@@ -13668,7 +13668,7 @@ Preserves the ordering for positive floats, and reversing it for negative floats
 ### 4. Counting Sort Memory Blowup
 
 Counting sort uses $O(k)$ space where $k$ is the range of values. If you have 1,000 integers ranging
-From 0 to $10^9$ Counting sort allocates a $10^9$-element array. Always check that $k = O(n)$ Before
+from 0 to $10^9$ Counting sort allocates a $10^9$-element array. Always check that $k = O(n)$ Before
 using counting sort, or use radix sort instead.
 
 ### 5. Ignoring the Base Case in Recursive Sorts
@@ -13686,8 +13686,8 @@ Allocations to $O(n)$. This is a significant performance improvement in practice
 ### 7. Stability in Multi-Key Sorting
 
 When sorting records by multiple fields (e.g., sort by last name, then by first name), you must sort
-By the least significant key first using a stable sort, then by more significant keys. Sorting by
-The most significant key first and then by less significant keys will destroy the primary ordering.
+by the least significant key first using a stable sort, then by more significant keys. Sorting by
+the most significant key first and then by less significant keys will destroy the primary ordering.
 Alternatively, use a compound comparison key.
 
 ## Parallel Sorting
@@ -13800,7 +13800,7 @@ def sort_by_multiple(records, keys):
 ## Sorting Stability Proof
 
 Why does merge sort preserve stability? Consider two equal elements $a$ and $b$ where $a$ appears
-Before $b$ in the input. During the merge step, when we compare $a$ and $b$:
+before $b$ in the input. During the merge step, when we compare $a$ and $b$:
 
 1. If $a$ and $b$ are in different halves, $a$ (from the left half) is chosen first because the
    merge uses `<=` (not `\lt{}`)
@@ -13808,12 +13808,12 @@ Before $b$ in the input. During the merge step, when we compare $a$ and $b$:
 
 This inductive argument proves that merge sort is stable. Quicksort is unstable because the
 Partition operation does not preserve the relative order of equal elements, an element swapped from
-The left side of the pivot may pass over an equal element on the right side.
+the left side of the pivot may pass over an equal element on the right side.
 
 ## Sorting Network Lower Bounds
 
 A sorting network is a fixed sequence of compare-and-swap operations that sorts any input. The depth
-Of a sorting network is the minimum number of parallel steps needed. Known bounds:
+of a sorting network is the minimum number of parallel steps needed. Known bounds:
 
 | Network             | Depth         | Comparators     | Notes                              |
 | ------------------- | ------------- | --------------- | ---------------------------------- |
@@ -13997,7 +13997,7 @@ Tight, you cannot do asymptotically better with comparisons alone.
 ### Information-Theoretic Argument
 
 Sorting $n$ elements requires distinguishing among $n!$ permutations. Each comparison provides at
-Most 1 bit of information (the answer is yes or no). The information content of the answer is
+most 1 bit of information (the answer is yes or no). The information content of the answer is
 $\log_2(n!) = \Theta(n \log n)$ bits, so at least $\Theta(n \log n)$ comparisons are needed.
 
 This argument also shows that the number of comparisons cannot be reduced below
@@ -14342,7 +14342,7 @@ Left-left grandchild with value 6 fails the BST property but passes the naive ch
 ## AVL Trees
 
 An AVL tree is a self-balancing BST where the heights of the two child subtrees of any node differ
-By at most 1. Named after Adelson-Velsky and Landis (1962).
+by at most 1. Named after Adelson-Velsky and Landis (1962).
 
 ### Balance Factor
 
@@ -14405,7 +14405,7 @@ def rotate_left(x):
 
 AVL trees guarantee $O(\log n)$ height, which is at most $1.44 \log_2(n+2) - 0.328$. In practice,
 AVL trees are taller and require more rotations than red-black trees, but provide faster lookups
-Because the tree is more strictly balanced.
+because the tree is more strictly balanced.
 
 ## Red-Black Trees
 
@@ -14458,7 +14458,7 @@ database uses B-tree variants (B+ trees) for indexing.
 ## Heaps
 
 A heap is a complete binary tree with the heap property: in a max-heap, every node is greater than
-Or equal to its children; in a min-heap, every node is less than or equal to its children.
+or equal to its children; in a min-heap, every node is less than or equal to its children.
 
 ```python
 def heap_sort(arr):
@@ -14506,7 +14506,7 @@ def _sift_down(arr, n, i):
 ## Tries (Prefix Trees)
 
 A trie is a tree where each node represents a character in a prefix. Words are stored as paths from
-The root. The root represents the empty string.
+the root. The root represents the empty string.
 
 ```python
 class TrieNode:
@@ -14925,7 +14925,7 @@ def has_cycle_directed(graph):
 
 If you insert or delete nodes while iterating over a tree (e.g., deleting all nodes matching a
 Condition), the traversal may skip nodes or follow stale pointers. Either collect nodes to modify
-And apply changes after traversal, or use a recursive approach that handles modification safely.
+and apply changes after traversal, or use a recursive approach that handles modification safely.
 
 ### 2. BST Property Violations
 
@@ -15011,7 +15011,7 @@ URL: https://tools.wyattau.com/algorithms/04-trees-graphs/trie-and-pattern-match
 ## Trie (Prefix Tree)
 
 A trie is a tree data structure where each node represents a character of a string. The path from
-The root to any node spells out a prefix, and nodes marked as "end of word" represent complete
+the root to any node spells out a prefix, and nodes marked as "end of word" represent complete
 Strings in the set.
 
 ### Node Definition
@@ -15228,7 +15228,7 @@ class RadixTrie:
 ## Suffix Trie
 
 A suffix trie of a string $S$ of length $n$ contains all suffixes of $S$. It has $O(n^2)$ nodes (in
-The worst case), which is too large for practical use.
+the worst case), which is too large for practical use.
 
 ### Construction
 
@@ -15397,7 +15397,7 @@ class SuffixTree:
 ## Suffix Array
 
 A suffix array `SA` of a string $S$ of length $n$ is a permutation of $\{0, 1, \ldots, n-1\}$ such
-That $S[SA[0]:] \lt S[SA[1]:] \lt \cdots \lt S[SA[n-1]:]$.
+that $S[SA[0]:] \lt S[SA[1]:] \lt \cdots \lt S[SA[n-1]:]$.
 
 ### Construction
 
@@ -15590,7 +15590,7 @@ Pattern to compute a failure function.
 ### Failure Function
 
 The failure function `pi[i]` is the length of the longest proper prefix of `pattern[0:i+1]` that is
-Also a suffix of `pattern[0:i+1]`.
+also a suffix of `pattern[0:i+1]`.
 
 ```python
 def kmp_failure(pattern):
@@ -15643,12 +15643,12 @@ The key invariant: after processing `text[i]`The variable `j` equals the length 
 Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`We have found a complete match
 Ending at position `i`. The failure function ensures that we never backtrack in the text, each
 Character of the text is examined at most once, giving $O(n)$ time for the search phase plus $O(m)$
-For preprocessing.
+for preprocessing.
 
 ## Rabin-Karp Algorithm
 
 Rabin-Karp uses hashing to find pattern matches. It computes a rolling hash of the text and compares
-It with the hash of the pattern.
+it with the hash of the pattern.
 
 ### Rolling Hash
 
@@ -15741,7 +15741,7 @@ def rabin_karp_double_hash(text, pattern):
 ## Boyer-Moore Algorithm
 
 Boyer-Moore is often the fastest string matching algorithm in practice because it skips sections of
-The text that cannot possibly match.
+the text that cannot possibly match.
 
 ### Bad Character Rule
 
@@ -16411,7 +16411,7 @@ Security engineers protect systems from threats:
 
 System design interviews evaluate your ability to design scalable, reliable systems. The interviewer
 Gives you a high-level requirement (e.g., "Design a URL shortener") and expects you to work through
-The design from requirements to implementation.
+the design from requirements to implementation.
 
 **Framework:**
 
@@ -16759,7 +16759,7 @@ Breadth:
 ### T-Shaped Skills
 
 A T-shaped engineer has deep expertise in one area (the vertical bar) and broad knowledge across
-Many areas (the horizontal bar). Systems engineers should aim for:
+many areas (the horizontal bar). Systems engineers should aim for:
 
 - **Deep:** One specialization (e.g., distributed storage, networking, Kubernetes, security)
 - **Broad:** Working knowledge of Linux, networking, databases, containers, CI/CD, monitoring,
@@ -17058,7 +17058,7 @@ Before making the transition:
 
 A "Senior" title at a 10-person startup is not equivalent to "Senior" at Google. Focus on building
 Skills and delivering impact, not collecting titles. Your portfolio and demonstrated ability matter
-More than titles when switching companies.
+more than titles when switching companies.
 
 ### Not Building a Professional Network Before You Need It
 
@@ -17070,12 +17070,12 @@ A network built under pressure is obvious and less effective.
 
 Staying at one company for 5+ years can be valuable for depth, but it limits exposure to different
 Approaches, technologies, and team dynamics. If you have been at the same company for 5+ years and
-Are no longer learning, it may be time to move on.
+are no longer learning, it may be time to move on.
 
 ## SRE Daily Responsibilities
 
 Understanding what Site Reliability Engineering (SRE) looks like day-to-day helps you decide whether
-It is the right career path and prepare accordingly.
+it is the right career path and prepare accordingly.
 
 ### A Typical SRE Day
 
@@ -17229,7 +17229,7 @@ echo "Per-year equity value: \$$YEARLY_VALUE"
 ## Certification Roadmaps
 
 Certifications can accelerate career progression, particularly when transitioning between companies
-Or domains. They are not a substitute for experience, but they signal commitment and provide
+or domains. They are not a substitute for experience, but they signal commitment and provide
 Structured learning paths.
 
 ### Linux and Infrastructure
@@ -17266,7 +17266,7 @@ Structured learning paths.
 ## T-Shaped Skills Development
 
 A T-shaped professional has deep expertise in one area (the vertical bar) and broad knowledge across
-Many areas (the horizontal bar). This combination is particularly valuable in systems engineering,
+many areas (the horizontal bar). This combination is particularly valuable in systems engineering,
 Where deep specialization must be balanced with the ability to understand and work with adjacent
 Systems.
 
@@ -17346,7 +17346,7 @@ Security engineering is a high-demand specialization for systems engineers. Tran
 ### The Non-Linear Career
 
 Your career does not have to follow a straight line. Some of the most effective senior engineers
-Have backgrounds in customer support, technical writing, QA, or IT operations. Diverse experience
+have backgrounds in customer support, technical writing, QA, or IT operations. Diverse experience
 Provides perspective that purely technical career paths lack. The most important thing is to keep
 Learning and keep building things.
 
@@ -18168,7 +18168,7 @@ nix develop  # Enter the development shell
 
 Spend time configuring your environment, but do not fall into the trap of endlessly tweaking your
 Config instead of doing actual work. A good dotfiles setup takes a few hours to set up and then gets
-Out of your way. If you are spending more time configuring your tools than using them, stop and ship
+out of your way. If you are spending more time configuring your tools than using them, stop and ship
 Something.
 
 ### Not Version-Controlling Dotfiles
@@ -18701,7 +18701,7 @@ When the embedded content is taller than the viewport:
 ### Docusaurus-Specific Wrapper
 
 This site uses a `godbolt-container` CSS class (though currently not defined in custom.css, add it
-If needed):
+if needed):
 
 ```css
 .godbolt-container {
@@ -18965,7 +18965,7 @@ Git, or A-Level notes, it probably lands here.
 ## How to Use These Notes
 
 These notes are written for personal reference first and public readability second. A few principles
-To keep in mind:
+to keep in mind:
 
 - **Search, do not browse linearly.** The general section is intentionally flat. Use the search bar
   or tags to find what you need rather than reading top-to-bottom.
@@ -18978,7 +18978,7 @@ To keep in mind:
 
 The rest of this knowledge base follows a curriculum-like structure: each language has numbered
 Chapters, each chapter has ordered pages. The General section intentionally breaks from that pattern
-Because its content is heterogeneous.
+because its content is heterogeneous.
 
 ### Directory Layout
 
@@ -19785,7 +19785,7 @@ Read CONTRIBUTING.md before your first contribution.
 
 Submitting a PR and then not responding to review feedback for weeks is a negative signal.
 Maintainers may close stale PRs. If you cannot address feedback promptly, communicate that (e.g., "I
-Will address this next week, currently traveling").
+will address this next week, currently traveling").
 
 ### Taking Rejection Personally
 
@@ -20007,7 +20007,7 @@ If your PR is closed without merge:
 Many potential contributors believe their code is "not good enough" to submit. This is a cognitive
 Bias, everyone's code has room for improvement. Submit imperfect code and let the review process
 Improve it. A beginner's PR with one issue fixed is infinitely more valuable than a perfect PR that
-Was never submitted.
+was never submitted.
 
 ### Contributing Only to Fix Your Own Bugs
 
@@ -20026,7 +20026,7 @@ Open source projects need more than code:
 - **Design:** Contributing to RFCs and design discussions.
 
 These contributions are often more valuable than code because they multiply the effectiveness of all
-Other contributors.
+other contributors.
 
 ## Monorepo vs Polyrepo for Open Source Projects
 
@@ -20153,7 +20153,7 @@ jobs:
 ## License Compatibility Matrix
 
 When contributing to open source, understanding license compatibility prevents legal issues for both
-You and the project. The most common licenses in systems software:
+you and the project. The most common licenses in systems software:
 
 | License        | Commercial Use | Modify | Distribute               | Patent Grant | Copyleft     |
 | -------------- | -------------- | ------ | ------------------------ | ------------ | ------------ |
@@ -20368,7 +20368,7 @@ The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) 
 ### Time Blocking
 
 Time blocking assigns specific time slots to specific tasks. This prevents the reactive mode where
-You spend the entire day responding to Slack messages and pull request reviews.
+you spend the entire day responding to Slack messages and pull request reviews.
 
 **Daily template for a systems engineer:**
 
@@ -20465,7 +20465,7 @@ Tool matters less than the system. Options include:
 ### Spaced Repetition
 
 Spaced repetition exploits the spacing effect, information is retained better when review is spaced
-Over increasing intervals. Tools like Anki automate this process.
+over increasing intervals. Tools like Anki automate this process.
 
 For technical learning, create flashcards for:
 
@@ -20797,13 +20797,13 @@ Hour can consume 50% of your productive time. Defend your deep work time aggress
 
 There is no later. If something is worth learning, schedule it now. The half-life of technical
 Knowledge is short, and the skills you defer learning today will be more expensive to learn tomorrow
-When you actually need them.
+when you actually need them.
 
 ### Note-Taking Without Reviewing
 
 Capturing information without reviewing it is not learning, it is hoarding. Schedule weekly review
 Sessions where you revisit your notes, reorganize them, and identify gaps. Spaced repetition tools
-Like Anki automate the review process.
+like Anki automate the review process.
 
 ### Measuring Productivity by Hours
 
@@ -20851,7 +20851,7 @@ This rule prevents small tasks from accumulating and becoming mental clutter.
 ### Atomic Notes
 
 The core unit in Zettelkasten is the atomic note, a single idea expressed in your own words. Rules
-For atomic notes:
+for atomic notes:
 
 1. **One idea per note.** If a note covers two ideas, split it.
 2. **Write in your own words.** Do not copy-paste from sources. Paraphrasing forces understanding.
@@ -21063,7 +21063,7 @@ Implement one idea from the book and track the results.
 ### Over-Tooling
 
 Using 20 different productivity apps creates more overhead than the productivity gains. Consolidate
-To a minimal toolset:
+to a minimal toolset:
 
 - Calendar (time blocking)
 - Task list (todo tracking)
@@ -21101,7 +21101,7 @@ Time    Energy    Best Activity Type
 ```
 
 Map your most cognitively demanding tasks to your peak energy windows. Use the lowest-energy periods
-For meetings and administrative work that does not require deep concentration.
+for meetings and administrative work that does not require deep concentration.
 
 ### The Two-Session Day
 
@@ -21131,7 +21131,7 @@ Batch all shallow tasks (email, Slack responses, PR reviews, CI triage) into spe
 ```
 
 The key insight is that every context switch has a cost. Research consistently shows that resuming
-An interrupted task takes 10-25 minutes of re-orientation time. Batching reduces the number of
+an interrupted task takes 10-25 minutes of re-orientation time. Batching reduces the number of
 Switches from potentially dozens per day to two or three.
 
 ## The Cornell Method for Technical Notes
@@ -21174,7 +21174,7 @@ After a learning session (reading documentation, watching a talk, debugging an i
 ## Zettelkasten for Technical Knowledge
 
 The Zettelkasten (slip-box) method is a note-taking system designed to facilitate emergent insights
-Through linkages between ideas. For engineers, it is particularly effective for building a knowledge
+through linkages between ideas. For engineers, it is particularly effective for building a knowledge
 Graph of debugging solutions, design patterns, and architecture decisions.
 
 ### Atomic Notes
@@ -21270,7 +21270,7 @@ Understanding by attempting to explain a concept in simple terms.
 
 "ZFS never overwrites data in place. When you modify a file, ZFS writes the new data to a new
 Location on disk and updates the metadata to point to the new location. The old data stays on disk
-Until the snapshot that references it is destroyed.
+until the snapshot that references it is destroyed.
 
 Think of it like a version control system for your entire filesystem. Every change creates a new
 'commit.' Old commits stay around until you explicitly delete them. This means you can always
@@ -21327,7 +21327,7 @@ anki --import /tmp/anki-import.txt --deck "Systems Engineering"
 
 Burnout in systems engineering is common because the role involves constant context switching,
 On-call responsibilities, and the stress of managing production systems where failures are visible
-And impactful.
+and impactful.
 
 ### The Burnout Cycle
 
@@ -21360,7 +21360,7 @@ Project, every on-call shift, and every request.
 ## Sustainable Productivity Metrics
 
 Avoid measuring productivity in terms of hours worked or lines of code. These are vanity metrics
-That encourage presenteeism over effectiveness.
+that encourage presenteeism over effectiveness.
 
 ### Better Metrics
 
@@ -21383,7 +21383,7 @@ Use a personal weekly review (30 minutes every Friday):
 
 Keep this private. The purpose is self-reflection, not reporting to management. Over time, you will
 Develop an intuitive sense of your sustainable output rate, which helps with realistic estimation
-And commitment management.
+and commitment management.
 
 ## Summary
 
@@ -21448,7 +21448,7 @@ URL: https://tools.wyattau.com/general/markdown-constructs/
 ### Headings
 
 Use `#` through `######`. Do not skip levels (e.g., jumping from `##` to `####`). The first heading
-In a page body should be `##` because Docusaurus uses the frontmatter `title` as the `h1`.
+in a page body should be `##` because Docusaurus uses the frontmatter `title` as the `h1`.
 
 ```md
 ## Level 2
@@ -21552,7 +21552,7 @@ Column alignment with colons:
 
 Tables that need complex cell content (code blocks, lists) will not render correctly in standard
 Markdown. For those cases, use the custom `.grid-table` CSS class with div-based structure, or use
-An MDX component.
+an MDX component.
 
 ### Task Lists
 
@@ -21573,7 +21573,7 @@ Here is a statement that needs a citation[^1].
 ```
 
 Footnotes support multiple references to the same note and can contain inline formatting, links, and
-Even code.
+even code.
 
 ### Definition Lists
 
@@ -21705,7 +21705,7 @@ System.out.println("Java code");
 ````
 
 Tabs support synchronization by `groupId`. Tabs with the same `groupId` across the page will switch
-In unison:
+in unison:
 
 ```mdx
 &lt;Tabs groupId="language"&gt; &lt;TabItem value="python" label="Python"&gt; ... &lt;/TabItem&gt;
@@ -22012,7 +22012,7 @@ git replace -d $(git replace -l)
 
 When you run `git replace A B`Git creates a ref at `refs/replace/A` pointing to `B`. During any
 Object lookup, Git checks whether the requested object has an entry under `refs/replace/`. If it
-Does, Git returns the replacement instead.
+does, Git returns the replacement instead.
 
 ```
 refs/replace/
@@ -22062,7 +22062,7 @@ git replace --graft <commit> <parent1> <parent2>
 
 :::note
 `refs/replace/`. They differ from the older `~/.git/info/grafts` mechanism, which was not ref-based
-And could not be pushed or shared.
+and could not be pushed or shared.
 
 ### Editing an Object for Replacement
 
@@ -22086,7 +22086,7 @@ Use cases for `--edit`:
 #### Rewriting History Without Rebase
 
 Suppose commit `abc1234` has a bad message, but it is 50 commits deep with many branches depending
-On it. An interactive rebase would be disruptive. Instead:
+on it. An interactive rebase would be disruptive. Instead:
 
 ```bash
 # Create a new commit with the same tree but different message
@@ -22168,7 +22168,7 @@ distributable.
 
 **Definition.** A Git note is a blob object associated with a specific commit, stored in a tree
 Under `refs/notes/commits`. The mapping from commit to note is maintained through a tree structure
-Where each path component corresponds to characters of the commit hash.
+where each path component corresponds to characters of the commit hash.
 
 ### Basic Syntax
 
@@ -22683,7 +22683,7 @@ The `text` attribute controls CRLF/LF conversion:
 
 :::note
 (not binary). Using `* text=auto eol=lf` in the root `.gitattributes` is the recommended practice
-For cross-platform projects. It normalizes committed files to LF while letting Windows developers
+for cross-platform projects. It normalizes committed files to LF while letting Windows developers
 Check out with CRLF if their `core.autocrlf` is set.
 
 ### Binary Detection
@@ -22999,7 +22999,7 @@ Fetched from as if they were a remote.
 
 **Definition.** A Git bundle is a self-contained binary file encoding a Git packfile and a ref
 Index. It represents a slice of repository history defined by a set of prerequisites (commits that
-Must already exist) and a set of included refs.
+must already exist) and a set of included refs.
 
 ### Creating Bundles
 
@@ -23143,7 +23143,7 @@ Use `git bundle create repo.bundle --all --reflog`.
 ### Overview
 
 `git worktree` manages multiple working directories linked to the same repository. Each worktree can
-Be checked out to a different branch, enabling parallel work without stashing or committing
+be checked out to a different branch, enabling parallel work without stashing or committing
 Incomplete changes.
 
 **Definition.** A linked worktree is a separate directory tree that shares the same object database,
@@ -23309,7 +23309,7 @@ $ make -C ../build-v2.4 release
 
 :::caution
 `git worktree remove`Git leaves stale administrative files. Run `git worktree prune` to clean them
-Up. The branch that was checked out in the deleted worktree may remain locked until you prune.
+up. The branch that was checked out in the deleted worktree may remain locked until you prune.
 
 ---
 
@@ -23327,7 +23327,7 @@ Up. The branch that was checked out in the deleted worktree may remain locked un
 ### Overview
 
 The reflog records every movement of branch tips and HEAD. It is Git's primary recovery mechanism
-For operations that seem destructive, such as `git reset --hard``git rebase`Or `git commit --amend`.
+for operations that seem destructive, such as `git reset --hard``git rebase`Or `git commit --amend`.
 
 ### Basic Syntax
 
@@ -23696,7 +23696,7 @@ $ git commit -m "Merge main into feature-branch"
 #### Long-Lived Feature Branches
 
 If a feature branch lives for weeks and you merge `main` into it regularly, the same conflicts tend
-To recur. `rerere` eliminates the need to resolve them repeatedly.
+to recur. `rerere` eliminates the need to resolve them repeatedly.
 
 #### Maintaining Patches Across Branches
 
@@ -24102,7 +24102,7 @@ $ git diff -- main src/file.c   # Diff between two commits/files (ambiguous with
 
 :::caution
 `git restore` for files. These modern commands eliminate the ambiguity that `git checkout` suffers
-From.
+from.
 
 ### Ambiguous Argument Errors
 
@@ -25312,7 +25312,7 @@ Cherry-pick is a surgical tool for transplanting individual commits between bran
 
 `git cherry-pick` applies the **diff** introduced by a specific commit onto the current branch as a
 **brand-new commit**. It does not move or copy the original commit object, it computes the patch
-That the source commit introduced (relative to its parent), then creates a new commit on the target
+that the source commit introduced (relative to its parent), then creates a new commit on the target
 Branch with that same patch applied.
 
 This distinction is critical. The original commit and the cherry-picked commit share the same
@@ -25333,7 +25333,7 @@ Topology.
 
 Internally, cherry-pick operates identically to a single-step rebase. `git cherry-pick <sha>` is
 Roughly equivalent to `git rebase --onto HEAD <sha>^ <sha>`. The difference is one of intent: rebase
-Is for moving an entire branch, cherry-pick is for selecting individual commits.
+is for moving an entire branch, cherry-pick is for selecting individual commits.
 
 ## Basic Usage
 
@@ -25455,7 +25455,7 @@ a3f2b1c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a
 This file exists for the same reason `MERGE_HEAD` exists during a merge, it tells Git (and any
 Tools reading the repository) that an operation is in progress and which commit is being applied.
 Git also sets `.git/MERGE_MSG` with the commit message from the cherry-picked commit, so the message
-Is preserved through conflict resolution.
+is preserved through conflict resolution.
 
 ### Resolving Conflicts
 
@@ -25495,7 +25495,7 @@ $ git cherry-pick --quit
 ```
 
 The difference between `--abort` and `--quit` matters when cherry-picking multiple commits. If you
-Are cherry-picking A, B, C and the conflict occurs at B:
+are cherry-picking A, B, C and the conflict occurs at B:
 
 - `--abort`: rolls back everything, including the successful cherry-pick of A.
 - `--quit`: keeps A's cherry-pick on the branch, drops the operation entirely (B and C are not
@@ -25521,7 +25521,7 @@ $ git cherry-pick --continue
 ## Cherry-Picking Merges
 
 Cherry-picking a merge commit is fundamentally different from cherry-picking a regular commit
-Because a merge commit has **two parents**. Git does not know which parent's changes you want, the
+because a merge commit has **two parents**. Git does not know which parent's changes you want, the
 Diff of a merge commit is relative to the first parent, but that may not be what you intend.
 
 ### The `--mainline` Flag
@@ -25669,13 +25669,13 @@ After cherry-pick of E onto main:
 
 `E'` on `main` and `E` on `feature` have no relationship in the DAG. `git log --graph` shows them as
 Unrelated commits. There is no merge base connecting them. This makes it difficult to answer "is
-This change already in main?" without manual inspection.
+this change already in main?" without manual inspection.
 
 ### Breaking git bisect
 
 Cherry-picked commits break `git bisect` because bisect relies on a clean linear history where each
 Commit represents a discrete state change. When the same logical change exists in multiple commits
-Across different branches:
+across different branches:
 
 1. Bisect may identify the cherry-picked commit as the culprit instead of the original.
 2. The original commit may be in a range that bisect never examines.
@@ -25843,12 +25843,12 @@ error: no signature found
 
 If `commit.gpgsign = true` is set in your configuration, Git signs the cherry-picked commit with
 **your** key, not the original author's key. This is correct behavior, you are the committer, and
-The signature proves that you (the committer) applied this change, not that the original author did.
+the signature proves that you (the committer) applied this change, not that the original author did.
 
 ### Preserving Author Information
 
 Cherry-pick always preserves the original author name, email, and author date. It sets the committer
-To you with the current timestamp:
+to you with the current timestamp:
 
 ```bash
 $ git log --format=fuller d4e5f6a
@@ -25906,7 +25906,7 @@ $ git cherry-pick a3f2b1c
 ```
 
 Git detects this and skips the commit with a message indicating it was already applied. However, if
-The commit was modified by a previous merge (conflict resolution changed the content), the
+the commit was modified by a previous merge (conflict resolution changed the content), the
 Cherry-pick may produce unexpected results, a non-empty commit with changes that duplicate or
 Conflict with existing code.
 
@@ -25925,7 +25925,7 @@ $ git cherry-pick B  # Dangerous: the revert context may not match
 ### Cherry-Pick Order Matters
 
 When cherry-picking multiple commits, the order must be topologically correct. Picking a commit
-Before its dependencies (commits it builds on) will produce conflicts or broken code:
+before its dependencies (commits it builds on) will produce conflicts or broken code:
 
 ```bash
 # Commit B depends on commit A (B calls a function introduced in A)
@@ -25957,7 +25957,7 @@ Abort the rebase first.
 
 Cherry-pick is a pragmatic tool, but overuse creates hidden dependencies between branches. If branch
 A relies on cherry-picks from branch B, and branch B is later rewritten or deleted, the provenance
-Of those changes is lost. Over time, the DAG becomes a web of disconnected commits with no clear
+of those changes is lost. Over time, the DAG becomes a web of disconnected commits with no clear
 Lineage. Prefer merge or rebase for structural changes; reserve cherry-pick for true hotfixes and
 Backports.
 
@@ -25965,7 +25965,7 @@ Backports.
 
 Cherry-picks are invisible in the branch topology. A merge shows up in `git log --graph`. A
 Cherry-pick does not. If you cherry-pick a fix to main, notify the team, especially the author of
-The original commit, who may not realize their fix is being applied elsewhere and may re-merge the
+the original commit, who may not realize their fix is being applied elsewhere and may re-merge the
 Same changes.
 
 
@@ -26065,7 +26065,7 @@ Cryptographic. But in an era of supply chain attacks, this design assumption is 
 
 Commit signing addresses all of these by binding a commit to a cryptographic key. The signature
 Covers the commit's entire content, tree hash, parent hashes, author, committer, message, making
-It tamper-evident. If any bit of the commit changes, the signature breaks.
+it tamper-evident. If any bit of the commit changes, the signature breaks.
 
 ### Identity Verification
 
@@ -26133,7 +26133,7 @@ $ gpg --full-generate-key
 ```
 
 The email address in the GPG key **must match** the email address in your Git configuration. GitHub
-And GitLab use email matching to associate signatures with accounts.
+and GitLab use email matching to associate signatures with accounts.
 
 ### Listing Keys
 
@@ -26223,7 +26223,7 @@ $ gpg --armor --export ABCDEF1234567890 | xclip -selection clipboard
 ## SSH Signing
 
 SSH signing (Git 2.34+) uses Ed25519 SSH keys to sign commits and tags. It is simpler than GPG
-Because it does not require `gpg-agent`A separate keyring, or a passphrase daemon. If you already
+because it does not require `gpg-agent`A separate keyring, or a passphrase daemon. If you already
 Use SSH for Git authentication, you likely already have a suitable key.
 
 ### Generating an SSH Signing Key
@@ -26292,7 +26292,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... git-signing
 | Revocation         | Revocation certificates                | Remove public key from server             |
 
 For new setups, SSH signing is recommended. It eliminates the entire `gpg-agent` complexity layer
-And works with infrastructure you already have.
+and works with infrastructure you already have.
 
 ## Signing Commits
 
@@ -26474,7 +26474,7 @@ There is no indication that the signature belongs to the author.
 
 GPG's Web of Trust (WoT) is complex and rarely used for Git signing in practice. GitHub and GitLab
 Use a simpler model: they check whether the public key is registered to the same account that owns
-The repository or is a trusted collaborator. If the key is unregistered or belongs to a different
+the repository or is a trusted collaborator. If the key is unregistered or belongs to a different
 Account, the commit shows as "Unverified."
 
 ```bash
@@ -26502,7 +26502,7 @@ A single GPG "master key" can have multiple subkeys, each with different capabil
 - **Authentication (A)**: Used for SSH authentication
 
 The master key should be kept offline (on an air-gapped machine or hardware token). Subkeys are used
-For daily operations. If a subkey is compromised, you revoke it and generate a new one, the master
+for daily operations. If a subkey is compromised, you revoke it and generate a new one, the master
 Key and its identity remain intact.
 
 ```bash
@@ -26819,7 +26819,7 @@ If they differ, either update your Git config or generate a new GPG key with the
 ### Forgetting to Set `gpg.format` When Switching to SSH
 
 If you previously used GPG and then switch to SSH signing, you must set `gpg.format = ssh`. Without
-It, Git tries to use GPG with an SSH public key file, which produces a cryptic error:
+it, Git tries to use GPG with an SSH public key file, which produces a cryptic error:
 
 ```
 error: gpg: can't open '/home/user/.ssh/git-signing-key.pub': No such file or directory
@@ -26853,7 +26853,7 @@ Person who rebased, not the original authors.
 ### Stale GPG Agent Passphrase Cache
 
 If you change your GPG passphrase but `gpg-agent` still has the old one cached, signing will fail
-With "bad passphrase." Kill and restart the agent:
+with "bad passphrase." Kill and restart the agent:
 
 ```bash
 gpgconf --kill gpg-agent
@@ -26864,7 +26864,7 @@ gpgconf --launch gpg-agent
 
 If your key is compromised and you don't have a revocation certificate, you cannot revoke it. The
 Key remains valid indefinitely. Generate the revocation certificate immediately after key creation
-And store it offline (encrypted USB drive, printed paper, password manager).
+and store it offline (encrypted USB drive, printed paper, password manager).
 
 ### Commits Appear Verified Locally but Not on GitHub
 
@@ -27428,7 +27428,7 @@ $ git filter-repo --path-glob '*.pem' --invert-paths
 ```
 
 The `--invert-paths` flag inverts the selection: `--path X --invert-paths` means "keep everything
-Except X." Without `--invert-paths``--path X` means "keep only X."
+except X." Without `--invert-paths``--path X` means "keep only X."
 
 After removing files, commits that become empty (they only touched the removed files) are also
 Removed. This is the desired behavior, but it can be surprising if you expected those Commits to
@@ -29052,7 +29052,7 @@ Cleanup.
 ### Actions Marketplace
 
 The [Actions Marketplace](https://github.com/marketplace?type=actions) provides community-maintained
-And official actions. First-party actions live under the `actions/` organization (e.g.,
+and official actions. First-party actions live under the `actions/` organization (e.g.,
 `actions/checkout@v4``actions/cache@v4``actions/upload-artifact@v4`). Third-party actions should Be
 audited for supply-chain security before adoption.
 
@@ -29070,7 +29070,7 @@ audited for supply-chain security before adoption.
 ## Basic Workflow Structure
 
 Every workflow file begins with `name` and `on` at the top level, followed by `jobs`. Each job has
-An identifier, runs on a `runs-on` runner, and contains an ordered list of `steps`.
+an identifier, runs on a `runs-on` runner, and contains an ordered list of `steps`.
 
 ### Minimal Anatomy
 
@@ -29216,7 +29216,7 @@ Pushed). This is critical for ensuring that CI re-runs when additional commits a
 ### Path Filtering
 
 Path filters limit execution to changes within specific directories or file patterns. A workflow
-With `paths` triggers only when at least one modified file matches the filter.
+with `paths` triggers only when at least one modified file matches the filter.
 
 ```yaml
 on:
@@ -29235,7 +29235,7 @@ on:
 ```
 
 Path filtering operates on the **full diff** against the base ref. On a pull request, the base is
-The target branch. On a push, the base is the previous commit on the same branch. For the first
+the target branch. On a push, the base is the previous commit on the same branch. For the first
 Commit on a new branch, all files are considered changed.
 
 ### Scheduled Triggers (Cron)
@@ -29250,7 +29250,7 @@ on:
 Cron syntax follows POSIX: `minute hour day-of-month month day-of-week`. GitHub Actions cron is not
 Guaranteed to run at the exact minute, scheduled workflows are queued and may be delayed under
 Heavy load. If a scheduled run is skipped due to infrastructure issues, GitHub does not re-schedule
-It.
+it.
 
 ### Manual Dispatch
 
@@ -29423,8 +29423,8 @@ jobs:
 ```
 
 When a new run is triggered with the same concurrency group key, `cancel-in-progress: true` aborts
-Any in-progress run sharing that key. Setting it to `false` (the default) queues the new run until
-The existing one completes.
+any in-progress run sharing that key. Setting it to `false` (the default) queues the new run until
+the existing one completes.
 
 For pull requests, use the PR number to scope concurrency:
 
@@ -29566,7 +29566,7 @@ Exceeds 10 GB. Branches can only access caches from the default branch or the sa
 ## Artifacts
 
 Artifacts are persistent files produced during a workflow run. Unlike caches, artifacts are intended
-For human consumption or cross-job data transfer and are retained after the run completes.
+for human consumption or cross-job data transfer and are retained after the run completes.
 
 ### Uploading Artifacts
 
@@ -29754,7 +29754,7 @@ jobs:
 ### Branch Protection Integration
 
 Branch protection rules can require specific workflow jobs to pass before allowing a merge. To use
-This:
+this:
 
 1. Navigate to **Settings &gt; Branches &gt; Branch protection rules**
 2. Select the target branch (e.g., `main`)
@@ -29915,7 +29915,7 @@ jobs:
 
 Blue-green deployment maintains two identical production environments. At any time, one is active
 ("blue") and the other is idle ("green"). A new release deploys to the idle environment, and traffic
-Is switched atomically.
+is switched atomically.
 
 ```yaml
 jobs:
@@ -30182,7 +30182,7 @@ jobs:
 ```
 
 Default `GITHUB_TOKEN` permissions are read-only. To grant write access, declare `permissions` at
-The workflow or job level:
+the workflow or job level:
 
 | Permission      | Scope                                  |
 | --------------- | -------------------------------------- |
@@ -30197,7 +30197,7 @@ The workflow or job level:
 ### Variables vs Secrets
 
 Variables (`vars`) are non-secret, plain-text configuration values stored alongside secrets. They
-Are appropriate for non-sensitive configuration such as deployment URLs, environment names, or
+are appropriate for non-sensitive configuration such as deployment URLs, environment names, or
 Feature flags.
 
 ```yaml
@@ -30374,12 +30374,12 @@ jobs:
 
 On pull requests from **forked repositories**, the `GITHUB_TOKEN` is read-only and severely
 Restricted regardless of the permissions declaration. This is a security measure to prevent fork PRs
-From exfiltrating secrets or modifying the upstream repository.
+from exfiltrating secrets or modifying the upstream repository.
 
 ### Action Version Pinning
 
 Pinning actions by tag (e.g., `@v4`) is convenient but vulnerable to supply-chain attacks if the tag
-Is moved. Pinning by commit SHA is the most secure approach:
+is moved. Pinning by commit SHA is the most secure approach:
 
 ```yaml
 # Less secure: tag-based (mutable)
@@ -30430,7 +30430,7 @@ GitHub-hosted runners have finite resources:
 | Network egress | ~250 Mbps             | Same                   |
 
 Long-running builds that compile large codebases, run heavy test suites, or process large datasets
-Should consider self-hosted runners or larger runner types.
+should consider self-hosted runners or larger runner types.
 
 ### Cost Management
 
@@ -30486,7 +30486,7 @@ Building a container image from a Dockerfile without running it).
 ### Mutable Checkout Ref on pull_request_target
 
 When using `pull_request_target`The default checkout is the base branch, not the PR head. To check
-Out the PR head:
+out the PR head:
 
 ```yaml
 - uses: actions/checkout@v4
@@ -30574,7 +30574,7 @@ Approximately $2^{63.1}$ computations (far below the theoretical $2^{80}$).
 
 **Does this affect Git?** Directly, not much. The attack required significant computational
 Resources ($\sim$6,500 CPU-years) and was specifically crafted for PDF files. However, it proved
-That SHA-1"s collision resistance is weaker than assumed, and future advances could make attacks
+that SHA-1"s collision resistance is weaker than assumed, and future advances could make attacks
 Cheaper.
 
 ### Git's Defenses Against Collision Attacks
@@ -30618,7 +30618,7 @@ $ git config core.repositoryFormatVersion
 ### Migration Challenges
 
 Migrating an existing repository from SHA-1 to SHA-256 is **not currently supported** by Git. This
-Is because:
+is because:
 
 1. **Every object hash changes**: All blobs, trees, commits, and tags get new hashes.
 2. **All references break**: Branches, tags, remotes. Everything must be updated.
@@ -30656,7 +30656,7 @@ $ git init --object-format=sha256
 ```
 
 This provides future-proofing at essentially zero cost (the slight speed difference is negligible
-For most workflows).
+for most workflows).
 
 ### For Existing Projects
 
@@ -30689,7 +30689,7 @@ Far-reaching:
 
 The trade-off is that Git cannot efficiently store files that change slightly and frequently (e.g.,
 Large binary files, databases). This is why Git LFS exists, it stores the large file content
-Outside the object store and tracks only a pointer.
+outside the object store and tracks only a pointer.
 
 ## Common Pitfalls
 
@@ -30756,7 +30756,7 @@ Git hooks are automation points that fire at specific moments in the Git workflo
 
 Git hooks are scripts that Git executes automatically before or after specific events in the
 Repository lifecycle, commits, pushes, rebases, checkouts, and so on. They live at the boundary
-Between your workflow and Git's internal state machine, and they are the primary mechanism for
+between your workflow and Git's internal state machine, and they are the primary mechanism for
 Enforcing local policy without requiring a central server.
 
 ### When Hooks Run
@@ -30980,7 +30980,7 @@ curl -s -X POST "https://ci.example.com/hooks/git" \
 
 The `pre-rebase` hook runs before `git rebase` begins. It receives two arguments: the upstream
 Branch and the branch being rebased. You can use it to prevent rebasing branches that should never
-Be rebased:
+be rebased:
 
 ```bash
 #!/usr/bin/env bash
@@ -31080,7 +31080,7 @@ fi
 
 Server-side hooks live in the bare repository on the remote. They execute within the
 `git-receive-pack` process on the server. A client cannot bypass them because the server controls
-The filesystem.
+the filesystem.
 
 ### pre-receive
 
@@ -31296,7 +31296,7 @@ export PATH="/usr/local/bin:$HOME/.local/bin:$HOME/.nvm/versions/node/$(ls $HOME
 Hooks in `.git/hooks/` are not tracked by Git. They are local to each clone. This means every
 Developer on a team must manually install and maintain their own hooks. This is unmaintainable at
 Scale. The industry has converged on two solutions: store hooks in the repository and redirect Git
-To them, or use a framework.
+to them, or use a framework.
 
 ### Redirecting with core.hooksPath
 
@@ -31582,7 +31582,7 @@ Legitimate uses of `--no-verify`:
 
 Files in `.git/hooks/` are ignored by Git. If you want version-controlled hooks, you must use
 `core.hooksPath` to point to a tracked directory. Forgetting this and wondering why teammates don't
-Have your hooks is the single most common hook-related mistake.
+have your hooks is the single most common hook-related mistake.
 
 ### Non-Executable Hook Files
 
@@ -31605,7 +31605,7 @@ found. Always explicitly set `PATH` or use absolute paths to tools in your hook 
 ### pre-commit Sees Staged Content, Not Working Tree
 
 If you edit a file after staging it, the hook inspects the **staged** version. This causes confusion
-When developers run `git add file.py`Then fix a lint error, then commit, the hook still sees the
+when developers run `git add file.py`Then fix a lint error, then commit, the hook still sees the
 Old staged content. Run `git add` again after fixing.
 
 ### Hooks Do Not Apply to Amended Commits by Default
@@ -31632,7 +31632,7 @@ Want to reject some refs but accept others, use the `update` hook instead, which
 
 The `pre-commit` framework creates isolated virtual environments for each hook repository. This
 Means hooks run with their own dependencies, not your project's dependencies. If a hook needs access
-To your project's Python environment, use `language: system` and manage dependencies yourself.
+to your project's Python environment, use `language: system` and manage dependencies yourself.
 
 ### Hook Performance and Large Monorepos
 
@@ -31844,7 +31844,7 @@ URL: https://tools.wyattau.com/git/01-intro/
 ## What is Git
 
 Git is a **distributed version control system** (DVCS) designed to track changes in source code
-During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a
+during software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a
 Single server holds the authoritative repository, Git treats every clone as a **fully-fledged
 Repository** with complete history. There is no intrinsic distinction between a "server" and a
 "client"; the difference is purely social (who pushes where).
@@ -31881,7 +31881,7 @@ The cost is **disk space**, a full clone of the Linux kernel is $\sim$5 GB. Miti
 
 Most VCS (CVS, Subversion, Perforce) store a series of **deltas**: file $v_2$ is expressed as "file
 $v_1$ with these lines changed." Git instead stores **full snapshots** of the entire project tree at
-Each commit. If a file has not changed between two commits, Git does not store it again, it stores
+each commit. If a file has not changed between two commits, Git does not store it again, it stores
 A pointer to the identical blob object.
 
 This design choice has deep implications:
@@ -31895,14 +31895,14 @@ This design choice has deep implications:
   makes it robust against complex history topologies.
 
 The cost is that Git's object store can appear larger than a delta-based store for repositories with
-Very large files that change frequently. This is why Git added the packfile format (see
+very large files that change frequently. This is why Git added the packfile format (see
 [Internals: Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/)) to
 Compress objects using delta compression between similar objects.
 
 ### 3. Strong Integrity Guarantees
 
 Every Git object (blob, tree, commit, tag) is identified by a cryptographic hash of its **content
-Plus header**. This means:
+plus header**. This means:
 
 - **Tamper detection**: If a single byte in any object is modified, its hash changes, and all
   objects referencing it become invalid. `git fsck` can detect this.
@@ -32017,7 +32017,7 @@ flowchart TB
 ```
 
 These three areas, **working directory**, **index**, and **repository**, form the foundation of
-Every Git operation. Understanding the transitions between them is essential. See
+every Git operation. Understanding the transitions between them is essential. See
 [The Three Trees](/git/02-fundamentals/01-the-three-trees/) for a deep dive.
 
 ## Guide Structure
@@ -32090,7 +32090,7 @@ URL: https://tools.wyattau.com/git/03-branching-and-merging/02-merging/
 ## The Merge Operation
 
 Merging is the process of combining the changes from one branch into another. Git's merge algorithm
-Is one of its most sophisticated features, it can automatically resolve many cases where both
+is one of its most sophisticated features, it can automatically resolve many cases where both
 Branches have modified different files or different parts of the same file.
 
 ### What `git merge` Actually Does
@@ -32153,12 +32153,12 @@ The algorithm works **file by file, hunk by hunk**:
 | `x`  | `y`  | `z`    | **Conflict** | Both changed differently, manual resolution required |
 
 The critical case is the last row: when both branches modify the same region of the same file. This
-Is a **merge conflict**.
+is a **merge conflict**.
 
 ### Finding the Common Ancestor
 
 Git finds the base commit by computing the **lowest common ancestor** (LCA) of the two branch tips
-In the commit DAG. This is not trivial when the history contains multiple merge bases (criss-cross
+in the commit DAG. This is not trivial when the history contains multiple merge bases (criss-cross
 Merges):
 
 ```mermaid
@@ -32406,7 +32406,7 @@ git rebase main
 ### 2. Keep Feature Branches Short-Lived
 
 Long-lived branches accumulate conflicts. A feature branch should ideally exist for no more than a
-Few days. If a feature is large, break it into smaller, independently mergeable pieces.
+few days. If a feature is large, break it into smaller, independently mergeable pieces.
 
 ### 3. Use `--no-ff` for Feature Merges
 
@@ -32725,7 +32725,7 @@ The framework provides:
 
 The `pre-commit` framework is not the same as the `pre-commit` Git hook. The framework installs
 Itself as the `pre-commit` hook in `.git/hooks/` and then orchestrates all configured hooks from
-There. One hook file delegates to many.
+there. One hook file delegates to many.
 
 ## Installation
 
@@ -32919,7 +32919,7 @@ This is how conventional commit validators work.
 ### Local Hooks
 
 The special `repo: local` entry defines hooks that run directly on the host system without cloning
-An external repository:
+an external repository:
 
 ```yaml
 repos:
@@ -32943,7 +32943,7 @@ repos:
 ## Built-in Hooks
 
 The `pre-commit-hooks` repository (`https://github.com/pre-commit/pre-commit-hooks`) is maintained
-By the pre-core team and provides the most widely-used hooks. Pin to a specific tag:
+by the pre-core team and provides the most widely-used hooks. Pin to a specific tag:
 
 ```yaml
 repos:
@@ -33086,7 +33086,7 @@ repos:
 
 **Note**: The `mirrors-*` repositories are maintained by the pre-commit team and provide pre-built
 Hooks for tools that do not natively support the pre-commit framework. For ESLint, you may also use
-The npm-based approach with `language: node` and `additional_dependencies`.
+the npm-based approach with `language: node` and `additional_dependencies`.
 
 ### Shell Scripts
 
@@ -33220,7 +33220,7 @@ repos:
 ```
 
 The `language: script` type means the entry point is a script that will be executed directly. It
-Must be executable (`chmod +x`).
+must be executable (`chmod +x`).
 
 ### Python Hook
 
@@ -33282,7 +33282,7 @@ repos:
 ### System Language Hooks
 
 The `language: system` type runs the entry command directly on the host. This is useful for tools
-That are already installed globally:
+that are already installed globally:
 
 ```yaml
 repos:
@@ -33393,7 +33393,7 @@ $ pre-commit run --from-ref origin/main --to-ref HEAD
 ### Updating Hook Environments
 
 When you modify `.pre-commit-config.yaml` (add a new hook, change a version), the framework detects
-The change and reinstalls affected hooks on the next run:
+the change and reinstalls affected hooks on the next run:
 
 ```bash
 # Force reinstall all hook environments
@@ -33592,7 +33592,7 @@ jobs:
 ### Hooks Run on Staged Content, Not the Working Tree
 
 This is the most common source of confusion. The `pre-commit` framework stages files internally
-Before running hooks. If you edit a file after staging it, the hook sees the **staged** version, not
+before running hooks. If you edit a file after staging it, the hook sees the **staged** version, not
 Your latest edit. Fix: run `git add` again after editing.
 
 ### The Framework Creates Isolated Virtual Environments
@@ -33615,13 +33615,13 @@ git commit --no-verify -m "skip hooks"
 
 This bypasses all hooks. The framework cannot prevent this, it is a fundamental limitation of
 Client-side hooks. If you need to enforce hook execution, run `pre-commit run --all-files` in CI. CI
-Is the enforcement layer; local hooks are the convenience layer.
+is the enforcement layer; local hooks are the convenience layer.
 
 ### `--all-files` in CI Masks Incremental Issues
 
 Running `pre-commit run --all-files` in CI checks every file, not just the changed ones. This is
 Correct for CI (you want to catch all issues), but it means a CI failure may be caused by a file
-That was not modified in the PR. Use `--from-ref origin/main --to-ref HEAD` to limit CI checks to
+that was not modified in the PR. Use `--from-ref origin/main --to-ref HEAD` to limit CI checks to
 Changed files only.
 
 ### Mirror Repositories Can Be Outdated
@@ -33661,7 +33661,7 @@ chmod +x scripts/check-no-debug.sh
 ### The `exclude` Pattern Applies to the Full File Path
 
 When you write `exclude: 'vendor/'`It matches the full path relative to the repository root, not
-Just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
+just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
 `pre-commit run --verbose` to see which files are being passed to each hook.
 
 
@@ -34437,7 +34437,7 @@ URL: https://tools.wyattau.com/git/02-fundamentals/03-references/
 
 A reference (or "ref") is a named pointer to a Git object, almost always a commit. References are
 What make Git's object graph navigable. Without them, commits would exist as isolated objects with
-No way to find them (except by hash).
+no way to find them (except by hash).
 
 References are stored as plain text files under `.git/refs/`Each containing a 40-character SHA-1
 Hash:
@@ -34555,13 +34555,13 @@ Saving the commit hash.
 
 Tags are references stored at `.git/refs/tags/<tag-name>`. Unlike branches, tags **do not move**
 When new commits are created, they are static pointers. See [Git Objects](/git/02-fundamentals/02-git-objects/) for
-The distinction between lightweight and annotated tags.
+the distinction between lightweight and annotated tags.
 
 ### Remote References
 
 Remote-tracking references are stored at `.git/refs/remotes/<remote>/<branch>` and represent the
 State of branches on a remote repository as of the last `git fetch`. They are updated automatically
-By `git fetch` and `git pull`But **never** by local commits.
+by `git fetch` and `git pull`But **never** by local commits.
 
 ```bash
 # Show remote-tracking branches
@@ -34686,8 +34686,8 @@ $ git reset --hard HEAD@{3}  # Go back to the state 3 operations ago
 ### Reflog Expiry
 
 Reflog entries expire after 90 days by default (configurable via `gc.reflogExpire`). Expired entries
-Are pruned by `git gc`. Objects referenced only by expired reflog entries become unreachable and may
-Be garbage-collected.
+are pruned by `git gc`. Objects referenced only by expired reflog entries become unreachable and may
+be garbage-collected.
 
 ```bash
 # Change reflog expiry
@@ -34702,7 +34702,7 @@ See [Reflog](/git/05-advanced-topics/01-reflog/) for a deeper treatment.
 ## Symbolic References
 
 A **symbolic reference** (or "symref") is a reference that points to another reference, rather than
-To an object. `HEAD` is the canonical example, it points to a branch ref, which in turn points to a
+to an object. `HEAD` is the canonical example, it points to a branch ref, which in turn points to a
 Commit.
 
 ```bash
@@ -35688,12 +35688,12 @@ They can be used independently or combined for maximum efficiency.
 
 Sparse checkout allows you to check out only a subset of the repository"s directories into your
 Working tree. The repository still contains all objects (commits, trees, blobs), the working tree
-Is a filtered view of the tree at HEAD.
+is a filtered view of the tree at HEAD.
 
 ### Cone Mode (Default Since Git 2.37)
 
 Cone mode is the modern and recommended approach. It works with directories (not file patterns) and
-Is significantly faster than non-cone mode because Git can use directory-based pathspec matching
+is significantly faster than non-cone mode because Git can use directory-based pathspec matching
 Instead of evaluating every pattern against every file.
 
 ```bash
@@ -35721,7 +35721,7 @@ Filtered.
 ### How Cone Mode Works
 
 Cone mode treats the specified directories as "root" directories. Everything under those directories
-Is included, and everything outside them is excluded. The matching is directory-level, not
+is included, and everything outside them is excluded. The matching is directory-level, not
 File-level.
 
 ```
@@ -35754,7 +35754,7 @@ Specific directories are included.
 ### Non-Cone Mode (Legacy)
 
 Non-cone mode accepts arbitrary gitignore-style patterns. It is slower because Git must evaluate
-Every file path against every pattern on every checkout operation. It is retained for backward
+every file path against every pattern on every checkout operation. It is retained for backward
 Compatibility but should not be used for new projects.
 
 ```bash
@@ -35772,7 +35772,7 @@ docs/*.md
 
 The performance difference between cone and non-cone mode is significant. On a repository with 500K
 Files, cone mode evaluates patterns in milliseconds. Non-cone mode with complex patterns can take
-Several seconds.
+several seconds.
 
 ### Disabling Sparse Checkout
 
@@ -35892,7 +35892,7 @@ When you create a partial clone, Git writes the filter configuration to `.git/co
 
 The `extensions.partialClone = origin` line tells Git that the `origin` remote supports lazy
 Fetching. When Git encounters a missing object, it checks whether a promisor remote exists, and if
-So, fetches the object from that remote.
+so, fetches the object from that remote.
 
 ### Fetching with Filters
 
@@ -36001,8 +36001,8 @@ $ git sparse-checkout add src/backend
 ## Promisor Objects
 
 A **promisor object** is an object that Git knows exists (because it saw a reference to it in a tree
-Or commit) but has not yet downloaded. It is a placeholder that promises the object can be fetched
-From a promisor remote.
+or commit) but has not yet downloaded. It is a placeholder that promises the object can be fetched
+from a promisor remote.
 
 ### How Promisor Objects Work
 
@@ -36068,12 +36068,12 @@ origin
 ```
 
 If you delete this config, Git will not attempt to lazy-fetch missing objects, and any operation
-That needs a missing object will fail with "bad object."
+that needs a missing object will fail with "bad object."
 
 ## Shallow Clones vs Partial Clones
 
 Shallow clones (`--depth`) and partial clones (`--filter`) are often confused because both reduce
-The initial download size. They solve different problems.
+the initial download size. They solve different problems.
 
 ### Shallow Clones (--depth)
 
@@ -36281,7 +36281,7 @@ build_frontend:
 ### Trying to Use Partial Clone with an Old Git Version
 
 Partial clone requires Git 2.22+ on the client and Git 2.22+ with protocol v2 on the server. Using
-An older client produces confusing errors:
+an older client produces confusing errors:
 
 ```bash
 $ git clone --filter=blob:none https://github.com/org/repo.git
@@ -36322,7 +36322,7 @@ $ git log --oneline -- src/frontend/
 
 A common misconception is that sparse checkout reduces the `.git` directory size. It does not. All
 Objects (commits, trees, blobs) are downloaded regardless of the sparse checkout configuration. Only
-The working tree is smaller.
+the working tree is smaller.
 
 ```bash
 $ git clone https://github.com/org/monorepo.git
@@ -36365,7 +36365,7 @@ $ npm run build   # Now succeeds
 ### Partial Clone Breaks When Offline
 
 Promisor objects cannot be fetched when you are offline. Any operation that needs a missing blob
-Will fail:
+will fail:
 
 ```bash
 # You are offline (no network)
@@ -36977,7 +36977,7 @@ parent-repo/
 ```
 
 There is no `.gitmodules` file. There is no `.git` directory inside `vendor/lib/`. The files exist
-As normal blobs in the parent repository's object database. Any Git operation on the parent
+as normal blobs in the parent repository's object database. Any Git operation on the parent
 (touching files in `vendor/lib/`Committing changes, branching, merging) works exactly the same as It
 would for any other directory.
 
@@ -37167,7 +37167,7 @@ Upstream repositories.
 
 Only changes under the specified prefix are pushed. Changes in other directories of the parent
 Repository are not included. The push creates a linear history on the upstream branch containing
-Only commits that touched files in the subtree directory.
+only commits that touched files in the subtree directory.
 
 ### The `--squash` Complication
 
@@ -37278,7 +37278,7 @@ Parent. This enables subsequent `git subtree push` operations to find the correc
 ### Recovering from a Split Gone Wrong
 
 If a split produces unexpected results (wrong files, missing commits), delete the temporary branch
-And try again:
+and try again:
 
 ```bash
 git branch -D lib-only
@@ -37433,15 +37433,15 @@ Significant pain later.
 
 **Recommendation**: Use `--squash` for one-way dependencies (you pull from upstream but never push
 Back). Use full history for bidirectional workflows (you both pull and push). This decision should
-Be made at the time of `git subtree add` and must remain consistent, mixing squashed and
-Non-squashed operations on the same subtree leads to conflicts.
+be made at the time of `git subtree add` and must remain consistent, mixing squashed and
+non-squashed operations on the same subtree leads to conflicts.
 
 ### Merge Conflicts on Pull
 
 If you modified files in the subtree directory and the upstream also modified those same files,
 `git subtree pull` produces merge conflicts. The conflict resolution is a standard Git merge
 Conflict, edit the files, stage them, commit. But the experience is worse than a normal merge
-Because:
+because:
 
 - The conflict markers appear in files you may not fully understand (they are upstream code).
 - If you used `--squash`The conflict is between your local changes and a squash commit containing
@@ -37464,7 +37464,7 @@ Mitigate by:
 ### Forgetting the Remote URL
 
 The `git subtree pull` and `git subtree push` commands require the repository URL every time. If you
-Do not add a named remote, you must type the full URL on every command, and it must match exactly
+do not add a named remote, you must type the full URL on every command, and it must match exactly
 What you used for `git subtree add`:
 
 ```bash
@@ -37483,21 +37483,21 @@ $ git subtree pull --prefix=vendor/lib --squash lib-upstream main
 
 `git subtree split` replays every commit in the repository's history that touched the prefix. On a
 Repository with 100,000 commits, this can take 10+ minutes. There is no way to speed this up, it is
-An inherent limitation of the algorithm. If you need to split frequently, consider using
+an inherent limitation of the algorithm. If you need to split frequently, consider using
 `git filter-repo` instead, which is significantly faster.
 
 ### Concurrent Pushes from Multiple Parent Repos
 
 If two parent repositories both use subtrees pointing to the same upstream, and both push changes,
 The upstream will have conflicting histories. Git cannot resolve this automatically. The second push
-Will fail with a non-fast-forward error, and the pusher must pull, resolve conflicts, and push
+will fail with a non-fast-forward error, and the pusher must pull, resolve conflicts, and push
 Again. This is fundamentally a coordination problem, subtrees assume a single source of truth for
-The upstream.
+the upstream.
 
 ### Deleting and Re-adding a Subtree
 
 If you `git rm -rf vendor/lib` and later `git subtree add --prefix=vendor/lib` again, the framework
-Cannot reuse the previous history. The new subtree add starts fresh. If you need to re-add a
+cannot reuse the previous history. The new subtree add starts fresh. If you need to re-add a
 Subtree, consider whether `git subtree pull` (to update the existing subtree) is what you actually
 Want.
 
@@ -38001,7 +38001,7 @@ Becomes tedious with frequent Git operations, which is why `ssh-agent` exists.
 
 `ssh-agent` is a daemon that holds your decrypted private keys in memory. Once you add a key to the
 Agent and authenticate once (entering the passphrase), subsequent SSH connections use the cached key
-Without prompting.
+without prompting.
 
 ```bash
 # Start ssh-agent (or verify it is running)
@@ -38030,7 +38030,7 @@ $ ssh-add -D
 #### Persisting ssh-agent Across Sessions
 
 On Linux, `ssh-agent` does not persist across reboots or terminal sessions. You must start it in
-Each session, or configure your shell to auto-start it:
+each session, or configure your shell to auto-start it:
 
 ```bash
 # Add to ~/.bashrc or ~/.zshrc
@@ -38046,7 +38046,7 @@ Windows, the OpenSSH Agent service handles this automatically.
 #### ssh-agent Lifetime
 
 The agent retains keys in RAM until it exits or the keys are explicitly removed. For security, you
-Can set a lifetime:
+can set a lifetime:
 
 ```bash
 # Add key with a 1-hour lifetime
@@ -38057,7 +38057,7 @@ $ ssh-add -t 4h ~/.ssh/id_ed25519
 ```
 
 After the lifetime expires, the key is removed from the agent and you must re-add it (re-entering
-The passphrase).
+the passphrase).
 
 ### Adding the Public Key to a Hosting Platform
 
@@ -38254,7 +38254,7 @@ $ git push origin main
 
 HTTPS authentication to GitHub and GitLab uses Personal Access Tokens (PATs) instead of passwords.
 GitHub deprecated password authentication for Git operations in August 2021 (and removed it entirely
-In August 2022). GitLab deprecated it in 2022.
+in August 2022). GitLab deprecated it in 2022.
 
 A PAT is a long-lived token (configurable expiry) that acts as a bearer credential for API and Git
 Operations. It can be scoped to limit its permissions.
@@ -38302,7 +38302,7 @@ $ git clone https://user:ghp_xxxx@github.com/user/repo.git
 ```
 
 Embedding tokens directly in URLs is insecure. The token is stored in plaintext in `.git/config` and
-Is visible in `ps aux` output. Always use credential helpers instead.
+is visible in `ps aux` output. Always use credential helpers instead.
 
 ### Switching Between Protocols
 
@@ -38373,7 +38373,7 @@ Prompts the user. If no helper is configured, Git falls back to prompting on the
 #### git-credential-cache (In-Memory)
 
 Stores credentials in memory for a configurable duration. The daemon runs as a background process
-And is shared across all terminal sessions.
+and is shared across all terminal sessions.
 
 ```bash
 # Enable with 15-minute default timeout
@@ -38435,7 +38435,7 @@ $ git config --global credential.helper /usr/lib/git-core/git-credential-libsecr
 #### git-credential-manager-core (Cross-Platform)
 
 Git Credential Manager Core (GCM Core) is maintained by GitHub and supports multiple backends. It is
-The default credential helper on Windows when you install Git for Windows.
+the default credential helper on Windows when you install Git for Windows.
 
 ```bash
 # Install on Linux
@@ -38542,11 +38542,11 @@ $ git -c protocol.version=1 ls-remote origin
 
 For typical operations, the performance difference between v1 and v2 is modest (5-15% faster for
 `fetch` on repos with thousands of refs). For monorepos with hundreds of thousands of refs, v2 can
-Be 3-5x faster for the initial ref advertisement phase.
+be 3-5x faster for the initial ref advertisement phase.
 
 The real performance win comes from **packfile URIs**, in v2, the server can return a URI for the
 Packfile alongside a thin pack, allowing the client to download the bulk data from a CDN rather than
-The Git server directly. This is used by GitHub and GitLab to reduce load on their origin servers.
+the Git server directly. This is used by GitHub and GitLab to reduce load on their origin servers.
 
 ## When to Use SSH vs HTTPS
 
@@ -38715,7 +38715,7 @@ $ git config --global credential.helper cache
 ### Committing SSH Private Keys to a Repository
 
 The private key file (`id_ed25519``id_rsa`) must never be committed. It provides full access to
-Every service where the public key is registered.
+every service where the public key is registered.
 
 ```bash
 # Add SSH keys to .gitignore (belt and suspenders)
@@ -39535,21 +39535,21 @@ URL: https://tools.wyattau.com/licensing/intro/
 ## What Software Licensing Is
 
 Every piece of software you write, compile, or deploy is subject to copyright law by default. Under
-The Berne Convention (implemented in the US via the Copyright Act of 1976), copyright attaches
+the Berne Convention (implemented in the US via the Copyright Act of 1976), copyright attaches
 Automatically the moment an original work is fixed in a tangible medium of expression, no
 Registration required, no notice required. This means that without an explicit license, nobody else
-Has any legal right to copy, modify, distribute, or use your software. The default state of all
+has any legal right to copy, modify, distribute, or use your software. The default state of all
 Software is "all rights reserved."
 
 A software license is the legal instrument that grants specific permissions to others. It does not
 Transfer ownership of the copyright; it grants a limited set of rights (a license) under specific
 Conditions. Understanding this distinction is critical: the copyright holder retains ownership and
-Can revoke the license (for non-perpetual grants) or enforce compliance with the license terms
-Through copyright infringement claims.
+can revoke the license (for non-perpetual grants) or enforce compliance with the license terms
+through copyright infringement claims.
 
 Intellectual property (IP) law is the foundation. Software is protectable under copyright (the
 Specific expression of code), potentially under patent law (novel algorithms or processes, though
-This is jurisdiction-dependent and controversial), and under trade secret law (if the code is kept
+this is jurisdiction-dependent and controversial), and under trade secret law (if the code is kept
 Confidential). Licenses operate primarily within the copyright framework but increasingly include
 Patent provisions to address the intersection of copyright and patent rights in software.
 
@@ -39582,7 +39582,7 @@ GPLv3.
 
 **Network copyleft (AGPL)**, Extends strong copyleft obligations to network interactions. If users
 Interact with the software over a network, you must provide the source to those users. This closes
-The "ASP loophole" (Application Service Provider loophole) that existed in GPLv2 and GPLv3, where
+the "ASP loophole" (Application Service Provider loophole) that existed in GPLv2 and GPLv3, where
 Hosting software as a service did not trigger distribution requirements because no copy was being
 Conveyed.
 
@@ -39594,7 +39594,7 @@ Include fallback provisions.
 ## Copyleft vs Permissive: Philosophy and Practice
 
 The philosophical divide between copyleft and permissive licensing mirrors a deeper disagreement
-About the purpose of software freedom:
+about the purpose of software freedom:
 
 **Permissive licensing** (associated with the Open Source Initiative and the "open source" movement)
 Treats software freedom as a practical benefit. The goal is maximal adoption and reuse. If a company
@@ -39604,9 +39604,9 @@ Release, and the author"s goal of broad adoption is served.
 
 **Copyleft licensing** (associated with the Free Software Foundation and the "free software"
 Movement) treats software freedom as a moral imperative. The goal is to ensure that software freedom
-Is preserved in all downstream uses. If a company takes GPL-licensed code and ships it in a
+is preserved in all downstream uses. If a company takes GPL-licensed code and ships it in a
 Closed-source product without providing source, that is a violation of the license and a violation
-Of the user's freedom.
+of the user's freedom.
 
 In practice, this translates to different risk profiles for downstream consumers:
 
@@ -39624,7 +39624,7 @@ Decisions that have licensing implications every day:
 Other package registry carries a license. If you ship a product that includes a GPLv3-licensed
 Dependency, your entire product may need to be distributed under GPLv3, and if you cannot do that
 (because your product includes proprietary components), you cannot ship the product at all. You need
-To know what is in your dependency tree and what obligations those licenses impose. This is not a
+to know what is in your dependency tree and what obligations those licenses impose. This is not a
 Theoretical concern: companies have been forced to rewrite products to remove GPL dependencies after
 Failing to audit their license obligations.
 
@@ -39639,18 +39639,18 @@ Contributor License Agreement (CLA) or agree to a Developer Certificate of Origi
 Understand what rights you are granting, whether your employer retains rights to your contribution
 (check your employment contract, many employment agreements assign all intellectual property
 Created during employment to the employer), and whether the project's license allows your employer
-To use your contribution.
+to use your contribution.
 
 **Corporate policy.** Many organizations maintain approved license lists that categorize licenses
 Into tiers (e.g., "green" for permissive, "yellow" for LGPL, "red" for GPL/AGPL). GPLv3 and AGPLv3
-Are frequently banned or restricted in enterprise environments because of the risk they pose to
+are frequently banned or restricted in enterprise environments because of the risk they pose to
 Proprietary products and SaaS deployments. Understanding why these restrictions exist helps you make
 Better dependency choices and avoid introducing compliance risk.
 
 **Containerization and distribution.** Shipping a Docker image that bundles multiple dependencies
 Raises the question: does distributing a container count as distributing the software inside it? The
 Answer is almost certainly yes, a container image is a distributable artifact that contains copies
-Of the software. This triggers copyleft obligations for any GPL-licensed components in the image,
+of the software. This triggers copyleft obligations for any GPL-licensed components in the image,
 And it means license notices must be included.
 
 ## License Compatibility
@@ -39671,7 +39671,7 @@ Apache 2.0 patent retaliation terms are "additional restrictions" that GPLv2 pro
 
 When licenses are incompatible, you cannot legally distribute the combined work. This is a hard
 Constraint, not a soft guideline. Mixing incompatible licenses is one of the most dangerous things
-You can do in a software project because it means either you must remove one of the incompatible
+you can do in a software project because it means either you must remove one of the incompatible
 Components or you are committing copyright infringement.
 
 ## Key Terminology
@@ -39689,7 +39689,7 @@ Limits copyleft to the file level.
 Copyright law, distribution is one of the exclusive rights of the copyright holder (17 U.S.C. §
 106(3)). Under GPLv3, this concept is called "conveying" (Section 4), which is defined more
 Precisely than GPLv2's "distribution" to cover any form of propagation that would make you directly
-Or secondarily liable for infringement. Distribution involves transferring a copy, whether By
+or secondarily liable for infringement. Distribution involves transferring a copy, whether By
 physical media, electronic download, or (under AGPL) making the software available over a Network.
 
 **Sublicense.** To grant rights to a third party that are a subset of (or equal to) the rights you
@@ -39718,7 +39718,7 @@ Requirement being met.
 **Viral license.** A pejorative term for copyleft licenses, referring to the way copyleft
 Obligations propagate from the licensed work to derivative works. While commonly used in industry
 Discourse, the term is misleading. Copyleft is not a virus; it is a conditional grant of rights. If
-You do not want the conditions (i.e., you do not want to release your derivative work under the same
+you do not want the conditions (i.e., you do not want to release your derivative work under the same
 License), you can decline the license, but then you have no right to copy, modify, or Distribute
 the software at all.
 
@@ -39728,7 +39728,7 @@ Already provides. CLAs range from simple grants of permission to use the contrib
 Already implied by submitting it under the project's license) to full copyright assignment
 (transferring ownership of the contribution to the project). CLAs are controversial because they
 Create an asymmetry of rights between the project maintainers and individual contributors, and
-Because they enable the project to relicense the contribution under different terms (including
+because they enable the project to relicense the contribution under different terms (including
 Proprietary terms).
 
 **Developer Certificate of Origin (DCO).** A lighter-weight alternative to CLAs. The contributor
@@ -39794,7 +39794,7 @@ URL: https://tools.wyattau.com/licensing/software-licensing/
 ### AGPLv3 (Affero General Public License v3)
 
 AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation
-In 2007. It is identical to GPLv3 with one critical addition: **Section 13, the "Network
+in 2007. It is identical to GPLv3 with one critical addition: **Section 13, the "Network
 Interaction" clause.**
 
 Section 13 states that if you modify the program and offer users the ability to interact with it
@@ -39823,7 +39823,7 @@ Traditional copyright law sense.
 **Why it is the strongest copyleft in common use:**
 
 AGPLv3 combines the strong copyleft of GPLv3 with the network interaction trigger of Section 13. No
-Other widely-used license requires source code distribution for network-accessible services. This
+other widely-used license requires source code distribution for network-accessible services. This
 Means AGPLv3 reaches situations where GPLv3 and GPLv2 do not: any SaaS deployment, any internal
 Microservice architecture where services communicate over HTTP, any web application.
 
@@ -39884,13 +39884,13 @@ Carries the "or any later version" clause (e.g., "Licensed under the GNU General
 Version 2, or at your option any later version") can be relicensed under GPLv3. But code licensed
 Strictly under "GPLv2 only" cannot be combined with GPLv3 code into a single work, because GPLv3
 Adds restrictions (patent retaliation, anti-Tivoization) that GPLv2 Section 4 does not permit, you
-May not add additional restrictions to GPLv2.
+may not add additional restrictions to GPLv2.
 
 ### LGPLv3 (GNU Lesser General Public License v3)
 
 LGPLv3 is the "weak copyleft" license. It allows proprietary software to link to LGPL-licensed
 Libraries without being subject to copyleft obligations for the proprietary parts, while ensuring
-That modifications to the LGPL-licensed code itself remain free.
+that modifications to the LGPL-licensed code itself remain free.
 
 **The linking boundary, the critical distinction:**
 
@@ -39921,7 +39921,7 @@ Relinking, but your own code is not subject to copyleft.
 **FSF recommendation:** The FSF now recommends using GPLv3 with an explicit linking exception (e.g.,
 The GCC Runtime Library Exception) over LGPLv3 for new libraries. A linking exception is more
 Precise than the generalized LGPL framework because it can define exactly which linking activities
-Are exempt from copyleft, rather than relying on the ambiguous legal concept of what constitutes
+are exempt from copyleft, rather than relying on the ambiguous legal concept of what constitutes
 "linking" versus "derivative work."
 
 ### GPLv2 (GNU General Public License v2)
@@ -39934,7 +39934,7 @@ Or Death" clause (Section 7):** if conditions are imposed on you that require yo
 GPLv2 (e.g., a court order or legal requirement) in order to distribute the software, you may not
 Distribute the software at all. If you cannot distribute the software while simultaneously
 Satisfying both the GPLv2 and the other conditions, you must cease distribution. This was a response
-To concerns that laws in some jurisdictions might restrict the freedom to redistribute.
+to concerns that laws in some jurisdictions might restrict the freedom to redistribute.
 
 **The "or later" clause:** Many GPLv2 projects include the language: "GNU General Public License as
 Published by the Free Software Foundation; either version 2 of the License, or (at your option) any
@@ -39972,7 +39972,7 @@ Covered by MPL 2.0, not to the entire combined work or project.
 
 **Why Firefox uses MPL 2.0:** Firefox is a large project with contributions from many organizations,
 Including corporations that ship proprietary code alongside Mozilla's code. MPL 2.0 allows Mozilla
-To keep its own code under copyleft while allowing third-party code in the same codebase to be under
+to keep its own code under copyleft while allowing third-party code in the same codebase to be under
 Different licenses. This is why Firefox's codebase can contain both MPL-licensed Mozilla code and
 Proprietary third-party code (e.g., Google-sourced code for the default search partnership, DRM
 Components for Widevine).
@@ -40032,7 +40032,7 @@ Provisions, ambiguous attribution requirements for partial use).
 **Key nuance, "substantial portions":** The requirement to include the license applies to "all
 Copies or substantial portions of the Software." If you use a single MIT-licensed function in a
 Large project, you likely do not need to include the MIT license text for the entire project, but
-You must still include the copyright notice for that specific code. If you copy a significant
+you must still include the copyright notice for that specific code. If you copy a significant
 Portion (a module, a library, a substantial codebase), you must include the full license text. This
 Ambiguity is one reason some organizations prefer Apache 2.0, which has more explicit attribution
 Requirements tied to `NOTICE` files.
@@ -40106,7 +40106,7 @@ University of California, Berkeley Computer Systems Research Group (CSRG).
 **Historical context, the original 4-Clause BSD license:**
 
 The original BSD license had four clauses. The third clause (the "advertising clause") required that
-All advertising materials for products containing the software acknowledge that the software was
+all advertising materials for products containing the software acknowledge that the software was
 Developed by UC Berkeley. This became impractical as the number of BSD-licensed components grew, a
 Single product might need to list dozens of institutions in its advertisements. The clause was
 Officially removed in 1999 by William Hoskins, Director of the Office of Technology Licensing at UC
@@ -40115,7 +40115,7 @@ Impractical attribution burden.
 
 **BSD 3-Clause vs MIT:** Functionally, BSD 3-Clause and MIT are very similar. Both grant broad
 Permission to use, modify, and redistribute, with attribution requirements. The primary difference
-Is that BSD 3-Clause explicitly prohibits using the copyright holders' names for endorsement, while
+is that BSD 3-Clause explicitly prohibits using the copyright holders' names for endorsement, while
 MIT handles this implicitly by not granting trademark rights. Many legal opinions consider them
 Effectively equivalent in practice.
 
@@ -40134,7 +40134,7 @@ License.
 
 **Why it exists:** The MIT License's original wording includes a clause stating that the license is
 Governed by the laws of the Commonwealth of Massachusetts (where MIT is located). The ISC License
-Was created to provide a simpler, jurisdiction-neutral alternative. In practice, this distinction is
+was created to provide a simpler, jurisdiction-neutral alternative. In practice, this distinction is
 Largely irrelevant, both licenses are interpreted the same way in all jurisdictions, and modern MIT
 License texts often omit the jurisdiction clause.
 
@@ -40221,7 +40221,7 @@ The Unlicense is a public domain dedication with a fallback license, created by 
 
 **Practical note:** The Unlicense is more commonly used for small utilities and scripts than for
 Substantial software projects. Its lack of an explicit patent grant makes it riskier than Apache 2.0
-For use in jurisdictions with active software patent litigation (notably the US).
+for use in jurisdictions with active software patent litigation (notably the US).
 
 ### WTFPL (Do What The F\*ck You Want To Public License)
 
@@ -40362,11 +40362,11 @@ Repeatedly declined to approve BSL.
 
 SSPL was created by MongoDB in 2018 as a direct response to cloud providers, specifically AWS,
 Offering MongoDB-compatible managed database services without contributing code or revenue back to
-The MongoDB project.
+the MongoDB project.
 
 **Mechanism:** SSPL is a modified version of AGPLv3. The critical change is in Section 13: instead
 Of merely requiring source code distribution for network users (as AGPLv3 does), SSPL requires that
-If you "offer the functionality of the Program to users as a service," you must also provide the
+if you "offer the functionality of the Program to users as a service," you must also provide the
 Source code of **all programs** you use to make that service available, including management tools,
 Monitoring systems, user interfaces, backup systems, and any other software that is part of the
 Service infrastructure.
@@ -40389,7 +40389,7 @@ Maintaining a competitive cloud service, which is precisely the intent.
 
 **OSI rejection:** The OSI has not approved SSPL and has stated that it does not meet the Open
 Source Definition. The requirement to provide source code for all service-related software extends
-The copyleft obligation far beyond the scope of the covered software, imposing conditions on
+the copyleft obligation far beyond the scope of the covered software, imposing conditions on
 Unrelated programs, which violates OSD 9 (License Must Not Restrict Other Software).
 
 ### Source-Available vs Open Source
@@ -40415,8 +40415,8 @@ If a license fails even one criterion, it is not open source by the OSI definiti
 
 **Source-available** means the source code is published and readable, but the license does not meet
 All ten criteria. Source-available licenses may restrict who can use the software, what they can use
-It for, how they can distribute it, or what obligations they have regarding their own code. The code
-Is available for inspection, but the license does not grant the full set of freedoms that open
+it for, how they can distribute it, or what obligations they have regarding their own code. The code
+is available for inspection, but the license does not grant the full set of freedoms that open
 Source requires.
 
 **Why Redis and HashiCorp moved to source-available:**
@@ -40434,7 +40434,7 @@ Unrestricted freedom and the economic reality that large cloud providers can mon
 Projects at massive scale without contributing code, bug fixes, or revenue back to the projects they
 Depend on. Source-available licenses are an attempt to preserve the open-source development model
 (public repositories, community contributions, transparency) while restricting the specific use case
-That the licensors consider exploitative.
+that the licensors consider exploitative.
 
 Whether source-available licenses are a legitimate defense of open-source sustainability or a
 Betrayal of open-source principles depends on your position in the debate. The OSI's position is
@@ -40466,12 +40466,12 @@ a container image is a distributable artifact that embeds copies of the software
 
 **Internal use is NOT distribution.** Running software on your own servers, even if accessed by
 Employees or contractors, does not constitute distribution. The copyleft obligations of GPL and LGPL
-Are not triggered by internal use alone. This is why you can run GPL-licensed software internally
-Without being required to provide source code to your employees.
+are not triggered by internal use alone. This is why you can run GPL-licensed software internally
+without being required to provide source code to your employees.
 
 **Important caveat, AGPLv3 Section 13:** AGPLv3 creates a separate trigger (network interaction)
 That operates independently of distribution. Even if no copy is distributed, AGPLv3 obligations can
-Be triggered by making the software available over a network to external users.
+be triggered by making the software available over a network to external users.
 
 ### Static Linking vs Dynamic Linking
 
@@ -40515,7 +40515,7 @@ Increasingly relevant as containerization becomes the standard deployment model.
 **Does shipping a container count as distributing the software inside it?**
 
 Yes, in essentially all interpretations. A Docker image is a distributable artifact, when you push
-An image to a registry (Docker Hub, ECR, GCR, etc.) and another party pulls it, you have distributed
+an image to a registry (Docker Hub, ECR, GCR, etc.) and another party pulls it, you have distributed
 Copies of every piece of software in that image. This means:
 
 - If the container includes GPL-licensed code, the copyleft obligations apply to the entire
@@ -40673,8 +40673,8 @@ Consult legal counsel before relying on this interpretation.
 
 **Using GPL libraries in a web service without understanding AGPL implications.** If you are
 Building a web service and want to use a GPL-licensed library, you may think you are safe because
-You are not "distributing" the software (you are hosting it internally). This is correct for GPLv2
-And GPLv3, hosting as a service does not trigger their copyleft obligations. However, if the
+you are not "distributing" the software (you are hosting it internally). This is correct for GPLv2
+and GPLv3, hosting as a service does not trigger their copyleft obligations. However, if the
 Library is AGPLv3 (not GPLv3), network interaction triggers the copyleft obligation under Section
 13, and you must provide source code to your users. Always check the exact license version, not just
 "GPL."
@@ -40683,7 +40683,7 @@ Library is AGPLv3 (not GPLv3), network interaction triggers the copyleft obligat
 Restrictions that are incompatible with GPLv2. GPLv3 was specifically designed to accommodate Apache
 2.0's terms, so GPLv3 + Apache 2.0 is fine. But GPLv2 + Apache 2.0 is not. The Apache 2.0 patent
 Retaliation terms are "additional restrictions" that GPLv2 Section 4 prohibits. If you are working
-On a GPLv2-only project (like the Linux kernel), you cannot incorporate Apache 2.0-licensed code.
+on a GPLv2-only project (like the Linux kernel), you cannot incorporate Apache 2.0-licensed code.
 
 **Not including license notices in binary distributions.** Most permissive licenses (MIT, BSD,
 Apache 2.0) require including the license text in binary distributions. This is not optional, it is
@@ -40691,7 +40691,7 @@ A condition of the license grant. Failing to include license notices in your shi
 Your downstream recipients do not have a valid license to use the software, and you are committing
 Copyright infringement. In practice, your binary distribution must include a `LICENSE` file, a
 `NOTICE` file (for Apache 2.0), or equivalent documentation containing all applicable license texts
-And copyright notices. Automate this, tools like `licensee``go-licenses`And `pip-licenses` can
+and copyright notices. Automate this, tools like `licensee``go-licenses`And `pip-licenses` can
 Generate license notice bundles for your distribution.
 
 ## Further Reading
@@ -41974,7 +41974,7 @@ the characteristic function is defined as: $$ \varphi_X(t) =
 \mathcal{H}
 
 $$
-Where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
+where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
 reduces to $\varphi_X(t) = \mathbb{E}\left[ e^{i t^\top X} \right]$ with
 $t \in \mathbb{R}^d$.
 
@@ -42733,7 +42733,7 @@ $p$-Wasserstein distance is:
 $$
 W_p(\mu, \nu) = \left( \inf_{\gamma \in \Pi(\mu, \nu)} \int_{S \times S} d(x, y)^p \, d\gamma(x, y) \right)^{1/p}
 $$
-Where $\Pi(\mu, \nu)$ is the set of joint distributions (couplings) with marginals $\mu$ and $\nu$.
+where $\Pi(\mu, \nu)$ is the set of joint distributions (couplings) with marginals $\mu$ and $\nu$.
 
 _Duality (for $p=1$):_ Via Kantorovich-Rubinstein,
 $W_1(\mu, \nu) = \sup \{ \mathbb{E}_\mu[f] - \mathbb{E}_\nu[f] : \lVert f \rVert_{\mathrm{Lip}} \leq 1 \}$.
@@ -42956,9 +42956,9 @@ URL: https://tools.wyattau.com/probabilisticml/0_intro/
 ## Abstract
 
 Inspired by Kevin P. Murphy's series of books on probabilisitc machine learning, Marc Peter's book
-On Mathematics for Machine Learning and Evarist Gine's book on Mathematical Foundations of
+on Mathematics for Machine Learning and Evarist Gine's book on Mathematical Foundations of
 Infinite-Dimensional Statistical Models. With the ever growing field of machines learning, I will
-Only be able to cover a small portion of what is available, for more detail and up to date
+only be able to cover a small portion of what is available, for more detail and up to date
 Appraoches, please refer to latest reports and publications.
 
 ## Notes Format
@@ -43187,7 +43187,7 @@ would be determining the car model from an image.
 
 When considering a small dataset, a common practice is to store them in a design matrix, a
 $N \times D$ matrix that represent example in row and features in column. Many features however does
-Not share the same value type, an example being a sequence of words or characters rather than
+not share the same value type, an example being a sequence of words or characters rather than
 Fixed-length vectors. This problem is solved by featuriszation where a mapping first convert The
 data into a type of fixed size representation and processed afterwards, an example being the
 Infamous "bag of words" algorithm for sequential data.
@@ -43197,9 +43197,9 @@ Infamous "bag of words" algorithm for sequential data.
 Many tabular data have small amount of features, to observe data patterns, a lot of these data with
 Dimension are plotted with a pair plot, with each feature on one axis, often this allow clear
 Visualization of classification as data with similar features should share a region and the logic
-For the classification would be correctly partitioning each classification with a corrosponding
+for the classification would be correctly partitioning each classification with a corrosponding
 Region separated by the decision boundary. An example being classifying planetary objects, where the
-One dimensional feature, radius can determine whether the input given is a planet or a star this is
+one dimensional feature, radius can determine whether the input given is a planet or a star this is
 Called a decision rule, the decision boundary will therefore be the radius where it behaves as a
 Binary case, where bellow the radius threshold, the model will classfied the input as planet.
 
@@ -43207,10 +43207,10 @@ Binary case, where bellow the radius threshold, the model will classfied the inp
 
 However for non-binary classification, a singular decision boundary is not enough, a decision
 Surface maybe needed to fully determine the features a class poses. This classification of surfaces
-Can be implemented as a decision tree, nesting decisions to determine the class of the input. This
+can be implemented as a decision tree, nesting decisions to determine the class of the input. This
 Classification tree will be defined by parameters $\theta$ that denote nodes with feature index and
 Threshold, a binary tree that will determines the mapping by evaluating each input to leaf nodes
-That corrsponse to the predicted class $f(x_n;\theta)$.
+that corrsponse to the predicted class $f(x_n;\theta)$.
 
 ### Performance Measurement
 

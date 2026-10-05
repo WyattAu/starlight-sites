@@ -396,7 +396,7 @@ Receptors in the cytoplasm or nucleus.
 ## Review: Detailed Comparison of Transport Mechanisms
 
 Understanding the nuances of membrane transport is critical. Here is a more detailed analysis of
-Each mechanism:
+each mechanism:
 
 **Simple diffusion:** Small, nonpolar molecules (e.g., $\mathrm{O_2$, $\mathrm{CO_2$ Steroid Hormones)
 diffuse directly through the phospholipid bilayer. The rate depends on the concentration Gradient,
@@ -433,7 +433,7 @@ Receptor-mediated endocytosis for specific ligands). Exocytosis releases materia
 **Worked Example: Comparing the effects of different transport mechanisms on a cell.**
 
 A cell is placed in a medium containing 10 mM glucose and 5 mM amino acids. Inside the cell, glucose
-Is at 2 mM and amino acids are at 10 mM.
+is at 2 mM and amino acids are at 10 mM.
 
 Glucose enters the cell by facilitated diffusion (from 10 mM to 2 mM, down the concentration
 Gradient). No energy is required.
@@ -450,7 +450,7 @@ Indirectly).
 
 **Capsule:** A slimy, gelatinous layer outside the cell wall in some bacteria. It protects against
 Desiccation and helps the bacterium evade the host immune system by making it harder for phagocytes
-To engulf it.
+to engulf it.
 
 **Pili:** Short, hair-like appendages on the surface of many bacteria. They are involved in
 Attachment to surfaces (including host tissues) and in conjugation (a form of horizontal gene
@@ -481,17 +481,17 @@ When a plant cell is placed in a hypertonic solution, water leaves the cell by o
 Membrane pulls away from the cell wall, a process called **plasmolysis**. The cell becomes flaccid.
 
 When a plant cell is placed in a hypotonic solution, water enters by osmosis. The cytoplasm swells
-And presses against the rigid cell wall, creating **turgor pressure**. The cell is described as
+and presses against the rigid cell wall, creating **turgor pressure**. The cell is described as
 Turgid. Turgor pressure provides structural support to non-woody plant tissues. When plants lose
 Turgor (e.g., during drought), they wilt.
 
 **Worked Example: Why plant cells do not burst in hypotonic solutions.**
 
 When an animal cell is placed in a hypotonic solution, it swells and may burst (lyse) because there
-Is no cell wall to constrain expansion. A plant cell, however, has a rigid cellulose cell wall that
+is no cell wall to constrain expansion. A plant cell, however, has a rigid cellulose cell wall that
 Exerts an inward pressure (wall pressure) as the cell expands. Water continues to enter until the
 Turgor pressure equals the osmotic pressure, at which point there is no net water movement. The cell
-Is turgid but intact. This is why plants rely on turgor pressure for support.
+is turgid but intact. This is why plants rely on turgor pressure for support.
 
 **Worked Example: Calculating water potential and predicting osmosis.**
 
@@ -526,7 +526,7 @@ A lysosomal enzyme (a hydrolytic enzyme) is synthesised in the same way as a sec
 Instead of being secreted, it is tagged with a mannose-6-phosphate marker in the Golgi apparatus.
 This marker is recognised by receptors on the Golgi membrane, and the enzyme is packaged into
 Vesicles that fuse with lysosomes. Without this tagging system, the enzyme would be secreted from
-The cell. This demonstrates how the Golgi apparatus sorts proteins to different destinations.
+the cell. This demonstrates how the Golgi apparatus sorts proteins to different destinations.
 
 ## Review: Junctions Between Cells
 
@@ -572,7 +572,7 @@ Molecules between cells, facilitating communication and coordination.
 
 **Central vacuole:** A large, fluid-filled organelle that can occupy up to 90% of the cell volume in
 Mature plant cells. It is surrounded by a membrane called the tonoplast. Functions include storage
-Of water, ions, nutrients, and waste products; maintaining turgor pressure; contributing to cell
+of water, ions, nutrients, and waste products; maintaining turgor pressure; contributing to cell
 Growth; storing pigments (anthocyanins in flowers); and storing defensive compounds (toxins that
 Deter herbivores).
 
@@ -666,7 +666,7 @@ Nm per ATP hydrolysed.
 
 Taxol stabilises microtubules, preventing depolymerisation. During cell division, the mitotic
 Spindle cannot function, arresting the cell cycle at metaphase. Rapidly dividing cancer cells are
-Most affected, but normal dividing cells (hair follicles, immune cells) are also impacted, causing
+most affected, but normal dividing cells (hair follicles, immune cells) are also impacted, causing
 Side effects.
 
 **Worked Example: Colchicine and its effect on cell division.**
@@ -675,7 +675,7 @@ Colchicine is another drug that affects microtubules, but in the opposite way to
 Binds to tubulin and prevents microtubule polymerisation. Without functional microtubules, the
 Mitotic spindle cannot form, and cells are arrested in prometaphase. Colchicine has been used to
 Treat gout (by inhibiting neutrophil motility) and in cancer research (to arrest cells at metaphase
-For chromosome analysis -- karyotyping).
+for chromosome analysis -- karyotyping).
 
 ## Review: Viral Structure and Replication
 
@@ -694,7 +694,7 @@ Host cell membrane.
 
 **Lysogenic cycle (temperate phages):** Some viruses (e.g., bacteriophage lambda) can integrate
 Their DNA into the host chromosome as a prophage. The prophage is replicated along with the host DNA
-And is passed to daughter cells during cell division. (e.g., stress), the Prophage can be excised
+and is passed to daughter cells during cell division. (e.g., stress), the Prophage can be excised
 and enter the lytic cycle.
 
 **Worked Example: Why antibiotics do not work against viruses.**
@@ -707,7 +707,7 @@ Antiviral drugs target viral-specific processes (e.g., reverse transcriptase inh
 **Worked Example: HIV replication and antiretroviral drugs.**
 
 HIV is a retrovirus that contains RNA as its genetic material and reverse transcriptase, an enzyme
-That converts RNA into DNA. The replication cycle involves:
+that converts RNA into DNA. The replication cycle involves:
 
 1. HIV binds to CD4 receptors (and co-receptors CCR5 or CXCR4) on helper T cells.
 2. The virus enters the cell, and reverse transcriptase converts viral RNA into DNA.
@@ -754,7 +754,7 @@ Multiple drugs to prevent resistance.
 <summary>Question 1: Predicting the effect of a metabolic inhibitor on a secretory protein</summary>
 
 A researcher adds brefeldin A to pancreatic cells. This drug blocks the transport of vesicles from
-The ER to the Golgi apparatus. Describe the effect on insulin production and explain which
+the ER to the Golgi apparatus. Describe the effect on insulin production and explain which
 Organelles would accumulate the insulin.
 
 </details>
@@ -763,7 +763,7 @@ Organelles would accumulate the insulin.
 <summary>Answer</summary>
 
 Insulin would be synthesised on ribosomes bound to the rough ER and enter the ER lumen, where it
-Would begin to fold. However, transport vesicles could not carry insulin from the ER to the Golgi
+would begin to fold. However, transport vesicles could not carry insulin from the ER to the Golgi
 Apparatus. The insulin would accumulate inside the rough ER, causing it to dilate. The Golgi
 Apparatus would not receive the protein, so no secretory vesicles would form and no insulin would be
 Exported from the cell. The cell would still produce mRNA and translate the protein, but the
@@ -790,7 +790,7 @@ Electrical gradient also favours outward movement because the inside of the cell
 Repelling the positive $\mathrm{K^+$ ions. Both gradients drive $\mathrm{K^+$ out of the cell.
 
 (b) Through the $\mathrm{Na^+/\mathrm{K^+$ pump (active transport): The pump moves $\mathrm{K^+$
-Into the cell against its concentration gradient. This requires ATP hydrolysis. The pump
+into the cell against its concentration gradient. This requires ATP hydrolysis. The pump
 Continuously transports $2 \mathrm{ K^+$ in and $3 \mathrm{ Na^+$ out per ATP consumed, Maintaining
 the resting membrane potential and the concentration gradients.
 
@@ -834,7 +834,7 @@ GDP. Cholera toxin prevents GTP hydrolysis, locking the G-protein in its active 
 Constitutively active G-protein continuously activates adenylyl cyclase, which produces excessive
 CAMP. Elevated cAMP activates protein kinase A (PKA), which phosphorylates and opens CFTR chloride
 Channels. Massive amounts of $\mathrm{Cl^-$ are secreted into the intestinal lumen. $\mathrm{Na^+$
-And water follow by osmosis, producing large volumes of watery diarrhoea. This demonstrates how
+and water follow by osmosis, producing large volumes of watery diarrhoea. This demonstrates how
 Disrupting the normal "off" switch in a signaling pathway can have severe physiological
 Consequences.
 

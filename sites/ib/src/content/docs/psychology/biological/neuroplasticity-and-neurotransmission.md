@@ -125,7 +125,7 @@ Widely distributed in the brain. ACh is involved in:
 ### GABA (Gamma-Aminobutyric Acid)
 
 GABA is the primary inhibitory neurotransmitter in the central nervous system. Approximately
-One-third of all synapses in the brain use GABA. GABA functions by opening chloride channels in the
+one-third of all synapses in the brain use GABA. GABA functions by opening chloride channels in the
 Postsynaptic membrane, causing hyperpolarisation and reducing the likelihood of action potential
 Firing.
 
@@ -138,7 +138,7 @@ Firing.
 ### Glutamate
 
 Glutamate is the primary excitatory neurotransmitter in the central nervous system and is involved
-In virtually all cognitive functions. It acts on several types of receptors, including NMDA, AMPA,
+in virtually all cognitive functions. It acts on several types of receptors, including NMDA, AMPA,
 And kainate receptors. Glutamate is critical for:
 
 - **Long-term potentiation (LTP):** The NMDA receptor is essential for LTP, the cellular mechanism
@@ -152,7 +152,7 @@ And kainate receptors. Glutamate is critical for:
 ## Agonists and Antagonists
 
 Chemical substances can affect synaptic transmission by interacting with neurotransmitter receptors
-Or by altering the synthesis, release, or breakdown of neurotransmitters.
+or by altering the synthesis, release, or breakdown of neurotransmitters.
 
 ### Agonists
 
@@ -178,7 +178,7 @@ Neurotransmitter from binding. Antagonists reduce or block the effect of the neu
 
 Understanding agonists and antagonists is essential for understanding the mechanisms of psychoactive
 Drugs and their therapeutic applications. For example, the effectiveness of antipsychotic medication
-In treating schizophrenia is attributed to its dopamine antagonist properties, while the
+in treating schizophrenia is attributed to its dopamine antagonist properties, while the
 Effectiveness of antidepressant medication is attributed to its serotonin agonist properties (via
 Reuptake inhibition).
 
@@ -201,7 +201,7 @@ Reuptake inhibition).
 ## Neuroplasticity
 
 Neuroplasticity refers to the brain's capacity to reorganise its structure and function in response
-To experience, learning, environmental change, or injury. It is not a single mechanism but a
+to experience, learning, environmental change, or injury. It is not a single mechanism but a
 Collection of processes that operate at different levels, from molecular changes at individual
 Synapses to large-scale cortical reorganisation.
 
@@ -253,7 +253,7 @@ Efficiency and specificity.
 ### Dendritic Branching
 
 Dendritic branching refers to the growth of new dendritic spines (small protrusions on dendrites
-That receive synaptic input) in response to learning and environmental enrichment. Increased
+that receive synaptic input) in response to learning and environmental enrichment. Increased
 Dendritic branching increases the number of potential synaptic connections, enhancing the
 Computational capacity of neural circuits.
 
@@ -294,7 +294,7 @@ After 60 days, the brains of EC rats showed:
 Draganski and colleagues used voxel-based morphometry (a neuroimaging technique that measures
 Differences in grey matter density) to investigate whether learning a new skill could produce
 Structural changes in the adult human brain. Participants were taught a three-ball juggling routine
-And practised for 60 seconds per day over 7 days. Brain scans were taken at three time points:
+and practised for 60 seconds per day over 7 days. Brain scans were taken at three time points:
 Before training, immediately after the 7-day training period, and 3 months later.
 
 **Key findings:**
@@ -339,7 +339,7 @@ Before training, immediately after the 7-day training period, and 3 months later
 ## Linking to the Levels of Analysis
 
 The study of neuroplasticity and neurotransmission connects the biological level of analysis to
-Other levels:
+other levels:
 
 - **Cognitive LOA:** Neurotransmitter systems underpin cognitive processes such as memory
   (acetylcholine, glutamate), attention (dopamine), and decision making (serotonin, dopamine).

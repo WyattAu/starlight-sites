@@ -1239,7 +1239,7 @@ URL: https://linux.wyattau.com/01-cli-fundamentals/core-utilities/
 
 GNU coreutils is the package that provides the fundamental file, shell, and text manipulation
 Utilities on virtually every Linux distribution. These utilities implement the POSIX specifications
-And extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
+and extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
 
 - **File utilities**: `ls``cp``mv``rm``ln``chmod``chown``touch``mkdir``rmdir` `stat``du``df``sync`
 - **Text utilities**: `cat``head``tail``sort``uniq``tr``cut``paste``join``wc` `nl``fmt``fold``pr`
@@ -1541,7 +1541,7 @@ find . -name "*.conf" -exec sed -i 's/oldhost.example.com/newhost.example.com/g'
 ### `find`File System Traversal
 
 `find` recursively traverses a directory tree and evaluates expressions against each file. It is one
-Of the most powerful tools available but also one of the most commonly misused.
+of the most powerful tools available but also one of the most commonly misused.
 
 ```bash
 # Basic search
@@ -1927,7 +1927,7 @@ Even if the umask would allow it.
 ### ACLs, Access Control Lists
 
 Standard Unix permissions provide only three permission classes (owner, group, other). ACLs extend
-This model with per-user and per-group rules.
+this model with per-user and per-group rules.
 
 ```bash
 # Check ACL support
@@ -2037,7 +2037,7 @@ sort -s -k2,2n data.txt
 ### Pitfall: `sed -i` on Symlinks
 
 `sed -i` (in-place editing) breaks symlinks by replacing the symlink with a regular file containing
-The edited content. Always use `sed --follow-symlinks -i` or avoid `-i` on symlinks.
+the edited content. Always use `sed --follow-symlinks -i` or avoid `-i` on symlinks.
 
 ### Pitfall: `awk` Floating-Point Precision
 
@@ -2251,7 +2251,7 @@ The shell performs the following steps before executing a command:
 
 :::caution
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
-Are no matching files, the shell behavior depends on the `nullglob` option.
+are no matching files, the shell behavior depends on the `nullglob` option.
 
 ## I/O Redirection
 
@@ -2266,7 +2266,7 @@ Every process in Linux has three standard file descriptors at startup:
 | 2   | stderr | Terminal            | Error/diagnostic output |
 
 The shell can redirect any file descriptor to a file, another descriptor, a pipe, or a
-Here-document.
+here-document.
 
 ### Basic Redirection Operators
 
@@ -2521,7 +2521,7 @@ disown -h %1  # prevents SIGHUP on shell exit
 The difference: `nohup` modifies the signal handling of the child process itself, while `disown`
 tells the shell not to send `SIGHUP` when it exits. If the shell crashes (SIGKILL),
 `nohup`-protected processes survive, but `disown`-ed processes may still receive `SIGHUP` depending
-On the terminal driver behavior.
+on the terminal driver behavior.
 
 ## Environment Variables
 
@@ -3044,7 +3044,7 @@ URL: https://linux.wyattau.com/01-cli-fundamentals/text-processing/
 ## Regular Expressions
 
 Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each
-With different capabilities and syntax.
+with different capabilities and syntax.
 
 ### BRE vs ERE vs PCRE
 
@@ -4129,7 +4129,7 @@ URL: https://linux.wyattau.com/02-file-systems/file-permissions/
 ## Unix Permission Model
 
 Every file and directory on a Linux system carries a set of permission bits that control which users
-Can read, write, or execute it. The kernel enforces these permissions during every file system
+can read, write, or execute it. The kernel enforces these permissions during every file system
 Operation.
 
 ### Permission Bits
@@ -4624,7 +4624,7 @@ capsh --drop="cap_net_raw" -- -c "ping -c 1 localhost"
 ## File Attributes
 
 File attributes (managed by `chattr`/`lsattr`) are separate from permissions. They are enforced by
-The ext4 filesystem (and others that support them) and cannot be overridden by root or capabilities.
+the ext4 filesystem (and others that support them) and cannot be overridden by root or capabilities.
 
 ### Common Attributes
 
@@ -4747,7 +4747,7 @@ flowchart TD
 :::note
 Specific first), owning group or named groups, mask, other. The first matching entry that grants or
 Denies the requested access determines the result. The mask limits the maximum effective permissions
-For all named users, named groups, and the owning group.
+for all named users, named groups, and the owning group.
 
 ### Permission Check Summary
 
@@ -4966,7 +4966,7 @@ URL: https://linux.wyattau.com/02-file-systems/filesystems-and-mounting/
 The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file
 System types simultaneously. Application code calls `open(2)``read(2)``write(2)`And `stat(2)`
 Without knowing whether the underlying storage uses ext4, XFS, Btrfs, NFS, or a pseudo-filesystem
-Like procfs.
+like procfs.
 
 ```mermaid
 graph TD
@@ -5014,13 +5014,13 @@ Includes a `struct file_system_type` that provides:
 - Module owner (for loadable modules)
 
 When `mount(2)` is called, the VFS invokes the appropriate file system"s mount function, which reads
-The superblock from disk and populates the VFS superblock object.
+the superblock from disk and populates the VFS superblock object.
 
 ## Inode Structure
 
 An inode (index node) is the fundamental data structure representing a file on disk. It contains all
 Metadata about a file except the filename (which is stored in the directory's data blocks, not in
-The inode itself).
+the inode itself).
 
 ### Inode Fields
 
@@ -5111,7 +5111,7 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 ### Extents
 
 Traditional ext2/ext3 used indirect block mapping, the inode pointed to a block of pointers, which
-Could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
+could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
 Files because even a contiguous file required multiple block pointer lookups.
 
 Ext4 introduces **extents**, a descriptor that maps a contiguous range of blocks. An extent can
@@ -5147,11 +5147,11 @@ mount -o data=journal /dev/sda1 /mnt
 
 Ext4 uses **delayed allocation** (delalloc): when a process writes data, the blocks are not
 Immediately allocated on disk. Instead, the data is held in memory, and allocation is deferred until
-The kernel flushes it. This allows the allocator to make better decisions about contiguous block
+the kernel flushes it. This allows the allocator to make better decisions about contiguous block
 Placement, significantly reducing fragmentation.
 
 The downside: a crash before flush can lose more data than with immediate allocation. For databases
-That manage their own I/O (MySQL, PostgreSQL), delayed allocation should be disabled:
+that manage their own I/O (MySQL, PostgreSQL), delayed allocation should be disabled:
 
 ```bash
 # Disable delayed allocation for database volumes
@@ -5189,7 +5189,7 @@ resize2fs /dev/sda1 500G     # grow to 500 GiB
 ## XFS
 
 XFS is a high-performance journaling file system developed by SGI in 1993, designed for parallel I/O
-And large files. It is the default on RHEL/CentOS 7+ and is well-suited for large data volumes,
+and large files. It is the default on RHEL/CentOS 7+ and is well-suited for large data volumes,
 Media workloads, and databases.
 
 ### Key Features
@@ -5279,7 +5279,7 @@ Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
 
 Btrfs (B-tree file system, pronounced "butter-fs") is a copy-on-write (COW) file system with
 Built-in volume management, snapshots, checksumming, and compression. It is the default on Fedora
-And is used by Synology NAS systems.
+and is used by Synology NAS systems.
 
 ### Key Features
 
@@ -5325,7 +5325,7 @@ mount -o compress=zstd /dev/sdb1 /mnt/btrfs
 ### Subvolumes and Snapshots
 
 A subvolume is an independently mountable file tree within a Btrfs volume. Snapshots are subvolumes
-That share data blocks with their source.
+that share data blocks with their source.
 
 ```bash
 # Create a subvolume
@@ -5354,7 +5354,7 @@ btrfs send -p /mnt/btrfs/@home_snapshot_2023 /mnt/btrfs/@home_snapshot_2024 | \
 ### Btrfs RAID
 
 Btrfs implements RAID at the file system level (not block level like mdadm). This means RAID is
-Per-extent, not per-device, and can be configured differently for data and metadata:
+per-extent, not per-device, and can be configured differently for data and metadata:
 
 ```bash
 # RAID 1 for data, DUP for metadata (single device)
@@ -5665,7 +5665,7 @@ Corruption. Always unmount first, or run from a live system.
 ### Pitfall: ext4 `inode exhaustion`
 
 Ext4 creates inodes at format time. If you have millions of small files, you can run out of inodes
-Before running out of disk space:
+before running out of disk space:
 
 ```bash
 # Check inode usage
@@ -5692,7 +5692,7 @@ chattr +C /var/lib/mysql
 
 `mount --bind` creates a new mount point for an existing directory without changing the file system.
 `mount --move` moves a mount point to a new location entirely. The difference matters for containers
-And chroots:
+and chroots:
 
 ```bash
 # Bind mount, makes /existing visible at /new-location
@@ -5705,13 +5705,13 @@ mount --move /old-mount-point /new-mount-point
 ### Pitfall: `/proc` and `/sys` Are Not Real Files
 
 Reading from `/proc` or `/sys` is not like reading a regular file. The kernel generates the content
-On each read. The output of a single `cat` may show inconsistent state if the kernel is modifying
-The data concurrently. For atomic reads, prefer sysctl or direct kernel interfaces.
+on each read. The output of a single `cat` may show inconsistent state if the kernel is modifying
+the data concurrently. For atomic reads, prefer sysctl or direct kernel interfaces.
 
 ### Pitfall: XFS Cannot Be Shrunk
 
 If you allocate a 1 TiB XFS volume and later need only 500 GiB, you cannot shrink it. You must back
-Up, recreate with the smaller size, and restore. Always size XFS volumes conservatively or plan to
+up, recreate with the smaller size, and restore. Always size XFS volumes conservatively or plan to
 Add space later.
 
 ## Summary
@@ -6014,7 +6014,7 @@ chmod 755 /etc/cron.daily/my-daily-job
 
 `anacron` (anachronistic cron) is designed for systems that are not running 24/7. Unlike cron, which
 Assumes the system is always on, anacron ensures that jobs run at the specified intervals relative
-To the last run, even if the system was off.
+to the last run, even if the system was off.
 
 ```bash
 # anacron configuration
@@ -7678,7 +7678,7 @@ if (pid == -1) {
 
 Modern Linux uses **Copy-on-Write (COW)** pages for `fork`: the parent's page tables are duplicated,
 But the physical pages are shared and marked read-only. When either process writes to a page, a copy
-Is made. This means `fork` is O(n) in page table size, not O(n) in memory.
+is made. This means `fork` is O(n) in page table size, not O(n) in memory.
 
 #### `execve(2)`
 
@@ -7702,7 +7702,7 @@ and environment are passed.
 #### `wait(2)` / `waitpid(2)`
 
 A parent must call `wait` (or `waitpid`) to collect the child's exit status. If a child terminates
-And the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
+and the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
 Exit status in the kernel's process table until the parent waits.
 
 ```c
@@ -8099,7 +8099,7 @@ chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 
 :::caution
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
-Only for well-understood, bounded workloads (audio processing, industrial control).
+only for well-understood, bounded workloads (audio processing, industrial control).
 
 ## cgroups
 
@@ -8160,7 +8160,7 @@ cat /sys/fs/cgroup/mygroup/io.stat
 ### systemd and cgroups
 
 Systemd manages cgroups automatically. Each service gets its own cgroup, which means resource limits
-Can be configured directly in the unit file:
+can be configured directly in the unit file:
 
 ```ini
 # /etc/systemd/system/myapp.service
@@ -8370,7 +8370,7 @@ trap "wait" SIGCHLD
 ### Pitfall: `ulimit` Not Applied to systemd Services
 
 Setting `nofile` in `/etc/security/limits.conf` has no effect on systemd services because systemd
-Does not use PAM. Instead, configure limits in the service unit:
+does not use PAM. Instead, configure limits in the service unit:
 
 ```ini
 # systemctl edit myservice
@@ -10590,7 +10590,7 @@ hosts: files dns mdns4_minimal [NOTFOUND=return] dns
 
 The lookup order: local files (`/etc/hosts`) first, then DNS. The `mdns4_minimal` entry handles
 Multicast DNS (`.local` domain) and returns NOTFOUND for non-`.local` names, which then falls
-Through to regular DNS.
+through to regular DNS.
 
 ### `dig` and `nslookup`
 
@@ -11280,7 +11280,7 @@ URL: https://linux.wyattau.com/05-systemd/journal-and-logging/
 ## systemd-journald Architecture
 
 `systemd-journald` is the central logging daemon in systemd-based systems. It collects log messages
-From multiple sources and stores them in a structured, indexed binary format.
+from multiple sources and stores them in a structured, indexed binary format.
 
 ```mermaid
 flowchart LR
@@ -11632,7 +11632,7 @@ logrotate -d /etc/logrotate.d/nginx
 ## rsyslog
 
 `rsyslog` is the traditional syslog daemon that can receive messages from journald and process them
-With rules-based routing.
+with rules-based routing.
 
 ### Configuration
 
@@ -12662,7 +12662,7 @@ Does not exist, logs are stored in `/run/log/journal/` (volatile, lost on reboot
 ## Timers
 
 Systemd timers replace cron for scheduled tasks. They support one-shot and recurring timers with
-More precise scheduling than cron.
+more precise scheduling than cron.
 
 ### Timer Unit File
 
@@ -12804,7 +12804,7 @@ systemctl list-sockets | grep myapp
 ## Service Hardening
 
 Systemd provides a comprehensive set of directives for restricting what a service can do. These are
-The primary mechanism for securing systemd-managed services.
+the primary mechanism for securing systemd-managed services.
 
 ### Filesystem Restrictions
 
@@ -13425,7 +13425,7 @@ NoNewPrivileges=yes
 
 :::tip
 Is especially dangerous as it encompasses many sub-capabilities. Use more specific capabilities
-Whenever possible.
+whenever possible.
 
 ## SELinux
 
@@ -13886,7 +13886,7 @@ restorecon -Rv /custom/path
 ### Pitfall: `CAP_SYS_ADMIN` Is Too Broad
 
 `CAP_SYS_ADMIN` covers many sub-operations (mount, pivot_root, IPC, etc.). Granting it is equivalent
-To granting near-root access. Always use more specific capabilities:
+to granting near-root access. Always use more specific capabilities:
 
 ```bash
 # WRONG
@@ -13944,7 +13944,7 @@ chmod 600 ~/.ssh/authorized_keys
 ### Pitfall: Disabling SELinux vs Permissive Mode
 
 Setting `SELINUX=disabled` in `/etc/selinux/config` requires a reboot and relabels the filesystem
-With no SELinux contexts, making it hard to re-enable. Instead, use `SELINUX=permissive` during
+with no SELinux contexts, making it hard to re-enable. Instead, use `SELINUX=permissive` during
 Troubleshooting and switch back to `enforcing` when done:
 
 ```bash
@@ -13970,7 +13970,7 @@ grep root /etc/passwd
 ### Pitfall: Forgetting `setenforce` Is Temporary
 
 `setenforce 0` changes the mode only for the running system. After a reboot, the system returns to
-The mode specified in `/etc/selinux/config`. Do not rely on `setenforce` for persistent
+the mode specified in `/etc/selinux/config`. Do not rely on `setenforce` for persistent
 Configuration changes.
 
 ```mermaid
@@ -15488,7 +15488,7 @@ snap info firefox
 ### How Dependency Resolution Works
 
 Package managers must solve a **dependency graph**, finding a set of package versions that satisfy
-All dependency constraints simultaneously. This is a SAT problem (Boolean satisfiability), which is
+all dependency constraints simultaneously. This is a SAT problem (Boolean satisfiability), which is
 NP-complete in the worst case.
 
 ```mermaid
@@ -15711,7 +15711,7 @@ pacman -Syu
 ### Pitfall: Nix Disk Usage
 
 The Nix store grows continuously as new package versions are added. Without garbage collection, it
-Can consume tens or hundreds of gigabytes:
+can consume tens or hundreds of gigabytes:
 
 ```bash
 # Check Nix store size
@@ -17426,7 +17426,7 @@ Linux is the dominant operating system in every infrastructure domain you will e
 - **High-performance computing**: 100% of the TOP500 supercomputers run Linux.
 
 Understanding Linux at the systems level, how processes are scheduled, how memory is managed, how
-The network stack processes packets, how file systems journal writes, is not academic. It is the
+the network stack processes packets, how file systems journal writes, is not academic. It is the
 Difference between "restarting the service fixed it" and understanding _why_ it failed and
 Preventing recurrence.
 
@@ -17629,7 +17629,7 @@ sgdisk -L
 
 Device names are assigned in kernel detection order and are **not stable** across reboots. A SATA
 Disk that was `/dev/sda` today may become `/dev/sdb` after a hardware change. Never use device names
-In `/etc/fstab` for persistent mounts.
+in `/etc/fstab` for persistent mounts.
 
 **Definition.** A UUID (Universally Unique Identifier) is a 128-bit number assigned to a filesystem
 At creation time. It is globally unique and does not change when the disk is moved between systems.
@@ -18059,7 +18059,7 @@ Partitions.
 
 **Physical Extent (PE):** The smallest unit of allocation in LVM. Default size is 4 MiB. A PE on a
 PV maps 1:1 to a Logical Extent (LE) on an LV. When you extend an LV, you allocate additional PEs
-From the VG.
+from the VG.
 
 ### LVM Metadata
 
@@ -18071,7 +18071,7 @@ LVM metadata is stored at the start of each PV (in the first few MiB). It descri
 - Snapshot relationships
 
 Metadata is stored in circular text format at two locations on each PV for redundancy. If one copy
-Is corrupted, LVM can recover from the backup copy.
+is corrupted, LVM can recover from the backup copy.
 
 ```bash
 # View raw LVM metadata from a PV
@@ -18103,7 +18103,7 @@ A typical production layout:
 
 :::note
 Provides a layer of protection, if LVM metadata is corrupted, partition boundaries remain visible
-To non-LVM tools for recovery.
+to non-LVM tools for recovery.
 
 ## LVM Operations
 
@@ -18525,7 +18525,7 @@ lvextend --poolmetadatasize +2G vg_data/thinpool
 
 Thin provisioning is inherently dangerous because the sum of thin volume sizes can exceed the
 Physical pool size. When the pool fills up, writes to thin volumes **fail silently** (the filesystem
-On the thin volume sees I/O errors).
+on the thin volume sees I/O errors).
 
 ```bash
 # Monitor thin pool usage
@@ -18549,7 +18549,7 @@ lvextend -L +50G /dev/vg_data/thinpool
 :::caution
 Corrupt, and recovery is difficult. Always monitor thin pool usage with alerting. Set
 `thin_pool_autoextend_threshold` in `/etc/lvm/lvm.conf` to 70-80% as a safety net, but do not rely
-On it as your only protection.
+on it as your only protection.
 
 ## mdadm Software RAID
 
@@ -18746,7 +18746,7 @@ swapon --show
 
 :::caution
 And the file must not be copy-on-write. Use `chattr +C` on the containing directory before creating
-The swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
+the swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
 Files may not work at all, use a swap partition or swap file on a loop device instead.
 
 ### Swappiness
@@ -18776,7 +18776,7 @@ sysctl --system
 ### zram
 
 Zram creates compressed RAM-based block devices that act as swap. Data written to zram is compressed
-In memory, effectively giving you more swap space without disk I/O.
+in memory, effectively giving you more swap space without disk I/O.
 
 ```bash
 # Load zram module
@@ -19210,7 +19210,7 @@ lvchange -ay -K /dev/vg_data/lv_mysql    # ignore monitoring
 ### Shrinking in the Wrong Direction
 
 When shrinking an LV and filesystem, the filesystem must be shrunk **first**, then the LV. Shrinking
-The LV before the filesystem truncates the filesystem and causes corruption.
+the LV before the filesystem truncates the filesystem and causes corruption.
 
 ```text
 CORRECT ORDER for shrinking:

@@ -49,7 +49,7 @@ Committee) Architecture defines three levels of abstraction:
    compression, encryption). Includes data structures, access paths, and storage allocation.
 
 The DBMS maps between levels via the **external/conceptual mapping** (translates external views to
-The conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
+the conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
 Internal storage).
 
 **Data independence:**
@@ -92,7 +92,7 @@ Flexible schemas are paramount. The choice depends on the workload, not on a bla
 ### 2.1 Relations, Tuples, Attributes
 
 A **relation** $R$ over attributes $A_1, \ldots, A_n$ is a set of tuples $(a_1, \ldots, a_n)$ where
-Each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
+each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
 $D_1 \times D_2 \times
 \cdots \times D_n$.
 
@@ -325,19 +325,19 @@ Then $\sigma_{\theta}(R \times S) \equiv \sigma_{\theta}(R) \times S$.
 
 _Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$ The condition $\theta$ depends only on
 $r$. Filtering $(r, s)$ by $\theta$ on $R \times S$ is equivalent to first filtering $R$ by $\theta$
-And then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
+and then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
 
 **Rule 4 (Selection pushdown through join).** If $\theta$ involves only attributes of $R$ Then
 $\sigma_{\theta}(R \bowtie S) \equiv \sigma_{\theta}(R) \bowtie S$.
 
 _Proof._ The join $R \bowtie S$ combines matching pairs from $R$ and $S$. Applying $\sigma_{\theta}$
-After the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
-Non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
+after the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
+non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
 
 **Rule 5 (Commutativity of joins).** $R \bowtie S \equiv S \bowtie R$.
 
 _Proof._ The natural join combines tuples agreeing on common attributes. This relation is symmetric
-In $R$ and $S$. $\blacksquare$
+in $R$ and $S$. $\blacksquare$
 
 **Rule 6 (Associativity of joins).** $(R \bowtie S) \bowtie T \equiv R \bowtie (S \bowtie T)$.
 
@@ -519,7 +519,7 @@ FROM Student;
 ```
 
 `PERCENT_RANK()` returns a value in $[0, 1]$ representing the fractional rank. `NTILE(4)` divides
-The partition into 4 approximately equal groups (quartiles).
+the partition into 4 approximately equal groups (quartiles).
 
 </details>
 
@@ -597,7 +597,7 @@ ORDER BY total_qty DESC;
 ```
 
 The recursive step multiplies the quantity at each level to accumulate the total needed quantity for
-Each sub-component.
+each sub-component.
 
 </details>
 
@@ -751,7 +751,7 @@ Candidate key. Equivalently: every non-prime attribute is fully functionally dep
 Candidate key.
 
 A **partial dependency** is $A \to B$ where $A$ is a proper subset of a candidate key and $B$ is
-Non-prime.
+non-prime.
 
 **Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$ Either $X$ is a
 Superkey or $A$ is a prime attribute.
@@ -781,7 +781,7 @@ if $R_1 \cap R_2 \to R_1$ or $R_1 \cap R_2 \to R_2$.
 
 _Proof._ Let $r$ be an instance of $R$ and let $r_1 = \pi_{R_1}(r)$, $r_2 = \pi_{R_2}(r)$. We must
 Show $r = r_1 \bowtie r_2$ under the given condition. Since $r_1$ and $r_2$ are projections of $r$
-Every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
+every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
 show That no spurious tuple is produced. Suppose $(t_1, t_2) \in r_1 \bowtie r_2$ where
 $t_1 \in r_1$ and $t_2 \in r_2$. Since $t_1$ and $t_2$ agree on $R_1 \cap R_2$ And by the condition
 $R_1 \cap R_2 \to
@@ -904,7 +904,7 @@ lossless. $R_{2a} \cap R_{2b} = \varnothing$... This is problematic. $R_{2b} = \
 attributes with The others.
 
 The issue is that $C$ is a "dangling" attribute. This is correct -- $C$ appears only in the key $BC$
-Of the original relation but is not functionally determined by anything except the full key. The
+of the original relation but is not functionally determined by anything except the full key. The
 Decomposition is technically correct but $R_{2b} = \\{C\\}$ by itself cannot be joined losslessly
 with The others.
 
@@ -940,7 +940,7 @@ That holds on $R$, $X$ is a superkey.
 
 _Proof._ Every FD $X \to Y$ implies the MVD $X \twoheadrightarrow Y$. In 4NF, every non-trivial MVD
 $X \twoheadrightarrow Y$ requires $X$ to be a superkey. Therefore, every non-trivial FD $X \to Y$
-Also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
+also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
 
 **4NF decomposition.** Given $R$ with MVD $X \twoheadrightarrow Y$ where $X$ is not a superkey,
 Decompose into $R_1 = X \cup Y$ and $R_2 = R - Y$. The decomposition is lossless-join.
@@ -1098,7 +1098,7 @@ empty leaf with $[5]$. The merged leaf is $[5]$. The internal node $[10]$ now ha
 (the merged leaf), so it underflows.
 
 Since the internal node is a child of the root, and the root has two children, we can merge: remove
-The internal node and promote its remaining child to be a direct child of the root.
+the internal node and promote its remaining child to be a direct child of the root.
 
 ```
 Root: [30]
@@ -1154,7 +1154,7 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 ### 5.3 Bitmap Indexes
 
 A **bitmap index** creates one bitmap per distinct value of an attribute. For a table with $n$ rows
-And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
+and attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
 Bitmap $i$ has a 1 in position $j$ if row $j$ has $A = v_i$.
 
 **Use case:** Low-cardinality columns (gender, status, country). Bitmap indexes support fast bitwise
@@ -1262,7 +1262,7 @@ Access the same data item, and at least one is a write. A schedule is conflict-s
 
 _Proof sketch._ If the precedence graph has a cycle, no serial ordering can respect all the
 Precedence constraints, so the schedule is not conflict-serialisable. Conversely, a topological sort
-Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
+of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
 
 **View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
 Serial schedule $S'$. View equivalence requires:
@@ -1272,7 +1272,7 @@ Serial schedule $S'$. View equivalence requires:
 3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$ It does so in $S'$.
 
 Every conflict-serialisable schedule is view-serialisable, but the converse does not hold. Testing
-For view serialisability is NP-complete.
+for view serialisability is NP-complete.
 
 <details>
 <summary>Worked Example 6.1: Testing Conflict Serialisability</summary>
@@ -1666,7 +1666,7 @@ via the network. This is the dominant architecture for distributed databases.
 ### 9.2 Distributed Transactions
 
 A distributed transaction involves operations on multiple nodes. The challenge is ensuring atomicity
-Across nodes.
+across nodes.
 
 **Two-Phase Commit (2PC).**
 
@@ -1679,7 +1679,7 @@ Across nodes.
 Permanently and the log is on stable storage.
 
 _Proof._ If the coordinator crashes after phase 1, participants that voted `YES` are blocked -- they
-Cannot decide without knowing the coordinator's decision. Upon recovery, the coordinator reads its
+cannot decide without knowing the coordinator's decision. Upon recovery, the coordinator reads its
 Log to determine the decision and notifies participants. Since each participant wrote its vote to
 Stable storage before responding, no vote is lost. $\blacksquare$
 

@@ -118,7 +118,7 @@ Jim Crow operated across multiple dimensions:
 #### The Impact of World War II
 
 World War II was a catalyst for civil rights activism. Over one million African Americans served in
-The armed forces during a war fought against racist ideologies abroad. The "Double V" campaign --
+the armed forces during a war fought against racist ideologies abroad. The "Double V" campaign --
 Victory abroad against fascism, victory at home against racism -- captured this contradiction. The
 Migration of African Americans to northern and western industrial cities during the war (the Second
 Great Migration) increased black political power and created new constituencies for civil rights
@@ -151,8 +151,8 @@ Browder v. Gayle, ruling bus segregation unconstitutional.
 #### Little Rock Nine (1957)
 
 Governor Orval Faubus ordered the Arkansas National Guard to block nine African American students
-From entering Little Rock Central High School. President Eisenhower federalised the National Guard
-And sent the 101st Airborne Division to enforce the court order. The students endured a year of
+from entering Little Rock Central High School. President Eisenhower federalised the National Guard
+and sent the 101st Airborne Division to enforce the court order. The students endured a year of
 Daily harassment and violence. The crisis demonstrated that federal enforcement of Brown would face
 Sustained white resistance.
 
@@ -167,13 +167,13 @@ Student Nonviolent Coordinating Committee (SNCC) in April 1960.
 
 Organised by CORE and SNCC to test enforcement of Boynton v. Virginia (1960), which outlawed
 Segregation in interstate bus facilities. Riders were met with extreme violence in Alabama -- buses
-Were firebombed, riders beaten. The Kennedy administration intervened, sending federal marshals. The
+were firebombed, riders beaten. The Kennedy administration intervened, sending federal marshals. The
 Interstate Commerce Commission issued regulations prohibiting segregation in interstate travel.
 
 #### Birmingham Campaign (April--May 1963)
 
 Organised by King and the SCLC to target one of America's most segregated cities. The strategy was
-To provoke a crisis through nonviolent direct action. Commissioner "Bull" Connor responded with
+to provoke a crisis through nonviolent direct action. Commissioner "Bull" Connor responded with
 Spectacular brutality: fire hoses and attack dogs used against peaceful demonstrators, including
 Children, broadcast on national television. Birmingham's business leaders agreed to desegregate
 Facilities and hire African American workers.
@@ -315,7 +315,7 @@ of racial segregation to protect white supremacy and Afrikaner cultural dominanc
 All black South Africans were required to carry a passbook ("dompas") containing photograph,
 Fingerprints, employment record, and permission to be in a particular area. Failure to produce a
 Valid pass was a criminal offence. By the 1960s, approximately 250,000 people were arrested annually
-For pass law violations.
+for pass law violations.
 
 ### 3.2 Resistance and Key Events
 
@@ -331,7 +331,7 @@ approximately 100,000, but the government responded with harsh repression.
 
 Adopted at the Congress of the People in Kliptown on 26 June 1955. Core provisions: "South Africa
 Belongs to all who live in it, black and white"; "All shall be equal before the law"; "The land
-Shall be shared among those who work it." The Charter was the ANC's programme for a post-apartheid
+shall be shared among those who work it." The Charter was the ANC's programme for a post-apartheid
 South Africa and influenced the 1996 constitution.
 
 #### Sharpeville (21 March 1960)
@@ -362,7 +362,7 @@ Eight defendants, including Mandela, were sentenced to life imprisonment on Robb
 #### The Black Consciousness Movement and Steve Biko
 
 The Black Consciousness Movement (BCM), led by Steve Biko, emerged in the late 1960s. Biko argued
-That psychological liberation was essential: black South Africans had to overcome the internalised
+that psychological liberation was essential: black South Africans had to overcome the internalised
 Inferiority that apartheid had imposed. Biko was banned in 1973, detained under the Terrorism Act On
 18 August 1977, brutally beaten by police, and died in custody on 12 September 1977. He was 30 years
 old.
@@ -373,7 +373,7 @@ A spontaneous rebellion by schoolchildren against the imposition of Afrikaans as
 Instruction. Police opened fire on unarmed students, killing 13-year-old Hector Pieterson. The
 Uprising spread across townships; approximately 575 were killed (official figures). Television
 Coverage was broadcast worldwide, generating unprecedented international sympathy and contributing
-To the imposition of economic sanctions.
+to the imposition of economic sanctions.
 
 ### 3.3 Key Figures
 
@@ -548,7 +548,7 @@ Local activism.
   (Gail Gerhart, Tom Lodge) emphasises African agency and resistance.
 
 Strong essays acknowledge both perspectives and evaluate which was more significant in the context
-Of the specific question.
+of the specific question.
 
 ### 5.2 Role of Leadership vs Mass Movements
 

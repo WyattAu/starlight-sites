@@ -21,9 +21,9 @@ categories:
 ## Exception vs Error Hierarchy
 
 Dart draws a sharp line between two families of throwable objects: `Exception` and `Error`. This is
-Not a stylistic preference, it is a semantic contract. `Exception` means "something went wrong at
+not a stylistic preference, it is a semantic contract. `Exception` means "something went wrong at
 Runtime that a caller might reasonably recover from." `Error` means "the program has entered a state
-That indicates a programming bug, and recovery is not safe."
+that indicates a programming bug, and recovery is not safe."
 
 ### The Full Hierarchy
 
@@ -95,8 +95,8 @@ void processList(List<int> items) {
 
 Catching bare `catch (e)` without specifying a type will catch **both** `Exception` and `Error`.
 This is almost always wrong. It swallows `StackOverflowError``OutOfMemoryError`And other signals
-That the program is in an unrecoverable state. Always prefer `on Exception catch (e)` if you intend
-To handle runtime failures, and let `Error` propagate to the top-level handler.
+that the program is in an unrecoverable state. Always prefer `on Exception catch (e)` if you intend
+to handle runtime failures, and let `Error` propagate to the top-level handler.
 
 ## try / on / catch / finally
 
@@ -159,7 +159,7 @@ General ones.
 ### finally Always Runs
 
 The `finally` block executes regardless of whether an exception was thrown, caught, or not thrown at
-All. It runs even if a `catch` block returns or throws. This is the correct place for cleanup logic.
+all. It runs even if a `catch` block returns or throws. This is the correct place for cleanup logic.
 
 ```dart
 final file = File('data.bin');
@@ -329,7 +329,7 @@ void logAndRethrow() {
 
 `rethrow` re-throws the caught exception with its **original** stack trace intact. The resulting
 Trace points to the line inside `riskyOperation()` where the exception was originally thrown, not
-The `rethrow` line.
+the `rethrow` line.
 
 ### When to Use Each
 
@@ -367,7 +367,7 @@ Future<User> fetchUser(String id) async {
 
 A `StackTrace` is an opaque string-like object representing the call stack at the point of a throw.
 It is not parseable via a structured API, it is a formatted string that you read visually or send
-To an error reporting service.
+to an error reporting service.
 
 ```dart
 try {
@@ -435,7 +435,7 @@ A Dart stack trace frame has the format:
 ### Uncaught Async Errors
 
 In synchronous code, an uncaught exception crashes the isolate. In async code, the behavior depends
-On whether the `Future` has an error handler attached:
+on whether the `Future` has an error handler attached:
 
 ```dart
 // Synchronous, crashes immediately
@@ -528,7 +528,7 @@ Prints to stderr but does **not** terminate the isolate. This is by design, in a
 Application (Flutter), a single failed network request should not bring down the entire app.
 
 This means uncaught async errors are **silent by default**. The only output is a stderr print. This
-Is why you must either:
+is why you must either:
 
 1. Use `runZonedGuarded` to install a global error handler that reports to a crash reporting
    service.
@@ -562,7 +562,7 @@ controller.close();   // Stream closed
 ### onError Handler
 
 The `onError` callback in `listen()` handles error events. Without it, the error is dispatched to
-The zone's error handler.
+the zone's error handler.
 
 ### handleError()
 

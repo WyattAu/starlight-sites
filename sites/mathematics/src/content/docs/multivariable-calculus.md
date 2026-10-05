@@ -67,7 +67,7 @@ $$
 $$
 
 Similarly, by reversing the order of application, there exist $\theta_3, \theta_4 \in (0,1)$ such
-That
+that
 
 $$
 \Delta(h, k) = hk \cdot f_{yx}(a + \theta_3 h,\, b + \theta_4 k)
@@ -98,7 +98,7 @@ $$
 When $f$ is differentiable at $\mathbf{a}$ The linear map $L$ is given by the gradient.
 
 _Remark._ Existence of all partial derivatives at a point does **not** imply differentiability at
-That point. The canonical counterexample is
+that point. The canonical counterexample is
 
 $$
 f(x,y) = \begin{cases} \dfrac{xy}{x^2 + y^2} & \mathrm{if\ }(x,y) \neq (0,0), \\ 0 & \mathrm{if\ }(x,y) = (0,0). \end{cases}
@@ -173,7 +173,7 @@ $\lVert \nabla f \rVert$ Is the rate of steepest ascent.
 
 _Proof._ By the Cauchy--Schwarz inequality,
 $\lvert \nabla f \cdot \mathbf{u} \rvert \leq \lVert \nabla f \rVert \cdot \lVert \mathbf{u} \rVert = \lVert \nabla f \rVert$
-With equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
+with equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
 
 ### 1.6 Chain Rule
 
@@ -1094,7 +1094,7 @@ $$
 
 Where
 $\nabla \cdot \mathbf{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}$
-Is the divergence of $\mathbf{F}$.
+is the divergence of $\mathbf{F}$.
 
 _Proof (sketch for a Type I region)._ Assume $E$ is a Type I region:
 $E = \\{(x,y,z) : (x,y) \in D,\, g_1(x,y) \leq z \leq g_2(x,y)\\}$. The boundary consists of Bottom
@@ -1262,7 +1262,7 @@ The three major integral theorems of vector calculus are deeply connected:
 
 _Remark._ Green's theorem is the planar special case of Stokes' theorem. Stokes' theorem relates the
 Circulation around a curve to the curl through the surface it bounds. The divergence theorem relates
-The flux through a closed surface to the divergence inside the volume it encloses. Together, these
+the flux through a closed surface to the divergence inside the volume it encloses. Together, these
 Form the higher-dimensional analogues of the Fundamental Theorem of Calculus:
 
 $$
@@ -2323,7 +2323,7 @@ f(1/3, 1/3, -1/3) = \frac{1}{9} + \frac{1}{9} + \frac{1}{9} = \frac{1}{3}
 $$
 
 This is the minimum (the Hessian of $f$ is positive definite, and the constraint set is unbounded
-But $f \geq 0$).
+but $f \geq 0$).
 
 If you get this wrong, revise: Section 4.3 Lagrange Multipliers.
 

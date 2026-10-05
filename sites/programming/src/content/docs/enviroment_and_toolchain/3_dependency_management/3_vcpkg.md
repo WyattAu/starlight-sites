@@ -412,7 +412,7 @@ vcpkg export --output=vcpkg-export fmt nlohmann-json
 
 When a library is not available in the public vcpkg registry, or you need a custom fork, you can use
 **overlay ports**. An overlay port is a local directory containing a portfile that takes priority
-Over the registry.
+over the registry.
 
 ### Overlay Structure
 
@@ -454,12 +454,12 @@ cmake -S . -B build \
 ```
 
 Vcpkg resolves `my-custom-lib` from the overlay directory first, falling back to the public registry
-For all other packages.
+for all other packages.
 
 ### Overlay Precedence
 
 Overlay ports take precedence over registry ports. If an overlay defines a port with the same name
-As a registry port, the overlay version is used. This allows you to:
+as a registry port, the overlay version is used. This allows you to:
 
 1. Fork a library and use the fork instead of the upstream version.
 2. Apply patches to an existing port without modifying the vcpkg registry.
@@ -510,7 +510,7 @@ export VCPKG_BINARY_SOURCES="clear;files,$HOME/.cache/vcpkg,readwrite"
 ## 10. Portfile Structure
 
 Every vcpkg port is defined by a `portfile.cmake` that describes how to download, build, and install
-The package:
+the package:
 
 ```cmake
 # portfile.cmake structure (simplified)
@@ -600,7 +600,7 @@ In `vcpkg-configuration.json`:
 ```
 
 When vcpkg encounters `internal-logger` in the dependency list, it fetches the port definition from
-The private registry instead of the public Microsoft registry.
+the private registry instead of the public Microsoft registry.
 
 ## 12. CI Integration with vcpkg
 

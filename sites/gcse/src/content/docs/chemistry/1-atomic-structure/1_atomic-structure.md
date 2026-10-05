@@ -64,7 +64,7 @@ $$
 
 These three equations are foundational. The atomic number uniquely identifies an element: no two
 Elements share the same value of $Z$. The mass number, by contrast, can vary within a single element
-Because the number of neutrons is not fixed. This is the basis of isotopes.
+because the number of neutrons is not fixed. This is the basis of isotopes.
 
 **Notation:** An atom of element X with mass number $A$ and atomic number $Z$ is written as
 $\prescript{A}{Z}\mathrm{X$.
@@ -386,7 +386,7 @@ $$
 
 The word "weighted" is crucial. Relative atomic mass is not a simple average; it accounts for the
 Fact that some isotopes are much more abundant than others. A rare but heavy isotope contributes
-Less to the average than a common but lighter one.
+less to the average than a common but lighter one.
 
 ### 4.2 Calculating Relative Atomic Mass
 
@@ -487,7 +487,7 @@ Helps to explain why transition metals have variable oxidation states.
 
 As you descend the group, the outer electron is in a shell further from the nucleus. Even though the
 Nuclear charge increases, the extra inner shells provide significant shielding. The net effect is
-That the outer electron is less strongly held and is more lost. Since Group 1 metals react by Losing
+that the outer electron is less strongly held and is more lost. Since Group 1 metals react by Losing
 their outer electron, lower ionisation energy means greater reactivity.
 
 **Reactions with water:**
@@ -514,7 +514,7 @@ $$
 $$
 
 Potassium hydroxide and hydrogen gas are produced. The reaction is more vigorous than that of sodium
-Because potassium is more reactive.
+because potassium is more reactive.
 
 **Worked Example.** Write the balanced equation for lithium reacting with chlorine.
 
@@ -593,7 +593,7 @@ Properties:
 The variable oxidation states arise because transition metals have electrons in both the 4s and 3d
 Subshells, and electrons from both can be lost. Iron, for example, has the configuration
 $[\mathrm{Ar]\,4s^2 3d^6$. It can lose the two 4s electrons to form Fe$^{2+}$Or both 4s electrons
-And one 3d electron to form Fe$^{3+}$.
+and one 3d electron to form Fe$^{3+}$.
 
 ### 5.7 Comparing Group 1 Metals with Transition Metals
 
@@ -618,14 +618,14 @@ Lose 2 electrons to form a $2+$ ion, achieving the configuration of argon (2, 8,
 Charge of its ion.
 
 Period 4 means 4 shells. Group 7 means 7 outer electrons. Electron configuration: 2, 8, 8, 7. It
-Will gain 1 electron to form a $1-$ ion, achieving the configuration of krypton (2, 8, 18, 8).
+will gain 1 electron to form a $1-$ ion, achieving the configuration of krypton (2, 8, 18, 8).
 
 ## 6. Atomic Structure and Chemical Properties
 
 ### 6.1 Why Elements React
 
 Elements react in order to achieve a full outer shell of electrons (a stable electron configuration
-Like the noble gases). This drive towards stability is the fundamental explanation for all chemical
+like the noble gases). This drive towards stability is the fundamental explanation for all chemical
 Bonding and reactivity.
 
 - Metals **lose** electrons to form positive ions (cations)
@@ -708,8 +708,8 @@ Nucleus and is shielded by additional inner shells.
 ### 7.2 Successive Ionisation Energies
 
 Each successive ionisation energy is larger than the previous one because the remaining electrons
-Are held more tightly by an increasingly positive ion. Large jumps occur when an electron is removed
-From a new, inner shell.
+are held more tightly by an increasingly positive ion. Large jumps occur when an electron is removed
+from a new, inner shell.
 
 **Worked Example.** The first five ionisation energies of an element are: 578, 1817, 2745, 11578,
 14842 kJ/mol. Identify the group.
@@ -725,7 +725,7 @@ Spectrum shows peaks at different mass-to-charge ratios ($m/z$), and the height 
 Proportional to the abundance of that isotope.
 
 This is a more precise method than simple calculation from percentage abundances, and it is the way
-That relative atomic masses are measured in practice.
+that relative atomic masses are measured in practice.
 
 ### 7.4 Mass Spectrum Interpretation
 

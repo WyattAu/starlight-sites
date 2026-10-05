@@ -270,7 +270,7 @@ Production.
 - Bureaucratic inefficiency and red tape
 
 The **minimum efficient scale (MES)** is the lowest output at which LRAC is minimised. Firms that do
-Not reach MES may be unable to compete with larger rivals.
+not reach MES may be unable to compete with larger rivals.
 
 ### Revenue
 
@@ -387,7 +387,7 @@ Q = A \cdot K^\alpha \cdot L^\beta
 $$
 
 Where $A$ is total factor productivity, $\alpha$ is the output elasticity of capital, and $\beta$ is
-The output elasticity of labour.
+the output elasticity of labour.
 
 **Returns to scale with Cobb-Douglas:**
 
@@ -515,7 +515,7 @@ Marginal cost, and the equilibrium depends on the degree of differentiation.
 ### Stackelberg Duopoly
 
 In the Stackelberg model, one firm (the **leader**) moves first by choosing its quantity, and the
-Other firm (the **follower**) observes this and then chooses its quantity.
+other firm (the **follower**) observes this and then chooses its quantity.
 
 **Solution:**
 
@@ -622,7 +622,7 @@ Induction.
 ### First-Degree (Perfect) Price Discrimination
 
 The monopolist charges each consumer their exact maximum willingness to pay. The monopolist captures
-The entire consumer surplus.
+the entire consumer surplus.
 
 **Welfare effects:**
 
@@ -891,7 +891,7 @@ The proportion of economic rent to total income depends on the elasticity of the
 <summary>Problem 8: Consumer Choice and MRS</summary>
 
 A consumer has utility function $U = X \cdot Y$ and income $M = 200$. The price of $X$ is $P_X = 10$
-And the price of $Y$ is $P_Y = 5$.
+and the price of $Y$ is $P_Y = 5$.
 
 (a) Find the optimal consumption bundle.
 
@@ -1109,7 +1109,7 @@ A market has demand $Q_d = 100 - P$ and supply $Q_s = P - 20$.
 (a) Find the equilibrium and calculate total welfare (CS + PS).
 
 (b) The government imposes a price floor at $P = 65$ and purchases the resulting surplus. Calculate
-The change in welfare and the cost to the government.
+the change in welfare and the cost to the government.
 
 (c) Alternatively, the government provides a subsidy of `USD 10` per unit. Compare the welfare
 Effects with the price floor.
@@ -1313,7 +1313,7 @@ lower prices.
 <summary>Problem 10: Government Failure --- Cost-Benefit Analysis of Regulation</summary>
 
 The government regulates a monopoly to set $P = \text{AC}$. The monopoly has $\text{TC} = 100 + 5Q$
-And faces demand $P = 25 - Q$.
+and faces demand $P = 25 - Q$.
 
 (a) Compare the outcomes under: (i) unregulated monopoly, (ii) $P = \text{AC}$ regulation, (iii)
 $P = \text{MC}$ regulation.

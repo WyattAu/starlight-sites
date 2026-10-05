@@ -140,7 +140,7 @@ $ git filter-repo --path-glob '*.pem' --invert-paths
 ```
 
 The `--invert-paths` flag inverts the selection: `--path X --invert-paths` means "keep everything
-Except X." Without `--invert-paths``--path X` means "keep only X."
+except X." Without `--invert-paths``--path X` means "keep only X."
 
 After removing files, commits that become empty (they only touched the removed files) are also
 Removed. This is the desired behavior, but it can be surprising if you expected those Commits to

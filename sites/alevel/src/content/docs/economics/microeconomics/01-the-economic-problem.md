@@ -26,9 +26,9 @@ categories:
 
 We define **scarcity** as the condition in which human wants exceed the resources available to
 Satisfy them. Formally, if we denote the set of all desired goods and services by $\mathcal{W}$ and
-The set of all producible goods and services by $\mathcal{P}$ Then scarcity is the statement that
+the set of all producible goods and services by $\mathcal{P}$ Then scarcity is the statement that
 $\mathcal{W} \supsetneq \mathcal{P}$. This is not a temporary condition, it is a permanent feature
-Of human existence, because wants are effectively unlimited while resources (land, labour, capital,
+of human existence, because wants are effectively unlimited while resources (land, labour, capital,
 Entrepreneurship) are finite.
 
 Scarcity is the fundamental constraint that makes economics a discipline. Without scarcity, every
@@ -36,7 +36,7 @@ Want could be satisfied simultaneously and there would be no need to choose, all
 
 :::note
 The start of the syllabus. CIE (9708) Paper 1 frequently opens with MCQs testing precise definitions
-Of scarcity and opportunity cost.
+of scarcity and opportunity cost.
 :::
 
 ### 1.2 Choice
@@ -49,7 +49,7 @@ Maximises an objective function subject to constraints.
 ### 1.3 Opportunity Cost
 
 We define the **opportunity cost** of a decision as the value of the next-best alternative forgone
-As a result of that decision.
+as a result of that decision.
 
 $$
 \mathrm{Opportunity cost of } A = \max_{B \neq A} \{U(B)\}
@@ -99,7 +99,7 @@ Horizons.
 The concept of opportunity cost, while fundamental, has limitations. In practice, measuring the
 "value" of the next-best alternative is often subjective and difficult to quantify. How does one
 Compare the utility of three years of travel against three years of work experience? The assumption
-That individuals can identify and rank all alternatives is itself questionable, behavioural
+that individuals can identify and rank all alternatives is itself questionable, behavioural
 Economics shows that people suffer from _choice overload_ and often fail to consider relevant
 Alternatives (Simon, 1955). Furthermore, in macroeconomic policy, the "next-best alternative" is
 Itself contested: economists disagree on what the government _would have done_ with resources not
@@ -109,7 +109,7 @@ Spent on a particular programme, making opportunity cost estimates inherently de
 
 A **rational economic agent** seeks to maximise utility (for consumers) or profit (for firms)
 Subject to constraints. For a consumer choosing between goods $x$ and $y$ at prices $P_x$ and $P_y$
-With income $M$:
+with income $M$:
 
 $$
 \begin{aligned}
@@ -139,7 +139,7 @@ Questions.
 
 Consider an economy that produces two goods, $X$ and $Y$ Using a fixed quantity of resources. We
 Define the **production possibility frontier (PPF)** as the set of all maximum combinations of $X$
-And $Y$ that the economy can produce when all resources are fully and efficiently employed.
+and $Y$ that the economy can produce when all resources are fully and efficiently employed.
 
 $$
 \mathrm{PPF} = \{(x, y) : x = f_X(L_X), \; y = f_Y(L_Y), \; L_X + L_Y = \bar{L}, \; f'_X, f'_Y > 0\}
@@ -216,7 +216,7 @@ Where $\mathrm{MRT}_{XY} = \left|\frac{dy}{dx}\right|$ is the slope of the PPF a
 $\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}$ is the ratio of marginal utilities.
 
 A point inside the PPF represents inefficiency, resources are unemployed or misallocated. A point
-Outside the PPF is unattainable given current resources and technology.
+outside the PPF is unattainable given current resources and technology.
 
 <details>
 <summary>Example: PPF Analysis</summary>
@@ -243,17 +243,17 @@ Cost rises as gun production increases.
 **Productive inefficiency** is widespread during economic downturns. The UK during the 2008
 Financial crisis is a clear example: GDP fell by over 6% from peak to trough, representing a
 Movement inside the PPF as workers and factories sat idle. The COVID-19 pandemic in 2020 produced an
-Even sharper contraction, the UK economy shrank by 9.9% in a single year as lockdowns forced
+even sharper contraction, the UK economy shrank by 9.9% in a single year as lockdowns forced
 Businesses to close.
 
 **Allocative inefficiency** can occur even when an economy is on its PPF. Consider an economy at
 Full employment that devotes the majority of output to military spending rather than healthcare or
 Education. It is productively efficient (on the frontier) but allocatively inefficient if society
-Would prefer more civilian goods. The Soviet Union in the 1970s and 1980s exemplified this: high
+would prefer more civilian goods. The Soviet Union in the 1970s and 1980s exemplified this: high
 Military output alongside chronic shortages of consumer goods.
 
 The concept of **Pareto efficiency** is closely related: an allocation is Pareto efficient if no one
-Can be made better off without making someone else worse off. Every point on the PPF is Pareto
+can be made better off without making someone else worse off. Every point on the PPF is Pareto
 Efficient in production, but different points on the PPF represent different distributions of output
 - and hence different distributions of welfare between consumers of $X$ and $Y$.
 
@@ -271,13 +271,13 @@ The PPF can shift due to:
 #### Evaluation of PPF Shifts
 
 Not all PPF shifts are equally beneficial. An outward shift driven by capital accumulation may come
-At the cost of current consumption (the classic guns vs butter trade-off). An economy that invests
+at the cost of current consumption (the classic guns vs butter trade-off). An economy that invests
 Heavily in capital goods today sacrifices current living standards for future growth, but if the
 Investment is misdirected (e.g., ghost cities in China), the outward shift may not materialise.
 Similarly, resource discovery (such as North Sea oil in the 1970s) can shift the PPF outward but may
-Also cause "Dutch disease", the resource sector crowds out manufacturing, leading to
+also cause "Dutch disease", the resource sector crowds out manufacturing, leading to
 Deindustrialisation. The net effect on welfare depends on how the additional output is distributed
-And whether it satisfies society's most pressing needs.
+and whether it satisfies society's most pressing needs.
 
 ### 2.5 Economic Systems
 
@@ -320,13 +320,13 @@ The comparison between economic systems is more nuanced than the textbook model 
 Command and pure market economies are theoretical extremes, no real economy operates at either
 Pole. China's economy, for instance, combines state-owned enterprises in strategic sectors with
 Vigorous private enterprise in consumer goods and technology. The "information problem" identified
-By Hayek (1945) and Mises (1920) remains the strongest theoretical argument against central
+by Hayek (1945) and Mises (1920) remains the strongest theoretical argument against central
 Planning: no planner can possess the dispersed, tacit knowledge held by millions of individuals.
 However, market economies also suffer from information problems, asymmetric information between
 Buyers and sellers can lead to market failure (Akerlof, 1970). The optimal degree of government
 Intervention remains one of the central debates in economics and depends on the specific context:
 The effectiveness of institutions, the nature of the goods being produced, and societal values
-Regarding equity and freedom.
+regarding equity and freedom.
 
 :::note
 Economic systems together, often asking 9-mark questions comparing market and command economies.
@@ -341,14 +341,14 @@ Essay questions frequently ask students to assess the relative merits of differe
 ### 3.1 Definitions
 
 A **positive statement** is a claim about what _is_, it can be tested against evidence and is
-Either true or false.
+either true or false.
 
 $$
 \mathrm{Example: "A 10\% increase in the minimum wage reduces employment by 2\%."}
 $$
 
 A **normative statement** is a claim about what _ought to be_, it involves value judgements and
-Cannot be tested.
+cannot be tested.
 
 $$
 \mathrm{Example: "The government should increase the minimum wage."}
@@ -388,11 +388,11 @@ While the positive-normative distinction is a useful analytical tool, it is not 
 Practice. Some statements blend positive and normative elements. For example, "The government should
 Raise the minimum wage because it reduces poverty" contains a normative claim ("should raise")
 Embedded within a positive claim ("reduces poverty"). The effectiveness of the positive claim does
-Not settle the normative debate, even if a minimum wage reduces poverty, one could still argue
-Against it on the grounds that it causes unemployment. Furthermore, the choice of what to study (the
+not settle the normative debate, even if a minimum wage reduces poverty, one could still argue
+against it on the grounds that it causes unemployment. Furthermore, the choice of what to study (the
 Research agenda itself) is shaped by normative concerns. Economists who prioritise research into
 Inequality are making a value judgement about what matters. The positive-normative distinction is
-Therefore best understood as a continuum rather than a binary classification.
+therefore best understood as a continuum rather than a binary classification.
 
 :::note
 Positive-normative distinction, with 2-4 mark MCQs or short-answer questions asking Students to
@@ -413,11 +413,11 @@ We define the four factors of production:
 
 **Key distinction**: Capital is _produced_ (it is itself an output of the production process),
 Whereas land and labour are not. Entrepreneurship is a form of human capital but is distinguished
-Because it involves decision-making under uncertainty.
+because it involves decision-making under uncertainty.
 
 :::note
 Rewards explicitly in the specification and frequently asks students to identify which factor is
-Being described in a given scenario. AQA (4.1.1.1) covers factors of production within the broader
+being described in a given scenario. AQA (4.1.1.1) covers factors of production within the broader
 Topic of scarcity and choice. CIE (9708) expects students to distinguish between factor rewards and
 Understand the concept of factor mobility. OCR (H460) may ask students to explain how changes in the
 Quantity or quality of a factor of production affect the PPF.
@@ -444,7 +444,7 @@ Stops), risk of structural unemployment if demand patterns change.
 #### Real-World Examples of Specialisation
 
 Adam Smith's pin factory remains the classic example: a single worker could produce perhaps 20 pins
-Per day, but 10 workers specialising in distinct tasks (drawing wire, cutting, pointing, grinding,
+per day, but 10 workers specialising in distinct tasks (drawing wire, cutting, pointing, grinding,
 Heading, whitening, papering) could produce over 48,000 pins per day. In modern economies,
 Specialisation extends far beyond individual workers:
 
@@ -461,7 +461,7 @@ Specialisation extends far beyond individual workers:
 While specialisation drives productivity gains, it carries significant risks. Excessive
 Specialisation makes workers vulnerable to structural unemployment when technology or demand
 Changes. The decline of manufacturing employment in the UK (from over 25% of the workforce in 1979
-To under 8% today) illustrates this: workers with highly specific skills struggled to find new
+to under 8% today) illustrates this: workers with highly specific skills struggled to find new
 Employment when factories closed. Moreover, extreme division of labour can lead to **alienation**,
 A concept developed by Karl Marx, where workers lose connection to the final product and find their
 Work meaningless. Henry Ford's assembly lines achieved extraordinary productivity but also produced
@@ -475,7 +475,7 @@ education systems, social safety nets).
 Division of labour, with AQA placing more emphasis on the link to international trade and Edexcel
 Focusing on the efficiency gains within firms. CIE (9708) Paper 2 may ask students to evaluate the
 Effects of specialisation on an economy. OCR (H460) often links specialisation to broader questions
-About globalisation and its discontents.
+about globalisation and its discontents.
 :::
 
 ## 6. Critical Evaluation
@@ -554,7 +554,7 @@ This is an asymmetric shock, it affects food production capacity but not directl
 
 **Problem 5.** Classify each statement as positive or normative, explaining your reasoning: (a) "The
 UK's Gini coefficient is 0.35." (b) "A Gini coefficient of 0.35 is unacceptable." (c) "Increasing
-The income tax rate to 50% for earners above £100,000 would raise £5 billion." (d) "The government
+the income tax rate to 50% for earners above £100,000 would raise £5 billion." (d) "The government
 Ought to raise taxes on the wealthy."
 
 <details>
@@ -564,7 +564,7 @@ Ought to raise taxes on the wealthy."
 
 **Problem 6.** Using the PPF model, explain how an increase in the quality of education (e.g., more
 Graduates) would affect an economy's capacity to produce both consumer goods and capital goods in
-The long run.
+the long run.
 
 <details>
 <summary>Hint</summary>

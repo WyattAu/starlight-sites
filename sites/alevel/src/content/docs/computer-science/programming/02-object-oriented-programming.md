@@ -422,7 +422,7 @@ for shape in shapes:
 
 The loop iterates over a list of `Shape` objects (actually `Rectangle` and `Circle` instances). When
 `shape.area()` is called, Python determines at **runtime** which `area()` method to invoke based on
-The actual type of the object:
+the actual type of the object:
 
 - For the `Rectangle`: calls `Rectangle.area()` → $3 \times 4 = 12$
 - For the `Circle`: calls `Circle.area()` → $\pi \times 25 \approx 78.54$

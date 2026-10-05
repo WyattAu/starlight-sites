@@ -23,7 +23,7 @@ categories:
 
 Dart 3 introduces class modifiers, keywords that restrict how a class can be used by other
 Libraries. Before Dart 3, any class could be extended, implemented, or mixed in by any library. This
-Was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
+was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
 
 The problem: maximum flexibility is maximum liability. Library authors could not prevent misuse of
 Their APIs. A class designed for inheritance could be `implement`-ed (losing all behavior). A class
@@ -274,7 +274,7 @@ interface class Hashable {
 ### `interface` with Default Implementations
 
 An `interface class` can have concrete methods. External code cannot access them via `extends`But
-They are available to subtypes within the same library:
+they are available to subtypes within the same library:
 
 ```dart
 interface class Loggable {
@@ -426,7 +426,7 @@ class Link extends Object with Hoverable {
 ### Restrictions on `mixin class`
 
 A `mixin class` cannot have a generative constructor that takes parameters (because mixins cannot
-Have parameterized constructors):
+have parameterized constructors):
 
 ```dart
 // OK, no constructor or parameterless constructor
@@ -464,7 +464,7 @@ The constructor is available normally.
 
 **When to use `mixin class`**: When you have behavior that can be used both standalone (as a class)
 And composed (as a mixin). For example, a `Serializable` class that can be used directly or mixed
-Into other classes.
+into other classes.
 
 **When to use plain `mixin`**: When the behavior is purely additive and should never be instantiated
 On its own. For example, a `Logging` mixin that adds logging methods to classes.
@@ -512,7 +512,7 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 
 `sealed` can combine with `base``interface``final`And `mixin` (e.g., `sealed interface`
 `sealed mixin class`). These combinations restrict subtypes to the same library while also applying
-The additional modifier's semantics.
+the additional modifier's semantics.
 
 ### `sealed interface`
 
@@ -753,7 +753,7 @@ Implementation that must be preserved through inheritance, use `base`.
 ### 2. Adding Modifiers to Existing Public APIs Without Bumping Major Version
 
 This is a breaking change. If you add `base` to a class in version 1.2.0, and a downstream package
-Was `implement`-ing it, their code breaks. Follow semver, this requires a major version bump.
+was `implement`-ing it, their code breaks. Follow semver, this requires a major version bump.
 
 ### 3. `final` Does Not Propagate
 
@@ -830,7 +830,7 @@ class MyService implements Service {} // COMPILE ERROR
 ```
 
 The modifier applies to the abstract class itself. `abstract base` means "abstract AND base", you
-Cannot instantiate it directly, and external code must extend it.
+cannot instantiate it directly, and external code must extend it.
 
 ### 7. Constructors in `interface` Classes
 
@@ -850,7 +850,7 @@ class MyBuilder implements Builder {
 
 `implements` does not inherit constructors. The implementing class must declare its own
 Constructors. This is not specific to `interface`it has always been true for `implements`. But
-With `interface`It is the only option.
+with `interface`It is the only option.
 
 ### 8. Modifiers and `part` Files
 
@@ -889,7 +889,7 @@ class Dog extends Animal {
 ```
 
 If you want to prevent method overriding, use `@nonVirtual` annotation (from `package:meta`) or make
-The method non-virtual by design.
+the method non-virtual by design.
 
 ### 10. Combining with `abstract`
 
@@ -934,7 +934,7 @@ class TestApiClient extends ApiClient {
 ```
 
 `final` only restricts external code. Within the same library, you can extend `final` classes. This
-Is useful for test doubles and internal implementation variants.
+is useful for test doubles and internal implementation variants.
 
 
 ```mermaid

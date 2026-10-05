@@ -21,7 +21,7 @@ categories:
 ## Pointer Basics
 
 Go has pointers, but no pointer arithmetic (except via `unsafe`). Pointers hold the memory address
-Of a value.
+of a value.
 
 ```go
 x := 42
@@ -59,7 +59,7 @@ fmt.Println(x) // 43
 ### Returning Pointers to Local Variables
 
 Go allows returning pointers to local variables. The compiler performs escape analysis and allocates
-The variable on the heap if it escapes:
+the variable on the heap if it escapes:
 
 ```go
 func newInt() *int {
@@ -112,7 +112,7 @@ fmt.Println(alice.Age) // 31 -- changed
 ## Escape Analysis
 
 The Go compiler uses escape analysis to determine whether a variable can live on the stack or must
-Be allocated on the heap. A variable "escapes" if it is reachable after the function returns.
+be allocated on the heap. A variable "escapes" if it is reachable after the function returns.
 
 ### What Causes Heap Allocation
 
@@ -179,7 +179,7 @@ Extremely deep recursion (millions of frames) may exhaust memory.
 ## The unsafe Package
 
 The `unsafe` package provides operations that bypass Go's type safety. It should be used sparingly
-And only when interfacing with C or implementing low-level data structures.
+and only when interfacing with C or implementing low-level data structures.
 
 ### Pointer Arithmetic
 

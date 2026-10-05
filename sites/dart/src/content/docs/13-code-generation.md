@@ -250,7 +250,7 @@ void main() {
 ### Union Types
 
 `freezed` excels at modeling sealed class hierarchies, union types where a value can be one of
-Several variants:
+several variants:
 
 ```dart
 import "package:freezed_annotation/freezed_annotation.dart';
@@ -864,7 +864,7 @@ dart run build_runner watch --delete-conflicting-outputs
 
 Watch mode monitors all files in the project and triggers regeneration when annotated source files
 Change. This is useful during active model development but consumes resources, consider stopping it
-When working on unrelated files.
+when working on unrelated files.
 
 ### Cleaning Stale Generated Files
 
@@ -1031,7 +1031,7 @@ Check the builder package's changelog for compatible `build_runner` versions.
 ### Watching Too Many Files (Performance)
 
 `build_runner watch` monitors all files in the project by default. In large monorepos or projects
-With many assets, this causes excessive file system activity:
+with many assets, this causes excessive file system activity:
 
 ```bash
 # Limit watch scope with generate_for in build.yaml
@@ -1093,7 +1093,7 @@ part 'user.freezed.dart';
 ### Mixing Annotation Packages
 
 Using `freezed` with `json_serializable` requires specific import and part configuration. Forgetting
-The `@JsonSerializable` integration step or missing the `.g.dart` part directive causes partial
+the `@JsonSerializable` integration step or missing the `.g.dart` part directive causes partial
 Generation:
 
 ```dart

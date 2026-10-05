@@ -58,7 +58,7 @@ Identifying similarities or trends in data or problems.
 
 **Example (OL):** When processing exam results, notice that the same steps apply to each subject:
 Read marks, calculate average, assign grade. The pattern can be generalised into a single function
-That accepts different data.
+that accepts different data.
 
 **Example (HL):** In a shopping system, the pattern for processing orders is the same regardless of
 Product type: validate order, check stock, process payment, generate receipt. A single
@@ -417,7 +417,7 @@ print(f"Change: {change}")
 
 :::caution
 Denominations {1, 3, 4} and amount 6, the greedy approach gives 4 + 1 + 1 (3 coins), but the optimal
-Is 3 + 3 (2 coins).
+is 3 + 3 (2 coins).
 
 **Proof that greedy fails for {1, 3, 4} with amount 6.** Greedy: pick 4 (amount=2), pick 1
 (amount=1), pick 1 (amount=0). Total: 3 coins. Optimal: pick 3 (amount=3), pick 3 (amount=0). Total:

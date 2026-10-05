@@ -404,7 +404,7 @@ Are diamonds between entities. Primary keys are shown as underlined attributes. 
 Referential integrity ensures that relationships between tables remain consistent. Every foreign key
 Value must match a primary key value in the referenced table (or be NULL). Common rules: **ON DELETE
 CASCADE** (delete referencing rows when parent is deleted), **ON DELETE RESTRICT** (prevent deletion
-Of parent if dependent rows exist). Violating referential integrity produces orphan records.
+of parent if dependent rows exist). Violating referential integrity produces orphan records.
 
 ### Normalization
 
@@ -429,7 +429,7 @@ Must depend directly on the primary key, not through another non-key attribute.
 | 3      | Bob        | <bob@school.com>   | Calculus  | Stewart | Textbook |
 
 This is in 1NF but not 3NF. MemberEmail depends on MemberName (not LoanID), and Author/Genre depend
-On BookTitle. These are transitive dependencies. Resolution, split into three tables:
+on BookTitle. These are transitive dependencies. Resolution, split into three tables:
 
 **Members table** (PK: MemberID):
 
@@ -579,7 +579,7 @@ Attacker to manipulate query logic. Example: `user_input` = `" OR '1'='1` in
 ### Overview
 
 The IA is worth 30% of your final IB Computer Science grade. You must develop a computing solution
-For a specified client, documented through five assessment criteria.
+for a specified client, documented through five assessment criteria.
 
 ### Criterion A: Planning (6 marks)
 
@@ -639,19 +639,19 @@ A company is developing a new online booking system for a hotel chain.
 <details>
 
 Testing verifies that the system meets requirements and functions correctly, identifying defects
-Before deployment. It ensures the system handles edge cases and invalid input gracefully, reducing
-The cost of fixing errors found after release.
+before deployment. It ensures the system handles edge cases and invalid input gracefully, reducing
+the cost of fixing errors found after release.
 
 </details>
 
 (b) The development team discovers during development that the original requirements did not account
-For mobile users. State which SDLC model would best accommodate this change and justify.
+for mobile users. State which SDLC model would best accommodate this change and justify.
 
 <details>
 
 Agile. Agile uses iterative development in short sprints, allowing requirements to be re-prioritized
-And new features added in subsequent iterations. Waterfall would be poorly suited because it does
-Not accommodate changes to earlier phases once completed.
+and new features added in subsequent iterations. Waterfall would be poorly suited because it does
+not accommodate changes to earlier phases once completed.
 
 </details>
 
@@ -698,7 +698,7 @@ A school stores the following unnormalized data about student enrollments:
 
 The table has transitive dependencies. StudentName depends on StudentID (not the composite PK), and
 CourseName, TeacherName, Room all depend on CourseCode. These non-key attributes do not depend fully
-On the primary key (StudentID + CourseCode).
+on the primary key (StudentID + CourseCode).
 
 </details>
 
@@ -735,7 +735,7 @@ On the primary key (StudentID + CourseCode).
 A library management system has the following actors: Member, Librarian, System Administrator.
 
 Members can search for books, borrow books, and return books. Librarians can do everything members
-Can do, plus add new books, remove books, and generate reports. System Administrators can manage
+can do, plus add new books, remove books, and generate reports. System Administrators can manage
 User accounts and view system logs.
 
 (a) Describe how inheritance is represented in this use case diagram.
@@ -744,7 +744,7 @@ User accounts and view system logs.
 
 The Librarian inherits from Member, meaning it can perform all Member use cases (search, borrow,
 Return) plus its own (add book, remove book, generate reports). In UML, this is an open-headed arrow
-From Librarian to Member indicating generalization.
+from Librarian to Member indicating generalization.
 
 </details>
 
@@ -787,7 +787,7 @@ Access control lists restricting who can modify the enrollment database.
 
 SQL injection prevention: Without input validation, a malicious user could inject SQL (e.g.,
 `'; DROP TABLE assignments; --`) into form fields. Input validation checks for expected characters
-And lengths. Parameterized queries ensure user input is treated as data, never as executable SQL.
+and lengths. Parameterized queries ensure user input is treated as data, never as executable SQL.
 
 </details>
 

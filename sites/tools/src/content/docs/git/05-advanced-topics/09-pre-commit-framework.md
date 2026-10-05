@@ -40,7 +40,7 @@ The framework provides:
 
 The `pre-commit` framework is not the same as the `pre-commit` Git hook. The framework installs
 Itself as the `pre-commit` hook in `.git/hooks/` and then orchestrates all configured hooks from
-There. One hook file delegates to many.
+there. One hook file delegates to many.
 
 ## Installation
 
@@ -234,7 +234,7 @@ This is how conventional commit validators work.
 ### Local Hooks
 
 The special `repo: local` entry defines hooks that run directly on the host system without cloning
-An external repository:
+an external repository:
 
 ```yaml
 repos:
@@ -258,7 +258,7 @@ repos:
 ## Built-in Hooks
 
 The `pre-commit-hooks` repository (`https://github.com/pre-commit/pre-commit-hooks`) is maintained
-By the pre-core team and provides the most widely-used hooks. Pin to a specific tag:
+by the pre-core team and provides the most widely-used hooks. Pin to a specific tag:
 
 ```yaml
 repos:
@@ -401,7 +401,7 @@ repos:
 
 **Note**: The `mirrors-*` repositories are maintained by the pre-commit team and provide pre-built
 Hooks for tools that do not natively support the pre-commit framework. For ESLint, you may also use
-The npm-based approach with `language: node` and `additional_dependencies`.
+the npm-based approach with `language: node` and `additional_dependencies`.
 
 ### Shell Scripts
 
@@ -535,7 +535,7 @@ repos:
 ```
 
 The `language: script` type means the entry point is a script that will be executed directly. It
-Must be executable (`chmod +x`).
+must be executable (`chmod +x`).
 
 ### Python Hook
 
@@ -597,7 +597,7 @@ repos:
 ### System Language Hooks
 
 The `language: system` type runs the entry command directly on the host. This is useful for tools
-That are already installed globally:
+that are already installed globally:
 
 ```yaml
 repos:
@@ -708,7 +708,7 @@ $ pre-commit run --from-ref origin/main --to-ref HEAD
 ### Updating Hook Environments
 
 When you modify `.pre-commit-config.yaml` (add a new hook, change a version), the framework detects
-The change and reinstalls affected hooks on the next run:
+the change and reinstalls affected hooks on the next run:
 
 ```bash
 # Force reinstall all hook environments
@@ -907,7 +907,7 @@ jobs:
 ### Hooks Run on Staged Content, Not the Working Tree
 
 This is the most common source of confusion. The `pre-commit` framework stages files internally
-Before running hooks. If you edit a file after staging it, the hook sees the **staged** version, not
+before running hooks. If you edit a file after staging it, the hook sees the **staged** version, not
 Your latest edit. Fix: run `git add` again after editing.
 
 ### The Framework Creates Isolated Virtual Environments
@@ -930,13 +930,13 @@ git commit --no-verify -m "skip hooks"
 
 This bypasses all hooks. The framework cannot prevent this, it is a fundamental limitation of
 Client-side hooks. If you need to enforce hook execution, run `pre-commit run --all-files` in CI. CI
-Is the enforcement layer; local hooks are the convenience layer.
+is the enforcement layer; local hooks are the convenience layer.
 
 ### `--all-files` in CI Masks Incremental Issues
 
 Running `pre-commit run --all-files` in CI checks every file, not just the changed ones. This is
 Correct for CI (you want to catch all issues), but it means a CI failure may be caused by a file
-That was not modified in the PR. Use `--from-ref origin/main --to-ref HEAD` to limit CI checks to
+that was not modified in the PR. Use `--from-ref origin/main --to-ref HEAD` to limit CI checks to
 Changed files only.
 
 ### Mirror Repositories Can Be Outdated
@@ -976,7 +976,7 @@ chmod +x scripts/check-no-debug.sh
 ### The `exclude` Pattern Applies to the Full File Path
 
 When you write `exclude: 'vendor/'`It matches the full path relative to the repository root, not
-Just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
+just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
 `pre-commit run --verbose` to see which files are being passed to each hook.
 
 

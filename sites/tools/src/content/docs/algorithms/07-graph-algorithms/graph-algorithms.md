@@ -27,8 +27,8 @@ description: "Study notes for Graph Algorithms with worked examples, practice pr
 ### Dijkstra's Algorithm
 
 Dijkstra's algorithm finds the shortest path from a single source to all other vertices in a graph
-With non-negative edge weights. It uses a greedy strategy: always process the unvisited vertex with
-The smallest known distance.
+with non-negative edge weights. It uses a greedy strategy: always process the unvisited vertex with
+the smallest known distance.
 
 ```python
 import heapq
@@ -76,7 +76,7 @@ def reconstruct_path(prev, target):
 
 **Why Dijkstra fails with negative edges:** Dijkstra's greedy choice assumes that once a vertex is
 Processed, its distance is final. With negative edges, a shorter path may be discovered later
-Through a vertex that has already been processed.
+through a vertex that has already been processed.
 
 | Graph Type                   | Dijkstra                         | Bellman-Ford              | Floyd-Warshall |
 | ---------------------------- | -------------------------------- | ------------------------- | -------------- |
@@ -515,8 +515,8 @@ def ford_fulkerson(n, capacity, source, sink):
 ### Edmonds-Karp Algorithm
 
 Edmonds-Karp is Ford-Fulkerson where the augmenting path is found using BFS (shortest path in terms
-Of number of edges). This guarantees $O(VE^2)$ time complexity and always terminates (even with
-Non-integer capacities).
+of number of edges). This guarantees $O(VE^2)$ time complexity and always terminates (even with
+non-integer capacities).
 
 ### Max-Flow Min-Cut Theorem
 
@@ -638,7 +638,7 @@ Uses at most $\Delta + 1$ colors, and for most graphs, $\Delta$ colors.
 ## Travelling Salesman Problem (TSP)
 
 Given a complete graph with weighted edges, find the Hamiltonian cycle of minimum total weight. TSP
-Is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$ Feasible for $n \le 20$).
+is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$ Feasible for $n \le 20$).
 
 ### Approximation Algorithms
 
@@ -765,10 +765,10 @@ Graph, collect the modifications and apply them after the traversal completes.
 ### 8. Ignoring Edge Cases in Flow Networks
 
 Ford-Fulkerson may not terminate with irrational capacities (the flow can converge without reaching
-The maximum). Edmonds-Karp (BFS-based) always terminates with $O(VE^2)$ complexity. For integer
+the maximum). Edmonds-Karp (BFS-based) always terminates with $O(VE^2)$ complexity. For integer
 Capacities, Ford-Fulkerson terminates in $O(E \cdot f^*)$ where $f^*$ is the max flow value, this
-Can be exponential. Always use Edmonds-Karp or Dinic's algorithm unless you have a specific reason
-Not to.
+can be exponential. Always use Edmonds-Karp or Dinic's algorithm unless you have a specific reason
+not to.
 
 ## Dinic's Algorithm
 
@@ -1004,7 +1004,7 @@ def two_sat(n_vars, clauses):
 ```
 
 The key theorem: a 2-SAT formula is satisfiable if and only if no variable and its negation are in
-The same strongly connected component. This gives a linear-time algorithm for a problem that is
+the same strongly connected component. This gives a linear-time algorithm for a problem that is
 NP-hard for 3-SAT.
 
 ```mermaid

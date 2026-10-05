@@ -26,7 +26,7 @@ categories:
 Dependency Injection (DI) is a design pattern that implements **Inversion of Control (IoC)**:
 Instead of a class creating its own dependencies, they are provided from the outside. This decouples
 Consumers from concrete implementations and is fundamental to writing testable, maintainable Dart
-And Flutter code.
+and Flutter code.
 
 ### Core Principles
 
@@ -233,7 +233,7 @@ class NotificationService {
 ## Service Locator Pattern
 
 A service locator is a central registry where objects register their dependencies and look them up
-At runtime. In Dart, `GetIt` is the canonical service locator.
+at runtime. In Dart, `GetIt` is the canonical service locator.
 
 ### How It Works
 
@@ -664,7 +664,7 @@ abstract class RegisterModule {
 ## Riverpod as DI
 
 Riverpod is both a state management solution and a dependency injection framework. Providers serve
-As dependency containers with compile-time safety.
+as dependency containers with compile-time safety.
 
 ### Providers as Dependency Containers
 
@@ -1182,7 +1182,7 @@ class C {
 ### Singleton vs Factory for Testability
 
 Using singletons for everything makes tests interdependent. State leaks between tests if singletons
-Are not reset.
+are not reset.
 
 ```dart
 // DON'T, singleton for stateful service used in tests
@@ -1234,7 +1234,7 @@ setUp(() {
 ### Mixing DI Approaches Inconsistently
 
 Using `get_it` in one module and Riverpod in another creates confusion about where dependencies live
-And how they're resolved. Pick one primary approach and be consistent. If using Riverpod, prefer
+and how they're resolved. Pick one primary approach and be consistent. If using Riverpod, prefer
 Riverpod providers for all Flutter-specific dependencies and reserve `get_it` for non-Flutter Dart
 Services if needed.
 

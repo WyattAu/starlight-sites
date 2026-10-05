@@ -188,7 +188,7 @@ $$
 ### 3.5 Solving systems of linear equations
 
 A system $A\mathbf{x} = \mathbf{b}$ has a unique solution $\mathbf{x} = A^{-1}\mathbf{b}$ if and
-Only if $\det A \neq 0$.
+only if $\det A \neq 0$.
 
 If $\det A = 0$: either no solution (inconsistent) or infinitely many solutions (dependent).
 
@@ -244,7 +244,7 @@ An **invariant point** satisfies $A\mathbf{x} = \mathbf{x}$ I.e. $(A - I)\mathbf
 
 An **invariant line** is a line that is mapped to itself (points on the line may move along the
 Line). If $\mathbf{v}$ is a direction vector of the line, then $A\mathbf{v} = \lambda\mathbf{v}$ for
-Some scalar $\lambda$.
+some scalar $\lambda$.
 
 <hr />
 
@@ -353,7 +353,7 @@ Since $D^n$ is the diagonal matrix with each eigenvalue raised to the power $n$.
 
 :::caution
 Has a full set of linearly independent eigenvectors. A matrix with repeated eigenvalues may or may
-Not be diagonalisable.
+not be diagonalisable.
 :::
 
 <hr />
@@ -420,7 +420,7 @@ Fibonacci number.
 <summary>Solution</summary>
 
 Eigenvalues of $A$: $\lambda^2 - \lambda - 2 = 0 \implies \lambda = \frac{1 \pm 3}{2}$
-So $\lambda_1 = 2$, $\lambda_2 = -1$.
+so $\lambda_1 = 2$, $\lambda_2 = -1$.
 
 Eigenvectors: for $\lambda = 2$: $(1, 1)$; for $\lambda = -1$: $(-2, 1)$.
 
@@ -430,7 +430,7 @@ $P^{-1} = \frac{1}{3}\begin{pmatrix} 1 & 2 \\ -1 & 1 \end{pmatrix}$.
 $\begin{pmatrix} F_{n+1} \\ F_n \end{pmatrix} = A^n\begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
 
 This gives $F_n = \frac{2^n - (-1)^n}{3}$ (the Lucas sequence). For the standard Fibonacci sequence
-With $A = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$ The result is
+with $A = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$ The result is
 $F_n = \frac{\phi^n - \psi^n}{\sqrt{5}}$ where
 $\phi = \frac{1+\sqrt{5}}{2}$.
 
@@ -503,7 +503,7 @@ $|\det(A)|$.
 
 **Proof.** The unit square with vertices
 $\mathbf{0}, \mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_1 + \mathbf{e}_2$ is mapped to a parallelogram
-With vertices $\mathbf{0}, A\mathbf{e}_1, A\mathbf{e}_2, A\mathbf{e}_1 + A\mathbf{e}_2$.
+with vertices $\mathbf{0}, A\mathbf{e}_1, A\mathbf{e}_2, A\mathbf{e}_1 + A\mathbf{e}_2$.
 
 The area of this parallelogram is the magnitude of the cross product (in 2D, the determinant):
 
@@ -580,7 +580,7 @@ Eigenvector: $\begin{pmatrix} 1 \\ -1 \end{pmatrix}$.
 Only one independent eigenvector, so $A$ is not diagonalisable.
 
 **(b)** Since $A$ is not diagonalisable, we cannot find $P$ and $D$ in the usual way. The best we
-Can do is Jordan form, which is beyond A-Level scope.
+can do is Jordan form, which is beyond A-Level scope.
 
 **(c)** For $A^n$ with a non-diagonalisable $2 \times 2$ matrix with repeated eigenvalue $\lambda$:
 
@@ -599,7 +599,7 @@ $= \begin{pmatrix} 112 & 80 \\ -80 & -48 \end{pmatrix}$.
 ### Question 6
 
 **(a)** Find the $3 \times 3$ matrix $M$ that represents a rotation of $90^\circ$ anticlockwise
-About the $x$-axis.
+about the $x$-axis.
 
 **(b)** Verify that $\det(M) = 1$.
 
@@ -1011,7 +1011,7 @@ Since $\lambda_1 \neq \lambda_2$ The eigenvectors $\mathbf{v}_1$ and $\mathbf{v}
 $(A - \lambda_1 I)\mathbf{v}_1 = \mathbf{0}$ and $(A - \lambda_2 I)\mathbf{v}_2 = \mathbf{0}$.
 
 Suppose $\mathbf{v}_1$ and $\mathbf{v}_2$ are linearly dependent: $\mathbf{v}_2 = c\mathbf{v}_1$ for
-Some scalar $c$.
+some scalar $c$.
 
 Then $(A - \lambda_2 I)\mathbf{v}_1 = \mathbf{0}$ (dividing by $c$), which means $\lambda_1$ and
 $\lambda_2$ are both eigenvalues with eigenvector $\mathbf{v}_1$. But

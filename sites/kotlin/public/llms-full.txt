@@ -874,7 +874,7 @@ import Citations from '@components/Citations.astro'
 ## Overview
 
 Kotlin is a statically typed language targeting the JVM, Android, JavaScript, and native platforms
-Via LLVM. Developed by JetBrains, it was designed to address Java's verbosity, null safety issues,
+via LLVM. Developed by JetBrains, it was designed to address Java's verbosity, null safety issues,
 And lack of modern language features while maintaining full interoperability.
 
 Key design goals:
@@ -2967,7 +2967,7 @@ class OrderServiceTest {
 ### Relaxed Mocks
 
 A relaxed mock returns default values for all function calls without explicit stubbing. Useful when
-You only care about verifying specific interactions.
+you only care about verifying specific interactions.
 
 ```kotlin
 val repository = mockk<Repository>(relaxed = true)
@@ -3613,12 +3613,12 @@ val listener = object : MouseAdapter() {
 ```
 
 Anonymous objects used as local variables have an anonymous type. If you need to pass the object
-Outside its declaration scope, declare the type explicitly or use an interface.
+outside its declaration scope, declare the type explicitly or use an interface.
 
 ## Companion Objects
 
 A companion object is an object declaration tied to a class. Members declared in it are accessed via
-The class name -- analogous to Java static members.
+the class name -- analogous to Java static members.
 
 ```kotlin
 class User private constructor(
@@ -3641,7 +3641,7 @@ val user2 = User.fromJson("""{"name": "Bob", "email": "bob@example.com"}""")
 ```
 
 The companion object can have a name (e.g., `Factory`) or use the default name `Companion`. A class
-Can have only one companion object.
+can have only one companion object.
 
 Companion objects can implement interfaces:
 
@@ -3773,7 +3773,7 @@ val description = when (x) {
 ### Exhaustiveness
 
 When used as an expression, `when` must be exhaustive. If all cases are covered, the `else` branch
-Is not required. With `sealed` classes or `enum` classes, the compiler verifies exhaustiveness.
+is not required. With `sealed` classes or `enum` classes, the compiler verifies exhaustiveness.
 
 ```kotlin
 enum class Color { RED, GREEN, BLUE }
@@ -4185,7 +4185,7 @@ println("hello".orEmpty())  // "hello"
 ### Extension Functions vs Utility Functions
 
 Extension functions compile to static functions with the receiver as the first parameter. They do
-Not modify the class.
+not modify the class.
 
 ```kotlin
 // Kotlin
@@ -4220,7 +4220,7 @@ If a member function and an extension function have the same signature, the **me
 ## Infix Functions
 
 Functions marked `infix` can be called with infix notation (without parentheses and dots) when they
-Have a single parameter.
+have a single parameter.
 
 ```kotlin
 infix fun Int.power(exponent: Int): Long {
@@ -4356,7 +4356,7 @@ inline fun measureTime(block: () -> Unit): Long {
 ```
 
 `noinline` prevents specific lambda parameters from being inlined (needed when the lambda is stored
-Or passed to a non-inline function):
+or passed to a non-inline function):
 
 ```kotlin
 inline fun runAndStore(block: () -> Unit, noinline later: () -> Unit) {
@@ -5134,7 +5134,7 @@ Suspends instead of blocking a thread, allowing a small number of OS threads to 
 Concurrent operations.
 
 Key distinction: **coroutines are not threads**. A coroutine runs on a thread but can be suspended
-And resumed on a different thread. Thousands of coroutines can run concurrently on a handful of
+and resumed on a different thread. Thousands of coroutines can run concurrently on a handful of
 Threads.
 
 ## Setup
@@ -5282,7 +5282,7 @@ Exception. This prevents resource leaks from orphaned coroutines.
 ### CoroutineScope
 
 `coroutineScope` creates a new scope that completes when all children complete. It does not block
-The current thread -- it suspends.
+the current thread -- it suspends.
 
 `supervisorScope` is a variant where the failure of one child does not cancel the others.
 
@@ -6605,7 +6605,7 @@ val dogConsumer: Consumer<Dog> = animalConsumer  // OK
 ```
 
 The compiler enforces that `T` only appears in **in-positions** (parameter types). It cannot appear
-As a return type.
+as a return type.
 
 ### Variance Mnemonic
 
@@ -6617,7 +6617,7 @@ Consumer<in T>   -- consumes T, contravariant
 ### Declaration-Site vs Use-Site Variance
 
 Kotlin prefers declaration-site variance (Java only has use-site). Declaration-site variance means
-The class author decides the variance once, and all call sites benefit.
+the class author decides the variance once, and all call sites benefit.
 
 ```kotlin
 // Declaration-site (Kotlin style)
@@ -6778,7 +6778,7 @@ val <K, V> Map<K, V>.keysAsStrings: String
 ## Type Erasure and Runtime
 
 Generic type parameters are erased at runtime. Two instances of `List<String>` and `List<Int>` are
-Both `List` at runtime.
+both `List` at runtime.
 
 ```kotlin
 val stringList = listOf("a", "b")
@@ -6788,7 +6788,7 @@ println(stringList::class == intList::class)  // true -- both are ArrayList
 ```
 
 Reified types and inline functions are the primary mechanism for accessing generic type information
-At runtime in Kotlin.
+at runtime in Kotlin.
 
 ## Intuition
 

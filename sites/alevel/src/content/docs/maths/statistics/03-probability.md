@@ -264,7 +264,7 @@ Venn diagrams represent events as regions. Useful for visualising:
 Tree diagrams are useful for sequential experiments. Each branch represents a possible outcome with
 Its probability. The probability along any path is the product of the probabilities along its
 Branches (multiplication rule). The probability of any event is found by adding the probabilities of
-All paths leading to it (addition rule for mutually exclusive paths).
+all paths leading to it (addition rule for mutually exclusive paths).
 
 **Example.** A bag contains 3 red and 2 blue balls. Two balls are drawn without replacement.
 
@@ -346,7 +346,7 @@ $$
 ### 8.3 Working with three-event Venn diagrams
 
 When solving problems with three events, the Venn diagram is divided into **8 regions** (including
-The exterior). The fundamental approach is:
+the exterior). The fundamental approach is:
 
 1. Start from the innermost region $A \cap B \cap C$ and work outward.
 2. Use the given information to find the value of each region.

@@ -325,7 +325,7 @@ Construction.
 ## 2.5 Pure Virtual Functions and Abstract Classes
 
 A **pure virtual function** is declared using the `= 0` syntax [N4950 S13.4.4]. A class with at
-Least one pure virtual function is an **abstract class** -- it cannot be instantiated directly.
+least one pure virtual function is an **abstract class** -- it cannot be instantiated directly.
 
 ```cpp
 #include <iostream>
@@ -569,7 +569,7 @@ int main() {
 The `using Base::process;` declaration in `Derived_Right` un-hides the remaining overloads from
 `Base`. Without it, only the derived-class version is visible in overload resolution. This hiding
 Applies even when the derived function is `virtual` and does override one specific overload -- all
-Other overloads are still hidden.
+other overloads are still hidden.
 
 :::tip
 Add `using Base::function_name;` in the derived class to avoid accidentally hiding sibling
@@ -648,7 +648,7 @@ int main() {
 
 Note the difference between copy-initialization (`Vehicle v = c;`) and assignment (`v = c;`). Both
 Invoke the base-class copy mechanism, but the first uses the copy constructor and the second uses
-The copy assignment operator. Both slice.
+the copy assignment operator. Both slice.
 
 ## 2.11 Slicing and Exception Objects
 
@@ -695,12 +695,12 @@ int main() {
 
 :::caution
 Slices the exception object, losing derived-class information and potentially invoking slicing in
-The exception handler itself.
+the exception handler itself.
 
 ## 2.12 Preventing Slicing at Compile Time
 
 While C++ does not provide a built-in mechanism to prevent slicing, you can use several techniques
-To detect or prevent it:
+to detect or prevent it:
 
 ### Technique 1: Deleted Copy Operations for Base Classes
 
@@ -767,7 +767,7 @@ struct Concrete : Cloneable {
 
 **3. Deleting through a non-virtual destructor:** This is undefined behavior per [N4950 S11.4.7].
 The base destructor does not run, leaking resources. Always declare `virtual ~Base() = default;` on
-Any class intended as a polymorphic base.
+any class intended as a polymorphic base.
 
 **4. Slicing in function parameters:** When a function takes a base class by value, any derived
 Object passed to it is sliced. This includes implicit conversions: if a function takes `std::string`

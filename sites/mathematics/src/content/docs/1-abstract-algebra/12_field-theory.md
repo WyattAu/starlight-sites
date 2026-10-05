@@ -42,7 +42,7 @@ Having $\alpha$ as a root.
 **Proposition 12.2.** The minimal polynomial of $\alpha$ over $F$ is irreducible in $F[x]$.
 
 _Proof._ If $m_\alpha = fg$ with $\deg(f), \deg(g) \lt \deg(m_\alpha)$ Then $f(\alpha)g(\alpha) = 0$
-So either $f(\alpha) = 0$ or $g(\alpha) = 0$ Contradicting the minimality of $\deg(m_\alpha)$.
+so either $f(\alpha) = 0$ or $g(\alpha) = 0$ Contradicting the minimality of $\deg(m_\alpha)$.
 $\blacksquare$
 
 **Theorem 12.3.** $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] \lt \infty$. In
@@ -60,7 +60,7 @@ giving a polynomial relation $f(\alpha) = 0$. $\blacksquare$
 $E = F[x] / (f)$ is a field extension of $F$ containing a root of $f$.
 
 _Proof._ Since $f$ is irreducible and $F[x]$ is a PID, $(f)$ is a maximal ideal, so $E = F[x]/(f)$
-Is a field. The element $\alpha = x + (f) \in E$ satisfies
+is a field. The element $\alpha = x + (f) \in E$ satisfies
 $f(\alpha) = f(x + (f)) = f(x) + (f) = (f) = 0$ I.e., $\alpha$ is a root of $f$. $\blacksquare$
 
 ### 12.4 Finite Fields
@@ -87,7 +87,7 @@ $F$.
 **Theorem 12.7 (Fundamental Theorem of Algebra).** $\mathbb{C}$ is algebraically closed.
 
 _Remark._ Every field $F$ has an **algebraic closure** $\overline{F}$: an algebraically closed field
-That is an algebraic extension of $F$. The algebraic closure is unique up to $F$-isomorphism. For
+that is an algebraic extension of $F$. The algebraic closure is unique up to $F$-isomorphism. For
 example, $\overline{\mathbb{Q}}$ is the field of all algebraic numbers. It is countable and
 Infinite-dimensional over $\mathbb{Q}$.
 
@@ -110,7 +110,7 @@ By the tower law: $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = 2 \cdot 2 = 4
 
 For the minimal polynomial of $\alpha = \sqrt{2} + \sqrt{3}$: compute powers.
 $\alpha^2 = 5 + 2\sqrt{6}$ So $\alpha^2 - 5 = 2\sqrt{6}$ Giving $\alpha^4 - 10\alpha^2 + 25 = 24$
-Hence $\alpha^4 - 10\alpha^2 + 1 = 0$. One checks that $f(x) = x^4 - 10x^2 + 1$ is irreducible over
+hence $\alpha^4 - 10\alpha^2 + 1 = 0$. One checks that $f(x) = x^4 - 10x^2 + 1$ is irreducible over
 $\mathbb{Q}$ (no rational roots, no quadratic factor), so $m_\alpha = x^4 - 10x^2 + 1$.
 $\blacksquare$
 

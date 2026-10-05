@@ -259,7 +259,7 @@ NoNewPrivileges=yes
 
 :::tip
 Is especially dangerous as it encompasses many sub-capabilities. Use more specific capabilities
-Whenever possible.
+whenever possible.
 
 ## SELinux
 
@@ -720,7 +720,7 @@ restorecon -Rv /custom/path
 ### Pitfall: `CAP_SYS_ADMIN` Is Too Broad
 
 `CAP_SYS_ADMIN` covers many sub-operations (mount, pivot_root, IPC, etc.). Granting it is equivalent
-To granting near-root access. Always use more specific capabilities:
+to granting near-root access. Always use more specific capabilities:
 
 ```bash
 # WRONG
@@ -778,7 +778,7 @@ chmod 600 ~/.ssh/authorized_keys
 ### Pitfall: Disabling SELinux vs Permissive Mode
 
 Setting `SELINUX=disabled` in `/etc/selinux/config` requires a reboot and relabels the filesystem
-With no SELinux contexts, making it hard to re-enable. Instead, use `SELINUX=permissive` during
+with no SELinux contexts, making it hard to re-enable. Instead, use `SELINUX=permissive` during
 Troubleshooting and switch back to `enforcing` when done:
 
 ```bash
@@ -804,7 +804,7 @@ grep root /etc/passwd
 ### Pitfall: Forgetting `setenforce` Is Temporary
 
 `setenforce 0` changes the mode only for the running system. After a reboot, the system returns to
-The mode specified in `/etc/selinux/config`. Do not rely on `setenforce` for persistent
+the mode specified in `/etc/selinux/config`. Do not rely on `setenforce` for persistent
 Configuration changes.
 
 ```mermaid

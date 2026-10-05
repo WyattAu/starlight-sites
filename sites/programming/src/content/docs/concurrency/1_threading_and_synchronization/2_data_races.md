@@ -29,18 +29,18 @@ Detection tools, synchronization costs, and practical fixes.
 
 A **data race** [N4950 §6.9.4.2] occurs when two or more threads access the same memory location
 Concurrently, at least one of them performs a write, and there is no happens-before relationship
-Between the accesses. Formally, a data race is present when all three conditions hold:
+between the accesses. Formally, a data race is present when all three conditions hold:
 
 $$
 \mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens-before(t_1, t_2) \wedge \neg\mathrm{happens-before(t_2, t_1)
 $$
 
 Where $m$ is a scalar memory location, $w$ denotes a write, $r$ denotes a read, and happens-before
-Is the order relation defined in [N4950 §6.9.4.1].
+is the order relation defined in [N4950 §6.9.4.1].
 
 :::caution
 potentially Eliminating loads, stores, or reordering operations in ways that are surprising and
-Non-deterministic.
+non-deterministic.
 :::
 
 ## Undefined Behavior of Data Races
@@ -57,7 +57,7 @@ The consequences of a data race include but are not limited to [N4950 §6.9.4.2]
 ## Critical Section
 
 A **critical section** is a region of code that accesses shared mutable state. Only one thread
-Should execute within a critical section at a time to prevent data races. The mutual exclusion of
+should execute within a critical section at a time to prevent data races. The mutual exclusion of
 Critical sections is the fundamental goal of synchronization primitives such as mutexes.
 
 ## Race Condition vs Data Race
@@ -211,7 +211,7 @@ Conflicting access without a happens-before edge, it reports a data race.
 ## The Cost of Synchronization
 
 Synchronization is not free. Understanding the performance costs helps you make informed decisions
-About when and how to synchronize.
+about when and how to synchronize.
 
 ### Cache Line Bouncing
 
@@ -311,7 +311,7 @@ orderings can be used when full sequential consistency is not required.
 
 Relaxed atomics guarantee atomicity (no torn reads/writes) but provide **no ordering guarantees**
 With respect to other memory operations. They are sufficient for simple counters and statistics
-Where the exact order of updates does not matter:
+where the exact order of updates does not matter:
 
 ```cpp
 #include <atomic>
@@ -431,7 +431,7 @@ std::once_flag Config::init_flag_;
 ```
 
 `std::call_once` guarantees that the callable is invoked exactly once, even if multiple threads call
-It concurrently [N4950 §33.4.4]. The internal synchronization is handled by the `std::once_flag`.
+it concurrently [N4950 §33.4.4]. The internal synchronization is handled by the `std::once_flag`.
 
 ### The Fix: Meyer's Singleton (C++11 and later)
 
@@ -455,7 +455,7 @@ public:
 Since C++11, the initialization of function-local static variables is guaranteed to be thread-safe
 [N4950 §6.9.2.2]. The compiler emits guard variables and implicit synchronization to ensure that
 Exactly one thread performs the initialization, and all other threads wait until it completes. This
-Is the preferred idiom in modern C++.
+is the preferred idiom in modern C++.
 
 ## Intuition
 

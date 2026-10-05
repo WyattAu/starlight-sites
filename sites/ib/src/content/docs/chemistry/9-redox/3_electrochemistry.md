@@ -29,7 +29,7 @@ Mnemonic: **OIL RIG** -- Oxidation Is Loss, Reduction Is Gain.
 
 **Definition.** An **oxidizing agent** is a species that causes oxidation in another species by
 Accepting electrons (it is itself reduced). A **reducing agent** is a species that causes reduction
-In another species by donating electrons (it is itself oxidized).
+in another species by donating electrons (it is itself oxidized).
 
 ### Oxidation States (Oxidation Numbers)
 
@@ -230,7 +230,7 @@ Reduction potential is paired with a species with a more negative reduction pote
 
 :::caution[Common Mistake]
 $E^\circ$ values are intensive properties. They are NOT multiplied by stoichiometric coefficients
-When calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
+when calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
 Electrons transferred.
 
 ---
@@ -274,7 +274,7 @@ Functioning as excess charge accumulates. The ions in the salt bridge migrate to
 
 **Definition.** The salt bridge must contain ions that do not react with the cell components.
 $\mathrm{KNO}_3$ is commonly used because $\mathrm{K}^+$ and $\mathrm{NO}_3^-$ are spectator ions
-For most systems.
+for most systems.
 
 ### Cell Diagram Notation (SL)
 
@@ -347,7 +347,7 @@ In a galvanic cell:
 :::caution[Common Mistake]
 Do not confuse the sign of the electrode in galvanic vs. Electrolytic cells. In galvanic cells, the
 Anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
-Of the external power supply).
+of the external power supply).
 :::
 
 :::note[IB Exam Tip]
@@ -487,7 +487,7 @@ Contains ions of the plating metal.
 - Electrolyte: $\mathrm{AgNO}_3$(aq) or $\mathrm{K}[\mathrm{Ag(CN)}_2]$(aq)
 
 As silver deposits on the spoon, the silver anode dissolves to maintain the silver ion concentration
-In solution.
+in solution.
 
 ### Factors Affecting Electroplating Quality
 
@@ -508,7 +508,7 @@ Copper is purified by electrolysis using impure copper as the anode and pure cop
 - Electrolyte: $\mathrm{CuSO}_4$(aq) with dilute $\mathrm{H}_2\mathrm{SO}_4$
 
 Impurities settle as **anode sludge** beneath the anode. This sludge is economically significant
-Because it contains precious metals (Ag, Au, Pt).
+because it contains precious metals (Ag, Au, Pt).
 
 ### Aluminum Extraction -- Hall-Heroult Process (HL)
 
@@ -544,7 +544,7 @@ Using a membrane cell:
   $2\mathrm{NaCl}(aq) + 2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{Cl}_2(g) + \mathrm{H}_2(g) + 2\mathrm{NaOH}(aq)$
 
 The ion-exchange membrane allows $\mathrm{Na}^+$ to pass but prevents $\mathrm{OH}^-$ from reaching
-The anode, which would react with $\mathrm{Cl}_2$ to form hypochlorite.
+the anode, which would react with $\mathrm{Cl}_2$ to form hypochlorite.
 
 Comparison of chlor-alkali cell types:
 
@@ -558,7 +558,7 @@ Comparison of chlor-alkali cell types:
 
 :::note[IB Exam Tip]
 The membrane cell is the preferred method for the chlor-alkali process. Know the half-equations at
-Each electrode and the purpose of the membrane.
+each electrode and the purpose of the membrane.
 
 ---
 
@@ -644,7 +644,7 @@ Q = \frac{[\mathrm{Zn}^{2+}]}{[\mathrm{Cu}^{2+}]}
 $$
 
 If $[\mathrm{Cu}^{2+}]$ increases, $Q$ decreases, and $E_{\mathrm{cell}}$ increases (the reaction is
-More spontaneous).
+more spontaneous).
 
 ### Equilibrium Connection
 
@@ -688,7 +688,7 @@ If $[\mathrm{Fe}^{2+}] \gt [\mathrm{Fe}^{3+}]$ Then $E \lt E^\circ$ (less tenden
 
 :::caution[Common Mistake]
 When applying the Nernst equation to a half-cell, ensure the reduced form is in the numerator and
-The oxidized form is in the denominator. Reversing this will give the wrong answer.
+the oxidized form is in the denominator. Reversing this will give the wrong answer.
 
 ---
 
@@ -912,7 +912,7 @@ $24.0\mathrm{ dm}^3\mathrm{/mol}$ at RTP ($298\mathrm{ K}$$100\mathrm{ kPa}$).
 ### Current Efficiency
 
 In practice, not all the current is used for the desired reaction. **Current efficiency** is defined
-As:
+as:
 
 $$
 \mathrm{Current efficiency} = \frac{\mathrm{actual mass deposited}}{\mathrm{theoretical mass deposited}} \times 100\%
@@ -1004,8 +1004,8 @@ Transport limitations, $40\mathrm{-}60\%$.
 
 :::note[IB Exam Tip]
 When comparing fuel cells to combustion engines, emphasize that fuel cells are more efficient
-Because they are not limited by the Carnot cycle. Also, note that the overall reaction is the same
-As combustion of hydrogen, but the energy conversion pathway is different.
+because they are not limited by the Carnot cycle. Also, note that the overall reaction is the same
+as combustion of hydrogen, but the energy conversion pathway is different.
 
 ---
 
@@ -1101,7 +1101,7 @@ Applications: ship hulls, underground pipelines, water heaters, offshore oil pla
 
 Stainless steel contains chromium (minimum 10.5%) which forms a thin, adherent layer of
 Chromium(III) oxide ($\mathrm{Cr}_2\mathrm{O}_3$) on the surface. This oxide layer is self-healing
-And prevents further corrosion.
+and prevents further corrosion.
 
 #### 5. Cathodic Protection (Impressed Current)
 
@@ -1121,7 +1121,7 @@ Surface, preventing its oxidation. Used for large structures like pipelines and 
 
 :::note[IB Exam Tip]
 When explaining why zinc protects iron in galvanizing, reference the electrochemical series: zinc
-Has a more negative $E^\circ$ than iron, so zinc is preferentially oxidized. This is the same
+has a more negative $E^\circ$ than iron, so zinc is preferentially oxidized. This is the same
 Principle as sacrificial anodes.
 
 ---
@@ -1472,7 +1472,7 @@ $\mathrm{Efficiency} = \frac{\Delta G^\circ}{\Delta H^\circ} \times 100\% = \fra
 ### Question 6 (SL/HL, 4 marks)
 
 A piece of iron piping is connected to a block of magnesium using a conducting wire. Both are buried
-In moist soil.
+in moist soil.
 
 **(a)** Identify which metal acts as the anode and which acts as the cathode. (1 mark)
 
@@ -1488,7 +1488,7 @@ In moist soil.
 **(b)** $\mathrm{Mg}(s) \to \mathrm{Mg}^{2+}(aq) + 2e^-$
 
 **(c)** Since magnesium is more reactive than iron, it is preferentially oxidized (corrodes instead
-Of iron). Electrons flow from magnesium to iron, making the iron surface electron-rich and
+of iron). Electrons flow from magnesium to iron, making the iron surface electron-rich and
 Preventing the oxidation of iron. This is called sacrificial (cathodic) protection. The magnesium
 Block must be replaced periodically as it is consumed.
 
@@ -1523,7 +1523,7 @@ $K = 10^{37.16} = 1.4 \times 10^{37}$
 **(b)** Since $K$ is extremely large, the forward reaction is essentially irreversible under
 Standard conditions. The reverse reaction is not feasible
 ($K_{\mathrm{reverse}} = 1/K = 7.1 \times 10^{-38}$), meaning the equilibrium lies overwhelmingly
-Toward the products.
+toward the products.
 
 ---
 

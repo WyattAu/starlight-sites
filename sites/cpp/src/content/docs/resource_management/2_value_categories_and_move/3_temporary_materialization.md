@@ -202,7 +202,7 @@ int main() {
 
 In C++17, `decltype` applied to a prvalue yields the non-reference type `T`Not `T&&` [N4950
 S10.1.1]. This is consistent with the prvalue-as-recipe model: since a prvalue is not an object but
-An initializer, there is no object to take a reference to.
+an initializer, there is no object to take a reference to.
 
 ```cpp
 #include <type_traits>
@@ -373,7 +373,7 @@ are correct, because NRVO may not apply.
 
 :::caution
 Returning a function parameter, or by certain compiler flags. Always write code that is correct even
-If NRVO fails, which means ensuring your move constructor is correct (or your copy constructor, as
+if NRVO fails, which means ensuring your move constructor is correct (or your copy constructor, as
 A fallback).
 :::
 
@@ -452,7 +452,7 @@ Extension**.
 
 :::caution
 The prvalue is passed through an intermediate function or stored in a member, lifetime extension
-Does **not** propagate.
+does **not** propagate.
 :::
 
 ```cpp
@@ -515,7 +515,7 @@ reference to that parameter, the returned reference is dangling.
 ### Lifetime Extension with Aggregate Initialization
 
 When an aggregate is initialized from prvalues, the lifetime of those prvalues is extended if they
-Are bound to reference members. The prvalue `42` is directly bound to the reference member `r`
+are bound to reference members. The prvalue `42` is directly bound to the reference member `r`
 During aggregate initialization [N4950 S11.6.1]. The lifetime extension rule applies:
 
 ```cpp
@@ -663,7 +663,7 @@ int main() {
 
 Materialization can occur at any point within a complex expression where an identity is required.
 The order in which materialized temporaries in different sub-expressions are created and destroyed
-Is governed by the rules for evaluation order. In C++17, the order of evaluation of function
+is governed by the rules for evaluation order. In C++17, the order of evaluation of function
 Arguments is unspecified [N4950 S7.6.1.9], so materialized temporaries in different arguments may be
 Destroyed in any order.
 

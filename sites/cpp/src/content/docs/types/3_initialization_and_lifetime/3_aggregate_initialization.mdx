@@ -284,7 +284,7 @@ Buffer b3 = \{"hello"\}; // data = "hello\0\0...\0", length = 0 (!)
 ```
 
 The `b3` case is especially dangerous: the string fills `data`But `length` is zero-initialized
-Because no initializer was provided for it. This is not what you'd expect from a C-style struct
+because no initializer was provided for it. This is not what you'd expect from a C-style struct
 Initialization.
 
 ### Safe Pattern: Always Brace-Initialize
@@ -382,7 +382,7 @@ C_Point p\{1.0, 2.0\};  // aggregate init works across language boundary
 ### Shared Memory and Mapped Structures
 
 Aggregates are critical for memory-mapped I/O and shared memory, where you need precise control over
-The binary layout:
+the binary layout:
 
 ```cpp
 struct __attribute__((packed)) UDPHeader \{

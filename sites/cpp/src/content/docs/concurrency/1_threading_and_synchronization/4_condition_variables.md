@@ -132,7 +132,7 @@ int main() {
 ## `std::condition_variable_any`
 
 `std::condition_variable_any` [N4950 §31.5.5] is similar to `std::condition_variable` but can work
-With any **Lockable** type (not just `std::unique_lock<std::mutex>`). It may be less efficient than
+with any **Lockable** type (not just `std::unique_lock<std::mutex>`). It may be less efficient than
 `std::condition_variable` because it cannot use platform-specific optimizations that rely on
 `std::mutex`.
 
@@ -337,7 +337,7 @@ cv_.notify_one();  // Notify after lock is released
 
 `std::latch` [N4950 §31.4.4.3] is a one-shot synchronization primitive. It is initialized with a
 Count and threads decrement the count. When the count reaches zero, all threads waiting on the latch
-Are unblocked.
+are unblocked.
 
 | Operation            | Description                           |
 | -------------------- | ------------------------------------- |
@@ -424,7 +424,7 @@ Threads from being released), and it must not throw.
 ### `arrive_and_drop`: Dynamic Thread Count
 
 `arrive_and_drop()` allows a thread to permanently reduce the expected thread count. This is useful
-When worker threads finish early and the remaining threads should synchronize with a smaller group:
+when worker threads finish early and the remaining threads should synchronize with a smaller group:
 
 ```cpp
 #include <iostream>
@@ -592,7 +592,7 @@ cv.notify_one();
 ### Pitfall 3: Using `notify_all` When `notify_one` Suffices
 
 `notify_all` wakes every waiting thread, which causes a "thundering herd" problem: all threads wake
-Up, contend for the mutex, and all but one go back to sleep. Use `notify_one` when only one waiting
+up, contend for the mutex, and all but one go back to sleep. Use `notify_one` when only one waiting
 Thread can make progress:
 
 ```cpp

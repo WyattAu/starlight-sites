@@ -23,7 +23,7 @@ categories:
 A matrix is a rectangular array of numbers arranged in rows and columns. Matrices provide a powerful
 Framework for solving systems of linear equations, representing geometric transformations, modelling
 Markov processes, and much more. This topic is central to the IB Mathematics AA course at both SL
-And HL, with eigenvalues and diagonalisation appearing exclusively at HL.
+and HL, with eigenvalues and diagonalisation appearing exclusively at HL.
 
 ---
 
@@ -47,7 +47,7 @@ A = \begin`\{pmatrix}` a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \c
 $$
 
 The entry in row $i$ and column $j$ is denoted $a_{ij}$. The set of all $m \times n$ real matrices
-Is written $\mathcal{M}_{m \times n}(\mathbb{R})$.
+is written $\mathcal{M}_{m \times n}(\mathbb{R})$.
 
 A column vector in $\mathbb{R}^n$ is an $n \times 1$ matrix, and a row vector is a $1 \times n$
 Matrix. When the dimensions are equal ($m = n$), the matrix is called **square**.
@@ -202,7 +202,7 @@ $$
 $$
 
 The determinant is a scalar that encodes important information about the matrix, including whether
-It is invertible and how it scales area (or volume).
+it is invertible and how it scales area (or volume).
 
 ### 3x3 Determinant -- Cofactor Expansion
 
@@ -316,7 +316,7 @@ A^{-1} = \frac{1}{ad - bc} \begin`\{pmatrix}` d & -b \\ -c & a \end`\{pmatrix}`
 $$
 
 This is obtained by swapping the diagonal entries, negating the off-diagonal entries, and dividing
-By the determinant. The matrix of cofactors (with the sign change) is called the **adjugate** or
+by the determinant. The matrix of cofactors (with the sign change) is called the **adjugate** or
 **adjoint** of $A$.
 
 ### 3x3 Inverse -- Adjugate Method
@@ -443,7 +443,7 @@ So $x = \frac{11}{5}$ and $y = \frac{6}{5}$.
 Every linear transformation $T: \mathbb{R}^2 \to \mathbb{R}^2$ can be represented by a $2 \times 2$
 Matrix $M$ such that $T(\mathbf{v}) = M\mathbf{v}$. The images of the standard basis vectors
 $\begin{pmatrix} 1 \\ 0 \end{pmatrix}$ and $\begin{pmatrix} 0 \\ 1 \end{pmatrix}$ form the columns
-Of $M$.
+of $M$.
 
 ### Reflections
 
@@ -552,7 +552,7 @@ $H_y$) is point-wise invariant.
 ### Composite Transformations
 
 If transformation $A$ is applied first, followed by transformation $B$ The composite transformation
-Is represented by the product $BA$ (note the order: right to left).
+is represented by the product $BA$ (note the order: right to left).
 
 $$
 \mathbf{v}' = B(A\mathbf{v}) = (BA)\mathbf{v}
@@ -607,7 +607,7 @@ individual inverses are applied in reverse order.
 
 An **invariant point** under transformation $M$ is a point $\mathbf{v}$ such that
 $M\mathbf{v} = \mathbf{v}$ I.e. $(M - I)\mathbf{v} = \mathbf{0}$. The set of invariant points forms
-The null space of $M - I$.
+the null space of $M - I$.
 
 For any $2 \times 2$ transformation matrix, the origin is always invariant.
 
@@ -621,11 +621,11 @@ Invariant point, meaning the line lies entirely in the null space of $M - I$.
 
 **Not all invariant lines are point-wise invariant.** For example, a stretch parallel to the
 $x$-axis $\begin{pmatrix} k & 0 \\ 0 & 1 \end{pmatrix}$ leaves the $x$-axis point-wise invariant and
-Also leaves the $y$-axis invariant as a line (each point $(0, y)$ maps to itself), but it leaves
-Every line parallel to the $x$-axis invariant as a line (points slide along it), not point-wise.
+also leaves the $y$-axis invariant as a line (each point $(0, y)$ maps to itself), but it leaves
+every line parallel to the $x$-axis invariant as a line (points slide along it), not point-wise.
 
 For a reflection, the mirror line is point-wise invariant and the line perpendicular to it through
-The origin is invariant as a set (points are reflected across the mirror line but remain on the
+the origin is invariant as a set (points are reflected across the mirror line but remain on the
 Perpendicular line).
 
 ### Area Scale Factor
@@ -663,7 +663,7 @@ Transformation, not rotated. The factor by which an eigenvector is scaled is the
 ### Formal Definition
 
 Let $A$ be an $n \times n$ matrix. A scalar $\lambda$ is an **eigenvalue** of $A$ if there exists a
-Non-zero vector $\mathbf{v}$ (the corresponding **eigenvector**) such that:
+non-zero vector $\mathbf{v}$ (the corresponding **eigenvector**) such that:
 
 $$
 A\mathbf{v} = \lambda \mathbf{v}
@@ -734,7 +734,7 @@ Multiple of an eigenvector is also an eigenvector for the same eigenvalue.
 ### Repeated Eigenvalues
 
 When the characteristic equation has a repeated root (a repeated eigenvalue), the matrix may or may
-Not be diagonalisable.
+not be diagonalisable.
 
 - **Geometric multiplicity** $\leq$ **algebraic multiplicity.** The algebraic multiplicity of an
   eigenvalue is its multiplicity as a root of the characteristic equation. The geometric
@@ -755,7 +755,7 @@ For a $2 \times 2$ matrix with a repeated eigenvalue $\lambda$:
 ### 3x3 Eigenvalue Problems
 
 For a $3 \times 3$ matrix, the characteristic equation is a cubic polynomial in $\lambda$. The cubic
-Can have three distinct real roots, one repeated and one distinct real root, or one real root and
+can have three distinct real roots, one repeated and one distinct real root, or one real root and
 Two complex conjugate roots. Since the IB course works over $\mathbb{R}$ Only real eigenvalues and
 Eigenvectors are considered.
 :::
@@ -959,7 +959,7 @@ Solution: $(x, y, z) = (1, 1, 2)$.
 ### Cramer's Rule
 
 Cramer's rule provides an explicit formula for the solution of a system $A\mathbf{x} = \mathbf{b}$
-When $A$ is an $n \times n$ invertible matrix.
+when $A$ is an $n \times n$ invertible matrix.
 
 **For a $2 \times 2$ system:**
 
@@ -1174,7 +1174,7 @@ In particular, $|Q\mathbf{v}| = |\mathbf{v}|$ and the angle between vectors is p
 Orthogonally diagonalised: $A = QDQ^T$ where $Q$ is orthogonal and $D$ is diagonal. This is a
 Stronger form of diagonalisation that is guaranteed for all symmetric matrices (even those with
 Repeated eigenvalues), since symmetric matrices always have $n$ linearly independent eigenvectors
-That can be chosen orthonormal.
+that can be chosen orthonormal.
 
 ---
 

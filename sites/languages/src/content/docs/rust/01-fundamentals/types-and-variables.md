@@ -33,7 +33,7 @@ Platform-dependent `isize` and `usize`:
 | `isize` / `usize` | 4 or 8       | Pointer-sized                                                                                               | Pointer-sized                                            |
 
 The default integer type is `i32`. This is not an arbitrary choice, on x86-64, `i32` operations are
-As fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
+as fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
 Zero-extension overhead that `i8`/`u8` incur in many contexts.
 
 ### Integer Literals
@@ -47,7 +47,7 @@ let byte = b"A";        // u8 only
 ```
 
 The underscore separator is valid anywhere within a numeric literal for readability. It is ignored
-By the compiler.
+by the compiler.
 
 ### Integer Overflow
 
@@ -81,7 +81,7 @@ assert_eq!(std::mem::size_of::<bool>(), 1);
 ```
 
 Alignment determines the memory address at which a value must be stored. A `u64` with alignment 8
-Must be placed at an address divisible by 8. Misaligned access on x86-64 works but may be slower; on
+must be placed at an address divisible by 8. Misaligned access on x86-64 works but may be slower; on
 ARM without unaligned access support, it traps.
 
 ## Floating-Point Types
@@ -119,7 +119,7 @@ assert!(!nan.is_nan());        // false, use is_nan() for the check
 
 :::caution
 Impossible (NaN breaks reflexivity and transitivity). Use `f64::total_cmp()` (stable since 1.62) if
-You need a total ordering for sorting.
+you need a total ordering for sorting.
 
 ```rust
 let values = [f64::NAN, 1.0, 2.0, f64::INFINITY];
@@ -281,7 +281,7 @@ assert_eq!(first(&arr), Some(&10));
 ```
 
 This is a significant improvement over the pre-const-generics era where you had to work with slices
-And lose the compile-time size information.
+and lose the compile-time size information.
 
 ## Vectors
 
@@ -384,7 +384,7 @@ assert_eq!(s.chars().count(), 5);  // 5 characters
 ```
 
 Indexing into a string with `s[0]` is not valid because the index is byte-based, and a byte index
-May fall in the middle of a multi-byte character:
+may fall in the middle of a multi-byte character:
 
 ```rust
 let s = "こんにちは";
@@ -524,7 +524,7 @@ y = 6;     // OK
 
 Variable mutability (`let mut`) controls whether you can reassign the binding. Interior mutability
 (Cell, RefCell, Mutex) controls whether you can modify the value through a shared reference. These
-Are orthogonal concepts.
+are orthogonal concepts.
 
 ```rust
 let x = Cell::new(5);  // x is immutable

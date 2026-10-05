@@ -407,7 +407,7 @@ Operation:
   in the total seq_cst order.
 
 `std::atomic_signal_fence` [N4950 §31.7.8] is a lighter-weight fence that prevents reordering
-Between a signal handler and the code interrupted by the signal. It generates only a compiler
+between a signal handler and the code interrupted by the signal. It generates only a compiler
 Barrier (no hardware instructions).
 
 ```cpp
@@ -523,7 +523,7 @@ Careful reasoning. A release store paired with a relaxed load does NOT establish
 
 Even with correct memory ordering on the flag, non-atomic accesses to shared data without a
 Happens-before relationship constitute data races and are undefined behavior. Acquire/release must
-Be used on both the flag AND the data must be sequenced-before the release / after the acquire.
+be used on both the flag AND the data must be sequenced-before the release / after the acquire.
 
 ### Pitfall 3: seq_cst Does Not Prevent All Surprises
 

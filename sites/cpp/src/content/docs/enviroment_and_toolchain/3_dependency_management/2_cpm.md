@@ -222,7 +222,7 @@ target_link_libraries(App PRIVATE nlohmann_json::nlohmann_json spdlog::spdlog)
 
 A frequent requirement in systems programming is debugging a library within the context of the
 Application. CPM allows overriding a dependency with a local path using a CMake CLI flag, bypassing
-The network fetch.
+the network fetch.
 
 **Scenario:** Debugging `spdlog` inside `App`.
 
@@ -262,7 +262,7 @@ CPM.cmake is a single-file CMake script (approximately 2000 lines) that wraps `F
 
 CPM does not have a formal lockfile like vcpkg's `vcpkg.json` baseline or Conan's `conan.lock`.
 Instead, it relies on **pinned tags in the source code** as the lock mechanism. The `GIT_TAG` field
-In each `CPMAddPackage` call serves as the de facto lock.
+in each `CPMAddPackage` call serves as the de facto lock.
 
 This is weaker than a dedicated lockfile because:
 
@@ -315,7 +315,7 @@ my-app
 ```
 
 CPM processes `CPMAddPackage` calls in order. If `lib-a` declares `fmt 10.1.0` first, CPM adds it to
-The build graph. When `lib-b` subsequently declares `fmt 9.0.0`CPM detects the conflict and issues A
+the build graph. When `lib-b` subsequently declares `fmt 9.0.0`CPM detects the conflict and issues A
 warning but does **not** automatically resolve it. The first version wins.
 
 Resolution strategies:
@@ -329,7 +329,7 @@ Resolution strategies:
 ## How CPM Downloads Packages at Configure Time
 
 CPM operates entirely within CMake's configure phase. When `CPMAddPackage` is called, CPM performs
-The following steps:
+the following steps:
 
 ### Step-by-Step Download Process
 
@@ -501,7 +501,7 @@ This means:
 
 If `CPM_SOURCE_CACHE` is not set and the source is not in `_deps`CPM downloads to
 `${CMAKE_BINARY_DIR}/_deps/<name>-<hash>/`. This directory is inside the build tree and is deleted
-When the build directory is cleaned.
+when the build directory is cleaned.
 
 ### Cache Management
 

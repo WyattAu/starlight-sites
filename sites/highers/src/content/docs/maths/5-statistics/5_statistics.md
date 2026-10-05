@@ -45,7 +45,7 @@ $$
 
 The divisor $n-1$ (Bessel's correction) gives an unbiased estimate of the population standard
 Deviation. With $n$ in the denominator, the sample standard deviation systematically underestimates
-The population parameter.
+the population parameter.
 
 For grouped data with frequencies $f_i$:
 
@@ -141,7 +141,7 @@ $$
 
 This theorem is foundational in statistics, machine learning, and medical testing. It allows you to
 "invert" conditional probabilities: if you know $P(B|A)$ but need $P(A|B)$ Bayes' theorem provides
-The bridge.
+the bridge.
 
 **Example:** In a school, 60% of students study Maths, 40% study Physics, and 25% study both. A
 Student is chosen at random.
@@ -187,7 +187,7 @@ $$
 $$
 
 Despite a 95% true positive rate, only about 32% of positive tests indicate actual disease, due to
-The low prevalence (base rate fallacy).
+the low prevalence (base rate fallacy).
 
 ### Probability Trees
 
@@ -384,7 +384,7 @@ One-unit increase in $x$.
 
 **Extrapolation warning:** The regression line is reliable only within the range of the observed
 Data. Predicting outside this range (extrapolation) is unreliable because the linear relationship
-May not hold.
+may not hold.
 
 **Example:** Calculate the PMCC for the following data:
 
@@ -491,7 +491,7 @@ E(X) = \sum_{k=1}^{\infty} k(1-p)^{k-1}p = p\sum_{k=1}^{\infty} k(1-p)^{k-1}
 $$
 
 Using the identity $\displaystyle\sum_{k=1}^{\infty} kr^{k-1} = \frac{1}{(1-r)^2}$ for $|r| \lt 1$
-With $r = 1-p$:
+with $r = 1-p$:
 
 $$
 E(X) = p \cdot \frac{1}{p^2} = \frac{1}{p}
@@ -563,11 +563,11 @@ $$
 
 **Trade-off between errors.** Decreasing $\alpha$ (making the test more conservative) increases
 $\beta$ (making it harder to detect a real effect). The only way to decrease both simultaneously is
-To increase the sample size.
+to increase the sample size.
 
 **Example:** A manufacturer claims that the mean weight of bags of sugar is 500 g. A sample of 16
 Bags has mean weight 497 g with standard deviation 5 g. Test at the 5% significance level whether
-The mean weight differs from 500 g.
+the mean weight differs from 500 g.
 
 $H_0: \mu = 500$, $H_1: \mu \neq 500$.
 

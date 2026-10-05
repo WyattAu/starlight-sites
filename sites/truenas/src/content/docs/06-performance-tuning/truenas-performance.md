@@ -321,7 +321,7 @@ Configure under **Sharing** → **Unix (NFS) Shares** → **Settings**.
 
 For NFS, the default sync behavior depends on the client's mount options. ZFS's copy-on-write
 Ensures data integrity regardless of the NFS sync setting, but async mode can return "success" to
-The client before the data is actually stable on disk.
+the client before the data is actually stable on disk.
 
 ---
 
@@ -533,13 +533,13 @@ And after all disks in the vdev are replaced, the vdev's capacity expands to mat
 
 Setting the ARC too large (e.g., 90% of RAM) leaves insufficient memory for the OS, applications,
 And the ZFS prefetch cache. This can cause swapping, which is catastrophic for ZFS performance. Keep
-The ARC at 50–70% of physical RAM for dedicated NAS systems.
+the ARC at 50–70% of physical RAM for dedicated NAS systems.
 
 ### Using dedup Without Understanding the Memory Cost
 
 Enabling dedup on a large pool without sufficient RAM (128+ GB) will cause the DDT to overflow to
 Disk, which destroys performance. The system may become unresponsive. If you must use dedup, ensure
-You have enough RAM for the entire DDT in memory.
+you have enough RAM for the entire DDT in memory.
 
 ### Misaligned Partitions or ashift
 
@@ -891,7 +891,7 @@ graph TD
 ```
 
 For databases (PostgreSQL, MySQL), mirror vdevs provide significantly higher random IOPS because
-Each mirror pair can serve reads from both drives simultaneously. A pool of 8 drives configured as
+each mirror pair can serve reads from both drives simultaneously. A pool of 8 drives configured as
 4x mirror vdevs delivers approximately 4x the IOPS of the same 8 drives in a single RAIDZ2 vdev.
 
 ### Special Allocation Classes

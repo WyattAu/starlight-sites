@@ -415,7 +415,7 @@ Standards, or when explicit template instantiation control is needed.
 
 CRTP (and by extension deducing this) is commonly used to enforce a compile-time interface. Unlike
 Virtual functions, this pattern produces a compile-time error if a derived class does not provide
-The required methods:
+the required methods:
 
 ```cpp
 #include <iostream>
@@ -528,7 +528,7 @@ int main() {
 The first overload binds to const lvalues. The second overload binds to both non-const lvalues
 (`Logger&`) and rvalues (`Logger&&`) due to reference collapsing. This is the deducing-this
 Equivalent of providing both `const` and non-const overloads of a traditional member function, but
-With the added ability to distinguish rvalue receivers.
+with the added ability to distinguish rvalue receivers.
 
 ## 5.10 Deducing This and Multiple Inheritance
 
@@ -681,7 +681,7 @@ int main() {
 ```
 
 Each level calls into the next without virtual dispatch. The entire chain resolves at compile time
-And can be inlined by the compiler.
+and can be inlined by the compiler.
 
 ## 5.15 Deducing This and Constexpr Evaluation
 

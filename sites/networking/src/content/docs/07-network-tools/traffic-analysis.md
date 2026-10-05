@@ -72,7 +72,7 @@ Packets as they enter and leave the network interface.
 
 Advantages: captures the endpoint"s perspective (including locally-generated traffic), no additional
 Hardware. Disadvantages: endpoint CPU overhead, may not capture traffic that the endpoint's OS drops
-Before libpcap sees it.
+before libpcap sees it.
 
 ### Capture Point Selection Guide
 
@@ -225,7 +225,7 @@ tcpdump -i eth0 -Z root
 ### Display Filters
 
 Wireshark display filters are applied after capture and use a different (and more powerful) syntax
-Than BPF capture filters.
+than BPF capture filters.
 
 ```text
 # Protocol filters
@@ -342,7 +342,7 @@ google-chrome
 ## tshark
 
 Tshark is the command-line version of Wireshark. It uses the same capture and display filter syntax
-But outputs to the terminal.
+but outputs to the terminal.
 
 ### Capturing
 
@@ -410,7 +410,7 @@ tshark -r /tmp/capture.pcap -Y 'http.response' -T json \
 ### NetFlow (Cisco)
 
 NetFlow is a network protocol developed by Cisco that exports aggregated flow records from routers
-And switches. A "flow" is a unidirectional sequence of packets sharing the same 5-tuple (source IP,
+and switches. A "flow" is a unidirectional sequence of packets sharing the same 5-tuple (source IP,
 Destination IP, source port, destination port, protocol).
 
 **What NetFlow records:**
@@ -548,7 +548,7 @@ nethogs eth0
 ### conntrack (Linux)
 
 Linux's netfilter connection tracking system maintains a table of all active connections. This is
-The backbone of NAT, stateful firewalls, and conntrack-based tools.
+the backbone of NAT, stateful firewalls, and conntrack-based tools.
 
 ```bash
 # View all tracked connections
@@ -668,7 +668,7 @@ Operation.
 ### Baseline Duration
 
 Capture at least one full business cycle (7 days) to capture weekday vs weekend patterns, peak vs
-Off-peak hours, and any batch processing windows.
+off-peak hours, and any batch processing windows.
 
 ## Anomaly Detection
 
@@ -819,7 +819,7 @@ tcpdump -i eth0 -B 524288000   # 500MB
 ### 4. Not Considering VLAN Tags
 
 If your network uses VLANs, the VLAN tag (802.1Q) is prepended to the Ethernet frame. Tcpdump may
-Not match filters against VLAN-tagged traffic. Use `vlan` in the BPF filter:
+not match filters against VLAN-tagged traffic. Use `vlan` in the BPF filter:
 
 ```bash
 tcpdump -i eth0 'vlan 100 and port 443'

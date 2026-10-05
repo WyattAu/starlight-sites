@@ -25,7 +25,7 @@ Classify the ODE $y"' + xy' + e^x y = \cos x$ by order, linearity, and homogenei
 <summary>Solution</summary>
 
 _Solution._ Second-order (highest derivative is $y''$), linear ($y$, $y'$, $y''$ appear linearly
-With coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
+with coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.2 (Classification of ODEs).
 

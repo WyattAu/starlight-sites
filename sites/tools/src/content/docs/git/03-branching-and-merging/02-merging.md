@@ -23,7 +23,7 @@ categories:
 ## The Merge Operation
 
 Merging is the process of combining the changes from one branch into another. Git's merge algorithm
-Is one of its most sophisticated features, it can automatically resolve many cases where both
+is one of its most sophisticated features, it can automatically resolve many cases where both
 Branches have modified different files or different parts of the same file.
 
 ### What `git merge` Actually Does
@@ -86,12 +86,12 @@ The algorithm works **file by file, hunk by hunk**:
 | `x`  | `y`  | `z`    | **Conflict** | Both changed differently, manual resolution required |
 
 The critical case is the last row: when both branches modify the same region of the same file. This
-Is a **merge conflict**.
+is a **merge conflict**.
 
 ### Finding the Common Ancestor
 
 Git finds the base commit by computing the **lowest common ancestor** (LCA) of the two branch tips
-In the commit DAG. This is not trivial when the history contains multiple merge bases (criss-cross
+in the commit DAG. This is not trivial when the history contains multiple merge bases (criss-cross
 Merges):
 
 ```mermaid
@@ -339,7 +339,7 @@ git rebase main
 ### 2. Keep Feature Branches Short-Lived
 
 Long-lived branches accumulate conflicts. A feature branch should ideally exist for no more than a
-Few days. If a feature is large, break it into smaller, independently mergeable pieces.
+few days. If a feature is large, break it into smaller, independently mergeable pieces.
 
 ### 3. Use `--no-ff` for Feature Merges
 

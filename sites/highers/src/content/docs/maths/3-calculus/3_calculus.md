@@ -195,7 +195,7 @@ $$
 ### Related Rates
 
 Related rates problems involve finding the rate of change of one quantity given the rate of change
-Of a related quantity.
+of a related quantity.
 
 **Example:** A ladder 5 m long leans against a wall. The bottom slides away at 0.5 m/s. How fast is
 The top sliding down when the bottom is 3 m from the wall?

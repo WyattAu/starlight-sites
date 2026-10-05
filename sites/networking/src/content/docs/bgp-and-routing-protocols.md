@@ -167,7 +167,7 @@ ip route 10.1.0.0 255.255.252.0 10.0.0.2
 ### Floating Static Routes
 
 A floating static route is a backup route with a higher administrative distance. It is installed in
-The routing table only when the primary route disappears.
+the routing table only when the primary route disappears.
 
 ```
 ip route 0.0.0.0 0.0.0.0 10.0.0.1          ! primary, AD=1
@@ -427,8 +427,8 @@ interface Ethernet0/0
 ## IS-IS (Intermediate System to Intermediate System)
 
 IS-IS is a link-state IGP originally developed for the OSI protocol suite (CLNP) and later extended
-To support IP routing (Integrated IS-IS). It is widely used in large service provider networks and
-Is the IGP of choice for many Tier-1 ISPs.
+to support IP routing (Integrated IS-IS). It is widely used in large service provider networks and
+is the IGP of choice for many Tier-1 ISPs.
 
 ### NET Addresses
 
@@ -628,7 +628,7 @@ MP-BGP, NLRI can carry IPv6 prefixes, VPNv4/VPNv6 prefixes, MPLS labels, and mor
 ### BGP Path Attributes
 
 Every BGP route carries a set of path attributes that influence the BGP decision process. These are
-The core of BGP's policy-based routing.
+the core of BGP's policy-based routing.
 
 | Attribute             | Code | Type                     | Description                                                         |
 | --------------------- | ---- | ------------------------ | ------------------------------------------------------------------- |
@@ -712,7 +712,7 @@ router bgp 65001
 ```
 
 Confederations are less common than route reflectors in modern deployments but are still used in
-Some large service provider networks.
+some large service provider networks.
 
 ### BGP Communities
 
@@ -755,7 +755,7 @@ Mechanisms exist to mitigate BGP attacks:
 
 **BGPsec (RFC 8205):** Adds cryptographic signatures to the AS_PATH, allowing routers to verify that
 Each AS in the path actually authorized the advertisement. Deployment is limited due to complexity
-And performance concerns.
+and performance concerns.
 
 **RPKI (Resource Public Key Infrastructure):** Uses X.509 certificates to create a binding between
 ASNs and IP prefixes. Route validators (Relying Parties) compare BGP advertisements against the RPKI

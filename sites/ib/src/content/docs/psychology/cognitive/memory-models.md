@@ -20,7 +20,7 @@ description: "The multi-store model (MSM) proposed by Atkinson and Shiffrin is o
 ### Atkinson and Shiffrin (1968)
 
 The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models
-In cognitive psychology. It conceptualises memory as consisting of three structural stores through
+in cognitive psychology. It conceptualises memory as consisting of three structural stores through
 Which information flows in a linear sequence.
 
 #### The Three Stores
@@ -32,7 +32,7 @@ Information (echoic memory). Sensory memory has a large capacity but extremely l
 
 Evidence for sensory memory comes from Sperling (1960), who demonstrated that participants shown a
 3-by-4 grid of letters for 50 milliseconds could report only 4--5 items in a full-report condition
-But could accurately report any specified row when cued by a tone immediately after the display.
+but could accurately report any specified row when cued by a tone immediately after the display.
 This partial-report advantage demonstrates that all 12 items were briefly available in sensory
 Memory but decayed before they could be reported.
 
@@ -102,7 +102,7 @@ Processing system consisting of multiple components.
 
 **The central executive** is the attentional control system that coordinates the activities of the
 Other components. It allocates processing resources, suppresses irrelevant information, switches
-Between tasks, and integrates information from different sources. It has limited capacity but is not
+between tasks, and integrates information from different sources. It has limited capacity but is not
 Itself a storage system. Baddeley acknowledged that the central executive is the least
 Well-specified component of the model.
 
@@ -139,7 +139,7 @@ Follows B" were true or false given the letter sequence "BA") while simultaneous
 A verbal secondary task (reciting digits) or a visual secondary task (tracking a moving light).
 
 Results: Performance on the reasoning task was impaired more by the concurrent verbal task than by
-The visual task. This supports the existence of separate verbal and visuospatial processing systems,
+the visual task. This supports the existence of separate verbal and visuospatial processing systems,
 As predicted by the working memory model.
 
 **Evaluation of the working memory model:**
@@ -173,7 +173,7 @@ Rather of the depth of processing applied to the information at encoding.
 ### Craik and Tulving (1975)
 
 Craik and Tulving provided the seminal evidence for the LOP effect. Participants were shown words
-One at a time and asked questions requiring structural, phonological, or semantic processing. In a
+one at a time and asked questions requiring structural, phonological, or semantic processing. In a
 Surprise recall test, participants recalled significantly more words that had been processed
 Semantically than those processed phonologically or structurally.
 
@@ -208,7 +208,7 @@ Immediately to several months later).
   schemas.
 
 Bartlett introduced the concept of **schemas**: organised packets of knowledge and expectations
-About the world that influence how information is encoded, stored, and retrieved. When we encounter
+about the world that influence how information is encoded, stored, and retrieved. When we encounter
 New information, we interpret it in terms of our existing schemas, and when we recall information,
 We reconstruct it using our schemas to fill in gaps and resolve inconsistencies.
 
@@ -251,8 +251,8 @@ Psychology and the legal system. Her work demonstrates that memory is highly mal
 Distorted by the way questions are asked.
 
 In their most famous experiment, Loftus and Palmer showed participants films of car accidents and
-Then asked them to estimate the speed of the cars. The critical manipulation was the verb used in
-The question: "About how fast were the cars going when they **hit** each other?" versus "**smashed**
+then asked them to estimate the speed of the cars. The critical manipulation was the verb used in
+the question: "About how fast were the cars going when they **hit** each other?" versus "**smashed**
 Each other" versus "**collided** each other" versus "**bumped** each other" versus "**contacted**
 Each other."
 

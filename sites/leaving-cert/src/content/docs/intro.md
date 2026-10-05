@@ -109,18 +109,18 @@ Grades H6 and above.
 ## Using These Notes
 
 These notes are structured by subject and topic. Each topic covers material relevant to both Higher
-And Ordinary Level, with the level indicated. Worked examples, common pitfalls, and practice
+and Ordinary Level, with the level indicated. Worked examples, common pitfalls, and practice
 Questions are included throughout.
 
 :::tip
 Questions. For Higher Level students, pay particular attention to the proofs and derivations, as
-These frequently appear on the examination.
+these frequently appear on the examination.
 :::
 
 ## State Examinations Commission (SEC)
 
 The SEC is the statutory body responsible for the development, administration, and accreditation of
-The State examinations in Ireland. Its website at [examinations.ie](https://www.examinations.ie)
+the State examinations in Ireland. Its website at [examinations.ie](https://www.examinations.ie)
 Provides past examination papers, marking schemes, and chief examiner reports -- all invaluable
 Resources for revision.
 

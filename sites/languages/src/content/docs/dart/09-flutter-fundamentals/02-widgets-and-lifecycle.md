@@ -25,7 +25,7 @@ categories:
 Flutter's rendering model is declarative. You do not mutate a view object in place; you describe
 What the UI should look like for a given state, and the framework diffs that description against the
 Current tree and applies the minimal set of changes. A **widget** is the immutable data structure
-That carries that description.
+that carries that description.
 
 A widget is a **blueprint**, not a visual element. When you write `const Text('hello')`You have
 Created a configuration object that says "render the string 'hello' with default typography." The
@@ -64,8 +64,8 @@ RenderObject tree (persistent, handles layout/paint/hit-test)
 
 The Widget tree exists only as a momentary configuration snapshot. The Element tree is the actual
 Persistent tree that the framework walks during layout and paint. The RenderObject tree is a subset
-Of the Element tree (only elements that need layout/paint create RenderObjects; structural elements
-Like `Column``Builder`Or `InheritedWidget` do not).
+of the Element tree (only elements that need layout/paint create RenderObjects; structural elements
+like `Column``Builder`Or `InheritedWidget` do not).
 
 ## 2. Widget Types
 
@@ -89,7 +89,7 @@ class TemperatureDisplay extends StatelessWidget {
 
 Use `StatelessWidget` when the widget's output depends solely on its constructor arguments and data
 Obtained from ancestor widgets (via `BuildContext`E.g., `Theme.of(context)`). The build method
-Should be a pure function of its inputs.
+should be a pure function of its inputs.
 
 ### StatefulWidget
 
@@ -117,7 +117,7 @@ class _CounterState extends State<Counter> {
 
 The separation between `StatefulWidget` (immutable config) and `State` (mutable lifecycle) is
 Deliberate: it allows the framework to swap a new widget config into an existing State object when
-The parent rebuilds. This is why `didUpdateWidget` receives the old widget, the current widget is
+the parent rebuilds. This is why `didUpdateWidget` receives the old widget, the current widget is
 Already available as `widget`.
 
 ### InheritedWidget
@@ -148,7 +148,7 @@ class ThemeConfiguration extends InheritedWidget {
 ```
 
 The `updateShouldNotify` method is the critical optimization gate. Return `true` only when the data
-That descendants care about has actually changed. If you return `true` unnecessarily, every
+that descendants care about has actually changed. If you return `true` unnecessarily, every
 Dependent descendant rebuilds on every ancestor rebuild, which cascades into severe performance
 Degradation.
 
@@ -176,7 +176,7 @@ Reconciliation, it performs a pointer identity check, which is O(1) and branch-p
 `BuildContext` is not a class you instantiate. It is an **abstract interface** implemented by
 `Element`. When you receive a `BuildContext` inside `build()`You are holding a handle to the
 `Element` that owns the widget currently being built. This handle represents that element's position
-In the tree.
+in the tree.
 
 ### What BuildContext Provides
 
@@ -229,7 +229,7 @@ Element in the tree. Once `dispose()` is called, `mounted` becomes `false` and n
 ### lookup for InheritedWidget
 
 In Flutter 3.10+, `context.lookup<T>()` provides a non-depended-upon lookup of the nearest ancestor
-Of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`This does **not**
+of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`This does **not**
 Register a dependency, meaning the calling element will **not** rebuild when the ancestor changes.
 Use this when you need to read a value once without subscribing to updates.
 
@@ -319,7 +319,7 @@ dispose()                        ← permanent removal, release resources
 ### createState()
 
 Called by the framework when the `StatefulWidget` is inserted into the tree. This is the only place
-Where the `State` object is instantiated. The `State` object is then associated with the `Element`
+where the `State` object is instantiated. The `State` object is then associated with the `Element`
 And persists as long as that `Element` remains in the tree, even across parent rebuilds that supply
 A new `StatefulWidget` instance.
 
@@ -334,7 +334,7 @@ This is where you:
 - Perform one-time computations.
 
 You **cannot** use `context.dependOnInheritedWidgetOfExactType` here because the element has not yet
-Been registered as a dependency. Use `didChangeDependencies()` for that.
+been registered as a dependency. Use `didChangeDependencies()` for that.
 
 ### didChangeDependencies()
 
@@ -357,7 +357,7 @@ But will not be triggered again unless you later register a dependency.
 
 Called after `initState()``didChangeDependencies()`And after every `setState()`. Must return a
 Widget. Should be a pure function of `this.state` and `this.widget` (and any inherited data). Must
-Not have side effects, do not call `setState()` inside `build()`.
+not have side effects, do not call `setState()` inside `build()`.
 
 ### didUpdateWidget(covariant oldWidget)
 
@@ -453,7 +453,7 @@ Future<void> _fetch() async {
 The `State` object associated with a `StatefulWidget` persists across parent rebuilds. When the
 Parent rebuilds and constructs a new `MyWidget(foo: 2)` to replace `MyWidget(foo: 1)`The framework
 Reuses the existing `State` object and calls `didUpdateWidget`. The `State` object is only discarded
-If the `Element` is removed from the tree or if the widget's `runtimeType` or `key` changes.
+if the `Element` is removed from the tree or if the widget's `runtimeType` or `key` changes.
 
 This is why fields in `State` survive rebuilds while fields in the widget do not. The widget is
 Re-instantiated every build; the state persists.
@@ -517,7 +517,7 @@ void _submit() {
 ```
 
 Global keys are expensive, they require O(1) lookups in a global hash map during every rebuild. Do
-Not use them inside `ListView.builder` or other lazily-built lists. They also prevent garbage
+not use them inside `ListView.builder` or other lazily-built lists. They also prevent garbage
 Collection of the Element until the key is nulled out or reassigned.
 
 ### ObjectKey
@@ -560,7 +560,7 @@ assert(identical(a, b)); // true, same object
 ```
 
 For Flutter's reconciliation, `identical(oldWidget, newWidget)` is the cheapest possible check. When
-It returns `true`The framework skips the entire update process, no `didUpdateWidget`No `build()`
+it returns `true`The framework skips the entire update process, no `didUpdateWidget`No `build()`
 call on the child.
 
 ### When to Use const
@@ -655,12 +655,12 @@ Nesting.
 Allocated space. A loose `FlexFit` allows the child to be smaller than the allocated space. Use
 `Expanded` when the child should fill the remaining space. Use `Flexible` when the child should
 Participate in flex distribution but may not need all the space (e.g., a `Row` where one child
-Should shrink-wrap).
+should shrink-wrap).
 
 ### Stack and Positioned
 
 `Stack` lays children on top of each other. `Positioned` children are placed at absolute offsets
-Within the stack. Non-positioned children are laid out by the stack's `alignment` property.
+within the stack. Non-positioned children are laid out by the stack's `alignment` property.
 `Positioned.fill()` is a convenience for `Positioned(top: 0, right: 0, bottom: 0, left: 0)`.
 
 ## 10. The Element Tree
@@ -783,7 +783,7 @@ Mutable state, lifecycle hooks, or controller ownership.
 
 A useful heuristic: if the widget's `build()` output changes only in response to parent rebuilds
 (i.e., the parent passes new constructor arguments), use `StatelessWidget`. If the widget's output
-Can change independently (e.g., an animation tick, a timer, user input), use `StatefulWidget`.
+can change independently (e.g., an animation tick, a timer, user input), use `StatefulWidget`.
 
 ### Key Placement in Lists
 

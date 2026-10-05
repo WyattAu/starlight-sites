@@ -46,7 +46,7 @@ for i := 0; i < 100000; i++ {
 
 Go uses an M:N scheduler: M goroutines are multiplexed onto N OS threads (called "M" in Go"s runtime
 Terminology, with "P" as logical processors). The scheduler uses work-stealing to balance load
-Across Ps.
+across Ps.
 
 Key components:
 

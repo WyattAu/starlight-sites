@@ -416,7 +416,7 @@ Enrolments: StudentID, Subject.
 
 If a Student record with StudentID = 5 exists in the Enrolments table, you cannot delete StudentID =
 5 from the Students table without first deleting the enrolments. Otherwise, the Enrolments table
-Would reference a non-existent student.
+would reference a non-existent student.
 
 ## Advanced SQL Techniques (HL)
 

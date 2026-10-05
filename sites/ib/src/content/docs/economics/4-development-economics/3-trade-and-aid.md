@@ -112,8 +112,8 @@ Development must not compromise the ability of future generations to meet their 
 ### The Environmental Kuznets Curve
 
 The environmental Kuznets curve hypothesises an inverted-U relationship between economic development
-And environmental degradation: pollution rises during early industrialisation but eventually falls
-As societies become wealthier, invest in cleaner technology, and demand stronger environmental
+and environmental degradation: pollution rises during early industrialisation but eventually falls
+as societies become wealthier, invest in cleaner technology, and demand stronger environmental
 Regulation.
 
 This pattern does not hold universally, carbon dioxide emissions and some pollutants have not
@@ -246,12 +246,12 @@ Questions of **climate justice**.
 ### Microfinance
 
 Microfinance refers to the provision of small loans (microcredit), savings accounts, insurance, and
-Other financial services to low-income individuals who lack access to traditional banking.
+other financial services to low-income individuals who lack access to traditional banking.
 
 **Mechanism:**
 
 The group lending model (pioneered by Grameen Bank, Muhammad Yunus) uses social collateral instead
-Of physical collateral:
+of physical collateral:
 
 $$
 \text{Default by one member} \implies \text{Group liability} \implies \text{Social sanctions}

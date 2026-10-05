@@ -246,7 +246,7 @@ The RTT: $\mathrm{throughput} \leq \min(\mathrm{cwnd}, \mathrm{rwnd}) / \mathrm{
 
 _Proof._ The sender cannot have more than the window size in unacknowledged data. Each byte sent
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
-Per second. $\blacksquare$
+per second. $\blacksquare$
 
 :::caution
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was

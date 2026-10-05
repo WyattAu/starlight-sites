@@ -522,7 +522,7 @@ $$
 **Worked example 7:** For
 $\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$
 $K_c = 6.00 \times 10^{-2} \mathrm{ (mol/dm}^3)^{-2}$ at 400$^\circ$C. If 1.00 mol of $\mathrm{N}_2$
-And 3.00 mol of $\mathrm{H}_2$ are placed in a 2.00 dm$^3$ flask, calculate the equilibrium
+and 3.00 mol of $\mathrm{H}_2$ are placed in a 2.00 dm$^3$ flask, calculate the equilibrium
 Concentrations and the percentage conversion of $\mathrm{N}_2$.
 
 <details>
@@ -595,7 +595,7 @@ $K_c = (0.318)^2 / (0.341 \times 1.023^3) = 0.1011 / (0.341 \times 1.070) = 0.10
 
 This does not match $K_c = 0.0600$. The issue is that the approximation was too rough. For a precise
 Answer, numerical methods or a computer solver would be needed. Let us use a smaller $K_c$ to make
-The approximation valid.
+the approximation valid.
 
 With $K_c = 0.00200$:
 
@@ -1026,7 +1026,7 @@ Equilibrium, the concentration of $\mathrm{SO}_3$ is much larger than those of $
 $\mathrm{O}_2$. However, $K_c \neq \infty$ Which means the reaction does not go to completion.
 
 The equilibrium is dynamic: both forward and reverse reactions continue. The very large $K_c$ means
-The reverse reaction rate is negligible compared to the forward rate at equilibrium, but it is not
+the reverse reaction rate is negligible compared to the forward rate at equilibrium, but it is not
 Zero. Tiny amounts of $\mathrm{SO}_2$ and $\mathrm{O}_2$ must always be present at equilibrium to
 Sustain the reverse reaction.
 
@@ -1057,7 +1057,7 @@ Change. The new equilibrium can be estimated using $K_c$.
 $\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}$, $K_c = 49.0$ at a
 Certain temperature. At equilibrium, $[\mathrm{H}_2] = [\mathrm{I}_2] = 0.100$ and
 $[\mathrm{HI}] = 0.700$ mol/dm$^3$. If 0.200 mol/dm$^3$ of $\mathrm{HI}$ is suddenly added, what are
-The new equilibrium concentrations?
+the new equilibrium concentrations?
 
 <details>
 <summary>Answer</summary>

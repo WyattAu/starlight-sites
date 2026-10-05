@@ -328,7 +328,7 @@ From the ogive, the median falls in the $25 \leq d \lt 40$ class.
 
 **Line of best fit:** A straight line drawn through the data that approximately follows the trend.
 It should pass through the mean point $(\bar{x}, \bar{y})$ and have roughly equal numbers of points
-On each side.
+on each side.
 
 :::caution
 Factor, or by coincidence.
@@ -341,7 +341,7 @@ Factor, or by coincidence.
 
 **Worked Example (Higher Tier).** A scatter graph of exam score against hours of revision shows a
 Strong positive correlation. The line of best fit passes through $(2, 35)$ and $(10, 85)$. Estimate
-The exam score for a student who revised for 7 hours.
+the exam score for a student who revised for 7 hours.
 
 Gradient: $m = \frac{85 - 35}{10 - 2} = \frac{50}{8} = 6.25$.
 
@@ -543,7 +543,7 @@ $$
 The mean and standard deviation?
 
 The new mean is $\bar{x} + 5$. The standard deviation is unchanged, because adding a constant shifts
-All values by the same amount but does not change their spread.
+all values by the same amount but does not change their spread.
 
 If every value is multiplied by $k$ The new mean is $k\bar{x}$ and the new standard deviation is
 $|k|\sigma$.
@@ -601,7 +601,7 @@ Independent (because $P(A \cap B) = 0 \neq P(A) \times P(B)$ when both are posit
 
 **Example.** A card is drawn from a standard 52-card deck. Let $A$ be "the card is a heart" and $B$
 Be "the card is a king". These events are NOT mutually exclusive (the king of hearts is both), but
-They ARE independent: $P(A) = 13/52 = 1/4$, $P(B) = 4/52 = 1/13$ And
+they ARE independent: $P(A) = 13/52 = 1/4$, $P(B) = 4/52 = 1/13$ And
 $P(A \cap B) = 1/52 = (1/4)(1/13)$.
 
 ### 9.2 Why the Standard Deviation Uses Squared Differences

@@ -41,7 +41,7 @@ With boundary conditions $u(0, t) = u(L, t) = 0$ and initial condition $u(x, 0) 
 
 Consider a thin rod of length $L$ with uniform cross-section and density $\rho$. Let $u(x, t)$ be
 the Temperature at position $x$ and time $t$. By **Fourier's law of heat conduction**, the heat flux
-Through a cross-section is proportional to the negative temperature gradient:
+through a cross-section is proportional to the negative temperature gradient:
 
 $$
 q = -\kappa u_x

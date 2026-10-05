@@ -70,7 +70,7 @@ systems. It consists of distinct phases, each with specific activities and deliv
 
 The analysis phase investigates the current system and the problem it needs to solve. The analyst
 Gathers information about what the new system must do (requirements) without specifying how it will
-Be built.
+be built.
 
 ### Activities
 
@@ -106,7 +106,7 @@ Be built.
 ### Feasibility Study
 
 A feasibility study evaluates whether a project is worth pursuing. It examines multiple dimensions
-Of feasibility.
+of feasibility.
 
 | Feasibility Type | Description                                                      | Key Questions                                           |
 | ---------------- | ---------------------------------------------------------------- | ------------------------------------------------------- |

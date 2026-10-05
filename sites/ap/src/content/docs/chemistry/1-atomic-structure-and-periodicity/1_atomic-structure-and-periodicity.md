@@ -36,17 +36,17 @@ categories:
 | Schrodinger | Wave equation for the electron (quantum mechanical model)            |
 
 Each model was superseded because it failed to explain new experimental observations. Dalton could
-Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
+not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
 Unstable by classical electrodynamics. Bohr's model only worked for hydrogen. The Schrodinger
 Equation provides the complete quantum mechanical description, predicting probability distributions
-For electrons rather than definite orbits.
+for electrons rather than definite orbits.
 
 ### Derivation: Rutherford Scattering and the Nucleus
 
 In Rutherford's gold foil experiment, alpha particles were fired at a thin gold foil. Most passed
 Straight through (the atom is mostly empty space), but some were deflected at large angles. A few
-Even bounced back. The large-angle scattering can only be explained if all the positive charge and
-Most of the mass are concentrated in a tiny, dense nucleus.
+even bounced back. The large-angle scattering can only be explained if all the positive charge and
+most of the mass are concentrated in a tiny, dense nucleus.
 
 Rutherford derived that the closest approach distance $d$ for a head-on collision is:
 
@@ -174,12 +174,12 @@ The energy of an orbital depends on both the principal quantum number $n$ and th
 Effect. The 4s orbital has greater penetration to the nucleus than the 3d orbital (because s
 Orbitals have no angular momentum, so they spend more time near the nucleus). This greater
 Penetration lowers the energy of 4s below that of 3d when both are empty. However, once 3d electrons
-Are present, they shield the 4s electrons effectively, causing the 4s energy to rise above 3d.
+are present, they shield the 4s electrons effectively, causing the 4s energy to rise above 3d.
 
 ### Pauli Exclusion Principle
 
 No two electrons in an atom can have the same set of four quantum numbers. Each orbital holds at
-Most two electrons with opposite spins.
+most two electrons with opposite spins.
 
 ### Hund's Rule
 
@@ -203,7 +203,7 @@ Minimises electron-electron repulsion and maximises total spin, which is energet
 Similar exceptions occur for Mo ($4d^5$) and $\mathrm{Ag$ ($4d^{10}$).
 
 The stability of half-filled and fully filled d subshells arises from exchange energy: electrons
-With parallel spins in different orbitals are slightly lower in energy than paired electrons. A
+with parallel spins in different orbitals are slightly lower in energy than paired electrons. A
 Half-filled ($d^5$) or fully filled ($d^{10}$) subshell maximises this exchange energy.
 
 :::note[Example]
@@ -263,7 +263,7 @@ E_n = -\frac{13.6 \mathrm{ eV}{n^2} = -\frac{2.18 \times 10^{-18} \mathrm{ J}{n^
 $$
 
 The energy is negative because the electron is bound to the nucleus. The ground state ($n = 1$) has
-The most negative (lowest) energy. As $n \to \infty$$E_n \to 0$ Which is the ionisation energy.
+the most negative (lowest) energy. As $n \to \infty$$E_n \to 0$ Which is the ionisation energy.
 
 The radius of the $n$ Th orbit:
 
@@ -361,7 +361,7 @@ If $\nu \lt \nu_0$ No electrons are emitted regardless of intensity.
 The photoelectric effect demonstrates the particle nature of light. Increasing the intensity of
 Light below the threshold frequency does not eject electrons because no single photon has enough
 Energy. Above the threshold, increasing intensity increases the number of ejected electrons (because
-More photons arrive per unit time) but not their maximum kinetic energy.
+more photons arrive per unit time) but not their maximum kinetic energy.
 
 ### Worked Example: Photoelectric Effect
 
@@ -419,7 +419,7 @@ Repulsion in Group 16).
 
 **Successive ionization energies** provide evidence for electron shells. Large jumps in ionization
 Energy occur when an electron is removed from a new, inner shell (which is closer to the nucleus and
-Less shielded).
+less shielded).
 
 **Worked Example.** The first five ionization energies of an element are 578, 1817, 2745, 11578, and
 14842 kJ/mol. Identify the group.
@@ -511,7 +511,7 @@ Repulsion).
 ### Paramagnetism and Diamagnetism
 
 Atoms or ions with unpaired electrons are **paramagnetic** (attracted to a magnetic field). Those
-With all electrons paired are **diamagnetic** (weakly repelled by a magnetic field).
+with all electrons paired are **diamagnetic** (weakly repelled by a magnetic field).
 
 | Species   | Unpaired Electrons | Magnetic Behavior |
 | --------- | ------------------ | ----------------- |
@@ -544,7 +544,7 @@ electrons.
 
 For main group elements, valence electrons are those in the outermost s and p subshells. For
 Transition metals, the valence electrons include the outermost s electrons and the d electrons of
-The highest occupied d subshell.
+the highest occupied d subshell.
 
 | Element | Configuration                | Valence Electrons |
 | ------- | ---------------------------- | ----------------- |
@@ -593,14 +593,14 @@ Order: Na &lt; Al &lt; Cl &lt; Ar.
 ### Derivation: Ionization Energy Across a Period
 
 The first ionization energy generally increases across a period because $Z_{\mathrm{eff}$ increases
-While the principal quantum number $n$ stays the same. The outermost electron is held more tightly.
+while the principal quantum number $n$ stays the same. The outermost electron is held more tightly.
 
 The decrease from Group 2 to Group 13 occurs because the Group 13 electron enters a p subshell,
 Which is higher in energy and more effectively shielded than the s subshell of Group 2.
 
 The decrease from Group 15 to Group 16 occurs because the Group 16 electron pairs with another
 Electron in the same p orbital, creating electron-electron repulsion (pairing energy) that offsets
-The increase in $Z_{\mathrm{eff}$.
+the increase in $Z_{\mathrm{eff}$.
 
 ```mermaid
 flowchart TD

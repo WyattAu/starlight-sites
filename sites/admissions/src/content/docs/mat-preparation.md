@@ -94,7 +94,7 @@ Domain, at zeros, and at extreme values.
 
 **Use the options against each other.** If two options are contradictory, exactly one must be false.
 If options A and B differ only in the sign of a term, determining the sign of that term eliminates
-One.
+one.
 
 ### 2.2 Common Trap Patterns
 
@@ -245,7 +245,7 @@ algebraic manipulation.
 
 **Asymptotes.** Vertical asymptotes at values where $f$ is undefined. Horizontal asymptotes from
 $\lim_{x \to \pm\infty} f(x)$. Oblique asymptotes when the degree of the numerator is one more than
-The denominator: divide to find $f(x) = mx + c + \frac{r(x)}{s(x)}$.
+the denominator: divide to find $f(x) = mx + c + \frac{r(x)}{s(x)}$.
 
 **Curve sketching procedure.**
 
@@ -443,7 +443,7 @@ Total: $2 + 1 + 3 = 6$ stationary points.
 **Solution.**
 
 **(i)** By Fermat's little theorem, for any integer $n$ not divisible by 5, $n^4 \equiv 1 \pmod{5}$
-So $n^5 \equiv n \pmod{5}$ Giving $n^5 - n \equiv 0 \pmod{5}$.
+so $n^5 \equiv n \pmod{5}$ Giving $n^5 - n \equiv 0 \pmod{5}$.
 
 Alternatively, by factorisation:
 
@@ -460,10 +460,10 @@ product is divisible by 5.
 **(ii)** We have $n^5 - n = (n-1)n(n+1)(n^2 + 1)$.
 
 Divisibility by 2: $(n-1)n(n+1)$ is the product of three consecutive integers, so at least one is
-Even. Therefore $n^5 - n$ is divisible by 2.
+even. Therefore $n^5 - n$ is divisible by 2.
 
 Divisibility by 3: $(n-1)n(n+1)$ is the product of three consecutive integers, so one is divisible
-By 3. Therefore $n^5 - n$ is divisible by 3.
+by 3. Therefore $n^5 - n$ is divisible by 3.
 
 Divisibility by 5: established in part (i).
 
@@ -651,14 +651,14 @@ $p = q \cdot f(\frac{p}{q})$ So $f(\frac{p}{q}) = \frac{p}{q}$.
 For $x > 0$: $f(x) = f(\sqrt{x} \cdot \sqrt{x}) = f(\sqrt{x})^2 \geq 0$.
 
 If $x > y$: $f(x) - f(y) = f(x - y) \geq 0$ (since $x - y > 0$ and $f$ of a positive number is
-Non-negative). Wait, we need to be more careful.
+non-negative). Wait, we need to be more careful.
 
 Actually, since $f(x) = x$ for all rationals and $f$ is additive, for any real $x$ and rational $r$:
 If $r < x$ then $f(x) - r = f(x) - f(r) = f(x - r)$. Since $x - r > 0$ and we have shown $f$ of a
 Positive number is non-negative, $f(x) \geq r$ for all rationals $r < x$. Hence $f(x) \geq x$.
 
 Similarly, if $r > x$ then $f(r) - f(x) = f(r - x) \geq 0$ (since $r - x > 0$), so $f(x) \leq r$ for
-All rationals $r > x$. Hence $f(x) \leq x$.
+all rationals $r > x$. Hence $f(x) \leq x$.
 
 Combining: $f(x) = x$ for all $x \in \mathbb{R}$.
 

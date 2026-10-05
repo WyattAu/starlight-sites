@@ -267,7 +267,7 @@ Configuration for `ts-node` in `tsconfig.json`:
 ```
 
 `transpileOnly: true` skips type checking for faster execution (useful during development). Remove
-It for production scripts where type safety is critical.
+it for production scripts where type safety is critical.
 
 **Common Pitfall:** `ts-node` with ESM requires additional configuration. Set `"esm": true` in the
 `ts-node` section of `tsconfig.json` and ensure `package.json` has `"type": "module"`.
@@ -561,7 +561,7 @@ function example(): void {
 ```
 
 The `using` keyword ensures that `dispose()` is called when the variable goes out of scope, even if
-An exception is thrown.
+an exception is thrown.
 
 ## Common Pitfalls
 
@@ -574,7 +574,7 @@ Specific reason.
 ### Pitfall 2: Path Aliases Not Resolved at Runtime
 
 Path aliases in `tsconfig.json` (`paths`) are resolved only by the TypeScript compiler. The bundler
-Or runtime must be configured separately to resolve these aliases. Without matching bundler
+or runtime must be configured separately to resolve these aliases. Without matching bundler
 Configuration, imports will fail at runtime.
 
 ### Pitfall 3: `composite` Requires Explicit File Listing

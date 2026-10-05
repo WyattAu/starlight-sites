@@ -54,7 +54,7 @@ parent-repo/
 ```
 
 There is no `.gitmodules` file. There is no `.git` directory inside `vendor/lib/`. The files exist
-As normal blobs in the parent repository's object database. Any Git operation on the parent
+as normal blobs in the parent repository's object database. Any Git operation on the parent
 (touching files in `vendor/lib/`Committing changes, branching, merging) works exactly the same as It
 would for any other directory.
 
@@ -244,7 +244,7 @@ Upstream repositories.
 
 Only changes under the specified prefix are pushed. Changes in other directories of the parent
 Repository are not included. The push creates a linear history on the upstream branch containing
-Only commits that touched files in the subtree directory.
+only commits that touched files in the subtree directory.
 
 ### The `--squash` Complication
 
@@ -355,7 +355,7 @@ Parent. This enables subsequent `git subtree push` operations to find the correc
 ### Recovering from a Split Gone Wrong
 
 If a split produces unexpected results (wrong files, missing commits), delete the temporary branch
-And try again:
+and try again:
 
 ```bash
 git branch -D lib-only
@@ -510,15 +510,15 @@ Significant pain later.
 
 **Recommendation**: Use `--squash` for one-way dependencies (you pull from upstream but never push
 Back). Use full history for bidirectional workflows (you both pull and push). This decision should
-Be made at the time of `git subtree add` and must remain consistent, mixing squashed and
-Non-squashed operations on the same subtree leads to conflicts.
+be made at the time of `git subtree add` and must remain consistent, mixing squashed and
+non-squashed operations on the same subtree leads to conflicts.
 
 ### Merge Conflicts on Pull
 
 If you modified files in the subtree directory and the upstream also modified those same files,
 `git subtree pull` produces merge conflicts. The conflict resolution is a standard Git merge
 Conflict, edit the files, stage them, commit. But the experience is worse than a normal merge
-Because:
+because:
 
 - The conflict markers appear in files you may not fully understand (they are upstream code).
 - If you used `--squash`The conflict is between your local changes and a squash commit containing
@@ -541,7 +541,7 @@ Mitigate by:
 ### Forgetting the Remote URL
 
 The `git subtree pull` and `git subtree push` commands require the repository URL every time. If you
-Do not add a named remote, you must type the full URL on every command, and it must match exactly
+do not add a named remote, you must type the full URL on every command, and it must match exactly
 What you used for `git subtree add`:
 
 ```bash
@@ -560,21 +560,21 @@ $ git subtree pull --prefix=vendor/lib --squash lib-upstream main
 
 `git subtree split` replays every commit in the repository's history that touched the prefix. On a
 Repository with 100,000 commits, this can take 10+ minutes. There is no way to speed this up, it is
-An inherent limitation of the algorithm. If you need to split frequently, consider using
+an inherent limitation of the algorithm. If you need to split frequently, consider using
 `git filter-repo` instead, which is significantly faster.
 
 ### Concurrent Pushes from Multiple Parent Repos
 
 If two parent repositories both use subtrees pointing to the same upstream, and both push changes,
 The upstream will have conflicting histories. Git cannot resolve this automatically. The second push
-Will fail with a non-fast-forward error, and the pusher must pull, resolve conflicts, and push
+will fail with a non-fast-forward error, and the pusher must pull, resolve conflicts, and push
 Again. This is fundamentally a coordination problem, subtrees assume a single source of truth for
-The upstream.
+the upstream.
 
 ### Deleting and Re-adding a Subtree
 
 If you `git rm -rf vendor/lib` and later `git subtree add --prefix=vendor/lib` again, the framework
-Cannot reuse the previous history. The new subtree add starts fresh. If you need to re-add a
+cannot reuse the previous history. The new subtree add starts fresh. If you need to re-add a
 Subtree, consider whether `git subtree pull` (to update the existing subtree) is what you actually
 Want.
 

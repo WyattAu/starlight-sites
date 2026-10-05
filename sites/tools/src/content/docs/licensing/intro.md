@@ -18,21 +18,21 @@ description: "Every piece of software you write, compile, or deploy is subject t
 ## What Software Licensing Is
 
 Every piece of software you write, compile, or deploy is subject to copyright law by default. Under
-The Berne Convention (implemented in the US via the Copyright Act of 1976), copyright attaches
+the Berne Convention (implemented in the US via the Copyright Act of 1976), copyright attaches
 Automatically the moment an original work is fixed in a tangible medium of expression, no
 Registration required, no notice required. This means that without an explicit license, nobody else
-Has any legal right to copy, modify, distribute, or use your software. The default state of all
+has any legal right to copy, modify, distribute, or use your software. The default state of all
 Software is "all rights reserved."
 
 A software license is the legal instrument that grants specific permissions to others. It does not
 Transfer ownership of the copyright; it grants a limited set of rights (a license) under specific
 Conditions. Understanding this distinction is critical: the copyright holder retains ownership and
-Can revoke the license (for non-perpetual grants) or enforce compliance with the license terms
-Through copyright infringement claims.
+can revoke the license (for non-perpetual grants) or enforce compliance with the license terms
+through copyright infringement claims.
 
 Intellectual property (IP) law is the foundation. Software is protectable under copyright (the
 Specific expression of code), potentially under patent law (novel algorithms or processes, though
-This is jurisdiction-dependent and controversial), and under trade secret law (if the code is kept
+this is jurisdiction-dependent and controversial), and under trade secret law (if the code is kept
 Confidential). Licenses operate primarily within the copyright framework but increasingly include
 Patent provisions to address the intersection of copyright and patent rights in software.
 
@@ -65,7 +65,7 @@ GPLv3.
 
 **Network copyleft (AGPL)**, Extends strong copyleft obligations to network interactions. If users
 Interact with the software over a network, you must provide the source to those users. This closes
-The "ASP loophole" (Application Service Provider loophole) that existed in GPLv2 and GPLv3, where
+the "ASP loophole" (Application Service Provider loophole) that existed in GPLv2 and GPLv3, where
 Hosting software as a service did not trigger distribution requirements because no copy was being
 Conveyed.
 
@@ -77,7 +77,7 @@ Include fallback provisions.
 ## Copyleft vs Permissive: Philosophy and Practice
 
 The philosophical divide between copyleft and permissive licensing mirrors a deeper disagreement
-About the purpose of software freedom:
+about the purpose of software freedom:
 
 **Permissive licensing** (associated with the Open Source Initiative and the "open source" movement)
 Treats software freedom as a practical benefit. The goal is maximal adoption and reuse. If a company
@@ -87,9 +87,9 @@ Release, and the author"s goal of broad adoption is served.
 
 **Copyleft licensing** (associated with the Free Software Foundation and the "free software"
 Movement) treats software freedom as a moral imperative. The goal is to ensure that software freedom
-Is preserved in all downstream uses. If a company takes GPL-licensed code and ships it in a
+is preserved in all downstream uses. If a company takes GPL-licensed code and ships it in a
 Closed-source product without providing source, that is a violation of the license and a violation
-Of the user's freedom.
+of the user's freedom.
 
 In practice, this translates to different risk profiles for downstream consumers:
 
@@ -107,7 +107,7 @@ Decisions that have licensing implications every day:
 Other package registry carries a license. If you ship a product that includes a GPLv3-licensed
 Dependency, your entire product may need to be distributed under GPLv3, and if you cannot do that
 (because your product includes proprietary components), you cannot ship the product at all. You need
-To know what is in your dependency tree and what obligations those licenses impose. This is not a
+to know what is in your dependency tree and what obligations those licenses impose. This is not a
 Theoretical concern: companies have been forced to rewrite products to remove GPL dependencies after
 Failing to audit their license obligations.
 
@@ -122,18 +122,18 @@ Contributor License Agreement (CLA) or agree to a Developer Certificate of Origi
 Understand what rights you are granting, whether your employer retains rights to your contribution
 (check your employment contract, many employment agreements assign all intellectual property
 Created during employment to the employer), and whether the project's license allows your employer
-To use your contribution.
+to use your contribution.
 
 **Corporate policy.** Many organizations maintain approved license lists that categorize licenses
 Into tiers (e.g., "green" for permissive, "yellow" for LGPL, "red" for GPL/AGPL). GPLv3 and AGPLv3
-Are frequently banned or restricted in enterprise environments because of the risk they pose to
+are frequently banned or restricted in enterprise environments because of the risk they pose to
 Proprietary products and SaaS deployments. Understanding why these restrictions exist helps you make
 Better dependency choices and avoid introducing compliance risk.
 
 **Containerization and distribution.** Shipping a Docker image that bundles multiple dependencies
 Raises the question: does distributing a container count as distributing the software inside it? The
 Answer is almost certainly yes, a container image is a distributable artifact that contains copies
-Of the software. This triggers copyleft obligations for any GPL-licensed components in the image,
+of the software. This triggers copyleft obligations for any GPL-licensed components in the image,
 And it means license notices must be included.
 
 ## License Compatibility
@@ -154,7 +154,7 @@ Apache 2.0 patent retaliation terms are "additional restrictions" that GPLv2 pro
 
 When licenses are incompatible, you cannot legally distribute the combined work. This is a hard
 Constraint, not a soft guideline. Mixing incompatible licenses is one of the most dangerous things
-You can do in a software project because it means either you must remove one of the incompatible
+you can do in a software project because it means either you must remove one of the incompatible
 Components or you are committing copyright infringement.
 
 ## Key Terminology
@@ -172,7 +172,7 @@ Limits copyleft to the file level.
 Copyright law, distribution is one of the exclusive rights of the copyright holder (17 U.S.C. §
 106(3)). Under GPLv3, this concept is called "conveying" (Section 4), which is defined more
 Precisely than GPLv2's "distribution" to cover any form of propagation that would make you directly
-Or secondarily liable for infringement. Distribution involves transferring a copy, whether By
+or secondarily liable for infringement. Distribution involves transferring a copy, whether By
 physical media, electronic download, or (under AGPL) making the software available over a Network.
 
 **Sublicense.** To grant rights to a third party that are a subset of (or equal to) the rights you
@@ -201,7 +201,7 @@ Requirement being met.
 **Viral license.** A pejorative term for copyleft licenses, referring to the way copyleft
 Obligations propagate from the licensed work to derivative works. While commonly used in industry
 Discourse, the term is misleading. Copyleft is not a virus; it is a conditional grant of rights. If
-You do not want the conditions (i.e., you do not want to release your derivative work under the same
+you do not want the conditions (i.e., you do not want to release your derivative work under the same
 License), you can decline the license, but then you have no right to copy, modify, or Distribute
 the software at all.
 
@@ -211,7 +211,7 @@ Already provides. CLAs range from simple grants of permission to use the contrib
 Already implied by submitting it under the project's license) to full copyright assignment
 (transferring ownership of the contribution to the project). CLAs are controversial because they
 Create an asymmetry of rights between the project maintainers and individual contributors, and
-Because they enable the project to relicense the contribution under different terms (including
+because they enable the project to relicense the contribution under different terms (including
 Proprietary terms).
 
 **Developer Certificate of Origin (DCO).** A lighter-weight alternative to CLAs. The contributor

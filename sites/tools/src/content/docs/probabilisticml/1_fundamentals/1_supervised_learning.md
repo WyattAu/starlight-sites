@@ -36,7 +36,7 @@ would be determining the car model from an image.
 
 When considering a small dataset, a common practice is to store them in a design matrix, a
 $N \times D$ matrix that represent example in row and features in column. Many features however does
-Not share the same value type, an example being a sequence of words or characters rather than
+not share the same value type, an example being a sequence of words or characters rather than
 Fixed-length vectors. This problem is solved by featuriszation where a mapping first convert The
 data into a type of fixed size representation and processed afterwards, an example being the
 Infamous "bag of words" algorithm for sequential data.
@@ -46,9 +46,9 @@ Infamous "bag of words" algorithm for sequential data.
 Many tabular data have small amount of features, to observe data patterns, a lot of these data with
 Dimension are plotted with a pair plot, with each feature on one axis, often this allow clear
 Visualization of classification as data with similar features should share a region and the logic
-For the classification would be correctly partitioning each classification with a corrosponding
+for the classification would be correctly partitioning each classification with a corrosponding
 Region separated by the decision boundary. An example being classifying planetary objects, where the
-One dimensional feature, radius can determine whether the input given is a planet or a star this is
+one dimensional feature, radius can determine whether the input given is a planet or a star this is
 Called a decision rule, the decision boundary will therefore be the radius where it behaves as a
 Binary case, where bellow the radius threshold, the model will classfied the input as planet.
 
@@ -56,10 +56,10 @@ Binary case, where bellow the radius threshold, the model will classfied the inp
 
 However for non-binary classification, a singular decision boundary is not enough, a decision
 Surface maybe needed to fully determine the features a class poses. This classification of surfaces
-Can be implemented as a decision tree, nesting decisions to determine the class of the input. This
+can be implemented as a decision tree, nesting decisions to determine the class of the input. This
 Classification tree will be defined by parameters $\theta$ that denote nodes with feature index and
 Threshold, a binary tree that will determines the mapping by evaluating each input to leaf nodes
-That corrsponse to the predicted class $f(x_n;\theta)$.
+that corrsponse to the predicted class $f(x_n;\theta)$.
 
 ### Performance Measurement
 

@@ -316,7 +316,7 @@ _Proof._ From the division identity $f(x) = (x - a)Q(x) + R$ Substituting $x = a
 $\blacksquare$
 
 The remainder theorem provides a quick way to evaluate $f(a)$: perform polynomial division of $f(x)$
-By $(x - a)$ and read off the constant remainder, avoiding full expansion.
+by $(x - a)$ and read off the constant remainder, avoiding full expansion.
 
 ### 6.3 Factorisation Using the Factor Theorem
 
@@ -381,7 +381,7 @@ For a system of three equations in three unknowns, the elimination method extend
 3. Back-substitute to recover all three variables.
 
 This process is known as **Gaussian elimination**. It can be systematised using augmented matrices
-And three elementary row operations: swapping rows, multiplying a row by a non-zero constant, and
+and three elementary row operations: swapping rows, multiplying a row by a non-zero constant, and
 Adding a multiple of one row to another.
 
 A 3x3 system may have a unique solution, no solution, or infinitely many solutions, depending on the
@@ -855,7 +855,7 @@ So $f(x) = x^3 - 3x^2 + 8x - 12$.
 Divide by $(x - 2)$: $f(x) = (x - 2)(x^2 - x + 6)$.
 
 The discriminant of $x^2 - x + 6$ is $\Delta = 1 - 24 = -23 \lt 0$ So no further real factorisation
-Is possible.
+is possible.
 
 $$
 f(x) = (x - 2)(x^2 - x + 6)
@@ -922,7 +922,7 @@ Roots: $x = \frac{3 \pm \sqrt{13}}{2}$.
 So $x \leq \frac{3 - \sqrt{13}}{2}$ or $x \geq \frac{3 + \sqrt{13}}{2}$.
 
 Since $\sqrt{13} \gt \sqrt{5}$ The condition $x^2 - 3x + 1 \geq 0$ is automatically satisfied by
-These ranges.
+these ranges.
 
 **Case 2:** $x^2 - 3x + 1 \lt 0$ I.e.
 $\frac{3 - \sqrt{5}}{2} \lt x \lt \frac{3 + \sqrt{5}}{2}$.
@@ -930,7 +930,7 @@ $\frac{3 - \sqrt{5}}{2} \lt x \lt \frac{3 + \sqrt{5}}{2}$.
 Then $-(x^2 - 3x + 1) \geq 2$ Giving $x^2 - 3x + 3 \leq 0$.
 
 Discriminant: $\Delta = 9 - 12 = -3 \lt 0$. Since the parabola opens upward, $x^2 - 3x + 3 \gt 0$
-For all real $x$. No solution from this case.
+for all real $x$. No solution from this case.
 
 **Solution:** $x \leq \frac{3 - \sqrt{13}}{2}$ or
 $x \geq \frac{3 + \sqrt{13}}{2}$.
@@ -953,7 +953,7 @@ The region is bounded by four lines. Find the vertices:
 - $(3, 0)$: intersection of $y = 0$ and $x + y = 3$.
 
 The region is a trapezoid. Using the shoelace formula with vertices $(0, 3), (0, 6), (4, 0), (3, 0)$
-In order:
+in order:
 
 $$
 \mathrm{Area} = \frac{1}{2}\left| \sum_{i} x_i y_{i+1} - \sum_{i} y_i x_{i+1} \right|

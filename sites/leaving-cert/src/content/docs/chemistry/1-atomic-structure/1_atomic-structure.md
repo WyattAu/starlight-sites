@@ -176,14 +176,14 @@ Two electrons with opposite spins.
 $n = 3$$\ell = 1$ (p subshell), $m_\ell = -1, 0, +1$$m_s = +\frac{1}{2}$ or $-\frac{1}{2}$.
 
 There are 6 possible combinations: 3 orbitals $\times$ 2 spins = 6 electrons (matches the maximum
-For the $p$ subshell).
+for the $p$ subshell).
 
 ## Atomic Emission Spectra (HL)
 
 ### Hydrogen Spectrum
 
 When hydrogen atoms absorb energy, electrons are excited to higher energy levels. When they return
-To lower levels, they emit photons:
+to lower levels, they emit photons:
 
 $$
 \Delta E = E_{\mathrm{higher} - E_{\mathrm{lower} = hf = \frac{hc}{\lambda}
@@ -282,7 +282,7 @@ $p$-subshell, or because pairing begins.
 Magnesium.
 
 Magnesium has the electron configuration $[\mathrm{Ne]\,3s^2$ -- a filled $3s$ subshell. Aluminium
-Has $[\mathrm{Ne]\,3s^2 3p^1$. The $3p$ electron in aluminium is at a higher energy level and is
+has $[\mathrm{Ne]\,3s^2 3p^1$. The $3p$ electron in aluminium is at a higher energy level and is
 Shielded by the $3s$ electrons, so it is easier to remove.
 
 **Worked Example 8 (HL):** Explain why the first ionisation energy of sulfur is lower than that of
@@ -290,7 +290,7 @@ Phosphorus.
 
 Phosphorus: $[\mathrm{Ne]\,3s^2 3p^3$ -- each $3p$ orbital has one electron (half-filled subshell,
 Stable). Sulfur: $[\mathrm{Ne]\,3s^2 3p^4$ -- one $3p$ orbital has two electrons. The pairing energy
-In sulfur's $3p^4$ configuration makes the fourth electron slightly easier to remove than
+in sulfur's $3p^4$ configuration makes the fourth electron slightly easier to remove than
 Phosphorus's third $3p$ electron.
 
 ### Electronegativity (OL/HL)
@@ -448,7 +448,7 @@ For sodium ($Z = 11$):
 | 11th       | 159076          | --         |
 
 The large jump between the 9th and 10th ionisation energies indicates that the 10th electron is
-Being removed from an inner shell (closer to the nucleus, less shielded). This confirms the electron
+being removed from an inner shell (closer to the nucleus, less shielded). This confirms the electron
 Configuration 2, 8, 1.
 
 ### Using Successive Ionisation Energies to Identify Elements
@@ -460,7 +460,7 @@ $738, 1451, 7733, 10540 \mathrm{ kJ/mol$
 Identify the element and explain your reasoning.
 
 The large jump between the 2nd and 3rd ionisation energies indicates that the first two electrons
-Are in the outer shell and the third is in an inner shell. The element has 2 valence electrons,
+are in the outer shell and the third is in an inner shell. The element has 2 valence electrons,
 Which corresponds to Group 2. The low values ($738, 1451$) are consistent with magnesium ($Z = 12$
 Electron configuration $2, 8, 2$).
 
@@ -530,7 +530,7 @@ Each orbital is described by a wave function $\psi$ And $|\psi|^2$ gives the pro
 ### Radial Distribution Functions
 
 The radial distribution function shows the probability of finding an electron at a given distance
-From the nucleus. For the $1s$ orbital, the most probable distance equals the Bohr radius
+from the nucleus. For the $1s$ orbital, the most probable distance equals the Bohr radius
 ($a_0 = 52.9 \mathrm{ pm$). For the $2s$ orbital, there is a node (zero probability) at a certain
 Distance.
 
@@ -846,7 +846,7 @@ flowchart TD
 ### Rutherford's Gold Foil Experiment
 
 Most alpha particles passed straight through the gold foil, but a few were deflected at large angles
-And some bounced back. This led to the conclusion that:
+and some bounced back. This led to the conclusion that:
 
 1. Most of the atom is empty space (most particles pass through)
 2. The nucleus is very small, dense, and positively charged (few particles deflected)
@@ -861,7 +861,7 @@ Large-angle deflections could not be explained by a diffuse positive charge.
 ### Limitations of the Bohr Model
 
 The Bohr model successfully explained the hydrogen spectrum but failed for multi-electron atoms
-Because:
+because:
 
 1. It treats electrons as particles in fixed orbits, not as standing waves
 2. It cannot explain the fine structure of spectral lines (splitting due to spin-orbit coupling)

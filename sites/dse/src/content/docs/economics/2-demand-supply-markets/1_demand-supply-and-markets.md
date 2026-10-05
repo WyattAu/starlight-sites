@@ -18,7 +18,7 @@ description: "Demand is the willingness and ability of consumers to purchase goo
 ### Definition
 
 Demand is the willingness and ability of consumers to purchase goods and services at various prices
-During a given period of time, **ceteris paribus** (all other things being equal).
+during a given period of time, **ceteris paribus** (all other things being equal).
 
 ### The Law of Demand
 
@@ -519,7 +519,7 @@ Producer burden $= 60 - 55 = 5$ per unit
 ### Subsidies
 
 A subsidy shifts the supply curve downward (rightward). Consumers pay less and producers receive
-More.
+more.
 
 $$
 \mathrm{Consumer benefit} = P_{\mathrm{before}} - P_{\mathrm{after}}
@@ -552,7 +552,7 @@ Loss of economic welfare (deadweight loss).
 #### 1. Externalities
 
 An externality is a cost or benefit that affects a third party who did not choose to incur that cost
-Or benefit.
+or benefit.
 
 **Negative externality (external cost):** The social cost exceeds the private cost.
 
@@ -716,7 +716,7 @@ Output by changing variable factors (e.g., labour, raw materials).
 ### Law of Diminishing Marginal Returns
 
 As more of a variable factor is added to a fixed factor, the marginal product of the variable factor
-Will eventually decrease.
+will eventually decrease.
 
 | Units of Labour | Total Product | Marginal Product | Average Product |
 | --------------- | ------------- | ---------------- | --------------- |
@@ -796,7 +796,7 @@ Given the following data, find the profit-maximising output.
 | 6   | 300      | 50       | 55       |
 
 MR = MC between Q = 5 (MR = 50, MC = 45) and Q = 6 (MR = 50, MC = 55). Profit is maximised at Q = 5
-Where MR is closest to MC.
+where MR is closest to MC.
 
 Maximum profit: TR - TC = 250 - 185 = USD 65.
 
@@ -967,7 +967,7 @@ The Phillips curve suggests an inverse relationship between inflation and unempl
 Run. Lower unemployment tends to be associated with higher inflation, and vice versa.
 
 In the long run, the Phillips curve is vertical at the natural rate of unemployment (NRU), meaning
-There is no trade-off between inflation and unemployment.
+there is no trade-off between inflation and unemployment.
 
 ---
 
@@ -1239,7 +1239,7 @@ Demand: $Q_D = 200 - 2P$. Supply: $Q_S = 3P - 80$. The government provides a sub
 unit To producers.
 
 (a) Find the original equilibrium. (b) Find the new equilibrium after the subsidy. (c) How much does
-The subsidy cost the government? (d) Who benefits more from the subsidy -- consumers or producers?
+the subsidy cost the government? (d) Who benefits more from the subsidy -- consumers or producers?
 
 <summary>Solution</summary>
 

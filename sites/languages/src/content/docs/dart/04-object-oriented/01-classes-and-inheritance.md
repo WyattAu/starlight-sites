@@ -142,7 +142,7 @@ class Rectangle {
 
 :::tip
 More efficient, they initialize fields directly, while the constructor body runs after all fields
-Have been initialized (to their default values first).
+have been initialized (to their default values first).
 
 ## Inheritance
 

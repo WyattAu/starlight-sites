@@ -120,7 +120,7 @@ Bugs.
 ### Formal Justification for Two-Phase Lookup
 
 The standard mandates two-phase lookup [N4950 S13.8.3] to preserve a well-defined separation between
-The template definition context and the instantiation context. The formal reasoning proceeds from
+the template definition context and the instantiation context. The formal reasoning proceeds from
 Two requirements:
 
 1. **Early error detection.** Non-dependent names contain no template parameters, so the compiler
@@ -138,11 +138,11 @@ Two requirements:
 
 **Proof that non-dependent names are locked at phase 1.** Consider the following reasoning by
 Contradiction. Suppose a non-dependent call `g(42)` inside a template `f&lt;T&gt;` were not bound
-Until instantiation. Then the meaning of `f&lt;int&gt;` and `f&lt;double&gt;` could differ based on
+until instantiation. Then the meaning of `f&lt;int&gt;` and `f&lt;double&gt;` could differ based on
 Overloads of `g` declared between the two instantiation points. This would make the template's
 Semantics depend on the order of declarations in the instantiation context --- an undesirable
 Property for a language that requires separate compilation. The standard therefore locks
-Non-dependent names at definition time, ensuring that the template has a single, well-defined
+non-dependent names at definition time, ensuring that the template has a single, well-defined
 Meaning regardless of where it is instantiated.
 
 ```cpp
@@ -188,7 +188,7 @@ Declarations are visible.
 The critical distinction is between the first two rows (non-dependent, phase 1) and everything else.
 Names in the first two rows are resolved once and permanently at definition time. Names in the
 Remaining rows are deferred to instantiation time, where they benefit from declarations visible at
-The point of instantiation.
+the point of instantiation.
 
 ## The Instantiation Point
 
@@ -205,7 +205,7 @@ For a **function template specialization**, the POI is defined recursively [N495
    of the enclosing template.
 
 For a **class template specialization**, the POI is the first point at which the class is referenced
-In a way that requires a complete type [N4950 S13.8.2/4].
+in a way that requires a complete type [N4950 S13.8.2/4].
 
 ```cpp
 #include <iostream>
@@ -365,7 +365,7 @@ extern template class HeavyProcessor<double>;
 ```
 
 **2. Type erasure for shared behavior.** When multiple instantiations share identical logic, extract
-The common code into a non-templated base class. The type-specific layer is thin:
+the common code into a non-templated base class. The type-specific layer is thin:
 
 ```cpp
 #include <cstddef>
@@ -416,7 +416,7 @@ public:
 **3. Selective instantiation via out-of-line definitions.** The compiler only instantiates member
 Functions that are actually called, provided the definitions are outside the class body [N4950
 S13.7.5/1]. Moving large member function bodies out of the class can dramatically reduce the number
-Of instantiations for types that are only partially used:
+of instantiations for types that are only partially used:
 
 ```cpp
 template <typename T>
@@ -482,7 +482,7 @@ extern template class Container<long>;
 
 Implicit instantiation is the most common source of code bloat because every translation unit that
 Uses `Container<int>` independently generates the same machine code. The linker then picks one copy
-And discards the rest, but all TUs still paid the compilation cost. See
+and discards the rest, but all TUs still paid the compilation cost. See
 [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/) for the full treatment
 Of this technique.
 
@@ -511,7 +511,7 @@ Compilers use one of two strategies for template instantiation [N4950 S13.9]:
 
 The greedy approach means that if 50 translation units all include `#include <vector>` and use
 `std::vector<int>`All 50 TUs compile the full `std::vector<int>` implementation. The linker picks
-One copy via COMDAT/weak linkage. Compilation time scales linearly with the number of TUs and the
+one copy via COMDAT/weak linkage. Compilation time scales linearly with the number of TUs and the
 Complexity of the templates they use.
 
 ```cpp
@@ -754,7 +754,7 @@ int main() {
 ## Force-Inlining Template Code
 
 For performance-critical template code, you can force inlining with compiler attributes. This is
-Most useful when profiling shows template function call overhead ( only in debug builds):
+most useful when profiling shows template function call overhead ( only in debug builds):
 
 ```cpp
 #include <vector>
@@ -874,13 +874,13 @@ int main() {
 
 The standard permits but does not require the compiler to use specializations from other TUs [N4950
 S13.8.2/7]. In practice, no major compiler does so. Specializations must be declared in every TU
-That uses them, which means they must go in headers.
+that uses them, which means they must go in headers.
 
 ### Hidden Instantiation Dependencies
 
 Templates can create hidden compilation dependencies. Including a header that uses a heavy template
 Forces the including TU to compile that template, even if the heavy template is not directly used by
-The includer:
+the includer:
 
 ```cpp
 // heavy.hpp

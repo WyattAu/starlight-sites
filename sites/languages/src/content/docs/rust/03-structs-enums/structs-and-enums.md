@@ -61,7 +61,7 @@ assert_eq!(p.distance_from_origin(), 5.0);
 ```
 
 Tuple structs with a single field implement the **newtype pattern**, creating a distinct type from
-The wrapped type:
+the wrapped type:
 
 ```rust
 struct UserId(u64);
@@ -179,7 +179,7 @@ mod geometry {
 ```
 
 Note: making a struct `pub` does not make its fields `pub`. Each field must be individually marked
-As `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
+as `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
 Members public.
 
 ### Methods and Associated Functions
@@ -226,7 +226,7 @@ assert_eq!(r.area(), 12.0);
 ### Multiple `impl` Blocks
 
 A type can have multiple `impl` blocks. This is useful for organizing methods by functionality or
-For separating trait implementations from inherent methods:
+for separating trait implementations from inherent methods:
 
 ```rust
 impl Rectangle {
@@ -320,7 +320,7 @@ enum Event {
 ### Enum Memory Layout
 
 The compiler stores a discriminant tag alongside the variant data. The default discriminant type is
-The smallest integer that can represent all variants:
+the smallest integer that can represent all variants:
 
 ```rust
 enum Color {
@@ -392,7 +392,7 @@ Contains itself recursively.
 ## Pattern Matching
 
 Pattern matching is Rust's primary control flow mechanism for enums and is exhaustively checked by
-The compiler.
+the compiler.
 
 ### `match` Expressions
 
@@ -445,7 +445,7 @@ match num {
 ```
 
 Match guards do not participate in exhaustiveness checking. The compiler cannot prove that a guard
-Will always match for a given variant, so you may still need a catch-all arm.
+will always match for a given variant, so you may still need a catch-all arm.
 
 ### Binding Modes
 
@@ -673,7 +673,7 @@ struct User {
 
 :::caution
 Struct, the derived ordering changes. Deriving `Ord` on a struct with a `f64` field will fail
-Because `f64` does not implement `Ord`. Use a custom implementation or wrap the field in the
+because `f64` does not implement `Ord`. Use a custom implementation or wrap the field in the
 `ordered-float` crate's `OrderedFloat` type instead.
 
 ### Custom Derive
@@ -752,7 +752,7 @@ impl Message {
 ## Visibility in Depth
 
 Rust's visibility system is based on modules, not classes. The `pub` keyword makes an item visible
-To the parent module. To make an item visible to the entire crate, use `pub(crate)`. To make it
+to the parent module. To make an item visible to the entire crate, use `pub(crate)`. To make it
 Visible to a specific module, use `pub(in path)`.
 
 ```rust
@@ -784,7 +784,7 @@ pub use internal::Config;  // Config is now available as crate::Config
 ```
 
 This is commonly used to flatten module hierarchies and provide a clean public API that differs from
-The internal organization.
+the internal organization.
 
 ## `Option<T>` Deep Dive
 

@@ -143,7 +143,7 @@ $$
 $$
 
 The boundary term vanishes since $\eta(t_1) = \eta(t_2) = 0$. For $\delta S = 0$ for all $\eta$ By
-The fundamental lemma of the calculus of variations:
+the fundamental lemma of the calculus of variations:
 
 $$
 \frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}} = 0

@@ -50,12 +50,12 @@ They can be used independently or combined for maximum efficiency.
 
 Sparse checkout allows you to check out only a subset of the repository"s directories into your
 Working tree. The repository still contains all objects (commits, trees, blobs), the working tree
-Is a filtered view of the tree at HEAD.
+is a filtered view of the tree at HEAD.
 
 ### Cone Mode (Default Since Git 2.37)
 
 Cone mode is the modern and recommended approach. It works with directories (not file patterns) and
-Is significantly faster than non-cone mode because Git can use directory-based pathspec matching
+is significantly faster than non-cone mode because Git can use directory-based pathspec matching
 Instead of evaluating every pattern against every file.
 
 ```bash
@@ -83,7 +83,7 @@ Filtered.
 ### How Cone Mode Works
 
 Cone mode treats the specified directories as "root" directories. Everything under those directories
-Is included, and everything outside them is excluded. The matching is directory-level, not
+is included, and everything outside them is excluded. The matching is directory-level, not
 File-level.
 
 ```
@@ -116,7 +116,7 @@ Specific directories are included.
 ### Non-Cone Mode (Legacy)
 
 Non-cone mode accepts arbitrary gitignore-style patterns. It is slower because Git must evaluate
-Every file path against every pattern on every checkout operation. It is retained for backward
+every file path against every pattern on every checkout operation. It is retained for backward
 Compatibility but should not be used for new projects.
 
 ```bash
@@ -134,7 +134,7 @@ docs/*.md
 
 The performance difference between cone and non-cone mode is significant. On a repository with 500K
 Files, cone mode evaluates patterns in milliseconds. Non-cone mode with complex patterns can take
-Several seconds.
+several seconds.
 
 ### Disabling Sparse Checkout
 
@@ -254,7 +254,7 @@ When you create a partial clone, Git writes the filter configuration to `.git/co
 
 The `extensions.partialClone = origin` line tells Git that the `origin` remote supports lazy
 Fetching. When Git encounters a missing object, it checks whether a promisor remote exists, and if
-So, fetches the object from that remote.
+so, fetches the object from that remote.
 
 ### Fetching with Filters
 
@@ -363,8 +363,8 @@ $ git sparse-checkout add src/backend
 ## Promisor Objects
 
 A **promisor object** is an object that Git knows exists (because it saw a reference to it in a tree
-Or commit) but has not yet downloaded. It is a placeholder that promises the object can be fetched
-From a promisor remote.
+or commit) but has not yet downloaded. It is a placeholder that promises the object can be fetched
+from a promisor remote.
 
 ### How Promisor Objects Work
 
@@ -430,12 +430,12 @@ origin
 ```
 
 If you delete this config, Git will not attempt to lazy-fetch missing objects, and any operation
-That needs a missing object will fail with "bad object."
+that needs a missing object will fail with "bad object."
 
 ## Shallow Clones vs Partial Clones
 
 Shallow clones (`--depth`) and partial clones (`--filter`) are often confused because both reduce
-The initial download size. They solve different problems.
+the initial download size. They solve different problems.
 
 ### Shallow Clones (--depth)
 
@@ -643,7 +643,7 @@ build_frontend:
 ### Trying to Use Partial Clone with an Old Git Version
 
 Partial clone requires Git 2.22+ on the client and Git 2.22+ with protocol v2 on the server. Using
-An older client produces confusing errors:
+an older client produces confusing errors:
 
 ```bash
 $ git clone --filter=blob:none https://github.com/org/repo.git
@@ -684,7 +684,7 @@ $ git log --oneline -- src/frontend/
 
 A common misconception is that sparse checkout reduces the `.git` directory size. It does not. All
 Objects (commits, trees, blobs) are downloaded regardless of the sparse checkout configuration. Only
-The working tree is smaller.
+the working tree is smaller.
 
 ```bash
 $ git clone https://github.com/org/monorepo.git
@@ -727,7 +727,7 @@ $ npm run build   # Now succeeds
 ### Partial Clone Breaks When Offline
 
 Promisor objects cannot be fetched when you are offline. Any operation that needs a missing blob
-Will fail:
+will fail:
 
 ```bash
 # You are offline (no network)

@@ -418,13 +418,13 @@ Discovery).
 
 Without resource limits, a single misbehaving app can consume all available CPU and memory,
 Affecting other apps and the TrueNAS host itself. Always set CPU and memory limits appropriate for
-The app's expected usage.
+the app's expected usage.
 
 ### Storing Database Data on HDDs
 
 Databases (MySQL, PostgreSQL, SQLite) perform many small random I/O operations. HDDs handle random
 I/O at 100–200 IOPS, while SSDs handle 50,000–100,000 IOPS. A Nextcloud instance with its database
-On an HDD will feel sluggish. Always store database data on SSD-backed datasets.
+on an HDD will feel sluggish. Always store database data on SSD-backed datasets.
 
 ### Ignoring App Security Updates
 
@@ -436,7 +436,7 @@ Apply updates promptly. Use the TrueNAS app catalog's "Available Updates" notifi
 
 App data snapshots protect the data, but configuration (environment variables, network settings,
 Custom configurations) may be stored separately. Export and version-control your app configurations
-So they can be recreated after a disaster.
+so they can be recreated after a disaster.
 
 ## Container Orchestration in TrueNAS SCALE
 

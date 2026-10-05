@@ -89,7 +89,7 @@ central maximum.
 ### 3.3 Thin-Film Interference
 
 Light reflecting from a thin film of thickness $t$ and refractive index $n$ undergoes interference
-Between the wave reflected from the top surface and the wave reflected from the bottom surface.
+between the wave reflected from the top surface and the wave reflected from the bottom surface.
 
 **Path difference:** $2nt\cos\theta_t$ where $\theta_t$ is the angle of refraction inside the film.
 

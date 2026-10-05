@@ -20,7 +20,7 @@ description: "A over attributes is a set of tuples where Each is drawn from the 
 ### 2.1 Relations, Tuples, Attributes
 
 A **relation** $R$ over attributes $A_1, \ldots, A_n$ is a set of tuples $(a_1, \ldots, a_n)$ where
-Each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
+each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
 $D_1 \times D_2 \times
 \cdots \times D_n$.
 
@@ -253,19 +253,19 @@ Then $\sigma_{\theta}(R \times S) \equiv \sigma_{\theta}(R) \times S$.
 
 _Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$ The condition $\theta$ depends only on
 $r$. Filtering $(r, s)$ by $\theta$ on $R \times S$ is equivalent to first filtering $R$ by $\theta$
-And then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
+and then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
 
 **Rule 4 (Selection pushdown through join).** If $\theta$ involves only attributes of $R$ Then
 $\sigma_{\theta}(R \bowtie S) \equiv \sigma_{\theta}(R) \bowtie S$.
 
 _Proof._ The join $R \bowtie S$ combines matching pairs from $R$ and $S$. Applying $\sigma_{\theta}$
-After the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
-Non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
+after the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
+non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
 
 **Rule 5 (Commutativity of joins).** $R \bowtie S \equiv S \bowtie R$.
 
 _Proof._ The natural join combines tuples agreeing on common attributes. This relation is symmetric
-In $R$ and $S$. $\blacksquare$
+in $R$ and $S$. $\blacksquare$
 
 **Rule 6 (Associativity of joins).** $(R \bowtie S) \bowtie T \equiv R \bowtie (S \bowtie T)$.
 

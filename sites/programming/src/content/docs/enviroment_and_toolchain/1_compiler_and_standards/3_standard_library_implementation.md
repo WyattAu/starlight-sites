@@ -20,7 +20,7 @@ categories:
 </script>
 
 In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers
-Like `<vector>``<iostream>`) are distinct entities. While the ISO C++ standard defines the
+like `<vector>``<iostream>`) are distinct entities. While the ISO C++ standard defines the
 _interface_ and _behavior_ of the library, the actual code is provided by a specific **Standard
 Library Implementation**.
 
@@ -94,7 +94,7 @@ There are three primary implementations of the C++ Standard Library currently in
 
 When a C++ program is compiled, high-level types like `std::vector<int>` are mangled into unique
 Symbol names in the binary. The strategy for this mangling differs by implementation, which enforces
-The rule that **all linked object files must share the same standard library implementation.**
+the rule that **all linked object files must share the same standard library implementation.**
 
 ### libstdc++: The Dual ABI Mechanism
 
@@ -165,7 +165,7 @@ Macro controls which version is active.
 ## Header-Only vs. Linked Library Components
 
 The C++ standard library is not a single monolithic binary. It is split into components that are
-Either header-only (compiled into each translation unit) or linked from a pre-compiled shared/static
+either header-only (compiled into each translation unit) or linked from a pre-compiled shared/static
 Library.
 
 ### Header-Only Components
@@ -200,7 +200,7 @@ The following require linking against a runtime library:
 | `std::filesystem`                     | `libstdc++.so`    | `libc++.so`    | `msvcprt.lib` |
 
 The split between the "C++ library" (`libc++.so`) and the "ABI library" (`libc++abi.so`) is unique
-To libc++. The ABI library handles the low-level runtime support (exception unwinding, RTTI, memory
+to libc++. The ABI library handles the low-level runtime support (exception unwinding, RTTI, memory
 Allocation), while the C++ library handles the higher-level standard library types (I/O, containers,
 Locale).
 
@@ -253,7 +253,7 @@ The hardening modes are:
 MSVC's checked iterators work by adding a `_Container_proxy` object to each container. This proxy
 Maintains a list of all iterators created from the container. When the container is modified, the
 Proxy invalidates all iterators. Accessing an invalidated iterator triggers an assertion failure
-With a detailed diagnostic.
+with a detailed diagnostic.
 
 ### Checked Iterators Comparison
 
@@ -270,7 +270,7 @@ With a detailed diagnostic.
 ## Configuration and Selection
 
 While GCC is hardcoded to `libstdc++` and MSVC to `MSVC STL`**Clang** is a retargetable compiler
-That can use any implementation.
+that can use any implementation.
 
 ### Selecting the Library with Clang
 
@@ -331,7 +331,7 @@ int main() {
 ## Feature Test Macros
 
 The C++ standard library uses **feature test macros** to allow code to conditionally compile based
-On the availability of specific features in the implementation. This is defined by
+on the availability of specific features in the implementation. This is defined by
 [N4950 S20.4.3](https://wg21.link/N4950).
 
 ### Detecting Standard Conformance
@@ -692,7 +692,7 @@ Feature implementations. The following table shows feature support status as of 
 ### Decision Framework
 
 The choice of standard library implementation is often dictated by the target platform, but when
-There is a choice (e.g., Clang on Linux), the following criteria apply:
+there is a choice (e.g., Clang on Linux), the following criteria apply:
 
 **Choose `libstdc++` when:**
 
@@ -718,7 +718,7 @@ There is a choice (e.g., Clang on Linux), the following criteria apply:
 ### Mixed-Project Considerations
 
 In large organizations, different teams may use different standard libraries. The boundary between
-Such codebases must use a C-compatible ABI (plain C functions, opaque pointers, or flat buffers).
+such codebases must use a C-compatible ABI (plain C functions, opaque pointers, or flat buffers).
 Never pass C++ standard types across such a boundary.
 
 ```cpp

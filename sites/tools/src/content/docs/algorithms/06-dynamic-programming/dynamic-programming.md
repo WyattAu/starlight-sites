@@ -79,7 +79,7 @@ def climb_stairs_memo(n, memo=None):
 ### House Robber
 
 Given an array of non-negative integers representing money at each house, maximise the amount you
-Can rob without robbing two adjacent houses.
+can rob without robbing two adjacent houses.
 
 $$
 dp[i] = \max(dp[i-1], dp[i-2] + nums[i])
@@ -109,7 +109,7 @@ def house_robber(nums):
 ### Coin Change
 
 Given coins of different denominations and a target amount, find the minimum number of coins needed
-To make that amount. Return -1 if it is not possible.
+to make that amount. Return -1 if it is not possible.
 
 $$
 dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin
@@ -151,7 +151,7 @@ def coin_change_combinations(coins, amount):
 :::caution
 And coins second, you count permutations (different orderings of the same coins are counted
 Separately). If you iterate coins first and amount second, you count combinations (each combination
-Is counted once). This is a common source of incorrect DP solutions.
+is counted once). This is a common source of incorrect DP solutions.
 
 ## 2D DP
 
@@ -257,7 +257,7 @@ def edit_distance(s1, s2):
 ### Knapsack Problem
 
 Given items with weights and values, and a knapsack with capacity $W$ Maximise the total value
-Without exceeding the capacity.
+without exceeding the capacity.
 
 $$
 dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w
@@ -755,7 +755,7 @@ What parameters change in recursive calls, and those are your state variables.
 
 DP base cases are analogous to loop initialisation. Getting them wrong produces wrong answers for
 Small inputs that cascade into wrong answers for large inputs. Always test with the smallest
-Non-trivial input (e.g., $n = 1$ Empty string, single element).
+non-trivial input (e.g., $n = 1$ Empty string, single element).
 
 ### 3. Wrong Fill Order in Bottom-Up DP
 
@@ -793,7 +793,7 @@ Still stack overflow for large $n$. Use bottom-up DP for problems with deep recu
 ### 8. Using the Wrong Subproblem Decomposition
 
 Many DP problems have multiple valid decompositions, but some lead to efficient solutions and others
-Do not. For the longest increasing subsequence, the $O(n^2)$ DP ($dp[i]$ = length of LIS ending at
+do not. For the longest increasing subsequence, the $O(n^2)$ DP ($dp[i]$ = length of LIS ending at
 $i$) works but the $O(n \log n)$ solution using patience sorting requires a different approach
 Entirely. Always consider whether a more efficient state representation exists.
 
@@ -802,7 +802,7 @@ Entirely. Always consider whether a more efficient state representation exists.
 ### Digit DP
 
 Digit DP solves counting problems on ranges by processing numbers digit by digit. It is applicable
-When the problem involves counting numbers in a range that satisfy a property based on their digits.
+when the problem involves counting numbers in a range that satisfy a property based on their digits.
 
 ```python
 def count_numbers_without_digit(n, forbidden):

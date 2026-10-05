@@ -89,7 +89,7 @@ $$
 
 Where $\rho_0$ is the residual resistivity (temperature-independent, from impurities and defects)
 And $\rho_{\mathrm{ph}(T)}$ is the phonon contribution (proportional to $T$ at high $T$ and to $T^5$
-At low $T$ via the Bloch--Grüneisen formula). The **resistance ratio**
+at low $T$ via the Bloch--Grüneisen formula). The **resistance ratio**
 $RRR = \rho(300\ \mathrm{K})/\rho_0$ Is a measure of sample purity.
 
 **Bloch--Grüneisen formula.** For electron--phonon scattering in a free electron metal:

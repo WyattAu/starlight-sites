@@ -47,7 +47,7 @@ class Point {
 ```
 
 Under `strictPropertyInitialization`The compiler verifies that all declared fields are assigned in
-The constructor or have a definite assignment assertion (`!`):
+the constructor or have a definite assignment assertion (`!`):
 
 ```ts
 class Example {
@@ -146,13 +146,13 @@ p.x = 3;
 ```
 
 `readonly` is shallow: it prevents reassignment of the field itself but does not prevent mutation of
-The field's value if it is an object.
+the field's value if it is an object.
 
 ## Parameter Properties
 
 TypeScript provides a shorthand for declaring and initialising fields in the constructor parameter
 List. A parameter prefixed with an access modifier is automatically declared as a field and assigned
-From the constructor argument.
+from the constructor argument.
 
 ```ts
 class Point {
@@ -432,7 +432,7 @@ const Bar = class {
 ```
 
 Class expressions are useful for one-off classes or when the class is used as a value (e.g., passed
-To a function):
+to a function):
 
 ```ts
 function createClass(methodBody: string) {
@@ -450,7 +450,7 @@ new Dynamic().execute();
 ## Mixins and Composition with Classes
 
 TypeScript does not have a native mixin keyword, but mixins can be implemented using a combination
-Of class expressions, intersection types, and generic factory functions.
+of class expressions, intersection types, and generic factory functions.
 
 ### Mixin Pattern
 
@@ -619,7 +619,7 @@ class Config {
 
 **Common Pitfall:** The `experimentalDecorators` flag and the TC39 Stage 3 proposal use different
 Decorator semantics. Code written for one will not work with the other. New projects should prefer
-The TC39 Stage 3 proposal (no `experimentalDecorators` flag needed in TS 5.0+).
+the TC39 Stage 3 proposal (no `experimentalDecorators` flag needed in TS 5.0+).
 
 ## Structural Typing and Nominal Typing for Classes
 
@@ -721,7 +721,7 @@ This is an error. `super()` must be called first.
 ### Pitfall 2: Structural Typing Surprises
 
 Because of structural typing, classes with the same public shape are interchangeable. This can lead
-To subtle bugs when the classes have different internal behaviour:
+to subtle bugs when the classes have different internal behaviour:
 
 ```ts
 class Celsius {

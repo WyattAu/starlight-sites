@@ -39,7 +39,7 @@ f'(z) = \lim_{k \to 0} \frac{u(x, y+k) - u(x, y)}{ik} + i\lim_{k \to 0} \frac{v(
 $$
 
 Equating real and imaginary parts: $\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}$
-And $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
+and $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
 
 ### 3.2 Sufficiency Condition
 

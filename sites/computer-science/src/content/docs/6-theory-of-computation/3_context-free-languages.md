@@ -312,7 +312,7 @@ $|w| \geq p$, $w$ can be decomposed as $w = uvxyz$ satisfying:
 3. $uv^ixy^iz \in L$ for all $i \geq 0$.
 
 _Proof._ Let $G$ be a CFG in CNF with $k$ variables. Any parse tree of height $h$ generates a string
-Of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
+of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
 some path repeats a variable. The substring generated between the two occurrences can be pumped.
 $\blacksquare$
 

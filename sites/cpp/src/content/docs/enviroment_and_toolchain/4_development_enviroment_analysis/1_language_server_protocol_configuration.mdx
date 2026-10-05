@@ -16,8 +16,8 @@ Language intelligence logic.
 
 **clangd** is a LSP implementation for C++. Built on top of the Clang C++ frontend, it provides code
 Completion, compile errors, go-to-definition, and refactoring tools with the exact same precision as
-The Clang compiler itself. Unlike heuristic-based engines (like legacy tag parsers), clangd parses
-The Abstract Syntax Tree (AST), ensuring that if the code compiles, the editor understands it
+the Clang compiler itself. Unlike heuristic-based engines (like legacy tag parsers), clangd parses
+the Abstract Syntax Tree (AST), ensuring that if the code compiles, the editor understands it
 Correctly.
 
 ## 1. LSP Architecture
@@ -59,7 +59,7 @@ Each feature (completion, hover, go-to-definition) is a separate request/respons
 Clangd is not a heuristic engine. It is the Clang compiler frontend repurposed as a language server.
 To parse a C++ file, Clang requires the same information it needs during compilation: include paths,
 Preprocessor definitions, language standard, and target triple. Without this information, Clang
-Cannot resolve `#include` directives, conditional compilation blocks, or template instantiations.
+cannot resolve `#include` directives, conditional compilation blocks, or template instantiations.
 
 **Proof that `compile_commands.json` is necessary:**
 
@@ -224,7 +224,7 @@ InlayHints:
 ### Configuration Precedence
 
 When multiple configuration files exist, clangd merges them with the following precedence (highest
-To lowest):
+to lowest):
 
 1. Command-line arguments (`clangd --compile-commands-dir=...`)
 2. `.clangd` in the project root (found via `.git` or parent directory)
@@ -373,7 +373,7 @@ Built incrementally:
 4. Go-to-definition and find-references queries use this index for instant results.
 
 The index is stored in `.cache/clangd/index/` by default. For large projects, the initial indexing
-Can take several minutes and consume significant CPU and memory.
+can take several minutes and consume significant CPU and memory.
 
 ## 8. Hover Information
 
@@ -552,7 +552,7 @@ Diagnostics:
 ## 12. Find References Implementation
 
 Find-references (also called "find usages") requires clangd to locate all sites where a given symbol
-Is referenced. The algorithm:
+is referenced. The algorithm:
 
 1. Locate the declaration of the symbol under the cursor.
 2. Query the background index for all locations that reference that declaration.
@@ -560,7 +560,7 @@ Is referenced. The algorithm:
 4. Return a list of locations, grouped by file.
 
 The `--background-index` flag is critical for cross-TU reference finding. Without it, clangd can
-Only find references within the currently open files.
+only find references within the currently open files.
 
 ```yaml
 # Ensure background indexing is enabled for cross-TU references
@@ -647,7 +647,7 @@ Diagnostics:
 ## 15. Clang-Tidy Integration in Detail
 
 Clangd runs clang-tidy checks in parallel with its own diagnostics. The configuration is shared via
-The `.clang-tidy` file. Key integration points:
+the `.clang-tidy` file. Key integration points:
 
 ### Real-Time Clang-Tidy Diagnostics
 
@@ -716,7 +716,7 @@ The search supports substring matching and qualified names:
 ## 17. Document Symbols and Outline View
 
 Clangd provides the document symbol tree (`textDocument/documentSymbol`), which the editor uses for
-The outline/file explorer. This includes:
+the outline/file explorer. This includes:
 
 - Namespaces and their nesting.
 - Classes, structs, and their members.
@@ -764,7 +764,7 @@ Common debugging scenarios:
 
 If you modify `CMakeLists.txt` (add new includes, change target properties) but do not re-run CMake,
 The compilation database becomes stale. Clangd will show incorrect diagnostics. Always re-run CMake
-After modifying build configuration.
+after modifying build configuration.
 
 ### 2. Clangd Cannot Find `compile_commands.json`
 
@@ -791,7 +791,7 @@ CompileFlags:
 ### 4. Missing IWYU Pragmas
 
 When clangd auto-inserts headers via IWYU, it may suggest headers that are technically correct but
-Not desired by your project's conventions. Use IWYU pragmas to control this:
+not desired by your project's conventions. Use IWYU pragmas to control this:
 
 ```cpp
 // Force clangd to use a specific header for this symbol
@@ -820,7 +820,7 @@ Diagnostics:
 
 If you have multiple editor windows open on the same project, each may launch a separate clangd
 Process. These processes compete for the same index files, causing corruption and slowdowns. Ensure
-Only one clangd instance is running per project (most editors handle this automatically).
+only one clangd instance is running per project (most editors handle this automatically).
 
 ### 7. Header Cycles Detected
 

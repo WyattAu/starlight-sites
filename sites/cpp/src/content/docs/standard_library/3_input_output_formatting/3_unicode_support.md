@@ -27,7 +27,7 @@ C++ provides low-level character types for Unicode but minimal high-level text p
 
 C++ provides several character types for Unicode support and `u8` string literals for UTF-8 text.
 However, the standard library provides minimal high-level Unicode text processing --- operations
-Like case conversion, collation, normalization, and grapheme cluster segmentation require external
+like case conversion, collation, normalization, and grapheme cluster segmentation require external
 Libraries. This section covers the character types, UTF-8 encoding, string literals, common
 Pitfalls, and practical guidance for Unicode-aware applications.
 
@@ -151,7 +151,7 @@ Encoding-aware character types. The following challenges must be addressed with 
 #### Code Point vs. Grapheme Cluster
 
 A **code point** (a `char32_t` value) is not always a visible "character." Characters like `é` can
-Be represented as:
+be represented as:
 
 - **NFC (Canonical Decomposition, then Composition):** `U+00E9` (1 code point)
 - **NFD (Canonical Decomposition):** `U+0065 U+0301` (2 code points: `e` + combining acute accent)
@@ -205,7 +205,7 @@ std::size_t count_utf8_code_points(std::string_view utf8) {
 #### Case Conversion and Collation
 
 Standard `std::toupper` and `std::tolower` from `<cctype>` operate on `unsigned char` values and
-Only handle ASCII [N4950 §29.4.2]. They cannot handle Unicode case conversion (e.g., German `ß` →
+only handle ASCII [N4950 §29.4.2]. They cannot handle Unicode case conversion (e.g., German `ß` →
 `SS`Greek `σ` → `Σ`).
 
 Similarly, `std::sort` with `operator&lt;` on strings performs byte-by-byte comparison, which is
@@ -422,8 +422,8 @@ Surrogate code points (`U+D800..U+DFFF`), and code points exceeding `U+10FFFF`. 
 ### Overlong Encodings and Security Implications
 
 An **overlong encoding** is a multi-byte UTF-8 sequence that encodes a code point that could have
-Been represented in fewer bytes. For example, `U+002F` (the slash character `/`) can be encoded as
-The 2-byte sequence `0xC0 0xAF` instead of the correct 1-byte `0x2F`. This was exploited in the
+been represented in fewer bytes. For example, `U+002F` (the slash character `/`) can be encoded as
+the 2-byte sequence `0xC0 0xAF` instead of the correct 1-byte `0x2F`. This was exploited in the
 "directory traversal" attack (CVE-2000-0884) against early web servers that failed to reject
 Overlong encodings: the attacker would request `/%C0%AF../etc/passwd`And the server would decode
 `0xC0 0xAF` to `/`Bypassing path sanitization.

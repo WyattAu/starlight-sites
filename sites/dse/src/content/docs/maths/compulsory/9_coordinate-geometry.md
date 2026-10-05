@@ -132,7 +132,7 @@ $$
 ## Intersection of Lines
 
 Two lines $A_1x + B_1y + C_1 = 0$ and $A_2x + B_2y + C_2 = 0$ intersect at a unique point if they
-Are not parallel. Solve the system of equations simultaneously.
+are not parallel. Solve the system of equations simultaneously.
 
 ### Worked Example 4
 
@@ -225,7 +225,7 @@ Equivalently, the tangent is perpendicular to the radius at the point of contact
 ### Finding Intersection Points
 
 Substitute the linear equation into the circle equation to obtain a quadratic in one variable. Use
-The discriminant to determine the nature of the intersection:
+the discriminant to determine the nature of the intersection:
 
 | $\Delta$       | Intersection                 |
 | -------------- | ---------------------------- |
@@ -273,7 +273,7 @@ $$
 ### Area of a Polygon
 
 For a polygon with vertices $(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n)$ listed in order (clockwise
-Or counterclockwise):
+or counterclockwise):
 
 $$
 \mathrm{Area} = \frac{1}{2}\left|\sum_{i=1}^{n} (x_i y_{i+1} - x_{i+1} y_i)\right|
@@ -401,7 +401,7 @@ Re-check. Actually $\Delta = 4 - 4(2)(-1) = 4 + 8 = 12 \neq 0$ So the line is no
 Circle. Let me try the circle $x^2 + y^2 = 1$ instead:
 
 $x^2 + (x+1)^2 = 1 \implies 2x^2 + 2x = 0 \implies 2x(x + 1) = 0$. $\Delta = 4 - 0 = 4 \gt 0$. Still
-Not tangent.
+not tangent.
 
 For $x^2 + y^2 = 1/2$:
 $x^2 + (x+1)^2 = 1/2 \implies 2x^2 + 2x + 1/2 = 0 \implies \Delta = 4 - 4 = 0$. Tangent. Point of

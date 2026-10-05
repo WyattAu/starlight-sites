@@ -21,7 +21,7 @@ categories:
 ## Shared Responsibility Model
 
 Cloud security is governed by a shared responsibility model. The division of responsibility between
-The cloud provider and the customer depends on the service model (IaaS, PaaS, or SaaS).
+the cloud provider and the customer depends on the service model (IaaS, PaaS, or SaaS).
 Misunderstanding this boundary is the single most common cause of cloud security incidents.
 
 ### IaaS (Infrastructure as a Service)
@@ -46,7 +46,7 @@ Groups, NACLs).
 ### PaaS (Platform as a Service)
 
 In PaaS (e.g., Lambda, App Engine, Azure Functions), the provider also manages the operating system
-And runtime. The customer is responsible only for the application code, data, and access controls.
+and runtime. The customer is responsible only for the application code, data, and access controls.
 
 | Responsibility                    | Provider              | Customer |
 | --------------------------------- | --------------------- | -------- |
@@ -59,7 +59,7 @@ And runtime. The customer is responsible only for the application code, data, an
 ### SaaS (Software as a Service)
 
 In SaaS (e.g., Office 365, Salesforce, Gmail), the provider manages nearly everything. The customer
-Is responsible only for data and access.
+is responsible only for data and access.
 
 | Responsibility                                           | Provider | Customer |
 | -------------------------------------------------------- | -------- | -------- |
@@ -98,7 +98,7 @@ Which resources.
 ### Least Privilege
 
 Every principal should have only the permissions necessary to perform its intended function. This is
-The principle of least privilege. In practice, this means:
+the principle of least privilege. In practice, this means:
 
 - Use read-only permissions for workloads that do not need to write.
 - Scope permissions to specific resources, not wildcards (`*`).
@@ -136,12 +136,12 @@ IAM policy evaluation follows a deterministic order:
 3. Default deny (implicit)
 
 A policy that denies access to a resource will always override an allow, even if the allow comes
-From a higher-priority policy.
+from a higher-priority policy.
 
 ### S3 Bucket Policies
 
 S3 bucket policies are resource-based policies attached to S3 buckets. They define what principals
-Can access the bucket and under what conditions.
+can access the bucket and under what conditions.
 
 Common misconfigurations:
 
@@ -187,7 +187,7 @@ Secure bucket policy example:
 | Applies to      | ENI (Elastic Network Interface)         | All instances in the subnet                    |
 
 Security groups are the primary defense. NACLs provide an additional layer but should not be relied
-Upon as the sole defense mechanism.
+upon as the sole defense mechanism.
 
 ### KMS (Key Management Service)
 
@@ -262,7 +262,7 @@ Azure RBAC defines permissions at the resource, resource group, or subscription 
 ### Azure Policy
 
 Azure Policy enforces organizational standards. It evaluates resources against policy definitions
-And can enforce or audit compliance. Examples:
+and can enforce or audit compliance. Examples:
 
 - Require encryption on storage accounts.
 - Restrict VM sizes to approved SKUs.
@@ -405,7 +405,7 @@ Metadata service is accessible from within the instance.
 - **GCP:** `http://metadata.google.internal/computeMetadata/v1/`
 
 An attacker who can trigger an SSRF vulnerability in your application can query the metadata service
-And steal IAM credentials.
+and steal IAM credentials.
 
 Prevention:
 
@@ -602,7 +602,7 @@ SOC 2 defines criteria for managing customer data based on five Trust Services C
 ISO 27001 is an international standard for information security management systems (ISMS). It
 Provides a framework for establishing, implementing, maintaining, and continually improving an ISMS.
 Cloud providers (AWS, Azure, GCP) are ISO 27001 certified, but the customer's use of cloud services
-Must also comply.
+must also comply.
 
 ### FedRAMP
 
@@ -619,7 +619,7 @@ AWS GovCloud, Azure Government, and GCP FedRAMP programs provide compliant envir
 ### GDPR and Cloud
 
 The General Data Protection Regulation (GDPR) applies to any organization processing personal data
-Of EU residents, regardless of where the organization is located. In cloud environments, GDPR
+of EU residents, regardless of where the organization is located. In cloud environments, GDPR
 Compliance requires:
 
 - **Data residency.** Know where data is stored and processed. Use region-locked deployments.
@@ -645,7 +645,7 @@ Default to allow all outbound traffic. Always review and harden defaults.
 
 Without CloudTrail, Azure Activity Logs, or GCP Audit Logs, you have no visibility into who is doing
 What in your environment. After a breach, you will not be able to determine the scope or timeline of
-The attack.
+the attack.
 
 ### Cross-Account Trust Misconfiguration
 
@@ -660,7 +660,7 @@ Egress. Monitor and restrict outbound traffic, especially to unexpected IP range
 ### Stale Credentials
 
 Service account keys, access keys, and certificates that are never rotated or revoked. A key that
-Was created 3 years ago and has not been used in 2 years should be deleted.
+was created 3 years ago and has not been used in 2 years should be deleted.
 
 ## Practice Problems
 
@@ -668,7 +668,7 @@ Was created 3 years ago and has not been used in 2 years should be deleted.
 
 A company uses AWS Lambda to run an API backend. The Lambda function reads from an S3 bucket and
 Writes to a DynamoDB table. Who is responsible for patching the operating system? Who is responsible
-For securing the API endpoint?
+for securing the API endpoint?
 
 <details>
 <summary>Answer</summary>

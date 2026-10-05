@@ -19,8 +19,8 @@ description: "Rust treats errors as values, not exceptions. This is a fundamenta
 
 Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not
 Special control flow mechanisms that can jump across function boundaries. They are ordinary values
-That propagate through the type system via `Result<T, E>`. This makes error paths explicit and force
-The programmer to handle them.
+that propagate through the type system via `Result<T, E>`. This makes error paths explicit and force
+the programmer to handle them.
 
 The core principle: **make error states unrepresentable where possible, and where they are
 Representable, make them unignorable.**
@@ -29,7 +29,7 @@ Representable, make them unignorable.**
 
 In exception-based languages (Java, Python, C++), error handling is opt-in, you can ignore
 Exceptions and they propagate implicitly. In Rust, `Result` forces you to acknowledge errors at
-Every level of the call stack. The `?` operator makes propagation ergonomic, but the type system
+every level of the call stack. The `?` operator makes propagation ergonomic, but the type system
 Still tracks the error type.
 
 ```rust
@@ -85,7 +85,7 @@ impl std::error::Error for AppError {
 ### `From` Implementations for `?` Propagation
 
 Each `From` implementation enables the `?` operator to automatically convert the source error type
-Into your error type:
+into your error type:
 
 ```rust
 impl From<std::io::Error> for AppError {
@@ -122,7 +122,7 @@ fn load_config(path: &str) -> Result<Config, AppError> {
 ### `std::error::Error::source()`
 
 The `source()` method enables walking an error chain. Each error can optionally return a reference
-To the underlying error that caused it:
+to the underlying error that caused it:
 
 ```rust
 use std::error::Error;
@@ -181,7 +181,7 @@ impl fmt::Display for DetailedError {
 
 `Backtrace::capture()` captures the current stack trace. It is available when `RUST_BACKTRACE=1` is
 Set. The backtrace is only captured if an environment variable enables it, so there is no overhead
-In production by default.
+in production by default.
 
 ## `thiserror` vs `anyhow` Decision Framework
 
@@ -907,7 +907,7 @@ impl std::error::Error for MultiError {
 ### Error Conversion at Module Boundaries
 
 Convert errors at module boundaries to maintain a clean internal API while providing rich errors at
-The external boundary:
+the external boundary:
 
 ```rust
 mod database {

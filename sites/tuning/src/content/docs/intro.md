@@ -224,7 +224,7 @@ Control entirely, others allow it.
 ### AMD (Zen 3 and Later)
 
 AMD's Curve Optimizer is the primary undervolting mechanism. It adjusts the voltage-frequency curve
-With a negative offset per core. This is platform-controlled and works within the boost algorithm,
+with a negative offset per core. This is platform-controlled and works within the boost algorithm,
 Making it safer than fixed offset undervolting. PPT (Package Power Tracking), TDC (Thermal Design
 Current), and EDC (Electrical Design Current) limits can also be adjusted for power-constrained
 Scenarios.
@@ -232,7 +232,7 @@ Scenarios.
 ### Apple Silicon
 
 Apple Silicon (M1/M2/M3/M4 series) does not expose tuning controls to the user. The power management
-Is handled entirely by the OS and firmware. You cannot undervolt or overclock Apple Silicon.
+is handled entirely by the OS and firmware. You cannot undervolt or overclock Apple Silicon.
 
 ## Terminology
 

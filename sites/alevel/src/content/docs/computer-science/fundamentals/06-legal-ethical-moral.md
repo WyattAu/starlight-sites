@@ -32,11 +32,11 @@ Evaluating the impact of technology on society.
 
 **Definition.** **Law** is a system of rules enforced by a sovereign state through institutions such
 As courts and police. Breach of law attracts sanctions (fines, imprisonment, civil liability). Laws
-Are codified, publicly available, and apply universally within a jurisdiction.
+are codified, publicly available, and apply universally within a jurisdiction.
 
 **Definition.** **Ethics** is the branch of philosophy concerned with systematising, defending, and
 Recommending concepts of right and wrong conduct. Ethical frameworks provide structured approaches
-To evaluating the moral dimensions of actions. Professional bodies publish codes of ethics that
+to evaluating the moral dimensions of actions. Professional bodies publish codes of ethics that
 Members are expected to follow.
 
 **Definition.** **Morals** are personal or cultural beliefs about right and wrong. They are not
@@ -56,7 +56,7 @@ Cultures, whereas laws aim for consistency within a jurisdiction.
 
 :::caution
 Scenario. "Legal" means identify the specific Act and explain how it applies. "Ethical" means apply
-An ethical framework or professional code. Do not confuse the two.
+an ethical framework or professional code. Do not confuse the two.
 :::
 
 ### Why This Matters for Computer Scientists
@@ -64,7 +64,7 @@ An ethical framework or professional code. Do not confuse the two.
 Software systems process personal data, make automated decisions, control physical infrastructure,
 And mediate communication. A system that is technically correct but legally non-compliant, ethically
 Questionable, or morally objectionable can cause real harm. Computer scientists must understand
-These frameworks because:
+these frameworks because:
 
 - **Design decisions** have legal consequences (e.g., storing user data without consent violates the
   Data Protection Act 2018)
@@ -297,7 +297,7 @@ Sometimes called the "Snooper's Charter."
 #### Oversight
 
 The IPA established the **Investigatory Powers Commissioner's Office** (IPCO) to oversee the use of
-These powers. The **Technology Advisory Panel** advises on the technical feasibility and proportion
+these powers. The **Technology Advisory Panel** advises on the technical feasibility and proportion
 Ality of surveillance capabilities.
 
 #### Relevance to Computer Science
@@ -456,7 +456,7 @@ Content**, which is directly relevant to computer science.
 #### Digital Content Provisions
 
 When a consumer acquires digital content (software, apps, games, music, video, e-books) in exchange
-For payment (including paying through data provision), the content must:
+for payment (including paying through data provision), the content must:
 
 | Requirement          | Description                                                                                                                                                        |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -538,7 +538,7 @@ Kant's **categorical imperative** has several formulations:
 
 **Definition.** **Virtue ethics**, associated with Aristotle, focuses on the character of the moral
 Agent rather than rules or consequences. An action is morally right if it is what a virtuous person
-Would do in the circumstances.
+would do in the circumstances.
 
 The key virtues include: honesty, justice, courage, temperance, prudence, compassion.
 
@@ -722,7 +722,7 @@ Profiling raises concerns about:
 
 :::caution
 Generally impossible to satisfy multiple fairness definitions simultaneously when base rates differ
-Between groups. This means that choosing a fairness definition is itself an ethical decision, not a
+between groups. This means that choosing a fairness definition is itself an ethical decision, not a
 Purely technical one.
 :::
 
@@ -948,7 +948,7 @@ Speech through their content moderation policies. Key questions:
 
 A runaway trolley is heading toward five people who will be killed if it continues. You can pull a
 Lever to divert the trolley onto a side track, where it will kill one person instead. Do you pull
-The lever?
+the lever?
 
 #### Applied to Autonomous Vehicles
 
@@ -993,7 +993,7 @@ Vehicles. Key principles:
 #### The Case
 
 In 2016, the FBI obtained a court order compelling Apple to create a modified version of iOS that
-Would bypass the auto-erase security feature on an iPhone 5c used by one of the San Bernardino
+would bypass the auto-erase security feature on an iPhone 5c used by one of the San Bernardino
 Shooters. The FBI wanted to brute-force the passcode without triggering the 10-attempt data wipe.
 
 Apple refused, arguing that:
@@ -1131,7 +1131,7 @@ Specific points. Edexcel and CIE favour extended discussion questions requiring 
 ### Question 1 (AQA-style, 6 marks)
 
 A company collects personal data from its customers and sells this data to third-party advertisers
-Without the customers' knowledge or consent.
+without the customers' knowledge or consent.
 
 (a) Identify the UK legislation that has been breached. (1 mark)
 
@@ -1208,7 +1208,7 @@ Discuss the legal, ethical, and professional implications of this situation.
 - The developer has a professional obligation to ensure the security of the systems she develops.
 - The Public Interest Disclosure Act 1998 protects the developer if she whistleblows to a prescribed
 Regulator (e.g., the ICO) because the failure to secure personal data likely constitutes a failure
-To comply with a legal obligation.
+to comply with a legal obligation.
 
 </details>
 
@@ -1267,7 +1267,7 @@ Decision-making may be needed. The Online Safety Act 2023 and the Equality Act 2
 Coverage, but a comprehensive AI Act (similar to the EU AI Act) would address gaps.
 
 The ethical frameworks each contribute to the solution: utilitarianism demands that AI be used only
-Where the benefits outweigh the risks; deontology requires that AI respects individuals' rights;
+where the benefits outweigh the risks; deontology requires that AI respects individuals' rights;
 Virtue ethics demands that developers and deployers act with integrity, competence, and care.
 
 </details>
@@ -1348,7 +1348,7 @@ Financial gain). This carries a maximum penalty of 5 years imprisonment.
 **Data Protection Act 2018/UK GDPR:**
 
 The employee's actions constitute a data breach. The company (as data controller) has obligations
-Under the DPA 2018:
+under the DPA 2018:
 
 - The security principle (Article 5(1)(f)) has been violated because the company failed to prevent
   unauthorised access to personal data
@@ -1363,7 +1363,7 @@ Recklessly obtaining or disclosing personal data without the consent of the data
 **Distinction:**
 
 The CMA criminalises the _unauthorised access_ to the computer system itself. The DPA 2018 regulates
-The _processing of personal data_ and imposes obligations on data controllers to protect it. Both
+the _processing of personal data_ and imposes obligations on data controllers to protect it. Both
 Apply simultaneously: the access is a CMA offence, and the data theft is a DPA 2018 offence. The
 Employee can be prosecuted under both Acts.
 
@@ -1432,7 +1432,7 @@ A nuanced approach is needed. Developers should be held responsible for **neglig
 The Consumer Rights Act 2015 already provides a framework: consumers have rights against the
 _trader_ (the company selling the software), not individual developers. Professional negligence law
 Provides a mechanism for holding individuals accountable for grossly negligent work. What is needed
-Is not stricter individual liability, but better organisational practices (code review, testing,
+is not stricter individual liability, but better organisational practices (code review, testing,
 Continuous integration, responsible disclosure of vulnerabilities).
 
 </details>

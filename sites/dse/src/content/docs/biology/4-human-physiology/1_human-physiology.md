@@ -451,7 +451,7 @@ Valves open and close due to pressure differences. They ensure one-way blood flo
 **Why the left ventricle has a thicker wall:**
 
 The left ventricle pumps blood to the entire body (systemic circulation) against high resistance, so
-It needs to generate much higher pressure than the right ventricle, which only pumps blood to the
+it needs to generate much higher pressure than the right ventricle, which only pumps blood to the
 Nearby lungs (pulmonary circulation).
 
 ### Cardiac Cycle
@@ -511,7 +511,7 @@ Blood consists of:
 ### Blood Groups
 
 Blood groups are determined by **antigens** on the surface of red blood cells and **antibodies** in
-The plasma.
+the plasma.
 
 | Blood Group | Antigen on RBC | Antibody in Plasma | Can Donate To | Can Receive From |
 | ----------- | -------------- | ------------------ | ------------- | ---------------- |
@@ -801,7 +801,7 @@ Neurons are specialised cells that transmit electrical impulses.
 
 **Resting potential:** The inside of the neuron is negatively charged relative to the outside (~-70
 MV). This is maintained by the sodium-potassium pump (pumps 3 Na$^+$ out for every 2 K$^+$ in) and
-The permeability of the membrane to K$^+$.
+the permeability of the membrane to K$^+$.
 
 **Action potential:**
 

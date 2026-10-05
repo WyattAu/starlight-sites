@@ -68,12 +68,12 @@ directions are subsidiary to the spoken text; in Williams's plastic theater, the
 constitute a parallel text that often communicates what dialogue cannot or will not.
 
 This concept is crucial for IB analysis because it means that Williams's extensive stage directions
-Are not mere production notes -- they are literary text. Every lighting change, every musical cue,
+are not mere production notes -- they are literary text. Every lighting change, every musical cue,
 Every description of a character's posture or expression is intentional and demands close reading.
 The famous stage direction for Blanche's first entrance -- "her delicate beauty must avoid a strong
 Light. There is something about her uncertain manner, as well as her white clothes, that suggests a
 Moth" -- is not instruction to a lighting designer alone; it is character exposition delivered
-Through the language of theatrical imagery.
+through the language of theatrical imagery.
 
 Plastic theater also means that _Streetcar_ cannot be read as pure realism. Williams blends
 Naturalistic dialogue with expressionistic lighting, symbolic sound, and stylised gesture, creating
@@ -88,13 +88,13 @@ And the migration of rural populations -- including Southern whites and African 
 Northern and Western cities. The agrarian Old South, with its romantic self-image built on
 Plantation aristocracy, paternalistic race relations, and a code of feminine gentility, was giving
 Way to an industrial New South characterised by urban working-class life, ethnic diversity, and a
-More explicitly commercial ethos.
+more explicitly commercial ethos.
 
 The play stages this cultural collision in microcosm. Stanley Kowalski, the son of Polish
 Immigrants, represents the new urban America: physically vigorous, sexually direct, democratic in
 His instincts (his poker friends include Jews, Italians, and Irishmen), and contemptuous of
 Aristocratic pretension. Blanche DuBois represents the dying Old South: educated, refined, obsessed
-With lineage and manners, but also decadent, hypocritical, and unable to survive in the modern
+with lineage and manners, but also decadent, hypocritical, and unable to survive in the modern
 World. Their conflict is not merely interpersonal; it is civilisational.
 
 Williams locates the play within the Southern Gothic tradition -- a literary mode that uses the
@@ -109,23 +109,23 @@ Picturesque and the squalid.
 
 The initial critical response to _Streetcar_ was largely positive, though some reviewers found the
 Subject matter distasteful. The portrayal of rape, alcoholism, homosexuality (obliquely referenced
-Through Blanche's deceased husband), and female sexual agency was considered shocking for its time.
+through Blanche's deceased husband), and female sexual agency was considered shocking for its time.
 The play's commercial success and critical acclaim helped to establish a new standard of seriousness
-And psychological complexity in American drama.
+and psychological complexity in American drama.
 
 The cultural impact of _Streetcar_ has been immense. Brando's performance as Stanley Kowalski
 Redefined screen acting, introducing the Method style to mainstream audiences and influencing
 Generations of performers. The play's exploration of sexual politics, class conflict, and the
 Destructive tension between fantasy and reality has made it a touchstone for feminist,
 Psychoanalytic, and Marxist criticism. Its famous lines -- "I have always depended on the kindness
-Of strangers," "Stella!," "Whoever you are, I have always depended on the courtesy of strangers" --
+of strangers," "Stella!," "Whoever you are, I have always depended on the courtesy of strangers" --
 Have entered the cultural lexicon.
 
 For the IB curriculum, _Streetcar_ is particularly valuable because it rewards virtually every
 Critical approach: formalist close reading, psychoanalytic interpretation, feminist and gender
 Analysis, Marxist class critique, and new historicist contextualisation all yield rich results. The
 Play's density of meaning and its refusal to reduce its characters to simple moral categories make
-It ideal for the kind of nuanced, multi-perspectival analysis that the IB assesses.
+it ideal for the kind of nuanced, multi-perspectival analysis that the IB assesses.
 
 ---
 
@@ -156,11 +156,11 @@ Consider the opening stage direction:
 > corresponding sections in other American cities, it has a raffish charm.
 
 Several elements demand attention. The name "Elysian Fields" -- the paradise of Greek mythology
-Where heroes were transported after death -- is loaded with ironic significance. This is paradise
-Only in the most debased sense: a place of sensual pleasure, moral ambiguity, and the decay of
+where heroes were transported after death -- is loaded with ironic significance. This is paradise
+only in the most debased sense: a place of sensual pleasure, moral ambiguity, and the decay of
 Classical ideals. The location "between the L&N tracks and the river" situates the setting in an
 Interstitial zone -- neither fully urban nor fully natural, neither the world of industrial progress
-Nor the world of primal nature. The description "poor but... Raffish charm" establishes the tone of
+nor the world of primal nature. The description "poor but... Raffish charm" establishes the tone of
 Ambivalence that pervades the entire play: Williams refuses to romanticise or condemn the setting,
 Presenting it instead as a space where beauty and squalor coexist.
 
@@ -169,7 +169,7 @@ In Scene 10, the stage direction reads: "The 'Varsouviana' is heard. The night i
 Inhuman voices like cries in a jungle." The music and the jungle imagery are not realistic; they
 Externalise Blanche's psychological disintegration, transforming the apartment into a projection of
 Her terror. This technique -- using stage design and sound to render subjective experience visible
-And audible -- is the hallmark of Williams's plastic theater.
+and audible -- is the hallmark of Williams's plastic theater.
 
 ### Expressionist Techniques: Music, Lighting, Color Symbolism
 
@@ -185,17 +185,17 @@ Grief. Its cheerful, danceable rhythm contrasts grotesquely with its associative
 Dissonance that mirrors Blanche's own fragmentation.
 
 The Blue Piano, heard from the nearby Four Deuces bar, serves a different function. It represents
-The ambient sexuality and vitality of the New Orleans setting -- a constant, low-key expression of
+the ambient sexuality and vitality of the New Orleans setting -- a constant, low-key expression of
 Desire that contrasts with Blanche's desperate, frantic attempts to manage her own. When the Blue
 Piano plays, the world of Elysian Fields asserts itself; when the Varsouviana plays, Blanche's
 Private world of trauma intrudes upon the present.
 
 **Lighting.** Williams's lighting directions are among the most precise and symbolically charged in
 Modern drama. Blanche's aversion to bright light is established in Scene 1 and maintained
-Throughout: she covers the bare lightbulb with a paper lantern, she insists on dim lighting, she
+throughout: she covers the bare lightbulb with a paper lantern, she insists on dim lighting, she
 Avoids being seen in direct light. Light, for Blanche, represents truth -- the exposure of her age,
 Her past, her fading beauty. The paper lantern she places over the bulb is the play's central symbol
-Of the relationship between illusion and reality: a fragile, decorative covering that conceals the
+of the relationship between illusion and reality: a fragile, decorative covering that conceals the
 Harsh truth beneath.
 
 In Scene 3, Williams uses a striking lighting effect to dramatise the tension between Stanley and
@@ -216,14 +216,14 @@ Poles.
 ### Temporal Structure: Compressed Time, Real-Time Action
 
 _Streetcar_ covers a period of approximately five months, from Blanche's arrival at Elysian Fields
-In late spring to her removal to the state asylum in early autumn. However, the play's temporal
+in late spring to her removal to the state asylum in early autumn. However, the play's temporal
 Structure is far from uniformly paced. Williams compresses and expands time according to dramatic
-And psychological necessity.
+and psychological necessity.
 
 The play's temporal architecture can be understood as a series of accelerating crises. The early
 Scenes move relatively slowly, establishing the characters and their relationships. As the play
 Progresses, the pace quickens: scenes become shorter, confrontations more intense, and the interval
-Between crises narrows. This acceleration mirrors Blanche's psychological deterioration -- as her
+between crises narrows. This acceleration mirrors Blanche's psychological deterioration -- as her
 Fragile construct of illusions begins to crack, the rate of collapse accelerates.
 
 Several scenes unfold in approximately real time, creating a sense of immediacy and claustrophobia.
@@ -270,7 +270,7 @@ Husband. It appears at key moments of psychological stress:
 The polka always plays at the same point in the composition -- it "stops" before the final note,
 Mirroring the way Blanche's narrative of her past always stops before the full truth is revealed.
 This structural parallel between the music and the dialogue reinforces the connection between sound
-And psychology that is central to Williams's plastic theater.
+and psychology that is central to Williams's plastic theater.
 
 ---
 
@@ -288,7 +288,7 @@ And psychology that is central to Williams's plastic theater.
 ### Blanche DuBois
 
 Blanche DuBois is one of the most complex and demanding characters in modern drama, and any analysis
-That reduces her to a simple category -- "the fragile Southern belle," "the deluded fantasist," "the
+that reduces her to a simple category -- "the fragile Southern belle," "the deluded fantasist," "the
 Victim of male violence" -- will fail to capture the full scope of Williams's creation. She is
 Simultaneously sympathetic and repellent, victim and perpetrator, poetic and cruel, and it is
 Precisely this refusal of simple moral categorisation that makes her such a rewarding subject for
@@ -297,14 +297,14 @@ Close analysis.
 **Name and Identity.** "Blanche DuBois" literally translates from French as "white of the woods" --
 A name that encapsulates her central contradiction. "White" suggests purity, innocence, and the
 Aristocratic pretensions she clings to; "of the woods" suggests something wild, untamed, and primal
-Beneath the civilised surface. Williams frequently draws attention to the gap between Blanche's
+beneath the civilised surface. Williams frequently draws attention to the gap between Blanche's
 Self-presentation and the reality it conceals, and the name itself is the first and most fundamental
 Instance of this pattern.
 
 Blanche's relationship to her own name is revealing. When she arrives at Elysian Fields, she insists
-On being called "Blanche" rather than any nickname, and she is at pains to remind Stella of their
+on being called "Blanche" rather than any nickname, and she is at pains to remind Stella of their
 Family's social standing: "Our improvident grandfathers and father and uncles and brothers exchanged
-The land for their epic fornications." The name is a claim to an identity -- Southern aristocrat,
+the land for their epic fornications." The name is a claim to an identity -- Southern aristocrat,
 Woman of culture and refinement -- that the play's action systematically undermines.
 
 **Delusion and Self-Protection.** Blanche's most obvious characteristic is her tendency toward
@@ -315,7 +315,7 @@ Maintain a version of herself that she can bear to live with.
 
 However, it is a critical error to read Blanche's fantasies as merely pathetic or contemptible.
 Williams invites us to understand them as survival mechanisms -- psychological strategies developed
-In response to genuine trauma. The suicide of Allan Grey, whom Blanche discovered in a homosexual
+in response to genuine trauma. The suicide of Allan Grey, whom Blanche discovered in a homosexual
 Encounter and whose death she inadvertently caused by publicly shaming him, shattered her sense of
 Self and her capacity for trust. Her subsequent sexual promiscuity in Laurel -- the "epic
 Fornications" for which she was expelled -- was not merely licentiousness but a desperate attempt to
@@ -324,9 +324,9 @@ Find through emotional connection.
 
 Blanche's most famous line -- "I don't want realism. I want magic!... I try to give that to people.
 I misrepresent things to them. I don't tell truth, I tell what ought to be truth" -- is often quoted
-As evidence of her delusion, but it also functions as a manifesto for Williams's own artistic
+as evidence of her delusion, but it also functions as a manifesto for Williams's own artistic
 Project. The plastic theater, with its expressionistic lighting and symbolic sound, is itself a form
-Of "magic" that tells "what ought to be truth." Blanche is, among other things, a figure for the
+of "magic" that tells "what ought to be truth." Blanche is, among other things, a figure for the
 Artist: someone who reshapes reality according to an aesthetic and emotional logic rather than a
 Strictly empirical one.
 
@@ -353,7 +353,7 @@ Contributing directly to his suicide.
 This capacity for cruelty is essential to the character's complexity and to the play's moral
 Architecture. Williams does not present Blanche as a saintly victim of male brutality; she is a
 Flawed, damaged human being who contributes to her own destruction. This complexity is what makes
-The play a tragedy rather than a melodrama: Blanche's fate results from the interaction of her own
+the play a tragedy rather than a melodrama: Blanche's fate results from the interaction of her own
 Character flaws with the hostile social environment she inhabits.
 
 ### Stanley Kowalski
@@ -366,15 +366,15 @@ Condemns, Stanley's perspective.
 
 **The "Authentic" Man.** Stanley's primary claim to moral authority -- both within the play and in
 The eyes of many critics -- is his authenticity. He does not pretend to be anything other than what
-He is: a working-class Polish-American man who believes in direct experience, physical pleasure, and
-The prerogatives of masculine power. His famous declaration -- "I am the king around here, so don't
+he is: a working-class Polish-American man who believes in direct experience, physical pleasure, and
+the prerogatives of masculine power. His famous declaration -- "I am the king around here, so don't
 Forget it!" -- is not merely boastful; it accurately describes the power dynamics of his household
-And, by extension, his social world.
+and, by extension, his social world.
 
 Stanley's authenticity extends to his sexuality. He is openly and unapologetically sexual; he does
-Not hide his desires behind euphemism or romantic idealisation. His relationship with Stella is
+not hide his desires behind euphemism or romantic idealisation. His relationship with Stella is
 Founded on a frank, physical passion that Williams presents as genuine and even admirable: "There
-Are things that happen between a man and a woman in the dark -- that sort of make everything else
+are things that happen between a man and a woman in the dark -- that sort of make everything else
 Seem -- unimportant." This speech, delivered to Blanche in Scene 2, is one of the play's most
 Important articulations of the value of embodied experience over intellectualised abstraction.
 
@@ -385,27 +385,27 @@ Aberration but as an expression of Stanley's essential nature -- a nature that i
 Vital and destructive.
 
 The rape scene is the play's moral centre, and it demands careful analysis. Williams does not stage
-The rape explicitly; the stage direction reads: "He crosses to her and seizes her. She strikes at
+the rape explicitly; the stage direction reads: "He crosses to her and seizes her. She strikes at
 Him. He catches her wrist. She sinks to her knees. He picks up her inert figure and carries her to
-The bed." The violence is elliptical, conveyed through implication rather than representation, and
-This ellipsis is itself significant: Williams forces the audience to confront the act in their
+the bed." The violence is elliptical, conveyed through implication rather than representation, and
+this ellipsis is itself significant: Williams forces the audience to confront the act in their
 Imagination, where it is more disturbing than any literal depiction could be.
 
 The rape can be read as the logical culmination of the play's central conflict: Stanley, the
 Representative of brute reality, annihilates Blanche, the representative of fragile illusion. But it
-Can also be read as an act of specifically gendered violence -- the assertion of male power over a
+can also be read as an act of specifically gendered violence -- the assertion of male power over a
 Female body that has refused to submit to male control. These readings are not mutually exclusive;
 The play invites both and resists a single, reductive interpretation.
 
 **Working-Class Hero.** Stanley embodies a certain ideal of working-class masculinity that was
 Culturally potent in postwar America. He served in the war, he holds a steady job as an engineer, he
-Is loyal to his friends, and he takes pride in his home and his possessions. His poker friends --
+is loyal to his friends, and he takes pride in his home and his possessions. His poker friends --
 Steve, Pablo, Mitch -- represent a multi-ethnic working-class fraternity that stands in implicit
 Contrast to the racially exclusive aristocracy of Blanche's Old South.
 
 Williams's presentation of this working-class world is ambivalent. He does not romanticise it -- the
 Poker game involves heavy drinking, the men are crude and sometimes violent, the setting is shabby
-And confined. But neither does he condemn it. The life of Elysian Fields is presented as vital,
+and confined. But neither does he condemn it. The life of Elysian Fields is presented as vital,
 Sensual, and authentic in ways that Blanche's world of refined pretension is not. The play's tragedy
 Lies in the fact that neither world -- neither Stanley's brute authenticity nor Blanche's fragile
 Illusion -- is sufficient for a fully human life.
@@ -419,7 +419,7 @@ Between refined illusion and brutal reality, and her choices determine the outco
 
 **Pragmatism and Compromise.** Stella has chosen to leave behind the world of Belle Reve and embrace
 The life of Elysian Fields. She has married beneath her social station, moved to a cramped apartment
-In a working-class neighbourhood, and adapted to the coarse, physical rhythms of Stanley's world.
+in a working-class neighbourhood, and adapted to the coarse, physical rhythms of Stanley's world.
 This adaptation is presented not as a betrayal of her origins but as a pragmatic survival strategy
 -- and, crucially, as a genuine expression of desire. Stella is attracted to Stanley's vitality and
 Sexual power; she is not merely tolerating him but actively choosing him.
@@ -445,14 +445,14 @@ Disturbing and Blanche's attempts to "rescue" her more complicated. The fact tha
 Chooses to remain with Stanley despite his violence toward her -- and despite his rape of her sister
 -- suggests that Williams is exploring the ways in which women's choices are constrained by
 Economic, social, and psychological forces that cannot be reduced to simple categories of victimhood
-And agency.
+and agency.
 
 ### Mitch Mitchell
 
 Mitch is the play's most sympathetic male character, but he is also the most ineffectual. His
 Sensitivity -- his care for his dying mother, his awkwardness around women, his genuine if clumsy
 Affection for Blanche -- sets him apart from Stanley and the other poker players, and his courtship
-Of Blanche represents the play's most sustained attempt at emotional connection.
+of Blanche represents the play's most sustained attempt at emotional connection.
 
 **Sensitivity vs. Masculinity.** Mitch is caught between two models of masculinity: the sensitive,
 Emotionally expressive model represented by his relationship with his mother and his interest in
@@ -465,14 +465,14 @@ Mitch's confrontation with Blanche in Scene 9 is one of the play's most painful 
 Learned about Blanche's sexual past from Stanley, Mitch comes to her apartment to demand the truth.
 He is simultaneously angry, hurt, and attracted, and his inability to resolve these conflicting
 Emotions leads to the scene's devastating climax: "You're not clean enough to bring in the house
-With my mother." This line, with its emphasis on purity and domestic propriety, reveals the extent
-To which Mitch is governed by the same sexual morality that Blanche's own society imposed upon her
+with my mother." This line, with its emphasis on purity and domestic propriety, reveals the extent
+to which Mitch is governed by the same sexual morality that Blanche's own society imposed upon her
 -- a morality that punishes women for the very desires that men are permitted to express freely.
 
 **Failed Connection.** Mitch's failure to connect with Blanche -- his inability to see past her
 Past, to accept her as a damaged but worthy human being -- is the play's most explicit instance of
-The tragedy of missed connection. Williams sets up the possibility of a relationship between them
-With care: Mitch is lonely, Blanche is lonely, they share a capacity for tenderness that the other
+the tragedy of missed connection. Williams sets up the possibility of a relationship between them
+with care: Mitch is lonely, Blanche is lonely, they share a capacity for tenderness that the other
 Characters lack. But the relationship is destroyed by Stanley's machinations, by Mitch's own moral
 Rigidity, and by Blanche's inability to be honest about who she is.
 
@@ -490,15 +490,15 @@ Contrasts with both Blanche's aristocratic idealism and Stella's romantic depend
 
 **The Mexicans as Cultural Other.** The Mexican woman who sells flowers for the dead in Scene 9 is
 One of the play's most symbolically charged figures. Her appearance -- immediately after Stanley has
-Given Blanche a bus ticket for her birthday -- coincides with Blanche's growing awareness that her
+given Blanche a bus ticket for her birthday -- coincides with Blanche's growing awareness that her
 Time in Elysian Fields is ending. The "flores para los muertos" are flowers for the dead, and
 Blanche, hearing the woman's call, retreats into memories of the dead -- of her family, of Belle
 Reve, of Allan Grey.
 
 The Mexican woman is never named, never individualised; she functions as a symbol of mortality and
-Of the cultural otherness that pervades the New Orleans setting. Her presence reminds us that the
+of the cultural otherness that pervades the New Orleans setting. Her presence reminds us that the
 World of Elysian Fields is not merely a battleground for Blanche and Stanley but a living community
-With its own traditions, its own rhythms of life and death, its own modes of meaning-making that
+with its own traditions, its own rhythms of life and death, its own modes of meaning-making that
 Exist beyond the play's central conflict.
 
 ---
@@ -517,7 +517,7 @@ Exist beyond the play's central conflict.
 ### Reality vs. Illusion
 
 The conflict between reality and illusion is the play's central thematic axis, and Williams explores
-It with a subtlety that resists simple resolution. The obvious reading -- that Blanche represents
+it with a subtlety that resists simple resolution. The obvious reading -- that Blanche represents
 Illusion and Stanley represents reality, and that reality inevitably triumphs -- is reductive and
 Fails to account for the ways in which the play complicates this binary.
 
@@ -530,15 +530,15 @@ Which he puts it is manipulative and cruel.
 
 Blanche's "illusions," similarly, are not merely fanciful but serve genuine psychological and social
 Functions. Her refusal to be seen in bright light is not mere vanity but a strategy for maintaining
-The social identity upon which her survival depends. Her stories about Shep Huntleigh and her
+the social identity upon which her survival depends. Her stories about Shep Huntleigh and her
 Fictional plans for the future are not merely delusional but represent an attempt to imagine an
 Alternative to the bleak reality of her situation.
 
 Williams's deepest insight in this theme is that pure reality -- unmediated by illusion, fantasy, or
 Aesthetic reshaping -- is unbearable. When the paper lantern is torn from the bulb, what is revealed
-Is not liberation but destruction. The play suggests that some measure of illusion is necessary for
+is not liberation but destruction. The play suggests that some measure of illusion is necessary for
 Human survival, and that the destruction of one person's illusions by another person's brutal truth
-Is not a triumph but a tragedy.
+is not a triumph but a tragedy.
 
 ### Desire as Creative and Destructive Force
 
@@ -547,14 +547,14 @@ Complex and paradoxical. Desire is simultaneously the source of life's vitality 
 Greatest suffering; it creates and destroys in equal measure.
 
 Blanche's desire is the most overtly destructive. Her sexual promiscuity in Laurel is a response to
-The trauma of Allan's death -- an attempt to fill the void through physical sensation. But this
+the trauma of Allan's death -- an attempt to fill the void through physical sensation. But this
 Desire, pursued without restraint or discrimination, leads to her social ostracism and eventual
 Expulsion from Laurel. Her desire for Mitch is simultaneously genuine and manipulative: she
 Genuinely wants companionship and security, but she pursues them through deception and
 Self-dramatisation.
 
 Stanley's desire is more straightforwardly vital -- it is the energy that drives his engagement with
-The world. His sexual relationship with Stella is presented as one of the play's few genuinely
+the world. His sexual relationship with Stella is presented as one of the play's few genuinely
 Positive forces: "There are things that happen between a man and a woman in the dark." But this same
 Desire, when directed toward Blanche, becomes predatory and violent. The rape is desire at its most
 Destructive -- the assertion of one person's will upon another person's body.
@@ -570,13 +570,13 @@ Human soul from life through death to whatever lies beyond.
 
 The conflict between Blanche and Stanley is, among other things, a conflict between two social
 Orders: the agrarian, aristocratic Old South and the industrial, democratic New South. This conflict
-Is one of the most richly layered in the play, touching on questions of class, race, gender, and
+is one of the most richly layered in the play, touching on questions of class, race, gender, and
 Cultural identity.
 
 Blanche embodies the values of the Old South: refinement, lineage, a code of manners, and a
 Romanticised relationship to the past. She repeatedly invokes the history of Belle Reve and the
 DuBois family, as though the weight of that history could somehow validate her in the present. But
-The Old South she represents is revealed to be decadent and dying -- its wealth dissipated by the
+the Old South she represents is revealed to be decadent and dying -- its wealth dissipated by the
 "epic fornications" of its men, its social structures crumbling, its cultural values increasingly
 Irrelevant in the modern world.
 
@@ -614,7 +614,7 @@ Impotent at the crucial moment when Blanche needs his protection.
 
 The absent Allan Grey represents a different model of masculinity altogether -- one defined by
 Sensitivity, aestheticism, and homosexual desire. Allan's suicide, triggered by Blanche's discovery
-And public shaming of his sexuality, is the original trauma that shapes Blanche's subsequent
+and public shaming of his sexuality, is the original trauma that shapes Blanche's subsequent
 Relationships with men. Her inability to reconcile her desire for gentleness and beauty with the
 Aggressive masculinity she encounters in the world drives her toward the desperate, self-destructive
 Behaviour that ultimately destroys her.
@@ -634,7 +634,7 @@ Blanche's more elaborate fantasies. Even Mitch, the most sympathetic male charac
 Moral codes and social expectations that he has never critically examined.
 
 Williams's point is not that everyone is equally mad but that the line between sanity and madness is
-More porous and more politically determined than conventional categories allow. Blanche is not
+more porous and more politically determined than conventional categories allow. Blanche is not
 "crazy" because she hallucinates; she is "crazy" because her mode of being -- poetic, sensitive,
 Reliant on illusion -- is incompatible with the brutal, pragmatic world of Elysian Fields. Her
 Madness is, in part, a judgment rendered by a society that has no place for her kind of
@@ -665,16 +665,16 @@ Illusions.
 
 This pattern is established in Scene 1, when Blanche asks Stella to turn off the overhead light:
 "And turn that over-light off! I won't be looked at in this merciless glare!" It is reinforced by
-The paper lantern, which Blanche places over the bare bulb to create a soft, filtered light that she
-Can tolerate. And it reaches its climax in Scene 9, when Mitch tears the paper lantern from the bulb
-And Blanche cries, "I like it dark. The dark is comforting to me."
+the paper lantern, which Blanche places over the bare bulb to create a soft, filtered light that she
+can tolerate. And it reaches its climax in Scene 9, when Mitch tears the paper lantern from the bulb
+and Blanche cries, "I like it dark. The dark is comforting to me."
 
 But Williams complicates this binary in several ways. Stanley's world is associated with a different
 Kind of light -- the harsh, unmediated light of truth and reality that Blanche finds unbearable. The
 Blue Piano, heard from the bar, is associated with evening and darkness, suggesting that the sensual
 Vitality of Elysian Fields is itself a form of darkness -- a world that operates outside the light
-Of rational, middle-class respectability. The play thus suggests that light is not inherently good
-And darkness is not inherently bad; rather, each has its functions and its dangers, and the human
+of rational, middle-class respectability. The play thus suggests that light is not inherently good
+and darkness is not inherently bad; rather, each has its functions and its dangers, and the human
 Task is to navigate between them.
 
 ### Class Struggle and Social Mobility
@@ -686,13 +686,13 @@ Nuance, refusing to idealise either position.
 
 Blanche's class consciousness is a source of both her strength and her weakness. Her education and
 Cultural refinement give her a depth of perception and a capacity for poetic expression that the
-Other characters lack. But her class identity also traps her: she cannot imagine a life outside the
+other characters lack. But her class identity also traps her: she cannot imagine a life outside the
 Categories of gentility and refinement that define her, and her contempt for Stanley's world
 Prevents her from adapting to the social realities of Elysian Fields.
 
 Stanley's class consciousness operates differently. He is proud of his self-sufficiency and
 Resentful of any suggestion that Blanche's social position makes her his superior. His investigation
-Of Blanche's past in Scene 7 -- "The Kowalskis and the DuBois have ancestors of different kinds" --
+of Blanche's past in Scene 7 -- "The Kowalskis and the DuBois have ancestors of different kinds" --
 Is an assertion of class equality that functions as a weapon: by proving that Blanche's family is as
 Morally bankrupt as his own, he undermines the basis of her claim to superiority. But Williams also
 Shows that Stanley's class pride has its own blind spots: his contempt for culture and intellect,
@@ -715,25 +715,25 @@ Material.
 ### Scene 1: Blanche's Arrival
 
 Scene 1 is a masterclass in dramatic exposition. In the space of a few pages, Williams establishes
-The setting, introduces all the major characters, defines the central conflict, and initiates the
+the setting, introduces all the major characters, defines the central conflict, and initiates the
 Play's major symbolic patterns. The scene's density of information and its economy of means make it
-One of the most impressive openings in modern drama.
+one of the most impressive openings in modern drama.
 
 Blanche's entrance is carefully choreographed. She arrives at Elysian Fields carrying a suitcase and
 Looking "as if she were arriving at a summer camp or a boarding school" -- an incongruous figure in
-The raffish surroundings. Her first words to Eunice -- "They told me to take a streetcar named
+the raffish surroundings. Her first words to Eunice -- "They told me to take a streetcar named
 Desire, and then transfer to one called Cemeteries and ride six blocks and get off at -- Elysian
 Fields!" -- are at once literally descriptive (she is following actual directions) and allegorically
 Resonant (she is tracing the itinerary of desire, death, and the afterlife).
 
 The confrontation between Blanche and Stanley is established in their very first exchange. Stanley
 Enters from the bowling alley, "gaudy seed-bearer," and the contrast between his physical vitality
-And Blanche's delicate refinement is immediately apparent. Their mutual assessment -- each sizing up
-The other -- establishes the dynamic that will drive the rest of the play: attraction and repulsion,
+and Blanche's delicate refinement is immediately apparent. Their mutual assessment -- each sizing up
+the other -- establishes the dynamic that will drive the rest of the play: attraction and repulsion,
 Curiosity and hostility, recognition of an irreconcilable difference.
 
 The scene also introduces the play's key motifs: the Varsouviana polka (Blanche hears it faintly
-When discussing Belle Reve), the paper lantern (Blanche covers the bulb), light and darkness
+when discussing Belle Reve), the paper lantern (Blanche covers the bulb), light and darkness
 (Blanche's aversion to the "merciless glare"), and the relationship between the past and the present
 (Blanche's stories about Laurel and Belle Reve).
 
@@ -742,14 +742,14 @@ When discussing Belle Reve), the paper lantern (Blanche covers the bulb), light 
 The poker night in Scene 3 is the play's first major set piece and one of its most technically
 Accomplished sequences. Williams uses the poker game as a structural device: the men's game in the
 Main room provides a rhythmic background against which the women's drama in the bedroom is played
-Out.
+out.
 
 The scene's central event is Stanley's violent outburst -- he strikes Stella, sending her to
 Eunice's upstairs apartment, and then, overcome with remorse, calls for her from the foot of the
 Stairs: "Stella! Stella, sweetie! Stella!" This cry -- one of the most famous in American drama --
 Has been analysed from virtually every critical perspective. It is simultaneously an expression of
 Genuine anguish, a demand for Stella's return, an assertion of Stanley's power, and a demonstration
-Of the erotic bond between violence and desire that defines their marriage.
+of the erotic bond between violence and desire that defines their marriage.
 
 Blanche's response to Stanley's cry is revealing. She urges Stella not to go back to him: "Don't
 Hang back with the brutes!" But Stella returns, and the stage direction describes their reunion in
@@ -757,22 +757,22 @@ Explicitly sexual terms: "They come together with low, animal moans. He falls to
 Steps and presses his face to her belly, curving a little with maternity. Her eyes go blind with
 Tenderness." This description -- which aligns Stanley's desire with Stella's pregnancy and suggests
 A primal, almost ritualistic quality to their reunion -- is one of the most complex and debated in
-The play.
+the play.
 
 ### Scene 4: The "Streetcar Named Desire" Revelation
 
 Scene 4 contains Blanche's most explicit articulation of the play's central metaphor. In a
 Conversation with Stella, she describes the itinerary that brought her to Elysian Fields: "They told
 Me to take a streetcar named Desire, and transfer to one called Cemeteries." She then elaborates on
-The symbolic meaning: "Desire -- death -- that's the way the old joke goes. The opposite of death is
+the symbolic meaning: "Desire -- death -- that's the way the old joke goes. The opposite of death is
 Desire."
 
 This scene is also notable for Blanche's denunciation of Stanley. She calls him "sub-human," "a
 Survivor of the Stone Age," "something not quite human" -- language that reveals her class prejudice
-And her fear of Stanley's physical power. But the scene also reveals Blanche's own limitations: her
+and her fear of Stanley's physical power. But the scene also reveals Blanche's own limitations: her
 Inability to understand the genuine bond between Stanley and Stella, her tendency to reduce Stanley
-To a category rather than engaging with him as a human being, and her unconscious complicity in the
-Very power structures she claims to oppose.
+to a category rather than engaging with him as a human being, and her unconscious complicity in the
+very power structures she claims to oppose.
 
 ### Scene 10: The Rape Scene
 
@@ -792,12 +792,12 @@ The rape itself is conveyed through a series of elliptical stage directions: "He
 Seizes her. She strikes at him. He catches her wrist. She sinks to her knees. He picks up her inert
 Figure and carries her to the bed." The brevity and clinical precision of these directions -- in
 Contrast to the elaborate, poetic language of the surrounding scene -- creates a shocking effect, as
-Though the act is too terrible for language to encompass.
+though the act is too terrible for language to encompass.
 
 The rape is the culmination of several intersecting dynamics: Stanley's assertion of territorial
 Dominance, his resentment of Blanche's class pretensions, his desire to humiliate and destroy her,
 And the play's broader thematic concern with the relationship between desire and violence. It is
-Also, crucially, the act that breaks Blanche's already fragile hold on reality, precipitating the
+also, crucially, the act that breaks Blanche's already fragile hold on reality, precipitating the
 Final delusion from which she never recovers.
 
 ### Scene 11: Stella's Decision and Blanche's Departure
@@ -812,10 +812,10 @@ Stella's decision to stay with Stanley is the play's most disturbing and most re
 Williams does not present it as a heroic act of loyalty or as a weak capitulation to abuse; rather,
 He presents it as a complex, morally ambiguous choice that reflects the genuine constraints under
 Which women live. Stella needs Stanley -- emotionally, sexually, economically -- and the play does
-Not allow the audience to dismiss this need as false consciousness or internalised oppression.
+not allow the audience to dismiss this need as false consciousness or internalised oppression.
 
 Blanche's final departure is staged with extraordinary tenderness. The doctor, initially presented
-As an anonymous authority figure, reveals himself to be kind and gentle: he takes off his hat and
+as an anonymous authority figure, reveals himself to be kind and gentle: he takes off his hat and
 Speaks to Blanche with a courtesy that no other male character in the play has shown. Blanche, in
 Her final lucid moment, takes his arm and says: "Whoever you are -- I have always depended on the
 Kindness of strangers." This line -- at once heartbreaking and bitterly ironic -- encapsulates the
@@ -842,23 +842,23 @@ Single, concrete image. The streetcar is a public vehicle -- it carries all pass
 Indiscriminately, suggesting that desire is a universal human experience. It runs on fixed tracks,
 Suggesting the inexorability of desire's trajectory. And it requires a transfer -- from Desire to
 Cemeteries -- suggesting that desire inevitably leads to death, or that the two are opposite poles
-Of the same continuum.
+of the same continuum.
 
 Blanche's description of her journey is both literal and allegorical. The streetcar named Desire is
 A real streetcar line in New Orleans (the Desire Line ran through the French Quarter from 1920 to
 1948), and the transfer to Cemeteries is an actual route. But the allegorical dimension transforms
-This mundane itinerary into a metaphysical statement: desire and death are the twin forces that
+this mundane itinerary into a metaphysical statement: desire and death are the twin forces that
 Drive human life, and the journey from one to the other is the journey from life to the afterlife.
 
 ### Colors
 
 Williams uses color with the precision of a painter, and the play's color symbolism is among its
-Most developed symbolic systems.
+most developed symbolic systems.
 
 **White** is Blanche's color. Her name means "white" in French; she wears white in Scene 1; she
 Insists on white in her environment. White symbolises purity, innocence, and the aristocratic ideal
 -- but it also symbolises emptiness, blankness, and death. Blanche's whiteness is not genuine purity
-But a costume, a performance of purity that conceals the complexity and the stain of her actual
+but a costume, a performance of purity that conceals the complexity and the stain of her actual
 History.
 
 **Red** is Stanley's color. His silk pajamas are red; he is described in terms of animal vitality
@@ -868,7 +868,7 @@ Destruction.
 
 **Blue** is associated with the ambient sexuality of the New Orleans setting -- the Blue Piano that
 Plays from the Four Deuces bar. Blue is the color of melancholy, of the evening sky, of the distance
-Between desire and fulfilment. It is also, in the context of the poker game, the color of Stanley's
+between desire and fulfilment. It is also, in the context of the poker game, the color of Stanley's
 "lucky" shirt, linking the color to both sexuality and the games of chance that structure the men's
 Social world.
 
@@ -881,7 +881,7 @@ mirrors the fragility of Blanche's own illusions, and its destruction by Stanley
 Foreshadows the destruction of Blanche herself.
 
 Shadows function as a secondary light symbol. Williams repeatedly uses shadows to suggest the gap
-Between appearance and reality: in Scene 9, the stage direction calls for "lurid reflections" and
+between appearance and reality: in Scene 9, the stage direction calls for "lurid reflections" and
 "grotesque, menacing shapes" on the walls as Blanche's mental state deteriorates. Shadows are the
 Territory between light and darkness, appearance and reality, and they belong to Blanche's world --
 The world of ambiguity, nuance, and the unspoken.
@@ -893,7 +893,7 @@ Haunting figures. She is never named or individualised; she functions as a symbo
 Mortality, a memento mori who intrudes upon the domestic space of the Kowalski apartment.
 
 Her call -- "Flores. Flores para los muertos" -- is in Spanish, marking her as a cultural outsider
-Within the predominantly Anglophone world of the play. But the message is universal: death comes for
+within the predominantly Anglophone world of the play. But the message is universal: death comes for
 Everyone, and the flowers she sells are a reminder of the mortality that Blanche has spent her
 Entire adult life trying to escape or deny. The scene in which she appears -- immediately after
 Stanley has given Blanche a bus ticket for her birthday -- is one of the play's most powerful, as
@@ -904,15 +904,15 @@ Blanche retreats into memories of the dead and the Varsouviana polka begins to p
 The Varsouviana polka has been discussed above in the context of its function as a leitmotif, but
 Its symbolic significance extends beyond its narrative role. The polka is a dance -- a form of
 Structured, communal movement that implies order, repetition, and the possibility of harmony. But
-The Varsouviana is associated with the moment of greatest disorder in Blanche's life: the suicide of
+the Varsouviana is associated with the moment of greatest disorder in Blanche's life: the suicide of
 Allan Grey. The dissonance between the dance's cheerful form and its traumatic associations mirrors
-The dissonance between Blanche's performed gaiety and her inner devastation.
+the dissonance between Blanche's performed gaiety and her inner devastation.
 
 The polka also has a specific structural property: in the play, it always stops before the final
 Note. This interrupted completion mirrors Blanche's own narrative of her past, which always stops
-Before the full truth is revealed. It also suggests the impossibility of closure -- Blanche can
+before the full truth is revealed. It also suggests the impossibility of closure -- Blanche can
 Never complete her story, never integrate her trauma into a coherent narrative of selfhood, because
-The trauma is too overwhelming to be contained by narrative.
+the trauma is too overwhelming to be contained by narrative.
 
 ### Games: Poker as Metaphor for Power
 
@@ -922,11 +922,11 @@ Ability to conceal one's true hand while reading the hands of others -- a dynami
 Mirrors the play's central conflict between truth and deception.
 
 Stanley is the most skilled poker player, and his success at the card table parallels his success in
-The larger game of social dominance. He reads Blanche's "hand" -- her hidden past -- with the same
+the larger game of social dominance. He reads Blanche's "hand" -- her hidden past -- with the same
 Strategic acuity that he reads his opponents' cards, and he uses this information to destroy her
 Credibility and eliminate her as a rival. The poker game in Scene 3, which culminates in Stanley's
 Violent outburst, establishes the connection between the card game and the larger game of power that
-The play dramatises.
+the play dramatises.
 
 ### Bathing: Cleansing, Baptism, and Invasion
 
@@ -939,13 +939,13 @@ A new beginning with Mitch. The bath as cleansing ritual has deep cultural and r
 Williams invokes these roots to suggest the depth of Blanche's need for purification.
 
 Baptism: The bath also carries Christian connotations of baptism and rebirth. Blanche emerges from
-Each bath renewed, temporarily restored to the illusion of purity and innocence. But the renewal is
+each bath renewed, temporarily restored to the illusion of purity and innocence. But the renewal is
 Always temporary; the stain always returns.
 
 Invasion: Blanche's baths also have a territorial dimension. By occupying the bathroom for extended
 Periods, she asserts a claim to domestic space that Stanley resents. The bathroom becomes a
 Contested zone -- a space of privacy and retreat that Stanley repeatedly invades, most devastatingly
-In Scene 10, when he enters the bathroom and confronts Blanche as she emerges from her bath.
+in Scene 10, when he enters the bathroom and confronts Blanche as she emerges from her bath.
 
 ---
 
@@ -963,15 +963,15 @@ In Scene 10, when he enters the bathroom and confronts Blanche as she emerges fr
 ### Stage Directions as Character Exposition
 
 Williams's stage directions function as a parallel narrative track that reveals character psychology
-Through physical description, gesture, and setting. This technique is essential to the plastic
+through physical description, gesture, and setting. This technique is essential to the plastic
 Theater concept and demands careful attention from the reader.
 
 Blanche's first entrance is introduced by a stage direction that runs to several paragraphs: "Her
 Delicate beauty must avoid a strong light. There is something about her uncertain manner, as well as
 Her white clothes, that suggests a moth." This description -- which establishes Blanche's fragility,
 Her aversion to truth, and her association with a creature drawn to flame -- is character exposition
-Of extraordinary density and precision. It tells us, before Blanche speaks a single word, who she is
-And what her tragic trajectory will be.
+of extraordinary density and precision. It tells us, before Blanche speaks a single word, who she is
+and what her tragic trajectory will be.
 
 Stanley's entrance is similarly revealing: "He is of medium height, about five feet five or six, and
 Strongly, compactly built. Animal joy in his being is implicit in all his movements and attitudes."
@@ -982,34 +982,34 @@ Primal, pre-civilised mode of existence.
 ### Dialogue Patterns: Blanche's Poetic Language vs. Stanley's Vernacular
 
 The contrast between Blanche's and Stanley's speech patterns is one of the play's most obvious and
-Most significant literary devices. Blanche speaks in elaborate, metaphorical, often hyperbolic
+most significant literary devices. Blanche speaks in elaborate, metaphorical, often hyperbolic
 Language: "I thought it was the other way around -- you being a librarian and all!" / "I know how it
-Is -- the first time you've been away from home." Her speech is the speech of a Southern aristocrat,
+is -- the first time you've been away from home." Her speech is the speech of a Southern aristocrat,
 Rich in literary allusion and rhetorical flourish.
 
 Stanley speaks in direct, colloquial, often crude language: "Be comfortable is my motto." / "I got
-An acquaintance who works in the same plant." His speech is the speech of a working-class man,
+an acquaintance who works in the same plant." His speech is the speech of a working-class man,
 Pragmatic and unadorned, suspicious of verbal ornamentation as a form of deception.
 
 This contrast is not merely stylistic; it reflects a fundamental difference in how the two
 Characters perceive and relate to the world. Blanche uses language to create and maintain her
 Illusions; Stanley uses language to assert facts and claim power. When they speak to each other,
 They are literally speaking different languages, and the failure of communication between them is
-Both a symptom and a cause of the play's central conflict.
+both a symptom and a cause of the play's central conflict.
 
 ### Irony: Dramatic and Situational
 
 Williams employs dramatic irony extensively. The audience knows about Blanche's past in Laurel
-Before the other characters do; we understand the significance of the Varsouviana polka before Mitch
-Does; we recognise the sexual tension between Blanche and Stanley before Stella fully grasps it.
+before the other characters do; we understand the significance of the Varsouviana polka before Mitch
+does; we recognise the sexual tension between Blanche and Stanley before Stella fully grasps it.
 This dramatic irony creates a sense of inevitable catastrophe: we watch Blanche's carefully
 Constructed world crumble, unable to intervene, knowing what is coming.
 
 Situational irony pervades the play's major reversals. Blanche, who presents herself as a woman of
 Culture and refinement, is revealed to have a history of sexual promiscuity. Stanley, who presents
 Himself as a defender of truth, uses the truth as a weapon of destruction. Stella, who seems to be
-The character most capable of mediating between the two worlds, ultimately chooses one and abandons
-The other. Mitch, who seems to be the character most likely to save Blanche, is the one who
+the character most capable of mediating between the two worlds, ultimately chooses one and abandons
+the other. Mitch, who seems to be the character most likely to save Blanche, is the one who
 Confronts her most brutally with the truth about her past.
 
 ### Foreshadowing
@@ -1019,7 +1019,7 @@ Whose name evokes the afterlife -- her description of the streetcar journey (Des
 Elysian Fields), her association with moths (creatures drawn to flame), and her aversion to light
 (which she cannot ultimately avoid) all point toward the play's conclusion. The Mexican woman's
 "flores para los muertos" in Scene 9 is perhaps the most explicit instance of foreshadowing: Blanche
-Is, symbolically, already among the dead.
+is, symbolically, already among the dead.
 
 ### Expressionism: Lighting Changes Reflecting Psychological States
 
@@ -1067,9 +1067,9 @@ But his rape of Blanche reveals the death drive lurking beneath the surface of e
 Existence.
 
 Lacanian psychoanalysis offers additional resources. Blanche's relationship to language -- her use
-Of metaphor, hyperbole, and poetic diction as a means of constructing a self that can bear to exist
+of metaphor, hyperbole, and poetic diction as a means of constructing a self that can bear to exist
 -- can be read in terms of the Lacanian symbolic order. Her inability to speak the truth about her
-Past represents a failure of symbolisation: the trauma of Allan's death is the "real" that resists
+past represents a failure of symbolisation: the trauma of Allan's death is the "real" that resists
 Integration into the symbolic order, and Blanche's entire verbal performance is an attempt to
 Construct a symbolic framework capacious enough to contain it.
 
@@ -1085,10 +1085,10 @@ Institutionalisation -- can be read as the consequence of a social system that p
 Sexual agency while rewarding men for the same behaviour.
 
 Stanley's rape of Blanche is the most obvious instance of gendered violence, but feminist criticism
-Also draws attention to the more subtle forms of patriarchal control that pervade the play. Stella's
+also draws attention to the more subtle forms of patriarchal control that pervade the play. Stella's
 Decision to stay with Stanley, for example, can be read not as a free choice but as a constrained
-One: she lacks the economic resources, the social support, and the psychological autonomy to leave
-An abusive relationship. Mitch's rejection of Blanche -- "You're not clean enough to bring in the
+one: she lacks the economic resources, the social support, and the psychological autonomy to leave
+an abusive relationship. Mitch's rejection of Blanche -- "You're not clean enough to bring in the
 House with my mother" -- reveals the double standard that governs female sexuality: a woman's sexual
 History is a stain that permanently disqualifies her from respectability, while a man's is
 Irrelevant.
@@ -1106,9 +1106,9 @@ Drives them toward the illicit, the self-destructive, and the delusional.
 
 A Marxist reading of _Streetcar_ focuses on the class conflict between Blanche and Stanley as an
 Expression of broader historical forces: the transition from an agrarian, aristocratic social order
-To an industrial, capitalist one. Blanche's family, the DuBois, were plantation owners -- a class
-That depended on the labour of enslaved and then exploited workers for its wealth. Stanley, the son
-Of Polish immigrants, represents the industrial working class that is displacing the old
+to an industrial, capitalist one. Blanche's family, the DuBois, were plantation owners -- a class
+that depended on the labour of enslaved and then exploited workers for its wealth. Stanley, the son
+of Polish immigrants, represents the industrial working class that is displacing the old
 Aristocracy.
 
 The loss of Belle Reve is the play's most explicit reference to this historical transition.
@@ -1119,11 +1119,11 @@ Impossibility of preserving an aristocratic way of life in a capitalist economy 
 Hereditary privilege.
 
 Stanley's investigation of Blanche's past in Scene 7 -- "The Kowalskis and the DuBois have ancestors
-Of different kinds" -- is a class analysis in miniature: he demonstrates that Blanche's family is as
+of different kinds" -- is a class analysis in miniature: he demonstrates that Blanche's family is as
 Morally compromised as his own, thereby undermining the ideological basis of her claim to
 Superiority. His conclusion -- "And look at yourself. You're just a washed-up old maid" -- is a
 Class verdict: in the new social order, Blanche has no economic function, no productive role, and
-Therefore no right to the respect and deference she claims.
+therefore no right to the respect and deference she claims.
 
 </details>
 
@@ -1141,13 +1141,13 @@ Prerogatives they had temporarily surrendered.
 The play's setting in New Orleans -- a city with a unique cultural history, a large African American
 Population, and a tradition of racial and ethnic mixing -- is historically specific and significant.
 The French Quarter of the late 1940s was a space where the boundaries of race, class, and sexuality
-Were more fluid than in most American cities, and Williams exploits this fluidity to explore themes
-Of cultural hybridity, social mobility, and the instability of identity categories.
+were more fluid than in most American cities, and Williams exploits this fluidity to explore themes
+of cultural hybridity, social mobility, and the instability of identity categories.
 
 The play's treatment of homosexuality -- obliquely referenced through the character of Allan Grey
-And more directly through Blanche's references to the soldiers at Camp Shelby -- must be understood
-In the context of postwar American homophobia. Homosexuality was classified as a mental disorder by
-The American Psychiatric Association until 1973, and homosexual acts were criminalised in every
+and more directly through Blanche's references to the soldiers at Camp Shelby -- must be understood
+in the context of postwar American homophobia. Homosexuality was classified as a mental disorder by
+the American Psychiatric Association until 1973, and homosexual acts were criminalised in every
 State. Williams's decision to make Blanche's trauma centre on her discovery of her husband's
 Homosexuality -- and to present that discovery with sympathy and complexity -- was a bold and risky
 Choice in the cultural context of 1947.
@@ -1162,7 +1162,7 @@ Gender performance, and the relationship between sexuality and identity. Blanche
 Her elaborate performance of femininity, her history of sexual transgression, and her ultimate
 Destruction by a normative masculine order, can be read as a figure for the queer subject: someone
 Whose identity is constructed through performance and whose relationship to dominant norms is one of
-Both attraction and resistance.
+both attraction and resistance.
 
 Allan Grey -- the absent presence at the heart of the play -- is the character most open To queer
 reading. His homosexuality, his suicide, and the role his death plays in shaping Blanche's
@@ -1193,7 +1193,7 @@ Destabilisation.
 ## 9. IB Exam Preparation: Key Quotations and How to Use Them
 
 The following quotations are among the most frequently cited in IB examinations on _Streetcar_. Each
-Is accompanied by a brief analytical note indicating its significance and the critical approaches it
+is accompanied by a brief analytical note indicating its significance and the critical approaches it
 Supports.
 
 ### Blanche
@@ -1207,7 +1207,7 @@ Plastic theater concept. Supports both psychoanalytic and formalist readings.
 
 **"Whoever you are -- I have always depended on the kindness of strangers."** Scene 11. Final line.
 Bitterly ironic: kindness is found only among strangers, not family. Connects to themes of isolation
-And betrayal.
+and betrayal.
 
 **"I have always depended on the courtesy of strangers."** Scene 11. Alternate version of the above.
 The word "courtesy" -- a marker of aristocratic social codes -- adds an additional layer of irony.
@@ -1219,7 +1219,7 @@ Everything else seem -- unimportant."** Scene 2. Stanley's philosophy of embodie
 Supports a reading that validates, as well as condemns, Stanley's worldview.
 
 **"I am the king around here, so don't forget it!"** Scene 8. Stanley's territorial claim. Connects
-To themes of masculine dominance and patriarchal power structures.
+to themes of masculine dominance and patriarchal power structures.
 
 **"The Kowalskis and the DuBois have ancestors of different kinds."** Scene 7. Stanley's class
 Analysis. Supports Marxist and new historicist readings.
@@ -1261,14 +1261,14 @@ Critique is more explicit and politically oriented, while Williams's is more psy
 Ambivalent.
 
 **vs. _The Great Gatsby_ (Fitzgerald):** Both feature a protagonist whose identity is constructed
-Through performance and whose fate is determined by the gap between illusion and reality. Both are
+through performance and whose fate is determined by the gap between illusion and reality. Both are
 Set in a period of American social transformation. But Fitzgerald's novel is narrated
 Retrospectively, allowing for a more detached ironic perspective, while Williams's play unfolds in
 Real time, creating a more immediate sense of catastrophe.
 
 **vs. _The Bell Jar_ (Plath):** Both explore female subjectivity, mental illness, and the
 Constraints of mid-century gender norms. But Plath's novel is a first-person narrative that grants
-The reader direct access to the protagonist's consciousness, while Williams's play relies on
+the reader direct access to the protagonist's consciousness, while Williams's play relies on
 Externalisation -- stage directions, music, lighting -- to convey Blanche's inner life.
 
 **vs. _Hamlet_ (Shakespeare):** Both feature a protagonist whose grief and guilt over a death (Allan

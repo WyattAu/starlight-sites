@@ -37,7 +37,7 @@ _allocatively inefficient_, that is, the market fails to produce the Pareto-opti
 Goods and services.
 
 Formally, market failure occurs when the price mechanism does not equate marginal social benefit
-With marginal social cost:
+with marginal social cost:
 
 $$
 P \neq MSC \quad \mathrm{or equivalently} \quad MSB \neq MSC
@@ -145,7 +145,7 @@ Q_{total} = Q_{individual} \quad \mathrm{(non-rivalry)}
 $$
 
 Contrast with **private goods**: excludable and rivalrous (your consumption of an apple means I
-Cannot eat it).
+cannot eat it).
 
 |                    | Rivalrous                                    | Non-rivalrous                                    |
 | ------------------ | -------------------------------------------- | ------------------------------------------------ |
@@ -160,12 +160,12 @@ _Proof._ Suppose a public good costs $C$ to provide and benefits each of $n$ ind
 The socially optimal provision requires $\sum_{i=1}^{n} B_i \geq C$. However, each individual $i$
 Reasons: "If others pay, I can enjoy the good without paying (non-excludability). If others don't
 Pay, my contribution is insufficient to provide the good." Therefore, it is individually rational
-For each person not to contribute, the **dominant strategy is to free-ride**. By the same logic, no
-One contributes, and the good is not provided, even when $\sum B_i \gg C$. $\blacksquare$
+for each person not to contribute, the **dominant strategy is to free-ride**. By the same logic, no
+one contributes, and the good is not provided, even when $\sum B_i \gg C$. $\blacksquare$
 
 **Quasi-public goods**: goods that are largely non-rivalrous but are excludable (e.g., roads,
 Education, healthcare). These are often provided by the government because the market would
-Under-provide them.
+under-provide them.
 
 ### 2.3 Information Asymmetry
 
@@ -175,13 +175,13 @@ Better information than the other.
 #### Adverse Selection (Akerlof's Lemons Model)
 
 Akerlof (1970) analysed the market for used cars. Sellers know the quality of their car; buyers do
-Not. There are two types of cars:
+not. There are two types of cars:
 
 - **"Peaches"** (high quality): value to seller $= £8\,000$ Value to buyer $= £10\,000$
 - **"Lemons"** (low quality): value to seller $= £4\,000$ Value to buyer $= £6\,000$
 
 If buyers can distinguish quality, both types trade at mutually beneficial prices. But if buyers
-Cannot distinguish, and 50% of cars are peaches and 50% are lemons, the **expected value** to a
+cannot distinguish, and 50% of cars are peaches and 50% are lemons, the **expected value** to a
 Buyer of a random car is:
 
 $$
@@ -191,17 +191,17 @@ $$
 Buyers are willing to pay at most £8,000. But at this price, sellers of peaches (£8,000 value to
 Seller) will not sell, only lemons are offered. Buyers, anticipating this, revise their offer
 Downward to £6,000. Now _only_ lemons trade. **The market for high-quality cars collapses**, this
-Is adverse selection: asymmetric information drives high-quality products out of the market.
+is adverse selection: asymmetric information drives high-quality products out of the market.
 
 #### Moral Hazard
 
 We define **moral hazard** as a situation in which one party alters their behaviour after entering
-Into an agreement, knowing that the other party bears some of the cost of that behaviour.
+into an agreement, knowing that the other party bears some of the cost of that behaviour.
 
 <details>
 <summary>Example</summary>
 After purchasing comprehensive car insurance, a driver may take more risks (driving faster, parking
-In unsafe areas) because the insurance company bears the cost of accidents. The driver's behaviour
+in unsafe areas) because the insurance company bears the cost of accidents. The driver's behaviour
 Changes _because_ they are insured, this is moral hazard.
 </details>
 
@@ -227,7 +227,7 @@ Inefficient allocation of labour.
 Markets reward factors of production according to marginal productivity. Those who own scarce,
 Highly productive factors (skilled labour, capital, land) receive higher incomes. Without
 Redistribution, this can lead to extreme inequality, which many consider a form of market failure
-Because:
+because:
 
 1. Unequal incomes $\Rightarrow$ unequal access to education, healthcare, opportunities
 2. High inequality may reduce aggregate demand (the rich have a lower MPC)
@@ -294,7 +294,7 @@ Equal the social optimum ($MPB = MSC = MPC + MEC$), we need $t = MEC$ at the opt
 $\blacksquare$
 
 The tax **internalises the externality**: the firm now faces the full social cost of its production
-And reduces output to $Q^*$.
+and reduces output to $Q^*$.
 
 <details>
 <summary>Example: Carbon Tax</summary>
@@ -334,7 +334,7 @@ The government can directly regulate production or consumption:
 ### 4.4 Tradable Permits
 
 The government sets a total quantity of pollution allowed and issues permits that firms can trade
-Among themselves. This combines quantity regulation with market efficiency:
+among themselves. This combines quantity regulation with market efficiency:
 
 - Firms with low abatement costs reduce pollution and sell permits
 - Firms with high abatement costs buy permits instead

@@ -163,7 +163,7 @@ The carrying capacity is the maximum population size that the environment can su
 **Worked Example: Exponential growth calculation.**
 
 A population of bacteria starts with 1000 cells and has a growth rate $r = 0.5$ per hour. What is
-The population after 10 hours?
+the population after 10 hours?
 
 $N = N_0 e^{rt} = 1000 \times e^{0.5 \times 10} = 1000 \times e^5 \approx 1000 \times 148.4 = 148,413$
 Cells.
@@ -354,7 +354,7 @@ Resource to reduce direct competition).
 
 Two species of warbler (birds) live in the same tree. Species A feeds on insects near the top of the
 Tree canopy, while species B feeds on insects near the trunk. Although both species eat insects from
-The same tree, they partition the resource spatially (different parts of the tree). This reduces
+the same tree, they partition the resource spatially (different parts of the tree). This reduces
 Direct competition and allows both species to coexist.
 
 ## Review: Human Impact on Ecosystems -- Detailed Case Studies
@@ -376,12 +376,12 @@ Board) has begun to transition away from peat harvesting towards renewable energ
 **Case study: Overfishing.**
 
 Overfishing occurs when fish are caught faster than they can reproduce. This depletes fish stocks
-And disrupts marine food webs.
+and disrupts marine food webs.
 
 **Example:** Atlantic cod stocks in the Grand Banks (off Newfoundland, Canada) collapsed in the
 Early 1990s after decades of overfishing. The cod population has not recovered despite a fishing
 Moratorium, demonstrating that ecosystems can be pushed beyond a tipping point from which recovery
-Is very slow or impossible.
+is very slow or impossible.
 
 **Solutions:** Fishing quotas, minimum mesh sizes (to allow young fish to escape), marine protected
 Areas where fishing is banned, and sustainable certification schemes (e.g., Marine Stewardship
@@ -431,7 +431,7 @@ A population of bacteria is grown in a flask with a fixed amount of nutrient. Th
 Rapidly at first (exponential phase), then the growth rate slows as nutrients are depleted and waste
 Products accumulate (deceleration phase). Eventually, the population stabilises (stationary phase)
 As the birth rate equals the death rate. The population size at this point is the carrying capacity
-For the flask. If the nutrients are not replenished, the population will decline (death phase) as
+for the flask. If the nutrients are not replenished, the population will decline (death phase) as
 Waste products become toxic.
 
 ## Review: Ecological Succession
@@ -459,7 +459,7 @@ Volcanic lava.
 
 Secondary succession occurs where an existing community has been disturbed (e.g., after a forest
 Fire, abandoned farmland, or clear-felling). The soil is already present, so succession proceeds
-More rapidly than primary succession.
+more rapidly than primary succession.
 
 **Worked Example: Succession on a sand dune (common in Irish ecology).**
 
@@ -493,7 +493,7 @@ Type of biome.
 
 Ireland's temperate maritime climate (mild winters, cool summers, high rainfall) supports temperate
 Deciduous woodland as the natural climax community. However, much of Ireland's original woodland has
-Been cleared for agriculture, and grassland is now the dominant vegetation type. Raised bogs and
+been cleared for agriculture, and grassland is now the dominant vegetation type. Raised bogs and
 Blanket bogs are significant Irish ecosystems that are rare internationally.
 
 **Worked Example: Adaptations of plants to different biomes.**
@@ -668,7 +668,7 @@ The estimated population is 400 woodlice.
 Each species occupies a unique ecological niche -- its role in the ecosystem, including the
 Resources it uses, its interactions with other species, and the environmental conditions it
 Requires. The competitive exclusion principle states that two species cannot coexist indefinitely if
-They occupy exactly the same niche. One species will outcompete the other, leading to competitive
+they occupy exactly the same niche. One species will outcompete the other, leading to competitive
 Exclusion.
 
 In practice, closely related species often coexist because they have slightly different niches
@@ -678,7 +678,7 @@ Different heights in the canopy, reducing direct competition.
 **The carbon cycle:**
 
 Carbon is the backbone of all organic molecules. The carbon cycle describes the movement of carbon
-Between the atmosphere, biosphere, oceans, and geosphere.
+between the atmosphere, biosphere, oceans, and geosphere.
 
 **Key processes in the carbon cycle:**
 

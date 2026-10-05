@@ -73,11 +73,11 @@ quality improvement; chronic shortages and surpluses.
 Allocation decisions, while the government intervenes to correct market failures, redistribute
 Income, and provide public goods. (b) Prices are primarily determined by supply and demand, but the
 Government may set price controls, taxes, and subsidies. (c) Advantage: Combines market efficiency
-With government correction of failures; can achieve both growth and equity. Disadvantage: Government
+with government correction of failures; can achieve both growth and equity. Disadvantage: Government
 Intervention may itself cause inefficiency (e.g., regulatory capture, crowding out).
 
 Hong Kong is a mixed economy with a strong free-market tradition. The government follows a "positive
-Non-interventionist" policy -- most prices are market-determined, and there is no sales tax or
+non-interventionist" policy -- most prices are market-determined, and there is no sales tax or
 Capital gains tax. However, the government provides public housing (housing nearly half the
 Population), public healthcare, and subsidised education. The government also regulates monopolies
 (e.g., through the Competition Ordinance) and provides infrastructure.
@@ -86,7 +86,7 @@ Population), public healthcare, and subsidised education. The government also re
 
 **Question:** A factory produces 1000 units of a product per day when workers perform all stages of
 Production themselves. After introducing division of labour, the factory produces 3000 units per day
-With the same number of workers. (a) Calculate the percentage increase in output. (b) Explain three
+with the same number of workers. (a) Calculate the percentage increase in output. (b) Explain three
 Reasons why division of labour increases productivity. (c) Identify two limitations of division of
 Labour.
 
@@ -127,14 +127,14 @@ Labour.
 
 **Question:** An economy produces two goods: rice ($R$) and textiles ($T$). Its PPC is given by
 $R = 100 - 0.5T^2$ for $0 \le T \le \sqrt{200}$. The domestic demand for rice is $P_R = 50 - 0.1Q_R$
-And for textiles is $P_T = 80 - 0.2Q_T$. If the economy is producing at a point where $T = 10$: (a)
+and for textiles is $P_T = 80 - 0.2Q_T$. If the economy is producing at a point where $T = 10$: (a)
 Calculate the maximum rice output at this point, (b) calculate the marginal rate of transformation
 (MRT) of textiles into rice, (c) explain what the MRT represents in terms of opportunity cost.
 
 **Solution:**
 
 (a) At $T = 10$: $R = 100 - 0.5(10)^2 = 100 - 50 = 50$. So the economy can produce 50 units of rice
-And 10 units of textiles.
+and 10 units of textiles.
 
 (b) The MRT is the absolute value of the slope of the PPC:
 $MRT = \left|\frac{\text{dR}}{    ext{dT}}\right| = |-T| = T$. At $T = 10$: $MRT = 10$. This means 1
@@ -143,7 +143,7 @@ Additional unit of textiles costs 10 units of rice in opportunity cost.
 (c) The MRT represents the opportunity cost of producing one more unit of textiles in terms of rice
 Forgone. It is equal to the ratio of marginal costs: $MRT = \frac{\text{MC_T}}{    ext{MC_R}}$. As more
 Textiles are produced, the MRT increases (increasing opportunity cost), reflecting the concave shape
-Of the PPC. For allocative efficiency, the MRT should equal the ratio of marginal benefits (prices):
+of the PPC. For allocative efficiency, the MRT should equal the ratio of marginal benefits (prices):
 $MRT = \frac{\text{P_T}}{    ext{P_R}}$. If MRT $\gt$ price ratio, the economy should produce more rice;
 If MRT $\lt$ price ratio, it should produce more textiles.
 

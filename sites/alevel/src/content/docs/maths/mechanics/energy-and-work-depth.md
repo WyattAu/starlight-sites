@@ -93,7 +93,7 @@ W_{\mathrm{friction}} = -\mu R \times d
 $$
 
 Where $d$ is the total distance travelled along the surface (not the displacement). Friction always
-Does negative work (it opposes motion), so it always removes energy from the system.
+does negative work (it opposes motion), so it always removes energy from the system.
 
 <hr />
 
@@ -158,7 +158,7 @@ $$
 ### 3.1 Definition
 
 The **gravitational potential energy** of a body of mass $m$ at height $h$ above a reference level
-Is:
+is:
 
 $$
 \boxed{\mathrm{GPE} = mgh}
@@ -336,7 +336,7 @@ For motion in one dimension: $P = Fv$. $\blacksquare$
 
 **Problem.** A car of mass $1000\;\mathrm{kg}$ has an engine that produces a constant power of
 $40\;\mathrm{kW}$. The resistance to motion is $800\;\mathrm{N}$. Find the maximum speed of the car
-On a level road and the acceleration when the speed is $15\;\mathrm{m\,s^{-1}}$.
+on a level road and the acceleration when the speed is $15\;\mathrm{m\,s^{-1}}$.
 
 **Maximum speed:** At maximum speed, acceleration $= 0$ So driving force $=$ resistance.
 
@@ -387,7 +387,7 @@ T = kx
 $$
 
 Where $k$ is the **stiffness** (or spring constant) in $\mathrm{N\,m^{-1}}$ and $x$ is the extension
-In metres.
+in metres.
 
 Alternatively, $T = \dfrac{\lambda x}{l}$ where $\lambda$ is the **modulus of
 elasticity** and $l$ Is the natural length.
@@ -464,7 +464,7 @@ $$
 
 **Problem.** A particle of mass $3\;\mathrm{kg}$ is attached to two elastic strings. One string has
 Natural length $0.8\;\mathrm{m}$ and modulus $40\;\mathrm{N}$ And is fixed at a point $A$. The other
-Has natural length $1.0\;\mathrm{m}$ and modulus $50\;\mathrm{N}$ And is fixed at a point $B$. The
+has natural length $1.0\;\mathrm{m}$ and modulus $50\;\mathrm{N}$ And is fixed at a point $B$. The
 Distance $AB$ is $3\;\mathrm{m}$. The particle hangs in equilibrium. Find the distance of the
 particle From $A$.
 
@@ -511,7 +511,7 @@ T_A = 3g \implies 50(d - 0.8) = 29.4 \implies d = 1.388\;\mathrm{m}
 $$
 
 But $1.388 \lt 2$ Contradiction. This problem needs a 2D treatment with the particle hanging below
-The line, with both strings at angles.
+the line, with both strings at angles.
 
 :::caution
 strings are taut or Slack at different points in the motion. Always check the assumptions about
@@ -524,7 +524,7 @@ extensions at each stage.
 ### Problem 1
 
 A crate of mass $50\;\mathrm{kg}$ is pushed $12\;\mathrm{m}$ up a rough ramp inclined at $15^\circ$
-To the horizontal by a force of $300\;\mathrm{N}$ acting parallel to the ramp. The coefficient of
+to the horizontal by a force of $300\;\mathrm{N}$ acting parallel to the ramp. The coefficient of
 Friction is $0.25$. Find the speed of the crate at the top if it starts from rest.
 
 <details>
@@ -546,7 +546,7 @@ $\frac{1}{2}(50)v^2 = 659.3 \implies v = \sqrt{26.37} \approx 5.14\;\mathrm{m\,s
 ### Problem 2
 
 A light elastic spring of natural length $0.5\;\mathrm{m}$ and stiffness $200\;\mathrm{N\,m^{-1}}$
-Is compressed by $0.1\;\mathrm{m}$ and used to launch a particle of mass $0.4\;\mathrm{kg}$
+is compressed by $0.1\;\mathrm{m}$ and used to launch a particle of mass $0.4\;\mathrm{kg}$
 Vertically upward from ground level. Find the maximum height reached by the particle.
 
 <details>
@@ -581,8 +581,8 @@ $P = Fv = 955.6 \times 20 = 19112\;\mathrm{W} \approx 19.1\;\mathrm{kW}$.
 
 A particle of mass $4\;\mathrm{kg}$ is attached to one end of a light elastic string of natural
 Length $1.5\;\mathrm{m}$ and modulus $80\;\mathrm{N}$. The other end is fixed. The particle is held
-At a point $2.5\;\mathrm{m}$ below the fixed point and released from rest. Find: (a) the speed when
-The string first becomes slack; (b) the maximum height above the release point.
+at a point $2.5\;\mathrm{m}$ below the fixed point and released from rest. Find: (a) the speed when
+the string first becomes slack; (b) the maximum height above the release point.
 
 <details>
 <summary>Solution</summary>
@@ -606,7 +606,7 @@ String going slack. Let us verify: for the string to go slack, EPE $\gt$ GPE gai
 $26.67 \lt 39.2$ So indeed the string remains taut.
 
 (b) At the lowest point (maximum extension), $v = 0$. The particle oscillates between two points
-Where all energy is EPE $+$ GPE. At the lowest point, all initial energy $+$ GPE lost $=$ EPE.
+where all energy is EPE $+$ GPE. At the lowest point, all initial energy $+$ GPE lost $=$ EPE.
 
 $26.67 + 4gx = \frac{80x^2}{3}$ where $x$ is the additional extension beyond $1.0\;\mathrm{m}$.
 Total extension $= 1.0 + x$.

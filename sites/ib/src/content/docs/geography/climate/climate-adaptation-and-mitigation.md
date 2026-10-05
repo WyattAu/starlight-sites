@@ -69,7 +69,7 @@ public safety concerns following the Chernobyl (1986) and Fukushima (2011) accid
 Service delivered. Key measures include: building energy codes (requiring improved insulation,
 Efficient windows, heat pumps); fuel efficiency standards for vehicles; industrial energy
 Management; efficient lighting (LED technology has reduced global lighting electricity consumption
-By approximately 15% since 2010).
+by approximately 15% since 2010).
 
 ### Land Use, Forestry, and Agriculture
 
@@ -108,7 +108,7 @@ Higher lifecycle carbon footprint than those charged on renewable electricity).
 **Public transport and active travel.** Investing in efficient public transport (bus rapid transit,
 Metro, rail) and infrastructure for walking and cycling can reduce per-capita transport emissions by
 Reducing car dependence. The IPCC estimates that shifting urban trips from cars to public transport
-And active travel could reduce transport emissions by approximately 20--40% in cities.
+and active travel could reduce transport emissions by approximately 20--40% in cities.
 
 **Sustainable aviation fuels (SAF).** Aviation is one of the hardest sectors to decarbonise because
 Of its high energy density requirements. SAFs, produced from biomass or synthetic processes
@@ -145,7 +145,7 @@ Temperature stress, increased pest and disease pressure, and increased frequency
 Community-based adaptation (CBA) involves local communities in identifying, designing, and
 Implementing adaptation strategies. It is grounded in the recognition that local communities possess
 Detailed knowledge of their environmental conditions and vulnerabilities, and that adaptation is
-More effective and equitable when communities are active participants rather than passive
+more effective and equitable when communities are active participants rather than passive
 Recipients.
 
 **Characteristics of CBA:**
@@ -161,7 +161,7 @@ As models of good practice. The Comprehensive Disaster Management Programme (CDM
 Communities in flood preparedness, early warning dissemination, first aid, and evacuation
 Procedures. The Union Disaster Management Committees (UDMCs) at the village level develop local risk
 Reduction plans and coordinate community responses. Floating agriculture (baira) allows communities
-To continue cultivation during seasonal flooding. These programmes have significantly reduced
+to continue cultivation during seasonal flooding. These programmes have significantly reduced
 Cyclone mortality: Cyclone Bhola (1970) killed approximately 300 000--500 000 people; Cyclone Sidr
 (2007) killed approximately 3400, despite being of similar magnitude, thanks to improved early
 Warning and preparedness.
@@ -240,8 +240,8 @@ Underwater cabinet meeting in 2009).
 
 **Mitigation:** the Maldives contributes negligibly to global emissions (approximately 1.2 million
 Tonnes $\mathrm{CO_2}$ per year) but has set ambitious targets: achieving net-zero emissions
-By 2030. Strategies include: transitioning to solar power (targeting 30% of electricity from solar
-By 2030); reducing diesel dependency in electricity generation; and promoting electric vehicle
+by 2030. Strategies include: transitioning to solar power (targeting 30% of electricity from solar
+by 2030); reducing diesel dependency in electricity generation; and promoting electric vehicle
 Adoption.
 
 <details>

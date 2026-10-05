@@ -32,7 +32,7 @@ categories:
 
 A reference (or "ref") is a named pointer to a Git object, almost always a commit. References are
 What make Git's object graph navigable. Without them, commits would exist as isolated objects with
-No way to find them (except by hash).
+no way to find them (except by hash).
 
 References are stored as plain text files under `.git/refs/`Each containing a 40-character SHA-1
 Hash:
@@ -150,13 +150,13 @@ Saving the commit hash.
 
 Tags are references stored at `.git/refs/tags/<tag-name>`. Unlike branches, tags **do not move**
 When new commits are created, they are static pointers. See [Git Objects](/git/02-fundamentals/02-git-objects/) for
-The distinction between lightweight and annotated tags.
+the distinction between lightweight and annotated tags.
 
 ### Remote References
 
 Remote-tracking references are stored at `.git/refs/remotes/<remote>/<branch>` and represent the
 State of branches on a remote repository as of the last `git fetch`. They are updated automatically
-By `git fetch` and `git pull`But **never** by local commits.
+by `git fetch` and `git pull`But **never** by local commits.
 
 ```bash
 # Show remote-tracking branches
@@ -281,8 +281,8 @@ $ git reset --hard HEAD@{3}  # Go back to the state 3 operations ago
 ### Reflog Expiry
 
 Reflog entries expire after 90 days by default (configurable via `gc.reflogExpire`). Expired entries
-Are pruned by `git gc`. Objects referenced only by expired reflog entries become unreachable and may
-Be garbage-collected.
+are pruned by `git gc`. Objects referenced only by expired reflog entries become unreachable and may
+be garbage-collected.
 
 ```bash
 # Change reflog expiry
@@ -297,7 +297,7 @@ See [Reflog](/git/05-advanced-topics/01-reflog/) for a deeper treatment.
 ## Symbolic References
 
 A **symbolic reference** (or "symref") is a reference that points to another reference, rather than
-To an object. `HEAD` is the canonical example, it points to a branch ref, which in turn points to a
+to an object. `HEAD` is the canonical example, it points to a branch ref, which in turn points to a
 Commit.
 
 ```bash

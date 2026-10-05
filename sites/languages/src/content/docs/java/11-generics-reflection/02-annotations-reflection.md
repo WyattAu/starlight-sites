@@ -141,7 +141,7 @@ public interface Broken {
 ```
 
 The annotation is optional (any interface with one abstract method is a functional interface), but
-It makes intent explicit and catches accidental additions.
+it makes intent explicit and catches accidental additions.
 
 ### Other Built-in Annotations
 
@@ -274,7 +274,7 @@ public void runDailyReport() { }
 
 At runtime, the container annotation is what reflection sees by default. Use
 `AnnotatedElement.getAnnotationsByType()` to get individual repeatable annotations regardless of
-Whether they are stored individually or in a container:
+whether they are stored individually or in a container:
 
 ```java
 Schedule[] schedules = MyClass.class.getMethod("runDailyReport")
@@ -541,7 +541,7 @@ public class BeanUtils {
 ### Classpath Scanning
 
 Reflection enables runtime classpath scanning (used by Spring, Jersey, etc.) by reading JAR entries
-Or directory listings. Real implementations must handle JAR files, modules, and edge cases.
+or directory listings. Real implementations must handle JAR files, modules, and edge cases.
 Libraries like Reflections or Spring's `ClassPathScanningCandidateComponentProvider` handle these
 Complexities.
 
@@ -905,7 +905,7 @@ InvocationHandler handler = (proxy, method, args) -> {
 ### Module System Restrictions (JDK 9+)
 
 The module system restricts reflective access to non-exported packages, affecting deep reflection
-Into JDK internals (e.g., `sun.misc.Unsafe`) and frameworks that access private members of library
+into JDK internals (e.g., `sun.misc.Unsafe`) and frameworks that access private members of library
 Classes. The long-term fix is to use public APIs instead of reaching into internals via reflection.
 
 

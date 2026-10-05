@@ -170,7 +170,7 @@ Safe sequence: $\langle P_3, P_1, P_0, P_4, P_2 \rangle$. The request is **grant
 Sequence of process completions that avoids deadlock.
 
 *Proof.* The safety algorithm constructs an explicit sequence. Each process in the sequence can run
-To completion with the currently available resources plus those released by previously completed
+to completion with the currently available resources plus those released by previously completed
 Processes. If no such sequence exists, there is a set of processes whose combined needs exceed
 Available resources. $\blacksquare$
 

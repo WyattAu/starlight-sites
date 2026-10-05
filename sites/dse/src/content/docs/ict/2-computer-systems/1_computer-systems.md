@@ -505,7 +505,7 @@ $185_{10} = 000110000101_{BCD}$
 
 :::note
 Unicode covers all writing systems but uses more storage. UTF-8 is the most widely used encoding on
-The internet.
+the internet.
 
 ### Image Representation
 
@@ -599,7 +599,7 @@ Accurate representation of the analogue signal. Common values: 8-bit (telephone 
 
 **Nyquist theorem:** To accurately capture a sound with maximum frequency $f_{\max}$ The sampling
 Rate must be at least $2f_{\max}$. Since human hearing ranges up to approximately $20\mathrm{ kHz}$
-The CD sampling rate of $44\,100\mathrm{ Hz}$ is sufficient (Nyquist frequency =
+the CD sampling rate of $44\,100\mathrm{ Hz}$ is sufficient (Nyquist frequency =
 $22\,050\mathrm{ Hz}$).
 
 **File size calculation:**
@@ -864,7 +864,7 @@ Answer:
 (b) Each ASCII character is 1 byte. $1000 \mathrm{ bytes} / 1024 = 0.98 \mathrm{ KB}$.
 
 (c) ASCII only supports 128 characters (English alphabet, digits, basic symbols). Unicode supports
-Over 149 000 characters covering all major writing systems, symbols, and emoji. This makes Unicode
+over 149 000 characters covering all major writing systems, symbols, and emoji. This makes Unicode
 Essential for applications serving users who speak different languages or need special characters.
 
 </details>
@@ -887,7 +887,7 @@ Processes, and enables multitasking.
 
 (b) Virtual memory uses a portion of the hard disk as an extension of RAM. When RAM is full, the OS
 Moves less frequently used data (pages) from RAM to disk (swapping/paging). This allows the system
-To run more programs than would fit in physical RAM, at the cost of slower access to swapped data.
+to run more programs than would fit in physical RAM, at the cost of slower access to swapped data.
 
 (c) **Disk defragmenter:** Rearranges fragmented file data on an HDD so that related data blocks are
 Stored contiguously. This improves read/write performance by reducing disk head movement. (Note:
@@ -926,8 +926,8 @@ End-users.
 (b) Convert $11001100_2$ to hexadecimal.
 
 (c) A bitmap image has dimensions $800 \times 600$ and uses 16-bit colour. Calculate the file size
-In KB. If the image is compressed using a lossless technique with a 3:2 compression ratio, what is
-The compressed file size?
+in KB. If the image is compressed using a lossless technique with a 3:2 compression ratio, what is
+the compressed file size?
 
 Answer:
 
@@ -995,7 +995,7 @@ Answer:
 Fetch phase, it sends control signals to copy the PC value to the MAR and trigger a memory read.
 During decode, it interprets the instruction in the IR and determines which operation to perform.
 During execute, it sends the appropriate control signals to the ALU, registers, or memory to carry
-Out the instruction.
+out the instruction.
 
 (b) The ALU performs all arithmetic calculations (addition, subtraction, multiplication, division)
 And logical operations (AND, OR, NOT, XOR, comparisons). It receives operands from registers,
@@ -1004,7 +1004,7 @@ Specified register.
 
 (c) Registers are necessary because they provide the fastest possible storage access (1 clock
 Cycle), whereas RAM access takes many clock cycles (100+ cycles for L3 cache, even more for RAM). If
-The CPU had to fetch every operand from RAM for every instruction, processing would be impractically
+the CPU had to fetch every operand from RAM for every instruction, processing would be impractically
 Slow. Registers allow the CPU to keep frequently used data (current instruction, memory addresses,
 Intermediate results) immediately accessible, maximising throughput.
 
@@ -1014,7 +1014,7 @@ Intermediate results) immediately accessible, maximising throughput.
 <summary>Question 12: System Performance Factors</summary>
 
 A student claims that a computer with a faster CPU clock speed will always perform better than one
-With a slower clock speed. Evaluate this claim by considering at least three other factors that
+with a slower clock speed. Evaluate this claim by considering at least three other factors that
 Affect system performance.
 
 Answer:

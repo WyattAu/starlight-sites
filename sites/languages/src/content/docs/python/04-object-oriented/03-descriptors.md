@@ -176,7 +176,7 @@ class Property:
 ### cached_property
 
 `functools.cached_property` (Python 3.8+) caches the result of a property on the instance. It is a
-Non-data descriptor:
+non-data descriptor:
 
 ```python
 from functools import cached_property
@@ -282,7 +282,7 @@ print(MathUtils.is_prime(17))         # True
 ```
 
 `staticmethod` is also a descriptor, but a simple one, it just returns the original function
-Without binding:
+without binding:
 
 ```python
 class StaticMethod:
@@ -345,7 +345,7 @@ wsl_list = [WithSlots(i, i) for i in range(100000)]
 
 On CPython 3.12, a slotted instance with two attributes uses ~48 bytes versus ~56 bytes for a
 Regular instance (which includes the `__dict__` overhead). The savings are more significant when you
-Have many instances.
+have many instances.
 
 ### **slots** Rules
 

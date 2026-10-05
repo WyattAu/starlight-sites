@@ -170,7 +170,7 @@ $$
 ### 3.1 Smooth, light pulleys
 
 A smooth, light pulley changes only the **direction** of the tension -- the tension is the same on
-Both sides of the string.
+both sides of the string.
 
 ### 3.2 Worked example: Atwood machine
 
@@ -203,7 +203,7 @@ From (2): $T = 4(g + a) = 4 \times 11.76 = 47.04\;\mathrm{N}$
 
 **Problem.** A particle of mass $8\;\mathrm{kg}$ on a smooth plane inclined at $30^\circ$ is
 Connected by a light inextensible string over a smooth pulley at the top of the plane to a particle
-Of mass $5\;\mathrm{kg}$ hanging freely. Find the acceleration and tension.
+of mass $5\;\mathrm{kg}$ hanging freely. Find the acceleration and tension.
 
 Assuming the $8\;\mathrm{kg}$ mass moves up the plane (we will check this assumption):
 
@@ -423,7 +423,7 @@ $e = 1$ corresponds to a perfectly elastic collision; $e = 0$ to a perfectly ine
 
 **Problem.** Two particles of masses $2\;\mathrm{kg}$ and $3\;\mathrm{kg}$ move towards each other
 With speeds $6\;\mathrm{m\,s^{-1}}$ and $4\;\mathrm{m\,s^{-1}}$ respectively. They collide directly
-With coefficient of restitution $e = 0.5$. Find their velocities after the collision.
+with coefficient of restitution $e = 0.5$. Find their velocities after the collision.
 
 Taking the direction of the $2\;\mathrm{kg}$ particle as positive, $u_1 = 6$, $u_2 = -4$.
 
@@ -469,7 +469,7 @@ Newton's third law pairs must satisfy:
 
 **Common error:** The weight of a book on a table and the normal reaction are **not** a Newton's
 Third law pair. The weight is the gravitational pull of the Earth on the book; the normal reaction
-Is the contact force of the table on the book. The correct pair for the book's weight is the
+is the contact force of the table on the book. The correct pair for the book's weight is the
 Gravitational pull of the book on the Earth.
 
 ### 6.2 Worked example: book on a table in a lift

@@ -43,7 +43,7 @@ There are three broad categories of chemical bonding:
 | Metallic  | Delocalised electron pool | Metal atoms           | Non-directional |
 
 Beyond intramolecular bonds, **intermolecular forces** govern how molecules interact with each
-Other. These are weaker by one to two orders of magnitude but are critical for determining physical
+other. These are weaker by one to two orders of magnitude but are critical for determining physical
 Properties such as melting point, boiling point, and solubility.
 
 **Definition.** The **bond enthalpy** is the average enthalpy change when one mole of a specified
@@ -112,7 +112,7 @@ $$
 ### The Born-Haber Cycle
 
 The Born-Haber cycle is an application of Hess's law that links lattice energy to thermodynamic data
-You can measure experimentally.
+you can measure experimentally.
 
 **Definition.** The **Born-Haber cycle** is a thermochemical cycle that decomposes the formation of
 An ionic solid into a series of sequential steps, allowing calculation of lattice energy from
@@ -140,7 +140,7 @@ $$
 When constructing a Born-Haber cycle diagram, every arrow must be labelled with the correct enthalpy
 Term. The most common error is confusing $\Delta H_{\mathrm{at}}^\circ$ (atomisation of the solid
 Element) with $\Delta H_{\mathrm{sub}}$ (sublimation) -- for metals they are the same quantity, but
-The terminology matters.
+the terminology matters.
 
 ### Physical Properties of Ionic Compounds
 
@@ -195,7 +195,7 @@ Rules for drawing Lewis structures:
 
 :::caution[Common Mistake]
 Hydrogen only needs 2 electrons (duet rule). Beryllium can be stable with 4 electrons, and boron
-With 6. Do not force an octet on these atoms.
+with 6. Do not force an octet on these atoms.
 
 ### Exceptions to the Octet Rule
 
@@ -270,7 +270,7 @@ A **bond dipole** is represented by an arrow pointing towards the more electrone
 Cross at the less electronegative end.
 
 The **molecular dipole moment** ($\mu$) is the vector sum of all individual bond dipoles. A molecule
-Can have polar bonds but be non-polar overall if the bond dipoles cancel by symmetry.
+can have polar bonds but be non-polar overall if the bond dipoles cancel by symmetry.
 
 $$
 \vec{\mu}_{\mathrm{net}} = \sum \vec{\mu}_i
@@ -370,7 +370,7 @@ Intramolecular bonds ( 2--50 kJ/mol vs 150--1000 kJ/mol for covalent bonds).
 
 **Definition.** **London dispersion forces** (also called induced dipole-induced dipole forces or
 Van der Waals forces) arise from temporary, instantaneous dipoles created by the uneven distribution
-Of electrons at any given moment.
+of electrons at any given moment.
 
 Factors affecting London dispersion force strength:
 
@@ -386,7 +386,7 @@ Factors affecting London dispersion force strength:
 ### Dipole-Dipole Forces
 
 Polar molecules have a permanent separation of charge. The positive end of one molecule is attracted
-To the negative end of another.
+to the negative end of another.
 
 **Definition.** **Dipole-dipole forces** are the electrostatic attractions between the positive end
 Of one polar molecule and the negative end of another.
@@ -472,7 +472,7 @@ $$
 $$
 
 This is because lone pairs are held by only one nucleus and occupy more space, while bonding pairs
-Are constrained between two nuclei.
+are constrained between two nuclei.
 
 ### AXnEm Notation
 
@@ -540,7 +540,7 @@ The increasing deviation reflects the increasing number of lone pairs compressin
 | AX$_2$E$_3$ | Linear               | 180$\degree$                      | XeF$_2$ |
 
 In a trigonal bipyramidal arrangement, lone pairs always occupy **equatorial positions** because
-This minimises repulsion (equatorial positions have two 90$\degree$ interactions vs three
+this minimises repulsion (equatorial positions have two 90$\degree$ interactions vs three
 90$\degree$ interactions for axial positions).
 
 #### 6 Electron Domains
@@ -552,7 +552,7 @@ This minimises repulsion (equatorial positions have two 90$\degree$ interactions
 | AX$_4$E$_2$ | Square planar    | 90$\degree$     | XeF$_4$ |
 
 In octahedral geometry, all positions are equivalent. Lone pairs occupy positions 180$\degree$ apart
-To maximise separation.
+to maximise separation.
 
 ### Polarity Prediction from Geometry
 
@@ -681,7 +681,7 @@ $$
 ### Benzene (C$_6$H$_6$)
 
 Benzene has two Kekule structures with alternating single and double bonds. The actual structure
-Has:
+has:
 
 - Six equivalent C-C bonds with bond order 1.5
 - All bond lengths identical: 140 pm (between 134 pm for C=C and 154 pm for C-C)
@@ -1057,7 +1057,7 @@ $$
 ### Question 7: MO Theory (HL, 5 marks)
 
 (a) Draw the molecular orbital energy level diagram for O$_2$. Indicate the electron configuration
-And label all orbitals. (3 marks)
+and label all orbitals. (3 marks)
 
 **Markscheme:**
 
@@ -1263,7 +1263,7 @@ In $\mathrm{MgO}$ Both ions are doubly charged ($\mathrm{Mg}^{2+}$ and $\mathrm{
 $|z^+| \cdot |z^-| = 2 \times 2 = 4$. In $\mathrm{NaCl}$ Both ions are singly charged
 ($\mathrm{Na}^+$ and $\mathrm{Cl}^-$), so $|z^+| \cdot |z^-| = 1 \times 1 = 1$. The electrostatic
 Attraction is approximately four times stronger for $\mathrm{MgO}$. Additionally, $\mathrm{O}^{2-}$
-Is smaller than $\mathrm{Cl}^-$ Further increasing the lattice energy.
+is smaller than $\mathrm{Cl}^-$ Further increasing the lattice energy.
 
 </details>
 
@@ -1281,7 +1281,7 @@ Answers using VSEPR theory.
 **$\mathrm{BrF}_3$:** $\mathrm{Br}$ has 7 valence electrons, each $\mathrm{F}$ contributes 1 bonding
 Pair. Total domains = 3 bonding pairs + 2 lone pairs = 5 domains. This is
 $\mathrm{AX}_3\mathrm{E}_2$ (T-shaped). The bond dipoles do not cancel due to the asymmetric shape
-And lone pairs, so $\mathrm{BrF}_3$ is **polar**.
+and lone pairs, so $\mathrm{BrF}_3$ is **polar**.
 
 **$\mathrm{XeF}_4$:** $\mathrm{Xe}$ has 8 valence electrons, each $\mathrm{F}$ contributes 1 bonding
 Pair. Total domains = 4 bonding pairs + 2 lone pairs = 6 domains. The lone pairs occupy positions
@@ -1305,7 +1305,7 @@ Molar mass.
 $\mathrm{H}_2\mathrm{O}$ can form extensive hydrogen bonding because oxygen is highly
 Electronegative and has two lone pairs. Each water molecule can form up to four hydrogen bonds,
 Creating a strong three-dimensional network. $\mathrm{H}_2\mathrm{S}$ cannot form hydrogen bonds
-Because sulfur is not electronegative enough (EN = 2.6 vs O = 3.5). $\mathrm{H}_2\mathrm{S}$
+because sulfur is not electronegative enough (EN = 2.6 vs O = 3.5). $\mathrm{H}_2\mathrm{S}$
 Molecules are held together only by weaker dipole-dipole interactions and London dispersion forces.
 The hydrogen bonding in water requires significantly more energy to overcome, resulting in a much
 Higher boiling point.

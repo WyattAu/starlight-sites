@@ -59,7 +59,7 @@ Find the domain and range of $f(x) = \sqrt{4 - x^2}$.
 Domain: $4 - x^2 \geqslant 0 \implies x^2 \leqslant 4 \implies -2 \leqslant x \leqslant 2$.
 
 Range: Since $4 - x^2$ ranges from $0$ (at $x = \pm 2$) to $4$ (at $x = 0$), and $\sqrt{\cdot}$ is
-Non-negative: $\mathrm{range}(f) = [0, 2]$.
+non-negative: $\mathrm{range}(f) = [0, 2]$.
 
 ---
 

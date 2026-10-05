@@ -23,11 +23,11 @@ categories:
 ## Alkenes
 
 Alkenes are unsaturated hydrocarbons containing at least one C=C double bond. The general formula
-For acyclic alkenes with one double bond is $\mathrm{C}_n\mathrm{H}_{2n}$. The C=C bond consists of
-One $\sigma$ bond (formed by $sp^2$--$sp^2$ head-on overlap) and one $\pi$ bond (formed by sideways
+for acyclic alkenes with one double bond is $\mathrm{C}_n\mathrm{H}_{2n}$. The C=C bond consists of
+one $\sigma$ bond (formed by $sp^2$--$sp^2$ head-on overlap) and one $\pi$ bond (formed by sideways
 Overlap of unhybridised $p$ orbitals). The $\pi$ bond is weaker than the $\sigma$ bond
 ($\approx 268\,\mathrm{kJ/mol}$ vs $\approx 347\,\mathrm{kJ/mol}$ for a C--C $\sigma$ bond) and is
-The primary site of reactivity.
+the primary site of reactivity.
 
 ## Structure and Properties
 
@@ -92,8 +92,8 @@ $$
 ### Markovnikov's Rule
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon of the double bond
-That already has the greater number of hydrogen atoms. Equivalently: the electrophile adds to the
-Less substituted carbon, and the nucleophile adds to the more substituted carbon.
+that already has the greater number of hydrogen atoms. Equivalently: the electrophile adds to the
+less substituted carbon, and the nucleophile adds to the more substituted carbon.
 
 Markovnikov's rule is a consequence of carbocation stability. The more substituted carbocation
 (tertiary $>$ secondary $>$ primary $>$ methyl) is lower in energy and therefore forms
@@ -110,7 +110,7 @@ $$
 $$
 
 The hydrogen adds to the less substituted carbon (the $=\mathrm{CH}_2$ carbon, which already has
-More hydrogens), producing a tertiary carbocation intermediate that is then attacked by
+more hydrogens), producing a tertiary carbocation intermediate that is then attacked by
 $\mathrm{Cl}^-$. The product is 2-chloro-2-methylpropane (tert-butyl chloride).
 
 ### Addition of Sulphuric Acid
@@ -148,13 +148,13 @@ Carbocation. The second $\mathrm{Br}^-$ then attacks the bromonium ion from the 
 Giving anti addition (stereospecific trans addition).
 
 The bromonium ion mechanism explains the observed stereospecificity. For cyclic alkenes, this means
-The two bromine atoms end up on opposite faces of the ring (anti addition), which would not be the
+the two bromine atoms end up on opposite faces of the ring (anti addition), which would not be the
 Case with a free carbocation intermediate.
 
 ## Addition Polymerisation
 
 Alkenes with a C=C double bond can undergo addition polymerisation, in which the double bond opens
-And monomer units link together to form a long-chain polymer.
+and monomer units link together to form a long-chain polymer.
 
 ### General Equation
 
@@ -163,7 +163,7 @@ N\,\mathrm{CH}_2=\mathrm{CHR} \to \mathrm{--}(\mathrm{CH}_2\mathrm{CHR})_n\mathr
 $$
 
 The repeating unit is enclosed in parentheses with the subscript $n$. The double bond is consumed in
-The polymerisation.
+the polymerisation.
 
 ### Key Polymers
 
@@ -209,7 +209,7 @@ Bromine water is the standard test for C=C double bonds:
 - If the solution decolourises (turns colourless), a C=C double bond is present.
 
 The reaction is the addition of $\mathrm{Br}_2$ across the double bond, as described above. Alkanes
-Do not react with bromine water at room temperature (they require UV light for radical
+do not react with bromine water at room temperature (they require UV light for radical
 Substitution).
 
 ## Stereochemistry of Alkenes
@@ -422,7 +422,7 @@ The bromide Ion then attacks this tertiary carbocation to give 2-bromo-2-methylb
 <summary>Problem 2</summary>
 
 A sample of poly(propene) has an average chain length of $n = 5000$. Calculate the molecular mass of
-One average chain. The molar mass of the propene monomer ($\mathrm{C}_3\mathrm{H}_6$) is
+one average chain. The molar mass of the propene monomer ($\mathrm{C}_3\mathrm{H}_6$) is
 $42.08\,\mathrm{g/mol}$.
 
 **Solution:**

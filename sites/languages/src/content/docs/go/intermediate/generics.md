@@ -22,7 +22,7 @@ categories:
 
 Go 1.18 (released March 2022) added generics via type parameters. Generics allow you to write
 Functions and types that abstract over different concrete types while maintaining full type safety
-At compile time.
+at compile time.
 
 ## Type Parameters
 
@@ -276,7 +276,7 @@ func (s *Stack[T]) Filter(predicate func(T) bool) *Stack[T] {
 ```
 
 Note: methods cannot introduce new type parameters that are not on the receiver. All type parameters
-Must be declared on the type.
+must be declared on the type.
 
 ## Instantiation
 

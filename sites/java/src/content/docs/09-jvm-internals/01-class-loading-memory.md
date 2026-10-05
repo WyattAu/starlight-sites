@@ -21,9 +21,9 @@ categories: ["java"]
 
 The JVM uses a hierarchical class loading architecture with parent-delegation. When a class loader
 Receives a request to load a class, it first delegates the request to its parent. Only if the parent
-Cannot find the class does the child attempt to load it. This ensures that core JDK classes (like
+cannot find the class does the child attempt to load it. This ensures that core JDK classes (like
 `java.lang.Object`) are always loaded by the bootstrap class loader, preventing a malicious class
-From masquerading as a trusted type.
+from masquerading as a trusted type.
 
 ```
 Bootstrap Class Loader (null)
@@ -120,12 +120,12 @@ Class&lt;?&gt; cls = Class.forName("com.example.Handler", false, getClassLoader(
 
 JDBC drivers use `Class.forName()` to register themselves via static initializers. Modern JDBC (Java
 6+) uses the `ServiceLoader` mechanism instead, making explicit `Class.forName()` calls unnecessary
-In most cases.
+in most cases.
 
 ### Lazy Loading and Linking
 
 Classes are loaded lazily: the JVM does not load all classes at startup. A class is loaded when it
-Is first actively used (instantiation, static field access, static method invocation, reflection).
+is first actively used (instantiation, static field access, static method invocation, reflection).
 The process has three phases:
 
 1. **Loading**: Read the `.class` file bytes and create a `java.lang.Class` object.
@@ -135,7 +135,7 @@ The process has three phases:
    assignments.
 
 Verification catches malformed class files, stack overflow attacks, and type safety violations
-Before any code executes. This is why the JVM is inherently safer than languages that load and
+before any code executes. This is why the JVM is inherently safer than languages that load and
 Execute native code directly.
 
 ## JVM Memory Model
@@ -241,13 +241,13 @@ Associated with it runs during GC, but there is no guarantee of timely cleanup).
 
 Most objects die young. Empirical measurements show that the vast majority of objects (often 90%+)
 Are allocated and become unreachable before surviving even a single GC cycle. Only a small fraction
-Of objects are long-lived (caches, connection pools, singletons). The generational hypothesis is the
+of objects are long-lived (caches, connection pools, singletons). The generational hypothesis is the
 Foundational assumption behind all modern JVM garbage collectors.
 
 ### GC Roots
 
 Garbage collection starts from GC roots -- objects that are always reachable. Anything not reachable
-From a GC root is garbage. GC roots include:
+from a GC root is garbage. GC roots include:
 
 - Local variables on the stack of live threads
 - Static fields of loaded classes
@@ -256,7 +256,7 @@ From a GC root is garbage. GC roots include:
 - Objects referenced by `Finalizer` or `ReferenceQueue`
 
 The marking phase traces the object graph from GC roots, marking every reachable object. Anything
-Not marked is garbage.
+not marked is garbage.
 
 ### Mark-Sweep-Compact
 
@@ -305,8 +305,8 @@ java -XX:+UseParallelGC -XX:ParallelGCThreads=4 MyApp
 ### G1 GC (Garbage-First)
 
 Default since Java 9. Divides the heap into equal-sized regions (default 2048 regions, each ~2 MB
-For a 4 GB heap). G1 tracks garbage density per region and prioritizes collecting regions with the
-Most garbage first (hence "garbage-first"). It can achieve relatively short pause times
+for a 4 GB heap). G1 tracks garbage density per region and prioritizes collecting regions with the
+most garbage first (hence "garbage-first"). It can achieve relatively short pause times
 (configurable target, default 200 ms) while maintaining good throughput.
 
 ```bash
@@ -329,14 +329,14 @@ java -XX:+UseZGC MyApp  # Default since JDK 21 for server-class machines
 ```
 
 ZGC performs compaction concurrently using load barriers (read barriers that check if an object has
-Been moved). The overhead is a slight increase in mutator CPU usage, but the near-zero pause times
+been moved). The overhead is a slight increase in mutator CPU usage, but the near-zero pause times
 Make it ideal for latency-sensitive applications.
 
 ### Shenandoah
 
 Similar goals to ZGC but uses a different algorithm. Developed by Red Hat. Uses Brooks pointers
 (forwarding pointers stored alongside object references) for concurrent compaction. Pause times are
-Also sub-millisecond.
+also sub-millisecond.
 
 ```bash
 java -XX:+UseShenandoahGC MyApp
@@ -356,7 +356,7 @@ Do not use CMS in new code. Use G1, ZGC, or Shenandoah.
 Before Java 8, class metadata was stored in PermGen, a fixed-size region of the heap. `String`
 Literals were also stored in PermGen (in the string pool). PermGen had a fixed maximum size
 (`-XX:MaxPermSize`), and `OutOfMemoryError: PermGen` was a common failure mode for applications with
-Many classes.
+many classes.
 
 Java 8 replaced PermGen with Metaspace:
 
@@ -493,7 +493,7 @@ Total: reserved=5000MB, committed=1200MB
 ```
 
 This is invaluable for diagnosing native memory leaks, especially in containerized environments
-Where the JVM's total memory usage must stay within cgroup limits.
+where the JVM's total memory usage must stay within cgroup limits.
 
 ## Common Pitfalls
 
@@ -506,7 +506,7 @@ Generation.
 ### GC Pause Spikes with G1
 
 If `MaxGCPauseMillis` is set too aggressively (e.g., 10 ms), G1 may not be able to meet the target
-And will work harder (more frequent young GCs, earlier concurrent marking cycles), potentially
+and will work harder (more frequent young GCs, earlier concurrent marking cycles), potentially
 Increasing total GC overhead. Start with the default (200 ms) and adjust based on measured pause
 Times.
 
@@ -539,7 +539,7 @@ Critical paths.
 
 The module system adds a layer of access control on top of the class loader delegation model. Each
 Module declares which packages it exports and which modules it requires. The module system interacts
-With class loading in two ways:
+with class loading in two ways:
 
 1. **Readable modules**: A class in module A can only access classes in module B if A `requires` B
    (or B is in the boot layer).
@@ -589,7 +589,7 @@ Amount of garbage in each region and prioritizes collecting regions with the hig
 
 **Young GC** (mixed with old regions): When Eden fills up, G1 copies live objects from Eden and
 Selected survivor regions into new survivor or old regions. The selected old regions are those with
-The most reclaimable space ("garbage-first").
+the most reclaimable space ("garbage-first").
 
 **Concurrent marking**: G1 runs a concurrent marking phase to identify live objects across the
 Entire heap. This phase runs while the application executes. It uses snapshot-at-the-beginning
@@ -617,7 +617,7 @@ Pointers"):
 These colored pointers allow ZGC to perform concurrent marking and relocation without stopping
 Application threads. When the GC relocates an object, it updates the forwarding pointer in the old
 Location. Application threads that read the old location see a "load barrier" that checks the color
-And either returns the old location (if not yet relocated) or follows the forwarding pointer (if
+and either returns the old location (if not yet relocated) or follows the forwarding pointer (if
 Relocated). This is transparent to the application -- the barrier is inserted by the JIT at every
 Object load.
 

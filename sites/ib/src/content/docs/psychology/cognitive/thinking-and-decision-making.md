@@ -18,7 +18,7 @@ description: "The study of thinking and decision making examines how people reas
 ## Introduction
 
 The study of thinking and decision making examines how people reason, judge, and choose. Research in
-This area has revealed that human thinking is subject to systematic biases and heuristics -- mental
+this area has revealed that human thinking is subject to systematic biases and heuristics -- mental
 Shortcuts that are often useful but can lead to predictable errors. This research has had
 Far-reaching implications for economics, law, medicine, and public policy, and was recognised by the
 Award of the Nobel Prize in Economics to Daniel Kahneman in 2002.
@@ -45,7 +45,7 @@ Probability of dying in a car accident is far higher (approximately 1 in 100 for
 Driving versus approximately 1 in 11 million for a single flight).
 
 Tversky and Kahneman (1973) demonstrated the availability heuristic by asking participants whether
-More words in English begin with the letter "K" or have "K" as the third letter. Most participants
+more words in English begin with the letter "K" or have "K" as the third letter. Most participants
 Judged that more words begin with "K," but in fact approximately twice as many words have "K" as the
 Third letter. Words beginning with "K" are more retrieved from memory (because we search for Words
 by their first letter), making them more "available."
@@ -62,7 +62,7 @@ Such as media coverage, emotional salience, and personal experience.
 The representativeness heuristic is the tendency to judge the probability that an object or event
 Belongs to a category based on how similar (representative) it is to the typical member of that
 Category. People tend to ignore base rates (the actual statistical frequencies) and focus instead on
-The similarity between the specific case and the category prototype.
+the similarity between the specific case and the category prototype.
 
 **The Linda problem (Tversky and Kahneman, 1983):**
 
@@ -75,7 +75,7 @@ Participants were then asked which was more probable:
 (A) Linda is a bank teller. (B) Linda is a bank teller and is active in the feminist movement.
 
 Approximately 85% of participants chose option (B). This is a conjunction fallacy: the probability
-Of a conjunction (A and B) can never be greater than the probability of either component alone (A).
+of a conjunction (A and B) can never be greater than the probability of either component alone (A).
 Linda's description is more representative of a feminist bank teller than of a bank teller in
 General, leading participants to violate the laws of probability.
 
@@ -93,7 +93,7 @@ random and irrelevant number significantly influenced participants' numerical es
 
 **Mechanism:** Anchoring occurs through at least two processes: (1) insufficient adjustment from the
 Anchor, and (2) selective activation of anchor-consistent information. The effect is robust across
-Many domains and is difficult to eliminate, even when participants are explicitly warned about it.
+many domains and is difficult to eliminate, even when participants are explicitly warned about it.
 
 ## Cognitive Biases
 
@@ -107,13 +107,13 @@ Evidence.
 Rule and were asked to discover the rule by generating their own three-number sequences and
 Receiving feedback on whether each sequence conformed to the rule. Most participants tested
 Sequences consistent with their initial hypothesis (e.g., "increasing even numbers") and announced
-The rule after receiving only confirming evidence. Very few participants tested sequences designed
-To disconfirm their hypothesis (e.g., 10-7-4 or 3-1-5). The actual rule was "any three Increasing
+the rule after receiving only confirming evidence. Very few participants tested sequences designed
+to disconfirm their hypothesis (e.g., 10-7-4 or 3-1-5). The actual rule was "any three Increasing
 numbers."
 
 **Implications:** Confirmation bias contributes to the persistence of false beliefs, stereotyping,
 And poor decision making in scientific, medical, and legal contexts. It is particularly problematic
-Because people are generally unaware of the bias and believe that their reasoning is objective.
+because people are generally unaware of the bias and believe that their reasoning is objective.
 
 ### Hindsight Bias
 
@@ -200,7 +200,7 @@ Monitor and correct System 1's output. This failure is more likely when:
 Prospect theory is a descriptive model of decision making under risk that challenges the expected
 Utility theory of classical economics. Expected utility theory assumes that people are rational
 Agents who evaluate decisions based on the expected value (probability multiplied by outcome) and
-Are risk-neutral. Prospect theory demonstrates that people systematically violate these assumptions.
+are risk-neutral. Prospect theory demonstrates that people systematically violate these assumptions.
 
 ### Key Principles of Prospect Theory
 
@@ -216,7 +216,7 @@ Asymmetry is reflected in the value function, which is steeper for losses than f
 
 **3. Diminishing sensitivity:** The marginal psychological impact of each additional unit of gain
 (or loss) decreases as the magnitude of the gain (or loss) increases. The difference between USD 0
-And USD 100 feels larger than the difference between USD 900 and USD 1000.
+and USD 100 feels larger than the difference between USD 900 and USD 1000.
 
 **4. Probability weighting:** People do not evaluate probabilities linearly. Small probabilities are
 Overweighted (leading to risk-seeking behaviour for gains and risk-averse behaviour for losses --

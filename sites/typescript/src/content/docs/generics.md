@@ -22,8 +22,8 @@ categories: [TypeScript]
 
 Generics allow functions, interfaces, and type aliases to operate over a range of types rather than
 A single fixed type. A generic function declares one or more **type parameters** in angle brackets
-After the function name. These type parameters are placeholders for concrete types that are supplied
-At the call site.
+after the function name. These type parameters are placeholders for concrete types that are supplied
+at the call site.
 
 ```ts
 function identity<T>(value: T): T {
@@ -250,7 +250,7 @@ type T2 = NonNullable<string | null | undefined>;
 ```
 
 `Exclude<T, U>` removes from `T` those types that are assignable to `U`. `Extract<T, U>` extracts
-From `T` those types that are assignable to `U`. `NonNullable<T>` removes `null` and `undefined`
+from `T` those types that are assignable to `U`. `NonNullable<T>` removes `null` and `undefined`
 From `T`.
 
 ### ReturnType, Parameters
@@ -468,7 +468,7 @@ on('not-an-event', () => {});
 ## Variance
 
 Variance describes how subtyping relationships between type arguments affect subtyping relationships
-Between generic types. TypeScript uses **structural typing** with specific variance rules.
+between generic types. TypeScript uses **structural typing** with specific variance rules.
 
 ### Covariance
 

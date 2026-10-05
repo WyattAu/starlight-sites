@@ -237,7 +237,7 @@ Factors affecting strength:
 ### Dipole-Dipole Forces
 
 Polar molecules have permanent dipoles. The positive end of one molecule attracts the negative end
-Of another:
+of another:
 
 $$
 \mathrm{HCl}\cdots\mathrm{HCl}
@@ -287,7 +287,7 @@ Density than liquid water.
 ### Features
 
 A phase diagram shows the conditions of temperature and pressure at which each phase of a substance
-Is stable.
+is stable.
 
 Key features:
 
@@ -311,8 +311,8 @@ Key features:
 ### Water's Phase Diagram
 
 The solid--liquid boundary for water has a **negative slope** (unlike most substances). This is
-Because ice is less dense than liquid water, so increasing pressure favours the denser liquid phase
-And **lowers** the melting point.
+because ice is less dense than liquid water, so increasing pressure favours the denser liquid phase
+and **lowers** the melting point.
 
 ### $\mathrm{CO}_2$ Phase Diagram
 
@@ -381,7 +381,7 @@ Bonding in propan-1-ol dominates and requires more energy to overcome.
 <summary>Problem 2</summary>
 
 A gas occupies $5.00\mathrm{ L}$ at $2.00\mathrm{ atm}$ and $300\mathrm{ K}$. Calculate the volume
-At $5.00\mathrm{ atm}$ and $400\mathrm{ K}$.
+at $5.00\mathrm{ atm}$ and $400\mathrm{ K}$.
 
 **Solution:**
 
@@ -407,12 +407,12 @@ Is higher than that of $\mathrm{NH}_3$ despite both having hydrogen bonding.
 **Solution:**
 
 $\mathrm{NH}_3$ vs $\mathrm{PH}_3$: $\mathrm{NH}_3$ forms hydrogen bonds (H bonded to N), which are
-Much stronger than the dipole-dipole and dispersion forces in $\mathrm{PH}_3$ (P is not
+much stronger than the dipole-dipole and dispersion forces in $\mathrm{PH}_3$ (P is not
 Electronegative enough for H-bonding).
 
 $\mathrm{H}_2\mathrm{O}$ vs $\mathrm{NH}_3$: Each water molecule can form up to **two** hydrogen
 Bonds (two O--H donors and two lone pair acceptors), whereas each $\mathrm{NH}_3$ molecule can form
-Only **one** hydrogen bond (one N--H donor, but the lone pair on N is partly delocalised).
+only **one** hydrogen bond (one N--H donor, but the lone pair on N is partly delocalised).
 Additionally, water forms a more extensive three-dimensional hydrogen-bond network.
 
 </details>

@@ -38,7 +38,7 @@ Oppositely charged ions releases energy.
 
 **Lattice dissociation enthalpy:** The reverse process -- the enthalpy change when one mole of an
 Ionic solid is separated into its gaseous ions. This is always endothermic and equal in magnitude
-But opposite in sign to the lattice enthalpy of formation.
+but opposite in sign to the lattice enthalpy of formation.
 
 ### Terminology Convention
 
@@ -191,7 +191,7 @@ $$
 
 The enthalpy of solution of NaCl is approximately $+1\,\mathrm{kJ/mol}$ (slightly endothermic),
 Which is consistent with the observation that dissolving NaCl in water causes a very slight decrease
-In temperature.
+in temperature.
 
 ## Theoretical Lattice Enthalpy: The Born-Lande Equation
 
@@ -219,7 +219,7 @@ Where:
 The Born-Lande equation has the form of a Coulombic attraction term multiplied by a repulsive
 Correction factor $(1 - 1/n)$. The attraction between ions is proportional to $z^+ z^- / r_0$
 (Coulomb's law). The Born exponent accounts for short-range Pauli repulsion between electron clouds
-At close distances.
+at close distances.
 
 ### Worked Example: Theoretical Lattice Enthalpy of NaCl
 
@@ -270,7 +270,7 @@ Lattice enthalpy.
 ### Effect of Ion Size
 
 For ions of the same charge, lattice enthalpy becomes more exothermic as ionic radii decrease (ions
-Can approach more closely, increasing Coulombic attraction):
+can approach more closely, increasing Coulombic attraction):
 
 $$
 \mathrm{NaCl}\,(-788) \gt \mathrm{NaBr}\,(-740) \gt \mathrm{NaI}\,(-704)
@@ -358,16 +358,16 @@ The experimental lattice enthalpy of $\mathrm{AgCl}$ is $-905\,\mathrm{kJ/mol}$ 
 **Solution:**
 
 The experimental value is more exothermic than the theoretical value. This is an unusual case. For
-Most compounds where covalent character is present, the experimental value is less exothermic.
+most compounds where covalent character is present, the experimental value is less exothermic.
 However, for $\mathrm{Ag}^+$ The $d^{10}$ electronic configuration leads to additional effects: the
 $d$ electrons provide a degree of covalent bonding that actually strengthens the lattice relative to
-The purely ionic model. The polarisation of $\mathrm{Cl}^-$ by $\mathrm{Ag}^+$ introduces some
+the purely ionic model. The polarisation of $\mathrm{Cl}^-$ by $\mathrm{Ag}^+$ introduces some
 Covalent character, but the covalent contribution to the bond energy (which is not captured by the
 Born-Lande equation) means the actual bond is stronger than predicted by the purely electrostatic
 Model.
 
 Actually, upon closer examination: when the experimental lattice enthalpy is more exothermic than
-The theoretical value, it indicates that additional bonding interactions exist beyond the purely
+the theoretical value, it indicates that additional bonding interactions exist beyond the purely
 Ionic model -- specifically, some degree of covalent bonding (orbital overlap) that the Born-Lande
 Equation does not account for.
 

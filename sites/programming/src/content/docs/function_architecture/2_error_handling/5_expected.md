@@ -245,7 +245,7 @@ Subsequent `and_then` and `transform` calls without executing their callbacks.
 
 Unlike Rust, C++ does not force you to handle the error case. Calling `.value()` on an error-holding
 `expected` is undefined behavior, not a panic. This is consistent with C++'s philosophy of trusting
-The programmer but places the burden of correctness on the caller.
+the programmer but places the burden of correctness on the caller.
 
 ## 5.5 Factory Pattern with `std::expected`
 

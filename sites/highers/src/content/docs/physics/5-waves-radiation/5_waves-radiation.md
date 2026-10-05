@@ -36,7 +36,7 @@ Water waves).
 ### Why the Distinction Between Transverse and Longitudinal Matters
 
 Only transverse waves can be polarised (the oscillations restricted to a single plane). Sound cannot
-Be polarised because it is longitudinal. This fact was historically important in establishing that
+be polarised because it is longitudinal. This fact was historically important in establishing that
 Light is a transverse wave.
 
 **Key Wave Quantities:**
@@ -131,9 +131,9 @@ Maximum diffraction occurs when the gap width is approximately equal to the wave
 ### Why Diffraction Depends on Wavelength Relative to Gap Size
 
 By Huygens' principle, every point on a wavefront acts as a source of secondary wavelets. If the gap
-Is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
+is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
 Edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
-From all parts of the gap overlap significantly, producing broad spreading.
+from all parts of the gap overlap significantly, producing broad spreading.
 
 ### Interference
 
@@ -171,7 +171,7 @@ d\sin\theta = n\lambda
 $$
 
 Where $d$ is the grating spacing, $\theta$ is the angle to the $n$ Th order maximum, and $\lambda$ is
-The wavelength.
+the wavelength.
 
 **Example:** A diffraction grating has 500 lines per mm. Light of wavelength $580 \mathrm{ nm$ is
 Incident normally. Find the angle of the second-order maximum.
@@ -227,7 +227,7 @@ $$
 ### Why the Decibel Scale Is Logarithmic
 
 The human ear can detect sounds over a range of intensities spanning $10^{12}$ (from the threshold
-Of hearing at $10^{-12}$ W/m$^2$ to the threshold of pain at $1$ W/m$^2$). A linear scale would
+of hearing at $10^{-12}$ W/m$^2$ to the threshold of pain at $1$ W/m$^2$). A linear scale would
 Require numbers ranging from 1 to a trillion. The logarithmic decibel scale compresses this range to
 0--120 dB, which is far more manageable.
 
@@ -260,7 +260,7 @@ Concrete to absorb.
 There is a trade-off: alpha particles are the most ionising but the least penetrating, while gamma
 Rays are the least ionising but the most penetrating. This makes sense physically: a highly ionising
 Particle loses energy rapidly (short range), while a weakly ionising particle retains its energy
-Over a longer distance.
+over a longer distance.
 
 ### Radioactive Decay
 
@@ -306,8 +306,8 @@ Or more : after 3 half-lives, $A = 800 / 2^3 = 100 \mathrm{ Bq$.
 Each nucleus decays independently with a fixed probability per unit time. It is impossible to
 Predict when a specific nucleus will decay. The decay law $N = N_0 e^{-\lambda t}$ describes the
 _average_ behaviour of a large number of nuclei, not the behaviour of any individual nucleus. This
-Is analogous to throwing dice: you cannot predict the outcome of a single throw, but you can predict
-The statistical distribution of many throws.
+is analogous to throwing dice: you cannot predict the outcome of a single throw, but you can predict
+the statistical distribution of many throws.
 
 ### Nuclear Equations
 
@@ -343,10 +343,10 @@ $$
 As nuclei get larger, the binding energy per nucleon increases (because the strong nuclear force
 Binds neighbouring nucleons). However, the strong force has a very short range, so nucleons on
 Opposite sides of a large nucleus do not attract each other, while the repulsive Coulomb force
-Between protons acts over the entire nucleus. Beyond iron-56, the Coulomb repulsion dominates, and
+between protons acts over the entire nucleus. Beyond iron-56, the Coulomb repulsion dominates, and
 Adding more nucleons actually decreases the binding energy per nucleon. This is why nuclei heavier
-Than iron can release energy through fission, and nuclei lighter than iron can release energy
-Through fusion.
+than iron can release energy through fission, and nuclei lighter than iron can release energy
+through fusion.
 
 ### Background Radiation
 
@@ -454,7 +454,7 @@ flowchart TD
 
 Light of wavelength $550 \mathrm{ nm$ passes through a slit of width $0.02 \mathrm{ mm$. Find the
 Angular width of the central maximum and the intensity of the first secondary maximum relative to
-The central maximum.
+the central maximum.
 
 **Central maximum half-width:**
 
@@ -486,7 +486,7 @@ The first secondary maximum has about 4.5% of the intensity of the central maxim
 ## 12. Worked Example: Diffraction Grating with White Light
 
 A diffraction grating with 500 lines/mm is illuminated with white light. Find the angular width of
-The first-order spectrum.
+the first-order spectrum.
 
 The grating spacing: $d = \frac{1}{500 \times 10^3} = 2 \times 10^{-6} \mathrm{ m$.
 
@@ -501,7 +501,7 @@ The angular width of the first-order spectrum is $20.5^{\circ} - 11.5^{\circ} = 
 
 The second-order spectra overlap: the second-order violet ($\sin\theta = 0.400$
 $\theta = 23.6^{\circ}$) overlaps with the first-order red ($\theta = 20.5^{\circ}$). This limits
-The useful number of orders for spectroscopy.
+the useful number of orders for spectroscopy.
 
 ## 13. Radioactive Decay: Extended Analysis
 
@@ -520,7 +520,7 @@ $$
 
 After 100 years, about 9% of the original strontium-90 remains. This is why strontium-90 is so
 Hazardous in nuclear fallout: it has a long enough half-life to persist for decades, yet decays fast
-Enough to deliver significant radiation dose.
+enough to deliver significant radiation dose.
 
 ### Activity and Mass Relationship
 
@@ -552,7 +552,7 @@ $A = \lambda N = 4.17 \times 10^{-9} \times 5.018 \times 10^{19} = 2.09 \times 1
 ### Worked Example: Decibel Addition
 
 Two sound sources produce intensity levels of $70 \mathrm{ dB$ and $73 \mathrm{ dB$ at a point. Find
-The total intensity level.
+the total intensity level.
 
 $$
 I_1 = I_0 \times 10^{70/10} = 10^{-12} \times 10^7 = 10^{-5} \mathrm{ W/m^2
@@ -571,7 +571,7 @@ $$
 $$
 
 Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$ Not $143 \mathrm{ dB$. Decibels
-Do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
+do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
 Source of equal intensity adds 3 dB.
 
 ## 15. Summary Table: Wave and Radiation Formulas
@@ -660,7 +660,7 @@ So the second secondary maximum has about $1.6\%$ of the central maximum intensi
 
 :::note
 $\approx 1.6\%$ Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
-In the central maximum.
+in the central maximum.
 :::
 
 ### Example 22: Radioactive Dating
@@ -741,7 +741,7 @@ $+10 \mathrm{ dB$. This Logarithmic behaviour surprises many students.
 ### Pitfall 7: Forgetting the Factor of 2 in Coherent Source Path Difference
 
 For two coherent sources separated by distance $d$ The path difference to a point at angle $\theta$
-Is $d \sin\theta$_not_ $2d \sin\theta$. The factor of 2 only appears in thin film interference Where
+is $d \sin\theta$_not_ $2d \sin\theta$. The factor of 2 only appears in thin film interference Where
 the light traverses the film twice (reflection from top and bottom surfaces).
 
 ### Pitfall 8: Assuming All Nuclear Radiation Is Equally Ionising
@@ -846,7 +846,7 @@ Means:
 
 In a two-source interference experiment, two coherent sources $S_1$ and $S_2$ are $0.8 \mathrm{ mm$
 Apart and emit light of wavelength $580 \mathrm{ nm$. The screen is $1.5 \mathrm{ m$ away. Calculate
-The fringe spacing and the distance from the central maximum to the fifth bright fringe.
+the fringe spacing and the distance from the central maximum to the fifth bright fringe.
 
 **Step 1: Fringe spacing**
 
@@ -873,7 +873,7 @@ Doubling the wavelength doubles the fringe spacing.
 ### Radiation Detection: Geiger-Muller Tube
 
 A GM tube has a dead time of approximately $100 \mathrm{ \mu\mathrm{s$ after each count. This limits
-The maximum count rate:
+the maximum count rate:
 
 $$
 \mathrm{Maximum count rate = \frac{1}{\mathrm{dead time} = \frac{1}{100 \times 10^{-6}} = 10000 \mathrm{ counts/s

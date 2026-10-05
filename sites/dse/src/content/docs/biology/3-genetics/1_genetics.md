@@ -52,7 +52,7 @@ Separation of homologous chromosomes during meiosis I (anaphase I).
 
 Alleles of different genes on different chromosomes assort independently of one another during
 Gamete formation. This occurs because the orientation of one homologous pair on the metaphase plate
-During meiosis I is independent of the orientation of other pairs. This law only holds for genes on
+during meiosis I is independent of the orientation of other pairs. This law only holds for genes on
 Different chromosomes or genes that are far apart on the same chromosome (linked genes that undergo
 Frequent crossing over approximate independent assortment).
 
@@ -63,8 +63,8 @@ Dominant; the allele that is masked is recessive.
 
 :::note
 Complete dominance, (c) no gene interaction, and (d) no linkage. Real organisms frequently violate
-One or more of these assumptions. The DSE syllabus expects you to recognise when Mendelian ratios do
-Not hold and to explain why.
+one or more of these assumptions. The DSE syllabus expects you to recognise when Mendelian ratios do
+not hold and to explain why.
 :::
 
 ### Monohybrid Crosses
@@ -88,7 +88,7 @@ A monohybrid cross involves a single pair of contrasting traits.
 **Worked calculation:**
 
 If two carriers of cystic fibrosis (a recessive disorder, Cc) have a child, what is the probability
-That the child will have cystic fibrosis?
+that the child will have cystic fibrosis?
 
 The cross is Cc x Cc. The probability of cc = 1/4 = 25%.
 
@@ -149,7 +149,7 @@ This yields the familiar 9:3:3:1 ratio and is significantly faster on an exam.
 ### The Test Cross
 
 A test cross determines the genotype of an individual showing the dominant phenotype by crossing it
-With a homozygous recessive individual.
+with a homozygous recessive individual.
 
 **If the unknown genotype is homozygous dominant (BB x bb):**
 
@@ -272,7 +272,7 @@ Three alleles exist at the I locus:
 
 :::caution
 Genotype. An individual always carries exactly two alleles. The phrase "multiple alleles" refers to
-The gene pool of the entire population, not to a single organism.
+the gene pool of the entire population, not to a single organism.
 :::
 
 **Worked calculation:**
@@ -281,7 +281,7 @@ A woman with blood group A (whose father was blood group O) has a child with a m
 Group B (whose mother was blood group O). What are the possible blood groups of their child?
 
 The woman is I^A i (her father was ii, so she must carry i). The man is I^B i (his mother was ii, so
-He must carry i).
+he must carry i).
 
 Cross: I^A i x I^B i
 
@@ -369,7 +369,7 @@ Condition). Females need two copies of the recessive allele to express the trait
 
 Haemophilia is an X-linked recessive bleeding disorder caused by a deficiency in clotting factor
 VIII (haemophilia A) or factor IX (haemophilia B). Affected individuals have prolonged bleeding
-After injury because their blood cannot clot properly.
+after injury because their blood cannot clot properly.
 
 **Cross:** Carrier female (X^H X^h) x Normal male (X^H Y)
 
@@ -393,7 +393,7 @@ Key observations:
 
 Red-green colour blindness is another X-linked recessive condition. Affected individuals cannot
 Distinguish between red and green wavelengths of light. The gene codes for opsins (photopigments) in
-The cone cells of the retina.
+the cone cells of the retina.
 
 The inheritance pattern is identical to haemophilia. The cross diagrams use X^N (normal) and X^n
 (colour blind).
@@ -474,7 +474,7 @@ gamete Combinations differ between males and females.
 ### Definition
 
 Epistasis occurs when the expression of one gene is modified or masked by the expression of one or
-More other genes. The gene that masks is the **epistatic gene**; the gene that is masked is the
+more other genes. The gene that masks is the **epistatic gene**; the gene that is masked is the
 **hypostatic gene**.
 
 Epistasis differs from dominance. Dominance is an interaction between alleles at the **same** locus.
@@ -828,7 +828,7 @@ DNA fingerprinting identifies individuals based on their unique DNA pattern.
 
 **Principle:** Non-coding regions of DNA contain **Short Tandem Repeats (STRs)** -- short sequences
 (2-6 base pairs) repeated a variable number of times. The number of repeats at each locus varies
-Between individuals.
+between individuals.
 
 **Process:**
 
@@ -866,7 +866,7 @@ Identification.
 
 A genetically modified organism (GMO) is an organism whose genome has been altered using genetic
 Engineering techniques. This differs from conventional selective breeding because specific genes can
-Be inserted, deleted, or modified precisely.
+be inserted, deleted, or modified precisely.
 
 ### Examples of GMOs
 

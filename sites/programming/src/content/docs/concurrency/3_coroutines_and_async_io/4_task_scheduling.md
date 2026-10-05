@@ -22,13 +22,13 @@ categories:
 ## Task Scheduling and Executors
 
 This section covers the task concept, coroutine-based pipeline processing, async/await patterns
-Across languages, structured concurrency with `when_all`/`when_any`A complete Task class wrapping A
+across languages, structured concurrency with `when_all`/`when_any`A complete Task class wrapping A
 coroutine, and a thread pool executor for scheduling coroutines across threads.
 
 ## Task Concept
 
 A **task** is a coroutine that produces a result asynchronously. Unlike a generator (which produces
-Many values), a task produces exactly one result upon completion. The task coroutine is Lazy, it
+many values), a task produces exactly one result upon completion. The task coroutine is Lazy, it
 does not begin executing until someone calls `resume()` or an executor schedules it.
 
 The minimal interface for a task is:
@@ -256,7 +256,7 @@ Library patterns.
   identifies which task finished first.
 
 The complexity of `when_all` for $n$ tasks is $\mathcal{O}(n)$ in terms of coroutine handles that
-Must be tracked and resumed.
+must be tracked and resumed.
 
 ### `when_all` Implementation
 
@@ -643,7 +643,7 @@ int main() {
 
 :::caution
 Handle: work stealing, priority queues, thread affinity, shutdown semantics, exception aggregation
-Across `when_all`And proper cancellation propagation. Libraries like
+across `when_all`And proper cancellation propagation. Libraries like
 [libunifex](https://github.com/facebookexperimental/libunifex) (now `std::execution` proposal,
 P2300) provide production-grade executors.
 
@@ -662,7 +662,7 @@ The work-stealing algorithm has provably optimal time bounds: the expected execu
 Strict (fork-join) computation with $P$ processors and work $T_1$ is
 $\mathcal{O}(T_1 / P +
 T_{\infty})$, where $T_{\infty}$ is the span (critical path length) [Blumofe
-And Leiserson, 1999].
+and Leiserson, 1999].
 
 ```cpp
 #include <deque>

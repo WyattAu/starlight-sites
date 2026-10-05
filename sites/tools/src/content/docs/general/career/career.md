@@ -112,7 +112,7 @@ Security engineers protect systems from threats:
 
 System design interviews evaluate your ability to design scalable, reliable systems. The interviewer
 Gives you a high-level requirement (e.g., "Design a URL shortener") and expects you to work through
-The design from requirements to implementation.
+the design from requirements to implementation.
 
 **Framework:**
 
@@ -460,7 +460,7 @@ Breadth:
 ### T-Shaped Skills
 
 A T-shaped engineer has deep expertise in one area (the vertical bar) and broad knowledge across
-Many areas (the horizontal bar). Systems engineers should aim for:
+many areas (the horizontal bar). Systems engineers should aim for:
 
 - **Deep:** One specialization (e.g., distributed storage, networking, Kubernetes, security)
 - **Broad:** Working knowledge of Linux, networking, databases, containers, CI/CD, monitoring,
@@ -759,7 +759,7 @@ Before making the transition:
 
 A "Senior" title at a 10-person startup is not equivalent to "Senior" at Google. Focus on building
 Skills and delivering impact, not collecting titles. Your portfolio and demonstrated ability matter
-More than titles when switching companies.
+more than titles when switching companies.
 
 ### Not Building a Professional Network Before You Need It
 
@@ -771,12 +771,12 @@ A network built under pressure is obvious and less effective.
 
 Staying at one company for 5+ years can be valuable for depth, but it limits exposure to different
 Approaches, technologies, and team dynamics. If you have been at the same company for 5+ years and
-Are no longer learning, it may be time to move on.
+are no longer learning, it may be time to move on.
 
 ## SRE Daily Responsibilities
 
 Understanding what Site Reliability Engineering (SRE) looks like day-to-day helps you decide whether
-It is the right career path and prepare accordingly.
+it is the right career path and prepare accordingly.
 
 ### A Typical SRE Day
 
@@ -930,7 +930,7 @@ echo "Per-year equity value: \$$YEARLY_VALUE"
 ## Certification Roadmaps
 
 Certifications can accelerate career progression, particularly when transitioning between companies
-Or domains. They are not a substitute for experience, but they signal commitment and provide
+or domains. They are not a substitute for experience, but they signal commitment and provide
 Structured learning paths.
 
 ### Linux and Infrastructure
@@ -967,7 +967,7 @@ Structured learning paths.
 ## T-Shaped Skills Development
 
 A T-shaped professional has deep expertise in one area (the vertical bar) and broad knowledge across
-Many areas (the horizontal bar). This combination is particularly valuable in systems engineering,
+many areas (the horizontal bar). This combination is particularly valuable in systems engineering,
 Where deep specialization must be balanced with the ability to understand and work with adjacent
 Systems.
 
@@ -1047,7 +1047,7 @@ Security engineering is a high-demand specialization for systems engineers. Tran
 ### The Non-Linear Career
 
 Your career does not have to follow a straight line. Some of the most effective senior engineers
-Have backgrounds in customer support, technical writing, QA, or IT operations. Diverse experience
+have backgrounds in customer support, technical writing, QA, or IT operations. Diverse experience
 Provides perspective that purely technical career paths lack. The most important thing is to keep
 Learning and keep building things.
 

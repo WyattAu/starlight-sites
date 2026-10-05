@@ -395,7 +395,7 @@ $\mathrm{CH_3\mathrm{CHO$: 2 carbons, aldehyde. Name: ethanal.
 ### Naming with Multiple Functional Groups
 
 When multiple functional groups are present, the principal functional group (highest priority) gets
-The suffix. Others are named as prefixes.
+the suffix. Others are named as prefixes.
 
 Priority order (highest first): carboxylic acid, aldehyde, ketone, alcohol, alkene, alkyne, halide.
 
@@ -434,7 +434,7 @@ Stable primary carbocation.
 ### Why Markovnikov's Rule Works
 
 The stability of carbocations follows the order: tertiary > secondary > primary > methyl. This is
-Because alkyl groups are electron-donating (+I effect), stabilising the positive charge by
+because alkyl groups are electron-donating (+I effect), stabilising the positive charge by
 Distributing it. In Markovnikov addition, the hydrogen adds to the carbon with more hydrogens,
 Placing the positive charge on the more substituted (more stable) carbon.
 
@@ -559,7 +559,7 @@ Specific carbonyl compound.
 ### Acidity
 
 Carboxylic acids are weak acids. They are stronger acids than alcohols because the carboxylate anion
-Is stabilised by resonance delocalisation of the negative charge over two oxygen atoms.
+is stabilised by resonance delocalisation of the negative charge over two oxygen atoms.
 
 ### Reactions of Carboxylic Acids
 

@@ -172,7 +172,7 @@ When $|r| \lt 1$, $r^n \to 0$ So $S_n \to \frac{a}{1 - r}$.
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{3}{2^n}$.
 
 Rewrite as $\displaystyle\sum_{n=1}^{\infty} 3\left(\frac{1}{2}\right)^n$. Here $a = \frac{3}{2}$
-And $r = \frac{1}{2}$.
+and $r = \frac{1}{2}$.
 
 $$
 \sum_{n=1}^{\infty} \frac{3}{2^n} = \frac{3/2}{1 - 1/2} = \frac{3/2}{1/2} = 3
@@ -272,7 +272,7 @@ $$
 - Diverges if $p \le 1$
 
 This follows directly from the integral test: $\int_1^{\infty} \frac{dx}{x^p}$ converges if and only
-If $p \gt 1$.
+if $p \gt 1$.
 
 The $p$-series with $p = 1$ is the harmonic series, which diverges. This is the "boundary case" that
 Separates convergence from divergence.
@@ -302,7 +302,7 @@ $$
 - If $L = \infty$ and $\sum b_n$ diverges, then $\sum a_n$ diverges.
 
 The case $0 \lt L \lt \infty$ is the most commonly used: it says the two series have the "same order
-Of magnitude," so they share the same convergence behavior.
+of magnitude," so they share the same convergence behavior.
 :::
 
 :::note[Example]
@@ -381,25 +381,25 @@ Then the alternating series $\displaystyle\sum_{n=1}^{\infty} (-1)^{n-1} a_n$ co
 
 **Intuition:** The partial sums oscillate, but the oscillations shrink because the terms decrease.
 The odd-indexed partial sums $S_1, S_3, S_5, \ldots$ form a decreasing sequence bounded below, and
-The even-indexed partial sums $S_2, S_4, S_6, \ldots$ form an increasing sequence bounded above.
+the even-indexed partial sums $S_2, S_4, S_6, \ldots$ form an increasing sequence bounded above.
 Both converge to the same limit.
 
 ### Alternating Series Estimation Theorem
 
 If $S = \displaystyle\sum_{n=1}^{\infty} (-1)^{n-1} a_n$ is a convergent alternating series, then
-The error in using $S_n$ to approximate $S$ satisfies:
+the error in using $S_n$ to approximate $S$ satisfies:
 
 $$
 |R_n| = |S - S_n| \le a_{n+1}
 $$
 
 That is, the error is bounded by the first omitted term. This is remarkably useful: you can control
-The error by counting terms.
+the error by counting terms.
 :::
 
 :::note[Example]
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
-The sum with error less than $0.001$?
+the sum with error less than $0.001$?
 
 The terms are $a_n = \frac{1}{n}$ Which decrease and approach 0.
 

@@ -16,7 +16,7 @@ Address back to a specific line of C++ source code, variable name, or stack fram
 Requires **Debug Symbols**.
 
 This module analyzes the architecture of symbol formats, the mechanics of mapping source paths, and
-The procedures for attaching debuggers to active processes.
+the procedures for attaching debuggers to active processes.
 
 ## Debug Information Architecture
 
@@ -77,7 +77,7 @@ Produces slightly larger PDBs and may inhibit some optimizations.
 ## 1. LLDB (The LLVM Debugger)
 
 LLDB is the default debugger for macOS (Xcode) and the preferred modern debugger for Linux/Android
-When using Clang. It uses a Clang frontend for expression evaluation, allowing it to understand
+when using Clang. It uses a Clang frontend for expression evaluation, allowing it to understand
 Modern C++ syntax perfectly.
 
 ### Compilation Requirements
@@ -554,13 +554,13 @@ File (`.debug` / `.dSYM` / `.pdb`) alongside the binary or on a symbol server.
 ### 2. Source Path Mismatch in CI Builds
 
 CI builds produce binaries with source paths like `/__w/repo/repo/src/main.cpp`. Your local machine
-Has `/home/user/project/src/main.cpp`. The debugger cannot find the source. Always configure source
+has `/home/user/project/src/main.cpp`. The debugger cannot find the source. Always configure source
 Mapping (`target.source-map` in LLDB, `directory` command in GDB).
 
 ### 3. Mismatched PDB and Binary
 
 On Windows, the PDB is matched to the binary via a GUID embedded in both. If you rebuild the binary
-But the PDB is stale (from a previous build), the debugger will refuse to load the PDB or load
+but the PDB is stale (from a previous build), the debugger will refuse to load the PDB or load
 Incorrect symbols. Always rebuild both together.
 
 ### 4. `-O0` Performance Artifacts

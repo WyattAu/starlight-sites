@@ -510,7 +510,7 @@ Operate?
 | Use case   | Building/campus network            | Internet connectivity                   |
 
 A switch operates at Layer 2, forwarding frames within a single network segment. A router operates
-At Layer 3, making decisions about which network to forward packets to, enabling inter-network
+at Layer 3, making decisions about which network to forward packets to, enabling inter-network
 Communication.
 
 For revision on network security, see
@@ -735,7 +735,7 @@ Gateway `192.168.1.1`. The computer wants to send a packet to `192.168.1.50` and
 <summary>Answer</summary>
 
 The computer performs an AND operation between the destination IP and its subnet mask to determine
-The network address.
+the network address.
 
 **Packet to `192.168.1.50`:**
 
@@ -754,7 +754,7 @@ This does not match `192.168.1.0`.
 
 Result: The destination is on a **different network**. The computer forwards the packet to the
 **default gateway** (`192.168.1.1`). The computer uses ARP to find the MAC address of the gateway
-And sends the frame there.
+and sends the frame there.
 
 </details>
 

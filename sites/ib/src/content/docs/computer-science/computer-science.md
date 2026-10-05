@@ -126,7 +126,7 @@ Apply the four pillars of computational thinking to design a smart home temperat
 
 **Pattern Recognition:** Recognize that the decision-making module follows the same pattern as a
 Thermostat: compare current temperature to target, and take action based on the difference. This is
-The same pattern used in cruise control, autopilot, and other feedback control systems.
+the same pattern used in cruise control, autopilot, and other feedback control systems.
 
 **Abstraction:** Create a `Thermostat` class with methods like `setTarget(temp)``getCurrentTemp()`
 And `isActionNeeded()`. The user interacts with the interface (setting a desired temperature)
@@ -149,7 +149,7 @@ by the Hardware).
 ### Abstraction
 
 Removing unnecessary details to focus on the essential features of a problem. Abstraction allows us
-To create models that capture what is important while ignoring irrelevant complexity.
+to create models that capture what is important while ignoring irrelevant complexity.
 
 **Levels of abstraction** (from low to high):
 

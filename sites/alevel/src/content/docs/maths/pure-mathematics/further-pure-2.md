@@ -501,7 +501,7 @@ $$
 $$
 nI_n = (n-1)I_{n-2} \implies I_n = \frac{n-1}{n}I_{n-2}
 $$
-With $I_0 = \pi/2$ and $I_1 = 1$.
+with $I_0 = \pi/2$ and $I_1 = 1$.
 
 ### Example 2: Proving a Group Isomorphism
 

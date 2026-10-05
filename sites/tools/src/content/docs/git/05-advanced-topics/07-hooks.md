@@ -23,7 +23,7 @@ Git hooks are automation points that fire at specific moments in the Git workflo
 
 Git hooks are scripts that Git executes automatically before or after specific events in the
 Repository lifecycle, commits, pushes, rebases, checkouts, and so on. They live at the boundary
-Between your workflow and Git's internal state machine, and they are the primary mechanism for
+between your workflow and Git's internal state machine, and they are the primary mechanism for
 Enforcing local policy without requiring a central server.
 
 ### When Hooks Run
@@ -247,7 +247,7 @@ curl -s -X POST "https://ci.example.com/hooks/git" \
 
 The `pre-rebase` hook runs before `git rebase` begins. It receives two arguments: the upstream
 Branch and the branch being rebased. You can use it to prevent rebasing branches that should never
-Be rebased:
+be rebased:
 
 ```bash
 #!/usr/bin/env bash
@@ -347,7 +347,7 @@ fi
 
 Server-side hooks live in the bare repository on the remote. They execute within the
 `git-receive-pack` process on the server. A client cannot bypass them because the server controls
-The filesystem.
+the filesystem.
 
 ### pre-receive
 
@@ -563,7 +563,7 @@ export PATH="/usr/local/bin:$HOME/.local/bin:$HOME/.nvm/versions/node/$(ls $HOME
 Hooks in `.git/hooks/` are not tracked by Git. They are local to each clone. This means every
 Developer on a team must manually install and maintain their own hooks. This is unmaintainable at
 Scale. The industry has converged on two solutions: store hooks in the repository and redirect Git
-To them, or use a framework.
+to them, or use a framework.
 
 ### Redirecting with core.hooksPath
 
@@ -849,7 +849,7 @@ Legitimate uses of `--no-verify`:
 
 Files in `.git/hooks/` are ignored by Git. If you want version-controlled hooks, you must use
 `core.hooksPath` to point to a tracked directory. Forgetting this and wondering why teammates don't
-Have your hooks is the single most common hook-related mistake.
+have your hooks is the single most common hook-related mistake.
 
 ### Non-Executable Hook Files
 
@@ -872,7 +872,7 @@ found. Always explicitly set `PATH` or use absolute paths to tools in your hook 
 ### pre-commit Sees Staged Content, Not Working Tree
 
 If you edit a file after staging it, the hook inspects the **staged** version. This causes confusion
-When developers run `git add file.py`Then fix a lint error, then commit, the hook still sees the
+when developers run `git add file.py`Then fix a lint error, then commit, the hook still sees the
 Old staged content. Run `git add` again after fixing.
 
 ### Hooks Do Not Apply to Amended Commits by Default
@@ -899,7 +899,7 @@ Want to reject some refs but accept others, use the `update` hook instead, which
 
 The `pre-commit` framework creates isolated virtual environments for each hook repository. This
 Means hooks run with their own dependencies, not your project's dependencies. If a hook needs access
-To your project's Python environment, use `language: system` and manage dependencies yourself.
+to your project's Python environment, use `language: system` and manage dependencies yourself.
 
 ### Hook Performance and Large Monorepos
 

@@ -32,7 +32,7 @@ categories:
 
 The distinction between ionic and covalent bonding is not always sharp. Bonds with electronegativity
 Differences near the boundary ($\approx 1.7$) have significant ionic and covalent character. Bonding
-Is better described as a continuum rather than a discrete set of categories.
+is better described as a continuum rather than a discrete set of categories.
 
 ### Ionic Bonding
 
@@ -48,7 +48,7 @@ $$
 
 Higher charges and smaller ionic radii lead to larger (more negative) lattice energy. This is a
 Direct consequence of Coulomb's law: the electrostatic attraction is proportional to the product of
-The charges and inversely proportional to the distance between them.
+the charges and inversely proportional to the distance between them.
 
 **Example:** MgO has a much higher lattice energy than NaCl because Mg$^{2+}$ and O$^{2-}$ carry
 Double charges compared to Na$^+$ and Cl$^-$.
@@ -160,7 +160,7 @@ Bond on a different oxygen.
 ### Resonance
 
 When multiple Lewis structures (resonance structures) are possible, the actual molecule is a hybrid
-Of all resonance forms. The actual bond order is the average.
+of all resonance forms. The actual bond order is the average.
 :::
 
 :::note[Example: Ozone]
@@ -189,7 +189,7 @@ exceptional stability.
 ## VSEPR Theory (CED Unit 2)
 
 Valence Shell Electron Pair Repulsion (VSEPR) predicts molecular geometry based on the repulsion
-Between electron pairs (both bonding and lone pairs). The key idea is that electron pairs arrange
+between electron pairs (both bonding and lone pairs). The key idea is that electron pairs arrange
 Themselves to be as far apart as possible.
 
 ### Electron Domain Geometry
@@ -226,8 +226,8 @@ Lone pair--lone pair $\gt$ lone pair--bond pair $\gt$ bond pair--bond pair
 
 This is why bond angles decrease when lone pairs are present (e.g., $\mathrm{H_2\mathrm{O$ at
 $104.5^\circ$ vs ideal $109.5^\circ$). A lone pair occupies more space than a bonding pair because
-It is attracted to only one nucleus, whereas a bonding pair is attracted to two nuclei and is
-Therefore more compressed.
+it is attracted to only one nucleus, whereas a bonding pair is attracted to two nuclei and is
+therefore more compressed.
 
 ### Axial vs. Equatorial Positions in Trigonal Bipyramidal
 
@@ -272,7 +272,7 @@ Vector quantity; the overall molecular dipole is the vector sum of all bond dipo
 ## Intermolecular Forces (CED Unit 3)
 
 Intermolecular forces (IMFs) are weaker than intramolecular bonds but determine physical properties
-Like boiling point, melting point, and solubility.
+like boiling point, melting point, and solubility.
 
 ### Types of IMFs (Weakest to Strongest)
 
@@ -439,7 +439,7 @@ Structure 3: $\mathrm{N-\mathrm{N\equiv\mathrm{O$: N(left) = $5 - 6 - 2/2 = -2$;
 $5 - 0 - 6/2 = +2$; O = $6 - 2 - 6/2 = +1$.
 
 Structure 1 is the best because the formal charges are closest to zero and the negative charge is on
-The more electronegative atom (oxygen).
+the more electronegative atom (oxygen).
 
 ## Detailed Worked Example: VSEPR with Multiple Lone Pairs
 
@@ -467,7 +467,7 @@ Structure 2: $\mathrm{N=\mathrm{N=\mathrm{O$: N(left) FC = -1; N(right) FC = +1;
 Structure 3: $\mathrm{N-\mathrm{N\equiv\mathrm{O$: N(left) FC = -2; N(right) FC = +2; O FC = +1.
 
 Structure 1 is the best because the formal charges are closest to zero and the negative charge is on
-The more electronegative atom (oxygen). Structure 3 can be eliminated because it has the largest
+the more electronegative atom (oxygen). Structure 3 can be eliminated because it has the largest
 Formal charges.
 
 ### Worked Example: VSEPR for Complex Molecules
@@ -489,7 +489,7 @@ Oxygen (in C-OH): 2 bonding domains, 2 lone pairs. Bent, approximately 109.5 deg
 **Example.** Is $\mathrm{SF_4$ polar?
 
 S has 5 electron domains (4 bonding, 1 lone pair). Seesaw geometry. The bond dipoles do not cancel
-Because the geometry is not symmetric (the lone pair distorts the structure). Therefore,
+because the geometry is not symmetric (the lone pair distorts the structure). Therefore,
 $\mathrm{SF_4$ is polar.
 
 Compare with $\mathrm{XeF_4$: 6 electron domains (4 bonding, 2 lone pairs). Square planar. The bond
@@ -501,7 +501,7 @@ nonpolar.
 Hydrogen bonds are directional because they require a specific geometry: the hydrogen must be
 Colinear with the two electronegative atoms (donor-H...acceptor angle close to 180 degrees). This
 Maximises the electrostatic attraction between the partial positive hydrogen and the lone pair on
-The acceptor. Deviation from linearity weakens the hydrogen bond significantly.
+the acceptor. Deviation from linearity weakens the hydrogen bond significantly.
 
 This directionality explains many of water's unique properties. In ice, each water molecule forms
 Four hydrogen bonds in a tetrahedral arrangement, creating an open lattice structure with lower
@@ -771,7 +771,7 @@ Geometry is square planar (the lone pairs occupy axial positions, 180 degrees ap
 
 $\mathrm{XeF_4$ is nonpolar. Although each Xe-F bond is polar (F is more electronegative), the four
 Bonds are arranged symmetrically in a square plane. The bond dipoles cancel out because they point
-In opposite directions. The lone pairs are opposite each other (axial) and do not create a net
+in opposite directions. The lone pairs are opposite each other (axial) and do not create a net
 Dipole.
 
 </details>
@@ -803,7 +803,7 @@ Bonds) plus London forces and dipole-dipole interactions. Highest boiling point.
 
 The dominant factor is hydrogen bonding: compounds with O-H hydrogen bonding have higher boiling
 Points than those with N-H hydrogen bonding, which in turn have higher boiling points than compounds
-With only dipole-dipole or London forces.
+with only dipole-dipole or London forces.
 
 </details>
 
@@ -820,10 +820,10 @@ Equatorial bond lengths differ.
 <summary>Answer</summary>
 
 Sulfur in $\mathrm{SF_4$ has 5 electron domains (4 bonding pairs + 1 lone pair). The hybridization
-Is $sp^3d$ (one s, three p, and one d orbital combine).
+is $sp^3d$ (one s, three p, and one d orbital combine).
 
 The electron domain geometry is trigonal bipyramidal. The lone pair occupies an equatorial position
-To minimise repulsion (equatorial has two 90 degree interactions; axial has three). The molecular
+to minimise repulsion (equatorial has two 90 degree interactions; axial has three). The molecular
 Geometry is see-saw.
 
 Bond angles: The equatorial F-S-F angle is less than $120^\circ$ (compressed by the lone pair,

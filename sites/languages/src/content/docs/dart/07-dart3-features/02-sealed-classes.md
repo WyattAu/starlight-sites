@@ -41,7 +41,7 @@ Before Dart 3, you had three options for modeling this:
 
 All three are deficient. Sealed classes solve this by combining the expressiveness of class
 Hierarchies (each variant has its own fields) with the exhaustiveness of enums (the compiler knows
-All variants).
+all variants).
 
 ### Sum Types in Language Design
 
@@ -87,7 +87,7 @@ The `sealed` modifier on `NetworkResult` means:
 ### The Same-Library Restriction
 
 This is the critical constraint. "Same library" in Dart means the same compilation unit, a file
-Plus all its `part` files. It does **not** mean the same package or the same directory.
+plus all its `part` files. It does **not** mean the same package or the same directory.
 
 ```dart
 // network_result.dart, the sealed class lives here
@@ -107,7 +107,7 @@ Library, the compiler has a complete, local view of the hierarchy.
 
 **Practical implication**: You cannot split sealed class subtypes across files in a package unless
 You use `part`/`part of`. This is a deliberate design trade-off, exhaustiveness is more valuable
-Than distribution.
+than distribution.
 
 ```dart
 // result.dart
@@ -258,7 +258,7 @@ class FlatButton extends Object with ButtonBehavior {
 ## Exhaustive Switch
 
 The primary value of sealed classes is enabling exhaustive switch expressions. The compiler verifies
-That every direct subtype is handled.
+that every direct subtype is handled.
 
 ### Basic Exhaustive Switch
 
@@ -854,7 +854,7 @@ String classify(Expr expr) => switch (expr) {
 ### Sealed Classes with Generics
 
 Generics and sealed classes compose well. The sealed constraint applies to the class hierarchy, not
-To the type parameter:
+to the type parameter:
 
 ```dart
 sealed class Either&lt;L, R&gt; {}
@@ -932,7 +932,7 @@ Forgetting to add `part 'new_file.dart'` in `main.dart` causes a compile error.
 ### 3. Using `default` with Sealed Types
 
 As discussed, `default` defeats exhaustiveness. The compiler will not warn you about missing cases
-If `default` is present. This is technically allowed but is always wrong for sealed types.
+if `default` is present. This is technically allowed but is always wrong for sealed types.
 
 ### 4. Exhaustiveness Only Applies to Direct Subtypes
 

@@ -186,7 +186,7 @@ This reflects the fact that each combination of $r$ objects can be arranged in $
 ### Construction
 
 Pascal's triangle is a triangular array where each entry is the sum of the two entries directly
-Above it:
+above it:
 
 $$
 \begin{array}{cccccccc}

@@ -59,7 +59,7 @@ public class Dog extends Animal {
 
 A subclass can override a non-final, non-static method of its superclass. The `@Override` annotation
 Tells the compiler to verify that you are actually overriding a superclass method. If you misspell
-The method name or get the signature wrong, the compiler will report an error instead of silently
+the method name or get the signature wrong, the compiler will report an error instead of silently
 Creating an overloaded method.
 
 ```java
@@ -253,7 +253,7 @@ s.area(); // The JVM calls the correct area() based on the actual object type
 
 The `final` keyword on a method prevents overriding and allows the JIT compiler to devirtualize the
 Call, it can inline the method at the call site because it knows no subclass will override it. This
-Can improve performance in hot paths.
+can improve performance in hot paths.
 
 ```java
 public class Point {
@@ -336,7 +336,7 @@ Semantics with no shared state (prior to Java 8).
 ## Interfaces
 
 An interface defines a contract that implementing classes must fulfill. Since Java 8, interfaces can
-Have default methods, static methods, and (since Java 9) private methods.
+have default methods, static methods, and (since Java 9) private methods.
 
 ### Interface Evolution
 
@@ -465,7 +465,7 @@ public class FlyingVehicle {
 ## Liskov Substitution Principle
 
 The Liskov Substitution Principle (LSP) states that if S is a subtype of T, then objects of type T
-May be replaced with objects of type S without altering any of the desirable properties of the
+may be replaced with objects of type S without altering any of the desirable properties of the
 Program. In practical terms: a subclass must be usable anywhere the superclass is expected.
 
 ```java
@@ -804,7 +804,7 @@ new Derived(); // throws NullPointerException
 :::caution
 Run, so its fields are uninitialized. If the overridden method accesses subclass fields, you get
 `NullPointerException` or incorrect behavior. Mark the method `final` or `private` if you must call
-It from a constructor.
+it from a constructor.
 
 ### `instanceof` and `null`
 
@@ -841,8 +841,8 @@ Creates confusion.
 ### Fragile Base Class Problem
 
 Changes to a superclass can silently break subclasses. If a new method is added to the superclass
-With the same name as a method in the subclass, the subclass method becomes an overload instead of
-An override:
+with the same name as a method in the subclass, the subclass method becomes an overload instead of
+an override:
 
 ```java
 // Version 1 of library
@@ -868,7 +868,7 @@ public class Base {
 ### Using Inheritance for Code Reuse Only
 
 If you extend a class solely to reuse its methods but there is no genuine "is-a" relationship, you
-Are misusing inheritance. Use composition with delegation instead:
+are misusing inheritance. Use composition with delegation instead:
 
 ```java
 // WRONG, Stack is NOT a List (you don't want random access, iteration at arbitrary positions)

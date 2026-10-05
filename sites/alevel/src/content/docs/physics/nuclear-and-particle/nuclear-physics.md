@@ -101,7 +101,7 @@ $$
 $$
 
 The mass defect corresponds to the binding energy, the energy released when the nucleus was formed
-From its constituent nucleons, or equivalently, the energy required to separate the nucleus into its
+from its constituent nucleons, or equivalently, the energy required to separate the nucleus into its
 Individual nucleons.
 
 $$
@@ -233,7 +233,7 @@ decay.
 ### Derivation
 
 The decay constant $\lambda$ is the probability per unit time that a single nucleus will decay. If
-There are $N$ nuclei:
+there are $N$ nuclei:
 
 $$
 \frac{dN}{dt} = -\lambda N

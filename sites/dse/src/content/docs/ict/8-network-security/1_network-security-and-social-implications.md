@@ -335,7 +335,7 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 
 **Copyleft (viral licensing):** GPL requires that any derivative work must also be licensed under
 GPL. This means if you modify GPL software and distribute it, you must release your modifications
-Under the same GPL terms. MIT and Apache are permissive licenses with no such requirement.
+under the same GPL terms. MIT and Apache are permissive licenses with no such requirement.
 
 ### Creative Commons Licenses
 
@@ -673,7 +673,7 @@ Ransomware payload).
 
 (b) **Worm.** The program self-replicates across the network without requiring user action or a host
 File, which is the defining characteristic of a worm. The bandwidth consumption is a common effect
-Of worm propagation.
+of worm propagation.
 
 (c) **Adware.** The primary symptom is unwanted advertisements. The free software from an unofficial
 Website is likely bundled with adware, a common distribution method.
@@ -700,7 +700,7 @@ Answer:
 (a) **Digital signature for authentication:** Alice hashes her message and encrypts the hash with
 Her **private key**. Bob decrypts the hash with Alice's **public key** and verifies it matches his
 Own hash of the received message. This proves the message came from Alice (authentication) and was
-Not modified (integrity).
+not modified (integrity).
 
 **Encryption for confidentiality:** Alice encrypts the message with Bob's **public key**. Only Bob
 Can decrypt it using his **private key**. This ensures only the intended recipient can read the
@@ -733,7 +733,7 @@ Retailer later uses these addresses to send promotional emails without obtaining
 PDPO, has the retailer violated any data protection principle? Explain.
 
 (b) A social media company headquartered in Hong Kong processes data from users in both Hong Kong
-And the EU. Which data protection legislation applies, and why?
+and the EU. Which data protection legislation applies, and why?
 
 (c) Describe two measures a school should implement to comply with the PDPO when collecting student
 Personal data.
@@ -741,13 +741,13 @@ Personal data.
 Answer:
 
 (a) Yes, the retailer has likely violated DPP 3 (Use limitation). Personal data was collected for
-The purpose of account registration, but then used for direct marketing (promotional emails) without
+the purpose of account registration, but then used for direct marketing (promotional emails) without
 Obtaining the data subject's opt-in consent. Under the PDPO, using personal data for direct
 Marketing requires the data subject's explicit consent (opt-in), and the data subject must be given
-The opportunity to opt out.
+the opportunity to opt out.
 
 (b) Both the PDPO and GDPR apply. The PDPO applies because the company is headquartered in Hong Kong
-And processes data of Hong Kong residents. The GDPR applies because the company processes personal
+and processes data of Hong Kong residents. The GDPR applies because the company processes personal
 Data of EU residents, regardless of where the company is located (extraterritorial scope of GDPR).
 The company must comply with both frameworks for the respective data subjects.
 
@@ -772,7 +772,7 @@ The company must comply with both frameworks for the respective data subjects.
 <summary>Question 4: Software Licensing</summary>
 
 (a) A student downloads a copy of proprietary software from a file-sharing website without paying
-For it. Explain two legal and two ethical issues with this action.
+for it. Explain two legal and two ethical issues with this action.
 
 (b) A company modifies an open-source program licensed under GPL v3 and distributes it as part of a
 Commercial product. What are their obligations under the GPL?
@@ -792,7 +792,7 @@ Incentive to develop new products.
 
 (b) Under GPL v3, the company must: (1) make the complete source code of the modified program
 Available to all recipients, including their modifications. (2) License the entire combined work
-Under GPL v3. (3) Include a copy of the GPL v3 license and copyright notices. (4) Indicate what
+under GPL v3. (3) Include a copy of the GPL v3 license and copyright notices. (4) Indicate what
 Changes were made to the original code.
 
 (c) **Copyleft (GPL):** Any derivative work must be distributed under the same copyleft license.
@@ -801,7 +801,7 @@ Derivatives. Commercial use is allowed, but modifications must remain open sourc
 
 **Permissive (MIT):** The author grants broad permission to use, copy, modify, and distribute the
 Software, with minimal restrictions (primarily, retaining the copyright notice). Derivative works
-Can be relicensed under any terms, including proprietary/closed source. There is no copyleft
+can be relicensed under any terms, including proprietary/closed source. There is no copyleft
 Requirement.
 
 </details>
@@ -839,9 +839,9 @@ Answer:
    training, simulated phishing exercises.
 
 (b) Under DPP 6 (Access), the patient has the right to request access to their personal data held by
-The hospital. The hospital must comply with the request within 40 days. The hospital may charge a
+the hospital. The hospital must comply with the request within 40 days. The hospital may charge a
 Reasonable fee. If the hospital refuses the request, it must provide written reasons. The hospital
-Should verify the identity of the requester before releasing the records.
+should verify the identity of the requester before releasing the records.
 
 (c) **Ethical implications:** This violates the ACM principle of "Respect privacy" -- accessing
 Patient data without a legitimate medical need is a breach of patient confidentiality. It also

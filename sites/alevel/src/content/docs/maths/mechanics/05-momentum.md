@@ -126,7 +126,7 @@ $$
 ### 4.1 Direct collisions
 
 For a one-dimensional collision between masses $m_1$ and $m_2$ with velocities $u_1$, $u_2$ before
-And $v_1$, $v_2$ after:
+and $v_1$, $v_2$ after:
 
 $$
 m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2
@@ -317,7 +317,7 @@ $p_y$.
 ### 7.3 Worked example
 
 A particle of mass $3\,\mathrm{kg}$ moving at $4\,\mathrm{m/s}$ collides with a stationary particle
-Of mass $2\,\mathrm{kg}$. The $3\,\mathrm{kg}$ particle is deflected through $30^\circ$ and the
+of mass $2\,\mathrm{kg}$. The $3\,\mathrm{kg}$ particle is deflected through $30^\circ$ and the
 $2\,\mathrm{kg}$ particle moves off at angle $\theta$ below the original line of motion. Both
 Particles have speed $3\,\mathrm{m/s}$ after collision. Find $\theta$.
 
@@ -345,7 +345,7 @@ $1.5\sqrt{3} = \frac{3\sqrt{3}}{2}$,
 $12 - 4.5\sqrt{3} = 12 - \frac{9\sqrt{3}}{2}$. From $y$: $\sin\theta = 0.75$,
 $\cos\theta = \sqrt{1 - 0.5625} = \sqrt{0.4375} \approx 0.6614$. From $x$:
 $\cos\theta = (12 - 4.5\sqrt{3})/6 \approx 0.701$. These are not equal, indicating the stated speeds
-Are not exactly consistent with momentum conservation, a useful check in exam problems.
+are not exactly consistent with momentum conservation, a useful check in exam problems.
 
 <hr />
 
@@ -354,7 +354,7 @@ Are not exactly consistent with momentum conservation, a useful check in exam pr
 ### 8.1 Line of centres
 
 For a collision between two smooth spheres, the **line of centres** is the line joining the centres
-At the instant of impact. The fundamental principle for smooth spheres is:
+at the instant of impact. The fundamental principle for smooth spheres is:
 
 > The impulse acts only along the line of centres. There is no impulse perpendicular to this line.
 
@@ -498,7 +498,7 @@ Covered tends to a finite limit as $n \to \infty$.
 ### 9.5 Impulse exerted by the surface
 
 The impulse exerted by the surface on the particle is directed along the normal (since the surface
-Is smooth):
+is smooth):
 
 $$
 J = m(v_n - u_n) = m(-e\,u\cos\alpha - u\cos\alpha) = -m(1+e)\,u\cos\alpha
@@ -761,7 +761,7 @@ Speed: $|v| = \sqrt{(-2)^2 + (-2\sqrt{3})^2} = \sqrt{4 + 12} = \sqrt{16} = 4\,\m
 
 Direction:
 $\theta = \arctan\!\left(\frac{-2\sqrt{3}}{-2}\right) = \arctan(\sqrt{3}) = 60^\circ$
-Below the horizontal (south-west).
+below the horizontal (south-west).
 
 **If you get this wrong, revise:**
 [Conservation of Momentum in Two Dimensions](#7-conservation-of-momentum-in-two-dimensions),
@@ -969,7 +969,7 @@ Line of centres), while $\mathbf{v}_B = u\cos\theta$ (along line of centres), so
 Perpendicular.
 
 For general $e$ The spheres do **not** move at right angles. The problem as stated is only correct
-For the elastic case. $\blacksquare$
+for the elastic case. $\blacksquare$
 
 **If you get this wrong, revise:**
 [Two-Dimensional Collisions Between Particles](#8-two-dimensional-collisions-between-particles),

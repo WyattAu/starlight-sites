@@ -163,7 +163,7 @@ $$
 ### 4.1 Definition
 
 A **monopsony** is a labour market with a single (dominant) buyer of labour. The monopsonist faces
-The _market_ supply curve of labour, which is upward-sloping.
+the _market_ supply curve of labour, which is upward-sloping.
 
 ### 4.2 Deriving Monopsony Equilibrium
 
@@ -226,7 +226,7 @@ Monopsony power exists on a spectrum, few markets have a literal single buyer, b
   hiring universities, creating monopsony-like conditions for highly specialised labour.
 
 Empirical evidence from the UK (e.g., the Low Pay Commission, 2023) suggests that monopsony power
-May affect 10-20% of UK workers, particularly in low-wage sectors and rural areas. The rise of
+may affect 10-20% of UK workers, particularly in low-wage sectors and rural areas. The rise of
 Consolidation among employers (fewer, larger firms) has increased monopsony power over recent
 Decades.
 
@@ -273,7 +273,7 @@ Always paid their MRP. However, several limitations should be considered:
   could reduce employment.
 
 On balance, the monopsony model is most relevant in localised labour markets, for specialised skills
-With few employers, and in sectors with high employer concentration. Its policy implications,
+with few employers, and in sectors with high employer concentration. Its policy implications,
 Particularly the potential for minimum wages to increase employment, are among the most practically
 Important insights from labour economics.
 
@@ -382,7 +382,7 @@ Monopsony.**
 
 _Proof._ Without minimum wage, the monopsonist hires $L_m$ where $MRP_L = MCL$. With a binding
 Minimum wage $w_{min}$ ($w_m < w_{min} \leq w_c$), the MCL curve becomes horizontal at $w_{min}$ up
-To $L$ where $S_L(L) = w_{min}$ Then jumps to the original MCL. The monopsonist now maximises Profit
+to $L$ where $S_L(L) = w_{min}$ Then jumps to the original MCL. The monopsonist now maximises Profit
 by hiring where $MRP_L = w_{min}$ Which gives $L > L_m$ (since $MRP_L$ is downward-sloping And
 $w_{min} > w_m = MCL(L_m) = MRP_L(L_m)$). $\blacksquare$
 
@@ -443,7 +443,7 @@ Same pay).
 :::note
 Pay gap (an average difference across the economy) and equal pay (a legal requirement for identical
 Work). OCR (A) may link the gender pay gap to human capital theory and occupational segregation. CIE
-Has examined the effectiveness of government policies to reduce the gender pay gap.
+has examined the effectiveness of government policies to reduce the gender pay gap.
 :::
 
 ### 6.5 Evaluation of Minimum Wage Policy
@@ -471,7 +471,7 @@ Minimum wage policy involves trade-offs that must be carefully evaluated:
   high-wage regions like London.
 
 On balance, the evidence from the UK suggests that moderate minimum wages set with careful reference
-To labour market conditions can achieve redistribution with minimal employment costs. However, the
+to labour market conditions can achieve redistribution with minimal employment costs. However, the
 Optimal level and the appropriate balance between national and regional rates remain debated.
 
 ## 7. Human Capital Theory
@@ -550,7 +550,7 @@ Significant limitations:
 :::note
 Improving labour market outcomes. AQA may ask students to evaluate whether increasing university
 Participation is always economically beneficial. CIE (9708) links human capital to economic growth
-In macro contexts. OCR often examines the limitations of human capital theory in explaining
+in macro contexts. OCR often examines the limitations of human capital theory in explaining
 Persistent wage inequalities.
 :::
 
@@ -584,7 +584,7 @@ Therefore, discrimination should be eliminated in the long run by competition.
 
 Employers use group-level averages (which may reflect genuine productivity differences on average)
 To make hiring decisions about individuals. Even without prejudice, this leads to unequal outcomes
-For equally productive individuals from different groups.
+for equally productive individuals from different groups.
 
 **Example**: if women are statistically more likely to take career breaks, an employer may offer
 Lower starting salaries to all women, even those who don't plan career breaks.
@@ -615,7 +615,7 @@ $$
 
 The "explained" portion captures differences in observable characteristics (education, experience,
 Occupation, hours). The "unexplained" portion is attributed to discrimination (different returns to
-The same characteristics), though it also reflects unobserved productivity differences.
+the same characteristics), though it also reflects unobserved productivity differences.
 
 In the UK, the ONS estimates that approximately two-thirds of the gender pay gap is "explained" by
 Occupational segregation and working patterns, while roughly one-third remains "unexplained" and may
@@ -623,7 +623,7 @@ Reflect discrimination.
 
 :::note
 Unexplained portions of the gender pay gap. AQA expects evaluation of government policies such as
-The UK Gender Pay Gap Reporting Regulations (2017). Edexcel often links discrimination to government
+the UK Gender Pay Gap Reporting Regulations (2017). Edexcel often links discrimination to government
 Intervention policies. OCR may examine whether legislation alone is sufficient to eliminate
 Discrimination.
 :::
@@ -650,7 +650,7 @@ Discrimination.
 
 :::note
 Debate. Edexcel covers human capital and migration effects on labour markets. CIE (9708) often asks
-About wage determination in different market structures. OCR (A) emphasises labour market
+about wage determination in different market structures. OCR (A) emphasises labour market
 Flexibility and government intervention.
 :::
 
@@ -735,7 +735,7 @@ Inequality, and (d) regional labour markets where wage levels differ.
 
 **Problem 10.** Explain why professional footballers and nurses may earn vastly different wages
 Despite both being essential. In your answer, use the concepts of MRP, labour supply elasticity, and
-Non-pecuniary factors.
+non-pecuniary factors.
 
 <details>
 <summary>Hint</summary>
@@ -745,7 +745,7 @@ Footballers: very high MRP (generate millions in revenue through broadcasting, m
 **Problem 11.** An employer cannot observe worker ability before hiring. High-ability workers have
 Productivity £50,000 and low-ability workers have productivity £30,000. The proportion of
 High-ability workers is 50%. An employer offers a single wage. What wage will be offered? What is
-The deadweight loss?
+the deadweight loss?
 
 <details>
 <summary>Hint</summary>
@@ -762,7 +762,7 @@ Short run: increased labour supply shifts supply curve right $\Rightarrow$ wage 
 
 **Problem 13.** A monopsonist faces labour supply $w = 10 + L$ and has $MRP_L = 80 - 2L$. The
 Government introduces a minimum wage of £35. Calculate (a) the equilibrium wage and employment
-Before the minimum wage, (b) the new employment level after the minimum wage, and (c) the change in
+before the minimum wage, (b) the new employment level after the minimum wage, and (c) the change in
 Total wage payments to workers. Has the minimum wage improved worker welfare?
 
 <details>
@@ -777,7 +777,7 @@ Men and women." Evaluate this statement using economic theory and evidence.
 <summary>Hint</summary>
 Human capital theory explains part of the gap: women are more likely to work part-time, take career
 Breaks, and work in lower-paid occupations, all of which reduce MRP. However, even after controlling
-For education, experience, occupation, and hours worked (the Oaxaca-Blinder decomposition), a
+for education, experience, occupation, and hours worked (the Oaxaca-Blinder decomposition), a
 Significant "unexplained" gap remains (approximately one-third of the total in the UK). This unexplained
 Portion may reflect discrimination (taste-based and statistical), social norms, network effects, and
 Institutional practices. Furthermore, occupational segregation itself may reflect discrimination in
@@ -793,14 +793,14 @@ And (c) consumer prices. Refer to monopsony theory in your answer.
 <details>
 <summary>Hint</summary>
 (a) If platforms have monopsony power (as argued in Section 4.6), extending minimum wage protections
-Could raise wages *and* increase worker participation (similar to the monopsony minimum wage model).
+could raise wages *and* increase worker participation (similar to the monopsony minimum wage model).
 However, if the minimum wage is set too high relative to the competitive equilibrium, some workers
-May lose access to platform work as the platform reduces the number of available tasks. (b) Platform
+may lose access to platform work as the platform reduces the number of available tasks. (b) Platform
 Profitability may fall, but the effect depends on the degree of monopsony power and the elasticity of
 Demand for platform services. Platforms may respond by increasing commission rates charged to
 Customers or by investing in automation. (c) Consumer prices (e.g., delivery fees, ride prices) may
 Rise as platforms pass on higher labour costs. However, if the minimum wage improves worker retention
-And service quality, demand may increase, partially offsetting the cost increase. Evaluation: the
+and service quality, demand may increase, partially offsetting the cost increase. Evaluation: the
 Net effect is ambiguous and depends on the specific market structure and the level of the minimum
 Wage set.
 </details>
@@ -814,10 +814,10 @@ Both trade unions and minimum wages aim to raise wages above the market-clearing
 Markets, both create unemployment by pushing wages above equilibrium. In monopsony markets, both can
 Increase wages *and* employment by countering monopsony power. Key differences: (1) Minimum wages apply
 Universally and do not require collective action, but they are a blunt instrument (same rate regardless
-Of firm-specific conditions). (2) Unions can negotiate firm-specific wages that account for
+of firm-specific conditions). (2) Unions can negotiate firm-specific wages that account for
 Productivity and profitability, but they require collective action and only benefit members. (3) Unions
 Provide additional benefits (working conditions, grievance procedures, training) that minimum wages do
-Not address. (4) Minimum wages are easier to enforce politically but may face less compliance in
+not address. (4) Minimum wages are easier to enforce politically but may face less compliance in
 Hard-to-regulate sectors (gig economy). Evaluation: the most effective approach may combine both
 Instruments, a minimum wage floor to prevent the worst exploitation, supplemented by union
 Negotiation for specific improvements above the floor. Evidence from Nordic countries (which combine

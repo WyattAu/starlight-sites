@@ -365,7 +365,7 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 
 :::caution
 KEY on `order_id` alone if the table is partitioned by `created_at` -- the primary key must include
-Both `(order_id, created_at)`. This is a common gotcha when migrating an existing table to
+both `(order_id, created_at)`. This is a common gotcha when migrating an existing table to
 Partitioning.
 
 ## Sharding
@@ -459,7 +459,7 @@ server_reset_query = DISCARD ALL
 ### Versioned Migrations
 
 Versioned migrations are numbered SQL files applied in order. Each migration transforms the schema
-From version N to version N+1.
+from version N to version N+1.
 
 ```
 migrations/
@@ -626,7 +626,7 @@ Complex to restore (must replay from the last full backup through all incrementa
 ### WAL Archiving (Point-in-Time Recovery)
 
 PostgreSQL's Write-Ahead Log records every modification. Archiving WAL enables recovery to any point
-In time:
+in time:
 
 ```bash
 # postgresql.conf
@@ -658,7 +658,7 @@ recovery_target_action = 'promote'
 
 :::caution
 Tests and measure the actual time to recover. The most common backup failure mode is discovering
-That the backup is corrupted or incomplete when you need it most.
+that the backup is corrupted or incomplete when you need it most.
 
 ## Replication
 
@@ -870,7 +870,7 @@ Retention policy before going to production.
 
 Designing for every hypothetical future use case leads to dozens of tables, complex join graphs, and
 Slow queries. Design for the known access patterns and leave room for evolution. The best schema is
-The simplest one that satisfies current requirements and can be extended incrementally.
+the simplest one that satisfies current requirements and can be extended incrementally.
 
 ### Ignoring Write Patterns
 

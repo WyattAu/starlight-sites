@@ -98,7 +98,7 @@ Missing, the linker will fail to find symbols.
 
 The Application Binary Interface (ABI) defines how data structures and routines are accessed in
 Machine code. Unlike the API (Source Compatibility), which deals with code syntax, the ABI deals
-With:
+with:
 
 1. **Data Layout:** The size, alignment, and padding of classes (e.g., `sizeof(std::string)`).
 2. **Calling Convention:** How arguments are passed in registers/stack (e.g., x64 System V ABI vs.
@@ -197,7 +197,7 @@ Section.
 
 The root cause is that C++11 prohibited Copy-On-Write semantics for `std::basic_string` [N4950
 §23.4.5]. The legacy `libstdc++` implementation used COW, which means iterators could be invalidated
-By non-const operations on aliased strings. The new ABI uses Small String Optimization (SSO)
+by non-const operations on aliased strings. The new ABI uses Small String Optimization (SSO)
 Instead, eliminating this class of bugs at the cost of breaking binary compatibility.
 
 #### 2. MSVC vs. MinGW vs. Clang (Windows)
@@ -422,7 +422,7 @@ struct Config \{
 
 This is a concrete instance of the One Definition Rule (ODR) violation at the binary level [N4950
 §6.3]. The ODR requires that every entity with external linkage have exactly one definition across
-All translation units. When the definition of `Config` changes between library version v1 and v2,
+all translation units. When the definition of `Config` changes between library version v1 and v2,
 But the consumer was compiled against v1, the binary contains two incompatible definitions of
 `Config` in the same program. The linker does not detect this because the struct has no mangled
 Symbol (it is not a function or global variable).
@@ -534,7 +534,7 @@ Evolution without breaking existing binaries.
 ### How Inline Namespaces Work
 
 An inline namespace [N4950 S9.8.2] is a nested namespace whose members are automatically accessible
-From the enclosing namespace. However, the mangled symbol name includes the inline namespace name,
+from the enclosing namespace. However, the mangled symbol name includes the inline namespace name,
 Providing ABI versioning without API changes:
 
 ```cpp
@@ -549,14 +549,14 @@ int main() \{
 ```
 
 The `_GLIBCXX_USE_CXX11_ABI` macro controls whether the old ABI namespace or the new ABI namespace
-Is selected. When `=1` (default), `std::string` resolves to `std::__cxx11::basic_string`. When `=0`
+is selected. When `=1` (default), `std::string` resolves to `std::__cxx11::basic_string`. When `=0`
 It resolves to the legacy `std::basic_string` with Copy-On-Write semantics.
 
 ### libc++ ABI Versioning
 
 Libc++ uses `_LIBCPP_ABI_VERSION` for similar purposes. When libc++ changes the layout of a standard
 Type (e.g., `std::optional` grew a union member in a newer version), the ABI version is bumped, and
-The new layout is placed in a new inline namespace. Old binaries continue to link against the old
+the new layout is placed in a new inline namespace. Old binaries continue to link against the old
 Inline namespace symbols.
 
 ```bash

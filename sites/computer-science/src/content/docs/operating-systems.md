@@ -64,7 +64,7 @@ a pure monolith. Examples: Windows NT, macOS XNU.
 ### 1.3 System Calls
 
 System calls provide the interface between user-mode applications and kernel-mode OS services. They
-Are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
+are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
 
 **Categories:**
 
@@ -242,7 +242,7 @@ Using the same three processes with quantum $q = 4$:
 
 Round Robin eliminates the convoy effect but gives a higher average waiting time than SJF due to
 Preemption overhead. The turnaround time for $P_1$ is unchanged (the work must be done), but $P_2$
-And $P_3$ receive faster first response.
+and $P_3$ receive faster first response.
 
 </details>
 
@@ -760,7 +760,7 @@ Safe sequence: $\langle P_3, P_1, P_0, P_4, P_2 \rangle$. The request is **grant
 Sequence of process completions that avoids deadlock.
 
 _Proof._ The safety algorithm constructs an explicit sequence. Each process in the sequence can run
-To completion with the currently available resources plus those released by previously completed
+to completion with the currently available resources plus those released by previously completed
 Processes. If no such sequence exists, there is a set of processes whose combined needs exceed
 Available resources. $\blacksquare$
 
@@ -954,7 +954,7 @@ critical.
 ### 5.6 Translation Lookaside Buffer (TLB)
 
 A **TLB** is a hardware cache of recently used page table entries, avoiding an extra memory access
-Per translation.
+per translation.
 
 $$
 \mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})
@@ -1039,7 +1039,7 @@ To changing access patterns.
 
 **Approximating LRU in practice.** Most OSes use a variant of Clock. Linux uses an LRU-like
 Approximation with **active** and **inactive** lists: pages on the active list are protected; pages
-Not accessed are demoted to the inactive list; eviction targets the inactive list.
+not accessed are demoted to the inactive list; eviction targets the inactive list.
 
 <details>
 <summary>Worked Example 5.3, Optimal Page Replacement</summary>
@@ -1135,7 +1135,7 @@ Same reference string, three frames. Clock hand starts at frame 0. R = reference
 | 1   | [7,R] [0,R] [1,R] | No     | Set R on F2                                                                                        |
 
 Total page faults: **15**. Clock performs worse than LRU here but requires only $O(1)$ per operation
-And no global ordering of references.
+and no global ordering of references.
 
 </details>
 
@@ -1194,7 +1194,7 @@ Time. $\blacksquare$
 
 **Copy-on-Write** is an optimisation for `fork()`. Instead of copying all pages, parent and child
 Share physical frames (marked read-only). On a write to a shared page, a fault triggers a copy of
-Just that page.
+just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
 - If the child immediately calls `exec()`No copies are ever made.
@@ -1251,7 +1251,7 @@ A file of 10 blocks is stored on a disk. The disk has blocks at positions: 0 (fr
 (free), 6 (used), 7-9 (free), 10-15 (free), 16 (used), 17-31 (free).
 
 _Contiguous:_ Needs 10 consecutive free blocks. Largest free run is 16-31 (16 blocks). File stored
-At blocks 17--26. Access to block $k$: position $17 + k$.
+at blocks 17--26. Access to block $k$: position $17 + k$.
 
 _Linked:_ Blocks can be scattered. E.g., 2, 3, 4, 5, 7, 8, 9, 10, 11, 12. To read block 7, must
 Traverse 7 pointers.
@@ -1457,7 +1457,7 @@ User application
 
 **Driver loading.** Most modern OSes support loadable kernel modules (LKMs): drivers loaded at
 Runtime without rebooting. On Linux: `insmod``modprobe`. This allows third-party hardware support
-Without kernel recompilation.
+without kernel recompilation.
 
 ### 7.3 I/O Scheduling
 
@@ -1706,7 +1706,7 @@ The scheduler triggers Ready → Running and Running → Ready (preemption). I/O
 
 A microkernel-based OS adds 2 $\mu$ S of message-passing overhead per system call compared to a
 Monolithic kernel. If a web server makes $10^6$ system calls per second, what is the total overhead
-As a fraction of CPU time on a 3 GHz processor?
+as a fraction of CPU time on a 3 GHz processor?
 
 **Solution.** (Revision: §1.2)
 
@@ -1814,7 +1814,7 @@ Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \r
 <summary>Problem 7, Critical Section</summary>
 
 Show that the following solution to the critical section problem is incorrect (Peterson's algorithm
-With the order of `flag[i] = true` and `turn = j` swapped):
+with the order of `flag[i] = true` and `turn = j` swapped):
 
 ```c
 // Process i:
@@ -1873,7 +1873,7 @@ while (count == BUFFER_SIZE) {
 
 Without `empty` and `full` semaphores, the producer must busy-wait or use condition variables.
 Semaphores provide **blocking** semantics: the producer blocks on `empty` when the buffer is full
-And is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
+and is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
 Busy-waiting (wasting CPU cycles) or requires the programmer to correctly implement the Wait/signal
 protocol, which is exactly what semaphores encapsulate.
 
@@ -2096,8 +2096,8 @@ Counterexample from the text (1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 3 vs 4 fra
 <summary>Problem 17, Working Set and Thrashing</summary>
 
 A system has 40 frames. Process $P_1$ has a working set of 15 pages, $P_2$ has 12 pages, and $P_3$
-Has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
-Of 8 pages is added?
+has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
+of 8 pages is added?
 
 **Solution.** (Revision: §5.8)
 
@@ -2105,7 +2105,7 @@ Without $P_4$: total working set = $15 + 12 + 18 = 45 \gt 40$. Thrashing occurs.
 can run concurrently (e.g., $P_1 + P_2 = 27 \leq 40$ Or $P_2 + P_3 = 30 \leq 40$).
 
 With $P_4$: total = $15 + 12 + 18 + 8 = 53 \gt 40$. Even worse. Using working set admission, we
-Would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
+would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
 $P_2 + P_3 =
 30$.
 

@@ -30,7 +30,7 @@ And metallic bonding, molecular geometry, intermolecular forces, and electronega
 ### Ionic Bonding (OL/HL)
 
 Ionic bonds form between metals and non-metals. Electrons are transferred from the metal to the
-Non-metal, producing oppositely charged ions that attract electrostatically.
+non-metal, producing oppositely charged ions that attract electrostatically.
 
 **Example (OL):** Formation of sodium chloride.
 
@@ -211,15 +211,15 @@ Six hybrid orbitals, octahedral. Example: $\mathrm{SF_6$.
 
 Each carbon is $sp^2$ hybridised. The three $sp^2$ orbitals form three sigma bonds (two C--H and one
 C--C). The remaining unhybridised $p$ orbital on each carbon overlaps to form a pi ($\pi$) bond
-Above and below the plane. The C=C double bond consists of one sigma and one pi bond.
+above and below the plane. The C=C double bond consists of one sigma and one pi bond.
 
 **Worked Example 5 (HL):** Describe the bonding in ethyne ($\mathrm{C_2\mathrm{H_2$), including
 sigma And pi bonds and hybridisation.
 
 Each carbon in ethyne is $sp$ hybridised. The two $sp$ orbitals form two sigma bonds (one C--H and
-One C--C). Each carbon has two remaining unhybridised $p$ orbitals ($p_y$ and $p_z$). These overlap
+one C--C). Each carbon has two remaining unhybridised $p$ orbitals ($p_y$ and $p_z$). These overlap
 Sideways to form two pi bonds perpendicular to each other. The C≡C triple bond consists of one sigma
-And two pi bonds. The molecule is linear ($180^\circ$).
+and two pi bonds. The molecule is linear ($180^\circ$).
 
 ## Intermolecular Forces (OL/HL)
 
@@ -281,7 +281,7 @@ $\mathrm{HF$ dominates.
 ### Band Theory
 
 In metals, atomic orbitals overlap to form energy bands. The **valence band** contains electrons
-That can conduct electricity. The **conduction band** overlaps with the valence band in metals,
+that can conduct electricity. The **conduction band** overlaps with the valence band in metals,
 Allowing free movement of electrons.
 
 In insulators, there is a large energy gap between the valence and conduction bands. In
@@ -492,7 +492,7 @@ For $\mathrm{N_2$ (and lighter diatomic molecules), the $\sigma_{2p}$ and $\pi_{
 Reversed: $\pi_{2p} < \sigma_{2p}$.
 
 $\mathrm{N_2$ has 10 valence electrons: $\mathrm{BO = (8 - 2)/2 = 3$ (triple bond), consistent with
-The Lewis structure $\mathrm{N\equiv\mathrm{N$.
+the Lewis structure $\mathrm{N\equiv\mathrm{N$.
 
 ### Comparison of MO Theory with Lewis Theory
 
@@ -752,12 +752,12 @@ Donor, two as acceptor), creating an extensive three-dimensional network.
 - Non-polar solutes dissolve in non-polar solvents (e.g., grease in hexane).
 
 This is because the intermolecular forces between solute and solvent must be comparable to those
-Within the solute and within the solvent for dissolution to be energetically favourable.
+within the solute and within the solvent for dissolution to be energetically favourable.
 
 ### Vapour Pressure
 
 Molecules with stronger intermolecular forces have lower vapour pressure because fewer molecules
-Have sufficient energy to escape from the liquid surface.
+have sufficient energy to escape from the liquid surface.
 
 Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen bonding.
 

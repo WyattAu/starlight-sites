@@ -39,7 +39,7 @@ DDR5 represents a fundamental shift in memory architecture. The comparison is no
 
 DDR5 moves the power management IC (PMIC) from the motherboard onto the DIMM itself. This means each
 DIMM manages its own power regulation, reducing the burden on the motherboard VRM. It also means you
-Cannot adjust VDDQ/VPP independently per DIMM from the motherboard, the DIMM's PMIC handles this
+cannot adjust VDDQ/VPP independently per DIMM from the motherboard, the DIMM's PMIC handles this
 Internally.
 
 DDR5 doubles the bank group count (from 4 to 8) and doubles the burst length (from BL8 to BL16).
@@ -227,7 +227,7 @@ Real-world stability depends on:
 
 Modern desktop platforms support dual-channel memory. The memory controller has two independent
 64-bit channels, each with its own address/command bus and data bus. Dual-channel operation doubles
-The theoretical peak bandwidth:
+the theoretical peak bandwidth:
 
 $$
 Bandwidth = \frac{MT/s \times 8 \mathrm{ bytes \times channels}{1000}
@@ -247,7 +247,7 @@ For dual-channel operation, populate slots according to the motherboard manual. 
 - 4 DIMMs: Slots A2, B2, A1, B1
 
 Populating the wrong slots can result in single-channel operation, halving your bandwidth. Verify
-With CPU-Z (Windows) or `lshw -class memory` (Linux).
+with CPU-Z (Windows) or `lshw -class memory` (Linux).
 
 ### 1R vs 2R DIMMs
 
@@ -330,7 +330,7 @@ Internal clock:
 | Gear 4    | 1:4   | Extreme overclocking only                   | Significant increase |
 
 Gear 1 provides the lowest latency because the memory controller operates at the same frequency as
-The memory bus. Gear 2 halves the controller frequency, which adds approximately 2–4 ns of latency.
+the memory bus. Gear 2 halves the controller frequency, which adds approximately 2–4 ns of latency.
 For DDR5, most kits above 6000 MT/s require Gear 2.
 
 ### FCLK (AMD)
@@ -427,9 +427,9 @@ DIMMs.
 ### How ECC Works
 
 Error-Correcting Code (ECC) memory adds an extra memory chip (or chips) per DIMM that stores parity
-And syndrome information. For single-bit errors, ECC can detect and correct the error transparently
+and syndrome information. For single-bit errors, ECC can detect and correct the error transparently
 (SEC, Single Error Correction). For multi-bit errors, ECC can detect the error but cannot correct
-It (DED, Double Error Detection), triggering a machine check exception.
+it (DED, Double Error Detection), triggering a machine check exception.
 
 ### ECC Memory Types
 
@@ -441,14 +441,14 @@ It (DED, Double Error Detection), triggering a machine check exception.
 
 DDR5 introduces "in-band" ECC, where each 128-bit access includes 8 extra ECC bits that allow the
 DRAM to correct single-bit errors internally. This is separate from traditional ECC, it protects
-Against bit flips within the DRAM chip itself but does not protect against bus errors or provide the
+against bit flips within the DRAM chip itself but does not protect against bus errors or provide the
 Same level of protection as platform-level ECC.
 
 ### Performance Impact
 
 ECC memory has a small performance penalty (1–3%) due to the extra read-modify-write cycle for
 Updates and the latency of error checking. On registered ECC (RDIMM), there is an additional latency
-From the register buffer. On load-reduced DIMMs (LRDIMM), the latency penalty is larger (~5–10%) but
+from the register buffer. On load-reduced DIMMs (LRDIMM), the latency penalty is larger (~5–10%) but
 Capacity is significantly higher.
 
 ### When to Use ECC
@@ -503,7 +503,7 @@ echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-swappiness.conf
 ### Transparent Huge Pages (THP)
 
 THP allows the kernel to allocate 2 MB pages instead of the standard 4 KB pages, reducing TLB misses
-For workloads with large memory footprints. THP is enabled by default (`madvise` mode on many
+for workloads with large memory footprints. THP is enabled by default (`madvise` mode on many
 Distributions, `always` on some).
 
 ```bash
@@ -597,7 +597,7 @@ instability if set too aggressively.
 
 Populating all four DIMM slots significantly increases the electrical load on the memory controller.
 Most kits rated for 6000+ MT/s are only validated for two-DIMM configurations. With four DIMMs, you
-Will likely need to reduce frequency by one or two steps (e.g., from 6000 to 5200 or 5600 MT/s) or
+will likely need to reduce frequency by one or two steps (e.g., from 6000 to 5200 or 5600 MT/s) or
 Increase voltage. Check your motherboard's QVL (Qualified Vendor List) for four-DIMM validated
 Speeds.
 
@@ -605,15 +605,15 @@ Speeds.
 
 DDR memory speeds are measured in MT/s (mega-transfers per second), not MHz. DDR5-6000 transfers
 6000 million times per second, but the actual clock frequency is 3000 MHz because DDR transfers data
-On both edges of the clock signal (double data rate). When you see "6000 MHz" in a BIOS or review,
+on both edges of the clock signal (double data rate). When you see "6000 MHz" in a BIOS or review,
 It means 6000 MT/s.
 
 ### Neglecting DRAM Cooling
 
 High-speed DDR5 modules generate significant heat, 5–8 W per DIMM under sustained load. Without
 Adequate airflow over the DIMMs, temperatures can exceed 60 °C, which forces the memory controller
-To insert wait states or can cause instability. Ensure your case has intake airflow that passes over
-The DIMM area, or use aftermarket DRAM heatsinks and fans.
+to insert wait states or can cause instability. Ensure your case has intake airflow that passes over
+the DIMM area, or use aftermarket DRAM heatsinks and fans.
 
 ## Deep Dive: DDR5 Electrical Characteristics
 
@@ -917,7 +917,7 @@ During POST, the memory controller communicates with the DIMM's PMIC via SMBus t
 3. Enable or disable power saving features.
 
 If the PMIC firmware is outdated or incompatible with the motherboard, training can fail. Updating
-The PMIC firmware requires specialized tools and carries the risk of bricking the DIMM.
+the PMIC firmware requires specialized tools and carries the risk of bricking the DIMM.
 
 ## Memory Stability Under Linux
 
@@ -1059,7 +1059,7 @@ Dominate.
 ### Cold Boot vs. Warm Boot Stability
 
 Some memory configurations are stable after a warm boot (restart) but fail after a cold boot (power
-Off, wait, power on). This is because:
+off, wait, power on). This is because:
 
 1. **Cold boot** subjects the memory controller and DRAM to the full voltage and temperature range.
    The memory controller must calibrate from scratch.

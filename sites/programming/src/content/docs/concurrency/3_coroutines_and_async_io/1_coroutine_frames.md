@@ -200,7 +200,7 @@ Block of memory whose layout is implementation-defined [N4950 §9.5.4]. The gene
 
 The frame must be large enough to hold the **promise object**, a copy of **all function
 Parameters**, and **every local variable whose lifetime crosses a suspension point**. Variables that
-Are dead before or after a suspension point need not be stored in the frame. The compiler performs a
+are dead before or after a suspension point need not be stored in the frame. The compiler performs a
 Liveness analysis to minimize frame size [N4950 §9.5.4].
 
 The total frame size $S$ can be expressed as:
@@ -212,7 +212,7 @@ $$
 ### Frame Size Analysis
 
 The compiler performs a **liveness analysis** to determine which local variables must be stored in
-The frame. A variable must be stored in the frame if its lifetime spans at least one suspension
+the frame. A variable must be stored in the frame if its lifetime spans at least one suspension
 Point. Consider:
 
 ```cpp
@@ -228,7 +228,7 @@ Task example(int param) {
 
 Variables `a` and `b` must be stored in the frame because their lifetimes cross suspension points.
 Variable `c` may or may not be stored depending on whether the compiler can prove it does not need
-To persist (the compiler is conservative here and stores it).
+to persist (the compiler is conservative here and stores it).
 
 The frame layout is :
 
@@ -274,7 +274,7 @@ S_n \xrightarrow{\mathrm{resume} S_{\mathrm{done}
 $$
 
 At each state, the state machine executes the code segment between the previous suspension point and
-The next one. The switch on the state index is the first thing executed when the coroutine is
+the next one. The switch on the state index is the first thing executed when the coroutine is
 Resumed:
 
 ```cpp
@@ -347,7 +347,7 @@ Created. The conditions for HALO are:
 3. The coroutine does not outlive the scope in which it was created (no handle escapes).
 
 When these conditions are met, the compiler allocates the frame on the stack of the caller instead
-Of the heap. This eliminates the `operator new` / `operator delete` overhead.
+of the heap. This eliminates the `operator new` / `operator delete` overhead.
 
 ```cpp
 // HALO-eligible: the coroutine is created and destroyed within the same scope

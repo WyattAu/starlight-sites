@@ -90,7 +90,7 @@ struct BadLayout \{
 ### The Tail Padding Rule
 
 The total size of a structure must be a multiple of its alignment. This ensures that if the struct
-Is used in an array, the second element properly aligns.
+is used in an array, the second element properly aligns.
 
 - `alignof(BadLayout)` is 8 (due to `double b`).
 - Therefore, `sizeof(BadLayout)` must be a multiple of 8.
@@ -217,7 +217,7 @@ In network programming or binary file parsing, formats often ignore alignment ru
 Bandwidth. They are "Packed."
 
 Standard C++ does not provide a mechanism to pack structures, as it generates code that may crash on
-Non-x86 architectures. However, compiler extensions are universally supported.
+non-x86 architectures. However, compiler extensions are universally supported.
 
 <Tabs>
  <TabItem label="GCC / Clang">
@@ -260,7 +260,7 @@ Immediately into aligned native structures at the I/O boundary.
 ## 6. Bit-Fields
 
 Bit-fields allow packing multiple small integers into a single storage unit. The compiler handles
-The shift and mask operations transparently. However, the layout of bit-fields is
+the shift and mask operations transparently. However, the layout of bit-fields is
 **implementation-defined** [N4950 §11.4.9]:
 
 ```cpp

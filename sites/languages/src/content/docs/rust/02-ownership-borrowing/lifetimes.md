@@ -35,7 +35,7 @@ return a reference. The returned reference would point to freed memory. Lifetime
 by which the compiler tracks and enforces this constraint.
 
 Every reference in Rust has a lifetime, a region of code during which the reference is valid. In
-Most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
+most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
 Relationship between input and output lifetimes is ambiguous.
 
 ## Lifetime Annotation Syntax
@@ -76,7 +76,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 ```
 
 The return type's lifetime is tied only to `'a`. The compiler does not require `'a` and `'b` to have
-Any relationship, they are independent.
+any relationship, they are independent.
 
 ## Function Lifetimes
 
@@ -310,18 +310,18 @@ where
 ```
 
 The `T: ''a` bound ensures that `T` does not contain references shorter than `"a`. This is necessary
-Because the trait object might reference data with lifetime `'a`.
+because the trait object might reference data with lifetime `'a`.
 
 ## Lifetime Variance
 
 Variance determines whether a longer lifetime can be substituted for a shorter one. This is critical
-For writing correct generic code.
+for writing correct generic code.
 
 ### Covariance
 
 `&'a T` is covariant in `'a`. If `'long: "short`Then `&''long T` can be used where `&"short T` is
 Expected. This is safe because a longer-lived reference is a subtype of a shorter-lived one when you
-Only read through it:
+only read through it:
 
 ```rust
 fn takes_short<'a>(r: &'a str) {}
@@ -376,7 +376,7 @@ let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
 
 Violating variance assumptions in unsafe code causes undefined behavior. If you store a `&'long T`
 In a position that the compiler believes holds a `&'short T`The short reference may be used after
-The long reference's referent is freed:
+the long reference's referent is freed:
 
 ```rust
 use std::cell::Cell;
@@ -601,8 +601,8 @@ struct Context<'a> {
 ```
 
 If your struct contains a raw pointer that does not actually reference the lifetime parameter, you
-Can use `#[may_dangle]` (unsafe) to relax the drop check. This is advanced and should be used only
-When you can prove safety manually.
+can use `#[may_dangle]` (unsafe) to relax the drop check. This is advanced and should be used only
+when you can prove safety manually.
 
 ## Lifetime Bounds with `impl Trait`
 
@@ -677,7 +677,7 @@ fn make_closure<'a>() -> Box<dyn Fn(&'a str) -> usize> {
 ```
 
 The closure's return type is inferred from its body. When stored in a trait object, the lifetime
-Must be explicitly specified. This is because the trait object has an implicit lifetime bound:
+must be explicitly specified. This is because the trait object has an implicit lifetime bound:
 
 ```rust
 fn make_closure<'a>() -> Box<dyn Fn(&'a str) -> usize + 'a> {
@@ -688,7 +688,7 @@ fn make_closure<'a>() -> Box<dyn Fn(&'a str) -> usize + 'a> {
 ### Lifetime Bounds on Closures
 
 When a closure captures a reference, the closure's type carries a lifetime bound. This affects where
-The closure can be stored and used:
+the closure can be stored and used:
 
 ```rust
 fn with_callback<'a, F>(data: &'a str, callback: F)
@@ -837,7 +837,7 @@ impl<'a> SimpleParser<'a> {
 ```
 
 The returned `&'a str` borrows from the parser's `input` field, which has lifetime `'a`. This means
-The returned slices are valid as long as the parser's input is valid, zero-copy parsing.
+the returned slices are valid as long as the parser's input is valid, zero-copy parsing.
 
 ## `impl Trait` and Lifetimes
 
@@ -907,7 +907,7 @@ Allocation occurs.
 ### Lifetimes Across `.await` Points
 
 Holding a reference across an `.await` point is an error because the future may be moved or dropped
-Between yields:
+between yields:
 
 ```rust
 // This does NOT compile

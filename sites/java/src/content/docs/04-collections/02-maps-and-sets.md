@@ -19,7 +19,7 @@ description: "maps keys to values. It is not part of the hierarchy, it models a 
 
 `Map<K,V>` maps keys to values. It is not part of the `Collection` hierarchy, it models a
 Fundamentally different abstraction. Each key maps to at most one value, and each key can appear
-Only once.
+only once.
 
 ```java
 public interface Map<K, V> {
@@ -50,7 +50,7 @@ public interface Map<K, V> {
 ### `HashMap`
 
 The default general-purpose map. Uses an array of buckets (linked lists, converted to balanced trees
-When a bucket exceeds 8 entries, JDK 8+). Provides O(1) average-case for `put``get``remove` And
+when a bucket exceeds 8 entries, JDK 8+). Provides O(1) average-case for `put``get``remove` And
 `containsKey`.
 
 ```java
@@ -166,7 +166,7 @@ NavigableMap<String, Integer> subMap =
 
 Thread-safe map designed for high-concurrency access. Uses fine-grained locking (lock stripping on
 Buckets) to allow concurrent reads and writes to different segments. JDK 8+ uses CAS operations for
-Even better concurrency.
+even better concurrency.
 
 ```java
 ConcurrentHashMap<String, AtomicInteger> counterMap = new ConcurrentHashMap<>();
@@ -184,7 +184,7 @@ counterMap.merge("requests", 1, (oldVal, newVal) -&gt; {
 ### `Hashtable`
 
 Legacy thread-safe map from JDK 1.0. Uses method-level synchronization (the entire map is locked for
-Every operation). Do not use in new code, `ConcurrentHashMap` provides better concurrency and
+every operation). Do not use in new code, `ConcurrentHashMap` provides better concurrency and
 `Collections.synchronizedMap` provides the same semantics with less overhead.
 
 ```java
@@ -297,7 +297,7 @@ ordered.add("B");
 ### `EnumSet`
 
 A specialized `Set` implementation for enum types. Backed by a bit vector. Extremely fast (O(1) for
-All operations) and memory-efficient. The iterator traverses elements in their natural enum
+all operations) and memory-efficient. The iterator traverses elements in their natural enum
 Declaration order.
 
 ```java
@@ -321,7 +321,7 @@ Simple bit manipulations.
 ## Set Operations
 
 Java does not provide built-in union, intersection, or difference operators on sets, but the methods
-Are straightforward:
+are straightforward:
 
 ```java
 Set<Integer> a = new HashSet<>(Set.of(1, 2, 3, 4, 5));
@@ -477,7 +477,7 @@ List<String> sorted = names.stream()
 ## Immutable Collections
 
 JDK 9+ provides factory methods for compact, immutable collections. These are more memory-efficient
-Than `Collections.unmodifiableList(wrap(Arrays.asList(...)))`:
+than `Collections.unmodifiableList(wrap(Arrays.asList(...)))`:
 
 ```java
 // JDK 9+ immutable collections
@@ -499,7 +499,7 @@ Set<String> immutableSet = Set.copyOf(mutableSet);
 
 :::caution
 `NullPointerException`. This is by design, nulls in collections are a common source of bugs, and
-The immutable factories enforce non-null.
+the immutable factories enforce non-null.
 :::
 
 ### Unmodifiable Wrappers
@@ -822,7 +822,7 @@ for (Map.Entry<Day, String> entry : schedule.entrySet()) {
 ```
 
 `EnumMap` is faster and more memory-efficient than `HashMap` with enum keys. The internal array size
-Is exactly the number of enum constants, and there is no hashing overhead. Always prefer `EnumMap`
+is exactly the number of enum constants, and there is no hashing overhead. Always prefer `EnumMap`
 Over `HashMap` when keys are enum values.
 
 ### `WeakHashMap`

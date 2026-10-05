@@ -98,7 +98,7 @@ Covered in soft terry cloth that provided no milk but contact comfort.
 ### The Strange Situation Classification
 
 Mary Ainsworth (1978) developed the Strange Situation procedure to systematically assess the quality
-Of attachment between infants and their caregivers. The procedure involves a series of eight
+of attachment between infants and their caregivers. The procedure involves a series of eight
 3-minute episodes in a laboratory room, designed to activate the infant's attachment system by
 Introducing mild stressors (separation from the caregiver, the presence of a stranger).
 
@@ -144,7 +144,7 @@ Contact-maintaining, avoidance, resistance, and exploration.
 - The infant is wary of the stranger even in the caregiver's presence.
 
 **4. Disorganised attachment (Type D):** Identified by Main and Solomon (1986). Approximately 5--15%
-Of infants.
+of infants.
 
 - The infant displays no consistent strategy for dealing with separation and reunion.
 - The infant may show contradictory behaviours (e.g., approaching the caregiver while looking away,
@@ -157,7 +157,7 @@ Of infants.
 ### Caregiver Sensitivity Hypothesis
 
 Ainsworth proposed that the quality of attachment is determined by the caregiver's sensitivity to
-The infant's signals. Sensitive caregivers:
+the infant's signals. Sensitive caregivers:
 
 - Respond promptly and appropriately to the infant's signals (crying, smiling, reaching).
 - Interpret the infant's signals accurately.
@@ -171,7 +171,7 @@ Insensitive caregivers:
 
 **Evidence:** Ainsworth et al. (1978) found a strong correlation between maternal sensitivity
 Observed in the home (during naturalistic observation) and the infant's attachment classification in
-The Strange Situation. Mothers of securely attached infants were rated as more sensitive,
+the Strange Situation. Mothers of securely attached infants were rated as more sensitive,
 Responsive, and accepting than mothers of insecurely attached infants.
 
 ## Cross-Cultural Variations
@@ -179,8 +179,8 @@ Responsive, and accepting than mothers of insecurely attached infants.
 ### Van IJzendoorn and Kroonenberg (1988): Meta-Analysis
 
 Van IJzendoorn and Kroonenberg conducted a meta-analysis of 32 Strange Situation studies conducted
-In 8 countries (the United States, the United Kingdom, Germany, Japan, Sweden, Israel, China, and
-The Netherlands), encompassing over 2,000 infant-caregiver dyads.
+in 8 countries (the United States, the United Kingdom, Germany, Japan, Sweden, Israel, China, and
+the Netherlands), encompassing over 2,000 infant-caregiver dyads.
 
 **Key findings:**
 

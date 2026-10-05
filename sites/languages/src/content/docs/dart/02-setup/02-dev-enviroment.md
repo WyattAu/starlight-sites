@@ -46,10 +46,10 @@ Verifying.
 ## Compiling and Running
 
 With everything setup and a `Flutter: new project` created, the code can now be compiled and ran
-With the device selected. Now clicking `F5` (VSCode's debug mode) will run the command of
+with the device selected. Now clicking `F5` (VSCode's debug mode) will run the command of
 `flutter run --debug` and a counter app will be visible on your device. This is JIT compiled, and
-Can be hot-reloaded. If you want a release build use the `--release` flag instead, the profile mode
-Is a bit more complex, refer to
+can be hot-reloaded. If you want a release build use the `--release` flag instead, the profile mode
+is a bit more complex, refer to
 [Flutter documentation](https://docs.flutter.dev/testing/build-modes#profile) for more detail.
 
 ## Project Structure

@@ -328,7 +328,7 @@ Consumers, prefer an INTERFACE library (described below).
 ## INTERFACE Libraries in Depth
 
 INTERFACE libraries are pure property containers. They have no compiled output, they exist solely
-To propagate build requirements to their consumers.
+to propagate build requirements to their consumers.
 
 ```cmake
 # A header-only library
@@ -508,7 +508,7 @@ target_link_libraries(Engine PRIVATE spdlog)
 
 Making `spdlog` PUBLIC means every consumer of `Engine`and every consumer of those consumers,
 Must also be able to find `spdlog`. This creates a transitive dependency explosion that slows builds
-And makes the project harder to integrate.
+and makes the project harder to integrate.
 
 ## `target_sources` with File Sets (CMake 3.23+)
 
@@ -541,7 +541,7 @@ install(TARGETS Engine
 ```
 
 This replaces the manual `install(DIRECTORY include/ DESTINATION include)` pattern and ensures that
-Only headers declared in the file set are installed.
+only headers declared in the file set are installed.
 
 ## Intuition
 
@@ -586,7 +586,7 @@ endif()
 ### 3. Missing `target_link_options` for Link Flags
 
 Using `target_compile_options` for linker flags (like `-fuse-ld=lld`) is incorrect. Compiler options
-Are passed during compilation; linker options require `target_link_options`:
+are passed during compilation; linker options require `target_link_options`:
 
 ```cmake
 # BAD: -fuse-ld is a linker flag, not a compiler flag

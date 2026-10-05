@@ -31,7 +31,7 @@ Each dict maintains three structures internally:
 3. **`dk_size`**. The size of the hash table (always a power of 2).
 
 The hash table uses **open addressing** with pseudo-random probing. When a collision occurs, CPython
-Does not follow a linked list (chaining) but instead probes subsequent slots using a perturbation
+does not follow a linked list (chaining) but instead probes subsequent slots using a perturbation
 Scheme.
 
 ```python
@@ -374,7 +374,7 @@ print(config["timeout"])  # 30
 ```
 
 ChainMap is ideal for layered configuration systems: defaults, environment variables, CLI args, and
-Per-request overrides.
+per-request overrides.
 
 :::caution
 Layer, access it via `config.maps[0]``config.maps[1]`Etc.
@@ -506,7 +506,7 @@ By inheriting from `MutableMapping`We get `get``keys``values``items``pop``clear`
 ## UserDict, UserList, UserString
 
 The `collections` module provides wrapper classes that allow subclassing without directly inheriting
-From built-in types:
+from built-in types:
 
 ```python
 from collections import UserDict
@@ -694,7 +694,7 @@ print(bottom5) # [0, 1, 2, 3, 4] (varies)
 ```
 
 `nlargest(k, data)` is O(N log k) where N = len(data), making it efficient for small `k` relative to
-The data size. It uses a min-heap of size `k` internally.
+the data size. It uses a min-heap of size `k` internally.
 
 ### Max-Heap Pattern
 

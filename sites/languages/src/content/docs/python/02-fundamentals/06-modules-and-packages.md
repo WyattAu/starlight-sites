@@ -23,7 +23,7 @@ categories:
 
 The import system is the mechanism by which Python locates, loads, and binds module objects into the
 Current namespace. It is one of the most critical subsystems in the interpreter because every piece
-Of code you write depends on it, yet most developers treat it as magic. Understanding the import
+of code you write depends on it, yet most developers treat it as magic. Understanding the import
 System is essential for debugging import errors, designing package layouts, and avoiding circular
 Dependency traps.
 
@@ -100,14 +100,14 @@ print(os is sys.modules['os'])    # True
 
 The critical implication of `sys.modules` caching: if module A imports module B, and module B
 Modifies a global variable at module level, module A will see that modification even if A imported B
-Before the modification, because both references point to the same module object. Conversely, if
+before the modification, because both references point to the same module object. Conversely, if
 Module B is not yet in `sys.modules` when A imports it, B's top-level code runs as a side effect of
-The import.
+the import.
 
 ### `sys.path`
 
 `sys.path` is a list of strings that determines where Python looks for modules. It is populated in
-The following order (first match wins):
+the following order (first match wins):
 
 1. The directory containing the script being run (or the current directory if running interactively
    or with `-c`). This is **not** `os.getcwd()` in all cases -- it is the directory of the
@@ -167,7 +167,7 @@ Module's `__dict__`.
 ### Module Dunder Attributes
 
 Every module object has a set of special attributes that provide metadata about the module. These
-Are set by the import machinery and are critical for understanding how Python resolves names:
+are set by the import machinery and are critical for understanding how Python resolves names:
 
 ```python
 # utils.py
@@ -202,7 +202,7 @@ if __name__ == "__main__":
 ```
 
 This guard prevents the code block from executing when the module is imported. It is not optional
-For modules that have side effects at import time (starting servers, opening files, spawning
+for modules that have side effects at import time (starting servers, opening files, spawning
 Processes) -- without it, importing the module for testing or type checking would trigger those side
 Effects.
 
@@ -217,7 +217,7 @@ When a module uses `from . import sibling`The import system resolves the dot by 
 `__package__`.
 
 **`__doc__`** is the module's docstring -- the first string literal in the module body, if any. It
-Is accessible as `module.__doc__` and is what `help()` displays.
+is accessible as `module.__doc__` and is what `help()` displays.
 
 **`__spec__`** is a `ModuleSpec` instance that encapsulates all the information the import system
 Needs to load the module. It includes the name, loader, origin (filesystem path), submodule search
@@ -225,8 +225,8 @@ Locations, and other metadata. This was introduced in Python 3.4 as part of the 
 (PEP 451) and supersedes the older `__loader__` and `__cached__` attributes.
 
 **`__path__`** is only defined for packages (not for regular modules). It is a list of strings that
-The import system uses to find submodules. For regular packages, it contains the single directory
-Where the package's `__init__.py` lives. For namespace packages, it can contain multiple
+the import system uses to find submodules. For regular packages, it contains the single directory
+where the package's `__init__.py` lives. For namespace packages, it can contain multiple
 Directories.
 
 ```python
@@ -242,7 +242,7 @@ print(xml.__path__)   # list of directories where xml submodules live
 ### Regular Packages
 
 A package is a module that contains other modules. In the filesystem, it is a directory containing
-An `__init__.py` file. The presence of `__init__.py` is what tells the import system that a
+an `__init__.py` file. The presence of `__init__.py` is what tells the import system that a
 Directory should be treated as a package rather than an ordinary directory.
 
 ```
@@ -264,7 +264,7 @@ When you write `import mypackage.submodule`The import system:
 
 Step 5 is crucial: after `import mypackage.submodule`You can access the submodule as
 `mypackage.submodule`. The `mypackage.__init__.py` does not need to explicitly import the submodule
-For this to work -- the import machinery does it automatically.
+for this to work -- the import machinery does it automatically.
 
 ### The Role of `__init__.py`
 
@@ -502,7 +502,7 @@ Module becomes a dependency of both, breaking the cycle.
 ### Strategy 2: Import Inside Functions
 
 Move the import from module level to inside the function that needs it. This defers the import until
-The function is actually called, by which time both modules are fully initialized:
+the function is actually called, by which time both modules are fully initialized:
 
 ```python
 # module_a.py
@@ -523,7 +523,7 @@ Analysis tools.
 ### Strategy 3: `TYPE_CHECKING` Guard
 
 When the circular import exists only for type annotations (not for runtime behavior), you can guard
-The import with `typing.TYPE_CHECKING`:
+the import with `typing.TYPE_CHECKING`:
 
 ```python
 # module_a.py
@@ -543,7 +543,7 @@ Annotations lazy strings), the import never executes at runtime, breaking the cy
 Type information.
 
 This pattern is the standard solution for circular type dependencies and should be your first choice
-When the import is only needed for annotations.
+when the import is only needed for annotations.
 
 ### Strategy 4: Lazy Imports
 
@@ -723,7 +723,7 @@ Directory is added to `sys.path`. This means `import mypackage` resolves to the 
 
 The src layout prevents this by moving the package out of the project root. When `python -m pytest`
 Runs from the project root, `./src/` is on `sys.path`But `import mypackage` will fail unless you
-Have done `pip install -e .` (which installs a `.egg-link` pointing to `src/mypackage/`). This
+have done `pip install -e .` (which installs a `.egg-link` pointing to `src/mypackage/`). This
 Forces you to install the package properly, which catches configuration errors in `pyproject.toml`
 And `setup.cfg`.
 
@@ -1051,7 +1051,7 @@ The only acceptable use case is in `__init__.py` for explicitly controlled re-ex
 
 If you try to run a file inside a package directly (`python mypackage/submodule.py`), it runs with
 `__name__ == '__main__'` and `__package__ == None`. Any relative imports in that file (or in files
-It imports) will fail. Always use `python -m mypackage.submodule` to run modules within a package.
+it imports) will fail. Always use `python -m mypackage.submodule` to run modules within a package.
 
 ### Editing `sys.path` Correctly
 
@@ -1076,7 +1076,7 @@ If a directory contains `__init__.py`It is a regular package, not a namespace pa
 add another directory with the same package name to `sys.path` expecting namespace package
 Semantics, it will not work -- the first directory's `__init__.py` takes precedence. To convert a
 Regular package to a namespace package, you must remove the `__init__.py` from all directories that
-Should participate in the namespace.
+should participate in the namespace.
 
 ### `__pycache__` and Bytecode Staleness
 

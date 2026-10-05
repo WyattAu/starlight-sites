@@ -189,7 +189,7 @@ class OrderServiceTest {
 ### Relaxed Mocks
 
 A relaxed mock returns default values for all function calls without explicit stubbing. Useful when
-You only care about verifying specific interactions.
+you only care about verifying specific interactions.
 
 ```kotlin
 val repository = mockk<Repository>(relaxed = true)

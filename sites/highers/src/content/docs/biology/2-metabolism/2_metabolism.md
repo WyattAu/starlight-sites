@@ -408,7 +408,7 @@ A person drinks 2 litres of water. What happens to their blood osmolarity and AD
 ## Review: Aerobic Respiration -- Detailed ATP Accounting
 
 The precise ATP yield from aerobic respiration depends on the shuttle system used to transport NADH
-From glycolysis into the mitochondria and on the actual number of protons pumped per complex.
+from glycolysis into the mitochondria and on the actual number of protons pumped per complex.
 
 **Using modern estimates (2.5 ATP per NADH, 1.5 ATP per FADH$_2$):**
 
@@ -517,7 +517,7 @@ Producing large quantities of antibodies before the pathogen can cause illness.
 Vaccination or previous infection), the spread of the disease is limited because there are too few
 Susceptible individuals for the pathogen to infect. This protects even those who cannot be
 Vaccinated (e.g., newborns, immunocompromised individuals). The threshold for herd immunity varies
-By disease: measles requires approximately 95% immunity; polio requires approximately 80%.
+by disease: measles requires approximately 95% immunity; polio requires approximately 80%.
 
 **Types of vaccines:**
 
@@ -611,7 +611,7 @@ Nephrons.
 
 Shivering involves rapid, involuntary contractions of skeletal muscles. Muscle contraction requires
 ATP, which is produced by cellular respiration. Respiration is only about 40% efficient, meaning
-That 60% of the energy from glucose is released as heat. During shivering, the increased rate of
+that 60% of the energy from glucose is released as heat. During shivering, the increased rate of
 Respiration in muscles generates significantly more heat than normal, raising the core body
 Temperature.
 
@@ -653,14 +653,14 @@ At very high $[S]$ (e.g., 100 mM):
 - With inhibitor: $v \approx 6$ $\mu$ Mol/min.
 
 Unlike the competitive inhibitor, the non-competitive inhibitor reduces the maximum rate even at
-Very high substrate concentrations, because it reduces the number of functional enzyme molecules
+very high substrate concentrations, because it reduces the number of functional enzyme molecules
 Regardless of substrate concentration.
 
 ## Review: C4 and CAM Photosynthesis (Advanced Higher)
 
 **C4 photosynthesis:** In C4 plants (e.g., maize, sugarcane), $\mathrm{CO_2$ is initially fixed by
 PEP carboxylase in mesophyll cells to form oxaloacetate (4C), which is converted to malate. Malate
-Is transported to bundle-sheath cells, where $\mathrm{CO_2$ is released and enters the Calvin cycle.
+is transported to bundle-sheath cells, where $\mathrm{CO_2$ is released and enters the Calvin cycle.
 PEP carboxylase has a much higher affinity for $\mathrm{CO_2$ than RuBisCO and does not bind
 $\mathrm{O_2$ Minimising photorespiration.
 
@@ -673,7 +673,7 @@ separation Minimises water loss while maintaining carbon fixation.
 
 A C3 plant loses approximately 500 g of water per gram of $\mathrm{CO_2$ fixed. A C4 plant loses
 Approximately 250 g of water per gram of $\mathrm{CO_2$ fixed. A CAM plant loses approximately 50 g
-Of water per gram of $\mathrm{CO_2$ fixed.
+of water per gram of $\mathrm{CO_2$ fixed.
 
 CAM plants are the most water-efficient because they close their stomata during the day, minimising
 Transpirational water loss. This is why CAM plants dominate in arid environments.
@@ -721,7 +721,7 @@ $$
 
 Pyruvate is decarboxylated to acetaldehyde (by pyruvate decarboxylase) and then reduced to ethanol
 (by alcohol dehydrogenase). This regenerates $\mathrm{NAD^+$ for glycolysis. Alcoholic fermentation
-Is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the dough to rise).
+is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the dough to rise).
 
 **Comparing fermentation products:**
 

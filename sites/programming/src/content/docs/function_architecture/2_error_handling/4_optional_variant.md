@@ -27,7 +27,7 @@ Representing values that may be absent or that may hold one of several alternati
 ## 4.1 `std::optional<T>`
 
 `std::optional<T>` models a value that may or may not be present [N4950 §20.6]. It is allocated on
-The stack, stores at most one `T`And requires no heap allocation.
+the stack, stores at most one `T`And requires no heap allocation.
 
 ```cpp
 #include <iostream>
@@ -74,7 +74,7 @@ int main() {
 ## 4.2 `std::variant<T, U, V>`
 
 `std::variant` is a type-safe, stack-allocated union that holds exactly one of its alternative types
-At any time [N4950 §20.7].
+at any time [N4950 §20.7].
 
 ```cpp
 #include <iostream>

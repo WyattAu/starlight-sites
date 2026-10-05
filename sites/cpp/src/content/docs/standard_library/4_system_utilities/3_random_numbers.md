@@ -34,7 +34,7 @@ Practical usage patterns.
 ### Overview
 
 The `<random>` header [N4950 §29.6] provides a modular random number generation system consisting
-Of:
+of:
 
 1. **Engines:** Stateful objects that produce a sequence of random numbers.
 2. **Distributions:** Objects that transform the engine"s output into a desired statistical
@@ -66,11 +66,11 @@ An engine satisfies the **UniformRandomBitGenerator** requirement [N4950 §29.6.
 
 **`std::mt19937`** (Mersenne Twister) is the standard workhorse engine. It has a period of 2^19937 -
 1 (a Mersenne prime), which means the sequence does not repeat for all practical purposes. Its state
-Is 2500 bytes (624 × 32-bit words). It passes most statistical tests but is **not**
+is 2500 bytes (624 × 32-bit words). It passes most statistical tests but is **not**
 Cryptographically secure [N4950 §29.6.3.4].
 
 **`std::random_device`** is a non-deterministic uniform random bit generator that obtains entropy
-From the operating system (`/dev/urandom` on Linux, `BCryptGenRandom` on Windows) [N4950 §29.6.5.3].
+from the operating system (`/dev/urandom` on Linux, `BCryptGenRandom` on Windows) [N4950 §29.6.5.3].
 
 :::caution
 Fixed-seed PRNG, producing the same sequence on every run. This was a well-known bug. Modern
@@ -338,7 +338,7 @@ This serialization is essential for:
 
 :::caution
 Library implementations. GCC libstdc++ and Clang libc++ may produce different binary formats. Use
-Only the same implementation for save/restore.
+only the same implementation for save/restore.
 :::
 
 ### `std::random_device` Implementation Details
@@ -414,7 +414,7 @@ void seed_seq_quality_demo() {
 ```
 
 The `std::seed_seq::generate` algorithm uses a warm-up process based on the initialization algorithm
-From the Mersenne Twister paper. It performs multiple mixing passes to ensure all bits of the
+from the Mersenne Twister paper. It performs multiple mixing passes to ensure all bits of the
 Initial state have high entropy.
 
 ### `std::uniform_int_distribution` Modulo Bias

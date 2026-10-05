@@ -76,7 +76,7 @@ These isotopic patterns are diagnostic for identifying the presence and number o
 ### Fragmentation Patterns
 
 Fragmentation occurs when the molecular ion breaks apart. The fragmentation pathways are determined
-By the stability of the resulting ions and radicals. Key patterns:
+by the stability of the resulting ions and radicals. Key patterns:
 
 | Fragment                | $m/z$      | Origin                                                        |
 | ----------------------- | ---------- | ------------------------------------------------------------- |
@@ -95,7 +95,7 @@ By the stability of the resulting ions and radicals. Key patterns:
 ### The McLafferty Rearrangement
 
 A characteristic fragmentation of carbonyl compounds with a $\gamma$-hydrogen (three carbons away
-From the carbonyl). The $\gamma$-hydrogen transfers to the carbonyl oxygen via a six-membered cyclic
+from the carbonyl). The $\gamma$-hydrogen transfers to the carbonyl oxygen via a six-membered cyclic
 Transition state, producing an enol radical cation and an alkene:
 
 $$
@@ -130,7 +130,7 @@ Bending).
 The region below $1500\,\mathrm{cm}^{-1}$ ($1500$--$400\,\mathrm{cm}^{-1}$) contains a complex
 Pattern of absorptions from bending vibrations and C--C, C--O, C--X single bond stretches. This
 Pattern is unique to each compound (like a fingerprint) and is used for identification by comparison
-With reference spectra.
+with reference spectra.
 
 ### Interpreting an IR Spectrum
 
@@ -190,8 +190,8 @@ signal is split into $n+1$ peaks, where $n$ is the number of equivalent neighbou
 | 4                | Quintet   | 5     |
 
 The coupling constant $J$ (in Hz) is the spacing between adjacent peaks in a multiplet. Protons that
-Are chemically equivalent do not couple to each other. The OH proton in alcohols and the NH proton
-In amines often appear as broad singlets because of rapid proton exchange with trace water.
+are chemically equivalent do not couple to each other. The OH proton in alcohols and the NH proton
+in amines often appear as broad singlets because of rapid proton exchange with trace water.
 
 ### Carbon-13 ($^{13}\mathrm{C}$) NMR
 
@@ -266,7 +266,7 @@ $\mathrm{C}_{18}$-bonded silica), polar compounds elute first.
 
 **Separation principle:** Compounds are vaporised and carried through the column by the carrier gas.
 Separation depends on volatility (lower boiling point = shorter retention time) and interaction with
-The stationary phase.
+the stationary phase.
 
 **Retention time ($t_R$):** The time from injection to detection. Characteristic of a compound under
 Fixed conditions.
@@ -543,7 +543,7 @@ Identify the compound.
 **Molecular formula:** $M_r = 88$. Possible formula for a carboxylic acid (IR shows C=O and broad
 O--H): $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$ ($M_r = 4 \times 12 + 8 \times 1 + 2 \times 16 = 88$).
 The degree of unsaturation is $2 - 4 + \frac{8}{2} + 1 = 1$ (one double bond or ring, consistent
-With one C=O).
+with one C=O).
 
 **IR:** $1700\,\mathrm{cm}^{-1}$ confirms C=O. Broad $2500$--$3300\,\mathrm{cm}^{-1}$ confirms
 Carboxylic acid O--H.
@@ -561,14 +561,14 @@ A methyl group attached to a carbonyl. The carboxylic acid proton is at 11.0.
 
 The compound is **butanoic acid** ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH}$). Let us
 Verify: $-\mathrm{CH}_3$ (t, 3H) at C-4, $-\mathrm{CH}_2-$ (sextet or multiplet, but the data shows
-The quartet at 2.3 for $-\mathrm{CH}_2\mathrm{COOH}$). Actually, for butanoic acid: $-\mathrm{CH}_3$
-At C-4 would be a triplet (adjacent to one $-\mathrm{CH}_2-$2H), the $-\mathrm{CH}_2-$ at C-3 Would
+the quartet at 2.3 for $-\mathrm{CH}_2\mathrm{COOH}$). Actually, for butanoic acid: $-\mathrm{CH}_3$
+at C-4 would be a triplet (adjacent to one $-\mathrm{CH}_2-$2H), the $-\mathrm{CH}_2-$ at C-3 Would
 be a sextet (adjacent to 2H and 2H), the $-\mathrm{CH}_2-$ at C-2 would be a triplet (adjacent To
 2H). The singlet at 2.0 is inconsistent with butanoic acid.
 
 The compound is **2-methylpropanoic acid** ($(\mathrm{CH}_3)_2\mathrm{CHCOOH}$): $-\mathrm{CH}_3$
 Groups (doublet, 6H), $-\mathrm{CH}-$ (multiplet, 1H), $-\mathrm{COOH}$ (singlet, 1H). This also
-Does not match the data.
+does not match the data.
 
 Re-examining: The triplet-quartet pair + singlet at 2.0 + singlet at 11.0 is consistent with
 **propanoic acid with a methyl ketone** -- but that exceeds the formula. The compound is **ethyl

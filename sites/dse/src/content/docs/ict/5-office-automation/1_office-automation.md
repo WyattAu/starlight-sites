@@ -182,7 +182,7 @@ To find the price:
 ```
 
 `A1` is the lookup value (`P003`). `$E$1:$F$5` is the table (absolute reference). `2` means return
-The value from the 2nd column (Price). `FALSE` means exact match.
+the value from the 2nd column (Price). `FALSE` means exact match.
 
 Result: 75.
 
@@ -506,7 +506,7 @@ Visual presentations.
 ### Mail Merge
 
 Mail merge combines a main document (template) with a data source to produce personalised documents
-For each record.
+for each record.
 
 **Process:**
 
@@ -800,22 +800,22 @@ Corresponding prices.
 (b) Explain what happens if the code in `A2` is not found in the product table.
 
 (c) Describe how conditional formatting can be applied to column `B` to highlight prices greater
-Than 100 in red.
+than 100 in red.
 
 Answer:
 
 (a) `=VLOOKUP(A2, $H$2:$I$6, 2, FALSE)`
 
 `A2` is the lookup value. `$H$2:$I$6` is the table range (absolute references so it does not shift
-When copied down). `2` specifies the second column (Price). `FALSE` requires an exact match.
+when copied down). `2` specifies the second column (Price). `FALSE` requires an exact match.
 
 (b) If the code is not found, VLOOKUP returns `#N/A` (Not Available). To handle this gracefully, use
 `=IFERROR(VLOOKUP(A2, $H$2:$I$6, 2, FALSE), "Not Found")` to display a custom message instead of an
 Error.
 
 (c) Select the range `B2:B20`. Go to Conditional Formatting &gt; Highlight Cells Rules &gt; Greater
-Than. Enter `100` and select red formatting. This applies red fill to any cell in the range where
-The value exceeds 100.
+than. Enter `100` and select red formatting. This applies red fill to any cell in the range where
+the value exceeds 100.
 
 </details>
 
@@ -839,7 +839,7 @@ Answer:
 Class, DateOfBirth. The table is the fundamental data storage structure.
 
 (b) **Query:** Retrieves specific data from tables based on criteria. For example, a query to list
-All students in class 5A who scored above 80 in ICT. Queries can also perform calculations (e.g.,
+all students in class 5A who scored above 80 in ICT. Queries can also perform calculations (e.g.,
 Average score per class).
 
 (c) **Form:** Provides a user-friendly interface for data entry and editing. For example, a
@@ -877,7 +877,7 @@ between slips.
 The linked salary slips will automatically reflect the updated values when refreshed. (2) The Excel
 File is likely updated monthly, and linking ensures the template always uses the latest data. (3)
 The template file remains smaller with linking. Embedding would create a static snapshot that would
-Not update when the source data changes.
+not update when the source data changes.
 
 (c) Two advantages: (1) **Consistency:** A macro can apply the exact same formatting, layout, and
 Calculations to every salary slip, eliminating variations caused by manual operations. (2) **Time
@@ -918,9 +918,9 @@ This calculates the percentage of "P" values out of 5 days.
 This counts how many cells in column `B` (rows 2--31) contain "A".
 
 (d) Select the range `G2:G31`. Go to Conditional Formatting &gt; Highlight Cells Rules &gt; Less
-Than. Enter `80` and select red formatting. Any cell in column `G` with a value below 80 will be
+than. Enter `80` and select red formatting. Any cell in column `G` with a value below 80 will be
 Highlighted in red. Note: the formula in `G` must calculate a percentage (not just a count) for this
-To work correctly.
+to work correctly.
 
 </details>
 

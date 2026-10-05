@@ -261,7 +261,7 @@ Influential points can pull the regression line significantly toward themselves.
 
 **Effect on PMCC:** A single influential point can dramatically change $r$. For example, adding an
 Extreme point to a dataset with $r = 0.3$ could push $r$ to $0.8$ or change its sign entirely. This
-Is why it is essential to inspect scatter plots alongside numerical summaries.
+is why it is essential to inspect scatter plots alongside numerical summaries.
 
 **Example.** In a study of height vs. Salary across 50 people, most data shows weak positive
 Correlation ($r \approx 0.2$). If one NBA player earning millions is included, the PMCC may jump to
@@ -289,7 +289,7 @@ commenting on the limitation.
 ## 6. Coding in Regression
 
 If we code $u = \dfrac{x-p}{q}$ and $v = \dfrac{y-r}{s}$ And find the regression line $v = c + du$
-Then:
+then:
 
 - The gradient in terms of original variables: $b = \dfrac{s}{q}d$
 - The intercept: $a = r + s \cdot c - b \cdot p$
@@ -300,7 +300,7 @@ Coding **does not change** the PMCC or Spearman's rank correlation coefficient.
 
 **Why?** PMCC is based on standardised quantities. Coding $x \mapsto u = (x-p)/q$ is a linear
 Transformation (shift by $p$ Scale by $1/q$), and $r$ is invariant under linear transformations of
-Either variable. Similarly, Spearman's uses ranks, which are unaffected by any monotonic
+either variable. Similarly, Spearman's uses ranks, which are unaffected by any monotonic
 Transformation including linear coding.
 
 **Effect on regression:** Coding changes the gradient and intercept of the regression line, as shown
@@ -323,8 +323,8 @@ y = 2300 + 70x
 $$
 
 The gradient $b = 70$ means each additional GBP spent on advertising is associated with an increase
-Of GBP 70 in revenue. The PMCC calculated from the coded data would be identical to the PMCC from
-The original data.
+of GBP 70 in revenue. The PMCC calculated from the coded data would be identical to the PMCC from
+the original data.
 
 <hr />
 
@@ -572,7 +572,7 @@ Regression line: $y = -79 + 2.25x$.
 
 This prediction is reasonably reliable since 150 is within (or close to) the range of the data.
 However, $n = 12$ is a small sample, so there is considerable uncertainty. The prediction should not
-Be treated as precise.
+be treated as precise.
 
 **If you get this wrong, revise:** [Least Squares Regression](#3-least-squares-regression), Section
 3, and [Extrapolation](#52-extrapolation), Section 5.2.
@@ -642,8 +642,8 @@ $70$. The residual is $70 - 55 = 15$ Which is positive and large.
 Gradient (pull the line upward at the right side).
 
 (b) Since the point lies close to the general positive trend (above the line in the same direction
-As the overall slope), it will likely **increase** the PMCC slightly. However, if the point were
-Below the trend, it could decrease $r$ significantly, a single influential point can change $r$ by
+as the overall slope), it will likely **increase** the PMCC slightly. However, if the point were
+below the trend, it could decrease $r$ significantly, a single influential point can change $r$ by
 A large amount.
 
 **If you get this wrong, revise:**

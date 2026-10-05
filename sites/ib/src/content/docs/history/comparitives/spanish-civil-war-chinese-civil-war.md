@@ -24,7 +24,7 @@ After the collapse of Qing Dynasty (1912), there were a period of warlordism, du
 Nationalist Kuomintang (KMT) under Chiang Kai-shek took control of most of China. Communist Party of
 China (CCP) established in 1921 had conflicting ideologies with KMT and led to a the Chinese Civil
 War. This conflict had two major phases, first from 1927 to 1937, second being 1946 to 1949, with
-The second Sino-Japanese War in between.
+the second Sino-Japanese War in between.
 
 ### Spanish Civil War
 
@@ -576,13 +576,13 @@ Division. The USSR's manipulation of the Republican war effort further undermine
 Principles (nationalism, democracy, livelihood), but under Chiang Kai-shek it became increasingly
 Authoritarian and aligned with landlord and business interests. The CCP adapted Marxist-Leninist
 Ideology to Chinese conditions through **Mao Zedong Thought**, which replaced the urban proletariat
-With the peasantry as the revolutionary class. This ideological innovation was decisive, it gave
-The CCP a mass base that the KMT could not match.
+with the peasantry as the revolutionary class. This ideological innovation was decisive, it gave
+the CCP a mass base that the KMT could not match.
 
 ### Role of Religion
 
 In **Spain**, the Catholic Church was a central pillar of the Nationalist cause. Franco presented
-The war as a crusade against "godless communism." The Church's active support for the Nationalists,
+the war as a crusade against "godless communism." The Church's active support for the Nationalists,
 And the Republican anti-clerical violence (church burnings, murder of priests), gave the war a
 Powerful religious dimension that extended beyond politics.
 
@@ -608,7 +608,7 @@ Economic (landlord vs peasant) rather than religious.
 <summary>Question 1</summary>
 
 "To what extent was foreign intervention the decisive factor in determining the outcome of either
-The Spanish Civil War or the Chinese Civil War?"
+the Spanish Civil War or the Chinese Civil War?"
 
 </details>
 

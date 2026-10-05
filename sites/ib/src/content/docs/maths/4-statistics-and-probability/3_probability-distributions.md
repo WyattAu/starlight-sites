@@ -42,7 +42,7 @@ $$
 
 The CDF is non-decreasing and right-continuous, with $F(-\infty) = 0$ and $F(\infty) = 1$. For a
 Discrete variable it is a step function with jumps at each value in the range of $X$. The size of
-Each jump at $x = a$ equals $P(X = a)$.
+each jump at $x = a$ equals $P(X = a)$.
 
 ### Expected Value
 
@@ -89,7 +89,7 @@ $$
 $$
 
 Adding a constant shifts the distribution but does not change its spread. Multiplying by $a$ scales
-The spread by $|a|$.
+the spread by $|a|$.
 
 :::note[Example]
 A discrete random variable $X$ has PMF:
@@ -205,7 +205,7 @@ Independence.
 - $p \gt 0.5$: negatively skewed (left tail longer).
 
 As $n$ increases the distribution approaches a bell shape (by the Central Limit Theorem). The mode
-Of $B(n, p)$ is at $\lfloor (n+1)p \rfloor$.
+of $B(n, p)$ is at $\lfloor (n+1)p \rfloor$.
 
 ### Cumulative Probabilities
 
@@ -371,7 +371,7 @@ Over 2 hours: $Y \sim \mathrm{Po}(7)$, $P(Y \gt 7) = 1 - P(Y \le 7) \approx 0.40
 
 :::note[Example: Poisson approximation to Binomial]
 A typesetter makes errors at a rate of 1 per 500 characters. In a passage of 2000 characters, find
-The probability of at most 2 errors.
+the probability of at most 2 errors.
 
 Exact: $X \sim B(2000, 1/500)$ With $\lambda = 2000/500 = 4$.
 
@@ -500,7 +500,7 @@ Normal, $z = \Phi^{-1}(p)$. For a general normal: $x = \mu + z\sigma$.
 
 When $\mu$ or $\sigma$ is unknown, use standardisation with a known probability to set up
 Simultaneous equations. Each known probability gives one equation in two unknowns; two probabilities
-Are needed.
+are needed.
 :::
 
 :::note[Example]
@@ -739,7 +739,7 @@ P(X = x) = \binom{x-1}{r-1} p^r (1-p)^{x-r}, \quad x = r, r+1, r+2, \ldots
 $$
 
 In the first $x-1$ trials there are $r-1$ successes (in $\dbinom{x-1}{r-1}$ ways), and trial $x$ is
-The $r$-th success.
+the $r$-th success.
 
 ### Mean and Variance
 
@@ -976,7 +976,7 @@ $$
 $$
 
 Note: the variance of the difference uses addition (plus signs for both terms), and the constants
-Are squared.
+are squared.
 
 </details>
 
@@ -1230,7 +1230,7 @@ $$
 ### Problem 3
 
 A bookshop sells an average of 3.2 rare books per week. $X \sim \mathrm{Po}(3.2)$ is the number sold
-In a week. Find $P(X = 4)$, $P(X = 0)$ And $P(X \gt 5)$.
+in a week. Find $P(X = 4)$, $P(X = 0)$ And $P(X \gt 5)$.
 
 <details>
 <summary>Solution</summary>
@@ -1284,7 +1284,7 @@ A score of approximately 75.3 is exceeded by only 10% of students.
 ### Problem 5
 
 The waiting time for a train is uniformly distributed between 0 and 12 minutes. Find the probability
-That the waiting time is (a) less than 5 minutes, (b) between 7 and 10 minutes, (c) more than 8
+that the waiting time is (a) less than 5 minutes, (b) between 7 and 10 minutes, (c) more than 8
 Minutes given that it has already been 3 minutes.
 
 <details>
@@ -1421,7 +1421,7 @@ $E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1.960 \times \frac{0.4}{\sqrt{
 
 The calculated margin of error ($0.1109$) exceeds the stated margin ($0.08$). This suggests the
 Confidence interval was constructed with a different confidence level or the stated $\sigma$ does
-Not match the data. If we solve for the confidence level that gives $E = 0.08$:
+not match the data. If we solve for the confidence level that gives $E = 0.08$:
 
 $$
 z_{\alpha/2} = \frac{0.08}{0.4/\sqrt{50}} = \frac{0.08}{0.0566} = 1.413

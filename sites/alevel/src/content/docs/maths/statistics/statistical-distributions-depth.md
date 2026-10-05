@@ -136,7 +136,7 @@ Where $\Phi(z)$ denotes the cumulative distribution function of the standard nor
 
 **Problem.** The masses of bags of sugar are normally distributed with mean $1.02\;\mathrm{kg}$ and
 Standard deviation $0.03\;\mathrm{kg}$. Find: (a) the probability a randomly selected bag has mass
-Less than $1.00\;\mathrm{kg}$; (b) the probability the mass is between $0.98$ and
+less than $1.00\;\mathrm{kg}$; (b) the probability the mass is between $0.98$ and
 $1.05\;\mathrm{kg}$; (c) the value $m$ such that 90% of bags have mass less than $m$.
 
 $X \sim N(1.02, 0.03^2)$.

@@ -679,7 +679,7 @@ English") That would be extremely difficult with a flat file.
 Databases use SQL for flexible querying; hierarchical databases require navigation through the tree
 Structure. **Disadvantage:** Relational databases are more complex to design, requiring knowledge of
 Normalisation and SQL, while hierarchical databases have a simpler tree structure that is intuitive
-For hierarchical data.
+for hierarchical data.
 
 (c) **Tables and keys:**
 

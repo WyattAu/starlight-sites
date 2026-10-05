@@ -294,7 +294,7 @@ Decrypted message: 7. ✓
 
 Symmetric encryption (e.g., AES) uses simple operations: substitution boxes (S-boxes), bit
 Permutations, and XOR, all of which are fast hardware operations. AES-128 requires only 10 rounds
-Of these operations.
+of these operations.
 
 Asymmetric encryption (e.g., RSA) relies on computationally expensive mathematical operations:
 Modular exponentiation on very large numbers (hundreds of digits). RSA encryption requires computing
@@ -615,14 +615,14 @@ The packet is allowed by Rule 2.
 
 **SYN flood:** The attacker sends a large volume of SYN packets with spoofed source IP addresses.
 The server responds with SYN-ACK to each, allocates memory for the half-open connection, and waits
-For the ACK that never arrives (because the source IP is spoofed). The server's connection table
+for the ACK that never arrives (because the source IP is spoofed). The server's connection table
 Fills up, preventing legitimate connections.
 
 **SYN cookies mitigation:** Instead of allocating state for each half-open connection, the server
 Encodes the connection state (a hash of source IP, source port, destination IP, destination port,
 And a secret) into the initial sequence number of the SYN-ACK. When the ACK arrives, the server
 Recomputes the hash from the packet headers and verifies it matches. Only if the ACK is valid does
-The server allocate memory for the connection. This eliminates the resource exhaustion problem.
+the server allocate memory for the connection. This eliminates the resource exhaustion problem.
 
 </details>
 
@@ -660,11 +660,11 @@ Establish the key, but you need the key to create a secure channel.
 
 Asymmetric encryption solves this because the public key can be transmitted openly. The sender
 Encrypts the symmetric session key with the receiver's public key. Only the receiver's private key
-Can decrypt it. This is how TLS works: the asymmetric handshake establishes a shared secret, and all
+can decrypt it. This is how TLS works: the asymmetric handshake establishes a shared secret, and all
 Subsequent data uses fast symmetric encryption.
 
 Without asymmetric encryption, there would be no practical way to establish secure communication
-Between parties who have never met in person.
+between parties who have never met in person.
 
 </details>
 

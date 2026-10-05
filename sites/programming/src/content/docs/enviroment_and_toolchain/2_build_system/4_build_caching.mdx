@@ -12,7 +12,7 @@ categories:
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 Compiling C++ is computationally expensive. Each Translation Unit (TU) must be preprocessed, parsed
-Into an Abstract Syntax Tree (AST), optimized, and assembled into machine code. In a typical
+into an Abstract Syntax Tree (AST), optimized, and assembled into machine code. In a typical
 Workflow, changing a single header file can force the recompilation of hundreds of source files.
 
 **Build Caching** intercepts compiler calls. It hashes the inputs (source code, compiler flags, and
@@ -159,7 +159,7 @@ $$
 $$
 
 Direct mode is significantly faster but can produce false positives (cache hits when the output
-Would differ) if the compiler's include resolution differs from ccache's. The `-o` flag in direct
+would differ) if the compiler's include resolution differs from ccache's. The `-o` flag in direct
 Mode sets the level of safety.
 
 ### Proof of Cache Correctness
@@ -196,7 +196,7 @@ Caching tool command _before_ the compiler command in the build system execution
 ### Strategy 1: Global Configuration (User-Level)
 
 Do not modify the project `CMakeLists.txt`. Instead, modify the **CMake Preset** or pass the flag
-During configuration. This ensures developers who lack caching tools can still build the project.
+during configuration. This ensures developers who lack caching tools can still build the project.
 
 **Using CMake Presets (`CMakePresets.json`):**
 
@@ -236,7 +236,7 @@ endif()
 ### Strategy 3: Per-Target Caching
 
 Not all targets benefit equally from caching. Frequently-modified targets may not see cache hits at
-All, while stable dependency targets benefit enormously. You can selectively enable caching:
+all, while stable dependency targets benefit enormously. You can selectively enable caching:
 
 ```cmake
 # Only cache compilation of third-party dependencies
@@ -369,7 +369,7 @@ sccache --set-max-size 10G
 ### LRU vs Content-Addressable Eviction
 
 Both ccache and sccache use content-addressable storage: the cache key is a hash of the input, and
-The value is the output object file. When the cache exceeds its size limit, both tools use an LRU
+the value is the output object file. When the cache exceeds its size limit, both tools use an LRU
 (Least Recently Used) eviction policy. This means infrequently used cache entries are evicted first,
 Which is generally optimal for development workflows.
 
@@ -451,7 +451,7 @@ cmake --build build
 ### Build Reproducibility
 
 A build is reproducible if the same source code, compiler, and flags produce byte-identical output
-Every time. Reproducibility is a prerequisite for effective caching:
+every time. Reproducibility is a prerequisite for effective caching:
 
 ```bash
 # Ensure reproducible builds
@@ -500,7 +500,7 @@ Change on actual releases.
 ### 3. Absolute Paths in Debug Symbols
 
 Debug symbols often contain absolute paths. Use `-fdebug-prefix-map` (GCC/Clang) to map local paths
-To generic ones to improve cache sharing across different users.
+to generic ones to improve cache sharing across different users.
 
 ```bash
 cmake -DCMAKE_CXX_FLAGS="-fdebug-prefix-map=$\{PWD\}=." -B build
@@ -509,7 +509,7 @@ cmake -DCMAKE_CXX_FLAGS="-fdebug-prefix-map=$\{PWD\}=." -B build
 ### 4. Random or Non-Deterministic Code
 
 Code that includes random elements (UUIDs, timestamps in generated code) produces different output
-On every compilation. Isolate such code into separate translation units that are not cached.
+on every compilation. Isolate such code into separate translation units that are not cached.
 
 ### 5. `__FILE__` Macro
 
@@ -523,7 +523,7 @@ cmake -DCMAKE_CXX_FLAGS="-fmacro-prefix-map=$\{PWD\}=src" -B build
 ### 6. Non-Reproducible Builds
 
 If different compilers or compiler versions are used (e.g., GCC 12 on one machine, GCC 13 on
-Another), the cached objects are incompatible. Ensure all cache participants use the same compiler
+another), the cached objects are incompatible. Ensure all cache participants use the same compiler
 Version.
 
 ### 7. Cache Poisoning
@@ -539,7 +539,7 @@ Retrieve the corrupted object. Mitigation:
 ## 10. Distributed Caching Architecture
 
 For large organizations, a centralized cache provides the greatest benefit. The typical architecture
-Is:
+is:
 
 ```
 Developer A ──┐                    ┌── CI Agent 1
@@ -557,7 +557,7 @@ medium-sized team. This is negligible compared to developer time saved.
 ### Cache Warmup Strategy
 
 When onboarding a new developer or setting up a new CI runner, the cache is cold (empty). To warm
-The cache:
+the cache:
 
 1. Run a full clean build on one machine.
 2. The cache is now populated with all object files.
@@ -656,7 +656,7 @@ export CCACHE_SLOPPINESS="pch_defines"
 ```
 
 Without this sloppiness, changes to the PCH defines may not properly invalidate the cache for TUs
-That include the PCH.
+that include the PCH.
 
 ## 13. Sccache Advanced Configuration
 
@@ -715,7 +715,7 @@ Common causes of unexpected misses:
 ### Reproducible Builds: Formal Requirements
 
 A build is reproducible if, given the same source code, compiler, flags, and toolchain, the output
-Is byte-identical every time. This is a prerequisite for meaningful caching in a distributed
+is byte-identical every time. This is a prerequisite for meaningful caching in a distributed
 Environment.
 
 The following conditions must hold for reproducible builds:
@@ -742,7 +742,7 @@ diff <(find build1 -name '*.o' -exec md5sum \{\} \; | sort) \
 ```
 
 If the diff is empty, the builds are reproducible. Any difference indicates a source of
-Non-determinism that will cause cache misses in a distributed environment.
+non-determinism that will cause cache misses in a distributed environment.
 
 ## See Also
 

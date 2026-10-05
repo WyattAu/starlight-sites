@@ -116,7 +116,7 @@ National Happiness (GNH).
 
 China's rapid economic growth is one of the most significant macroeconomic stories of the past four
 Decades. Between 1980 and 2023, China's annual real GDP growth averaged approximately 9-10%, lifting
-Over 800 million people out of extreme poverty. However, growth has decelerated in recent years,
+over 800 million people out of extreme poverty. However, growth has decelerated in recent years,
 Falling to around 5% in 2023 and below 5% in 2024, driven by:
 
 - A shrinking working-age population (demographic headwinds)
@@ -503,7 +503,7 @@ Marshall-Lerner Condition and the J-curve effect in the context of current accou
 ### 4.3 Real-World Application: The UK's Persistent Current Account Deficit
 
 The UK has run a current account deficit in almost every year since 1984. As of 2023, the deficit
-Was approximately 3% of GDP. This persistence raises important questions:
+was approximately 3% of GDP. This persistence raises important questions:
 
 - **Structural causes**: the UK imports more manufactured goods than it exports (the trade in goods
   deficit is partially offset by a trade in services surplus). The UK is a net importer of energy
@@ -567,7 +567,7 @@ Rises. Initially, workers suffer from **money illusion**, they accept nominal wa
 Realising prices are rising faster. Real wages fall, firms hire more. But eventually, workers update
 Their inflation expectations ($\pi^e$ rises). They demand higher nominal wages to compensate. Real
 Wages return to their original level, and employment falls back to $u^*$. The economy moves up along
-The short-run Phillips curve to a point with higher inflation but the same unemployment rate.
+the short-run Phillips curve to a point with higher inflation but the same unemployment rate.
 $\blacksquare$
 
 $$
@@ -604,7 +604,7 @@ The Phillips curve relationship has been far less stable in practice than theory
 concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*``u*`
 itself May rise, shifting the LRPC right). CIE (9708) may present a data-response question showing
 Inflation and unemployment data and ask students to interpret it using Phillips curve theory. OCR
-Has examined the role of supply shocks in causing stagflation and the breakdown of the simple
+has examined the role of supply shocks in causing stagflation and the breakdown of the simple
 Phillips curve relationship.
 :::
 
@@ -630,7 +630,7 @@ When evaluating the Phillips curve as a policy tool:
 **Exam conclusion**: The Phillips curve remains a useful theoretical framework, but its practical
 Value for policymakers is limited by the instability of the relationship and the difficulty of
 Estimating the natural rate. Modern central banking focuses on anchoring inflation expectations
-Through credible commitment to a target, rather than exploiting any perceived short-run trade-off.
+through credible commitment to a target, rather than exploiting any perceived short-run trade-off.
 
 ## 6. Critical Evaluation
 
@@ -725,7 +725,7 @@ Output gap $= (2.35 - 2.5)/2.5 = -6\%$. Okun's Law: $-6\% = -2(u - 5\%) \Rightar
 **Problem 5.** A country's balance of payments shows: exports of goods £300bn, imports of goods
 £400bn, exports of services £200bn, imports of services £150bn, net primary income -£50bn, net
 Secondary income -£20bn. Calculate the current account balance and identify whether it is in deficit
-Or surplus.
+or surplus.
 
 <details>
 <summary>Hint</summary>
@@ -766,7 +766,7 @@ Debt deflation (Fisher): falling prices increase the real value of debt $\Righta
 
 **Problem 10.** The short-run Phillips curve suggests a trade-off between inflation and
 Unemployment. Explain why policymakers might choose a point on this curve that is not at the minimum
-Of either variable.
+of either variable.
 
 <details>
 <summary>Hint</summary>
@@ -791,7 +791,7 @@ Post-2020 UK: (1) COVID-19 caused a sharp fall in GDP (growth objective) and a s
 
 **Problem 13.** The CPI basket weights in the UK were updated in 2024. If the weight of "food and
 Non-alcoholic beverages" was increased from 8.3% to 10.5%, and food prices rose by 12% while all
-Other prices rose by 3%, calculate the difference between the old and new CPI inflation rates.
+other prices rose by 3%, calculate the difference between the old and new CPI inflation rates.
 Explain why regular basket updates are important.
 
 <details>
@@ -821,7 +821,7 @@ A fall in sterling makes UK exports cheaper abroad and imports dearer at home, w
 **Problem 16.** The UK inflation rate was 0.9% in 2020, 2.6% in 2021, 9.1% in 2022, and 7.3%
 In 2023. Using the concept of the expectations-augmented Phillips curve, explain why the Bank of
 England was concerned about inflation becoming "entrenched" in 2022, and evaluate the effectiveness
-Of raising interest rates as a response.
+of raising interest rates as a response.
 
 <details>
 <summary>Hint</summary>

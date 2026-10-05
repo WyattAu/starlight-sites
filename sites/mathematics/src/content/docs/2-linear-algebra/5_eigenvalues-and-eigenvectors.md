@@ -29,7 +29,7 @@ $$
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
 The **eigenspace** corresponding to $\lambda$ is $E_\lambda = \ker(A - \lambda I)$. Its dimension is
-The **geometric multiplicity** of $\lambda$.
+the **geometric multiplicity** of $\lambda$.
 
 ### 5.2 Characteristic Polynomial
 
@@ -40,7 +40,7 @@ $A$. Its roots (in the algebraic closure of $F$) are the eigenvalues of $A$.
 
 If
 $p(\lambda) = (\\lambda - \\lambda_1)^{m_1}(\\lambda - \\lambda_2)^{m_2}\cdots(\\lambda - \\lambda_k)^{m_k}$
-With $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
+with $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
 $\\lambda_i$.
 
 **Proposition 5.2.** For each eigenvalue $\lambda$, $1 \leq \mathrm{dim}(E_\lambda) \leq m_\lambda$

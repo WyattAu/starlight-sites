@@ -69,7 +69,7 @@ CPUs expose multiple hardware threads per core via simultaneous multithreading (
 Hyper-Threading).
 
 A **software thread** is an OS-level thread managed by the scheduler. The OS maps software threads
-Onto hardware threads. When the number of software threads exceeds hardware threads, the scheduler
+onto hardware threads. When the number of software threads exceeds hardware threads, the scheduler
 Performs context switching.
 
 `std::thread::hardware_concurrency()` [N4950 §31.4.4.1.4] returns the number of concurrent threads

@@ -46,7 +46,7 @@ Layer 3. Conversely, it takes Layer 3 packets, wraps them in a frame, and hands 
 Pattern to Layer 1 for transmission.
 
 The Layer 2 header contains the destination and source MAC addresses. The Layer 3 header contains
-The destination and source IP addresses. Both are needed for a frame to traverse a LAN and for the
+the destination and source IP addresses. Both are needed for a frame to traverse a LAN and for the
 Receiving host to process the packet correctly.
 
 ## Ethernet History
@@ -73,7 +73,7 @@ Ethernet II uses an EtherType field (where the value $\ge$ 1536 indicates the up
 
 In practice, the industry converged on Ethernet II framing. When you see an Ethernet frame on a
 Modern network, it is almost certainly Ethernet II (also called DIX Ethernet), not 802.3 with SNAP
-Or 802.2 LLC.
+or 802.2 LLC.
 
 ### Evolution of Speeds
 
@@ -94,7 +94,7 @@ Point links) was the most operationally significant change.
 ## Ethernet II Frame Structure
 
 Every Ethernet frame transmitted on a LAN follows the same structure. The frame is transmitted
-Most-significant byte first on the wire (big-endian bit order within each byte).
+most-significant byte first on the wire (big-endian bit order within each byte).
 
 ```
 +----------+-----+-------------+------------+-----------+---------+-----+
@@ -114,7 +114,7 @@ Preamble is not counted as part of the frame for minimum/maximum size calculatio
 ### Start Frame Delimiter -- SFD (1 byte)
 
 The SFD is a single byte: `10101011`. The last two bits signal the end of the preamble and the start
-Of the actual frame. The receiver uses this byte to identify exactly where the destination MAC
+of the actual frame. The receiver uses this byte to identify exactly where the destination MAC
 Address begins.
 
 ### Destination MAC Address (6 bytes)
@@ -156,8 +156,8 @@ The maximum transmission unit (MTU) for standard Ethernet is 1500 bytes. Jumbo f
 ### Frame Check Sequence -- FCS (4 bytes)
 
 A 32-bit CRC (Cyclic Redundancy Check) computed over the entire frame (from Destination MAC through
-The end of the Payload). The FCS is appended by the sender and verified by the receiver. If the CRC
-Does not match, the frame is silently dropped. Layer 2 does not request retransmission -- that is
+the end of the Payload). The FCS is appended by the sender and verified by the receiver. If the CRC
+does not match, the frame is silently dropped. Layer 2 does not request retransmission -- that is
 TCP's responsibility (Layer 4).
 
 The CRC-32 polynomial used is:
@@ -262,7 +262,7 @@ When a collision is detected:
 ### Binary Exponential Backoff
 
 After the $n$-th collision ($n = 1, 2, 3, \ldots$), the station picks a random integer $r$ uniformly
-From the range $\{0, 1, \ldots, 2^k - 1\}$ where:
+from the range $\{0, 1, \ldots, 2^k - 1\}$ where:
 
 $$
 K = \min(n, 10)
@@ -301,8 +301,8 @@ Before attempting retransmission.
 
 The minimum frame size of 64 bytes (46 bytes payload + 14 bytes header + 4 bytes FCS) is directly
 Tied to CSMA/CD. The worst-case round-trip propagation delay on a 10 Mbps Ethernet segment (2500 m
-With 4 repeaters) is approximately 51.2 microseconds, which is exactly 512 bit times. A station must
-Be able to detect a collision before it finishes transmitting the minimum-size frame. At 10 Mbps,
+with 4 repeaters) is approximately 51.2 microseconds, which is exactly 512 bit times. A station must
+be able to detect a collision before it finishes transmitting the minimum-size frame. At 10 Mbps,
 Transmitting 64 bytes takes:
 
 $$
@@ -311,7 +311,7 @@ $$
 
 This ensures that any collision on the segment will be detected before the transmitting station
 Finishes sending the minimum frame. If the frame were shorter, a station at one end of the segment
-Might finish transmitting before the collision signal from the far end arrives, leading to an
+might finish transmitting before the collision signal from the far end arrives, leading to an
 Undetected collision.
 
 ## Full-Duplex vs Half-Duplex Ethernet
@@ -330,8 +330,8 @@ Receive paths. A switch port connected to a single host is inherently full-duple
 Shared medium to contend with. CSMA/CD is disabled on full-duplex links.
 
 Half-duplex only exists when a hub is in the path. Hubs are physical-layer repeaters that forward
-All received signals to all other ports. Every port on a hub is in the same collision domain. Hubs
-Have been obsolete for over two decades.
+all received signals to all other ports. Every port on a hub is in the same collision domain. Hubs
+have been obsolete for over two decades.
 
 ## Ethernet Standards Comparison
 
@@ -441,7 +441,7 @@ Countermeasures:
 
 A Virtual Local Area Network (VLAN) is a logical broadcast domain created at Layer 2. Devices in the
 Same VLAN can communicate with each other as if they were on the same physical switch, even if they
-Are on different switches. Devices in different VLANs cannot communicate at Layer 2 -- they require
+are on different switches. Devices in different VLANs cannot communicate at Layer 2 -- they require
 A router (Layer 3 device) for inter-VLAN routing.
 
 ### 802.1Q Tagging
@@ -531,7 +531,7 @@ Prevention:
 
 STP (IEEE 802.1D) prevents Layer 2 loops in networks with redundant paths. Without STP, a loop
 Creates a broadcast storm: frames circulate indefinitely, consuming all bandwidth and bringing down
-The network.
+the network.
 
 ### Root Bridge Election
 
@@ -624,7 +624,7 @@ Rogue switch that could become the root bridge.
 ### Purpose
 
 Link aggregation (also called port channeling, bonding, or teaming) combines multiple physical links
-Into a single logical link. This provides:
+into a single logical link. This provides:
 
 - **Increased bandwidth.** Aggregate throughput of all member links.
 - **Redundancy.** If one link fails, traffic is redistributed to the remaining links.
@@ -633,7 +633,7 @@ Into a single logical link. This provides:
 ### LACP (802.3ad / 802.1AX)
 
 The Link Aggregation Control Protocol (LACP) is defined in IEEE 802.3ad (originally) and superseded
-By 802.1AX. LACP provides dynamic negotiation of link aggregation groups between two devices.
+by 802.1AX. LACP provides dynamic negotiation of link aggregation groups between two devices.
 
 Each port has an LACP port priority (default 32768, configurable in increments of 1) and an
 Administrative key. Ports with the same key on the same device form a LAG (Link Aggregation Group).
@@ -683,7 +683,7 @@ port-channel load-balance src-dst-port  ! hash on src+dst port (Layer 4)
 ### Operation
 
 ARP resolves IPv4 addresses to MAC addresses. When a host needs to send a packet to an IP address on
-The same subnet, it uses ARP to discover the destination's MAC address.
+the same subnet, it uses ARP to discover the destination's MAC address.
 
 1. The sender checks its **ARP cache** for an existing mapping.
 2. If no mapping exists, the sender broadcasts an **ARP Request**: "Who has 192.168.1.100? Tell
@@ -920,7 +920,7 @@ interface Gi0/25
 ```
 
 Note: BPDU Guard is explicitly enabled on Gi0/1 per the requirement. The remaining ports should also
-Have it enabled in production. The native VLAN 999 should not have any active ports assigned.
+have it enabled in production. The native VLAN 999 should not have any active ports assigned.
 
 </details>
 
@@ -948,7 +948,7 @@ A) The root bridge has the lowest Bridge ID (priority + MAC). Comparing prioriti
 SW4 is the root bridge.
 
 B) If SW4 fails, the remaining switches are SW1 (32768), SW2 (16384), and SW3 (16384). SW2 and SW3
-Have the same priority, so the MAC address is the tiebreaker. SW2 has MAC `00:00:00:00:00:02` and
+have the same priority, so the MAC address is the tiebreaker. SW2 has MAC `00:00:00:00:00:02` and
 SW3 has MAC `00:00:00:00:00:03`. Since `02 < 03`**SW2 becomes the root bridge**.
 
 </details>
@@ -967,7 +967,7 @@ Handling thousands of short-lived connections?
 
 A) **1 Gbps.** LACP distributes traffic based on a hash. A single TCP flow (single source IP, dest
 IP, source port, dest port combination) always hashes to the same link. The single backup stream
-Cannot utilize more than one physical link.
+cannot utilize more than one physical link.
 
 B) Use multiple parallel TCP streams (e.g., `tar | ssh` with multiple connections, or a tool like
 `iperf -P 4`). Each stream may hash to a different link, utilizing more of the aggregate bandwidth.
@@ -981,7 +981,7 @@ Subnet to the same link.
 ### Problem 7: ARP Cache and Gratuitous ARP
 
 A server with IP 192.168.1.100 and MAC 00:11:22:33:44:55 is migrated to a new physical server with
-The same IP but a new MAC address 00:AA:BB:CC:DD:EE. The default gateway (192.168.1.1) still has the
+the same IP but a new MAC address 00:AA:BB:CC:DD:EE. The default gateway (192.168.1.1) still has the
 Old ARP entry cached.
 
 A) Why might connectivity fail initially? b) How does a gratuitous ARP solve this? c) If the
@@ -991,22 +991,22 @@ Gateway's ARP cache timeout is 1200 seconds, what is the maximum downtime withou
 <summary>Answer</summary>
 
 A) The gateway has `192.168.1.100 -> 00:11:22:33:44:55` cached. It sends frames for the server to
-The old MAC address, which no longer exists. The new server never receives the frames.
+the old MAC address, which no longer exists. The new server never receives the frames.
 
 B) The new server sends a gratuitous ARP: an ARP request (or reply) with sender IP = 192.168.1.100
-And sender MAC = 00:AA:BB:CC:DD:EE. The gateway receives this and updates its ARP cache with the new
+and sender MAC = 00:AA:BB:CC:DD:EE. The gateway receives this and updates its ARP cache with the new
 MAC address.
 
 C) Without gratuitous ARP, the gateway would continue sending frames to the old MAC for up to 1200
 Seconds (20 minutes), until the ARP entry expires and the gateway sends a new ARP request. During
-This time, connectivity to the server would be completely down.
+this time, connectivity to the server would be completely down.
 
 </details>
 
 ### Problem 8: 802.1Q Frame Size
 
 A standard untagged Ethernet frame carries 1500 bytes of payload. What is the total frame size on
-The wire when an 802.1Q tag is added? Include all fields.
+the wire when an 802.1Q tag is added? Include all fields.
 
 <details>
 <summary>Answer</summary>
@@ -1027,7 +1027,7 @@ Total bits on wire (including preamble/SFD): $(8 + 1522) \times 8 = 12240$ bits.
 
 The 802.1Q tag adds 4 bytes to the frame, increasing the maximum from 1518 to 1522 bytes. This is
 Sometimes called a "baby giant" frame. Switches that do not support 802.1Q will drop frames larger
-Than 1518 bytes.
+than 1518 bytes.
 
 </details>
 

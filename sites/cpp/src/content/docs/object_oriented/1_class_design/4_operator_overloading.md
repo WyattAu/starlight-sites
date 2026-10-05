@@ -28,7 +28,7 @@ Operators including subscript, function call, and increment/decrement.
 ## 4.1 Rules for Operator Overloading [N4950 S14.5]
 
 An overloaded operator is a function with a special name composed of the keyword `operator` followed
-By the operator symbol. The following constraints apply [N4950 S14.5.1]:
+by the operator symbol. The following constraints apply [N4950 S14.5.1]:
 
 - You cannot invent new operators (`operator**` is ill-formed).
 - You cannot change the arity, precedence, or associativity of an operator.
@@ -253,7 +253,7 @@ int main() {
 ## 4.4 Subscript Operator: Const and Non-Const Overloads
 
 The subscript operator should be overloaded in two versions -- a `const` version returning by value
-Or const reference, and a non-const version returning a non-const reference -- so that the operator
+or const reference, and a non-const version returning a non-const reference -- so that the operator
 Works correctly on both const and non-const objects.
 
 ```cpp
@@ -306,7 +306,7 @@ int main() {
 ## 4.5 Function Call Operator: Functors
 
 The function call operator `operator()` allows an object to be invoked like a function. Such objects
-Are called **function objects** or **functors**. Lambda closures are the most common example: the
+are called **function objects** or **functors**. Lambda closures are the most common example: the
 Compiler generates an unnamed class type with an `operator()` [N4950 S7.5.5].
 
 ```cpp
@@ -395,8 +395,8 @@ int main() {
 ## 4.7 Stream Insertion and Extraction Operators
 
 The stream operators `operator&lt;&lt;` and `operator&gt;&gt;` must be implemented as **non-member
-Non-friend functions** (or non-member friends when accessing private state) because the left operand
-Is `std::ostream`/`std::istream`Which you cannot modify [N4950 S30.4.2]:
+non-friend functions** (or non-member friends when accessing private state) because the left operand
+is `std::ostream`/`std::istream`Which you cannot modify [N4950 S30.4.2]:
 
 ```cpp
 #include <iostream>
@@ -561,7 +561,7 @@ int main() {
 ```
 
 The default `operator\&lt;=\&gt;` performs lexicographic comparison of base classes and then
-Non-static data members in declaration order [N4950 S7.6.8]. Combined with `operator==` being
+non-static data members in declaration order [N4950 S7.6.8]. Combined with `operator==` being
 Defaulted independently, this provides a complete comparison suite with zero boilerplate.
 
 ### Custom Spaceship Implementation
@@ -606,7 +606,7 @@ int main() {
 ## 4.10 Rule of Three/Five/Zero and Operator Overloading
 
 When a class manages resources (raw pointers, file handles, sockets), the special member functions
-Are deeply intertwined with operator overloading [N4950 S11.4.7]:
+are deeply intertwined with operator overloading [N4950 S11.4.7]:
 
 ### Rule of Five
 
@@ -673,7 +673,7 @@ public:
 
 If the class holds only RAII members (`std::vector``std::string``std::unique_ptr`
 `std::shared_ptr`), do **not** declare any special member functions. The compiler-generated defaults
-Are correct:
+are correct:
 
 ```cpp
 #include <string>
@@ -739,7 +739,7 @@ S7.6.4]. For custom boolean logic, provide named methods (e.g., `logical_and()`)
 Overloading these operators.
 
 **2. Returning by value from `operator+`:** Binary arithmetic operators should return a new object
-By value (not by reference). Returning a reference to a temporary is undefined behavior. The
+by value (not by reference). Returning a reference to a temporary is undefined behavior. The
 Compound assignment operators (`+=``-=`) should return `*this` by reference.
 
 **3. `operator[]` bounds checking:** The Standard `operator[]` for `std::vector` and `std::map` does
@@ -747,7 +747,7 @@ Compound assignment operators (`+=``-=`) should return `*this` by reference.
 Access, or implement bounds checking in your own `operator[]`.
 
 **4. Implicit conversion ambiguity:** When a class has both an implicit single-argument constructor
-And an implicit conversion operator, overload resolution can become ambiguous. Mark one or both as
+and an implicit conversion operator, overload resolution can become ambiguous. Mark one or both as
 `explicit` to resolve the ambiguity.
 
 **5. Forgetting to return `*this` from compound assignment:** `operator+=``operator-=`Etc. Must
@@ -756,7 +756,7 @@ Breaking chaining (`a += b += c` fails).
 
 **6. Overloading comma operator:** While technically possible, overloading `operator,` changes the
 Evaluation order and sequence point semantics. The Standard guarantees left-to-right evaluation for
-The built-in comma operator but not for the overloaded version. This is almost always a mistake.
+the built-in comma operator but not for the overloaded version. This is almost always a mistake.
 
 ## See Also
 

@@ -741,7 +741,7 @@ value = 1
 ```
 
 TOML does not allow dotted keys to define both a table and a value at the same level. Mixing styles
-For the same path is a parse error.
+for the same path is a parse error.
 
 ### 7. Float Precision in JSON
 

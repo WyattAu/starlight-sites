@@ -78,7 +78,7 @@ Properties (different mass, different nuclear stability).
 
 **Definition.** The **relative atomic mass** ($A_r$) is the weighted average mass of an atom of an
 Element relative to $1/12$ the mass of a carbon-12 atom, taking into account the natural abundances
-Of all isotopes.
+of all isotopes.
 
 $$
 A_r = \sum_{i} (\mathrm{isotope mass})_i \times (\mathrm{fractional abundance})_i
@@ -341,7 +341,7 @@ Nuclei of adjacent atoms in the solid or liquid), which is significantly larger 
 $\mathrm{O}^{2-} \gt \mathrm{F}^- \gt \mathrm{Na}^+ \gt \mathrm{Mg}^{2+} \gt \mathrm{Al}^{3+}$
 
 All have the neon configuration ($1s^2\, 2s^2\, 2p^6$$10$ electrons). The nuclear charge increases
-From $Z = 8$ to $Z = 13$ So the radius decreases.
+from $Z = 8$ to $Z = 13$ So the radius decreases.
 
 ### Ionization Energy
 
@@ -882,7 +882,7 @@ Wavelengths. This is the basis of flame tests and spectroscopic analysis.
 ### Absorption Spectra
 
 When white light passes through a cool gas, the gas absorbs photons at wavelengths corresponding to
-The energy differences between its electron levels. The transmitted light shows dark lines at these
+the energy differences between its electron levels. The transmitted light shows dark lines at these
 Wavelengths on a continuous spectrum.
 
 ### Hydrogen Spectral Series
@@ -1044,7 +1044,7 @@ Molecules with the same nominal mass but different molecular formulas:
 ### Slater's Rules for Effective Nuclear Charge
 
 Slater's rules provide a systematic way to estimate the shielding constant $S$ for an electron in a
-Many-electron atom.
+many-electron atom.
 
 #### Rules
 
@@ -1149,7 +1149,7 @@ Level, and $n_f$ is the final energy level ($n_i \gt n_f$ for emission).
 :::
 :::note
 Example, Wavelength of the first Balmer line
-For the transition $n = 3 \to n = 2$:
+for the transition $n = 3 \to n = 2$:
 
 $$
 \frac{1}{\lambda} = 1.097 \times 10^7 \left(\frac{1}{4} - \frac{1}{9}\right) = 1.097 \times 10^7 \times 0.1389 = 1.524 \times 10^6\mathrm{ m}^{-1}
@@ -1254,7 +1254,7 @@ Ionization energy of magnesium is lower than that of aluminium.
 **Markscheme:**
 
 Na ($1s^2\, 2s^2\, 2p^6\, 3s^1$) to Mg ($1s^2\, 2s^2\, 2p^6\, 3s^2$): $Z_{\mathrm{eff}}$ increases
-Across the period, so the $3s$ electrons in Mg are held more tightly. (1 mark)
+across the period, so the $3s$ electrons in Mg are held more tightly. (1 mark)
 
 Mg ($3s^2$) to Al ($3s^2\, 3p^1$): the electron removed from Al is a $3p$ electron, which is at a
 Higher energy level than the $3s$ electrons of Mg and is partially shielded by the $3s$ electrons.
@@ -1306,7 +1306,7 @@ Nucleus and decreasing the atomic radius. (1 mark)
 ### Question 4 (SL, 3 marks)
 
 A sample of chlorine gas is analysed by mass spectrometry. Describe and explain the appearance of
-The mass spectrum.
+the mass spectrum.
 
 **Markscheme:**
 
@@ -1351,7 +1351,7 @@ Three $2p$ electrons having parallel spins; 1 mark for the fourth being paired)
 Electron. $IE_4$ removes the remaining $1s$ electron. (1 mark)
 
 The $1s$ electron is much closer to the nucleus and experiences far less shielding, so it requires
-Much more energy to remove. This is an inner shell electron. (1 mark)
+much more energy to remove. This is an inner shell electron. (1 mark)
 
 ---
 
@@ -1378,7 +1378,7 @@ Example. (2 marks)
 **Markscheme:**
 
 (a) A ligand is a molecule or ion that can donate a lone pair of electrons to a central metal ion
-Via a coordinate bond. (1 mark) Example of bidentate ligand: ethylenediamine (en) or oxalate ion
+via a coordinate bond. (1 mark) Example of bidentate ligand: ethylenediamine (en) or oxalate ion
 ($\mathrm{C}_2\mathrm{O}_4^{2-}$). (1 mark)
 
 (b) $\mathrm{NH}_3$ is a stronger-field ligand than $\mathrm{H}_2\mathrm{O}$ on the spectrochemical
@@ -1387,7 +1387,7 @@ $[\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}$. (1 mark) A larger $\Delta$ means higher-e
 Absorbed, so the complementary colour transmitted is different (yellow vs blue). (1 mark)
 
 (c) Transition metals have variable oxidation states, allowing them to form intermediate compounds
-With reactants. This provides an alternative reaction pathway with a lower activation energy. (1
+with reactants. This provides an alternative reaction pathway with a lower activation energy. (1
 Mark) In the Haber process, iron catalyses the reaction by adsorbing $\mathrm{N}_2$ and
 $\mathrm{H}_2$ onto its surface, weakening the $\mathrm{N}\equiv\mathrm{N}$ triple bond and
 Facilitating the formation of $\mathrm{NH}_3$. (1 mark)
@@ -1418,7 +1418,7 @@ $IE_1 = 577$$IE_2 = 1816$$IE_3 = 2744$$IE_4 = 11577$$IE_5 = 14842$$IE_6 = 18376$
 **Markscheme:**
 
 (a) The element is aluminium. (1 mark) There is a large jump between $IE_3$ and $IE_4$ Indicating
-That the first three electrons are removed from the valence shell and the fourth electron is from an
+that the first three electrons are removed from the valence shell and the fourth electron is from an
 Inner shell. This is consistent with Group 13, and aluminium is the element in Period 3, Group 13.
 (1 mark)
 
@@ -1477,7 +1477,7 @@ Electromagnetic spectrum (blue-violet). (2 marks)
 :::note[IB Exam Tip]
 When answering "explain" questions about periodic trends, always reference **effective nuclear
 Charge** and **shielding**. The marking scheme expects these terms. A two-mark explanation requires
-The trend statement AND the reasoning.
+the trend statement AND the reasoning.
 :::
 :::caution[Common Mistake]
 When writing electron configurations for transition metal ions, always remove electrons from the

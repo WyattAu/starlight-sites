@@ -251,7 +251,7 @@ Discarded. Hence the result is $0$. $\square$
 ### Two's Complement Addition and Overflow
 
 When adding two $n$-bit two's complement numbers, the result is correct (modulo $2^n$) if and only
-If no overflow occurs.
+if no overflow occurs.
 
 **Overflow detection rules:**
 

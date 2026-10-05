@@ -39,7 +39,7 @@ Bits:    [31    24][23    16][15     8][7      0]
 ```
 
 The total IPv4 address space is $2^{32} = 4,294,967,296$ addresses. This was considered sufficient
-In the 1970s but is grossly inadequate for today"s Internet, where every smartphone, server, VM, and
+in the 1970s but is grossly inadequate for today"s Internet, where every smartphone, server, VM, and
 Container needs an address.
 
 ### Binary Representation
@@ -108,7 +108,7 @@ Necessary.
 ## CIDR Notation
 
 CIDR (Classless Inter-Domain Routing) expresses a network as an IP address followed by a slash and
-The number of network bits (the prefix length):
+the number of network bits (the prefix length):
 
 ```
 192.168.1.0/24    -- 24 network bits, 8 host bits
@@ -221,7 +221,7 @@ The "magic number" method for /24 and larger subnets:
 | /32    | 1          | 1            | 256              |
 
 \*A /31 (RFC 3021) is used for point-to-point links where the network and broadcast addresses are
-Not needed. Both addresses are usable as host addresses.
+not needed. Both addresses are usable as host addresses.
 
 ### Subnetting Practice: Finding the Subnet of an Address
 
@@ -238,11 +238,11 @@ Given `192.168.5.130/26`Find the subnet:
 ## VLSM (Variable Length Subnet Masking)
 
 VLSM allows different subnets of the same parent network to have different prefix lengths. This is
-The standard practice in modern networks and is a direct consequence of CIDR.
+the standard practice in modern networks and is a direct consequence of CIDR.
 
 Without VLSM, every subnet within a network must have the same size. With VLSM, you can allocate /30
 Subnets for point-to-point links, /24 subnets for user LANs, and /26 subnets for server VLANs -- all
-From the same address space.
+from the same address space.
 
 VLSM is how every real network operates. The subnetting example above is a VLSM allocation.
 
@@ -328,7 +328,7 @@ Maintaining a translation table to map return traffic.
 **SNAT (Source NAT):** Rewrites the source IP address of outgoing packets. This is the most common
 Form of NAT, used by home routers and corporate firewalls. The internal host 192.168.1.100 sends a
 Packet to 203.0.113.50; the NAT device rewrites the source to its public IP 203.0.113.1 and records
-The mapping.
+the mapping.
 
 **DNAT (Destination NAT):** Rewrites the destination IP address of incoming packets. Used for port
 Forwarding. External traffic to 203.0.113.1:80 is forwarded to 192.168.1.10:80.
@@ -440,8 +440,8 @@ sequenceDiagram
 
 DHCP clients broadcast DHCPDISCOVER, which does not cross router boundaries. On networks with
 Multiple subnets, a **DHCP relay agent** (RFC 1542) forwards DHCP broadcasts to a DHCP server on
-Another subnet. The relay agent adds the `giaddr` (gateway IP address) field to identify the subnet
-From which the request originated, allowing the DHCP server to offer an address from the correct
+another subnet. The relay agent adds the `giaddr` (gateway IP address) field to identify the subnet
+from which the request originated, allowing the DHCP server to offer an address from the correct
 Pool.
 
 ```bash
@@ -598,13 +598,13 @@ A host sends a gratuitous ARP (GARP) to announce its own IP-to-MAC mapping. This
    tables.
 
 A gratuitous ARP is an ARP request where the source and target IP are the same, or an ARP reply sent
-Without a corresponding request. Some implementations ignore gratuitous ARPs as a security measure
+without a corresponding request. Some implementations ignore gratuitous ARPs as a security measure
 (to prevent ARP spoofing), but this breaks failover mechanisms.
 
 ### ARP Spoofing
 
 ARP has no authentication. Any host on the local segment can send a forged ARP reply claiming to be
-Another IP address. This is called **ARP spoofing** or **ARP poisoning** and enables:
+another IP address. This is called **ARP spoofing** or **ARP poisoning** and enables:
 
 - **Man-in-the-middle attacks:** The attacker claims to be the default gateway, intercepting all
   outbound traffic.
@@ -645,7 +645,7 @@ Addresses. This is approximately $3.4 \times 10^{38}$ Or roughly $5 \times 10^{2
 Person on Earth.
 
 To put this in perspective: if every atom on Earth's surface were assigned an IPv6 address, there
-Would still be approximately $1.5 \times 10^{17}$ addresses per atom remaining.
+would still be approximately $1.5 \times 10^{17}$ addresses per atom remaining.
 
 ### IPv6 Address Types
 
@@ -723,7 +723,7 @@ Agents and Servers).
 ### IPv6 Transition Mechanisms
 
 The IPv4-to-IPv6 transition has been ongoing since the 1990s. Several mechanisms allow IPv6 and IPv4
-To coexist:
+to coexist:
 
 **Dual-Stack:** Hosts run both IPv4 and IPv6 simultaneously. The OS prefers IPv6 when both are
 Available (Happy Eyeballs algorithm, RFC 8305). This is the most common transition mechanism.

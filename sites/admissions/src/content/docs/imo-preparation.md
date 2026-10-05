@@ -30,7 +30,7 @@ six students.
 ### 1.1 Format
 
 The competition spans two days, each with a 4.5-hour session containing 3 problems. The six problems
-Are divided by convention:
+are divided by convention:
 
 | Problem | Typical Topic                                    | Difficulty  |
 | ------- | ------------------------------------------------ | ----------- |
@@ -221,7 +221,7 @@ existence of Objects with certain average properties.
 **Example application.** In any graph $G$ with $m$ edges, there exists a bipartite subgraph with at
 Least $m/2$ edges. Proof: randomly partition the vertices into two sets $A, B$ by assigning each
 Vertex independently with probability $1/2$. Each edge crosses the partition with probability $1/2$
-So the expected number of crossing edges is $m/2$. Therefore some partition achieves at least $m/2$.
+so the expected number of crossing edges is $m/2$. Therefore some partition achieves at least $m/2$.
 
 ### 3.4 Generating Functions and Recurrences
 
@@ -364,7 +364,7 @@ Circles into parallel lines.
 
 **Technique: preserving tangency and intersection.** If two curves are tangent at a point (other
 Than $O$), their images are also tangent at the image point. If two curves intersect, their images
-Also intersect.
+also intersect.
 
 ### 5.2 Projective Geometry
 
@@ -456,7 +456,7 @@ $a^2yz + b^2zx + c^2xy = 0$.
 $k$ is a positive integer. Suppose for contradiction that $k$ is not a perfect square.
 
 Without loss of generality, assume $a \geq b > 0$. Consider all pairs $(a, b)$ of positive integers
-With $a \geq b$ such that $\frac{a^2 + b^2}{ab + 1} = k$ (the same $k$). Among all such pairs,
+with $a \geq b$ such that $\frac{a^2 + b^2}{ab + 1} = k$ (the same $k$). Among all such pairs,
 Choose one with $a + b$ minimal.
 
 From $a^2 + b^2 = k(ab + 1)$ View this as a quadratic in $a$: $a^2 - kba + (b^2 - k) = 0$. By Vieta's
@@ -638,14 +638,14 @@ and Intersects the line $PAB$ at $A$ and $B$. The third intersection of this cir
 line Through $P$ is determined by the condition that $Q, A, B$ are on the circle.
 
 The circle through $Q$ and $A$ and $B$ also passes through a fixed second point (other than $Q$) by
-The following argument. The power of $P$ with respect to the circumcircle of $\triangle QAB$ is
+the following argument. The power of $P$ with respect to the circumcircle of $\triangle QAB$ is
 $PA \cdot PB$. This varies with the line. However, consider the circle $\omega_3$ through $P$ and
 $Q$ That is orthogonal to both $\omega_1$ and $\omega_2$. The key claim is that $\omega_3$ always
 passes Through the circumcircle of $\triangle QAB$ at $P$ and a fixed point.
 
 Instead, we use the following classical fact: the circumcircle of $\triangle QAB$ is the image of
 the Line $A'B'$ (in our inversion) under the inverse map. The line $A'B'$ always passes through $Q'$
-So the circumcircle always passes through $Q$ and $P$ and one additional fixed point.
+so the circumcircle always passes through $Q$ and $P$ and one additional fixed point.
 
 The fixed point is the inverse of the reflection of $Q'$ across the angle bisector of $\ell_1$ and
 $\ell_2$. More concretely: let $R'$ be the reflection of $Q'$ across the angle bisector of
@@ -654,11 +654,11 @@ pencil of lines through $P$. The inverse of $R'$ is a fixed point $R$ such that 
 of $\triangle QAB$ passes Through $R$.
 
 A cleaner characterisation: the point $R$ is the Miquel point of the complete quadrilateral formed
-By $\omega_1$, $\omega_2$ And the line $PQ$. By the Miquel theorem, the circumcircles of the four
+by $\omega_1$, $\omega_2$ And the line $PQ$. By the Miquel theorem, the circumcircles of the four
 Triangles formed by any three of these four lines/circles concur at $R$.
 
 In particular, the circumcircle of $\triangle QAB$ (formed by $\omega_1$, $\omega_2$ And the line
-Through $P$) always passes through the Miquel point $R$ Which is fixed.
+through $P$) always passes through the Miquel point $R$ Which is fixed.
 
 ---
 
@@ -702,7 +702,7 @@ $\mathbb{F}_2$ must take non-zero values). Therefore $A$ is singular, meaning $\
 $\mathbb{F}_2$.
 
 The system $A\mathbf{s} = \mathbf{0}$ therefore has a non-trivial solution, corresponding to a
-Non-empty set $S$ with the desired property.
+non-empty set $S$ with the desired property.
 
 ---
 
@@ -786,7 +786,7 @@ Statement must actually be provable.
 
 **Graph theory terminology errors.** Distinguish between walks, trails, paths, and cycles. A tree
 Has exactly $n - 1$ edges on $n$ vertices; a forest has at most $n - 1$ edges. Planarity and
-Non-planarity are distinct from bipartiteness.
+non-planarity are distinct from bipartiteness.
 
 **Computational errors in long algebraic manipulations.** IMO problems often require sustained
 Computation. A single sign error can invalidate an entire proof. Verify with specific numerical

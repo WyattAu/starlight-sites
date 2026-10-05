@@ -133,7 +133,7 @@ Internet. Draw and describe the network topology.
 
 All devices connect to a central switch (star topology). The switch connects to the router, which
 Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
-Through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
+through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
 
 ## 2. Network Hardware
 
@@ -152,7 +152,7 @@ Through one of the computers. This is a LAN with a star topology connected to a 
 ### 2.2 Switch vs Hub
 
 A **hub** broadcasts incoming data to ALL ports. This is inefficient and causes collisions because
-Every device receives every message, even if it was not the intended recipient.
+every device receives every message, even if it was not the intended recipient.
 
 A **switch** learns which device is connected to each port and directs data only to the intended
 Recipient. This is more efficient and reduces collisions.
@@ -172,7 +172,7 @@ A **switch** connects devices within a single LAN and forwards frames based on M
 
 A **router** connects different networks (e.g., a LAN to the Internet) and forwards packets based on
 IP addresses. Routers can also perform NAT (Network Address Translation), allowing multiple devices
-On a LAN to share a single public IP address.
+on a LAN to share a single public IP address.
 
 **Device comparison by OSI layer:**
 
@@ -228,7 +228,7 @@ Link layer combines OSI layers 1 and 2.
 
 **Encapsulation.** At each layer, data is wrapped (encapsulated) with a header. At the receiving
 End, each layer removes (decapsulates) its header before passing data up. The application receives
-Only the original message.
+only the original message.
 
 **Encapsulation sequence:**
 
@@ -278,7 +278,7 @@ Packet loss.
 **When to use UDP.** UDP is appropriate when speed matters more than reliability. A few lost packets
 In a video stream are barely noticeable (a momentary glitch), but waiting for retransmission would
 Cause visible lag. Similarly, in online gaming, a stale position update is useless -- the game needs
-The most recent data, not old reliable data.
+the most recent data, not old reliable data.
 
 ### 4.3 Protocol Port Numbers
 
@@ -551,7 +551,7 @@ Internet. Describe the network topology.
 
 All devices connect to a central switch (star topology). The switch connects to the router, which
 Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
-Through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
+through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
 
 **Worked Example.** A school has two buildings, each with 20 computers connected by switches. The
 two Buildings are connected by a fibre optic cable. Describe the topology.
@@ -577,7 +577,7 @@ Manages inter-building traffic.
 ### 2.2 Switch vs Hub
 
 A **hub** broadcasts incoming data to ALL ports. This is inefficient and causes collisions because
-Every device receives every message, even if it was not the intended recipient.
+every device receives every message, even if it was not the intended recipient.
 
 A **switch** learns which device is connected to each port and directs data only to the intended
 Recipient. This is more efficient and reduces collisions.
@@ -597,7 +597,7 @@ A **switch** connects devices within a single LAN and forwards frames based on M
 
 A **router** connects different networks (e.g., a LAN to the Internet) and forwards packets based on
 IP addresses. Routers can also perform NAT (Network Address Translation), allowing multiple devices
-On a LAN to share a single public IP address.
+on a LAN to share a single public IP address.
 
 **Device comparison by OSI layer:**
 
@@ -641,7 +641,7 @@ Using MAC addresses. IP addresses are used at layer 3 (Network) for routing betw
 Medium should they use and why?
 
 Fibre optic cable. Copper (twisted pair) has a maximum reliable distance of 100 metres. Fibre optic
-Can span the 500 metres without repeaters and provides higher bandwidth for future growth.
+can span the 500 metres without repeaters and provides higher bandwidth for future growth.
 
 ## 8. Data Transmission
 

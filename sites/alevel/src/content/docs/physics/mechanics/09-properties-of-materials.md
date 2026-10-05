@@ -23,8 +23,8 @@ categories:
 ## Properties of Materials
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
-The mechanical properties of materials, how they deform, stretch, compress, and break, are central
-To engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
+the mechanical properties of materials, how they deform, stretch, compress, and break, are central
+to engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
 Level board.
 
 ## 1. Hooke's Law
@@ -121,7 +121,7 @@ $$
 $$
 
 Young's modulus is a measure of **stiffness**, the resistance of a material to elastic deformation
-Under tensile loading. It has units of Pa (same as stress, since strain is dimensionless).
+under tensile loading. It has units of Pa (same as stress, since strain is dimensionless).
 
 ### Typical Values
 
@@ -400,7 +400,7 @@ When a material is loaded beyond the elastic limit and then unloaded:
 
 **Hysteresis** is the lag between the loading and unloading curves. It is particularly important for
 Rubber and viscoelastic materials. In a rubber band, the energy dissipated per cycle is the area of
-The hysteresis loop, this is why a stretched rubber band feels warm when released.
+the hysteresis loop, this is why a stretched rubber band feels warm when released.
 
 ## 9. Fatigue and Creep
 
@@ -498,7 +498,7 @@ Breaking strain.
 <details>
 <summary>Problem 6</summary>
 A force-extension graph for a metal wire is linear up to an extension of $0.80$ mm with a gradient
-Of $2.5 \times 10^5$ N m$^{-1}$. Beyond this point the wire yields and breaks at an extension of
+of $2.5 \times 10^5$ N m$^{-1}$. Beyond this point the wire yields and breaks at an extension of
 $4.0$ mm under a force of $300$ N. (a) Calculate the energy stored up to the limit of
 Proportionality. (b) Estimate the total energy stored up to fracture.
 
@@ -507,7 +507,7 @@ $E_e = \frac{1}{2}F\,\Delta x = \frac{1}{2} \times (2.5 \times 10^5 \times 0.80 
 J.
 
 (b) The total energy is the area under the full force-extension curve up to fracture. Approximating
-As a triangle from the origin to the breaking point:
+as a triangle from the origin to the breaking point:
 $E_{\mathrm{total}} \approx \frac{1}{2} \times 300 \times 4.0 \times 10^{-3} = 0.60$ J. (A better
 Estimate would account for the non-linear region, but this is a reasonable approximation.)
 
@@ -523,7 +523,7 @@ Material.
 **Answer.** Concrete is strong in compression but weak in tension (UTS $\approx 3$–$5$ MPa in
 Tension). Steel is strong in both tension and compression (UTS $\approx 400$–$2000$ MPa) and is
 Ductile. In reinforced concrete, the steel bars carry the tensile loads while the concrete carries
-The compressive loads. The steel's ductility also means the composite structure deforms gradually
+the compressive loads. The steel's ductility also means the composite structure deforms gradually
 Rather than failing suddenly, giving warning before collapse.
 
 <b>If you get this wrong, revise:</b>
@@ -570,7 +570,7 @@ Proportionality, elastic limit, yield point, UTS, necking, fracture.
 <summary>Problem 10</summary>
 A student measures Young's modulus for a wire and obtains a value 30% higher than the accepted
 Value. Give three possible sources of error, and state whether each would make the result too high
-Or too low.
+or too low.
 
 **Answer.**
 

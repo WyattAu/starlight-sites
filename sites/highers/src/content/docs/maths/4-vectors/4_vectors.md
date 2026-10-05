@@ -178,7 +178,7 @@ $$
 ### Section Formula (Higher)
 
 The position vector of a point that divides the line segment from $A$ to $B$ in the ratio $m : n$
-Is:
+is:
 
 $$
 \mathbf{r} = \frac{n\mathbf{a} + m\mathbf{b}}{m + n}
@@ -244,7 +244,7 @@ $$
 
 **Why the dimensions must match.** The entry $c_{ij}$ is the dot product of row $i$ of $A$ with
 Column $j$ of $B$. For this dot product to be defined, row $i$ of $A$ and column $j$ of $B$ must
-Have the same length, which means the number of columns of $A$ equals the number of rows of $B$.
+have the same length, which means the number of columns of $A$ equals the number of rows of $B$.
 
 **Matrix multiplication is associative** ($(AB)C = A(BC)$) and **distributive** over addition
 ($A(B+C) = AB + AC$), but **not commutative** ($AB \neq BA$).
@@ -347,7 +347,7 @@ This is an enlargement by scale factor 3 centred at the origin. The determinant 
 Confirming it is a pure enlargement (no reflection). Every point $(x, y)$ maps to $(3x, 3y)$.
 
 The relationship with the identity matrix $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$ is that
-This matrix represents an enlargement by scale factor 1 (i.e., the identity/no transformation).
+this matrix represents an enlargement by scale factor 1 (i.e., the identity/no transformation).
 
 ---
 
@@ -542,7 +542,7 @@ $$
 $$
 
 This is the cofactor expansion along the first row. You can expand along any row or column; choose
-The one with the most zeros for efficiency.
+the one with the most zeros for efficiency.
 
 **Properties of determinants:**
 
@@ -584,7 +584,7 @@ $$
 ### Eigenvalues and Eigenvectors (Advanced Higher)
 
 A scalar $\lambda$ is an **eigenvalue** of $A$ if there exists a non-zero vector $\mathbf{v}$ such
-That:
+that:
 
 $$
 A\mathbf{v} = \lambda\mathbf{v}

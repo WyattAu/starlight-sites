@@ -46,7 +46,7 @@ C, `if (x = 5)` assigns 5 to `x` and evaluates to true; in Java, this is a compi
 ### Dangling else Problem
 
 Java resolves the dangling else ambiguity by binding `else` to the nearest preceding `if` that lacks
-An `else`. This is the same rule used by most C-family languages.
+an `else`. This is the same rule used by most C-family languages.
 
 ```java
 if (a > 0)
@@ -76,7 +76,7 @@ Eliminates the dangling else ambiguity entirely and prevents bugs when statement
 
 The traditional `switch` statement evaluates an expression and transfers control to a matching
 `case` label. Without `break`Execution **falls through** to subsequent cases -- a notorious source
-Of bugs.
+of bugs.
 
 ```java
 int dayOfWeek = 3;
@@ -125,7 +125,7 @@ Expressions.
 
 Switch expressions ([JEP 361](https://openjdk.org/jeps/361), standardized in Java 14) transform
 `switch` from a statement into an expression that yields a value. They use the `->` arrow syntax and
-Do not fall through.
+do not fall through.
 
 ```java
 String dayType = switch (dayOfWeek) {
@@ -198,7 +198,7 @@ static String formatter(Object obj) {
 ```
 
 Guards (`when`) add additional conditions to a pattern case. The pattern variable is in scope for
-The guard expression.
+the guard expression.
 
 ```java
 // Guards with pattern matching
@@ -224,7 +224,7 @@ double area(Shape shape) {
 ### Design Decision: Why Switch Expressions Replaced Switch Statements
 
 The traditional `switch` statement was one of the most bug-prone constructs in Java. The problems
-Were not accidental -- they reflected fundamental limitations of a statement-oriented design:
+were not accidental -- they reflected fundamental limitations of a statement-oriented design:
 
 1. **Fall-through was a design mistake for modern code**. Fall-through originated in C to allow case
    merging, but it meant every `case` required an explicit `break` or a comment explaining
@@ -247,7 +247,7 @@ Were not accidental -- they reflected fundamental limitations of a statement-ori
    class of errors entirely.
 
 The transition from statement to expression is part of a broader trend in Java's evolution: moving
-From imperative, statement-heavy code toward more declarative, expression-oriented code. Records,
+from imperative, statement-heavy code toward more declarative, expression-oriented code. Records,
 Sealed classes, and pattern matching all follow the same philosophy.
 
 ## Loop Constructs
@@ -362,8 +362,8 @@ for (int i = 0; i < 10; i++) {
 ### Labeled break and continue
 
 Java supports labeled statements, which allow `break` and `continue` to target an outer loop rather
-Than the innermost one. This is one of the few areas where Java's syntax resembles C's `goto` -- and
-It exists specifically to avoid the need for `goto`.
+than the innermost one. This is one of the few areas where Java's syntax resembles C's `goto` -- and
+it exists specifically to avoid the need for `goto`.
 
 ```java
 // Labeled break -- exits the labeled loop entirely
@@ -471,7 +471,7 @@ Errors (logic bugs) that the programmer could have prevented: `NullPointerExcept
 ### Checked vs Unchecked Exceptions
 
 The distinction between checked and unchecked exceptions is one of Java's most distinctive -- and
-Most controversial -- language features.
+most controversial -- language features.
 
 **Checked exceptions** must be either caught with a `try-catch` block or declared in the method
 Signature with a `throws` clause. The compiler enforces this at compile time. `Exception` and its
@@ -727,7 +727,7 @@ Design guidelines for custom exceptions:
 ### Exception Chaining
 
 Exception chaining allows wrapping a lower-level exception in a higher-level one while preserving
-The original cause. This is essential for maintaining the full error trace across abstraction
+the original cause. This is essential for maintaining the full error trace across abstraction
 Boundaries.
 
 ```java
@@ -808,7 +808,7 @@ Same exceptions, narrower exceptions (subtypes), or no checked exceptions at all
 The `assert` statement
 ([JLS §14.10](https://docs.oracle.com/javase/specs/jls/se21/html/jls-14.html#jls-14.10)) tests a
 Boolean condition at runtime. If the condition is `false`An `AssertionError` is thrown. Assertions
-Are **disabled by default** and must be explicitly enabled with the `-ea` (enable assertions) JVM
+are **disabled by default** and must be explicitly enabled with the `-ea` (enable assertions) JVM
 Flag.
 
 ```java
@@ -871,7 +871,7 @@ public void setName(String name) {
 
 :::danger
 Correctness in production. Since assertions can be disabled, a failed assertion would go undetected
-In production, leading to silent data corruption. Use `Objects.requireNonNull()`Explicit `if` Checks
+in production, leading to silent data corruption. Use `Objects.requireNonNull()`Explicit `if` Checks
 with `IllegalArgumentException`Or framework-level validation (like `jakarta.validation`) For input
 validation.
 :::

@@ -32,7 +32,7 @@ First assessment 2025. The course is organized into five core themes studied at 
 
 System design focuses on how computing systems are planned, analyzed, and constructed to meet
 Specified requirements. Students learn to identify all relevant stakeholders, gather both functional
-And non-functional requirements, and evaluate the feasibility of proposed solutions across
+and non-functional requirements, and evaluate the feasibility of proposed solutions across
 Technical, economic, and operational dimensions. Project management methodologies such as Gantt
 Charts, PERT charts, and agile/waterfall models are used to plan and coordinate system development
 Timelines. Visual modeling tools including data flow diagrams (DFDs), system flowcharts, use case
@@ -46,7 +46,7 @@ Environmental impact of computing systems.
 
 Computer architecture covers the internal structure of processors and the fetch-decode-execute
 Cycle. Students examine the von Neumann and Harvard architectures in depth, understand the role of
-The arithmetic logic unit (ALU), control unit (CU), registers (PC, MAR, MDR, CIR, accumulator), and
+the arithmetic logic unit (ALU), control unit (CU), registers (PC, MAR, MDR, CIR, accumulator), and
 System buses (data, address, control). The memory hierarchy from registers and cache (L1, L2, L3) to
 RAM, ROM, and secondary storage devices (HDD, SSD, optical) is explored. Embedded systems and the
 Principles of parallel processing (multi-core, GPU computing) are also considered.
@@ -86,7 +86,7 @@ Resolved.
 
 Data structures at the SL/HL level include static structures such as one-dimensional and
 Two-dimensional arrays, records (structs), and sets, as well as dynamic structures including singly
-And doubly linked lists, stacks (LIFO), queues (FIFO), binary search trees, and hash tables.
+and doubly linked lists, stacks (LIFO), queues (FIFO), binary search trees, and hash tables.
 Students evaluate the trade-offs between different structures in terms of access time, insertion,
 Deletion, searching, and memory usage, and must justify their choice of data structure for a given
 Problem.
@@ -261,7 +261,7 @@ Problems. Calculators are not permitted.
 An HL-specific paper based on a previously issued case study published by the IB at the start of the
 Examination session (approximately 6 months before the exam). The case study describes a real-world
 Computational scenario in detail, and students are expected to research and prepare extensively
-Before the exam. The paper assesses the application of syllabus content to this scenario, requiring
+before the exam. The paper assesses the application of syllabus content to this scenario, requiring
 Extended analysis, evaluation, and synthesis of information. Students must demonstrate depth of
 Understanding by connecting multiple topics from across the syllabus to the case study context.
 
@@ -284,7 +284,7 @@ Supporting documentation covering the entire software development lifecycle:
 5. **Evaluation** -- success criteria, limitations, recommendations for improvement
 
 The project is internally assessed by teachers and externally moderated by the IB. Maximum marks: 34
-For both SL and HL. The IA is an individual piece of work and must be the student's own authentic
+for both SL and HL. The IA is an individual piece of work and must be the student's own authentic
 Work.
 
 | Aspect        | SL  | HL  |

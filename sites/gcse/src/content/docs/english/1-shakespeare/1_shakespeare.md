@@ -30,13 +30,13 @@ categories:
 William Shakespeare (1564--1616) is the only writer whose work is prescribed on every GCSE English
 Literature specification in the United Kingdom. This is not merely an act of institutional
 Conservatism. Shakespeare's plays occupy a unique position in the English literary canon: they are
-The most frequently performed, the most widely studied, and the most thoroughly critiqued works in
-The language. They have shaped the development of English drama, influenced virtually every major
+the most frequently performed, the most widely studied, and the most thoroughly critiqued works in
+the language. They have shaped the development of English drama, influenced virtually every major
 Writer who followed, and continue to be adapted into film, fiction, and theatre worldwide.
 
 From an examination perspective, Shakespeare tests the full range of literary-critical skills: close
 Reading of complex language, interpretation of dramatic structure, analysis of character development
-Across an entire play, and the integration of historical context into literary argument. A student
+across an entire play, and the integration of historical context into literary argument. A student
 Who can write well about Shakespeare can write well about almost anything on the syllabus.
 
 ## 2. Shakespeare's Context
@@ -70,7 +70,7 @@ Key contextual factors for GCSE study include:
 
 Shakespeare's plays were performed at the Globe Theatre on the south bank of the Thames from 1599.
 Understanding the physical conditions of the Globe is essential to understanding how the plays work
-As drama.
+as drama.
 
 - **The stage was thrust into the audience.** There was no proscenium arch separating actors from
   spectators. Audience members stood in the yard (the "groundlings") or sat in the galleries that
@@ -165,7 +165,7 @@ Yorkist faction.
 Shakespeare's figurative language is his most powerful analytical tool. Extended metaphors (or
 **conceits**) structure whole passages or scenes. The "taper" (candle) metaphor in _Macbeth_ 5.5 --
 "She should have died hereafter; / There would have been a time for such a word" -- develops into
-The image of life as a "poor player / That struts and frets his hour upon the stage," linking the
+the image of life as a "poor player / That struts and frets his hour upon the stage," linking the
 Themes of mortality, performance, and meaninglessness.
 
 Imagery clusters are crucial for GCSE analysis. In _Macbeth_, the recurring imagery of blood,
@@ -216,7 +216,7 @@ Psychological disintegration; appearance versus reality.
 #### Romeo and Juliet (c. 1595)
 
 Set in Verona, the play tells the story of two young lovers from feuding families, the Montagues and
-The Capulets, whose secret marriage ends in both their deaths. The play is notable for its extreme
+the Capulets, whose secret marriage ends in both their deaths. The play is notable for its extreme
 Compression of time (the entire action takes place over fewer than five days) and its blending of
 Tragic and comic elements.
 
@@ -383,22 +383,22 @@ When analysing a soliloquy, address the following elements:
 
 Engaging with critical perspectives can elevate a GCSE response, although it is not required by any
 Specification. The following are key critical traditions relevant to the plays most commonly studied
-At GCSE.
+at GCSE.
 
 ### 6.1 Samuel Johnson (1765)
 
 Johnson's _Preface to Shakespeare_ defended Shakespeare against neoclassical criticism. He argued
-That Shakespeare's plays should be judged not by adherence to classical rules of unity (time, place,
+that Shakespeare's plays should be judged not by adherence to classical rules of unity (time, place,
 Action) but by their fidelity to human nature. Johnson praised Shakespeare's "just representation of
 General nature" -- his ability to create characters who are universal in their recognisability.
 
 ### 6.2 A.C. Bradley (1904)
 
 Bradley's _Shakespearean Tragedy_ established the character-based approach to Shakespeare criticism
-That still dominates secondary education. Bradley treated Shakespeare's characters as if they were
+that still dominates secondary education. Bradley treated Shakespeare's characters as if they were
 Real people whose motivations could be analysed psychologically. His readings of Hamlet, Othello,
 Lear, and Macbeth remain influential, though they have been challenged for treating the plays as if
-They were novels rather than drama.
+they were novels rather than drama.
 
 ### 6.3 Jan Kott (1961)
 
@@ -414,7 +414,7 @@ Greenblatt's _Renaissance Self-Fashioning_ (1980) and _Will in the World_ (2004)
 Shakespeare's plays engage with the political, religious, and social tensions of Elizabethan and
 Jacobean England. This approach is particularly relevant to GCSE because it directly addresses AO3
 (context). For example, reading _Macbeth_ through a New Historicist lens means attending not only to
-The play's internal themes of ambition and guilt but also to its engagement with the Gunpowder Plot,
+the play's internal themes of ambition and guilt but also to its engagement with the Gunpowder Plot,
 The Stuart succession, and contemporary anxieties about treason.
 
 ### 6.5 Feminist Criticism
@@ -446,7 +446,7 @@ Five-act structure follows this pattern:
 | reconciliation.      |
 
 Students should be able to identify the structural function of any given scene within this framework
-And to explain how Shakespeare uses structure to shape the audience's experience.
+and to explain how Shakespeare uses structure to shape the audience's experience.
 
 ### 7.2 Character
 
@@ -489,8 +489,8 @@ Shakespeare presents Macbeth's ambition as a force that violates the natural ord
 Contemplates the murder of Duncan, the imagery of cosmic disruption -- "Stars, hide your fires; /
 Let not light see my black and deep desires" (1.4) -- connects his personal ambition to the larger
 Framework of the Great Chain of Being. In Jacobean England, the murder of a divinely appointed king
-Was not merely a political act but a sacrilege that threatened to unravel the entire moral fabric of
-The universe. Shakespeare's audience, acutely aware of the recent Gunpowder Plot (1605), would have
+was not merely a political act but a sacrilege that threatened to unravel the entire moral fabric of
+the universe. Shakespeare's audience, acutely aware of the recent Gunpowder Plot (1605), would have
 Understood Macbeth's regicide as a direct analogue to the Catholic conspiracy against James I. The
 Image of the stars hiding their light thus operates on both a personal level (Macbeth's desire to
 Conceal his thoughts) and a cosmic level (the disruption of the divine order).
@@ -526,7 +526,7 @@ Edexcel requires the study of one Shakespeare play from:
 - _Julius Caesar_
 
 The examination consists of two parts: a short extract-based question (10 marks) and a longer essay
-On the play as a whole (20 marks). The paper is closed-book.
+on the play as a whole (20 marks). The paper is closed-book.
 
 ### OCR
 

@@ -710,7 +710,7 @@ Redis data structures are like specialized tools in a toolbox. Strings are the s
 ### Using KEYS in Production
 
 `KEYS pattern*` scans the entire keyspace and blocks Redis during the scan. On a large dataset, this
-Can cause seconds of latency:
+can cause seconds of latency:
 
 ```bash
 # WRONG: blocks for seconds on large datasets
@@ -743,7 +743,7 @@ redis-cli MEMORY USAGE mykey
 ### Pub/Sub Message Loss
 
 Pub/sub does not persist messages. If a subscriber disconnects, it misses messages. If no subscriber
-Is listening when a message is published, the message is lost entirely. Use Streams for reliable
+is listening when a message is published, the message is lost entirely. Use Streams for reliable
 Messaging.
 
 ### Blocking Commands Without Timeouts

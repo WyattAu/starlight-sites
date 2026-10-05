@@ -397,7 +397,7 @@ Determined by the rate-determining step.
 ### Steady-State Approximation
 
 Intermediates (species produced and consumed in the mechanism) do not appear in the rate equation
-For the overall reaction.
+for the overall reaction.
 :::
 
 :::note[Example]
@@ -811,7 +811,7 @@ $$
 For a reaction with rate equation Rate $= k[\mathrm{A}]^2[\mathrm{B}]^0$ Which statement is Correct?
 
 A. Doubling [A] doubles the rate. B. Doubling [A] quadruples the rate. C. Doubling [B] quadruples
-The rate. D. The reaction is first order overall.
+the rate. D. The reaction is first order overall.
 
 **Answer: B.** The rate depends on $[\mathrm{A}]^2$ So doubling [A] increases the rate by a factor Of
 $2^2 = 4$. The reaction is second order overall.
@@ -890,7 +890,7 @@ Plotting $\ln[\mathrm{A}]$ vs $t$:
 | $\ln[\mathrm{A}]$ | 0   | $-0.693$ | $-1.386$ | $-2.079$ | $-2.773$ |
 
 The $\ln[\mathrm{A}]$ vs $t$ plot is linear with gradient $\approx -0.0693$ Confirming first order
-With $k = 0.0693\mathrm{ min}^{-1}$.
+with $k = 0.0693\mathrm{ min}^{-1}$.
 
 Alternatively, note that $[\mathrm{A}]$ halves every 10 minutes: $t_{1/2} = 10\mathrm{ min}$.
 
@@ -901,7 +901,7 @@ $$
 ### Effect of a Change in Temperature on the Rate Constant
 
 The Arrhenius equation shows that increasing temperature always increases the rate constant (and
-Therefore the rate), regardless of whether the reaction is exothermic or endothermic.
+therefore the rate), regardless of whether the reaction is exothermic or endothermic.
 
 ### Temperature Coefficient ($Q_{10}$)
 
@@ -1192,7 +1192,7 @@ $$
 $$
 
 (c) The intermediate is the fluorine atom ($\mathrm{F}$), which is produced in step 1 and consumed
-In step 2. It does not appear in the overall reaction or the rate equation.
+in step 2. It does not appear in the overall reaction or the rate equation.
 
 </details>
 

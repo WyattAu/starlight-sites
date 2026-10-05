@@ -78,7 +78,7 @@ Key elements:
 
 :::tip
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
-And back to the session timezone on retrieval.
+and back to the session timezone on retrieval.
 
 ### ALTER TABLE
 
@@ -671,7 +671,7 @@ FROM employees;
 :::caution
 `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`Which includes all peers (rows with the same
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
-All rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
+all rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
 
 ## Common Table Expressions (CTEs)
 
@@ -829,15 +829,15 @@ Joins are like matching puzzle pieces. An inner join finds only the pieces that 
 ### Off-by-One Errors with BETWEEN
 
 `BETWEEN` is inclusive on both ends: `WHERE date BETWEEN '2024-01-01' AND '2024-01-31'` includes
-Both endpoints. If `date` is a `TIMESTAMPTZ``BETWEEN '2024-01-01' AND '2024-01-31'` actually means
-Up to `2024-01-31 00:00:00`Excluding all timestamps on January 31st after midnight. Use
+both endpoints. If `date` is a `TIMESTAMPTZ``BETWEEN '2024-01-01' AND '2024-01-31'` actually means
+up to `2024-01-31 00:00:00`Excluding all timestamps on January 31st after midnight. Use
 `WHERE date >= '2024-01-01' AND date &lt; '2024-02-01'` for date-range comparisons with timestamps.
 
 ### Assuming ORDER BY Without Explicit ORDER BY
 
 SQL tables and result sets have no guaranteed ordering unless you specify `ORDER BY`. A query
-Without `ORDER BY` may return rows in any order, and that order may change between executions, after
-An `ANALYZE`Or after a version upgrade.
+without `ORDER BY` may return rows in any order, and that order may change between executions, after
+an `ANALYZE`Or after a version upgrade.
 
 ### Using DISTINCT as a Substitute for Proper Joins
 

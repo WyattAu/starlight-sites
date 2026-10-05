@@ -37,7 +37,7 @@ An ODE is:
 
 An **initial value problem (IVP)** specifies the value of the function (and possibly its
 Derivatives) at a single point. A **boundary value problem (BVP)** specifies conditions at two or
-More points.
+more points.
 
 ### 1.4 Examples from Physics and Biology
 

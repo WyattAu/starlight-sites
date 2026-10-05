@@ -33,7 +33,7 @@ flowchart TD
 This document goes deeper into TLS internals than the TLS fundamentals document, covering the record
 Layer architecture, detailed handshake message formats for TLS 1.3, cipher suite construction, key
 Exchange mechanisms, and common implementation pitfalls. This is the material you need to understand
-When debugging TLS connections, configuring servers, or evaluating cryptographic strength.
+when debugging TLS connections, configuring servers, or evaluating cryptographic strength.
 
 ## TLS Architecture
 
@@ -59,7 +59,7 @@ TLS is structured as a layered protocol with four sub-protocols operating over a
 ### Record Layer
 
 The TLS record layer fragments application data (and handshake messages) into records. Each record
-Has:
+has:
 
 ```
  0                   1                   2                   3
@@ -144,7 +144,7 @@ Cipher suites only specify the AEAD algorithm:
 | TLS_AES_128_CCM_8_SHA256     | AES-128-CCM-8     | SHA-256     |
 
 The key exchange algorithm is no longer part of the cipher suite. It is negotiated separately via
-The `supported_groups` extension.
+the `supported_groups` extension.
 
 ## TLS 1.3 Handshake in Detail
 
@@ -245,7 +245,7 @@ Verify_data does not match, the handshake has been tampered with and the connect
 ### ECDHE (Elliptic Curve Diffie-Hellman Ephemeral)
 
 The most widely used key exchange in TLS 1.3. Both sides generate an ephemeral (temporary) key pair
-On an elliptic curve, exchange public keys, and derive a shared secret.
+on an elliptic curve, exchange public keys, and derive a shared secret.
 
 ```
 Client generates: (priv_c, pub_c)
@@ -301,7 +301,7 @@ The client indicates which PSK modes it supports in the `psk_key_exchange_modes`
 
 :::note
 Secrecy even for resumed sessions. If the PSK is compromised, past traffic remains secure because
-The (EC)DHE exchange was ephemeral.
+the (EC)DHE exchange was ephemeral.
 
 ## Cipher Suites Breakdown
 
@@ -371,7 +371,7 @@ nonce = IV XOR (sequence_number << 64)
 ```
 
 The sequence number is a 64-bit counter that increments for each record. Since the sequence number
-Is included in the nonce, every record has a unique nonce, even with the same IV.
+is included in the nonce, every record has a unique nonce, even with the same IV.
 
 ## Certificate Verification Path
 
@@ -497,7 +497,7 @@ Legacy_version field.
 ### pre_shared_key (TLS 1.3)
 
 Contains the PSK identity and the binder value (an HMAC over the transcript up to this point, using
-The PSK). The binder prevents a man-in-the-middle from substituting a different PSK.
+the PSK). The binder prevents a man-in-the-middle from substituting a different PSK.
 
 ## Forward Secrecy
 
@@ -506,7 +506,7 @@ The PSK). The binder prevents a man-in-the-middle from substituting a different 
 Forward secrecy (also called perfect forward secrecy, PFS) ensures that compromising the server's
 Private key does not compromise past session keys. Each session uses an ephemeral key exchange, so
 Recording encrypted traffic and later obtaining the server's private key does not allow decryption
-Of past sessions.
+of past sessions.
 
 Without forward secrecy (static RSA key exchange), the session key is encrypted with the server's
 Static RSA private key. If an attacker records the handshake and later obtains the private key
@@ -539,7 +539,7 @@ Client-side mitigation.
 ### Lucky13 (CVE-2013-0169)
 
 A timing side-channel attack on CBC cipher suites in TLS 1.2. The decryption time varies depending
-On whether the MAC is valid, leaking information about the plaintext.
+on whether the MAC is valid, leaking information about the plaintext.
 
 **Mitigation:** Use AES-GCM or ChaCha20-Poly1305 (AEAD ciphers). If CBC must be used, implement
 Constant-time MAC verification.
@@ -675,7 +675,7 @@ Data encrypted with the peer's new keys.
 
 The server can request the client's certificate after the initial handshake is complete. This is
 Useful when the server does not know whether client authentication is needed until after processing
-The request.
+the request.
 
 ```text
 Server -> Client (encrypted):
@@ -698,7 +698,7 @@ Client -> Server (encrypted):
 ### Session Tickets (Stateless)
 
 The server encrypts the session state into a ticket and sends it to the client. The client presents
-The ticket on the next connection. The server decrypts the ticket and resumes the session.
+the ticket on the next connection. The server decrypts the ticket and resumes the session.
 
 Advantages: server does not store session state (scales horizontally). Disadvantages: ticket
 Encryption key must be rotated; tickets can be stolen.
@@ -724,7 +724,7 @@ Second handshake (resumption):
 ### 0-RTT Resumption
 
 With a valid PSK, the client can send application data in the first flight (0-RTT). This is useful
-For repeat connections where latency is critical.
+for repeat connections where latency is critical.
 
 ```bash
 # Test 0-RTT with openssl
@@ -824,7 +824,7 @@ CPU. Session resumption reduces this cost dramatically.
 ### Hardware Acceleration
 
 Modern CPUs support AES-NI (hardware-accelerated AES encryption). ChaCha20-Poly1305 is designed to
-Be fast without hardware acceleration and is preferred on ARM-based devices.
+be fast without hardware acceleration and is preferred on ARM-based devices.
 
 ```bash
 # Check if AES-NI is available
@@ -844,8 +844,8 @@ Certificate management and reduces CPU load on application servers.
 ### 8. Incomplete Certificate Chains
 
 The server must send the full certificate chain (leaf + intermediates). If intermediate certificates
-Are missing, clients that do not have the intermediate cached will fail to validate the chain. This
-Is the most common TLS deployment error.
+are missing, clients that do not have the intermediate cached will fail to validate the chain. This
+is the most common TLS deployment error.
 
 ```bash
 # Verify certificate chain completeness

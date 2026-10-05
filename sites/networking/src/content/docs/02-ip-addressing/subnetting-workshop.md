@@ -24,7 +24,7 @@ Subnetting is the process of dividing a single IP network into smaller, more man
 Sub-networks. Every systems engineer needs fluency in subnetting -- it is non-negotiable for network
 Design, troubleshooting, firewall rule authoring, and certification exams. This workshop covers the
 Binary method, VLSM, route summarization, wildcard masks, IPv6 subnetting, and a systematic approach
-To subnet planning.
+to subnet planning.
 
 The core skill is answering this question: given a network and a requirement, find the subnet mask,
 Network address, broadcast address, and usable host range. This document provides the method,
@@ -110,7 +110,7 @@ Host bits = $32 - 26 = 6$. Total addresses = $2^6 = 64$. Usable = $64 - 2 = 62$.
 
 :::tip
 `/31` (RFC 3021, point-to-point links, 2 usable) and `/32` (single host, 1 usable). Modern practice
-Also uses `/31` for network equipment links per RFC 6164.
+also uses `/31` for network equipment links per RFC 6164.
 
 ### Verifying with a Shortcut
 
@@ -335,7 +335,7 @@ Advertisement. This reduces routing table size and hides topology changes.
 
 The first 6 bits of the third octet are identical (`000100`). That means the summary covers the
 Third octet range where those 6 bits are fixed and the remaining 2 bits vary: `000100xx` = 16
-Through 19.
+through 19.
 
 **Step 3:** Calculate the summary prefix:
 
@@ -389,7 +389,7 @@ Clean summary because the range 17-19 is missing. Attempting to summarize to `/2
 ### What They Are
 
 A wildcard mask is the **inverse** of a subnet mask. Where the subnet mask has 1s, the wildcard mask
-Has 0s, and vice versa. Wildcard masks are used in ACLs (Access Control Lists) on Cisco and other
+has 0s, and vice versa. Wildcard masks are used in ACLs (Access Control Lists) on Cisco and other
 Network equipment.
 
 ```
@@ -457,7 +457,7 @@ Anything. This matches `172.16.4.0/22` exactly.
 
 The standard enterprise IPv6 allocation from a RIR (Regional Internet Registry) is a `/48`. The RFC
 6177 recommendation is to give each site a `/48`. Within a site, you subnet the `/48` into `/64`S
-For individual LAN segments.
+for individual LAN segments.
 
 A `/48` gives you $2^{16} = 65536$ possible `/64` subnets. That is not a typo. You will not run out.
 
@@ -642,7 +642,7 @@ Prefix is $8 + 5 = /13`.
 Summary: `10.0.0.0/13`
 
 This covers `10.0.0.0` through `10.7.255.255`. It includes more than the four specified networks (it
-Also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
+also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
 Routes or accept the over-summarization.
 :::
 
@@ -745,7 +745,7 @@ You need at least 7 host bits ($2^7 - 2 = 126$), which means a `/25` mask, not a
 
 When assigning subnets manually, it is easy to create overlaps. Always verify that the network
 Address of a new subnet does not fall within the range of any existing subnet. IPAM tools prevent
-This automatically.
+this automatically.
 
 ### 4. Ignoring Gateway Addresses
 
@@ -763,19 +763,19 @@ VIPs for load balancers also consume addresses. Plan for these upfront.
 
 If you try to create a `/25` starting at `192.168.1.128`That works (aligned to 128). But a `/25`
 Starting at `192.168.1.64` does NOT work -- 64 is not a valid `/25` boundary. `/25` boundaries are
-At multiples of 128.
+at multiples of 128.
 
 ### 7. Forgetting About Point-to-Point Links
 
 Point-to-point WAN links between routers consume a subnet. Four links with `/30` masks use 4 subnets
 (16 addresses, 8 usable). With `/31` (RFC 3021), you use 4 subnets (8 addresses, 8 usable). Plan for
-These.
+these.
 
 ### 8. IPv6 Misconceptions
 
 The most common IPv6 subnetting error is trying to use non-`/64` masks on LAN segments. SLAAC, NDP
 Autoconfiguration, and many implementations assume `/64`. Use `/64` for everything, and `/128` only
-For loopbacks and specific host routes.
+for loopbacks and specific host routes.
 :::
 
 :::tip

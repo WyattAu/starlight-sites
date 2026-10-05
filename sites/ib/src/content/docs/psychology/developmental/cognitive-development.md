@@ -29,7 +29,7 @@ Offer fundamentally different accounts of the mechanisms and processes underlyin
 Jean Piaget proposed that cognitive development proceeds through four invariant, qualitatively
 Distinct stages. Each stage represents a fundamentally different way of understanding and
 Interacting with the world. Development is driven by the interaction between biological maturation
-And environmental experience, through the processes of assimilation and accommodation.
+and environmental experience, through the processes of assimilation and accommodation.
 
 **Key concepts:**
 
@@ -132,9 +132,9 @@ Achievements include:
 ### Overview
 
 Lev Vygotsky (1978) proposed a fundamentally different account of cognitive development, emphasising
-The role of social interaction, language, and culture. Vygotsky argued that cognitive development is
-Not an individual, internal process but is fundamentally shaped by the child's interactions with
-More knowledgeable members of the culture.
+the role of social interaction, language, and culture. Vygotsky argued that cognitive development is
+not an individual, internal process but is fundamentally shaped by the child's interactions with
+more knowledgeable members of the culture.
 
 **Key concepts:**
 
@@ -189,7 +189,7 @@ More knowledgeable members of the culture.
 
 Theory of mind (ToM) refers to the ability to attribute mental states (beliefs, desires, intentions,
 Emotions) to oneself and to others, and to understand that others' mental states may differ from
-One's own. Theory of mind is a critical component of social cognition and is essential for
+one's own. Theory of mind is a critical component of social cognition and is essential for
 Successful social interaction.
 
 ### The Sally-Anne Test (Baron-Cohen, Leslie, and Frith, 1985)

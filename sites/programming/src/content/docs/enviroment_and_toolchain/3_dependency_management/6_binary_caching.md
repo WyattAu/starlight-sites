@@ -34,7 +34,7 @@ Caching, this process becomes an I/O-bound download operation, taking seconds.
 ## The Artifact Registry Architecture
 
 An **Artifact Registry** serves as the storage backend for pre-compiled binaries. This ensures that
-All developers and CI agents share the exact same binary artifacts, enforcing ABI consistency and
+all developers and CI agents share the exact same binary artifacts, enforcing ABI consistency and
 Eliminating redundant compilation.
 
 ### Industry Standard Registries
@@ -80,7 +80,7 @@ export VCPKG_BINARY_SOURCES="clear;files,/var/cache/vcpkg,readwrite"
 #### Scenario B: NuGet Feed (Artifactory/Azure DevOps)
 
 Vcpkg treats binary artifacts as NuGet packages. This is the standard protocol for Windows-centric
-Or Enterprise pipelines.
+or Enterprise pipelines.
 
 ```bash
 export VCPKG_BINARY_SOURCES="clear;nuget,https://artifactory.example.com/nuget/vcpkg-cache,readwrite"
@@ -174,14 +174,14 @@ This topology ensures that a developer changing `main.cpp` never waits for `Qt6`
 ### Immutability
 
 Artifacts in the registry should be **Immutable**. Once version `1.0.0` of a package is uploaded
-With a specific hash, it should never be overwritten. If the build configuration changes (e.g.,
+with a specific hash, it should never be overwritten. If the build configuration changes (e.g.,
 Enabling SSL support), the Package ID changes, creating a _new_ binary artifact rather than
 Overwriting the old one.
 
 ### Provenance
 
 The "Producer" CI job should sign the artifacts. Consumers should verify signatures to ensure that
-The binary was built by a trusted CI agent and not injected by a compromised developer machine.
+the binary was built by a trusted CI agent and not injected by a compromised developer machine.
 
 - **Conan:** Supports lockfiles (`conan.lock`) to strictly enforce dependency graph reproducibility.
 - **vcpkg:** Relies on Git SHAs in the registry baseline for provenance.
@@ -189,7 +189,7 @@ The binary was built by a trusted CI agent and not injected by a compromised dev
 ## Compiler Caching: ccache and sccache
 
 While binary package caching accelerates dependency acquisition, **compiler caching** accelerates
-The compilation of your own source code by memoizing translation unit compilations.
+the compilation of your own source code by memoizing translation unit compilations.
 
 ### How Compiler Caches Work
 
@@ -334,7 +334,7 @@ cmake -S . -B build \
 ### Correct Invalidation
 
 Cache entries are invalidated when any input to the hash changes. This is automatic and correct in
-The common case.
+the common case.
 
 ### Common Causes of Unnecessary Cache Misses
 

@@ -29,21 +29,21 @@ Reliability over an unreliable network, is fundamental to systems engineering.
 
 The transport layer is the first layer where the concept of a "connection" exists (for TCP). The
 Network layer (IP) delivers individual packets with no guarantees. The transport layer builds on
-This unreliable foundation to provide the reliability that applications need.
+this unreliable foundation to provide the reliability that applications need.
 
 The transport layer is also where **multiplexing** happens. Multiple applications on the same host
-Can communicate over the network simultaneously because the transport layer uses port numbers to
+can communicate over the network simultaneously because the transport layer uses port numbers to
 Demultiplex incoming packets to the correct application socket. This is why you can run a web server
 (port 80), a database (port 5432), and an SSH daemon (port 22) on the same machine simultaneously.
 
 The socket API is the standard interface for transport-layer communication. Defined in BSD Unix in
-The early 1980s, it provides a uniform interface for TCP, UDP, and other transport protocols. The
+the early 1980s, it provides a uniform interface for TCP, UDP, and other transport protocols. The
 Socket API is the de facto standard across all operating systems.
 
 ## UDP (User Datagram Protocol)
 
 UDP (RFC 768) is the simplest transport protocol. It provides a minimal interface: applications send
-And receive datagrams with no guarantees of delivery, ordering, or duplicate suppression.
+and receive datagrams with no guarantees of delivery, ordering, or duplicate suppression.
 
 ### UDP Header
 
@@ -210,7 +210,7 @@ Sequence numbers are used to track byte positions in the byte stream.
 
 **TCP Fast Open (TFO, RFC 7413):** Allows the client to include data in the SYN segment, saving one
 RTT on subsequent connections. The server issues a "cookie" in the SYN-ACK, and the client includes
-This cookie with data in subsequent SYNs. Requires kernel support (Linux 3.7+).
+this cookie with data in subsequent SYNs. Requires kernel support (Linux 3.7+).
 
 #### Four-Way Teardown (Connection Termination)
 
@@ -318,7 +318,7 @@ Sender sends bytes 1460-2919:
 ```
 
 The ISN is critical for security. If an attacker can predict the ISN, they can inject forged packets
-Into an established connection (TCP blind injection attack). Modern implementations use
+into an established connection (TCP blind injection attack). Modern implementations use
 Cryptographically randomized ISNs (RFC 6056).
 
 #### Selective Acknowledgment (SACK)
@@ -328,7 +328,7 @@ Segment 2 (bytes 1460-2919) is lost but segments 1, 3, and 4 arrive, the receive
 Byte 1459 (the last contiguous byte). The sender must retransmit segment 2 before sending new data.
 
 With SACK (RFC 2018), the receiver can inform the sender about exactly which blocks of data have
-Been received:
+been received:
 
 ```
 ACK=1460, SACK=2920-4379, SACK=5840-7299
@@ -498,7 +498,7 @@ Segments were lost.
 #### BBR (Bottleneck Bandwidth and RTT)
 
 BBR (Google, 2016, RFC 9438) is a congestion control algorithm that models the network path rather
-Than relying solely on packet loss as a congestion signal. Traditional algorithms (Reno, CUBIC)
+than relying solely on packet loss as a congestion signal. Traditional algorithms (Reno, CUBIC)
 Treat loss as congestion and reduce `cwnd`. BBR instead estimates two parameters:
 
 - **BtlBw (Bottleneck Bandwidth):** The maximum delivery rate observed.
@@ -676,7 +676,7 @@ HTTP/3 uses QUIC as its transport layer, replacing TCP. HTTP/3 is documented in 
 ## SYN Flood Protection
 
 A SYN flood is a denial-of-service attack that exploits the three-way handshake. The attacker sends
-Many SYN segments without completing the handshake. The server allocates resources (TCB --
+many SYN segments without completing the handshake. The server allocates resources (TCB --
 Transmission Control Block) for each half-open connection, eventually exhausting its connection
 Table.
 

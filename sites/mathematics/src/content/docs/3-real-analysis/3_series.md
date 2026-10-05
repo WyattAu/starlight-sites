@@ -53,7 +53,7 @@ such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$ I.e., $|a_n| \lt r^n$. Sinc
 converges (geometric series with $r \lt 1$), the comparison test gives absolute convergence.
 
 If $L > 1$ Then for infinitely many $n$: $\sqrt[n]{|a_n|} > 1$ So $|a_n| > 1$. Hence $a_n \not\to 0$
-And the series diverges. $\blacksquare$
+and the series diverges. $\blacksquare$
 
 **Theorem 3.5 (Integral Test).** If $f : [1, \infty) \to [0, \infty)$ is positive, continuous, and
 Decreasing, then $\sum_{n=1}^{\infty} f(n)$ converges if and only if $\int_1^{\infty} f(x)\, dx$
@@ -147,8 +147,8 @@ _Proof (outline)._ Let $P = \{n : a_n > 0\}$ and $N = \{n : a_n \lt 0\}$. Since 
 Conditionally, both $\sum_{n \in P} a_n = +\infty$ and $\sum_{n \in N} a_n = -\infty$.
 
 To achieve sum $L \in \mathbb{R}$: take positive terms in order until the partial sum exceeds $L$
-Then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
-The positive and negative subseries diverge, this process can always continue. The terms tend to
+then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
+the positive and negative subseries diverge, this process can always continue. The terms tend to
 Zero (since the series converges), so the oscillations around $L$ shrink to zero. $\blacksquare$
 
 _Remark._ By contrast, every rearrangement of an absolutely convergent series converges to the same

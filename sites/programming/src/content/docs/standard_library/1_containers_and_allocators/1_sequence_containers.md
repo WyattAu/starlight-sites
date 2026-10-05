@@ -61,7 +61,7 @@ int main() {
 
 The relationship between `size()` and `capacity()` is fundamental. `size()` returns the number of
 Elements currently stored, while `capacity()` returns the number of elements for which space has
-Been allocated [N4950 §22.3.11.3]. The invariant is:
+been allocated [N4950 §22.3.11.3]. The invariant is:
 
 $$
 \mathrm{size() \leq \mathrm{capacity()
@@ -92,7 +92,7 @@ A `std::vector` is implemented as three pointers [N4950 §22.3.11.1]:
   (`capacity() = _M_end_of_storage - _M_start`).
 
 This three-pointer structure means `sizeof(std::vector<int>) == 24` on 64-bit systems, regardless of
-The number of elements. The vector itself is always on the stack (or as part of another object);
+the number of elements. The vector itself is always on the stack (or as part of another object);
 Only the element storage is on the heap.
 
 ```cpp
@@ -138,7 +138,7 @@ slightly worse. QED.
 
 Although both factors give amortized $O(1)$ The choice of growth factor affects **peak memory
 Usage**. Consider a vector that just reallocated from capacity $c$ to capacity $\alpha c$. Before
-The old buffer is freed, the vector temporarily holds $\alpha c$ bytes of allocated (but unused)
+the old buffer is freed, the vector temporarily holds $\alpha c$ bytes of allocated (but unused)
 Memory. The **peak allocated memory** at this point is $c + \alpha c = c(1 + \alpha)$.
 
 For $\alpha = 2$: peak = $3c$ (the old buffer plus the new buffer of size $2c$). For $\alpha = 1.5$:
@@ -146,7 +146,7 @@ Peak = $2.5c$.
 
 More critically, a factor of exactly 2 can lead to the allocator being unable to reuse freed memory.
 When the vector grows from $c$ to $2c$ The old block of size $c$ is freed. On the next reallocation
-From $2c$ to $4c$ The old block of size $2c$ is freed. If the heap allocator places blocks
+from $2c$ to $4c$ The old block of size $2c$ is freed. If the heap allocator places blocks
 Contiguously, the freed block of size $c$ or $2c$ may be too small to hold the next allocation of
 $4c$ Forcing the allocator to find a completely new region. With $\alpha = 1.5$ The old block of Size
 $c$ is freed when growing to $1.5c$ And the next reallocation needs $2.25c$. Because
@@ -399,7 +399,7 @@ Now refer to the same elements within the destination container [N4950 §22.3.9.
 
 `std::array` is a fixed-size container that wraps a C-style array with the standard container
 Interface [N4950 §22.3.7]. It has no heap allocation, no dynamic growth, and zero overhead compared
-To a raw array. Since C++17, all member functions of `std::array` are `constexpr`Enabling
+to a raw array. Since C++17, all member functions of `std::array` are `constexpr`Enabling
 Compile-time computation.
 
 ```cpp
@@ -531,8 +531,8 @@ Library if you need compact storage.
 
 The C++ Standard provides a strong exception-safety guarantee for `std::vector::push_back` [N4950
 §22.3.11.5]: if `push_back` throws (either because the element's copy/move constructor throws or
-Because memory allocation fails), the vector's state is rolled back to its prior state, no elements
-Are lost and the vector remains valid.
+because memory allocation fails), the vector's state is rolled back to its prior state, no elements
+are lost and the vector remains valid.
 
 This guarantee is achieved by allocating the new buffer **before** moving elements into it. If any
 Element move/copy throws during the reallocation, the new buffer is deallocated and the original
@@ -619,10 +619,10 @@ Bytes, libc++ uses 22 bytes, and MSVC uses 15 bytes on 64-bit platforms.
 ### Common Pitfalls
 
 **1. Reserving too much or too little.** `reserve(n)` allocates capacity for at least `n` elements
-But never reduces capacity below `size()`. If you reserve a massive capacity and then discard most
+but never reduces capacity below `size()`. If you reserve a massive capacity and then discard most
 Elements, the memory is not returned until the vector is destroyed or `shrink_to_fit()` is called
 (and even then, the request is non-binding) [N4950 §22.3.11.3]. Conversely, not reserving at all
-Before a known-size insertion loop causes $O(n \log n)$ total copies instead of $O(n)$.
+before a known-size insertion loop causes $O(n \log n)$ total copies instead of $O(n)$.
 
 **2. Erasing during range-for iteration.** Erasing an element invalidates the iterator to that
 Element and all subsequent iterators. The following is UB:
@@ -646,7 +646,7 @@ Or use the C++20 erase-if idiom: `std::erase_if(v, [](int x) { return x == targe
 §22.3.11.5].
 
 **3. Using `deque` for random-access-heavy workloads.** `std::deque` has $O(1)$ random access, but
-Each access requires a map lookup plus a block dereference. For workloads dominated by `operator[]`
+each access requires a map lookup plus a block dereference. For workloads dominated by `operator[]`
 Or `at()``std::vector` is 2-5x faster due to single-pointer indirection and prefetcher Friendliness.
 Only use `deque` when `push_front` is a frequent operation.
 
@@ -666,7 +666,7 @@ Generic code that assumes `T&` from `operator[]` will fail to compile. Use `vect
 Bit storage with addressable elements.
 
 **7. Comparing vectors with `==` is $O(n)$.** Two vectors are equal if they have the same size and
-All elements compare equal. For large vectors, this is linear. If you need frequent equality checks,
+all elements compare equal. For large vectors, this is linear. If you need frequent equality checks,
 Consider a hash of the contents (but beware of hash collisions).
 
 ### `emplace_back` vs `push_back`
@@ -674,7 +674,7 @@ Consider a hash of the contents (but beware of hash collisions).
 `emplace_back` constructs an element in-place from forwarded arguments, avoiding a temporary
 Construction [N4950 §22.3.11.5]. `push_back` takes an existing object and moves/copies it into the
 Vector. For types with expensive move constructors or types that are not movable, `emplace_back` can
-Be significantly faster:
+be significantly faster:
 
 ```cpp
 #include <vector>
@@ -743,7 +743,7 @@ int main() {
 ### `std::deque` Random Access Internals
 
 Random access on `std::deque` requires computing which block an element belongs to and then indexing
-Within that block. Given block size $B$ and element index $i$:
+within that block. Given block size $B$ and element index $i$:
 
 $$
 \mathrm{block\_index = \left\lfloor \frac{\mathrm{start\_offset + i}{B} \right\rfloor

@@ -239,12 +239,12 @@ T = t \times Y(t)
 $$
 
 Where $t$ is the tax rate and $Y(t)$ is the tax base (income), which declines as $t$ increases (due
-To disincentive effects). At $t = 0$, $T = 0$. At $t = 1$ (100% tax), $T = 0$ (no one works). There
+to disincentive effects). At $t = 0$, $T = 0$. At $t = 1$ (100% tax), $T = 0$ (no one works). There
 Exists some $t^* \in (0, 1)$ that maximises revenue.
 
 :::caution
 $t^*$ lies. Most empirical estimates for developed economies suggest that income tax rates are below
-The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
+the revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
 :::
 
 ### 5.3 Evaluating the Trade-Off
@@ -577,7 +577,7 @@ measured inequality.
 
 A **poverty trap** occurs when the effective marginal tax rate (EMTR) on additional income is so
 High that work does not significantly increase net income. When means-tested benefits are withdrawn
-As earnings rise, the combined effect of income tax, National Insurance, and benefit withdrawal can
+as earnings rise, the combined effect of income tax, National Insurance, and benefit withdrawal can
 Create EMTRs exceeding 80%.
 
 **Example.** A single parent earning $£15\,000$ receives $£8\,000$ in means-tested benefits. For
@@ -594,7 +594,7 @@ This creates almost no financial incentive to increase working hours or seek hig
 ### 12.2 Universal Credit and Taper Rates
 
 Universal Credit (UK) uses a single taper rate of 55% (as of 2024), meaning benefits are withdrawn
-At 55p for every extra $£1$ earned above the work allowance. This simplifies the system but still
+at 55p for every extra $£1$ earned above the work allowance. This simplifies the system but still
 Creates high EMTRs when combined with income tax and National Insurance.
 
 ## 13. Government Redistribution Policies: Extended Analysis
@@ -665,7 +665,7 @@ Transferring after market incomes are determined). Over-reliance on either alone
 
 **Problem 1.** A country has income quintile shares: 4%, 9%, 15%, 24%, 48%. Calculate the Gini
 Coefficient. If a policy transfers income to equalise the bottom two quintiles (both at 6.5%), what
-Is the new Gini?
+is the new Gini?
 
 <details>
 <summary>Hint</summary>

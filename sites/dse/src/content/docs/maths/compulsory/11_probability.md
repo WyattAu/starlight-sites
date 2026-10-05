@@ -198,7 +198,7 @@ Counted once in $P(A)$ and once in $P(B)$ So we subtract one copy.
 ### Mutually Exclusive Events
 
 Two events $A$ and $B$ are **mutually exclusive** (disjoint) if $A \cap B = \emptyset$ I.e., they
-Cannot occur simultaneously.
+cannot occur simultaneously.
 
 When $A \cap B = \emptyset$ The general addition rule reduces to:
 
@@ -337,7 +337,7 @@ $\checkmark$
 **Theorem.** $P(A \mid B) = 1 - P(A' \mid B)$.
 
 _Proof._ Since $A \cap B$ and $A' \cap B$ partition $B$ (they are mutually exclusive and their union
-Is $B$):
+is $B$):
 
 $$
 \begin{aligned}
@@ -392,7 +392,7 @@ $$
 <summary>Example</summary>
 
 A bag contains 5 red and 3 blue balls. Two balls are drawn without replacement. Find the probability
-That both are red.
+that both are red.
 
 - $P(\mathrm{1st red}) = \frac{5}{8}$.
 - $P(\mathrm{2nd red} \mid \mathrm{1st red}) = \frac{4}{7}$.
@@ -480,11 +480,11 @@ Factors are positive. Therefore $P(A \cap B) \neq P(A) \cdot P(B)$ So $A$ and $B
 Independent. $\square$
 
 Intuition: mutually exclusive events carry strong negative information about each other -- knowing
-One occurred guarantees the other did not. Independence means no information transfer at all. These
-Are opposite extremes.
+one occurred guarantees the other did not. Independence means no information transfer at all. These
+are opposite extremes.
 
 The only case where mutually exclusive events are also independent is the degenerate case where at
-Least one event has probability zero.
+least one event has probability zero.
 
 </details>
 <summary>DSE-style Example</summary>
@@ -600,7 +600,7 @@ Positives in absolute terms.
 
 A factory has three machines producing items. Machine $M_1$ produces 50% of items with 2% defective.
 Machine $M_2$ produces 30% with 3% defective. Machine $M_3$ produces 20% with 5% defective. An item
-Is randomly selected and found to be defective. What is the probability it came from $M_3$?
+is randomly selected and found to be defective. What is the probability it came from $M_3$?
 
 Let $D$ = defective. The partition is $\{M_1, M_2, M_3\}$.
 
@@ -614,7 +614,7 @@ $$
 $$
 
 Despite $M_3$ having the highest defect rate, it only accounts for about 34.5% of defective items
-Because it produces the smallest share of total output.
+because it produces the smallest share of total output.
 
 ## Probability Trees
 
@@ -677,7 +677,7 @@ Trees are especially useful for problems involving:
 <summary>DSE-style Example</summary>
 
 A box contains 3 defective and 7 good bulbs. Bulbs are tested one by one without replacement. Find
-The probability that the second defective bulb is found on the third test.
+the probability that the second defective bulb is found on the third test.
 
 The second defective is found on the third test means: exactly one defective in the first two tests,
 And the third is defective.

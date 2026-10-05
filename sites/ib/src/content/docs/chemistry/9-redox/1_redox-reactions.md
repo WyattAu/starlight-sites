@@ -309,7 +309,7 @@ $$
 $$
 
 The **single vertical line** represents a phase boundary. The **double vertical line** represents
-The salt bridge. The anode is written on the left (oxidation), and the cathode on the right
+the salt bridge. The anode is written on the left (oxidation), and the cathode on the right
 (reduction).
 
 **Example:** Zn-Cu Daniel cell:
@@ -512,8 +512,8 @@ Anion and water compete for oxidation at the anode.
 
 :::caution
 Exam Tip The rules above are simplified. In reality, the product at an electrode depends
-On the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
-The rules as stated.
+on the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
+the rules as stated.
 :::
 
 ### Faraday's Laws
@@ -543,7 +543,7 @@ Number of electrons transferred).
 <summary>Worked Example 7: Electrolysis Calculation</summary>
 
 A current of $2.50\mathrm{ A}$ is passed through molten Al$_2$O$_3$ for $30.0$ minutes. Calculate
-The mass of aluminium produced. ($M_r(\mathrm{Al}) = 27.0\mathrm{ g/mol}$)
+the mass of aluminium produced. ($M_r(\mathrm{Al}) = 27.0\mathrm{ g/mol}$)
 
 Cathode half-reaction: $\mathrm{Al}^{3+} + 3e^- \to \mathrm{Al}$ So $n = 3$.
 
@@ -608,7 +608,7 @@ $$
 <summary>Worked Example 9: Faraday's Second Law</summary>
 
 The same charge is passed through two separate electrolytic cells: one containing molten NaCl and
-The other containing molten Al$_2$O$_3$. If $2.30\mathrm{ g}$ of Na is produced in the first cell,
+the other containing molten Al$_2$O$_3$. If $2.30\mathrm{ g}$ of Na is produced in the first cell,
 What mass of Al is produced in the second?
 
 Answer:
@@ -921,14 +921,14 @@ $$
 (b) In electrolysis of CuSO$_4$ with copper electrodes (electrorefining), the anode is made of
 Impure copper. At the anode, copper oxidises: $\mathrm{Cu}(s) \to \mathrm{Cu}^{2+}(aq) + 2e^-$. This
 Means the anode loses mass as copper atoms dissolve into solution. The Cu$^{2+}$ ions then travel to
-The cathode where they are deposited as pure copper.
+the cathode where they are deposited as pure copper.
 
 Note: With **inert** electrodes (e.g., graphite), oxygen is produced at the anode from water
 Oxidation, not from copper dissolution. The question specifies copper electrodes, so copper
 Oxidation occurs.
 
 (c) With **copper electrodes**, the anode reaction is $\mathrm{Cu} \to \mathrm{Cu}^{2+} + 2e^-$ And
-No O$_2$ is produced. If the electrodes were inert (graphite), then:
+no O$_2$ is produced. If the electrodes were inert (graphite), then:
 
 At the anode: $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$
 
@@ -1016,7 +1016,7 @@ Corrosion.
 
 (b) If the tin coating is scratched, the pipe would **not** be protected and would actually corrode
 **faster**. Sn has a less negative $E^\circ$ ($-0.14\mathrm{ V}$) than Fe ($-0.44\mathrm{ V}$), so
-At the scratch, Fe becomes the anode and Sn becomes the cathode:
+at the scratch, Fe becomes the anode and Sn becomes the cathode:
 
 - Anode: $\mathrm{Fe} \to \mathrm{Fe}^{2+} + 2e^-$ (oxidation of Fe)
 - Cathode: $\mathrm{O}_2 + 2\mathrm{H}_2\mathrm{O} + 4e^- \to 4\mathrm{OH}^-$ (reduction at Sn
@@ -1088,7 +1088,7 @@ $\mathrm{Cl}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{HCl} + \mathr
 
 This produces HCl (a strong acid), making the solution acidic. In practice, with thorough mixing,
 The solution becomes more acidic because Cl$_2$ dissolves and hydrolyses to form HCl and HClO, while
-The OH$^-$ at the cathode is consumed by this acid.
+the OH$^-$ at the cathode is consumed by this acid.
 
 </details>
 

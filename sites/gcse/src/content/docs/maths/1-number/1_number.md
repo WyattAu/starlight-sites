@@ -31,7 +31,7 @@ categories:
 ### 1.1 The Number System
 
 The real numbers can be classified into several nested subsets. Understanding these classifications
-Is essential for working with the number system fluently.
+is essential for working with the number system fluently.
 
 **Definition.** The set of **natural numbers** is $\mathbb{N} = \{1, 2, 3, \ldots\}$. The set of
 **integers** is $\mathbb{Z} = \{\ldots, -2, -1, 0, 1, 2, \ldots\}$.
@@ -118,14 +118,14 @@ $$
 **Proof.** Suppose there are finitely many primes $p_1, p_2, \ldots, p_n$. Consider
 $N = p_1 p_2
 \cdots p_n + 1$. For each prime $P_i$, $N$ leaves remainder 1 when divided by $P_i$, so
-No $p_i$ divides $N$. Either $N$ is prime (contradicting that the list was complete) or $N$ has a
+no $p_i$ divides $N$. Either $N$ is prime (contradicting that the list was complete) or $N$ has a
 Prime factor not in the list (also a contradiction). $\blacksquare$
 
 ### 1.3 Highest Common Factor and Lowest Common Multiple
 
 Given two integers $a$ and $b$ Their **highest common factor** (HCF) is the largest integer that
 Divides both $a$ and $b$. Their **lowest common multiple** (LCM) is the smallest positive integer
-That is a multiple of both.
+that is a multiple of both.
 
 If the prime factorisations are $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots$ and
 $b = p_1^{\beta_1} p_2^{\beta_2} \cdots$ Then:
@@ -789,7 +789,7 @@ Prime. $\blacksquare$
 **Example.** Prove that $n^2 + n$ is always even for all integers $n$.
 
 $n^2 + n = n(n + 1)$. Among any two consecutive integers, one must be even. Therefore their product
-Is even. $\blacksquare$
+is even. $\blacksquare$
 
 **Example.** Prove that the difference between the squares of any two consecutive odd numbers is
 Divisible by 8.

@@ -22,13 +22,13 @@ categories:
 ## C-Interop and FFI
 
 C++ uses **name mangling** to encode type information into function symbols, enabling overloading. C
-Does not mangle names, each function has a single symbol matching its source name. Interoperating
-Between C and C++ requires careful management of linkage, data layouts, and exception boundaries.
+does not mangle names, each function has a single symbol matching its source name. Interoperating
+between C and C++ requires careful management of linkage, data layouts, and exception boundaries.
 
 ## 5.1 `extern "C"` Linkage [N4950 §9.9]
 
 C++ uses **name mangling** to encode type information into function symbols, enabling overloading. C
-Does not mangle names, each function has a single symbol matching its source name. The `extern "C"`
+does not mangle names, each function has a single symbol matching its source name. The `extern "C"`
 Linkage specification disables name mangling, making a C++ function callable from C (and vice
 Versa).
 
@@ -124,7 +124,7 @@ static_assert(square(5) == 25);  // OK: constexpr evaluation
 
 Functions with `extern "C"` linkage are implicitly `noexcept` unless declared otherwise [N4950
 §14.5]. This is because C has no exception mechanism, so a C-linkage function that throws violates
-The C ABI contract:
+the C ABI contract:
 
 ```cpp
 extern "C" void c_function();  // implicitly noexcept

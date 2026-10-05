@@ -23,7 +23,7 @@ categories:
 
 These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE
 Syllabus. Every definition is precise, every result is derived (or its derivation is sketched with
-Enough detail for you to complete it), and every formula is justified from first principles.
+enough detail for you to complete it), and every formula is justified from first principles.
 
 The goal is not just exam preparation -- it is to build the deep mathematical, scientific, literary,
 And logical intuition that makes exam questions feel like applications of things you truly

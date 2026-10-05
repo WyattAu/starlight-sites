@@ -23,7 +23,7 @@ Part 4 addresses the central problem in systems programming: **who is responsibl
 Resource, and when does that release occur?**
 
 In garbage-collected languages, the runtime answers this question for you. In C++, the programmer
-Must establish explicit ownership contracts. When these contracts are violated, the result is a
+must establish explicit ownership contracts. When these contracts are violated, the result is a
 Resource leak, a double-free, or use-after-free, all of which are undefined behavior.
 
 This part covers four tightly coupled topics:

@@ -601,7 +601,7 @@ Name the following compound: CH$_3$CH(Cl)CH(CH$_3$)CH$_2$CH$_3$.
 **Compare the mechanisms of $S_N1$ and $S_N2$ reactions.**
 
 $S_N2$: One-step bimolecular mechanism. The nucleophile attacks the carbon bearing the leaving group
-From the opposite side, leading to inversion of configuration. The rate depends on both [substrate]
+from the opposite side, leading to inversion of configuration. The rate depends on both [substrate]
 And [nucleophile]. Favoured for primary substrates.
 
 $S_N1$: Two-step unimolecular mechanism. The leaving group departs first to form a carbocation
@@ -721,7 +721,7 @@ Versa.
 ### Optical Isomerism
 
 Optical isomers (enantiomers) are non-superimposable mirror images. They occur when a carbon atom
-Has four different groups attached (a chiral centre).
+has four different groups attached (a chiral centre).
 
 **Properties of enantiomers**:
 
@@ -972,7 +972,7 @@ Name: **4-chloro-2-methylhexane**.
 <summary>Question 2: Alkene Addition Reactions</summary>
 
 Describe the products formed when propene ($\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2$) reacts with
-Each of the following:
+each of the following:
 
 (a) $\mathrm{HBr}$
 

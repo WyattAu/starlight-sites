@@ -195,7 +195,7 @@ Using the same three processes with quantum $q = 4$:
 
 Round Robin eliminates the convoy effect but gives a higher average waiting time than SJF due to
 Preemption overhead. The turnaround time for $P_1$ is unchanged (the work must be done), but $P_2$
-And $P_3$ receive faster first response.
+and $P_3$ receive faster first response.
 
 </details>
 

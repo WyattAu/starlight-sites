@@ -22,7 +22,7 @@ URL: https://rust.wyattau.com/01-fundamentals/control-flow/
 ## `if` / `else`
 
 Rust's `if` expression does not require parentheses around the condition, but braces around the body
-Are mandatory. Unlike C or Java, `if` is an expression, it returns a value and can be used inline:
+are mandatory. Unlike C or Java, `if` is an expression, it returns a value and can be used inline:
 
 ```rust
 let condition = true;
@@ -92,7 +92,7 @@ Braced block.
 ## `match` Expressions
 
 `match` is Rust's most powerful control flow construct. It performs exhaustive pattern matching
-Against a value and executes the first matching arm.
+against a value and executes the first matching arm.
 
 ```rust
 enum Coin {
@@ -118,7 +118,7 @@ fn value_in_cents(coin: &Coin) -> u8 {
 ### Exhaustiveness
 
 The compiler verifies that every possible value is covered. Adding a new variant to an enum causes
-Every `match` on that enum to produce a compile error until updated:
+every `match` on that enum to produce a compile error until updated:
 
 ```rust
 enum Color { Red, Green, Blue }
@@ -134,7 +134,7 @@ fn color_name(c: Color) -> &'static str {
 ```
 
 The `_` wildcard matches anything and is useful when you do not need to handle specific cases. It
-Does not bind the value.
+does not bind the value.
 
 ### Match Guards
 
@@ -151,7 +151,7 @@ match num {
 ```
 
 Match guards do not participate in exhaustiveness checking. The compiler cannot prove that a guard
-Will always match, so you may still need a catch-all arm.
+will always match, so you may still need a catch-all arm.
 
 ### Variable Shadowing in Match Arms
 
@@ -171,7 +171,7 @@ match x {
 ### Match on References (Match Ergonomics)
 
 Rust 2021 edition enables match ergonomics, the compiler automatically adds `&` when matching
-Through a reference:
+through a reference:
 
 ```rust
 let c = Coin::Penny;
@@ -223,7 +223,7 @@ match x {
 ### Guarding Against Variable Binding Conflicts
 
 A match guard can reference variables from the enclosing scope. If the guard's variable name shadows
-The pattern's binding, use `@` to bind and filter simultaneously:
+the pattern's binding, use `@` to bind and filter simultaneously:
 
 ```rust
 let age = 15;
@@ -345,7 +345,7 @@ for (key, value) in &scores {
 ```
 
 HashMap iteration order is not guaranteed. If you need ordering, collect into a `BTreeMap` or sort
-The entries.
+the entries.
 
 ## `break` and `continue`
 
@@ -443,7 +443,7 @@ match some_value {
 ```
 
 `if let` does not enforce exhaustiveness. Use it when you care about one pattern and want to ignore
-The rest. The `else` block handles the non-matching case:
+the rest. The `else` block handles the non-matching case:
 
 ```rust
 let some_value = Some(7);
@@ -735,7 +735,7 @@ match x {
 ```
 
 This works correctly because the guard's `x` refers to the pattern binding, not the outer `x`. But
-If the guard references an outer variable with the same name, the outer variable takes precedence.
+if the guard references an outer variable with the same name, the outer variable takes precedence.
 
 ## Control Flow in Error Handling
 
@@ -933,7 +933,7 @@ fn experimental_feature() {
 ## `return` as an Expression
 
 `return` exits the current function. It is an expression of type `!` (never type), which coerces to
-Any type:
+any type:
 
 ```rust
 fn abs(x: i32) -> i32 {
@@ -1003,8 +1003,8 @@ fn not_implemented() -> i32 {
 ```
 
 `unreachable!` panics with a message indicating the code should never be reached. `todo!` is similar
-But indicates the code is intentionally incomplete. Both are useful during development but should
-Not appear in production code.
+but indicates the code is intentionally incomplete. Both are useful during development but should
+not appear in production code.
 
 ## Common Pitfalls
 
@@ -1123,7 +1123,7 @@ Platform-dependent `isize` and `usize`:
 | `isize` / `usize` | 4 or 8       | Pointer-sized                                                                                               | Pointer-sized                                            |
 
 The default integer type is `i32`. This is not an arbitrary choice, on x86-64, `i32` operations are
-As fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
+as fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
 Zero-extension overhead that `i8`/`u8` incur in many contexts.
 
 ### Integer Literals
@@ -1137,7 +1137,7 @@ let byte = b"A";        // u8 only
 ```
 
 The underscore separator is valid anywhere within a numeric literal for readability. It is ignored
-By the compiler.
+by the compiler.
 
 ### Integer Overflow
 
@@ -1171,7 +1171,7 @@ assert_eq!(std::mem::size_of::<bool>(), 1);
 ```
 
 Alignment determines the memory address at which a value must be stored. A `u64` with alignment 8
-Must be placed at an address divisible by 8. Misaligned access on x86-64 works but may be slower; on
+must be placed at an address divisible by 8. Misaligned access on x86-64 works but may be slower; on
 ARM without unaligned access support, it traps.
 
 ## Floating-Point Types
@@ -1209,7 +1209,7 @@ assert!(!nan.is_nan());        // false, use is_nan() for the check
 
 :::caution
 Impossible (NaN breaks reflexivity and transitivity). Use `f64::total_cmp()` (stable since 1.62) if
-You need a total ordering for sorting.
+you need a total ordering for sorting.
 
 ```rust
 let values = [f64::NAN, 1.0, 2.0, f64::INFINITY];
@@ -1371,7 +1371,7 @@ assert_eq!(first(&arr), Some(&10));
 ```
 
 This is a significant improvement over the pre-const-generics era where you had to work with slices
-And lose the compile-time size information.
+and lose the compile-time size information.
 
 ## Vectors
 
@@ -1474,7 +1474,7 @@ assert_eq!(s.chars().count(), 5);  // 5 characters
 ```
 
 Indexing into a string with `s[0]` is not valid because the index is byte-based, and a byte index
-May fall in the middle of a multi-byte character:
+may fall in the middle of a multi-byte character:
 
 ```rust
 let s = "こんにちは";
@@ -1614,7 +1614,7 @@ y = 6;     // OK
 
 Variable mutability (`let mut`) controls whether you can reassign the binding. Interior mutability
 (Cell, RefCell, Mutex) controls whether you can modify the value through a shared reference. These
-Are orthogonal concepts.
+are orthogonal concepts.
 
 ```rust
 let x = Cell::new(5);  // x is immutable
@@ -2048,13 +2048,13 @@ impl Counter {
 
 :::danger
 Creating two mutable references to the same data simultaneously. You are responsible for maintaining
-The aliasing invariant. Violating this is undefined behavior.
+the aliasing invariant. Violating this is undefined behavior.
 
 ### Why `UnsafeCell` Exists
 
 The compiler assumes that `&T` never allows mutation. `UnsafeCell` is the escape hatch that tells
-The compiler "I will manage the aliasing rules myself." Without `UnsafeCell`It would be impossible
-To implement `Cell``RefCell``Mutex`Or any other interior mutability type.
+the compiler "I will manage the aliasing rules myself." Without `UnsafeCell`It would be impossible
+to implement `Cell``RefCell``Mutex`Or any other interior mutability type.
 
 ### `UnsafeCell` and `Sync`
 
@@ -2398,7 +2398,7 @@ Need interior mutability?
 ### `OnceCell<T>` (Stable since Rust 1.70)
 
 `OnceCell` stores a value that is initialized at most once. It is useful for lazy initialization and
-For storing values that are set during construction:
+for storing values that are set during construction:
 
 ```rust
 use std::cell::OnceCell;
@@ -2589,7 +2589,7 @@ assert_eq!(std::mem::size_of::<RefCell<u64>>(), 16);  // 8 bytes value + overhea
 
 `Mutex` has a system-level overhead: on Linux, it uses `pthread_mutex_t` (40 bytes). Locking is a
 System call on contention and a single atomic operation when uncontended. `Mutex` always allocates
-The value on the heap (it uses `alloc::sys::Exclusive::new` internally ).
+the value on the heap (it uses `alloc::sys::Exclusive::new` internally ).
 
 ```rust
 assert_eq!(std::mem::size_of::<Mutex<u64>>(), 40);  // platform-dependent
@@ -2599,7 +2599,7 @@ assert_eq!(std::mem::size_of::<Mutex<u64>>(), 40);  // platform-dependent
 
 `RwLock` is larger than `Mutex` (48 bytes on Linux) because it must track multiple readers. Read
 Locks are cheaper than write locks but still involve atomic operations. Write locks are comparable
-To `Mutex` locks.
+to `Mutex` locks.
 
 ## `Cell` vs `RefCell` Decision Guide
 
@@ -2669,7 +2669,7 @@ Use `Mutex<T>` when:
 ### Dropping `RefCell` with Active Borrows
 
 When a `RefCell` is dropped while a `Ref` or `RefMut` guard exists, the guard keeps the borrow alive
-Until it is dropped. This means the `RefCell`'s destructor runs after the guard is dropped:
+until it is dropped. This means the `RefCell`'s destructor runs after the guard is dropped:
 
 ```rust
 use std::cell::RefCell;
@@ -2838,7 +2838,7 @@ return a reference. The returned reference would point to freed memory. Lifetime
 by which the compiler tracks and enforces this constraint.
 
 Every reference in Rust has a lifetime, a region of code during which the reference is valid. In
-Most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
+most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
 Relationship between input and output lifetimes is ambiguous.
 
 ## Lifetime Annotation Syntax
@@ -2879,7 +2879,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 ```
 
 The return type's lifetime is tied only to `'a`. The compiler does not require `'a` and `'b` to have
-Any relationship, they are independent.
+any relationship, they are independent.
 
 ## Function Lifetimes
 
@@ -3039,7 +3039,7 @@ Types are divided into two categories based on whether assignment copies or move
 
 A type implements `Copy` if and only if every bit pattern of its memory representation is a valid
 Value. This is why types containing heap pointers (like `String`) cannot be `Copy`a bitwise copy
-Would create two owners of the same heap allocation.
+would create two owners of the same heap allocation.
 
 ### The `Copy` Trait
 
@@ -3214,7 +3214,7 @@ At any given lifetime scope for a value:
 
 Lifetimes are Rust's way of tracking how long a reference is valid. Every reference has a lifetime,
 But in most cases the compiler can infer it (lifetime elision rules). Explicit lifetime annotations
-Are needed when the compiler cannot determine the relationship between input and output lifetimes.
+are needed when the compiler cannot determine the relationship between input and output lifetimes.
 
 ### Lifetime Annotation Syntax
 
@@ -3232,7 +3232,7 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 ```
 
 The annotation `<'a>` says: "there exists some lifetime `'a` such that both `x` and `y` live at
-Least as long as `'a`And the return value also lives at least as long as `'a`." The caller gets to
+least as long as `'a`And the return value also lives at least as long as `'a`." The caller gets to
 Choose what `'a` is, constrained by the actual lifetimes of the arguments.
 
 ### Lifetime Elision Rules
@@ -3275,7 +3275,7 @@ fn print<'a, 'b: "a>(x: &''b str, y: &"a str) {
 ```
 
 This is useful when a struct holds a reference and you need to ensure the struct does not outlive
-The referent.
+the referent.
 
 ### Struct Lifetimes
 
@@ -3369,7 +3369,7 @@ Means there is no risk of creating a dangling reference to the interior.
 ### `RefCell<T>`
 
 `RefCell<T>` provides reference-based interior mutability for any type. It tracks borrows at runtime
-With a reference count and panics if the borrowing rules are violated:
+with a reference count and panics if the borrowing rules are violated:
 
 ```rust
 use std::cell::RefCell;
@@ -3416,7 +3416,7 @@ b.neighbors.borrow_mut().push(&a);
 ### `UnsafeCell<T>`
 
 `UnsafeCell<T>` is the primitive underlying both `Cell` and `RefCell`. It is the only type in Rust
-That allows safe code to obtain a mutable reference to its interior through a shared reference.
+that allows safe code to obtain a mutable reference to its interior through a shared reference.
 Using `UnsafeCell` directly requires `unsafe` code and is the foundation for all interior mutability
 Abstractions.
 
@@ -3679,7 +3679,7 @@ fn main() {
 ### Non-Lexical Lifetimes (NLL, Rust 2018+)
 
 NLL analyzes the control flow graph to determine when a reference is last used. The borrow ends at
-The last usage point, not at the end of the lexical scope:
+the last usage point, not at the end of the lexical scope:
 
 ```rust
 fn main() {
@@ -3696,7 +3696,7 @@ fn main() {
 
 Polonius is the next-generation borrow checker, named after the character from Hamlet ("I have of
 Late, but wherefore I know not, lost all my mirth"). It uses a dataflow analysis approach that is
-Both more precise and easier to reason about than NLL. As of Rust 1.85, Polonius is available as an
+both more precise and easier to reason about than NLL. As of Rust 1.85, Polonius is available as an
 Experimental feature (`-Zpolonius`) and is expected to become the default in a future edition.
 
 Polonius enables patterns that NLL rejects, such as:
@@ -3829,7 +3829,7 @@ where
 
 The `for<'a>` syntax means "for all lifetimes 'a." The closure must be valid regardless of what
 Lifetime `'a` the caller chooses. This is a more restrictive bound than specifying a single lifetime
-Because the closure cannot capture references with a specific lifetime.
+because the closure cannot capture references with a specific lifetime.
 
 HRTBs are also used in the standard library for `Iterator::find`:
 
@@ -3905,12 +3905,12 @@ struct SelfReferential {
 ## Lifetime Variance in Practice
 
 Understanding variance is critical when writing generic code over lifetimes. Variance determines
-Whether a longer lifetime can be substituted for a shorter one.
+whether a longer lifetime can be substituted for a shorter one.
 
 ### Covariance (Read-Only Contexts)
 
 `&'a T` is covariant in `'a`. If `'long: "short` (long outlives short), then `&''long T` can be used
-Where `&"short T` is expected. This is safe because a longer-lived reference is a subtype of a
+where `&"short T` is expected. This is safe because a longer-lived reference is a subtype of a
 Shorter-lived one when you only read through it.
 
 ```rust
@@ -4026,7 +4026,7 @@ flowchart TD
 
 The newtype pattern wraps an existing type in a tuple struct, creating a distinct type with the same
 Memory representation. This provides type safety without runtime overhead, the compiler eliminates
-The wrapper after optimization.
+the wrapper after optimization.
 
 ### Type Safety Through Wrapping
 
@@ -4051,7 +4051,7 @@ get_order(oid);
 ```
 
 The newtype pattern prevents accidentally passing an `OrderId` where a `UserId` is expected. Both
-Are `u64` internally, but the compiler treats them as completely different types.
+are `u64` internally, but the compiler treats them as completely different types.
 
 ### Memory Layout
 
@@ -4090,7 +4090,7 @@ assert_eq!(len, 1);
 
 :::caution
 `Deref`Callers can use the newtype as if it were the inner type, potentially defeating the purpose
-Of the wrapper. Only implement `Deref` when you intentionally want this behavior.
+of the wrapper. Only implement `Deref` when you intentionally want this behavior.
 
 ### Unit Conversion with Newtypes
 
@@ -4336,7 +4336,7 @@ let client = Client::new();
 ## Enum Dispatch
 
 Enum dispatch uses enums to implement polymorphism without trait objects, providing static dispatch
-And better performance:
+and better performance:
 
 ```rust
 enum Shape {
@@ -4383,7 +4383,7 @@ Use **trait objects** when:
 ## Zero-Sized Types (ZSTs)
 
 Zero-sized types occupy no memory at runtime. They are useful as marker types, phantom types, and
-For compile-time programming.
+for compile-time programming.
 
 ### Unit Structs
 
@@ -4416,7 +4416,7 @@ assert_eq!(std::mem::size_of::<Id<Vec<u8>>>(), 8);
 ```
 
 `PhantomData<T>` affects variance: `Id<T>` is covariant in `T` because `PhantomData<T>` is covariant
-In `T`.
+in `T`.
 
 ### ZST in Generics
 
@@ -4540,7 +4540,7 @@ assert_eq!(p.distance_from_origin(), 5.0);
 ```
 
 Tuple structs with a single field implement the **newtype pattern**, creating a distinct type from
-The wrapped type:
+the wrapped type:
 
 ```rust
 struct UserId(u64);
@@ -4658,7 +4658,7 @@ mod geometry {
 ```
 
 Note: making a struct `pub` does not make its fields `pub`. Each field must be individually marked
-As `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
+as `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
 Members public.
 
 ### Methods and Associated Functions
@@ -4705,7 +4705,7 @@ assert_eq!(r.area(), 12.0);
 ### Multiple `impl` Blocks
 
 A type can have multiple `impl` blocks. This is useful for organizing methods by functionality or
-For separating trait implementations from inherent methods:
+for separating trait implementations from inherent methods:
 
 ```rust
 impl Rectangle {
@@ -4799,7 +4799,7 @@ enum Event {
 ### Enum Memory Layout
 
 The compiler stores a discriminant tag alongside the variant data. The default discriminant type is
-The smallest integer that can represent all variants:
+the smallest integer that can represent all variants:
 
 ```rust
 enum Color {
@@ -4871,7 +4871,7 @@ Contains itself recursively.
 ## Pattern Matching
 
 Pattern matching is Rust's primary control flow mechanism for enums and is exhaustively checked by
-The compiler.
+the compiler.
 
 ### `match` Expressions
 
@@ -4924,7 +4924,7 @@ match num {
 ```
 
 Match guards do not participate in exhaustiveness checking. The compiler cannot prove that a guard
-Will always match for a given variant, so you may still need a catch-all arm.
+will always match for a given variant, so you may still need a catch-all arm.
 
 ### Binding Modes
 
@@ -5180,7 +5180,7 @@ Failures).
 
 Panics are for unrecoverable programming errors, the kind of bugs where the program cannot continue
 Correctly. When a panic occurs, the runtime unwinds the stack (by default), calling destructors for
-All live values, and then aborts the thread (or the process in `panic = "abort"` mode).
+all live values, and then aborts the thread (or the process in `panic = "abort"` mode).
 
 ```rust
 fn main() {
@@ -5297,7 +5297,7 @@ x.unwrap_or_else(|| {
 ```
 
 Use `unwrap_or_else` when the default value is expensive to compute. The closure is called lazily
-Only when the `Option` is `None`.
+only when the `Option` is `None`.
 
 ### `ok_or` and `ok_or_else`
 
@@ -5344,7 +5344,7 @@ let m: Option<&mut String> = x.as_mut(); // Some(&mut String)
 ```
 
 `as_ref` borrows the `Option` as `Option<&T>` without moving the inner value. `as_mut` does the same
-For mutable borrows.
+for mutable borrows.
 
 ### Iterating Over `Option`
 
@@ -5505,7 +5505,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ```
 
 Since Rust 1.26, `main` can return `Result`. The runtime will print the error and set the exit code
-To 1 on `Err`.
+to 1 on `Err`.
 
 ### `?` in `Option` vs `Result` Functions
 
@@ -6086,8 +6086,8 @@ URL: https://rust.wyattau.com/04-error-handling/error-handling-patterns/
 
 Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not
 Special control flow mechanisms that can jump across function boundaries. They are ordinary values
-That propagate through the type system via `Result<T, E>`. This makes error paths explicit and force
-The programmer to handle them.
+that propagate through the type system via `Result<T, E>`. This makes error paths explicit and force
+the programmer to handle them.
 
 The core principle: **make error states unrepresentable where possible, and where they are
 Representable, make them unignorable.**
@@ -6096,7 +6096,7 @@ Representable, make them unignorable.**
 
 In exception-based languages (Java, Python, C++), error handling is opt-in, you can ignore
 Exceptions and they propagate implicitly. In Rust, `Result` forces you to acknowledge errors at
-Every level of the call stack. The `?` operator makes propagation ergonomic, but the type system
+every level of the call stack. The `?` operator makes propagation ergonomic, but the type system
 Still tracks the error type.
 
 ```rust
@@ -6152,7 +6152,7 @@ impl std::error::Error for AppError {
 ### `From` Implementations for `?` Propagation
 
 Each `From` implementation enables the `?` operator to automatically convert the source error type
-Into your error type:
+into your error type:
 
 ```rust
 impl From<std::io::Error> for AppError {
@@ -6189,7 +6189,7 @@ fn load_config(path: &str) -> Result<Config, AppError> {
 ### `std::error::Error::source()`
 
 The `source()` method enables walking an error chain. Each error can optionally return a reference
-To the underlying error that caused it:
+to the underlying error that caused it:
 
 ```rust
 use std::error::Error;
@@ -6248,7 +6248,7 @@ impl fmt::Display for DetailedError {
 
 `Backtrace::capture()` captures the current stack trace. It is available when `RUST_BACKTRACE=1` is
 Set. The backtrace is only captured if an environment variable enables it, so there is no overhead
-In production by default.
+in production by default.
 
 ## `thiserror` vs `anyhow` Decision Framework
 
@@ -6974,7 +6974,7 @@ impl std::error::Error for MultiError {
 ### Error Conversion at Module Boundaries
 
 Convert errors at module boundaries to maintain a clean internal API while providing rich errors at
-The external boundary:
+the external boundary:
 
 ```rust
 mod database {
@@ -7183,7 +7183,7 @@ impl std::fmt::Display for MyVec {
 ## Default Methods
 
 Default methods can call required methods, allowing the implementing type to provide a single method
-And get additional behavior for free:
+and get additional behavior for free:
 
 ```rust
 trait Processor {
@@ -7375,8 +7375,8 @@ impl<T: Clone> Maybe<T> {
 ## Monomorphization
 
 Rust performs **monomorphization**, the compiler generates a separate copy of each generic function
-For every concrete type used. This happens at compile time and produces optimized, specialized code
-With no runtime overhead.
+for every concrete type used. This happens at compile time and produces optimized, specialized code
+with no runtime overhead.
 
 ```rust
 fn id<T>(x: T) -> T { x }
@@ -7525,7 +7525,7 @@ let base: Box<dyn Base> = derived;  // upcast
 ## Blanket Implementations
 
 A blanket implementation implements a trait for all types that satisfy certain bounds. This is one
-Of Rust's most powerful patterns:
+of Rust's most powerful patterns:
 
 ```rust
 impl<T: Display> ToString for T {
@@ -7611,7 +7611,7 @@ print_len("hello");  // &str is ?Sized, works because we take a reference
 ```
 
 `?Sized` is primarily used for trait objects (`dyn Trait` is `!Sized`) and for `[T]` slices (which
-Are dynamically sized).
+are dynamically sized).
 
 ## Supertraits
 
@@ -7746,7 +7746,7 @@ fn configure<T: BaudRate>() -> u32 {
 ## Const Generics
 
 Const generics allow you to use constant values as generic parameters. This is particularly useful
-For arrays and type-level programming:
+for arrays and type-level programming:
 
 ```rust
 struct Array<T, const N: usize> {
@@ -7828,7 +7828,7 @@ Same bounds and a blanket implementation, or to use a type alias on generic para
 ## Newtype Pattern with Traits
 
 The newtype pattern combined with traits is a powerful way to extend functionality without violating
-The orphan rule:
+the orphan rule:
 
 ```rust
 struct Wrapper<T>(Vec<T>);
@@ -7862,7 +7862,7 @@ impl<T> DerefMut for Wrapper<T> {
 ```
 
 By implementing `Deref` and `DerefMut`The `Wrapper` type gains access to all `Vec<T>` methods
-Through deref coercion. This means you get custom behavior (`display_all`) plus all of `Vec<T>`'s
+through deref coercion. This means you get custom behavior (`display_all`) plus all of `Vec<T>`'s
 Methods.
 
 ## Trait Objects vs Generics: Decision Framework
@@ -7909,7 +7909,7 @@ impl MyTrait for MyType {
 ```
 
 Since `private::Sealed` is in a private module, external crates cannot implement it, and therefore
-Cannot implement `MyTrait`. This is the standard pattern for "private trait, public methods" in
+cannot implement `MyTrait`. This is the standard pattern for "private trait, public methods" in
 Library design.
 
 ### Extension Traits
@@ -8214,7 +8214,7 @@ State is saved across yield points so execution can resume from where it left of
 ### Why Pin Exists
 
 The compiler-generated state machine for async blocks can contain self-referential data, a field
-That points to another field within the same struct. If the struct were moved, the pointer would
+that points to another field within the same struct. If the struct were moved, the pointer would
 Become invalid. `Pin` prevents the wrapped value from being moved after it has been pinned.
 
 ```rust
@@ -8655,7 +8655,7 @@ Allocation overhead. RPITIT avoids this overhead.
 ## `Send` Bounds on Futures
 
 A future must be `Send` to be spawned on tokio's multi-threaded runtime. If a future captures a
-Non-`Send` type, spawning fails:
+non-`Send` type, spawning fails:
 
 ```rust
 use std::rc::Rc;
@@ -9274,7 +9274,7 @@ assert_eq!(rx.recv().await.unwrap(), 3);
 ## Watch Channels
 
 Watch channels broadcast the latest value to all receivers. Unlike broadcast, watch retains only the
-Most recent value, there is no message queue:
+most recent value, there is no message queue:
 
 ```rust
 use tokio::sync::watch;
@@ -9583,7 +9583,7 @@ match rx.try_recv() {
 
 Bounded channels with larger buffers generally have higher throughput because senders block less
 Often. However, larger buffers increase memory usage and latency (messages sit in the buffer longer
-Before being processed).
+before being processed).
 
 ```rust
 // High-throughput scenario, large buffer
@@ -10129,7 +10129,7 @@ assert_eq!(results, vec![3, 7, 5]);
 
 The key guarantee: all threads spawned within `scope` are joined before `scope` returns. This means
 Borrowed data is guaranteed to be valid for the lifetime of the scoped threads, eliminating the need
-For `'static` bounds.
+for `'static` bounds.
 
 :::note
 From the parent scope. They are safer (no `'static` requirement) and more ergonomic.
@@ -10257,7 +10257,7 @@ match lock {
 ```
 
 Use `lock().unwrap()` when you are confident panics inside the critical section are impossible, or
-When a panic means the entire process should terminate.
+when a panic means the entire process should terminate.
 
 ### `RwLock<T>`
 
@@ -10463,7 +10463,7 @@ fn process(data: &Mutex<Vec<i32>>) {
 
 OS threads are expensive: each thread uses 8 MB of stack (default on Linux), context switches cost
 1,000–10,000 nanoseconds, and creating threads has significant overhead. For I/O-bound workloads
-With thousands of concurrent tasks (web servers, database connections), threads do not scale
+with thousands of concurrent tasks (web servers, database connections), threads do not scale
 Efficiently.
 
 Async/await provides lightweight concurrency, thousands of tasks on a handful of OS threads.
@@ -10483,7 +10483,7 @@ pub enum Poll<T> {
 ```
 
 A `Future` represents an asynchronous computation. `poll` is called by the executor to check whether
-The computation has completed (`Ready`) or needs more time (`Pending`). When `Pending` is returned,
+the computation has completed (`Ready`) or needs more time (`Pending`). When `Pending` is returned,
 The future registers the current `Waker` with the reactor, which will wake the future when the I/O
 Operation completes.
 
@@ -10528,7 +10528,7 @@ Time →
 
 `Pin` is a wrapper that prevents the wrapped pointer from being moved. This is necessary because
 Async futures contain self-referential data (pointers from the state machine to local variables on
-The stack). If the future were moved, these pointers would become invalid.
+the stack). If the future were moved, these pointers would become invalid.
 
 ```rust
 use std::pin::Pin;
@@ -10547,7 +10547,7 @@ Most types are `Unpin`they can be safely moved even when pinned. Types that are 
 ### `Send` and `Sync` Bounds for Futures
 
 A future must be `Send` to be spawned on an async runtime (like tokio). If a future captures a
-Non-`Send` type (like `Rc` or `&RefCell`), it cannot be spawned:
+non-`Send` type (like `Rc` or `&RefCell`), it cannot be spawned:
 
 ```rust
 use std::rc::Rc;
@@ -10691,7 +10691,7 @@ Coming from JavaScript's `Promise.race`.
 ### Data Races vs Race Conditions
 
 A **data race** is undefined behavior, two threads access the same memory location concurrently, at
-Least one of them writes, and there is no synchronization. Rust's type system prevents data races at
+least one of them writes, and there is no synchronization. Rust's type system prevents data races at
 Compile time (in safe code).
 
 A **race condition** is a logical error where the outcome depends on the timing of concurrent
@@ -10881,7 +10881,7 @@ unsafe impl Sync for MyType {}
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
 Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
 Thread safety (e.g., when using platform-specific synchronization primitives that the compiler
-Cannot see).
+cannot see).
 
 ## Common Pitfalls
 
@@ -11191,7 +11191,7 @@ shared = { version = "1", features = ["feature-y"] }
 
 In a workspace depending on both `crate-a` and `crate-b``shared` will have both `feature-x` and
 `feature-y` enabled. If `feature-y` has heavy dependencies, `crate-a` users pay the cost even though
-They only requested `feature-x`.
+they only requested `feature-x`.
 
 ### Feature Best Practices
 
@@ -11435,7 +11435,7 @@ fn test_add_from_external() {
 ```
 
 Each file in `tests/` is compiled as a separate crate, so they cannot access `src/` internals (only
-The public API). The `tests/common/mod.rs` pattern allows sharing test utilities.
+the public API). The `tests/common/mod.rs` pattern allows sharing test utilities.
 
 ### Doc Tests
 
@@ -11671,7 +11671,7 @@ async fn process_request(id: u64) {
 
 The `#[instrument]` attribute automatically creates a span that logs function entry, exit, and
 Elapsed time. It captures all function arguments by default (use `skip` and `fields` to control what
-Is captured).
+is captured).
 
 ## Key Crates
 
@@ -11991,14 +11991,14 @@ The `unsafe` keyword grants access to five capabilities that the compiler cannot
 
 `unsafe` does not disable the borrow checker. It does not bypass Rust's safety guarantees, it
 Allows you to do things that the compiler cannot prove are safe. You are responsible for maintaining
-All invariants manually.
+all invariants manually.
 
 ## Raw Pointers
 
 ### `*const T` and `*mut T`
 
 Raw pointers are like C pointers, they can be null, dangling, misaligned, or aliased. The compiler
-Does not check them:
+does not check them:
 
 ```rust
 let x = 42;
@@ -12112,7 +12112,7 @@ fn caller() {
 ### Unsafe Blocks
 
 `unsafe` blocks delimit the region where unsafe operations are permitted. The compiler checks that
-All unsafe operations occur within an `unsafe` block:
+all unsafe operations occur within an `unsafe` block:
 
 ```rust
 fn split_at_mut(values: &mut [i32], mid: usize) -> (&mut [i32], &mut [i32]) {
@@ -12356,7 +12356,7 @@ Understanding how `Vec` works internally is essential for writing unsafe code co
 ### Arena Allocators
 
 Arena allocation allocates from a contiguous memory region. All allocations are freed at once when
-The arena is dropped. This eliminates per-allocation deallocation overhead and ensures all
+the arena is dropped. This eliminates per-allocation deallocation overhead and ensures all
 References have the same lifetime:
 
 ```rust
@@ -12435,7 +12435,7 @@ References. If the arena is dropped while interned references exist, they become
 ## Undefined Behavior in Rust
 
 Undefined behavior (UB) means the compiler is free to assume the undefined operation never happens
-And can optimize based on that assumption. UB in Rust includes:
+and can optimize based on that assumption. UB in Rust includes:
 
 - Dereferencing a null pointer
 - Dereferencing a dangling pointer (use-after-free)
@@ -12695,7 +12695,7 @@ impl Drop for ManualBuffer {
 ### Transmuting Types
 
 `std::mem::transmute` reinterprets the bits of one type as another. It is extremely dangerous and
-Should be avoided when alternatives exist:
+should be avoided when alternatives exist:
 
 ```rust
 // Dangerous, use only when you understand the exact bit layout
@@ -12811,7 +12811,7 @@ fn from_ascii(s: &[u8]) -> String {
 ```
 
 Only use this when you can prove the bytes are valid UTF-8. The assertion above checks ASCII (which
-Is a subset of UTF-8), so the conversion is safe.
+is a subset of UTF-8), so the conversion is safe.
 
 ## Interoperability with C++
 
@@ -14339,13 +14339,13 @@ URL: https://rust.wyattau.com/intro/
 Rust solves a problem that has plagued systems programming for decades: how to write fast,
 Memory-safe code without a garbage collector. C and C++ give you control and speed but let you shoot
 Yourself in the foot with use-after-free, buffer overflows, and data races. Java, Go, and C# give
-You safety but impose GC pauses and runtime overhead. Rust occupies the intersection: compile-time
+you safety but impose GC pauses and runtime overhead. Rust occupies the intersection: compile-time
 Memory safety verification with zero runtime cost.
 
 The language was originally developed at Mozilla (starting in 2006, sponsored by the Mozilla
 Foundation from 2009) for Servo, an experimental browser engine. It has since been adopted by AWS,
 Cloudflare, Microsoft (Windows kernel), Google (Android), Meta, the Linux kernel, and virtually
-Every large technology company that writes systems software.
+every large technology company that writes systems software.
 
 ## Design Philosophy
 
@@ -14566,7 +14566,7 @@ say_hello!();
 ### Metavariables
 
 Metavariables capture parts of the input and make them available in the expansion. They are prefixed
-With `$` and annotated with a **fragment specifier** that constrains what tokens they match:
+with `$` and annotated with a **fragment specifier** that constrains what tokens they match:
 
 ```rust
 macro_rules! create_function {
@@ -14695,7 +14695,7 @@ Processing, use a procedural macro instead.
 ### Token Pasting and `stringify!`
 
 The `stringify!` macro converts a token sequence to a string literal at compile time. This is useful
-For debug output and identifiers:
+for debug output and identifiers:
 
 ```rust
 macro_rules! debug_var {
@@ -14780,7 +14780,7 @@ macro_rules! println {
 ```
 
 The key insight is that `println!` delegates to `format_args!`Which is a built-in compiler macro
-That parses the format string at compile time and validates the arguments. The `$($arg:tt)*` pattern
+that parses the format string at compile time and validates the arguments. The `$($arg:tt)*` pattern
 Captures everything as token trees and passes them through to `format_args!`.
 
 ### Anatomy of `assert_eq!`
@@ -14815,7 +14815,7 @@ macro_rules! assert_eq {
 ```
 
 Note the use of `&$left` and `&$right` inside a `match`. Borrowing the arguments ensures they are
-Only evaluated once, which matters when the expressions have side effects. This is a critical
+only evaluated once, which matters when the expressions have side effects. This is a critical
 Pattern for any macro that inspects its arguments.
 
 ### `#[macro_export]`
@@ -14839,7 +14839,7 @@ macro_rules! my_assert {
 :::note
 Definition appears. This means a macro defined in a submodule is accessible as
 `my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
-That has no prospect of changing.
+that has no prospect of changing.
 
 ### Scoping Rules
 
@@ -14891,8 +14891,8 @@ macro_rules! make_map {
 ### Macro Hygiene
 
 Declarative macros are **hygienic**: identifiers introduced by the macro cannot capture identifiers
-From the surrounding scope, and identifiers from the surrounding scope cannot accidentally be used
-Inside the macro.
+from the surrounding scope, and identifiers from the surrounding scope cannot accidentally be used
+inside the macro.
 
 ```rust
 macro_rules! use_var {
@@ -15006,7 +15006,7 @@ my_macros = { path = "../my_macros" }
 
 **Definition.** A derive macro generates trait implementations for a struct, enum, or union. It is
 Invoked with `#[derive(AttributeName)]` and the derive macro function receives the type definition
-As a `TokenStream`.
+as a `TokenStream`.
 
 ### Basic Implementation
 
@@ -15056,7 +15056,7 @@ fn main() {
 ### Helper Attributes
 
 Derive macros can declare helper attributes that appear on fields or variants. These are parsed from
-The input and used to customize the generated implementation:
+the input and used to customize the generated implementation:
 
 ```rust
 use proc_macro::TokenStream;
@@ -15438,7 +15438,7 @@ fn get_user(id: u32) -> String {
 
 **Definition.** A function-like procedural macro is invoked with `macro_name!(tokens)` syntax and
 Replaces the entire invocation with the generated code. Unlike `macro_rules!`It has full access to
-The token stream and can parse it with `syn`.
+the token stream and can parse it with `syn`.
 
 ### Implementation Pattern
 
@@ -15765,7 +15765,7 @@ fn validate_fields(fields: &FieldsNamed) -> Result<()> {
 ### `ToTokens` Trait
 
 The `quote::ToTokens` trait is implemented by all `syn` types. It converts an AST node into tokens
-That can be interpolated into a `quote!` block. You can implement `ToTokens` for your own types:
+that can be interpolated into a `quote!` block. You can implement `ToTokens` for your own types:
 
 ```rust
 use quote::ToTokens;
@@ -15844,7 +15844,7 @@ cargo expand --tests
 ```
 
 This is the single most useful tool for debugging macros. It shows exactly what the compiler sees
-After all macro expansions.
+after all macro expansions.
 
 #### `trace_macros!`
 
@@ -15975,7 +15975,7 @@ Execution of the macro itself adds to compile time. Strategies to mitigate this:
 
 Macros generate code at compile time, which increases binary size through monomorphization. A derive
 Macro that generates specialized code for every type it is applied to can cause code bloat. This is
-The same tradeoff as generic functions.
+the same tradeoff as generic functions.
 
 #### Incremental Compilation
 

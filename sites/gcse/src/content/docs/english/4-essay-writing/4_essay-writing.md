@@ -27,7 +27,7 @@ categories:
 ### 1.1 The Introduction
 
 The introduction has three functions: to engage the reader, to establish the essay"s argument, and
-To provide a roadmap for the discussion that follows. An effective introduction for GCSE English
+to provide a roadmap for the discussion that follows. An effective introduction for GCSE English
 Literature should be concise (no more than four or five sentences) and should accomplish the
 Following:
 
@@ -57,7 +57,7 @@ Annihilating.
 
 Each body paragraph should develop a single point that supports the thesis. The paragraph should
 Begin with a topic sentence that states the point, followed by evidence (quotation), analysis of
-That evidence, and a linking sentence that connects the paragraph back to the thesis or to the next
+that evidence, and a linking sentence that connects the paragraph back to the thesis or to the next
 Paragraph. See Section 2 below for detailed paragraph structures.
 
 ### 1.3 The Conclusion
@@ -98,20 +98,20 @@ Prescriptive, but it risks insufficient attention to how the text creates meanin
 ### 2.3 PEA
 
 Point, Evidence, Analysis. The most minimal paragraph structure. It is useful for timed examinations
-When speed is essential, but it risks underdeveloped analysis. Each PEA paragraph should be
+when speed is essential, but it risks underdeveloped analysis. Each PEA paragraph should be
 Developed with sufficient detail to avoid superficiality.
 
 ### 2.4 TEEL
 
 Topic sentence, Evidence, Explanation, Link. Functionally equivalent to PEEL. Some teachers prefer
-The term "topic sentence" to "point" because it emphasises that the first sentence of the paragraph
-Should state the topic of the paragraph, not merely a general point.
+the term "topic sentence" to "point" because it emphasises that the first sentence of the paragraph
+should state the topic of the paragraph, not merely a general point.
 
 ### 2.5 TEAC
 
 Topic sentence, Evidence, Analysis, Context. This structure ensures that contextual knowledge is
 Integrated into every paragraph, which is essential for addressing AO3. It is particularly useful
-For the 19th-century novel and Shakespeare components.
+for the 19th-century novel and Shakespeare components.
 
 ### 2.6 The ABC Method
 
@@ -128,7 +128,7 @@ Suitable for higher-ability students who have mastered the fundamentals of parag
 ### 2.7 Choosing a Structure
 
 No single paragraph structure is inherently superior. The best structure is the one that the student
-Can execute most effectively under examination conditions. Students should practise with PETAL as
+can execute most effectively under examination conditions. Students should practise with PETAL as
 Their default structure, experiment with alternatives, and develop a personal style that is
 Consistent, logical, and well-supported with evidence.
 
@@ -153,7 +153,7 @@ Or quality of a text or a particular aspect of it. Evaluative language includes 
 - "Owen's imagery is devastating in its..."
 
 Evaluation is not required by all specifications, but it distinguishes the highest-mark responses
-From merely competent ones.
+from merely competent ones.
 
 ### 3.3 Argumentative Essays
 
@@ -180,7 +180,7 @@ Is the cornerstone of the argumentative essay.
 
 **Integrated comparison** (alternating between texts within each paragraph) is the preferred
 Approach because it demonstrates genuine comparative thinking. Each paragraph makes a point about
-Both texts, showing how they are similar, different, or related.
+both texts, showing how they are similar, different, or related.
 
 **Block comparison** (writing about one text in full, then the other) is easier to manage but is
 Generally less effective because it does not require the student to make connections between the
@@ -194,12 +194,12 @@ Both Owen's "Dulce et Decorum Est" and Hughes's "Bayonet Charge" present war as 
 Experience that strips soldiers of their individuality. Owen describes the gas victim as
 "flound'ring like a man in fire or lime," the simile reducing the soldier to a generic figure of
 Suffering; the word "flound'ring" suggests both physical helplessness and the loss of coordination
-And agency. Similarly, Hughes describes the soldier in "Bayonet Charge" as caught in "cold
+and agency. Similarly, Hughes describes the soldier in "Bayonet Charge" as caught in "cold
 Clockwork," an extended metaphor that reduces him to a component of a mechanical system. However,
 While Owen's focus is on the physical suffering of the victim, Hughes's focus is on the
 Psychological disorientation of the combatant: the soldier "was bewildered" and "bewildering,"
 Caught between instinct and obligation. This difference in focus reflects the distinct purposes of
-The two poems: Owen's poem is an indictment of those who glorify war, while Hughes's is an
+the two poems: Owen's poem is an indictment of those who glorify war, while Hughes's is an
 Exploration of the individual's experience of being caught in forces beyond his control.
 
 </details>
@@ -210,7 +210,7 @@ Exploration of the individual's experience of being caught in forces beyond his 
 
 A quotation is the verbatim reproduction of a writer's words, enclosed in quotation marks. In a
 Closed-book examination, quotations must be memorised. In an open-book examination, quotations
-Should be copied accurately.
+should be copied accurately.
 
 **Rules for quotations:**
 
@@ -240,7 +240,7 @@ Suggesting that the fog is not merely weather but a shroud that blankets and suf
 Paraphrasing is the restatement of a writer's ideas in your own words. Paraphrase is useful for
 Conveying the content of a passage when a direct quotation is not necessary, but it does not
 Substitute for quotation. In GCSE English Literature, the examiner expects to see direct quotations
-As evidence. Paraphrase should support, not replace, quotation.
+as evidence. Paraphrase should support, not replace, quotation.
 
 ### 5.4 References
 
@@ -269,7 +269,7 @@ Owen's war poetry: the tradition of Georgian poetry that Owen reacted against.
 **Biographical context** refers to the life of the author and how it may have influenced the text.
 This is the least important form of context for GCSE and should be used sparingly. Shakespeare's
 Biography, for example, tells us almost nothing useful about _Macbeth_ that is not already evident
-In the text.
+in the text.
 
 ### 6.2 Integrating Context into Analysis
 
@@ -293,7 +293,7 @@ Alone. We are members of one body. We are responsible for each other" -- articul
 Socialist philosophy in its most direct form. The play was written in 1945, at the end of the Second
 World War, when the British electorate had just voted in a Labour government committed to the
 Creation of the welfare state. Priestley, a committed socialist, intended the play as a contribution
-To the post-war debate about the kind of society Britain should become. By setting the play in 1912
+to the post-war debate about the kind of society Britain should become. By setting the play in 1912
 -- before the First World War, before the Russian Revolution, before the Labour Party became a
 Significant political force -- Priestley creates dramatic irony: the audience of 1945 knows the
 Catastrophic consequences of the attitudes that the Birlings express with such confidence, and the
@@ -438,7 +438,7 @@ identify its key terms, and ensure that every paragraph addresses those terms.
 ### 9.7 Weak Conclusions
 
 A conclusion that merely repeats the introduction or summarises the essay's content without offering
-Any evaluative insight wastes the final opportunity to impress the examiner. Use the conclusion to
+any evaluative insight wastes the final opportunity to impress the examiner. Use the conclusion to
 Synthesise, evaluate, and leave a final impression.
 
 ## 10. Worked Example Essay with Annotations
@@ -455,7 +455,7 @@ Macbeth's initial reluctance -- "I have no spur / To prick the sides of my inten
 Vaulting ambition, which o'erleaps itself" (1.7) -- reveals his awareness that ambition is an
 Inadequate and dangerous motivation, yet his subsequent actions demonstrate that this awareness is
 Insufficient to restrain it. Through the progressive deterioration of Macbeth's character, the use
-Of blood and darkness imagery, and the structural contrast with Banquo, Shakespeare develops a
+of blood and darkness imagery, and the structural contrast with Banquo, Shakespeare develops a
 Vision of ambition as a compulsion that annihilates the very things it seeks to attain.
 
 [**Paragraph 1: PETAL structure. Point, Evidence, Technique, Analysis, Link.**]
@@ -474,30 +474,30 @@ Feat" (1.7) -- demonstrates the fragility of his moral resistance in the face of
 
 As the play progresses, ambition ceases to be a motive and becomes a compulsion. In Act 3, Scene 1,
 Macbeth no longer needs external prompting: he plots the murder of Banquo independently, driven by
-The paranoid logic that "To be thus is nothing, but to be safely thus" (3.1). The repetition of
+the paranoid logic that "To be thus is nothing, but to be safely thus" (3.1). The repetition of
 "thus" -- to be king is meaningless unless one is securely king -- reveals how ambition has
 Transformed from a desire for power into an anxiety about its loss. The structural parallel between
-The murder of Duncan (Act 2) and the murder of Banquo (Act 3) demonstrates the escalation of
+the murder of Duncan (Act 2) and the murder of Banquo (Act 3) demonstrates the escalation of
 Macbeth's ambition: each murder makes the next one both more necessary and more horrific.
 
 [**Paragraph 3: introduces contextual knowledge, integrated with analysis.**]
 
 Shakespeare's presentation of ambition as a threat to the natural order reflects the Jacobean belief
-In the divine right of kings and the Great Chain of Being. Macbeth's regicide is not merely a
+in the divine right of kings and the Great Chain of Being. Macbeth's regicide is not merely a
 Political act but a sacrilege that disrupts the cosmic order, symbolised by the unnatural events
-That follow Duncan's murder: "Tis unnatural, / Even like the deed that's done. On Tuesday last, / A
+that follow Duncan's murder: "Tis unnatural, / Even like the deed that's done. On Tuesday last, / A
 Falcon, towering in her pride of place, / Was by a mousing owl hawked at and killed" (2.4). The
 Image of the owl killing the falcon -- a creature of prey killed by a creature normally below it in
-The natural hierarchy -- mirrors Macbeth's violation of the social and cosmic order. For a Jacobean
+the natural hierarchy -- mirrors Macbeth's violation of the social and cosmic order. For a Jacobean
 Audience, who had witnessed the Gunpowder Plot of 1605, this association between political treason
-And cosmic disorder would have been immediately resonant and politically charged.
+and cosmic disorder would have been immediately resonant and politically charged.
 
 [**Paragraph 4: introduces Banquo as a structural contrast.**]
 
 Shakespeare uses Banquo as a structural foil to Macbeth in order to demonstrate that ambition need
-Not be destructive. Like Macbeth, Banquo receives a prophecy from the Weird Sisters, but his
+not be destructive. Like Macbeth, Banquo receives a prophecy from the Weird Sisters, but his
 Response -- "If you can look into the seeds of time, / And say which grain will grow and which will
-Not, / Speak then to me" (1.3) -- is characterised by curiosity rather than covetousness. The
+not, / Speak then to me" (1.3) -- is characterised by curiosity rather than covetousness. The
 Metaphor of the "seeds of time" suggests that Banquo accepts the uncertainty of the future, whereas
 Macbeth demands certainty and acts to secure it. Banquo's self-knowledge -- "there is no art / To
 Find the mind's construction in the face" (1.4) -- contrasts with Macbeth's inability to recognise
@@ -510,8 +510,8 @@ Shakespeare's presentation of ambition in _Macbeth_ is not that ambition is evil
 that would not sustain the play's complexity -- but that ambition, once activated, becomes a
 Self-sustaining and self-destructive force that the individual cannot control. The progression from
 Macbeth's initial reluctance to his final nihilism ("Tomorrow, and tomorrow, and tomorrow") traces
-The complete arc of ambition's corrosive power. The play's enduring power lies in its recognition
-That ambition is not an external temptation but an internal compulsion, and that the line between
+the complete arc of ambition's corrosive power. The play's enduring power lies in its recognition
+that ambition is not an external temptation but an internal compulsion, and that the line between
 Aspiration and destruction is terrifyingly thin.
 
 </details>
@@ -539,7 +539,7 @@ Aspiration and destruction is terrifyingly thin.
 
 **Estimated grade: Level 6 (high).** The essay demonstrates sustained, perceptive analysis,
 Effective use of evidence, and integrated contextual knowledge. With more explicit attention to form
-And structure, it would achieve the highest level.
+and structure, it would achieve the highest level.
 
 </details>
 

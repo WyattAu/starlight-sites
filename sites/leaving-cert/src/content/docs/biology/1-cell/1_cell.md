@@ -187,7 +187,7 @@ Produces two genetically identical daughter cells. Used for growth and repair.
 ### Meiosis (HL)
 
 Produces four genetically different daughter cells (gametes) with half the chromosome number. Used
-For sexual reproduction.
+for sexual reproduction.
 
 **Key features:**
 
@@ -266,7 +266,7 @@ From 10 to 37$^{\circ}$C, the rate increases because higher temperature means mo
 So more enzyme-substrate collisions per unit time. At 37$^{\circ}$C, the rate is maximum. Above
 37$^{\circ}$C, the rate decreases because the enzyme begins to denature -- the active site changes
 Shape and the substrate can no longer bind. At 60$^{\circ}$C, the enzyme is completely denatured and
-The rate is zero.
+the rate is zero.
 
 ## Photosynthesis (OL/HL)
 
@@ -461,7 +461,7 @@ Enzyme-substrate complex is more stable than the enzyme alone.
 Maltase catalyses the hydrolysis of maltose into glucose but does not catalyse the hydrolysis of
 Sucrose. Both are disaccharides, but they have different structures. The active site of maltase is
 Complementary to the specific shape and arrangement of functional groups in maltose. Sucrose does
-Not fit into the active site, so no enzyme-substrate complex forms and no reaction occurs. This
+not fit into the active site, so no enzyme-substrate complex forms and no reaction occurs. This
 Demonstrates the specificity of enzyme action.
 
 ## Review: Osmosis -- Worked Examples
@@ -472,7 +472,7 @@ A red blood cell with an internal solute concentration of 0.9% is placed in a 0.
 
 The external solution (0.3%) is hypotonic (lower solute concentration) relative to the cell (0.9%).
 Water moves into the cell by osmosis. Since animal cells have no rigid cell wall, the cell swells
-And eventually bursts (lysis). This is why intravenous drips must use isotonic saline (0.9% NaCl) to
+and eventually bursts (lysis). This is why intravenous drips must use isotonic saline (0.9% NaCl) to
 Prevent red blood cells from being damaged.
 
 **Worked Example 2: Plant cells.**
@@ -486,7 +486,7 @@ Cell wall. The cell wall exerts an inward pressure (wall pressure) that eventual
 Osmotic pressure, and no further net water movement occurs. The cell is now fully turgid.
 
 If the same cell were placed in a solution with a water potential of -1000 kPa, water would move out
-Of the cell. The vacuole would shrink and the cell membrane would pull away from the cell wall
+of the cell. The vacuole would shrink and the cell membrane would pull away from the cell wall
 (plasmolysis). The cell would become flaccid.
 
 ## Review: Photosynthesis -- The Light-Independent Reactions (Calvin Cycle)
@@ -697,7 +697,7 @@ Calvin cycle. $\mathrm{O_2$ (a product of the light-dependent reactions) diffuse
 Path.
 
 The opening and closing of stomata is controlled by guard cells. When guard cells are turgid (full
-Of water), the stomata open; when they are flaccid (low water), the stomata close. This is a
+of water), the stomata open; when they are flaccid (low water), the stomata close. This is a
 Compromise: open stomata allow gas exchange for photosynthesis but also allow water loss by
 Transpiration.
 

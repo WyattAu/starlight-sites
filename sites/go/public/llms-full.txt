@@ -1000,7 +1000,7 @@ Every Go file belongs to a package. Executables must be in `package main` and ex
 ### `go run`
 
 Compiles and executes one or more `.go` files in a temporary directory. Useful for development and
-One-off scripts. Does not produce a persistent binary.
+one-off scripts. Does not produce a persistent binary.
 
 ```bash
 go run .
@@ -1080,7 +1080,7 @@ myproject/
 ```
 
 The `internal/` directory is special: packages inside `internal` cannot be imported by packages
-Outside the module tree rooted at the parent of `internal`. This enforces encapsulation.
+outside the module tree rooted at the parent of `internal`. This enforces encapsulation.
 
 The `cmd/` directory convention holds executable entry points.
 
@@ -2699,7 +2699,7 @@ import "github.com/you/myproject/v2"
 ```
 
 The `/v2` suffix is part of the module path, not the package path. This allows v1 and v2 to coexist
-In the same dependency graph.
+in the same dependency graph.
 
 ## go.sum
 
@@ -3390,7 +3390,7 @@ URL: https://go.wyattau.com/advanced/pointers-and-memory/
 ## Pointer Basics
 
 Go has pointers, but no pointer arithmetic (except via `unsafe`). Pointers hold the memory address
-Of a value.
+of a value.
 
 ```go
 x := 42
@@ -3428,7 +3428,7 @@ fmt.Println(x) // 43
 ### Returning Pointers to Local Variables
 
 Go allows returning pointers to local variables. The compiler performs escape analysis and allocates
-The variable on the heap if it escapes:
+the variable on the heap if it escapes:
 
 ```go
 func newInt() *int {
@@ -3481,7 +3481,7 @@ fmt.Println(alice.Age) // 31 -- changed
 ## Escape Analysis
 
 The Go compiler uses escape analysis to determine whether a variable can live on the stack or must
-Be allocated on the heap. A variable "escapes" if it is reachable after the function returns.
+be allocated on the heap. A variable "escapes" if it is reachable after the function returns.
 
 ### What Causes Heap Allocation
 
@@ -3548,7 +3548,7 @@ Extremely deep recursion (millions of frames) may exhaust memory.
 ## The unsafe Package
 
 The `unsafe` package provides operations that bypass Go's type safety. It should be used sparingly
-And only when interfacing with C or implementing low-level data structures.
+and only when interfacing with C or implementing low-level data structures.
 
 ### Pointer Arithmetic
 
@@ -3931,7 +3931,7 @@ reflect.ValueOf(&p).Elem().FieldByName("Name").SetString("Alice")
 ```
 
 If performance is critical, avoid reflection. Consider code generation (text/template) or generics
-As alternatives.
+as alternatives.
 
 ## Common Pitfalls
 
@@ -4525,7 +4525,7 @@ fmt.Println(a) // [0 99 2 3]
 #### Append
 
 `append` adds elements to a slice. If the capacity is exceeded, a new underlying array is allocated
-And all elements are copied:
+and all elements are copied:
 
 ```go
 s := []int{1, 2}
@@ -4603,7 +4603,7 @@ The difference matters for JSON marshaling: `nil` marshals to `null`While `[]int
 ## Maps
 
 Maps are hash tables mapping keys to values. The zero value is `nil`. A `nil` map is empty but
-Cannot be written to.
+cannot be written to.
 
 ```go
 var m map[string]int   // nil map
@@ -4719,7 +4719,7 @@ fmt.Println(d.Name) // "test" -- promoted field
 ```
 
 Promoted fields are accessed directly on the embedding struct. This is syntactic sugar -- there is
-No inheritance hierarchy. The embedded struct"s methods are also promoted.
+no inheritance hierarchy. The embedded struct"s methods are also promoted.
 
 ### Comparing Structs
 
@@ -5376,7 +5376,7 @@ fmt.Println(apply(add, 3, 4)) // 7
 ```
 
 Function values are comparable. Two function values are equal if they refer to the same function or
-Were created by evaluating the same function literal:
+were created by evaluating the same function literal:
 
 ```go
 fn1 := func() {}
@@ -5485,7 +5485,7 @@ fmt.Println(p.Area()) // OK -- auto-dereferences
 ### Method Sets
 
 The method set of a type `T` contains all value receiver methods. The method set of `*T` contains
-All methods (value and pointer receiver). This matters for interface satisfaction -- if an interface
+all methods (value and pointer receiver). This matters for interface satisfaction -- if an interface
 Requires a method with a pointer receiver, only `*T` satisfies it, not `T`.
 
 ## Anonymous Functions
@@ -5644,7 +5644,7 @@ var y int64 = 42
 ### Integer Overflow
 
 Go integers wrap around on overflow in the same manner as two"s complement arithmetic. The compiler
-Does not insert runtime checks:
+does not insert runtime checks:
 
 ```go
 var x uint8 = 255
@@ -5825,7 +5825,7 @@ const (
 ### `iota`
 
 `iota` is a predeclared identifier that resets to 0 in each `const` block and increments by one for
-Each subsequent constant. It enables bit flag and enumeration patterns:
+each subsequent constant. It enables bit flag and enumeration patterns:
 
 ```go
 const (
@@ -5997,7 +5997,7 @@ buf := make(chan int, 10)    // sender can buffer up to 10
 ## Select
 
 `select` allows a goroutine to wait on multiple channel operations simultaneously. It blocks until
-One of its cases can proceed, then executes that case:
+one of its cases can proceed, then executes that case:
 
 ```go
 ch1 := make(chan string)
@@ -6418,7 +6418,7 @@ for i := 0; i < 100000; i++ {
 
 Go uses an M:N scheduler: M goroutines are multiplexed onto N OS threads (called "M" in Go"s runtime
 Terminology, with "P" as logical processors). The scheduler uses work-stealing to balance load
-Across Ps.
+across Ps.
 
 Key components:
 
@@ -7555,7 +7555,7 @@ URL: https://go.wyattau.com/intermediate/generics/
 
 Go 1.18 (released March 2022) added generics via type parameters. Generics allow you to write
 Functions and types that abstract over different concrete types while maintaining full type safety
-At compile time.
+at compile time.
 
 ## Type Parameters
 
@@ -7809,7 +7809,7 @@ func (s *Stack[T]) Filter(predicate func(T) bool) *Stack[T] {
 ```
 
 Note: methods cannot introduce new type parameters that are not on the receiver. All type parameters
-Must be declared on the type.
+must be declared on the type.
 
 ## Instantiation
 
@@ -7912,7 +7912,7 @@ URL: https://go.wyattau.com/intermediate/interfaces/
 ## Interface Basics
 
 An interface in Go defines a set of method signatures. A type satisfies an interface by implementing
-All of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
+all of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
 Structural.
 
 ```go
@@ -8084,12 +8084,12 @@ func main() {
 The rule: if any method of an interface has a pointer receiver, only a pointer to the type (not the
 Value itself) satisfies the interface. This is because calling a pointer receiver on a copy of the
 Value would be meaningless -- the method modifies the receiver, but the modification is lost when
-The copy is discarded.
+the copy is discarded.
 
 ## Nil Interface Values
 
 An interface value is a two-word tuple: (type, value). A nil interface has both type and value set
-To nil:
+to nil:
 
 ```go
 var s Speaker

@@ -25,7 +25,7 @@ Failures).
 
 Panics are for unrecoverable programming errors, the kind of bugs where the program cannot continue
 Correctly. When a panic occurs, the runtime unwinds the stack (by default), calling destructors for
-All live values, and then aborts the thread (or the process in `panic = "abort"` mode).
+all live values, and then aborts the thread (or the process in `panic = "abort"` mode).
 
 ```rust
 fn main() {
@@ -142,7 +142,7 @@ x.unwrap_or_else(|| {
 ```
 
 Use `unwrap_or_else` when the default value is expensive to compute. The closure is called lazily
-Only when the `Option` is `None`.
+only when the `Option` is `None`.
 
 ### `ok_or` and `ok_or_else`
 
@@ -189,7 +189,7 @@ let m: Option<&mut String> = x.as_mut(); // Some(&mut String)
 ```
 
 `as_ref` borrows the `Option` as `Option<&T>` without moving the inner value. `as_mut` does the same
-For mutable borrows.
+for mutable borrows.
 
 ### Iterating Over `Option`
 
@@ -350,7 +350,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ```
 
 Since Rust 1.26, `main` can return `Result`. The runtime will print the error and set the exit code
-To 1 on `Err`.
+to 1 on `Err`.
 
 ### `?` in `Option` vs `Result` Functions
 

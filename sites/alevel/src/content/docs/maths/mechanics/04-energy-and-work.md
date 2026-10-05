@@ -127,7 +127,7 @@ This work is stored as gravitational potential energy. $\blacksquare$
 
 Roller coasters are a classic application of GPE. A coaster train is hauled to the highest point
 Using a motor (work done against gravity). From there, GPE converts to KE as it descends, and back
-To GPE as it climbs the next hill.
+to GPE as it climbs the next hill.
 
 **Key insight:** The maximum speed depends only on the vertical drop, not the track shape (assuming
 No friction). For a drop of $40\,\mathrm{m}$:
@@ -233,7 +233,7 @@ $1\,\mathrm{kW} = 1000\,\mathrm{W}$, $1\,\mathrm{MW} = 10^6\,\mathrm{W}$.
 ### 5.3 Power and inclined planes
 
 At maximum speed (terminal velocity) up a slope, the driving force equals the component of weight
-Plus friction:
+plus friction:
 
 $$
 \frac{P}{v_{\max}} = mg\sin\theta + F_{\mathrm{friction}}
@@ -262,7 +262,7 @@ $$
 
 Speed increases as $\sqrt{t}$ under constant power, slower than the linear increase under constant
 Force. This explains why cars feel less responsive at high speeds: the available force at speed $v$
-Is only $P/v$.
+is only $P/v$.
 
 To find the distance covered:
 
@@ -311,7 +311,7 @@ $$
 Where $k$ is the stiffness (spring constant) in $\mathrm{N/m}$ And $x$ is the extension.
 
 The force-extension graph is a straight line through the origin. The area under this graph equals
-The work done stretching the spring.
+the work done stretching the spring.
 
 ### 6.2 Derivation of elastic potential energy
 
@@ -574,7 +574,7 @@ Section 6.
 <details>
 <summary>Problem 12</summary>
 A car of mass $500\,\mathrm{kg}$ moves from rest under constant power $5\,\mathrm{kW}$ on a level road
-With no resistance. Find the speed after $5\,\mathrm{s}$ and the distance covered.
+with no resistance. Find the speed after $5\,\mathrm{s}$ and the distance covered.
 </details>
 
 <details>
@@ -595,7 +595,7 @@ $s = \frac{2}{3}\sqrt{\frac{2(5000)}{500}} \times 5^{3/2} = \frac{2}{3}\sqrt{20}
 <details>
 <summary>Problem 13</summary>
 A block of mass $2\,\mathrm{kg}$ is projected up a rough slope inclined at $45^\circ$ to the horizontal
-With speed $12\,\mathrm{m/s}$. The coefficient of friction is $0.3$. Using energy methods, find the
+with speed $12\,\mathrm{m/s}$. The coefficient of friction is $0.3$. Using energy methods, find the
 Distance travelled before the block comes to rest, and the speed when it returns to its starting
 Point.
 </details>
@@ -612,7 +612,7 @@ Friction $= 0.3(2)(9.8)\cos 45° \times 7.99 = 33.2\,\mathrm{J}$.
 $\tfrac{1}{2}(2)v^2 = 110.8 - 33.2 = 77.6 \implies v = \sqrt{77.6} \approx 8.81\,\mathrm{m/s}$.
 
 The return speed is less than $12\,\mathrm{m/s}$ because energy is lost to friction on both the up
-And down journey.
+and down journey.
 
 **If you get this wrong, revise:**
 [Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy), Section 4.3.
@@ -623,7 +623,7 @@ And down journey.
 <summary>Problem 14</summary>
 A particle of mass $2\,\mathrm{kg}$ is attached to the lower end of a light elastic spring of natural
 Length $1.5\,\mathrm{m}$ and stiffness $50\,\mathrm{N/m}$. The upper end is fixed. The particle is held
-At rest at the point where the spring is at its natural length and then released. Find the maximum
+at rest at the point where the spring is at its natural length and then released. Find the maximum
 Extension of the spring. Take $g = 9.8\,\mathrm{m/s}^2$.
 </details>
 
@@ -648,7 +648,7 @@ Solution $x = 0$).
 A small body of mass $0.2\,\mathrm{kg}$ is attached to one end of a light elastic spring of stiffness
 $50\,\mathrm{N/m}$ and natural length $0.5\,\mathrm{m}$. The other end is fixed to a point on a smooth
 Inclined plane at angle $30^\circ$ to the horizontal. The body is released from rest at the point where
-The spring is at its natural length. Find the maximum extension. Take $g = 9.8\,\mathrm{m/s}^2$.
+the spring is at its natural length. Find the maximum extension. Take $g = 9.8\,\mathrm{m/s}^2$.
 </details>
 
 <details>
@@ -671,7 +671,7 @@ Section 6.
 A vehicle of mass $1500\,\mathrm{kg}$ travels up a slope inclined at $\sin^{-1}(0.08)$ to the
 Horizontal. The engine works at constant power $30\,\mathrm{kW}$. The resistance to motion (excluding
 Gravity) is constant at $500\,\mathrm{N}$. Find the maximum speed and the acceleration when the speed
-Is $8\,\mathrm{m/s}$. Take $g = 9.8\,\mathrm{m/s}^2$.
+is $8\,\mathrm{m/s}$. Take $g = 9.8\,\mathrm{m/s}^2$.
 </details>
 
 <details>

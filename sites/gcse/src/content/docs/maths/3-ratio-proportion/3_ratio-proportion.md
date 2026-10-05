@@ -258,7 +258,7 @@ $$
 ### 3.4 Instantaneous Rate of Change
 
 The **instantaneous rate of change** at a point is the gradient of the **tangent** to the curve at
-That point.
+that point.
 
 **Worked Example.** The volume of water in a tank is given by $V = 2t^2 + 3t$ litres, where $t$ is
 In minutes. Find the rate at which the volume is increasing when $t = 4$.
@@ -415,7 +415,7 @@ When interpreting real-life graphs:
 ### 6.3 Conversion Graphs
 
 A conversion graph between two units is always a straight line through the origin (if the conversion
-Is proportional).
+is proportional).
 
 **Worked Example.** A conversion graph between miles and kilometres passes through $(0, 0)$ and
 $(5, 8)$. Find the conversion factor.
@@ -450,7 +450,7 @@ $$\frac{3x + 8}{5x} = \frac{5}{6}$$ $$6(3x + 8) = 25x$$ $$18x + 48 = 25x$$ $$7x 
 
 Since $x$ must be an integer, there is no solution with whole counters. Let us re-check: $7x = 48$
 Gives $x = 48/7$ Which is not an integer. This suggests the problem has no integer solution, which
-Would need to be re-examined in context.
+would need to be re-examined in context.
 
 ### 7.3 More Complex Ratio Problems (Higher Tier)
 
@@ -601,7 +601,7 @@ Total distance = $100 + 400 + 50 = 550$ m.
 ### 9.4 Reverse Percentage Problems
 
 A reverse percentage problem asks: "A price after VAT is 120 pounds. The VAT rate is 20%. What was
-The original price?"
+the original price?"
 
 The original price is NOT $120 - 24 = 96$ pounds. Instead:
 
@@ -730,7 +730,7 @@ I = Prt
 $$
 
 Where $P$ is the principal, $r$ is the annual rate, and $t$ is the time in years. The total amount
-Is $A = P + Prt = P(1 + rt)$.
+is $A = P + Prt = P(1 + rt)$.
 
 **Compound interest** is calculated on the principal plus accumulated interest:
 

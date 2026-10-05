@@ -26,7 +26,7 @@ description: "Algorithms Advanced Graph Algorithms notes covering key definition
 ## Strongly Connected Components
 
 A strongly connected component (SCC) of a directed graph is a maximal set of vertices such that
-There is a path from every vertex to every other vertex within the set.
+there is a path from every vertex to every other vertex within the set.
 
 ### Kosaraju's Algorithm
 
@@ -270,7 +270,7 @@ Cycle. Biconnected components are separated by articulation points.
 ## 2-SAT
 
 The 2-SAT problem asks whether a boolean formula in conjunctive normal form with exactly 2 literals
-Per clause is satisfiable. It reduces to finding SCCs in an implication graph.
+per clause is satisfiable. It reduces to finding SCCs in an implication graph.
 
 ### Reduction to Implication Graph
 
@@ -892,7 +892,7 @@ Output.
 ### 8. Flow Network Construction
 
 When reducing a problem to max-flow, ensure the flow network is correctly constructed: (1) all edges
-Have non-negative capacity, (2) the source has only outgoing edges, (3) the sink has only incoming
+have non-negative capacity, (2) the source has only outgoing edges, (3) the sink has only incoming
 Edges, (4) the graph is directed (or convert undirected edges to two directed edges), and (5)
 Capacities are integers if using Ford-Fulkerson with DFS.
 

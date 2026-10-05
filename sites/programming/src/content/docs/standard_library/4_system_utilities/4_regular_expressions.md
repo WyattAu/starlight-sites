@@ -192,7 +192,7 @@ void email_validation_demo() {
 
 The primary performance concern with `std::regex` is **catastrophic backtracking**. A regex like
 `(a+)+b` applied to the string `"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaac"` can take exponential time because
-The engine tries every possible partition of the `a` characters between the two nested quantifiers.
+the engine tries every possible partition of the `a` characters between the two nested quantifiers.
 
 ```cpp
 #include <chrono>
@@ -498,12 +498,12 @@ int main() {
 GCC's libstdc++ implementation of `std::regex` uses a backtracking NFA engine that is exponentially
 Slow for certain patterns. For any production code that processes untrusted input, prefer a
 DFA-based or hybrid engine (RE2, hyperscan). MSVC's STL and libc++ (Clang) have better performance
-But still lack guaranteed linear-time matching.
+but still lack guaranteed linear-time matching.
 
 ### 2. Forgetting to Anchor Patterns with `regex_match`
 
 `std::regex_match` requires the **entire** string to match. If you forget to anchor your pattern
-With `^` and `$`You may get unexpected results with `regex_search`:
+with `^` and `$`You may get unexpected results with `regex_search`:
 
 ```cpp
 #include <iostream>
@@ -550,7 +550,7 @@ int main() {
 ### 4. Empty Matches in Iteration
 
 `std::regex_iterator` skips zero-length matches at the same position to prevent infinite loops. If
-You need to capture zero-length matches (e.g., for splitting), use `std::regex_token_iterator` with
+you need to capture zero-length matches (e.g., for splitting), use `std::regex_token_iterator` with
 Index `-1`.
 
 ## Intuition

@@ -20,7 +20,7 @@ description: "In the position representation, the state is described by a Where 
 ### 3.1 Wave Functions
 
 In the position representation, the state is described by a **wave function** $\psi(\mathbf{r}, t)$
-Where $|\psi(\mathbf{r}, t)|^2$ is the probability density:
+where $|\psi(\mathbf{r}, t)|^2$ is the probability density:
 
 $$
 P(\mathbf{r} \in [\mathbf{r}, \mathbf{r} + d\mathbf{r}]) = |\psi(\mathbf{r}, t)|^2\, d^3\mathbf{r}
@@ -206,7 +206,7 @@ $$
 So $\Delta x = \sqrt{\langle x^2 \rangle - \langle x \rangle^2} = 1/(\sqrt{2}\,\alpha)$.
 
 The uncertainty product for this state is $\sigma_x\,\sigma_p = \hbar/(2\sqrt{2})$ Which is larger
-Than the minimum $\hbar/2$ Showing this is not a minimum-uncertainty state.
+than the minimum $\hbar/2$ Showing this is not a minimum-uncertainty state.
 
 </details>
 

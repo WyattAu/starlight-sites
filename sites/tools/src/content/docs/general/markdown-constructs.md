@@ -32,7 +32,7 @@ categories:
 ### Headings
 
 Use `#` through `######`. Do not skip levels (e.g., jumping from `##` to `####`). The first heading
-In a page body should be `##` because Docusaurus uses the frontmatter `title` as the `h1`.
+in a page body should be `##` because Docusaurus uses the frontmatter `title` as the `h1`.
 
 ```md
 ## Level 2
@@ -136,7 +136,7 @@ Column alignment with colons:
 
 Tables that need complex cell content (code blocks, lists) will not render correctly in standard
 Markdown. For those cases, use the custom `.grid-table` CSS class with div-based structure, or use
-An MDX component.
+an MDX component.
 
 ### Task Lists
 
@@ -157,7 +157,7 @@ Here is a statement that needs a citation[^1].
 ```
 
 Footnotes support multiple references to the same note and can contain inline formatting, links, and
-Even code.
+even code.
 
 ### Definition Lists
 
@@ -289,7 +289,7 @@ System.out.println("Java code");
 ````
 
 Tabs support synchronization by `groupId`. Tabs with the same `groupId` across the page will switch
-In unison:
+in unison:
 
 ```mdx
 &lt;Tabs groupId="language"&gt; &lt;TabItem value="python" label="Python"&gt; ... &lt;/TabItem&gt;

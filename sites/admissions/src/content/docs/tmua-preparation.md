@@ -24,7 +24,7 @@ categories:
 ## 1. Overview of TMUA
 
 The Test of Mathematics for University Admission (TMUA) is a pre-university admissions test used by
-Several UK universities, including the University of Cambridge (for Computer Science), Durham
+several UK universities, including the University of Cambridge (for Computer Science), Durham
 University, The London School of Economics, the University of Warwick, the University of
 Southampton, and others. It assesses mathematical reasoning and the ability to apply mathematical
 knowledge in unfamiliar contexts.
@@ -125,7 +125,7 @@ $\neg P(x)$.
 **Mathematical induction.**
 
 _Strong induction._ The inductive hypothesis is that the statement holds for all $k \leq n$ Not just
-For $k = n$. This is necessary when the truth for $n + 1$ depends on cases other than $n$.
+for $k = n$. This is necessary when the truth for $n + 1$ depends on cases other than $n$.
 
 _Example._ Every integer $n \geq 2$ can be written as a product of primes. Base case: $n = 2$ is
 prime. Inductive step: if $n + 1$ is prime, we are done. If not, $n + 1 = ab$ where
@@ -202,7 +202,7 @@ _Geometric distribution._ $X \sim \text{Geo(p)$: $P(X = k) = (1-p)^{k-1}p$ for
 $k = 1, 2, 3, \ldots$. Mean $1/p$ Variance $(1-p)/p^2$.
 
 _Normal distribution._ $X \sim N(\mu, \sigma^2)$. The standard normal $Z = \frac{X - \mu}{\sigma}$
-Has mean 0 and variance 1. Use the standard normal table to find probabilities.
+has mean 0 and variance 1. Use the standard normal table to find probabilities.
 
 **Correlation.** The product moment correlation coefficient $r$ satisfies $-1 \leq r \leq 1$. Values
 near $\pm 1$ indicate strong linear association; values near 0 indicate weak linear association.
@@ -305,9 +305,9 @@ Stronger statement than the negation (it says all primes greater than 2 are even
 
 Since B and C are both true, the correct answer depends on what the question asks for. However, B
 Says "$Q \implies P$ is true" which is a true statement, and C says "$P \iff Q$ is true" which is
-Also a true statement. Since the question asks "which of the following is true" (singular), and
+also a true statement. Since the question asks "which of the following is true" (singular), and
 Multiple options are true statements, but C is the strongest and most complete characterisation, C
-Is the best answer.
+is the best answer.
 
 **Answer: C.**
 
@@ -449,7 +449,7 @@ Actually, $\frac{\ln 2}{0.2} = 5 \ln 2$. The options are:
 - E: $2$
 
 The correct answer $5\ln 2 \approx 3.47$ is not listed among these. This suggests the question may
-Have intended a different growth rate. Let me reconsider: if the model were
+have intended a different growth rate. Let me reconsider: if the model were
 $P(t) = P_0 \cdot 2^{t/5}$ (i.e., doubling every 5 hours), this is equivalent to
 $P(t) = P_0 e^{t \ln 2 / 5}$ Giving $k = \ln 2 / 5 \approx 0.1386$. Then the doubling time would be
 $t = \frac{\ln 2}{k} = 5$.

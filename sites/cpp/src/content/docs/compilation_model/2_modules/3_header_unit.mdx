@@ -51,8 +51,8 @@ export // all top-level declarations from foo.h
 ```
 
 This formalization explains two critical behaviors: (1) macros defined by the header are visible to
-The importer, because they are present before the `export module` boundary; and (2) all declarations
-Are exported, because the `export` keyword applies to the translation unit's interface.
+the importer, because they are present before the `export module` boundary; and (2) all declarations
+are exported, because the `export` keyword applies to the translation unit's interface.
 
 ### Proof: Header Units Eliminate Redundant Parsing
 
@@ -81,13 +81,13 @@ $$
 
 Since $P(H) \gt D(H)$ for any non-trivial header, the savings grow linearly with the number of TUs.
 For a header like `&lt;vector&gt;` with $P(H) \approx 50\mathrm{ms$ and $D(H) \approx 5\mathrm{ms$
-Across 100 TUs, the savings are approximately $4.5$ seconds per incremental build.
+across 100 TUs, the savings are approximately $4.5$ seconds per incremental build.
 
 ## 2. The Global Module Fragment (GMF)
 
 The GMF is the primary mechanism for consuming legacy headers inside a module. It creates a
 Transitional environment where the preprocessor functions normally, but the resulting declarations
-Are seamlessly available to the module body.
+are seamlessly available to the module body.
 
 ### Architecture
 
@@ -329,7 +329,7 @@ cl.exe /std:c++23 /headerUnit:angle utils\helpers.h=utils\helpers.h.ifc main.cpp
 ```
 
 MSVC integrates header unit scanning into its built-in dependency scanner, which CMake consumes via
-The P1689 protocol.
+the P1689 protocol.
 
  </TabItem>
 </Tabs>
@@ -417,7 +417,7 @@ Has no way to represent them.
 
 Header units are a special case because they are defined as a _synthesis_ of `#include` and module
 Semantics [N4950 S15.2]. The standard specifies that the preprocessor state (including macros) from
-The header is made available to importers as a concession to compatibility.
+the header is made available to importers as a concession to compatibility.
 
 **Implications:**
 
@@ -480,7 +480,7 @@ Header, header units cannot accommodate this.
 
 Standard library header units (`import &lt;vector&gt;;`) are supported by Clang and MSVC but the
 Experience varies. GCC's support is experimental. In C++23, `import std;` is the preferred approach
-For the standard library, making individual STL header units obsolete.
+for the standard library, making individual STL header units obsolete.
 
 ### Third-Party Headers
 
@@ -529,8 +529,8 @@ Preserve macro definitions. This means two header unit BMIs compiled with differ
 Named module BMIs and a primary reason why header units are harder to cache reliably.
 
 The build system must associate each header unit BMI with the exact set of preprocessor defines used
-During its compilation. If a TU compiled with `-DDEBUG=1` imports a header unit that was compiled
-Without that flag, the resulting BMI will not contain the debug-guarded code paths, leading to
+during its compilation. If a TU compiled with `-DDEBUG=1` imports a header unit that was compiled
+without that flag, the resulting BMI will not contain the debug-guarded code paths, leading to
 Missing symbols at link time. Consider:
 
 ```bash
@@ -542,7 +542,7 @@ clang++ -std=c++23 --precompile -x c++-header config.h -o config_release.h.pcm
 If a TU compiled with `-DDEBUG=1` imports `config.h`The build system must locate and load the
 `config_debug.h.pcm` BMI, not the release variant. Build systems like CMake track this through the
 P1689 scanning protocol, but the **dependency scanner must be aware of the compile flags** to select
-The correct BMI. This is why header units increase build system complexity significantly compared to
+the correct BMI. This is why header units increase build system complexity significantly compared to
 Named modules.
 
 ## 11. Header Units and `#pragma once` Interaction
@@ -553,7 +553,7 @@ Include guards and `#pragma once` are technically unnecessary for the header uni
 
 However, a header may be **both** `#include`D and `import`Ed across different TUs in the same
 Project. If the header lacks include guards and is `#include`D transitively by another header that
-Is imported as a header unit, the preprocessor may process the text multiple times during BMI
+is imported as a header unit, the preprocessor may process the text multiple times during BMI
 Generation. Therefore, include guards remain a best practice even for headers intended to be used as
 Header units.
 
@@ -609,7 +609,7 @@ Interface [N4950 S15.5.2].
 
 Note that the `export import` propagates the header unit's macro definitions to the importer. If
 Macro hygiene is desired, the header must be included only in the GMF (without `export import`), and
-The declarations must be re-exported manually.
+the declarations must be re-exported manually.
 
 ## 15. Header Units and the P1689 Scanning Protocol
 
@@ -684,7 +684,7 @@ When transitioning a single header from `#include` to a header unit import, foll
 ## 18. Header Units and `import std;` Coexistence
 
 In a project that uses both header unit imports and the `import std;` named module, the build system
-Must handle the interaction between the two. Key considerations:
+must handle the interaction between the two. Key considerations:
 
 1. **No double import:** If a header unit `import &lt;vector&gt;` and `import std;` are both used in
    the same TU, the build system must ensure that the declarations from `&lt;vector&gt;` are not

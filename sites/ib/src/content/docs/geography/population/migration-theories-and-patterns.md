@@ -36,7 +36,7 @@ Dimensions:
 ### Ravenstein's Laws of Migration (1885)
 
 Ernest Georg Ravenstein, based on an analysis of census data from the United Kingdom, formulated
-Several "laws" of migration that remain influential:
+several "laws" of migration that remain influential:
 
 1. **The majority of migrants move only a short distance.** Distance decay: the volume of migration
    decreases with increasing distance, because longer distances entail higher costs (financial,
@@ -79,7 +79,7 @@ Elements in the migration decision:
    make different migration decisions due to differences in personal circumstances.
 
 Lee's model recognises that the decision to migrate involves an assessment of the perceived costs
-And benefits of moving versus staying, filtered through individual characteristics and mediated by
+and benefits of moving versus staying, filtered through individual characteristics and mediated by
 Intervening obstacles. It also recognises that not all factors are positive or negative from the
 Perspective of the individual: what is a push factor for one person (e.g., the closure of a local
 Factory) may be neutral for another.
@@ -87,7 +87,7 @@ Factory) may be neutral for another.
 ### Structuralist Approaches
 
 Structuralist theories of migration emphasise the role of structural economic forces, particularly
-The global capitalist system, in driving migration:
+the global capitalist system, in driving migration:
 
 - **Dual labour market theory (Piore, 1979):** advanced economies have a dual labour market
   consisting of a primary sector (stable, high-wage, skilled employment) and a secondary sector
@@ -108,7 +108,7 @@ The global capitalist system, in driving migration:
 
 **Rural-urban migration** is the dominant form of internal migration in developing countries. It is
 Driven by the Harris-Todaro mechanism (expected urban wages exceed rural wages, even accounting for
-The probability of unemployment) and by the aspiration for modern lifestyles and services.
+the probability of unemployment) and by the aspiration for modern lifestyles and services.
 
 **Urban-urban migration** involves movement between cities, often from smaller to larger cities. In
 China, inter-provincial migration flows predominantly toward the coastal megacities (Shanghai,
@@ -161,7 +161,7 @@ Mexico-USA migration is one of the most studied international migration flows.
 
 **Scale and trends.** In 2022, approximately 10.7 million Mexican-born residents lived in the USA,
 Constituting the largest foreign-born population. Net migration from Mexico to the USA has declined
-Since 2010, partly due to improved economic conditions in Mexico (GDP growth averaging 2--3% per
+since 2010, partly due to improved economic conditions in Mexico (GDP growth averaging 2--3% per
 Year), tighter border enforcement (the USA has spent over USD 300 billion on border security since
 2003), and demographic changes (Mexico's fertility decline has reduced the pool of potential
 Migrants).

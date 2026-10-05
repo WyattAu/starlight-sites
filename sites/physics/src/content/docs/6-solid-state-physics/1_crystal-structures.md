@@ -23,7 +23,7 @@ A crystal is defined by a **lattice** (infinite array of points with translation
 **basis** (the arrangement of atoms associated with each lattice point).
 
 The lattice is specified by **primitive lattice vectors** $\mathbf{a}_1, \mathbf{a}_2, \mathbf{a}_3$
-Such that every lattice point is at:
+such that every lattice point is at:
 
 $$
 \mathbf{R} = n_1\mathbf{a}_1 + n_2\mathbf{a}_2 + n_3\mathbf{a}_3, \quad n_i \in \mathbb{Z}
@@ -77,7 +77,7 @@ Directions are written as $[hkl]$; families of equivalent directions as $\langle
 ### 1.5 Wigner-Seitz Cell
 
 The **Wigner-Seitz cell** is the primitive cell constructed by drawing perpendicular bisector planes
-Between a lattice point and all its neighbours. It is the region of space closer to the given
+between a lattice point and all its neighbours. It is the region of space closer to the given
 lattice Point than to any other.
 
 ### 1.6 Packing Fractions and Density

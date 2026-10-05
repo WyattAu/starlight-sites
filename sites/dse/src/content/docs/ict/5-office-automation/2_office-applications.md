@@ -111,7 +111,7 @@ In cell `A1`A student has scored 72.
 ```
 
 With approximate match (`TRUE`), VLOOKUP finds the largest value in the first column that is less
-Than or equal to the lookup value. 72 falls between 60 and 75, so it matches row 3 (60) and returns
+than or equal to the lookup value. 72 falls between 60 and 75, so it matches row 3 (60) and returns
 `C`.
 
 **Important:** For approximate match to work correctly, the first column of the table must be sorted
@@ -564,7 +564,7 @@ End Sub
 ```
 
 This macro finds the last row of data, calculates total and average sales, and writes a summary
-Below the data with bold labels.
+below the data with bold labels.
 
 </details>
 
@@ -1035,7 +1035,7 @@ ORDER BY AverageScore DESC;
 ```
 
 (d) Referential integrity ensures that every StudentID in the Result table matches a valid StudentID
-In the Student table. Without it: (1) A result could be recorded for a non-existent student
+in the Student table. Without it: (1) A result could be recorded for a non-existent student
 (orphaned Record). (2) A student could be deleted while their results remain, creating inconsistent
 data. (3) Reports and queries would produce incorrect results. Referential integrity prevents these
 data Integrity problems.
@@ -1068,7 +1068,7 @@ Answer:
 
 (a) Select the range `E2:E50` (assuming data starts at row 2). Go to Conditional Formatting >
 Highlight Cells Rules > Less Than. Enter `50` and select red formatting. Alternatively, use "Greater
-Than" with The inverse condition, or use a custom formula: `=E2<50`.
+than" with The inverse condition, or use a custom formula: `=E2<50`.
 
 (b) Select `B2:B50`. Go to Data > Data Validation. Set "Allow" to "List". In the "Source" field,
 Enter: `5A,5B,5C,6A,6B,6C` (or reference a range of cells containing these values). Check "Show
@@ -1130,7 +1130,7 @@ Characters. They are generally considered more readable in printed text at small
 Serifs guide the eye along lines of text. **Sans-serif fonts** (e.g., Arial, Helvetica, Calibri)
 lack These strokes and appear cleaner on screens. (i) **Printed brochure:** Serif fonts are more
 Appropriate for body text. (ii) **On-screen presentation:** Sans-serif fonts are more appropriate
-Because they render more on projectors and screens, especially at larger sizes and from a Distance.
+because they render more on projectors and screens, especially at larger sizes and from a Distance.
 
 </details>
 

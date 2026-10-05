@@ -81,7 +81,7 @@ u = \frac{1}{2}\varepsilon_0 E^2 + \frac{1}{2\mu_0}B^2 = \varepsilon_0 E^2
 $$
 
 (the electric and magnetic contributions are equal for a plane wave). The intensity is related to
-The energy density by $I = uc$.
+the energy density by $I = uc$.
 
 **Radiation pressure.** For a perfectly absorbing surface: $P_{\mathrm{rad} = I/c}$. For a perfectly
 Reflecting surface: $P_{\mathrm{rad} = 2I/c}$.
@@ -121,7 +121,7 @@ $$
 For non-magnetic materials ($\mu_r \approx 1$): $n \approx \sqrt{\varepsilon_r}$.
 
 The wavelength inside a medium of refractive index $n$ is $\lambda_n = \lambda_0/n$ Where $\lambda_0$
-Is the vacuum wavelength. The frequency remains unchanged across the boundary.
+is the vacuum wavelength. The frequency remains unchanged across the boundary.
 
 <details>
 <summary>Worked Example: EM wave propagation in glass</summary>
@@ -129,7 +129,7 @@ Is the vacuum wavelength. The frequency remains unchanged across the boundary.
 **Problem.** A plane wave of wavelength $\lambda_0 = 600$ nm in vacuum enters a glass slab
 ($n = 1.50$) at normal incidence. Find (a) the wavelength and wave speed inside the glass, (b) the
 Frequency, and (c) the ratio of intensities inside and outside the glass, accounting for reflection
-At the front surface.
+at the front surface.
 
 **Solution.**
 

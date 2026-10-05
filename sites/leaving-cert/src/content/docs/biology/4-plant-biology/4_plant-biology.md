@@ -124,7 +124,7 @@ Provide ATP for active transport of mineral ions against their concentration gra
 
 **Monocot stem:** vascular bundles are scattered throughout the ground tissue rather than arranged
 In a ring. Monocots generally lack a cambium and do not undergo secondary growth (no thickening of
-The stem).
+the stem).
 
 ### Worked Example: Distinguishing Monocot and Dicot Features (HL)
 
@@ -148,7 +148,7 @@ Therefore, this plant is a **monocot**.
 
 The loss of water vapour from the leaves through the stomata. Transpiration is an inevitable
 Consequence of gas exchange: stomata must open to allow $CO_2$ to enter for photosynthesis, but this
-Also allows water vapour to escape.
+also allows water vapour to escape.
 
 **Transpiration stream:**
 
@@ -249,7 +249,7 @@ The xylem intact. After several weeks, the bark above the ring swells. Explain t
 
 **Answer:** The ring of bark removal removes the phloem tissue, which is located in the bark. The
 Phloem is responsible for translocating sucrose from the leaves (source) to the roots (sink). With
-The phloem pathway severed:
+the phloem pathway severed:
 
 1. Sucrose produced by photosynthesis in the leaves can still reach the region above the ring but
    cannot pass below it.
@@ -259,7 +259,7 @@ The phloem pathway severed:
    of sugars and may eventually die.
 
 This experiment provides strong evidence that the phloem, not the xylem, is the tissue responsible
-For translocation of organic substances.
+for translocation of organic substances.
 
 ## Plant Reproduction
 
@@ -475,7 +475,7 @@ A tropism is a growth response to a directional stimulus. The response can be to
 
 :::caution
 Elongation in roots. Roots are far more sensitive to auxin than shoots, so the same concentration
-That promotes growth in shoots inhibits growth in roots.
+that promotes growth in shoots inhibits growth in roots.
 
 ### Worked Example: Explaining Phototropism (HL)
 

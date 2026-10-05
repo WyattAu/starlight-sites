@@ -159,7 +159,7 @@ P_F = \sqrt{118.5 \times 118.2} = \sqrt{14007.7} = 118.4
 $$
 
 The Laspeyres index slightly overstates inflation (118.5) compared to Paasche (118.2) because it
-Does not account for consumer substitution toward goods whose relative prices have fallen.
+does not account for consumer substitution toward goods whose relative prices have fallen.
 
 ## Index Number Chaining (HL Extension)
 

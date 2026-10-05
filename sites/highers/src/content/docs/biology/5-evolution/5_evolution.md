@@ -177,7 +177,7 @@ Fish).
 
 **Example:** The camel is adapted to desert life with: a hump for fat storage (energy and water from
 Metabolism), concentrated urine, wide feet for walking on sand, and long eyelashes to protect
-Against sand.
+against sand.
 
 ---
 
@@ -447,7 +447,7 @@ Transitions.
 
 **Comparative embryology:** Early embryos of vertebrates (fish, amphibians, reptiles, birds,
 Mammals) look remarkably similar, suggesting a common ancestry. Features such as pharyngeal pouches
-And a tail are present in all vertebrate embryos early in development.
+and a tail are present in all vertebrate embryos early in development.
 
 **Molecular evidence:** DNA and protein sequence comparisons show that more closely related species
 Have more similar sequences. The universality of the genetic code (the same codons code for the same
@@ -511,7 +511,7 @@ Estimated population $= 12 \times 5000 = 60,000$ daisies.
 
 **Deforestation:** Removes habitats, releases stored carbon (contributing to climate change),
 Disrupts the water cycle, and causes soil erosion. Tropical rainforests are particularly important
-Because they contain an estimated 50% of all terrestrial species.
+because they contain an estimated 50% of all terrestrial species.
 
 **Pollution:**
 
@@ -530,7 +530,7 @@ Ice caps), more frequent extreme weather events, and shifts in species distribut
 **Worked Example: Bioaccumulation of DDT.**
 
 DDT is a pesticide that was widely used in the mid-20th century. It is persistent in the environment
-And accumulates in fatty tissue. In an aquatic food chain: phytoplankton (0.003 ppm DDT) $\to$
+and accumulates in fatty tissue. In an aquatic food chain: phytoplankton (0.003 ppm DDT) $\to$
 Zooplankton (0.04 ppm) $\to$ small fish (0.5 ppm) $\to$ large fish (2.0 ppm) $\to$ osprey (25.0
 Ppm). The concentration increases by a factor of over 8,000 from phytoplankton to osprey. Top
 Predators are most affected because they are at the highest trophic level and consume many
@@ -610,7 +610,7 @@ A phylogenetic tree shows three species: human, chimpanzee, and gorilla. The hum
 Lineages diverge most recently (approximately 6 million years ago), while the gorilla lineage
 Diverged earlier (approximately 10 million years ago). This tells us that humans are more closely
 Related to chimpanzees than to gorillas. All three species share a common ancestor at the root of
-The tree (approximately 15-20 million years ago).
+the tree (approximately 15-20 million years ago).
 
 ## Review: The Carbon Cycle in Detail
 

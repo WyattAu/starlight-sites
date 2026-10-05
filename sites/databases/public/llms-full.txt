@@ -29,7 +29,7 @@ Functional dependencies on the relation.
 The core idea is simple: every piece of data should live in exactly one place. If the same fact
 Appears in multiple rows, updating that fact requires updating every row that contains it. If you
 Miss one, your data is inconsistent. Normalization gives you a principled, mathematical framework
-For avoiding this class of problems.
+for avoiding this class of problems.
 
 ### Why Normalization Matters
 
@@ -49,7 +49,7 @@ Application logic to keep data consistent.
 ### Normalization vs Denormalization
 
 Normalization and denormalization are not opposites in the sense that one is "right" and the other
-Is "wrong." They are engineering tradeoffs:
+is "wrong." They are engineering tradeoffs:
 
 ```text
 Normalized schema:
@@ -229,7 +229,7 @@ FDs that can be derived from $F$ using Armstrong's axioms.
 
 $F^+$ can be exponentially large (up to $2^{2^n}$ FDs for $n$ attributes), so you never compute it
 Explicitly. Instead, you use the attribute closure algorithm to answer specific questions about
-Whether a given FD is in $F^+$.
+whether a given FD is in $F^+$.
 
 ### Candidate Keys from FDs
 
@@ -354,7 +354,7 @@ Correct.
 
 **Definition.** A relation $R$ is in first normal form (1NF) if and only if every attribute of every
 Tuple contains an atomic (indivisible) value. Equivalently, the domain of every attribute contains
-Only atomic values, and there are no repeating groups.
+only atomic values, and there are no repeating groups.
 
 1NF requires:
 
@@ -405,7 +405,7 @@ Dependency** exists when a non-prime attribute depends on only a proper subset o
 
 :::caution
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
-Whenever it is in 1NF, because there is no proper subset of a single-attribute key.
+whenever it is in 1NF, because there is no proper subset of a single-attribute key.
 
 ```text
 Relation: OrderItem(order_id, product_id, quantity, product_name, unit_price)
@@ -556,10 +556,10 @@ Multivalued dependency $X \twoheadrightarrow Y$ that holds in $R$, $X$ is a supe
 
 **Definition.** A multivalued dependency (MVD) $X \twoheadrightarrow Y$ holds in $R$ if and only if,
 For every pair of tuples $t_1$ and $t_2$ in $R$ that agree on $X$ There exists a tuple $t_3$ in $R$
-That agrees with $t_1$ on $X$ With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
+that agrees with $t_1$ on $X$ With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
 
 A multivalued dependency $X \twoheadrightarrow Y$ means that the values of $Y$ are independent of
-The values of $R - X - Y$ Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
+the values of $R - X - Y$ Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
 $X \twoheadrightarrow Y$ But not every MVD implies an FD.
 
 ```text
@@ -604,7 +604,7 @@ Join dependency $JD(R_1, R_2, \ldots, R_n)$ that holds in $R$ Each $R_i$ is a su
 
 A join dependency generalizes the concept of lossless-join decomposition to $n$ relations. A
 Relation $R$ satisfies a join dependency $JD(R_1, R_2, \ldots, R_n)$ if and only if $R$ is equal to
-The natural join of its projections on $R_1, R_2, \ldots, R_n$:
+the natural join of its projections on $R_1, R_2, \ldots, R_n$:
 
 $$
 R = \pi_{R_1}(R) \bowtie \pi_{R_2}(R) \bowtie \ldots \bowtie \pi_{R_n}(R)
@@ -840,7 +840,7 @@ Dependency-preserving: both FDs are checkable on individual relations.
 ## Decomposition
 
 Decomposition is the mechanism by which normalization is achieved: you replace a single relation
-With two or more smaller relations. Not every decomposition is correct. A decomposition must satisfy
+with two or more smaller relations. Not every decomposition is correct. A decomposition must satisfy
 Two properties to be valid.
 
 ### Lossless-Join Decomposition
@@ -907,8 +907,8 @@ Each intermediate join is lossless.
 
 **Definition.** A decomposition of $R$ into $R_1, R_2, \ldots, R_n$ is dependency-preserving if and
 Only if, for every functional dependency $X \rightarrow Y$ in the closure of $F$ (the original set
-Of FDs), $X \cup Y \subseteq R_i$ for some $i$. Equivalently, the union of the restrictions of $F$
-To each $R_i$ is logically equivalent to $F$:
+of FDs), $X \cup Y \subseteq R_i$ for some $i$. Equivalently, the union of the restrictions of $F$
+to each $R_i$ is logically equivalent to $F$:
 
 $$
 (F_{R_1} \cup F_{R_2} \cup \ldots \cup F_{R_n})^+ = F^+
@@ -916,7 +916,7 @@ $$
 
 In plain language: every functional dependency from the original relation can be verified by
 Examining a single decomposed relation. You do not need to join the relations back together to check
-The constraint.
+the constraint.
 
 ### BCNF vs 3NF Decomposition Tradeoff
 
@@ -1043,7 +1043,7 @@ With surrogate key:
 
 :::caution
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
-And model functional dependencies correctly.
+and model functional dependencies correctly.
 
 ### Normalization in Application Development
 
@@ -1200,7 +1200,7 @@ FDs:
 
 **Problem:** You cannot add a new course until at least one student enrolls. If a new course
 "Advanced Quantum Computing" (CS501) is created but has no students yet, there is no row to store
-The course information.
+the course information.
 
 **Problem:** You cannot add a new instructor until they are assigned to a course. If Prof Chen is
 Hired but not yet assigned a course, there is nowhere to record `instructor_name` and
@@ -1238,7 +1238,7 @@ Course, Instructor, and Department data persist in their own tables.
 
 **Problem:** The Computer Science department moves from Building A to Building B. With the
 Unnormalized schema, you must update `dept_building` in every row that has `department = 'CS'`. If
-There are 5,000 enrollments in CS courses, that is 5,000 rows to update. If the UPDATE statement
+there are 5,000 enrollments in CS courses, that is 5,000 rows to update. If the UPDATE statement
 Fails partway through (or if someone updates only some rows), the database is inconsistent: some
 Rows say Building A, others say Building B.
 
@@ -1843,7 +1843,7 @@ Relation has at least one candidate key (if it is a proper set).
 ### Primary Key
 
 The primary key is the candidate key chosen by the database designer as the principal identifier. It
-Is a design choice, not a mathematical property. Convention:
+is a design choice, not a mathematical property. Convention:
 
 - Choose a stable, never-changing attribute (not email, not phone number)
 - Prefer single-column keys for simplicity
@@ -1853,7 +1853,7 @@ Is a design choice, not a mathematical property. Convention:
 
 A foreign key is a set of attributes in one relation that references the primary key of another
 Relation. It enforces referential integrity: every value of the foreign key must exist as a value of
-The referenced primary key (or be NULL).
+the referenced primary key (or be NULL).
 
 ```sql
 CREATE TABLE orders (
@@ -1879,7 +1879,7 @@ Referential actions:
 ### Composite Key
 
 A composite key is a primary key consisting of two or more attributes. Common in association tables
-And many-to-many relationships:
+and many-to-many relationships:
 
 ```sql
 CREATE TABLE enrollment (
@@ -1895,7 +1895,7 @@ CREATE TABLE enrollment (
 ## Relational Algebra
 
 Relational algebra provides a formal set of operations for manipulating relations. Every SQL query
-Is an expression in relational algebra (with extensions). Understanding these operations helps you
+is an expression in relational algebra (with extensions). Understanding these operations helps you
 Reason about query correctness and performance.
 
 ### Selection (sigma)
@@ -2153,7 +2153,7 @@ Fix: split into:
 
 A relation is in 3NF if it is in 2NF and no non-prime attribute is transitively dependent on any
 Candidate key. Equivalently, for every non-trivial FD $X \rightarrow A$ where $A$ is non-prime, $X$
-Must be a superkey.
+must be a superkey.
 
 ```text
 R(emp_id, name, dept_id, dept_name, dept_location)
@@ -2193,7 +2193,7 @@ Fix: split into:
 
 :::caution
 Relation from the decomposed relations without losing information). In such cases, staying in 3NF is
-The practical compromise.
+the practical compromise.
 
 ### Fourth Normal Form (4NF)
 
@@ -2218,7 +2218,7 @@ Fix: split into:
 
 A relation is in 5NF if it cannot be decomposed into smaller relations without losing information
 (no join dependency that is not implied by candidate keys). This is the "final" normal form in terms
-Of dependency theory.
+of dependency theory.
 
 In practice, 5NF violations are rare. They arise when a relation encodes a constraint that cannot be
 Expressed as a functional or multivalued dependency, such as a cyclic ternary relationship.
@@ -2265,7 +2265,7 @@ Denormalised:
 
 :::tip
 Denormalise specific bottlenecks. Premature denormalisation creates maintenance burden that is far
-More expensive than the joins it eliminates.
+more expensive than the joins it eliminates.
 
 ## ER Diagrams
 
@@ -2338,7 +2338,7 @@ Codd's rules are like the principles of good governance. They define what a rela
 ### Using Natural Keys When Surrogate Keys Are Appropriate
 
 A natural key like email address or national ID number may seem appealing, but it creates problems
-When the value changes (requiring cascading updates across all referencing tables) or when the
+when the value changes (requiring cascading updates across all referencing tables) or when the
 Domain is not truly unique (two people share an email during a migration). Surrogate keys
 (`BIGSERIAL``UUID`) are stable, never change, and simplify joins.
 
@@ -2346,7 +2346,7 @@ Domain is not truly unique (two people share an email during a migration). Surro
 
 Splitting tables too aggressively (e.g., creating a separate table for every attribute "just in
 Case") makes even simple queries require joins. If a group of attributes always appears together and
-Is always updated together, they likely belong in the same table.
+is always updated together, they likely belong in the same table.
 
 ### Ignoring Functional Dependencies in Application Code
 
@@ -2363,14 +2363,14 @@ Subtle bugs in WHERE clauses, JOIN conditions, and CHECK constraints.
 ### Not Declaring Foreign Keys
 
 Some teams omit foreign key constraints for "performance reasons." The cost of a foreign key check
-On insert/update is negligible compared to the cost of orphaned rows, inconsistent data, and the
+on insert/update is negligible compared to the cost of orphaned rows, inconsistent data, and the
 Debugging time required to find them. Only omit foreign keys if you have a proven, measured reason
-And a compensating data integrity mechanism.
+and a compensating data integrity mechanism.
 
 ### Using SELECT \* in Application Code
 
 `SELECT *` breaks when columns are added, reordered, or renamed. It transfers unnecessary data over
-The network. It prevents the query planner from using covering indexes. Always list the columns you
+the network. It prevents the query planner from using covering indexes. Always list the columns you
 Need explicitly.
 
 ### Treating Multi-Valued Attributes as Single Columns
@@ -2494,7 +2494,7 @@ Decompose into R1(A, B) and R1(A, C):
 ### Dependency Preservation
 
 A decomposition is **dependency-preserving** if every functional dependency in the original set can
-Be checked by examining only the decomposed relations (without joining them back together).
+be checked by examining only the decomposed relations (without joining them back together).
 
 Not every lossless decomposition is dependency-preserving, and not every dependency-preserving
 Decomposition is lossless. The goal is to achieve both.
@@ -2511,7 +2511,7 @@ Decompose into R1(A, B) and R1(A, C):
 ```
 
 When a BCNF decomposition is not dependency-preserving, you have a choice: stay in 3NF (which always
-Has a dependency-preserving, lossless decomposition) or accept the non-dependency-preserving BCNF
+has a dependency-preserving, lossless decomposition) or accept the non-dependency-preserving BCNF
 Decomposition and enforce the lost dependency through application logic or triggers.
 
 ### Join Dependencies and 5NF Revisited
@@ -2608,7 +2608,7 @@ Step 8: BCNF? All determinants are superkeys. ✓
 ```
 
 This systematic approach prevents the common mistake of over-normalising (splitting tables that have
-No redundancy) or under-normalising (leaving transitive dependencies that cause update anomalies).
+no redundancy) or under-normalising (leaving transitive dependencies that cause update anomalies).
 
 ## Worked Examples
 
@@ -2646,7 +2646,7 @@ URL: https://databases.wyattau.com/02-sql-fundamentals/advanced-sql/
 ## Window Functions Deep Dive
 
 Window functions compute values across a set of rows related to the current row without collapsing
-The result set. This section covers the framing mechanics, exclusion clauses, window groups, and
+the result set. This section covers the framing mechanics, exclusion clauses, window groups, and
 Window chains that give window functions their full power.
 
 ### Window Function Anatomy
@@ -2860,7 +2860,7 @@ JOIN audit_entry a ON TRUE;
 ```
 
 Execution order within a CTE chain is **not** guaranteed to follow the textual order. The optimizer
-May reorder data-modifying CTEs. If you need ordering, use triggers or application-level
+may reorder data-modifying CTEs. If you need ordering, use triggers or application-level
 Orchestration.
 
 ### CTE Materialization (PostgreSQL 12+)
@@ -3029,7 +3029,7 @@ Outer columns.
 ## Full-Text Search
 
 PostgreSQL's built-in full-text search provides ranked text search without external dependencies
-Like Elasticsearch.
+like Elasticsearch.
 
 ### tsvector and tsquery
 
@@ -3136,7 +3136,7 @@ ORDER BY sim DESC;
 ## Materialized Views
 
 A materialized view caches the result of a query physically on disk, allowing fast reads at the cost
-Of stale data that must be refreshed.
+of stale data that must be refreshed.
 
 ### Creating and Refreshing
 
@@ -3805,7 +3805,7 @@ Common table expressions are like creating temporary shortcuts. Instead of writi
 ### Using Window Functions in WHERE
 
 Window functions cannot be used in the `WHERE` clause because they are evaluated after `WHERE`. Wrap
-The query in a subquery or CTE:
+the query in a subquery or CTE:
 
 ```sql
 -- WRONG: window function in WHERE
@@ -3832,7 +3832,7 @@ SUM(amount) OVER ()
 ### Assuming CTEs Are Always Inlined
 
 PostgreSQL 12+ may inline CTEs, but this is not guaranteed. If a CTE is referenced multiple times or
-Is recursive, it is materialized. Use `EXPLAIN` to verify, and use `MATERIALIZED` /
+is recursive, it is materialized. Use `EXPLAIN` to verify, and use `MATERIALIZED` /
 `NOT MATERIALIZED` keywords for explicit control.
 
 ### Concurrent Refresh Requires a Unique Index
@@ -4001,7 +4001,7 @@ Key elements:
 
 :::tip
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
-And back to the session timezone on retrieval.
+and back to the session timezone on retrieval.
 
 ### ALTER TABLE
 
@@ -4594,7 +4594,7 @@ FROM employees;
 :::caution
 `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`Which includes all peers (rows with the same
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
-All rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
+all rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
 
 ## Common Table Expressions (CTEs)
 
@@ -4752,15 +4752,15 @@ Joins are like matching puzzle pieces. An inner join finds only the pieces that 
 ### Off-by-One Errors with BETWEEN
 
 `BETWEEN` is inclusive on both ends: `WHERE date BETWEEN '2024-01-01' AND '2024-01-31'` includes
-Both endpoints. If `date` is a `TIMESTAMPTZ``BETWEEN '2024-01-01' AND '2024-01-31'` actually means
-Up to `2024-01-31 00:00:00`Excluding all timestamps on January 31st after midnight. Use
+both endpoints. If `date` is a `TIMESTAMPTZ``BETWEEN '2024-01-01' AND '2024-01-31'` actually means
+up to `2024-01-31 00:00:00`Excluding all timestamps on January 31st after midnight. Use
 `WHERE date >= '2024-01-01' AND date &lt; '2024-02-01'` for date-range comparisons with timestamps.
 
 ### Assuming ORDER BY Without Explicit ORDER BY
 
 SQL tables and result sets have no guaranteed ordering unless you specify `ORDER BY`. A query
-Without `ORDER BY` may return rows in any order, and that order may change between executions, after
-An `ANALYZE`Or after a version upgrade.
+without `ORDER BY` may return rows in any order, and that order may change between executions, after
+an `ANALYZE`Or after a version upgrade.
 
 ### Using DISTINCT as a Substitute for Proper Joins
 
@@ -4824,12 +4824,12 @@ URL: https://databases.wyattau.com/03-indexing-optimization/indexing/
 
 Without an index, finding a specific row in a table of $N$ rows requires a full sequential scan,
 Which is $O(N)$. A B-tree index reduces this to $O(\log N)$ -- for a table of one billion rows, that
-Is the difference between examining one billion rows and approximately 30.
+is the difference between examining one billion rows and approximately 30.
 
 Indexes are the single most impactful performance tool available to a database user. The query
 Planner cannot use an index that does not exist, and adding the wrong index wastes storage and slows
-Down writes. Understanding how indexes work internally is the difference between a query that runs
-In milliseconds and one that takes minutes.
+down writes. Understanding how indexes work internally is the difference between a query that runs
+in milliseconds and one that takes minutes.
 
 ## B-Tree Structure
 
@@ -4964,7 +4964,7 @@ The benefits are significant:
 - **Better cache utilisation**: more index entries fit in the buffer pool
 
 In PostgreSQL, an index-only scan requires that the visibility map indicates all pages are
-All-visible. If any referenced page has dirty visibility information, the database falls back to a
+all-visible. If any referenced page has dirty visibility information, the database falls back to a
 Regular index scan that checks the heap. This is why `VACUUM` matters for index-only scan
 Performance.
 
@@ -5109,7 +5109,7 @@ SELECT * FROM reservations WHERE date_range && '[2024-01-01, 2024-12-31]'::dater
 ### BRIN (Block Range Index)
 
 Stores summary information about ranges of physical table pages. Extremely small but only effective
-When data is physically correlated with the indexed column (e.g., a timestamp column where rows are
+when data is physically correlated with the indexed column (e.g., a timestamp column where rows are
 Inserted in chronological order).
 
 ```sql
@@ -5124,7 +5124,7 @@ Matching rows, so it must still scan those pages.
 ## EXPLAIN and EXPLAIN ANALYZE
 
 `EXPLAIN` shows the query planner's execution plan. `EXPLAIN ANALYZE` actually executes the query
-And shows actual timing and row counts alongside the planner's estimates.
+and shows actual timing and row counts alongside the planner's estimates.
 
 ### Reading an EXPLAIN Plan
 
@@ -5180,7 +5180,7 @@ Key fields to examine:
 ### When the Planner Gets It Wrong
 
 The query planner relies on statistics gathered by `ANALYZE`. If statistics are stale or the table
-Has a highly skewed data distribution, the planner may choose a suboptimal plan.
+has a highly skewed data distribution, the planner may choose a suboptimal plan.
 
 ```sql
 -- Update statistics for a specific table:
@@ -5291,7 +5291,7 @@ Statistics via `ANALYZE` (run automatically by autovacuum) and stores them in `p
 ### Extended Statistics
 
 When columns are correlated (e.g., `city` and `zip_code`), the planner may underestimate selectivity
-Because it treats each column independently. PostgreSQL 10+ supports extended statistics:
+because it treats each column independently. PostgreSQL 10+ supports extended statistics:
 
 ```sql
 CREATE STATISTICS s_emp_dept_role (ndistinct, dependencies)
@@ -5377,7 +5377,7 @@ Guidelines for when to skip indexing:
 
 Every database connection consumes memory (PostgreSQL: approximately 5-10MB per connection for the
 Process, plus `work_mem` for queries). A web application with 500 concurrent connections can consume
-Several GB just for connection overhead.
+several GB just for connection overhead.
 
 ### Connection Poolers
 
@@ -5421,7 +5421,7 @@ A B-tree is like a sorted phone book. The first page tells you where to find nam
 ### Creating an Index Without Checking the Query Plan
 
 Adding an index and assuming it will be used is a common mistake. Always `EXPLAIN ANALYZE` before
-And after creating an index to verify it is actually used and improves performance.
+and after creating an index to verify it is actually used and improves performance.
 
 ### Ignoring Index Bloat
 
@@ -5432,7 +5432,7 @@ Size growth and run `REINDEX CONCURRENTLY` on bloated indexes during maintenance
 
 A table with 30 indexes has 30x the write amplification. Every INSERT/UPDATE must update all 30
 Indexes. Profile your write workload before adding indexes. A good rule of thumb: if a query runs
-Less than once per minute, a covering index might not be worth the write cost.
+less than once per minute, a covering index might not be worth the write cost.
 
 ### Not Running ANALYZE After Bulk Loads
 
@@ -5472,7 +5472,7 @@ Memory usage.
 ### Materialized Views
 
 A materialized view caches the result of a query and refreshes it periodically. This trades storage
-For query latency on expensive aggregations and joins.
+for query latency on expensive aggregations and joins.
 
 ```sql
 -- Create a materialized view for daily revenue:
@@ -5500,7 +5500,7 @@ REFRESH MATERIALIZED VIEW CONCURRENTLY daily_revenue;
 
 :::note
 Refreshes by scanning the new data and updating existing rows, which is slower than a full refresh
-But does not block concurrent reads.
+but does not block concurrent reads.
 
 ### Subquery Flattening
 
@@ -5575,7 +5575,7 @@ DEALLOCATE get_orders_by_customer;
 :::caution
 The generic plan does not use the specific parameter values for planning, which can lead to
 Suboptimal plans if the parameter values significantly affect selectivity (e.g., a status column
-Where 'pending' has 5 rows and 'completed' has 5 million rows). Monitor with `pg_stat_statements`
+where 'pending' has 5 rows and 'completed' has 5 million rows). Monitor with `pg_stat_statements`
 And use `plan_cache_mode = force_custom_plan` if generic plans are consistently worse.
 
 ### Partition Pruning
@@ -5730,7 +5730,7 @@ URL: https://databases.wyattau.com/03-indexing-optimization/query-optimization/
 
 **Rule-Based Optimizer (RBO):** Uses a fixed set of heuristics to transform queries. Access paths
 Are chosen based on rules like "use an index if available" and "avoid full table scans." RBO does
-Not consider data distribution, row counts, or I/O costs. Oracle deprecated RBO in Oracle 10g.
+not consider data distribution, row counts, or I/O costs. Oracle deprecated RBO in Oracle 10g.
 
 **Cost-Based Optimizer (CBO):** Estimates the cost of alternative execution plans using statistics
 About the data (row counts, column distributions, index sizes) and system parameters (CPU speed,
@@ -5952,7 +5952,7 @@ SELECT * FROM orders WHERE EXISTS (SELECT 1 FROM premium_customers WHERE id = cu
 ### Materialized Subqueries
 
 CTEs in PostgreSQL 12+ may be inlined or materialized. When materialized, the subquery is executed
-Once and stored:
+once and stored:
 
 ```sql
 -- The CTE may be materialized if referenced multiple times
@@ -6022,7 +6022,7 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 
 :::caution
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
-You risk OOM.
+you risk OOM.
 
 ## Covering Indexes
 
@@ -6254,7 +6254,7 @@ DEALLOCATE get_orders_by_customer;
 ### Plan Caching
 
 PostgreSQL uses a **generic plan** for prepared statements after 5 executions. The generic plan does
-Not use the specific parameter values for planning, which can lead to suboptimal plans when data
+not use the specific parameter values for planning, which can lead to suboptimal plans when data
 Distribution is skewed.
 
 ```sql
@@ -6447,7 +6447,7 @@ ALTER TABLE orders SET (autovacuum_analyze_scale_factor = 0.01);
 ### work_mem Too Low for Hash Joins
 
 The default `work_mem` is 4MB. A hash join on a table with 10 million rows likely requires much
-More. If the hash table spills to disk, performance degrades by 10-100x:
+more. If the hash table spills to disk, performance degrades by 10-100x:
 
 ```sql
 -- Per-session
@@ -6524,7 +6524,7 @@ WHERE tablename = 'orders' AND attname = 'status';
 
 When a query filters on a value that is NOT in the MCV list, the planner uses the histogram to
 Estimate selectivity. If the histogram has too few buckets (low `statistics_target`), the estimate
-Can be wildly wrong.
+can be wildly wrong.
 
 ```sql
 -- Increase statistics for skewed distributions
@@ -6706,7 +6706,7 @@ URL: https://databases.wyattau.com/04-transactions/locking-and-deadlocks/
 ## Lock Types Overview
 
 PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding
-Each lock type is essential for diagnosing performance issues and preventing deadlocks.
+each lock type is essential for diagnosing performance issues and preventing deadlocks.
 
 ### Lock Granularity
 
@@ -6753,7 +6753,7 @@ Automatically.
 ## Row-Level Locks
 
 Row-level locks are more granular than table-level locks. They block modifications to specific rows
-But allow concurrent access to other rows in the same table.
+but allow concurrent access to other rows in the same table.
 
 ### Implicit Row Locks
 
@@ -7195,7 +7195,7 @@ SET LOCAL statement_timeout = '0';  -- disable for this transaction
 Unlike SQL Server and Oracle, PostgreSQL does **not** perform automatic lock escalation from
 Row-level to table-level locks. Row locks and table locks are independent mechanisms. However,
 Acquiring too many row locks does consume significant shared memory for the lock table. If you need
-To update millions of rows, consider:
+to update millions of rows, consider:
 
 ```sql
 -- Process in batches to avoid holding too many row locks
@@ -7290,7 +7290,7 @@ Advisory locks are like reserving a table at a restaurant. They do not protect s
 ### Not Setting lock_timeout
 
 A query waiting for a lock can block indefinitely. If the lock holder has a long-running transaction
-Or a crashed session (though PostgreSQL detects crashed backends via TCP keepalive), waiting Queries
+or a crashed session (though PostgreSQL detects crashed backends via TCP keepalive), waiting Queries
 pile up. Always set `lock_timeout`:
 
 ```sql
@@ -7327,7 +7327,7 @@ Read-only work before `BEGIN`Then lock and modify within the transaction.
 ### Using LOCK TABLE When Row Locks Suffice
 
 `LOCK TABLE ... IN ACCESS EXCLUSIVE MODE` blocks all reads and writes on the entire table. Use the
-Most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for row locks,
+most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for row locks,
 `SELECT ... FOR UPDATE OF table_name` for specific tables in a multi-table query.
 
 ## Lock Duration and Transaction Boundaries
@@ -7335,7 +7335,7 @@ Most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for 
 ### Lock Release on Commit or Rollback
 
 All locks acquired during a transaction (row locks, table locks, advisory locks) are released when
-The transaction ends. There is no way to release a lock before the transaction commits or rolls
+the transaction ends. There is no way to release a lock before the transaction commits or rolls
 Back, except for `SAVEPOINT` + `ROLLBACK TO SAVEPOINT` which releases locks acquired after the
 Savepoint.
 
@@ -7462,7 +7462,7 @@ WHERE datname = 'mydb';
 
 SSI is conservative: it may abort transactions that would have produced a serializable result,
 Because the cycle detection cannot always distinguish safe from unsafe patterns. This is the price
-Of optimistic concurrency control. Applications using SERIALIZABLE must always implement retry
+of optimistic concurrency control. Applications using SERIALIZABLE must always implement retry
 Logic.
 
 ## Hot Standby Feedback and Replication Lag
@@ -7674,17 +7674,17 @@ URL: https://databases.wyattau.com/04-transactions/transactions/
 ## ACID Properties
 
 ACID is the set of guarantees that a relational database transaction provides. Understanding what
-Each property actually guarantees -- and what it does not -- is critical for building correct
+each property actually guarantees -- and what it does not -- is critical for building correct
 Concurrent systems.
 
 ### Atomicity
 
 A transaction is an all-or-nothing unit of work. Either all operations in the transaction commit, or
-None of them do. If the transaction fails at any point (constraint violation, system crash, network
+none of them do. If the transaction fails at any point (constraint violation, system crash, network
 Failure), the database rolls back to the state before the transaction began.
 
 Implementation: the database writes changes to a **write-ahead log (WAL)** before applying them to
-The data files. On recovery, the WAL is replayed (committed transactions) or undone (uncommitted
+the data files. On recovery, the WAL is replayed (committed transactions) or undone (uncommitted
 Transactions).
 
 ```sql
@@ -7720,8 +7720,8 @@ Once a transaction commits, its effects are permanent, even in the event of a sy
 Failure, or hardware fault. The database must guarantee that committed data can be recovered.
 
 Implementation: committed WAL records are flushed to disk (fsync) before the COMMIT returns success
-To the client. The actual data pages may be flushed to disk later (write-back caching), but the WAL
-Is the authoritative source for recovery.
+to the client. The actual data pages may be flushed to disk later (write-back caching), but the WAL
+is the authoritative source for recovery.
 
 ```sql
 -- fsync is the bottleneck for commit latency
@@ -7795,7 +7795,7 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 - PostgreSQL treats this as READ COMMITTED (it always prevents dirty reads)
 
 Use case: approximate aggregate queries where exact precision is not required (e.g., "roughly how
-Many orders today?").
+many orders today?").
 
 ### READ COMMITTED
 
@@ -8034,7 +8034,7 @@ Serializability.
 2. **Shrinking phase:** the transaction releases locks but does not acquire any
 
 Once a transaction releases its first lock, it enters the shrinking phase and cannot acquire any
-More locks. This protocol prevents cascading aborts and guarantees serializability.
+more locks. This protocol prevents cascading aborts and guarantees serializability.
 
 ### Variants
 
@@ -8096,7 +8096,7 @@ UPDATE accounts SET balance = balance + 500 WHERE id = GREATEST(1, 2);
 ## Savepoints
 
 Savepoints allow you to set markers within a transaction and roll back to a specific savepoint
-Without aborting the entire transaction.
+without aborting the entire transaction.
 
 ```sql
 BEGIN;
@@ -8280,7 +8280,7 @@ Spurious failures. Implement retry logic with exponential backoff.
 ### Ignoring Connection State Between Transactions
 
 Connection poolers in transaction mode (PgBouncer) reset the session state between transactions. If
-You `SET` a variable (e.g., `SET search_path TO tenant_123`), it will not persist to the next
+you `SET` a variable (e.g., `SET search_path TO tenant_123`), it will not persist to the next
 Transaction. Use `SET LOCAL` for transaction-scoped settings, or use session pooling.
 
 ### Mixing Isolation Levels Without Understanding the Implications
@@ -8292,7 +8292,7 @@ Uncommitted transactions that will be rolled back, leading to incorrect metrics.
 ### Forgetting That LOCK TABLE Blocks All Other Operations
 
 `LOCK TABLE accounts IN ACCESS EXCLUSIVE MODE` blocks all reads and writes on the table from all
-Other transactions. Use the most restrictive lock that suffices: `ACCESS SHARE` (default for
+other transactions. Use the most restrictive lock that suffices: `ACCESS SHARE` (default for
 SELECT), `ROW EXCLUSIVE` (default for UPDATE/DELETE/INSERT), or `SHARE UPDATE EXCLUSIVE` (for
 VACUUM-like operations).
 
@@ -8565,7 +8565,7 @@ URL: https://databases.wyattau.com/05-nosql/nosql/
 ## The CAP Theorem
 
 The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer's 2000 conjecture, states
-That a distributed data store can provide at most two of three guarantees:
+that a distributed data store can provide at most two of three guarantees:
 
 - **Consistency (C):** every read receives the most recent write or an error
 - **Availability (A):** every request receives a non-error response (without guarantee about which
@@ -8842,8 +8842,8 @@ Millions of columns and queries access a subset of columns.
 ### Architecture
 
 Data is stored in column families, where each column family contains related columns. On disk, data
-Is stored by column family (not by row), which makes reading all values of a specific column across
-Many rows very efficient.
+is stored by column family (not by row), which makes reading all values of a specific column across
+many rows very efficient.
 
 ```text
 Traditional row-oriented storage:
@@ -8952,7 +8952,7 @@ Key characteristics:
 ## Graph Databases
 
 Graph databases model data as nodes (entities) and edges (relationships), optimising for queries
-That traverse relationships. They are the natural choice for data with complex, interconnected
+that traverse relationships. They are the natural choice for data with complex, interconnected
 Relationships: social networks, fraud detection, recommendation engines, knowledge graphs.
 
 ### Neo4j
@@ -9000,12 +9000,12 @@ RETURN p
 
 :::tip
 Relational database for transactional data and a graph database for relationship-heavy queries. This
-Is the **polyglot persistence** pattern: use the right tool for each part of the problem.
+is the **polyglot persistence** pattern: use the right tool for each part of the problem.
 
 ## Time Series Databases
 
 Time series databases are optimised for storing and querying data points indexed by time. They are
-The standard for monitoring, IoT sensor data, financial tick data, and application metrics.
+the standard for monitoring, IoT sensor data, financial tick data, and application metrics.
 
 ### InfluxDB
 
@@ -9143,8 +9143,8 @@ Model around your access patterns, not your entity relationships.
 ### Underestimating Operational Complexity
 
 Running a Redis cluster, a Cassandra ring, or a MongoDB replica set in production requires expertise
-In the specific database's failure modes, backup procedures, monitoring, and upgrade paths. Budget
-For this expertise before adopting a new technology.
+in the specific database's failure modes, backup procedures, monitoring, and upgrade paths. Budget
+for this expertise before adopting a new technology.
 
 ### Not Setting TTL on Cache Data
 
@@ -9211,7 +9211,7 @@ Resolution. They guarantee eventual consistency without requiring coordination.
 | LWW-Register | Assign value with timestamp | Last-writer-wins                    |
 
 CRDTs are used in Riak, Redis CRDT module, and some edge computing frameworks. The trade-off: they
-Only support a limited set of operations (no arbitrary transactions), and some types accumulate
+only support a limited set of operations (no arbitrary transactions), and some types accumulate
 Garbage (tombstones in OR-Set).
 
 ### LSM Trees (Log-Structured Merge Trees)
@@ -9410,7 +9410,7 @@ URL: https://databases.wyattau.com/05-nosql/postgresql-advanced/
 ## Extensions Ecosystem
 
 Extensions add functionality to PostgreSQL through a well-defined API. They run in the same process
-As the server and have access to the same data, making them powerful but also a trust boundary.
+as the server and have access to the same data, making them powerful but also a trust boundary.
 
 ### Installing Extensions
 
@@ -9864,7 +9864,7 @@ RESET ROLE;
 ### RLS Performance
 
 RLS policies are applied as security barrier quals, meaning the planner cannot push predicates
-Through them. This can lead to suboptimal plans. Use `LEAKPROOF` functions in RLS policies and
+through them. This can lead to suboptimal plans. Use `LEAKPROOF` functions in RLS policies and
 Ensure the policy is selective.
 
 ## Auditing with pgAudit
@@ -10147,7 +10147,7 @@ Correctly.
 ### Backup Testing
 
 A backup that has not been tested is not a backup. Regularly restore backups to a test environment
-And run data integrity checks. Verify that PITR works to the expected recovery point.
+and run data integrity checks. Verify that PITR works to the expected recovery point.
 
 ## Background Workers and pg_cron
 
@@ -10389,7 +10389,7 @@ ALTER TABLE orders ATTACH PARTITION orders_2023
 ### Default Partition Management
 
 The default partition catches rows that do not match any defined partition. Periodically check it
-For data that should be in a new partition:
+for data that should be in a new partition:
 
 ```sql
 SELECT COUNT(*) FROM orders_default;
@@ -11206,7 +11206,7 @@ Redis data structures are like specialized tools in a toolbox. Strings are the s
 ### Using KEYS in Production
 
 `KEYS pattern*` scans the entire keyspace and blocks Redis during the scan. On a large dataset, this
-Can cause seconds of latency:
+can cause seconds of latency:
 
 ```bash
 # WRONG: blocks for seconds on large datasets
@@ -11239,7 +11239,7 @@ redis-cli MEMORY USAGE mykey
 ### Pub/Sub Message Loss
 
 Pub/sub does not persist messages. If a subscriber disconnects, it misses messages. If no subscriber
-Is listening when a message is published, the message is lost entirely. Use Streams for reliable
+is listening when a message is published, the message is lost entirely. Use Streams for reliable
 Messaging.
 
 ### Blocking Commands Without Timeouts
@@ -12641,7 +12641,7 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 
 :::caution
 KEY on `order_id` alone if the table is partitioned by `created_at` -- the primary key must include
-Both `(order_id, created_at)`. This is a common gotcha when migrating an existing table to
+both `(order_id, created_at)`. This is a common gotcha when migrating an existing table to
 Partitioning.
 
 ## Sharding
@@ -12735,7 +12735,7 @@ server_reset_query = DISCARD ALL
 ### Versioned Migrations
 
 Versioned migrations are numbered SQL files applied in order. Each migration transforms the schema
-From version N to version N+1.
+from version N to version N+1.
 
 ```
 migrations/
@@ -12902,7 +12902,7 @@ Complex to restore (must replay from the last full backup through all incrementa
 ### WAL Archiving (Point-in-Time Recovery)
 
 PostgreSQL's Write-Ahead Log records every modification. Archiving WAL enables recovery to any point
-In time:
+in time:
 
 ```bash
 # postgresql.conf
@@ -12934,7 +12934,7 @@ recovery_target_action = 'promote'
 
 :::caution
 Tests and measure the actual time to recover. The most common backup failure mode is discovering
-That the backup is corrupted or incomplete when you need it most.
+that the backup is corrupted or incomplete when you need it most.
 
 ## Replication
 
@@ -13146,7 +13146,7 @@ Retention policy before going to production.
 
 Designing for every hypothetical future use case leads to dozens of tables, complex join graphs, and
 Slow queries. Design for the known access patterns and leave room for evolution. The best schema is
-The simplest one that satisfies current requirements and can be extended incrementally.
+the simplest one that satisfies current requirements and can be extended incrementally.
 
 ### Ignoring Write Patterns
 

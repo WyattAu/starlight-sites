@@ -25,7 +25,7 @@ Mapping preserves angles (both magnitude and orientation) between curves.
 ### 10.2 Geometric Interpretation
 
 If $f'(z_0) = re^{i\theta}$ Then near $z_0$ the mapping $f$ acts as a rotation by $\theta$ followed
-By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
+by a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
 
 ### 10.3 Common Conformal Mappings
 

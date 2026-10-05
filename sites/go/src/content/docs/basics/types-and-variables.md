@@ -43,7 +43,7 @@ var y int64 = 42
 ### Integer Overflow
 
 Go integers wrap around on overflow in the same manner as two"s complement arithmetic. The compiler
-Does not insert runtime checks:
+does not insert runtime checks:
 
 ```go
 var x uint8 = 255
@@ -224,7 +224,7 @@ const (
 ### `iota`
 
 `iota` is a predeclared identifier that resets to 0 in each `const` block and increments by one for
-Each subsequent constant. It enables bit flag and enumeration patterns:
+each subsequent constant. It enables bit flag and enumeration patterns:
 
 ```go
 const (

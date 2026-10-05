@@ -48,12 +48,12 @@ A **game** consists of:
 ### Dominant Strategies
 
 A **dominant strategy** is a strategy that yields a higher payoff for a player regardless of what
-The other players do. If every player has a dominant strategy, the game has a **dominant strategy
+the other players do. If every player has a dominant strategy, the game has a **dominant strategy
 Equilibrium**.
 
 A **strictly dominant strategy** is always strictly better than any other strategy. A **weakly
 Dominant strategy** is at least as good as any other strategy, and strictly better against at least
-One opponent strategy.
+one opponent strategy.
 
 ### Nash Equilibrium
 
@@ -128,7 +128,7 @@ Cooperating, but neither has the incentive to do so unilaterally.
 
 In a **one-shot** prisoner's dilemma, defection is the only rational strategy. In an **infinitely
 Repeated** (or indefinitely repeated) game, cooperation can be sustained as a Nash equilibrium
-Through strategies such as:
+through strategies such as:
 
 - **Grim trigger**: cooperate until the other player defects, then defect forever. This makes the
   threat of permanent punishment credible.
@@ -272,7 +272,7 @@ Procrastination, undersaving for retirement, and difficulty maintaining diets.
 
 Richard Thaler and Cass Sunstein (2008) proposed that choice architecture, the way options are
 Presented, can influence decisions without restricting freedom of choice. A **nudge** is any aspect
-Of that architecture that alters behaviour predictably without forbidding options or significantly
+of that architecture that alters behaviour predictably without forbidding options or significantly
 Changing economic incentives.
 
 **Examples of nudges:**
@@ -345,7 +345,7 @@ Check each cell:
 4. (No Ad, No Ad): Alpha gets 6. If Alpha switches to Ad, Alpha gets 8 (better). Not an equilibrium.
 
 The only Nash equilibrium is (Ad, Ad) with payoffs $(4, 4)$. This is a prisoner's dilemma: both
-Would be better off at (No Ad, No Ad) with $(6, 6)$ But neither has the incentive to unilaterally
+would be better off at (No Ad, No Ad) with $(6, 6)$ But neither has the incentive to unilaterally
 Stop advertising.
 
 <summary>Problem 2: Mixed Strategy Nash Equilibrium</summary>
@@ -435,8 +435,8 @@ System, all citizens are automatically registered as organ donors unless they ac
 
 **Expected effectiveness:** Evidence from countries that have implemented opt-out systems (e.g.,
 Spain, Austria, Wales) shows dramatic increases in donation rates, often exceeding $90\%$. This is
-Because of **status quo bias** and **inertia**: people tend to stick with the default option rather
-Than actively changing it.
+because of **status quo bias** and **inertia**: people tend to stick with the default option rather
+than actively changing it.
 
 **Ethical considerations:**
 
@@ -645,7 +645,7 @@ and follow the crowd because they assume the crowd is better informed.
 
 **Overconfidence:** investors overestimate their ability to pick winning stocks and underestimate
 Risk. This leads to excessive trading (reducing returns through transaction costs) and
-Under-diversification.
+under-diversification.
 
 **Representativeness in investing:** investors extrapolate past performance into the future,
 Assuming that recent high returns will continue. This contributes to momentum effects and Eventual
@@ -1028,7 +1028,7 @@ who bids their true valuation (between 700 and 800). You would lose an item you 
 less than 800, earning a positive surplus.
 
 If you bid more (e.g., `USD 900`), you risk winning when the second-highest bid is between 800
-And 900. You would pay more than your valuation (800), earning a negative surplus.
+and 900. You would pay more than your valuation (800), earning a negative surplus.
 
 (b) You win if your bid (800) is the highest of the four bids. The other three bids are Uniformly
 distributed on [0, 1000]. The probability that all three are below 800 is:
@@ -1196,7 +1196,7 @@ w_H - w_L > c_H \cdot e \quad \text{but} \quad w_H - w_L < c_L \cdot e
 $$
 
 Where $e$ is the required education level, $w_H$ is the wage paid to educated workers, and $w_L$ is
-The wage paid to uneducated workers.
+the wage paid to uneducated workers.
 
 The separating equilibrium condition is:
 
@@ -1337,7 +1337,7 @@ about the winner's bid relative to competitors' costs.
 
 A job applicant's productivity is either $\theta_H = 50$ or $\theta_L = 20$. The employer cannot
 Observe productivity but offers wage $w_H = 40$ to college graduates and $w_L = 25$ to
-Non-graduates. Education costs $e$ years; the cost per year is $c_H = 4$ for high-productivity
+non-graduates. Education costs $e$ years; the cost per year is $c_H = 4$ for high-productivity
 Workers and $c_L = 10$ for low-productivity workers.
 
 (a) Find the range of education levels $e$ that can sustain a separating equilibrium.

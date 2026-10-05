@@ -404,7 +404,7 @@ $\Omega(n)$ comparisons in the worst case.
 <summary>Answer</summary>
 
 In an unsorted array, there is no relationship between the values at different indices. To determine
-Whether a target value $x$ exists in the array, any algorithm must potentially examine every element
+whether a target value $x$ exists in the array, any algorithm must potentially examine every element
 - if it skips any unchecked element, that element could be $x$. Therefore, the worst case requires
 $n$ comparisons, giving $\Omega(n)$.
 
@@ -441,7 +441,7 @@ For revision on searching, see
 
 **Problem 1.** A character array `C` has base address 3000 and stores lowercase letters. Each
 Character occupies 1 byte. What are the addresses of `C[0]``C[4]`And `C[12]`? If `C` is declared
-With size 10, what happens when you access `C[12]`?
+with size 10, what happens when you access `C[12]`?
 
 <details>
 <summary>Hint</summary>
@@ -492,7 +492,7 @@ The value stored at address 512 is **41**.
 
 **Problem 3.** A record `Book` is defined with fields: `title` (string, 30 bytes), `pages` (int, 4
 Bytes), `price` (float, 8 bytes), `available` (bool, 1 byte). Assuming 8-byte alignment, calculate
-The offset of each field and the total size of the record.
+the offset of each field and the total size of the record.
 
 <details>
 <summary>Hint</summary>
@@ -526,7 +526,7 @@ Total to 56 (a multiple of 8).
 
 **Problem 4.** A nested record is defined: `Student` has fields `name` (20 bytes) and `exam` which
 Is a record with fields `subject` (10 bytes) and `score` (4 bytes). Assuming 4-byte alignment, what
-Is the offset of `exam.score` within a `Student` record?
+is the offset of `exam.score` within a `Student` record?
 
 <details>
 <summary>Hint</summary>
@@ -579,7 +579,7 @@ Sequence is 1, 2, 4, 8, 16, 32, 64, 128). Memory used: $128 \times 4 = 512$ byte
 
 The dynamic array uses **112 more bytes** (28% more) because it pre-allocates extra capacity to
 Achieve $O(1)$ amortised append. However, the static array cannot grow beyond 100 elements, while
-The dynamic array can continue to accept more.
+the dynamic array can continue to accept more.
 
 </details>
 
@@ -735,7 +735,7 @@ This takes $O(n)$ time because $n - 2 = 3$ elements were shifted.
 Need: name (string), age (integer), and a list of up to 10 exam grades (integers). The system must
 Support: (a) looking up any student by their position in a class list, (b) calculating the average
 Grade for a student, (c) adding a new student to the end of the list when they enrol. Evaluate
-Whether a static array, a dynamic array, or an array of records is the most appropriate data
+whether a static array, a dynamic array, or an array of records is the most appropriate data
 Structure. Justify your choice with reference to the operations required and their time
 Complexities.
 
@@ -756,7 +756,7 @@ Growth).
 
 **Why records?** Each student has fields of different types: a string (name), an integer (age), and
 An array of integers (grades). An array alone stores elements of the same type. A record groups
-These heterogeneous fields under one name, making the code readable and the data logically
+these heterogeneous fields under one name, making the code readable and the data logically
 Organised.
 
 **Why a dynamic array (not static)?** Requirement (c) states that new students can be added when
@@ -772,8 +772,8 @@ Memory or running out of space. A dynamic array grows automatically with $O(1)$ 
 - (c) Add new student at end: $O(1)$ amortised, dynamic array append
 
 A linked list would also support insertion but would not provide $O(1)$ access by position (it would
-Be $O(n)$), making it worse for operation (a). The array of records with dynamic sizing is therefore
-The optimal choice.
+be $O(n)$), making it worse for operation (a). The array of records with dynamic sizing is therefore
+the optimal choice.
 
 </details>
 

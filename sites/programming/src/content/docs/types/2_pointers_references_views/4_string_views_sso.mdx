@@ -139,7 +139,7 @@ Language. Code that depends on a specific threshold is non-portable.
 The capacity of an SSO-stored string is always the SSO threshold minus 1 (to leave room for the null
 Terminator). For libstdc++, a default-constructed string has `capacity() == 15` and can hold up to
 15 characters without heap allocation. Calling `reserve(100)` forces a heap allocation regardless of
-The current string length.
+the current string length.
 
 ```cpp
 #include <string>
@@ -237,7 +237,7 @@ Or reallocated while the view is in scope.
 
 **Proof.** By definition, `std::string_view` stores a raw pointer and a size [N4950 §22.3.3]. It
 Does not own, share, or extend the lifetime of the pointed-to storage. The view is valid if and only
-If:
+if:
 
 1. The pointer is non-null and points to a contiguous sequence of at least `size()` characters.
 2. The storage has not been freed or reallocated.
@@ -293,7 +293,7 @@ void tokenize(std::string input) \{
 ### Reallocation-Induced Dangling
 
 A `string_view` into a `std::string` is invalidated not only when the string is destroyed, but also
-When the string is resized beyond its capacity:
+when the string is resized beyond its capacity:
 
 ```cpp
 #include <string>
@@ -539,7 +539,7 @@ int main() \{
 
 `std::string_view` is the correct choice when working with text. `std::span<const char>` is
 Appropriate when treating character data as a generic byte buffer (e.g., binary data that happens to
-Be in a `char` array).
+be in a `char` array).
 
 They are interoperable:
 
@@ -615,7 +615,7 @@ c_function(path.c_str());
 ### Pitfall 5: `string_view` of a moved-from `std::string`
 
 After a `std::string` is moved from, its contents are unspecified. A `string_view` obtained before
-The move may dangle:
+the move may dangle:
 
 ```cpp
 std::string s = "important data";
@@ -671,7 +671,7 @@ std::string c = std::string(a) + std::string(b);
 
 `std::string::operator[]` returns a reference to a character within the string's buffer. You can
 Construct a `string_view` from a pointer into this buffer, but the view is invalidated if the string
-Is modified or destroyed:
+is modified or destroyed:
 
 ```cpp
 #include <string>

@@ -22,7 +22,7 @@ categories:
 
 Every system you operate, deploy, or debug depends on networking. A container cannot reach its
 Database, a service returns 502 errors, DNS resolution stalls for 5 seconds, or TLS handshakes fail
-With certificate errors -- these are all networking problems that land on the systems engineer"s
+with certificate errors -- these are all networking problems that land on the systems engineer"s
 Desk.
 
 Understanding networking is not optional. It is the substrate on which every distributed system
@@ -32,14 +32,14 @@ Networking problem. When a firewall rule blocks health checks but allows product
 A networking problem.
 
 This subject covers the protocol stack from layer 2 through layer 7, with emphasis on the protocols
-You will encounter daily: IP, TCP, UDP, DNS, HTTP, and TLS. Each section includes practical
+you will encounter daily: IP, TCP, UDP, DNS, HTTP, and TLS. Each section includes practical
 Troubleshooting guidance because theoretical knowledge without diagnostic skill is useless in
 Production.
 
 ## The Protocol Stack
 
 Network communication is organized into layers. Each layer provides services to the layer above it
-And relies on the layer below it. The two primary reference models are:
+and relies on the layer below it. The two primary reference models are:
 
 - **OSI 7-layer model** -- a theoretical framework for understanding network functions
 - **TCP/IP 4-layer model** (DoD model) -- the practical model that the Internet actually uses
@@ -72,7 +72,7 @@ Traffic between two hosts traverses:
 4. **Destination network** -- the target's access and edge networks
 
 Understanding this hierarchy matters because latency, packet loss, and routing policies differ at
-Each stage. A problem that looks like "the application is slow" may actually be a BGP route flap at
+each stage. A problem that looks like "the application is slow" may actually be a BGP route flap at
 A transit provider, or it may be a misconfigured MTU on a VPN tunnel.
 
 ## What This Subject Covers
@@ -99,7 +99,7 @@ Every protocol covered in this subject shares a few fundamental properties:
 4. **End-to-end principle** -- complexity belongs at the endpoints, not in the network (RFC 8890)
 
 These principles explain why certain design decisions were made and why real-world networks behave
-The way they do.
+the way they do.
 
 ## Summary
 

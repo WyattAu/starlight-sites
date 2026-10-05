@@ -21,11 +21,11 @@ categories:
 ## Overview
 
 Network reference models provide a structured vocabulary for discussing protocol behavior. They are
-Not implementations -- they are abstractions that help engineers reason about where a particular
+not implementations -- they are abstractions that help engineers reason about where a particular
 Function belongs in the stack and which protocols interact with which others.
 
 Two models dominate: the **OSI 7-layer model** and the **TCP/IP 4-layer model**. The OSI model is
-The one taught in classrooms and used in documentation. The TCP/IP model is the one that actually
+the one taught in classrooms and used in documentation. The TCP/IP model is the one that actually
 Describes how the Internet works. Understanding both, and the gaps between them, is essential.
 
 ### Why Reference Models Matter for Systems Engineers
@@ -55,7 +55,7 @@ Them at the higher levels.
 
 In practical terms: reliability, security, and ordering should be implemented at the endpoints (the
 Application), not in the network. The network"s job is to deliver packets as quickly and efficiently
-As possible. This is why IP is "best effort" -- it does not guarantee delivery, ordering, or
+as possible. This is why IP is "best effort" -- it does not guarantee delivery, ordering, or
 Duplicate suppression. Those are the responsibility of TCP (transport layer) or the application
 Itself.
 
@@ -78,7 +78,7 @@ Network than at the endpoints:
   or other criteria.
 
 The tension between the end-to-end principle and the desire for network-level intelligence is one of
-The central debates in networking. NAT, firewalls, CDNs, and SD-WAN all represent varying degrees of
+the central debates in networking. NAT, firewalls, CDNs, and SD-WAN all represent varying degrees of
 Departure from the pure end-to-end model.
 
 ## The OSI 7-Layer Model
@@ -192,7 +192,7 @@ administered, 1 = locally assigned).
 ### Layer 3: Network
 
 The network layer provides **logical addressing** and **routing** between different networks. It is
-The layer that makes internetworking possible.
+the layer that makes internetworking possible.
 
 **Responsibilities:**
 
@@ -326,12 +326,12 @@ Responsible for data representation, encoding, and encryption.
 **Reality check:** Like the session layer, presentation-layer functions are absorbed into
 Application protocols. JSON, Protocol Buffers, MessagePack, and CBOR handle data serialization. TLS
 Handles encryption. Character encoding is handled by application libraries (iconv, ICU). Compression
-Is handled by application-layer mechanisms (HTTP Content-Encoding, gzip).
+is handled by application-layer mechanisms (HTTP Content-Encoding, gzip).
 
 ### Layer 7: Application
 
 The application layer is the interface between the network and the end-user application. It provides
-The services that applications use to communicate over the network.
+the services that applications use to communicate over the network.
 
 **Responsibilities:**
 
@@ -369,7 +369,7 @@ The services that applications use to communicate over the network.
 ## The TCP/IP 4-Layer Model
 
 The TCP/IP model (also called the DoD model or the Internet model) was developed by DARPA as part of
-The ARPANET project. It predates the OSI model and is the model that the Internet actually
+the ARPANET project. It predates the OSI model and is the model that the Internet actually
 Implements.
 
 ```mermaid
@@ -393,7 +393,7 @@ graph TD
 
 Combines OSI layers 5, 6, and 7. Application protocols in the TCP/IP model handle session
 Management, data representation, and application logic directly. There is no formal separation
-Between presentation and session concerns.
+between presentation and session concerns.
 
 This is why TLS is awkward to place in the OSI model -- it provides encryption (presentation) and
 Session management (session) but runs over TCP (transport) and under HTTP (application). In the
@@ -401,9 +401,9 @@ TCP/IP model, TLS is part of the application layer, or more precisely, an applic
 that applications use.
 
 The TCP/IP application layer also includes the socket API, which is the de facto standard interface
-For network programming. The socket API was developed at UC Berkeley in the early 1980s as part of
+for network programming. The socket API was developed at UC Berkeley in the early 1980s as part of
 BSD Unix. It provides a uniform interface for both TCP and UDP (and other protocols) regardless of
-The underlying network.
+the underlying network.
 
 ### Transport Layer
 
@@ -427,7 +427,7 @@ Intentionally unspecified -- the Internet works over Ethernet, Wi-Fi, PPP, fiber
 Virtually any link-layer technology.
 
 This deliberate abstraction is why the Internet could evolve from running over 56 kbps serial lines
-To 400 Gbps fiber without changing the upper layers. The link layer is a black box to the Internet
+to 400 Gbps fiber without changing the upper layers. The link layer is a black box to the Internet
 Layer -- IP does not care whether the underlying link is Ethernet or Wi-Fi, only that it can deliver
 Frames to the next hop.
 
@@ -550,7 +550,7 @@ When a browser sends an HTTP GET request, the encapsulation looks like this:
 
 Total overhead per frame: 58 bytes minimum (14 + 20 + 20 + 4). The Ethernet payload (MTU) is 1500
 Bytes, so the maximum HTTP data in a single frame is 1500 - 20 (IP) - 20 (TCP) = 1460 bytes. This is
-The **MSS** (Maximum Segment Size) for a standard Ethernet link with no options.
+the **MSS** (Maximum Segment Size) for a standard Ethernet link with no options.
 
 ### Overhead Analysis
 
@@ -592,7 +592,7 @@ Gateway -- this is a layer-3 routing function performed by an ICMP message.
 
 **ARP:** ARP maps layer-3 addresses (IP) to layer-2 addresses (MAC). It is a layer-2 protocol that
 Carries layer-3 information. ARP uses Ethernet broadcast (ff:ff:ff:ff:ff:ff) to reach all hosts on
-The segment, but the payload contains an IP address. In IPv6, NDP (Neighbor Discovery Protocol) uses
+the segment, but the payload contains an IP address. In IPv6, NDP (Neighbor Discovery Protocol) uses
 ICMPv6 for the same purpose, further blurring the boundary.
 
 **TLS:** TLS provides encryption (presentation) and session management (session) but runs over TCP
@@ -613,12 +613,12 @@ Practice), enabling LSPs (Label Switched Paths) that traverse multiple networks.
 **BGP (Border Gateway Protocol, RFC 4271):** BGP is an application-layer protocol (it runs over TCP
 Port 179) that makes layer-3 routing decisions. The routing information it carries (NLRI, Network
 Layer Reachability Information) determines how packets are forwarded at layer 3. BGP is the protocol
-That makes the Internet work as a network of networks.
+that makes the Internet work as a network of networks.
 
 **DNS:** DNS uses both UDP and TCP (layer 4) but carries application-layer naming information. Large
 DNS responses (&gt; 512 bytes traditionally, &gt; 1232 bytes with EDNS0) fall back to TCP, violating
-The simplistic "DNS is UDP" assumption. DNS-over-HTTPS (DoH) further complicates the layer mapping
-By carrying DNS queries inside HTTP/2 inside TLS inside TCP.
+the simplistic "DNS is UDP" assumption. DNS-over-HTTPS (DoH) further complicates the layer mapping
+by carrying DNS queries inside HTTP/2 inside TLS inside TCP.
 
 **Wi-Fi WPA2/WPA3:** Wi-Fi security operates at layer 2 (data link) but uses protocols derived from
 Layer 5/6 (802.1X/EAP for authentication, AES-CCMP for encryption). The encryption happens at a
@@ -679,7 +679,7 @@ When a user clicks a link in their browser, data flows through the stack as foll
 ## Practical Implications
 
 Understanding the protocol stack matters for troubleshooting because symptoms at one layer often
-Have root causes at another:
+have root causes at another:
 
 | Symptom                        | Likely Layer  | Diagnostic Tool            |
 | ------------------------------ | ------------- | -------------------------- |
@@ -696,7 +696,7 @@ Have root causes at another:
 
 :::tip
 Checking IP configuration. Verify IP connectivity before checking TCP ports. Verify TCP connectivity
-Before debugging application-level issues. This systematic approach saves time and prevents
+before debugging application-level issues. This systematic approach saves time and prevents
 Misdiagnosis.
 
 ## Common Pitfalls
@@ -751,7 +751,7 @@ Collision domain because switches buffer and forward frames.
 
 A **broadcast domain** is a network segment where broadcast packets (ff:ff:ff:ff:ff:ff) reach all
 Ports. By default, all ports on a switch are in the same broadcast domain. VLANs divide a switch
-Into multiple broadcast domains. Routers separate broadcast domains entirely.
+into multiple broadcast domains. Routers separate broadcast domains entirely.
 
 | Device | Collision Domains | Broadcast Domains |
 | ------ | ----------------- | ----------------- |
@@ -786,7 +786,7 @@ subnet, and inter-VLAN routing requires a layer-3 device (router or layer-3 swit
 
 STP (IEEE 802.1D) prevents loops in layer-2 networks by blocking redundant paths. STP elects a root
 Bridge and calculates the shortest path from each bridge to the root, blocking all other paths. If
-The active path fails, STP unblocks a redundant path.
+the active path fails, STP unblocks a redundant path.
 
 STP convergence can take 30-50 seconds (by default), during which traffic is disrupted. Rapid
 Spanning Tree Protocol (RSTP, 802.1w) reduces convergence to a few seconds. Multiple Spanning Tree
@@ -795,7 +795,7 @@ Utilization.
 
 STP is a layer-2 protocol that affects layer-3 connectivity. If STP blocks a port, all layer-3
 Traffic through that port is dropped. STP issues cause some of the most puzzling network problems
-Because the symptoms (intermittent connectivity, unreachable hosts) look like layer-3 routing
+because the symptoms (intermittent connectivity, unreachable hosts) look like layer-3 routing
 Issues.
 
 ```bash

@@ -123,7 +123,7 @@ import "github.com/you/myproject/v2"
 ```
 
 The `/v2` suffix is part of the module path, not the package path. This allows v1 and v2 to coexist
-In the same dependency graph.
+in the same dependency graph.
 
 ## go.sum
 

@@ -22,7 +22,7 @@ categories:
 ## Unique Ownership (std::unique_ptr) and EBO
 
 `std::unique_ptr` is the default smart pointer for exclusive ownership of heap-allocated objects. It
-Is zero-overhead relative to a raw pointer, supports custom deleters with Empty Base Optimization,
+is zero-overhead relative to a raw pointer, supports custom deleters with Empty Base Optimization,
 And enforces move-only semantics that make ownership transfers explicit at the call site.
 
 ## 2.1 Definition
@@ -42,7 +42,7 @@ sizeof(std::unique_ptr<T>) == sizeof(T*)
 ## 2.2 Construction: `std::make_unique`
 
 Always prefer `std::make_unique<T>(args...)` over `new T(args...)` [N4950 §20.11.3]. The reasons
-Are:
+are:
 
 1. **Exception safety:** `make_unique` performs a single allocation. Expressions like
    `f(unique_ptr<T>(new T), may_throw())` can leak if evaluation order causes `new T` to succeed but
@@ -102,7 +102,7 @@ This makes the ownership transfer visible at the call site.
 ## 2.4 Custom Deleters
 
 `std::unique_ptr<T, D>` accepts a second template parameter: the **deleter type** `D`. The deleter
-Is a callable invoked instead of `delete` when the `unique_ptr` is destroyed [N4950 §20.11.1.2].
+is a callable invoked instead of `delete` when the `unique_ptr` is destroyed [N4950 §20.11.1.2].
 
 When the deleter is stateless (empty class, no captured data), the compiler applies **Empty Base
 Optimization (EBO)** and the deleter consumes zero bytes:
@@ -235,7 +235,7 @@ Run, leaking resources. Always use `virtual ~Base() = default;` in polymorphic b
 
 `unique_ptr` as a class member simplifies resource management and eliminates the need for manual
 `delete` in destructors. Because `unique_ptr` is move-only, the class itself becomes move-only
-Unless you explicitly implement move operations.
+unless you explicitly implement move operations.
 
 ```cpp
 #include <iostream>
@@ -371,7 +371,7 @@ Pointers to elements as long as no insertion triggers a reallocation.
 ## 2.9 `unique_ptr` and Incomplete Types (Pimpl Idiom)
 
 `unique_ptr` can hold a pointer to an **incomplete type** in a header file, as long as the deleter
-Is the default (stateless) deleter [N4950 §20.11.1]. This enables the **pimpl (pointer to
+is the default (stateless) deleter [N4950 §20.11.1]. This enables the **pimpl (pointer to
 Implementation)** idiom: hide implementation details from the header, reducing compilation
 Dependencies.
 
@@ -454,14 +454,14 @@ int main() {
 
 :::caution
 Compiler generates the destructor body at each call site. The `delete impl_` call requires `Impl` to
-Be complete. This causes a compilation error. Always declare `~Widget();` in the header and define
-It (as `= default` or manually) in the `.cpp` file.
+be complete. This causes a compilation error. Always declare `~Widget();` in the header and define
+it (as `= default` or manually) in the `.cpp` file.
 :::
 
 ## 2.10 `sizeof(unique_ptr)` Comparison Across Types
 
 The size of `unique_ptr` depends on the deleter type. With the default deleter (stateless, zero-size
-Via EBO), `sizeof(unique_ptr<T>) == sizeof(T*)` on all major implementations [N4950 §20.11.1].
+via EBO), `sizeof(unique_ptr<T>) == sizeof(T*)` on all major implementations [N4950 §20.11.1].
 
 ```cpp
 #include <iostream>
@@ -595,7 +595,7 @@ int main() {
 
 :::caution
 `unique_ptr` to null. The caller assumes responsibility for cleanup. Use `release()` only when you
-Are transferring ownership to another mechanism (e.g., a C API that takes ownership).
+are transferring ownership to another mechanism (e.g., a C API that takes ownership).
 :::
 
 ## Intuition

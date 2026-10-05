@@ -53,7 +53,7 @@ Let $A$ and $B$ be subsets of a universal set $U$.
 
 These operations are conveniently visualised with Venn diagrams. In a Venn diagram, the universal
 Set $U$ is drawn as a rectangle, and subsets are drawn as overlapping circles. The union $A \cup B$
-Is the entire region covered by either circle; the intersection $A \cap B$ is the overlapping
+is the entire region covered by either circle; the intersection $A \cap B$ is the overlapping
 Region; the complement $A'$ is everything in the rectangle outside the circle for $A$.
 
 ### De Morgan's Laws
@@ -116,7 +116,7 @@ $$
 <summary>Worked example: Cardinality</summary>
 
 In a class of 40 students, 25 study Physics, 20 study Chemistry, and 10 study both. How many study
-Neither subject?
+neither subject?
 
 $|P \cup C| = |P| + |C| - |P \cap C| = 25 + 20 - 10 = 35$.
 
@@ -469,7 +469,7 @@ This is a geometric sequence with $u_1 = P$ and common ratio $1 + r$.
 ### Applications: Annuities
 
 An annuity pays $d$ per period for $n$ periods, with interest rate $r$ per period. The present value
-Is:
+is:
 
 $$
 PV = \frac{d}{r}\left(1 - \frac{1}{(1+r)^n}\right)

@@ -250,7 +250,7 @@ $$
 
 This is complex. For ALL coefficients to be in AP (not just three consecutive), there is no such
 $n > 2$. The question likely means: find $n$ such that three specific consecutive coefficients form
-An AP. For $C_1, C_2, C_3$:
+an AP. For $C_1, C_2, C_3$:
 
 $2\dbinom{n}{2} = \dbinom{n}{1} + \dbinom{n}{3}$
 

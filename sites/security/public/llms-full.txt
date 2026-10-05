@@ -119,7 +119,7 @@ Mechanisms that enforce confidentiality:
 
 Confidentiality is not binary. A system that encrypts data at rest but logs the plaintext to an
 Unsecured file has failed confidentiality. A system that uses AES-256 but stores the key alongside
-The ciphertext has failed confidentiality. The entire data lifecycle must be considered.
+the ciphertext has failed confidentiality. The entire data lifecycle must be considered.
 
 ### Integrity
 
@@ -142,7 +142,7 @@ Continuous, not one-time.
 ### Availability
 
 Availability ensures that authorized users can access systems and data when needed. It is defended
-Against both malicious attacks (DDoS) and operational failures (hardware faults, misconfigurations).
+against both malicious attacks (DDoS) and operational failures (hardware faults, misconfigurations).
 
 | Threat Vector       | Countermeasure                      | Standard       |
 | ------------------- | ----------------------------------- | -------------- |
@@ -175,7 +175,7 @@ Threats against a system into six classes, each mapping to a specific security v
 ### Applying STRIDE
 
 STRIDE is applied through **data flow diagrams (DFDs)**. For each component, element, and data flow
-In the diagram, you systematically ask: "Which STRIDE threats apply here?"
+in the diagram, you systematically ask: "Which STRIDE threats apply here?"
 
 ```mermaid
 graph TD
@@ -232,7 +232,7 @@ Path from root to leaf remains, the threat is mitigated.
 ## Attack Surface Analysis
 
 The attack surface of a system is the set of all points where an untrusted actor can interact with
-It. Reducing the attack surface is one of the highest-leverage security activities.
+it. Reducing the attack surface is one of the highest-leverage security activities.
 
 ### Categories of Attack Surface
 
@@ -248,10 +248,10 @@ It. Reducing the attack surface is one of the highest-leverage security activiti
 
 Attack surface can be quantified using Microsoft's **Relative Attack Surface Quotient (RASQ)**,
 Which assigns a cost to each attack vector (network port, service, RPC endpoint, etc.) and compares
-The total cost across configurations or versions.
+the total cost across configurations or versions.
 
 For practical purposes, the key metric is: **how many distinct paths exist from an untrusted input
-To a protected asset?** Each path represents a potential vulnerability.
+to a protected asset?** Each path represents a potential vulnerability.
 
 ### Attack Surface Reduction Checklist
 
@@ -265,7 +265,7 @@ To a protected asset?** Each path represents a potential vulnerability.
 ## Risk Assessment
 
 Risk assessment is the process of identifying, analyzing, and prioritizing risks. It is the bridge
-Between threat modeling and security investment.
+between threat modeling and security investment.
 
 ### Risk Quantification
 
@@ -308,7 +308,7 @@ Framework. It decomposes risk into:
 
 LEF is further decomposed into **Threat Event Frequency** (how often the threat actor attempts the
 Attack) and **Vulnerability** (the probability that an attempt succeeds). Loss Magnitude includes
-Both **Primary Loss** (direct costs) and **Secondary Loss** (response, reputation, regulatory).
+both **Primary Loss** (direct costs) and **Secondary Loss** (response, reputation, regulatory).
 
 FAIR produces a probability distribution over loss amounts rather than a single point estimate,
 Enabling risk-informed decision-making.
@@ -339,14 +339,14 @@ Admin access to the database.
 ### Just-in-Time (JIT) Access
 
 Static privilege assignment accumulates permissions over time. JIT access grants elevated privileges
-On demand, with automatic expiration. Systems like AWS IAM, HashiCorp Vault, and Teleport support
+on demand, with automatic expiration. Systems like AWS IAM, HashiCorp Vault, and Teleport support
 JIT patterns.
 
 ### Separation of Duties
 
 Related to least privilege is separation of duties: no single individual should control all aspects
-Of a critical operation. A developer who writes code should not be the sole approver for deploying
-It to production. A database administrator should not be the sole reviewer of audit logs.
+of a critical operation. A developer who writes code should not be the sole approver for deploying
+it to production. A database administrator should not be the sole reviewer of audit logs.
 
 ## Defense in Depth
 
@@ -407,7 +407,7 @@ graph TD
 
 Zero trust is a security model that eliminates implicit trust based on network location. The
 Traditional perimeter model assumes that everything inside the network is trustworthy and everything
-Outside is not. Zero trust assumes that no network location, user, or device is inherently
+outside is not. Zero trust assumes that no network location, user, or device is inherently
 Trustworthy.
 
 ### Core Principles (NIST SP 800-207)
@@ -567,7 +567,7 @@ Uses three metric groups:
 :::caution
 An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnerability in an
 Internet-facing authentication service. Always factor exploitability, exposure, and business context
-Into prioritization.
+into prioritization.
 
 ## Security Through Obscurity
 
@@ -715,7 +715,7 @@ rounding error by comparison.
 
 However, excessive security friction drives shadow IT, users routing around controls using personal
 Devices, unapproved SaaS, and shared credentials. The goal is security that is effective without
-Being burdensome enough to create workarounds.
+being burdensome enough to create workarounds.
 
 ### Designing Usable Security
 
@@ -731,7 +731,7 @@ Security:
 ### Security by Design Principles
 
 Security should be integrated into the development lifecycle from the earliest stages, not bolted on
-At the end:
+at the end:
 
 | Phase           | Security Activity                               | Output                           |
 | --------------- | ----------------------------------------------- | -------------------------------- |
@@ -835,8 +835,8 @@ Legal liability. Both are necessary; neither is sufficient.
 ### Pitfall 3: Trusting the Network
 
 The assumption that "internal traffic is safe" has been obsolete for over a decade. Lateral movement
-Is a standard post-exploitation technique. Worms propagate across internal networks. Insider threats
-Are by definition inside the perimeter. Every internal service-to-service communication should be
+is a standard post-exploitation technique. Worms propagate across internal networks. Insider threats
+are by definition inside the perimeter. Every internal service-to-service communication should be
 Authenticated and encrypted.
 
 ### Pitfall 4: Neglecting the Supply Chain
@@ -862,21 +862,21 @@ Protect against:
 The most sophisticated technical controls are defeated by a user clicking a phishing link, reusing a
 Password, or sharing credentials over Slack. Technical controls must account for human behavior, not
 Assume perfect users. Security awareness training, phishing simulations, and usable security design
-Are not optional extras.
+are not optional extras.
 
 ### Pitfall 7: No Incident Response Plan
 
 Every organization will experience a security incident. The difference between a contained incident
-And a catastrophe is whether you have a tested, practiced response plan. Without one, you will waste
-The first critical hours figuring out who is responsible, what to do, and how to communicate, while
-The attacker continues to operate undisturbed.
+and a catastrophe is whether you have a tested, practiced response plan. Without one, you will waste
+the first critical hours figuring out who is responsible, what to do, and how to communicate, while
+the attacker continues to operate undisturbed.
 
 ### Pitfall 8: Assuming Compliance Equals Security
 
 Compliance frameworks (SOC 2, ISO 27001, PCI-DSS) define minimum control requirements. They are
 Necessary for legal and contractual reasons, but meeting the minimum does not mean you are secure. A
 System can be fully compliant and still have critical vulnerabilities. Compliance is the floor, not
-The ceiling.
+the ceiling.
 
 ### Pitfall 9: Neglecting Security at Design Time
 
@@ -902,7 +902,7 @@ Security controls.
 ### Pitfall 12: Ignoring Physical Security
 
 Physical access trumps almost all technical controls. An attacker with physical access to a server
-Can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
+can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
 Server room access controls, visitor logging, and hardware security modules (HSMs) are not Optional.
 :::
 
@@ -1037,7 +1037,7 @@ AES is a substitution-permutation network (SPN). Each round applies:
 ### Modes of Operation
 
 A block cipher operating on 128-bit blocks needs a mode of operation to handle messages longer than
-One block. The mode determines how blocks are chained together and how ciphertext is produced.
+one block. The mode determines how blocks are chained together and how ciphertext is produced.
 
 #### Electronic Codebook (ECB)
 
@@ -1099,7 +1099,7 @@ Undetectable. Always combine with a MAC.
 #### Galois/Counter Mode (GCM)
 
 GCM combines CTR mode encryption with Galois field authentication, providing both confidentiality
-And integrity (AEAD, Authenticated Encryption with Associated Data).
+and integrity (AEAD, Authenticated Encryption with Associated Data).
 
 ```
 Plaintext → CTR Encryption → Ciphertext
@@ -1160,7 +1160,7 @@ Encryption at the cost of significantly slower performance.
 ### RSA
 
 RSA (Rivest-Shamir-Adleman, 1977) is based on the computational difficulty of factoring the product
-Of two large prime numbers.
+of two large prime numbers.
 
 | Parameter     | Recommended Value                           |
 | ------------- | ------------------------------------------- |
@@ -1187,7 +1187,7 @@ $q$).
 | 4096 bits    | 150 bits                      |
 
 RSA key generation is expensive ($O(k^3)$ for key size $k$) and RSA encryption/decryption is orders
-Of magnitude slower than AES. RSA is used to encrypt a symmetric key (key encapsulation), Not to
+of magnitude slower than AES. RSA is used to encrypt a symmetric key (key encapsulation), Not to
 encrypt bulk data directly.
 
 ### Elliptic Curve Cryptography (ECC)
@@ -1547,7 +1547,7 @@ An X.509 certificate contains:
 ### Certificate Chains
 
 Certificates form a chain from a leaf (end-entity) certificate to a root certificate through one or
-More intermediate certificates.
+more intermediate certificates.
 
 ```
 Root CA (self-signed, trusted)
@@ -1724,7 +1724,7 @@ Key Vault).
 ### Pitfall 3: Using SHA-256 for Password Hashing
 
 SHA-256 is designed to be fast. An attacker with a modern GPU can compute billions of SHA-256 hashes
-Per second. Use bcrypt (cost 12+), scrypt, or Argon2id for password storage.
+per second. Use bcrypt (cost 12+), scrypt, or Argon2id for password storage.
 
 ### Pitfall 4: Reusing Nonces/IVs
 
@@ -1746,7 +1746,7 @@ AES-256-GCM, ChaCha20-Poly1305, SHA-256/384, RSA-PSS, or Ed25519.
 
 Without forward secrecy (ephemeral Diffie-Hellman), compromise of the server's private key
 Compromises all past sessions. TLS 1.3 mandates forward secrecy, but TLS 1.2 with RSA key exchange
-Does not provide it. Ensure your cipher suites use ECDHE or DHE.
+does not provide it. Ensure your cipher suites use ECDHE or DHE.
 :::
 
 :::note
@@ -2298,7 +2298,7 @@ ssl_session_tickets off;
 ### Session Tickets
 
 The server encrypts the session state and sends it to the client as a ticket. The client presents
-The ticket in subsequent handshakes. No server-side session cache is needed:
+the ticket in subsequent handshakes. No server-side session cache is needed:
 
 ```nginx
 # Nginx: session tickets (enabled by default)
@@ -2492,7 +2492,7 @@ openssl x509 -in cert.pem -noout -text | grep -A1 "Subject Alternative Name"
 
 While TLS 1.0 and 1.1 are deprecated (RFC 8996), some legacy clients still require them. Disable
 Them only after auditing client requirements. PCI DSS 3.2.1 mandated disabling TLS 1.0 by June 2018
-And TLS 1.1 by June 2019.
+and TLS 1.1 by June 2019.
 
 ## Summary
 
@@ -2546,7 +2546,7 @@ URL: https://security.wyattau.com/03-authentication/authentication/
 
 These are distinct concerns that are often conflated. A user can be authenticated (their identity is
 Verified) but not authorized (they lack permission for a specific action). Conversely, a system
-Might authorize a request without authentication (anonymous access).
+might authorize a request without authentication (anonymous access).
 
 | Aspect       | Authentication               | Authorization               |
 | ------------ | ---------------------------- | --------------------------- |
@@ -2627,7 +2627,7 @@ This avoids forcing a password reset for all users.
 ### NIST SP 800-63B Recommendations (Revised 2023)
 
 The NIST Digital Identity Guidelines represent the current best practice for password policies, and
-They contradict many traditional policies.
+they contradict many traditional policies.
 
 **Do:**
 
@@ -2683,7 +2683,7 @@ MFA requires two or more independent factors from different categories:
 ### TOTP (Time-based One-Time Password)
 
 TOTP (RFC 6238) generates a 6-8 digit code based on a shared secret and the current time. The server
-And client both compute:
+and client both compute:
 
 $$
 \mathrm{TOTP = \mathrm{Truncate\Big(\mathrm{HMAC-SHA-1(K, T)\Big)
@@ -2747,7 +2747,7 @@ Rate limiting, anomaly detection, and do not use it as the sole second factor.
 ## OAuth 2.0
 
 OAuth 2.0 (RFC 6749) is an authorization framework that allows applications to obtain limited access
-To user accounts on HTTP services. It is a delegation protocol, the user authorizes a third-party
+to user accounts on HTTP services. It is a delegation protocol, the user authorizes a third-party
 Application to access their resources without sharing their credentials.
 
 ### Core Concepts
@@ -2805,7 +2805,7 @@ code_challenge = base64.urlsafe_b64encode(
 ### Client Credentials Flow
 
 Used for server-to-server communication (no user involved). The client authenticates directly with
-The authorization server using its credentials.
+the authorization server using its credentials.
 
 ```bash
 curl -X POST https://auth.example.com/token \
@@ -2819,7 +2819,7 @@ curl -X POST https://auth.example.com/token \
 
 The implicit flow returns the access token directly in the URL fragment, which exposes it to the
 Browser history, referrer headers, and JavaScript access. It has been deprecated by OAuth 2.1. Use
-The authorization code flow with PKCE instead.
+the authorization code flow with PKCE instead.
 
 ## OpenID Connect (OIDC)
 
@@ -3160,13 +3160,13 @@ password checking instead.
 ### Pitfall 3: JWT in localStorage
 
 Storing JWTs in localStorage or sessionStorage makes them accessible to any JavaScript running on
-The page. A single XSS vulnerability exposes the token. Store access tokens in memory (with silent
+the page. A single XSS vulnerability exposes the token. Store access tokens in memory (with silent
 Refresh) or in HttpOnly cookies.
 
 ### Pitfall 4: Missing Token Revocation
 
 Stateless JWTs cannot be revoked without a blacklist. If a user's JWT is stolen, it remains valid
-Until expiry. Mitigate with: short expiry times (15 minutes), refresh token rotation, and a token
+until expiry. Mitigate with: short expiry times (15 minutes), refresh token rotation, and a token
 Blacklist for compromised tokens.
 
 ### Pitfall 5: OAuth Redirect URI Validation
@@ -3177,19 +3177,19 @@ Validate redirect URIs against an exact-match allowlist (no wildcards, no open r
 ### Pitfall 6: Ignoring Algorithm in JWT Validation
 
 Accepting any algorithm in the JWT header, or not explicitly specifying the expected algorithm
-During validation, enables the algorithm confusion attack. Always specify `algorithms=["RS256"]` (or
+during validation, enables the algorithm confusion attack. Always specify `algorithms=["RS256"]` (or
 Your expected algorithm) explicitly.
 
 ### Pitfall 7: Session Fixation
 
 If an application does not regenerate the session ID after authentication, an attacker who knows the
 Pre-authentication session ID can hijack the authenticated session. Always regenerate the session ID
-Upon successful authentication.
+upon successful authentication.
 
 ### Pitfall 8: Storing Secrets in Version Control
 
 Hardcoded API keys, OAuth client secrets, JWT signing keys, and database credentials in source code
-Are exposed to anyone with repository access. Use secret management systems (HashiCorp Vault, AWS
+are exposed to anyone with repository access. Use secret management systems (HashiCorp Vault, AWS
 Secrets Manager, Azure Key Vault) and scan repositories for committed secrets (git-secrets,
 TruffleHog, gitleaks).
 
@@ -3212,7 +3212,7 @@ Refresh token rotation, or a hybrid approach.
 ### Centralized Identity Provider
 
 A centralized IdP (Okta, Azure AD, Keycloak, Auth0) provides a single point of authentication for
-All applications. This eliminates per-application credential management and enables consistent
+all applications. This eliminates per-application credential management and enables consistent
 Security policies.
 
 ```mermaid
@@ -3460,7 +3460,7 @@ URL: https://security.wyattau.com/03-authentication/oauth-deep-dive/
 ## OAuth 2.0 Overview
 
 OAuth 2.0 is an **authorization** framework defined in RFC 6749. It allows a third-party application
-To obtain limited access to a user's resources on a resource server without sharing the user's
+to obtain limited access to a user's resources on a resource server without sharing the user's
 Credentials. OAuth 2.0 is not an authentication protocol -- it delegates authorization.
 
 ### Roles
@@ -3991,7 +3991,7 @@ def list_users():
 ### Accepting Tokens from Untrusted Issuers
 
 Always validate the `iss` claim against a known list of trusted issuers. If your API accepts tokens
-From `https://auth.example.com` but also accepts tokens from any issuer, an attacker can create
+from `https://auth.example.com` but also accepts tokens from any issuer, an attacker can create
 Their own authorization server and issue tokens with arbitrary claims.
 
 ## Summary
@@ -5031,7 +5031,7 @@ ldap_filter = f"(uid={safe_username})"
 ## A04: Insecure Design
 
 Insecure design refers to fundamental flaws in the application's architecture and design, as opposed
-To implementation bugs.
+to implementation bugs.
 
 ### Missing Threat Modeling
 
@@ -5584,7 +5584,7 @@ Compromised content, not just the user who clicks a crafted link.
 ### DOM-based XSS
 
 The vulnerability exists entirely in client-side JavaScript. The payload is manipulated in the DOM
-Without being sent to the server.
+without being sent to the server.
 
 ```javascript
 // Vulnerable: reading from location.hash and inserting into DOM
@@ -5623,7 +5623,7 @@ Restricting which scripts can execute.
 ## Cross-Site Request Forgery (CSRF)
 
 CSRF tricks an authenticated user into executing an unwanted action on a web application where they
-Are already authenticated. The attack exploits the browser's automatic inclusion of credentials
+are already authenticated. The attack exploits the browser's automatic inclusion of credentials
 (cookies) with requests.
 
 ### CSRF Attack Flow
@@ -6204,7 +6204,7 @@ Supports parameterized queries. There is no excuse for string concatenation in S
 
 `Access-Control-Allow-Origin: *` combined with `Access-Control-Allow-Credentials: true` is
 Explicitly disallowed by the CORS spec (browsers reject it). But reflecting the origin header
-Without validation achieves the same effect and is a common misconfiguration.
+without validation achieves the same effect and is a common misconfiguration.
 
 ### Pitfall 5: Trusting User Input in Redirects
 
@@ -6576,7 +6576,7 @@ graph LR
 #### Microsegmentation
 
 Microsegmentation applies security policies at the workload level (container, VM, process) rather
-Than the network level. It is the network-level implementation of zero trust.
+than the network level. It is the network-level implementation of zero trust.
 
 | Technology               | Environment    | Mechanism                     |
 | ------------------------ | -------------- | ----------------------------- |
@@ -6986,7 +6986,7 @@ Man-in-the-middle attacks even if a CA is compromised.
 
 HPKP was deprecated due to the risk of hosts pinning themselves out of existence (losing the pinned
 Key with no recovery mechanism). If the pin was wrong, the site became permanently inaccessible for
-All visitors.
+all visitors.
 
 ### Modern Alternatives
 
@@ -7103,7 +7103,7 @@ ICMP to exfiltrate data. Monitor egress traffic volume, destinations, and protoc
 
 IPv6 is enabled by default on modern operating systems. If your firewall rules only cover IPv4, IPv6
 Traffic may bypass all controls. Either properly secure IPv6 or disable it on interfaces where it is
-Not needed.
+not needed.
 
 ### Pitfall 10: Single Point of Failure in Network Security
 
@@ -7161,7 +7161,7 @@ AllowTcpForwarding no
 ### Network Access Control (802.1X)
 
 802.1X provides port-based network access control. Devices must authenticate before gaining access
-To the network.
+to the network.
 
 | Component             | Role                                 |
 | --------------------- | ------------------------------------ |
@@ -8528,7 +8528,7 @@ Report. Undocumented analysis steps are not defensible in court.
 ### Ignoring Volatile Evidence
 
 Volatile evidence (RAM, network state, running processes) is lost when the system is powered off. If
-You pull the plug before acquiring RAM, you lose one of the most valuable evidence sources
+you pull the plug before acquiring RAM, you lose one of the most valuable evidence sources
 (encryption keys, running malware, network connections).
 
 ### Trusting System Clocks
@@ -8647,7 +8647,7 @@ URL: https://security.wyattau.com/06-incident-response/incident-response/
 ## The Incident Response Lifecycle
 
 NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection
-And Analysis, Containment Eradication and Recovery, and Post-Incident Activity.
+and Analysis, Containment Eradication and Recovery, and Post-Incident Activity.
 
 ```mermaid
 graph TD
@@ -8667,7 +8667,7 @@ graph TD
 ```
 
 The lifecycle is not strictly linear. Detection may happen during containment. Recovery may reveal
-The need for additional eradication. Post-incident analysis feeds back into preparation, improving
+the need for additional eradication. Post-incident analysis feeds back into preparation, improving
 Readiness for the next incident.
 
 ## Preparation
@@ -8742,7 +8742,7 @@ Pressure and ensure consistent, repeatable responses.
 
 Tabletop exercises are discussion-based simulations where the IR team walks through a hypothetical
 Incident scenario. They test the plan, identify gaps, and build muscle memory without the pressure
-Of a real incident.
+of a real incident.
 
 **Exercise structure:**
 
@@ -8782,7 +8782,7 @@ Of a real incident.
 ### Alert Triage
 
 Not every alert is an incident. Effective triage distinguishes true positives from false positives
-And prioritizes by severity.
+and prioritizes by severity.
 
 **Triage decision tree:**
 
@@ -8922,7 +8922,7 @@ graph LR
 ## Containment
 
 Containment limits the damage by isolating affected systems and preventing further spread. The goal
-Is to stop the bleeding without destroying evidence.
+is to stop the bleeding without destroying evidence.
 
 ### Short-Term Containment
 
@@ -9032,7 +9032,7 @@ Malicious artifacts, and addressing the vulnerability that allowed the compromis
 
 :::caution
 Created backdoors that survive apparent cleanup. The safest approach is to rebuild affected systems
-From known-good images rather than attempting in-place cleanup.
+from known-good images rather than attempting in-place cleanup.
 
 ## Recovery
 
@@ -9298,7 +9298,7 @@ A dedicated communication channel (Slack, Teams) and define who communicates wha
 ### Pitfall 5: Not Learning from Incidents
 
 The post-mortem is the most valuable phase of incident response. Organizations that skip it or treat
-It as a formality will repeat the same mistakes. A blameless culture that focuses on systemic
+it as a formality will repeat the same mistakes. A blameless culture that focuses on systemic
 Improvement, not individual fault, produces better security outcomes.
 
 ### Pitfall 6: Paying Ransomware Demands
@@ -9306,7 +9306,7 @@ Improvement, not individual fault, produces better security outcomes.
 Paying a ransom does not guarantee data recovery, funds criminal organizations, and signals to
 Attackers that your organization will pay. Worse, paying once makes you a repeat target. Maintain
 Tested, immutable backups as the primary recovery mechanism. Pay only as an absolute last resort
-With legal guidance.
+with legal guidance.
 
 ### Pitfall 7: Ignoring Small Incidents
 
@@ -9430,7 +9430,7 @@ Organization, while the blue team (defenders) attempts to detect and stop them.
 
 Red team exercises should be conducted by an independent team (internal red team or external
 Consultant) that does not share detection rules or playbooks with the blue team. The goal is to test
-The blue team's actual detection and response capability, not to validate known detections.
+the blue team's actual detection and response capability, not to validate known detections.
 
 ### Communication Templates
 
@@ -9521,7 +9521,7 @@ URL: https://security.wyattau.com/07-cloud-security/cloud-security/
 ## Shared Responsibility Model
 
 Cloud security is governed by a shared responsibility model. The division of responsibility between
-The cloud provider and the customer depends on the service model (IaaS, PaaS, or SaaS).
+the cloud provider and the customer depends on the service model (IaaS, PaaS, or SaaS).
 Misunderstanding this boundary is the single most common cause of cloud security incidents.
 
 ### IaaS (Infrastructure as a Service)
@@ -9546,7 +9546,7 @@ Groups, NACLs).
 ### PaaS (Platform as a Service)
 
 In PaaS (e.g., Lambda, App Engine, Azure Functions), the provider also manages the operating system
-And runtime. The customer is responsible only for the application code, data, and access controls.
+and runtime. The customer is responsible only for the application code, data, and access controls.
 
 | Responsibility                    | Provider              | Customer |
 | --------------------------------- | --------------------- | -------- |
@@ -9559,7 +9559,7 @@ And runtime. The customer is responsible only for the application code, data, an
 ### SaaS (Software as a Service)
 
 In SaaS (e.g., Office 365, Salesforce, Gmail), the provider manages nearly everything. The customer
-Is responsible only for data and access.
+is responsible only for data and access.
 
 | Responsibility                                           | Provider | Customer |
 | -------------------------------------------------------- | -------- | -------- |
@@ -9598,7 +9598,7 @@ Which resources.
 ### Least Privilege
 
 Every principal should have only the permissions necessary to perform its intended function. This is
-The principle of least privilege. In practice, this means:
+the principle of least privilege. In practice, this means:
 
 - Use read-only permissions for workloads that do not need to write.
 - Scope permissions to specific resources, not wildcards (`*`).
@@ -9636,12 +9636,12 @@ IAM policy evaluation follows a deterministic order:
 3. Default deny (implicit)
 
 A policy that denies access to a resource will always override an allow, even if the allow comes
-From a higher-priority policy.
+from a higher-priority policy.
 
 ### S3 Bucket Policies
 
 S3 bucket policies are resource-based policies attached to S3 buckets. They define what principals
-Can access the bucket and under what conditions.
+can access the bucket and under what conditions.
 
 Common misconfigurations:
 
@@ -9687,7 +9687,7 @@ Secure bucket policy example:
 | Applies to      | ENI (Elastic Network Interface)         | All instances in the subnet                    |
 
 Security groups are the primary defense. NACLs provide an additional layer but should not be relied
-Upon as the sole defense mechanism.
+upon as the sole defense mechanism.
 
 ### KMS (Key Management Service)
 
@@ -9762,7 +9762,7 @@ Azure RBAC defines permissions at the resource, resource group, or subscription 
 ### Azure Policy
 
 Azure Policy enforces organizational standards. It evaluates resources against policy definitions
-And can enforce or audit compliance. Examples:
+and can enforce or audit compliance. Examples:
 
 - Require encryption on storage accounts.
 - Restrict VM sizes to approved SKUs.
@@ -9905,7 +9905,7 @@ Metadata service is accessible from within the instance.
 - **GCP:** `http://metadata.google.internal/computeMetadata/v1/`
 
 An attacker who can trigger an SSRF vulnerability in your application can query the metadata service
-And steal IAM credentials.
+and steal IAM credentials.
 
 Prevention:
 
@@ -10102,7 +10102,7 @@ SOC 2 defines criteria for managing customer data based on five Trust Services C
 ISO 27001 is an international standard for information security management systems (ISMS). It
 Provides a framework for establishing, implementing, maintaining, and continually improving an ISMS.
 Cloud providers (AWS, Azure, GCP) are ISO 27001 certified, but the customer's use of cloud services
-Must also comply.
+must also comply.
 
 ### FedRAMP
 
@@ -10119,7 +10119,7 @@ AWS GovCloud, Azure Government, and GCP FedRAMP programs provide compliant envir
 ### GDPR and Cloud
 
 The General Data Protection Regulation (GDPR) applies to any organization processing personal data
-Of EU residents, regardless of where the organization is located. In cloud environments, GDPR
+of EU residents, regardless of where the organization is located. In cloud environments, GDPR
 Compliance requires:
 
 - **Data residency.** Know where data is stored and processed. Use region-locked deployments.
@@ -10145,7 +10145,7 @@ Default to allow all outbound traffic. Always review and harden defaults.
 
 Without CloudTrail, Azure Activity Logs, or GCP Audit Logs, you have no visibility into who is doing
 What in your environment. After a breach, you will not be able to determine the scope or timeline of
-The attack.
+the attack.
 
 ### Cross-Account Trust Misconfiguration
 
@@ -10160,7 +10160,7 @@ Egress. Monitor and restrict outbound traffic, especially to unexpected IP range
 ### Stale Credentials
 
 Service account keys, access keys, and certificates that are never rotated or revoked. A key that
-Was created 3 years ago and has not been used in 2 years should be deleted.
+was created 3 years ago and has not been used in 2 years should be deleted.
 
 ## Practice Problems
 
@@ -10168,7 +10168,7 @@ Was created 3 years ago and has not been used in 2 years should be deleted.
 
 A company uses AWS Lambda to run an API backend. The Lambda function reads from an S3 bucket and
 Writes to a DynamoDB table. Who is responsible for patching the operating system? Who is responsible
-For securing the API endpoint?
+for securing the API endpoint?
 
 <details>
 <summary>Answer</summary>
@@ -10621,7 +10621,7 @@ URL: https://security.wyattau.com/08-os-security/os-security/
 ### SSH Hardening
 
 SSH is the primary remote administration protocol on Linux. Default configurations are permissive
-And must be hardened.
+and must be hardened.
 
 **Key-based authentication:**
 
@@ -10631,7 +10631,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server
 ```
 
 Ed25519 is preferred over RSA and ECDSA. It is faster, more secure, and has smaller keys. RSA keys
-Should be at least 4096 bits if used.
+should be at least 4096 bits if used.
 
 **sshd_config hardening:**
 
@@ -10847,7 +10847,7 @@ Exempts root, which it does not).
 SELinux (Security-Enhanced Linux) was developed by the NSA and uses a policy-based MAC system. It
 Assigns a security context (label) to every process, file, port, and other system object. Access is
 Granted only if the policy explicitly allows the source context to access the target context's class
-With the specified permission.
+with the specified permission.
 
 Security context format: `user:role:type:level`
 
@@ -11088,7 +11088,7 @@ Dangerous misconfigurations:
 ### Cron Jobs
 
 Cron jobs run on a schedule with the privileges of the owning user. If a cron job executes a script
-That an unprivileged user can modify, the user can inject arbitrary commands that run with the cron
+that an unprivileged user can modify, the user can inject arbitrary commands that run with the cron
 Job's privileges.
 
 Enumeration:
@@ -11144,7 +11144,7 @@ Common kernel vulnerability classes:
 ### Path Hijacking
 
 If a directory in the PATH is writable by the current user, an attacker can place a malicious binary
-With the same name as a commonly used command in that directory. When the command is executed, the
+with the same name as a commonly used command in that directory. When the command is executed, the
 Malicious binary runs instead.
 
 ```bash
@@ -11412,7 +11412,7 @@ Provide process isolation.
 ### cgroups
 
 Control groups (cgroups) limit and account for resource usage (CPU, memory, I/O, network) for a set
-Of processes. Cgroups v2 is the current standard.
+of processes. Cgroups v2 is the current standard.
 
 ```bash
 # Create a cgroup and limit memory to 512 MB
@@ -11455,7 +11455,7 @@ Container isolation vs VM isolation:
 ### UEFI Secure Boot
 
 UEFI Secure Boot ensures that only cryptographically signed bootloaders and kernels can be executed
-During the boot process. The firmware verifies the signature of each component before executing it:
+during the boot process. The firmware verifies the signature of each component before executing it:
 
 1. UEFI firmware verifies the bootloader (e.g., GRUB, shim)
 2. The bootloader verifies the kernel
@@ -11517,7 +11517,7 @@ Key security policies:
 ### BitLocker
 
 BitLocker provides full-disk encryption for Windows systems. It encrypts the entire volume and uses
-The TPM to protect the encryption key.
+the TPM to protect the encryption key.
 
 - **TPM-only mode:** The key is released automatically if the boot measurements are correct.
 - **TPM + PIN:** Requires a PIN in addition to TPM. Protects against physical attacks on a powered-
@@ -11633,7 +11633,7 @@ Both give owner-only access. This is a paranoid but secure default for multi-use
 ### Problem 3: SELinux Troubleshooting
 
 An Apache web server returns 403 Forbidden for files in `/var/www/html/app/`. The file permissions
-Are correct (644, owned by apache:apache). `ls -Z` shows:
+are correct (644, owned by apache:apache). `ls -Z` shows:
 
 ```
 -rw-r--r--. apache apache unconfined_u:object_r:default_t:s0 index.html
@@ -11722,7 +11722,7 @@ What does this rule do? Why is `auid!=4294967295` included?
 <summary>Answer</summary>
 
 This rule audits the `open` and `openat` system calls on 64-bit systems when the target path is
-Under `/etc` and the triggering user has a UID of 1000 or higher (regular users, not system
+under `/etc` and the triggering user has a UID of 1000 or higher (regular users, not system
 Accounts). The key `etc_access` allows filtering audit logs for this specific rule.
 
 `auid!=4294967295` excludes the "unset" login UID (4294967295 = $2^{32} - 1$ Which is the value of
@@ -11904,7 +11904,7 @@ URL: https://security.wyattau.com/09-malware-analysis/malware-analysis/
 ## Malware Taxonomy
 
 Malware classification is the foundational step in any analysis workflow. Understanding the category
-Of a specimen determines the analyst's tooling, analysis strategy, and threat assessment posture.
+of a specimen determines the analyst's tooling, analysis strategy, and threat assessment posture.
 Modern malware frequently blends categories, but each type has distinct structural signatures and
 Behavioral profiles.
 
@@ -11919,15 +11919,15 @@ Heuristics unreliable.
 
 **Boot Sector Viruses** target the Master Boot Record at sector 0x0000 of the physical disk or the
 Volume Boot Record of individual partitions. The MBR contains the partition table (offset 0x01BE
-Through 0x01FD) and a small bootstrap program (446 bytes). A boot sector virus overwrites this
+through 0x01FD) and a small bootstrap program (446 bytes). A boot sector virus overwrites this
 Bootstrap code, ensuring execution before any operating system loader. Modern UEFI systems mitigate
-This through Secure Boot, which verifies a cryptographic signature chain from the firmware through
-The bootloader.
+this through Secure Boot, which verifies a cryptographic signature chain from the firmware through
+the bootloader.
 
 **Macro Viruses** exploit the programmability of document formats, primarily Microsoft Office's VBA
 (Visual Basic for Applications) runtime. The malicious macro is stored within the OLE2 Compound
 Document structure in streams such as `Macros/VBA/ThisDocument`. Defense relies on disabling macros
-By default, which Group Policy enforces through the registry key
+by default, which Group Policy enforces through the registry key
 `HKLM\SOFTWARE\Microsoft\Office\&lt;version&gt;\&lt;app&gt;\Security\VBAWarnings` set to 4.
 
 **Polymorphic Viruses** encrypt their body with a variable key and prepend a mutating decryption
@@ -11956,10 +11956,10 @@ Polymorphic engines operate by applying a variable encryption layer over a stati
 Mutation is confined to the decryption stub. Each generation produces a different key and a
 Structurally different decryptor, but the payload bytes, once decrypted, are bitwise identical.
 Detection countermeasures include emulation-based scanning that runs the decryptor in a virtual CPU
-Until the payload is revealed, then applies signature matching to the decrypted body.
+until the payload is revealed, then applies signature matching to the decrypted body.
 
 Metamorphic engines transform the payload itself. No encryption is required. The code is rewritten
-Through a sequence of semantics-preserving transformations. Instruction substitution replaces one
+through a sequence of semantics-preserving transformations. Instruction substitution replaces one
 Instruction with a sequence that produces identical architectural state. Code permutation shuffles
 Independent basic blocks. Variable expansion replaces immediate operands with computed equivalents
 (e.g., `mov eax, 5` becomes `push 2; push 3; pop ebx; pop eax; add eax, ebx`). The result is
@@ -12005,7 +12005,7 @@ Activate unless the exact hardware configuration was present, limiting its sprea
 ### Trojans
 
 Trojans masquerade as legitimate software to deceive the user into executing them. Unlike viruses
-And worms, they do not self-replicate.
+and worms, they do not self-replicate.
 
 **Backdoors** open a network listener that accepts commands from a remote attacker. Primitive
 Backdoors bind a shell (cmd.exe or /bin/sh) to a TCP port. Advanced implementations use covert
@@ -12024,9 +12024,9 @@ Simple HTTP GET request or a more sophisticated protocol with encryption and int
 
 **Bankers** specialize in stealing financial credentials. They inject malicious code into the
 Browser process (via DLL injection or BHO extension) to capture login forms, modify transaction data
-In transit, and intercept two-factor authentication tokens. They target specific banking websites
+in transit, and intercept two-factor authentication tokens. They target specific banking websites
 Using configuration files that map URL patterns to webinject scripts, which are JavaScript snippets
-That modify the rendered page to capture additional fields or redirect transactions.
+that modify the rendered page to capture additional fields or redirect transactions.
 
 ### Ransomware
 
@@ -12043,7 +12043,7 @@ Payment instructions.
 
 Payment mechanisms have evolved from wire transfers to cryptocurrencies, primarily Bitcoin and
 Monero. Bitcoin provides pseudo-anonymity with a public ledger, while Monero offers stronger privacy
-Through ring signatures, stealth addresses, and confidential transactions.
+through ring signatures, stealth addresses, and confidential transactions.
 
 **WannaCry** (2017) exploited the EternalBlue SMB vulnerability (MS17-010) to propagate across
 Networks with an NSA-developed exploit leaked by the Shadow Brokers. It encrypted files using
@@ -12056,7 +12056,7 @@ Halting the initial spread.
 EternalBlue exploit for lateral movement and the Mimikatz tool for credential harvesting. Unlike
 WannaCry, the encryption was irreversible: it overwrote the MBR and encrypted the Master File Table
 Using a fixed Salsa20 key embedded in the binary. The "decryption key" displayed in the ransom note
-Was computationally useless, as the MFT corruption made data recovery impossible through normal
+was computationally useless, as the MFT corruption made data recovery impossible through normal
 Means.
 
 **Ryuk** (2018) is a targeted ransomware family that focuses on large enterprises, healthcare
@@ -12094,7 +12094,7 @@ OS's integrity mechanisms.
 
 **User-mode rootkits** operate in ring 3 and hook application-level APIs. Techniques include Import
 Address Table hooking, where the malware modifies the IAT of a target process to redirect API calls
-To malicious code; Detours-style inline hooking, where the first bytes of the target function are
+to malicious code; Detours-style inline hooking, where the first bytes of the target function are
 Overwritten with a jump instruction to the hook handler; and DLL search order hijacking, where a
 Malicious DLL placed in the application's directory is loaded instead of the legitimate system DLL.
 
@@ -12158,7 +12158,7 @@ Characteristics that are unusual for their content (e.g., executable and writabl
 Build. Unlike packing, the goal is not compression but signature evasion. Crypters are often sold as
 Services to other malware authors. Multi-layer crypting applies encryption recursively: the
 Outermost layer decrypts to reveal another encrypted payload, and so on, requiring multiple rounds
-Of emulation or manual unpacking to reach the original code.
+of emulation or manual unpacking to reach the original code.
 
 **Anti-debugging** techniques detect or disrupt debugger attachment. `IsDebuggerPresent` checks the
 `BeingDebugged` flag in the Process Environment Block. `NtQueryInformationProcess` with
@@ -12175,7 +12175,7 @@ Leaf 0x1 returns a hypervisor-present bit in ECX bit 31. Checking for VMware-spe
 (`HKLM\SOFTWARE\VMware, Inc.\VMware Tools`), MAC address prefixes (00:0C:29, 00:50:56 for VMware;
 08:00:27 for VirtualBox), or driver files (`vmmouse.sys``vboxguest.sys`) reveals the VM. Hardware
 Fingerprinting examines the CPU vendor string, number of reported cores, and available memory
-Against expected values. Malware may also check for artifacts of VM snapshot tools, debugger
+against expected values. Malware may also check for artifacts of VM snapshot tools, debugger
 Breakpoints, or monitoring drivers.
 
 **Anti-sandbox** techniques detect automated analysis environments. Sandbox evasion includes
@@ -12221,7 +12221,7 @@ Application like `sethc.exe` or `utilman.exe`.
 
 **Scheduled Tasks** provide persistence through `schtasks.exe` or the Task Scheduler COM API.
 Malware creates a task that triggers on user logon, system startup, or at regular intervals. Tasks
-Can be configured to run with SYSTEM privileges regardless of which user is logged in, and the task
+can be configured to run with SYSTEM privileges regardless of which user is logged in, and the task
 Definition is stored in an XML file at `%SystemRoot%\System32\Tasks\`.
 
 **Windows Services** allow malware to run as a background process with configurable privileges. The
@@ -12235,14 +12235,14 @@ Executable path is stored in the registry).
 Loads. If an application specifies a DLL by name without a full path, Windows searches the
 Application's directory first. By placing a malicious DLL with the same name as a missing or
 Delayed-loaded dependency in the application's directory, the malware's DLL is loaded instead. This
-Is particularly effective when the application runs with elevated privileges, as the malicious DLL
+is particularly effective when the application runs with elevated privileges, as the malicious DLL
 Inherits those privileges.
 
 **WMI Event Subscriptions** provide a fileless persistence mechanism. Malware registers an event
 Consumer (a script or executable to run) and an event filter (a WQL query that triggers the
 Consumer). The subscription is stored in the WMI repository and survives reboots. WMI persistence is
 Difficult to detect because no files are modified on disk and the WMI repository is not monitored by
-Most file integrity checking tools.
+most file integrity checking tools.
 
 ### Lateral Movement
 
@@ -12262,13 +12262,13 @@ And is rarely monitored by traditional security tools.
 
 **PSExec** is a Sysinternals tool that copies a service executable to the remote system's admin
 Share and creates a service to execute it. Attackers use PSExec or reimplementations in frameworks
-Like Metasploit and CrackMapExec to run arbitrary code on remote systems. Detection involves
+like Metasploit and CrackMapExec to run arbitrary code on remote systems. Detection involves
 Monitoring for service creation events (Event ID 7045) and admin share access.
 
 **RDP (Remote Desktop Protocol)** abuse involves brute-forcing or credential-stuffing RDP access,
 Then using the remote desktop session to execute commands manually or via scripts. RDP tunneling
-Through tools like `ngrok` or reverse SSH tunnels allows the attacker to bypass network segmentation
-And firewall rules that block inbound RDP.
+through tools like `ngrok` or reverse SSH tunnels allows the attacker to bypass network segmentation
+and firewall rules that block inbound RDP.
 
 ### Command and Control Infrastructure
 
@@ -12303,7 +12303,7 @@ Difficult because the actual server's IP is never exposed.
 
 A typical DGA operates by seeding a pseudo-random number generator with a configurable value (date,
 Keyword, or a numeric constant extracted from the binary). The algorithm then generates domain names
-By iterating the PRNG to produce character sequences of a specified length ( 8-16 Characters),
+by iterating the PRNG to produce character sequences of a specified length ( 8-16 Characters),
 appending a top-level domain. For example, a DGA might use a linear congruential Generator with
 parameters derived from the current date to produce a daily set of 1000 candidate Domains. The
 operator pre-registers one or a few of these domains. Since the domain changes daily And the seed
@@ -12321,9 +12321,9 @@ algorithm from the malware binary to predict future domains.
 Malicious code, and resumes execution. The steps are: `CreateProcess` with `CREATE_SUSPENDED` to
 Launch a legitimate process (e.g., svchost.exe); `NtUnmapViewOfSection` to free the original code
 Section; `VirtualAllocEx` to allocate memory in the target process; `WriteProcessMemory` to write
-The malicious payload; `SetThreadContext` to modify the `RIP` register of the suspended thread to
+the malicious payload; `SetThreadContext` to modify the `RIP` register of the suspended thread to
 Point to the injected code; and `ResumeThread` to begin execution. The process appears legitimate in
-The process list (correct name, parent process, and command line) but runs arbitrary code.
+the process list (correct name, parent process, and command line) but runs arbitrary code.
 
 **DLL Injection** forces a target process to load a malicious DLL. The classic method uses
 `VirtualAllocEx` to allocate memory in the target process, `WriteProcessMemory` to write the DLL
@@ -12334,7 +12334,7 @@ Transactions to create a process from a modified file without writing to disk.
 
 **Reflective DLL Loading** enables a DLL to load itself into a process's address space without using
 The standard Windows loader (`LoadLibrary`). The technique involves parsing the PE header of the DLL
-In memory, allocating memory for each section, resolving import dependencies by walking the PEB's
+in memory, allocating memory for each section, resolving import dependencies by walking the PEB's
 Loaded module list, processing relocations, and calling the DLL's entry point (`DllMain`). This
 Avoids API hooks on `LoadLibrary` and `GetProcAddress` and does not create entries in the loader's
 Module list, making the loaded DLL invisible to tools that enumerate loaded modules.
@@ -12367,15 +12367,15 @@ Execution begins), the `ImageBase` (preferred load address), and the `DataDirect
 Table, export table, resource table, etc.). The Section Headers define the memory layout: `.text`
 For code, `.rdata` for read-only data, `.data` for writable data, `.rsrc` for resources. Analyzing
 Section entropy, sizes, and characteristics (executable, readable, writable flags) reveals packing
-And anomalous structures.
+and anomalous structures.
 
 ### Strings Analysis
 
 Extracting human-readable strings from the binary reveals URLs, IP addresses, file paths, error
 Messages, registry keys, mutex names, and embedded credentials. The `strings` utility extracts ASCII
 Strings of minimum length 4 by default; the FLOSS tool additionally decodes obfuscated strings found
-In stack-based string references, which are common in malware that constructs strings on the stack
-At runtime to avoid static detection. Strings analysis is quick and often yields immediate
+in stack-based string references, which are common in malware that constructs strings on the stack
+at runtime to avoid static detection. Strings analysis is quick and often yields immediate
 Intelligence about the malware's functionality and targets.
 
 ### Import Table Analysis
@@ -12400,7 +12400,7 @@ Import analysis also identifies the specific libraries referenced. A binary that
 `kernel32.dll` and `ntdll.dll` is suspiciously minimal, suggesting the imports are resolved
 Dynamically via `GetProcAddress` or `LdrGetProcedureAddress` to evade static import analysis.
 Delay-loaded imports (specified in the PE optional header's DataDirectory index 13) are resolved
-Only when the imported function is first called, which may never happen in a sandbox environment.
+only when the imported function is first called, which may never happen in a sandbox environment.
 
 ### Disassembly
 
@@ -12424,7 +12424,7 @@ accurate control flow graph.
 
 **IDA Pro** (Hex-Rays) is the industry-standard commercial disassembler and decompiler. It supports
 Over 100 processor architectures and file formats, provides interactive disassembly with graph views
-Of control flow, and offers the Hex-Rays decompiler plugin that produces C-like pseudocode from
+of control flow, and offers the Hex-Rays decompiler plugin that produces C-like pseudocode from
 Assembly. IDAPython enables scripting and plugin development. Its cross-reference analysis (xrefs)
 Is among the most comprehensive, tracking data and code references across the entire binary.
 
@@ -12432,13 +12432,13 @@ Is among the most comprehensive, tracking data and code references across the en
 Disassembler, and scripting support (Java, Python via Jython, and a C-based scripting API). Ghidra
 Supports collaborative reverse engineering through a server-based project model. Its decompiler
 Output quality is comparable to Hex-Rays for most binaries, and its extensibility through plugins
-And scripts makes it a powerful alternative to IDA Pro.
+and scripts makes it a powerful alternative to IDA Pro.
 
 **radare2** is an open-source command-line framework for reverse engineering. It provides
 Disassembly, debugging, analysis, and scripting capabilities. Its command-line interface is
 Efficient for batch processing and pipeline integration. R2ghidra integrates Ghidra's decompiler
-Into the radare2 workflow. Radare2 is particularly useful for automated analysis and integration
-Into malware analysis pipelines.
+into the radare2 workflow. Radare2 is particularly useful for automated analysis and integration
+into malware analysis pipelines.
 
 **Binary Ninja** is a commercial reverse engineering platform with a modern API-driven architecture.
 Its intermediate language (BNIL) enables analysis plugins that operate independently of the target
@@ -12483,7 +12483,7 @@ Locations. File system changes are monitored through Windows API hooks (on `Crea
 **Registry monitoring** captures modifications to the Windows registry, including new keys and
 Values, modifications to existing values, and key deletions. Registry changes reveal persistence
 Mechanisms, configuration modifications, and system settings manipulation. Monitoring is performed
-Through API hooks on `RegSetValueEx``RegCreateKeyEx``RegDeleteValue`And related functions.
+through API hooks on `RegSetValueEx``RegCreateKeyEx``RegDeleteValue`And related functions.
 
 **Process monitoring** tracks process creation and termination, DLL loading, thread creation, and
 Memory allocation. Process relationships (parent-child) reveal the malware's execution chain.
@@ -12506,7 +12506,7 @@ Python, supports analysis of memory dumps from Windows, Linux, and macOS systems
 Include `windows.pslist` (listing processes), `windows.psscan` (scanning for terminated or hidden
 Processes), `windows.dlllist` (listing loaded DLLs per process), `windows.malfind` (detecting
 Injected code by finding memory regions with `PAGE_EXECUTE_READWRITE` protection that are not backed
-By a file on disk), `windows.dumpfiles` (extracting files from memory), and `windows.hivescan`
+by a file on disk), `windows.dumpfiles` (extracting files from memory), and `windows.hivescan`
 (recovering registry hives).
 
 **Process Memory Dumping** extracts the complete memory space of a specific process, enabling
@@ -12547,8 +12547,8 @@ Data transfers to external IP addresses.
 
 **DNS Query Analysis** examines DNS requests for indicators of malicious activity. DGA-generated
 Domains exhibit high character entropy and are queried in bulk. DNS tunneling produces high volumes
-Of queries with encoded data in subdomain labels. Fast-flux networks produce frequent queries for
-The same domain returning different IP addresses. DNS monitoring is often the first indicator of C2
+of queries with encoded data in subdomain labels. Fast-flux networks produce frequent queries for
+the same domain returning different IP addresses. DNS monitoring is often the first indicator of C2
 Communication, as malware resolves the C2 domain before establishing a connection.
 
 **HTTP Traffic Analysis** examines request and response bodies, headers, and patterns. Malware C2
@@ -12581,15 +12581,15 @@ Mode supports array access, structure field access, and stack variable access.
 
 Calling conventions define how function arguments are passed, how the stack is managed, and who is
 Responsible for cleanup. Understanding these is essential for reconstructing function prototypes
-From disassembly.
+from disassembly.
 
 **cdecl** (used in 32-bit C code): arguments are pushed right-to-left onto the stack; the caller
 Cleans the stack after the call (`add esp, N`). Variadic functions (like `printf`) require cdecl
-Because only the caller knows how many arguments were passed.
+because only the caller knows how many arguments were passed.
 
 **stdcall** (used in Win32 API): arguments are pushed right-to-left; the callee cleans the stack
 (`ret N`). This reduces code size slightly compared to cdecl because the cleanup instruction appears
-Once in the callee rather than at every call site.
+once in the callee rather than at every call site.
 
 **Microsoft x64 Calling Convention** (used in 64-bit Windows): the first four arguments are passed
 In `RCX``RDX``R8``R9` (for integer and pointer types); additional arguments are pushed onto The
@@ -12623,7 +12623,7 @@ Without storing the result. The `test` instruction performs a bitwise AND and se
 Conditional jumps follow, using the flag state: `je`/`jz` (jump if equal / zero flag set),
 `jne`/`jnz` (jump if not equal / zero flag clear), `jg`/`jnle` (jump if greater, signed),
 `jl`/`jnge` (jump if less, signed), `ja`/`jnbe` (jump if above, unsigned), `jb`/`jnae` (jump if
-Below, unsigned). An if-else structure compiles to
+below, unsigned). An if-else structure compiles to
 `cmp; jcc false_branch; ... true_branch ...; jmp end; false_branch: ...; end:`.
 
 **Loops**: Counted loops use `ecx`/`rcx` as a counter with `loop` (decrement and jump if not zero).
@@ -12657,14 +12657,14 @@ Which contains the 256-byte substitution box beginning with bytes
 `0x63, 0x7c, 0x77, 0x7b, 0xf2, 0x6b, 0x6f, 0xc5, 0x30, 0x01, 0x67, 0x2b, 0xfe, 0xd7, 0xab, 0x76`.
 The inverse S-box is also commonly present. AES operations include SubBytes (S-box lookup),
 ShiftRows (byte rotation), MixColumns (Galois field multiplication in GF(2^8)), and AddRoundKey (XOR
-With round key). AES-NI instructions (`aesenc``aesdec``aeskeygenassist`) indicate
+with round key). AES-NI instructions (`aesenc``aesdec``aeskeygenassist`) indicate
 Hardware-accelerated AES, which is common in modern ransomware.
 
 **RC4** implementations are identifiable by the Key Scheduling Algorithm (KSA), which initializes a
 256-byte state array, and the Pseudo-Random Generation Algorithm (PRGA), which produces the
 Keystream. The state array initialization loop runs 256 iterations, and the swap operation
 `swap(S[i], S[j])` is a distinctive pattern. RC4 is common in older malware due to its simplicity
-And small code footprint.
+and small code footprint.
 
 **RSA** implementations are identifiable by modular exponentiation routines using large integer
 Arithmetic (multi-precision multiplication and division). Key indicators include large constant
@@ -12677,7 +12677,7 @@ Single key byte to XOR each byte of the plaintext. Detection involves frequency 
 Common byte in the ciphertext, when XORed with the expected most common plaintext byte, reveals the
 Key). Multi-byte XOR uses a repeating key. Identifying XOR loops in assembly is straightforward:
 Look for a loop body containing an `xor` instruction operating on array elements with a single-byte
-Or multi-byte key.
+or multi-byte key.
 
 ## Defense and Mitigation
 
@@ -12701,7 +12701,7 @@ Initiate a forensic investigation.
 
 EDR solutions such as CrowdStrike Falcon, Microsoft Defender for Endpoint, Carbon Black, and
 SentinelOne provide capabilities including exploit prevention (blocking known exploit techniques
-Like heap spraying and return-oriented programming), behavioral detection (identifying sequences of
+like heap spraying and return-oriented programming), behavioral detection (identifying sequences of
 Actions that constitute an attack chain), fileless attack detection (monitoring for PowerShell
 Scripts, WMI event subscriptions, and reflective DLL loading), and automated threat hunting
 (proactively searching endpoints for indicators of compromise associated with known threat actors).
@@ -12718,7 +12718,7 @@ Updates to be distributed to every endpoint.
 YARA is a pattern-matching tool used for identifying and classifying malware based on textual or
 Binary patterns. YARA rules consist of metadata (author, description, date, reference), a set of
 Strings (hex patterns, regular expressions, or plain text), and a boolean condition that determines
-When the rule matches.
+when the rule matches.
 
 ```
 rule Suspicious_Packed_Binary {
@@ -12738,7 +12738,7 @@ Email attachments. In forensic investigations, YARA searches disk images and mem
 Indicators of compromise associated with specific threat actors or campaigns.
 
 Advanced YARA techniques include using modules for PE file analysis (the `pe` module provides access
-To imports, exports, sections, and resources), the `math` module for numerical comparisons, and the
+to imports, exports, sections, and resources), the `math` module for numerical comparisons, and the
 `hash` module for matching cryptographic hashes. Regular expressions with wildcard matching enable
 Detection of obfuscated strings and encoded data. Rules can be organized into hierarchical
 Namespaces and shared across organizations through threat intelligence platforms.
@@ -12770,7 +12770,7 @@ Infection. IOCs are the output of malware analysis and the input to detection an
 **Host-based IOCs** include file hashes (MD5, SHA-1, SHA-256) of malware binaries and dropped
 Payloads; file names and paths used by the malware; registry keys and values created or modified for
 Persistence or configuration; scheduled tasks and services created by the malware; mutex names used
-For single-instance enforcement; and memory artifacts such as injected code patterns or suspicious
+for single-instance enforcement; and memory artifacts such as injected code patterns or suspicious
 RWX memory regions.
 
 **Network-based IOCs** include IP addresses of C2 servers; domain names including DGA-generated
@@ -12802,7 +12802,7 @@ Analysis, containment, eradication, recovery, and post-incident activity (lesson
 Responsibilities, deploying monitoring and detection tools, and developing playbooks for common
 Incident types (ransomware, data breach, business email compromise). The team must have access to
 Forensic tooling (disk imaging, memory acquisition, log analysis), communication channels (secure
-Out-of-band communication for coordination during active incidents), and legal and compliance
+out-of-band communication for coordination during active incidents), and legal and compliance
 Guidance for evidence handling and breach notification requirements.
 
 **Detection and Analysis** begins with alert triage from security monitoring tools (SIEM, EDR, IDS).
@@ -12815,14 +12815,14 @@ Intelligence to identify known threat actors and their typical TTPs.
 **Containment** aims to limit the damage and prevent further spread. Short-term containment isolates
 Affected systems from the network (EDR network isolation, firewall rules, VLAN segmentation) while
 Preserving evidence. Long-term containment implements temporary fixes that allow business operations
-To continue while the root cause is addressed. Containment strategies must balance the urgency of
+to continue while the root cause is addressed. Containment strategies must balance the urgency of
 Stopping the attack against the need to preserve forensic evidence and maintain business continuity.
 
 **Eradication** removes the threat from the environment. This includes removing malware from
 Affected systems, deleting unauthorized accounts, revoking compromised credentials, patching
 Exploited vulnerabilities, and removing persistence mechanisms (registry keys, scheduled tasks,
 Services, WMI subscriptions). Eradication must be thorough; incomplete removal allows the attacker
-To regain access through remaining footholds.
+to regain access through remaining footholds.
 
 **Recovery** restores affected systems to normal operation. This includes restoring systems from
 Known-good backups (verified to be free of malware), rebuilding compromised systems from clean
@@ -12867,7 +12867,7 @@ Threat intelligence platforms aggregate data from multiple sources (commercial f
 Intelligence, information sharing communities such as ISACs, internal telemetry, and dark web
 Monitoring) and correlate it to produce actionable intelligence products. Effective intelligence
 Programs close the feedback loop: operational outcomes (detected incidents, blocked attacks) inform
-The relevance and accuracy of consumed intelligence, and gaps in coverage drive collection
+the relevance and accuracy of consumed intelligence, and gaps in coverage drive collection
 Requirements.
 
 <details>
@@ -12881,10 +12881,10 @@ Capabilities to the ATT&CK matrix reveals coverage gaps: techniques for which no
 Source, or monitoring mechanism exists. This gap analysis prioritizes detection engineering efforts.
 For example, if the matrix shows no coverage for T1055 (Process Injection), the team knows to
 Implement monitoring for VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread patterns. ATT&CK
-Also enables threat group profiling: each APT group is associated with a specific set of techniques,
+also enables threat group profiling: each APT group is associated with a specific set of techniques,
 Allowing defenders to prioritize detection of techniques most likely to be used by adversaries
 Targeting their industry or sector. The framework is continuously updated based on public reporting
-Of new adversary techniques, and defenders should regularly reassess their coverage against new and
+of new adversary techniques, and defenders should regularly reassess their coverage against new and
 Modified technique entries.
 
 </details>
@@ -12894,7 +12894,7 @@ Modified technique entries.
 **Application Whitelisting** permits only approved executables to run on a system. Windows AppLocker
 And WDAC (Windows Defender Application Control) enforce policies based on file attributes (path,
 Publisher signature, hash). Application whitelisting is highly effective against unknown malware
-Because any unapproved binary is blocked regardless of its behavior, but it requires careful
+because any unapproved binary is blocked regardless of its behavior, but it requires careful
 Management of the allow list and can interfere with legitimate software updates.
 
 **Exploit Mitigation** technologies increase the difficulty of successfully exploiting
@@ -12912,11 +12912,11 @@ With controlled communication paths. Micro-segmentation extends this principle t
 Workloads, enforcing least-privilege network access at the VM or container level. Effective
 Segmentation prevents lateral movement by ensuring that a compromised host in one segment cannot
 Reach hosts in other segments except through controlled choke points where monitoring and inspection
-Are applied.
+are applied.
 
 **Privilege Restriction** follows the principle of least privilege. User accounts should not have
 Administrative rights for daily operations. Local Administrator Password Solution (LAPS) randomizes
-And rotates the local administrator password on each endpoint, preventing pass-the-hash lateral
+and rotates the local administrator password on each endpoint, preventing pass-the-hash lateral
 Movement using a common local admin credential. Just-In-Time (JIT) privileged access management
 Grants administrative rights only when needed and only for the duration of the approved task, with
 Full logging of all privileged actions.
@@ -12926,7 +12926,7 @@ Message Authentication, Reporting, and Conformance (DMARC) prevents email spoofi
 Sender's domain with the domain in the email's From header. Sender Policy Framework (SPF) specifies
 Which mail servers are authorized to send email for a domain. DomainKeys Identified Mail (DKIM) adds
 A cryptographic signature to outbound email. Email filtering sandboxes analyze attachments and URLs
-In incoming messages, blocking malicious content before it reaches the user's inbox. Security
+in incoming messages, blocking malicious content before it reaches the user's inbox. Security
 Awareness training reduces the effectiveness of phishing attacks by teaching users to recognize
 Suspicious emails, verify sender identity, and report potential threats.
 
@@ -13796,7 +13796,7 @@ URL: https://security.wyattau.com/intro/
 ## The Threat Landscape
 
 Information security is not a feature you bolt on after the fact. It is a property of a system that
-Must be designed in from the start, validated continuously, and treated as a first-class engineering
+must be designed in from the start, validated continuously, and treated as a first-class engineering
 Concern alongside reliability, performance, and correctness.
 
 The modern threat landscape is defined by scale and sophistication. Nation-state actors operate with
@@ -13838,9 +13838,9 @@ Availability (system lockout) in a single operation.
 ## Defense in Depth
 
 No single security control is sufficient. Defense in depth layers multiple independent controls so
-That the failure of any one mechanism does not result in total compromise. A web application
+that the failure of any one mechanism does not result in total compromise. A web application
 Protected by WAF, input validation, parameterized queries, and least-privilege database credentials
-Is resilient in ways that an application relying on any single one of those controls is not.
+is resilient in ways that an application relying on any single one of those controls is not.
 
 The key insight is **independence**, controls must fail independently. Two firewalls from the same
 Vendor with the same rule set are not two independent controls.
@@ -13852,7 +13852,7 @@ Drift, assume attackers have more information than you think, and assume that wh
 Explicitly deny is permitted.
 
 This is adversarial thinking, not paranoia, but disciplined skepticism. The question is not "does
-This work?" but "what happens when this is used in ways I did not intend?"
+this work?" but "what happens when this is used in ways I did not intend?"
 
 ## Scope of This Section
 
@@ -13873,7 +13873,7 @@ This section covers the core security competencies expected of a systems enginee
 
 :::tip
 Administration. The focus is on understanding how security controls work at the implementation level
-And why they fail when they do.
+and why they fail when they do.
 
 ## Summary
 
@@ -15009,7 +15009,7 @@ Mandatory elements:
 
 :::note
 Sufficient. The authorization should specify scope, duration, and rules of engagement. Testing
-Without explicit written authorization is illegal in most jurisdictions regardless of intent.
+without explicit written authorization is illegal in most jurisdictions regardless of intent.
 
 ### Legal Considerations
 
@@ -15040,7 +15040,7 @@ Target has no way of knowing it is being observed.
 #### OSINT (Open Source Intelligence)
 
 Open source intelligence leverages publicly available information to build a comprehensive picture
-Of the target.
+of the target.
 
 | Source            | Information Gathered                                      | Tools                             |
 | ----------------- | --------------------------------------------------------- | --------------------------------- |
@@ -15156,7 +15156,7 @@ Tool, including Shodan queries against specific organizations.
 ### Active Reconnaissance
 
 Active reconnaissance involves direct interaction with the target. The target can detect and log
-This activity.
+this activity.
 
 #### Port Scanning with Nmap
 
@@ -15445,7 +15445,7 @@ XSS payload categories:
 #### Cross-Site Request Forgery (CSRF)
 
 CSRF tricks an authenticated user into executing unwanted actions on a web application where they
-Are already authenticated.
+are already authenticated.
 
 ```html
 <!-- Attacker's page that submits a form to the target -->
@@ -15610,7 +15610,7 @@ john --show hash.txt
 
 :::caution
 Lockout from brute force testing can deny service to legitimate users. Always test against
-Non-production accounts and verify lockout thresholds with the client.
+non-production accounts and verify lockout thresholds with the client.
 
 ### Privilege Escalation
 
@@ -15740,7 +15740,7 @@ bloodhound-python -d domain.local -u user -p password -ns 10.0.0.1 -c all
 ### Persistence Mechanisms
 
 Persistence ensures the attacker maintains access even if the initial vulnerability is patched or
-The system is rebooted.
+the system is rebooted.
 
 **Linux persistence:**
 
@@ -15775,7 +15775,7 @@ The system is rebooted.
 ### Lateral Movement
 
 Lateral movement is the process of moving from one compromised system to additional systems within
-The network.
+the network.
 
 | Technique         | Protocol/Tool     | Description                                         |
 | ----------------- | ----------------- | --------------------------------------------------- |
@@ -15958,7 +15958,7 @@ Baiting examples:
 ### Tailgating
 
 Tailgating (or piggybacking) is physically following an authorized person through a secured entrance
-Without using credentials.
+without using credentials.
 
 ```text
 Tailgating techniques:
@@ -16171,7 +16171,7 @@ Tools:
 ### Provenance Verification (SLSA)
 
 The Supply-chain Levels for Software Artifacts (SLSA) framework defines a series of security levels
-That describe the integrity guarantees of a software supply chain.
+that describe the integrity guarantees of a software supply chain.
 
 | Level | Name          | Requirements                                                    |
 | ----- | ------------- | --------------------------------------------------------------- |
@@ -16276,7 +16276,7 @@ Key lessons:
 
 :::note
 Noticed a 500ms latency in SSH connections and investigated. Without that observation, the backdoor
-Could have reached stable releases of major Linux distributions, compromising SSH authentication
+could have reached stable releases of major Linux distributions, compromising SSH authentication
 Worldwide. This underscores the importance of reproducible builds and independent verification of
 Build artifacts.
 
@@ -16524,7 +16524,7 @@ UTK (UEFI Tool Kit) for detailed UEFI analysis
 
 A professional penetration test report must serve multiple audiences: executives who need risk
 Context, managers who need remediation priorities, and engineers who need technical details to fix
-The issues.
+the issues.
 
 ```text
 Report structure:
@@ -16734,7 +16734,7 @@ Examples of going out of scope:
 
 :::caution
 Immediately. Document what you observed and report it to the client. Do not attempt to exploit the
-Out-of-scope finding, even if it seems trivial.
+out-of-scope finding, even if it seems trivial.
 
 ### Denial of Service During Testing
 
@@ -16776,7 +16776,7 @@ Rules:
 ### Not Documenting Findings
 
 A penetration test is only as valuable as its report. Finding a critical vulnerability but failing
-To document it properly means the vulnerability will not be fixed.
+to document it properly means the vulnerability will not be fixed.
 
 ```text
 Documentation best practices:
@@ -16793,7 +16793,7 @@ Documentation best practices:
 ### Testing Without Authorization
 
 Testing without authorization is the single most dangerous mistake in penetration testing. There is
-No technical distinction between a penetration test and an actual attack from a legal perspective.
+no technical distinction between a penetration test and an actual attack from a legal perspective.
 
 ```text
 Before testing, ensure you have:
@@ -16816,7 +16816,7 @@ Red flags that suggest you may not have proper authorization:
 
 :::caution
 Better to ask a question than to face legal consequences. The penetration testing community depends
-On trust -- a single unauthorized test can damage the entire profession's reputation and lead to
+on trust -- a single unauthorized test can damage the entire profession's reputation and lead to
 Stricter regulations.
 
 ```mermaid

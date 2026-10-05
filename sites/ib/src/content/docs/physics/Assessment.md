@@ -17,8 +17,8 @@ description: "IB Physics (first assessment 2025) is examined through a combinati
 ## Assessment Overview
 
 IB Physics (first assessment 2025) is examined through a combination of external written papers and
-An Internal Assessment (IA). The external component accounts for 80% of the total mark at both SL
-And HL, while the IA accounts for the remaining 20%.
+an Internal Assessment (IA). The external component accounts for 80% of the total mark at both SL
+and HL, while the IA accounts for the remaining 20%.
 
 | Component | SL Weighting | HL Weighting | Duration (SL) | Duration (HL) | Marks (SL) | Marks (HL) |
 | :-------- | :----------- | :----------- | :------------ | :------------ | :--------- | :--------- |

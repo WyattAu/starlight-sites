@@ -337,12 +337,12 @@ A_{r_k}]$ where each subrange is reduced
 Independently and the partial results are combined, the final result equals `accumulate`'s
 Left-to-right evaluation. This is possible for all partitionings only if `op` is associative
 (re-grouping does not change the result) and commutative (re-ordering within or across subranges
-Does not change the result).
+does not change the result).
 
 ($\Leftarrow$) If `op` is associative and commutative, then any binary tree of `op` applications
-Over the multiset $\{init, a_1, \ldots, a_n\}$ produces the same result. Since `reduce` may apply
+over the multiset $\{init, a_1, \ldots, a_n\}$ produces the same result. Since `reduce` may apply
 `op` in any tree structure and `accumulate` applies it in one specific left-associative tree, and
-Both operate on the same multiset, they must produce the same result. QED.
+both operate on the same multiset, they must produce the same result. QED.
 
 This proof shows why floating-point addition is problematic: IEEE 754 addition is neither
 Associative nor commutative (due to rounding), so `reduce` may produce a different bit Pattern than
@@ -392,7 +392,7 @@ int main() {
 
 The restriction on `par_unseq` is that the element access function must be **vectorization-safe**:
 It must not synchronize with other invocations (no mutexes, no atomics, no blocking calls). This is
-Because SIMD lanes within a single thread process multiple elements "simultaneously" --- a mutex
+because SIMD lanes within a single thread process multiple elements "simultaneously" --- a mutex
 Acquire in one lane would deadlock the others.
 
 ### Interaction with Standard Allocators
@@ -684,12 +684,12 @@ Fewer than ~10,000 elements.
 
 **5. Exception safety in parallel algorithms.** If the element access function throws, the
 Implementation calls `std::terminate` [N4950 §25.5.1]. There is no mechanism to catch exceptions
-From individual elements and continue. If your function may throw, catch exceptions inside the
+from individual elements and continue. If your function may throw, catch exceptions inside the
 Function and handle them gracefully.
 
 **6. Deadlock with `par_unseq` and shared state.** The `par_unseq` policy may interleave element
 Access function invocations from the same thread via SIMD. If the function accesses shared state
-Without proper atomics, the interleaving causes data races even within a single thread. This is
+without proper atomics, the interleaving causes data races even within a single thread. This is
 Unique to `par_unseq` and does not occur with `par` (where each thread's invocations are
 Sequential).
 

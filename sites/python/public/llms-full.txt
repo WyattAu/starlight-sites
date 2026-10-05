@@ -42,7 +42,7 @@ def classify_temperature(temp_celsius: float) -> str:
 
 The condition expression can be any Python object. Python evaluates its truthiness using the
 `__bool__()` protocol described in the previous chapter. There is no requirement that the condition
-Be a boolean -- this is consistent with Python's broader philosophy of duck typing.
+be a boolean -- this is consistent with Python's broader philosophy of duck typing.
 
 ```python
 ## All of these are valid conditional expressions
@@ -105,7 +105,7 @@ else:
 
 Note the ordering: the value comes first, then the condition. This differs from C's
 `condition ? value_if_true : value_if_false`. The rationale is that in natural English, you state
-The assertion first ("it is an adult") and then qualify it ("if age >= 18, otherwise it is a
+the assertion first ("it is an adult") and then qualify it ("if age >= 18, otherwise it is a
 Minor").
 
 Nested ternary expressions are technically possible but should be avoided:
@@ -166,7 +166,7 @@ def http_status_text(code: int) -> str:
 ```
 
 The `_` is the wildcard pattern that matches anything. It is a common convention to place it last as
-The default case.
+the default case.
 
 ### Capture Patterns and Guards
 
@@ -450,7 +450,7 @@ def converge_pi(target_error: float = 1e-5) -> float:
 
 :::caution
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
-There is a reachable termination condition.
+there is a reachable termination condition.
 
 ### `break``continue`And Loop `else`
 
@@ -499,7 +499,7 @@ def binary_search(sorted_list: list[int], target: int) -> int | None:
 
 The loop `else` clause is one of Python's most misunderstood features. It is not analogous to the
 `else` in `if/else`. It executes when the loop condition becomes false (for `while`) or the iterable
-Is exhausted (for `for`), but not when the loop is exited via `break`. The mental model is: the
+is exhausted (for `for`), but not when the loop is exited via `break`. The mental model is: the
 `else` clause is the "no break" clause.
 
 ```mermaid
@@ -611,8 +611,8 @@ print(list(result))  # [1, 5, 9, 13, ...]
 ### Comprehension Scope
 
 Comprehensions have their own local scope in Python 3. Variables assigned inside a comprehension do
-Not leak into the enclosing scope (this was a change from Python 2, where list comprehensions leaked
-The loop variable).
+not leak into the enclosing scope (this was a change from Python 2, where list comprehensions leaked
+the loop variable).
 
 ```python
 # Python 3: comprehension has its own scope
@@ -667,7 +667,7 @@ Guiding principle: use it when it eliminates a clear redundancy, not just to sav
 
 Python's exception handling mechanism is the primary error-handling idiom. Unlike return codes or
 Error objects, exceptions decouple error detection from error handling -- the function that detects
-The error does not need to know how to handle it.
+the error does not need to know how to handle it.
 
 ```python
 def read_config(path: str) -> dict:
@@ -770,7 +770,7 @@ class ValidationError(AppError):
 ```
 
 Custom exceptions should inherit from `Exception` (not `BaseException`). Group related exceptions
-Under a common base class so callers can catch the entire category:
+under a common base class so callers can catch the entire category:
 
 ```python
 try:
@@ -1079,11 +1079,11 @@ import Citations from '@components/Citations.astro'
 ## Functions as First-Class Objects
 
 In Python, **"first-class"** means that functions are values on equal footing with every other kind
-Of value -- integers, strings, lists, class instances. There is no separate "function type
+of value -- integers, strings, lists, class instances. There is no separate "function type
 Namespace" or restriction on where a function reference can appear. A function can be assigned to a
 Variable, stored in a data structure, passed as an argument, and returned from another function. The
 Language makes zero distinction between a function object and any other object with respect to what
-You can do with its reference.
+you can do with its reference.
 
 This is not true in all languages. In C, function pointers exist but are a distinct type from data
 Pointers. In Java (pre-lambdas), you needed verbose anonymous class wrappers. In Go, you can pass
@@ -1093,7 +1093,7 @@ Distinctions.
 ### Functions Are Objects
 
 Every `def` statement creates a function object -- an instance of `types.FunctionType` -- and binds
-It to the name on the left side of the statement. The name is just a label in the namespace; the
+it to the name on the left side of the statement. The name is just a label in the namespace; the
 Function is the object itself.
 
 ```python
@@ -1119,7 +1119,7 @@ greet.__code__
 The function object carries its own metadata -- name, docstring, annotations, default values,
 Closure cells, the compiled code object, and the module it was defined in. All of these are writable
 Attributes on the function object. This is why `functools.wraps` exists: to copy these attributes
-From a wrapped function to its wrapper.
+from a wrapped function to its wrapper.
 
 ### Assigning to Variables
 
@@ -1329,14 +1329,14 @@ for f in funcs:
 ```
 
 The default argument `i=i` is evaluated at lambda-definition time, capturing the current value. This
-Is covered further in the closures section.
+is covered further in the closures section.
 
 ### Why Guido Wanted to Remove Lambda
 
 Guido van Rossum has stated that he wanted to remove `lambda` from Python 3. His reasoning: `lambda`
 Is a source of obfuscated code. Programmers use it to cram multi-line logic into a single
 Expression, producing unreadable one-liners. Every legitimate use of `lambda` can be replaced by
-Either a named `def` function or a list comprehension. The Python community pushed back, and
+either a named `def` function or a list comprehension. The Python community pushed back, and
 `lambda` survived, but the guidance remains: use it only for short, simple expressions where a named
 Function would be more ceremony than clarity.
 
@@ -1345,7 +1345,7 @@ Function would be more ceremony than clarity.
 ### What a Closure Is
 
 A closure is a function object that retains access to variables from its enclosing scope, **even
-After that scope has finished executing**. The function carries with it a snapshot of the
+after that scope has finished executing**. The function carries with it a snapshot of the
 Environment in which it was defined -- not a copy of the values, but a reference to the variables
 Themselves.
 
@@ -1458,8 +1458,8 @@ print(counter())  # 3
 ```
 
 Without `nonlocal count`The line `count += 1` would raise `UnboundLocalError` because Python sees
-The assignment and treats `count` as local throughout the entire function body -- including the read
-On the right side of `+=`.
+the assignment and treats `count` as local throughout the entire function body -- including the read
+on the right side of `+=`.
 
 `nonlocal` searches the enclosing function scopes (not the module scope; for that, use `global`) and
 Binds the name to the variable found there. The cell mechanism allows the inner function to both
@@ -1487,7 +1487,7 @@ print([f(2) for f in funcs])  # [8, 8, 8, 8, 8] -- all use i=4
 
 **Why this happens:** All five `multiplier` functions reference the same variable `i` in
 `create_multipliers`'s local scope. When the loop finishes, `i` is `4`. The closures do not snapshot
-The value of `i` at the time each `multiplier` is defined; they hold a reference to the variable
+the value of `i` at the time each `multiplier` is defined; they hold a reference to the variable
 Itself.
 
 **Fix 1 -- default argument binding:**
@@ -1550,8 +1550,8 @@ Dictionary's contents (adding to `state["total"]`) does not require `nonlocal` b
 `state` itself is never rebound -- only the contents of the object it references are modified.
 
 You can also use a list for the same purpose, but a single-element list (`state = [initial]`) is
-Less readable than a dictionary. An alternative is to use `nonlocal` with an integer, as shown in
-The counter example above, but this only works for types that support in-place mutation through `+=`
+less readable than a dictionary. An alternative is to use `nonlocal` with an integer, as shown in
+the counter example above, but this only works for types that support in-place mutation through `+=`
 (which, for `int`Actually rebinds the variable and therefore requires `nonlocal`).
 
 ## Decorators
@@ -1686,12 +1686,12 @@ Runs. Finally, the original `process` runs. The return value propagates back out
 
 The practical implication: if one decorator depends on the behavior of another (e.g., a logging
 Decorator that needs to see the timing information), the order matters. Put the decorator that
-Should run **first** at the **top** of the stack.
+should run **first** at the **top** of the stack.
 
 ## Decorator Factories
 
 A decorator factory is a function that **returns a decorator**. This adds a level of indirection
-That allows the decorator to accept configuration arguments. The result is three levels of nesting:
+that allows the decorator to accept configuration arguments. The result is three levels of nesting:
 Factory, decorator, wrapper.
 
 ```python
@@ -1824,7 +1824,7 @@ print(say_hello("Bob"))
 ```
 
 Note the use of `functools.update_wrapper(self, func)` instead of `@functools.wraps(func)`. Since
-The decorator is a class instance (not a function), you cannot use `@functools.wraps` on a method.
+the decorator is a class instance (not a function), you cannot use `@functools.wraps` on a method.
 `functools.update_wrapper` is the lower-level function that `wraps` delegates to -- it copies
 Metadata from `func` to `self`.
 
@@ -1888,8 +1888,8 @@ print(fibonacci.cache_info())
 ```
 
 `lru_cache` uses a hash table backed by a doubly-linked list (O(1) lookup and O(1) eviction of the
-Least-recently-used entry). The `maxsize=None` option makes the cache unbounded. The cache is
-Per-function-instance -- if you decorate a method, each instance gets its own cache (because the
+least-recently-used entry). The `maxsize=None` option makes the cache unbounded. The cache is
+per-function-instance -- if you decorate a method, each instance gets its own cache (because the
 Bound method is a different object for each instance).
 
 Manual implementation:
@@ -2020,7 +2020,7 @@ print(a is b)  # True
 
 **Note:** This is a toy example. In production, singleton enforcement through decorators has
 Limitations -- it does not prevent someone from calling `DatabaseConnection.__new__` directly, and
-It introduces global mutable state. Prefer module-level instances or dependency injection.
+it introduces global mutable state. Prefer module-level instances or dependency injection.
 
 ## Built-in Decorators
 
@@ -2340,7 +2340,7 @@ System), the wrapper's name will be `wrapper` instead of the intended name.
 
 The loop-variable gotcha is described in detail in the closures section above. To recap: closures
 Capture variables by reference, not by value. In a loop, all closures share the same variable, and
-All will see the final value. Fix it with default argument binding or a factory function.
+all will see the final value. Fix it with default argument binding or a factory function.
 
 ### Forgetting `functools.wraps`
 
@@ -2352,7 +2352,7 @@ production decorators.** There is no good reason to omit it.
 ### Decorator Order Matters
 
 Stacking decorators applies them bottom-up. The decorator closest to the `def` is applied first, and
-The outermost decorator's wrapper runs first on each call.
+the outermost decorator's wrapper runs first on each call.
 
 ```python
 @outer
@@ -2373,7 +2373,7 @@ Choose the order based on which behavior you want.
 ### Mutable Default Arguments in Decorators
 
 The classic mutable default argument bug (`def func(arg=[])`) is especially insidious in decorators
-Because the mutable default is hidden inside the decorator's closure:
+because the mutable default is hidden inside the decorator's closure:
 
 ```python
 def track_calls(func):
@@ -2400,7 +2400,7 @@ bar()  # Calls so far: ['foo', 'bar']  -- bar sees foo's calls
 
 The `calls` list is created once when `track_calls` is defined as a function. Every invocation of
 `track_calls(func)` creates a new wrapper, but all wrappers close over the same `calls` list because
-The list is defined in `track_calls`'s enclosing scope (the module scope), not in a per-decoration
+the list is defined in `track_calls`'s enclosing scope (the module scope), not in a per-decoration
 Scope.
 
 Wait -- actually, that specific example is wrong in a subtle way. The `calls = []` is inside the
@@ -2457,13 +2457,13 @@ def register(name):
 ```
 
 This is not necessarily a bug -- it is often the intended behavior (a global registry). But be aware
-That the state is global and shared.
+that the state is global and shared.
 
 ### Decorating Methods
 
 When you decorate a method, the wrapper function receives the instance (`self`) as the first
 Argument. This is handled automatically by `*args`But you need to be aware of it if the decorator
-Does anything with the arguments:
+does anything with the arguments:
 
 ```python
 def log_method_calls(func):
@@ -2492,7 +2492,7 @@ Case, you must be explicit about extracting `self` from `args[0]`.
 A more subtle issue: if you use a class-based decorator on a method, the `__call__` method does
 **not** receive `self` (the instance of the decorated class) in the same way. The descriptor
 Protocol complicates things. A class-based decorator that works on both functions and methods needs
-To return a function from `__call__`Not implement the call directly:
+to return a function from `__call__`Not implement the call directly:
 
 ```python
 class MethodAwareDecorator:
@@ -2512,7 +2512,7 @@ class MethodAwareDecorator:
 ```
 
 The `__get__` method makes the decorator a **descriptor**. When the decorated method is accessed on
-An instance (`instance.method`), Python calls `__get__(instance, type)`Which returns a partial
+an instance (`instance.method`), Python calls `__get__(instance, type)`Which returns a partial
 Function with the instance pre-bound. Without `__get__`The class-based decorator would not work
 Correctly on methods -- `self` would be missing from the argument list.
 
@@ -2614,9 +2614,9 @@ URL: https://python.wyattau.com/02-fundamentals/04-generators-and-iterators/
 ### The Two Methods
 
 Python's iteration mechanism is built on a two-method protocol defined by the data model. Any object
-That implements `__iter__` and `__next__` is an iterator. The CPython implementation checks for
-These methods via `PyIter_Check()` and `tp_iternext` slots -- the interpreter itself does not care
-Whether the object is a built-in type or a user-defined class, only that it satisfies the protocol.
+that implements `__iter__` and `__next__` is an iterator. The CPython implementation checks for
+these methods via `PyIter_Check()` and `tp_iternext` slots -- the interpreter itself does not care
+whether the object is a built-in type or a user-defined class, only that it satisfies the protocol.
 
 ```python
 class CountUp:
@@ -2702,7 +2702,7 @@ die_rolls = iter(lambda: random.randint(1, 6), 1)  # stops when a 1 is rolled
 
 The two-argument form is less well-known but genuinely useful for reading from file descriptors,
 Polling APIs, or any situation where you have a function that produces values until some condition
-Is met. The callable must take zero arguments.
+is met. The callable must take zero arguments.
 
 ```python
 import os
@@ -2756,7 +2756,7 @@ The reason `__iter__` on an iterator returns `self` is not arbitrary. The `for` 
 On the object to get an iterator. If the object is already an iterator, `iter()` should return it
 Unchanged so that iteration resumes from the current position rather than starting over. If
 `__iter__` on an iterator returned a _new_ iterator, the `for` loop would never make progress -- it
-Would get a fresh iterator on each iteration attempt.
+would get a fresh iterator on each iteration attempt.
 
 For iterables (non-iterators), `__iter__` must return a _new_ iterator each time so that multiple
 Independent loops over the same object work correctly:
@@ -2829,7 +2829,7 @@ Function.
 ### The StopIteration Contract
 
 `StopIteration` inherits directly from `Exception`Not `BaseException`. This means it can be caught
-By bare `except Exception:` clauses, which is a source of subtle bugs. PEP 479 (Python 3.7+)
+by bare `except Exception:` clauses, which is a source of subtle bugs. PEP 479 (Python 3.7+)
 Addresses the related issue of `StopIteration` leaking from generator internals -- now, if a
 Generator raises `StopIteration`It is automatically converted to `RuntimeError`.
 
@@ -2841,7 +2841,7 @@ def broken_generator():
 ```
 
 The lesson: never raise `StopIteration` manually in generator functions. Let the `return` statement
-Or function exit handle it.
+or function exit handle it.
 
 ### Iterator Exhaustion
 
@@ -2859,14 +2859,14 @@ There is no `reset()` method on iterators. This is by design -- iterators model 
 Sequence. If you need to iterate multiple times, either: (a) re-create the iterable (call `__iter__`
 Again on the factory), (b) materialize the values into a list/tuple, or (c) use `itertools.tee()` to
 Create independent copies (at the cost of memory proportional to the distance between the slowest
-And fastest consumer).
+and fastest consumer).
 
 ## Generator Functions
 
 ### The `yield` Keyword
 
 A generator function is any function that contains the `yield` keyword in its body. When called, it
-Does not execute the function body. Instead, it returns a **generator object** -- a specific type of
+does not execute the function body. Instead, it returns a **generator object** -- a specific type of
 Iterator that suspends and resumes execution.
 
 ```python
@@ -2908,7 +2908,7 @@ next(gen)
 The execution model is critical to understand. The generator function's body is compiled into a
 Frame object (a code execution frame, the same mechanism Python uses for function call stacks). When
 `next(gen)` is called, CPython resumes execution of the frame from where it last suspended, executes
-Until it hits the next `yield`Saves the frame state (local variables, instruction pointer, stack),
+until it hits the next `yield`Saves the frame state (local variables, instruction pointer, stack),
 And returns the yielded value. This is not threading or coroutines in the async sense -- it is
 Cooperative multitasking within a single thread, controlled entirely by explicit `next()` calls.
 
@@ -2974,7 +2974,7 @@ squares_gen = (x ** 2 for x in range(1_000_000))
 
 The generator expression compiles to a code object that is a first-class iterator. It supports
 `__iter__` (returning self) and `__next__` (producing the next value or raising `StopIteration`). It
-Does not support indexing, `len()`Or multiple passes.
+does not support indexing, `len()`Or multiple passes.
 
 ### When to Use Which
 
@@ -3210,8 +3210,8 @@ except StopIteration as e:
 ```
 
 The "priming" step is mandatory. When a generator is first created, execution begins at the top of
-The function body and runs until the first `yield`. At that point, the generator is suspended and
-The yielded value is returned. You cannot `send()` a non-`None` value until the generator has
+the function body and runs until the first `yield`. At that point, the generator is suspended and
+the yielded value is returned. You cannot `send()` a non-`None` value until the generator has
 Reached its first `yield` because there is no `yield` expression to receive the value. This is why
 `next(gen)` is equivalent to `gen.send(None)` -- both advance the generator to the first yield.
 
@@ -3285,7 +3285,7 @@ Resource management in generators.
 ### The `@generator` Decorator Pattern
 
 To avoid the priming boilerplate (calling `next()` before `send()`), a common pattern is a decorator
-That auto-primes the generator:
+that auto-primes the generator:
 
 ```python
 from functools import wraps
@@ -3326,7 +3326,7 @@ print(avg.send(30))  # 20.0
 
 The core advantage of generators is that they decouple the _description_ of a sequence from its
 _materialization_. You can define a sequence with infinite extent and only realize as many elements
-As needed:
+as needed:
 
 ```python
 def natural_numbers():
@@ -3367,7 +3367,7 @@ print(list(islice(primes(), 10)))            # [2, 3, 5, 7, 11, 13, 17, 19, 23, 
 The prime sieve above is an incremental version of the Sieve of Eratosthenes, sometimes called the
 "incremental sieve" or "O'Neill sieve." It maintains a dictionary of known composite numbers and
 Their generating primes, avoiding the memory cost of a full boolean sieve array. Its time complexity
-Is approximately $O(n \log \log n)$ for generating all primes up to $n$ Matching the classical Sieve,
+is approximately $O(n \log \log n)$ for generating all primes up to $n$ Matching the classical Sieve,
 but its constant factor is higher due to dictionary overhead.
 
 ### Pipeline Processing (ETL)
@@ -3417,7 +3417,7 @@ print(pipeline)
 ```
 
 This pipeline processes a multi-gigabyte log file using constant memory (plus the final dictionary
-Of distinct error paths). Each line flows through the pipeline one at a time -- there is no
+of distinct error paths). Each line flows through the pipeline one at a time -- there is no
 Intermediate list of all error lines, no intermediate list of all paths. This is the fundamental
 Benefit of lazy evaluation: **composition without materialization**.
 
@@ -3569,7 +3569,7 @@ print(tok.send("count = 42"))
 The tokenizer accumulates tokens into a buffer and yields them as the caller requests. In a real
 Implementation, you would yield tokens as they are found rather than buffering, but this pattern
 Demonstrates the core idea: the generator's position in the function body encodes the current state
-Of the parsing process.
+of the parsing process.
 
 ## itertools Consumption Patterns
 
@@ -3806,7 +3806,7 @@ Yielded values. If you need the return value, use `yield from` (which captures i
 ### Using Generators Where Lists Are Needed
 
 Functions that inspect their arguments for length, indexing, or multiple passes will fail silently
-Or raise confusing errors when given generators:
+or raise confusing errors when given generators:
 
 ```python
 def process_items(items):
@@ -3830,7 +3830,7 @@ def process_items(items):
 
 When using `yield from` to delegate, `send()` calls from the outer caller go to the
 **sub-generator**, not to the delegating generator. This is the transparent forwarding behavior, but
-It can be surprising:
+it can be surprising:
 
 ```python
 def inner():
@@ -3880,7 +3880,7 @@ print([f() for f in funcs])  # [0, 1, 2, 3, 4]
 ```
 
 This is not specific to generator expressions -- it affects list comprehensions too. The issue is
-That closures capture variables by reference, not by value. The lambda closes over `x`And by the
+that closures capture variables by reference, not by value. The lambda closes over `x`And by the
 Time any lambda is called, the loop has finished and `x` is 4.
 
 ### Uncaught Exceptions and Generator Cleanup
@@ -3928,7 +3928,7 @@ def safe_file_reader(path):
 
 **Always use `with` statements inside generators for resource management.** The `finally` block runs
 On generator close, but relying on the consumer to call `close()` is fragile. Wrapping the resource
-In a `with` statement ensures cleanup happens at the right time regardless of how the generator is
+in a `with` statement ensures cleanup happens at the right time regardless of how the generator is
 Consumed.
 
 For more on `contextlib.contextmanager`See
@@ -4072,7 +4072,7 @@ URL: https://python.wyattau.com/02-fundamentals/06-modules-and-packages/
 
 The import system is the mechanism by which Python locates, loads, and binds module objects into the
 Current namespace. It is one of the most critical subsystems in the interpreter because every piece
-Of code you write depends on it, yet most developers treat it as magic. Understanding the import
+of code you write depends on it, yet most developers treat it as magic. Understanding the import
 System is essential for debugging import errors, designing package layouts, and avoiding circular
 Dependency traps.
 
@@ -4149,14 +4149,14 @@ print(os is sys.modules['os'])    # True
 
 The critical implication of `sys.modules` caching: if module A imports module B, and module B
 Modifies a global variable at module level, module A will see that modification even if A imported B
-Before the modification, because both references point to the same module object. Conversely, if
+before the modification, because both references point to the same module object. Conversely, if
 Module B is not yet in `sys.modules` when A imports it, B's top-level code runs as a side effect of
-The import.
+the import.
 
 ### `sys.path`
 
 `sys.path` is a list of strings that determines where Python looks for modules. It is populated in
-The following order (first match wins):
+the following order (first match wins):
 
 1. The directory containing the script being run (or the current directory if running interactively
    or with `-c`). This is **not** `os.getcwd()` in all cases -- it is the directory of the
@@ -4216,7 +4216,7 @@ Module's `__dict__`.
 ### Module Dunder Attributes
 
 Every module object has a set of special attributes that provide metadata about the module. These
-Are set by the import machinery and are critical for understanding how Python resolves names:
+are set by the import machinery and are critical for understanding how Python resolves names:
 
 ```python
 # utils.py
@@ -4251,7 +4251,7 @@ if __name__ == "__main__":
 ```
 
 This guard prevents the code block from executing when the module is imported. It is not optional
-For modules that have side effects at import time (starting servers, opening files, spawning
+for modules that have side effects at import time (starting servers, opening files, spawning
 Processes) -- without it, importing the module for testing or type checking would trigger those side
 Effects.
 
@@ -4266,7 +4266,7 @@ When a module uses `from . import sibling`The import system resolves the dot by 
 `__package__`.
 
 **`__doc__`** is the module's docstring -- the first string literal in the module body, if any. It
-Is accessible as `module.__doc__` and is what `help()` displays.
+is accessible as `module.__doc__` and is what `help()` displays.
 
 **`__spec__`** is a `ModuleSpec` instance that encapsulates all the information the import system
 Needs to load the module. It includes the name, loader, origin (filesystem path), submodule search
@@ -4274,8 +4274,8 @@ Locations, and other metadata. This was introduced in Python 3.4 as part of the 
 (PEP 451) and supersedes the older `__loader__` and `__cached__` attributes.
 
 **`__path__`** is only defined for packages (not for regular modules). It is a list of strings that
-The import system uses to find submodules. For regular packages, it contains the single directory
-Where the package's `__init__.py` lives. For namespace packages, it can contain multiple
+the import system uses to find submodules. For regular packages, it contains the single directory
+where the package's `__init__.py` lives. For namespace packages, it can contain multiple
 Directories.
 
 ```python
@@ -4291,7 +4291,7 @@ print(xml.__path__)   # list of directories where xml submodules live
 ### Regular Packages
 
 A package is a module that contains other modules. In the filesystem, it is a directory containing
-An `__init__.py` file. The presence of `__init__.py` is what tells the import system that a
+an `__init__.py` file. The presence of `__init__.py` is what tells the import system that a
 Directory should be treated as a package rather than an ordinary directory.
 
 ```
@@ -4313,7 +4313,7 @@ When you write `import mypackage.submodule`The import system:
 
 Step 5 is crucial: after `import mypackage.submodule`You can access the submodule as
 `mypackage.submodule`. The `mypackage.__init__.py` does not need to explicitly import the submodule
-For this to work -- the import machinery does it automatically.
+for this to work -- the import machinery does it automatically.
 
 ### The Role of `__init__.py`
 
@@ -4551,7 +4551,7 @@ Module becomes a dependency of both, breaking the cycle.
 ### Strategy 2: Import Inside Functions
 
 Move the import from module level to inside the function that needs it. This defers the import until
-The function is actually called, by which time both modules are fully initialized:
+the function is actually called, by which time both modules are fully initialized:
 
 ```python
 # module_a.py
@@ -4572,7 +4572,7 @@ Analysis tools.
 ### Strategy 3: `TYPE_CHECKING` Guard
 
 When the circular import exists only for type annotations (not for runtime behavior), you can guard
-The import with `typing.TYPE_CHECKING`:
+the import with `typing.TYPE_CHECKING`:
 
 ```python
 # module_a.py
@@ -4592,7 +4592,7 @@ Annotations lazy strings), the import never executes at runtime, breaking the cy
 Type information.
 
 This pattern is the standard solution for circular type dependencies and should be your first choice
-When the import is only needed for annotations.
+when the import is only needed for annotations.
 
 ### Strategy 4: Lazy Imports
 
@@ -4772,7 +4772,7 @@ Directory is added to `sys.path`. This means `import mypackage` resolves to the 
 
 The src layout prevents this by moving the package out of the project root. When `python -m pytest`
 Runs from the project root, `./src/` is on `sys.path`But `import mypackage` will fail unless you
-Have done `pip install -e .` (which installs a `.egg-link` pointing to `src/mypackage/`). This
+have done `pip install -e .` (which installs a `.egg-link` pointing to `src/mypackage/`). This
 Forces you to install the package properly, which catches configuration errors in `pyproject.toml`
 And `setup.cfg`.
 
@@ -5100,7 +5100,7 @@ The only acceptable use case is in `__init__.py` for explicitly controlled re-ex
 
 If you try to run a file inside a package directly (`python mypackage/submodule.py`), it runs with
 `__name__ == '__main__'` and `__package__ == None`. Any relative imports in that file (or in files
-It imports) will fail. Always use `python -m mypackage.submodule` to run modules within a package.
+it imports) will fail. Always use `python -m mypackage.submodule` to run modules within a package.
 
 ### Editing `sys.path` Correctly
 
@@ -5125,7 +5125,7 @@ If a directory contains `__init__.py`It is a regular package, not a namespace pa
 add another directory with the same package name to `sys.path` expecting namespace package
 Semantics, it will not work -- the first directory's `__init__.py` takes precedence. To convert a
 Regular package to a namespace package, you must remove the `__init__.py` from all directories that
-Should participate in the namespace.
+should participate in the namespace.
 
 ### `__pycache__` and Bytecode Staleness
 
@@ -5220,7 +5220,7 @@ URL: https://python.wyattau.com/02-fundamentals/05-python-internals/
 
 CPython is the reference implementation of Python, written in C. It is the most widely used
 Implementation and the one most people mean when they say "Python." Understanding its architecture
-Is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
+is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
 Python's memory and concurrency behavior.
 
 The execution pipeline in CPython is:
@@ -5423,14 +5423,14 @@ Collected. The same logic applies for generation 2.
 ### What the GC Tracks
 
 The GC only tracks container objects that can participate in cycles: lists, dicts, sets, instances
-Of user-defined classes, tuples, and similar. It does not track immutable atomic objects (integers,
+of user-defined classes, tuples, and similar. It does not track immutable atomic objects (integers,
 Strings, floats) because they cannot hold references to other objects. Note that tuples are tracked
-Because they can contain references to mutable objects, even though the tuple itself is immutable.
+because they can contain references to mutable objects, even though the tuple itself is immutable.
 
 ### `__del__` and the Finalizer Problem
 
 Objects with `__del__` methods complicate garbage collection. The GC cannot safely break a cycle
-That includes objects with `__del__`Because breaking the cycle requires deallocating at least one
+that includes objects with `__del__`Because breaking the cycle requires deallocating at least one
 Object, which triggers `__del__`Which might access other objects in the cycle that have already Been
 deallocated.
 
@@ -5506,7 +5506,7 @@ def get_user(user_id):
 ```
 
 This is the correct pattern for caches where you want entries to be evicted automatically when no
-Other code holds a reference to the cached object.
+other code holds a reference to the cached object.
 
 ### `gc.disable()` and When to Use It
 
@@ -5530,7 +5530,7 @@ def latency_critical_section():
 ```
 
 This defers GC to the end of the critical section. The `finally` block ensures the GC is re-enabled
-Even if `perform_work()` raises an exception.
+even if `perform_work()` raises an exception.
 
 ## Bytecode and the `dis` Module
 
@@ -5594,7 +5594,7 @@ for instr in bc:
 ### The Stack-Based VM
 
 CPython's eval loop is a stack-based virtual machine. Most bytecode instructions either push a value
-Onto the stack, pop a value from the stack, or both. Binary operations like `BINARY_ADD` pop two
+onto the stack, pop a value from the stack, or both. Binary operations like `BINARY_ADD` pop two
 Values, compute the result, and push it. `LOAD_FAST` pushes a local variable onto the stack.
 `RETURN_VALUE` pops the top of stack and returns it.
 
@@ -5785,7 +5785,7 @@ Different caching strategies or no caching at all.
 Small integers are extremely common in Python programs (loop counters, boolean results, short lists
 Indices, enum values). Caching them eliminates the overhead of allocating a new `PyObject` for every
 Occurrence. The range `[-5, 256]` was chosen empirically to cover the vast majority of use cases
-Without consuming excessive memory.
+without consuming excessive memory.
 
 ## `__dict__` vs `__slots__`
 
@@ -6003,7 +6003,7 @@ Objects.
 **2. Assuming `__del__` will be called promptly.**
 
 Reference counting means `__del__` is called immediately when the last reference drops -- most of
-The time. But if the object is in a reference cycle, `__del__` is not called until the garbage
+the time. But if the object is in a reference cycle, `__del__` is not called until the garbage
 Collector runs, which may be much later or never (if the GC is disabled).
 
 ```python
@@ -6039,7 +6039,7 @@ print(sys.getrefcount(x))
 ```
 
 The returned count is always at least 2 for a local variable: one for the variable itself, one for
-The temporary reference created by passing it to `getrefcount`.
+the temporary reference created by passing it to `getrefcount`.
 
 **5. Forgetting that `__slots__` must be defined on every class in the hierarchy.**
 
@@ -6069,7 +6069,7 @@ Bytecode behavior.
 **8. Ignoring the GC's impact on real-time performance.**
 
 A full garbage collection (`gc.collect()`) can take milliseconds to seconds depending on the number
-Of tracked objects. In latency-sensitive applications (trading systems, game loops, real- time
+of tracked objects. In latency-sensitive applications (trading systems, game loops, real- time
 Signal processing), an unexpected GC pause can cause deadline misses. Profile your GC behavior with
 `gc.get_stats()` (Python 3.4+) and tune thresholds accordingly.
 
@@ -6303,7 +6303,7 @@ print(sys.maxsize)  # 2**63 - 1 on 64-bit systems (platform pointer size)
 Source of silent, catastrophic errors. Python's target audience (non-systems-programmers) is less
 Likely to think about bit widths. The cost is performance: big-integer arithmetic is slower than
 Fixed-width register arithmetic. Python accepts this trade-off because correctness is prioritized
-Over raw speed.
+over raw speed.
 
 Internally, CPython represents integers as variable-length arrays of digits (base $2^{30}$ on 64-bit
 Systems). Small integers in the range $[-5, 256]$ are **pre-allocated and interned** -- every
@@ -6365,7 +6365,7 @@ print(abs(z))        # 5.0 (magnitude)
 ### `decimal.Decimal`: Exact Decimal Arithmetic
 
 The `decimal` module provides arbitrary-precision, base-10 arithmetic with configurable rounding. It
-Is essential for financial calculations and any domain where binary floating-point representation
+is essential for financial calculations and any domain where binary floating-point representation
 Errors are unacceptable.
 
 ```python
@@ -6475,7 +6475,7 @@ CPython uses a flexible format:
 - **UCS-4 (4 bytes per character):** Used when any character exceeds U+FFFF.
 
 This is a CPython implementation detail (PEP 393, "Flexible String Representation") that optimizes
-The common case of ASCII-only strings to use 1 byte per character, while still supporting the full
+the common case of ASCII-only strings to use 1 byte per character, while still supporting the full
 Unicode range without surrogate pairs.
 
 ```python
@@ -6752,7 +6752,7 @@ def process(items: List[str]) -> Dict[str, int]:
 ### `TypeVar` and Generic Functions
 
 `TypeVar` enables writing generic functions where the relationship between input and output types
-Must be preserved:
+must be preserved:
 
 ```python
 from typing import TypeVar
@@ -6861,7 +6861,7 @@ def process(value: Union[int, str, None]) -> str:
 ### `typing.cast`
 
 When you know more about a type than the type checker does, use `cast` to assert the type without
-Any runtime overhead:
+any runtime overhead:
 
 ```python
 from typing import cast, Any
@@ -6875,7 +6875,7 @@ names: list[str] = cast(list[str], data)
 ## Type Checking with `mypy`
 
 `mypy` is the reference static type checker for Python. It analyzes source code without executing it
-And reports type errors.
+and reports type errors.
 
 ### Installation and Basic Usage
 
@@ -7143,8 +7143,8 @@ Objects inline -- it stores references. This means:
 ### Growth Strategy and Amortized O(1) Append
 
 When `list.append()` runs and the internal array is full, CPython must allocate a new, larger array
-And copy all existing pointers into it. The growth strategy determines how much larger the new array
-Is.
+and copy all existing pointers into it. The growth strategy determines how much larger the new array
+is.
 
 ```mermaid
 graph TD
@@ -7244,7 +7244,7 @@ lst.copy()           # shallow copy [3, 1, 4, 1, 5]
 ### Slicing
 
 Slicing creates a **new list** containing copies of the pointer slots in the specified range. It
-Does not copy the referenced objects.
+does not copy the referenced objects.
 
 ```python
 lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -7296,12 +7296,12 @@ Actions. If the comprehension has no useful result, use a `for` loop instead.
 ## Tuples
 
 Tuples are **ordered, immutable sequences**. The immutability is their defining characteristic and
-The source of their advantages.
+the source of their advantages.
 
 ### Immutability Mechanics
 
 "Immutable" in Python means that the tuple's container (the array of pointers) cannot be modified
-After creation. The pointers themselves cannot be added, removed, or reordered. However, if a
+after creation. The pointers themselves cannot be added, removed, or reordered. However, if a
 Pointer refers to a mutable object (like a list), that inner object can still be mutated.
 
 ```python
@@ -7361,8 +7361,8 @@ class Point(NamedTuple):
 ### Structural Typing with Tuples
 
 Tuples are the idiomatic Python representation for heterogeneous, fixed-length data -- records where
-The position carries meaning. This is structural typing: the "shape" of the tuple (what types appear
-At which positions) defines a type, without requiring a named class.
+the position carries meaning. This is structural typing: the "shape" of the tuple (what types appear
+at which positions) defines a type, without requiring a named class.
 
 ```python
 # A common pattern: returning multiple values
@@ -8183,7 +8183,7 @@ Each dict maintains three structures internally:
 3. **`dk_size`**. The size of the hash table (always a power of 2).
 
 The hash table uses **open addressing** with pseudo-random probing. When a collision occurs, CPython
-Does not follow a linked list (chaining) but instead probes subsequent slots using a perturbation
+does not follow a linked list (chaining) but instead probes subsequent slots using a perturbation
 Scheme.
 
 ```python
@@ -8526,7 +8526,7 @@ print(config["timeout"])  # 30
 ```
 
 ChainMap is ideal for layered configuration systems: defaults, environment variables, CLI args, and
-Per-request overrides.
+per-request overrides.
 
 :::caution
 Layer, access it via `config.maps[0]``config.maps[1]`Etc.
@@ -8658,7 +8658,7 @@ By inheriting from `MutableMapping`We get `get``keys``values``items``pop``clear`
 ## UserDict, UserList, UserString
 
 The `collections` module provides wrapper classes that allow subclassing without directly inheriting
-From built-in types:
+from built-in types:
 
 ```python
 from collections import UserDict
@@ -8846,7 +8846,7 @@ print(bottom5) # [0, 1, 2, 3, 4] (varies)
 ```
 
 `nlargest(k, data)` is O(N log k) where N = len(data), making it efficient for small `k` relative to
-The data size. It uses a min-heap of size `k` internally.
+the data size. It uses a min-heap of size `k` internally.
 
 ### Max-Heap Pattern
 
@@ -9090,8 +9090,8 @@ import Citations from '@components/Citations.astro'
 ## Class Definition
 
 In Python, a class is created with the `class` keyword. A class is itself an object -- an instance
-Of `type`. The body of a `class` statement executes at definition time (when the module is imported
-Or the function containing it is called), and the resulting namespace dictionary becomes the class"s
+of `type`. The body of a `class` statement executes at definition time (when the module is imported
+or the function containing it is called), and the resulting namespace dictionary becomes the class"s
 `__dict__`.
 
 ```python
@@ -9125,7 +9125,7 @@ class Tracer:
 ```
 
 This means class bodies are **not** inert declarations. They are executable code. This property is
-The foundation of metaclasses, class decorators, and many advanced patterns.
+the foundation of metaclasses, class decorators, and many advanced patterns.
 
 ## `__init__` and `self`
 
@@ -9296,7 +9296,7 @@ class Math:
 ```
 
 Static methods receive no implicit arguments. They cannot access `self` or `cls`. If a method does
-Not need either, making it static is a signal to readers and static analysis tools.
+not need either, making it static is a signal to readers and static analysis tools.
 :::
 
 :::note
@@ -9415,8 +9415,8 @@ print(D().method())  # B
 ### Why C3 Linearization
 
 Python 2.2 used a depth-first, left-to-right traversal for MRO. This produced unintuitive results
-With diamond inheritance patterns and was inconsistent with monotonicity (a property requiring that
-The order of base classes is preserved and that subclasses respect the order of their parents).
+with diamond inheritance patterns and was inconsistent with monotonicity (a property requiring that
+the order of base classes is preserved and that subclasses respect the order of their parents).
 
 Python 2.3 adopted **C3 linearization**, an algorithm originally developed for Dylan. C3 satisfies
 Three constraints:
@@ -9518,11 +9518,11 @@ u = User("Alice")
 
 Python's multiple inheritance is powerful but demands discipline. The community convention is to use
 **mixins** -- small, focused classes that provide a single piece of functionality and are designed
-To be combined with other classes through inheritance.
+to be combined with other classes through inheritance.
 
 A mixin should never be instantiated on its own. It should have no `__init__` (or a cooperative one
-That calls `super().__init__()`), and it should not hold state. Its purpose is to provide methods
-That a class can "mix in."
+that calls `super().__init__()`), and it should not hold state. Its purpose is to provide methods
+that a class can "mix in."
 
 ```python
 class JsonMixin:
@@ -9545,7 +9545,7 @@ print(u.to_csv_row(["name", "email"]))  # Alice,alice@example.com
 ```
 
 The convention for inheritance ordering is to list the primary base class last, and mixins before
-It:
+it:
 
 ```python
 class EnhancedUser(JsonMixin, CsvMixin, User):
@@ -9564,7 +9564,7 @@ Arguments it does not need.
 ## Abstract Base Classes
 
 The `abc` (Abstract Base Classes) module provides a way to define interfaces that enforce a contract
-On subclasses. A class with at least one abstract method cannot be instantiated directly.
+on subclasses. A class with at least one abstract method cannot be instantiated directly.
 
 ```python
 from abc import ABC, abstractmethod
@@ -9622,7 +9622,7 @@ class Repository(ABC):
 ### `__subclasshook__`
 
 ABCs can register virtual subclasses using `register()`Or define a `__subclasshook__` that allows
-Any class satisfying a structural protocol to be considered a subclass without explicit
+any class satisfying a structural protocol to be considered a subclass without explicit
 Registration.
 
 ```python
@@ -9648,7 +9648,7 @@ Typing of traditional inheritance.
 ## Dunder Methods
 
 Dunder (double underscore) methods are Python's protocol for operator overloading and integration
-With built-in functions. They are how user-defined classes participate in Python's data model.
+with built-in functions. They are how user-defined classes participate in Python's data model.
 
 ### String Representation
 
@@ -9666,7 +9666,7 @@ class Point:
 ```
 
 `__repr__` is for developers -- it should be unambiguous and, ideally, produce a string that could
-Be passed to `eval()` to reconstruct the object. `__str__` is for end users -- it should be
+be passed to `eval()` to reconstruct the object. `__str__` is for end users -- it should be
 Readable. `__str__` falls back to `__repr__` if not defined.
 
 ### Equality and Hashing
@@ -9765,7 +9765,7 @@ with Timer("query"):
 ```
 
 `__enter__` is called when the `with` block is entered. Its return value is bound to the variable
-After `as`. `__exit__` is called when the block exits, whether normally or via exception. If
+after `as`. `__exit__` is called when the block exits, whether normally or via exception. If
 `__exit__` returns `True`The exception is suppressed. The `contextlib` module provides
 `@contextmanager` for simpler cases where a function-based approach is cleaner.
 
@@ -9851,7 +9851,7 @@ Python has three overlapping mechanisms for data-holding classes. Each exists fo
 
 The design philosophy: `dataclass` does not try to replace `namedtuple` (which serves the tuple
 Compatibility use case) or `attrs` (which serves the heavy-weight validation use case). It occupies
-The middle ground.
+the middle ground.
 
 ## `__slots__`
 
@@ -10098,7 +10098,7 @@ class Account(Validated):
 
 This class combines dataclasses (for boilerplate reduction), ABCs (for interface enforcement), slots
 (for memory efficiency), and multiple dunder methods (for full Python data model integration). Each
-Of these mechanisms addresses a separate concern, and they compose without conflict.
+of these mechanisms addresses a separate concern, and they compose without conflict.
 
 ## Common Pitfalls
 
@@ -10315,7 +10315,7 @@ class Property:
 ### cached_property
 
 `functools.cached_property` (Python 3.8+) caches the result of a property on the instance. It is a
-Non-data descriptor:
+non-data descriptor:
 
 ```python
 from functools import cached_property
@@ -10421,7 +10421,7 @@ print(MathUtils.is_prime(17))         # True
 ```
 
 `staticmethod` is also a descriptor, but a simple one, it just returns the original function
-Without binding:
+without binding:
 
 ```python
 class StaticMethod:
@@ -10484,7 +10484,7 @@ wsl_list = [WithSlots(i, i) for i in range(100000)]
 
 On CPython 3.12, a slotted instance with two attributes uses ~48 bytes versus ~56 bytes for a
 Regular instance (which includes the `__dict__` overhead). The savings are more significant when you
-Have many instances.
+have many instances.
 
 ### **slots** Rules
 
@@ -11217,7 +11217,7 @@ Three distinct points, each with a different purpose and different capabilities.
 
 `__new__` is a class method (on the metaclass) that receives the metaclass itself, the class name,
 The base classes, and the namespace dict. It must return the newly created class object. This is
-Where you can modify the namespace before the class is built, reject the class entirely, or return a
+where you can modify the namespace before the class is built, reject the class entirely, or return a
 Completely different class object.
 
 ```python
@@ -11243,7 +11243,7 @@ class BadConfig(metaclass=ValidateFields):
 
 The `mcs` parameter is the metaclass itself (analogous to `cls` in a normal class method). It is
 Conventionally named `mcs` (for "metaclass") but any name works. The name, bases, and namespace are
-The three things that define a class.
+the three things that define a class.
 
 ### `__init__`: Controlling Class Initialization
 
@@ -11276,7 +11276,7 @@ print(RegisterSubclasses.registry)
 
 Note that `AbstractHandler` itself gets registered unless you explicitly exclude it. The `name`
 Check in `__init__` filters out base classes, but this is fragile. A more robust approach checks
-Whether the class defines the required abstract methods.
+whether the class defines the required abstract methods.
 
 ### `__prepare__`: Custom Namespace
 
@@ -11313,7 +11313,7 @@ print(Table._ordered_fields)
 
 Since Python 3.6, the default `dict` preserves insertion order as a language guarantee (not just a
 CPython implementation detail), so `__prepare__` returning `OrderedDict` is less necessary than it
-Was in Python 3.5. However, `__prepare__` is still useful when you need a namespace with custom
+was in Python 3.5. However, `__prepare__` is still useful when you need a namespace with custom
 Behavior -- for example, a namespace that deduplicates keys, tracks access patterns, or provides
 Validation on assignment during class body execution.
 
@@ -11329,7 +11329,7 @@ Validation on assignment during class body execution.
 3. Returns the instance.
 
 By overriding `__call__` on the metaclass, you can intercept and modify any of these steps. This is
-The mechanism behind `__init_subclass__`-style hooks and is how many frameworks (e.g., Django ORM,
+the mechanism behind `__init_subclass__`-style hooks and is how many frameworks (e.g., Django ORM,
 SQLAlchemy) implement singleton patterns, caching, and proxy objects.
 
 ```python
@@ -11364,7 +11364,7 @@ The order of operations in a metaclass is:
 
 `__init_subclass__` (PEP 487, Python 3.6) provides a hook that runs in the parent class whenever a
 Subclass is created. It eliminates many use cases that previously required metaclasses. The method
-Is defined on the parent class and receives the new subclass as `cls`Along with any keyword
+is defined on the parent class and receives the new subclass as `cls`Along with any keyword
 Arguments passed in the class header.
 
 ```python
@@ -11483,15 +11483,15 @@ The call sequence during class creation is:
 
 This means `__set_name__` runs before `__init__` on the metaclass but after the class body has fully
 Executed. It is implemented in `type.__new__` itself, so it works with the default metaclass without
-Any custom metaclass code.
+any custom metaclass code.
 
 ## Metaclass Use Cases
 
 ### Singleton Pattern
 
 The singleton pattern ensures that only one instance of a class exists. Metaclass-based singletons
-Are thread-safe in CPython because `__call__` acquires the GIL for the entire operation, but they
-Are not safe against truly concurrent access in free-threaded Python (PEP 703).
+are thread-safe in CPython because `__call__` acquires the GIL for the entire operation, but they
+are not safe against truly concurrent access in free-threaded Python (PEP 703).
 
 ```python
 class SingletonMeta(type):
@@ -11649,7 +11649,7 @@ a.balance = "not a float"  # TypeError
 
 While `abc.ABC` and `@abstractmethod` handle most abstract enforcement, a metaclass can enforce that
 Subclasses implement specific methods with particular signatures, or that certain class attributes
-Are defined.
+are defined.
 
 ```python
 class StrictABCMeta(type):
@@ -11687,7 +11687,7 @@ print("CacheService created successfully")
 ## Metaclass Conflicts
 
 When you combine two classes that have different metaclasses, Python must determine the metaclass
-For the resulting class. The rule is: **the metaclass of the derived class must be a subtype of the
+for the resulting class. The rule is: **the metaclass of the derived class must be a subtype of the
 Metaclasses of all base classes.** If this condition is not met, Python raises `TypeError`.
 
 ```python
@@ -11798,7 +11798,7 @@ Cases.
 
 **Use a metaclass when:** You need `__prepare__` (custom namespace), `__call__` (instance creation
 Control), or deep structural modification of the class that requires access to the raw namespace
-Before the class object exists.
+before the class object exists.
 
 ## When NOT to Use Metaclasses
 
@@ -11836,7 +11836,7 @@ Prefer these alternatives:
 
 `__init__` on the metaclass runs after the class object is created. It cannot modify the namespace
 Dict that was used to create the class -- it can only set attributes on the class object itself. If
-You need to remove, rename, or transform attributes before they become class attributes, use
+you need to remove, rename, or transform attributes before they become class attributes, use
 `__new__`.
 
 ```python
@@ -11899,7 +11899,7 @@ class BetterMeta(type):
 **5. Assuming metaclass methods are inherited like normal methods.**
 
 Metaclass methods are defined on the metaclass, not on the class. A class's `__init__` is inherited
-From its base class (a normal class). A class's metaclass `__init__` is inherited from the
+from its base class (a normal class). A class's metaclass `__init__` is inherited from the
 Metaclass's base class (a metaclass). These are different inheritance chains. If you override a
 Metaclass method in a subclass metaclass, the override applies only to classes using that subclass
 Metaclass, not to all classes using the parent metaclass.
@@ -12030,9 +12030,9 @@ URL: https://python.wyattau.com/05-standard-library/03-cli-tools/
 
 Building command-line interfaces in Python is not a "pick one and go" decision. The standard library
 Gives you `sys.argv` (bare metal) and `argparse` (batteries-included), while third-party libraries
-Like `click` and `typer` offer increasingly ergonomic abstractions. Each layer trades control for
+like `click` and `typer` offer increasingly ergonomic abstractions. Each layer trades control for
 Convenience. Understanding what happens beneath the abstractions,how arguments are parsed, how types
-Are coerced, how errors are surfaced,matters when your tool runs in production, in CI pipelines, on
+are coerced, how errors are surfaced,matters when your tool runs in production, in CI pipelines, on
 Windows terminals with broken encodings, or under `set -e` where non-zero exits kill the entire
 Script.
 
@@ -12044,7 +12044,7 @@ But _why_ the mechanism exists and where it breaks.
 
 `sys.argv` is a list of strings passed to the Python interpreter. It is the lowest-level argument
 Interface available,no parsing, no validation, no help text. You get exactly what the shell gave
-You, split on whitespace according to the shell"s own rules.
+you, split on whitespace according to the shell"s own rules.
 
 ```python
 import sys
@@ -12085,7 +12085,7 @@ Use repeatedly, use a real parser.
 ## argparse
 
 `argparse` is the standard library's argument parsing module. It is comprehensive, well-tested, and
-Has zero dependencies. It handles positional arguments, optional flags, type coercion, defaults,
+has zero dependencies. It handles positional arguments, optional flags, type coercion, defaults,
 Mutually exclusive groups, subcommands, and help formatting. The API is verbose but explicit,every
 Behavior is opt-in.
 
@@ -12127,7 +12127,7 @@ parser.add_argument("output", help="Path to the output file")
 ```
 
 Positional arguments are required by default. The order matters,they are bound to their position in
-The command line, not their name.
+the command line, not their name.
 
 ### Optional Arguments
 
@@ -12211,7 +12211,7 @@ group.add_argument("--update", action="store_true", help="Update the resource")
 ```
 
 Exactly one of `--create``--delete`Or `--update` must be provided. If none or more than one is
-Given, argparse exits with an error message.
+given, argparse exits with an error message.
 
 ### Subparsers
 
@@ -12248,7 +12248,7 @@ Consistent.
 
 `click` is a third-party library (`pip install click`) that replaces argparse's imperative API with
 A declarative decorator-based one. The core idea: a CLI command is a function, arguments and options
-Are decorators on that function's parameters.
+are decorators on that function's parameters.
 
 ### Basic Command
 
@@ -12363,7 +12363,7 @@ with click.progressbar(range(100), label="Processing") as bar:
 
 Click's progress bar writes directly to stderr by default, so it does not interfere with piped
 Stdout. It handles terminal width detection and falls back to a simple linear output when stdout is
-Not a TTY (e.g., in CI).
+not a TTY (e.g., in CI).
 
 ### Colors
 
@@ -12617,11 +12617,11 @@ mytool-gui = "mypackage.gui:main"
 
 `gui-scripts` is identical to `scripts` except on Windows, where `console_scripts` generates `.exe`
 Wrappers that open a console window and `gui-scripts` generates `.exe` wrappers that do not. On
-Non-Windows platforms, there is no difference.
+non-Windows platforms, there is no difference.
 
 **Entry points vs `__main__.py`:** Use both. `__main__.py` supports `python -m mypackage` for
 Development and debugging. `[project.scripts]` supports `mytool` for installed usage. They can (and
-Should) call the same `main()` function.
+should) call the same `main()` function.
 
 ## Configuration Files
 
@@ -12675,7 +12675,7 @@ logs = %(base)s/logs
 ```
 
 Limitations: no nested sections, no native list/dict types (everything is a string), no comments on
-The same line as a value in the default format.
+the same line as a value in the default format.
 
 ### tomllib (Python 3.11+)
 
@@ -12871,7 +12871,7 @@ console.print(tree)
 
 Use `click.echo()` for simple status messages, prompts, and output that should remain
 Plain-text-compatible (piped to files, processed by other tools). Use `rich` for display output
-Where formatting enhances readability (tables, progress, structured data). They coexist well,rich
+where formatting enhances readability (tables, progress, structured data). They coexist well,rich
 Writes to stderr for progress, click.echo writes to stdout for data output.
 
 ## Common Patterns
@@ -12911,8 +12911,8 @@ def deploy(env, dry_run):
 ```
 
 Dry-run is critical for infrastructure tools. The principle: the tool should print exactly what it
-Would do, using the same code path as the real operation, but skip the side effects. If your dry-run
-And real execution follow different code paths, the dry-run output is a lie.
+would do, using the same code path as the real operation, but skip the side effects. If your dry-run
+and real execution follow different code paths, the dry-run output is a lie.
 
 ### Output Format Selection
 
@@ -13041,7 +13041,7 @@ Propagates through `finally` blocks, so cleanup code will still run.
 
 Windows uses a different default encoding than Unix. `sys.stdout.encoding` may be `cp1252` on
 Windows, which cannot represent all Unicode characters. When your tool outputs UTF-8 text (JSON with
-Non-ASCII, user names with accents, etc.), this causes `UnicodeEncodeError`.
+non-ASCII, user names with accents, etc.), this causes `UnicodeEncodeError`.
 
 ```python
 import sys
@@ -13073,7 +13073,7 @@ mytool --input "my file.txt"
 
 This is not a Python bug. It is a shell behavior. However, your tool should produce a clear error
 Message in this case, not a confusing traceback. Argparse does this reasonably well; click and typer
-Do too. Test your tool with paths containing spaces to verify.
+do too. Test your tool with paths containing spaces to verify.
 
 ### Boolean Flags: store_true vs flag_value
 
@@ -13086,7 +13086,7 @@ parser.add_argument("--verbose", action="store_false")  # CONFLICT: same dest, d
 ```
 
 This does not work as expected. Both flags write to `args.verbose`But one sets it `True` and the
-Other `False`. The last one to appear on the command line wins, which is confusing.
+other `False`. The last one to appear on the command line wins, which is confusing.
 
 The fix in argparse 3.9+:
 
@@ -13112,7 +13112,7 @@ verbose: bool = False
 ### Argument Parsing in Subcommands
 
 A common mistake is defining a global option on the parent parser and expecting it to be available
-In subcommands without explicit propagation. In argparse, parent arguments are available in
+in subcommands without explicit propagation. In argparse, parent arguments are available in
 Subcommands only if you use `parents=[parent_parser]` or parse the entire argv once. In click and
 Typer, options defined on the group function are available to all subcommands via
 `click.pass_context`.
@@ -14214,8 +14214,8 @@ URL: https://python.wyattau.com/05-standard-library/01-essential-modules/
 ### The Case for `pathlib` Over `os.path`
 
 The `os.path` module is a collection of free functions that operate on path strings. It was designed
-In an era before Python had a coherent object model for paths. `pathlib` (Python 3.4+) replaces this
-With an object-oriented API where a `Path` instance represents a single filesystem path.
+in an era before Python had a coherent object model for paths. `pathlib` (Python 3.4+) replaces this
+with an object-oriented API where a `Path` instance represents a single filesystem path.
 
 The argument for `pathlib` is not aesthetic preference. It is about **composability** and
 **correctness**:
@@ -14315,7 +14315,7 @@ print(p.suffixes) # ['.12']
 ```
 
 `PurePosixPath` and `PureWindowsPath` perform only string manipulation -- no filesystem access. This
-Is useful for constructing or parsing paths for remote systems.
+is useful for constructing or parsing paths for remote systems.
 
 ## `sys`: Interpreter State
 
@@ -14325,7 +14325,7 @@ Reference counting, and process-level control.
 ### `sys.argv`: Command-Line Arguments
 
 `sys.argv` is a list of strings. `sys.argv[0]` is the script name (or `'-'` for stdin). Everything
-After is a positional argument. It does not handle options, flags, or defaults -- for that, use
+after is a positional argument. It does not handle options, flags, or defaults -- for that, use
 `argparse`.
 
 ```python
@@ -14360,13 +14360,13 @@ import mymodule  # found in /opt/custom_libs first
 
 Modifying `sys.path` at runtime is fragile. For reproducible imports, use proper package
 Installation or `PYTHONPATH`. Mutating `sys.path` in library code is particularly dangerous because
-It affects the global import state of the entire process.
+it affects the global import state of the entire process.
 
 ### `sys.modules`: The Module Cache
 
 `sys.modules` is a dictionary mapping module names to loaded module objects. The import system
 Checks this dictionary first -- if a module is already loaded, `import` returns the cached object
-Without re-executing the module's code.
+without re-executing the module's code.
 
 ```python
 import sys
@@ -14415,7 +14415,7 @@ print(type(deserialized))   # <class 'dict'>
 ```
 
 `json.dumps()` returns a string. `json.dump()` writes directly to a file object. The symmetric pair
-Is `json.loads()` (from string) and `json.load()` (from file object).
+is `json.loads()` (from string) and `json.load()` (from file object).
 
 ### Custom Encoders and Decoders
 
@@ -14473,7 +14473,7 @@ Pickle can serialize functions, classes, and object graphs with cycles. But `pic
 Untrusted data is equivalent to arbitrary code execution -- the pickled byte stream can contain
 Instructions to call any callable, import any module, and execute arbitrary code. For data
 Interchange between systems or for storage that must survive Python version upgrades, JSON is the
-Only safe choice.
+only safe choice.
 
 ```python
 import pickle
@@ -14669,7 +14669,7 @@ print(process([1, "a"]))    # [2, 'A']
 
 The `register` attribute can also be used as a decorator with explicit type arguments:
 `@process.register(list)`. When used with type annotations, the annotation is extracted and used as
-The dispatch key.
+the dispatch key.
 
 ### `functools.wraps`
 
@@ -14824,7 +14824,7 @@ data: Any = json.loads(raw_string)
 ### `Protocol`: Structural Typing
 
 `Protocol` (Python 3.8+) enables structural typing. A class is considered a subtype of a Protocol if
-It has the right methods, regardless of whether it explicitly inherits from the Protocol.
+it has the right methods, regardless of whether it explicitly inherits from the Protocol.
 
 ```python
 from typing import Protocol, runtime_checkable
@@ -14899,7 +14899,7 @@ function's parameters. `ParamSpec` captures the full parameter signature as a ty
 ## `dataclasses`: Beyond Basics
 
 The `@dataclass` decorator (covered in the OOP chapter for fundamentals) supports advanced patterns
-Through the `field()` function, `__post_init__`And inheritance.
+through the `field()` function, `__post_init__`And inheritance.
 
 ### `__post_init__` for Validation and Derived Fields
 
@@ -15040,9 +15040,9 @@ Pickling, multiprocess serialization, or when the enum is re-imported.
 
 `print` writes to stdout unconditionally. It has no severity levels, no filtering, no routing to
 Files or network endpoints, no timestamps, no module attribution, and no ability to be disabled
-Without modifying source code. In a library, `print` is not just unprofessional -- it is actively
+without modifying source code. In a library, `print` is not just unprofessional -- it is actively
 Harmful because it pollutes the consumer's stdout with messages the consumer did not request and
-Cannot control.
+cannot control.
 
 The `logging` module solves all of these problems:
 
@@ -15069,7 +15069,7 @@ def process_item(item_id: int) -> None:
 
 :::note
 Formatting until it determines that the message will actually be emitted. With f-strings, the string
-Is always constructed even if the log level is filtered out.
+is always constructed even if the log level is filtered out.
 `logger.debug("Expensive: %r", compute_value())` does not call `compute_value()` if DEBUG is not
 Enabled. `logger.debug(f"Expensive: {compute_value()}")` always calls it.
 
@@ -15169,7 +15169,7 @@ Common handlers:
 
 Libraries should never configure logging. They should create loggers with
 `logging.getLogger(__name__)` and attach a `NullHandler` so that logging does not produce warnings
-When no handler is configured.
+when no handler is configured.
 
 ```python
 # In mylib/__init__.py
@@ -15184,7 +15184,7 @@ logger.addHandler(logging.NullHandler())
 ### `date``time``datetime``timedelta`
 
 The `datetime` module provides four core types for temporal data. They are deliberately separate
-Because not every temporal concept needs all components.
+because not every temporal concept needs all components.
 
 ```python
 from datetime import date, time, datetime, timedelta, timezone
@@ -15206,7 +15206,7 @@ print(dt.isoformat())     # 2025-06-04T14:30:00+00:00
 ### Timezone-Aware vs Naive
 
 A naive `datetime` has no timezone information. It represents an abstract time that cannot be mapped
-To a specific instant on the timeline. An aware `datetime` carries a `tzinfo` subclass that defines
+to a specific instant on the timeline. An aware `datetime` carries a `tzinfo` subclass that defines
 Its offset from UTC.
 
 ```python
@@ -15385,7 +15385,7 @@ Provides methods for reading, writing, and seeking.
 ### Modes
 
 The mode string controls what operations are permitted and whether the file is interpreted as text
-Or binary data. Modes are composed from the following characters:
+or binary data. Modes are composed from the following characters:
 
 | Character | Meaning                                                                                             |
 | --------- | --------------------------------------------------------------------------------------------------- |
@@ -15421,7 +15421,7 @@ Newly created).
 
 The `x` mode is the safest way to create a new file because it fails atomically if the file already
 Exists. This prevents race conditions in concurrent environments where another process might create
-The file between your existence check and your open call.
+the file between your existence check and your open call.
 
 The `+` mode allows simultaneous reading and writing, but the seek position is shared. After
 Writing, the file position is at the end of the written data. You must seek back to the beginning to
@@ -15527,7 +15527,7 @@ As-is on output (no platform-specific translation). This is what you want for so
 Configuration files, and any text format that defines `\n` as the line separator.
 
 Setting `newline="\n"` disables all translation in both directions. The file is read and written
-As-is. Use this when you need to preserve the exact byte content of newlines.
+as-is. Use this when you need to preserve the exact byte content of newlines.
 
 ### The `closefd` Parameter
 
@@ -15704,7 +15704,7 @@ with open("file.txt", "r", encoding="utf-8") as f:
 ```
 
 This loads the entire file into memory. For large files (anything over available RAM minus the size
-Of other in-memory data), this will cause `MemoryError` or trigger aggressive swapping. Do not use
+of other in-memory data), this will cause `MemoryError` or trigger aggressive swapping. Do not use
 `f.read()` on files that may be large. Use iteration instead.
 
 ### `f.read(n)`
@@ -15767,7 +15767,7 @@ usage is bounded by the buffer size plus the longest line in the file, regardles
 size. This is the correct pattern for processing large files.
 
 The internal implementation uses a read-ahead buffer in `io.TextIOWrapper`. It reads a large chunk
-From the underlying `BufferedReader`Splits it into lines, and yields them one at a time. When the
+from the underlying `BufferedReader`Splits it into lines, and yields them one at a time. When the
 Buffer is exhausted, it reads another chunk. This amortizes the system call overhead while keeping
 Memory usage low.
 
@@ -15793,19 +15793,19 @@ with open("file.bin", "rb") as f:
 In text mode, seeking is restricted. You can only seek to positions returned by `f.tell()` (or to
 Position 0). Seeking to arbitrary positions is not allowed because the text wrapper cannot
 Efficiently determine character boundaries at arbitrary byte offsets. In binary mode, you can seek
-To any byte offset.
+to any byte offset.
 
 ### The Read Pointer
 
 The file position (read pointer, write pointer, or seek pointer -- it is a single pointer shared
-Between read and write operations in `+` mode) determines where the next read or write operation
-Will occur. Reads advance the pointer by the number of bytes/characters read. Writes advance it by
-The number of bytes/characters written. Seeks set it explicitly.
+between read and write operations in `+` mode) determines where the next read or write operation
+will occur. Reads advance the pointer by the number of bytes/characters read. Writes advance it by
+the number of bytes/characters written. Seeks set it explicitly.
 
 In `r+` mode, the initial position is at the start of the file. In `a` and `a+` mode, the initial
 Position for writing is at the end of the file, but the initial position for reading is at the
 Start. After a write in `a+` mode, a seek is required before reading (because the write position is
-At the end, but you may want to read from the beginning).
+at the end, but you may want to read from the beginning).
 
 ## Writing Files
 
@@ -15823,7 +15823,7 @@ with open("output.txt", "w", encoding="utf-8") as f:
 The return value may be less than the length of the input if the write was interrupted (e.g., by a
 Signal) or if the underlying system call performed a partial write. However, in practice on modern
 Operating systems with buffered I/O, the return value is almost always equal to the input length. If
-You need guaranteed complete writes, use `os.write()` on the raw file descriptor, or check the
+you need guaranteed complete writes, use `os.write()` on the raw file descriptor, or check the
 Return value and retry.
 
 ### `f.writelines()`
@@ -15839,7 +15839,7 @@ with open("output.txt", "w", encoding="utf-8") as f:
 Despite the name, `writelines()` does **not** add newlines between items. Each item must include its
 Own newline if desired. The name is misleading -- it writes all items from the iterable, not
 Individual lines. The primary advantage over a loop calling `f.write()` is that `writelines()` can
-Be more efficient because it avoids the overhead of repeated Python-level method calls.
+be more efficient because it avoids the overhead of repeated Python-level method calls.
 
 ### Flush Behavior
 
@@ -15854,7 +15854,7 @@ Buffer is flushed to the OS (via a `write()` system call) when:
 
 Note the distinction between "flushed to the OS" and "written to disk." The OS maintains its own
 Page cache. Data flushed from Python's buffer goes into the OS page cache, which may not be written
-To the physical disk for seconds or minutes. To ensure data is physically on disk (durability
+to the physical disk for seconds or minutes. To ensure data is physically on disk (durability
 Guarantee), you must call `os.fsync(f.fileno())` **after** `f.flush()`:
 
 ```python
@@ -15865,7 +15865,7 @@ with open("critical.dat", "wb") as f:
 ```
 
 `os.fsync()` is expensive because it forces a physical disk write (or at least an acknowledgment
-From the disk's write cache). Use it only when you need durability guarantees (database write-ahead
+from the disk's write cache). Use it only when you need durability guarantees (database write-ahead
 Logs, financial transaction records, etc.).
 
 ### Write Buffering Layers
@@ -15900,7 +15900,7 @@ Understanding this two-level buffering is critical for:
 ## `pathlib` Integration
 
 `pathlib.Path` provides a higher-level, object-oriented interface for file I/O. Every `Path` method
-That performs I/O has a corresponding `open()`-based implementation under the hood.
+that performs I/O has a corresponding `open()`-based implementation under the hood.
 
 ### `Path.open()`
 
@@ -15981,7 +15981,7 @@ print(p.is_dir())   # True if it's a directory (follows symlinks)
 
 Be aware of TOCTOU (Time Of Check, Time Of Use) races. Between calling `p.exists()` and opening the
 File, another process may delete or rename it. In concurrent environments, open the file and handle
-The `FileNotFoundError` rather than checking existence first.
+the `FileNotFoundError` rather than checking existence first.
 
 ### `Path.glob()` and `Path.rglob()`
 
@@ -16017,7 +16017,7 @@ List).
 ## `io` Module
 
 The `io` module provides Python's I/O stack as a set of composable classes. Understanding this stack
-Is essential for advanced I/O operations, custom stream implementations, and debugging I/O issues.
+is essential for advanced I/O operations, custom stream implementations, and debugging I/O issues.
 
 ### The I/O Stack
 
@@ -16038,7 +16038,7 @@ Application code (str/bytes)
 ```
 
 Each layer wraps the layer below it. The `open()` built-in assembles this stack automatically. You
-Can also construct it manually for fine-grained control.
+can also construct it manually for fine-grained control.
 
 ### `io.StringIO`
 
@@ -16095,7 +16095,7 @@ view = buf.getbuffer()  # memoryview
 ### `io.BufferedReader` and `io.BufferedWriter`
 
 Buffered wrappers around raw I/O objects. You rarely construct these directly (the `open()` built-in
-Does it for you), but you may encounter them when working with sockets, pipes, or custom raw I/O:
+does it for you), but you may encounter them when working with sockets, pipes, or custom raw I/O:
 
 ```python
 import io
@@ -16128,7 +16128,7 @@ When you call `open("file.txt", "r", encoding="utf-8")`The returned object is an
 `io.TextIOWrapper` that wraps a `io.BufferedReader` that wraps a `io.FileIO`.
 
 You can detach the underlying binary stream from a `TextIOWrapper` using `f.detach()`. This removes
-The text wrapper and returns the raw buffered stream. After detaching, the `TextIOWrapper` is
+the text wrapper and returns the raw buffered stream. After detaching, the `TextIOWrapper` is
 Unusable. This is useful when you need to switch between text and binary mode on the same underlying
 Stream (which is not otherwise possible with a single `open()` call).
 
@@ -16216,13 +16216,13 @@ finally:
 ### Security Considerations
 
 `tempfile` uses `os.urandom()` to generate unpredictable filenames, preventing race conditions where
-An attacker pre-creates a file with a predictable name (symlink attacks). The default permissions
-Are `0o600` (owner read/write only). Never construct temporary filenames manually (e.g.,
+an attacker pre-creates a file with a predictable name (symlink attacks). The default permissions
+are `0o600` (owner read/write only). Never construct temporary filenames manually (e.g.,
 `f"/tmp/myapp_{os.getpid()}.dat"`) -- the predictability makes symlink attacks trivial.
 
 On shared systems (web servers, CI runners), the temp directory (`/tmp` on Unix) may be
 World-readable. Use `tempfile.mkstemp()` or `NamedTemporaryFile` with `dir` pointing to a directory
-With restricted permissions.
+with restricted permissions.
 
 ## Directory Traversal
 
@@ -16289,7 +16289,7 @@ Paths only (not directories without matches), and it is lazy (returns a generato
 
 `os.scandir()` is a lower-level directory iteration that returns `os.DirEntry` objects. Each
 `DirEntry` caches the `stat` result from the `readdir` system call, avoiding an extra `stat()` call
-When you check `entry.is_file()` or `entry.is_dir()`:
+when you check `entry.is_file()` or `entry.is_dir()`:
 
 ```python
 import os
@@ -16343,7 +16343,7 @@ Using `os.walk()` and `os.unlink()` are error-prone and unnecessary.
 ### `mmap.mmap()`
 
 Memory-mapped files map a file's contents directly into the process's virtual address space. Reads
-And writes to the mapped region operate on the file data without explicit `read()` or `write()`
+and writes to the mapped region operate on the file data without explicit `read()` or `write()`
 Calls. The OS handles paging -- portions of the file are loaded into physical memory on demand and
 Written back when the OS decides to flush.
 
@@ -16460,7 +16460,7 @@ reached, new `open()` calls raise `OSError: [Errno 24] Too many open files`.
 
 The garbage collector will eventually close files, but the timing is nondeterministic. In CPython,
 Reference counting closes files immediately when the last reference is dropped (in most cases), but
-In other implementations (PyPy, with its garbage collector), the delay can be significant. In all
+in other implementations (PyPy, with its garbage collector), the delay can be significant. In all
 Implementations, circular references prevent immediate collection.
 
 ```python
@@ -16478,7 +16478,7 @@ with open("file.txt", "r", encoding="utf-8") as f:
 ### Reading Large Files into Memory
 
 `f.read()` and `f.readlines()` load the entire file into memory. For a 10GB file, this requires 10GB
-Of RAM (plus Python object overhead, which roughly doubles the memory usage for text mode due to the
+of RAM (plus Python object overhead, which roughly doubles the memory usage for text mode due to the
 Str object structure). This triggers `MemoryError` or aggressive swapping.
 
 ```python
@@ -17442,7 +17442,7 @@ value = 1
 ```
 
 TOML does not allow dotted keys to define both a table and a value at the same level. Mixing styles
-For the same path is a parse error.
+for the same path is a parse error.
 
 ### 7. Float Precision in JSON
 
@@ -17703,7 +17703,7 @@ URL: https://python.wyattau.com/06-async/01-async-await/
 Python is, at its core, a sequential language. Statements execute one after another in a single
 Thread of control. Yet real programs must deal with I/O latency (network requests, file reads,
 Database queries), parallelizable computation, and responsive user interfaces. The question is not
-Whether you need concurrency but **which concurrency model** fits your problem.
+whether you need concurrency but **which concurrency model** fits your problem.
 
 Python provides three distinct concurrency mechanisms, each with different trade-offs:
 
@@ -17713,8 +17713,8 @@ Python provides three distinct concurrency mechanisms, each with different trade
 
 Choosing between them requires understanding the Global Interpreter Lock, the nature of your
 Workload (I/O-bound vs CPU-bound), and the cost model of each approach. The sections below build
-From the lowest level (the GIL) upward through threading, multiprocessing, and finally asyncio, so
-The design decisions behind each layer are clear.
+from the lowest level (the GIL) upward through threading, multiprocessing, and finally asyncio, so
+the design decisions behind each layer are clear.
 
 ## The Global Interpreter Lock (GIL)
 
@@ -17767,7 +17767,7 @@ Bytecode at a time. Reference count mutations are serialized without any per-obj
 Overhead.
 
 A second motivation: the GIL simplifies the implementation of C extension modules. Extension authors
-Can manipulate Python objects without writing thread-safe code, because the GIL guarantees exclusive
+can manipulate Python objects without writing thread-safe code, because the GIL guarantees exclusive
 Access. This decision, made in 1991, is a major reason the CPython extension ecosystem is so large.
 
 ### When the GIL Is Not a Problem
@@ -17842,7 +17842,7 @@ Because threads share memory, you need explicit synchronization to prevent data 
 
 A `Lock` is a mutual exclusion primitive. Only one thread can hold the lock at a time. `RLock`
 (reentrant lock) allows the **same thread** to acquire it multiple times without deadlocking, which
-Is useful when a method calls another method that also needs the lock.
+is useful when a method calls another method that also needs the lock.
 
 ```python
 import threading
@@ -17912,7 +17912,7 @@ threading.Thread(target=setter, daemon=True).start()
 #### `Condition`
 
 A `Condition` combines a lock with a wait/notify mechanism. It is useful when threads need to wait
-For a specific state change:
+for a specific state change:
 
 ```python
 import threading
@@ -18019,7 +18019,7 @@ if __name__ == "__main__":
 #### Shared Memory
 
 The `multiprocessing.shared_memory` module (Python 3.8+) provides `SharedMemory` for sharing data
-Between processes without serialization:
+between processes without serialization:
 
 ```python
 from multiprocessing import Process, shared_memory
@@ -18054,7 +18054,7 @@ Use multiprocessing when:
 - The communication overhead between processes is acceptable relative to the computation time.
 
 Do not use multiprocessing for lightweight I/O-bound tasks. The process creation overhead (~10-50ms
-Per process) and IPC serialization cost dwarf the benefit for short-lived, I/O-dominated workloads.
+per process) and IPC serialization cost dwarf the benefit for short-lived, I/O-dominated workloads.
 
 ## `concurrent.futures`
 
@@ -18140,11 +18140,11 @@ Thread-based concurrency has inherent costs even when the GIL is not a problem:
 `asyncio` solves these problems by using **coroutines** -- functions that can suspend and resume
 Voluntarily. There is only one thread and one OS-level context. "Context switching" between
 Coroutines is a Python-level function call that costs ~100 nanoseconds, orders of magnitude cheaper
-Than an OS thread switch.
+than an OS thread switch.
 
 The trade-off: coroutines are **cooperative**, meaning they must explicitly yield control. A
 Long-running CPU-bound computation will block the entire event loop. `asyncio` is not a replacement
-For threading or multiprocessing; it is a specialized tool for I/O-bound concurrency at scale.
+for threading or multiprocessing; it is a specialized tool for I/O-bound concurrency at scale.
 
 ### Coroutines: `async def` and `await`
 
@@ -18200,7 +18200,7 @@ flowchart TD
 ```
 
 When a coroutine awaits an I/O operation, the event loop registers the corresponding file descriptor
-With the OS poller and moves to the next ready coroutine. When the OS reports the descriptor is
+with the OS poller and moves to the next ready coroutine. When the OS reports the descriptor is
 Ready, the event loop places the waiting coroutine back in the ready queue. This is how thousands of
 I/O-bound operations run concurrently on a single thread.
 
@@ -18354,7 +18354,7 @@ asyncio.run(main())
 ```
 
 `TaskGroup` is preferable to `gather()` for new code because it enforces cancellation semantics: if
-One task fails, the others are not silently abandoned. With `gather()`Failed tasks are replaced by
+one task fails, the others are not silently abandoned. With `gather()`Failed tasks are replaced by
 Exceptions in the result list, but other tasks continue running in the background.
 
 ### Async Context Managers
@@ -18623,7 +18623,7 @@ asyncio.run(main())
 ### Forgetting to `await`
 
 Calling an async function without `await` does not execute it. It returns a coroutine object, which
-Is silently discarded:
+is silently discarded:
 
 ```python
 import asyncio
@@ -18741,7 +18741,7 @@ Sampling profilers, and explains the _why_ behind each tool"s design.
 The Python debugger (`pdb`) is a bytecode-level, line-oriented debugger implemented in pure Python.
 It operates by manipulating the frame objects that CPython creates for each function call, setting
 `sys.settrace` callbacks that fire on every call, line, return, and exception event. Understanding
-This is critical: `pdb` is not a separate process observing your program. It is your program, with a
+this is critical: `pdb` is not a separate process observing your program. It is your program, with a
 Trace hook inserted.
 
 ### Basic Entry Points
@@ -18775,9 +18775,9 @@ def compute():
 `breakpoint()` is not syntax, it is a built-in function that calls `sys.breakpointhook()`. By
 Default, `sys.breakpointhook` is set to `pdb.set_trace()`But the crucial difference is that it is
 _configurable_. You can set `PYTHONBREAKPOINT=0` in the environment to make all `breakpoint()` calls
-No-ops in production. You can set `PYTHONBREAKPOINT=ipdb.set_trace` to redirect all breakpoints to
+no-ops in production. You can set `PYTHONBREAKPOINT=ipdb.set_trace` to redirect all breakpoints to
 `ipdb` without changing a single line of code. This is a systems-level concern: your instrumentation
-Should be deployable and removable through configuration, not code changes.
+should be deployable and removable through configuration, not code changes.
 
 You can also start pdb from the command line, instrumenting the entire program from the start:
 
@@ -18786,7 +18786,7 @@ python -m pdb script.py
 ```
 
 This runs the script under pdb control from module load, which means you can set breakpoints before
-Any user code runs. This is essential for debugging import-time side effects, which are invisible to
+any user code runs. This is essential for debugging import-time side effects, which are invisible to
 Inline `breakpoint()` calls placed inside functions.
 
 ### Core pdb Commands
@@ -18817,7 +18817,7 @@ Internals of this call?" If yes, `s`. If no, `n`.
 
 The `u` and `d` commands let you walk the call stack without actually executing any code. This is
 How you inspect the state of a calling function when you are deep inside a callee. You can `u` to
-The caller, `p local_var` to inspect its state, then `d` to return to the callee.
+the caller, `p local_var` to inspect its state, then `d` to return to the callee.
 
 ### The Cost of pdb
 
@@ -18844,7 +18844,7 @@ Condition. Pdb supports conditional breakpoints:
 ```
 
 This sets a breakpoint at line 42 that only triggers when the local variable `x` is greater
-Than 100. The condition is evaluated as a Python expression in the current frame's namespace every
+than 100. The condition is evaluated as a Python expression in the current frame's namespace every
 Time line 42 is reached. If the condition is false, execution continues without stopping.
 
 Why does this matter? Consider a loop processing 10 million records. You know the bug manifests when
@@ -18859,8 +18859,8 @@ Breakpoint, you would have to hit `c` thousands of times. With
 ```
 
 `tbreak` sets a breakpoint that automatically removes itself after it is hit once. This is useful
-When you want to inspect state at a single point during a long execution without having to remember
-To delete the breakpoint afterward.
+when you want to inspect state at a single point during a long execution without having to remember
+to delete the breakpoint afterward.
 
 ### Ignoring Library Code
 
@@ -18897,7 +18897,7 @@ Debugger.
 ### .pdbrc for Startup Commands
 
 Place a `.pdbrc` file in your home directory or the current working directory. Pdb reads this file
-On startup and executes each line as a pdb command. Common uses:
+on startup and executes each line as a pdb command. Common uses:
 
 ```
 ## ~/.pdbrc
@@ -18915,7 +18915,7 @@ Breakpoints.
 When your program crashes with an unhandled exception, the traceback is printed and the process
 Exits. But the traceback frame objects still exist in memory at the moment of the crash. `pdb.pm()`
 (post-mortem) re-attaches pdb to the last exception's traceback, letting you inspect the state at
-The point of failure:
+the point of failure:
 
 ```python
 import pdb
@@ -18938,7 +18938,7 @@ Normal termination). You can then call `pdb.pm()` to inspect the failure state.
 The critical insight about post-mortem debugging is that it requires no advance planning. You do not
 Need to have set breakpoints before the crash. The traceback is a first-class object in Python, and
 Pdb can re-enter it at any time. This makes it indispensable for debugging production crashes where
-You cannot reproduce the failure interactively.
+you cannot reproduce the failure interactively.
 
 You can also use `pdb.Pdb().interaction(None, sys.exc_info()[2])` for more fine-grained control, but
 `pdb.post_mortem()` is the standard entry point.
@@ -18982,8 +18982,8 @@ Key fields and their semantics:
   site-packages or the standard library. When `false`You step into everything.
 
 Watch expressions in VS Code are evaluated in the current frame's context on every pause. They are
-Not free, each watch expression requires the debug adapter to serialize the result back to the IDE
-Over DAP. If you have complex watch expressions and notice the debugger feels sluggish, reduce the
+not free, each watch expression requires the debug adapter to serialize the result back to the IDE
+over DAP. If you have complex watch expressions and notice the debugger feels sluggish, reduce the
 Number of watches.
 
 The debug console in VS Code is a full Python REPL running in the context of the debugged process.
@@ -18993,7 +18993,7 @@ This is not a simulation, it is the actual process.
 ### PyCharm Debugger
 
 PyCharm's debugger is implemented using the Python Debug Server Protocol (a proprietary predecessor
-To DAP). It works similarly to the VS Code debugger but is tightly integrated with PyCharm's code
+to DAP). It works similarly to the VS Code debugger but is tightly integrated with PyCharm's code
 Analysis. PyCharm's debugger supports:
 
 - Evaluate expression on pause (same as VS Code watch expressions).
@@ -19003,7 +19003,7 @@ Analysis. PyCharm's debugger supports:
 - Method breakpoints (break on entry to any method of a class).
 
 The "force return" feature is particularly powerful. If you have reached a point in the code where
-You understand the bug and want to skip the remaining computation with a known-good value, you can
+you understand the bug and want to skip the remaining computation with a known-good value, you can
 Force return that value without modifying the source.
 
 ### Remote Debugging with debugpy
@@ -19042,7 +19042,7 @@ On your local machine, configure VS Code to attach:
 ```
 
 The `pathMappings` field is critical. The remote process has its own filesystem paths. The local IDE
-Has different paths. `pathMappings` tells the debug adapter how to translate between them. If you
+has different paths. `pathMappings` tells the debug adapter how to translate between them. If you
 Set a breakpoint in `/home/user/project/main.py` locally but the remote process loaded
 `/app/main.py`The path mapping ensures the breakpoint lands in the right place.
 
@@ -19056,7 +19056,7 @@ python -m debugpy --listen 5678 --pid <PID>
 ```
 
 This injects debugpy into the target process by writing to `/proc/<PID>/mem` on Linux. It works
-Because CPython's `importlib` machinery can be manipulated from outside the process. The debugpy
+because CPython's `importlib` machinery can be manipulated from outside the process. The debugpy
 Module is loaded into the running process, sets up the trace hook, and begins accepting DAP
 Connections.
 
@@ -19212,7 +19212,7 @@ logger.error("Request failed", extra={"request_id": "abc123", "status_code": 500
 ```
 
 The `extra` parameter on log calls is the mechanism for attaching structured metadata. These fields
-Are stored as attributes on the `LogRecord` object and can be accessed by custom formatters. This is
+are stored as attributes on the `LogRecord` object and can be accessed by custom formatters. This is
 How you attach request IDs, trace IDs, user IDs, and other operational metadata to log messages.
 
 ## traceback Module
@@ -19233,7 +19233,7 @@ except Exception:
 ```
 
 `traceback.print_exc()` prints the full traceback to `sys.stderr`. It is equivalent to what Python
-Does automatically for unhandled exceptions, but you call it explicitly inside your `except` block.
+does automatically for unhandled exceptions, but you call it explicitly inside your `except` block.
 This is useful when you catch an exception, log it, and then re-raise or handle it.
 
 ```python
@@ -19245,7 +19245,7 @@ except Exception:
 ```
 
 `traceback.format_exc()` returns the traceback as a string instead of printing it. This is the form
-You use when you want to store the traceback in a log, a database, or an error reporting service.
+you use when you want to store the traceback in a log, a database, or an error reporting service.
 
 ```python
 traceback.print_stack(file=sys.stdout)
@@ -19283,7 +19283,7 @@ sys.excepthook = custom_excepthook
 
 Critical detail: always delegate to `sys.__excepthook__` at the end. If your custom hook raises an
 Exception, Python enters an infinite loop of exception handling. The `sys.__excepthook__` reference
-Is the original hook that Python saved at startup.
+is the original hook that Python saved at startup.
 
 Also note the `KeyboardInterrupt` guard. `KeyboardInterrupt` is not an error, it is the user
 Pressing Ctrl+C. Your error reporting hook should not fire for it.
@@ -19320,7 +19320,7 @@ except ValueError:
 ```
 
 This produces a clean traceback with no mention of the original `ValueError`. Use `from None` when
-The original exception is an implementation detail that would confuse the user or operator.
+the original exception is an implementation detail that would confuse the user or operator.
 
 The `__cause__` and `__context__` attributes are set by the interpreter. `__suppress_context__` is
 Set to `True` when you use `from e` or `from None`Which tells the traceback formatter to prefer
@@ -19442,7 +19442,7 @@ print(f"Median: {sorted(times)[len(times)//2]:.6f}s")
 `timeit.timeit()` runs the statement `number` times and returns the total time. `timeit.repeat()`
 Runs `timeit()` multiple times (default 5) and returns a list of total times. Always use `repeat()`
 And report the minimum or median, the minimum is the most accurate because it represents the run
-With the least external interference from the OS scheduler, cache effects, and other noise.
+with the least external interference from the OS scheduler, cache effects, and other noise.
 
 ### Common Gotchas
 
@@ -19532,7 +19532,7 @@ Focus your optimization effort.
 ### line_profiler vs cProfile
 
 CProfile operates at function granularity. It tells you that `process_records` took 4 seconds, but
-Not which line caused it. `line_profiler` operates at line granularity. It tells you exactly which
+not which line caused it. `line_profiler` operates at line granularity. It tells you exactly which
 Line inside `process_records` is slow.
 
 The tradeoff: `line_profiler` is significantly slower than cProfile because it inserts a trace
@@ -19786,7 +19786,7 @@ def compute(values):
 ```
 
 In CPython, local variable access uses the `LOAD_FAST` bytecode instruction, which indexes directly
-Into the frame's `fastlocals` array. This is an array lookup, O(1) with very low constant factor.
+into the frame's `fastlocals` array. This is an array lookup, O(1) with very low constant factor.
 Global variable access uses `LOAD_GLOBAL`Which performs a dictionary lookup in the module's
 `__dict__`. Dictionary lookup involves hash computation, comparison, and potential collision
 Resolution. For a hot loop, the difference is measurable.
@@ -19873,7 +19873,7 @@ access is faster (descriptor lookup vs dictionary lookup).
 The memory savings are significant at scale. An instance with `__slots__` uses approximately 48
 Bytes on 64-bit CPython. Without `__slots__`The same instance uses approximately 200+ bytes
 (depending on the number of attributes). If you are creating millions of instances, the difference
-Is hundreds of megabytes.
+is hundreds of megabytes.
 
 Tradeoffs:
 
@@ -19890,7 +19890,7 @@ Tradeoffs:
 `breakpoint()` and `pdb.set_trace()` halt the process and wait for stdin. In a production service,
 This means the process hangs indefinitely, requests time out, and health checks fail. The fix is
 Simple: set `PYTHONBREAKPOINT=0` in your production environment. This makes all `breakpoint()` calls
-No-ops without requiring code changes. Better yet, use a linter rule that forbids `pdb` imports and
+no-ops without requiring code changes. Better yet, use a linter rule that forbids `pdb` imports and
 `breakpoint()` calls in production code paths.
 
 ### 2. Trusting cProfile for I/O-Bound Code
@@ -19913,20 +19913,20 @@ Higher, and use `timeit.repeat()` to verify consistency across runs.
 The Global Interpreter Lock (GIL) means that only one thread executes Python bytecode at a time.
 CProfile profiles the thread that calls it, not all threads. If your program uses threading for
 Concurrency, you may be profiling the wrong thread. For multi-threaded profiling, attach cProfile to
-Each thread individually, or use py-spy which profiles all threads simultaneously.
+each thread individually, or use py-spy which profiles all threads simultaneously.
 
 ### 5. Using print() for Debugging and Forgetting to Remove It
 
 This is the most common debugging pitfall. `print()` statements in code are technical debt. They
 Clutter logs, they have no metadata, and they cannot be controlled at runtime. The solution is to
 Use `logging` from the start. If you must use print during development, establish a convention (grep
-For `print(` before committing) or use a pre-commit hook that rejects print statements outside of
+for `print(` before committing) or use a pre-commit hook that rejects print statements outside of
 `__main__` blocks.
 
 ### 6. Profiling Debug Builds
 
 Always profile release builds. Debug builds of C extensions (NumPy, pandas, etc.) may be compiled
-Without optimizations (`-O0`), which produces dramatically different performance characteristics.
+without optimizations (`-O0`), which produces dramatically different performance characteristics.
 Verify that your profiling environment matches your production environment: same Python version,
 Same C extension versions, same compiler flags.
 
@@ -19941,8 +19941,8 @@ Functions and sampling profilers (py-spy) for long-running, CPU-intensive functi
 ### 8. Memory Profiler Reporting Leaks That Are Not Leaks
 
 Python's memory allocator (pymalloc) manages its own memory pool. When objects are freed, the memory
-Is returned to pymalloc's pool, not to the OS. This means that RSS may not decrease after objects
-Are freed. This is not a memory leak, it is the allocator retaining memory for future allocations.
+is returned to pymalloc's pool, not to the OS. This means that RSS may not decrease after objects
+are freed. This is not a memory leak, it is the allocator retaining memory for future allocations.
 To detect true memory leaks, use `tracemalloc` from the standard library, which tracks Python-level
 Allocations at the object level:
 
@@ -19981,7 +19981,7 @@ for item in items:
 ```
 
 In a loop processing 10 million items, the f-string version creates 10 million formatted strings
-That are immediately discarded (because the log level is likely INFO or above in production). The
+that are immediately discarded (because the log level is likely INFO or above in production). The
 `%s` version defers formatting to the logging framework, which only interpolates the string if the
 Message passes the log level filter. This is not a micro-optimization, it is the difference between
 A function that runs in 1 second and one that runs in 10 seconds.
@@ -20546,7 +20546,7 @@ def binary_search(arr, target):
 
 :::caution
 The `__debug__` constant. **Never use assertions for data validation or runtime checks**, they are
-For debugging and documenting invariants:
+for debugging and documenting invariants:
 
 ```python
 # WRONG, assertion disabled in production
@@ -20580,7 +20580,7 @@ def test_config_defaults():
 ## Input Validation at Boundaries
 
 Validate input at the edges of your system, API endpoints, file readers, CLI parsers, and trust
-The data internally:
+the data internally:
 
 ```python
 from dataclasses import dataclass
@@ -21162,7 +21162,7 @@ where = ["src"]
 
 :::caution
 `setup.py` file can still exist for complex build logic that cannot be expressed declaratively, but
-Most projects do not need it.
+most projects do not need it.
 :::
 
 ## setuptools
@@ -22106,7 +22106,7 @@ class Derived(Base):
 
 The distinction between `_private` and `__mangled` is worth understanding precisely. A single
 Leading underscore is a convention that signals "this is an implementation detail, don't use it from
-Outside the class." It is not enforced by the interpreter -- any code can access `_private`
+outside the class." It is not enforced by the interpreter -- any code can access `_private`
 Attributes freely. A double leading underscore triggers name mangling: the interpreter rewrites
 `__name` to `_ClassName__name`Which makes it harder (but not impossible) to accidentally access From
 subclasses.
@@ -22210,7 +22210,7 @@ from myapp.models import User
 ## Type Annotations
 
 Type annotations make contracts between code units explicit. In a dynamically-typed language, they
-Are the most cost-effective tool for preventing a large class of bugs: passing the wrong type to a
+are the most cost-effective tool for preventing a large class of bugs: passing the wrong type to a
 Function, returning an inconsistent type from a method, or misinterpreting the shape of a data
 Structure.
 
@@ -22303,7 +22303,7 @@ result = complex_third_party_function(data)  # type: ignore[return-value]  # bug
 
 If you find yourself writing `# type: ignore` frequently, the problem is likely with your type
 Annotations or the library's stubs, not the type checker. File issues upstream or contribute fixes
-To `typeshed`.
+to `typeshed`.
 
 ## Virtual Environments
 
@@ -22336,7 +22336,7 @@ deactivate
 ### Why Not Use the System Python
 
 The system Python is managed by the OS package manager (apt, brew, etc.). Installing packages into
-It with `pip` can overwrite files that the OS depends on. More importantly, the system Python's
+it with `pip` can overwrite files that the OS depends on. More importantly, the system Python's
 Package versions are pinned to whatever the OS distributor chose, which may conflict with your
 Project's requirements. Virtual environments eliminate both problems.
 
@@ -22506,7 +22506,7 @@ The `src` layout places the importable package inside a `src/` directory. This s
 Unnecessary nesting, but it solves a subtle and serious problem.
 
 When you run `pip install -e .` (editable install) with a flat layout, Python adds the project root
-To `sys.path`. This means `import myproject` resolves to the local directory **before** any
+to `sys.path`. This means `import myproject` resolves to the local directory **before** any
 Installed version. If you have `requests` installed globally and also have a file called
 `requests.py` in your project root, your local file shadows the real package. This can cause
 Extremely confusing import errors, especially when the shadowing only happens during testing
@@ -22532,7 +22532,7 @@ import myproject.models  # resolves to .venv/lib/.../myproject/models.py (instal
 ```
 
 A secondary benefit: the `src` layout makes it obvious which files are part of the package and which
-Are project configuration. Everything under `src/` is package code. Everything at the root is
+are project configuration. Everything under `src/` is package code. Everything at the root is
 Project infrastructure.
 
 ### Recommended Directory Structure
@@ -22596,7 +22596,7 @@ Special assertion methods.
 ### Fixtures
 
 Fixtures are pytest's dependency injection system. They provide a reusable way to set up and tear
-Down test resources.
+down test resources.
 
 ```python
 import pytest
@@ -22644,7 +22644,7 @@ Fixtures have scopes that control when they are created and torn down:
 ### Parametrize
 
 Parametrized tests replace copy-pasted test functions with a data-driven approach. One test function
-Can cover dozens of input combinations.
+can cover dozens of input combinations.
 
 ```python
 import pytest
@@ -22705,9 +22705,9 @@ pytest --cov=myproject --cov-fail-under=80 tests/
 ```
 
 Coverage is a useful metric, but treat it as a minimum bar, not a quality target. 100% coverage does
-Not mean bug-free code -- it means every line was executed, not that every meaningful input
+not mean bug-free code -- it means every line was executed, not that every meaningful input
 Combination was tested. Conversely, 60% coverage on a well-tested critical path is more valuable
-Than 95% coverage achieved by testing trivial getters and setters.
+than 95% coverage achieved by testing trivial getters and setters.
 
 ### Configuration
 
@@ -22807,7 +22807,7 @@ typeCheckingMode = "strict"
 ```
 
 Run both in CI. `mypy` and `pyright` catch different categories of errors. `mypy` is more permissive
-By default (even in `strict` mode), while `pyright` is more aggressive about catching potential
+by default (even in `strict` mode), while `pyright` is more aggressive about catching potential
 `None` dereferences and type narrowing edge cases. When both pass, you have high confidence in your
 Type annotations.
 
@@ -22823,7 +22823,7 @@ pyright src/
 Python uses exceptions for error handling, not return codes. This is a fundamental design choice:
 Exceptions propagate automatically through the call stack, while return codes require explicit
 Checking at every level. A function ten frames deep that encounters an error cannot communicate it
-To the caller through a return value without every intermediate function explicitly checking and
+to the caller through a return value without every intermediate function explicitly checking and
 Re-raising.
 
 ```python
@@ -22922,7 +22922,7 @@ Use `raise ... from None` to suppress the original exception's traceback when it
 ### The Problem Context Managers Solve
 
 When a function acquires a resource (file handle, database connection, network socket, lock), it
-Must release that resource regardless of whether the function completes normally or raises an
+must release that resource regardless of whether the function completes normally or raises an
 Exception. Manual release requires a `try/finally` block, which is verbose and error-prone -- it is
 Easy to forget the `finally` clause.
 
@@ -23280,7 +23280,7 @@ Code), and it cannot store tool configuration. Migrate to `pyproject.toml` when 
 ## Putting It All Together
 
 A well-configured Python project uses these tools in concert. The development workflow looks like
-This:
+this:
 
 1. **Editor integration.** Your editor runs `ruff` on save for instant linting and formatting
    feedback. It runs `pyright` or `mypy` in the background for type checking.
@@ -23315,8 +23315,8 @@ jobs:
 ```
 
 This layered approach catches problems at the earliest possible stage: the editor catches them as
-You type, pre-commit catches them before they are committed, and CI catches anything that slips
-Through both. The result is a codebase where style violations, type errors, and failing tests are
+you type, pre-commit catches them before they are committed, and CI catches anything that slips
+through both. The result is a codebase where style violations, type errors, and failing tests are
 Fixed immediately, not discovered weeks later during code review.
 
 ## Common Pitfalls
@@ -23392,15 +23392,15 @@ URL: https://python.wyattau.com/08-advanced-topics/01-advanced-typing/
 
 Python is dynamically typed: a single function object can be called with any combination of
 Arguments. But type checkers need to know what types are acceptable and what the return type is for
-Each valid combination. `typing.overload` solves this by letting you declare multiple signatures for
-The same callable, followed by a single implementation that carries the actual runtime logic.
+each valid combination. `typing.overload` solves this by letting you declare multiple signatures for
+the same callable, followed by a single implementation that carries the actual runtime logic.
 
 ### Mechanism
 
 The `@overload` decorator does **nothing at runtime**. It is a no-op that returns the decorated
 Function unchanged. Its sole purpose is to signal to static type checkers (mypy, pyright,
 Pyright-based editors) that the decorated function has multiple type signatures. At runtime, only
-The implementation function exists; the overload definitions are effectively erased.
+the implementation function exists; the overload definitions are effectively erased.
 
 The pattern is always: one or more `@overload`-decorated stubs (with no body, using `...`), then a
 Single implementation:
@@ -23428,7 +23428,7 @@ def process(data):
 Each overload stub must be consistent in the sense that a type checker can determine which overload
 Applies at each call site. The implementation signature is not checked against the overloads -- the
 Implementation can have a broad signature like `def process(data: Any) -> Any:` and type checkers
-Will not complain, because they understand that the implementation is the fallback.
+will not complain, because they understand that the implementation is the fallback.
 
 ### Overloads with `@staticmethod` and `@classmethod`
 
@@ -23456,9 +23456,9 @@ class Parser:
 ```
 
 The reason for this ordering: `@staticmethod` and `@classmethod` are descriptor-based decorators
-That transform the function object into a different kind of descriptor. If you put `@overload` on
+that transform the function object into a different kind of descriptor. If you put `@overload` on
 Top, it would try to decorate the result of `@staticmethod` (a `staticmethod` descriptor), which is
-Not a function and would confuse the type checker"s overload tracking. The type checker needs to see
+not a function and would confuse the type checker"s overload tracking. The type checker needs to see
 `@overload` applied to a plain function so it can extract the signature.
 
 ### Limitations
@@ -23697,7 +23697,7 @@ The type checker will not catch it -- you need runtime validation for that.
 ## TypeVarTuple (PEP 646)
 
 `TypeVarTuple` introduces variadic generics to Python's type system. It allows you to define types
-That operate over a variable number of type parameters, analogous to how `*args` captures a variable
+that operate over a variable number of type parameters, analogous to how `*args` captures a variable
 Number of positional arguments at runtime.
 
 ### Motivation
@@ -23868,7 +23868,7 @@ else:
 ```
 
 The critical asymmetry: `TypeGuard` allows widening in the `True` branch. That is, the narrowed type
-Does not have to be a subtype of the input type. For example, a function that checks whether a
+does not have to be a subtype of the input type. For example, a function that checks whether a
 String is actually a valid JSON document could return `TypeGuard[dict[str, object]]` even though the
 Input type is `str`. This makes `TypeGuard` flexible but also potentially unsound -- the type
 Checker trusts your assertion without verification.
@@ -23901,7 +23901,7 @@ When to use which:
 | Soundness                 | Trusts you  | Checked  |
 
 Use `TypeIs` by default when the narrowed type is a subtype of the input. Use `TypeGuard` only when
-You need to widen (e.g., parsing a string into a structured type).
+you need to widen (e.g., parsing a string into a structured type).
 
 ### `@overload` Pattern with TypeGuard
 
@@ -23979,7 +23979,7 @@ class Builder:
 ```
 
 This works but is verbose, error-prone (you must remember to use the `TypeVar` consistently), and
-Does not work correctly for `__init_subclass__` or class methods in all type checkers. `Self` is
+does not work correctly for `__init_subclass__` or class methods in all type checkers. `Self` is
 Strictly superior.
 
 ## Final and ClassVar
@@ -24023,7 +24023,7 @@ API_VERSION: Final = "v1"
 ```
 
 At the module level, `Final` tells the type checker that the name is a constant. Any reassignment
-Will be flagged as a type error.
+will be flagged as a type error.
 
 At the class level, `Final` prevents subclasses from overriding the attribute:
 
@@ -24062,7 +24062,7 @@ Linked lists, JSON-like nested data, and any data structure with arbitrary depth
 ### Forward References
 
 Before Python 3.11, you needed string quotes for forward references when a type refers to a class
-That has not been defined yet:
+that has not been defined yet:
 
 ```python
 from typing import Optional
@@ -24113,7 +24113,7 @@ def process(data: JSONValue) -> None:
 ```
 
 The type checker resolves the forward reference `"JSONValue"` by looking it up after the full module
-Has been processed. This works because type checkers perform multiple passes over the source.
+has been processed. This works because type checkers perform multiple passes over the source.
 
 ### Tree Types
 
@@ -24134,7 +24134,7 @@ class Tree(Generic[T]):
 ## Type Narrowing
 
 Type narrowing is the process by which a type checker reduces (narrows) the type of a variable based
-On control flow. Understanding exactly what triggers narrowing is essential for writing type-checked
+on control flow. Understanding exactly what triggers narrowing is essential for writing type-checked
 Code that compiles cleanly.
 
 ### Mechanisms
@@ -24168,7 +24168,7 @@ def process(value: str | None) -> str:
 
 Note: use `is None` / `is not None`Not `== None`. Some type checkers do not narrow on `== None`
 Because `__eq__` can be overridden to return arbitrary results. `is None` checks identity and cannot
-Be overridden.
+be overridden.
 
 **Truthiness narrowing:**
 
@@ -24193,7 +24193,7 @@ def process(items: list[int]) -> int:
 ```
 
 Some type checkers narrow `list[int]` to `list[int]` (no useful narrowing) while others narrow to a
-Non-empty list type. Check your type checker's documentation for specifics.
+non-empty list type. Check your type checker's documentation for specifics.
 
 **`assert`:**
 
@@ -24234,7 +24234,7 @@ def process(data: dict[str, object]) -> int:
 If `data["id"]` is actually a string at runtime, `cast` will not raise an error. The program will
 Proceed with whatever value is there, potentially causing a downstream failure. `cast` is a tool for
 Last-resort cases where you know the type better than the type checker (e.g., after a runtime check
-That the type checker cannot understand, or when interfacing with untyped code).
+that the type checker cannot understand, or when interfacing with untyped code).
 
 Prefer `isinstance` checks over `cast` wherever possible. `cast` should be a controlled escape
 Hatch, not a default pattern.
@@ -24263,7 +24263,7 @@ class Box(Generic[T]):
 ```
 
 At runtime, `Box[int]` and `Box[str]` are the same class (`Box`). The type parameter exists only in
-The type system. This is called **type erasure**, and it is the same model used by Java's generics.
+the type system. This is called **type erasure**, and it is the same model used by Java's generics.
 
 ### Multiple Type Parameters
 
@@ -24374,7 +24374,7 @@ Checker preserves the relationship.
 
 A `.pyi` file is a type stub file. It contains **only** type annotations and no executable code.
 Type checkers use `.pyi` files as the source of type information for a module, preferentially over
-The corresponding `.py` file.
+the corresponding `.py` file.
 
 ```python
 # my_module.pyi
@@ -24428,7 +24428,7 @@ Comes from `typeshed/stdlib/json.pyi`.
 
 Stubs frequently use `@overload` to document the multiple signatures of functions that accept
 Different argument types. This is especially common for built-in functions and stdlib functions that
-Have evolved over many Python versions:
+have evolved over many Python versions:
 
 ```python
 # typeshed/stdlib/builtins.pyi (simplified)
@@ -24670,7 +24670,7 @@ import Citations from '@components/Citations.astro'
 ## The with Statement
 
 The `with` statement guarantees that setup and teardown code runs, even if an exception occurs in
-The block body. It is the primary mechanism for resource management in Python.
+the block body. It is the primary mechanism for resource management in Python.
 
 ```python
 ## Basic form
@@ -25579,11 +25579,11 @@ URL: https://python.wyattau.com/08-advanced-topics/02-data-validation/
 ## Why Data Validation
 
 Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed
-From JSON, rows read from CSV files, configuration loaded from environment variables, messages
+from JSON, rows read from CSV files, configuration loaded from environment variables, messages
 Pulled from a message queue. At the moment data crosses a system boundary, all assumptions you hold
-About its shape, type, and semantic validity are void. The remote caller may send a string where you
+about its shape, type, and semantic validity are void. The remote caller may send a string where you
 Expect an integer, omit a required field entirely, or supply a negative value for a quantity that
-Must be positive. Without explicit validation at every boundary, corrupt data propagates inward,
+must be positive. Without explicit validation at every boundary, corrupt data propagates inward,
 Corrupting internal state, triggering downstream errors that are difficult to trace back to their
 Origin, and in the worst case producing silent incorrect results -- the most dangerous category of
 Software failure.
@@ -25596,9 +25596,9 @@ Validation must happen at **system boundaries**: the outermost layer where exter
 Application. This includes API endpoints (HTTP request/response bodies, query parameters, path
 Parameters), configuration loading (environment variables, `.env` files, YAML/TOML config files),
 User input (CLI arguments, form submissions), and file parsing (CSV, JSON, XML, protobuf). Once data
-Has been validated and normalized at a boundary, internal code can operate on it with confidence,
+has been validated and normalized at a boundary, internal code can operate on it with confidence,
 Treating it as trusted. The boundary is the choke point: every piece of untrusted data must pass
-Through it before reaching any business logic.
+through it before reaching any business logic.
 
 This raises a critical distinction: **validation vs parsing**. Parsing transforms raw bytes or
 Strings into structured Python objects. Validation checks that the resulting objects satisfy
@@ -25611,15 +25611,15 @@ Tell the caller exactly what is wrong and where.
 **Runtime type checking vs static typing** is another axis worth clarifying. Static type checkers
 Like mypy analyze your source code at development time and catch type mismatches in function
 Signatures and variable assignments. They do not -- and cannot -- check data that arrives at runtime
-From external sources. A function annotated as `def process(user_id: int)` tells mypy that callers
-Should pass an int, but nothing prevents a JSON payload containing `"user_id": "not-a-number"` from
+from external sources. A function annotated as `def process(user_id: int)` tells mypy that callers
+should pass an int, but nothing prevents a JSON payload containing `"user_id": "not-a-number"` from
 Reaching that function at runtime. Static typing catches programmer errors; runtime validation
 Catches data errors. You need both, and they serve different purposes.
 
 Python's standard library provides only minimal validation primitives: `isinstance()` checks,
 `int()` and `float()` constructors that raise `ValueError`And manual if/else chains. These are
 Tedious to write, easy to get wrong, and produce poor error messages. The ecosystem has produced
-Several libraries that address this gap, the most prominent being Pydantic, attrs, and marshmallow.
+several libraries that address this gap, the most prominent being Pydantic, attrs, and marshmallow.
 
 ## Pydantic v2
 
@@ -25636,7 +25636,7 @@ pip install pydantic
 ### BaseModel
 
 The central abstraction is `BaseModel`. You define a class that inherits from it, declare fields
-With type annotations, and Pydantic constructs a model that validates and coerces data on
+with type annotations, and Pydantic constructs a model that validates and coerces data on
 Instantiation.
 
 ```python
@@ -25717,7 +25717,7 @@ well-documented in the Pydantic docs.
 ### Validation Errors
 
 When validation fails, Pydantic raises `ValidationError`Which carries structured information about
-Every problem found in the input.
+every problem found in the input.
 
 ```python
 from pydantic import BaseModel, ValidationError
@@ -25751,7 +25751,7 @@ JSON and return it directly in an API error response.
 
 `Field()` is the mechanism for attaching validation constraints beyond what the type annotation
 Expresses. A plain `int` annotation tells Pydantic the value must be an integer; `Field(gt=0)` tells
-It the integer must be strictly greater than zero.
+it the integer must be strictly greater than zero.
 
 ### Numeric Constraints
 
@@ -25795,7 +25795,7 @@ The constraint parameters for `str` are:
 | `pattern`    | regex pattern the string must match |
 
 Note: `pattern` uses Python's `re` module. The regex is matched against the entire string (anchored
-At both ends), so you do not need `^` and `$` anchors, though including them is harmless.
+at both ends), so you do not need `^` and `$` anchors, though including them is harmless.
 
 ### Default Values and Factories
 
@@ -25877,7 +25877,7 @@ class User(BaseModel):
 ```
 
 The `info` argument is a `ValidationInfo` object. Its `data` attribute contains a dict of fields
-That have already been validated (in declaration order). This enables cross-field validation:
+that have already been validated (in declaration order). This enables cross-field validation:
 Checking that `password_confirm` equals `password`That `end_date` is after `start_date`Etc.
 
 Note that `info.data` only contains fields declared **before** the current field. If you need to
@@ -25933,7 +25933,7 @@ class Document(BaseModel):
 ### Wildcard Validators
 
 `@field_validator("*")` applies to every field in the model. This is useful for transformations that
-Must apply uniformly, such as stripping whitespace from all string fields.
+must apply uniformly, such as stripping whitespace from all string fields.
 
 ```python
 from pydantic import BaseModel, field_validator
@@ -25994,7 +25994,7 @@ class Event(BaseModel):
 ## Nested Models
 
 Real-world data is hierarchical. A user has an address, which has a city and postal code. An order
-Has a list of line items. A configuration has nested sections. Pydantic handles all of these by
+has a list of line items. A configuration has nested sections. Pydantic handles all of these by
 using models as field types.
 
 ### Models as Fields
@@ -26091,7 +26091,7 @@ print(tree.model_dump_json(indent=2))
 
 This recursively serializes the entire tree to a JSON string. Each nested `Node` is serialized
 According to its own model definition. The `indent` parameter produces pretty-printed output, which
-Is useful for debugging but should not be used in production (larger payloads, slower
+is useful for debugging but should not be used in production (larger payloads, slower
 Serialization).
 
 ## Serialization
@@ -26149,7 +26149,7 @@ event.model_dump(exclude_unset=True)
 
 `exclude_defaults` and `exclude_unset` have subtly different semantics. `exclude_defaults` omits any
 Field whose value equals its default (whether or not the caller provided it). `exclude_unset` omits
-Only fields that the caller did not provide (even if the default was applied). This distinction
+only fields that the caller did not provide (even if the default was applied). This distinction
 Matters when a caller explicitly passes a value that happens to equal the default.
 
 ### Custom Serializers
@@ -26235,7 +26235,7 @@ uses dataclasses extensively and you want to add validation without changing the
 Architecture.
 
 Do not mix them casually. A `BaseModel` instance is not a dataclass and vice versa. Pick one pattern
-Per module and stick with it.
+per module and stick with it.
 
 ## JSON Schema
 
@@ -26267,9 +26267,9 @@ translated to their JSON Schema equivalents (`minLength``pattern``minimum`/`maxi
 
 FastAPI uses `model_json_schema()` internally to generate OpenAPI documentation. When you declare a
 Pydantic model as a request body or response model, FastAPI extracts the schema and includes it in
-The auto-generated `/docs` and `/openapi.json` endpoints. This is why FastAPI's interactive
+the auto-generated `/docs` and `/openapi.json` endpoints. This is why FastAPI's interactive
 Documentation is so detailed -- it is driven entirely by the type annotations and field constraints
-In your Pydantic models.
+in your Pydantic models.
 
 ### Validating External Data Against a Schema
 
@@ -26454,7 +26454,7 @@ External input. If you are defining a configuration schema, an API contract, or 
 Touches untrusted data, use Pydantic.
 
 Attrs has near-zero runtime overhead compared to Pydantic because it does not perform type coercion
-Or complex validation by default. The validator functions you attach are plain Python callables that
+or complex validation by default. The validator functions you attach are plain Python callables that
 Run only when you set them up. For performance-sensitive inner-loop code, this matters.
 
 ## marshmallow
@@ -26462,7 +26462,7 @@ Run only when you set them up. For performance-sensitive inner-loop code, this m
 Marshmallow is an object serialization/deserialization library with a different philosophy from
 Pydantic. It explicitly separates **parsing** (deserialization: external data -> Python objects)
 From **validation** (checking constraints). This separation is a feature, not a bug -- it allows you
-To define different validation rules for input vs output, and it makes the parsing and validation
+to define different validation rules for input vs output, and it makes the parsing and validation
 Steps independently testable.
 
 ```bash
@@ -26538,7 +26538,7 @@ Django-Marshmallow, webargs for argument parsing).
 
 Marshmallow does not perform type coercion the way Pydantic does. If you pass `"42"` where an
 Integer is expected, marshmallow raises a validation error rather than silently converting it. This
-Is a more conservative approach that makes data transformations explicit. Whether this is an
+is a more conservative approach that makes data transformations explicit. Whether this is an
 Advantage or disadvantage depends on your use case.
 
 ## Common Pitfalls
@@ -26557,7 +26557,7 @@ class Good(BaseModel):
 
 In Pydantic v2, `items: list = []` is actually safe because Pydantic copies the default on each
 Instantiation. However, this is a subtle behavioral difference from stdlib dataclasses, and relying
-On it makes your code fragile if you ever migrate away from Pydantic. Always use
+on it makes your code fragile if you ever migrate away from Pydantic. Always use
 `Field(default_factory=list)` to make the intent explicit and portable.
 
 ### Ordering of Field Validators
@@ -26569,7 +26569,7 @@ First. Otherwise, `info.data` in `b`"s validator will not contain `a`. If you ca
 ### Strict Mode
 
 Pydantic coerces by default. `user = User(id="42")` works because `"42"` is coerced to `42`. If you
-Do not want coercion -- if `"42"` should be a validation error because the caller sent a string --
+do not want coercion -- if `"42"` should be a validation error because the caller sent a string --
 Use strict mode:
 
 ```python
@@ -26623,7 +26623,7 @@ class Config(BaseSettings):
 ```
 
 `BaseSettings` is **not** in the `pydantic` package in v2. It was moved to `pydantic-settings`. This
-Is a common source of `ImportError` when migrating from v1.
+is a common source of `ImportError` when migrating from v1.
 
 ### Validation Runs at Construction Time, Not Assignment Time
 
@@ -26664,8 +26664,8 @@ Expected format.
 ### marshmallow Schemas Are Not Type-Annotated
 
 Marshmallow's `Schema` class uses instance attributes (`fields.String()``fields.Integer()`) rather
-Than Python type annotations. This means mypy cannot infer the shape of `schema.load(data)` -- it
-Will type it as `dict[str, Any]`. Pydantic's type-annotated models integrate with mypy out of the
+than Python type annotations. This means mypy cannot infer the shape of `schema.load(data)` -- it
+will type it as `dict[str, Any]`. Pydantic's type-annotated models integrate with mypy out of the
 Box, giving you static type checking for free. If type safety is a priority, this is a significant
 Advantage for Pydantic.
 

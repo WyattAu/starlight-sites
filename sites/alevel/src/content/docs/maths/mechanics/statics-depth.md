@@ -216,7 +216,7 @@ $\dfrac{2}{3}$ from the apex. $\blacksquare$
 ### 3.3 Composite bodies
 
 For a body composed of several parts with known centres of mass, the overall centre of mass is found
-By treating each part as a particle at its own centre of mass.
+by treating each part as a particle at its own centre of mass.
 
 ### 3.4 Worked example: composite lamina
 
@@ -386,7 +386,7 @@ This analysis continues joint by joint until all rod forces are determined.
 ### 5.3 Method of sections
 
 For large frameworks, the **method of sections** is often more efficient. An imaginary cut is made
-Through the framework, and equilibrium of one of the resulting sections is analysed.
+through the framework, and equilibrium of one of the resulting sections is analysed.
 
 <hr />
 
@@ -421,7 +421,7 @@ Vertical reaction $V = 200 - T\sin 30^\circ = 200 - 100 = 100\;\mathrm{N}$.
 
 A uniform lamina is formed from a square of side $10\;\mathrm{cm}$ with a right-angled triangle of
 Base $10\;\mathrm{cm}$ and height $6\;\mathrm{cm}$ attached to one side. Find the centre of mass of
-The composite lamina.
+the composite lamina.
 
 <details>
 <summary>Solution</summary>
@@ -483,7 +483,7 @@ slip** at the ground.
 A uniform rod $AB$ of length $3\;\mathrm{m}$ and weight $80\;\mathrm{N}$ is freely hinged at $A$ to
 A vertical wall. The rod is held horizontal by a string attached to $B$ and to a point $C$ on the
 Wall $2\;\mathrm{m}$ above $A$. A load of $120\;\mathrm{N}$ is hung from $B$. Find the tension in
-The string.
+the string.
 
 <details>
 <summary>Solution</summary>

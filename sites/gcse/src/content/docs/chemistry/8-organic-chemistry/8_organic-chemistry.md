@@ -34,7 +34,7 @@ Virtually unlimited length. This property, called **catenation**, gives rise to 
 Organic compounds.
 
 Carbon forms four covalent bonds because it has four electrons in its outer shell and needs four
-More to achieve a stable configuration. The strength and versatility of the C-C bond (about 348
+more to achieve a stable configuration. The strength and versatility of the C-C bond (about 348
 KJ/mol) makes long chains stable, while the C-H bond (about 412 kJ/mol) provides a convenient way to
 Satisfy the remaining valences.
 
@@ -93,7 +93,7 @@ $$
 
 The formula is derived from the fact that each carbon atom forms four bonds. In a straight chain,
 The two end carbons are bonded to three hydrogens each, and the remaining $(n-2)$ carbons are bonded
-To two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 4 = 2n + 2$.
+to two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 4 = 2n + 2$.
 
 | Name    | Formula       | Structure | Boiling Point ($^{\circ}$ C) |
 | ------- | ------------- | --------- | --------------------------- |
@@ -132,7 +132,7 @@ $$
 
 :::caution
 Strongly than oxygen, preventing oxygen transport in the blood. Incomplete combustion is dangerous
-Because CO is produced without any visible or olfactory warning.
+because CO is produced without any visible or olfactory warning.
 
 Incomplete combustion occurs when the oxygen supply is insufficient. The extent of incompleteness
 Depends on the oxygen-to-fuel ratio. With very limited oxygen, solid carbon (soot) is produced; with
@@ -232,7 +232,7 @@ Sigma bond and is what makes alkenes more reactive than alkanes.
 ### 3.2 Test for Unsaturation
 
 Alkenes decolourise **bromine water** (orange to colourless). This is because the double bond opens
-And bromine adds across it:
+and bromine adds across it:
 
 $$
 \mathrm{C_2\mathrm{H_4 + \mathrm{Br_2 \to \mathrm{C_2\mathrm{H_4\mathrm{Br_2
@@ -351,7 +351,7 @@ $$
 $$
 
 The oxidation proceeds in two stages: ethanol is first oxidised to ethanal (an aldehyde), which is
-Then further oxidised to ethanoic acid (a carboxylic acid).
+then further oxidised to ethanoic acid (a carboxylic acid).
 
 **Dehydration:** Ethanol can be dehydrated to ethene using aluminium oxide catalyst at high
 Temperature.
@@ -465,7 +465,7 @@ Esters are formed when a carboxylic acid reacts with an alcohol (esterification)
 
 The reaction is catalysed by a strong acid (e.g. Concentrated sulfuric acid). The reaction is
 Reversible, so the yield can be improved by using an excess of one reactant or by removing the water
-As it forms.
+as it forms.
 
 Esters have distinctive sweet/fruity smells and are used in:
 
@@ -557,7 +557,7 @@ $$
 | DNA       | Nucleotides | Phosphodiester bonds |
 
 Natural polymers are formed by condensation polymerisation, where monomers join with the elimination
-Of a small molecule ( water).
+of a small molecule ( water).
 
 ### 7.2 Biodegradable Polymers
 
@@ -702,7 +702,7 @@ To identify the monomer, remove the brackets and the subscript $n$:
 ### 10.3 Biodegradable Alternatives
 
 PLA (polylactic acid) is made from fermented corn starch. It breaks down in composting conditions
-Within months. PHB (polyhydroxybutyrate) is produced by bacterial fermentation and is fully
+within months. PHB (polyhydroxybutyrate) is produced by bacterial fermentation and is fully
 Biodegradable.
 
 ### 10.4 Worked Examples
@@ -729,7 +729,7 @@ The polymer is poly(but-2-ene), also called polybutene.
 ### 11.1 Why Cracking Is Necessary
 
 The demand for shorter-chain hydrocarbons (for petrol, alkenes for polymers) is much greater than
-The supply from fractional distillation. Cracking converts less useful long-chain alkanes into more
+the supply from fractional distillation. Cracking converts less useful long-chain alkanes into more
 Valuable shorter-chain alkanes and alkenes.
 
 ### 11.2 Types of Cracking
@@ -757,7 +757,7 @@ In thermal cracking, the C-C bonds break randomly. When a bond breaks and the re
 Rearrange, at least one fragment will have an unsaturated (double) bond because there are too few
 Hydrogen atoms to fully saturate all the carbon atoms. This is a consequence of the fact that
 Alkanes have a general formula of C$_n$H$_{2n+2}$ -- splitting a chain necessarily creates fragments
-With fewer hydrogen atoms relative to their carbon atoms.
+with fewer hydrogen atoms relative to their carbon atoms.
 
 ## 12. Additional Practice Questions
 

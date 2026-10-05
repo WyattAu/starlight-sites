@@ -195,7 +195,7 @@ def binary_search_recursive(A, x, low, high):
 
 :::note
 Sorted data and may require trace tables. **CIE (9618)** requires linear search and binary search
-With pseudocode. **OCR (A)** requires linear and binary search; may also cover hash-based searching.
+with pseudocode. **OCR (A)** requires linear and binary search; may also cover hash-based searching.
 **Edexcel** covers linear and binary search algorithms.
 :::
 
@@ -307,7 +307,7 @@ Explain what alternative approach could achieve $O(\log n)$ search on a linked l
 
 Binary search requires $O(1)$ access to the middle element (A[mid]). In a singly linked list,
 Accessing the $k$-th element requires traversing $k$ nodes from the head, which is $O(k)$. Finding
-The middle of a list of $n$ elements takes $O(n/2) = O(n)$ time, eliminating the benefit of halving.
+the middle of a list of $n$ elements takes $O(n/2) = O(n)$ time, eliminating the benefit of halving.
 
 Alternative: **Jump list / Skip list**, a data structure with multiple levels of linked lists that
 Allows $O(\log n)$ search by "skipping" ahead at higher levels, analogous to binary search.
@@ -321,8 +321,8 @@ Argument.
 <summary>Answer</summary>
 
 An adversary constructs the worst case dynamically. The adversary maintains that the target $x$ is
-Not at any position already examined by the algorithm. After $n - 1$ comparisons, all positions
-Except one have been checked. The adversary places $x$ at the remaining unchecked position (or
+not at any position already examined by the algorithm. After $n - 1$ comparisons, all positions
+except one have been checked. The adversary places $x$ at the remaining unchecked position (or
 Declares it absent). Therefore, any correct algorithm must check all $n$ positions in the worst
 Case, requiring $\Omega(n)$ comparisons. $\square$
 
@@ -376,7 +376,7 @@ def search_rotated(A, x):
 ```
 
 The key insight: one half of the array (left or right of mid) is always sorted. Determine which half
-Is sorted and whether the target lies within it.
+is sorted and whether the target lies within it.
 
 </details>
 
@@ -392,7 +392,7 @@ Positive values but is technically implementation-dependent.
 
 The more serious bug is **integer overflow**: if `low + high > INT_MAX`The sum overflows. The
 Correct form is `mid = low + (high - low) / 2`Which cannot overflow since `high - low` is always
-Non-negative and less than `INT_MAX`.
+non-negative and less than `INT_MAX`.
 
 For revision on sorting, see
 [Sorting Algorithms](/computer-science/algorithms/02-sorting-algorithms/).
@@ -410,7 +410,7 @@ Many comparisons are made until the item is found?
 <summary>Hint</summary>
 
 Step through each element from index 0, comparing each with the target 14. Count each comparison
-Until a match is found.
+until a match is found.
 
 </details>
 
@@ -490,7 +490,7 @@ Range accordingly.
 <summary>Hint</summary>
 
 The value 15 lies between 14 (index 3) and 18 (index 4). The algorithm will narrow down to this gap
-And then terminate with low > high.
+and then terminate with low > high.
 
 </details>
 
@@ -545,7 +545,7 @@ Algorithm.
 <summary>Hint</summary>
 
 Since the data is already sorted, binary search can be applied directly. Calculate ⌊log₂(n)⌋ + 1 for
-The binary search worst case.
+the binary search worst case.
 
 </details>
 
@@ -560,7 +560,7 @@ Complexity: $O(\log n)$.
 
 Binary search is dramatically more efficient, at most 19 comparisons versus 500,000 for linear
 Search, an improvement factor of approximately 26,000×. Since the data is already sorted, there is
-No additional preprocessing cost.
+no additional preprocessing cost.
 
 </details>
 
@@ -589,7 +589,7 @@ Using $\lfloor \log_2 n \rfloor + 1$:
 | 1,000,000 | 19.93      | 19                         | 19 + 1 = **20** |
 
 This demonstrates the power of logarithmic growth: searching through a million elements requires
-Only 20 comparisons maximum.
+only 20 comparisons maximum.
 
 </details>
 
@@ -601,7 +601,7 @@ Index of the target or -1 if not found.
 <summary>Hint</summary>
 
 Linear search uses a simple FOR loop checking each element. Binary search uses a WHILE loop with low
-And high pointers, calculating mid each iteration.
+and high pointers, calculating mid each iteration.
 
 </details>
 
@@ -642,7 +642,7 @@ ENDFUNCTION
 ```
 
 Note: In the binary search, `DIV 2` performs integer division (floor division), which is equivalent
-To `//` in Python.
+to `//` in Python.
 
 </details>
 
@@ -675,7 +675,7 @@ The array has 11 elements (indices 0–10). Start with low = 0, high = 10. The f
 To: (a) search for a book by its ISBN (the catalogue is sorted by ISBN), (b) check whether a
 Specific book ID exists in an unsorted list of 50 recently returned books, (c) find the price of a
 Book given its ISBN in a sorted price catalogue. For each scenario, justify which search algorithm
-Is most appropriate, stating your assumptions about the data structure and ordering.
+is most appropriate, stating your assumptions about the data structure and ordering.
 
 <details>
 <summary>Hint</summary>
@@ -700,7 +700,7 @@ Search is optimal. If many repeated searches were needed, sorting first and usin
 Comparisons max) would become worthwhile after approximately 6 searches ($282 / 50 \approx 5.6$).
 
 **(c) Binary search.** The price catalogue is sorted by ISBN with random access. Binary search finds
-The ISBN in $O(\log 20\,000) \approx 15$ comparisons, then retrieves the price at that index in
+the ISBN in $O(\log 20\,000) \approx 15$ comparisons, then retrieves the price at that index in
 $O(1)$. Linear search would require $O(20\,000)$ comparisons, unnecessary when the data is already
 Sorted.
 

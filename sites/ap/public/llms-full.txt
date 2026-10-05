@@ -5478,7 +5478,7 @@ Receptors in the cytoplasm or nucleus.
 ## Review: Detailed Comparison of Transport Mechanisms
 
 Understanding the nuances of membrane transport is critical. Here is a more detailed analysis of
-Each mechanism:
+each mechanism:
 
 **Simple diffusion:** Small, nonpolar molecules (e.g., $\mathrm{O_2$, $\mathrm{CO_2$ Steroid Hormones)
 diffuse directly through the phospholipid bilayer. The rate depends on the concentration Gradient,
@@ -5515,7 +5515,7 @@ Receptor-mediated endocytosis for specific ligands). Exocytosis releases materia
 **Worked Example: Comparing the effects of different transport mechanisms on a cell.**
 
 A cell is placed in a medium containing 10 mM glucose and 5 mM amino acids. Inside the cell, glucose
-Is at 2 mM and amino acids are at 10 mM.
+is at 2 mM and amino acids are at 10 mM.
 
 Glucose enters the cell by facilitated diffusion (from 10 mM to 2 mM, down the concentration
 Gradient). No energy is required.
@@ -5532,7 +5532,7 @@ Indirectly).
 
 **Capsule:** A slimy, gelatinous layer outside the cell wall in some bacteria. It protects against
 Desiccation and helps the bacterium evade the host immune system by making it harder for phagocytes
-To engulf it.
+to engulf it.
 
 **Pili:** Short, hair-like appendages on the surface of many bacteria. They are involved in
 Attachment to surfaces (including host tissues) and in conjugation (a form of horizontal gene
@@ -5563,17 +5563,17 @@ When a plant cell is placed in a hypertonic solution, water leaves the cell by o
 Membrane pulls away from the cell wall, a process called **plasmolysis**. The cell becomes flaccid.
 
 When a plant cell is placed in a hypotonic solution, water enters by osmosis. The cytoplasm swells
-And presses against the rigid cell wall, creating **turgor pressure**. The cell is described as
+and presses against the rigid cell wall, creating **turgor pressure**. The cell is described as
 Turgid. Turgor pressure provides structural support to non-woody plant tissues. When plants lose
 Turgor (e.g., during drought), they wilt.
 
 **Worked Example: Why plant cells do not burst in hypotonic solutions.**
 
 When an animal cell is placed in a hypotonic solution, it swells and may burst (lyse) because there
-Is no cell wall to constrain expansion. A plant cell, however, has a rigid cellulose cell wall that
+is no cell wall to constrain expansion. A plant cell, however, has a rigid cellulose cell wall that
 Exerts an inward pressure (wall pressure) as the cell expands. Water continues to enter until the
 Turgor pressure equals the osmotic pressure, at which point there is no net water movement. The cell
-Is turgid but intact. This is why plants rely on turgor pressure for support.
+is turgid but intact. This is why plants rely on turgor pressure for support.
 
 **Worked Example: Calculating water potential and predicting osmosis.**
 
@@ -5608,7 +5608,7 @@ A lysosomal enzyme (a hydrolytic enzyme) is synthesised in the same way as a sec
 Instead of being secreted, it is tagged with a mannose-6-phosphate marker in the Golgi apparatus.
 This marker is recognised by receptors on the Golgi membrane, and the enzyme is packaged into
 Vesicles that fuse with lysosomes. Without this tagging system, the enzyme would be secreted from
-The cell. This demonstrates how the Golgi apparatus sorts proteins to different destinations.
+the cell. This demonstrates how the Golgi apparatus sorts proteins to different destinations.
 
 ## Review: Junctions Between Cells
 
@@ -5654,7 +5654,7 @@ Molecules between cells, facilitating communication and coordination.
 
 **Central vacuole:** A large, fluid-filled organelle that can occupy up to 90% of the cell volume in
 Mature plant cells. It is surrounded by a membrane called the tonoplast. Functions include storage
-Of water, ions, nutrients, and waste products; maintaining turgor pressure; contributing to cell
+of water, ions, nutrients, and waste products; maintaining turgor pressure; contributing to cell
 Growth; storing pigments (anthocyanins in flowers); and storing defensive compounds (toxins that
 Deter herbivores).
 
@@ -5748,7 +5748,7 @@ Nm per ATP hydrolysed.
 
 Taxol stabilises microtubules, preventing depolymerisation. During cell division, the mitotic
 Spindle cannot function, arresting the cell cycle at metaphase. Rapidly dividing cancer cells are
-Most affected, but normal dividing cells (hair follicles, immune cells) are also impacted, causing
+most affected, but normal dividing cells (hair follicles, immune cells) are also impacted, causing
 Side effects.
 
 **Worked Example: Colchicine and its effect on cell division.**
@@ -5757,7 +5757,7 @@ Colchicine is another drug that affects microtubules, but in the opposite way to
 Binds to tubulin and prevents microtubule polymerisation. Without functional microtubules, the
 Mitotic spindle cannot form, and cells are arrested in prometaphase. Colchicine has been used to
 Treat gout (by inhibiting neutrophil motility) and in cancer research (to arrest cells at metaphase
-For chromosome analysis -- karyotyping).
+for chromosome analysis -- karyotyping).
 
 ## Review: Viral Structure and Replication
 
@@ -5776,7 +5776,7 @@ Host cell membrane.
 
 **Lysogenic cycle (temperate phages):** Some viruses (e.g., bacteriophage lambda) can integrate
 Their DNA into the host chromosome as a prophage. The prophage is replicated along with the host DNA
-And is passed to daughter cells during cell division. (e.g., stress), the Prophage can be excised
+and is passed to daughter cells during cell division. (e.g., stress), the Prophage can be excised
 and enter the lytic cycle.
 
 **Worked Example: Why antibiotics do not work against viruses.**
@@ -5789,7 +5789,7 @@ Antiviral drugs target viral-specific processes (e.g., reverse transcriptase inh
 **Worked Example: HIV replication and antiretroviral drugs.**
 
 HIV is a retrovirus that contains RNA as its genetic material and reverse transcriptase, an enzyme
-That converts RNA into DNA. The replication cycle involves:
+that converts RNA into DNA. The replication cycle involves:
 
 1. HIV binds to CD4 receptors (and co-receptors CCR5 or CXCR4) on helper T cells.
 2. The virus enters the cell, and reverse transcriptase converts viral RNA into DNA.
@@ -5836,7 +5836,7 @@ Multiple drugs to prevent resistance.
 <summary>Question 1: Predicting the effect of a metabolic inhibitor on a secretory protein</summary>
 
 A researcher adds brefeldin A to pancreatic cells. This drug blocks the transport of vesicles from
-The ER to the Golgi apparatus. Describe the effect on insulin production and explain which
+the ER to the Golgi apparatus. Describe the effect on insulin production and explain which
 Organelles would accumulate the insulin.
 
 </details>
@@ -5845,7 +5845,7 @@ Organelles would accumulate the insulin.
 <summary>Answer</summary>
 
 Insulin would be synthesised on ribosomes bound to the rough ER and enter the ER lumen, where it
-Would begin to fold. However, transport vesicles could not carry insulin from the ER to the Golgi
+would begin to fold. However, transport vesicles could not carry insulin from the ER to the Golgi
 Apparatus. The insulin would accumulate inside the rough ER, causing it to dilate. The Golgi
 Apparatus would not receive the protein, so no secretory vesicles would form and no insulin would be
 Exported from the cell. The cell would still produce mRNA and translate the protein, but the
@@ -5872,7 +5872,7 @@ Electrical gradient also favours outward movement because the inside of the cell
 Repelling the positive $\mathrm{K^+$ ions. Both gradients drive $\mathrm{K^+$ out of the cell.
 
 (b) Through the $\mathrm{Na^+/\mathrm{K^+$ pump (active transport): The pump moves $\mathrm{K^+$
-Into the cell against its concentration gradient. This requires ATP hydrolysis. The pump
+into the cell against its concentration gradient. This requires ATP hydrolysis. The pump
 Continuously transports $2 \mathrm{ K^+$ in and $3 \mathrm{ Na^+$ out per ATP consumed, Maintaining
 the resting membrane potential and the concentration gradients.
 
@@ -5916,7 +5916,7 @@ GDP. Cholera toxin prevents GTP hydrolysis, locking the G-protein in its active 
 Constitutively active G-protein continuously activates adenylyl cyclase, which produces excessive
 CAMP. Elevated cAMP activates protein kinase A (PKA), which phosphorylates and opens CFTR chloride
 Channels. Massive amounts of $\mathrm{Cl^-$ are secreted into the intestinal lumen. $\mathrm{Na^+$
-And water follow by osmosis, producing large volumes of watery diarrhoea. This demonstrates how
+and water follow by osmosis, producing large volumes of watery diarrhoea. This demonstrates how
 Disrupting the normal "off" switch in a signaling pathway can have severe physiological
 Consequences.
 
@@ -6067,7 +6067,7 @@ $$
 Per glucose: 2 acetyl-CoA, $2 \mathrm{CO_2$2 NADH.
 
 The link reaction is catalysed by the pyruvate dehydrogenase complex, a large multi-enzyme complex
-That requires five coenzymes: CoA, $\mathrm{NAD^+$ FAD, lipoic acid, and thiamine (vitamin B1). This
+that requires five coenzymes: CoA, $\mathrm{NAD^+$ FAD, lipoic acid, and thiamine (vitamin B1). This
 is why thiamine deficiency (beriberi) impairs energy metabolism.
 
 ### Citric Acid Cycle (Krebs Cycle)
@@ -6180,7 +6180,7 @@ $$
 **Worked Example: Why fermentation is necessary.**
 
 During glycolysis, NAD+ is reduced to NADH. Without a way to regenerate NAD+, glycolysis would stop
-After a few seconds because there would be no NAD+ to accept electrons.
+after a few seconds because there would be no NAD+ to accept electrons.
 
 In the presence of oxygen, NADH donates its electrons to the ETC, regenerating NAD+. But without
 Oxygen, the ETC cannot function. Fermentation solves this problem by using NADH to reduce pyruvate
@@ -6232,7 +6232,7 @@ $$
 Without water, the photosystems would run out of electrons and photosynthesis would stop. This was
 Demonstrated using $^{18}\mathrm{O$-labelled water: the labelled oxygen appeared in $\mathrm{O_2$
 Gas, not in glucose, confirming that water (not $\mathrm{CO_2$) is the source of oxygen released
-During photosynthesis.
+during photosynthesis.
 
 ### The Calvin Cycle (Light-Independent Reactions)
 
@@ -6445,7 +6445,7 @@ the limiting factor.
 
 **Water availability:** Water is a reactant in the light-dependent reactions, but it is rarely a
 Limiting factor in practice because plants use relatively little water for photosynthesis compared
-To the amount lost through transpiration. However, severe drought causes stomata to close, reducing
+to the amount lost through transpiration. However, severe drought causes stomata to close, reducing
 $\mathrm{CO_2$ uptake and therefore limiting photosynthesis.
 
 **Worked Example: Interpreting a photosynthesis rate graph.**
@@ -6499,17 +6499,17 @@ Cyanide blocks Complex IV (cytochrome c oxidase) of the ETC. When Complex IV is 
 
 DNP (2,4-dinitrophenol) makes the inner mitochondrial membrane permeable to protons. The proton
 Gradient is dissipated because $\mathrm{H^+$ can flow back across the membrane without passing
-Through ATP synthase. The ETC continues to operate (electrons are still passed to $\mathrm{O_2$),
+through ATP synthase. The ETC continues to operate (electrons are still passed to $\mathrm{O_2$),
 And oxygen consumption increases as the cell tries to maintain the gradient, but no ATP is produced.
 All the energy from electron transfer is released as heat. This is the mechanism behind brown fat
 Thermogenesis in newborns and hibernating animals, where uncoupling proteins (UCP1) perform a
 Similar function. DNP was used as a weight-loss drug in the 1930s (it "burned" calories as heat) but
-Was banned due to dangerous side effects including fatal hyperthermia.
+was banned due to dangerous side effects including fatal hyperthermia.
 
 ## Review: The Compensation Point
 
 The **compensation point** is the light intensity at which the rate of photosynthesis exactly equals
-The rate of respiration. At this point, there is no net gas exchange: all $\mathrm{CO_2$ produced By
+the rate of respiration. At this point, there is no net gas exchange: all $\mathrm{CO_2$ produced By
 respiration is used for photosynthesis, and all $\mathrm{O_2$ produced by photosynthesis is used For
 respiration.
 
@@ -6582,9 +6582,9 @@ Signals increased energy demand in muscle cells).
 During a sprint, the muscle cells' demand for ATP increases dramatically. ATP levels drop, AMP
 Levels rise, and ADP levels increase. These changes activate PFK and other regulatory enzymes,
 Speeding up glycolysis and the Krebs cycle. However, oxygen delivery cannot keep up with demand, so
-The electron transport chain cannot process all the NADH produced. The cell switches to anaerobic
+the electron transport chain cannot process all the NADH produced. The cell switches to anaerobic
 Respiration (fermentation) to regenerate NAD$^+$ and maintain glycolysis. Lactate accumulates, and
-The oxygen debt builds up.
+the oxygen debt builds up.
 
 ## Review: Anaerobic Respiration in Various Organisms
 
@@ -6660,7 +6660,7 @@ Bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2
 Brown adipose tissue (brown fat) is specialised for thermogenesis (heat production). It contains
 Mitochondria with uncoupling protein 1 (UCP1, also called thermogenin), which forms a channel in the
 Inner mitochondrial membrane that allows protons to flow back into the matrix without passing
-Through ATP synthase.
+through ATP synthase.
 
 **Mechanism:**
 
@@ -6690,16 +6690,16 @@ Several inherited disorders affect cellular energy metabolism:
 **Leigh syndrome:** A severe neurological disorder caused by defects in mitochondrial ETC complexes
 (especially Complex I or IV). Symptoms include developmental delay, muscle weakness, and respiratory
 Failure. Cells cannot produce sufficient ATP, particularly affecting high-energy-demand tissues like
-The brain.
+the brain.
 
 **Pyruvate dehydrogenase deficiency:** Caused by mutations in the pyruvate dehydrogenase complex.
 Pyruvate cannot be converted to acetyl-CoA, so it accumulates and is converted to lactate (lactic
 Acidosis). Treatment includes a ketogenic diet (high in fats, which produce acetyl-CoA directly
-Through beta-oxidation, bypassing the link reaction).
+through beta-oxidation, bypassing the link reaction).
 
 **Phosphofructokinase deficiency (Tarui disease):** A glycogen storage disease caused by a
 Deficiency of muscle PFK. Affected individuals experience muscle pain and cramping during exercise
-Because glycolysis cannot proceed past the PFK step.
+because glycolysis cannot proceed past the PFK step.
 
 ## Practice Problems
 
@@ -6708,7 +6708,7 @@ Because glycolysis cannot proceed past the PFK step.
 
 A researcher adds rotenone, which blocks Complex I of the electron transport chain, to isolated
 Mitochondria. Pyruvate and ADP are supplied. Calculate the maximum ATP yield per glucose molecule
-Under these conditions, assuming 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2$. Explain which
+under these conditions, assuming 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2$. Explain which
 Electrons can still reach the ETC.
 
 </details>
@@ -6729,8 +6729,8 @@ ATP sources:
 Total: 2 + 2 + 3 = 7 ATP per glucose.
 
 The 6 NADH from pyruvate oxidation (2) and the Krebs cycle (4) are unable to donate electrons
-Because Complex I is blocked. Only the 2 $\mathrm{FADH_2$ from the Krebs cycle can feed electrons
-Through Complex II to Complex III, cytochrome c, and Complex IV.
+because Complex I is blocked. Only the 2 $\mathrm{FADH_2$ from the Krebs cycle can feed electrons
+through Complex II to Complex III, cytochrome c, and Complex IV.
 
 </details>
 
@@ -6746,7 +6746,7 @@ How many molecules of ATP and NADPH are required to synthesise one molecule of s
 <summary>Answer</summary>
 
 Sucrose is a disaccharide of glucose + fructose, each with 6 carbons, so 12 carbons total. Each G3P
-Has 3 carbons, so 12/3 = 4 G3P molecules are needed. However, 3 $\mathrm{CO_2$ produce 6 G3P (5
+has 3 carbons, so 12/3 = 4 G3P molecules are needed. However, 3 $\mathrm{CO_2$ produce 6 G3P (5
 Recycled, 1 net), so 1 net G3P requires 3 $\mathrm{CO_2$9 ATP, and 6 NADPH.
 
 For 4 net G3P: 4 $\times$ 3 = 12 $\mathrm{CO_2$4 $\times$ 9 = 36 ATP, and 4 $\times$ 6 = 24 NADPH.
@@ -6912,7 +6912,7 @@ Trace elements (required in small amounts): Fe, Cu, Zn, Mn, I, Mo.
 
 **Worked Example: Why specific trace elements matter.** Iron (Fe) is a component of haemoglobin, the
 Oxygen-carrying protein in red blood cells. Without iron, haemoglobin cannot be synthesised, leading
-To iron-deficiency anaemia. Iodine (I) is required for the synthesis of thyroxine, a hormone that
+to iron-deficiency anaemia. Iodine (I) is required for the synthesis of thyroxine, a hormone that
 Regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
 
 ### Bonding in Biological Molecules
@@ -6992,7 +6992,7 @@ A one-unit increase in pH represents a tenfold decrease in $[\mathrm{H^+]$.
 **Worked Example: Buffer action.**
 
 During vigorous exercise, lactic acid is produced, releasing $\mathrm{H^+$ into the blood. Without
-The buffer system, blood pH would drop dangerously.
+the buffer system, blood pH would drop dangerously.
 
 The bicarbonate buffer system responds:
 
@@ -7033,12 +7033,12 @@ Them.
 **Worked Example: Alpha vs. Beta linkages.**
 
 In starch, glucose monomers are joined by $\alpha$-1,4-glycosidic bonds. The glucose rings are in
-The $\alpha$ configuration (OH group below the ring at C1). This produces a helical structure that
-Can be coiled, making starch compact for storage. Human amylase can hydrolyse $\alpha$-glycosidic
+the $\alpha$ configuration (OH group below the ring at C1). This produces a helical structure that
+can be coiled, making starch compact for storage. Human amylase can hydrolyse $\alpha$-glycosidic
 Bonds, so starch is digestible.
 
 In cellulose, glucose monomers are joined by $\beta$-1,4-glycosidic bonds. The glucose rings are in
-The $\beta$ configuration (OH group above the ring at C1). Every other glucose is flipped 180
+the $\beta$ configuration (OH group above the ring at C1). Every other glucose is flipped 180
 Degrees, producing straight chains that form hydrogen bonds with neighbouring chains, creating
 Strong, rigid fibres. Human amylase cannot hydrolyse $\beta$-glycosidic bonds, so cellulose is
 Indigestible by humans.
@@ -7112,7 +7112,7 @@ Disulfide bridges (also called disulfide bonds) form between the sulfur atoms of
 Residues. These are covalent bonds, which are much stronger than hydrogen bonds or ionic
 Interactions. In proteins like antibodies, disulfide bridges hold the polypeptide chains together,
 Maintaining the Y-shaped structure even under stress. Reducing agents that break disulfide bridges
-Can cause the protein to unfold.
+can cause the protein to unfold.
 
 ### Nucleic Acids
 
@@ -7378,7 +7378,7 @@ Solution Y produces a blue colour (no change).
 Brick-red precipitate is copper(I) oxide, formed when copper(II) ions in Benedict's solution are
 Reduced by the sugar. Solution Y does not contain reducing sugars (it may contain a non-reducing
 Sugar such as sucrose, or no sugar at all). To test for non-reducing sugars, the sample would first
-Be hydrolysed with dilute acid, neutralised, and then tested with Benedict's solution.
+be hydrolysed with dilute acid, neutralised, and then tested with Benedict's solution.
 
 ## Review: Levels of Structural Organisation in Proteins
 
@@ -7397,7 +7397,7 @@ Structures are common in fibrous proteins (e.g., keratin in hair contains many $
 **Tertiary structure:** The overall three-dimensional shape of a single polypeptide, stabilised by
 Interactions between R groups: hydrogen bonds, ionic bonds (salt bridges), hydrophobic interactions
 (nonpolar R groups cluster in the interior away from water), and disulfide bridges (covalent bonds
-Between cysteine residues). The tertiary structure determines the protein's function.
+between cysteine residues). The tertiary structure determines the protein's function.
 
 **Quaternary structure:** The assembly of two or more polypeptide subunits into a functional
 Protein. Example: haemoglobin has four subunits (two alpha and two beta chains). Each subunit has
@@ -7406,7 +7406,7 @@ Its own tertiary structure, and the subunits interact to form the quaternary str
 **Worked Example: Effect of pH on protein structure.**
 
 Pepsin (a digestive enzyme in the stomach) has an optimum pH of approximately 2. If pepsin is placed
-In a neutral solution (pH 7), its activity decreases dramatically. This is because the change in pH
+in a neutral solution (pH 7), its activity decreases dramatically. This is because the change in pH
 Alters the ionisation of amino acid side chains (R groups). Ionic bonds and hydrogen bonds that
 Depend on specific charges are disrupted, causing the protein to unfold (denature). The active site
 Loses its specific shape, and the enzyme can no longer bind its substrate.
@@ -7484,7 +7484,7 @@ Interior of the phospholipid bilayer. It acts as a fluidity buffer:
 
 Phospholipids with two fatty acid tails (as found in cell membranes) are cylindrical in shape. These
 Cylindrical molecules pack together most efficiently in a bilayer arrangement. Phospholipids with
-One fatty acid tail (lysophospholipids) are cone-shaped and form micelles (small spherical
+one fatty acid tail (lysophospholipids) are cone-shaped and form micelles (small spherical
 Structures) instead. The bilayer arrangement creates a stable, flexible membrane with two distinct
 Layers, which is essential for the function of cell membranes.
 
@@ -7516,14 +7516,14 @@ Populations.
 **Worked Example: Benedict's test for reducing and non-reducing sugars.**
 
 A student tests two solutions with Benedict's reagent. Solution A produces a brick-red precipitate
-When heated. Solution B shows no change. The student then boils Solution B with dilute hydrochloric
+when heated. Solution B shows no change. The student then boils Solution B with dilute hydrochloric
 Acid, neutralises it, and tests again with Benedict's reagent. This time, Solution B produces a
 Brick-red precipitate.
 
 **Explanation:** Solution A contains a reducing sugar (e.g., glucose, maltose) that can directly
 Reduce copper(II) ions in Benedict's reagent to copper(I) oxide. Solution B contains a non-reducing
 Sugar (e.g., sucrose). Sucrose must first be hydrolysed into its component monosaccharides (glucose
-And fructose) by acid hydrolysis. After hydrolysis, the resulting monosaccharides are reducing
+and fructose) by acid hydrolysis. After hydrolysis, the resulting monosaccharides are reducing
 Sugars and give a positive Benedict's test.
 
 ## Review: Amino Acid Chemistry
@@ -7550,14 +7550,14 @@ Generate the enormous diversity of proteins found in living organisms.
 **Allosteric regulation:** Many enzymes have allosteric sites (sites distinct from the active site)
 Where regulatory molecules can bind. Binding of an allosteric activator stabilises the active
 Conformation of the enzyme, increasing its activity. Binding of an allosteric inhibitor stabilises
-The inactive conformation, decreasing its activity.
+the inactive conformation, decreasing its activity.
 
 **Cooperativity:** In some multi-subunit enzymes, binding of a substrate to one active site
 Increases the affinity of the other active sites for the substrate. This produces a sigmoidal
 (S-shaped) velocity-vs-substrate curve rather than the hyperbolic curve predicted by the
 Michaelis-Menten equation. Haemoglobin (which is not an enzyme but a transport protein) shows
 Cooperative binding of oxygen: binding of the first $\mathrm{O_2$ molecule increases the affinity
-For subsequent $\mathrm{O_2$ molecules.
+for subsequent $\mathrm{O_2$ molecules.
 
 **Feedback inhibition:** A common form of metabolic regulation where the end product of a pathway
 Inhibits an enzyme early in the pathway. This prevents wasteful overproduction of the end product.
@@ -7604,7 +7604,7 @@ Preventing overheating.
 ## Review: The Importance of Functional Groups in Biological Molecules
 
 Functional groups are specific groups of atoms within molecules that determine the characteristics
-Of the molecule and how it reacts.
+of the molecule and how it reacts.
 
 | Functional Group | Structure | Found in                      | Properties                              |
 | ---------------- | --------- | ----------------------------- | --------------------------------------- |
@@ -7631,7 +7631,7 @@ Covalent cross-links that stabilise protein structure.
 <summary>Question 1: Chargaff's rules and DNA composition</summary>
 
 A double-stranded DNA molecule is found to be $18\%$ adenine. Calculate the percentage of each of
-The other three bases. If the DNA contains $10,000$ base pairs, how many hydrogen bonds hold the two
+the other three bases. If the DNA contains $10,000$ base pairs, how many hydrogen bonds hold the two
 Strands together?
 
 </details>
@@ -7681,7 +7681,7 @@ $v = \frac{V_{\max}[S]}{K_m^{app} + [S]} = \frac{20 \times 6}{12 + 6} = \frac{12
 
 The competitive inhibitor reduces the reaction velocity from $12 \mathrm{ \mu mol/min$ to
 $6.67 \mathrm{ \mu mol/min$ at this substrate concentration. Note that $V_{\max}$ is unchanged; at
-Very high substrate concentrations, both velocities would approach $20 \mathrm{ \mu mol/min$.
+very high substrate concentrations, both velocities would approach $20 \mathrm{ \mu mol/min$.
 
 </details>
 
@@ -7755,7 +7755,7 @@ observations with reference to the levels of protein structure.
 
 At $45^\circ\mathrm{C$ The protein undergoes reversible denaturation. The secondary and tertiary
 Structures are disrupted (hydrogen bonds, hydrophobic interactions, and ionic bonds break), causing
-The protein to unfold and lose its active site shape. However, the primary structure (amino acid
+the protein to unfold and lose its active site shape. However, the primary structure (amino acid
 Sequence) remains intact. When cooled, these non-covalent interactions can re-form, allowing the
 Protein to refold into its native, functional conformation.
 
@@ -8059,7 +8059,7 @@ URL: https://ap.wyattau.com/biology/4-heredity/4_heredity/
 ### Meiosis Overview
 
 Meiosis reduces the chromosome number by half, producing four genetically distinct haploid cells
-From one diploid cell.
+from one diploid cell.
 
 | Feature           | Mitosis        | Meiosis           |
 | ----------------- | -------------- | ----------------- |
@@ -8255,7 +8255,7 @@ Genes A, B, and C are on the same chromosome. The recombination frequencies are:
 A-B: 12% B-C: 8% A-C: 4%
 
 The gene order is A--C--B (not A--B--C), because the recombination frequency between A and C (4%) is
-Less than between A and B (12%). If the order were A--B--C, the A-C distance would be 20%, not 4%.
+less than between A and B (12%). If the order were A--B--C, the A-C distance would be 20%, not 4%.
 
 The map is:
 
@@ -8280,7 +8280,7 @@ Ratio: 9 black : 3 brown : 4 yellow.
 ### Pleiotropy
 
 One gene affects multiple, seemingly unrelated phenotypic traits. Example: Marfan syndrome affects
-The skeleton, eyes, and cardiovascular system.
+the skeleton, eyes, and cardiovascular system.
 
 ### Polygenic Inheritance
 
@@ -8297,7 +8297,7 @@ Phenotypes due to different environments.
 ### Nondisjunction
 
 Failure of homologous chromosomes or sister chromatids to separate during meiosis, producing gametes
-With abnormal chromosome numbers.
+with abnormal chromosome numbers.
 
 | Condition                  | Cause               | Description                                             |
 | -------------------------- | ------------------- | ------------------------------------------------------- |
@@ -8430,7 +8430,7 @@ Behaviour of chromosomes during meiosis accounts for inheritance patterns.
 
 **Linked genes:** Genes located on the same chromosome tend to be inherited together because they
 Are physically connected. This violates Mendel's law of independent assortment, which only applies
-To genes on different chromosomes.
+to genes on different chromosomes.
 
 **Crossing over and recombination:** During Prophase I of meiosis, homologous chromosomes pair up
 And exchange segments at chiasmata. Crossing over can separate linked genes if it occurs between
@@ -8503,7 +8503,7 @@ Three-point cross corrects for this by counting the double crossovers twice.
 
 **Mammalian sex determination:** The SRY gene (Sex-determining Region Y) on the Y chromosome
 Triggers testis development. In the absence of SRY, ovaries develop. Therefore, the default pathway
-Is female development; male development requires the SRY gene product.
+is female development; male development requires the SRY gene product.
 
 **Dosage compensation (X-inactivation):** Females have two X chromosomes while males have one. To
 Balance gene expression, one X chromosome in each female cell is randomly inactivated during early
@@ -8512,7 +8512,7 @@ Embryonic development, forming a Barr body (a condensed, transcriptionally inact
 X-inactivation was discovered by Mary Lyon (1961) and is called the Lyon hypothesis. Because
 Inactivation is random, female mammals are mosaics: different cells express different X chromosomes.
 This is visible in calico cats (where coat colour is X-linked): only females can be calico because
-They have two X chromosomes with different colour alleles, and random X-inactivation produces
+they have two X chromosomes with different colour alleles, and random X-inactivation produces
 Patches of different colours.
 
 **Worked Example: Inheritance of X-linked haemophilia through three generations.**
@@ -8532,12 +8532,12 @@ Spread through the royal families of Europe.
 
 **Y-linked inheritance:** Genes on the Y chromosome are passed only from father to son. Examples
 Include the SRY gene (sex determination) and some genes involved in male fertility. Y-linked traits
-Are very rare because the Y chromosome is small and carries few genes.
+are very rare because the Y chromosome is small and carries few genes.
 
 ## Review: Polygenic Inheritance and Continuous Variation
 
 Most traits are influenced by multiple genes (polygenic inheritance), producing continuous variation
-That follows a normal distribution (bell curve).
+that follows a normal distribution (bell curve).
 
 **Examples of polygenic traits:** Height, skin colour, eye colour, intelligence, risk of developing
 Certain diseases (e.g., type 2 diabetes, heart disease).
@@ -8554,7 +8554,7 @@ Parental average, following a normal distribution.
 **Environmental influence on polygenic traits:** Even strongly genetic traits are influenced by the
 Environment. Height, for example, is approximately 80% heritable, but nutrition during childhood has
 A significant effect. A person with genes for tall stature who is malnourished during childhood will
-Not reach their full genetic potential height.
+not reach their full genetic potential height.
 
 ## Review: Epigenetics and Gene Expression
 
@@ -8626,11 +8626,11 @@ Depending on which parent contributed the affected chromosome.
 
 A woman with Angelman syndrome (deletion of maternal UBE3A region) has a child with a normal father.
 The child inherits a normal maternal chromosome 15 and a normal paternal chromosome 15. The child
-Will be unaffected because the paternal UBE3A allele is active in the relevant brain regions.
+will be unaffected because the paternal UBE3A allele is active in the relevant brain regions.
 
 However, if the same woman's brother (who has Prader-Willi syndrome due to the same deletion on his
 Paternal chromosome 15) has a child with a normal woman, the child will also be unaffected because
-It inherits a normal paternal chromosome 15 from the father.
+it inherits a normal paternal chromosome 15 from the father.
 
 ## Review: Variations in Inheritance -- Lethal Alleles
 
@@ -8698,7 +8698,7 @@ Recessive disorders or imprinting disorders.
 
 **Clinical significance:** UPD can cause recessive disorders even if only one parent is a carrier.
 For example, if a child has maternal uniparental disomy for chromosome 7 and the mother is a carrier
-For cystic fibrosis (recessive), the child could be homozygous for the CF allele and have cystic
+for cystic fibrosis (recessive), the child could be homozygous for the CF allele and have cystic
 Fibrosis, even if the father is not a carrier.
 
 UPD for chromosomes with imprinted regions (e.g., chromosomes 7, 11, 15) can also cause imprinting
@@ -8709,7 +8709,7 @@ UPD of chromosome 15 causes Angelman syndrome.
 
 **Telomeres** are repetitive nucleotide sequences (TTAGGG in humans) at the ends of chromosomes.
 They protect the chromosome ends from degradation and prevent chromosomes from fusing with each
-Other.
+other.
 
 **The end-replication problem:** DNA polymerase cannot fully replicate the 3' end of the lagging
 Strand, so telomeres shorten with each cell division. After approximately 50-70 cell divisions,
@@ -8724,7 +8724,7 @@ Therapy.
 
 A skin cell divides 30 times. Each division shortens the telomere by approximately 50-200 base
 Pairs. After 30 divisions, the telomere has shortened by approximately 1500-6000 base pairs. When
-The telomere becomes too short, the cell enters senescence and can no longer divide. This limits the
+the telomere becomes too short, the cell enters senescence and can no longer divide. This limits the
 Regenerative capacity of tissues and contributes to ageing. In contrast, stem cells in the basal
 Layer of the epidermis express telomerase, maintaining their telomere length and allowing continuous
 Skin renewal throughout life.
@@ -8753,7 +8753,7 @@ Chromosomal abnormalities. Techniques include:
 **Worked Example: Detecting a translocation using FISH.**
 
 A patient has suspected chronic myelogenous leukaemia (CML), which is caused by a translocation
-Between chromosomes 9 and 22 (the Philadelphia chromosome). A FISH probe specific to the BCR gene on
+between chromosomes 9 and 22 (the Philadelphia chromosome). A FISH probe specific to the BCR gene on
 Chromosome 22 (labelled red) and a probe specific to the ABL gene on chromosome 9 (labelled green)
 Are applied. In a normal cell, the red and green signals appear on separate chromosomes. In a CML
 Cell, a fused yellow signal appears on the Philadelphia chromosome, confirming the t(9;22)(q34;q11)
@@ -8813,7 +8813,7 @@ Markers. Using corrected distance: D-F = $22.0 + 2 \times 4.0 = 26.0$ cM.
 <summary>Question 2: Hardy-Weinberg with selection</summary>
 
 In a population, cystic fibrosis (autosomal recessive) has an incidence of 1 in 2500. If individuals
-With cystic fibrosis have a fitness of 0 (they do not reproduce), what will the frequency of the
+with cystic fibrosis have a fitness of 0 (they do not reproduce), what will the frequency of the
 Cystic fibrosis allele be after one generation of selection?
 
 </details>
@@ -8898,7 +8898,7 @@ Zygote: XX (egg) + Y (sperm) = XXY.
 
 (b) Nondisjunction in meiosis II: Meiosis I proceeds normally, producing secondary oocytes with one
 X each. In meiosis II, sister chromatids fail to separate in one cell, producing one XX gamete and
-One O gamete from that cell. When fertilised by a normal Y sperm, the XX gamete produces XXY.
+one O gamete from that cell. When fertilised by a normal Y sperm, the XX gamete produces XXY.
 
 Meiosis I: X and X (normal). Meiosis II: one X cell divides normally (X and X), the other has
 Nondisjunction (XX and O). Gametes: X, X, XX, O.
@@ -9548,7 +9548,7 @@ URL: https://ap.wyattau.com/biology/5-natural-selection/5_natural-selection/
 ## Hardy-Weinberg Equilibrium (CED Unit 7)
 
 The Hardy-Weinberg principle describes a hypothetical, non-evolving population. If a population is
-In Hardy-Weinberg equilibrium, allele and genotype frequencies remain constant from generation to
+in Hardy-Weinberg equilibrium, allele and genotype frequencies remain constant from generation to
 Generation.
 
 ### Equations
@@ -9583,7 +9583,7 @@ If any condition is violated, the population evolves (allele frequencies change)
 
 :::note[Worked Example 1]
 In a population of 1000 individuals, 160 have the recessive phenotype (aa). Find the frequencies of
-All genotypes and alleles.
+all genotypes and alleles.
 
 $$
 Q^2 = \frac{160}{1000} = 0.16 \implies q = 0.4
@@ -9641,7 +9641,7 @@ Observed: $p^2 = 0.42$$2pq = 0.36$$q^2 = 0.22$.
 
 The observed and expected frequencies differ, so the population is not in Hardy-Weinberg
 Equilibrium. The excess of homozygotes (AA and aa) suggests non-random mating (possibly inbreeding
-Or assortative mating).
+or assortative mating).
 
 ## Mechanisms of Evolution
 
@@ -9669,7 +9669,7 @@ Three types based on the effect on the phenotype distribution:
 **Worked Example: Directional selection in Darwin's finches.**
 
 During a drought on the Galapagos Islands, the available seeds became larger and harder. Finches
-With larger, stronger beaks could crack these seeds more efficiently and had higher survival and
+with larger, stronger beaks could crack these seeds more efficiently and had higher survival and
 Reproductive success. The average beak size in the population increased over the drought period.
 This is an example of directional selection. When the drought ended and smaller seeds became
 Available again, beak size shifted back towards the original average, demonstrating that natural
@@ -9777,7 +9777,7 @@ A form of natural selection based on mating success.
 ### Allopatric Speciation
 
 Speciation that occurs when populations are geographically separated. Gene flow is interrupted, and
-The populations diverge through genetic drift, natural selection, and/or mutation.
+the populations diverge through genetic drift, natural selection, and/or mutation.
 
 **Process:**
 
@@ -9789,7 +9789,7 @@ The populations diverge through genetic drift, natural selection, and/or mutatio
 **Worked Example: Allopatric speciation in the Kaibab squirrel.**
 
 The Kaibab squirrel lives on the north rim of the Grand Canyon, while the Abert squirrel lives on
-The south rim. The two populations were separated by the formation of the Grand Canyon approximately
+the south rim. The two populations were separated by the formation of the Grand Canyon approximately
 10,000 years ago. Despite being very similar in appearance, they have evolved enough genetic
 Differences that they are now considered separate species. The Grand Canyon acts as a geographic
 Barrier that prevents gene flow.
@@ -9966,7 +9966,7 @@ Humans and yeast differ by about 45 amino acids.
 **Molecular clocks:** The rate of neutral mutations in DNA is relatively constant over time. By
 Counting the number of differences in DNA sequences between two species, scientists can estimate how
 Long ago they diverged from a common ancestor. This method assumes a roughly constant mutation rate
-And must be calibrated using the fossil record.
+and must be calibrated using the fossil record.
 
 **Pseudogenes:** These are non-functional copies of genes that have accumulated mutations over time.
 The presence of the same pseudogene at the same chromosomal location in different species is strong
@@ -9986,7 +9986,7 @@ Four species have the following number of amino acid differences in a particular
 - Species C vs D: 15 differences
 
 The pair with the fewest differences (A and B, 5) are most closely related. The tree would show A
-And B sharing the most recent common ancestor, followed by C, with D being the most distantly
+and B sharing the most recent common ancestor, followed by C, with D being the most distantly
 Related.
 
 ## Review: Types of Natural Selection
@@ -10025,7 +10025,7 @@ a subset of the total genetic variation.
 **Why drift matters more in small populations:** In a population of 10,000, the random loss of one
 Individual changes allele frequencies by only 0.01%. In a population of 10, the loss of one
 Individual changes allele frequencies by 10%. Small populations are therefore much more susceptible
-To random changes in allele frequencies.
+to random changes in allele frequencies.
 
 **Worked Example: Cheetahs and the bottleneck effect.**
 
@@ -10033,7 +10033,7 @@ Cheetahs experienced a severe bottleneck approximately 10,000 years ago, reducin
 A very small number of individuals. As a result, modern cheetahs have extremely low genetic
 Diversity -- they are so genetically similar that skin grafts between unrelated cheetahs are not
 Rejected. This low diversity makes cheetahs vulnerable to disease and environmental changes because
-There is little genetic variation for natural selection to act upon.
+there is little genetic variation for natural selection to act upon.
 
 ## Review: Hybrid Zones and Speciation
 
@@ -10075,7 +10075,7 @@ Malaria-endemic regions have evolved sickle-cell trait (heterozygote advantage a
 And their pollinators. Plants evolve specific flower shapes, colours, and scents to attract
 Particular pollinators, while pollinators evolve specialised mouthparts and behaviours to access
 Nectar efficiently. Orchids and their pollinating moths are a classic example: some orchid species
-Have flowers with nectar spurs that match the exact proboscis length of their moth pollinator.
+have flowers with nectar spurs that match the exact proboscis length of their moth pollinator.
 
 ## Review: Evolutionary Developmental Biology (Evo-Devo)
 
@@ -10105,16 +10105,16 @@ Calmodulin) that regulate beak development, without affecting other body structu
 
 Snakes evolved from four-legged lizard ancestors. The loss of limbs in snakes is associated with
 Changes in the expression of Hox genes that control limb development. Specifically, the expansion of
-The Hox gene expression domain along the body axis during embryonic development prevents limb bud
+the Hox gene expression domain along the body axis during embryonic development prevents limb bud
 Formation in the regions where limbs would normally develop. This is an example of how a change in
-The regulation of existing genes (rather than the evolution of entirely new genes) can produce a
+the regulation of existing genes (rather than the evolution of entirely new genes) can produce a
 Major morphological change.
 
 ## Review: Genetic Evidence for Common Ancestry
 
 The universality of the genetic code is among the strongest evidence for common ancestry. In nearly
-All organisms, the same codons specify the same amino acids. For example, AUG codes for methionine
-In bacteria, plants, fungi, and humans. This shared genetic code is most explained by common Descent
+all organisms, the same codons specify the same amino acids. For example, AUG codes for methionine
+in bacteria, plants, fungi, and humans. This shared genetic code is most explained by common Descent
 from a single ancestral organism.
 
 **Shared endogenous retroviruses (ERVs):** ERVs are viral sequences that have been inserted into the
@@ -10126,20 +10126,20 @@ Far fewer, consistent with the closer evolutionary relationship between humans a
 **Shared pseudogenes:** Pseudogenes are non-functional gene copies that have accumulated disabling
 Mutations. The GULO pseudogene, which is involved in vitamin C synthesis, is present in the same
 Location on chromosome 8 in humans, chimpanzees, and orangutans. The specific mutations disabling
-The gene are shared among these species, indicating that the gene was inactivated in their common
+the gene are shared among these species, indicating that the gene was inactivated in their common
 Ancestor.
 
 **Comparative genomics:** Genome-wide comparisons show that humans share approximately 98.7% of
 Their DNA sequence with chimpanzees, approximately 85% with mice, and approximately 60% with
 Bananas. The degree of sequence similarity correlates with the evolutionary relatedness determined
-By the fossil record and other evidence.
+by the fossil record and other evidence.
 
 **Molecular clocks:**
 
 The molecular clock hypothesis proposes that mutations accumulate in DNA at a roughly constant rate
-Over time. By comparing the number of sequence differences between two species in a gene that
+over time. By comparing the number of sequence differences between two species in a gene that
 Evolves at a relatively constant rate (such as cytochrome c), researchers can estimate the time
-Since the two species diverged from a common ancestor. This provides an independent method for
+since the two species diverged from a common ancestor. This provides an independent method for
 Estimating divergence times that complements the fossil record.
 
 **Key assumptions of the molecular clock:**
@@ -10175,13 +10175,13 @@ Molecular data (DNA and protein sequences) are used to construct phylogenetic tr
 Computational methods such as maximum parsimony, maximum likelihood, and Bayesian inference. These
 Methods analyse the patterns of shared derived characters (synapomorphies) to infer the most likely
 Evolutionary relationships among species. Molecular phylogenies have resolved many relationships
-That were unclear from morphological data alone, such as the division of life into three domains
+that were unclear from morphological data alone, such as the division of life into three domains
 (Bacteria, Archaea, and Eukarya).
 
 **Convergent evolution:**
 
 Convergent evolution occurs when unrelated species independently evolve similar traits as a result
-Of adapting to similar environments or ecological niches. These similarities are analogous
+of adapting to similar environments or ecological niches. These similarities are analogous
 Structures (similar function but different evolutionary origin), not homologous structures (similar
 Origin but possibly different function).
 
@@ -10212,7 +10212,7 @@ To determine whether similar structures are homologous or analogous, biologists 
 **Speciation and reproductive isolation:**
 
 Speciation occurs when populations of a single species become reproductively isolated and diverge to
-The point where they can no longer produce fertile offspring. Reproductive isolation can be:
+the point where they can no longer produce fertile offspring. Reproductive isolation can be:
 
 - **Pre-zygotic:** Geographic isolation, temporal isolation (different breeding seasons),
   behavioural isolation (different courtship rituals), mechanical isolation (incompatible
@@ -10236,7 +10236,7 @@ Colour and skull morphology, and are considered separate subspecies (or possibly
 In a population, the ABO blood group alleles have the following frequencies: $p(I^A) = 0.3$
 $q(I^B) = 0.1$, $r(i) = 0.6$. Calculate the expected frequency of each blood type (A, B, AB, O)
 Assuming Hardy-Weinberg equilibrium. What percentage of the population can donate blood to a person
-With type O blood?
+with type O blood?
 
 </details>
 
@@ -10347,7 +10347,7 @@ New allele frequencies: $p = 5/10 = 0.5$, $q = 5/10 = 0.5$.
 
 Genetic drift has dramatically increased the frequency of allele $a$ from $0.2$ on the mainland to
 $0.5$ on the island. This is an example of the founder effect: the small founding population does
-Not represent the genetic diversity of the source population, and allele frequencies can shift
+not represent the genetic diversity of the source population, and allele frequencies can shift
 Substantially by chance alone.
 
 </details>
@@ -10367,7 +10367,7 @@ Barrier and explain whether these two species are likely to remain distinct.
 
 The temporal difference in breeding seasons (March vs June) is a **temporal isolation** barrier,
 Which is a prezygotic barrier. It prevents the species from mating in nature because they reproduce
-At different times.
+at different times.
 
 The sterility of adult hybrids is a **reduced hybrid fertility** barrier, which is a postzygotic
 Barrier. Even if fertilisation occurs (as in the artificial experiment), the hybrids cannot produce
@@ -10706,17 +10706,17 @@ categories:
 | Schrodinger | Wave equation for the electron (quantum mechanical model)            |
 
 Each model was superseded because it failed to explain new experimental observations. Dalton could
-Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
+not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
 Unstable by classical electrodynamics. Bohr's model only worked for hydrogen. The Schrodinger
 Equation provides the complete quantum mechanical description, predicting probability distributions
-For electrons rather than definite orbits.
+for electrons rather than definite orbits.
 
 ### Derivation: Rutherford Scattering and the Nucleus
 
 In Rutherford's gold foil experiment, alpha particles were fired at a thin gold foil. Most passed
 Straight through (the atom is mostly empty space), but some were deflected at large angles. A few
-Even bounced back. The large-angle scattering can only be explained if all the positive charge and
-Most of the mass are concentrated in a tiny, dense nucleus.
+even bounced back. The large-angle scattering can only be explained if all the positive charge and
+most of the mass are concentrated in a tiny, dense nucleus.
 
 Rutherford derived that the closest approach distance $d$ for a head-on collision is:
 
@@ -10844,12 +10844,12 @@ The energy of an orbital depends on both the principal quantum number $n$ and th
 Effect. The 4s orbital has greater penetration to the nucleus than the 3d orbital (because s
 Orbitals have no angular momentum, so they spend more time near the nucleus). This greater
 Penetration lowers the energy of 4s below that of 3d when both are empty. However, once 3d electrons
-Are present, they shield the 4s electrons effectively, causing the 4s energy to rise above 3d.
+are present, they shield the 4s electrons effectively, causing the 4s energy to rise above 3d.
 
 ### Pauli Exclusion Principle
 
 No two electrons in an atom can have the same set of four quantum numbers. Each orbital holds at
-Most two electrons with opposite spins.
+most two electrons with opposite spins.
 
 ### Hund's Rule
 
@@ -10873,7 +10873,7 @@ Minimises electron-electron repulsion and maximises total spin, which is energet
 Similar exceptions occur for Mo ($4d^5$) and $\mathrm{Ag$ ($4d^{10}$).
 
 The stability of half-filled and fully filled d subshells arises from exchange energy: electrons
-With parallel spins in different orbitals are slightly lower in energy than paired electrons. A
+with parallel spins in different orbitals are slightly lower in energy than paired electrons. A
 Half-filled ($d^5$) or fully filled ($d^{10}$) subshell maximises this exchange energy.
 
 :::note[Example]
@@ -10933,7 +10933,7 @@ E_n = -\frac{13.6 \mathrm{ eV}{n^2} = -\frac{2.18 \times 10^{-18} \mathrm{ J}{n^
 $$
 
 The energy is negative because the electron is bound to the nucleus. The ground state ($n = 1$) has
-The most negative (lowest) energy. As $n \to \infty$$E_n \to 0$ Which is the ionisation energy.
+the most negative (lowest) energy. As $n \to \infty$$E_n \to 0$ Which is the ionisation energy.
 
 The radius of the $n$ Th orbit:
 
@@ -11031,7 +11031,7 @@ If $\nu \lt \nu_0$ No electrons are emitted regardless of intensity.
 The photoelectric effect demonstrates the particle nature of light. Increasing the intensity of
 Light below the threshold frequency does not eject electrons because no single photon has enough
 Energy. Above the threshold, increasing intensity increases the number of ejected electrons (because
-More photons arrive per unit time) but not their maximum kinetic energy.
+more photons arrive per unit time) but not their maximum kinetic energy.
 
 ### Worked Example: Photoelectric Effect
 
@@ -11089,7 +11089,7 @@ Repulsion in Group 16).
 
 **Successive ionization energies** provide evidence for electron shells. Large jumps in ionization
 Energy occur when an electron is removed from a new, inner shell (which is closer to the nucleus and
-Less shielded).
+less shielded).
 
 **Worked Example.** The first five ionization energies of an element are 578, 1817, 2745, 11578, and
 14842 kJ/mol. Identify the group.
@@ -11181,7 +11181,7 @@ Repulsion).
 ### Paramagnetism and Diamagnetism
 
 Atoms or ions with unpaired electrons are **paramagnetic** (attracted to a magnetic field). Those
-With all electrons paired are **diamagnetic** (weakly repelled by a magnetic field).
+with all electrons paired are **diamagnetic** (weakly repelled by a magnetic field).
 
 | Species   | Unpaired Electrons | Magnetic Behavior |
 | --------- | ------------------ | ----------------- |
@@ -11214,7 +11214,7 @@ electrons.
 
 For main group elements, valence electrons are those in the outermost s and p subshells. For
 Transition metals, the valence electrons include the outermost s electrons and the d electrons of
-The highest occupied d subshell.
+the highest occupied d subshell.
 
 | Element | Configuration                | Valence Electrons |
 | ------- | ---------------------------- | ----------------- |
@@ -11263,14 +11263,14 @@ Order: Na &lt; Al &lt; Cl &lt; Ar.
 ### Derivation: Ionization Energy Across a Period
 
 The first ionization energy generally increases across a period because $Z_{\mathrm{eff}$ increases
-While the principal quantum number $n$ stays the same. The outermost electron is held more tightly.
+while the principal quantum number $n$ stays the same. The outermost electron is held more tightly.
 
 The decrease from Group 2 to Group 13 occurs because the Group 13 electron enters a p subshell,
 Which is higher in energy and more effectively shielded than the s subshell of Group 2.
 
 The decrease from Group 15 to Group 16 occurs because the Group 16 electron pairs with another
 Electron in the same p orbital, creating electron-electron repulsion (pairing energy) that offsets
-The increase in $Z_{\mathrm{eff}$.
+the increase in $Z_{\mathrm{eff}$.
 
 ```mermaid
 flowchart TD
@@ -11601,7 +11601,7 @@ URL: https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces/2_bond
 
 The distinction between ionic and covalent bonding is not always sharp. Bonds with electronegativity
 Differences near the boundary ($\approx 1.7$) have significant ionic and covalent character. Bonding
-Is better described as a continuum rather than a discrete set of categories.
+is better described as a continuum rather than a discrete set of categories.
 
 ### Ionic Bonding
 
@@ -11617,7 +11617,7 @@ $$
 
 Higher charges and smaller ionic radii lead to larger (more negative) lattice energy. This is a
 Direct consequence of Coulomb's law: the electrostatic attraction is proportional to the product of
-The charges and inversely proportional to the distance between them.
+the charges and inversely proportional to the distance between them.
 
 **Example:** MgO has a much higher lattice energy than NaCl because Mg$^{2+}$ and O$^{2-}$ carry
 Double charges compared to Na$^+$ and Cl$^-$.
@@ -11729,7 +11729,7 @@ Bond on a different oxygen.
 ### Resonance
 
 When multiple Lewis structures (resonance structures) are possible, the actual molecule is a hybrid
-Of all resonance forms. The actual bond order is the average.
+of all resonance forms. The actual bond order is the average.
 :::
 
 :::note[Example: Ozone]
@@ -11758,7 +11758,7 @@ exceptional stability.
 ## VSEPR Theory (CED Unit 2)
 
 Valence Shell Electron Pair Repulsion (VSEPR) predicts molecular geometry based on the repulsion
-Between electron pairs (both bonding and lone pairs). The key idea is that electron pairs arrange
+between electron pairs (both bonding and lone pairs). The key idea is that electron pairs arrange
 Themselves to be as far apart as possible.
 
 ### Electron Domain Geometry
@@ -11795,8 +11795,8 @@ Lone pair--lone pair $\gt$ lone pair--bond pair $\gt$ bond pair--bond pair
 
 This is why bond angles decrease when lone pairs are present (e.g., $\mathrm{H_2\mathrm{O$ at
 $104.5^\circ$ vs ideal $109.5^\circ$). A lone pair occupies more space than a bonding pair because
-It is attracted to only one nucleus, whereas a bonding pair is attracted to two nuclei and is
-Therefore more compressed.
+it is attracted to only one nucleus, whereas a bonding pair is attracted to two nuclei and is
+therefore more compressed.
 
 ### Axial vs. Equatorial Positions in Trigonal Bipyramidal
 
@@ -11841,7 +11841,7 @@ Vector quantity; the overall molecular dipole is the vector sum of all bond dipo
 ## Intermolecular Forces (CED Unit 3)
 
 Intermolecular forces (IMFs) are weaker than intramolecular bonds but determine physical properties
-Like boiling point, melting point, and solubility.
+like boiling point, melting point, and solubility.
 
 ### Types of IMFs (Weakest to Strongest)
 
@@ -12008,7 +12008,7 @@ Structure 3: $\mathrm{N-\mathrm{N\equiv\mathrm{O$: N(left) = $5 - 6 - 2/2 = -2$;
 $5 - 0 - 6/2 = +2$; O = $6 - 2 - 6/2 = +1$.
 
 Structure 1 is the best because the formal charges are closest to zero and the negative charge is on
-The more electronegative atom (oxygen).
+the more electronegative atom (oxygen).
 
 ## Detailed Worked Example: VSEPR with Multiple Lone Pairs
 
@@ -12036,7 +12036,7 @@ Structure 2: $\mathrm{N=\mathrm{N=\mathrm{O$: N(left) FC = -1; N(right) FC = +1;
 Structure 3: $\mathrm{N-\mathrm{N\equiv\mathrm{O$: N(left) FC = -2; N(right) FC = +2; O FC = +1.
 
 Structure 1 is the best because the formal charges are closest to zero and the negative charge is on
-The more electronegative atom (oxygen). Structure 3 can be eliminated because it has the largest
+the more electronegative atom (oxygen). Structure 3 can be eliminated because it has the largest
 Formal charges.
 
 ### Worked Example: VSEPR for Complex Molecules
@@ -12058,7 +12058,7 @@ Oxygen (in C-OH): 2 bonding domains, 2 lone pairs. Bent, approximately 109.5 deg
 **Example.** Is $\mathrm{SF_4$ polar?
 
 S has 5 electron domains (4 bonding, 1 lone pair). Seesaw geometry. The bond dipoles do not cancel
-Because the geometry is not symmetric (the lone pair distorts the structure). Therefore,
+because the geometry is not symmetric (the lone pair distorts the structure). Therefore,
 $\mathrm{SF_4$ is polar.
 
 Compare with $\mathrm{XeF_4$: 6 electron domains (4 bonding, 2 lone pairs). Square planar. The bond
@@ -12070,7 +12070,7 @@ nonpolar.
 Hydrogen bonds are directional because they require a specific geometry: the hydrogen must be
 Colinear with the two electronegative atoms (donor-H...acceptor angle close to 180 degrees). This
 Maximises the electrostatic attraction between the partial positive hydrogen and the lone pair on
-The acceptor. Deviation from linearity weakens the hydrogen bond significantly.
+the acceptor. Deviation from linearity weakens the hydrogen bond significantly.
 
 This directionality explains many of water's unique properties. In ice, each water molecule forms
 Four hydrogen bonds in a tetrahedral arrangement, creating an open lattice structure with lower
@@ -12340,7 +12340,7 @@ Geometry is square planar (the lone pairs occupy axial positions, 180 degrees ap
 
 $\mathrm{XeF_4$ is nonpolar. Although each Xe-F bond is polar (F is more electronegative), the four
 Bonds are arranged symmetrically in a square plane. The bond dipoles cancel out because they point
-In opposite directions. The lone pairs are opposite each other (axial) and do not create a net
+in opposite directions. The lone pairs are opposite each other (axial) and do not create a net
 Dipole.
 
 </details>
@@ -12372,7 +12372,7 @@ Bonds) plus London forces and dipole-dipole interactions. Highest boiling point.
 
 The dominant factor is hydrogen bonding: compounds with O-H hydrogen bonding have higher boiling
 Points than those with N-H hydrogen bonding, which in turn have higher boiling points than compounds
-With only dipole-dipole or London forces.
+with only dipole-dipole or London forces.
 
 </details>
 
@@ -12389,10 +12389,10 @@ Equatorial bond lengths differ.
 <summary>Answer</summary>
 
 Sulfur in $\mathrm{SF_4$ has 5 electron domains (4 bonding pairs + 1 lone pair). The hybridization
-Is $sp^3d$ (one s, three p, and one d orbital combine).
+is $sp^3d$ (one s, three p, and one d orbital combine).
 
 The electron domain geometry is trigonal bipyramidal. The lone pair occupies an equatorial position
-To minimise repulsion (equatorial has two 90 degree interactions; axial has three). The molecular
+to minimise repulsion (equatorial has two 90 degree interactions; axial has three). The molecular
 Geometry is see-saw.
 
 Bond angles: The equatorial F-S-F angle is less than $120^\circ$ (compressed by the lone pair,
@@ -13537,7 +13537,7 @@ Where $\Delta n = (\mathrm{moles gaseous products) - (\mathrm{moles gaseous reac
 ### Heterogeneous Equilibria
 
 Pure solids and pure liquids are not included in the equilibrium expression because their activities
-Are constant (equal to 1).
+are constant (equal to 1).
 :::
 
 :::note[Example]
@@ -14039,7 +14039,7 @@ Reactant/product are added). There is no shift in equilibrium.
 
 A reaction has a rate constant of $3.46 \times 10^{-5} \mathrm{ s^{-1}}$ at $298 \mathrm{ K$ and
 $4.87 \times 10^{-3} \mathrm{ s^{-1}}$ at $350 \mathrm{ K$. Calculate the activation energy $E_a$
-And the pre-exponential factor $A$.
+and the pre-exponential factor $A$.
 
 </details>
 
@@ -14446,7 +14446,7 @@ The mole is defined such that the molar mass of carbon-12 is exactly 12 g/mol.
 ### Molar Mass
 
 The molar mass of a substance is the mass of one mole, expressed in g/mol. It is numerically equal
-To the atomic/molecular formula mass in amu.
+to the atomic/molecular formula mass in amu.
 
 | Substance                              | Molar Mass (g/mol) |
 | -------------------------------------- | ------------------ |
@@ -14514,7 +14514,7 @@ Sum: $43.38 + 11.33 + 45.29 = 100.00\%$. Verified.
 ### Empirical Formula
 
 The simplest whole-number ratio of atoms in a compound. It gives the relative numbers of atoms but
-Not the actual numbers.
+not the actual numbers.
 
 ### Molecular Formula
 
@@ -14551,7 +14551,7 @@ Molecular formula: $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ (glucose).
 ### Combustion Analysis
 
 When an unknown compound containing C, H, and possibly O is burned completely, the masses of CO$_2$
-And H$_2$O produced are measured. These give the amounts of C and H in the original compound.
+and H$_2$O produced are measured. These give the amounts of C and H in the original compound.
 
 $$
 \mathrm{mol C = \mathrm{mol CO_2 = \frac{\mathrm{mass of CO_2}{44.01}
@@ -14562,7 +14562,7 @@ $$
 $$
 
 If the mass of C + mass of H is less than the total mass of the sample, the difference is the mass
-Of oxygen.
+of oxygen.
 
 ### Worked Example: Combustion Analysis
 
@@ -14827,7 +14827,7 @@ The product must be pure and filterable.
 
 **Example:** To determine the amount of sulfate in a solution, add excess barium chloride. Filter,
 Dry, and weigh the BaSO$_4$ precipitate. Use the mass of BaSO$_4$ to calculate the moles and hence
-The concentration of sulfate.
+the concentration of sulfate.
 
 ### Worked Example: Gravimetric Calculation
 
@@ -15021,7 +15021,7 @@ $\mathrm{H_2\mathrm{SO_4$$\mathrm{HClO_4$.
 **Strong bases:** Group 1 hydroxides, $\mathrm{Ca(OH)_2$$\mathrm{Sr(OH)_2$$\mathrm{Ba(OH)_2$.
 
 Only strong electrolytes are split into ions in the complete ionic equation. Weak acids and bases
-Are written as intact molecules.
+are written as intact molecules.
 :::
 
 :::note[Example]
@@ -15249,7 +15249,7 @@ $V = \frac{nRT}{P} = \frac{0.0612 \times 0.0821 \times 298}{0.969} = \frac{1.496
 <summary>Question 3: Empirical and molecular formula</summary>
 
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Its molar mass
-Is approximately $180 \mathrm{ g/mol$. Determine the empirical and molecular formulas.
+is approximately $180 \mathrm{ g/mol$. Determine the empirical and molecular formulas.
 
 </details>
 
@@ -15401,7 +15401,7 @@ $$
 $$
 
 Where $q$ is heat and $w$ is work. The first law is a statement of energy conservation: any change
-In the internal energy of a system must be accounted for by heat flow and work done.
+in the internal energy of a system must be accounted for by heat flow and work done.
 
 ### Sign Convention (Chemistry)
 
@@ -16179,8 +16179,8 @@ $\Delta H - T\Delta S \lt 0$
 
 Since $\Delta H = -36.0 \mathrm{ kJ/mol$ (negative) and $\Delta S = +347 \mathrm{ J/(mol\cdot K)$
 (positive), both terms favour spontaneity. The reaction is spontaneous at all temperatures. There is
-No upper temperature limit because the $-T\Delta S$ term always contributes negatively to $\Delta G$
-When $\Delta S$ is positive.
+no upper temperature limit because the $-T\Delta S$ term always contributes negatively to $\Delta G$
+when $\Delta S$ is positive.
 
 </details>
 
@@ -16188,7 +16188,7 @@ When $\Delta S$ is positive.
 <summary>Question 3: Calorimetry and specific heat</summary>
 
 A $50.0 \mathrm{ g$ sample of an unknown metal is heated to $100.0^\circ\mathrm{C$ and then placed
-In $100.0 \mathrm{ g$ of water at $25.0^\circ\mathrm{C$ in a coffee-cup calorimeter. The final
+in $100.0 \mathrm{ g$ of water at $25.0^\circ\mathrm{C$ in a coffee-cup calorimeter. The final
 Temperature of the mixture is $28.8^\circ\mathrm{C$. Calculate the specific heat capacity of the
 Metal. Assume no heat loss to the calorimeter.
 
@@ -16414,7 +16414,7 @@ Your left hand by shifting larger cards to the right.
 
 **Why insertion sort is $O(n^2)$ in the worst case.** If the array is in reverse order, each new
 Element must be shifted all the way to the front. The $i$-th element requires up to $i$ shifts, so
-The total is $1 + 2 + \cdots + (n-1) = O(n^2)$.
+the total is $1 + 2 + \cdots + (n-1) = O(n^2)$.
 
 **Best case $O(n)$.** If the array is already sorted, each element requires zero shifts.
 
@@ -16554,7 +16554,7 @@ Big-O notation describes the upper bound of an algorithm"s time or space complex
 ### Formal Definition
 
 $f(n) = O(g(n))$ if there exist positive constants $c$ and $n_0$ such that $f(n) \le c \cdot g(n)$
-For all $n \ge n_0$.
+for all $n \ge n_0$.
 
 ### Analyzing Code
 
@@ -16702,7 +16702,7 @@ Merge [27, 38] and [3, 43]: [3, 27, 38, 43].
 
 Quick sort has $O(n^2)$ worst case when the pivot is always the smallest or largest element. This
 Happens when the array is already sorted (or reverse sorted) and the first or last element is used
-As the pivot.
+as the pivot.
 
 **Mitigation:** Choose the middle element or a random element as the pivot.
 
@@ -16797,7 +16797,7 @@ private static int partition(int[] arr, int low, int high) {
 
 **Quick Sort worst case.** $O(n^2)$ when the pivot is always the smallest or largest element. This
 Happens when the array is already sorted (or reverse sorted) and the first or last element is used
-As the pivot.
+as the pivot.
 
 **Mitigation:** Choose the middle element or a random element as the pivot.
 
@@ -16878,7 +16878,7 @@ public static boolean isPalindrome(String s) {
 
 **Proof of correctness.** The loop compares characters at symmetric positions: position 0 with
 Position n-1, position 1 with position n-2, etc. If any pair differs, the string is not a palindrome
-And the method returns false. If all pairs match, the string reads the same forwards and backwards,
+and the method returns false. If all pairs match, the string reads the same forwards and backwards,
 So it is a palindrome. $lacksquare$
 
 **String reversal (iterative):**
@@ -17281,7 +17281,7 @@ Highest and lowest scores.
 ## Abstraction (CED Unit 2)
 
 Abstraction is the process of reducing complexity by hiding unnecessary details and exposing only
-The essential features.
+the essential features.
 
 ### Why Abstraction Matters
 
@@ -17313,7 +17313,7 @@ Appropriate to the problem.
 ### Procedural Abstraction
 
 A procedure (function/method) provides a named interface that hides its implementation. The caller
-Only needs to know what the procedure does (its specification), not how it does it.
+only needs to know what the procedure does (its specification), not how it does it.
 
 **Benefits:**
 
@@ -17362,8 +17362,8 @@ Corners) without affecting any code that uses this class.
 ### Information Hiding
 
 Information hiding is the principle that the internal details of a module should be hidden from
-Other modules. Only the public interface is exposed. This reduces coupling between modules, making
-The system easier to understand, test, and modify.
+other modules. Only the public interface is exposed. This reduces coupling between modules, making
+the system easier to understand, test, and modify.
 
 In Java, the `private` keyword enforces information hiding. A `private` field cannot be accessed
 Directly from outside the class, forcing callers to use the public methods.
@@ -17630,14 +17630,14 @@ PROCEDURE reverseList(list)
 
 **Proof of termination.** The loop variable `i` starts at LENGTH(list) and decreases by 1 each
 Iteration until it reaches 1. Since LENGTH(list) is a finite positive integer, the loop terminates
-After LENGTH(list) iterations. $\blacksquare$
+after LENGTH(list) iterations. $\blacksquare$
 
 ## Problem Solving Strategies
 
 ### Top-Down Design
 
 Start with the main problem, then decompose into subproblems. Each subproblem is further decomposed
-Until the tasks are simple enough to implement directly.
+until the tasks are simple enough to implement directly.
 
 **Example:** "Build a student management system."
 
@@ -17704,12 +17704,12 @@ An algorithm is a finite set of unambiguous instructions that solves a problem o
 | Programming code | High      | Low         | Yes        |
 
 Pseudocode is the best compromise for communicating algorithms between humans. It is precise enough
-To unambiguously describe the logic, but does not require knowledge of a specific language's syntax.
+to unambiguously describe the logic, but does not require knowledge of a specific language's syntax.
 
 ### Proving Termination
 
 An algorithm terminates if every loop has a well-defined condition that is eventually satisfied, and
-Every recursive call makes progress toward a base case.
+every recursive call makes progress toward a base case.
 
 **Example.** The following algorithm always terminates:
 
@@ -18519,7 +18519,7 @@ $$
 
 **Intuition.** De Morgan's Laws say that the negation of a conjunction is the disjunction of the
 Negations, and vice versa. "It is not true that both A and B are true" is equivalent to "A is false
-Or B is false."
+or B is false."
 
 **Application in circuit design.** If you need a NOR gate but only have NAND gates available, De
 Morgan's Laws let you convert between gate types.
@@ -18663,7 +18663,7 @@ Request the kernel to perform privileged operations on their behalf.
 
 **Black-box vs white-box.** Black-box testing verifies that the system produces correct outputs for
 Given inputs, without examining the code. White-box testing examines the code structure to ensure
-Every path is tested (e.g., every branch of every `if` statement).
+every path is tested (e.g., every branch of every `if` statement).
 
 **Worked Example.** A function `isValidAge(age)` returns true if 0 $\le$ age $\le$ 120.
 
@@ -18843,7 +18843,7 @@ $12 / 4 = 3$ pages.
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
 Defragmentation reorganises files into contiguous blocks. Note: SSDs do not need defragmentation and
-It can actually reduce their lifespan.
+it can actually reduce their lifespan.
 
 ## Practice Questions
 
@@ -21018,7 +21018,7 @@ The Internet is a global network of interconnected computer networks. Key concep
 **Brief history.** The Internet evolved from ARPANET (1969), a US Department of Defense project
 Designed to create a survivable communications network. TCP/IP was standardized in 1983. The World
 Wide Web was invented by Tim Berners-Lee in 1989. Commercial Internet access became widespread in
-The 1990s.
+the 1990s.
 
 ### Internet Architecture
 
@@ -26219,7 +26219,7 @@ When two or more quantities are related by an equation, their rates of change ar
 
 <Aside type="note" title="Example">
 A ladder 10 ft long rests against a vertical wall. If the bottom slides away at 1 ft/s, how fast is
-The top sliding down when the bottom is 6 ft from the wall?
+the top sliding down when the bottom is 6 ft from the wall?
 
 Let $x$ = distance from wall to bottom, $y$ = height of top on wall. Then $x^2 + y^2 = 100$.
 
@@ -26253,7 +26253,7 @@ $$
 
 <Aside type="note" title="Example">
 A 15 ft ladder leans against a wall. The bottom slides away at 2 ft/s. How fast is the angle between
-The ladder and the ground changing when the bottom is 9 ft from the wall?
+the ladder and the ground changing when the bottom is 9 ft from the wall?
 
 Let $\theta$ be the angle between the ladder and the ground. Then $\cos\theta = \frac{x}{15}$ So
 $x = 15\cos\theta$.
@@ -26347,7 +26347,7 @@ Rolle's Theorem is a special case of the MVT where $f(a) = f(b)$.
 
 **Application of Rolle's Theorem.** Rolle's Theorem is used to prove that a differentiable function
 Has at most one root in an interval. If it had two roots, Rolle's Theorem would give a point where
-The derivative is zero, leading to a contradiction.
+the derivative is zero, leading to a contradiction.
 </Aside>
 
 <Aside type="note" title="Example">
@@ -26374,7 +26374,7 @@ Three roots.
 ### Critical Points
 
 A **critical number** of $f$ is a value $c$ in the domain of $f$ where $f'(c) = 0$ or $f'(c)$ does
-Not exist.
+not exist.
 
 ### First Derivative Test
 
@@ -29126,7 +29126,7 @@ URL: https://ap.wyattau.com/maths/4-differential-equations/4_differential-equati
 
 A **differential equation** (DE) is an equation that relates a function to one or more of its
 Derivatives. The **order** of a DE is the highest derivative that appears. A first-order DE involves
-Only $\frac{dy}{dx}$; a second-order DE involves $\frac{d^2y}{dx^2}$.
+only $\frac{dy}{dx}$; a second-order DE involves $\frac{d^2y}{dx^2}$.
 
 A **solution** to a DE is a function that satisfies the equation. A **general solution** contains
 Arbitrary constants ( equal to the order of the DE), while a **particular solution** Satisfies
@@ -29284,7 +29284,7 @@ $$
 Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$ We get $k = -\frac{\ln 2}{T_{1/2}}$.
 
 The half-life is a constant: no matter when you start measuring, the time for the quantity to halve
-Is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
+is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
 :::
 
 :::note[Example]
@@ -29690,7 +29690,7 @@ Equilibria: $y = 0$, $y = 2$, $y = 5$.
 ## Bifurcation Analysis (CED Unit 7.9)
 
 A **bifurcation** occurs when a small change in a parameter of the DE causes a qualitative change in
-The equilibrium structure.
+the equilibrium structure.
 
 Consider the one-parameter family:
 
@@ -30719,7 +30719,7 @@ $$
 
 **Intuition.** FTC Part 1 says: the rate at which the accumulated area changes is just the height of
 The curve at that point. This connects the two halves of calculus: the derivative and the integral
-Are inverse operations.
+are inverse operations.
 </Aside>
 
 <Aside type="note" title="Example">
@@ -30967,7 +30967,7 @@ $$
 ### Improper Integrals
 
 An improper integral involves either an infinite limit of integration or an infinite discontinuity
-In the interval.
+in the interval.
 
 **Type 1: Infinite interval:**
 
@@ -31011,7 +31011,7 @@ $$
 
 **The Gaussian integral.** The integral
 $\displaystyle\int_0^{\infty} e^{-x^2}\, dx = \frac{\sqrt{\pi}}{2}$ is a celebrated result that
-Cannot be evaluated by elementary methods. The standard technique uses a double integral in polar
+cannot be evaluated by elementary methods. The standard technique uses a double integral in polar
 Coordinates. The full Gaussian integral from $-\infty$ to $\infty$ equals $\sqrt{\pi}$.
 
 Note that $\displaystyle\int_0^{\infty} xe^{-x^2}\, dx = \frac{1}{2}$ (computed above via
@@ -31088,7 +31088,7 @@ $$
 
 <Aside type="note" title="Example">
 Find the volume of the solid obtained by rotating the region bounded by $y = x^2$ and $y = x$ about
-The $y$-axis.
+the $y$-axis.
 
 The curves intersect at $x = 0$ and $x = 1$. Using the shell method:
 
@@ -31403,7 +31403,7 @@ URL: https://ap.wyattau.com/maths/1-limits-and-continuity/1_limits-and-continuit
 ## Intuitive Notion of a Limit (CED Unit 1)
 
 The limit of a function $f(x)$ as $x$ approaches $a$ is the value that $f(x)$ approaches, regardless
-Of whether $f(a)$ is defined:
+of whether $f(a)$ is defined:
 
 $$
 \lim_{x \to a} f(x) = L
@@ -31565,7 +31565,7 @@ $\delta \gt 0$ such that $|x - a| \lt \delta$ implies $|(f+g)(x) - (L+M)| \lt \e
 Note that $|(f+g)(x) - (L+M)| = |(f(x) - L) + (g(x) - M)| \le |f(x) - L| + |g(x) - M|$.
 
 Choose $\delta_1$ so that $|x-a| \lt \delta_1$ implies $|f(x)-L| \lt \epsilon/2$. Choose $\delta_2$
-So that $|x-a| \lt \delta_2$ implies $|g(x)-M| \lt \epsilon/2$. Let
+so that $|x-a| \lt \delta_2$ implies $|g(x)-M| \lt \epsilon/2$. Let
 $\delta = \min(\delta_1, \delta_2)$. Then $|x-a| \lt \delta$ implies both bounds hold, so
 $|(f+g)(x) - (L+M)| \lt \epsilon/2 + \epsilon/2 = \epsilon$. $\blacksquare$
 
@@ -32492,7 +32492,7 @@ When $|r| \lt 1$, $r^n \to 0$ So $S_n \to \frac{a}{1 - r}$.
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{3}{2^n}$.
 
 Rewrite as $\displaystyle\sum_{n=1}^{\infty} 3\left(\frac{1}{2}\right)^n$. Here $a = \frac{3}{2}$
-And $r = \frac{1}{2}$.
+and $r = \frac{1}{2}$.
 
 $$
 \sum_{n=1}^{\infty} \frac{3}{2^n} = \frac{3/2}{1 - 1/2} = \frac{3/2}{1/2} = 3
@@ -32592,7 +32592,7 @@ $$
 - Diverges if $p \le 1$
 
 This follows directly from the integral test: $\int_1^{\infty} \frac{dx}{x^p}$ converges if and only
-If $p \gt 1$.
+if $p \gt 1$.
 
 The $p$-series with $p = 1$ is the harmonic series, which diverges. This is the "boundary case" that
 Separates convergence from divergence.
@@ -32622,7 +32622,7 @@ $$
 - If $L = \infty$ and $\sum b_n$ diverges, then $\sum a_n$ diverges.
 
 The case $0 \lt L \lt \infty$ is the most commonly used: it says the two series have the "same order
-Of magnitude," so they share the same convergence behavior.
+of magnitude," so they share the same convergence behavior.
 :::
 
 :::note[Example]
@@ -32701,25 +32701,25 @@ Then the alternating series $\displaystyle\sum_{n=1}^{\infty} (-1)^{n-1} a_n$ co
 
 **Intuition:** The partial sums oscillate, but the oscillations shrink because the terms decrease.
 The odd-indexed partial sums $S_1, S_3, S_5, \ldots$ form a decreasing sequence bounded below, and
-The even-indexed partial sums $S_2, S_4, S_6, \ldots$ form an increasing sequence bounded above.
+the even-indexed partial sums $S_2, S_4, S_6, \ldots$ form an increasing sequence bounded above.
 Both converge to the same limit.
 
 ### Alternating Series Estimation Theorem
 
 If $S = \displaystyle\sum_{n=1}^{\infty} (-1)^{n-1} a_n$ is a convergent alternating series, then
-The error in using $S_n$ to approximate $S$ satisfies:
+the error in using $S_n$ to approximate $S$ satisfies:
 
 $$
 |R_n| = |S - S_n| \le a_{n+1}
 $$
 
 That is, the error is bounded by the first omitted term. This is remarkably useful: you can control
-The error by counting terms.
+the error by counting terms.
 :::
 
 :::note[Example]
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
-The sum with error less than $0.001$?
+the sum with error less than $0.001$?
 
 The terms are $a_n = \frac{1}{n}$ Which decrease and approach 0.
 
@@ -33613,7 +33613,7 @@ I_{\text{initial} = \frac{\mathcal{E}}{R_1} = \frac{30}{10000} = 3.0\,\text{mA
 $$
 
 (b) At steady state, the capacitor is fully charged and acts as an open circuit. The current flows
-Through $R_1$ and $R_2$ in series.
+through $R_1$ and $R_2$ in series.
 
 $$
 I_{\text{steady} = \frac{\mathcal{E}}{R_1 + R_2} = \frac{30}{10000 + 20000} = 1.0\,\text{mA
@@ -34084,7 +34084,7 @@ At the center ($x = 0$): $E = 0$ As expected by symmetry.
 
 :::note
 Example: Electric field of an infinite line of charge
-For an infinite line with linear charge density $\lambda$ Use cylindrical symmetry. Place the line
+for an infinite line with linear charge density $\lambda$ Use cylindrical symmetry. Place the line
 along The $z$-axis. A segment $dz$ at the origin produces a field with perpendicular component:
 
 $$
@@ -34163,7 +34163,7 @@ $$
 :::note
 Example: Non-conducting sphere with non-uniform charge density
 A sphere of radius $R$ has charge density $\rho(r) = \rho_0 (1 - r/R)$ for $0 \le r \le R$. Find $E$
-Inside and outside.
+inside and outside.
 
 $Q_{\text{enc}(r) = \int_0^r \rho(r') \cdot 4\pi r'^2\, dr' = 4\pi\rho_0 \int_0^r \left(r'^2 - \frac{r'^3}{R}\right) dr'$
 
@@ -34510,7 +34510,7 @@ Let the arc span from $\theta = -\pi/2$ to $\theta = \pi/2$. The linear charge d
 $\lambda = Q/(\pi R)$.
 
 (a) By symmetry, the field points along the axis of symmetry (let us call it the $y$-direction, with
-The arc opening to the right). A charge element $dq = \lambda R\, d\theta$ at angle $\theta$
+the arc opening to the right). A charge element $dq = \lambda R\, d\theta$ at angle $\theta$
 produces:
 
 $$
@@ -35496,7 +35496,7 @@ $$
 An object thrown upward and an object dropped from the same height take the same time to reach the
 Ground (if air resistance is negligible). This is because the motion is symmetric about the peak:
 The time to rise equals the time to fall, and the speed at any height on the way up equals the speed
-At the same height on the way down. The symmetry is a direct consequence of the equations being
+at the same height on the way down. The symmetry is a direct consequence of the equations being
 Quadratic in $t$.
 </Aside>
 
@@ -35577,7 +35577,7 @@ Using the double-angle identity $\sin 2\theta = 2\sin\theta \cos\theta$.
 The range $R = (v_0^2/g)\sin 2\theta$ is maximized when $\sin 2\theta$ is maximized, i.e., when
 $2\theta = 90^{\circ}$ Giving $\theta = 45^{\circ}$. Complementary angles give the same range:
 $\sin 2\theta = \sin 2(90^{\circ} - \theta)$. A projectile launched at $30^{\circ}$ and one launched
-At $60^{\circ}$ with the same speed will travel the same horizontal distance, but the $60^{\circ}$
+at $60^{\circ}$ with the same speed will travel the same horizontal distance, but the $60^{\circ}$
 Launch goes higher and stays in the air longer.
 
 ### The Trajectory Is a Parabola
@@ -35598,7 +35598,7 @@ Confirms that the parabola opens downward.
 
 <Aside type="note" title="Example">
 A projectile is launched at $50 \mathrm{ m/s$ at $37^\circ$ above horizontal from ground level. Find
-The range and maximum height.
+the range and maximum height.
 
 $\cos 37^\circ \approx 0.8$, $\sin 37^\circ \approx 0.6$.
 
@@ -35722,7 +35722,7 @@ $$
 ### Displacement as Area Under the Curve
 
 When $a(t)$ or $v(t)$ is given graphically rather than analytically, the displacement can be found
-By computing the area under the $v$-vs-$t$ curve. For non-linear curves, this requires numerical
+by computing the area under the $v$-vs-$t$ curve. For non-linear curves, this requires numerical
 Integration (counting squares, the trapezoidal rule, or Simpson's rule).
 </Aside>
 
@@ -35881,7 +35881,7 @@ Kinematics is the **language of motion**, it describes _what_ is happening witho
 For a curved $x$-vs-$t$ graph, the instantaneous velocity at any point is the gradient of the
 Tangent to the curve at that point. A straight-line section indicates constant velocity (zero
 Acceleration). A section that curves upward (concave up) indicates positive acceleration; a section
-That curves downward (concave down) indicates negative acceleration.
+that curves downward (concave down) indicates negative acceleration.
 
 ### Worked Example: Interpreting a Velocity-Time Graph
 
@@ -36136,7 +36136,7 @@ At $t = 0$: $a = 9 \mathrm{ m/s^2$ (speeding up) At $t = 3$: $a = 3(9 - 12 + 3) 
 Even though the particle is stationary at $t = 3 \mathrm{ s$ The acceleration is also zero
 
 There, so the particle does not reverse direction. Compare this to projectile motion at the top of
-The trajectory where $v = 0$ but $a = g \ne 0$ So the projectile immediately starts moving Downward.
+the trajectory where $v = 0$ but $a = g \ne 0$ So the projectile immediately starts moving Downward.
 
 ### Example 18: Kinematics with Air Resistance
 
@@ -36205,7 +36205,7 @@ They are equal only for motion in one direction without reversing.
 The slope of a displacement-time graph gives instantaneous velocity. The slope of a velocity-time
 Graph gives instantaneous acceleration. However, for curved graphs, the slope changes continuously.
 You must draw a tangent at the specific point to find the instantaneous value -- the average slope
-Between two points is not the same as the instantaneous slope.
+between two points is not the same as the instantaneous slope.
 
 ## Additional Practice Problems
 
@@ -36448,7 +36448,7 @@ $$
 
 :::note[Example: Force on a semicircular wire]
 A semicircular wire of radius $R$ carries current $I$ in a uniform magnetic field $\vec{B}$ directed
-Into the page. The straight ends of the wire are along the diameter.
+into the page. The straight ends of the wire are along the diameter.
 
 The force on the straight segment of length $2R$ is $F = I(2R)B$ (by the right-hand rule, directed
 Upward). For the curved part, consider a segment at angle $\theta$:
@@ -36546,7 +36546,7 @@ $$
 ### Field Inside a Long Solenoid
 
 For a solenoid with $n$ turns per unit length carrying current $I$ Choose a rectangular Amperian loop
-With one side inside the solenoid and one outside.
+with one side inside the solenoid and one outside.
 
 $$
 B = \mu_0 n I
@@ -37175,7 +37175,7 @@ When mass is constant: $\vec{F}_{\mathrm{net} = m\vec{a}$.
 $F = dp/dt$ is the general form of Newton's second law. $F = ma$ is the special case when mass is
 Constant. For a rocket expelling fuel, a raindrop accumulating mass, or a relativistic particle,
 $F = ma$ fails but $F = dp/dt$ remains valid. Momentum is conserved; force is not. The momentum form
-Of Newton's second law connects directly to the most powerful conservation law in classical
+of Newton's second law connects directly to the most powerful conservation law in classical
 Mechanics.
 
 ## Impulse (CED Unit 5)
@@ -37725,8 +37725,8 @@ $$
 ### Why Multi-Stage Rockets Are More Efficient
 
 For a single-stage rocket, the mass ratio $m_0/m_f$ is limited by the structural mass of the tank
-And engine. A multi-stage rocket discards the empty first-stage tank and engine, reducing the mass
-That must be accelerated in subsequent stages. This dramatically improves the mass ratio for each
+and engine. A multi-stage rocket discards the empty first-stage tank and engine, reducing the mass
+that must be accelerated in subsequent stages. This dramatically improves the mass ratio for each
 Stage.
 
 For a two-stage rocket with equal exhaust velocities and equal structural fractions, the total
@@ -37737,7 +37737,7 @@ $$
 $$
 
 This is the same as a single-stage rocket with the same mass ratio, but the structural mass is much
-Less because each stage only needs to be strong enough for its own fuel load, not the total fuel
+less because each stage only needs to be strong enough for its own fuel load, not the total fuel
 Load.
 
 ## 15. Summary Table: Collision Types
@@ -37838,7 +37838,7 @@ KE_f = \frac{1}{2}(4)(4.251)^2 + \frac{1}{2}(6)(3^2) = \frac{1}{2}(4)(18.07) + \
 $$
 
 $$KE_f \lt KE_i$$, so this is an inelastic collision (but not perfectly inelastic since the objects
-Did not stick together). Energy lost $= 72 - 63.14 = 8.86 \mathrm{ J$.
+did not stick together). Energy lost $= 72 - 63.14 = 8.86 \mathrm{ J$.
 
 ### Example 17: Impulse and Force-Time Graph Analysis
 
@@ -37922,7 +37922,7 @@ V_{\mathrm{top} = 17.9 \mathrm{ m/s
 $$
 
 Since $V_{\mathrm{top} \gt 0$ The block completes full circles. The string remains taut at the top
-If:
+if:
 
 $$
 T + (m+M)g = \frac{(m+M)V_{\mathrm{top}^2}{L}
@@ -38126,7 +38126,7 @@ import PhetSimulation from "@components/PhetSimulation";
 ## Newton's First Law -- Inertia (CED Unit 2)
 
 An object at rest stays at rest, and an object in motion stays in motion with the same speed and in
-The same direction, unless acted upon by a net external force.
+the same direction, unless acted upon by a net external force.
 
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics" />
 
@@ -38146,7 +38146,7 @@ Intrinsic property of an object, independent of location. The SI unit is the kil
 
 Mass is not weight. Mass is a scalar; weight is a vector. Mass does not change with location; weight
 Depends on the local gravitational field. An astronaut on the Moon has the same mass as on Earth but
-One-sixth the weight.
+one-sixth the weight.
 
 ## Newton's Second Law -- Force and Acceleration (CED Unit 2)
 
@@ -38182,10 +38182,10 @@ On Earth: $g \approx 9.8 \mathrm{ m/s^2$. On the Moon: $g \approx 1.62 \mathrm{ 
 
 One might think $F = ma$ merely defines force. But force is defined independently through
 Interactions (contact forces, gravitational forces, spring forces). $F = ma$ is an empirical law
-That relates the net force to the resulting acceleration. The fact that the same proportionality
+that relates the net force to the resulting acceleration. The fact that the same proportionality
 Constant ($m$) works for all forces (gravitational, electromagnetic, contact) is a deep and
-Non-trivial result. If $F = ma$ were merely a definition, it would not have predictive power, but it
-Does: given the forces, we can predict the motion, and given the motion, we can infer the forces.
+non-trivial result. If $F = ma$ were merely a definition, it would not have predictive power, but it
+does: given the forces, we can predict the motion, and given the motion, we can infer the forces.
 
 ## Newton's Third Law -- Action-Reaction Pairs (CED Unit 2)
 
@@ -38245,7 +38245,7 @@ $$
 ### Why the Normal Force Is Not Always Equal to $mg$
 
 The normal force adjusts to prevent the object from penetrating the surface. It equals $mg$ only
-When there is no vertical acceleration and no other vertical forces. In a lift accelerating upward,
+when there is no vertical acceleration and no other vertical forces. In a lift accelerating upward,
 $N = m(g + a) \gt mg$. On an inclined plane, only the component of gravity perpendicular to the
 Surface ($mg\cos\theta$) must be balanced by the normal force. The parallel component
 ($mg\sin\theta$) causes acceleration along the slope.
@@ -38280,7 +38280,7 @@ At the microscopic level, static friction holds because the surfaces form tempor
 (atomic-scale cold welds) at the contact points. These bonds must be broken to initiate sliding.
 Once sliding begins, the surfaces do not have time to form as many bonds, and the kinetic friction
 Force is lower. The transition from static to kinetic friction is the reason objects "jerk" when
-They start to move.
+they start to move.
 
 ### Applied Force ($\vec{F}_{\mathrm{app}$)
 
@@ -38313,7 +38313,7 @@ A free body diagram shows all external forces acting on a single object:
 
 <Aside type="note" title="Example: Block on an Inclined Plane">
 A $5.0 \mathrm{ kg$ block rests on a $30^\circ$ incline with $\mu_s = 0.4$ and $\mu_k = 0.3$. Does
-The block slide?
+the block slide?
 
 **Forces along the incline:** $mg\sin\theta = 5.0 \times 9.8 \times \sin 30^\circ = 24.5 \mathrm{ N$
 (down).
@@ -38569,7 +38569,7 @@ Features must be broken or deformed. The force needed is friction.
 **Static friction** involves cold welding: the atoms at the contact points form temporary bonds.
 These bonds must be broken simultaneously to initiate motion, which requires a larger force. Once
 Sliding begins, the surfaces do not have time to form as many bonds, and the kinetic friction force
-Is lower.
+is lower.
 
 ### The Angle of Repose
 
@@ -38587,10 +38587,10 @@ Design hoppers and chutes.
 ### Worked Example: Friction on a Banked Curve Without Friction
 
 A circular road of radius $80 \mathrm{ m$ is banked at $15^{\circ}$. Find the speed at which a car
-Can round the curve without needing any friction.
+can round the curve without needing any friction.
 
 At the ideal speed, the horizontal component of the normal force provides the centripetal force, and
-The vertical component balances gravity:
+the vertical component balances gravity:
 
 $$
 N\sin\theta = \frac{mv^2}{r}, \qquad N\cos\theta = mg
@@ -38629,7 +38629,7 @@ $$
 For the string between $m_1$ and $m_2$ on the table: $T' = m_2 a = 6 \times 3.27 = 19.6 \mathrm{ N$.
 
 Note that the tension in the string connecting to the hanging mass ($32.7 \mathrm{ N$) is greater
-Than the tension in the string between $m_1$ and $m_2$ ($19.6 \mathrm{ N$), because the latter
+than the tension in the string between $m_1$ and $m_2$ ($19.6 \mathrm{ N$), because the latter
 string Only needs to accelerate $m_2$ While the former must also provide the net force to accelerate
 $m_3$.
 
@@ -38664,7 +38664,7 @@ g(r) = \frac{GM}{r^2} \quad (r \gt R)
 $$
 
 Inside the sphere, $g$ increases linearly with $r$ and reaches its maximum at the surface. This is
-Because only the mass within radius $r$ contributes to the gravitational force at that point (by
+because only the mass within radius $r$ contributes to the gravitational force at that point (by
 Newton's shell theorem).
 
 ## 13. Orbital Mechanics: Extended Worked Examples
@@ -38831,7 +38831,7 @@ pulley.
 ### Example 17: Object in a Fluid with Drag
 
 A $0.5 \mathrm{ kg$ steel ball is dropped into a tank of oil. The drag force is given by $F_D = bv$
-Where $b = 0.8 \mathrm{ N\cdot\mathrm{s/m$. Find (a) the terminal velocity, (b) the time to reach
+where $b = 0.8 \mathrm{ N\cdot\mathrm{s/m$. Find (a) the terminal velocity, (b) the time to reach
 63% Of terminal velocity, and (c) the velocity after $3 \mathrm{ s$.
 
 **Step 1: Terminal velocity (net force = 0)**
@@ -39158,7 +39158,7 @@ $$
 ### The Analogy Between Linear and Rotational Kinematics
 
 Every linear kinematic equation has a direct rotational analogue. Replace $x$ with $\theta$, $v$
-With $\omega$ And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
+with $\omega$ And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
 a one-dimensional motion in the angular coordinate. The mathematics is identical.
 
 :::note[Example]
@@ -39195,8 +39195,8 @@ $$
 ### Why the Moment of Inertia Depends on the Axis
 
 Mass is a scalar, but moment of inertia depends on how the mass is distributed _relative to the axis
-Of rotation_. A rod rotated about its center has $I = \frac{1}{12}ML^2$ But the same rod rotated
-About one end has $I = \frac{1}{3}ML^2$ -- four times larger. The same physical object can have
+of rotation_. A rod rotated about its center has $I = \frac{1}{12}ML^2$ But the same rod rotated
+about one end has $I = \frac{1}{3}ML^2$ -- four times larger. The same physical object can have
 Different moments of inertia depending on the axis. This has no linear analogue: mass is mass,
 Regardless of the direction of motion.
 
@@ -39336,7 +39336,7 @@ $$
 A hollow cylinder has $I = MR^2$ So its kinetic energy is split as
 $K = \frac{1}{2}Mv^2 +
 \frac{1}{2}(MR^2)(v/R)^2 = Mv^2$. Half the energy goes to translation and half
-To rotation. A solid cylinder has $I = \frac{1}{2}MR^2$ So
+to rotation. A solid cylinder has $I = \frac{1}{2}MR^2$ So
 $K = \frac{1}{2}Mv^2 + \frac{1}{4}Mv^2 =
 \frac{3}{4}Mv^2$. More energy goes to translation, so the
 Solid cylinder moves faster.
@@ -39361,7 +39361,7 @@ V = \sqrt{\frac{10gh}{7}}
 $$
 
 Note: the answer is independent of both the mass and the radius. For a hollow sphere, the factor
-Would be $\frac{5}{6}$ instead of $\frac{7}{10}$ So the solid sphere is always faster.
+would be $\frac{5}{6}$ instead of $\frac{7}{10}$ So the solid sphere is always faster.
 
 ## Angular Momentum (CED Unit 7)
 
@@ -39602,7 +39602,7 @@ Bottom.
 | Hollow cylinder | $MR^2$            | $\sqrt{gh}$     | $1/2 = 50\%$                  |
 
 Ranking (fastest to slowest): solid sphere, solid cylinder, hollow sphere, hollow cylinder. Objects
-With more mass concentrated near the rim (larger $I$) have more rotational KE and less translational
+with more mass concentrated near the rim (larger $I$) have more rotational KE and less translational
 KE, so they move more slowly.
 
 ### Worked Example: Rolling Up an Incline
@@ -39686,7 +39686,7 @@ Arms to spin faster.
 
 A uniform ladder of mass $15 \mathrm{ kg$ and length $4 \mathrm{ m$ leans against a smooth
 (frictionless) wall at $65^{\circ}$ to the horizontal. The floor is rough with $\mu_s = 0.4$. Will
-The ladder slip?
+the ladder slip?
 
 Take torques about the base of the ladder (eliminates the friction and normal force at the base):
 
@@ -39759,7 +39759,7 @@ Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not s
 
 A spinning bicycle wheel of mass $2 \mathrm{ kg$ and radius $0.35 \mathrm{ m$ is supported on one
 End of its axle. The wheel spins at $50 \mathrm{ rad/s$ and the axle is horizontal. The distance
-From the support to the wheel centre is $0.15 \mathrm{ m$. Calculate the precession angular
+from the support to the wheel centre is $0.15 \mathrm{ m$. Calculate the precession angular
 Velocity.
 
 **Step 1: Moment of inertia of the wheel (thin ring approximation)**
@@ -39857,7 +39857,7 @@ $2 \mathrm{ m$: $I_{\mathrm{pm} = 2 \times 4 = 8$. Wait -- the point mass is at 
 $r = 0$ Giving $I_a = 4 + 0 = 4$.
 
 The parallel axis check failed because I was not careful. The correct check: $I_{\mathrm{cm} = 3$
-About the centre of mass at $0.6 \mathrm{ m$ from pivot, so $I_a = 3 + 5(0.6)^2 = 3 + 1.8 = 4.8$.
+about the centre of mass at $0.6 \mathrm{ m$ from pivot, so $I_a = 3 + 5(0.6)^2 = 3 + 1.8 = 4.8$.
 But direct calculation gives $4$.
 
 Let me recheck $I_b$: the point mass is at one end of the rod, which is $1 \mathrm{ m$ from the
@@ -39916,14 +39916,14 @@ KE. The smaller the axle radius, the slower the fall, since more of the energy g
 ### Pitfall 6: Using the Wrong Radius in Torque Calculations
 
 In problems involving wheels, pulleys, or drums, the radius used in $\tau = Fr$ must be the radius
-At which the force is applied, which may differ from the overall radius. For example, a force
+at which the force is applied, which may differ from the overall radius. For example, a force
 Applied at a string wound around an axle uses the axle radius, not the wheel radius.
 
 ### Pitfall 7: Confusing Angular Velocity with Linear Velocity in Rolling
 
 For rolling without slipping, $v = r\omega$ relates the _centre-of-mass_ velocity to the angular
 Velocity about the centre of mass. A point on the rim has a velocity of $2v$ at the top and $0$ at
-The contact point (instantaneously at rest).
+the contact point (instantaneously at rest).
 
 ### Pitfall 8: Forgetting Units in Moment of Inertia
 
@@ -40042,7 +40042,7 @@ Vertical = $70g - T\sin(30^\circ) = 686 - 784 = -98 \mathrm{ N$ (downward).
 <summary>Question 4: Physical pendulum</summary>
 
 A uniform rod of length $1.0 \mathrm{ m$ and mass $2 \mathrm{ kg$ is pivoted at one end and swings
-As a physical pendulum. Calculate the period of small oscillations.
+as a physical pendulum. Calculate the period of small oscillations.
 
 </details>
 
@@ -40199,7 +40199,7 @@ $\blacksquare$
 The work-energy theorem connects the net force (a dynamic quantity) to the change in speed (a
 Kinematic quantity) without requiring knowledge of the path taken. You do not need to know the
 Acceleration, the time, or the detailed trajectory. You only need the initial and final speeds and
-The forces involved. This makes it far more efficient than using Newton's second law for many
+the forces involved. This makes it far more efficient than using Newton's second law for many
 Problems.
 </Aside>
 
@@ -40264,7 +40264,7 @@ $$
 $$
 
 For every closed path. Equivalently, the curl of $\vec{F}$ is zero: $\nabla \times \vec{F} = 0$. For
-One-dimensional motion, a force is conservative if and only if only on position (not on Velocity or
+one-dimensional motion, a force is conservative if and only if only on position (not on Velocity or
 time): $F = F(x)$.
 
 ## Conservation of Energy (CED Unit 4)
@@ -40410,7 +40410,7 @@ $$
 ### Total Energy on a Potential Energy Diagram
 
 On a potential energy diagram, the total energy $E = K + U$ is a horizontal line. The kinetic energy
-At any point is $K = E - U$. Motion is only possible where $K \ge 0$ I.e., $E \ge U$. The object
+at any point is $K = E - U$. Motion is only possible where $K \ge 0$ I.e., $E \ge U$. The object
 Oscillates between the "turning points" where $E = U$ (and $K = 0$).
 
 ## Escape Velocity
@@ -40522,7 +40522,7 @@ $+2.25 \mathrm{ J$ Which is stored as elastic potential energy.
 
 A force $F(x) = 3x^2 + 2x$ (in N, with $x$ in m) acts on a $2 \mathrm{ kg$ object. Find the work
 Done from $x = 0$ to $x = 3 \mathrm{ m$ and the speed at $x = 3 \mathrm{ m$ if the object starts
-From rest.
+from rest.
 
 $$
 W = \int_0^3 (3x^2 + 2x)\, dx = \left[x^3 + x^2\right]_0^3 = 27 + 9 = 36 \mathrm{ J
@@ -40539,7 +40539,7 @@ $$
 ### Worked Example: Block-Spring System on a Frictionless Surface
 
 A $3 \mathrm{ kg$ block slides on a frictionless surface at $4 \mathrm{ m/s$ and strikes a spring
-With $k = 500 \mathrm{ N/m$. Find the maximum compression of the spring.
+with $k = 500 \mathrm{ N/m$. Find the maximum compression of the spring.
 
 At maximum compression, all kinetic energy has been converted to elastic potential energy:
 
@@ -40804,7 +40804,7 @@ $$
 
 The block oscillates symmetrically about equilibrium, so it rises $0.15 \mathrm{ m$ above
 Equilibrium to $0.15 \mathrm{ m$ above equilibrium, which is $0.15 + 0.15 = 0.30 \mathrm{ m$ above
-The lowest point (the release point).
+the lowest point (the release point).
 
 ### Example 18: Work Done Against a Non-Conservative Force
 
@@ -40861,12 +40861,12 @@ $$
 Power is the _rate_ of energy transfer ($P = dW/dt$), measured in watts (W). Energy is the total
 Transferred, measured in joules (J). A device with high power can deliver the same energy as a
 Low-power device in less time. Always check units: if a question asks for energy, the answer must be
-In joules; if it asks for power, the answer must be in watts.
+in joules; if it asks for power, the answer must be in watts.
 
 ### Pitfall 7: Forgetting That Work Is a Scalar
 
 Work is $W = \vec{F} \cdot \vec{d} = Fd\cos\theta$. It can be positive, negative, or zero, but it
-Has no direction. A common error is to assign a direction to work or to add work components
+has no direction. A common error is to assign a direction to work or to add work components
 Vectorially instead of algebraically.
 
 ### Pitfall 8: Incorrect Reference Points for Gravitational PE

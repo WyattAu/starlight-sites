@@ -406,7 +406,7 @@ def is_palindrome(s):
 
 **Termination.** Variant function: $V(s) = \mathrm{len}(s)$. Each recursive call:
 $V(s[1:-1]) = \mathrm{len}(s) - 2 \lt V(s)$ for $\mathrm{len}(s) \geq 2$. Since $V$ is a
-Non-negative integer that strictly decreases, the function must reach a base case. ✓
+non-negative integer that strictly decreases, the function must reach a base case. ✓
 
 </details>
 
@@ -797,7 +797,7 @@ Each recursive call either:
  `mid \lt= high`$V' \leq V - 1$.
 
 In both recursive cases, $V$ strictly decreases. Since $V$ is a non-negative integer, the function
-Must eventually reach the base case. ✓
+must eventually reach the base case. ✓
 
 </details>
 
@@ -916,7 +916,7 @@ print(append_to(2))
 
 **Explanation:** In Python, default arguments are evaluated **once** when the function is defined,
 Not each time the function is called. The list `[]` is created at definition time and shared across
-All calls that use the default.
+all calls that use the default.
 
 First call: `target` is the default list `[]`. After appending 1, it becomes `[1]`.
 

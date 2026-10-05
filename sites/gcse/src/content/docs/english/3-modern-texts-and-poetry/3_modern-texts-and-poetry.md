@@ -28,7 +28,7 @@ categories:
 ## 1. Modern Texts (Post-1914)
 
 The "modern texts" component of GCSE English Literature encompasses fiction, drama, and occasionally
-Non-fiction published after 1914. The choice of modern text varies by board and by centre. The
+non-fiction published after 1914. The choice of modern text varies by board and by centre. The
 Following are the most commonly set texts.
 
 ### 1.1 Modern Drama
@@ -44,7 +44,7 @@ The play is structured as a well-made play: a single setting (the Birlings' dini
 Timeframe (a single evening), escalating revelations, and a climactic twist (the Inspector's
 Identity and the possibility that he was not a real police officer). Priestley uses this
 Conventional structure to deliver a radical political argument about collective responsibility and
-The interconnectedness of all members of society.
+the interconnectedness of all members of society.
 
 **Key themes:** Social responsibility and collective guilt; class inequality and the abuse of power;
 Generational conflict (the younger Birlings learn; the older ones do not); gender and the
@@ -124,7 +124,7 @@ Poems: "Dulce et Decorum Est," "Anthem for Doomed Youth," "Exposure," "The Send-
 
 Like Owen, a war poet whose early romantic patriotism gave way to savage indignation. Sassoon's
 Poetry is more direct and satirical than Owen's, less reliant on complex figurative language and
-More on biting statement. Key poems: "The General," "Suicide in the Trenches," "Base Details."
+more on biting statement. Key poems: "The General," "Suicide in the Trenches," "Base Details."
 
 **Sylvia Plath (1932--1963)**
 
@@ -137,13 +137,13 @@ Striking, sometimes disturbing imagery. Key poems: "Poppies in July," "The Moon 
 
 Poet Laureate from 1984 to 1998, Hughes is best known for his poems about the natural world, which
 Present nature as a site of violence, power, and primal energy. His marriage to Plath and his poems
-About their relationship have also attracted critical attention. Key poems: "Hawk Roosting,"
+about their relationship have also attracted critical attention. Key poems: "Hawk Roosting,"
 "Bayonet Charge," "The Thought-Fox," "Wind."
 
 **Seamus Heaney (1939--2013)**
 
 An Irish poet whose work explores the landscapes and histories of rural Ireland, the conflict
-Between personal and political identity, and the relationship between the individual and the
+between personal and political identity, and the relationship between the individual and the
 Ancestral past. Heaney won the Nobel Prize for Literature in 1995. Key poems: "Digging," "Mid-Term
 Break," "Follower," "Death of a Naturalist."
 
@@ -178,7 +178,7 @@ Cluster and answer one comparative question.
 
 **Edexcel:** An anthology of 16 poems organised under the themes of "Conflict" or "Comedy and
 Genre." Students study the full anthology and answer one essay question on a named poem, comparing
-It with at least one other from the anthology.
+it with at least one other from the anthology.
 
 **WJEC/Eduqas:** An anthology of 18 poems by Welsh and English-language poets, organised
 Thematically. Students answer one question requiring comparison of two poems from the anthology.
@@ -309,12 +309,12 @@ When analysing a poem, address the following five elements in a structured, inte
 ### 4.1 Form and Structure
 
 What type of poem is this? How is it organised? Is the structure regular or irregular, and what does
-That choice suggest? Where are the turning points, and how do they affect the poem's meaning?
+that choice suggest? Where are the turning points, and how do they affect the poem's meaning?
 
 ### 4.2 Voice and Tone
 
 Who is speaking? To whom? What is their attitude toward their subject? Tone is the emotional quality
-Of the speaker's voice: it may be angry, tender, bitter, nostalgic, ironic, resigned, celebratory,
+of the speaker's voice: it may be angry, tender, bitter, nostalgic, ironic, resigned, celebratory,
 Or any combination of these. Tone is conveyed through word choice, sentence structure, and the
 Relationship between the speaker and the subject.
 
@@ -332,8 +332,8 @@ Use form, structure, language, and imagery to explore those questions?
 ### 4.5 Personal Response
 
 What is your response to the poem? Which aspects are most effective, and why? A personal response is
-Not a substitute for analysis, but it can add depth and conviction to an essay when it is grounded
-In specific textual evidence.
+not a substitute for analysis, but it can add depth and conviction to an essay when it is grounded
+in specific textual evidence.
 
 <details>
 <summary>Worked Analysis: "Bayonet Charge" by Ted Hughes (Excerpt)</summary>
@@ -389,7 +389,7 @@ Before writing, identify the **points of comparison** between the poems. These m
 ### 5.2 Structuring the Comparative Essay
 
 The most effective comparative essays use **integrated comparison**: each paragraph makes a point
-About both poems, rather than writing about one poem and then the other.
+about both poems, rather than writing about one poem and then the other.
 
 A comparative paragraph structure might follow this pattern:
 
@@ -413,7 +413,7 @@ Use comparative language to make the links between poems explicit:
 ## 6. Unseen Poetry Analysis
 
 The unseen poetry component requires students to analyse one or two poems they have not studied
-Before. This tests transferable analytical skills rather than rote knowledge.
+before. This tests transferable analytical skills rather than rote knowledge.
 
 ### 6.1 Step-by-Step Approach
 
@@ -439,7 +439,7 @@ Matters more than quantity of quotation.
 
 **Step 7: Write a thesis statement.** Before beginning the essay, formulate a clear argument about
 The poem's meaning and how it is achieved. The thesis should be specific, debatable, and grounded in
-The text.
+the text.
 
 ### 6.2 Timing
 
@@ -468,9 +468,9 @@ For the unseen poetry question, time management is critical:
 
 War poetry is dominated by the First World War poets (Owen, Sassoon, Rosenberg, Brooke) and their
 Successors. The dominant themes are the horror and futility of industrialised warfare; the betrayal
-Of the young by the old; the gap between the rhetoric of patriotism and the reality of combat; the
+of the young by the old; the gap between the rhetoric of patriotism and the reality of combat; the
 Physical and psychological damage inflicted on soldiers; and the inadequacy of language to convey
-The experience of war.
+the experience of war.
 
 ### 7.2 Identity
 
@@ -515,7 +515,7 @@ Intensity.
 
 Paper 2, Section B: Poetry. Students answer one question from their chosen cluster (Love and
 Relationships, or Power and Conflict). The question requires comparison of one named poem with at
-Least one other from the cluster. The question carries 30 marks. The paper is closed-book.
+least one other from the cluster. The question carries 30 marks. The paper is closed-book.
 
 Section C: Unseen Poetry. Students answer one question on one unseen poem (24 marks) and one
 Comparative question on two unseen poems (8 marks).
@@ -530,7 +530,7 @@ Carries 32 marks. The paper is closed-book.
 
 Paper 1, Section B: Pre-1900 Poetry. Students study a prescribed anthology of poetry from the
 English literary heritage alongside Shakespeare. The question requires comparison of two poems from
-The anthology. Open-book.
+the anthology. Open-book.
 
 Paper 2, Section C: Unseen Poetry. Students answer one comparative question on two unseen
 Contemporary poems. The question carries 24 marks.

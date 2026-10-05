@@ -47,7 +47,7 @@ JNI mechanism with a type-safe, allocation-tracking API that is practically usab
 :::note
 As a standard JDK component. You no longer need a separate GraalVM distribution to build native
 Images. The Graal JIT compiler has been available as an experimental tier-4 compiler in OpenJDK
-Since JDK 10.
+since JDK 10.
 :::
 
 ## The Graal Compiler
@@ -61,7 +61,7 @@ Compiles with C2 for maximum throughput.
 
 Graal is a replacement for C2 written in Java. It is itself a Java program that compiles Java
 Bytecode to machine code. Being written in Java means Graal benefits from the same JVM optimizations
-It produces, and its codebase is far more approachable for contributors than C2 (which is written in
+it produces, and its codebase is far more approachable for contributors than C2 (which is written in
 C++).
 
 **Definition.** The Graal compiler is a graph-based JIT compiler implemented in Java that replaces
@@ -109,7 +109,7 @@ native-image -H:ConfigurationFileDirectories=META-INF/native-image \
 ```
 
 The agent records which classes are instantiated, which methods are called, which reflection sites
-Are used, and which resources are loaded. This information feeds the closed-world analysis during
+are used, and which resources are loaded. This information feeds the closed-world analysis during
 Native image generation, producing a smaller and faster binary.
 
 ### When Graal JIT Outperforms C2
@@ -371,7 +371,7 @@ Reasons are:
 
 :::note
 Release. For I/O-bound server applications, native image now matches or exceeds HotSpot performance
-For most practical workloads. The gap is most noticeable in CPU-bound, long-running processes where
+for most practical workloads. The gap is most noticeable in CPU-bound, long-running processes where
 HotSpot's adaptive optimization has time to produce highly specialized code.
 :::
 
@@ -385,7 +385,7 @@ Supports variadic functions, structs by value, and callbacks without writing C g
 
 **Definition.** The FFM API consists of two main abstractions: `Linker` for creating downcall method
 Handles to native functions, and `MemorySegment` for modeling contiguous regions of native memory
-With deterministic deallocation.
+with deterministic deallocation.
 
 ### Core Types
 
@@ -612,7 +612,7 @@ public class LibCurlExample {
 :::caution
 If misused. These methods perform bounds checks and null checks, but cannot prevent all undefined
 Behavior (e.g., passing a freed segment to a native function). The `@Restricted` annotation serves
-As a warning: you are leaving the safety guarantees of the Java platform.
+as a warning: you are leaving the safety guarantees of the Java platform.
 :::
 
 ## Foreign Memory Access
@@ -621,7 +621,7 @@ As a warning: you are leaving the safety guarantees of the Java platform.
 
 The `Arena` class controls the lifetime of memory segments. When an arena is closed, all segments
 Allocated from it are freed. This eliminates the class of bugs where native memory is leaked because
-The Java code forgot to call `free()`.
+the Java code forgot to call `free()`.
 
 ```java
 import java.lang.foreign.Arena;
@@ -1019,7 +1019,7 @@ return switch (shape) {
 
 Project Valhalla introduces value types to Java -- classes that have identity-free, flattened
 Instances. A value type's instances are compared by their contents, not by reference identity. They
-Can be stored inline in fields and array elements, eliminating the memory indirection and cache
+can be stored inline in fields and array elements, eliminating the memory indirection and cache
 Misses of boxed types.
 
 **Definition.** A value class is a class declared with the `value` keyword (or `inline` in earlier
@@ -1095,7 +1095,7 @@ Improvement is significant.
 
 Value types solve a long-standing limitation of Java generics: primitive types cannot be used as
 Type arguments. With value types, `List&lt;Point&gt;` can store `Point` instances inline (or at
-Least more compactly) without boxing.
+least more compactly) without boxing.
 
 ```java
 // Today: List<int> does not exist, must use List<Integer> (boxed)
@@ -1247,7 +1247,7 @@ mvn -Pnative native:compile
 
 :::caution
 Takes 30-120 seconds, which makes the test cycle too slow. Test business logic in JVM mode, and use
-The native image binary only for integration tests and final validation.
+the native image binary only for integration tests and final validation.
 
 ## Intuition
 
@@ -1281,7 +1281,7 @@ java -agentlib:native-image-agent=config-output-dir=META-INF/native-image \
 ### Classpath Scanning Failures
 
 Frameworks like Spring and Hibernate scan the classpath at runtime to find annotated classes. This
-Does not work in native image because there is no classpath at runtime -- all classes are statically
+does not work in native image because there is no classpath at runtime -- all classes are statically
 Linked.
 
 **Fix**: Use the agent, or configure the framework's native-image integration:
@@ -1312,7 +1312,7 @@ Binary.
 ### JNI Limitations in Native Image
 
 JNI libraries loaded with `System.loadLibrary()` work in native image, but the JNI configuration
-Must list all native methods and their signatures. Dynamically registered JNI methods (via
+must list all native methods and their signatures. Dynamically registered JNI methods (via
 `RegisterNatives`) require additional configuration.
 
 The FFM API is the preferred mechanism for native interop in native image. It requires no JNI

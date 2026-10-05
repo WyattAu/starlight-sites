@@ -69,7 +69,7 @@ $$
 $$
 
 Where $A$ is the area between the line of equality and the Lorenz curve, and $B$ is the area under
-The Lorenz curve.
+the Lorenz curve.
 
 ## Inequality
 
@@ -90,7 +90,7 @@ Then falls as industrialisation matures, the labour share of income rises, and s
 Introduced.
 
 Empirical evidence is mixed. Many developing countries have not followed the predicted pattern, and
-Some advanced economies have experienced rising inequality since the 1980s.
+some advanced economies have experienced rising inequality since the 1980s.
 
 ### Consequences of Inequality
 
@@ -142,15 +142,15 @@ Key question is whether inequality is the result of opportunity or structural ba
 <summary>Problem 2: Multidimensional Poverty Index</summary>
 
 A household is assessed on three dimensions: health (nutrition, child mortality), education (years
-Of schooling, attendance), and living standards (electricity, sanitation, water, flooring, cooking
+of schooling, attendance), and living standards (electricity, sanitation, water, flooring, cooking
 Fuel, assets). If a household is deprived in $4$ out of $10$ indicators, what does the MPI reveal?
 
 The MPI counts a household as "multidimensionally poor" if it is deprived in at least one-third of
-The weighted indicators ( $3.33$ out of $10$). Since this household is deprived in $4$ Indicators,
+the weighted indicators ( $3.33$ out of $10$). Since this household is deprived in $4$ Indicators,
 it is classified as multidimensionally poor.
 
 The MPI provides a more comprehensive picture of poverty than income alone. This household might
-Have an income above the extreme poverty line but still suffer from deprivations in health,
+have an income above the extreme poverty line but still suffer from deprivations in health,
 Education, and living standards that income-based measures would not capture.
 
 </details>
@@ -180,7 +180,7 @@ Seeking additional concessional financing to reduce the debt service burden.
 <summary>Problem 4: FDI Evaluation</summary>
 
 A multinational corporation opens a garment factory in a low-income country, employing 5,000 workers
-At above the local average wage. Evaluate the potential benefits and costs of this FDI for the host
+at above the local average wage. Evaluate the potential benefits and costs of this FDI for the host
 Country.
 
 Benefits:
@@ -215,7 +215,7 @@ Country X has GDP per capita (PPP) of `USD 12000` and HDI of 0.780. Country Y ha
 development Policy.
 
 Country Y has higher income per capita but lower human development. This divergence can occur
-Because:
+because:
 
 - Income distribution in Country Y is highly unequal, so the average GNI per capita is not
   representative of the typical citizen's standard of living.
@@ -307,7 +307,7 @@ The MPI uses ten indicators across three dimensions:
 <summary>Problem 6: Harrod-Domar Applied</summary>
 
 Country M has GDP of `USD 50` billion, gross capital formation of `USD 10` billion, and GDP growth
-Of 4%. The government wants to achieve 7% growth.
+of 4%. The government wants to achieve 7% growth.
 
 (a) Calculate the current ICOR and savings rate.
 

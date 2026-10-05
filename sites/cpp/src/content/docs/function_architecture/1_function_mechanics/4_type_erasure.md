@@ -200,7 +200,7 @@ Passing lambdas as template parameters or using auto.
 ### Detecting SBO at Compile Time
 
 There is no standard way to query the SBO threshold. You can empirically determine it by checking
-Whether `operator new` is called during construction:
+whether `operator new` is called during construction:
 
 ```cpp
 #include <functional>
@@ -343,7 +343,7 @@ int main() {
 ## 4.6 Member Function Pointers
 
 A **member function pointer** (MFP) is a distinct type from a regular function pointer. It stores
-Enough information to call a member function on an object, but its internal representation varies
+enough information to call a member function on an object, but its internal representation varies
 Significantly between compilers and ABIs.
 
 ```cpp
@@ -597,13 +597,13 @@ int main() {
 ```
 
 This implementation demonstrates the core technique: function pointers stored alongside a buffer
-That holds the concrete callable. The function pointers encode the type-specific behavior (invoke,
+that holds the concrete callable. The function pointers encode the type-specific behavior (invoke,
 Move, destroy) while the buffer provides type-erased storage.
 
 ## 4.9 Non-Owning Function References
 
 For callback interfaces where the callable's lifetime is guaranteed to outlive the reference, a
-Non-owning type-erased wrapper avoids both the heap allocation of `std::function` and the
+non-owning type-erased wrapper avoids both the heap allocation of `std::function` and the
 Copyability requirement:
 
 ```cpp
@@ -649,8 +649,8 @@ int main() {
 ```
 
 `FunctionRef` is 16 bytes (two pointers) on x86-64, has no heap allocation, and the call is indirect
-Through a function pointer. The tradeoff: the caller must ensure the referenced callable outlives
-The `FunctionRef`.
+through a function pointer. The tradeoff: the caller must ensure the referenced callable outlives
+the `FunctionRef`.
 
 ## Intuition
 
@@ -693,7 +693,7 @@ int main() {
 
 `std::function` always performs an indirect call through a function pointer (or vtable). The
 Compiler cannot inline the callable's body through `std::function`. If performance is critical and
-The callable type is known at the call site, pass the callable as a template parameter:
+the callable type is known at the call site, pass the callable as a template parameter:
 
 ```cpp
 #include <cstdio>
@@ -721,7 +721,7 @@ Or pass lambdas as template parameters.
 
 Standard containers require copyable elements (unless you use move-only containers or
 `std::vector<std::unique_ptr<std::move_only_function<...>>>`). Plan your data structures accordingly
-When using move-only callables.
+when using move-only callables.
 
 ```mermaid
 flowchart TD

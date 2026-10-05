@@ -43,7 +43,7 @@ An ODE is:
 
 An **initial value problem (IVP)** specifies the value of the function (and possibly its
 Derivatives) at a single point. A **boundary value problem (BVP)** specifies conditions at two or
-More points.
+more points.
 
 ### 1.4 Examples from Physics and Biology
 
@@ -391,7 +391,7 @@ Solution: $x^3y + x^2y^2 = C$. $\blacksquare$
 ### 2.16 Orthogonal Trajectories
 
 Given a one-parameter family of curves $F(x, y, C) = 0$ The **orthogonal trajectories** are curves
-That intersect every member of the family at right angles. To find them:
+that intersect every member of the family at right angles. To find them:
 
 1. Find the differential equation $\frac{dy}{dx} = f(x, y)$ of the given family.
 2. Replace $\frac{dy}{dx}$ with $-\frac{dx}{dy}$ (equivalently, negate the slope).
@@ -664,7 +664,7 @@ Then $y_p' = u_1 y_1' + u_2 y_2'$ and $y_p'' = u_1' y_1' + u_1 y_1'' + u_2' y_2'
 Substituting into the ODE:
 $(u_1'y_1' + u_2'y_2') + u_1(y_1'' + py_1' + qy_1) + u_2(y_2'' + py_2' + qy_2) = g$. Since
 $y_1, y_2$ satisfy the homogeneous equation, this reduces to $u_1'y_1' + u_2'y_2' = g$. Together
-With $u_1'y_1 + u_2'y_2 = 0$ Solving gives the formulas above. $\blacksquare$
+with $u_1'y_1 + u_2'y_2 = 0$ Solving gives the formulas above. $\blacksquare$
 
 ### 3.11 Worked Example: Variation of Parameters
 
@@ -807,7 +807,7 @@ The homogeneous solution depends on the discriminant $\gamma^2 - \omega_0^2$:
 
 :::caution
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 
 :::caution
@@ -1693,7 +1693,7 @@ With boundary conditions $u(0, t) = u(L, t) = 0$ and initial condition $u(x, 0) 
 
 Consider a thin rod of length $L$ with uniform cross-section and density $\rho$. Let $u(x, t)$ be
 the Temperature at position $x$ and time $t$. By **Fourier's law of heat conduction**, the heat flux
-Through a cross-section is proportional to the negative temperature gradient:
+through a cross-section is proportional to the negative temperature gradient:
 
 $$
 q = -\kappa u_x
@@ -1988,7 +1988,7 @@ $t \to \infty$.
 
 **Theorem 9.1 (Lyapunov).** If there exists a continuously differentiable function $V$ (a **Lyapunov
 Function**) such that $V(\mathbf{x}^*) = 0$, $V(\mathbf{x}) > 0$ for $\mathbf{x} \neq \mathbf{x}^*$
-And $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
+and $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
 $\dot{V} \lt 0$ for $\mathbf{x} \neq \mathbf{x}^*$ Then $\mathbf{x}^*$ is asymptotically stable.
 
 ### 9.4 Worked Example: Linearization
@@ -2106,7 +2106,7 @@ extinction (competitive exclusion).
 
 :::caution
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 
 :::caution
@@ -2135,7 +2135,7 @@ $y' = x^2 + y^2$ have no closed-form solution in terms of elementary functions. 
 
 :::caution
 Valid for hyperbolic critical points (no eigenvalues on the imaginary axis). If eigenvalues lie on
-The imaginary axis, the nonlinear system can behave very differently from its linearization.
+the imaginary axis, the nonlinear system can behave very differently from its linearization.
 :::
 
 :::caution
@@ -2220,7 +2220,7 @@ Classify the ODE $y'' + xy' + e^x y = \cos x$ by order, linearity, and homogenei
 <summary>Solution</summary>
 
 _Solution._ Second-order (highest derivative is $y''$), linear ($y$, $y'$, $y''$ appear linearly
-With coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
+with coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.2 (Classification of ODEs).
 

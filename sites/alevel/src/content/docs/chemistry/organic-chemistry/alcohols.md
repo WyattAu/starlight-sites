@@ -228,7 +228,7 @@ $$
 $$
 
 Thionyl chloride is preferred because the byproducts ($\mathrm{SO}_2$ and $\mathrm{HCl}$) are gases
-That escape, driving the reaction to completion and simplifying purification.
+that escape, driving the reaction to completion and simplifying purification.
 
 ## Alcohols as Intermediates in Organic Synthesis
 

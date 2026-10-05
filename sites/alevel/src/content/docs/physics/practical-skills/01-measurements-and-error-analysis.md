@@ -29,7 +29,7 @@ categories:
 ### Systematic Errors
 
 A **systematic error** is a consistent, repeatable deviation from the true value, caused by a flaw
-In the experimental setup or method.
+in the experimental setup or method.
 
 **Characteristics:**
 
@@ -374,7 +374,7 @@ A student obtains the following data for a linear relationship $y = mx + c$:
 | 10.0     | 13.8     |
 
 Using a line of best fit, the gradient is $1.34$ cm/cm. The worst acceptable line gives a gradient
-Of $1.28$ cm/cm. Calculate the gradient and its uncertainty as a percentage.
+of $1.28$ cm/cm. Calculate the gradient and its uncertainty as a percentage.
 
 **Answer.** $m = 1.34 \pm \frac{1.34 - 1.28}{2} = 1.34 \pm 0.03$ cm/cm.
 
@@ -531,7 +531,7 @@ Point's error bar does not overlap with the line of best fit, either:
 ### 7.3 Error Bars and the Worst Acceptable Line
 
 The worst acceptable line is the steepest (or shallowest) straight line that still passes through
-All the error bars. The uncertainty in the gradient is:
+all the error bars. The uncertainty in the gradient is:
 
 $$
 \Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}

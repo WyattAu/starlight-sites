@@ -100,7 +100,7 @@ void transform(float* pf, int* pi) \{
 ```
 
 Under strict aliasing, the compiler assumes `pf` and `pi` cannot alias the same memory. It is
-Therefore free to:
+therefore free to:
 
 1. Eliminate the second load of `*pf` and reuse the value `1.0f` it just stored.
 2. Reorder the stores if beneficial.
@@ -121,7 +121,7 @@ Modern compilers (GCC, Clang, MSVC) use TBAA to:
    occurs in the loop, the compiler moves the load before the loop.
 
 These optimizations are valid **only** because the Strict Aliasing Rule guarantees that a load
-Through a `float*` cannot observe a store through an `int*`.
+through a `float*` cannot observe a store through an `int*`.
 
 ### Demonstrating the Effect of TBAA
 
@@ -295,12 +295,12 @@ Implementation-defined). [N4950 S11.5]/1 states:
 > members of that struct are also active members.
 
 And [N4950 S6.9.2.1]/11 explicitly lists union members as permitted alias types. However, there is
-An important caveat from [N4950 S11.5]/1:
+an important caveat from [N4950 S11.5]/1:
 
 > the implicit lifetime of the non-active member does not begin
 
 This means you must use the member access syntax (not `memcpy`-style pointer casting from outside
-The union) for the alias to be well-defined.
+the union) for the alias to be well-defined.
 
 ```cpp
 union FloatBits \{
@@ -354,7 +354,7 @@ uint32_t bad_pun(float f) \{
 
 **Why the distinction matters:** The union member access syntax is special-cased by the Standard to
 Be well-defined [N4950 S6.9.2.1]/11. But `reinterpret_cast<uint32_t*>(&sp.u)` does not go through
-The union member access path, it goes through the pointer cast path, which is subject to the strict
+the union member access path, it goes through the pointer cast path, which is subject to the strict
 Aliasing rule.
 
 ### 3.4 `std::aligned_storage` (Deprecated in C++23)
@@ -532,7 +532,7 @@ static_assert(!std::has_unique_object_representations_v<short>); // may have pad
 ### Padding and Type Punning
 
 When type-punning between types that have different padding layouts, the padding bits are preserved
-By `memcpy` and `std::bit_cast`. This is generally harmless when punning between types of the same
+by `memcpy` and `std::bit_cast`. This is generally harmless when punning between types of the same
 Size (e.g., `float` and `uint32_t`Which both have no padding on typical platforms), but it can Cause
 issues when punning between types with different padding:
 
@@ -567,7 +567,7 @@ void padding_demo() \{
 ### Alignment Requirements and Misaligned Access
 
 Type punning through `reinterpret_cast` can produce misaligned pointers, which is undefined behavior
-On architectures that do not support unaligned access (e.g., some ARM Cortex-M variants, older
+on architectures that do not support unaligned access (e.g., some ARM Cortex-M variants, older
 SPARC).
 
 ```cpp
@@ -769,8 +769,8 @@ Or use `std::endian` (C++20) with conditional byte swapping.
 
 `std::bit_cast` and `memcpy`-based punning require the source and destination to be the same size.
 Punning between types of different sizes (e.g., `float` to `uint64_t`) does not make sense because
-The bit patterns have different lengths. The extra bytes in the larger type would be uninitialized
-Or contain garbage.
+the bit patterns have different lengths. The extra bytes in the larger type would be uninitialized
+or contain garbage.
 
 ```cpp
 #include <bit>
@@ -813,7 +813,7 @@ Arithmetic instead, or to upgrade to C++20 and use `std::bit_cast`.
 
 Even if you do not explicitly type-pun, strict aliasing affects how you write generic code. If a
 Function takes two pointers of different types and writes through both, the compiler assumes they do
-Not alias:
+not alias:
 
 ```cpp
 void update(float* pf, int* pi, int n) \{

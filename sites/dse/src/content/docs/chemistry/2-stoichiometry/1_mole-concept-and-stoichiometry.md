@@ -42,7 +42,7 @@ $$
 ### Relative Molecular Mass ($M_r$)
 
 The relative molecular mass of a compound is the sum of the relative atomic masses of all atoms in
-The molecule.
+the molecule.
 
 $$
 M_r(\mathrm{H}_2\mathrm{SO}_4) = 2(1.0) + 32.1 + 4(16.0) = 98.1
@@ -346,7 +346,7 @@ Volumetric flask, and add distilled water up to the graduation mark.
 ### Balancing Equations
 
 The law of conservation of mass requires that the number of atoms of each element is the same on
-Both sides of a chemical equation.
+both sides of a chemical equation.
 
 **Steps:**
 
@@ -884,7 +884,7 @@ Molecular formula = $\mathrm{Na}_2\mathrm{SO}_3$ (sodium sulfite)
 
 25.0 cm$^3$ of 0.200 mol/dm$^3$ $\mathrm{H}_2\mathrm{SO}_4$ is completely neutralised by
 $\mathrm{KOH}$ solution. If 40.0 cm$^3$ of $\mathrm{KOH}$ is required, what is the concentration of
-The $\mathrm{KOH}$?
+the $\mathrm{KOH}$?
 
 <details>
 <summary>Answer</summary>
@@ -1013,8 +1013,8 @@ Volume of concentrated acid = $25.03 / 1.84 = 13.6 \mathrm{ cm}^3$
 ### Problem 7
 
 An organic compound contains only carbon, hydrogen, and oxygen. On complete combustion, 0.120 g of
-The compound produces 0.264 g of $\mathrm{CO}_2$ and 0.108 g of $\mathrm{H}_2\mathrm{O}$. Determine
-The empirical formula of the compound.
+the compound produces 0.264 g of $\mathrm{CO}_2$ and 0.108 g of $\mathrm{H}_2\mathrm{O}$. Determine
+the empirical formula of the compound.
 
 <details>
 <summary>Answer</summary>

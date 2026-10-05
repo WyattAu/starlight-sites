@@ -22,7 +22,7 @@ tags:
 
 A **differential equation** (DE) is an equation involving derivatives of an unknown function. A
 **first order** DE involves only the first derivative. A DE is **ordinary** (ODE) if all derivatives
-Are with respect to a single variable.
+are with respect to a single variable.
 
 The **order** of a DE is the highest derivative that appears. The **general solution** of an $n$-th
 order DE contains $n$ arbitrary constants. A **particular solution** is obtained by imposing Initial

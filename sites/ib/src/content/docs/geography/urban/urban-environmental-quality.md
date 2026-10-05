@@ -83,7 +83,7 @@ City. Aerosols and particulate matter released by urban activities can act as cl
 Nuclei, potentially increasing rainfall frequency. Research has shown that cities can receive
 10--30% more rainfall than surrounding rural areas, and that rainfall events may be more intense
 (with higher hourly rainfall rates). However, the overall evidence is mixed, and the effect varies
-With city size, geographic location, and prevailing weather patterns.
+with city size, geographic location, and prevailing weather patterns.
 
 ## Air Quality Management
 
@@ -130,7 +130,7 @@ And Cairo.
 ### The Waste Hierarchy
 
 The waste hierarchy establishes a preference order for waste management strategies, from most to
-Least environmentally desirable:
+least environmentally desirable:
 
 1. **Prevention:** eliminating waste generation at source through product design, regulation
    (banning single-use plastics), and behaviour change.
@@ -157,8 +157,8 @@ approximately 32% of its municipal waste, with the remainder landfilled or incin
 
 **Developing countries.** Waste collection rates are often low (approximately 40--60% in many
 Sub-Saharan African cities), and collected waste is predominantly landfilled in uncontrolled dumps
-Or open-burning sites. The informal waste sector (waste pickers, scavengers) plays a critical role
-In recycling: approximately 15 million waste pickers worldwide recover materials from waste streams,
+or open-burning sites. The informal waste sector (waste pickers, scavengers) plays a critical role
+in recycling: approximately 15 million waste pickers worldwide recover materials from waste streams,
 Often working under hazardous conditions. In Pune, India, the SWaCH cooperative of waste pickers
 Provides door-to-door waste collection for approximately 300 000 households, achieving high
 Recycling rates while providing livelihoods.
@@ -182,7 +182,7 @@ Development; consumer preference for detached housing with gardens.
 
 **Environmental costs of sprawl:** loss of agricultural land and natural habitats (the EU loses
 Approximately 1000 km$^2$ of agricultural land per year to urbanisation); increased car dependence
-And associated carbon emissions; increased energy consumption for heating and cooling of large,
+and associated carbon emissions; increased energy consumption for heating and cooling of large,
 Detached homes; fragmentation of ecosystems; increased stormwater runoff and reduced groundwater
 Recharge due to increased impermeable surface.
 
@@ -230,7 +230,7 @@ the urban fringe.
 **Policy context.** Many countries have adopted policies to prioritise brownfield over greenfield
 Development. In England, the National Planning Policy Framework (NPPF) sets a target for at least
 60% of new housing to be built on brownfield land. However, the supply of suitable brownfield sites
-Is limited and concentrated in regions with declining industrial bases (northern England, Midlands),
+is limited and concentrated in regions with declining industrial bases (northern England, Midlands),
 While housing demand is strongest in regions with limited brownfield supply (southeast England).
 
 <details>

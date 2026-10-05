@@ -42,7 +42,7 @@ introduces the octal system and binary arithmetic.
 ### Octal (Base 8)
 
 Octal uses digits 0--7. Each octal digit represents exactly 3 bits, making conversion between octal
-And binary trivial.
+and binary trivial.
 
 | Octal | Binary | Decimal |
 | ----- | ------ | ------- |
@@ -390,7 +390,7 @@ UTF-8: `E4 B8 AD`
 ## Image Representation -- Extended Coverage
 
 Basic image concepts (pixels, resolution, colour depth, bitmap vs vector, file size calculation) are
-In [../2-computer-systems/1_computer-systems](/ict/2-computer-systems/1_computer-systems/). This
+in [../2-computer-systems/1_computer-systems](/ict/2-computer-systems/1_computer-systems/). This
 section covers colour models and file format Internals.
 
 ### Colour Models
@@ -422,7 +422,7 @@ Subtractive colour model used in printing. Each component represents the amount 
 | K       | Key (Black) -- reduces ink usage |
 
 CMYK is necessary because printing inks are subtractive (absorb light), unlike screen pixels which
-Are additive (emit light). Pure CMY black is imperfect (appears muddy), so a separate black ink
+are additive (emit light). Pure CMY black is imperfect (appears muddy), so a separate black ink
 Channel (K) is added.
 
 **RGB to CMYK conversion (simplified):**
@@ -569,7 +569,7 @@ Covers audio file formats and compression.
 ### MP3 Compression (Perceptual Coding)
 
 MP3 uses **perceptual audio coding** -- it discards sounds that the human ear cannot perceive, based
-On psychoacoustic models.
+on psychoacoustic models.
 
 Key psychoacoustic principles exploited:
 
@@ -615,7 +615,7 @@ Sound: which note to play, when to play it, how loud, for how long, and which in
 
 A MIDI file might contain instructions like: "Play middle C on piano at velocity 80 for 500
 Milliseconds." The actual sound depends entirely on the synthesiser or sound module that plays back
-The MIDI data.
+the MIDI data.
 
 ---
 
@@ -931,7 +931,7 @@ Even.
 
 **Limitation:** Parity can detect an odd number of bit errors but cannot detect an even number of
 Bit errors (e.g., two flipped bits preserve parity). Parity cannot correct errors -- it only signals
-That an error occurred.
+that an error occurred.
 
 </details>
 
@@ -971,7 +971,7 @@ CP for column 3 is 0 (even parity requires even). 2 is even, so column parity pa
 
 Hmm, this shows that a single-bit error is detected by row parity but may not be detected by column
 Parity alone. However, with the row parity failing at R2 and column parity passing, we know there is
-An error but cannot pinpoint it with certainty unless both row and column parity fail.
+an error but cannot pinpoint it with certainty unless both row and column parity fail.
 
 Actually, let me recalculate. If the original CP for C3 was computed as 1 (because 1+1+0+1 = 3, odd,
 So CP = 1 to make even), then after the flip: 1+0+0+1 = 2 (even), CP = 0. The received CP is 1, so
@@ -1017,7 +1017,7 @@ Checksum; if no errors, the result is all 1s (e.g., 255 for 8-bit, 65535 for 16-
 </details>
 
 Checksums are fast to compute but have limited error detection capability. Different error patterns
-Can produce the same checksum, leading to undetected errors.
+can produce the same checksum, leading to undetected errors.
 
 ### Hamming Code
 
@@ -1241,7 +1241,7 @@ Subsequent text.
 <summary>Question 3: Image File Formats</summary>
 
 A graphic designer needs to save images in various scenarios. Recommend the most appropriate format
-And justify your choice for each:
+and justify your choice for each:
 
 (a) A photograph for a website background (needs small file size, no transparency needed).
 
@@ -1264,7 +1264,7 @@ Quality, which is critical for logos. SVG would also work if the logo is a vecto
 256 colours (sufficient for solid-colour banners), and produces small files via LZW compression.
 
 (d) **SVG** (Scalable Vector Graphics). SVG uses mathematical descriptions of shapes, so it scales
-To any size without pixelation or quality loss. This is essential for technical diagrams that may be
+to any size without pixelation or quality loss. This is essential for technical diagrams that may be
 Viewed at different zoom levels or printed at different sizes.
 
 </details>
@@ -1360,7 +1360,7 @@ Corrected: flip bit 2 from 1 to 0: `0010110`
 Data bits (positions 3,5,6,7): D3=1, D5=0, D6=1, D7=0. Original data = 1010.
 
 (c) A single parity bit can only indicate that an error occurred (parity mismatch), but it provides
-No information about which bit flipped. Since any of the n+1 bits (n data + 1 parity) could be the
+no information about which bit flipped. Since any of the n+1 bits (n data + 1 parity) could be the
 Error, the receiver cannot determine the error location and therefore cannot correct it. Correction
 Requires additional redundancy that provides positional information, such as the multiple parity
 Bits in Hamming code, each covering different subsets of bit positions.
@@ -1374,7 +1374,7 @@ Bits in Hamming code, each covering different subsets of bit positions.
 Uncompressed file size in MB.
 
 (b) A 5-minute stereo audio recording uses a sampling rate of 48 kHz with 24-bit depth. Calculate
-The file size in MB (uncompressed WAV).
+the file size in MB (uncompressed WAV).
 
 (c) If the audio in (b) is compressed to MP3 at 320 kbps, what is the compressed file size in MB?
 

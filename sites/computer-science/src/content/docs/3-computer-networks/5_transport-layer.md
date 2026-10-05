@@ -104,7 +104,7 @@ Acknowledgements, sequence numbers, and retransmission timers.
 _Proof._ TCP assigns each byte a sequence number. The receiver sends cumulative ACKs indicating the
 Next expected byte. If an ACK is not received within the RTO, the sender retransmits. Since the
 Receiver buffers out-of-order segments and only delivers in-order data to the application, and since
-Every byte is eventually acknowledged or retransmitted until acknowledged, all data is delivered
+every byte is eventually acknowledged or retransmitted until acknowledged, all data is delivered
 Exactly once and in order. $\blacksquare$
 
 ### 5.5 TCP Connection Management
@@ -157,7 +157,7 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 ### 5.6 Flow Control
 
 TCP uses a **sliding window**. The receiver advertises `rwnd` (receive window). The sender never has
-More than `rwnd` bytes of unacknowledged data in flight.
+more than `rwnd` bytes of unacknowledged data in flight.
 
 $$
 \mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})

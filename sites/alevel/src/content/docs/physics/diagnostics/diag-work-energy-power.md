@@ -431,7 +431,7 @@ $$
 $$
 
 $$
-The new orbital radius is $7.23 \times 10^6\,\text{m}$ (higher, as expected for a prograde burn).
+the new orbital radius is $7.23 \times 10^6\,\text{m}$ (higher, as expected for a prograde burn).
 
 ## Common Mistakes
 

@@ -601,7 +601,7 @@ nix develop  # Enter the development shell
 
 Spend time configuring your environment, but do not fall into the trap of endlessly tweaking your
 Config instead of doing actual work. A good dotfiles setup takes a few hours to set up and then gets
-Out of your way. If you are spending more time configuring your tools than using them, stop and ship
+out of your way. If you are spending more time configuring your tools than using them, stop and ship
 Something.
 
 ### Not Version-Controlling Dotfiles

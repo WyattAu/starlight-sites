@@ -20,7 +20,7 @@ description: "The Virtual File System layer is the kernel abstraction that allow
 The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file
 System types simultaneously. Application code calls `open(2)``read(2)``write(2)`And `stat(2)`
 Without knowing whether the underlying storage uses ext4, XFS, Btrfs, NFS, or a pseudo-filesystem
-Like procfs.
+like procfs.
 
 ```mermaid
 graph TD
@@ -68,13 +68,13 @@ Includes a `struct file_system_type` that provides:
 - Module owner (for loadable modules)
 
 When `mount(2)` is called, the VFS invokes the appropriate file system"s mount function, which reads
-The superblock from disk and populates the VFS superblock object.
+the superblock from disk and populates the VFS superblock object.
 
 ## Inode Structure
 
 An inode (index node) is the fundamental data structure representing a file on disk. It contains all
 Metadata about a file except the filename (which is stored in the directory's data blocks, not in
-The inode itself).
+the inode itself).
 
 ### Inode Fields
 
@@ -165,7 +165,7 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 ### Extents
 
 Traditional ext2/ext3 used indirect block mapping, the inode pointed to a block of pointers, which
-Could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
+could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
 Files because even a contiguous file required multiple block pointer lookups.
 
 Ext4 introduces **extents**, a descriptor that maps a contiguous range of blocks. An extent can
@@ -201,11 +201,11 @@ mount -o data=journal /dev/sda1 /mnt
 
 Ext4 uses **delayed allocation** (delalloc): when a process writes data, the blocks are not
 Immediately allocated on disk. Instead, the data is held in memory, and allocation is deferred until
-The kernel flushes it. This allows the allocator to make better decisions about contiguous block
+the kernel flushes it. This allows the allocator to make better decisions about contiguous block
 Placement, significantly reducing fragmentation.
 
 The downside: a crash before flush can lose more data than with immediate allocation. For databases
-That manage their own I/O (MySQL, PostgreSQL), delayed allocation should be disabled:
+that manage their own I/O (MySQL, PostgreSQL), delayed allocation should be disabled:
 
 ```bash
 # Disable delayed allocation for database volumes
@@ -243,7 +243,7 @@ resize2fs /dev/sda1 500G     # grow to 500 GiB
 ## XFS
 
 XFS is a high-performance journaling file system developed by SGI in 1993, designed for parallel I/O
-And large files. It is the default on RHEL/CentOS 7+ and is well-suited for large data volumes,
+and large files. It is the default on RHEL/CentOS 7+ and is well-suited for large data volumes,
 Media workloads, and databases.
 
 ### Key Features
@@ -333,7 +333,7 @@ Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
 
 Btrfs (B-tree file system, pronounced "butter-fs") is a copy-on-write (COW) file system with
 Built-in volume management, snapshots, checksumming, and compression. It is the default on Fedora
-And is used by Synology NAS systems.
+and is used by Synology NAS systems.
 
 ### Key Features
 
@@ -379,7 +379,7 @@ mount -o compress=zstd /dev/sdb1 /mnt/btrfs
 ### Subvolumes and Snapshots
 
 A subvolume is an independently mountable file tree within a Btrfs volume. Snapshots are subvolumes
-That share data blocks with their source.
+that share data blocks with their source.
 
 ```bash
 # Create a subvolume
@@ -408,7 +408,7 @@ btrfs send -p /mnt/btrfs/@home_snapshot_2023 /mnt/btrfs/@home_snapshot_2024 | \
 ### Btrfs RAID
 
 Btrfs implements RAID at the file system level (not block level like mdadm). This means RAID is
-Per-extent, not per-device, and can be configured differently for data and metadata:
+per-extent, not per-device, and can be configured differently for data and metadata:
 
 ```bash
 # RAID 1 for data, DUP for metadata (single device)
@@ -719,7 +719,7 @@ Corruption. Always unmount first, or run from a live system.
 ### Pitfall: ext4 `inode exhaustion`
 
 Ext4 creates inodes at format time. If you have millions of small files, you can run out of inodes
-Before running out of disk space:
+before running out of disk space:
 
 ```bash
 # Check inode usage
@@ -746,7 +746,7 @@ chattr +C /var/lib/mysql
 
 `mount --bind` creates a new mount point for an existing directory without changing the file system.
 `mount --move` moves a mount point to a new location entirely. The difference matters for containers
-And chroots:
+and chroots:
 
 ```bash
 # Bind mount, makes /existing visible at /new-location
@@ -759,13 +759,13 @@ mount --move /old-mount-point /new-mount-point
 ### Pitfall: `/proc` and `/sys` Are Not Real Files
 
 Reading from `/proc` or `/sys` is not like reading a regular file. The kernel generates the content
-On each read. The output of a single `cat` may show inconsistent state if the kernel is modifying
-The data concurrently. For atomic reads, prefer sysctl or direct kernel interfaces.
+on each read. The output of a single `cat` may show inconsistent state if the kernel is modifying
+the data concurrently. For atomic reads, prefer sysctl or direct kernel interfaces.
 
 ### Pitfall: XFS Cannot Be Shrunk
 
 If you allocate a 1 TiB XFS volume and later need only 500 GiB, you cannot shrink it. You must back
-Up, recreate with the smaller size, and restore. Always size XFS volumes conservatively or plan to
+up, recreate with the smaller size, and restore. Always size XFS volumes conservatively or plan to
 Add space later.
 
 ## Summary

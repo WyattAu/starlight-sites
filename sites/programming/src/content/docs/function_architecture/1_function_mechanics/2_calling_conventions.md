@@ -82,7 +82,7 @@ extern "C" int64_t add_seven(int64_t a, int64_t b, int64_t c, int64_t d,
 ### Register and Stack Interleaving
 
 Integer and floating-point arguments use separate register banks. This means the register assignment
-Does not follow argument order in a single sequence, the two banks are tracked independently:
+does not follow argument order in a single sequence, the two banks are tracked independently:
 
 ```cpp
 // void interleaved(int a, double b, int c, double d, int e, double f, int g, double h);
@@ -260,8 +260,8 @@ Stall on some microarchitectures).
 ## 2.5 Microsoft x64 ABI vs System V ABI
 
 Windows and Linux/macOS use fundamentally different calling conventions on x86-64. The differences
-Are significant enough that calling a function compiled with one ABI from code compiled with the
-Other will crash or corrupt memory.
+are significant enough that calling a function compiled with one ABI from code compiled with the
+other will crash or corrupt memory.
 
 | Aspect                    | System V AMD64 ABI (Linux/macOS)                 | Microsoft x64 ABI (Windows)                 |
 | :------------------------ | :----------------------------------------------- | :------------------------------------------ |
@@ -296,7 +296,7 @@ Consider a function `void f(int a, int b, int c, int c, int d, int e, int f, int
 ### Shadow Space
 
 The Microsoft x64 ABI requires the caller to allocate **32 bytes of "shadow space"** on the stack
-Before every function call, regardless of the number of arguments. The callee is free to use this
+before every function call, regardless of the number of arguments. The callee is free to use this
 Space to spill register arguments. This simplifies debugging but adds overhead to every call.
 
 ```cpp
@@ -329,7 +329,7 @@ This can be significant.
 ### `va_list` Differences
 
 Variadic functions behave very differently across the two ABIs. Under System V, `va_list` is backed
-By a register save area that captures the current state of GP and SSE registers at the point of the
+by a register save area that captures the current state of GP and SSE registers at the point of the
 Ellipsis. Under Microsoft x64, `va_list` is a simple pointer that walks the stack.
 
 ```cpp
@@ -387,7 +387,7 @@ System APIs.
 
 These attributes are primarily relevant for **32-bit x86** code, where multiple calling conventions
 Coexisted. On x86-64, both Windows and Linux use a single calling convention (the platform ABI), so
-These attributes have limited effect.
+these attributes have limited effect.
 
 ```cpp
 // Interfacing with Win32 API (32-bit example):
@@ -401,7 +401,7 @@ extern "C" __cdecl int printf(const char* fmt, ...);
 ### System V: Explicit Attributes
 
 GCC and Clang on Linux/macOS generally do not use calling convention attributes for x86-64 because
-The System V ABI is the only game in town. However, the `sysv_abi` and `ms_abi` attributes allow
+the System V ABI is the only game in town. However, the `sysv_abi` and `ms_abi` attributes allow
 Mixing ABIs on the same platform (e.g., calling Windows DLLs from Linux via Wine or Windows
 Subsystem for Linux):
 
@@ -527,7 +527,7 @@ Compiler flags like `-mstackrealign` (MSVC) or `-mno-sse` (GCC) can help diagnos
 
 A calling convention mismatch occurs when the caller and callee disagree on how arguments are
 Passed. This is one of the most insidious categories of bugs because the program may appear to work
-For specific argument values or compiler optimization levels.
+for specific argument values or compiler optimization levels.
 
 ### Symptoms
 
@@ -567,7 +567,7 @@ int process_data(long a, long b, long c) {  // three long arguments
 ## 2.10 Struct Classification in System V ABI
 
 The System V ABI classifies each argument through a recursive algorithm that decomposes structures
-Into eightbytes (8-byte chunks). Each eightbyte is classified independently as INTEGER, SSE, or
+into eightbytes (8-byte chunks). Each eightbyte is classified independently as INTEGER, SSE, or
 MEMORY:
 
 1. **INTEGER:** Integer types, pointers, and structures containing only INTEGER-classified
@@ -626,7 +626,7 @@ extern "C" int process_mixed_separate(int32_t a, float b);
 
 When a function returns a struct classified as MEMORY, the caller allocates space and passes a
 Hidden first argument (the address of that space) in RDI. The callee constructs the return value at
-That address and returns the pointer in RAX:
+that address and returns the pointer in RAX:
 
 ```cpp
 struct BigStruct {
@@ -647,7 +647,7 @@ Elision in C++17.
 ## 2.11 NRVO and Calling Convention Interaction
 
 Named Return Value Optimization (NRVO) and Return Value Optimization (RVO) [N4950 §11.9.6] eliminate
-The copy/move of return values. Under the System V ABI, this means the caller passes a hidden
+the copy/move of return values. Under the System V ABI, this means the caller passes a hidden
 Pointer to the destination storage, and the callee constructs directly into it, bypassing the
 Return-value register entirely.
 
@@ -681,7 +681,7 @@ These attributes are only meaningful on x86-32 where multiple calling convention
 ## 2.12 Variadic Functions and the ABI
 
 Variadic functions (`...`) require special ABI handling because the callee does not know the types
-Or count of trailing arguments at compile time.
+or count of trailing arguments at compile time.
 
 ### System V: Register Save Area
 

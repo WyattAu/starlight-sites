@@ -45,7 +45,7 @@ Approximately $2^{63.1}$ computations (far below the theoretical $2^{80}$).
 
 **Does this affect Git?** Directly, not much. The attack required significant computational
 Resources ($\sim$6,500 CPU-years) and was specifically crafted for PDF files. However, it proved
-That SHA-1"s collision resistance is weaker than assumed, and future advances could make attacks
+that SHA-1"s collision resistance is weaker than assumed, and future advances could make attacks
 Cheaper.
 
 ### Git's Defenses Against Collision Attacks
@@ -89,7 +89,7 @@ $ git config core.repositoryFormatVersion
 ### Migration Challenges
 
 Migrating an existing repository from SHA-1 to SHA-256 is **not currently supported** by Git. This
-Is because:
+is because:
 
 1. **Every object hash changes**: All blobs, trees, commits, and tags get new hashes.
 2. **All references break**: Branches, tags, remotes. Everything must be updated.
@@ -127,7 +127,7 @@ $ git init --object-format=sha256
 ```
 
 This provides future-proofing at essentially zero cost (the slight speed difference is negligible
-For most workflows).
+for most workflows).
 
 ### For Existing Projects
 
@@ -160,7 +160,7 @@ Far-reaching:
 
 The trade-off is that Git cannot efficiently store files that change slightly and frequently (e.g.,
 Large binary files, databases). This is why Git LFS exists, it stores the large file content
-Outside the object store and tracks only a pointer.
+outside the object store and tracks only a pointer.
 
 ## Common Pitfalls
 

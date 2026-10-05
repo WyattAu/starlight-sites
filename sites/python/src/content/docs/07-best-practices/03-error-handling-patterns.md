@@ -520,7 +520,7 @@ def binary_search(arr, target):
 
 :::caution
 The `__debug__` constant. **Never use assertions for data validation or runtime checks**, they are
-For debugging and documenting invariants:
+for debugging and documenting invariants:
 
 ```python
 # WRONG, assertion disabled in production
@@ -554,7 +554,7 @@ def test_config_defaults():
 ## Input Validation at Boundaries
 
 Validate input at the edges of your system, API endpoints, file readers, CLI parsers, and trust
-The data internally:
+the data internally:
 
 ```python
 from dataclasses import dataclass

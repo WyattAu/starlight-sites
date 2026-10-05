@@ -114,7 +114,7 @@ fmt.Println(a) // [0 99 2 3]
 #### Append
 
 `append` adds elements to a slice. If the capacity is exceeded, a new underlying array is allocated
-And all elements are copied:
+and all elements are copied:
 
 ```go
 s := []int{1, 2}
@@ -192,7 +192,7 @@ The difference matters for JSON marshaling: `nil` marshals to `null`While `[]int
 ## Maps
 
 Maps are hash tables mapping keys to values. The zero value is `nil`. A `nil` map is empty but
-Cannot be written to.
+cannot be written to.
 
 ```go
 var m map[string]int   // nil map
@@ -308,7 +308,7 @@ fmt.Println(d.Name) // "test" -- promoted field
 ```
 
 Promoted fields are accessed directly on the embedding struct. This is syntactic sugar -- there is
-No inheritance hierarchy. The embedded struct"s methods are also promoted.
+no inheritance hierarchy. The embedded struct"s methods are also promoted.
 
 ### Comparing Structs
 

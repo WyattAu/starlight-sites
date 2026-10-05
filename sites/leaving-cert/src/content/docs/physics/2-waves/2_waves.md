@@ -83,7 +83,7 @@ Proportional for a given wave speed.
 ### Why Reflection Obeys the Law
 
 Huygens" principle: every point on a wavefront acts as a source of secondary wavelets. The envelope
-Of these wavelets forms the reflected wavefront. Geometry dictates that the angle of reflection
+of these wavelets forms the reflected wavefront. Geometry dictates that the angle of reflection
 Equals the angle of incidence.
 
 ### Snell's Law of Refraction (OL/HL)
@@ -150,9 +150,9 @@ Diffraction is the spreading of waves when they pass through a gap or around an 
 ### Why Diffraction Depends on Gap Size Relative to Wavelength
 
 By Huygens' principle, every point on a wavefront acts as a source of secondary wavelets. If the gap
-Is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
+is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
 Edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
-From all parts of the gap overlap significantly, producing broad spreading.
+from all parts of the gap overlap significantly, producing broad spreading.
 
 ### Single Slit Diffraction (HL)
 
@@ -286,7 +286,7 @@ Biological tissue.
 
 Sound is a mechanical wave: it propagates by particles colliding with their neighbours. In a vacuum,
 There are no particles, so the disturbance cannot propagate. Light (an electromagnetic wave) does
-Not require a medium, which is why we can see the Sun but cannot hear it.
+not require a medium, which is why we can see the Sun but cannot hear it.
 
 ### Intensity (HL)
 
@@ -319,13 +319,13 @@ $$
 ### Why the Decibel Scale
 
 The human ear can detect intensities spanning $10^{12}$. A linear scale would require numbers from 1
-To a trillion. The logarithmic decibel scale compresses this range to 0--120 dB, which is far more
+to a trillion. The logarithmic decibel scale compresses this range to 0--120 dB, which is far more
 Manageable. A 3 dB increase corresponds to a doubling of intensity.
 
 ## Doppler Effect (HL)
 
 When a source and observer are moving relative to each other, the observed frequency differs from
-The emitted frequency.
+the emitted frequency.
 
 For a source moving towards a stationary observer:
 
@@ -616,7 +616,7 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 ### Example 21: Lateral Displacement Through a Glass Block
 
 A ray of light enters a rectangular glass block of refractive index $1.52$ at an angle of incidence
-Of $40^\circ$. The block has thickness $5 \mathrm{ cm$. Calculate the angle of refraction, the
+of $40^\circ$. The block has thickness $5 \mathrm{ cm$. Calculate the angle of refraction, the
 lateral Displacement of the ray, and the angle of emergence.
 
 **Step 1: Angle of refraction (Snell's law at entry)**
@@ -679,7 +679,7 @@ Parallel faces. The lateral displacement increases with thickness and with angle
 ### Example 22: Doppler Effect -- Moving Observer
 
 A sound source emits a frequency of $440 \mathrm{ Hz$ and is stationary. An observer moves directly
-Towards the source at $25 \mathrm{ m/s$. Calculate the observed frequency. (Speed of sound
+towards the source at $25 \mathrm{ m/s$. Calculate the observed frequency. (Speed of sound
 $= 343 \mathrm{ m/s$.)
 
 **Step 1: Use the Doppler equation for moving observer**
@@ -786,7 +786,7 @@ Use the lens maker's equation or the thin lens formula.
 
 Diffraction is the spreading of waves around obstacles or through gaps. Refraction is the bending of
 Waves due to a change in speed. They are different phenomena. Diffraction is most pronounced when
-The gap size is comparable to the wavelength; refraction occurs at boundaries between media of
+the gap size is comparable to the wavelength; refraction occurs at boundaries between media of
 Different densities.
 
 ## Additional Practice Problems

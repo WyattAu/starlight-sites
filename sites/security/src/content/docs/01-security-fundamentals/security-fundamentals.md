@@ -37,7 +37,7 @@ Mechanisms that enforce confidentiality:
 
 Confidentiality is not binary. A system that encrypts data at rest but logs the plaintext to an
 Unsecured file has failed confidentiality. A system that uses AES-256 but stores the key alongside
-The ciphertext has failed confidentiality. The entire data lifecycle must be considered.
+the ciphertext has failed confidentiality. The entire data lifecycle must be considered.
 
 ### Integrity
 
@@ -60,7 +60,7 @@ Continuous, not one-time.
 ### Availability
 
 Availability ensures that authorized users can access systems and data when needed. It is defended
-Against both malicious attacks (DDoS) and operational failures (hardware faults, misconfigurations).
+against both malicious attacks (DDoS) and operational failures (hardware faults, misconfigurations).
 
 | Threat Vector       | Countermeasure                      | Standard       |
 | ------------------- | ----------------------------------- | -------------- |
@@ -93,7 +93,7 @@ Threats against a system into six classes, each mapping to a specific security v
 ### Applying STRIDE
 
 STRIDE is applied through **data flow diagrams (DFDs)**. For each component, element, and data flow
-In the diagram, you systematically ask: "Which STRIDE threats apply here?"
+in the diagram, you systematically ask: "Which STRIDE threats apply here?"
 
 ```mermaid
 graph TD
@@ -150,7 +150,7 @@ Path from root to leaf remains, the threat is mitigated.
 ## Attack Surface Analysis
 
 The attack surface of a system is the set of all points where an untrusted actor can interact with
-It. Reducing the attack surface is one of the highest-leverage security activities.
+it. Reducing the attack surface is one of the highest-leverage security activities.
 
 ### Categories of Attack Surface
 
@@ -166,10 +166,10 @@ It. Reducing the attack surface is one of the highest-leverage security activiti
 
 Attack surface can be quantified using Microsoft's **Relative Attack Surface Quotient (RASQ)**,
 Which assigns a cost to each attack vector (network port, service, RPC endpoint, etc.) and compares
-The total cost across configurations or versions.
+the total cost across configurations or versions.
 
 For practical purposes, the key metric is: **how many distinct paths exist from an untrusted input
-To a protected asset?** Each path represents a potential vulnerability.
+to a protected asset?** Each path represents a potential vulnerability.
 
 ### Attack Surface Reduction Checklist
 
@@ -183,7 +183,7 @@ To a protected asset?** Each path represents a potential vulnerability.
 ## Risk Assessment
 
 Risk assessment is the process of identifying, analyzing, and prioritizing risks. It is the bridge
-Between threat modeling and security investment.
+between threat modeling and security investment.
 
 ### Risk Quantification
 
@@ -226,7 +226,7 @@ Framework. It decomposes risk into:
 
 LEF is further decomposed into **Threat Event Frequency** (how often the threat actor attempts the
 Attack) and **Vulnerability** (the probability that an attempt succeeds). Loss Magnitude includes
-Both **Primary Loss** (direct costs) and **Secondary Loss** (response, reputation, regulatory).
+both **Primary Loss** (direct costs) and **Secondary Loss** (response, reputation, regulatory).
 
 FAIR produces a probability distribution over loss amounts rather than a single point estimate,
 Enabling risk-informed decision-making.
@@ -257,14 +257,14 @@ Admin access to the database.
 ### Just-in-Time (JIT) Access
 
 Static privilege assignment accumulates permissions over time. JIT access grants elevated privileges
-On demand, with automatic expiration. Systems like AWS IAM, HashiCorp Vault, and Teleport support
+on demand, with automatic expiration. Systems like AWS IAM, HashiCorp Vault, and Teleport support
 JIT patterns.
 
 ### Separation of Duties
 
 Related to least privilege is separation of duties: no single individual should control all aspects
-Of a critical operation. A developer who writes code should not be the sole approver for deploying
-It to production. A database administrator should not be the sole reviewer of audit logs.
+of a critical operation. A developer who writes code should not be the sole approver for deploying
+it to production. A database administrator should not be the sole reviewer of audit logs.
 
 ## Defense in Depth
 
@@ -325,7 +325,7 @@ graph TD
 
 Zero trust is a security model that eliminates implicit trust based on network location. The
 Traditional perimeter model assumes that everything inside the network is trustworthy and everything
-Outside is not. Zero trust assumes that no network location, user, or device is inherently
+outside is not. Zero trust assumes that no network location, user, or device is inherently
 Trustworthy.
 
 ### Core Principles (NIST SP 800-207)
@@ -485,7 +485,7 @@ Uses three metric groups:
 :::caution
 An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnerability in an
 Internet-facing authentication service. Always factor exploitability, exposure, and business context
-Into prioritization.
+into prioritization.
 
 ## Security Through Obscurity
 
@@ -633,7 +633,7 @@ rounding error by comparison.
 
 However, excessive security friction drives shadow IT, users routing around controls using personal
 Devices, unapproved SaaS, and shared credentials. The goal is security that is effective without
-Being burdensome enough to create workarounds.
+being burdensome enough to create workarounds.
 
 ### Designing Usable Security
 
@@ -649,7 +649,7 @@ Security:
 ### Security by Design Principles
 
 Security should be integrated into the development lifecycle from the earliest stages, not bolted on
-At the end:
+at the end:
 
 | Phase           | Security Activity                               | Output                           |
 | --------------- | ----------------------------------------------- | -------------------------------- |
@@ -753,8 +753,8 @@ Legal liability. Both are necessary; neither is sufficient.
 ### Pitfall 3: Trusting the Network
 
 The assumption that "internal traffic is safe" has been obsolete for over a decade. Lateral movement
-Is a standard post-exploitation technique. Worms propagate across internal networks. Insider threats
-Are by definition inside the perimeter. Every internal service-to-service communication should be
+is a standard post-exploitation technique. Worms propagate across internal networks. Insider threats
+are by definition inside the perimeter. Every internal service-to-service communication should be
 Authenticated and encrypted.
 
 ### Pitfall 4: Neglecting the Supply Chain
@@ -780,21 +780,21 @@ Protect against:
 The most sophisticated technical controls are defeated by a user clicking a phishing link, reusing a
 Password, or sharing credentials over Slack. Technical controls must account for human behavior, not
 Assume perfect users. Security awareness training, phishing simulations, and usable security design
-Are not optional extras.
+are not optional extras.
 
 ### Pitfall 7: No Incident Response Plan
 
 Every organization will experience a security incident. The difference between a contained incident
-And a catastrophe is whether you have a tested, practiced response plan. Without one, you will waste
-The first critical hours figuring out who is responsible, what to do, and how to communicate, while
-The attacker continues to operate undisturbed.
+and a catastrophe is whether you have a tested, practiced response plan. Without one, you will waste
+the first critical hours figuring out who is responsible, what to do, and how to communicate, while
+the attacker continues to operate undisturbed.
 
 ### Pitfall 8: Assuming Compliance Equals Security
 
 Compliance frameworks (SOC 2, ISO 27001, PCI-DSS) define minimum control requirements. They are
 Necessary for legal and contractual reasons, but meeting the minimum does not mean you are secure. A
 System can be fully compliant and still have critical vulnerabilities. Compliance is the floor, not
-The ceiling.
+the ceiling.
 
 ### Pitfall 9: Neglecting Security at Design Time
 
@@ -820,7 +820,7 @@ Security controls.
 ### Pitfall 12: Ignoring Physical Security
 
 Physical access trumps almost all technical controls. An attacker with physical access to a server
-Can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
+can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
 Server room access controls, visitor logging, and hardware security modules (HSMs) are not Optional.
 :::
 

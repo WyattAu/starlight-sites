@@ -194,7 +194,7 @@ The steeper angle gives a higher but shorter arc.
 ### 4.1 Up the plane
 
 A plane is inclined at angle $\alpha$ to the horizontal. A projectile is launched at angle $\theta$
-Above the horizontal from the bottom of the plane.
+above the horizontal from the bottom of the plane.
 
 The projectile lands on the plane when $y = x\tan\alpha$.
 
@@ -522,7 +522,7 @@ $$
 ### 7.1 Time of flight from height $h$
 
 A projectile is launched from height $h$ above ground level with speed $V$ at angle $\theta$ above
-The horizontal. Taking upward as positive with origin at the launch point:
+the horizontal. Taking upward as positive with origin at the launch point:
 
 $$
 y = V\sin\theta \cdot t - \frac{1}{2}gt^2
@@ -598,7 +598,7 @@ When $h = 0$ This reduces to $\tan\theta = 1$ I.e., $\theta = 45^\circ$ as expec
 
 **Example.** A stone is thrown from a cliff $50\,\mathrm{m}$ high at $15\,\mathrm{m s}^{-1}$ at
 $30^\circ$ above the horizontal. Find the time of flight, the horizontal range, the maximum height
-Above ground, and the speed and direction of impact.
+above ground, and the speed and direction of impact.
 
 **Time of flight:**
 
@@ -770,7 +770,7 @@ From Section 7.4: $\theta = \arctan\!\left(\dfrac{V}{\sqrt{V^2 + 2gh}}\right)$.
 $\theta = \arctan\!\left(\dfrac{20}{\sqrt{400 + 196}}\right) = \arctan\!\left(\dfrac{20}{\sqrt{596}}\right) = \arctan\!\left(\dfrac{20}{24.41}\right) = \arctan(0.819) \approx 39.3^\circ$.
 
 This is less than $45^\circ$ because the projectile benefits from the extra "free" height gained
-From the elevated launch point, so a flatter trajectory maximises the horizontal component of
+from the elevated launch point, so a flatter trajectory maximises the horizontal component of
 Velocity.
 
 </details>
@@ -806,7 +806,7 @@ Gained equals gravitational potential energy lost.
 <summary>Q6. A golfer hits a ball from the top of a hill $30\,\mathrm{m}$ above the fairway. The ball leaves at $40\,\mathrm{m s}^{-1}$ at $35^\circ$ above the horizontal. The fairway slopes downward at $10^\circ$ below the horizontal. Find the distance the ball travels along the fairway before landing.</summary>
 
 The landing condition is that the ball reaches the sloping fairway. The fairway surface passes
-Through $(0, -30)$ and has equation $y = -30 - x\tan 10^\circ$.
+through $(0, -30)$ and has equation $y = -30 - x\tan 10^\circ$.
 
 Setting the trajectory equal to the fairway:
 
@@ -895,7 +895,7 @@ $$
 
 **Problem.** A particle is projected from the origin with speed $u$ at angle $\theta$ above the
 Horizontal. At the same instant, a second particle is released from rest at position $(d, h)$. Find
-The condition on $u$ and $\theta$ for a collision.
+the condition on $u$ and $\theta$ for a collision.
 
 **Solution.** The second particle falls freely: $x_2(t) = d$$y_2(t) = h - \dfrac{1}{2}gt^2$.
 
@@ -1027,7 +1027,7 @@ $\blacksquare$
 
 A cricketer hits a ball from ground level with speed $25\,\mathrm{m\,s^{-1}}$ at $35°$ to the
 Horizontal. The ball just clears a wall $5\,\mathrm{m}$ high. Find the distance from the batsman to
-The wall.
+the wall.
 
 <details>
 <summary>Solution</summary>
@@ -1060,7 +1060,7 @@ Take axes parallel and perpendicular to the downward slope. The component of $g$
 $g\cos\alpha$.
 
 Actually, resolving along the plane: $a_\parallel = -g\sin\alpha$ and $a_\perp = g\cos\alpha$ (into
-The plane).
+the plane).
 
 The particle lands when it returns to the plane. The perpendicular displacement returns to zero:
 
@@ -1074,7 +1074,7 @@ $T = \dfrac{2u\sin(\theta+\alpha)}{g\cos\alpha}$. $\blacksquare$
 ### Question 10
 
 A particle is projected from a point $A$ on a cliff $40\,\mathrm{m}$ above sea level. It lands in
-The sea at a horizontal distance of $100\,\mathrm{m}$ from the foot of the cliff. If the angle of
+the sea at a horizontal distance of $100\,\mathrm{m}$ from the foot of the cliff. If the angle of
 Projection is $30°$ above the horizontal, find the initial speed.
 
 <details>
@@ -1230,13 +1230,13 @@ $v_t = -g/k$.
 ### 14.2 Coriolis effect (qualitative)
 
 On a rotating Earth, the Coriolis force deflects projectiles to the right in the Northern Hemisphere
-And to the left in the Southern Hemisphere. This is significant for long-range artillery but
+and to the left in the Southern Hemisphere. This is significant for long-range artillery but
 Negligible for short-range projectiles.
 
 ### 14.3 Optimal launch angle for maximum range on a slope
 
 For a plane inclined at angle $\alpha$ below the horizontal, the optimal angle for maximum range
-Down the slope is:
+down the slope is:
 
 $$
 \theta = \frac{\pi}{4} - \frac{\alpha}{2}
@@ -1371,7 +1371,7 @@ Where $m$ decreases as fuel is consumed.
 ### 16.4 Range tables
 
 Before computers, artillery range tables were computed using numerical integration of the equations
-Of motion. These accounted for air resistance, wind, and the Coriolis effect.
+of motion. These accounted for air resistance, wind, and the Coriolis effect.
 
 ---
 

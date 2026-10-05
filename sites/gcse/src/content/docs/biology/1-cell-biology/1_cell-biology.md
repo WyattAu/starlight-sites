@@ -38,7 +38,7 @@ Cell biology is the study of **the fundamental unit of life**. The key insight i
 
 All living organisms are made of cells. This is the first principle of cell theory, proposed by
 Schleiden and Schwann in the 1830s and extended by Virchow in 1855. Animal and plant cells share
-Many structures but have key differences. Understanding these differences is fundamental: they
+many structures but have key differences. Understanding these differences is fundamental: they
 Explain why plants can stand upright without a skeleton, why only plant cells can photosynthesise,
 And why plant cells have a fixed, rectangular shape while animal cells are flexible and irregular.
 
@@ -63,8 +63,8 @@ Permeability is essential for maintaining the internal conditions of the cell (h
 Instructions for making every protein the cell needs. DNA is organised into structures called
 Chromosomes, which become visible as distinct threads during cell division. When a cell needs to
 Make a particular protein, the relevant section of DNA (the gene) is "read" and a copy is made in
-The form of messenger RNA (mRNA). The mRNA leaves the nucleus through nuclear pores and travels to
-The ribosomes, where the protein is assembled.
+the form of messenger RNA (mRNA). The mRNA leaves the nucleus through nuclear pores and travels to
+the ribosomes, where the protein is assembled.
 
 **Mitochondria as the powerhouses.** Mitochondria are the sites of aerobic respiration, where
 Glucose is broken down using oxygen to release energy in the form of ATP. Cells that have high
@@ -75,7 +75,7 @@ Chemical reactions of respiration, increasing the rate of ATP production.
 
 **Ribosomes as the protein factories.** Ribosomes are the sites of protein synthesis. They read the
 MRNA code and assemble amino acids in the correct order to make proteins. Ribosomes are found free
-In the cytoplasm (making proteins for use within the cell) and attached to the rough endoplasmic
+in the cytoplasm (making proteins for use within the cell) and attached to the rough endoplasmic
 Reticulum (making proteins for export or insertion into the cell membrane).
 
 **Chloroplasts as the solar panels.** Chloroplasts are the sites of photosynthesis in plant cells.
@@ -96,8 +96,8 @@ Wall also prevents plant cells from bursting when they take in water by osmosis.
 Compartment filled with cell sap (a solution of sugars, salts, and pigments). It pushes the
 Cytoplasm against the cell wall, creating turgor pressure. This pressure keeps the cell firm and
 Provides structural support to the plant. When a plant is well-watered, all its cells are turgid and
-The plant stands upright. When the plant is dehydrated, the cells lose water, become flaccid, and
-The plant wilts.
+the plant stands upright. When the plant is dehydrated, the cells lose water, become flaccid, and
+the plant wilts.
 
 ### 1.2 Eukaryotic and Prokaryotic Cells
 
@@ -147,7 +147,7 @@ to antibiotics and why bacterial infections can spread so rapidly.
 
 Cells are specialised to perform specific functions. Every specialisation you encounter can be
 Understood by asking one question: what structural feature increases the rate of whatever process
-The cell needs to carry out?
+the cell needs to carry out?
 
 | Cell Type        | Specialisation                                   | Function                     |
 | ---------------- | ------------------------------------------------ | ---------------------------- |
@@ -164,31 +164,31 @@ The cell needs to carry out?
 **Building intuition for specialisation.** The red blood cell is a particularly elegant example. Its
 Biconcave disc shape maximises surface area for oxygen diffusion. It has no nucleus -- this might
 Seem like a disadvantage, but it creates more space inside the cell for haemoglobin, the protein
-That carries oxygen. The trade-off is that red blood cells cannot divide or repair themselves; they
-Have a limited lifespan of about 120 days and are continuously replaced in bone marrow. At any given
+that carries oxygen. The trade-off is that red blood cells cannot divide or repair themselves; they
+have a limited lifespan of about 120 days and are continuously replaced in bone marrow. At any given
 Moment, you have approximately 25 trillion red blood cells circulating in your body, and
 Approximately 2.4 million new ones are produced every second.
 
 The sperm cell illustrates another principle: energy supply. The many mitochondria in the midpiece
 Provide the ATP needed for the tail (flagellum) to beat and propel the sperm towards the egg. The
 Acrosome at the tip contains digestive enzymes that break down the outer layers of the egg, allowing
-The sperm to penetrate. Only a few hundred sperm out of millions will reach the egg, and normally
-Only one will fertilise it.
+the sperm to penetrate. Only a few hundred sperm out of millions will reach the egg, and normally
+only one will fertilise it.
 
 The nerve cell (neurone) is adapted for rapid, long-distance communication. Its long axon (which can
-Be up to 1 metre in the sciatic nerve) allows electrical impulses to travel quickly over long
+be up to 1 metre in the sciatic nerve) allows electrical impulses to travel quickly over long
 Distances. The myelin sheath (an insulating layer of fat) further speeds up transmission by allowing
-The impulse to "jump" between gaps in the myelin (nodes of Ranvier). Branched dendrites at the
+the impulse to "jump" between gaps in the myelin (nodes of Ranvier). Branched dendrites at the
 Receiving end connect to many other neurones, allowing complex networks of communication.
 
 The root hair cell is an excellent example of how surface area relates to function. The elongated
 Hair-like projection massively increases the surface area in contact with the soil water, allowing
-More efficient absorption of water and mineral ions. The root hair cell also has many mitochondria
-To supply ATP for the active transport of mineral ions from the soil (where their concentration is
+more efficient absorption of water and mineral ions. The root hair cell also has many mitochondria
+to supply ATP for the active transport of mineral ions from the soil (where their concentration is
 Often very low) into the cell.
 
 The egg cell (ovum) is the largest human cell, with a diameter of approximately 0.1 mm (visible to
-The naked eye). It contains a large cytoplasm with stores of nutrients (lipid droplets and protein
+the naked eye). It contains a large cytoplasm with stores of nutrients (lipid droplets and protein
 Granules) to sustain the early embryo before it implants in the uterus and establishes a blood
 Supply from the mother.
 
@@ -295,7 +295,7 @@ Questions test whether you know that DNA replication occurs during interphase, n
 
 **Why chromosomes must line up at the metaphase plate.** This is a quality control step. If
 Chromosomes did not line up correctly, one daughter cell might receive two copies of a chromosome
-While the other receives none. This would be lethal or cause serious genetic disorders. The cell has
+while the other receives none. This would be lethal or cause serious genetic disorders. The cell has
 Checkpoint mechanisms that delay anaphase until all chromosomes are correctly attached to spindle
 Fibres.
 
@@ -318,7 +318,7 @@ Fibres.
 
 **Stem cells** are unspecialised cells that can differentiate into specialised cell types. They are
 The biological equivalent of blank templates: they carry the complete set of genetic instructions
-But have not yet activated the specific subset of genes that defines a specialised cell.
+but have not yet activated the specific subset of genes that defines a specialised cell.
 
 **How differentiation works.** Every cell in your body contains the same DNA (with minor exceptions
 Such as red blood cells, which have no DNA at all). The difference between a nerve cell and a muscle
@@ -374,7 +374,7 @@ Stem cell can become a limited range of cell types within a particular tissue. A
 ### 2.4 Cancer
 
 Cancer is the result of uncontrolled cell division. It occurs when mutations in genes that control
-The cell cycle (specifically **proto-oncogenes**, which promote cell division, and **tumour
+the cell cycle (specifically **proto-oncogenes**, which promote cell division, and **tumour
 Suppressor genes**, which inhibit it) cause cells to divide repeatedly without stopping, forming a
 **tumour**.
 
@@ -414,7 +414,7 @@ Lower concentration, down the concentration gradient.
 
 **Why diffusion works (the physical intuition).** Particles are in constant random motion due to
 Their kinetic energy. In a region of high concentration, there are more particles moving in any
-Given direction. In a region of low concentration, there are fewer. The net result is that more
+given direction. In a region of low concentration, there are fewer. The net result is that more
 Particles move from high to low concentration than the reverse, until equilibrium is reached (equal
 Concentration on both sides). At equilibrium, particles continue to move, but there is no net
 Movement in either direction.
@@ -443,7 +443,7 @@ Movement in either direction.
 
 **Worked Example.** Oxygen diffuses from the alveoli (high concentration) into the blood (low
 Concentration). Carbon dioxide diffuses from the blood into the alveoli. This simultaneous exchange
-Of gases is efficient because both processes use the same concentration gradient in opposite
+of gases is efficient because both processes use the same concentration gradient in opposite
 Directions: the alveoli have high $\mathrm{O_2$ and low $\mathrm{CO_2$ (because fresh air is
 Continually breathed in), while the blood arriving at the lungs has low $\mathrm{O_2$ and high
 $\mathrm{CO_2$ (because it has just returned from the body tissues where respiration occurred).
@@ -538,7 +538,7 @@ Active transport uses energy to pump ions into the cell against the concentratio
 **Example:** Mineral ions in the soil are absorbed by root hair cells against the concentration
 Gradient. The root hair cells have many mitochondria to supply the ATP needed for active transport.
 This is why root hair cells in low-nutrient soils can still absorb minerals: they are not limited by
-The concentration gradient in the soil.
+the concentration gradient in the soil.
 
 **Another example:** In the small intestine, glucose is absorbed from the gut into the blood. After
 A meal, the concentration of glucose in the gut may be higher than in the blood, so diffusion
@@ -787,7 +787,7 @@ Convert to micrometres: $0.012 \times 1000 = 12 \mathrm{ \mu m$.
 
 A plant cell with a solute potential of $-500 \mathrm{ kPa$ and a pressure potential of
 $200 \mathrm{ kPa$ is placed in a solution with a water potential of $-100 \mathrm{ kPa$. Predict
-The direction of water movement and explain what will happen to the cell.
+the direction of water movement and explain what will happen to the cell.
 
 </details>
 
@@ -840,7 +840,7 @@ Predict the relative rates and explain the shape of the resulting graph.
 The rate is highest at pH 7 (the optimum). At pH 5 and pH 9, the rate is lower because changes in pH
 Alter the ionisation of amino acid side chains in the active site, disrupting the enzyme's shape and
 Reducing substrate binding. The graph is a bell-shaped curve, symmetric if the enzyme tolerates acid
-And alkali equally, peaking at pH 7.
+and alkali equally, peaking at pH 7.
 
 </details>
 
@@ -848,7 +848,7 @@ And alkali equally, peaking at pH 7.
 <summary>Question 5: Cell specialisation</summary>
 
 Explain how a root hair cell is specialised for its function of absorbing water and mineral ions
-From the soil.
+from the soil.
 
 </details>
 
@@ -856,7 +856,7 @@ From the soil.
 <summary>Answer</summary>
 
 Root hair cells have an elongated, finger-like projection that greatly increases the surface area
-For absorption. They have a large number of mitochondria to provide ATP for active transport of
+for absorption. They have a large number of mitochondria to provide ATP for active transport of
 Mineral ions against their concentration gradient. They have thin walls to reduce the diffusion
 Distance for water uptake. Their permanent vacuole contains a high concentration of solutes to
 Maintain a steep water potential gradient for osmosis.

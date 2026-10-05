@@ -46,7 +46,7 @@ graph TD
 ### Copy-on-Write Transaction Model
 
 ZFS never overwrites data in place. Every write creates a new copy of the data block, and only after
-The new block is written and its checksum verified does ZFS update the metadata to point to the new
+the new block is written and its checksum verified does ZFS update the metadata to point to the new
 Block. This has several consequences:
 
 - **Snapshots are instantaneous and free** (initially). A snapshot is a marker in the transaction
@@ -344,7 +344,7 @@ zfs get arcstats 2>/dev/null || cat /proc/spl/kstat/zfs/arcstats
 
 The L2ARC is a secondary read cache stored on a dedicated SSD (or partition of an SSD). When the ARC
 Evicts data, it can write it to the L2ARC before discarding it entirely. On subsequent accesses, if
-The data is not in the ARC but is in the L2ARC, it can be read from the L2ARC rather than from the
+the data is not in the ARC but is in the L2ARC, it can be read from the L2ARC rather than from the
 Slower pool disks.
 
 **L2ARC considerations:**
@@ -414,7 +414,7 @@ zpool status tank
 ### Resilver
 
 A resilver rebuilds the data on a replaced drive. Unlike traditional RAID rebuilds, ZFS resilvers
-Only copy the actual data (not the entire disk), and they prioritize data based on its metadata
+only copy the actual data (not the entire disk), and they prioritize data based on its metadata
 Importance.
 
 ```bash
@@ -446,7 +446,7 @@ Resilver progress and ensure the pool is healthy before and after.
 ### Incremental Replication
 
 ZFS send/receive is the native mechanism for replicating datasets between pools or systems. It works
-At the block level, sending only the changed blocks between two snapshots.
+at the block level, sending only the changed blocks between two snapshots.
 
 ```bash
 # Full replication (initial)
@@ -537,7 +537,7 @@ TB.
 
 Deduplication maintains an in-memory hash table of every unique block. This table requires
 Approximately 320 bytes per unique block. A 10 TB pool with 4 TB of unique data can require 100+ GB
-Of RAM for the dedup table. If the system runs out of RAM and must swap, performance collapses. Only
+of RAM for the dedup table. If the system runs out of RAM and must swap, performance collapses. Only
 Enable dedup if your data is highly redundant (VM templates, ISO images) and you have sufficient
 RAM. In most cases, compression (lz4) provides better space savings with no memory cost.
 
@@ -545,7 +545,7 @@ RAM. In most cases, compression (lz4) provides better space savings with no memo
 
 While ZFS allows mixing drive sizes in a RAIDZ vdev, the pool capacity is determined by the smallest
 Drive in the vdev. A RAIDZ2 vdev with three 12 TB drives and one 4 TB drive will have the capacity
-Of four 4 TB drives. Always use identical drives within a vdev.
+of four 4 TB drives. Always use identical drives within a vdev.
 
 ### Not Setting ashift Correctly
 
@@ -556,9 +556,9 @@ Reducing performance by 50–80%. Always use `ashift=12` or higher.
 ### Ignoring Fragmentation
 
 ZFS pools become fragmented over time due to the copy-on-write nature. Fragmentation above 70–80%
-Can significantly reduce performance, especially for random read workloads. Monitor fragmentation
-With `zpool list -v`. There is no native defragmentation tool for ZFS, the only way to defragment
-Is to copy the data to a new pool. Regular snapshot pruning and avoiding small random writes on HDD
+can significantly reduce performance, especially for random read workloads. Monitor fragmentation
+with `zpool list -v`. There is no native defragmentation tool for ZFS, the only way to defragment
+is to copy the data to a new pool. Regular snapshot pruning and avoiding small random writes on HDD
 Pools help keep fragmentation manageable.
 
 ## ZFS Pool Design Patterns
@@ -699,7 +699,7 @@ The replacement algorithm:
 ### ARC Metadata Limit
 
 Metadata (directory entries, file attributes, indirect blocks) can consume a significant portion of
-The ARC. The `arc_meta_limit` parameter controls the maximum fraction of ARC dedicated to metadata:
+the ARC. The `arc_meta_limit` parameter controls the maximum fraction of ARC dedicated to metadata:
 
 ```bash
 # Default: 1/4 of ARC
@@ -1370,14 +1370,14 @@ you have a specific need for no_root_squash.
 ### NFSv4 ID Mapping
 
 NFSv4 uses string-based user and group names instead of numeric UIDs/GIDs. The server and client
-Must agree on the name-to-ID mapping. On TrueNAS:
+must agree on the name-to-ID mapping. On TrueNAS:
 
 - With local users, `nfs4idmapd` handles the mapping.
 - With Active Directory, the AD domain provides the mapping.
 - With LDAP, the LDAP directory provides the mapping.
 
 If the server and client have different UID/GID mappings for the same username, files will appear to
-Be owned by the wrong user. Ensure the ID mapping configuration is consistent.
+be owned by the wrong user. Ensure the ID mapping configuration is consistent.
 
 ### Kerberos Integration
 
@@ -1439,7 +1439,7 @@ Configure under **Sharing** → **Unix (NFS) Shares** → **Settings**.
 
 For NFS, the default sync behavior depends on the client's mount options. ZFS's copy-on-write
 Ensures data integrity regardless of the NFS sync setting, but async mode can return "success" to
-The client before the data is actually stable on disk.
+the client before the data is actually stable on disk.
 
 ### NFS Client Configuration (Linux)
 
@@ -1732,7 +1732,7 @@ For environments using LDAP (OpenLDAP, 389 Directory Server):
 
 Ensure UIDs and GIDs are consistent across the NAS and all client systems. If the NAS assigns UID
 1001 to user "alice" but a client system assigns UID 1001 to user "bob", permissions will be wrong
-When accessing NFS or SMB shares.
+when accessing NFS or SMB shares.
 
 ---
 
@@ -1844,7 +1844,7 @@ Fails definitively (databases, VM images). Always use "hard" mounts for persiste
 
 The default NFS security flavor is `sys` (AUTH_SYS), which trusts the client to report the correct
 UID/GID. Any user who can connect to the NFS server can claim to be any user, including root. For
-Any network where you do not fully trust all clients, use Kerberos (krb5, krb5i, or krb5p).
+any network where you do not fully trust all clients, use Kerberos (krb5, krb5i, or krb5p).
 
 ### Overlooking Dataset Case Sensitivity
 
@@ -1855,7 +1855,7 @@ Missing. Set the `casesensitivity` dataset property to `insensitive` if sharing 
 ### Not Enabling NFSv4 ID Mapping
 
 Without proper NFSv4 ID mapping (`nfs4idmapd`), the server and client may disagree on the mapping
-Between usernames and UIDs. This results in files appearing to be owned by `nobody` or incorrect
+between usernames and UIDs. This results in files appearing to be owned by `nobody` or incorrect
 Users. Always configure ID mapping when using NFSv4 with named users.
 
 ### Ignoring SMB Signing Requirements
@@ -2143,7 +2143,7 @@ Enforces quotas at the filesystem level regardless of the access protocol.
 
 Accessing the same ZFS dataset simultaneously via NFS and SMB causes locking and caching
 Inconsistencies. NFS uses advisory locks while SMB uses mandatory locks. Files created via NFS may
-Have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
+have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
 
 :::caution
 Replication or rsync pipeline to synchronize content. Alternatively, use SMB exclusively with
@@ -3074,7 +3074,7 @@ echo "Full restoration time: $((END - START)) seconds"
 ### Recovery Point Objective (RPO)
 
 RPO defines the maximum acceptable data loss measured in time. If your RPO is 1 hour, you can afford
-To lose up to 1 hour of data.
+to lose up to 1 hour of data.
 
 ```bash
 # Calculate actual RPO from snapshot schedule
@@ -3790,13 +3790,13 @@ Discovery).
 
 Without resource limits, a single misbehaving app can consume all available CPU and memory,
 Affecting other apps and the TrueNAS host itself. Always set CPU and memory limits appropriate for
-The app's expected usage.
+the app's expected usage.
 
 ### Storing Database Data on HDDs
 
 Databases (MySQL, PostgreSQL, SQLite) perform many small random I/O operations. HDDs handle random
 I/O at 100–200 IOPS, while SSDs handle 50,000–100,000 IOPS. A Nextcloud instance with its database
-On an HDD will feel sluggish. Always store database data on SSD-backed datasets.
+on an HDD will feel sluggish. Always store database data on SSD-backed datasets.
 
 ### Ignoring App Security Updates
 
@@ -3808,7 +3808,7 @@ Apply updates promptly. Use the TrueNAS app catalog's "Available Updates" notifi
 
 App data snapshots protect the data, but configuration (environment variables, network settings,
 Custom configurations) may be stored separately. Export and version-control your app configurations
-So they can be recreated after a disaster.
+so they can be recreated after a disaster.
 
 ## Container Orchestration in TrueNAS SCALE
 
@@ -4894,14 +4894,14 @@ Work with a test email.
 ### Running SMART Tests Only When Problems Occur
 
 SMART tests are predictive, they detect problems before they become failures. Running SMART tests
-Only when you suspect a problem defeats the purpose. Schedule regular short and long tests to catch
+only when you suspect a problem defeats the purpose. Schedule regular short and long tests to catch
 Failures early.
 
 ### Ignoring SMART Warnings
 
 A SMART predictive failure warning means the drive has a high probability of failing. Replace the
 Drive immediately, do not wait for it to fail completely. The longer you wait, the higher the risk
-Of a second drive failing before the resilver completes.
+of a second drive failing before the resilver completes.
 
 ### Not Testing UPS Shutdown
 
@@ -4918,7 +4918,7 @@ Quarterly:
 
 Collecting metrics without understanding what they mean leads to either panic (false alarms) or
 Complacency (missed warnings). Define clear thresholds for each metric, document them, and ensure
-The team understands what each alert means and what action to take.
+the team understands what each alert means and what action to take.
 
 ## TrueNAS Dashboard Deep Dive
 
@@ -4938,7 +4938,7 @@ The TrueNAS dashboard provides real-time metrics for:
 ### Historical Metrics
 
 TrueNAS stores historical metrics using RRDtool (Round Robin Database). Historical data is retained
-For approximately:
+for approximately:
 
 - **1-minute resolution:** 24 hours
 - **5-minute resolution:** 7 days
@@ -5056,7 +5056,7 @@ During a scrub, ZFS reads every block in the pool and verifies its checksum:
 | RAIDZ2 (HDD) | 50–100 MB/s       | High                                             |
 
 During a scrub of an HDD pool, normal I/O performance can degrade by 30–50%. Schedule scrubs during
-Off-peak hours.
+off-peak hours.
 
 ### Scrub Error Analysis
 
@@ -5821,7 +5821,7 @@ Configure under **Sharing** → **Unix (NFS) Shares** → **Settings**.
 
 For NFS, the default sync behavior depends on the client's mount options. ZFS's copy-on-write
 Ensures data integrity regardless of the NFS sync setting, but async mode can return "success" to
-The client before the data is actually stable on disk.
+the client before the data is actually stable on disk.
 
 ---
 
@@ -6033,13 +6033,13 @@ And after all disks in the vdev are replaced, the vdev's capacity expands to mat
 
 Setting the ARC too large (e.g., 90% of RAM) leaves insufficient memory for the OS, applications,
 And the ZFS prefetch cache. This can cause swapping, which is catastrophic for ZFS performance. Keep
-The ARC at 50–70% of physical RAM for dedicated NAS systems.
+the ARC at 50–70% of physical RAM for dedicated NAS systems.
 
 ### Using dedup Without Understanding the Memory Cost
 
 Enabling dedup on a large pool without sufficient RAM (128+ GB) will cause the DDT to overflow to
 Disk, which destroys performance. The system may become unresponsive. If you must use dedup, ensure
-You have enough RAM for the entire DDT in memory.
+you have enough RAM for the entire DDT in memory.
 
 ### Misaligned Partitions or ashift
 
@@ -6391,7 +6391,7 @@ graph TD
 ```
 
 For databases (PostgreSQL, MySQL), mirror vdevs provide significantly higher random IOPS because
-Each mirror pair can serve reads from both drives simultaneously. A pool of 8 drives configured as
+each mirror pair can serve reads from both drives simultaneously. A pool of 8 drives configured as
 4x mirror vdevs delivers approximately 4x the IOPS of the same 8 drives in a single RAIDZ2 vdev.
 
 ### Special Allocation Classes
@@ -7923,13 +7923,13 @@ Aware of ZFS data structures and operates within the DMU (Data Management Unit).
 
 Native ZFS encryption provides the critical advantage of per-dataset key granularity. You can
 Encrypt one dataset with one passphrase and a sibling dataset with a different passphrase, all
-Within the same pool. With dm-crypt, the entire block device is encrypted with a single key, and
-There is no concept of per-directory or per-dataset keys.
+within the same pool. With dm-crypt, the entire block device is encrypted with a single key, and
+there is no concept of per-directory or per-dataset keys.
 
 ### Encryption in the ZFS Write Path
 
 When encryption is enabled on a dataset, the encryption step is inserted between the DMU and the SPA
-In the ZFS write path:
+in the ZFS write path:
 
 ```mermaid
 graph TD
@@ -7983,7 +7983,7 @@ Encryption operates, what keys are used, and where keys are stored.
 Encryption properties can only be set at dataset creation time. They cannot be changed on an
 Existing dataset (with one exception: `keylocation` can be changed after creation). To change the
 Encryption algorithm or key format on an existing dataset, you must create a new dataset and copy
-The data.
+the data.
 
 ```bash
 # Create an encrypted dataset with all properties set
@@ -8037,7 +8037,7 @@ tank/secret/docs  keystatus       available       -
 ```
 
 The child dataset `tank/secret/docs` is encrypted with the same key as its parent. Loading the key
-On the parent (`tank/secret`) automatically makes the child accessible.
+on the parent (`tank/secret`) automatically makes the child accessible.
 
 ### Overriding Inherited Encryption
 
@@ -8256,7 +8256,7 @@ Data remains on disk, encrypted, but cannot be read or written until the key is 
 
 The `zfs change-key` command allows you to change the encryption key for a dataset without
 Re-encrypting the data. The master key wrapping key is re-encrypted with the new key material, but
-The actual data encryption keys are preserved.
+the actual data encryption keys are preserved.
 
 ```bash
 # Change passphrase for an existing encrypted dataset
@@ -8276,7 +8276,7 @@ zfs change-key -o encryption=chacha20-poly1305 tank/secret
 
 :::caution
 All data in the dataset. This is a long-running operation that consumes significant I/O bandwidth
-And CPU. Plan this for off-peak hours. Changing the passphrase or key format does not require
+and CPU. Plan this for off-peak hours. Changing the passphrase or key format does not require
 Re-encryption.
 :::
 
@@ -8468,7 +8468,7 @@ zpool import -l tank
 
 :::note
 Encrypted datasets use passphrase keys, TrueNAS will prompt you for the passphrase during boot. If
-They use key files, TrueNAS will attempt to load them from the specified file locations
+they use key files, TrueNAS will attempt to load them from the specified file locations
 Automatically.
 :::
 
@@ -8580,7 +8580,7 @@ New Instructions) hardware acceleration:
 | ARM crypto   | 3-10%                             | ARMv8 AES instructions      |
 
 Most Intel CPUs since Westmere (2010) and AMD CPUs since Bulldozer (2011) support AES-NI. Check
-With:
+with:
 
 ```bash
 # Check if CPU supports AES-NI
@@ -8673,7 +8673,7 @@ zfs get dedup tank/encrypted
 ### Snapshots and Encryption
 
 Snapshots of encrypted datasets inherit the parent dataset's encryption. The snapshot is encrypted
-With the same key as the live dataset. No separate key management is needed for snapshots.
+with the same key as the live dataset. No separate key management is needed for snapshots.
 
 ```bash
 # Create a snapshot of an encrypted dataset
@@ -8686,7 +8686,7 @@ zfs get encryption,encryptionroot tank/encrypted/docs@daily-2026-04-07
 
 :::note
 Parent dataset. If you load the key for the parent, all snapshots become accessible. If you unload
-The key, all snapshots become inaccessible.
+the key, all snapshots become inaccessible.
 :::
 
 ### Clones and Encryption
@@ -8714,7 +8714,7 @@ This topic is covered in detail in the Send and Receive section below. Key point
 ### Scrub and Resilver with Encryption
 
 Scrubbing reads all data and verifies checksums. For encrypted datasets, the checksum is computed on
-The ciphertext (the encrypted block). This means:
+the ciphertext (the encrypted block). This means:
 
 - Scrub verifies the integrity of the encrypted data, not the plaintext.
 - Scrub does not need the encryption key loaded to verify checksums.
@@ -8735,13 +8735,13 @@ Availability.
 :::
 
 Resilvering after a drive replacement also does not require the encryption key. The data is copied
-At the block level (encrypted ciphertext), and checksums are verified against the stored values.
+at the block level (encrypted ciphertext), and checksums are verified against the stored values.
 
 ### Encryption and Special Vdevs
 
 Special vdevs (metadata and small block allocation) work with encrypted datasets. The metadata
 Stored on the special vdev is encrypted with the dataset's key. When the key is unloaded, metadata
-On the special vdev is also inaccessible.
+on the special vdev is also inaccessible.
 
 ### Encryption and ZFS Properties
 
@@ -8774,7 +8774,7 @@ Some ZFS properties interact with encryption in specific ways:
 
 **Definition.** Raw send (`zfs send -w`) transmits the raw encrypted blocks from the source dataset
 Without decrypting them. The receiving system receives encrypted data that it cannot read without
-The encryption key. This is the only secure way to replicate encrypted datasets to an untrusted
+the encryption key. This is the only secure way to replicate encrypted datasets to an untrusted
 Destination.
 
 ```bash
@@ -8838,7 +8838,7 @@ The destination dataset has the encryption settings from the source but the key 
 ### Cross-Host Transfer with Raw Send
 
 Raw send is ideal for sending encrypted backups to a remote system that should not have access to
-The plaintext:
+the plaintext:
 
 ```bash
 # Send encrypted backup to a remote NAS (remote cannot read the data)
@@ -9030,7 +9030,7 @@ ZFS encryption has two internal key wrapping formats: `crypt` (legacy) and `cryp
 
 The `crypt2` format (available since OpenZFS 2.1 / TrueNAS SCALE 22.02) supports both 128-bit and
 256-bit key lengths and uses HKDF (HMAC-based Key Derivation Function) for key wrapping, which is
-More efficient and secure than PBKDF2 for this purpose. New encrypted datasets on TrueNAS SCALE use
+more efficient and secure than PBKDF2 for this purpose. New encrypted datasets on TrueNAS SCALE use
 `crypt2` by default.
 
 ```bash
@@ -9044,7 +9044,7 @@ zfs get keyformat,encryption tank/encrypted
 ### Forward Secrecy Considerations
 
 ZFS native encryption does not provide forward secrecy. Once a key is loaded, all data encrypted
-With that key (past, present, and future) can be decrypted. If a key is compromised, all data
+with that key (past, present, and future) can be decrypted. If a key is compromised, all data
 Encrypted with that key is compromised.
 
 For forward secrecy, you would need to re-encrypt data with a new key after each access session and
@@ -9137,7 +9137,7 @@ Passwords, and other system state). This is separate from user data encryption:
 
 The system dataset encryption key is automatically managed by TrueNAS and stored in the boot pool.
 This protects system configuration if the data pool drives are stolen, but the boot pool must also
-Be protected.
+be protected.
 
 ### Boot Key Loading
 
@@ -9307,7 +9307,7 @@ zfs create -o encryption=on -o keyformat=raw \
 ### Disabling Compression on Encrypted Datasets
 
 Some administrators disable compression on encrypted datasets, assuming that encrypted data cannot
-Be compressed. This is incorrect for ZFS because compression happens **before** encryption:
+be compressed. This is incorrect for ZFS because compression happens **before** encryption:
 
 ```bash
 # WRONG: Disabling compression on encrypted dataset
@@ -9318,7 +9318,7 @@ zfs set compression=zstd tank/encrypted/docs
 ```
 
 The data flow is: Plaintext → Compress → Encrypt → Write. Compression operates on the plaintext, so
-It works normally on encrypted datasets. Only disable compression if the plaintext data is already
+it works normally on encrypted datasets. Only disable compression if the plaintext data is already
 Incompressible (encrypted files, compressed archives, media files).
 
 ### Not Testing Key Recovery
@@ -9705,7 +9705,7 @@ For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload:
 
 Avoid high-TDP desktop CPUs unless you are comfortable with power consumption and thermals. ECC
 Support is a nice-to-have but not required for ZFS; uncorrectable errors from non-ECC RAM are rare
-In homelab workloads.
+in homelab workloads.
 
 ### RAM
 
@@ -9717,7 +9717,7 @@ Point, but in practice:
 - **Sweet spot**: 64 GB DDR4 ECC UDIMMs (two 32 GB sticks) on a Supermicro or ASRock Rack board
 
 Do not run ZFS with less than 8 GB. The ARC (Adaptive Replacement Cache) will starve and performance
-Will tank. ECC RAM is recommended but not mandatory, ZFS has its own checksumming at the block
+will tank. ECC RAM is recommended but not mandatory, ZFS has its own checksumming at the block
 Level.
 
 ### Storage Drives
@@ -10111,7 +10111,7 @@ Never skip scrubs. A monthly scrub schedule is the minimum for data integrity as
 
 ZFS identifies drives by GUID, not by /dev/sdX names. This means drive reordering does not affect
 Pool import. However, if you are using a USB enclosure, drives may enumerate differently. Always use
-The TrueNAS web UI for pool management, never manually import with `zpool import` unless you know
+the TrueNAS web UI for pool management, never manually import with `zpool import` unless you know
 Exactly what you are doing.
 
 </details>
@@ -10738,7 +10738,7 @@ labels:
 ```
 
 This redirects unauthenticated users to an Authelia login page. After login, users are authenticated
-Across all services without re-entering credentials.
+across all services without re-entering credentials.
 
 ### Rate Limiting
 
@@ -10905,7 +10905,7 @@ Compose, or ensure the Docker socket path is correct for the SCALE Kubernetes-ba
 
 Let's Encrypt enforces strict rate limits: 50 certificates per registered domain per week, 5
 Duplicate certificates per week. If you are experimenting and restarting containers frequently, you
-Can hit this limit. Use the Let's Encrypt staging environment during development:
+can hit this limit. Use the Let's Encrypt staging environment during development:
 
 ```yaml
 command:

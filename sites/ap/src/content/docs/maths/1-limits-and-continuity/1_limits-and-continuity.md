@@ -23,7 +23,7 @@ categories:
 ## Intuitive Notion of a Limit (CED Unit 1)
 
 The limit of a function $f(x)$ as $x$ approaches $a$ is the value that $f(x)$ approaches, regardless
-Of whether $f(a)$ is defined:
+of whether $f(a)$ is defined:
 
 $$
 \lim_{x \to a} f(x) = L
@@ -185,7 +185,7 @@ $\delta \gt 0$ such that $|x - a| \lt \delta$ implies $|(f+g)(x) - (L+M)| \lt \e
 Note that $|(f+g)(x) - (L+M)| = |(f(x) - L) + (g(x) - M)| \le |f(x) - L| + |g(x) - M|$.
 
 Choose $\delta_1$ so that $|x-a| \lt \delta_1$ implies $|f(x)-L| \lt \epsilon/2$. Choose $\delta_2$
-So that $|x-a| \lt \delta_2$ implies $|g(x)-M| \lt \epsilon/2$. Let
+so that $|x-a| \lt \delta_2$ implies $|g(x)-M| \lt \epsilon/2$. Let
 $\delta = \min(\delta_1, \delta_2)$. Then $|x-a| \lt \delta$ implies both bounds hold, so
 $|(f+g)(x) - (L+M)| \lt \epsilon/2 + \epsilon/2 = \epsilon$. $\blacksquare$
 

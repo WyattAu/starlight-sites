@@ -18,7 +18,7 @@ description: "PostgreSQL Advanced notes covering key definitions, core concepts,
 ## Extensions Ecosystem
 
 Extensions add functionality to PostgreSQL through a well-defined API. They run in the same process
-As the server and have access to the same data, making them powerful but also a trust boundary.
+as the server and have access to the same data, making them powerful but also a trust boundary.
 
 ### Installing Extensions
 
@@ -472,7 +472,7 @@ RESET ROLE;
 ### RLS Performance
 
 RLS policies are applied as security barrier quals, meaning the planner cannot push predicates
-Through them. This can lead to suboptimal plans. Use `LEAKPROOF` functions in RLS policies and
+through them. This can lead to suboptimal plans. Use `LEAKPROOF` functions in RLS policies and
 Ensure the policy is selective.
 
 ## Auditing with pgAudit
@@ -755,7 +755,7 @@ Correctly.
 ### Backup Testing
 
 A backup that has not been tested is not a backup. Regularly restore backups to a test environment
-And run data integrity checks. Verify that PITR works to the expected recovery point.
+and run data integrity checks. Verify that PITR works to the expected recovery point.
 
 ## Background Workers and pg_cron
 
@@ -997,7 +997,7 @@ ALTER TABLE orders ATTACH PARTITION orders_2023
 ### Default Partition Management
 
 The default partition catches rows that do not match any defined partition. Periodically check it
-For data that should be in a new partition:
+for data that should be in a new partition:
 
 ```sql
 SELECT COUNT(*) FROM orders_default;

@@ -252,7 +252,7 @@ reflect.ValueOf(&p).Elem().FieldByName("Name").SetString("Alice")
 ```
 
 If performance is critical, avoid reflection. Consider code generation (text/template) or generics
-As alternatives.
+as alternatives.
 
 ## Common Pitfalls
 

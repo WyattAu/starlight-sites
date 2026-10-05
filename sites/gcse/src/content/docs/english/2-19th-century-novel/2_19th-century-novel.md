@@ -30,19 +30,19 @@ WJEC/Eduqas Paper 2 Section A
 The nineteenth century is the great age of the English novel. Between the publication of Jane
 Austen's _Pride and Prejudice_ (1813) and the death of Thomas Hardy (1928), the novel emerged as the
 Dominant literary form in Britain, displacing poetry from the central position it had occupied since
-The Renaissance. This was a period of extraordinary formal experimentation and thematic ambition:
+the Renaissance. This was a period of extraordinary formal experimentation and thematic ambition:
 The novel expanded from the comic realism of Austen to encompass social protest, psychological
 Depth, Gothic horror, and imperial adventure.
 
 For GCSE purposes, the "19th-century novel" encompasses fiction published between approximately 1800
-And 1914, though the specific texts set by each board cluster in the mid-to-late Victorian period
+and 1914, though the specific texts set by each board cluster in the mid-to-late Victorian period
 (1837--1901). The genre is unified not by a single formal characteristic but by its engagement with
-The social, political, and intellectual upheavals of the age.
+the social, political, and intellectual upheavals of the age.
 
 ### 1.1 Realism and Its Discontents
 
 The dominant mode of the Victorian novel is **realism**: the attempt to represent the world as it
-Is, with fidelity to the details of ordinary life. Realist novelists -- Dickens, Eliot, Gaskell,
+is, with fidelity to the details of ordinary life. Realist novelists -- Dickens, Eliot, Gaskell,
 Bronte -- create densely imagined social worlds populated by characters whose motivations are
 Psychologically plausible and whose circumstances reflect the conditions of contemporary society.
 
@@ -51,7 +51,7 @@ Gothic horror, romance, allegory, and symbolism. Stevenson's _Strange Case of Dr
 (1886) is a realist novella that draws on Gothic conventions. Dickens's _A Christmas Carol_ (1843)
 Is a realist social critique structured as a supernatural allegory. Shelley's _Frankenstein_ (1818)
 Combines realist epistolary narrative with Gothic and Romantic elements. The tension between realism
-And other modes is one of the defining features of 19th-century fiction.
+and other modes is one of the defining features of 19th-century fiction.
 
 ### 1.2 Romanticism vs Realism
 
@@ -63,7 +63,7 @@ Dehumanising effects.
 
 By the mid-nineteenth century, realism had become the dominant mode. The realist novel focused on
 Social institutions -- marriage, the family, the class system, the law -- and on the ordinary lives
-Of people within those institutions. The transition from Romanticism to realism is not a clean
+of people within those institutions. The transition from Romanticism to realism is not a clean
 Break; most 19th-century novels contain elements of both.
 
 | Feature       | Romanticism                                 | Realism                                   |
@@ -86,10 +86,10 @@ Concentration of wealth in the hands of industrial capitalists, and the creation
 Conditions that were, by any standard, appalling.
 
 The industrial cities -- Manchester, Birmingham, Leeds, Sheffield -- grew at a rate that outstripped
-The development of housing, sanitation, and public health infrastructure. Overcrowding, disease,
+the development of housing, sanitation, and public health infrastructure. Overcrowding, disease,
 Pollution, and poverty were endemic. Dickens's fiction is saturated with images of urban squalor:
 The fog-choked streets of London, the Coketown of _Hard Times_ (1854), the filth and desperation of
-The workhouse in _Oliver Twist_ (1837--39).
+the workhouse in _Oliver Twist_ (1837--39).
 
 ### 2.2 Social Class
 
@@ -105,14 +105,14 @@ The Victorian class system was rigidly stratified and acutely felt. The major di
 Class mobility was possible but difficult. Education was the primary vehicle, and the expansion of
 State-funded schooling from the 1870 Education Act onward was a direct response to the demand for
 Social mobility. Dickens's _Great Expectations_ (1860--61) is the archetypal novel of class ambition
-And its moral costs.
+and its moral costs.
 
 ### 2.3 Poverty and Social Responsibility
 
 The Poor Law Amendment Act of 1834 established workhouses as the primary means of relieving poverty.
 The workhouse system was designed to be so unpleasant that only the truly desperate would enter it.
 Conditions were deliberately harsh: families were separated, inmates were fed meagre rations, and
-The regime was punitive. Dickens's portrayal of the workhouse in _Oliver Twist_ contributed to
+the regime was punitive. Dickens's portrayal of the workhouse in _Oliver Twist_ contributed to
 Public outrage and eventual reform.
 
 The tension between individualism and social responsibility is a central preoccupation of the
@@ -125,7 +125,7 @@ Victorian legacy of class inequality.
 ### 2.4 Education
 
 Before the 1870 Education Act, schooling in Britain was patchy, inconsistent, and largely dependent
-On charitable provision. The Act established school boards with the power to build and maintain
+on charitable provision. The Act established school boards with the power to build and maintain
 Elementary schools, funded by local rates. Universal compulsory education was introduced in 1880.
 The expansion of literacy was one of the most significant social changes of the century, and it had
 Direct consequences for the novel: as the reading public grew, so did the market for fiction, and
@@ -135,11 +135,11 @@ Novelists began to write for a broader audience.
 
 The British Empire reached its territorial zenith in the late nineteenth century. Imperial expansion
 Brought wealth, trade routes, and raw materials to Britain, but it also raised urgent questions
-About power, race, and exploitation. The empire appears in 19th-century fiction both as a source of
+about power, race, and exploitation. The empire appears in 19th-century fiction both as a source of
 Exotic setting and adventure (Stevenson's _Treasure Island_, 1883) and as a site of moral anxiety
 (Conrad's _Heart of Darkness_, 1899). Conan Doyle's _The Sign of Four_ (1890), set on the OCR
 Specification, opens with the aftermath of the Indian Mutiny of 1857, embedding the novel's mystery
-Within the context of colonial violence and exploitation.
+within the context of colonial violence and exploitation.
 
 ### 2.6 Science, Religion, and Doubt
 
@@ -229,7 +229,7 @@ Consequences of wealth; self-deception and self-knowledge; crime and punishment.
 The second Sherlock Holmes novel. Mary Morstan approaches Holmes with a mystery: her father
 Disappeared ten years ago, and she now receives a pearl annually from an unknown benefactor.
 Holmes's investigation uncovers a story of colonial betrayal, stolen treasure, and murder rooted in
-The Indian Mutiny of 1857.
+the Indian Mutiny of 1857.
 
 **Key themes:** Empire and colonialism; justice and revenge; reason versus emotion; the drug-like
 Nature of obsession; the relationship between Holmes and Watson; racial stereotyping and its
@@ -238,13 +238,13 @@ Critique.
 **Silas Marner** by George Eliot (1861)
 
 The story of Silas Marner, a weaver who is falsely accused of theft in his rural community and flees
-To the isolated village of Raveloe. There, he becomes a miser, hoarding gold until it is stolen and
+to the isolated village of Raveloe. There, he becomes a miser, hoarding gold until it is stolen and
 Replaced by the golden-haired child Eppie, who restores him to human connection and community. The
 Novel is a study of alienation and redemption, individualism and community, materialism and love.
 
 **Key themes:** Isolation and community; materialism and human connection; the redemptive power of
 Love; the contrast between rural and industrial life; faith and its loss and recovery; social class
-And the rural poor.
+and the rural poor.
 
 ### 3.4 WJEC/Eduqas
 
@@ -253,7 +253,7 @@ And the rural poor.
 A musical play (studied as a drama text) telling the story of twin brothers, Mickey and Eddie,
 Separated at birth and raised in different social classes. Their lives intersect and ultimately
 Collide, with fatal consequences. Though set in the mid-to-late twentieth century, the play engages
-With themes of class inequality that have their roots in the 19th-century social structures
+with themes of class inequality that have their roots in the 19th-century social structures
 Described above.
 
 **Key themes:** Class inequality; nature versus nurture; superstition and fate; friendship and
@@ -332,7 +332,7 @@ This irony exposes Birling's foolishness and underscores Priestley's political m
 ### 4.5 Pathetic Fallacy
 
 The pathetic fallacy is the attribution of human emotions to natural phenomena -- when the weather
-Or landscape reflects the mood of a scene or character. The term was coined by John Ruskin in
+or landscape reflects the mood of a scene or character. The term was coined by John Ruskin in
 _Modern Painters_ (1856). In _Frankenstein_, the Arctic landscape that frames the narrative reflects
 Victor's desolation and the Creature's isolation. In _Jekyll and Hyde_, the fog that pervades London
 Mirrors the moral obscurity of the narrative.
@@ -342,7 +342,7 @@ Mirrors the moral obscurity of the narrative.
 Stream of consciousness is a narrative technique that attempts to represent the continuous flow of a
 Character's thoughts, perceptions, and associations. It is more characteristic of 20th-century
 Modernism (Woolf, Joyce) than of Victorian fiction, but the technique has 19th-century precursors in
-The interior monologues of Eliot and the psychological depth of the Brontes. Jane Eyre's
+the interior monologues of Eliot and the psychological depth of the Brontes. Jane Eyre's
 First-person narration frequently approaches stream of consciousness in its intensity and immediacy.
 
 ## 5. Characterisation Methods
@@ -357,8 +357,8 @@ Scrooge is like.
 **Indirect characterisation** occurs when a character's traits are revealed through their actions,
 Speech, thoughts, appearance, and the responses of others. The reader must infer the character's
 Qualities from the evidence provided. When Scrooge says "If they would rather die, they had better
-Do it, and decrease the surplus population," the reader infers his callousness from his words
-Without being directly told.
+do it, and decrease the surplus population," the reader infers his callousness from his words
+without being directly told.
 
 The most effective characterisation in 19th-century fiction combines both methods. The strongest
 GCSE responses will identify and analyse both.
@@ -367,8 +367,8 @@ GCSE responses will identify and analyse both.
 
 The distinction between flat and round characters was articulated by E.M. Forster in _Aspects of the
 Novel_ (1927). **Flat characters** are defined by a single trait or idea; they are two-dimensional
-And do not develop. **Round characters** are complex, multi-dimensional, and capable of surprising
-The reader in convincing ways.
+and do not develop. **Round characters** are complex, multi-dimensional, and capable of surprising
+the reader in convincing ways.
 
 In _A Christmas Carol_, the Ghost of Christmas Yet to Come is a flat character: it is defined
 Entirely by its function as a silent, terrifying agent of prophecy. Scrooge, by contrast, is a round
@@ -400,7 +400,7 @@ Theme, and often a force that shapes character and plot.
 The weather in a 19th-century novel is rarely neutral. Storms, fog, darkness, and extreme cold are
 Deployed to create atmosphere, to reflect character states, and to signal thematic concerns. In
 _Frankenstein_, the storm that accompanies Victor's creation of the Creature reflects the disruption
-Of the natural order. In _Jekyll and Hyde_, the fog of London is both a literal description of the
+of the natural order. In _Jekyll and Hyde_, the fog of London is both a literal description of the
 City's pollution and a metaphor for moral obscurity.
 
 ### 6.2 Landscape
@@ -433,11 +433,11 @@ Manifestation of her psychological stagnation.
 ### 7.1 Class
 
 Class is arguably the dominant thematic concern of the 19th-century novel. The rigid stratification
-Of Victorian society and the growing awareness of its injustices produced fiction that is deeply
+of Victorian society and the growing awareness of its injustices produced fiction that is deeply
 Engaged with questions of social mobility, economic inequality, and the relationship between wealth
-And moral worth. _Great Expectations_ explores class through Pip's aspiration to gentility and his
+and moral worth. _Great Expectations_ explores class through Pip's aspiration to gentility and his
 Gradual recognition that social status does not confer moral superiority. _An Inspector Calls_ uses
-The Birling family to expose the callousness of the Edwardian upper middle class.
+the Birling family to expose the callousness of the Edwardian upper middle class.
 
 ### 7.2 Power
 
@@ -460,14 +460,14 @@ Fiction.
 
 The question of social responsibility -- what we owe to others, particularly to those less fortunate
 -- is central to several set texts. Priestley's _An Inspector Calls_ is essentially a dramatic essay
-On collective responsibility. Dickens's _A Christmas Carol_ argues that the wealthy have a moral
+on collective responsibility. Dickens's _A Christmas Carol_ argues that the wealthy have a moral
 Obligation to the poor. Shelley's _Frankenstein_ raises the question of the creator's responsibility
-For the created.
+for the created.
 
 ### 7.5 Isolation
 
 Isolation -- physical, emotional, social, or moral -- is a recurring theme. Frankenstein's Creature
-Is isolated by his appearance and his lack of social connection. Silas Marner is isolated by
+is isolated by his appearance and his lack of social connection. Silas Marner is isolated by
 Betrayal and loss. Jekyll is isolated by his secret. These characters' isolation drives the plot and
 Shapes the reader's sympathies.
 
@@ -542,11 +542,11 @@ Step-by-step approach is designed for this task.
 
 **Step 1: Read the extract twice.** On the first reading, focus on comprehension: what is happening,
 Who is involved, where and when does the scene take place? On the second reading, focus on language
-And style: what techniques does the writer use, and what effects do they create?
+and style: what techniques does the writer use, and what effects do they create?
 
 **Step 2: Identify the genre and register.** Is this a Gothic description? A realist social
 Observation? A romantic interior monologue? The genre will shape the reader's expectations and guide
-The analysis.
+the analysis.
 
 **Step 3: Analyse the language.** Identify specific word choices (diction), sentence structures
 (syntax), figurative language (metaphor, simile, personification), and sound devices (alliteration,

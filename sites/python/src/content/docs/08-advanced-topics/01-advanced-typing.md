@@ -23,15 +23,15 @@ categories:
 
 Python is dynamically typed: a single function object can be called with any combination of
 Arguments. But type checkers need to know what types are acceptable and what the return type is for
-Each valid combination. `typing.overload` solves this by letting you declare multiple signatures for
-The same callable, followed by a single implementation that carries the actual runtime logic.
+each valid combination. `typing.overload` solves this by letting you declare multiple signatures for
+the same callable, followed by a single implementation that carries the actual runtime logic.
 
 ### Mechanism
 
 The `@overload` decorator does **nothing at runtime**. It is a no-op that returns the decorated
 Function unchanged. Its sole purpose is to signal to static type checkers (mypy, pyright,
 Pyright-based editors) that the decorated function has multiple type signatures. At runtime, only
-The implementation function exists; the overload definitions are effectively erased.
+the implementation function exists; the overload definitions are effectively erased.
 
 The pattern is always: one or more `@overload`-decorated stubs (with no body, using `...`), then a
 Single implementation:
@@ -59,7 +59,7 @@ def process(data):
 Each overload stub must be consistent in the sense that a type checker can determine which overload
 Applies at each call site. The implementation signature is not checked against the overloads -- the
 Implementation can have a broad signature like `def process(data: Any) -> Any:` and type checkers
-Will not complain, because they understand that the implementation is the fallback.
+will not complain, because they understand that the implementation is the fallback.
 
 ### Overloads with `@staticmethod` and `@classmethod`
 
@@ -87,9 +87,9 @@ class Parser:
 ```
 
 The reason for this ordering: `@staticmethod` and `@classmethod` are descriptor-based decorators
-That transform the function object into a different kind of descriptor. If you put `@overload` on
+that transform the function object into a different kind of descriptor. If you put `@overload` on
 Top, it would try to decorate the result of `@staticmethod` (a `staticmethod` descriptor), which is
-Not a function and would confuse the type checker"s overload tracking. The type checker needs to see
+not a function and would confuse the type checker"s overload tracking. The type checker needs to see
 `@overload` applied to a plain function so it can extract the signature.
 
 ### Limitations
@@ -328,7 +328,7 @@ The type checker will not catch it -- you need runtime validation for that.
 ## TypeVarTuple (PEP 646)
 
 `TypeVarTuple` introduces variadic generics to Python's type system. It allows you to define types
-That operate over a variable number of type parameters, analogous to how `*args` captures a variable
+that operate over a variable number of type parameters, analogous to how `*args` captures a variable
 Number of positional arguments at runtime.
 
 ### Motivation
@@ -499,7 +499,7 @@ else:
 ```
 
 The critical asymmetry: `TypeGuard` allows widening in the `True` branch. That is, the narrowed type
-Does not have to be a subtype of the input type. For example, a function that checks whether a
+does not have to be a subtype of the input type. For example, a function that checks whether a
 String is actually a valid JSON document could return `TypeGuard[dict[str, object]]` even though the
 Input type is `str`. This makes `TypeGuard` flexible but also potentially unsound -- the type
 Checker trusts your assertion without verification.
@@ -532,7 +532,7 @@ When to use which:
 | Soundness                 | Trusts you  | Checked  |
 
 Use `TypeIs` by default when the narrowed type is a subtype of the input. Use `TypeGuard` only when
-You need to widen (e.g., parsing a string into a structured type).
+you need to widen (e.g., parsing a string into a structured type).
 
 ### `@overload` Pattern with TypeGuard
 
@@ -610,7 +610,7 @@ class Builder:
 ```
 
 This works but is verbose, error-prone (you must remember to use the `TypeVar` consistently), and
-Does not work correctly for `__init_subclass__` or class methods in all type checkers. `Self` is
+does not work correctly for `__init_subclass__` or class methods in all type checkers. `Self` is
 Strictly superior.
 
 ## Final and ClassVar
@@ -654,7 +654,7 @@ API_VERSION: Final = "v1"
 ```
 
 At the module level, `Final` tells the type checker that the name is a constant. Any reassignment
-Will be flagged as a type error.
+will be flagged as a type error.
 
 At the class level, `Final` prevents subclasses from overriding the attribute:
 
@@ -693,7 +693,7 @@ Linked lists, JSON-like nested data, and any data structure with arbitrary depth
 ### Forward References
 
 Before Python 3.11, you needed string quotes for forward references when a type refers to a class
-That has not been defined yet:
+that has not been defined yet:
 
 ```python
 from typing import Optional
@@ -744,7 +744,7 @@ def process(data: JSONValue) -> None:
 ```
 
 The type checker resolves the forward reference `"JSONValue"` by looking it up after the full module
-Has been processed. This works because type checkers perform multiple passes over the source.
+has been processed. This works because type checkers perform multiple passes over the source.
 
 ### Tree Types
 
@@ -765,7 +765,7 @@ class Tree(Generic[T]):
 ## Type Narrowing
 
 Type narrowing is the process by which a type checker reduces (narrows) the type of a variable based
-On control flow. Understanding exactly what triggers narrowing is essential for writing type-checked
+on control flow. Understanding exactly what triggers narrowing is essential for writing type-checked
 Code that compiles cleanly.
 
 ### Mechanisms
@@ -799,7 +799,7 @@ def process(value: str | None) -> str:
 
 Note: use `is None` / `is not None`Not `== None`. Some type checkers do not narrow on `== None`
 Because `__eq__` can be overridden to return arbitrary results. `is None` checks identity and cannot
-Be overridden.
+be overridden.
 
 **Truthiness narrowing:**
 
@@ -824,7 +824,7 @@ def process(items: list[int]) -> int:
 ```
 
 Some type checkers narrow `list[int]` to `list[int]` (no useful narrowing) while others narrow to a
-Non-empty list type. Check your type checker's documentation for specifics.
+non-empty list type. Check your type checker's documentation for specifics.
 
 **`assert`:**
 
@@ -865,7 +865,7 @@ def process(data: dict[str, object]) -> int:
 If `data["id"]` is actually a string at runtime, `cast` will not raise an error. The program will
 Proceed with whatever value is there, potentially causing a downstream failure. `cast` is a tool for
 Last-resort cases where you know the type better than the type checker (e.g., after a runtime check
-That the type checker cannot understand, or when interfacing with untyped code).
+that the type checker cannot understand, or when interfacing with untyped code).
 
 Prefer `isinstance` checks over `cast` wherever possible. `cast` should be a controlled escape
 Hatch, not a default pattern.
@@ -894,7 +894,7 @@ class Box(Generic[T]):
 ```
 
 At runtime, `Box[int]` and `Box[str]` are the same class (`Box`). The type parameter exists only in
-The type system. This is called **type erasure**, and it is the same model used by Java's generics.
+the type system. This is called **type erasure**, and it is the same model used by Java's generics.
 
 ### Multiple Type Parameters
 
@@ -1005,7 +1005,7 @@ Checker preserves the relationship.
 
 A `.pyi` file is a type stub file. It contains **only** type annotations and no executable code.
 Type checkers use `.pyi` files as the source of type information for a module, preferentially over
-The corresponding `.py` file.
+the corresponding `.py` file.
 
 ```python
 # my_module.pyi
@@ -1059,7 +1059,7 @@ Comes from `typeshed/stdlib/json.pyi`.
 
 Stubs frequently use `@overload` to document the multiple signatures of functions that accept
 Different argument types. This is especially common for built-in functions and stdlib functions that
-Have evolved over many Python versions:
+have evolved over many Python versions:
 
 ```python
 # typeshed/stdlib/builtins.pyi (simplified)

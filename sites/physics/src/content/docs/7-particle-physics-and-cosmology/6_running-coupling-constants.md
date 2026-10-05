@@ -74,7 +74,7 @@ The negative sign (for $n_f \lt 33/2$) means the strong coupling **decreases** w
 
 **Interpretation.** The gluon self-interaction (the $C_A$ term) dominates over fermion screening
 (the $n_f$ term) for the physically relevant number of flavours. Gluons carry colour charge and
-Therefore antiscreen, leading to the coupling decreasing at short distances.
+therefore antiscreen, leading to the coupling decreasing at short distances.
 
 ### 6.3 Grand Unification and the Unification Scale
 

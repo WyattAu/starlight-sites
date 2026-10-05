@@ -19,7 +19,7 @@ description: "Overlaps with the homogeneous solution. For Guessing fails Because
 
 :::caution
 Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 
 :::caution
@@ -48,7 +48,7 @@ $y' = x^2 + y^2$ have no closed-form solution in terms of elementary functions. 
 
 :::caution
 Valid for hyperbolic critical points (no eigenvalues on the imaginary axis). If eigenvalues lie on
-The imaginary axis, the nonlinear system can behave very differently from its linearization.
+the imaginary axis, the nonlinear system can behave very differently from its linearization.
 :::
 
 :::caution

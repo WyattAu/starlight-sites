@@ -128,7 +128,7 @@ endif()
 Link Time Optimization (also known as IPO - Interprocedural Optimization) allows the compiler to
 Perform optimizations across translation unit boundaries. Instead of generating machine code in the
 `.o` files, the compiler generates intermediate bitcode (IR). The linker then merges all IR and runs
-The optimizer on the entire program at once.
+the optimizer on the entire program at once.
 
 ### Benefits
 
@@ -260,11 +260,11 @@ The linker maintains a global symbol table with three categories:
 3. **Common symbols:** Tentative definitions (e.g., `int x;` at file scope without `extern` or an
    initializer). The linker allocates space for the largest definition and merges them.
 The resolution algorithm processes object files in the order they appear on the command line. When
-The linker encounters an object file, it adds all defined symbols to its table and records all
+the linker encounters an object file, it adds all defined symbols to its table and records all
 Undefined symbols. If a subsequent object file or library provides a definition for a
 Previously-undefined symbol, the reference is patched.
 This ordering dependency is the root cause of the classic "undefined reference" error when linking
-Against static libraries. If library `A` depends on library `B, A` must appear before `B` on the
+against static libraries. If library `A` depends on library `B, A` must appear before `B` on the
 Command line.
 
 ```cmake
@@ -399,11 +399,11 @@ According to the linker script. The merging algorithm is deterministic:
 Functions in the `.text` section of the final binary.
 **Proof:** Consider two object files, `a.o` and `b.o`Each containing a `.text` section. The linker
 Script contains `.text : { *(.text*) }`. The `*(.text*)` pattern matches all `.text` sections from
-All input files. The linker iterates over input files in command-line order. For each file, it
+all input files. The linker iterates over input files in command-line order. For each file, it
 Appends the matched sections to the output `.text` section. Therefore, `a.o`'s `.text` precedes
 `b.o`'s `.text` in the output if and only if `a.o` precedes `b.o` on the command line.
 $\blacksquare$
-This ordering matters for cache locality: placing frequently-called functions adjacent to each other
+this ordering matters for cache locality: placing frequently-called functions adjacent to each other
 Improves instruction cache hit rates.
 
 ### Custom Section Markers
@@ -511,10 +511,10 @@ void new_printf(const char* s) \{ puts("[modern]"); puts(s); \}
 ```
 
 The `@@` (double at-sign) denotes the default version. The `@` (single at-sign) denotes a
-Non-default version. Binaries compiled against older glibc versions will resolve to the
+non-default version. Binaries compiled against older glibc versions will resolve to the
 `@GLIBC_2.2.5` version, while newer binaries resolve to `@@GLIBC_2.17`.
 Symbol versioning is the mechanism that allows `libstdc++.so.6` to maintain backward compatibility
-Across GCC releases. The `.so` version number never changes (it stays at `.6`), but individual
+across GCC releases. The `.so` version number never changes (it stays at `.6`), but individual
 Symbols within the library are versioned:
 
 ```bash
@@ -591,7 +591,7 @@ Two or more translation units define the same symbol with external linkage. Comm
 ### "relocation truncated to fit"
 
 A relocation requires more bits than the instruction encoding provides. Common on 32-bit x86 when
-The code model is `small` (default) but the binary exceeds 2GB.
+the code model is `small` (default) but the binary exceeds 2GB.
 
 ```bash
 ## Use the large code model if you have enormous binaries
@@ -636,7 +636,7 @@ clang++ -mcmodel=large ...
 ### Memory Region Definitions
 
 Linker scripts can define memory regions with specific attributes. This is used in embedded systems
-Where different memory types (flash, RAM, registers) have different access permissions:
+where different memory types (flash, RAM, registers) have different access permissions:
 
 ```ld
 MEMORY

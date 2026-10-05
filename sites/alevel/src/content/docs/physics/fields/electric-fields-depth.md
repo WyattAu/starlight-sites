@@ -322,14 +322,14 @@ $$
 $$
 
 Where $r$ is the perpendicular distance from the line. Note: the field falls off as $1/r$ Not $1/r^2$
-Because a line charge is an extended source in one dimension.
+because a line charge is an extended source in one dimension.
 
 ## 8. Potential Gradient and the Millikan Experiment
 
 ### Millikan's Oil Drop Experiment
 
 Millikan (1909--1913) measured the elementary charge $e$ by observing electrically charged oil drops
-In a uniform electric field.
+in a uniform electric field.
 
 **Method:** An oil drop of mass $m$ carries charge $q$. In a uniform upward field $E$ The drop is
 Suspended when the electric force balances gravity:
@@ -403,7 +403,7 @@ N C$^{-1}$.
 <details>
 <summary>Problem 3</summary>
 Two parallel plates are separated by 2.0 cm with p.d. 500 V. Calculate the field strength and the force
-On a proton between the plates.
+on a proton between the plates.
 
 **Answer.** $E = V/d = 500/0.020 = 2.5 \times 10^4$ V m$^{-1}$.
 $F = qE = 1.60 \times 10^{-19} \times 2.5 \times 10^4 = 4.0 \times 10^{-15}$ N.

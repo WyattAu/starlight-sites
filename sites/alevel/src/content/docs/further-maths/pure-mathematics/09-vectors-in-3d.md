@@ -255,7 +255,7 @@ $\mathbf{r}_2 = \mathbf{a}_2 + \mu\mathbf{d}_2$:
 
 **Example.** Find the intersection of
 $\mathbf{r}_1 = \begin{pmatrix}1\\2\\0\end{pmatrix} + \lambda\begin{pmatrix}1\\-1\\2\end{pmatrix}$
-And $\mathbf{r}_2 = \begin{pmatrix}3\\1\\4\end{pmatrix} + \mu\begin{pmatrix}2\\1\\-1\end{pmatrix}$.
+and $\mathbf{r}_2 = \begin{pmatrix}3\\1\\4\end{pmatrix} + \mu\begin{pmatrix}2\\1\\-1\end{pmatrix}$.
 
 Equating: $1+\lambda = 3+2\mu$$2-\lambda = 1+\mu$$2\lambda = 4-\mu$.
 
@@ -453,7 +453,7 @@ $$
 
 **Intuition.** The shortest distance is measured along the common perpendicular. The direction of
 The common perpendicular is $\mathbf{d}_1 \times \mathbf{d}_2$. The formula projects the vector
-Between any point on each line onto this perpendicular direction.
+between any point on each line onto this perpendicular direction.
 
 <hr />
 
@@ -547,7 +547,7 @@ $\boxed{D = 1}$.
 
 Find the shortest distance between the skew lines
 $\mathbf{r}_1 = \begin{pmatrix}0\\1\\-1\end{pmatrix} + \lambda\begin{pmatrix}1\\0\\2\end{pmatrix}$
-And $\mathbf{r}_2 = \begin{pmatrix}1\\0\\2\end{pmatrix} + \mu\begin{pmatrix}0\\1\\-1\end{pmatrix}$.
+and $\mathbf{r}_2 = \begin{pmatrix}1\\0\\2\end{pmatrix} + \mu\begin{pmatrix}0\\1\\-1\end{pmatrix}$.
 
 </details>
 
@@ -683,7 +683,7 @@ Section 6.6.
 
 Find the acute angle between the line
 $\mathbf{r} = \begin{pmatrix}1\\-1\\2\end{pmatrix} + \lambda\begin{pmatrix}3\\1\\-1\end{pmatrix}$
-And the plane $2x - y + 2z = 5$.
+and the plane $2x - y + 2z = 5$.
 
 </details>
 
@@ -707,7 +707,7 @@ $\phi = \arcsin\!\left(\dfrac{1}{\sqrt{11}}\right) \approx \boxed{17.6°}$.
 
 Find the shortest distance between the skew lines
 $\mathbf{r}_1 = \begin{pmatrix}1\\0\\0\end{pmatrix} + \lambda\begin{pmatrix}1\\2\\3\end{pmatrix}$
-And $\mathbf{r}_2 = \begin{pmatrix}0\\1\\0\end{pmatrix} + \mu\begin{pmatrix}2\\3\\4\end{pmatrix}$.
+and $\mathbf{r}_2 = \begin{pmatrix}0\\1\\0\end{pmatrix} + \mu\begin{pmatrix}2\\3\\4\end{pmatrix}$.
 
 </details>
 
@@ -981,7 +981,7 @@ Of the segment joining them.
 <summary>Solution</summary>
 
 Let the fixed points be $A$ and $B$ with position vectors $\mathbf{a}$ and $\mathbf{b}$. A point $P$
-Is equidistant from $A$ and $B$ when:
+is equidistant from $A$ and $B$ when:
 
 $$
 |\mathbf{p} - \mathbf{a}| = |\mathbf{p} - \mathbf{b}|
@@ -1007,7 +1007,7 @@ Perpendicular bisector. $\blacksquare$
 ### Question 14
 
 Find the equation of the plane containing the line $L: \mathbf{r} = (1, 0, 2) + \lambda(1, 2, -1)$
-And the point $P(3, 1, 4)$.
+and the point $P(3, 1, 4)$.
 
 <details>
 <summary>Solution</summary>

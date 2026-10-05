@@ -38,7 +38,7 @@ Consistency, and a demonstration of reordering effects across architectures.
 ## The As-If Rule and Compiler Reordering
 
 The **as-if rule** [N4950 §6.9.2.1] allows the compiler to reorder any operations whose reordering
-Does not change the observable behavior of a single-threaded program. In a multi-threaded context,
+does not change the observable behavior of a single-threaded program. In a multi-threaded context,
 This means:
 
 > "The implementation is free to reorder operations unless an ordering constraint is imposed by the
@@ -53,7 +53,7 @@ Concretely, the compiler may reorder:
    stale data.
 
 The as-if rule is the root cause of most multi-threading bugs. The compiler does not know about
-Other threads and is free to optimize as if the current thread were the only one running.
+other threads and is free to optimize as if the current thread were the only one running.
 
 ### Formal Definition of the As-If Rule
 
@@ -120,7 +120,7 @@ Require coherence traffic). The store buffer is drained to the cache asynchronou
 
 This means a subsequent load from a different address may execute **before** the previous store
 Drains to the cache. This is called **store-to-load reordering** (also known as Store Buffering or
-The "Store Buffer" phenomenon).
+the "Store Buffer" phenomenon).
 
 ```
 Core 0:                  Core 1:
@@ -212,7 +212,7 @@ Dependent load before the controlling branch is resolved. Always use explicit me
 ### Data Dependencies as Ordering
 
 On most architectures, a true data dependency (RAW, Read After Write) prevents reordering because
-The consumer instruction cannot execute until the producer has produced the value. This is a
+the consumer instruction cannot execute until the producer has produced the value. This is a
 Hardware dependency, not a memory ordering guarantee:
 
 ```cpp
@@ -223,7 +223,7 @@ int val = b[idx]; // load b[a[0]], cannot execute until idx is known
 
 However, **address dependencies** (where only the _address_ depends on a prior load, not the value)
 Are weaker. On ARM and POWER, address dependencies provide ordering, but on some architectures even
-This is not guaranteed. Always use explicit atomics for correctness.
+this is not guaranteed. Always use explicit atomics for correctness.
 
 ## Sequenced-Before Relationship
 
@@ -243,7 +243,7 @@ $$
 ## Happens-Before Relationship
 
 The **happens-before** relation [N4950 §6.9.4.1] is a strict partial order ($\prec$) on evaluations
-Within a single execution. If evaluation $A$ happens-before evaluation $B$ Then $B$ observes all Side
+within a single execution. If evaluation $A$ happens-before evaluation $B$ Then $B$ observes all Side
 effects of $A$.
 
 The happens-before relation is the **transitive closure** of:
@@ -296,7 +296,7 @@ $$
 $$
 
 The synchronizes-with relationship creates a **happens-before** edge between the release store and
-The acquire load, and by transitivity, all operations sequenced-before the release store
+the acquire load, and by transitivity, all operations sequenced-before the release store
 Happen-before all operations sequenced-after the acquire load.
 
 ## Sequential Consistency vs Relaxed Consistency
@@ -319,7 +319,7 @@ Operations.
 ### Formal Definition of Sequential Consistency
 
 A set of operations is sequentially consistent if there exists a total order $T$ over all operations
-Such that [N4950 §31.7.5]:
+such that [N4950 §31.7.5]:
 
 1. $T$ is consistent with the program order of each thread (if $op_1$ is sequenced-before $op_2$ in
    the same thread, then $op_1$ appears before $op_2$ in $T$).

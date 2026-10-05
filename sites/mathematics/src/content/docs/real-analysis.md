@@ -25,7 +25,7 @@ categories:
 ### 1.1 Field Axioms
 
 The real numbers $\mathbb{R}$ form a **complete ordered field**. The field axioms guarantee closure
-Under addition, subtraction, multiplication, and division (by non-zero elements), together with the
+under addition, subtraction, multiplication, and division (by non-zero elements), together with the
 Usual commutative, associative, and distributive laws.
 
 ### 1.2 Order and the Completeness Axiom
@@ -64,7 +64,7 @@ $l \leq s$ for all $s \in S$.
 Exists $s \in S$ such that $u - \varepsilon \lt s \leq u$.
 
 _Proof._ If no such $s$ existed, then $u - \varepsilon$ would be an upper bound of $S$ strictly less
-Than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
+than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
 
 **Example.** Let $S = \{x \in \mathbb{R} : x^2 \lt 2\}$. Then $\sup(S) = \sqrt{2}$. Note that
 $\sqrt{2}
@@ -77,7 +77,7 @@ Such that $n \gt x$.
 
 _Proof._ Suppose, for contradiction, that $\mathbb{N}$ is bounded above. By the completeness axiom,
 $s = \sup(\mathbb{N})$ exists in $\mathbb{R}$. Then $s - 1$ is not an upper bound for $\mathbb{N}$
-So there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
+so there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
 Contradicting that $s$ is an upper bound. $\blacksquare$
 
 **Corollary 1.2.** For every $\varepsilon > 0$ There exists $n \in \mathbb{N}$ such that
@@ -113,7 +113,7 @@ Where $-S = \{-s : s \in S\}$.
 
 _Proof._ Let $u = \sup(-S)$. Then $-s \leq u$ for all $s \in S$ So $s \geq -u$ for all $s \in S$
 Meaning $-u$ is a lower bound for $S$. If $v$ is any lower bound for $S$ Then $-v$ is an upper bound
-For $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
+for $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Find $\sup$ and $\inf$ of $S = \{(-1)^n + 1/n : n \in \mathbb{N}\}$</summary>
@@ -132,7 +132,7 @@ odd-indexed term, $\inf(S) = -1$ (approached but not attained). $\blacksquare$
 ### 1.6 Construction of $\mathbb{R}$ via Dedekind Cuts
 
 _Remark._ The following outline shows how $\mathbb{R}$ can be constructed from $\mathbb{Q}$ Making
-The completeness axiom a theorem rather than an axiom.
+the completeness axiom a theorem rather than an axiom.
 
 **Definition (Dedekind Cut).** A **Dedekind cut** is a subset $\alpha \subseteq \mathbb{Q}$
 satisfying:
@@ -195,7 +195,7 @@ the set, but $\sup(0, 1) = 1$ Which does not belong to $(0, 1)$.
 ### 2.1 Convergence
 
 A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
-Every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
+every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
 
 $$
 |a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
@@ -219,7 +219,7 @@ A contradiction. $\blacksquare$
 **Proposition 2.2.** Every convergent sequence is bounded.
 
 _Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$ There exists $N$ such that $|a_n - L| \lt 1$ for
-All $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
+all $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
 $M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$. Then $|a_n| \leq M$ for all $n$.
 $\blacksquare$
 
@@ -259,7 +259,7 @@ $$
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
 _Proof._ Let $a_n \to L$. Given $\varepsilon > 0$ Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
-For all $n \geq N$. Then for $m, n \geq N$:
+for all $n \geq N$. Then for $m, n \geq N$:
 $|a_n - a_m| \leq |a_n - L| + |a_m - L| \lt \varepsilon$. $\blacksquare$
 
 **Theorem 2.5 (Cauchy Completeness of $\mathbb{R}$).** Every Cauchy sequence in $\mathbb{R}$
@@ -324,7 +324,7 @@ $$
 
 _Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. Taking supremum over
 $n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
-The right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
+the right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
 
 **Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$ In which case the
 Common value equals $\lim a_n$.
@@ -336,7 +336,7 @@ Since $\varepsilon > 0$ is arbitrary, $\limsup a_n \leq L$. Similarly $\liminf a
 with Proposition 2.5, $\liminf a_n = \limsup a_n = L$.
 
 Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$ There exists $N_1$
-With $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
+with $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
 $\inf_{k \geq n} a_k > L - \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
 
@@ -470,7 +470,7 @@ such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$ I.e., $|a_n| \lt r^n$. Sinc
 converges (geometric series with $r \lt 1$), the comparison test gives absolute convergence.
 
 If $L > 1$ Then for infinitely many $n$: $\sqrt[n]{|a_n|} > 1$ So $|a_n| > 1$. Hence $a_n \not\to 0$
-And the series diverges. $\blacksquare$
+and the series diverges. $\blacksquare$
 
 **Theorem 3.5 (Integral Test).** If $f : [1, \infty) \to [0, \infty)$ is positive, continuous, and
 Decreasing, then $\sum_{n=1}^{\infty} f(n)$ converges if and only if $\int_1^{\infty} f(x)\, dx$
@@ -564,8 +564,8 @@ _Proof (outline)._ Let $P = \{n : a_n > 0\}$ and $N = \{n : a_n \lt 0\}$. Since 
 Conditionally, both $\sum_{n \in P} a_n = +\infty$ and $\sum_{n \in N} a_n = -\infty$.
 
 To achieve sum $L \in \mathbb{R}$: take positive terms in order until the partial sum exceeds $L$
-Then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
-The positive and negative subseries diverge, this process can always continue. The terms tend to
+then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
+the positive and negative subseries diverge, this process can always continue. The terms tend to
 Zero (since the series converges), so the oscillations around $L$ shrink to zero. $\blacksquare$
 
 _Remark._ By contrast, every rearrangement of an absolutely convergent series converges to the same
@@ -660,7 +660,7 @@ cases, try the comparison Test, integral test, or other methods. For example, $\
 ### 4.1 Limits of Functions
 
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
-Every $\varepsilon > 0$ There exists $\delta > 0$ such that
+every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
 $$
 0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
@@ -687,7 +687,7 @@ Classified as:
 
 **Proposition 4.3.** Polynomials are continuous on $\mathbb{R}$. Rational functions $p(x)/q(x)$ are
 Continuous wherever $q(x) \neq 0$. The functions $\sin x$, $\cos x$, $e^x$, $\ln x$ are continuous
-On their domains.
+on their domains.
 
 **Theorem 4.1 (Algebra of Continuous Functions).** If $f$ and $g$ are continuous at $a$ Then $f+g$
 $f-g$, $fg$ And (where defined) $f/g$ are continuous at $a$.
@@ -731,7 +731,7 @@ $x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$ Contradicting th
 
 If $f(c) > y$ Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
 $x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$ Contradicting
-That $c = \sup(S)$.
+that $c = \sup(S)$.
 
 Therefore $f(c) = y$. $\blacksquare$
 
@@ -802,7 +802,7 @@ $|\sqrt{x} - \sqrt{y}| = \frac{|x - y|}{\sqrt{x} + \sqrt{y}} \leq |x - y|^{1/2}$
 
 Given $\varepsilon > 0$ Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
 $|\sqrt{x} - \sqrt{y}| \leq \sqrt{|x-y|} \lt \sqrt{\delta} = \varepsilon$. Since $\delta$ depends
-Only on $\varepsilon$ The continuity is uniform. $\blacksquare$
+only on $\varepsilon$ The continuity is uniform. $\blacksquare$
 
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ proof that $f(x) = 3x - 1$ is continuous at $x = 2$</summary>
@@ -905,7 +905,7 @@ continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquar
 
 _Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$ Which follows from the
 Mean Value Theorem applied to $e^t$: $e^u - e^v = e^\xi (u - v)$ for some $\xi$ between $u$ and $v$
-So $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
+so $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
 
 Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$ So $x \lt a + 1$ and
 $e^{\max(x,a)} \leq e^{a+1}$. Choose $\delta = \min(1, \varepsilon / e^{a+1})$. For
@@ -1101,7 +1101,7 @@ Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$ There exist
 $f'(c) = y$.
 
 _Remark._ This means derivatives satisfy the intermediate value property even though they need not
-Be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
+be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
 But $f'$ is not continuous at $0$.
 
 _Proof._ Assume without loss of generality that $f'(a) \lt y \lt f'(b)$. Define $g(x) = f(x) - yx$.
@@ -1128,7 +1128,7 @@ So $f'(0) = 0$. For any $\delta > 0$ The term $-\cos(1/x)$ oscillates between $-
 $(0, \delta)$ So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
 
 But Darboux's theorem says $f'$ has the intermediate value property. Indeed, $f'$ is not continuous
-At $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
+at $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
 Highly discontinuous while retaining the intermediate value property. $\blacksquare$
 
 </details>
@@ -1683,7 +1683,7 @@ Convergence** $R \in [0, \infty]$ such that:
 - The behavior at $|x - a| = R$ must be checked separately
 
 The radius is given by $1/R = \limsup_{n \to \infty} \sqrt[n]{|c_n|}$ (Cauchy-Hadamard formula), or
-When the limit exists, $R = \lim_{n \to \infty} |c_n/c_{n+1}|$.
+when the limit exists, $R = \lim_{n \to \infty} |c_n/c_{n+1}|$.
 
 _Proof._ Apply the root test to $\sum |c_n (x-a)^n|$: $\limsup \sqrt[n]{|c_n|} |x-a| = |x-a|/R$
 (where $1/R = \limsup \sqrt[n]{|c_n|}$). The root test gives convergence when $|x-a|/R \lt 1$ And
@@ -1703,7 +1703,7 @@ $f(x) = \sum_{n=0}^{\infty} c_n (x-a)^n$ Has radius of convergence $R > 0$ Then:
 4. $c_n = f^{(n)}(a)/n!$ (uniqueness of power series coefficients).
 
 _Proof._ The differentiated series $\sum n c_n (x-a)^{n-1}$ has the same radius of convergence as
-The original (by the Cauchy-Hadamard formula, since $\sqrt[n]{n} \to 1$). By Theorem 7.4, the
+the original (by the Cauchy-Hadamard formula, since $\sqrt[n]{n} \to 1$). By Theorem 7.4, the
 Derivative of the sum equals the sum of the derivatives. Parts (2), (3), and (4) follow by Induction
 and the FTC. $\blacksquare$
 
@@ -1723,7 +1723,7 @@ $x \to 1^-$. $\blacksquare$
 
 _Example._ Since $\sum_{k=1}^{\infty} (-1)^{k+1}/k = \ln 2$ Abel's theorem gives
 $\lim_{x \to 1^-} \sum_{k=1}^{\infty} (-1)^{k+1} x^k/k = \ln 2$ I.e., $\ln 2$ is the left-hand limit
-Of $-\ln(1 - x)$ at $x = 1$.
+of $-\ln(1 - x)$ at $x = 1$.
 
 ### 7.8 Taylor Series Convergence
 
@@ -1820,7 +1820,7 @@ $M = \sup A$. For all $x \in A \cup B$: either $x \in A$ So $x \leq \sup A = M$;
 $x \leq \sup B \leq M$. Thus $M$ is an upper bound for $A \cup B$.
 
 For the least property: since $M = \sup A$ and $A \subseteq A \cup B$ Every upper bound of $A \cup B$
-Is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
+is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.3 (Supremum and Infimum), Section 1.5 (Properties).
 
@@ -2039,7 +2039,7 @@ Here is why: $f$ extends continuously to $[0, 1]$ (define $f(0) = 0$). By the He
 
 The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$ Which does not
 Extend continuously to $0$. Or $h(x) = 1/x$ Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
-And has a continuous extension, so it is uniformly continuous. $\blacksquare$
+and has a continuous extension, so it is uniformly continuous. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 4.5 (Uniform Continuity), Section 4.6 (Heine-Cantor).
 
@@ -2125,7 +2125,7 @@ $L(f, P) = \sum 0 \cdot \Delta x_i = 0$. Hence
 $\overline{\int_0^1} f = 1 \neq 0 = \underline{\int_0^1} f$ So $f$ is not Riemann integrable.
 
 This also follows from Lebesgue's criterion: $f$ is discontinuous everywhere, and $[0,1]$ does not
-Have measure zero. $\blacksquare$
+have measure zero. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 6.2 (Integrability Criteria), Theorem 6.4b.
 
@@ -2177,7 +2177,7 @@ Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
 
 Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$ This does not tend to $0$. Therefore the convergence
-Is **not uniform** on $(0, \infty)$. $\blacksquare$
+is **not uniform** on $(0, \infty)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.2 (Uniform Convergence), Section 7.1 (Pointwise
 Convergence).

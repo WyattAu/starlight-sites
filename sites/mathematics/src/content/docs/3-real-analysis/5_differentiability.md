@@ -188,7 +188,7 @@ Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$ There exist
 $f'(c) = y$.
 
 _Remark._ This means derivatives satisfy the intermediate value property even though they need not
-Be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
+be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
 But $f'$ is not continuous at $0$.
 
 _Proof._ Assume without loss of generality that $f'(a) \lt y \lt f'(b)$. Define $g(x) = f(x) - yx$.
@@ -215,7 +215,7 @@ So $f'(0) = 0$. For any $\delta > 0$ The term $-\cos(1/x)$ oscillates between $-
 $(0, \delta)$ So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
 
 But Darboux's theorem says $f'$ has the intermediate value property. Indeed, $f'$ is not continuous
-At $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
+at $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
 Highly discontinuous while retaining the intermediate value property. $\blacksquare$
 
 </details>

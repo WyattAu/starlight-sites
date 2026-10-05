@@ -236,7 +236,7 @@ Net ionic: Ag$^+$(aq) + Cl$^-$ $\to$ AgCl(s)
 ### Limiting Reagent
 
 The **limiting reagent** is the reactant that is completely consumed first and therefore determines
-The maximum amount of product formed.
+the maximum amount of product formed.
 
 ### Steps
 
@@ -435,7 +435,7 @@ $$
 
 :::note[Example]
 What is the concentration of a solution made by dissolving $10.0\mathrm{ g}$ of NaCl in enough water
-To make $250\mathrm{ mL}$ of solution?
+to make $250\mathrm{ mL}$ of solution?
 
 $$
 N = \frac{10.0}{58.44} = 0.171\mathrm{ mol}
@@ -821,7 +821,7 @@ The salt Na$_2$SO$_4$ is formed from a strong acid and strong base. The solution
 Which contains the greatest number of molecules?
 
 A. $1\mathrm{ g}$ of H$_2$ B. $1\mathrm{ g}$ of O$_2$ C. $1\mathrm{ g}$ of N$_2$ D. $1\mathrm{ g}$
-Of CO$_2$
+of CO$_2$
 
 **Answer: A.** Since $n = m/M$ And H$_2$ has the smallest molar mass (2 g/mol), $1\mathrm{ g}$ of
 H$_2$ gives $0.5\mathrm{ mol}$ Which is more moles (and thus more molecules) than the others.
@@ -1037,7 +1037,7 @@ $$
 <summary>Question 1: Empirical and Molecular Formula</summary>
 
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Its molar mass
-Is approximately $180\mathrm{ g/mol}$. Determine the empirical and molecular formulas.
+is approximately $180\mathrm{ g/mol}$. Determine the empirical and molecular formulas.
 
 </details>
 

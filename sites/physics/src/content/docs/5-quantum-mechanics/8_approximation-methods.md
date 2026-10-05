@@ -42,7 +42,7 @@ $$
 
 **Physical interpretation.** The first-order energy correction is the expectation value of the
 Perturbation in the unperturbed state. The second-order correction accounts for virtual transitions
-To other states: if the perturbation mixes in state $|m\rangle$ with amplitude proportional to
+to other states: if the perturbation mixes in state $|m\rangle$ with amplitude proportional to
 $V_{mn}/(E_n - E_m)$ The energy shift is the sum of $|V_{mn}|^2/(E_n - E_m)$ over all Intermediate
 states. Lower-energy intermediate states ($E_m \lt E_n$) always lower the energy, While
 higher-energy ones raise it.

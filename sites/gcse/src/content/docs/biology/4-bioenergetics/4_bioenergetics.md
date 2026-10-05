@@ -29,19 +29,19 @@ categories:
 ### 1.1 The Equation
 
 Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water
-Into glucose and oxygen.
+into glucose and oxygen.
 
 $$
 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \xrightarrow{\mathrm{light energy} \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2
 $$
 
 Photosynthesis is an **endothermic** reaction -- it absorbs energy from the environment (in the form
-Of light). This energy is stored in the chemical bonds of glucose, which can later be released
-Through respiration.
+of light). This energy is stored in the chemical bonds of glucose, which can later be released
+through respiration.
 
 **Why this reaction matters.** Photosynthesis is the primary source of energy for nearly all life on
 Earth. It produces the oxygen in the atmosphere (essential for aerobic respiration) and fixes carbon
-From $\mathrm{CO_2$ into organic molecules that form the base of all food chains. Without
+from $\mathrm{CO_2$ into organic molecules that form the base of all food chains. Without
 Photosynthesis, there would be no food, no oxygen, and no complex life.
 
 **Balancing the equation.** To check that the equation is balanced, count the atoms on each side:
@@ -76,7 +76,7 @@ Plants appear green).
 **Stomata and gas exchange.** Stomata are pores on the underside of the leaf, surrounded by guard
 Cells that can open and close them. When guard cells are turgid (full of water), the stomata are
 Open, allowing $\mathrm{CO_2$ to enter for photosynthesis. When guard cells are flaccid (water has
-Been lost), the stomata close, reducing water loss. This is a trade-off: open stomata allow
+been lost), the stomata close, reducing water loss. This is a trade-off: open stomata allow
 Photosynthesis but also allow water to evaporate (transpiration).
 
 ### 1.3 Factors Affecting the Rate of Photosynthesis
@@ -93,7 +93,7 @@ Any given time, only ONE factor is limiting. This is known as the **law of limit
 
 **Understanding the graphs.** A graph of photosynthesis rate against any single factor shows the
 Same characteristic shape: the rate increases linearly at first (because the factor being increased
-Is the limiting factor), then levels off (because a different factor has become limiting). This
+is the limiting factor), then levels off (because a different factor has become limiting). This
 Plateau tells you that increasing the original factor further will have no effect until the new
 Limiting factor is also increased.
 
@@ -155,14 +155,14 @@ Step-by-step interpretation:
 **Worked Example: Calculating light intensity.**
 
 Light intensity follows an inverse square law: intensity $\propto 1/d^2$ Where $d$ is the distance
-From the lamp.
+from the lamp.
 
 If the lamp is 10 cm from the pondweed and produces 100 bubbles per minute, what rate would you
 Expect at 20 cm?
 
 At 20 cm, the distance is doubled, so the light intensity decreases by a factor of $2^2 = 4$. The
 Rate should decrease by a factor of 4: $100 / 4 = 25$ bubbles per minute (assuming light is still
-The limiting factor).
+the limiting factor).
 
 ### 1.5 Uses of Glucose from Photosynthesis
 
@@ -188,7 +188,7 @@ A farmer notices that a crop of wheat has pale leaves and stunted growth. The so
 Nitrate ions.
 
 Without nitrate ions, the plant cannot make amino acids (amino acids contain nitrogen, which comes
-From nitrates). Without amino acids, the plant cannot make proteins. Proteins are needed for growth
+from nitrates). Without amino acids, the plant cannot make proteins. Proteins are needed for growth
 (new cells require proteins for their structure and enzymes), so the plant cannot grow properly. The
 Pale leaves are because the plant cannot make enough chlorophyll (chlorophyll contains nitrogen in
 Its structure), reducing the rate of photosynthesis.
@@ -205,7 +205,7 @@ Commercial greenhouse operators manipulate limiting factors to maximise crop yie
 
 **The economic argument.** The cost of providing additional light, $\mathrm{CO_2$ And heat must be
 Weighed against the value of the increased crop yield. There is a point of diminishing returns where
-The cost of increasing a factor exceeds the value of the additional growth.
+the cost of increasing a factor exceeds the value of the additional growth.
 
 **Worked Example: Evaluating greenhouse management decisions.**
 
@@ -243,7 +243,7 @@ Photosynthesis occurs in two stages:
 
 The two stages are linked: the light-dependent reactions produce the ATP and NADPH that the Calvin
 Cycle needs. Without light, the light-dependent reactions stop, and the Calvin cycle gradually runs
-Out of ATP and NADPH.
+out of ATP and NADPH.
 
 **Summary table: comparing the two stages of photosynthesis.**
 
@@ -300,7 +300,7 @@ Activity and contributes to the feeling of muscle fatigue.
 **Oxygen debt:** After exercise, extra oxygen is needed to break down the lactic acid. This is why
 You continue to breathe heavily after exercise -- your body is taking in extra oxygen to repay the
 Oxygen debt. The lactic acid is transported to the liver, where it is converted back to pyruvate and
-Then either oxidised further (via the Krebs cycle) or converted back to glucose (via
+then either oxidised further (via the Krebs cycle) or converted back to glucose (via
 Gluconeogenesis).
 
 $$
@@ -356,7 +356,7 @@ At room temperature and pressure, 1 mole of gas occupies approximately 24 litres
 Volume of $\mathrm{O_2$ needed: $0.004 \times 24000 = 96$ mL of extra oxygen.
 
 This is why the student continues to breathe heavily for several minutes after the race -- they need
-To take in this extra oxygen to fully oxidise the accumulated lactic acid.
+to take in this extra oxygen to fully oxidise the accumulated lactic acid.
 
 ### 2.4 Metabolism
 
@@ -404,7 +404,7 @@ To take in this extra oxygen to fully oxidise the accumulated lactic acid.
 
 **Why soda lime is essential.** Respiration produces $\mathrm{CO_2$ as well as consuming
 $\mathrm{O_2$. If the $\mathrm{CO_2$ were not absorbed, the volume change would be the difference
-Between $\mathrm{O_2$ consumed and $\mathrm{CO_2$ produced, not the true rate of oxygen consumption.
+between $\mathrm{O_2$ consumed and $\mathrm{CO_2$ produced, not the true rate of oxygen consumption.
 Since soda lime absorbs $\mathrm{CO_2$ The measured volume change reflects only $\mathrm{O_2$
 Consumption.
 
@@ -643,7 +643,7 @@ Hairs, for healthy growth:
 
 **Why mineral deficiencies affect photosynthesis.** Both nitrates and magnesium are needed for
 Chlorophyll production. Without chlorophyll, leaves cannot absorb light energy, and photosynthesis
-Cannot occur. Without nitrates, the plant cannot make proteins, so new cells cannot be built and
+cannot occur. Without nitrates, the plant cannot make proteins, so new cells cannot be built and
 Growth stops. Without phosphate, the plant cannot make ATP (the energy currency of the cell) or DNA,
 So cell division cannot occur.
 
@@ -655,7 +655,7 @@ The older leaves are affected first.
 **Diagnosis:** This is a classic symptom of **magnesium deficiency**. Magnesium is a central
 Component of the chlorophyll molecule. Without magnesium, the plant cannot synthesise chlorophyll,
 So the leaves lose their green colour (chlorosis). The yellowing appears between the veins because
-The veins still contain some chlorophyll. Older leaves are affected first because the plant
+the veins still contain some chlorophyll. Older leaves are affected first because the plant
 Redistributes its limited magnesium supply to younger, growing leaves.
 
 ## 9. Higher Tier: Respirometer Calculations in Context
@@ -665,7 +665,7 @@ Redistributes its limited magnesium supply to younger, growing leaves.
 A student sets up two respirometers. Respirometer A contains 5 g of germinating peas at
 20$\degree$C. Respirometer B contains 5 g of germinating peas at 10$\degree$C. After 10 minutes, the
 Liquid in A moves 15 mm and the liquid in B moves 8 mm. The capillary tube has an internal diameter
-Of 0.8 mm.
+of 0.8 mm.
 
 Calculate the rate of oxygen consumption per gram per minute for each respirometer.
 
@@ -751,7 +751,7 @@ $\mathrm{CO_2$ The rate is 10 bubbles/min. At 4% $\mathrm{CO_2$ The rate is 10 b
 
 Between 1% and 2%, the rate increases from 5 to 9 bubbles/min (an increase of 4). Between 2% and 3%,
 The rate increases from 9 to 10 (an increase of only 1). Between 3% and 4%, there is no increase at
-All. This shows that above 3% $\mathrm{CO_2$, $\mathrm{CO_2$ is no longer the limiting factor.
+all. This shows that above 3% $\mathrm{CO_2$, $\mathrm{CO_2$ is no longer the limiting factor.
 Another Factor (light intensity or temperature) is now limiting, and increasing $\mathrm{CO_2$
 further has no Effect.
 
@@ -759,7 +759,7 @@ further has no Effect.
 
 Understanding anaerobic respiration is important for sports science. During intense exercise, the
 Body's demand for energy exceeds what aerobic respiration can supply, even with increased heart rate
-And breathing rate. The muscles switch to anaerobic respiration to produce additional ATP.
+and breathing rate. The muscles switch to anaerobic respiration to produce additional ATP.
 
 **The lactate threshold:** The exercise intensity at which lactate begins to accumulate in the blood
 Faster than it can be removed. Above this threshold, the athlete is relying increasingly on
@@ -767,7 +767,7 @@ Anaerobic respiration.
 
 **Training effects:** Endurance training increases the lactate threshold by improving the body's
 Ability to deliver oxygen to muscles (increased capillary density, increased myoglobin content) and
-By increasing the number and size of mitochondria in muscle cells. This allows trained athletes to
+by increasing the number and size of mitochondria in muscle cells. This allows trained athletes to
 Sustain higher exercise intensities before reaching their lactate threshold.
 
 **Recovery:** After intense exercise, the accumulated lactate is transported to the liver, where it

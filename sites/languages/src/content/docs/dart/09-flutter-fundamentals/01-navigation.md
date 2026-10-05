@@ -117,7 +117,7 @@ Flutter has evolved through several navigation APIs to arrive at the current bes
 
 Navigator 1.0 is Flutter's original navigation system, built around the `Navigator` widget and an
 Imperative API. Understanding it is essential because many existing codebases still use it, and it
-Is the foundation upon which later APIs were built.
+is the foundation upon which later APIs were built.
 
 ### Basic Push and Pop
 
@@ -165,7 +165,7 @@ class DetailPage extends StatelessWidget {
 ```
 
 `Navigator.push()` adds a new route to the top of the navigation stack. `Navigator.pop()` removes
-The topmost route. Under the hood, `Navigator` maintains an ordered list of `Route` objects, the
+the topmost route. Under the hood, `Navigator` maintains an ordered list of `Route` objects, the
 **navigation stack**, and only the topmost route is visible.
 
 ### Passing Data to a Route
@@ -297,7 +297,7 @@ Navigator 1.0 works well for simple apps but has serious limitations at scale:
 ## Navigator 2.0
 
 Navigator 2.0 was introduced as a declarative alternative to Navigator 1.0. It is a lower-level API
-That provides complete control over the navigation stack, making it possible to implement deep
+that provides complete control over the navigation stack, making it possible to implement deep
 Linking, URL-based routing, and complex nested navigation patterns.
 
 ### Core Components
@@ -623,7 +623,7 @@ GoRoute(
 ### Path Validation
 
 Path parameters match any value that does not contain a forward slash. For stricter validation, use
-The `redirect` function:
+the `redirect` function:
 
 ```dart
 GoRoute(
@@ -658,7 +658,7 @@ GoRoute(
 ```
 
 A wildcard matches the remainder of the path including slashes. `/files/docs/report.pdf` would match
-With `filepath` equal to `docs/report.pdf`.
+with `filepath` equal to `docs/report.pdf`.
 
 ---
 
@@ -742,7 +742,7 @@ final limit = double.tryParse(state.uri.queryParameters['limit'] ?? '10') ?? 10.
 
 GoRouter preserves query parameters when you navigate within the same route hierarchy. However, when
 Navigating to a completely different route, query parameters from the previous route are not carried
-Over. If you need to persist filter state, store it in app-level state (e.g., a Riverpod provider or
+over. If you need to persist filter state, store it in app-level state (e.g., a Riverpod provider or
 BLoC) rather than relying on query parameters.
 
 ---
@@ -795,7 +795,7 @@ final router = GoRouter(
 ```
 
 The `redirect` function returns `null` to allow navigation to proceed, or a string path to redirect
-To. If the redirect returns a path that would itself be redirected, GoRouter detects the loop and
+to. If the redirect returns a path that would itself be redirected, GoRouter detects the loop and
 Throws an error.
 
 ### Route-Level Redirect
@@ -860,7 +860,7 @@ final router = GoRouter(
 
 GoRouter limits redirects to prevent infinite loops. By default, if a redirect triggers more than 5
 Consecutive redirects, GoRouter throws an error. This prevents accidental infinite redirect chains
-Where `/a` redirects to `/b` which redirects back to `/a`.
+where `/a` redirects to `/b` which redirects back to `/a`.
 
 ### Refreshing the Route List
 
@@ -932,7 +932,7 @@ Add an intent filter to `AndroidManifest.xml`:
 ### Handling Incoming Links on iOS
 
 Add an associated domain in `apple-app-site-association` (hosted on your web server) and configure
-The `CFBundleURLTypes` in `Info.plist`:
+the `CFBundleURLTypes` in `Info.plist`:
 
 ```xml
 <key>CFBundleURLTypes</key>
@@ -1000,7 +1000,7 @@ Common use case is a bottom navigation bar where each tab maintains its own navi
 ### ShellRoute for Persistent UI
 
 `ShellRoute` provides a persistent shell around child routes. The shell widget remains in the tree
-As the user navigates between child routes:
+as the user navigates between child routes:
 
 ```dart
 ShellRoute(
@@ -1130,7 +1130,7 @@ StatefulShellRoute.indexedStack(
 Each `StatefulShellBranch` maintains its own `Navigator` stack. This means that if the user
 Navigates from `/home` to `/home/detail/5` and then switches to the Explore tab, the Home tab
 Retains the detail page. When the user switches back to Home, they see the detail page exactly as
-They left it.
+they left it.
 
 ### Nested Navigation Without ShellRoute
 
@@ -1321,7 +1321,7 @@ GoRoute(
 ### Using `go` When You Mean `push`
 
 `context.go("/detail')` replaces the current route. If you want the user to be able to press back
-And return to the previous screen, use `context.push('/detail')` instead. A common bug is using `go`
+and return to the previous screen, use `context.push('/detail')` instead. A common bug is using `go`
 Everywhere and losing the back stack, so the back button exits the app unexpectedly.
 
 ### Forgetting to Handle Null Path Parameters
@@ -1338,7 +1338,7 @@ Always validate parameters in a `redirect` function before reaching the builder.
 ### Infinite Redirect Loops
 
 If a redirect function returns a path that itself triggers a redirect, GoRouter detects the loop
-After approximately 5 iterations and throws. Common causes:
+after approximately 5 iterations and throws. Common causes:
 
 - The login redirect sends the user to `/`Which redirects back to `/login` because the user is not
   yet authenticated (race condition with async auth state).
@@ -1371,7 +1371,7 @@ Consider whether `go` is more appropriate for web.
 ### Over-Nesting ShellRoutes
 
 Nesting `ShellRoute` objects more than two levels deep creates complex navigation hierarchies that
-Are difficult to debug. If you find yourself needing deeply nested shells, consider simplifying your
+are difficult to debug. If you find yourself needing deeply nested shells, consider simplifying your
 App's information architecture.
 
 ### State Loss in ShellRoute Tabs

@@ -113,7 +113,7 @@ int main() {
 
 When catching by value (not by reference), the exception object is **sliced** to the catch clause's
 Static type. This is almost always wrong because it loses the dynamic type information and invokes
-An extra copy:
+an extra copy:
 
 ```cpp
 #include <iostream>
@@ -229,7 +229,7 @@ int main() {
 ## 1.4 Zero-Cost Principle
 
 In the table-based model, the generated code for a function that uses exceptions is **identical in
-The non-throwing path** to a function that does not use exceptions at all. There are:
+the non-throwing path** to a function that does not use exceptions at all. There are:
 
 - No extra branches or flags tested on every `try` entry.
 - No per-function "has_exception" global.
@@ -332,7 +332,7 @@ Throwing; use exceptions for truly exceptional conditions.
 ## 1.6 Exception Object Lifetime and Storage
 
 The exception object is allocated by the C++ runtime, not by `new`. The Itanium ABI specifies that
-The runtime uses a dedicated allocator (often a thread-local buffer) for small exception objects,
+the runtime uses a dedicated allocator (often a thread-local buffer) for small exception objects,
 Falling back to `malloc` for large ones [N4950 §14.2]. The exception object is destroyed when the
 Last `catch` clause handling it exits [N4950 §14.2]:
 
@@ -411,7 +411,7 @@ Static type, slicing the dynamic type. Always use `throw;` to re-throw the origi
 ## 1.7 Cross-Thread Exception Propagation with `std::exception_ptr`
 
 C++11 introduced `std::exception_ptr` to transport exceptions across threads [N4950 §18.8.5]. This
-Is the only standard mechanism for propagating exceptions from a worker thread to the joining
+is the only standard mechanism for propagating exceptions from a worker thread to the joining
 Thread:
 
 ```cpp
@@ -478,7 +478,7 @@ On the Itanium ABI, it uses a compact bytecode format:
 | **Type Info Table** | Array of `std::type_info*` pointers referenced by the action table     |
 
 Each call site entry describes a range of PC values in the function. When the unwinder finds that
-The current PC falls within a call site range, it checks the action table to determine which catch
+the current PC falls within a call site range, it checks the action table to determine which catch
 Clause (if any) handles the exception. The type info table provides the `std::type_info` for the
 Catch clause's type, enabling the dynamic type comparison.
 

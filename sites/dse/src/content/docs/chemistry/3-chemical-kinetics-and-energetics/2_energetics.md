@@ -67,7 +67,7 @@ The standard state is the pure substance at 1 atm and the specified temperature.
 ### Standard Enthalpy of Formation ($\Delta H_f^\circ$)
 
 The enthalpy change when 1 mole of a compound is formed from its elements in their standard states
-Under standard conditions.
+under standard conditions.
 
 $$
 \mathrm{C}_{(s)} + \mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} \quad \Delta H_f^\circ = -393.5 \mathrm{ kJ/mol}
@@ -95,7 +95,7 @@ Combustion is always exothermic, so $\Delta H_c^\circ \lt 0$.
 ### Standard Enthalpy of Neutralisation ($\Delta H_{\mathrm{neut}}^\circ$)
 
 The enthalpy change when 1 mole of water is formed from the reaction between an acid and an alkali
-Under standard conditions.
+under standard conditions.
 
 $$
 \mathrm{H}^+_{(aq)} + \mathrm{OH}^-_{(aq)} \to \mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H_{\mathrm{neut}}^\circ = -57.3 \mathrm{ kJ/mol}
@@ -146,7 +146,7 @@ This is always endothermic (bonds must be broken).
 ### Statement
 
 Hess's Law states that the enthalpy change for a reaction is the same regardless of the route taken
-From reactants to products, provided the initial and final conditions are the same.
+from reactants to products, provided the initial and final conditions are the same.
 
 This is a consequence of enthalpy being a **state function**.
 
@@ -445,7 +445,7 @@ This is close to the standard value of $-57.3 \mathrm{ kJ/mol}$.
 ### Combustion Calorimetry
 
 Used to measure enthalpies of combustion. A known mass of fuel is burned, and the temperature rise
-Of a known mass of water is measured.
+of a known mass of water is measured.
 
 **Worked example 7:** 1.50 g of ethanol is burned in a spirit burner. The heat produced raises the
 Temperature of 200 g of water from $20.0^\circ\mathrm{C}$ to $45.5^\circ\mathrm{C}$. Calculate the
@@ -461,7 +461,7 @@ Moles of $\mathrm{C}_2\mathrm{H}_5\mathrm{OH} = 1.50 / 46.1 = 0.0325 \mathrm{ mo
 $\Delta H_c = -\dfrac{21.32}{0.0325} = -656 \mathrm{ kJ/mol}$
 
 The accepted value is $-1367 \mathrm{ kJ/mol}$. The experimental value is much less exothermic due
-To heat losses to the surroundings and incomplete combustion.
+to heat losses to the surroundings and incomplete combustion.
 
 </details>
 
@@ -490,7 +490,7 @@ To heat losses to the surroundings and incomplete combustion.
 ### Overview
 
 Born-Haber cycles calculate lattice energies of ionic compounds using Hess's Law. The lattice energy
-Is the enthalpy change when 1 mole of an ionic solid is formed from its gaseous ions.
+is the enthalpy change when 1 mole of an ionic solid is formed from its gaseous ions.
 
 ### Steps in a Born-Haber Cycle (for NaCl)
 

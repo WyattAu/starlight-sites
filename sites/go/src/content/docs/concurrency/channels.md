@@ -31,7 +31,7 @@ buf := make(chan int, 10)    // sender can buffer up to 10
 ## Select
 
 `select` allows a goroutine to wait on multiple channel operations simultaneously. It blocks until
-One of its cases can proceed, then executes that case:
+one of its cases can proceed, then executes that case:
 
 ```go
 ch1 := make(chan string)

@@ -576,11 +576,11 @@ $$
 $$
 
 We need one more condition. Since the leading coefficient is $1$ and $f(x) = (x-3)(x+1)(x - d)$ We
-Must have the constant term $c = 3d$. But $f(x)$ has constant term $c$. Comparing: $c = 3d$. We have
-One free parameter, so let us use $f(0) = c = 3d$ But we need another constraint.
+must have the constant term $c = 3d$. But $f(x)$ has constant term $c$. Comparing: $c = 3d$. We have
+one free parameter, so let us use $f(0) = c = 3d$ But we need another constraint.
 
 Let us equate the $x^2$ coefficient: $a = -(d+2)$. The $x$ coefficient: $b = 2d - 3$. Substituting
-Into (iii): $7 + 2(-d-2) + (2d-3) = 7 - 2d - 4 + 2d - 3 = 0$. Again automatically satisfied.
+into (iii): $7 + 2(-d-2) + (2d-3) = 7 - 2d - 4 + 2d - 3 = 0$. Again automatically satisfied.
 
 Without additional information, $d$ is undetermined. However, since $(x-3)$ and $(x+1)$ are the
 _only_ stated factors, and the problem asks us to factorize completely, we observe that a cubic with

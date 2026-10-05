@@ -153,7 +153,7 @@ Centre (stereocentre) is a carbon atom bonded to four different groups.
 
 **Definition.** **Enantiomers** are non-superimposable mirror images. They have identical physical
 Properties (melting point, solubility) except for their interaction with plane-polarised light and
-With other chiral molecules.
+with other chiral molecules.
 
 ### Optical Activity
 
@@ -470,7 +470,7 @@ Confirmed.
 <summary>Problem 3</summary>
 
 Draw the repeating unit of the polyester formed from propane-1,3-diol and butanedioic acid. Write
-The equation for its formation.
+the equation for its formation.
 
 **Solution:**
 
@@ -549,7 +549,7 @@ $$
 $$
 
 Actually, for $(CH_3)_3CBr$ There are no $\beta$-hydrogens on the carbon bearing two methyl groups
-That are distinct from the terminal methyl groups. The only elimination products are
+that are distinct from the terminal methyl groups. The only elimination products are
 $(CH_3)_2C=CH_2$ (the only possible alkene). Since there is only one type of $\beta$-hydrogen,
 Zaitsev's rule does not apply here --- there is only one elimination product.
 
@@ -603,7 +603,7 @@ Configuration would be R. Always orient H away before assigning.
 **Worked Example: Drawing the repeating unit of a condensation polymer**
 
 Draw the repeating unit of the polyester formed from propane-1,3-diol and butanedioic acid. Write
-The balanced equation for its formation and identify the by-product.
+the balanced equation for its formation and identify the by-product.
 
 <details>
 <summary>Solution</summary>

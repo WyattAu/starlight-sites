@@ -64,7 +64,7 @@ def knapsack_01(weights, values, capacity):
 
 :::note
 Iterate forward, `dp[c - w]` may already include item $i$ Violating the 0/1 constraint. This is the
-Most common bug in knapsack implementations.
+most common bug in knapsack implementations.
 
 ### Unbounded Knapsack
 
@@ -519,7 +519,7 @@ def assignment(cost):
 ## Digit DP
 
 Digit DP counts numbers in a range that satisfy certain digit-based properties by processing digits
-From most significant to least significant.
+from most significant to least significant.
 
 ### Template
 
@@ -702,7 +702,7 @@ def is_match(s, p):
 
 Every impartial game (where the available moves depend only on the position, not on which player is
 Moving) is equivalent to a Nim heap. The Sprague-Grundy theorem states that the Grundy number (mex
-Of children's Grundy numbers) determines the winning strategy.
+of children's Grundy numbers) determines the winning strategy.
 
 ```python
 def grundy_number(positions):
@@ -759,7 +759,7 @@ def coin_game(coins):
 ## Greedy-Reducible DP
 
 Some DP problems have greedy solutions that are simpler and faster. The key question: does making
-The locally optimal choice always lead to the globally optimal solution?
+the locally optimal choice always lead to the globally optimal solution?
 
 ### When Greedy Works Instead of DP
 
@@ -791,14 +791,14 @@ The locally optimal choice always lead to the globally optimal solution?
 ### 1. Wrong Iteration Order
 
 The fill order must respect the dependency: if `dp[i]` depends on `dp[j]`Then `j` must be computed
-Before `i`. For interval DP, always iterate by increasing interval length. For 1D DP, verify whether
+before `i`. For interval DP, always iterate by increasing interval length. For 1D DP, verify whether
 Forward or backward iteration is needed (0/1 knapsack needs backward, unbounded needs forward).
 
 ### 2. Integer Overflow in DP Values
 
 DP values can grow exponentially (e.g., counting paths in a grid). Use Python's arbitrary-precision
 Integers, or in C++/Java, use `long long` or `BigInteger`. Always check whether the problem asks for
-The result modulo some value.
+the result modulo some value.
 
 ### 3. Off-by-One in Bitmask DP
 

@@ -24,7 +24,7 @@ categories:
 Python is, at its core, a sequential language. Statements execute one after another in a single
 Thread of control. Yet real programs must deal with I/O latency (network requests, file reads,
 Database queries), parallelizable computation, and responsive user interfaces. The question is not
-Whether you need concurrency but **which concurrency model** fits your problem.
+whether you need concurrency but **which concurrency model** fits your problem.
 
 Python provides three distinct concurrency mechanisms, each with different trade-offs:
 
@@ -34,8 +34,8 @@ Python provides three distinct concurrency mechanisms, each with different trade
 
 Choosing between them requires understanding the Global Interpreter Lock, the nature of your
 Workload (I/O-bound vs CPU-bound), and the cost model of each approach. The sections below build
-From the lowest level (the GIL) upward through threading, multiprocessing, and finally asyncio, so
-The design decisions behind each layer are clear.
+from the lowest level (the GIL) upward through threading, multiprocessing, and finally asyncio, so
+the design decisions behind each layer are clear.
 
 ## The Global Interpreter Lock (GIL)
 
@@ -88,7 +88,7 @@ Bytecode at a time. Reference count mutations are serialized without any per-obj
 Overhead.
 
 A second motivation: the GIL simplifies the implementation of C extension modules. Extension authors
-Can manipulate Python objects without writing thread-safe code, because the GIL guarantees exclusive
+can manipulate Python objects without writing thread-safe code, because the GIL guarantees exclusive
 Access. This decision, made in 1991, is a major reason the CPython extension ecosystem is so large.
 
 ### When the GIL Is Not a Problem
@@ -163,7 +163,7 @@ Because threads share memory, you need explicit synchronization to prevent data 
 
 A `Lock` is a mutual exclusion primitive. Only one thread can hold the lock at a time. `RLock`
 (reentrant lock) allows the **same thread** to acquire it multiple times without deadlocking, which
-Is useful when a method calls another method that also needs the lock.
+is useful when a method calls another method that also needs the lock.
 
 ```python
 import threading
@@ -233,7 +233,7 @@ threading.Thread(target=setter, daemon=True).start()
 #### `Condition`
 
 A `Condition` combines a lock with a wait/notify mechanism. It is useful when threads need to wait
-For a specific state change:
+for a specific state change:
 
 ```python
 import threading
@@ -340,7 +340,7 @@ if __name__ == "__main__":
 #### Shared Memory
 
 The `multiprocessing.shared_memory` module (Python 3.8+) provides `SharedMemory` for sharing data
-Between processes without serialization:
+between processes without serialization:
 
 ```python
 from multiprocessing import Process, shared_memory
@@ -375,7 +375,7 @@ Use multiprocessing when:
 - The communication overhead between processes is acceptable relative to the computation time.
 
 Do not use multiprocessing for lightweight I/O-bound tasks. The process creation overhead (~10-50ms
-Per process) and IPC serialization cost dwarf the benefit for short-lived, I/O-dominated workloads.
+per process) and IPC serialization cost dwarf the benefit for short-lived, I/O-dominated workloads.
 
 ## `concurrent.futures`
 
@@ -461,11 +461,11 @@ Thread-based concurrency has inherent costs even when the GIL is not a problem:
 `asyncio` solves these problems by using **coroutines** -- functions that can suspend and resume
 Voluntarily. There is only one thread and one OS-level context. "Context switching" between
 Coroutines is a Python-level function call that costs ~100 nanoseconds, orders of magnitude cheaper
-Than an OS thread switch.
+than an OS thread switch.
 
 The trade-off: coroutines are **cooperative**, meaning they must explicitly yield control. A
 Long-running CPU-bound computation will block the entire event loop. `asyncio` is not a replacement
-For threading or multiprocessing; it is a specialized tool for I/O-bound concurrency at scale.
+for threading or multiprocessing; it is a specialized tool for I/O-bound concurrency at scale.
 
 ### Coroutines: `async def` and `await`
 
@@ -521,7 +521,7 @@ flowchart TD
 ```
 
 When a coroutine awaits an I/O operation, the event loop registers the corresponding file descriptor
-With the OS poller and moves to the next ready coroutine. When the OS reports the descriptor is
+with the OS poller and moves to the next ready coroutine. When the OS reports the descriptor is
 Ready, the event loop places the waiting coroutine back in the ready queue. This is how thousands of
 I/O-bound operations run concurrently on a single thread.
 
@@ -675,7 +675,7 @@ asyncio.run(main())
 ```
 
 `TaskGroup` is preferable to `gather()` for new code because it enforces cancellation semantics: if
-One task fails, the others are not silently abandoned. With `gather()`Failed tasks are replaced by
+one task fails, the others are not silently abandoned. With `gather()`Failed tasks are replaced by
 Exceptions in the result list, but other tasks continue running in the background.
 
 ### Async Context Managers
@@ -944,7 +944,7 @@ asyncio.run(main())
 ### Forgetting to `await`
 
 Calling an async function without `await` does not execute it. It returns a coroutine object, which
-Is silently discarded:
+is silently discarded:
 
 ```python
 import asyncio

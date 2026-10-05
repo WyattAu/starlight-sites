@@ -27,7 +27,7 @@ Or database system.
 
 A **physical model** describes how a system is actually implemented: the specific data structures,
 Algorithms, storage mechanisms, and hardware configurations used. It focuses on the solution domain
-And the developer's perspective.
+and the developer's perspective.
 
 ### Comparison
 
@@ -121,7 +121,7 @@ Key decisions:
 ## Data Abstraction
 
 Data abstraction is the principle of separating the specification of what data operations do from
-The implementation of how they do it. The user of an abstract data type knows what operations are
+the implementation of how they do it. The user of an abstract data type knows what operations are
 Available and what they do, but does not know (and does not need to know) how the data is stored or
 How the operations are implemented.
 
@@ -166,7 +166,7 @@ Return type, but not the algorithm it uses.
 ### Procedural Decomposition
 
 Procedural decomposition (also called top-down design) is the process of breaking a complex problem
-Into a hierarchy of sub-procedures, each of which solves a part of the problem. The main procedure
+into a hierarchy of sub-procedures, each of which solves a part of the problem. The main procedure
 Delegates work to lower-level procedures, which may themselves delegate to even lower-level
 Procedures.
 
@@ -210,7 +210,7 @@ END FUNCTION
 
 The `calculateGrades` function can be further decomposed: the average calculation could be a
 Separate function, and the grade assignment could be a separate function. The level of decomposition
-Is a judgment call: too little decomposition makes the code monolithic; too much decomposition
+is a judgment call: too little decomposition makes the code monolithic; too much decomposition
 Creates trivial functions that add complexity without benefit.
 
 <details>
@@ -446,7 +446,7 @@ methods.
 ### Information Hiding
 
 Information hiding is the design principle that the internal details of a module should be hidden
-From other modules. Only the essential interface is exposed. The implementation can change without
+from other modules. Only the essential interface is exposed. The implementation can change without
 Affecting any code that depends only on the interface.
 
 **Practical benefits:**
@@ -636,7 +636,7 @@ Fails because it exceeds the balance, and the balance remains unchanged at 150. 
 
 An interface defines a contract that a class must fulfill. It specifies method signatures (names,
 Parameters, return types) without providing implementations. A class that implements an interface
-Must provide concrete implementations for all methods defined in the interface.
+must provide concrete implementations for all methods defined in the interface.
 
 ```python
 INTERFACE Sortable
@@ -686,7 +686,7 @@ Level. The API abstracts away the complexity.
 
 Top-down design starts with the overall problem and progressively breaks it down into smaller, more
 Manageable sub-problems. At each level of decomposition, the sub-problems are defined by what they
-Should accomplish (their specification), not by how they accomplish it (their implementation).
+should accomplish (their specification), not by how they accomplish it (their implementation).
 
 The process continues until each sub-problem is simple enough to be implemented directly as a single
 Function or procedure.
@@ -987,7 +987,7 @@ END CLASS
 
 The `speak()` method is abstract in `Animal` and must be implemented by every concrete subclass. The
 `introduce()` method is concrete and inherited by all subclasses. This enforces a common interface
-While allowing each subclass to provide its own behavior.
+while allowing each subclass to provide its own behavior.
 
 <details>
 <summary>Worked Example: Designing an Inheritance Hierarchy</summary>
@@ -1057,7 +1057,7 @@ knowing The specific type.
 
 An abstraction is "leaky" when implementation details are exposed to the user, forcing them to
 Understand the implementation to use the abstraction correctly. For example, if a stack implemented
-With an array throws an "array index out of bounds" error, the user must understand that the stack
+with an array throws an "array index out of bounds" error, the user must understand that the stack
 Uses an array internally. A well-designed stack would throw a "stack overflow" error instead,
 Keeping the array implementation hidden.
 
@@ -1067,12 +1067,12 @@ Creating too many layers of abstraction makes the code harder to understand and 
 Calculation is wrapped in a factory that creates a strategy object that delegates to a provider, the
 Code becomes unnecessarily complex. Abstraction should be applied where it provides clear benefits:
 Code reuse, encapsulation, or separation of concerns. A good rule of thumb: if you cannot explain
-The purpose of an abstraction layer in one sentence, it may be unnecessary.
+the purpose of an abstraction layer in one sentence, it may be unnecessary.
 
 ### Under-Abstraction
 
 Failing to abstract common patterns leads to code duplication. If the same validation logic appears
-In five different functions, it should be extracted into a shared function. If multiple classes
+in five different functions, it should be extracted into a shared function. If multiple classes
 Share the same attributes and methods, they should inherit from a common superclass. The "don't
 Repeat yourself" (DRY) principle is a guideline for identifying where abstraction is needed.
 
@@ -1090,15 +1090,15 @@ Expected, without altering the correctness of the program. If a Square class ext
 Overrides `setWidth()` to also set the height (to maintain the square invariant), then a Square
 Object cannot be used interchangeably with a Rectangle object. Code that calls `setWidth(5)`
 Followed by `setHeight(10)` on a Rectangle expects the area to be 50, but on a Square the area would
-Be 100. This is a violation of abstraction: the subclass does not truly behave like its superclass.
+be 100. This is a violation of abstraction: the subclass does not truly behave like its superclass.
 
 ### Ignoring Preconditions and Postconditions
 
 An ADT's contract is defined by its preconditions and postconditions. If the documentation says that
 `pop()` requires the stack to be non-empty (precondition) and that `pop()` returns the top element
-And decreases the size by one (postcondition), both sides must be honored. The caller must not call
+and decreases the size by one (postcondition), both sides must be honored. The caller must not call
 `pop()` on an empty stack, and the implementation must correctly return the top element. Violations
-On either side lead to bugs that are difficult to trace.
+on either side lead to bugs that are difficult to trace.
 
 ## Common Pitfalls in Data Modeling
 
@@ -1321,7 +1321,7 @@ Earliest elements added are the first to be removed.
 
 **Problem 5.** Design a class `LibraryItem` as an abstract superclass with subclasses `Book` and
 `DVD`. Both have a title and an item ID. Books have an author and page count. DVDs have a director
-And duration in minutes. Include an abstract method `getDetails()` that returns a formatted string.
+and duration in minutes. Include an abstract method `getDetails()` that returns a formatted string.
 
 <details>
 <summary>Solution</summary>
@@ -1387,7 +1387,7 @@ must Be true before an operation is called (e.g., the stack must not be empty be
 returns the top Element and the size decreases by one).
 
 If the caller violates a precondition, the behavior of the ADT is **undefined**. The implementation
-Is not required to handle invalid input gracefully because the contract was broken by the caller.
+is not required to handle invalid input gracefully because the contract was broken by the caller.
 Possible consequences include: returning incorrect results, corrupting the data structure, throwing
 an Error, or causing a crash. This is why callers must always check preconditions (e.g., call
 `isEmpty()` before `pop()`).
@@ -1424,7 +1424,7 @@ The Liskov Substitution Principle states that objects of a superclass should be 
 Objects of a subclass without altering the correctness of the program.
 
 A `Square` inheriting from `Rectangle` violates LSP because a square has the invariant that width
-Must equal height. If `Rectangle` has `setWidth(w)` and `setHeight(h)`And `Square` overrides
+must equal height. If `Rectangle` has `setWidth(w)` and `setHeight(h)`And `Square` overrides
 `setWidth(w)` to also set height to w, then code calling `setWidth(5)` followed by `setHeight(10)`
 Expects the area to be 50 on a `Rectangle`But on a `Square` it would be 100. The `Square` cannot Be
 substituted for `Rectangle` because it behaves differently. The correct design is to have both
@@ -1443,7 +1443,7 @@ An **abstract class** can contain both abstract methods (no implementation) and 
 class (single inheritance). Use an abstract class when subclasses share common code and state.
 
 An **interface** contains only method signatures (no implementation) and no instance variables (in
-Most languages). A class can implement multiple interfaces. Use an interface when you need to define
+most languages). A class can implement multiple interfaces. Use an interface when you need to define
 a Contract that unrelated classes can fulfill, or when a class already extends another class and you
 need Additional polymorphic behavior.
 
@@ -1583,7 +1583,7 @@ This follows the open-closed principle: open for extension, closed for modificat
 `get(index)`And `size()`. The initial implementation uses a dynamic array. Later, the developer
 Switches to a doubly-linked list because the application frequently inserts and removes elements at
 Arbitrary positions. Explain what changes are needed in (a) the ADT specification, and (b) the code
-That uses the ADT.
+that uses the ADT.
 
 <details>
 <summary>Solution</summary>

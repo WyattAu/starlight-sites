@@ -35,7 +35,7 @@ flowchart TD
 > **Info:** Board Coverage Edexcel P1, P3 | CIE P2, P4
 Development economics studies how nations transform from low-income, less-productive economies into
 High-income, modern economies. It is distinct from mainstream macroeconomics because it must grapple
-With institutional failure, poverty traps, and structural transformation, problems that are largely
+with institutional failure, poverty traps, and structural transformation, problems that are largely
 Absent in advanced economies.
 
 ## 1. What is Development?
@@ -110,7 +110,7 @@ $$
 
 **Definition.** The **Gini coefficient** measures income inequality within a country. It ranges from
 $0$ (perfect equality, everyone has the same income) to $1$ (perfect inequality, one person has
-All the income).
+all the income).
 
 The Gini coefficient is derived from the **Lorenz curve**, which plots the cumulative share of
 Income received by the cumulative share of the population (ordered from poorest to richest).
@@ -120,7 +120,7 @@ $$
 $$
 
 Where $A$ is the area between the line of perfect equality and the Lorenz curve, and $B$ is the area
-Under the Lorenz curve.
+under the Lorenz curve.
 
 | Country      | Gini (approx.) | Interpretation      |
 | ------------ | -------------- | ------------------- |
@@ -146,7 +146,7 @@ Under the Lorenz curve.
 
 :::note
 Different development indicators, including the HDI and Gini coefficient. **Edexcel** focuses on GDP
-Per capita and HDI as measures of living standards, and may ask you to compare indicators across
+per capita and HDI as measures of living standards, and may ask you to compare indicators across
 Countries.
 :::
 

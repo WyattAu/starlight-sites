@@ -131,7 +131,7 @@ int main() {
 
 :::caution
 Does not participate in the One Definition Rule (ODR) for the discarded path. However, the
-Non-discarded path is still subject to all normal C++ rules. Be careful with side effects in
+non-discarded path is still subject to all normal C++ rules. Be careful with side effects in
 `if constexpr` branches --- a discarded branch that would have had a side effect does not execute,
 But a taken branch with a side effect does execute at runtime.
 :::
@@ -139,7 +139,7 @@ But a taken branch with a side effect does execute at runtime.
 ## Type-Safe `to_string` with `if constexpr`
 
 Before `if constexpr`Writing a type-safe string conversion function required either specialization
-Or SFINAE. With `if constexpr`The implementation is straightforward:
+or SFINAE. With `if constexpr`The implementation is straightforward:
 
 ```cpp
 #include <iostream>
@@ -286,14 +286,14 @@ Output:
 :::tip
 Full/partial template specialization for dispatching based on type properties because it keeps all
 Logic in a single function body, avoids code duplication, and is easier to maintain. Specialization
-Is still necessary when different types require fundamentally different function signatures or
+is still necessary when different types require fundamentally different function signatures or
 Return types.
 :::
 
 ## `constexpr` Functions
 
 A `constexpr` function [N4950 §7.7] is a function that **may** be evaluated at compile time. If all
-Of its arguments are constant expressions, the compiler is required to attempt compile-time
+of its arguments are constant expressions, the compiler is required to attempt compile-time
 Evaluation. If evaluation fails (e.g., because a runtime-dependent value is encountered), the
 Function is evaluated at runtime instead.
 
@@ -408,7 +408,7 @@ http
 Compile time and runtime. Use `consteval` when the function is intended only for compile-time
 Computation and should never appear in the generated binary. `consteval` functions can call other
 `consteval` and `constexpr` functions, but a `constexpr` function cannot call a `consteval` function
-With a non-constant argument (because the `consteval` function would fail its compile-time
+with a non-constant argument (because the `consteval` function would fail its compile-time
 Requirement).
 :::
 

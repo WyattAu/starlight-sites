@@ -76,7 +76,7 @@ Determined by supply and demand in the foreign exchange market.
 ### The Marshall-Lerner Condition and J-Curve
 
 A currency depreciation improves the current account balance only if the sum of the absolute values
-Of PED for exports and PED for imports exceeds 1:
+of PED for exports and PED for imports exceeds 1:
 
 $$
 |\mathrm{PED}_X| + |\mathrm{PED}_M| > 1
@@ -202,7 +202,7 @@ short run (the "forward premium puzzle").
 ### The Marshall-Lerner Condition: Derivation
 
 The trade balance in domestic currency (assuming imports are denominated in foreign currency and
-Then converted):
+then converted):
 
 $$
 \mathrm{TB} = P_X \cdot X(S) - S \cdot P_M^* \cdot M(S)

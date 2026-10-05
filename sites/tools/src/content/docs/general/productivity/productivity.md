@@ -38,7 +38,7 @@ The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) 
 ### Time Blocking
 
 Time blocking assigns specific time slots to specific tasks. This prevents the reactive mode where
-You spend the entire day responding to Slack messages and pull request reviews.
+you spend the entire day responding to Slack messages and pull request reviews.
 
 **Daily template for a systems engineer:**
 
@@ -135,7 +135,7 @@ Tool matters less than the system. Options include:
 ### Spaced Repetition
 
 Spaced repetition exploits the spacing effect, information is retained better when review is spaced
-Over increasing intervals. Tools like Anki automate this process.
+over increasing intervals. Tools like Anki automate this process.
 
 For technical learning, create flashcards for:
 
@@ -467,13 +467,13 @@ Hour can consume 50% of your productive time. Defend your deep work time aggress
 
 There is no later. If something is worth learning, schedule it now. The half-life of technical
 Knowledge is short, and the skills you defer learning today will be more expensive to learn tomorrow
-When you actually need them.
+when you actually need them.
 
 ### Note-Taking Without Reviewing
 
 Capturing information without reviewing it is not learning, it is hoarding. Schedule weekly review
 Sessions where you revisit your notes, reorganize them, and identify gaps. Spaced repetition tools
-Like Anki automate the review process.
+like Anki automate the review process.
 
 ### Measuring Productivity by Hours
 
@@ -521,7 +521,7 @@ This rule prevents small tasks from accumulating and becoming mental clutter.
 ### Atomic Notes
 
 The core unit in Zettelkasten is the atomic note, a single idea expressed in your own words. Rules
-For atomic notes:
+for atomic notes:
 
 1. **One idea per note.** If a note covers two ideas, split it.
 2. **Write in your own words.** Do not copy-paste from sources. Paraphrasing forces understanding.
@@ -733,7 +733,7 @@ Implement one idea from the book and track the results.
 ### Over-Tooling
 
 Using 20 different productivity apps creates more overhead than the productivity gains. Consolidate
-To a minimal toolset:
+to a minimal toolset:
 
 - Calendar (time blocking)
 - Task list (todo tracking)
@@ -771,7 +771,7 @@ Time    Energy    Best Activity Type
 ```
 
 Map your most cognitively demanding tasks to your peak energy windows. Use the lowest-energy periods
-For meetings and administrative work that does not require deep concentration.
+for meetings and administrative work that does not require deep concentration.
 
 ### The Two-Session Day
 
@@ -801,7 +801,7 @@ Batch all shallow tasks (email, Slack responses, PR reviews, CI triage) into spe
 ```
 
 The key insight is that every context switch has a cost. Research consistently shows that resuming
-An interrupted task takes 10-25 minutes of re-orientation time. Batching reduces the number of
+an interrupted task takes 10-25 minutes of re-orientation time. Batching reduces the number of
 Switches from potentially dozens per day to two or three.
 
 ## The Cornell Method for Technical Notes
@@ -844,7 +844,7 @@ After a learning session (reading documentation, watching a talk, debugging an i
 ## Zettelkasten for Technical Knowledge
 
 The Zettelkasten (slip-box) method is a note-taking system designed to facilitate emergent insights
-Through linkages between ideas. For engineers, it is particularly effective for building a knowledge
+through linkages between ideas. For engineers, it is particularly effective for building a knowledge
 Graph of debugging solutions, design patterns, and architecture decisions.
 
 ### Atomic Notes
@@ -940,7 +940,7 @@ Understanding by attempting to explain a concept in simple terms.
 
 "ZFS never overwrites data in place. When you modify a file, ZFS writes the new data to a new
 Location on disk and updates the metadata to point to the new location. The old data stays on disk
-Until the snapshot that references it is destroyed.
+until the snapshot that references it is destroyed.
 
 Think of it like a version control system for your entire filesystem. Every change creates a new
 'commit.' Old commits stay around until you explicitly delete them. This means you can always
@@ -997,7 +997,7 @@ anki --import /tmp/anki-import.txt --deck "Systems Engineering"
 
 Burnout in systems engineering is common because the role involves constant context switching,
 On-call responsibilities, and the stress of managing production systems where failures are visible
-And impactful.
+and impactful.
 
 ### The Burnout Cycle
 
@@ -1030,7 +1030,7 @@ Project, every on-call shift, and every request.
 ## Sustainable Productivity Metrics
 
 Avoid measuring productivity in terms of hours worked or lines of code. These are vanity metrics
-That encourage presenteeism over effectiveness.
+that encourage presenteeism over effectiveness.
 
 ### Better Metrics
 
@@ -1053,7 +1053,7 @@ Use a personal weekly review (30 minutes every Friday):
 
 Keep this private. The purpose is self-reflection, not reporting to management. Over time, you will
 Develop an intuitive sense of your sustainable output rate, which helps with realistic estimation
-And commitment management.
+and commitment management.
 
 ## Summary
 

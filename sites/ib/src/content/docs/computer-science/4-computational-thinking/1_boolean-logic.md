@@ -34,7 +34,7 @@ Exactly one of these two values, and every Boolean function can be expressed, si
 Implemented using a finite set of operators.
 
 The three fundamental operators are AND, OR, and NOT. From these three, all other Boolean operators
-Can be derived. NAND and NOR are called universal gates because either one alone is sufficient to
+can be derived. NAND and NOR are called universal gates because either one alone is sufficient to
 Construct any Boolean function. XOR and XNOR are useful for parity and comparison operations.
 
 ### Basic Operators
@@ -180,7 +180,7 @@ Counting order. For variables `A``B``C`:
 ### Four-Variable Truth Tables
 
 A four-variable expression has $2^4 = 16$ rows. The standard ordering assigns the leftmost variable
-As the most significant bit. For variables `A``B``C``D`:
+as the most significant bit. For variables `A``B``C``D`:
 
 | `A` | `B` | `C` | `D` | `A` AND `B` AND `C` AND `D` | `A` OR `B` OR `C` OR `D` |
 | --- | --- | --- | --- | --------------------------- | ------------------------ |
@@ -224,7 +224,7 @@ $A\overline{B}\overline{C}$$A\overline{B}C$.
 ## Boolean Identities and Laws
 
 The following identities are the tools for algebraic simplification. Each identity can be verified
-By constructing truth tables for both sides and confirming they are identical.
+by constructing truth tables for both sides and confirming they are identical.
 
 ### Fundamental Identities
 
@@ -243,7 +243,7 @@ By constructing truth tables for both sides and confirming they are identical.
 ### De Morgan's Laws
 
 De Morgan's Laws are the most frequently applied identities in Boolean simplification. They allow
-The distribution of a NOT over an AND or OR:
+the distribution of a NOT over an AND or OR:
 
 $$
 \overline{A \cdot B} = \overline{A} + \overline{B}
@@ -336,7 +336,7 @@ $$
 
 Simplification reduces the number of gates and inputs required, which reduces cost, propagation
 Delay, and power consumption. The approach is systematic: apply identities one at a time, justifying
-Each step.
+each step.
 
 ### Worked Example 1
 
@@ -515,13 +515,13 @@ Groups of adjacent 1s (or 0s).
 ### The Adjacency Principle
 
 Two minterms are adjacent if they differ in exactly one variable. Adjacent minterms can be combined
-By eliminating the variable that changes. In a K-map, adjacency wraps around the edges (the top row
-Is adjacent to the bottom row; the leftmost column is adjacent to the rightmost column).
+by eliminating the variable that changes. In a K-map, adjacency wraps around the edges (the top row
+is adjacent to the bottom row; the leftmost column is adjacent to the rightmost column).
 
 ### 2-Variable K-Map
 
 A 2-variable K-map has $2^2 = 4$ cells. The columns represent one variable and the rows represent
-The other.
+the other.
 
 **Worked example:** Minimize
 $F = \overline{A} \cdot \overline{B} + \overline{A} \cdot B + A \cdot \overline{B}$
@@ -543,7 +543,7 @@ Result: $F = \overline{A} + \overline{B}$
 
 Verify: The three minterms
 $\overline{A}\overline{B} + \overline{A}B + A\overline{B} = \overline{A}(\overline{B} + B) + A\overline{B} = \overline{A} + A\overline{B} = \overline{A} + \overline{B}$
-By absorption. Correct.
+by absorption. Correct.
 
 ### 3-Variable K-Map
 
@@ -688,7 +688,7 @@ Optimal grouping:
 - $\overline{A}C$: covers $m_1, m_3$ (2 cells, $m_1$ overlaps)
 
 But $m_3$ is not covered by $\overline{B}C$. And $m_5$ is not covered by $\overline{A}C$. So we need
-Both. Can we do better with don't cares?
+both. Can we do better with don't cares?
 
 Set $m_0$ to 1: pair $m_0, m_1$ → $\overline{A}\overline{B}$. Set $m_6$ to 1: $m_6$ is isolated.
 
@@ -722,7 +722,7 @@ $\overline{1 \cdot 0} = \overline{0} = 1$. Correct.
 So $F = \overline{A \cdot B} \cdot C$ = $\overline{A}C + \overline{B}C$.
 
 This covers $m_1, m_3, m_5$ with only 2 terms and 3 literals. No don't cares were even needed for
-This simplification -- the expression was already optimizable. But don't cares give us additional
+this simplification -- the expression was already optimizable. But don't cares give us additional
 Flexibility if we needed to cover $m_0$ or $m_6$.
 
 **Final answer:** $F = \overline{A}C + \overline{B}C$ (implemented as 2 NOT gates, 2 AND gates, 1 OR
@@ -748,13 +748,13 @@ To obtain the POS form, group the 0s instead of the 1s, then apply De Morgan's L
 The 0s are at: $m_3, m_4, m_6, m_7, m_{11}, m_{12}, m_{13}, m_{14}, m_{15}$.
 
 This produces a POS expression. However, since there are more 0s than 1s in this case, the SOP form
-Is simpler. POS is advantageous when there are fewer 0s than 1s.
+is simpler. POS is advantageous when there are fewer 0s than 1s.
 
 ## Don't Care Conditions
 
 Don't care conditions arise when certain input combinations can never occur or when the output value
-For certain inputs is irrelevant. In K-maps, don't cares are marked with `X` and can be treated as
-Either 0 or 1, whichever produces a simpler expression.
+for certain inputs is irrelevant. In K-maps, don't cares are marked with `X` and can be treated as
+either 0 or 1, whichever produces a simpler expression.
 
 **Worked example:** A circuit has inputs `A``B``C` where the input combination `A = 1, B = 1, C = 1`
 is impossible. The required outputs for the other 7 combinations are:
@@ -806,7 +806,7 @@ $\overline{A}C + A\overline{B}$ (2 terms, 4 literals).
 ### Boolean Expression to Truth Table
 
 Given any Boolean expression, evaluate it for every combination of input values. For an expression
-With $n$ variables, construct $2^n$ rows and evaluate the expression for each.
+with $n$ variables, construct $2^n$ rows and evaluate the expression for each.
 
 ### Truth Table to Boolean Expression (SOP)
 
@@ -926,7 +926,7 @@ $$
 This form has significance: it shows that a full adder can be constructed from two half adders. The
 First half adder computes $A \oplus B$ (partial sum) and $A \cdot B$ (partial carry). The second
 Half adder adds the partial sum and $C_{in}$ to get the final sum, and the final carry is the OR of
-The partial carry and the carry from the second half adder.
+the partial carry and the carry from the second half adder.
 
 ### Worked Example: Building a Circuit from a Truth Table
 
@@ -1034,8 +1034,8 @@ Incorrect expression.
 ### Ignoring Don't Care Conditions
 
 Don't care conditions provide additional flexibility for simplification. Setting a don't care to 0
-When it should be 1 (or vice versa) may prevent the formation of a larger group, resulting in a
-Non-minimal expression. Always consider both options for each don't care and choose the one that
+when it should be 1 (or vice versa) may prevent the formation of a larger group, resulting in a
+non-minimal expression. Always consider both options for each don't care and choose the one that
 Maximizes group sizes.
 
 ### Incorrect Gate Counting
@@ -1142,7 +1142,7 @@ F = A
 $$
 
 Every term contains $A$ as a factor, so $A$ absorbs all of them. The entire expression simplifies to
-Just $A$.
+just $A$.
 
 </details>
 
@@ -1440,7 +1440,7 @@ The consensus theorem states: $AB + \overline{A}C + BC = AB + \overline{A}C$.
 
 The term $BC$ is redundant because whenever $BC = 1$ (meaning $B=1$ and $C=1$), either $A=1$ (making
 $AB=1$) or $A=0$ (making $\overline{A}C=1$). So $BC = 1$ always coincides with at least one of the
-Other terms being 1.
+other terms being 1.
 
 **Verification:**
 

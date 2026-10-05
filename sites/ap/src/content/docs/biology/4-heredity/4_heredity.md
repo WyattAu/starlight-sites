@@ -35,7 +35,7 @@ categories:
 ### Meiosis Overview
 
 Meiosis reduces the chromosome number by half, producing four genetically distinct haploid cells
-From one diploid cell.
+from one diploid cell.
 
 | Feature           | Mitosis        | Meiosis           |
 | ----------------- | -------------- | ----------------- |
@@ -231,7 +231,7 @@ Genes A, B, and C are on the same chromosome. The recombination frequencies are:
 A-B: 12% B-C: 8% A-C: 4%
 
 The gene order is A--C--B (not A--B--C), because the recombination frequency between A and C (4%) is
-Less than between A and B (12%). If the order were A--B--C, the A-C distance would be 20%, not 4%.
+less than between A and B (12%). If the order were A--B--C, the A-C distance would be 20%, not 4%.
 
 The map is:
 
@@ -256,7 +256,7 @@ Ratio: 9 black : 3 brown : 4 yellow.
 ### Pleiotropy
 
 One gene affects multiple, seemingly unrelated phenotypic traits. Example: Marfan syndrome affects
-The skeleton, eyes, and cardiovascular system.
+the skeleton, eyes, and cardiovascular system.
 
 ### Polygenic Inheritance
 
@@ -273,7 +273,7 @@ Phenotypes due to different environments.
 ### Nondisjunction
 
 Failure of homologous chromosomes or sister chromatids to separate during meiosis, producing gametes
-With abnormal chromosome numbers.
+with abnormal chromosome numbers.
 
 | Condition                  | Cause               | Description                                             |
 | -------------------------- | ------------------- | ------------------------------------------------------- |
@@ -406,7 +406,7 @@ Behaviour of chromosomes during meiosis accounts for inheritance patterns.
 
 **Linked genes:** Genes located on the same chromosome tend to be inherited together because they
 Are physically connected. This violates Mendel's law of independent assortment, which only applies
-To genes on different chromosomes.
+to genes on different chromosomes.
 
 **Crossing over and recombination:** During Prophase I of meiosis, homologous chromosomes pair up
 And exchange segments at chiasmata. Crossing over can separate linked genes if it occurs between
@@ -479,7 +479,7 @@ Three-point cross corrects for this by counting the double crossovers twice.
 
 **Mammalian sex determination:** The SRY gene (Sex-determining Region Y) on the Y chromosome
 Triggers testis development. In the absence of SRY, ovaries develop. Therefore, the default pathway
-Is female development; male development requires the SRY gene product.
+is female development; male development requires the SRY gene product.
 
 **Dosage compensation (X-inactivation):** Females have two X chromosomes while males have one. To
 Balance gene expression, one X chromosome in each female cell is randomly inactivated during early
@@ -488,7 +488,7 @@ Embryonic development, forming a Barr body (a condensed, transcriptionally inact
 X-inactivation was discovered by Mary Lyon (1961) and is called the Lyon hypothesis. Because
 Inactivation is random, female mammals are mosaics: different cells express different X chromosomes.
 This is visible in calico cats (where coat colour is X-linked): only females can be calico because
-They have two X chromosomes with different colour alleles, and random X-inactivation produces
+they have two X chromosomes with different colour alleles, and random X-inactivation produces
 Patches of different colours.
 
 **Worked Example: Inheritance of X-linked haemophilia through three generations.**
@@ -508,12 +508,12 @@ Spread through the royal families of Europe.
 
 **Y-linked inheritance:** Genes on the Y chromosome are passed only from father to son. Examples
 Include the SRY gene (sex determination) and some genes involved in male fertility. Y-linked traits
-Are very rare because the Y chromosome is small and carries few genes.
+are very rare because the Y chromosome is small and carries few genes.
 
 ## Review: Polygenic Inheritance and Continuous Variation
 
 Most traits are influenced by multiple genes (polygenic inheritance), producing continuous variation
-That follows a normal distribution (bell curve).
+that follows a normal distribution (bell curve).
 
 **Examples of polygenic traits:** Height, skin colour, eye colour, intelligence, risk of developing
 Certain diseases (e.g., type 2 diabetes, heart disease).
@@ -530,7 +530,7 @@ Parental average, following a normal distribution.
 **Environmental influence on polygenic traits:** Even strongly genetic traits are influenced by the
 Environment. Height, for example, is approximately 80% heritable, but nutrition during childhood has
 A significant effect. A person with genes for tall stature who is malnourished during childhood will
-Not reach their full genetic potential height.
+not reach their full genetic potential height.
 
 ## Review: Epigenetics and Gene Expression
 
@@ -602,11 +602,11 @@ Depending on which parent contributed the affected chromosome.
 
 A woman with Angelman syndrome (deletion of maternal UBE3A region) has a child with a normal father.
 The child inherits a normal maternal chromosome 15 and a normal paternal chromosome 15. The child
-Will be unaffected because the paternal UBE3A allele is active in the relevant brain regions.
+will be unaffected because the paternal UBE3A allele is active in the relevant brain regions.
 
 However, if the same woman's brother (who has Prader-Willi syndrome due to the same deletion on his
 Paternal chromosome 15) has a child with a normal woman, the child will also be unaffected because
-It inherits a normal paternal chromosome 15 from the father.
+it inherits a normal paternal chromosome 15 from the father.
 
 ## Review: Variations in Inheritance -- Lethal Alleles
 
@@ -674,7 +674,7 @@ Recessive disorders or imprinting disorders.
 
 **Clinical significance:** UPD can cause recessive disorders even if only one parent is a carrier.
 For example, if a child has maternal uniparental disomy for chromosome 7 and the mother is a carrier
-For cystic fibrosis (recessive), the child could be homozygous for the CF allele and have cystic
+for cystic fibrosis (recessive), the child could be homozygous for the CF allele and have cystic
 Fibrosis, even if the father is not a carrier.
 
 UPD for chromosomes with imprinted regions (e.g., chromosomes 7, 11, 15) can also cause imprinting
@@ -685,7 +685,7 @@ UPD of chromosome 15 causes Angelman syndrome.
 
 **Telomeres** are repetitive nucleotide sequences (TTAGGG in humans) at the ends of chromosomes.
 They protect the chromosome ends from degradation and prevent chromosomes from fusing with each
-Other.
+other.
 
 **The end-replication problem:** DNA polymerase cannot fully replicate the 3' end of the lagging
 Strand, so telomeres shorten with each cell division. After approximately 50-70 cell divisions,
@@ -700,7 +700,7 @@ Therapy.
 
 A skin cell divides 30 times. Each division shortens the telomere by approximately 50-200 base
 Pairs. After 30 divisions, the telomere has shortened by approximately 1500-6000 base pairs. When
-The telomere becomes too short, the cell enters senescence and can no longer divide. This limits the
+the telomere becomes too short, the cell enters senescence and can no longer divide. This limits the
 Regenerative capacity of tissues and contributes to ageing. In contrast, stem cells in the basal
 Layer of the epidermis express telomerase, maintaining their telomere length and allowing continuous
 Skin renewal throughout life.
@@ -729,7 +729,7 @@ Chromosomal abnormalities. Techniques include:
 **Worked Example: Detecting a translocation using FISH.**
 
 A patient has suspected chronic myelogenous leukaemia (CML), which is caused by a translocation
-Between chromosomes 9 and 22 (the Philadelphia chromosome). A FISH probe specific to the BCR gene on
+between chromosomes 9 and 22 (the Philadelphia chromosome). A FISH probe specific to the BCR gene on
 Chromosome 22 (labelled red) and a probe specific to the ABL gene on chromosome 9 (labelled green)
 Are applied. In a normal cell, the red and green signals appear on separate chromosomes. In a CML
 Cell, a fused yellow signal appears on the Philadelphia chromosome, confirming the t(9;22)(q34;q11)
@@ -789,7 +789,7 @@ Markers. Using corrected distance: D-F = $22.0 + 2 \times 4.0 = 26.0$ cM.
 <summary>Question 2: Hardy-Weinberg with selection</summary>
 
 In a population, cystic fibrosis (autosomal recessive) has an incidence of 1 in 2500. If individuals
-With cystic fibrosis have a fitness of 0 (they do not reproduce), what will the frequency of the
+with cystic fibrosis have a fitness of 0 (they do not reproduce), what will the frequency of the
 Cystic fibrosis allele be after one generation of selection?
 
 </details>
@@ -874,7 +874,7 @@ Zygote: XX (egg) + Y (sperm) = XXY.
 
 (b) Nondisjunction in meiosis II: Meiosis I proceeds normally, producing secondary oocytes with one
 X each. In meiosis II, sister chromatids fail to separate in one cell, producing one XX gamete and
-One O gamete from that cell. When fertilised by a normal Y sperm, the XX gamete produces XXY.
+one O gamete from that cell. When fertilised by a normal Y sperm, the XX gamete produces XXY.
 
 Meiosis I: X and X (normal). Meiosis II: one X cell divides normally (X and X), the other has
 Nondisjunction (XX and O). Gametes: X, X, XX, O.

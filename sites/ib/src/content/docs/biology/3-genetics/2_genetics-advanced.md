@@ -694,7 +694,7 @@ Colonies, (f) inducing HGH expression. Explain the role of each enzyme and genet
 (a) **Obtaining the HGH gene**: extract mRNA from human pituitary cells, use reverse transcriptase
 to synthesise cDNA. Amplify the HGH cDNA by PCR using primers that incorporate restriction sites
 (e.g., EcoRI and BamHI at the $5'$ and $3'$ ends). This produces a gene without introns (essential
-For expression in prokaryotes, which cannot splice eukaryotic introns).
+for expression in prokaryotes, which cannot splice eukaryotic introns).
 
 (b) **Vector selection**: use a plasmid with: an origin of replication (for replication in _E.
 Coli_), An antibiotic resistance gene (e.g., ampicillin resistance, amp$^R$), a multiple cloning
@@ -702,7 +702,7 @@ site (MCS) With EcoRI and BamHI sites, and a promoter (e.g., lac promoter for in
 
 (c) **Creating the recombinant plasmid**: digest both the HGH cDNA and the plasmid with EcoRI and
 BamHI. Mix the fragments with **DNA ligase**, which forms phosphodiester bonds between the HGH gene
-And the opened plasmid.
+and the opened plasmid.
 
 (d) **Transformation**: introduce the ligation mixture into competent _E. Coli_ cells by heat shock
 ($42^\circ\mathrm{C}$ for $90\;\mathrm{s}$) or electroporation. Allow recovery in rich medium.
@@ -859,7 +859,7 @@ Golden Rice is genetically engineered to produce beta-carotene (provitamin A) in
 Addressing vitamin A deficiency in developing countries. (a) Describe the steps used to create
 Golden Rice. (b) Discuss two ecological concerns about widespread cultivation of GM crops. (c)
 Evaluate the argument that GM crops should be banned due to the precautionary principle, considering
-The potential benefits for human health.
+the potential benefits for human health.
 
 </details>
 
@@ -1094,7 +1094,7 @@ Reading from position 1 to 10: C, T, G, A, C, T, A, G, C, A.
 New strand ($5' \to 3'$): $5'$-CTGACTAGCA-$3'$
 
 The new strand is synthesised complementary to the template strand. The template strand is read in
-The $3' \to 5'$ direction by DNA polymerase, so:
+the $3' \to 5'$ direction by DNA polymerase, so:
 
 Template strand ($3' \to 5'$): $3'$-GACTGATCGT-$5'$ Which written $5' \to 3'$ is:
 $5'$-TGCTAGTCAG-$3'$
@@ -1230,7 +1230,7 @@ is used.
 <summary>Answer 6</summary>
 
 (a) Thymine dimers distort the DNA double helix, causing a kink. During replication, DNA polymerase
-Cannot read past the dimer, stalling the replication fork and potentially leading to double-strand
+cannot read past the dimer, stalling the replication fork and potentially leading to double-strand
 breaks Or error-prone translesion synthesis. During transcription, RNA polymerase may stall or
 incorporate Incorrect nucleotides, producing mutated mRNA and potentially dysfunctional proteins.
 
@@ -1301,7 +1301,7 @@ The Hox genes are a family of transcription factors that control body plan devel
 (a) Explain what is meant by "transcription factor" and describe the general structure of a
 Sequence-specific transcription factor. (b) Explain the concept of colinearity as it applies to Hox
 Genes. (c) A mutation in a Hox gene causes a homeotic transformation (e.g., legs developing in place
-Of antennae in _Drosophila_). Explain how a single gene mutation can cause such a dramatic
+of antennae in _Drosophila_). Explain how a single gene mutation can cause such a dramatic
 phenotypic Change. (d) Discuss why Hox genes are highly conserved across animal phyla.
 
 </details>
@@ -1760,10 +1760,10 @@ Approximately 1 in $4200$ people would be expected to match this profile. With m
 loci), The match probability would be $< 1$ in $10^{10}$.
 
 (c) Siblings share on average $50\%$ of their alleles. The brother has a $50\%$ chance of sharing
-Each allele with the suspect (vs. The population frequency for a random person). The sibling match
+each allele with the suspect (vs. The population frequency for a random person). The sibling match
 Probability is much higher than the random match probability. For a rough estimate: at each locus,
 The brother has approximately a $50\%$ chance of sharing each allele, so the probability of matching
-At one locus is approximately $(0.5)^2 + (0.5)^2 = 0.50$ (if homozygous) or
+at one locus is approximately $(0.5)^2 + (0.5)^2 = 0.50$ (if homozygous) or
 $2 \times 0.5 \times 0.5 = 0.50$ (if heterozygous). Across 3 loci: approximately $0.5^3 = 0.125$
 ($1$ in $8$). This is far higher Than the random match probability ($1$ in $4202$), illustrating why
 the suspect's relationship to Other potential sources of DNA is relevant in forensic analysis.

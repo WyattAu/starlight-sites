@@ -174,11 +174,11 @@ The shortest reciprocal lattice vector has magnitude
 $G_{\min} = 2\pi/(a\sqrt{2}) = 1.10 \times 10^{10}$ m$^{-1}$ (the (111) reflection of FCC).
 
 Since $k = 4.08 \times 10^{10}$ m$^{-1} \gt G_{\min}$The (111) point can lie on the Ewald sphere
-When the crystal is appropriately oriented. The maximum accessible $G$ is
+when the crystal is appropriately oriented. The maximum accessible $G$ is
 $G_{\max} = 2k = 8.16 \times 10^{10}$ M$^{-1}$Which allows access to many reflections.
 
 The **limiting sphere** of radius $2k$ centred at the origin contains all reciprocal lattice points
-That can potentially be accessed by rotating the crystal. Points outside this sphere can never
+that can potentially be accessed by rotating the crystal. Points outside this sphere can never
 Satisfy the diffraction condition for the given wavelength.
 
 </details>

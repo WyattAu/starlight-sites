@@ -24,8 +24,8 @@ categories:
 ### The Case for `pathlib` Over `os.path`
 
 The `os.path` module is a collection of free functions that operate on path strings. It was designed
-In an era before Python had a coherent object model for paths. `pathlib` (Python 3.4+) replaces this
-With an object-oriented API where a `Path` instance represents a single filesystem path.
+in an era before Python had a coherent object model for paths. `pathlib` (Python 3.4+) replaces this
+with an object-oriented API where a `Path` instance represents a single filesystem path.
 
 The argument for `pathlib` is not aesthetic preference. It is about **composability** and
 **correctness**:
@@ -125,7 +125,7 @@ print(p.suffixes) # ['.12']
 ```
 
 `PurePosixPath` and `PureWindowsPath` perform only string manipulation -- no filesystem access. This
-Is useful for constructing or parsing paths for remote systems.
+is useful for constructing or parsing paths for remote systems.
 
 ## `sys`: Interpreter State
 
@@ -135,7 +135,7 @@ Reference counting, and process-level control.
 ### `sys.argv`: Command-Line Arguments
 
 `sys.argv` is a list of strings. `sys.argv[0]` is the script name (or `'-'` for stdin). Everything
-After is a positional argument. It does not handle options, flags, or defaults -- for that, use
+after is a positional argument. It does not handle options, flags, or defaults -- for that, use
 `argparse`.
 
 ```python
@@ -170,13 +170,13 @@ import mymodule  # found in /opt/custom_libs first
 
 Modifying `sys.path` at runtime is fragile. For reproducible imports, use proper package
 Installation or `PYTHONPATH`. Mutating `sys.path` in library code is particularly dangerous because
-It affects the global import state of the entire process.
+it affects the global import state of the entire process.
 
 ### `sys.modules`: The Module Cache
 
 `sys.modules` is a dictionary mapping module names to loaded module objects. The import system
 Checks this dictionary first -- if a module is already loaded, `import` returns the cached object
-Without re-executing the module's code.
+without re-executing the module's code.
 
 ```python
 import sys
@@ -225,7 +225,7 @@ print(type(deserialized))   # <class 'dict'>
 ```
 
 `json.dumps()` returns a string. `json.dump()` writes directly to a file object. The symmetric pair
-Is `json.loads()` (from string) and `json.load()` (from file object).
+is `json.loads()` (from string) and `json.load()` (from file object).
 
 ### Custom Encoders and Decoders
 
@@ -283,7 +283,7 @@ Pickle can serialize functions, classes, and object graphs with cycles. But `pic
 Untrusted data is equivalent to arbitrary code execution -- the pickled byte stream can contain
 Instructions to call any callable, import any module, and execute arbitrary code. For data
 Interchange between systems or for storage that must survive Python version upgrades, JSON is the
-Only safe choice.
+only safe choice.
 
 ```python
 import pickle
@@ -479,7 +479,7 @@ print(process([1, "a"]))    # [2, 'A']
 
 The `register` attribute can also be used as a decorator with explicit type arguments:
 `@process.register(list)`. When used with type annotations, the annotation is extracted and used as
-The dispatch key.
+the dispatch key.
 
 ### `functools.wraps`
 
@@ -634,7 +634,7 @@ data: Any = json.loads(raw_string)
 ### `Protocol`: Structural Typing
 
 `Protocol` (Python 3.8+) enables structural typing. A class is considered a subtype of a Protocol if
-It has the right methods, regardless of whether it explicitly inherits from the Protocol.
+it has the right methods, regardless of whether it explicitly inherits from the Protocol.
 
 ```python
 from typing import Protocol, runtime_checkable
@@ -709,7 +709,7 @@ function's parameters. `ParamSpec` captures the full parameter signature as a ty
 ## `dataclasses`: Beyond Basics
 
 The `@dataclass` decorator (covered in the OOP chapter for fundamentals) supports advanced patterns
-Through the `field()` function, `__post_init__`And inheritance.
+through the `field()` function, `__post_init__`And inheritance.
 
 ### `__post_init__` for Validation and Derived Fields
 
@@ -850,9 +850,9 @@ Pickling, multiprocess serialization, or when the enum is re-imported.
 
 `print` writes to stdout unconditionally. It has no severity levels, no filtering, no routing to
 Files or network endpoints, no timestamps, no module attribution, and no ability to be disabled
-Without modifying source code. In a library, `print` is not just unprofessional -- it is actively
+without modifying source code. In a library, `print` is not just unprofessional -- it is actively
 Harmful because it pollutes the consumer's stdout with messages the consumer did not request and
-Cannot control.
+cannot control.
 
 The `logging` module solves all of these problems:
 
@@ -879,7 +879,7 @@ def process_item(item_id: int) -> None:
 
 :::note
 Formatting until it determines that the message will actually be emitted. With f-strings, the string
-Is always constructed even if the log level is filtered out.
+is always constructed even if the log level is filtered out.
 `logger.debug("Expensive: %r", compute_value())` does not call `compute_value()` if DEBUG is not
 Enabled. `logger.debug(f"Expensive: {compute_value()}")` always calls it.
 
@@ -979,7 +979,7 @@ Common handlers:
 
 Libraries should never configure logging. They should create loggers with
 `logging.getLogger(__name__)` and attach a `NullHandler` so that logging does not produce warnings
-When no handler is configured.
+when no handler is configured.
 
 ```python
 # In mylib/__init__.py
@@ -994,7 +994,7 @@ logger.addHandler(logging.NullHandler())
 ### `date``time``datetime``timedelta`
 
 The `datetime` module provides four core types for temporal data. They are deliberately separate
-Because not every temporal concept needs all components.
+because not every temporal concept needs all components.
 
 ```python
 from datetime import date, time, datetime, timedelta, timezone
@@ -1016,7 +1016,7 @@ print(dt.isoformat())     # 2025-06-04T14:30:00+00:00
 ### Timezone-Aware vs Naive
 
 A naive `datetime` has no timezone information. It represents an abstract time that cannot be mapped
-To a specific instant on the timeline. An aware `datetime` carries a `tzinfo` subclass that defines
+to a specific instant on the timeline. An aware `datetime` carries a `tzinfo` subclass that defines
 Its offset from UTC.
 
 ```python

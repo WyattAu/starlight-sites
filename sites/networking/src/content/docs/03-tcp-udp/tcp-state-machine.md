@@ -185,7 +185,7 @@ State: ESTABLISHED
 
 FIN_WAIT_2 is the state where the active closer has finished sending but is waiting for the peer to
 Finish. If the peer never sends FIN (application crash, bug, network partition), the endpoint stays
-In FIN_WAIT_2 indefinitely.
+in FIN_WAIT_2 indefinitely.
 
 Linux protects against this with `tcp_fin_timeout` (default 60 seconds). After this timeout, the
 Kernel forcibly closes the connection and frees the resources.
@@ -222,7 +222,7 @@ Client                          Server
 
 This results in a connection that is functionally identical to a normal three-way handshake. The key
 Difference is both sides independently chose their ISNs, and both sent SYN before seeing the
-Other's.
+other's.
 
 ## Simultaneous Close
 
@@ -368,7 +368,7 @@ RST instead of FIN. This happens when:
 ### RST Attacks
 
 RST injection attacks exploit the fact that TCP accepts RSTs with a valid sequence number (within
-The current receive window). An attacker who can guess or observe the sequence number can send a
+the current receive window). An attacker who can guess or observe the sequence number can send a
 Spoofed RST and kill the connection.
 
 Mitigations:
@@ -628,7 +628,7 @@ sysctl net.ipv4.tcp_timestamps
 
 Without SACK, TCP can only acknowledge contiguous data. If segments 1, 2, 4, 5, 6 are received
 (segment 3 lost), the receiver can only ACK up to segment 2. The sender retransmits segment 3, but
-Does not know that 4, 5, 6 were also received.
+does not know that 4, 5, 6 were also received.
 
 With SACK, the receiver can say "I have 1-2 and 4-6" in a SACK option. The sender knows to
 Retransmit only segment 3.
@@ -660,7 +660,7 @@ ip mptcp limits
 
 TFO allows data to be sent in the SYN packet, saving one round trip for short-lived connections. The
 Client caches a cookie from a previous connection and includes it in the SYN. The server validates
-The cookie and processes the data immediately.
+the cookie and processes the data immediately.
 
 ```bash
 # Enable TCP Fast Open (client + server)
@@ -688,7 +688,7 @@ Application code.
 ### 3. Setting tcp_tw_recycle
 
 As noted above, `tcp_tw_recycle=1` was removed in Linux 4.12. It broke connectivity for clients
-Behind NAT. Never set this parameter.
+behind NAT. Never set this parameter.
 
 ### 4. TIME_WAIT on Load Balancers
 
@@ -705,14 +705,14 @@ Application, tune keepalive to detect dead connections within seconds or minutes
 
 Stateful firewalls track TCP connections. If they see a SYN without a matching SYN-ACK (or vice
 Versa), they may not create a state entry. TIME_WAIT accumulation on the server side can also fill
-The firewall's state table. Monitor firewall state table utilization.
+the firewall's state table. Monitor firewall state table utilization.
 
 ### 7. Misunderstanding SYN Cookies
 
 SYN cookies (RFC 4987) are a defense against SYN floods. They encode state in the SYN-ACK's ISN, so
-The server does not allocate resources until the ACK arrives. However, SYN cookies disable TCP
+the server does not allocate resources until the ACK arrives. However, SYN cookies disable TCP
 Options (window scaling, SACK, timestamps) in the initial handshake, reducing performance. Enable
-Only when under attack, or use SYN proxy instead.
+only when under attack, or use SYN proxy instead.
 
 ## TCP Timers Reference
 

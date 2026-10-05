@@ -30,7 +30,7 @@ The linked list was first described by Hans Peter Luhn at IBM (1953). The concep
 
 A singly linked list is a sequence of nodes where each node contains a value and a reference to the
 Next node. The list is accessed through a head pointer; traversal requires following pointers from
-The head.
+the head.
 
 ```python
 class ListNode:
@@ -74,7 +74,7 @@ def delete_node(head, val):
 
 :::note
 Position (given a pointer to the preceding node). The critical disadvantage is $O(n)$ random access
-And poor cache locality. In practice, arrays dominate because cache effects matter more than
+and poor cache locality. In practice, arrays dominate because cache effects matter more than
 Theoretical complexity for typical data sizes.
 
 ### Reversal
@@ -581,7 +581,7 @@ class MinHeap:
 ## Monotonic Stack
 
 A monotonic stack maintains elements in either strictly increasing or strictly decreasing order. It
-Is used to find the next greater/lesser element, previous greater/lesser element, and similar
+is used to find the next greater/lesser element, previous greater/lesser element, and similar
 Patterns.
 
 ### Next Greater Element
@@ -796,7 +796,7 @@ Extra lines) and the performance difference is enormous for large inputs.
 Python's default recursion limit is 1000. For linked lists with more than 1000 nodes, recursive
 Solutions (recursive reversal, recursive palindrome check) will crash with `RecursionError`. Use
 Iterative solutions for production code, or increase the limit with `sys.setrecursionlimit()` if you
-Are certain the input size is bounded.
+are certain the input size is bounded.
 
 ### 7. Priority Queue Inefficiency for Update Operations
 

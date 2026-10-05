@@ -167,7 +167,7 @@ Carbon circulates between the atmosphere, biosphere, hydrosphere, and lithospher
 ### The Nitrogen Cycle
 
 Nitrogen ($\mathrm{N}_2$) makes up $78\%$ of the atmosphere but is chemically inert and unavailable
-To most organisms. The nitrogen cycle converts $\mathrm{N}_2$ into biologically usable forms.
+to most organisms. The nitrogen cycle converts $\mathrm{N}_2$ into biologically usable forms.
 
 | Process               | Description                                                                                                                                                                                                    |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -311,7 +311,7 @@ $$
 Where $p^2$ = frequency of $AA$$2pq$ = frequency of $Aa$$q^2$ = frequency of $aa$.
 
 Deviations from Hardy-Weinberg proportions indicate that one or more evolutionary forces are acting
-On the population.
+on the population.
 
 ---
 
@@ -349,7 +349,7 @@ Sapiens_).
 
 A **dichotomous key** is a tool for identifying organisms through a series of paired (couplet)
 Statements, each leading to the next step or to an identification. At each step, the user chooses
-One of two alternatives based on observable characteristics.
+one of two alternatives based on observable characteristics.
 
 ---
 
@@ -416,7 +416,7 @@ $800 \times 0.10 = 80\;\mathrm{kJ/m^2/year}$.
 
 In a population of wildflowers, the allele for red flowers ($R$) is dominant over white ($r$). If
 $16\%$ of the population has white flowers, calculate the frequency of the $R$ allele, the frequency
-Of heterozygous individuals, and the percentage of the population that is homozygous dominant.
+of heterozygous individuals, and the percentage of the population that is homozygous dominant.
 
 </details>
 
@@ -511,7 +511,7 @@ Within Eukarya, the kingdoms are:
   cellulose cell walls include algae (e.g., _Chlorella_, _Chlamydomonas_).
 
 The organism most likely belongs to **Kingdom Protista**, specifically a photosynthetic alga. Note
-That some classification systems place algae within Plantae, but under the traditional IB
+that some classification systems place algae within Plantae, but under the traditional IB
 Convention, unicellular photosynthetic eukaryotes are classified as protists.
 
 </details>
@@ -556,7 +556,7 @@ $q' = 0.087 + \frac{1}{2}(0.522) = 0.087 + 0.261 = 0.348$
 
 The frequency of the dark allele ($D$) increased from $0.60$ to $0.652$ in one generation due to
 Directional selection favouring the dark phenotype. The light allele ($d$) is declining but has not
-Been eliminated because heterozygotes also carry and protect it.
+been eliminated because heterozygotes also carry and protect it.
 
 </details>
 
@@ -607,7 +607,7 @@ $= 200 \times 3.5 \times 365 \times 0.5 = 127750\;\mathrm{kg\;C/year} = 127.75\;
 
 The deer population consumes less than $1\%$ of annual NPP, suggesting the ecosystem can support
 Considerably more herbivory before NPP becomes limiting. However, this calculation does not account
-For other herbivores, decomposition losses, or the fact that only a portion of NPP is palatable.
+for other herbivores, decomposition losses, or the fact that only a portion of NPP is palatable.
 
 </details>
 
@@ -896,7 +896,7 @@ Glacial moraine).
 
 **Secondary succession**: recolonisation of a disturbed habitat where soil remains (e.g., after
 Fire, deforestation, abandoned farmland). Proceeds faster than primary succession because soil and
-Some organisms persist.
+some organisms persist.
 
 ### Keystone Species
 
@@ -1059,7 +1059,7 @@ A volcanic island is formed by a submarine eruption. Over 500 years, the island 
 Living organisms. (a) Describe the expected sequence of primary succession on the island, naming
 Specific types of organisms at each stage and explaining how they modify the environment for the
 Next stage. (b) Explain why the climax community on this island may differ from the climax community
-On a nearby mainland island. (c) If the island is later colonised by an invasive rat species,
+on a nearby mainland island. (c) If the island is later colonised by an invasive rat species,
 predict The impact on the native fauna and describe a conservation strategy to protect native
 species.
 
@@ -1400,7 +1400,7 @@ $= \frac{25}{80} + \frac{225}{70} + \frac{100}{30} + 0$ $= 0.313 + 3.214 + 3.333
 (b) $\mathrm{df} = 4 - 1 = 3$. Critical value at $p = 0.05$ for $3\;\mathrm{df} = 7.815$.
 
 (c) $\chi^2 = 6.860 < 7.815$. We fail to reject $H_0$ at $p = 0.05$. The difference between observed
-And expected habitat use is not statistically significant at the $5\%$ level. However, the result is
+and expected habitat use is not statistically significant at the $5\%$ level. However, the result is
 Close to significant, suggesting a trend toward habitat preference that might be detected with a
 larger Sample size.
 
@@ -1535,11 +1535,11 @@ Stratification:
 
 **Nutrient cycling**: most nutrients are stored in the biomass, not the soil. Decomposition is rapid
 Due to warm, moist conditions. Nutrients are quickly taken up by roots (nutrient conservation). Soil
-Is often nutrient-poor (oxisol/ultisol: heavily leached, high iron and aluminium content).
+is often nutrient-poor (oxisol/ultisol: heavily leached, high iron and aluminium content).
 
 **Adaptations**: buttress roots (shallow soil, tall trees need support); drip tips on leaves (shed
 Water quickly, prevent epiphyte growth); thin leaves with large surface area (maximise light capture
-In low light); epiphytes and lianas (compete for light in the canopy); cauliflory (flowers on trunk,
+in low light); epiphytes and lianas (compete for light in the canopy); cauliflory (flowers on trunk,
 For pollination by animals at lower levels).
 
 ### Temperate Deciduous Forest
@@ -1641,7 +1641,7 @@ Pole    : Polar Ice (Antarctic/Arctic)
 Lost at least $70\%$ of their original vegetation. There are $36$ recognised hotspots, including the
 Amazon, Madagascar, Sundaland, the Mediterranean Basin, and the Caribbean. These hotspots contain
 Approximately $50\%$ of the world's plant species and $42\%$ of terrestrial vertebrate species on
-Only $2.5\%$ of the Earth's land surface. Conservation resources are concentrated in hotspots for
+only $2.5\%$ of the Earth's land surface. Conservation resources are concentrated in hotspots for
 Maximum impact.
 
 **Island biogeography and conservation design**: the theory of island biogeography (MacArthur and
@@ -1690,7 +1690,7 @@ engineer).
 **Other keystone species examples**: sea otters (prey on sea urchins, maintaining kelp forests);
 Beavers (ecosystem engineers that create wetland habitat); elephants (modify savanna vegetation,
 Creating grasslands for other species); figs (keystone resources in tropical forests, providing food
-For many species when other fruits are scarce).
+for many species when other fruits are scarce).
 
 
 ```mermaid

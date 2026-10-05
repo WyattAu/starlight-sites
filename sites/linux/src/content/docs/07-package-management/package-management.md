@@ -572,7 +572,7 @@ snap info firefox
 ### How Dependency Resolution Works
 
 Package managers must solve a **dependency graph**, finding a set of package versions that satisfy
-All dependency constraints simultaneously. This is a SAT problem (Boolean satisfiability), which is
+all dependency constraints simultaneously. This is a SAT problem (Boolean satisfiability), which is
 NP-complete in the worst case.
 
 ```mermaid
@@ -795,7 +795,7 @@ pacman -Syu
 ### Pitfall: Nix Disk Usage
 
 The Nix store grows continuously as new package versions are added. Without garbage collection, it
-Can consume tens or hundreds of gigabytes:
+can consume tens or hundreds of gigabytes:
 
 ```bash
 # Check Nix store size

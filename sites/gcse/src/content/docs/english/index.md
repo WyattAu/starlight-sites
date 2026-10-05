@@ -78,13 +78,13 @@ Absence of an anthology, and whether texts may be taken into the examination.
 ## Assessment Objectives
 
 All four boards assess students against versions of the same four assessment objectives. These are
-The lens through which every essay is marked, and students must understand them before attempting
-Any examination response.
+the lens through which every essay is marked, and students must understand them before attempting
+any examination response.
 
 **AO1 -- Read, understand, and respond to texts.** This objective rewards clear, accurate
 Comprehension of the text and the ability to maintain a coherent, relevant argument throughout a
 Response. It also assesses the quality of written expression: spelling, punctuation, grammar, and
-The use of appropriate literary terminology.
+the use of appropriate literary terminology.
 
 **AO2 -- Analyse the language, form, and structure used by a writer to create meanings and
 Effects.** This is the core analytical objective. It requires students to engage with how a text is
@@ -101,7 +101,7 @@ Accurate spelling and punctuation.** On some boards this is integrated into AO1;
 Assessed separately. In all cases, the quality of written communication affects the overall mark.
 
 The weighting of these objectives varies by board and by question. For detailed breakdowns, consult
-The individual board specification documents.
+the individual board specification documents.
 
 ## Paper 1: Shakespeare and the 19th-Century Novel
 
@@ -111,7 +111,7 @@ as a whole. The 19th-century novel component follows a similar pattern: an extra
 a whole-text question, depending on the board.
 
 The skills assessed are close reading of literary language, sustained argument, and the integration
-Of contextual knowledge into literary analysis. See the dedicated guides on
+of contextual knowledge into literary analysis. See the dedicated guides on
 [Shakespeare](/english/1-shakespeare/1_shakespeare/) and the
 [19th-Century Novel](/english/2-19th-century-novel/2_19th-century-novel/) for detailed treatment Of these
 components.
@@ -121,7 +121,7 @@ components.
 This paper covers post-1914 drama or prose, an examined poetry anthology (where applicable), and
 Unseen poetry. The unseen poetry component is a distinctive feature of GCSE English Literature: it
 Requires students to apply their analytical skills to a poem they have not studied, demonstrating
-That their critical abilities are transferable rather than rote-learned.
+that their critical abilities are transferable rather than rote-learned.
 
 The poetry anthology varies by board. AQA requires study of 15 poems from the "Power and Conflict"
 Or "Love and Relationships" clusters. Edexcel specifies a collection organised by theme. OCR
@@ -143,7 +143,7 @@ Happens; it explains how the text communicates its meanings.
 ### Essay Writing
 
 GCSE English Literature demands sustained, discursive essays. Students must construct an argument
-With a clear thesis, support it with precisely chosen textual evidence, and analyse that evidence
+with a clear thesis, support it with precisely chosen textual evidence, and analyse that evidence
 Using appropriate literary terminology. The [Essay Writing](/english/4-essay-writing/4_essay-writing/) guide
 provides Comprehensive frameworks for structuring and writing examination essays.
 

@@ -96,7 +96,7 @@ class Derived(Base):
 
 The distinction between `_private` and `__mangled` is worth understanding precisely. A single
 Leading underscore is a convention that signals "this is an implementation detail, don't use it from
-Outside the class." It is not enforced by the interpreter -- any code can access `_private`
+outside the class." It is not enforced by the interpreter -- any code can access `_private`
 Attributes freely. A double leading underscore triggers name mangling: the interpreter rewrites
 `__name` to `_ClassName__name`Which makes it harder (but not impossible) to accidentally access From
 subclasses.
@@ -200,7 +200,7 @@ from myapp.models import User
 ## Type Annotations
 
 Type annotations make contracts between code units explicit. In a dynamically-typed language, they
-Are the most cost-effective tool for preventing a large class of bugs: passing the wrong type to a
+are the most cost-effective tool for preventing a large class of bugs: passing the wrong type to a
 Function, returning an inconsistent type from a method, or misinterpreting the shape of a data
 Structure.
 
@@ -293,7 +293,7 @@ result = complex_third_party_function(data)  # type: ignore[return-value]  # bug
 
 If you find yourself writing `# type: ignore` frequently, the problem is likely with your type
 Annotations or the library's stubs, not the type checker. File issues upstream or contribute fixes
-To `typeshed`.
+to `typeshed`.
 
 ## Virtual Environments
 
@@ -326,7 +326,7 @@ deactivate
 ### Why Not Use the System Python
 
 The system Python is managed by the OS package manager (apt, brew, etc.). Installing packages into
-It with `pip` can overwrite files that the OS depends on. More importantly, the system Python's
+it with `pip` can overwrite files that the OS depends on. More importantly, the system Python's
 Package versions are pinned to whatever the OS distributor chose, which may conflict with your
 Project's requirements. Virtual environments eliminate both problems.
 
@@ -496,7 +496,7 @@ The `src` layout places the importable package inside a `src/` directory. This s
 Unnecessary nesting, but it solves a subtle and serious problem.
 
 When you run `pip install -e .` (editable install) with a flat layout, Python adds the project root
-To `sys.path`. This means `import myproject` resolves to the local directory **before** any
+to `sys.path`. This means `import myproject` resolves to the local directory **before** any
 Installed version. If you have `requests` installed globally and also have a file called
 `requests.py` in your project root, your local file shadows the real package. This can cause
 Extremely confusing import errors, especially when the shadowing only happens during testing
@@ -522,7 +522,7 @@ import myproject.models  # resolves to .venv/lib/.../myproject/models.py (instal
 ```
 
 A secondary benefit: the `src` layout makes it obvious which files are part of the package and which
-Are project configuration. Everything under `src/` is package code. Everything at the root is
+are project configuration. Everything under `src/` is package code. Everything at the root is
 Project infrastructure.
 
 ### Recommended Directory Structure
@@ -586,7 +586,7 @@ Special assertion methods.
 ### Fixtures
 
 Fixtures are pytest's dependency injection system. They provide a reusable way to set up and tear
-Down test resources.
+down test resources.
 
 ```python
 import pytest
@@ -634,7 +634,7 @@ Fixtures have scopes that control when they are created and torn down:
 ### Parametrize
 
 Parametrized tests replace copy-pasted test functions with a data-driven approach. One test function
-Can cover dozens of input combinations.
+can cover dozens of input combinations.
 
 ```python
 import pytest
@@ -695,9 +695,9 @@ pytest --cov=myproject --cov-fail-under=80 tests/
 ```
 
 Coverage is a useful metric, but treat it as a minimum bar, not a quality target. 100% coverage does
-Not mean bug-free code -- it means every line was executed, not that every meaningful input
+not mean bug-free code -- it means every line was executed, not that every meaningful input
 Combination was tested. Conversely, 60% coverage on a well-tested critical path is more valuable
-Than 95% coverage achieved by testing trivial getters and setters.
+than 95% coverage achieved by testing trivial getters and setters.
 
 ### Configuration
 
@@ -797,7 +797,7 @@ typeCheckingMode = "strict"
 ```
 
 Run both in CI. `mypy` and `pyright` catch different categories of errors. `mypy` is more permissive
-By default (even in `strict` mode), while `pyright` is more aggressive about catching potential
+by default (even in `strict` mode), while `pyright` is more aggressive about catching potential
 `None` dereferences and type narrowing edge cases. When both pass, you have high confidence in your
 Type annotations.
 
@@ -813,7 +813,7 @@ pyright src/
 Python uses exceptions for error handling, not return codes. This is a fundamental design choice:
 Exceptions propagate automatically through the call stack, while return codes require explicit
 Checking at every level. A function ten frames deep that encounters an error cannot communicate it
-To the caller through a return value without every intermediate function explicitly checking and
+to the caller through a return value without every intermediate function explicitly checking and
 Re-raising.
 
 ```python
@@ -912,7 +912,7 @@ Use `raise ... from None` to suppress the original exception's traceback when it
 ### The Problem Context Managers Solve
 
 When a function acquires a resource (file handle, database connection, network socket, lock), it
-Must release that resource regardless of whether the function completes normally or raises an
+must release that resource regardless of whether the function completes normally or raises an
 Exception. Manual release requires a `try/finally` block, which is verbose and error-prone -- it is
 Easy to forget the `finally` clause.
 
@@ -1270,7 +1270,7 @@ Code), and it cannot store tool configuration. Migrate to `pyproject.toml` when 
 ## Putting It All Together
 
 A well-configured Python project uses these tools in concert. The development workflow looks like
-This:
+this:
 
 1. **Editor integration.** Your editor runs `ruff` on save for instant linting and formatting
    feedback. It runs `pyright` or `mypy` in the background for type checking.
@@ -1305,8 +1305,8 @@ jobs:
 ```
 
 This layered approach catches problems at the earliest possible stage: the editor catches them as
-You type, pre-commit catches them before they are committed, and CI catches anything that slips
-Through both. The result is a codebase where style violations, type errors, and failing tests are
+you type, pre-commit catches them before they are committed, and CI catches anything that slips
+through both. The result is a codebase where style violations, type errors, and failing tests are
 Fixed immediately, not discovered weeks later during code review.
 
 ## Common Pitfalls

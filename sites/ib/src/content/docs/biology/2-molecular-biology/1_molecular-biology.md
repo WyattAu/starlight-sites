@@ -41,10 +41,10 @@ flowchart TD
 
 Water ($\mathrm{H}_2\mathrm{O}$) is a polar molecule: the oxygen atom carries a partial negative
 Charge ($\delta-$) and each hydrogen carries a partial positive charge ($\delta+$). The bond angle
-Is approximately $104.5^\circ$.
+is approximately $104.5^\circ$.
 
 The polarity gives rise to **hydrogen bonding** between water molecules: the $\delta+$ hydrogen of
-One molecule is attracted to the $\delta-$ oxygen of another. Each water molecule can form up to
+one molecule is attracted to the $\delta-$ oxygen of another. Each water molecule can form up to
 Four hydrogen bonds.
 
 ### Properties Arising from Hydrogen Bonding
@@ -130,7 +130,7 @@ $\beta$-glucose polymers are straight and form tough structural fibres.
 ### Triglycerides
 
 Formed from one **glycerol** molecule (3-carbon alcohol) and three **fatty acid** molecules, joined
-By ester bonds via condensation reactions.
+by ester bonds via condensation reactions.
 
 $$
 \mathrm{Glycerol} + 3\;\mathrm{Fatty Acids} \xrightarrow{\mathrm{condensation}} \mathrm{Triglyceride} + 3\;\mathrm{H}_2\mathrm{O}
@@ -150,7 +150,7 @@ Protection of organs.
 
 Similar to triglycerides but one fatty acid is replaced by a **phosphate group**. This gives
 Phospholipids an amphipathic nature: the phosphate head is hydrophilic, and the two fatty acid tails
-Are hydrophobic. Phospholipids form the bilayer of all cell membranes.
+are hydrophobic. Phospholipids form the bilayer of all cell membranes.
 
 ### Cholesterol
 
@@ -365,7 +365,7 @@ of approximately $10^{-9}$ per base Pair per replication.
 ### Overview
 
 Transcription is the synthesis of a complementary **mRNA** copy from a DNA template. It occurs in
-The **nucleus** (in eukaryotes).
+the **nucleus** (in eukaryotes).
 
 ### Steps
 
@@ -485,7 +485,7 @@ Repeats the test. The solution turns brick-red. Explain these observations.
 <summary>Answer</summary>
 
 Sucrose is a non-reducing disaccharide: the glycosidic bond involves both anomeric carbons, so
-Neither monosaccharide has a free aldehyde or ketone group available to reduce $\mathrm{Cu}^{2+}$ to
+neither monosaccharide has a free aldehyde or ketone group available to reduce $\mathrm{Cu}^{2+}$ to
 $\mathrm{Cu}^+$ (Benedict's test).
 
 Acid hydrolysis breaks the glycosidic bond, releasing glucose and fructose. Both are reducing sugars
@@ -598,9 +598,9 @@ System (not directly into blood).
 **Worked Example: Calculating DNA Quantities from Absorbance**
 
 A student measures the absorbance of a DNA solution at $260\;\mathrm{nm}$ using a spectrophotometer
-And obtains a reading of $0.40$. Using the relationship that an absorbance of $1.0$ corresponds to
+and obtains a reading of $0.40$. Using the relationship that an absorbance of $1.0$ corresponds to
 $50\;\mathrm{\mu g/mL}$ of double-stranded DNA, calculate the DNA concentration and the total mass
-Of DNA in a $500\;\mathrm{\mu L}$ sample. Also, the absorbance at $280\;\mathrm{nm}$ is $0.22$.
+of DNA in a $500\;\mathrm{\mu L}$ sample. Also, the absorbance at $280\;\mathrm{nm}$ is $0.22$.
 Calculate the $A_{260}/A_{280}$ ratio and assess the purity.
 
 <details>
@@ -797,7 +797,7 @@ A student performs biochemical tests on four unknown solutions (W, X, Y, Z) and 
 Following results: (i) Benedict's test: W = brick-red, X = blue, Y = blue (after acid hydrolysis:
 Brick-red), Z = blue; (ii) Iodine test: W = blue-black, X = yellow-brown, Y = orange-brown, Z =
 Blue-black; (iii) Biuret test: all negative. Identify the most likely carbohydrate in each solution
-And explain your reasoning.
+and explain your reasoning.
 
 </details>
 
@@ -807,9 +807,9 @@ And explain your reasoning.
 A biochemist studies the effect of pH on the enzyme pepsin (stomach protease, optimum pH
 $\approx 2.0$) and salivary amylase (optimum pH $\approx 6.8$). (a) Explain why each enzyme has a
 Different optimum pH, referring to the role of amino acid R groups in the active site. (b) Predict
-The effect of moving pepsin from pH $2.0$ to pH $7.0$ on its tertiary structure and activity. (c)
+the effect of moving pepsin from pH $2.0$ to pH $7.0$ on its tertiary structure and activity. (c)
 Explain why denaturation by pH change is often reversible, whereas denaturation by high temperature
-Is often irreversible.
+is often irreversible.
 
 </details>
 
@@ -839,7 +839,7 @@ Four DNA samples from different species are analysed for base composition:
 
 (a) Verify Chargaff's rules for the first three species. (b) Identify the anomaly in Sample X and
 Explain what this suggests about the DNA in this sample. (c) Explain why the GC content varies
-Between species and discuss its relevance to DNA melting temperature.
+between species and discuss its relevance to DNA melting temperature.
 
 </details>
 
@@ -848,7 +848,7 @@ Between species and discuss its relevance to DNA melting temperature.
 
 Statins are drugs that competitively inhibit HMG-CoA reductase, the rate-limiting enzyme in
 Cholesterol biosynthesis. (a) Explain the mechanism of competitive inhibition and predict the effect
-Of increasing dietary cholesterol on the efficacy of statins. (b) Describe how structural
+of increasing dietary cholesterol on the efficacy of statins. (b) Describe how structural
 Similarities between the statin molecule and the enzyme's natural substrate enable competitive
 Inhibition. (c) Explain why statins are taken at night, relating this to the diurnal Rhythm of
 cholesterol synthesis.
@@ -860,7 +860,7 @@ cholesterol synthesis.
 
 The specific heat capacity of water is $4.18\;\mathrm{J/(g \cdot ^\circ C)}$. A $75\;\mathrm{kg}$
 Runner produces heat at a rate of $1200\;\mathrm{W}$ during exercise. Assuming $80\%$ of this heat
-Is removed by sweating (latent heat of vaporisation of water $= 2260\;\mathrm{J/g}$) and the
+is removed by sweating (latent heat of vaporisation of water $= 2260\;\mathrm{J/g}$) and the
 Remaining $20\%$ is absorbed by body tissues (specific heat capacity of body tissue $\approx$
 $3.5\;\mathrm{J/(g \cdot ^\circ C)}$), calculate: (a) the mass of water evaporated per minute, and
 (b) the rate of body temperature increase if sweating were completely prevented.
@@ -933,8 +933,8 @@ in water and require transport proteins or carriers (e.g., lipoproteins for chol
 ### Water Density and Ice Formation
 
 Water is one of the few substances that is **less dense as a solid than as a liquid**. This is
-Because hydrogen bonds in ice form a regular hexagonal lattice with more space between molecules
-Than in liquid water.
+because hydrogen bonds in ice form a regular hexagonal lattice with more space between molecules
+than in liquid water.
 
 **Significance:** ice floats on water, insulating the liquid below and allowing aquatic organisms to
 Survive beneath frozen surfaces in winter. If ice sank, lakes and oceans would freeze from the
@@ -1156,7 +1156,7 @@ repetitive sequences reanneal fastest; unique sequences slowest.
 <summary>Problem 9: Extended Response -- Protein Structure and Enzyme Function</summary>
 
 Lysozyme is an enzyme found in tears and egg white that hydrolyses the $\beta$-1,4-glycosidic bonds
-In bacterial peptidoglycan. (a) Explain how the tertiary and quaternary structure of lysozyme
+in bacterial peptidoglycan. (a) Explain how the tertiary and quaternary structure of lysozyme
 Contributes to its function, referring to the roles of specific amino acid residues in the active
 Site. (b) Explain why lysozyme is effective against Gram-positive bacteria but less so against
 Gram-negative bacteria. (c) If the pH of a solution containing lysozyme is raised from 5.0 to 8.0,
@@ -1170,7 +1170,7 @@ Predict the effect on enzyme activity and explain the molecular basis for this c
 Four potato cylinders of identical dimensions are placed in sucrose solutions of different
 Concentrations. After 2 hours, the mass change of each cylinder is measured. The water potential Of
 pure water is $0\;\mathrm{kPa}$. The relationship between sucrose concentration and water potential
-Is approximately $\psi_s = -iCRT$ where $i = 1$ for sucrose. (a) If a potato cylinder in
+is approximately $\psi_s = -iCRT$ where $i = 1$ for sucrose. (a) If a potato cylinder in
 $0.3\;\mathrm{mol/L}$ Sucrose shows no mass change, estimate the water potential of the potato
 tissue. (b) Predict the Direction of water movement in $0.1\;\mathrm{mol/L}$ and
 $0.5\;\mathrm{mol/L}$ sucrose. (c) Calculate The pressure potential of the cells in
@@ -1323,7 +1323,7 @@ Enzyme is operating under $V_{max}$ conditions).
 Hydrogen bonds and the length of the DNA molecule. (b) If this DNA is transcribed into mRNA and the
 MRNA is $2100$ nucleotides long, how many introns were present and what was the total length of the
 Introns? (c) The mRNA is translated. How many amino acids are in the resulting protein (excluding
-The stop codon)? (d) Explain why RNA is less stable than DNA and how this affects its biological
+the stop codon)? (d) Explain why RNA is less stable than DNA and how this affects its biological
 Function.
 
 <details>
@@ -1378,7 +1378,7 @@ An enzyme has $K_m = 5.0\;\mathrm{mM}$ and $V_{max} = 100\;\mathrm{\mu mol/min}$
 Inhibitor at $2.0\;\mathrm{mM}$ gives $K_m^{app} = 15.0\;\mathrm{mM}$, $V_{max}^{app} = 100$. A
 non-competitive inhibitor at $5.0\;\mathrm{mM}$ gives $K_m^{app} = 5.0\;\mathrm{mM}$
 $V_{max}^{app} = 50$. (a) Sketch the Michaelis-Menten curves for all three conditions. (b) Calculate
-The initial velocity ($v$) at $[S] = 5.0\;\mathrm{mM}$ for each condition. (c) Calculate the
+the initial velocity ($v$) at $[S] = 5.0\;\mathrm{mM}$ for each condition. (c) Calculate the
 Substrate concentration needed to reach $50\%$ of $V_{max}$ in each condition.
 
 <details>
@@ -1423,7 +1423,7 @@ inhibition can be overcome by Increasing $[S]$ But non-competitive cannot.
 (a) Explain why water has a high specific heat capacity ($4.18\;\mathrm{J/(g \cdot ^\circ C)}$) and
 Why this is important for organisms. (b) Calculate the energy required to raise the temperature of
 $70\;\mathrm{kg}$ of water (human body) by $1^\circ\mathrm{C}$. (c) Explain why ice floats on water
-And why this is ecologically significant. (d) Explain the role of water as a solvent for biological
+and why this is ecologically significant. (d) Explain the role of water as a solvent for biological
 Molecules, distinguishing between hydrophilic and hydrophobic substances.
 
 <details>
@@ -1549,7 +1549,7 @@ most Stable conformation (the native state has the lowest free energy).
 
 **Non-renaturable proteins**: large, multi-domain proteins or those with disulphide bonds may not
 Refold correctly because: (1) the denatured state has many possible conformations, and the correct
-One may not be found within a reasonable time (kinetic trapping); (2) disulphide bonds may form
+one may not be found within a reasonable time (kinetic trapping); (2) disulphide bonds may form
 Incorrectly; (3) aggregation may occur (exposed hydrophobic groups of multiple unfolded proteins
 Stick together irreversibly); (4) chaperone proteins (normally present in the cell) are absent in
 Vitro.
@@ -1569,7 +1569,7 @@ A DNA sample has an absorbance at $260\;\mathrm{nm}$ ($A_{260}$) of $0.50$ in a 
 Cuvette. The absorbance at $280\;\mathrm{nm}$ ($A_{280}$) is $0.28$. (a) Calculate the DNA
 Concentration in $\mathrm{\mu g/mL}$ (using the conversion: $A_{260} = 1.0$ corresponds to
 $50\;\mathrm{\mu g/mL}$ double-stranded DNA). (b) Calculate the $A_{260}/A_{280}$ ratio and assess
-The purity of the sample. (c) If the sample is diluted $1:10$ before measurement, what was the
+the purity of the sample. (c) If the sample is diluted $1:10$ before measurement, what was the
 original Concentration? (d) Explain why protein contamination increases $A_{280}$.
 
 </details>
@@ -1619,7 +1619,7 @@ Function. Explain why humans can digest starch and glycogen but not cellulose or
 **Why humans can digest starch/glycogen but not cellulose/chitin**:
 
 Humans produce **amylase** (in saliva and pancreas) that hydrolyses $\alpha$-1,4 glycosidic bonds
-And **isomaltase** (brush border enzyme) that hydrolyses $\alpha$-1,6 bonds. These enzymes can
+and **isomaltase** (brush border enzyme) that hydrolyses $\alpha$-1,6 bonds. These enzymes can
 access The glycosidic bonds in starch and glycogen because the $\alpha$ configuration creates a
 helical Structure with bonds accessible to the enzyme active site.
 
@@ -1686,7 +1686,7 @@ microorganisms (bacteria, protozoa) in their digestive tracts that produce cellu
 ### Gel Electrophoresis Principles
 
 Gel electrophoresis separates DNA, RNA, or protein molecules based on their size, charge, and shape
-By applying an electric field across a gel matrix.
+by applying an electric field across a gel matrix.
 
 **DNA electrophoresis**:
 
@@ -1700,7 +1700,7 @@ By applying an electric field across a gel matrix.
 
 **Visualisation**: DNA is stained with ethidium bromide or SYBR Safe (intercalates between bases and
 Fluoresces under UV light). Alternatively, samples can be loaded with loading dye (contains glycerol
-Or sucrose to make the sample denser than the buffer, plus tracking dyes).
+or sucrose to make the sample denser than the buffer, plus tracking dyes).
 
 ### Polymerase Chain Reaction (PCR) -- Detailed Mechanism
 

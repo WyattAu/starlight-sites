@@ -37,7 +37,7 @@ flowchart TD
 ## Exponential Distribution and Continuous Random Variables
 
 The exponential distribution models the time between events in a Poisson process, while the theory
-Of continuous random variables extends probability to quantities that can take any value in an
+of continuous random variables extends probability to quantities that can take any value in an
 Interval.
 
 ### Board Coverage
@@ -302,7 +302,7 @@ For $x < 0$: $F(x) = 0$. For $x > 1$: $F(x) = 1$.
 
 **Example.** The lifetime of a component is modelled by $X \sim \mathrm{Exp}(\lambda)$. A sample of
 10 components gives a mean lifetime of 420 hours. Test at the 5% level whether $\lambda = 0.005$
-Against $H_1: \lambda \neq 0.005$.
+against $H_1: \lambda \neq 0.005$.
 
 Under $H_0$: $E(X) = 1/\lambda = 200$ hours. Since $n$ is large, use the approximate normal
 Distribution of $\bar{X}$:
@@ -716,7 +716,7 @@ $\approx 0.2575 + 0.2456 = 0.5031$.
 ### Confusing PDF with CDF
 
 The PDF $f(x)$ gives the **density** of probability at $x$. It is not a probability itself, $f(x)$
-Can be greater than 1. The CDF $F(x)$ gives the **accumulated** probability up to $x$ And always
+can be greater than 1. The CDF $F(x)$ gives the **accumulated** probability up to $x$ And always
 Satisfies $0 \leq F(x) \leq 1$.
 
 Common error: writing $P(X = a) = f(a)$ for a continuous RV. This is wrong, $P(X = a) = 0$ always.
@@ -824,7 +824,7 @@ $E(T) = 1/0.07 \approx 14.3\,\mathrm{hours}$.
 $P(T > 50) = e^{-0.07 \times 50} = e^{-3.5} \approx 0.0302$.
 
 Note: the minimum of independent exponential RVs is itself exponential, with rate equal to the sum
-Of the individual rates.
+of the individual rates.
 
 </details>
 
@@ -915,7 +915,7 @@ $k$ The CDF, and $P(1 < X < 3)$.
 $\displaystyle\int_0^4 kx(4-x)\,dx = k\!\left[2x^2 - \frac{x^3}{3}\right]_0^4 = k\!\left(32 - \frac{64}{3}\right) = \frac{32k}{3} = 1 \implies k = \frac{3}{32}$.
 
 CDF: $F(x) = \dfrac{3}{32}\!\left(2x^2 - \dfrac{x^3}{3}\right) = \dfrac{3x^2}{16} - \dfrac{x^3}{32}$
-For $0 \leq x \leq 4$.
+for $0 \leq x \leq 4$.
 
 $P(1 < X < 3) = F(3) - F(1) = \left(\dfrac{27}{16} - \dfrac{27}{32}\right) - \left(\dfrac{3}{16} - \dfrac{1}{32}\right) = \dfrac{27}{32} - \dfrac{5}{32} = \boxed{\dfrac{11}{16}}$.
 
@@ -1243,7 +1243,7 @@ Find the MGF of $X \sim \mathrm{Exp}(\lambda)$ and use it to find $E(X)$ and $\m
 <summary>Solution</summary>
 
 $M(t) = \displaystyle\int_0^{\infty} e^{tx}\lambda e^{-\lambda x}\,dx = \lambda\displaystyle\int_0^{\infty} e^{-(\lambda-t)x}\,dx = \frac{\lambda}{\lambda-t}$
-For $t < \lambda$.
+for $t < \lambda$.
 
 $M'(t) = \dfrac{\lambda}{(\lambda-t)^2}$.
 $M'(0) = \dfrac{1}{\lambda} = E(X)$. ✓

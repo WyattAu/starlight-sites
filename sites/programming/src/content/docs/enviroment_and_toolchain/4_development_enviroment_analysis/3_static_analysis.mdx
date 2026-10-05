@@ -27,7 +27,7 @@ Tools in the ecosystem: **clang-tidy**, **Cppcheck**, and enterprise-grade alter
 ## 1. Clang-Tidy (The AST Linter)
 
 **clang-tidy** is part of the LLVM project. Because it uses the Clang compiler frontend, it parses
-The code into a full Abstract Syntax Tree (AST). It understands templates, preprocessor macros, and
+the code into a full Abstract Syntax Tree (AST). It understands templates, preprocessor macros, and
 Type deductions with the exact same precision as the compiler.
 
 ### Capabilities
@@ -117,7 +117,7 @@ return x;  // bugprone: possible use of uninitialized variable
 ### 2.3 Path-Sensitive Analysis
 
 A refinement of data flow analysis that tracks facts **per execution path** rather than merging them
-At join points. This is more precise but exponentially more expensive.
+at join points. This is more precise but exponentially more expensive.
 **Example:** Distinguishing two paths where a pointer is null vs non-null:
 
 ```cpp
@@ -539,7 +539,7 @@ extern "C" int legacy_callback(void* ctx, int status) \{
 ### Tracking Suppressions
 
 Maintain a suppression inventory. In CI, count the number of `NOLINT` comments and fail the build if
-The count increases:
+the count increases:
 
 ```bash
 # CI gate: ensure NOLINT count does not grow
@@ -643,7 +643,7 @@ public:
 ```
 
 Custom checks are compiled as shared libraries and loaded via the `--checks` flag or by adding them
-To the `.clang-tidy` configuration. This is an advanced topic and requires familiarity with the
+to the `.clang-tidy` configuration. This is an advanced topic and requires familiarity with the
 Clang AST.
 
 ## 16. Static Analysis in Code Review

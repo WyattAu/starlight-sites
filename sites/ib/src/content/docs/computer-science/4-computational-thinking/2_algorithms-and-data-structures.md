@@ -168,7 +168,7 @@ The **predefined process** (double-sided rectangle) represents a call to a subro
 
 Flowcharts are especially useful for illustrating the control flow of algorithms with complex
 Branching, such as sorting algorithms. However, they become unwieldy for large algorithms and lack
-The precision of pseudocode for expressing data structures and detailed computations.
+the precision of pseudocode for expressing data structures and detailed computations.
 
 ### Trace Tables
 
@@ -204,7 +204,7 @@ With input `n = 4`The trace table is:
 | 8    | 4   | 4   | 10    | False       |
 
 The final value of `total` is 10, which equals $1 + 2 + 3 + 4 = 10$. The algorithm is correct for
-This input. A trace table does not prove correctness for all inputs, but it builds confidence and
+this input. A trace table does not prove correctness for all inputs, but it builds confidence and
 Helps identify off-by-one errors and infinite loops.
 
 **Worked Example: Trace table for finding the maximum value**
@@ -301,7 +301,7 @@ END FUNCTION
 | 3    | 2   | 9      | True            | Return 2 |
 
 The target is found at index 2. If the target were 6, the algorithm would examine all five elements
-And return -1.
+and return -1.
 
 **Time complexity:** In the worst case, the target is the last element or is not present, requiring
 $n$ comparisons. In the best case, the target is the first element, requiring 1 comparison. On
@@ -489,7 +489,7 @@ There is no gap between them for 15 to occupy.
 | Works on linked lists? | Yes           | No (without tricks) |
 
 The choice between linear and binary search depends on the data characteristics. If data is unsorted
-And only searched occasionally, linear search is appropriate. If data is sorted or can be
+and only searched occasionally, linear search is appropriate. If data is sorted or can be
 Preprocessed by sorting, binary search is vastly superior for repeated queries. For a dataset of one
 Million elements, binary search requires at most 20 comparisons versus up to one million for linear
 Search.
@@ -516,7 +516,7 @@ Detail in the Data Structures section of this document.
 ### Bubble Sort
 
 Bubble sort repeatedly steps through the list, compares adjacent elements, and swaps them if they
-Are in the wrong order. The pass is repeated until no swaps are needed, indicating that the list is
+are in the wrong order. The pass is repeated until no swaps are needed, indicating that the list is
 Sorted. The algorithm is named because smaller elements "bubble" to the top of the list.
 
 **IB Pseudocode:**
@@ -579,7 +579,7 @@ After Pass 3: [1, 2, 4, 5, 8]. No swaps occurred; algorithm terminates.
 
 **Time complexity:** In the worst case (reverse-sorted input), the algorithm performs
 $\frac{n(n-1)}{2}$ comparisons and swaps, giving $O(n^2)$. In the best case (already sorted), with
-The early-termination optimization, only $n - 1$ comparisons are made, giving $O(n)$. The average
+the early-termination optimization, only $n - 1$ comparisons are made, giving $O(n)$. The average
 Case is $O(n^2)$.
 
 **Space complexity:** $O(1)$ As sorting is performed in-place.
@@ -654,8 +654,8 @@ No swaps in pass 4, so the algorithm terminates.
 ### Selection Sort
 
 Selection sort divides the array into a sorted portion (initially empty) and an unsorted portion. In
-Each pass, it finds the minimum element in the unsorted portion and swaps it with the first element
-Of the unsorted portion, thereby extending the sorted portion by one.
+each pass, it finds the minimum element in the unsorted portion and swaps it with the first element
+of the unsorted portion, thereby extending the sorted portion by one.
 
 **IB Pseudocode:**
 
@@ -696,7 +696,7 @@ Advantageous when swap operations are expensive.
 
 **Stability:** The basic selection sort is not stable. Consider the array `[4_a, 4_b, 2]`. The
 Minimum is 2 at index 2, which swaps with `4_a` at index 0, producing `[2, 4_b, 4_a]` and reversing
-The relative order of the equal elements.
+the relative order of the equal elements.
 
 **Worked Example: Selection sort -- demonstrating instability**
 
@@ -861,7 +861,7 @@ END PROCEDURE
 
 **Time complexity:** The recurrence relation is $T(n) = 2T\!\left(\frac{n}{2}\right) + O(n)$ Where
 The $O(n)$ term accounts for the merge step. By the Master Theorem, this yields $T(n) = O(n \log n)$
-In all cases (best, average, worst). This is because the divide step always produces halves
+in all cases (best, average, worst). This is because the divide step always produces halves
 (regardless of input), and the merge step always processes $n$ elements.
 
 **Space complexity:** $O(n)$ auxiliary space is required for the temporary arrays used during
@@ -898,7 +898,7 @@ all $n = 6$ elements in $O(n)$ time.
 
 Quick sort is another divide-and-conquer algorithm. It selects a **pivot** element, partitions the
 Array so that all elements less than the pivot come before it and all elements greater come after
-It, and then recursively sorts the sub-arrays on either side of the pivot.
+it, and then recursively sorts the sub-arrays on either side of the pivot.
 
 **IB Pseudocode (Lomuto partition scheme):**
 
@@ -934,7 +934,7 @@ END FUNCTION
 **Pivot selection** is critical to performance. The Lomuto scheme above uses the last element. Other
 Strategies include: first element, middle element, random element, and median-of-three (median of
 First, middle, and last elements). Median-of-three provides good protection against already-sorted
-Or reverse-sorted worst-case inputs.
+or reverse-sorted worst-case inputs.
 
 **Trace with `arr = [10, 80, 30, 90, 40, 50, 70]`Pivot = 70 (last element):**
 
@@ -1033,7 +1033,7 @@ or a random pivot.
 
 :::note
 Consider the data size, whether the data is nearly sorted, memory constraints, and whether stability
-Is required. Merge sort guarantees $O(n \log n)$ but uses extra space. Quick sort is often faster in
+is required. Merge sort guarantees $O(n \log n)$ but uses extra space. Quick sort is often faster in
 Practice but has a worst case of $O(n^2)$. Insertion sort is unbeatable for small or nearly sorted
 Arrays.
 :::
@@ -1238,7 +1238,7 @@ Instead, we set `Head = Head.next`. This is a special case that must be handled 
 ### Stacks
 
 A **stack** is a linear data structure that follows the Last-In, First-Out (LIFO) principle. The
-Most recently added element is the first one to be removed. Think of a stack of plates: you can only
+most recently added element is the first one to be removed. Think of a stack of plates: you can only
 Add or remove the top plate.
 
 **Core operations:**
@@ -1297,7 +1297,7 @@ When it returns, the frame is popped. Recursion relies entirely on the call stac
 
 **Undo/Redo operations:** Text editors and drawing applications use two stacks: one for undo
 (pushing each action) and one for redo (popping from the undo stack and pushing to the redo stack
-When an undo is performed).
+when an undo is performed).
 
 **Expression evaluation:** Stacks are used to evaluate postfix (Reverse Polish Notation) expressions
 And to convert infix expressions to postfix. For example, evaluating `3 4 + 2 *` (which equals 14):
@@ -1305,7 +1305,7 @@ Push 3, push 4, pop 4 and 3, add to get 7, push 7, push 2, pop 2 and 7, multiply
 
 **Bracket matching:** Compilers and interpreters use stacks to verify that parentheses, brackets,
 And braces are properly balanced. Each opening symbol is pushed; each closing symbol should match
-The top of the stack.
+the top of the stack.
 
 **Worked Example: Bracket matching with a stack**
 
@@ -1426,7 +1426,7 @@ Need to shift elements when the front of the queue advances.
 
 **Breadth-First Search (BFS):** BFS explores a graph level by level, visiting all neighbors of a
 Node before moving to the next level. A queue stores the nodes to be visited, ensuring FIFO ordering
-So that closer nodes are processed before more distant ones.
+so that closer nodes are processed before more distant ones.
 
 **Process scheduling:** Operating systems use ready queues to manage processes waiting for CPU time.
 The scheduler dequeues the next process to run and enqueues newly created or unblocked processes.
@@ -1612,7 +1612,7 @@ END PROCEDURE
 | Delete    | $O(\log n)$  | $O(n)$     | Requires finding inorder successor   |
 
 The worst case occurs when the tree becomes degenerate (essentially a linked list), which happens
-When elements are inserted in sorted order. Self-balancing BSTs (AVL trees, Red-Black trees)
+when elements are inserted in sorted order. Self-balancing BSTs (AVL trees, Red-Black trees)
 Guarantee $O(\log n)$ operations by maintaining balance, but these are beyond the IB syllabus.
 
 **Worked Example: BST insertion and search**
@@ -1728,7 +1728,7 @@ Find the bucket, then traverse the linked list.
 Advantages: simple to implement, deletion is straightforward, works well with high load factors.
 
 Disadvantages: requires extra memory for pointers, degraded performance when many collisions cluster
-In a single bucket.
+in a single bucket.
 
 **Open addressing:** All elements are stored directly in the hash table array. When a collision
 Occurs, the algorithm probes for the next available slot using a probing sequence.
@@ -2011,16 +2011,16 @@ Three cases.
 
 **Best case:** The input that minimizes the running time. For linear search, the best case occurs
 When the target is the first element: $O(1)$. Best-case analysis is rarely useful in practice
-Because it represents an optimistic scenario that may not occur.
+because it represents an optimistic scenario that may not occur.
 
 **Worst case:** The input that maximizes the running time. For linear search, the worst case occurs
 When the target is the last element or not present: $O(n)$. Worst-case analysis provides a
 Guarantee: the algorithm will never take longer than this. It is the most commonly cited complexity
-In the IB syllabus.
+in the IB syllabus.
 
 **Average case:** The expected running time over all possible inputs, assuming some probability
 Distribution. For linear search with uniformly distributed data, the target is equally likely to be
-At any position, so the expected number of comparisons is
+at any position, so the expected number of comparisons is
 $\frac{1 + 2 + \cdots + n}{n} = \frac{n + 1}{2} = O(n)$.
 
 **Quick sort case study:**
@@ -2133,7 +2133,7 @@ This is the same logarithmic pattern as binary search: each iteration halves the
 ### The ADT Concept
 
 An **Abstract Data Type** defines a data type by its behavior (the operations it supports) rather
-Than by its implementation. An ADT specifies two things:
+than by its implementation. An ADT specifies two things:
 
 **An interface:** the set of operations that can be performed on the data, including their names,
 Parameters, return types, and preconditions/postconditions.
@@ -2156,7 +2156,7 @@ Know how memory is managed or how pointers are updated.
 ADTs promote code reuse and modularity. The same ADT can be used in many different contexts.
 
 ADTs facilitate testing. The interface defines a clear contract that can be tested independently of
-The implementation.
+the implementation.
 
 ### Stack ADT
 
@@ -2224,7 +2224,7 @@ An array-based list provides $O(1)$ access by index but $O(n)$ insertion and del
 Positions.
 
 A linked-list-based list provides $O(1)$ insertion and deletion at known positions but $O(n)$ access
-By index.
+by index.
 
 The choice depends on the expected usage pattern: if the application frequently accesses elements by
 Index, an array is preferable. If it frequently inserts and deletes, a linked list is preferable.

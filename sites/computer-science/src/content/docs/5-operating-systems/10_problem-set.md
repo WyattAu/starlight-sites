@@ -44,7 +44,7 @@ The scheduler triggers Ready → Running and Running → Ready (preemption). I/O
 
 A microkernel-based OS adds 2 $\mu$ S of message-passing overhead per system call compared to a
 Monolithic kernel. If a web server makes $10^6$ system calls per second, what is the total overhead
-As a fraction of CPU time on a 3 GHz processor?
+as a fraction of CPU time on a 3 GHz processor?
 
 **Solution.** (Revision: §1.2)
 
@@ -152,7 +152,7 @@ Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \r
 <summary>Problem 7, Critical Section</summary>
 
 Show that the following solution to the critical section problem is incorrect (Peterson's algorithm
-With the order of `flag[i] = true` and `turn = j` swapped):
+with the order of `flag[i] = true` and `turn = j` swapped):
 
 ```c
 // Process i:
@@ -211,7 +211,7 @@ while (count == BUFFER_SIZE) {
 
 Without `empty` and `full` semaphores, the producer must busy-wait or use condition variables.
 Semaphores provide **blocking** semantics: the producer blocks on `empty` when the buffer is full
-And is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
+and is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
 Busy-waiting (wasting CPU cycles) or requires the programmer to correctly implement the Wait/signal
 protocol, which is exactly what semaphores encapsulate.
 
@@ -434,8 +434,8 @@ Counterexample from the text (1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 3 vs 4 fra
 <summary>Problem 17, Working Set and Thrashing</summary>
 
 A system has 40 frames. Process $P_1$ has a working set of 15 pages, $P_2$ has 12 pages, and $P_3$
-Has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
-Of 8 pages is added?
+has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
+of 8 pages is added?
 
 **Solution.** (Revision: §5.8)
 
@@ -443,7 +443,7 @@ Without $P_4$: total working set = $15 + 12 + 18 = 45 \gt 40$. Thrashing occurs.
 can run concurrently (e.g., $P_1 + P_2 = 27 \leq 40$ Or $P_2 + P_3 = 30 \leq 40$).
 
 With $P_4$: total = $15 + 12 + 18 + 8 = 53 \gt 40$. Even worse. Using working set admission, we
-Would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
+would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
 $P_2 + P_3 =
 30$.
 

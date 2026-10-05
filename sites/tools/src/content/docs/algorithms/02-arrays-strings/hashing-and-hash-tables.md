@@ -20,7 +20,7 @@ description: "A hash function maps an input from a large domain to a smaller, fi
 A hash function maps an input from a large domain to a smaller, fixed-size range. Formally,
 $h: U \to \{0, 1, \ldots, m-1\}$ where $U$ is the universe of possible keys and $m$ is the table
 Size. The quality of a hash function determines the performance of every data structure built on top
-Of it.
+of it.
 
 ### Desirable Properties
 
@@ -44,7 +44,7 @@ Output value significantly (not just one output bit).
 A perfectly uniform hash function distributes $n$ keys across $m$ buckets so that each bucket
 Contains approximately $n/m$ keys. In practice, we measure uniformity by hashing a large sample of
 Inputs and checking that the chi-squared statistic of the bucket distribution is close to what we
-Would expect from a truly random distribution.
+would expect from a truly random distribution.
 
 ```python
 def uniformity_test(hash_func, keys, num_buckets):
@@ -92,7 +92,7 @@ def multiplicative_hash(k, m, A=0x9E3779B9):
 ### Integer Hashing (Murmur-style Mixing)
 
 For general-purpose hashing of integers, bit-mixing functions are preferred. These scramble the bits
-Of the input so that small changes in the input produce large changes in the output.
+of the input so that small changes in the input produce large changes in the output.
 
 ```python
 def splitmix64(x):
@@ -164,7 +164,7 @@ def fnv1a_64(data):
 
 When the universe of keys $U$ is small, we can use an array of size $|U|$ where index $k$ stores the
 Element with key $k$. This gives $O(1)$ worst-case insert, delete, and lookup, but wastes memory
-When $|U|$ is much larger than the actual number of keys $n$.
+when $|U|$ is much larger than the actual number of keys $n$.
 
 | Operation | Time   | Space      |
 | --------- | ------ | ---------- |
@@ -340,7 +340,7 @@ class LinearProbingHashTable:
 
 **Primary clustering**: linear probing suffers from primary clustering, when a cluster of occupied
 Slots forms, new keys that hash into or near the cluster extend it. The expected number of probes
-For an unsuccessful search with linear probing is approximately
+for an unsuccessful search with linear probing is approximately
 $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$.
 
 ### Quadratic Probing
@@ -362,8 +362,8 @@ h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m
 $$
 
 Uses a second hash function $h_2(k)$ to determine the probe step size. This eliminates both primary
-And secondary clustering. The table size $m$ and the step size $h_2(k)$ should be relatively prime
-For the probe sequence to visit all slots.
+and secondary clustering. The table size $m$ and the step size $h_2(k)$ should be relatively prime
+for the probe sequence to visit all slots.
 
 ```python
 class DoubleHashingHashTable:
@@ -458,7 +458,7 @@ def robin_hood_insert(table, key, value, hashes):
 ## Cuckoo Hashing
 
 Cuckoo hashing uses two hash functions and two arrays (or one array split into two halves). Each key
-Is stored at either $h_1(k)$ or $h_2(k)$. On collision, the existing element is "kicked out" to its
+is stored at either $h_1(k)$ or $h_2(k)$. On collision, the existing element is "kicked out" to its
 Alternative position. If a cycle is detected, the table is rebuilt with new hash functions.
 
 **Properties:**
@@ -618,7 +618,7 @@ High probability.
 ## Bloom Filters
 
 A bloom filter is a space-efficient probabilistic data structure for membership testing. It can tell
-You whether an element is **definitely not** in the set or **possibly** in the set (with a
+you whether an element is **definitely not** in the set or **possibly** in the set (with a
 Configurable false positive rate).
 
 ### Structure
@@ -717,7 +717,7 @@ Function $h_i$ maps an element to a row and column.
 | Space     | $d \times w$ counters                     | N/A    | N/A                      |
 
 The estimate is always an **overestimate**: $\hat{f}(x) \ge f(x)$ with high probability. The error
-Is bounded by $\epsilon \cdot N$ where $N$ is the total count and $\epsilon = e / w$.
+is bounded by $\epsilon \cdot N$ where $N$ is the total count and $\epsilon = e / w$.
 
 ```python
 import hashlib
@@ -841,7 +841,7 @@ class HyperLogLog:
 
 :::note
 Are necessary only when an adversary can choose inputs (e.g., hash DoS attacks). Python switched
-From a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
+from a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
 Flooding attacks.
 
 ## Hash Table Implementation Details
@@ -914,14 +914,14 @@ Freeze objects before hashing.
 ### 2. Hash Flooding Attacks
 
 An adversary who can control the keys inserted into a hash table can choose keys that all hash to
-The same bucket, degrading performance from $O(1)$ to $O(n)$ per operation. Defences: hash
+the same bucket, degrading performance from $O(1)$ to $O(n)$ per operation. Defences: hash
 Randomisation (Python's `PYTHONHASHSEED`), SipHash (Python 3.4+), or switching to balanced trees for
 Long chains (Java 8+).
 
 ### 3. Forgetting to Override Both `__hash__` and `__eq__`
 
 In Python, if you override `__eq__` without overriding `__hash__`The class becomes unhashable. If
-You override `__hash__` without overriding `__eq__`Objects that compare equal may hash to Different
+you override `__hash__` without overriding `__eq__`Objects that compare equal may hash to Different
 values. Both must be consistent: if `a == b`Then `hash(a) == hash(b)`.
 
 ### 4. Integer Overflow in Hash Computation
@@ -954,7 +954,7 @@ Filter correctly and monitor the actual false positive rate in production.
 
 Use a bloom filter for membership testing (set membership), count-min sketch for frequency
 Estimation, and HyperLogLog for cardinality estimation. Each is optimised for a different query type
-And cannot substitute for another.
+and cannot substitute for another.
 
 ```mermaid
 flowchart TD

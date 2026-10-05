@@ -106,7 +106,7 @@ void aliasing_demo() {
 :::caution
 Lifetime of the member it points to, it only extends the lifetime of the **owning** object. If the
 Owning object is destroyed first, the aliased pointer dangles. Use cases include returning pointers
-To members from APIs that need to express shared ownership of the containing object.
+to members from APIs that need to express shared ownership of the containing object.
 :::
 
 ## 5.5 Custom Deleters
@@ -427,8 +427,8 @@ int main() {
 ```
 
 The `!std::is_final_v&lt;D&gt;` check is necessary because EBO requires the empty class to be used
-As a base class, and `final` classes cannot be bases. A `final` empty deleter would occupy storage
-Despite having no members.
+as a base class, and `final` classes cannot be bases. A `final` empty deleter would occupy storage
+despite having no members.
 
 ## 5.7 `shared_ptr` with Custom Deleters and Control Block Layout
 
@@ -500,7 +500,7 @@ Controller::~Controller() = default;  // destructor defined where Widget is comp
 
 With a custom deleter, the same rule applies: the deleter must be invocable where the destructor
 Runs. If the deleter is a lambda defined in the `.cpp` file, the type is complete there, so there is
-No issue:
+no issue:
 
 ```cpp
 // ---- widget.cpp ----
@@ -790,22 +790,22 @@ Lambda.
 
 **Type erasure hiding bugs.** `std::shared_ptr`'s type-erased deleter means the compiler cannot
 Verify deleter correctness at the call site. If you accidentally pass the wrong deleter (e.g., one
-That calls `free` on a `new`-allocated object), the error manifests at runtime as heap corruption.
+that calls `free` on a `new`-allocated object), the error manifests at runtime as heap corruption.
 Prefer `std::unique_ptr` where possible, its deleter is part of the type and checked at compile
 Time.
 
 **`final` on empty deleter classes.** Marking an empty deleter class as `final` prevents EBO from
 Applying, increasing `sizeof(unique_ptr)`. If the deleter must be `final` for other reasons, accept
-The size overhead or use a lambda instead.
+the size overhead or use a lambda instead.
 
 **Capturing by reference in lambda deleters.** If the captured reference outlives the object it
 Refers to, the deleter will dereference a dangling reference when it runs. Always capture by value
-Or use a stateless lambda.
+or use a stateless lambda.
 
 **Mixing allocation/deallocation mechanisms.** If an object is allocated with `malloc`The deleter
 Must call `free`Not `delete`. If allocated with a custom allocator, the deleter must use the same
 Allocator's deallocation function. Mismatches cause undefined behavior and are notoriously difficult
-To debug.
+to debug.
 
 ## See Also
 

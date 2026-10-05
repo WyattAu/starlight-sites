@@ -34,7 +34,7 @@ Money provides a common measure of the value of all goods and services. It allow
 Value of different goods and to keep financial records.
 
 Example: A laptop costs HKD 8,000 and a meal costs HKD 100. Money allows us to express both values
-In the same unit and compare them (the laptop is worth 80 meals).
+in the same unit and compare them (the laptop is worth 80 meals).
 
 ### 3. Store of Value
 
@@ -50,7 +50,7 @@ Money allows debts to be contracted and repaid in the future. Borrowing and lend
 Extremely difficult in a barter system because the value of goods changes over time.
 
 Example: A bank lends HKD 500,000 to be repaid with interest over 20 years. Both parties agree on
-The value of the debt because it is denominated in money.
+the value of the debt because it is denominated in money.
 
 ---
 
@@ -341,7 +341,7 @@ $$
 ### Liquidity
 
 Liquidity refers to the ease with which an asset can be converted into cash without significant loss
-Of value.
+of value.
 
 | Asset            | Liquidity  |
 | ---------------- | ---------- |
@@ -371,7 +371,7 @@ M1 contains the most liquid assets; M2 includes less liquid assets as well.
 ### Definition
 
 Monetary policy refers to the central bank's actions to control the money supply and interest rates
-In order to achieve macroeconomic objectives such as price stability, full employment, and
+in order to achieve macroeconomic objectives such as price stability, full employment, and
 Sustainable economic growth.
 
 ### Tools of Monetary Policy
@@ -444,7 +444,7 @@ Old required reserves = `500 \times 0.1 = 50` billion. New required reserves =
 `500 \times 0.25 = 125` billion.
 
 The banking system now has a reserve shortfall of `125 - 50 = 75` billion. Banks must reduce lending
-By `75 \times 4 = 300` billion (using the new multiplier). The money supply contracts by up to HKD
+by `75 \times 4 = 300` billion (using the new multiplier). The money supply contracts by up to HKD
 300 billion.
 
 </details>
@@ -452,7 +452,7 @@ By `75 \times 4 = 300` billion (using the new multiplier). The money supply cont
 #### 3. Open Market Operations (OMO)
 
 Open market operations involve the central bank buying or selling government securities (bonds) on
-The open market.
+the open market.
 
 **Buying government securities (expansionary):**
 
@@ -704,7 +704,7 @@ because they fear the bank may become insolvent. Since banks lend out most of th
 Be repaid even if the bank fails. This reduces the incentive for bank runs.
 
 In Hong Kong, the Deposit Protection Scheme (DPS) covers deposits up to HKD 500,000 per depositor
-Per bank.
+per bank.
 
 ---
 
@@ -786,7 +786,7 @@ Assume the required reserve ratio is 12.5%. A customer deposits HKD 8,000 into B
 (a) Calculate the maximum possible increase in the total money supply. (b) Calculate the maximum
 Total amount of new loans created in the entire banking system. (c) If the public holds 10% of any
 Increase in deposits as cash (currency drain ratio = 0.1), calculate the revised money multiplier
-And the new maximum increase in the money supply.
+and the new maximum increase in the money supply.
 
 (a) Money multiplier = $1 / 0.125 = 8$
 
@@ -821,7 +821,7 @@ Required reserve ratio is 10% and there are no cash leakages.
 Is this an expansionary or contractionary policy? Explain.
 
 (a) When the central bank sells bonds to commercial banks, the banks pay by transferring reserves to
-The central bank.
+the central bank.
 
 Change in bank reserves = -HKD 500 million (reserves decrease by HKD 500 million).
 
@@ -832,7 +832,7 @@ Maximum change in money supply = $-500 \times 10 = -5,000$ million
 The money supply contracts by a maximum of HKD 5,000 million (HKD 5 billion).
 
 (c) This is a contractionary monetary policy. By selling bonds, the central bank removes reserves
-From the banking system, reducing the ability of banks to create credit. The money supply contracts,
+from the banking system, reducing the ability of banks to create credit. The money supply contracts,
 Interest rates rise, and aggregate demand decreases. This policy would be used to combat inflation.
 
 </details>
@@ -868,7 +868,7 @@ $10 \times 10 = 100$ billion.
 So the maximum money supply increases by HKD 100 billion.
 
 (c) The central bank would lower the reserve ratio to implement expansionary monetary policy. This
-Would be appropriate during a recession or when economic growth is sluggish. By allowing banks to
+would be appropriate during a recession or when economic growth is sluggish. By allowing banks to
 Lend more from their existing reserves, the money supply expands, interest rates fall, and aggregate
 Demand increases, stimulating economic activity and employment.
 
@@ -881,7 +881,7 @@ A bank offers a nominal interest rate of 6% per annum on a 1-year fixed deposit.
 Rate during the year is 4%:
 
 (a) Calculate the real interest rate (approximate and exact). (b) If the inflation rate rises to 8%
-While the nominal rate stays at 6%, what happens to the real rate? Who benefits and who loses?
+while the nominal rate stays at 6%, what happens to the real rate? Who benefits and who loses?
 
 (a) Approximate real interest rate: $r \approx i - \pi = 6\% - 4\% = 2\%$
 
@@ -914,7 +914,7 @@ To inflation. Their real return is negative.
 <summary>Question 5: Hong Kong's Linked Exchange Rate</summary>
 
 Explain how the HKMA maintains the Linked Exchange Rate System when there is downward pressure on
-The HKD (i.e., the HKD is weakening towards 7.85).
+the HKD (i.e., the HKD is weakening towards 7.85).
 
 When there is selling pressure on the HKD (more people selling HKD and buying USD), the exchange
 Rate tends to weaken (move from 7.80 towards 7.85).
@@ -957,7 +957,7 @@ Payment methods.
 **Unit of account:** Bitcoin performs POORLY as a unit of account. Its price is highly volatile --
 It can change significantly within hours or days. Most goods and services are not priced in Bitcoin.
 A merchant cannot reliably set prices or keep accounts in Bitcoin because its value fluctuates too
-Much.
+much.
 
 **Store of value:** Bitcoin performs POORLY as a reliable store of value due to its extreme price
 Volatility. An asset whose value can halve or double within months is not a good store of value.
@@ -1011,7 +1011,7 @@ Maximum increase in money supply = $50 \times \frac{1}{0.15} = 50 \times 6.67 = 
 So the maximum total increase in the money supply is approximately HKD 333.33 million.
 
 Note: The initial 50 million is already part of the money supply (it was created as a new deposit
-When the loan was made). The total increase in deposits throughout the banking system is 333.33
+when the loan was made). The total increase in deposits throughout the banking system is 333.33
 Million, of which 50 million is the initial new loan/deposit and 283.33 million is the subsequent
 Credit creation.
 
@@ -1050,7 +1050,7 @@ $$
 $$
 
 The saver's real purchasing power has fallen from HKD 100,000 to approximately HKD 98,095 -- a loss
-Of about HKD 1,905. The negative real interest rate means inflation has eroded the value of the
+of about HKD 1,905. The negative real interest rate means inflation has eroded the value of the
 Savings.
 
 </details>
@@ -1086,7 +1086,7 @@ $$
 
 The central bank decides to raise the base rate by 0.5 percentage points. Trace the transmission
 Mechanism and explain the likely effects on the economy, assuming the economy is currently operating
-Above full employment with rising inflation.
+above full employment with rising inflation.
 
 1. **Interest rate channel:** Commercial banks raise their lending rates (mortgage rates, business
    loan rates) in response to the higher base rate.

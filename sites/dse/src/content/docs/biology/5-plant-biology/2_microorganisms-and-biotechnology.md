@@ -464,7 +464,7 @@ _Staphylococcus aureus_)
 ### Genetic Engineering
 
 Genetic engineering (recombinant DNA technology) is the direct manipulation of an organism's genome
-To produce desired characteristics.
+to produce desired characteristics.
 
 **Basic process:**
 

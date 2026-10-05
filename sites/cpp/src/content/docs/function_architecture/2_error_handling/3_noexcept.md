@@ -75,7 +75,7 @@ int main() {
 ## 3.2 `std::move_if_noexcept`
 
 The standard library uses `std::move_if_noexcept` to provide the strong exception safety guarantee
-During reallocation [N4950 §20.2.4]. If an element"s move constructor might throw, the library falls
+during reallocation [N4950 §20.2.4]. If an element"s move constructor might throw, the library falls
 Back to copying:
 
 $$
@@ -171,7 +171,7 @@ int main() {
 
 The default for destructors is `noexcept(true)` since C++11 [N4950 §14.5.3]. Use `noexcept(false)`
 Only when absolutely necessary (and the "destructor must never throw" rule still applies, see
-Below).
+below).
 
 ```cpp
 #include <iostream>
@@ -238,7 +238,7 @@ int main() {
 ## 3.6 The `noexcept` Operator
 
 The `noexcept` operator is a **compile-time** constant expression that evaluates to `true` if the
-Given expression is guaranteed not to throw [N4950 §14.5.2]. It does not evaluate the expression at
+given expression is guaranteed not to throw [N4950 §14.5.2]. It does not evaluate the expression at
 Runtime, it only examines the `noexcept` specifiers of the functions called within it:
 
 ```cpp
@@ -391,7 +391,7 @@ int main() {
 ```
 
 This is particularly useful for dispatching to optimized code paths when a callback is known to be
-Non-throwing.
+non-throwing.
 
 ## 3.9 `noexcept` in Template Metaprogramming
 
@@ -519,8 +519,8 @@ int main() {
 ### 4. `noexcept(false)` on Destructors
 
 Marking a destructor `noexcept(false)` does not make it safe to throw from. If a destructor throws
-During stack unwinding (while another exception is active), `std::terminate()` is called regardless
-Of the `noexcept` specification [N4950 §14.7]. The only safe use of `noexcept(false)` on a
+during stack unwinding (while another exception is active), `std::terminate()` is called regardless
+of the `noexcept` specification [N4950 §14.7]. The only safe use of `noexcept(false)` on a
 Destructor is when you want to catch and handle exceptions thrown by member destructors:
 
 ```cpp

@@ -437,7 +437,7 @@ ssl_session_tickets off;
 ### Session Tickets
 
 The server encrypts the session state and sends it to the client as a ticket. The client presents
-The ticket in subsequent handshakes. No server-side session cache is needed:
+the ticket in subsequent handshakes. No server-side session cache is needed:
 
 ```nginx
 # Nginx: session tickets (enabled by default)
@@ -631,7 +631,7 @@ openssl x509 -in cert.pem -noout -text | grep -A1 "Subject Alternative Name"
 
 While TLS 1.0 and 1.1 are deprecated (RFC 8996), some legacy clients still require them. Disable
 Them only after auditing client requirements. PCI DSS 3.2.1 mandated disabling TLS 1.0 by June 2018
-And TLS 1.1 by June 2019.
+and TLS 1.1 by June 2019.
 
 ## Summary
 

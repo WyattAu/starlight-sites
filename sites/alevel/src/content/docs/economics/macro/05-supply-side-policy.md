@@ -68,7 +68,7 @@ Allow markets to allocate resources more efficiently.
 
 **The labour supply effect.** Consider an individual choosing hours of work $h$ vs leisure $\ell$
 With $h + \ell = 24$. Utility is $U(C, \ell)$ where $C = w(1-t)h + V$ (after-tax labour income plus
-Non-labour income $V$).
+non-labour income $V$).
 
 A cut in the income tax rate $t$ raises the after-tax wage $w(1-t)$:
 
@@ -77,9 +77,9 @@ A cut in the income tax rate $t$ raises the after-tax wage $w(1-t)$:
 - **Income effect**: higher income allows more leisure $\Rightarrow$ work less
 
 The net effect depends on the relative strength of these effects. Empirical evidence suggests that
-For prime-age workers, the substitution effect dominates for secondary earners but is small for
+for prime-age workers, the substitution effect dominates for secondary earners but is small for
 Primary earners. The strongest labour supply response is at the extensive margin (whether to work at
-All, not how many hours).
+all, not how many hours).
 
 **Reduction in corporation tax** to incentivise investment:
 
@@ -107,7 +107,7 @@ $$
 $$
 
 The key debate is where the UK sits relative to $t^*$. Most empirical estimates (including the IFS
-And OBR) suggest that for income tax, the UK is to the **left** of $t^*$, meaning tax cuts would
+and OBR) suggest that for income tax, the UK is to the **left** of $t^*$, meaning tax cuts would
 Reduce revenue, not increase it. For corporation tax, the evidence is more contested; some studies
 Suggest the UK may be closer to $t^*$ due to capital mobility.
 
@@ -138,7 +138,7 @@ $$
 
 **Reducing employment protection legislation**: Making it easier to hire and fire workers reduces
 Firms' perceived risk of taking on new employees, potentially increasing employment. However, it may
-Also increase job insecurity and reduce worker welfare.
+also increase job insecurity and reduce worker welfare.
 
 **Reforming welfare benefits**: Reducing the generosity of unemployment benefits increases the
 Opportunity cost of not working, incentivising job search. But if benefits are too low, it may
@@ -172,7 +172,7 @@ $$
 $$
 
 Example: The Big Bang (1986) deregulated London's financial markets, contributing to the growth of
-The City as a global financial centre.
+the City as a global financial centre.
 
 **Real-world example: Thatcherite supply-side reforms (1979--1990).** The Thatcher government
 Pursued an extensive market-oriented supply-side agenda:
@@ -193,13 +193,13 @@ Pursued an extensive market-oriented supply-side agenda:
 Productivity growth accelerated in the 1980s compared to the 1970s. However, unemployment rose
 Sharply (peaking at over 3 million in 1984), regional inequality widened (particularly between
 London and the industrial north), and manufacturing output fell by approximately 30% between 1979
-And 1983. The short-term social costs were substantial, and some economists argue that the long-term
+and 1983. The short-term social costs were substantial, and some economists argue that the long-term
 Benefits were oversold, UK productivity growth remained below that of Germany and France for much
-Of the period.
+of the period.
 
 :::note
 Market-oriented policies. AQA and CIE may expect examples but do not mandate specific knowledge of
-The Thatcher era.
+the Thatcher era.
 :::
 
 ### 2.4 Competition Policy
@@ -270,7 +270,7 @@ Supply-side approaches to education:
 To international competitors. The academies programme improved results in some schools (sponsored
 Academies that replaced underperforming schools) but not in others (converter academies that were
 Already high-performing). The apprenticeship levy succeeded in increasing employer engagement but
-Has been criticised for incentivising rebadging existing training rather than creating new
+has been criticised for incentivising rebadging existing training rather than creating new
 Opportunities. The key lesson is that **institutional quality matters as much as spending**,
 Investing more in education without reforming how it is delivered yields diminishing returns.
 
@@ -329,7 +329,7 @@ Policies to reduce geographical inequality:
 ### 3.6 The Nordic Model: A Hybrid Approach
 
 The Nordic countries (Denmark, Sweden, Norway, Finland) combine market-oriented supply-side policies
-With extensive interventionist measures, offering a distinctive model that challenges the simple
+with extensive interventionist measures, offering a distinctive model that challenges the simple
 Market vs intervention dichotomy.
 
 **Key features:**
@@ -358,7 +358,7 @@ $$
 
 **Evaluation.** The Nordic model suggests that market-oriented and interventionist policies are not
 Mutually exclusive, they can be **complementary**. High taxes fund the education and infrastructure
-That raise productivity, while flexible labour markets ensure resources are allocated efficiently.
+that raise productivity, while flexible labour markets ensure resources are allocated efficiently.
 However, the model may not be directly transferable: Nordic countries have small, homogeneous
 Populations, strong social trust, and distinct institutional histories. The UK's larger, more
 Diverse population and different political culture may make the Nordic approach harder to implement.
@@ -449,7 +449,7 @@ $$
 
 If supply-side policy reduces $u^*$ from 6% to 4%, the Phillips curve shifts left. At any given
 Inflation rate, unemployment is now lower. Alternatively, at any given unemployment rate, inflation
-Is now lower.
+is now lower.
 
 **Productivity growth** (a key supply-side objective) also shifts the Phillips curve left by
 Reducing cost-push inflation:
@@ -468,24 +468,24 @@ When evaluating supply-side policies in an exam, consider the following framewor
 
 **1. Time lags.** Most supply-side policies have long implementation lags. Education reforms may
 Take 10--20 years to affect productivity. Infrastructure projects require 5--10 years from planning
-To completion. Tax reforms can be implemented quickly but may take years to change behaviour. In
+to completion. Tax reforms can be implemented quickly but may take years to change behaviour. In
 Contrast, demand-side policies (interest rate changes, fiscal stimulus) can affect the economy
-Within months.
+within months.
 
 **2. Magnitude of effect.** The impact of supply-side policies on potential output is often smaller
-Than advocates claim. The OECD estimates that structural reforms raise GDP by 0.5--2% over 5--10
+than advocates claim. The OECD estimates that structural reforms raise GDP by 0.5--2% over 5--10
 years, not the transformative gains sometimes suggested by politicians.
 
 **3. Opportunity cost.** Government spending on supply-side measures has an opportunity cost, the
 Same funds could be used for other purposes (healthcare, debt reduction, or even tax cuts that might
-Have different supply-side effects). Tax cuts as a supply-side tool have the opportunity cost of
+have different supply-side effects). Tax cuts as a supply-side tool have the opportunity cost of
 Reduced revenue.
 
 **4. Distributional effects.** Market-oriented supply-side policies tend to benefit those who are
 Already advantaged (high-skilled workers, entrepreneurs, shareholders). This can widen inequality,
 Which may itself have negative macroeconomic effects (lower aggregate demand from poorer households,
 Social unrest, political instability). Interventionist policies (education, regional investment) are
-More likely to promote inclusive growth.
+more likely to promote inclusive growth.
 
 **5. Dependency on other factors.** Supply-side policies do not operate in isolation. Their
 Effectiveness depends on:
@@ -653,18 +653,18 @@ In the UK?
 <details>
 <summary>Hint</summary>
 The Laffer curve is theoretically valid, at a 100% tax rate, nobody works and revenue is zero, so
-There must exist some rate that maximises revenue. However, its **practical relevance** for the UK is
+there must exist some rate that maximises revenue. However, its **practical relevance** for the UK is
 Highly contested. (1) Most empirical studies (IFS, OBR, Mirrlees Review) estimate that the UK income
 Tax rate is to the **left** of $t^*$ Meaning that tax cuts would **reduce** rather than increase
 Revenue. The revenue-maximising rate for income tax is estimated at 50--60% for top earners (Diamond
-And Saez, 2011), well above the current 45% additional rate. (2) The Laffer curve effect is stronger
-For highly mobile factors (capital, high-skilled labour) than for immobile ones, this is why
+and Saez, 2011), well above the current 45% additional rate. (2) The Laffer curve effect is stronger
+for highly mobile factors (capital, high-skilled labour) than for immobile ones, this is why
 Corporation tax cuts may be closer to revenue-neutral than income tax cuts. (3) Even if tax cuts
 Reduce revenue, they may still be justified on supply-side grounds (higher investment, entrepreneurship)
 If the long-run growth benefits exceed the fiscal cost. (4) The shape of the Laffer curve is
 Uncertain, on behavioural elasticities that are difficult to estimate. Conclusion: the
 Laffer curve provides a useful theoretical framework but is not, by itself, a strong justification
-For cutting UK income tax rates. The revenue-maximising argument applies more to capital taxes than
+for cutting UK income tax rates. The revenue-maximising argument applies more to capital taxes than
 Income taxes.
 </details>
 
@@ -675,7 +675,7 @@ Education as supply-side policies for raising the UK's long-run rate of economic
 <summary>Hint</summary>
 **Infrastructure:** (1) Direct productivity boost, lower transport costs, faster communications,
 Reliable energy supply all reduce firms' costs. (2) High multiplier effect (1.5--2.0) and crowding-in
-Of private investment. (3) Can reduce regional inequality if targeted at deprived areas (e.g.,
+of private investment. (3) Can reduce regional inequality if targeted at deprived areas (e.g.,
 Northern Powerhouse). (4) Risks: cost overruns, white elephant projects (HS2), long construction
 Lags. (5) UK infrastructure spending has been low by international standards (approx 2.5% of GDP vs
 OECD average 3.5%). **Education:** (1) Raises human capital, which is the primary driver of TFP
@@ -683,9 +683,9 @@ Growth and long-run living standards. (2) Social returns exceed private returns 
 Externalities of a more educated population, better civic engagement, lower crime, better health).
 (3) Takes 10--20 years to fully materialise. (4) UK has stagnated in PISA rankings despite
 Increased spending, suggesting diminishing returns without institutional reform. (5) Apprenticeships
-And vocational training may have faster payoffs than academic education. **Comparison:**
+and vocational training may have faster payoffs than academic education. **Comparison:**
 Infrastructure has a faster and more certain impact but may not sustain growth indefinitely (roads
-And bridges do not drive innovation). Education has a slower but more fundamental impact on growth
+and bridges do not drive innovation). Education has a slower but more fundamental impact on growth
 Potential. The optimal approach combines both, with infrastructure providing the foundation and
 Education driving the innovation frontier.
 </details>
@@ -702,10 +702,10 @@ Firms (zombie companies), and industries may lobby for protection regardless of 
 (3) Historical failures: the UK's Industrial Strategy (2017) was criticised for vague targets and
 Lack of follow-through. The EU's Common Agricultural Policy subsidised farming regardless of
 Efficiency. (4) Dynamic comparative advantage: economies grow fastest when resources flow to their
-Most productive uses through market signals, not government direction. **Arguments for industrial
+most productive uses through market signals, not government direction. **Arguments for industrial
 Policy:** (1) Market failures justify intervention, positive externalities from R&D mean the private
 Sector underinvests in basic research (e.g., the internet, GPS, and mRNA vaccines all originated
-From government-funded research). (2) Coordination failures, private firms may not invest in
+from government-funded research). (2) Coordination failures, private firms may not invest in
 Infrastructure or skills training if they cannot capture the full returns. (3) Successful examples:
 South Korea's industrial policy targeted steel, shipbuilding, and semiconductors, all became world-
 Class industries. Singapore's state-led development created a high-income economy from scratch. (4)
@@ -726,7 +726,7 @@ Per capita approximately 70% above the UK average in some measures, while parts 
 Wales, and Northern Ireland lag significantly. This reflects differences in industry composition,
 Skills, infrastructure, and agglomeration effects. **Supply-side policies to address regional
 Inequality:** (1) Infrastructure investment (Northern Powerhouse Rail, transport links to reduce
-The north-south divide). (2) Education and skills investment (regional universities, apprenticeship
+the north-south divide). (2) Education and skills investment (regional universities, apprenticeship
 Targets). (3) Enterprise zones and tax incentives (freeports, regional tax breaks to attract
 Businesses). (4) Relocation of government departments and public bodies (Channel 4 to Leeds, BBC to
 Salford). (5) Devolution of fiscal powers (city deals, combined authorities). **Evaluation:** (1)
@@ -736,11 +736,11 @@ Requires sustained, large-scale investment. (2) Infrastructure investment in the
 Slow (HS2 northern leg cancelled in 2023). (3) Enterprise zones and freeports have a mixed record,
 They may relocate activity rather than create it (zero-sum). (4) Education investment takes
 Decades to affect regional productivity. (5) The fiscal decentralisation needed to empower regions
-Would require a major constitutional shift (the UK is one of the most fiscally centralised countries
-In the OECD). **Conclusion:** supply-side policies can reduce regional inequality but only if they
-Are sustained over decades, targeted effectively, and backed by significant resources. The track
+would require a major constitutional shift (the UK is one of the most fiscally centralised countries
+in the OECD). **Conclusion:** supply-side policies can reduce regional inequality but only if they
+are sustained over decades, targeted effectively, and backed by significant resources. The track
 Record of UK regional policy is disappointing, suggesting that the political commitment required
-Has been lacking. International evidence (Germany's federal system, Spain's autonomous communities)
+has been lacking. International evidence (Germany's federal system, Spain's autonomous communities)
 Suggests that fiscal devolution may be necessary but not sufficient.
 </details>
 

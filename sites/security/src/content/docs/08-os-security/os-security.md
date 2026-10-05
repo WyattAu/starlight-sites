@@ -23,7 +23,7 @@ categories:
 ### SSH Hardening
 
 SSH is the primary remote administration protocol on Linux. Default configurations are permissive
-And must be hardened.
+and must be hardened.
 
 **Key-based authentication:**
 
@@ -33,7 +33,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server
 ```
 
 Ed25519 is preferred over RSA and ECDSA. It is faster, more secure, and has smaller keys. RSA keys
-Should be at least 4096 bits if used.
+should be at least 4096 bits if used.
 
 **sshd_config hardening:**
 
@@ -249,7 +249,7 @@ Exempts root, which it does not).
 SELinux (Security-Enhanced Linux) was developed by the NSA and uses a policy-based MAC system. It
 Assigns a security context (label) to every process, file, port, and other system object. Access is
 Granted only if the policy explicitly allows the source context to access the target context's class
-With the specified permission.
+with the specified permission.
 
 Security context format: `user:role:type:level`
 
@@ -490,7 +490,7 @@ Dangerous misconfigurations:
 ### Cron Jobs
 
 Cron jobs run on a schedule with the privileges of the owning user. If a cron job executes a script
-That an unprivileged user can modify, the user can inject arbitrary commands that run with the cron
+that an unprivileged user can modify, the user can inject arbitrary commands that run with the cron
 Job's privileges.
 
 Enumeration:
@@ -546,7 +546,7 @@ Common kernel vulnerability classes:
 ### Path Hijacking
 
 If a directory in the PATH is writable by the current user, an attacker can place a malicious binary
-With the same name as a commonly used command in that directory. When the command is executed, the
+with the same name as a commonly used command in that directory. When the command is executed, the
 Malicious binary runs instead.
 
 ```bash
@@ -814,7 +814,7 @@ Provide process isolation.
 ### cgroups
 
 Control groups (cgroups) limit and account for resource usage (CPU, memory, I/O, network) for a set
-Of processes. Cgroups v2 is the current standard.
+of processes. Cgroups v2 is the current standard.
 
 ```bash
 # Create a cgroup and limit memory to 512 MB
@@ -857,7 +857,7 @@ Container isolation vs VM isolation:
 ### UEFI Secure Boot
 
 UEFI Secure Boot ensures that only cryptographically signed bootloaders and kernels can be executed
-During the boot process. The firmware verifies the signature of each component before executing it:
+during the boot process. The firmware verifies the signature of each component before executing it:
 
 1. UEFI firmware verifies the bootloader (e.g., GRUB, shim)
 2. The bootloader verifies the kernel
@@ -919,7 +919,7 @@ Key security policies:
 ### BitLocker
 
 BitLocker provides full-disk encryption for Windows systems. It encrypts the entire volume and uses
-The TPM to protect the encryption key.
+the TPM to protect the encryption key.
 
 - **TPM-only mode:** The key is released automatically if the boot measurements are correct.
 - **TPM + PIN:** Requires a PIN in addition to TPM. Protects against physical attacks on a powered-
@@ -1035,7 +1035,7 @@ Both give owner-only access. This is a paranoid but secure default for multi-use
 ### Problem 3: SELinux Troubleshooting
 
 An Apache web server returns 403 Forbidden for files in `/var/www/html/app/`. The file permissions
-Are correct (644, owned by apache:apache). `ls -Z` shows:
+are correct (644, owned by apache:apache). `ls -Z` shows:
 
 ```
 -rw-r--r--. apache apache unconfined_u:object_r:default_t:s0 index.html
@@ -1124,7 +1124,7 @@ What does this rule do? Why is `auid!=4294967295` included?
 <summary>Answer</summary>
 
 This rule audits the `open` and `openat` system calls on 64-bit systems when the target path is
-Under `/etc` and the triggering user has a UID of 1000 or higher (regular users, not system
+under `/etc` and the triggering user has a UID of 1000 or higher (regular users, not system
 Accounts). The key `etc_access` allows filtering audit logs for this specific rule.
 
 `auid!=4294967295` excludes the "unset" login UID (4294967295 = $2^{32} - 1$ Which is the value of

@@ -28,7 +28,7 @@ Concepts, and the relationship between language and perception.
 ### Strong and Weak Versions
 
 The Sapir-Whorf hypothesis, named after the linguists Edward Sapir and Benjamin Lee Whorf, proposes
-That the structure of a language influences how its speakers perceive and think about the world. The
+that the structure of a language influences how its speakers perceive and think about the world. The
 Hypothesis exists in two versions:
 
 **Strong version (linguistic determinism):** Language determines thought. Speakers of different
@@ -51,7 +51,7 @@ Considerable empirical support and is the focus of contemporary research on ling
 Whorf studied the Hopi language and argued that it reflected a fundamentally different conception of
 Time compared to English and other European languages. He claimed that Hopi does not have words,
 Grammatical constructions, or metaphors that treat time as a spatial quantity (as in English, where
-We speak of "long" and "short" durations, or "looking forward" and "looking back" in time). Instead,
+we speak of "long" and "short" durations, or "looking forward" and "looking back" in time). Instead,
 Whorf argued, Hopi speakers conceptualise time in terms of duration and intensity rather than
 Spatial extension.
 
@@ -118,8 +118,8 @@ Numerical cognition.
 **Gordon (2004):** The Piraha language (spoken by an indigenous group in the Amazon) has only three
 Number words (roughly corresponding to "one," "two," and "many"). Piraha speakers had difficulty
 Performing exact number matching tasks with quantities greater than three, even though the tasks did
-Not require the use of number words. This suggests that the absence of a precise counting system in
-The language impairs the ability to represent exact quantities.
+not require the use of number words. This suggests that the absence of a precise counting system in
+the language impairs the ability to represent exact quantities.
 
 **Evaluation:**
 
@@ -179,7 +179,7 @@ Stimulus while ignoring its spatial position).
 B.F. Skinner proposed that language is acquired through operant conditioning. Children learn
 Language through reinforcement: when a child produces a sound or word that is praised or that
 Successfully communicates a need (leading to a desired outcome), the behaviour is reinforced and
-More likely to be repeated. Errors are corrected through negative feedback (punishment or lack of
+more likely to be repeated. Errors are corrected through negative feedback (punishment or lack of
 Reinforcement).
 
 **Strengths:**

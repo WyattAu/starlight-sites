@@ -427,7 +427,7 @@ Does not exist, logs are stored in `/run/log/journal/` (volatile, lost on reboot
 ## Timers
 
 Systemd timers replace cron for scheduled tasks. They support one-shot and recurring timers with
-More precise scheduling than cron.
+more precise scheduling than cron.
 
 ### Timer Unit File
 
@@ -569,7 +569,7 @@ systemctl list-sockets | grep myapp
 ## Service Hardening
 
 Systemd provides a comprehensive set of directives for restricting what a service can do. These are
-The primary mechanism for securing systemd-managed services.
+the primary mechanism for securing systemd-managed services.
 
 ### Filesystem Restrictions
 

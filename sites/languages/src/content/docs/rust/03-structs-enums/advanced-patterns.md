@@ -19,7 +19,7 @@ description: "Rust Advanced Struct and Enum Patterns notes covering key definiti
 
 The newtype pattern wraps an existing type in a tuple struct, creating a distinct type with the same
 Memory representation. This provides type safety without runtime overhead, the compiler eliminates
-The wrapper after optimization.
+the wrapper after optimization.
 
 ### Type Safety Through Wrapping
 
@@ -44,7 +44,7 @@ get_order(oid);
 ```
 
 The newtype pattern prevents accidentally passing an `OrderId` where a `UserId` is expected. Both
-Are `u64` internally, but the compiler treats them as completely different types.
+are `u64` internally, but the compiler treats them as completely different types.
 
 ### Memory Layout
 
@@ -83,7 +83,7 @@ assert_eq!(len, 1);
 
 :::caution
 `Deref`Callers can use the newtype as if it were the inner type, potentially defeating the purpose
-Of the wrapper. Only implement `Deref` when you intentionally want this behavior.
+of the wrapper. Only implement `Deref` when you intentionally want this behavior.
 
 ### Unit Conversion with Newtypes
 
@@ -329,7 +329,7 @@ let client = Client::new();
 ## Enum Dispatch
 
 Enum dispatch uses enums to implement polymorphism without trait objects, providing static dispatch
-And better performance:
+and better performance:
 
 ```rust
 enum Shape {
@@ -376,7 +376,7 @@ Use **trait objects** when:
 ## Zero-Sized Types (ZSTs)
 
 Zero-sized types occupy no memory at runtime. They are useful as marker types, phantom types, and
-For compile-time programming.
+for compile-time programming.
 
 ### Unit Structs
 
@@ -409,7 +409,7 @@ assert_eq!(std::mem::size_of::<Id<Vec<u8>>>(), 8);
 ```
 
 `PhantomData<T>` affects variance: `Id<T>` is covariant in `T` because `PhantomData<T>` is covariant
-In `T`.
+in `T`.
 
 ### ZST in Generics
 

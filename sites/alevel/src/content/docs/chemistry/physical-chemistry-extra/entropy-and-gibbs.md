@@ -227,7 +227,7 @@ $298\,\mathrm{K}$.
 ## Temperature Dependence of Feasibility
 
 The $\Delta G = \Delta H - T\Delta S$ equation reveals that the spontaneity of a reaction can change
-With temperature. The four cases:
+with temperature. The four cases:
 
 | $\Delta H$ | $\Delta S$ | Low $T$         | High $T$        | Example                                    |
 | ---------- | ---------- | --------------- | --------------- | ------------------------------------------ |
@@ -239,7 +239,7 @@ With temperature. The four cases:
 ### The Temperature of Equilibrium
 
 The temperature at which a reaction changes from spontaneous to non-spontaneous (or vice versa) is
-The temperature at which $\Delta G = 0$:
+the temperature at which $\Delta G = 0$:
 
 $$
 T = \frac{\Delta H^\circ}{\Delta S^\circ}

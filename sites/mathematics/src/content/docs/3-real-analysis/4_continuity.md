@@ -20,7 +20,7 @@ description: "Let where . We say if for Every There exists such that Comprehensi
 ### 4.1 Limits of Functions
 
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
-Every $\varepsilon > 0$ There exists $\delta > 0$ such that
+every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
 $$
 0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
@@ -47,7 +47,7 @@ Classified as:
 
 **Proposition 4.3.** Polynomials are continuous on $\mathbb{R}$. Rational functions $p(x)/q(x)$ are
 Continuous wherever $q(x) \neq 0$. The functions $\sin x$, $\cos x$, $e^x$, $\ln x$ are continuous
-On their domains.
+on their domains.
 
 **Theorem 4.1 (Algebra of Continuous Functions).** If $f$ and $g$ are continuous at $a$ Then $f+g$
 $f-g$, $fg$ And (where defined) $f/g$ are continuous at $a$.
@@ -91,7 +91,7 @@ $x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$ Contradicting th
 
 If $f(c) > y$ Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
 $x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$ Contradicting
-That $c = \sup(S)$.
+that $c = \sup(S)$.
 
 Therefore $f(c) = y$. $\blacksquare$
 
@@ -162,7 +162,7 @@ $|\sqrt{x} - \sqrt{y}| = \frac{|x - y|}{\sqrt{x} + \sqrt{y}} \leq |x - y|^{1/2}$
 
 Given $\varepsilon > 0$ Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
 $|\sqrt{x} - \sqrt{y}| \leq \sqrt{|x-y|} \lt \sqrt{\delta} = \varepsilon$. Since $\delta$ depends
-Only on $\varepsilon$ The continuity is uniform. $\blacksquare$
+only on $\varepsilon$ The continuity is uniform. $\blacksquare$
 
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ .../1-number-and-algebra/3_proof-and-logic that $f(x) = 3x - 1$ is continuous at $x = 2$</summary>
@@ -265,7 +265,7 @@ continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquar
 
 _Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$ Which follows from the
 Mean Value Theorem applied to $e^t$: $e^u - e^v = e^\xi (u - v)$ for some $\xi$ between $u$ and $v$
-So $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
+so $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
 
 Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$ So $x \lt a + 1$ and
 $e^{\max(x,a)} \leq e^{a+1}$. Choose $\delta = \min(1, \varepsilon / e^{a+1})$. For

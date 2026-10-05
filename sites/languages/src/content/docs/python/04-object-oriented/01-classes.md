@@ -22,8 +22,8 @@ categories:
 ## Class Definition
 
 In Python, a class is created with the `class` keyword. A class is itself an object -- an instance
-Of `type`. The body of a `class` statement executes at definition time (when the module is imported
-Or the function containing it is called), and the resulting namespace dictionary becomes the class"s
+of `type`. The body of a `class` statement executes at definition time (when the module is imported
+or the function containing it is called), and the resulting namespace dictionary becomes the class"s
 `__dict__`.
 
 ```python
@@ -57,7 +57,7 @@ class Tracer:
 ```
 
 This means class bodies are **not** inert declarations. They are executable code. This property is
-The foundation of metaclasses, class decorators, and many advanced patterns.
+the foundation of metaclasses, class decorators, and many advanced patterns.
 
 ## `__init__` and `self`
 
@@ -228,7 +228,7 @@ class Math:
 ```
 
 Static methods receive no implicit arguments. They cannot access `self` or `cls`. If a method does
-Not need either, making it static is a signal to readers and static analysis tools.
+not need either, making it static is a signal to readers and static analysis tools.
 :::
 
 :::note
@@ -347,8 +347,8 @@ print(D().method())  # B
 ### Why C3 Linearization
 
 Python 2.2 used a depth-first, left-to-right traversal for MRO. This produced unintuitive results
-With diamond inheritance patterns and was inconsistent with monotonicity (a property requiring that
-The order of base classes is preserved and that subclasses respect the order of their parents).
+with diamond inheritance patterns and was inconsistent with monotonicity (a property requiring that
+the order of base classes is preserved and that subclasses respect the order of their parents).
 
 Python 2.3 adopted **C3 linearization**, an algorithm originally developed for Dylan. C3 satisfies
 Three constraints:
@@ -450,11 +450,11 @@ u = User("Alice")
 
 Python's multiple inheritance is powerful but demands discipline. The community convention is to use
 **mixins** -- small, focused classes that provide a single piece of functionality and are designed
-To be combined with other classes through inheritance.
+to be combined with other classes through inheritance.
 
 A mixin should never be instantiated on its own. It should have no `__init__` (or a cooperative one
-That calls `super().__init__()`), and it should not hold state. Its purpose is to provide methods
-That a class can "mix in."
+that calls `super().__init__()`), and it should not hold state. Its purpose is to provide methods
+that a class can "mix in."
 
 ```python
 class JsonMixin:
@@ -477,7 +477,7 @@ print(u.to_csv_row(["name", "email"]))  # Alice,alice@example.com
 ```
 
 The convention for inheritance ordering is to list the primary base class last, and mixins before
-It:
+it:
 
 ```python
 class EnhancedUser(JsonMixin, CsvMixin, User):
@@ -496,7 +496,7 @@ Arguments it does not need.
 ## Abstract Base Classes
 
 The `abc` (Abstract Base Classes) module provides a way to define interfaces that enforce a contract
-On subclasses. A class with at least one abstract method cannot be instantiated directly.
+on subclasses. A class with at least one abstract method cannot be instantiated directly.
 
 ```python
 from abc import ABC, abstractmethod
@@ -554,7 +554,7 @@ class Repository(ABC):
 ### `__subclasshook__`
 
 ABCs can register virtual subclasses using `register()`Or define a `__subclasshook__` that allows
-Any class satisfying a structural protocol to be considered a subclass without explicit
+any class satisfying a structural protocol to be considered a subclass without explicit
 Registration.
 
 ```python
@@ -580,7 +580,7 @@ Typing of traditional inheritance.
 ## Dunder Methods
 
 Dunder (double underscore) methods are Python's protocol for operator overloading and integration
-With built-in functions. They are how user-defined classes participate in Python's data model.
+with built-in functions. They are how user-defined classes participate in Python's data model.
 
 ### String Representation
 
@@ -598,7 +598,7 @@ class Point:
 ```
 
 `__repr__` is for developers -- it should be unambiguous and, ideally, produce a string that could
-Be passed to `eval()` to reconstruct the object. `__str__` is for end users -- it should be
+be passed to `eval()` to reconstruct the object. `__str__` is for end users -- it should be
 Readable. `__str__` falls back to `__repr__` if not defined.
 
 ### Equality and Hashing
@@ -697,7 +697,7 @@ with Timer("query"):
 ```
 
 `__enter__` is called when the `with` block is entered. Its return value is bound to the variable
-After `as`. `__exit__` is called when the block exits, whether normally or via exception. If
+after `as`. `__exit__` is called when the block exits, whether normally or via exception. If
 `__exit__` returns `True`The exception is suppressed. The `contextlib` module provides
 `@contextmanager` for simpler cases where a function-based approach is cleaner.
 
@@ -783,7 +783,7 @@ Python has three overlapping mechanisms for data-holding classes. Each exists fo
 
 The design philosophy: `dataclass` does not try to replace `namedtuple` (which serves the tuple
 Compatibility use case) or `attrs` (which serves the heavy-weight validation use case). It occupies
-The middle ground.
+the middle ground.
 
 ## `__slots__`
 
@@ -1030,7 +1030,7 @@ class Account(Validated):
 
 This class combines dataclasses (for boilerplate reduction), ABCs (for interface enforcement), slots
 (for memory efficiency), and multiple dunder methods (for full Python data model integration). Each
-Of these mechanisms addresses a separate concern, and they compose without conflict.
+of these mechanisms addresses a separate concern, and they compose without conflict.
 
 ## Intuition
 

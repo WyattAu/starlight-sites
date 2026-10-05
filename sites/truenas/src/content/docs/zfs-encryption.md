@@ -45,13 +45,13 @@ Aware of ZFS data structures and operates within the DMU (Data Management Unit).
 
 Native ZFS encryption provides the critical advantage of per-dataset key granularity. You can
 Encrypt one dataset with one passphrase and a sibling dataset with a different passphrase, all
-Within the same pool. With dm-crypt, the entire block device is encrypted with a single key, and
-There is no concept of per-directory or per-dataset keys.
+within the same pool. With dm-crypt, the entire block device is encrypted with a single key, and
+there is no concept of per-directory or per-dataset keys.
 
 ### Encryption in the ZFS Write Path
 
 When encryption is enabled on a dataset, the encryption step is inserted between the DMU and the SPA
-In the ZFS write path:
+in the ZFS write path:
 
 ```mermaid
 graph TD
@@ -105,7 +105,7 @@ Encryption operates, what keys are used, and where keys are stored.
 Encryption properties can only be set at dataset creation time. They cannot be changed on an
 Existing dataset (with one exception: `keylocation` can be changed after creation). To change the
 Encryption algorithm or key format on an existing dataset, you must create a new dataset and copy
-The data.
+the data.
 
 ```bash
 # Create an encrypted dataset with all properties set
@@ -159,7 +159,7 @@ tank/secret/docs  keystatus       available       -
 ```
 
 The child dataset `tank/secret/docs` is encrypted with the same key as its parent. Loading the key
-On the parent (`tank/secret`) automatically makes the child accessible.
+on the parent (`tank/secret`) automatically makes the child accessible.
 
 ### Overriding Inherited Encryption
 
@@ -378,7 +378,7 @@ Data remains on disk, encrypted, but cannot be read or written until the key is 
 
 The `zfs change-key` command allows you to change the encryption key for a dataset without
 Re-encrypting the data. The master key wrapping key is re-encrypted with the new key material, but
-The actual data encryption keys are preserved.
+the actual data encryption keys are preserved.
 
 ```bash
 # Change passphrase for an existing encrypted dataset
@@ -398,7 +398,7 @@ zfs change-key -o encryption=chacha20-poly1305 tank/secret
 
 :::caution
 All data in the dataset. This is a long-running operation that consumes significant I/O bandwidth
-And CPU. Plan this for off-peak hours. Changing the passphrase or key format does not require
+and CPU. Plan this for off-peak hours. Changing the passphrase or key format does not require
 Re-encryption.
 :::
 
@@ -590,7 +590,7 @@ zpool import -l tank
 
 :::note
 Encrypted datasets use passphrase keys, TrueNAS will prompt you for the passphrase during boot. If
-They use key files, TrueNAS will attempt to load them from the specified file locations
+they use key files, TrueNAS will attempt to load them from the specified file locations
 Automatically.
 :::
 
@@ -702,7 +702,7 @@ New Instructions) hardware acceleration:
 | ARM crypto   | 3-10%                             | ARMv8 AES instructions      |
 
 Most Intel CPUs since Westmere (2010) and AMD CPUs since Bulldozer (2011) support AES-NI. Check
-With:
+with:
 
 ```bash
 # Check if CPU supports AES-NI
@@ -795,7 +795,7 @@ zfs get dedup tank/encrypted
 ### Snapshots and Encryption
 
 Snapshots of encrypted datasets inherit the parent dataset's encryption. The snapshot is encrypted
-With the same key as the live dataset. No separate key management is needed for snapshots.
+with the same key as the live dataset. No separate key management is needed for snapshots.
 
 ```bash
 # Create a snapshot of an encrypted dataset
@@ -808,7 +808,7 @@ zfs get encryption,encryptionroot tank/encrypted/docs@daily-2026-04-07
 
 :::note
 Parent dataset. If you load the key for the parent, all snapshots become accessible. If you unload
-The key, all snapshots become inaccessible.
+the key, all snapshots become inaccessible.
 :::
 
 ### Clones and Encryption
@@ -836,7 +836,7 @@ This topic is covered in detail in the Send and Receive section below. Key point
 ### Scrub and Resilver with Encryption
 
 Scrubbing reads all data and verifies checksums. For encrypted datasets, the checksum is computed on
-The ciphertext (the encrypted block). This means:
+the ciphertext (the encrypted block). This means:
 
 - Scrub verifies the integrity of the encrypted data, not the plaintext.
 - Scrub does not need the encryption key loaded to verify checksums.
@@ -857,13 +857,13 @@ Availability.
 :::
 
 Resilvering after a drive replacement also does not require the encryption key. The data is copied
-At the block level (encrypted ciphertext), and checksums are verified against the stored values.
+at the block level (encrypted ciphertext), and checksums are verified against the stored values.
 
 ### Encryption and Special Vdevs
 
 Special vdevs (metadata and small block allocation) work with encrypted datasets. The metadata
 Stored on the special vdev is encrypted with the dataset's key. When the key is unloaded, metadata
-On the special vdev is also inaccessible.
+on the special vdev is also inaccessible.
 
 ### Encryption and ZFS Properties
 
@@ -896,7 +896,7 @@ Some ZFS properties interact with encryption in specific ways:
 
 **Definition.** Raw send (`zfs send -w`) transmits the raw encrypted blocks from the source dataset
 Without decrypting them. The receiving system receives encrypted data that it cannot read without
-The encryption key. This is the only secure way to replicate encrypted datasets to an untrusted
+the encryption key. This is the only secure way to replicate encrypted datasets to an untrusted
 Destination.
 
 ```bash
@@ -960,7 +960,7 @@ The destination dataset has the encryption settings from the source but the key 
 ### Cross-Host Transfer with Raw Send
 
 Raw send is ideal for sending encrypted backups to a remote system that should not have access to
-The plaintext:
+the plaintext:
 
 ```bash
 # Send encrypted backup to a remote NAS (remote cannot read the data)
@@ -1152,7 +1152,7 @@ ZFS encryption has two internal key wrapping formats: `crypt` (legacy) and `cryp
 
 The `crypt2` format (available since OpenZFS 2.1 / TrueNAS SCALE 22.02) supports both 128-bit and
 256-bit key lengths and uses HKDF (HMAC-based Key Derivation Function) for key wrapping, which is
-More efficient and secure than PBKDF2 for this purpose. New encrypted datasets on TrueNAS SCALE use
+more efficient and secure than PBKDF2 for this purpose. New encrypted datasets on TrueNAS SCALE use
 `crypt2` by default.
 
 ```bash
@@ -1166,7 +1166,7 @@ zfs get keyformat,encryption tank/encrypted
 ### Forward Secrecy Considerations
 
 ZFS native encryption does not provide forward secrecy. Once a key is loaded, all data encrypted
-With that key (past, present, and future) can be decrypted. If a key is compromised, all data
+with that key (past, present, and future) can be decrypted. If a key is compromised, all data
 Encrypted with that key is compromised.
 
 For forward secrecy, you would need to re-encrypt data with a new key after each access session and
@@ -1259,7 +1259,7 @@ Passwords, and other system state). This is separate from user data encryption:
 
 The system dataset encryption key is automatically managed by TrueNAS and stored in the boot pool.
 This protects system configuration if the data pool drives are stolen, but the boot pool must also
-Be protected.
+be protected.
 
 ### Boot Key Loading
 
@@ -1429,7 +1429,7 @@ zfs create -o encryption=on -o keyformat=raw \
 ### Disabling Compression on Encrypted Datasets
 
 Some administrators disable compression on encrypted datasets, assuming that encrypted data cannot
-Be compressed. This is incorrect for ZFS because compression happens **before** encryption:
+be compressed. This is incorrect for ZFS because compression happens **before** encryption:
 
 ```bash
 # WRONG: Disabling compression on encrypted dataset
@@ -1440,7 +1440,7 @@ zfs set compression=zstd tank/encrypted/docs
 ```
 
 The data flow is: Plaintext → Compress → Encrypt → Write. Compression operates on the plaintext, so
-It works normally on encrypted datasets. Only disable compression if the plaintext data is already
+it works normally on encrypted datasets. Only disable compression if the plaintext data is already
 Incompressible (encrypted files, compressed archives, media files).
 
 ### Not Testing Key Recovery

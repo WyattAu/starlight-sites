@@ -27,10 +27,10 @@ Library requirements, classifies every operation into four levels [N4950 §16.4.
 ## 2.1 No-Throw Guarantee (Strongest)
 
 The operation **never** throws an exception. If it cannot complete, it terminates or reports via
-Some non-throwing mechanism.
+some non-throwing mechanism.
 
 All destructors, deallocation functions, and swap operations in the standard library provide the
-No-throw guarantee [N4950 §16.4.6.3 Table 30].
+no-throw guarantee [N4950 §16.4.6.3 Table 30].
 
 ```cpp
 #include <vector>
@@ -89,7 +89,7 @@ int main() {
 ### Conditional `noexcept` and Exception Propagation
 
 The `noexcept` specifier can be conditionally evaluated at compile time. This is critical because
-The exception safety guarantee of a composed operation depends on the guarantees of its
+the exception safety guarantee of a composed operation depends on the guarantees of its
 Sub-operations [N4950 §14.7.5.2]. The standard library extensively uses conditional `noexcept`:
 
 ```cpp
@@ -140,7 +140,7 @@ Needed).
 ### Destructors and `noexcept`
 
 Destructors are implicitly `noexcept` in C++11 and later [N4950 §14.7.5.2]. If a destructor attempts
-To throw, `std::terminate` is called immediately. This is non-negotiable: during stack unwinding, if
+to throw, `std::terminate` is called immediately. This is non-negotiable: during stack unwinding, if
 A second exception propagates while a first is already active, the runtime calls `std::terminate`
 There is no way to catch both.
 
@@ -167,7 +167,7 @@ int main() {
 ```
 
 The lesson: never let exceptions escape destructors. If a destructor performs an operation that
-Might fail, catch and swallow the exception, or use `std::uncaught_exceptions()` to conditionally
+might fail, catch and swallow the exception, or use `std::uncaught_exceptions()` to conditionally
 Suppress throws during unwinding.
 
 ## 2.2 Strong Guarantee (Transactional)
@@ -271,7 +271,7 @@ int main() {
 
 Copy-and-swap is clean but has a significant cost: every modifying operation allocates a complete
 Copy. For large data structures, this is unacceptable. Consider a database buffer managing 1 GB of
-In-memory data, copying on every insert would destroy performance.
+in-memory data, copying on every insert would destroy performance.
 
 In practice, many operations only provide the **basic guarantee** precisely because the strong
 Guarantee is prohibitively expensive. `std::vector::insert` at an arbitrary position provides the
@@ -326,7 +326,7 @@ int main() {
 ```
 
 Since `std::make_unique` and `int` moves never throw, this `push_back` provides the strong guarantee
-Without copy-and-swap. The key insight: if every sub-operation is non-throwing, the composite
+without copy-and-swap. The key insight: if every sub-operation is non-throwing, the composite
 Operation is automatically strong.
 
 ## 2.3 Basic Guarantee
@@ -484,7 +484,7 @@ int main() {
 ## Exception Safety in the Standard Library
 
 The standard library mandates specific guarantees for every container operation [N4950 §23.2]. Here
-Is a non-exhaustive mapping of commonly used operations:
+is a non-exhaustive mapping of commonly used operations:
 
 | Operation                     | Guarantee | Rationale                                                             |
 | ----------------------------- | --------- | --------------------------------------------------------------------- |
@@ -505,9 +505,9 @@ Is a non-exhaustive mapping of commonly used operations:
 Node-based containers like `std::map` provide the strong guarantee for insertion because each
 Element is allocated in its own node, if construction throws, the node is freed and the tree is
 Untouched. But `std::unordered_map` must maintain its hash table, and if a rehash is triggered
-During insertion, the table must be rebuilt. If rehash allocation fails after some nodes have been
+during insertion, the table must be rebuilt. If rehash allocation fails after some nodes have been
 Re-linked, the container is valid (no leaks, no dangling pointers) but elements may have been moved
-To a new bucket array that was only partially constructed.
+to a new bucket array that was only partially constructed.
 
 ## Intuition
 
@@ -574,7 +574,7 @@ int main() {
 ```
 
 The key is that the copy of `*this` happens first. If it throws, `o` is untouched and its destructor
-Will clean up normally. This provides the strong guarantee.
+will clean up normally. This provides the strong guarantee.
 
 ### Pitfall 3: `new` vs `new(std::nothrow)`
 
@@ -646,7 +646,7 @@ Compiler it does not need to generate unwind tables for that function, and allow
 Their own unwind bookkeeping.
 
 On MSVC (Windows), exceptions use a different mechanism (table-based with code cookies) that also
-Has zero cost on the happy path, but the table format and runtime are different from the Itanium
+has zero cost on the happy path, but the table format and runtime are different from the Itanium
 ABI.
 
 

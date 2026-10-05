@@ -53,7 +53,7 @@ Varieties:
 ### Derived Units
 
 A derived unit is obtained by combining base units according to the physical relationship. We denote
-The dimensions of a quantity using square brackets.
+the dimensions of a quantity using square brackets.
 
 **Definition.** The **dimension** of a physical quantity $Q$ Written $[Q]$ Is its expression in Terms
 of the base dimensions $\mathsf{M}$ (mass), $\mathsf{L}$ (length), $\mathsf{T}$ (time), $\mathsf{I}$
@@ -320,8 +320,8 @@ $$
 ## 7. Graphical Analysis of Uncertainties
 
 When determining a physical constant from the gradient of a straight-line graph, we use the **line
-Of best fit** and the **worst acceptable line** (the steepest and shallowest lines consistent with
-The error bars).
+of best fit** and the **worst acceptable line** (the steepest and shallowest lines consistent with
+the error bars).
 
 The uncertainty in the gradient is:
 

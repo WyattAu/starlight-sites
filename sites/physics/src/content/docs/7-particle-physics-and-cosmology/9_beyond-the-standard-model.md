@@ -145,7 +145,7 @@ Experimental reach.
 ### 9.4 Quantum Gravity
 
 The reconciliation of general relativity with quantum mechanics remains the central unsolved problem
-In theoretical physics.
+in theoretical physics.
 
 **Approaches:**
 

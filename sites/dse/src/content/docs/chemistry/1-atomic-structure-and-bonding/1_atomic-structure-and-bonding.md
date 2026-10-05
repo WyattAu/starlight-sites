@@ -197,7 +197,7 @@ Magnesium has electron configuration $1s^2\, 2s^2\, 2p^6\, 3s^2$. The electron i
 $3s$ subshell.
 
 Aluminium has electron configuration $1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^1$. The electron is removed
-From the $3p$ subshell.
+from the $3p$ subshell.
 
 The $3p$ subshell is at a slightly higher energy level than $3s$ So the $3p$ electron is less Tightly
 held and requires less energy to remove.
@@ -439,7 +439,7 @@ Examples: $\mathrm{H}_2\mathrm{O}$$\mathrm{NH}_3$ HF, DNA base pairing.
 ### Worked Example 6
 
 Explain why $\mathrm{H}_2\mathrm{O}$ has a higher boiling point than $\mathrm{H}_2\mathrm{S}$
-Despite $\mathrm{H}_2\mathrm{S}$ having a larger molecular mass.
+despite $\mathrm{H}_2\mathrm{S}$ having a larger molecular mass.
 
 Both molecules have van der Waals forces, which are stronger for $\mathrm{H}_2\mathrm{S}$ (larger,
 More electrons).
@@ -603,7 +603,7 @@ Approximately $107^\circ$.
 $\mathrm{SiO}_2$ has a giant covalent structure. Each silicon atom is covalently bonded to four
 Oxygen atoms, and each oxygen atom is bonded to two silicon atoms, forming a continuous 3D network.
 Breaking this structure requires breaking many strong covalent bonds, which requires a large amount
-Of energy, hence the very high melting point.
+of energy, hence the very high melting point.
 
 </details>
 
@@ -932,17 +932,17 @@ Explain the large jump between the third and fourth ionisation energies.
 
 The first three electrons are removed from the outer shell (2s and 2p subshells). The fourth
 Electron is removed from the inner 1s shell, which is much closer to the nucleus and experiences
-Much less shielding. This requires significantly more energy, hence the large jump.
+much less shielding. This requires significantly more energy, hence the large jump.
 
 **Question 7:** Explain why the melting point of $\mathrm{MgO}$ is much higher than that of
 $\mathrm{NaCl}$.
 
 Both have giant ionic lattices, but $\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$ have higher charges
-Than $\mathrm{Na}^+$ and $\mathrm{Cl}^-$. The electrostatic attraction is proportional to the
+than $\mathrm{Na}^+$ and $\mathrm{Cl}^-$. The electrostatic attraction is proportional to the
 Product of the charges: $\mathrm{MgO}$ has $2 \times 2 = 4$ while $\mathrm{NaCl}$ has
 $1 \times 1 = 1$. Additionally, $\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$ are smaller ions, allowing
 Them to get closer together. Both factors result in stronger ionic bonds and a higher melting point
-For $\mathrm{MgO}$.
+for $\mathrm{MgO}$.
 
 **Question 8:** Draw the dot-and-cross diagram for $\mathrm{CO}_2$ and explain why it is a linear
 Molecule.
@@ -974,9 +974,9 @@ Layers, allowing graphite to conduct electricity.
 Ionisation energy generally increases across the period because nuclear charge increases (more
 Protons) while the shielding effect remains similar (same number of inner electron shells). This
 Pulls the outer electrons closer to the nucleus, making them harder to remove. The dip at aluminium
-Is because the electron is removed from the higher-energy $3p$ subshell. The dip at sulfur is
-Because the electron is removed from a paired $3p$ orbital where electron-electron repulsion makes
-It easier to remove.
+is because the electron is removed from the higher-energy $3p$ subshell. The dip at sulfur is
+because the electron is removed from a paired $3p$ orbital where electron-electron repulsion makes
+it easier to remove.
 
 **Question 12:** Write the electron configuration of $\mathrm{Cu}^+$ and explain why it is more
 Stable than $\mathrm{Cu}^{2+}$ in some contexts.
@@ -1098,7 +1098,7 @@ $\mathrm{C}_6\mathrm{H}_{12}$ (hexane) is not.
 
 Ethanol has a hydroxyl group (-OH) that can form hydrogen bonds with water molecules, making it
 Miscible. Hexane is a non-polar hydrocarbon with only weak van der Waals forces. The energy released
-From forming hexane-water interactions is insufficient to overcome the hydrogen bonds between water
+from forming hexane-water interactions is insufficient to overcome the hydrogen bonds between water
 Molecules and the van der Waals forces between hexane molecules. This follows the principle "like
 Dissolves like."
 

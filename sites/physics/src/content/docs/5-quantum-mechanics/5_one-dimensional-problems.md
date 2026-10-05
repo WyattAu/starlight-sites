@@ -443,7 +443,7 @@ energy, Follows directly from the exponential dependence of $T$ on the barrier w
 A sharp tip and a conducting surface. Electrons tunnel across the gap, producing a current that
 Depends exponentially on the tip-surface distance: $I \propto e^{-2\kappa d}$. This allows atomic-
 Resolution imaging of surfaces, as a change in distance of $0.1$ nm changes the current by a factor
-Of about 10.
+of about 10.
 
 ```mermaid
 flowchart TD

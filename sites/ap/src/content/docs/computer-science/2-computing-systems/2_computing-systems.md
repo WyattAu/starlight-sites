@@ -244,7 +244,7 @@ $$
 
 **Intuition.** De Morgan's Laws say that the negation of a conjunction is the disjunction of the
 Negations, and vice versa. "It is not true that both A and B are true" is equivalent to "A is false
-Or B is false."
+or B is false."
 
 **Application in circuit design.** If you need a NOR gate but only have NAND gates available, De
 Morgan's Laws let you convert between gate types.
@@ -388,7 +388,7 @@ Request the kernel to perform privileged operations on their behalf.
 
 **Black-box vs white-box.** Black-box testing verifies that the system produces correct outputs for
 Given inputs, without examining the code. White-box testing examines the code structure to ensure
-Every path is tested (e.g., every branch of every `if` statement).
+every path is tested (e.g., every branch of every `if` statement).
 
 **Worked Example.** A function `isValidAge(age)` returns true if 0 $\le$ age $\le$ 120.
 
@@ -568,7 +568,7 @@ $12 / 4 = 3$ pages.
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
 Defragmentation reorganises files into contiguous blocks. Note: SSDs do not need defragmentation and
-It can actually reduce their lifespan.
+it can actually reduce their lifespan.
 
 ## Practice Questions
 

@@ -24,7 +24,7 @@ categories:
 
 A variable is a named storage location in memory whose value can change during program execution. A
 Variable has a name (identifier), a data type (which determines the kind of data it can hold and how
-Much memory it occupies), and a value (the data currently stored).
+much memory it occupies), and a value (the data currently stored).
 
 **Declaration** allocates memory for the variable and associates a name with that location.
 **Initialization** assigns an initial value at the point of declaration. **Assignment** changes the
@@ -70,7 +70,7 @@ Comparisons.
 ### Worked Example: Choosing Data Types
 
 A school management system needs to store the following data. Choose the most appropriate data type
-For each.
+for each.
 
 | Data Item                           | Appropriate Data Type | Justification                                     |
 | ----------------------------------- | --------------------- | ------------------------------------------------- |
@@ -89,7 +89,7 @@ For each.
 The key principle is to choose the most restrictive type that can represent all possible values.
 Using INTEGER instead of FLOAT when only whole numbers are needed avoids floating-point precision
 Issues. Using CHAR instead of STRING for single characters saves memory. Using CONSTANTS for values
-That should never change prevents accidental modification and makes the code self-documenting.
+that should never change prevents accidental modification and makes the code self-documenting.
 
 A common mistake is using FLOAT for values that are always whole numbers (like student counts).
 Another mistake is using STRING when CHAR suffices (like grade letters).
@@ -215,7 +215,7 @@ Setting bits, and bitwise XOR is used for toggling bits.
 
 Sequence is the default control structure: statements execute one after another in the order they
 Appear. Every program is ultimately a sequence of operations, possibly interspersed with selections
-And iterations.
+and iterations.
 
 ### Selection
 
@@ -321,7 +321,7 @@ END FOR
 ```
 
 The loop variable `i` is automatically initialized to 1, incremented by 1 after each iteration, and
-The loop terminates when `i` exceeds 10. IB pseudocode also supports stepping:
+the loop terminates when `i` exceeds 10. IB pseudocode also supports stepping:
 
 ```python
 FOR i ← 10 DOWNTO 1
@@ -350,7 +350,7 @@ UNTIL password = correctPassword
 ```
 
 Use REPEAT...UNTIL when the loop body must execute at least once (e.g., prompting for input that
-Must be validated).
+must be validated).
 
 ### Comparison of Loop Constructs
 
@@ -365,7 +365,7 @@ Must be validated).
 ### Nested Loops
 
 A loop inside another loop. The inner loop completes all its iterations for each single iteration of
-The outer loop.
+the outer loop.
 
 **Worked example:** Print a multiplication table for 1 to 5.
 
@@ -380,7 +380,7 @@ END FOR
 
 The inner loop executes 5 times for each of the 5 iterations of the outer loop, giving a total of 25
 Iterations. For nested loops with outer loop size $m$ and inner loop size $n$ The total iterations
-Are $m \times n$.
+are $m \times n$.
 
 ### Common Loop Patterns
 
@@ -440,7 +440,7 @@ IF i ← i + 1 END WHILE
 ### Procedures
 
 A procedure is a named block of code that performs a specific task. It does not return a value. It
-Is called for its side effects (e.g., printing output, modifying global state, updating data
+is called for its side effects (e.g., printing output, modifying global state, updating data
 Structures).
 
 ```python
@@ -454,7 +454,7 @@ END PROCEDURE
 ### Functions
 
 A function is a named block of code that performs a computation and returns a value. Functions
-Should not have side effects -- they should be pure: the same inputs always produce the same output.
+should not have side effects -- they should be pure: the same inputs always produce the same output.
 
 ```python
 FUNCTION factorial(n) RETURNS INTEGER
@@ -480,7 +480,7 @@ area ← rectangleArea(5.0, 3.0)  // 5.0 and 3.0 are arguments
 
 **Return values:** A function uses the `RETURN` statement to send a result back to the caller.
 Execution of the function terminates immediately when `RETURN` is encountered. A procedure does not
-Have a return value.
+have a return value.
 
 ### Side Effects
 
@@ -552,7 +552,7 @@ The parameter `x` is a local copy. Changing it has no effect on `num`.
 ### By Reference (Pass by Reference)
 
 The memory address of the argument is passed to the parameter. Modifications to the parameter inside
-The function directly affect the original argument.
+the function directly affect the original argument.
 
 ```python
 PROCEDURE increment(REF x)
@@ -643,7 +643,7 @@ Variables. Only by-reference can modify the caller's variables.
 ## Recursion
 
 Recursion is a problem-solving technique where a function calls itself to solve smaller instances of
-The same problem. Every recursive solution has two essential components:
+the same problem. Every recursive solution has two essential components:
 
 **Base case:** The condition under which the function returns directly without making a recursive
 Call. Without a base case, the recursion never terminates (infinite recursion), eventually causing a
@@ -742,7 +742,7 @@ $n(n+1)/2 = 4 \times 5 / 2 = 10$.
 
 The recursive case reduces the problem: `mystery(4)` needs `mystery(3)`Which needs `mystery(2)`
 Which needs `mystery(1)`. The base case stops the recursion. Each return value propagates back up
-The call stack.
+the call stack.
 
 </details>
 
@@ -779,7 +779,7 @@ Can be modified anywhere), limited code reuse.
 ### Object-Oriented Programming (OOP)
 
 Programs are organized around objects that combine data (attributes) and behavior (methods). Objects
-Are instances of classes, which define the structure and behavior.
+are instances of classes, which define the structure and behavior.
 
 **Characteristics:** Encapsulation, inheritance, polymorphism, abstraction, classes and objects,
 Message passing.
@@ -795,7 +795,7 @@ Overkill for simple programs.
 ### Functional Programming
 
 Programs are structured as a composition of pure functions. Data is immutable -- once created, it
-Cannot be changed. Functions are first-class citizens (they can be passed as arguments, returned as
+cannot be changed. Functions are first-class citizens (they can be passed as arguments, returned as
 Values, and stored in data structures).
 
 **Characteristics:** Pure functions, immutability, higher-order functions, recursion instead of
@@ -930,7 +930,7 @@ The diagram uses three fundamental structures:
    condition appears at the bottom.
 
 Nassi-Shneiderman diagrams are particularly useful for illustrating structured algorithms because
-They make the nesting of control structures visually explicit. They cannot represent unstructured
+they make the nesting of control structures visually explicit. They cannot represent unstructured
 Jumps, which is both a strength (enforcing good practice) and a limitation (cannot represent certain
 Low-level algorithms).
 
@@ -981,7 +981,7 @@ Examples: missing semicolons, mismatched parentheses, misspelled keywords, undec
 
 **Logic errors:** The program runs without crashing but produces incorrect results. The code does
 Something different from what the programmer intended. Logic errors are the most difficult to find
-Because the program appears to work.
+because the program appears to work.
 
 Examples: off-by-one errors in loop bounds, incorrect comparison operators, wrong formula, using
 Assignment (`=`) instead of comparison (`==`) in a condition.
@@ -1043,7 +1043,7 @@ Category.
 | Erroneous | "abc"      | Error message   | Wrong data type (string instead of integer)          |
 
 Boundary values are the most likely to reveal off-by-one errors. Always test the exact boundary and
-One value on each side.
+one value on each side.
 
 </details>
 
@@ -1516,13 +1516,13 @@ a sorted array using binary search
 
 **Key difference:** WHILE is a pre-test loop (condition checked before the body; may execute zero
 Times). REPEAT...UNTIL is a post-test loop (condition checked after the body; always executes at
-Least once).
+least once).
 
 (a) **REPEAT...UNTIL** -- The user must see the prompt at least once before they can provide input.
 Post-test is correct because the body must run at least once.
 
 (b) **WHILE** -- If the queue is empty, there is nothing to process. The loop should not execute at
-All. Pre-test is correct.
+all. Pre-test is correct.
 
 (c) **WHILE** -- Binary search may terminate immediately if the search range is empty (e.g.,
 searching An empty array). Pre-test is correct.

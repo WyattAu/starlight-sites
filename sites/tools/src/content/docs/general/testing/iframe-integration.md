@@ -190,7 +190,7 @@ When the embedded content is taller than the viewport:
 ### Docusaurus-Specific Wrapper
 
 This site uses a `godbolt-container` CSS class (though currently not defined in custom.css, add it
-If needed):
+if needed):
 
 ```css
 .godbolt-container {

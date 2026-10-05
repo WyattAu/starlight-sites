@@ -671,7 +671,7 @@ Factorised as $(z-1)(z+1)(z^2-z+1)(z^2+z+1)$.
 $k = 0$: $z = 1$ Factor $(z - 1)$. $k = 3$: $z = e^{i\pi} = -1$ Factor $(z + 1)$. $k = 1, 5$:
 $z = e^{i\pi/3}$ and $z = e^{i5\pi/3}$ Which are conjugate. Their combined factor is
 $z^2 - 2\cos(\pi/3)z + 1 = z^2 - z + 1$. $k = 2, 4$: $z = e^{i2\pi/3}$ and $z = e^{i4\pi/3}$ Which
-Are conjugate. Their combined factor is $z^2 - 2\cos(2\pi/3)z + 1 = z^2 + z + 1$.
+are conjugate. Their combined factor is $z^2 - 2\cos(2\pi/3)z + 1 = z^2 + z + 1$.
 
 Therefore $z^6 - 1 = (z-1)(z+1)(z^2 - z + 1)(z^2 + z + 1)$. $\blacksquare$
 
@@ -714,7 +714,7 @@ The constraint $0 \leq \arg(z - i) \leq \pi/4$ means the region between the posi
 $i$) and the line at $45^\circ$ (from $i$).
 
 The intersection of the disc with this sector gives $R$. The line $\arg(z - i) = \pi/4$ is the ray
-From $i$ along the direction $(1, 1)$ Which has Cartesian equation $y - 1 = x$ I.e., $y = x + 1$.
+from $i$ along the direction $(1, 1)$ Which has Cartesian equation $y - 1 = x$ I.e., $y = x + 1$.
 
 The disc boundary $(x)^2 + (y - 3)^2 = 4$ intersects $y = x + 1$ at:
 
@@ -754,7 +754,7 @@ v^2 = \frac{4y^2}{(1+y^2)^2} = \frac{4\!\left(\frac{2}{u-1} - 1\right)}{\frac{4}
 $$
 
 The image is the arc of the circle defined by $2v^2 = (5-u)(u-1)$ for $u \geq 1$ Which is a circle
-With centre $(3, 0)$ and radius $2$ in the $w$-plane.
+with centre $(3, 0)$ and radius $2$ in the $w$-plane.
 
 ### Example 9.5: Solving $z^n = w$ with non-trivial arguments
 

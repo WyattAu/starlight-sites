@@ -53,7 +53,7 @@ categories:
 ## Hardy-Weinberg Equilibrium (CED Unit 7)
 
 The Hardy-Weinberg principle describes a hypothetical, non-evolving population. If a population is
-In Hardy-Weinberg equilibrium, allele and genotype frequencies remain constant from generation to
+in Hardy-Weinberg equilibrium, allele and genotype frequencies remain constant from generation to
 Generation.
 
 ### Equations
@@ -88,7 +88,7 @@ If any condition is violated, the population evolves (allele frequencies change)
 
 :::note[Worked Example 1]
 In a population of 1000 individuals, 160 have the recessive phenotype (aa). Find the frequencies of
-All genotypes and alleles.
+all genotypes and alleles.
 
 $$
 Q^2 = \frac{160}{1000} = 0.16 \implies q = 0.4
@@ -146,7 +146,7 @@ Observed: $p^2 = 0.42$$2pq = 0.36$$q^2 = 0.22$.
 
 The observed and expected frequencies differ, so the population is not in Hardy-Weinberg
 Equilibrium. The excess of homozygotes (AA and aa) suggests non-random mating (possibly inbreeding
-Or assortative mating).
+or assortative mating).
 
 ## Mechanisms of Evolution
 
@@ -174,7 +174,7 @@ Three types based on the effect on the phenotype distribution:
 **Worked Example: Directional selection in Darwin's finches.**
 
 During a drought on the Galapagos Islands, the available seeds became larger and harder. Finches
-With larger, stronger beaks could crack these seeds more efficiently and had higher survival and
+with larger, stronger beaks could crack these seeds more efficiently and had higher survival and
 Reproductive success. The average beak size in the population increased over the drought period.
 This is an example of directional selection. When the drought ended and smaller seeds became
 Available again, beak size shifted back towards the original average, demonstrating that natural
@@ -282,7 +282,7 @@ A form of natural selection based on mating success.
 ### Allopatric Speciation
 
 Speciation that occurs when populations are geographically separated. Gene flow is interrupted, and
-The populations diverge through genetic drift, natural selection, and/or mutation.
+the populations diverge through genetic drift, natural selection, and/or mutation.
 
 **Process:**
 
@@ -294,7 +294,7 @@ The populations diverge through genetic drift, natural selection, and/or mutatio
 **Worked Example: Allopatric speciation in the Kaibab squirrel.**
 
 The Kaibab squirrel lives on the north rim of the Grand Canyon, while the Abert squirrel lives on
-The south rim. The two populations were separated by the formation of the Grand Canyon approximately
+the south rim. The two populations were separated by the formation of the Grand Canyon approximately
 10,000 years ago. Despite being very similar in appearance, they have evolved enough genetic
 Differences that they are now considered separate species. The Grand Canyon acts as a geographic
 Barrier that prevents gene flow.
@@ -471,7 +471,7 @@ Humans and yeast differ by about 45 amino acids.
 **Molecular clocks:** The rate of neutral mutations in DNA is relatively constant over time. By
 Counting the number of differences in DNA sequences between two species, scientists can estimate how
 Long ago they diverged from a common ancestor. This method assumes a roughly constant mutation rate
-And must be calibrated using the fossil record.
+and must be calibrated using the fossil record.
 
 **Pseudogenes:** These are non-functional copies of genes that have accumulated mutations over time.
 The presence of the same pseudogene at the same chromosomal location in different species is strong
@@ -491,7 +491,7 @@ Four species have the following number of amino acid differences in a particular
 - Species C vs D: 15 differences
 
 The pair with the fewest differences (A and B, 5) are most closely related. The tree would show A
-And B sharing the most recent common ancestor, followed by C, with D being the most distantly
+and B sharing the most recent common ancestor, followed by C, with D being the most distantly
 Related.
 
 ## Review: Types of Natural Selection
@@ -530,7 +530,7 @@ a subset of the total genetic variation.
 **Why drift matters more in small populations:** In a population of 10,000, the random loss of one
 Individual changes allele frequencies by only 0.01%. In a population of 10, the loss of one
 Individual changes allele frequencies by 10%. Small populations are therefore much more susceptible
-To random changes in allele frequencies.
+to random changes in allele frequencies.
 
 **Worked Example: Cheetahs and the bottleneck effect.**
 
@@ -538,7 +538,7 @@ Cheetahs experienced a severe bottleneck approximately 10,000 years ago, reducin
 A very small number of individuals. As a result, modern cheetahs have extremely low genetic
 Diversity -- they are so genetically similar that skin grafts between unrelated cheetahs are not
 Rejected. This low diversity makes cheetahs vulnerable to disease and environmental changes because
-There is little genetic variation for natural selection to act upon.
+there is little genetic variation for natural selection to act upon.
 
 ## Review: Hybrid Zones and Speciation
 
@@ -580,7 +580,7 @@ Malaria-endemic regions have evolved sickle-cell trait (heterozygote advantage a
 And their pollinators. Plants evolve specific flower shapes, colours, and scents to attract
 Particular pollinators, while pollinators evolve specialised mouthparts and behaviours to access
 Nectar efficiently. Orchids and their pollinating moths are a classic example: some orchid species
-Have flowers with nectar spurs that match the exact proboscis length of their moth pollinator.
+have flowers with nectar spurs that match the exact proboscis length of their moth pollinator.
 
 ## Review: Evolutionary Developmental Biology (Evo-Devo)
 
@@ -610,16 +610,16 @@ Calmodulin) that regulate beak development, without affecting other body structu
 
 Snakes evolved from four-legged lizard ancestors. The loss of limbs in snakes is associated with
 Changes in the expression of Hox genes that control limb development. Specifically, the expansion of
-The Hox gene expression domain along the body axis during embryonic development prevents limb bud
+the Hox gene expression domain along the body axis during embryonic development prevents limb bud
 Formation in the regions where limbs would normally develop. This is an example of how a change in
-The regulation of existing genes (rather than the evolution of entirely new genes) can produce a
+the regulation of existing genes (rather than the evolution of entirely new genes) can produce a
 Major morphological change.
 
 ## Review: Genetic Evidence for Common Ancestry
 
 The universality of the genetic code is among the strongest evidence for common ancestry. In nearly
-All organisms, the same codons specify the same amino acids. For example, AUG codes for methionine
-In bacteria, plants, fungi, and humans. This shared genetic code is most explained by common Descent
+all organisms, the same codons specify the same amino acids. For example, AUG codes for methionine
+in bacteria, plants, fungi, and humans. This shared genetic code is most explained by common Descent
 from a single ancestral organism.
 
 **Shared endogenous retroviruses (ERVs):** ERVs are viral sequences that have been inserted into the
@@ -631,20 +631,20 @@ Far fewer, consistent with the closer evolutionary relationship between humans a
 **Shared pseudogenes:** Pseudogenes are non-functional gene copies that have accumulated disabling
 Mutations. The GULO pseudogene, which is involved in vitamin C synthesis, is present in the same
 Location on chromosome 8 in humans, chimpanzees, and orangutans. The specific mutations disabling
-The gene are shared among these species, indicating that the gene was inactivated in their common
+the gene are shared among these species, indicating that the gene was inactivated in their common
 Ancestor.
 
 **Comparative genomics:** Genome-wide comparisons show that humans share approximately 98.7% of
 Their DNA sequence with chimpanzees, approximately 85% with mice, and approximately 60% with
 Bananas. The degree of sequence similarity correlates with the evolutionary relatedness determined
-By the fossil record and other evidence.
+by the fossil record and other evidence.
 
 **Molecular clocks:**
 
 The molecular clock hypothesis proposes that mutations accumulate in DNA at a roughly constant rate
-Over time. By comparing the number of sequence differences between two species in a gene that
+over time. By comparing the number of sequence differences between two species in a gene that
 Evolves at a relatively constant rate (such as cytochrome c), researchers can estimate the time
-Since the two species diverged from a common ancestor. This provides an independent method for
+since the two species diverged from a common ancestor. This provides an independent method for
 Estimating divergence times that complements the fossil record.
 
 **Key assumptions of the molecular clock:**
@@ -680,13 +680,13 @@ Molecular data (DNA and protein sequences) are used to construct phylogenetic tr
 Computational methods such as maximum parsimony, maximum likelihood, and Bayesian inference. These
 Methods analyse the patterns of shared derived characters (synapomorphies) to infer the most likely
 Evolutionary relationships among species. Molecular phylogenies have resolved many relationships
-That were unclear from morphological data alone, such as the division of life into three domains
+that were unclear from morphological data alone, such as the division of life into three domains
 (Bacteria, Archaea, and Eukarya).
 
 **Convergent evolution:**
 
 Convergent evolution occurs when unrelated species independently evolve similar traits as a result
-Of adapting to similar environments or ecological niches. These similarities are analogous
+of adapting to similar environments or ecological niches. These similarities are analogous
 Structures (similar function but different evolutionary origin), not homologous structures (similar
 Origin but possibly different function).
 
@@ -717,7 +717,7 @@ To determine whether similar structures are homologous or analogous, biologists 
 **Speciation and reproductive isolation:**
 
 Speciation occurs when populations of a single species become reproductively isolated and diverge to
-The point where they can no longer produce fertile offspring. Reproductive isolation can be:
+the point where they can no longer produce fertile offspring. Reproductive isolation can be:
 
 - **Pre-zygotic:** Geographic isolation, temporal isolation (different breeding seasons),
   behavioural isolation (different courtship rituals), mechanical isolation (incompatible
@@ -741,7 +741,7 @@ Colour and skull morphology, and are considered separate subspecies (or possibly
 In a population, the ABO blood group alleles have the following frequencies: $p(I^A) = 0.3$
 $q(I^B) = 0.1$, $r(i) = 0.6$. Calculate the expected frequency of each blood type (A, B, AB, O)
 Assuming Hardy-Weinberg equilibrium. What percentage of the population can donate blood to a person
-With type O blood?
+with type O blood?
 
 </details>
 
@@ -852,7 +852,7 @@ New allele frequencies: $p = 5/10 = 0.5$, $q = 5/10 = 0.5$.
 
 Genetic drift has dramatically increased the frequency of allele $a$ from $0.2$ on the mainland to
 $0.5$ on the island. This is an example of the founder effect: the small founding population does
-Not represent the genetic diversity of the source population, and allele frequencies can shift
+not represent the genetic diversity of the source population, and allele frequencies can shift
 Substantially by chance alone.
 
 </details>
@@ -872,7 +872,7 @@ Barrier and explain whether these two species are likely to remain distinct.
 
 The temporal difference in breeding seasons (March vs June) is a **temporal isolation** barrier,
 Which is a prezygotic barrier. It prevents the species from mating in nature because they reproduce
-At different times.
+at different times.
 
 The sterility of adult hybrids is a **reduced hybrid fertility** barrier, which is a postzygotic
 Barrier. Even if fertilisation occurs (as in the artificial experiment), the hybrids cannot produce

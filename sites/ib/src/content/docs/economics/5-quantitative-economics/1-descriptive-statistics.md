@@ -173,7 +173,7 @@ Exceeds the present value of costs).
 ### Framework
 
 CBA is a systematic approach to evaluating the economic merits of a project or policy by comparing
-The total social benefits with the total social costs.
+the total social benefits with the total social costs.
 
 **Steps in CBA:**
 
@@ -236,7 +236,7 @@ $$
 ### The Lorenz Curve
 
 The Lorenz curve plots the cumulative share of income (or wealth) received by the cumulative share
-Of the population, ordered from poorest to richest.
+of the population, ordered from poorest to richest.
 
 - The horizontal axis measures the cumulative share of the population (0 to 100%)
 - The vertical axis measures the cumulative share of income (0 to 100%)
@@ -252,7 +252,7 @@ G = \frac{A}{A + B}
 $$
 
 Where $A$ is the area between the line of perfect equality and the Lorenz curve, and $B$ is the area
-Under the Lorenz curve.
+under the Lorenz curve.
 
 - $G = 0$: perfect equality (the Lorenz curve coincides with the 45-degree line)
 - $G = 1$: maximum inequality (one person has all the income)
@@ -307,7 +307,7 @@ Person above the line reduces the headcount ratio, even if millions remain in de
 ### Poverty Gap
 
 The poverty gap measures the average distance below the poverty line, expressed as a proportion of
-The poverty line:
+the poverty line:
 
 $$
 \text{Poverty gap} = \frac{1}{N} \sum_{i=1}^{q} \frac{z - y_i}{z}
@@ -328,7 +328,7 @@ Shortfall as a percentage of the poverty line, averaged over the entire populati
 ### Squared Poverty Gap (Poverty Severity)
 
 The squared poverty gap (also called the Foster-Greer-Thorbecke $P_2$ measure) gives greater weight
-To the poorest of the poor:
+to the poorest of the poor:
 
 $$
 P_2 = \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)^2
@@ -531,7 +531,7 @@ $$
 $$
 
 The balanced budget multiplier equals 1: equal increases in $G$ and $T$ increase GDP by the amount
-Of the increase.
+of the increase.
 
 ## The Consumption Function
 
@@ -1029,7 +1029,7 @@ $\text{HDI}_Q = (0.923 \times 0.844 \times 0.905)^{1/3} = (0.705)^{1/3} = 0.889$
 Index (0.662 vs. 0.905). This reflects the principle of diminishing marginal utility of income:
 Additional income contributes less to human development at higher income levels. The non-income
 Dimensions (health, education) carry substantial weight, which can narrow the gap between countries
-At different income levels.
+at different income levels.
 
 </details>
 
@@ -1063,8 +1063,8 @@ $Y^* = 1200 - 50(7.78) = 1200 - 388.9 = 811.1$
 $Y = 1400 - 50(10) = 900$
 
 Output increased from $811.1$ to $900$ (an increase of $88.9$). The interest rate rose from $7.78\%$
-To $10.0\%$. The rise in interest rates partially crowds out private investment -- without crowding
-Out, the output increase would have been larger (the horizontal shift of IS is $200$ But actual
+to $10.0\%$. The rise in interest rates partially crowds out private investment -- without crowding
+out, the output increase would have been larger (the horizontal shift of IS is $200$ But actual
 Output increased by only $88.9$).
 
 (c) New LM $=$ IS: $1200 - 50r = 600 + 40r \implies 600 = 90r \implies r = 6.67\%$
@@ -1364,7 +1364,7 @@ $$
 $$
 
 The export multiplier equals the government spending multiplier because both are direct injections
-Into aggregate expenditure.
+into aggregate expenditure.
 
 **Proportional tax rate multiplier:**
 

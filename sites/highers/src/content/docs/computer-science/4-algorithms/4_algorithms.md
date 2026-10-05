@@ -305,7 +305,7 @@ def binary_search(arr, target):
 ### Linked Lists
 
 A linear data structure where elements (nodes) are connected by pointers. Each node contains data
-And a reference to the next node.
+and a reference to the next node.
 
 **Advantages over arrays:** Dynamic size, efficient insertion and deletion.
 
@@ -583,7 +583,7 @@ def dfs(graph, start):
 ### Dijkstra's Algorithm
 
 Finds the shortest path from a single source to all other vertices in a weighted graph with
-Non-negative weights.
+non-negative weights.
 
 **Complexity:** $O((V + E) \log V)$ with a priority queue.
 

@@ -20,7 +20,7 @@ categories: "- DSE - Economics"
 ## Overview of Macroeconomic Policy
 
 Macroeconomic policy refers to government actions designed to influence the overall performance of
-The economy. The primary objectives are:
+the economy. The primary objectives are:
 
 1. **Economic growth:** Sustained increase in real GDP and living standards
 2. **Full employment:** Minimising cyclical unemployment (achieving the natural rate of
@@ -66,7 +66,7 @@ Government spending falls into two categories:
 | Capital expenditure | Investment in physical infrastructure: roads, bridges, public housing, airports, hospitals, schools. Increases the economy"s productive capacity. |
 
 Current expenditure directly affects aggregate demand in the short run. Capital expenditure affects
-Both aggregate demand (in the short run, through construction spending) and aggregate supply (in the
+both aggregate demand (in the short run, through construction spending) and aggregate supply (in the
 Long run, by expanding the economy"s productive capacity).
 
 ### Taxation
@@ -130,7 +130,7 @@ When the government increases spending by an amount, this becomes income for som
 Suppliers). Those recipients spend a portion of this additional income (determined by the marginal
 Propensity to consume, MPC), which becomes income for yet others. This process continues, with each
 Round of spending generating further income and further spending, though the amount gets smaller
-Each round.
+each round.
 
 **Simple spending multiplier (no taxes, no imports):**
 
@@ -155,7 +155,7 @@ Marginal propensity to import (proportion of additional income spent on imports)
 
 **Why do taxes and imports reduce the multiplier?** Taxes and imports are **leakages** from the
 Circular flow. Each round of spending, some income is taxed (not available for consumption) and some
-Is spent on imports (not part of domestic demand). These leakages reduce the amount of income
+is spent on imports (not part of domestic demand). These leakages reduce the amount of income
 Available for the next round of domestic spending, shrinking the multiplier.
 
 $$
@@ -170,7 +170,7 @@ $$
 
 A tax cut of `Delta T` increases disposable income by `Delta T`But only `MPC x Delta T` is spent
 (the rest is saved). This initial spending is then multiplied. The tax multiplier is always smaller
-Than the spending multiplier (in absolute value) because part of the tax cut is saved, not spent.
+than the spending multiplier (in absolute value) because part of the tax cut is saved, not spent.
 
 ### Worked Example: Expansionary Fiscal Policy
 
@@ -333,7 +333,7 @@ $$
 $$
 
 In the extreme case (full crowding out), the increase in government spending is exactly offset by
-The decrease in private investment, and aggregate demand does not change at all. The composition of
+the decrease in private investment, and aggregate demand does not change at all. The composition of
 Output shifts from investment to government spending, which may reduce long-run growth (investment
 Drives productivity improvements).
 
@@ -447,9 +447,9 @@ Run. If the economy is near full employment, higher AD primarily raises prices (
 ### Definition
 
 Supply-side policies aim to increase the productive capacity of the economy (shift the LRAS curve to
-The right) by improving the quantity, quality, and efficiency of factors of production. Unlike
+the right) by improving the quantity, quality, and efficiency of factors of production. Unlike
 Demand-side policies (fiscal and monetary policy), supply-side policies address the supply side of
-The economy and are the primary tool for achieving long-run economic growth.
+the economy and are the primary tool for achieving long-run economic growth.
 
 ### Market-Oriented Supply-Side Policies
 
@@ -502,7 +502,7 @@ These policies involve direct government action and spending.
 ## Policy Conflicts and Trade-Offs
 
 Macroeconomic policies frequently conflict with one another. Achieving all objectives simultaneously
-Is rarely possible, forcing policymakers to make trade-offs.
+is rarely possible, forcing policymakers to make trade-offs.
 
 ### Inflation vs Unemployment
 
@@ -517,7 +517,7 @@ Policy reduces inflation but increases unemployment.
 
 Rapid economic growth (driven by strong aggregate demand) tends to generate inflationary pressure,
 Especially as the economy approaches full capacity. Policymakers must balance the desire for growth
-With the need for price stability.
+with the need for price stability.
 
 ### Economic Growth vs Environment
 
@@ -654,7 +654,7 @@ Targeted fiscal measures than on discretionary macroeconomic policy.
 An economy has MPC = 0.75, MPT = 0.1, and MPM = 0.1.
 
 (a) Calculate the multiplier. (b) If the government increases spending by USD 50 billion, what is
-The total change in national income? (c) If the government instead cuts taxes by USD 50 billion,
+the total change in national income? (c) If the government instead cuts taxes by USD 50 billion,
 What is the total change in national income? (d) Which policy is more effective? Explain.
 
 (a) Multiplier = 1 / (MPS + MPT + MPM) = 1 / (0.25 + 0.1 + 0.1) = 1 / 0.45 = 2.22
@@ -666,9 +666,9 @@ What is the total change in national income? (d) Which policy is more effective?
 Change in Y = -1.67 x (-50) = 83.5 billion
 
 (d) The spending increase is more effective (111.1 vs 83.5 billion) because the full USD 50 billion
-Is injected directly into the economy. With a tax cut, only MPC x 50 = 37.5 billion is initially
+is injected directly into the economy. With a tax cut, only MPC x 50 = 37.5 billion is initially
 Spent (the remaining 12.5 billion is saved). The initial injection is smaller, so the total effect
-Is smaller.
+is smaller.
 
 </details>
 <details>
@@ -707,7 +707,7 @@ Explain. (c) What combination of policies would you recommend?
 
 (a) The economy has STAGFLATION: high inflation AND high unemployment. The actual unemployment rate
 (9%) exceeds the natural rate (5%), indicating a recessionary gap in output. However, inflation is
-Also high (8%), which is inconsistent with a simple recessionary gap. This situation is caused by a
+also high (8%), which is inconsistent with a simple recessionary gap. This situation is caused by a
 Leftward shift of the SRAS curve (cost-push inflation), not by excess demand.
 
 (b) No, demand-side policy alone cannot solve both problems simultaneously:
@@ -737,7 +737,7 @@ Hong Kong's government runs a budget surplus of HKD 100 billion. The economy is 
 GDP growth) and inflation is 1.5%.
 
 (a) What type of fiscal policy is this? (b) What effect does this have on aggregate demand? (c) Is
-This policy appropriate given the economic conditions? Explain. (d) What are the constraints on Hong
+this policy appropriate given the economic conditions? Explain. (d) What are the constraints on Hong
 Kong's fiscal policy?
 
 (a) A budget surplus is a **contractionary** fiscal stance (tax revenue exceeds government spending,
@@ -770,7 +770,7 @@ Budget surplus may not be the most appropriate fiscal stance in this context.
 <summary>Question 5: Balanced Budget Multiplier</summary>
 
 The government increases both spending and taxes by USD 60 billion. MPC = 0.8. There are no imports
-And no proportional taxes.
+and no proportional taxes.
 
 (a) Calculate the spending multiplier. (b) Calculate the change in national income from the spending
 Increase alone. (c) Calculate the change in national income from the tax increase alone. (d)
@@ -792,14 +792,14 @@ The balanced budget multiplier is 1. Equal increases in government spending and 
 National income by the same amount as the increase in spending. This is because all of the spending
 Increase is injected, but only the portion of the tax increase that would have been consumed (MPC x
 Delta T = 48 billion) is withdrawn from spending. The remaining 12 billion of the tax increase would
-Have been saved, so its withdrawal does not reduce consumption.
+have been saved, so its withdrawal does not reduce consumption.
 
 </details>
 <details>
 <summary>Question 6: Monetary Policy Transmission</summary>
 
 The central bank lowers the base rate by 1 percentage point. Trace the full transmission mechanism
-And explain the expected effects on each sector of the economy, assuming the economy is in a
+and explain the expected effects on each sector of the economy, assuming the economy is in a
 Recession with high unemployment and low inflation.
 
 **Step 1: Policy rate change.** The central bank lowers the base rate by 1 percentage point.
@@ -813,13 +813,13 @@ Valuable, pushing up their prices and lowering yields.
 Interest rate channel: Lower mortgage rates reduce monthly housing costs for variable-rate
 Borrowers, increasing disposable income. Lower business loan rates reduce the cost of financing
 Investment projects. Firms with viable projects that were previously marginal (expected return just
-Below the old borrowing cost) now find them profitable and proceed. Consumption of big-ticket
+below the old borrowing cost) now find them profitable and proceed. Consumption of big-ticket
 Durables (cars, appliances) financed by credit increases.
 
 Exchange rate channel: Lower domestic interest rates reduce the attractiveness of domestic assets to
 Foreign investors. Capital flows out, depreciating the domestic currency. Export goods become
 Cheaper for foreign buyers (boosting export volumes and revenue). Import goods become more expensive
-For domestic consumers (reducing import volumes). Net exports increase, further stimulating
+for domestic consumers (reducing import volumes). Net exports increase, further stimulating
 Aggregate demand.
 
 Asset price channel: Lower discount rates increase the present value of future cash flows. Stock
@@ -829,7 +829,7 @@ Financing encourages firms to raise capital by issuing shares.
 
 Credit channel: Banks' funding costs fall, improving their willingness to extend credit. Lending
 Standards may be relaxed. Firms and households that were previously credit-constrained gain access
-To borrowing.
+to borrowing.
 
 Expectations channel: The rate cut signals that the central bank is committed to supporting the
 Economy. Business confidence improves. Firms may bring forward investment plans that they had
@@ -880,7 +880,7 @@ Business costs and raises productivity. Industrial policy targeting high-product
 
 Market-oriented: Free trade agreements reduce input costs and open export markets. Currency
 Flexibility allows exchange rate adjustment. Reducing corporate tax rates improves after-tax returns
-On investment.
+on investment.
 
 Interventionist: Targeted subsidies for advanced manufacturing. Special economic zones with tax
 Breaks and streamlined regulation. Government-backed loans for manufacturing firms investing in
@@ -893,8 +893,8 @@ Reform to attract young, skilled workers. Tax incentives for private pension sav
 Fiscal burden.
 
 Interventionist: Healthcare investment to extend healthy working years. Lifelong learning programmes
-To retrain older workers. Family-friendly policies (childcare subsidies, parental leave) to increase
-The birth rate over the long term (though this is a very slow policy).
+to retrain older workers. Family-friendly policies (childcare subsidies, parental leave) to increase
+the birth rate over the long term (though this is a very slow policy).
 
 ### Limitations of Supply-Side Policies
 
@@ -939,7 +939,7 @@ Conventional macroeconomic frameworks:
    are relatively low by international standards.
 
 Despite these constraints, Hong Kong's government has used fiscal policy counter-cyclically, notably
-During the 2008-09 Global Financial Crisis (economic stimulus packages), the 2020 COVID-19 pandemic
+during the 2008-09 Global Financial Crisis (economic stimulus packages), the 2020 COVID-19 pandemic
 (consumption vouchers, wage subsidies under the Anti-epidemic Fund), and the 2019 social unrest. The
 Consumption Voucher Scheme distributed HKD 10,000 to each permanent resident to stimulate domestic
 Consumption during the pandemic-induced recession.

@@ -110,8 +110,8 @@ $1 \in H$. Therefore $H = \langle 1 \rangle = \mathbb{Z}$. $\blacksquare$
 is a subgroup of $G$.
 
 _Proof._ Since $e \in H_i$ for all $i$ We have $e \in \bigcap_{i \in I} H_i$ So the intersection is
-Non-empty. If $a, b \in \bigcap_{i \in I} H_i$ Then $a, b \in H_i$ for all $i$ So $ab^{-1} \in H_i$
-For all $i$ (since each $H_i$ is a subgroup). Thus $ab^{-1} \in \bigcap_{i \in I} H_i$. By the
+non-empty. If $a, b \in \bigcap_{i \in I} H_i$ Then $a, b \in H_i$ for all $i$ So $ab^{-1} \in H_i$
+for all $i$ (since each $H_i$ is a subgroup). Thus $ab^{-1} \in \bigcap_{i \in I} H_i$. By the
 subgroup criterion, $\bigcap_{i \in I} H_i \leq G$. $\blacksquare$
 
 _Remark._ The union of subgroups need not be a subgroup. For example, in $\mathbb{Z}$

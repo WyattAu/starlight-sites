@@ -18,7 +18,7 @@ categories: ["java"]
 ## Naming Conventions
 
 Naming is the single most visible signal of code quality. Java naming conventions are codified in
-The JLS and further elaborated in the Java Language Style Guide. These are not aesthetic
+the JLS and further elaborated in the Java Language Style Guide. These are not aesthetic
 Preferences; they carry semantic weight that the compiler, runtime, and human readers all depend on.
 
 ### Packages
@@ -84,7 +84,7 @@ public static final Set<String> SUPPORTED_ALGORITHMS = Set.of("AES", "RSA");
 ```
 
 A `static final` reference to a mutable object (such as a `HashMap`) is not truly constant, because
-The object's state can change. In such cases, the field should either be private with no mutating
+the object's state can change. In such cases, the field should either be private with no mutating
 Accessors, or the object itself should be wrapped in an unmodifiable view.
 
 ### Type Parameters
@@ -174,7 +174,7 @@ com.example.project/
 Feature-first packaging has a significant advantage for projects of any non-trivial size: it
 Localizes changes. When a requirement changes for the "user" domain, all the files you need to
 Modify are in a single package. In layer-first packaging, a change to `User` might require edits
-Across `controller/``service/``repository/`And `model/` -- four separate directories that are Far
+across `controller/``service/``repository/`And `model/` -- four separate directories that are Far
 apart in the tree.
 
 :::tip
@@ -195,8 +195,8 @@ The conventional ordering of members within a class, as recommended by the Googl
 8. Nested classes
 
 Within each group, accessibility should decrease: `public` before `protected` before package-private
-Before `private`. This ordering places the most important, most-stable declarations at the top of
-The file.
+before `private`. This ordering places the most important, most-stable declarations at the top of
+the file.
 
 ### One Top-Level Class Per File
 
@@ -289,7 +289,7 @@ tasks.test {
 
 :::tip
 Incremental compilation, and configuration avoidance yield measurable performance improvements, and
-The Kotlin DSL provides type safety and IDE autocompletion. Use Maven when integrating with legacy
+the Kotlin DSL provides type safety and IDE autocompletion. Use Maven when integrating with legacy
 Enterprise infrastructure that requires it, or when team familiarity makes the trade-off clear.
 :::
 
@@ -298,7 +298,7 @@ Enterprise infrastructure that requires it, or when team familiarity makes the t
 #### Dependency Scopes
 
 Both Maven and Gradle categorize dependencies by scope, controlling when a dependency is available
-On the classpath:
+on the classpath:
 
 | Scope                | Available During  | Packaged Into | Purpose                        |
 | -------------------- | ----------------- | ------------- | ------------------------------ |
@@ -396,8 +396,8 @@ assertAll(                                  // grouped assertions
 ```
 
 Grouped assertions with `assertAll` are critical: without them, the first failed assertion aborts
-The test and you only learn about one problem per run. With `assertAll`All assertions execute and
-You see every failure in a single pass.
+the test and you only learn about one problem per run. With `assertAll`All assertions execute and
+you see every failure in a single pass.
 
 ### Parameterized Tests
 
@@ -442,7 +442,7 @@ Method, including one that reads from a file or generates values programmaticall
 ### Mocking with Mockito
 
 Mockito creates test doubles that verify interactions and stub return values. The goal of mocking is
-To isolate the unit under test from its collaborators:
+to isolate the unit under test from its collaborators:
 
 ```java
 import static org.mockito.Mockito.*;
@@ -494,8 +494,8 @@ Externally observable behavior is correct.
 ### java.util.logging (JUL)
 
 `java.util.logging` is the JDK's built-in logging framework. It requires zero external dependencies
-And is always available. However, its API is verbose, its configuration mechanism (properties files
-And programmatic configuration) is unintuitive, and it lacks structured logging support.
+and is always available. However, its API is verbose, its configuration mechanism (properties files
+and programmatic configuration) is unintuitive, and it lacks structured logging support.
 
 ```java
 import java.util.logging.Level;
@@ -521,7 +521,7 @@ public class PaymentService {
 
 SLF4J (Simple Logging Facade for Java) is a logging abstraction, not an implementation. Logback is a
 Logging implementation that natively implements SLF4J. This separation means your code depends on
-The SLF4J API (which is stable and minimal) while the actual logging backend can be swapped without
+the SLF4J API (which is stable and minimal) while the actual logging backend can be swapped without
 Changing any application code.
 
 ```java
@@ -544,7 +544,7 @@ public class PaymentService {
 ```
 
 The `{}` parameterized formatting is the critical difference. SLF4J defers string concatenation to
-The logging framework, which first checks whether the log level is enabled. If `INFO` is disabled,
+the logging framework, which first checks whether the log level is enabled. If `INFO` is disabled,
 The string concatenation never occurs. With JUL or `System.out.println`The concatenation happens
 Unconditionally, wasting CPU cycles and allocating objects that are immediately discarded.
 
@@ -600,15 +600,15 @@ public enum DatabaseConnectionPool {
 
 The enum approach works because the JVM guarantees that enum constants are initialized exactly once,
 And the serialization mechanism handles enum instances specially (they are identified by name, not
-By serialized field data). A traditional class-based singleton with a private constructor can be
+by serialized field data). A traditional class-based singleton with a private constructor can be
 Broken by reflection (`Constructor.setAccessible(true)`) and by deserialization (which creates a new
 Instance unless `readResolve` is implemented).
 
 :::caution
 Expensive resources (connection pools, thread pools). They are inappropriate for stateful objects
-That represent business domain concepts, because a global mutable singleton is essentially a hidden
+that represent business domain concepts, because a global mutable singleton is essentially a hidden
 Global variable that makes testing difficult and introduces hidden coupling between unrelated parts
-Of the codebase.
+of the codebase.
 :::
 
 ### Factory
@@ -642,7 +642,7 @@ public class DocumentParserFactory {
 
 The Factory pattern is most valuable when the concrete type to instantiate depends on runtime
 Conditions (configuration, input data, environment). If the concrete type is known at compile time
-And never changes, a factory adds unnecessary indirection.
+and never changes, a factory adds unnecessary indirection.
 
 ### Builder
 
@@ -937,7 +937,7 @@ Principle is the same: dependencies are declared (through constructor parameters
 
 The `var` keyword (Java 10+) infers the type of local variables from the initializer. It does
 **not** make Java dynamically typed; the inferred type is a compile-time constant, and the variable
-Cannot be reassigned to an incompatible type.
+cannot be reassigned to an incompatible type.
 
 ```java
 // Good: the type is obvious from the right-hand side
@@ -976,7 +976,7 @@ A record automatically generates: a canonical constructor, accessor methods (`em
 (`public User { ... }`) allows validation without declaring fields or assigning parameters.
 
 Records cannot extend other classes (they implicitly extend `java.lang.Record`), and their fields
-Are implicitly `final`. This makes them unsuitable for mutable domain objects with complex lifecycle
+are implicitly `final`. This makes them unsuitable for mutable domain objects with complex lifecycle
 Behavior, but ideal for DTOs, value objects, method return types, and keys in collections.
 
 ### Sealed Classes
@@ -1090,7 +1090,7 @@ String query = """
 ```
 
 The closing `"""` determines the indentation: the compiler strips the common leading whitespace from
-All lines based on the position of the closing delimiter. Incidental trailing whitespace on each
+all lines based on the position of the closing delimiter. Incidental trailing whitespace on each
 Line is also stripped.
 
 ## Effective Java Principles
@@ -1209,14 +1209,14 @@ public class InstrumentedSet<E> extends ForwardingSet<E> {
 ```
 
 In the inheritance version, `addAll` calls `super.addAll()`Which in `HashSet` internally iterates
-And calls `add()` -- our overridden `add()`. So each element is counted twice. The composition
+and calls `add()` -- our overridden `add()`. So each element is counted twice. The composition
 Version delegates to the wrapped set, which calls its own `add()`Not the forwarding set's `add()`.
 The count is correct.
 
 ### Minimize Accessibility
 
 The principle of information hiding states that a module should hide its implementation details
-Behind a well-defined interface. In Java, this is enforced through access modifiers:
+behind a well-defined interface. In Java, this is enforced through access modifiers:
 
 | Modifier        | Class | Package | Subclass | World |
 | --------------- | ----- | ------- | -------- | ----- |
@@ -1249,9 +1249,9 @@ List<String> names = new ArrayList<>();
 ```
 
 This allows the implementation to be changed without modifying the client code. If profiling reveals
-That a `LinkedList` performs better for the access pattern in question, only the right-hand side
+that a `LinkedList` performs better for the access pattern in question, only the right-hand side
 Changes. The declared type `List` remains, and all code that uses `names` continues to compile
-Without modification.
+without modification.
 
 This principle extends to method signatures and fields:
 
@@ -1338,7 +1338,7 @@ The two JIT compilers are C1 (client compiler, optimized for fast startup and lo
 ```
 
 Tiered compilation starts with the interpreter, profiles the code, compiles hot methods with C1, and
-Then recompiles the hottest methods with C2 after extensive profiling. Disabling tiered compilation
+then recompiles the hottest methods with C2 after extensive profiling. Disabling tiered compilation
 Entirely (`-XX:-TieredCompilation`) forces all compilation to go through C2, which increases peak
 Throughput but significantly increases warmup time.
 

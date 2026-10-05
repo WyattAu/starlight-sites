@@ -132,7 +132,7 @@ int main() {
 ### Sentinel Iterators (C++20) vs Traditional End Iterators
 
 C++20 introduced the **sentinel** concept [N4950 §25.3.5]. A sentinel is a type that can be compared
-With an iterator to determine the end of a range, but is **not itself an iterator**. The key
+with an iterator to determine the end of a range, but is **not itself an iterator**. The key
 Interface is `std::sentinel_for&lt;S, I>`Which requires that `S` and `I` be comparable with `==` And
 `!=` [N4950 §25.3.5.2].
 
@@ -230,7 +230,7 @@ int main() {
 ### Iterator Invalidation Rules Per Container Type
 
 Understanding iterator invalidation is critical for correctness. The rules vary by container type
-And operation [N4950 §22]:
+and operation [N4950 §22]:
 
 | Container                       | Reallocation               | Insert (middle)            | Erase                 | push_back                        |
 | ------------------------------- | -------------------------- | -------------------------- | --------------------- | -------------------------------- |
@@ -300,7 +300,7 @@ int main() {
 `std::vector` stores elements in a contiguous array. When the capacity is exceeded, the vector
 Allocates a new, larger array, copies (or moves) all elements to the new array, and frees the old
 Array. All iterators, pointers, and references to elements in the old array are invalidated because
-The old memory is deallocated.
+the old memory is deallocated.
 
 The reallocation strategy is geometric growth (capacity doubles), which amortizes the cost Of
 reallocation across insertions. The amortized cost of `push_back` is O(1), but any individual
@@ -399,7 +399,7 @@ int main() {
 ### Proxy Iterators
 
 Some containers use **proxy iterators** where `*it` returns a proxy object instead of a reference to
-The actual element. The canonical example is `std::vector<bool>`Which stores bits packed into Words.
+the actual element. The canonical example is `std::vector<bool>`Which stores bits packed into Words.
 Dereferencing its iterator returns a temporary proxy object, not a `bool&`:
 
 ```cpp
@@ -432,7 +432,7 @@ proxy type rather than requiring a true reference.
 ### Const Iterators vs Non-Const Iterators
 
 Every container provides both `iterator` and `const_iterator` types. The `begin()`/`end()` methods
-Have const and non-const overloads:
+have const and non-const overloads:
 
 ```cpp
 #include <iostream>
@@ -487,7 +487,7 @@ int main() {
 ### Pitfall 2: Erasing in a Loop
 
 Erasing an element invalidates the iterator to that element. The `erase` method returns an iterator
-To the next element, which must be used to continue iteration:
+to the next element, which must be used to continue iteration:
 
 ```cpp
 #include <vector>

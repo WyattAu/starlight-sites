@@ -105,7 +105,7 @@ NVMe defines several power states (PS0–PS4) that trade off power consumption a
 
 APST (Autonomous Power State Transition) allows the SSD to transition between power states
 Automatically. On desktops, this is generally fine. On servers with latency-sensitive workloads, you
-May want to restrict APST to prevent the SSD from entering deep sleep states.
+may want to restrict APST to prevent the SSD from entering deep sleep states.
 
 ```bash
 # Disable APST on Linux
@@ -155,7 +155,7 @@ Dramatically as data must be folded from SLC into the TLC/QLC area.
 
 :::caution
 MB/s to under 200 MB/s. This is a fundamental limitation of QLC NAND, not a defect. Avoid QLC SSDs
-For write-heavy workloads (video editing, database, OS drive).
+for write-heavy workloads (video editing, database, OS drive).
 :::
 
 ### Wear Leveling
@@ -206,7 +206,7 @@ amount of over-provisioning.
 
 TRIM is a SATA/NVMe command that tells the SSD which LBAs (Logical Block Addresses) are no longer in
 Use. Without TRIM, the SSD treats all previously written LBAs as valid data and must copy them
-During garbage collection, even if the OS has deleted the files. TRIM allows the SSD to skip copying
+during garbage collection, even if the OS has deleted the files. TRIM allows the SSD to skip copying
 Deleted data, improving garbage collection efficiency and maintaining write performance.
 
 ```bash
@@ -278,7 +278,7 @@ Samsung 840 EVO) allowed you to manually increase OP by shrinking the user-acces
 
 Traditional RAID 5/6 has a "write hole" vulnerability: if power is lost during a stripe write, the
 Parity may be inconsistent with the data, leading to silent data corruption. Hardware RAID cards
-With battery-backed write cache (BBWC) or ZFS's copy-on-write transaction model address this.
+with battery-backed write cache (BBWC) or ZFS's copy-on-write transaction model address this.
 
 ### Why ZFS Is Preferred
 
@@ -292,7 +292,7 @@ ZFS eliminates many traditional RAID problems:
 
 :::caution
 The storage pool. Hardware RAID hides the disks behind a virtual block device, which prevents ZFS
-From performing its error detection and correction.
+from performing its error detection and correction.
 :::
 
 ---
@@ -438,7 +438,7 @@ For ZFS on SSD, key tunables include:
 ### Key SMART Attributes
 
 SMART (Self-Monitoring, Analysis, and Reporting Technology) provides predictive failure information
-For storage devices.
+for storage devices.
 
 ```bash
 # Install smartmontools
@@ -513,7 +513,7 @@ RAIDZ2/Z3 for arrays with drives larger than 4 TB.
 ### Not Enabling TRIM
 
 Without TRIM, SSD performance degrades over time as the garbage collector must process stale data
-That the OS has already deleted. This can cause write speeds to drop by 50–80% over weeks or months.
+that the OS has already deleted. This can cause write speeds to drop by 50–80% over weeks or months.
 Enable TRIM either continuously (`discard` mount option) or periodically (`fstrim.timer`).
 
 ### Using QLC SSDs for Write-Heavy Workloads
@@ -887,7 +887,7 @@ Consistent low latency regardless of workload:
 | Intel P4510   | 40 $\mu$ S    | 60 $\mu$ S     | 1 DWPD    | 1–8 TB         |
 
 DWPD (Drive Writes Per Day) measures endurance relative to capacity. A 100 DWPD drive can be written
-To 100 times its capacity every day for 5 years.
+to 100 times its capacity every day for 5 years.
 
 ### L2ARC Sizing Guidelines
 
@@ -909,7 +909,7 @@ ARC_{metadata} \approx 70 \mathrm{ bytes \times \mathrm{L2ARC\_entries
 $$
 
 For a 1 TB L2ARC with 4 KB average block size, this is approximately 17.5 GB of ARC metadata. Ensure
-You have sufficient RAM to accommodate both the ARC and L2ARC metadata.
+you have sufficient RAM to accommodate both the ARC and L2ARC metadata.
 
 ## Storage Tiering Strategies
 

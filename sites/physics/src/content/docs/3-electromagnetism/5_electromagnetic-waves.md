@@ -27,7 +27,7 @@ $$
 
 Using the identity
 $\nabla \times (\nabla \times \mathbf{E}) = \nabla(\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E}$
-And $\nabla \cdot \mathbf{E} = 0$:
+and $\nabla \cdot \mathbf{E} = 0$:
 
 $$
 \nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}

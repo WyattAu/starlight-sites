@@ -92,7 +92,7 @@ Non-neuronal cells that support, nourish, and protect neurons:
 ### Ionic Basis
 
 The **resting membrane potential** is approximately $-70\;\mathrm{mV}$ (inside negative relative to
-Outside). This potential is established and maintained by ion concentration gradients and selective
+outside). This potential is established and maintained by ion concentration gradients and selective
 Permeability of the membrane.
 
 **Typical ion concentrations** (intracellular vs extracellular):
@@ -187,7 +187,7 @@ Action potential along the axon and limits the maximum firing frequency.
 
 An action potential either occurs fully (if threshold is reached) or does not occur at all. The
 Amplitude of the action potential is constant (approximately $110\;\mathrm{mV}$ total change) and
-Does not depend on stimulus strength. Stimulus intensity is encoded by the **frequency** of action
+does not depend on stimulus strength. Stimulus intensity is encoded by the **frequency** of action
 Potentials, not their amplitude.
 
 ---
@@ -207,7 +207,7 @@ Potentials, not their amplitude.
 
 In unmyelinated axons, the action potential propagates as a wave of depolarisation along the entire
 Axolemma. Adjacent regions of the membrane are depolarised to threshold by local current flow from
-The active region (current spreads through the axoplasm and extracellular fluid).
+the active region (current spreads through the axoplasm and extracellular fluid).
 
 $$
 v \propto \sqrt{d}
@@ -535,7 +535,7 @@ signals (graded potentials, then action potentials) --- a process called **trans
 ### The Sliding Filament Mechanism
 
 During contraction, thin filaments slide past thick filaments, pulling the Z discs toward the centre
-Of the sarcomere. The filaments themselves do not change length.
+of the sarcomere. The filaments themselves do not change length.
 
 **Steps of the cross-bridge cycle:**
 
@@ -755,7 +755,7 @@ Speed ratio: $\frac{133}{1.5} \approx 89$ times faster.
 
 The myelinated axon is faster because: (1) myelin has very high membrane resistance (reducing
 Current leakage across the internode) and very low membrane capacitance (less charge storage), so
-The local current generated at one node travels efficiently to the next node without decay. (2)
+the local current generated at one node travels efficiently to the next node without decay. (2)
 Action potentials are regenerated at each node of Ranvier, maintaining amplitude. In unmyelinated
 Axons, current leaks across the entire membrane, the signal decrements with distance, and the
 Capacitance of the membrane slows the depolarisation rate.
@@ -781,7 +781,7 @@ $-10\;\mathrm{mV}$. What is the resulting membrane potential?
 (a) Three simultaneous EPSPs: $3 \times 5 = +15\;\mathrm{mV}$. New potential:
 $-70 + 15 = -55\;\mathrm{mV}$ Which exactly equals threshold. The motor neuron fires an action
 Potential (at threshold, the probability of firing is approximately $50\%$; any additional input
-Would guarantee firing).
+would guarantee firing).
 
 (b) Spatial summation of A + B: $+10\;\mathrm{mV}$ Bringing the membrane to $-60\;\mathrm{mV}$. C
 fires $2\;\mathrm{ms}$ later; since the EPSP duration is $5\;\mathrm{ms}$ The depolarisation from A +
@@ -883,7 +883,7 @@ Muscle (sympathetic) dilates the pupil.
 
 (c) **Digestive activity decreases**: parasympathetic stimulation normally increases peristalsis and
 Glandular secretion in the GI tract. Atropine blocks this, reducing motility (can cause constipation
-And dry mouth).
+and dry mouth).
 
 (d) **Salivation decreases**: parasympathetic stimulation normally stimulates salivary gland
 secretion. Atropine blocks muscarinic receptors on salivary glands, causing dry mouth (xerostomia).
@@ -1053,7 +1053,7 @@ neuron).
 
 A patient with severe vomiting has a plasma $\mathrm{K}^+$ concentration of $2.5\;\mathrm{mmol/L}$
 (normal: $4.5\;\mathrm{mmol/L}$). Assuming intracellular $\mathrm{K}^+$ concentration is unchanged
-At $150\;\mathrm{mmol/L}$ Calculate: (a) the $\mathrm{K}^+$ equilibrium potential before and After
+at $150\;\mathrm{mmol/L}$ Calculate: (a) the $\mathrm{K}^+$ equilibrium potential before and After
 vomiting. (b) Predict the effect on the resting membrane potential. (c) Explain why this Patient is
 at risk of cardiac arrhythmias.
 
@@ -1130,7 +1130,7 @@ $-55\;\mathrm{mV}$. The threshold of $-55\;\mathrm{mV}$ is not reached. No actio
 generated.
 
 (c) If EPSP2 arrives $2\;\mathrm{ms}$ later, with a time constant of $5\;\mathrm{ms}$ EPSP1 and IPSP1
-And EPSP3 have decayed by a factor of $e^{-t/\tau} = e^{-2/5} = e^{-0.4} \approx 0.670$.
+and EPSP3 have decayed by a factor of $e^{-t/\tau} = e^{-2/5} = e^{-0.4} \approx 0.670$.
 
 Remaining EPSP1 at the time of EPSP2: $8 \times 0.670 = 5.36\;\mathrm{mV}$. Remaining IPSP1:
 $6 \times 0.670 = 4.02\;\mathrm{mV}$. Remaining EPSP3: $3 \times 0.670 = 2.01\;\mathrm{mV}$.

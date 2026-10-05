@@ -419,7 +419,7 @@ Returns. If there is no base case, the stack grows until memory is exhausted, ca
 
 **When to use recursion vs iteration:** Any recursive function can be rewritten as an iterative
 Version (using a loop). Iteration is generally more memory-efficient because it does not add frames
-To the call stack. Recursion is more natural for problems with a self-similar structure, such as
+to the call stack. Recursion is more natural for problems with a self-similar structure, such as
 Tree traversal or divide-and-conquer algorithms.
 
 ## 4. String Manipulation

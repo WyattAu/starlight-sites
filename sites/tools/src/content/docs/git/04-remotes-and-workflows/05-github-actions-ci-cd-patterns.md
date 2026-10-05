@@ -63,7 +63,7 @@ Cleanup.
 ### Actions Marketplace
 
 The [Actions Marketplace](https://github.com/marketplace?type=actions) provides community-maintained
-And official actions. First-party actions live under the `actions/` organization (e.g.,
+and official actions. First-party actions live under the `actions/` organization (e.g.,
 `actions/checkout@v4``actions/cache@v4``actions/upload-artifact@v4`). Third-party actions should Be
 audited for supply-chain security before adoption.
 
@@ -81,7 +81,7 @@ audited for supply-chain security before adoption.
 ## Basic Workflow Structure
 
 Every workflow file begins with `name` and `on` at the top level, followed by `jobs`. Each job has
-An identifier, runs on a `runs-on` runner, and contains an ordered list of `steps`.
+an identifier, runs on a `runs-on` runner, and contains an ordered list of `steps`.
 
 ### Minimal Anatomy
 
@@ -227,7 +227,7 @@ Pushed). This is critical for ensuring that CI re-runs when additional commits a
 ### Path Filtering
 
 Path filters limit execution to changes within specific directories or file patterns. A workflow
-With `paths` triggers only when at least one modified file matches the filter.
+with `paths` triggers only when at least one modified file matches the filter.
 
 ```yaml
 on:
@@ -246,7 +246,7 @@ on:
 ```
 
 Path filtering operates on the **full diff** against the base ref. On a pull request, the base is
-The target branch. On a push, the base is the previous commit on the same branch. For the first
+the target branch. On a push, the base is the previous commit on the same branch. For the first
 Commit on a new branch, all files are considered changed.
 
 ### Scheduled Triggers (Cron)
@@ -261,7 +261,7 @@ on:
 Cron syntax follows POSIX: `minute hour day-of-month month day-of-week`. GitHub Actions cron is not
 Guaranteed to run at the exact minute, scheduled workflows are queued and may be delayed under
 Heavy load. If a scheduled run is skipped due to infrastructure issues, GitHub does not re-schedule
-It.
+it.
 
 ### Manual Dispatch
 
@@ -434,8 +434,8 @@ jobs:
 ```
 
 When a new run is triggered with the same concurrency group key, `cancel-in-progress: true` aborts
-Any in-progress run sharing that key. Setting it to `false` (the default) queues the new run until
-The existing one completes.
+any in-progress run sharing that key. Setting it to `false` (the default) queues the new run until
+the existing one completes.
 
 For pull requests, use the PR number to scope concurrency:
 
@@ -577,7 +577,7 @@ Exceeds 10 GB. Branches can only access caches from the default branch or the sa
 ## Artifacts
 
 Artifacts are persistent files produced during a workflow run. Unlike caches, artifacts are intended
-For human consumption or cross-job data transfer and are retained after the run completes.
+for human consumption or cross-job data transfer and are retained after the run completes.
 
 ### Uploading Artifacts
 
@@ -765,7 +765,7 @@ jobs:
 ### Branch Protection Integration
 
 Branch protection rules can require specific workflow jobs to pass before allowing a merge. To use
-This:
+this:
 
 1. Navigate to **Settings &gt; Branches &gt; Branch protection rules**
 2. Select the target branch (e.g., `main`)
@@ -926,7 +926,7 @@ jobs:
 
 Blue-green deployment maintains two identical production environments. At any time, one is active
 ("blue") and the other is idle ("green"). A new release deploys to the idle environment, and traffic
-Is switched atomically.
+is switched atomically.
 
 ```yaml
 jobs:
@@ -1193,7 +1193,7 @@ jobs:
 ```
 
 Default `GITHUB_TOKEN` permissions are read-only. To grant write access, declare `permissions` at
-The workflow or job level:
+the workflow or job level:
 
 | Permission      | Scope                                  |
 | --------------- | -------------------------------------- |
@@ -1208,7 +1208,7 @@ The workflow or job level:
 ### Variables vs Secrets
 
 Variables (`vars`) are non-secret, plain-text configuration values stored alongside secrets. They
-Are appropriate for non-sensitive configuration such as deployment URLs, environment names, or
+are appropriate for non-sensitive configuration such as deployment URLs, environment names, or
 Feature flags.
 
 ```yaml
@@ -1385,12 +1385,12 @@ jobs:
 
 On pull requests from **forked repositories**, the `GITHUB_TOKEN` is read-only and severely
 Restricted regardless of the permissions declaration. This is a security measure to prevent fork PRs
-From exfiltrating secrets or modifying the upstream repository.
+from exfiltrating secrets or modifying the upstream repository.
 
 ### Action Version Pinning
 
 Pinning actions by tag (e.g., `@v4`) is convenient but vulnerable to supply-chain attacks if the tag
-Is moved. Pinning by commit SHA is the most secure approach:
+is moved. Pinning by commit SHA is the most secure approach:
 
 ```yaml
 # Less secure: tag-based (mutable)
@@ -1441,7 +1441,7 @@ GitHub-hosted runners have finite resources:
 | Network egress | ~250 Mbps             | Same                   |
 
 Long-running builds that compile large codebases, run heavy test suites, or process large datasets
-Should consider self-hosted runners or larger runner types.
+should consider self-hosted runners or larger runner types.
 
 ### Cost Management
 
@@ -1497,7 +1497,7 @@ Building a container image from a Dockerfile without running it).
 ### Mutable Checkout Ref on pull_request_target
 
 When using `pull_request_target`The default checkout is the base branch, not the PR head. To check
-Out the PR head:
+out the PR head:
 
 ```yaml
 - uses: actions/checkout@v4

@@ -55,7 +55,7 @@ $$
 Where $\lambda_L = \sqrt{m_e/(\mu_0 n_s e^2)}$ is the **London penetration depth**.
 
 The solution $\mathbf{B}(x) = B_0 e^{-x/\lambda_L}$ shows that magnetic fields decay exponentially
-Inside the superconductor, explaining the Meissner effect.
+inside the superconductor, explaining the Meissner effect.
 
 ### 7.3 BCS Theory
 

@@ -314,8 +314,8 @@ int old = counter.getAndAccumulate(5, Integer::sum);
 ### `AtomicStampedReference`
 
 `AtomicReference` cannot detect the ABA problem: a thread reads value A, another thread changes it
-To B then back to A, and the first thread's CAS succeeds despite the value having been changed in
-Between. `AtomicStampedReference` adds a version stamp to detect this.
+to B then back to A, and the first thread's CAS succeeds despite the value having been changed in
+between. `AtomicStampedReference` adds a version stamp to detect this.
 
 ```java
 AtomicStampedReference<String> ref = new AtomicStampedReference<>("initial", 0);
@@ -332,7 +332,7 @@ boolean success = ref.compareAndSet("initial", "updated", stamp, stamp + 1);
 
 For high-contention counters where `AtomicLong` becomes a bottleneck due to CAS contention,
 `LongAdder` distributes increments across an array of cells and sums them on read. Write contention
-Is eliminated; read requires summing all cells.
+is eliminated; read requires summing all cells.
 
 ```java
 // AtomicLong, single variable, CAS contention under high contention
@@ -473,7 +473,7 @@ Task peek = queue.peek(); // null if empty
 ### `CopyOnWriteArrayList`
 
 Every write operation (add, set, remove) creates a fresh copy of the underlying array. Reads proceed
-Without locking against the current array snapshot. This makes reads extremely fast and writes
+without locking against the current array snapshot. This makes reads extremely fast and writes
 Expensive. Ideal for read-heavy workloads with infrequent writes (listener lists, configuration).
 
 ```java
@@ -495,7 +495,7 @@ Iterator operates on a snapshot and does not reflect modifications made during i
 ### Blocking Queues
 
 Blocking queues are designed for producer-consumer patterns. `put` blocks when full, `take` blocks
-When empty.
+when empty.
 
 | Implementation          | Bounded        | Ordering                         | Notes                        |
 | ----------------------- | -------------- | -------------------------------- | ---------------------------- |
@@ -530,7 +530,7 @@ consumers.submit(() -&gt; {
 
 **`SynchronousQueue`** has zero capacity, each `put` must wait for a matching `take` and vice
 Versa. It is used by `Executors.newCachedThreadPool()` to hand off tasks directly to worker threads
-Without buffering.
+without buffering.
 
 ## ForkJoin Framework
 

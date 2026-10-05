@@ -24,7 +24,7 @@ Mechanism of array decay, and the type-safe definition of nullability.
 
 Pointer arithmetic is not integer arithmetic. It is **Typed Offset Calculation**. Adding `1` to a
 Pointer does not increment the address by one byte; it increments the address by the **stride** of
-The underlying type.
+the underlying type.
 
 ### The Arithmetic Formula
 
@@ -107,8 +107,8 @@ syntax `i[arr]`.
 ### Pointer Arithmetic Bounds [N4950 §7.6.6]
 
 Pointer arithmetic is only well-defined within an array object and one past the end. Going beyond
-One-past-the-end or before the beginning of the array is undefined behavior, even if the pointer is
-Not dereferenced:
+one-past-the-end or before the beginning of the array is undefined behavior, even if the pointer is
+not dereferenced:
 
 ```cpp
 int arr[5] = \{\};
@@ -252,8 +252,8 @@ For virtual inheritance, the implementation is more complex, the offset may be s
 ### Void Pointers
 
 `void*` is a generic pointer type that can hold the address of any object. It cannot be dereferenced
-Or used for arithmetic (without a cast) because the type information needed to determine the size
-And alignment of the pointed-to object is absent [N4950 §7.3.7]:
+or used for arithmetic (without a cast) because the type information needed to determine the size
+and alignment of the pointed-to object is absent [N4950 §7.3.7]:
 
 ```cpp
 int x = 42;
@@ -290,7 +290,7 @@ void process(Forward* p);  // OK: parameter declaration does not require complet
 | `nullptr_t`             | No         | No          | Platform ptr | Any object/function pointer |
 
 Note: On most platforms, `sizeof(T*)` is 8 bytes (64-bit) or 4 bytes (32-bit). Pointer-to-member may
-Be larger due to the need for virtual base adjustment.
+be larger due to the need for virtual base adjustment.
 
 ## 3. Array Decay
 
@@ -335,7 +335,7 @@ decltype(arr) another = \{6, 7, 8, 9, 10\};  // another is int[5], no decay
 ### Multi-Dimensional Array Decay
 
 Multi-dimensional arrays decay only the first dimension. A `T[M][N]` decays to `T(*)[N]`a pointer
-To an array of `N` elements. The inner dimension is preserved:
+to an array of `N` elements. The inner dimension is preserved:
 
 ```cpp
 #include <iostream>
@@ -441,12 +441,12 @@ func(nullptr); // Calls func(char*) unambiguously.
 | `nullptr` | `std::nullptr_t`                      | Any pointer type, `bool` | **Yes**      |
 
 `nullptr` is the only null pointer constant that cannot be confused with an integer. Modern C++ code
-Should always use `nullptr`.
+should always use `nullptr`.
 
 ### `nullptr` and Overload Resolution [N4950 §12.4.3.2.2]
 
 `nullptr` has type `std::nullptr_t`. In overload resolution, the conversion from `std::nullptr_t` to
-Any pointer type ranks as an **exact match** (null pointer constant conversion), while the
+any pointer type ranks as an **exact match** (null pointer constant conversion), while the
 Conversion from `std::nullptr_t` to `int` would require a boolean conversion (rank: Conversion).
 This ensures `nullptr` always prefers pointer overloads:
 
@@ -501,7 +501,7 @@ For non-nullable, non-owning views, use `T&` (Reference) or `std::reference_wrap
 ### `std::assume` (C++23)
 
 In performance-critical code where a pointer is guaranteed to be non-null by invariants not visible
-To the compiler, C++23 provides `[[assume(...)]]` to assist the optimizer.
+to the compiler, C++23 provides `[[assume(...)]]` to assist the optimizer.
 
 ```cpp
 void fast_path(int* ptr) \{
@@ -557,7 +557,7 @@ Raw pointers remain essential in modern C++ for:
 ## 6. Strict Aliasing and Pointers [N4950 §6.8.4]
 
 The strict aliasing rule prohibits accessing an object through a pointer of a different type (with a
-Few exceptions). Violating this rule is undefined behavior, even if the access appears to work.
+few exceptions). Violating this rule is undefined behavior, even if the access appears to work.
 
 ### The Rule
 
@@ -699,7 +699,7 @@ void buffer_overflow() \{
 ### Misaligned Access
 
 Casting a pointer to a type with stricter alignment requirements can cause misaligned access, which
-Is undefined behavior on some architectures (notably ARM) and a performance penalty on others (x86):
+is undefined behavior on some architectures (notably ARM) and a performance penalty on others (x86):
 
 ```cpp
 #include <iostream>

@@ -173,7 +173,7 @@ categories:
 ## Radioactive Decay
 
 Radioactive decay is a random and spontaneous process by which an unstable nucleus emits radiation
-To become more stable. It is unaffected by temperature, pressure, chemical bonding, or any external
+to become more stable. It is unaffected by temperature, pressure, chemical bonding, or any external
 Conditions.
 
 ### Types of Radiation
@@ -246,7 +246,7 @@ $$
 ### Activity
 
 Activity ($A$) is the number of decays per second, measured in becquerels (Bq), where 1 Bq = 1 decay
-Per second.
+per second.
 
 $$
 A = \lambda N
@@ -523,7 +523,7 @@ This is in the visible (blue-green) region, it is the $H_\beta$ line of the Balm
 ### De Broglie Wavelength
 
 Louis de Broglie proposed that all matter exhibits wave-like properties. The de Broglie wavelength
-Is:
+is:
 
 $$
 \lambda = \frac{h}{p} = \frac{h}`\{mv}`

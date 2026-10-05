@@ -18,7 +18,7 @@ description: "A trie is a tree data structure where each node represents a chara
 ## Trie (Prefix Tree)
 
 A trie is a tree data structure where each node represents a character of a string. The path from
-The root to any node spells out a prefix, and nodes marked as "end of word" represent complete
+the root to any node spells out a prefix, and nodes marked as "end of word" represent complete
 Strings in the set.
 
 ### Node Definition
@@ -235,7 +235,7 @@ class RadixTrie:
 ## Suffix Trie
 
 A suffix trie of a string $S$ of length $n$ contains all suffixes of $S$. It has $O(n^2)$ nodes (in
-The worst case), which is too large for practical use.
+the worst case), which is too large for practical use.
 
 ### Construction
 
@@ -404,7 +404,7 @@ class SuffixTree:
 ## Suffix Array
 
 A suffix array `SA` of a string $S$ of length $n$ is a permutation of $\{0, 1, \ldots, n-1\}$ such
-That $S[SA[0]:] \lt S[SA[1]:] \lt \cdots \lt S[SA[n-1]:]$.
+that $S[SA[0]:] \lt S[SA[1]:] \lt \cdots \lt S[SA[n-1]:]$.
 
 ### Construction
 
@@ -597,7 +597,7 @@ Pattern to compute a failure function.
 ### Failure Function
 
 The failure function `pi[i]` is the length of the longest proper prefix of `pattern[0:i+1]` that is
-Also a suffix of `pattern[0:i+1]`.
+also a suffix of `pattern[0:i+1]`.
 
 ```python
 def kmp_failure(pattern):
@@ -650,12 +650,12 @@ The key invariant: after processing `text[i]`The variable `j` equals the length 
 Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`We have found a complete match
 Ending at position `i`. The failure function ensures that we never backtrack in the text, each
 Character of the text is examined at most once, giving $O(n)$ time for the search phase plus $O(m)$
-For preprocessing.
+for preprocessing.
 
 ## Rabin-Karp Algorithm
 
 Rabin-Karp uses hashing to find pattern matches. It computes a rolling hash of the text and compares
-It with the hash of the pattern.
+it with the hash of the pattern.
 
 ### Rolling Hash
 
@@ -748,7 +748,7 @@ def rabin_karp_double_hash(text, pattern):
 ## Boyer-Moore Algorithm
 
 Boyer-Moore is often the fastest string matching algorithm in practice because it skips sections of
-The text that cannot possibly match.
+the text that cannot possibly match.
 
 ### Bad Character Rule
 

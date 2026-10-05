@@ -128,7 +128,7 @@ At $z = 2$ (simple pole): $\mathrm{Res} = \frac{e^2}{(2-1)^2} = e^2$.
 
 **Theorem 8.4 (Residue Theorem).** If $f$ is analytic inside and on a simple closed positively
 Oriented contour $\gamma$ except for isolated singularities $z_1, z_2, \ldots, z_n$ inside $\gamma$
-Then
+then
 
 $$
 \int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)

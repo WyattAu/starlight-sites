@@ -115,7 +115,7 @@ ask next.
 
 Hold the actual DNS records for a domain. When you register a domain, you configure its
 Authoritative name servers with your registrar. These are the servers that respond to DNS queries
-For your domain with definitive answers.
+for your domain with definitive answers.
 
 Authoritative name servers are further divided:
 
@@ -128,7 +128,7 @@ Authoritative name servers are further divided:
 Perform the full resolution process on behalf of a client. When your laptop resolves
 `www.example.com`It sends the query to a recursive resolver (configured via DHCP or manually). The
 Resolver walks the DNS hierarchy from the root down to the authoritative server, caching responses
-Along the way.
+along the way.
 
 Common recursive resolvers:
 
@@ -218,7 +218,7 @@ Verification and logging.
 
 Note the reversed octets -- IPv4 reverse DNS uses the `in-addr.arpa` domain with octets in reverse
 Order because DNS reads labels left-to-right but IP addresses are written
-Most-significant-octet-first.
+most-significant-octet-first.
 
 **CAA (Certification Authority Authorization, RFC 6844):** Specifies which certificate authorities
 Are allowed to issue certificates for the domain.
@@ -321,7 +321,7 @@ Querying the authoritative server again.
 
 When a query returns `NXDOMAIN` (name does not exist) or `NODATA` (name exists but no records of the
 Requested type), the response is cached for the SOA minimum TTL. This prevents repeated queries for
-Non-existent names from hammering authoritative servers.
+non-existent names from hammering authoritative servers.
 :::
 
 :::caution
@@ -378,7 +378,7 @@ Traffic separately from HTTPS.
 ## DNSSEC (DNS Security Extensions)
 
 DNSSEC adds cryptographic signatures to DNS records, allowing resolvers to verify that the response
-Has not been tampered with. DNSSEC does **not** encrypt DNS queries -- it provides integrity, not
+has not been tampered with. DNSSEC does **not** encrypt DNS queries -- it provides integrity, not
 Confidentiality. Use DoH/DoT for confidentiality.
 
 ### How DNSSEC Works
@@ -437,7 +437,7 @@ dig axfr example.com @ns1.example.com
 
 Transfers only the changes since the last transfer. More efficient for large zones that change
 Frequently. The secondary sends its current SOA serial number, and the primary responds with only
-The records that have changed.
+the records that have changed.
 
 ## Reverse DNS
 
@@ -478,7 +478,7 @@ Reverse DNS is important for:
 ### BIND (Berkeley Internet Name Domain)
 
 The reference DNS implementation. Powerful but complex configuration. Most widely used DNS server on
-The Internet.
+the Internet.
 
 ```bash
 # Install
@@ -629,8 +629,8 @@ Each resource record in the Answer, Authority, or Additional section has this fo
 ### DNS Name Compression
 
 DNS names in the wire format use a compression scheme to reduce message size. Instead of repeating
-The full domain name, a pointer (2 bytes, starting with 0b11) references a previous occurrence of
-The name in the message. For example, if the question asks for `www.example.com` and the answer is a
+the full domain name, a pointer (2 bytes, starting with 0b11) references a previous occurrence of
+the name in the message. For example, if the question asks for `www.example.com` and the answer is a
 CNAME pointing to `example.com`The CNAME target can reference the suffix from the question.
 
 This compression is why DNS responses are much smaller than they would be without it. It Is also why
@@ -642,7 +642,7 @@ implementations.
 ### Round-Robin DNS
 
 The simplest form of load balancing: multiple A records for the same name, with the server rotating
-The order of records in each response.
+the order of records in each response.
 
 ```
 example.com.    300    IN    A    93.184.216.34
@@ -692,7 +692,7 @@ The provider monitors server health (HTTP checks, TCP checks) and only includes 
 DNS responses.
 
 This mitigates the main limitation of round-robin DNS, but health check failures still take effect
-Only after the TTL expires in all resolvers.
+only after the TTL expires in all resolvers.
 
 ## DNS Debugging Techniques
 

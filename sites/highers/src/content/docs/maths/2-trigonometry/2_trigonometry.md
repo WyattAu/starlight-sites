@@ -152,7 +152,7 @@ $$
 $$
 
 The three forms of $\cos 2A$ are all useful in different contexts. Use $\cos 2A = 2\cos^2 A - 1$
-When everything is in terms of $\cos$ And $\cos 2A = 1 - 2\sin^2 A$ when everything is in terms of
+when everything is in terms of $\cos$ And $\cos 2A = 1 - 2\sin^2 A$ when everything is in terms of
 $\sin$.
 
 **Proof that $\sin 2A = 2\sin A \cos A$.**
@@ -557,7 +557,7 @@ Complete the square: $(x + 2)^2 + (y - 3)^2 = 4$. Centre $(-2, 3)$ Radius $2$.
 
 Since $(-2, 3)$ is the centre, not a point on the circle, we must check:
 $(-2+2)^2 + (3-3)^2 = 0 \ne 4$. The point $(-2, 3)$ is inside the circle, so there is no tangent
-From this point to the circle. The point must lie **on** the circle for a tangent to exist.
+from this point to the circle. The point must lie **on** the circle for a tangent to exist.
 
 ### Intersection of Line and Circle
 

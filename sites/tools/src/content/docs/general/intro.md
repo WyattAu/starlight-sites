@@ -49,7 +49,7 @@ Git, or A-Level notes, it probably lands here.
 ## How to Use These Notes
 
 These notes are written for personal reference first and public readability second. A few principles
-To keep in mind:
+to keep in mind:
 
 - **Search, do not browse linearly.** The general section is intentionally flat. Use the search bar
   or tags to find what you need rather than reading top-to-bottom.
@@ -62,7 +62,7 @@ To keep in mind:
 
 The rest of this knowledge base follows a curriculum-like structure: each language has numbered
 Chapters, each chapter has ordered pages. The General section intentionally breaks from that pattern
-Because its content is heterogeneous.
+because its content is heterogeneous.
 
 ### Directory Layout
 

@@ -36,7 +36,7 @@ categories:
 
 **Definition.** The _Cartesian coordinate plane_ $\mathbb{R}^2$ is the set of all ordered pairs
 $(x, y)$ where $x, y \in \mathbb{R}$. The horizontal axis is the $x$-axis and the vertical axis is
-The $y$-axis.
+the $y$-axis.
 
 The _distance_ between two points $A(x_1, y_1)$ and $B(x_2, y_2)$ is given by Pythagoras" theorem:
 
@@ -81,12 +81,12 @@ $$
 **Theorem.** The gradient is well-defined: it does not depend on the choice of points on the line.
 
 _Proof._ Consider a third point $C(x_3, y_3)$ on the same line. By similar triangles (see intuition
-Below), $\frac{y_2 - y_1}{x_2 - x_1} = \frac{y_3 - y_1}{x_3 - x_1}$. Since any two points on the
+below), $\frac{y_2 - y_1}{x_2 - x_1} = \frac{y_3 - y_1}{x_3 - x_1}$. Since any two points on the
 Line define the same ratio, the gradient is a property of the line itself, not the chosen points.
 $\blacksquare$
 
 _Intuition (Similar Triangles)._ Imagine two right triangles formed by dropping perpendiculars from
-Any two pairs of points on the line to the $x$-axis. Both triangles share the angle that the line
+any two pairs of points on the line to the $x$-axis. Both triangles share the angle that the line
 Makes with the horizontal. By AA similarity, the triangles are similar, so the ratio of vertical to
 Horizontal sides is constant, this ratio is the gradient.
 
@@ -269,7 +269,7 @@ x x_1 + y y_1 + \frac{D}{2}(x + x_1) + \frac{E}{2}(y + y_1) + F = 0
 $$
 
 _Proof (for circle centred at origin)._ The circle $x^2 + y^2 = r^2$ has centre $(0, 0)$. The radius
-At $(x_1, y_1)$ has gradient $\frac{y_1}{x_1}$ (from origin to the point). The tangent is
+at $(x_1, y_1)$ has gradient $\frac{y_1}{x_1}$ (from origin to the point). The tangent is
 Perpendicular to this radius, so the tangent's gradient is $m = -\frac{x_1}{y_1}$ (using
 $m_1 m_2 = -1$).
 
@@ -334,7 +334,7 @@ d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}
 $$
 
 _Proof (Area method)._ Let $P(x_0, y_0)$ be the point and let $A$ and $B$ be two convenient points
-On the line. The triangle $PAB$ has area:
+on the line. The triangle $PAB$ has area:
 
 $$
 \mathrm{Area} = \frac{1}{2} \times \mathrm{base} \times \mathrm{height} = \frac{1}{2} \times |AB| \times d
@@ -347,7 +347,7 @@ d = \frac{2 \times \mathrm{Area}}{|AB|}
 $$
 
 Choose $A$ and $B$ where the line meets the axes: set $y = 0$ to get $A\left(-\frac{c}{a}, 0\right)$
-And set $x = 0$ to get $B\left(0, -\frac{c}{b}\right)$. Then:
+and set $x = 0$ to get $B\left(0, -\frac{c}{b}\right)$. Then:
 
 $$
 |AB| = \sqrt{\frac{c^2}{a^2} + \frac{c^2}{b^2}} = \frac{|c|\sqrt{a^2 + b^2}}{|ab|}
@@ -430,7 +430,7 @@ Radius $r_2$ Intersect if and only if the distance $d = |O_1 O_2|$ between their
 - **Concentric (no intersection unless $r_1 = r_2$)** when $d = 0$.
 
 _Proof._ The result follows directly from the triangle inequality applied to $\triangle O_1PO_2$
-Where $P$ is an intersection point. For $P$ to exist on both circles, $|O_1P| = r_1$ and
+where $P$ is an intersection point. For $P$ to exist on both circles, $|O_1P| = r_1$ and
 $|O_2P| = r_2$. The three lengths $r_1, r_2, d$ must form a valid triangle, which requires
 $|r_1 - r_2| < d < r_1 + r_2$. The boundary cases give tangency, and the impossible cases give no
 Intersection. $\blacksquare$
@@ -464,7 +464,7 @@ $$
 $$
 
 To verify, check that the centres are $(2, 3)$ and $(-1, -1)$ with radii $r_1 = \sqrt{4+9-9} = 2$
-And $r_2 = \sqrt{1+1+14} = 4$.
+and $r_2 = \sqrt{1+1+14} = 4$.
 
 Distance between centres: $d = \sqrt{(2-(-1))^2 + (3-(-1))^2} = \sqrt{9+16} = 5$.
 
@@ -1026,7 +1026,7 @@ $$
 
 **Problem 15.** The circle $C$ has equation $x^2 + y^2 - 6x - 4y + 9 = 0$. The line $L$ passes
 Through the origin and is tangent to $C$. Find the possible equations of $L$ and the coordinates of
-The points of tangency.
+the points of tangency.
 
 <details>
 <summary>Solution</summary>

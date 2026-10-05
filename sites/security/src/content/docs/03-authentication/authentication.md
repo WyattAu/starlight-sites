@@ -22,7 +22,7 @@ description: "Study notes for Authentication and Authorization with worked examp
 
 These are distinct concerns that are often conflated. A user can be authenticated (their identity is
 Verified) but not authorized (they lack permission for a specific action). Conversely, a system
-Might authorize a request without authentication (anonymous access).
+might authorize a request without authentication (anonymous access).
 
 | Aspect       | Authentication               | Authorization               |
 | ------------ | ---------------------------- | --------------------------- |
@@ -103,7 +103,7 @@ This avoids forcing a password reset for all users.
 ### NIST SP 800-63B Recommendations (Revised 2023)
 
 The NIST Digital Identity Guidelines represent the current best practice for password policies, and
-They contradict many traditional policies.
+they contradict many traditional policies.
 
 **Do:**
 
@@ -159,7 +159,7 @@ MFA requires two or more independent factors from different categories:
 ### TOTP (Time-based One-Time Password)
 
 TOTP (RFC 6238) generates a 6-8 digit code based on a shared secret and the current time. The server
-And client both compute:
+and client both compute:
 
 $$
 \mathrm{TOTP = \mathrm{Truncate\Big(\mathrm{HMAC-SHA-1(K, T)\Big)
@@ -223,7 +223,7 @@ Rate limiting, anomaly detection, and do not use it as the sole second factor.
 ## OAuth 2.0
 
 OAuth 2.0 (RFC 6749) is an authorization framework that allows applications to obtain limited access
-To user accounts on HTTP services. It is a delegation protocol, the user authorizes a third-party
+to user accounts on HTTP services. It is a delegation protocol, the user authorizes a third-party
 Application to access their resources without sharing their credentials.
 
 ### Core Concepts
@@ -281,7 +281,7 @@ code_challenge = base64.urlsafe_b64encode(
 ### Client Credentials Flow
 
 Used for server-to-server communication (no user involved). The client authenticates directly with
-The authorization server using its credentials.
+the authorization server using its credentials.
 
 ```bash
 curl -X POST https://auth.example.com/token \
@@ -295,7 +295,7 @@ curl -X POST https://auth.example.com/token \
 
 The implicit flow returns the access token directly in the URL fragment, which exposes it to the
 Browser history, referrer headers, and JavaScript access. It has been deprecated by OAuth 2.1. Use
-The authorization code flow with PKCE instead.
+the authorization code flow with PKCE instead.
 
 ## OpenID Connect (OIDC)
 
@@ -636,13 +636,13 @@ password checking instead.
 ### Pitfall 3: JWT in localStorage
 
 Storing JWTs in localStorage or sessionStorage makes them accessible to any JavaScript running on
-The page. A single XSS vulnerability exposes the token. Store access tokens in memory (with silent
+the page. A single XSS vulnerability exposes the token. Store access tokens in memory (with silent
 Refresh) or in HttpOnly cookies.
 
 ### Pitfall 4: Missing Token Revocation
 
 Stateless JWTs cannot be revoked without a blacklist. If a user's JWT is stolen, it remains valid
-Until expiry. Mitigate with: short expiry times (15 minutes), refresh token rotation, and a token
+until expiry. Mitigate with: short expiry times (15 minutes), refresh token rotation, and a token
 Blacklist for compromised tokens.
 
 ### Pitfall 5: OAuth Redirect URI Validation
@@ -653,19 +653,19 @@ Validate redirect URIs against an exact-match allowlist (no wildcards, no open r
 ### Pitfall 6: Ignoring Algorithm in JWT Validation
 
 Accepting any algorithm in the JWT header, or not explicitly specifying the expected algorithm
-During validation, enables the algorithm confusion attack. Always specify `algorithms=["RS256"]` (or
+during validation, enables the algorithm confusion attack. Always specify `algorithms=["RS256"]` (or
 Your expected algorithm) explicitly.
 
 ### Pitfall 7: Session Fixation
 
 If an application does not regenerate the session ID after authentication, an attacker who knows the
 Pre-authentication session ID can hijack the authenticated session. Always regenerate the session ID
-Upon successful authentication.
+upon successful authentication.
 
 ### Pitfall 8: Storing Secrets in Version Control
 
 Hardcoded API keys, OAuth client secrets, JWT signing keys, and database credentials in source code
-Are exposed to anyone with repository access. Use secret management systems (HashiCorp Vault, AWS
+are exposed to anyone with repository access. Use secret management systems (HashiCorp Vault, AWS
 Secrets Manager, Azure Key Vault) and scan repositories for committed secrets (git-secrets,
 TruffleHog, gitleaks).
 
@@ -688,7 +688,7 @@ Refresh token rotation, or a hybrid approach.
 ### Centralized Identity Provider
 
 A centralized IdP (Okta, Azure AD, Keycloak, Auth0) provides a single point of authentication for
-All applications. This eliminates per-application credential management and enables consistent
+all applications. This eliminates per-application credential management and enables consistent
 Security policies.
 
 ```mermaid

@@ -67,15 +67,15 @@ a single atomic `cmpxchg` instruction (futex-based).
 ### Uncontended vs Contended Lock Performance
 
 In the uncontended case (no other thread holds the lock), acquiring a mutex is essentially the cost
-Of a single atomic compare-and-swap, approximately 10-20 nanoseconds on x86. In the contended case,
+of a single atomic compare-and-swap, approximately 10-20 nanoseconds on x86. In the contended case,
 The thread is descheduled via a futex system call (`FUTEX_WAIT`), which costs 1-10 microseconds for
-The kernel context switch alone, plus scheduler latency.
+the kernel context switch alone, plus scheduler latency.
 
 ## `std::recursive_mutex`
 
 `std::recursive_mutex` [N4950 §31.4.3.3.4] allows the same thread to acquire the lock multiple
 Times. The thread must call `unlock()` the same number of times it called `lock()` for the mutex to
-Be released. The implementation maintains an internal lock count:
+be released. The implementation maintains an internal lock count:
 
 $$
 \mathrm{recursion depth = n_{\mathrm{lock} - n_{\mathrm{unlock}
@@ -87,7 +87,7 @@ When the recursion depth reaches zero, the mutex is released.
 
 `std::recursive_mutex` exists primarily for interfacing with legacy code that was not designed with
 Explicit lock boundaries. For example, a recursive data structure traversal where functions call
-Each other and each needs the lock:
+each other and each needs the lock:
 
 ```cpp
 #include <iostream>
@@ -210,7 +210,7 @@ int main() {
 ## `std::lock_guard` and `std::scoped_lock`
 
 `std::lock_guard` [N4950 §31.4.4.2] is a lightweight RAII wrapper for a single mutex. It acquires
-The mutex in its constructor and releases it in its destructor.
+the mutex in its constructor and releases it in its destructor.
 
 `std::scoped_lock` [N4950 §31.4.4.2.2] (C++17) generalizes this to zero or more mutexes. When
 Multiple mutexes are provided, it uses a deadlock-avoidance algorithm (similar to `std::lock`) to
@@ -324,13 +324,13 @@ The deadlock-avoidance algorithm used by `std::scoped_lock` (and `std::lock`) wo
 
 This algorithm guarantees that threads acquire the same set of mutexes in the same order, preventing
 Circular wait. The retry loop has no upper bound on iterations, but in practice contention is rare
-And the loop terminates quickly.
+and the loop terminates quickly.
 
 ## `std::shared_mutex` (Reader-Writer Lock)
 
 `std::shared_mutex` [N4950 §31.4.3.4] allows multiple threads to hold a **shared** (read) lock
 Simultaneously, but only one thread can hold an **exclusive** (write) lock at a time. This is useful
-When reads are frequent and writes are infrequent.
+when reads are frequent and writes are infrequent.
 
 | Lock type                      | Concurrent access | Exclusive access |
 | ------------------------------ | ----------------- | ---------------- |
@@ -341,20 +341,20 @@ When reads are frequent and writes are infrequent.
 
 A naive reader-writer lock implementation can suffer from **writer starvation**: if readers
 Continuously acquire shared locks, a waiting writer may never get exclusive access. The C++ standard
-Does not mandate a specific policy for `std::shared_mutex`But POSIX `pthread_rwlock_t`
+does not mandate a specific policy for `std::shared_mutex`But POSIX `pthread_rwlock_t`
 Implementations implement a "writer-preferring" policy on modern Linux kernels (glibc 2.26+).
 
 ### Reader-Writer Lock Overhead
 
 A shared lock acquisition is more expensive than a plain mutex: it requires atomic operations on
-Both a reader count and a writer flag. On x86, a `std::shared_mutex` shared lock is approximately
+both a reader count and a writer flag. On x86, a `std::shared_mutex` shared lock is approximately
 2-3x slower than an uncontended `std::mutex`. Only use `std::shared_mutex` when the read-to-write
 Ratio is high enough ( &gt;10:1) to justify the overhead.
 
 ## Deadlock Conditions
 
 A deadlock occurs when two or more threads are blocked forever, each waiting for a resource held by
-The other. The four necessary conditions (Coffman conditions) are:
+the other. The four necessary conditions (Coffman conditions) are:
 
 1. **Mutual exclusion**: At least one resource is held in a non-shareable mode.
 2. **Hold and wait**: A thread holds at least one resource and is waiting for additional resources.
@@ -580,7 +580,7 @@ int main() {
 
 A common pattern is to acquire a shared lock for reading, then upgrade to exclusive for writing if a
 Condition is met. `std::shared_mutex` does not directly support lock promotion. The safe approach is
-To release the shared lock and acquire an exclusive lock:
+to release the shared lock and acquire an exclusive lock:
 
 ```cpp
 #include <iostream>
@@ -719,7 +719,7 @@ int main() {
 
 `std::call_once` guarantees that the callable is invoked exactly once, even if multiple threads call
 `get_expensive()` concurrently. Internally, it uses a combination of atomic flags and a mutex, but
-The fast path (already initialized) is a single atomic load.
+the fast path (already initialized) is a single atomic load.
 
 ```mermaid
 flowchart TD

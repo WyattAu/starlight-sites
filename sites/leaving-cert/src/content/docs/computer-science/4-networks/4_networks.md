@@ -568,7 +568,7 @@ Network address: 192.168.1.0. First host: 192.168.1.1. Last host: 192.168.1.62. 
 ### VLAN Configuration
 
 A VLAN logically segments a physical network. Devices in different VLANs cannot communicate directly
-Even if they are on the same physical switch.
+even if they are on the same physical switch.
 
 **Benefits:**
 

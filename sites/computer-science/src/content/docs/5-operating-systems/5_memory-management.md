@@ -167,7 +167,7 @@ critical.
 ### 5.6 Translation Lookaside Buffer (TLB)
 
 A **TLB** is a hardware cache of recently used page table entries, avoiding an extra memory access
-Per translation.
+per translation.
 
 $$
 \mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})
@@ -252,7 +252,7 @@ To changing access patterns.
 
 **Approximating LRU in practice.** Most OSes use a variant of Clock. Linux uses an LRU-like
 Approximation with **active** and **inactive** lists: pages on the active list are protected; pages
-Not accessed are demoted to the inactive list; eviction targets the inactive list.
+not accessed are demoted to the inactive list; eviction targets the inactive list.
 
 <details>
 <summary>Worked Example 5.3, Optimal Page Replacement</summary>
@@ -348,7 +348,7 @@ Same reference string, three frames. Clock hand starts at frame 0. R = reference
 | 1   | [7,R] [0,R] [1,R] | No     | Set R on F2                                                                                        |
 
 Total page faults: **15**. Clock performs worse than LRU here but requires only $O(1)$ per operation
-And no global ordering of references.
+and no global ordering of references.
 
 </details>
 
@@ -406,7 +406,7 @@ Time. $\blacksquare$
 
 **Copy-on-Write** is an optimisation for `fork()`. Instead of copying all pages, parent and child
 Share physical frames (marked read-only). On a write to a shared page, a fault triggers a copy of
-Just that page.
+just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
 - If the child immediately calls `exec()`No copies are ever made.

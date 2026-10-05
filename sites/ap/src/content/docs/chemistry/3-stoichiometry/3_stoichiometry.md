@@ -34,7 +34,7 @@ The mole is defined such that the molar mass of carbon-12 is exactly 12 g/mol.
 ### Molar Mass
 
 The molar mass of a substance is the mass of one mole, expressed in g/mol. It is numerically equal
-To the atomic/molecular formula mass in amu.
+to the atomic/molecular formula mass in amu.
 
 | Substance                              | Molar Mass (g/mol) |
 | -------------------------------------- | ------------------ |
@@ -102,7 +102,7 @@ Sum: $43.38 + 11.33 + 45.29 = 100.00\%$. Verified.
 ### Empirical Formula
 
 The simplest whole-number ratio of atoms in a compound. It gives the relative numbers of atoms but
-Not the actual numbers.
+not the actual numbers.
 
 ### Molecular Formula
 
@@ -139,7 +139,7 @@ Molecular formula: $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ (glucose).
 ### Combustion Analysis
 
 When an unknown compound containing C, H, and possibly O is burned completely, the masses of CO$_2$
-And H$_2$O produced are measured. These give the amounts of C and H in the original compound.
+and H$_2$O produced are measured. These give the amounts of C and H in the original compound.
 
 $$
 \mathrm{mol C = \mathrm{mol CO_2 = \frac{\mathrm{mass of CO_2}{44.01}
@@ -150,7 +150,7 @@ $$
 $$
 
 If the mass of C + mass of H is less than the total mass of the sample, the difference is the mass
-Of oxygen.
+of oxygen.
 
 ### Worked Example: Combustion Analysis
 
@@ -415,7 +415,7 @@ The product must be pure and filterable.
 
 **Example:** To determine the amount of sulfate in a solution, add excess barium chloride. Filter,
 Dry, and weigh the BaSO$_4$ precipitate. Use the mass of BaSO$_4$ to calculate the moles and hence
-The concentration of sulfate.
+the concentration of sulfate.
 
 ### Worked Example: Gravimetric Calculation
 
@@ -609,7 +609,7 @@ $\mathrm{H_2\mathrm{SO_4$$\mathrm{HClO_4$.
 **Strong bases:** Group 1 hydroxides, $\mathrm{Ca(OH)_2$$\mathrm{Sr(OH)_2$$\mathrm{Ba(OH)_2$.
 
 Only strong electrolytes are split into ions in the complete ionic equation. Weak acids and bases
-Are written as intact molecules.
+are written as intact molecules.
 :::
 
 :::note[Example]
@@ -837,7 +837,7 @@ $V = \frac{nRT}{P} = \frac{0.0612 \times 0.0821 \times 298}{0.969} = \frac{1.496
 <summary>Question 3: Empirical and molecular formula</summary>
 
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Its molar mass
-Is approximately $180 \mathrm{ g/mol$. Determine the empirical and molecular formulas.
+is approximately $180 \mathrm{ g/mol$. Determine the empirical and molecular formulas.
 
 </details>
 

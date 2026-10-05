@@ -50,10 +50,10 @@ $$
 
 Calcium ($Z = 20$) has electron configuration $2, 8, 8, 2$. It loses two electrons to form
 $\mathrm{Ca^{2+}$ ($2, 8, 8$). Each fluorine ($Z = 9$) has electron configuration $2, 7$ and gains
-One electron to form $\mathrm{F^-$ ($2, 8$). The dot-and-cross diagram shows two electrons
+one electron to form $\mathrm{F^-$ ($2, 8$). The dot-and-cross diagram shows two electrons
 Transferred from calcium (crosses) to one electron each accepted by two fluorine atoms (dots). The
 Resulting $\mathrm{Ca^{2+}$ and two $\mathrm{F^-$ ions are held together by electrostatic attraction
-In a giant ionic lattice.
+in a giant ionic lattice.
 
 **Covalent Bonding:**
 
@@ -639,7 +639,7 @@ Malleability, and high melting point.
 **(d) $\mathrm{AlCl_3$:** Aluminium is a metal and chlorine is a non-metal. The electronegativity
 Difference is $3.16 - 1.61 = 1.55$ Suggesting polar covalent. $\mathrm{Al^{3+}$ is a small, highly
 Charged cation with high polarising power, and $\mathrm{Cl^-$ is a relatively large anion. According
-To Fajans' Rules, this gives $\mathrm{AlCl_3$ significant **covalent character**. Indeed,
+to Fajans' Rules, this gives $\mathrm{AlCl_3$ significant **covalent character**. Indeed,
 $\mathrm{AlCl_3$ sublimes at $180^\circ\mathrm{C$ (low for an ionic compound) and forms dimer
 molecules $\mathrm{Al_2\mathrm{Cl_6$ in the gas phase.
 
@@ -741,7 +741,7 @@ Arrangement, forming a rigid three-dimensional network. Every C-C bond is a stro
 
 Each carbon atom in graphite is covalently bonded to three other carbon atoms in a trigonal planar
 Arrangement, forming flat hexagonal layers. The fourth electron of each carbon is delocalised over
-The entire layer.
+the entire layer.
 
 **Properties explained:**
 

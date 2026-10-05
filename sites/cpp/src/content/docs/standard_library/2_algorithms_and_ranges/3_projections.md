@@ -370,8 +370,8 @@ int main() {
 ### Projections with Range Views
 
 Projections and range views solve similar problems but at different levels. Projections are
-Per-algorithm; views are compositional pipelines. Use projections when you need a single algorithm
-To operate on derived data. Use views when you need to build a processing pipeline:
+per-algorithm; views are compositional pipelines. Use projections when you need a single algorithm
+to operate on derived data. Use views when you need to build a processing pipeline:
 
 ```cpp
 #include <iostream>
@@ -470,7 +470,7 @@ int main() {
 ### Algorithms That Do NOT Support Projections
 
 Not all ranges algorithms accept projections. The following algorithms operate on elements directly
-And do not have a projection parameter:
+and do not have a projection parameter:
 
 - `std::ranges::copy``std::ranges::move``std::ranges::swap_ranges`
 - `std::ranges::fill``std::ranges::generate``std::ranges::iota`
@@ -543,7 +543,7 @@ int main() {
 ### 3. Projection with Stateful Callables
 
 Using a stateful projection (a lambda that captures mutable state) produces undefined behavior if
-The algorithm copies the projection internally. Most algorithms take the projection by value, so
+the algorithm copies the projection internally. Most algorithms take the projection by value, so
 Mutations to the original lambda are not visible to the algorithm's copies:
 
 ```cpp

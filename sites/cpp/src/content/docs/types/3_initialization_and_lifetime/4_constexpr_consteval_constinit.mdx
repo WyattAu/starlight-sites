@@ -16,7 +16,7 @@ Compile-time computation is one of C++'s most distinctive capabilities. Unlike C
 Conditionals, recursion), and can operate on user-defined types. The evolution from C++11
 `constexpr` through C++20 `consteval` and `constinit` gives programmers fine-grained control over
 Exactly when an expression is evaluated. For systems programmers, this means moving error detection
-From runtime to compile time -- a zero-cost correctness guarantee.
+from runtime to compile time -- a zero-cost correctness guarantee.
 
 ## The Keyword Taxonomy
 
@@ -77,7 +77,7 @@ Expression. A `constexpr` variable is **always** a constant expression [N4950 §
 ## `constexpr`: Guaranteed Compile-Time Evaluation
 
 `constexpr` (C++11) declares that a variable **must** be initialized with a constant expression, or
-That a function **may** be evaluated at compile time [N4950 §7.7].
+that a function **may** be evaluated at compile time [N4950 §7.7].
 
 ### `constexpr` Variables
 
@@ -136,7 +136,7 @@ constexpr int fib10 = fibonacci(10);  // 55, computed at compile time
 #### C++20: Immediate Functions (`consteval`)
 
 `consteval` (also called "immediate functions") **must** be evaluated at compile time. They cannot
-Be called at runtime [N4950 §7.7.5].
+be called at runtime [N4950 §7.7.5].
 
 ```cpp
 consteval int square(int n) \{
@@ -172,7 +172,7 @@ constexpr double dist_sq = p.distance_to(origin);  // 25.0, compile-time
 ### `constexpr` Containers and `std::string` (C++20)
 
 C++20 made `std::vector` and `std::string` usable in constant expressions (transiently -- they
-Cannot outlive the constant expression evaluation):
+cannot outlive the constant expression evaluation):
 
 ```cpp
 #include <string>
@@ -238,7 +238,7 @@ constexpr auto sqrt_table = make_sqrt_table<100>();
 ## `constinit`: Compile-Time Initialization, Runtime Value
 
 `constinit` (C++20) guarantees that a variable with static or thread storage duration is initialized
-At compile time (zero-initialization or constant initialization), but allows the variable to be
+at compile time (zero-initialization or constant initialization), but allows the variable to be
 Modified at runtime [N4950 §6.6.3.2].
 
 ### The Problem `constinit` Solves

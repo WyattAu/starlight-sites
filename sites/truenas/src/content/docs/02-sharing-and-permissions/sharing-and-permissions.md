@@ -261,14 +261,14 @@ you have a specific need for no_root_squash.
 ### NFSv4 ID Mapping
 
 NFSv4 uses string-based user and group names instead of numeric UIDs/GIDs. The server and client
-Must agree on the name-to-ID mapping. On TrueNAS:
+must agree on the name-to-ID mapping. On TrueNAS:
 
 - With local users, `nfs4idmapd` handles the mapping.
 - With Active Directory, the AD domain provides the mapping.
 - With LDAP, the LDAP directory provides the mapping.
 
 If the server and client have different UID/GID mappings for the same username, files will appear to
-Be owned by the wrong user. Ensure the ID mapping configuration is consistent.
+be owned by the wrong user. Ensure the ID mapping configuration is consistent.
 
 ### Kerberos Integration
 
@@ -330,7 +330,7 @@ Configure under **Sharing** → **Unix (NFS) Shares** → **Settings**.
 
 For NFS, the default sync behavior depends on the client's mount options. ZFS's copy-on-write
 Ensures data integrity regardless of the NFS sync setting, but async mode can return "success" to
-The client before the data is actually stable on disk.
+the client before the data is actually stable on disk.
 
 ### NFS Client Configuration (Linux)
 
@@ -623,7 +623,7 @@ For environments using LDAP (OpenLDAP, 389 Directory Server):
 
 Ensure UIDs and GIDs are consistent across the NAS and all client systems. If the NAS assigns UID
 1001 to user "alice" but a client system assigns UID 1001 to user "bob", permissions will be wrong
-When accessing NFS or SMB shares.
+when accessing NFS or SMB shares.
 
 ---
 
@@ -735,7 +735,7 @@ Fails definitively (databases, VM images). Always use "hard" mounts for persiste
 
 The default NFS security flavor is `sys` (AUTH_SYS), which trusts the client to report the correct
 UID/GID. Any user who can connect to the NFS server can claim to be any user, including root. For
-Any network where you do not fully trust all clients, use Kerberos (krb5, krb5i, or krb5p).
+any network where you do not fully trust all clients, use Kerberos (krb5, krb5i, or krb5p).
 
 ### Overlooking Dataset Case Sensitivity
 
@@ -746,7 +746,7 @@ Missing. Set the `casesensitivity` dataset property to `insensitive` if sharing 
 ### Not Enabling NFSv4 ID Mapping
 
 Without proper NFSv4 ID mapping (`nfs4idmapd`), the server and client may disagree on the mapping
-Between usernames and UIDs. This results in files appearing to be owned by `nobody` or incorrect
+between usernames and UIDs. This results in files appearing to be owned by `nobody` or incorrect
 Users. Always configure ID mapping when using NFSv4 with named users.
 
 ### Ignoring SMB Signing Requirements
@@ -1034,7 +1034,7 @@ Enforces quotas at the filesystem level regardless of the access protocol.
 
 Accessing the same ZFS dataset simultaneously via NFS and SMB causes locking and caching
 Inconsistencies. NFS uses advisory locks while SMB uses mandatory locks. Files created via NFS may
-Have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
+have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
 
 :::caution
 Replication or rsync pipeline to synchronize content. Alternatively, use SMB exclusively with

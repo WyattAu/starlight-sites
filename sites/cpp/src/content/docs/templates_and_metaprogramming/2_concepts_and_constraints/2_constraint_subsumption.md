@@ -96,8 +96,8 @@ Incomparable for subsumption purposes, leading to ambiguity.
 
 **Corollary:** Negated constraints (`!C`) are incomparable with all other constraints because
 Negation does not preserve subsumption ordering. A constraint `!std::integral<T>` is incomparable
-With `std::floating_point<T>` even though, set-theoretically, every floating-point type is
-Non-integral.
+with `std::floating_point<T>` even though, set-theoretically, every floating-point type is
+non-integral.
 
 ## Normal Form of Constraints
 
@@ -154,8 +154,8 @@ Subsumed by at least one atomic constraint in the corresponding disjunct of $Q$.
 ## Atomic Constraints and Their Combination
 
 An **atomic constraint** is the smallest unit of constraint checking [N4950 §13.5.4.1]. It consists
-Of an expression and a template parameter mapping. The atomic constraint is satisfied if and only
-If:
+of an expression and a template parameter mapping. The atomic constraint is satisfied if and only
+if:
 
 1. The template arguments are successfully substituted into the expression.
 2. The resulting expression is `true`.
@@ -202,7 +202,7 @@ concept IsIntC = requires(T t) { requires std::is_same_v<T, int>; };
 
 This introduces a `requires`-expression with a local parameter `t`. The atomic constraint inside the
 `requires`-expression has a different structural form than `std::is_same_v<T, int>`. Even though
-They are logically equivalent, the compiler considers them structurally different, and they are
+they are logically equivalent, the compiler considers them structurally different, and they are
 Incomparable for subsumption.
 
 ## How the Compiler Selects the Most Constrained Viable Function
@@ -293,14 +293,14 @@ template integral: 42
 ```
 
 The rule is: when both a non-template and a template are viable, the non-template is preferred if
-And only if the argument conversions are equally good [N4950 §13.10.3.2]. For `process(42)`Both Are
+and only if the argument conversions are equally good [N4950 §13.10.3.2]. For `process(42)`Both Are
 exact matches, so the non-template wins. For `process(42L)`The template is an exact match
 (`T = long`) while the non-template requires a narrowing conversion (`long` to `int`), so the
 Template wins.
 
 **Key insight:** Constraints do not make a template "better" than a non-template function. The
 Partial ordering rules for constraints only apply between constrained function templates. A
-Non-template function and a constrained template are compared using the standard overload resolution
+non-template function and a constrained template are compared using the standard overload resolution
 Tie-breaking rules (non-template preferred on a tie).
 
 ```cpp
@@ -331,7 +331,7 @@ int main() {
 ```
 
 Note that `bool` satisfies `std::signed_integral` (on most implementations where `bool` is treated
-As a signed integral type). But the non-template overload for `bool` is preferred because it is an
+as a signed integral type). But the non-template overload for `bool` is preferred because it is an
 Exact match without requiring template instantiation.
 
 ## Subsumption with Standard Concepts
@@ -432,7 +432,7 @@ sortable container, size = 2, front = hello
 ```
 
 The `Sortable` concept subsumes `Container` because it includes all of `Container`'s requirements
-Plus additional ones. Therefore, when both overloads are viable, the `Sortable` overload is
+plus additional ones. Therefore, when both overloads are viable, the `Sortable` overload is
 Preferred.
 
 ## Subsumption and `requires` Expressions
@@ -644,7 +644,7 @@ int main() {
 ```
 
 In this case, the two overloads have different arity (1 vs 2 parameters), so they don't compete
-During overload resolution --- the compiler selects based on argument count before applying
+during overload resolution --- the compiler selects based on argument count before applying
 Constraint subsumption.
 
 ## Detailed Subsumption Examples
@@ -763,7 +763,7 @@ int main() {
 ```
 
 This is counterintuitive. Even though `A<T>` is "more restrictive" than `B<T>` (every integral type
-Is either integral or floating-point), the subsumption check is **structural**, not semantic. The
+is either integral or floating-point), the subsumption check is **structural**, not semantic. The
 Normalized form of `B<T>` is `std::integral<T> || std::floating_point<T>`Which is a **disjunction**.
 The conjunction rule for subsumption does not apply to disjunctions.
 
@@ -888,7 +888,7 @@ Equally specialized, the program is ill-formed.
 
 The most reliable pattern for overload sets with concepts is the **refinement hierarchy**: use
 Conjunction (`&&`) to progressively refine a base concept. This guarantees that each level subsumes
-The previous.
+the previous.
 
 **Rules for reliable subsumption:**
 

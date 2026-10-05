@@ -18,7 +18,7 @@ description: "Every file and directory on a Linux system carries a set of permis
 ## Unix Permission Model
 
 Every file and directory on a Linux system carries a set of permission bits that control which users
-Can read, write, or execute it. The kernel enforces these permissions during every file system
+can read, write, or execute it. The kernel enforces these permissions during every file system
 Operation.
 
 ### Permission Bits
@@ -513,7 +513,7 @@ capsh --drop="cap_net_raw" -- -c "ping -c 1 localhost"
 ## File Attributes
 
 File attributes (managed by `chattr`/`lsattr`) are separate from permissions. They are enforced by
-The ext4 filesystem (and others that support them) and cannot be overridden by root or capabilities.
+the ext4 filesystem (and others that support them) and cannot be overridden by root or capabilities.
 
 ### Common Attributes
 
@@ -636,7 +636,7 @@ flowchart TD
 :::note
 Specific first), owning group or named groups, mask, other. The first matching entry that grants or
 Denies the requested access determines the result. The mask limits the maximum effective permissions
-For all named users, named groups, and the owning group.
+for all named users, named groups, and the owning group.
 
 ### Permission Check Summary
 

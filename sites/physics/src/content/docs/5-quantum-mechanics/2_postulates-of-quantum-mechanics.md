@@ -24,7 +24,7 @@ Vector $|\psi\rangle$ in a complex Hilbert space $\mathcal{H}$.
 
 _Physical motivation._ Superposition is observed in interference experiments (e.g., double-slit),
 Where a particle can traverse multiple paths simultaneously. The complex-valued nature of the state
-Is essential: relative phases between superposition components produce observable interference
+is essential: relative phases between superposition components produce observable interference
 Patterns that cannot be replicated with real amplitudes alone.
 
 **Postulate 2 (Observables).** Every measurable quantity (observable) is represented by a Hermitian
@@ -42,7 +42,7 @@ P(a_n) = |\langle a_n | \psi \rangle|^2
 $$
 
 Where $|a_n\rangle$ is the eigenstate corresponding to $a_n$. After measurement, the state collapses
-To $|a_n\rangle$.
+to $|a_n\rangle$.
 
 _Physical motivation._ The Born rule $P = |\langle a_n|\psi\rangle|^2$ was postulated by Born (1926)
 To connect wave functions to observable probabilities. It correctly predicts the intensity

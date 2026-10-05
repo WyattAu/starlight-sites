@@ -52,7 +52,7 @@ Structured treatment delivery.
 
 All treatments carry risks. Drug therapies have physiological side effects; psychological therapies
 Carry the risk of emotional distress during treatment. The evaluation of any treatment must weigh
-The potential benefits against the potential harms.
+the potential benefits against the potential harms.
 
 **Drug therapy risks:**
 
@@ -122,7 +122,7 @@ Include:
 
 The National Institute of Mental Health (NIMH) Treatment of Depression Collaborative Research
 Program was one of the most influential studies comparing the effectiveness of different treatments
-For depression. The study compared four conditions:
+for depression. The study compared four conditions:
 
 1. **Cognitive-behavioural therapy (CBT):** 16 sessions of manualised CBT.
 2. **Interpersonal therapy (IPT):** 16 sessions of manualised IPT.

@@ -22,7 +22,7 @@ categories:
 ## Overload Resolution
 
 C++ function resolution is not a simple name match. The compiler performs a multi-phase search
-Through namespaces, ranks candidate functions against a strict hierarchy of conversion ranks, and
+through namespaces, ranks candidate functions against a strict hierarchy of conversion ranks, and
 Selects a single best viable function, or rejects the call as ambiguous.
 
 ## 1.1 Name Lookup [N4950 §6.5.4]
@@ -102,7 +102,7 @@ int main() {
 
 ADL interacts with template argument deduction in a subtle way. When an unqualified function call
 Involves a template, ADL adds function template candidates from associated namespaces in addition to
-Those found by ordinary unqualified lookup [N4950 §13.10.3.6]:
+those found by ordinary unqualified lookup [N4950 §13.10.3.6]:
 
 ```cpp
 #include <iostream>
@@ -167,8 +167,8 @@ Implicit conversion sequences required. A function $f_1$ is a better match than 
 ### Formal Statement of the Viable Function Selection
 
 Let $C$ be the candidate set from name lookup. For each candidate $c \in C$ Let $n_c$ be the number
-Of parameters of $c$ And let $k$ be the number of arguments in the call. Candidate $c$ is viable if
-And only if all of the following hold:
+of parameters of $c$ And let $k$ be the number of arguments in the call. Candidate $c$ is viable if
+and only if all of the following hold:
 
 1. $n_c = k$ Or $c$ has a trailing parameter pack and $n_c \le k$ Or $c$ is variadic and $n_c \le k$.
 2. For each argument $a_i$ (where $1 \le i \le k$), there exists an implicit conversion sequence
@@ -335,7 +335,7 @@ int main() {
 
 **Partial ordering** of function templates resolves ambiguities between template functions. When
 Both an ordinary function and a function template are viable, the ordinary function is preferred
-Unless the template provides a more specialized match [N4950 §13.7.6.6.5].
+unless the template provides a more specialized match [N4950 §13.7.6.6.5].
 
 ### Ambiguity with Reference Binding
 
@@ -357,7 +357,7 @@ int main() {
 
 Note: In practice, some compilers resolve this in favor of `k(int)` because the reference binding
 Requires an additional (albeit trivial) qualification conversion step, but the Standard considers
-Both as exact match rank. The ambiguity is real and portable code must provide a disambiguating
+both as exact match rank. The ambiguity is real and portable code must provide a disambiguating
 Overload.
 
 ## 1.6 Complete ADL Example: `operator<<`
@@ -389,7 +389,7 @@ int main() {
 
 :::caution
 Idiom, defining the operator as a friend inside the class, restricts the operator to being found
-Only via ADL, preventing unintended overloads:
+only via ADL, preventing unintended overloads:
 
 ```cpp
 struct Vec3 {
@@ -827,7 +827,7 @@ Class type is present.
 Access control (public, protected, private) is applied **after** overload resolution. A candidate
 Function that is the best match by conversion ranking is selected, and only then is its access
 Checked. If it is inaccessible, the program is ill-formed, but the compiler does not fall back to a
-Less-preferred accessible candidate:
+less-preferred accessible candidate:
 
 ```cpp
 #include <iostream>

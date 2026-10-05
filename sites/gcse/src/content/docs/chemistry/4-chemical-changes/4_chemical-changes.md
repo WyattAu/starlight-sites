@@ -33,7 +33,7 @@ A word equation describes a chemical reaction using the names of the reactants a
 
 Word equations are useful as a first step but they lack precision. Different compounds can share the
 Same name in different contexts, and word equations convey no information about the stoichiometry of
-The reaction.
+the reaction.
 
 ### 1.2 Symbol Equations
 
@@ -41,7 +41,7 @@ A symbol equation uses chemical formulae. It must be **balanced** -- the same nu
 Atom must appear on both sides (conservation of mass).
 
 The conservation of mass is a consequence of the fact that atoms are neither created nor destroyed
-In a chemical reaction. The atoms are rearranged into different molecules. This is one of the Most
+in a chemical reaction. The atoms are rearranged into different molecules. This is one of the Most
 fundamental principles in chemistry.
 
 **Worked Example.** Balance the equation for the reaction between iron and oxygen to form iron(III)
@@ -94,7 +94,7 @@ This equation is already balanced. One atom of each element appears on both side
 
 State symbols provide information about the physical state of each substance under the reaction
 Conditions. This is important because the state affects the energy change and the type of reaction
-That occurs.
+that occurs.
 
 **Worked Example.** Write a balanced symbol equation with state symbols for the reaction of calcium
 With hydrochloric acid.
@@ -192,7 +192,7 @@ Barrier that must be surmounted for the reaction to proceed.
 An exothermic reaction releases energy overall, but bonds must still be broken before new bonds can
 Form. Breaking bonds always requires an energy input. The activation energy is the energy needed to
 Break the initial bonds. Once the reaction has started, the energy released from forming new bonds
-More than compensates for the initial input.
+more than compensates for the initial input.
 
 Consider a ball rolling down a hill. The ball releases energy (potential energy converts to kinetic
 Energy), but it first needs to be pushed over a small bump at the top. The bump is the activation
@@ -237,7 +237,7 @@ If $\Delta H$ is negative, the reaction is exothermic. If $\Delta H$ is positive
 Endothermic.
 
 This is a consequence of energy conservation. If more energy is released by forming new bonds than
-Is absorbed by breaking old bonds, the excess is released to the surroundings (exothermic).
+is absorbed by breaking old bonds, the excess is released to the surroundings (exothermic).
 
 **Worked Example.** Calculate the enthalpy change for the reaction:
 $\mathrm{H_2 + \mathrm{Cl_2 \to 2\mathrm{HCl$
@@ -339,7 +339,7 @@ Correct orientation) will increase the rate.
 **Temperature** has a particularly strong effect because it changes the distribution of molecular
 Energies. A small increase in temperature shifts a much larger fraction of molecules above the
 Activation energy threshold. The rate approximately doubles for every $10^{\circ}\mathrm{C$ increase
-In temperature.
+in temperature.
 
 **Surface area** matters for solid reactants. A lump of calcium carbonate has a small surface area,
 But the same mass as a powder has a much larger surface area. Since reactions occur at the surface,
@@ -348,7 +348,7 @@ The powder reacts much faster.
 ### 3.3 Catalysts
 
 A **catalyst** is a substance that increases the rate of a reaction without being used up. It works
-By providing an alternative reaction pathway with a lower activation energy.
+by providing an alternative reaction pathway with a lower activation energy.
 
 **Examples:**
 
@@ -409,7 +409,7 @@ $$
 $$
 
 Where $\Delta y$ is the change in the quantity measured (volume, mass, concentration) and $\Delta x$
-Is the change in time.
+is the change in time.
 
 **Worked Example.** In an experiment, 20 cm$^3$ of gas is collected in the first 30 seconds.
 Calculate the mean rate of reaction.
@@ -434,7 +434,7 @@ $$
 ### 4.2 Dynamic Equilibrium
 
 When a reversible reaction takes place in a **closed system**, the forward and reverse reactions
-Both occur. Eventually, the rates of the forward and reverse reactions become equal, and the
+both occur. Eventually, the rates of the forward and reverse reactions become equal, and the
 Concentrations of reactants and products remain constant. This state is called **dynamic
 Equilibrium**.
 
@@ -501,7 +501,7 @@ $$
 Conditions: 450$^{\circ}$C, 1-2 atm, vanadium(V) oxide catalyst.
 
 The moderate temperature is again a compromise between equilibrium yield and rate. The pressure is
-Only slightly above atmospheric because the equilibrium already favours the product side (3 moles
+only slightly above atmospheric because the equilibrium already favours the product side (3 moles
 $\to$ 2 moles of gas), so very high pressure is not economically justified.
 
 ### 4.6 Equilibrium Summary Table
@@ -626,7 +626,7 @@ $$
 ### 6.2 Electrolysis of Molten Ionic Compounds
 
 When a molten ionic compound is electrolysed, the metal is produced at the cathode and the non-metal
-Is produced at the anode.
+is produced at the anode.
 
 **Example:** Electrolysis of molten lead(II) bromide.
 
@@ -701,7 +701,7 @@ $$
 
 **Extraction of aluminium:** Aluminium oxide (bauxite) is dissolved in molten cryolite and
 Electrolysed. Aluminium is produced at the cathode and oxygen at the anode. The carbon anodes react
-With the oxygen and must be replaced periodically.
+with the oxygen and must be replaced periodically.
 
 Cathode: $\mathrm{Al^{3+} + 3e^- \to \mathrm{Al$
 
@@ -709,7 +709,7 @@ Anode: $2\mathrm{O^{2-} \to \mathrm{O_2 + 4e^-$
 
 **Electroplating:** The cathode is the object to be plated. The anode is made of the plating metal.
 The electrolyte contains ions of the plating metal. For example, to copper-plate a key, the key is
-The cathode, a copper bar is the anode, and the electrolyte is copper(II) sulfate solution.
+the cathode, a copper bar is the anode, and the electrolyte is copper(II) sulfate solution.
 
 ## 7. Types of Chemical Reaction Summary
 

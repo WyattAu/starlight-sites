@@ -230,7 +230,7 @@ Generally undefined across translation units [N4950 S6.6.3.2].
 ### 3. Binary Bloat Analysis
 
 If a binary is unexpectedly large, check the `.data` section. A large global array initialized to
-Non-zero values will bloat the file on disk.
+non-zero values will bloat the file on disk.
 
 - _Optimization:_ Initialize large arrays to zero (moves them to `.bss`).
 - _Optimization:_ Use `constexpr` to verify calculations happen at compile time, potentially
@@ -321,7 +321,7 @@ And `.bss` share a `PT_LOAD` segment mapped as Read+Write.
 
 This section contains **exception handling frame information** -- the data required for C++ stack
 Unwinding during exception propagation and for debuggers to walk the call stack. It is present even
-In `-fno-exceptions` builds because it is used by `std::terminate` and signal handlers.
+in `-fno-exceptions` builds because it is used by `std::terminate` and signal handlers.
 
 - **Format:** DWARF Call Frame Information (CFI).
 - **Size impact:** Can be 5-15% of binary size. The `.eh_frame_hdr` section provides a binary search
@@ -357,7 +357,7 @@ Returns respectively:
   `__libc_csu_fini`.
 The order of entries within `.init_array` is determined by the linker's input order of object files,
 Which is not guaranteed to be deterministic across builds or platforms. This is the root cause of
-The **Static Initialization Order Fiasco**.
+the **Static Initialization Order Fiasco**.
 
 ```cpp
 // BAD: relies on initialization order across TUs
@@ -427,7 +427,7 @@ The Windows equivalent of the GOT+PLT mechanism is the IAT. When a Windows execu
 Function from a DLL, the call goes through the IAT -- an array of function pointers that the loader
 Fills in when the DLL is loaded.
 Unlike ELF's lazy binding, Windows defaults to load-time binding (all IAT entries are resolved when
-The process starts). You can enable delay-load imports for DLLs that may not be needed:
+the process starts). You can enable delay-load imports for DLLs that may not be needed:
 
 ```cmake
 ## Delay-load a DLL
@@ -456,7 +456,7 @@ target_compile_options(app PRIVATE -ftls-model=initial-exec)
 ```
 
 Use `initial-exec` for performance-critical `thread_local` variables in executables. It breaks if
-The variable is accessed from a dynamically loaded shared library
+the variable is accessed from a dynamically loaded shared library
 ---
 
 ## Mach-O Structure in Depth
@@ -477,8 +477,8 @@ Mach-O uses **Load Commands** rather than section/program header tables. Key loa
 
 Unlike Linux, macOS and iOS require all executables and shared libraries to be cryptographically
 Signed. The `LC_CODE_SIGNATURE` load command points to a signature that covers specific ranges of
-The binary. Modifying any signed byte (including patching instructions) invalidates the signature
-And causes the OS to refuse to load the binary.
+the binary. Modifying any signed byte (including patching instructions) invalidates the signature
+and causes the OS to refuse to load the binary.
 This has implications for:
 
 - **JIT compilation:** Must use `MAP_JIT` with `pthread_jit_write_protect_np` on ARM64 macOS.
@@ -488,7 +488,7 @@ This has implications for:
 
 MacOS optimizes startup by pre-linking all system libraries into a single shared cache
 (`/System/Library/dyld/dyld_shared_cache`). This eliminates per-library symbol resolution overhead
-And reduces page faults. The cache is mapped read-only and shared across all processes
+and reduces page faults. The cache is mapped read-only and shared across all processes
 ---
 
 ## Stripping and Debug Information

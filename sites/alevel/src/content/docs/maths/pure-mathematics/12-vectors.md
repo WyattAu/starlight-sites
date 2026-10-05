@@ -115,7 +115,7 @@ Similarly, $\overrightarrow{BC} = \overrightarrow{OA} = \mathbf{a}$ So
 $\overrightarrow{OC} = \overrightarrow{OB} + \overrightarrow{BC} = \mathbf{b} + \mathbf{a}$.
 
 This proves $\mathbf{a} + \mathbf{b} = \mathbf{b} + \mathbf{a}$ (vector addition is commutative) and
-That the diagonal of the parallelogram represents the sum. $\blacksquare$
+that the diagonal of the parallelogram represents the sum. $\blacksquare$
 
 ### 3.3 Vector addition in 3D
 
@@ -201,7 +201,7 @@ This follows since $\cos(\pi/2) = 0$.
 
 **Intuition.** The dot product $\mathbf{a}\cdot\mathbf{b}$ measures the extent to which $\mathbf{a}$
 And $\mathbf{b}$ point in the same direction. It equals the product of the magnitude of $\mathbf{a}$
-And the **projection** of $\mathbf{b}$ onto $\mathbf{a}$:
+and the **projection** of $\mathbf{b}$ onto $\mathbf{a}$:
 $\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}| \cdot (\mathrm{shadow of }\mathbf{b}\mathrm{ on }\mathbf{a})$.
 If they are perpendicular, the shadow is zero. If they point the same way, the dot product is
 Positive; if opposite, negative.
@@ -324,7 +324,7 @@ To find the shortest distance from point $P$ to line $\mathbf{r} = \mathbf{a} + 
 ### 8.1 Formula for distance from a point to a line
 
 The above procedure yields the general formula. For a line through $A$ with direction $\mathbf{d}$
-And a point $P$ with position vector $\mathbf{p}$:
+and a point $P$ with position vector $\mathbf{p}$:
 
 $$
 d = \frac{|(\mathbf{p} - \mathbf{a}) \times \mathbf{d}|}{|\mathbf{d}|}
@@ -384,7 +384,7 @@ $$
 
 **Proof.** The vector $\mathbf{b}\times\mathbf{c}$ has magnitude
 $|\mathbf{b}||\mathbf{c}|\sin\theta$ equal to the area of the parallelogram with sides $\mathbf{b}$
-And $\mathbf{c}$ And direction perpendicular to both. The height of the parallelepiped is the
+and $\mathbf{c}$ And direction perpendicular to both. The height of the parallelepiped is the
 Projection of $\mathbf{a}$ onto $\mathbf{b}\times\mathbf{c}$ Which is $|\mathbf{a}|\cos\phi$ where
 $\phi$ is the angle between $\mathbf{a}$ and $\mathbf{b}\times\mathbf{c}$.
 

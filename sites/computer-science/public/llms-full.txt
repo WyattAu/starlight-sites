@@ -3761,7 +3761,7 @@ Subsequence starting at $a_i$.
 Suppose for contradiction that every monotone subsequence has length at most $n$. Then
 $1 \leq d_i \leq n$ and $1 \leq e_i \leq n$ So there are at most $n^2$ distinct ordered pairs
 $(d_i, e_i)$. Since we have $n^2 + 1$ elements, by the pigeonhole principle two indices $i \lt j$
-Have $(d_i, e_i) = (d_j, e_j)$.
+have $(d_i, e_i) = (d_j, e_j)$.
 
 If $a_i \lt a_j$ Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
 $a_j$), contradicting $d_i = d_j$.
@@ -3783,7 +3783,7 @@ at most $m$ objects, then the total number of objects is at most $km$.
 <summary>Solution</summary>
 
 There are 3 colours (boxes). By the generalised pigeonhole principle, drawing $n$ socks guarantees
-At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
+at least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
 $n \geq 10$.
 
 With 9 socks it is possible to have 3 of each colour (no colour reaches 4). With 10 socks, one
@@ -4200,7 +4200,7 @@ _Proof._ Each edge contributes 1 to the degree of each of its two endpoints. $\b
 ### 5.2 Paths, Cycles, and Connectivity
 
 A **walk** is a sequence of vertices where consecutive vertices are adjacent. A **path** is a walk
-With no repeated vertices. A **cycle** is a path that returns to its starting vertex.
+with no repeated vertices. A **cycle** is a path that returns to its starting vertex.
 
 A graph is **connected** if there is a path between every pair of vertices. A **connected
 component** Is a maximal connected subgraph.
@@ -4329,7 +4329,7 @@ $K_n$ (complete graph on $n$ vertices): every pair of vertices is adjacent, so a
 Receive distinct colours. Hence $\chi(K_n) = n$.
 
 $K_{m,n}$ (complete bipartite graph): no two vertices within the same partition are adjacent, so we
-Can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
+can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
 Hence $\chi(K_{m,n}) = 2$ (for $m, n \geq 1$).
 
 </details>
@@ -4351,7 +4351,7 @@ Checking: $P(K_3, 2) = 2 \cdot 1 \cdot 0 = 0$ (not 2-colourable, as expected). $
 ### 5.6 Euler and Hamilton Paths
 
 An **Euler path** visits every edge exactly once. An **Euler circuit** is an Euler path that starts
-And ends at the same vertex.
+and ends at the same vertex.
 
 **Theorem 5.14.** A connected graph has an Euler circuit if and only if every vertex has even
 degree. It has an Euler path (but not circuit) if and only if exactly two vertices have odd degree.
@@ -4369,7 +4369,7 @@ yields an Euler circuit of the full graph. $\blacksquare$
 <summary>Solution</summary>
 
 $K_{2,3}$ has 5 vertices. The two vertices in the first partition each have degree 3 (connected to
-All three in the second partition). The three vertices in the second partition each have degree 2.
+all three in the second partition). The three vertices in the second partition each have degree 2.
 
 Vertices of odd degree: two (each of degree 3). Since exactly two vertices have odd degree,
 $K_{2,3}$ has an Euler path (starting at one odd-degree vertex, ending at the other) but not an
@@ -4439,7 +4439,7 @@ Endpoint). A vertex is **matched** if it is an endpoint of an edge in $M$; other
 
 **Theorem 5.17 (Hall's Marriage Theorem, 1935).** Let $G = (V, E)$ be a bipartite graph with
 Partitions $X$ and $Y$. There exists a matching that covers every vertex in $X$ if and only if for
-Every subset $S \subseteq X$
+every subset $S \subseteq X$
 
 $$
 |N(S)| \geq |S|
@@ -4462,7 +4462,7 @@ the Strict inequality). By the induction hypothesis, $X \setminus \\{x\\}$ can b
 Adding $xy$ Gives the desired matching.
 
 _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. Match $T$ to $N(T)$
-By the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
+by the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
 $$
@@ -5044,7 +5044,7 @@ $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 Note $g \circ f \neq f \circ g$ So composition is not commutative.
 
 $g \circ f$ is not injective: $(g \circ f)(0) = 1$ and $(g \circ f)(-1) = 4(-1)^2 + 4(-1) + 1 = 1$
-But $0 \neq -1$.
+but $0 \neq -1$.
 
 If you get this wrong, revise: Section 2.3.
 
@@ -5503,7 +5503,7 @@ Suppose $S \neq \emptyset$. By WOP, $S$ has a least element $m$.
 Let $2^k$ be the largest power of 2 not exceeding $m$ (so $2^k \leq m \lt 2^{k+1}$). Then
 $m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$ Then $m = 2^k$ is a single power of 2,
 Contradicting $m \in S$. If $m - 2^k \gt 0$ Then $m - 2^k \lt m$ So $m - 2^k \notin S$ (by minimality
-Of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
+of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
 Gives $m$ as a sum of distinct powers of 2, contradicting $m \in S$. Therefore $S = \emptyset$.
 $\blacksquare$
 
@@ -6231,8 +6231,8 @@ classes.
 **Partial order:** reflexive, antisymmetric, transitive. Written $(A, \preceq)$.
 
 A **Hasse diagram** is a graphical representation of a finite poset $(A, \preceq)$: an element $a$
-Is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
-From $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
+is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
+from $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
 
 **Worked Example.** Show that $R$ on $\mathbb{Z}$ defined by $a\,R\,b$ iff
 $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence classes.
@@ -18131,7 +18131,7 @@ The RTT: $\mathrm{throughput} \leq \min(\mathrm{cwnd}, \mathrm{rwnd}) / \mathrm{
 
 _Proof._ The sender cannot have more than the window size in unacknowledged data. Each byte sent
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
-Per second. $\blacksquare$
+per second. $\blacksquare$
 
 :::caution
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
@@ -19874,7 +19874,7 @@ $\eta = T_f / (T_f + 5\tau) = 1 / (1 + 5a)$. $\blacksquare$
 
 When $a \ll 1$ (large frames or short distances), efficiency approaches 1. When $a$ approaches 1
 (short frames or long distances), efficiency drops significantly. This is why minimum frame sizes
-Are imposed.
+are imposed.
 
 ### 3.5 VLANs
 
@@ -19911,7 +19911,7 @@ Traffic.
 
 _Proof._ Circuit switching reserves the peak rate per connection. Packet switching uses statistical
 Multiplexing: the sum of peak rates can exceed link capacity as long as the average aggregate rate
-Does not. $\blacksquare$
+does not. $\blacksquare$
 
 **Switch forwarding methods.** A layer-2 switch can forward frames using two strategies:
 
@@ -21252,7 +21252,7 @@ $$
 Rate achievable on a channel of bandwidth $H$ with signal-to-noise ratio $\mathrm{SNR}$.
 
 _Proof._ For a bandlimited AWGN channel, the number of distinguishable signal levels is constrained
-By the noise power. Let $\mathrm{SNR} = S/N$ where $S$ is signal power and $N = N_0 H$ is noise
+by the noise power. Let $\mathrm{SNR} = S/N$ where $S$ is signal power and $N = N_0 H$ is noise
 Power. The number of distinguishable amplitude levels is proportional to $\sqrt{1 + \mathrm{SNR}}$.
 With $\log_2$ levels per signal element and $2H$ signal elements per second (Nyquist), the maximum
 Error-free rate is $C = 2H \cdot \tfrac{1}{2}\log_2(1 + \mathrm{SNR}) = H \log_2(1 + \mathrm{SNR})$.
@@ -21350,7 +21350,7 @@ Their signal.
 
 **Theorem 2.3 (QAM spectral efficiency).** An $M$-ary QAM scheme where $M = 2^{2k}$ has a spectral
 Efficiency of $2k$ bits/symbol, i.e., the bit rate equals $2k \times B$ where $B$ is the bandwidth
-In Hz.
+in Hz.
 
 _Proof._ QAM modulates both amplitude and phase of a carrier. With $M$ symbols, each symbol carries
 $\log_2 M = 2k$ bits. The symbol rate equals the bandwidth $B$ (Nyquist: 2 symbols/Hz for Baseband,
@@ -21379,7 +21379,7 @@ C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \appr
 $$
 
 The Nyquist-based rate (160 Mbps) is very close to the Shannon limit (159.6 Mbps), meaning 256-QAM
-Is near-optimal for this channel but has almost no margin for noise or interference.
+is near-optimal for this channel but has almost no margin for noise or interference.
 
 </details>
 
@@ -21968,7 +21968,7 @@ Acknowledgements, sequence numbers, and retransmission timers.
 _Proof._ TCP assigns each byte a sequence number. The receiver sends cumulative ACKs indicating the
 Next expected byte. If an ACK is not received within the RTO, the sender retransmits. Since the
 Receiver buffers out-of-order segments and only delivers in-order data to the application, and since
-Every byte is eventually acknowledged or retransmitted until acknowledged, all data is delivered
+every byte is eventually acknowledged or retransmitted until acknowledged, all data is delivered
 Exactly once and in order. $\blacksquare$
 
 ### 5.5 TCP Connection Management
@@ -22021,7 +22021,7 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 ### 5.6 Flow Control
 
 TCP uses a **sliding window**. The receiver advertises `rwnd` (receive window). The sender never has
-More than `rwnd` bytes of unacknowledged data in flight.
+more than `rwnd` bytes of unacknowledged data in flight.
 
 $$
 \mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})
@@ -26215,7 +26215,7 @@ Step 4: Public key: $(e, n) = (3, 55)$, Private key: $(d, n) = (27, 55)$
 Step 5: Decrypt $c = 2$: $m = c^d \bmod n = 2^{27} \bmod 55$
 $2^{27} = 134217728$
 $134217728 \div 55 = 2440322$ remainder $18$
-So $m = 18$
+so $m = 18$
 
 **Key insight:** RSA decryption works because $m^{ed} \equiv m \pmod{n}$ by Euler's theorem, since $ed \equiv 1 \pmod{\phi(n)}$.
 
@@ -27851,7 +27851,7 @@ via the network. This is the dominant architecture for distributed databases.
 ### 9.2 Distributed Transactions
 
 A distributed transaction involves operations on multiple nodes. The challenge is ensuring atomicity
-Across nodes.
+across nodes.
 
 **Two-Phase Commit (2PC).**
 
@@ -27864,7 +27864,7 @@ Across nodes.
 Permanently and the log is on stable storage.
 
 _Proof._ If the coordinator crashes after phase 1, participants that voted `YES` are blocked -- they
-Cannot decide without knowing the coordinator"s decision. Upon recovery, the coordinator reads its
+cannot decide without knowing the coordinator"s decision. Upon recovery, the coordinator reads its
 Log to determine the decision and notifies participants. Since each participant wrote its vote to
 Stable storage before responding, no vote is lost. $\blacksquare$
 
@@ -28923,7 +28923,7 @@ empty leaf with $[5]$. The merged leaf is $[5]$. The internal node $[10]$ now ha
 (the merged leaf), so it underflows.
 
 Since the internal node is a child of the root, and the root has two children, we can merge: remove
-The internal node and promote its remaining child to be a direct child of the root.
+the internal node and promote its remaining child to be a direct child of the root.
 
 ```
 Root: [30]
@@ -28979,7 +28979,7 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 ### 5.3 Bitmap Indexes
 
 A **bitmap index** creates one bitmap per distinct value of an attribute. For a table with $n$ rows
-And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
+and attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
 Bitmap $i$ has a 1 in position $j$ if row $j$ has $A = v_i$.
 
 **Use case:** Low-cardinality columns (gender, status, country). Bitmap indexes support fast bitwise
@@ -29100,7 +29100,7 @@ Committee) Architecture defines three levels of abstraction:
    compression, encryption). Includes data structures, access paths, and storage allocation.
 
 The DBMS maps between levels via the **external/conceptual mapping** (translates external views to
-The conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
+the conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
 Internal storage).
 
 **Data independence:**
@@ -29294,7 +29294,7 @@ Candidate key. Equivalently: every non-prime attribute is fully functionally dep
 Candidate key.
 
 A **partial dependency** is $A \to B$ where $A$ is a proper subset of a candidate key and $B$ is
-Non-prime.
+non-prime.
 
 **Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$ Either $X$ is a
 Superkey or $A$ is a prime attribute.
@@ -29324,7 +29324,7 @@ if $R_1 \cap R_2 \to R_1$ or $R_1 \cap R_2 \to R_2$.
 
 _Proof._ Let $r$ be an instance of $R$ and let $r_1 = \pi_{R_1}(r)$, $r_2 = \pi_{R_2}(r)$. We must
 Show $r = r_1 \bowtie r_2$ under the given condition. Since $r_1$ and $r_2$ are projections of $r$
-Every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
+every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
 show That no spurious tuple is produced. Suppose $(t_1, t_2) \in r_1 \bowtie r_2$ where
 $t_1 \in r_1$ and $t_2 \in r_2$. Since $t_1$ and $t_2$ agree on $R_1 \cap R_2$ And by the condition
 $R_1 \cap R_2 \to
@@ -29447,7 +29447,7 @@ lossless. $R_{2a} \cap R_{2b} = \varnothing$... This is problematic. $R_{2b} = \
 attributes with The others.
 
 The issue is that $C$ is a "dangling" attribute. This is correct -- $C$ appears only in the key $BC$
-Of the original relation but is not functionally determined by anything except the full key. The
+of the original relation but is not functionally determined by anything except the full key. The
 Decomposition is technically correct but $R_{2b} = \\{C\\}$ by itself cannot be joined losslessly
 with The others.
 
@@ -29482,7 +29482,7 @@ That holds on $R$, $X$ is a superkey.
 
 _Proof._ Every FD $X \to Y$ implies the MVD $X \twoheadrightarrow Y$. In 4NF, every non-trivial MVD
 $X \twoheadrightarrow Y$ requires $X$ to be a superkey. Therefore, every non-trivial FD $X \to Y$
-Also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
+also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
 
 **4NF decomposition.** Given $R$ with MVD $X \twoheadrightarrow Y$ where $X$ is not a superkey,
 Decompose into $R_1 = X \cup Y$ and $R_2 = R - Y$. The decomposition is lossless-join.
@@ -30378,7 +30378,7 @@ URL: https://computer-science.wyattau.com/4-databases/2_relational-model/
 ### 2.1 Relations, Tuples, Attributes
 
 A **relation** $R$ over attributes $A_1, \ldots, A_n$ is a set of tuples $(a_1, \ldots, a_n)$ where
-Each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
+each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
 $D_1 \times D_2 \times
 \cdots \times D_n$.
 
@@ -30611,19 +30611,19 @@ Then $\sigma_{\theta}(R \times S) \equiv \sigma_{\theta}(R) \times S$.
 
 _Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$ The condition $\theta$ depends only on
 $r$. Filtering $(r, s)$ by $\theta$ on $R \times S$ is equivalent to first filtering $R$ by $\theta$
-And then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
+and then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
 
 **Rule 4 (Selection pushdown through join).** If $\theta$ involves only attributes of $R$ Then
 $\sigma_{\theta}(R \bowtie S) \equiv \sigma_{\theta}(R) \bowtie S$.
 
 _Proof._ The join $R \bowtie S$ combines matching pairs from $R$ and $S$. Applying $\sigma_{\theta}$
-After the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
-Non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
+after the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
+non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
 
 **Rule 5 (Commutativity of joins).** $R \bowtie S \equiv S \bowtie R$.
 
 _Proof._ The natural join combines tuples agreeing on common attributes. This relation is symmetric
-In $R$ and $S$. $\blacksquare$
+in $R$ and $S$. $\blacksquare$
 
 **Rule 6 (Associativity of joins).** $(R \bowtie S) \bowtie T \equiv R \bowtie (S \bowtie T)$.
 
@@ -30846,7 +30846,7 @@ FROM Student;
 ```
 
 `PERCENT_RANK()` returns a value in $[0, 1]$ representing the fractional rank. `NTILE(4)` divides
-The partition into 4 approximately equal groups (quartiles).
+the partition into 4 approximately equal groups (quartiles).
 
 </details>
 
@@ -30924,7 +30924,7 @@ ORDER BY total_qty DESC;
 ```
 
 The recursive step multiplies the quantity at each level to accumulate the total needed quantity for
-Each sub-component.
+each sub-component.
 
 </details>
 
@@ -31135,7 +31135,7 @@ Access the same data item, and at least one is a write. A schedule is conflict-s
 
 _Proof sketch._ If the precedence graph has a cycle, no serial ordering can respect all the
 Precedence constraints, so the schedule is not conflict-serialisable. Conversely, a topological sort
-Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
+of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
 
 **View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
 Serial schedule $S"$. View equivalence requires:
@@ -31145,7 +31145,7 @@ Serial schedule $S"$. View equivalence requires:
 3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$ It does so in $S'$.
 
 Every conflict-serialisable schedule is view-serialisable, but the converse does not hold. Testing
-For view serialisability is NP-complete.
+for view serialisability is NP-complete.
 
 <details>
 <summary>Worked Example 6.1: Testing Conflict Serialisability</summary>
@@ -31528,7 +31528,7 @@ Safe sequence: $\langle P_3, P_1, P_0, P_4, P_2 \rangle$. The request is **grant
 Sequence of process completions that avoids deadlock.
 
 *Proof.* The safety algorithm constructs an explicit sequence. Each process in the sequence can run
-To completion with the currently available resources plus those released by previously completed
+to completion with the currently available resources plus those released by previously completed
 Processes. If no such sequence exists, there is a set of processes whose combined needs exceed
 Available resources. $\blacksquare$
 
@@ -31669,7 +31669,7 @@ A file of 10 blocks is stored on a disk. The disk has blocks at positions: 0 (fr
 (free), 6 (used), 7-9 (free), 10-15 (free), 16 (used), 17-31 (free).
 
 _Contiguous:_ Needs 10 consecutive free blocks. Largest free run is 16-31 (16 blocks). File stored
-At blocks 17--26. Access to block $k$: position $17 + k$.
+at blocks 17--26. Access to block $k$: position $17 + k$.
 
 _Linked:_ Blocks can be scattered. E.g., 2, 3, 4, 5, 7, 8, 9, 10, 11, 12. To read block 7, must
 Traverse 7 pointers.
@@ -32162,7 +32162,7 @@ User application
 
 **Driver loading.** Most modern OSes support loadable kernel modules (LKMs): drivers loaded at
 Runtime without rebooting. On Linux: `insmod``modprobe`. This allows third-party hardware support
-Without kernel recompilation.
+without kernel recompilation.
 
 ### 7.3 I/O Scheduling
 
@@ -32489,7 +32489,7 @@ a pure monolith. Examples: Windows NT, macOS XNU.
 ### 1.3 System Calls
 
 System calls provide the interface between user-mode applications and kernel-mode OS services. They
-Are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
+are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
 
 **Categories:**
 
@@ -32807,7 +32807,7 @@ critical.
 ### 5.6 Translation Lookaside Buffer (TLB)
 
 A **TLB** is a hardware cache of recently used page table entries, avoiding an extra memory access
-Per translation.
+per translation.
 
 $$
 \mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})
@@ -32892,7 +32892,7 @@ To changing access patterns.
 
 **Approximating LRU in practice.** Most OSes use a variant of Clock. Linux uses an LRU-like
 Approximation with **active** and **inactive** lists: pages on the active list are protected; pages
-Not accessed are demoted to the inactive list; eviction targets the inactive list.
+not accessed are demoted to the inactive list; eviction targets the inactive list.
 
 <details>
 <summary>Worked Example 5.3, Optimal Page Replacement</summary>
@@ -32988,7 +32988,7 @@ Same reference string, three frames. Clock hand starts at frame 0. R = reference
 | 1   | [7,R] [0,R] [1,R] | No     | Set R on F2                                                                                        |
 
 Total page faults: **15**. Clock performs worse than LRU here but requires only $O(1)$ per operation
-And no global ordering of references.
+and no global ordering of references.
 
 </details>
 
@@ -33046,7 +33046,7 @@ Time. $\blacksquare$
 
 **Copy-on-Write** is an optimisation for `fork()`. Instead of copying all pages, parent and child
 Share physical frames (marked read-only). On a write to a shared page, a fault triggers a copy of
-Just that page.
+just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
 - If the child immediately calls `exec()`No copies are ever made.
@@ -34769,7 +34769,7 @@ The scheduler triggers Ready → Running and Running → Ready (preemption). I/O
 
 A microkernel-based OS adds 2 $\mu$ S of message-passing overhead per system call compared to a
 Monolithic kernel. If a web server makes $10^6$ system calls per second, what is the total overhead
-As a fraction of CPU time on a 3 GHz processor?
+as a fraction of CPU time on a 3 GHz processor?
 
 **Solution.** (Revision: §1.2)
 
@@ -34877,7 +34877,7 @@ Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \r
 <summary>Problem 7, Critical Section</summary>
 
 Show that the following solution to the critical section problem is incorrect (Peterson's algorithm
-With the order of `flag[i] = true` and `turn = j` swapped):
+with the order of `flag[i] = true` and `turn = j` swapped):
 
 ```c
 // Process i:
@@ -34936,7 +34936,7 @@ while (count == BUFFER_SIZE) {
 
 Without `empty` and `full` semaphores, the producer must busy-wait or use condition variables.
 Semaphores provide **blocking** semantics: the producer blocks on `empty` when the buffer is full
-And is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
+and is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
 Busy-waiting (wasting CPU cycles) or requires the programmer to correctly implement the Wait/signal
 protocol, which is exactly what semaphores encapsulate.
 
@@ -35159,8 +35159,8 @@ Counterexample from the text (1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 3 vs 4 fra
 <summary>Problem 17, Working Set and Thrashing</summary>
 
 A system has 40 frames. Process $P_1$ has a working set of 15 pages, $P_2$ has 12 pages, and $P_3$
-Has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
-Of 8 pages is added?
+has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
+of 8 pages is added?
 
 **Solution.** (Revision: §5.8)
 
@@ -35168,7 +35168,7 @@ Without $P_4$: total working set = $15 + 12 + 18 = 45 \gt 40$. Thrashing occurs.
 can run concurrently (e.g., $P_1 + P_2 = 27 \leq 40$ Or $P_2 + P_3 = 30 \leq 40$).
 
 With $P_4$: total = $15 + 12 + 18 + 8 = 53 \gt 40$. Even worse. Using working set admission, we
-Would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
+would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
 $P_2 + P_3 =
 30$.
 
@@ -35523,7 +35523,7 @@ Using the same three processes with quantum $q = 4$:
 
 Round Robin eliminates the convoy effect but gives a higher average waiting time than SJF due to
 Preemption overhead. The turnaround time for $P_1$ is unchanged (the work must be done), but $P_2$
-And $P_3$ receive faster first response.
+and $P_3$ receive faster first response.
 
 </details>
 
@@ -36545,10 +36545,10 @@ $G$:
 3. Set the target: $k' = n + 2k$.
 
 The cover must include at least one endpoint of each variable-gadget edge ($n$ vertices) and at
-Least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
+least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
 Cover removes it from clause consideration; the remaining two triangle vertices must be in the
 Cover. The formula is satisfiable iff we can choose literal vertices such that each clause triangle
-Has at most one vertex already excluded. $\blacksquare$
+has at most one vertex already excluded. $\blacksquare$
 
 **Clique.** Given $G = (V, E)$ and integer $k$ Does $G$ contain a clique of size $k$?
 
@@ -37145,7 +37145,7 @@ $|w| \geq p$, $w$ can be decomposed as $w = uvxyz$ satisfying:
 3. $uv^ixy^iz \in L$ for all $i \geq 0$.
 
 _Proof._ Let $G$ be a CFG in CNF with $k$ variables. Any parse tree of height $h$ generates a string
-Of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
+of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
 some path repeats a variable. The substring generated between the two occurrences can be pumped.
 $\blacksquare$
 
@@ -37353,8 +37353,8 @@ Therefore $H$ cannot exist. $\blacksquare$
 **Theorem 5.2a.** $\overline{A_{\mathrm{TM}}$ is not Turing-recognisable.
 
 _Proof._ If $\overline{A_{\mathrm{TM}}$ were Turing-recognisable, then since $A_{\mathrm{TM}$ is
-Also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
-Must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
+also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
+must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
 
 ### 5.3 Reductions and Undecidability
 
@@ -37399,7 +37399,7 @@ Therefore: $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $L(M_w) \neq \emptyset$
 $\langle M_w \rangle \notin E_{\mathrm{TM}$.
 
 The reduction $f(\langle M, w \rangle) = \langle M_w \rangle$ is computable. So if $E_{\mathrm{TM}$
-Were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
+were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
 decidable, contradiction. $\blacksquare$
 
 </details>
@@ -37446,7 +37446,7 @@ steps).
 **Definition.** An instance of the **Post Correspondence Problem (PCP)** consists of two lists of
 Strings $\alpha = (\alpha_1, \ldots, \alpha_k)$ and $\beta = (\beta_1, \ldots, \beta_k)$ over some
 Alphabet $\Sigma$. A **solution** is a non-empty sequence of indices $i_1, i_2, \ldots, i_m$ such
-That:
+that:
 
 $$
 \alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}
@@ -37489,7 +37489,7 @@ Sequence corresponds to a valid accepting computation: the first tile starts the
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
 Tile allows termination only if an accept state is reached. Thus the PCP instance has a solution iff
 $M$ accepts $w$. The construction is computable, so if PCP were decidable, $A_{\mathrm{TM}}$ would
-Be decidable, contradiction. $\blacksquare$
+be decidable, contradiction. $\blacksquare$
 
 **Modified PCP (MPCP).** In the modified version, the first tile used must be tile 1. MPCP is also
 Undecidable, and the reduction from PCP to MPCP adds a "prefix" tile that forces tile 1 to be used
@@ -37507,7 +37507,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
-Non-relativising techniques, .../1-number-and-algebra/3_proof-and-logic methods that do not carry
+non-relativising techniques, .../1-number-and-algebra/3_proof-and-logic methods that do not carry
 over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$ Define the **halting problem relative to $A$**:
@@ -37953,7 +37953,7 @@ Design of algorithms, programming languages, compilers, and hardware.
 An **alphabet** $\Sigma$ is a finite, non-empty set of symbols (e.g., $\Sigma = \{0, 1\}$).
 
 A **string** (or word) over $\Sigma$ is a finite sequence of symbols from $\Sigma$. The empty string
-Is denoted $\varepsilon$.
+is denoted $\varepsilon$.
 
 **Notation:**
 
@@ -38029,7 +38029,7 @@ $|\mathcal{P}(S)| \gt |S|$ for any set $S$). $\blacksquare$
 **Theorem 1.2.** The set of all Turing machines is countable.
 
 _Proof._ Each TM has a finite description (its states, alphabet, and transition function). Encode
-This as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
+this as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
 
 **Corollary 1.3.** There exist languages that are not Turing-recognisable (in fact, uncountably Many
 such languages).
@@ -38780,7 +38780,7 @@ start To accept is the equivalent regex. $\blacksquare$
 **Thompson's construction.** The regex-to-NFA translation can be made fully explicit. For each
 Sub-expression of the regex, we build a small NFA fragment with exactly one entry and one exit
 State, connected by $\varepsilon$-transitions. The construction guarantees that the NFA has at most
-One accept state, no transitions into the start state, and no transitions out of the accept state.
+one accept state, no transitions into the start state, and no transitions out of the accept state.
 
 **Theorem 2.3a (Thompson's construction correctness).** For every regular expression $R$ over
 $\Sigma$ Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
@@ -38834,7 +38834,7 @@ Conversely, if $x \not\equiv_L y$ There exists $z$ with $xz \in L$ and $yz \noti
 so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$ Hence $x \not\sim y$.
 
 **(2) $\Rightarrow$ (3):** Trivial, since $L$ consists of all strings whose equivalence class is one
-That contains at least one string in $L$.
+that contains at least one string in $L$.
 
 **(3) $\Rightarrow$ (1):** Suppose $\equiv_L$ has finitely many equivalence classes
 $C_1, \ldots, C_k$. Construct a DFA with one state per equivalence class, start state
@@ -38907,7 +38907,7 @@ $|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
 
 _Proof._ Assume pumping length $p$. Let $w = 0^p 1 0^p 1 \in L$. Since $|xy| \leq p$, $y = 0^k$ for
-Some $k \gt 0$. Then $xy^0 z = 0^{p-k} 1 0^p 1 \notin L$ (the two halves have different lengths).
+some $k \gt 0$. Then $xy^0 z = 0^{p-k} 1 0^p 1 \notin L$ (the two halves have different lengths).
 $\blacksquare$
 
 **Example.** $L = \{0^n 1^m : n \neq m\}$ is not regular.
@@ -39044,16 +39044,16 @@ Q_{\mathrm{reject})}}$ where:
 - $q_{\mathrm{reject} \in Q$ is the reject state ($q_{\mathrm{accept} \neq q_{\mathrm{reject}$).
 
 The TM has an infinite tape (initially containing the input followed by blanks), a read/write head
-That moves left or right, and a finite control. At each step, based on the current state and symbol
-Under the head, it writes a symbol, moves the head, and changes state.
+that moves left or right, and a finite control. At each step, based on the current state and symbol
+under the head, it writes a symbol, moves the head, and changes state.
 
 $M$ **accepts** input $w$ if the computation halts in $q_{\mathrm{accept}$. $M$ **rejects** $w$ if
-It halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
+it halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
 
 The **language recognised** by $M$ is $L(M) = \{w : M \mathrm{ accepts  w\}$.
 
 A language is **Turing-recognisable** (recursively enumerable) if some TM recognises it. A language
-Is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
+is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
 
 ### 4.2 TM Variants
 
@@ -39073,8 +39073,8 @@ $\delta : Q \times \Gamma \to \mathcal{P}(Q \times \Gamma \times \{L, R\})$. The
 **Theorem 4.2.** Every nondeterministic TM has an equivalent deterministic TM.
 
 _Proof._ Simulate the NTM using breadth-first search on the computation tree. Each level of the tree
-Has at most $b$ branches (where $b$ is the maximum number of choices). After $n$ steps, the tree has
-At most $b^n$ nodes. The simulation visits nodes in order, using a 3-tape DTM: tape 1 stores the
+has at most $b$ branches (where $b$ is the maximum number of choices). After $n$ steps, the tree has
+at most $b^n$ nodes. The simulation visits nodes in order, using a 3-tape DTM: tape 1 stores the
 Input, tape 2 simulates the current branch, tape 3 tracks the address of the current node in the
 Tree. The simulation runs in $O(b^n)$ times the NTM's time, which is exponential overhead.
 $\blacksquare$
@@ -39090,7 +39090,7 @@ $\varepsilon, 0, 1, 00, 01, 10, 11$ for 3 steps, and so on. Whenever $M$ accepts
 String. Every string in $L$ is eventually printed.
 
 ($\Leftarrow$) Given enumerator $E$ for $L$ Construct TM $M$ that on input $w$ runs $E$ and checks
-Each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
+each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
 Printed, so $M$ recognises $L$. $\blacksquare$
 
 ### 4.3 Church-Turing Thesis
@@ -41929,7 +41929,7 @@ $$
 Rate achievable on a channel of bandwidth $H$ with signal-to-noise ratio $\mathrm{SNR}$.
 
 _Proof._ For a bandlimited AWGN channel, the number of distinguishable signal levels is constrained
-By the noise power. Let $\mathrm{SNR} = S/N$ where $S$ is signal power and $N = N_0 H$ is noise
+by the noise power. Let $\mathrm{SNR} = S/N$ where $S$ is signal power and $N = N_0 H$ is noise
 Power. The number of distinguishable amplitude levels is proportional to $\sqrt{1 + \mathrm{SNR}}$.
 With $\log_2$ levels per signal element and $2H$ signal elements per second (Nyquist), the maximum
 Error-free rate is $C = 2H \cdot \tfrac{1}{2}\log_2(1 + \mathrm{SNR}) = H \log_2(1 + \mathrm{SNR})$.
@@ -42028,7 +42028,7 @@ Their signal.
 
 **Theorem 2.3 (QAM spectral efficiency).** An $M$-ary QAM scheme where $M = 2^{2k}$ has a spectral
 Efficiency of $2k$ bits/symbol, i.e., the bit rate equals $2k \times B$ where $B$ is the bandwidth
-In Hz.
+in Hz.
 
 _Proof._ QAM modulates both amplitude and phase of a carrier. With $M$ symbols, each symbol carries
 $\log_2 M = 2k$ bits. The symbol rate equals the bandwidth $B$ (Nyquist: 2 symbols/Hz for Baseband,
@@ -42057,7 +42057,7 @@ C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \appr
 $$
 
 The Nyquist-based rate (160 Mbps) is very close to the Shannon limit (159.6 Mbps), meaning 256-QAM
-Is near-optimal for this channel but has almost no margin for noise or interference.
+is near-optimal for this channel but has almost no margin for noise or interference.
 
 </details>
 
@@ -42360,7 +42360,7 @@ $\eta = T_f / (T_f + 5\tau) = 1 / (1 + 5a)$. $\blacksquare$
 
 When $a \ll 1$ (large frames or short distances), efficiency approaches 1. When $a$ approaches 1
 (short frames or long distances), efficiency drops significantly. This is why minimum frame sizes
-Are imposed.
+are imposed.
 
 ### 3.5 VLANs
 
@@ -42397,7 +42397,7 @@ Traffic.
 
 _Proof._ Circuit switching reserves the peak rate per connection. Packet switching uses statistical
 Multiplexing: the sum of peak rates can exceed link capacity as long as the average aggregate rate
-Does not. $\blacksquare$
+does not. $\blacksquare$
 
 **Switch forwarding methods.** A layer-2 switch can forward frames using two strategies:
 
@@ -42872,7 +42872,7 @@ Acknowledgements, sequence numbers, and retransmission timers.
 _Proof._ TCP assigns each byte a sequence number. The receiver sends cumulative ACKs indicating the
 Next expected byte. If an ACK is not received within the RTO, the sender retransmits. Since the
 Receiver buffers out-of-order segments and only delivers in-order data to the application, and since
-Every byte is eventually acknowledged or retransmitted until acknowledged, all data is delivered
+every byte is eventually acknowledged or retransmitted until acknowledged, all data is delivered
 Exactly once and in order. $\blacksquare$
 
 ### 5.5 TCP Connection Management
@@ -42925,7 +42925,7 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 ### 5.6 Flow Control
 
 TCP uses a **sliding window**. The receiver advertises `rwnd` (receive window). The sender never has
-More than `rwnd` bytes of unacknowledged data in flight.
+more than `rwnd` bytes of unacknowledged data in flight.
 
 $$
 \mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})
@@ -43302,7 +43302,7 @@ The RTT: $\mathrm{throughput} \leq \min(\mathrm{cwnd}, \mathrm{rwnd}) / \mathrm{
 
 _Proof._ The sender cannot have more than the window size in unacknowledged data. Each byte sent
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
-Per second. $\blacksquare$
+per second. $\blacksquare$
 
 :::caution
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
@@ -43766,7 +43766,7 @@ Committee) Architecture defines three levels of abstraction:
    compression, encryption). Includes data structures, access paths, and storage allocation.
 
 The DBMS maps between levels via the **external/conceptual mapping** (translates external views to
-The conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
+the conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
 Internal storage).
 
 **Data independence:**
@@ -43809,7 +43809,7 @@ Flexible schemas are paramount. The choice depends on the workload, not on a bla
 ### 2.1 Relations, Tuples, Attributes
 
 A **relation** $R$ over attributes $A_1, \ldots, A_n$ is a set of tuples $(a_1, \ldots, a_n)$ where
-Each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
+each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
 $D_1 \times D_2 \times
 \cdots \times D_n$.
 
@@ -44042,19 +44042,19 @@ Then $\sigma_{\theta}(R \times S) \equiv \sigma_{\theta}(R) \times S$.
 
 _Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$ The condition $\theta$ depends only on
 $r$. Filtering $(r, s)$ by $\theta$ on $R \times S$ is equivalent to first filtering $R$ by $\theta$
-And then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
+and then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
 
 **Rule 4 (Selection pushdown through join).** If $\theta$ involves only attributes of $R$ Then
 $\sigma_{\theta}(R \bowtie S) \equiv \sigma_{\theta}(R) \bowtie S$.
 
 _Proof._ The join $R \bowtie S$ combines matching pairs from $R$ and $S$. Applying $\sigma_{\theta}$
-After the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
-Non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
+after the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
+non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
 
 **Rule 5 (Commutativity of joins).** $R \bowtie S \equiv S \bowtie R$.
 
 _Proof._ The natural join combines tuples agreeing on common attributes. This relation is symmetric
-In $R$ and $S$. $\blacksquare$
+in $R$ and $S$. $\blacksquare$
 
 **Rule 6 (Associativity of joins).** $(R \bowtie S) \bowtie T \equiv R \bowtie (S \bowtie T)$.
 
@@ -44236,7 +44236,7 @@ FROM Student;
 ```
 
 `PERCENT_RANK()` returns a value in $[0, 1]$ representing the fractional rank. `NTILE(4)` divides
-The partition into 4 approximately equal groups (quartiles).
+the partition into 4 approximately equal groups (quartiles).
 
 </details>
 
@@ -44314,7 +44314,7 @@ ORDER BY total_qty DESC;
 ```
 
 The recursive step multiplies the quantity at each level to accumulate the total needed quantity for
-Each sub-component.
+each sub-component.
 
 </details>
 
@@ -44468,7 +44468,7 @@ Candidate key. Equivalently: every non-prime attribute is fully functionally dep
 Candidate key.
 
 A **partial dependency** is $A \to B$ where $A$ is a proper subset of a candidate key and $B$ is
-Non-prime.
+non-prime.
 
 **Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$ Either $X$ is a
 Superkey or $A$ is a prime attribute.
@@ -44498,7 +44498,7 @@ if $R_1 \cap R_2 \to R_1$ or $R_1 \cap R_2 \to R_2$.
 
 _Proof._ Let $r$ be an instance of $R$ and let $r_1 = \pi_{R_1}(r)$, $r_2 = \pi_{R_2}(r)$. We must
 Show $r = r_1 \bowtie r_2$ under the given condition. Since $r_1$ and $r_2$ are projections of $r$
-Every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
+every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
 show That no spurious tuple is produced. Suppose $(t_1, t_2) \in r_1 \bowtie r_2$ where
 $t_1 \in r_1$ and $t_2 \in r_2$. Since $t_1$ and $t_2$ agree on $R_1 \cap R_2$ And by the condition
 $R_1 \cap R_2 \to
@@ -44621,7 +44621,7 @@ lossless. $R_{2a} \cap R_{2b} = \varnothing$... This is problematic. $R_{2b} = \
 attributes with The others.
 
 The issue is that $C$ is a "dangling" attribute. This is correct -- $C$ appears only in the key $BC$
-Of the original relation but is not functionally determined by anything except the full key. The
+of the original relation but is not functionally determined by anything except the full key. The
 Decomposition is technically correct but $R_{2b} = \\{C\\}$ by itself cannot be joined losslessly
 with The others.
 
@@ -44657,7 +44657,7 @@ That holds on $R$, $X$ is a superkey.
 
 _Proof._ Every FD $X \to Y$ implies the MVD $X \twoheadrightarrow Y$. In 4NF, every non-trivial MVD
 $X \twoheadrightarrow Y$ requires $X$ to be a superkey. Therefore, every non-trivial FD $X \to Y$
-Also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
+also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
 
 **4NF decomposition.** Given $R$ with MVD $X \twoheadrightarrow Y$ where $X$ is not a superkey,
 Decompose into $R_1 = X \cup Y$ and $R_2 = R - Y$. The decomposition is lossless-join.
@@ -44815,7 +44815,7 @@ empty leaf with $[5]$. The merged leaf is $[5]$. The internal node $[10]$ now ha
 (the merged leaf), so it underflows.
 
 Since the internal node is a child of the root, and the root has two children, we can merge: remove
-The internal node and promote its remaining child to be a direct child of the root.
+the internal node and promote its remaining child to be a direct child of the root.
 
 ```
 Root: [30]
@@ -44871,7 +44871,7 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 ### 5.3 Bitmap Indexes
 
 A **bitmap index** creates one bitmap per distinct value of an attribute. For a table with $n$ rows
-And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
+and attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
 Bitmap $i$ has a 1 in position $j$ if row $j$ has $A = v_i$.
 
 **Use case:** Low-cardinality columns (gender, status, country). Bitmap indexes support fast bitwise
@@ -44979,7 +44979,7 @@ Access the same data item, and at least one is a write. A schedule is conflict-s
 
 _Proof sketch._ If the precedence graph has a cycle, no serial ordering can respect all the
 Precedence constraints, so the schedule is not conflict-serialisable. Conversely, a topological sort
-Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
+of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
 
 **View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
 Serial schedule $S'$. View equivalence requires:
@@ -44989,7 +44989,7 @@ Serial schedule $S'$. View equivalence requires:
 3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$ It does so in $S'$.
 
 Every conflict-serialisable schedule is view-serialisable, but the converse does not hold. Testing
-For view serialisability is NP-complete.
+for view serialisability is NP-complete.
 
 <details>
 <summary>Worked Example 6.1: Testing Conflict Serialisability</summary>
@@ -45383,7 +45383,7 @@ via the network. This is the dominant architecture for distributed databases.
 ### 9.2 Distributed Transactions
 
 A distributed transaction involves operations on multiple nodes. The challenge is ensuring atomicity
-Across nodes.
+across nodes.
 
 **Two-Phase Commit (2PC).**
 
@@ -45396,7 +45396,7 @@ Across nodes.
 Permanently and the log is on stable storage.
 
 _Proof._ If the coordinator crashes after phase 1, participants that voted `YES` are blocked -- they
-Cannot decide without knowing the coordinator's decision. Upon recovery, the coordinator reads its
+cannot decide without knowing the coordinator's decision. Upon recovery, the coordinator reads its
 Log to determine the decision and notifies participants. Since each participant wrote its vote to
 Stable storage before responding, no vote is lost. $\blacksquare$
 
@@ -46108,8 +46108,8 @@ classes.
 **Partial order:** reflexive, antisymmetric, transitive. Written $(A, \preceq)$.
 
 A **Hasse diagram** is a graphical representation of a finite poset $(A, \preceq)$: an element $a$
-Is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
-From $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
+is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
+from $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
 
 **Worked Example.** Show that $R$ on $\mathbb{Z}$ defined by $a\,R\,b$ iff
 $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence classes.
@@ -46410,7 +46410,7 @@ Suppose $S \neq \emptyset$. By WOP, $S$ has a least element $m$.
 Let $2^k$ be the largest power of 2 not exceeding $m$ (so $2^k \leq m \lt 2^{k+1}$). Then
 $m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$ Then $m = 2^k$ is a single power of 2,
 Contradicting $m \in S$. If $m - 2^k \gt 0$ Then $m - 2^k \lt m$ So $m - 2^k \notin S$ (by minimality
-Of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
+of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
 Gives $m$ as a sum of distinct powers of 2, contradicting $m \in S$. Therefore $S = \emptyset$.
 $\blacksquare$
 
@@ -46573,7 +46573,7 @@ Subsequence starting at $a_i$.
 Suppose for contradiction that every monotone subsequence has length at most $n$. Then
 $1 \leq d_i \leq n$ and $1 \leq e_i \leq n$ So there are at most $n^2$ distinct ordered pairs
 $(d_i, e_i)$. Since we have $n^2 + 1$ elements, by the pigeonhole principle two indices $i \lt j$
-Have $(d_i, e_i) = (d_j, e_j)$.
+have $(d_i, e_i) = (d_j, e_j)$.
 
 If $a_i \lt a_j$ Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
 $a_j$), contradicting $d_i = d_j$.
@@ -46595,7 +46595,7 @@ at most $m$ objects, then the total number of objects is at most $km$.
 <summary>Solution</summary>
 
 There are 3 colours (boxes). By the generalised pigeonhole principle, drawing $n$ socks guarantees
-At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
+at least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
 $n \geq 10$.
 
 With 9 socks it is possible to have 3 of each colour (no colour reaches 4). With 10 socks, one
@@ -46718,7 +46718,7 @@ _Proof._ Each edge contributes 1 to the degree of each of its two endpoints. $\b
 ### 5.2 Paths, Cycles, and Connectivity
 
 A **walk** is a sequence of vertices where consecutive vertices are adjacent. A **path** is a walk
-With no repeated vertices. A **cycle** is a path that returns to its starting vertex.
+with no repeated vertices. A **cycle** is a path that returns to its starting vertex.
 
 A graph is **connected** if there is a path between every pair of vertices. A **connected
 component** Is a maximal connected subgraph.
@@ -46847,7 +46847,7 @@ $K_n$ (complete graph on $n$ vertices): every pair of vertices is adjacent, so a
 Receive distinct colours. Hence $\chi(K_n) = n$.
 
 $K_{m,n}$ (complete bipartite graph): no two vertices within the same partition are adjacent, so we
-Can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
+can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
 Hence $\chi(K_{m,n}) = 2$ (for $m, n \geq 1$).
 
 </details>
@@ -46869,7 +46869,7 @@ Checking: $P(K_3, 2) = 2 \cdot 1 \cdot 0 = 0$ (not 2-colourable, as expected). $
 ### 5.6 Euler and Hamilton Paths
 
 An **Euler path** visits every edge exactly once. An **Euler circuit** is an Euler path that starts
-And ends at the same vertex.
+and ends at the same vertex.
 
 **Theorem 5.14.** A connected graph has an Euler circuit if and only if every vertex has even
 degree. It has an Euler path (but not circuit) if and only if exactly two vertices have odd degree.
@@ -46887,7 +46887,7 @@ yields an Euler circuit of the full graph. $\blacksquare$
 <summary>Solution</summary>
 
 $K_{2,3}$ has 5 vertices. The two vertices in the first partition each have degree 3 (connected to
-All three in the second partition). The three vertices in the second partition each have degree 2.
+all three in the second partition). The three vertices in the second partition each have degree 2.
 
 Vertices of odd degree: two (each of degree 3). Since exactly two vertices have odd degree,
 $K_{2,3}$ has an Euler path (starting at one odd-degree vertex, ending at the other) but not an
@@ -46958,7 +46958,7 @@ Endpoint). A vertex is **matched** if it is an endpoint of an edge in $M$; other
 
 **Theorem 5.17 (Hall's Marriage Theorem, 1935).** Let $G = (V, E)$ be a bipartite graph with
 Partitions $X$ and $Y$. There exists a matching that covers every vertex in $X$ if and only if for
-Every subset $S \subseteq X$
+every subset $S \subseteq X$
 
 $$
 |N(S)| \geq |S|
@@ -46981,7 +46981,7 @@ the Strict inequality). By the induction hypothesis, $X \setminus \\{x\\}$ can b
 Adding $xy$ Gives the desired matching.
 
 _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. Match $T$ to $N(T)$
-By the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
+by the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
 $$
@@ -47347,7 +47347,7 @@ $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 Note $g \circ f \neq f \circ g$ So composition is not commutative.
 
 $g \circ f$ is not injective: $(g \circ f)(0) = 1$ and $(g \circ f)(-1) = 4(-1)^2 + 4(-1) + 1 = 1$
-But $0 \neq -1$.
+but $0 \neq -1$.
 
 If you get this wrong, revise: Section 2.3.
 
@@ -48459,7 +48459,7 @@ a pure monolith. Examples: Windows NT, macOS XNU.
 ### 1.3 System Calls
 
 System calls provide the interface between user-mode applications and kernel-mode OS services. They
-Are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
+are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
 
 **Categories:**
 
@@ -48637,7 +48637,7 @@ Using the same three processes with quantum $q = 4$:
 
 Round Robin eliminates the convoy effect but gives a higher average waiting time than SJF due to
 Preemption overhead. The turnaround time for $P_1$ is unchanged (the work must be done), but $P_2$
-And $P_3$ receive faster first response.
+and $P_3$ receive faster first response.
 
 </details>
 
@@ -49155,7 +49155,7 @@ Safe sequence: $\langle P_3, P_1, P_0, P_4, P_2 \rangle$. The request is **grant
 Sequence of process completions that avoids deadlock.
 
 _Proof._ The safety algorithm constructs an explicit sequence. Each process in the sequence can run
-To completion with the currently available resources plus those released by previously completed
+to completion with the currently available resources plus those released by previously completed
 Processes. If no such sequence exists, there is a set of processes whose combined needs exceed
 Available resources. $\blacksquare$
 
@@ -49349,7 +49349,7 @@ critical.
 ### 5.6 Translation Lookaside Buffer (TLB)
 
 A **TLB** is a hardware cache of recently used page table entries, avoiding an extra memory access
-Per translation.
+per translation.
 
 $$
 \mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})
@@ -49434,7 +49434,7 @@ To changing access patterns.
 
 **Approximating LRU in practice.** Most OSes use a variant of Clock. Linux uses an LRU-like
 Approximation with **active** and **inactive** lists: pages on the active list are protected; pages
-Not accessed are demoted to the inactive list; eviction targets the inactive list.
+not accessed are demoted to the inactive list; eviction targets the inactive list.
 
 <details>
 <summary>Worked Example 5.3, Optimal Page Replacement</summary>
@@ -49530,7 +49530,7 @@ Same reference string, three frames. Clock hand starts at frame 0. R = reference
 | 1   | [7,R] [0,R] [1,R] | No     | Set R on F2                                                                                        |
 
 Total page faults: **15**. Clock performs worse than LRU here but requires only $O(1)$ per operation
-And no global ordering of references.
+and no global ordering of references.
 
 </details>
 
@@ -49589,7 +49589,7 @@ Time. $\blacksquare$
 
 **Copy-on-Write** is an optimisation for `fork()`. Instead of copying all pages, parent and child
 Share physical frames (marked read-only). On a write to a shared page, a fault triggers a copy of
-Just that page.
+just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
 - If the child immediately calls `exec()`No copies are ever made.
@@ -49646,7 +49646,7 @@ A file of 10 blocks is stored on a disk. The disk has blocks at positions: 0 (fr
 (free), 6 (used), 7-9 (free), 10-15 (free), 16 (used), 17-31 (free).
 
 _Contiguous:_ Needs 10 consecutive free blocks. Largest free run is 16-31 (16 blocks). File stored
-At blocks 17--26. Access to block $k$: position $17 + k$.
+at blocks 17--26. Access to block $k$: position $17 + k$.
 
 _Linked:_ Blocks can be scattered. E.g., 2, 3, 4, 5, 7, 8, 9, 10, 11, 12. To read block 7, must
 Traverse 7 pointers.
@@ -49852,7 +49852,7 @@ User application
 
 **Driver loading.** Most modern OSes support loadable kernel modules (LKMs): drivers loaded at
 Runtime without rebooting. On Linux: `insmod``modprobe`. This allows third-party hardware support
-Without kernel recompilation.
+without kernel recompilation.
 
 ### 7.3 I/O Scheduling
 
@@ -50101,7 +50101,7 @@ The scheduler triggers Ready → Running and Running → Ready (preemption). I/O
 
 A microkernel-based OS adds 2 $\mu$ S of message-passing overhead per system call compared to a
 Monolithic kernel. If a web server makes $10^6$ system calls per second, what is the total overhead
-As a fraction of CPU time on a 3 GHz processor?
+as a fraction of CPU time on a 3 GHz processor?
 
 **Solution.** (Revision: §1.2)
 
@@ -50209,7 +50209,7 @@ Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \r
 <summary>Problem 7, Critical Section</summary>
 
 Show that the following solution to the critical section problem is incorrect (Peterson's algorithm
-With the order of `flag[i] = true` and `turn = j` swapped):
+with the order of `flag[i] = true` and `turn = j` swapped):
 
 ```c
 // Process i:
@@ -50268,7 +50268,7 @@ while (count == BUFFER_SIZE) {
 
 Without `empty` and `full` semaphores, the producer must busy-wait or use condition variables.
 Semaphores provide **blocking** semantics: the producer blocks on `empty` when the buffer is full
-And is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
+and is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
 Busy-waiting (wasting CPU cycles) or requires the programmer to correctly implement the Wait/signal
 protocol, which is exactly what semaphores encapsulate.
 
@@ -50491,8 +50491,8 @@ Counterexample from the text (1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 3 vs 4 fra
 <summary>Problem 17, Working Set and Thrashing</summary>
 
 A system has 40 frames. Process $P_1$ has a working set of 15 pages, $P_2$ has 12 pages, and $P_3$
-Has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
-Of 8 pages is added?
+has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
+of 8 pages is added?
 
 **Solution.** (Revision: §5.8)
 
@@ -50500,7 +50500,7 @@ Without $P_4$: total working set = $15 + 12 + 18 = 45 \gt 40$. Thrashing occurs.
 can run concurrently (e.g., $P_1 + P_2 = 27 \leq 40$ Or $P_2 + P_3 = 30 \leq 40$).
 
 With $P_4$: total = $15 + 12 + 18 + 8 = 53 \gt 40$. Even worse. Using working set admission, we
-Would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
+would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
 $P_2 + P_3 =
 30$.
 
@@ -51592,7 +51592,7 @@ Design of algorithms, programming languages, compilers, and hardware.
 An **alphabet** $\Sigma$ is a finite, non-empty set of symbols (e.g., $\Sigma = \{0, 1\}$).
 
 A **string** (or word) over $\Sigma$ is a finite sequence of symbols from $\Sigma$. The empty string
-Is denoted $\varepsilon$.
+is denoted $\varepsilon$.
 
 **Notation:**
 
@@ -51668,7 +51668,7 @@ $|\mathcal{P}(S)| \gt |S|$ for any set $S$). $\blacksquare$
 **Theorem 1.2.** The set of all Turing machines is countable.
 
 _Proof._ Each TM has a finite description (its states, alphabet, and transition function). Encode
-This as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
+this as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
 
 **Corollary 1.3.** There exist languages that are not Turing-recognisable (in fact, uncountably Many
 such languages).
@@ -51861,7 +51861,7 @@ start To accept is the equivalent regex. $\blacksquare$
 **Thompson's construction.** The regex-to-NFA translation can be made fully explicit. For each
 Sub-expression of the regex, we build a small NFA fragment with exactly one entry and one exit
 State, connected by $\varepsilon$-transitions. The construction guarantees that the NFA has at most
-One accept state, no transitions into the start state, and no transitions out of the accept state.
+one accept state, no transitions into the start state, and no transitions out of the accept state.
 
 **Theorem 2.3a (Thompson's construction correctness).** For every regular expression $R$ over
 $\Sigma$ Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
@@ -51915,7 +51915,7 @@ Conversely, if $x \not\equiv_L y$ There exists $z$ with $xz \in L$ and $yz \noti
 so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$ Hence $x \not\sim y$.
 
 **(2) $\Rightarrow$ (3):** Trivial, since $L$ consists of all strings whose equivalence class is one
-That contains at least one string in $L$.
+that contains at least one string in $L$.
 
 **(3) $\Rightarrow$ (1):** Suppose $\equiv_L$ has finitely many equivalence classes
 $C_1, \ldots, C_k$. Construct a DFA with one state per equivalence class, start state
@@ -51988,7 +51988,7 @@ $|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
 
 _Proof._ Assume pumping length $p$. Let $w = 0^p 1 0^p 1 \in L$. Since $|xy| \leq p$, $y = 0^k$ for
-Some $k \gt 0$. Then $xy^0 z = 0^{p-k} 1 0^p 1 \notin L$ (the two halves have different lengths).
+some $k \gt 0$. Then $xy^0 z = 0^{p-k} 1 0^p 1 \notin L$ (the two halves have different lengths).
 $\blacksquare$
 
 **Example.** $L = \{0^n 1^m : n \neq m\}$ is not regular.
@@ -52334,7 +52334,7 @@ $|w| \geq p$, $w$ can be decomposed as $w = uvxyz$ satisfying:
 3. $uv^ixy^iz \in L$ for all $i \geq 0$.
 
 _Proof._ Let $G$ be a CFG in CNF with $k$ variables. Any parse tree of height $h$ generates a string
-Of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
+of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
 some path repeats a variable. The substring generated between the two occurrences can be pumped.
 $\blacksquare$
 
@@ -52449,16 +52449,16 @@ Q_{\mathrm{reject})}}$ where:
 - $q_{\mathrm{reject} \in Q$ is the reject state ($q_{\mathrm{accept} \neq q_{\mathrm{reject}$).
 
 The TM has an infinite tape (initially containing the input followed by blanks), a read/write head
-That moves left or right, and a finite control. At each step, based on the current state and symbol
-Under the head, it writes a symbol, moves the head, and changes state.
+that moves left or right, and a finite control. At each step, based on the current state and symbol
+under the head, it writes a symbol, moves the head, and changes state.
 
 $M$ **accepts** input $w$ if the computation halts in $q_{\mathrm{accept}$. $M$ **rejects** $w$ if
-It halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
+it halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
 
 The **language recognised** by $M$ is $L(M) = \{w : M \mathrm{ accepts  w\}$.
 
 A language is **Turing-recognisable** (recursively enumerable) if some TM recognises it. A language
-Is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
+is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
 
 ### 4.2 TM Variants
 
@@ -52478,8 +52478,8 @@ $\delta : Q \times \Gamma \to \mathcal{P}(Q \times \Gamma \times \{L, R\})$. The
 **Theorem 4.2.** Every nondeterministic TM has an equivalent deterministic TM.
 
 _Proof._ Simulate the NTM using breadth-first search on the computation tree. Each level of the tree
-Has at most $b$ branches (where $b$ is the maximum number of choices). After $n$ steps, the tree has
-At most $b^n$ nodes. The simulation visits nodes in order, using a 3-tape DTM: tape 1 stores the
+has at most $b$ branches (where $b$ is the maximum number of choices). After $n$ steps, the tree has
+at most $b^n$ nodes. The simulation visits nodes in order, using a 3-tape DTM: tape 1 stores the
 Input, tape 2 simulates the current branch, tape 3 tracks the address of the current node in the
 Tree. The simulation runs in $O(b^n)$ times the NTM's time, which is exponential overhead.
 $\blacksquare$
@@ -52495,7 +52495,7 @@ $\varepsilon, 0, 1, 00, 01, 10, 11$ for 3 steps, and so on. Whenever $M$ accepts
 String. Every string in $L$ is eventually printed.
 
 ($\Leftarrow$) Given enumerator $E$ for $L$ Construct TM $M$ that on input $w$ runs $E$ and checks
-Each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
+each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
 Printed, so $M$ recognises $L$. $\blacksquare$
 
 ### 4.3 Church-Turing Thesis
@@ -52681,8 +52681,8 @@ Therefore $H$ cannot exist. $\blacksquare$
 **Theorem 5.2a.** $\overline{A_{\mathrm{TM}}$ is not Turing-recognisable.
 
 _Proof._ If $\overline{A_{\mathrm{TM}}$ were Turing-recognisable, then since $A_{\mathrm{TM}$ is
-Also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
-Must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
+also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
+must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
 
 ### 5.3 Reductions and Undecidability
 
@@ -52727,7 +52727,7 @@ Therefore: $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $L(M_w) \neq \emptyset$
 $\langle M_w \rangle \notin E_{\mathrm{TM}$.
 
 The reduction $f(\langle M, w \rangle) = \langle M_w \rangle$ is computable. So if $E_{\mathrm{TM}$
-Were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
+were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
 decidable, contradiction. $\blacksquare$
 
 </details>
@@ -52775,7 +52775,7 @@ steps).
 **Definition.** An instance of the **Post Correspondence Problem (PCP)** consists of two lists of
 Strings $\alpha = (\alpha_1, \ldots, \alpha_k)$ and $\beta = (\beta_1, \ldots, \beta_k)$ over some
 Alphabet $\Sigma$. A **solution** is a non-empty sequence of indices $i_1, i_2, \ldots, i_m$ such
-That:
+that:
 
 $$
 \alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}
@@ -52818,7 +52818,7 @@ Sequence corresponds to a valid accepting computation: the first tile starts the
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
 Tile allows termination only if an accept state is reached. Thus the PCP instance has a solution iff
 $M$ accepts $w$. The construction is computable, so if PCP were decidable, $A_{\mathrm{TM}}$ would
-Be decidable, contradiction. $\blacksquare$
+be decidable, contradiction. $\blacksquare$
 
 **Modified PCP (MPCP).** In the modified version, the first tile used must be tile 1. MPCP is also
 Undecidable, and the reduction from PCP to MPCP adds a "prefix" tile that forces tile 1 to be used
@@ -52836,7 +52836,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
-Non-relativising techniques, proof methods that do not carry over in the presence of oracles.
+non-relativising techniques, proof methods that do not carry over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$ Define the **halting problem relative to $A$**:
 
@@ -53064,10 +53064,10 @@ $G$:
 3. Set the target: $k' = n + 2k$.
 
 The cover must include at least one endpoint of each variable-gadget edge ($n$ vertices) and at
-Least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
+least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
 Cover removes it from clause consideration; the remaining two triangle vertices must be in the
 Cover. The formula is satisfiable iff we can choose literal vertices such that each clause triangle
-Has at most one vertex already excluded. $\blacksquare$
+has at most one vertex already excluded. $\blacksquare$
 
 **Clique.** Given $G = (V, E)$ and integer $k$ Does $G$ contain a clique of size $k$?
 

@@ -126,7 +126,7 @@ $$
 $$
 
 This is a quadratic in $\lambda$ that is non-negative for all $\lambda$ So its discriminant must be
-Non-positive:
+non-positive:
 
 $$
 (\langle[\Delta\hat{A}, \Delta\hat{B}]\rangle)^2 - 4\sigma_A^2\sigma_B^2 \leq 0
@@ -207,7 +207,7 @@ $\blacksquare$
 Classical limit (large quantum numbers or $\hbar \to 0$), quantum expectation values follow
 Classical trajectories. However, this is only exact for linear or quadratic potentials; for general
 Potentials, $\langle V'(x) \rangle \neq V'(\langle x \rangle)$ So quantum corrections persist even
-For large systems.
+for large systems.
 
 ### 4.6 Solving Eigenvalue Equations
 

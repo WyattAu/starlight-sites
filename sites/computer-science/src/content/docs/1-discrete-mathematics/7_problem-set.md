@@ -108,7 +108,7 @@ $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 Note $g \circ f \neq f \circ g$ So composition is not commutative.
 
 $g \circ f$ is not injective: $(g \circ f)(0) = 1$ and $(g \circ f)(-1) = 4(-1)^2 + 4(-1) + 1 = 1$
-But $0 \neq -1$.
+but $0 \neq -1$.
 
 If you get this wrong, revise: Section 2.3.
 

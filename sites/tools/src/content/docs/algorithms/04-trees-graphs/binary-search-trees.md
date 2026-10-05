@@ -150,7 +150,7 @@ graph TD
 
 For $n$ distinct keys inserted in random order, the expected height of a BST is approximately
 $2 \ln n \approx 1.39 \log_2 n$. This is only about 39% taller than a perfectly balanced tree, but
-The worst case (sorted input) gives height $n$.
+the worst case (sorted input) gives height $n$.
 
 ### Traversals
 
@@ -237,7 +237,7 @@ $$
 $$
 
 After every insertion or deletion, we walk back up from the modified node to the root, rebalancing
-As needed. The balance factor must be in $\{-1, 0, 1\}$ for every node.
+as needed. The balance factor must be in $\{-1, 0, 1\}$ for every node.
 
 ### Rotations
 
@@ -414,7 +414,7 @@ $F_k \approx \phi^k / \sqrt{5}$ We get $h \le c \log_\phi(n)$ for some constant 
 
 :::note
 Rotations in the worst case, because a deletion can increase the height difference at each ancestor
-Along the path to the root.
+along the path to the root.
 
 ## Red-Black Trees
 
@@ -440,7 +440,7 @@ Internal nodes has height at most $2 \log_2(n+1)$.
 **Proof sketch**: the shortest path from root to leaf has only black nodes (length = bh), and the
 Longest has alternating red-black (length = 2 \cdot bh). Since at least half the nodes on any
 Root-to-leaf path are black, the height $h \le 2 \cdot \mathrm{bh$. A tree with black-height $b$ has
-At least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$ Giving $h \le 2 \log_2(n+1)$.
+at least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$ Giving $h \le 2 \log_2(n+1)$.
 
 ### Node Definition
 
@@ -696,7 +696,7 @@ class BTree:
 ## B+ Trees
 
 A B+ tree is a variant of the B-tree used in database systems and file systems. All data is stored
-In the leaf nodes, and internal nodes contain only keys for navigation.
+in the leaf nodes, and internal nodes contain only keys for navigation.
 
 ### Differences from B-Trees
 
@@ -762,7 +762,7 @@ Leaf pages form a doubly-linked list, enabling both forward and backward scans.
 ## Splay Trees
 
 A splay tree is a self-adjusting BST that has no explicit balance information. Instead, it moves the
-Most recently accessed node to the root using a series of rotations called a **splay operation**.
+most recently accessed node to the root using a series of rotations called a **splay operation**.
 
 ### Splay Operation
 
@@ -858,7 +858,7 @@ class SplayTree:
 
 The splay operation has amortised cost $O(\log n)$ using the **potential method**. Define the
 Potential of node $x$ with rank $r(x) = \lfloor \log_2(\mathrm{size(x)) \rfloor$. The amortised cost
-Of a splay is bounded by $1 + 3(r(\mathrm{root) - r(x)) = O(\log n)$.
+of a splay is bounded by $1 + 3(r(\mathrm{root) - r(x)) = O(\log n)$.
 
 The **access lemma** states that the amortised cost of splaying node $x$ is at most
 $3(\log_2 n - \log_2(\mathrm{size(x))) + 1$ Which means frequently accessed nodes move toward the
@@ -874,7 +874,7 @@ tree. This means splay trees are within a constant factor of optimal for any acc
 
 A treap (tree + heap) is a BST ordered by key with heap ordering on randomly assigned priorities.
 Each node has a key and a priority; the BST property holds for keys, and the min-heap property holds
-For priorities.
+for priorities.
 
 ```python
 import random
@@ -1091,7 +1091,7 @@ Errors during rotation.
 ### 4. B-Tree Node Size Selection
 
 Choosing the node size requires understanding the hardware. On a disk-based system, the node size
-Should match the disk block size ( 4 KB). In memory, larger nodes may benefit from cache Line
+should match the disk block size ( 4 KB). In memory, larger nodes may benefit from cache Line
 effects. A node that fits in a single cache line (64 bytes) enables single-instruction Comparisons
 for the entire node.
 
@@ -1099,7 +1099,7 @@ for the entire node.
 
 While splay trees have $O(\log n)$ amortised performance, individual operations can take $O(n)$
 Time. If you need strict worst-case guarantees, use AVL or red-black trees instead. Splay trees are
-Also not suitable for real-time systems where latency spikes are unacceptable.
+also not suitable for real-time systems where latency spikes are unacceptable.
 
 ### 6. Treap Priority Collisions
 

@@ -198,7 +198,7 @@ $$
 $$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
-Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
+non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
 inconsistent.
 
 _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._

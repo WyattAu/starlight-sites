@@ -41,7 +41,7 @@ HL, with additional material at HL level.
 ### 1. Number and Algebra
 
 This foundational topic covers the properties of number systems, algebraic manipulation, sequences
-And series, and the binomial theorem. It provides the algebraic tools required across all other
+and series, and the binomial theorem. It provides the algebraic tools required across all other
 Topics.
 
 - **SL content:** Arithmetic and geometric sequences and series, sigma notation, the binomial
@@ -232,7 +232,7 @@ $\mathbf{b} = \begin{pmatrix} 4 \\ -1 \\ 2 \end{pmatrix}$.
 ### 4. Statistics and Probability
 
 This topic covers descriptive statistics, probability theory, and statistical inference. It develops
-The ability to collect, analyse, and interpret data.
+the ability to collect, analyse, and interpret data.
 
 - **SL content:** Collection and organisation of data, measures of central tendency and dispersion,
   grouped data, cumulative frequency diagrams, box plots, probability (sample space, mutually
@@ -441,7 +441,7 @@ $\displaystyle\int_a^b f(x)\,dx = F(b) - F(a)$
 ## Approaches to Problem-Solving
 
 IB Mathematics AA rewards clear, logical reasoning. The following strategies are applicable across
-All topics:
+all topics:
 
 - **Show all working:** Examination marks are awarded for method as well as for the final answer. An
   unexplained result receives no credit, even if numerically correct.

@@ -20,7 +20,7 @@ description: 'A sequence in to a limit if for Every There exists such that Compr
 ### 2.1 Convergence
 
 A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
-Every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
+every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
 
 $$
 |a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
@@ -44,7 +44,7 @@ A contradiction. $\blacksquare$
 **Proposition 2.2.** Every convergent sequence is bounded.
 
 _Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$ There exists $N$ such that $|a_n - L| \lt 1$ for
-All $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
+all $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
 $M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$. Then $|a_n| \leq M$ for all $n$.
 $\blacksquare$
 
@@ -84,7 +84,7 @@ $$
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
 _Proof._ Let $a_n \to L$. Given $\varepsilon > 0$ Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
-For all $n \geq N$. Then for $m, n \geq N$:
+for all $n \geq N$. Then for $m, n \geq N$:
 $|a_n - a_m| \leq |a_n - L| + |a_m - L| \lt \varepsilon$. $\blacksquare$
 
 **Theorem 2.5 (Cauchy Completeness of $\mathbb{R}$).** Every Cauchy sequence in $\mathbb{R}$
@@ -149,7 +149,7 @@ $$
 
 _Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. Taking supremum over
 $n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
-The right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
+the right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
 
 **Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$ In which case the
 Common value equals $\lim a_n$.
@@ -161,7 +161,7 @@ Since $\varepsilon > 0$ is arbitrary, $\limsup a_n \leq L$. Similarly $\liminf a
 with Proposition 2.5, $\liminf a_n = \limsup a_n = L$.
 
 Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$ There exists $N_1$
-With $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
+with $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
 $\inf_{k \geq n} a_k > L - \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
 

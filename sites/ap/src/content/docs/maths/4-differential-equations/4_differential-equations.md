@@ -24,7 +24,7 @@ categories:
 
 A **differential equation** (DE) is an equation that relates a function to one or more of its
 Derivatives. The **order** of a DE is the highest derivative that appears. A first-order DE involves
-Only $\frac{dy}{dx}$; a second-order DE involves $\frac{d^2y}{dx^2}$.
+only $\frac{dy}{dx}$; a second-order DE involves $\frac{d^2y}{dx^2}$.
 
 A **solution** to a DE is a function that satisfies the equation. A **general solution** contains
 Arbitrary constants ( equal to the order of the DE), while a **particular solution** Satisfies
@@ -182,7 +182,7 @@ $$
 Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$ We get $k = -\frac{\ln 2}{T_{1/2}}$.
 
 The half-life is a constant: no matter when you start measuring, the time for the quantity to halve
-Is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
+is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
 :::
 
 :::note[Example]
@@ -588,7 +588,7 @@ Equilibria: $y = 0$, $y = 2$, $y = 5$.
 ## Bifurcation Analysis (CED Unit 7.9)
 
 A **bifurcation** occurs when a small change in a parameter of the DE causes a qualitative change in
-The equilibrium structure.
+the equilibrium structure.
 
 Consider the one-parameter family:
 

@@ -25,7 +25,7 @@ categories:
 ### Definition
 
 A **stack** is a linear data structure that follows the **Last In, First Out (LIFO)** principle: the
-Most recently added element is the first to be removed.
+most recently added element is the first to be removed.
 
 ### Abstract Data Type
 
@@ -261,7 +261,7 @@ def evaluate_rpn(tokens):
 **Correctness proof.** We prove by induction on the number of tokens processed.
 
 _Invariant._ After processing $k$ tokens, the stack contains the values of all sub-expressions that
-Have been fully read but whose results have not yet been consumed by a parent operator. The stack
+have been fully read but whose results have not yet been consumed by a parent operator. The stack
 Bottom corresponds to the leftmost unprocessed sub-expression.
 
 _Base case._ $k = 0$: stack is empty. The invariant holds .
@@ -481,7 +481,7 @@ Are balanced.
 
 (_If_) Suppose the parentheses are balanced. Then every `)` matches a previous `(`. By the
 Well-formedness of balanced parentheses, when we encounter a `)`There is always a matching `(` on
-The stack (otherwise the prefix would have more `)` than `(`Contradicting balance). At the end, All
+the stack (otherwise the prefix would have more `)` than `(`Contradicting balance). At the end, All
 `(` have been matched, so the stack is empty.
 
 (_Only if_) Suppose the algorithm returns "balanced" (stack empty at end, no underflow). No
@@ -533,7 +533,7 @@ Text editor.
 <summary>Answer</summary>
 
 Each action in the editor (typing, deleting, formatting) can be represented as a state change. When
-The user performs "undo", we need to reverse the **most recent** action, this is exactly LIFO
+the user performs "undo", we need to reverse the **most recent** action, this is exactly LIFO
 Behaviour. Pushing each action onto a stack and popping on undo reverses actions in the Correct
 order. A queue would undo the **oldest** action first, which is not the desired behaviour.
 
@@ -710,7 +710,7 @@ Final queue: **`[20, 25, 30]`** (front = 20).
 <summary>Hint</summary>
 
 Remember that `rear = (rear + 1) % capacity` and `front = (front + 1) % capacity`. The queue is full
-When `size == capacity`.
+when `size == capacity`.
 
 </details>
 
@@ -758,7 +758,7 @@ Performance and memory characteristics.
 
 **Array-based preferable:** When the maximum stack depth is known in advance (e.g., recursion depth
 In a parser with known grammar). The contiguous memory layout gives better cache performance, and
-There is no per-element pointer overhead.
+there is no per-element pointer overhead.
 
 **Linked-list-based preferable:** When the maximum stack depth is unpredictable and could be very
 Large (e.g., a web browser's back-navigation stack that grows with user browsing). No need to
@@ -802,7 +802,7 @@ Processed.
 <summary>Hint</summary>
 
 Process each token left to right. Operands are pushed; operators pop two operands, compute, and push
-The result.
+the result.
 
 </details>
 
@@ -908,7 +908,7 @@ ENDFUNCTION
 
 **Problem 10.** (Exam-style) A software company is building two features: (A) a web browser's
 Back/forward navigation system, and (B) a customer support ticket system where tickets are answered
-In the order they are received. For each feature, recommend whether a stack or a queue is the most
+in the order they are received. For each feature, recommend whether a stack or a queue is the most
 Appropriate data structure. Justify your answer by explaining why the chosen structure's ordering
 Principle matches the feature's requirements, and explain why the alternative structure would be
 Incorrect. Include a discussion of how each structure would be implemented (array-based or
@@ -928,15 +928,15 @@ First (LIFO) or the oldest item (FIFO)?
 **(A) Browser back/forward navigation, Stack**
 
 The back button must return to the **most recently visited** page, not the first page visited. This
-Is LIFO behaviour, a stack.
+is LIFO behaviour, a stack.
 
 Implementation: **Linked-list-based stack**. The number of pages visited is unpredictable and could
-Be very large. A linked list avoids pre-allocating a fixed capacity and eliminates the risk of
+be very large. A linked list avoids pre-allocating a fixed capacity and eliminates the risk of
 Overflow. Push (visit a page) and pop (go back) are both $O(1)$. Two stacks are used: one for the
 Back history and one for the forward history.
 
 Why a queue would be wrong: A queue would return the user to the **first** page visited, not the
-Most recent. This would make the back button navigate to the homepage every time, which is
+most recent. This would make the back button navigate to the homepage every time, which is
 Incorrect.
 
 **(B) Customer support tickets, Queue**

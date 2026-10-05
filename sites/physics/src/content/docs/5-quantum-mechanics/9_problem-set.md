@@ -20,7 +20,7 @@ description: "(Photoelectric effect) A sodium surface has work function eV. When
 ### Problems
 
 **1.** (Photoelectric effect) A sodium surface has work function $\phi = 2.28$ eV. When illuminated
-With light of wavelength $\lambda = 400$ nm, find (a) the maximum kinetic energy of emitted
+with light of wavelength $\lambda = 400$ nm, find (a) the maximum kinetic energy of emitted
 Electrons, and (b) the stopping potential.
 
 **2.** (Compton scattering) X-rays of wavelength $0.071$ nm are scattered at $\theta = 45°$ from a
@@ -46,7 +46,7 @@ What does this imply about the probability distribution?
 zero Otherwise). Find $\langle x \rangle$, $\langle x^2 \rangle$ And $\langle p^2 \rangle$.
 
 **7.** (Hermitian operators) Prove that the momentum operator $\hat{p} = -i\hbar\,d/dx$ is Hermitian
-On the space of wave functions that vanish at infinity. What boundary conditions are required? Show
+on the space of wave functions that vanish at infinity. What boundary conditions are required? Show
 by counterexample that $\hat{p}$ is not Hermitian if the boundary terms do not vanish.
 
 **8.** (Uncertainty principle) For the harmonic oscillator ground state
@@ -57,7 +57,7 @@ symmetry.
 
 **9.** (Eigenvalue problem) Find the eigenvalues and normalised eigenvectors of the matrix
 $\hat{A} = \begin{pmatrix}3 & 1\\1 & 3\end{pmatrix}$. Verify that the eigenvectors are orthogonal
-And that they form a complete basis for $\mathbb{C}^2$. Generalise: what are the eigenvalues of
+and that they form a complete basis for $\mathbb{C}^2$. Generalise: what are the eigenvalues of
 $\begin{pmatrix}a & b\\b & a\end{pmatrix}$?
 
 **10.** (Infinite square well) A particle is in the ground state of an infinite square well of Width
@@ -83,7 +83,7 @@ $\hat{L}_+|l,l\rangle = 0$ and hence derive the normalisation constant for $\hat
 
 **15.** (Hydrogen atom) Calculate $\langle r \rangle$, $\langle r^2 \rangle$ And
 $\langle 1/r \rangle$ for the hydrogen atom ground state $\psi_{100}$. Compare $\langle r \rangle$
-With the Bohr radius $a_0$. Use the virial theorem to relate $\langle T \rangle$ and
+with the Bohr radius $a_0$. Use the virial theorem to relate $\langle T \rangle$ and
 $\langle V \rangle$ for The Coulomb potential.
 
 **16.** (Spin) An electron is in the spin state

@@ -868,7 +868,7 @@ echo "Full restoration time: $((END - START)) seconds"
 ### Recovery Point Objective (RPO)
 
 RPO defines the maximum acceptable data loss measured in time. If your RPO is 1 hour, you can afford
-To lose up to 1 hour of data.
+to lose up to 1 hour of data.
 
 ```bash
 # Calculate actual RPO from snapshot schedule

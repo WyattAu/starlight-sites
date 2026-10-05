@@ -1684,18 +1684,18 @@ Grades H6 and above.
 ## Using These Notes
 
 These notes are structured by subject and topic. Each topic covers material relevant to both Higher
-And Ordinary Level, with the level indicated. Worked examples, common pitfalls, and practice
+and Ordinary Level, with the level indicated. Worked examples, common pitfalls, and practice
 Questions are included throughout.
 
 :::tip
 Questions. For Higher Level students, pay particular attention to the proofs and derivations, as
-These frequently appear on the examination.
+these frequently appear on the examination.
 :::
 
 ## State Examinations Commission (SEC)
 
 The SEC is the statutory body responsible for the development, administration, and accreditation of
-The State examinations in Ireland. Its website at [examinations.ie](https://www.examinations.ie)
+the State examinations in Ireland. Its website at [examinations.ie](https://www.examinations.ie)
 Provides past examination papers, marking schemes, and chief examiner reports -- all invaluable
 Resources for revision.
 
@@ -1913,7 +1913,7 @@ Produces two genetically identical daughter cells. Used for growth and repair.
 ### Meiosis (HL)
 
 Produces four genetically different daughter cells (gametes) with half the chromosome number. Used
-For sexual reproduction.
+for sexual reproduction.
 
 **Key features:**
 
@@ -1992,7 +1992,7 @@ From 10 to 37$^{\circ}$C, the rate increases because higher temperature means mo
 So more enzyme-substrate collisions per unit time. At 37$^{\circ}$C, the rate is maximum. Above
 37$^{\circ}$C, the rate decreases because the enzyme begins to denature -- the active site changes
 Shape and the substrate can no longer bind. At 60$^{\circ}$C, the enzyme is completely denatured and
-The rate is zero.
+the rate is zero.
 
 ## Photosynthesis (OL/HL)
 
@@ -2187,7 +2187,7 @@ Enzyme-substrate complex is more stable than the enzyme alone.
 Maltase catalyses the hydrolysis of maltose into glucose but does not catalyse the hydrolysis of
 Sucrose. Both are disaccharides, but they have different structures. The active site of maltase is
 Complementary to the specific shape and arrangement of functional groups in maltose. Sucrose does
-Not fit into the active site, so no enzyme-substrate complex forms and no reaction occurs. This
+not fit into the active site, so no enzyme-substrate complex forms and no reaction occurs. This
 Demonstrates the specificity of enzyme action.
 
 ## Review: Osmosis -- Worked Examples
@@ -2198,7 +2198,7 @@ A red blood cell with an internal solute concentration of 0.9% is placed in a 0.
 
 The external solution (0.3%) is hypotonic (lower solute concentration) relative to the cell (0.9%).
 Water moves into the cell by osmosis. Since animal cells have no rigid cell wall, the cell swells
-And eventually bursts (lysis). This is why intravenous drips must use isotonic saline (0.9% NaCl) to
+and eventually bursts (lysis). This is why intravenous drips must use isotonic saline (0.9% NaCl) to
 Prevent red blood cells from being damaged.
 
 **Worked Example 2: Plant cells.**
@@ -2212,7 +2212,7 @@ Cell wall. The cell wall exerts an inward pressure (wall pressure) that eventual
 Osmotic pressure, and no further net water movement occurs. The cell is now fully turgid.
 
 If the same cell were placed in a solution with a water potential of -1000 kPa, water would move out
-Of the cell. The vacuole would shrink and the cell membrane would pull away from the cell wall
+of the cell. The vacuole would shrink and the cell membrane would pull away from the cell wall
 (plasmolysis). The cell would become flaccid.
 
 ## Review: Photosynthesis -- The Light-Independent Reactions (Calvin Cycle)
@@ -2423,7 +2423,7 @@ Calvin cycle. $\mathrm{O_2$ (a product of the light-dependent reactions) diffuse
 Path.
 
 The opening and closing of stomata is controlled by guard cells. When guard cells are turgid (full
-Of water), the stomata open; when they are flaccid (low water), the stomata close. This is a
+of water), the stomata open; when they are flaccid (low water), the stomata close. This is a
 Compromise: open stomata allow gas exchange for photosynthesis but also allow water loss by
 Transpiration.
 
@@ -3082,7 +3082,7 @@ The carrying capacity is the maximum population size that the environment can su
 **Worked Example: Exponential growth calculation.**
 
 A population of bacteria starts with 1000 cells and has a growth rate $r = 0.5$ per hour. What is
-The population after 10 hours?
+the population after 10 hours?
 
 $N = N_0 e^{rt} = 1000 \times e^{0.5 \times 10} = 1000 \times e^5 \approx 1000 \times 148.4 = 148,413$
 Cells.
@@ -3273,7 +3273,7 @@ Resource to reduce direct competition).
 
 Two species of warbler (birds) live in the same tree. Species A feeds on insects near the top of the
 Tree canopy, while species B feeds on insects near the trunk. Although both species eat insects from
-The same tree, they partition the resource spatially (different parts of the tree). This reduces
+the same tree, they partition the resource spatially (different parts of the tree). This reduces
 Direct competition and allows both species to coexist.
 
 ## Review: Human Impact on Ecosystems -- Detailed Case Studies
@@ -3295,12 +3295,12 @@ Board) has begun to transition away from peat harvesting towards renewable energ
 **Case study: Overfishing.**
 
 Overfishing occurs when fish are caught faster than they can reproduce. This depletes fish stocks
-And disrupts marine food webs.
+and disrupts marine food webs.
 
 **Example:** Atlantic cod stocks in the Grand Banks (off Newfoundland, Canada) collapsed in the
 Early 1990s after decades of overfishing. The cod population has not recovered despite a fishing
 Moratorium, demonstrating that ecosystems can be pushed beyond a tipping point from which recovery
-Is very slow or impossible.
+is very slow or impossible.
 
 **Solutions:** Fishing quotas, minimum mesh sizes (to allow young fish to escape), marine protected
 Areas where fishing is banned, and sustainable certification schemes (e.g., Marine Stewardship
@@ -3350,7 +3350,7 @@ A population of bacteria is grown in a flask with a fixed amount of nutrient. Th
 Rapidly at first (exponential phase), then the growth rate slows as nutrients are depleted and waste
 Products accumulate (deceleration phase). Eventually, the population stabilises (stationary phase)
 As the birth rate equals the death rate. The population size at this point is the carrying capacity
-For the flask. If the nutrients are not replenished, the population will decline (death phase) as
+for the flask. If the nutrients are not replenished, the population will decline (death phase) as
 Waste products become toxic.
 
 ## Review: Ecological Succession
@@ -3378,7 +3378,7 @@ Volcanic lava.
 
 Secondary succession occurs where an existing community has been disturbed (e.g., after a forest
 Fire, abandoned farmland, or clear-felling). The soil is already present, so succession proceeds
-More rapidly than primary succession.
+more rapidly than primary succession.
 
 **Worked Example: Succession on a sand dune (common in Irish ecology).**
 
@@ -3412,7 +3412,7 @@ Type of biome.
 
 Ireland's temperate maritime climate (mild winters, cool summers, high rainfall) supports temperate
 Deciduous woodland as the natural climax community. However, much of Ireland's original woodland has
-Been cleared for agriculture, and grassland is now the dominant vegetation type. Raised bogs and
+been cleared for agriculture, and grassland is now the dominant vegetation type. Raised bogs and
 Blanket bogs are significant Irish ecosystems that are rare internationally.
 
 **Worked Example: Adaptations of plants to different biomes.**
@@ -3587,7 +3587,7 @@ The estimated population is 400 woodlice.
 Each species occupies a unique ecological niche -- its role in the ecosystem, including the
 Resources it uses, its interactions with other species, and the environmental conditions it
 Requires. The competitive exclusion principle states that two species cannot coexist indefinitely if
-They occupy exactly the same niche. One species will outcompete the other, leading to competitive
+they occupy exactly the same niche. One species will outcompete the other, leading to competitive
 Exclusion.
 
 In practice, closely related species often coexist because they have slightly different niches
@@ -3597,7 +3597,7 @@ Different heights in the canopy, reducing direct competition.
 **The carbon cycle:**
 
 Carbon is the backbone of all organic molecules. The carbon cycle describes the movement of carbon
-Between the atmosphere, biosphere, oceans, and geosphere.
+between the atmosphere, biosphere, oceans, and geosphere.
 
 **Key processes in the carbon cycle:**
 
@@ -3762,7 +3762,7 @@ Newly synthesised strand.
 **Worked Example: DNA replication fork.**
 
 At a replication fork, the two strands of DNA are separated. DNA polymerase can only synthesise in
-The 5' to 3' direction. On the leading strand (oriented 3' to 5'), synthesis is continuous. On the
+the 5' to 3' direction. On the leading strand (oriented 3' to 5'), synthesis is continuous. On the
 Lagging strand (oriented 5' to 3'), synthesis must be discontinuous because DNA polymerase can only
 Move along the template in one direction.
 
@@ -3905,7 +3905,7 @@ Steps:
 ### The Principle
 
 For a large, randomly mating population with no mutation, migration, or natural selection, allele
-And genotype frequencies remain constant from generation to generation.
+and genotype frequencies remain constant from generation to generation.
 
 $$
 P + q = 1
@@ -4096,7 +4096,7 @@ $28 + 22 = 50\%$.
 
 Each strand of the original DNA molecule serves as a template for the synthesis of a new
 Complementary strand. After replication, each daughter DNA molecule contains one original strand and
-One new strand.
+one new strand.
 
 **Key enzymes:**
 
@@ -4176,7 +4176,7 @@ That produces more offspring that survive to reproduce is more "fit" than one th
 
 This is a classic example of directional selection: the antibiotic creates a strong selection
 Pressure that favours the resistant phenotype. The problem is worsened by the overuse of antibiotics
-In medicine and agriculture.
+in medicine and agriculture.
 
 ## Review: Evidence for Evolution
 
@@ -4261,7 +4261,7 @@ Variation.
 
 **Example:** Human birth weight. Babies with very low or very high birth weights have higher
 Mortality. The intermediate birth weight (approximately 3.5 kg) has the highest survival rate. This
-Is stabilising selection maintaining the average birth weight.
+is stabilising selection maintaining the average birth weight.
 
 ### Disruptive Selection
 
@@ -4270,8 +4270,8 @@ Distinct phenotypes in the population.
 
 **Example:** In African seedcracker finches, birds with very large or very small beaks are favoured
 Because the available seeds are either very large or very small. Birds with intermediate beaks are
-Less efficient at handling either seed type and have lower fitness. Over time, disruptive selection
-Can lead to the population splitting into two distinct groups.
+less efficient at handling either seed type and have lower fitness. Over time, disruptive selection
+can lead to the population splitting into two distinct groups.
 
 ### Allopatric Speciation
 
@@ -4318,7 +4318,7 @@ Equilibrium.
 **Worked Example 2: Cystic fibrosis carrier frequency.**
 
 Cystic fibrosis is an autosomal recessive disorder. The incidence is approximately 1 in 2500 births
-In some populations.
+in some populations.
 
 $q^2 = 1/2500 = 0.0004$.
 
@@ -4344,7 +4344,7 @@ Observed: AA = 400, Aa = 200, aa = 400.
 
 The observed frequencies do not match the expected Hardy-Weinberg frequencies. There is a
 Significant excess of homozygotes (AA and aa) and a deficit of heterozygotes. This pattern suggests
-Non-random mating, such as inbreeding or positive assortative mating (individuals with similar
+non-random mating, such as inbreeding or positive assortative mating (individuals with similar
 Genotypes preferentially mate with each other).
 
 Using the chi-squared test:
@@ -4361,14 +4361,14 @@ Equilibrium.
 **Types of natural selection:**
 
 Natural selection can act on phenotypic variation in different ways, depending on the relationship
-Between fitness and the trait:
+between fitness and the trait:
 
 **1. Directional selection:**
 
 Favours individuals at one extreme of the phenotypic range. The mean value of the trait shifts in
-One direction over time. Example: Antibiotic resistance in bacteria -- when antibiotics are applied,
+one direction over time. Example: Antibiotic resistance in bacteria -- when antibiotics are applied,
 Bacteria with resistance genes have higher survival and reproduction, shifting the population
-Towards resistance.
+towards resistance.
 
 **2. Stabilising selection:**
 
@@ -4445,9 +4445,9 @@ Phalanges) adapted for different functions (grasping, swimming, flying, running)
 **3. Biogeography:**
 
 The geographic distribution of species provides evidence for evolution. Species on oceanic islands
-Are often more similar to species on the nearest mainland than to species on other islands, even if
-The other islands have similar environments. This is consistent with species colonising islands from
-The mainland and then diverging through natural selection.
+are often more similar to species on the nearest mainland than to species on other islands, even if
+the other islands have similar environments. This is consistent with species colonising islands from
+the mainland and then diverging through natural selection.
 
 **4. Embryology:**
 
@@ -4927,7 +4927,7 @@ Nephrons.
 **Worked Example: Diabetes insipidus.**
 
 A patient produces very large volumes of dilute urine and is constantly thirsty. This is a symptom
-Of diabetes insipidus, which is caused by a lack of ADH (or by the kidneys not responding to ADH).
+of diabetes insipidus, which is caused by a lack of ADH (or by the kidneys not responding to ADH).
 Without ADH, the collecting ducts remain impermeable to water, so water is not reabsorbed. The
 Result is large volumes of dilute urine (polyuria) and excessive thirst (polydipsia) as the body
 Tries to replace the lost water.
@@ -4991,14 +4991,14 @@ Many drugs work by affecting synaptic transmission:
 
 **Negative feedback:** The mechanism by which the body maintains homeostasis. When a condition
 Deviates from its set point, the body initiates a corrective response that brings the condition back
-To normal, then the corrective response is switched off.
+to normal, then the corrective response is switched off.
 
 **Worked Example: Blood glucose regulation.**
 
 After a meal, blood glucose rises above the normal range (approximately 4--6 mmol/L). The pancreas
 Detects this and secretes insulin. Insulin stimulates cells (especially liver and muscle cells) to
 Take up glucose from the blood and convert it to glycogen (glycogenesis). Blood glucose falls back
-To normal, and insulin secretion decreases.
+to normal, and insulin secretion decreases.
 
 During fasting or exercise, blood glucose falls below normal. The pancreas secretes glucagon.
 Glucagon stimulates the liver to break down glycogen into glucose (glycogenolysis) and, if
@@ -5071,13 +5071,13 @@ Main organs of osmoregulation.
 **Role of antidiuretic hormone (ADH):**
 
 ADH is released from the posterior pituitary gland when the blood water potential is too low (blood
-Is too concentrated). ADH increases the permeability of the collecting duct to water by causing
+is too concentrated). ADH increases the permeability of the collecting duct to water by causing
 Aquaporin channels to be inserted into the cell membranes. More water is reabsorbed from the
 Filtrate into the blood, producing a smaller volume of more concentrated urine.
 
 When the blood water potential is too high (blood is too dilute), less ADH is released. The
 Collecting duct becomes less permeable to water, less water is reabsorbed, and a larger volume of
-More dilute urine is produced.
+more dilute urine is produced.
 
 **Worked Example: Explaining osmoregulation after drinking a large volume of water.**
 
@@ -5131,8 +5131,8 @@ Environment. It is divided into:
 **Transmission of nerve impulses:**
 
 At rest, the inside of the neuron is negatively charged relative to the outside (resting potential
-Of approximately -70 mV). This is maintained by the sodium-potassium pump, which pumps 3 sodium ions
-Out and 2 potassium ions in for each ATP hydrolysed.
+of approximately -70 mV). This is maintained by the sodium-potassium pump, which pumps 3 sodium ions
+out and 2 potassium ions in for each ATP hydrolysed.
 
 When a stimulus depolarises the membrane to the threshold level (approximately -55 mV),
 Voltage-gated sodium channels open. Sodium ions rush in, causing further depolarisation. This is the
@@ -5140,7 +5140,7 @@ Action potential (approximately +40 mV). The action potential travels along the 
 Depolarisation.
 
 After the action potential passes, voltage-gated potassium channels open and potassium ions flow
-Out, repolarising the membrane. The sodium-potassium pump restores the resting potential (refractory
+out, repolarising the membrane. The sodium-potassium pump restores the resting potential (refractory
 Period), ensuring the impulse travels in one direction only.
 
 **Synapses:**
@@ -5194,7 +5194,7 @@ Response faster.
 **Hormones and their effects:**
 
 Hormones are chemical messengers secreted by endocrine glands into the bloodstream. They travel
-Throughout the body but only affect specific target cells that have the appropriate receptors.
+throughout the body but only affect specific target cells that have the appropriate receptors.
 
 **Key endocrine glands and hormones:**
 
@@ -6028,7 +6028,7 @@ Provide ATP for active transport of mineral ions against their concentration gra
 
 **Monocot stem:** vascular bundles are scattered throughout the ground tissue rather than arranged
 In a ring. Monocots generally lack a cambium and do not undergo secondary growth (no thickening of
-The stem).
+the stem).
 
 ### Worked Example: Distinguishing Monocot and Dicot Features (HL)
 
@@ -6052,7 +6052,7 @@ Therefore, this plant is a **monocot**.
 
 The loss of water vapour from the leaves through the stomata. Transpiration is an inevitable
 Consequence of gas exchange: stomata must open to allow $CO_2$ to enter for photosynthesis, but this
-Also allows water vapour to escape.
+also allows water vapour to escape.
 
 **Transpiration stream:**
 
@@ -6153,7 +6153,7 @@ The xylem intact. After several weeks, the bark above the ring swells. Explain t
 
 **Answer:** The ring of bark removal removes the phloem tissue, which is located in the bark. The
 Phloem is responsible for translocating sucrose from the leaves (source) to the roots (sink). With
-The phloem pathway severed:
+the phloem pathway severed:
 
 1. Sucrose produced by photosynthesis in the leaves can still reach the region above the ring but
    cannot pass below it.
@@ -6163,7 +6163,7 @@ The phloem pathway severed:
    of sugars and may eventually die.
 
 This experiment provides strong evidence that the phloem, not the xylem, is the tissue responsible
-For translocation of organic substances.
+for translocation of organic substances.
 
 ## Plant Reproduction
 
@@ -6379,7 +6379,7 @@ A tropism is a growth response to a directional stimulus. The response can be to
 
 :::caution
 Elongation in roots. Roots are far more sensitive to auxin than shoots, so the same concentration
-That promotes growth in shoots inhibits growth in roots.
+that promotes growth in shoots inhibits growth in roots.
 
 ### Worked Example: Explaining Phototropism (HL)
 
@@ -6944,7 +6944,7 @@ URL: https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases/
 ## Acids, Bases and Salt Preparation
 
 This topic covers the properties of acids and bases, pH, strong and weak acids, buffers, and methods
-Of salt preparation. It is essential for both Ordinary and Higher Level.
+of salt preparation. It is essential for both Ordinary and Higher Level.
 
 ## Definitions of Acids and Bases (OL/HL)
 
@@ -8071,14 +8071,14 @@ Two electrons with opposite spins.
 $n = 3$$\ell = 1$ (p subshell), $m_\ell = -1, 0, +1$$m_s = +\frac{1}{2}$ or $-\frac{1}{2}$.
 
 There are 6 possible combinations: 3 orbitals $\times$ 2 spins = 6 electrons (matches the maximum
-For the $p$ subshell).
+for the $p$ subshell).
 
 ## Atomic Emission Spectra (HL)
 
 ### Hydrogen Spectrum
 
 When hydrogen atoms absorb energy, electrons are excited to higher energy levels. When they return
-To lower levels, they emit photons:
+to lower levels, they emit photons:
 
 $$
 \Delta E = E_{\mathrm{higher} - E_{\mathrm{lower} = hf = \frac{hc}{\lambda}
@@ -8177,7 +8177,7 @@ $p$-subshell, or because pairing begins.
 Magnesium.
 
 Magnesium has the electron configuration $[\mathrm{Ne]\,3s^2$ -- a filled $3s$ subshell. Aluminium
-Has $[\mathrm{Ne]\,3s^2 3p^1$. The $3p$ electron in aluminium is at a higher energy level and is
+has $[\mathrm{Ne]\,3s^2 3p^1$. The $3p$ electron in aluminium is at a higher energy level and is
 Shielded by the $3s$ electrons, so it is easier to remove.
 
 **Worked Example 8 (HL):** Explain why the first ionisation energy of sulfur is lower than that of
@@ -8185,7 +8185,7 @@ Phosphorus.
 
 Phosphorus: $[\mathrm{Ne]\,3s^2 3p^3$ -- each $3p$ orbital has one electron (half-filled subshell,
 Stable). Sulfur: $[\mathrm{Ne]\,3s^2 3p^4$ -- one $3p$ orbital has two electrons. The pairing energy
-In sulfur's $3p^4$ configuration makes the fourth electron slightly easier to remove than
+in sulfur's $3p^4$ configuration makes the fourth electron slightly easier to remove than
 Phosphorus's third $3p$ electron.
 
 ### Electronegativity (OL/HL)
@@ -8343,7 +8343,7 @@ For sodium ($Z = 11$):
 | 11th       | 159076          | --         |
 
 The large jump between the 9th and 10th ionisation energies indicates that the 10th electron is
-Being removed from an inner shell (closer to the nucleus, less shielded). This confirms the electron
+being removed from an inner shell (closer to the nucleus, less shielded). This confirms the electron
 Configuration 2, 8, 1.
 
 ### Using Successive Ionisation Energies to Identify Elements
@@ -8355,7 +8355,7 @@ $738, 1451, 7733, 10540 \mathrm{ kJ/mol$
 Identify the element and explain your reasoning.
 
 The large jump between the 2nd and 3rd ionisation energies indicates that the first two electrons
-Are in the outer shell and the third is in an inner shell. The element has 2 valence electrons,
+are in the outer shell and the third is in an inner shell. The element has 2 valence electrons,
 Which corresponds to Group 2. The low values ($738, 1451$) are consistent with magnesium ($Z = 12$
 Electron configuration $2, 8, 2$).
 
@@ -8425,7 +8425,7 @@ Each orbital is described by a wave function $\psi$ And $|\psi|^2$ gives the pro
 ### Radial Distribution Functions
 
 The radial distribution function shows the probability of finding an electron at a given distance
-From the nucleus. For the $1s$ orbital, the most probable distance equals the Bohr radius
+from the nucleus. For the $1s$ orbital, the most probable distance equals the Bohr radius
 ($a_0 = 52.9 \mathrm{ pm$). For the $2s$ orbital, there is a node (zero probability) at a certain
 Distance.
 
@@ -8741,7 +8741,7 @@ flowchart TD
 ### Rutherford's Gold Foil Experiment
 
 Most alpha particles passed straight through the gold foil, but a few were deflected at large angles
-And some bounced back. This led to the conclusion that:
+and some bounced back. This led to the conclusion that:
 
 1. Most of the atom is empty space (most particles pass through)
 2. The nucleus is very small, dense, and positively charged (few particles deflected)
@@ -8756,7 +8756,7 @@ Large-angle deflections could not be explained by a diffuse positive charge.
 ### Limitations of the Bohr Model
 
 The Bohr model successfully explained the hydrogen spectrum but failed for multi-electron atoms
-Because:
+because:
 
 1. It treats electrons as particles in fixed orbits, not as standing waves
 2. It cannot explain the fine structure of spectral lines (splitting due to spin-orbit coupling)
@@ -8814,7 +8814,7 @@ And metallic bonding, molecular geometry, intermolecular forces, and electronega
 ### Ionic Bonding (OL/HL)
 
 Ionic bonds form between metals and non-metals. Electrons are transferred from the metal to the
-Non-metal, producing oppositely charged ions that attract electrostatically.
+non-metal, producing oppositely charged ions that attract electrostatically.
 
 **Example (OL):** Formation of sodium chloride.
 
@@ -8995,15 +8995,15 @@ Six hybrid orbitals, octahedral. Example: $\mathrm{SF_6$.
 
 Each carbon is $sp^2$ hybridised. The three $sp^2$ orbitals form three sigma bonds (two C--H and one
 C--C). The remaining unhybridised $p$ orbital on each carbon overlaps to form a pi ($\pi$) bond
-Above and below the plane. The C=C double bond consists of one sigma and one pi bond.
+above and below the plane. The C=C double bond consists of one sigma and one pi bond.
 
 **Worked Example 5 (HL):** Describe the bonding in ethyne ($\mathrm{C_2\mathrm{H_2$), including
 sigma And pi bonds and hybridisation.
 
 Each carbon in ethyne is $sp$ hybridised. The two $sp$ orbitals form two sigma bonds (one C--H and
-One C--C). Each carbon has two remaining unhybridised $p$ orbitals ($p_y$ and $p_z$). These overlap
+one C--C). Each carbon has two remaining unhybridised $p$ orbitals ($p_y$ and $p_z$). These overlap
 Sideways to form two pi bonds perpendicular to each other. The C≡C triple bond consists of one sigma
-And two pi bonds. The molecule is linear ($180^\circ$).
+and two pi bonds. The molecule is linear ($180^\circ$).
 
 ## Intermolecular Forces (OL/HL)
 
@@ -9065,7 +9065,7 @@ $\mathrm{HF$ dominates.
 ### Band Theory
 
 In metals, atomic orbitals overlap to form energy bands. The **valence band** contains electrons
-That can conduct electricity. The **conduction band** overlaps with the valence band in metals,
+that can conduct electricity. The **conduction band** overlaps with the valence band in metals,
 Allowing free movement of electrons.
 
 In insulators, there is a large energy gap between the valence and conduction bands. In
@@ -9276,7 +9276,7 @@ For $\mathrm{N_2$ (and lighter diatomic molecules), the $\sigma_{2p}$ and $\pi_{
 Reversed: $\pi_{2p} < \sigma_{2p}$.
 
 $\mathrm{N_2$ has 10 valence electrons: $\mathrm{BO = (8 - 2)/2 = 3$ (triple bond), consistent with
-The Lewis structure $\mathrm{N\equiv\mathrm{N$.
+the Lewis structure $\mathrm{N\equiv\mathrm{N$.
 
 ### Comparison of MO Theory with Lewis Theory
 
@@ -9536,12 +9536,12 @@ Donor, two as acceptor), creating an extensive three-dimensional network.
 - Non-polar solutes dissolve in non-polar solvents (e.g., grease in hexane).
 
 This is because the intermolecular forces between solute and solvent must be comparable to those
-Within the solute and within the solvent for dissolution to be energetically favourable.
+within the solute and within the solvent for dissolution to be energetically favourable.
 
 ### Vapour Pressure
 
 Molecules with stronger intermolecular forces have lower vapour pressure because fewer molecules
-Have sufficient energy to escape from the liquid surface.
+have sufficient energy to escape from the liquid surface.
 
 Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen bonding.
 
@@ -11125,7 +11125,7 @@ $\mathrm{CH_3\mathrm{CHO$: 2 carbons, aldehyde. Name: ethanal.
 ### Naming with Multiple Functional Groups
 
 When multiple functional groups are present, the principal functional group (highest priority) gets
-The suffix. Others are named as prefixes.
+the suffix. Others are named as prefixes.
 
 Priority order (highest first): carboxylic acid, aldehyde, ketone, alcohol, alkene, alkyne, halide.
 
@@ -11164,7 +11164,7 @@ Stable primary carbocation.
 ### Why Markovnikov's Rule Works
 
 The stability of carbocations follows the order: tertiary > secondary > primary > methyl. This is
-Because alkyl groups are electron-donating (+I effect), stabilising the positive charge by
+because alkyl groups are electron-donating (+I effect), stabilising the positive charge by
 Distributing it. In Markovnikov addition, the hydrogen adds to the carbon with more hydrogens,
 Placing the positive charge on the more substituted (more stable) carbon.
 
@@ -11289,7 +11289,7 @@ Specific carbonyl compound.
 ### Acidity
 
 Carboxylic acids are weak acids. They are stronger acids than alcohols because the carboxylate anion
-Is stabilised by resonance delocalisation of the negative charge over two oxygen atoms.
+is stabilised by resonance delocalisation of the negative charge over two oxygen atoms.
 
 ### Reactions of Carboxylic Acids
 
@@ -13088,7 +13088,7 @@ Identifying similarities or trends in data or problems.
 
 **Example (OL):** When processing exam results, notice that the same steps apply to each subject:
 Read marks, calculate average, assign grade. The pattern can be generalised into a single function
-That accepts different data.
+that accepts different data.
 
 **Example (HL):** In a shopping system, the pattern for processing orders is the same regardless of
 Product type: validate order, check stock, process payment, generate receipt. A single
@@ -13447,7 +13447,7 @@ print(f"Change: {change}")
 
 :::caution
 Denominations {1, 3, 4} and amount 6, the greedy approach gives 4 + 1 + 1 (3 coins), but the optimal
-Is 3 + 3 (2 coins).
+is 3 + 3 (2 coins).
 
 **Proof that greedy fails for {1, 3, 4} with amount 6.** Greedy: pick 4 (amount=2), pick 1
 (amount=1), pick 1 (amount=0). Total: 3 coins. Optimal: pick 3 (amount=3), pick 3 (amount=0). Total:
@@ -14314,7 +14314,7 @@ Enrolments: StudentID, Subject.
 
 If a Student record with StudentID = 5 exists in the Enrolments table, you cannot delete StudentID =
 5 from the Students table without first deleting the enrolments. Otherwise, the Enrolments table
-Would reference a non-existent student.
+would reference a non-existent student.
 
 ## Advanced SQL Techniques (HL)
 
@@ -15260,11 +15260,11 @@ Data simultaneously. This limits throughput.
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** Contains the BIOS/UEFI, which is the first code the CPU executes when
 The computer is powered on. The BIOS initialises hardware and loads the operating system from disk
-Into RAM. ROM is non-volatile so the computer can always start up.
+into RAM. ROM is non-volatile so the computer can always start up.
 
 **DRAM vs SRAM (HL):**
 
@@ -15297,12 +15297,12 @@ Solution is to close programs or add more RAM.
 
 The OS uses 3 GB of virtual memory on the SSD. When a program accesses data in virtual memory, a
 Page fault occurs, causing a delay of milliseconds (vs nanoseconds for RAM). The system may thrash
-If too many programs are running.
+if too many programs are running.
 
 **Worked Example (HL).** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
 Operating system allocates 8 GB to RAM and uses 4 GB of virtual memory on the SSD. When a program
 Accesses data in virtual memory, a page fault occurs and the OS swaps the required page from the SSD
-Into RAM, potentially moving a less-used page from RAM to the SSD.
+into RAM, potentially moving a less-used page from RAM to the SSD.
 
 ### Cache Memory (HL)
 
@@ -15675,7 +15675,7 @@ Braking system (ABS).
 
 The ABS must respond within milliseconds to prevent wheel lockup. A general-purpose OS (like
 Windows) cannot guarantee response times because it may be busy with other tasks. A RTOS guarantees
-That the ABS process receives CPU time within a fixed deadline, ensuring safety.
+that the ABS process receives CPU time within a fixed deadline, ensuring safety.
 
 ### Embedded Systems (HL)
 
@@ -17144,7 +17144,7 @@ Network address: 192.168.1.0. First host: 192.168.1.1. Last host: 192.168.1.62. 
 ### VLAN Configuration
 
 A VLAN logically segments a physical network. Devices in different VLANs cannot communicate directly
-Even if they are on the same physical switch.
+even if they are on the same physical switch.
 
 **Benefits:**
 
@@ -17753,7 +17753,7 @@ for num in range(2, 20):
 
 **Proof that is_prime is correct.** The function checks all integers $i$ from 2 to
 $\lfloor\sqrt{n}\rfloor$. If $n$ is composite, it has a factor $f \le \sqrt{n}$. The loop checks
-Every such $f$ So it will find a divisor. If no divisor is found, $n$ has no factor $\le
+every such $f$ So it will find a divisor. If no divisor is found, $n$ has no factor $\le
 \sqrt{n}$,
 And therefore no factor at all (since if $n = a \times b$ with $a \gt \sqrt{n}$ Then
 $b \lt \sqrt{n}$ Contradicting no divisor found). Hence $n$ is prime. $\blacksquare$
@@ -19199,7 +19199,7 @@ import DesmosGraph from "@components/DesmosGraph";
 
 Calculus is divided into two main branches: **differentiation** (finding rates of change) and
 **integration** (finding areas and reversing differentiation). This topic is central to Paper 1 at
-Both levels.
+both levels.
 
 ## Differentiation
 
@@ -19442,7 +19442,7 @@ $$
 ### Higher Derivatives (HL)
 
 The second derivative $f''(x) = \frac{d^2y}{dx^2}$ is the derivative of $f'(x)$. Higher derivatives
-Are defined recursively.
+are defined recursively.
 
 **Example:** Find $f''(x)$ when $f(x) = x^3 \ln x$.
 
@@ -19498,7 +19498,7 @@ F''(x) = 12x^2, \quad f''(0) = 0
 $$
 
 The second derivative test is inconclusive. Use the first derivative test: for $x < 0$, $f'(x) < 0$
-And for $x > 0$, $f'(x) > 0$ So $x = 0$ is a local minimum.
+and for $x > 0$, $f'(x) > 0$ So $x = 0$ is a local minimum.
 
 **Example (HL) -- Point of inflexion:** Consider $f(x) = x^3$.
 
@@ -20627,7 +20627,7 @@ $$
 
 **Proof.** The radius to $(x_1, y_1)$ has slope $y_1/x_1$. The tangent is perpendicular, so its
 Slope is $-x_1/y_1$. Using point-slope form: $y - y_1 = -\frac{x_1}{y_1}(x - x_1)$ Which simplifies
-To $x_1 x + y_1 y = x_1^2 + y_1^2 = r^2$.
+to $x_1 x + y_1 y = x_1^2 + y_1^2 = r^2$.
 
 **Example (HL):** Find the equation of the tangent to $x^2 + y^2 = 25$ at the point $(3, 4)$.
 
@@ -20965,7 +20965,7 @@ $$
 ### R-Addition Formula (HL)
 
 An expression of the form $a\sin\theta + b\cos\theta$ can be written as $R\sin(\theta + \alpha)$
-Where $R = \sqrt{a^2 + b^2}$ and $\alpha = \arctan\frac{b}{a}$.
+where $R = \sqrt{a^2 + b^2}$ and $\alpha = \arctan\frac{b}{a}$.
 
 **Example (HL):** Express $3\sin\theta - 4\cos\theta$ in the form $R\sin(\theta + \alpha)$.
 
@@ -21133,8 +21133,8 @@ The tangent to a circle at a point is perpendicular to the radius at that point.
 Then the perpendicular from $O$ to the tangent meets it at some point $Q \neq P$. Since $OQ \lt OP$
 (by the shortest distance property), $Q$ is closer to $O$ than $P$. But $P$ lies on the circle and
 $Q$ is outside the perpendicular from the centre, so $Q$ must be outside the circle. If $Q$ is
-Outside the circle, the line through $P$ and $Q$ (the tangent) must cross the circle at $P$ and some
-Other point, contradicting that it is a tangent. Hence the tangent is perpendicular to the radius.
+outside the circle, the line through $P$ and $Q$ (the tangent) must cross the circle at $P$ and some
+other point, contradicting that it is a tangent. Hence the tangent is perpendicular to the radius.
 
 ## Intuition
 
@@ -21615,7 +21615,7 @@ $x \in (A \cap B)' \iff x \notin A \cap B \iff x \notin A \mathrm{ or  x \notin 
 
 **Proof of the inclusion-exclusion principle for two sets.** Every element of $A \cup B$ is in $A$
 Or in $B$ or in both. Counting elements of $A$ and $B$ separately double-counts those in $A \cap B$
-So we subtract $|A \cap B|$ to correct:
+so we subtract $|A \cap B|$ to correct:
 
 $$
 |A \cup B| = |A| + |B| - |A \cap B|
@@ -22498,7 +22498,7 @@ Statistical measures.
 
 If task A can be done in $m$ ways and task B in $n$ ways, then A followed by B can be done in
 $m \times n$ ways. This extends to any finite sequence of tasks: multiply the number of choices at
-Each step.
+each step.
 
 **Example (OL):** How many ways can 3 different books be arranged on a shelf?
 
@@ -22565,14 +22565,14 @@ $$
 ### Pascal's Triangle and Binomial Coefficients (HL)
 
 Each entry in Pascal's triangle is the sum of the two entries above it. The $r$ Th entry in row $n$
-Is $\binom{n}{r}$.
+is $\binom{n}{r}$.
 
 **Pascal's identity:** $\binom{n}{r} = \binom{n-1}{r-1} + \binom{n-1}{r}$.
 
 **Proof of Pascal's identity.** Consider choosing $r$ people from $n$ people. Fix one particular
 Person, say Alice. Either Alice is chosen (leaving $\binom{n-1}{r-1}$ ways to choose the remaining
 $r-1$ from $n-1$ others) or Alice is not chosen (leaving $\binom{n-1}{r}$ ways to choose all $r$
-From $n-1$ others). These cases are mutually exclusive and exhaustive.
+from $n-1$ others). These cases are mutually exclusive and exhaustive.
 
 **Binomial theorem:** $(a + b)^n = \sum_{r=0}^{n} \binom{n}{r} a^{n-r} b^r$.
 
@@ -22839,7 +22839,7 @@ $X \sim N(\mu, \sigma^2)$. The standard normal $Z = \frac{X - \mu}{\sigma}$ has 
 
 **Why the normal distribution is special.** The Central Limit Theorem states that the mean of a
 Large number of independent random variables is approximately normally distributed, regardless of
-The original distribution. This is why the normal distribution appears everywhere in nature.
+the original distribution. This is why the normal distribution appears everywhere in nature.
 
 **Example (HL):** Exam marks are normally distributed with $\mu = 60$$\sigma = 10$. Find the
 Probability a student scores above 75.
@@ -22930,7 +22930,7 @@ Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$ No high outlier
 - **Symmetric:** Mean = Median.
 
 In a box plot, positive skew means the right whisker is longer; negative skew means the left whisker
-Is longer.
+is longer.
 
 ## Hypothesis Testing (HL)
 
@@ -22994,7 +22994,7 @@ Degrees of freedom $= 7$. The critical value from t-tables at $\alpha = 0.05$ (t
 Approximately $\pm 2.365$.
 
 Since $|-2.156| = 2.156 < 2.365$ We do not reject $H_0$. There is insufficient evidence to conclude
-The population mean differs from 25.
+the population mean differs from 25.
 
 ### Type I and Type II Errors (HL)
 
@@ -23021,7 +23021,7 @@ $$
 
 **Interpretation:** If we were to take many samples and construct a 95% confidence interval from
 Each, approximately 95% of those intervals would contain the true population mean. It does NOT mean
-There is a 95% probability that $\mu$ lies in any particular interval.
+there is a 95% probability that $\mu$ lies in any particular interval.
 
 ## Correlation and Regression (HL)
 
@@ -23185,14 +23185,14 @@ See the examples integrated throughout the sections above.
 ### 8.4 Poisson Approximation to the Binomial
 
 When $n$ is large, $p$ is small, and $np$ is moderate, the binomial distribution can be approximated
-By a Poisson distribution with $\lambda = np$:
+by a Poisson distribution with $\lambda = np$:
 
 $$
 \mathrm{Bin(n, p) \approx \mathrm{Po(np)
 $$
 
 This avoids calculating large binomial coefficients. As a rule of thumb, the approximation is good
-When $n \ge 50$ and $p \le 0.1$.
+when $n \ge 50$ and $p \le 0.1$.
 
 **Example (HL):** A machine produces items with a defect rate of 2%. In a batch of 200 items, find
 The probability of at most 3 defects using the Poisson approximation.
@@ -23229,7 +23229,7 @@ The three main distributions covered in this topic are connected:
 ### 8.7 Law of Large Numbers (HL - awareness)
 
 The law of large numbers states that as the number of trials increases, the sample mean converges to
-The expected value. Formally, for i.i.d. Random variables $X_1, X_2, \ldots$ with mean $\mu$:
+the expected value. Formally, for i.i.d. Random variables $X_1, X_2, \ldots$ with mean $\mu$:
 
 $$
 \bar{X}_n = \frac{X_1 + X_2 + \cdots + X_n}{n} \to \mu \mathrm{ as  n \to \infty
@@ -23790,7 +23790,7 @@ $$
 
 The internal resistance dissipates energy as heat. As current increases, the internal voltage drop
 ($Ir$) increases, and the terminal PD decreases. If the battery is short-circuited ($R = 0$), all
-The EMF is dropped across the internal resistance, and the terminal PD is zero. The current is
+the EMF is dropped across the internal resistance, and the terminal PD is zero. The current is
 $I = \varepsilon / r$ Which can be very large, potentially damaging the battery.
 
 ## Resistance and Ohm's Law
@@ -23830,7 +23830,7 @@ $$
 ### Why Resistivity Is Temperature-Dependent for Metals
 
 In a metal, the ions vibrate more vigorously at higher temperatures, scattering conduction electrons
-More frequently. This increases resistivity. For semiconductors, resistivity _decreases_ with
+more frequently. This increases resistivity. For semiconductors, resistivity _decreases_ with
 Temperature as more charge carriers are liberated.
 
 ## Series and Parallel Circuits (OL/HL)
@@ -23911,7 +23911,7 @@ $$
 ### Maximum Power Transfer (HL)
 
 The maximum power is delivered to a load when the load resistance equals the internal resistance of
-The source: $R = r$.
+the source: $R = r$.
 
 Proof: $P = \frac{\varepsilon^2 R}{(R+r)^2}$. Setting $\frac{dP}{dR} = 0$ gives $R = r$.
 
@@ -24112,7 +24112,7 @@ $$
 ## 10. Worked Example: RLC Circuit Analysis (HL)
 
 An RLC series circuit has $R = 200\mathrm{ \Omega$$L = 0.5\mathrm{ H$$C = 20\mathrm{ \mu\mathrm{F$
-At $f = 100\mathrm{ Hz$.
+at $f = 100\mathrm{ Hz$.
 
 **Inductive reactance:** $X_L = 2\pi fL = 2\pi \times 100 \times 0.5 = 314.2\mathrm{ \Omega$
 
@@ -24227,7 +24227,7 @@ $R_p = 4.8\mathrm{ \Omega$
 **Current through $12\mathrm{ \Omega$:** $I_{12} = \frac{10.98}{12} = 0.915\mathrm{ A$
 
 Check: $1.37 + 0.915 = 2.285\mathrm{ A$. But the total current through the parallel combination
-Should equal the current through the $6\mathrm{ \Omega$ resistor, which is $I = 1.017\mathrm{ A$.
+should equal the current through the $6\mathrm{ \Omega$ resistor, which is $I = 1.017\mathrm{ A$.
 
 Wait -- the current through the $6\mathrm{ \Omega$ resistor equals the total current from the
 Battery:
@@ -24244,7 +24244,7 @@ Check: $0.814 + 0.610 + 0.407 = 1.831\mathrm{ A$. But this should equal the tota
 $1.017\mathrm{ A$.
 
 There is an error -- the terminal PD across the parallel combination should use the current through
-The $6\mathrm{ \Omega$ resistor, not the total current. Let me recalculate:
+the $6\mathrm{ \Omega$ resistor, not the total current. Let me recalculate:
 
 $V_p = 1.017 \times 4.8 = 4.882\mathrm{ V$
 
@@ -24367,7 +24367,7 @@ $$P_C = 0 \mathrm{ W$$ (pure capacitor dissipates no power)
 Only resistors dissipate power in AC circuits. Inductors and capacitors store and release
 
 Energy each cycle but have zero average power dissipation. The power factor $\cos\phi$ accounts for
-This: a purely resistive load has $\cos\phi = 1$ While purely reactive loads have $\cos\phi = 0$.
+this: a purely resistive load has $\cos\phi = 1$ While purely reactive loads have $\cos\phi = 0$.
 </Aside>
 
 ### Example 22: Measuring Unknown Resistance with a Wheatstone Bridge
@@ -24565,7 +24565,7 @@ Classical mechanics and statistical physics.
 ### Temperature Scales (OL/HL)
 
 Temperature is a measure of the average kinetic energy of the particles in a substance. Three scales
-Are commonly used:
+are commonly used:
 
 | Scale                          | Boiling point of water | Freezing point of water | Absolute zero |
 | ------------------------------ | ---------------------- | ----------------------- | ------------- |
@@ -24612,7 +24612,7 @@ has more energy to give.
 
 When two objects at different temperatures are placed in contact, heat flows from the hotter to the
 Colder until they reach the same temperature. At this point they are in **thermal equilibrium**, and
-No net heat transfer occurs. The zeroth law of thermodynamics formalises this: if A is in thermal
+no net heat transfer occurs. The zeroth law of thermodynamics formalises this: if A is in thermal
 Equilibrium with B, and B with C, then A is in thermal equilibrium with C.
 
 ## Specific Heat Capacity (OL/HL)
@@ -24627,7 +24627,7 @@ $$
 Where $Q$ is the heat energy transferred, $m$ is the mass, and $\Delta T$ is the temperature change.
 
 The unit of $c$ is $\mathrm{J/(kg K)$ or $\mathrm{J/(kg °C)$ -- these are numerically identical
-Because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
+because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 
 | Substance | $c$ (J/kg K) |
 | --------- | ------------ |
@@ -24640,7 +24640,7 @@ Because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 
 Water has an unusually high specific heat capacity, which is why it is effective as a coolant and
 Why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
-Of energy with relatively small temperature changes).
+of energy with relatively small temperature changes).
 
 ### Why Different Substances Have Different Specific Heat Capacities
 
@@ -24735,7 +24735,7 @@ This value is close to that of aluminium.
 ## Latent Heat (OL/HL)
 
 When a substance changes phase (solid to liquid, or liquid to gas), energy is transferred without
-Any change in temperature. This energy is called **latent heat** (from the Latin "latent" meaning
+any change in temperature. This energy is called **latent heat** (from the Latin "latent" meaning
 "hidden").
 
 ### Why Temperature Does Not Change During Phase Transitions
@@ -24758,7 +24758,7 @@ $$
 ### Specific Latent Heat of Vaporisation
 
 The specific latent heat of vaporisation $L_v$ is the energy required to change 1 kg of a substance
-From liquid to gas at its boiling point:
+from liquid to gas at its boiling point:
 
 $$
 Q = mL_v
@@ -24820,7 +24820,7 @@ $100^\circ\mathrm{C$ And this Energy is released when the steam condenses on the
 ## Gas Laws
 
 The gas laws describe the macroscopic behaviour of gases. They were established experimentally and
-Can be derived from kinetic theory.
+can be derived from kinetic theory.
 
 ### Boyle's Law (OL/HL)
 
@@ -24904,7 +24904,7 @@ An ideal gas is a theoretical gas in which:
 - All collisions are perfectly elastic.
 
 Real gases approximate ideal behaviour at low pressures and high temperatures, when the molecules
-Are far apart and moving fast. At high pressures and low temperatures, deviations occur due to
+are far apart and moving fast. At high pressures and low temperatures, deviations occur due to
 Intermolecular forces and the finite size of molecules.
 
 ### Alternative Forms
@@ -25019,8 +25019,8 @@ $$
 $$
 
 This is a crucial result: the average translational kinetic energy of a gas molecule is proportional
-To the absolute temperature and depends only on temperature. It provides the microscopic definition
-Of temperature.
+to the absolute temperature and depends only on temperature. It provides the microscopic definition
+of temperature.
 
 ### Root Mean Square Speed
 
@@ -25164,7 +25164,7 @@ Q_{\mathrm{net} = W_{\mathrm{net}
 $$
 
 The net work done by the system equals the net heat absorbed. On a $pV$ diagram, the net work equals
-The area enclosed by the cycle.
+the area enclosed by the cycle.
 
 ### Second Law
 
@@ -25199,7 +25199,7 @@ Where $T_H$ is the hot reservoir temperature and $T_C$ is the cold reservoir tem
 Kelvin).
 
 No real engine can exceed this efficiency. The Carnot efficiency depends only on the temperatures of
-The two reservoirs, not on the working substance.
+the two reservoirs, not on the working substance.
 
 **Example (HL):** A heat engine operates between $600\mathrm{ K$ and $300\mathrm{ K$. Find the
 maximum Possible efficiency.
@@ -25231,7 +25231,7 @@ $$
 ### Entropy (HL)
 
 Entropy $S$ is a thermodynamic state function that quantifies the degree of disorder or the number
-Of microscopic configurations (microstates) corresponding to a given macroscopic state.
+of microscopic configurations (microstates) corresponding to a given macroscopic state.
 
 For a reversible process at temperature $T$ The entropy change is:
 
@@ -25276,7 +25276,7 @@ Heat can be transferred by three mechanisms: conduction, convection, and radiati
 ### Conduction (OL/HL)
 
 Conduction is the transfer of heat through a material without bulk motion of the material. It occurs
-Through molecular vibrations (in all materials) and free electron drift (in metals, which is why
+through molecular vibrations (in all materials) and free electron drift (in metals, which is why
 Metals are generally good conductors).
 
 Fourier's law of heat conduction:
@@ -25341,7 +25341,7 @@ The power radiated is proportional to $T^4$ Which means small temperature increa
 Temperatures produce enormous increases in radiated power. This is why stars are so luminous.
 
 For a real body (not a perfect black body), the emissivity $\varepsilon$ (between 0 and 1) accounts
-For the deviation from ideal behaviour:
+for the deviation from ideal behaviour:
 
 $$
 P = \varepsilon \sigma A T^4
@@ -26220,7 +26220,7 @@ Where $u$ = initial velocity, $v$ = final velocity, $s$ = displacement, $t$ = ti
 ### Choosing the Right Equation
 
 The variable that does _not_ appear in each equation tells you when to use it. If you do not know
-The time, use $v^2 = u^2 + 2as$. If you do not know the acceleration, use $s = \frac{1}{2}(u+v)t$.
+the time, use $v^2 = u^2 + 2as$. If you do not know the acceleration, use $s = \frac{1}{2}(u+v)t$.
 If you do not know the displacement, use $v = u + at$.
 
 **Example (OL):** A car accelerates from rest at $2\mathrm{ m/s^2$ for 8 seconds. Find the distance
@@ -26352,8 +26352,8 @@ For every action, there is an equal and opposite reaction.
 
 The two forces must: (1) be equal in magnitude, (2) be opposite in direction, (3) act on _different_
 Objects, and (4) be the same type of force. The weight of a book and the normal force on the book
-Are _not_ a third law pair (they act on the same object). The correct pairs are: Earth pulls book
-Down / book pulls Earth up, and table pushes book up / book pushes table down.
+are _not_ a third law pair (they act on the same object). The correct pairs are: Earth pulls book
+down / book pulls Earth up, and table pushes book up / book pushes table down.
 
 ## Friction (OL/HL)
 
@@ -26711,7 +26711,7 @@ $$
 ## 12. Worked Example: Projectile from a Height (HL)
 
 A ball is thrown from the top of a $20 \mathrm{ m$ cliff at $25 \mathrm{ m/s$ at $40^{\circ}$ above
-The horizontal. Find the horizontal distance from the cliff where it hits the water.
+the horizontal. Find the horizontal distance from the cliff where it hits the water.
 
 $$
 v_x = 25\cos 40^{\circ} = 19.15 \mathrm{ m/s, \qquad v_y = 25\sin 40^{\circ} = 16.07 \mathrm{ m/s
@@ -26983,14 +26983,14 @@ $$
 ### Pitfall 6: Using the Wrong Formula for Centripetal Force
 
 Centripetal force is _not_ a separate force -- it is the _net_ force directed toward the centre of
-The circular path. It is provided by whatever force acts toward the centre: tension (conical
+the circular path. It is provided by whatever force acts toward the centre: tension (conical
 Pendulum), friction (car on a roundabout), gravity (satellite orbit), or the normal force component
 (banked curve). Never write "centripetal force" on a free body diagram alongside the actual forces.
 
 ### Pitfall 7: Sign Errors in Energy Conservation
 
 When using energy conservation, be consistent with your sign convention. Gravitational PE increases
-With height ($mgh$). Elastic PE increases with extension ($\frac{1}{2}kx^2$). KE is always positive.
+with height ($mgh$). Elastic PE increases with extension ($\frac{1}{2}kx^2$). KE is always positive.
 A common error is to assign negative values to KE or to forget that friction does negative work.
 
 ### Pitfall 8: Forgetting to Convert Units
@@ -27112,9 +27112,9 @@ Classical wave theory predicts that:
 - At low intensities, electrons should need time to accumulate sufficient energy before emission.
 
 None of these predictions match observation. The threshold frequency and the instantaneous emission
-At low intensity are particularly fatal to the classical picture. A wave spread over a large area
-Would deposit energy continuously; an electron at a specific point on the surface would need to wait
-To accumulate enough energy. Yet experiment shows no delay.
+at low intensity are particularly fatal to the classical picture. A wave spread over a large area
+would deposit energy continuously; an electron at a specific point on the surface would need to wait
+to accumulate enough energy. Yet experiment shows no delay.
 
 ### Einstein's Explanation (1905)
 
@@ -27128,7 +27128,7 @@ Where $h = 6.63 \times 10^{-34}\mathrm{ J s$ (Planck's constant) and $f$ is the 
 
 When a photon strikes the metal surface, it transfers all its energy to a single electron. The
 Electron uses some of this energy to escape the metal (overcoming the binding energy) and retains
-The rest as kinetic energy.
+the rest as kinetic energy.
 
 Einstein's photoelectric equation:
 
@@ -27178,7 +27178,7 @@ EV_s = E_{k(\max)} = hf - \phi
 $$
 
 A plot of $E_{k(\max)}$ versus $f$ yields a straight line with slope $h$ and intercept $-\phi$. This
-Is how Millikan experimentally determined Planck's constant in 1916, confirming Einstein's equation.
+is how Millikan experimentally determined Planck's constant in 1916, confirming Einstein's equation.
 
 **Example (HL):** Light of wavelength $400\mathrm{ nm$ is incident on a metal surface with work
 Function $2.0\mathrm{ eV$. Find the maximum kinetic energy of the emitted electrons and the stopping
@@ -27226,7 +27226,7 @@ $$
 $$
 
 This is in the green region of the visible spectrum. Sodium can be photoelectrically excited by blue
-And violet light, but not by red or orange light.
+and violet light, but not by red or orange light.
 
 ### Intensity and Photocurrent
 
@@ -27283,7 +27283,7 @@ Struck by an alpha particle.
 **Why the Thomson model failed:** In the plum pudding model, the positive charge is spread out. The
 Maximum Coulomb force on an alpha particle passing through a diffuse positive sphere would be much
 Smaller than what is needed to produce the observed large-angle deflections. Rutherford calculated
-That to produce a deflection of greater than $90^\circ$ The alpha particle must encounter a
+that to produce a deflection of greater than $90^\circ$ The alpha particle must encounter a
 concentrated Charge within a radius of approximately $10^{-14}\mathrm{ m$ About four orders of
 magnitude smaller Than the known atomic radius ($\approx 10^{-10}\mathrm{ m$).
 
@@ -27470,7 +27470,7 @@ $$
 ### Limitations of the Bohr Model
 
 The Bohr model works only for hydrogen and hydrogen-like ions (single electron). It cannot predict
-The spectra of helium or more complex atoms. It also cannot explain:
+the spectra of helium or more complex atoms. It also cannot explain:
 
 - Why only certain orbits are allowed (the full answer requires quantum mechanics).
 - Fine structure (small splittings of spectral lines).
@@ -27493,7 +27493,7 @@ $$
 $$
 
 This is the **de Broglie wavelength**. For macroscopic objects, $\lambda$ is negligibly small, which
-Is why we do not observe wave behaviour in everyday life.
+is why we do not observe wave behaviour in everyday life.
 
 ### Why de Broglie Wavelengths Are Not Observable for Macroscopic Objects
 
@@ -27526,8 +27526,8 @@ The observed diffraction peaks matched the predicted angles, confirming de Brogl
 ### Electron Diffraction and the Bohr Model
 
 De Broglie's hypothesis provides a physical justification for the Bohr quantisation condition. If
-The electron is a standing wave around the orbit, then the circumference must be an integer number
-Of wavelengths:
+the electron is a standing wave around the orbit, then the circumference must be an integer number
+of wavelengths:
 
 $$
 2\pi r = n\lambda = \frac{nh}{mv}
@@ -27552,12 +27552,12 @@ $$
 $$
 
 This is comparable to the spacing between atomic planes in a crystal ($\sim 0.2\mathrm{ nm$), which
-Is why electron diffraction is observable.
+is why electron diffraction is observable.
 
 ### Heisenberg Uncertainty Principle (HL)
 
 Werner Heisenberg showed that there is a fundamental limit to the precision with which certain pairs
-Of physical properties can be known simultaneously. The most commonly used form is:
+of physical properties can be known simultaneously. The most commonly used form is:
 
 $$
 \Delta x \cdot \Delta p \geq \frac{h}{4\pi} = \frac{\hbar}{2}
@@ -27566,7 +27566,7 @@ $$
 Where $\Delta x$ is the uncertainty in position and $\Delta p$ is the uncertainty in momentum.
 
 This is not a limitation of measurement technology; it is a fundamental property of nature arising
-From the wave nature of matter. A particle localised to a small region of space must have a large
+from the wave nature of matter. A particle localised to a small region of space must have a large
 Spread in momentum, and vice versa.
 
 **Implications:**
@@ -27634,7 +27634,7 @@ Where $m_p = 1.6726 \times 10^{-27}\mathrm{ kg$ is the proton mass and
 $m_n = 1.6749 \times 10^{-27}\mathrm{ kg$ is the neutron mass.
 
 In practice, atomic masses (which include the mass of the electrons) are used, and the calculation
-Is simplified by noting that the electron masses cancel:
+is simplified by noting that the electron masses cancel:
 
 $$
 \Delta m = Zm(\mathrm{^1H}) + (A - Z)m_n - m(\mathrm{atom)
@@ -27696,10 +27696,10 @@ Lower energy state. The nucleus remains the same isotope; only its energy change
 ### Why Beta Decay Requires the Neutrino
 
 In beta-minus decay, the emitted electron has a continuous spectrum of kinetic energies, from zero
-Up to a maximum value. If only the electron and daughter nucleus were produced, energy and momentum
+up to a maximum value. If only the electron and daughter nucleus were produced, energy and momentum
 Conservation would require the electron to have a fixed energy. The continuous spectrum implies a
 Third particle carrying away the remaining energy and momentum: the **antineutrino**. Pauli proposed
-The neutrino in 1930, and it was experimentally confirmed in 1956 by Cowan and Reines.
+the neutrino in 1930, and it was experimentally confirmed in 1956 by Cowan and Reines.
 
 ### Nuclear Equations and Conservation Laws
 
@@ -27811,7 +27811,7 @@ Reactor, control rods absorb some neutrons to maintain a controlled, steady rate
 
 **Critical mass:** The minimum mass of fissile material required to sustain a chain reaction. Below
 The critical mass, too many neutrons escape without causing further fission, and the reaction dies
-Out.
+out.
 
 **Fusion:** Light nuclei combine to form a heavier nucleus, releasing energy because the product has
 Higher binding energy per nucleon. Fusion requires extremely high temperatures
@@ -27828,7 +27828,7 @@ Fusion on Earth remains an active area of research (e.g., tokamak reactors and l
 ### Energy Released in Fission
 
 The energy released in a single fission event of U-235 is approximately $200\mathrm{ MeV$. This can
-Be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$ While The
+be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$ While The
 fission products have about $8.5\mathrm{ MeV/nucleon$. The difference of about
 $0.9\mathrm{ MeV/nucleon$ times 235 nucleons gives approximately $210\mathrm{ MeV$.
 
@@ -28299,7 +28299,7 @@ Proportional for a given wave speed.
 ### Why Reflection Obeys the Law
 
 Huygens" principle: every point on a wavefront acts as a source of secondary wavelets. The envelope
-Of these wavelets forms the reflected wavefront. Geometry dictates that the angle of reflection
+of these wavelets forms the reflected wavefront. Geometry dictates that the angle of reflection
 Equals the angle of incidence.
 
 ### Snell's Law of Refraction (OL/HL)
@@ -28366,9 +28366,9 @@ Diffraction is the spreading of waves when they pass through a gap or around an 
 ### Why Diffraction Depends on Gap Size Relative to Wavelength
 
 By Huygens' principle, every point on a wavefront acts as a source of secondary wavelets. If the gap
-Is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
+is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
 Edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
-From all parts of the gap overlap significantly, producing broad spreading.
+from all parts of the gap overlap significantly, producing broad spreading.
 
 ### Single Slit Diffraction (HL)
 
@@ -28502,7 +28502,7 @@ Biological tissue.
 
 Sound is a mechanical wave: it propagates by particles colliding with their neighbours. In a vacuum,
 There are no particles, so the disturbance cannot propagate. Light (an electromagnetic wave) does
-Not require a medium, which is why we can see the Sun but cannot hear it.
+not require a medium, which is why we can see the Sun but cannot hear it.
 
 ### Intensity (HL)
 
@@ -28535,13 +28535,13 @@ $$
 ### Why the Decibel Scale
 
 The human ear can detect intensities spanning $10^{12}$. A linear scale would require numbers from 1
-To a trillion. The logarithmic decibel scale compresses this range to 0--120 dB, which is far more
+to a trillion. The logarithmic decibel scale compresses this range to 0--120 dB, which is far more
 Manageable. A 3 dB increase corresponds to a doubling of intensity.
 
 ## Doppler Effect (HL)
 
 When a source and observer are moving relative to each other, the observed frequency differs from
-The emitted frequency.
+the emitted frequency.
 
 For a source moving towards a stationary observer:
 
@@ -28832,7 +28832,7 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 ### Example 21: Lateral Displacement Through a Glass Block
 
 A ray of light enters a rectangular glass block of refractive index $1.52$ at an angle of incidence
-Of $40^\circ$. The block has thickness $5 \mathrm{ cm$. Calculate the angle of refraction, the
+of $40^\circ$. The block has thickness $5 \mathrm{ cm$. Calculate the angle of refraction, the
 lateral Displacement of the ray, and the angle of emergence.
 
 **Step 1: Angle of refraction (Snell's law at entry)**
@@ -28895,7 +28895,7 @@ Parallel faces. The lateral displacement increases with thickness and with angle
 ### Example 22: Doppler Effect -- Moving Observer
 
 A sound source emits a frequency of $440 \mathrm{ Hz$ and is stationary. An observer moves directly
-Towards the source at $25 \mathrm{ m/s$. Calculate the observed frequency. (Speed of sound
+towards the source at $25 \mathrm{ m/s$. Calculate the observed frequency. (Speed of sound
 $= 343 \mathrm{ m/s$.)
 
 **Step 1: Use the Doppler equation for moving observer**
@@ -29002,7 +29002,7 @@ Use the lens maker's equation or the thin lens formula.
 
 Diffraction is the spreading of waves around obstacles or through gaps. Refraction is the bending of
 Waves due to a change in speed. They are different phenomena. Diffraction is most pronounced when
-The gap size is comparable to the wavelength; refraction occurs at boundaries between media of
+the gap size is comparable to the wavelength; refraction occurs at boundaries between media of
 Different densities.
 
 ## Additional Practice Problems

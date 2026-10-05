@@ -18,7 +18,7 @@ categories: [DSE, Economics]
 ## Scarcity
 
 Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available
-To satisfy those wants are limited. Because resources are finite and wants are infinite, not all
+to satisfy those wants are limited. Because resources are finite and wants are infinite, not all
 Wants can be satisfied. This forces society to make choices about how to allocate its scarce
 Resources.
 
@@ -64,7 +64,7 @@ Key points:
 
 **Example 1:** A student has 3 free hours. She can either study for an exam (next best alternative)
 Or go to a movie. If she chooses the movie, the opportunity cost is the exam preparation she could
-Have done during those 3 hours.
+have done during those 3 hours.
 
 **Example 2:** A farmer has a piece of land. He can grow either rice (expected revenue: HKD 50,000)
 Or wheat (expected revenue: HKD 40,000). If he chooses to grow rice, the opportunity cost is HKD
@@ -182,7 +182,7 @@ The PPC can shift over time:
 ### Movement Along the PPC
 
 A movement along the PPC represents a reallocation of resources from producing one good to producing
-The other. This shows the opportunity cost of producing more of one good.
+the other. This shows the opportunity cost of producing more of one good.
 
 ### Worked Example
 
@@ -228,7 +228,7 @@ If the economy produces 100 computers: `M = 600 - 200 = 400` mobile phones. This
 (resources fully employed).
 
 If the economy produces 100 computers and 300 mobile phones: this is **inside** the PPC (M = 400 is
-The maximum), indicating underutilisation of resources.
+the maximum), indicating underutilisation of resources.
 
 ---
 
@@ -246,7 +246,7 @@ The maximum), indicating underutilisation of resources.
 ### Productive Efficiency
 
 An economy is productively efficient when it is operating on its PPC -- it is producing at a point
-Where it is not possible to produce more of one good without producing less of another. This
+where it is not possible to produce more of one good without producing less of another. This
 Requires that all resources are fully employed and used in the most efficient way.
 
 In the context of a single firm, productive efficiency means producing at the lowest possible
@@ -272,7 +272,7 @@ When $P \lt MC$ The good costs more to produce than society values it -- less sh
 ### Pareto Efficiency
 
 A situation is Pareto efficient if it is impossible to make any one person better off without making
-At least one other person worse off. A Pareto improvement is a change that makes at least one person
+at least one other person worse off. A Pareto improvement is a change that makes at least one person
 Better off without making anyone worse off.
 
 ---
@@ -291,7 +291,7 @@ Better off without making anyone worse off.
 ### Specialisation
 
 Specialisation occurs when individuals, firms, or countries concentrate on producing a narrow range
-Of goods or services in which they have a comparative advantage.
+of goods or services in which they have a comparative advantage.
 
 ### Division of Labour
 
@@ -389,7 +389,7 @@ Examples:
 ### Normative Economics
 
 Normative economics deals with **subjective, value-based statements** about what OUGHT TO BE. These
-Cannot be tested or verified; they involve opinions and judgements.
+cannot be tested or verified; they involve opinions and judgements.
 
 Examples:
 
@@ -574,8 +574,8 @@ Always less than or equal to accounting profit.
 
 A Latin phrase meaning "all other things being equal." Economists use this assumption to isolate the
 Effect of one variable on another, holding all other variables constant. For example, "an increase
-In price leads to a decrease in quantity demanded, ceteris paribus" -- meaning we assume no change
-In income, tastes, prices of other goods, etc.
+in price leads to a decrease in quantity demanded, ceteris paribus" -- meaning we assume no change
+in income, tastes, prices of other goods, etc.
 
 ---
 
@@ -662,7 +662,7 @@ Rational decision-maker maximises net benefit, so she should choose the concert 
 <summary>Question 2: PPC Calculation</summary>
 
 An economy produces only two goods: food and clothing. The table below shows the maximum output of
-Each good if all resources are devoted to it:
+each good if all resources are devoted to it:
 
 | Good     | Maximum Output |
 | -------- | -------------- |
@@ -767,7 +767,7 @@ An economy can produce capital goods and consumer goods. The following combinati
 | F           | 250           | 0              |
 
 (a) Calculate the opportunity cost of producing each additional 50 units of capital goods. (b) Why
-Is the opportunity cost increasing? (c) If the economy is producing 100 capital goods and 300
+is the opportunity cost increasing? (c) If the economy is producing 100 capital goods and 300
 Consumer goods, what can you say about resource utilisation? (d) Explain how investing in capital
 Goods now might affect the PPC in the future.
 
@@ -784,21 +784,21 @@ Goods now might affect the PPC in the future.
 (b) The opportunity cost is increasing because resources are not equally efficient at producing both
 Goods. Resources specialised in producing consumer goods (e.g., retail workers, consumer goods
 Factories) are not well-suited to producing capital goods. As more and more resources are shifted
-From consumer goods to capital goods, the resources transferred are increasingly less efficient at
+from consumer goods to capital goods, the resources transferred are increasingly less efficient at
 Producing capital goods, so more and more consumer goods must be sacrificed for each additional unit
-Of capital goods.
+of capital goods.
 
 (c) At 100 capital goods, the PPC allows a maximum of 440 consumer goods. The economy is producing
-Only 300 consumer goods, which is inside the PPC. This means resources are either unemployed or
-Being used inefficiently. The economy is experiencing underutilisation of resources (e.g.,
+only 300 consumer goods, which is inside the PPC. This means resources are either unemployed or
+being used inefficiently. The economy is experiencing underutilisation of resources (e.g.,
 Unemployment or idle factories).
 
 (d) Investing in capital goods (e.g., building factories, improving technology) means producing
 Fewer consumer goods today, but it increases the economy's productive capacity for the future. More
-And better capital goods mean that both capital goods and consumer goods can be produced in greater
+and better capital goods mean that both capital goods and consumer goods can be produced in greater
 Quantities in the future. This would cause the PPC to shift outward over time. An economy that
 Invests heavily in capital goods will experience faster economic growth than one that focuses only
-On consumer goods.
+on consumer goods.
 
 </details>
 <details>
@@ -809,7 +809,7 @@ Produce either 150 cars or 300 tonnes of wheat with all its resources.
 
 (a) What is the opportunity cost of producing 1 car in each country? (b) Which country has a
 Comparative advantage in producing cars? In producing wheat? (c) Should these countries specialise
-And trade? Explain.
+and trade? Explain.
 
 (a)
 
@@ -826,7 +826,7 @@ Opportunity costs.
 
 (c) There is no basis for gains from specialisation and trade when opportunity costs are identical.
 Both countries face the same trade-off, so specialisation would not increase total output. Trade
-Would be pointless unless other factors (transport costs, quality differences) are considered.
+would be pointless unless other factors (transport costs, quality differences) are considered.
 
 Note: This is a special case. In most DSE problems, opportunity costs will differ between countries,
 Creating a basis for comparative advantage and gains from trade.
@@ -869,8 +869,8 @@ Slightly, her economic profit could become negative.
 
 A factory produces 100 chairs per day when each worker performs all stages of production. After
 Introducing division of labour, each worker specialises in one stage. Output increases to 250 chairs
-Per day. The factory employs 10 workers, each earning HKD 800 per day. The fixed costs are HKD 2,000
-Per day.
+per day. The factory employs 10 workers, each earning HKD 800 per day. The fixed costs are HKD 2,000
+per day.
 
 (a) Calculate labour productivity before and after division of labour. (b) Calculate the average
 Cost per chair before and after division of labour. (c) If demand for chairs is only 150 per day,
@@ -896,7 +896,7 @@ Pay)
 Average cost per chair = $10,000 / 250 = $40 per chair
 
 The average cost per chair has fallen from HKD 100 to HKD 40, a reduction of 60%. Division of labour
-Has lowered average costs through increased productivity (economies of scale).
+has lowered average costs through increased productivity (economies of scale).
 
 (c) If demand is only 150 chairs per day but the factory produces 250, there is excess supply of 100
 Chairs. This creates unsold inventory, which increases storage costs and ties up capital. The
@@ -914,7 +914,7 @@ Limited, and the difficulty of adjusting highly specialised labour to changing m
 <summary>Question 9: PPC Shift and Economic Growth</summary>
 
 An economy produces only capital goods (K) and consumer goods (C). The PPC shifts outward such that
-The maximum output of K increases from 200 to 300 units, and the maximum output of C increases from
+the maximum output of K increases from 200 to 300 units, and the maximum output of C increases from
 500 to 650 units. The economy was previously producing at point (100 K, 300 C).
 
 (a) What could have caused the PPC to shift outward? (b) After the shift, is the old production
@@ -931,7 +931,7 @@ Explain.
 
 (b) After the shift, the maximum K is 300 and the maximum C is 650. The old point (100 K, 300 C) is
 Well INSIDE the new PPC. With the new PPC, the economy can produce more of both goods. The old point
-Is no longer on the frontier -- it represents underutilisation of the now-expanded resource base.
+is no longer on the frontier -- it represents underutilisation of the now-expanded resource base.
 
 (c) We need to check whether (250 K, 400 C) is on or inside the new PPC. Assuming the PPC remains
 Concave (increasing opportunity cost), we can check whether this combination is feasible.
@@ -940,7 +940,7 @@ The maximum K is 300 (with 0 C) and the maximum C is 650 (with 0 K). The point (
 Represents $250/300 = 83.3\%$ of maximum K and $400/650 = 61.5\%$ of maximum C.
 
 Without knowing the exact shape of the new PPC, we cannot say with certainty whether this point is
-On or outside the curve. However, since the sum of these proportions (83.3% + 61.5% = 144.8%)
+on or outside the curve. However, since the sum of these proportions (83.3% + 61.5% = 144.8%)
 Exceeds 100%, this point may or may not be on the new PPC depending on the curvature. In a typical
 Concave PPC, the point is likely to be feasible (inside or on the curve), because the increasing
 Opportunity cost means the curve bows outward, allowing more of both goods to be produced than a
@@ -988,7 +988,7 @@ Situations, it can also worsen outcomes in others.
 
 **Conclusion:** Government intervention improves outcomes when it corrects market failures, but it
 Can create additional problems (government failures). The optimal level of intervention depends on
-The specific circumstances and the relative costs of market failure versus government failure. A
+the specific circumstances and the relative costs of market failure versus government failure. A
 Mixed economy seeks to balance the efficiency of markets with targeted government intervention where
 Needed.
 
@@ -1210,8 +1210,8 @@ Total implicit costs = 532,000.
 Economic profit = `1,200,000 - 700,000 - 532,000 = -32,000`.
 
 (c) Economic profit is **negative** (-32,000). Despite a positive accounting profit of 500,000, she
-Is worse off than her best alternative (keeping her job and savings). She should return to her job
-Unless she expects economic profit to become positive in future years.
+is worse off than her best alternative (keeping her job and savings). She should return to her job
+unless she expects economic profit to become positive in future years.
 
 If you get this wrong, revise: [Economic vs Accounting Profit](#economic-vs-accounting-profit)
 

@@ -24,7 +24,7 @@ categories:
 Alkanes are saturated hydrocarbons with the general formula $\mathrm{C}_n\mathrm{H}_{2n+2}$.
 "Saturated" means every carbon atom is bonded to the maximum possible number of hydrogen atoms --
 There are no C=C or $\mathrm{C}\equiv\mathrm{C}$ bonds. All carbon-carbon and carbon-hydrogen bonds
-Are $\sigma$ bonds, formed by head-on overlap of hybridised orbitals ($sp^3$ for carbon).
+are $\sigma$ bonds, formed by head-on overlap of hybridised orbitals ($sp^3$ for carbon).
 
 ## Structure and Bonding
 
@@ -49,7 +49,7 @@ Waxy solids.
 
 Boiling point increases with chain length due to increasing surface area and therefore stronger
 London (dispersion) forces. The relationship is approximately linear for the first ~20 members, with
-Each additional $-\mathrm{CH}_2-$ group contributing roughly 20--25 K to the boiling point.
+each additional $-\mathrm{CH}_2-$ group contributing roughly 20--25 K to the boiling point.
 
 Branched alkanes have lower boiling points than their straight-chain isomers because branching
 Reduces the surface area for intermolecular contact. For example, 2,2-dimethylpropane (b.p.
@@ -210,7 +210,7 @@ $$
 $$
 
 This uses mean bond enthalpies and introduces systematic error because the actual bond enthalpies in
-The specific molecules differ from the mean values. For precise work, experimental enthalpies (from
+the specific molecules differ from the mean values. For precise work, experimental enthalpies (from
 Calorimetry) must be used.
 
 **Worked Example.** Estimate $\Delta H_c$ for methane using mean bond enthalpies: C--H =
@@ -397,7 +397,7 @@ main approaches.
 <summary>Problem 1</summary>
 
 Write the mechanism for the radical bromination of ethane to give bromoethane. Calculate $\Delta H$
-For each propagation step given: C--H bond enthalpy in ethane $= 420\,\mathrm{kJ/mol}$ H--Br bond
+for each propagation step given: C--H bond enthalpy in ethane $= 420\,\mathrm{kJ/mol}$ H--Br bond
 Enthalpy $= 366\,\mathrm{kJ/mol}$ C--Br bond enthalpy in bromoethane $= 285\,\mathrm{kJ/mol}$ Br--Br
 bond enthalpy $= 193\,\mathrm{kJ/mol}$.
 
@@ -445,7 +445,7 @@ $$
 
 In practice, the tertiary product predominates even more than this ratio predicts because the
 Statistical calculation assumes all primary positions are equivalent, but in 2-methylpropane there
-Are two different primary environments ($-\mathrm{CH}_3$ on C-1 vs $-\mathrm{CH}_3$ on C-3). The
+are two different primary environments ($-\mathrm{CH}_3$ on C-1 vs $-\mathrm{CH}_3$ on C-3). The
 Tertiary radical $(\mathrm{CH}_3)_3\mathrm{C}^\bullet$ is stabilised by hyperconjugation from the
 Nine neighbouring C--H bonds and the inductive effect of three methyl groups, making it
 Significantly lower in energy than the primary radical

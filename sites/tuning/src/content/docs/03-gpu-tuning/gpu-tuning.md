@@ -83,7 +83,7 @@ Base and boost clocks.
 ### How GPU Boost Works
 
 NVIDIA's GPU Boost (version 3.0 and later on Maxwell+) is an autonomous frequency scaling algorithm
-That continuously adjusts the GPU clock speed based on:
+that continuously adjusts the GPU clock speed based on:
 
 1. **Power consumption**. Current draw vs. The configured power limit
 2. **Temperature**. Current temperature vs. The thermal throttling threshold
@@ -102,17 +102,17 @@ Frequency.
   cooling, sufficient power, and a workload that hits the right utilization pattern).
 
 In practice, most GPUs boost above the listed boost clock because the boost specification is based
-On a specific temperature and power envelope. If your cooling is better than the reference design,
+on a specific temperature and power envelope. If your cooling is better than the reference design,
 The GPU will boost higher.
 
 ### Voltage/Frequency Curve
 
 NVIDIA GPUs operate along a voltage/frequency (V/F) curve. Each frequency point has a minimum
 Voltage required for stability. The GPU Boost algorithm selects the highest frequency point where
-The current conditions (temperature, power, voltage) allow operation.
+the current conditions (temperature, power, voltage) allow operation.
 
 The V/F curve is non-linear, higher frequencies require disproportionately more voltage. This is
-Because:
+because:
 
 $$
 P \propto V^2 \times F
@@ -137,7 +137,7 @@ Allows the GPU to sustain higher average frequencies under thermal constraints.
 ## AMD PowerPlay
 
 AMD's equivalent to GPU Boost is PowerPlay, which manages GPU frequency and voltage based on thermal
-And power constraints. The principles are similar but the implementation differs:
+and power constraints. The principles are similar but the implementation differs:
 
 - AMD GPUs use a "power limit" rather than a hard frequency/voltage curve. The GPU boosts as high as
   possible within the power budget.
@@ -274,7 +274,7 @@ Increases memory bandwidth, which benefits workloads that are memory-bandwidth b
 :::caution
 (machine learning, rendering, scientific computing), memory instability can produce silently
 Incorrect results. Thoroughly test with error-checking workloads (e.g., CUDA memtest) before relying
-On an overclocked GPU for production compute.
+on an overclocked GPU for production compute.
 
 ---
 
@@ -852,7 +852,7 @@ For GPU rendering (Blender, Octane, V-Ray):
 ### Cryptocurrency Mining (Historical Context)
 
 While cryptocurrency mining profitability has decreased, the tuning principles remain relevant for
-Any sustained full-load GPU workload:
+any sustained full-load GPU workload:
 
 - **Core clock is less important than memory clock** for most mining algorithms (Ethash, RandomX).
 - **Power efficiency** is the primary optimization target. The goal is maximum hashrate per watt.

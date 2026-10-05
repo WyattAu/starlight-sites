@@ -21,17 +21,17 @@ categories:
 ## ACID Properties
 
 ACID is the set of guarantees that a relational database transaction provides. Understanding what
-Each property actually guarantees -- and what it does not -- is critical for building correct
+each property actually guarantees -- and what it does not -- is critical for building correct
 Concurrent systems.
 
 ### Atomicity
 
 A transaction is an all-or-nothing unit of work. Either all operations in the transaction commit, or
-None of them do. If the transaction fails at any point (constraint violation, system crash, network
+none of them do. If the transaction fails at any point (constraint violation, system crash, network
 Failure), the database rolls back to the state before the transaction began.
 
 Implementation: the database writes changes to a **write-ahead log (WAL)** before applying them to
-The data files. On recovery, the WAL is replayed (committed transactions) or undone (uncommitted
+the data files. On recovery, the WAL is replayed (committed transactions) or undone (uncommitted
 Transactions).
 
 ```sql
@@ -67,8 +67,8 @@ Once a transaction commits, its effects are permanent, even in the event of a sy
 Failure, or hardware fault. The database must guarantee that committed data can be recovered.
 
 Implementation: committed WAL records are flushed to disk (fsync) before the COMMIT returns success
-To the client. The actual data pages may be flushed to disk later (write-back caching), but the WAL
-Is the authoritative source for recovery.
+to the client. The actual data pages may be flushed to disk later (write-back caching), but the WAL
+is the authoritative source for recovery.
 
 ```sql
 -- fsync is the bottleneck for commit latency
@@ -142,7 +142,7 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 - PostgreSQL treats this as READ COMMITTED (it always prevents dirty reads)
 
 Use case: approximate aggregate queries where exact precision is not required (e.g., "roughly how
-Many orders today?").
+many orders today?").
 
 ### READ COMMITTED
 
@@ -381,7 +381,7 @@ Serializability.
 2. **Shrinking phase:** the transaction releases locks but does not acquire any
 
 Once a transaction releases its first lock, it enters the shrinking phase and cannot acquire any
-More locks. This protocol prevents cascading aborts and guarantees serializability.
+more locks. This protocol prevents cascading aborts and guarantees serializability.
 
 ### Variants
 
@@ -443,7 +443,7 @@ UPDATE accounts SET balance = balance + 500 WHERE id = GREATEST(1, 2);
 ## Savepoints
 
 Savepoints allow you to set markers within a transaction and roll back to a specific savepoint
-Without aborting the entire transaction.
+without aborting the entire transaction.
 
 ```sql
 BEGIN;
@@ -627,7 +627,7 @@ Spurious failures. Implement retry logic with exponential backoff.
 ### Ignoring Connection State Between Transactions
 
 Connection poolers in transaction mode (PgBouncer) reset the session state between transactions. If
-You `SET` a variable (e.g., `SET search_path TO tenant_123`), it will not persist to the next
+you `SET` a variable (e.g., `SET search_path TO tenant_123`), it will not persist to the next
 Transaction. Use `SET LOCAL` for transaction-scoped settings, or use session pooling.
 
 ### Mixing Isolation Levels Without Understanding the Implications
@@ -639,7 +639,7 @@ Uncommitted transactions that will be rolled back, leading to incorrect metrics.
 ### Forgetting That LOCK TABLE Blocks All Other Operations
 
 `LOCK TABLE accounts IN ACCESS EXCLUSIVE MODE` blocks all reads and writes on the table from all
-Other transactions. Use the most restrictive lock that suffices: `ACCESS SHARE` (default for
+other transactions. Use the most restrictive lock that suffices: `ACCESS SHARE` (default for
 SELECT), `ROW EXCLUSIVE` (default for UPDATE/DELETE/INSERT), or `SHARE UPDATE EXCLUSIVE` (for
 VACUUM-like operations).
 

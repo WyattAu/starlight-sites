@@ -222,7 +222,7 @@ $P(X \leq 5) = 0.0207 \leq 0.025$. So $k = 5$ (critical region: $X \leq 5$).
 $P(X \geq 15) = P(X \leq 5) = 0.0207 \leq 0.025$. So $k = 15$ (critical region: $X \geq 15$).
 
 Since $X = 15$ falls in the critical region, we **reject** $H_0$. There is sufficient evidence at
-The 5% level to conclude the coin is biased.
+the 5% level to conclude the coin is biased.
 
 ### 4.3 Finding the actual significance level
 
@@ -245,7 +245,7 @@ not exceed $\alpha$ And is as close as possible to $\alpha$.
 ### 5.1 Definition
 
 The **critical region** (or rejection region) is the set of values of the test statistic that lead
-To rejection of $H_0$. The **acceptance region** is its complement.
+to rejection of $H_0$. The **acceptance region** is its complement.
 
 ### 5.2 Finding the critical region
 
@@ -280,7 +280,7 @@ Increased.
 
 **Problem.** The masses of packets of biscuits are normally distributed with standard deviation
 $3\;\mathrm{g}$. A sample of 10 packets has mean mass $248\;\mathrm{g}$. Find the critical region
-For testing whether the mean mass is less than $250\;\mathrm{g}$ at the 1% significance level.
+for testing whether the mean mass is less than $250\;\mathrm{g}$ at the 1% significance level.
 
 $H_0: \mu = 250$, $H_1: \mu \lt 250$.
 
@@ -326,7 +326,7 @@ six.
 ### Problem 2
 
 A manufacturer claims that the mean lifetime of a component is 500 hours. A sample of 25 components
-Has mean lifetime 490 hours with standard deviation 15 hours. Test the claim at the 5% significance
+has mean lifetime 490 hours with standard deviation 15 hours. Test the claim at the 5% significance
 Level.
 
 <details>

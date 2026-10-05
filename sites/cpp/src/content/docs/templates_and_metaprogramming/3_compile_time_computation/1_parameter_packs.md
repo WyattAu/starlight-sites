@@ -145,7 +145,7 @@ Important idioms in modern C++ template programming.
 ## Variadic Class Templates
 
 Parameter packs are not limited to function templates. A **variadic class template** accepts a pack
-Of type parameters, enabling type-safe heterogeneous containers and mixin-style composition [N4950
+of type parameters, enabling type-safe heterogeneous containers and mixin-style composition [N4950
 §13.7.3].
 
 ```cpp
@@ -488,7 +488,7 @@ Overload resolution rules [N4950 §12.4.3], but it can be surprising.
 ### Ambiguous Overloads with Variadics
 
 A variadic template can shadow all other overloads in the same scope. The workaround is to constrain
-The variadic with `requires` or SFINAE:
+the variadic with `requires` or SFINAE:
 
 ```cpp
 #include <iostream>
@@ -522,7 +522,7 @@ int main() {
 ### Expanding Into the Wrong Context
 
 Pack expansion must appear in a valid expansion context [N4950 §13.7.3]. You cannot expand a pack in
-An arbitrary position:
+an arbitrary position:
 
 ```cpp
 #include <iostream>
@@ -549,7 +549,7 @@ int main() {
 ### Perfect Forwarding with Parameter Packs
 
 When using forwarding references (`Args&&...`) with parameter packs, always use `std::forward` in
-The expansion. Forgetting to forward degrades rvalues to lvalues:
+the expansion. Forgetting to forward degrades rvalues to lvalues:
 
 ```cpp
 #include <iostream>

@@ -105,7 +105,7 @@ type Before performing arithmetic is one of the most common errors in student pr
 ### Nested Selection
 
 Nested IF statements occur when one IF statement is placed inside another. Each level of nesting
-Should be indented for clarity.
+should be indented for clarity.
 
 <details>
 <summary>Worked Example: Nested IF for Fee Calculation</summary>
@@ -233,7 +233,7 @@ END
 <summary>Worked Example: Combined Loop Patterns</summary>
 
 Write a program to read N numbers, output the sum, average, maximum, minimum, and count of numbers
-Above the average.
+above the average.
 
 ```python
 BEGIN
@@ -446,7 +446,7 @@ END FUNCTION
 ```
 
 This compares the first character with the last, the second with the second-to-last, and so on. If
-Any pair does not match, the function returns FALSE immediately.
+any pair does not match, the function returns FALSE immediately.
 
 </details>
 
@@ -1013,7 +1013,7 @@ Result: Found at index 3.
 
 (c) Binary search has O(log n) complexity. For n = 1000: $\log_2(1000) \approx 9.97$. The maximum
 Number of comparisons is $\lceil \log_2(1000) \rceil = 10$. (The array needs at most 10 comparisons
-Because $2^{10} = 1024 > 1000$.)
+because $2^{10} = 1024 > 1000$.)
 
 </details>
 

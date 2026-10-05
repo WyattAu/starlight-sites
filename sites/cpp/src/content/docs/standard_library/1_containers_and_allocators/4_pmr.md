@@ -90,8 +90,8 @@ int main() {
 
 `std::pmr::monotonic_buffer_resource` [N4950 §23.10.5] implements **arena allocation**: memory is
 Allocated from an initial buffer, and when that buffer is exhausted, a new buffer is obtained from
-An upstream resource. Critically, **individual deallocations are no-ops** --- all memory is released
-When the resource itself is destroyed.
+an upstream resource. Critically, **individual deallocations are no-ops** --- all memory is released
+when the resource itself is destroyed.
 
 This makes `monotonic_buffer_resource` ideal for scenarios with many short-lived allocations:
 
@@ -278,7 +278,7 @@ int main() {
 :::caution
 Create container A, then container B, and A still holds references to memory allocated from B's
 Objects, those references may dangle if B is destroyed and its memory is recycled. Arena allocation
-Is safest when all allocations share the same lifetime scope.
+is safest when all allocations share the same lifetime scope.
 :::
 
 ### Integration Pattern: Dependency Injection of Memory Resources
@@ -485,8 +485,8 @@ Single-threaded code, `unsynchronized_pool_resource` is strictly faster.
 ### Common Pitfalls
 
 **1. `monotonic_buffer_resource` and dangling references:** Since individual `deallocate` calls are
-No-ops, destroying a container that allocated from a monotonic buffer does not free memory. If
-Another object still holds a reference or pointer to memory from that destroyed container, the
+no-ops, destroying a container that allocated from a monotonic buffer does not free memory. If
+another object still holds a reference or pointer to memory from that destroyed container, the
 Reference dangles. All objects using a `monotonic_buffer_resource` should share the same lifetime
 Scope as the resource itself.
 
@@ -496,7 +496,7 @@ benefit. Profile actual allocation patterns and size the buffer accordingly. A c
 to measure peak allocation during a trial run and use that plus a safety margin.
 
 **3. `polymorphic_allocator` is not a drop-in replacement for `std::allocator`:** PMR containers
-Have a different type (`std::vector&lt;T, std::pmr::polymorphic_allocator&lt;T>>`) from standard
+have a different type (`std::vector&lt;T, std::pmr::polymorphic_allocator&lt;T>>`) from standard
 Containers (`std::vector&lt;T>`). They are not interchangeable in APIs that expect a specific
 Allocator type. Design APIs to accept `memory_resource*` and construct PMR containers internally.
 

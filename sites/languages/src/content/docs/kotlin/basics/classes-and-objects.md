@@ -326,12 +326,12 @@ val listener = object : MouseAdapter() {
 ```
 
 Anonymous objects used as local variables have an anonymous type. If you need to pass the object
-Outside its declaration scope, declare the type explicitly or use an interface.
+outside its declaration scope, declare the type explicitly or use an interface.
 
 ## Companion Objects
 
 A companion object is an object declaration tied to a class. Members declared in it are accessed via
-The class name -- analogous to Java static members.
+the class name -- analogous to Java static members.
 
 ```kotlin
 class User private constructor(
@@ -354,7 +354,7 @@ val user2 = User.fromJson("""{"name": "Bob", "email": "bob@example.com"}""")
 ```
 
 The companion object can have a name (e.g., `Factory`) or use the default name `Companion`. A class
-Can have only one companion object.
+can have only one companion object.
 
 Companion objects can implement interfaces:
 

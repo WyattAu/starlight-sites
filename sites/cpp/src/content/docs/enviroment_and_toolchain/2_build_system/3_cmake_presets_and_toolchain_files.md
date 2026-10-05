@@ -24,7 +24,7 @@ Developer on Windows, and a CI/CD agent should all generate the build environmen
 Same logic.
 
 Reliance on "magic" shell scripts (`build.sh``configure.bat`) or lengthy command-line arguments is
-An anti-pattern. Modern CMake resolves this through two architectural components:
+an anti-pattern. Modern CMake resolves this through two architectural components:
 
 1. **Toolchain Files:** Define **WHAT** tools are used (Compilers, Sysroot, Target Architecture).
 2. **CMake Presets:** Define **HOW** the build is configured (Generator, Flags, Output Directories,
@@ -246,7 +246,7 @@ Differ (e.g., where `vcpkg` is installed).
 ### Example: Local Vcpkg Override
 
 A developer can create `CMakeUserPresets.json` to inject their local vcpkg path without modifying
-The shared project file.
+the shared project file.
 
 ```json
 {

@@ -104,7 +104,7 @@ Reactivity increases down the group as $IE_1$ decreases.
 | Rb, Cs | Superoxides                | Superoxides                            |
 
 The trend from oxide to peroxide to superoxide down the group reflects the decreasing charge density
-Of the $\mathrm{M}^+$ ion, which stabilizes the larger anions ($\mathrm{O}_2^{2-}$
+of the $\mathrm{M}^+$ ion, which stabilizes the larger anions ($\mathrm{O}_2^{2-}$
 $\mathrm{O}_2^-$).
 
 #### Flame Tests
@@ -147,7 +147,7 @@ Outer configuration: $ns^2$. They lose two electrons to form $\mathrm{M}^{2+}$ i
 #### Reactivity with Water
 
 Reactivity increases down the group. Beryllium does not react with water. Magnesium reacts slowly
-With steam. Calcium, strontium, and barium react with cold water.
+with steam. Calcium, strontium, and barium react with cold water.
 
 $$
 \mathrm{M}(s) + 2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{M(OH)}_2(aq) + \mathrm{H}_2(g)
@@ -456,7 +456,7 @@ Sulfate is the least soluble?
 **Solution:**
 
 Solubility of Group 2 sulfates **decreases** down the group. The hydration enthalpy (energy released
-When ions are hydrated) decreases more rapidly than the lattice energy as the cation size increases.
+when ions are hydrated) decreases more rapidly than the lattice energy as the cation size increases.
 Since the lattice energy does not decrease as fast, the enthalpy of solution becomes less favourable
 (less negative or more positive) down the group.
 
@@ -474,7 +474,7 @@ A very high melting point ($1843\degree\mathrm{C}$).
 **Solution:**
 
 $\mathrm{TiCl}_4$ is a simple molecular (covalent) compound with weak London dispersion forces
-Between molecules, so it is a liquid at room temperature (bp $136\degree\mathrm{C}$).
+between molecules, so it is a liquid at room temperature (bp $136\degree\mathrm{C}$).
 
 $\mathrm{TiO}_2$ has a giant ionic lattice structure. The strong electrostatic forces between
 $\mathrm{Ti}^{4+}$ and $\mathrm{O}^{2-}$ ions require a large amount of energy to overcome,

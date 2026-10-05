@@ -128,7 +128,7 @@ If $n_r \neq 1$ Then $n_r \geq r + 1 > q + 1 > p + 1$. Since $n_r$ divides $pq$ 
 $n_r = pq$. This means there are $pq(r - 1)$ non-identity elements in Sylow $r$-subgroups.
 
 Similarly, $n_q \equiv 1 \pmod{q}$ and $n_q$ divides $pr$. If $n_q = pr$ There are $pr(q - 1)$
-Non-identity elements in Sylow $q$-subgroups.
+non-identity elements in Sylow $q$-subgroups.
 
 If both $n_r = pq$ and $n_q = pr$ The total number of non-identity elements is at least
 $pq(r-1) + pr(q-1) = pqr - pq + pqr - pr = 2pqr - p(q+r)$ Which exceeds $pqr - 1$ for most values. So

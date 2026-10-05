@@ -24,7 +24,7 @@ categories:
 ### AGPLv3 (Affero General Public License v3)
 
 AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation
-In 2007. It is identical to GPLv3 with one critical addition: **Section 13, the "Network
+in 2007. It is identical to GPLv3 with one critical addition: **Section 13, the "Network
 Interaction" clause.**
 
 Section 13 states that if you modify the program and offer users the ability to interact with it
@@ -53,7 +53,7 @@ Traditional copyright law sense.
 **Why it is the strongest copyleft in common use:**
 
 AGPLv3 combines the strong copyleft of GPLv3 with the network interaction trigger of Section 13. No
-Other widely-used license requires source code distribution for network-accessible services. This
+other widely-used license requires source code distribution for network-accessible services. This
 Means AGPLv3 reaches situations where GPLv3 and GPLv2 do not: any SaaS deployment, any internal
 Microservice architecture where services communicate over HTTP, any web application.
 
@@ -114,13 +114,13 @@ Carries the "or any later version" clause (e.g., "Licensed under the GNU General
 Version 2, or at your option any later version") can be relicensed under GPLv3. But code licensed
 Strictly under "GPLv2 only" cannot be combined with GPLv3 code into a single work, because GPLv3
 Adds restrictions (patent retaliation, anti-Tivoization) that GPLv2 Section 4 does not permit, you
-May not add additional restrictions to GPLv2.
+may not add additional restrictions to GPLv2.
 
 ### LGPLv3 (GNU Lesser General Public License v3)
 
 LGPLv3 is the "weak copyleft" license. It allows proprietary software to link to LGPL-licensed
 Libraries without being subject to copyleft obligations for the proprietary parts, while ensuring
-That modifications to the LGPL-licensed code itself remain free.
+that modifications to the LGPL-licensed code itself remain free.
 
 **The linking boundary, the critical distinction:**
 
@@ -151,7 +151,7 @@ Relinking, but your own code is not subject to copyleft.
 **FSF recommendation:** The FSF now recommends using GPLv3 with an explicit linking exception (e.g.,
 The GCC Runtime Library Exception) over LGPLv3 for new libraries. A linking exception is more
 Precise than the generalized LGPL framework because it can define exactly which linking activities
-Are exempt from copyleft, rather than relying on the ambiguous legal concept of what constitutes
+are exempt from copyleft, rather than relying on the ambiguous legal concept of what constitutes
 "linking" versus "derivative work."
 
 ### GPLv2 (GNU General Public License v2)
@@ -164,7 +164,7 @@ Or Death" clause (Section 7):** if conditions are imposed on you that require yo
 GPLv2 (e.g., a court order or legal requirement) in order to distribute the software, you may not
 Distribute the software at all. If you cannot distribute the software while simultaneously
 Satisfying both the GPLv2 and the other conditions, you must cease distribution. This was a response
-To concerns that laws in some jurisdictions might restrict the freedom to redistribute.
+to concerns that laws in some jurisdictions might restrict the freedom to redistribute.
 
 **The "or later" clause:** Many GPLv2 projects include the language: "GNU General Public License as
 Published by the Free Software Foundation; either version 2 of the License, or (at your option) any
@@ -202,7 +202,7 @@ Covered by MPL 2.0, not to the entire combined work or project.
 
 **Why Firefox uses MPL 2.0:** Firefox is a large project with contributions from many organizations,
 Including corporations that ship proprietary code alongside Mozilla's code. MPL 2.0 allows Mozilla
-To keep its own code under copyleft while allowing third-party code in the same codebase to be under
+to keep its own code under copyleft while allowing third-party code in the same codebase to be under
 Different licenses. This is why Firefox's codebase can contain both MPL-licensed Mozilla code and
 Proprietary third-party code (e.g., Google-sourced code for the default search partnership, DRM
 Components for Widevine).
@@ -262,7 +262,7 @@ Provisions, ambiguous attribution requirements for partial use).
 **Key nuance, "substantial portions":** The requirement to include the license applies to "all
 Copies or substantial portions of the Software." If you use a single MIT-licensed function in a
 Large project, you likely do not need to include the MIT license text for the entire project, but
-You must still include the copyright notice for that specific code. If you copy a significant
+you must still include the copyright notice for that specific code. If you copy a significant
 Portion (a module, a library, a substantial codebase), you must include the full license text. This
 Ambiguity is one reason some organizations prefer Apache 2.0, which has more explicit attribution
 Requirements tied to `NOTICE` files.
@@ -336,7 +336,7 @@ University of California, Berkeley Computer Systems Research Group (CSRG).
 **Historical context, the original 4-Clause BSD license:**
 
 The original BSD license had four clauses. The third clause (the "advertising clause") required that
-All advertising materials for products containing the software acknowledge that the software was
+all advertising materials for products containing the software acknowledge that the software was
 Developed by UC Berkeley. This became impractical as the number of BSD-licensed components grew, a
 Single product might need to list dozens of institutions in its advertisements. The clause was
 Officially removed in 1999 by William Hoskins, Director of the Office of Technology Licensing at UC
@@ -345,7 +345,7 @@ Impractical attribution burden.
 
 **BSD 3-Clause vs MIT:** Functionally, BSD 3-Clause and MIT are very similar. Both grant broad
 Permission to use, modify, and redistribute, with attribution requirements. The primary difference
-Is that BSD 3-Clause explicitly prohibits using the copyright holders' names for endorsement, while
+is that BSD 3-Clause explicitly prohibits using the copyright holders' names for endorsement, while
 MIT handles this implicitly by not granting trademark rights. Many legal opinions consider them
 Effectively equivalent in practice.
 
@@ -364,7 +364,7 @@ License.
 
 **Why it exists:** The MIT License's original wording includes a clause stating that the license is
 Governed by the laws of the Commonwealth of Massachusetts (where MIT is located). The ISC License
-Was created to provide a simpler, jurisdiction-neutral alternative. In practice, this distinction is
+was created to provide a simpler, jurisdiction-neutral alternative. In practice, this distinction is
 Largely irrelevant, both licenses are interpreted the same way in all jurisdictions, and modern MIT
 License texts often omit the jurisdiction clause.
 
@@ -451,7 +451,7 @@ The Unlicense is a public domain dedication with a fallback license, created by 
 
 **Practical note:** The Unlicense is more commonly used for small utilities and scripts than for
 Substantial software projects. Its lack of an explicit patent grant makes it riskier than Apache 2.0
-For use in jurisdictions with active software patent litigation (notably the US).
+for use in jurisdictions with active software patent litigation (notably the US).
 
 ### WTFPL (Do What The F\*ck You Want To Public License)
 
@@ -592,11 +592,11 @@ Repeatedly declined to approve BSL.
 
 SSPL was created by MongoDB in 2018 as a direct response to cloud providers, specifically AWS,
 Offering MongoDB-compatible managed database services without contributing code or revenue back to
-The MongoDB project.
+the MongoDB project.
 
 **Mechanism:** SSPL is a modified version of AGPLv3. The critical change is in Section 13: instead
 Of merely requiring source code distribution for network users (as AGPLv3 does), SSPL requires that
-If you "offer the functionality of the Program to users as a service," you must also provide the
+if you "offer the functionality of the Program to users as a service," you must also provide the
 Source code of **all programs** you use to make that service available, including management tools,
 Monitoring systems, user interfaces, backup systems, and any other software that is part of the
 Service infrastructure.
@@ -619,7 +619,7 @@ Maintaining a competitive cloud service, which is precisely the intent.
 
 **OSI rejection:** The OSI has not approved SSPL and has stated that it does not meet the Open
 Source Definition. The requirement to provide source code for all service-related software extends
-The copyleft obligation far beyond the scope of the covered software, imposing conditions on
+the copyleft obligation far beyond the scope of the covered software, imposing conditions on
 Unrelated programs, which violates OSD 9 (License Must Not Restrict Other Software).
 
 ### Source-Available vs Open Source
@@ -645,8 +645,8 @@ If a license fails even one criterion, it is not open source by the OSI definiti
 
 **Source-available** means the source code is published and readable, but the license does not meet
 All ten criteria. Source-available licenses may restrict who can use the software, what they can use
-It for, how they can distribute it, or what obligations they have regarding their own code. The code
-Is available for inspection, but the license does not grant the full set of freedoms that open
+it for, how they can distribute it, or what obligations they have regarding their own code. The code
+is available for inspection, but the license does not grant the full set of freedoms that open
 Source requires.
 
 **Why Redis and HashiCorp moved to source-available:**
@@ -664,7 +664,7 @@ Unrestricted freedom and the economic reality that large cloud providers can mon
 Projects at massive scale without contributing code, bug fixes, or revenue back to the projects they
 Depend on. Source-available licenses are an attempt to preserve the open-source development model
 (public repositories, community contributions, transparency) while restricting the specific use case
-That the licensors consider exploitative.
+that the licensors consider exploitative.
 
 Whether source-available licenses are a legitimate defense of open-source sustainability or a
 Betrayal of open-source principles depends on your position in the debate. The OSI's position is
@@ -696,12 +696,12 @@ a container image is a distributable artifact that embeds copies of the software
 
 **Internal use is NOT distribution.** Running software on your own servers, even if accessed by
 Employees or contractors, does not constitute distribution. The copyleft obligations of GPL and LGPL
-Are not triggered by internal use alone. This is why you can run GPL-licensed software internally
-Without being required to provide source code to your employees.
+are not triggered by internal use alone. This is why you can run GPL-licensed software internally
+without being required to provide source code to your employees.
 
 **Important caveat, AGPLv3 Section 13:** AGPLv3 creates a separate trigger (network interaction)
 That operates independently of distribution. Even if no copy is distributed, AGPLv3 obligations can
-Be triggered by making the software available over a network to external users.
+be triggered by making the software available over a network to external users.
 
 ### Static Linking vs Dynamic Linking
 
@@ -745,7 +745,7 @@ Increasingly relevant as containerization becomes the standard deployment model.
 **Does shipping a container count as distributing the software inside it?**
 
 Yes, in essentially all interpretations. A Docker image is a distributable artifact, when you push
-An image to a registry (Docker Hub, ECR, GCR, etc.) and another party pulls it, you have distributed
+an image to a registry (Docker Hub, ECR, GCR, etc.) and another party pulls it, you have distributed
 Copies of every piece of software in that image. This means:
 
 - If the container includes GPL-licensed code, the copyleft obligations apply to the entire
@@ -903,8 +903,8 @@ Consult legal counsel before relying on this interpretation.
 
 **Using GPL libraries in a web service without understanding AGPL implications.** If you are
 Building a web service and want to use a GPL-licensed library, you may think you are safe because
-You are not "distributing" the software (you are hosting it internally). This is correct for GPLv2
-And GPLv3, hosting as a service does not trigger their copyleft obligations. However, if the
+you are not "distributing" the software (you are hosting it internally). This is correct for GPLv2
+and GPLv3, hosting as a service does not trigger their copyleft obligations. However, if the
 Library is AGPLv3 (not GPLv3), network interaction triggers the copyleft obligation under Section
 13, and you must provide source code to your users. Always check the exact license version, not just
 "GPL."
@@ -913,7 +913,7 @@ Library is AGPLv3 (not GPLv3), network interaction triggers the copyleft obligat
 Restrictions that are incompatible with GPLv2. GPLv3 was specifically designed to accommodate Apache
 2.0's terms, so GPLv3 + Apache 2.0 is fine. But GPLv2 + Apache 2.0 is not. The Apache 2.0 patent
 Retaliation terms are "additional restrictions" that GPLv2 Section 4 prohibits. If you are working
-On a GPLv2-only project (like the Linux kernel), you cannot incorporate Apache 2.0-licensed code.
+on a GPLv2-only project (like the Linux kernel), you cannot incorporate Apache 2.0-licensed code.
 
 **Not including license notices in binary distributions.** Most permissive licenses (MIT, BSD,
 Apache 2.0) require including the license text in binary distributions. This is not optional, it is
@@ -921,7 +921,7 @@ A condition of the license grant. Failing to include license notices in your shi
 Your downstream recipients do not have a valid license to use the software, and you are committing
 Copyright infringement. In practice, your binary distribution must include a `LICENSE` file, a
 `NOTICE` file (for Apache 2.0), or equivalent documentation containing all applicable license texts
-And copyright notices. Automate this, tools like `licensee``go-licenses`And `pip-licenses` can
+and copyright notices. Automate this, tools like `licensee``go-licenses`And `pip-licenses` can
 Generate license notice bundles for your distribution.
 
 ## Further Reading

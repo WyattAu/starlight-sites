@@ -350,7 +350,7 @@ $$
 $$
 
 $$
-This is the minimum non-zero thickness for destructive reflection of $550\,\text{nm}$ light.
+this is the minimum non-zero thickness for destructive reflection of $550\,\text{nm}$ light.
 
 ## Common Mistakes
 

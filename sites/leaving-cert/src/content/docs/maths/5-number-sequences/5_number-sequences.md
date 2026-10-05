@@ -197,7 +197,7 @@ $x \in (A \cap B)' \iff x \notin A \cap B \iff x \notin A \mathrm{ or  x \notin 
 
 **Proof of the inclusion-exclusion principle for two sets.** Every element of $A \cup B$ is in $A$
 Or in $B$ or in both. Counting elements of $A$ and $B$ separately double-counts those in $A \cap B$
-So we subtract $|A \cap B|$ to correct:
+so we subtract $|A \cap B|$ to correct:
 
 $$
 |A \cup B| = |A| + |B| - |A \cap B|

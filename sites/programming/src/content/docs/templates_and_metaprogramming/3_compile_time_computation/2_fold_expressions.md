@@ -217,7 +217,7 @@ Unary left fold `(... op pack)` expands to a left-associative expression tree.
 **Proof for unary right fold:**
 
 By [N4950 §7.6.1], a unary right fold `(pack op ...)` with pack expansion $(e_1, e_2, \ldots, e_n)$
-Is defined as:
+is defined as:
 
 $$
 e_1 \oplus (e_2 \oplus (e_3 \oplus (\ldots \oplus e_n)))
@@ -250,7 +250,7 @@ $$
 $$
 
 The inductive structure is: the fold of the first $n$ elements forms the left operand, and $e_{n+1}$
-Is the right operand. This produces a left-associative tree. $\blacksquare$
+is the right operand. This produces a left-associative tree. $\blacksquare$
 
 **Corollary:** For an operator $\oplus$ that is not associative, left and right folds over the same
 Pack produce different results. The programmer must choose the fold direction deliberately.
@@ -466,7 +466,7 @@ Binary fold.
 ## Fold with Comma Operator
 
 The comma operator is special in fold expressions. It evaluates each operand for its side effects
-And discards the values, making it ideal for "do something for each element" patterns:
+and discards the values, making it ideal for "do something for each element" patterns:
 
 ```cpp
 #include <iostream>
@@ -702,7 +702,7 @@ binary fold operator.
 The return type of a fold expression is determined by the operator and the types of the pack
 Elements (and the initial value, for binary folds). For homogeneous packs, the result type is the
 Common type. For heterogeneous packs, the usual arithmetic conversion rules apply. For binary folds
-With an initial value, the initial value participates in the type deduction.
+with an initial value, the initial value participates in the type deduction.
 
 ```cpp
 #include <iostream>
@@ -731,7 +731,7 @@ Used purely for side effects.
 ## Fold Expressions in Constraints
 
 Fold expressions are commonly used inside `requires`-expressions and concepts to express constraints
-Over parameter packs:
+over parameter packs:
 
 ```cpp
 #include <concepts>

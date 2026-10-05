@@ -495,24 +495,24 @@ Let me recalculate.
 Actually: nodes at depths 0 through 5 = $2^6 - 1 = 63$. Nodes at depth 6 = $100 - 63 = 37$. The 37
 Nodes at depth 6 are all leaves. Of the 32 nodes at depth 5, those that have children at depth 6 are
 Internal (37 of them, but we only have 32). Actually all 32 nodes at depth 5 are internal (they each
-Have children at depth 6, filling left to right). Wait, 37 nodes at depth 6 and 32 at depth 5 means
-Each of the 32 nodes at depth 5 has at least one child. The first 5 have two children
+have children at depth 6, filling left to right). Wait, 37 nodes at depth 6 and 32 at depth 5 means
+each of the 32 nodes at depth 5 has at least one child. The first 5 have two children
 ($5 \times 2 = 10$), the remaining 27 have one child each. So $32 - 37$... That doesn't work.
 
 Let me reconsider: 32 nodes at depth 5 can have up to 64 children. We have 37 children at depth 6.
 So $37 - 32 = 5$ nodes have two children, and $32 - 5 = 27$ nodes have exactly one child. The
 Remaining nodes at depths 0–4 that have no children are internal (by definition they have children
-Since they're not at the bottom). So leaves = nodes at depth 6 that have no children = 37. Wait,
+since they're not at the bottom). So leaves = nodes at depth 6 that have no children = 37. Wait,
 Nodes at depth 6 are always leaves in a complete binary tree. So leaves = 37. Internal nodes =
 $100 - 37 = 63$.
 
 Hmm, but also leaves = $\lceil 100/2 \rceil = 50$... That formula is for a different notion. Let me
-Just state: leaves = 37 (at depth 6), internal = 63.
+just state: leaves = 37 (at depth 6), internal = 63.
 
 Actually the formula $\lceil n/2 \rceil$ for leaves applies to **perfect** binary trees and doesn't
 Hold for all complete binary trees. For this complete tree: leaves = $n - (2^h - 1) = 100 - 63 = 37$
-At the bottom level, plus any nodes at the second-to-last level that have no children. All 32 nodes
-At level 5 have at least one child (since we fill left to right and have 37 children). So leaves
+at the bottom level, plus any nodes at the second-to-last level that have no children. All 32 nodes
+at level 5 have at least one child (since we fill left to right and have 37 children). So leaves
 = 37.
 
 Wait, I need to reconsider. The 32 nodes at level 5 need 37 children. The first $37$ "slots" at
@@ -549,7 +549,7 @@ Are distinct.
 **Proof.** The first element of a pre-order traversal is the root. All subsequent elements before
 The first element greater than the root belong to the left subtree, and all elements from that point
 Onward belong to the right subtree. This recursively partitions the traversal, uniquely determining
-The tree structure. $\square$
+the tree structure. $\square$
 
 #### Detailed example
 
@@ -678,7 +678,7 @@ Step-by-step trace:
 <summary>Hint</summary>
 
 Insert each key by comparing with nodes starting at the root. Go left if the key is smaller, right
-If larger, until you find an empty position.
+if larger, until you find an empty position.
 
 <summary>Answer</summary>
 
@@ -901,7 +901,7 @@ All relationships match. ✓
 
 **Problem 9.** Two BSTs each contain $n$ keys. BST A has height $n-1$ (degenerate) and BST B has
 Height $\lfloor \log_2 n \rfloor$ (balanced). Compare the number of comparisons required to search
-For a key that exists in both trees, expressing your answers in terms of $n$.
+for a key that exists in both trees, expressing your answers in terms of $n$.
 
 <summary>Hint</summary>
 
@@ -935,8 +935,8 @@ is why balanced BSTs (AVL, red-black trees) are preferred in practice.
 38, 27, 43, 15, 50, 10, 33, 48.
 
 (a) Construct a BST by inserting these values in the given order. Draw the final tree. (b) State the
-In-order traversal of the BST. What property of BSTs does this demonstrate? (c) Delete the value 27
-From the tree (it has two children). Draw the resulting tree and explain each step of the deletion.
+in-order traversal of the BST. What property of BSTs does this demonstrate? (c) Delete the value 27
+from the tree (it has two children). Draw the resulting tree and explain each step of the deletion.
 (d) What is the height of the tree after the deletion?
 
 <summary>Hint</summary>
@@ -978,7 +978,7 @@ Order**.
 
 Node 27 has two children (15 and 33). Find the in-order successor: the smallest value in the right
 Subtree of 27. Go right to 33, then go left as far as possible. 33 has no left child, so the
-In-order successor is **33**.
+in-order successor is **33**.
 
 Replace 27's value with 33, then delete the original 33 node (leaf removal).
 

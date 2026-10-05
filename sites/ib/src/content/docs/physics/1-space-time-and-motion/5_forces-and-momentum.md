@@ -99,7 +99,7 @@ $$
 ### Centripetal Force
 
 The centripetal force is any force applied on a mass towards the center ($-\bm{\hat{r}}$), leading
-To a [centripetal acceleration](#centripetal-acceleration) $\bm{a}$:
+to a [centripetal acceleration](#centripetal-acceleration) $\bm{a}$:
 
 $$
 \begin`\{aligned}`
@@ -202,7 +202,7 @@ $$
 
 **Problem 1.** A 1500 kg car is traveling on a horizontal road at a constant speed of 25.0 m/s. The
 Total resistive force (air drag + friction) is 800 N. The car then begins to accelerate uniformly
-For 10.0 s, reaching a new constant speed. During the acceleration, the engine provides a constant
+for 10.0 s, reaching a new constant speed. During the acceleration, the engine provides a constant
 Driving force of 2000 N. A) Calculate the car's acceleration. B) What is the final speed of the car?
 C) At this new speed, what must the engine's driving force be to maintain it? d) What is the total
 Distance covered during the 10.0 s of acceleration?
@@ -302,7 +302,7 @@ Applied horizontal force and the tension in the rope.
 
 **Problem 4.** A 0.20 kg ball traveling at 10 m/s collides with a stationary 0.30 kg ball. After the
 Collision, the 0.20 kg ball moves at 4.0 m/s at an angle of 30° to its original path. A) Determine
-The speed and direction of the 0.30 kg ball after the collision. B) Was the collision elastic?
+the speed and direction of the 0.30 kg ball after the collision. B) Was the collision elastic?
 Justify your answer with a calculation.
 
 <details>
@@ -337,9 +337,9 @@ Justify your answer with a calculation.
 **Problem 5.** A 1200 kg car travels at a constant speed of 15 m/s around a flat circular track of
 Radius 50 m. It then moves to a section of the track banked at an angle $\theta$. A) For the flat
 Track, what is the magnitude of the frictional force required to keep the car on the track, and what
-Is the minimum coefficient of static friction required? b) For the banked track, what is the ideal
+is the minimum coefficient of static friction required? b) For the banked track, what is the ideal
 Banking angle $\theta$ (the "design speed" angle) for the car to navigate the turn at 15 m/s without
-Any reliance on friction?
+any reliance on friction?
 
 <details>
 <summary>Answer</summary>
@@ -409,7 +409,7 @@ Rolling objects, and using the no-slip condition ($a=\alpha R$) to connect the t
 **Problem 7.** **Question (HL Only):** An ice skater is spinning at an angular speed of 10.0 rad/s
 With her arms outstretched. In this position, her moment of inertia is 4.0 kg m². She then pulls her
 Arms in, reducing her moment of inertia to 1.5 kg m². A) What is her new angular speed? b) Calculate
-The change in her rotational kinetic energy. C) Where does this change in energy come from?
+the change in her rotational kinetic energy. C) Where does this change in energy come from?
 
 <details>
 <summary>Answer</summary>
@@ -426,11 +426,11 @@ The change in her rotational kinetic energy. C) Where does this change in energy
 - $\Delta E_k = E_{k, \mathrm{final}} - E_{k, \mathrm{initial}} = 533 - 200 = 333$ J.
 - **c) Source of Energy:** The kinetic energy increased. This increase comes from the **work done by
 The skater** using her muscles to pull her arms inward. She is doing work on her own system, which
-Is not an isolated system in terms of energy (though it is for angular momentum, as the forces are
+is not an isolated system in terms of energy (though it is for angular momentum, as the forces are
 Internal). **If you get this wrong, you should focus on:** The law of conservation of angular
 Momentum and when it applies (no net external torque). Also, understanding that rotational kinetic
 Energy is _not_ necessarily conserved when the moment of inertia changes, and that work must be done
-To change the configuration of a rotating system.
+to change the configuration of a rotating system.
 
 </details>
 
@@ -439,7 +439,7 @@ Is created by a cosmic ray at an altitude of 10.0 km. It travels downwards at a 
 Proper half-life of a muon at rest is 1.56 μs. A) From the lab observer's perspective, what is the
 Muon's half-life? b) Will the muon reach the ground before decaying, according to the lab observer?
 Justify with a calculation. C) Now, analyze the situation from the muon's reference frame. How does
-The muon "explain" its ability to reach the ground?
+the muon "explain" its ability to reach the ground?
 
 <details>
 <summary>Answer</summary>
@@ -544,7 +544,7 @@ $F_{\mathrm{net}} = F_{\parallel} - mg\sin 30^{\circ} - f_k = 17.3 - 19.6 - 13.2
 
 The net force is negative (down the incline), meaning the block slides **down** despite the applied
 Force. The acceleration is: $a = \frac{|F_{\mathrm{net}}|}{m} = \frac{15.5}{4.0} = 3.88$ m/s$^2$
-Down the incline.
+down the incline.
 
 ---
 
@@ -561,7 +561,7 @@ Down the incline.
 
 **Problem:** A uniform beam of mass 10 kg and length 4.0 m is pivoted at its left end. A load of 15
 Kg is hung from the beam at a point 3.0 m from the pivot. The beam is held in horizontal equilibrium
-By a vertical rope attached 1.0 m from the right end. A) Calculate the tension in the rope. B)
+by a vertical rope attached 1.0 m from the right end. A) Calculate the tension in the rope. B)
 Calculate the magnitude and direction of the reaction force at the pivot.
 
 **Solution:**
@@ -613,7 +613,7 @@ This principle explains a wide range of phenomena:
 **Important distinction:** Angular momentum is conserved when the net **external torque** is zero.
 Internal forces (like the skater's muscles) can change $I$ and $\omega$ But not the total $L$.
 However, internal forces **can** change the rotational kinetic energy (as seen in the skater problem
-Where $E_k$ increased).
+where $E_k$ increased).
 
 ---
 
@@ -688,7 +688,7 @@ $0 = (5.42)^2 - 2(2.94)s \implies s = \frac{29.4}{5.88} = 5.0$ m.
 
 A 500 g ball is attached to a string of length 0.80 m and swung in a vertical circle. The minimum
 Speed at the top of the circle is $2.8$ m/s. A) Calculate the tension in the string at the top of
-The circle. B) Calculate the speed of the ball at the bottom of the circle (assuming no energy
+the circle. B) Calculate the speed of the ball at the bottom of the circle (assuming no energy
 Losses).
 
 </details>
@@ -756,7 +756,7 @@ $\omega_f = \frac{660}{200} = 3.3$ rad/s.
 A 3.0 kg block on a frictionless table is connected by a string over a pulley to a 2.0 kg block
 Hanging vertically. The pulley has mass 0.50 kg and radius 0.10 m ($I = \frac{1}{2}mr^2$ for the
 Pulley). A) Derive an expression for the acceleration of the system. B) Calculate the tension on
-Each side of the pulley.
+each side of the pulley.
 
 </details>
 
@@ -783,7 +783,7 @@ N.
 
 A solid sphere of mass $M$ and radius $R$ ($I = \frac{2}{5}MR^2$) rolls without slipping down an
 Incline of angle $\theta$. Derive an expression for the linear acceleration of the sphere in terms
-Of $g$ and $\theta$.
+of $g$ and $\theta$.
 
 </details>
 

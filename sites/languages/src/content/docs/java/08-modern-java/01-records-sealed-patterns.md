@@ -96,7 +96,7 @@ public record Age(int value) {
 
 The compact constructor does not declare parameters -- it implicitly has access to all record
 Components. Any assignment to a component in the compact constructor is treated as an assignment to
-The corresponding field in the canonical constructor. This means you can normalize values:
+the corresponding field in the canonical constructor. This means you can normalize values:
 
 ```java
 public record NormalizedString(String value) {
@@ -339,7 +339,7 @@ public final class Delete extends Command { }
 ```
 
 The sealed version is both more readable and more correct. Any attempt to extend `Command` from
-Outside the permitted list is a compile-time error.
+outside the permitted list is a compile-time error.
 
 ## Pattern Matching for `instanceof` (JEP 394, Java 16)
 
@@ -363,7 +363,7 @@ if (obj instanceof String s) {
 ```
 
 The pattern variable `s` is only in scope inside the `if` block. The compiler guarantees that `s` is
-Non-null when the block executes -- the `instanceof` check already ruled out `null`.
+non-null when the block executes -- the `instanceof` check already ruled out `null`.
 
 ### Pattern Variables in Conditions
 
@@ -405,7 +405,7 @@ Different value.
 
 Switch expressions are a major evolution of the traditional `switch` statement. They can return a
 Value, use arrow syntax, and the compiler can verify exhaustiveness when switching on sealed types
-Or enums.
+or enums.
 
 ### Arrow Syntax and `yield`
 
@@ -440,7 +440,7 @@ String result = switch (status) {
 ### Pattern Matching in Switch
 
 JEP 441 extends switch to work with type patterns, guarded patterns, and record patterns. This is
-Where sealed classes become truly powerful:
+where sealed classes become truly powerful:
 
 ```java
 public static double area(Shape shape) {
@@ -454,7 +454,7 @@ public static double area(Shape shape) {
 ```
 
 The compiler knows all permitted subclasses of `Shape` and verifies that every case is covered. If
-You add a new `Shape` subtype and forget to update the switch, it is a compile-time error, not a
+you add a new `Shape` subtype and forget to update the switch, it is a compile-time error, not a
 Runtime bug.
 
 ### Guarded Patterns
@@ -558,7 +558,7 @@ String json = """
 ```
 
 The closing `"""` determines the indentation. The compiler removes the common leading whitespace
-From all lines based on the position of the closing delimiter. In the example above, the content is
+from all lines based on the position of the closing delimiter. In the example above, the content is
 Indented 4 spaces relative to the closing `"""`So 4 spaces are stripped from every line.
 
 ### Escaping Rules
@@ -653,7 +653,7 @@ public record MutablePoint(double x, double y) {
 
 The permitted subclasses must be accessible to the sealed class at compile time. If they are in a
 Different package, they must be `public`. If they are in the same package but not public, they must
-Be at least package-private.
+be at least package-private.
 
 ### Pattern Variables and Effectively Final
 

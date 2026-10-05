@@ -51,7 +51,7 @@ a pure monolith. Examples: Windows NT, macOS XNU.
 ### 1.3 System Calls
 
 System calls provide the interface between user-mode applications and kernel-mode OS services. They
-Are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
+are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
 
 **Categories:**
 

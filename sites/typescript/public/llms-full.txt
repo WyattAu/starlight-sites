@@ -188,7 +188,7 @@ URL: https://typescript.wyattau.com/advanced-patterns/
 
 When a conditional type"s checked type is a **naked type parameter** (a type parameter used
 Directly, not wrapped in another type), the conditional distributes over union members. This is the
-Most important rule governing conditional types.
+most important rule governing conditional types.
 
 ```ts
 type ToArray<T> = T extends any ? T[] : never;
@@ -311,7 +311,7 @@ type A = { a: string } & { b: number };
 ```
 
 This works by exploiting contravariance in function parameter types. Each union member is converted
-To a function type `(k: Member) => void`And the union of these function types has an inferred
+to a function type `(k: Member) => void`And the union of these function types has an inferred
 Parameter type that is the intersection of all members.
 
 **Common Pitfall:** `UnionToIntersection` does not handle cases where union members share property
@@ -813,7 +813,7 @@ type Result = 'hi world hi';
 ## Type-Level Arithmetic
 
 TypeScript does not natively support arithmetic on number types. However, type-level arithmetic can
-Be implemented using tuple length as a representation of natural numbers.
+be implemented using tuple length as a representation of natural numbers.
 
 ### Counting Tuple Length
 
@@ -2225,7 +2225,7 @@ class Point {
 ```
 
 Under `strictPropertyInitialization`The compiler verifies that all declared fields are assigned in
-The constructor or have a definite assignment assertion (`!`):
+the constructor or have a definite assignment assertion (`!`):
 
 ```ts
 class Example {
@@ -2324,13 +2324,13 @@ p.x = 3;
 ```
 
 `readonly` is shallow: it prevents reassignment of the field itself but does not prevent mutation of
-The field's value if it is an object.
+the field's value if it is an object.
 
 ## Parameter Properties
 
 TypeScript provides a shorthand for declaring and initialising fields in the constructor parameter
 List. A parameter prefixed with an access modifier is automatically declared as a field and assigned
-From the constructor argument.
+from the constructor argument.
 
 ```ts
 class Point {
@@ -2610,7 +2610,7 @@ const Bar = class {
 ```
 
 Class expressions are useful for one-off classes or when the class is used as a value (e.g., passed
-To a function):
+to a function):
 
 ```ts
 function createClass(methodBody: string) {
@@ -2628,7 +2628,7 @@ new Dynamic().execute();
 ## Mixins and Composition with Classes
 
 TypeScript does not have a native mixin keyword, but mixins can be implemented using a combination
-Of class expressions, intersection types, and generic factory functions.
+of class expressions, intersection types, and generic factory functions.
 
 ### Mixin Pattern
 
@@ -2797,7 +2797,7 @@ class Config {
 
 **Common Pitfall:** The `experimentalDecorators` flag and the TC39 Stage 3 proposal use different
 Decorator semantics. Code written for one will not work with the other. New projects should prefer
-The TC39 Stage 3 proposal (no `experimentalDecorators` flag needed in TS 5.0+).
+the TC39 Stage 3 proposal (no `experimentalDecorators` flag needed in TS 5.0+).
 
 ## Structural Typing and Nominal Typing for Classes
 
@@ -2905,7 +2905,7 @@ This is an error. `super()` must be called first.
 ### Pitfall 2: Structural Typing Surprises
 
 Because of structural typing, classes with the same public shape are interchangeable. This can lead
-To subtle bugs when the classes have different internal behaviour:
+to subtle bugs when the classes have different internal behaviour:
 
 ```ts
 class Celsius {
@@ -2999,7 +2999,7 @@ URL: https://typescript.wyattau.com/enums-and-modules/
 ## Numeric Enums
 
 Numeric enums assign auto-incrementing integer values to their members. By default, the first member
-Has value `0`And each subsequent member increments by `1`.
+has value `0`And each subsequent member increments by `1`.
 
 ```ts
 enum Direction \{
@@ -3052,7 +3052,7 @@ console.log(perms & FileAccess.Write);
 ```
 
 Computed enum members do not support reverse mapping because the compiler cannot determine the name
-At compile time.
+at compile time.
 
 ## String Enums
 
@@ -3080,7 +3080,7 @@ Runtime values and are safer for serialisation (e.g., JSON).
 ## Const Enums
 
 Const enums are inlined by the compiler. They are completely erased during compilation and replaced
-With their literal values at each use site.
+with their literal values at each use site.
 
 ```ts
 const enum Direction \{
@@ -3144,7 +3144,7 @@ Prefer discriminated unions (see below) over heterogenous enums.
 ## Union Enum Pattern
 
 The **union enum pattern** uses string enums to create a type-safe, self-documenting set of values
-That integrates with TypeScript's narrowing system:
+that integrates with TypeScript's narrowing system:
 
 ```ts
 enum ShapeKind \{
@@ -3381,7 +3381,7 @@ console.log(Geometry.distance(p1, p2));
 ### When to Use Namespaces
 
 Namespaces should be avoided in modern TypeScript. They exist primarily for backward compatibility
-And for declaring types that span multiple files (using `.d.ts` files). Use ES modules instead.
+and for declaring types that span multiple files (using `.d.ts` files). Use ES modules instead.
 
 **Common Pitfall:** Do not mix namespaces and ES modules in the same file. A file that contains a
 Top-level `import` or `export` is an ES module, and any namespace within it is scoped to that module
@@ -3551,7 +3551,7 @@ import { add, formatDate, log } from './lib';
 ### Tree-Shaking Implications
 
 Barrel files can interfere with tree-shaking in certain bundlers. When a barrel file re-exports from
-Many modules, importing a single name may cause the bundler to include code for all re-exported
+many modules, importing a single name may cause the bundler to include code for all re-exported
 Names.
 
 **Mitigation strategies:**
@@ -3694,7 +3694,7 @@ URL: https://typescript.wyattau.com/error-handling/
 
 The `never` type is the **bottom type** of the TypeScript type system. It has no inhabitants: no
 Value of type `never` can exist at runtime. It is a subtype of every type, and no type is a subtype
-Of `never` (except `never` itself).
+of `never` (except `never` itself).
 
 `never` appears in two principal contexts:
 
@@ -3768,7 +3768,7 @@ assignable to `never`.
 
 `any` disables the type system entirely. A value typed as `any` can be used as any type, and any
 Value can be assigned to it. `unknown` is the type-safe alternative: it can hold any value, but it
-Must be narrowed before use.
+must be narrowed before use.
 
 ### `unknown` for Error Handling
 
@@ -3964,7 +3964,7 @@ function safeParse(json: string): unknown {
 ### The `finally` Block
 
 The `finally` block always executes, even when `try` or `catch` returns or throws. TypeScript does
-Not narrow types across `finally` boundaries because the control flow is non-local:
+not narrow types across `finally` boundaries because the control flow is non-local:
 
 ```ts
 function example(): string {
@@ -5302,8 +5302,8 @@ URL: https://typescript.wyattau.com/generics/
 
 Generics allow functions, interfaces, and type aliases to operate over a range of types rather than
 A single fixed type. A generic function declares one or more **type parameters** in angle brackets
-After the function name. These type parameters are placeholders for concrete types that are supplied
-At the call site.
+after the function name. These type parameters are placeholders for concrete types that are supplied
+at the call site.
 
 ```ts
 function identity<T>(value: T): T {
@@ -5530,7 +5530,7 @@ type T2 = NonNullable<string | null | undefined>;
 ```
 
 `Exclude<T, U>` removes from `T` those types that are assignable to `U`. `Extract<T, U>` extracts
-From `T` those types that are assignable to `U`. `NonNullable<T>` removes `null` and `undefined`
+from `T` those types that are assignable to `U`. `NonNullable<T>` removes `null` and `undefined`
 From `T`.
 
 ### ReturnType, Parameters
@@ -5748,7 +5748,7 @@ on('not-an-event', () => {});
 ## Variance
 
 Variance describes how subtyping relationships between type arguments affect subtyping relationships
-Between generic types. TypeScript uses **structural typing** with specific variance rules.
+between generic types. TypeScript uses **structural typing** with specific variance rules.
 
 ### Covariance
 
@@ -7789,7 +7789,7 @@ Configuration for `ts-node` in `tsconfig.json`:
 ```
 
 `transpileOnly: true` skips type checking for faster execution (useful during development). Remove
-It for production scripts where type safety is critical.
+it for production scripts where type safety is critical.
 
 **Common Pitfall:** `ts-node` with ESM requires additional configuration. Set `"esm": true` in the
 `ts-node` section of `tsconfig.json` and ensure `package.json` has `"type": "module"`.
@@ -8083,7 +8083,7 @@ function example(): void {
 ```
 
 The `using` keyword ensures that `dispose()` is called when the variable goes out of scope, even if
-An exception is thrown.
+an exception is thrown.
 
 ## Intuition
 
@@ -8102,7 +8102,7 @@ Specific reason.
 ### Pitfall 2: Path Aliases Not Resolved at Runtime
 
 Path aliases in `tsconfig.json` (`paths`) are resolved only by the TypeScript compiler. The bundler
-Or runtime must be configured separately to resolve these aliases. Without matching bundler
+or runtime must be configured separately to resolve these aliases. Without matching bundler
 Configuration, imports will fail at runtime.
 
 ### Pitfall 3: `composite` Requires Explicit File Listing
@@ -8184,7 +8184,7 @@ TypeScript provides seven primitive types that correspond directly to JavaScript
 
 The types `null` and `undefined` are subtypes of every other type unless `strictNullChecks` is
 Enabled. Under `strict: true` (the recommended configuration), `null` and `undefined` are assignable
-Only to themselves and to `any` / `unknown`.
+only to themselves and to `any` / `unknown`.
 
 ```ts
 const name: string = 'Ada';
@@ -8205,7 +8205,7 @@ Bugs.
 
 The `any` type disables all type checking for the annotated value. A value of type `any` is
 Assignable to and from every other type. Using `any` effectively opts the annotated expression out
-Of the type system entirely.
+of the type system entirely.
 
 ```ts
 let a: any = 'hello';
@@ -8220,7 +8220,7 @@ Genuinely not known at compile time.
 ### `unknown`
 
 The `unknown` type is the type-safe counterpart to `any`. A value of type `unknown` is assignable to
-Every type, but **no type is assignable to `unknown` except `any` and `unknown` itself**. Before an
+every type, but **no type is assignable to `unknown` except `any` and `unknown` itself**. Before an
 `unknown` value can be used, it must be narrowed through a type guard.
 
 ```ts
@@ -8298,7 +8298,7 @@ let x: undefined = undefined;
 
 TypeScript provides two mechanisms for defining object shapes: **interfaces** and **type aliases**.
 Both support optional properties, readonly properties, and method signatures. However, they differ
-In several important respects.
+in several important respects.
 
 ### Interface Declarations
 
@@ -8312,7 +8312,7 @@ interface Point {
 ```
 
 Interfaces support **declaration merging**: multiple interface declarations with the same name in
-The same scope are automatically merged into a single interface.
+the same scope are automatically merged into a single interface.
 
 ```ts
 interface Window {
@@ -8366,14 +8366,14 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 (library authoring, plugin systems). Use **`type`** for unions, intersections, mapped types,
 Conditional types, tuples, and any non-object-shape type. When in doubt, many teams adopt the
 Convention: default to `interface` for object shapes, switch to `type` when the situation requires
-It.
+it.
 
 ## Union and Intersection Types
 
 ### Union Types
 
 A union type `A | B` describes a value that is of type `A` **or** type `B`. The value has access
-Only to the members that are common to all constituents of the union.
+only to the members that are common to all constituents of the union.
 
 ```ts
 type ID = string | number;
@@ -8384,7 +8384,7 @@ function formatId(id: ID): string {
 ```
 
 When accessing properties or methods on a union, TypeScript permits only those that are shared
-Across all union members:
+across all union members:
 
 ```ts
 function getLength(value: string | string[]): number {
@@ -8428,7 +8428,7 @@ This type is `never` because no value can be both a `string` and a `number`.
 ## Type Narrowing
 
 Type narrowing is the process by which TypeScript reduces a broad type to a more specific type
-Within a control flow branch. Narrowing is essential for safely working with union types.
+within a control flow branch. Narrowing is essential for safely working with union types.
 
 ### `typeof` Narrowing
 
@@ -8591,7 +8591,7 @@ type CSSKey =
 ## Type Assertions
 
 Type assertions (`as` syntax or angle-bracket syntax) instruct the compiler to treat an expression
-As a specific type. They perform **no runtime check** and are therefore unsafe.
+as a specific type. They perform **no runtime check** and are therefore unsafe.
 
 ### Syntax
 
@@ -8606,7 +8606,7 @@ Prefer `as` for consistency.
 ### When Assertions Are Necessary
 
 Type assertions are occasionally required when the programmer has information that the type system
-Cannot infer:
+cannot infer:
 
 1. **DOM element access** -- `document.getElementById` returns `HTMLElement | null`; asserting to a
    specific element type.
@@ -8768,7 +8768,7 @@ const doubled = numbers.map((n) => n * 2);
 ```
 
 The type of `n` is inferred as `number` from the context (the `map` method of `number[]`), even
-Though the callback has no explicit parameter annotation.
+though the callback has no explicit parameter annotation.
 
 Contextual typing also applies to event handlers, promise callbacks, and object literal assignments:
 
@@ -8798,7 +8798,7 @@ The return type is inferred as `number | string`.
 ## `const` Assertions (`as const`)
 
 The `as const` assertion instructs TypeScript to infer the narrowest possible (literal) types for
-The expression:
+the expression:
 
 ```ts
 const config = {
@@ -9057,7 +9057,7 @@ Producing standard JavaScript output.
 
 The type system is **structural**, meaning type compatibility is determined by the shape of values
 Rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
-With JavaScript's own duck-typing semantics while providing compile-time guarantees that catch a
+with JavaScript's own duck-typing semantics while providing compile-time guarantees that catch a
 Broad class of errors before runtime.
 
 ## Relationship to JavaScript
@@ -10011,7 +10011,7 @@ function reducer(state: State, action: Action): State {
 ### Pitfall 4: Overly Broad `children` Types
 
 Using `JSX.Element` instead of `React.ReactNode` for `children` excludes valid React render values
-Like strings, numbers, `null`And arrays:
+like strings, numbers, `null`And arrays:
 
 ```tsx
 interface Bad {

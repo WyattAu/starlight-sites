@@ -30,7 +30,7 @@ Describes how to produce elements but does not materialize them until a terminal
 #### map()
 
 Returns a new lazy `Iterable` by applying a function to each element. The function is not executed
-Until the iterable is consumed.
+until the iterable is consumed.
 
 ```dart
 final names = ['alice', 'bob', 'charlie'];
@@ -113,7 +113,7 @@ print(nums.skipWhile((n) => n < 4).toList()); // [4, 5, 1, 2], skips until first
 ```
 
 Unlike `where`These are **not** applied to all elements, they operate from the start and stop at
-The first element that fails the condition.
+the first element that fails the condition.
 
 #### firstWhere(), lastWhere(), singleWhere()
 
@@ -238,7 +238,7 @@ final unmod = List<int>.unmodifiable([1, 2, 3]);
 ```
 
 The distinction matters at the VM level. Fixed-length lists pre-allocate a backing store of exactly
-The right size. Growable lists use amortized doubling (see Performance Considerations below).
+the right size. Growable lists use amortized doubling (see Performance Considerations below).
 
 ### Mutation Operations
 
@@ -279,7 +279,7 @@ list.replaceRange(2, 4, [99]); // [0, 10, 99, 4, 5]
 ```
 
 `sublist` allocates a new list. `getRange` does not, but the returned iterable holds a reference to
-The original list, so mutations to the original are visible through the range view.
+the original list, so mutations to the original are visible through the range view.
 
 ### asMap()
 
@@ -391,7 +391,7 @@ superset.containsAll(subset); // true
 ### lookup()
 
 Returns the element in the set that is equal to the argument, or `null` if not found. This is useful
-When you have a canonical version of an object and want to retrieve it:
+when you have a canonical version of an object and want to retrieve it:
 
 ```dart
 final users = {User(id: 1, name: "Alice''), User(id: 2, name: "Bob')};
@@ -928,7 +928,7 @@ print(a.length == b.length &&
 ```
 
 Dart's `List.==` and `Map.==` use identity comparison (`identical()`), not structural equality. This
-Is by design, structural equality on large collections is expensive, and the language avoids
+is by design, structural equality on large collections is expensive, and the language avoids
 Implicit O(n) operations.
 
 ### 3. Unmodifiable Views Are Not Copies
@@ -1049,7 +1049,7 @@ map.containsKey('nonexistent'); // false, the key does not exist
 ```
 
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when
-You need to distinguish between "key absent" and "key present with null value."
+you need to distinguish between "key absent" and "key present with null value."
 
 ```mermaid
 flowchart TD

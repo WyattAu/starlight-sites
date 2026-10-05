@@ -112,7 +112,7 @@ assert_eq!(results, vec![3, 7, 5]);
 
 The key guarantee: all threads spawned within `scope` are joined before `scope` returns. This means
 Borrowed data is guaranteed to be valid for the lifetime of the scoped threads, eliminating the need
-For `'static` bounds.
+for `'static` bounds.
 
 :::note
 From the parent scope. They are safer (no `'static` requirement) and more ergonomic.
@@ -240,7 +240,7 @@ match lock {
 ```
 
 Use `lock().unwrap()` when you are confident panics inside the critical section are impossible, or
-When a panic means the entire process should terminate.
+when a panic means the entire process should terminate.
 
 ### `RwLock<T>`
 
@@ -446,7 +446,7 @@ fn process(data: &Mutex<Vec<i32>>) {
 
 OS threads are expensive: each thread uses 8 MB of stack (default on Linux), context switches cost
 1,000–10,000 nanoseconds, and creating threads has significant overhead. For I/O-bound workloads
-With thousands of concurrent tasks (web servers, database connections), threads do not scale
+with thousands of concurrent tasks (web servers, database connections), threads do not scale
 Efficiently.
 
 Async/await provides lightweight concurrency, thousands of tasks on a handful of OS threads.
@@ -466,7 +466,7 @@ pub enum Poll<T> {
 ```
 
 A `Future` represents an asynchronous computation. `poll` is called by the executor to check whether
-The computation has completed (`Ready`) or needs more time (`Pending`). When `Pending` is returned,
+the computation has completed (`Ready`) or needs more time (`Pending`). When `Pending` is returned,
 The future registers the current `Waker` with the reactor, which will wake the future when the I/O
 Operation completes.
 
@@ -511,7 +511,7 @@ Time →
 
 `Pin` is a wrapper that prevents the wrapped pointer from being moved. This is necessary because
 Async futures contain self-referential data (pointers from the state machine to local variables on
-The stack). If the future were moved, these pointers would become invalid.
+the stack). If the future were moved, these pointers would become invalid.
 
 ```rust
 use std::pin::Pin;
@@ -530,7 +530,7 @@ Most types are `Unpin`they can be safely moved even when pinned. Types that are 
 ### `Send` and `Sync` Bounds for Futures
 
 A future must be `Send` to be spawned on an async runtime (like tokio). If a future captures a
-Non-`Send` type (like `Rc` or `&RefCell`), it cannot be spawned:
+non-`Send` type (like `Rc` or `&RefCell`), it cannot be spawned:
 
 ```rust
 use std::rc::Rc;
@@ -674,7 +674,7 @@ Coming from JavaScript's `Promise.race`.
 ### Data Races vs Race Conditions
 
 A **data race** is undefined behavior, two threads access the same memory location concurrently, at
-Least one of them writes, and there is no synchronization. Rust's type system prevents data races at
+least one of them writes, and there is no synchronization. Rust's type system prevents data races at
 Compile time (in safe code).
 
 A **race condition** is a logical error where the outcome depends on the timing of concurrent
@@ -864,7 +864,7 @@ unsafe impl Sync for MyType {}
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
 Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
 Thread safety (e.g., when using platform-specific synchronization primitives that the compiler
-Cannot see).
+cannot see).
 
 ## Common Pitfalls
 

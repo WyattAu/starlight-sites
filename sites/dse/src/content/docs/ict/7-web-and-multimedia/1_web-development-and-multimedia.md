@@ -956,10 +956,10 @@ Answer:
 ```
 
 (b) `GET` sends form data as URL parameters (appended to the `action` URL after `?`). It is visible
-In the browser address bar, has a length limit (approximately 2048 characters), and should be used
-For idempotent requests (search, filter). `POST` sends form data in the HTTP request body, is not
+in the browser address bar, has a length limit (approximately 2048 characters), and should be used
+for idempotent requests (search, filter). `POST` sends form data in the HTTP request body, is not
 Visible in the URL, has no practical length limit, and should be used for data that changes state on
-The server (login, registration, payment).
+the server (login, registration, payment).
 
 (c) The `<label>` element associates a text description with a form control via the `for` attribute
 (matching the input's `id`). It is important because: (1) clicking the label focuses the associated
@@ -1063,7 +1063,7 @@ document.getElementById(''loginForm").addEventListener('submit', function (event
 (c) `textContent` sets or returns the plain text content of an element. It does not parse HTML tags
 -- any HTML tags in the string are treated as literal text. `innerHTML` sets or returns the HTML
 Content of an element, including any child elements. HTML tags in the string are parsed and rendered
-As DOM elements. `textContent` is safer (no XSS risk) and faster. `innerHTML` is needed when you
+as DOM elements. `textContent` is safer (no XSS risk) and faster. `innerHTML` is needed when you
 Intentionally want to insert HTML elements.
 
 </details>
@@ -1100,12 +1100,12 @@ Keys must not be exposed to the client) and reliability (client-side processing 
 Insecure and unreliable).
 
 (d) **Client-side.** Updating the cart counter is a UI operation that should happen instantly when
-The user clicks "Add to cart." JavaScript can update the DOM without a server round-trip. The actual
+the user clicks "Add to cart." JavaScript can update the DOM without a server round-trip. The actual
 Cart data should be synced with the server (via an AJAX request), but the visual update is
 Client-side.
 
 (e) **Server-side.** Searching a database requires server-side processing (SQL query). The client
-Cannot directly access the database. The client sends the search query, and the server returns the
+cannot directly access the database. The client sends the search query, and the server returns the
 Results. Client-side filtering (narrowing already-loaded results) could supplement this.
 
 </details>
@@ -1143,8 +1143,8 @@ Requirements (4.5:1).
 
 **Form resubmission warning:** Violates user control and freedom. After form submission, the browser
 Shows a warning about resubmission when the user navigates back. This indicates the site uses POST
-Without the Post/Redirect/Get (PRG) pattern. Fix by redirecting (HTTP 302/303) to a results page
-After POST processing, so the Back button returns to the form, not the POST request.
+without the Post/Redirect/Get (PRG) pattern. Fix by redirecting (HTTP 302/303) to a results page
+after POST processing, so the Back button returns to the form, not the POST request.
 
 </details>
 

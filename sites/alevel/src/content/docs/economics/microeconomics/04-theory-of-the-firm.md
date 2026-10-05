@@ -58,7 +58,7 @@ $$
 $$
 
 The first-order condition gives the **expansion path**: $\frac{MP_L}{w} = \frac{MP_K}{r}$ (equating
-The marginal product per pound spent on each input).
+the marginal product per pound spent on each input).
 
 ### 1.3 Economies of Scale
 
@@ -84,7 +84,7 @@ Whole (e.g., a skilled labour pool, specialised suppliers, knowledge spillovers 
 
 **Minimum efficient scale (MES)**: the lowest output at which LRAC is minimised. If MES is large
 Relative to market demand, the market can support only a few firms $\Rightarrow$ natural tendency
-Toward oligopoly or monopoly.
+toward oligopoly or monopoly.
 
 **Diseconomies of scale**: LRAC rises as output increases due to coordination difficulties,
 Communication problems, and alienation in very large organisations.
@@ -357,7 +357,7 @@ Reduce the incentive to invest in platform quality?
 **anti-competitive conduct** rather than superior efficiency. A monopoly achieved through genuine
 Innovation (e.g., a pharmaceutical patent) may generate dynamic benefits that outweigh static
 Deadweight loss. The critical question for exam answers is always: _does this monopoly exist because
-It is efficient, or because it has successfully blocked competition?_
+it is efficient, or because it has successfully blocked competition?_
 
 ### 4.3 Monopolistic Competition
 
@@ -424,7 +424,7 @@ Better off. But neither firm has an incentive to choose High Price unilaterally.
 **Proposition: The Nash equilibrium of the prisoner's dilemma is not Pareto optimal.**
 
 _Proof._ At (Low, Low), if both firms switch to High Price, both are better off (£10m > £5m). But
-Each firm individually cannot improve by deviating from Low Price (given the other plays Low).
+each firm individually cannot improve by deviating from Low Price (given the other plays Low).
 Therefore (Low, Low) is Nash but not Pareto optimal. $\blacksquare$
 
 **Implications**: individual rationality leads to collective suboptimality, explains why firms have
@@ -454,12 +454,12 @@ Lidl (which grew from approximately 5% to over 17% market share between 2010 and
 Intensified competitive pressure. The incumbent supermarkets must balance cooperation (avoiding a
 Destructive price war that destroys margins for all) against competition (matching Aldi's lower
 Prices to retain customers). This is a repeated game where the "punishment" for not matching prices
-Is loss of market share to discounters.
+is loss of market share to discounters.
 
 :::note
 Differs from a one-shot game in sustaining collusion. CIE (9708) may ask students to construct a
 Payoff matrix and identify dominant strategies. OCR (A) has recently included questions on whether
-The prisoner's dilemma applies to real-world oligopolies where firms can communicate, a key
+the prisoner's dilemma applies to real-world oligopolies where firms can communicate, a key
 Evaluation point.
 :::
 
@@ -474,13 +474,13 @@ Assumptions:
 
 This creates a kink in the demand curve at the current price, and a discontinuity in the MR curve.
 Result: prices tend to be rigid (sticky) even when costs change, as long as the MC curve passes
-Through the gap in the MR curve.
+through the gap in the MR curve.
 
 **Limitation**: the model explains price rigidity but not how the initial price is determined.
 
 **Evaluation of the kinked demand curve**: While empirically relevant (prices in oligopolistic
 Markets do tend to be sticky, e.g., the price of a pint of milk changed very little between 2015
-And 2022 despite cost fluctuations), the model has been largely superseded by game-theoretic
+and 2022 despite cost fluctuations), the model has been largely superseded by game-theoretic
 Approaches. A strong evaluation point for exams: the kinked demand curve assumes asymmetric
 Reactions (competitors follow price cuts but not price rises), but in reality firms may also follow
 Price rises if costs have increased across the industry (e.g., energy cost increases post-2021).
@@ -504,7 +504,7 @@ Changes were highly correlated, when one firm raised prices, others followed wit
 Collusion rather than explicit agreement). The entry of smaller challenger suppliers (Octopus
 Energy, Bulb before its collapse) increased contestability. However, the 2021-2022 energy crisis
 Exposed the vulnerability of smaller firms, 29 UK energy suppliers collapsed between September 2021
-And November 2022 because they could not hedge against the wholesale gas price spike. This
+and November 2022 because they could not hedge against the wholesale gas price spike. This
 Illustrates a critical evaluation point: **barriers to entry in oligopoly are not always obvious**,
 The need for working capital and hedging capacity acts as a significant barrier even where
 Regulation nominally encourages entry.
@@ -537,7 +537,7 @@ Economic profit), because any supernormal profit would attract entry.
 
 **Evaluation of contestable market theory**: The theory provides a powerful critique of the
 Traditional structure-conduct-performance paradigm, it suggests that market _conduct_ (and threat
-Of entry) matters more than the number of firms. However, the assumption of zero sunk costs is
+of entry) matters more than the number of firms. However, the assumption of zero sunk costs is
 Extremely restrictive. In practice, most industries involve significant sunk costs: a new airline
 Needs aircraft, airport slots, and brand recognition; a new energy supplier needs regulatory
 Approval and IT systems. The theory is therefore most applicable to markets with relatively low
@@ -552,7 +552,7 @@ Monopolies. This illustrates the gap between theoretical contestability and real
 
 :::note
 Contestable and competitive markets, the key distinction is that a contestable market may have only
-One firm but behaves as if competitive due to the threat of entry. AQA Paper 1 has included 25-mark
+one firm but behaves as if competitive due to the threat of entry. AQA Paper 1 has included 25-mark
 Questions on the extent to which UK supermarket markets are contestable. OCR (A) requires
 Understanding of sunk costs as the key barrier to contestability.
 :::
@@ -603,7 +603,7 @@ Fall between categories** (e.g., is Amazon a monopoly or oligopoly?).
 
 A critical evaluation theme across all exam boards is the trade-off between **static efficiency**
 (productive and allocative efficiency at a point in time) and **dynamic efficiency** (improvements
-In technology, products, and processes over time).
+in technology, products, and processes over time).
 
 **The Schumpeterian hypothesis** argues that large firms with market power are better positioned to
 Innovate because:
@@ -625,7 +625,7 @@ Innovate because:
 **Exam technique**: When evaluating market structures, always consider both static and dynamic
 Efficiency. A strong conclusion might be: "Perfect competition maximises static efficiency but may
 Underprovide dynamic efficiency; monopoly does the reverse. The optimal market structure depends on
-Whether the industry is characterised by rapid technological change (where dynamic efficiency is
+whether the industry is characterised by rapid technological change (where dynamic efficiency is
 Paramount) or stable technology (where static efficiency dominates)."
 
 ### The Role of Behavioural Economics
@@ -705,7 +705,7 @@ SR: $MR = 40 - 2Q = MC = 10 + 2Q \Rightarrow 3Q = 30 \Rightarrow Q = 10$$P = 30$
 
 **Problem 6.** Two duopolists, Firm A and Firm B, face market demand $P = 100 - Q_A - Q_B$. Both
 Have $MC = 10$. Assuming Cournot competition (each firm chooses output taking the other's output as
-Given), find the Nash equilibrium outputs, price, and profit for each firm.
+given), find the Nash equilibrium outputs, price, and profit for each firm.
 
 <details>
 <summary>Hint</summary>
@@ -766,7 +766,7 @@ Counterproductive for natural monopolies: breaking up would destroy economies of
 **Problem 13.** A tech platform operates as a two-sided market: it connects app developers with
 Smartphone users. The platform charges developers a commission of 30% on each sale but charges users
 GBP 0 to download the app. Explain this pricing strategy using the concept of cross-subsidy. Why
-Might regulators be concerned about this business model?
+might regulators be concerned about this business model?
 
 <details>
 <summary>Hint</summary>
@@ -798,7 +798,7 @@ The CMA's rationale: the merger would have reduced the number of "big four" supe
 
 **Problem 16.** A monopolist has the option to engage in limit pricing (charging a price below the
 Short-run profit-maximising level to deter entry). The firm faces potential entry from a competitor
-With identical costs. Using the concept of contestable markets, analyse under what conditions limit
+with identical costs. Using the concept of contestable markets, analyse under what conditions limit
 Pricing is a rational strategy. Why might limit pricing fail in practice?
 
 <details>

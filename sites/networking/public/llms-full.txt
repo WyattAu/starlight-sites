@@ -100,11 +100,11 @@ URL: https://networking.wyattau.com/01-osi-model/osi-and-tcp-ip/
 ## Overview
 
 Network reference models provide a structured vocabulary for discussing protocol behavior. They are
-Not implementations -- they are abstractions that help engineers reason about where a particular
+not implementations -- they are abstractions that help engineers reason about where a particular
 Function belongs in the stack and which protocols interact with which others.
 
 Two models dominate: the **OSI 7-layer model** and the **TCP/IP 4-layer model**. The OSI model is
-The one taught in classrooms and used in documentation. The TCP/IP model is the one that actually
+the one taught in classrooms and used in documentation. The TCP/IP model is the one that actually
 Describes how the Internet works. Understanding both, and the gaps between them, is essential.
 
 ### Why Reference Models Matter for Systems Engineers
@@ -134,7 +134,7 @@ Them at the higher levels.
 
 In practical terms: reliability, security, and ordering should be implemented at the endpoints (the
 Application), not in the network. The network"s job is to deliver packets as quickly and efficiently
-As possible. This is why IP is "best effort" -- it does not guarantee delivery, ordering, or
+as possible. This is why IP is "best effort" -- it does not guarantee delivery, ordering, or
 Duplicate suppression. Those are the responsibility of TCP (transport layer) or the application
 Itself.
 
@@ -157,7 +157,7 @@ Network than at the endpoints:
   or other criteria.
 
 The tension between the end-to-end principle and the desire for network-level intelligence is one of
-The central debates in networking. NAT, firewalls, CDNs, and SD-WAN all represent varying degrees of
+the central debates in networking. NAT, firewalls, CDNs, and SD-WAN all represent varying degrees of
 Departure from the pure end-to-end model.
 
 ## The OSI 7-Layer Model
@@ -271,7 +271,7 @@ administered, 1 = locally assigned).
 ### Layer 3: Network
 
 The network layer provides **logical addressing** and **routing** between different networks. It is
-The layer that makes internetworking possible.
+the layer that makes internetworking possible.
 
 **Responsibilities:**
 
@@ -405,12 +405,12 @@ Responsible for data representation, encoding, and encryption.
 **Reality check:** Like the session layer, presentation-layer functions are absorbed into
 Application protocols. JSON, Protocol Buffers, MessagePack, and CBOR handle data serialization. TLS
 Handles encryption. Character encoding is handled by application libraries (iconv, ICU). Compression
-Is handled by application-layer mechanisms (HTTP Content-Encoding, gzip).
+is handled by application-layer mechanisms (HTTP Content-Encoding, gzip).
 
 ### Layer 7: Application
 
 The application layer is the interface between the network and the end-user application. It provides
-The services that applications use to communicate over the network.
+the services that applications use to communicate over the network.
 
 **Responsibilities:**
 
@@ -448,7 +448,7 @@ The services that applications use to communicate over the network.
 ## The TCP/IP 4-Layer Model
 
 The TCP/IP model (also called the DoD model or the Internet model) was developed by DARPA as part of
-The ARPANET project. It predates the OSI model and is the model that the Internet actually
+the ARPANET project. It predates the OSI model and is the model that the Internet actually
 Implements.
 
 ```mermaid
@@ -472,7 +472,7 @@ graph TD
 
 Combines OSI layers 5, 6, and 7. Application protocols in the TCP/IP model handle session
 Management, data representation, and application logic directly. There is no formal separation
-Between presentation and session concerns.
+between presentation and session concerns.
 
 This is why TLS is awkward to place in the OSI model -- it provides encryption (presentation) and
 Session management (session) but runs over TCP (transport) and under HTTP (application). In the
@@ -480,9 +480,9 @@ TCP/IP model, TLS is part of the application layer, or more precisely, an applic
 that applications use.
 
 The TCP/IP application layer also includes the socket API, which is the de facto standard interface
-For network programming. The socket API was developed at UC Berkeley in the early 1980s as part of
+for network programming. The socket API was developed at UC Berkeley in the early 1980s as part of
 BSD Unix. It provides a uniform interface for both TCP and UDP (and other protocols) regardless of
-The underlying network.
+the underlying network.
 
 ### Transport Layer
 
@@ -506,7 +506,7 @@ Intentionally unspecified -- the Internet works over Ethernet, Wi-Fi, PPP, fiber
 Virtually any link-layer technology.
 
 This deliberate abstraction is why the Internet could evolve from running over 56 kbps serial lines
-To 400 Gbps fiber without changing the upper layers. The link layer is a black box to the Internet
+to 400 Gbps fiber without changing the upper layers. The link layer is a black box to the Internet
 Layer -- IP does not care whether the underlying link is Ethernet or Wi-Fi, only that it can deliver
 Frames to the next hop.
 
@@ -629,7 +629,7 @@ When a browser sends an HTTP GET request, the encapsulation looks like this:
 
 Total overhead per frame: 58 bytes minimum (14 + 20 + 20 + 4). The Ethernet payload (MTU) is 1500
 Bytes, so the maximum HTTP data in a single frame is 1500 - 20 (IP) - 20 (TCP) = 1460 bytes. This is
-The **MSS** (Maximum Segment Size) for a standard Ethernet link with no options.
+the **MSS** (Maximum Segment Size) for a standard Ethernet link with no options.
 
 ### Overhead Analysis
 
@@ -671,7 +671,7 @@ Gateway -- this is a layer-3 routing function performed by an ICMP message.
 
 **ARP:** ARP maps layer-3 addresses (IP) to layer-2 addresses (MAC). It is a layer-2 protocol that
 Carries layer-3 information. ARP uses Ethernet broadcast (ff:ff:ff:ff:ff:ff) to reach all hosts on
-The segment, but the payload contains an IP address. In IPv6, NDP (Neighbor Discovery Protocol) uses
+the segment, but the payload contains an IP address. In IPv6, NDP (Neighbor Discovery Protocol) uses
 ICMPv6 for the same purpose, further blurring the boundary.
 
 **TLS:** TLS provides encryption (presentation) and session management (session) but runs over TCP
@@ -692,12 +692,12 @@ Practice), enabling LSPs (Label Switched Paths) that traverse multiple networks.
 **BGP (Border Gateway Protocol, RFC 4271):** BGP is an application-layer protocol (it runs over TCP
 Port 179) that makes layer-3 routing decisions. The routing information it carries (NLRI, Network
 Layer Reachability Information) determines how packets are forwarded at layer 3. BGP is the protocol
-That makes the Internet work as a network of networks.
+that makes the Internet work as a network of networks.
 
 **DNS:** DNS uses both UDP and TCP (layer 4) but carries application-layer naming information. Large
 DNS responses (&gt; 512 bytes traditionally, &gt; 1232 bytes with EDNS0) fall back to TCP, violating
-The simplistic "DNS is UDP" assumption. DNS-over-HTTPS (DoH) further complicates the layer mapping
-By carrying DNS queries inside HTTP/2 inside TLS inside TCP.
+the simplistic "DNS is UDP" assumption. DNS-over-HTTPS (DoH) further complicates the layer mapping
+by carrying DNS queries inside HTTP/2 inside TLS inside TCP.
 
 **Wi-Fi WPA2/WPA3:** Wi-Fi security operates at layer 2 (data link) but uses protocols derived from
 Layer 5/6 (802.1X/EAP for authentication, AES-CCMP for encryption). The encryption happens at a
@@ -758,7 +758,7 @@ When a user clicks a link in their browser, data flows through the stack as foll
 ## Practical Implications
 
 Understanding the protocol stack matters for troubleshooting because symptoms at one layer often
-Have root causes at another:
+have root causes at another:
 
 | Symptom                        | Likely Layer  | Diagnostic Tool            |
 | ------------------------------ | ------------- | -------------------------- |
@@ -775,7 +775,7 @@ Have root causes at another:
 
 :::tip
 Checking IP configuration. Verify IP connectivity before checking TCP ports. Verify TCP connectivity
-Before debugging application-level issues. This systematic approach saves time and prevents
+before debugging application-level issues. This systematic approach saves time and prevents
 Misdiagnosis.
 
 ## Common Pitfalls
@@ -830,7 +830,7 @@ Collision domain because switches buffer and forward frames.
 
 A **broadcast domain** is a network segment where broadcast packets (ff:ff:ff:ff:ff:ff) reach all
 Ports. By default, all ports on a switch are in the same broadcast domain. VLANs divide a switch
-Into multiple broadcast domains. Routers separate broadcast domains entirely.
+into multiple broadcast domains. Routers separate broadcast domains entirely.
 
 | Device | Collision Domains | Broadcast Domains |
 | ------ | ----------------- | ----------------- |
@@ -865,7 +865,7 @@ subnet, and inter-VLAN routing requires a layer-3 device (router or layer-3 swit
 
 STP (IEEE 802.1D) prevents loops in layer-2 networks by blocking redundant paths. STP elects a root
 Bridge and calculates the shortest path from each bridge to the root, blocking all other paths. If
-The active path fails, STP unblocks a redundant path.
+the active path fails, STP unblocks a redundant path.
 
 STP convergence can take 30-50 seconds (by default), during which traffic is disrupted. Rapid
 Spanning Tree Protocol (RSTP, 802.1w) reduces convergence to a few seconds. Multiple Spanning Tree
@@ -874,7 +874,7 @@ Utilization.
 
 STP is a layer-2 protocol that affects layer-3 connectivity. If STP blocks a port, all layer-3
 Traffic through that port is dropped. STP issues cause some of the most puzzling network problems
-Because the symptoms (intermittent connectivity, unreachable hosts) look like layer-3 routing
+because the symptoms (intermittent connectivity, unreachable hosts) look like layer-3 routing
 Issues.
 
 ```bash
@@ -1039,7 +1039,7 @@ Bits:    [31    24][23    16][15     8][7      0]
 ```
 
 The total IPv4 address space is $2^{32} = 4,294,967,296$ addresses. This was considered sufficient
-In the 1970s but is grossly inadequate for today"s Internet, where every smartphone, server, VM, and
+in the 1970s but is grossly inadequate for today"s Internet, where every smartphone, server, VM, and
 Container needs an address.
 
 ### Binary Representation
@@ -1108,7 +1108,7 @@ Necessary.
 ## CIDR Notation
 
 CIDR (Classless Inter-Domain Routing) expresses a network as an IP address followed by a slash and
-The number of network bits (the prefix length):
+the number of network bits (the prefix length):
 
 ```
 192.168.1.0/24    -- 24 network bits, 8 host bits
@@ -1221,7 +1221,7 @@ The "magic number" method for /24 and larger subnets:
 | /32    | 1          | 1            | 256              |
 
 \*A /31 (RFC 3021) is used for point-to-point links where the network and broadcast addresses are
-Not needed. Both addresses are usable as host addresses.
+not needed. Both addresses are usable as host addresses.
 
 ### Subnetting Practice: Finding the Subnet of an Address
 
@@ -1238,11 +1238,11 @@ Given `192.168.5.130/26`Find the subnet:
 ## VLSM (Variable Length Subnet Masking)
 
 VLSM allows different subnets of the same parent network to have different prefix lengths. This is
-The standard practice in modern networks and is a direct consequence of CIDR.
+the standard practice in modern networks and is a direct consequence of CIDR.
 
 Without VLSM, every subnet within a network must have the same size. With VLSM, you can allocate /30
 Subnets for point-to-point links, /24 subnets for user LANs, and /26 subnets for server VLANs -- all
-From the same address space.
+from the same address space.
 
 VLSM is how every real network operates. The subnetting example above is a VLSM allocation.
 
@@ -1328,7 +1328,7 @@ Maintaining a translation table to map return traffic.
 **SNAT (Source NAT):** Rewrites the source IP address of outgoing packets. This is the most common
 Form of NAT, used by home routers and corporate firewalls. The internal host 192.168.1.100 sends a
 Packet to 203.0.113.50; the NAT device rewrites the source to its public IP 203.0.113.1 and records
-The mapping.
+the mapping.
 
 **DNAT (Destination NAT):** Rewrites the destination IP address of incoming packets. Used for port
 Forwarding. External traffic to 203.0.113.1:80 is forwarded to 192.168.1.10:80.
@@ -1440,8 +1440,8 @@ sequenceDiagram
 
 DHCP clients broadcast DHCPDISCOVER, which does not cross router boundaries. On networks with
 Multiple subnets, a **DHCP relay agent** (RFC 1542) forwards DHCP broadcasts to a DHCP server on
-Another subnet. The relay agent adds the `giaddr` (gateway IP address) field to identify the subnet
-From which the request originated, allowing the DHCP server to offer an address from the correct
+another subnet. The relay agent adds the `giaddr` (gateway IP address) field to identify the subnet
+from which the request originated, allowing the DHCP server to offer an address from the correct
 Pool.
 
 ```bash
@@ -1598,13 +1598,13 @@ A host sends a gratuitous ARP (GARP) to announce its own IP-to-MAC mapping. This
    tables.
 
 A gratuitous ARP is an ARP request where the source and target IP are the same, or an ARP reply sent
-Without a corresponding request. Some implementations ignore gratuitous ARPs as a security measure
+without a corresponding request. Some implementations ignore gratuitous ARPs as a security measure
 (to prevent ARP spoofing), but this breaks failover mechanisms.
 
 ### ARP Spoofing
 
 ARP has no authentication. Any host on the local segment can send a forged ARP reply claiming to be
-Another IP address. This is called **ARP spoofing** or **ARP poisoning** and enables:
+another IP address. This is called **ARP spoofing** or **ARP poisoning** and enables:
 
 - **Man-in-the-middle attacks:** The attacker claims to be the default gateway, intercepting all
   outbound traffic.
@@ -1645,7 +1645,7 @@ Addresses. This is approximately $3.4 \times 10^{38}$ Or roughly $5 \times 10^{2
 Person on Earth.
 
 To put this in perspective: if every atom on Earth's surface were assigned an IPv6 address, there
-Would still be approximately $1.5 \times 10^{17}$ addresses per atom remaining.
+would still be approximately $1.5 \times 10^{17}$ addresses per atom remaining.
 
 ### IPv6 Address Types
 
@@ -1723,7 +1723,7 @@ Agents and Servers).
 ### IPv6 Transition Mechanisms
 
 The IPv4-to-IPv6 transition has been ongoing since the 1990s. Several mechanisms allow IPv6 and IPv4
-To coexist:
+to coexist:
 
 **Dual-Stack:** Hosts run both IPv4 and IPv6 simultaneously. The OS prefers IPv6 when both are
 Available (Happy Eyeballs algorithm, RFC 8305). This is the most common transition mechanism.
@@ -1958,7 +1958,7 @@ Subnetting is the process of dividing a single IP network into smaller, more man
 Sub-networks. Every systems engineer needs fluency in subnetting -- it is non-negotiable for network
 Design, troubleshooting, firewall rule authoring, and certification exams. This workshop covers the
 Binary method, VLSM, route summarization, wildcard masks, IPv6 subnetting, and a systematic approach
-To subnet planning.
+to subnet planning.
 
 The core skill is answering this question: given a network and a requirement, find the subnet mask,
 Network address, broadcast address, and usable host range. This document provides the method,
@@ -2044,7 +2044,7 @@ Host bits = $32 - 26 = 6$. Total addresses = $2^6 = 64$. Usable = $64 - 2 = 62$.
 
 :::tip
 `/31` (RFC 3021, point-to-point links, 2 usable) and `/32` (single host, 1 usable). Modern practice
-Also uses `/31` for network equipment links per RFC 6164.
+also uses `/31` for network equipment links per RFC 6164.
 
 ### Verifying with a Shortcut
 
@@ -2269,7 +2269,7 @@ Advertisement. This reduces routing table size and hides topology changes.
 
 The first 6 bits of the third octet are identical (`000100`). That means the summary covers the
 Third octet range where those 6 bits are fixed and the remaining 2 bits vary: `000100xx` = 16
-Through 19.
+through 19.
 
 **Step 3:** Calculate the summary prefix:
 
@@ -2323,7 +2323,7 @@ Clean summary because the range 17-19 is missing. Attempting to summarize to `/2
 ### What They Are
 
 A wildcard mask is the **inverse** of a subnet mask. Where the subnet mask has 1s, the wildcard mask
-Has 0s, and vice versa. Wildcard masks are used in ACLs (Access Control Lists) on Cisco and other
+has 0s, and vice versa. Wildcard masks are used in ACLs (Access Control Lists) on Cisco and other
 Network equipment.
 
 ```
@@ -2391,7 +2391,7 @@ Anything. This matches `172.16.4.0/22` exactly.
 
 The standard enterprise IPv6 allocation from a RIR (Regional Internet Registry) is a `/48`. The RFC
 6177 recommendation is to give each site a `/48`. Within a site, you subnet the `/48` into `/64`S
-For individual LAN segments.
+for individual LAN segments.
 
 A `/48` gives you $2^{16} = 65536$ possible `/64` subnets. That is not a typo. You will not run out.
 
@@ -2576,7 +2576,7 @@ Prefix is $8 + 5 = /13`.
 Summary: `10.0.0.0/13`
 
 This covers `10.0.0.0` through `10.7.255.255`. It includes more than the four specified networks (it
-Also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
+also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
 Routes or accept the over-summarization.
 :::
 
@@ -2679,7 +2679,7 @@ You need at least 7 host bits ($2^7 - 2 = 126$), which means a `/25` mask, not a
 
 When assigning subnets manually, it is easy to create overlaps. Always verify that the network
 Address of a new subnet does not fall within the range of any existing subnet. IPAM tools prevent
-This automatically.
+this automatically.
 
 ### 4. Ignoring Gateway Addresses
 
@@ -2697,19 +2697,19 @@ VIPs for load balancers also consume addresses. Plan for these upfront.
 
 If you try to create a `/25` starting at `192.168.1.128`That works (aligned to 128). But a `/25`
 Starting at `192.168.1.64` does NOT work -- 64 is not a valid `/25` boundary. `/25` boundaries are
-At multiples of 128.
+at multiples of 128.
 
 ### 7. Forgetting About Point-to-Point Links
 
 Point-to-point WAN links between routers consume a subnet. Four links with `/30` masks use 4 subnets
 (16 addresses, 8 usable). With `/31` (RFC 3021), you use 4 subnets (8 addresses, 8 usable). Plan for
-These.
+these.
 
 ### 8. IPv6 Misconceptions
 
 The most common IPv6 subnetting error is trying to use non-`/64` masks on LAN segments. SLAAC, NDP
 Autoconfiguration, and many implementations assume `/64`. Use `/64` for everything, and `/128` only
-For loopbacks and specific host routes.
+for loopbacks and specific host routes.
 :::
 
 :::tip
@@ -2901,21 +2901,21 @@ Reliability over an unreliable network, is fundamental to systems engineering.
 
 The transport layer is the first layer where the concept of a "connection" exists (for TCP). The
 Network layer (IP) delivers individual packets with no guarantees. The transport layer builds on
-This unreliable foundation to provide the reliability that applications need.
+this unreliable foundation to provide the reliability that applications need.
 
 The transport layer is also where **multiplexing** happens. Multiple applications on the same host
-Can communicate over the network simultaneously because the transport layer uses port numbers to
+can communicate over the network simultaneously because the transport layer uses port numbers to
 Demultiplex incoming packets to the correct application socket. This is why you can run a web server
 (port 80), a database (port 5432), and an SSH daemon (port 22) on the same machine simultaneously.
 
 The socket API is the standard interface for transport-layer communication. Defined in BSD Unix in
-The early 1980s, it provides a uniform interface for TCP, UDP, and other transport protocols. The
+the early 1980s, it provides a uniform interface for TCP, UDP, and other transport protocols. The
 Socket API is the de facto standard across all operating systems.
 
 ## UDP (User Datagram Protocol)
 
 UDP (RFC 768) is the simplest transport protocol. It provides a minimal interface: applications send
-And receive datagrams with no guarantees of delivery, ordering, or duplicate suppression.
+and receive datagrams with no guarantees of delivery, ordering, or duplicate suppression.
 
 ### UDP Header
 
@@ -3082,7 +3082,7 @@ Sequence numbers are used to track byte positions in the byte stream.
 
 **TCP Fast Open (TFO, RFC 7413):** Allows the client to include data in the SYN segment, saving one
 RTT on subsequent connections. The server issues a "cookie" in the SYN-ACK, and the client includes
-This cookie with data in subsequent SYNs. Requires kernel support (Linux 3.7+).
+this cookie with data in subsequent SYNs. Requires kernel support (Linux 3.7+).
 
 #### Four-Way Teardown (Connection Termination)
 
@@ -3190,7 +3190,7 @@ Sender sends bytes 1460-2919:
 ```
 
 The ISN is critical for security. If an attacker can predict the ISN, they can inject forged packets
-Into an established connection (TCP blind injection attack). Modern implementations use
+into an established connection (TCP blind injection attack). Modern implementations use
 Cryptographically randomized ISNs (RFC 6056).
 
 #### Selective Acknowledgment (SACK)
@@ -3200,7 +3200,7 @@ Segment 2 (bytes 1460-2919) is lost but segments 1, 3, and 4 arrive, the receive
 Byte 1459 (the last contiguous byte). The sender must retransmit segment 2 before sending new data.
 
 With SACK (RFC 2018), the receiver can inform the sender about exactly which blocks of data have
-Been received:
+been received:
 
 ```
 ACK=1460, SACK=2920-4379, SACK=5840-7299
@@ -3370,7 +3370,7 @@ Segments were lost.
 #### BBR (Bottleneck Bandwidth and RTT)
 
 BBR (Google, 2016, RFC 9438) is a congestion control algorithm that models the network path rather
-Than relying solely on packet loss as a congestion signal. Traditional algorithms (Reno, CUBIC)
+than relying solely on packet loss as a congestion signal. Traditional algorithms (Reno, CUBIC)
 Treat loss as congestion and reduce `cwnd`. BBR instead estimates two parameters:
 
 - **BtlBw (Bottleneck Bandwidth):** The maximum delivery rate observed.
@@ -3548,7 +3548,7 @@ HTTP/3 uses QUIC as its transport layer, replacing TCP. HTTP/3 is documented in 
 ## SYN Flood Protection
 
 A SYN flood is a denial-of-service attack that exploits the three-way handshake. The attacker sends
-Many SYN segments without completing the handshake. The server allocates resources (TCB --
+many SYN segments without completing the handshake. The server allocates resources (TCB --
 Transmission Control Block) for each half-open connection, eventually exhausting its connection
 Table.
 
@@ -3873,7 +3873,7 @@ State: ESTABLISHED
 
 FIN_WAIT_2 is the state where the active closer has finished sending but is waiting for the peer to
 Finish. If the peer never sends FIN (application crash, bug, network partition), the endpoint stays
-In FIN_WAIT_2 indefinitely.
+in FIN_WAIT_2 indefinitely.
 
 Linux protects against this with `tcp_fin_timeout` (default 60 seconds). After this timeout, the
 Kernel forcibly closes the connection and frees the resources.
@@ -3910,7 +3910,7 @@ Client                          Server
 
 This results in a connection that is functionally identical to a normal three-way handshake. The key
 Difference is both sides independently chose their ISNs, and both sent SYN before seeing the
-Other's.
+other's.
 
 ## Simultaneous Close
 
@@ -4056,7 +4056,7 @@ RST instead of FIN. This happens when:
 ### RST Attacks
 
 RST injection attacks exploit the fact that TCP accepts RSTs with a valid sequence number (within
-The current receive window). An attacker who can guess or observe the sequence number can send a
+the current receive window). An attacker who can guess or observe the sequence number can send a
 Spoofed RST and kill the connection.
 
 Mitigations:
@@ -4316,7 +4316,7 @@ sysctl net.ipv4.tcp_timestamps
 
 Without SACK, TCP can only acknowledge contiguous data. If segments 1, 2, 4, 5, 6 are received
 (segment 3 lost), the receiver can only ACK up to segment 2. The sender retransmits segment 3, but
-Does not know that 4, 5, 6 were also received.
+does not know that 4, 5, 6 were also received.
 
 With SACK, the receiver can say "I have 1-2 and 4-6" in a SACK option. The sender knows to
 Retransmit only segment 3.
@@ -4348,7 +4348,7 @@ ip mptcp limits
 
 TFO allows data to be sent in the SYN packet, saving one round trip for short-lived connections. The
 Client caches a cookie from a previous connection and includes it in the SYN. The server validates
-The cookie and processes the data immediately.
+the cookie and processes the data immediately.
 
 ```bash
 # Enable TCP Fast Open (client + server)
@@ -4376,7 +4376,7 @@ Application code.
 ### 3. Setting tcp_tw_recycle
 
 As noted above, `tcp_tw_recycle=1` was removed in Linux 4.12. It broke connectivity for clients
-Behind NAT. Never set this parameter.
+behind NAT. Never set this parameter.
 
 ### 4. TIME_WAIT on Load Balancers
 
@@ -4393,14 +4393,14 @@ Application, tune keepalive to detect dead connections within seconds or minutes
 
 Stateful firewalls track TCP connections. If they see a SYN without a matching SYN-ACK (or vice
 Versa), they may not create a state entry. TIME_WAIT accumulation on the server side can also fill
-The firewall's state table. Monitor firewall state table utilization.
+the firewall's state table. Monitor firewall state table utilization.
 
 ### 7. Misunderstanding SYN Cookies
 
 SYN cookies (RFC 4987) are a defense against SYN floods. They encode state in the SYN-ACK's ISN, so
-The server does not allocate resources until the ACK arrives. However, SYN cookies disable TCP
+the server does not allocate resources until the ACK arrives. However, SYN cookies disable TCP
 Options (window scaling, SACK, timestamps) in the initial handshake, reducing performance. Enable
-Only when under attack, or use SYN proxy instead.
+only when under attack, or use SYN proxy instead.
 
 ## TCP Timers Reference
 
@@ -4547,7 +4547,7 @@ DNS, DHCP, NTP, SNMP, streaming media, gaming, VPNs, and QUIC all ride on UDP.
 
 This document dissects UDP internals, explains when and why UDP is the right choice, covers
 Broadcast and multicast, and examines the reliability patterns that UDP-based protocols implement at
-The application layer.
+the application layer.
 
 ## UDP Header Structure
 
@@ -4576,7 +4576,7 @@ The UDP header is exactly 8 bytes -- the minimum of any transport protocol:
 
 The source port is optional. If the sender does not need a reply, it can set the source port to
 Zero. This is rare in practice because most applications need responses, and the source port is how
-The receiver knows where to send them.
+the receiver knows where to send them.
 
 When the source port is non-zero, it is an ephemeral port chosen by the kernel from the Range
 defined by `net.ipv4.ip_local_port_range` (default: 32768-60999 on Linux).
@@ -4956,7 +4956,7 @@ Large ones. Use TCP MSS clamping or UDP packet size limits as a workaround.
 NAT (Network Address Translation) maps internal IP:port pairs to external IP:port pairs. For TCP,
 The NAT tracks the connection state (SYN, ESTABLISHED, FIN) and creates a mapping when the SYN is
 Seen. For UDP, there is no handshake, so the NAT must heuristically create a mapping when it sees
-The first outbound datagram.
+the first outbound datagram.
 
 ### NAT Mapping Timeout
 
@@ -5066,7 +5066,7 @@ Use this decision tree:
 
 DCCP provides congestion control without reliability. It fills the gap between raw UDP (no
 Congestion control) and TCP (full reliability + congestion control). Use cases: streaming media
-Where congestion control is needed but retransmission is not.
+where congestion control is needed but retransmission is not.
 
 DCCP is rarely deployed in practice. Most applications that need congestion control over UDP
 Implement it themselves (QUIC, WebRTC).
@@ -5102,7 +5102,7 @@ Natively (socket type `SOCK_STREAM` with protocol `IPPROTO_SCTP`).
 ### 1. UDP Buffer Overflows
 
 The kernel's UDP receive buffer has a fixed size (default 212992 bytes on Linux). If the receiver
-Cannot read fast enough, the buffer fills up and new datagrams are silently dropped. The sender
+cannot read fast enough, the buffer fills up and new datagrams are silently dropped. The sender
 Receives no notification.
 
 ```bash
@@ -5121,8 +5121,8 @@ sysctl -w net.core.rmem_default=2621440
 
 Sending UDP datagrams larger than the path MTU causes fragmentation. Each fragment that arrives
 Consumes reassembly buffer space. A flood of fragments can exhaust the reassembly buffer, causing
-All UDP traffic to fail. Many operating systems limit the number of concurrent reassembly attempts
-And the total reassembly memory.
+all UDP traffic to fail. Many operating systems limit the number of concurrent reassembly attempts
+and the total reassembly memory.
 
 Mitigation: keep UDP datagrams under 1400 bytes to safely fit within any reasonable MTU.
 
@@ -5142,22 +5142,22 @@ Argument in packet N+1) will break. Include sequence numbers and handle reorderi
 
 UDP NAT mappings expire. If your application sends datagrams sporadically (e.g., a heartbeat every
 10 minutes), the NAT mapping may expire between heartbeats. The next datagram creates a new mapping
-With a different external port, and the peer's responses go to the old (now invalid) port. Send
+with a different external port, and the peer's responses go to the old (now invalid) port. Send
 Keepalives more frequently than the NAT timeout ( every 20-30 seconds).
 
 ### 6. Not Handling ICMP Errors
 
 When a router cannot deliver a UDP datagram (network unreachable, port unreachable, TTL exceeded),
 It sends an ICMP error message back to the sender. The sender's kernel delivers this as an error on
-The socket (e.g., `ECONNREFUSED` for port unreachable). Many applications ignore socket errors or do
-Not handle ICMP-derived errors correctly.
+the socket (e.g., `ECONNREFUSED` for port unreachable). Many applications ignore socket errors or do
+not handle ICMP-derived errors correctly.
 
 ### 7. Asymmetric Routing and Stateful Firewalls
 
 Stateful firewalls track UDP "connections" by observing the first outbound datagram and creating a
 State entry. If return traffic arrives via a different path (asymmetric routing) and hits a
 Different firewall that has no state entry, the return traffic is dropped. Ensure symmetric routing
-For UDP traffic through firewalls, or use UDP keepalives to maintain state entries on all firewall
+for UDP traffic through firewalls, or use UDP keepalives to maintain state entries on all firewall
 Paths.
 
 ## UDP in Container and Microservice Environments
@@ -5187,7 +5187,7 @@ Services.
 
 Load balancers and service discovery systems have limited support for UDP health checks. Unlike TCP
 (where a successful connection proves the service is alive), UDP has no connection. Health checks
-Must either:
+must either:
 
 1. Send a probe and expect a response (application-dependent)
 2. Check if the port is open (using ICMP port unreachable as a negative signal)
@@ -5245,7 +5245,7 @@ recv(sockfd, buffer, sizeof(buffer), 0);
 UDP sockets with `epoll` in edge-triggered mode require reading in a loop until `EAGAIN` is
 Returned. Otherwise, datagrams that arrive between `epoll_wait` calls may be missed (they will be
 Delivered on the next trigger, but the application may not call `epoll_wait` again if it thinks
-There is nothing to do).
+there is nothing to do).
 
 ### MSG_TRUNC
 
@@ -5500,7 +5500,7 @@ ask next.
 
 Hold the actual DNS records for a domain. When you register a domain, you configure its
 Authoritative name servers with your registrar. These are the servers that respond to DNS queries
-For your domain with definitive answers.
+for your domain with definitive answers.
 
 Authoritative name servers are further divided:
 
@@ -5513,7 +5513,7 @@ Authoritative name servers are further divided:
 Perform the full resolution process on behalf of a client. When your laptop resolves
 `www.example.com`It sends the query to a recursive resolver (configured via DHCP or manually). The
 Resolver walks the DNS hierarchy from the root down to the authoritative server, caching responses
-Along the way.
+along the way.
 
 Common recursive resolvers:
 
@@ -5603,7 +5603,7 @@ Verification and logging.
 
 Note the reversed octets -- IPv4 reverse DNS uses the `in-addr.arpa` domain with octets in reverse
 Order because DNS reads labels left-to-right but IP addresses are written
-Most-significant-octet-first.
+most-significant-octet-first.
 
 **CAA (Certification Authority Authorization, RFC 6844):** Specifies which certificate authorities
 Are allowed to issue certificates for the domain.
@@ -5706,7 +5706,7 @@ Querying the authoritative server again.
 
 When a query returns `NXDOMAIN` (name does not exist) or `NODATA` (name exists but no records of the
 Requested type), the response is cached for the SOA minimum TTL. This prevents repeated queries for
-Non-existent names from hammering authoritative servers.
+non-existent names from hammering authoritative servers.
 :::
 
 :::caution
@@ -5763,7 +5763,7 @@ Traffic separately from HTTPS.
 ## DNSSEC (DNS Security Extensions)
 
 DNSSEC adds cryptographic signatures to DNS records, allowing resolvers to verify that the response
-Has not been tampered with. DNSSEC does **not** encrypt DNS queries -- it provides integrity, not
+has not been tampered with. DNSSEC does **not** encrypt DNS queries -- it provides integrity, not
 Confidentiality. Use DoH/DoT for confidentiality.
 
 ### How DNSSEC Works
@@ -5822,7 +5822,7 @@ dig axfr example.com @ns1.example.com
 
 Transfers only the changes since the last transfer. More efficient for large zones that change
 Frequently. The secondary sends its current SOA serial number, and the primary responds with only
-The records that have changed.
+the records that have changed.
 
 ## Reverse DNS
 
@@ -5863,7 +5863,7 @@ Reverse DNS is important for:
 ### BIND (Berkeley Internet Name Domain)
 
 The reference DNS implementation. Powerful but complex configuration. Most widely used DNS server on
-The Internet.
+the Internet.
 
 ```bash
 # Install
@@ -6014,8 +6014,8 @@ Each resource record in the Answer, Authority, or Additional section has this fo
 ### DNS Name Compression
 
 DNS names in the wire format use a compression scheme to reduce message size. Instead of repeating
-The full domain name, a pointer (2 bytes, starting with 0b11) references a previous occurrence of
-The name in the message. For example, if the question asks for `www.example.com` and the answer is a
+the full domain name, a pointer (2 bytes, starting with 0b11) references a previous occurrence of
+the name in the message. For example, if the question asks for `www.example.com` and the answer is a
 CNAME pointing to `example.com`The CNAME target can reference the suffix from the question.
 
 This compression is why DNS responses are much smaller than they would be without it. It Is also why
@@ -6027,7 +6027,7 @@ implementations.
 ### Round-Robin DNS
 
 The simplest form of load balancing: multiple A records for the same name, with the server rotating
-The order of records in each response.
+the order of records in each response.
 
 ```
 example.com.    300    IN    A    93.184.216.34
@@ -6077,7 +6077,7 @@ The provider monitors server health (HTTP checks, TCP checks) and only includes 
 DNS responses.
 
 This mitigates the main limitation of round-robin DNS, but health check failures still take effect
-Only after the TTL expires in all resolvers.
+only after the TTL expires in all resolvers.
 
 ## DNS Debugging Techniques
 
@@ -6279,7 +6279,7 @@ Interface is where you:
 ### Registries
 
 Registries operate the TLD (Top-Level Domain) zone. They maintain the authoritative name servers for
-The TLD and accept registrations from registrars. Examples:
+the TLD and accept registrations from registrars. Examples:
 
 - Verisign operates `.com` and `.net`
 - PIR operates `.org`
@@ -6353,7 +6353,7 @@ Serial number formats:
 
 :::caution
 Higher). This is a common mistake when migrating DNS providers. Always ensure the serial is higher
-Than the current value on all slaves.
+than the current value on all slaves.
 
 ### Zone Transfers
 
@@ -6516,7 +6516,7 @@ ldns-signzone example.com.signed example.com Kexample.com.+013+*.key
 ### Key Rotation
 
 ZSK rotation is straightforward: generate a new ZSK, sign the zone with both old and new ZSKs, wait
-For the old RRSIGs to expire, then remove the old ZSK.
+for the old RRSIGs to expire, then remove the old ZSK.
 
 KSK rotation is more involved because the DS record in the parent zone must be updated. The process
 (RFC 8078):
@@ -6552,7 +6552,7 @@ Provides weaker security but better performance for large zones.
 ### How Anycast Works
 
 Anycast assigns the same IP address to multiple servers in different locations. BGP routes traffic
-To the nearest (topologically closest) server. For DNS, this means queries are answered by the
+to the nearest (topologically closest) server. For DNS, this means queries are answered by the
 Closest name server instance.
 
 ```
@@ -6746,7 +6746,7 @@ forward-zone:
 ### dig +trace
 
 The most important DNS troubleshooting command. It traces the full resolution path from the root
-Down to the authoritative server.
+down to the authoritative server.
 
 ```bash
 # Full resolution trace
@@ -6921,7 +6921,7 @@ host 93.184.216.1
 ### 5. Breaking DNSSEC During Migration
 
 When migrating between DNS providers, the DNSSEC chain of trust must be maintained. If you remove
-The old DS record before the new one is published, DNSSEC validation fails and your domain becomes
+the old DS record before the new one is published, DNSSEC validation fails and your domain becomes
 Unreachable. Always overlap: publish the new DS first, verify it validates, then remove the old DS.
 
 ### 6. CNAME at the Zone Apex
@@ -6936,7 +6936,7 @@ Use ALIAS/ANAME records (provider-specific) or CNAME flattening to work around t
 
 DNS-over-TLS encrypts DNS queries and responses using TLS. The standard port is 853. The client
 Establishes a TCP connection to the resolver, performs a TLS handshake, and then sends DNS queries
-Within the TLS tunnel.
+within the TLS tunnel.
 
 ```bash
 # Test DoT with kdig (Knot DNS utilities)
@@ -7011,7 +7011,7 @@ dig nonexist.example.com | grep -i "nxdomain\|soa"
 ### Prefetching
 
 Some resolvers (Unbound, Knot Resolver) support DNS prefetching: proactively refreshing records
-Before they expire, so that the cached answer is always fresh when the application queries.
+before they expire, so that the cached answer is always fresh when the application queries.
 
 ```text
 # Unbound prefetch configuration
@@ -7034,7 +7034,7 @@ dig +subnet=192.168.1.0/24 www.example.com @8.8.8.8
 
 :::caution
 Privacy-focused resolvers (Cloudflare 1.1.1.1, Quad9) zero out ECS by default or randomize it. If
-You operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
+you operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
 ECS processing can route clients to the wrong CDN edge.
 
 ## DNS Failover and High Availability
@@ -7200,7 +7200,7 @@ URL: https://networking.wyattau.com/05-http-https/http/
 
 HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web.
 Originally designed for retrieving hypertext documents (RFC 1945, HTTP/1.0 in 1996), it has evolved
-Into a general-purpose application protocol used for APIs, streaming, IoT communication, and
+into a general-purpose application protocol used for APIs, streaming, IoT communication, and
 Virtually every client-server interaction on the Internet.
 
 This section covers HTTP/1.1 (RFC 9112), HTTP/2 (RFC 9113), HTTP/3 (RFC 9114), and the practical
@@ -7358,7 +7358,7 @@ To signal that the connection should be closed after the response.
 
 **Pipelining (RFC 7230):** HTTP/1.1 pipelining allows the client to send multiple requests without
 Waiting for responses. The server must respond in order. Pipelining was never widely implemented due
-To head-of-line blocking (a slow response blocks all subsequent responses) and is deprecated in
+to head-of-line blocking (a slow response blocks all subsequent responses) and is deprecated in
 Practice.
 
 ### Chunked Transfer Encoding
@@ -7498,7 +7498,7 @@ Multiplexing (many streams competing for the same connection).
 
 HTTP/2 allows clients to assign priorities to streams using `PRIORITY` frames and priority fields in
 `HEADERS` frames. Each stream has a weight (1-256) and a dependency on another stream. This allows
-The server to allocate bandwidth based on client preferences (e.g., prioritize CSS over images).
+the server to allocate bandwidth based on client preferences (e.g., prioritize CSS over images).
 
 ### TCP Head-of-Line Blocking Persists
 
@@ -7922,13 +7922,13 @@ ServerHello:
 ```
 
 Without ALPN, the client would complete the TLS handshake, then send an HTTP request, and the server
-Would respond with an Upgrade or redirect. ALPN negotiates the protocol during the handshake, saving
+would respond with an Upgrade or redirect. ALPN negotiates the protocol during the handshake, saving
 A round trip.
 
 ### Alt-Svc Header
 
 The `Alt-Svc` (Alternative Service) header informs the client that the service is also available
-Over a different protocol or port:
+over a different protocol or port:
 
 ```
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
@@ -8029,12 +8029,12 @@ Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
 ```
 
 After the upgrade, the connection is no longer HTTP. Both sides can send frames (text or binary) at
-Any time. WebSocket is used for chat applications, real-time notifications, gaming, and
+any time. WebSocket is used for chat applications, real-time notifications, gaming, and
 Collaborative editing.
 
 WebSocket frames have a 2-14 byte header (depending on payload length) and support fragmentation,
 Ping/pong keepalive, and close handshake. The connection is secured by using `wss://` (WebSocket
-Over TLS).
+over TLS).
 :::
 
 :::caution
@@ -8146,7 +8146,7 @@ The change is in how the bytes are formatted on the wire, not in what they mean.
 ### Binary Framing Layer
 
 HTTP/1.1 is a text protocol. HTTP/2 is a binary protocol. Every HTTP/2 communication is performed
-Over a single TCP connection, and all communication is split into smaller messages and frames.
+over a single TCP connection, and all communication is split into smaller messages and frames.
 
 ```
 +-----------------------------------------------+
@@ -8189,7 +8189,7 @@ No ordering requirement exists between streams. The server can send stream 5"s d
 
 HTTP/2 implements flow control at the stream level and the connection level. Each side advertises a
 Window size (initially 65,535 bytes, configurable via SETTINGS). The sender must not send more data
-Than the receiver's window allows. The receiver sends WINDOW_UPDATE frames to increase the window.
+than the receiver's window allows. The receiver sends WINDOW_UPDATE frames to increase the window.
 
 This prevents a fast sender from overwhelming a slow receiver. Without flow control, a server
 Sending a large response could exhaust the client's receive buffer.
@@ -8269,7 +8269,7 @@ Push complicates the client's cache state. Use `&lt;link rel="preload"&gt;` inst
 
 HTTP/2 allows clients to assign priorities to streams using a dependency tree. Each stream can have
 A parent stream and a weight (1-256). This helps the server decide which resources to send first
-When multiple streams are active.
+when multiple streams are active.
 
 ```text
         [stream 0: root]
@@ -8287,7 +8287,7 @@ Subtree, stream 7 gets more bandwidth than stream 5 (weight 20 vs 12).
 
 :::caution
 Often underwhelming. Most implementations use simple FIFO ordering. Do not rely on stream priority
-For critical performance optimization.
+for critical performance optimization.
 
 ### Connection Preface
 
@@ -8330,10 +8330,10 @@ nghttp -v https://example.com
 
 This is the fundamental limitation of HTTP/2. While HTTP/2 eliminates head-of-line blocking between
 Streams (a stalled stream does not block other streams), it does not eliminate head-of-line blocking
-At the TCP level.
+at the TCP level.
 
 When a TCP packet is lost, all subsequent TCP segments cannot be delivered to the application until
-The lost packet is retransmitted and arrives in order. This means a single lost packet blocks ALL
+the lost packet is retransmitted and arrives in order. This means a single lost packet blocks ALL
 HTTP/2 streams on that connection, even if the lost packet belongs to only one stream.
 
 ```
@@ -8351,8 +8351,8 @@ After loss: ALL streams blocked until packet 3 is retransmitted
 ```
 
 This is especially problematic on lossy networks (mobile, satellite) where packet loss rates of 1-5%
-Are common. On a 1% loss network, HTTP/2 can perform worse than HTTP/1.1 with multiple connections
-Because HTTP/1.1's multiple TCP connections provide independent loss recovery.
+are common. On a 1% loss network, HTTP/2 can perform worse than HTTP/1.1 with multiple connections
+because HTTP/1.1's multiple TCP connections provide independent loss recovery.
 
 ## HTTP/3
 
@@ -8409,7 +8409,7 @@ Repeat connection (0-RTT):
 
 QUIC uses connection IDs (CID) instead of the 4-tuple to identify connections. When a client's IP
 Address changes (WiFi to cellular, VPN connect/disconnect), the connection survives because the CID
-Is unchanged.
+is unchanged.
 
 ```
 Client on WiFi                              Client on Cellular
@@ -8473,7 +8473,7 @@ QPACK is the HTTP/3 successor to HPACK. It uses the same static and dynamic tabl
 A head-of-line blocking issue in HPACK: in HTTP/2, if the decoder needs a header from the dynamic
 Table that has not arrived yet (due to packet loss), all subsequent headers are blocked. QPACK
 Allows the decoder to proceed without waiting for the table update, using an encoded data stream
-That can be processed independently.
+that can be processed independently.
 
 ## Alt-Svc Header (HTTP/3 Discovery)
 
@@ -8584,7 +8584,7 @@ Group are focused on:
 - **MASQUE:** Proxying over QUIC (RFC 9298), enabling better VPN and proxy performance
 
 The trend is toward QUIC as the universal transport, with HTTP/3 as the primary application protocol
-And WebTransport for specialized use cases.
+and WebTransport for specialized use cases.
 
 ## Practical Deployment
 
@@ -8638,7 +8638,7 @@ curl --http3-only https://example.com
 ### 1. HTTP/2 Over HTTPS Only
 
 All browsers implement HTTP/2 only over TLS (h2). The plaintext version (h2c) is defined in the spec
-But not supported by browsers. If you configure HTTP/2 without TLS, browsers fall back to HTTP/1.1.
+but not supported by browsers. If you configure HTTP/2 without TLS, browsers fall back to HTTP/1.1.
 
 ### 2. Flow Control Mismatches
 
@@ -8651,7 +8651,7 @@ Implementations use the default (65,535 bytes) and rely on WINDOW_UPDATE to adju
 Over-pushing wastes bandwidth and can slow down the page load (pushed resources compete with
 Explicitly requested resources for bandwidth). In practice, server push should only be used for
 Critical resources that the client will definitely need (CSS, JS referenced in the HTML head) and
-That are not already cached.
+that are not already cached.
 
 ### 4. HTTP/3 and UDP Firewall Rules
 
@@ -8725,7 +8725,7 @@ Carries request or response headers. May also carry the END_STREAM flag if the r
 ### SETTINGS (0x4)
 
 Sets connection-level parameters. Sent by both client and server. Each endpoint acknowledges the
-Other's SETTINGS with a SETTINGS_ACK frame.
+other's SETTINGS with a SETTINGS_ACK frame.
 
 ### WINDOW_UPDATE (0x8)
 
@@ -8873,12 +8873,12 @@ Control a DNS response and obtain a wildcard or multi-SAN certificate could pote
 Connections from unrelated origins onto a single connection, enabling cross-origin timing attacks.
 
 Mitigation: browsers implement strict connection coalescing rules. Certificates must explicitly list
-All coalescable origins. Wildcards do not match across subdomain boundaries.
+all coalescable origins. Wildcards do not match across subdomain boundaries.
 
 ### HTTP/3 and 0-RTT Replay
 
 As mentioned earlier, 0-RTT data can be replayed. An attacker who captures a 0-RTT flight can replay
-It to the server. The server has no way to distinguish a replay from a legitimate request.
+it to the server. The server has no way to distinguish a replay from a legitimate request.
 
 Mitigations:
 
@@ -8981,7 +8981,7 @@ Headers per request regardless of compression.
 ### Dependency-Based Priority
 
 HTTP/2 clients build a priority tree where streams depend on other streams. The root (stream 0) is
-The implicit parent. Each stream has a weight (1-256) and an optional exclusive flag.
+the implicit parent. Each stream has a weight (1-256) and an optional exclusive flag.
 
 In practice, browser implementations vary:
 
@@ -8991,7 +8991,7 @@ In practice, browser implementations vary:
 
 The HTTP/3 working group recognized that the dependency-based priority scheme was too complex and
 Replaced it with a simpler extensible priority scheme (RFC 9218) that uses absolute urgency values
-And incremental priority updates.
+and incremental priority updates.
 
 ## HTTP/2 Stream Lifecycle
 
@@ -9139,7 +9139,7 @@ URL: https://networking.wyattau.com/05-http-https/websockets/
 
 WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection.
 Unlike HTTP, which follows a request-response model, WebSocket allows either side to send data at
-Any time after the connection is established. This makes WebSockets the protocol of choice for
+any time after the connection is established. This makes WebSockets the protocol of choice for
 Real-time applications: chat, collaboration, financial tickers, live dashboards, gaming, and IoT
 Device control.
 
@@ -9279,7 +9279,7 @@ FIN=1.
 Masking prevents cache poisoning attacks. A malicious client could craft a WebSocket frame that
 Looks like an HTTP request or response and inject it into a shared cache (e.g., a CDN or proxy).
 Masking ensures that the payload on the wire differs from the actual payload, making it infeasible
-To craft a frame that matches a specific HTTP pattern.
+to craft a frame that matches a specific HTTP pattern.
 
 The RFC 6455 specification requires all client-to-server frames to be masked. Server-to-client
 Frames MUST NOT be masked.
@@ -9381,7 +9381,7 @@ Client                              Server
 ```
 
 If the sender does not receive a pong within a reasonable timeout, the connection is considered dead
-And should be closed.
+and should be closed.
 :::
 
 :::caution
@@ -9391,7 +9391,7 @@ Frames and will close the connection if pings are too frequent.
 ## Subprotocols
 
 WebSocket subprotocols allow the client and server to negotiate an application-level protocol on top
-Of WebSocket. This is similar to Content-Type negotiation in HTTP.
+of WebSocket. This is similar to Content-Type negotiation in HTTP.
 
 The client lists supported subprotocols in the `Sec-WebSocket-Protocol` header:
 
@@ -9410,7 +9410,7 @@ Sec-WebSocket-Protocol: chat.v2
 ```
 
 If the server does not support any of the listed subprotocols, it must not include the header, and
-The client should close the connection (or proceed without a subprotocol).
+the client should close the connection (or proceed without a subprotocol).
 
 Common subprotocol patterns:
 
@@ -9610,7 +9610,7 @@ const wss = new WebSocketServer({
 
 :::caution
 Automatically by the browser during the HTTP upgrade request, so cookie-based authentication alone
-Is insufficient -- a malicious site can initiate a WebSocket connection to your server with the
+is insufficient -- a malicious site can initiate a WebSocket connection to your server with the
 Victim's cookies. Always verify the Origin header.
 
 ### wss:// (WebSocket Secure)
@@ -9702,14 +9702,14 @@ Implement heartbeats with a 30-60 second interval and a 10-second pong timeout.
 
 WebSocket messages arrive in the order they were sent within a single connection. However, if the
 Connection is dropped and reconnected, messages sent before the disconnect may be lost. Applications
-Must handle message gaps during reconnection (sequence numbers, message IDs, replay from last
+must handle message gaps during reconnection (sequence numbers, message IDs, replay from last
 Acknowledged message).
 
 ### 3. Ignoring Backpressure
 
 If the server sends messages faster than the client can process them, the client's receive buffer
 Fills up. WebSocket does not have built-in flow control (beyond TCP's flow control). The application
-Must implement backpressure: pause sending when the client is slow, or use a message queue to
+must implement backpressure: pause sending when the client is slow, or use a message queue to
 Buffer.
 
 ### 4. Not Handling Fragmentation
@@ -10040,7 +10040,7 @@ URL: https://networking.wyattau.com/06-tls/tls/
 
 Transport Layer Security (TLS) provides encryption, authentication, and integrity for data
 Transmitted over a network. TLS is the successor to Secure Sockets Layer (SSL), which was developed
-By Netscape in the mid-1990s. SSL 3.0 (1996) was the last SSL version; TLS 1.0 (1999, RFC 2246) was
+by Netscape in the mid-1990s. SSL 3.0 (1996) was the last SSL version; TLS 1.0 (1999, RFC 2246) was
 Its successor. All SSL versions are now considered insecure and deprecated.
 
 TLS operates between the transport layer and the application layer, encrypting application data
@@ -10189,7 +10189,7 @@ TLS_AES_128_GCM_SHA256
 
 In TLS 1.3, the client sends its DH key share in the ClientHello, allowing the server to compute the
 Shared secret immediately without a separate key exchange round trip. This is called "key share" and
-Is the mechanism that enables the 1-RTT handshake.
+is the mechanism that enables the 1-RTT handshake.
 
 If the server does not support the client's key share group, it responds with a HelloRetryRequest
 Asking the client to try a different group. This adds an extra RTT but is rare in practice.
@@ -10246,7 +10246,7 @@ Mandatory).
 ### AEAD (Authenticated Encryption with Associated Data)
 
 AEAD combines encryption and integrity verification into a single operation. The ciphertext includes
-An authentication tag that is verified during decryption. If the tag does not match, decryption
+an authentication tag that is verified during decryption. If the tag does not match, decryption
 Fails. This prevents padding oracle attacks and other chosen-ciphertext attacks that affected CBC
 Mode ciphers.
 
@@ -10346,7 +10346,7 @@ Root CA (self-signed, trusted by the client)
 
 The client must have the Root CA in its trust store. The server must send the full chain (server +
 Intermediate) during the TLS handshake. If intermediate certificates are missing, clients that do
-Not already have them cached will fail to validate the chain.
+not already have them cached will fail to validate the chain.
 :::
 
 :::caution
@@ -10424,7 +10424,7 @@ When a certificate is compromised or no longer needed, it must be revoked. Three
 ### CRL (Certificate Revocation List, RFC 5280)
 
 The CA publishes a list of revoked certificate serial numbers. Clients download the CRL and check if
-The server's certificate is listed.
+the server's certificate is listed.
 
 **Drawbacks:**
 
@@ -10475,7 +10475,7 @@ openssl ocsp -respin ocsp_resp.der -text -noout
 ### Certificate Transparency (CT, RFC 6962)
 
 CT is a public, append-only log of all issued certificates. CAs are required to submit certificates
-To CT logs. Browser vendors (Chrome, Firefox) require certificates to appear in CT logs for trust.
+to CT logs. Browser vendors (Chrome, Firefox) require certificates to appear in CT logs for trust.
 
 CT enables:
 
@@ -10487,7 +10487,7 @@ CT enables:
 
 Certificate pinning associates a service with a specific certificate or public key, rejecting
 Connections that present a different certificate -- even if that certificate is valid and trusted by
-The system's CA trust store.
+the system's CA trust store.
 
 ### Types of Pinning
 
@@ -10516,7 +10516,7 @@ openssl x509 -in cert.pem -pubkey -noout | openssl pkey -pubin -outform DER | \
 
 Forward secrecy (perfect forward secrecy, PFS) ensures that compromising a server's long-term
 Private key does not compromise past session keys. If the private key is compromised, the attacker
-Cannot decrypt previously captured TLS sessions.
+cannot decrypt previously captured TLS sessions.
 
 Forward secrecy is achieved by using **ephemeral** key exchange (DHE or ECDHE). The key exchange
 Produces a temporary key pair for each session, and the private key is discarded after the
@@ -10553,7 +10553,7 @@ Ticket encryption with a shared key.
 ### Session Tickets (RFC 5077)
 
 The server encrypts the session state and sends it to the client as a "ticket." The client presents
-The ticket in subsequent connections. The server decrypts the ticket (using a key shared across all
+the ticket in subsequent connections. The server decrypts the ticket (using a key shared across all
 Server instances) and resumes the session without storing any state.
 
 ```bash
@@ -10564,7 +10564,7 @@ openssl s_client -connect example.com:443 -servername example.com -reconnect 2>&
 ### Pre-Shared Key (TLS 1.3)
 
 TLS 1.3 uses PSK (pre-shared key) for session resumption. The PSK is derived from a previous session
-Or configured out-of-band. TLS 1.3 supports external PSKs (configured manually, similar to API keys)
+or configured out-of-band. TLS 1.3 supports external PSKs (configured manually, similar to API keys)
 And resumption PSKs (derived from previous sessions).
 
 ## Common TLS Misconfigurations
@@ -10747,10 +10747,10 @@ Errors and closing connections).
 
 Both the client and server generate 32 bytes of random data in their Hello messages. These random
 Values are used in the key derivation process and must be unpredictable. If an attacker can predict
-The random values, they may be able to derive the session keys.
+the random values, they may be able to derive the session keys.
 
 In TLS 1.2, the random values include the Unix timestamp in the first 4 bytes (deprecated practice
-That leaks server clock information). In TLS 1.3, the random values must be generated using a
+that leaks server clock information). In TLS 1.3, the random values must be generated using a
 Cryptographically secure random number generator with no structure.
 
 ## TLS Performance Considerations
@@ -10799,7 +10799,7 @@ Client --TLS--> Load Balancer --HTTP--> Backend
 
 Advantages: Backend simplicity, centralized certificate management, WAF/DDoS protection at the edge.
 Disadvantages: Backend traffic is unencrypted (requires trusted network), single point of failure
-For TLS.
+for TLS.
 
 **End-to-end TLS:** TLS is terminated at the application server. The load balancer passes TCP
 Streams without decryption.
@@ -11048,7 +11048,7 @@ flowchart TD
 This document goes deeper into TLS internals than the TLS fundamentals document, covering the record
 Layer architecture, detailed handshake message formats for TLS 1.3, cipher suite construction, key
 Exchange mechanisms, and common implementation pitfalls. This is the material you need to understand
-When debugging TLS connections, configuring servers, or evaluating cryptographic strength.
+when debugging TLS connections, configuring servers, or evaluating cryptographic strength.
 
 ## TLS Architecture
 
@@ -11074,7 +11074,7 @@ TLS is structured as a layered protocol with four sub-protocols operating over a
 ### Record Layer
 
 The TLS record layer fragments application data (and handshake messages) into records. Each record
-Has:
+has:
 
 ```
  0                   1                   2                   3
@@ -11159,7 +11159,7 @@ Cipher suites only specify the AEAD algorithm:
 | TLS_AES_128_CCM_8_SHA256     | AES-128-CCM-8     | SHA-256     |
 
 The key exchange algorithm is no longer part of the cipher suite. It is negotiated separately via
-The `supported_groups` extension.
+the `supported_groups` extension.
 
 ## TLS 1.3 Handshake in Detail
 
@@ -11260,7 +11260,7 @@ Verify_data does not match, the handshake has been tampered with and the connect
 ### ECDHE (Elliptic Curve Diffie-Hellman Ephemeral)
 
 The most widely used key exchange in TLS 1.3. Both sides generate an ephemeral (temporary) key pair
-On an elliptic curve, exchange public keys, and derive a shared secret.
+on an elliptic curve, exchange public keys, and derive a shared secret.
 
 ```
 Client generates: (priv_c, pub_c)
@@ -11316,7 +11316,7 @@ The client indicates which PSK modes it supports in the `psk_key_exchange_modes`
 
 :::note
 Secrecy even for resumed sessions. If the PSK is compromised, past traffic remains secure because
-The (EC)DHE exchange was ephemeral.
+the (EC)DHE exchange was ephemeral.
 
 ## Cipher Suites Breakdown
 
@@ -11386,7 +11386,7 @@ nonce = IV XOR (sequence_number << 64)
 ```
 
 The sequence number is a 64-bit counter that increments for each record. Since the sequence number
-Is included in the nonce, every record has a unique nonce, even with the same IV.
+is included in the nonce, every record has a unique nonce, even with the same IV.
 
 ## Certificate Verification Path
 
@@ -11512,7 +11512,7 @@ Legacy_version field.
 ### pre_shared_key (TLS 1.3)
 
 Contains the PSK identity and the binder value (an HMAC over the transcript up to this point, using
-The PSK). The binder prevents a man-in-the-middle from substituting a different PSK.
+the PSK). The binder prevents a man-in-the-middle from substituting a different PSK.
 
 ## Forward Secrecy
 
@@ -11521,7 +11521,7 @@ The PSK). The binder prevents a man-in-the-middle from substituting a different 
 Forward secrecy (also called perfect forward secrecy, PFS) ensures that compromising the server's
 Private key does not compromise past session keys. Each session uses an ephemeral key exchange, so
 Recording encrypted traffic and later obtaining the server's private key does not allow decryption
-Of past sessions.
+of past sessions.
 
 Without forward secrecy (static RSA key exchange), the session key is encrypted with the server's
 Static RSA private key. If an attacker records the handshake and later obtains the private key
@@ -11554,7 +11554,7 @@ Client-side mitigation.
 ### Lucky13 (CVE-2013-0169)
 
 A timing side-channel attack on CBC cipher suites in TLS 1.2. The decryption time varies depending
-On whether the MAC is valid, leaking information about the plaintext.
+on whether the MAC is valid, leaking information about the plaintext.
 
 **Mitigation:** Use AES-GCM or ChaCha20-Poly1305 (AEAD ciphers). If CBC must be used, implement
 Constant-time MAC verification.
@@ -11690,7 +11690,7 @@ Data encrypted with the peer's new keys.
 
 The server can request the client's certificate after the initial handshake is complete. This is
 Useful when the server does not know whether client authentication is needed until after processing
-The request.
+the request.
 
 ```text
 Server -> Client (encrypted):
@@ -11713,7 +11713,7 @@ Client -> Server (encrypted):
 ### Session Tickets (Stateless)
 
 The server encrypts the session state into a ticket and sends it to the client. The client presents
-The ticket on the next connection. The server decrypts the ticket and resumes the session.
+the ticket on the next connection. The server decrypts the ticket and resumes the session.
 
 Advantages: server does not store session state (scales horizontally). Disadvantages: ticket
 Encryption key must be rotated; tickets can be stolen.
@@ -11739,7 +11739,7 @@ Second handshake (resumption):
 ### 0-RTT Resumption
 
 With a valid PSK, the client can send application data in the first flight (0-RTT). This is useful
-For repeat connections where latency is critical.
+for repeat connections where latency is critical.
 
 ```bash
 # Test 0-RTT with openssl
@@ -11839,7 +11839,7 @@ CPU. Session resumption reduces this cost dramatically.
 ### Hardware Acceleration
 
 Modern CPUs support AES-NI (hardware-accelerated AES encryption). ChaCha20-Poly1305 is designed to
-Be fast without hardware acceleration and is preferred on ARM-based devices.
+be fast without hardware acceleration and is preferred on ARM-based devices.
 
 ```bash
 # Check if AES-NI is available
@@ -11859,8 +11859,8 @@ Certificate management and reduces CPU load on application servers.
 ### 8. Incomplete Certificate Chains
 
 The server must send the full certificate chain (leaf + intermediates). If intermediate certificates
-Are missing, clients that do not have the intermediate cached will fail to validate the chain. This
-Is the most common TLS deployment error.
+are missing, clients that do not have the intermediate cached will fail to validate the chain. This
+is the most common TLS deployment error.
 
 ```bash
 # Verify certificate chain completeness
@@ -12122,7 +12122,7 @@ ping -c 4 -s 1400 example.com
 ### TTL (Time to Live)
 
 The TTL field in the IP header is decremented by each router. When TTL reaches 0, the router sends
-An ICMP Time Exceeded message back to the source. The initial TTL reveals the operating system:
+an ICMP Time Exceeded message back to the source. The initial TTL reveals the operating system:
 
 | Initial TTL | OS                           |
 | ----------- | ---------------------------- |
@@ -12207,7 +12207,7 @@ traceroute to example.com (93.184.216.34), 30 hops max, 60 byte packets
 
 `tcpdump` is the standard command-line packet capture tool. It uses BPF (Berkeley Packet Filter)
 Expressions to filter captured packets and can capture packets for analysis or save them to a file
-For Wireshark.
+for Wireshark.
 
 ### Basic Capture
 
@@ -12418,7 +12418,7 @@ curl https://example.com
 ## netcat (nc)
 
 `netcat` is a versatile networking utility for reading from and writing to network connections. It
-Is often called the "TCP/IP Swiss army knife."
+is often called the "TCP/IP Swiss army knife."
 
 ### Port Scanning
 
@@ -12750,7 +12750,7 @@ nslookup
 ## ss (Socket Statistics)
 
 `ss` replaces the older `netstat` command for examining network sockets. It is faster and provides
-More detailed information.
+more detailed information.
 
 ### Common Usage
 
@@ -12895,7 +12895,7 @@ nmap --script ssl-enum-ciphers -p 443 192.168.1.100
 ## iperf3
 
 `iperf3` measures network throughput (bandwidth) between two hosts. One host runs as a server, the
-Other as a client.
+other as a client.
 
 ### Basic Usage
 
@@ -13138,7 +13138,7 @@ Packets as they enter and leave the network interface.
 
 Advantages: captures the endpoint"s perspective (including locally-generated traffic), no additional
 Hardware. Disadvantages: endpoint CPU overhead, may not capture traffic that the endpoint's OS drops
-Before libpcap sees it.
+before libpcap sees it.
 
 ### Capture Point Selection Guide
 
@@ -13291,7 +13291,7 @@ tcpdump -i eth0 -Z root
 ### Display Filters
 
 Wireshark display filters are applied after capture and use a different (and more powerful) syntax
-Than BPF capture filters.
+than BPF capture filters.
 
 ```text
 # Protocol filters
@@ -13408,7 +13408,7 @@ google-chrome
 ## tshark
 
 Tshark is the command-line version of Wireshark. It uses the same capture and display filter syntax
-But outputs to the terminal.
+but outputs to the terminal.
 
 ### Capturing
 
@@ -13476,7 +13476,7 @@ tshark -r /tmp/capture.pcap -Y 'http.response' -T json \
 ### NetFlow (Cisco)
 
 NetFlow is a network protocol developed by Cisco that exports aggregated flow records from routers
-And switches. A "flow" is a unidirectional sequence of packets sharing the same 5-tuple (source IP,
+and switches. A "flow" is a unidirectional sequence of packets sharing the same 5-tuple (source IP,
 Destination IP, source port, destination port, protocol).
 
 **What NetFlow records:**
@@ -13614,7 +13614,7 @@ nethogs eth0
 ### conntrack (Linux)
 
 Linux's netfilter connection tracking system maintains a table of all active connections. This is
-The backbone of NAT, stateful firewalls, and conntrack-based tools.
+the backbone of NAT, stateful firewalls, and conntrack-based tools.
 
 ```bash
 # View all tracked connections
@@ -13734,7 +13734,7 @@ Operation.
 ### Baseline Duration
 
 Capture at least one full business cycle (7 days) to capture weekday vs weekend patterns, peak vs
-Off-peak hours, and any batch processing windows.
+off-peak hours, and any batch processing windows.
 
 ## Anomaly Detection
 
@@ -13885,7 +13885,7 @@ tcpdump -i eth0 -B 524288000   # 500MB
 ### 4. Not Considering VLAN Tags
 
 If your network uses VLANs, the VLAN tag (802.1Q) is prepended to the Ethernet frame. Tcpdump may
-Not match filters against VLAN-tagged traffic. Use `vlan` in the BPF filter:
+not match filters against VLAN-tagged traffic. Use `vlan` in the BPF filter:
 
 ```bash
 tcpdump -i eth0 'vlan 100 and port 443'
@@ -14088,7 +14088,7 @@ Layer 3. Conversely, it takes Layer 3 packets, wraps them in a frame, and hands 
 Pattern to Layer 1 for transmission.
 
 The Layer 2 header contains the destination and source MAC addresses. The Layer 3 header contains
-The destination and source IP addresses. Both are needed for a frame to traverse a LAN and for the
+the destination and source IP addresses. Both are needed for a frame to traverse a LAN and for the
 Receiving host to process the packet correctly.
 
 ## Ethernet History
@@ -14115,7 +14115,7 @@ Ethernet II uses an EtherType field (where the value $\ge$ 1536 indicates the up
 
 In practice, the industry converged on Ethernet II framing. When you see an Ethernet frame on a
 Modern network, it is almost certainly Ethernet II (also called DIX Ethernet), not 802.3 with SNAP
-Or 802.2 LLC.
+or 802.2 LLC.
 
 ### Evolution of Speeds
 
@@ -14136,7 +14136,7 @@ Point links) was the most operationally significant change.
 ## Ethernet II Frame Structure
 
 Every Ethernet frame transmitted on a LAN follows the same structure. The frame is transmitted
-Most-significant byte first on the wire (big-endian bit order within each byte).
+most-significant byte first on the wire (big-endian bit order within each byte).
 
 ```
 +----------+-----+-------------+------------+-----------+---------+-----+
@@ -14156,7 +14156,7 @@ Preamble is not counted as part of the frame for minimum/maximum size calculatio
 ### Start Frame Delimiter -- SFD (1 byte)
 
 The SFD is a single byte: `10101011`. The last two bits signal the end of the preamble and the start
-Of the actual frame. The receiver uses this byte to identify exactly where the destination MAC
+of the actual frame. The receiver uses this byte to identify exactly where the destination MAC
 Address begins.
 
 ### Destination MAC Address (6 bytes)
@@ -14198,8 +14198,8 @@ The maximum transmission unit (MTU) for standard Ethernet is 1500 bytes. Jumbo f
 ### Frame Check Sequence -- FCS (4 bytes)
 
 A 32-bit CRC (Cyclic Redundancy Check) computed over the entire frame (from Destination MAC through
-The end of the Payload). The FCS is appended by the sender and verified by the receiver. If the CRC
-Does not match, the frame is silently dropped. Layer 2 does not request retransmission -- that is
+the end of the Payload). The FCS is appended by the sender and verified by the receiver. If the CRC
+does not match, the frame is silently dropped. Layer 2 does not request retransmission -- that is
 TCP's responsibility (Layer 4).
 
 The CRC-32 polynomial used is:
@@ -14304,7 +14304,7 @@ When a collision is detected:
 ### Binary Exponential Backoff
 
 After the $n$-th collision ($n = 1, 2, 3, \ldots$), the station picks a random integer $r$ uniformly
-From the range $\{0, 1, \ldots, 2^k - 1\}$ where:
+from the range $\{0, 1, \ldots, 2^k - 1\}$ where:
 
 $$
 K = \min(n, 10)
@@ -14343,8 +14343,8 @@ Before attempting retransmission.
 
 The minimum frame size of 64 bytes (46 bytes payload + 14 bytes header + 4 bytes FCS) is directly
 Tied to CSMA/CD. The worst-case round-trip propagation delay on a 10 Mbps Ethernet segment (2500 m
-With 4 repeaters) is approximately 51.2 microseconds, which is exactly 512 bit times. A station must
-Be able to detect a collision before it finishes transmitting the minimum-size frame. At 10 Mbps,
+with 4 repeaters) is approximately 51.2 microseconds, which is exactly 512 bit times. A station must
+be able to detect a collision before it finishes transmitting the minimum-size frame. At 10 Mbps,
 Transmitting 64 bytes takes:
 
 $$
@@ -14353,7 +14353,7 @@ $$
 
 This ensures that any collision on the segment will be detected before the transmitting station
 Finishes sending the minimum frame. If the frame were shorter, a station at one end of the segment
-Might finish transmitting before the collision signal from the far end arrives, leading to an
+might finish transmitting before the collision signal from the far end arrives, leading to an
 Undetected collision.
 
 ## Full-Duplex vs Half-Duplex Ethernet
@@ -14372,8 +14372,8 @@ Receive paths. A switch port connected to a single host is inherently full-duple
 Shared medium to contend with. CSMA/CD is disabled on full-duplex links.
 
 Half-duplex only exists when a hub is in the path. Hubs are physical-layer repeaters that forward
-All received signals to all other ports. Every port on a hub is in the same collision domain. Hubs
-Have been obsolete for over two decades.
+all received signals to all other ports. Every port on a hub is in the same collision domain. Hubs
+have been obsolete for over two decades.
 
 ## Ethernet Standards Comparison
 
@@ -14483,7 +14483,7 @@ Countermeasures:
 
 A Virtual Local Area Network (VLAN) is a logical broadcast domain created at Layer 2. Devices in the
 Same VLAN can communicate with each other as if they were on the same physical switch, even if they
-Are on different switches. Devices in different VLANs cannot communicate at Layer 2 -- they require
+are on different switches. Devices in different VLANs cannot communicate at Layer 2 -- they require
 A router (Layer 3 device) for inter-VLAN routing.
 
 ### 802.1Q Tagging
@@ -14573,7 +14573,7 @@ Prevention:
 
 STP (IEEE 802.1D) prevents Layer 2 loops in networks with redundant paths. Without STP, a loop
 Creates a broadcast storm: frames circulate indefinitely, consuming all bandwidth and bringing down
-The network.
+the network.
 
 ### Root Bridge Election
 
@@ -14666,7 +14666,7 @@ Rogue switch that could become the root bridge.
 ### Purpose
 
 Link aggregation (also called port channeling, bonding, or teaming) combines multiple physical links
-Into a single logical link. This provides:
+into a single logical link. This provides:
 
 - **Increased bandwidth.** Aggregate throughput of all member links.
 - **Redundancy.** If one link fails, traffic is redistributed to the remaining links.
@@ -14675,7 +14675,7 @@ Into a single logical link. This provides:
 ### LACP (802.3ad / 802.1AX)
 
 The Link Aggregation Control Protocol (LACP) is defined in IEEE 802.3ad (originally) and superseded
-By 802.1AX. LACP provides dynamic negotiation of link aggregation groups between two devices.
+by 802.1AX. LACP provides dynamic negotiation of link aggregation groups between two devices.
 
 Each port has an LACP port priority (default 32768, configurable in increments of 1) and an
 Administrative key. Ports with the same key on the same device form a LAG (Link Aggregation Group).
@@ -14725,7 +14725,7 @@ port-channel load-balance src-dst-port  ! hash on src+dst port (Layer 4)
 ### Operation
 
 ARP resolves IPv4 addresses to MAC addresses. When a host needs to send a packet to an IP address on
-The same subnet, it uses ARP to discover the destination's MAC address.
+the same subnet, it uses ARP to discover the destination's MAC address.
 
 1. The sender checks its **ARP cache** for an existing mapping.
 2. If no mapping exists, the sender broadcasts an **ARP Request**: "Who has 192.168.1.100? Tell
@@ -14962,7 +14962,7 @@ interface Gi0/25
 ```
 
 Note: BPDU Guard is explicitly enabled on Gi0/1 per the requirement. The remaining ports should also
-Have it enabled in production. The native VLAN 999 should not have any active ports assigned.
+have it enabled in production. The native VLAN 999 should not have any active ports assigned.
 
 </details>
 
@@ -14990,7 +14990,7 @@ A) The root bridge has the lowest Bridge ID (priority + MAC). Comparing prioriti
 SW4 is the root bridge.
 
 B) If SW4 fails, the remaining switches are SW1 (32768), SW2 (16384), and SW3 (16384). SW2 and SW3
-Have the same priority, so the MAC address is the tiebreaker. SW2 has MAC `00:00:00:00:00:02` and
+have the same priority, so the MAC address is the tiebreaker. SW2 has MAC `00:00:00:00:00:02` and
 SW3 has MAC `00:00:00:00:00:03`. Since `02 < 03`**SW2 becomes the root bridge**.
 
 </details>
@@ -15009,7 +15009,7 @@ Handling thousands of short-lived connections?
 
 A) **1 Gbps.** LACP distributes traffic based on a hash. A single TCP flow (single source IP, dest
 IP, source port, dest port combination) always hashes to the same link. The single backup stream
-Cannot utilize more than one physical link.
+cannot utilize more than one physical link.
 
 B) Use multiple parallel TCP streams (e.g., `tar | ssh` with multiple connections, or a tool like
 `iperf -P 4`). Each stream may hash to a different link, utilizing more of the aggregate bandwidth.
@@ -15023,7 +15023,7 @@ Subnet to the same link.
 ### Problem 7: ARP Cache and Gratuitous ARP
 
 A server with IP 192.168.1.100 and MAC 00:11:22:33:44:55 is migrated to a new physical server with
-The same IP but a new MAC address 00:AA:BB:CC:DD:EE. The default gateway (192.168.1.1) still has the
+the same IP but a new MAC address 00:AA:BB:CC:DD:EE. The default gateway (192.168.1.1) still has the
 Old ARP entry cached.
 
 A) Why might connectivity fail initially? b) How does a gratuitous ARP solve this? c) If the
@@ -15033,22 +15033,22 @@ Gateway's ARP cache timeout is 1200 seconds, what is the maximum downtime withou
 <summary>Answer</summary>
 
 A) The gateway has `192.168.1.100 -> 00:11:22:33:44:55` cached. It sends frames for the server to
-The old MAC address, which no longer exists. The new server never receives the frames.
+the old MAC address, which no longer exists. The new server never receives the frames.
 
 B) The new server sends a gratuitous ARP: an ARP request (or reply) with sender IP = 192.168.1.100
-And sender MAC = 00:AA:BB:CC:DD:EE. The gateway receives this and updates its ARP cache with the new
+and sender MAC = 00:AA:BB:CC:DD:EE. The gateway receives this and updates its ARP cache with the new
 MAC address.
 
 C) Without gratuitous ARP, the gateway would continue sending frames to the old MAC for up to 1200
 Seconds (20 minutes), until the ARP entry expires and the gateway sends a new ARP request. During
-This time, connectivity to the server would be completely down.
+this time, connectivity to the server would be completely down.
 
 </details>
 
 ### Problem 8: 802.1Q Frame Size
 
 A standard untagged Ethernet frame carries 1500 bytes of payload. What is the total frame size on
-The wire when an 802.1Q tag is added? Include all fields.
+the wire when an 802.1Q tag is added? Include all fields.
 
 <details>
 <summary>Answer</summary>
@@ -15069,7 +15069,7 @@ Total bits on wire (including preamble/SFD): $(8 + 1522) \times 8 = 12240$ bits.
 
 The 802.1Q tag adds 4 bytes to the frame, increasing the maximum from 1518 to 1522 bytes. This is
 Sometimes called a "baby giant" frame. Switches that do not support 802.1Q will drop frames larger
-Than 1518 bytes.
+than 1518 bytes.
 
 </details>
 
@@ -15351,7 +15351,7 @@ The noise floor. In dense environments, interference often dominates over therma
 And frame aggregation (A-MPDU, A-MSDU). These dramatically improved throughput and efficiency.
 
 **802.11ac (Wi-Fi 5):** Added wider channels (80/160 MHz), MU-MIMO (Multi-User MIMO) for downlink
-Only, 256-QAM modulation (8 bits per symbol), and explicit beamforming.
+only, 256-QAM modulation (8 bits per symbol), and explicit beamforming.
 
 **802.11ax (Wi-Fi 6/6E):** Introduced OFDMA (Orthogonal Frequency Division Multiple Access) for
 Efficient multi-user operation in both directions, BSS Coloring to reduce co-channel interference,
@@ -15364,7 +15364,7 @@ Flexible OFDMA scheduling.
 ### Theoretical vs Actual Throughput
 
 The PHY rate in the table above is the raw physical layer rate. Actual application-layer throughput
-Is significantly lower due to:
+is significantly lower due to:
 
 - 802.11 overhead: interframe spacing, ACKs, headers
 - Half-duplex nature: only one station transmits at a time
@@ -15417,7 +15417,7 @@ Emergency communication. No central management, no roaming support, and limited 
 
 **Fat AP (Autonomous AP):** The AP runs the full wireless protocol stack, handles all management
 Functions (authentication, roaming, RF management), and makes independent decisions. Configuration
-Is done on each AP individually. Scaling beyond a few APs becomes operationally burdensome.
+is done on each AP individually. Scaling beyond a few APs becomes operationally burdensome.
 
 **Thin AP (Lightweight AP):** The AP handles only the real-time 802.11 MAC layer functions. All
 Management, configuration, and policy decisions are made by a Wireless LAN Controller (WLC). The AP
@@ -15442,8 +15442,8 @@ CAPWAP (RFC 5415) defines the protocol between a WLC and its APs. It runs over U
 - **Data channel:** UDP port 5247 -- carries encapsulated client data frames.
 
 CAPWAP can operate in native (Layer 2) or tunnel (Layer 3) mode. In Layer 3 mode, the CAPWAP packets
-Are routed through the IP network, allowing the controller to be anywhere on the network, not just
-On the same subnet as the APs.
+are routed through the IP network, allowing the controller to be anywhere on the network, not just
+on the same subnet as the APs.
 
 ## 802.11 Frame Types
 
@@ -15491,7 +15491,7 @@ Control frames assist in the delivery of data frames. They do not carry upper-la
 
 RTS/CTS is used to mitigate the hidden node problem. Before transmitting a data frame, the sender
 Broadcasts an RTS. The receiver responds with a CTS. All stations hearing the CTS defer transmission
-For the duration specified in the CTS, even if they did not hear the RTS.
+for the duration specified in the CTS, even if they did not hear the RTS.
 
 ### Data Frames
 
@@ -15541,7 +15541,7 @@ WPA was an interim solution designed to address WEP's weaknesses before 802.11i 
 - **Key derivation:** PBKDF2 with 4096 iterations, HMAC-SHA1
 
 WPA is also broken. TKIP's Michael MIC can be forged, and the Beck-Tews attack (2009) can recover
-The keystream and inject packets within 12-15 minutes.
+the keystream and inject packets within 12-15 minutes.
 
 ### WPA2 (802.11i) -- Minimum Acceptable
 
@@ -15600,7 +15600,7 @@ Encrypted link that protects against passive eavesdropping but does not authenti
 
 The EAP (Extensible Authentication Protocol) runs between the supplicant and the authentication
 Server, encapsulated in EAPOL (EAP over LAN) between the supplicant and authenticator, and RADIUS
-Between the authenticator and the authentication server.
+between the authenticator and the authentication server.
 
 Common EAP methods:
 
@@ -15624,7 +15624,7 @@ Adjacent channels, only three non-overlapping channels are available:
 - **Channel 11:** 2462 MHz (center)
 
 In the United States, channels 1-11 are available. In Europe and most other regions, channels 1-13
-Are available. Channel 14 (2484 MHz) is available only in Japan.
+are available. Channel 14 (2484 MHz) is available only in Japan.
 
 Using overlapping channels (e.g., channels 1, 2, 3) causes co-channel interference and severely
 Degrades performance. Always use channels 1, 6, and 11 in a 2.4 GHz deployment.
@@ -15686,7 +15686,7 @@ Channel bonding combines adjacent 20 MHz channels into wider channels for higher
 | 320 MHz      | 16                | ~16x            | Extreme           |
 
 In the 2.4 GHz band, bonding 40 MHz consumes the entire available spectrum, leaving no room for
-Other channels. In the 5 GHz band, 80 MHz bonding is common but requires careful channel planning.
+other channels. In the 5 GHz band, 80 MHz bonding is common but requires careful channel planning.
 In the 6 GHz band (Wi-Fi 6E/7), 160 MHz and even 320 MHz channels are practical due to the vast
 Available spectrum.
 
@@ -15728,7 +15728,7 @@ Phones, radar (5 GHz DFS channels), and medical equipment. These sources raise t
 Cause frame retransmissions.
 
 Mitigation: Use spectrum analysis to identify non-Wi-Fi interferers. Relocate APs or switch to 5 GHz
-Where non-Wi-Fi interference is less prevalent.
+where non-Wi-Fi interference is less prevalent.
 
 ### Diagnostic Tools
 
@@ -15872,7 +15872,7 @@ before deployment.
 
 Note that PoE power is delivered over Cat5e or better cable at distances up to 100 meters. Power
 Dissipation in the cable increases with distance, so an AP at 100 meters receives less usable power
-Than one at 30 meters. The IEEE standards specify the minimum power guaranteed at the powered device
+than one at 30 meters. The IEEE standards specify the minimum power guaranteed at the powered device
 (PD): 12.95 W for 802.3af, 25.5 W for 802.3at, 51 W for Type 3, and 73 W for Type 4.
 
 ### Roaming Optimization
@@ -15919,7 +15919,7 @@ Underutilized.
 ### WPA2 Enterprise Without Certificates
 
 Using PEAP-MSCHAPv2 without properly validating the server certificate means clients are vulnerable
-To evil twin attacks. An attacker can set up a rogue AP with a self-signed certificate and capture
+to evil twin attacks. An attacker can set up a rogue AP with a self-signed certificate and capture
 User credentials.
 
 ### Not Planning for DFS Events
@@ -15957,7 +15957,7 @@ $$
 $$
 
 An SNR of 36 dB is in the "Excellent" range, supporting the highest MCS rates. This is well above
-The minimum for reliable data throughput.
+the minimum for reliable data throughput.
 
 </details>
 
@@ -16061,7 +16061,7 @@ Retransmissions, and interference. This illustrates why mesh hops should be mini
 
 Two APs are on the same 5 GHz channel (channel 36). Each AP has 5 associated clients, and all
 Clients are actively transmitting. If the channel utilization is at 80% (meaning 80% of the airtime
-Is occupied), estimate the per-client throughput assuming each client's traffic is symmetric (equal
+is occupied), estimate the per-client throughput assuming each client's traffic is symmetric (equal
 Upload and download) and the PHY rate is 300 Mbps.
 
 <details>
@@ -16188,7 +16188,7 @@ Distributed systems.
 ### Core Components
 
 The email system is composed of three principal agent types, each operating at different stages of
-The message lifecycle.
+the message lifecycle.
 
 **MUA, Mail User Agent**
 
@@ -16204,9 +16204,9 @@ message rendering, attachment handling, and the application of local filtering r
 The MTA is responsible for routing and relaying messages between mail systems. MTAs implement the
 SMTP protocol (RFC 5321) and communicate with each other on port 25. Well-known MTAs include
 Postfix, Exim, Sendmail, and Microsoft Exchange. An MTA performs DNS MX record lookups to determine
-The destination mail server for a given domain, manages message queues for retry on transient
+the destination mail server for a given domain, manages message queues for retry on transient
 Failures, and applies routing policies. The MTA-to-MTA path may involve multiple relay hops before
-The message reaches its final destination MTA.
+the message reaches its final destination MTA.
 
 **MDA, Mail Delivery Agent**
 
@@ -16214,13 +16214,13 @@ The MDA accepts messages from the MTA and writes them into the recipient"s mailb
 Involve writing to a local filesystem format such as mbox (all messages concatenated into one file)
 Or Maildir (one file per message in a directory hierarchy), or delivering to a specialized storage
 Backend via LMTP to a Dovecot or Cyrus IMAP server. Procmail and Sieve (RFC 5228) are commonly used
-As local delivery agents or filtering languages. The MDA is the final step in the delivery chain
-Before the message becomes available for retrieval by the MUA.
+as local delivery agents or filtering languages. The MDA is the final step in the delivery chain
+before the message becomes available for retrieval by the MUA.
 
 ### Email Message Format
 
 Email messages are defined by RFC 5322 (the successor to RFC 2822 and RFC 822). The format consists
-Of a header section and a body section, separated by a single blank line (CRLF CRLF).
+of a header section and a body section, separated by a single blank line (CRLF CRLF).
 
 **Headers**
 
@@ -16256,7 +16256,7 @@ Alternative representations, and binary attachments.
 ### MIME, Multipurpose Internet Mail Extensions
 
 MIME, defined across RFC 2045 through RFC 2049, extends the RFC 5322 message format to support
-Non-ASCII text, multimedia content, and multi-part message bodies.
+non-ASCII text, multimedia content, and multi-part message bodies.
 
 **Multipart Messages**
 
@@ -16295,7 +16295,7 @@ Common multipart subtypes:
 Base64 (RFC 4648) encodes binary data as ASCII text using a 64-character alphabet (`A–Z``a–z`
 `0–9``+``/`) with `=` padding. Each group of 3 bytes maps to 4 ASCII characters, producing a 33%
 Size overhead. Base64 is specified via the `Content-Transfer-Encoding: base64` header. For text that
-Is mostly ASCII but contains some non-ASCII characters, `quoted-printable` encoding is more
+is mostly ASCII but contains some non-ASCII characters, `quoted-printable` encoding is more
 Efficient because it encodes only non-printable and non-ASCII bytes using `=XX` hex notation.
 
 **Attachments**
@@ -16337,7 +16337,7 @@ The complete lifecycle of an email message involves five stages:
 SMTP is defined in RFC 5321 (obsoleting RFC 2821 and RFC 821). It is a text-based, request-response
 Protocol using TCP. SMTP is traditionally used on port 25 for MTA-to-MTA relay and on port 587 for
 MUA-to-MTA submission (RFC 6409). Port 465 (SMTPS) is a deprecated implicit TLS variant that remains
-In widespread use despite not having a formal RFC for that purpose.
+in widespread use despite not having a formal RFC for that purpose.
 
 SMTP uses a strict command-response model. The client sends commands, and the server responds with a
 Three-digit status code followed by explanatory text. Commands and responses are terminated by CRLF.
@@ -16347,7 +16347,7 @@ The protocol is line-oriented; there are no binary commands.
 
 Before an MTA can relay a message, it must determine the destination mail server. This is
 Accomplished through DNS MX (Mail Exchanger) record lookups. The MTA queries DNS for MX records of
-The recipient's domain (e.g., `example.com`). MX records contain a preference value (lower is more
+the recipient's domain (e.g., `example.com`). MX records contain a preference value (lower is more
 Preferred) and a hostname.
 
 ```
@@ -16357,8 +16357,8 @@ example.com.    IN MX  20 mail2.example.com.
 
 The MTA attempts delivery to the lowest-preference MX first. If unreachable, it falls back to the
 Next preference value. If no MX records exist, the MTA falls back to an A or AAAA record lookup on
-The domain name itself (RFC 5321, Section 5). MX records enable mail routing that is independent of
-The domain's web server address and allow backup mail servers to accept mail when the primary is
+the domain name itself (RFC 5321, Section 5). MX records enable mail routing that is independent of
+the domain's web server address and allow backup mail servers to accept mail when the primary is
 Unavailable.
 
 ### SMTP Session
@@ -16440,7 +16440,7 @@ SMTP extensions are advertised in the `EHLO` response and are defined in various
 The `STARTTLS` command upgrades the plaintext TCP connection to TLS. The client sends `STARTTLS` The
 server responds with `220`And a standard TLS handshake follows. All subsequent commands are
 Transmitted over the encrypted channel. STARTTLS provides opportunistic encryption on port 25 and
-Should be mandatory on port 587 (submission). After the TLS handshake, the client must re-issue
+should be mandatory on port 587 (submission). After the TLS handshake, the client must re-issue
 `EHLO` to discover extensions available under encryption.
 
 **AUTH (RFC 4954)**
@@ -16479,7 +16479,7 @@ Delivery Status Notifications extend the envelope to request delivery receipts, 
 Delayed delivery notifications. The `ORCPT` parameter on `RCPT TO` specifies the original recipient
 Address, and `NOTIFY=SUCCESS,FAILURE,DELAY` controls which DSN events are generated. DSN reports are
 Structured as `multipart/report` messages with a machine-readable `message/delivery-status` part and
-An optional human-readable `text/plain` part.
+an optional human-readable `text/plain` part.
 
 **CHUNKING (RFC 3030)**
 
@@ -16537,7 +16537,7 @@ Providing granular information about the subject (x), detail (y), and action (z)
 
 When an MTA cannot deliver a message (permanent 5xx failure or retry exhaustion), it generates a
 Bounce message (Non-Delivery Report, or NDR). The bounce is sent to the envelope sender address from
-The original `MAIL FROM` command. Bounce messages use the `multipart/report` MIME type with a
+the original `MAIL FROM` command. Bounce messages use the `multipart/report` MIME type with a
 `message/delivery-status` part containing structured fields (per-message and per-recipient DSN
 Fields defined in RFC 3464) and an optional human-readable explanation.
 
@@ -16553,12 +16553,12 @@ Programmatically.
 IMAP is defined in RFC 3501 (obsoleting RFC 2060) and operates on port 143 for plaintext and port
 993 for implicit TLS (IMAPS). IMAP provides remote access to mailbox contents, allowing clients to
 Manipulate server-side mailboxes, search messages, set and clear flags, and manage attachments
-Without downloading entire messages.
+without downloading entire messages.
 
 IMAP is a stateful, long-lived protocol. The client maintains a selected mailbox and operates on
 Messages within that context. The server preserves message state (flags, folder assignments,
 Sequence numbers) across sessions. This design enables seamless access from multiple devices, as
-Each device sees the same server-side state.
+each device sees the same server-side state.
 
 ### IMAP vs POP3
 
@@ -16596,7 +16596,7 @@ can be shared between users with ACL-based permissions.
 Each message has a unique identifier (UID) that is assigned when the message is delivered to the
 Mailbox and never changes, even if other messages are expunged. UIDs are monotonically increasing
 32-bit integers that are unique within a UID validity window (the `UIDVALIDITY` value, which changes
-If the mailbox is deleted and recreated). The server also assigns a sequence number to each message
+if the mailbox is deleted and recreated). The server also assigns a sequence number to each message
 Based on its position in the mailbox (1-based index). Sequence numbers change when messages are
 Expunged; UIDs do not. Clients should use UIDs for persistent references and sequence numbers for
 Operations within a single session.
@@ -16778,9 +16778,9 @@ and the server deletes them, the server has no record of the messages.
 **Download-and-Keep**
 
 The client retrieves messages but does not issue `DELE` commands. Messages remain on the server
-After `QUIT`. This allows the client to re-download messages in a future session, but the POP3
+after `QUIT`. This allows the client to re-download messages in a future session, but the POP3
 Protocol itself provides no mechanism to track which messages have already been downloaded. Clients
-Must implement their own tracking, by examining `Message-ID` headers or using the `UIDL` Command to
+must implement their own tracking, by examining `Message-ID` headers or using the `UIDL` Command to
 correlate messages across sessions.
 
 ### POP3 Commands
@@ -16864,8 +16864,8 @@ POP3 lacks several features that IMAP provides. It offers no server-side folder 
 Messages exist in a single flat inbox). It has no partial message retrieval (except `TOP` for
 Headers plus a limited number of body lines). There is no server-side search; clients must download
 Messages to search locally. Persistent message flags are absent (the `\Seen` state is not preserved
-Across sessions). Concurrent access is impossible because POP3 locks the mailbox for the duration of
-The session. Server-side sorting, threading, and push notifications are not available; clients must
+across sessions). Concurrent access is impossible because POP3 locks the mailbox for the duration of
+the session. Server-side sorting, threading, and push notifications are not available; clients must
 Poll using `STAT` or `UIDL`. There is no access control for shared folders and no quota reporting.
 
 These limitations make POP3 unsuitable for multi-device scenarios or any use case requiring
@@ -16879,7 +16879,7 @@ Server-side message management.
 
 FTP uses two separate TCP connections: a control connection (port 21) for commands and responses,
 And a data connection for file transfers. FTP is a plaintext protocol; credentials are transmitted
-In cleartext, making it inherently insecure without additional encryption.
+in cleartext, making it inherently insecure without additional encryption.
 
 FTP operates in two data transfer modes:
 
@@ -16908,12 +16908,12 @@ SSH transport (port 22). SFTP provides file transfer, directory listing, file re
 File system operations. It supports resumable transfers, file locking, and symbolic link
 Manipulation. SFTP is preferred over FTP/FTPS in modern environments because it provides encryption,
 Integrity, and authentication through SSH without requiring separate TLS configuration, and it works
-Through firewalls with a single port (22).
+through firewalls with a single port (22).
 
 ### SSH, Secure Shell
 
 SSH (RFC 4250–4254) provides secure remote access over an untrusted network. It operates on port 22
-And provides three core services: user authentication, remote command execution, and encrypted
+and provides three core services: user authentication, remote command execution, and encrypted
 Tunneling.
 
 **Key Exchange**
@@ -16953,7 +16953,7 @@ Access internal services securely.
 ### NTP, Network Time Protocol
 
 NTP (RFC 5905) synchronizes system clocks across a network with sub-millisecond accuracy over LAN
-And tens of milliseconds over WAN. It operates on UDP port 123. SNTP (Simple Network Time Protocol,
+and tens of milliseconds over WAN. It operates on UDP port 123. SNTP (Simple Network Time Protocol,
 RFC 4330) is a subset of NTP designed for clients that do not need the full Marzullo intersection
 Algorithm.
 
@@ -16962,7 +16962,7 @@ Algorithm.
 NTP organizes time sources into a stratum hierarchy. Stratum 1 servers are directly synchronized to
 A reference clock (GPS receiver, atomic clock, or radio clock such as WWVB). Stratum 2 servers
 Synchronize to stratum 1 servers, stratum 3 to stratum 2, and so on. The maximum recommended stratum
-Is 15; stratum 16 indicates an unsynchronized clock (the `INSYNC` bits are clear in the NTP packet's
+is 15; stratum 16 indicates an unsynchronized clock (the `INSYNC` bits are clear in the NTP packet's
 `LI` field). Each server reports its stratum level, allowing clients to select the best available
 Source.
 
@@ -17002,8 +17002,8 @@ Compute the round-trip delay and offset.
 
 LDAP (RFC 4510–4519) is an application-layer protocol for accessing and maintaining distributed
 Directory information services. It operates on port 389 for plaintext and port 636 for LDAPS (LDAP
-Over TLS). LDAP is designed for read-heavy workloads with infrequent writes, making it well-suited
-For user authentication, address books, organizational directories, and configuration management.
+over TLS). LDAP is designed for read-heavy workloads with infrequent writes, making it well-suited
+for user authentication, address books, organizational directories, and configuration management.
 
 **Data Model**
 
@@ -17050,7 +17050,7 @@ Performance. Common index types include presence (does the attribute exist), equ
 Substring (prefix, suffix, or infix matching), approximate (phonetic matching for names), and range.
 Complex nested filters and unindexed searches (e.g., `(!(someUnindexedAttr=value))`) can trigger
 Full database scans on large directories, causing severe performance degradation. Administrators
-Should monitor slow queries and ensure appropriate indexes are in place.
+should monitor slow queries and ensure appropriate indexes are in place.
 
 ### SMB/CIFS, Server Message Block / Common Internet File System
 
@@ -17071,9 +17071,9 @@ Infrastructure.
 
 SMB 2.0/3.0 introduced significant improvements over SMB 1.0. Compound requests batch multiple
 Operations into a single request-response, reducing round trips. Durable handles allow file handles
-To survive temporary network disconnections (useful for VM live migration). Leasing enables
+to survive temporary network disconnections (useful for VM live migration). Leasing enables
 Aggressive client-side caching with server-issued guarantees. Multichannel aggregates bandwidth
-Across multiple network interfaces simultaneously. SMB 3.0 encryption (AES-128-CCM or AES-128-GCM)
+across multiple network interfaces simultaneously. SMB 3.0 encryption (AES-128-CCM or AES-128-GCM)
 Encrypts all data in transit, protecting against eavesdropping. Continuous availability provides
 Transparent failover in clustered server environments. SMB 3.1.1 adds pre-authentication integrity
 (AES-CMAC) to prevent downgrade attacks.
@@ -17082,20 +17082,20 @@ Transparent failover in clustered server environments. SMB 3.1.1 adds pre-authen
 
 SMB supports NTLMv2 and Kerberos authentication. Active Directory domains use Kerberos by default
 (via SPNEGO negotiation), providing mutual authentication and constrained delegation. NTLMv2 is used
-In workgroup environments without a domain controller. SMB signing (HMAC-SHA256) provides message
+in workgroup environments without a domain controller. SMB signing (HMAC-SHA256) provides message
 Integrity but not confidentiality; it is mandatory in SMB 3.0 by default.
 
 **Linux Support**
 
 Samba provides SMB/CIFS client and server functionality on Linux and other Unix systems. The
 `cifs-utils` package provides mount helpers, and the kernel includes the `cifs.ko` filesystem driver
-For mounting SMB shares. Samba implements an Active Directory domain controller, file server, print
+for mounting SMB shares. Samba implements an Active Directory domain controller, file server, print
 Server, and Winbind (for Linux-to-Windows authentication integration).
 
 ### NFS, Network File System
 
 NFS, developed by Sun Microsystems, allows remote filesystem access over a network. Current versions
-Are NFSv4.1 (RFC 8881) and NFSv4.2 (RFC 7862). NFS is RPC-based (Remote Procedure Call, RFC 5531)
+are NFSv4.1 (RFC 8881) and NFSv4.2 (RFC 7862). NFS is RPC-based (Remote Procedure Call, RFC 5531)
 And historically used UDP or TCP on port 2049. NFSv4 uses TCP exclusively.
 
 **NFSv4 Features**
@@ -17121,12 +17121,12 @@ Servers for scalable parallel data access.
 **Exports and Security**
 
 The NFS server controls access through the `exports` configuration file, specifying which clients
-May mount which filesystems and with what options (rw/ro, root squashing, subtree checking,
+may mount which filesystems and with what options (rw/ro, root squashing, subtree checking,
 Sync/async, sec= flavor). Security mechanisms include `AUTH_SYS` (the client reports the UID/GID
 Directly; insecure but simple, suitable for trusted LANs), `AUTH_NONE` (anonymous access, rarely
 Used), and `RPCSEC_GSS` (Kerberos v5-based authentication providing three security flavors: `krb5`
 For authentication only, `krb5i` for authentication plus integrity, and `krb5p` for authentication
-Plus integrity plus privacy/encryption).
+plus integrity plus privacy/encryption).
 
 ## Email Security
 
@@ -17214,7 +17214,7 @@ Verification fails, the headers have been altered.
 Canonicalization normalizes minor variations in message formatting before signing and verification.
 
 _Simple_ (`s`): Headers and body are passed through with minimal processing. Any modification (even
-An extra space or trailing newline) invalidates the signature. Body canonicalization removes all
+an extra space or trailing newline) invalidates the signature. Body canonicalization removes all
 Trailing empty lines.
 
 _Relaxed_ (`r`): Header names are lowercased, whitespace in header values is collapsed to single
@@ -17223,7 +17223,7 @@ Whitespace on each line and removes all trailing empty lines. This is more toler
 Made by intermediate MTAs that may reflow or rewrap headers.
 
 The `c=` field specifies header and body canonicalization separately (e.g., `c=relaxed/relaxed` is
-The most common and forgiving combination).
+the most common and forgiving combination).
 
 ### DMARC, Domain-based Message Authentication, Reporting, and Conformance
 
@@ -17271,7 +17271,7 @@ DMARC defines two report types. Aggregate reports (RUA) are sent periodically (d
 Contain statistics about authentication results for the domain: total message count, SPF pass/fail
 Counts, DKIM pass/fail counts, DMARC disposition applied, and the source IP addresses. Forensic
 Reports (RUF) are sent immediately for each failing message and include the original message headers
-For forensic analysis. Many domain operators start with `p=none` and `rua` reporting during an
+for forensic analysis. Many domain operators start with `p=none` and `rua` reporting during an
 Initial monitoring phase ( 2 to 4 weeks) to assess their email ecosystem, then escalate to
 `p=quarantine` and finally `p=reject` once the data shows a clean authentication profile.
 
@@ -17283,7 +17283,7 @@ STARTTLS upgrades an existing plaintext SMTP connection to TLS. The client sends
 Command, the server responds with `220`And a standard TLS handshake follows. After the handshake,
 The client must re-issue `EHLO` to discover extensions available over the encrypted channel.
 STARTTLS provides opportunistic encryption on port 25 (the client uses it if available) and should
-Be mandatory on port 587 (submission).
+be mandatory on port 587 (submission).
 
 **TLS Requirements**
 
@@ -17296,7 +17296,7 @@ Round trip (0-RTT with session resumption).
 **MTA-STS (SMTP MTA Strict Transport Security, RFC 8461)**
 
 MTA-STS allows a receiving domain to signal that sending MTAs must use TLS when delivering mail to
-It. The policy is published at `https://mta-sts.example.com/.well-known/mta-sts.txt`. The DNS TXT
+it. The policy is published at `https://mta-sts.example.com/.well-known/mta-sts.txt`. The DNS TXT
 Record `_mta-sts.example.com` enables the mechanism. The policy specifies the TLS mode (`enforce`
 `testing`Or `none`), the minimum TLS version (`TLSv1.1` or `TLSv1.2`), and the list of MX Hostnames.
 If MTA-STS is in `enforce` mode and a sending MTA cannot establish a TLS connection with The
@@ -17308,7 +17308,7 @@ queued for retry.
 DANE (DNS-Based Authentication of Named Entities) allows a domain to publish TLSA records in
 DNSSEC-signed DNS that specify the expected TLS certificate for its SMTP servers. This provides
 Certificate pinning without relying on CA (Certificate Authority) validation, eliminating the risk
-Of compromised or fraudulent CA-issued certificates. DANE for SMTP uses the `_smtp._tcp.example.com`
+of compromised or fraudulent CA-issued certificates. DANE for SMTP uses the `_smtp._tcp.example.com`
 DNS name for TLSA record lookup. The TLSA record specifies the certificate association type (e.g.,
 Usage 3: DANE-EE, trust anchor or certificate), the selector (e.g., 0: full certificate, 1: public
 Key), and the matching type (e.g., 0: exact match, 1: SHA-256 hash, 2: SHA-512 hash).
@@ -17323,14 +17323,14 @@ Alice trusts Bob and Bob has signed Charlie's key, Alice may choose to extend pa
 Charlie. OpenPGP encrypts messages using a hybrid scheme: the message content is encrypted with a
 Symmetric cipher (AES-256), and the symmetric session key is encrypted with each recipient's public
 Key (RSA or Elliptic Curve). PGP/MIME (RFC 3156) encapsulates OpenPGP-encrypted and signed data
-Within MIME structures.
+within MIME structures.
 
 PGP message formats in MIME:
 
 `multipart/encrypted` contains the OpenPGP-encrypted session key (`application/pgp-encrypted`) and
-The symmetrically encrypted data (`application/octet-stream`). `multipart/signed` contains the
+the symmetrically encrypted data (`application/octet-stream`). `multipart/signed` contains the
 Message content and a detached signature (`application/pgp-signature`) that covers the content using
-The same signing algorithms as DKIM but applied to the full message rather than selected headers.
+the same signing algorithms as DKIM but applied to the full message rather than selected headers.
 
 PGP provides confidentiality (encryption), integrity (MDC, Modification Detection Code),
 Authentication (digital signatures), and non-repudiation. Key revocation is handled via revocation
@@ -17342,14 +17342,14 @@ S/MIME uses X.509 certificates issued by Certificate Authorities (CAs) for publi
 Following the PKI (Public Key Infrastructure) model. S/MIME messages use `application/pkcs7-mime`
 With `smime-type=enveloped-data` for encrypted content and `multipart/signed` with
 `application/pkcs7-signature` for signed content. S/MIME supports the same cryptographic algorithms
-As PGP (AES-256-CBC, AES-256-GCM, RSA, ECDSA, Ed25519) but relies on hierarchical CA trust rather
-Than a web of trust.
+as PGP (AES-256-CBC, AES-256-GCM, RSA, ECDSA, Ed25519) but relies on hierarchical CA trust rather
+than a web of trust.
 
 S/MIME is widely deployed in enterprise environments because it integrates with existing PKI
 Infrastructure and is natively supported by Microsoft Outlook, Apple Mail, iOS Mail, and other
 Enterprise MUAs. Certificate provisioning can be automated via Microsoft Active Directory
 Certificate Services, with certificates auto-enrolled through Group Policy, or via third-party CAs
-Such as IdenTrust, DigiCert, and GlobalSign.
+such as IdenTrust, DigiCert, and GlobalSign.
 
 **Comparison of PGP and S/MIME**
 
@@ -17863,7 +17863,7 @@ ip route 10.1.0.0 255.255.252.0 10.0.0.2
 ### Floating Static Routes
 
 A floating static route is a backup route with a higher administrative distance. It is installed in
-The routing table only when the primary route disappears.
+the routing table only when the primary route disappears.
 
 ```
 ip route 0.0.0.0 0.0.0.0 10.0.0.1          ! primary, AD=1
@@ -18123,8 +18123,8 @@ interface Ethernet0/0
 ## IS-IS (Intermediate System to Intermediate System)
 
 IS-IS is a link-state IGP originally developed for the OSI protocol suite (CLNP) and later extended
-To support IP routing (Integrated IS-IS). It is widely used in large service provider networks and
-Is the IGP of choice for many Tier-1 ISPs.
+to support IP routing (Integrated IS-IS). It is widely used in large service provider networks and
+is the IGP of choice for many Tier-1 ISPs.
 
 ### NET Addresses
 
@@ -18324,7 +18324,7 @@ MP-BGP, NLRI can carry IPv6 prefixes, VPNv4/VPNv6 prefixes, MPLS labels, and mor
 ### BGP Path Attributes
 
 Every BGP route carries a set of path attributes that influence the BGP decision process. These are
-The core of BGP's policy-based routing.
+the core of BGP's policy-based routing.
 
 | Attribute             | Code | Type                     | Description                                                         |
 | --------------------- | ---- | ------------------------ | ------------------------------------------------------------------- |
@@ -18408,7 +18408,7 @@ router bgp 65001
 ```
 
 Confederations are less common than route reflectors in modern deployments but are still used in
-Some large service provider networks.
+some large service provider networks.
 
 ### BGP Communities
 
@@ -18451,7 +18451,7 @@ Mechanisms exist to mitigate BGP attacks:
 
 **BGPsec (RFC 8205):** Adds cryptographic signatures to the AS_PATH, allowing routers to verify that
 Each AS in the path actually authorized the advertisement. Deployment is limited due to complexity
-And performance concerns.
+and performance concerns.
 
 **RPKI (Resource Public Key Infrastructure):** Uses X.509 certificates to create a binding between
 ASNs and IP prefixes. Route validators (Relying Parties) compare BGP advertisements against the RPKI
@@ -19670,7 +19670,7 @@ URL: https://networking.wyattau.com/intro/
 
 Every system you operate, deploy, or debug depends on networking. A container cannot reach its
 Database, a service returns 502 errors, DNS resolution stalls for 5 seconds, or TLS handshakes fail
-With certificate errors -- these are all networking problems that land on the systems engineer"s
+with certificate errors -- these are all networking problems that land on the systems engineer"s
 Desk.
 
 Understanding networking is not optional. It is the substrate on which every distributed system
@@ -19680,14 +19680,14 @@ Networking problem. When a firewall rule blocks health checks but allows product
 A networking problem.
 
 This subject covers the protocol stack from layer 2 through layer 7, with emphasis on the protocols
-You will encounter daily: IP, TCP, UDP, DNS, HTTP, and TLS. Each section includes practical
+you will encounter daily: IP, TCP, UDP, DNS, HTTP, and TLS. Each section includes practical
 Troubleshooting guidance because theoretical knowledge without diagnostic skill is useless in
 Production.
 
 ## The Protocol Stack
 
 Network communication is organized into layers. Each layer provides services to the layer above it
-And relies on the layer below it. The two primary reference models are:
+and relies on the layer below it. The two primary reference models are:
 
 - **OSI 7-layer model** -- a theoretical framework for understanding network functions
 - **TCP/IP 4-layer model** (DoD model) -- the practical model that the Internet actually uses
@@ -19720,7 +19720,7 @@ Traffic between two hosts traverses:
 4. **Destination network** -- the target's access and edge networks
 
 Understanding this hierarchy matters because latency, packet loss, and routing policies differ at
-Each stage. A problem that looks like "the application is slow" may actually be a BGP route flap at
+each stage. A problem that looks like "the application is slow" may actually be a BGP route flap at
 A transit provider, or it may be a misconfigured MTU on a VPN tunnel.
 
 ## What This Subject Covers
@@ -19747,7 +19747,7 @@ Every protocol covered in this subject shares a few fundamental properties:
 4. **End-to-end principle** -- complexity belongs at the endpoints, not in the network (RFC 8890)
 
 These principles explain why certain design decisions were made and why real-world networks behave
-The way they do.
+the way they do.
 
 ## Summary
 

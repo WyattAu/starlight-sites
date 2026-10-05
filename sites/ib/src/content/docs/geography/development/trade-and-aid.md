@@ -72,7 +72,7 @@ Depressing global agricultural prices, and undermining producers in developing c
 **ASEAN.** The Association of Southeast Asian Nations (10 member states, population approximately
 680 million) has created one of the world's largest free trade areas. ASEAN's combined GDP exceeds
 USD 3.6 trillion. The Regional Comprehensive Economic Partnership (RCEP), which entered into force
-In 2022, creates the world's largest trading bloc by GDP, encompassing ASEAN plus China, Japan,
+in 2022, creates the world's largest trading bloc by GDP, encompassing ASEAN plus China, Japan,
 South Korea, Australia, and New Zealand.
 
 ### The World Trade Organisation (WTO)
@@ -104,7 +104,7 @@ Barriers.
 ### Principles and Mechanism
 
 The fair trade movement aims to ensure that producers in developing countries receive a fair price
-For their goods, above the market price, along with a social premium for community development. Fair
+for their goods, above the market price, along with a social premium for community development. Fair
 Trade certification (administered by Fairtrade International, Fair Trade USA, and other bodies)
 Applies to commodities including coffee, cocoa, bananas, cotton, tea, sugar, and gold.
 
@@ -209,7 +209,7 @@ Defaulted in 2022; Ghana and Ethiopia have sought debt restructuring.
 Aid effectiveness depends critically on context. "Aid works" and "aid does not work" are both overly
 Simplistic generalisations. When evaluating aid in examination responses, consider: the type of aid
 (humanitarian vs development, bilateral vs multilateral), the governance and institutional context
-Of the recipient country, the conditions attached to aid, the alignment of aid with recipient
+of the recipient country, the conditions attached to aid, the alignment of aid with recipient
 Priorities, and the time horizon (aid impacts may take decades to materialise). Use specific case
 Studies with evidence, and avoid blanket generalisations.
 

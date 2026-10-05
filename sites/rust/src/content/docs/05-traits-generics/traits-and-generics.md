@@ -93,7 +93,7 @@ impl std::fmt::Display for MyVec {
 ## Default Methods
 
 Default methods can call required methods, allowing the implementing type to provide a single method
-And get additional behavior for free:
+and get additional behavior for free:
 
 ```rust
 trait Processor {
@@ -285,8 +285,8 @@ impl<T: Clone> Maybe<T> {
 ## Monomorphization
 
 Rust performs **monomorphization**, the compiler generates a separate copy of each generic function
-For every concrete type used. This happens at compile time and produces optimized, specialized code
-With no runtime overhead.
+for every concrete type used. This happens at compile time and produces optimized, specialized code
+with no runtime overhead.
 
 ```rust
 fn id<T>(x: T) -> T { x }
@@ -435,7 +435,7 @@ let base: Box<dyn Base> = derived;  // upcast
 ## Blanket Implementations
 
 A blanket implementation implements a trait for all types that satisfy certain bounds. This is one
-Of Rust's most powerful patterns:
+of Rust's most powerful patterns:
 
 ```rust
 impl<T: Display> ToString for T {
@@ -521,7 +521,7 @@ print_len("hello");  // &str is ?Sized, works because we take a reference
 ```
 
 `?Sized` is primarily used for trait objects (`dyn Trait` is `!Sized`) and for `[T]` slices (which
-Are dynamically sized).
+are dynamically sized).
 
 ## Supertraits
 
@@ -656,7 +656,7 @@ fn configure<T: BaudRate>() -> u32 {
 ## Const Generics
 
 Const generics allow you to use constant values as generic parameters. This is particularly useful
-For arrays and type-level programming:
+for arrays and type-level programming:
 
 ```rust
 struct Array<T, const N: usize> {
@@ -738,7 +738,7 @@ Same bounds and a blanket implementation, or to use a type alias on generic para
 ## Newtype Pattern with Traits
 
 The newtype pattern combined with traits is a powerful way to extend functionality without violating
-The orphan rule:
+the orphan rule:
 
 ```rust
 struct Wrapper<T>(Vec<T>);
@@ -772,7 +772,7 @@ impl<T> DerefMut for Wrapper<T> {
 ```
 
 By implementing `Deref` and `DerefMut`The `Wrapper` type gains access to all `Vec<T>` methods
-Through deref coercion. This means you get custom behavior (`display_all`) plus all of `Vec<T>`'s
+through deref coercion. This means you get custom behavior (`display_all`) plus all of `Vec<T>`'s
 Methods.
 
 ## Trait Objects vs Generics: Decision Framework
@@ -819,7 +819,7 @@ impl MyTrait for MyType {
 ```
 
 Since `private::Sealed` is in a private module, external crates cannot implement it, and therefore
-Cannot implement `MyTrait`. This is the standard pattern for "private trait, public methods" in
+cannot implement `MyTrait`. This is the standard pattern for "private trait, public methods" in
 Library design.
 
 ### Extension Traits

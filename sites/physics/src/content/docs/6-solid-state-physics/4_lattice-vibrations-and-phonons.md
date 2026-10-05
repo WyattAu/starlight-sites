@@ -273,7 +273,7 @@ creation) or $\hbar\omega = -\hbar\omega_{\mathbf{q}s}$ (phonon annihilation). T
 measurement of The full phonon dispersion relation $\omega(\mathbf{q})$.
 
 Time-of-flight and triple-axis spectrometers are the primary instruments used. Neutron scattering
-Has provided definitive measurements of phonon dispersions in virtually all important crystals.
+has provided definitive measurements of phonon dispersions in virtually all important crystals.
 :::
 
 

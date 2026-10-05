@@ -167,7 +167,7 @@ BigDecimal total = price.multiply(price.add(BigDecimal.ONE).multiply(tax))
 ### Design Decision: Why Java Has Both Primitives and Wrappers
 
 The JVM provides primitives for **performance**. Primitive values are stored inline on the stack or
-In object fields with no heap allocation, no indirection, and no object header overhead. A `double`
+in object fields with no heap allocation, no indirection, and no object header overhead. A `double`
 Takes exactly 8 bytes; a `Double` object requires 16+ bytes (12-16 byte object header + 8 byte
 Field + padding) plus a heap pointer.
 
@@ -185,8 +185,8 @@ The wrappers exist for two reasons:
 ## Reference Types
 
 A reference variable does not contain the object itself, it contains a **pointer** (or handle) to
-An object on the heap. The JVM specification does not mandate a specific pointer representation; it
-May be a direct pointer, an indirect handle, or a compressed oop (ordinary object pointer).
+an object on the heap. The JVM specification does not mandate a specific pointer representation; it
+may be a direct pointer, an indirect handle, or a compressed oop (ordinary object pointer).
 
 ```java
 String s = new String("hello");
@@ -396,7 +396,7 @@ Field names, string constants) make up a significant portion of the heap. Withou
 Occurrence of `"http"` across thousands of HTTP requests would allocate a separate object.
 
 The pool also enables the `==` comparison for interned strings, which is an O(1) pointer comparison
-Versus O(n) character-by-character comparison for `String.equals()`. The JVM uses this internally,
+versus O(n) character-by-character comparison for `String.equals()`. The JVM uses this internally,
 Class names, method descriptors, and string constants in the constant pool are all deduplicated via
 Interning.
 
@@ -494,7 +494,7 @@ boxed.add(2);  // autoboxing: Integer.valueOf(2)
 ## The `var` Keyword (Local Variable Type Inference)
 
 Introduced in Java 10 ([JEP 286](https://openjdk.org/jeps/286)), `var` enables the compiler to infer
-The type of local variables from the initializer. It does **not** make Java dynamically typed, the
+the type of local variables from the initializer. It does **not** make Java dynamically typed, the
 Inferred type is a concrete, compile-time type, and the variable cannot be reassigned to an
 Incompatible type.
 
@@ -689,7 +689,7 @@ cannot be used unsafely. The compiler verifies this using a concept called "flow
 ## Records (Java 14+)
 
 Records ([JEP 395](https://openjdk.org/jeps/395), standardized in Java 16) provide a compact syntax
-For declaring classes that are transparent carriers of immutable data.
+for declaring classes that are transparent carriers of immutable data.
 
 ```java
 public record Point(int x, int y) {}

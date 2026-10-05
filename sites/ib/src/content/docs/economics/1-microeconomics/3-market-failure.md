@@ -34,7 +34,7 @@ $$
 $$
 
 When MSB differs from MSC, the market produces either too much or too little of the good relative to
-The socially optimal quantity.
+the socially optimal quantity.
 
 ### Externalities
 
@@ -75,7 +75,7 @@ pollution):
 
 For a negative production externality, the MSC curve lies above the MPC curve. The free market
 Equilibrium is at the intersection of MPC and MPB (demand). The socially optimal equilibrium is at
-The intersection of MSC and MSB. The difference in quantity between the two represents the
+the intersection of MSC and MSB. The difference in quantity between the two represents the
 Overproduction, and the triangle between MSC, MSB, and the two quantities is the deadweight loss.
 
 For a positive consumption externality, the MSB curve lies above the MPB (demand) curve. The free
@@ -207,7 +207,7 @@ $$
 ### Subsidies
 
 A subsidy is a payment by the government to producers (or consumers) per unit of output. It shifts
-The supply curve downward (or rightward), lowering the market price and increasing quantity.
+the supply curve downward (or rightward), lowering the market price and increasing quantity.
 
 Effects of subsidies include:
 
@@ -242,7 +242,7 @@ Inflexible and costly to enforce.
 A market-based approach to correcting negative externalities. The government sets a total cap on
 Emissions and issues permits that firms can trade among themselves. Firms with low abatement costs
 Reduce emissions and sell their surplus permits; firms with high abatement costs buy permits instead
-Of reducing emissions.
+of reducing emissions.
 
 Advantages:
 
@@ -260,7 +260,7 @@ Disadvantages:
 ### Government Failure
 
 Government failure occurs when government intervention worsens the allocation of resources rather
-Than improving it. Causes include:
+than improving it. Causes include:
 
 - **Regulatory capture**: regulators serve the interests of the industry they regulate rather than
   the public interest

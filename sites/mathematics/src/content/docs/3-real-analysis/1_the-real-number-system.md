@@ -42,7 +42,7 @@ The axioms stated below are taken as given; the purpose of this chapter is to de
 ### 1.1 Field Axioms
 
 The real numbers $\mathbb{R}$ form a **complete ordered field**. The field axioms guarantee closure
-Under addition, subtraction, multiplication, and division (by non-zero elements), together with the
+under addition, subtraction, multiplication, and division (by non-zero elements), together with the
 Usual commutative, associative, and distributive laws.
 
 ### 1.2 Order and the Completeness Axiom
@@ -81,7 +81,7 @@ $l \leq s$ for all $s \in S$.
 Exists $s \in S$ such that $u - \varepsilon \lt s \leq u$.
 
 _Proof._ If no such $s$ existed, then $u - \varepsilon$ would be an upper bound of $S$ strictly less
-Than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
+than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
 
 **Example.** Let $S = \{x \in \mathbb{R} : x^2 \lt 2\}$. Then $\sup(S) = \sqrt{2}$. Note that
 $\sqrt{2}
@@ -94,7 +94,7 @@ Such that $n \gt x$.
 
 _Proof._ Suppose, for contradiction, that $\mathbb{N}$ is bounded above. By the completeness axiom,
 $s = \sup(\mathbb{N})$ exists in $\mathbb{R}$. Then $s - 1$ is not an upper bound for $\mathbb{N}$
-So there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
+so there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
 Contradicting that $s$ is an upper bound. $\blacksquare$
 
 **Corollary 1.2.** For every $\varepsilon > 0$ There exists $n \in \mathbb{N}$ such that
@@ -130,7 +130,7 @@ Where $-S = \{-s : s \in S\}$.
 
 _Proof._ Let $u = \sup(-S)$. Then $-s \leq u$ for all $s \in S$ So $s \geq -u$ for all $s \in S$
 Meaning $-u$ is a lower bound for $S$. If $v$ is any lower bound for $S$ Then $-v$ is an upper bound
-For $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
+for $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Find $\sup$ and $\inf$ of $S = \{(-1)^n + 1/n : n \in \mathbb{N}\}$</summary>
@@ -149,7 +149,7 @@ odd-indexed term, $\inf(S) = -1$ (approached but not attained). $\blacksquare$
 ### 1.6 Construction of $\mathbb{R}$ via Dedekind Cuts
 
 _Remark._ The following outline shows how $\mathbb{R}$ can be constructed from $\mathbb{Q}$ Making
-The completeness axiom a theorem rather than an axiom.
+the completeness axiom a theorem rather than an axiom.
 
 **Definition (Dedekind Cut).** A **Dedekind cut** is a subset $\alpha \subseteq \mathbb{Q}$
 satisfying:

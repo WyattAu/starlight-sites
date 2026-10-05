@@ -117,8 +117,8 @@ This $C \propto 1/\sqrt{V_0 - V}$ dependence is used experimentally to determine
 ### 6.4 Band Diagrams
 
 In equilibrium, the Fermi level is constant across the junction. Under forward bias, the bands on
-The n-side are raised relative to the p-side, reducing the barrier. Under reverse bias, the barrier
-Is increased.
+the n-side are raised relative to the p-side, reducing the barrier. Under reverse bias, the barrier
+is increased.
 
 ### 6.5 Band Gap Engineering
 
@@ -127,7 +127,7 @@ The electronic and optical properties of semiconductors can be tailored by formi
 
 **Band offsets.** When two semiconductors with different band gaps are joined, the conduction band
 Minimum and valence band maximum are offset. The **type-I** (straddling) alignment has the band gap
-Of one material contained within the gap of the other (e.g., GaAs/AlGaAs). The **type-II**
+of one material contained within the gap of the other (e.g., GaAs/AlGaAs). The **type-II**
 (staggered) alignment has the conduction and valence band edges of different materials at different
 Energies (e.g., InAs/GaSb).
 
@@ -140,11 +140,11 @@ E_n = \frac{n^2 \pi^2 \hbar^2}{2m^* L^2}
 $$
 
 This quantisation raises the effective band gap, allowing the optical transition energy to be tuned
-By varying $L$.
+by varying $L$.
 
 **Quantum wires and dots.** Further confinement in two dimensions (quantum wire) or three dimensions
 (quantum dot) leads to additional quantisation. Quantum dots have discrete, atom-like energy levels
-And are often called "artificial atoms."
+and are often called "artificial atoms."
 
 **Strain engineering.** Lattice mismatch between a thin film and its substrate induces strain,
 Modifying the band structure. Tensile strain reduces the band gap, while compressive Strain can lift
@@ -226,7 +226,7 @@ mismatch, thermalisation, and radiative recombination losses.
 
 **Field-effect transistor (FET).** A voltage applied to a gate electrode modulates the conductivity
 Of a semiconductor channel. In a MOSFET (metal--oxide--semiconductor FET), the gate voltage creates
-An inversion layer at the oxide--semiconductor interface, forming a conductive channel. The
+an inversion layer at the oxide--semiconductor interface, forming a conductive channel. The
 Threshold voltage $V_T$ depends on the oxide thickness, doping, and work function difference.
 
 **HEMTs and HBTs.** High-electron-mobility transistors (HEMTs) use heterojunctions (e.g.,

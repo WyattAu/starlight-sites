@@ -122,7 +122,7 @@ The negative sign accounts for the convention: heat lost by the reaction is gain
 
 :::note[Example]
 $50.0\mathrm{ mL}$ of $1.0\mathrm{ M}$ HCl is mixed with $50.0\mathrm{ mL}$ of $1.0\mathrm{ M}$ NaOH
-In a calorimeter. The temperature rises from $21.0\degree\mathrm{C}$ to $27.5\degree\mathrm{C}$.
+in a calorimeter. The temperature rises from $21.0\degree\mathrm{C}$ to $27.5\degree\mathrm{C}$.
 Calculate the enthalpy of neutralisation.
 
 $$
@@ -269,7 +269,7 @@ $$
 
 :::caution[Exam Tip]
 Bond enthalpy calculations give approximate values because average bond enthalpies are used. Values
-From Hess's law with formation data are more accurate. Bond enthalpy calculations only apply to
+from Hess's law with formation data are more accurate. Bond enthalpy calculations only apply to
 Gases.
 
 ---
@@ -504,7 +504,7 @@ $$
 $-57.1\mathrm{ kJ/mol}$.
 
 Heat loss to the surroundings, calorimeter absorbs some heat, incomplete reaction, or the assumption
-That the solution has the same properties as pure water.
+that the solution has the same properties as pure water.
 
 ### Question 3 (Paper 2 style)
 
@@ -761,7 +761,7 @@ Water; the calorimeter absorbs some heat.
 ### Question 6 (Paper 1 style)
 
 For the reaction: N$_2$O$_4$(g) $\rightleftharpoons$ 2NO$_2$(g), $\Delta H = +57\mathrm{ kJ/mol}$
-And $\Delta S = +176\mathrm{ J/(mol}\cdot\mathrm{K)}$.
+and $\Delta S = +176\mathrm{ J/(mol}\cdot\mathrm{K)}$.
 
 At what temperature does the reaction become spontaneous?
 
@@ -871,7 +871,7 @@ $$
 
 :::note[Example]
 $50\mathrm{ cm}^3$ of $1.0\mathrm{ M}$ HCl and $50\mathrm{ cm}^3$ of $1.0\mathrm{ M}$ NaOH are mixed
-In a calorimeter with heat capacity $15\mathrm{ J/K}$. The temperature rises from
+in a calorimeter with heat capacity $15\mathrm{ J/K}$. The temperature rises from
 $20.0\degree\mathrm{C}$ to $26.8\degree\mathrm{C}$.
 
 $$
@@ -1103,7 +1103,7 @@ Disorder.
 Gaseous particles and thus disorder.
 
 (c) **Positive** $\Delta S$: An ordered solid lattice breaks apart into freely moving hydrated ions
-In solution, increasing disorder.
+in solution, increasing disorder.
 
 For the A-Level treatment of this topic, see
 [Thermodynamics & Energetics](https://alevel.wyattau.com/docs/chemistry/thermodynamics).

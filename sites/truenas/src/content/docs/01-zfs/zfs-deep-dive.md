@@ -42,7 +42,7 @@ graph TD
 ### Copy-on-Write Transaction Model
 
 ZFS never overwrites data in place. Every write creates a new copy of the data block, and only after
-The new block is written and its checksum verified does ZFS update the metadata to point to the new
+the new block is written and its checksum verified does ZFS update the metadata to point to the new
 Block. This has several consequences:
 
 - **Snapshots are instantaneous and free** (initially). A snapshot is a marker in the transaction
@@ -340,7 +340,7 @@ zfs get arcstats 2>/dev/null || cat /proc/spl/kstat/zfs/arcstats
 
 The L2ARC is a secondary read cache stored on a dedicated SSD (or partition of an SSD). When the ARC
 Evicts data, it can write it to the L2ARC before discarding it entirely. On subsequent accesses, if
-The data is not in the ARC but is in the L2ARC, it can be read from the L2ARC rather than from the
+the data is not in the ARC but is in the L2ARC, it can be read from the L2ARC rather than from the
 Slower pool disks.
 
 **L2ARC considerations:**
@@ -410,7 +410,7 @@ zpool status tank
 ### Resilver
 
 A resilver rebuilds the data on a replaced drive. Unlike traditional RAID rebuilds, ZFS resilvers
-Only copy the actual data (not the entire disk), and they prioritize data based on its metadata
+only copy the actual data (not the entire disk), and they prioritize data based on its metadata
 Importance.
 
 ```bash
@@ -442,7 +442,7 @@ Resilver progress and ensure the pool is healthy before and after.
 ### Incremental Replication
 
 ZFS send/receive is the native mechanism for replicating datasets between pools or systems. It works
-At the block level, sending only the changed blocks between two snapshots.
+at the block level, sending only the changed blocks between two snapshots.
 
 ```bash
 # Full replication (initial)
@@ -533,7 +533,7 @@ TB.
 
 Deduplication maintains an in-memory hash table of every unique block. This table requires
 Approximately 320 bytes per unique block. A 10 TB pool with 4 TB of unique data can require 100+ GB
-Of RAM for the dedup table. If the system runs out of RAM and must swap, performance collapses. Only
+of RAM for the dedup table. If the system runs out of RAM and must swap, performance collapses. Only
 Enable dedup if your data is highly redundant (VM templates, ISO images) and you have sufficient
 RAM. In most cases, compression (lz4) provides better space savings with no memory cost.
 
@@ -541,7 +541,7 @@ RAM. In most cases, compression (lz4) provides better space savings with no memo
 
 While ZFS allows mixing drive sizes in a RAIDZ vdev, the pool capacity is determined by the smallest
 Drive in the vdev. A RAIDZ2 vdev with three 12 TB drives and one 4 TB drive will have the capacity
-Of four 4 TB drives. Always use identical drives within a vdev.
+of four 4 TB drives. Always use identical drives within a vdev.
 
 ### Not Setting ashift Correctly
 
@@ -552,9 +552,9 @@ Reducing performance by 50–80%. Always use `ashift=12` or higher.
 ### Ignoring Fragmentation
 
 ZFS pools become fragmented over time due to the copy-on-write nature. Fragmentation above 70–80%
-Can significantly reduce performance, especially for random read workloads. Monitor fragmentation
-With `zpool list -v`. There is no native defragmentation tool for ZFS, the only way to defragment
-Is to copy the data to a new pool. Regular snapshot pruning and avoiding small random writes on HDD
+can significantly reduce performance, especially for random read workloads. Monitor fragmentation
+with `zpool list -v`. There is no native defragmentation tool for ZFS, the only way to defragment
+is to copy the data to a new pool. Regular snapshot pruning and avoiding small random writes on HDD
 Pools help keep fragmentation manageable.
 
 ## ZFS Pool Design Patterns
@@ -695,7 +695,7 @@ The replacement algorithm:
 ### ARC Metadata Limit
 
 Metadata (directory entries, file attributes, indirect blocks) can consume a significant portion of
-The ARC. The `arc_meta_limit` parameter controls the maximum fraction of ARC dedicated to metadata:
+the ARC. The `arc_meta_limit` parameter controls the maximum fraction of ARC dedicated to metadata:
 
 ```bash
 # Default: 1/4 of ARC

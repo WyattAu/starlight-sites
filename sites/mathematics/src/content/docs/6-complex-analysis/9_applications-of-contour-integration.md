@@ -34,7 +34,7 @@ Where the sum is over poles in the upper half-plane.
 
 _Proof._ Integrate $f(z)$ over the semicircular contour $\gamma_R$ consisting of $[-R, R]$ on the
 Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$ The integral over
-The semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
+the semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
 
 ### 9.3 Worked Example
 

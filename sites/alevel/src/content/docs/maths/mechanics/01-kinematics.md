@@ -186,7 +186,7 @@ Rest whenever the **gradient** is zero, regardless of the displacement value.
 ### 3.5 Interpreting velocity-time graphs in detail
 
 The area between the $v$-$t$ curve and the $t$-axis gives the **displacement** (with sign). To find
-The total **distance** travelled, you must take the absolute value of velocity in each region before
+the total **distance** travelled, you must take the absolute value of velocity in each region before
 Integrating, or equivalently add the magnitudes of the areas above and below the axis.
 
 - **Area above the $t$-axis**: displacement in the positive direction.
@@ -204,7 +204,7 @@ $v$-$t$ graph, the signed areas cancel (displacement), but the unsigned areas ad
 ### 3.6 Worked example: graphs
 
 A particle moves so that its displacement $s$ metres from a fixed point $O$ at time $t$ seconds is
-Given by $s = t^3 - 9t^2 + 24t$.
+given by $s = t^3 - 9t^2 + 24t$.
 
 The velocity is $v = ds/dt = 3t^2 - 18t + 24 = 3(t^2 - 6t + 8) = 3(t-2)(t-4)$.
 
@@ -356,7 +356,7 @@ The horizontal range is then $R = v\cos\theta \cdot t$.
 
 :::tip
 Ground, and the angle for maximum range is **less** than $45^\circ$ (derived via calculus, but
-Beyond the core syllabus).
+beyond the core syllabus).
 :::
 
 <hr />
@@ -856,21 +856,21 @@ $y_P = \dfrac{u^2\sin^2\theta}{2g} - \dfrac{1}{2}g(t - t_1)^2$.
 $x_P = u\cos\theta \cdot t$.
 
 For collision, $Q$ must be at the same $(x, y)$. Since $Q$ is projected vertically from directly
-Below the highest point, $Q$'s horizontal position is always $x = u^2\sin 2\theta / (2g)$.
+below the highest point, $Q$'s horizontal position is always $x = u^2\sin 2\theta / (2g)$.
 
 For $P$ to be at this $x$-coordinate at time $t$:
 $u\cos\theta \cdot t = u^2\sin 2\theta / (2g) = u^2\sin\theta\cos\theta / g$ So
 $t = u\sin\theta / g = t_1$.
 
 This means collision occurs at $t = t_1$ The instant of the highest point. But $Q$ is projected at
-That instant, so for collision we need $y_Q(0^+) = y_P(t_1) = H$.
+that instant, so for collision we need $y_Q(0^+) = y_P(t_1) = H$.
 
 $Q$ starts at ground level ($y_Q = 0$) and must reach $y = H = u^2\sin^2\theta / (2g)$.
 
 For $Q$: $v_Q = w - gt$, $y_Q = wt - \tfrac{1}{2}gt^2$ Where $w$ is the projection speed.
 
 Collision at $y = H$ when $t = 0$ is impossible ($Q$ starts at $y = 0$). So collision must occur at
-Some $\Delta t \gt 0$ after $t_1$.
+some $\Delta t \gt 0$ after $t_1$.
 
 At time $t_1 + \Delta t$:
 
@@ -878,7 +878,7 @@ $y_P = H - \tfrac{1}{2}g(\Delta t)^2$, $y_Q = w\,\Delta t - \tfrac{1}{2}g(\Delta
 
 For collision: $H = w\,\Delta t$. Also, $x$ must match:
 $u\cos\theta(t_1 + \Delta t) = u^2\sin\theta\cos\theta/g + u\cos\theta\,\Delta t$. This is satisfied
-For all $\Delta t$ since $u\cos\theta \cdot t_1 = u^2\sin\theta\cos\theta/g$.
+for all $\Delta t$ since $u\cos\theta \cdot t_1 = u^2\sin\theta\cos\theta/g$.
 
 So any $w$ and $\Delta t$ with $w\,\Delta t = H$ gives a collision. The minimum speed is
 $w = H/\Delta t$ for $\Delta t \to 0^+$ But in practice we need a finite time.

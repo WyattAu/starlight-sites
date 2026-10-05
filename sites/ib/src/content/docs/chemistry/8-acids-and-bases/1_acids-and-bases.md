@@ -364,8 +364,8 @@ $K_w$ is **temperature dependent**:
 
 :::caution
 Exam Tip At $50\degree\mathrm{C}$ Pure water has $\mathrm{pH} = 6.63$ (not 7). This is
-Because $K_w$ is larger, so $[\mathrm{H}^+] = [\mathrm{OH}^-] = \sqrt{K_w} \gt 10^{-7}$. The water
-Is still **neutral** because $[\mathrm{H}^+] = [\mathrm{OH}^-]$. Neutral does not always mean pH =
+because $K_w$ is larger, so $[\mathrm{H}^+] = [\mathrm{OH}^-] = \sqrt{K_w} \gt 10^{-7}$. The water
+is still **neutral** because $[\mathrm{H}^+] = [\mathrm{OH}^-]$. Neutral does not always mean pH =
 7; on temperature.
 :::
 
@@ -716,7 +716,7 @@ PH at equivalence point \lt 7.
 <summary>Worked Example 9: Titration of Weak Acid with Strong Base</summary>
 
 $25.0\mathrm{ mL}$ of $0.100\mathrm{ mol/L}$ CH$_3$COOH ($K_a = 1.8 \times 10^{-5}$) is titrated
-With $0.100\mathrm{ mol/L}$ NaOH. Calculate the pH at the equivalence point.
+with $0.100\mathrm{ mol/L}$ NaOH. Calculate the pH at the equivalence point.
 
 At the equivalence point, moles of NaOH = moles of CH$_3$COOH:
 
@@ -949,7 +949,7 @@ $$
 
 (b) NH$_4^+$ is the conjugate acid of the weak base NH$_3$. Since NH$_3$ is a weak base, its
 Conjugate acid NH$_4^+$ will donate protons in water, making the solution acidic. This is confirmed
-By the relatively large $K_a$ value ($5.56 \times 10^{-10} \gg K_b$ of NH$_4^+$ which would be
+by the relatively large $K_a$ value ($5.56 \times 10^{-10} \gg K_b$ of NH$_4^+$ which would be
 $K_w/K_a = 1.8 \times 10^{-5}$ But wait -- we already have $K_a$ for NH$_4^+$ So we can see it is An
 acid). A $0.1\mathrm{ mol/L}$ NH$_4$Cl solution would have pH \lt 7.
 

@@ -642,7 +642,7 @@ result.
 ### Question 6
 
 **(a)** Prove that $\dfrac{d}{dx}(\operatorname{arcosh}\,x) = \dfrac{1}{\sqrt{x^2 - 1}}$
-For $x > 1$.
+for $x > 1$.
 
 **(b)** Evaluate $\displaystyle\int_2^3 \frac{dx}{\sqrt{x^2 - 1}}$ in exact form.
 

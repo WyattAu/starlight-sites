@@ -22,7 +22,7 @@ categories:
 ## Program Entry
 
 When the project creates an executable, the entry point of the project is located in `main()`Where
-The default is given as:
+the default is given as:
 
 ```dart
 void main(){
@@ -288,7 +288,7 @@ Access it before initialization, you get a runtime error. Use it when:
 ## Null Safety
 
 Dart's null safety (Dart 2.12+) is sound, the compiler guarantees that no `null` value reaches a
-Non-nullable variable at runtime.
+non-nullable variable at runtime.
 
 ### Nullable and Non-Nullable Types
 

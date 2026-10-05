@@ -151,7 +151,7 @@ $\blacksquare$
 ### 8.8 Worked Example: Michelson Stellar Interferometer
 
 Two separated mirrors direct light from a distant star into a single telescope. Fringes are observed
-When the mirror separation $d$ satisfies:
+when the mirror separation $d$ satisfies:
 
 $$
 d \lt \frac{1.22\lambda}{\theta_s}

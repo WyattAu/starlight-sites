@@ -81,7 +81,7 @@ Highest and lowest scores.
 ## Abstraction (CED Unit 2)
 
 Abstraction is the process of reducing complexity by hiding unnecessary details and exposing only
-The essential features.
+the essential features.
 
 ### Why Abstraction Matters
 
@@ -113,7 +113,7 @@ Appropriate to the problem.
 ### Procedural Abstraction
 
 A procedure (function/method) provides a named interface that hides its implementation. The caller
-Only needs to know what the procedure does (its specification), not how it does it.
+only needs to know what the procedure does (its specification), not how it does it.
 
 **Benefits:**
 
@@ -162,8 +162,8 @@ Corners) without affecting any code that uses this class.
 ### Information Hiding
 
 Information hiding is the principle that the internal details of a module should be hidden from
-Other modules. Only the public interface is exposed. This reduces coupling between modules, making
-The system easier to understand, test, and modify.
+other modules. Only the public interface is exposed. This reduces coupling between modules, making
+the system easier to understand, test, and modify.
 
 In Java, the `private` keyword enforces information hiding. A `private` field cannot be accessed
 Directly from outside the class, forcing callers to use the public methods.
@@ -430,14 +430,14 @@ PROCEDURE reverseList(list)
 
 **Proof of termination.** The loop variable `i` starts at LENGTH(list) and decreases by 1 each
 Iteration until it reaches 1. Since LENGTH(list) is a finite positive integer, the loop terminates
-After LENGTH(list) iterations. $\blacksquare$
+after LENGTH(list) iterations. $\blacksquare$
 
 ## Problem Solving Strategies
 
 ### Top-Down Design
 
 Start with the main problem, then decompose into subproblems. Each subproblem is further decomposed
-Until the tasks are simple enough to implement directly.
+until the tasks are simple enough to implement directly.
 
 **Example:** "Build a student management system."
 
@@ -504,12 +504,12 @@ An algorithm is a finite set of unambiguous instructions that solves a problem o
 | Programming code | High      | Low         | Yes        |
 
 Pseudocode is the best compromise for communicating algorithms between humans. It is precise enough
-To unambiguously describe the logic, but does not require knowledge of a specific language's syntax.
+to unambiguously describe the logic, but does not require knowledge of a specific language's syntax.
 
 ### Proving Termination
 
 An algorithm terminates if every loop has a well-defined condition that is eventually satisfied, and
-Every recursive call makes progress toward a base case.
+every recursive call makes progress toward a base case.
 
 **Example.** The following algorithm always terminates:
 

@@ -120,7 +120,7 @@ Light.
 
 Compton scattering provides direct evidence that photons carry momentum. When an X-ray photon of
 Wavelength $\lambda$ scatters off a free (or loosely bound) electron at rest, the scattered photon
-Has a longer wavelength $\lambda'$.
+has a longer wavelength $\lambda'$.
 
 **Setup.** Incident photon: energy $E = hc/\lambda$ Momentum $p = h/\lambda$. Target electron: At
 rest, energy $m_e c^2$ Momentum $0$. After scattering, the photon is deflected by angle $\theta$ And
@@ -221,7 +221,7 @@ Hypothesis that particles have wave-like properties.
 Directed at a nickel crystal. The scattered electrons are detected at various angles $\phi$.
 
 **de Broglie relation.** An electron accelerated through potential $V$ has kinetic energy $K = eV$
-And momentum:
+and momentum:
 
 $$
 p = \sqrt{2m_e eV}

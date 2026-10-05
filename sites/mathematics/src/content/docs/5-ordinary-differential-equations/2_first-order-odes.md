@@ -284,7 +284,7 @@ Solution: $x^3y + x^2y^2 = C$. $\blacksquare$
 ### 2.16 Orthogonal Trajectories
 
 Given a one-parameter family of curves $F(x, y, C) = 0$ The **orthogonal trajectories** are curves
-That intersect every member of the family at right angles. To find them:
+that intersect every member of the family at right angles. To find them:
 
 1. Find the differential equation $\frac{dy}{dx} = f(x, y)$ of the given family.
 2. Replace $\frac{dy}{dx}$ with $-\frac{dx}{dy}$ (equivalently, negate the slope).

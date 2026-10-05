@@ -40,7 +40,7 @@ via the network. This is the dominant architecture for distributed databases.
 ### 9.2 Distributed Transactions
 
 A distributed transaction involves operations on multiple nodes. The challenge is ensuring atomicity
-Across nodes.
+across nodes.
 
 **Two-Phase Commit (2PC).**
 
@@ -53,7 +53,7 @@ Across nodes.
 Permanently and the log is on stable storage.
 
 _Proof._ If the coordinator crashes after phase 1, participants that voted `YES` are blocked -- they
-Cannot decide without knowing the coordinator"s decision. Upon recovery, the coordinator reads its
+cannot decide without knowing the coordinator"s decision. Upon recovery, the coordinator reads its
 Log to determine the decision and notifies participants. Since each participant wrote its vote to
 Stable storage before responding, no vote is lost. $\blacksquare$
 

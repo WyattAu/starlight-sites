@@ -24,7 +24,7 @@ Scopes. This led to "Include Hell," where a consumer relied on a transitive depe
 Causing build breakages when the dependency graph changed.
 
 Modern CMake (3.0+) resolves this via the **Target-Centric Model**. Every library or executable is
-An object (Target) that encapsulates two distinct sets of data:
+an object (Target) that encapsulates two distinct sets of data:
 
 1. **Build Requirements:** What the target needs to build itself.
 2. **Usage Requirements:** What a consumer needs to link against the target.
@@ -72,7 +72,7 @@ propagate to `B` if and only if `S` is `PUBLIC` or `INTERFACE`.
 **Proof:**
 
 CMake's property propagation operates on the directed graph $G = (V, E)$ where vertices are targets
-And edges are `target_link_libraries` relationships. Each edge has a scope label
+and edges are `target_link_libraries` relationships. Each edge has a scope label
 $\{PRIVATE,
 INTERFACE, PUBLIC\}$.
 
@@ -138,7 +138,7 @@ Tightly coupled architecture.
 ## Complete Property Scope Table
 
 The following table enumerates every CMake property that supports visibility scopes and documents
-The propagation behavior for each.
+the propagation behavior for each.
 
 | Property                    | `PRIVATE` (build only) | `INTERFACE` (consumers only) | `PUBLIC` (both) | Target command                       |
 | :-------------------------- | :--------------------- | :--------------------------- | :-------------- | :----------------------------------- |
@@ -356,7 +356,7 @@ target_include_directories(Engine
 
 **Key rule:** If a header is `#include`D in your public `.h` file, the directory containing that
 Header must be a `PUBLIC` include directory. If a header is only `#include`D in `.cpp` files, it
-Should be `PRIVATE`.
+should be `PRIVATE`.
 
 ### Compile Options
 
@@ -402,7 +402,7 @@ Final executable must link against. This has direct consequences for binary size
 ### Static Linking Amplification
 
 In a statically linked application, the transitive closure determines which object code is included
-In the final binary.
+in the final binary.
 
 ```text
 App (static)
@@ -593,7 +593,7 @@ target_link_libraries(my-app PRIVATE json-wrapper)
 ## Transitive Usage Requirements and `INTERFACE_*` Properties
 
 Every `target_link_libraries` call with `PUBLIC` or `INTERFACE` scope triggers the propagation of
-All `INTERFACE_*` properties from the linked target. The complete list of propagated properties:
+all `INTERFACE_*` properties from the linked target. The complete list of propagated properties:
 
 | Propagated Property                   | Set by                                   | Effect on consumer                     |
 | :------------------------------------ | :--------------------------------------- | :------------------------------------- |
@@ -657,7 +657,7 @@ message(STATUS "MyLib COMPILE_DEFINITIONS: ${COMPILE_DEFS}")
 ### Tracing the Transitive Closure
 
 CMake does not provide a built-in command to trace the full transitive closure of properties, but
-You can use generator expressions to inspect what a target sees:
+you can use generator expressions to inspect what a target sees:
 
 ```cmake
 # Show the effective link libraries (including transitive)

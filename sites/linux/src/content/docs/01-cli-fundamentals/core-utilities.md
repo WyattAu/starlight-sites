@@ -19,7 +19,7 @@ description: "GNU coreutils is the package that provides the fundamental file, s
 
 GNU coreutils is the package that provides the fundamental file, shell, and text manipulation
 Utilities on virtually every Linux distribution. These utilities implement the POSIX specifications
-And extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
+and extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
 
 - **File utilities**: `ls``cp``mv``rm``ln``chmod``chown``touch``mkdir``rmdir` `stat``du``df``sync`
 - **Text utilities**: `cat``head``tail``sort``uniq``tr``cut``paste``join``wc` `nl``fmt``fold``pr`
@@ -321,7 +321,7 @@ find . -name "*.conf" -exec sed -i 's/oldhost.example.com/newhost.example.com/g'
 ### `find`File System Traversal
 
 `find` recursively traverses a directory tree and evaluates expressions against each file. It is one
-Of the most powerful tools available but also one of the most commonly misused.
+of the most powerful tools available but also one of the most commonly misused.
 
 ```bash
 # Basic search
@@ -707,7 +707,7 @@ Even if the umask would allow it.
 ### ACLs, Access Control Lists
 
 Standard Unix permissions provide only three permission classes (owner, group, other). ACLs extend
-This model with per-user and per-group rules.
+this model with per-user and per-group rules.
 
 ```bash
 # Check ACL support
@@ -817,7 +817,7 @@ sort -s -k2,2n data.txt
 ### Pitfall: `sed -i` on Symlinks
 
 `sed -i` (in-place editing) breaks symlinks by replacing the symlink with a regular file containing
-The edited content. Always use `sed --follow-symlinks -i` or avoid `-i` on symlinks.
+the edited content. Always use `sed --follow-symlinks -i` or avoid `-i` on symlinks.
 
 ### Pitfall: `awk` Floating-Point Precision
 

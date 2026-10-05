@@ -814,7 +814,7 @@ function reducer(state: State, action: Action): State {
 ### Pitfall 4: Overly Broad `children` Types
 
 Using `JSX.Element` instead of `React.ReactNode` for `children` excludes valid React render values
-Like strings, numbers, `null`And arrays:
+like strings, numbers, `null`And arrays:
 
 ```tsx
 interface Bad {

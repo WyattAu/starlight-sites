@@ -34,7 +34,7 @@ The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$ There
 $\delta \gt 0$ Such that $0 \lt |z - z_0| \lt \delta$ implies $|f(z) - L| \lt \varepsilon$.
 
 Unlike the real case, $z$ can approach $z_0$ from any direction in $\mathbb{C}$. This makes limits
-More restrictive.
+more restrictive.
 
 **Proposition 2.1.** $\lim_{z \to z_0} f(z) = L$ if and only if
 $\lim_{(x,y) \to (x_0, y_0)} u(x, y) = a$ And $\lim_{(x,y) \to (x_0, y_0)} v(x, y) = b$ where
@@ -75,7 +75,7 @@ Makes complex differentiability far more restrictive than real differentiability
 
 **Definition.** A function $f$ is **analytic** (or **holomorphic**) on an open set
 $U \subseteq \mathbb{C}$ if $f$ is differentiable at every point of $U$. A function that is analytic
-On all of $\mathbb{C}$ is called **entire**.
+on all of $\mathbb{C}$ is called **entire**.
 
 **Examples of entire functions:** $z^n$, $e^z$, $\sin z$, $\cos z$ Polynomials.
 

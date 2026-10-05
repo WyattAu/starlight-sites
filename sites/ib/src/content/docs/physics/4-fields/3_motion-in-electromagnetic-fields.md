@@ -24,7 +24,7 @@ A uniform field ($\bm{F}$) is a field with spatial invariance, therefore, a zero
 ## Test Charge
 
 A test charge is an idealized particle where all other properties are assumed to be negligible
-Except for the charge.
+except for the charge.
 
 ## Lorentz Force Law
 
@@ -62,7 +62,7 @@ The total force ($\bm{F}$) on a current ($ I$) is determined by the combine forc
 ($N$) of moving charges ($q$) in the current. As the dimensions of a electron is negligible when
 Comparing to the cross section of a wire, the flow of electrons $I$ can be approximated by a
 Continuum of current density ($\bm{J} = nq\bm{v}$), where $n$ is the density of charge carriers, and
-Since the electric field have a negligible effect, only the force applied by magnetic field
+since the electric field have a negligible effect, only the force applied by magnetic field
 ($\bm{B}$ is accounted):
 
 $$
@@ -115,7 +115,7 @@ $$
 
 For a $\hat{\phi} = \hat{y}$ where $\hat{y}$ is a unit vector perpendicular to other current
 ($I_2$). Using the Lorentz Force Law, the magnetic force ($F_{12}$) experienced by the other current
-Is:
+is:
 
 $$
 \begin`\{aligned}`
@@ -183,7 +183,7 @@ Key points:
 ### Right-Hand Rule for Magnetic Force
 
 Point your fingers in the direction of $\bm{v}$ (for a positive charge), curl them towards $\bm{B}$
-And your thumb points in the direction of $\bm{F}$. For a negative charge (e.g. An electron), the
+and your thumb points in the direction of $\bm{F}$. For a negative charge (e.g. An electron), the
 Force is in the **opposite** direction.
 
 ---
@@ -248,7 +248,7 @@ This principle is used in the cyclotron particle accelerator.
 
 **Question:** An electron ($m_e = 9.11 \times 10^{-31}$ kg, $q = -1.60 \times 10^{-19}$ C) enters a
 Uniform magnetic field of $B = 0.50$ T with a speed of $v = 3.0 \times 10^6$ m/s, perpendicular to
-The field. Find the radius and period of the circular path.
+the field. Find the radius and period of the circular path.
 
 **Solution:**
 
@@ -777,7 +777,7 @@ $= 0.269$ mm.
 
 Two long straight parallel wires carry currents of $I_1 = 8.0$ A and $I_2 = 5.0$ A in the same
 Direction. The wires are separated by $d = 0.10$ m. Calculate: a) The magnetic force per unit length
-Between the wires. B) State whether the force is attractive or repulsive. Justify your answer.
+between the wires. B) State whether the force is attractive or repulsive. Justify your answer.
 
 </details>
 
@@ -790,7 +790,7 @@ N/m.
 
 B) The force is **attractive**. When two parallel currents flow in the same direction, the magnetic
 Field produced by each wire exerts a force on the other wire that pulls them together. This follows
-From the right-hand rule and the Lorentz force law.
+from the right-hand rule and the Lorentz force law.
 
 </details>
 
@@ -819,7 +819,7 @@ circular or helical motion, but never the speed.
 <summary>Question 6</summary>
 
 A proton is accelerated from rest through a potential difference of 2000 V and then enters a region
-Of uniform magnetic field ($B = 0.10$ T) perpendicular to its velocity. Calculate the radius of the
+of uniform magnetic field ($B = 0.10$ T) perpendicular to its velocity. Calculate the radius of the
 Circular path. ($m_p = 1.67 \times 10^{-27}$ kg, $q = 1.60 \times 10^{-19}$ C)
 
 </details>

@@ -76,7 +76,7 @@ C++ defines four storage durations [N4950 §6.7.3]:
 Thread storage duration sits between static and dynamic: like static, the variable persists across
 Function calls; like dynamic, each thread gets its own independent instance. The standard does not
 Specify _when_ within a thread's lifetime the storage is allocated, only that it must be available
-Before the variable's first odr-use [N4950 §6.7.3].
+before the variable's first odr-use [N4950 §6.7.3].
 
 ### `thread_local` at Class Scope
 
@@ -156,7 +156,7 @@ Behavior.
 ### `__thread` Keyword (GCC/Clang Extension)
 
 The `__thread` keyword is a compiler extension that provides TLS with static initialization only. It
-Cannot be used with types that require dynamic initialization (non-trivial constructors).
+cannot be used with types that require dynamic initialization (non-trivial constructors).
 
 ```cpp
 __thread int per_thread_counter = 0;  // Static init only
@@ -207,7 +207,7 @@ Lookup. However, it supports dynamic initialization and destruction callbacks.
 
 On x86-64 Linux, glibc implements `thread_local` using the `fs` segment register (or `gs` on some
 Systems). The `fs` register points to the `thread_control_block` (TCB), which contains a pointer to
-The TLS area:
+the TLS area:
 
 ```
 fs:0x00  -> Thread pointer (TCB)
@@ -237,7 +237,7 @@ The TLS access model determines how the TLS offset is resolved:
 
 The compiler selects the model based on whether the variable is in the executable, a startup
 Library, or a dynamically loaded library. The `-ftls-model=initial-exec` flag forces the fast model
-When you know the library will not be `dlopen`Ed.
+when you know the library will not be `dlopen`Ed.
 
 ### ELF TLS Sections
 
@@ -253,7 +253,7 @@ Executable or shared object:
 The linker combines `.tdata` and `.tbss` from all participating modules into a **TLS template**
 Described by the `PT_TLS` program header. Each new thread gets a copy of this template at thread
 Creation time. The `__tls_get_addr` function is used for dynamically loaded modules where the offset
-Cannot be computed at load time.
+cannot be computed at load time.
 
 ## TLS Performance Characteristics
 
@@ -365,14 +365,14 @@ int main() {
 
 The standard guarantees thread-safe initialization for both `static` locals [N4950 §9.8.1] and
 `thread_local` variables. The compiler generates a guard variable with atomic operations to ensure
-That if two threads race to initialize the same `thread_local` instance (within the same thread's
+that if two threads race to initialize the same `thread_local` instance (within the same thread's
 Execution, which cannot happen for `thread_local`), exactly one initialization occurs. For
 Function-local `static`This matters because multiple threads can call the function concurrently.
 
 ### Dynamic Initialization with `thread_local` and `static` Combined
 
 A `static thread_local` variable combines both storage durations. It is initialized once per thread
-But is also shared across all calls within that thread:
+but is also shared across all calls within that thread:
 
 ```cpp
 void example() {
@@ -553,13 +553,13 @@ thread_local Logger logger;  // Logger constructor calls config_key()
 
 When `std::exit()` is called, thread-local variables in threads other than the calling thread are
 **not** destroyed [N4950 §6.9.3.4]. Only the calling thread's thread-local variables are destroyed
-During the `std::exit()` process. This is because `std::exit()` does not join or terminate other
+during the `std::exit()` process. This is because `std::exit()` does not join or terminate other
 Threads, it terminates the process.
 
 ## Interaction with Dynamic Loading (`dlopen`)
 
 When a shared library is loaded via `dlopen`Any `thread_local` variables defined in that library
-Must be initialized for threads that already exist. The implementation uses `__tls_get_addr` for
+must be initialized for threads that already exist. The implementation uses `__tls_get_addr` for
 General Dynamic TLS model to handle this:
 
 ```cpp
@@ -568,8 +568,8 @@ thread_local int lib_tls = 42;
 ```
 
 If `mylib.so` is loaded after threads have been created, those threads will trigger initialization
-Of `lib_tls` on their first access. The dynamic linker handles this by allocating TLS storage for
-The new module and running its initializers lazily.
+of `lib_tls` on their first access. The dynamic linker handles this by allocating TLS storage for
+the new module and running its initializers lazily.
 
 :::caution
 pointer obtained Before the unload), the behavior is undefined. The standard does not define safe
@@ -717,7 +717,7 @@ int main() {
 
 Each thread has its own `std::mt19937` instance, so there is no contention for the random number
 Generator. This is both **faster** (no lock contention) and **more correct** (the generator state is
-Not shared, so the random sequence quality is preserved).
+not shared, so the random sequence quality is preserved).
 
 :::tip
 generator is Independent, so there are no synchronization overheads or sequence quality concerns.

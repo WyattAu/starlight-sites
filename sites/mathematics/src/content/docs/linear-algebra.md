@@ -92,7 +92,7 @@ Infinite-dimensional analogue of $\mathbb{R}^n$ and is fundamental in functional
 ### 1.3 Subspaces
 
 A **subspace** $W$ of a vector space $V$ is a subset $W \subseteq V$ that is itself a vector space
-Under the same operations.
+under the same operations.
 
 **Theorem 1.1 (Subspace Criterion).** A non-empty subset $W \subseteq V$ is a subspace if and only
 If for all $\mathbf{u}, \mathbf{v} \in W$ and all $\alpha \in F$:
@@ -101,14 +101,14 @@ If for all $\mathbf{u}, \mathbf{v} \in W$ and all $\alpha \in F$:
 2. $\alpha \mathbf{u} \in W$ (closed under scalar multiplication)
 
 _Proof._ If $W$ is a subspace, closure is immediate from the definition. Conversely, if $W$ is
-Non-empty and closed under both operations, pick $\mathbf{u} \in W$. Then
+non-empty and closed under both operations, pick $\mathbf{u} \in W$. Then
 $-\mathbf{u} = (-1)\mathbf{u} \in W$ By closure under scalar multiplication, and
 $\mathbf{u} + (-\mathbf{u}) = \mathbf{0} \in W$ by closure Under addition. The remaining axioms are
 inherited from $V$. $\blacksquare$
 
 **Proposition 1.2 (Closure under Linear Combinations).** If $W$ is a subspace of $V$ Then $W$ is
 Closed under all finite linear combinations: for all $\mathbf{v}_1, \ldots, \mathbf{v}_k \in W$ and
-All $\alpha_1, \ldots, \alpha_k \in F$
+all $\alpha_1, \ldots, \alpha_k \in F$
 
 $$
 \alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W
@@ -160,7 +160,7 @@ subspace.
 
 **(b)** $W_2$ is not a subspace. For instance, $(1, 0, 0) \in W_2$ since $1^2 + 0^2 = 1$ But
 $2 \cdot (1, 0, 0) = (2, 0, 0) \notin W_2$ since $2^2 + 0^2 = 4 \neq 1$. So $W_2$ is not closed
-Under scalar multiplication.
+under scalar multiplication.
 
 **(c)** Let $\mathbf{u} = (0, a, a)$ and $\mathbf{v} = (0, b, b)$ be in $W_3$. Then
 $\mathbf{u} + \mathbf{v} = (0, a + b, a + b) \in W_3$ and
@@ -187,7 +187,7 @@ $U \cap W = \{(x, y, z) : z = 0 \mathrm{~and~} x = 0\} = \{(0, y, 0) : y \in \ma
 basis $\{(0, 1, 0)\}$ and dimension 1.
 
 $U + W = \mathrm{span}\{(1,0,0), (0,1,0), (0,1,0), (0,0,1)\} = \mathrm{span}\{(1,0,0), (0,1,0), (0,0,1)\} = \mathbb{R}^3$
-So $\dim(U + W) = 3$.
+so $\dim(U + W) = 3$.
 
 Verify: $\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W) = 2 + 2 - 1 = 3$. $\checkmark$
 $\blacksquare$
@@ -758,7 +758,7 @@ $\det(A) = \prod_{i=1}^n a_{ii}$.
 
 _Proof._ By repeated cofactor expansion along the first column (for upper triangular), or induction.
 At each step, all terms involving off-diagonal entries vanish due to the zero structure, leaving
-Only the product of diagonal entries. $\blacksquare$
+only the product of diagonal entries. $\blacksquare$
 
 ### 3.9 Common Pitfalls
 
@@ -1066,7 +1066,7 @@ $$
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
 The **eigenspace** corresponding to $\lambda$ is $E_\lambda = \ker(A - \lambda I)$. Its dimension is
-The **geometric multiplicity** of $\lambda$.
+the **geometric multiplicity** of $\lambda$.
 
 ### 5.2 Characteristic Polynomial
 
@@ -1077,7 +1077,7 @@ $A$. Its roots (in the algebraic closure of $F$) are the eigenvalues of $A$.
 
 If
 $p(\lambda) = (\\lambda - \\lambda_1)^{m_1}(\\lambda - \\lambda_2)^{m_2}\cdots(\\lambda - \\lambda_k)^{m_k}$
-With $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
+with $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
 $\\lambda_i$.
 
 **Proposition 5.2.** For each eigenvalue $\lambda$, $1 \leq \mathrm{dim}(E_\lambda) \leq m_\lambda$
@@ -1383,7 +1383,7 @@ $\blacksquare$
 ### 6.1 Definition
 
 A **linear transformation** (or linear map) $T : V \to W$ between vector spaces $V$ and $W$ over $F$
-Is a function satisfying:
+is a function satisfying:
 
 1. $T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$ for all
    $\mathbf{u}, \mathbf{v} \in V$
@@ -1486,7 +1486,7 @@ $$
 $$
 
 This is the **similarity transformation**. Similar matrices represent the same linear transformation
-In different bases and share the same eigenvalues, determinant, and trace.
+in different bases and share the same eigenvalues, determinant, and trace.
 
 ### 6.7 Worked Example: Matrix of a Transformation with Change of Basis
 
@@ -2388,7 +2388,7 @@ $$
 $$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
-Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
+non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
 inconsistent.
 
 _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._

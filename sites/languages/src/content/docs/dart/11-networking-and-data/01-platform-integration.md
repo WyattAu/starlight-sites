@@ -23,7 +23,7 @@ categories:
 ## Why Platform Integration
 
 Flutter provides a rich set of widgets and plugins, but some capabilities require direct interaction
-With the underlying operating system. The device's camera, GPS receiver, Bluetooth radio,
+with the underlying operating system. The device's camera, GPS receiver, Bluetooth radio,
 Accelerometer, file system, biometric hardware, and notification system are all accessed through
 Native platform APIs (Android's Java/Kotlin APIs, iOS's Objective-C/Swift APIs). Flutter's sandbox
 Isolates Dart code from these native APIs, so a bridge mechanism is needed.
@@ -84,7 +84,7 @@ if (Platform.isAndroid) {
 ### defaultTargetPlatform
 
 `defaultTargetPlatform` from `package:flutter/foundation.dart` returns a `TargetPlatform` enum. This
-Is useful for choosing between Material and Cupertino widgets:
+is useful for choosing between Material and Cupertino widgets:
 
 ```dart
 import 'package:flutter/foundation.dart';
@@ -616,7 +616,7 @@ Manual platform channels have several problems:
 - **No compile-time validation**: Errors are only caught when the channel is invoked at runtime.
 
 Pigeon solves all of these by generating type-safe, compile-time-checked code from a single source
-Of truth.
+of truth.
 
 ### Defining the API
 
@@ -1226,7 +1226,7 @@ class PigeonSearchDataSource implements SearchDataSource {
 ### Not Running on the Main Thread
 
 Platform channel handlers are invoked on the platform's main (UI) thread by default. If you block
-This thread with a long-running operation, the app's UI will freeze. Always offload heavy
+this thread with a long-running operation, the app's UI will freeze. Always offload heavy
 Computation to a background thread and call `result.success()` back on the main thread.
 
 ### Missing Plugin Registration
@@ -1301,12 +1301,12 @@ Codes.
 Channel names are global to the application. If two plugins use the same channel name, messages are
 Routed unpredictably. Always use a unique, namespaced channel name (e.g.,
 `com.company.app.purpose`). This is especially important when using multiple third-party plugins
-That might have naming conflicts.
+that might have naming conflicts.
 
 ### Not Handling nil/Null Correctly
 
 On iOS, Swift optionals map to null in Dart. If the native side passes `nil` where Dart expects a
-Non-null value, a cast error occurs. Always handle nullability on both sides. In Kotlin, Java's
+non-null value, a cast error occurs. Always handle nullability on both sides. In Kotlin, Java's
 `null` maps to Dart's `null` transparently, but Kotlin's non-nullable types do not prevent `null`
 From being sent through the channel if the caller bypasses the type system.
 
@@ -1314,7 +1314,7 @@ From being sent through the channel if the caller bypasses the type system.
 
 Before writing a platform channel, check if an existing Flutter package already provides the
 Functionality. The Flutter ecosystem has thousands of plugins covering most common needs. Writing
-And maintaining custom platform channels across Android, iOS, macOS, Windows, and Linux is a
+and maintaining custom platform channels across Android, iOS, macOS, Windows, and Linux is a
 Significant maintenance burden. Use Pigeon if you must write custom channels to reduce the
 Boilerplate and type-safety risks.
 

@@ -63,8 +63,8 @@ A student is shown an electron micrograph of a cell. The cell has no nucleus, a 
 Ribosomes, and a flagellum. The diameter of the cell is approximately 3 $\mu$ M.
 
 Since the cell has no membrane-bound nucleus, it is prokaryotic. The presence of a cell wall (ruled
-Out animal cells), small size (3 $\mu$ M is typical for prokaryotes), 70S ribosomes, and flagellum
-All confirm this. The cell wall is made of peptidoglycan, which is characteristic of bacteria (not
+out animal cells), small size (3 $\mu$ M is typical for prokaryotes), 70S ribosomes, and flagellum
+all confirm this. The cell wall is made of peptidoglycan, which is characteristic of bacteria (not
 Archaea, which have pseudopeptidoglycan or other cell wall compositions).
 
 ### Cell Ultrastructure
@@ -173,7 +173,7 @@ $$
 $$
 
 Where $i$ is the ionisation constant (1 for non-ionic solutes), $C$ is the molar concentration, $R$
-Is the gas constant (0.0083 kPa L mol$^{-1}$ K$^{-1}$), and $T$ is the temperature in Kelvin.
+is the gas constant (0.0083 kPa L mol$^{-1}$ K$^{-1}$), and $T$ is the temperature in Kelvin.
 
 For a 0.2 M sucrose solution at 20$\degree$C (293 K):
 
@@ -264,7 +264,7 @@ After mitosis: each daughter cell has 46 chromosomes (same as parent). The two d
 Genetically identical.
 
 After meiosis: each of the four daughter cells has 23 chromosomes (haploid). The four daughter cells
-Are genetically different (due to crossing over and independent assortment).
+are genetically different (due to crossing over and independent assortment).
 
 ---
 
@@ -529,15 +529,15 @@ Pinches the cell in two.
 
 **Intermediate filaments (10 nm):** Rope-like fibres made of various proteins (e.g., keratin,
 Vimentin, lamins). They provide mechanical strength and resist shear stress. Nuclear lamins (a type
-Of intermediate filament) line the inside of the nuclear envelope, providing structural support.
+of intermediate filament) line the inside of the nuclear envelope, providing structural support.
 
 **Worked Example: Motor proteins and vesicle transport.**
 
 A vesicle containing a secretory protein must travel from the Golgi apparatus to the plasma
 Membrane. The vesicle is attached to a motor protein (kinesin) that walks along a microtubule
-Towards the plus end (the cell periphery). Each step of kinesin requires the hydrolysis of one ATP
+towards the plus end (the cell periphery). Each step of kinesin requires the hydrolysis of one ATP
 Molecule. The motor protein moves in a hand-over-hand fashion, taking steps of approximately 8 nm
-Per ATP hydrolysed. This process allows directed, ATP-dependent transport of materials within the
+per ATP hydrolysed. This process allows directed, ATP-dependent transport of materials within the
 Cell.
 
 ## Review: Summary Comparison of Transport Mechanisms
@@ -567,7 +567,7 @@ Communication and coordination between cells.
 **Central vacuole:** A large, fluid-filled organelle that can occupy up to 90% of the cell volume.
 It maintains turgor pressure, stores water and dissolved substances, stores pigments, and stores
 Defensive compounds (toxins that deter herbivores). The vacuole is surrounded by a membrane called
-The tonoplast.
+the tonoplast.
 
 **Chloroplasts:** The site of photosynthesis. They have a double membrane, internal thylakoid
 Membranes (stacked into grana), and stroma. Chloroplasts have their own DNA and ribosomes (70S),
@@ -606,7 +606,7 @@ Plants and algae.
 ## Review: Cell Surface Receptors and Cell Signalling
 
 Cells communicate with each other through signalling molecules that bind to specific receptors on
-The cell surface or inside the cell.
+the cell surface or inside the cell.
 
 **Cell surface receptors:** Transmembrane proteins that span the cell membrane. When a signalling
 Molecule (ligand) binds to the extracellular domain of the receptor, it triggers a conformational
@@ -669,7 +669,7 @@ Golgi apparatus, vesicles, lysosomes, and the plasma membrane.
 In I-cell disease (mucolipidosis II), the enzyme that adds the mannose-6-phosphate tag to lysosomal
 Enzymes in the Golgi is deficient. Without this tag, the lysosomal enzymes are secreted outside the
 Cell instead of being directed to lysosomes. The lysosomes therefore lack their digestive enzymes
-And cannot break down waste materials. Substances accumulate inside the cell, causing severe
+and cannot break down waste materials. Substances accumulate inside the cell, causing severe
 Developmental problems and early death.
 
 ## Review: Cell Adhesion and the Extracellular Matrix
@@ -704,7 +704,7 @@ Migration, and differentiation.
 **Worked Example: The role of the ECM in wound healing.**
 
 When the skin is wounded, the ECM plays several critical roles. Collagen fibres provide a scaffold
-For cell migration into the wound. Fibronectin guides the migration of fibroblasts, which synthesise
+for cell migration into the wound. Fibronectin guides the migration of fibroblasts, which synthesise
 New ECM components. Growth factors bound to the ECM are released and stimulate cell proliferation.
 As healing progresses, the ECM is remodelled: initially disorganised collagen is replaced by more
 Organised fibres, and excess ECM is broken down by matrix metalloproteinases (MMPs). If this
@@ -772,7 +772,7 @@ Process that does not cause inflammation.
 
 Cancer cells often evade apoptosis, allowing them to divide uncontrollably. One mechanism is the
 Overexpression of Bcl-2, a protein that inhibits apoptosis by preventing the release of cytochrome c
-From mitochondria. Normally, cytochrome c release activates caspases and triggers apoptosis. By
+from mitochondria. Normally, cytochrome c release activates caspases and triggers apoptosis. By
 Blocking this pathway, cancer cells survive and proliferate despite having DNA damage. Some cancer
 Therapies aim to restore the apoptotic pathway by inhibiting Bcl-2 or activating pro-apoptotic
 Proteins.

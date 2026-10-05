@@ -23,7 +23,7 @@ import Citations from '@components/Citations.astro'
 ## Overview
 
 Kotlin is a statically typed language targeting the JVM, Android, JavaScript, and native platforms
-Via LLVM. Developed by JetBrains, it was designed to address Java's verbosity, null safety issues,
+via LLVM. Developed by JetBrains, it was designed to address Java's verbosity, null safety issues,
 And lack of modern language features while maintaining full interoperability.
 
 Key design goals:

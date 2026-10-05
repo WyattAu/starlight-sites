@@ -194,7 +194,7 @@ A=1  | m4  m5  m7  m6 |
 ```
 
 Note: columns are arranged in **Gray code** order (00, 01, 11, 10) so that adjacent columns differ
-By exactly one bit.
+by exactly one bit.
 
 ### 4-Variable K-Map
 
@@ -234,7 +234,7 @@ _Inductive step:_ Assume a group of $2^n$ cells eliminates $n$ variables. Consid
 $2^{n+1}$ cells. This can be viewed as two adjacent groups of $2^n$ cells each, which differ in
 Exactly one additional variable (since the overall group is rectangular and contiguous in Gray code
 Ordering). Each sub-group produces a term with $k - n$ literals, and these two sub-groups differ in
-One variable, so combining them eliminates one more variable, yielding $k - (n + 1)$ literals. ✓
+one variable, so combining them eliminates one more variable, yielding $k - (n + 1)$ literals. ✓
 $\square$
 
 <details>
@@ -397,7 +397,7 @@ Actually, in Boolean algebra: $AB + AC_{in} + BC_{in} = AB + C_{in}(A + B)$
 $(A \oplus B)C_{in} + AB = (A\bar{B} + \bar{A}B)C_{in} + AB$
 
 Consider all 8 cases in the truth table, both expressions yield the same $C_{out}$ column, so they
-Are equivalent. ✓
+are equivalent. ✓
 
 **Implementation:** 2 XOR gates + 2 AND gates + 1 OR gate (or equivalent).
 
@@ -577,7 +577,7 @@ Groups:
 3. CD=10, AB=00 and AB=01 (m2, m6): $\bar{A}\bar{C}D$... Wait.
 
 CD=10 column: m2=0010(AB=00), m6=0110(AB=01), m14=1110(AB=11). So m2, m6, m14 are 1s. That's a group
-Of... Not rectangular unless we include m10 which is 0.
+of... Not rectangular unless we include m10 which is 0.
 
 Groups:
 

@@ -39,7 +39,7 @@ Trace elements (required in small amounts): Fe, Cu, Zn, Mn, I, Mo.
 
 **Worked Example: Why specific trace elements matter.** Iron (Fe) is a component of haemoglobin, the
 Oxygen-carrying protein in red blood cells. Without iron, haemoglobin cannot be synthesised, leading
-To iron-deficiency anaemia. Iodine (I) is required for the synthesis of thyroxine, a hormone that
+to iron-deficiency anaemia. Iodine (I) is required for the synthesis of thyroxine, a hormone that
 Regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
 
 ### Bonding in Biological Molecules
@@ -119,7 +119,7 @@ A one-unit increase in pH represents a tenfold decrease in $[\mathrm{H^+]$.
 **Worked Example: Buffer action.**
 
 During vigorous exercise, lactic acid is produced, releasing $\mathrm{H^+$ into the blood. Without
-The buffer system, blood pH would drop dangerously.
+the buffer system, blood pH would drop dangerously.
 
 The bicarbonate buffer system responds:
 
@@ -160,12 +160,12 @@ Them.
 **Worked Example: Alpha vs. Beta linkages.**
 
 In starch, glucose monomers are joined by $\alpha$-1,4-glycosidic bonds. The glucose rings are in
-The $\alpha$ configuration (OH group below the ring at C1). This produces a helical structure that
-Can be coiled, making starch compact for storage. Human amylase can hydrolyse $\alpha$-glycosidic
+the $\alpha$ configuration (OH group below the ring at C1). This produces a helical structure that
+can be coiled, making starch compact for storage. Human amylase can hydrolyse $\alpha$-glycosidic
 Bonds, so starch is digestible.
 
 In cellulose, glucose monomers are joined by $\beta$-1,4-glycosidic bonds. The glucose rings are in
-The $\beta$ configuration (OH group above the ring at C1). Every other glucose is flipped 180
+the $\beta$ configuration (OH group above the ring at C1). Every other glucose is flipped 180
 Degrees, producing straight chains that form hydrogen bonds with neighbouring chains, creating
 Strong, rigid fibres. Human amylase cannot hydrolyse $\beta$-glycosidic bonds, so cellulose is
 Indigestible by humans.
@@ -239,7 +239,7 @@ Disulfide bridges (also called disulfide bonds) form between the sulfur atoms of
 Residues. These are covalent bonds, which are much stronger than hydrogen bonds or ionic
 Interactions. In proteins like antibodies, disulfide bridges hold the polypeptide chains together,
 Maintaining the Y-shaped structure even under stress. Reducing agents that break disulfide bridges
-Can cause the protein to unfold.
+can cause the protein to unfold.
 
 ### Nucleic Acids
 
@@ -505,7 +505,7 @@ Solution Y produces a blue colour (no change).
 Brick-red precipitate is copper(I) oxide, formed when copper(II) ions in Benedict's solution are
 Reduced by the sugar. Solution Y does not contain reducing sugars (it may contain a non-reducing
 Sugar such as sucrose, or no sugar at all). To test for non-reducing sugars, the sample would first
-Be hydrolysed with dilute acid, neutralised, and then tested with Benedict's solution.
+be hydrolysed with dilute acid, neutralised, and then tested with Benedict's solution.
 
 ## Review: Levels of Structural Organisation in Proteins
 
@@ -524,7 +524,7 @@ Structures are common in fibrous proteins (e.g., keratin in hair contains many $
 **Tertiary structure:** The overall three-dimensional shape of a single polypeptide, stabilised by
 Interactions between R groups: hydrogen bonds, ionic bonds (salt bridges), hydrophobic interactions
 (nonpolar R groups cluster in the interior away from water), and disulfide bridges (covalent bonds
-Between cysteine residues). The tertiary structure determines the protein's function.
+between cysteine residues). The tertiary structure determines the protein's function.
 
 **Quaternary structure:** The assembly of two or more polypeptide subunits into a functional
 Protein. Example: haemoglobin has four subunits (two alpha and two beta chains). Each subunit has
@@ -533,7 +533,7 @@ Its own tertiary structure, and the subunits interact to form the quaternary str
 **Worked Example: Effect of pH on protein structure.**
 
 Pepsin (a digestive enzyme in the stomach) has an optimum pH of approximately 2. If pepsin is placed
-In a neutral solution (pH 7), its activity decreases dramatically. This is because the change in pH
+in a neutral solution (pH 7), its activity decreases dramatically. This is because the change in pH
 Alters the ionisation of amino acid side chains (R groups). Ionic bonds and hydrogen bonds that
 Depend on specific charges are disrupted, causing the protein to unfold (denature). The active site
 Loses its specific shape, and the enzyme can no longer bind its substrate.
@@ -611,7 +611,7 @@ Interior of the phospholipid bilayer. It acts as a fluidity buffer:
 
 Phospholipids with two fatty acid tails (as found in cell membranes) are cylindrical in shape. These
 Cylindrical molecules pack together most efficiently in a bilayer arrangement. Phospholipids with
-One fatty acid tail (lysophospholipids) are cone-shaped and form micelles (small spherical
+one fatty acid tail (lysophospholipids) are cone-shaped and form micelles (small spherical
 Structures) instead. The bilayer arrangement creates a stable, flexible membrane with two distinct
 Layers, which is essential for the function of cell membranes.
 
@@ -643,14 +643,14 @@ Populations.
 **Worked Example: Benedict's test for reducing and non-reducing sugars.**
 
 A student tests two solutions with Benedict's reagent. Solution A produces a brick-red precipitate
-When heated. Solution B shows no change. The student then boils Solution B with dilute hydrochloric
+when heated. Solution B shows no change. The student then boils Solution B with dilute hydrochloric
 Acid, neutralises it, and tests again with Benedict's reagent. This time, Solution B produces a
 Brick-red precipitate.
 
 **Explanation:** Solution A contains a reducing sugar (e.g., glucose, maltose) that can directly
 Reduce copper(II) ions in Benedict's reagent to copper(I) oxide. Solution B contains a non-reducing
 Sugar (e.g., sucrose). Sucrose must first be hydrolysed into its component monosaccharides (glucose
-And fructose) by acid hydrolysis. After hydrolysis, the resulting monosaccharides are reducing
+and fructose) by acid hydrolysis. After hydrolysis, the resulting monosaccharides are reducing
 Sugars and give a positive Benedict's test.
 
 ## Review: Amino Acid Chemistry
@@ -677,14 +677,14 @@ Generate the enormous diversity of proteins found in living organisms.
 **Allosteric regulation:** Many enzymes have allosteric sites (sites distinct from the active site)
 Where regulatory molecules can bind. Binding of an allosteric activator stabilises the active
 Conformation of the enzyme, increasing its activity. Binding of an allosteric inhibitor stabilises
-The inactive conformation, decreasing its activity.
+the inactive conformation, decreasing its activity.
 
 **Cooperativity:** In some multi-subunit enzymes, binding of a substrate to one active site
 Increases the affinity of the other active sites for the substrate. This produces a sigmoidal
 (S-shaped) velocity-vs-substrate curve rather than the hyperbolic curve predicted by the
 Michaelis-Menten equation. Haemoglobin (which is not an enzyme but a transport protein) shows
 Cooperative binding of oxygen: binding of the first $\mathrm{O_2$ molecule increases the affinity
-For subsequent $\mathrm{O_2$ molecules.
+for subsequent $\mathrm{O_2$ molecules.
 
 **Feedback inhibition:** A common form of metabolic regulation where the end product of a pathway
 Inhibits an enzyme early in the pathway. This prevents wasteful overproduction of the end product.
@@ -731,7 +731,7 @@ Preventing overheating.
 ## Review: The Importance of Functional Groups in Biological Molecules
 
 Functional groups are specific groups of atoms within molecules that determine the characteristics
-Of the molecule and how it reacts.
+of the molecule and how it reacts.
 
 | Functional Group | Structure | Found in                      | Properties                              |
 | ---------------- | --------- | ----------------------------- | --------------------------------------- |
@@ -758,7 +758,7 @@ Covalent cross-links that stabilise protein structure.
 <summary>Question 1: Chargaff's rules and DNA composition</summary>
 
 A double-stranded DNA molecule is found to be $18\%$ adenine. Calculate the percentage of each of
-The other three bases. If the DNA contains $10,000$ base pairs, how many hydrogen bonds hold the two
+the other three bases. If the DNA contains $10,000$ base pairs, how many hydrogen bonds hold the two
 Strands together?
 
 </details>
@@ -808,7 +808,7 @@ $v = \frac{V_{\max}[S]}{K_m^{app} + [S]} = \frac{20 \times 6}{12 + 6} = \frac{12
 
 The competitive inhibitor reduces the reaction velocity from $12 \mathrm{ \mu mol/min$ to
 $6.67 \mathrm{ \mu mol/min$ at this substrate concentration. Note that $V_{\max}$ is unchanged; at
-Very high substrate concentrations, both velocities would approach $20 \mathrm{ \mu mol/min$.
+very high substrate concentrations, both velocities would approach $20 \mathrm{ \mu mol/min$.
 
 </details>
 
@@ -882,7 +882,7 @@ observations with reference to the levels of protein structure.
 
 At $45^\circ\mathrm{C$ The protein undergoes reversible denaturation. The secondary and tertiary
 Structures are disrupted (hydrogen bonds, hydrophobic interactions, and ionic bonds break), causing
-The protein to unfold and lose its active site shape. However, the primary structure (amino acid
+the protein to unfold and lose its active site shape. However, the primary structure (amino acid
 Sequence) remains intact. When cooled, these non-covalent interactions can re-form, allowing the
 Protein to refold into its native, functional conformation.
 

@@ -94,7 +94,7 @@ Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species
 Mnemonic: "David King Plays Chess On Fine Glass Stools"
 
 As you move down the hierarchy, the groups become smaller and the organisms within each group are
-More closely related.
+more closely related.
 
 ---
 
@@ -136,7 +136,7 @@ Community B: 10 species, but one species has 91 individuals and the other 9 have
 (richness = 10, evenness = low)
 
 Both communities have the same species richness (10), but Community A has higher species evenness
-And therefore higher overall species diversity.
+and therefore higher overall species diversity.
 
 ### Simpson's Diversity Index
 
@@ -436,7 +436,7 @@ The five main causes are remembered by the acronym **HIPPO**:
 ### I -- Invasive Species
 
 An invasive (non-native) species is one that has been introduced (intentionally or accidentally) to
-An area outside its natural range and causes ecological or economic harm.
+an area outside its natural range and causes ecological or economic harm.
 
 **Impacts:**
 
@@ -605,7 +605,7 @@ Destroyed).
 ### Definition
 
 Ecological succession is the sequential, directional process of change in the species composition
-And community structure of an ecosystem over time. Succession occurs because each stage of community
+and community structure of an ecosystem over time. Succession occurs because each stage of community
 Modifies the environment, making it more suitable for the next stage.
 
 ### Primary Succession
@@ -688,7 +688,7 @@ But soil remains intact.
 ### The Carbon Cycle
 
 Carbon is the fundamental element of all organic molecules. The carbon cycle describes the movement
-Of carbon between the atmosphere, biosphere, oceans, and geosphere.
+of carbon between the atmosphere, biosphere, oceans, and geosphere.
 
 **Key processes:**
 

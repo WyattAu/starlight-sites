@@ -103,7 +103,7 @@ $180°$ rotation about the axis through the midpoints of that edge and its oppos
 
 **Faces.** The cube has $6$ faces. The action is transitive, so $|\mathrm{Orb}(f)| = 6$ and
 $|\mathrm{Stab}(f)| = 24/6 = 4$. The stabilizer of a face consists of rotations about the axis
-Through the center of that face and its opposite:
+through the center of that face and its opposite:
 $\{0°, 90°, 180°, 270°\} \cong \mathbb{Z}/4\mathbb{Z}$.
 
 This verifies: $24 = 8 \cdot 3 = 12 \cdot 2 = 6 \cdot 4$. $\blacksquare$

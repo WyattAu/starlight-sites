@@ -225,7 +225,7 @@ hosts: files dns mdns4_minimal [NOTFOUND=return] dns
 
 The lookup order: local files (`/etc/hosts`) first, then DNS. The `mdns4_minimal` entry handles
 Multicast DNS (`.local` domain) and returns NOTFOUND for non-`.local` names, which then falls
-Through to regular DNS.
+through to regular DNS.
 
 ### `dig` and `nslookup`
 

@@ -120,8 +120,8 @@ Perfect competition is an idealised market structure defined by the following co
 ### The Firm as a Price Taker
 
 Because the firm produces a homogeneous product and faces many competitors, it cannot charge a price
-Above the market price (consumers would buy from competitors instead). It has no incentive to charge
-Below the market price (it can sell any quantity it wants at the market price). Therefore, the firm
+above the market price (consumers would buy from competitors instead). It has no incentive to charge
+below the market price (it can sell any quantity it wants at the market price). Therefore, the firm
 Faces a perfectly elastic (horizontal) individual demand curve at the market price `P`.
 
 $$
@@ -191,7 +191,7 @@ Cost (including implicit costs), so economic profit is zero but accounting profi
 
 The firm continues to produce at a loss in the short run as long as `P \gt AVC`Because producing
 Covers all variable costs and contributes some revenue toward fixed costs. If the firm shut down, it
-Would still have to pay fixed costs but earn zero revenue. Producing is less bad than shutting down.
+would still have to pay fixed costs but earn zero revenue. Producing is less bad than shutting down.
 
 The **shutdown point** is where `P = minimum AVC`. Below this price, the firm cannot cover even its
 Variable costs and minimises losses by producing zero output.
@@ -362,7 +362,7 @@ Efficient.
 **Regulatory dilemma:** If the monopolist is left unregulated, it charges `P_m \gt MC`Creating
 Deadweight loss. If the government forces `P = MC` (allocative efficiency), the monopolist may make
 A loss if `MC \lt ATC` at that output. The government must then subsidise the firm. A compromise is
-To set `P = ATC` (normal profit), which is productively efficient but not allocatively efficient
+to set `P = ATC` (normal profit), which is productively efficient but not allocatively efficient
 (`P \gt MC`).
 
 ### Revenue Curves Under Monopoly
@@ -384,7 +384,7 @@ Quantity where `AR` intersects it.
 ### Profit Maximisation
 
 The monopolist produces where `MR = MC`Then charges the price read off the `AR` (demand) curve at
-That quantity.
+that quantity.
 
 $$
 Q_m : \mathrm{MR} = \mathrm{MC}
@@ -491,7 +491,7 @@ It is a pure loss to society.
 ### Definition
 
 Price discrimination occurs when a monopolist charges different prices to different consumers for
-The same good or service, where the price difference is not justified by differences in cost.
+the same good or service, where the price difference is not justified by differences in cost.
 
 ### Conditions Necessary for Price Discrimination
 
@@ -515,11 +515,11 @@ Requires perfect knowledge of every consumer's willingness to pay.
 **Second-degree price discrimination:** The monopolist charges different prices based on the
 Quantity purchased. Examples: bulk discounts, block pricing. Consumers self-select into different
 Quantity brackets, revealing their willingness to pay through their purchase decision. No knowledge
-Of individual consumers is required.
+of individual consumers is required.
 
 **Third-degree price discrimination:** The monopolist separates consumers into identifiable groups
 Based on observable characteristics (age, student status, location, time of purchase) and charges
-Each group a different price. The group with more elastic demand (more sensitive to price) is
+each group a different price. The group with more elastic demand (more sensitive to price) is
 Charged a lower price. The group with less elastic demand (less sensitive) is charged a higher
 Price.
 
@@ -592,16 +592,16 @@ Relative to `ATC`.
 
 The demand curve for a monopolistically competitive firm is downward-sloping but relatively elastic
 (due to the availability of many substitutes). It is more elastic than a monopolist's demand curve
-But less elastic than a perfectly competitive firm's (horizontal) demand curve.
+but less elastic than a perfectly competitive firm's (horizontal) demand curve.
 
 ### Long-Run Equilibrium
 
 If firms earn supernormal profit in the short run, new firms enter. New entrants draw demand away
-From existing firms (each firm's demand curve shifts left). Entry continues until supernormal profit
-Is eliminated: `P = ATC`.
+from existing firms (each firm's demand curve shifts left). Entry continues until supernormal profit
+is eliminated: `P = ATC`.
 
 If firms make losses, some exit. The demand curves of remaining firms shift right. Exit continues
-Until remaining firms earn normal profit.
+until remaining firms earn normal profit.
 
 Long-run equilibrium conditions:
 
@@ -614,7 +614,7 @@ P = \mathrm{ATC} \mathrm{ (zero economic profit due to free entry/exit)}
 $$
 
 Note: In monopolistic competition, `P \gt MC` at equilibrium (allocative inefficiency persists) and
-The firm does NOT produce at the minimum `ATC` (productive inefficiency). The demand curve is
+the firm does NOT produce at the minimum `ATC` (productive inefficiency). The demand curve is
 Tangent to the `ATC` curve at the equilibrium output, but the tangency point is to the LEFT of the
 Minimum `ATC`.
 
@@ -649,7 +649,7 @@ $$
 ```
 
 The demand curve is tangent to `ATC` at `Q*`. The firm produces `Q*` where `MR = MC`. `Q_ATC_min` is
-To the right of `Q*`Showing excess capacity.
+to the right of `Q*`Showing excess capacity.
 
 ### Efficiency of Monopolistic Competition
 
@@ -679,7 +679,7 @@ To find `ATC_{\min}`: `MC = ATC` means `10 + Q = 50/Q + 10 + 0.5Q`So `0.5Q = 50/
 `Q_{ATC_{\min}} = 10`.
 
 Excess capacity = `10 - 16.67` -- wait, `16.67 \gt 10` here, which suggests the firm produces beyond
-The minimum ATC. This is because at `Q = 16.67`The firm has supernormal profit. In the long run,
+the minimum ATC. This is because at `Q = 16.67`The firm has supernormal profit. In the long run,
 entry Would shift demand left until `P = ATC` at a `Q` less than 10, creating excess capacity.
 
 </details>
@@ -739,7 +739,7 @@ Its rivals, and each firm must anticipate rivals' reactions when making decision
 
 Game theory provides the analytical framework for understanding oligopolistic behaviour. The
 Simplest model is the **prisoners' dilemma**, which illustrates why rational firms may not cooperate
-Even when cooperation would benefit all parties.
+even when cooperation would benefit all parties.
 
 **Prisoners' dilemma applied to oligopoly:**
 
@@ -751,7 +751,7 @@ Even when cooperation would benefit all parties.
 Both firms earn the highest combined profit if they both charge a high price (cooperate). However,
 Each firm has a dominant strategy to charge a low price: regardless of what the rival does, the firm
 Earns more by charging a low price. The Nash equilibrium is (Low, Low) with payoffs (5, 5), even
-Though (High, High) with payoffs (10, 10) is Pareto superior.
+though (High, High) with payoffs (10, 10) is Pareto superior.
 
 This explains why firms in an oligopoly are tempted to cheat on collusive agreements.
 
@@ -837,7 +837,7 @@ Firm or the firm with the best market information) sets the price and other firm
 
 **Dominant firm price leadership:** The largest firm sets the price based on its profit-maximising
 Condition, and smaller firms act as price takers (they produce where their `MC` equals the price set
-By the dominant firm).
+by the dominant firm).
 
 **Barometric price leadership:** A firm with a reputation for accurately reading market conditions
 Changes price first, and other firms follow. The leading firm is not necessarily the largest.
@@ -919,7 +919,7 @@ Relationship between market structure and dynamic efficiency is complex and cont
 
 The theory of contestable markets (Baumol, 1982) challenges the traditional structure-conduct-
 Performance paradigm by arguing that the threat of potential entry can discipline incumbent firms
-Even when the market currently has few firms.
+even when the market currently has few firms.
 
 A market is **perfectly contestable** if:
 
@@ -939,7 +939,7 @@ Even a monopoly in a perfectly contestable market will behave like a perfectly c
 
 The number of firms in the market is irrelevant; what matters is the **contestability** of the
 Market. A market with two firms but high barriers to entry may be less competitive than a market
-With one firm but perfectly contestable conditions.
+with one firm but perfectly contestable conditions.
 
 ### Limitations
 
@@ -1251,7 +1251,7 @@ Regulates the firm to earn zero economic profit (`P = ATC`), find the output and
 Set `MR = MC`: `50 - 4Q = 10``Q = 10`. `P = 50 - 2(10) = 30`.
 
 `TR = 300`. `TC = 200 + 100 = 300`. Profit = 0. (In this case, the monopolist earns normal profit at
-The profit-maximising output.)
+the profit-maximising output.)
 
 (b) At allocative efficiency: `P = MC`: `50 - 2Q = 10``Q = 20``P = 10`.
 
@@ -1290,7 +1290,7 @@ Two airlines, `A` and `B`Are the only carriers on a route. Each can choose to se
 
 (a) Does either firm have a dominant strategy? (b) What is the Nash equilibrium? (c) Is the Nash
 Equilibrium Pareto efficient? (d) If the game is repeated indefinitely (supergame), is collusion
-More likely to be sustained?
+more likely to be sustained?
 
 (a) If `B` chooses High: `A` gets 12 (High) vs 18 (Low). `A` prefers Low.
 
@@ -1301,15 +1301,15 @@ Low is a dominant strategy for `A`. By symmetry, Low is a dominant strategy for 
 (b) The Nash equilibrium is (Low, Low) with payoffs (6, 6). Both firms play their dominant strategy.
 
 (c) No. The outcome (High, High) with payoffs (12, 12) is Pareto superior: both firms are better
-Off. However, neither firm will choose High because the incentive to deviate is too strong
+off. However, neither firm will choose High because the incentive to deviate is too strong
 (prisoner's dilemma).
 
 (d) In a repeated game (infinitely repeated supergame), collusion can be sustained through **trigger
 Strategies**: each firm starts by choosing High. If the rival ever chooses Low, the defecting firm
 Punishes by switching to Low forever (grim trigger). The present value of cooperating must exceed
-The present value of defecting. If the discount factor is high enough (firms value future profits
+the present value of defecting. If the discount factor is high enough (firms value future profits
 Sufficiently), collusion is sustainable because the one-time gain from cheating (USD 6 million extra
-This period) is outweighed by the loss of future cooperation (USD 6 million per period forever).
+this period) is outweighed by the loss of future cooperation (USD 6 million per period forever).
 This is why oligopolistic firms often sustain tacit collusion in practice.
 
 </details>
@@ -1350,7 +1350,7 @@ Profit = `3055.4 - 1138.9 = 1916.5`.
 (c) Competitive output: `P = MC`: `120 - Q = 10 + Q``Q = 55``P = 65`.
 
 Wait, let me recalculate. Under perfect competition with many firms, the industry supply curve is
-The horizontal sum of individual `MC` curves. For `n` firms, each with `MC = 10 + q_i`:
+the horizontal sum of individual `MC` curves. For `n` firms, each with `MC = 10 + q_i`:
 `P = 10 + q_i`So `q_i = P - 10`. Total supply: `Q = n(P - 10)`.
 
 Market equilibrium: `120 - Q = P` and `Q = n(P - 10)`So `120 - n(P - 10) = P`.
@@ -1564,7 +1564,7 @@ If you get this wrong, revise:
 ### Problem 6: Kinked Demand Curve
 
 An oligopolistic firm faces a kinked demand curve. Above the current price `P^* = 50`Demand is given
-By `P = 60 - 0.5Q`. Below `P^*`Demand is given by `P = 70 - Q`.
+by `P = 60 - 0.5Q`. Below `P^*`Demand is given by `P = 70 - Q`.
 
 (a) Find the quantity at the kink. (b) Derive the `MR` above and below the kink. (c) If `MC`
 increases From 20 to 30, will the firm change its price? Explain.

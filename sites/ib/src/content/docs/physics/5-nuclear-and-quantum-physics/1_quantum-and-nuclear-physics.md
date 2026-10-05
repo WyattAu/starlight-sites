@@ -235,7 +235,7 @@ Broglie wavelength is far too small to detect.
 
 Niels Bohr proposed that electrons in atoms occupy discrete **energy levels** (orbitals). An
 Electron can transition between levels by absorbing or emitting a photon of energy exactly equal to
-The energy difference:
+the energy difference:
 
 $$
 hf = \Delta E = E_{\mathrm{upper}} - E_{\mathrm{lower}}
@@ -362,7 +362,7 @@ N = N_0 e^{-\lambda t}
 $$
 
 Where $N$ is the number of undecayed nuclei at time $t$, $N_0$ is the initial number, and $\lambda$
-Is the **decay constant**.
+is the **decay constant**.
 
 **Activity** (rate of decay): $A = -\dfrac{dN}{dt} = \lambda N = A_0 e^{-\lambda t}$ Measured in
 **becquerels** ($\mathrm{Bq}$), where $1\,\mathrm{Bq} = 1$ decay per second.
@@ -610,7 +610,7 @@ Structure).
 ### Statement
 
 It is fundamentally impossible to simultaneously know both the position and momentum of a particle
-With arbitrary precision:
+with arbitrary precision:
 
 $$
 \Delta x \cdot \Delta p \ge \frac{\hbar}{2}
@@ -629,7 +629,7 @@ $$
 $$
 
 This allows virtual particle-antiparticle pairs to briefly exist, provided $\Delta E \cdot \Delta t$
-Is sufficiently small.
+is sufficiently small.
 
 <details>
 <summary>Worked Example: Heisenberg Uncertainty Principle</summary>
@@ -789,12 +789,12 @@ E_n = \frac{n^2 h^2}{8mL^2}
 $$
 
 Key features: energy is quantised, the ground state has non-zero energy ($n = 1$), and the particle
-Has non-zero probability of being found at any position inside the box.
+has non-zero probability of being found at any position inside the box.
 
 ### Quantum Tunneling
 
 A particle with energy $E \lt V_0$ has a non-zero probability of passing through a potential barrier
-Of height $V_0$. The transmission coefficient decreases exponentially with barrier width $w$:
+of height $V_0$. The transmission coefficient decreases exponentially with barrier width $w$:
 
 $$
 T \approx e^{-2\kappa w}
@@ -1096,7 +1096,7 @@ E_{\min} = 2m_e c^2 = 2(0.511\,\mathrm{MeV}) = 1.022\,\mathrm{MeV}
 $$
 
 If the photon has exactly $1.022\,\mathrm{MeV}$ Pair production **cannot** occur in free space
-Because momentum cannot be conserved. The photon has momentum $p = E/c$ But the electron-positron
+because momentum cannot be conserved. The photon has momentum $p = E/c$ But the electron-positron
 Pair at rest has zero momentum. A nearby nucleus must be present to absorb the recoil momentum. The
 Photon energy must be **greater than** $1.022\,\mathrm{MeV}$ for pair production to actually occur.
 
@@ -1107,7 +1107,7 @@ Photon energy must be **greater than** $1.022\,\mathrm{MeV}$ for pair production
 ### Problem 8
 
 An electron is confined in a one-dimensional box of length $L = 0.50\,\mathrm{nm}$. Find the energy
-Of the ground state and the first excited state. What is the wavelength of a photon emitted when the
+of the ground state and the first excited state. What is the wavelength of a photon emitted when the
 Electron transitions from $n = 2$ to $n = 1$?
 
 <details>

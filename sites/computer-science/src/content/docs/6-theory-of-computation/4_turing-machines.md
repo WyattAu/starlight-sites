@@ -51,16 +51,16 @@ Q_{\mathrm{reject})}}$ where:
 - $q_{\mathrm{reject} \in Q$ is the reject state ($q_{\mathrm{accept} \neq q_{\mathrm{reject}$).
 
 The TM has an infinite tape (initially containing the input followed by blanks), a read/write head
-That moves left or right, and a finite control. At each step, based on the current state and symbol
-Under the head, it writes a symbol, moves the head, and changes state.
+that moves left or right, and a finite control. At each step, based on the current state and symbol
+under the head, it writes a symbol, moves the head, and changes state.
 
 $M$ **accepts** input $w$ if the computation halts in $q_{\mathrm{accept}$. $M$ **rejects** $w$ if
-It halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
+it halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
 
 The **language recognised** by $M$ is $L(M) = \{w : M \mathrm{ accepts  w\}$.
 
 A language is **Turing-recognisable** (recursively enumerable) if some TM recognises it. A language
-Is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
+is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
 
 ### 4.2 TM Variants
 
@@ -80,8 +80,8 @@ $\delta : Q \times \Gamma \to \mathcal{P}(Q \times \Gamma \times \{L, R\})$. The
 **Theorem 4.2.** Every nondeterministic TM has an equivalent deterministic TM.
 
 _Proof._ Simulate the NTM using breadth-first search on the computation tree. Each level of the tree
-Has at most $b$ branches (where $b$ is the maximum number of choices). After $n$ steps, the tree has
-At most $b^n$ nodes. The simulation visits nodes in order, using a 3-tape DTM: tape 1 stores the
+has at most $b$ branches (where $b$ is the maximum number of choices). After $n$ steps, the tree has
+at most $b^n$ nodes. The simulation visits nodes in order, using a 3-tape DTM: tape 1 stores the
 Input, tape 2 simulates the current branch, tape 3 tracks the address of the current node in the
 Tree. The simulation runs in $O(b^n)$ times the NTM's time, which is exponential overhead.
 $\blacksquare$
@@ -97,7 +97,7 @@ $\varepsilon, 0, 1, 00, 01, 10, 11$ for 3 steps, and so on. Whenever $M$ accepts
 String. Every string in $L$ is eventually printed.
 
 ($\Leftarrow$) Given enumerator $E$ for $L$ Construct TM $M$ that on input $w$ runs $E$ and checks
-Each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
+each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
 Printed, so $M$ recognises $L$. $\blacksquare$
 
 ### 4.3 Church-Turing Thesis

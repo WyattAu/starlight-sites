@@ -22,12 +22,12 @@ categories:
 
 Without an index, finding a specific row in a table of $N$ rows requires a full sequential scan,
 Which is $O(N)$. A B-tree index reduces this to $O(\log N)$ -- for a table of one billion rows, that
-Is the difference between examining one billion rows and approximately 30.
+is the difference between examining one billion rows and approximately 30.
 
 Indexes are the single most impactful performance tool available to a database user. The query
 Planner cannot use an index that does not exist, and adding the wrong index wastes storage and slows
-Down writes. Understanding how indexes work internally is the difference between a query that runs
-In milliseconds and one that takes minutes.
+down writes. Understanding how indexes work internally is the difference between a query that runs
+in milliseconds and one that takes minutes.
 
 ## B-Tree Structure
 
@@ -162,7 +162,7 @@ The benefits are significant:
 - **Better cache utilisation**: more index entries fit in the buffer pool
 
 In PostgreSQL, an index-only scan requires that the visibility map indicates all pages are
-All-visible. If any referenced page has dirty visibility information, the database falls back to a
+all-visible. If any referenced page has dirty visibility information, the database falls back to a
 Regular index scan that checks the heap. This is why `VACUUM` matters for index-only scan
 Performance.
 
@@ -307,7 +307,7 @@ SELECT * FROM reservations WHERE date_range && '[2024-01-01, 2024-12-31]'::dater
 ### BRIN (Block Range Index)
 
 Stores summary information about ranges of physical table pages. Extremely small but only effective
-When data is physically correlated with the indexed column (e.g., a timestamp column where rows are
+when data is physically correlated with the indexed column (e.g., a timestamp column where rows are
 Inserted in chronological order).
 
 ```sql
@@ -322,7 +322,7 @@ Matching rows, so it must still scan those pages.
 ## EXPLAIN and EXPLAIN ANALYZE
 
 `EXPLAIN` shows the query planner's execution plan. `EXPLAIN ANALYZE` actually executes the query
-And shows actual timing and row counts alongside the planner's estimates.
+and shows actual timing and row counts alongside the planner's estimates.
 
 ### Reading an EXPLAIN Plan
 
@@ -378,7 +378,7 @@ Key fields to examine:
 ### When the Planner Gets It Wrong
 
 The query planner relies on statistics gathered by `ANALYZE`. If statistics are stale or the table
-Has a highly skewed data distribution, the planner may choose a suboptimal plan.
+has a highly skewed data distribution, the planner may choose a suboptimal plan.
 
 ```sql
 -- Update statistics for a specific table:
@@ -489,7 +489,7 @@ Statistics via `ANALYZE` (run automatically by autovacuum) and stores them in `p
 ### Extended Statistics
 
 When columns are correlated (e.g., `city` and `zip_code`), the planner may underestimate selectivity
-Because it treats each column independently. PostgreSQL 10+ supports extended statistics:
+because it treats each column independently. PostgreSQL 10+ supports extended statistics:
 
 ```sql
 CREATE STATISTICS s_emp_dept_role (ndistinct, dependencies)
@@ -575,7 +575,7 @@ Guidelines for when to skip indexing:
 
 Every database connection consumes memory (PostgreSQL: approximately 5-10MB per connection for the
 Process, plus `work_mem` for queries). A web application with 500 concurrent connections can consume
-Several GB just for connection overhead.
+several GB just for connection overhead.
 
 ### Connection Poolers
 
@@ -619,7 +619,7 @@ A B-tree is like a sorted phone book. The first page tells you where to find nam
 ### Creating an Index Without Checking the Query Plan
 
 Adding an index and assuming it will be used is a common mistake. Always `EXPLAIN ANALYZE` before
-And after creating an index to verify it is actually used and improves performance.
+and after creating an index to verify it is actually used and improves performance.
 
 ### Ignoring Index Bloat
 
@@ -630,7 +630,7 @@ Size growth and run `REINDEX CONCURRENTLY` on bloated indexes during maintenance
 
 A table with 30 indexes has 30x the write amplification. Every INSERT/UPDATE must update all 30
 Indexes. Profile your write workload before adding indexes. A good rule of thumb: if a query runs
-Less than once per minute, a covering index might not be worth the write cost.
+less than once per minute, a covering index might not be worth the write cost.
 
 ### Not Running ANALYZE After Bulk Loads
 
@@ -670,7 +670,7 @@ Memory usage.
 ### Materialized Views
 
 A materialized view caches the result of a query and refreshes it periodically. This trades storage
-For query latency on expensive aggregations and joins.
+for query latency on expensive aggregations and joins.
 
 ```sql
 -- Create a materialized view for daily revenue:
@@ -698,7 +698,7 @@ REFRESH MATERIALIZED VIEW CONCURRENTLY daily_revenue;
 
 :::note
 Refreshes by scanning the new data and updating existing rows, which is slower than a full refresh
-But does not block concurrent reads.
+but does not block concurrent reads.
 
 ### Subquery Flattening
 
@@ -773,7 +773,7 @@ DEALLOCATE get_orders_by_customer;
 :::caution
 The generic plan does not use the specific parameter values for planning, which can lead to
 Suboptimal plans if the parameter values significantly affect selectivity (e.g., a status column
-Where 'pending' has 5 rows and 'completed' has 5 million rows). Monitor with `pg_stat_statements`
+where 'pending' has 5 rows and 'completed' has 5 million rows). Monitor with `pg_stat_statements`
 And use `plan_cache_mode = force_custom_plan` if generic plans are consistently worse.
 
 ### Partition Pruning

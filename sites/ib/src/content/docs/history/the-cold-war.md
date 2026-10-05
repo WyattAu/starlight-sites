@@ -24,7 +24,7 @@ Union (USSR) and their respective allies, spanning approximately 1945 to 1991. U
 Conflicts, the Cold War was characterised by ideological competition, proxy wars, an arms race of
 Unprecedented scale, and the perpetual threat of nuclear annihilation. It was, in essence, a bipolar
 International system in which two superpowers -- each possessing the capacity to destroy the other
-And much of civilisation -- engaged in a global struggle for dominance without ever directly
+and much of civilisation -- engaged in a global struggle for dominance without ever directly
 Confronting each other in open conventional warfare.
 
 For IB History HL Paper 3, students must demonstrate a deep understanding of the causes, key events,
@@ -56,7 +56,7 @@ Triumph of communism over capitalism.
 
 These were not merely philosophical differences. Each side regarded the other"s system as
 Existentially threatening. American policymakers feared the spread of communism as a direct threat
-To democratic institutions and free-market capitalism. Soviet leaders, operating from a
+to democratic institutions and free-market capitalism. Soviet leaders, operating from a
 Marxist-Leninist framework, viewed capitalist states as inherently imperialist and believed that
 Peaceful coexistence was at best a temporary tactical measure while the conditions for revolution
 Matured.
@@ -101,16 +101,16 @@ Islands, and influence in Manchuria).
 
 The question of Poland proved particularly contentious. Stalin demanded that the Soviet-backed
 Lublin government be recognised as the legitimate government of Poland, with territorial adjustments
-That pushed Poland's borders westward at the expense of Germany. Roosevelt and Churchill reluctantly
+that pushed Poland's borders westward at the expense of Germany. Roosevelt and Churchill reluctantly
 Acquiesced, securing only a vague promise of "free elections" at a later date -- a promise Stalin
-Had no intention of honouring.
+had no intention of honouring.
 
 **The Potsdam Conference (July--August 1945)**
 
 By the time of Potsdam, the political landscape had shifted dramatically. Roosevelt had died and
-Been succeeded by Harry S. Truman, who was far more suspicious of Soviet intentions. Churchill was
+been succeeded by Harry S. Truman, who was far more suspicious of Soviet intentions. Churchill was
 Replaced midway through the conference by Clement Attlee following the British general election. And
-The United States had successfully tested the atomic bomb, giving Truman a significant strategic
+the United States had successfully tested the atomic bomb, giving Truman a significant strategic
 Advantage.
 
 Key outcomes of Potsdam included:
@@ -126,7 +126,7 @@ The division of Germany into four zones was not merely an administrative arrange
 Architectural foundation of the Cold War division of Europe. The Western zones would eventually
 Merge into the Federal Republic of Germany (West Germany), while the Soviet zone became the German
 Democratic Republic (East Germany) -- two states that would stand on the front line of the Cold War
-For four decades.
+for four decades.
 
 ### 1.3 The Truman Doctrine and Containment (1947)
 
@@ -139,7 +139,7 @@ would eventually lead to a rupture with Stalin.
 The critical turning point came with the Greek Civil War (1946--1949) and the perceived Soviet
 Threat to Turkey. Britain, exhausted by the war, announced in February 1947 that it could no longer
 Afford to support the Greek monarchy against communist insurgents or maintain its military presence
-In the Turkish Straits.
+in the Turkish Straits.
 
 In response, President Truman addressed a joint session of Congress on 12 March 1947, articulating
 What would become known as the Truman Doctrine. The core principle was containment: the United
@@ -173,7 +173,7 @@ The Marshall Plan served multiple strategic objectives:
 Economic recovery in Western Europe was seen as essential to prevent the spread of communism.
 Economic dislocation, poverty, and desperation were fertile ground for communist parties, which were
 Particularly strong in France and Italy. By rebuilding European economies, the United States aimed
-To remove the conditions that made communism attractive.
+to remove the conditions that made communism attractive.
 
 The plan also served American economic interests. A prosperous Europe would provide markets for
 American goods and help prevent a global recession that could rebound on the American economy.
@@ -182,11 +182,11 @@ Stalin viewed the Marshall Plan with deep suspicion, interpreting it as an instr
 Economic imperialism designed to draw Eastern Europe into the capitalist orbit and undermine Soviet
 Control. At a meeting of communist parties in September 1947 (which also established Cominform --
 The Communist Information Bureau -- as a coordinating body for communist parties), Stalin denounced
-The Marshall Plan and ordered satellite states to refuse participation. Czechoslovakia, which had
+the Marshall Plan and ordered satellite states to refuse participation. Czechoslovakia, which had
 Initially indicated interest in participating, was compelled to withdraw under Soviet pressure.
 
 The division of Europe into two economic blocs -- one integrated with the American economy through
-The Marshall Plan, the other organised under Soviet direction through the Council for Mutual
+the Marshall Plan, the other organised under Soviet direction through the Council for Mutual
 Economic Assistance (Comecon), established in 1949 -- cemented the structural bipolarity of the Cold
 War.
 
@@ -218,13 +218,13 @@ Tito pursued an independent foreign policy, supporting the communist side in the
 Seeking to build a Balkan federation. Stalin's attempt to bring Tito to heel failed, and in 1948 the
 Soviet-Yugoslav split became public -- the first major crack in the communist bloc. The expulsion of
 Yugoslavia from Cominform demonstrated that the Soviet bloc was held together by coercion as much as
-By ideology.
+by ideology.
 
 ### 1.6 The Berlin Blockade and Airlift (1948--1949)
 
 The first major crisis of the Cold War was triggered by currency reform in the Western occupation
 Zones of Germany. On 20 June 1948, the Western Allies introduced the Deutsche Mark in their zones
-And in West Berlin, replacing the hyperinflated Reichsmark. This was a critical step toward economic
+and in West Berlin, replacing the hyperinflated Reichsmark. This was a critical step toward economic
 Recovery and the creation of a unified Western German economy.
 
 Stalin interpreted the currency reform as a violation of wartime agreements and a step toward the
@@ -257,14 +257,14 @@ Commitment that placed Western Europe under the American nuclear umbrella.
 
 The original NATO members were Belgium, Canada, Denmark, France, Iceland, Italy, Luxembourg, the
 Netherlands, Norway, Portugal, the United Kingdom, and the United States. Greece and Turkey joined
-In 1952, and West Germany was admitted in 1955 -- a decision that provoked the Soviet Union into
+in 1952, and West Germany was admitted in 1955 -- a decision that provoked the Soviet Union into
 Creating its own military alliance.
 
 The Warsaw Pact, formally the Treaty of Friendship, Cooperation, and Mutual Assistance, was signed
-On 14 May 1955. Its members were the Soviet Union, Albania, Bulgaria, Czechoslovakia, East Germany,
+on 14 May 1955. Its members were the Soviet Union, Albania, Bulgaria, Czechoslovakia, East Germany,
 Hungary, Poland, and Romania. The Warsaw Pact was less a genuine alliance than a mechanism for
 Soviet control over the military forces of Eastern Europe, and it lacked the consultative mechanisms
-And institutional depth of NATO.
+and institutional depth of NATO.
 
 The creation of these two opposing military alliances formalised the bipolar structure of the Cold
 War international system and institutionalised the division of Europe into two armed camps.
@@ -272,9 +272,9 @@ War international system and institutionalised the division of Europe into two a
 ### 1.8 The Chinese Revolution and the Sino-Soviet Relationship
 
 The Chinese Communist Party's victory in the Chinese Civil War, culminating in the proclamation of
-The People's Republic of China on 1 October 1949, fundamentally altered the global balance of power.
+the People's Republic of China on 1 October 1949, fundamentally altered the global balance of power.
 The world's most populous country was now governed by a communist party, creating what appeared to
-Be a powerful Sino-Soviet bloc stretching from the Elbe to the Pacific.
+be a powerful Sino-Soviet bloc stretching from the Elbe to the Pacific.
 
 The Sino-Soviet Treaty of Friendship, Alliance, and Mutual Assistance, signed in February 1950,
 Committed the Soviet Union to provide economic and military assistance to China. The treaty included
@@ -284,7 +284,7 @@ However, the Sino-Soviet relationship was never one of equals. Mao deeply resent
 Condescending treatment and the unequal terms of economic cooperation. Stalin, for his part, was
 Wary of Mao's independent streak and the potential for China to challenge Soviet leadership of the
 Communist world. These tensions would eventually erupt into the Sino-Soviet split of the late 1950s
-And 1960s, which had profound consequences for Cold War dynamics.
+and 1960s, which had profound consequences for Cold War dynamics.
 
 ### 1.9 The Korean War (1950--1953)
 
@@ -293,7 +293,7 @@ Warfare that would characterise subsequent Cold War confrontations. Korea had be
 38th parallel at the end of World War II, with the Soviet Union occupying the north and the United
 States occupying the south. By 1949, both occupying powers had withdrawn, leaving behind two rival
 Korean governments: the communist Democratic People's Republic of Korea (DPRK) under Kim Il-sung in
-The north, and the capitalist Republic of Korea (ROK) under Syngman Rhee in the south.
+the north, and the capitalist Republic of Korea (ROK) under Syngman Rhee in the south.
 
 On 25 June 1950, North Korean forces, equipped with Soviet tanks and artillery and trained with
 Soviet assistance, invaded South Korea. The attack was almost certainly authorised by Stalin, who
@@ -303,7 +303,7 @@ Substantial Chinese support.
 
 The United Nations Security Council passed Resolution 83 on 27 June 1950, authorising military
 Intervention to repel the North Korean attack. The Soviet Union was absent from the Security Council
-At the time -- boycotting it in protest at the UN's refusal to seat the People's Republic of China
+at the time -- boycotting it in protest at the UN's refusal to seat the People's Republic of China
 -- and thus could not veto the resolution. This was a critical procedural failure that enabled the
 UN to act.
 
@@ -319,7 +319,7 @@ Volunteer Army" forces crossed the Yalu and intervened in the war, pushing UN fo
 Front line.
 
 MacArthur publicly disagreed with President Truman's policy of limited war, advocating for the use
-Of nuclear weapons against China and an expansion of the conflict. Truman, recognising the
+of nuclear weapons against China and an expansion of the conflict. Truman, recognising the
 Catastrophic risk of direct war with China (and potentially the Soviet Union), relieved MacArthur of
 Command in April 1951. The subsequent congressional hearings and public controversy deepened the
 Partisan divide over Korea.
@@ -334,7 +334,7 @@ The Korean War had several major consequences. It demonstrated that the Cold War
 Large-scale, devastating conventional conflicts. It confirmed the principle of containment in
 Practice. It accelerated the remilitarisation of the United States and spurred the expansion of
 NATO. And it solidified the division of Korea into two hostile states -- a division that persists to
-This day.
+this day.
 
 ---
 
@@ -388,8 +388,8 @@ A survivable second-strike capability, were developed by both sides in the early
 
 The concept of Mutually Assured Destruction (MAD) emerged as the dominant strategic framework for
 Nuclear deterrence during the 1960s. MAD posited that neither the United States nor the Soviet Union
-Could launch a first strike against the other without suffering unacceptable retaliation, because
-Both sides maintained a secure second-strike capability -- the ability to absorb a first strike and
+could launch a first strike against the other without suffering unacceptable retaliation, because
+both sides maintained a secure second-strike capability -- the ability to absorb a first strike and
 Still destroy the attacker.
 
 The logic of MAD was paradoxical: nuclear weapons, the most destructive instruments ever created,
@@ -401,31 +401,31 @@ For MAD to function as a deterrent, several conditions had to be met:
 
 Both sides must maintain a survivable second-strike capability. This required redundancy in delivery
 Systems (the "nuclear triad" of land-based ICBMs, submarine-launched SLBMs, and manned bombers), so
-That no single first strike could destroy all retaliatory forces.
+that no single first strike could destroy all retaliatory forces.
 
 Both sides must have the capability to inflict "unacceptable damage" on the other -- defined loosely
-As the destruction of 20--25 percent of the opponent's population and 50 percent of its industrial
+as the destruction of 20--25 percent of the opponent's population and 50 percent of its industrial
 Capacity.
 
 Both sides must be rational actors who would be deterred by the prospect of unacceptable damage.
 
 The development of Multiple Independently Targetable Re-entry Vehicles (MIRVs) in the late 1960s
 Complicated the MAD calculus. MIRVs allowed a single ICBM to carry multiple warheads, each capable
-Of striking a different target. This dramatically increased the number of warheads each side could
+of striking a different target. This dramatically increased the number of warheads each side could
 Deliver and, critically, created an incentive to strike first in a crisis, since a first strike
-Could destroy the opponent's ICBMs before they were launched -- potentially eliminating the
+could destroy the opponent's ICBMs before they were launched -- potentially eliminating the
 Opponent's land-based second-strike capability.
 
 ### 2.3 The Space Race
 
 The Space Race was both a competition for technological supremacy and a proxy for the broader
 Ideological and strategic rivalry. Space achievements served as powerful symbols of national prowess
-And technological capability, and the rocket technology that powered space exploration was directly
+and technological capability, and the rocket technology that powered space exploration was directly
 Applicable to ICBM development.
 
 The Soviet Union scored the first major victories. Sputnik 1, the world's first artificial
 Satellite, was launched on 4 October 1957. This achievement had a profound psychological impact on
-The United States, which had assumed its technological superiority was unchallengeable. The "Sputnik
+the United States, which had assumed its technological superiority was unchallengeable. The "Sputnik
 Crisis" led directly to the creation of NASA (1958), a massive increase in federal funding for
 Science and technology education, and the acceleration of the American missile programme.
 
@@ -433,10 +433,10 @@ On 12 April 1961, Soviet cosmonaut Yuri Gagarin became the first human being to 
 Aboard Vostok 1, further intensifying American anxieties about Soviet technological leadership.
 
 The United States responded with President John F. Kennedy's commitment to land a man on the Moon
-Before the end of the decade, announced in a speech to Congress on 25 May 1961. The Apollo
+before the end of the decade, announced in a speech to Congress on 25 May 1961. The Apollo
 Programme, one of the largest and most expensive undertakings in human history, culminated in the
 Apollo 11 mission. On 20 July 1969, Neil Armstrong and Buzz Aldrin became the first humans to walk
-On the Moon, while Michael Collins orbited above.
+on the Moon, while Michael Collins orbited above.
 
 The American victory in the Space Race was decisive, but it came at enormous cost. The Apollo
 Programme consumed a significant proportion of NASA's budget, and its scientific value relative to
@@ -449,8 +449,8 @@ Confidence.
 By the early 1960s, the growing disparity between the prosperous, democratic West Berlin and the
 Stagnant, authoritarian East Berlin had become a major embarrassment for the Soviet Union and the
 East German government. Between 1949 and 1961, approximately 2.5 million East Germans -- roughly
-One-sixth of the population -- fled to West Germany, most of them through Berlin. This brain drain
-Of skilled workers and professionals was devastating to the East German economy.
+one-sixth of the population -- fled to West Germany, most of them through Berlin. This brain drain
+of skilled workers and professionals was devastating to the East German economy.
 
 At the Vienna summit of June 1961, Khrushchev demanded that the Western Allies withdraw from West
 Berlin within six months and recognise East Berlin as the capital of the German Democratic Republic.
@@ -461,7 +461,7 @@ Berlin.
 The Berlin Wall became the most potent symbol of the Cold War division of Europe. It effectively
 Ended the refugee flow from East to West, stabilising the East German regime at the cost of its
 International legitimacy. For the next 28 years, the Wall would stand as a physical manifestation of
-The "Iron Curtain" that Churchill had described in his famous 1946 speech at Fulton, Missouri.
+the "Iron Curtain" that Churchill had described in his famous 1946 speech at Fulton, Missouri.
 
 The Berlin Crisis also produced a dangerous military confrontation. In October 1961, American and
 Soviet tanks faced each other at Checkpoint Charlie, the principal crossing point between the two
@@ -473,7 +473,7 @@ Soviet tanks to withdraw -- and Kennedy reciprocated by withdrawing the American
 
 The Cuban Missile Crisis of October 1962 was the closest the Cold War came to escalating into a
 Full-scale nuclear war. It remains the most studied crisis in the history of international relations
-And a defining case study in crisis management, nuclear deterrence, and the limits of rational
+and a defining case study in crisis management, nuclear deterrence, and the limits of rational
 Decision-making under extreme pressure.
 
 **Background.** The Cuban Revolution of 1959 brought Fidel Castro to power. After the failed Bay of
@@ -502,7 +502,7 @@ A naval "quarantine" (the term "blockade" was avoided because it constituted an 
 International law) to prevent further Soviet military shipments from reaching Cuba.
 
 A diplomatic approach, involving direct negotiations with Khrushchev and a possible trade involving
-The removal of American missiles from Turkey.
+the removal of American missiles from Turkey.
 
 Kennedy chose the quarantine option as the initial response, announced in a televised address on 22
 October 1962. He also demanded the removal of the missiles already in Cuba.
@@ -510,9 +510,9 @@ October 1962. He also demanded the removal of the missiles already in Cuba.
 **The crisis escalates.** On 24 October, Soviet ships approaching the quarantine line stopped or
 Turned back. However, the situation remained extremely tense. On 26 October, Khrushchev sent a
 Private letter to Kennedy offering to withdraw the missiles in exchange for a public American pledge
-Not to invade Cuba. On 27 October -- the most dangerous day of the crisis -- a second, more
+not to invade Cuba. On 27 October -- the most dangerous day of the crisis -- a second, more
 Demanding letter from Khrushchev added the condition that American Jupiter missiles in Turkey must
-Also be removed.
+also be removed.
 
 On the same day, an American U-2 was shot down over Cuba, killing the pilot, Major Rudolf Anderson.
 The military recommended immediate retaliation. Kennedy, recognising that a military response could
@@ -522,18 +522,18 @@ Ambassador Anatoly Dobrynin to remove the Jupiter missiles from Turkey at a late
 
 **Resolution.** On 28 October, Khrushchev announced the dismantling and withdrawal of the missiles
 From Cuba. The crisis was resolved, but it left both sides deeply shaken by how close they had come
-To nuclear catastrophe.
+to nuclear catastrophe.
 
 **Consequences.** The Cuban Missile Crisis had several profound and lasting consequences:
 
 It led directly to the establishment of the "hotline" between Washington and Moscow -- a direct
 Communications link designed to prevent future crises from escalating due to communication failures
-Or delays.
+or delays.
 
 It catalysed the nuclear arms control process, leading to the Limited Test Ban Treaty of 1963.
 
 It convinced both Kennedy and Khrushchev of the urgent need to manage the nuclear rivalry and reduce
-The risk of accidental war.
+the risk of accidental war.
 
 It reinforced the principle that nuclear weapons could not be used as instruments of normal foreign
 Policy and that the superpowers had a shared interest in preventing nuclear conflict.
@@ -541,17 +541,17 @@ Policy and that the superpowers had a shared interest in preventing nuclear conf
 ### 2.6 The Nuclear Test Ban Treaty (1963)
 
 The Limited Test Ban Treaty (LTBT), signed on 5 August 1963, prohibited nuclear weapons testing in
-The atmosphere, outer space, and underwater. It was the first significant arms control agreement
-Between the United States and the Soviet Union.
+the atmosphere, outer space, and underwater. It was the first significant arms control agreement
+between the United States and the Soviet Union.
 
 The treaty did not ban underground testing, which both sides continued to conduct, and it was not a
 Comprehensive nuclear disarmament agreement. Nevertheless, it represented a significant step forward
-In managing the nuclear rivalry and reducing the environmental and public health hazards of
+in managing the nuclear rivalry and reducing the environmental and public health hazards of
 Atmospheric nuclear testing.
 
 The LTBT was signed by the United States, the Soviet Union, and the United Kingdom. France and
 China, both nuclear powers, refused to sign, arguing that the treaty discriminated against states
-That had not yet developed nuclear weapons while allowing the existing nuclear powers to continue
+that had not yet developed nuclear weapons while allowing the existing nuclear powers to continue
 Testing underground and refining their arsenals.
 
 ---
@@ -570,13 +570,13 @@ Testing underground and refining their arsenals.
 ### 3.1 Causes and Rationale of Detente
 
 Detente -- a French term meaning "relaxation" or "easing" -- describes the period of reduced tension
-In superpower relations from approximately 1969 to 1979. Several factors contributed to the
+in superpower relations from approximately 1969 to 1979. Several factors contributed to the
 Emergence of detente:
 
 Nuclear parity. By the late 1960s, the Soviet Union had achieved rough numerical parity with the
 United States in strategic nuclear weapons. This parity made the concept of "nuclear superiority"
 Increasingly meaningless as a basis for strategy and reinforced the logic of MAD. If neither side
-Could win a nuclear war, then the competition had to be managed through diplomacy and arms control
+could win a nuclear war, then the competition had to be managed through diplomacy and arms control
 Rather than through the futile pursuit of strategic advantage.
 
 Economic burden. The arms race was imposing enormous costs on both superpowers. For the United
@@ -584,11 +584,11 @@ States, the combined burden of the Vietnam War and military spending was creatin
 Pressures and straining the dollar-based international monetary system. For the Soviet Union,
 Military spending was consuming a disproportionate share of a much smaller economy, diverting
 Resources from consumer goods, agriculture, and infrastructure. Both sides had an economic incentive
-To restrain the arms race.
+to restrain the arms race.
 
 The Sino-Soviet split. The deterioration of relations between the Soviet Union and China created a
 Triangular dynamic that favoured the United States. Both the United States and the Soviet Union had
-An incentive to improve relations with each other in order to prevent China from exploiting the
+an incentive to improve relations with each other in order to prevent China from exploiting the
 Split to its advantage. Nixon's opening to China in 1971--1972 was a masterstroke of triangular
 Diplomacy that put pressure on the Soviet Union to engage with the United States.
 
@@ -608,17 +608,17 @@ Status quo of German division was unlikely to change in the near term and that W
 Interests would be better served by engagement than by confrontation.
 
 The key elements of Ostpolitik included the Treaty of Moscow (August 1970), in which West Germany
-And the Soviet Union renounced the use of force and accepted the existing borders of Europe,
+and the Soviet Union renounced the use of force and accepted the existing borders of Europe,
 Including the Oder-Neisse line; the Treaty of Warsaw (December 1970), normalising relations between
 West Germany and Poland; the Four Power Agreement on Berlin (September 1971), which improved access
-To West Berlin and reduced tensions over the city; and the Basic Treaty (December 1972), in which
+to West Berlin and reduced tensions over the city; and the Basic Treaty (December 1972), in which
 West Germany and East Germany recognised each other's sovereignty and established diplomatic
 Relations.
 
 Ostpolitik was controversial within West Germany, where many conservatives viewed it as a de facto
 Acceptance of German division and a betrayal of the millions of Germans living under communist rule
-In the East. However, Brandt argued that improving relations and increasing human contacts across
-The Iron Curtain would, over time, erode the legitimacy of the East German regime and create
+in the East. However, Brandt argued that improving relations and increasing human contacts across
+the Iron Curtain would, over time, erode the legitimacy of the East German regime and create
 Conditions for eventual reunification. This long-term perspective was, in hindsight, largely
 Vindicated by the events of 1989.
 
@@ -628,7 +628,7 @@ The Strategic Arms Limitation Talks (SALT) produced two landmark agreements sign
 Brezhnev in Moscow on 26 May 1972.
 
 The SALT I Interim Agreement placed quantitative limits on strategic offensive weapons for a period
-Of five years. It froze the number of ICBM launchers and SLBM launchers at existing levels (the
+of five years. It froze the number of ICBM launchers and SLBM launchers at existing levels (the
 Soviet Union was allowed 1,618 ICBM launchers and 950 SLBM launchers; the United States was allowed
 1,054 ICBM launchers and 710 SLBM launchers). Crucially, the agreement did not limit the number of
 Warheads each launcher could carry, which provided an incentive for both sides to develop MIRV
@@ -638,17 +638,17 @@ The Anti-Ballistic Missile (ABM) Treaty was arguably the more important agreemen
 Side to two ABM systems (later reduced to one by a 1974 protocol), effectively constraining the
 Development of nationwide missile defences. The logic was that if one side developed an effective
 Missile defence system, it might feel confident enough to launch a first strike, knowing that it
-Could intercept any retaliatory missiles. By limiting missile defences, the ABM Treaty preserved the
+could intercept any retaliatory missiles. By limiting missile defences, the ABM Treaty preserved the
 MAD balance and reduced the incentive for a first strike.
 
 ### 3.4 The Helsinki Accords (1975)
 
 The Conference on Security and Cooperation in Europe (CSCE) produced the Helsinki Final Act, signed
-On 1 August 1975, by 35 nations including the United States, the Soviet Union, Canada, and all
+on 1 August 1975, by 35 nations including the United States, the Soviet Union, Canada, and all
 European states (except Albania). The Accords had three main "baskets":
 
 Basket I: Security. The signatory states recognised the inviolability of post-war European borders
-And committed to the peaceful settlement of disputes. For the Soviet Union, this represented de jure
+and committed to the peaceful settlement of disputes. For the Soviet Union, this represented de jure
 Recognition of the territorial changes that had resulted from World War II, including the
 Incorporation of the Baltic states into the USSR.
 
@@ -657,7 +657,7 @@ Environmental cooperation across East-West boundaries.
 
 Basket III: Human rights and fundamental freedoms. The signatory states committed to respect human
 Rights, including freedom of thought, conscience, religion, and belief. This provision would prove
-To be the most consequential in the long term, as dissident groups throughout Eastern Europe and the
+to be the most consequential in the long term, as dissident groups throughout Eastern Europe and the
 Soviet Union used it to demand compliance with human rights standards and to hold their governments
 Accountable.
 
@@ -665,7 +665,7 @@ The Helsinki Accords were not a legally binding treaty, and they contained no en
 Mechanisms. Nevertheless, they established norms and standards that would become powerful tools for
 Dissident movements. Groups such as Charter 77 in Czechoslovakia and the Moscow Helsinki Group
 Systematically documented human rights violations and used the Accords to pressure their governments
-From within. In this sense, the human rights provisions of Helsinki sowed the seeds of the
+from within. In this sense, the human rights provisions of Helsinki sowed the seeds of the
 Revolutions of 1989.
 
 ### 3.5 The Vietnam War and Its Impact on Detente
@@ -732,14 +732,14 @@ Groups -- Islamist fighters who opposed both the communist government and the fo
 Soviet troops.
 
 The Soviet invasion was a catastrophic miscalculation. What was intended as a limited intervention
-To stabilise a friendly regime rapidly became a protracted guerrilla war that the Soviet army,
+to stabilise a friendly regime rapidly became a protracted guerrilla war that the Soviet army,
 Trained and equipped for conventional warfare in Europe, was ill-equipped to fight. The mujahideen,
 Operating from mountainous terrain and supported by American, Pakistani, Saudi, and Chinese aid,
 Inflicted heavy casualties on Soviet forces.
 
 The Carter administration's response was swift. In his State of the Union address on 23 January
 1980, Carter announced what became known as the "Carter Doctrine": the United States would regard
-Any attempt by an outside force to gain control of the Persian Gulf region as an assault on the
+any attempt by an outside force to gain control of the Persian Gulf region as an assault on the
 Vital interests of the United States, and it would be repelled by any means necessary, including
 Military force.
 
@@ -750,14 +750,14 @@ Senate).
 
 The Afghanistan war would become the Soviet Union's "Vietnam" -- a draining, unpopular conflict that
 Eroded domestic support for the regime and consumed resources that the struggling Soviet economy
-Could ill afford. By the time the last Soviet troops withdrew in February 1989, approximately 15,000
+could ill afford. By the time the last Soviet troops withdrew in February 1989, approximately 15,000
 Soviet soldiers had been killed and the Soviet economy had been subjected to enormous strain.
 
 ### 4.2 The Reagan Doctrine
 
 The election of Ronald Reagan in November 1980 marked a decisive shift in American Cold War policy.
 Reagan fundamentally rejected detente, which he viewed as a policy of appeasement that had allowed
-The Soviet Union to expand its influence unchecked. Instead, he pursued a policy of rollback --
+the Soviet Union to expand its influence unchecked. Instead, he pursued a policy of rollback --
 Actively seeking to roll back communist gains and put pressure on the Soviet Union across multiple
 Fronts.
 
@@ -774,8 +774,8 @@ Union under unsustainable economic pressure, forcing it to choose between matchi
 
 Reagan's rhetoric was also a significant departure from the more measured language of his
 Predecessors. In a speech to the National Association of Evangelicals on 8 March 1983, he described
-The Soviet Union as an "evil empire" and called upon the West to reject moral equivalence between
-The superpowers. In a speech before the British House of Commons on 8 June 1982, he predicted that
+the Soviet Union as an "evil empire" and called upon the West to reject moral equivalence between
+the superpowers. In a speech before the British House of Commons on 8 June 1982, he predicted that
 Communism would end up "on the ash heap of history."
 
 ### 4.3 The Strategic Defense Initiative
@@ -797,10 +797,10 @@ Strategic balance. This perception intensified Soviet anxiety and may have contr
 Decision to engage more seriously in arms control negotiations with the Reagan administration.
 
 The extent to which SDI contributed to the end of the Cold War is debated. Some historians argue
-That the prospect of an expensive new dimension of the arms race pushed the Soviet Union toward
+that the prospect of an expensive new dimension of the arms race pushed the Soviet Union toward
 Concessions. Others contend that SDI was primarily a propaganda exercise and that its technical
 Challenges were insurmountable. Regardless of its practical feasibility, SDI demonstrated the depth
-Of American technological and economic resources and the willingness of the Reagan administration to
+of American technological and economic resources and the willingness of the Reagan administration to
 Exploit those advantages.
 
 ### 4.4 The Solidarity Movement in Poland
@@ -819,12 +819,12 @@ The Polish government, led by General Wojciech Jaruzelski, declared martial law 
 Arresting Solidarity leaders and suppressing the movement. The Soviet Union, which had considered
 Military intervention to support the Polish government, ultimately refrained from direct
 Intervention -- in part because of the Polish army's willingness to act on its own, and in part
-Because of the risk of Western economic sanctions and the potential for a broader confrontation.
+because of the risk of Western economic sanctions and the potential for a broader confrontation.
 
 Despite the suppression of Solidarity, the movement survived underground and continued to exert
 Pressure on the communist regime. The Catholic Church, led by Pope John Paul II (a Pole), provided
 Crucial moral and institutional support. Western governments imposed economic sanctions on Poland
-And provided covert financial assistance to the Solidarity underground.
+and provided covert financial assistance to the Solidarity underground.
 
 The Solidarity movement demonstrated that organised civic resistance could survive and maintain
 Momentum even under repressive conditions, and it became a model for dissident movements throughout
@@ -846,7 +846,7 @@ Opposition.
 
 Despite these tensions, the renewed arms race also created incentives for arms control. By the
 Mid-1980s, both superpowers recognised that continued arms build-up was economically unsustainable
-And strategically counterproductive. The election of Mikhail Gorbachev as General Secretary of the
+and strategically counterproductive. The election of Mikhail Gorbachev as General Secretary of the
 Communist Party of the Soviet Union in March 1985 would prove to be the pivotal event that
 Transformed the dynamics of superpower relations.
 
@@ -880,7 +880,7 @@ Disastrous environmental consequences of Soviet industrial policy. Glasnost was 
 Popular support for economic reform by exposing the problems that reform was meant to solve.
 However, it rapidly produced forces that Gorbachev could not control: nationalist movements in the
 Baltic republics, Ukraine, and the Caucasus; demands for political liberalisation that went far
-Beyond what Gorbachev had intended; and a loss of faith in the communist system itself as previously
+beyond what Gorbachev had intended; and a loss of faith in the communist system itself as previously
 Hidden truths about its failures and crimes became public.
 
 **Perestroika ("restructuring").** This was a programme of economic reform intended to modernise and
@@ -892,7 +892,7 @@ Structures without providing viable alternatives. The result was not economic re
 Deepening economic crisis, characterised by shortages, inflation, and declining living standards.
 
 Gorbachev also introduced the policy of "New Political Thinking" in foreign policy, which rejected
-The Brezhnev Doctrine's assumption of inevitable conflict between capitalism and socialism and
+the Brezhnev Doctrine's assumption of inevitable conflict between capitalism and socialism and
 Recognised the growing interdependence of the global economy. This new thinking led to a series of
 Arms control agreements and concessions that fundamentally altered the dynamics of the Cold War.
 
@@ -901,7 +901,7 @@ Arms control agreements and concessions that fundamentally altered the dynamics 
 In October 1989, Gorbachev's spokesman Gennadi Gerasimov informally announced the abandonment of the
 Brezhnev Doctrine -- the Soviet policy, established after the Prague Spring of 1968, that the Soviet
 Union had the right and obligation to intervene in any socialist country where the communist system
-Was threatened. Gerasimov quipped that the Soviet Union now had a "Sinatra Doctrine": Eastern
+was threatened. Gerasimov quipped that the Soviet Union now had a "Sinatra Doctrine": Eastern
 European countries were free to "do it their way," a reference to Frank Sinatra's song "My Way."
 
 The Sinatra Doctrine represented a fundamental shift in Soviet policy. It meant that the Soviet
@@ -912,7 +912,7 @@ Change in the region and created the conditions for the revolutions of 1989.
 ### 5.3 The Fall of the Berlin Wall (9 November 1989)
 
 The fall of the Berlin Wall was the single most dramatic and symbolically powerful event of the end
-Of the Cold War. It resulted from a confluence of factors: the erosion of communist authority in
+of the Cold War. It resulted from a confluence of factors: the erosion of communist authority in
 East Germany, the liberalisation policies of Gorbachev, and a cascade of reform movements across
 Eastern Europe.
 
@@ -925,7 +925,7 @@ On the evening of 9 November 1989, at a press conference, East German government
 Schabowski mistakenly announced that the new, liberalised travel regulations would take effect
 "immediately, without delay." Thousands of East Berliners flooded to the border crossings, and
 Overwhelmed border guards, receiving no orders, eventually opened the barriers. Jubilant crowds from
-Both sides of the city converged on the Wall, celebrating, embracing, and physically dismantling the
+both sides of the city converged on the Wall, celebrating, embracing, and physically dismantling the
 Barrier that had divided Berlin for 28 years.
 
 ### 5.4 The Revolutions of 1989
@@ -933,12 +933,12 @@ Barrier that had divided Berlin for 28 years.
 The fall of the Berlin Wall was part of a broader wave of political revolutions that swept through
 Eastern Europe in 1989, largely peaceful and rapid. In Poland, semi-free elections in June 1989
 Produced a crushing defeat for the communist party, and Tadeusz Mazowiecki became the first
-Non-communist prime minister in Eastern Europe in over 40 years. In Hungary, the communist party
+non-communist prime minister in Eastern Europe in over 40 years. In Hungary, the communist party
 Renamed itself the Hungarian Socialist Party and agreed to a negotiated transition to multiparty
 Democracy. In Czechoslovakia, the "Velvet Revolution" -- a series of peaceful mass demonstrations --
 Forced the communist government to resign in December 1989, and Vaclav Havel, the dissident
 Playwright, became president. In Romania, the overthrow of Nicolae Ceausescu was violent: Ceausescu
-And his wife were captured and executed on 25 December 1989. In Bulgaria, the communist leader Todor
+and his wife were captured and executed on 25 December 1989. In Bulgaria, the communist leader Todor
 Zhivkov was forced to resign in November 1989.
 
 These revolutions shared several common features. They were overwhelmingly peaceful (the Romanian
@@ -951,7 +951,7 @@ Emboldening movements in others.
 ### 5.5 German Reunification (1990)
 
 The rapid pace of events in 1989 outstripped the capacity of policymakers to respond. The question
-Of German reunification, which had seemed a distant and unrealistic prospect for decades, suddenly
+of German reunification, which had seemed a distant and unrealistic prospect for decades, suddenly
 Became immediate and urgent.
 
 The process of reunification was driven by West German Chancellor Helmut Kohl, who announced a
@@ -963,30 +963,30 @@ Settlement with Respect to Germany, signed in Moscow on 12 September 1990.
 Key provisions of the settlement included the full sovereignty of the unified German state, the
 Confirmation of Germany's existing borders (specifically, the recognition of the Oder-Neisse line as
 Germany's eastern border), the restriction of the unified German military to 370,000 personnel, and
-The prohibition of nuclear, biological, and chemical weapons on German territory.
+the prohibition of nuclear, biological, and chemical weapons on German territory.
 
 Germany was formally reunified on 3 October 1990, with the five East German states (Lander) joining
-The Federal Republic of Germany. The rapid pace of reunification -- essentially a West German
+the Federal Republic of Germany. The rapid pace of reunification -- essentially a West German
 Takeover of East Germany -- created significant economic and social challenges that persisted for
 Decades, but the political achievement was historic: a united, democratic Germany firmly embedded in
-The Western alliance system.
+the Western alliance system.
 
 ### 5.6 The Dissolution of the USSR (1991)
 
 The end of the Cold War was marked by the dissolution of the Soviet Union itself. The process was
 Driven by the interplay of Gorbachev's reforms, resurgent nationalism in the Soviet republics, and
-An abortive coup attempt by hardline communists.
+an abortive coup attempt by hardline communists.
 
 In June 1991, Boris Yeltsin was elected President of the Russian Soviet Federative Socialist
 Republic (RSFSR) in the first popular presidential election in Russian history. Yeltsin emerged as
-The leading opponent of continued communist rule and the principal rival of Gorbachev, who was
+the leading opponent of continued communist rule and the principal rival of Gorbachev, who was
 Attempting to preserve a reformed but still unified Soviet Union.
 
 On 19 August 1991, hardline communists, opposed to Gorbachev's reforms and the proposed New Union
 Treaty (which would have significantly devolved power to the republics), launched a coup attempt.
 Gorbachev was placed under house arrest at his dacha in the Crimea. However, the coup quickly
 Collapsed, primarily because of the courageous resistance of Yeltsin, who stood on a tank outside
-The Russian White House in Moscow and called for popular defiance of the coup plotters.
+the Russian White House in Moscow and called for popular defiance of the coup plotters.
 
 The failed coup fatally weakened Gorbachev and accelerated the disintegration of the Soviet Union.
 Over the following months, one Soviet republic after another declared independence. On 8 December
@@ -1020,7 +1020,7 @@ Relief through arms control and conciliation.
 **The role of ideas and individuals.** This interpretation emphasises the importance of Gorbachev's
 Personal leadership and his commitment to reform. Without Gorbachev's willingness to abandon the
 Brezhnev Doctrine, pursue arms control, and introduce political liberalisation, the Cold War might
-Have continued indefinitely, or it might have ended in a far more violent and dangerous manner. The
+have continued indefinitely, or it might have ended in a far more violent and dangerous manner. The
 Role of individual dissidents and social movements -- Solidarity in Poland, Charter 77 in
 Czechoslovakia, Pope John Paul II -- is also highlighted.
 
@@ -1072,7 +1072,7 @@ American responsibility, arguing that the United States, driven by the needs of 
 Order favourable to American interests.
 
 Key proponents include William Appleman Williams, Gabriel Kolko, and Gar Alperovitz. Williams argued
-That American foreign policy was driven by the need to ensure access to foreign markets for American
+that American foreign policy was driven by the need to ensure access to foreign markets for American
 Surplus production, and that the Soviet Union, devastated by World War II, posed no genuine military
 Threat to the United States. Kolko emphasised the role of American economic power in shaping the
 Post-war international order. Alperovitz argued that the use of atomic bombs against Japan was
@@ -1086,14 +1086,14 @@ Quick to absolve the Soviet Union of responsibility.
 
 The post-revisionist school, emerging in the late 1970s and 1980s, sought to move beyond the blame
 Game of the orthodox and revisionist schools by emphasising the complexity of the Cold War's origins
-And the role of mutual misunderstanding, security dilemmas, and structural factors.
+and the role of mutual misunderstanding, security dilemmas, and structural factors.
 
 Key proponents include John Lewis Gaddis, Melvyn Leffler, and Vladislav Zubok. Gaddis, in his early
 Work (_The United States and the Origins of the Cold War_, 1972), argued that both superpowers bore
 Responsibility: Stalin's paranoia and expansionism on one side, American ideological rigidity and
 Economic ambition on the other. Gaddis later modified his views, arguing in _We Now Know_ (1997) --
 Drawing on newly available Soviet and Eastern European archives -- that Stalin's personal role and
-The ideological nature of the Soviet regime were more central to the Cold War's origins than he had
+the ideological nature of the Soviet regime were more central to the Cold War's origins than he had
 Previously acknowledged.
 
 Leffler, in _A Preponderance of Power_ (1992), emphasised the role of the "security dilemma": each
@@ -1118,7 +1118,7 @@ Settled the historiographical debate.
 The most sophisticated answers will demonstrate an awareness that the Cold War was a complex,
 Multi-causal phenomenon that cannot be adequately explained by any single interpretive framework.
 They will also recognise that historical interpretations are themselves products of their time and
-Are shaped by the political and intellectual contexts in which they are produced.
+are shaped by the political and intellectual contexts in which they are produced.
 
 :::note
 after another. Instead, integrate historiographical analysis into your argument, using it to Support

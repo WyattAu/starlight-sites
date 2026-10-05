@@ -102,7 +102,7 @@ A $1 \mathrm{ kg$ ball moving at $1 \mathrm{ m/s$ has a de Broglie wavelength of
 $\lambda = 6.63 \times
 10^{-34} / 1 = 6.63 \times 10^{-34}$ m. This is unfathomably small -- far
 Smaller than any aperture or obstacle. Wave effects (diffraction, interference) are only observable
-When the wavelength is comparable to the size of the obstacles. For electrons (small mass), the de
+when the wavelength is comparable to the size of the obstacles. For electrons (small mass), the de
 Broglie wavelength can be comparable to atomic spacing, which is why electron diffraction is readily
 Observable.
 
@@ -121,7 +121,7 @@ $$
 
 **Example:** An electron in a hydrogen atom transitions from $n = 3$ to $n = 1$. The energy levels
 Are $E_1 = -13.6 \mathrm{ eV$$E_2 = -3.4 \mathrm{ eV$$E_3 = -1.51 \mathrm{ eV$. Find the wavelength
-Of the emitted photon.
+of the emitted photon.
 
 $$
 \Delta E = E_3 - E_1 = -1.51 - (-13.6) = 12.09 \mathrm{ eV = 1.934 \times 10^{-18} \mathrm{ J
@@ -310,7 +310,7 @@ $$
 ### Why a Closed Pipe Only Supports Odd Harmonics
 
 At the closed end, there must be a displacement node (the air cannot move). At the open end, there
-Is a displacement antinode. The fundamental has a quarter wavelength fitting in the pipe. The second
+is a displacement antinode. The fundamental has a quarter wavelength fitting in the pipe. The second
 Harmonic would require three-quarters of a wavelength, which gives the frequency $3f_1$. The pattern
 Continues with only odd multiples of the fundamental.
 

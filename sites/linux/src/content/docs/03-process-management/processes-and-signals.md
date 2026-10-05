@@ -64,7 +64,7 @@ if (pid == -1) {
 
 Modern Linux uses **Copy-on-Write (COW)** pages for `fork`: the parent's page tables are duplicated,
 But the physical pages are shared and marked read-only. When either process writes to a page, a copy
-Is made. This means `fork` is O(n) in page table size, not O(n) in memory.
+is made. This means `fork` is O(n) in page table size, not O(n) in memory.
 
 #### `execve(2)`
 
@@ -88,7 +88,7 @@ and environment are passed.
 #### `wait(2)` / `waitpid(2)`
 
 A parent must call `wait` (or `waitpid`) to collect the child's exit status. If a child terminates
-And the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
+and the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
 Exit status in the kernel's process table until the parent waits.
 
 ```c
@@ -485,7 +485,7 @@ chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 
 :::caution
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
-Only for well-understood, bounded workloads (audio processing, industrial control).
+only for well-understood, bounded workloads (audio processing, industrial control).
 
 ## cgroups
 
@@ -546,7 +546,7 @@ cat /sys/fs/cgroup/mygroup/io.stat
 ### systemd and cgroups
 
 Systemd manages cgroups automatically. Each service gets its own cgroup, which means resource limits
-Can be configured directly in the unit file:
+can be configured directly in the unit file:
 
 ```ini
 # /etc/systemd/system/myapp.service
@@ -756,7 +756,7 @@ trap "wait" SIGCHLD
 ### Pitfall: `ulimit` Not Applied to systemd Services
 
 Setting `nofile` in `/etc/security/limits.conf` has no effect on systemd services because systemd
-Does not use PAM. Instead, configure limits in the service unit:
+does not use PAM. Instead, configure limits in the service unit:
 
 ```ini
 # systemctl edit myservice

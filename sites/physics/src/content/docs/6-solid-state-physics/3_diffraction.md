@@ -43,7 +43,7 @@ $$
 
 This is equivalent to Bragg's law. Since $\lvert\mathbf{k}\rvert = \lvert\mathbf{k}'\rvert$ (elastic
 Scattering), the Laue condition requires $\mathbf{k}$ to terminate on the **Ewald sphere** (a sphere
-Of radius $k$ centred at the tip of $\mathbf{k}$).
+of radius $k$ centred at the tip of $\mathbf{k}$).
 
 **Equivalence with Bragg's law.** From
 $\lvert\mathbf{k}\rvert = \lvert\mathbf{k} + \mathbf{G}\rvert$:
@@ -113,7 +113,7 @@ For allowed FCC reflections:
   $\propto \lvert 4f(1 \pm i)\rvert^2 = 32f^2$.
 
 The extra absence at $h + k + l = 4n + 2$ is the signature of the diamond structure, distinguishing
-It from a simple FCC lattice.
+it from a simple FCC lattice.
 
 </details>
 
@@ -140,7 +140,7 @@ $2h + k = 3n \pm 1$: both even and odd $l$ give reflections but with different i
 ### 3.5 Systematic Absences
 
 Systematic absences arise from lattice centring and glide planes/screw axes, and are summarised by
-The structure factor:
+the structure factor:
 
 | Structure | Condition for reflection                | Systematic absence         |
 | --------- | --------------------------------------- | -------------------------- |
@@ -157,11 +157,11 @@ $(110)$ Identifies FCC.
 ### 3.6 Powder Diffraction
 
 In a **powder diffraction** experiment, a polycrystalline sample with randomly oriented crystallites
-Is illuminated by a monochromatic X-ray beam. Each family of planes $(hkl)$ that satisfies Bragg's
+is illuminated by a monochromatic X-ray beam. Each family of planes $(hkl)$ that satisfies Bragg's
 Law produces a diffraction cone at angle $2\theta$ from the incident beam.
 
 The **Bragg--Brentano geometry** uses a divergent beam and a focusing detector, recording intensity
-As a function of $2\theta$. Each peak position gives $d_{hkl}$ via Bragg's law, and the peak
+as a function of $2\theta$. Each peak position gives $d_{hkl}$ via Bragg's law, and the peak
 Intensity is proportional to $\lvert S_{hkl}\rvert^2$ times multiplicity and geometric factors.
 
 **Scherrer equation.** For crystallites of size $L$ The diffraction peaks are broadened. The Full

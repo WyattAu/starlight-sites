@@ -38,12 +38,12 @@ There are two rounds:
 
 Entry to BMO 1 is through qualification from the Senior Mathematical Challenge (SMC) or through
 Teacher nomination. Roughly the top 1000 SMC scorers are invited. The top roughly 100 candidates
-From BMO 1 qualify for BMO 2. Approximately 20--30 are invited to the IMO training camp.
+from BMO 1 qualify for BMO 2. Approximately 20--30 are invited to the IMO training camp.
 
 ### 1.2 Format and Marking
 
 BMO problems require full written proofs. Partial credit is awarded for significant progress, but
-The standard is demanding: a complete solution must be logically rigorous, written, and Cover all
+the standard is demanding: a complete solution must be logically rigorous, written, and Cover all
 cases. Each problem is worth 10 marks. On BMO 1, a score of 30+ out of 60 is strong; on BMO 2, 20+
 out of 40 is excellent.
 
@@ -130,7 +130,7 @@ Within the bound.
 
 **Counting in two ways.** If an expression counts the same set of objects in two different ways, the
 Two expressions must be equal. For example, $\sum_{k=0}^{n} \binom{n}{k}^2 = \binom{2n}{n}$ counts
-The ways to choose $n$ objects from $2n$ by first choosing how many come from the first $n$.
+the ways to choose $n$ objects from $2n$ by first choosing how many come from the first $n$.
 
 ### 3.2 Pigeonhole Principle
 
@@ -516,7 +516,7 @@ $\angle BNC = \angle BAC$ from cyclicity, The desired angle equality follows.
 ### 7.1 Proof by Contradiction
 
 Assume the statement is false and derive a logical impossibility. Effective for negative statements
-And impossibility results.
+and impossibility results.
 
 ### 7.2 Proof by Induction
 

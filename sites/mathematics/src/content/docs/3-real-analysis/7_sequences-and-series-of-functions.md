@@ -151,7 +151,7 @@ Convergence** $R \in [0, \infty]$ such that:
 - The behavior at $|x - a| = R$ must be checked separately
 
 The radius is given by $1/R = \limsup_{n \to \infty} \sqrt[n]{|c_n|}$ (Cauchy-Hadamard formula), or
-When the limit exists, $R = \lim_{n \to \infty} |c_n/c_{n+1}|$.
+when the limit exists, $R = \lim_{n \to \infty} |c_n/c_{n+1}|$.
 
 _Proof._ Apply the root test to $\sum |c_n (x-a)^n|$: $\limsup \sqrt[n]{|c_n|} |x-a| = |x-a|/R$
 (where $1/R = \limsup \sqrt[n]{|c_n|}$). The root test gives convergence when $|x-a|/R \lt 1$ And
@@ -171,7 +171,7 @@ $f(x) = \sum_{n=0}^{\infty} c_n (x-a)^n$ Has radius of convergence $R > 0$ Then:
 4. $c_n = f^{(n)}(a)/n!$ (uniqueness of power series coefficients).
 
 _Proof._ The differentiated series $\sum n c_n (x-a)^{n-1}$ has the same radius of convergence as
-The original (by the Cauchy-Hadamard formula, since $\sqrt[n]{n} \to 1$). By Theorem 7.4, the
+the original (by the Cauchy-Hadamard formula, since $\sqrt[n]{n} \to 1$). By Theorem 7.4, the
 Derivative of the sum equals the sum of the derivatives. Parts (2), (3), and (4) follow by Induction
 and the FTC. $\blacksquare$
 
@@ -191,7 +191,7 @@ $x \to 1^-$. $\blacksquare$
 
 _Example._ Since $\sum_{k=1}^{\infty} (-1)^{k+1}/k = \ln 2$ Abel's theorem gives
 $\lim_{x \to 1^-} \sum_{k=1}^{\infty} (-1)^{k+1} x^k/k = \ln 2$ I.e., $\ln 2$ is the left-hand limit
-Of $-\ln(1 - x)$ at $x = 1$.
+of $-\ln(1 - x)$ at $x = 1$.
 
 ### 7.8 Taylor Series Convergence
 

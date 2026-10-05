@@ -24,7 +24,7 @@ description: "Urbanisation is the increasing proportion of a national population
 Urbanisation is the increasing proportion of a national population living in urban areas. The global
 Urban population exceeded the rural population for the first time in 2007. As of 2023, approximately
 57% of the world"s population (4.4 billion people) lives in urban areas, and the UN projects this
-Will reach 68% by 2050.
+will reach 68% by 2050.
 
 The rate of urbanisation varies dramatically by region:
 
@@ -41,7 +41,7 @@ The most rapid urbanisation is occurring in Sub-Saharan Africa and South Asia. A
 Population is projected to triple between 2023 and 2050, adding approximately 900 million urban
 Residents. This rapid growth frequently outpaces the capacity of governments and infrastructure to
 Accommodate new residents, resulting in the proliferation of informal settlements, inadequate water
-And sanitation, and environmental degradation.
+and sanitation, and environmental degradation.
 
 ### Components of Urban Growth
 
@@ -68,12 +68,12 @@ cities in developed countries are experiencing population decline (urban shrinka
 deindustrialising regions (Detroit, USA; Liverpool, UK; the Ruhr region, Germany).
 Counter-urbanisation (the movement of people from large cities to smaller towns and rural areas,
 Driven by lower housing costs, telecommuting, and environmental preferences) has been observed in
-Many Western European countries since the 1970s.
+many Western European countries since the 1970s.
 
 **Developing countries.** The majority of future urban growth will occur in developing countries.
 The UN projects that by 2050, approximately 90% of the global urban population will live in Africa
-And Asia. The pace and scale of urbanisation in developing countries are unprecedented: cities such
-As Lagos (projected to reach 25 million by 2050), Kinshasa (20 million), and Dhaka (22 million) are
+and Asia. The pace and scale of urbanisation in developing countries are unprecedented: cities such
+as Lagos (projected to reach 25 million by 2050), Kinshasa (20 million), and Dhaka (22 million) are
 Growing by several hundred thousand residents per year.
 
 ## Megacities
@@ -167,7 +167,7 @@ Geography (a single natural harbour or fertile plain may support one dominant ur
 **Consequences of primacy.** Positive: efficiency of concentrating resources and infrastructure in
 One node; strong national and international connectivity. Negative: regional inequality (resources
 Drained from peripheral regions); rural-urban migration pressure; overconcentration of population
-And economic activity; vulnerability to natural disasters or terrorist attacks affecting the single
+and economic activity; vulnerability to natural disasters or terrorist attacks affecting the single
 Dominant city.
 
 ## Urban-Rural Migration
@@ -224,7 +224,7 @@ Income (including informal sector earnings) exceeds the certain rural wage.
 A frequent error in examination responses is to attribute urban growth solely to rural-urban
 Migration. In reality, natural increase accounts for a substantial and often dominant share of urban
 Population growth, particularly in Sub-Saharan Africa (approximately 60% of urban growth) and parts
-Of South Asia. Reclassification also contributes significantly in some countries. When analysing
+of South Asia. Reclassification also contributes significantly in some countries. When analysing
 Urbanisation trends, always identify and quantify the relative contributions of natural increase,
 Migration, and reclassification where data are available.
 
@@ -255,7 +255,7 @@ Drainage, blocked waterways, and the city's low-lying coastal location.
 Carries approximately 200 000 passengers per day along dedicated bus lanes; the Eko Atlantic
 Project, a 10 km$^2$ development on reclaimed land intended as a high-value financial district; and
 Various slum upgrading and clearance programmes. However, upgrading programmes have been criticised
-For prioritising the interests of developers and affluent residents over those of existing informal
+for prioritising the interests of developers and affluent residents over those of existing informal
 Settlement communities.
 
 For related topics, see [./urban-environmental-quality](/geography/urban/urban-environmental-quality/) and

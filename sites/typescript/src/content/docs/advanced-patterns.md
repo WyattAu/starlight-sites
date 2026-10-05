@@ -22,7 +22,7 @@ categories: [TypeScript]
 
 When a conditional type"s checked type is a **naked type parameter** (a type parameter used
 Directly, not wrapped in another type), the conditional distributes over union members. This is the
-Most important rule governing conditional types.
+most important rule governing conditional types.
 
 ```ts
 type ToArray<T> = T extends any ? T[] : never;
@@ -145,7 +145,7 @@ type A = { a: string } & { b: number };
 ```
 
 This works by exploiting contravariance in function parameter types. Each union member is converted
-To a function type `(k: Member) => void`And the union of these function types has an inferred
+to a function type `(k: Member) => void`And the union of these function types has an inferred
 Parameter type that is the intersection of all members.
 
 **Common Pitfall:** `UnionToIntersection` does not handle cases where union members share property
@@ -647,7 +647,7 @@ type Result = 'hi world hi';
 ## Type-Level Arithmetic
 
 TypeScript does not natively support arithmetic on number types. However, type-level arithmetic can
-Be implemented using tuple length as a representation of natural numbers.
+be implemented using tuple length as a representation of natural numbers.
 
 ### Counting Tuple Length
 

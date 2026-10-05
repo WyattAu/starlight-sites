@@ -384,7 +384,7 @@ $$
 $$
 
 If the curve crosses the $x$-axis, split the integral at the zeros and take the absolute value of
-Each part.
+each part.
 
 ### Area Between Two Curves
 

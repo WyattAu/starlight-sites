@@ -259,7 +259,7 @@ TEST_F(VectorTest, CapacityPreserved) \{
 ```
 
 The `TEST_F` macro registers each test as a method of the `VectorTest` class. `SetUp()` runs before
-Each test, and `TearDown()` runs after each test. Each test gets a fresh instance of the fixture.
+each test, and `TearDown()` runs after each test. Each test gets a fresh instance of the fixture.
 
 ### Catch2 Fixtures
 
@@ -292,7 +292,7 @@ TEST_CASE_METHOD(VectorFixture, "Vector front is one") \{
 ## Parameterized Tests
 
 Parameterized tests allow running the same test logic with different input data, avoiding copy-paste
-Of test cases that differ only in their input values.
+of test cases that differ only in their input values.
 
 ### GoogleTest Parameterized Tests
 
@@ -378,7 +378,7 @@ ctest --timeout 120
 ## Code Coverage Analysis
 
 Coverage analysis measures which lines, branches, and functions of your source code are exercised by
-The test suite. This is critical for identifying untested code paths.
+the test suite. This is critical for identifying untested code paths.
 
 ### Using `llvm-cov` (Clang)
 
@@ -579,7 +579,7 @@ Setup/teardown to isolate each test.
 ### 3. Flaky Tests and Timing
 
 Tests that depend on timing (sleep, timeout) are inherently non-deterministic. Avoid them. If timing
-Is unavoidable, use generous timeouts and mark the test as flaky in CI.
+is unavoidable, use generous timeouts and mark the test as flaky in CI.
 
 ### 4. `gtest_discover_tests` Requires the Binary to Run Post-Build
 

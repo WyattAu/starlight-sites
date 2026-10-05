@@ -99,7 +99,7 @@ Miss:
 | OCCT Power         | 30 min   | PSU voltage stability under load    |
 
 OCCT is particularly effective at catching marginal instability that Prime95"s large FFT sizes do
-Not exercise. Use OCCT as a secondary test after Prime95 passes.
+not exercise. Use OCCT as a secondary test after Prime95 passes.
 
 ### AIDA64
 
@@ -211,7 +211,7 @@ For GPU memory overclocking stability, use CUDA memtest (NVIDIA) or ROCm memtest
 ### MemTest86
 
 MemTest86 is the standard for memory testing. It runs from a bootable USB drive, testing memory
-Without any operating system interference. This eliminates potential issues with OS-level memory
+without any operating system interference. This eliminates potential issues with OS-level memory
 Management.
 
 ```text
@@ -481,7 +481,7 @@ chmod +x monitor_stress.sh
 ### What WHEA Errors Mean
 
 WHEA (Windows Hardware Error Architecture) errors indicate that the CPU detected an internal error
-And corrected it. The correction means the system continued running, but the error itself is a
+and corrected it. The correction means the system continued running, but the error itself is a
 Reliability concern.
 
 | WHEA Error Type         | Meaning                                    | Severity             |
@@ -642,7 +642,7 @@ Y-cruncher. Always use at least two different CPU stress tests.
 
 Monitoring CPU and GPU temperatures is not sufficient. VRM temperatures (motherboard power delivery)
 And PSU temperatures are equally important. A VRM overheating at 90 °C can cause voltage instability
-That manifests as CPU errors, even though the CPU itself is within temperature limits.
+that manifests as CPU errors, even though the CPU itself is within temperature limits.
 
 ### Running Stress Tests Without Monitoring
 
@@ -659,7 +659,7 @@ System is warm from extended use). Always run the recommended number of passes.
 ### Confusing Thermal Throttling with Instability
 
 Thermal throttling is a normal protective mechanism, not instability. If your CPU thermal throttles
-During Prime95 Small FFTs but does not crash or produce errors, your system is stable, just
+during Prime95 Small FFTs but does not crash or produce errors, your system is stable, just
 Thermally limited. Thermal throttling means you need better cooling, not different voltage or
 Frequency settings.
 

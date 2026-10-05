@@ -72,12 +72,12 @@ effect, cyclotron resonance).
 In real metals, the periodic potential distorts the Fermi surface from a sphere. At the Brillouin
 Zone boundaries, band gaps open and the Fermi surface can develop "necks" (connecting to adjacent
 Zones) or become multiply connected. The topology of the Fermi surface determines whether a material
-Is a metal or insulator: a material is metallic if the Fermi surface crosses any Brillouin zone
+is a metal or insulator: a material is metallic if the Fermi surface crosses any Brillouin zone
 Boundary.
 
 The number of electrons per atom determines the filling: 1 electron/atom (e.g., Na, Cu) gives a
 Nearly spherical Fermi surface well within the first BZ. 2 electrons/atom (e.g., Mg) nearly fills
-The first BZ and the Fermi surface contacts the zone boundary. 3--4 electrons/atom (e.g., Al, Pb)
+the first BZ and the Fermi surface contacts the zone boundary. 3--4 electrons/atom (e.g., Al, Pb)
 Produce complex multiply-connected Fermi surfaces.
 
 ### 5.3 Bloch's Theorem
@@ -248,7 +248,7 @@ I = \int_0^\infty h(\varepsilon)f(\varepsilon)\,d\varepsilon = \int_0^\infty \fr
 $$
 
 Since $f(0) \approx 1$ and $f(\infty) = 0$ And $-\partial f/\partial \varepsilon$ is sharply peaked
-At $\varepsilon = \mu$ with width $\sim k_B T$ We expand $H(\varepsilon)$ about $\mu$:
+at $\varepsilon = \mu$ with width $\sim k_B T$ We expand $H(\varepsilon)$ about $\mu$:
 
 $$
 I = \int_0^\mu h(\varepsilon)\,d\varepsilon + \frac{\pi^2}{6}(k_B T)^2 h'(\mu) + \cdots
@@ -388,7 +388,7 @@ Hohenberg, Kohn, and Sham (1964--1965).
 
 **Hohenberg--Kohn theorems.** (1) The ground-state energy of a many-electron system is a unique
 Functional of the electron density $n(\mathbf{r})$. (2) The correct ground-state density minimises
-This functional.
+this functional.
 
 **Kohn--Sham equations.** The interacting system is mapped to a fictitious system of non-interacting
 Electrons in an effective potential:

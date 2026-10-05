@@ -56,7 +56,7 @@ Types are divided into two categories based on whether assignment copies or move
 
 A type implements `Copy` if and only if every bit pattern of its memory representation is a valid
 Value. This is why types containing heap pointers (like `String`) cannot be `Copy`a bitwise copy
-Would create two owners of the same heap allocation.
+would create two owners of the same heap allocation.
 
 ### The `Copy` Trait
 
@@ -231,7 +231,7 @@ At any given lifetime scope for a value:
 
 Lifetimes are Rust's way of tracking how long a reference is valid. Every reference has a lifetime,
 But in most cases the compiler can infer it (lifetime elision rules). Explicit lifetime annotations
-Are needed when the compiler cannot determine the relationship between input and output lifetimes.
+are needed when the compiler cannot determine the relationship between input and output lifetimes.
 
 ### Lifetime Annotation Syntax
 
@@ -249,7 +249,7 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 ```
 
 The annotation `<'a>` says: "there exists some lifetime `'a` such that both `x` and `y` live at
-Least as long as `'a`And the return value also lives at least as long as `'a`." The caller gets to
+least as long as `'a`And the return value also lives at least as long as `'a`." The caller gets to
 Choose what `'a` is, constrained by the actual lifetimes of the arguments.
 
 ### Lifetime Elision Rules
@@ -292,7 +292,7 @@ fn print<'a, 'b: "a>(x: &''b str, y: &"a str) {
 ```
 
 This is useful when a struct holds a reference and you need to ensure the struct does not outlive
-The referent.
+the referent.
 
 ### Struct Lifetimes
 
@@ -386,7 +386,7 @@ Means there is no risk of creating a dangling reference to the interior.
 ### `RefCell<T>`
 
 `RefCell<T>` provides reference-based interior mutability for any type. It tracks borrows at runtime
-With a reference count and panics if the borrowing rules are violated:
+with a reference count and panics if the borrowing rules are violated:
 
 ```rust
 use std::cell::RefCell;
@@ -433,7 +433,7 @@ b.neighbors.borrow_mut().push(&a);
 ### `UnsafeCell<T>`
 
 `UnsafeCell<T>` is the primitive underlying both `Cell` and `RefCell`. It is the only type in Rust
-That allows safe code to obtain a mutable reference to its interior through a shared reference.
+that allows safe code to obtain a mutable reference to its interior through a shared reference.
 Using `UnsafeCell` directly requires `unsafe` code and is the foundation for all interior mutability
 Abstractions.
 
@@ -696,7 +696,7 @@ fn main() {
 ### Non-Lexical Lifetimes (NLL, Rust 2018+)
 
 NLL analyzes the control flow graph to determine when a reference is last used. The borrow ends at
-The last usage point, not at the end of the lexical scope:
+the last usage point, not at the end of the lexical scope:
 
 ```rust
 fn main() {
@@ -713,7 +713,7 @@ fn main() {
 
 Polonius is the next-generation borrow checker, named after the character from Hamlet ("I have of
 Late, but wherefore I know not, lost all my mirth"). It uses a dataflow analysis approach that is
-Both more precise and easier to reason about than NLL. As of Rust 1.85, Polonius is available as an
+both more precise and easier to reason about than NLL. As of Rust 1.85, Polonius is available as an
 Experimental feature (`-Zpolonius`) and is expected to become the default in a future edition.
 
 Polonius enables patterns that NLL rejects, such as:
@@ -846,7 +846,7 @@ where
 
 The `for<'a>` syntax means "for all lifetimes 'a." The closure must be valid regardless of what
 Lifetime `'a` the caller chooses. This is a more restrictive bound than specifying a single lifetime
-Because the closure cannot capture references with a specific lifetime.
+because the closure cannot capture references with a specific lifetime.
 
 HRTBs are also used in the standard library for `Iterator::find`:
 
@@ -922,12 +922,12 @@ struct SelfReferential {
 ## Lifetime Variance in Practice
 
 Understanding variance is critical when writing generic code over lifetimes. Variance determines
-Whether a longer lifetime can be substituted for a shorter one.
+whether a longer lifetime can be substituted for a shorter one.
 
 ### Covariance (Read-Only Contexts)
 
 `&'a T` is covariant in `'a`. If `'long: "short` (long outlives short), then `&''long T` can be used
-Where `&"short T` is expected. This is safe because a longer-lived reference is a subtype of a
+where `&"short T` is expected. This is safe because a longer-lived reference is a subtype of a
 Shorter-lived one when you only read through it.
 
 ```rust

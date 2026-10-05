@@ -22,7 +22,7 @@ Control flow in Rust is expression-oriented, meaning nearly everything returns a
 ## `if` / `else`
 
 Rust's `if` expression does not require parentheses around the condition, but braces around the body
-Are mandatory. Unlike C or Java, `if` is an expression, it returns a value and can be used inline:
+are mandatory. Unlike C or Java, `if` is an expression, it returns a value and can be used inline:
 
 ```rust
 let condition = true;
@@ -92,7 +92,7 @@ Braced block.
 ## `match` Expressions
 
 `match` is Rust's most powerful control flow construct. It performs exhaustive pattern matching
-Against a value and executes the first matching arm.
+against a value and executes the first matching arm.
 
 ```rust
 enum Coin {
@@ -118,7 +118,7 @@ fn value_in_cents(coin: &Coin) -> u8 {
 ### Exhaustiveness
 
 The compiler verifies that every possible value is covered. Adding a new variant to an enum causes
-Every `match` on that enum to produce a compile error until updated:
+every `match` on that enum to produce a compile error until updated:
 
 ```rust
 enum Color { Red, Green, Blue }
@@ -134,7 +134,7 @@ fn color_name(c: Color) -> &'static str {
 ```
 
 The `_` wildcard matches anything and is useful when you do not need to handle specific cases. It
-Does not bind the value.
+does not bind the value.
 
 ### Match Guards
 
@@ -151,7 +151,7 @@ match num {
 ```
 
 Match guards do not participate in exhaustiveness checking. The compiler cannot prove that a guard
-Will always match, so you may still need a catch-all arm.
+will always match, so you may still need a catch-all arm.
 
 ### Variable Shadowing in Match Arms
 
@@ -171,7 +171,7 @@ match x {
 ### Match on References (Match Ergonomics)
 
 Rust 2021 edition enables match ergonomics, the compiler automatically adds `&` when matching
-Through a reference:
+through a reference:
 
 ```rust
 let c = Coin::Penny;
@@ -223,7 +223,7 @@ match x {
 ### Guarding Against Variable Binding Conflicts
 
 A match guard can reference variables from the enclosing scope. If the guard's variable name shadows
-The pattern's binding, use `@` to bind and filter simultaneously:
+the pattern's binding, use `@` to bind and filter simultaneously:
 
 ```rust
 let age = 15;
@@ -345,7 +345,7 @@ for (key, value) in &scores {
 ```
 
 HashMap iteration order is not guaranteed. If you need ordering, collect into a `BTreeMap` or sort
-The entries.
+the entries.
 
 ## `break` and `continue`
 
@@ -443,7 +443,7 @@ match some_value {
 ```
 
 `if let` does not enforce exhaustiveness. Use it when you care about one pattern and want to ignore
-The rest. The `else` block handles the non-matching case:
+the rest. The `else` block handles the non-matching case:
 
 ```rust
 let some_value = Some(7);
@@ -735,7 +735,7 @@ match x {
 ```
 
 This works correctly because the guard's `x` refers to the pattern binding, not the outer `x`. But
-If the guard references an outer variable with the same name, the outer variable takes precedence.
+if the guard references an outer variable with the same name, the outer variable takes precedence.
 
 ## Control Flow in Error Handling
 
@@ -933,7 +933,7 @@ fn experimental_feature() {
 ## `return` as an Expression
 
 `return` exits the current function. It is an expression of type `!` (never type), which coerces to
-Any type:
+any type:
 
 ```rust
 fn abs(x: i32) -> i32 {
@@ -1003,8 +1003,8 @@ fn not_implemented() -> i32 {
 ```
 
 `unreachable!` panics with a message indicating the code should never be reached. `todo!` is similar
-But indicates the code is intentionally incomplete. Both are useful during development but should
-Not appear in production code.
+but indicates the code is intentionally incomplete. Both are useful during development but should
+not appear in production code.
 
 ## Common Pitfalls
 

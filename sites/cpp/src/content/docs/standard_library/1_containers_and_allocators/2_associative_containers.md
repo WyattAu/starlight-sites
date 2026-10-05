@@ -62,8 +62,8 @@ _Base case:_ If $x$ is a leaf (height 0), then $\mathrm{bh(x) = 0$ and the subtr
 Nodes $= 2^0 - 1 = 1 - 1 = 0$. Holds.
 
 _Inductive step:_ Let $x$ have height $h \gt 0$ and children $a, b$. Each child has black-height
-Either $\mathrm{bh(x)$ (if the child is red) or $\mathrm{bh(x) - 1$ (if the child is black). In
-Either case, $\mathrm{bh(\mathrm{child) \geq \mathrm{bh(x) - 1$. By the inductive hypothesis, Each
+either $\mathrm{bh(x)$ (if the child is red) or $\mathrm{bh(x) - 1$ (if the child is black). In
+either case, $\mathrm{bh(\mathrm{child) \geq \mathrm{bh(x) - 1$. By the inductive hypothesis, Each
 subtree has at least $2^{\mathrm{bh(x) - 1} - 1$ internal nodes. Therefore:
 
 $$
@@ -84,7 +84,7 @@ N \geq 2^{h/2} - 1 \implies 2^{h/2} \leq n + 1 \implies h \leq 2 \log_2(n + 1)
 $$
 
 QED. Since all operations (search, insert, delete) touch at most $h$ nodes, and $h = O(\log n)$
-Every operation runs in $O(\log n)$ time.
+every operation runs in $O(\log n)$ time.
 
 ```cpp
 #include <map>
@@ -287,8 +287,8 @@ int main() {
 ### `std::multimap` and Ordered Equivalence
 
 `std::multimap` (and `std::multiset`) allow duplicate keys. Elements with equivalent keys are stored
-In insertion order. The `equal_range` member function returns a pair of iterators defining the range
-Of elements with a given key [N4950 §22.4.4.4]:
+in insertion order. The `equal_range` member function returns a pair of iterators defining the range
+of elements with a given key [N4950 §22.4.4.4]:
 
 ```cpp
 #include <map>
@@ -446,7 +446,7 @@ The same transparent comparator technique applies to `std::set``std::multimap`An
 
 C++17 introduced node handles and the `extract()` / `insert()` API for associative containers [N4950
 §22.4.4.4]. A **node handle** (`std::map::node_type`) owns an extracted element including its key
-And value. This enables moving elements between containers **without copying or reallocating**:
+and value. This enables moving elements between containers **without copying or reallocating**:
 
 ```cpp
 #include <map>
@@ -496,14 +496,14 @@ dst: delta echo(20)
 
 This API is critical for performance-sensitive code that needs to transfer elements between maps
 (such as sharding or repartitioning), because the alternative, erase from one map, then emplace
-Into another, involves a redundant deallocation and allocation. With `extract`/`insert`The node's
+into another, involves a redundant deallocation and allocation. With `extract`/`insert`The node's
 Heap memory is reparented [N4950 §22.4.4.4].
 
 ### Red-Black Tree Node Structure
 
 Each node in a `std::map` or `std::set` stores three pointers (parent, left child, right child) plus
 A color bit, in addition to the key (and value for `map`). On 64-bit systems, the per-node overhead
-Is at least 32 bytes:
+is at least 32 bytes:
 
 ```
 +--------+--------+--------+----------+
@@ -532,7 +532,7 @@ Table 83]:
 | `swap`    | No invalidation (elements exchanged) | No invalidation (elements exchanged) |
 
 This is a consequence of the node-based structure: inserting a new node allocates a new heap block
-That does not affect existing nodes. Erasing a node only frees that specific block.
+that does not affect existing nodes. Erasing a node only frees that specific block.
 
 For `std::unordered_map`The rules are stricter: **rehashing** invalidates all iterators, pointers,
 And references because elements are moved to new bucket locations [N4950 §22.5.5 Table 89].
@@ -624,7 +624,7 @@ Store indices/keys instead of raw pointers.
 
 **4. Hash collision attacks on `std::unordered_map`:** The default `std::hash` for strings is
 Deterministic but not cryptographically secure. An adversary who can control keys can craft inputs
-That all hash to the same bucket, degrading $O(1)$ lookup to $O(n)$. In security-sensitive contexts
+that all hash to the same bucket, degrading $O(1)$ lookup to $O(n)$. In security-sensitive contexts
 (e.g., HTTP header parsing), use a hash-seeded or randomized hash function, or switch to `std::map`
 For guaranteed $O(\log n)$ worst-case.
 

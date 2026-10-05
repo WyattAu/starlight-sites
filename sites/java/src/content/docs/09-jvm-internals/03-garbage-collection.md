@@ -138,7 +138,7 @@ Memory-mapped structures. These can cause premature promotion and increase old g
 ### Serial GC
 
 The simplest collector. Uses a single thread for both minor and full GC. Stop-the-world (STW) for
-The entire duration of collection.
+the entire duration of collection.
 
 ```bash
 -XX:+UseSerialGC
@@ -252,7 +252,7 @@ Implementation (Brooks pointers instead of colored pointers).
 ### Stop-the-World (STW)
 
 During an STW pause, all application threads are suspended. The JVM cannot execute application code
-While the GC is running. STW pauses directly impact application latency, if a GC pause takes 500
+while the GC is running. STW pauses directly impact application latency, if a GC pause takes 500
 Ms, no requests can be served during that time.
 
 ### Concurrent Phases
@@ -521,7 +521,7 @@ Evidence of a problem (long pauses, low throughput, high memory usage).
 If G1 falls back to full GC, it means the concurrent cycle could not keep up with allocation
 Pressure. This is a sign that the heap is too small, the marking threshold is too high, or the mixed
 Collections are not reclaiming enough memory. Address the root cause rather than trying to tune
-Around it.
+around it.
 
 ### Large Objects and Humongous Allocations
 
@@ -541,14 +541,14 @@ Collections are typical culprits.
 ```
 
 If your application allocates many objects larger than the humongous threshold, consider: increasing
-The region size, pooling large buffers, or using `MappedByteBuffer` for large data structures that
-Do not need to live on the GC-managed heap.
+the region size, pooling large buffers, or using `MappedByteBuffer` for large data structures that
+do not need to live on the GC-managed heap.
 
 ### String Deduplication in Detail
 
 G1's string deduplication identifies `String` objects in the old generation whose backing `byte[]`
 Arrays are identical, and replaces duplicates with a single shared array. This operates at GC time
-And is transparent to the application.
+and is transparent to the application.
 
 ```bash
 -XX:+UseG1GC -XX:+StringDeduplication
@@ -599,7 +599,7 @@ java -XX:+UseZGC -XX:MaxRAMPercentage=75.0 -jar app.jar
 
 :::tip
 The same container image to work with different memory limits without rebuilding. A value of 70-80%
-Is typical, leaving room for metaspace, native memory, and off-heap buffers.
+is typical, leaving room for metaspace, native memory, and off-heap buffers.
 :::
 
 ### Native Memory Tracking

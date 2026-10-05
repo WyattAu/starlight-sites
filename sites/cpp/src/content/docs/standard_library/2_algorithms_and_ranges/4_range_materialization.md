@@ -24,7 +24,7 @@ categories:
 Views are lazy and borrow elements from their source. When you need ownership, multiple passes, or
 Independence from the source lifetime, you must **materialize** the view into an eager container.
 C++23 introduced `std::ranges::to&lt;T>` as the standard bridge between the lazy world of views and
-The eager world of containers.
+the eager world of containers.
 
 ### `std::ranges::to<T>` (C++23)
 
@@ -564,7 +564,7 @@ int main() {
 #### Materializing Single-Pass Views
 
 Some views (like `views::istream<T>`) are single-pass: once iterated, the elements are consumed and
-Cannot be re-read. If you need to process the elements more than once, you must materialize on first
+cannot be re-read. If you need to process the elements more than once, you must materialize on first
 Use:
 
 ```cpp
@@ -754,7 +754,7 @@ The cost of materialization depends on the target container and the view pipelin
 | `std::string`    | Single allocation                      | 1 copy                           |
 
 For maximum throughput, materialize into `std::vector` (best cache locality, fewest allocations). If
-You need deduplication or sorting, materialize into `std::vector` first, then sort and unique-erase,
+you need deduplication or sorting, materialize into `std::vector` first, then sort and unique-erase,
 Rather than materializing directly into `std::set`:
 
 ```cpp

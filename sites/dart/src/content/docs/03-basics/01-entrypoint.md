@@ -35,7 +35,7 @@ flowchart TD
 ## Program Entry
 
 When the project creates an executable, the entry point of the project is located in `main()`Where
-The default is given as:
+the default is given as:
 
 ```dart
 void main(){

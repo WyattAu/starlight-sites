@@ -29,7 +29,7 @@ Functional dependencies on the relation.
 The core idea is simple: every piece of data should live in exactly one place. If the same fact
 Appears in multiple rows, updating that fact requires updating every row that contains it. If you
 Miss one, your data is inconsistent. Normalization gives you a principled, mathematical framework
-For avoiding this class of problems.
+for avoiding this class of problems.
 
 ### Why Normalization Matters
 
@@ -49,7 +49,7 @@ Application logic to keep data consistent.
 ### Normalization vs Denormalization
 
 Normalization and denormalization are not opposites in the sense that one is "right" and the other
-Is "wrong." They are engineering tradeoffs:
+is "wrong." They are engineering tradeoffs:
 
 ```text
 Normalized schema:
@@ -229,7 +229,7 @@ FDs that can be derived from $F$ using Armstrong's axioms.
 
 $F^+$ can be exponentially large (up to $2^{2^n}$ FDs for $n$ attributes), so you never compute it
 Explicitly. Instead, you use the attribute closure algorithm to answer specific questions about
-Whether a given FD is in $F^+$.
+whether a given FD is in $F^+$.
 
 ### Candidate Keys from FDs
 
@@ -354,7 +354,7 @@ Correct.
 
 **Definition.** A relation $R$ is in first normal form (1NF) if and only if every attribute of every
 Tuple contains an atomic (indivisible) value. Equivalently, the domain of every attribute contains
-Only atomic values, and there are no repeating groups.
+only atomic values, and there are no repeating groups.
 
 1NF requires:
 
@@ -405,7 +405,7 @@ Dependency** exists when a non-prime attribute depends on only a proper subset o
 
 :::caution
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
-Whenever it is in 1NF, because there is no proper subset of a single-attribute key.
+whenever it is in 1NF, because there is no proper subset of a single-attribute key.
 
 ```text
 Relation: OrderItem(order_id, product_id, quantity, product_name, unit_price)
@@ -556,10 +556,10 @@ Multivalued dependency $X \twoheadrightarrow Y$ that holds in $R$, $X$ is a supe
 
 **Definition.** A multivalued dependency (MVD) $X \twoheadrightarrow Y$ holds in $R$ if and only if,
 For every pair of tuples $t_1$ and $t_2$ in $R$ that agree on $X$ There exists a tuple $t_3$ in $R$
-That agrees with $t_1$ on $X$ With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
+that agrees with $t_1$ on $X$ With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
 
 A multivalued dependency $X \twoheadrightarrow Y$ means that the values of $Y$ are independent of
-The values of $R - X - Y$ Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
+the values of $R - X - Y$ Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
 $X \twoheadrightarrow Y$ But not every MVD implies an FD.
 
 ```text
@@ -604,7 +604,7 @@ Join dependency $JD(R_1, R_2, \ldots, R_n)$ that holds in $R$ Each $R_i$ is a su
 
 A join dependency generalizes the concept of lossless-join decomposition to $n$ relations. A
 Relation $R$ satisfies a join dependency $JD(R_1, R_2, \ldots, R_n)$ if and only if $R$ is equal to
-The natural join of its projections on $R_1, R_2, \ldots, R_n$:
+the natural join of its projections on $R_1, R_2, \ldots, R_n$:
 
 $$
 R = \pi_{R_1}(R) \bowtie \pi_{R_2}(R) \bowtie \ldots \bowtie \pi_{R_n}(R)
@@ -840,7 +840,7 @@ Dependency-preserving: both FDs are checkable on individual relations.
 ## Decomposition
 
 Decomposition is the mechanism by which normalization is achieved: you replace a single relation
-With two or more smaller relations. Not every decomposition is correct. A decomposition must satisfy
+with two or more smaller relations. Not every decomposition is correct. A decomposition must satisfy
 Two properties to be valid.
 
 ### Lossless-Join Decomposition
@@ -907,8 +907,8 @@ Each intermediate join is lossless.
 
 **Definition.** A decomposition of $R$ into $R_1, R_2, \ldots, R_n$ is dependency-preserving if and
 Only if, for every functional dependency $X \rightarrow Y$ in the closure of $F$ (the original set
-Of FDs), $X \cup Y \subseteq R_i$ for some $i$. Equivalently, the union of the restrictions of $F$
-To each $R_i$ is logically equivalent to $F$:
+of FDs), $X \cup Y \subseteq R_i$ for some $i$. Equivalently, the union of the restrictions of $F$
+to each $R_i$ is logically equivalent to $F$:
 
 $$
 (F_{R_1} \cup F_{R_2} \cup \ldots \cup F_{R_n})^+ = F^+
@@ -916,7 +916,7 @@ $$
 
 In plain language: every functional dependency from the original relation can be verified by
 Examining a single decomposed relation. You do not need to join the relations back together to check
-The constraint.
+the constraint.
 
 ### BCNF vs 3NF Decomposition Tradeoff
 
@@ -1043,7 +1043,7 @@ With surrogate key:
 
 :::caution
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
-And model functional dependencies correctly.
+and model functional dependencies correctly.
 
 ### Normalization in Application Development
 
@@ -1200,7 +1200,7 @@ FDs:
 
 **Problem:** You cannot add a new course until at least one student enrolls. If a new course
 "Advanced Quantum Computing" (CS501) is created but has no students yet, there is no row to store
-The course information.
+the course information.
 
 **Problem:** You cannot add a new instructor until they are assigned to a course. If Prof Chen is
 Hired but not yet assigned a course, there is nowhere to record `instructor_name` and
@@ -1238,7 +1238,7 @@ Course, Instructor, and Department data persist in their own tables.
 
 **Problem:** The Computer Science department moves from Building A to Building B. With the
 Unnormalized schema, you must update `dept_building` in every row that has `department = 'CS'`. If
-There are 5,000 enrollments in CS courses, that is 5,000 rows to update. If the UPDATE statement
+there are 5,000 enrollments in CS courses, that is 5,000 rows to update. If the UPDATE statement
 Fails partway through (or if someone updates only some rows), the database is inconsistent: some
 Rows say Building A, others say Building B.
 

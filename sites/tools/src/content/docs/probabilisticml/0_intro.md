@@ -21,9 +21,9 @@ categories:
 ## Abstract
 
 Inspired by Kevin P. Murphy's series of books on probabilisitc machine learning, Marc Peter's book
-On Mathematics for Machine Learning and Evarist Gine's book on Mathematical Foundations of
+on Mathematics for Machine Learning and Evarist Gine's book on Mathematical Foundations of
 Infinite-Dimensional Statistical Models. With the ever growing field of machines learning, I will
-Only be able to cover a small portion of what is available, for more detail and up to date
+only be able to cover a small portion of what is available, for more detail and up to date
 Appraoches, please refer to latest reports and publications.
 
 ## Notes Format

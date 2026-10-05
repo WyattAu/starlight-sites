@@ -609,7 +609,7 @@ Cycle.
 ### Branch Prediction
 
 When the CPU encounters a conditional branch (e.g., `JUMP IF EQUAL`), it does not yet know whether
-The branch will be taken. Branch prediction attempts to guess the outcome:
+the branch will be taken. Branch prediction attempts to guess the outcome:
 
 - **Static prediction:** Always predict "not taken" or always predict "taken."
 - **Dynamic prediction:** Uses history of previous branches to make more accurate predictions.
@@ -763,9 +763,9 @@ Answer, describe the Von Neumann bottleneck and explain how the Harvard architec
 <summary>Answer 4</summary>
 
 The Von Neumann architecture uses a single memory space for both data and instructions, connected to
-The CPU by a single bus. This means the CPU cannot read an instruction and read/write data
+the CPU by a single bus. This means the CPU cannot read an instruction and read/write data
 Simultaneously, creating the **Von Neumann bottleneck**, the bus becomes a performance limitation
-Because it can only transfer one item at a time.
+because it can only transfer one item at a time.
 
 The Harvard architecture uses **separate memory spaces** for data and instructions, each with its
 Own bus. This allows the CPU to fetch the next instruction and read/write data at the same time,

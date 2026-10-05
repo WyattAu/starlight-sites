@@ -20,7 +20,7 @@ description: 'Let be a field extension. An - of is an automorphism That fixes po
 ### 13.1 Automorphisms and the Galois Group
 
 Let $E/F$ be a field extension. An $F$-**automorphism** of $E$ is an automorphism $\sigma : E \to E$
-That fixes $F$ pointwise (i.e., $\sigma(c) = c$ for all $c \in F$).
+that fixes $F$ pointwise (i.e., $\sigma(c) = c$ for all $c \in F$).
 
 The set of all $F$-automorphisms of $E$ forms a group under composition, called the **Galois group**
 Of $E/F$ Denoted $\mathrm{Gal}(E/F)$.
@@ -51,7 +51,7 @@ the splitting field of a separable polynomial over $F$.
 **Problem.** Find the Galois group of $x^3 - 2$ over $\mathbb{Q}$.
 
 _Solution._ The roots of $x^3 - 2$ are $\sqrt[3]{2}$, $\omega\sqrt[3]{2}$, $\omega^2\sqrt[3]{2}$
-Where $\omega = e^{2\pi i/3}$ is a primitive cube root of unity. The splitting field is
+where $\omega = e^{2\pi i/3}$ is a primitive cube root of unity. The splitting field is
 $E = \mathbb{Q}(\sqrt[3]{2}, \omega)$. We have
 $[E : \mathbb{Q}] = [E : \mathbb{Q}(\sqrt[3]{2})]
 \cdot [\mathbb{Q}(\sqrt[3]{2}) : \mathbb{Q}] = 2 \cdot 3 = 6$.

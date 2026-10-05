@@ -78,7 +78,7 @@ Compromised content, not just the user who clicks a crafted link.
 ### DOM-based XSS
 
 The vulnerability exists entirely in client-side JavaScript. The payload is manipulated in the DOM
-Without being sent to the server.
+without being sent to the server.
 
 ```javascript
 // Vulnerable: reading from location.hash and inserting into DOM
@@ -117,7 +117,7 @@ Restricting which scripts can execute.
 ## Cross-Site Request Forgery (CSRF)
 
 CSRF tricks an authenticated user into executing an unwanted action on a web application where they
-Are already authenticated. The attack exploits the browser's automatic inclusion of credentials
+are already authenticated. The attack exploits the browser's automatic inclusion of credentials
 (cookies) with requests.
 
 ### CSRF Attack Flow
@@ -698,7 +698,7 @@ Supports parameterized queries. There is no excuse for string concatenation in S
 
 `Access-Control-Allow-Origin: *` combined with `Access-Control-Allow-Credentials: true` is
 Explicitly disallowed by the CORS spec (browsers reject it). But reflecting the origin header
-Without validation achieves the same effect and is a common misconfiguration.
+without validation achieves the same effect and is a common misconfiguration.
 
 ### Pitfall 5: Trusting User Input in Redirects
 

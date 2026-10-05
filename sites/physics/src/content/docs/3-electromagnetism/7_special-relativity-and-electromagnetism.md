@@ -45,7 +45,7 @@ Implied).
 ### 7.2 Four-Vectors
 
 A **four-vector** $A^\mu = (A^0, A^1, A^2, A^3)$ transforms as $A'^\mu = \Lambda^\mu_{\ \nu}\,A^\nu$
-Under Lorentz transformations. The inner product $A_\mu B^\mu = \eta_{\mu\nu}A^\mu B^\nu$ is a
+under Lorentz transformations. The inner product $A_\mu B^\mu = \eta_{\mu\nu}A^\mu B^\nu$ is a
 Lorentz scalar (invariant).
 
 Key four-vectors in electromagnetism:

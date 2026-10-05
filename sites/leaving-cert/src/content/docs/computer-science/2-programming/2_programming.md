@@ -122,7 +122,7 @@ for num in range(2, 20):
 
 **Proof that is_prime is correct.** The function checks all integers $i$ from 2 to
 $\lfloor\sqrt{n}\rfloor$. If $n$ is composite, it has a factor $f \le \sqrt{n}$. The loop checks
-Every such $f$ So it will find a divisor. If no divisor is found, $n$ has no factor $\le
+every such $f$ So it will find a divisor. If no divisor is found, $n$ has no factor $\le
 \sqrt{n}$,
 And therefore no factor at all (since if $n = a \times b$ with $a \gt \sqrt{n}$ Then
 $b \lt \sqrt{n}$ Contradicting no divisor found). Hence $n$ is prime. $\blacksquare$

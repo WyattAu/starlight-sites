@@ -18,7 +18,7 @@ description: "OAuth 2.0 is an framework defined in RFC 6749. It allows a third-p
 ## OAuth 2.0 Overview
 
 OAuth 2.0 is an **authorization** framework defined in RFC 6749. It allows a third-party application
-To obtain limited access to a user's resources on a resource server without sharing the user's
+to obtain limited access to a user's resources on a resource server without sharing the user's
 Credentials. OAuth 2.0 is not an authentication protocol -- it delegates authorization.
 
 ### Roles
@@ -549,7 +549,7 @@ def list_users():
 ### Accepting Tokens from Untrusted Issuers
 
 Always validate the `iss` claim against a known list of trusted issuers. If your API accepts tokens
-From `https://auth.example.com` but also accepts tokens from any issuer, an attacker can create
+from `https://auth.example.com` but also accepts tokens from any issuer, an attacker can create
 Their own authorization server and issue tokens with arbitrary claims.
 
 ## Summary

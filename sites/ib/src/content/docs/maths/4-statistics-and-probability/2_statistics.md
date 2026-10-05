@@ -336,7 +336,7 @@ $$
 
 :::caution[Exam Tip]
 Correlation does NOT imply causation. Two variables may be strongly correlated without one causing
-The other (they may both be influenced by a third variable).
+the other (they may both be influenced by a third variable).
 
 ---
 
@@ -787,7 +787,7 @@ If $\ln y$ vs $x$ gives a straight line, then $y = ae^{bx}$ where:
 
 :::note[Example]
 Data suggests $y$ is related to $x$ by $y = ax^b$. A plot of $\log y$ vs $\log x$ has gradient $1.5$
-And $y$-intercept $0.7$. Find the relationship.
+and $y$-intercept $0.7$. Find the relationship.
 
 $$
 B = 1.5, \quad \log a = 0.7 \implies a = 10^{0.7} \approx 5.01
@@ -875,7 +875,7 @@ Hours.
 **(b)** The $p$-value for testing $H_0: \rho = 0$ is $0.0001$. What conclusion can be drawn?
 
 Since $p = 0.0001 \lt 0.05$ We reject $H_0$. There is strong evidence of a positive correlation
-Between study hours and exam scores.
+between study hours and exam scores.
 
 ---
 

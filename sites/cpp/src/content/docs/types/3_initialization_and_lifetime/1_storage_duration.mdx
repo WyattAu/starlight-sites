@@ -12,8 +12,8 @@ categories:
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 Every object in C++ has a **storage duration** that determines when its storage is allocated, when
-It is released, and what its initial state is. Storage duration is orthogonal to scope -- an object
-At block scope can have static storage duration, and a namespace-scope object always has static
+it is released, and what its initial state is. Storage duration is orthogonal to scope -- an object
+at block scope can have static storage duration, and a namespace-scope object always has static
 Storage duration. Understanding these four categories is essential for reasoning about lifetime,
 Thread safety, and program startup/shutdown behavior.
 
@@ -487,7 +487,7 @@ Config global_config;
 ```
 
 The Construct On First Use idiom also solves the destruction order problem: function-local statics
-Are destroyed in reverse order of their **first access**, not their declaration.
+are destroyed in reverse order of their **first access**, not their declaration.
 
 ```mermaid
 flowchart TD

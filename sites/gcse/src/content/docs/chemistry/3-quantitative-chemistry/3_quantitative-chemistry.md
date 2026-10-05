@@ -92,8 +92,8 @@ The **mole** is the unit for amount of substance. One mole contains exactly $6.0
 Particles (this number is **Avogadro's constant**, $N_A$).
 
 The mole bridges the gap between the atomic scale and the macroscopic scale. One mole of carbon-12
-Has a mass of exactly 12 g. One mole of any substance contains the same number of particles as there
-Are atoms in 12 g of carbon-12.
+has a mass of exactly 12 g. One mole of any substance contains the same number of particles as there
+are atoms in 12 g of carbon-12.
 
 ### 2.2 Why the Mole Is Useful
 
@@ -178,7 +178,7 @@ $$
 ### 2.6 Molar Volume of Gas
 
 At room temperature and pressure (RTP, approximately $25^{\circ}\mathrm{C$ and 1 atm), one mole of
-Any gas occupies approximately **24 dm$^3$**.
+any gas occupies approximately **24 dm$^3$**.
 
 $$
 n = \frac{V}{24}
@@ -225,14 +225,14 @@ $$
 Avogadro's law states that equal volumes of all gases at the same temperature and pressure contain
 Equal numbers of molecules. This arises because gas molecules are very far apart compared to their
 Size, so the volume depends on the number of molecules, not on their identity. At RTP, one mole of
-Any ideal gas occupies 24 dm$^3$.
+any ideal gas occupies 24 dm$^3$.
 
 ## 3. Conservation of Mass and Balanced Equations
 
 ### 3.1 The Law of Conservation of Mass
 
 In a closed system, the total mass of the reactants equals the total mass of the products. No atoms
-Are created or destroyed in a chemical reaction.
+are created or destroyed in a chemical reaction.
 
 This law holds exactly in a closed system. In an open system, mass may appear to be lost (e.g., gas
 Escaping) or gained (e.g., gas from the atmosphere dissolving), but the atoms are still conserved.
@@ -554,7 +554,7 @@ $$
 
 In industry, both yield and atom economy are important. A reaction with high atom economy but low
 Yield may waste less material per mole of reactant but produce little product overall. A reaction
-With high yield but low atom economy produces a lot of waste. The best processes maximise both.
+with high yield but low atom economy produces a lot of waste. The best processes maximise both.
 
 | Reaction                                         | Atom Economy | Comment                      |
 | ------------------------------------------------ | ------------ | ---------------------------- |
@@ -752,7 +752,7 @@ $$
 
 **Problem:** 20.0 g of CaCO$_3$ is reacted with 150 cm$^3$ of 1.0 mol/dm$^3$ HCl. (a) Identify the
 Limiting reactant. (b) Calculate the mass of CaCl$_2$ produced. (c) Calculate the volume of CO$_2$
-At RTP. (d) Calculate the percentage yield if 15.0 g of CaCl$_2$ was obtained.
+at RTP. (d) Calculate the percentage yield if 15.0 g of CaCl$_2$ was obtained.
 
 $$
 \mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2

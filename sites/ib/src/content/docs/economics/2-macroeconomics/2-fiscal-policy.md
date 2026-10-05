@@ -93,7 +93,7 @@ A `USD 100` billion increase in government spending would increase GDP by `USD 2
 ### The Balanced Budget Multiplier
 
 If government spending and taxes increase by the same amount ($\Delta G = \Delta T$), the net effect
-On GDP is positive but smaller than the spending multiplier alone:
+on GDP is positive but smaller than the spending multiplier alone:
 
 $$
 k_B = \frac{\Delta Y}{\Delta G} = 1
@@ -101,7 +101,7 @@ $$
 
 A `USD 100` billion increase in both $G$ and $T$ increases GDP by `USD 100` billion. The government
 Spending injection has a direct multiplier effect, while the tax increase reduces disposable income
-By only the amount of the tax, and the induced reduction in consumption is MPC times the tax.
+by only the amount of the tax, and the induced reduction in consumption is MPC times the tax.
 
 ### Budget Position
 
@@ -202,7 +202,7 @@ $$
 ### Ricardian Equivalence
 
 Proposed by Robert Barro (1974), Ricardian equivalence states that households are forward-looking
-And understand that current deficit spending must be financed by future taxes. Therefore:
+and understand that current deficit spending must be financed by future taxes. Therefore:
 
 $$
 \text{Tax cut today} = \text{Tax increase tomorrow (with interest)}

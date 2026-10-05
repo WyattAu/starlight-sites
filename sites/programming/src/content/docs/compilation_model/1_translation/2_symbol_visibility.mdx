@@ -15,7 +15,7 @@ import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 While the compiler processes one Translation Unit (TU) at a time, the **Linker** fuses them
 Together. To do this, it must determine which names (symbols) in `A.cpp` refer to the same entities
-In `B.cpp`. This logic is governed by **Linkage**.
+in `B.cpp`. This logic is governed by **Linkage**.
 
 Simultaneously, the C++ standard enforces strict rules on how many times an entity can be defined,
 Known as the **One Definition Rule (ODR)**. Violating these rules results in Linker Errors or, more
@@ -28,14 +28,14 @@ The ODR is the fundamental law of physical C++ architecture. It has two distinct
 ### 1. ODR within a Translation Unit
 
 A specific entity (class, enum, function, variable) can be declared multiple times but defined only
-Once within a single `.cpp` file (after preprocessor expansion).
+once within a single `.cpp` file (after preprocessor expansion).
 
 - _Enforcement:_ Compiler Error ("Redefinition of 'x'").
 
 ### 2. ODR within a Program
 
 A non-inline function or variable with **External Linkage** defined in one TU must not be defined in
-Any other TU.
+any other TU.
 
 - _Enforcement:_ Linker Error ("Multiple Definition" / "Symbol already defined").
 
@@ -85,7 +85,7 @@ Inlining.
 ### 3. External Linkage
 
 The name is accessible from other TUs. The linker expects to resolve references to this symbol from
-Other object files.
+other object files.
 
 - **Syntax:** Default for non-static global functions and variables.
 - **Declaration:** `extern int global_counter;` (in header).
@@ -281,7 +281,7 @@ The anonymous namespace is the preferred modern approach because:
 ### `extern` and Tentative Definitions
 
 The `extern` keyword declares a variable without defining it. The definition must exist in exactly
-One TU:
+one TU:
 
 ```cpp
 // header.h
@@ -303,7 +303,7 @@ Declarations in headers and exactly one definition in a `.cpp` file.
 ### `inline` Variables and Linkage (C++17)
 
 C++17 extended `inline` from functions to variables. An `inline` variable can be defined in a header
-And included in multiple TUs without violating the ODR:
+and included in multiple TUs without violating the ODR:
 
 ```cpp
 // config.h (included in multiple TUs)
@@ -315,7 +315,7 @@ struct Config \{
 ```
 
 The compiler and linker cooperate: each TU emits a definition, and the linker picks one (they must
-All be identical). The `inline` keyword tells the linker "multiple definitions are expected; merge
+all be identical). The `inline` keyword tells the linker "multiple definitions are expected; merge
 Them."
 Without `inline`A static member defined in a header would cause "multiple definition" errors when
 Included in multiple TUs (unless it was `const` or `constexpr`Which already had special ODR
@@ -335,7 +335,7 @@ The ELF specification defines four visibility levels:
 | `internal`  | `STV_INTERNAL`  | Like hidden, but also prevents symbol interposition           |
 | `protected` | `STV_PROTECTED` | Visible, but cannot be preempted by other DSOs                |
 **`-fvisibility=hidden`** sets the default visibility to `STV_HIDDEN` for all external symbols. You
-Then opt-in specific symbols with `__attribute__((visibility("default")))`.
+then opt-in specific symbols with `__attribute__((visibility("default")))`.
 **`STV_INTERNAL`** is a stronger form of hidden. It guarantees that the symbol will always be
 Resolved within the defining DSO, even if another DSO defines the same symbol. This enables the
 Linker to convert GOT-relative accesses to direct PC-relative accesses (avoiding the GOT entirely),
@@ -459,7 +459,7 @@ Version definition section:
 ```
 
 A consumer compiled against `MYLIB_1.0` can still use `MYLIB_2.0` if the version script preserves
-The old symbols. This is how `glibc` maintains compatibility across decades.
+the old symbols. This is how `glibc` maintains compatibility across decades.
 
 ### ODR Violations in Practice
 
@@ -478,7 +478,7 @@ struct Point \{
 
 If `a.cpp` and `b.cpp` are linked together and share a `Point` object through external linkage, one
 TU treats the first 8 bytes as `x` and the second 8 bytes as `y`While the other TU interprets them
-In reverse order. The linker sees a single symbol `Point` and sees no error. This is **undefined
+in reverse order. The linker sees a single symbol `Point` and sees no error. This is **undefined
 Behavior** and manifests as corrupted floating-point values or subtle numerical errors.
 **Mitigation strategies:**
 

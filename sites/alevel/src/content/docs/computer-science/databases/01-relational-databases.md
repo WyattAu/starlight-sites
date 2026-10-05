@@ -250,7 +250,7 @@ But: teacher → course, and teacher is NOT a superkey. So this violates BCNF.
 - (teacher, course), teacher teaches course
 
 This is in BCNF but loses the dependency (student, course) → teacher (a join is needed to recover
-It).
+it).
 
 ### Normalisation Summary
 
@@ -539,7 +539,7 @@ Candidate key.
 
 **Step 2: Identify BCNF violations.** BCNF requires that for every non-trivial FD X → Y, X must be a
 Superkey. The FD C → B is non-trivial, but C is not a superkey (C does not determine A). Therefore R
-Is not in BCNF.
+is not in BCNF.
 
 **Step 3: Decompose.** We decompose along the violating FD C → B:
 
@@ -559,7 +559,7 @@ lossless (by the chase test / BCNF decomposition theorem). ✓
 **Conclusion.** This is a classic example where BCNF and dependency preservation are incompatible.
 We must choose: either accept 3NF (which preserves dependencies but allows redundancy) or accept
 BCNF (which eliminates redundancy but loses the FD $AB \to C$). In practice, 3NF is often preferred
-When dependency preservation is critical.
+when dependency preservation is critical.
 
 </details>
 
@@ -789,7 +789,7 @@ Relationships:
 - A Teacher **teaches** many Classes (Many-to-Many)
 
 (a) How many junction (link) tables are needed to resolve the Many-to-Many relationships? (b) Write
-The schema for each table, including primary and foreign keys.
+the schema for each table, including primary and foreign keys.
 
 <details>
 <summary>Hint</summary>
@@ -837,7 +837,7 @@ Referencing the two entities it connects.
 - PRIMARY KEY (teacher_id, class_id)
 
 The junction tables use composite primary keys (the combination of the two foreign keys) to ensure
-Each student-class or teacher-class pairing is unique.
+each student-class or teacher-class pairing is unique.
 
 </details>
 
@@ -951,7 +951,7 @@ This removes rows where product_id is 3 (Desk) and 4 (Chair).
 
 **Problem 8.** A library uses the following tables. Write SQL statements to: (a) Add a new member:
 (member_id=1001, name='Sarah', join_date='2025-03-15') (b) Update the status of all books borrowed
-Before '2025-01-01' to 'overdue' (c) Delete the borrow record for member 50 returning book BK004
+before '2025-01-01' to 'overdue' (c) Delete the borrow record for member 50 returning book BK004
 
 **Members** (member_id, name, join_date) **Books** (book_id, title, author) **Borrows** (borrow_id,
 Member_id, book_id, borrow_date, return_date, status)
@@ -993,7 +993,7 @@ WHERE member_id = 50 AND book_id = 'BK004';
 ```
 
 Both conditions are needed in the WHERE clause to identify the correct record (since member_id alone
-Is not unique in the Borrows table, a member can borrow multiple books).
+is not unique in the Borrows table, a member can borrow multiple books).
 
 </details>
 
@@ -1121,7 +1121,7 @@ DISTINCT is used because an employee may work on multiple high-budget projects, 
 Listed once.
 
 Result example: If Alice works on Project A (budget 60000) and Project B (budget 30000), she appears
-Once (due to DISTINCT).
+once (due to DISTINCT).
 
 **(d) Total salary bill per department:**
 

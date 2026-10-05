@@ -798,7 +798,7 @@ Having $\alpha$ as a root.
 **Proposition 12.2.** The minimal polynomial of $\alpha$ over $F$ is irreducible in $F[x]$.
 
 _Proof._ If $m_\alpha = fg$ with $\deg(f), \deg(g) \lt \deg(m_\alpha)$ Then $f(\alpha)g(\alpha) = 0$
-So either $f(\alpha) = 0$ or $g(\alpha) = 0$ Contradicting the minimality of $\deg(m_\alpha)$.
+so either $f(\alpha) = 0$ or $g(\alpha) = 0$ Contradicting the minimality of $\deg(m_\alpha)$.
 $\blacksquare$
 
 **Theorem 12.3.** $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] \lt \infty$. In
@@ -816,7 +816,7 @@ giving a polynomial relation $f(\alpha) = 0$. $\blacksquare$
 $E = F[x] / (f)$ is a field extension of $F$ containing a root of $f$.
 
 _Proof._ Since $f$ is irreducible and $F[x]$ is a PID, $(f)$ is a maximal ideal, so $E = F[x]/(f)$
-Is a field. The element $\alpha = x + (f) \in E$ satisfies
+is a field. The element $\alpha = x + (f) \in E$ satisfies
 $f(\alpha) = f(x + (f)) = f(x) + (f) = (f) = 0$ I.e., $\alpha$ is a root of $f$. $\blacksquare$
 
 ### 12.4 Finite Fields
@@ -843,7 +843,7 @@ $F$.
 **Theorem 12.7 (Fundamental Theorem of Algebra).** $\mathbb{C}$ is algebraically closed.
 
 _Remark._ Every field $F$ has an **algebraic closure** $\overline{F}$: an algebraically closed field
-That is an algebraic extension of $F$. The algebraic closure is unique up to $F$-isomorphism. For
+that is an algebraic extension of $F$. The algebraic closure is unique up to $F$-isomorphism. For
 example, $\overline{\mathbb{Q}}$ is the field of all algebraic numbers. It is countable and
 Infinite-dimensional over $\mathbb{Q}$.
 
@@ -866,7 +866,7 @@ By the tower law: $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = 2 \cdot 2 = 4
 
 For the minimal polynomial of $\alpha = \sqrt{2} + \sqrt{3}$: compute powers.
 $\alpha^2 = 5 + 2\sqrt{6}$ So $\alpha^2 - 5 = 2\sqrt{6}$ Giving $\alpha^4 - 10\alpha^2 + 25 = 24$
-Hence $\alpha^4 - 10\alpha^2 + 1 = 0$. One checks that $f(x) = x^4 - 10x^2 + 1$ is irreducible over
+hence $\alpha^4 - 10\alpha^2 + 1 = 0$. One checks that $f(x) = x^4 - 10x^2 + 1$ is irreducible over
 $\mathbb{Q}$ (no rational roots, no quadratic factor), so $m_\alpha = x^4 - 10x^2 + 1$.
 $\blacksquare$
 
@@ -1215,7 +1215,7 @@ URL: https://mathematics.wyattau.com/1-abstract-algebra/13_galois-theory-fundame
 ### 13.1 Automorphisms and the Galois Group
 
 Let $E/F$ be a field extension. An $F$-**automorphism** of $E$ is an automorphism $\sigma : E \to E$
-That fixes $F$ pointwise (i.e., $\sigma(c) = c$ for all $c \in F$).
+that fixes $F$ pointwise (i.e., $\sigma(c) = c$ for all $c \in F$).
 
 The set of all $F$-automorphisms of $E$ forms a group under composition, called the **Galois group**
 Of $E/F$ Denoted $\mathrm{Gal}(E/F)$.
@@ -1246,7 +1246,7 @@ the splitting field of a separable polynomial over $F$.
 **Problem.** Find the Galois group of $x^3 - 2$ over $\mathbb{Q}$.
 
 _Solution._ The roots of $x^3 - 2$ are $\sqrt[3]{2}$, $\omega\sqrt[3]{2}$, $\omega^2\sqrt[3]{2}$
-Where $\omega = e^{2\pi i/3}$ is a primitive cube root of unity. The splitting field is
+where $\omega = e^{2\pi i/3}$ is a primitive cube root of unity. The splitting field is
 $E = \mathbb{Q}(\sqrt[3]{2}, \omega)$. We have
 $[E : \mathbb{Q}] = [E : \mathbb{Q}(\sqrt[3]{2})]
 \cdot [\mathbb{Q}(\sqrt[3]{2}) : \mathbb{Q}] = 2 \cdot 3 = 6$.
@@ -1497,7 +1497,7 @@ $180°$ rotation about the axis through the midpoints of that edge and its oppos
 
 **Faces.** The cube has $6$ faces. The action is transitive, so $|\mathrm{Orb}(f)| = 6$ and
 $|\mathrm{Stab}(f)| = 24/6 = 4$. The stabilizer of a face consists of rotations about the axis
-Through the center of that face and its opposite:
+through the center of that face and its opposite:
 $\{0°, 90°, 180°, 270°\} \cong \mathbb{Z}/4\mathbb{Z}$.
 
 This verifies: $24 = 8 \cdot 3 = 12 \cdot 2 = 6 \cdot 4$. $\blacksquare$
@@ -2631,7 +2631,7 @@ Since $[S_3 : H] = 2$, $H$ is normal (see Corollary 3.7). $\blacksquare$
 <summary>Solution</summary>
 
 _Solution._ $H = \langle 4 \rangle = \{0, 4, 8\}$ has order $3$ And $|\mathbb{Z}/12\mathbb{Z}| = 12$
-So $[\mathbb{Z}/12\mathbb{Z} : H] = 4$. The cosets are:
+so $[\mathbb{Z}/12\mathbb{Z} : H] = 4$. The cosets are:
 
 $$
 0 + H = \{0, 4, 8\}, \quad 1 + H = \{1, 5, 9\}, \quad 2 + H = \{2, 6, 10\}, \quad 3 + H = \{3, 7, 11\}
@@ -3904,7 +3904,7 @@ $E = F[x]/(f)$ is a field. Write $\bar{x} = x + (f) \in E$. Every element of $E$
 $g(x) + (f)$ for some $g \in F[x]$.
 
 By the division algorithm, $g = qf + r$ where $\deg(r) \lt n$ or $r = 0$. Then $g + (f) = r + (f)$
-So every element of $E$ can be written as
+so every element of $E$ can be written as
 $r(\bar{x}) = a_0 + a_1\bar{x} + \cdots + a_{n-1}\bar{x}^{n-1}$ With $a_i \in F$. This
 representation is unique: if $\sum_{i=0}^{n-1} a_i \bar{x}^i = \sum_{i=0}^{n-1} b_i \bar{x}^i$ Then
 $\sum (a_i - b_i)\bar{x}^i = 0$ So $\sum (a_i - b_i)x^i \in (f)$ Meaning $f$ divides a polynomial Of
@@ -4299,8 +4299,8 @@ $1 \in H$. Therefore $H = \langle 1 \rangle = \mathbb{Z}$. $\blacksquare$
 is a subgroup of $G$.
 
 _Proof._ Since $e \in H_i$ for all $i$ We have $e \in \bigcap_{i \in I} H_i$ So the intersection is
-Non-empty. If $a, b \in \bigcap_{i \in I} H_i$ Then $a, b \in H_i$ for all $i$ So $ab^{-1} \in H_i$
-For all $i$ (since each $H_i$ is a subgroup). Thus $ab^{-1} \in \bigcap_{i \in I} H_i$. By the
+non-empty. If $a, b \in \bigcap_{i \in I} H_i$ Then $a, b \in H_i$ for all $i$ So $ab^{-1} \in H_i$
+for all $i$ (since each $H_i$ is a subgroup). Thus $ab^{-1} \in \bigcap_{i \in I} H_i$. By the
 subgroup criterion, $\bigcap_{i \in I} H_i \leq G$. $\blacksquare$
 
 _Remark._ The union of subgroups need not be a subgroup. For example, in $\mathbb{Z}$
@@ -4880,7 +4880,7 @@ If $n_r \neq 1$ Then $n_r \geq r + 1 > q + 1 > p + 1$. Since $n_r$ divides $pq$ 
 $n_r = pq$. This means there are $pq(r - 1)$ non-identity elements in Sylow $r$-subgroups.
 
 Similarly, $n_q \equiv 1 \pmod{q}$ and $n_q$ divides $pr$. If $n_q = pr$ There are $pr(q - 1)$
-Non-identity elements in Sylow $q$-subgroups.
+non-identity elements in Sylow $q$-subgroups.
 
 If both $n_r = pq$ and $n_q = pr$ The total number of non-identity elements is at least
 $pq(r-1) + pr(q-1) = pqr - pq + pqr - pr = 2pqr - p(q+r)$ Which exceeds $pqr - 1$ for most values. So
@@ -12944,7 +12944,7 @@ $$
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
 The **eigenspace** corresponding to $\lambda$ is $E_\lambda = \ker(A - \lambda I)$. Its dimension is
-The **geometric multiplicity** of $\lambda$.
+the **geometric multiplicity** of $\lambda$.
 
 ### 5.2 Characteristic Polynomial
 
@@ -12955,7 +12955,7 @@ $A$. Its roots (in the algebraic closure of $F$) are the eigenvalues of $A$.
 
 If
 $p(\lambda) = (\\lambda - \\lambda_1)^{m_1}(\\lambda - \\lambda_2)^{m_2}\cdots(\\lambda - \\lambda_k)^{m_k}$
-With $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
+with $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
 $\\lambda_i$.
 
 **Proposition 5.2.** For each eigenvalue $\lambda$, $1 \leq \mathrm{dim}(E_\lambda) \leq m_\lambda$
@@ -14401,7 +14401,7 @@ import DesmosGraph from "@components/DesmosGraph";
 ### 6.1 Definition
 
 A **linear transformation** (or linear map) $T : V \to W$ between vector spaces $V$ and $W$ over $F$
-Is a function satisfying:
+is a function satisfying:
 
 1. $T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$ for all
    $\mathbf{u}, \mathbf{v} \in V$
@@ -14507,7 +14507,7 @@ $$
 $$
 
 This is the **similarity transformation**. Similar matrices represent the same linear transformation
-In different bases and share the same eigenvalues, determinant, and trace.
+in different bases and share the same eigenvalues, determinant, and trace.
 
 ### 6.7 Worked Example: Matrix of a Transformation with Change of Basis
 
@@ -15493,7 +15493,7 @@ $$
 $$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
-Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
+non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
 inconsistent.
 
 _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._
@@ -16671,7 +16671,7 @@ Infinite-dimensional analogue of $\mathbb{R}^n$ and is fundamental in functional
 ### 1.3 Subspaces
 
 A **subspace** $W$ of a vector space $V$ is a subset $W \subseteq V$ that is itself a vector space
-Under the same operations.
+under the same operations.
 
 **Theorem 1.1 (Subspace Criterion).** A non-empty subset $W \subseteq V$ is a subspace if and only
 If for all $\mathbf{u}, \mathbf{v} \in W$ and all $\alpha \in F$:
@@ -16680,14 +16680,14 @@ If for all $\mathbf{u}, \mathbf{v} \in W$ and all $\alpha \in F$:
 2. $\alpha \mathbf{u} \in W$ (closed under scalar multiplication)
 
 _Proof._ If $W$ is a subspace, closure is immediate from the definition. Conversely, if $W$ is
-Non-empty and closed under both operations, pick $\mathbf{u} \in W$. Then
+non-empty and closed under both operations, pick $\mathbf{u} \in W$. Then
 $-\mathbf{u} = (-1)\mathbf{u} \in W$ By closure under scalar multiplication, and
 $\mathbf{u} + (-\mathbf{u}) = \mathbf{0} \in W$ by closure Under addition. The remaining axioms are
 inherited from $V$. $\blacksquare$
 
 **Proposition 1.2 (Closure under Linear Combinations).** If $W$ is a subspace of $V$ Then $W$ is
 Closed under all finite linear combinations: for all $\mathbf{v}_1, \ldots, \mathbf{v}_k \in W$ and
-All $\alpha_1, \ldots, \alpha_k \in F$
+all $\alpha_1, \ldots, \alpha_k \in F$
 
 $$
 \alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W
@@ -16739,7 +16739,7 @@ subspace.
 
 **(b)** $W_2$ is not a subspace. For instance, $(1, 0, 0) \in W_2$ since $1^2 + 0^2 = 1$ But
 $2 \cdot (1, 0, 0) = (2, 0, 0) \notin W_2$ since $2^2 + 0^2 = 4 \neq 1$. So $W_2$ is not closed
-Under scalar multiplication.
+under scalar multiplication.
 
 **(c)** Let $\mathbf{u} = (0, a, a)$ and $\mathbf{v} = (0, b, b)$ be in $W_3$. Then
 $\mathbf{u} + \mathbf{v} = (0, a + b, a + b) \in W_3$ and
@@ -16766,7 +16766,7 @@ $U \cap W = \{(x, y, z) : z = 0 \mathrm{~and~} x = 0\} = \{(0, y, 0) : y \in \ma
 basis $\{(0, 1, 0)\}$ and dimension 1.
 
 $U + W = \mathrm{span}\{(1,0,0), (0,1,0), (0,1,0), (0,0,1)\} = \mathrm{span}\{(1,0,0), (0,1,0), (0,0,1)\} = \mathbb{R}^3$
-So $\dim(U + W) = 3$.
+so $\dim(U + W) = 3$.
 
 Verify: $\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W) = 2 + 2 - 1 = 3$. $\checkmark$
 $\blacksquare$
@@ -16962,7 +16962,7 @@ URL: https://mathematics.wyattau.com/3-real-analysis/4_continuity/
 ### 4.1 Limits of Functions
 
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
-Every $\varepsilon > 0$ There exists $\delta > 0$ such that
+every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
 $$
 0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
@@ -16989,7 +16989,7 @@ Classified as:
 
 **Proposition 4.3.** Polynomials are continuous on $\mathbb{R}$. Rational functions $p(x)/q(x)$ are
 Continuous wherever $q(x) \neq 0$. The functions $\sin x$, $\cos x$, $e^x$, $\ln x$ are continuous
-On their domains.
+on their domains.
 
 **Theorem 4.1 (Algebra of Continuous Functions).** If $f$ and $g$ are continuous at $a$ Then $f+g$
 $f-g$, $fg$ And (where defined) $f/g$ are continuous at $a$.
@@ -17033,7 +17033,7 @@ $x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$ Contradicting th
 
 If $f(c) > y$ Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
 $x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$ Contradicting
-That $c = \sup(S)$.
+that $c = \sup(S)$.
 
 Therefore $f(c) = y$. $\blacksquare$
 
@@ -17104,7 +17104,7 @@ $|\sqrt{x} - \sqrt{y}| = \frac{|x - y|}{\sqrt{x} + \sqrt{y}} \leq |x - y|^{1/2}$
 
 Given $\varepsilon > 0$ Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
 $|\sqrt{x} - \sqrt{y}| \leq \sqrt{|x-y|} \lt \sqrt{\delta} = \varepsilon$. Since $\delta$ depends
-Only on $\varepsilon$ The continuity is uniform. $\blacksquare$
+only on $\varepsilon$ The continuity is uniform. $\blacksquare$
 
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ .../1-number-and-algebra/3_proof-and-logic that $f(x) = 3x - 1$ is continuous at $x = 2$</summary>
@@ -17207,7 +17207,7 @@ continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquar
 
 _Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$ Which follows from the
 Mean Value Theorem applied to $e^t$: $e^u - e^v = e^\xi (u - v)$ for some $\xi$ between $u$ and $v$
-So $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
+so $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
 
 Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$ So $x \lt a + 1$ and
 $e^{\max(x,a)} \leq e^{a+1}$. Choose $\delta = \min(1, \varepsilon / e^{a+1})$. For
@@ -17477,7 +17477,7 @@ Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$ There exist
 $f'(c) = y$.
 
 _Remark._ This means derivatives satisfy the intermediate value property even though they need not
-Be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
+be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
 But $f'$ is not continuous at $0$.
 
 _Proof._ Assume without loss of generality that $f'(a) \lt y \lt f'(b)$. Define $g(x) = f(x) - yx$.
@@ -17504,7 +17504,7 @@ So $f'(0) = 0$. For any $\delta > 0$ The term $-\cos(1/x)$ oscillates between $-
 $(0, \delta)$ So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
 
 But Darboux's theorem says $f'$ has the intermediate value property. Indeed, $f'$ is not continuous
-At $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
+at $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
 Highly discontinuous while retaining the intermediate value property. $\blacksquare$
 
 </details>
@@ -18329,7 +18329,7 @@ $M = \sup A$. For all $x \in A \cup B$: either $x \in A$ So $x \leq \sup A = M$;
 $x \leq \sup B \leq M$. Thus $M$ is an upper bound for $A \cup B$.
 
 For the least property: since $M = \sup A$ and $A \subseteq A \cup B$ Every upper bound of $A \cup B$
-Is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
+is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.3 (Supremum and Infimum), Section 1.5 (Properties).
 
@@ -18548,7 +18548,7 @@ Here is why: $f$ extends continuously to $[0, 1]$ (define $f(0) = 0$). By the He
 
 The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$ Which does not
 Extend continuously to $0$. Or $h(x) = 1/x$ Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
-And has a continuous extension, so it is uniformly continuous. $\blacksquare$
+and has a continuous extension, so it is uniformly continuous. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 4.5 (Uniform Continuity), Section 4.6 (Heine-Cantor).
 
@@ -18634,7 +18634,7 @@ $L(f, P) = \sum 0 \cdot \Delta x_i = 0$. Hence
 $\overline{\int_0^1} f = 1 \neq 0 = \underline{\int_0^1} f$ So $f$ is not Riemann integrable.
 
 This also follows from Lebesgue's criterion: $f$ is discontinuous everywhere, and $[0,1]$ does not
-Have measure zero. $\blacksquare$
+have measure zero. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 6.2 (Integrability Criteria), Theorem 6.4b.
 
@@ -18686,7 +18686,7 @@ Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
 
 Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$ This does not tend to $0$. Therefore the convergence
-Is **not uniform** on $(0, \infty)$. $\blacksquare$
+is **not uniform** on $(0, \infty)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.2 (Uniform Convergence), Section 7.1 (Pointwise
 Convergence).
@@ -19278,7 +19278,7 @@ URL: https://mathematics.wyattau.com/3-real-analysis/2_sequences-and-limits/
 ### 2.1 Convergence
 
 A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
-Every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
+every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
 
 $$
 |a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
@@ -19302,7 +19302,7 @@ A contradiction. $\blacksquare$
 **Proposition 2.2.** Every convergent sequence is bounded.
 
 _Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$ There exists $N$ such that $|a_n - L| \lt 1$ for
-All $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
+all $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
 $M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$. Then $|a_n| \leq M$ for all $n$.
 $\blacksquare$
 
@@ -19342,7 +19342,7 @@ $$
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
 _Proof._ Let $a_n \to L$. Given $\varepsilon > 0$ Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
-For all $n \geq N$. Then for $m, n \geq N$:
+for all $n \geq N$. Then for $m, n \geq N$:
 $|a_n - a_m| \leq |a_n - L| + |a_m - L| \lt \varepsilon$. $\blacksquare$
 
 **Theorem 2.5 (Cauchy Completeness of $\mathbb{R}$).** Every Cauchy sequence in $\mathbb{R}$
@@ -19407,7 +19407,7 @@ $$
 
 _Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. Taking supremum over
 $n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
-The right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
+the right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
 
 **Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$ In which case the
 Common value equals $\lim a_n$.
@@ -19419,7 +19419,7 @@ Since $\varepsilon > 0$ is arbitrary, $\limsup a_n \leq L$. Similarly $\liminf a
 with Proposition 2.5, $\liminf a_n = \limsup a_n = L$.
 
 Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$ There exists $N_1$
-With $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
+with $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
 $\inf_{k \geq n} a_k > L - \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
 
@@ -19739,7 +19739,7 @@ Convergence** $R \in [0, \infty]$ such that:
 - The behavior at $|x - a| = R$ must be checked separately
 
 The radius is given by $1/R = \limsup_{n \to \infty} \sqrt[n]{|c_n|}$ (Cauchy-Hadamard formula), or
-When the limit exists, $R = \lim_{n \to \infty} |c_n/c_{n+1}|$.
+when the limit exists, $R = \lim_{n \to \infty} |c_n/c_{n+1}|$.
 
 _Proof._ Apply the root test to $\sum |c_n (x-a)^n|$: $\limsup \sqrt[n]{|c_n|} |x-a| = |x-a|/R$
 (where $1/R = \limsup \sqrt[n]{|c_n|}$). The root test gives convergence when $|x-a|/R \lt 1$ And
@@ -19759,7 +19759,7 @@ $f(x) = \sum_{n=0}^{\infty} c_n (x-a)^n$ Has radius of convergence $R > 0$ Then:
 4. $c_n = f^{(n)}(a)/n!$ (uniqueness of power series coefficients).
 
 _Proof._ The differentiated series $\sum n c_n (x-a)^{n-1}$ has the same radius of convergence as
-The original (by the Cauchy-Hadamard formula, since $\sqrt[n]{n} \to 1$). By Theorem 7.4, the
+the original (by the Cauchy-Hadamard formula, since $\sqrt[n]{n} \to 1$). By Theorem 7.4, the
 Derivative of the sum equals the sum of the derivatives. Parts (2), (3), and (4) follow by Induction
 and the FTC. $\blacksquare$
 
@@ -19779,7 +19779,7 @@ $x \to 1^-$. $\blacksquare$
 
 _Example._ Since $\sum_{k=1}^{\infty} (-1)^{k+1}/k = \ln 2$ Abel's theorem gives
 $\lim_{x \to 1^-} \sum_{k=1}^{\infty} (-1)^{k+1} x^k/k = \ln 2$ I.e., $\ln 2$ is the left-hand limit
-Of $-\ln(1 - x)$ at $x = 1$.
+of $-\ln(1 - x)$ at $x = 1$.
 
 ### 7.8 Taylor Series Convergence
 
@@ -19950,7 +19950,7 @@ such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$ I.e., $|a_n| \lt r^n$. Sinc
 converges (geometric series with $r \lt 1$), the comparison test gives absolute convergence.
 
 If $L > 1$ Then for infinitely many $n$: $\sqrt[n]{|a_n|} > 1$ So $|a_n| > 1$. Hence $a_n \not\to 0$
-And the series diverges. $\blacksquare$
+and the series diverges. $\blacksquare$
 
 **Theorem 3.5 (Integral Test).** If $f : [1, \infty) \to [0, \infty)$ is positive, continuous, and
 Decreasing, then $\sum_{n=1}^{\infty} f(n)$ converges if and only if $\int_1^{\infty} f(x)\, dx$
@@ -20044,8 +20044,8 @@ _Proof (outline)._ Let $P = \{n : a_n > 0\}$ and $N = \{n : a_n \lt 0\}$. Since 
 Conditionally, both $\sum_{n \in P} a_n = +\infty$ and $\sum_{n \in N} a_n = -\infty$.
 
 To achieve sum $L \in \mathbb{R}$: take positive terms in order until the partial sum exceeds $L$
-Then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
-The positive and negative subseries diverge, this process can always continue. The terms tend to
+then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
+the positive and negative subseries diverge, this process can always continue. The terms tend to
 Zero (since the series converges), so the oscillations around $L$ shrink to zero. $\blacksquare$
 
 _Remark._ By contrast, every rearrangement of an absolutely convergent series converges to the same
@@ -20208,7 +20208,7 @@ The axioms stated below are taken as given; the purpose of this chapter is to de
 ### 1.1 Field Axioms
 
 The real numbers $\mathbb{R}$ form a **complete ordered field**. The field axioms guarantee closure
-Under addition, subtraction, multiplication, and division (by non-zero elements), together with the
+under addition, subtraction, multiplication, and division (by non-zero elements), together with the
 Usual commutative, associative, and distributive laws.
 
 ### 1.2 Order and the Completeness Axiom
@@ -20247,7 +20247,7 @@ $l \leq s$ for all $s \in S$.
 Exists $s \in S$ such that $u - \varepsilon \lt s \leq u$.
 
 _Proof._ If no such $s$ existed, then $u - \varepsilon$ would be an upper bound of $S$ strictly less
-Than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
+than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
 
 **Example.** Let $S = \{x \in \mathbb{R} : x^2 \lt 2\}$. Then $\sup(S) = \sqrt{2}$. Note that
 $\sqrt{2}
@@ -20260,7 +20260,7 @@ Such that $n \gt x$.
 
 _Proof._ Suppose, for contradiction, that $\mathbb{N}$ is bounded above. By the completeness axiom,
 $s = \sup(\mathbb{N})$ exists in $\mathbb{R}$. Then $s - 1$ is not an upper bound for $\mathbb{N}$
-So there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
+so there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
 Contradicting that $s$ is an upper bound. $\blacksquare$
 
 **Corollary 1.2.** For every $\varepsilon > 0$ There exists $n \in \mathbb{N}$ such that
@@ -20296,7 +20296,7 @@ Where $-S = \{-s : s \in S\}$.
 
 _Proof._ Let $u = \sup(-S)$. Then $-s \leq u$ for all $s \in S$ So $s \geq -u$ for all $s \in S$
 Meaning $-u$ is a lower bound for $S$. If $v$ is any lower bound for $S$ Then $-v$ is an upper bound
-For $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
+for $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Find $\sup$ and $\inf$ of $S = \{(-1)^n + 1/n : n \in \mathbb{N}\}$</summary>
@@ -20315,7 +20315,7 @@ odd-indexed term, $\inf(S) = -1$ (approached but not attained). $\blacksquare$
 ### 1.6 Construction of $\mathbb{R}$ via Dedekind Cuts
 
 _Remark._ The following outline shows how $\mathbb{R}$ can be constructed from $\mathbb{Q}$ Making
-The completeness axiom a theorem rather than an axiom.
+the completeness axiom a theorem rather than an axiom.
 
 **Definition (Dedekind Cut).** A **Dedekind cut** is a subset $\alpha \subseteq \mathbb{Q}$
 satisfying:
@@ -21989,7 +21989,7 @@ $$
 $$
 
 Similarly, by reversing the order of application, there exist $\theta_3, \theta_4 \in (0,1)$ such
-That
+that
 
 $$
 \Delta(h, k) = hk \cdot f_{yx}(a + \theta_3 h,\, b + \theta_4 k)
@@ -22020,7 +22020,7 @@ $$
 When $f$ is differentiable at $\mathbf{a}$ The linear map $L$ is given by the gradient.
 
 _Remark._ Existence of all partial derivatives at a point does **not** imply differentiability at
-That point. The canonical counterexample is
+that point. The canonical counterexample is
 
 $$
 f(x,y) = \begin{cases} \dfrac{xy}{x^2 + y^2} & \mathrm{if\ }(x,y) \neq (0,0), \\ 0 & \mathrm{if\ }(x,y) = (0,0). \end{cases}
@@ -22095,7 +22095,7 @@ $\lVert \nabla f \rVert$ Is the rate of steepest ascent.
 
 _Proof._ By the Cauchy--Schwarz inequality,
 $\lvert \nabla f \cdot \mathbf{u} \rvert \leq \lVert \nabla f \rVert \cdot \lVert \mathbf{u} \rVert = \lVert \nabla f \rVert$
-With equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
+with equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
 
 ### 1.6 Chain Rule
 
@@ -23049,7 +23049,7 @@ f(1/3, 1/3, -1/3) = \frac{1}{9} + \frac{1}{9} + \frac{1}{9} = \frac{1}{3}
 $$
 
 This is the minimum (the Hessian of $f$ is positive definite, and the constraint set is unbounded
-But $f \geq 0$).
+but $f \geq 0$).
 
 If you get this wrong, revise: Section 4.3 Lagrange Multipliers.
 
@@ -23614,7 +23614,7 @@ $$
 
 Where
 $\nabla \cdot \mathbf{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}$
-Is the divergence of $\mathbf{F}$.
+is the divergence of $\mathbf{F}$.
 
 _Proof (sketch for a Type I region)._ Assume $E$ is a Type I region:
 $E = \\{(x,y,z) : (x,y) \in D,\, g_1(x,y) \leq z \leq g_2(x,y)\\}$. The boundary consists of Bottom
@@ -23812,7 +23812,7 @@ The three major integral theorems of vector calculus are deeply connected:
 
 _Remark._ Green's theorem is the planar special case of Stokes' theorem. Stokes' theorem relates the
 Circulation around a curve to the curl through the surface it bounds. The divergence theorem relates
-The flux through a closed surface to the divergence inside the volume it encloses. Together, these
+the flux through a closed surface to the divergence inside the volume it encloses. Together, these
 Form the higher-dimensional analogues of the Fundamental Theorem of Calculus:
 
 $$
@@ -23860,7 +23860,7 @@ URL: https://mathematics.wyattau.com/5-ordinary-differential-equations/10_common
 
 :::caution
 Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 
 :::caution
@@ -23889,7 +23889,7 @@ $y' = x^2 + y^2$ have no closed-form solution in terms of elementary functions. 
 
 :::caution
 Valid for hyperbolic critical points (no eigenvalues on the imaginary axis). If eigenvalues lie on
-The imaginary axis, the nonlinear system can behave very differently from its linearization.
+the imaginary axis, the nonlinear system can behave very differently from its linearization.
 :::
 
 :::caution
@@ -24311,7 +24311,7 @@ Solution: $x^3y + x^2y^2 = C$. $\blacksquare$
 ### 2.16 Orthogonal Trajectories
 
 Given a one-parameter family of curves $F(x, y, C) = 0$ The **orthogonal trajectories** are curves
-That intersect every member of the family at right angles. To find them:
+that intersect every member of the family at right angles. To find them:
 
 1. Find the differential equation $\frac{dy}{dx} = f(x, y)$ of the given family.
 2. Replace $\frac{dy}{dx}$ with $-\frac{dx}{dy}$ (equivalently, negate the slope).
@@ -25039,7 +25039,7 @@ An ODE is:
 
 An **initial value problem (IVP)** specifies the value of the function (and possibly its
 Derivatives) at a single point. A **boundary value problem (BVP)** specifies conditions at two or
-More points.
+more points.
 
 ### 1.4 Examples from Physics and Biology
 
@@ -25236,7 +25236,7 @@ With boundary conditions $u(0, t) = u(L, t) = 0$ and initial condition $u(x, 0) 
 
 Consider a thin rod of length $L$ with uniform cross-section and density $\rho$. Let $u(x, t)$ be
 the Temperature at position $x$ and time $t$. By **Fourier's law of heat conduction**, the heat flux
-Through a cross-section is proportional to the negative temperature gradient:
+through a cross-section is proportional to the negative temperature gradient:
 
 $$
 q = -\kappa u_x
@@ -26206,7 +26206,7 @@ Classify the ODE $y"' + xy' + e^x y = \cos x$ by order, linearity, and homogenei
 <summary>Solution</summary>
 
 _Solution._ Second-order (highest derivative is $y''$), linear ($y$, $y'$, $y''$ appear linearly
-With coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
+with coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.2 (Classification of ODEs).
 
@@ -26976,7 +26976,7 @@ Then $y_p' = u_1 y_1' + u_2 y_2'$ and $y_p'' = u_1' y_1' + u_1 y_1'' + u_2' y_2'
 Substituting into the ODE:
 $(u_1'y_1' + u_2'y_2') + u_1(y_1'' + py_1' + qy_1) + u_2(y_2'' + py_2' + qy_2) = g$. Since
 $y_1, y_2$ satisfy the homogeneous equation, this reduces to $u_1'y_1' + u_2'y_2' = g$. Together
-With $u_1'y_1 + u_2'y_2 = 0$ Solving gives the formulas above. $\blacksquare$
+with $u_1'y_1 + u_2'y_2 = 0$ Solving gives the formulas above. $\blacksquare$
 
 ### 3.11 Worked Example: Variation of Parameters
 
@@ -27200,7 +27200,7 @@ $y = t\sin(3t)$. $\blacksquare$
 Common Pitfall When using undetermined coefficients, always check whether your guess
 
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 </Aside>
 
 <Aside type="caution">
@@ -27567,7 +27567,7 @@ $t \to \infty$.
 
 **Theorem 9.1 (Lyapunov).** If there exists a continuously differentiable function $V$ (a **Lyapunov
 Function**) such that $V(\mathbf{x}^*) = 0$, $V(\mathbf{x}) > 0$ for $\mathbf{x} \neq \mathbf{x}^*$
-And $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
+and $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
 $\dot{V} \lt 0$ for $\mathbf{x} \neq \mathbf{x}^*$ Then $\mathbf{x}^*$ is asymptotically stable.
 
 ### 9.4 Worked Example: Linearization
@@ -28219,7 +28219,7 @@ Where the sum is over poles in the upper half-plane.
 
 _Proof._ Integrate $f(z)$ over the semicircular contour $\gamma_R$ consisting of $[-R, R]$ on the
 Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$ The integral over
-The semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
+the semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
 
 ### 9.3 Worked Example
 
@@ -28902,7 +28902,7 @@ $$
 
 **Theorem 5.5 (Deformation of Contours).** If $f$ is analytic on a domain containing two simple
 Closed contours $\gamma_1$ and $\gamma_2$ where one can be continuously deformed into the other
-Within the domain of analyticity of $f$ Then
+within the domain of analyticity of $f$ Then
 
 $$
 \int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz
@@ -29062,7 +29062,7 @@ URL: https://mathematics.wyattau.com/6-complex-analysis/14_common-pitfalls/
 :::caution
 Differentiability. The partial derivatives must also be continuous. For example,
 $f(z) = \exp(-1/z^4)$ extended by $f(0) = 0$ satisfies the Cauchy-Riemann equations at the origin
-But is not differentiable there.
+but is not differentiable there.
 :::
 
 :::caution
@@ -29089,7 +29089,7 @@ Point. At $z = 0$ It is not conformal because $f'(0) = 0$.
 :::caution
 Interior, but the minimum can occur in the interior (e.g., $f(z) = z$ on the unit disk has minimum
 $|f| = 0$ at $z = 0$). For the minimum principle, one needs the additional hypothesis that $f$ has
-No zeros in the domain.
+no zeros in the domain.
 :::
 
 :::caution
@@ -29250,7 +29250,7 @@ The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$ There
 $\delta \gt 0$ Such that $0 \lt |z - z_0| \lt \delta$ implies $|f(z) - L| \lt \varepsilon$.
 
 Unlike the real case, $z$ can approach $z_0$ from any direction in $\mathbb{C}$. This makes limits
-More restrictive.
+more restrictive.
 
 **Proposition 2.1.** $\lim_{z \to z_0} f(z) = L$ if and only if
 $\lim_{(x,y) \to (x_0, y_0)} u(x, y) = a$ And $\lim_{(x,y) \to (x_0, y_0)} v(x, y) = b$ where
@@ -29291,7 +29291,7 @@ Makes complex differentiability far more restrictive than real differentiability
 
 **Definition.** A function $f$ is **analytic** (or **holomorphic**) on an open set
 $U \subseteq \mathbb{C}$ if $f$ is differentiable at every point of $U$. A function that is analytic
-On all of $\mathbb{C}$ is called **entire**.
+on all of $\mathbb{C}$ is called **entire**.
 
 **Examples of entire functions:** $z^n$, $e^z$, $\sin z$, $\cos z$ Polynomials.
 
@@ -29788,7 +29788,7 @@ $= 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta$.
 
 **Problem.** Show that
 $\sum_{k=0}^{n-1} \cos(k\theta) = \frac{\sin(n\theta/2)}{\sin(\theta/2)}\cos\!\left(\frac{(n-1)\theta}{2}\right)$
-For $\theta \notin 2\pi\mathbb{Z}$.
+for $\theta \notin 2\pi\mathbb{Z}$.
 
 Consider $S = \sum_{k=0}^{n-1} e^{ik\theta} = \frac{1 - e^{in\theta}}{1 - e^{i\theta}}$ (geometric
 series with $r = e^{i\theta} \neq 1$).
@@ -29862,7 +29862,7 @@ $z_0 = 2\,e^{i\pi/8}$, $z_1 = 2\,e^{i5\pi/8}$, $z_2 = 2\,e^{i9\pi/8}$, $z_3 = 2\
 
 The roots are
 $z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n} = z_0 \cdot \left(e^{2\pi i/n}\right)^k = z_0 \cdot \omega^k$
-Where $\omega = e^{2\pi i/n}$ is a primitive $n$-th root of unity. This is a geometric sequence With
+where $\omega = e^{2\pi i/n}$ is a primitive $n$-th root of unity. This is a geometric sequence With
 ratio $\omega$.
 
 </details>
@@ -29935,7 +29935,7 @@ Mapping preserves angles (both magnitude and orientation) between curves.
 ### 10.2 Geometric Interpretation
 
 If $f'(z_0) = re^{i\theta}$ Then near $z_0$ the mapping $f$ acts as a rotation by $\theta$ followed
-By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
+by a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
 
 ### 10.3 Common Conformal Mappings
 
@@ -31356,7 +31356,7 @@ Evaluate $\int_\gamma \frac{e^z \sin z}{(z - \pi)^3}\, dz$ where $\gamma$ is $|z
 Only $z = \pi$ is inside $\gamma$ (a pole of order $3$).
 
 By CIF for derivatives: $\int_\gamma \frac{f(z)}{(z - \pi)^3}\, dz = \frac{2\pi i}{2!}\,f''(\pi)$
-Where $f(z) = e^z \sin z$.
+where $f(z) = e^z \sin z$.
 
 $f'(z) = e^z \sin z + e^z \cos z = e^z(\sin z + \cos z)$.
 $f''(z) = e^z(\sin z + \cos z) + e^z(\cos z - \sin z) = 2e^z \cos z$.
@@ -31564,7 +31564,7 @@ At $z = 2$ (simple pole): $\mathrm{Res} = \frac{e^2}{(2-1)^2} = e^2$.
 
 **Theorem 8.4 (Residue Theorem).** If $f$ is analytic inside and on a simple closed positively
 Oriented contour $\gamma$ except for isolated singularities $z_1, z_2, \ldots, z_n$ inside $\gamma$
-Then
+then
 
 $$
 \int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)
@@ -31930,7 +31930,7 @@ f'(z) = \lim_{k \to 0} \frac{u(x, y+k) - u(x, y)}{ik} + i\lim_{k \to 0} \frac{v(
 $$
 
 Equating real and imaginary parts: $\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}$
-And $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
+and $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
 
 ### 3.2 Sufficiency Condition
 
@@ -35676,7 +35676,7 @@ $$
 And $\int_{-\infty}^{\infty} f_X(x)\, dx = 1$.
 
 Note: $f_X(x)$ is not a probability; it is a probability density. For continuous $X$, $P(X = x) = 0$
-For any individual $x$.
+for any individual $x$.
 
 ### 2.5 Functions of Random Variables
 
@@ -36246,7 +36246,7 @@ $Y$ have the same distribution.
 **Theorem 4.5.** If $X$ and $Y$ are independent, $M_{X+Y}(t) = M_X(t) M_Y(t)$.
 
 _Proof._ $M_{X+Y}(t) = E[e^{t(X+Y)}] = E[e^{tX} e^{tY}] = E[e^{tX}]\, E[e^{tY}] = M_X(t)\, M_Y(t)$
-Where the third equality uses independence. $\blacksquare$
+where the third equality uses independence. $\blacksquare$
 
 ### 4.4 Important Inequalities
 
@@ -36903,7 +36903,7 @@ _Proof sketch._ By the law of large numbers,
 $\frac{1}{n}\ell(\theta) \xrightarrow{p} E_{\theta_0}[\log f(X \mid \theta)]$ For each $\theta$. The
 Kullback-Leibler divergence
 $D(\theta_0 \| \theta) = -E_{\theta_0}[\log f(X \mid \theta)] + E_{\theta_0}[\log f(X \mid \theta_0)]$
-Is minimised (at zero) when $\theta = \theta_0$ by the information inequality. Therefore the
+is minimised (at zero) when $\theta = \theta_0$ by the information inequality. Therefore the
 maximiser of $\ell(\theta)$ converges in probability to $\theta_0$.
 
 **Theorem 7.2 (Asymptotic Normality).** Under regularity conditions:
@@ -41955,7 +41955,7 @@ $= 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta$.
 
 **Problem.** Show that
 $\sum_{k=0}^{n-1} \cos(k\theta) = \frac{\sin(n\theta/2)}{\sin(\theta/2)}\cos\!\left(\frac{(n-1)\theta}{2}\right)$
-For $\theta \notin 2\pi\mathbb{Z}$.
+for $\theta \notin 2\pi\mathbb{Z}$.
 
 Consider $S = \sum_{k=0}^{n-1} e^{ik\theta} = \frac{1 - e^{in\theta}}{1 - e^{i\theta}}$ (geometric
 series with $r = e^{i\theta} \neq 1$).
@@ -42029,7 +42029,7 @@ $z_0 = 2\,e^{i\pi/8}$, $z_1 = 2\,e^{i5\pi/8}$, $z_2 = 2\,e^{i9\pi/8}$, $z_3 = 2\
 
 The roots are
 $z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n} = z_0 \cdot \left(e^{2\pi i/n}\right)^k = z_0 \cdot \omega^k$
-Where $\omega = e^{2\pi i/n}$ is a primitive $n$-th root of unity. This is a geometric sequence With
+where $\omega = e^{2\pi i/n}$ is a primitive $n$-th root of unity. This is a geometric sequence With
 ratio $\omega$.
 
 </details>
@@ -42053,7 +42053,7 @@ The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$ There
 $\delta \gt 0$ Such that $0 \lt |z - z_0| \lt \delta$ implies $|f(z) - L| \lt \varepsilon$.
 
 Unlike the real case, $z$ can approach $z_0$ from any direction in $\mathbb{C}$. This makes limits
-More restrictive.
+more restrictive.
 
 **Proposition 2.1.** $\lim_{z \to z_0} f(z) = L$ if and only if
 $\lim_{(x,y) \to (x_0, y_0)} u(x, y) = a$ And $\lim_{(x,y) \to (x_0, y_0)} v(x, y) = b$ where
@@ -42094,7 +42094,7 @@ Makes complex differentiability far more restrictive than real differentiability
 
 **Definition.** A function $f$ is **analytic** (or **holomorphic**) on an open set
 $U \subseteq \mathbb{C}$ if $f$ is differentiable at every point of $U$. A function that is analytic
-On all of $\mathbb{C}$ is called **entire**.
+on all of $\mathbb{C}$ is called **entire**.
 
 **Examples of entire functions:** $z^n$, $e^z$, $\sin z$, $\cos z$ Polynomials.
 
@@ -42204,7 +42204,7 @@ f'(z) = \lim_{k \to 0} \frac{u(x, y+k) - u(x, y)}{ik} + i\lim_{k \to 0} \frac{v(
 $$
 
 Equating real and imaginary parts: $\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}$
-And $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
+and $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
 
 ### 3.2 Sufficiency Condition
 
@@ -42551,7 +42551,7 @@ $$
 
 **Theorem 5.5 (Deformation of Contours).** If $f$ is analytic on a domain containing two simple
 Closed contours $\gamma_1$ and $\gamma_2$ where one can be continuously deformed into the other
-Within the domain of analyticity of $f$ Then
+within the domain of analyticity of $f$ Then
 
 $$
 \int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz
@@ -43001,7 +43001,7 @@ At $z = 2$ (simple pole): $\mathrm{Res} = \frac{e^2}{(2-1)^2} = e^2$.
 
 **Theorem 8.4 (Residue Theorem).** If $f$ is analytic inside and on a simple closed positively
 Oriented contour $\gamma$ except for isolated singularities $z_1, z_2, \ldots, z_n$ inside $\gamma$
-Then
+then
 
 $$
 \int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)
@@ -43060,7 +43060,7 @@ Where the sum is over poles in the upper half-plane.
 
 _Proof._ Integrate $f(z)$ over the semicircular contour $\gamma_R$ consisting of $[-R, R]$ on the
 Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$ The integral over
-The semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
+the semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
 
 ### 9.3 Worked Example
 
@@ -43201,7 +43201,7 @@ Mapping preserves angles (both magnitude and orientation) between curves.
 ### 10.2 Geometric Interpretation
 
 If $f'(z_0) = re^{i\theta}$ Then near $z_0$ the mapping $f$ acts as a rotation by $\theta$ followed
-By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
+by a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
 
 ### 10.3 Common Conformal Mappings
 
@@ -43413,7 +43413,7 @@ Continuation** of $f_1$.
 With a limit point in $D$ Then $f = g$ on all of $D$.
 
 _Proof._ Let $E = \{z \in D : f^{(n)}(z) = g^{(n)}(z) \mathrm{\ for\ all\ } n \geq 0\}$. $E$ is
-Non-empty (it contains the limit point by continuity of derivatives). $E$ is closed (by continuity).
+non-empty (it contains the limit point by continuity of derivatives). $E$ is closed (by continuity).
 If $z_0 \in E$ The Taylor series of $f$ and $g$ at $z_0$ coincide, so $f = g$ in a neighbourhood of
 $z_0$ Giving $E$ open. Since $D$ is connected, $E = D$. $\blacksquare$
 
@@ -43422,7 +43422,7 @@ $z_0$ Giving $E$ open. Since $D$ is connected, $E = D$. $\blacksquare$
 :::caution
 Differentiability. The partial derivatives must also be continuous. For example,
 $f(z) = \exp(-1/z^4)$ extended by $f(0) = 0$ satisfies the Cauchy-Riemann equations at the origin
-But is not differentiable there.
+but is not differentiable there.
 :::
 
 :::caution
@@ -43449,7 +43449,7 @@ Point. At $z = 0$ It is not conformal because $f'(0) = 0$.
 :::caution
 Interior, but the minimum can occur in the interior (e.g., $f(z) = z$ on the unit disk has minimum
 $|f| = 0$ at $z = 0$). For the minimum principle, one needs the additional hypothesis that $f$ has
-No zeros in the domain.
+no zeros in the domain.
 :::
 
 :::caution
@@ -43864,7 +43864,7 @@ Evaluate $\int_\gamma \frac{e^z \sin z}{(z - \pi)^3}\, dz$ where $\gamma$ is $|z
 Only $z = \pi$ is inside $\gamma$ (a pole of order $3$).
 
 By CIF for derivatives: $\int_\gamma \frac{f(z)}{(z - \pi)^3}\, dz = \frac{2\pi i}{2!}\,f''(\pi)$
-Where $f(z) = e^z \sin z$.
+where $f(z) = e^z \sin z$.
 
 $f'(z) = e^z \sin z + e^z \cos z = e^z(\sin z + \cos z)$.
 $f''(z) = e^z(\sin z + \cos z) + e^z(\cos z - \sin z) = 2e^z \cos z$.
@@ -43990,7 +43990,7 @@ An ODE is:
 
 An **initial value problem (IVP)** specifies the value of the function (and possibly its
 Derivatives) at a single point. A **boundary value problem (BVP)** specifies conditions at two or
-More points.
+more points.
 
 ### 1.4 Examples from Physics and Biology
 
@@ -44338,7 +44338,7 @@ Solution: $x^3y + x^2y^2 = C$. $\blacksquare$
 ### 2.16 Orthogonal Trajectories
 
 Given a one-parameter family of curves $F(x, y, C) = 0$ The **orthogonal trajectories** are curves
-That intersect every member of the family at right angles. To find them:
+that intersect every member of the family at right angles. To find them:
 
 1. Find the differential equation $\frac{dy}{dx} = f(x, y)$ of the given family.
 2. Replace $\frac{dy}{dx}$ with $-\frac{dx}{dy}$ (equivalently, negate the slope).
@@ -44611,7 +44611,7 @@ Then $y_p' = u_1 y_1' + u_2 y_2'$ and $y_p'' = u_1' y_1' + u_1 y_1'' + u_2' y_2'
 Substituting into the ODE:
 $(u_1'y_1' + u_2'y_2') + u_1(y_1'' + py_1' + qy_1) + u_2(y_2'' + py_2' + qy_2) = g$. Since
 $y_1, y_2$ satisfy the homogeneous equation, this reduces to $u_1'y_1' + u_2'y_2' = g$. Together
-With $u_1'y_1 + u_2'y_2 = 0$ Solving gives the formulas above. $\blacksquare$
+with $u_1'y_1 + u_2'y_2 = 0$ Solving gives the formulas above. $\blacksquare$
 
 ### 3.11 Worked Example: Variation of Parameters
 
@@ -44754,7 +44754,7 @@ The homogeneous solution depends on the discriminant $\gamma^2 - \omega_0^2$:
 
 :::caution
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 
 :::caution
@@ -45640,7 +45640,7 @@ With boundary conditions $u(0, t) = u(L, t) = 0$ and initial condition $u(x, 0) 
 
 Consider a thin rod of length $L$ with uniform cross-section and density $\rho$. Let $u(x, t)$ be
 the Temperature at position $x$ and time $t$. By **Fourier's law of heat conduction**, the heat flux
-Through a cross-section is proportional to the negative temperature gradient:
+through a cross-section is proportional to the negative temperature gradient:
 
 $$
 q = -\kappa u_x
@@ -45935,7 +45935,7 @@ $t \to \infty$.
 
 **Theorem 9.1 (Lyapunov).** If there exists a continuously differentiable function $V$ (a **Lyapunov
 Function**) such that $V(\mathbf{x}^*) = 0$, $V(\mathbf{x}) > 0$ for $\mathbf{x} \neq \mathbf{x}^*$
-And $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
+and $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
 $\dot{V} \lt 0$ for $\mathbf{x} \neq \mathbf{x}^*$ Then $\mathbf{x}^*$ is asymptotically stable.
 
 ### 9.4 Worked Example: Linearization
@@ -46053,7 +46053,7 @@ extinction (competitive exclusion).
 
 :::caution
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 
 :::caution
@@ -46082,7 +46082,7 @@ $y' = x^2 + y^2$ have no closed-form solution in terms of elementary functions. 
 
 :::caution
 Valid for hyperbolic critical points (no eigenvalues on the imaginary axis). If eigenvalues lie on
-The imaginary axis, the nonlinear system can behave very differently from its linearization.
+the imaginary axis, the nonlinear system can behave very differently from its linearization.
 :::
 
 :::caution
@@ -46167,7 +46167,7 @@ Classify the ODE $y'' + xy' + e^x y = \cos x$ by order, linearity, and homogenei
 <summary>Solution</summary>
 
 _Solution._ Second-order (highest derivative is $y''$), linear ($y$, $y'$, $y''$ appear linearly
-With coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
+with coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.2 (Classification of ODEs).
 
@@ -47593,7 +47593,7 @@ Infinite-dimensional analogue of $\mathbb{R}^n$ and is fundamental in functional
 ### 1.3 Subspaces
 
 A **subspace** $W$ of a vector space $V$ is a subset $W \subseteq V$ that is itself a vector space
-Under the same operations.
+under the same operations.
 
 **Theorem 1.1 (Subspace Criterion).** A non-empty subset $W \subseteq V$ is a subspace if and only
 If for all $\mathbf{u}, \mathbf{v} \in W$ and all $\alpha \in F$:
@@ -47602,14 +47602,14 @@ If for all $\mathbf{u}, \mathbf{v} \in W$ and all $\alpha \in F$:
 2. $\alpha \mathbf{u} \in W$ (closed under scalar multiplication)
 
 _Proof._ If $W$ is a subspace, closure is immediate from the definition. Conversely, if $W$ is
-Non-empty and closed under both operations, pick $\mathbf{u} \in W$. Then
+non-empty and closed under both operations, pick $\mathbf{u} \in W$. Then
 $-\mathbf{u} = (-1)\mathbf{u} \in W$ By closure under scalar multiplication, and
 $\mathbf{u} + (-\mathbf{u}) = \mathbf{0} \in W$ by closure Under addition. The remaining axioms are
 inherited from $V$. $\blacksquare$
 
 **Proposition 1.2 (Closure under Linear Combinations).** If $W$ is a subspace of $V$ Then $W$ is
 Closed under all finite linear combinations: for all $\mathbf{v}_1, \ldots, \mathbf{v}_k \in W$ and
-All $\alpha_1, \ldots, \alpha_k \in F$
+all $\alpha_1, \ldots, \alpha_k \in F$
 
 $$
 \alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W
@@ -47661,7 +47661,7 @@ subspace.
 
 **(b)** $W_2$ is not a subspace. For instance, $(1, 0, 0) \in W_2$ since $1^2 + 0^2 = 1$ But
 $2 \cdot (1, 0, 0) = (2, 0, 0) \notin W_2$ since $2^2 + 0^2 = 4 \neq 1$. So $W_2$ is not closed
-Under scalar multiplication.
+under scalar multiplication.
 
 **(c)** Let $\mathbf{u} = (0, a, a)$ and $\mathbf{v} = (0, b, b)$ be in $W_3$. Then
 $\mathbf{u} + \mathbf{v} = (0, a + b, a + b) \in W_3$ and
@@ -47688,7 +47688,7 @@ $U \cap W = \{(x, y, z) : z = 0 \mathrm{~and~} x = 0\} = \{(0, y, 0) : y \in \ma
 basis $\{(0, 1, 0)\}$ and dimension 1.
 
 $U + W = \mathrm{span}\{(1,0,0), (0,1,0), (0,1,0), (0,0,1)\} = \mathrm{span}\{(1,0,0), (0,1,0), (0,0,1)\} = \mathbb{R}^3$
-So $\dim(U + W) = 3$.
+so $\dim(U + W) = 3$.
 
 Verify: $\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W) = 2 + 2 - 1 = 3$. $\checkmark$
 $\blacksquare$
@@ -48259,7 +48259,7 @@ $\det(A) = \prod_{i=1}^n a_{ii}$.
 
 _Proof._ By repeated cofactor expansion along the first column (for upper triangular), or induction.
 At each step, all terms involving off-diagonal entries vanish due to the zero structure, leaving
-Only the product of diagonal entries. $\blacksquare$
+only the product of diagonal entries. $\blacksquare$
 
 ### 3.9 Common Pitfalls
 
@@ -48567,7 +48567,7 @@ $$
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
 The **eigenspace** corresponding to $\lambda$ is $E_\lambda = \ker(A - \lambda I)$. Its dimension is
-The **geometric multiplicity** of $\lambda$.
+the **geometric multiplicity** of $\lambda$.
 
 ### 5.2 Characteristic Polynomial
 
@@ -48578,7 +48578,7 @@ $A$. Its roots (in the algebraic closure of $F$) are the eigenvalues of $A$.
 
 If
 $p(\lambda) = (\\lambda - \\lambda_1)^{m_1}(\\lambda - \\lambda_2)^{m_2}\cdots(\\lambda - \\lambda_k)^{m_k}$
-With $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
+with $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
 $\\lambda_i$.
 
 **Proposition 5.2.** For each eigenvalue $\lambda$, $1 \leq \mathrm{dim}(E_\lambda) \leq m_\lambda$
@@ -48884,7 +48884,7 @@ $\blacksquare$
 ### 6.1 Definition
 
 A **linear transformation** (or linear map) $T : V \to W$ between vector spaces $V$ and $W$ over $F$
-Is a function satisfying:
+is a function satisfying:
 
 1. $T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$ for all
    $\mathbf{u}, \mathbf{v} \in V$
@@ -48987,7 +48987,7 @@ $$
 $$
 
 This is the **similarity transformation**. Similar matrices represent the same linear transformation
-In different bases and share the same eigenvalues, determinant, and trace.
+in different bases and share the same eigenvalues, determinant, and trace.
 
 ### 6.7 Worked Example: Matrix of a Transformation with Change of Basis
 
@@ -49889,7 +49889,7 @@ $$
 $$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
-Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
+non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
 inconsistent.
 
 _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._
@@ -50317,7 +50317,7 @@ $$
 $$
 
 Similarly, by reversing the order of application, there exist $\theta_3, \theta_4 \in (0,1)$ such
-That
+that
 
 $$
 \Delta(h, k) = hk \cdot f_{yx}(a + \theta_3 h,\, b + \theta_4 k)
@@ -50348,7 +50348,7 @@ $$
 When $f$ is differentiable at $\mathbf{a}$ The linear map $L$ is given by the gradient.
 
 _Remark._ Existence of all partial derivatives at a point does **not** imply differentiability at
-That point. The canonical counterexample is
+that point. The canonical counterexample is
 
 $$
 f(x,y) = \begin{cases} \dfrac{xy}{x^2 + y^2} & \mathrm{if\ }(x,y) \neq (0,0), \\ 0 & \mathrm{if\ }(x,y) = (0,0). \end{cases}
@@ -50423,7 +50423,7 @@ $\lVert \nabla f \rVert$ Is the rate of steepest ascent.
 
 _Proof._ By the Cauchy--Schwarz inequality,
 $\lvert \nabla f \cdot \mathbf{u} \rvert \leq \lVert \nabla f \rVert \cdot \lVert \mathbf{u} \rVert = \lVert \nabla f \rVert$
-With equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
+with equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
 
 ### 1.6 Chain Rule
 
@@ -51344,7 +51344,7 @@ $$
 
 Where
 $\nabla \cdot \mathbf{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}$
-Is the divergence of $\mathbf{F}$.
+is the divergence of $\mathbf{F}$.
 
 _Proof (sketch for a Type I region)._ Assume $E$ is a Type I region:
 $E = \\{(x,y,z) : (x,y) \in D,\, g_1(x,y) \leq z \leq g_2(x,y)\\}$. The boundary consists of Bottom
@@ -51512,7 +51512,7 @@ The three major integral theorems of vector calculus are deeply connected:
 
 _Remark._ Green's theorem is the planar special case of Stokes' theorem. Stokes' theorem relates the
 Circulation around a curve to the curl through the surface it bounds. The divergence theorem relates
-The flux through a closed surface to the divergence inside the volume it encloses. Together, these
+the flux through a closed surface to the divergence inside the volume it encloses. Together, these
 Form the higher-dimensional analogues of the Fundamental Theorem of Calculus:
 
 $$
@@ -52573,7 +52573,7 @@ f(1/3, 1/3, -1/3) = \frac{1}{9} + \frac{1}{9} + \frac{1}{9} = \frac{1}{3}
 $$
 
 This is the minimum (the Hessian of $f$ is positive definite, and the constraint set is unbounded
-But $f \geq 0$).
+but $f \geq 0$).
 
 If you get this wrong, revise: Section 4.3 Lagrange Multipliers.
 
@@ -55120,7 +55120,7 @@ $$
 And $\int_{-\infty}^{\infty} f_X(x)\, dx = 1$.
 
 Note: $f_X(x)$ is not a probability; it is a probability density. For continuous $X$, $P(X = x) = 0$
-For any individual $x$.
+for any individual $x$.
 
 ### 2.5 Functions of Random Variables
 
@@ -55689,7 +55689,7 @@ $Y$ have the same distribution.
 **Theorem 4.5.** If $X$ and $Y$ are independent, $M_{X+Y}(t) = M_X(t) M_Y(t)$.
 
 _Proof._ $M_{X+Y}(t) = E[e^{t(X+Y)}] = E[e^{tX} e^{tY}] = E[e^{tX}]\, E[e^{tY}] = M_X(t)\, M_Y(t)$
-Where the third equality uses independence. $\blacksquare$
+where the third equality uses independence. $\blacksquare$
 
 ### 4.4 Important Inequalities
 
@@ -56119,7 +56119,7 @@ $$
 $\lim_{n \to \infty} F_{X_n}(x) = F_X(x)$ at all Continuity points of $F_X$.
 
 _Remark._ Convergence in probability implies convergence in distribution. The converse does not hold
-But does hold when the limit is a constant.
+but does hold when the limit is a constant.
 
 **Proposition 6.1.** If $X_n \xrightarrow{p} c$ (a constant), then $X_n \xrightarrow{d} c$.
 
@@ -56346,7 +56346,7 @@ _Proof sketch._ By the law of large numbers,
 $\frac{1}{n}\ell(\theta) \xrightarrow{p} E_{\theta_0}[\log f(X \mid \theta)]$ For each $\theta$. The
 Kullback-Leibler divergence
 $D(\theta_0 \| \theta) = -E_{\theta_0}[\log f(X \mid \theta)] + E_{\theta_0}[\log f(X \mid \theta_0)]$
-Is minimised (at zero) when $\theta = \theta_0$ by the information inequality. Therefore the
+is minimised (at zero) when $\theta = \theta_0$ by the information inequality. Therefore the
 maximiser of $\ell(\theta)$ converges in probability to $\theta_0$.
 
 **Theorem 7.2 (Asymptotic Normality).** Under regularity conditions:
@@ -57493,7 +57493,7 @@ URL: https://mathematics.wyattau.com/real-analysis/
 ### 1.1 Field Axioms
 
 The real numbers $\mathbb{R}$ form a **complete ordered field**. The field axioms guarantee closure
-Under addition, subtraction, multiplication, and division (by non-zero elements), together with the
+under addition, subtraction, multiplication, and division (by non-zero elements), together with the
 Usual commutative, associative, and distributive laws.
 
 ### 1.2 Order and the Completeness Axiom
@@ -57532,7 +57532,7 @@ $l \leq s$ for all $s \in S$.
 Exists $s \in S$ such that $u - \varepsilon \lt s \leq u$.
 
 _Proof._ If no such $s$ existed, then $u - \varepsilon$ would be an upper bound of $S$ strictly less
-Than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
+than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
 
 **Example.** Let $S = \{x \in \mathbb{R} : x^2 \lt 2\}$. Then $\sup(S) = \sqrt{2}$. Note that
 $\sqrt{2}
@@ -57545,7 +57545,7 @@ Such that $n \gt x$.
 
 _Proof._ Suppose, for contradiction, that $\mathbb{N}$ is bounded above. By the completeness axiom,
 $s = \sup(\mathbb{N})$ exists in $\mathbb{R}$. Then $s - 1$ is not an upper bound for $\mathbb{N}$
-So there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
+so there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
 Contradicting that $s$ is an upper bound. $\blacksquare$
 
 **Corollary 1.2.** For every $\varepsilon > 0$ There exists $n \in \mathbb{N}$ such that
@@ -57581,7 +57581,7 @@ Where $-S = \{-s : s \in S\}$.
 
 _Proof._ Let $u = \sup(-S)$. Then $-s \leq u$ for all $s \in S$ So $s \geq -u$ for all $s \in S$
 Meaning $-u$ is a lower bound for $S$. If $v$ is any lower bound for $S$ Then $-v$ is an upper bound
-For $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
+for $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Find $\sup$ and $\inf$ of $S = \{(-1)^n + 1/n : n \in \mathbb{N}\}$</summary>
@@ -57600,7 +57600,7 @@ odd-indexed term, $\inf(S) = -1$ (approached but not attained). $\blacksquare$
 ### 1.6 Construction of $\mathbb{R}$ via Dedekind Cuts
 
 _Remark._ The following outline shows how $\mathbb{R}$ can be constructed from $\mathbb{Q}$ Making
-The completeness axiom a theorem rather than an axiom.
+the completeness axiom a theorem rather than an axiom.
 
 **Definition (Dedekind Cut).** A **Dedekind cut** is a subset $\alpha \subseteq \mathbb{Q}$
 satisfying:
@@ -57663,7 +57663,7 @@ the set, but $\sup(0, 1) = 1$ Which does not belong to $(0, 1)$.
 ### 2.1 Convergence
 
 A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
-Every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
+every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
 
 $$
 |a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
@@ -57687,7 +57687,7 @@ A contradiction. $\blacksquare$
 **Proposition 2.2.** Every convergent sequence is bounded.
 
 _Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$ There exists $N$ such that $|a_n - L| \lt 1$ for
-All $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
+all $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
 $M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$. Then $|a_n| \leq M$ for all $n$.
 $\blacksquare$
 
@@ -57727,7 +57727,7 @@ $$
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
 _Proof._ Let $a_n \to L$. Given $\varepsilon > 0$ Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
-For all $n \geq N$. Then for $m, n \geq N$:
+for all $n \geq N$. Then for $m, n \geq N$:
 $|a_n - a_m| \leq |a_n - L| + |a_m - L| \lt \varepsilon$. $\blacksquare$
 
 **Theorem 2.5 (Cauchy Completeness of $\mathbb{R}$).** Every Cauchy sequence in $\mathbb{R}$
@@ -57792,7 +57792,7 @@ $$
 
 _Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. Taking supremum over
 $n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
-The right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
+the right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
 
 **Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$ In which case the
 Common value equals $\lim a_n$.
@@ -57804,7 +57804,7 @@ Since $\varepsilon > 0$ is arbitrary, $\limsup a_n \leq L$. Similarly $\liminf a
 with Proposition 2.5, $\liminf a_n = \limsup a_n = L$.
 
 Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$ There exists $N_1$
-With $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
+with $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
 $\inf_{k \geq n} a_k > L - \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
 
@@ -57938,7 +57938,7 @@ such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$ I.e., $|a_n| \lt r^n$. Sinc
 converges (geometric series with $r \lt 1$), the comparison test gives absolute convergence.
 
 If $L > 1$ Then for infinitely many $n$: $\sqrt[n]{|a_n|} > 1$ So $|a_n| > 1$. Hence $a_n \not\to 0$
-And the series diverges. $\blacksquare$
+and the series diverges. $\blacksquare$
 
 **Theorem 3.5 (Integral Test).** If $f : [1, \infty) \to [0, \infty)$ is positive, continuous, and
 Decreasing, then $\sum_{n=1}^{\infty} f(n)$ converges if and only if $\int_1^{\infty} f(x)\, dx$
@@ -58032,8 +58032,8 @@ _Proof (outline)._ Let $P = \{n : a_n > 0\}$ and $N = \{n : a_n \lt 0\}$. Since 
 Conditionally, both $\sum_{n \in P} a_n = +\infty$ and $\sum_{n \in N} a_n = -\infty$.
 
 To achieve sum $L \in \mathbb{R}$: take positive terms in order until the partial sum exceeds $L$
-Then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
-The positive and negative subseries diverge, this process can always continue. The terms tend to
+then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
+the positive and negative subseries diverge, this process can always continue. The terms tend to
 Zero (since the series converges), so the oscillations around $L$ shrink to zero. $\blacksquare$
 
 _Remark._ By contrast, every rearrangement of an absolutely convergent series converges to the same
@@ -58128,7 +58128,7 @@ cases, try the comparison Test, integral test, or other methods. For example, $\
 ### 4.1 Limits of Functions
 
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
-Every $\varepsilon > 0$ There exists $\delta > 0$ such that
+every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
 $$
 0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
@@ -58155,7 +58155,7 @@ Classified as:
 
 **Proposition 4.3.** Polynomials are continuous on $\mathbb{R}$. Rational functions $p(x)/q(x)$ are
 Continuous wherever $q(x) \neq 0$. The functions $\sin x$, $\cos x$, $e^x$, $\ln x$ are continuous
-On their domains.
+on their domains.
 
 **Theorem 4.1 (Algebra of Continuous Functions).** If $f$ and $g$ are continuous at $a$ Then $f+g$
 $f-g$, $fg$ And (where defined) $f/g$ are continuous at $a$.
@@ -58199,7 +58199,7 @@ $x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$ Contradicting th
 
 If $f(c) > y$ Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
 $x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$ Contradicting
-That $c = \sup(S)$.
+that $c = \sup(S)$.
 
 Therefore $f(c) = y$. $\blacksquare$
 
@@ -58270,7 +58270,7 @@ $|\sqrt{x} - \sqrt{y}| = \frac{|x - y|}{\sqrt{x} + \sqrt{y}} \leq |x - y|^{1/2}$
 
 Given $\varepsilon > 0$ Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
 $|\sqrt{x} - \sqrt{y}| \leq \sqrt{|x-y|} \lt \sqrt{\delta} = \varepsilon$. Since $\delta$ depends
-Only on $\varepsilon$ The continuity is uniform. $\blacksquare$
+only on $\varepsilon$ The continuity is uniform. $\blacksquare$
 
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ proof that $f(x) = 3x - 1$ is continuous at $x = 2$</summary>
@@ -58373,7 +58373,7 @@ continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquar
 
 _Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$ Which follows from the
 Mean Value Theorem applied to $e^t$: $e^u - e^v = e^\xi (u - v)$ for some $\xi$ between $u$ and $v$
-So $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
+so $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
 
 Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$ So $x \lt a + 1$ and
 $e^{\max(x,a)} \leq e^{a+1}$. Choose $\delta = \min(1, \varepsilon / e^{a+1})$. For
@@ -58569,7 +58569,7 @@ Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$ There exist
 $f'(c) = y$.
 
 _Remark._ This means derivatives satisfy the intermediate value property even though they need not
-Be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
+be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
 But $f'$ is not continuous at $0$.
 
 _Proof._ Assume without loss of generality that $f'(a) \lt y \lt f'(b)$. Define $g(x) = f(x) - yx$.
@@ -58596,7 +58596,7 @@ So $f'(0) = 0$. For any $\delta > 0$ The term $-\cos(1/x)$ oscillates between $-
 $(0, \delta)$ So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
 
 But Darboux's theorem says $f'$ has the intermediate value property. Indeed, $f'$ is not continuous
-At $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
+at $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
 Highly discontinuous while retaining the intermediate value property. $\blacksquare$
 
 </details>
@@ -59151,7 +59151,7 @@ Convergence** $R \in [0, \infty]$ such that:
 - The behavior at $|x - a| = R$ must be checked separately
 
 The radius is given by $1/R = \limsup_{n \to \infty} \sqrt[n]{|c_n|}$ (Cauchy-Hadamard formula), or
-When the limit exists, $R = \lim_{n \to \infty} |c_n/c_{n+1}|$.
+when the limit exists, $R = \lim_{n \to \infty} |c_n/c_{n+1}|$.
 
 _Proof._ Apply the root test to $\sum |c_n (x-a)^n|$: $\limsup \sqrt[n]{|c_n|} |x-a| = |x-a|/R$
 (where $1/R = \limsup \sqrt[n]{|c_n|}$). The root test gives convergence when $|x-a|/R \lt 1$ And
@@ -59171,7 +59171,7 @@ $f(x) = \sum_{n=0}^{\infty} c_n (x-a)^n$ Has radius of convergence $R > 0$ Then:
 4. $c_n = f^{(n)}(a)/n!$ (uniqueness of power series coefficients).
 
 _Proof._ The differentiated series $\sum n c_n (x-a)^{n-1}$ has the same radius of convergence as
-The original (by the Cauchy-Hadamard formula, since $\sqrt[n]{n} \to 1$). By Theorem 7.4, the
+the original (by the Cauchy-Hadamard formula, since $\sqrt[n]{n} \to 1$). By Theorem 7.4, the
 Derivative of the sum equals the sum of the derivatives. Parts (2), (3), and (4) follow by Induction
 and the FTC. $\blacksquare$
 
@@ -59191,7 +59191,7 @@ $x \to 1^-$. $\blacksquare$
 
 _Example._ Since $\sum_{k=1}^{\infty} (-1)^{k+1}/k = \ln 2$ Abel's theorem gives
 $\lim_{x \to 1^-} \sum_{k=1}^{\infty} (-1)^{k+1} x^k/k = \ln 2$ I.e., $\ln 2$ is the left-hand limit
-Of $-\ln(1 - x)$ at $x = 1$.
+of $-\ln(1 - x)$ at $x = 1$.
 
 ### 7.8 Taylor Series Convergence
 
@@ -59288,7 +59288,7 @@ $M = \sup A$. For all $x \in A \cup B$: either $x \in A$ So $x \leq \sup A = M$;
 $x \leq \sup B \leq M$. Thus $M$ is an upper bound for $A \cup B$.
 
 For the least property: since $M = \sup A$ and $A \subseteq A \cup B$ Every upper bound of $A \cup B$
-Is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
+is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.3 (Supremum and Infimum), Section 1.5 (Properties).
 
@@ -59507,7 +59507,7 @@ Here is why: $f$ extends continuously to $[0, 1]$ (define $f(0) = 0$). By the He
 
 The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$ Which does not
 Extend continuously to $0$. Or $h(x) = 1/x$ Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
-And has a continuous extension, so it is uniformly continuous. $\blacksquare$
+and has a continuous extension, so it is uniformly continuous. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 4.5 (Uniform Continuity), Section 4.6 (Heine-Cantor).
 
@@ -59593,7 +59593,7 @@ $L(f, P) = \sum 0 \cdot \Delta x_i = 0$. Hence
 $\overline{\int_0^1} f = 1 \neq 0 = \underline{\int_0^1} f$ So $f$ is not Riemann integrable.
 
 This also follows from Lebesgue's criterion: $f$ is discontinuous everywhere, and $[0,1]$ does not
-Have measure zero. $\blacksquare$
+have measure zero. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 6.2 (Integrability Criteria), Theorem 6.4b.
 
@@ -59645,7 +59645,7 @@ Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
 
 Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$ This does not tend to $0$. Therefore the convergence
-Is **not uniform** on $(0, \infty)$. $\blacksquare$
+is **not uniform** on $(0, \infty)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.2 (Uniform Convergence), Section 7.1 (Pointwise
 Convergence).

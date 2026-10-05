@@ -140,7 +140,7 @@ Their effectiveness depends on strong governance, appropriate pricing, and behav
 <summary>Common Pitfalls: Evaluating Water Management Strategies in Isolation</summary>
 
 Examination questions often ask students to evaluate water management strategies. A common error is
-To evaluate supply-side or demand-side strategies in isolation, without comparing them. A strong
+to evaluate supply-side or demand-side strategies in isolation, without comparing them. A strong
 Answer will compare specific strategies, recognising that the optimal approach depends on context:
 Physical water scarcity (where supply must be increased) vs economic water scarcity (where demand
 Management and infrastructure development are priorities), available finance, governance capacity,
@@ -157,21 +157,21 @@ Managing a transboundary water resource under increasing scarcity.
 
 **Over-allocation.** The Colorado Compact of 1922 allocated 7.5 million acre-feet (approximately
 9.25 billion m$^3$) per year to each of the upper and lower basin states, plus 1.5 million acre-feet
-To Mexico, based on an estimated average annual flow of 17.5 million acre-feet. Subsequent analysis
-Has shown that the long-term average flow is approximately 14.8 million acre-feet -- the river was
-Over-allocated from the outset. Total allocations now exceed the river"s flow by approximately
+to Mexico, based on an estimated average annual flow of 17.5 million acre-feet. Subsequent analysis
+has shown that the long-term average flow is approximately 14.8 million acre-feet -- the river was
+over-allocated from the outset. Total allocations now exceed the river"s flow by approximately
 20--30%.
 
 **Consequences.** Lake Mead (the largest reservoir in the USA by volume) fell to 27% of capacity in
 2023, triggering Tier 2 shortage conditions. The river no longer consistently reaches the Gulf of
 California; the Colorado River Delta has largely dried up, destroying a once-productive wetland
 Ecosystem. Water quality has declined as agricultural return flows concentrate salts, selenium, and
-Other contaminants.
+other contaminants.
 
 **Management response.** The 2023 post-2026 operating guidelines commit the lower basin states to
 Reducing consumption by approximately 3 million acre-feet by 2026, with federal compensation for
 Water conservation. Longer-term strategies include water recycling (the Metropolitan Water District
-Of Southern California is constructing a recycling facility that will produce approximately 570 000
+of Southern California is constructing a recycling facility that will produce approximately 570 000
 M$^3$/day of purified water by 2028), agricultural efficiency improvements, and potentially
 Desalination.
 

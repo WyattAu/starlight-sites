@@ -50,7 +50,7 @@ C, `if (x = 5)` assigns 5 to `x` and evaluates to true; in Java, this is a compi
 ### Dangling else Problem
 
 Java resolves the dangling else ambiguity by binding `else` to the nearest preceding `if` that lacks
-An `else`. This is the same rule used by most C-family languages.
+an `else`. This is the same rule used by most C-family languages.
 
 ```java
 if (a > 0)
@@ -80,7 +80,7 @@ Eliminates the dangling else ambiguity entirely and prevents bugs when statement
 
 The traditional `switch` statement evaluates an expression and transfers control to a matching
 `case` label. Without `break`Execution **falls through** to subsequent cases -- a notorious source
-Of bugs.
+of bugs.
 
 ```java
 int dayOfWeek = 3;
@@ -129,7 +129,7 @@ Expressions.
 
 Switch expressions ([JEP 361](https://openjdk.org/jeps/361), standardized in Java 14) transform
 `switch` from a statement into an expression that yields a value. They use the `->` arrow syntax and
-Do not fall through.
+do not fall through.
 
 ```java
 String dayType = switch (dayOfWeek) {
@@ -202,7 +202,7 @@ static String formatter(Object obj) {
 ```
 
 Guards (`when`) add additional conditions to a pattern case. The pattern variable is in scope for
-The guard expression.
+the guard expression.
 
 ```java
 // Guards with pattern matching
@@ -228,7 +228,7 @@ double area(Shape shape) {
 ### Design Decision: Why Switch Expressions Replaced Switch Statements
 
 The traditional `switch` statement was one of the most bug-prone constructs in Java. The problems
-Were not accidental -- they reflected fundamental limitations of a statement-oriented design:
+were not accidental -- they reflected fundamental limitations of a statement-oriented design:
 
 1. **Fall-through was a design mistake for modern code**. Fall-through originated in C to allow case
    merging, but it meant every `case` required an explicit `break` or a comment explaining
@@ -251,7 +251,7 @@ Were not accidental -- they reflected fundamental limitations of a statement-ori
    class of errors entirely.
 
 The transition from statement to expression is part of a broader trend in Java's evolution: moving
-From imperative, statement-heavy code toward more declarative, expression-oriented code. Records,
+from imperative, statement-heavy code toward more declarative, expression-oriented code. Records,
 Sealed classes, and pattern matching all follow the same philosophy.
 
 ## Loop Constructs
@@ -366,8 +366,8 @@ for (int i = 0; i < 10; i++) {
 ### Labeled break and continue
 
 Java supports labeled statements, which allow `break` and `continue` to target an outer loop rather
-Than the innermost one. This is one of the few areas where Java's syntax resembles C's `goto` -- and
-It exists specifically to avoid the need for `goto`.
+than the innermost one. This is one of the few areas where Java's syntax resembles C's `goto` -- and
+it exists specifically to avoid the need for `goto`.
 
 ```java
 // Labeled break -- exits the labeled loop entirely
@@ -475,7 +475,7 @@ Errors (logic bugs) that the programmer could have prevented: `NullPointerExcept
 ### Checked vs Unchecked Exceptions
 
 The distinction between checked and unchecked exceptions is one of Java's most distinctive -- and
-Most controversial -- language features.
+most controversial -- language features.
 
 **Checked exceptions** must be either caught with a `try-catch` block or declared in the method
 Signature with a `throws` clause. The compiler enforces this at compile time. `Exception` and its
@@ -731,7 +731,7 @@ Design guidelines for custom exceptions:
 ### Exception Chaining
 
 Exception chaining allows wrapping a lower-level exception in a higher-level one while preserving
-The original cause. This is essential for maintaining the full error trace across abstraction
+the original cause. This is essential for maintaining the full error trace across abstraction
 Boundaries.
 
 ```java
@@ -812,7 +812,7 @@ Same exceptions, narrower exceptions (subtypes), or no checked exceptions at all
 The `assert` statement
 ([JLS §14.10](https://docs.oracle.com/javase/specs/jls/se21/html/jls-14.html#jls-14.10)) tests a
 Boolean condition at runtime. If the condition is `false`An `AssertionError` is thrown. Assertions
-Are **disabled by default** and must be explicitly enabled with the `-ea` (enable assertions) JVM
+are **disabled by default** and must be explicitly enabled with the `-ea` (enable assertions) JVM
 Flag.
 
 ```java
@@ -875,7 +875,7 @@ public void setName(String name) {
 
 :::danger
 Correctness in production. Since assertions can be disabled, a failed assertion would go undetected
-In production, leading to silent data corruption. Use `Objects.requireNonNull()`Explicit `if` Checks
+in production, leading to silent data corruption. Use `Objects.requireNonNull()`Explicit `if` Checks
 with `IllegalArgumentException`Or framework-level validation (like `jakarta.validation`) For input
 validation.
 :::
@@ -1148,14 +1148,14 @@ System.out.println(a.equals(c)); // true, same content
 ```
 
 The `new String(...)` constructor always creates a new object on the heap, bypassing the pool. This
-Is almost always the wrong thing to do.
+is almost always the wrong thing to do.
 
 ### `intern()`
 
 `String.intern()` returns a canonical representation from the pool. If the string is not already in
-The pool, it is added. Interning can reduce memory when you have many duplicate strings, but the
+the pool, it is added. Interning can reduce memory when you have many duplicate strings, but the
 Pool lives in the heap (since JDK 7) and is managed by the GC. Over-interning can cause GC pressure
-And pool bloat.
+and pool bloat.
 
 ```java
 String s1 = new String("hello").intern();
@@ -1201,7 +1201,7 @@ Encoding is used; it is determined automatically at construction time.
 
 **`String`**, Use for values that do not change. Literals, constants, method return values for
 Immutable data, keys in maps, and any case where immutability is desired. The JVM's escape analysis
-And JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
+and JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
 
 **`StringBuilder`**, Use for building strings in a single thread. This covers the vast majority of
 Use cases: constructing SQL queries, building JSON, accumulating log messages, reading file
@@ -1612,8 +1612,8 @@ String result = template.formatted("Alice", 5);
 ## `StringTokenizer` (Legacy)
 
 `StringTokenizer` predates `String.split()` and `Pattern`. It is retained for backward compatibility
-But should not be used in new code. It does not support regex, cannot handle empty tokens, and has
-No way to limit splits.
+but should not be used in new code. It does not support regex, cannot handle empty tokens, and has
+no way to limit splits.
 
 ```java
 // LEGACY, do not use
@@ -1742,13 +1742,13 @@ java -XX:+UseG1GC -XX:+StringDeduplication ...
 ```
 
 Deduplication reduces memory usage without any code changes. It is most effective for applications
-With large heaps and many duplicate strings (e.g., web servers processing similar requests, XML/JSON
+with large heaps and many duplicate strings (e.g., web servers processing similar requests, XML/JSON
 Parsers).
 
 ### Unicode Normalization
 
 The same logical text can have different binary representations in Unicode. For example, `"é"` can
-Be a single code point (U+00E9) or `e` + combining accent (U+0065 + U+0301). These are visually
+be a single code point (U+00E9) or `e` + combining accent (U+0065 + U+0301). These are visually
 Identical but `String.equals()` returns `false`.
 
 ```java
@@ -1836,7 +1836,7 @@ public static String safeTrim(String s) {
 Prior to JDK 7u6, `String.substring()` shared the backing `char[]` with the original string. If you
 Extracted a small substring from a very large string and held a reference to the substring, the
 Entire large `char[]` remained in memory. This was fixed in JDK 7u6, where `substring` now copies
-The characters into a new array.
+the characters into a new array.
 
 ### Regex Backtracking Catastrophe
 
@@ -2252,7 +2252,7 @@ BigDecimal total = price.multiply(price.add(BigDecimal.ONE).multiply(tax))
 ### Design Decision: Why Java Has Both Primitives and Wrappers
 
 The JVM provides primitives for **performance**. Primitive values are stored inline on the stack or
-In object fields with no heap allocation, no indirection, and no object header overhead. A `double`
+in object fields with no heap allocation, no indirection, and no object header overhead. A `double`
 Takes exactly 8 bytes; a `Double` object requires 16+ bytes (12-16 byte object header + 8 byte
 Field + padding) plus a heap pointer.
 
@@ -2270,8 +2270,8 @@ The wrappers exist for two reasons:
 ## Reference Types
 
 A reference variable does not contain the object itself, it contains a **pointer** (or handle) to
-An object on the heap. The JVM specification does not mandate a specific pointer representation; it
-May be a direct pointer, an indirect handle, or a compressed oop (ordinary object pointer).
+an object on the heap. The JVM specification does not mandate a specific pointer representation; it
+may be a direct pointer, an indirect handle, or a compressed oop (ordinary object pointer).
 
 ```java
 String s = new String("hello");
@@ -2481,7 +2481,7 @@ Field names, string constants) make up a significant portion of the heap. Withou
 Occurrence of `"http"` across thousands of HTTP requests would allocate a separate object.
 
 The pool also enables the `==` comparison for interned strings, which is an O(1) pointer comparison
-Versus O(n) character-by-character comparison for `String.equals()`. The JVM uses this internally,
+versus O(n) character-by-character comparison for `String.equals()`. The JVM uses this internally,
 Class names, method descriptors, and string constants in the constant pool are all deduplicated via
 Interning.
 
@@ -2579,7 +2579,7 @@ boxed.add(2);  // autoboxing: Integer.valueOf(2)
 ## The `var` Keyword (Local Variable Type Inference)
 
 Introduced in Java 10 ([JEP 286](https://openjdk.org/jeps/286)), `var` enables the compiler to infer
-The type of local variables from the initializer. It does **not** make Java dynamically typed, the
+the type of local variables from the initializer. It does **not** make Java dynamically typed, the
 Inferred type is a concrete, compile-time type, and the variable cannot be reassigned to an
 Incompatible type.
 
@@ -2774,7 +2774,7 @@ cannot be used unsafely. The compiler verifies this using a concept called "flow
 ## Records (Java 14+)
 
 Records ([JEP 395](https://openjdk.org/jeps/395), standardized in Java 16) provide a compact syntax
-For declaring classes that are transparent carriers of immutable data.
+for declaring classes that are transparent carriers of immutable data.
 
 ```java
 public record Point(int x, int y) {}
@@ -3272,7 +3272,7 @@ class SubclassDemo extends AccessDemo {
 :::caution
 Package can access a `protected` member only through `this` or a reference of the subclass's own
 Type. It cannot access the `protected` member through a reference of the superclass type, even if
-The actual object is an instance of the subclass.
+the actual object is an instance of the subclass.
 :::
 
 :::note
@@ -3480,7 +3480,7 @@ public interface Serializable {
 ### Default Methods (Java 8+)
 
 Default methods provide a concrete implementation in an interface, allowing interface evolution
-Without breaking existing implementations.
+without breaking existing implementations.
 
 ```java
 public interface List<E> extends Collection<E> {
@@ -3591,7 +3591,7 @@ Interface evolution practically impossible for widely-used interfaces like `Coll
 Default methods solve this by providing a **default implementation** that existing classes inherit
 Automatically. The implementing class does not need to change. This is fundamentally an API
 Evolution mechanism, not a mixin or trait system -- Java chose to keep the solution minimal rather
-Than introducing full multiple inheritance of behavior.
+than introducing full multiple inheritance of behavior.
 
 The diamond problem is resolved by explicit rules: if a class inherits the same default method from
 Two interfaces, it must override the method and resolve the conflict explicitly using
@@ -3675,8 +3675,8 @@ LinkedList<String> list = new LinkedList<>();
 ### Anonymous Class
 
 An anonymous class is an unnamed class that is declared and instantiated in a single expression. It
-Is most commonly used for implementing functional interfaces before Java 8, and for abstract classes
-That need a one-off implementation.
+is most commonly used for implementing functional interfaces before Java 8, and for abstract classes
+that need a one-off implementation.
 
 ```java
 // Anonymous class implementing an interface
@@ -3867,7 +3867,7 @@ void resize(Rectangle r, int width, int height) {
 ```
 
 The LSP violation occurs because `Square` cannot satisfy `Rectangle`'s behavioral contract. The fix
-Is composition: `Square` should contain a `Rectangle` rather than extend it, or both should
+is composition: `Square` should contain a `Rectangle` rather than extend it, or both should
 Implement a common `Shape` interface.
 
 ## Method Overriding vs Hiding
@@ -4070,7 +4070,7 @@ that fields used in `equals()`/`hashCode()` are never modified after insertion.
 ### clone()
 
 The `clone()` method is intended to create a field-for-field copy of an object. However, its design
-Is widely considered flawed.
+is widely considered flawed.
 
 ```java
 // The Cloneable interface is a marker interface with NO methods.
@@ -4263,13 +4263,13 @@ public enum Operation {
 [JLS §8.9](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.9) defines enum
 Declarations. Enum constants are implicitly `public static final`. Enum types implicitly extend
 `java.lang.Enum` and cannot be instantiated with `new`. Enum types are implicitly `final` unless
-They have constant-specific class bodies.
+they have constant-specific class bodies.
 :::
 
 ## Generics Basics
 
 Generics allow you to parameterize types -- classes, interfaces, and methods can operate on types
-That the client specifies at declaration time. Generics provide compile-time type safety and
+that the client specifies at declaration time. Generics provide compile-time type safety and
 Eliminate the need for explicit casting.
 
 ### Type Parameters
@@ -4577,7 +4577,7 @@ public class Dog extends Animal {
 
 A subclass can override a non-final, non-static method of its superclass. The `@Override` annotation
 Tells the compiler to verify that you are actually overriding a superclass method. If you misspell
-The method name or get the signature wrong, the compiler will report an error instead of silently
+the method name or get the signature wrong, the compiler will report an error instead of silently
 Creating an overloaded method.
 
 ```java
@@ -4771,7 +4771,7 @@ s.area(); // The JVM calls the correct area() based on the actual object type
 
 The `final` keyword on a method prevents overriding and allows the JIT compiler to devirtualize the
 Call, it can inline the method at the call site because it knows no subclass will override it. This
-Can improve performance in hot paths.
+can improve performance in hot paths.
 
 ```java
 public class Point {
@@ -4854,7 +4854,7 @@ Semantics with no shared state (prior to Java 8).
 ## Interfaces
 
 An interface defines a contract that implementing classes must fulfill. Since Java 8, interfaces can
-Have default methods, static methods, and (since Java 9) private methods.
+have default methods, static methods, and (since Java 9) private methods.
 
 ### Interface Evolution
 
@@ -4983,7 +4983,7 @@ public class FlyingVehicle {
 ## Liskov Substitution Principle
 
 The Liskov Substitution Principle (LSP) states that if S is a subtype of T, then objects of type T
-May be replaced with objects of type S without altering any of the desirable properties of the
+may be replaced with objects of type S without altering any of the desirable properties of the
 Program. In practical terms: a subclass must be usable anywhere the superclass is expected.
 
 ```java
@@ -5322,7 +5322,7 @@ new Derived(); // throws NullPointerException
 :::caution
 Run, so its fields are uninitialized. If the overridden method accesses subclass fields, you get
 `NullPointerException` or incorrect behavior. Mark the method `final` or `private` if you must call
-It from a constructor.
+it from a constructor.
 
 ### `instanceof` and `null`
 
@@ -5359,8 +5359,8 @@ Creates confusion.
 ### Fragile Base Class Problem
 
 Changes to a superclass can silently break subclasses. If a new method is added to the superclass
-With the same name as a method in the subclass, the subclass method becomes an overload instead of
-An override:
+with the same name as a method in the subclass, the subclass method becomes an overload instead of
+an override:
 
 ```java
 // Version 1 of library
@@ -5386,7 +5386,7 @@ public class Base {
 ### Using Inheritance for Code Reuse Only
 
 If you extend a class solely to reuse its methods but there is no genuine "is-a" relationship, you
-Are misusing inheritance. Use composition with delegation instead:
+are misusing inheritance. Use composition with delegation instead:
 
 ```java
 // WRONG, Stack is NOT a List (you don't want random access, iteration at arbitrary positions)
@@ -5484,7 +5484,7 @@ The Java Collections Framework (JCF) is a unified architecture for representing 
 Collections. It was introduced in JDK 1.2 (1998) and has been extended in every major release since.
 The framework is built around a hierarchy of interfaces that define contracts for different
 Collection types, with concrete implementations that provide specific performance characteristics
-And behavioral guarantees.
+and behavioral guarantees.
 
 The core design goals were: (1) reduce programming effort by providing high-performance data
 Structures, (2) reduce effort required to learn and use new APIs by providing a consistent
@@ -5585,7 +5585,7 @@ Cache locality due to its contiguous memory layout.
 
 An `ArrayList` stores elements in a backing `Object[]` array. When the array is full and a new
 Element is added, the list allocates a new, larger array and copies all elements from the old array
-To the new one.
+to the new one.
 
 ```java
 public class ArrayList<E> extends AbstractList<E>
@@ -5633,7 +5633,7 @@ private Object[] grow(int minCapacity) {
 The initial `new ArrayList<>()` does **not** allocate an array of size 10 immediately. It stores a
 Shared static empty array reference. The first call to `add()` triggers allocation of an array of
 Default capacity 10. This lazy allocation is a significant optimization for applications that create
-Many empty lists that are never populated.
+many empty lists that are never populated.
 
 ```java
 public boolean add(E e) {
@@ -5726,9 +5726,9 @@ String head = queue.removeFirst();  // O(1)
 :::caution
 Cache-friendly contiguous memory layout make `ArrayList` faster for nearly all real-world workloads,
 Even those with frequent insertions. The O(n) cost of shifting elements in `ArrayList` is offset by
-The fact that `System.arraycopy()` is a native, highly optimized operation that moves memory in
+the fact that `System.arraycopy()` is a native, highly optimized operation that moves memory in
 Bulk. Furthermore, each `LinkedList` node requires an extra object allocation (16+ bytes of overhead
-For the object header, plus three reference fields), so a `LinkedList` with N elements uses
+for the object header, plus three reference fields), so a `LinkedList` with N elements uses
 Significantly more memory than an `ArrayList` with the same elements.
 :::
 
@@ -5750,7 +5750,7 @@ else
 
 `HashSet<E>` is backed by a `HashMap<E, Object>` instance. Each element is stored as a key in the
 Map, with a shared static `PRESENT` object as the value. It provides O(1) average-time performance
-For `add``remove``contains`And `size` operations.
+for `add``remove``contains`And `size` operations.
 
 ```java
 public class HashSet<E> extends AbstractSet<E>
@@ -5859,7 +5859,7 @@ EnumSet<Day> all = EnumSet.allOf(Day.class);
 
 :::note
 Representation, making the entire set occupy just 16 bytes (object header + long field). For enums
-With more than 64 constants, it uses a `long[]`. All bulk operations (`containsAll``retainAll` Etc.)
+with more than 64 constants, it uses a `long[]`. All bulk operations (`containsAll``retainAll` Etc.)
 are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
 :::
 
@@ -5878,13 +5878,13 @@ are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
 ### HashMap
 
 `HashMap<K,V>` is the most widely used Map implementation. It provides O(1) average-time performance
-For `get` and `put`But does not guarantee any ordering of its entries.
+for `get` and `put`But does not guarantee any ordering of its entries.
 
 #### Internal Structure
 
 A `HashMap` is built on an array of buckets (called `table`). Each bucket is the head of a linked
 List (or, since Java 8, a balanced tree when a bucket's chain exceeds a threshold). The bucket index
-For a key is determined by `hash(key) & (table.length - 1)`Where `table.length` is always a power Of
+for a key is determined by `hash(key) & (table.length - 1)`Where `table.length` is always a power Of
 two.
 
 ```mermaid
@@ -5926,7 +5926,7 @@ graph TD
 `HashMap` applies a secondary hash function (a "scrambling" function) to the object's `hashCode()`
 To spread higher bits into lower bits. This is critical because the bucket index depends only on the
 Lower bits (`hash & (n-1)` where n is a power of two). Without this secondary hash, keys that differ
-Only in higher bits would all land in the same bucket.
+only in higher bits would all land in the same bucket.
 
 ```java
 static final int hash(Object key) {
@@ -5936,7 +5936,7 @@ static final int hash(Object key) {
 ```
 
 The expression `h ^ (h >>> 16)` XORs the upper 16 bits into the lower 16 bits. This ensures that
-Both the upper and lower bits of the original hash code influence the bucket selection, reducing
+both the upper and lower bits of the original hash code influence the bucket selection, reducing
 Collisions when keys share similar lower bits.
 
 #### Collision Resolution: Separate Chaining with Treeification
@@ -5991,7 +5991,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) {
 :::caution
 Has fewer than `MIN_TREEIFY_CAPACITY` (64) entries. If so, it prefers to resize the table instead,
 Because a larger table distributes keys across more buckets and may resolve the collision without
-The overhead of tree nodes. Only when the table already has at least 64 entries does it actually
+the overhead of tree nodes. Only when the table already has at least 64 entries does it actually
 Convert the linked list to a red-black tree.
 :::
 
@@ -6012,7 +6012,7 @@ Map<String, Integer> map = new HashMap<>(1000 / 0.75f + 1);  // avoids resizing 
 ### TreeMap
 
 `TreeMap<K,V>` is a `NavigableMap` implementation backed by a red-black tree. All entries are kept
-In sorted order according to the natural ordering of the keys or a `Comparator` provided at
+in sorted order according to the natural ordering of the keys or a `Comparator` provided at
 Construction. It provides guaranteed O(log n) time for `containsKey``get``put`And `remove`.
 
 #### Red-Black Tree Internals
@@ -6027,7 +6027,7 @@ A red-black tree is a self-balancing binary search tree with the following invar
    (black-height is uniform).
 
 These invariants guarantee that the longest path from root to any leaf is at most twice the length
-Of the shortest path, which ensures O(log n) height and therefore O(log n) operations.
+of the shortest path, which ensures O(log n) height and therefore O(log n) operations.
 
 ```java
 // Simplified TreeMap.Entry structure
@@ -6281,7 +6281,7 @@ it.add("Y");   // inserts "Y" before cursor -- list is now [A, B, Y, X, D]
 Most collection iterators in `java.util` are **fail-fast**: they detect concurrent structural
 Modification (additions, removals, or resizes) and throw `ConcurrentModificationException`
 Immediately. This is achieved through a `modCount` field on the collection. The iterator captures
-The expected `modCount` on creation and checks it on every call to `next()`.
+the expected `modCount` on creation and checks it on every call to `next()`.
 
 ```java
 // Simplified ArrayList.Itr
@@ -6327,7 +6327,7 @@ while (it.hasNext()) {
 
 The `Collections.synchronizedCollection()` wrapper returns a fail-fast iterator. If you need to
 Iterate over a synchronized collection and modify it during iteration, you must manually synchronize
-On the collection:
+on the collection:
 
 ```java
 Collection<String> sync = Collections.synchronizedCollection(list);
@@ -6457,7 +6457,7 @@ Collections.binarySearch(numbers, 3, Comparator.naturalOrder());
 
 :::danger
 To the same ordering used for the search. Passing a list sorted by natural ordering but searching
-With a custom `Comparator` will produce incorrect results without any exception.
+with a custom `Comparator` will produce incorrect results without any exception.
 :::
 
 ### Unmodifiable Wrappers
@@ -6492,8 +6492,8 @@ synchronized (syncList) {
 
 :::caution
 High-concurrency scenarios. Every method call acquires the monitor lock on the wrapper object, so
-Even reads block each other. For read-heavy workloads, `ConcurrentHashMap` with its lock-free reads
-And fine-grained write locking provides far better throughput.
+even reads block each other. For read-heavy workloads, `ConcurrentHashMap` with its lock-free reads
+and fine-grained write locking provides far better throughput.
 :::
 
 ### Other Utility Methods
@@ -6599,7 +6599,7 @@ eliminates the indirection of array-based storage.
 ## Null Handling in Collections
 
 Null handling varies across collection implementations. Understanding these differences is critical
-To avoiding `NullPointerException` at unexpected times.
+to avoiding `NullPointerException` at unexpected times.
 
 ### Summary Table
 
@@ -6718,7 +6718,7 @@ URL: https://java.wyattau.com/04-collections/02-maps-and-sets/
 
 `Map<K,V>` maps keys to values. It is not part of the `Collection` hierarchy, it models a
 Fundamentally different abstraction. Each key maps to at most one value, and each key can appear
-Only once.
+only once.
 
 ```java
 public interface Map<K, V> {
@@ -6749,7 +6749,7 @@ public interface Map<K, V> {
 ### `HashMap`
 
 The default general-purpose map. Uses an array of buckets (linked lists, converted to balanced trees
-When a bucket exceeds 8 entries, JDK 8+). Provides O(1) average-case for `put``get``remove` And
+when a bucket exceeds 8 entries, JDK 8+). Provides O(1) average-case for `put``get``remove` And
 `containsKey`.
 
 ```java
@@ -6865,7 +6865,7 @@ NavigableMap<String, Integer> subMap =
 
 Thread-safe map designed for high-concurrency access. Uses fine-grained locking (lock stripping on
 Buckets) to allow concurrent reads and writes to different segments. JDK 8+ uses CAS operations for
-Even better concurrency.
+even better concurrency.
 
 ```java
 ConcurrentHashMap<String, AtomicInteger> counterMap = new ConcurrentHashMap<>();
@@ -6883,7 +6883,7 @@ counterMap.merge("requests", 1, (oldVal, newVal) -&gt; {
 ### `Hashtable`
 
 Legacy thread-safe map from JDK 1.0. Uses method-level synchronization (the entire map is locked for
-Every operation). Do not use in new code, `ConcurrentHashMap` provides better concurrency and
+every operation). Do not use in new code, `ConcurrentHashMap` provides better concurrency and
 `Collections.synchronizedMap` provides the same semantics with less overhead.
 
 ```java
@@ -6996,7 +6996,7 @@ ordered.add("B");
 ### `EnumSet`
 
 A specialized `Set` implementation for enum types. Backed by a bit vector. Extremely fast (O(1) for
-All operations) and memory-efficient. The iterator traverses elements in their natural enum
+all operations) and memory-efficient. The iterator traverses elements in their natural enum
 Declaration order.
 
 ```java
@@ -7020,7 +7020,7 @@ Simple bit manipulations.
 ## Set Operations
 
 Java does not provide built-in union, intersection, or difference operators on sets, but the methods
-Are straightforward:
+are straightforward:
 
 ```java
 Set<Integer> a = new HashSet<>(Set.of(1, 2, 3, 4, 5));
@@ -7176,7 +7176,7 @@ List<String> sorted = names.stream()
 ## Immutable Collections
 
 JDK 9+ provides factory methods for compact, immutable collections. These are more memory-efficient
-Than `Collections.unmodifiableList(wrap(Arrays.asList(...)))`:
+than `Collections.unmodifiableList(wrap(Arrays.asList(...)))`:
 
 ```java
 // JDK 9+ immutable collections
@@ -7198,7 +7198,7 @@ Set<String> immutableSet = Set.copyOf(mutableSet);
 
 :::caution
 `NullPointerException`. This is by design, nulls in collections are a common source of bugs, and
-The immutable factories enforce non-null.
+the immutable factories enforce non-null.
 :::
 
 ### Unmodifiable Wrappers
@@ -7521,7 +7521,7 @@ for (Map.Entry<Day, String> entry : schedule.entrySet()) {
 ```
 
 `EnumMap` is faster and more memory-efficient than `HashMap` with enum keys. The internal array size
-Is exactly the number of enum constants, and there is no hashing overhead. Always prefer `EnumMap`
+is exactly the number of enum constants, and there is no hashing overhead. Always prefer `EnumMap`
 Over `HashMap` when keys are enum values.
 
 ### `WeakHashMap`
@@ -10429,8 +10429,8 @@ int old = counter.getAndAccumulate(5, Integer::sum);
 ### `AtomicStampedReference`
 
 `AtomicReference` cannot detect the ABA problem: a thread reads value A, another thread changes it
-To B then back to A, and the first thread's CAS succeeds despite the value having been changed in
-Between. `AtomicStampedReference` adds a version stamp to detect this.
+to B then back to A, and the first thread's CAS succeeds despite the value having been changed in
+between. `AtomicStampedReference` adds a version stamp to detect this.
 
 ```java
 AtomicStampedReference<String> ref = new AtomicStampedReference<>("initial", 0);
@@ -10447,7 +10447,7 @@ boolean success = ref.compareAndSet("initial", "updated", stamp, stamp + 1);
 
 For high-contention counters where `AtomicLong` becomes a bottleneck due to CAS contention,
 `LongAdder` distributes increments across an array of cells and sums them on read. Write contention
-Is eliminated; read requires summing all cells.
+is eliminated; read requires summing all cells.
 
 ```java
 // AtomicLong, single variable, CAS contention under high contention
@@ -10588,7 +10588,7 @@ Task peek = queue.peek(); // null if empty
 ### `CopyOnWriteArrayList`
 
 Every write operation (add, set, remove) creates a fresh copy of the underlying array. Reads proceed
-Without locking against the current array snapshot. This makes reads extremely fast and writes
+without locking against the current array snapshot. This makes reads extremely fast and writes
 Expensive. Ideal for read-heavy workloads with infrequent writes (listener lists, configuration).
 
 ```java
@@ -10610,7 +10610,7 @@ Iterator operates on a snapshot and does not reflect modifications made during i
 ### Blocking Queues
 
 Blocking queues are designed for producer-consumer patterns. `put` blocks when full, `take` blocks
-When empty.
+when empty.
 
 | Implementation          | Bounded        | Ordering                         | Notes                        |
 | ----------------------- | -------------- | -------------------------------- | ---------------------------- |
@@ -10645,7 +10645,7 @@ consumers.submit(() -&gt; {
 
 **`SynchronousQueue`** has zero capacity, each `put` must wait for a matching `take` and vice
 Versa. It is used by `Executors.newCachedThreadPool()` to hand off tasks directly to worker threads
-Without buffering.
+without buffering.
 
 ## ForkJoin Framework
 
@@ -11055,7 +11055,7 @@ URL: https://java.wyattau.com/07-best-practices/01-style-and-patterns/
 ## Naming Conventions
 
 Naming is the single most visible signal of code quality. Java naming conventions are codified in
-The JLS and further elaborated in the Java Language Style Guide. These are not aesthetic
+the JLS and further elaborated in the Java Language Style Guide. These are not aesthetic
 Preferences; they carry semantic weight that the compiler, runtime, and human readers all depend on.
 
 ### Packages
@@ -11121,7 +11121,7 @@ public static final Set<String> SUPPORTED_ALGORITHMS = Set.of("AES", "RSA");
 ```
 
 A `static final` reference to a mutable object (such as a `HashMap`) is not truly constant, because
-The object's state can change. In such cases, the field should either be private with no mutating
+the object's state can change. In such cases, the field should either be private with no mutating
 Accessors, or the object itself should be wrapped in an unmodifiable view.
 
 ### Type Parameters
@@ -11211,7 +11211,7 @@ com.example.project/
 Feature-first packaging has a significant advantage for projects of any non-trivial size: it
 Localizes changes. When a requirement changes for the "user" domain, all the files you need to
 Modify are in a single package. In layer-first packaging, a change to `User` might require edits
-Across `controller/``service/``repository/`And `model/` -- four separate directories that are Far
+across `controller/``service/``repository/`And `model/` -- four separate directories that are Far
 apart in the tree.
 
 :::tip
@@ -11232,8 +11232,8 @@ The conventional ordering of members within a class, as recommended by the Googl
 8. Nested classes
 
 Within each group, accessibility should decrease: `public` before `protected` before package-private
-Before `private`. This ordering places the most important, most-stable declarations at the top of
-The file.
+before `private`. This ordering places the most important, most-stable declarations at the top of
+the file.
 
 ### One Top-Level Class Per File
 
@@ -11326,7 +11326,7 @@ tasks.test {
 
 :::tip
 Incremental compilation, and configuration avoidance yield measurable performance improvements, and
-The Kotlin DSL provides type safety and IDE autocompletion. Use Maven when integrating with legacy
+the Kotlin DSL provides type safety and IDE autocompletion. Use Maven when integrating with legacy
 Enterprise infrastructure that requires it, or when team familiarity makes the trade-off clear.
 :::
 
@@ -11335,7 +11335,7 @@ Enterprise infrastructure that requires it, or when team familiarity makes the t
 #### Dependency Scopes
 
 Both Maven and Gradle categorize dependencies by scope, controlling when a dependency is available
-On the classpath:
+on the classpath:
 
 | Scope                | Available During  | Packaged Into | Purpose                        |
 | -------------------- | ----------------- | ------------- | ------------------------------ |
@@ -11433,8 +11433,8 @@ assertAll(                                  // grouped assertions
 ```
 
 Grouped assertions with `assertAll` are critical: without them, the first failed assertion aborts
-The test and you only learn about one problem per run. With `assertAll`All assertions execute and
-You see every failure in a single pass.
+the test and you only learn about one problem per run. With `assertAll`All assertions execute and
+you see every failure in a single pass.
 
 ### Parameterized Tests
 
@@ -11479,7 +11479,7 @@ Method, including one that reads from a file or generates values programmaticall
 ### Mocking with Mockito
 
 Mockito creates test doubles that verify interactions and stub return values. The goal of mocking is
-To isolate the unit under test from its collaborators:
+to isolate the unit under test from its collaborators:
 
 ```java
 import static org.mockito.Mockito.*;
@@ -11531,8 +11531,8 @@ Externally observable behavior is correct.
 ### java.util.logging (JUL)
 
 `java.util.logging` is the JDK's built-in logging framework. It requires zero external dependencies
-And is always available. However, its API is verbose, its configuration mechanism (properties files
-And programmatic configuration) is unintuitive, and it lacks structured logging support.
+and is always available. However, its API is verbose, its configuration mechanism (properties files
+and programmatic configuration) is unintuitive, and it lacks structured logging support.
 
 ```java
 import java.util.logging.Level;
@@ -11558,7 +11558,7 @@ public class PaymentService {
 
 SLF4J (Simple Logging Facade for Java) is a logging abstraction, not an implementation. Logback is a
 Logging implementation that natively implements SLF4J. This separation means your code depends on
-The SLF4J API (which is stable and minimal) while the actual logging backend can be swapped without
+the SLF4J API (which is stable and minimal) while the actual logging backend can be swapped without
 Changing any application code.
 
 ```java
@@ -11581,7 +11581,7 @@ public class PaymentService {
 ```
 
 The `{}` parameterized formatting is the critical difference. SLF4J defers string concatenation to
-The logging framework, which first checks whether the log level is enabled. If `INFO` is disabled,
+the logging framework, which first checks whether the log level is enabled. If `INFO` is disabled,
 The string concatenation never occurs. With JUL or `System.out.println`The concatenation happens
 Unconditionally, wasting CPU cycles and allocating objects that are immediately discarded.
 
@@ -11637,15 +11637,15 @@ public enum DatabaseConnectionPool {
 
 The enum approach works because the JVM guarantees that enum constants are initialized exactly once,
 And the serialization mechanism handles enum instances specially (they are identified by name, not
-By serialized field data). A traditional class-based singleton with a private constructor can be
+by serialized field data). A traditional class-based singleton with a private constructor can be
 Broken by reflection (`Constructor.setAccessible(true)`) and by deserialization (which creates a new
 Instance unless `readResolve` is implemented).
 
 :::caution
 Expensive resources (connection pools, thread pools). They are inappropriate for stateful objects
-That represent business domain concepts, because a global mutable singleton is essentially a hidden
+that represent business domain concepts, because a global mutable singleton is essentially a hidden
 Global variable that makes testing difficult and introduces hidden coupling between unrelated parts
-Of the codebase.
+of the codebase.
 :::
 
 ### Factory
@@ -11679,7 +11679,7 @@ public class DocumentParserFactory {
 
 The Factory pattern is most valuable when the concrete type to instantiate depends on runtime
 Conditions (configuration, input data, environment). If the concrete type is known at compile time
-And never changes, a factory adds unnecessary indirection.
+and never changes, a factory adds unnecessary indirection.
 
 ### Builder
 
@@ -11974,7 +11974,7 @@ Principle is the same: dependencies are declared (through constructor parameters
 
 The `var` keyword (Java 10+) infers the type of local variables from the initializer. It does
 **not** make Java dynamically typed; the inferred type is a compile-time constant, and the variable
-Cannot be reassigned to an incompatible type.
+cannot be reassigned to an incompatible type.
 
 ```java
 // Good: the type is obvious from the right-hand side
@@ -12013,7 +12013,7 @@ A record automatically generates: a canonical constructor, accessor methods (`em
 (`public User { ... }`) allows validation without declaring fields or assigning parameters.
 
 Records cannot extend other classes (they implicitly extend `java.lang.Record`), and their fields
-Are implicitly `final`. This makes them unsuitable for mutable domain objects with complex lifecycle
+are implicitly `final`. This makes them unsuitable for mutable domain objects with complex lifecycle
 Behavior, but ideal for DTOs, value objects, method return types, and keys in collections.
 
 ### Sealed Classes
@@ -12127,7 +12127,7 @@ String query = """
 ```
 
 The closing `"""` determines the indentation: the compiler strips the common leading whitespace from
-All lines based on the position of the closing delimiter. Incidental trailing whitespace on each
+all lines based on the position of the closing delimiter. Incidental trailing whitespace on each
 Line is also stripped.
 
 ## Effective Java Principles
@@ -12246,14 +12246,14 @@ public class InstrumentedSet<E> extends ForwardingSet<E> {
 ```
 
 In the inheritance version, `addAll` calls `super.addAll()`Which in `HashSet` internally iterates
-And calls `add()` -- our overridden `add()`. So each element is counted twice. The composition
+and calls `add()` -- our overridden `add()`. So each element is counted twice. The composition
 Version delegates to the wrapped set, which calls its own `add()`Not the forwarding set's `add()`.
 The count is correct.
 
 ### Minimize Accessibility
 
 The principle of information hiding states that a module should hide its implementation details
-Behind a well-defined interface. In Java, this is enforced through access modifiers:
+behind a well-defined interface. In Java, this is enforced through access modifiers:
 
 | Modifier        | Class | Package | Subclass | World |
 | --------------- | ----- | ------- | -------- | ----- |
@@ -12286,9 +12286,9 @@ List<String> names = new ArrayList<>();
 ```
 
 This allows the implementation to be changed without modifying the client code. If profiling reveals
-That a `LinkedList` performs better for the access pattern in question, only the right-hand side
+that a `LinkedList` performs better for the access pattern in question, only the right-hand side
 Changes. The declared type `List` remains, and all code that uses `names` continues to compile
-Without modification.
+without modification.
 
 This principle extends to method signatures and fields:
 
@@ -12375,7 +12375,7 @@ The two JIT compilers are C1 (client compiler, optimized for fast startup and lo
 ```
 
 Tiered compilation starts with the interpreter, profiles the code, compiles hot methods with C1, and
-Then recompiles the hottest methods with C2 after extensive profiling. Disabling tiered compilation
+then recompiles the hottest methods with C2 after extensive profiling. Disabling tiered compilation
 Entirely (`-XX:-TieredCompilation`) forces all compilation to go through C2, which increases peak
 Throughput but significantly increases warmup time.
 
@@ -12535,7 +12535,7 @@ public record Age(int value) {
 
 The compact constructor does not declare parameters -- it implicitly has access to all record
 Components. Any assignment to a component in the compact constructor is treated as an assignment to
-The corresponding field in the canonical constructor. This means you can normalize values:
+the corresponding field in the canonical constructor. This means you can normalize values:
 
 ```java
 public record NormalizedString(String value) {
@@ -12778,7 +12778,7 @@ public final class Delete extends Command { }
 ```
 
 The sealed version is both more readable and more correct. Any attempt to extend `Command` from
-Outside the permitted list is a compile-time error.
+outside the permitted list is a compile-time error.
 
 ## Pattern Matching for `instanceof` (JEP 394, Java 16)
 
@@ -12802,7 +12802,7 @@ if (obj instanceof String s) {
 ```
 
 The pattern variable `s` is only in scope inside the `if` block. The compiler guarantees that `s` is
-Non-null when the block executes -- the `instanceof` check already ruled out `null`.
+non-null when the block executes -- the `instanceof` check already ruled out `null`.
 
 ### Pattern Variables in Conditions
 
@@ -12844,7 +12844,7 @@ Different value.
 
 Switch expressions are a major evolution of the traditional `switch` statement. They can return a
 Value, use arrow syntax, and the compiler can verify exhaustiveness when switching on sealed types
-Or enums.
+or enums.
 
 ### Arrow Syntax and `yield`
 
@@ -12879,7 +12879,7 @@ String result = switch (status) {
 ### Pattern Matching in Switch
 
 JEP 441 extends switch to work with type patterns, guarded patterns, and record patterns. This is
-Where sealed classes become truly powerful:
+where sealed classes become truly powerful:
 
 ```java
 public static double area(Shape shape) {
@@ -12893,7 +12893,7 @@ public static double area(Shape shape) {
 ```
 
 The compiler knows all permitted subclasses of `Shape` and verifies that every case is covered. If
-You add a new `Shape` subtype and forget to update the switch, it is a compile-time error, not a
+you add a new `Shape` subtype and forget to update the switch, it is a compile-time error, not a
 Runtime bug.
 
 ### Guarded Patterns
@@ -12997,7 +12997,7 @@ String json = """
 ```
 
 The closing `"""` determines the indentation. The compiler removes the common leading whitespace
-From all lines based on the position of the closing delimiter. In the example above, the content is
+from all lines based on the position of the closing delimiter. In the example above, the content is
 Indented 4 spaces relative to the closing `"""`So 4 spaces are stripped from every line.
 
 ### Escaping Rules
@@ -13084,7 +13084,7 @@ public record MutablePoint(double x, double y) {
 
 The permitted subclasses must be accessible to the sealed class at compile time. If they are in a
 Different package, they must be `public`. If they are in the same package but not public, they must
-Be at least package-private.
+be at least package-private.
 
 ### Pattern Variables and Effectively Final
 
@@ -13218,7 +13218,7 @@ Most server workloads are I/O-bound. A thread handling an HTTP request spends th
 Its time waiting for database queries, network calls, or file I/O. During that wait, the thread's
 Stack sits in memory doing nothing. The traditional solution -- thread pools bounded to some
 Reasonable size (200-500 threads) -- works but introduces complexity: every blocking operation must
-Be non-blocking or async, and async code is hard to write, hard to read, and hard to debug.
+be non-blocking or async, and async code is hard to write, hard to read, and hard to debug.
 
 Virtual threads solve this by decoupling the Java-level thread from the OS thread.
 
@@ -13265,7 +13265,7 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 `Executors.newVirtualThreadPerTaskExecutor()` creates a new virtual thread for every submitted task.
 There is no pooling -- virtual threads are cheap enough that pooling is unnecessary and
 Counterproductive. The executor implements `AutoCloseable`; closing it waits for all submitted tasks
-To complete.
+to complete.
 
 ### How Virtual Threads Work Internally
 
@@ -13372,7 +13372,7 @@ Use `ScopedValue` (discussed below) instead of `ThreadLocal` when working with v
 Traditional Java concurrency is unstructured: you create a thread, submit tasks to an executor, and
 Collect results with `Future.get()`. There is no relationship between the parent task and the child
 Tasks. If a child task fails, the parent must manually cancel the remaining children. If the parent
-Is interrupted, cleanup is manual. This leads to leaked threads, resource exhaustion, and subtle
+is interrupted, cleanup is manual. This leads to leaked threads, resource exhaustion, and subtle
 Bugs.
 
 ```java
@@ -13612,8 +13612,8 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 | Blocking I/O        | Transparent unmount          | Transparent unmount            |
 
 Go goroutines are more mature (available since Go 1.0 in 2012) and have no pinning issue because Go
-Does not have monitor-based locking. Java virtual threads are catching up, and the pinning issue is
-Being addressed in JDK 24+.
+does not have monitor-based locking. Java virtual threads are catching up, and the pinning issue is
+being addressed in JDK 24+.
 
 ### Virtual Threads vs C# async/await
 
@@ -13648,7 +13648,7 @@ Performance reasoning.
 
 Kotlin coroutines are compiler-transformed suspending functions, similar to C# async/await. They use
 `suspend` keyword and `Dispatchers` for thread context. Virtual threads are a runtime feature with
-No language changes required.
+no language changes required.
 
 ## Common Pitfalls
 
@@ -13697,7 +13697,7 @@ try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
 ### Forgetting `join()`
 
 Forgetting to call `join()` means the scope's `close()` will wait for children, but you will not
-Have access to their results:
+have access to their results:
 
 ```java
 try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
@@ -14096,9 +14096,9 @@ URL: https://java.wyattau.com/09-jvm-internals/01-class-loading-memory/
 
 The JVM uses a hierarchical class loading architecture with parent-delegation. When a class loader
 Receives a request to load a class, it first delegates the request to its parent. Only if the parent
-Cannot find the class does the child attempt to load it. This ensures that core JDK classes (like
+cannot find the class does the child attempt to load it. This ensures that core JDK classes (like
 `java.lang.Object`) are always loaded by the bootstrap class loader, preventing a malicious class
-From masquerading as a trusted type.
+from masquerading as a trusted type.
 
 ```
 Bootstrap Class Loader (null)
@@ -14195,12 +14195,12 @@ Class&lt;?&gt; cls = Class.forName("com.example.Handler", false, getClassLoader(
 
 JDBC drivers use `Class.forName()` to register themselves via static initializers. Modern JDBC (Java
 6+) uses the `ServiceLoader` mechanism instead, making explicit `Class.forName()` calls unnecessary
-In most cases.
+in most cases.
 
 ### Lazy Loading and Linking
 
 Classes are loaded lazily: the JVM does not load all classes at startup. A class is loaded when it
-Is first actively used (instantiation, static field access, static method invocation, reflection).
+is first actively used (instantiation, static field access, static method invocation, reflection).
 The process has three phases:
 
 1. **Loading**: Read the `.class` file bytes and create a `java.lang.Class` object.
@@ -14210,7 +14210,7 @@ The process has three phases:
    assignments.
 
 Verification catches malformed class files, stack overflow attacks, and type safety violations
-Before any code executes. This is why the JVM is inherently safer than languages that load and
+before any code executes. This is why the JVM is inherently safer than languages that load and
 Execute native code directly.
 
 ## JVM Memory Model
@@ -14316,13 +14316,13 @@ Associated with it runs during GC, but there is no guarantee of timely cleanup).
 
 Most objects die young. Empirical measurements show that the vast majority of objects (often 90%+)
 Are allocated and become unreachable before surviving even a single GC cycle. Only a small fraction
-Of objects are long-lived (caches, connection pools, singletons). The generational hypothesis is the
+of objects are long-lived (caches, connection pools, singletons). The generational hypothesis is the
 Foundational assumption behind all modern JVM garbage collectors.
 
 ### GC Roots
 
 Garbage collection starts from GC roots -- objects that are always reachable. Anything not reachable
-From a GC root is garbage. GC roots include:
+from a GC root is garbage. GC roots include:
 
 - Local variables on the stack of live threads
 - Static fields of loaded classes
@@ -14331,7 +14331,7 @@ From a GC root is garbage. GC roots include:
 - Objects referenced by `Finalizer` or `ReferenceQueue`
 
 The marking phase traces the object graph from GC roots, marking every reachable object. Anything
-Not marked is garbage.
+not marked is garbage.
 
 ### Mark-Sweep-Compact
 
@@ -14380,8 +14380,8 @@ java -XX:+UseParallelGC -XX:ParallelGCThreads=4 MyApp
 ### G1 GC (Garbage-First)
 
 Default since Java 9. Divides the heap into equal-sized regions (default 2048 regions, each ~2 MB
-For a 4 GB heap). G1 tracks garbage density per region and prioritizes collecting regions with the
-Most garbage first (hence "garbage-first"). It can achieve relatively short pause times
+for a 4 GB heap). G1 tracks garbage density per region and prioritizes collecting regions with the
+most garbage first (hence "garbage-first"). It can achieve relatively short pause times
 (configurable target, default 200 ms) while maintaining good throughput.
 
 ```bash
@@ -14404,14 +14404,14 @@ java -XX:+UseZGC MyApp  # Default since JDK 21 for server-class machines
 ```
 
 ZGC performs compaction concurrently using load barriers (read barriers that check if an object has
-Been moved). The overhead is a slight increase in mutator CPU usage, but the near-zero pause times
+been moved). The overhead is a slight increase in mutator CPU usage, but the near-zero pause times
 Make it ideal for latency-sensitive applications.
 
 ### Shenandoah
 
 Similar goals to ZGC but uses a different algorithm. Developed by Red Hat. Uses Brooks pointers
 (forwarding pointers stored alongside object references) for concurrent compaction. Pause times are
-Also sub-millisecond.
+also sub-millisecond.
 
 ```bash
 java -XX:+UseShenandoahGC MyApp
@@ -14431,7 +14431,7 @@ Do not use CMS in new code. Use G1, ZGC, or Shenandoah.
 Before Java 8, class metadata was stored in PermGen, a fixed-size region of the heap. `String`
 Literals were also stored in PermGen (in the string pool). PermGen had a fixed maximum size
 (`-XX:MaxPermSize`), and `OutOfMemoryError: PermGen` was a common failure mode for applications with
-Many classes.
+many classes.
 
 Java 8 replaced PermGen with Metaspace:
 
@@ -14568,7 +14568,7 @@ Total: reserved=5000MB, committed=1200MB
 ```
 
 This is invaluable for diagnosing native memory leaks, especially in containerized environments
-Where the JVM's total memory usage must stay within cgroup limits.
+where the JVM's total memory usage must stay within cgroup limits.
 
 ## Common Pitfalls
 
@@ -14581,7 +14581,7 @@ Generation.
 ### GC Pause Spikes with G1
 
 If `MaxGCPauseMillis` is set too aggressively (e.g., 10 ms), G1 may not be able to meet the target
-And will work harder (more frequent young GCs, earlier concurrent marking cycles), potentially
+and will work harder (more frequent young GCs, earlier concurrent marking cycles), potentially
 Increasing total GC overhead. Start with the default (200 ms) and adjust based on measured pause
 Times.
 
@@ -14614,7 +14614,7 @@ Critical paths.
 
 The module system adds a layer of access control on top of the class loader delegation model. Each
 Module declares which packages it exports and which modules it requires. The module system interacts
-With class loading in two ways:
+with class loading in two ways:
 
 1. **Readable modules**: A class in module A can only access classes in module B if A `requires` B
    (or B is in the boot layer).
@@ -14664,7 +14664,7 @@ Amount of garbage in each region and prioritizes collecting regions with the hig
 
 **Young GC** (mixed with old regions): When Eden fills up, G1 copies live objects from Eden and
 Selected survivor regions into new survivor or old regions. The selected old regions are those with
-The most reclaimable space ("garbage-first").
+the most reclaimable space ("garbage-first").
 
 **Concurrent marking**: G1 runs a concurrent marking phase to identify live objects across the
 Entire heap. This phase runs while the application executes. It uses snapshot-at-the-beginning
@@ -14692,7 +14692,7 @@ Pointers"):
 These colored pointers allow ZGC to perform concurrent marking and relocation without stopping
 Application threads. When the GC relocates an object, it updates the forwarding pointer in the old
 Location. Application threads that read the old location see a "load barrier" that checks the color
-And either returns the old location (if not yet relocated) or follows the forwarding pointer (if
+and either returns the old location (if not yet relocated) or follows the forwarding pointer (if
 Relocated). This is transparent to the application -- the barrier is inserted by the JIT at every
 Object load.
 
@@ -14920,7 +14920,7 @@ Memory-mapped structures. These can cause premature promotion and increase old g
 ### Serial GC
 
 The simplest collector. Uses a single thread for both minor and full GC. Stop-the-world (STW) for
-The entire duration of collection.
+the entire duration of collection.
 
 ```bash
 -XX:+UseSerialGC
@@ -15034,7 +15034,7 @@ Implementation (Brooks pointers instead of colored pointers).
 ### Stop-the-World (STW)
 
 During an STW pause, all application threads are suspended. The JVM cannot execute application code
-While the GC is running. STW pauses directly impact application latency, if a GC pause takes 500
+while the GC is running. STW pauses directly impact application latency, if a GC pause takes 500
 Ms, no requests can be served during that time.
 
 ### Concurrent Phases
@@ -15303,7 +15303,7 @@ Evidence of a problem (long pauses, low throughput, high memory usage).
 If G1 falls back to full GC, it means the concurrent cycle could not keep up with allocation
 Pressure. This is a sign that the heap is too small, the marking threshold is too high, or the mixed
 Collections are not reclaiming enough memory. Address the root cause rather than trying to tune
-Around it.
+around it.
 
 ### Large Objects and Humongous Allocations
 
@@ -15323,14 +15323,14 @@ Collections are typical culprits.
 ```
 
 If your application allocates many objects larger than the humongous threshold, consider: increasing
-The region size, pooling large buffers, or using `MappedByteBuffer` for large data structures that
-Do not need to live on the GC-managed heap.
+the region size, pooling large buffers, or using `MappedByteBuffer` for large data structures that
+do not need to live on the GC-managed heap.
 
 ### String Deduplication in Detail
 
 G1's string deduplication identifies `String` objects in the old generation whose backing `byte[]`
 Arrays are identical, and replaces duplicates with a single shared array. This operates at GC time
-And is transparent to the application.
+and is transparent to the application.
 
 ```bash
 -XX:+UseG1GC -XX:+StringDeduplication
@@ -15381,7 +15381,7 @@ java -XX:+UseZGC -XX:MaxRAMPercentage=75.0 -jar app.jar
 
 :::tip
 The same container image to work with different memory limits without rebuilding. A value of 70-80%
-Is typical, leaving room for metaspace, native memory, and off-heap buffers.
+is typical, leaving room for metaspace, native memory, and off-heap buffers.
 :::
 
 ### Native Memory Tracking
@@ -15678,7 +15678,7 @@ Sooner after they become hot. The compiled code is good but not optimal.
 **C2 (Server Compiler)**: Optimizes for maximum performance. Performs aggressive optimizations
 (escape analysis, loop unrolling, global value numbering, range check elimination). Compilation is
 Slow (seconds), so methods must be very hot before C2 compiles them. The compiled code is
-Near-optimal.
+near-optimal.
 
 ### Tiered Compilation
 
@@ -15725,13 +15725,13 @@ Compiles at 10000-15000 invocations (exact values depend on the JVM version and 
 ### Back-Edge Counters (OSR)
 
 Loops are the primary performance bottleneck in most programs. A method with a long-running loop
-Might never be called enough times to cross the invocation threshold, but the loop body executes
+might never be called enough times to cross the invocation threshold, but the loop body executes
 Millions of times. The back-edge counter counts each iteration of a loop (each time control jumps
 Back to the loop header).
 
 When the back-edge counter crosses the threshold, the JVM performs **On-Stack Replacement (OSR)**:
 It compiles the loop body while the loop is still executing and replaces the interpreted loop with
-The compiled version mid-execution. The stack frame is rewritten to continue execution in the
+the compiled version mid-execution. The stack frame is rewritten to continue execution in the
 Compiled code.
 
 ```java
@@ -15746,8 +15746,8 @@ public void hotLoop() {
 ```
 
 OSR is why Java programs "warm up": the first few iterations run interpreted, then the JIT kicks in
-And subsequent iterations run at full native speed. The transition is seamless -- the loop index and
-All local variables are preserved.
+and subsequent iterations run at full native speed. The transition is seamless -- the loop index and
+all local variables are preserved.
 
 ### Counter Decay
 
@@ -15866,7 +15866,7 @@ for (int i = 0; i &lt; 1000; i += 4) {
 ```
 
 C2 performs loop unrolling based on heuristics: the loop body must be small, the iteration count
-Must be known (or predictable), and unrolling must not increase code size beyond the benefit. The
+must be known (or predictable), and unrolling must not increase code size beyond the benefit. The
 Unroll factor is controlled by `-XX:LoopUnrollLimit`.
 
 ### Dead Code Elimination
@@ -15974,7 +15974,7 @@ When deoptimization is triggered:
 5. Execution continues in the interpreter from the point where the invalid assumption was detected.
 
 This process is called "unpacking" and it is relatively expensive (microseconds per frame), but it
-Only happens when the profiling assumptions change, which is rare in steady-state execution.
+only happens when the profiling assumptions change, which is rare in steady-state execution.
 
 ### Deoptimization Points
 
@@ -15985,7 +15985,7 @@ Safepoint.
 
 Rarely, a deoptimization is "urgent" (e.g., a field was modified and the compiled code reads stale
 Data). In this case, the JVM can force deoptimization at the next safepoint poll, which is inserted
-At method calls, loop back edges, and return points.
+at method calls, loop back edges, and return points.
 
 ## AOT Compilation: GraalVM Native Image
 
@@ -15993,7 +15993,7 @@ At method calls, loop back edges, and return points.
 
 GraalVM Native Image performs ahead-of-time (AOT) compilation: it analyzes your application at build
 Time, determines the closed-world set of classes and methods that are reachable, and compiles them
-To a standalone native executable. There is no JIT at runtime -- all code is already native machine
+to a standalone native executable. There is no JIT at runtime -- all code is already native machine
 Code.
 
 ```bash
@@ -16184,7 +16184,7 @@ When profiling for performance:
 
 Do not optimize based on speculation. Profile first, identify the actual bottleneck, then optimize.
 The JIT compiler is already doing most of the optimizations you would think of (and many you would
-Not). Micro-optimizations that fight the JIT (like manually inlining, adding redundant null checks,
+not). Micro-optimizations that fight the JIT (like manually inlining, adding redundant null checks,
 Or unrolling loops) are counterproductive.
 
 ### Megamorphic Call Sites
@@ -16436,7 +16436,7 @@ returns a `Stream&lt;String&gt;`.
 
 Try-with-resources (JDK 7) is the correct way to manage I/O resources. Every stream, reader, writer,
 Channel, and `Scanner` implements `AutoCloseable`. Resources are closed in reverse declaration order
-Even if an exception is thrown.
+even if an exception is thrown.
 
 ```java
 // Reading a text file line by line (the most common pattern)
@@ -16481,7 +16481,7 @@ Finalization is unreliable for cleanup.
 ### Serialization and Externalizable
 
 Java serialization (`java.io.Serializable`) converts an object graph into a byte stream and back. It
-Is deceptively easy to use and deceptively hard to use correctly.
+is deceptively easy to use and deceptively hard to use correctly.
 
 ```java
 public class User implements Serializable {
@@ -16496,7 +16496,7 @@ public class User implements Serializable {
 ```
 
 Serialization serializes the entire reachable object graph. Serializing a `HashMap` also serializes
-Every key and value object.
+every key and value object.
 
 **Common Pitfalls with Serialization:**
 
@@ -16585,7 +16585,7 @@ NIO.2, introduced in JDK 7 (JSR 203), is a modern file API that addresses the de
 
 `Path` is immutable and separates locating a file (`Path`) from accessing it (`Files`).
 `java.io.File` conflates both: its methods like `exists()` and `isDirectory()` query the filesystem
-But do not declare `SecurityException`.
+but do not declare `SecurityException`.
 
 ```java
 // Old way (java.io.File)
@@ -16699,8 +16699,8 @@ Safe file replacement (write to temp file, then atomic move).
 
 **Common Pitfall:** `Files.delete()` throws `NoSuchFileException` if the file does not exist, and
 `DirectoryNotEmptyException` if the directory is not empty. Use `Files.deleteIfExists()` if you want
-To ignore a missing file, and use `Files.walkFileTree()` with `DELETE_ON_CLOSE` or manual recursion
-To delete a non-empty directory.
+to ignore a missing file, and use `Files.walkFileTree()` with `DELETE_ON_CLOSE` or manual recursion
+to delete a non-empty directory.
 
 ```java
 // Delete a non-empty directory
@@ -17380,7 +17380,7 @@ URL: https://java.wyattau.com/10-io-nio/02-nio-deep-dive/
 ## NIO Overview
 
 `java.nio` (New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to
-The stream-based `java.io` API. NIO is designed for high-throughput I/O scenarios: network servers
+the stream-based `java.io` API. NIO is designed for high-throughput I/O scenarios: network servers
 Handling thousands of connections, file operations on large files, and memory-mapped I/O.
 
 ### Buffer vs Stream
@@ -17396,7 +17396,7 @@ Handling thousands of connections, file operations on large files, and memory-ma
 ## Buffers
 
 Buffers are the central data containers in NIO. A buffer is a fixed-capacity, in-memory container
-For data of a specific primitive type. All buffers extend `Buffer`.
+for data of a specific primitive type. All buffers extend `Buffer`.
 
 ### `ByteBuffer`
 
@@ -17477,7 +17477,7 @@ ByteBuffer direct = ByteBuffer.allocateDirect(1024);
 :::note
 Allocation cost is amortized over many I/O calls, and the avoidance of heap-to-native copies
 Improves throughput. Use heap buffers for short-lived buffers where allocation speed matters more
-Than I/O throughput.
+than I/O throughput.
 :::
 
 ### `get` and `put` Operations
@@ -18156,7 +18156,7 @@ public class BufferPool {
 
 Scatter/gather operations read from a channel into multiple buffers (scatter) or write from multiple
 Buffers to a channel (gather) in a single system call. This reduces the number of context switches
-Between user space and kernel space.
+between user space and kernel space.
 
 ```java
 // Gather write, write headers and body from separate buffers
@@ -18514,7 +18514,7 @@ public interface Broken {
 ```
 
 The annotation is optional (any interface with one abstract method is a functional interface), but
-It makes intent explicit and catches accidental additions.
+it makes intent explicit and catches accidental additions.
 
 ### Other Built-in Annotations
 
@@ -18647,7 +18647,7 @@ public void runDailyReport() { }
 
 At runtime, the container annotation is what reflection sees by default. Use
 `AnnotatedElement.getAnnotationsByType()` to get individual repeatable annotations regardless of
-Whether they are stored individually or in a container:
+whether they are stored individually or in a container:
 
 ```java
 Schedule[] schedules = MyClass.class.getMethod("runDailyReport")
@@ -18914,7 +18914,7 @@ public class BeanUtils {
 ### Classpath Scanning
 
 Reflection enables runtime classpath scanning (used by Spring, Jersey, etc.) by reading JAR entries
-Or directory listings. Real implementations must handle JAR files, modules, and edge cases.
+or directory listings. Real implementations must handle JAR files, modules, and edge cases.
 Libraries like Reflections or Spring's `ClassPathScanningCandidateComponentProvider` handle these
 Complexities.
 
@@ -19278,7 +19278,7 @@ InvocationHandler handler = (proxy, method, args) -> {
 ### Module System Restrictions (JDK 9+)
 
 The module system restricts reflective access to non-exported packages, affecting deep reflection
-Into JDK internals (e.g., `sun.misc.Unsafe`) and frameworks that access private members of library
+into JDK internals (e.g., `sun.misc.Unsafe`) and frameworks that access private members of library
 Classes. The long-term fix is to use public APIs instead of reaching into internals via reflection.
 
 ```mermaid
@@ -19367,7 +19367,7 @@ String name = (String) names.get(1); // ClassCastException at runtime
 ```
 
 This was the standard pattern for container classes. The `Collections` framework, Hibernate, and
-Every library that dealt with heterogeneous data required the programmer to track types mentally.
+every library that dealt with heterogeneous data required the programmer to track types mentally.
 Incorrect casts surfaced as `ClassCastException` at runtime, often far from the actual insertion
 Point.
 
@@ -19450,7 +19450,7 @@ public interface Comparable<T> {
 ```
 
 A class can implement a generic interface with a concrete type or pass its own type parameter
-Through:
+through:
 
 ```java
 public class StringRepository implements Repository<String, Long> {
@@ -19466,7 +19466,7 @@ public class InMemoryRepository<T, ID> implements Repository<T, ID> {
 ### Generic Methods
 
 A generic method declares its own type parameters before the return type. This allows the method to
-Be generic even if the enclosing class is not:
+be generic even if the enclosing class is not:
 
 ```java
 public class Util {
@@ -19546,7 +19546,7 @@ public static <T extends Comparable<T>> void sort(List<T> list) {
 ```
 
 Upper bounds are the most common form. They say "I need to **read** from `T`" (I need it to be at
-Least this capable).
+least this capable).
 
 ### Lower Bounds (`super`)
 
@@ -19599,7 +19599,7 @@ Cast at the call site. But at the bytecode level, the erased type is only the fi
 ### Unbounded Wildcard (`?`)
 
 `List<?>` means "a list of some unknown type." You can **read** from it (getting `Object`) but you
-Cannot **write** to it (except `null`):
+cannot **write** to it (except `null`):
 
 ```java
 void printSize(List<?> list) {
@@ -19682,7 +19682,7 @@ Collections.copy(dest, src); // dest is ? super Integer, src is ? extends Intege
 ### Wildcard Capture
 
 When the compiler encounters a wildcard type, it internally creates a "capture" of the unknown type
-To track consistency. You can see this in error messages:
+to track consistency. You can see this in error messages:
 
 ```java
 List<?> list = new ArrayList<String>();
@@ -19780,7 +19780,7 @@ Type erasure was a deliberate design decision to achieve **backwards compatibili
    the inserted casts.
 
 C# chose the opposite approach (reified generics), which provides richer runtime type information
-But broke backwards compatibility.
+but broke backwards compatibility.
 
 ### Bridge Methods
 
@@ -19964,7 +19964,7 @@ public class Container<T> {
 ```
 
 The compiler cannot generate the correct bytecode because it doesn't know what type `T` represents
-At runtime. It cannot emit `newarray` or `anewarray` without a concrete class reference.
+at runtime. It cannot emit `newarray` or `anewarray` without a concrete class reference.
 
 ### Why `new T()` Is Also Illegal
 
@@ -19977,7 +19977,7 @@ public class Factory<T> {
 ```
 
 Same reason: the erased code would need to be `return new Object()` which is wrong for any `T` other
-Than `Object`.
+than `Object`.
 
 ### Workarounds for Creating `T` Instances
 
@@ -20109,7 +20109,7 @@ Parameter is gone at runtime.
 ### Heap Pollution
 
 Heap pollution occurs when a variable of a parameterized type refers to an object that is not of
-That type. This happens through unchecked casts or mixing raw and generic types:
+that type. This happens through unchecked casts or mixing raw and generic types:
 
 ```java
 List raw = new ArrayList<Integer>();
@@ -20140,7 +20140,7 @@ addToList(strings, ints.toArray()); // Object[] of Integer assigned to T... wher
 ```
 
 Use `@SafeVarargs` only when the method does not store the varargs array or expose it to code that
-Might perform unsafe operations.
+might perform unsafe operations.
 
 ### Unchecked Warnings
 
@@ -20346,7 +20346,7 @@ not force you to declare or handle them. Everything else is **checked**.
 | Example              | `IOException``SQLException`                  | `NullPointerException``IllegalArgumentException` |
 
 The pragmatic rule: use checked exceptions for conditions where the caller **reasonably can and
-Should** take corrective action. Use unchecked exceptions for programming errors and precondition
+should** take corrective action. Use unchecked exceptions for programming errors and precondition
 Violations.
 
 This is not a bright line. The Java standard library itself is inconsistent,
@@ -20660,7 +20660,7 @@ public class UserService {
 ```
 
 The rule: each layer should only throw exceptions meaningful to its callers. A service layer caller
-Should never see `SQLException` or `PersistenceException`.
+should never see `SQLException` or `PersistenceException`.
 
 ### Fail-fast vs Fail-safe
 
@@ -20919,7 +20919,7 @@ public void readFile() throws IOException;
 
 The exception table is a list of `(start_pc, end_pc, handler_pc, catch_type)` tuples. When an
 Exception is thrown, the JVM scans the exception table of the current method for a matching entry
-Where `start_pc &lt;= pc &lt; end_pc` and the thrown exception is assignable to `catch_type`. If no
+where `start_pc &lt;= pc &lt; end_pc` and the thrown exception is assignable to `catch_type`. If no
 Handler is found, the method frame is popped and the search continues in the caller.
 
 ### Stack Unwinding Mechanism
@@ -21176,7 +21176,7 @@ try {
 ```
 
 When `InterruptedException` is caught, the thread's interrupt flag is **automatically cleared**. If
-You do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
+you do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
 Cooperative cancellation in the caller breaks.
 
 ```mermaid
@@ -21928,8 +21928,8 @@ Leading to version mismatches between related libraries:
 ### Gradle Configuration Cache Issues
 
 Gradle's configuration cache (enabled with `--configuration-cache`) caches the project configuration
-Between builds. Build scripts must be idempotent, they must not read system state that can change
-Between builds (e.g., `System.getenv()` outside of providers, `new Date()` in dependency
+between builds. Build scripts must be idempotent, they must not read system state that can change
+between builds (e.g., `System.getenv()` outside of providers, `new Date()` in dependency
 Declarations).
 
 ```kotlin
@@ -22221,7 +22221,7 @@ The wrapper downloads the specified Gradle distribution to `~/.gradle/wrapper/di
 :::caution
 Different developers (and CI agents) may have different versions installed, leading to "works on my
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
-Through a PR.
+through a PR.
 
 ```mermaid
 flowchart TD
@@ -22990,7 +22990,7 @@ tasks.check {
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
 
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes
-To coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
+to coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
 Untested code, not as a target to gamify.
 
 ## Flaky Tests
@@ -24274,7 +24274,7 @@ JNI mechanism with a type-safe, allocation-tracking API that is practically usab
 :::note
 As a standard JDK component. You no longer need a separate GraalVM distribution to build native
 Images. The Graal JIT compiler has been available as an experimental tier-4 compiler in OpenJDK
-Since JDK 10.
+since JDK 10.
 :::
 
 ## The Graal Compiler
@@ -24288,7 +24288,7 @@ Compiles with C2 for maximum throughput.
 
 Graal is a replacement for C2 written in Java. It is itself a Java program that compiles Java
 Bytecode to machine code. Being written in Java means Graal benefits from the same JVM optimizations
-It produces, and its codebase is far more approachable for contributors than C2 (which is written in
+it produces, and its codebase is far more approachable for contributors than C2 (which is written in
 C++).
 
 **Definition.** The Graal compiler is a graph-based JIT compiler implemented in Java that replaces
@@ -24336,7 +24336,7 @@ native-image -H:ConfigurationFileDirectories=META-INF/native-image \
 ```
 
 The agent records which classes are instantiated, which methods are called, which reflection sites
-Are used, and which resources are loaded. This information feeds the closed-world analysis during
+are used, and which resources are loaded. This information feeds the closed-world analysis during
 Native image generation, producing a smaller and faster binary.
 
 ### When Graal JIT Outperforms C2
@@ -24598,7 +24598,7 @@ Reasons are:
 
 :::note
 Release. For I/O-bound server applications, native image now matches or exceeds HotSpot performance
-For most practical workloads. The gap is most noticeable in CPU-bound, long-running processes where
+for most practical workloads. The gap is most noticeable in CPU-bound, long-running processes where
 HotSpot's adaptive optimization has time to produce highly specialized code.
 :::
 
@@ -24612,7 +24612,7 @@ Supports variadic functions, structs by value, and callbacks without writing C g
 
 **Definition.** The FFM API consists of two main abstractions: `Linker` for creating downcall method
 Handles to native functions, and `MemorySegment` for modeling contiguous regions of native memory
-With deterministic deallocation.
+with deterministic deallocation.
 
 ### Core Types
 
@@ -24839,7 +24839,7 @@ public class LibCurlExample {
 :::caution
 If misused. These methods perform bounds checks and null checks, but cannot prevent all undefined
 Behavior (e.g., passing a freed segment to a native function). The `@Restricted` annotation serves
-As a warning: you are leaving the safety guarantees of the Java platform.
+as a warning: you are leaving the safety guarantees of the Java platform.
 :::
 
 ## Foreign Memory Access
@@ -24848,7 +24848,7 @@ As a warning: you are leaving the safety guarantees of the Java platform.
 
 The `Arena` class controls the lifetime of memory segments. When an arena is closed, all segments
 Allocated from it are freed. This eliminates the class of bugs where native memory is leaked because
-The Java code forgot to call `free()`.
+the Java code forgot to call `free()`.
 
 ```java
 import java.lang.foreign.Arena;
@@ -25246,7 +25246,7 @@ return switch (shape) {
 
 Project Valhalla introduces value types to Java -- classes that have identity-free, flattened
 Instances. A value type's instances are compared by their contents, not by reference identity. They
-Can be stored inline in fields and array elements, eliminating the memory indirection and cache
+can be stored inline in fields and array elements, eliminating the memory indirection and cache
 Misses of boxed types.
 
 **Definition.** A value class is a class declared with the `value` keyword (or `inline` in earlier
@@ -25322,7 +25322,7 @@ Improvement is significant.
 
 Value types solve a long-standing limitation of Java generics: primitive types cannot be used as
 Type arguments. With value types, `List&lt;Point&gt;` can store `Point` instances inline (or at
-Least more compactly) without boxing.
+least more compactly) without boxing.
 
 ```java
 // Today: List<int> does not exist, must use List<Integer> (boxed)
@@ -25473,7 +25473,7 @@ mvn -Pnative native:compile
 ```
 
 Takes 30-120 seconds, which makes the test cycle too slow. Test business logic in JVM mode, and use
-The native image binary only for integration tests and final validation.
+the native image binary only for integration tests and final validation.
 
 ## Intuition
 
@@ -25507,7 +25507,7 @@ java -agentlib:native-image-agent=config-output-dir=META-INF/native-image \
 ### Classpath Scanning Failures
 
 Frameworks like Spring and Hibernate scan the classpath at runtime to find annotated classes. This
-Does not work in native image because there is no classpath at runtime -- all classes are statically
+does not work in native image because there is no classpath at runtime -- all classes are statically
 Linked.
 
 **Fix**: Use the agent, or configure the framework's native-image integration:
@@ -25538,7 +25538,7 @@ Binary.
 ### JNI Limitations in Native Image
 
 JNI libraries loaded with `System.loadLibrary()` work in native image, but the JNI configuration
-Must list all native methods and their signatures. Dynamically registered JNI methods (via
+must list all native methods and their signatures. Dynamically registered JNI methods (via
 `RegisterNatives`) require additional configuration.
 
 The FFM API is the preferred mechanism for native interop in native image. It requires no JNI

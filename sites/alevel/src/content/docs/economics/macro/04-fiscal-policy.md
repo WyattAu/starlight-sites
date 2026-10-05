@@ -25,14 +25,14 @@ categories:
 ### 1.1 Definition
 
 We define **fiscal policy** as the use of government spending ($G$) and taxation ($T$) to influence
-The level of aggregate demand, economic activity, and the allocation of resources in the economy.
+the level of aggregate demand, economic activity, and the allocation of resources in the economy.
 
 $$
 \mathrm{Fiscal policy tools: } G, T, \mathrm{ and } (G - T)
 $$
 
 Fiscal policy is conducted by the government (Chancellor of the Exchequer in the UK, Secretary of
-The Treasury in the US) alongside the central bank"s monetary policy.
+the Treasury in the US) alongside the central bank"s monetary policy.
 
 ### 1.2 The Government Budget
 
@@ -48,7 +48,7 @@ $$
 
 :::note
 And the national debt. AQA and Edexcel may ask about the UK's fiscal rules (e.g., the fiscal mandate
-And supplementary target).
+and supplementary target).
 :::
 
 ## 2. Government Spending
@@ -331,7 +331,7 @@ r \uparrow \Rightarrow I \downarrow
 $$
 
 The rise in $r$ reduces private investment, partially (or fully) offsetting the expansionary effect
-Of $\Delta G$ on AD.
+of $\Delta G$ on AD.
 
 ### 6.3 Types of Crowding Out
 
@@ -365,7 +365,7 @@ Prices, reducing private sector profitability.
 
 :::tip
 Answer recognises that crowding out is less severe in a recession (Keynesian view) and more severe
-At full employment (Classical view). Reference the state of the economic cycle.
+at full employment (Classical view). Reference the state of the economic cycle.
 :::
 
 ## 7. Automatic Stabilisers
@@ -612,7 +612,7 @@ Ricardian equivalence (Barro, 1974): households anticipate future tax liabilitie
 **Problem 9.** The government is considering two options to stimulate the economy: (A) increase
 Spending on infrastructure by £80 billion, or (B) cut income tax by £80 billion. The economy has MPC
 = 0.7, MPT = 0.15, MPM = 0.1. (a) Which option has a larger impact on GDP? (b) Which option might
-Have greater long-run benefits? (c) Evaluate the trade-offs.
+have greater long-run benefits? (c) Evaluate the trade-offs.
 
 <details>
 <summary>Hint</summary>

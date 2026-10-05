@@ -42,7 +42,7 @@ Carbon of the next, forming a sugar-phosphate backbone with directionality: $5' 
 The two strands are antiparallel: one runs $5' \to 3'$ while the other runs $3' \to 5'$. They are
 Held together by **hydrogen bonds** between complementary base pairs: A pairs with T (2 hydrogen
 Bonds), C pairs with G (3 hydrogen bonds). The double helix twists with approximately 10 base pairs
-Per turn.
+per turn.
 
 ### 1.2 DNA Replication
 
@@ -106,7 +106,7 @@ Eukaryotes).
 ### 2.2 Translation
 
 Translation is the synthesis of a polypeptide from an mRNA template. It occurs on **ribosomes** in
-The cytoplasm (or on the RER for secreted proteins).
+the cytoplasm (or on the RER for secreted proteins).
 
 Ribosomes have two subunits: the **small subunit** (40S in eukaryotes) binds to mRNA, and the
 **large subunit** (60S) has three tRNA binding sites: A (aminoacyl), P (peptidyl), and E (exit).
@@ -181,7 +181,7 @@ Harmful mutations are eliminated by selection; beneficial ones may increase in f
 ### 4.1 Purpose and Overview
 
 Meiosis is a form of cell division that produces four genetically distinct **haploid** ($n$) cells
-From one diploid ($2n$) parent cell. It is essential for sexual reproduction: it halves the
+from one diploid ($2n$) parent cell. It is essential for sexual reproduction: it halves the
 Chromosome number so that fertilisation restores the diploid number.
 
 Meiosis consists of two divisions:
@@ -233,7 +233,7 @@ $(2^{23})^2 \approx 7 \times 10^{13}$ possible zygote combinations.
 ### 5.1 Monohybrid Inheritance
 
 A monohybrid cross involves one gene with two alleles. Using the standard notation: uppercase letter
-For the dominant allele, lowercase for the recessive allele.
+for the dominant allele, lowercase for the recessive allele.
 
 **Example.** In pea plants, tall ($T$) is dominant over dwarf ($t$). Cross two heterozygous plants
 ($Tt \times Tt$):
@@ -247,7 +247,7 @@ Genotypic ratio: $1\ TT : 2\ Tt : 1\ tt$. Phenotypic ratio: $3\ \mathrm{tall} : 
 
 **Test cross**: crossing an individual of unknown genotype (showing the dominant phenotype) with a
 Homozygous recessive individual. If any offspring show the recessive phenotype, the unknown parent
-Must be heterozygous.
+must be heterozygous.
 
 ### 5.2 Dihybrid Inheritance
 
@@ -265,7 +265,7 @@ This ratio arises from the **product rule**: each gene segregates independently
 
 Genes carried on the X chromosome show sex-linked inheritance patterns. Males (XY) have only one
 Copy of X-linked genes and are **hemizygous** -- a single recessive allele on the X chromosome will
-Be expressed.
+be expressed.
 
 **Example.** Red-green colour blindness is X-linked recessive ($X^c$). A carrier female ($X^CX^c$)
 Crossed with a normal male ($X^CY$):
@@ -291,7 +291,7 @@ Genotype $I^AI^B$ produces blood group AB, expressing both A and B antigens.
 
 **Incomplete dominance**: the heterozygote has an intermediate phenotype. Example: snapdragon colour
 -- $RR$ (red) $\times$ $WW$ (white) gives $RW$ (pink). The pink phenotype is not a blend of pigments
-But reduced production of red pigment.
+but reduced production of red pigment.
 
 :::caution
 Co-dominance, both alleles produce their full product (both A and B antigens are present). In
@@ -345,7 +345,7 @@ Epigenetic modifications alter the accessibility of DNA to transcription machine
 
 Epigenetic modifications are **heritable** during cell division and can be influenced by
 Environmental factors (diet, stress, toxins). This is a mechanism by which environmental experiences
-Can have long-term effects on gene expression without altering the DNA sequence.
+can have long-term effects on gene expression without altering the DNA sequence.
 
 **Example.** The agouti mouse model: maternal diet rich in methyl donors (folic acid, vitamin
 $\mathrm{B_{12}}$) increases DNA methylation at the agouti gene, silencing it and producing
@@ -678,7 +678,7 @@ Only the semi-conservative model is consistent with the experimental results.
 <summary>Problem 3</summary>
 In cats, the gene for coat colour is X-linked. Black ($X^B$) is dominant over orange ($X^O$). A
 Calico cat has patches of black and orange fur. Explain the genetic basis of calico coat colour
-And why calico cats are almost always female.
+and why calico cats are almost always female.
 
 **Answer.** A calico cat has genotype $X^BX^O$ -- it is heterozygous for the coat colour gene,
 Carrying one black allele and one orange allele. In female mammals, one X chromosome in each cell is
@@ -687,7 +687,7 @@ The inactivated X condenses into a **Barr body** and its genes are not expressed
 X-inactivation is random, some cells express $X^B$ (producing black fur) and others express $X^O$
 (producing orange fur). The random pattern of inactivation creates patches of black and orange.
 Males are almost always calico-free because they have only one X chromosome ($X^BY$ or $X^OY$) and
-Therefore cannot be heterozygous for this gene. The rare male calico cats have an abnormal karyotype
+therefore cannot be heterozygous for this gene. The rare male calico cats have an abnormal karyotype
 (XXY, Klinefelter syndrome).
 
 <b>If you get this wrong, revise:</b> [Sex-Linked Inheritance](#53-sex-linked-inheritance) and
@@ -751,12 +751,12 @@ DNA polymerase unable to synthesise the lagging strand continuously?
 
 **Answer.** Helicase unwinds the double helix by breaking hydrogen bonds between base pairs at the
 Replication fork. DNA polymerase synthesises new DNA strands by adding complementary nucleotides to
-The $3'$ end of a growing strand, catalysing phosphodiester bond formation. It can only synthesise
-In the $5' \to 3'$ direction. Primase synthesises short RNA primers complementary to the DNA
+the $3'$ end of a growing strand, catalysing phosphodiester bond formation. It can only synthesise
+in the $5' \to 3'$ direction. Primase synthesises short RNA primers complementary to the DNA
 Template, providing the $3'-\mathrm{OH}$ group that DNA polymerase requires to initiate synthesis.
 DNA ligase joins Okazaki fragments on the lagging strand by forming phosphodiester bonds between
 Adjacent fragments. DNA polymerase cannot synthesise the lagging strand continuously because it can
-Only add nucleotides in the $5' \to 3'$ direction, but the lagging strand template is oriented
+only add nucleotides in the $5' \to 3'$ direction, but the lagging strand template is oriented
 $3' \to 5'$ relative to the replication fork. As the fork opens, new template is exposed in the
 $5' \to 3'$ direction (away from the fork), so synthesis must proceed back towards the fork in
 Discontinuous Okazaki fragments, each requiring its own RNA primer.
@@ -835,9 +835,9 @@ Concentrations of amplified DNA.
 <summary>Problem 9</summary>
 In a population of 10000 people, the frequency of the recessive allele for cystic fibrosis ($f$) is
 $0.02$. (a) Calculate the expected number of carriers (heterozygotes) in the population. (b) Calculate
-The expected number of individuals with cystic fibrosis. (c) A genetic screening programme identifies
-All carriers and counsels them. If two carriers decide to have a child, what is the probability that
-The child will have cystic fibrosis?
+the expected number of individuals with cystic fibrosis. (c) A genetic screening programme identifies
+all carriers and counsels them. If two carriers decide to have a child, what is the probability that
+the child will have cystic fibrosis?
 
 **Answer.** (a) $q = 0.02$, $p = 1 - 0.02 = 0.98$.
 

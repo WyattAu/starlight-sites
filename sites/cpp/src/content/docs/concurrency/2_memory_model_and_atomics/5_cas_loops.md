@@ -63,7 +63,7 @@ bool compare_exchange_strong(T& expected, T desired,
 ```
 
 On failure, `expected` is updated to the current value of the atomic variable, allowing the caller
-To recompute `desired` and retry.
+to recompute `desired` and retry.
 
 :::tip
 failed due to A value mismatch (e.g., when you want to take a different action on real failure vs
@@ -198,7 +198,7 @@ int main() {
 :::note
 Operation. The acquire semantics ensure that all accesses to the object (sequenced-before the
 Release) are visible to the thread that performs the destruction. The release semantics ensure that
-The destruction itself is visible to other threads. The `fetch_sub` return value is checked against
+the destruction itself is visible to other threads. The `fetch_sub` return value is checked against
 1 (not 0) because `fetch_sub` returns the **old** value [N4950 §31.7.2].
 :::
 
@@ -333,7 +333,7 @@ The lock-free stack above has a classic ABA vulnerability:
 4. Thread A's CAS succeeds because `head == A` again. But `A->next` has changed.
 
 In a garbage-collected language, ABA is prevented because the GC doesn't recycle nodes. In C++, you
-Must prevent it explicitly using:
+must prevent it explicitly using:
 
 1. **Hazard pointers:** Threads publish pointers they are reading. Before reclaiming memory, the
    reclaimer checks that no thread has a hazard pointer to it.
@@ -403,8 +403,8 @@ void push_with_tag(void* new_node) {
 ## Memory Ordering in CAS Operations
 
 The `compare_exchange` functions accept two memory order arguments: one for the **success** case and
-One for the **failure** case. The failure order cannot be stronger than `memory_order_consume` and
-Cannot be `release` or `acq_rel` [N4950 §31.7.2].
+one for the **failure** case. The failure order cannot be stronger than `memory_order_consume` and
+cannot be `release` or `acq_rel` [N4950 §31.7.2].
 
 ### Common Memory Order Combinations
 
@@ -680,7 +680,7 @@ int main() {
 
 The sentinel node pattern avoids the ABA problem for the head pointer because the head never moves
 Backward, it always advances from one dummy node to the next. The old dummy node is deleted after
-The head swings, so it can never be recycled and re-inserted. The tail pointer may lag behind
+the head swings, so it can never be recycled and re-inserted. The tail pointer may lag behind
 (requiring the "help advance" code), but this does not affect correctness.
 
 ---

@@ -35,7 +35,7 @@ The Internet is a global network of interconnected computer networks. Key concep
 **Brief history.** The Internet evolved from ARPANET (1969), a US Department of Defense project
 Designed to create a survivable communications network. TCP/IP was standardized in 1983. The World
 Wide Web was invented by Tim Berners-Lee in 1989. Commercial Internet access became widespread in
-The 1990s.
+the 1990s.
 
 ### Internet Architecture
 

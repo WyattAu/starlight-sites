@@ -116,7 +116,7 @@ cardinal Signs: **rubor** (redness), **calor** (heat), **tumor** (swelling), and
 #### The Complement System
 
 A cascade of plasma proteins ($\mathrm{C1}$ through $\mathrm{C9}$) that enhances immune defence
-Through three pathways:
+through three pathways:
 
 | Pathway                 | Trigger                                                       |
 | ----------------------- | ------------------------------------------------------------- |
@@ -507,7 +507,7 @@ Exposure, the secondary response provides rapid, effective protection.
 ## 10. ELISA (Enzyme-Linked Immunosorbent Assay)
 
 ELISA is a quantitative immunological assay used to detect and measure the concentration of antigens
-Or antibodies in a sample.
+or antibodies in a sample.
 
 ### Direct ELISA (detecting antigen)
 
@@ -693,7 +693,7 @@ risk (especially lymphomas and skin cancers), nephrotoxicity (calcineurin inhibi
 ### Antiretroviral Therapy (ART)
 
 Standard treatment: **combination antiretroviral therapy (cART)** using three or more drugs from at
-Least two classes:
+least two classes:
 
 | Drug class                                                   | Target                                                          | Example drugs                      |
 | ------------------------------------------------------------ | --------------------------------------------------------------- | ---------------------------------- |
@@ -720,7 +720,7 @@ function But not eradicating the virus (latent proviruses persist in reservoirs)
 ## 14. Autoimmune Diseases
 
 Autoimmune diseases arise when the immune system fails to distinguish self from non-self and attacks
-The body's own tissues.
+the body's own tissues.
 
 ### Mechanisms of Loss of Self-Tolerance
 
@@ -923,7 +923,7 @@ Patient C's Value be lower than Patient B's despite both being positive?
 Positive. Patient A ($0.05$) tests negative (consistent with the negative control).
 
 (b) The positive control confirms the assay is working correctly (antibody is detected when known to
-Be present). The negative control (no antibody) establishes the baseline absorbance and identifies
+be present). The negative control (no antibody) establishes the baseline absorbance and identifies
 any Non-specific background signal. Without controls, false positives or false negatives cannot be
 Identified.
 
@@ -956,7 +956,7 @@ Recover (the observed increase from $550$ to $750\;\mathrm{cells/\mu L}$).
 
 (b) ART drugs inhibit active steps in the viral life cycle (reverse transcription, integration,
 Protease processing), but they cannot eliminate cells containing **latent proviral DNA** integrated
-Into the host genome. These latently infected cells (in lymph nodes, the gut, and the CNS) do not
+into the host genome. These latently infected cells (in lymph nodes, the gut, and the CNS) do not
 Produce viral particles and are therefore not targeted by ART. If ART is stopped, the provirus can
 Reactivate, leading to viral rebound.
 
@@ -973,8 +973,8 @@ effectively zero risk of sexual transmission, But this requires consistent adher
 
 Describe the steps involved in producing monoclonal antibodies using the hybridoma technique.
 Explain why HAT medium is essential and why unfused B cells and unfused myeloma cells cannot survive
-In this medium. Calculate the number of hybridoma clones that must be screened if a researcher needs
-To identify one specific clone from a population of $50000$ fused cells, assuming $0.1\%$ of
+in this medium. Calculate the number of hybridoma clones that must be screened if a researcher needs
+to identify one specific clone from a population of $50000$ fused cells, assuming $0.1\%$ of
 Hybridomas produce the desired antibody.
 
 </details>
@@ -1039,7 +1039,7 @@ Cyclosporin-cyclophilin complex inhibits **calcineurin**, a phosphatase that nor
 Transcription factor NFAT (nuclear factor of activated T cells). Without NFAT activation,
 Transcription of **IL-2** and other cytokine genes is blocked. Since IL-2 is essential for T cell
 Clonal expansion and differentiation, cyclosporin A suppresses T cell-mediated immune responses
-Against the transplanted organ.
+against the transplanted organ.
 
 </details>
 
@@ -1243,8 +1243,8 @@ Patient's serum after vaccination at Day 0 and a booster at Day 90:
 
 (a) Plot both IgM and IgG curves on the same axes. (b) Identify the class switching event and
 Explain its molecular basis. (c) Calculate the fold increase in peak IgG titre between the primary
-And secondary responses. (d) Explain why IgM peaks earlier than IgG in the primary response but not
-In the secondary response.
+and secondary responses. (d) Explain why IgM peaks earlier than IgG in the primary response but not
+in the secondary response.
 
 </details>
 
@@ -1252,7 +1252,7 @@ In the secondary response.
 <summary>Problem 3: Extended Response -- HIV Life Cycle and Drug Targets</summary>
 
 Describe the HIV life cycle from attachment to budding, naming the viral and host molecules involved
-At each step. For each of the following drug classes, identify the step of the life cycle they
+at each step. For each of the following drug classes, identify the step of the life cycle they
 Target and explain their mechanism: (a) NRTIs, (b) protease inhibitors, (c) CCR5 antagonists, (d)
 integrase inhibitors. Explain why combination therapy (using drugs from multiple classes) is More
 effective than monotherapy, and discuss why HIV can develop resistance to individual drugs.
@@ -1349,9 +1349,9 @@ Rising titre. (d) Why is IgM detection preferred for early diagnosis of acute in
 
 (c) A rising titre (4-fold or greater increase between acute and convalescent samples) indicates a
 Recent or ongoing infection. It demonstrates that the immune system is actively producing antibodies
-Against the pathogen, confirming acute rather than past infection or prior vaccination. A single
+against the pathogen, confirming acute rather than past infection or prior vaccination. A single
 Positive result cannot distinguish between past and current infection; the rising titre provides
-This temporal information.
+this temporal information.
 
 (d) IgM is the first antibody class produced in a primary immune response (appears within $1$--$2$
 weeks Of infection, peaks at $2$--$4$ weeks, then declines). IgG appears later ($2$--$4$ weeks) and
@@ -1365,7 +1365,7 @@ activation even At low concentrations.
 **Worked Example: Clonal Selection and Memory Cell Calculation**
 
 In a primary immune response, a single B cell with the appropriate receptor is activated and expands
-Into a clone of $5000$ plasma cells and $200$ memory B cells. Each plasma cell secretes $1000$
+into a clone of $5000$ plasma cells and $200$ memory B cells. Each plasma cell secretes $1000$
 antibody Molecules per second. (a) Calculate the total antibody production rate of the clone. (b)
 Upon secondary Exposure, memory B cells rapidly expand. If each memory B cell gives rise to a clone
 of $10\,000$ Plasma cells, calculate the secondary response antibody production rate. (c) Calculate
@@ -1376,7 +1376,7 @@ why the secondary Response is faster and produces more antibody.
 <summary>Solution</summary>
 
 (a) Primary response: $5000$ plasma cells $\times 1000$ antibodies/s $= 5 \times 10^6$ antibodies/s
-From this clone. In practice, multiple B cell clones are activated (polyclonal response), but this
+from this clone. In practice, multiple B cell clones are activated (polyclonal response), but this
 Illustrates the principle for a single clone.
 
 (b) Secondary response: $200$ memory B cells $\times 10\,000$ plasma cells each $= 2 \times 10^6$
@@ -1717,7 +1717,7 @@ Capability of the B cell with the immortality of the myeloma cell.
 
 Compare and contrast the four types of hypersensitivity reactions (I, II, III, IV). For each type:
 (a) give the mechanism, (b) provide a specific example, (c) state the time course, and (d) identify
-The key effector molecules or cells involved.
+the key effector molecules or cells involved.
 
 </details>
 
@@ -1792,7 +1792,7 @@ Antibodies; it is mediated by sensitised T cells.
 The adaptive immune system must be able to recognise an essentially unlimited number of different
 Antigens (estimated $> 10^{11}$ different specificities). However, the human genome contains only
 Approximately $20\,000$ protein-coding genes. The solution is the generation of antibody diversity
-Through combinatorial and somatic mechanisms during B cell development in the bone marrow.
+through combinatorial and somatic mechanisms during B cell development in the bone marrow.
 
 ### Antibody Structure Recap
 
@@ -1897,7 +1897,7 @@ $2.05 \times 10^{10} \times 243 \approx 5 \times 10^{12}$
 
 So a single B cell clone can generate approximately $5 \times 10^{12}$ variant sequences through
 Somatic hypermutation. In practice, not all variants will be viable (some will introduce stop codons
-Or destabilise the protein), but this illustrates the enormous potential for affinity maturation.
+or destabilise the protein), but this illustrates the enormous potential for affinity maturation.
 
 </details>
 
@@ -1974,7 +1974,7 @@ Selection). Only about $2\%$ survive to enter the circulation as mature, self-to
 ### ABO Blood Group System -- Extended Details
 
 The ABO blood group is determined by the presence of specific carbohydrate antigens on the surface
-Of red blood cells:
+of red blood cells:
 
 - **Type A**: N-acetylgalactosamine (GalNAc) antigen. Anti-B antibodies in plasma.
 - **Type B**: Galactose antigen. Anti-A antibodies in plasma.
@@ -2019,7 +2019,7 @@ particularly important for women of childbearing age?
 (b) ABO compatibility: the recipient's anti-A antibodies would attack any donor red blood cells With
 the A antigen (types A and AB), causing a transfusion reaction (agglutination, complement
 Activation, haemolysis). Type B has the B antigen (no reaction with anti-A). Type O has neither A
-Nor B antigens (universal donor for ABO).
+nor B antigens (universal donor for ABO).
 
 Rh compatibility: if the recipient has been previously sensitised to the D antigen (via pregnancy,
 Transfusion, or trauma), their anti-D antibodies would attack Rh+ donor cells. Even if not

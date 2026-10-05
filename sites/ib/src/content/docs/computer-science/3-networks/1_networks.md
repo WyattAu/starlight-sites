@@ -44,7 +44,7 @@ A client is a computer system to requests a service from a server in the same ne
 
 A hub is a connection point that directly copies transmitted data and send to every device
 Connected. When a device sends transmit data to the hub, the hub copies the data and sends towards
-All devices connected. The device awaiting the data will receive the data, while all other device
+all devices connected. The device awaiting the data will receive the data, while all other device
 Ignores the signal. Therefore the hub itself is does not account for any MAC address, and is
 Consider a Physical Layer device in the OSI model.
 
@@ -441,7 +441,7 @@ Data is broken into packets, each containing:
 - **Trailer:** Error-checking information (checksum).
 
 Packets may travel different routes across the network and arrive out of order. They are reassembled
-At the destination using sequence numbers.
+at the destination using sequence numbers.
 
 ### Error Detection
 
@@ -540,7 +540,7 @@ Security, and address management.
 ### Subnet Mask
 
 A subnet mask determines which portion of an IP address represents the network and which represents
-The host. It is written as a series of 1s followed by 0s:
+the host. It is written as a series of 1s followed by 0s:
 
 - `255.255.255.0` = `/24` = the first 24 bits are the network portion.
 - `255.255.0.0` = `/16` = the first 16 bits are the network portion.
@@ -655,7 +655,7 @@ Allow the receiver to reassemble packets in the correct order and detect missing
 
 UDP does not use any of these mechanisms, making it unreliable but faster and with lower overhead.
 UDP is preferred for real-time applications (streaming, VoIP, online gaming) where speed matters
-More than perfect delivery, and for DNS queries where the small request/response size makes the
+more than perfect delivery, and for DNS queries where the small request/response size makes the
 Overhead of a TCP connection wasteful.
 
 </details>
@@ -664,7 +664,7 @@ Overhead of a TCP connection wasteful.
 <summary>Question 3</summary>
 
 A user types `https://www.example.com` into their browser. Describe, in order, the steps that occur
-From the moment the URL is entered until the web page begins to load. Include reference to DNS
+from the moment the URL is entered until the web page begins to load. Include reference to DNS
 Resolution, TCP connections, TLS, and HTTP.
 
 </details>
@@ -708,10 +708,10 @@ Disadvantage of this approach compared to using three separate physical switches
 
 A) VLAN (Virtual Local Area Network). B) A VLAN works at the Data Link layer by tagging Ethernet
 Frames with a VLAN ID (using IEEE 802.1Q standard). The switch is configured so that ports assigned
-To VLAN 1 can only communicate with other ports in VLAN 1, and similarly for VLANs 2 and 3. The
+to VLAN 1 can only communicate with other ports in VLAN 1, and similarly for VLANs 2 and 3. The
 Switch enforces this isolation by only forwarding frames to ports in the same VLAN. Frames between
 Different VLANs can only be routed through a router (inter-VLAN routing), which can be configured
-With access control policies. C) **Advantage:** Cost-effective, no additional hardware required;
+with access control policies. C) **Advantage:** Cost-effective, no additional hardware required;
 Flexible, devices can be moved between VLANs through software configuration without recabling.
 **Disadvantage:** All VLANs share the same physical switch, so a hardware failure of the switch
 Affects all VLANs; total bandwidth is shared among all VLANs.

@@ -52,7 +52,7 @@ Mismatch between the format specification and the argument type is a compile-tim
 
 :::note
 Enables the compiler to parse it and verify that every `{}` field has a corresponding argument of
-The correct type. Runtime-computed format strings are not supported by `std::format` (use
+the correct type. Runtime-computed format strings are not supported by `std::format` (use
 `std::vformat` for runtime format strings, at the cost of losing compile-time checking).
 :::
 
@@ -302,7 +302,7 @@ int main() {
 
 :::note
 Stream, bypassing `std::cout` and its stream buffer. This makes it faster for simple console output
-But means it does not synchronize with `std::cout` by default. Avoid mixing
+but means it does not synchronize with `std::cout` by default. Avoid mixing
 `std::print(stdout, ...)` and `std::cout` in the same program without calling
 `std::ios_base::sync_with_stdio(true)` first.
 :::
@@ -455,7 +455,7 @@ Class's `parse()`Then check for your custom specifiers.
 
 :::caution
 Find it. However, adding declarations to namespace `std` is technically undefined behavior unless it
-Is a **template specialization** of a standard library template [N4950 §16.5.4.2.1]. Specializing
+is a **template specialization** of a standard library template [N4950 §16.5.4.2.1]. Specializing
 `std::formatter` is explicitly permitted.
 :::
 
@@ -484,8 +484,8 @@ int main() {
 ```
 
 `std::vformat` accepts a runtime `std::string_view` and a `std::format_args` object, but it provides
-No compile-time type checking. If the format string references an argument that does not exist, or
-If the type specifier is incompatible with the argument type, the result is a `std::format_error`
+no compile-time type checking. If the format string references an argument that does not exist, or
+if the type specifier is incompatible with the argument type, the result is a `std::format_error`
 Exception thrown at runtime. This is analogous to the safety difference between `std::variant`
 (checked at compile time via `std::visit`) and `std::any` (checked at runtime via `std::any_cast`).
 
@@ -524,7 +524,7 @@ int main() {
 
 `std::format_to_n` additionally accepts a maximum number of characters to write, returning a
 `std::format_to_n_result` struct containing the output iterator and the total number of characters
-That _would_ have been written (useful for truncation-aware formatting).
+that _would_ have been written (useful for truncation-aware formatting).
 
 ### Performance Comparison: `std::format` vs iostreams vs `printf`
 

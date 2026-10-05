@@ -38,14 +38,14 @@ Query that completes in 10 milliseconds and one that takes 10 minutes when the d
 ### Big-O: Upper Bound
 
 $O(g(n))$ is the set of all functions $f(n)$ for which there exist positive constants $c$ and $n_0$
-Such that:
+such that:
 
 $$
 0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0
 $$
 
 Big-O provides an **upper bound** on the growth rate of a function. Saying $f(n) = O(n^2)$ means
-That $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
+that $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
 
 ```python
 ## Example: nested loop is O(n^2)
@@ -72,7 +72,7 @@ Clever your implementation, the algorithm will take at least $c \cdot n \log n$ 
 
 $\Theta(g(n))$ is the intersection: $f(n) \in \Theta(g(n))$ if and only if $f(n) \in O(g(n))$ and
 $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exactly the same rate
-As $g(n)$ Up to constant factors.
+as $g(n)$ Up to constant factors.
 
 $$
 0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
@@ -157,7 +157,7 @@ Core). In reality:
 
 :::caution
 A well-optimised $O(n^2)$ algorithm can outperform a naive $O(n \log n)$ algorithm for small $n$ or
-With favourable cache behaviour. Always benchmark.
+with favourable cache behaviour. Always benchmark.
 
 ## Formal Manipulation Rules
 
@@ -185,7 +185,7 @@ Logarithm does not matter in Big-O notation because changing base only introduce
 ### Exponential vs Polynomial
 
 For any constants $k$ and $c \gt 1$: $n^k = o(c^n)$. Polynomials are always asymptotically dominated
-By exponentials. This is the fundamental boundary between tractable and intractable problems.
+by exponentials. This is the fundamental boundary between tractable and intractable problems.
 
 ## The Master Theorem
 
@@ -300,7 +300,7 @@ Causing CPU exhaustion. This is why many languages (Python, Rust, Go) now use ha
 ## Amortised Analysis
 
 Amortised analysis gives a tighter bound for a sequence of operations when individual operations may
-Be expensive but the expensive operations are rare enough that the total cost is bounded.
+be expensive but the expensive operations are rare enough that the total cost is bounded.
 
 ### Aggregate Method
 
@@ -467,7 +467,7 @@ graph TD
 ### Reductions
 
 A problem $A$ **reduces to** problem $B$ (written $A \le_p B$) if an algorithm for $B$ can be used
-To solve $A$ in polynomial time. If $A$ is NP-complete and $A \le_p B$ Then $B$ is also NP-hard. If
+to solve $A$ in polynomial time. If $A$ is NP-complete and $A \le_p B$ Then $B$ is also NP-hard. If
 $B$ is also in NP, then $B$ is NP-complete.
 
 **Cook-Levin Theorem:** SAT (Boolean satisfiability) is NP-complete. Every other NP-complete problem
@@ -512,7 +512,7 @@ Asymptotic analysis ignores the memory hierarchy. In practice, cache effects dom
   number of cache misses per operation by a factor of $\log_2 B$ where $B$ is the block size
 
 A linked list traversal that is $O(n)$ in theory can be 10-100x slower than an array traversal that
-Is also $O(n)$ Because the array has spatial locality.
+is also $O(n)$ Because the array has spatial locality.
 
 ### Constant Factors
 
@@ -558,7 +558,7 @@ This is why it is the default sort in most standard libraries (with introsort fa
 ### 3. Forgetting About Space
 
 An $O(n)$ time algorithm that uses $O(n^2)$ space is often worse than an $O(n \log n)$ algorithm
-That uses $O(1)$ space. Memory is not infinite, and allocation is not free.
+that uses $O(1)$ space. Memory is not infinite, and allocation is not free.
 
 ### 4. Misapplying the Master Theorem
 
@@ -583,9 +583,9 @@ Substrings), the "constant-time" lookup is not actually constant.
 ### 7. Ignoring Amortisation in Latency-Sensitive Systems
 
 Amortised $O(1)$ means the average over many operations is constant. Individual operations can still
-Be $O(n)$. In a latency-sensitive system (real-time trading, game loop, audio processing), a single
+be $O(n)$. In a latency-sensitive system (real-time trading, game loop, audio processing), a single
 $O(n)$ operation can cause a deadline miss even if the amortised cost is fine. Use data structures
-With worst-case guarantees (e.g., std::deque instead of std::vector with occasional reallocation)
+with worst-case guarantees (e.g., std::deque instead of std::vector with occasional reallocation)
 For real-time contexts.
 
 ### 8. Dropping Constants That Actually Matter
@@ -644,14 +644,14 @@ E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
 $$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
-More comparisons than the information-theoretic minimum of $n \log_2 n$ Which is remarkably close To
+more comparisons than the information-theoretic minimum of $n \log_2 n$ Which is remarkably close To
 optimal for a comparison sort.
 
 ### Smoothed Analysis
 
 Worst-case analysis can be too pessimistic for algorithms that perform well on typical inputs but
 Badly on adversarial ones. Smoothed analysis (Spielman and Teng, 2004) measures expected performance
-Under small random perturbations of the input. It explains why the simplex method for linear
+under small random perturbations of the input. It explains why the simplex method for linear
 Programming is efficient in practice despite having exponential worst-case complexity: the
 Adversarial inputs that trigger exponential behaviour are unstable under small perturbations.
 
@@ -686,14 +686,14 @@ Vitter, 1988) counts:
 | B-tree search | $O(\log N)$ time   | $O(\log_B N)$ I/Os              |
 
 The gap between internal and external memory complexity is why B-trees exist: a binary tree search
-Does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For
+does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For
 $N =
 10^9$ and $B = 100$, binary tree needs ~30 I/Os while B-tree needs ~5 I/Os, a 6x improvement.
 
 ### Amortised Analysis: Splay Trees
 
 Splay trees are self-adjusting BSTs with no explicit balance information. Every access is followed
-By a "splay" operation that moves the accessed node to the root using a sequence of rotations. The
+by a "splay" operation that moves the accessed node to the root using a sequence of rotations. The
 Amortised cost of each operation is $O(\log n)$ Proven using the potential method.
 
 The potential function for splay trees is:
@@ -703,7 +703,7 @@ $$
 $$
 
 Where `size(v)` is the number of nodes in the subtree rooted at `v`. The potential is always
-Non-negative and is $O(n \log n)$ for an $n$-node tree.
+non-negative and is $O(n \log n)$ for an $n$-node tree.
 
 **Key properties:**
 
@@ -765,12 +765,12 @@ $\sum_{k=0}^{\log n - 1} n(\log n - k) + n = n \sum_{j=1}^{\log n} j + n = n \cd
 ### Multiple Recursive Calls
 
 When an algorithm makes multiple recursive calls of different sizes, the analysis requires summing
-The costs of all calls.
+the costs of all calls.
 
 **Example:** $T(n) = T(n/3) + T(2n/3) + cn$
 
 The recursion tree has $\log_{3/2} n$ levels (the longest path goes by the 2/3 branch). Each level
-Does $cn$ work. Total: $O(n \log n)$.
+does $cn$ work. Total: $O(n \log n)$.
 
 ### Recursive Algorithms with Reduction
 
@@ -862,7 +862,7 @@ def benchmark_sorts():
 
 :::caution
 On the actual production workload due to access patterns, data distribution, and interaction with
-Other system components. Always benchmark with realistic data and in a realistic environment.
+other system components. Always benchmark with realistic data and in a realistic environment.
 
 ## Summary
 

@@ -146,7 +146,7 @@ $$
 Rate achievable on a channel of bandwidth $H$ with signal-to-noise ratio $\mathrm{SNR}$.
 
 _Proof._ For a bandlimited AWGN channel, the number of distinguishable signal levels is constrained
-By the noise power. Let $\mathrm{SNR} = S/N$ where $S$ is signal power and $N = N_0 H$ is noise
+by the noise power. Let $\mathrm{SNR} = S/N$ where $S$ is signal power and $N = N_0 H$ is noise
 Power. The number of distinguishable amplitude levels is proportional to $\sqrt{1 + \mathrm{SNR}}$.
 With $\log_2$ levels per signal element and $2H$ signal elements per second (Nyquist), the maximum
 Error-free rate is $C = 2H \cdot \tfrac{1}{2}\log_2(1 + \mathrm{SNR}) = H \log_2(1 + \mathrm{SNR})$.
@@ -245,7 +245,7 @@ Their signal.
 
 **Theorem 2.3 (QAM spectral efficiency).** An $M$-ary QAM scheme where $M = 2^{2k}$ has a spectral
 Efficiency of $2k$ bits/symbol, i.e., the bit rate equals $2k \times B$ where $B$ is the bandwidth
-In Hz.
+in Hz.
 
 _Proof._ QAM modulates both amplitude and phase of a carrier. With $M$ symbols, each symbol carries
 $\log_2 M = 2k$ bits. The symbol rate equals the bandwidth $B$ (Nyquist: 2 symbols/Hz for Baseband,
@@ -274,7 +274,7 @@ C = 20 \times 10^6 \times \log_2(252.2) \approx 20 \times 10^6 \times 7.98 \appr
 $$
 
 The Nyquist-based rate (160 Mbps) is very close to the Shannon limit (159.6 Mbps), meaning 256-QAM
-Is near-optimal for this channel but has almost no margin for noise or interference.
+is near-optimal for this channel but has almost no margin for noise or interference.
 
 </details>
 
@@ -577,7 +577,7 @@ $\eta = T_f / (T_f + 5\tau) = 1 / (1 + 5a)$. $\blacksquare$
 
 When $a \ll 1$ (large frames or short distances), efficiency approaches 1. When $a$ approaches 1
 (short frames or long distances), efficiency drops significantly. This is why minimum frame sizes
-Are imposed.
+are imposed.
 
 ### 3.5 VLANs
 
@@ -614,7 +614,7 @@ Traffic.
 
 _Proof._ Circuit switching reserves the peak rate per connection. Packet switching uses statistical
 Multiplexing: the sum of peak rates can exceed link capacity as long as the average aggregate rate
-Does not. $\blacksquare$
+does not. $\blacksquare$
 
 **Switch forwarding methods.** A layer-2 switch can forward frames using two strategies:
 
@@ -1089,7 +1089,7 @@ Acknowledgements, sequence numbers, and retransmission timers.
 _Proof._ TCP assigns each byte a sequence number. The receiver sends cumulative ACKs indicating the
 Next expected byte. If an ACK is not received within the RTO, the sender retransmits. Since the
 Receiver buffers out-of-order segments and only delivers in-order data to the application, and since
-Every byte is eventually acknowledged or retransmitted until acknowledged, all data is delivered
+every byte is eventually acknowledged or retransmitted until acknowledged, all data is delivered
 Exactly once and in order. $\blacksquare$
 
 ### 5.5 TCP Connection Management
@@ -1142,7 +1142,7 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 ### 5.6 Flow Control
 
 TCP uses a **sliding window**. The receiver advertises `rwnd` (receive window). The sender never has
-More than `rwnd` bytes of unacknowledged data in flight.
+more than `rwnd` bytes of unacknowledged data in flight.
 
 $$
 \mathrm{Effective}\;window = \min(\mathrm{cwnd},\, \mathrm{rwnd})
@@ -1519,7 +1519,7 @@ The RTT: $\mathrm{throughput} \leq \min(\mathrm{cwnd}, \mathrm{rwnd}) / \mathrm{
 
 _Proof._ The sender cannot have more than the window size in unacknowledged data. Each byte sent
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
-Per second. $\blacksquare$
+per second. $\blacksquare$
 
 :::caution
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was

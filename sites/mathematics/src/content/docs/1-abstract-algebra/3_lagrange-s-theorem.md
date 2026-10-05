@@ -101,7 +101,7 @@ Since $[S_3 : H] = 2$, $H$ is normal (see Corollary 3.7). $\blacksquare$
 <summary>Solution</summary>
 
 _Solution._ $H = \langle 4 \rangle = \{0, 4, 8\}$ has order $3$ And $|\mathbb{Z}/12\mathbb{Z}| = 12$
-So $[\mathbb{Z}/12\mathbb{Z} : H] = 4$. The cosets are:
+so $[\mathbb{Z}/12\mathbb{Z} : H] = 4$. The cosets are:
 
 $$
 0 + H = \{0, 4, 8\}, \quad 1 + H = \{1, 5, 9\}, \quad 2 + H = \{2, 6, 10\}, \quad 3 + H = \{3, 7, 11\}

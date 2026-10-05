@@ -71,7 +71,7 @@ Step 4: Public key: $(e, n) = (3, 55)$, Private key: $(d, n) = (27, 55)$
 Step 5: Decrypt $c = 2$: $m = c^d \bmod n = 2^{27} \bmod 55$
 $2^{27} = 134217728$
 $134217728 \div 55 = 2440322$ remainder $18$
-So $m = 18$
+so $m = 18$
 
 **Key insight:** RSA decryption works because $m^{ed} \equiv m \pmod{n}$ by Euler's theorem, since $ed \equiv 1 \pmod{\phi(n)}$.
 

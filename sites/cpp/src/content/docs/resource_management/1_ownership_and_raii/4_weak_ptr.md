@@ -71,7 +71,7 @@ The `lock()` method performs the following operations atomically [N4950 S20.11.3
 
 The atomicity of step 3 is critical: it ensures that between checking the count and incrementing it,
 No other thread can destroy the object. This is what makes `lock()` safe for concurrent use, unlike
-The `expired()` + raw access pattern.
+the `expired()` + raw access pattern.
 
 ```cpp
 // Conceptual implementation of weak_ptr::lock()
@@ -98,7 +98,7 @@ shared_ptr<T> lock() const noexcept {
 ## 4.3 The `expired()` Method
 
 `expired()` is a lightweight check that returns `true` if the managed object has been destroyed. It
-Is equivalent to `wp.use_count() == 0` but may be faster because it does not need to return the
+is equivalent to `wp.use_count() == 0` but may be faster because it does not need to return the
 Actual count:
 
 ```cpp
@@ -119,7 +119,7 @@ void expired_demo() {
 
 :::caution
 `expired()` and using the object, the object could be destroyed by another thread between the check
-And the access. Always use `lock()` instead, which atomically checks and returns a `shared_ptr`.
+and the access. Always use `lock()` instead, which atomically checks and returns a `shared_ptr`.
 :::
 
 ### Formal Correctness: `expired()` vs `lock()` in Concurrent Code
@@ -546,7 +546,7 @@ void reset_demo() {
 
 Raw non-owning pointers are the correct choice when the lifetime relationship is statically known.
 The classic example is a parent-child tree where the parent owns the children via `unique_ptr` and
-The children hold a raw pointer to the parent:
+the children hold a raw pointer to the parent:
 
 ```cpp
 #include <memory>
@@ -581,7 +581,7 @@ int main() {
 
 This pattern is zero-overhead and type-safe because the invariant (parent outlives children) is
 Structurally enforced by the ownership hierarchy. `weak_ptr` would add unnecessary atomic overhead
-Without providing additional safety in this case.
+without providing additional safety in this case.
 
 ## 4.9 When NOT to Use `weak_ptr`
 
@@ -687,9 +687,9 @@ int main() {
 ```
 
 `std::owner_less` also enables heterogeneous comparison between `weak_ptr` and `shared_ptr`So you
-Can look up a `shared_ptr` key in a `set` of `weak_ptr` entries (or vice versa) without converting.
+can look up a `shared_ptr` key in a `set` of `weak_ptr` entries (or vice versa) without converting.
 This is useful for registration/unregistration patterns where the subject holds `weak_ptr` observers
-But lookups are done with `shared_ptr`.
+but lookups are done with `shared_ptr`.
 
 ## 4.12 `weak_ptr` in Caches and Memoization
 

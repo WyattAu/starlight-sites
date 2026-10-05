@@ -1761,8 +1761,8 @@ A student is shown an electron micrograph of a cell. The cell has no nucleus, a 
 Ribosomes, and a flagellum. The diameter of the cell is approximately 3 $\mu$ M.
 
 Since the cell has no membrane-bound nucleus, it is prokaryotic. The presence of a cell wall (ruled
-Out animal cells), small size (3 $\mu$ M is typical for prokaryotes), 70S ribosomes, and flagellum
-All confirm this. The cell wall is made of peptidoglycan, which is characteristic of bacteria (not
+out animal cells), small size (3 $\mu$ M is typical for prokaryotes), 70S ribosomes, and flagellum
+all confirm this. The cell wall is made of peptidoglycan, which is characteristic of bacteria (not
 Archaea, which have pseudopeptidoglycan or other cell wall compositions).
 
 ### Cell Ultrastructure
@@ -1871,7 +1871,7 @@ $$
 $$
 
 Where $i$ is the ionisation constant (1 for non-ionic solutes), $C$ is the molar concentration, $R$
-Is the gas constant (0.0083 kPa L mol$^{-1}$ K$^{-1}$), and $T$ is the temperature in Kelvin.
+is the gas constant (0.0083 kPa L mol$^{-1}$ K$^{-1}$), and $T$ is the temperature in Kelvin.
 
 For a 0.2 M sucrose solution at 20$\degree$C (293 K):
 
@@ -1962,7 +1962,7 @@ After mitosis: each daughter cell has 46 chromosomes (same as parent). The two d
 Genetically identical.
 
 After meiosis: each of the four daughter cells has 23 chromosomes (haploid). The four daughter cells
-Are genetically different (due to crossing over and independent assortment).
+are genetically different (due to crossing over and independent assortment).
 
 ---
 
@@ -2227,15 +2227,15 @@ Pinches the cell in two.
 
 **Intermediate filaments (10 nm):** Rope-like fibres made of various proteins (e.g., keratin,
 Vimentin, lamins). They provide mechanical strength and resist shear stress. Nuclear lamins (a type
-Of intermediate filament) line the inside of the nuclear envelope, providing structural support.
+of intermediate filament) line the inside of the nuclear envelope, providing structural support.
 
 **Worked Example: Motor proteins and vesicle transport.**
 
 A vesicle containing a secretory protein must travel from the Golgi apparatus to the plasma
 Membrane. The vesicle is attached to a motor protein (kinesin) that walks along a microtubule
-Towards the plus end (the cell periphery). Each step of kinesin requires the hydrolysis of one ATP
+towards the plus end (the cell periphery). Each step of kinesin requires the hydrolysis of one ATP
 Molecule. The motor protein moves in a hand-over-hand fashion, taking steps of approximately 8 nm
-Per ATP hydrolysed. This process allows directed, ATP-dependent transport of materials within the
+per ATP hydrolysed. This process allows directed, ATP-dependent transport of materials within the
 Cell.
 
 ## Review: Summary Comparison of Transport Mechanisms
@@ -2265,7 +2265,7 @@ Communication and coordination between cells.
 **Central vacuole:** A large, fluid-filled organelle that can occupy up to 90% of the cell volume.
 It maintains turgor pressure, stores water and dissolved substances, stores pigments, and stores
 Defensive compounds (toxins that deter herbivores). The vacuole is surrounded by a membrane called
-The tonoplast.
+the tonoplast.
 
 **Chloroplasts:** The site of photosynthesis. They have a double membrane, internal thylakoid
 Membranes (stacked into grana), and stroma. Chloroplasts have their own DNA and ribosomes (70S),
@@ -2304,7 +2304,7 @@ Plants and algae.
 ## Review: Cell Surface Receptors and Cell Signalling
 
 Cells communicate with each other through signalling molecules that bind to specific receptors on
-The cell surface or inside the cell.
+the cell surface or inside the cell.
 
 **Cell surface receptors:** Transmembrane proteins that span the cell membrane. When a signalling
 Molecule (ligand) binds to the extracellular domain of the receptor, it triggers a conformational
@@ -2367,7 +2367,7 @@ Golgi apparatus, vesicles, lysosomes, and the plasma membrane.
 In I-cell disease (mucolipidosis II), the enzyme that adds the mannose-6-phosphate tag to lysosomal
 Enzymes in the Golgi is deficient. Without this tag, the lysosomal enzymes are secreted outside the
 Cell instead of being directed to lysosomes. The lysosomes therefore lack their digestive enzymes
-And cannot break down waste materials. Substances accumulate inside the cell, causing severe
+and cannot break down waste materials. Substances accumulate inside the cell, causing severe
 Developmental problems and early death.
 
 ## Review: Cell Adhesion and the Extracellular Matrix
@@ -2402,7 +2402,7 @@ Migration, and differentiation.
 **Worked Example: The role of the ECM in wound healing.**
 
 When the skin is wounded, the ECM plays several critical roles. Collagen fibres provide a scaffold
-For cell migration into the wound. Fibronectin guides the migration of fibroblasts, which synthesise
+for cell migration into the wound. Fibronectin guides the migration of fibroblasts, which synthesise
 New ECM components. Growth factors bound to the ECM are released and stimulate cell proliferation.
 As healing progresses, the ECM is remodelled: initially disorganised collagen is replaced by more
 Organised fibres, and excess ECM is broken down by matrix metalloproteinases (MMPs). If this
@@ -2470,7 +2470,7 @@ Process that does not cause inflammation.
 
 Cancer cells often evade apoptosis, allowing them to divide uncontrollably. One mechanism is the
 Overexpression of Bcl-2, a protein that inhibits apoptosis by preventing the release of cytochrome c
-From mitochondria. Normally, cytochrome c release activates caspases and triggers apoptosis. By
+from mitochondria. Normally, cytochrome c release activates caspases and triggers apoptosis. By
 Blocking this pathway, cancer cells survive and proliferate despite having DNA damage. Some cancer
 Therapies aim to restore the apoptotic pathway by inhibiting Bcl-2 or activating pro-apoptotic
 Proteins.
@@ -3094,7 +3094,7 @@ Fish).
 
 **Example:** The camel is adapted to desert life with: a hump for fat storage (energy and water from
 Metabolism), concentrated urine, wide feet for walking on sand, and long eyelashes to protect
-Against sand.
+against sand.
 
 ---
 
@@ -3364,7 +3364,7 @@ Transitions.
 
 **Comparative embryology:** Early embryos of vertebrates (fish, amphibians, reptiles, birds,
 Mammals) look remarkably similar, suggesting a common ancestry. Features such as pharyngeal pouches
-And a tail are present in all vertebrate embryos early in development.
+and a tail are present in all vertebrate embryos early in development.
 
 **Molecular evidence:** DNA and protein sequence comparisons show that more closely related species
 Have more similar sequences. The universality of the genetic code (the same codons code for the same
@@ -3428,7 +3428,7 @@ Estimated population $= 12 \times 5000 = 60,000$ daisies.
 
 **Deforestation:** Removes habitats, releases stored carbon (contributing to climate change),
 Disrupts the water cycle, and causes soil erosion. Tropical rainforests are particularly important
-Because they contain an estimated 50% of all terrestrial species.
+because they contain an estimated 50% of all terrestrial species.
 
 **Pollution:**
 
@@ -3447,7 +3447,7 @@ Ice caps), more frequent extreme weather events, and shifts in species distribut
 **Worked Example: Bioaccumulation of DDT.**
 
 DDT is a pesticide that was widely used in the mid-20th century. It is persistent in the environment
-And accumulates in fatty tissue. In an aquatic food chain: phytoplankton (0.003 ppm DDT) $\to$
+and accumulates in fatty tissue. In an aquatic food chain: phytoplankton (0.003 ppm DDT) $\to$
 Zooplankton (0.04 ppm) $\to$ small fish (0.5 ppm) $\to$ large fish (2.0 ppm) $\to$ osprey (25.0
 Ppm). The concentration increases by a factor of over 8,000 from phytoplankton to osprey. Top
 Predators are most affected because they are at the highest trophic level and consume many
@@ -3527,7 +3527,7 @@ A phylogenetic tree shows three species: human, chimpanzee, and gorilla. The hum
 Lineages diverge most recently (approximately 6 million years ago), while the gorilla lineage
 Diverged earlier (approximately 10 million years ago). This tells us that humans are more closely
 Related to chimpanzees than to gorillas. All three species share a common ancestor at the root of
-The tree (approximately 15-20 million years ago).
+the tree (approximately 15-20 million years ago).
 
 ## Review: The Carbon Cycle in Detail
 
@@ -4023,7 +4023,7 @@ Reading frame: TGG CAT ACC AG...
 Amino acids: Trp - His - Thr - ...
 
 The reading frame has shifted, and every amino acid after the deletion is different. The protein
-Will almost certainly lose its function.
+will almost certainly lose its function.
 
 ### Genetic Engineering
 
@@ -4255,8 +4255,8 @@ Fidelity.
 
 DNA polymerase can only add nucleotides in the 5' to 3' direction. Since the two strands of DNA are
 Antiparallel, only one strand (the leading strand) can be synthesised continuously in the direction
-Of the replication fork. The other strand (the lagging strand) must be synthesised discontinuously
-In short fragments called Okazaki fragments, each initiated by an RNA primer. The RNA primers are
+of the replication fork. The other strand (the lagging strand) must be synthesised discontinuously
+in short fragments called Okazaki fragments, each initiated by an RNA primer. The RNA primers are
 Later removed and replaced with DNA, and the fragments are joined by DNA ligase.
 
 **Proofreading:** DNA polymerase III has 3' to 5' exonuclease activity, meaning it can detect and
@@ -4334,7 +4334,7 @@ Used to insert a gene of interest into a plasmid vector.
 
 **Gel electrophoresis:** Separates DNA fragments by size. Smaller fragments move faster through the
 Agarose gel and travel further. DNA fragments can be visualised using a fluorescent dye that binds
-To DNA. This technique is used in DNA fingerprinting, analysing PCR products, and checking the
+to DNA. This technique is used in DNA fingerprinting, analysing PCR products, and checking the
 Success of restriction enzyme digestion.
 
 **Worked Example: Designing a genetic engineering experiment.**
@@ -4512,7 +4512,7 @@ In the population. The most fit genotype has $w = 1$; less fit genotypes have $w
 **Worked Example: Selection against a recessive allele.**
 
 In a population, the recessive allele $a$ has frequency $q = 0.4$. Individuals with genotype $aa$
-Have reduced fitness ($w = 0.5$ So $s = 0.5$).
+have reduced fitness ($w = 0.5$ So $s = 0.5$).
 
 After one generation of selection:
 
@@ -5636,7 +5636,7 @@ A person drinks 2 litres of water. What happens to their blood osmolarity and AD
 ## Review: Aerobic Respiration -- Detailed ATP Accounting
 
 The precise ATP yield from aerobic respiration depends on the shuttle system used to transport NADH
-From glycolysis into the mitochondria and on the actual number of protons pumped per complex.
+from glycolysis into the mitochondria and on the actual number of protons pumped per complex.
 
 **Using modern estimates (2.5 ATP per NADH, 1.5 ATP per FADH$_2$):**
 
@@ -5745,7 +5745,7 @@ Producing large quantities of antibodies before the pathogen can cause illness.
 Vaccination or previous infection), the spread of the disease is limited because there are too few
 Susceptible individuals for the pathogen to infect. This protects even those who cannot be
 Vaccinated (e.g., newborns, immunocompromised individuals). The threshold for herd immunity varies
-By disease: measles requires approximately 95% immunity; polio requires approximately 80%.
+by disease: measles requires approximately 95% immunity; polio requires approximately 80%.
 
 **Types of vaccines:**
 
@@ -5839,7 +5839,7 @@ Nephrons.
 
 Shivering involves rapid, involuntary contractions of skeletal muscles. Muscle contraction requires
 ATP, which is produced by cellular respiration. Respiration is only about 40% efficient, meaning
-That 60% of the energy from glucose is released as heat. During shivering, the increased rate of
+that 60% of the energy from glucose is released as heat. During shivering, the increased rate of
 Respiration in muscles generates significantly more heat than normal, raising the core body
 Temperature.
 
@@ -5881,14 +5881,14 @@ At very high $[S]$ (e.g., 100 mM):
 - With inhibitor: $v \approx 6$ $\mu$ Mol/min.
 
 Unlike the competitive inhibitor, the non-competitive inhibitor reduces the maximum rate even at
-Very high substrate concentrations, because it reduces the number of functional enzyme molecules
+very high substrate concentrations, because it reduces the number of functional enzyme molecules
 Regardless of substrate concentration.
 
 ## Review: C4 and CAM Photosynthesis (Advanced Higher)
 
 **C4 photosynthesis:** In C4 plants (e.g., maize, sugarcane), $\mathrm{CO_2$ is initially fixed by
 PEP carboxylase in mesophyll cells to form oxaloacetate (4C), which is converted to malate. Malate
-Is transported to bundle-sheath cells, where $\mathrm{CO_2$ is released and enters the Calvin cycle.
+is transported to bundle-sheath cells, where $\mathrm{CO_2$ is released and enters the Calvin cycle.
 PEP carboxylase has a much higher affinity for $\mathrm{CO_2$ than RuBisCO and does not bind
 $\mathrm{O_2$ Minimising photorespiration.
 
@@ -5901,7 +5901,7 @@ separation Minimises water loss while maintaining carbon fixation.
 
 A C3 plant loses approximately 500 g of water per gram of $\mathrm{CO_2$ fixed. A C4 plant loses
 Approximately 250 g of water per gram of $\mathrm{CO_2$ fixed. A CAM plant loses approximately 50 g
-Of water per gram of $\mathrm{CO_2$ fixed.
+of water per gram of $\mathrm{CO_2$ fixed.
 
 CAM plants are the most water-efficient because they close their stomata during the day, minimising
 Transpirational water loss. This is why CAM plants dominate in arid environments.
@@ -5949,7 +5949,7 @@ $$
 
 Pyruvate is decarboxylated to acetaldehyde (by pyruvate decarboxylase) and then reduced to ethanol
 (by alcohol dehydrogenase). This regenerates $\mathrm{NAD^+$ for glycolysis. Alcoholic fermentation
-Is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the dough to rise).
+is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the dough to rise).
 
 **Comparing fermentation products:**
 
@@ -6058,7 +6058,7 @@ Therapy involves:
 
 **Ethical considerations:** The use of embryonic stem cells is controversial because it involves the
 Destruction of embryos. Adult stem cells and induced pluripotent stem cells (iPSCs) avoid this issue
-But may be less versatile.
+but may be less versatile.
 
 **Worked Example: Induced pluripotent stem cells (iPSCs).**
 
@@ -6398,7 +6398,7 @@ Lacteal (for fatty acids and glycerol).
 ## Review: The Immune System in Detail
 
 The immune system has two main components: the innate immune system (non-specific, immediate) and
-The adaptive immune system (specific, slower but long-lasting).
+the adaptive immune system (specific, slower but long-lasting).
 
 **Innate immune system:**
 
@@ -6479,7 +6479,7 @@ The alveolar ventilation is lower because some air (approximately 150 mL) remain
 Alveolar ventilation $= 15 \times (500 - 150) = 15 \times 350 = 5250$ mL/min $= 5.25$ L/min.
 
 This shows that a significant proportion of each breath does not reach the alveoli and therefore
-Does not contribute to gas exchange.
+does not contribute to gas exchange.
 
 ## Review: Osmoregulation and the Kidney
 
@@ -6491,7 +6491,7 @@ Too large to pass through the basement membrane and remain in the blood.
 
 **Selective reabsorption:** As the filtrate passes through the proximal convoluted tubule, all
 Glucose, all amino acids, and most water and ions are reabsorbed into the blood by active transport
-And diffusion.
+and diffusion.
 
 **The loop of Henle:** Creates a concentration gradient in the medulla of the kidney. The descending
 Limb is permeable to water but not ions; water leaves by osmosis into the increasingly concentrated
@@ -6502,8 +6502,8 @@ multiplier Mechanism allows the kidney to produce concentrated urine.
 **ADH (antidiuretic hormone):** Released by the posterior pituitary gland in response to increased
 Blood osmolarity (detected by osmoreceptors in the hypothalamus). ADH makes the collecting duct more
 Permeable to water by inserting aquaporin channels into the membrane. More water is reabsorbed, and
-More concentrated urine is produced. When water intake is high, ADH secretion is reduced, less water
-Is reabsorbed, and dilute urine is produced.
+more concentrated urine is produced. When water intake is high, ADH secretion is reduced, less water
+is reabsorbed, and dilute urine is produced.
 
 **Worked Example: Why glucose is not normally found in urine.**
 
@@ -6582,7 +6582,7 @@ Development.
 Fertilisation occurs in the fallopian tube when a sperm penetrates the egg. The sperm releases
 Enzymes from its acrosome to digest the outer layers of the egg. When one sperm enters, the egg
 Undergoes a cortical reaction that prevents polyspermy (entry of additional sperm). The nuclei of
-The sperm and egg fuse, forming a diploid zygote.
+the sperm and egg fuse, forming a diploid zygote.
 
 The zygote divides by mitosis as it travels along the fallopian tube, forming a ball of cells called
 A blastocyst. The blastocyst implants in the endometrium approximately 6-7 days after fertilisation.
@@ -6673,9 +6673,9 @@ Lymphatic duct (drains the right side of the body) into the subclavian veins.
 
 Oedema (swelling) occurs when excess fluid accumulates in the tissues. This can happen if the
 Lymphatic system is blocked (e.g., by a parasitic infection such as elephantiasis, which is caused
-By filarial worms blocking lymphatic vessels). If lymphatic drainage is impaired, the excess
+by filarial worms blocking lymphatic vessels). If lymphatic drainage is impaired, the excess
 Interstitial fluid cannot be returned to the bloodstream, and the tissue swells. This demonstrates
-The critical role of the lymphatic system in maintaining fluid balance.
+the critical role of the lymphatic system in maintaining fluid balance.
 
 ## Review: Types of Muscle Tissue
 
@@ -8237,7 +8237,7 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 **Derivation of the $n + 1$ rule:**
 
 Neighbouring protons on adjacent carbons interact (spin-spin coupling) because their nuclear spins
-Can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
+can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
 There are $n + 1$ possible spin arrangements (and therefore $n + 1$ possible local magnetic fields
 Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal's
 Triangle.
@@ -8254,7 +8254,7 @@ Identify the compound.
 The singlet that exchanges with $\mathrm{D_2\mathrm{O$ is an $\mathrm{O-\mathrm{H$ proton. The
 triplet (3H) and quartet (2H) indicate a $\mathrm{CH_3\mathrm{CH_2$ group. The quartet is shifted to
 $\delta = 3.7$ Suggesting the $\mathrm{CH_2$ is adjacent to an electronegative oxygen. The compound
-Is ethanol ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
+is ethanol ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
 
 **Worked Example 6:** A compound with molecular formula $\mathrm{C_4\mathrm{H_{10}\mathrm{O$ has two
 $^1\mathrm{H$ NMR signals: a septet at $\delta = 3.9$ (1H) and a doublet at $\delta = 1.2$ (6H).
@@ -8262,7 +8262,7 @@ Identify the compound.
 
 The septet (7 peaks) indicates 6 neighbouring protons. The doublet (2 peaks) indicates 1
 Neighbouring proton. The chemical shift of $\delta = 3.9$ suggests the proton is on a carbon bonded
-To oxygen. The compound is 2-methylpropan-2-ol: $(\mathrm{CH_3)_3\mathrm{COH$ has three equivalent
+to oxygen. The compound is 2-methylpropan-2-ol: $(\mathrm{CH_3)_3\mathrm{COH$ has three equivalent
 $\mathrm{CH_3$ groups (6H, doublet split by 1H) and one $\mathrm{CH$ proton (1H, septet split by
 6H).
 
@@ -8307,9 +8307,9 @@ Concentration (mol/L), and $l$ is the path length (cm).
 **Derivation:**
 
 The absorbance is proportional to the number of absorbing molecules in the light path. If a solution
-Of concentration $c$ and path length $l$ contains $c \times l$ moles per unit area, then doubling
+of concentration $c$ and path length $l$ contains $c \times l$ moles per unit area, then doubling
 $c$ or $l$ doubles the number of absorbers and hence the absorbance. The proportionality constant is
-The molar absorptivity $\varepsilon$ Which depends on the substance and wavelength.
+the molar absorptivity $\varepsilon$ Which depends on the substance and wavelength.
 
 **Applications:** Determining concentrations, following reaction kinetics, identifying conjugated
 Systems.
@@ -8822,7 +8822,7 @@ Identify the compound and assign all spectral features.
 ### High-Resolution Mass Spectrometry (HRMS)
 
 Low-resolution mass spectrometry gives $m/z$ values to the nearest whole number. High-resolution MS
-Can distinguish between compounds with the same nominal mass but different exact masses.
+can distinguish between compounds with the same nominal mass but different exact masses.
 
 **Example:** $\mathrm{CO$ has exact mass 27.9949 and $\mathrm{N_2$ has exact mass 28.0061. These
 Cannot be distinguished at low resolution (both appear at $m/z = 28$) but are separated at High
@@ -8844,7 +8844,7 @@ $$
 
 **McLafferty rearrangement:** A hydrogen atom from the gamma carbon (three bonds away) transfers to
 The carbonyl oxygen, followed by cleavage of the beta-gamma bond. Produces an enol radical cation
-And a neutral alkene.
+and a neutral alkene.
 
 This rearrangement requires a gamma hydrogen and is common in carbonyl compounds with at least 3
 Carbons in the chain.
@@ -9404,7 +9404,7 @@ Quantities of reactants as stated in the equation react under standard condition
 ### Hess's Law
 
 Hess's Law states that the enthalpy change of a reaction is independent of the route taken, provided
-The initial and final conditions are the same.
+the initial and final conditions are the same.
 
 $$
 \Delta H_1 = \Delta H_2 + \Delta H_3
@@ -10198,7 +10198,7 @@ Step 2 (fast): $\mathrm{F + \mathrm{NO_2 \to \mathrm{NO_2\mathrm{F$
 The rate equation is: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$.
 
 This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$ Even
-Though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
+though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
 Rate order cannot be predicted from the stoichiometry.
 
 ---
@@ -11856,7 +11856,7 @@ $$
 $$
 
 This is an $S_N2$ reaction. The product is butanenitrile. The importance is that the carbon chain
-Has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently be hydrolysed to a
+has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently be hydrolysed to a
 Carboxylic acid, providing a route to chain-elongated compounds.
 
 ---
@@ -12363,10 +12363,10 @@ $$
 
 Calcium ($Z = 20$) has electron configuration $2, 8, 8, 2$. It loses two electrons to form
 $\mathrm{Ca^{2+}$ ($2, 8, 8$). Each fluorine ($Z = 9$) has electron configuration $2, 7$ and gains
-One electron to form $\mathrm{F^-$ ($2, 8$). The dot-and-cross diagram shows two electrons
+one electron to form $\mathrm{F^-$ ($2, 8$). The dot-and-cross diagram shows two electrons
 Transferred from calcium (crosses) to one electron each accepted by two fluorine atoms (dots). The
 Resulting $\mathrm{Ca^{2+}$ and two $\mathrm{F^-$ ions are held together by electrostatic attraction
-In a giant ionic lattice.
+in a giant ionic lattice.
 
 **Covalent Bonding:**
 
@@ -12952,7 +12952,7 @@ Malleability, and high melting point.
 **(d) $\mathrm{AlCl_3$:** Aluminium is a metal and chlorine is a non-metal. The electronegativity
 Difference is $3.16 - 1.61 = 1.55$ Suggesting polar covalent. $\mathrm{Al^{3+}$ is a small, highly
 Charged cation with high polarising power, and $\mathrm{Cl^-$ is a relatively large anion. According
-To Fajans' Rules, this gives $\mathrm{AlCl_3$ significant **covalent character**. Indeed,
+to Fajans' Rules, this gives $\mathrm{AlCl_3$ significant **covalent character**. Indeed,
 $\mathrm{AlCl_3$ sublimes at $180^\circ\mathrm{C$ (low for an ionic compound) and forms dimer
 molecules $\mathrm{Al_2\mathrm{Cl_6$ in the gas phase.
 
@@ -13054,7 +13054,7 @@ Arrangement, forming a rigid three-dimensional network. Every C-C bond is a stro
 
 Each carbon atom in graphite is covalently bonded to three other carbon atoms in a trigonal planar
 Arrangement, forming flat hexagonal layers. The fourth electron of each carbon is delocalised over
-The entire layer.
+the entire layer.
 
 **Properties explained:**
 
@@ -13553,7 +13553,7 @@ def binary_search(arr, target):
 ### Linked Lists
 
 A linear data structure where elements (nodes) are connected by pointers. Each node contains data
-And a reference to the next node.
+and a reference to the next node.
 
 **Advantages over arrays:** Dynamic size, efficient insertion and deletion.
 
@@ -13831,7 +13831,7 @@ def dfs(graph, start):
 ### Dijkstra's Algorithm
 
 Finds the shortest path from a single source to all other vertices in a weighted graph with
-Non-negative weights.
+non-negative weights.
 
 **Complexity:** $O((V + E) \log V)$ with a priority queue.
 
@@ -15538,7 +15538,7 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
 
 **Why hexadecimal?** Hexadecimal is a convenient shorthand for binary. Each hex digit represents
 Exactly 4 bits, so an 8-bit byte can be written as two hex digits (e.g., `11010110` = `D6`). This is
-Much more compact and less error-prone than writing long binary strings. Memory addresses, colour
+much more compact and less error-prone than writing long binary strings. Memory addresses, colour
 Codes (`#FF5733`), MAC addresses (`00:1A:2B:3C:4D:5E`), and error codes all use hexadecimal.
 
 ### Representing Numbers
@@ -15779,7 +15779,7 @@ Lossy compression is used for photographs.
 
 Executable files and documents must be reconstructed exactly -- a single changed bit could make a
 Program crash or change the meaning of a legal document. Photographs can tolerate some data loss
-Because the human eye cannot perceive small differences in colour or detail.
+because the human eye cannot perceive small differences in colour or detail.
 
 ---
 
@@ -15876,7 +15876,7 @@ write). The CIR Holds the **instruction** (what to do).
 **Worked Example.** After the fetch phase, the PC contains 101. What does this mean?
 
 It means the next instruction to be fetched will be from memory address 101. The PC was incremented
-During the fetch phase from its previous value (100) to point to the next instruction.
+during the fetch phase from its previous value (100) to point to the next instruction.
 
 ### Cache Memory
 
@@ -15914,7 +15914,7 @@ Without cache: 100 ns. Speedup: $100 / 8.92 \approx 11.2\times$.
 
 **Why the hierarchy exists.** Faster memory is more expensive per byte. The hierarchy exploits
 Locality of reference: programs tend to access the same data repeatedly (temporal locality) and data
-Near recently accessed data (spatial locality). By keeping the most frequently used data in small,
+near recently accessed data (spatial locality). By keeping the most frequently used data in small,
 Fast memory near the CPU, the average access time is dramatically reduced compared to using only
 RAM.
 
@@ -16002,7 +16002,7 @@ System (ABS).
 
 The ABS must respond within milliseconds to prevent wheel lockup. A general-purpose OS (like
 Windows) cannot guarantee response times because it may be busy with other tasks. A RTOS guarantees
-That the ABS process receives CPU time within a fixed deadline, ensuring safety.
+that the ABS process receives CPU time within a fixed deadline, ensuring safety.
 
 **Virtual memory (HL).** When RAM is full, the operating system uses a section of the hard drive as
 Virtual memory (swap space). A **page fault** occurs when the CPU accesses data that has been
@@ -16022,11 +16022,11 @@ system Spends more time swapping pages than executing instructions.
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** Contains the BIOS/UEFI, which is the first code the CPU executes when
 The computer is powered on. The BIOS initialises hardware and loads the operating system from disk
-Into RAM.
+into RAM.
 
 **DRAM vs SRAM:**
 
@@ -17506,8 +17506,8 @@ Access-Control-Allow-Headers: Content-Type
 ### Same-Origin Policy
 
 The Same-Origin Policy prevents a web page from making requests to a different domain than the one
-That served the page. This prevents malicious scripts on one page from accessing sensitive data on
-Another.
+that served the page. This prevents malicious scripts on one page from accessing sensitive data on
+another.
 
 **Origin** is defined by the combination of protocol, domain, and port:
 
@@ -19588,7 +19588,7 @@ $$
 Find intersections: $x^3 = x$ So $x^3 - x = x(x-1)(x+1) = 0$ Giving $x = -1, 0, 1$.
 
 Between $x = -1$ and $x = 0$: $x \ge x^3$ (since $x \in [-1, 0]$ means $x \ge x^3$). Between $x = 0$
-And $x = 1$: $x^3 \ge x$.
+and $x = 1$: $x^3 \ge x$.
 
 By symmetry of the two regions:
 
@@ -19958,7 +19958,7 @@ $$
 ### Related Rates
 
 Related rates problems involve finding the rate of change of one quantity given the rate of change
-Of a related quantity.
+of a related quantity.
 
 **Example:** A ladder 5 m long leans against a wall. The bottom slides away at 0.5 m/s. How fast is
 The top sliding down when the bottom is 3 m from the wall?
@@ -21423,7 +21423,7 @@ $$
 
 The divisor $n-1$ (Bessel's correction) gives an unbiased estimate of the population standard
 Deviation. With $n$ in the denominator, the sample standard deviation systematically underestimates
-The population parameter.
+the population parameter.
 
 For grouped data with frequencies $f_i$:
 
@@ -21519,7 +21519,7 @@ $$
 
 This theorem is foundational in statistics, machine learning, and medical testing. It allows you to
 "invert" conditional probabilities: if you know $P(B|A)$ but need $P(A|B)$ Bayes' theorem provides
-The bridge.
+the bridge.
 
 **Example:** In a school, 60% of students study Maths, 40% study Physics, and 25% study both. A
 Student is chosen at random.
@@ -21565,7 +21565,7 @@ $$
 $$
 
 Despite a 95% true positive rate, only about 32% of positive tests indicate actual disease, due to
-The low prevalence (base rate fallacy).
+the low prevalence (base rate fallacy).
 
 ### Probability Trees
 
@@ -21762,7 +21762,7 @@ One-unit increase in $x$.
 
 **Extrapolation warning:** The regression line is reliable only within the range of the observed
 Data. Predicting outside this range (extrapolation) is unreliable because the linear relationship
-May not hold.
+may not hold.
 
 **Example:** Calculate the PMCC for the following data:
 
@@ -21869,7 +21869,7 @@ E(X) = \sum_{k=1}^{\infty} k(1-p)^{k-1}p = p\sum_{k=1}^{\infty} k(1-p)^{k-1}
 $$
 
 Using the identity $\displaystyle\sum_{k=1}^{\infty} kr^{k-1} = \frac{1}{(1-r)^2}$ for $|r| \lt 1$
-With $r = 1-p$:
+with $r = 1-p$:
 
 $$
 E(X) = p \cdot \frac{1}{p^2} = \frac{1}{p}
@@ -21941,11 +21941,11 @@ $$
 
 **Trade-off between errors.** Decreasing $\alpha$ (making the test more conservative) increases
 $\beta$ (making it harder to detect a real effect). The only way to decrease both simultaneously is
-To increase the sample size.
+to increase the sample size.
 
 **Example:** A manufacturer claims that the mean weight of bags of sugar is 500 g. A sample of 16
 Bags has mean weight 497 g with standard deviation 5 g. Test at the 5% significance level whether
-The mean weight differs from 500 g.
+the mean weight differs from 500 g.
 
 $H_0: \mu = 500$, $H_1: \mu \neq 500$.
 
@@ -22343,7 +22343,7 @@ $$
 $$
 
 The three forms of $\cos 2A$ are all useful in different contexts. Use $\cos 2A = 2\cos^2 A - 1$
-When everything is in terms of $\cos$ And $\cos 2A = 1 - 2\sin^2 A$ when everything is in terms of
+when everything is in terms of $\cos$ And $\cos 2A = 1 - 2\sin^2 A$ when everything is in terms of
 $\sin$.
 
 **Proof that $\sin 2A = 2\sin A \cos A$.**
@@ -22748,7 +22748,7 @@ Complete the square: $(x + 2)^2 + (y - 3)^2 = 4$. Centre $(-2, 3)$ Radius $2$.
 
 Since $(-2, 3)$ is the centre, not a point on the circle, we must check:
 $(-2+2)^2 + (3-3)^2 = 0 \ne 4$. The point $(-2, 3)$ is inside the circle, so there is no tangent
-From this point to the circle. The point must lie **on** the circle for a tangent to exist.
+from this point to the circle. The point must lie **on** the circle for a tangent to exist.
 
 ### Intersection of Line and Circle
 
@@ -23241,7 +23241,7 @@ $$
 ### Section Formula (Higher)
 
 The position vector of a point that divides the line segment from $A$ to $B$ in the ratio $m : n$
-Is:
+is:
 
 $$
 \mathbf{r} = \frac{n\mathbf{a} + m\mathbf{b}}{m + n}
@@ -23307,7 +23307,7 @@ $$
 
 **Why the dimensions must match.** The entry $c_{ij}$ is the dot product of row $i$ of $A$ with
 Column $j$ of $B$. For this dot product to be defined, row $i$ of $A$ and column $j$ of $B$ must
-Have the same length, which means the number of columns of $A$ equals the number of rows of $B$.
+have the same length, which means the number of columns of $A$ equals the number of rows of $B$.
 
 **Matrix multiplication is associative** ($(AB)C = A(BC)$) and **distributive** over addition
 ($A(B+C) = AB + AC$), but **not commutative** ($AB \neq BA$).
@@ -23410,7 +23410,7 @@ This is an enlargement by scale factor 3 centred at the origin. The determinant 
 Confirming it is a pure enlargement (no reflection). Every point $(x, y)$ maps to $(3x, 3y)$.
 
 The relationship with the identity matrix $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$ is that
-This matrix represents an enlargement by scale factor 1 (i.e., the identity/no transformation).
+this matrix represents an enlargement by scale factor 1 (i.e., the identity/no transformation).
 
 ---
 
@@ -23605,7 +23605,7 @@ $$
 $$
 
 This is the cofactor expansion along the first row. You can expand along any row or column; choose
-The one with the most zeros for efficiency.
+the one with the most zeros for efficiency.
 
 **Properties of determinants:**
 
@@ -23647,7 +23647,7 @@ $$
 ### Eigenvalues and Eigenvectors (Advanced Higher)
 
 A scalar $\lambda$ is an **eigenvalue** of $A$ if there exists a non-zero vector $\mathbf{v}$ such
-That:
+that:
 
 $$
 A\mathbf{v} = \lambda\mathbf{v}
@@ -24345,7 +24345,7 @@ Total: $25 + 100 + 16.67 = 141.67 \mathrm{ m$
 ### Extracting Information from Graphs
 
 The gradient of a tangent to a curved displacement-time graph gives the instantaneous velocity at
-That point. The area under a velocity-time graph (even a curved one) gives the total displacement.
+that point. The area under a velocity-time graph (even a curved one) gives the total displacement.
 For non-constant acceleration, count squares or use integration.
 
 ## Circular Motion
@@ -24365,7 +24365,7 @@ This force always acts towards the centre of the circle.
 Newton's first law says an object continues in a straight line unless acted upon by a force. In
 Circular motion, the object is continuously deflected from its straight-line path toward the centre.
 The force causing this deflection is the centripetal force. It is not a separate interaction; it is
-The _name_ for whatever force or combination of forces provides the net inward force (gravity for
+the _name_ for whatever force or combination of forces provides the net inward force (gravity for
 Orbits, friction for a car on a roundabout, tension for a ball on a string).
 
 ### Why Objects Released from Circular Motion Move Tangentially
@@ -24408,7 +24408,7 @@ $$
 
 **Example:** A satellite orbits Earth at an altitude of $400 \mathrm{ km$ in a circular orbit. Given
 Earth's mass $M = 5.97 \times 10^{24} \mathrm{ kg$ and radius $R = 6.37 \times 10^6 \mathrm{ m$ Find
-The orbital speed and period.
+the orbital speed and period.
 
 $$
 r = R + h = 6.37 \times 10^6 + 4 \times 10^5 = 6.77 \times 10^6 \mathrm{ m
@@ -24444,7 +24444,7 @@ Where $G = 6.67 \times 10^{-11} \mathrm{ N m^2 \mathrm{kg^{-2}$.
 
 Consider a point mass emitting gravitational field lines uniformly in all directions. The number of
 Field lines crossing a sphere of radius $r$ is constant (the same lines cross every sphere centered
-On the mass). The flux density (field lines per unit area) is proportional to $1/r^2$ Since the
+on the mass). The flux density (field lines per unit area) is proportional to $1/r^2$ Since the
 Surface area of the sphere is $4\pi r^2$. Therefore, the gravitational field strength is
 Proportional to $1/r^2$.
 
@@ -24468,7 +24468,7 @@ Supplied to move masses apart.
 ### Why Gravitational PE Is Negative
 
 The convention $U = 0$ at $r = \infty$ is natural because the gravitational force decreases to zero
-At infinity. As two masses are brought together from infinity, gravity does positive work and the
+at infinity. As two masses are brought together from infinity, gravity does positive work and the
 Potential energy decreases below zero. A bound orbit (like a planet around a star) has negative
 Total energy.
 
@@ -24707,7 +24707,7 @@ g = \frac{GM}{r^2} = \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{(6.6
 $$
 
 This is about 91% of the surface value of $9.8 \mathrm{ N/kg$. The International Space Station, at
-About 400 km altitude, experiences $g \approx 8.7 \mathrm{ N/kg$ -- astronauts are not truly
+about 400 km altitude, experiences $g \approx 8.7 \mathrm{ N/kg$ -- astronauts are not truly
 Weightless because there is no gravity at that altitude; they are weightless because they are in
 Free fall.
 
@@ -24931,7 +24931,7 @@ $r_2/r_1$ is very large (greater than about 11.94).
 ### Example 22: Stellar Parallax and Distance
 
 A star is observed to have an annual parallax of $0.077 \mathrm{ arcseconds$. Calculate the distance
-To the star in parsecs and light-years.
+to the star in parsecs and light-years.
 
 **Step 1: Use the parallax formula**
 
@@ -24969,7 +24969,7 @@ $$
 The Gaia space telescope can measure parallaxes down to about $10 \mathrm{ \mu\mathrm{as$
 
 (microarcseconds), corresponding to distances of about $100 \mathrm{ kpc$. Ground-based observations
-Are limited to parallaxes above about $0.01 \mathrm{ arcseconds$.
+are limited to parallaxes above about $0.01 \mathrm{ arcseconds$.
 </Aside>
 
 ### Example 23: Gravitational Potential Energy in Orbit Changes
@@ -25014,12 +25014,12 @@ energy increases by more than the kinetic energy decreases.
 
 Gravitational force $F = \frac{GMm}{r^2}$ acts on a specific mass $m$. Gravitational field strength
 $g = \frac{GM}{r^2}$ is the force _per unit mass_ and does not depend on the test mass. They have
-The same numerical value at the same location only when the test mass is $1 \mathrm{ kg$.
+the same numerical value at the same location only when the test mass is $1 \mathrm{ kg$.
 
 ### Pitfall 7: Using the Wrong Radius in Orbital Calculations
 
 The radius $r$ in orbital formulas is the distance from the _centre_ of the planet, not the altitude
-Above the surface. Always add the planet's radius to the altitude:
+above the surface. Always add the planet's radius to the altitude:
 
 $$
 r = R_{\mathrm{planet} + h
@@ -25029,7 +25029,7 @@ $$
 
 Kepler's third law $T^2 \propto r^3$ applies specifically to objects orbiting the _same_ central
 Body. For two different central bodies (e.g., a satellite around Earth vs around Mars), the constant
-Of proportionality changes:
+of proportionality changes:
 
 $$
 T^2 = \frac{4\pi^2}{GM} r^3
@@ -25106,7 +25106,7 @@ $$
 ### Example 27: Apparent Magnitude and Distance
 
 A star has an apparent magnitude of $6.0$ and an absolute magnitude of $2.0$. Calculate the distance
-To the star in parsecs and light-years.
+to the star in parsecs and light-years.
 
 **Step 1: Use the distance modulus**
 
@@ -25302,11 +25302,11 @@ I = nAve
 $$
 
 Where $n$ is the number density of free electrons (per m$^3$), $A$ is the cross-sectional area, $v$
-Is the drift velocity, and $e$ is the elementary charge.
+is the drift velocity, and $e$ is the elementary charge.
 
 For copper, $n \approx 8.5 \times 10^{28}$ m$^{-3}$. A 1 A current in a wire of area $10^{-6}$ m$^2$
 Gives a drift velocity of about $7 \times 10^{-5}$ m/s -- less than 0.1 mm/s. The signal propagates
-At nearly the speed of light, but the electrons themselves move extraordinarily slowly.
+at nearly the speed of light, but the electrons themselves move extraordinarily slowly.
 
 ### Potential Difference, EMF, and Resistance
 
@@ -25386,7 +25386,7 @@ $$
 
 Adding a parallel branch provides an additional path for current. More paths means less total
 Opposition, so the total resistance decreases. Adding a second identical resistor in parallel halves
-The total resistance.
+the total resistance.
 
 ### Kirchhoff's Laws
 
@@ -25492,7 +25492,7 @@ $$
 
 Replacing one resistor with a thermistor or LDR creates a circuit whose output voltage varies with
 Temperature or light level. A thermistor (NTC) decreases in resistance as temperature increases, so
-The voltage across it decreases as temperature rises. An LDR decreases in resistance as light
+the voltage across it decreases as temperature rises. An LDR decreases in resistance as light
 Intensity increases.
 
 ---
@@ -25662,14 +25662,14 @@ The positive result confirms the assumed direction is correct: current flows fro
 Cell A: $V_A = 12 - 0.857 \times 1 = 11.14 \mathrm{ V$
 
 Cell B: $V_B = 6 + 0.857 \times 2 = 7.71 \mathrm{ V$ (current flows into the positive terminal, so
-The terminal PD is EMF plus $Ir$)
+the terminal PD is EMF plus $Ir$)
 
 **Step 4:** Power dissipated in the resistor: $P = I^2 R = 0.857^2 \times 4 = 2.94 \mathrm{ W$.
 
 ## 12. Worked Example: Resistivity and Wire Dimensions
 
 A nichrome wire has resistivity $1.10 \times 10^{-6} \Omega\mathrm{m$. A length of this wire must
-Have a resistance of $15 \Omega$ and carry a maximum current of $2 \mathrm{ A$ without overheating.
+have a resistance of $15 \Omega$ and carry a maximum current of $2 \mathrm{ A$ without overheating.
 If the wire must not exceed a power dissipation of $20 \mathrm{ W$ Find the minimum cross-sectional
 Area and the corresponding length.
 
@@ -25726,7 +25726,7 @@ $$
 ### Energy Stored in a Charged Capacitor: Why the Factor of One-Half
 
 The energy stored in a capacitor is $E = \frac{1}{2}CV^2$ Not $CV^2$. The factor of one-half arises
-Because the voltage increases linearly as charge builds up: at the start, $V = 0$ And at the end,
+because the voltage increases linearly as charge builds up: at the start, $V = 0$ And at the end,
 $V = V_0$. The average voltage during charging is $V_0/2$ And
 $E = Q \times V_{\mathrm{avg} = QV_0/2$.
 
@@ -25895,8 +25895,8 @@ Power transfer, so impedance matching is used.
 ### Example 22: RC Circuit with AC Supply
 
 A $100 \Omega$ resistor and a $50 \mu\mathrm{F$ capacitor are connected in series with an AC supply
-Of $V_{\mathrm{rms} = 240 \mathrm{ V$ at $50 \mathrm{ Hz$. Calculate the impedance, current, voltage
-Across each component, and the phase angle.
+of $V_{\mathrm{rms} = 240 \mathrm{ V$ at $50 \mathrm{ Hz$. Calculate the impedance, current, voltage
+across each component, and the phase angle.
 
 **Step 1: Calculate capacitive reactance**
 
@@ -26006,7 +26006,7 @@ $$
 ### Pitfall 8: Confusing EMF with Terminal PD
 
 EMF ($\mathcal{E}$) is the total energy per unit charge supplied by the cell. Terminal PD ($ V$) is
-The energy per unit charge delivered to the external circuit. They are related by:
+the energy per unit charge delivered to the external circuit. They are related by:
 
 $$
 V = \mathcal{E} - Ir
@@ -26042,7 +26042,7 @@ When $I = 0$ (open circuit), $V = \mathcal{E}$. As current increases, $V$ decrea
 ### Example 26: Internal Resistance from Two Load Conditions
 
 A battery is connected first to a $4 \Omega$ resistor, giving a terminal PD of $5.6 \mathrm{ V$ And
-Then to a $10 \Omega$ resistor, giving a terminal PD of $7.2 \mathrm{ V$. Find the EMF and internal
+then to a $10 \Omega$ resistor, giving a terminal PD of $7.2 \mathrm{ V$. Find the EMF and internal
 Resistance.
 
 **Step 1: Set up equations**
@@ -26119,7 +26119,7 @@ All the initial stored energy is eventually dissipated as heat in the resistor.
 
 A silicon diode (forward voltage $0.7 \mathrm{ V$) is connected in series with a $470 \Omega$
 Resistor and a $9 \mathrm{ V$ battery. Calculate the current, the voltage across the resistor, and
-The power dissipated in the resistor.
+the power dissipated in the resistor.
 
 **Step 1: Apply Kirchhoff's voltage law**
 
@@ -26187,7 +26187,7 @@ v = \frac{5}{8.5 \times 10^{28} \times 7.854 \times 10^{-7} \times 1.602 \times 
 $$
 
 The drift velocity is less than $1 \mathrm{ mm/s$ Even though the current signal propagates at near
-The speed of light.
+the speed of light.
 
 ## Additional Practice Problems
 
@@ -26918,7 +26918,7 @@ $\theta =
 \arctan(F_y / F_x)$.
 
 This technique is the single most important problem-solving tool in mechanics. Instead of working
-With forces at awkward angles, resolve every force into components along two perpendicular axes,
+with forces at awkward angles, resolve every force into components along two perpendicular axes,
 Apply Newton's second law to each axis independently, and then recombine the results.
 
 **Example:** A boat sails north at $5 \mathrm{ m/s$ in a current flowing east at $3 \mathrm{ m/s$.
@@ -27075,7 +27075,7 @@ A.
 The normal force and weight on a book resting on a table are _not_ a third law pair. They act on the
 _same_ object and balance because the book is in equilibrium. The correct third law pairs are: Earth
 Pulls book down / book pulls Earth up, and table pushes book up / book pushes table down. The fact
-That the pairs act on different objects is why they cannot cancel.
+that the pairs act on different objects is why they cannot cancel.
 
 **Example:** A block of mass $5 \mathrm{ kg$ is pulled across a rough horizontal surface by a
 Horizontal force of $30 \mathrm{ N$. The coefficient of friction is $0.4$. Find the acceleration.
@@ -27230,7 +27230,7 @@ Laws in physics.
 
 **Example:** A $2 \mathrm{ kg$ ball moving at $5 \mathrm{ m/s$ collides with a stationary
 $3 \mathrm{ kg$ ball. If the $2 \mathrm{ kg$ ball rebounds at $1 \mathrm{ m/s$ Find the velocity of
-The $3 \mathrm{ kg$ ball.
+the $3 \mathrm{ kg$ ball.
 
 Conservation of momentum:
 
@@ -27255,7 +27255,7 @@ F_{\mathrm{avg} = \frac{\Delta p}{\Delta t}
 $$
 
 This is why car crumple zones, seat belts, air bags, and crash mats all work: they increase the time
-Over which the momentum changes, reducing the peak force.
+over which the momentum changes, reducing the peak force.
 
 ### Collisions
 
@@ -27292,7 +27292,7 @@ a = \frac{v^2}{r} = \omega^2 r, \qquad F = \frac{mv^2}{r} = m\omega^2 r
 $$
 
 The centripetal force always points towards the centre of the circle. It is not a separate force; it
-Is the _net_ radial force.
+is the _net_ radial force.
 
 ### Why Objects Do Not Fly Off in Circular Motion
 
@@ -27499,7 +27499,7 @@ $$
 $T_t = \frac{mv_t^2}{L} - mg = \frac{0.5 \times 1.96}{1.2} - 4.9 = 0.817 - 4.9 = -4.08 \mathrm{ N$
 
 A negative tension means the string would go slack. The ball does not complete the full circle. For
-The ball to just complete the circle, we need $v_t = \sqrt{gL} = \sqrt{11.76} = 3.43 \mathrm{ m/s$.
+the ball to just complete the circle, we need $v_t = \sqrt{gL} = \sqrt{11.76} = 3.43 \mathrm{ m/s$.
 
 ## 15. Summary Table: Key Mechanics Formulas
 
@@ -27722,7 +27722,7 @@ $$
 When drawing free body diagrams for connected bodies (e.g., two masses on a pulley), each body gets
 Its own diagram. The tension in the string appears on _both_ diagrams, and the acceleration is the
 Same for both bodies (assuming an inextensible string). Never combine forces from different bodies
-On one diagram.
+on one diagram.
 
 ### Pitfall 8: Forgetting That Normal Force Is Not Always $mg$
 
@@ -27874,7 +27874,7 @@ A $1 \mathrm{ kg$ ball moving at $1 \mathrm{ m/s$ has a de Broglie wavelength of
 $\lambda = 6.63 \times
 10^{-34} / 1 = 6.63 \times 10^{-34}$ m. This is unfathomably small -- far
 Smaller than any aperture or obstacle. Wave effects (diffraction, interference) are only observable
-When the wavelength is comparable to the size of the obstacles. For electrons (small mass), the de
+when the wavelength is comparable to the size of the obstacles. For electrons (small mass), the de
 Broglie wavelength can be comparable to atomic spacing, which is why electron diffraction is readily
 Observable.
 
@@ -27893,7 +27893,7 @@ $$
 
 **Example:** An electron in a hydrogen atom transitions from $n = 3$ to $n = 1$. The energy levels
 Are $E_1 = -13.6 \mathrm{ eV$$E_2 = -3.4 \mathrm{ eV$$E_3 = -1.51 \mathrm{ eV$. Find the wavelength
-Of the emitted photon.
+of the emitted photon.
 
 $$
 \Delta E = E_3 - E_1 = -1.51 - (-13.6) = 12.09 \mathrm{ eV = 1.934 \times 10^{-18} \mathrm{ J
@@ -28082,7 +28082,7 @@ $$
 ### Why a Closed Pipe Only Supports Odd Harmonics
 
 At the closed end, there must be a displacement node (the air cannot move). At the open end, there
-Is a displacement antinode. The fundamental has a quarter wavelength fitting in the pipe. The second
+is a displacement antinode. The fundamental has a quarter wavelength fitting in the pipe. The second
 Harmonic would require three-quarters of a wavelength, which gives the frequency $3f_1$. The pattern
 Continues with only odd multiples of the fundamental.
 
@@ -28871,7 +28871,7 @@ Water waves).
 ### Why the Distinction Between Transverse and Longitudinal Matters
 
 Only transverse waves can be polarised (the oscillations restricted to a single plane). Sound cannot
-Be polarised because it is longitudinal. This fact was historically important in establishing that
+be polarised because it is longitudinal. This fact was historically important in establishing that
 Light is a transverse wave.
 
 **Key Wave Quantities:**
@@ -28966,9 +28966,9 @@ Maximum diffraction occurs when the gap width is approximately equal to the wave
 ### Why Diffraction Depends on Wavelength Relative to Gap Size
 
 By Huygens' principle, every point on a wavefront acts as a source of secondary wavelets. If the gap
-Is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
+is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
 Edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
-From all parts of the gap overlap significantly, producing broad spreading.
+from all parts of the gap overlap significantly, producing broad spreading.
 
 ### Interference
 
@@ -29006,7 +29006,7 @@ d\sin\theta = n\lambda
 $$
 
 Where $d$ is the grating spacing, $\theta$ is the angle to the $n$ Th order maximum, and $\lambda$ is
-The wavelength.
+the wavelength.
 
 **Example:** A diffraction grating has 500 lines per mm. Light of wavelength $580 \mathrm{ nm$ is
 Incident normally. Find the angle of the second-order maximum.
@@ -29062,7 +29062,7 @@ $$
 ### Why the Decibel Scale Is Logarithmic
 
 The human ear can detect sounds over a range of intensities spanning $10^{12}$ (from the threshold
-Of hearing at $10^{-12}$ W/m$^2$ to the threshold of pain at $1$ W/m$^2$). A linear scale would
+of hearing at $10^{-12}$ W/m$^2$ to the threshold of pain at $1$ W/m$^2$). A linear scale would
 Require numbers ranging from 1 to a trillion. The logarithmic decibel scale compresses this range to
 0--120 dB, which is far more manageable.
 
@@ -29095,7 +29095,7 @@ Concrete to absorb.
 There is a trade-off: alpha particles are the most ionising but the least penetrating, while gamma
 Rays are the least ionising but the most penetrating. This makes sense physically: a highly ionising
 Particle loses energy rapidly (short range), while a weakly ionising particle retains its energy
-Over a longer distance.
+over a longer distance.
 
 ### Radioactive Decay
 
@@ -29141,8 +29141,8 @@ Or more : after 3 half-lives, $A = 800 / 2^3 = 100 \mathrm{ Bq$.
 Each nucleus decays independently with a fixed probability per unit time. It is impossible to
 Predict when a specific nucleus will decay. The decay law $N = N_0 e^{-\lambda t}$ describes the
 _average_ behaviour of a large number of nuclei, not the behaviour of any individual nucleus. This
-Is analogous to throwing dice: you cannot predict the outcome of a single throw, but you can predict
-The statistical distribution of many throws.
+is analogous to throwing dice: you cannot predict the outcome of a single throw, but you can predict
+the statistical distribution of many throws.
 
 ### Nuclear Equations
 
@@ -29178,10 +29178,10 @@ $$
 As nuclei get larger, the binding energy per nucleon increases (because the strong nuclear force
 Binds neighbouring nucleons). However, the strong force has a very short range, so nucleons on
 Opposite sides of a large nucleus do not attract each other, while the repulsive Coulomb force
-Between protons acts over the entire nucleus. Beyond iron-56, the Coulomb repulsion dominates, and
+between protons acts over the entire nucleus. Beyond iron-56, the Coulomb repulsion dominates, and
 Adding more nucleons actually decreases the binding energy per nucleon. This is why nuclei heavier
-Than iron can release energy through fission, and nuclei lighter than iron can release energy
-Through fusion.
+than iron can release energy through fission, and nuclei lighter than iron can release energy
+through fusion.
 
 ### Background Radiation
 
@@ -29289,7 +29289,7 @@ flowchart TD
 
 Light of wavelength $550 \mathrm{ nm$ passes through a slit of width $0.02 \mathrm{ mm$. Find the
 Angular width of the central maximum and the intensity of the first secondary maximum relative to
-The central maximum.
+the central maximum.
 
 **Central maximum half-width:**
 
@@ -29321,7 +29321,7 @@ The first secondary maximum has about 4.5% of the intensity of the central maxim
 ## 12. Worked Example: Diffraction Grating with White Light
 
 A diffraction grating with 500 lines/mm is illuminated with white light. Find the angular width of
-The first-order spectrum.
+the first-order spectrum.
 
 The grating spacing: $d = \frac{1}{500 \times 10^3} = 2 \times 10^{-6} \mathrm{ m$.
 
@@ -29336,7 +29336,7 @@ The angular width of the first-order spectrum is $20.5^{\circ} - 11.5^{\circ} = 
 
 The second-order spectra overlap: the second-order violet ($\sin\theta = 0.400$
 $\theta = 23.6^{\circ}$) overlaps with the first-order red ($\theta = 20.5^{\circ}$). This limits
-The useful number of orders for spectroscopy.
+the useful number of orders for spectroscopy.
 
 ## 13. Radioactive Decay: Extended Analysis
 
@@ -29355,7 +29355,7 @@ $$
 
 After 100 years, about 9% of the original strontium-90 remains. This is why strontium-90 is so
 Hazardous in nuclear fallout: it has a long enough half-life to persist for decades, yet decays fast
-Enough to deliver significant radiation dose.
+enough to deliver significant radiation dose.
 
 ### Activity and Mass Relationship
 
@@ -29387,7 +29387,7 @@ $A = \lambda N = 4.17 \times 10^{-9} \times 5.018 \times 10^{19} = 2.09 \times 1
 ### Worked Example: Decibel Addition
 
 Two sound sources produce intensity levels of $70 \mathrm{ dB$ and $73 \mathrm{ dB$ at a point. Find
-The total intensity level.
+the total intensity level.
 
 $$
 I_1 = I_0 \times 10^{70/10} = 10^{-12} \times 10^7 = 10^{-5} \mathrm{ W/m^2
@@ -29406,7 +29406,7 @@ $$
 $$
 
 Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$ Not $143 \mathrm{ dB$. Decibels
-Do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
+do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
 Source of equal intensity adds 3 dB.
 
 ## 15. Summary Table: Wave and Radiation Formulas
@@ -29495,7 +29495,7 @@ So the second secondary maximum has about $1.6\%$ of the central maximum intensi
 
 :::note
 $\approx 1.6\%$ Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
-In the central maximum.
+in the central maximum.
 :::
 
 ### Example 22: Radioactive Dating
@@ -29576,7 +29576,7 @@ $+10 \mathrm{ dB$. This Logarithmic behaviour surprises many students.
 ### Pitfall 7: Forgetting the Factor of 2 in Coherent Source Path Difference
 
 For two coherent sources separated by distance $d$ The path difference to a point at angle $\theta$
-Is $d \sin\theta$_not_ $2d \sin\theta$. The factor of 2 only appears in thin film interference Where
+is $d \sin\theta$_not_ $2d \sin\theta$. The factor of 2 only appears in thin film interference Where
 the light traverses the film twice (reflection from top and bottom surfaces).
 
 ### Pitfall 8: Assuming All Nuclear Radiation Is Equally Ionising
@@ -29681,7 +29681,7 @@ Means:
 
 In a two-source interference experiment, two coherent sources $S_1$ and $S_2$ are $0.8 \mathrm{ mm$
 Apart and emit light of wavelength $580 \mathrm{ nm$. The screen is $1.5 \mathrm{ m$ away. Calculate
-The fringe spacing and the distance from the central maximum to the fifth bright fringe.
+the fringe spacing and the distance from the central maximum to the fifth bright fringe.
 
 **Step 1: Fringe spacing**
 
@@ -29708,7 +29708,7 @@ Doubling the wavelength doubles the fringe spacing.
 ### Radiation Detection: Geiger-Muller Tube
 
 A GM tube has a dead time of approximately $100 \mathrm{ \mu\mathrm{s$ after each count. This limits
-The maximum count rate:
+the maximum count rate:
 
 $$
 \mathrm{Maximum count rate = \frac{1}{\mathrm{dead time} = \frac{1}{100 \times 10^{-6}} = 10000 \mathrm{ counts/s

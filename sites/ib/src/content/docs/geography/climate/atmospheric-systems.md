@@ -34,7 +34,7 @@ Equator more directly, spreading over a smaller area). This energy imbalance dri
 Atmospheric convection that redistributes heat from the equator toward the poles.
 
 The simplified three-cell model of atmospheric circulation identifies three circulation cells in
-Each hemisphere:
+each hemisphere:
 
 **The Hadley Cell (0$^\circ$--30$^\circ$).** Intense solar heating at the equator causes air to
 Warm, expand, and rise (convection). The rising air cools adiabatically, producing condensation,
@@ -45,11 +45,11 @@ Descend, creating zones of subsidence and high atmospheric pressure. The descend
 Adiabatically, suppressing cloud formation and producing the world's major desert belts (the Sahara,
 Arabian, Thar, Kalahari, and Australian deserts lie within these subtropical high-pressure belts).
 At the surface, air flows back toward the equator, completing the cell. Coriolis deflection turns
-This equatorward surface flow to the west, creating the north-east and south-east trade winds.
+this equatorward surface flow to the west, creating the north-east and south-east trade winds.
 
 **The Ferrel Cell (30$^\circ$--60$^\circ$).** The Ferrel cell is a thermally indirect cell (driven
 Not by local heating but by the motions of the Hadley and Polar cells that flank it). Surface winds
-At 30$^\circ$ flow poleward, deflected eastward by Coriolis to become the prevailing westerlies. At
+at 30$^\circ$ flow poleward, deflected eastward by Coriolis to become the prevailing westerlies. At
 Approximately 60$^\circ$ latitude, the westerlies encounter cold polar air flowing equatorward,
 Creating the polar front zone of convergence, uplift, and cyclonic activity.
 
@@ -94,7 +94,7 @@ Cumulonimbus clouds, and heavy rainfall.
 
 **Seasonal migration.** The ITCZ migrates northward during the northern summer and southward during
 The southern summer, following the apparent movement of the sun. The migration is more pronounced
-Over land than over ocean, because continental heating amplifies the thermal low. Over South Asia,
+over land than over ocean, because continental heating amplifies the thermal low. Over South Asia,
 The ITCZ migrates to approximately 20$^\circ$--25$^\circ$N during July--August, drawing in the
 South-west monsoon and producing extremely heavy rainfall (Cherrapunji in Meghalaya, India, receives
 Approximately 11 000 mm of rain annually, most of it during the monsoon season).
@@ -138,17 +138,17 @@ Cell.
 
 **Relationship to weather.** The polar front jet stream steers mid-latitude weather systems
 (depressions and anticyclones) from west to east. Regions north of the jet stream tend to be under
-The influence of cold polar air masses; regions south of the jet stream tend to be under the
+the influence of cold polar air masses; regions south of the jet stream tend to be under the
 Influence of warmer subtropical air. The position and strength of the jet stream determine the track
-And intensity of storm systems.
+and intensity of storm systems.
 
 **Climate change and the jet stream.** Arctic amplification (the Arctic is warming 2--4 times faster
 Than the global average) is reducing the temperature gradient between the Arctic and mid-latitudes.
 Since the strength of the polar front jet stream is proportional to this temperature gradient, some
 Research suggests that the jet stream is weakening and becoming more wavy, increasing the frequency
-And persistence of extreme weather events (heat waves, cold spells, prolonged rainfall). However,
+and persistence of extreme weather events (heat waves, cold spells, prolonged rainfall). However,
 This hypothesis remains an area of active research, and confidence in the specific mechanisms is not
-Yet high.
+yet high.
 
 ## Ocean Currents and Climate
 
@@ -157,7 +157,7 @@ Yet high.
 Surface ocean currents are driven primarily by global wind patterns (the trade winds, westerlies,
 And polar easterlies), Coriolis deflection, and the configuration of continents. They form large
 Circular systems called gyres, which rotate clockwise in the Northern Hemisphere and anticlockwise
-In the Southern Hemisphere.
+in the Southern Hemisphere.
 
 **Major surface currents and their climatic effects:**
 
@@ -193,10 +193,10 @@ Ice, increased precipitation, and river discharge). Observations from the RAPID 
 Moored instruments across the Atlantic at 26$^\circ$N) indicate that the AMOC has weakened by
 Approximately 15% since the mid-20th century. The IPCC projects further weakening under all emission
 Scenarios, with a risk of collapse under high-emission scenarios, though the threshold for collapse
-Is uncertain.
+is uncertain.
 
 An AMOC collapse would have profound climatic consequences: cooling of north-western Europe by
-Several degrees; shifting of tropical rainfall belts southward (affecting the Sahel, the Amazon, and
+several degrees; shifting of tropical rainfall belts southward (affecting the Sahel, the Amazon, and
 Southeast Asian monsoon); reduced carbon uptake by the Southern Ocean; and accelerated sea level
 Rise along the Atlantic coast of North America.
 
@@ -207,7 +207,7 @@ Rise along the Atlantic coast of North America.
 Under normal conditions, the trade winds blow westward across the tropical Pacific, pushing warm
 Surface water toward the western Pacific (Indonesia, Philippines). This creates a warm pool in the
 West (sea surface temperatures exceeding 28$^\circ$C) and a cool tongue in the east (off the coast
-Of Peru and Ecuador, where cold water upwells from depth). The temperature gradient drives
+of Peru and Ecuador, where cold water upwells from depth). The temperature gradient drives
 Atmospheric convection over the warm pool, producing heavy rainfall in the western Pacific and dry
 Conditions in the eastern Pacific.
 
@@ -238,7 +238,7 @@ Temperatures in the central and eastern Pacific fall below average.
 
 **Global impacts of La Nina:** broadly opposite to El Nino: increased rainfall and flooding in
 Southeast Asia and Australia; drought in South America (particularly north-east Brazil); drought in
-The southern USA; and enhanced Atlantic hurricane activity (La Nina reduces wind shear over the
+the southern USA; and enhanced Atlantic hurricane activity (La Nina reduces wind shear over the
 Tropical Atlantic, allowing more hurricanes to form).
 
 ### The 2015--2016 El Nino

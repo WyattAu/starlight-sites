@@ -133,7 +133,7 @@ This is based on the 2025 syllabus.
 ### Theme A: Space, Time and Motion (Core)
 
 This is the foundation of the entire course. It covers classical mechanics from kinematics through
-To work, energy, and power, then extends into rigid body mechanics and relativity at HL.
+to work, energy, and power, then extends into rigid body mechanics and relativity at HL.
 
 **Key concepts by subtopic:**
 
@@ -293,7 +293,7 @@ The IB Physics data booklet contains all the formulae you need. However, you mus
 ### 4. Focus on Multi-Step Problems
 
 Examination questions increasingly combine concepts from different themes. For example, a question
-Might combine:
+might combine:
 
 - Projectile motion (A.1) with gravitational fields (D.1)
 - Electric fields (D.2) with energy conservation (A.3)

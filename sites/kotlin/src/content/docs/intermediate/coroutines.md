@@ -25,7 +25,7 @@ Suspends instead of blocking a thread, allowing a small number of OS threads to 
 Concurrent operations.
 
 Key distinction: **coroutines are not threads**. A coroutine runs on a thread but can be suspended
-And resumed on a different thread. Thousands of coroutines can run concurrently on a handful of
+and resumed on a different thread. Thousands of coroutines can run concurrently on a handful of
 Threads.
 
 ## Setup
@@ -173,7 +173,7 @@ Exception. This prevents resource leaks from orphaned coroutines.
 ### CoroutineScope
 
 `coroutineScope` creates a new scope that completes when all children complete. It does not block
-The current thread -- it suspends.
+the current thread -- it suspends.
 
 `supervisorScope` is a variant where the failure of one child does not cancel the others.
 

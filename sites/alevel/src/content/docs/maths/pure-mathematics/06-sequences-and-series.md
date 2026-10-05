@@ -115,7 +115,7 @@ S_n = \frac{n}{2}(2a + (n - 1)d) \quad \blacksquare
 $$
 
 _Intuition._ Gauss supposedly used this method as a child to sum $1 + 2 + \cdots + 100 = 5050$. Pair
-The first and last, second and second-to-last, etc. Each pair sums to the same value.
+the first and last, second and second-to-last, etc. Each pair sums to the same value.
 
 <details>
 <summary>Example</summary>
@@ -613,7 +613,7 @@ $n = 2$: $(1+2)^2 = 9 = 1 + 8 = 1^3 + 2^3$ ✓
 $n = 3$: $(1+2+3)^2 = 36 = 1 + 8 + 27 = 1^3 + 2^3 + 3^3$ ✓
 
 This can also be visualised geometrically: a square of side $\frac{n(n+1)}{2}$ can be decomposed
-Into nested gnomons (L-shaped regions) that correspond to $1^3, 2^3, \ldots, n^3$.
+into nested gnomons (L-shaped regions) that correspond to $1^3, 2^3, \ldots, n^3$.
 
 <hr />
 

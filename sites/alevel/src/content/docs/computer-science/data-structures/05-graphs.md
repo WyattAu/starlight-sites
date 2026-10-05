@@ -200,7 +200,7 @@ def dfs(graph, start):
 ### Problem
 
 Find the shortest path from a source vertex $s$ to all other vertices in a **weighted graph with
-Non-negative weights**.
+non-negative weights**.
 
 ### Algorithm
 
@@ -241,7 +241,7 @@ _Base case._ $s$ is extracted first with $\mathrm{dist}[s] = 0 = d(s, s)$. ✓
 
 _Inductive step._ Let $u$ be the next vertex extracted. Assume for contradiction that
 $\mathrm{dist}[u] \gt d(s, u)$. Then there exists a shortest path $P$ from $s$ to $u$. Let $x$ be
-The first vertex on $P$ not in $S$ And let $y$ be the predecessor of $x$ on $P$ ($y \in S$). Then:
+the first vertex on $P$ not in $S$ And let $y$ be the predecessor of $x$ on $P$ ($y \in S$). Then:
 
 $$
 \mathrm{dist}[x] \leq \mathrm{dist}[y] + w(y, x) = d(s, y) + w(y, x) = d(s, x) \leq d(s, u) < \mathrm{dist}[u]
@@ -270,7 +270,7 @@ To **some** MST.
 
 **Proof.** Let $e$ be the minimum-weight edge crossing cut $(S, V \setminus S)$. Suppose $e$ is not
 In MST $T$. Adding $e$ to $T$ creates a cycle. This cycle must cross the cut at least twice (once
-Via $e$), so there exists another edge $e'$ in the cycle crossing the cut. Since $e$ is the
+via $e$), so there exists another edge $e'$ in the cycle crossing the cut. Since $e$ is the
 Minimum-weight crossing edge, $w(e) \leq w(e')$. Replacing $e'$ with $e$ in $T$ yields a spanning
 Tree with weight $\leq w(T)$. Since $T$ is minimum, $w(e) = w(e')$ And the new tree is also an MST
 Containing $e$. $\square$
@@ -473,7 +473,7 @@ MST weight: $1 + 2 + 3 + 5 = 11$. 4 edges for 5 vertices. ✓
 
 In the worst case, all vertices at the same distance from the source are in the queue
 Simultaneously. In a graph where the source is connected to all other vertices, at distance 1 there
-Are $V - 1$ vertices in the queue. In a star graph, the maximum queue size is $V - 1$. In a complete
+are $V - 1$ vertices in the queue. In a star graph, the maximum queue size is $V - 1$. In a complete
 Graph, BFS visits one level at a time, and the maximum queue size is bounded by the number of
 Vertices at the maximum depth, which is at most $V - 1$. Hence the space is $O(V)$. $\square$
 
@@ -490,10 +490,10 @@ Exists, there is no valid topological ordering because for any edge $(u, v)$ in 
 Come before $v$ And following the cycle leads to a contradiction.
 
 For shortest paths: in an unweighted graph with cycles, BFS still works correctly because BFS visits
-Each vertex at most once (it marks vertices as visited). The shortest path distance is still
+each vertex at most once (it marks vertices as visited). The shortest path distance is still
 Well-defined even with cycles, since a cycle would only increase the path length. However, for
 **weighted** graphs with negative cycles, shortest paths are undefined (you can keep going around
-The cycle to decrease the distance).
+the cycle to decrease the distance).
 
 </details>
 
@@ -514,7 +514,7 @@ Vertices is impossible. Let me reconsider: 6 vertices, 9 edges. Minimum edges fo
 (tree). 9 > 5, so it **could** be connected but isn't **necessarily** connected. Example: a $K_4$ on
 Vertices 1-4 (6 edges) and a $K_3$ on vertices 4-6... No, they share vertex 4, making it connected.
 Two separate components: component 1 has 4 vertices with 6 edges ($K_4$), component 2 has 2 vertices
-With 1 edge, but that's only 7 edges. To get 9: $K_4$ (6 edges, 4 vertices) + $K_3$ minus 1 edge = 2
+with 1 edge, but that's only 7 edges. To get 9: $K_4$ (6 edges, 4 vertices) + $K_3$ minus 1 edge = 2
 Edges, 3 vertices. But that requires 7 vertices. With 6 vertices: 5 in one component, 1 isolated.
 $K_5$ has 10 edges, too many. So with 6 vertices and 9 edges, the graph **must** be connected
 (minimum edges to disconnect would leave one isolated vertex, requiring $\leq \binom{5}{2} = 10$
@@ -532,12 +532,12 @@ Counterexample.
 <summary>Answer</summary>
 
 Dijkstra's algorithm relies on the **greedy choice property**: once a vertex $u$ is extracted from
-The priority queue, $\mathrm{dist}[u]$ is assumed to be final. This is valid only when all edge
+the priority queue, $\mathrm{dist}[u]$ is assumed to be final. This is valid only when all edge
 Weights are non-negative, because any alternative path to $u$ must pass through an unvisited vertex
 Whose distance is at least $\mathrm{dist}[u]$.
 
 With negative edges, a shorter path to an already-visited vertex may be discovered later through a
-Not-yet-visited vertex, invalidating the greedy choice.
+not-yet-visited vertex, invalidating the greedy choice.
 
 **Counterexample (CLRS, Exercise 24.3-5).** Consider vertices $S, A, B, C$ with edges:
 
@@ -614,7 +614,7 @@ Base case: $n = 1$. A single vertex has 0 edges. $0 = 1 - 1$. ✓
 Inductive step: Assume all trees with $k$ vertices have $k - 1$ edges. Consider a tree $T$ with
 $k + 1$ vertices. Since $T$ has at least 2 vertices (for $k \geq 1$), it has at least one leaf $v$
 (a tree with $\geq 2$ vertices always has a leaf, otherwise every vertex has degree $\geq 1$ And
-With no cycles, we'd need $\geq n$ edges, contradicting $|E| = n - 1$). Remove leaf $v$ and its
+with no cycles, we'd need $\geq n$ edges, contradicting $|E| = n - 1$). Remove leaf $v$ and its
 Single incident edge. The resulting graph $T'$ is still a tree (removing a leaf cannot create a
 Cycle, and $T'$ is still connected since $v$ was only connected to one vertex). $T'$ has $k$
 Vertices, so by the inductive hypothesis, $T'$ has $k - 1$ edges. Adding back $v$ and its edge gives

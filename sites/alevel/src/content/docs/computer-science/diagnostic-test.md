@@ -112,7 +112,7 @@ With $n$ elements?
 <summary>Answer</summary>
 
 $O(1)$, insert at the head by updating the new node's next pointer to the current head and updating
-The head pointer. No traversal needed.
+the head pointer. No traversal needed.
 
 **Revision:** [Linked Lists](/computer-science/data-structures/02-linked-lists/)
 
@@ -365,7 +365,7 @@ shippable product increment.
 <summary>Answer</summary>
 
 Boundary value analysis tests values at and around the boundaries of equivalence classes, where
-Off-by-one errors are most likely. Example: for a function accepting ages 0–120, test -1, 0, 1 and
+off-by-one errors are most likely. Example: for a function accepting ages 0–120, test -1, 0, 1 and
 119, 120, 121.
 
 **Revision:** [Testing](/computer-science/software-engineering/02-testing/)
@@ -379,7 +379,7 @@ Off-by-one errors are most likely. Example: for a function accepting ages 0–12
 
 No. Consider `if condition: x = 1`. A single test with `condition = True` achieves 100% statement
 Coverage (both `x = 1` and subsequent code execute) but only 50% branch coverage (the false branch
-Is never taken).
+is never taken).
 
 **Revision:** [Testing](/computer-science/software-engineering/02-testing/)
 
@@ -566,7 +566,7 @@ State.
 
 No. Proved using the Pumping Lemma: choose $s = a^p b^p$; the pumped substring $y$ lies within the
 First $p$ symbols (all $a$'s); removing $y$ yields unequal numbers of $a$'s and $b$'s, which is not
-In $L$.
+in $L$.
 
 **Revision:**
 [Automata and Computability](/computer-science/theory-of-computation/01-automata-and-computability/)
@@ -579,8 +579,8 @@ In $L$.
 <summary>Answer</summary>
 
 The halting problem asks: given a TM $M$ and input $w$ Does $M$ halt on $w$? It is undecidable
-Because assuming a decider $H$ exists leads to a contradiction when we construct a machine $D$ that
-Does the opposite of $H$ when run on itself.
+because assuming a decider $H$ exists leads to a contradiction when we construct a machine $D$ that
+does the opposite of $H$ when run on itself.
 
 **Revision:**
 [Automata and Computability](/computer-science/theory-of-computation/01-automata-and-computability/)

@@ -82,10 +82,10 @@ Conditions for SHM.
 0.50 m in phase. They are separated by a distance of 1.2 m. A microphone is moved along a line
 Parallel to the line connecting S1 and S2, at a large distance D = 10 m away. At the same time, a
 Reflective wall is placed 0.75 m behind the sources, creating standing waves between the sources and
-The wall. A) Calculate the number of destructive interference nodes located between S1 and S2 on the
+the wall. A) Calculate the number of destructive interference nodes located between S1 and S2 on the
 Line connecting them. B) Calculate the separation between the central maximum and the first-order
 Maximum on the distant screen. C) Now consider the wall. Will the point midway between S1 and S2 on
-The connecting line be a displacement node or antinode for the standing wave? Justify.
+the connecting line be a displacement node or antinode for the standing wave? Justify.
 
 <details>
 <summary>Answer</summary>
@@ -130,7 +130,7 @@ Conditions for nodes/antinodes in standing waves relative to a fixed boundary.
 Double slit with separation _d_ = 3.6 μm is placed. A) At what angle is the third minimum of the
 Single-slit diffraction pattern located? b) How many bright interference fringes from the double
 Slit appear within the central maximum of the single-slit diffraction pattern? c) If the amplitude
-Of the wave from the center of the single slit is $A_0$ What is the approximate intensity of the
+of the wave from the center of the single slit is $A_0$ What is the approximate intensity of the
 First-order double-slit fringe relative to the central double-slit fringe?
 
 <details>
@@ -191,7 +191,7 @@ The star's spectrum is analyzed. A spectral line for hydrogen, which has a labor
 Wavelength of 486.1 nm, is measured to be 487.3 nm. The star is known to have a radius of
 $7.0 \times 10^8$ m and a peak emission wavelength of 500 nm. The observer is on a planet that
 Receives a radiation intensity of $1.0 \times 10^{-8}$ W/m² from this star. Calculate the distance
-To the star.
+to the star.
 
 <details>
 <summary>Answer</summary>
@@ -325,8 +325,8 @@ Any angle of incidence greater than $41.8^\circ$ will result in total internal r
 ### Dispersion
 
 The refractive index depends on wavelength: shorter wavelengths (blue/violet) are refracted more
-Than longer wavelengths (red). This is why white light separates into a spectrum when passing
-Through a prism.
+than longer wavelengths (red). This is why white light separates into a spectrum when passing
+through a prism.
 
 > **Exam Tip:** When drawing ray diagrams for refraction, always include the **normal** (dashed line
 > perpendicular to the boundary at the point of incidence). The angles are always measured from the
@@ -374,7 +374,7 @@ $$
 Where $b$ is the aperture diameter.
 
 For a circular aperture (like a telescope or microscope), the minimum resolvable angular separation
-Is:
+is:
 
 $$
 \theta = \frac{1.22\lambda}{D}
@@ -564,7 +564,7 @@ Motion of the source.
 ### For Electromagnetic Waves (Light)
 
 Since EM waves do not require a medium, the relativistic Doppler formula applies. For speeds much
-Less than $c$:
+less than $c$:
 
 $$
 \frac{\Delta\lambda}{\lambda} \approx \frac{v}{c}

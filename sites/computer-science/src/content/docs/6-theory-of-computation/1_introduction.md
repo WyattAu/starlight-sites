@@ -28,7 +28,7 @@ Design of algorithms, programming languages, compilers, and hardware.
 An **alphabet** $\Sigma$ is a finite, non-empty set of symbols (e.g., $\Sigma = \{0, 1\}$).
 
 A **string** (or word) over $\Sigma$ is a finite sequence of symbols from $\Sigma$. The empty string
-Is denoted $\varepsilon$.
+is denoted $\varepsilon$.
 
 **Notation:**
 
@@ -104,7 +104,7 @@ $|\mathcal{P}(S)| \gt |S|$ for any set $S$). $\blacksquare$
 **Theorem 1.2.** The set of all Turing machines is countable.
 
 _Proof._ Each TM has a finite description (its states, alphabet, and transition function). Encode
-This as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
+this as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
 
 **Corollary 1.3.** There exist languages that are not Turing-recognisable (in fact, uncountably Many
 such languages).

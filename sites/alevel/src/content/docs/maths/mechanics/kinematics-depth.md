@@ -159,7 +159,7 @@ Both conventions are valid, but you must be consistent throughout a single probl
 
 **Problem.** A ball is thrown vertically upward at $15\;\mathrm{m\,s^{-1}}$ from a height of
 $2\;\mathrm{m}$ above the ground. Taking $g = 9.8\;\mathrm{m\,s^{-2}}$ and upward as positive, find
-The speed with which it hits the ground.
+the speed with which it hits the ground.
 
 At the highest point, $v = 0$:
 
@@ -189,7 +189,7 @@ The negative sign confirms downward motion. Speed $= 16.3\;\mathrm{m\,s^{-1}}$ (
 
 :::note
 $-2 = 15t - 4.9t^2$ Giving $t \approx 3.15\;\mathrm{s}$. This is **not** $2 \times t_{\mathrm{max}}$
-Because the ball was thrown from a height, not from ground level.
+because the ball was thrown from a height, not from ground level.
 :::
 
 <hr />

@@ -22,7 +22,7 @@ categories:
 ## Reference Collapsing and Forwarding References
 
 Reference collapsing is the template mechanism that enables a single function template to accept
-Both lvalues and rvalues while preserving their original value category. Combined with
+both lvalues and rvalues while preserving their original value category. Combined with
 `std::forward`This enables **perfect forwarding**, the foundation behind `std::make_unique`
 `std::make_shared``emplace_back`And virtually every factory function in the standard library.
 
@@ -309,7 +309,7 @@ Combinatorial explosion.
 Reference collapsing is not a runtime mechanism, it is purely a compile-time type substitution rule
 Enforced by the C++ core language. When the compiler instantiates a template and deduces `T` to be a
 Reference type, any `T&&` or `T&` formed from that `T` undergoes collapsing according to the table
-Above. This happens during **type alias substitution** [N4950 §13.3.2.3].
+above. This happens during **type alias substitution** [N4950 §13.3.2.3].
 
 Consider what the compiler does when you write:
 
@@ -365,7 +365,7 @@ void auto_forwarding_ref() {
 
 This is the mechanism behind **range-based for loops**. The standard specifies that the loop
 Variable in `for (auto&& elem : container)` uses a forwarding reference, which means it can bind to
-Both lvalue and rvalue elements without copying:
+both lvalue and rvalue elements without copying:
 
 ```cpp
 #include <utility>
@@ -447,7 +447,7 @@ Constructor or move assignment operator that accepts `T&&`).
 ## 5.4 Forwarding References with `const` and CV-Qualifiers
 
 When an lvalue with cv-qualifiers is passed to a forwarding reference, the qualifiers are preserved
-In the deduced type:
+in the deduced type:
 
 ```cpp
 #include <type_traits>
@@ -521,7 +521,7 @@ void cv_forwarding_demo() {
 ## 5.5 Forwarding References in Variadic Templates
 
 The pack expansion `Args&&... args` is the most common use of forwarding references. Each argument
-In the pack undergoes independent reference collapsing:
+in the pack undergoes independent reference collapsing:
 
 ```cpp
 #include <utility>
@@ -561,7 +561,7 @@ Literal `42` produces a `const int&` in the tuple, which dangles if the tuple ou
 Expression). `std::make_tuple` decays its arguments, so rvalues are copied/moved, but lvalues are
 Stored as references. For safe capture, use `std::make_tuple(std::decay_t&lt;Args>(args)...)` to
 Always store by value, or `std::forward_as_tuple(args...)` which explicitly stores references with
-The same lifetime concerns documented.
+the same lifetime concerns documented.
 :::
 
 ## 5.6 Forwarding in Class Templates

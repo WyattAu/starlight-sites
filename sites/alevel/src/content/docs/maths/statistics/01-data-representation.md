@@ -141,7 +141,7 @@ s^2 = \frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2 = \frac{\sum x_i^2 - n\bar{x}
 $$
 
 The division by $n-1$ (Bessel's correction) accounts for the fact that $\bar{x}$ is estimated from
-The same data, losing one degree of freedom.
+the same data, losing one degree of freedom.
 
 <hr />
 
@@ -209,7 +209,7 @@ Hence $\sigma_y = \sigma_x/|c|$. $\blacksquare$
 
 :::tip
 Find the mean and standard deviation, then decode back. Remember: adding a constant shifts the mean
-But does not affect the spread.
+but does not affect the spread.
 :::
 
 <hr />
@@ -227,7 +227,7 @@ $$
 ### 5.2 Grouped continuous data
 
 Use the **midpoint** of each class as the representative value. This introduces an approximation
-Since we lose information about the distribution within each class.
+since we lose information about the distribution within each class.
 
 <hr />
 
@@ -388,12 +388,12 @@ Enabling direct visual comparison of shape, spread, and outliers.
 
 Reading from the diagram: Class A has scores 55, 57, 58, 61, 63, 64, ... While Class B has 53, 54,
 56, 60, 62, 67, ... Both classes share the stem (tens digit), with Class A on the left and Class B
-On the right.
+on the right.
 
 ### 9.2 Cumulative frequency curves
 
 A **cumulative frequency curve** (ogive) plots cumulative frequency against the upper class boundary
-Of each group. To compare two distributions:
+of each group. To compare two distributions:
 
 1. Plot both ogives on the same axes.
 2. Read off medians, quartiles, and percentiles from each curve.
@@ -688,7 +688,7 @@ Produced by the value 28.
 <details>
 <summary>Problem 12</summary>
 A box plot shows: minimum = 5, $Q_1 = 12$$Q_2 = 18$$Q_3 = 25$ Maximum = 34, with one outlier
-At 42. Calculate the IQR, the upper fence, and describe the skewness of the distribution.
+at 42. Calculate the IQR, the upper fence, and describe the skewness of the distribution.
 </details>
 
 <details>
@@ -864,7 +864,7 @@ S_2 = \frac{11 + 5.5 - 2 \times 8}{11 - 5.5} = \frac{16.5 - 16}{5.5} = \frac{0.5
 $$
 
 Both coefficients are positive, so they agree on positive skew. However, $S_1$ is much larger
-Because the mean (11.67) is strongly pulled by the outlier 45, whereas $S_2$ depends only on the
+because the mean (11.67) is strongly pulled by the outlier 45, whereas $S_2$ depends only on the
 Quartiles, which are less affected by that extreme value.
 
 **If you get this wrong, revise:** [Skewness](#6-skewness), Section 6.

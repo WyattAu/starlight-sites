@@ -45,7 +45,7 @@ Nucleus of cells and is organised into structures called **chromosomes**.
 **Why base pairing is specific.** The sizes and shapes of the bases determine which pairs can form.
 A and T form two hydrogen bonds because they have complementary shapes. C and G form three hydrogen
 Bonds. This specificity is fundamental to the accuracy of DNA replication: each base can only pair
-With its complementary partner, ensuring that the genetic information is copied correctly.
+with its complementary partner, ensuring that the genetic information is copied correctly.
 
 **Nucleotide structure in detail.** Each nucleotide consists of three parts:
 
@@ -55,7 +55,7 @@ With its complementary partner, ensuring that the genetic information is copied 
 
 Nucleotides are joined together by phosphodiester bonds between the phosphate group of one
 Nucleotide and the sugar of the next, forming a sugar-phosphate backbone. The bases project inwards
-From the backbone and pair with complementary bases on the opposite strand.
+from the backbone and pair with complementary bases on the opposite strand.
 
 ### 1.2 Genes and Chromosomes
 
@@ -107,7 +107,7 @@ Amino acid sequence, potentially altering the protein's shape and function.
 ### 1.4 Genome
 
 The **genome** is the entire genetic material of an organism. The Human Genome Project (completed
-In 2003) mapped all the genes in human DNA.
+in 2003) mapped all the genes in human DNA.
 
 **Benefits of the Human Genome Project:**
 
@@ -288,7 +288,7 @@ Probability of a child with cystic fibrosis: 25%
 **Understanding why carriers do not show the disease.** A carrier (Ff) has one dominant allele (F)
 That produces enough functional protein to maintain normal health. The recessive allele (f) does not
 Produce functional protein, but one copy of the dominant allele is sufficient. This is the principle
-Of **dominance**: the dominant allele masks the effect of the recessive allele in the heterozygote.
+of **dominance**: the dominant allele masks the effect of the recessive allele in the heterozygote.
 
 **Worked Example 3: A two-generation cross.**
 
@@ -343,8 +343,8 @@ Y chromosome, while the mother always contributes an X chromosome.
 **Why recessive disorders are more common than dominant disorders.** A recessive disorder can be
 "hidden" in carriers (heterozygotes) who do not show the disease. These carriers can pass the
 Recessive allele to their children without knowing it. A dominant disorder cannot be hidden: anyone
-With the allele shows the disease. Dominant disorders are therefore more likely to be selected
-Against (affected individuals may have reduced fitness and fewer children), while recessive
+with the allele shows the disease. Dominant disorders are therefore more likely to be selected
+against (affected individuals may have reduced fitness and fewer children), while recessive
 Disorders can persist in the population for many generations through carriers.
 
 **Genetic testing and screening:**
@@ -396,7 +396,7 @@ Punnett square:
 Results: 25% normal female, 25% carrier female, 25% normal male, 25% haemophiliac male.
 
 The probability that a son will have haemophilia: 50% (because a son inherits his only X chromosome
-From his mother, and there is a 50% chance she passes on the $X^h$ allele).
+from his mother, and there is a 50% chance she passes on the $X^h$ allele).
 
 ## 4. Variation and Evolution
 
@@ -471,7 +471,7 @@ Changes in the environment.
 
 **Homologous vs. Analogous structures.** Homologous structures have the same evolutionary origin but
 May serve different functions (e.g., the pentadactyl limb in humans, bats, whales, and birds -- all
-Have the same basic bone structure despite being used for grasping, flying, swimming, and walking
+have the same basic bone structure despite being used for grasping, flying, swimming, and walking
 Respectively). Analogous structures have different evolutionary origins but serve similar functions
 (e.g., the wings of birds and insects). Only homologous structures provide evidence for common
 Ancestry.
@@ -789,7 +789,7 @@ A pedigree chart for a rare disorder shows:
 
 A **dihybrid cross** investigates the inheritance of two characteristics simultaneously. Mendel's
 Law of independent assortment states that alleles of different genes are distributed independently
-Of one another during gamete formation (provided the genes are on different chromosomes).
+of one another during gamete formation (provided the genes are on different chromosomes).
 
 **Worked Example: Dihybrid cross in pea plants.**
 

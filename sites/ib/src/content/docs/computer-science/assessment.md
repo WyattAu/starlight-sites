@@ -312,11 +312,11 @@ GDPR in the EU) restrict where data can be stored and processed.
 **Explanation**: Organizations must carefully evaluate their cloud provider's compliance with
 Relevant regulations and implement additional security measures (encryption, access controls). The
 Shared responsibility model means that while the provider secures the infrastructure, the customer
-Is responsible for securing their data.
+is responsible for securing their data.
 
 **Link**: Therefore, while cloud computing offers clear advantages in cost and scalability,
 Organizations must balance these benefits against the risks of data breaches and regulatory
-Non-compliance.
+non-compliance.
 
 > **Exam tip**: For a 10-mark question, aim for 4–5 well-developed points. Each point should include
 > specific evidence and explanation. The conclusion should synthesize your arguments rather than

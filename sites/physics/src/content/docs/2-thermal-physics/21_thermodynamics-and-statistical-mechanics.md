@@ -72,7 +72,7 @@ Body without external work.
 
 **Theorem 1.1 (Carnot's Theorem).** No engine operating between two heat reservoirs is more
 Efficient than a Carnot engine. All reversible engines operating between the same two reservoirs
-Have the same efficiency.
+have the same efficiency.
 
 **Proof.** Suppose engine $A$ (claimed more efficient than Carnot) operates between reservoirs at
 $T_h$ and $T_c$. Let $A$ extract heat $Q_h$ from the hot reservoir, do work $W$ And reject heat
@@ -126,7 +126,7 @@ $$
 $$
 
 This sets an absolute reference for entropy and implies that it is impossible to reach absolute zero
-In a finite number of steps.
+in a finite number of steps.
 
 ### 1.6 Thermodynamic Response Functions
 
@@ -324,7 +324,7 @@ ones (equations of state).
 <summary>Solution: Worked Example, Free Energy Minimisation</summary>
 
 A gas cylinder at $T = 300$ K is divided by a frictionless piston. Side $A$ has volume $V_A = 1$ L
-With $N_A = 0.04$ mol of ideal gas. Side $B$ has volume $V_B = 3$ L with $N_B = 0.02$ mol of ideal
+with $N_A = 0.04$ mol of ideal gas. Side $B$ has volume $V_B = 3$ L with $N_B = 0.02$ mol of ideal
 Gas. The piston is released and the system equilibrates at constant $T$. Find the equilibrium
 Volumes.
 
@@ -363,7 +363,7 @@ This is just mechanical equilibrium: $P_A = P_B$ I.e., $N_A k_B T/V_A = N_B k_B 
 **Proof (for $G$).** Consider a system in contact with a reservoir at $T_0, P_0$. The total entropy
 Of system plus reservoir is $S_{\mathrm{tot} = S + S_R}$. At equilibrium, $S_{\mathrm{tot}}$ is
 Maximised, so $\delta S_{\mathrm{tot} \leq 0}$ for any variation. Since $dS_R = \delta Q_R / T_0$
-And by energy conservation $\delta Q_R = -\delta Q = -(dU + P_0\,dV)$:
+and by energy conservation $\delta Q_R = -\delta Q = -(dU + P_0\,dV)$:
 
 $$
 \delta S_{\mathrm{tot} = \delta S - \frac{1}{T_0}(dU + P_0\,dV) = -\frac{1}{T_0}\delta G \leq 0}
@@ -533,7 +533,7 @@ $$
 
 **Derivation.** For the isothermal steps, $\Delta S_{\mathrm{hot} = Q_h/T_h}$ and
 $\Delta S_{\mathrm{cold} = -Q_c/T_c}$. Since entropy is a state function and the cycle returns to
-The initial state, $\Delta S_{\mathrm{total} = 0}$ So $Q_h/T_h = Q_c/T_c$. $\blacksquare$
+the initial state, $\Delta S_{\mathrm{total} = 0}$ So $Q_h/T_h = Q_c/T_c$. $\blacksquare$
 
 ### 4.2 Heat Pumps and Refrigerators
 
@@ -637,7 +637,7 @@ Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
 
 **Justification.** Consider two independent systems $A$ and $B$. The total number of microstates is
 $\Omega_{AB} = \Omega_A \cdot \Omega_B$. We require $S_{AB} = S_A + S_B$ (additivity). The logarithm
-Is the unique function satisfying $f(xy) = f(x) + f(y)$. $\blacksquare$
+is the unique function satisfying $f(xy) = f(x) + f(y)$. $\blacksquare$
 
 ### 5.2 Gibbs Entropy Formula
 
@@ -835,7 +835,7 @@ $$
 $$
 
 At $T = T_m = 280$ K on the sublimation curve (assuming solid-gas equilibrium at the melting point
-At low $P$):
+at low $P$):
 
 $$
 P_{\mathrm{sub}(280) = P_0 \exp\left[-\frac{45000}{8.314}\left(\frac{1}{280} - \frac{1}{T_0}\right)\right]}
@@ -975,7 +975,7 @@ z_{\mathrm{rot} = \sum_{J=0}^{\infty} (2J + 1) e^{-\beta \hbar^2 J(J+1)/(2I)}}
 $$
 
 At high temperature ($T \gg \Theta_{\mathrm{rot} = \hbar^2/(2Ik_B)}$), the sum can be approximated
-By an integral:
+by an integral:
 
 $$
 z_{\mathrm{rot} \approx \frac{T}{\Theta_{\mathrm{rot}} = \frac{2Ik_B T}{\hbar^2}}}
@@ -1101,7 +1101,7 @@ $$
 $$
 
 For the correct treatment, one must use the mean relative velocity. Since both colliding molecules
-Are moving, the relative speed is $\sqrt{2}$ times the mean speed:
+are moving, the relative speed is $\sqrt{2}$ times the mean speed:
 
 $$
 \lambda_{\mathrm{mfp} = \frac{1}{\sqrt{2}\,\pi d^2 n}}
@@ -1182,7 +1182,7 @@ $$
 $$
 
 The experimental value is $\eta \approx 1.66 \times 10^{-5}$ Pa$\cdot$S. The discrepancy is due to
-The hard-sphere model being an approximation; real molecules have softer repulsive potentials.
+the hard-sphere model being an approximation; real molecules have softer repulsive potentials.
 
 </details>
 
@@ -1202,7 +1202,7 @@ P(\mathbf{v})\,d^3v = \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{m
 $$
 
 To find the speed distribution, transform to spherical coordinates in velocity space and integrate
-Over angles:
+over angles:
 
 $$
 f(v)\,dv = P(\mathbf{v}) \cdot 4\pi v^2\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}\,dv
@@ -1241,7 +1241,7 @@ Classical particles are distinguishable. Quantum particles are not. There are tw
 ### 10.2 Fermi-Dirac Statistics
 
 For fermions, each state can be occupied by at most one particle. The occupation number is $n_i = 0$
-Or $1$.
+or $1$.
 
 The average occupation number:
 
@@ -1493,7 +1493,7 @@ $$
 $$
 
 This follows from maximising $u(\lambda) = (8\pi h c / \lambda^5)(e^{hc/(\lambda k_B T)} - 1)^{-1}$
-With respect to $\lambda$.
+with respect to $\lambda$.
 
 ### 13.4 Detailed Derivation of Planck's Law
 
@@ -2454,7 +2454,7 @@ $\sqrt{\langle N^2 \rangle - \langle N \rangle^2}/\langle N \rangle = 1/\sqrt{\l
 
 **Solution.** The grand partition function for an ideal gas factorises into single-particle
 Contributions. Each single-particle state contributes independently, so the particle number is a sum
-Of independent Bernoulli-like random variables. By the central limit theorem:
+of independent Bernoulli-like random variables. By the central limit theorem:
 
 $$
 \langle N^2 \rangle - \langle N \rangle^2 = \langle N \rangle
@@ -2535,7 +2535,7 @@ Ensembles give the same thermodynamic results, but they differ in their fluctuat
 
 :::caution
 _quadratic_ degrees of freedom. Vibrational modes contribute $k_B T$ (not $k_B T/2$) because they
-Have both kinetic and potential energy terms. Electronic and rotational degrees of freedom may be
+have both kinetic and potential energy terms. Electronic and rotational degrees of freedom may be
 "frozen out" at low temperatures when $k_B T$ is much less than the level spacing.
 :::
 

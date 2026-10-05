@@ -1030,7 +1030,7 @@ WHERE s1.Score > (
 Each.
 
 Validation checks that data is reasonable before it is stored (e.g., ensuring an age field is
-Between 0 and 120). Verification ensures that data matches the original source (e.g., entering a
+between 0 and 120). Verification ensures that data matches the original source (e.g., entering a
 Password twice to confirm it was typed correctly).
 
 </details>

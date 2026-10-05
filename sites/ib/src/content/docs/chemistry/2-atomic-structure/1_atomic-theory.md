@@ -37,7 +37,7 @@ John Dalton proposed that:
 5. Chemical reactions involve the rearrangement of atoms; atoms are neither created nor destroyed.
 
 Dalton's theory explained the law of conservation of mass and the law of definite proportions. It
-Could not explain the existence of isotopes or subatomic particles.
+could not explain the existence of isotopes or subatomic particles.
 
 ### Thomson's Plum Pudding Model (1897)
 
@@ -198,7 +198,7 @@ $$
 ### Exceptions to the Aufbau Principle
 
 Half-filled ($d^5$) and fully-filled ($d^{10}$) subshells have extra stability from exchange energy
-And symmetry:
+and symmetry:
 
 | Element       | Expected                      | Actual                           | Reason            |
 | ------------- | ----------------------------- | -------------------------------- | ----------------- |
@@ -274,8 +274,8 @@ For the $3p$ orbital ($n = 3$$l = 1$):
 The $s$ orbitals have the greatest penetration, followed by $p$ Then $d$ Then $f$.
 
 This explains why $4s$ fills before $3d$: the $4s$ electron has greater penetration and lower energy
-Than the $3d$ electron. However, once the $3d$ subshell is occupied, the increased shielding raises
-The energy of $4s$ above $3d$.
+than the $3d$ electron. However, once the $3d$ subshell is occupied, the increased shielding raises
+the energy of $4s$ above $3d$.
 
 ### Effective Nuclear Charge
 
@@ -475,7 +475,7 @@ $$
 Wait, this gives $Z_{\mathrm{eff}}(3d) \gt Z_{\mathrm{eff}}(4s)$ Which suggests $4s$ is higher in
 Energy. For a neutral atom, the $4s$ has lower energy due to its greater penetration. Once the $3d$
 Subshell is occupied, however, the $3d$ electrons shield the $4s$ electrons, raising $4s$ above $3d$
-In energy. Therefore, upon ionization, the $4s$ electrons (now at higher energy) are removed first.
+in energy. Therefore, upon ionization, the $4s$ electrons (now at higher energy) are removed first.
 
 </details>
 
@@ -488,7 +488,7 @@ $11577$$14842$. Identify the element and explain your reasoning.
 **Solution:**
 
 The large jump occurs between $IE_3$ and $IE_4$ (from $2745$ to $11577\mathrm{ kJ/mol}$), indicating
-That the first three electrons are valence electrons and the fourth is from an inner shell. This
+that the first three electrons are valence electrons and the fourth is from an inner shell. This
 Corresponds to a Group 13 element with three valence electrons.
 
 $IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$ Configuration
@@ -507,7 +507,7 @@ First ($496\mathrm{ kJ/mol}$), while the second ionization energy of magnesium
 
 For sodium: $IE_1$ removes a $3s$ valence electron. $IE_2$ removes a $2p$ electron from the $n = 2$
 Shell, which is much closer to the nucleus and experiences far greater $Z_{\mathrm{eff}}$ with much
-Less shielding. This accounts for the nearly tenfold increase.
+less shielding. This accounts for the nearly tenfold increase.
 
 For magnesium: both $IE_1$ and $IE_2$ remove $3s$ electrons from the same valence shell. The
 Increase from $IE_1$ to $IE_2$ is due to reduced electron-electron repulsion after the first
@@ -520,7 +520,7 @@ Valence electrons, so the jump is modest.
 <summary>Problem 4</summary>
 
 The electron configuration of a transition metal ion is $[\mathrm{Ar}]\, 3d^5$. The ion has a charge
-Of $+2$. Identify the element and determine whether the ion is paramagnetic or diamagnetic.
+of $+2$. Identify the element and determine whether the ion is paramagnetic or diamagnetic.
 
 **Solution:**
 
@@ -591,8 +591,8 @@ Approximately a factor of 4. This is the largest discontinuity in the series.
 **Step 2: Interpret the jump.**
 
 A large jump indicates that the $n$-th electron is being removed from a new, inner shell. The jump
-From $IE_3$ to $IE_4$ means the first three electrons are valence electrons and the fourth is from
-An inner shell. This corresponds to a Group 13 element.
+from $IE_3$ to $IE_4$ means the first three electrons are valence electrons and the fourth is from
+an inner shell. This corresponds to a Group 13 element.
 
 **Step 3: Identify the element.**
 

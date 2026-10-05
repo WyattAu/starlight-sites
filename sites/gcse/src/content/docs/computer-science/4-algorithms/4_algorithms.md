@@ -72,7 +72,7 @@ You need to be able to read, trace, and write algorithms in pseudocode and flowc
 
 Two different algorithms can solve the same problem but have vastly different performance. For
 Instance, searching through a million sorted records takes at most 20 comparisons with binary search
-But could take all 1,000,000 comparisons with linear search. This difference grows faster than
+but could take all 1,000,000 comparisons with linear search. This difference grows faster than
 Intuition suggests because the number of operations scales with the **size of the input**, which is
 Exactly what Big-O notation captures.
 
@@ -81,7 +81,7 @@ Exactly what Big-O notation captures.
 ### 2.1 Linear Search
 
 The **linear search** checks each element in a list one by one until the target is found or the end
-Of the list is reached.
+of the list is reached.
 
 **Pseudocode:**
 
@@ -212,13 +212,13 @@ print(f"Found at index: {result}")
 - Binary search worst case: $\log_2(1048576) = 20$ comparisons
 
 Binary search is over 50,000 times faster in the worst case for this input size. This gap widens
-Even further as $n$ grows.
+even further as $n$ grows.
 
 ### 2.4 Why Must Binary Search Data Be Sorted?
 
 Binary search relies on the **monotonic ordering** of the array to eliminate half of the remaining
 Search space at each step. When you compare `array[mid]` with the target, you can only conclude that
-The target must be in the left half or the right half because the array is sorted. If the array were
+the target must be in the left half or the right half because the array is sorted. If the array were
 Unsorted, a value greater than `array[mid]` could appear anywhere, and you would have no basis for
 Discarding either half.
 
@@ -227,7 +227,7 @@ $t$ exists at index $k$. At each step, the algorithm maintains the invariant tha
 $a_{\mathrm{low} \le t \le a_{\mathrm{high}$. If $a_{\mathrm{mid} \lt t$ Then by monotonicity every
 Element at index $\le \mathrm{mid$ is also $\lt t$ So $k \gt \mathrm{mid$ and we safely set
 $\mathrm{low = \mathrm{mid - 1$. The argument is symmetric for the other case. The loop terminates
-When $\mathrm{low \gt
+when $\mathrm{low \gt
 \mathrm{high$, meaning the search space is empty and $T$ does not exist in the
 Array.
 
@@ -236,7 +236,7 @@ Array.
 ### 3.1 Bubble Sort
 
 The **bubble sort** repeatedly steps through the list, compares adjacent elements, and swaps them if
-They are in the wrong order.
+they are in the wrong order.
 
 **Pseudocode:**
 

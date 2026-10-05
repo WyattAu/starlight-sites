@@ -160,7 +160,7 @@ returns a `Stream&lt;String&gt;`.
 
 Try-with-resources (JDK 7) is the correct way to manage I/O resources. Every stream, reader, writer,
 Channel, and `Scanner` implements `AutoCloseable`. Resources are closed in reverse declaration order
-Even if an exception is thrown.
+even if an exception is thrown.
 
 ```java
 // Reading a text file line by line (the most common pattern)
@@ -205,7 +205,7 @@ Finalization is unreliable for cleanup.
 ### Serialization and Externalizable
 
 Java serialization (`java.io.Serializable`) converts an object graph into a byte stream and back. It
-Is deceptively easy to use and deceptively hard to use correctly.
+is deceptively easy to use and deceptively hard to use correctly.
 
 ```java
 public class User implements Serializable {
@@ -220,7 +220,7 @@ public class User implements Serializable {
 ```
 
 Serialization serializes the entire reachable object graph. Serializing a `HashMap` also serializes
-Every key and value object.
+every key and value object.
 
 **Common Pitfalls with Serialization:**
 
@@ -309,7 +309,7 @@ NIO.2, introduced in JDK 7 (JSR 203), is a modern file API that addresses the de
 
 `Path` is immutable and separates locating a file (`Path`) from accessing it (`Files`).
 `java.io.File` conflates both: its methods like `exists()` and `isDirectory()` query the filesystem
-But do not declare `SecurityException`.
+but do not declare `SecurityException`.
 
 ```java
 // Old way (java.io.File)
@@ -423,8 +423,8 @@ Safe file replacement (write to temp file, then atomic move).
 
 **Common Pitfall:** `Files.delete()` throws `NoSuchFileException` if the file does not exist, and
 `DirectoryNotEmptyException` if the directory is not empty. Use `Files.deleteIfExists()` if you want
-To ignore a missing file, and use `Files.walkFileTree()` with `DELETE_ON_CLOSE` or manual recursion
-To delete a non-empty directory.
+to ignore a missing file, and use `Files.walkFileTree()` with `DELETE_ON_CLOSE` or manual recursion
+to delete a non-empty directory.
 
 ```java
 // Delete a non-empty directory

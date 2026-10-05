@@ -37,13 +37,13 @@ A class follows the RAII pattern when:
    held; destruction always releases it.
 
 This binding of resource lifetime to object lifetime is the single most important idiom in C++. It
-Is not a language feature, it is a convention that the language"s destructor semantics make natural
-And safe [N4950 §11.4.7].
+is not a language feature, it is a convention that the language"s destructor semantics make natural
+and safe [N4950 §11.4.7].
 
 ## 1.2 Stack Unwinding Guarantee
 
 The critical property that makes RAII work is **stack unwinding**. When an exception propagates out
-Of a scope, the C++ runtime calls the destructors of all automatic-storage-duration objects in that
+of a scope, the C++ runtime calls the destructors of all automatic-storage-duration objects in that
 Scope before transferring control to the handler [N4950 §8.4.4].
 
 ```cpp
@@ -268,7 +268,7 @@ private:
 
 :::note
 The moved-from `Socket` has `fd_ == -1`So its destructor is a no-op. This is the standard pattern
-For move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
+for move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
 :::
 
 ## 1.6 Database Connection Wrapper
@@ -427,11 +427,11 @@ RAII and garbage collection (GC) solve related but different problems:
 
 RAII is strictly more general than GC. GC only manages memory; RAII manages **any** resource with
 Deterministic cleanup. A GC language like Java still needs `try`-with-resources or `using` blocks
-For non-memory resources (files, sockets, locks). In C++, RAII handles all of these uniformly.
+for non-memory resources (files, sockets, locks). In C++, RAII handles all of these uniformly.
 
 :::note
 Duration are destroyed in reverse order of construction when the scope exits, whether by normal flow
-Of control or by exception propagation [N4950 §6.7.2]. This is a language guarantee, not a
+of control or by exception propagation [N4950 §6.7.2]. This is a language guarantee, not a
 Convention.
 :::
 
@@ -470,8 +470,8 @@ RAII is the idea that resource lifetime should be tied to object lifetime, like 
 
 **Forgetting to delete copy constructor and assignment operator.** RAII types that own a resource
 Must be non-copyable (or implement deep copy). If you allow copying, two objects will try to release
-The same resource, double-free or double-close. Always `= delete` the copy operations unless you
-Have a deliberate deep-copy strategy:
+the same resource, double-free or double-close. Always `= delete` the copy operations unless you
+have a deliberate deep-copy strategy:
 
 ```cpp
 class BadRAII {

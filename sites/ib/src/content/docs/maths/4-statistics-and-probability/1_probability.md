@@ -168,7 +168,7 @@ Tree diagrams are useful for multi-stage experiments. Multiply along branches, a
 
 :::note[Example]
 A box contains 4 defective and 6 non-defective items. Two items are drawn without replacement. Find
-The probability that exactly one is defective.
+the probability that exactly one is defective.
 
 Paths giving exactly one defective:
 
@@ -215,7 +215,7 @@ Probability**.
 :::note[Example]
 A factory has three machines producing items. Machine `A` produces 50% of items with 2% defect rate.
 Machine `B` produces 30% with 3% defect rate. Machine `C` produces 20% with 1% defect rate. An item
-Is found to be defective. What is the probability it came from machine `B`?
+is found to be defective. What is the probability it came from machine `B`?
 
 $$
 P(\mathrm{defective}) = 0.5 \times 0.02 + 0.3 \times 0.03 + 0.2 \times 0.01 = 0.01 + 0.009 + 0.002 = 0.021
@@ -391,7 +391,7 @@ $$
 
 :::note[Example]
 A multiple-choice test has 20 questions, each with 5 options. A student guesses all answers. Find
-The probability of getting at least 10 correct.
+the probability of getting at least 10 correct.
 
 $X \sim B(20, 0.2)$.
 
@@ -507,7 +507,7 @@ $$
 
 :::note[Example]
 The weight of a parcel is $X \sim N(2, 0.04)$ kg. The packaging adds $Y \sim N(0.3, 0.01)$ kg. Find
-The probability that the total exceeds 2.5 kg.
+the probability that the total exceeds 2.5 kg.
 
 $$
 X + Y \sim N(2.3, 0.05)

@@ -72,7 +72,7 @@ AES is a substitution-permutation network (SPN). Each round applies:
 ### Modes of Operation
 
 A block cipher operating on 128-bit blocks needs a mode of operation to handle messages longer than
-One block. The mode determines how blocks are chained together and how ciphertext is produced.
+one block. The mode determines how blocks are chained together and how ciphertext is produced.
 
 #### Electronic Codebook (ECB)
 
@@ -134,7 +134,7 @@ Undetectable. Always combine with a MAC.
 #### Galois/Counter Mode (GCM)
 
 GCM combines CTR mode encryption with Galois field authentication, providing both confidentiality
-And integrity (AEAD, Authenticated Encryption with Associated Data).
+and integrity (AEAD, Authenticated Encryption with Associated Data).
 
 ```
 Plaintext → CTR Encryption → Ciphertext
@@ -195,7 +195,7 @@ Encryption at the cost of significantly slower performance.
 ### RSA
 
 RSA (Rivest-Shamir-Adleman, 1977) is based on the computational difficulty of factoring the product
-Of two large prime numbers.
+of two large prime numbers.
 
 | Parameter     | Recommended Value                           |
 | ------------- | ------------------------------------------- |
@@ -222,7 +222,7 @@ $q$).
 | 4096 bits    | 150 bits                      |
 
 RSA key generation is expensive ($O(k^3)$ for key size $k$) and RSA encryption/decryption is orders
-Of magnitude slower than AES. RSA is used to encrypt a symmetric key (key encapsulation), Not to
+of magnitude slower than AES. RSA is used to encrypt a symmetric key (key encapsulation), Not to
 encrypt bulk data directly.
 
 ### Elliptic Curve Cryptography (ECC)
@@ -582,7 +582,7 @@ An X.509 certificate contains:
 ### Certificate Chains
 
 Certificates form a chain from a leaf (end-entity) certificate to a root certificate through one or
-More intermediate certificates.
+more intermediate certificates.
 
 ```
 Root CA (self-signed, trusted)
@@ -759,7 +759,7 @@ Key Vault).
 ### Pitfall 3: Using SHA-256 for Password Hashing
 
 SHA-256 is designed to be fast. An attacker with a modern GPU can compute billions of SHA-256 hashes
-Per second. Use bcrypt (cost 12+), scrypt, or Argon2id for password storage.
+per second. Use bcrypt (cost 12+), scrypt, or Argon2id for password storage.
 
 ### Pitfall 4: Reusing Nonces/IVs
 
@@ -781,7 +781,7 @@ AES-256-GCM, ChaCha20-Poly1305, SHA-256/384, RSA-PSS, or Ed25519.
 
 Without forward secrecy (ephemeral Diffie-Hellman), compromise of the server's private key
 Compromises all past sessions. TLS 1.3 mandates forward secrecy, but TLS 1.2 with RSA key exchange
-Does not provide it. Ensure your cipher suites use ECDHE or DHE.
+does not provide it. Ensure your cipher suites use ECDHE or DHE.
 :::
 
 :::note

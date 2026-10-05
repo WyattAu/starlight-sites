@@ -48,15 +48,15 @@ Negating the performance benefit of modules. The BMI replaces the role that prec
 ### Formal Basis
 
 Per [N4950 S10.2], a module interface unit is a translation unit that contains a module-declaration
-And exports declarations. The compiler must make the exported interface available to importers. The
+and exports declarations. The compiler must make the exported interface available to importers. The
 BMI is the implementation-defined artifact that serves this purpose. The standard does not mandate
-The BMI format, only the semantic contract: an importer must see the same interface as if it had
+the BMI format, only the semantic contract: an importer must see the same interface as if it had
 Textually included the module's declarations [N4950 S15.5].
 
 ### Compiler-Specific Formats
 
 The BMI format is **not standard**. It is an implementation detail of the compiler, highly sensitive
-To version and configuration.
+to version and configuration.
 
 | Compiler  | Extension | Format                                 | Flag                            |
 | :-------- | :-------- | :------------------------------------- | :------------------------------ |
@@ -161,7 +161,7 @@ void internal_render_detail() \{ /* ... */ \}
 ### Proof: Modules Enforce the One Definition Rule
 
 The ODR [N4950 S6.3] requires that every program shall contain exactly one definition of every
-Non-inline function or variable. In the header model, the ODR is enforced only informally: if two
+non-inline function or variable. In the header model, the ODR is enforced only informally: if two
 TUs include headers that define the same entity differently, the linker _may_ detect this via
 Duplicate symbols, but often the violation is silent.
 
@@ -177,7 +177,7 @@ Modules enforce the ODR structurally:
    name lookup is module-scoped.
 
 This structural enforcement is a fundamental advantage of modules over headers. The ODR violation
-That silently corrupts binaries in header-based code becomes impossible in module-based code.
+that silently corrupts binaries in header-based code becomes impossible in module-based code.
 
 ### Module Implementation Units
 
@@ -195,7 +195,7 @@ int factorial_impl(int n) \{
 
 Implementation units do **not** produce BMIs. They are compiled directly to object files. They can
 Access all declarations from the module interface (both exported and non-exported) but consumers of
-The module cannot see any entity defined only in the implementation unit.
+the module cannot see any entity defined only in the implementation unit.
 
 This is the module analog of putting function definitions in a `.cpp` file: the implementation is
 Hidden, and changes to it do not trigger recompilation of importers (because no BMI changes).
@@ -220,12 +220,12 @@ double circle_circumference(double radius);  // module-linkage only
 
 A TU that writes `import Geometry;` can call `circle_area` but not `circle_circumference`. The
 Latter is available only within other TUs that are part of the `Geometry` module (the interface unit
-And any implementation units).
+and any implementation units).
 
 ### Module Linkage
 
 Entities defined in a module have **module linkage** [N4950 S10.2.3], a new linkage form introduced
-By modules:
+by modules:
 
 - An entity with module linkage is unique within the module but not externally visible.
 - Two different modules can each define an entity with the same name at module linkage without
@@ -270,7 +270,7 @@ Build systems cache BMIs to avoid redundant recompilation. The cache key include
 
 If any of these inputs change, the BMI is invalidated and all downstream importers must be
 Recompiled. This is analogous to how a change in a header file triggers recompilation of all TUs
-That include it, but with the critical difference that the BMI is a single artifact rather than a
+that include it, but with the critical difference that the BMI is a single artifact rather than a
 Textual inclusion processed independently by each TU.
 
 **Ninja** stores BMI paths in `dyndep` files and tracks them as build edges. If a BMI is newer than
@@ -287,7 +287,7 @@ Require acyclic imports, but the compilation model implicitly requires it:
 
 If Module A imports Module B and Module B imports Module A (a cycle), then A requires B's BMI to
 Compile, and B requires A's BMI to compile. Neither can be compiled first. The dependency graph is
-Not a DAG, and compilation is impossible.
+not a DAG, and compilation is impossible.
 
 Build system scanners detect this condition and report it as an error before any compilation begins.
 This is a significant improvement over the header model, where circular includes can cause infinite
@@ -310,7 +310,7 @@ Recursion in the preprocessor (caught only by include guards) or subtle ODR viol
 ## 2. The Dependency Scanning Problem
 
 In legacy C++, the build system (Make/Ninja) knows the dependency graph _a priori_ or discovers it
-Via post-compilation header scanning (`gcc -M`).
+via post-compilation header scanning (`gcc -M`).
 
 In C++20, dependencies are dynamic.
 
@@ -405,9 +405,9 @@ Generation is outweighed by the reduction in redundant parsing that headers woul
 ### Incremental Builds
 
 Incremental builds are significantly **faster**. Changing an implementation detail in `A.cpp` does
-Not touch `A`'s BMI. Therefore, B and C do not need to be recompiled. In the header model, a change
-To any header included by B and C triggers their recompilation, even if the change is in a section
-They do not use.
+not touch `A`'s BMI. Therefore, B and C do not need to be recompiled. In the header model, a change
+to any header included by B and C triggers their recompilation, even if the change is in a section
+they do not use.
 
 ### Throughput (Machine Load)
 
@@ -540,7 +540,7 @@ build CMakeFiles/App.dir/main.cpp.o: dyndep | CMakeFiles/Engine.dir/engine.pcm
 ## 8. BMI File Size and Build Disk Pressure
 
 BMI files are significantly larger than the source files they represent. A 500-line module interface
-Might produce a 2-5 MB `.pcm` file because the BMI contains the serialized AST, template
+might produce a 2-5 MB `.pcm` file because the BMI contains the serialized AST, template
 Instantiation information, name lookup tables, and debug metadata.
 
 In a project with 100 modules, this can mean 200-500 MB of BMI artifacts in the build directory.
@@ -598,7 +598,7 @@ Files it consumed. If any of those BMIs are newer than the TU's object file, the
 ## 11. Debugging BMI-Related Build Failures
 
 BMI-related errors are among the most difficult to diagnose in C++ module builds. Common symptoms
-And their causes:
+and their causes:
 
 | Symptom                  | Likely Cause                                          |
 | :----------------------- | :---------------------------------------------------- |

@@ -21,7 +21,7 @@ Brain imaging techniques allow researchers to observe the structure and function
 Brain without surgery. These techniques have revolutionised our understanding of brain-behaviour
 Relationships and are essential tools in biological psychology, cognitive neuroscience, and clinical
 Practice. Each technique has distinct strengths and limitations, and the choice of technique depends
-On the research question being addressed.
+on the research question being addressed.
 
 ## Structural Imaging Techniques
 
@@ -76,10 +76,10 @@ MRI for soft tissue.
 
 FMRI measures brain activity by detecting changes in blood oxygenation and blood flow (the
 Blood-oxygen-level-dependent, or BOLD, signal). When a brain region becomes more active, it consumes
-More oxygen, leading to an increase in local blood flow (a phenomenon known as the haemodynamic
+more oxygen, leading to an increase in local blood flow (a phenomenon known as the haemodynamic
 Response). Because the increase in blood flow exceeds the increase in oxygen consumption, the
 Concentration of oxygenated haemoglobin increases relative to deoxygenated haemoglobin. FMRI detects
-This difference, as oxygenated and deoxygenated haemoglobin have different magnetic properties.
+this difference, as oxygenated and deoxygenated haemoglobin have different magnetic properties.
 
 **What it measures:** Changes in neural activity (indirectly, through the BOLD signal).
 
@@ -141,7 +141,7 @@ PET involves injecting a radioactive tracer (a positron-emitting isotope attache
 Active molecule, most commonly fluorodeoxyglucose, or FDG) into the bloodstream. The tracer
 Accumulates in active brain regions (because active neurons consume more glucose). As the
 Radioactive tracer decays, it emits positrons, which collide with electrons, producing gamma rays
-That are detected by the PET scanner. A computer reconstructs a three-dimensional image of brain
+that are detected by the PET scanner. A computer reconstructs a three-dimensional image of brain
 Activity from the gamma ray data.
 
 **What it measures:** Metabolic activity (glucose consumption), blood flow, or neurotransmitter
@@ -235,7 +235,7 @@ Placed over the scalp, and brief magnetic pulses are delivered.
 **What it measures:** Not primarily a measurement technique; rather, TMS is a method for causally
 Manipulating brain activity. By temporarily disrupting activity in a specific brain region and
 Observing the behavioural consequences, researchers can determine whether that region is necessary
-For a particular cognitive function.
+for a particular cognitive function.
 
 **Strengths:**
 
@@ -261,7 +261,7 @@ Researchers can infer the functions of those regions.
 
 **Logic:** If damage to brain region X impairs function Y, then region X is necessary for function
 Y. This is the method of "necessity" (as opposed to fMRI, which identifies regions that are active
-During a task but does not demonstrate that they are necessary).
+during a task but does not demonstrate that they are necessary).
 
 **Strengths:**
 

@@ -105,7 +105,7 @@ $\blacksquare$
 ### 2.5 Direct derivation of $E(X) = np$ from the PMF
 
 The proofs in Sections 2.2 and 2.3 use indicator variables. Here we derive the same results directly
-From the probability mass function using algebraic identities.
+from the probability mass function using algebraic identities.
 
 **Proof.** Starting from the definition of expectation applied to the binomial PMF:
 
@@ -170,7 +170,7 @@ Identically distributed random variables is approximately normally distributed, 
 Original distribution.
 
 This is why the normal distribution appears so widely in nature: any quantity that is the sum of
-Many small independent effects (height, measurement error, etc.) will be approximately normal.
+many small independent effects (height, measurement error, etc.) will be approximately normal.
 
 ### 3.2 Definition
 
@@ -297,7 +297,7 @@ The Poisson distribution is appropriate when all of the following hold:
   **negligible**.
 
 These are sometimes called the **Poisson postulates**. When they are satisfied, the number of events
-In any interval of length $t$ follows $\mathrm{Po}(\lambda t)$.
+in any interval of length $t$ follows $\mathrm{Po}(\lambda t)$.
 
 Typical applications include: calls arriving at a call centre per hour, typing errors per page,
 Radioactive decays per second, and cars passing a checkpoint per minute.

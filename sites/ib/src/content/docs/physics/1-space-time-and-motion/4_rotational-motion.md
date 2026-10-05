@@ -74,7 +74,7 @@ $$
 ## Centripetal Acceleration
 
 An object in uniform circular motion has a constantly changing velocity (direction changes), so it
-Is always accelerating toward the centre of the circle.
+is always accelerating toward the centre of the circle.
 
 ### Magnitude
 
@@ -159,7 +159,7 @@ Where $T$ is the tension in the string (horizontal).
 ### Conical Pendulum
 
 A mass $m$ on a string of length $L$ traces a horizontal circle of radius $r$ at angle $\theta$ to
-The vertical.
+the vertical.
 
 **Vertical**: $T\cos\theta = mg$
 
@@ -224,7 +224,7 @@ $$
 ## Vertical Circular Motion
 
 For an object moving in a vertical circle, the speed varies (it is fastest at the bottom, slowest at
-The top) because gravity does work.
+the top) because gravity does work.
 
 ### At the Bottom of the Circle
 
@@ -265,7 +265,7 @@ $$
 
 :::note[Example]
 A $0.3\mathrm{ kg}$ ball on a string of length $0.8\mathrm{ m}$ is swung in a vertical circle. Find
-The minimum speed at the bottom for the ball to complete the circle.
+the minimum speed at the bottom for the ball to complete the circle.
 
 $$
 V_{\mathrm{bottom}} = \sqrt{5gr} = \sqrt{5(9.81)(0.8)} = \sqrt{39.24} = 6.26\mathrm{ m/s}
@@ -303,7 +303,7 @@ $$
 ### With Friction
 
 When friction is present, the car can travel at speeds above or below the ideal speed. Friction acts
-Up the slope (to prevent sliding down) or down the slope (to prevent sliding up).
+up the slope (to prevent sliding down) or down the slope (to prevent sliding up).
 
 ---
 
@@ -559,7 +559,7 @@ Incline from the same height.
 - Solid cylinder: $I = \dfrac{1}{2}Mr^2 \implies v = \sqrt{\dfrac{4gh}{3}}$
 
 The solid sphere is fastest, followed by the solid cylinder, then the hollow sphere. Objects with
-More mass concentrated near the centre (smaller $I$) roll faster.
+more mass concentrated near the centre (smaller $I$) roll faster.
 
 ---
 
@@ -756,7 +756,7 @@ flowchart TD
 
 :::tip[Exam Strategy]
 For circular motion problems, always draw a free-body diagram and identify which force(s) provide
-The centripetal force. For vertical circle problems, use energy conservation to relate speeds at
+the centripetal force. For vertical circle problems, use energy conservation to relate speeds at
 Different points. For torque problems, identify the pivot and calculate the moment arm.
 
 ---
@@ -988,8 +988,8 @@ $$
 ### Question 8 (Paper 1 style)
 
 A horizontal turntable of radius $0.5\mathrm{ m}$ rotates at $3\mathrm{ rad/s}$. A coin is placed on
-The turntable at a distance $0.3\mathrm{ m}$ from the centre. If the coefficient of static friction
-Is $0.4$ Does the coin slip?
+the turntable at a distance $0.3\mathrm{ m}$ from the centre. If the coefficient of static friction
+is $0.4$ Does the coin slip?
 
 $$
 A_c = \omega^2 r = 9 \times 0.3 = 2.7\mathrm{ m/s}^2

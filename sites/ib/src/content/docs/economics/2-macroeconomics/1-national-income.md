@@ -189,7 +189,7 @@ Raise of `USD 2,000`Purchasing power decreased because the raise ($4\%$) was les
 <summary>Problem 3: Fiscal Multiplier with Taxes and Imports</summary>
 
 The government increases spending by `USD 50` billion. The marginal propensity to consume is $0.75$
-The marginal tax rate is $0.2$ And the marginal propensity to import is $0.15$.
+the marginal tax rate is $0.2$ And the marginal propensity to import is $0.15$.
 
 (a) Calculate the multiplier.
 
@@ -276,11 +276,11 @@ Higher. This process continues -- inflation accelerates.
 
 (b) To maintain unemployment at $3\%$ permanently, the central bank would need to accept
 Ever-accelerating inflation, as each period of over-stimulation raises expected inflation and shifts
-The SRPC upward. This is unsustainable. In the long run, the economy returns to $u_n = 5\%$ with
+the SRPC upward. This is unsustainable. In the long run, the economy returns to $u_n = 5\%$ with
 Higher inflation.
 
 (c) A negative supply shock (rising oil prices) shifts the SRPC upward and to the right. At any
-Given unemployment rate, inflation is higher because of the cost-push effect. This creates a
+given unemployment rate, inflation is higher because of the cost-push effect. This creates a
 Dilemma: the central bank must choose between accepting higher inflation (accommodating the shock)
 Or accepting higher unemployment (tightening policy to prevent inflation from rising).
 
@@ -344,7 +344,7 @@ Evaluate both policies using economic theory.
 
 Both policies shift LRAS rightward but through different channels (capital vs. Labour). The optimal
 Mix depends on the economy's specific constraints (e.g., a capital-scarce economy may benefit more
-From tax cuts; an economy with skill mismatches may benefit more from training).
+from tax cuts; an economy with skill mismatches may benefit more from training).
 
 </details>
 

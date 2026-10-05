@@ -182,7 +182,7 @@ $$
 
 **Proof.** The radius to $(x_1, y_1)$ has slope $y_1/x_1$. The tangent is perpendicular, so its
 Slope is $-x_1/y_1$. Using point-slope form: $y - y_1 = -\frac{x_1}{y_1}(x - x_1)$ Which simplifies
-To $x_1 x + y_1 y = x_1^2 + y_1^2 = r^2$.
+to $x_1 x + y_1 y = x_1^2 + y_1^2 = r^2$.
 
 **Example (HL):** Find the equation of the tangent to $x^2 + y^2 = 25$ at the point $(3, 4)$.
 
@@ -520,7 +520,7 @@ $$
 ### R-Addition Formula (HL)
 
 An expression of the form $a\sin\theta + b\cos\theta$ can be written as $R\sin(\theta + \alpha)$
-Where $R = \sqrt{a^2 + b^2}$ and $\alpha = \arctan\frac{b}{a}$.
+where $R = \sqrt{a^2 + b^2}$ and $\alpha = \arctan\frac{b}{a}$.
 
 **Example (HL):** Express $3\sin\theta - 4\cos\theta$ in the form $R\sin(\theta + \alpha)$.
 
@@ -688,8 +688,8 @@ The tangent to a circle at a point is perpendicular to the radius at that point.
 Then the perpendicular from $O$ to the tangent meets it at some point $Q \neq P$. Since $OQ \lt OP$
 (by the shortest distance property), $Q$ is closer to $O$ than $P$. But $P$ lies on the circle and
 $Q$ is outside the perpendicular from the centre, so $Q$ must be outside the circle. If $Q$ is
-Outside the circle, the line through $P$ and $Q$ (the tangent) must cross the circle at $P$ and some
-Other point, contradicting that it is a tangent. Hence the tangent is perpendicular to the radius.
+outside the circle, the line through $P$ and $Q$ (the tangent) must cross the circle at $P$ and some
+other point, contradicting that it is a tangent. Hence the tangent is perpendicular to the radius.
 
 ## Intuition
 

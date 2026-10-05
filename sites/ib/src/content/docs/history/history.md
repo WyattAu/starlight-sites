@@ -149,7 +149,7 @@ Historical events rarely have a single cause. IB History requires students to di
   interact).
 
 A strong historical argument will weigh the relative significance of multiple causes and explain how
-They interacted to produce a particular outcome.
+they interacted to produce a particular outcome.
 
 ### Significance
 
@@ -190,7 +190,7 @@ The following skills are assessed across all components of the IB History course
 
 These skills are interdependent. Effective source evaluation requires contextualisation; meaningful
 Corroboration requires each source to be individually evaluated; and all three skills contribute to
-The construction of a well-supported historical argument.
+the construction of a well-supported historical argument.
 
 ---
 
@@ -229,7 +229,7 @@ When engaging with historiography, consider the following:
 
 In essays, referencing specific historians and their interpretations demonstrates a sophisticated
 Understanding of the topic. It is not sufficient merely to describe what happened; a strong response
-Will engage with the question of how and why historians disagree about what happened.
+will engage with the question of how and why historians disagree about what happened.
 
 ---
 
@@ -326,7 +326,7 @@ Essays. The following principles apply across Papers 2 and 3:
 ## Paper 1: Source-Based Analysis
 
 Paper 1 tests your ability to analyse, evaluate, and synthesise historical sources. It is worth 20%
-At both SL and HL.
+at both SL and HL.
 
 ### Structure
 

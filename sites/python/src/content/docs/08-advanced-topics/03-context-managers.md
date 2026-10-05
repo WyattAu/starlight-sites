@@ -19,7 +19,7 @@ import Citations from '@components/Citations.astro'
 ## The with Statement
 
 The `with` statement guarantees that setup and teardown code runs, even if an exception occurs in
-The block body. It is the primary mechanism for resource management in Python.
+the block body. It is the primary mechanism for resource management in Python.
 
 ```python
 ## Basic form

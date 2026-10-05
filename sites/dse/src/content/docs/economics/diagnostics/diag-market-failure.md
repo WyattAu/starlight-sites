@@ -24,7 +24,7 @@ tableOfContents: false
 Marginal cost: $MPC = 20 + 0.5Q$. Marginal external cost: $MEC = 0.3Q$. Demand (marginal private
 Benefit): $P = 100 - 0.8Q$. (a) Calculate the free market equilibrium quantity and price. (b)
 Calculate the socially optimal quantity and price. (c) Calculate the Pigouvian tax needed to achieve
-The social optimum. (d) Calculate the deadweight loss of the free market outcome.
+the social optimum. (d) Calculate the deadweight loss of the free market outcome.
 
 **Solution:**
 
@@ -37,7 +37,7 @@ $MSB = MPB = 100 - 0.8Q$ (assuming no external benefit).
 $20 + 0.8Q = 100 - 0.8Q$$1.6Q = 80$$Q^* = 50$. $P^* = 100 - 0.8(50) = \$60$.
 
 (c) Pigouvian tax $= MEC$ at $Q^* = 50$: $t = 0.3(50) = \$15$. The tax shifts the private supply up
-By $\$15$, so $MPC + t = 20 + 0.5Q + 15 = 35 + 0.5Q$. At $Q = 50$: $35 + 0.5(50) = 60 = P^*$.
+by $\$15$, so $MPC + t = 20 + 0.5Q + 15 = 35 + 0.5Q$. At $Q = 50$: $35 + 0.5(50) = 60 = P^*$.
 
 (d) DWL
 $= \frac{1}{2} \times MEC_{at  Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(61.54) \times (61.54 - 50) = \frac{1}{2} \times 18.46 \times 11.54 = \$106.5$.
@@ -77,7 +77,7 @@ The socially optimal quality level is approximately 99.5 (essentially maximum qu
 (d) In the private market, each resident decides whether to contribute based on their **private
 Marginal benefit** (PMB $= 10 - 0.1Q$), not the social marginal benefit. At any quality level, PMB
 $\lt$ MSB, so each resident undervalues the lighthouse. The private market equilibrium would occur
-Where the individual demand equals the average cost share: $10 - 0.1Q = 5Q/100 + 2 = 0.05Q + 2$.
+where the individual demand equals the average cost share: $10 - 0.1Q = 5Q/100 + 2 = 0.05Q + 2$.
 This gives $8 = 0.15Q$$Q = 53.3$ -- far below the social optimum of 99.5. The free rider problem
 Means many residents would not contribute at all, expecting others to pay.
 
@@ -98,7 +98,7 @@ A risk-neutral buyer would pay up to $\$75,000$.
 
 (b) At a price of $\$75,000$: Sellers of good cars (value $\$80,000$) would not sell because the
 Price is below their valuation. Only sellers of bad cars (value $\$40,000$) would sell. This means
-Only lemons remain in the market.
+only lemons remain in the market.
 
 (c) **Adverse selection** occurs when asymmetric information leads to the withdrawal of high-quality
 Products from the market. Since buyers cannot distinguish good from bad cars, they offer a price
@@ -128,7 +128,7 @@ Per kWh). Electricity generation produces pollution with marginal external cost 
 Calculate the free market equilibrium. (b) Calculate the socially optimal quantity. (c) If the
 Government imposes a Pigouvian tax, calculate: the tax per unit, the new equilibrium, tax revenue,
 Deadweight loss reduction, and the tax incidence on consumers vs producers. (d) If demand becomes
-More inelastic (shifts to $P = 200 - 0.5Q$), how does this change the tax incidence?
+more inelastic (shifts to $P = 200 - 0.5Q$), how does this change the tax incidence?
 
 **Solution:**
 
@@ -190,7 +190,7 @@ Depending on the cap level.
 (d) With marginal cost pricing, the firm makes a loss equal to its fixed costs (\$200). In the long
 Run, the firm would exit the market unless subsidised. This creates a dependency on government
 Subsidy, which may be politically costly. This is the "natural monopoly dilemma" -- the technology
-That creates natural monopoly (high fixed costs, low marginal costs) also makes marginal cost
+that creates natural monopoly (high fixed costs, low marginal costs) also makes marginal cost
 Pricing unsustainable without subsidy.
 
 ### IT-3: Multiple Externalities and Policy Design (with Government Policy)
@@ -200,7 +200,7 @@ Driving (negative consumption externality). Factory output $Q_f$: MPC $= 30 + Q_
 Demand $P_f = 100 - Q_f$. Driving $Q_d$: MPB $= 60 - 0.5Q_d$ MEC $= 0.3Q_d$ Private MC of driving
 $= 10$. (a) Calculate the free market equilibrium for each activity. (b) Calculate the socially
 Optimal levels. (c) If the government has a budget constraint and can only tax one activity, which
-Should it tax first? Justify using DWL calculations.
+should it tax first? Justify using DWL calculations.
 
 **Solution:**
 
@@ -218,7 +218,7 @@ $\frac{1}{2} \times 0.3(100) \times (100 - 62.5) = \frac{1}{2} \times 30 \times 
 
 The government should tax driving first because the DWL from overconsumption of driving (\$562.50)
 Is far larger than from factory overproduction (\$61.25). This demonstrates that the government
-Should prioritise correcting the largest market failures first when resources are limited.
+should prioritise correcting the largest market failures first when resources are limited.
 
 
 ```mermaid

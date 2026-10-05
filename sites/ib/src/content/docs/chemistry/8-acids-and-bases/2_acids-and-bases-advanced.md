@@ -205,7 +205,7 @@ $$
 $$
 
 The $\mathrm{pH}$ changed by only $0.09$ units. Without the buffer, $0.01\mathrm{ M}$ $\mathrm{HCl}$
-Would give $\mathrm{pH} = 2.00$.
+would give $\mathrm{pH} = 2.00$.
 
 ### Common Pitfalls
 
@@ -411,7 +411,7 @@ S = \frac{1.8 \times 10^{-10}}{0.10} = 1.8 \times 10^{-9}\mathrm{ mol/L}
 $$
 
 Compared to pure water ($1.3 \times 10^{-5}\mathrm{ mol/L}$), the solubility decreased by a factor
-Of about $7000$.
+of about $7000$.
 
 ### Precipitation
 
@@ -489,7 +489,7 @@ $$
 <summary>Problem 2</summary>
 
 Will a precipitate form when $50.0\mathrm{ mL}$ of $1.0 \times 10^{-4}\mathrm{ M}$ $\mathrm{AgNO}_3$
-Is mixed with $50.0\mathrm{ mL}$ of $1.0 \times 10^{-4}\mathrm{ M}$ $\mathrm{NaCl}$?
+is mixed with $50.0\mathrm{ mL}$ of $1.0 \times 10^{-4}\mathrm{ M}$ $\mathrm{NaCl}$?
 ($K_{sp}(\mathrm{AgCl}) = 1.8 \times 10^{-10}$)
 
 **Solution:**

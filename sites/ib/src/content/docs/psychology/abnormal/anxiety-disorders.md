@@ -19,14 +19,14 @@ description: "Anxiety disorders are characterised by excessive, persistent fear 
 
 Anxiety disorders are characterised by excessive, persistent fear and anxiety that are
 Disproportionate to the actual threat and that significantly impair daily functioning. They are
-Among the most common mental disorders, affecting approximately 15--20% of the population at some
+among the most common mental disorders, affecting approximately 15--20% of the population at some
 Point in their lives. This section focuses on two specific anxiety disorders: phobias and
 Obsessive-compulsive disorder (OCD).
 
 ## Phobias
 
 A phobia is an irrational, persistent fear of a specific object, situation, or activity that leads
-To avoidance behaviour and significant distress or impairment. Phobias are classified into three
+to avoidance behaviour and significant distress or impairment. Phobias are classified into three
 Types:
 
 - **Specific phobias:** Fear of specific objects or situations (e.g., arachnophobia -- fear of
@@ -52,7 +52,7 @@ distributed but cluster around a limited set of stimuli.
 
 **Evidence:** Ohman and Mineka (2001) demonstrated that laboratory-reared monkeys acquired a fear of
 Snakes through observational learning (watching a model monkey react fearfully to a snake) but did
-Not acquire a fear of flowers using the same procedure. This demonstrates a biological
+not acquire a fear of flowers using the same procedure. This demonstrates a biological
 Predisposition to learn certain fears more readily than others.
 
 ### Behavioural Explanations of Phobias
@@ -68,7 +68,7 @@ Or even to all furry animals.
 **Operant conditioning (negative reinforcement):** Phobias are maintained through negative
 Reinforcement. Avoiding the feared stimulus reduces anxiety, which reinforces the avoidance
 Behaviour. Each time the individual avoids the feared stimulus, the avoidance is reinforced, making
-It harder to overcome the phobia.
+it harder to overcome the phobia.
 
 **Evaluation of behavioural explanations:**
 
@@ -92,7 +92,7 @@ Quickly than non-phobic individuals (Ohman et al., 2001).
 
 **Cognitive biases:** Phobic individuals interpret ambiguous stimuli as threatening (e.g.,
 Interpreting a rustling sound as a snake), overestimate the probability of harm, and catastrophise
-The consequences of encountering the feared stimulus.
+the consequences of encountering the feared stimulus.
 
 **Evaluation:** Cognitive biases may be a consequence rather than a cause of phobias. It is possible
 That the fear response creates the cognitive bias, rather than the cognitive bias causing the fear
@@ -233,7 +233,7 @@ Prevention (ERP), a specific form of CBT. ERP involves:
 2. **Response prevention:** The client is prevented from performing the compulsive behaviour.
 
 Through repeated exposure without compulsive response, the client learns that the feared consequence
-Does not occur (habituation), and the association between the obsession and anxiety weakens
+does not occur (habituation), and the association between the obsession and anxiety weakens
 (extinction).
 
 **Marks (1981):** Conducted a meta-analysis comparing exposure therapy, antidepressant medication,

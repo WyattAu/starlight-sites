@@ -429,7 +429,7 @@ $x \geq 1/2$: $x \geq 3$.
 
 Case 2: $2x - 1 < 0$ (i.e., $x < 1/2$):
 $-(2x-1) \geq x + 2 \implies -2x + 1 \geq x + 2 \implies -1 \geq 3x \implies x \leq -1/3$. Combined
-With $x < 1/2$: $x \leq -1/3$.
+with $x < 1/2$: $x \leq -1/3$.
 
 Solution: $x \leq -1/3$ or $x \geq 3$ I.e., $x \in (-\infty, -1/3] \cup [3, \infty)$.
 
@@ -583,7 +583,7 @@ On $\mathbb{R}$ And find the largest interval containing $x = 0$ on which $f$ is
 $f"(x) = 3x^2 - 3 = 3(x - 1)(x + 1)$.
 
 $f'(x) = 0$ at $x = \pm 1$. $f'(x) < 0$ for $-1 < x < 1$ (decreasing), and $f'(x) > 0$ for $x < -1$
-Or $x > 1$ (increasing).
+or $x > 1$ (increasing).
 
 Since $f$ is decreasing on $(-1, 1)$ and increasing on $(-\infty, -1)$ and $(1, \infty)$ It is not
 Injective on all of $\mathbb{R}$. For example, $f(-2) = -8 + 6 + 1 = -1$ and $f(0) = 1$ and

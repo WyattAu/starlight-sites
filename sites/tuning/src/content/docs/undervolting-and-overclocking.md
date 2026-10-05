@@ -77,7 +77,7 @@ Voltage supplied, and hence reducing cooling required.
 ## Voltage Basics
 
 Understanding voltage is foundational to all tuning. This section covers the key concepts that apply
-To both undervolting and overclocking.
+to both undervolting and overclocking.
 
 ### Vcore and VID
 
@@ -89,17 +89,17 @@ CPU requests from the Integrated Voltage Regulator (IVR). These two values are n
 - The delta between VID and Vcore is affected by LLC (Load-Line Calibration) settings.
 
 When you set a voltage offset of -75 mV, you are telling the VRM to deliver 75 mV less than the VID
-The CPU requests. The actual Vcore will be even lower due to Vdroop.
+the CPU requests. The actual Vcore will be even lower due to Vdroop.
 
 ### Vdroop
 
 Vdroop is an intentional design feature of CPU voltage regulators. When the CPU load suddenly drops
 (for example, a compute thread finishes), the inductance in the VRM circuit would cause the voltage
-To overshoot if there were no droop. This overshoot can damage silicon. Vdroop provides a margin so
-That the worst-case overshoot stays within safe limits.
+to overshoot if there were no droop. This overshoot can damage silicon. Vdroop provides a margin so
+that the worst-case overshoot stays within safe limits.
 
 The relationship is simple: higher load → more Vdroop → lower actual voltage. This is why your CPU
-May be stable at 1.25 V under light load but crash under heavy load even though the VID has not
+may be stable at 1.25 V under light load but crash under heavy load even though the VID has not
 Changed.
 
 ### Load-Line Calibration (LLC)
@@ -134,7 +134,7 @@ Exceeding these limits can cause electromigration and permanent silicon degradat
 
 These are conservative long-term limits. Short bursts above these values (transient spikes) are
 Normal and handled by the CPU's internal protections. The concern is sustained voltage at or above
-These thresholds under load.
+these thresholds under load.
 
 ---
 
@@ -191,7 +191,7 @@ Voltage domains. ThrottleStop allows you to set independent offsets for each:
 
 Intel XTU provides similar functionality with a more polished GUI but is less reliable on laptops.
 It is better suited for desktop platforms. The same offset approach applies: start at -50 mV, reduce
-In 10 mV steps, stress test after each change.
+in 10 mV steps, stress test after each change.
 
 ### Intel Undervolting Lock (12th Gen+)
 
@@ -296,7 +296,7 @@ The recommended approach is to undervolt first, then enable PBO.
 ## CPU Overclocking
 
 CPU overclocking increases the clock speed beyond the manufacturer's rated specifications. This can
-Be done by adjusting the base clock (BCLK), multiplier, or both.
+be done by adjusting the base clock (BCLK), multiplier, or both.
 
 ### Base Clock (BCLK) vs. Multiplier
 
@@ -411,7 +411,7 @@ BIOS applies the manufacturer's tested settings.
 
 **Important:** XMP/EXPO profiles are certified by the RAM manufacturer for use with a single module.
 Running two or four modules at XMP speeds is not guaranteed to be stable, as the memory controller
-Must work harder to drive multiple modules. If you experience instability with multiple modules,
+must work harder to drive multiple modules. If you experience instability with multiple modules,
 Try:
 
 - Reducing the frequency by one step (e.g., from 6000 MT/s to 5600 MT/s)
@@ -431,7 +431,7 @@ Measured in clock cycles:
 | tRAS     | Active to Precharge | Minimum time a row must remain active before precharging    |
 
 Lower numbers = better performance. Tightening timings is more difficult than increasing frequency
-But can yield similar or better performance gains in latency-sensitive workloads.
+but can yield similar or better performance gains in latency-sensitive workloads.
 
 ### Secondary and Tertiary Timings
 
@@ -610,7 +610,7 @@ Thoroughly with your own hardware.
 ### Chasing the Last Megahertz
 
 Diminishing returns are severe near the limit. Going from 5.0 GHz to 5.1 GHz might require 0.05 V
-More voltage and increase temperatures by 5 °C, for a 1–2% performance gain. Going from 4.8 GHz to
+more voltage and increase temperatures by 5 °C, for a 1–2% performance gain. Going from 4.8 GHz to
 5.0 GHz might cost 0.02 V and yield a 3–5% gain. Focus on the low-hanging fruit: undervolting for
 Sustained boost, enabling XMP/EXPO, and ensuring adequate cooling.
 
@@ -619,14 +619,14 @@ Sustained boost, enabling XMP/EXPO, and ensuring adequate cooling.
 WHEA errors are not harmless. They indicate that the CPU detected and corrected bit flips. While the
 CPU can correct single-bit errors, multi-bit errors cause uncorrectable machine check exceptions
 (UCMCE), which result in BSODs. More importantly, silent data corruption can occur before the error
-Is detected. If HWiNFO64 reports any WHEA errors during stress testing, your settings are not
+is detected. If HWiNFO64 reports any WHEA errors during stress testing, your settings are not
 Stable.
 
 ### Testing Only Under Load
 
 Some instability manifests only during load transitions (load → idle, idle → load). This is
 Particularly common with aggressive LLC settings and fixed voltage modes. Always test idle stability
-After confirming load stability.
+after confirming load stability.
 
 ### Not Saving BIOS Profiles
 
@@ -637,13 +637,13 @@ Restore to a known-good state without having to clear CMOS and reconfigure every
 
 Motherboard manufacturers frequently release BIOS updates that change power delivery behavior, add
 New tuning options, or fix stability issues. An overclock that was stable on BIOS version 1.20 may
-Be unstable on 1.30. After any BIOS update, re-test your tuning settings.
+be unstable on 1.30. After any BIOS update, re-test your tuning settings.
 
 ### Overlooking Power Supply Limits
 
 Your PSU must be able to deliver the power your components demand. An overclocked CPU and GPU can
 Draw significantly more power than stock. If your PSU is operating near its capacity, voltage ripple
-Can increase, which causes instability that is not related to your CPU or GPU settings.
+can increase, which causes instability that is not related to your CPU or GPU settings.
 
 ### Mixing RAM Kits
 

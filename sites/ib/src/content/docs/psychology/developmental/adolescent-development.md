@@ -186,10 +186,10 @@ Emotionally charged situations).
 ### Casey, Jones, and Somerville (2011): The Imbalance Model
 
 Casey and colleagues provided neuroimaging evidence for the imbalance model. Using fMRI, they found
-That adolescents showed heightened activation in the ventral striatum (a reward-sensitive region)
+that adolescents showed heightened activation in the ventral striatum (a reward-sensitive region)
 During risk-taking tasks, while adults showed greater activation in the prefrontal cortex (a
 Regulatory region). This pattern supports the dual-systems account: adolescents are more sensitive
-To rewards and less capable of regulating their responses.
+to rewards and less capable of regulating their responses.
 
 ### Peer Influence on Risk-Taking
 
@@ -218,7 +218,7 @@ Variation include:
 **1. The concept of adolescence itself:** In some cultures (particularly in Western, industrialised
 Societies), adolescence is recognised as a distinct developmental period characterised by prolonged
 Education, delayed entry into the workforce, and legal restrictions on adult responsibilities. In
-Other cultures, the transition from childhood to adulthood is more abrupt and occurs at a younger
+other cultures, the transition from childhood to adulthood is more abrupt and occurs at a younger
 Age (e.g., through initiation ceremonies, marriage, or entry into the workforce).
 
 **2. Autonomy and independence:** Western cultures emphasise individual autonomy and independence as
@@ -227,7 +227,7 @@ Their family. In collectivistic cultures, interdependence and family obligation 
 Developmental task is not to separate from the family but to find one's place within it.
 
 **3. Parent-adolescent conflict:** Research consistently shows that parent-adolescent conflict is
-More frequent and intense in Western cultures than in non-Western cultures. In collectivistic
+more frequent and intense in Western cultures than in non-Western cultures. In collectivistic
 Cultures, the expectation of family obligation and respect for authority reduces the likelihood of
 Open conflict.
 

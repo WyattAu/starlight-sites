@@ -213,7 +213,7 @@ $$
 ### 4.1 General equations
 
 Consider a mass $m$ on a string of length $r$ moving in a vertical circle. At angle $\theta$ from
-The downward vertical:
+the downward vertical:
 
 **Along the string (towards centre):** $T - mg\cos\theta = \dfrac{mv^2}{r}$
 
@@ -298,7 +298,7 @@ $$
 ### 4.5 Particle on the outside of a sphere
 
 A particle slides on the smooth outer surface of a sphere of radius $r$. It leaves the surface when
-The normal reaction $R = 0$.
+the normal reaction $R = 0$.
 
 At angle $\theta$ from the top: $R + mg\cos\theta = \dfrac{mv^2}{r}$.
 
@@ -561,10 +561,10 @@ Section 4.
 ### 6.1 Speed at any point on a vertical circle
 
 Consider a particle of mass $m$ on a string of length $r$ moving in a vertical circle. Let $v_0$ be
-The speed at the lowest point (the reference level for energy).
+the speed at the lowest point (the reference level for energy).
 
 At angle $\theta$ measured from the **upward vertical** (so the top is $\theta = 0$ and the bottom
-Is $\theta = \pi$), the height above the lowest point is:
+is $\theta = \pi$), the height above the lowest point is:
 
 $$
 h = r + r\cos\theta = r(1 + \cos\theta)
@@ -583,7 +583,7 @@ $$
 ### 6.2 Tension at any point
 
 At angle $\theta$ from the upward vertical, the radial direction (towards the centre) has component
-Of weight $mg\cos\theta$ pointing **towards** the centre:
+of weight $mg\cos\theta$ pointing **towards** the centre:
 
 $$
 T + mg\cos\theta = \frac{mv^2}{r}
@@ -617,7 +617,7 @@ $$
 $$
 
 At this speed, $T_{\mathrm{top}} = 0$ and the weight alone provides the centripetal acceleration at
-The top.
+the top.
 
 The speed at the top is: $v_{\mathrm{top}}^2 = v_0^2 - 2gr(2) = 5gr - 4gr = gr$ Confirming
 $v_{\mathrm{top}} = \sqrt{gr}$.
@@ -838,7 +838,7 @@ At the midpoint (height $r = 0.6\,\mathrm{m}$ above bottom):
 $v^2 = 49 - 2(9.8)(0.6) = 49 - 11.76 = 37.24$.
 
 At the midpoint, the weight is perpendicular to the radius. The reaction $R$ acts horizontally
-Towards the centre:
+towards the centre:
 
 $R = \dfrac{0.4 \times 37.24}{0.6} = 24.8\,\mathrm{N}$.
 
@@ -1120,7 +1120,7 @@ $$
 
 A bead of mass $m$ slides on a smooth circular wire of radius $a$ in a vertical plane. It is
 Projected from the lowest point with speed $\sqrt{6ga}$. Find the speed and reaction at $60°$ above
-The lowest point.
+the lowest point.
 
 <details>
 <summary>Solution</summary>
@@ -1334,7 +1334,7 @@ $u_{\min} = \sqrt{5gr}$.
 
 A particle of mass $0.1\,\mathrm{kg}$ is attached to a string of length $0.8\,\mathrm{m}$ and
 Whirled in a horizontal circle at $3\,\mathrm{rad\,s^{-1}}$. The string makes an angle of $30°$ with
-The vertical. Find the tension.
+the vertical. Find the tension.
 
 <details>
 <summary>Solution</summary>

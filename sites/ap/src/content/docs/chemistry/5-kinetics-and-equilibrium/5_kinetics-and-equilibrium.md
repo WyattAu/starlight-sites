@@ -337,7 +337,7 @@ Where $\Delta n = (\mathrm{moles gaseous products) - (\mathrm{moles gaseous reac
 ### Heterogeneous Equilibria
 
 Pure solids and pure liquids are not included in the equilibrium expression because their activities
-Are constant (equal to 1).
+are constant (equal to 1).
 :::
 
 :::note[Example]
@@ -839,7 +839,7 @@ Reactant/product are added). There is no shift in equilibrium.
 
 A reaction has a rate constant of $3.46 \times 10^{-5} \mathrm{ s^{-1}}$ at $298 \mathrm{ K$ and
 $4.87 \times 10^{-3} \mathrm{ s^{-1}}$ at $350 \mathrm{ K$. Calculate the activation energy $E_a$
-And the pre-exponential factor $A$.
+and the pre-exponential factor $A$.
 
 </details>
 

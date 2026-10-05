@@ -41,7 +41,7 @@ Design of algorithms, programming languages, compilers, and hardware.
 An **alphabet** $\Sigma$ is a finite, non-empty set of symbols (e.g., $\Sigma = \{0, 1\}$).
 
 A **string** (or word) over $\Sigma$ is a finite sequence of symbols from $\Sigma$. The empty string
-Is denoted $\varepsilon$.
+is denoted $\varepsilon$.
 
 **Notation:**
 
@@ -117,7 +117,7 @@ $|\mathcal{P}(S)| \gt |S|$ for any set $S$). $\blacksquare$
 **Theorem 1.2.** The set of all Turing machines is countable.
 
 _Proof._ Each TM has a finite description (its states, alphabet, and transition function). Encode
-This as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
+this as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
 
 **Corollary 1.3.** There exist languages that are not Turing-recognisable (in fact, uncountably Many
 such languages).
@@ -310,7 +310,7 @@ start To accept is the equivalent regex. $\blacksquare$
 **Thompson's construction.** The regex-to-NFA translation can be made fully explicit. For each
 Sub-expression of the regex, we build a small NFA fragment with exactly one entry and one exit
 State, connected by $\varepsilon$-transitions. The construction guarantees that the NFA has at most
-One accept state, no transitions into the start state, and no transitions out of the accept state.
+one accept state, no transitions into the start state, and no transitions out of the accept state.
 
 **Theorem 2.3a (Thompson's construction correctness).** For every regular expression $R$ over
 $\Sigma$ Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
@@ -364,7 +364,7 @@ Conversely, if $x \not\equiv_L y$ There exists $z$ with $xz \in L$ and $yz \noti
 so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$ Hence $x \not\sim y$.
 
 **(2) $\Rightarrow$ (3):** Trivial, since $L$ consists of all strings whose equivalence class is one
-That contains at least one string in $L$.
+that contains at least one string in $L$.
 
 **(3) $\Rightarrow$ (1):** Suppose $\equiv_L$ has finitely many equivalence classes
 $C_1, \ldots, C_k$. Construct a DFA with one state per equivalence class, start state
@@ -437,7 +437,7 @@ $|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
 
 _Proof._ Assume pumping length $p$. Let $w = 0^p 1 0^p 1 \in L$. Since $|xy| \leq p$, $y = 0^k$ for
-Some $k \gt 0$. Then $xy^0 z = 0^{p-k} 1 0^p 1 \notin L$ (the two halves have different lengths).
+some $k \gt 0$. Then $xy^0 z = 0^{p-k} 1 0^p 1 \notin L$ (the two halves have different lengths).
 $\blacksquare$
 
 **Example.** $L = \{0^n 1^m : n \neq m\}$ is not regular.
@@ -783,7 +783,7 @@ $|w| \geq p$, $w$ can be decomposed as $w = uvxyz$ satisfying:
 3. $uv^ixy^iz \in L$ for all $i \geq 0$.
 
 _Proof._ Let $G$ be a CFG in CNF with $k$ variables. Any parse tree of height $h$ generates a string
-Of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
+of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
 some path repeats a variable. The substring generated between the two occurrences can be pumped.
 $\blacksquare$
 
@@ -898,16 +898,16 @@ Q_{\mathrm{reject})}}$ where:
 - $q_{\mathrm{reject} \in Q$ is the reject state ($q_{\mathrm{accept} \neq q_{\mathrm{reject}$).
 
 The TM has an infinite tape (initially containing the input followed by blanks), a read/write head
-That moves left or right, and a finite control. At each step, based on the current state and symbol
-Under the head, it writes a symbol, moves the head, and changes state.
+that moves left or right, and a finite control. At each step, based on the current state and symbol
+under the head, it writes a symbol, moves the head, and changes state.
 
 $M$ **accepts** input $w$ if the computation halts in $q_{\mathrm{accept}$. $M$ **rejects** $w$ if
-It halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
+it halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
 
 The **language recognised** by $M$ is $L(M) = \{w : M \mathrm{ accepts  w\}$.
 
 A language is **Turing-recognisable** (recursively enumerable) if some TM recognises it. A language
-Is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
+is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
 
 ### 4.2 TM Variants
 
@@ -927,8 +927,8 @@ $\delta : Q \times \Gamma \to \mathcal{P}(Q \times \Gamma \times \{L, R\})$. The
 **Theorem 4.2.** Every nondeterministic TM has an equivalent deterministic TM.
 
 _Proof._ Simulate the NTM using breadth-first search on the computation tree. Each level of the tree
-Has at most $b$ branches (where $b$ is the maximum number of choices). After $n$ steps, the tree has
-At most $b^n$ nodes. The simulation visits nodes in order, using a 3-tape DTM: tape 1 stores the
+has at most $b$ branches (where $b$ is the maximum number of choices). After $n$ steps, the tree has
+at most $b^n$ nodes. The simulation visits nodes in order, using a 3-tape DTM: tape 1 stores the
 Input, tape 2 simulates the current branch, tape 3 tracks the address of the current node in the
 Tree. The simulation runs in $O(b^n)$ times the NTM's time, which is exponential overhead.
 $\blacksquare$
@@ -944,7 +944,7 @@ $\varepsilon, 0, 1, 00, 01, 10, 11$ for 3 steps, and so on. Whenever $M$ accepts
 String. Every string in $L$ is eventually printed.
 
 ($\Leftarrow$) Given enumerator $E$ for $L$ Construct TM $M$ that on input $w$ runs $E$ and checks
-Each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
+each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
 Printed, so $M$ recognises $L$. $\blacksquare$
 
 ### 4.3 Church-Turing Thesis
@@ -1130,8 +1130,8 @@ Therefore $H$ cannot exist. $\blacksquare$
 **Theorem 5.2a.** $\overline{A_{\mathrm{TM}}$ is not Turing-recognisable.
 
 _Proof._ If $\overline{A_{\mathrm{TM}}$ were Turing-recognisable, then since $A_{\mathrm{TM}$ is
-Also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
-Must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
+also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
+must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
 
 ### 5.3 Reductions and Undecidability
 
@@ -1176,7 +1176,7 @@ Therefore: $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $L(M_w) \neq \emptyset$
 $\langle M_w \rangle \notin E_{\mathrm{TM}$.
 
 The reduction $f(\langle M, w \rangle) = \langle M_w \rangle$ is computable. So if $E_{\mathrm{TM}$
-Were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
+were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
 decidable, contradiction. $\blacksquare$
 
 </details>
@@ -1224,7 +1224,7 @@ steps).
 **Definition.** An instance of the **Post Correspondence Problem (PCP)** consists of two lists of
 Strings $\alpha = (\alpha_1, \ldots, \alpha_k)$ and $\beta = (\beta_1, \ldots, \beta_k)$ over some
 Alphabet $\Sigma$. A **solution** is a non-empty sequence of indices $i_1, i_2, \ldots, i_m$ such
-That:
+that:
 
 $$
 \alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}
@@ -1267,7 +1267,7 @@ Sequence corresponds to a valid accepting computation: the first tile starts the
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
 Tile allows termination only if an accept state is reached. Thus the PCP instance has a solution iff
 $M$ accepts $w$. The construction is computable, so if PCP were decidable, $A_{\mathrm{TM}}$ would
-Be decidable, contradiction. $\blacksquare$
+be decidable, contradiction. $\blacksquare$
 
 **Modified PCP (MPCP).** In the modified version, the first tile used must be tile 1. MPCP is also
 Undecidable, and the reduction from PCP to MPCP adds a "prefix" tile that forces tile 1 to be used
@@ -1285,7 +1285,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
-Non-relativising techniques, proof methods that do not carry over in the presence of oracles.
+non-relativising techniques, proof methods that do not carry over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$ Define the **halting problem relative to $A$**:
 
@@ -1513,10 +1513,10 @@ $G$:
 3. Set the target: $k' = n + 2k$.
 
 The cover must include at least one endpoint of each variable-gadget edge ($n$ vertices) and at
-Least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
+least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
 Cover removes it from clause consideration; the remaining two triangle vertices must be in the
 Cover. The formula is satisfiable iff we can choose literal vertices such that each clause triangle
-Has at most one vertex already excluded. $\blacksquare$
+has at most one vertex already excluded. $\blacksquare$
 
 **Clique.** Given $G = (V, E)$ and integer $k$ Does $G$ contain a clique of size $k$?
 

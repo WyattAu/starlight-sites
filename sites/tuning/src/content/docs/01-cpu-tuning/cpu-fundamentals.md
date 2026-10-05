@@ -19,7 +19,7 @@ description: "A modern CPU is a superscalar, out-of-order, speculative execution
 
 A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these
 Concepts is prerequisite to any meaningful tuning, because every knob you adjust interacts with one
-Or more of these mechanisms.
+or more of these mechanisms.
 
 ### Instruction Pipeline
 
@@ -55,12 +55,12 @@ decoder bandwidth.
 The micro-op cache (MSB on Intel, OP cache on AMD) caches already-decoded $\mu$ Ops, bypassing the
 Legacy decoder entirely. On Intel 12th Gen, the micro-op cache can deliver up to 8 $\mu$ Ops per
 Cycle, compared to 6 from the legacy decoder. Code that fits in the micro-op cache executes faster
-Because it avoids the decode bottleneck.
+because it avoids the decode bottleneck.
 
 ### Out-of-Order Execution
 
 After decode, $\mu$ Ops enter the reorder buffer (ROB). The ROB tracks the program order of all
-In-flight $\mu$ Ops while allowing the execution units to process them in any order dictated by data
+in-flight $\mu$ Ops while allowing the execution units to process them in any order dictated by data
 Dependencies and resource availability.
 
 Key components:
@@ -75,7 +75,7 @@ Key components:
 
 The out-of-order window size (determined by ROB size, scheduler entries, and load/store queue depth)
 Directly affects how much instruction-level parallelism the CPU can extract. Larger windows find
-More independent work to do, which is why wider out-of-order engines generally perform better on
+more independent work to do, which is why wider out-of-order engines generally perform better on
 Branchy, real-world code.
 
 ### Branch Prediction
@@ -92,12 +92,12 @@ Outcome of conditional branches before they execute.
 
 Branch misprediction penalty is proportional to pipeline depth: on a 19-stage pipeline, a
 Misprediction flushes the pipeline and wastes roughly 15–19 cycles. This is why branch-heavy code
-Can perform significantly worse than expected.
+can perform significantly worse than expected.
 
 ### Superscalar Execution
 
 Modern CPUs have multiple execution ports that can process $\mu$ Ops in parallel. Intel Golden Cove
-Has 12 execution ports:
+has 12 execution ports:
 
 | Ports | Function                         |
 | ----- | -------------------------------- |
@@ -116,7 +116,7 @@ Has 12 execution ports:
 
 AMD Zen 4 has 10 execution ports with a different allocation. The key takeaway for tuning is that
 Your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
-Every instruction depends on the previous one (a long dependency chain), most ports sit idle.
+every instruction depends on the previous one (a long dependency chain), most ports sit idle.
 
 ---
 
@@ -235,7 +235,7 @@ Frequency, highest voltage) upward. P-state transitions are managed by the CPU's
 Controller (PCU on Intel, SMU on AMD).
 
 On modern systems, P-states are managed autonomously by the CPU. The OS requests a performance level
-Via ACPI, and the CPU's hardware decides the actual frequency. This is known as "hardware-managed
+via ACPI, and the CPU's hardware decides the actual frequency. This is known as "hardware-managed
 P-states" or HWP (Hardware P-States) on Intel.
 
 ### C-States (Idle States)
@@ -445,7 +445,7 @@ the best default.
 ### How Thermal Throttling Works
 
 Modern CPUs have a thermal monitor that continuously reads the on-die digital thermal sensors. When
-The temperature reaches the thermal throttling threshold (PROCHOT), the CPU takes corrective action:
+the temperature reaches the thermal throttling threshold (PROCHOT), the CPU takes corrective action:
 
 1. **Clock modulation:** The CPU inserts idle cycles to reduce power dissipation. It may skip every
    Nth clock cycle (e.g., 50% modulation means the CPU is effectively running at half speed).
@@ -453,7 +453,7 @@ The temperature reaches the thermal throttling threshold (PROCHOT), the CPU take
 3. **Voltage reduction:** On some platforms, the CPU reduces voltage along with frequency.
 
 Intel CPUs begin throttling at 100 °C (Tjmax). AMD Zen 4 throttles at 95 °C. These are
-Non-configurable hardware limits designed to prevent permanent damage.
+non-configurable hardware limits designed to prevent permanent damage.
 
 ### Per-Core vs. Package Thermal Throttling
 
@@ -538,7 +538,7 @@ sensors
 ## SMT and Hyper-Threading
 
 Simultaneous Multithreading (SMT, branded as Hyper-Threading by Intel) allows a single physical core
-To execute instructions from two threads simultaneously by sharing execution resources.
+to execute instructions from two threads simultaneously by sharing execution resources.
 
 ### How SMT Works
 
@@ -572,7 +572,7 @@ echo 1 | sudo tee /sys/devices/system/cpu/smt/active
 
 :::caution
 Physical core limit before disabling it. Some applications are licensed per logical core and will
-Not work correctly with SMT disabled.
+not work correctly with SMT disabled.
 :::
 
 ### Security Considerations
@@ -665,9 +665,9 @@ Overclocking is like revving the engine higher than the manufacturer intended. I
 ### Forcing Maximum Frequency Does Not Always Improve Performance
 
 Setting the governor to `performance` prevents frequency scaling but does not improve performance
-For most workloads. With HWP active, the CPU already boosts to maximum frequency when needed and
+for most workloads. With HWP active, the CPU already boosts to maximum frequency when needed and
 Drops to lower frequencies when idle to save power and reduce thermals. Forcing maximum frequency
-Can actually hurt performance by preventing the CPU from entering low-power states during brief idle
+can actually hurt performance by preventing the CPU from entering low-power states during brief idle
 Periods, which increases average temperature and may trigger earlier thermal throttling under
 Sustained multi-core loads.
 
@@ -694,7 +694,7 @@ Your tuning settings. A stable overclock or undervolt may become unstable after 
 
 Many tools report the requested frequency rather than the actual frequency. On modern CPUs with HWP,
 The actual frequency changes hundreds of times per second. Use `turbostat` or `perf stat` to measure
-The actual average frequency over a period, not the instantaneous value reported by
+the actual average frequency over a period, not the instantaneous value reported by
 `cat /proc/cpuinfo`.
 
 ### Confusing TDP with Actual Power Draw
@@ -706,7 +706,7 @@ with `turbostat``RAPL`Or HWiNFO64 rather than relying on TDP specifications.
 ### Applying Desktop Tuning to Servers
 
 Server tuning priorities differ from desktop tuning. On servers, power efficiency, thermal headroom
-For neighboring components, and consistent latency matter more than peak single-core performance.
+for neighboring components, and consistent latency matter more than peak single-core performance.
 Using the `performance` governor on a server with 64+ cores can result in excessive power
 Consumption and thermal throttling under full load. Use `powersave` with HWP and
 `balance_performance` EPP instead.
@@ -765,13 +765,13 @@ dmesg | tail -5
 ```
 
 Note that late loading does not apply all fixes. Some security mitigations must be applied before
-The kernel initializes CPU features, meaning a reboot is required.
+the kernel initializes CPU features, meaning a reboot is required.
 
 ## Intel Thread Director
 
 Introduced with Alder Lake (12th Gen), Intel Thread Director (ITD) is a hardware-assisted thread
 Scheduling technology that communicates per-thread classification to the operating system via ACPI
-And MSR interfaces. ITD classifies each instruction stream as belonging to one of several
+and MSR interfaces. ITD classifies each instruction stream as belonging to one of several
 Categories:
 
 | Class ID | Category          | Typical Use Case              |
@@ -1041,7 +1041,7 @@ Ensure consistent thermal conditions.
 Geekbench 6 includes real-world workloads (machine learning, image processing, cryptography) but is
 Closed-source and can vary between runs due to background OS activity. Cinebench uses a fixed
 Workload based on Cinema 4D rendering, making it more reproducible. For tuning validation, Cinebench
-Is preferred. For comparing different CPU architectures, Geekbench provides a broader perspective.
+is preferred. For comparing different CPU architectures, Geekbench provides a broader perspective.
 
 ### PassMark for System-Level Comparison
 

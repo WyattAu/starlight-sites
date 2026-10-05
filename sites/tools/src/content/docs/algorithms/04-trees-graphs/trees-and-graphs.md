@@ -312,7 +312,7 @@ Left-left grandchild with value 6 fails the BST property but passes the naive ch
 ## AVL Trees
 
 An AVL tree is a self-balancing BST where the heights of the two child subtrees of any node differ
-By at most 1. Named after Adelson-Velsky and Landis (1962).
+by at most 1. Named after Adelson-Velsky and Landis (1962).
 
 ### Balance Factor
 
@@ -375,7 +375,7 @@ def rotate_left(x):
 
 AVL trees guarantee $O(\log n)$ height, which is at most $1.44 \log_2(n+2) - 0.328$. In practice,
 AVL trees are taller and require more rotations than red-black trees, but provide faster lookups
-Because the tree is more strictly balanced.
+because the tree is more strictly balanced.
 
 ## Red-Black Trees
 
@@ -428,7 +428,7 @@ database uses B-tree variants (B+ trees) for indexing.
 ## Heaps
 
 A heap is a complete binary tree with the heap property: in a max-heap, every node is greater than
-Or equal to its children; in a min-heap, every node is less than or equal to its children.
+or equal to its children; in a min-heap, every node is less than or equal to its children.
 
 ```python
 def heap_sort(arr):
@@ -476,7 +476,7 @@ def _sift_down(arr, n, i):
 ## Tries (Prefix Trees)
 
 A trie is a tree where each node represents a character in a prefix. Words are stored as paths from
-The root. The root represents the empty string.
+the root. The root represents the empty string.
 
 ```python
 class TrieNode:
@@ -895,7 +895,7 @@ def has_cycle_directed(graph):
 
 If you insert or delete nodes while iterating over a tree (e.g., deleting all nodes matching a
 Condition), the traversal may skip nodes or follow stale pointers. Either collect nodes to modify
-And apply changes after traversal, or use a recursive approach that handles modification safely.
+and apply changes after traversal, or use a recursive approach that handles modification safely.
 
 ### 2. BST Property Violations
 

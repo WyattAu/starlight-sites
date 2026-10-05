@@ -63,7 +63,7 @@ Access the same data item, and at least one is a write. A schedule is conflict-s
 
 _Proof sketch._ If the precedence graph has a cycle, no serial ordering can respect all the
 Precedence constraints, so the schedule is not conflict-serialisable. Conversely, a topological sort
-Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
+of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
 
 **View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
 Serial schedule $S"$. View equivalence requires:
@@ -73,7 +73,7 @@ Serial schedule $S"$. View equivalence requires:
 3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$ It does so in $S'$.
 
 Every conflict-serialisable schedule is view-serialisable, but the converse does not hold. Testing
-For view serialisability is NP-complete.
+for view serialisability is NP-complete.
 
 <details>
 <summary>Worked Example 6.1: Testing Conflict Serialisability</summary>

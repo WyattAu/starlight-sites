@@ -48,7 +48,7 @@ flowchart TD
 ## Futures
 
 A `Future<T>` represents a value that will be available at some point in the future, either a value
-Of type `T` or an error. It is Dart's equivalent of JavaScript's `Promise` or Rust's `Future`.
+of type `T` or an error. It is Dart's equivalent of JavaScript's `Promise` or Rust's `Future`.
 
 ### Creating Futures
 

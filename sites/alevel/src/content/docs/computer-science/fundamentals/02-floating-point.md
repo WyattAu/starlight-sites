@@ -24,7 +24,7 @@ categories:
 
 Fixed-point representation allocates a fixed number of bits to the integer and fractional parts,
 Limiting both range and precision. **Floating-point representation** decouples these: it uses a form
-Of scientific notation in binary, allowing a vastly larger range at the cost of variable precision.
+of scientific notation in binary, allowing a vastly larger range at the cost of variable precision.
 
 ## 2. IEEE 754 Single Precision (32-bit)
 
@@ -190,7 +190,7 @@ does not divide any power of $2$. Therefore $0.1_{10}$ has no finite binary expa
 
 When stored in IEEE 754, $0.1_{10}$ is approximated by the nearest representable binary value.
 Similarly for $0.2_{10}$ and $0.3_{10}$. Since the approximations introduce rounding errors, the sum
-Of the approximations of $0.1$ and $0.2$ does not exactly equal the approximation of $0.3$.
+of the approximations of $0.1$ and $0.2$ does not exactly equal the approximation of $0.3$.
 
 ```python
 >>> 0.1 + 0.2
@@ -449,7 +449,7 @@ Count the combinations of sign, exponent, and mantissa for each category.
 <summary>Answer</summary>
 
 Normalised: Exponent $E$ ranges from 1 to 254 (254 values). Mantissa $M$ has $2^{23}$ values. Sign
-Has 2 values. Total: $2 \times 254 \times 2^{23} = 4,261,412,864$.
+has 2 values. Total: $2 \times 254 \times 2^{23} = 4,261,412,864$.
 
 Denormalised: $E = 0$$M \neq 0$. Total: $2 \times (2^{23} - 1) = 16,777,214$.
 
@@ -784,7 +784,7 @@ This value is $1 + 2^{-23} \approx 1.0000001192092896$.
 So $\epsilon = 2^{-23} \approx 1.19 \times 10^{-7}$.
 
 Any value smaller than $\epsilon$ When added to $1.0$ Rounds back to $1.0$ because there are not
-Enough mantissa bits to represent the difference. For example, $1.0 + 2^{-24} = 1.0$ in single
+enough mantissa bits to represent the difference. For example, $1.0 + 2^{-24} = 1.0$ in single
 Precision.
 
 </details>

@@ -90,7 +90,7 @@ e = g\sin\theta_W = g'\cos\theta_W
 $$
 
 This relationship is a direct prediction of the unified theory and has been verified experimentally
-To high precision at LEP and SLC.
+to high precision at LEP and SLC.
 
 ### 1.4 Quarks and Leptons
 

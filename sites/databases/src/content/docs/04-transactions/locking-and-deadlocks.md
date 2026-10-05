@@ -18,7 +18,7 @@ description: "PostgreSQL uses a multi-level locking system that operates at diff
 ## Lock Types Overview
 
 PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding
-Each lock type is essential for diagnosing performance issues and preventing deadlocks.
+each lock type is essential for diagnosing performance issues and preventing deadlocks.
 
 ### Lock Granularity
 
@@ -65,7 +65,7 @@ Automatically.
 ## Row-Level Locks
 
 Row-level locks are more granular than table-level locks. They block modifications to specific rows
-But allow concurrent access to other rows in the same table.
+but allow concurrent access to other rows in the same table.
 
 ### Implicit Row Locks
 
@@ -507,7 +507,7 @@ SET LOCAL statement_timeout = '0';  -- disable for this transaction
 Unlike SQL Server and Oracle, PostgreSQL does **not** perform automatic lock escalation from
 Row-level to table-level locks. Row locks and table locks are independent mechanisms. However,
 Acquiring too many row locks does consume significant shared memory for the lock table. If you need
-To update millions of rows, consider:
+to update millions of rows, consider:
 
 ```sql
 -- Process in batches to avoid holding too many row locks
@@ -602,7 +602,7 @@ Advisory locks are like reserving a table at a restaurant. They do not protect s
 ### Not Setting lock_timeout
 
 A query waiting for a lock can block indefinitely. If the lock holder has a long-running transaction
-Or a crashed session (though PostgreSQL detects crashed backends via TCP keepalive), waiting Queries
+or a crashed session (though PostgreSQL detects crashed backends via TCP keepalive), waiting Queries
 pile up. Always set `lock_timeout`:
 
 ```sql
@@ -639,7 +639,7 @@ Read-only work before `BEGIN`Then lock and modify within the transaction.
 ### Using LOCK TABLE When Row Locks Suffice
 
 `LOCK TABLE ... IN ACCESS EXCLUSIVE MODE` blocks all reads and writes on the entire table. Use the
-Most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for row locks,
+most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for row locks,
 `SELECT ... FOR UPDATE OF table_name` for specific tables in a multi-table query.
 
 ## Lock Duration and Transaction Boundaries
@@ -647,7 +647,7 @@ Most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for 
 ### Lock Release on Commit or Rollback
 
 All locks acquired during a transaction (row locks, table locks, advisory locks) are released when
-The transaction ends. There is no way to release a lock before the transaction commits or rolls
+the transaction ends. There is no way to release a lock before the transaction commits or rolls
 Back, except for `SAVEPOINT` + `ROLLBACK TO SAVEPOINT` which releases locks acquired after the
 Savepoint.
 
@@ -774,7 +774,7 @@ WHERE datname = 'mydb';
 
 SSI is conservative: it may abort transactions that would have produced a serializable result,
 Because the cycle detection cannot always distinguish safe from unsafe patterns. This is the price
-Of optimistic concurrency control. Applications using SERIALIZABLE must always implement retry
+of optimistic concurrency control. Applications using SERIALIZABLE must always implement retry
 Logic.
 
 ## Hot Standby Feedback and Replication Lag

@@ -66,7 +66,7 @@ int main() {
 ## `std::atomic_ref<T>` (C++20)
 
 `std::atomic_ref<T>` provides atomic access to a non-atomic object through a reference wrapper. This
-Is useful when you need atomic operations on data that was not declared as `std::atomic`:
+is useful when you need atomic operations on data that was not declared as `std::atomic`:
 
 ```cpp
 #include <atomic>
@@ -559,7 +559,7 @@ state.
 ## Tagged Pointers for ABA Prevention
 
 A practical approach to solving the ABA problem is to use a tagged pointer, combine the pointer
-With a monotonically increasing counter in a single 64-bit atomic:
+with a monotonically increasing counter in a single 64-bit atomic:
 
 ```cpp
 #include <atomic>

@@ -135,7 +135,7 @@ Around the IHS to contain spills.
 ### Tower Coolers
 
 Tower coolers use a stack of aluminum fins connected by heat pipes to a copper base plate. Airflow
-From one or more fans pushes heat away from the fins.
+from one or more fans pushes heat away from the fins.
 
 Key specifications to evaluate:
 
@@ -180,7 +180,7 @@ Understanding fan specs is critical for selecting the right fans for your build:
 
 **Static pressure vs. Airflow:** Heatsinks and radiators present high airflow resistance. You need
 Fans with high static pressure to push air through them effectively. Case exhaust fans benefit more
-From high airflow.
+from high airflow.
 
 Fan bearing types ranked by longevity:
 
@@ -298,7 +298,7 @@ Reservoir → Pump → Radiator → CPU Block → GPU Block → Reservoir
 ```
 
 Placing the reservoir before the pump ensures the pump is always flooded (never runs dry). Placing
-The radiator before the CPU block provides slightly cooler coolant to the CPU, but the difference is
+the radiator before the CPU block provides slightly cooler coolant to the CPU, but the difference is
 less than 1 °C.
 
 ### Maintenance
@@ -523,7 +523,7 @@ Radiator as exhaust (top) or side-intake with the understanding of the thermal t
 ### Using Too Much Thermal Paste
 
 More paste is not better. Excess paste squeezes out from between the IHS and heatsink and can spill
-Onto the motherboard. Worse, a thick layer of paste has higher thermal resistance than a thin layer.
+onto the motherboard. Worse, a thick layer of paste has higher thermal resistance than a thin layer.
 The paste should fill only the microscopic imperfections between the two surfaces, not act as a gap
 Filler. A pea-sized amount is sufficient for most CPUs.
 
@@ -543,7 +543,7 @@ Software.
 ### Ignoring Case Airflow Direction
 
 Reversed fan orientation (intake fan blowing outward, exhaust fan pulling inward) creates turbulence
-And disrupts the intended airflow path. Always verify fan direction by looking at the arrow on the
+and disrupts the intended airflow path. Always verify fan direction by looking at the arrow on the
 Fan frame or observing which side the strut/bracket is on (strut side is intake).
 
 ## Advanced Thermal Paste Analysis
@@ -551,7 +551,7 @@ Fan frame or observing which side the strut/bracket is on (strut side is intake)
 ### Thermal Conductivity Testing Methodology
 
 Thermal paste performance is measured by the temperature delta between the die and the heatsink
-Under controlled load conditions. Standardized tests use a calibrated heat source and thermal
+under controlled load conditions. Standardized tests use a calibrated heat source and thermal
 Sensors to eliminate variables:
 
 $$
@@ -609,7 +609,7 @@ Rear of the heatsink receives warmer air, reducing efficiency.
 
 **Dual fan (push-pull):** Adds a second fan on the rear of the heatsink pulling air through.
 Improves thermals by 2–5 °C compared to single fan. Doubles the noise level (two fans instead of
-One).
+one).
 
 **Dual fan (both push, front):** Two fans mounted side by side on the front. Only useful for very
 Wide heatsinks (140 mm+ width). Marginally better than single fan due to higher static pressure.
@@ -736,7 +736,7 @@ Before purchasing components, plan the loop:
 | RAM block             | Low         | Minimal             | DIMM-specific        |
 
 Full-cover GPU blocks cool the GPU die, VRAM, and VRMs. They are the most effective but are specific
-To each GPU model. When upgrading your GPU, you need a new block.
+to each GPU model. When upgrading your GPU, you need a new block.
 
 ## Case Airflow Simulation
 
@@ -836,7 +836,7 @@ T_{CPU} = T_{ambient} + \Delta T_{CPU-ambient}
 $$
 
 If your room is 30 °C instead of 20 °C, your CPU will run 10 °C hotter for the same workload. This
-Is significant, a CPU that runs at 75 °C in a 20 °C room will hit 85 °C in a 30 °C room.
+is significant, a CPU that runs at 75 °C in a 20 °C room will hit 85 °C in a 30 °C room.
 
 ### Altitude Effects
 
@@ -1025,7 +1025,7 @@ variance exceeds 20 °C, check:
 
 Modern CPUs can spike to high temperatures (20–30 °C above average) for brief periods during sudden
 Load transitions. These spikes are caused by the CPU ramping from a low P-state to a high P-state
-Before the cooling system can respond. They are normal and not cause for concern as long as average
+before the cooling system can respond. They are normal and not cause for concern as long as average
 Temperatures remain within safe limits.
 
 ```mermaid

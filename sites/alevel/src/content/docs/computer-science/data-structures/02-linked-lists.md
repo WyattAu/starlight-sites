@@ -25,8 +25,8 @@ categories:
 ### Definition
 
 A **linked list** is a linear data structure where each element (called a **node**) contains data
-And a reference (pointer) to the next node. Unlike arrays, elements are **not** stored contiguously
-In memory.
+and a reference (pointer) to the next node. Unlike arrays, elements are **not** stored contiguously
+in memory.
 
 ### Node Structure
 
@@ -346,7 +346,7 @@ def reverse(head):
 
 **Correctness proof (invariant):** At the start of each iteration, `prev` points to the reversed
 Portion of the list, and `current` points to the remaining unprocessed portion. The loop processes
-Each node exactly once, redirecting its `next` to point to the previously processed node. After
+each node exactly once, redirecting its `next` to point to the previously processed node. After
 Processing all $n$ nodes, `prev` points to the head of the fully reversed list. $\square$
 
 </details>
@@ -376,7 +376,7 @@ Linked list: Each node = 8 (data) + 8 (next) + 8 (prev) = 24 bytes. Total: $100 
 Bytes.
 
 Dynamic array (assuming capacity ≈ 128, next power of 2): $128 \times 8 = 1024$ bytes (just data, no
-Per-element overhead).
+per-element overhead).
 
 The linked list uses $2400/1024 \approx 2.34\times$ more memory due to pointer overhead.
 
@@ -456,7 +456,7 @@ A sentinel node eliminates special-case handling for:
 
 Without a sentinel, every insertion and deletion function must check if the list is empty or if the
 Operation affects the head. The sentinel ensures that the "node before" always exists, simplifying
-The code and reducing bug potential.
+the code and reducing bug potential.
 
 </details>
 
@@ -658,7 +658,7 @@ Time to delete a given node (when you have a reference to it). Use Big-O notatio
 <summary>Hint</summary>
 
 Consider how many pointers each node stores and how that affects navigation. For (c), think about
-Whether you can go backwards in a singly linked list.
+whether you can go backwards in a singly linked list.
 
 </details>
 
@@ -706,7 +706,7 @@ Other operations:
 - Skip forward: $O(1)$ via `next` (both types)
 
 The doubly linked list matches all requirements with $O(1)$ operations, while the singly linked list
-Would make backward skipping $O(n)$.
+would make backward skipping $O(n)$.
 
 </details>
 
@@ -718,7 +718,7 @@ Memory is used for data versus pointers? Compare this to a static array of 50 in
 <summary>Hint</summary>
 
 Calculate the size of one node (data + pointer), then multiply by 50. For the array, only the data
-Is stored.
+is stored.
 
 </details>
 
@@ -746,7 +746,7 @@ Lead to memory fragmentation. How does this differ from array memory allocation?
 <summary>Hint</summary>
 
 Consider where each node is placed in memory relative to other nodes. Think about what happens after
-Many insertions and deletions.
+many insertions and deletions.
 
 </details>
 
@@ -756,12 +756,12 @@ Many insertions and deletions.
 Each linked list node is allocated individually on the heap using `malloc`/`new`. The memory
 Allocator places each node wherever free space is available, which may be scattered throughout the
 Heap. After many insertions and deletions, the heap becomes fragmented: small blocks of free memory
-Are interspersed with allocated blocks. Even if total free memory is sufficient, no single
+are interspersed with allocated blocks. Even if total free memory is sufficient, no single
 Contiguous block may be large enough for a new allocation.
 
 Arrays, by contrast, are stored in a single contiguous block. A static array is allocated once and
 Stays in place. A dynamic array allocates a new contiguous block when resizing and frees the old
-One. This means array access benefits from spatial locality (cache-friendly), while linked list
+one. This means array access benefits from spatial locality (cache-friendly), while linked list
 Access causes cache misses because nodes are scattered.
 
 In practice, this fragmentation and cache performance difference is why arrays outperform linked
@@ -810,8 +810,8 @@ Time complexity: $O(1)$, no traversal needed because the tail pointer is availab
 **Problem 10.** (Exam-style) A hospital's A&E department needs a data structure to manage patient
 Records. Patients arrive and are added to the end of the queue. Patients are seen by a doctor and
 Removed from the front. Occasionally, a patient's condition deteriorates and they must be moved to
-The front of the queue immediately. Evaluate whether a singly linked list or a dynamic array would
-Be more appropriate. Discuss the time complexity of each required operation for both data
+the front of the queue immediately. Evaluate whether a singly linked list or a dynamic array would
+be more appropriate. Discuss the time complexity of each required operation for both data
 Structures.
 
 <details>
@@ -836,7 +836,7 @@ Required operations and their complexities:
 **Analysis:**
 
 The singly linked list is the better choice. The critical operation is **remove from front**, which
-The linked list handles in $O(1)$ ( set `head = head.next`), while the dynamic array requires
+the linked list handles in $O(1)$ ( set `head = head.next`), while the dynamic array requires
 Shifting all remaining elements, $O(n)$ where $n$ could be hundreds of patients.
 
 Both structures require $O(n)$ for "move to front" (must find the patient first), but the linked
@@ -845,7 +845,7 @@ List's removal step is simpler (just pointer updates, no shifting). The linked l
 
 The dynamic array's advantage of $O(1)$ random access is irrelevant here, patients are always
 Processed in queue order. The linked list's lack of contiguous memory is not a concern since we are
-Not doing traversal-heavy work.
+not doing traversal-heavy work.
 
 **Conclusion:** A singly linked list (with head and tail pointers) is the most appropriate data
 Structure, as its $O(1)$ dequeue operation is essential for the high-frequency "remove from front"

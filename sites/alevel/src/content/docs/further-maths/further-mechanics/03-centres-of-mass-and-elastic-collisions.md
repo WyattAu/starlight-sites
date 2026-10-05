@@ -76,7 +76,7 @@ The denominator is the total area of the lamina: $A = \displaystyle\int_a^b f(x)
 Consider a triangle with vertices at $(0, 0)$, $(b, 0)$ And $(c, h)$.
 
 The line from $(0, 0)$ to $(c, h)$ is $y = \dfrac{h}{c}\,x$ and the line from $(b, 0)$ to $(c, h)$
-Is $y = \dfrac{h}{c - b}(x - b)$.
+is $y = \dfrac{h}{c - b}(x - b)$.
 
 For simplicity, take a right triangle with vertices $(0, 0)$$(b, 0)$$(0, h)$ Where
 $f(x) = h - \dfrac{h}{b}x = h\!\left(1 - \dfrac{x}{b}\right)$.
@@ -137,7 +137,7 @@ Diameter.
 ### 2.3 Circular sector
 
 For a sector of a circle of radius $r$ with half-angle $\alpha$ (so the sector subtends $2\alpha$ at
-The centre):
+the centre):
 
 $$
 \boxed{\bar{x} = \frac{2r\sin\alpha}{3\alpha}}
@@ -361,7 +361,7 @@ Equal to the angle of incidence.
 ### 7.2 Two spheres in oblique collision
 
 When two smooth spheres collide obliquely, we resolve velocities into the normal direction (along
-The line of centres) and the tangential direction (perpendicular to the line of centres).
+the line of centres) and the tangential direction (perpendicular to the line of centres).
 
 - **Tangential components** are unchanged (smooth spheres).
 - **Normal components** obey conservation of momentum and Newton's restitution law.
@@ -722,7 +722,7 @@ $\mathbf{v}_B = \dfrac{87}{20}\!\left(\dfrac{4}{5}\mathbf{i} + \dfrac{3}{5}\math
 
 **Problem.** A uniform square lamina $ABCD$ has side $6a$. An equilateral triangle of side $2a$ is
 Removed with one vertex at the centre of the square and the opposite side on $AB$. Find the centre
-Of mass of the remaining lamina.
+of mass of the remaining lamina.
 
 **Solution.** Square: area $= 36a^2$ Centre of mass at $(3a, 3a)$.
 
@@ -747,7 +747,7 @@ $$
 
 **Problem.** A ball is projected from point $O$ with speed $u$ at angle $\alpha$ to the horizontal
 Towards a smooth vertical wall at horizontal distance $d$. The coefficient of restitution between
-The ball and the wall is $e$. Show that the horizontal distance from the wall to the point where the
+the ball and the wall is $e$. Show that the horizontal distance from the wall to the point where the
 Ball next hits the ground is $ed$.
 
 **Solution.** Time to reach the wall: $t_1 = d/(u\cos\alpha)$.
@@ -758,7 +758,7 @@ After impact with the wall:
 - Vertical velocity unchanged: $v_y' = u\sin\alpha - gd/(u\cos\alpha)$.
 
 The ball follows a parabolic trajectory after bouncing. By the reversibility of projectile motion
-And the scaling of horizontal velocity by factor $e$ The horizontal range from the wall is $ed$.
+and the scaling of horizontal velocity by factor $e$ The horizontal range from the wall is $ed$.
 $\blacksquare$
 
 ### Example 9.4: Centre of mass of a solid cone
@@ -807,7 +807,7 @@ $\arctan(3/4)$ with the horizontal.
 The diagonal $AC = (8, 6)$ also makes angle $\arctan(6/8) = \arctan(3/4)$ with the horizontal.
 
 Since $AG$ is parallel to $AC$ The angle between the diagonal $AC$ and the vertical is the same as
-The angle between $AG$ and the vertical:
+the angle between $AG$ and the vertical:
 $90^\circ - \arctan(3/4) = \arctan(4/3) \approx 53.1^\circ$.
 
 ---
@@ -857,7 +857,7 @@ Resolving velocities in oblique collisions requires vector decomposition and dot
 
 A uniform lamina is in the shape of a semicircle of radius $a$ with a circle of radius $a/2$
 Removed. The centre of the removed circle lies on the diameter of the semicircle, at distance $a/2$
-From the centre of the semicircle. Find the centre of mass of the remaining lamina.
+from the centre of the semicircle. Find the centre of mass of the remaining lamina.
 
 <details>
 <summary>Solution</summary>
@@ -925,7 +925,7 @@ $$
 ### Question 14
 
 A uniform solid hemisphere of radius $r$ and a uniform solid cone of base radius $r$ and height $h$
-Are joined base-to-base. Both are made of the same material. For what value of $h$ does the
+are joined base-to-base. Both are made of the same material. For what value of $h$ does the
 Composite body have its centre of mass exactly at the join?
 
 <details>
@@ -1116,7 +1116,7 @@ Directed along the normal away from the wall.
 
 A uniform lamina is formed from an equilateral triangle of side $2a$ with a circular hole of radius
 $a/2$ cut out. The centre of the hole coincides with the centroid of the triangle. Find the centre
-Of mass of the remaining lamina.
+of mass of the remaining lamina.
 
 <details>
 <summary>Solution</summary>
@@ -1126,7 +1126,7 @@ Triangle: area $= \dfrac{\sqrt{3}}{4}(2a)^2 = \sqrt{3}a^2$ Centroid at geometric
 Hole: area $= \dfrac{\pi a^2}{4}$ Centroid at geometric centre.
 
 Since the hole is at the centroid, the remaining lamina has its centre of mass at the centroid of
-The triangle.
+the triangle.
 
 Wait, the centre of mass of the remaining lamina is the weighted average of the triangle and the
 Hole (with negative mass for the hole):
@@ -1239,7 +1239,7 @@ $\mathbf{M} = \mathbf{r} \times \mathbf{F}$. See
 
 Two particles of masses $3\,\mathrm{kg}$ and $5\,\mathrm{kg}$ collide. Before collision, the
 $3\,\mathrm{kg}$ particle moves at $4\,\mathrm{m\,s^{-1}}$ and the $5\,\mathrm{kg}$ particle moves
-At $-2\,\mathrm{m\,s^{-1}}$. After the elastic collision, find the velocities of both particles.
+at $-2\,\mathrm{m\,s^{-1}}$. After the elastic collision, find the velocities of both particles.
 
 <details>
 <summary>Solution</summary>
@@ -1299,7 +1299,7 @@ With the vertex on the table, the centre of mass is at $\boxed{\dfrac{3h}{4}}$ a
 ### 14.1 Centre of mass of a circular arc
 
 A uniform circular arc of radius $r$ subtending angle $2\alpha$ at the centre has its centre of mass
-At:
+at:
 
 $$
 \bar{x} = \frac{r\sin\alpha}{\alpha}
@@ -1353,7 +1353,7 @@ The parallel component is unchanged.
 
 A particle of mass $2\,\mathrm{kg}$ moving at $5\,\mathrm{m\,s^{-1}}$ collides with a stationary
 Particle of mass $3\,\mathrm{kg}$. The coefficient of restitution is $e = 0.6$. Find the velocities
-After collision and the kinetic energy lost.
+after collision and the kinetic energy lost.
 
 <details>
 <summary>Solution</summary>

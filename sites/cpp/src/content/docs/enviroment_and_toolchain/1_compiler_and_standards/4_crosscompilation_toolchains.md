@@ -25,7 +25,7 @@ Host**) that is intended to execute on a different architecture or operating sys
 
 This is distinct from native compilation, where the Build Host and Target are identical.
 Cross-compilation is standard practice for embedded systems, mobile development, and CI/CD pipelines
-Where build agents (often Linux x86_64) must generate binaries for Windows, macOS, or ARM devices.
+where build agents (often Linux x86_64) must generate binaries for Windows, macOS, or ARM devices.
 
 ## The Architecture of a Cross-Toolchain
 
@@ -46,7 +46,7 @@ Toolchain.
 ### 2. The Sysroot
 
 The compiler cannot use the headers (`/usr/include`) or libraries (`/usr/lib`) of the Build Host, as
-They correspond to the wrong architecture. The **Sysroot** is a directory structure that mirrors the
+they correspond to the wrong architecture. The **Sysroot** is a directory structure that mirrors the
 Root (`/`) of the Target system, containing:
 
 - **Target Headers:** Kernel headers and Standard Library headers (glibc/musl).
@@ -99,7 +99,7 @@ clang++ -target x86_64-w64-mingw32 --sysroot=/usr/x86_64-w64-mingw32 main.cpp
 
 This is fundamentally different from GCC, which requires a separate binary for each target
 (`aarch64-linux-gnu-g++``x86_64-w64-mingw32-g++`). Clang's approach simplifies CI/CD pipelines
-Because a single Clang installation can target any architecture.
+because a single Clang installation can target any architecture.
 
 ## CMake Toolchain Files
 
@@ -181,7 +181,7 @@ cmake --build build-win
 ### Scenario 1: Linux Host $\to$ Windows Target (MinGW-w64)
 
 This is the most common CI/CD scenario, allowing Linux servers to build Windows `.exe` artifacts
-Without needing a Windows license or VM.
+without needing a Windows license or VM.
 
 **Prerequisites (Debian/Ubuntu):**
 
@@ -249,7 +249,7 @@ set(CMAKE_SYSROOT /usr/riscv64-linux-gnu)
 ## Handling Dependencies (Vcpkg)
 
 Managing 3rd-party libraries (e.g., Boost, fmt, nlohmann_json) during cross-compilation is complex
-Because the libraries themselves must be compiled for the target.
+because the libraries themselves must be compiled for the target.
 
 **Vcpkg** handles this via "Triplet" files.
 
@@ -569,7 +569,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -fno-exceptions -fno-rtti")
 
 Conan provides an alternative to manual toolchain files for cross-compilation. Conan's profile
 System handles the toolchain selection, standard library configuration, and dependency resolution
-For the target platform.
+for the target platform.
 
 ### Conan Cross-Compilation Workflow
 
@@ -612,7 +612,7 @@ Conan resolves the dependency graph for the target architecture automatically.
 ## Cross-Compiling Static Libraries vs Shared Libraries
 
 The choice between static and shared libraries has different implications for cross-compilation than
-For native compilation.
+for native compilation.
 
 ### Static Libraries (Recommended for Embedded)
 
@@ -628,7 +628,7 @@ set(BUILD_SHARED_LIBS OFF)
 
 Shared libraries (`.so`) require a matching dynamic linker on the target. When cross-compiling, the
 Shared libraries must be built for the target architecture, and the `RPATH` must be set correctly so
-The executable can find them at runtime.
+the executable can find them at runtime.
 
 ```cmake
 # Set RPATH for the target filesystem

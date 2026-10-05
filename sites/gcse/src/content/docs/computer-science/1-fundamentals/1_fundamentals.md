@@ -183,7 +183,7 @@ Discarded, leaving 0. Therefore $y = -x$ in two's complement arithmetic. $\black
 ### 1.6 Logical Binary Shifts (Higher Tier)
 
 A **logical left shift** moves all bits to the left by a specified number of positions. Zeros fill
-The vacated positions on the right. Each left shift multiplies by 2.
+the vacated positions on the right. Each left shift multiplies by 2.
 
 **Example.** $00001100$ (12) shifted left by 2: $00110000$ (48).
 
@@ -349,7 +349,7 @@ C = 67 = 01000011, a = 97 = 01100001, t = 116 = 01110100.
 ### 3.3 Unicode
 
 Unicode supports multiple languages and special characters. The first 128 characters of Unicode are
-The same as ASCII (backwards compatible).
+the same as ASCII (backwards compatible).
 
 Unicode uses up to 4 bytes per character. Common encodings include UTF-8 (variable length, 1--4
 Bytes) and UTF-16.
@@ -545,7 +545,7 @@ sample values (aliasing), making reconstruction ambiguous. $\blacksquare$
 
 **Aliasing in practice.** If a 30,000 Hz tone is sampled at 44,100 Hz, the reconstructed frequency
 Is $|44100 - 30000| = 14100$ Hz, which is completely wrong. Anti-aliasing filters remove frequencies
-Above the Nyquist limit before sampling.
+above the Nyquist limit before sampling.
 
 ## 6. Data Compression
 
@@ -652,7 +652,7 @@ Occurrences) gets the longest code (111).
 
 **Why prefix-free?** If the code for A were "1" and the code for B were "10", then "10" could be
 Decoded as either B or A followed by the start of another character. Prefix-free codes eliminate
-This ambiguity, making decoding unambiguous.
+this ambiguity, making decoding unambiguous.
 
 **Worked Example.** Calculate the total number of bits to encode "BCCABBDDAECCBBAEDDCC" using the
 Huffman codes above.

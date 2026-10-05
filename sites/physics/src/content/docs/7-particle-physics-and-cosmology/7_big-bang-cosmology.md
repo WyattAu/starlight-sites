@@ -438,7 +438,7 @@ budget.
 ### 7.8 Dark Energy
 
 In 1998, two teams (Riess et al., Perlmutter et al.) observed that Type Ia supernovae are fainter
-Than expected for a decelerating universe. This implies the expansion is **accelerating**:
+than expected for a decelerating universe. This implies the expansion is **accelerating**:
 $\ddot{a} \gt 0$.
 
 From the acceleration equation, this requires $\rho + 3P/c^2 \lt 0$ Which is satisfied by a Component
@@ -590,7 +590,7 @@ The Hubble constant $H_0$ measured from the CMB ($\sim 67.4$ km/s/Mpc, Planck 20
 $\Lambda$ CDM) disagrees with local distance-ladder measurements ($\sim 73.0$ km/s/Mpc, SH0ES).
 
 This discrepancy is now at the $\sim 5\sigma$ level and is one of the most significant open problems
-In cosmology. Possible resolutions include:
+in cosmology. Possible resolutions include:
 
 1. **Systematic errors** in one or both measurement methods.
 2. **New physics** prior to recombination (e.g., additional radiation, early dark energy).

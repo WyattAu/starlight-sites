@@ -18,7 +18,7 @@ A C++ Reference (`T&`) is an alias for an existing object. Unlike pointers, refe
 Objects themselves in the abstract machine; they imply a direct binding.
 
 However, hardware does not understand "aliases." It understands addresses. This module analyzes how
-The compiler maps high-level reference semantics to low-level machine code and details the specific
+the compiler maps high-level reference semantics to low-level machine code and details the specific
 Rules governing the lifespan of temporary objects bound to references.
 
 ## 1. Architectural Implementation
@@ -89,7 +89,7 @@ int& r; // Compiler Error: "r'' declared as reference but not initialized
 ### The Null Reference Undefined Behavior
 
 While the syntax prevents null references, pointer arithmetic and casting can manufacture them. This
-Is **Undefined Behavior**.
+is **Undefined Behavior**.
 
 ```cpp
 void fast_path(int* ptr) \{
@@ -255,7 +255,7 @@ void scope_trap() \{
 
 In `scope_trap`The C++ Standard dictates that the temporary `Wrapper` is destroyed at the end of The
 full expression. The lifetime extension applies to the result of `.val` (which is an `int`), but
-That `int` resides inside the `Wrapper`. When `Wrapper` dies, the `int` dies.
+that `int` resides inside the `Wrapper`. When `Wrapper` dies, the `int` dies.
 
 ### Lifetime Extension via Function Return
 
@@ -287,7 +287,7 @@ int main() \{
 ```
 
 This works because the prvalue materialization happens at the call site, and the reference binding
-To the materialized temporary extends its lifetime. However, if the function returns a reference to
+to the materialized temporary extends its lifetime. However, if the function returns a reference to
 A **local variable** (not a temporary), it is always UB, no lifetime extension can save it.
 
 ## 4. `std::reference_wrapper`
@@ -329,7 +329,7 @@ void usage() \{
 ### Conversion Operators
 
 `std::reference_wrapper<T>` has an implicit conversion operator to `T&`. This allows it to be passed
-To functions expecting `T&`.
+to functions expecting `T&`.
 
 ### `std::ref` and `std::cref`
 
@@ -413,7 +413,7 @@ Argument deduction [N4950 §12.2.2.1]:
 | `T = const int`   | `const int&&`    | `const int&&`  |
 
 The rule: a reference to a reference collapses to the lvalue reference. Only an rvalue reference to
-An rvalue reference remains an rvalue reference.
+an rvalue reference remains an rvalue reference.
 
 ## Verification
 

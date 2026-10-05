@@ -19,7 +19,7 @@ categories:
 </script>
 
 Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling
-The use of algebraic methods to solve geometric problems and vice versa.
+the use of algebraic methods to solve geometric problems and vice versa.
 
 ## 2D Coordinate Geometry
 
@@ -116,7 +116,7 @@ $$
 $$
 
 Where $m$ is the gradient and $c$ is the $y$-intercept. This form is most useful when the gradient
-And $y$-intercept are known or can be determined.
+and $y$-intercept are known or can be determined.
 
 ### Point-Slope Form
 
@@ -174,7 +174,7 @@ and the $y$-intercept is $c = -\frac{C}{B}$ (when $B \neq 0$).
 ### Parallel Lines
 
 Two non-vertical lines with gradients $m_1$ and $m_2$ are parallel if and only if their gradients
-Are equal:
+are equal:
 
 $$
 \begin{aligned}
@@ -183,7 +183,7 @@ $$
 $$
 
 In the general form $Ax + By + C = 0$ Two lines $A_1x + B_1y + C_1 = 0$ and $A_2x + B_2y + C_2 = 0$
-Are parallel if and only if:
+are parallel if and only if:
 
 $$
 \begin{aligned}
@@ -196,7 +196,7 @@ If all three ratios are equal, the lines are coincident (the same line).
 ### Perpendicular Lines
 
 Two non-vertical lines with gradients $m_1$ and $m_2$ are perpendicular if and only if the product
-Of their gradients equals $-1$:
+of their gradients equals $-1$:
 
 $$
 \begin{aligned}
@@ -222,7 +222,7 @@ $$
 
 The point of intersection of two non-parallel lines $A_1x + B_1y + C_1 = 0$ and
 $A_2x + B_2y + C_2 = 0$ is found by solving the system simultaneously. The coordinates $(x, y)$ of
-The intersection satisfy both equations.
+the intersection satisfy both equations.
 
 </details>
 <summary>Examples</summary>
@@ -418,8 +418,8 @@ $$
 
 In three-dimensional space, each point is identified by an ordered triple $(x, y, z)$. The three
 Coordinate axes --- $x$-axis, $y$-axis, and $z$-axis --- are mutually perpendicular and intersect at
-The origin $O(0, 0, 0)$. The three planes $xy$-plane, $yz$-plane, and $zx$-plane divide the space
-Into eight octants.
+the origin $O(0, 0, 0)$. The three planes $xy$-plane, $yz$-plane, and $zx$-plane divide the space
+into eight octants.
 
 ### Distance Formula in 3D
 

@@ -24,7 +24,7 @@ Completeness.
 
 Coverage tools work by **instrumenting** the binary. During compilation, the compiler inserts hidden
 Counter instructions at the entry points of every **Basic Block** (a linear sequence of code with
-One entry and one exit).
+one entry and one exit).
 
 When the program runs, these counters increment. Upon process termination, the runtime writes the
 Counter data to raw profile files on the disk, which are then mapped back to the source code by
@@ -59,7 +59,7 @@ This workflow applies to GCC on Linux and MinGW-w64 on Windows.
 ### Step 1: Compilation Flags
 
 To instrument the binary, pass `--coverage` to both the compiler and the linker. This is a shorthand
-For `-fprofile-arcs -ftest-coverage` and linking `libgcov`.
+for `-fprofile-arcs -ftest-coverage` and linking `libgcov`.
 
 ```bash
 g++ -std=c++23 --coverage -g -O0 main.cpp -o app
@@ -169,7 +169,7 @@ endif()
 ### Defining a Coverage Target
 
 Instead of manually typing `lcov` or `llvm-cov` commands, define a custom CMake target to automate
-The generation.
+the generation.
 
 ```cmake
 if(ENABLE_COVERAGE AND CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -200,7 +200,7 @@ endif()
 ## Continuous Integration (CI) Best Practices
 
 In a CI environment (GitHub Actions, GitLab CI), the goal is to fail the build if coverage drops
-Below a threshold or to upload reports to visualization services.
+below a threshold or to upload reports to visualization services.
 
 ### 1. Artifact Upload
 
@@ -236,7 +236,7 @@ Executes. Line coverage alone can give a false sense of completeness.
 ### Branch Coverage
 
 Measures the percentage of conditional branches (if/else, switch, ternary) where **both** the true
-And false paths have been taken.
+and false paths have been taken.
 
 ```text
 Branches: 234/300 (78.0%)

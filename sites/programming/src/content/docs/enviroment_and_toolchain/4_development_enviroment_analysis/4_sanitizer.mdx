@@ -19,7 +19,7 @@ Static analysis predicts defects by parsing source code. **Runtime Sanitizers** 
 Monitoring the program during execution.
 
 Sanitizers utilize **Compile-Time Instrumentation**. The compiler injects checking instructions
-Around memory accesses, atomic operations, and arithmetic logic. A runtime library then tracks the
+around memory accesses, atomic operations, and arithmetic logic. A runtime library then tracks the
 State of memory and threads, reporting violations immediately (often halting execution).
 
 ## The Sanitizer Taxonomy
@@ -270,7 +270,7 @@ Encodes the accessibility state of the corresponding 8-byte region:
 | `0xff`       | Stack redzone (padding between variables) |
 
 When an instrumented memory access occurs, the compiler generates code to check the shadow byte
-Before performing the actual load or store. If the shadow byte indicates the access is poisoned, the
+before performing the actual load or store. If the shadow byte indicates the access is poisoned, the
 ASan runtime reports the error and aborts.
 
 ```cpp

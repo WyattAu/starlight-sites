@@ -18,7 +18,7 @@ description: "Advanced SQL notes covering key definitions, core concepts, worked
 ## Window Functions Deep Dive
 
 Window functions compute values across a set of rows related to the current row without collapsing
-The result set. This section covers the framing mechanics, exclusion clauses, window groups, and
+the result set. This section covers the framing mechanics, exclusion clauses, window groups, and
 Window chains that give window functions their full power.
 
 ### Window Function Anatomy
@@ -232,7 +232,7 @@ JOIN audit_entry a ON TRUE;
 ```
 
 Execution order within a CTE chain is **not** guaranteed to follow the textual order. The optimizer
-May reorder data-modifying CTEs. If you need ordering, use triggers or application-level
+may reorder data-modifying CTEs. If you need ordering, use triggers or application-level
 Orchestration.
 
 ### CTE Materialization (PostgreSQL 12+)
@@ -401,7 +401,7 @@ Outer columns.
 ## Full-Text Search
 
 PostgreSQL's built-in full-text search provides ranked text search without external dependencies
-Like Elasticsearch.
+like Elasticsearch.
 
 ### tsvector and tsquery
 
@@ -508,7 +508,7 @@ ORDER BY sim DESC;
 ## Materialized Views
 
 A materialized view caches the result of a query physically on disk, allowing fast reads at the cost
-Of stale data that must be refreshed.
+of stale data that must be refreshed.
 
 ### Creating and Refreshing
 
@@ -1177,7 +1177,7 @@ Common table expressions are like creating temporary shortcuts. Instead of writi
 ### Using Window Functions in WHERE
 
 Window functions cannot be used in the `WHERE` clause because they are evaluated after `WHERE`. Wrap
-The query in a subquery or CTE:
+the query in a subquery or CTE:
 
 ```sql
 -- WRONG: window function in WHERE
@@ -1204,7 +1204,7 @@ SUM(amount) OVER ()
 ### Assuming CTEs Are Always Inlined
 
 PostgreSQL 12+ may inline CTEs, but this is not guaranteed. If a CTE is referenced multiple times or
-Is recursive, it is materialized. Use `EXPLAIN` to verify, and use `MATERIALIZED` /
+is recursive, it is materialized. Use `EXPLAIN` to verify, and use `MATERIALIZED` /
 `NOT MATERIALIZED` keywords for explicit control.
 
 ### Concurrent Refresh Requires a Unique Index

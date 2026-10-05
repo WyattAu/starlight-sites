@@ -35,11 +35,11 @@ Liability to depression, with the remaining variance attributable to environment
 **Twin studies:** MZ twins show a concordance rate for depression of approximately 40--50%, compared
 To approximately 20--25% for DZ twins. The difference in concordance rates between MZ and DZ twins
 Supports a genetic contribution, but the fact that MZ concordance is well below 100% demonstrates
-That non-shared environmental factors also play a major role.
+that non-shared environmental factors also play a major role.
 
 **Candidate genes:** Several genes have been implicated in depression, including the serotonin
 Transporter gene (5-HTTLPR), the brain-derived neurotrophic factor (BDNF) gene, and genes involved
-In the hypothalamic-pituitary-adrenal (HPA) axis. However, no single gene has a large effect;
+in the hypothalamic-pituitary-adrenal (HPA) axis. However, no single gene has a large effect;
 Depression is a polygenic disorder influenced by many genes, each with a small effect.
 
 ### Neurotransmitter Theories
@@ -86,7 +86,7 @@ Individuals with major depression fail to suppress cortisol production in respon
 Cortisol levels. Chronic cortisol elevation damages hippocampal neurons (through excitotoxicity and
 Reduced BDNF expression), impairing the hippocampus's ability to regulate the HPA axis through
 Negative feedback. This creates a vicious cycle: stress causes HPA axis activation, cortisol damages
-The hippocampus, impaired hippocampal function further impairs HPA axis regulation, leading to more
+the hippocampus, impaired hippocampal function further impairs HPA axis regulation, leading to more
 Cortisol release.
 
 ## Cognitive Explanations
@@ -94,7 +94,7 @@ Cortisol release.
 ### Beck's Cognitive Triad (1967)
 
 Aaron Beck proposed that depression is caused by systematic negative patterns of thinking. The core
-Of Beck's theory is the **cognitive triad**: three types of negative beliefs about the self, the
+of Beck's theory is the **cognitive triad**: three types of negative beliefs about the self, the
 World, and the future.
 
 1. **Negative views about the self:** "I am worthless," "I am a failure," "I am unlovable." The
@@ -137,7 +137,7 @@ Cognitive triad:
 **Seligman (1975):** Martin Seligman developed the learned helplessness model based on experiments
 With dogs. Dogs subjected to inescapable electric shocks (in which no response could terminate the
 Shock) later failed to escape from shocks in a situation where escape was possible. Seligman argued
-That the dogs had "learned" that their actions had no effect on outcomes, and this learned
+that the dogs had "learned" that their actions had no effect on outcomes, and this learned
 Helplessness generalised to new situations.
 
 **Abramson, Seligman, and Teasdale (1978):** The reformulated learned helplessness model applied the
@@ -178,7 +178,7 @@ Entrapment) were significantly more likely to develop depression.
 
 Depression is more prevalent among individuals of lower socioeconomic status (SES). Poverty,
 Unemployment, inadequate housing, food insecurity, and lack of access to healthcare all contribute
-To chronic stress, which increases vulnerability to depression. The relationship between SES and
+to chronic stress, which increases vulnerability to depression. The relationship between SES and
 Depression is bidirectional: low SES increases the risk of depression, and depression impairs
 Educational and occupational functioning, potentially perpetuating low SES.
 
@@ -202,11 +202,11 @@ Explanations include:
 
 Selective serotonin reuptake inhibitors (SSRIs), such as fluoxetine (Prozac), sertraline (Zoloft),
 And escitalopram (Lexapro), are the most commonly prescribed antidepressants. SSRIs work by blocking
-The serotonin transporter (SERT), increasing the concentration of serotonin in the synaptic cleft.
+the serotonin transporter (SERT), increasing the concentration of serotonin in the synaptic cleft.
 
 **Effectiveness:** SSRIs are moderately effective for moderate to severe depression. Meta-analyses
 (Cipriani et al., 2018) have found that all commonly prescribed antidepressants are more effective
-Than placebo, but the effect sizes are modest (approximately 0.3 standard deviations).
+than placebo, but the effect sizes are modest (approximately 0.3 standard deviations).
 
 **Kirsch et al. (2008):** Analysed data from 35 clinical trials submitted to the FDA and found that
 The difference between SSRI and placebo was not significant for patients with mild or moderate

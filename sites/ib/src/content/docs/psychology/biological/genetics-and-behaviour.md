@@ -18,10 +18,10 @@ description: "The question of how much behaviour is determined by genes versus e
 ## Introduction
 
 The question of how much behaviour is determined by genes versus environment is one of the oldest
-And most contentious in psychology. Behaviour genetics is the scientific study of the relative
+and most contentious in psychology. Behaviour genetics is the scientific study of the relative
 Contributions of genetic and environmental factors to individual differences in behaviour. Modern
 Behaviour genetics has moved beyond simple nature-versus-nurture debates to investigate how genes
-And environment interact to shape behaviour throughout the lifespan.
+and environment interact to shape behaviour throughout the lifespan.
 
 ## Research Methods in Behaviour Genetics
 
@@ -41,7 +41,7 @@ h^2 = 2(r_{MZ} - r_{DZ})
 $$
 
 Where $h^2$ is the heritability coefficient, $r_{MZ}$ is the correlation for MZ twins, and $r_{DZ}$
-Is the correlation for DZ twins.
+is the correlation for DZ twins.
 
 **Strengths of twin studies:**
 
@@ -63,9 +63,9 @@ Is the correlation for DZ twins.
 ### Adoption Studies
 
 Adoption studies compare adopted children with their biological parents (with whom they share genes
-But not environment) and with their adoptive parents (with whom they share environment but not
+but not environment) and with their adoptive parents (with whom they share environment but not
 Genes). This design allows researchers to separate genetic and environmental influences more cleanly
-Than twin studies.
+than twin studies.
 
 **Strengths of adoption studies:**
 
@@ -134,7 +134,7 @@ in non-additive ways.
 
 One of the most influential studies of gene-environment interaction was conducted by Caspi, Sugden,
 Moffitt, and colleagues. They investigated whether a functional polymorphism in the promoter region
-Of the serotonin transporter gene (5-HTTLPR) moderates the effect of stressful life events on
+of the serotonin transporter gene (5-HTTLPR) moderates the effect of stressful life events on
 Depression.
 
 **Methodology:**
@@ -193,7 +193,7 @@ Experiences can produce lasting changes in gene expression and behaviour.
 ### Meaney's Rat Studies
 
 Michael Meaney and colleagues conducted a seminal series of studies demonstrating that maternal care
-In rats produces epigenetic changes in offspring that persist into adulthood and affect stress
+in rats produces epigenetic changes in offspring that persist into adulthood and affect stress
 Responses.
 
 **Key findings:**
@@ -249,7 +249,7 @@ Responses.
 ## Bouchard et al. (1990): Minnesota Twin Study
 
 Thomas Bouchard and colleagues at the University of Minnesota conducted the most comprehensive study
-Of reared-apart twins, recruiting 100 pairs of MZ twins who had been separated early in life and
+of reared-apart twins, recruiting 100 pairs of MZ twins who had been separated early in life and
 Raised in different environments. The study included extensive psychological, physiological, and
 Medical assessments.
 

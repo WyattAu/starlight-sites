@@ -121,7 +121,7 @@ println("hello".orEmpty())  // "hello"
 ### Extension Functions vs Utility Functions
 
 Extension functions compile to static functions with the receiver as the first parameter. They do
-Not modify the class.
+not modify the class.
 
 ```kotlin
 // Kotlin
@@ -156,7 +156,7 @@ If a member function and an extension function have the same signature, the **me
 ## Infix Functions
 
 Functions marked `infix` can be called with infix notation (without parentheses and dots) when they
-Have a single parameter.
+have a single parameter.
 
 ```kotlin
 infix fun Int.power(exponent: Int): Long {
@@ -292,7 +292,7 @@ inline fun measureTime(block: () -> Unit): Long {
 ```
 
 `noinline` prevents specific lambda parameters from being inlined (needed when the lambda is stored
-Or passed to a non-inline function):
+or passed to a non-inline function):
 
 ```kotlin
 inline fun runAndStore(block: () -> Unit, noinline later: () -> Unit) {

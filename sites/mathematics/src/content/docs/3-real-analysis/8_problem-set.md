@@ -28,7 +28,7 @@ $M = \sup A$. For all $x \in A \cup B$: either $x \in A$ So $x \leq \sup A = M$;
 $x \leq \sup B \leq M$. Thus $M$ is an upper bound for $A \cup B$.
 
 For the least property: since $M = \sup A$ and $A \subseteq A \cup B$ Every upper bound of $A \cup B$
-Is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
+is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.3 (Supremum and Infimum), Section 1.5 (Properties).
 
@@ -247,7 +247,7 @@ Here is why: $f$ extends continuously to $[0, 1]$ (define $f(0) = 0$). By the He
 
 The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$ Which does not
 Extend continuously to $0$. Or $h(x) = 1/x$ Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
-And has a continuous extension, so it is uniformly continuous. $\blacksquare$
+and has a continuous extension, so it is uniformly continuous. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 4.5 (Uniform Continuity), Section 4.6 (Heine-Cantor).
 
@@ -333,7 +333,7 @@ $L(f, P) = \sum 0 \cdot \Delta x_i = 0$. Hence
 $\overline{\int_0^1} f = 1 \neq 0 = \underline{\int_0^1} f$ So $f$ is not Riemann integrable.
 
 This also follows from Lebesgue's criterion: $f$ is discontinuous everywhere, and $[0,1]$ does not
-Have measure zero. $\blacksquare$
+have measure zero. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 6.2 (Integrability Criteria), Theorem 6.4b.
 
@@ -385,7 +385,7 @@ Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
 
 Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$ This does not tend to $0$. Therefore the convergence
-Is **not uniform** on $(0, \infty)$. $\blacksquare$
+is **not uniform** on $(0, \infty)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.2 (Uniform Convergence), Section 7.1 (Pointwise
 Convergence).

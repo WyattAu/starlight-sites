@@ -378,7 +378,7 @@ Enzymes are protein molecules that catalyse specific biochemical reactions.
 
 The substrate fits into the active site of the enzyme like a key in a lock. The enzyme-substrate
 Complex forms, the reaction occurs, and products are released. The enzyme is unchanged and available
-For further catalysis.
+for further catalysis.
 
 ### Effect of Temperature on Enzyme Activity
 
@@ -644,14 +644,14 @@ $$
 ### Overview
 
 The iodine clock reaction is a classic experiment for measuring initial rates. The reaction involves
-The oxidation of iodide ions by an oxidising agent (e.g., peroxydisulfate):
+the oxidation of iodide ions by an oxidising agent (e.g., peroxydisulfate):
 
 $$
 \mathrm{S}_2\mathrm{O}_8^{2-} + 2\mathrm{I}^- \to 2\mathrm{SO}_4^{2-} + \mathrm{I}_2
 $$
 
 A small, fixed amount of sodium thiosulfate and starch are added. The thiosulfate reacts with iodine
-As it forms:
+as it forms:
 
 $$
 \mathrm{I}_2 + 2\mathrm{S}_2\mathrm{O}_3^{2-} \to 2\mathrm{I}^- + \mathrm{S}_4\mathrm{O}_6^{2-}
@@ -669,7 +669,7 @@ $$
 $$
 
 By varying the concentration of one reactant while keeping others constant, the order with respect
-To each reactant can be determined.
+to each reactant can be determined.
 
 ### Example Data Analysis
 
@@ -837,7 +837,7 @@ Overall order = $1 + 2 = 3$
 Sketch and label the Maxwell-Boltzmann distribution curves at $T_1 = 300 \mathrm{ K}$ and
 $T_2 = 400 \mathrm{ K}$ on the same axes. Mark the activation energy $E_a$ and shade the area
 Representing particles with energy $\geq E_a$ at each temperature. Explain why the rate increases
-With temperature in terms of the distribution.
+with temperature in terms of the distribution.
 
 <details>
 <summary>Answer</summary>
@@ -873,7 +873,7 @@ Rate increases.
 The catalyst lowers $E_a$ equally for both the forward and reverse reactions. Therefore, both the
 Forward and reverse rates increase by the same factor. The ratio of forward to reverse rates (the
 Equilibrium constant $K$) remains unchanged. Since $K$ is unchanged, the position of equilibrium and
-The equilibrium yield of products remain the same.
+the equilibrium yield of products remain the same.
 
 </details>
 
@@ -912,7 +912,7 @@ Increase in reaction rate than would be predicted by the increase in collision f
 <summary>Answer</summary>
 
 The collision frequency increases only slightly with temperature (proportional to $\sqrt{T}$), which
-Would predict roughly a $\sqrt{308/298} \approx 1.017$ Or about 1.7% increase.
+would predict roughly a $\sqrt{308/298} \approx 1.017$ Or about 1.7% increase.
 
 However, the actual rate increase is much larger (approximately doubling for a 10 K increase)
 Because the exponential dependence on $E_a / RT$ in the Arrhenius equation means that even a small
@@ -940,7 +940,7 @@ Collision frequency.
 ### Continuous Monitoring Methods
 
 These methods measure the concentration (or a quantity proportional to it) continuously throughout
-The reaction.
+the reaction.
 
 **Gas syringe method:** As the reaction produces gas, the volume is recorded at regular time
 Intervals. A graph of volume vs time gives a curve whose gradient at any point equals the rate.
@@ -950,7 +950,7 @@ The rate of mass loss at any point equals the reaction rate.
 
 **Colorimetry:** For reactions involving a coloured species, a colorimeter measures absorbance over
 Time. Absorbance is proportional to concentration (Beer-Lambert law), so the rate can be determined
-From the absorbance-time graph.
+from the absorbance-time graph.
 
 **Conductivity method:** For reactions that change the number or type of ions in solution (e.g.,
 Hydrolysis of an ester producing a carboxylic acid), the conductivity is measured over time.

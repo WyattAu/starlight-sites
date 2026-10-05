@@ -70,7 +70,7 @@ $$
 ### The Analogy Between Linear and Rotational Kinematics
 
 Every linear kinematic equation has a direct rotational analogue. Replace $x$ with $\theta$, $v$
-With $\omega$ And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
+with $\omega$ And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
 a one-dimensional motion in the angular coordinate. The mathematics is identical.
 
 :::note[Example]
@@ -107,8 +107,8 @@ $$
 ### Why the Moment of Inertia Depends on the Axis
 
 Mass is a scalar, but moment of inertia depends on how the mass is distributed _relative to the axis
-Of rotation_. A rod rotated about its center has $I = \frac{1}{12}ML^2$ But the same rod rotated
-About one end has $I = \frac{1}{3}ML^2$ -- four times larger. The same physical object can have
+of rotation_. A rod rotated about its center has $I = \frac{1}{12}ML^2$ But the same rod rotated
+about one end has $I = \frac{1}{3}ML^2$ -- four times larger. The same physical object can have
 Different moments of inertia depending on the axis. This has no linear analogue: mass is mass,
 Regardless of the direction of motion.
 
@@ -248,7 +248,7 @@ $$
 A hollow cylinder has $I = MR^2$ So its kinetic energy is split as
 $K = \frac{1}{2}Mv^2 +
 \frac{1}{2}(MR^2)(v/R)^2 = Mv^2$. Half the energy goes to translation and half
-To rotation. A solid cylinder has $I = \frac{1}{2}MR^2$ So
+to rotation. A solid cylinder has $I = \frac{1}{2}MR^2$ So
 $K = \frac{1}{2}Mv^2 + \frac{1}{4}Mv^2 =
 \frac{3}{4}Mv^2$. More energy goes to translation, so the
 Solid cylinder moves faster.
@@ -273,7 +273,7 @@ V = \sqrt{\frac{10gh}{7}}
 $$
 
 Note: the answer is independent of both the mass and the radius. For a hollow sphere, the factor
-Would be $\frac{5}{6}$ instead of $\frac{7}{10}$ So the solid sphere is always faster.
+would be $\frac{5}{6}$ instead of $\frac{7}{10}$ So the solid sphere is always faster.
 
 ## Angular Momentum (CED Unit 7)
 
@@ -514,7 +514,7 @@ Bottom.
 | Hollow cylinder | $MR^2$            | $\sqrt{gh}$     | $1/2 = 50\%$                  |
 
 Ranking (fastest to slowest): solid sphere, solid cylinder, hollow sphere, hollow cylinder. Objects
-With more mass concentrated near the rim (larger $I$) have more rotational KE and less translational
+with more mass concentrated near the rim (larger $I$) have more rotational KE and less translational
 KE, so they move more slowly.
 
 ### Worked Example: Rolling Up an Incline
@@ -598,7 +598,7 @@ Arms to spin faster.
 
 A uniform ladder of mass $15 \mathrm{ kg$ and length $4 \mathrm{ m$ leans against a smooth
 (frictionless) wall at $65^{\circ}$ to the horizontal. The floor is rough with $\mu_s = 0.4$. Will
-The ladder slip?
+the ladder slip?
 
 Take torques about the base of the ladder (eliminates the friction and normal force at the base):
 
@@ -671,7 +671,7 @@ Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not s
 
 A spinning bicycle wheel of mass $2 \mathrm{ kg$ and radius $0.35 \mathrm{ m$ is supported on one
 End of its axle. The wheel spins at $50 \mathrm{ rad/s$ and the axle is horizontal. The distance
-From the support to the wheel centre is $0.15 \mathrm{ m$. Calculate the precession angular
+from the support to the wheel centre is $0.15 \mathrm{ m$. Calculate the precession angular
 Velocity.
 
 **Step 1: Moment of inertia of the wheel (thin ring approximation)**
@@ -769,7 +769,7 @@ $2 \mathrm{ m$: $I_{\mathrm{pm} = 2 \times 4 = 8$. Wait -- the point mass is at 
 $r = 0$ Giving $I_a = 4 + 0 = 4$.
 
 The parallel axis check failed because I was not careful. The correct check: $I_{\mathrm{cm} = 3$
-About the centre of mass at $0.6 \mathrm{ m$ from pivot, so $I_a = 3 + 5(0.6)^2 = 3 + 1.8 = 4.8$.
+about the centre of mass at $0.6 \mathrm{ m$ from pivot, so $I_a = 3 + 5(0.6)^2 = 3 + 1.8 = 4.8$.
 But direct calculation gives $4$.
 
 Let me recheck $I_b$: the point mass is at one end of the rod, which is $1 \mathrm{ m$ from the
@@ -828,14 +828,14 @@ KE. The smaller the axle radius, the slower the fall, since more of the energy g
 ### Pitfall 6: Using the Wrong Radius in Torque Calculations
 
 In problems involving wheels, pulleys, or drums, the radius used in $\tau = Fr$ must be the radius
-At which the force is applied, which may differ from the overall radius. For example, a force
+at which the force is applied, which may differ from the overall radius. For example, a force
 Applied at a string wound around an axle uses the axle radius, not the wheel radius.
 
 ### Pitfall 7: Confusing Angular Velocity with Linear Velocity in Rolling
 
 For rolling without slipping, $v = r\omega$ relates the _centre-of-mass_ velocity to the angular
 Velocity about the centre of mass. A point on the rim has a velocity of $2v$ at the top and $0$ at
-The contact point (instantaneously at rest).
+the contact point (instantaneously at rest).
 
 ### Pitfall 8: Forgetting Units in Moment of Inertia
 
@@ -954,7 +954,7 @@ Vertical = $70g - T\sin(30^\circ) = 686 - 784 = -98 \mathrm{ N$ (downward).
 <summary>Question 4: Physical pendulum</summary>
 
 A uniform rod of length $1.0 \mathrm{ m$ and mass $2 \mathrm{ kg$ is pivoted at one end and swings
-As a physical pendulum. Calculate the period of small oscillations.
+as a physical pendulum. Calculate the period of small oscillations.
 
 </details>
 

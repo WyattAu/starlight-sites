@@ -23,7 +23,7 @@ categories: "- DSE - Biology"
 
 Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light
 Energy into chemical energy stored in organic molecules. It is the primary source of organic carbon
-For nearly all life on Earth.
+for nearly all life on Earth.
 
 **Overall equation:**
 
@@ -238,8 +238,8 @@ Guard cells control stomatal aperture by changing their turgor (internal water p
 ### Gas Exchange Through Stomata
 
 During the day, photosynthesis is occurring and $\mathrm{CO}_2$ is being consumed. The concentration
-Of $\mathrm{CO}_2$ inside the leaf is lower than in the atmosphere, so $\mathrm{CO}_2$ diffuses in
-Through the stomata. $\mathrm{O}_2$ Produced as a by-product of photolysis, diffuses out through The
+of $\mathrm{CO}_2$ inside the leaf is lower than in the atmosphere, so $\mathrm{CO}_2$ diffuses in
+through the stomata. $\mathrm{O}_2$ Produced as a by-product of photolysis, diffuses out through The
 stomata.
 
 $$
@@ -378,7 +378,7 @@ Three possible pathways:
 
 The **Casparian strip** (a band of suberin in the endodermis cell walls) blocks the apoplastic
 Pathway at the endodermis, forcing water and minerals to enter the symplastic pathway. This gives
-The plant control over what enters the xylem (selective filter).
+the plant control over what enters the xylem (selective filter).
 
 **3. Movement up the xylem:**
 
@@ -657,7 +657,7 @@ The vascular cambium of both must be aligned so they fuse.
 
 A small piece of plant tissue (explant) is grown on a sterile nutrient medium containing growth
 Hormones (auxins and cytokinins) to produce a mass of undifferentiated cells (callus). The callus is
-Then stimulated to differentiate into plantlets.
+then stimulated to differentiate into plantlets.
 
 Steps:
 
@@ -781,7 +781,7 @@ Growth can be towards (positive tropism) or away from (negative tropism) the sti
 :::caution
 Shoots versus roots. In shoots, auxin promotes elongation (high concentration side grows more). In
 Roots, auxin inhibits elongation (low concentration side grows more). This is why shoots bend
-Towards light but roots bend away from it when auxin redistributes.
+towards light but roots bend away from it when auxin redistributes.
 :::
 
 ### Auxin and Gibberellin Interactions

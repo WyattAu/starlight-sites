@@ -488,7 +488,7 @@ Read CONTRIBUTING.md before your first contribution.
 
 Submitting a PR and then not responding to review feedback for weeks is a negative signal.
 Maintainers may close stale PRs. If you cannot address feedback promptly, communicate that (e.g., "I
-Will address this next week, currently traveling").
+will address this next week, currently traveling").
 
 ### Taking Rejection Personally
 
@@ -710,7 +710,7 @@ If your PR is closed without merge:
 Many potential contributors believe their code is "not good enough" to submit. This is a cognitive
 Bias, everyone's code has room for improvement. Submit imperfect code and let the review process
 Improve it. A beginner's PR with one issue fixed is infinitely more valuable than a perfect PR that
-Was never submitted.
+was never submitted.
 
 ### Contributing Only to Fix Your Own Bugs
 
@@ -729,7 +729,7 @@ Open source projects need more than code:
 - **Design:** Contributing to RFCs and design discussions.
 
 These contributions are often more valuable than code because they multiply the effectiveness of all
-Other contributors.
+other contributors.
 
 ## Monorepo vs Polyrepo for Open Source Projects
 
@@ -856,7 +856,7 @@ jobs:
 ## License Compatibility Matrix
 
 When contributing to open source, understanding license compatibility prevents legal issues for both
-You and the project. The most common licenses in systems software:
+you and the project. The most common licenses in systems software:
 
 | License        | Commercial Use | Modify | Distribute               | Patent Grant | Copyleft     |
 | -------------- | -------------- | ------ | ------------------------ | ------------ | ------------ |

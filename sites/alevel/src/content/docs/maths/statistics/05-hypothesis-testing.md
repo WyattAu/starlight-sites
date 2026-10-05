@@ -55,7 +55,7 @@ Directional prediction **before** seeing the data.
 
 :::caution
 Direction) is a form of $p$-hacking and is statistically invalid. The tail direction must be decided
-Before the experiment.
+before the experiment.
 :::
 
 <hr />
@@ -79,7 +79,7 @@ Rejection of $H_0$.
 ### 2.4 Actual significance level
 
 For discrete distributions, the actual significance level may differ from the nominal level $\alpha$
-Because we cannot achieve exactly $\alpha$.
+because we cannot achieve exactly $\alpha$.
 
 **Example.** For $X \sim B(15, 0.5)$ A right-tailed test at $\alpha = 0.05$:
 
@@ -319,7 +319,7 @@ There is insufficient evidence at the 5% level that the proportion of bus users 
 ### 10.1 Definition
 
 A **confidence interval** gives a range of plausible values for a population parameter, together
-With a specified level of confidence.
+with a specified level of confidence.
 
 **Definition.** A $100(1 - \alpha)\%$ confidence interval for a parameter $\theta$ is an interval
 $(L, U)$ constructed from sample data such that, in repeated sampling, $100(1 - \alpha)\%$ of such
@@ -721,7 +721,7 @@ $$
 (b) The 95% CI is $(0.501, 0.659)$. Since the entire interval lies above 0.5, we can reject
 $H_0: p = 0.5$ at the 5% level. However, the lower bound is only 0.501, so the evidence for a
 Majority is borderline. The claim is technically supported by the test, but the narrow margin should
-Be communicated carefully.
+be communicated carefully.
 
 **If you get this wrong, revise:** [Confidence Intervals](#10-confidence-intervals), Section 10.
 
@@ -735,7 +735,7 @@ A 95% confidence interval for a population mean is $(48.2, 53.8)$. State whether
 <details>
 <summary>Solution 14</summary>
 A 95% confidence interval contains exactly those values of $\mu_0$ that would **not** be rejected
-By a two-tailed test at the 5% level.
+by a two-tailed test at the 5% level.
 
 (a) $\mu_0 = 50$: $50 \in (48.2, 53.8)$ So **do not reject** $H_0$. (b) $\mu_0 = 47$:
 $47 \notin (48.2, 53.8)$ So **reject** $H_0$. (c) $\mu_0 = 54$: $54 \notin (48.2, 53.8)$ So **reject**
@@ -765,7 +765,7 @@ $$
 (b) Since $0.038 \lt 0.05$**reject** $H_0$ at the 5% level. There is sufficient evidence that The
 true mean score exceeds 60. The $p$-value of 0.038 means that if the true mean were 60, there Would
 be a 3.8% chance of observing a sample mean of 62.4 or higher. This provides moderate evidence
-Against $H_0$.
+against $H_0$.
 
 **If you get this wrong, revise:** [Interpreting p-Values](#11-interpreting-p-values), Section 11.
 
@@ -800,7 +800,7 @@ $$
 
 Power $= 1 - 0.083 = 0.917$. Increasing $\alpha$ from 0.05 to 0.10 **increases** the power (from
 0.847 to 0.917) but also increases the probability of a Type I error. This illustrates the trade-off
-Between Type I and Type II errors.
+between Type I and Type II errors.
 
 **If you get this wrong, revise:** [Type I and Type II Errors](#3-type-i-and-type-ii-errors),
 Section 3.

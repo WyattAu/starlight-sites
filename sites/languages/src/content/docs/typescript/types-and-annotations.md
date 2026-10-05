@@ -32,7 +32,7 @@ TypeScript provides seven primitive types that correspond directly to JavaScript
 
 The types `null` and `undefined` are subtypes of every other type unless `strictNullChecks` is
 Enabled. Under `strict: true` (the recommended configuration), `null` and `undefined` are assignable
-Only to themselves and to `any` / `unknown`.
+only to themselves and to `any` / `unknown`.
 
 ```ts
 const name: string = 'Ada';
@@ -53,7 +53,7 @@ Bugs.
 
 The `any` type disables all type checking for the annotated value. A value of type `any` is
 Assignable to and from every other type. Using `any` effectively opts the annotated expression out
-Of the type system entirely.
+of the type system entirely.
 
 ```ts
 let a: any = 'hello';
@@ -68,7 +68,7 @@ Genuinely not known at compile time.
 ### `unknown`
 
 The `unknown` type is the type-safe counterpart to `any`. A value of type `unknown` is assignable to
-Every type, but **no type is assignable to `unknown` except `any` and `unknown` itself**. Before an
+every type, but **no type is assignable to `unknown` except `any` and `unknown` itself**. Before an
 `unknown` value can be used, it must be narrowed through a type guard.
 
 ```ts
@@ -146,7 +146,7 @@ let x: undefined = undefined;
 
 TypeScript provides two mechanisms for defining object shapes: **interfaces** and **type aliases**.
 Both support optional properties, readonly properties, and method signatures. However, they differ
-In several important respects.
+in several important respects.
 
 ### Interface Declarations
 
@@ -160,7 +160,7 @@ interface Point {
 ```
 
 Interfaces support **declaration merging**: multiple interface declarations with the same name in
-The same scope are automatically merged into a single interface.
+the same scope are automatically merged into a single interface.
 
 ```ts
 interface Window {
@@ -214,14 +214,14 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 (library authoring, plugin systems). Use **`type`** for unions, intersections, mapped types,
 Conditional types, tuples, and any non-object-shape type. When in doubt, many teams adopt the
 Convention: default to `interface` for object shapes, switch to `type` when the situation requires
-It.
+it.
 
 ## Union and Intersection Types
 
 ### Union Types
 
 A union type `A | B` describes a value that is of type `A` **or** type `B`. The value has access
-Only to the members that are common to all constituents of the union.
+only to the members that are common to all constituents of the union.
 
 ```ts
 type ID = string | number;
@@ -232,7 +232,7 @@ function formatId(id: ID): string {
 ```
 
 When accessing properties or methods on a union, TypeScript permits only those that are shared
-Across all union members:
+across all union members:
 
 ```ts
 function getLength(value: string | string[]): number {
@@ -276,7 +276,7 @@ This type is `never` because no value can be both a `string` and a `number`.
 ## Type Narrowing
 
 Type narrowing is the process by which TypeScript reduces a broad type to a more specific type
-Within a control flow branch. Narrowing is essential for safely working with union types.
+within a control flow branch. Narrowing is essential for safely working with union types.
 
 ### `typeof` Narrowing
 
@@ -439,7 +439,7 @@ type CSSKey =
 ## Type Assertions
 
 Type assertions (`as` syntax or angle-bracket syntax) instruct the compiler to treat an expression
-As a specific type. They perform **no runtime check** and are therefore unsafe.
+as a specific type. They perform **no runtime check** and are therefore unsafe.
 
 ### Syntax
 
@@ -454,7 +454,7 @@ Prefer `as` for consistency.
 ### When Assertions Are Necessary
 
 Type assertions are occasionally required when the programmer has information that the type system
-Cannot infer:
+cannot infer:
 
 1. **DOM element access** -- `document.getElementById` returns `HTMLElement | null`; asserting to a
    specific element type.
@@ -616,7 +616,7 @@ const doubled = numbers.map((n) => n * 2);
 ```
 
 The type of `n` is inferred as `number` from the context (the `map` method of `number[]`), even
-Though the callback has no explicit parameter annotation.
+though the callback has no explicit parameter annotation.
 
 Contextual typing also applies to event handlers, promise callbacks, and object literal assignments:
 
@@ -646,7 +646,7 @@ The return type is inferred as `number | string`.
 ## `const` Assertions (`as const`)
 
 The `as const` assertion instructs TypeScript to infer the narrowest possible (literal) types for
-The expression:
+the expression:
 
 ```ts
 const config = {

@@ -443,7 +443,7 @@ f(1/3, 1/3, -1/3) = \frac{1}{9} + \frac{1}{9} + \frac{1}{9} = \frac{1}{3}
 $$
 
 This is the minimum (the Hessian of $f$ is positive definite, and the constraint set is unbounded
-But $f \geq 0$).
+but $f \geq 0$).
 
 If you get this wrong, revise: Section 4.3 Lagrange Multipliers.
 

@@ -406,7 +406,7 @@ I_{\text{initial} = \frac{\mathcal{E}}{R_1} = \frac{30}{10000} = 3.0\,\text{mA
 $$
 
 (b) At steady state, the capacitor is fully charged and acts as an open circuit. The current flows
-Through $R_1$ and $R_2$ in series.
+through $R_1$ and $R_2$ in series.
 
 $$
 I_{\text{steady} = \frac{\mathcal{E}}{R_1 + R_2} = \frac{30}{10000 + 20000} = 1.0\,\text{mA

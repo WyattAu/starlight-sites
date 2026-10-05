@@ -37,11 +37,11 @@ $$
 
 The SA:V ratio therefore decreases as size increases. This has critical implications: the surface
 Area available for exchange of gases, nutrients, and heat becomes proportionally smaller relative to
-The metabolic demand (proportional to volume).
+the metabolic demand (proportional to volume).
 
 For single-celled organisms, diffusion alone is sufficient because the SA:V ratio is large and
 Diffusion distances are short. Larger, multicellular organisms require specialised exchange surfaces
-And mass transport systems.
+and mass transport systems.
 
 ### 1.2 Adaptations for Efficient Exchange
 
@@ -103,7 +103,7 @@ Pressure decreases below atmospheric pressure. Air flows in.
 
 **Expiration (passive at rest)**: the external intercostal muscles and diaphragm relax. Elastic
 Recoil of the lungs and thoracic wall decreases thoracic volume, increasing intrapulmonary pressure
-Above atmospheric pressure. Air flows out.
+above atmospheric pressure. Air flows out.
 
 **Forced expiration**: internal intercostal muscles contract (ribs move down and in), and abdominal
 Muscles contract (pushing the diaphragm up).
@@ -116,7 +116,7 @@ $$
 
 Tidal volume is the volume of air inhaled or exhaled in one normal breath (approximately
 $500\ \mathrm{cm^3}$ at rest). Breathing rate is the number of breaths per minute (approximately 15
-At rest). Resting ventilation rate is therefore approximately
+at rest). Resting ventilation rate is therefore approximately
 $500 \times 15 = 7500\ \mathrm{cm^3\ min^{-1}}$.
 
 :::caution
@@ -167,7 +167,7 @@ each surrounded by a pair of **guard cells**.
 
 Guard cells control stomatal aperture: when guard cells take up water (by osmosis), they swell and
 Buckle, opening the stomata. When they lose water, they become flaccid and the stomata close. This
-Is regulated by:
+is regulated by:
 
 - Light: stimulates $\mathrm{K^+}$ uptake by guard cells, lowering their water potential.
 - $\mathrm{CO_2}$ concentration: high internal $\mathrm{CO_2}$ causes closure.
@@ -248,7 +248,7 @@ Primarily through stomata.
 
 Transpiration is not a useful process for the plant -- it is an inevitable consequence of opening
 Stomata for gas exchange. However, the evaporative cooling it provides can prevent overheating, and
-The transpiration stream carries mineral ions from roots to shoots.
+the transpiration stream carries mineral ions from roots to shoots.
 
 ## 5. Mammalian Circulatory System
 
@@ -262,7 +262,7 @@ Mammals have a **closed, double circulatory system**:
    right atrium. Oxygenated blood delivers $\mathrm{O_2}$ and nutrients to tissues.
 
 The blood passes through the heart twice per complete circuit, which is efficient because the heart
-Can maintain different pressures for the two circuits. The systemic circulation requires higher
+can maintain different pressures for the two circuits. The systemic circulation requires higher
 Pressure (left ventricle has thicker walls) than the pulmonary circulation.
 
 ### 5.2 Blood Vessels
@@ -278,7 +278,7 @@ Pressure (left ventricle has thicker walls) than the pulmonary circulation.
 
 **Arterioles** have smooth muscle in their walls that can constrict (vasoconstriction) or dilate
 (vasodilation) to redistribute blood flow to tissues with the greatest demand. This is controlled by
-The sympathetic nervous system and local chemical signals (e.g., $\mathrm{CO_2}$ Low pH, low
+the sympathetic nervous system and local chemical signals (e.g., $\mathrm{CO_2}$ Low pH, low
 $\mathrm{O_2}$).
 
 ### 5.3 Cardiac Cycle
@@ -369,7 +369,7 @@ curve left, facilitating $\mathrm{O_2}$ loading.
 
 **Fetal haemoglobin (HbF)** has a higher affinity for $\mathrm{O_2}$ than adult haemoglobin (the
 Curve is shifted left). This allows fetal blood to extract $\mathrm{O_2}$ from maternal blood across
-The placenta, where $p\mathrm{O_2}$ is lower than in the maternal lungs.
+the placenta, where $p\mathrm{O_2}$ is lower than in the maternal lungs.
 
 ### 6.3 Carbon Dioxide Transport
 
@@ -387,7 +387,7 @@ $$
 $$
 
 The $\mathrm{H^+}$ ions are taken up by haemoglobin (acting as a buffer), causing $\mathrm{O_2}$ to
-Be released (the Bohr effect). $\mathrm{HCO_3^-$ ions are exchanged for $\mathrm{Cl^-}$ ions
+be released (the Bohr effect). $\mathrm{HCO_3^-$ ions are exchanged for $\mathrm{Cl^-}$ ions
 (chloride shift) to maintain electrochemical neutrality.
 
 ## 7. Quantitative Gas Exchange: Fick's Law Applications
@@ -424,7 +424,7 @@ concentration Gradient via ventilation and blood flow) all increase the rate of 
 $D = 1.8 \times 10^{-9}\ \mathrm{m^2\ s^{-1}}$. An alveolus has a surface area of
 $A = 200\ \mu\mathrm{m^2}$ and a barrier thickness of $\Delta x = 0.5\ \mu\mathrm{m}$. The
 Concentration of $\mathrm{O_2}$ in alveolar air corresponds to $p\mathrm{O_2} = 13.3\ \mathrm{kPa}$
-And in deoxygenated blood $p\mathrm{O_2} = 5.3\ \mathrm{kPa}$. Estimate the rate of $\mathrm{O_2}$
+and in deoxygenated blood $p\mathrm{O_2} = 5.3\ \mathrm{kPa}$. Estimate the rate of $\mathrm{O_2}$
 Diffusion across this alveolus.
 
 Using Henry's law, $\mathrm{O_2}$ concentration in water is proportional to partial pressure. The
@@ -518,7 +518,7 @@ The cell reaches equilibrium at a pressure potential of $+700\ \mathrm{kPa}$.
 
 **Worked Example 2.** A plant cell is placed in a solution of sucrose with concentration
 $0.3\ \mathrm{mol\ dm^{-3}}$ at $20\ ^\circ\mathrm{C}$. The cell has $\Psi_s = -1000\ \mathrm{kPa}$
-And $\Psi_p = +200\ \mathrm{kPa}$. Describe what happens.
+and $\Psi_p = +200\ \mathrm{kPa}$. Describe what happens.
 
 The solute potential of the external solution is approximately:
 
@@ -695,7 +695,7 @@ the haem groups. These are distinct binding sites and mechanisms.
 <details>
 <summary>Problem 1</summary>
 Explain how the countercurrent flow mechanism in fish gills is more efficient for gas exchange
-Than parallel flow. Use a numerical example.
+than parallel flow. Use a numerical example.
 
 **Answer.** In countercurrent flow, water and blood flow in opposite directions. At every point
 Along the gill plate, the $p\mathrm{O_2}$ in water exceeds that in blood, so there is always a
@@ -704,7 +704,7 @@ $p\mathrm{O_2}
 = 15\ \mathrm{kPa}$ and blood enters with $P\mathrm{O_2} = 5\ \mathrm{kPa}$, by the
 Time water exits its $p\mathrm{O_2}$ may be $7\ \mathrm{kPa}$ But blood at that point has risen to
 Nearly $15\ \mathrm{kPa}$. In parallel flow, water and blood flow in the same direction; equilibrium
-Is reached partway along the gill, and no further $\mathrm{O_2}$ transfer occurs. The countercurrent
+is reached partway along the gill, and no further $\mathrm{O_2}$ transfer occurs. The countercurrent
 System achieves approximately 80% oxygen extraction versus approximately 50% for parallel flow.
 
 <b>If you get this wrong, revise:</b> [Fish: Gills](/biology/exchange-and-transport/)
@@ -760,10 +760,10 @@ Fluid has a different composition from blood plasma.
 Hydrostatic pressure of the blood (generated by cardiac contraction) forces fluid out through the
 Capillary walls, which are permeable to water and small solutes but not to large plasma proteins.
 This filtrate (tissue fluid) bathes the cells. At the venous end, hydrostatic pressure has fallen
-But oncotic pressure (due to plasma proteins remaining in the capillary) is unchanged. The oncotic
+but oncotic pressure (due to plasma proteins remaining in the capillary) is unchanged. The oncotic
 Pressure draws fluid back in. Approximately 90% returns this way; the remaining 10% enters the
 Lymphatic system and drains back into the subclavian veins. Tissue fluid differs from blood plasma
-In that it contains no plasma proteins (too large to leave capillaries) and very few blood cells
+in that it contains no plasma proteins (too large to leave capillaries) and very few blood cells
 (too large to leave). It contains water, glucose, amino acids, ions, and other small dissolved
 Molecules at similar concentrations to plasma.
 
@@ -782,8 +782,8 @@ System. Adaptations include: spiracles with valves to control air entry and redu
 Tracheoles with very small diameter ($\approx 1\ \mu\mathrm{m}$) that penetrate individual cells,
 Providing a very short diffusion pathway; and in larger insects, rhythmic abdominal movements that
 Ventilate the system (mass flow rather than relying on diffusion alone). The system limits body size
-Because gas transport within tracheae relies on diffusion for the final stages, and diffusion is
-Only effective over very short distances (a few hundred micrometres). As body size increases, the
+because gas transport within tracheae relies on diffusion for the final stages, and diffusion is
+only effective over very short distances (a few hundred micrometres). As body size increases, the
 Distance from spiracles to the deepest tissues increases, and diffusion becomes insufficient to meet
 Metabolic demands. This is why giant insects existed in the Carboniferous period when atmospheric
 $\mathrm{O_2}$ was higher (approximately 35% vs. 21% today), increasing the diffusion gradient.
@@ -815,7 +815,7 @@ The dye diffuses $3.2\ \mathrm{mm}$ in 20 minutes at $20\ ^\circ\mathrm{C}$ and 
 20 minutes at $40\ ^\circ\mathrm{C}$. (a) Calculate the rate of diffusion at each temperature.
 (b) The $Q_{10}$ coefficient is defined as the ratio of rates at temperatures differing by
 $10\ ^\circ\mathrm{C}$. Estimate $Q_{10}$ for this process. (c) Explain the effect of temperature on
-The rate of diffusion.
+the rate of diffusion.
 
 **Answer.** (a) Rate at $20\ ^\circ\mathrm{C}$: $\frac{3.2}{20} = 0.16\ \mathrm{mm\ min^{-1}}$.
 
@@ -872,8 +872,8 @@ Vital capacity $= 4200\ \mathrm{cm^3}$ Breathing rate $= 16\ \mathrm{breaths\ mi
 Respiratory minute ventilation $= 7.2\ \mathrm{dm^3\ min^{-1}}$. After 5 minutes of exercise, the
 Breathing rate increases to $28\ \mathrm{breaths\ min^{-1}}$ and tidal volume to $750\ \mathrm{cm^3}$.
 (a) Verify the resting respiratory minute ventilation. (b) Calculate the respiratory minute ventilation
-During exercise. (c) Calculate the volume of air that ventilates the anatomical dead space per minute
-At rest and during exercise, given a dead space volume of $150\ \mathrm{cm^3}$.
+during exercise. (c) Calculate the volume of air that ventilates the anatomical dead space per minute
+at rest and during exercise, given a dead space volume of $150\ \mathrm{cm^3}$.
 
 **Answer.** (a) Respiratory minute ventilation
 $= \text{tidal volume} \times \text{breathing rate} = 450 \times 16 = 7200\ \mathrm{cm^3\ min^{-1}} = 7.2\ \mathrm{dm^3\ min^{-1}}$.

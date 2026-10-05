@@ -808,7 +808,7 @@ Disrupting the network.
 (b) A **switch** (or hub, but a switch is preferred for its intelligence and dedicated bandwidth).
 
 (c) **Advantage over bus:** If one cable or device fails, only that device is affected; the rest of
-The network continues to work. In a bus topology, a backbone cable failure brings down the entire
+the network continues to work. In a bus topology, a backbone cable failure brings down the entire
 Network.
 
 **Disadvantage over bus:** Star topology requires more cabling (each device needs its own cable to
@@ -821,7 +821,7 @@ Backbone cable.
 <summary>Question 2: DNS Resolution</summary>
 
 Explain the steps involved when a user types `www.hkeaa.edu.hk` into a web browser. Your answer
-Should include the role of DNS.
+should include the role of DNS.
 
 Answer:
 
@@ -856,7 +856,7 @@ A company has been assigned the IP address `192.168.10.0` with a subnet mask of 
 Answer:
 
 (a) The subnet mask `255.255.255.192` in binary is `11111111.11111111.11111111.11000000`. The number
-Of host bits is 6 (the number of 0s).
+of host bits is 6 (the number of 0s).
 
 (b) Number of usable hosts = $2^6 - 2 = 64 - 2 = 62$. (Subtract 2 for the network address and
 Broadcast address.)
@@ -1029,7 +1029,7 @@ And easy to install and terminate. The bandwidth of Cat 6 is more than adequate 
 
 (ii) **Fibre optic:** Buildings may be separated by more than 100 m (the maximum for twisted pair).
 Fibre optic supports longer distances, is immune to EMI (important when cables run between buildings
-Near power lines), and provides higher bandwidth for future upgrades.
+near power lines), and provides higher bandwidth for future upgrades.
 
 </details>
 
@@ -1103,8 +1103,8 @@ Data transfer.
 <summary>Question 10: Network Design Scenario</summary>
 
 A school has three computer labs (A, B, C) each with 30 computers, a library with 10 computers, and
-An administrative office with 5 computers. The school wants all computers to be connected to each
-Other and to the internet.
+an administrative office with 5 computers. The school wants all computers to be connected to each
+other and to the internet.
 
 (a) Draw a diagram (describe the topology) showing how you would connect these devices.
 

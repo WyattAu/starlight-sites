@@ -39,7 +39,7 @@ Chromosome or organism level).
 ### Independent Assortment
 
 During Metaphase I, each bivalent (homologous pair) aligns independently at the metaphase plate. For
-An organism with haploid number $n$ Independent assortment alone can produce $2^n$ different gamete
+an organism with haploid number $n$ Independent assortment alone can produce $2^n$ different gamete
 Genotypes.
 
 ---
@@ -162,7 +162,7 @@ Females, since males have only one X chromosome ($XY$).
 ### Autosomal Linkage
 
 Genes on the same chromosome tend to be inherited together (linked). The degree of linkage depends
-On the distance between genes: genes farther apart are more likely to be separated by crossing over.
+on the distance between genes: genes farther apart are more likely to be separated by crossing over.
 
 **Recombination frequency** =
 $\dfrac{\mathrm{number of recombinant offspring}}{\mathrm{total offspring}} \times 100\%$
@@ -305,7 +305,7 @@ PCR amplifies a specific DNA sequence exponentially without the need for living 
 | **Extension**    | $72^\circ\mathrm{C}$       | Taq polymerase synthesises new DNA strands from the primers.     |
 
 Each cycle doubles the number of DNA copies. After $n$ cycles: $\mathrm{copies} = 2^n$ (starting
-From a double-stranded molecule). $25$--$35$ cycles are run.
+from a double-stranded molecule). $25$--$35$ cycles are run.
 
 ### Gel Electrophoresis
 
@@ -449,7 +449,7 @@ For hair length ($Ss \times Ss$): probability of $ss = \dfrac{1}{4}$.
 Combined probability: $\dfrac{1}{4} \times \dfrac{1}{4} = \dfrac{1}{16}$.
 
 The expected fraction of $bbss$ offspring is $\dfrac{1}{16}$ Consistent with the $9:3:3:1$ ratio
-Where the doubly recessive class is $\dfrac{1}{16}$.
+where the doubly recessive class is $\dfrac{1}{16}$.
 
 </details>
 
@@ -457,8 +457,8 @@ Where the doubly recessive class is $\dfrac{1}{16}$.
 <summary>Question 2: Sex-Linked Inheritance</summary>
 
 Haemophilia is an X-linked recessive condition. A woman who is a carrier ($X^HX^h$) marries a man
-Without haemophilia ($X^HY$). Determine the possible genotypes and phenotypes of their children, and
-The probability that a son will have haemophilia.
+without haemophilia ($X^HY$). Determine the possible genotypes and phenotypes of their children, and
+the probability that a son will have haemophilia.
 
 </details>
 
@@ -554,7 +554,7 @@ Mutated mRNA: $5'$-AUG AGC AUC GAU-3' (reading frame shifted from the 4th codon 
 Amino acids: Met -- Ser -- Ile -- Asp
 
 The frameshift altered all amino acids downstream of the insertion site (except the first Met, which
-Was unaffected). This illustrates the severe impact of frameshift mutations on protein structure and
+was unaffected). This illustrates the severe impact of frameshift mutations on protein structure and
 Function.
 
 </details>
@@ -689,7 +689,7 @@ selection acting on MN antigens.
 **Worked Example: Operon Regulation Prediction**
 
 An _E. Coli_ culture is grown in a medium containing both glucose and lactose. Predict the state of
-The lac operon (on or off) and explain the molecular mechanism, including the roles of cAMP and the
+the lac operon (on or off) and explain the molecular mechanism, including the roles of cAMP and the
 CAP protein.
 
 <details>
@@ -787,7 +787,7 @@ Bands at known sizes be essential for this analysis?
 <summary>Problem 3: Extended Response -- Epistasis and Biochemical Pathways</summary>
 
 In Labrador retrievers, coat colour is determined by two genes. Gene $E$ determines whether pigment
-Is deposited in the fur ($E$ = pigment deposited, $e$ = no pigment, yellow coat). Gene $B$
+is deposited in the fur ($E$ = pigment deposited, $e$ = no pigment, yellow coat). Gene $B$
 determines The pigment colour when $E$ is present ($B$ = black, $b$ = brown). A black Labrador
 ($BbEe$) is Crossed with a brown Labrador ($bbEe$). (a) Determine the expected phenotypic ratio. (b)
 Explain Why two yellow Labradors can never produce black or brown puppies. (c) Relate this to the
@@ -799,7 +799,7 @@ concept Of metabolic pathways and how mutations in different enzymes can produce
 <summary>Problem 4: Quantitative -- PCR and DNA Quantification</summary>
 
 A researcher extracts DNA from a crime scene sample and uses quantitative PCR (qPCR) to determine
-The copy number of a specific STR locus. After $25$ cycles of qPCR, the fluorescence threshold is
+the copy number of a specific STR locus. After $25$ cycles of qPCR, the fluorescence threshold is
 Reached at cycle $18$ for the standard ($1000$ copies) and at cycle $21$ for the crime scene sample.
 Given that DNA quantity doubles each cycle, calculate the approximate number of copies in the crime
 Scene sample.
@@ -1102,7 +1102,7 @@ European Populations):
 
 A couple has a family history of cystic fibrosis (CF). The husband's sister has CF. The wife has no
 Family history of CF. The population carrier frequency is $1$ in $25$. (a) Calculate the probability
-That the husband is a carrier. (b) Calculate the probability that their first child will have CF.
+that the husband is a carrier. (b) Calculate the probability that their first child will have CF.
 (c) Explain why genetic counselling would recommend carrier testing for both individuals before
 Providing risk estimates. (d) Describe two prenatal diagnostic techniques that could be used if the
 Couple is at risk.
@@ -1125,7 +1125,7 @@ continued Migration at this rate.
 
 A karyotype shows $47,XX,+13$ (Patau syndrome). (a) Explain the meiotic error that produced this
 Karyotype, identifying whether non-disjunction occurred in Meiosis I or Meiosis II. (b) Explain why
-The mother's age is a significant risk factor for trisomy. (c) Compare and contrast the clinical
+the mother's age is a significant risk factor for trisomy. (c) Compare and contrast the clinical
 Features of trisomy 13, trisomy 18, and trisomy 21. (d) Explain why Patau and Edwards syndromes Have
 much poorer prognoses than Down syndrome.
 
@@ -1230,8 +1230,8 @@ are Present in red blood cells, visible on electrophoresis as two bands).
 **Worked Example: Test Cross and Unknown Genotype**
 
 In pea plants, tall ($T$) is dominant over dwarf ($t$). A tall plant of unknown genotype is crossed
-With a dwarf plant. The cross produces $48$ tall and $52$ dwarf offspring. (a) What was the genotype
-Of the tall parent? (b) Perform a chi-squared test to confirm that the observed ratio fits the
+with a dwarf plant. The cross produces $48$ tall and $52$ dwarf offspring. (a) What was the genotype
+of the tall parent? (b) Perform a chi-squared test to confirm that the observed ratio fits the
 Expected ratio ($p = 0.05$ Critical value $= 3.84$ for $1$ df). (c) Explain why a test cross is Used
 to determine unknown genotypes. (d) If the tall parent were homozygous ($TT$), what offspring Ratio
 would you expect?
@@ -1262,7 +1262,7 @@ Phenotypically tall.
 In guinea pigs, black coat ($B$) is dominant over white ($b$), and short hair ($S$) is dominant over
 Long hair ($s$). Two double heterozygotes ($BbSs \times BbSs$) are crossed. (a) Give the expected
 Phenotypic ratio. (b) Calculate the probability of a black, short-haired guinea pig. (c) Calculate
-The probability of a black, long-haired guinea pig. (d) If $160$ offspring are produced, how many Of
+the probability of a black, long-haired guinea pig. (d) If $160$ offspring are produced, how many Of
 each phenotype are expected?
 
 <details>
@@ -1292,7 +1292,7 @@ each phenotype are expected?
 
 A diploid organism has $2n = 8$ (4 pairs of homologous chromosomes). (a) Calculate the number of
 Possible gamete genotypes from independent assortment alone. (b) If crossing over occurs once in
-Each chromosome pair during prophase I, how does this affect genetic diversity? (c) Calculate the
+each chromosome pair during prophase I, how does this affect genetic diversity? (c) Calculate the
 Number of possible combinations in a zygote formed from the fusion of two gametes. (d) Explain Why
 meiosis is important for sexual reproduction.
 
@@ -1300,14 +1300,14 @@ meiosis is important for sexual reproduction.
 <summary>Solution</summary>
 
 (a) The number of possible gamete genotypes from independent assortment alone is $2^n$ Where $n$ is
-The haploid number. $n = 8/2 = 4$. Number of gamete genotypes $= 2^4 = 16$.
+the haploid number. $n = 8/2 = 4$. Number of gamete genotypes $= 2^4 = 16$.
 
 (b) Crossing over between homologous chromosomes during prophase I produces recombinant chromatids.
 If crossing over occurs once in each of the $4$ bivalents, each pair produces 4 possible chromatid
 Combinations (2 non-crossover + 2 crossover). The number of possible combinations from a single
 Meiosis with crossing over in all $n$ chromosomes is much greater than $2^n$. For each chromosome,
 The number of possible combinations depends on the number of crossovers and their positions. With
-Just one crossover per bivalent, each pair contributes $2^2 = 4$ possible combinations instead of
+just one crossover per bivalent, each pair contributes $2^2 = 4$ possible combinations instead of
 $2^1 = 2$. For $n = 4$ chromosomes: $4^4 = 256$ possible gamete genotypes (compared to $16$ Without
 crossing over).
 
@@ -1441,7 +1441,7 @@ probability of Having an affected child?
 <summary>Answer 14</summary>
 
 (a) The husband's parents are both obligate carriers (they produced an affected child). The husband
-Is unaffected, so his genotype is either $CC$ (probability $1/3$) or $Cc$ (probability $2/3$).
+is unaffected, so his genotype is either $CC$ (probability $1/3$) or $Cc$ (probability $2/3$).
 Probability the husband is a carrier: $2/3$.
 
 Note: among the unaffected siblings of an affected child, the probability of being a carrier is

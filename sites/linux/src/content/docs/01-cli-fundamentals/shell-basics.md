@@ -109,7 +109,7 @@ The shell performs the following steps before executing a command:
 
 :::caution
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
-Are no matching files, the shell behavior depends on the `nullglob` option.
+are no matching files, the shell behavior depends on the `nullglob` option.
 
 ## I/O Redirection
 
@@ -124,7 +124,7 @@ Every process in Linux has three standard file descriptors at startup:
 | 2   | stderr | Terminal            | Error/diagnostic output |
 
 The shell can redirect any file descriptor to a file, another descriptor, a pipe, or a
-Here-document.
+here-document.
 
 ### Basic Redirection Operators
 
@@ -379,7 +379,7 @@ disown -h %1  # prevents SIGHUP on shell exit
 The difference: `nohup` modifies the signal handling of the child process itself, while `disown`
 tells the shell not to send `SIGHUP` when it exits. If the shell crashes (SIGKILL),
 `nohup`-protected processes survive, but `disown`-ed processes may still receive `SIGHUP` depending
-On the terminal driver behavior.
+on the terminal driver behavior.
 
 ## Environment Variables
 

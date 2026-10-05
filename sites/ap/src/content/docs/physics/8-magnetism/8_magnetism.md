@@ -75,7 +75,7 @@ $$
 
 :::note[Example: Force on a semicircular wire]
 A semicircular wire of radius $R$ carries current $I$ in a uniform magnetic field $\vec{B}$ directed
-Into the page. The straight ends of the wire are along the diameter.
+into the page. The straight ends of the wire are along the diameter.
 
 The force on the straight segment of length $2R$ is $F = I(2R)B$ (by the right-hand rule, directed
 Upward). For the curved part, consider a segment at angle $\theta$:
@@ -173,7 +173,7 @@ $$
 ### Field Inside a Long Solenoid
 
 For a solenoid with $n$ turns per unit length carrying current $I$ Choose a rectangular Amperian loop
-With one side inside the solenoid and one outside.
+with one side inside the solenoid and one outside.
 
 $$
 B = \mu_0 n I

@@ -22,7 +22,7 @@ categories:
 
 WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection.
 Unlike HTTP, which follows a request-response model, WebSocket allows either side to send data at
-Any time after the connection is established. This makes WebSockets the protocol of choice for
+any time after the connection is established. This makes WebSockets the protocol of choice for
 Real-time applications: chat, collaboration, financial tickers, live dashboards, gaming, and IoT
 Device control.
 
@@ -162,7 +162,7 @@ FIN=1.
 Masking prevents cache poisoning attacks. A malicious client could craft a WebSocket frame that
 Looks like an HTTP request or response and inject it into a shared cache (e.g., a CDN or proxy).
 Masking ensures that the payload on the wire differs from the actual payload, making it infeasible
-To craft a frame that matches a specific HTTP pattern.
+to craft a frame that matches a specific HTTP pattern.
 
 The RFC 6455 specification requires all client-to-server frames to be masked. Server-to-client
 Frames MUST NOT be masked.
@@ -264,7 +264,7 @@ Client                              Server
 ```
 
 If the sender does not receive a pong within a reasonable timeout, the connection is considered dead
-And should be closed.
+and should be closed.
 :::
 
 :::caution
@@ -274,7 +274,7 @@ Frames and will close the connection if pings are too frequent.
 ## Subprotocols
 
 WebSocket subprotocols allow the client and server to negotiate an application-level protocol on top
-Of WebSocket. This is similar to Content-Type negotiation in HTTP.
+of WebSocket. This is similar to Content-Type negotiation in HTTP.
 
 The client lists supported subprotocols in the `Sec-WebSocket-Protocol` header:
 
@@ -293,7 +293,7 @@ Sec-WebSocket-Protocol: chat.v2
 ```
 
 If the server does not support any of the listed subprotocols, it must not include the header, and
-The client should close the connection (or proceed without a subprotocol).
+the client should close the connection (or proceed without a subprotocol).
 
 Common subprotocol patterns:
 
@@ -493,7 +493,7 @@ const wss = new WebSocketServer({
 
 :::caution
 Automatically by the browser during the HTTP upgrade request, so cookie-based authentication alone
-Is insufficient -- a malicious site can initiate a WebSocket connection to your server with the
+is insufficient -- a malicious site can initiate a WebSocket connection to your server with the
 Victim's cookies. Always verify the Origin header.
 
 ### wss:// (WebSocket Secure)
@@ -585,14 +585,14 @@ Implement heartbeats with a 30-60 second interval and a 10-second pong timeout.
 
 WebSocket messages arrive in the order they were sent within a single connection. However, if the
 Connection is dropped and reconnected, messages sent before the disconnect may be lost. Applications
-Must handle message gaps during reconnection (sequence numbers, message IDs, replay from last
+must handle message gaps during reconnection (sequence numbers, message IDs, replay from last
 Acknowledged message).
 
 ### 3. Ignoring Backpressure
 
 If the server sends messages faster than the client can process them, the client's receive buffer
 Fills up. WebSocket does not have built-in flow control (beyond TCP's flow control). The application
-Must implement backpressure: pause sending when the client is slow, or use a message queue to
+must implement backpressure: pause sending when the client is slow, or use a message queue to
 Buffer.
 
 ### 4. Not Handling Fragmentation

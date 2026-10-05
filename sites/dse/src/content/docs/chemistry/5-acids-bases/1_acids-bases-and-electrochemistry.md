@@ -633,7 +633,7 @@ Without the solutions mixing directly.
 ### Electrode Potentials
 
 The **standard electrode potential** ($E^\circ$) is the potential difference between a half-cell and
-The standard hydrogen electrode (SHE) under standard conditions (298 K, 1 mol/dm$^3$1 atm).
+the standard hydrogen electrode (SHE) under standard conditions (298 K, 1 mol/dm$^3$1 atm).
 
 The SHE is assigned $E^\circ = 0.00 \mathrm{ V}$.
 
@@ -863,7 +863,7 @@ When base ($\mathrm{OH}^-$) is added:
 $$
 \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^- \to \mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O}
 $$
-The weak acid neutralises the added $\mathrm{OH}^-$.
+the weak acid neutralises the added $\mathrm{OH}^-$.
 
 ### Henderson-Hasselbalch Equation
 
@@ -945,7 +945,7 @@ $\mathrm{p}K_a \pm 1$.
 
 $25.0 \mathrm{ cm}^3$ of $0.100 \mathrm{ mol/dm}^3$ ethanoic acid ($\mathrm{CH}_3\mathrm{COOH}$
 $K_a = 1.8 \times 10^{-5}$) is titrated with $0.100 \mathrm{ mol/dm}^3$ $\mathrm{NaOH}$. Find the pH
-At the equivalence point.
+at the equivalence point.
 
 At equivalence point: moles of $\mathrm{NaOH}$ = moles of $\mathrm{CH}_3\mathrm{COOH}$
 

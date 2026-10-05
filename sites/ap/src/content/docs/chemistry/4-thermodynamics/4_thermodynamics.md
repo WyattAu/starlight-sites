@@ -29,7 +29,7 @@ $$
 $$
 
 Where $q$ is heat and $w$ is work. The first law is a statement of energy conservation: any change
-In the internal energy of a system must be accounted for by heat flow and work done.
+in the internal energy of a system must be accounted for by heat flow and work done.
 
 ### Sign Convention (Chemistry)
 
@@ -807,8 +807,8 @@ $\Delta H - T\Delta S \lt 0$
 
 Since $\Delta H = -36.0 \mathrm{ kJ/mol$ (negative) and $\Delta S = +347 \mathrm{ J/(mol\cdot K)$
 (positive), both terms favour spontaneity. The reaction is spontaneous at all temperatures. There is
-No upper temperature limit because the $-T\Delta S$ term always contributes negatively to $\Delta G$
-When $\Delta S$ is positive.
+no upper temperature limit because the $-T\Delta S$ term always contributes negatively to $\Delta G$
+when $\Delta S$ is positive.
 
 </details>
 
@@ -816,7 +816,7 @@ When $\Delta S$ is positive.
 <summary>Question 3: Calorimetry and specific heat</summary>
 
 A $50.0 \mathrm{ g$ sample of an unknown metal is heated to $100.0^\circ\mathrm{C$ and then placed
-In $100.0 \mathrm{ g$ of water at $25.0^\circ\mathrm{C$ in a coffee-cup calorimeter. The final
+in $100.0 \mathrm{ g$ of water at $25.0^\circ\mathrm{C$ in a coffee-cup calorimeter. The final
 Temperature of the mixture is $28.8^\circ\mathrm{C$. Calculate the specific heat capacity of the
 Metal. Assume no heat loss to the calorimeter.
 

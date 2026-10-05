@@ -25,7 +25,7 @@ Equation $\partial^2 u/\partial x^2 = (1/v^2)\partial^2 u/\partial t^2$. Identif
 Meaning of each term and find the condition on $\omega$ and $k$.
 
 **3.** A wave packet in a dispersive medium has central angular frequency $\omega_0 = 10^{15}$ rad/s
-And bandwidth $\Delta\omega = 10^{12}$ rad/s. The group velocity dispersion is
+and bandwidth $\Delta\omega = 10^{12}$ rad/s. The group velocity dispersion is
 $\alpha = d^2\omega/dk^2 = 2.0 \times 10^6$ m$^2$/s. Estimate the time required for the packet To
 double in spatial width after travelling a distance of 1.0 m.
 
@@ -70,7 +70,7 @@ width is Needed to resolve these lines in the second order?
 
 **14.** The Hubble Space Telescope has a primary mirror of diameter $D = 2.4$ m. Calculate its
 Angular resolution at $\lambda = 500$ nm in both radians and arcseconds. A ground-based telescope
-With $D = 8$ m operates under atmospheric seeing of $1.0''$. Which telescope achieves better
+with $D = 8$ m operates under atmospheric seeing of $1.0''$. Which telescope achieves better
 Resolution, and why?
 
 **15.** Unpolarised light of intensity $I_0$ passes through two ideal linear polarisers whose

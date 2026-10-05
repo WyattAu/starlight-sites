@@ -86,8 +86,8 @@ $5200/7.0 = \$743$ USD (vs $5200/7.8 = \$667$ USD before). Hong Kong's exports b
 Expensive.
 
 (d) Purchasing Power Parity (PPP) states that exchange rates should adjust so that identical baskets
-Of goods cost the same in all countries. PPP exchange rate $= \frac{P_D}{P_F}$. If the PPP rate for
-The smartphone is $5200/600 = 8.67$ HKD per USD, but the actual rate is 7.8, the HKD is
+of goods cost the same in all countries. PPP exchange rate $= \frac{P_D}{P_F}$. If the PPP rate for
+the smartphone is $5200/600 = 8.67$ HKD per USD, but the actual rate is 7.8, the HKD is
 **overvalued** relative to PPP (fewer HKD per dollar than PPP suggests). In the long run, PPP
 Predicts the HKD should depreciate to equalise prices.
 
@@ -139,7 +139,7 @@ The central bank wants to maintain this peg but there is capital outflow (invest
 USD), explain what the central bank must do and the consequences for the domestic money supply. (b)
 If the country simultaneously faces high unemployment, explain why the fixed exchange rate
 Constrains monetary policy (the impossible trinity). (c) Calculate the impact if the central bank
-Must sell USD 5 billion from reserves to defend the peg, given a money multiplier of 4.
+must sell USD 5 billion from reserves to defend the peg, given a money multiplier of 4.
 
 **Solution:**
 
@@ -191,7 +191,7 @@ $DWL = |\Delta CS - \Delta PS - quota rent| = |{-3993.75} - 1631.25 - 1350| = |{
 
 (c) Quota rent goes to **import licence holders** (foreign exporters if they hold the licences, or
 Domestic importers if allocated by the government). With a tariff, the equivalent revenue goes to
-The **domestic government**. This is a key difference: tariffs generate government revenue while
+the **domestic government**. This is a key difference: tariffs generate government revenue while
 Quotas create quota rents that may benefit foreign producers.
 
 (d) If steel has positive externalities (e.g., national security, technology spillovers), the free
@@ -215,7 +215,7 @@ how a persistent current account deficit relates to national savings and Investm
 $= (300 - 400) + (150 - 100) + (-50) + 20$ $= -100 + 50 - 50 + 20 = -\$80$ billion (deficit).
 
 (b) Assuming no change in reserve assets: Capital and financial account $= +\$80$ billion (surplus
-To balance the current account deficit).
+to balance the current account deficit).
 
 (c) BOP identity: Current Account $+$ Capital Account $+$ Financial Account $+$ Reserve Assets
 $= 0$. $-80 + 0 + 80 + 0 = 0$. The identity holds.
@@ -223,7 +223,7 @@ $= 0$. $-80 + 0 + 80 + 0 = 0$. The identity holds.
 (d) From the national income identity: $(S - I) + (T - G) = (X - M)$.
 
 A current account deficit $(X \lt M)$ means the country is spending more on imports than it earns
-From exports. This must be financed by: (1) foreign borrowing (financial account surplus), or (2)
+from exports. This must be financed by: (1) foreign borrowing (financial account surplus), or (2)
 Running down foreign reserves. Equivalently, $S - I \lt 0$ Meaning domestic investment exceeds
 Domestic saving. The country is importing capital to finance investment that exceeds domestic
 Savings. This is sustainable if the borrowed funds are invested productively (generating future

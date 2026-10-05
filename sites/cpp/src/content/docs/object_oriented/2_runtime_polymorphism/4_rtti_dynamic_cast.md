@@ -44,7 +44,7 @@ Vtable contains a pointer to its `std::type_info` object.
 ### RTTI Implementation in the Itanium ABI
 
 Under the Itanium C++ ABI, the vtable layout includes a pointer to the `std::type_info` object for
-The class. The vtable structure is:
+the class. The vtable structure is:
 
 ```
 vtable for class C:
@@ -62,7 +62,7 @@ The `type_info` object stores:
 - A pointer to the base class type_info list (for `dynamic_cast` hierarchy traversal).
 
 This structure enables `dynamic_cast` to walk the base class chain and compute pointer adjustments
-At runtime.
+at runtime.
 
 :::caution
 Metadata) and may enable further optimizations. However, it also makes `dynamic_cast` and `typeid`
@@ -146,11 +146,11 @@ Comparison -- $O(1)$.
 
 **Down-cast (multiple inheritance):** `T` is derived from the static type of `*p` through a
 Non-primary base. The implementation walks the base class list stored in `type_info` and computes
-The pointer offset. Cost is $O(d)$ where $d$ is the number of direct base classes ( 1--3).
+the pointer offset. Cost is $O(d)$ where $d$ is the number of direct base classes ( 1--3).
 
 **Cross-cast:** `T` is a sibling base class of the static type of `*p`. The implementation finds the
 Most-derived type, then walks the base class list to find `T` and compute the offset. Cost is $O(b)$
-Where $b$ is the total number of base classes in the most-derived type.
+where $b$ is the total number of base classes in the most-derived type.
 
 **Cast to `void*`:** Returns a pointer to the most-derived object. Cost is $O(1)$ -- a single offset
 Lookup.
@@ -358,13 +358,13 @@ int main() {
 For small, stable type hierarchies. However, adding a new derived type requires updating every
 `dynamic_cast` chain. The Visitor pattern localizes changes: adding a new visitor doesn't modify
 Existing types, and adding a new type doesn't modify existing visitors (it only requires extending
-The visitor interface).
+the visitor interface).
 :::
 
 ## 4.6 `dynamic_cast` with Multiple and Virtual Inheritance
 
 When multiple or virtual inheritance is involved, `dynamic_cast` performs a more complex traversal
-Of the class hierarchy. The Itanium C++ ABI stores base-to-derived offset information in the vtable
+of the class hierarchy. The Itanium C++ ABI stores base-to-derived offset information in the vtable
 (through `typeinfo` and base class offset tables), and `dynamic_cast` walks these structures to
 Determine whether a cast is valid and to compute the pointer adjustment.
 
@@ -430,7 +430,7 @@ Casts through virtual bases, the cost is $O(d)$ where $d$ is the depth of the DA
 ## 4.7 `dynamic_cast` to `void*`: The Most-Derived Type
 
 A `dynamic_cast&lt;void*>(expr)` where `expr` is a pointer to a polymorphic type yields a pointer to
-The **most-derived object** [N4950 S7.6.1.7]. This is useful for implementing `memcmp`-style
+the **most-derived object** [N4950 S7.6.1.7]. This is useful for implementing `memcmp`-style
 Identity checks or determining the root of an object's allocation:
 
 ```cpp
@@ -587,7 +587,7 @@ int main() {
 ```
 
 Cost: $O(1)$ per dispatch (switch on enum). Downside: requires manual maintenance of the enum and
-Does not handle deep hierarchies well.
+does not handle deep hierarchies well.
 
 #### Alternative 2: `std::variant` (Closed Type Set)
 
@@ -743,7 +743,7 @@ int main() {
 
 Typical results show `dynamic_cast` is 2--5x slower than a manual tag check for single inheritance,
 But the absolute cost is still only a few nanoseconds per call. The overhead becomes significant
-Only in tight inner loops processing millions of objects.
+only in tight inner loops processing millions of objects.
 
 ## Intuition
 
@@ -757,7 +757,7 @@ Where `Base` has no virtual functions is a **compile-time error** [N4950 S7.6.1.
 `static_cast` instead for downcasting non-polymorphic types (at your own risk -- no runtime check).
 
 **2. `dynamic_cast` and undefined behavior:** The Standard specifies that if the object pointed to
-By the operand is not actually of the target type (or a type derived from it), the behavior of
+by the operand is not actually of the target type (or a type derived from it), the behavior of
 `dynamic_cast&lt;T*>(p)` is **implementation-defined** when `p` points to an incomplete type, and
 Returns `nullptr` otherwise [N4950 S7.6.1.7]. Never rely on `dynamic_cast` succeeding with
 Incomplete types.

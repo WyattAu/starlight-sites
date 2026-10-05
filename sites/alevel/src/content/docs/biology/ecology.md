@@ -37,7 +37,7 @@ And position of a species within its ecosystem: how it obtains food, its interac
 Species, and its abiotic requirements.
 
 The **competitive exclusion principle** (Gause, 1934) states that two species cannot occupy exactly
-The same niche in the same habitat indefinitely. If they do, one will outcompete the other. In
+the same niche in the same habitat indefinitely. If they do, one will outcompete the other. In
 Practice, species with similar niches coexist through **resource partitioning**: they exploit
 Slightly different resources or are active at different times.
 
@@ -77,7 +77,7 @@ Where $R$ is the energy lost through plant respiration.
 
 NPP is the fundamental measure of ecosystem productivity and determines the maximum biomass of
 Consumers that can be supported. Tropical rainforests and coral reefs have the highest NPP; deserts
-And tundra have the lowest.
+and tundra have the lowest.
 
 ### 1.4 Energy Transfer and Ecological Efficiency
 
@@ -89,7 +89,7 @@ Energy is lost at each trophic level through:
 
 The proportion of energy transferred from one trophic level to the next is only 10%--20%
 (**ecological efficiency**). This means that energy available at each successive level is much less
-Than at the previous level, explaining why food chains are limited to 3--5 trophic levels.
+than at the previous level, explaining why food chains are limited to 3--5 trophic levels.
 
 **Pyramids of number, biomass, and energy:**
 
@@ -138,7 +138,7 @@ $$
 $$
 
 When $N \ll K$ Growth is approximately exponential. When $N$ approaches $K$ Growth rate declines
-Towards zero. If $N \gt K$ The population overshoots and declines.
+towards zero. If $N \gt K$ The population overshoots and declines.
 
 ### 2.2 Population Regulation
 
@@ -381,7 +381,7 @@ Agricultural fertilisers and industrial processes.
 Biodiversity provides **ecosystem services**: pollination of crops, water purification, soil
 Formation, nutrient cycling, carbon sequestration, flood control, and raw materials (food, medicine,
 Timber). High biodiversity also increases ecosystem resilience: diverse ecosystems are better able
-To withstand and recover from disturbances.
+to withstand and recover from disturbances.
 
 ### 7.2 Conservation Strategies
 
@@ -470,7 +470,7 @@ within rounding).
 
 **Worked Example 2.** A population of rabbits has carrying capacity $K = 500$ and intrinsic rate of
 Increase $r = 1.2\ \mathrm{yr^{-1}}$. If the current population is $N = 100$ What is the current rate
-Of population growth?
+of population growth?
 
 $$
 \frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right) = 1.2 \times 100 \times \left(1 - \frac{100}{500}\right) = 120 \times 0.8 = 96\ \mathrm{individuals\ yr^{-1}}
@@ -513,7 +513,7 @@ captured by Producers ( less than 3%).
 
 **Worked Example.** A farmer applies $150\ \mathrm{kg\ ha^{-1}}$ of ammonium nitrate fertiliser
 ($\mathrm{NH_4NO_3}$ Molar mass $= 80\ \mathrm{g\ mol^{-1}}$). Calculate the mass of nitrogen applied
-Per hectare.
+per hectare.
 
 Molar mass of $\mathrm{NH_4NO_3} = 2(14) + 4(1) + 3(16) = 80\ \mathrm{g\ mol^{-1}}$.
 
@@ -651,7 +651,7 @@ Current: $[\mathrm{H^+}] = 10^{-8.07} = 8.51 \times 10^{-9}\ \mathrm{mol\ dm^{-3
 Change: $\frac{8.51 - 6.61}{6.61} \times 100\% = 28.7\%$ increase in $[\mathrm{H^+}]$.
 
 A change of 0.11 pH units represents a 29% increase in hydrogen ion concentration, illustrating that
-Even small changes in pH reflect significant chemical changes.
+even small changes in pH reflect significant chemical changes.
 
 **Biological consequences**: decreased $[\mathrm{CO_3^{2-}}$ reduces the saturation state of calcium
 Carbonate ($\mathrm{CaCO_3}$), making it more difficult for marine organisms to build and maintain
@@ -698,10 +698,10 @@ Describe the process of eutrophication and explain its ecological consequences.
 **Answer.** Nitrates and phosphates enter the lake, providing excess nutrients. This stimulates
 Rapid growth of algae, forming a dense algal bloom on the surface. The algal layer blocks light from
 Reaching submerged plants, which can no longer photosynthesise and die. Dead algae and dead plants
-Are decomposed by aerobic bacteria, whose populations increase dramatically. These bacteria consume
+are decomposed by aerobic bacteria, whose populations increase dramatically. These bacteria consume
 Dissolved oxygen from the water through respiration, causing dissolved oxygen levels to fall
 (hypoxia). When oxygen levels drop too low, fish and other aerobic organisms die. Anaerobic bacteria
-Then dominate decomposition, producing toxic substances (hydrogen sulfide, methane) that further
+then dominate decomposition, producing toxic substances (hydrogen sulfide, methane) that further
 Degrade water quality. The ecological consequences include loss of biodiversity (death of fish,
 Invertebrates, and plants), disruption of food webs, and potentially irreversible ecosystem damage.
 
@@ -757,13 +757,13 @@ Living organisms despite constant losses through denitrification.
 <details>
 <summary>Problem 4</summary>
 Explain the difference between primary and secondary succession, giving an example of each. Why
-Does secondary succession generally proceed faster?
+does secondary succession generally proceed faster?
 
 **Answer.** Primary succession occurs on bare, lifeless substrate where no soil exists (e.g.,
 Volcanic lava, glacial moraine, sand dunes). It begins with the colonisation by pioneer species
 (lichens, salt-tolerant grasses) that can tolerate harsh conditions and begin the slow process of
 Soil formation through the accumulation of organic matter from dead organisms. Example: succession
-On sand dunes beginning with _Lyme grass_ and progressing through marram grass, herbs, shrubs, and
+on sand dunes beginning with _Lyme grass_ and progressing through marram grass, herbs, shrubs, and
 Eventually woodland. Secondary succession occurs on previously colonised land where the existing
 Community has been removed but soil remains (e.g., after a forest fire, abandoned farmland, or
 Clearance). It proceeds faster because soil (with its nutrients, seed bank, and microorganisms) is
@@ -787,7 +787,7 @@ Continue. National parks and reserves can also provide economic benefits through
 However, in situ conservation is vulnerable to habitat destruction, climate change, and political
 Instability, and requires large areas of land. Ex situ conservation (zoos, seed banks, botanical
 Gardens) provides a safety net for species whose habitat has been destroyed or whose wild population
-Is critically low. Seed banks are cost-effective and can store genetic diversity for centuries.
+is critically low. Seed banks are cost-effective and can store genetic diversity for centuries.
 Captive breeding can prevent imminent extinction. However, ex situ conservation cannot replicate
 Natural selection pressures, may lead to loss of behaviours learned in the wild, suffers from
 Reduced genetic diversity in small captive populations (inbreeding depression), and is extremely
@@ -810,12 +810,12 @@ The enhanced greenhouse effect refers to the additional warming caused by increa
 Concentrations of these gases due to human activities. Evidence: (1) Atmospheric $\mathrm{CO_2}$ has
 Risen from approximately $280\ \mathrm{ppm}$ (pre-industrial) to over $420\ \mathrm{ppm}$ (2024),
 Directly correlated with fossil fuel combustion (ice core data show current levels are unprecedented
-In the last 800,000 years). (2) Global average temperature has risen by approximately
+in the last 800,000 years). (2) Global average temperature has risen by approximately
 $1.1\ ^\circ\mathrm{C}$ since 1850, with the rate of increase accelerating. (3) Isotopic analysis of
 Atmospheric $\mathrm{CO_2}$ shows an increasing proportion of $^{13}\mathrm{C}$-depleted carbon,
 Consistent with fossil fuel combustion (fossil fuels are depleted in $^{13}\mathrm{C}$). (4) Ocean
 Acidification (pH has decreased by approximately 0.1 units since pre-industrial times) is consistent
-With increased $\mathrm{CO_2}$ absorption. (5) Atmospheric $\mathrm{CH_4}$ and $\mathrm{N_2O}$ have
+with increased $\mathrm{CO_2}$ absorption. (5) Atmospheric $\mathrm{CH_4}$ and $\mathrm{N_2O}$ have
 Risen in parallel with agricultural and industrial expansion. These lines of evidence together
 Establish a causal link between human activities and global warming.
 

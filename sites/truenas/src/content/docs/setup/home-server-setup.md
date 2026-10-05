@@ -33,7 +33,7 @@ For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload:
 
 Avoid high-TDP desktop CPUs unless you are comfortable with power consumption and thermals. ECC
 Support is a nice-to-have but not required for ZFS; uncorrectable errors from non-ECC RAM are rare
-In homelab workloads.
+in homelab workloads.
 
 ### RAM
 
@@ -45,7 +45,7 @@ Point, but in practice:
 - **Sweet spot**: 64 GB DDR4 ECC UDIMMs (two 32 GB sticks) on a Supermicro or ASRock Rack board
 
 Do not run ZFS with less than 8 GB. The ARC (Adaptive Replacement Cache) will starve and performance
-Will tank. ECC RAM is recommended but not mandatory, ZFS has its own checksumming at the block
+will tank. ECC RAM is recommended but not mandatory, ZFS has its own checksumming at the block
 Level.
 
 ### Storage Drives
@@ -439,7 +439,7 @@ Never skip scrubs. A monthly scrub schedule is the minimum for data integrity as
 
 ZFS identifies drives by GUID, not by /dev/sdX names. This means drive reordering does not affect
 Pool import. However, if you are using a USB enclosure, drives may enumerate differently. Always use
-The TrueNAS web UI for pool management, never manually import with `zpool import` unless you know
+the TrueNAS web UI for pool management, never manually import with `zpool import` unless you know
 Exactly what you are doing.
 
 </details>

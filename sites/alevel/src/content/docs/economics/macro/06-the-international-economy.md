@@ -24,9 +24,9 @@ categories:
 
 :::note
 Numerical examples and covers the Ricardian and Heckscher-Ohlin models. **AQA** focuses on the gains
-From trade and limitations of the comparative advantage model. **Edexcel** emphasises diagrammatic
+from trade and limitations of the comparative advantage model. **Edexcel** emphasises diagrammatic
 Analysis of trade flows and the UK"s trade relationships. **OCR (A)** covers trade theory alongside
-The impact of MNCs and requires evaluation of trade policies.
+the impact of MNCs and requires evaluation of trade policies.
 :::
 
 ### 1.1 Absolute vs Comparative Advantage
@@ -208,7 +208,7 @@ $$
 $$
 
 Advantages: certainty for trade and investment, discipline on monetary policy (cannot inflate away
-The peg), reduces speculative volatility.
+the peg), reduces speculative volatility.
 
 Disadvantages: requires large foreign reserves, loss of independent monetary policy (impossible
 Trinity), vulnerability to speculative attacks (e.g., Soros vs Bank of England, 1992, Black
@@ -511,8 +511,8 @@ Deteriorated? (c) Explain why this may not be entirely beneficial.
 
 **Problem 3.** The exchange rate falls from $1.50/£ to $1.20/£. (a) Has the pound appreciated or
 Depreciated? (b) If the price elasticity of demand for exports is 0.6 and for imports is 0.8, use
-The Marshall-Lerner condition to determine the short-run effect on the current account. (c) Explain
-The J-curve effect.
+the Marshall-Lerner condition to determine the short-run effect on the current account. (c) Explain
+the J-curve effect.
 
 <details>
 <summary>Hint</summary>

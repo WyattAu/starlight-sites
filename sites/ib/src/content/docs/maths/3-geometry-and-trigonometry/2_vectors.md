@@ -23,7 +23,7 @@ categories:
 ### Parametric Form
 
 A vector line ($r$) in parametric form takes a scalar parameter ($\gamma$) to produce each point on
-The line. The line ($\bm{r}(\gamma)$) is a sum of a point on a line ($\bm{a}$ or $\bm{r_0}$) and a
+the line. The line ($\bm{r}(\gamma)$) is a sum of a point on a line ($\bm{a}$ or $\bm{r_0}$) and a
 Direction vector ($\bm{b}$) scaled by the parameter $\gamma$:
 
 $$
@@ -335,7 +335,7 @@ To find where line $\bm{r} = \bm{a} + t\bm{b}$ intersects plane $\bm{r} \cdot \h
 
 **Problem:** Find the intersection of line
 $\bm{r} = \begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix} + t\begin{pmatrix} 2 \\ 1 \\ -1 \end{pmatrix}$
-With plane $2x - y + z = 5$.
+with plane $2x - y + z = 5$.
 
 **Solution:**
 
@@ -444,7 +444,7 @@ $$
 
 :::tip
 Your answer by substituting the point back into both equations. Common errors include sign mistakes
-In the cross product and forgetting to take the absolute value in distance formulas.
+in the cross product and forgetting to take the absolute value in distance formulas.
 :::
 
 ---
@@ -691,7 +691,7 @@ $d = (1)(2) + (1)(1) + (1)(0) = 3$. Plane equation: $x + y + z = 3$.
 
 Find the point of intersection of the line
 $\bm{r} = \begin{pmatrix} 1 \\ -1 \\ 2 \end{pmatrix} + t\begin{pmatrix} 3 \\ 2 \\ -1 \end{pmatrix}$
-With the plane $2x - y + 2z = 8$.
+with the plane $2x - y + 2z = 8$.
 
 </details>
 
@@ -745,7 +745,7 @@ $D = \frac{|-1 - 6|}{3} = \frac{7}{3}$.
 
 Find the shortest distance between the skew lines:
 $L_1: \bm{r} = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} + s\begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}$
-And
+and
 $L_2: \bm{r} = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} + t\begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}$.
 
 </details>

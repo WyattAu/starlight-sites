@@ -55,7 +55,7 @@ User application
 
 **Driver loading.** Most modern OSes support loadable kernel modules (LKMs): drivers loaded at
 Runtime without rebooting. On Linux: `insmod``modprobe`. This allows third-party hardware support
-Without kernel recompilation.
+without kernel recompilation.
 
 ### 7.3 I/O Scheduling
 

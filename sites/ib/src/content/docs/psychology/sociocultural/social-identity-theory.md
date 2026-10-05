@@ -18,7 +18,7 @@ description: "Social identity theory (SIT), developed by Henri Tajfel and John T
 ## Introduction
 
 Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the
-Most influential theories in social psychology. It explains how individuals derive part of their
+most influential theories in social psychology. It explains how individuals derive part of their
 Self-concept from their membership in social groups, and how this social identity drives intergroup
 Behaviour, including prejudice, discrimination, and cooperation.
 
@@ -46,17 +46,17 @@ Categories (e.g., "us" versus "them," "British" versus "French," "students" vers
 Categorisation simplifies the social environment by reducing its complexity, allowing individuals to
 Perceive themselves and others as members of groups rather than as unique individuals. Once
 Categories are established, people tend to perceive members of the same category as more similar to
-Each other (in-group homogeneity) and more different from members of other categories (out-group
+each other (in-group homogeneity) and more different from members of other categories (out-group
 Differentiation) than is actually the case.
 
 **2. Social identification:** The process of adopting the identity of the group to which one
 Belongs. Individuals internalise the norms, values, beliefs, and behaviours associated with their
-In-group, and their self-concept becomes intertwined with the group's identity. The individual's
+in-group, and their self-concept becomes intertwined with the group's identity. The individual's
 Behaviour begins to conform to group norms, and the individual may act in ways that benefit the
 Group even at personal cost.
 
 **3. Social comparison:** The process of comparing one's in-group with relevant out-groups. People
-Have a fundamental need for positive self-esteem (which they seek to satisfy through their social
+have a fundamental need for positive self-esteem (which they seek to satisfy through their social
 Identity). To maintain positive social identity, people engage in intergroup comparisons that favour
 Their in-group. This leads to:
 
@@ -74,7 +74,7 @@ Achieved when the in-group is perceived as positively different from relevant ou
 Dimensions that are important to the in-group. The dimensions of comparison are not fixed; groups
 Select comparison dimensions that favour their in-group (this is known as the strategy of "social
 Creativity"). For example, a group that is lower in socioeconomic status may compare itself with
-Out-groups on dimensions such as morality, community spirit, or cultural richness, where it can
+out-groups on dimensions such as morality, community spirit, or cultural richness, where it can
 Claim superiority.
 
 ## Key Studies
@@ -124,7 +124,7 @@ Conflict of interest, prior acquaintance, or meaningful differences between the 
 ### Sherif (1966): The Robbers Cave Experiment
 
 Muzafer Sherif's Robbers Cave experiment provides a field-based investigation of intergroup conflict
-And cooperation. The experiment was conducted at a summer camp in Oklahoma with 22 twelve-year-old
+and cooperation. The experiment was conducted at a summer camp in Oklahoma with 22 twelve-year-old
 Boys who were randomly assigned to two groups (the Eagles and the Rattlers).
 
 **Phase 1 -- In-group formation:** The two groups were kept separate and engaged in cooperative
@@ -159,7 +159,7 @@ Cross-group friendships formed.
 Realistic conflict theory, proposed by Sherif (1966), explains intergroup conflict as a result of
 Competition over scarce resources (such as money, land, political power, or social status).
 According to this theory, prejudice and discrimination are rational responses to realistic threats
-To the in-group's interests, not merely the product of cognitive categorisation processes.
+to the in-group's interests, not merely the product of cognitive categorisation processes.
 
 ### Relationship between SIT and Realistic Conflict Theory
 

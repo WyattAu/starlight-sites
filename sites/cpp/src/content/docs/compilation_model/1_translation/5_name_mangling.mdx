@@ -101,7 +101,7 @@ namespace net \{
 ### Substitution Compression
 
 A critical optimization in the Itanium ABI is **substitution**. When a name appears multiple times
-In a mangled symbol, subsequent occurrences are replaced with a reference (`S_, S0_, S1_` Etc.).
+in a mangled symbol, subsequent occurrences are replaced with a reference (`S_, S0_, S1_` Etc.).
 This prevents mangled names from growing exponentially for deeply nested types.
 
 Consider:
@@ -185,7 +185,7 @@ void process(std::map<std::string, std::vector<T>>);
 
 An instantiation like `process&lt;int&gt;(...)` produces a deeply nested mangling because `std::map`
 And `std::vector` each carry their full template argument lists. For complex types, mangled names
-Can exceed 1000 characters.
+can exceed 1000 characters.
 
 ```bash
 ## View the longest mangled names in a binary
@@ -310,7 +310,7 @@ c_library_register_callback(my_callback);
 Mixing function pointers with different linkage is undefined behavior [N4950 S10.5 p7]. A
 
 Function pointer of type `extern "C"` and one of type C++ linkage are different types, even if they
-Have the same parameter and return types. Passing one where the other is expected is UB.
+have the same parameter and return types. Passing one where the other is expected is UB.
 </Aside>
 
 ## 5. Inspection and Demangling Tools
@@ -511,7 +511,7 @@ void foo(int x) \{
 
 Heavy template usage results in massive symbol names. A
 `std::map&lt;std::string, std::vector&lt;MyCustomClass&gt;&gt;` might result in a mangled string
-That is 400+ characters long.
+that is 400+ characters long.
 
 - **Impact:** This bloats the string table of the binary, increasing executable size on disk.
 - **Mitigation:** `extern template` prevents instantiating the same symbols in every object file.
@@ -536,7 +536,7 @@ Allow compatibility.
 On ELF platforms, symbols are exported from shared libraries by default. This means all mangled C++
 Symbols are visible in the dynamic symbol table, increasing binary size and load time. Use
 `-fvisibility=hidden` and explicit `__attribute__((visibility("default")))` to control which symbols
-Are exported:
+are exported:
 
 ```cmake
 # CMake: hide all symbols by default
@@ -592,7 +592,7 @@ namespace V1 \{
 ```
 
 The mangled name for `V1::Config` is `_ZN2V16ConfigE` (the inline namespace `Detail` does not appear
-In the mangled name for most lookup contexts). However, the full mangled name for
+in the mangled name for most lookup contexts). However, the full mangled name for
 `V1::Detail::Config` would include `Detail`. The exact behavior depends on whether the lookup
 Resolves through the inline namespace or directly.
 
@@ -645,13 +645,13 @@ void process(T x);  // Same mangled name as above: _Z7processIiEvT_ (for int)
 ```
 
 This is not a practical problem because the compiler rejects the second definition as a redefinition
-At compile time. The standard prohibits defining two templates with the same name and parameter list
-But different constraints [N4950 S13.7.3 p6].
+at compile time. The standard prohibits defining two templates with the same name and parameter list
+but different constraints [N4950 S13.7.3 p6].
 
 ## 12. Mangling and `noexcept` Specifications
 
 Per the Itanium ABI, `noexcept` is part of the function type and **does** affect mangling in C++17
-And later. A `noexcept` function and a potentially-throwing function with the same name and
+and later. A `noexcept` function and a potentially-throwing function with the same name and
 Parameters produce different mangled names:
 
 ```cpp
@@ -660,7 +660,7 @@ void bar(int x) noexcept;     // _Z3barNi (note the 'N' suffix for noexcept)
 ```
 
 This can cause subtle linker errors when a function is declared `noexcept` in one TU but not in
-Another. The mangled names differ, and the linker reports an undefined reference. The fix is to
+another. The mangled names differ, and the linker reports an undefined reference. The fix is to
 Ensure the `noexcept` specification is consistent across all declarations.
 
 <Aside type="caution">

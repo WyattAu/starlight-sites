@@ -36,7 +36,7 @@ Ends. It generalises both stacks (LIFO) and queues (FIFO).
 ### Circular Buffer Implementation
 
 A circular buffer (ring buffer) implements a deque using a fixed-size array with two indices (head
-And tail) that wrap around.
+and tail) that wrap around.
 
 ```python
 class CircularBufferDeque:
@@ -187,7 +187,7 @@ Access.
 ## Priority Queue ADT
 
 A priority queue supports inserting elements with associated priorities and extracting the element
-With the highest (or lowest) priority.
+with the highest (or lowest) priority.
 
 ### Operations
 
@@ -383,12 +383,12 @@ A d-ary heap is a generalisation where each node has up to $d$ children. For a n
 
 For Dijkstra's algorithm on sparse graphs ($E = O(V)$), $d = 2$ is optimal. For dense graphs
 ($E = O(V^2)$), $d \approx V/2$ gives the best performance because sift-down is called more often
-Than sift-up.
+than sift-up.
 
 ## Binomial Heap
 
 A binomial heap is a collection of binomial trees that supports efficient merge. It is the basis for
-The Fibonacci heap.
+the Fibonacci heap.
 
 ### Binomial Trees
 
@@ -700,7 +700,7 @@ Times relative to `extract_min`. In practice:
 
 :::caution
 Heaps (or 4-ary heaps) are almost always faster in practice. Pairing heaps are a simpler alternative
-That achieves the same amortised bounds for most operations.
+that achieves the same amortised bounds for most operations.
 
 ## Pairing Heap
 

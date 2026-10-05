@@ -249,7 +249,7 @@ class SubclassDemo extends AccessDemo {
 :::caution
 Package can access a `protected` member only through `this` or a reference of the subclass's own
 Type. It cannot access the `protected` member through a reference of the superclass type, even if
-The actual object is an instance of the subclass.
+the actual object is an instance of the subclass.
 :::
 
 :::note
@@ -457,7 +457,7 @@ public interface Serializable {
 ### Default Methods (Java 8+)
 
 Default methods provide a concrete implementation in an interface, allowing interface evolution
-Without breaking existing implementations.
+without breaking existing implementations.
 
 ```java
 public interface List<E> extends Collection<E> {
@@ -568,7 +568,7 @@ Interface evolution practically impossible for widely-used interfaces like `Coll
 Default methods solve this by providing a **default implementation** that existing classes inherit
 Automatically. The implementing class does not need to change. This is fundamentally an API
 Evolution mechanism, not a mixin or trait system -- Java chose to keep the solution minimal rather
-Than introducing full multiple inheritance of behavior.
+than introducing full multiple inheritance of behavior.
 
 The diamond problem is resolved by explicit rules: if a class inherits the same default method from
 Two interfaces, it must override the method and resolve the conflict explicitly using
@@ -652,8 +652,8 @@ LinkedList<String> list = new LinkedList<>();
 ### Anonymous Class
 
 An anonymous class is an unnamed class that is declared and instantiated in a single expression. It
-Is most commonly used for implementing functional interfaces before Java 8, and for abstract classes
-That need a one-off implementation.
+is most commonly used for implementing functional interfaces before Java 8, and for abstract classes
+that need a one-off implementation.
 
 ```java
 // Anonymous class implementing an interface
@@ -844,7 +844,7 @@ void resize(Rectangle r, int width, int height) {
 ```
 
 The LSP violation occurs because `Square` cannot satisfy `Rectangle`'s behavioral contract. The fix
-Is composition: `Square` should contain a `Rectangle` rather than extend it, or both should
+is composition: `Square` should contain a `Rectangle` rather than extend it, or both should
 Implement a common `Shape` interface.
 
 ## Method Overriding vs Hiding
@@ -1047,7 +1047,7 @@ that fields used in `equals()`/`hashCode()` are never modified after insertion.
 ### clone()
 
 The `clone()` method is intended to create a field-for-field copy of an object. However, its design
-Is widely considered flawed.
+is widely considered flawed.
 
 ```java
 // The Cloneable interface is a marker interface with NO methods.
@@ -1240,13 +1240,13 @@ public enum Operation {
 [JLS §8.9](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.9) defines enum
 Declarations. Enum constants are implicitly `public static final`. Enum types implicitly extend
 `java.lang.Enum` and cannot be instantiated with `new`. Enum types are implicitly `final` unless
-They have constant-specific class bodies.
+they have constant-specific class bodies.
 :::
 
 ## Generics Basics
 
 Generics allow you to parameterize types -- classes, interfaces, and methods can operate on types
-That the client specifies at declaration time. Generics provide compile-time type safety and
+that the client specifies at declaration time. Generics provide compile-time type safety and
 Eliminate the need for explicit casting.
 
 ### Type Parameters

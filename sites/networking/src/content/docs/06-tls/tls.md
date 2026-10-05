@@ -22,7 +22,7 @@ categories:
 
 Transport Layer Security (TLS) provides encryption, authentication, and integrity for data
 Transmitted over a network. TLS is the successor to Secure Sockets Layer (SSL), which was developed
-By Netscape in the mid-1990s. SSL 3.0 (1996) was the last SSL version; TLS 1.0 (1999, RFC 2246) was
+by Netscape in the mid-1990s. SSL 3.0 (1996) was the last SSL version; TLS 1.0 (1999, RFC 2246) was
 Its successor. All SSL versions are now considered insecure and deprecated.
 
 TLS operates between the transport layer and the application layer, encrypting application data
@@ -171,7 +171,7 @@ TLS_AES_128_GCM_SHA256
 
 In TLS 1.3, the client sends its DH key share in the ClientHello, allowing the server to compute the
 Shared secret immediately without a separate key exchange round trip. This is called "key share" and
-Is the mechanism that enables the 1-RTT handshake.
+is the mechanism that enables the 1-RTT handshake.
 
 If the server does not support the client's key share group, it responds with a HelloRetryRequest
 Asking the client to try a different group. This adds an extra RTT but is rare in practice.
@@ -228,7 +228,7 @@ Mandatory).
 ### AEAD (Authenticated Encryption with Associated Data)
 
 AEAD combines encryption and integrity verification into a single operation. The ciphertext includes
-An authentication tag that is verified during decryption. If the tag does not match, decryption
+an authentication tag that is verified during decryption. If the tag does not match, decryption
 Fails. This prevents padding oracle attacks and other chosen-ciphertext attacks that affected CBC
 Mode ciphers.
 
@@ -328,7 +328,7 @@ Root CA (self-signed, trusted by the client)
 
 The client must have the Root CA in its trust store. The server must send the full chain (server +
 Intermediate) during the TLS handshake. If intermediate certificates are missing, clients that do
-Not already have them cached will fail to validate the chain.
+not already have them cached will fail to validate the chain.
 :::
 
 :::caution
@@ -406,7 +406,7 @@ When a certificate is compromised or no longer needed, it must be revoked. Three
 ### CRL (Certificate Revocation List, RFC 5280)
 
 The CA publishes a list of revoked certificate serial numbers. Clients download the CRL and check if
-The server's certificate is listed.
+the server's certificate is listed.
 
 **Drawbacks:**
 
@@ -457,7 +457,7 @@ openssl ocsp -respin ocsp_resp.der -text -noout
 ### Certificate Transparency (CT, RFC 6962)
 
 CT is a public, append-only log of all issued certificates. CAs are required to submit certificates
-To CT logs. Browser vendors (Chrome, Firefox) require certificates to appear in CT logs for trust.
+to CT logs. Browser vendors (Chrome, Firefox) require certificates to appear in CT logs for trust.
 
 CT enables:
 
@@ -469,7 +469,7 @@ CT enables:
 
 Certificate pinning associates a service with a specific certificate or public key, rejecting
 Connections that present a different certificate -- even if that certificate is valid and trusted by
-The system's CA trust store.
+the system's CA trust store.
 
 ### Types of Pinning
 
@@ -498,7 +498,7 @@ openssl x509 -in cert.pem -pubkey -noout | openssl pkey -pubin -outform DER | \
 
 Forward secrecy (perfect forward secrecy, PFS) ensures that compromising a server's long-term
 Private key does not compromise past session keys. If the private key is compromised, the attacker
-Cannot decrypt previously captured TLS sessions.
+cannot decrypt previously captured TLS sessions.
 
 Forward secrecy is achieved by using **ephemeral** key exchange (DHE or ECDHE). The key exchange
 Produces a temporary key pair for each session, and the private key is discarded after the
@@ -535,7 +535,7 @@ Ticket encryption with a shared key.
 ### Session Tickets (RFC 5077)
 
 The server encrypts the session state and sends it to the client as a "ticket." The client presents
-The ticket in subsequent connections. The server decrypts the ticket (using a key shared across all
+the ticket in subsequent connections. The server decrypts the ticket (using a key shared across all
 Server instances) and resumes the session without storing any state.
 
 ```bash
@@ -546,7 +546,7 @@ openssl s_client -connect example.com:443 -servername example.com -reconnect 2>&
 ### Pre-Shared Key (TLS 1.3)
 
 TLS 1.3 uses PSK (pre-shared key) for session resumption. The PSK is derived from a previous session
-Or configured out-of-band. TLS 1.3 supports external PSKs (configured manually, similar to API keys)
+or configured out-of-band. TLS 1.3 supports external PSKs (configured manually, similar to API keys)
 And resumption PSKs (derived from previous sessions).
 
 ## Common TLS Misconfigurations
@@ -729,10 +729,10 @@ Errors and closing connections).
 
 Both the client and server generate 32 bytes of random data in their Hello messages. These random
 Values are used in the key derivation process and must be unpredictable. If an attacker can predict
-The random values, they may be able to derive the session keys.
+the random values, they may be able to derive the session keys.
 
 In TLS 1.2, the random values include the Unix timestamp in the first 4 bytes (deprecated practice
-That leaks server clock information). In TLS 1.3, the random values must be generated using a
+that leaks server clock information). In TLS 1.3, the random values must be generated using a
 Cryptographically secure random number generator with no structure.
 
 ## TLS Performance Considerations
@@ -781,7 +781,7 @@ Client --TLS--> Load Balancer --HTTP--> Backend
 
 Advantages: Backend simplicity, centralized certificate management, WAF/DDoS protection at the edge.
 Disadvantages: Backend traffic is unencrypted (requires trusted network), single point of failure
-For TLS.
+for TLS.
 
 **End-to-end TLS:** TLS is terminated at the application server. The load balancer passes TCP
 Streams without decryption.

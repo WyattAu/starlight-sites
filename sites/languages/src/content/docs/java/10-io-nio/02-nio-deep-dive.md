@@ -18,7 +18,7 @@ description: "(New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-b
 ## NIO Overview
 
 `java.nio` (New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to
-The stream-based `java.io` API. NIO is designed for high-throughput I/O scenarios: network servers
+the stream-based `java.io` API. NIO is designed for high-throughput I/O scenarios: network servers
 Handling thousands of connections, file operations on large files, and memory-mapped I/O.
 
 ### Buffer vs Stream
@@ -34,7 +34,7 @@ Handling thousands of connections, file operations on large files, and memory-ma
 ## Buffers
 
 Buffers are the central data containers in NIO. A buffer is a fixed-capacity, in-memory container
-For data of a specific primitive type. All buffers extend `Buffer`.
+for data of a specific primitive type. All buffers extend `Buffer`.
 
 ### `ByteBuffer`
 
@@ -115,7 +115,7 @@ ByteBuffer direct = ByteBuffer.allocateDirect(1024);
 :::note
 Allocation cost is amortized over many I/O calls, and the avoidance of heap-to-native copies
 Improves throughput. Use heap buffers for short-lived buffers where allocation speed matters more
-Than I/O throughput.
+than I/O throughput.
 :::
 
 ### `get` and `put` Operations
@@ -802,7 +802,7 @@ public class BufferPool {
 
 Scatter/gather operations read from a channel into multiple buffers (scatter) or write from multiple
 Buffers to a channel (gather) in a single system call. This reduces the number of context switches
-Between user space and kernel space.
+between user space and kernel space.
 
 ```java
 // Gather write, write headers and body from separate buffers

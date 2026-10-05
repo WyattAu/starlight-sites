@@ -347,7 +347,7 @@ Graphs with thousands of packages in milliseconds.
 
 Some simpler resolvers (early vcpkg, CPM.cmake) use a greedy approach: they resolve dependencies
 Depth-first and accept the first version that satisfies the immediate constraints. This is faster
-But can produce suboptimal or conflicting results.
+but can produce suboptimal or conflicting results.
 
 ### Resolution Comparison
 
@@ -378,14 +378,14 @@ Linker errors or runtime undefined behavior (segfaults).
 ### The Solution (SAT Solving)
 
 C++ Package managers must perform **SAT (Boolean Satisfiability) Solving** to find a single version
-Of `JsonLib` that satisfies the constraints of both `LibA` and `LibB`.
+of `JsonLib` that satisfies the constraints of both `LibA` and `LibB`.
 
 - If `LibA` requires `JsonLib >= 1.0` and `LibB` requires `JsonLib >= 2.0`The solver selects `2.0`.
 - If `LibA` requires `JsonLib < 2.0` and `LibB` requires `JsonLib >= 2.0`The build **must fail**
   before compilation begins.
 
 This is a fundamental advantage of SAT-based resolution over greedy approaches: the solver can prove
-That no valid solution exists and report a precise conflict, rather than silently producing a broken
+that no valid solution exists and report a precise conflict, rather than silently producing a broken
 Build.
 
 ## Best Practice Recommendation
@@ -404,7 +404,7 @@ For the architecture described in this course, we adhere to the following hierar
 
 C++ dependency management introduces supply chain risks that differ from interpreted languages.
 Because C++ compiles to native machine code, a compromised dependency can execute arbitrary code
-With the full privileges of the host process -- there is no sandbox or bytecode verifier.
+with the full privileges of the host process -- there is no sandbox or bytecode verifier.
 
 ### Attack Vectors
 
@@ -510,7 +510,7 @@ Seconds.
 ### Version Conflicts in Transitive Dependencies
 
 A version conflict occurs when two direct (or transitive) dependencies require incompatible versions
-Of the same transitive dependency. The package manager's resolution algorithm determines how this is
+of the same transitive dependency. The package manager's resolution algorithm determines how this is
 Handled:
 
 | Package Manager | Conflict Behavior                                                                              |
@@ -557,7 +557,7 @@ Both vcpkg and Conan integrate with CMake by either:
 
 The key point is that `find_package()` is the common interface. The package manager handles
 Downloading, building, and installing dependencies behind the scenes, and `find_package()` locates
-The result.
+the result.
 
 ### Which to Use
 
@@ -633,7 +633,7 @@ If any of these inputs change, the cache key changes and the binary must be rebu
 ### vcpkg Binary Caching
 
 Vcpkg supports multiple binary cache backends via the `X_VCPKG_ASSET_SOURCES` environment variable
-Or CMake variable:
+or CMake variable:
 
 ```cmake
 # Use a local binary cache directory
@@ -661,12 +661,12 @@ conan install . --requires mylib/1.0.0 -r=my-remote
 ```
 
 If the consumer's profile hash does not match any uploaded package, Conan falls back to building
-From source and optionally uploading the result.
+from source and optionally uploading the result.
 
 ## Cross-Compilation and Dependency Management
 
 Cross-compilation introduces additional complexity because the host machine (running the build) and
-The target machine (running the binary) have different ABIs. Package managers must handle this
+the target machine (running the binary) have different ABIs. Package managers must handle this
 Explicitly.
 
 ### vcpkg Triplets
@@ -705,7 +705,7 @@ conan install . -pr:h arm64-linux -pr:b x86_64-linux
 ```
 
 The `-pr:h` flag specifies the host profile (target), and `-pr:b` specifies the build profile (where
-The compiler runs). This is necessary when cross-compiling because the dependency may need to run a
+the compiler runs). This is necessary when cross-compiling because the dependency may need to run a
 Build step (e.g., code generation) on the host machine.
 
 ## Monorepo Dependency Management

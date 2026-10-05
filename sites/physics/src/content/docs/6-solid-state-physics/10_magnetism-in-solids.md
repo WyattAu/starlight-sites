@@ -86,7 +86,7 @@ $$
 
 Where $x = g_J\mu_B J B/(k_B T)$ and
 $B_J(x) = \frac{2J+1}{2J}\coth\left(\frac{2J+1}{2J}x\right) - \frac{1}{2J}\coth\left(\frac{x}{2J}\right)$
-Is the Brillouin function. For $J = 1/2$ (spin-1/2), $B_{1/2}(x) = \tanh x$.
+is the Brillouin function. For $J = 1/2$ (spin-1/2), $B_{1/2}(x) = \tanh x$.
 
 **Pauli paramagnetism.** In a metal, the conduction electrons form a degenerate Fermi gas. Only
 Electrons near $\varepsilon_F$ can flip their spins in response to a field:
@@ -176,11 +176,11 @@ T_N = \frac{\lvert J\rvert z S(S+1)}{3k_B}
 $$
 
 Where $z$ is the number of nearest neighbours. The susceptibility peaks at $T_N$ and decreases at
-Both higher and lower temperatures.
+both higher and lower temperatures.
 
 **Ferrimagnetism.** In ferrimagnets (e.g., Fe$_3$O$_4$), antiparallel sublattices have different
 Magnetic moments, giving a net spontaneous magnetisation. The temperature dependence of $M(T)$ is
-More complex than for simple ferromagnets.
+more complex than for simple ferromagnets.
 
 **Heisenberg model.** The exchange interaction between neighbouring spins is described by:
 
@@ -190,7 +190,7 @@ $$
 
 For $J \gt 0$: ferromagnetic coupling (spins parallel). For $J \lt 0$: antiferromagnetic coupling
 (spins antiparallel). The exchange integral $J$ arises from the combination of Coulomb repulsion and
-The Pauli exclusion principle (not from magnetic dipole interactions, which are far too weak).
+the Pauli exclusion principle (not from magnetic dipole interactions, which are far too weak).
 
 ### 10.7 Spin Waves (Magnons)
 

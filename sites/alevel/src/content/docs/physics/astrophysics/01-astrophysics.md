@@ -71,7 +71,7 @@ Distant stars. This apparent angular displacement is called **stellar parallax**
 ### Proof of the Parallax Formula
 
 Consider a nearby star at distance $d$ from the Sun. As Earth moves from one side of its orbit to
-The other (separation $2\;\mathrm{AU}$), the star appears to shift by an angle $2p$ Where $p$ is The
+the other (separation $2\;\mathrm{AU}$), the star appears to shift by an angle $2p$ Where $p$ is The
 **parallax angle** measured in arcseconds.
 
 For small angles, $\tan p \approx p$ (in radians):
@@ -236,7 +236,7 @@ $$
 
 When this condition is met, the cloud fragment collapses and heats up. Conservation of angular
 Momentum causes it to spin faster and flatten into a protoplanetary disk. The core temperature rises
-Until hydrogen fusion ignites --- a star is born.
+until hydrogen fusion ignites --- a star is born.
 
 ### The Hertzsprung--Russell (H-R) Diagram
 
@@ -363,7 +363,7 @@ $\square$
 **Intuition.** The Schwarzschild radius defines the event horizon --- the boundary within which the
 Escape velocity exceeds the speed of light. For the Sun, $r_s \approx 3$ km; for Earth,
 $r_s \approx 9$ mm. This shows how extraordinarily compact a black hole must be: the entire mass of
-The Sun compressed into a sphere smaller than a small city.
+the Sun compressed into a sphere smaller than a small city.
 
 :::note
 - **AQA** requires detailed knowledge of stellar evolution pathways, the H-R diagram, and the
@@ -425,7 +425,7 @@ $$
 
 Where $H_0 \approx 70$ km s$^{-1}$ Mpc$^{-1}$ is the **Hubble constant**. This law implies that the
 Universe is expanding uniformly --- more distant galaxies recede faster because there is more space
-Between them to expand.
+between them to expand.
 
 ### Proof of the Hubble Time
 
@@ -455,8 +455,8 @@ $\square$
 **Intuition.** Hubble's law tells us that more distant galaxies recede faster. If we "rewind" the
 Expansion, all matter converges to a single point at a finite time in the past --- the Big Bang. The
 Hubble time gives a rough upper estimate of the age of the universe. The actual age is slightly less
-Because the expansion rate has not been constant (deceleration due to gravity, then acceleration due
-To dark energy).
+because the expansion rate has not been constant (deceleration due to gravity, then acceleration due
+to dark energy).
 
 ### Evidence for the Big Bang
 
@@ -513,7 +513,7 @@ $$
 ### Refracting Telescopes
 
 A refracting telescope uses a converging (convex) **objective lens** to form a real image, which is
-Then magnified by a converging **eyepiece lens**.
+then magnified by a converging **eyepiece lens**.
 
 The **angular magnification** is the ratio of the angle subtended by the image to the angle
 Subtended by the object at the unaided eye:
@@ -581,7 +581,7 @@ For a **concave (converging) mirror**:
 Closely spaced objects.
 
 Two point sources are just resolved when the central maximum of one diffraction pattern coincides
-With the first minimum of the other. For a circular aperture, this gives the **Rayleigh criterion**:
+with the first minimum of the other. For a circular aperture, this gives the **Rayleigh criterion**:
 
 $$
 \boxed{\theta = \frac{1.22\lambda}{D}}
@@ -780,7 +780,7 @@ Converting to arcseconds: $\theta = 3.36 \times 10^{-6} \times 206,265 = 0.69''$
 
 **Problem 7.** A Cepheid variable in a nearby galaxy has a pulsation period of $10$ days. Its
 Absolute magnitude is $M = -4.0$ and its apparent magnitude is $m = 20.0$. Calculate the distance to
-The galaxy using the distance modulus.
+the galaxy using the distance modulus.
 
 <details>
 <summary>Hint</summary>

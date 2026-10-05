@@ -277,7 +277,7 @@ of size $\approx 2m$ and rehash all keys.
 
 **Proof.** Similar to dynamic array analysis. The total cost of $n$ insertions with resizing at
 Powers of 2 is dominated by the last resize: $\sum_{k=0}^{\log n} 2^k \cdot O(1) = O(n)$. Amortised
-Per insertion: $O(1)$. $\square$
+per insertion: $O(1)$. $\square$
 
 <hr />
 
@@ -319,7 +319,7 @@ $h(k) = k \bmod 7$:
 
 All keys hash to index 0, **maximum collisions**. This demonstrates why $m$ should not divide
 Common key patterns. If $m = 7$ and all keys are multiples of 7, every key collides. Choose $m$ to
-Be a prime not dividing common key values.
+be a prime not dividing common key values.
 
 </details>
 
@@ -617,7 +617,7 @@ Key or an empty slot.
 
 **Problem 5.** Insert the keys 19, 36, 50, 5, 69, 14, 75 into a hash table of size 11 using
 Quadratic probing with $h(k, i) = (h'(k) + i^2) \bmod 11$ where $h'(k) = k \bmod 11$. Show the table
-After all insertions.
+after all insertions.
 
 <details>
 <summary>Hint</summary>

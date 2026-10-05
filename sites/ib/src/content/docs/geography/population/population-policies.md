@@ -28,7 +28,7 @@ Policy.
 Population policies are shaped by the prevailing demographic theory and political ideology of their
 Time. In the mid-20th century, concerns about rapid population growth in developing countries
 (informed by Malthusian thinking) drove anti-natalist policies. In the early 21st century, concerns
-About population ageing and decline in developed countries drive pro-natalist policies.
+about population ageing and decline in developed countries drive pro-natalist policies.
 
 ## Anti-Natalist Policies
 
@@ -50,15 +50,15 @@ Fewer" campaign (1970s) had already reduced TFR from approximately 5.8 (1970) to
 **Implementation.** The policy restricted married couples to one child (with exceptions for ethnic
 Minorities, rural families whose first child was female, and parents who were both only children).
 Enforcement mechanisms included "social maintenance fees" (fines for exceeding the quota, which
-Could be several times annual income), coerced sterilisation and abortion, loss of employment, and
+could be several times annual income), coerced sterilisation and abortion, loss of employment, and
 Denial of social services for unregistered children. Local officials faced career penalties for
 Exceeding population targets, creating strong incentives for enforcement.
 
 **Demographic outcomes.** The policy reduced China's TFR from approximately 2.7 (1979) to
 Approximately 1.6 (2010), and prevented an estimated 300--400 million births. However, the speed of
-The fertility decline was already established by the pre-existing voluntary programme, and it is
+the fertility decline was already established by the pre-existing voluntary programme, and it is
 Debated how much additional reduction the one-child policy achieved beyond what would have occurred
-Through socio-economic development alone.
+through socio-economic development alone.
 
 **Unintended consequences:**
 
@@ -85,7 +85,7 @@ Insufficient to reverse the trend.
 ### Iran's Family Planning Programme (1989--2012)
 
 Iran's experience is notable because it achieved one of the fastest fertility declines in history
-Through voluntary, not coercive, means.
+through voluntary, not coercive, means.
 
 **Context.** Following the 1979 Islamic Revolution, Iran initially pursued a pro-natalist policy
 (Ayatollah Khomeini described population growth as a "blessing"), and TFR rose from approximately
@@ -105,14 +105,14 @@ Approximately 97% in 2023), and the rising cost of raising children in an urbani
 
 **Reversal.** In 2012, the government reversed course and introduced pro-natalist policies,
 Restricting access to contraception and promoting larger families in response to concerns about
-Below-replacement fertility and population ageing. The policy reversal has been criticised by public
+below-replacement fertility and population ageing. The policy reversal has been criticised by public
 Health experts and has had limited demographic impact.
 
 <details>
 <summary>Common Pitfalls: Assuming Anti-Natalist Policies Are Always Coercive</summary>
 
 China's one-child policy is the most well-known anti-natalist policy, but it is atypical in its use
-Of coercion. Most successful fertility reduction programmes have been voluntary, relying on the
+of coercion. Most successful fertility reduction programmes have been voluntary, relying on the
 Combination of accessible family planning services, female education, and economic development.
 Iran, Bangladesh, Thailand, and Indonesia all achieved rapid fertility decline without coercion.
 When evaluating anti-natalist policies, distinguish between voluntary and coercive approaches and
@@ -131,7 +131,7 @@ the cost of childbearing and supporting work-family balance.
 France has the highest fertility rate in the EU (TFR approximately 1.7 in 2023, compared to the EU
 Average of approximately 1.5). Its pro-natalist policy framework, developed incrementally since the
 1930s, combines financial support with structural policies that enable women to combine motherhood
-With employment.
+with employment.
 
 **Financial measures:**
 
@@ -157,8 +157,8 @@ With employment.
 **Analysis.** France's relatively high fertility is attributed not to financial incentives alone but
 To the comprehensive structural support that reduces the opportunity cost of childbearing for women.
 French women have among the highest labour force participation rates in the EU (approximately 68%
-For women aged 25--54), demonstrating that high fertility and high female employment are compatible
-When adequate institutional support exists.
+for women aged 25--54), demonstrating that high fertility and high female employment are compatible
+when adequate institutional support exists.
 
 ### Singapore
 
@@ -167,7 +167,7 @@ Singapore's experience illustrates both the limits of anti-natalist and pro-nata
 **Anti-natalist phase (1966--1987).** Concerned about rapid population growth (TFR approximately 4.9
 In 1966), the government launched the "Stop at Two" campaign, which included: sterilisation
 Incentives (priority for public housing allocation for sterilised couples); tax penalties for third
-And subsequent children; and public messaging discouraging large families. TFR fell from
+and subsequent children; and public messaging discouraging large families. TFR fell from
 Approximately 4.9 (1966) to approximately 1.6 (1985) -- well below replacement.
 
 **Pro-natalist phase (1987--present).** Recognising that fertility had fallen too far, the
@@ -186,17 +186,17 @@ Achievement.
 ### Japan
 
 Japan is the world's most rapidly ageing country and has been pursuing pro-natalist policies since
-The 1990s.
+the 1990s.
 
 **Demographic context.** Japan's TFR has been below replacement since 1975 and fell to approximately
 1.20 in 2023. The population peaked at approximately 128 million in 2010 and has since declined to
 Approximately 124 million (2023). The proportion aged 65 and over is approximately 29%, the highest
-In the world.
+in the world.
 
 **Policy measures.** The Angel Plan (1994) and subsequent iterations (New Angel Plan 2000, Plus One
 Policy 2009, New Policy for Children and Childcare 2018) have progressively expanded childcare
 Provision, parental leave entitlements (up to 1 year, paid at 67% of salary for the first 6 months
-And 50% for the second 6 months), and work-time flexibility. The government has also introduced
+and 50% for the second 6 months), and work-time flexibility. The government has also introduced
 Financial incentives (child allowances of approximately JPY 10 000--15 000 per month per child).
 
 **Outcomes.** TFR has not recovered significantly despite over two decades of policy effort. Key
@@ -219,7 +219,7 @@ This U-shaped relationship is explained by the **gender equity framework** (McDo
 Societies where gender equality is high in the public sphere (education, employment) but low in the
 Private sphere (domestic work, childcare), women face an "incompatibility" between their public and
 Private roles. The opportunity cost of childbearing is high because women are expected to work
-Outside the home while also bearing primary responsibility for domestic work and childcare. This
+outside the home while also bearing primary responsibility for domestic work and childcare. This
 Double burden suppresses fertility. In societies where gender equality is high in both spheres --
 Where fathers share domestic responsibilities and state institutions provide childcare -- the
 Opportunity cost of childbearing is lower, and fertility is higher.
@@ -227,7 +227,7 @@ Opportunity cost of childbearing is lower, and fertility is higher.
 **Evidence.** Nordic countries (Sweden, Norway, Denmark, Iceland) combine relatively high gender
 Equality (with active fathers' quotas in parental leave, subsidised universal childcare, and
 Cultural norms supporting shared parenting) with relatively high fertility (TFR 1.5--1.7, compared
-To 1.2--1.4 in Southern and Eastern Europe, where gender roles are more traditional). France, with
+to 1.2--1.4 in Southern and Eastern Europe, where gender roles are more traditional). France, with
 Strong institutional support for working mothers, achieves the highest fertility in the EU (TFR
 Approximately 1.7).
 
@@ -237,7 +237,7 @@ Approximately 1.7).
 A common error is to evaluate population policies solely by whether they changed the TFR. This is
 Insufficient because: (1) fertility is influenced by many factors beyond government policy (economic
 Conditions, cultural norms, housing costs, labour market conditions), making it difficult to isolate
-The policy effect; (2) policies may have important non-demographic outcomes (e.g., improving gender
+the policy effect; (2) policies may have important non-demographic outcomes (e.g., improving gender
 Equality, reducing child poverty, supporting working parents) even if they do not significantly
 Change fertility; (3) the ethical dimensions of policy (coercion, reproductive autonomy, gender
 Equality) are as important as demographic outcomes. When evaluating population policies, consider

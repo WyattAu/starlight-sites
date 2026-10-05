@@ -95,7 +95,7 @@ Share more similar sequences because less time has elapsed for mutations to accu
 
 **Molecular clocks**: the rate of molecular evolution (number of mutations per unit time) is
 Approximately constant for neutral mutations. By counting sequence differences between two species
-And calibrating with the fossil record, the time since divergence can be estimated:
+and calibrating with the fossil record, the time since divergence can be estimated:
 
 $$
 t = \frac{d}{2r}
@@ -194,7 +194,7 @@ Fitness.
 #### Disruptive Selection
 
 Favours both extremes over the intermediate phenotype, potentially leading to a bimodal distribution
-And eventually **speciation**.
+and eventually **speciation**.
 
 **Examples:**
 
@@ -286,7 +286,7 @@ New species arise without geographic separation.
 ### Parapatric Speciation
 
 Populations are adjacent with a narrow hybrid zone; gene flow occurs at the boundary but is reduced
-By selection against hybrids.
+by selection against hybrids.
 
 Example: _Anthoxanthum odoratum_ (sweet vernal grass) grows on mine-contaminated soil (high copper
 Tolerance) and uncontaminated soil. Flowering time differs between the two populations, reducing
@@ -778,8 +778,8 @@ scenario.
 <summary>Question 4: Antibiotic Resistance and Selection</summary>
 
 A population of $10^8$ bacteria is treated with an antibiotic. The antibiotic kills $99.999\%$ of
-The bacteria. The resistant survivors carry a plasmid-borne resistance gene. After $8$ generations
-Of binary fission, the population recovers to its original size. Calculate the number of Survivors
+the bacteria. The resistant survivors carry a plasmid-borne resistance gene. After $8$ generations
+of binary fission, the population recovers to its original size. Calculate the number of Survivors
 after treatment, the fraction carrying the resistance gene after recovery, and the Minimum number of
 generations required for $99.9\%$ of the population to carry the resistance Gene.
 
@@ -912,7 +912,7 @@ $\hat{q} \approx \sqrt{\frac{\mu}{s}} = \sqrt{\frac{10^{-6}}{0.5}} = \sqrt{2 \ti
 
 Wait --- this gives a lower frequency, which is incorrect. The issue is that $\mu/s$ applies when
 Mutation is introducing the allele and selection is removing it. If we are starting from $q = 0.02$
-And reducing selection from $s = 1$ to $s = 0.5$ The frequency will actually increase because Fewer
+and reducing selection from $s = 1$ to $s = 0.5$ The frequency will actually increase because Fewer
 $cc$ individuals are being removed.
 
 The correct approach: with reduced selection, the equilibrium moves to a higher $q$. The new
@@ -993,7 +993,7 @@ calculate the new allele frequencies after one generation of selection.
 A volcanic island emerges from the ocean $500000$ years ago and is colonised by a single species Of
 beetle from the nearest mainland ($200\;\mathrm{km}$ away). Today, the island has $12$ species Of
 beetles, all descended from the original coloniser. (a) Explain the evolutionary processes that
-Could have produced this diversity from a single ancestral species. (b) Discuss the role of Adaptive
+could have produced this diversity from a single ancestral species. (b) Discuss the role of Adaptive
 radiation in this scenario. (c) Explain how reproductive isolating mechanisms could Have evolved
 between the island species despite their geographic proximity. (d) Predict what Would happen to
 these species if a land bridge connected the island to the mainland.
@@ -1006,7 +1006,7 @@ these species if a land bridge connected the island to the mainland.
 _Methicillin-resistant Staphylococcus aureus_ (MRSA) is a major hospital-acquired infection. (a)
 Describe the genetic and biochemical mechanisms by which MRSA resists methicillin and related
 $\beta$-lactam antibiotics. (b) Explain how the overuse of antibiotics in hospitals and agriculture
-Has contributed to the spread of resistance. (c) Evaluate two strategies for controlling the Spread
+has contributed to the spread of resistance. (c) Evaluate two strategies for controlling the Spread
 of antibiotic resistance, discussing the evolutionary principles behind each.
 
 </details>
@@ -1016,7 +1016,7 @@ of antibiotic resistance, discussing the evolutionary principles behind each.
 
 Two species of fruit fly (_Drosophila simulans_ and _D. Melanogaster_) differ by $60$ nucleotide
 Substitutions in a $1000\;\mathrm{bp}$ region of the Adh gene. The substitution rate for this gene
-Is estimated at $1.5 \times 10^{-8}$ substitutions per site per year. (a) Calculate the time Since
+is estimated at $1.5 \times 10^{-8}$ substitutions per site per year. (a) Calculate the time Since
 divergence. (b) Explain two assumptions of the molecular clock that may not hold for these Species.
 (c) If a third species (_D. Yakuba_) differs from _D. Melanogaster_ by $90$ substitutions In the
 same region, construct the most parsimonious phylogenetic tree and identify the outgroup.
@@ -1218,7 +1218,7 @@ requiring the fewest Total character state changes.
 **Worked Example: Speciation by Polyploidy**
 
 A diploid plant species has $2n = 14$ ($n = 7$). (a) An individual undergoes autopolyploidy. What is
-The chromosome number of the tetraploid offspring? (b) Explain why the tetraploid is reproductively
+the chromosome number of the tetraploid offspring? (b) Explain why the tetraploid is reproductively
 Isolated from the diploid parent. (c) If the diploid parent produces gametes with $n = 7$ and the
 Tetraploid produces gametes with $n = 14$ What chromosome number would a triploid hybrid have, and
 Why would it be sterile?
@@ -1490,7 +1490,7 @@ or Post-zygotic and providing a specific example for each type.
 The mountain range could initially cause **allopatric speciation** by creating geographic isolation.
 Over time, genetic drift and natural selection (different environments on each side) would lead to
 Divergence, potentially creating multiple pre-zygotic and post-zygotic barriers. If the populations
-Were to come into secondary contact, these barriers would maintain them as separate species.
+were to come into secondary contact, these barriers would maintain them as separate species.
 
 </details>
 
@@ -1538,7 +1538,7 @@ From year 0 to 2: $\Delta q = 0.90 - 0.75 = 0.15$$q \approx 0.90$.
 $0.15 \approx s \times 0.81 \times 0.10 = 0.081s$ So $s \approx 1.85$.
 
 This is greater than 1, which is impossible. This suggests the selection is very strong (near-lethal
-Against $mm$ on dark bark) or that more than one generation occurred in 2 years.
+against $mm$ on dark bark) or that more than one generation occurred in 2 years.
 
 If the generation time is 1 year (10 generations in 10 years): Using the exact formula iteratively
 with $s = 0.5$: Gen 0: $q = 0.900$ Gen 1:
@@ -1597,7 +1597,7 @@ given problem (e.g., camera-type eyes are highly effective for image formation, 
 Independently in vertebrates, cephalopods, and some cnidarians).
 
 (c) Anatomically similar structures can be distinguished by comparing their developmental origins
-And underlying genetic basis:
+and underlying genetic basis:
 
 - **Homologous structures**: develop from the same embryonic tissues, are controlled by homologous
   genes (e.g., Hox genes), and have similar underlying anatomy despite different functions.
@@ -1900,7 +1900,7 @@ $10r = \ln(10) = 2.303$$r = 0.230\;\mathrm{Ma}^{-1}$.
 $M = 5 e^{0.230 \times 20} = 5 e^{4.605} = 5 \times 100 = 500\;\mathrm{kg}$.
 
 Cope's rule predicts continued body size increase, but in reality, body size eventually plateaus due
-To physiological and ecological constraints (larger organisms require more food, have longer
+to physiological and ecological constraints (larger organisms require more food, have longer
 generation Times, and face biomechanical limitations). Many lineages do not follow Cope's rule; body
 size can Decrease (island dwarfism) or fluctuate depending on environmental conditions.
 

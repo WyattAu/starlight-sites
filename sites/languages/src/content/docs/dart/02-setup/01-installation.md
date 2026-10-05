@@ -195,7 +195,7 @@ Key VS Code shortcuts for Dart:
 ### Android Studio
 
 Android Studio includes the Dart and Flutter plugins by default when you install the Flutter SDK
-Through its installer:
+through its installer:
 
 1. Download Android Studio from <https://developer.android.com/studio>
 2. Install the Flutter and Dart plugins: **Settings &gt; Plugins &gt; Marketplace &gt; "Flutter"**

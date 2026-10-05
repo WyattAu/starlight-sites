@@ -50,7 +50,7 @@ Candidate key. Equivalently: every non-prime attribute is fully functionally dep
 Candidate key.
 
 A **partial dependency** is $A \to B$ where $A$ is a proper subset of a candidate key and $B$ is
-Non-prime.
+non-prime.
 
 **Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$ Either $X$ is a
 Superkey or $A$ is a prime attribute.
@@ -80,7 +80,7 @@ if $R_1 \cap R_2 \to R_1$ or $R_1 \cap R_2 \to R_2$.
 
 _Proof._ Let $r$ be an instance of $R$ and let $r_1 = \pi_{R_1}(r)$, $r_2 = \pi_{R_2}(r)$. We must
 Show $r = r_1 \bowtie r_2$ under the given condition. Since $r_1$ and $r_2$ are projections of $r$
-Every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
+every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
 show That no spurious tuple is produced. Suppose $(t_1, t_2) \in r_1 \bowtie r_2$ where
 $t_1 \in r_1$ and $t_2 \in r_2$. Since $t_1$ and $t_2$ agree on $R_1 \cap R_2$ And by the condition
 $R_1 \cap R_2 \to
@@ -203,7 +203,7 @@ lossless. $R_{2a} \cap R_{2b} = \varnothing$... This is problematic. $R_{2b} = \
 attributes with The others.
 
 The issue is that $C$ is a "dangling" attribute. This is correct -- $C$ appears only in the key $BC$
-Of the original relation but is not functionally determined by anything except the full key. The
+of the original relation but is not functionally determined by anything except the full key. The
 Decomposition is technically correct but $R_{2b} = \\{C\\}$ by itself cannot be joined losslessly
 with The others.
 
@@ -238,7 +238,7 @@ That holds on $R$, $X$ is a superkey.
 
 _Proof._ Every FD $X \to Y$ implies the MVD $X \twoheadrightarrow Y$. In 4NF, every non-trivial MVD
 $X \twoheadrightarrow Y$ requires $X$ to be a superkey. Therefore, every non-trivial FD $X \to Y$
-Also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
+also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
 
 **4NF decomposition.** Given $R$ with MVD $X \twoheadrightarrow Y$ where $X$ is not a superkey,
 Decompose into $R_1 = X \cup Y$ and $R_2 = R - Y$. The decomposition is lossless-join.

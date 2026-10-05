@@ -596,8 +596,8 @@ Access-Control-Allow-Headers: Content-Type
 ### Same-Origin Policy
 
 The Same-Origin Policy prevents a web page from making requests to a different domain than the one
-That served the page. This prevents malicious scripts on one page from accessing sensitive data on
-Another.
+that served the page. This prevents malicious scripts on one page from accessing sensitive data on
+another.
 
 **Origin** is defined by the combination of protocol, domain, and port:
 

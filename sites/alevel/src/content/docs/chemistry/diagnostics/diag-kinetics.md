@@ -571,7 +571,7 @@ This would give rate $= k[\mathrm{X}_2]$ Which does NOT match the observed rate 
 $$
 
 $$
-The first mechanism is correct.
+the first mechanism is correct.
 
 ## Common Mistakes
 

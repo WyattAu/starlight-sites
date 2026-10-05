@@ -73,13 +73,13 @@ impl Counter {
 
 :::danger
 Creating two mutable references to the same data simultaneously. You are responsible for maintaining
-The aliasing invariant. Violating this is undefined behavior.
+the aliasing invariant. Violating this is undefined behavior.
 
 ### Why `UnsafeCell` Exists
 
 The compiler assumes that `&T` never allows mutation. `UnsafeCell` is the escape hatch that tells
-The compiler "I will manage the aliasing rules myself." Without `UnsafeCell`It would be impossible
-To implement `Cell``RefCell``Mutex`Or any other interior mutability type.
+the compiler "I will manage the aliasing rules myself." Without `UnsafeCell`It would be impossible
+to implement `Cell``RefCell``Mutex`Or any other interior mutability type.
 
 ### `UnsafeCell` and `Sync`
 
@@ -423,7 +423,7 @@ Need interior mutability?
 ### `OnceCell<T>` (Stable since Rust 1.70)
 
 `OnceCell` stores a value that is initialized at most once. It is useful for lazy initialization and
-For storing values that are set during construction:
+for storing values that are set during construction:
 
 ```rust
 use std::cell::OnceCell;
@@ -614,7 +614,7 @@ assert_eq!(std::mem::size_of::<RefCell<u64>>(), 16);  // 8 bytes value + overhea
 
 `Mutex` has a system-level overhead: on Linux, it uses `pthread_mutex_t` (40 bytes). Locking is a
 System call on contention and a single atomic operation when uncontended. `Mutex` always allocates
-The value on the heap (it uses `alloc::sys::Exclusive::new` internally ).
+the value on the heap (it uses `alloc::sys::Exclusive::new` internally ).
 
 ```rust
 assert_eq!(std::mem::size_of::<Mutex<u64>>(), 40);  // platform-dependent
@@ -624,7 +624,7 @@ assert_eq!(std::mem::size_of::<Mutex<u64>>(), 40);  // platform-dependent
 
 `RwLock` is larger than `Mutex` (48 bytes on Linux) because it must track multiple readers. Read
 Locks are cheaper than write locks but still involve atomic operations. Write locks are comparable
-To `Mutex` locks.
+to `Mutex` locks.
 
 ## `Cell` vs `RefCell` Decision Guide
 
@@ -694,7 +694,7 @@ Use `Mutex<T>` when:
 ### Dropping `RefCell` with Active Borrows
 
 When a `RefCell` is dropped while a `Ref` or `RefMut` guard exists, the guard keeps the borrow alive
-Until it is dropped. This means the `RefCell`'s destructor runs after the guard is dropped:
+until it is dropped. This means the `RefCell`'s destructor runs after the guard is dropped:
 
 ```rust
 use std::cell::RefCell;

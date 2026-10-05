@@ -269,7 +269,7 @@ Output (example):
 
 :::tip
 Each character written to the stream. Buffering the line and flushing on `\n` gives you control over
-The output format. For thread-safe logging, wrap the `sputn` call in a mutex.
+the output format. For thread-safe logging, wrap the `sputn` call in a mutex.
 :::
 
 :::caution
@@ -422,7 +422,7 @@ void buffer_mode_demo() {
 
 :::caution
 I/O-heavy code. Each flush results in a `write()` system call, which is orders of magnitude slower
-Than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
+than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
 Critical.
 :::
 

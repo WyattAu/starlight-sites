@@ -64,7 +64,7 @@ Minimize redundancy, and support complex queries through SQL.
 Data independence: the structure of data can be changed without modifying applications that use it.
 Data integrity: constraints prevent invalid data from being stored. Concurrent access: multiple
 Users can read and write simultaneously without corrupting data. Security: access can be controlled
-At a granular level. Backup and recovery: databases provide transaction logging and point-in-time
+at a granular level. Backup and recovery: databases provide transaction logging and point-in-time
 Recovery.
 
 ### Worked Example: Choosing Between a Flat File and a Database
@@ -120,7 +120,7 @@ Number of entities involved) and a **cardinality** (the number of instances on e
 
 **One-to-One (1:1):** Each instance of entity A is associated with exactly one instance of entity B,
 And vice versa. Example: Person and Passport. A person has at most one passport; a passport belongs
-To exactly one person. In a relational database, the foreign key can be placed in either table.
+to exactly one person. In a relational database, the foreign key can be placed in either table.
 
 **One-to-Many (1:M):** Each instance of entity A can be associated with many instances of entity B,
 But each instance of B is associated with exactly one instance of A. Example: Teacher and Class. A
@@ -129,7 +129,7 @@ Table (Class table contains teacherID).
 
 **Many-to-Many (M:N):** Each instance of entity A can be associated with many instances of entity B,
 And vice versa. Example: Student and Course. A student can enroll in many courses, and a course can
-Have many students. This cannot be directly represented in a relational database and requires a
+have many students. This cannot be directly represented in a relational database and requires a
 Junction (link/associative) table.
 
 ### Worked Example: School Database ERD
@@ -174,7 +174,7 @@ Design an ERD for a hospital system with the following requirements:
 | Doctor-Patient      | M:N  | Via Appointment (junction table) |
 
 The Appointment table serves as both the junction table for the M:N Doctor-Patient relationship and
-As an entity in its own right with attributes (date, time, diagnosis). This is a common pattern
+as an entity in its own right with attributes (date, time, diagnosis). This is a common pattern
 where The junction table carries additional data.
 
 </details>
@@ -182,7 +182,7 @@ where The junction table carries additional data.
 ### Worked Example: Identifying Relationships in a Library System
 
 A library has Books and Members. A member can borrow many books over time; a book can be borrowed by
-Many members over time (but only by one member at a time). Each borrow record has a borrow date and
+many members over time (but only by one member at a time). Each borrow record has a borrow date and
 a Return date. Design the ERD.
 
 <details>
@@ -406,7 +406,7 @@ Primary key: courseID
 
 Transitive dependency: courseID $\rightarrow$ teacherName $\rightarrow$ teacherEmail. The
 TeacherEmail depends on teacherName, not directly on courseID. If Mr. Smith teaches a new course, we
-Must update his email in every row where he appears (update anomaly). If Mr. Smith has no courses,
+must update his email in every row where he appears (update anomaly). If Mr. Smith has no courses,
 We cannot store his email (insertion anomaly). If we delete all of Mr. Smith's courses, we lose his
 Email (deletion anomaly).
 
@@ -449,7 +449,7 @@ Starting table: HospitalRecord
 Multiple times). The primary key must be `{patientID, appointmentDate}`.
 
 Actually, `{patientID, appointmentDate}` uniquely identifies each row. But patientName depends only
-On patientID, and doctorName depends only on doctorID.
+on patientID, and doctorName depends only on doctorID.
 
 **Step 2: 2NF.** Remove partial dependencies.
 
@@ -802,7 +802,7 @@ LEFT JOIN Course ON Enrollment.courseID = Course.courseID;
 ```
 
 This returns all students, including those who are not enrolled in any course (their courseName will
-Be NULL).
+be NULL).
 
 **RIGHT JOIN (RIGHT OUTER JOIN):** Returns all rows from the right table, and matched rows from the
 Left table.
@@ -906,7 +906,7 @@ Given the Enrollment table:
 | 3         | 105      | A     |
 
 Write a query to find students enrolled in more than 1 course, showing the studentID and the count
-Of courses.
+of courses.
 
 <details>
 <summary>Solution</summary>
@@ -1064,7 +1064,7 @@ Ensure that the database remains in a consistent state even when failures occur.
 
 **Atomicity example:** A bank transfer deducts USD 100 from account A and adds USD 100 to account B.
 If the deduction succeeds but the addition fails (e.g., due to a system crash), atomicity ensures
-That the deduction is rolled back. Both operations must succeed, or neither does.
+that the deduction is rolled back. Both operations must succeed, or neither does.
 
 **Isolation levels** (from weakest to strongest): Read Uncommitted, Read Committed, Repeatable Read,
 Serializable. Higher isolation levels provide stronger consistency guarantees but reduce
@@ -1194,7 +1194,7 @@ Key, deleting Alice also deletes all her enrollment records. After this operatio
 (2, 101) -- Alice's two enrollment rows are deleted
 
 **`DELETE FROM Course WHERE courseID = 101`:** This is **blocked** due to `ON DELETE RESTRICT` on
-The courseID foreign key. Bob still has an enrollment in course 101, so the database refuses to
+the courseID foreign key. Bob still has an enrollment in course 101, so the database refuses to
 Delete the course. The DELETE statement fails with a referential integrity error.
 
 To delete the course, you must first delete (or reassign) all enrollments that reference it:
@@ -1260,7 +1260,7 @@ CREATE TABLE Employee (
 
 Big data refers to datasets that are too large, too complex, or generated too rapidly to be
 Processed by traditional database systems. The IB syllabus identifies four characteristics known as
-The four Vs.
+the four Vs.
 
 ### The Four Vs
 
@@ -1329,7 +1329,7 @@ Absence of a value. Use `WHERE column IS NULL` or `WHERE column IS NOT NULL`.
 
 **Cartesian product:** A join without an ON clause (or with incorrect join conditions) produces a
 Cartesian product: every row from one table combined with every row from the other table. For tables
-With 1000 rows each, this produces 1,000,000 rows.
+with 1000 rows each, this produces 1,000,000 rows.
 
 **String comparison issues:** SQL string comparisons are case-sensitive in many RDBMS.
 `WHERE name = 'alice'` will not match 'Alice'. Use functions like `LOWER()` for case-insensitive
@@ -1340,7 +1340,7 @@ Comparisons, or set the column collation appropriately.
 ### Problem 1: ERD Design for a Music Library
 
 A music library has Artists and Albums. An artist can produce many albums; each album has exactly
-One artist. An album has many Tracks; each track belongs to one album. Identify all entities,
+one artist. An album has many Tracks; each track belongs to one album. Identify all entities,
 Relationships with cardinalities, and where foreign keys should be placed.
 
 <details>
@@ -1539,7 +1539,7 @@ _If you get this wrong, revise: [DDL](#data-definition-language-ddl) and
 ### Problem 5: Top N Students Query
 
 Given the Student table from the worked example above, write a query that returns the names and GPAs
-Of the top 3 students overall.
+of the top 3 students overall.
 
 <details>
 <summary>Solution</summary>
@@ -2011,7 +2011,7 @@ HAVING COUNT(*) > 5;
 ```
 
 **(d)** The `teacherID` column in any Club row where `teacherID = 3` is set to NULL. The club record
-Is preserved; only the reference to the teacher is cleared. If `ON DELETE CASCADE` had been used
+is preserved; only the reference to the teacher is cleared. If `ON DELETE CASCADE` had been used
 Instead, the clubs themselves would have been deleted.
 
 </details>

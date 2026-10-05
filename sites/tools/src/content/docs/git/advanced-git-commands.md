@@ -69,7 +69,7 @@ git replace -d $(git replace -l)
 
 When you run `git replace A B`Git creates a ref at `refs/replace/A` pointing to `B`. During any
 Object lookup, Git checks whether the requested object has an entry under `refs/replace/`. If it
-Does, Git returns the replacement instead.
+does, Git returns the replacement instead.
 
 ```
 refs/replace/
@@ -119,7 +119,7 @@ git replace --graft <commit> <parent1> <parent2>
 
 :::note
 `refs/replace/`. They differ from the older `~/.git/info/grafts` mechanism, which was not ref-based
-And could not be pushed or shared.
+and could not be pushed or shared.
 
 ### Editing an Object for Replacement
 
@@ -143,7 +143,7 @@ Use cases for `--edit`:
 #### Rewriting History Without Rebase
 
 Suppose commit `abc1234` has a bad message, but it is 50 commits deep with many branches depending
-On it. An interactive rebase would be disruptive. Instead:
+on it. An interactive rebase would be disruptive. Instead:
 
 ```bash
 # Create a new commit with the same tree but different message
@@ -225,7 +225,7 @@ distributable.
 
 **Definition.** A Git note is a blob object associated with a specific commit, stored in a tree
 Under `refs/notes/commits`. The mapping from commit to note is maintained through a tree structure
-Where each path component corresponds to characters of the commit hash.
+where each path component corresponds to characters of the commit hash.
 
 ### Basic Syntax
 
@@ -740,7 +740,7 @@ The `text` attribute controls CRLF/LF conversion:
 
 :::note
 (not binary). Using `* text=auto eol=lf` in the root `.gitattributes` is the recommended practice
-For cross-platform projects. It normalizes committed files to LF while letting Windows developers
+for cross-platform projects. It normalizes committed files to LF while letting Windows developers
 Check out with CRLF if their `core.autocrlf` is set.
 
 ### Binary Detection
@@ -1056,7 +1056,7 @@ Fetched from as if they were a remote.
 
 **Definition.** A Git bundle is a self-contained binary file encoding a Git packfile and a ref
 Index. It represents a slice of repository history defined by a set of prerequisites (commits that
-Must already exist) and a set of included refs.
+must already exist) and a set of included refs.
 
 ### Creating Bundles
 
@@ -1200,7 +1200,7 @@ Use `git bundle create repo.bundle --all --reflog`.
 ### Overview
 
 `git worktree` manages multiple working directories linked to the same repository. Each worktree can
-Be checked out to a different branch, enabling parallel work without stashing or committing
+be checked out to a different branch, enabling parallel work without stashing or committing
 Incomplete changes.
 
 **Definition.** A linked worktree is a separate directory tree that shares the same object database,
@@ -1366,7 +1366,7 @@ $ make -C ../build-v2.4 release
 
 :::caution
 `git worktree remove`Git leaves stale administrative files. Run `git worktree prune` to clean them
-Up. The branch that was checked out in the deleted worktree may remain locked until you prune.
+up. The branch that was checked out in the deleted worktree may remain locked until you prune.
 
 ---
 
@@ -1384,7 +1384,7 @@ Up. The branch that was checked out in the deleted worktree may remain locked un
 ### Overview
 
 The reflog records every movement of branch tips and HEAD. It is Git's primary recovery mechanism
-For operations that seem destructive, such as `git reset --hard``git rebase`Or `git commit --amend`.
+for operations that seem destructive, such as `git reset --hard``git rebase`Or `git commit --amend`.
 
 ### Basic Syntax
 
@@ -1753,7 +1753,7 @@ $ git commit -m "Merge main into feature-branch"
 #### Long-Lived Feature Branches
 
 If a feature branch lives for weeks and you merge `main` into it regularly, the same conflicts tend
-To recur. `rerere` eliminates the need to resolve them repeatedly.
+to recur. `rerere` eliminates the need to resolve them repeatedly.
 
 #### Maintaining Patches Across Branches
 
@@ -2159,7 +2159,7 @@ $ git diff -- main src/file.c   # Diff between two commits/files (ambiguous with
 
 :::caution
 `git restore` for files. These modern commands eliminate the ambiguity that `git checkout` suffers
-From.
+from.
 
 ### Ambiguous Argument Errors
 

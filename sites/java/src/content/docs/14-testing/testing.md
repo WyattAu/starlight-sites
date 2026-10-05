@@ -709,7 +709,7 @@ tasks.check {
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
 
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes
-To coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
+to coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
 Untested code, not as a target to gamify.
 
 ## Flaky Tests

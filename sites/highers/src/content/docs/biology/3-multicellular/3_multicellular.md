@@ -56,7 +56,7 @@ Therapy involves:
 
 **Ethical considerations:** The use of embryonic stem cells is controversial because it involves the
 Destruction of embryos. Adult stem cells and induced pluripotent stem cells (iPSCs) avoid this issue
-But may be less versatile.
+but may be less versatile.
 
 **Worked Example: Induced pluripotent stem cells (iPSCs).**
 
@@ -396,7 +396,7 @@ Lacteal (for fatty acids and glycerol).
 ## Review: The Immune System in Detail
 
 The immune system has two main components: the innate immune system (non-specific, immediate) and
-The adaptive immune system (specific, slower but long-lasting).
+the adaptive immune system (specific, slower but long-lasting).
 
 **Innate immune system:**
 
@@ -477,7 +477,7 @@ The alveolar ventilation is lower because some air (approximately 150 mL) remain
 Alveolar ventilation $= 15 \times (500 - 150) = 15 \times 350 = 5250$ mL/min $= 5.25$ L/min.
 
 This shows that a significant proportion of each breath does not reach the alveoli and therefore
-Does not contribute to gas exchange.
+does not contribute to gas exchange.
 
 ## Review: Osmoregulation and the Kidney
 
@@ -489,7 +489,7 @@ Too large to pass through the basement membrane and remain in the blood.
 
 **Selective reabsorption:** As the filtrate passes through the proximal convoluted tubule, all
 Glucose, all amino acids, and most water and ions are reabsorbed into the blood by active transport
-And diffusion.
+and diffusion.
 
 **The loop of Henle:** Creates a concentration gradient in the medulla of the kidney. The descending
 Limb is permeable to water but not ions; water leaves by osmosis into the increasingly concentrated
@@ -500,8 +500,8 @@ multiplier Mechanism allows the kidney to produce concentrated urine.
 **ADH (antidiuretic hormone):** Released by the posterior pituitary gland in response to increased
 Blood osmolarity (detected by osmoreceptors in the hypothalamus). ADH makes the collecting duct more
 Permeable to water by inserting aquaporin channels into the membrane. More water is reabsorbed, and
-More concentrated urine is produced. When water intake is high, ADH secretion is reduced, less water
-Is reabsorbed, and dilute urine is produced.
+more concentrated urine is produced. When water intake is high, ADH secretion is reduced, less water
+is reabsorbed, and dilute urine is produced.
 
 **Worked Example: Why glucose is not normally found in urine.**
 
@@ -580,7 +580,7 @@ Development.
 Fertilisation occurs in the fallopian tube when a sperm penetrates the egg. The sperm releases
 Enzymes from its acrosome to digest the outer layers of the egg. When one sperm enters, the egg
 Undergoes a cortical reaction that prevents polyspermy (entry of additional sperm). The nuclei of
-The sperm and egg fuse, forming a diploid zygote.
+the sperm and egg fuse, forming a diploid zygote.
 
 The zygote divides by mitosis as it travels along the fallopian tube, forming a ball of cells called
 A blastocyst. The blastocyst implants in the endometrium approximately 6-7 days after fertilisation.
@@ -671,9 +671,9 @@ Lymphatic duct (drains the right side of the body) into the subclavian veins.
 
 Oedema (swelling) occurs when excess fluid accumulates in the tissues. This can happen if the
 Lymphatic system is blocked (e.g., by a parasitic infection such as elephantiasis, which is caused
-By filarial worms blocking lymphatic vessels). If lymphatic drainage is impaired, the excess
+by filarial worms blocking lymphatic vessels). If lymphatic drainage is impaired, the excess
 Interstitial fluid cannot be returned to the bloodstream, and the tissue swells. This demonstrates
-The critical role of the lymphatic system in maintaining fluid balance.
+the critical role of the lymphatic system in maintaining fluid balance.
 
 ## Review: Types of Muscle Tissue
 

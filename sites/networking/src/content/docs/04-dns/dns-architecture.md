@@ -45,7 +45,7 @@ Interface is where you:
 ### Registries
 
 Registries operate the TLD (Top-Level Domain) zone. They maintain the authoritative name servers for
-The TLD and accept registrations from registrars. Examples:
+the TLD and accept registrations from registrars. Examples:
 
 - Verisign operates `.com` and `.net`
 - PIR operates `.org`
@@ -119,7 +119,7 @@ Serial number formats:
 
 :::caution
 Higher). This is a common mistake when migrating DNS providers. Always ensure the serial is higher
-Than the current value on all slaves.
+than the current value on all slaves.
 
 ### Zone Transfers
 
@@ -282,7 +282,7 @@ ldns-signzone example.com.signed example.com Kexample.com.+013+*.key
 ### Key Rotation
 
 ZSK rotation is straightforward: generate a new ZSK, sign the zone with both old and new ZSKs, wait
-For the old RRSIGs to expire, then remove the old ZSK.
+for the old RRSIGs to expire, then remove the old ZSK.
 
 KSK rotation is more involved because the DS record in the parent zone must be updated. The process
 (RFC 8078):
@@ -318,7 +318,7 @@ Provides weaker security but better performance for large zones.
 ### How Anycast Works
 
 Anycast assigns the same IP address to multiple servers in different locations. BGP routes traffic
-To the nearest (topologically closest) server. For DNS, this means queries are answered by the
+to the nearest (topologically closest) server. For DNS, this means queries are answered by the
 Closest name server instance.
 
 ```
@@ -512,7 +512,7 @@ forward-zone:
 ### dig +trace
 
 The most important DNS troubleshooting command. It traces the full resolution path from the root
-Down to the authoritative server.
+down to the authoritative server.
 
 ```bash
 # Full resolution trace
@@ -687,7 +687,7 @@ host 93.184.216.1
 ### 5. Breaking DNSSEC During Migration
 
 When migrating between DNS providers, the DNSSEC chain of trust must be maintained. If you remove
-The old DS record before the new one is published, DNSSEC validation fails and your domain becomes
+the old DS record before the new one is published, DNSSEC validation fails and your domain becomes
 Unreachable. Always overlap: publish the new DS first, verify it validates, then remove the old DS.
 
 ### 6. CNAME at the Zone Apex
@@ -702,7 +702,7 @@ Use ALIAS/ANAME records (provider-specific) or CNAME flattening to work around t
 
 DNS-over-TLS encrypts DNS queries and responses using TLS. The standard port is 853. The client
 Establishes a TCP connection to the resolver, performs a TLS handshake, and then sends DNS queries
-Within the TLS tunnel.
+within the TLS tunnel.
 
 ```bash
 # Test DoT with kdig (Knot DNS utilities)
@@ -777,7 +777,7 @@ dig nonexist.example.com | grep -i "nxdomain\|soa"
 ### Prefetching
 
 Some resolvers (Unbound, Knot Resolver) support DNS prefetching: proactively refreshing records
-Before they expire, so that the cached answer is always fresh when the application queries.
+before they expire, so that the cached answer is always fresh when the application queries.
 
 ```text
 # Unbound prefetch configuration
@@ -800,7 +800,7 @@ dig +subnet=192.168.1.0/24 www.example.com @8.8.8.8
 
 :::caution
 Privacy-focused resolvers (Cloudflare 1.1.1.1, Quad9) zero out ECS by default or randomize it. If
-You operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
+you operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
 ECS processing can route clients to the wrong CDN edge.
 
 ## DNS Failover and High Availability

@@ -29,7 +29,7 @@ propagation through coroutines.
 ## `std::future<T>` [N4950 §33.6.4]
 
 `std::future<T>` [N4950 §33.6.4] is a synchronization primitive that provides access to a result
-That will be available in the future. The caller can:
+that will be available in the future. The caller can:
 
 - **Block** on the result with `get()`Which waits until the result is ready and then moves or copies
   it.
@@ -124,7 +124,7 @@ JavaScript `Promise.then()` or Rust's `Future`C++ `std::future`:
 - Is not a coroutine awaitable (no `operator co_await`).
 
 This is why C++20 coroutines are essential for real-world asynchronous programming, they provide
-The composability that `std::future` lacks. Libraries like `cppcoro` (now archived) and the proposed
+the composability that `std::future` lacks. Libraries like `cppcoro` (now archived) and the proposed
 `std::execution` (P2300) aim to bridge this gap.
 
 | Feature              | `std::future` (C++11) | `std::execution::sender` (P2300) | JavaScript `Promise`    |
@@ -376,7 +376,7 @@ Depends on context [N4950 §8.5.3]:
 
 :::caution
 `await_resume()` point. Letting exceptions escape `resume()` makes the coroutine interface fragile
-And can lead to `std::terminate()` in detached scenarios.
+and can lead to `std::terminate()` in detached scenarios.
 :::
 
 ## Cleanup on Cancellation

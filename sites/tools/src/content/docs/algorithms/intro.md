@@ -56,7 +56,7 @@ graph LR
 ```
 
 The relationship is not one-to-one. A hash table can implement a set or a map. A balanced BST can do
-The same. Which one you choose depends on whether you need ordered iteration, worst-case guarantees,
+the same. Which one you choose depends on whether you need ordered iteration, worst-case guarantees,
 Or amortised constant-time operations. These trade-offs are the substance of systems engineering.
 
 ## Mathematical Prerequisites
@@ -92,7 +92,7 @@ This subject assumes familiarity with:
 These notes are written for systems engineers who need to understand algorithms at the level
 Required to make informed design decisions, not just pass an interview. Each chapter includes
 Complexity analysis, practical implementation considerations, and a "Common Pitfalls" section drawn
-From real production failures.
+from real production failures.
 
 Read the chapters in order if you are building foundational knowledge. Use them as reference
 Material if you are looking up a specific algorithm or trying to understand why a particular data

@@ -176,7 +176,7 @@ Statement: All A are B Negation: Some A are not B At least one A is not B
 Statement: No A are B Negation: Some A are B At least one A is B
 
 Statement: Some of the topics are hard Negation: All of the topics are not hard None of the topics
-Are hard
+are hard
 
 Statement: All numbers are prime Negation: Some numbers are not prime
 
@@ -254,7 +254,7 @@ The truth table for implication is often the least intuitive:
 
 An implication is **false only when the hypothesis is true and the conclusion is false**. This
 Captures the logical reading: if you promise "if $P$ then $Q$", you have only broken your promise
-When $P$ happens and $Q$ does not.
+when $P$ happens and $Q$ does not.
 
 The last two rows often feel surprising. Consider the statement "If it is raining, then I carry an
 Umbrella." If it is not raining (rows 3 and 4), the statement places no restriction on my behaviour
@@ -350,7 +350,7 @@ Negation: "For all integers $n$, $n^2 + 1 \neq 0$."
 Negation: "There exists an integer $n$ such that $n$ is even and $n^2$ is not even."
 
 Notice that negating an implication $P \Rightarrow Q$ produces $\neg Q$ alongside $P$: the negation
-Is "$P$ and not $Q$", not "$P \Rightarrow \neg Q$". This is because $P \Rightarrow Q$ is logically
+is "$P$ and not $Q$", not "$P \Rightarrow \neg Q$". This is because $P \Rightarrow Q$ is logically
 Equivalent to $\neg P \lor Q$ And negating gives $P \land \neg Q$.
 
 **Example 4.** Negate: "For all real numbers $x$ there exists a real number $y$ such that
@@ -359,7 +359,7 @@ $x + y = 0$."
 Negation: "There exists a real number $x$ such that for all real numbers $y$, $x + y \neq 0$."
 
 When negating a chain of quantifiers, the order reverses. The rightmost quantifier flips first, then
-The next, and so on -- just like removing nested negations.
+the next, and so on -- just like removing nested negations.
 
 ## Necessary and Sufficient Conditions: Formal Definitions
 
@@ -435,7 +435,7 @@ a + b = 2k + 2m = 2(k + m)
 $$
 
 Since $k + m$ is an integer (the integers are closed under addition), $a + b$ is divisible by 2, and
-Therefore $a + b$ is even. $\square$
+therefore $a + b$ is even. $\square$
 
 **Remark.** The key move was substituting the definition of evenness ($a = 2k$), performing algebra,
 And then reversing the definition. This pattern -- unpack a definition, manipulate, repack -- is the
@@ -461,7 +461,7 @@ $$
 $$
 
 This means $a^2$ is even. Since the square of an odd number is odd, $a$ must be even. Write $a = 2k$
-For some integer $k$. Substituting:
+for some integer $k$. Substituting:
 
 $$
 (2k)^2 = 2b^2 \quad \Rightarrow \quad 4k^2 = 2b^2 \quad \Rightarrow \quad b^2 = 2k^2
@@ -494,7 +494,7 @@ $$
 $$
 
 This is useful when the negation of the conclusion gives you more to work with than the hypothesis
-Does.
+does.
 
 **Worked example.** Prove that if $n^2$ is even, then $n$ is even.
 
@@ -563,7 +563,7 @@ Several tempting deductions are invalid. The TMUA specification specifically hig
 
 This implicitly assumes $a \neq 0$. Counterexample: $a = 0$, $b = 3$, $c = 7$. Then
 $0 \cdot 3 = 0 \cdot 7 = 0$ But $3 \neq 7$. The correct deduction is: if $ab = ac$ and $a \neq 0$
-Then $b = c$.
+then $b = c$.
 
 **Error 2:** "If $\sin A = \sin B$ Then $A = B$."
 
@@ -594,8 +594,8 @@ integer $k$.
 ### Pitfall 1: Confusing necessary and sufficient
 
 "$A$ is necessary for $B$" means $B \Rightarrow A$ Not $A \Rightarrow B$. Students frequently swap
-These. Remember: a necessary condition is one you **cannot do without**; a sufficient condition is
-One that is **enough on its own**.
+these. Remember: a necessary condition is one you **cannot do without**; a sufficient condition is
+one that is **enough on its own**.
 
 A reliable test: ask yourself "Is condition $A$ enough to guarantee $B$?" If yes, $A$ is sufficient.
 Ask "Must $A$ hold whenever $B$ holds?" If yes, $A$ is necessary.
@@ -608,7 +608,7 @@ to show that "if $P$ then $Q$" is false, you must exhibit a case where $P$ is tr
 ### Pitfall 3: Forgetting that "or" is inclusive
 
 In mathematics, "or" means **at least one** holds, possibly both. "A or B" is false only when both
-Are false. This differs from everyday English, where "or" is sometimes exclusive (e.g. "tea or
+are false. This differs from everyday English, where "or" is sometimes exclusive (e.g. "tea or
 Coffee").
 
 ### Pitfall 4: Treating the converse as equivalent
@@ -638,7 +638,7 @@ and "$x \lt 0$" is **not** exhaustive -- You must include "$x = 0$".
 ### Problem 1
 
 State the converse and contrapositive of: "If $n$ is a multiple of 6, then $n$ is even." Determine
-Whether each is true.
+whether each is true.
 
 <details>
 <summary>Solution</summary>
@@ -674,7 +674,7 @@ $$
 $$
 
 So $b^2$ is a multiple of 3, meaning $b$ is a multiple of 3. But then both $a$ and $b$ are multiples
-Of 3, contradicting $\gcd(a, b) = 1$. Hence $\sqrt{3}$ is irrational. $\square$
+of 3, contradicting $\gcd(a, b) = 1$. Hence $\sqrt{3}$ is irrational. $\square$
 
 </details>
 
@@ -689,7 +689,7 @@ Step 1: Negate the universal quantifier. "There exists an integer $n$ such that 
 Case that (if $n$ is prime then $n$ is odd or $n = 2$)."
 
 Step 2: Negate the implication. "$P \Rightarrow Q$" negates to "$P$ and $\neg Q$". So: "$n$ is prime
-And $\neg(n \mathrm{ is odd or } n = 2)$."
+and $\neg(n \mathrm{ is odd or } n = 2)$."
 
 Step 3: Apply De Morgan's law. $\neg(A \lor B) = (\neg A) \land (\neg B)$. So: "$n$ is even and
 $n \neq 2$."
@@ -775,7 +775,7 @@ Prove by contrapositive: if $3n + 2$ is odd, then $n$ is odd.
 <summary>Solution</summary>
 
 The contrapositive is: if $n$ is not odd (i.e. $n$ is even), then $3n + 2$ is not odd (i.e. $3n + 2$
-Is even).
+is even).
 
 **Proof.** Let $n$ be even, so $n = 2k$ for some integer $k$. Then:
 
@@ -818,16 +818,16 @@ Determine whether each condition is necessary, sufficient, both, or neither for 
 <summary>Solution</summary>
 
 (a) **Necessary but not sufficient.** If $15 \mid n$ then $3 \mid n$ (so necessary). But $3 \mid 6$
-While $15 \nmid 6$ (so not sufficient).
+while $15 \nmid 6$ (so not sufficient).
 
 (b) **Necessary and sufficient.** $3 \mid n$ and $5 \mid n$ together mean $n$ is a common multiple
-Of 3 and 5. Since $\gcd(3, 5) = 1$ The least common multiple is $15$ So $15 \mid n$.
+of 3 and 5. Since $\gcd(3, 5) = 1$ The least common multiple is $15$ So $15 \mid n$.
 
 (c) **Sufficient but not necessary.** If $30 \mid n$ then $15 \mid n$ (since $30 = 2 \times 15$).
 But $15 \mid 15$ while $30 \nmid 15$.
 
 (d) **Neither.** Not sufficient: $25$ ends in 5 but $15 \nmid 25$. Not necessary: $30$ is divisible
-By 15 but does not end in 5.
+by 15 but does not end in 5.
 
 </details>
 

@@ -24,7 +24,7 @@ categories:
 `std::shared_ptr` enables multiple owners to share a single heap-allocated object via a
 Reference-counted control block. While powerful, it carries significant overhead, atomic reference
 Counting, a separate heap allocation, and the risk of reference cycles, and should only be used
-When shared ownership is genuinely required.
+when shared ownership is genuinely required.
 
 ## 3.1 Definition
 
@@ -241,7 +241,7 @@ Consider a managed object of size $N$ bytes on x86_64:
 
 The "weak_ptr delay" column is the critical tradeoff. With `make_shared`The object memory and the
 32-byte control block are in a single allocation. Even after `strong_count` reaches 0 and the object
-Is destroyed, the allocator cannot return the memory to the OS until `weak_count` also reaches 0.
+is destroyed, the allocator cannot return the memory to the OS until `weak_count` also reaches 0.
 For a 1 MiB object with a single long-lived `weak_ptr`This means 1 MiB + 32 bytes of memory is Held
 hostage.
 
@@ -264,7 +264,7 @@ Deleter for very large objects that may be observed by long-lived `weak_ptr` ins
 
 The control block"s reference counts are modified using `std::atomic` operations [N4950 S20.11.3.6].
 This means you can safely copy `shared_ptr` instances between threads. But the **object itself** is
-Not protected, concurrent writes to `*p` without external synchronization is a data race and
+not protected, concurrent writes to `*p` without external synchronization is a data race and
 Undefined behavior.
 
 ```cpp
@@ -357,7 +357,7 @@ Sequentially-consistent operations. The implications:
 
 :::note
 For increment and `memory_order_acq_rel` for decrement instead of `seq_cst`Which is valid because
-The standard only requires that the control block operations do not race with each other. The
+the standard only requires that the control block operations do not race with each other. The
 Stronger `seq_cst` default is a conservative choice that implementations may relax.
 :::
 
@@ -508,7 +508,7 @@ int main() {
 
 :::caution
 If another thread might modify the object concurrently. COW is safe only in single-threaded contexts
-Or with external synchronization. `std::string` implementations have moved away from COW for this
+or with external synchronization. `std::string` implementations have moved away from COW for this
 Reason.
 :::
 
@@ -582,7 +582,7 @@ public:
 ```
 
 The key invariant: `_internal_accept_owner` is called **exactly once**, during the construction of
-The **first** `shared_ptr` that takes ownership of the object. Subsequent `shared_from_this()` calls
+the **first** `shared_ptr` that takes ownership of the object. Subsequent `shared_from_this()` calls
 Return `shared_ptr` instances that share the same control block.
 
 ```cpp

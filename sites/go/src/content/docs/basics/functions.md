@@ -146,7 +146,7 @@ fmt.Println(apply(add, 3, 4)) // 7
 ```
 
 Function values are comparable. Two function values are equal if they refer to the same function or
-Were created by evaluating the same function literal:
+were created by evaluating the same function literal:
 
 ```go
 fn1 := func() {}
@@ -255,7 +255,7 @@ fmt.Println(p.Area()) // OK -- auto-dereferences
 ### Method Sets
 
 The method set of a type `T` contains all value receiver methods. The method set of `*T` contains
-All methods (value and pointer receiver). This matters for interface satisfaction -- if an interface
+all methods (value and pointer receiver). This matters for interface satisfaction -- if an interface
 Requires a method with a pointer receiver, only `*T` satisfies it, not `T`.
 
 ## Anonymous Functions

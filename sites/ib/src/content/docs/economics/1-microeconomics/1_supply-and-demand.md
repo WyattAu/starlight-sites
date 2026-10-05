@@ -46,7 +46,7 @@ The four **factors of production** are:
 ### Opportunity Cost
 
 The **opportunity cost** of a decision is the value of the next best alternative foregone. It is not
-The sum of all alternatives, but only the single most valuable one that was rejected.
+the sum of all alternatives, but only the single most valuable one that was rejected.
 
 Opportunity cost applies at every level:
 
@@ -286,7 +286,7 @@ confirming Increasing opportunity costs (a concave PPF).
 
 (c) Point D is on the PPF (30 $K$70 $C$), so yes, the economy can produce this combination if all
 Resources are fully and efficiently employed. However, to move from point B to point D, the economy
-Must reallocate resources from consumer goods to capital goods, which requires time and adjustment.
+must reallocate resources from consumer goods to capital goods, which requires time and adjustment.
 
 </details>
 
@@ -535,7 +535,7 @@ Potential government failures include:
 
 A consumer's budget constraint represents all combinations of two goods they can afford given their
 Income and the prices of the goods. If a consumer has income $M$ The price of good $X$ is $P_X$ And
-The price of good $Y$ is $P_Y$:
+the price of good $Y$ is $P_Y$:
 
 $$
 P_X \cdot X + P_Y \cdot Y = M
@@ -549,7 +549,7 @@ The budget line has:
 
 The budget constraint shifts outward when income increases or when the price of both goods falls
 Proportionally. A change in the price of one good rotates the budget line around the intercept of
-The other good.
+the other good.
 
 ### Indifference Curves
 
@@ -577,8 +577,8 @@ $$
 
 At any point on the indifference curve, the MRS equals the absolute value of the slope of the
 Indifference curve. As the consumer moves down along the curve, the MRS diminishes: the more of $X$
-And the less of $Y$ consumed, the less $Y$ the consumer is willing to give up for an additional unit
-Of $X$.
+and the less of $Y$ consumed, the less $Y$ the consumer is willing to give up for an additional unit
+of $X$.
 
 The MRS also equals the ratio of marginal utilities:
 

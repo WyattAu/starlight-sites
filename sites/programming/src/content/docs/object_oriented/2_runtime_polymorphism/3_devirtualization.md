@@ -67,7 +67,7 @@ dynamic type. The compiler emits a direct call to `D::f`.
 
 **Case 2: `final` class.** If `D` is marked `final` [N4950 S11.7.4], no class can derive from `D`.
 If the compiler sees a call `d.f()` where `d` has static type `D`The dynamic type must be `D` (it
-Cannot be a more-derived type). Therefore, `D::f` is the only possible target.
+cannot be a more-derived type). Therefore, `D::f` is the only possible target.
 
 **Case 3: `final` virtual function.** If `D::f` is marked `final`No derived class can override `f`.
 If the compiler can prove the dynamic type is `D` or a type derived from `D`The call resolves To
@@ -242,7 +242,7 @@ Understanding these barriers helps you write code that is amenable to optimizati
 ### Barrier 1: Multiple Inheritance
 
 Multiple inheritance introduces vptr offsets and additional indirection. When a method is called
-Through a base class pointer that is not the primary base, the compiler must adjust the `this`
+through a base class pointer that is not the primary base, the compiler must adjust the `this`
 Pointer before performing the vtable lookup. This adjustment can prevent devirtualization.
 
 ```cpp
@@ -580,7 +580,7 @@ int main() {
 ```
 
 If the virtual call is on the hot path, consider replacing `std::function` with a template parameter
-Or a manually specialized callable to allow devirtualization.
+or a manually specialized callable to allow devirtualization.
 
 ## 3.12 Devirtualization of Returned Virtual Calls
 
@@ -614,7 +614,7 @@ int main() {
 ```
 
 Modern compilers can sometimes chain virtual call results and prove the type through the chain, but
-This is less reliable than direct type knowledge.
+this is less reliable than direct type knowledge.
 
 ## 3.13 Whole-Program Devirtualization with CFI
 

@@ -52,7 +52,7 @@ Education, and infrastructure.
 
 Many developing countries carry high levels of external debt, debt owed to foreign creditors
 (governments, multilateral institutions, commercial banks). Servicing this debt (interest payments
-And principal repayment) diverts scarce government resources away from health, education, and
+and principal repayment) diverts scarce government resources away from health, education, and
 Infrastructure.
 
 **Indicators of debt sustainability:**
@@ -258,7 +258,7 @@ Tariffs, quotas, and subsidies to protect infant industries.
 ### Export-Oriented Industrialisation (EOI)
 
 EOI involves promoting exports of manufactured goods, often starting with labour-intensive products
-And moving up the value chain.
+and moving up the value chain.
 
 **Key features:**
 

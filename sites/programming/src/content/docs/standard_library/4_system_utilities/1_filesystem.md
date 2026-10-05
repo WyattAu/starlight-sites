@@ -122,7 +122,7 @@ void path_iteration() {
 :::tip
 Filesystem. `fs::canonical()` resolves them by actually querying the filesystem (and throws if the
 Path does not exist). Use `lexically_normal()` for string-level cleanup, `canonical()` when you need
-The true absolute path.
+the true absolute path.
 :::
 
 ### Directory Iterators
@@ -223,7 +223,7 @@ void recursive_list(const fs::path& root, int max_depth = 3) {
 :::note
 Directories that the current process lacks permission to read. Without this option, a
 `fs::filesystem_error` exception is thrown. This is essential for recursively scanning directories
-Like `/home` or `/tmp` where some subdirectories may have restricted permissions [N4950
+like `/home` or `/tmp` where some subdirectories may have restricted permissions [N4950
 §30.10.11.1].
 :::
 
@@ -542,7 +542,7 @@ void error_handling_demo() {
 
 :::tip
 (e.g., checking if a file exists by trying to open it). Exception-based error handling has overhead
-From stack unwinding, while error codes do not.
+from stack unwinding, while error codes do not.
 :::
 
 ### Temporary Files and Atomic Write Patterns

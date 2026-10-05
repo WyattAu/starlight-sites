@@ -176,7 +176,7 @@ where = ["src"]
 
 :::caution
 `setup.py` file can still exist for complex build logic that cannot be expressed declaratively, but
-Most projects do not need it.
+most projects do not need it.
 :::
 
 ## setuptools

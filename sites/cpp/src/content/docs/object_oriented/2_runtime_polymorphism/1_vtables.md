@@ -68,7 +68,7 @@ Derived
 
 When `greet()` is called through a `Base&` or `Base*` that actually refers to a `Derived` object,
 The **virtual dispatch mechanism** selects `Derived::greet`. This selection occurs at runtime, not
-At compile time.
+at compile time.
 
 ### Formal Semantics [N4950 S13.3.2]
 
@@ -168,7 +168,7 @@ Object. The dispatch sequence is:
 3. Call: `func(p)` -- one indirect call.
 
 Since $k$ is a compile-time constant determined by the function declaration order in the class, and
-The vptr offset within the object is also a compile-time constant (0 in the Itanium ABI), both
+the vptr offset within the object is also a compile-time constant (0 in the Itanium ABI), both
 Memory accesses are at fixed, known offsets. The total work is two memory loads and one indirect
 Branch, independent of the depth or breadth of the inheritance hierarchy. Therefore, virtual
 Dispatch is $O(1)$.
@@ -259,7 +259,7 @@ Every virtual call involves:
 | **Total extra vs. Direct** | ~2--5 cycles on modern hardware (cached) |
 
 The primary costs are **indirection** (preventing inlining) and **branch misprediction** (the CPU
-Cannot predict which function will be called at the indirect branch). In tight loops, this can be
+cannot predict which function will be called at the indirect branch). In tight loops, this can be
 Measurable.
 
 ```cpp
@@ -582,7 +582,7 @@ C object:
 
 When calling `fb()` through a `B*`The compiler generates a **thunk** -- a small code stub that
 Adjusts the `this` pointer by the offset between the `B` subobject and the `C` complete object
-Before jumping to `C::fb`. This thunk is stored in `B`'s vtable within `C`'s vtable structure.
+before jumping to `C::fb`. This thunk is stored in `B`'s vtable within `C`'s vtable structure.
 
 ### Thunk Example
 
@@ -627,7 +627,7 @@ struct MostDerived : Left, Right {
 ```
 
 The layout is complex: each of `Left` and `Right` contains a vbptr that points to a shared subtable
-In the vtable. At runtime, these offsets are used to locate the single `VBase` subobject. Every
+in the vtable. At runtime, these offsets are used to locate the single `VBase` subobject. Every
 Access to a virtual base member requires one additional indirection compared to non-virtual base
 Access.
 
@@ -642,12 +642,12 @@ Silently creates a new function that **hides** (not overrides) the base version.
 `override` on every function intended to be virtual dispatch.
 
 **2. Virtual functions in constructors/destructors:** As shown in section 1.7, virtual dispatch does
-Not work as expected during construction and destruction. Never call virtual functions that rely on
+not work as expected during construction and destruction. Never call virtual functions that rely on
 Derived-class state from a base class constructor or destructor.
 
 **3. Diamond inheritance without `virtual`:** If two intermediate classes both inherit from the same
 Base non-virtually, the most-derived class contains two copies of the base. This causes ambiguity
-When calling base-class functions. Use virtual inheritance when a diamond is intended, or
+when calling base-class functions. Use virtual inheritance when a diamond is intended, or
 Restructure the hierarchy.
 
 **4. Pure virtual function with body:** A pure virtual function (`= 0`) **can** have a definition.
@@ -668,8 +668,8 @@ struct Derived : Base {
 
 **5. Overhead of virtual dispatch in tight loops:** While the per-call overhead is small (~2--5
 Cycles), the inability to inline virtual calls prevents a wide range of optimizations. If a function
-Is called in a tight inner loop and the target is always the same, consider devirtualization (mark
-The class or function `final`) or CRTP/deducing-this for static dispatch.
+is called in a tight inner loop and the target is always the same, consider devirtualization (mark
+the class or function `final`) or CRTP/deducing-this for static dispatch.
 
 **6. Virtual functions and move semantics:** Virtual functions cannot be templated. If you need a
 Type-parameterized operation that is dispatched at runtime, you must use a type-erased mechanism
@@ -728,7 +728,7 @@ The size of a vptr depends on the platform's pointer size:
 | 32-bit ARM    | 4 bytes      | 4 bytes   | 4 bytes                      |
 
 On 64-bit platforms, every polymorphic object pays at least 8 bytes for the vptr, even if the class
-Has no data members. This is the fundamental cost of runtime polymorphism.
+has no data members. This is the fundamental cost of runtime polymorphism.
 
 ## See Also
 

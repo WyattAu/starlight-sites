@@ -171,7 +171,7 @@ k_n L = (n + 1/2)\pi \implies f_n = \frac{(2n+1)v}{4L}, \quad n = 0, 1, 2, \ldot
 $$
 
 Only odd harmonics are present. A pipe open at one end and closed at the other behaves analogously
-For sound waves.
+for sound waves.
 
 <details>
 <summary>Worked Example: Guitar string harmonics</summary>
@@ -270,7 +270,7 @@ $I = \langle P \rangle/A_{\mathrm{wire} = 34.7/(7.85 \times 10^{-7}) = 4.42 \tim
 ### 1.6 Wave Packets and Group Velocity
 
 A real wave is never perfectly monochromatic. A **wave packet** is a superposition of plane waves
-With a narrow range of frequencies and wave vectors:
+with a narrow range of frequencies and wave vectors:
 
 $$
 \psi(x,t) = \int_{-\infty}^{\infty} A(k)\, e^{i(kx - \omega(k)t)}\,dk

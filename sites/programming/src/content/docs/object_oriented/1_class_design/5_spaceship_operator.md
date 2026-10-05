@@ -27,7 +27,7 @@ Mechanism for defining all relational comparisons in a single declaration. Combi
 ## 5.1 Three-Way Comparison [N4950 §11.4.5.4]
 
 C++20 introduced the **spaceship operator** `<=>` as a unified comparison mechanism. It returns one
-Of three comparison category types from `<compare>`:
+of three comparison category types from `<compare>`:
 
 | Category                | Meaning                                      | Total ordering? | Equality substitutable? |
 | ----------------------- | -------------------------------------------- | :-------------: | :---------------------: |
@@ -295,7 +295,7 @@ int main() {
 
 A **total ordering** where equivalent values may not be substitutable. This arises with types that
 Use case-insensitive comparison: `"ABC"` and `"abc"` are equivalent for ordering purposes, but are
-Not the same value.
+not the same value.
 
 **Use when:** You need a total order but equality has a broader definition than identity.
 

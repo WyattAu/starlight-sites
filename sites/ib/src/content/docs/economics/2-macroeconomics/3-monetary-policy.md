@@ -90,7 +90,7 @@ Where $M$ is the money supply, $V$ is the velocity of circulation (how many time
 is spent per period), $P$ is the price level, and $Y$ is real output.
 
 If $V$ and $Y$ are constant in the short run, then increases in $M$ lead to proportional increases
-In $P$:
+in $P$:
 
 $$
 \%\Delta M + \%\Delta V = \%\Delta P + \%\Delta Y
@@ -129,14 +129,14 @@ It is not the same as deflation.
 ### The Phillips Curve
 
 The short-run Phillips Curve (SRPC) depicts an inverse relationship between the rate of inflation
-And the rate of unemployment:
+and the rate of unemployment:
 
 $$
 \pi = \pi^e - \alpha(u - u_n) + \varepsilon
 $$
 
 Where $\pi$ is actual inflation, $\pi^e$ is expected inflation, $u$ is the unemployment rate, $u_n$
-Is the natural rate of unemployment (NAIRU), $\alpha$ is a parameter, and $\varepsilon$ is a supply
+is the natural rate of unemployment (NAIRU), $\alpha$ is a parameter, and $\varepsilon$ is a supply
 Shock term.
 
 **Short-run Phillips Curve:** as unemployment falls below the natural rate, labour markets tighten,

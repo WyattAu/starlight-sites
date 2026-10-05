@@ -23,7 +23,7 @@ categories:
 
 CPython is the reference implementation of Python, written in C. It is the most widely used
 Implementation and the one most people mean when they say "Python." Understanding its architecture
-Is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
+is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
 Python's memory and concurrency behavior.
 
 The execution pipeline in CPython is:
@@ -226,14 +226,14 @@ Collected. The same logic applies for generation 2.
 ### What the GC Tracks
 
 The GC only tracks container objects that can participate in cycles: lists, dicts, sets, instances
-Of user-defined classes, tuples, and similar. It does not track immutable atomic objects (integers,
+of user-defined classes, tuples, and similar. It does not track immutable atomic objects (integers,
 Strings, floats) because they cannot hold references to other objects. Note that tuples are tracked
-Because they can contain references to mutable objects, even though the tuple itself is immutable.
+because they can contain references to mutable objects, even though the tuple itself is immutable.
 
 ### `__del__` and the Finalizer Problem
 
 Objects with `__del__` methods complicate garbage collection. The GC cannot safely break a cycle
-That includes objects with `__del__`Because breaking the cycle requires deallocating at least one
+that includes objects with `__del__`Because breaking the cycle requires deallocating at least one
 Object, which triggers `__del__`Which might access other objects in the cycle that have already Been
 deallocated.
 
@@ -309,7 +309,7 @@ def get_user(user_id):
 ```
 
 This is the correct pattern for caches where you want entries to be evicted automatically when no
-Other code holds a reference to the cached object.
+other code holds a reference to the cached object.
 
 ### `gc.disable()` and When to Use It
 
@@ -333,7 +333,7 @@ def latency_critical_section():
 ```
 
 This defers GC to the end of the critical section. The `finally` block ensures the GC is re-enabled
-Even if `perform_work()` raises an exception.
+even if `perform_work()` raises an exception.
 
 ## Bytecode and the `dis` Module
 
@@ -397,7 +397,7 @@ for instr in bc:
 ### The Stack-Based VM
 
 CPython's eval loop is a stack-based virtual machine. Most bytecode instructions either push a value
-Onto the stack, pop a value from the stack, or both. Binary operations like `BINARY_ADD` pop two
+onto the stack, pop a value from the stack, or both. Binary operations like `BINARY_ADD` pop two
 Values, compute the result, and push it. `LOAD_FAST` pushes a local variable onto the stack.
 `RETURN_VALUE` pops the top of stack and returns it.
 
@@ -588,7 +588,7 @@ Different caching strategies or no caching at all.
 Small integers are extremely common in Python programs (loop counters, boolean results, short lists
 Indices, enum values). Caching them eliminates the overhead of allocating a new `PyObject` for every
 Occurrence. The range `[-5, 256]` was chosen empirically to cover the vast majority of use cases
-Without consuming excessive memory.
+without consuming excessive memory.
 
 ## `__dict__` vs `__slots__`
 
@@ -806,7 +806,7 @@ Objects.
 **2. Assuming `__del__` will be called promptly.**
 
 Reference counting means `__del__` is called immediately when the last reference drops -- most of
-The time. But if the object is in a reference cycle, `__del__` is not called until the garbage
+the time. But if the object is in a reference cycle, `__del__` is not called until the garbage
 Collector runs, which may be much later or never (if the GC is disabled).
 
 ```python
@@ -842,7 +842,7 @@ print(sys.getrefcount(x))
 ```
 
 The returned count is always at least 2 for a local variable: one for the variable itself, one for
-The temporary reference created by passing it to `getrefcount`.
+the temporary reference created by passing it to `getrefcount`.
 
 **5. Forgetting that `__slots__` must be defined on every class in the hierarchy.**
 
@@ -872,7 +872,7 @@ Bytecode behavior.
 **8. Ignoring the GC's impact on real-time performance.**
 
 A full garbage collection (`gc.collect()`) can take milliseconds to seconds depending on the number
-Of tracked objects. In latency-sensitive applications (trading systems, game loops, real- time
+of tracked objects. In latency-sensitive applications (trading systems, game loops, real- time
 Signal processing), an unexpected GC pause can cause deadline misses. Profile your GC behavior with
 `gc.get_stats()` (Python 3.4+) and tune thresholds accordingly.
 

@@ -22,14 +22,14 @@ categories:
 ## Defining Concepts and Requires Clauses
 
 C++20 introduced **concepts** --- named requirements for template parameters that allow the compiler
-To check, at the point of instantiation, whether a type satisfies a set of constraints. Concepts
+to check, at the point of instantiation, whether a type satisfies a set of constraints. Concepts
 Make template requirements **explicit**, **named**, and **composable**, transforming template
 Metaprogramming from an implicit contract into a readable interface.
 
 ## The `concept` Keyword
 
 A **concept** is a named compile-time predicate that evaluates to `true` or `false` for a given set
-Of template arguments [N4950 §18.4]. The syntax is defined in [N4950 §13.9.3]:
+of template arguments [N4950 §18.4]. The syntax is defined in [N4950 §13.9.3]:
 
 ```cpp
 template <template-parameter-list>
@@ -154,8 +154,8 @@ Succeeds or fails.
 :::note
 `concept` are both compile-time boolean predicates, but a concept participates in **partial
 Ordering** (subsumption) during overload resolution, while a `constexpr bool` variable template does
-Not. Concepts are also required to be `true` for all substitutions --- a concept that is `false` for
-Some argument is well-formed, whereas a `static_assert(false)` in the concept body would be
+not. Concepts are also required to be `true` for all substitutions --- a concept that is `false` for
+some argument is well-formed, whereas a `static_assert(false)` in the concept body would be
 Ill-formed.
 :::
 
@@ -237,7 +237,7 @@ int main() {
 ### Substitution Failure Semantics in Requires-Expressions
 
 When the compiler evaluates a requires-expression, it performs template argument substitution for
-Each requirement. If substitution causes a failure (e.g., the type does not have a member function,
+each requirement. If substitution causes a failure (e.g., the type does not have a member function,
 Or an expression is ill-formed), that specific requirement is treated as unsatisfied rather than
 Causing a compilation error [N4950 §7.5.8/7]:
 
@@ -251,7 +251,7 @@ concept HasFooAndBar = requires(T t) {
 ```
 
 This is the SFINAE principle applied to requires-expressions. The compiler does not emit an error
-For a failed substitution inside a requires-expression; it records that the constraint is not
+for a failed substitution inside a requires-expression; it records that the constraint is not
 Satisfied.
 
 However, if substitution succeeds but the expression is ill-formed for a reason **unrelated to
@@ -365,7 +365,7 @@ int main() {
 Participate in subsumption ordering**. A concept `!C` does not subsume or is not subsumed by `C` ---
 They are incomparable. This means `!C` cannot be used to establish a partial ordering between
 Overloads, which limits its usefulness in overload resolution. Prefer using a positive constraint on
-An alternative overload instead of negating a constraint.
+an alternative overload instead of negating a constraint.
 :::
 
 ## Standard Library Concepts Overview
@@ -511,7 +511,7 @@ int main() {
 ```
 
 The concepts version is shorter, more readable, and produces better error messages. The compiler can
-Also determine that `std::integral<T>` and `std::floating_point<T>` are mutually exclusive (via
+also determine that `std::integral<T>` and `std::floating_point<T>` are mutually exclusive (via
 Subsumption), eliminating the ambiguity that would arise with two `enable_if` overloads that the
 Compiler cannot structurally compare.
 
@@ -589,12 +589,12 @@ mean(3.0, 7.0) = 10.0
 Necessary) and **specific** (exclude types that would cause undefined behavior). Avoid overly broad
 Concepts like `requires(T t) { t + t; }` --- this would accept `std::string` (which supports `+` for
 Concatenation) even if the algorithm is intended for arithmetic. Use the standard library concepts
-In `<concepts>` as building blocks whenever possible.
+in `<concepts>` as building blocks whenever possible.
 
 ## Recursive Concept Constraints
 
 Concepts can express recursive constraints --- a concept that references itself or references
-Another concept that transitively references the original. This is useful for defining hierarchical
+another concept that transitively references the original. This is useful for defining hierarchical
 Type relationships:
 
 ```cpp
@@ -853,7 +853,7 @@ Constrained overload during overload resolution.
 Expressions follow short-circuit evaluation for **atomic constraints** (each individual predicate is
 Evaluated independently, and the result is the logical combination), the constraint as a whole is
 Evaluated by checking all atomic constraints. A failed substitution in one branch of a disjunction
-Does not cause a hard error --- SFINAE applies [N4950 §13.5.3].
+does not cause a hard error --- SFINAE applies [N4950 §13.5.3].
 
 **2. `requires` inside a concept body vs requires-clause:** A `requires` clause on a function
 Constrains the function. A `requires { ... }` expression inside a concept body is a
@@ -889,7 +889,7 @@ concept Addable = requires(T a, T b) {
 `requires(T x)` with an explicit template parameter.
 
 **6. Concepts cannot be forward-declared:** Unlike classes and functions, a concept must be defined
-Before it is used. There is no mechanism for forward-declaring a concept. This means concept
+before it is used. There is no mechanism for forward-declaring a concept. This means concept
 Definitions must appear in headers, and mutual recursion between concepts (A requires B, B requires
 A) is impossible without indirection through type traits.
 

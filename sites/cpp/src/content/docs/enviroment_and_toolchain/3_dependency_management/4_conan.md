@@ -69,7 +69,7 @@ Compute the same Package ID.
 **Proof:** SHA-1 is a deterministic function: identical inputs always produce identical outputs. The
 Profile defines the `settings` dictionary. The `conanfile.txt` (or `conanfile.py`) defines the
 `options` and `requires`. If both are identical on two machines, the SHA-1 input is identical, and
-Therefore the output is identical. $\blacksquare$
+therefore the output is identical. $\blacksquare$
 
 **Corollary:** If two machines have the same Package ID for a dependency, they can share the same
 Pre-compiled binary. This is the foundation of Conan's binary caching.
@@ -419,7 +419,7 @@ def package_info(self):
 ### What `CMakeToolchain` Generates
 
 The `CMakeToolchain` generator creates a `conan_toolchain.cmake` file that sets CMake variables
-Before the project's `CMakeLists.txt` is processed. This file configures:
+before the project's `CMakeLists.txt` is processed. This file configures:
 
 | CMake Variable                            | Purpose                                       |
 | :---------------------------------------- | :-------------------------------------------- |

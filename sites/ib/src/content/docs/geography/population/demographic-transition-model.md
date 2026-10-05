@@ -22,7 +22,7 @@ description: "The demographic transition model (DTM) describes the shift from hi
 The demographic transition model (DTM) describes the shift from high birth rates and high death
 Rates to low birth rates and low death rates as a country develops economically. The model was
 Developed by Warren Thompson (1929) and Frank Notestein (1945), based on the historical experience
-Of Western Europe and North America.
+of Western Europe and North America.
 
 ### The Five Stages
 
@@ -49,7 +49,7 @@ improvements in public health that precede economic modernisation:
   infection and childbirth.
 
 Crucially, birth rates remain high during this transition because the social and economic conditions
-That sustain high fertility (value of children as agricultural labour, high infant mortality
+that sustain high fertility (value of children as agricultural labour, high infant mortality
 Requiring compensatory births, cultural norms favouring large families, limited access to
 Contraception) persist even as death rates fall. This gap between declining death rates and
 Persistently high birth rates produces rapid population growth.
@@ -73,7 +73,7 @@ Conditions sustaining high fertility erode:
 
 **Stage 4 to Stage 5 (sub-replacement fertility).** In some highly developed countries, fertility
 Falls below replacement level (approximately 2.1 children per woman), and the population ages and
-May begin to decline. Factors driving very low fertility include:
+may begin to decline. Factors driving very low fertility include:
 
 - **High cost of raising children:** housing costs, childcare, education, and extracurricular
   activities create a significant financial burden.
@@ -91,7 +91,7 @@ May begin to decline. Factors driving very low fertility include:
 ### Eurocentrism
 
 The DTM was developed from the historical experience of Western Europe and North America and assumes
-That all societies will follow the same path. This assumption is problematic because:
+that all societies will follow the same path. This assumption is problematic because:
 
 - The conditions that drove the European transition (industrialisation, urbanisation, the
   Enlightenment, the development of the welfare state) may not be replicated in other cultural and
@@ -114,7 +114,7 @@ Immigration.
 ### Assumes Linear Progression
 
 The model implies a unidirectional, sequential progression through stages. In reality, transitions
-Can be non-linear:
+can be non-linear:
 
 - **HIV/AIDS:** the HIV/AIDS epidemic in southern Africa caused mortality spikes in the 1990s and
   2000s, reversing the mortality transition in countries such as Botswana, Zimbabwe, and South
@@ -195,8 +195,8 @@ $P_{0\mathrm{--}14}$ in the numerator; the elderly dependency ratio uses only $P
 ### Definition
 
 The demographic dividend (or demographic bonus) is the accelerated economic growth that can result
-From a favourable age structure, specifically when the working-age population (15--64) grows faster
-Than the dependent population (0--14 and 65+), producing a low total dependency ratio. During this
+from a favourable age structure, specifically when the working-age population (15--64) grows faster
+than the dependent population (0--14 and 65+), producing a low total dependency ratio. During this
 Window, a larger proportion of the population is available for productive employment, potentially
 Driving higher per capita income growth.
 
@@ -214,7 +214,7 @@ The demographic dividend operates through several channels:
 ### Conditions for Realising the Dividend
 
 The demographic dividend is not automatic. It is realised only if the growing working-age population
-Is productively employed, which requires:
+is productively employed, which requires:
 
 - **Investment in education and skills:** to ensure the workforce has the human capital demanded by
   a modernising economy.
@@ -239,7 +239,7 @@ One of the fastest fertility declines in history -- driven by strong government 
 Programmes, rapid female education (female secondary enrolment reached 95% by 1990), and
 Industrialisation creating non-agricultural employment. The dependency ratio fell from approximately
 85% (1965) to approximately 40% (2010), and GDP per capita grew from approximately USD 100 (1960) to
-Over USD 30 000 (2023).
+over USD 30 000 (2023).
 
 **The dividend closes.** South Korea's TFR has since fallen to 0.72 (2023), the lowest in the world,
 And its population is ageing rapidly. The demographic dividend has given way to a demographic

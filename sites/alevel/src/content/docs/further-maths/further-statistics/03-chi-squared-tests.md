@@ -518,7 +518,7 @@ A normal distribution.
 
 The chi-squared distribution is a continuous approximation to the discrete multinomial distribution.
 For $2 \times 2$ tables (1 degree of freedom), this approximation is poor when expected frequencies
-Are small. The uncorrected chi-squared test tends to reject $H_0$ too often (it is too liberal).
+are small. The uncorrected chi-squared test tends to reject $H_0$ too often (it is too liberal).
 
 Yates' correction adjusts each term by subtracting 0.5 from the absolute difference before squaring:
 
@@ -539,7 +539,7 @@ This reduces the test statistic, making it harder to reject $H_0$.
 ### 5.3 Limitations
 
 Yates' correction can be **overly conservative**, it may fail to detect a real association. For
-Very small samples, Fisher's exact test is preferred (but this is beyond the A-Level syllabus).
+very small samples, Fisher's exact test is preferred (but this is beyond the A-Level syllabus).
 
 <hr />
 
@@ -741,7 +741,7 @@ Df follows a half-normal distribution.
 ### 9.2 $2 \times 2$ tables and the normal approximation
 
 For a $2 \times 2$ table, the chi-squared test is equivalent to a two-proportion $z$-test. If $p_1$
-And $p_2$ are the sample proportions:
+and $p_2$ are the sample proportions:
 
 $$
 \chi^2 = z^2 \quad \mathrm{where} \quad z = \frac{p_1 - p_2}{\sqrt{\hat{p}(1-\hat{p})(1/n_1 + 1/n_2)}}
@@ -767,7 +767,7 @@ This approximation is useful when chi-squared tables do not list the required $\
 
 The chi-squared test requires raw count data. If you are given percentages, you must convert back to
 Frequencies using the sample size. Using percentages directly produces a test statistic that is off
-By a factor of $n/100$ and gives completely wrong $p$-values.
+by a factor of $n/100$ and gives completely wrong $p$-values.
 
 ### Wrong degrees of freedom
 
@@ -790,7 +790,7 @@ Values. The merge may create new expected values below 5.
 
 When merging categories for a goodness of fit, merge categories that are logically adjacent (e.g.,
 "4" and "$\geq 5$" in a Poisson fit). Merging non-adjacent categories (e.g., "0" and "5") destroys
-The structure of the distribution and makes the test invalid.
+the structure of the distribution and makes the test invalid.
 
 ### Confusing one-tailed and two-tailed
 
@@ -939,7 +939,7 @@ $8.5 \lt 9.488$: **do not reject** $H_0$. Insufficient evidence to conclude the 
 
 The degrees of freedom calculation accounts for the fact that estimating parameters from the data
 Makes the fit appear better than it truly is. Each estimated parameter reduces the df by 1 because
-It uses up one piece of information from the data.
+it uses up one piece of information from the data.
 
 </details>
 
@@ -1207,7 +1207,7 @@ Determine whether to reject $H_0$ at the 5% significance level.
 $\nu = (4-1)(3-1) = 6$. Critical value at 5%: $12.59$.
 
 $18.7 > 12.59$: **reject** $H_0$. There is significant evidence of an association between the row
-And column variables.
+and column variables.
 
 </details>
 
@@ -1285,7 +1285,7 @@ Hypothesis testing relies on understanding significance levels, $p$-values, and 
 
 A teacher believes that grades in a class follow a specific distribution: 10% A, 30% B, 40% C, 20%
 D. In a sample of 200 students, the observed frequencies are: A: 15, B: 70, C: 80, D: 35. Test at
-The 5% level.
+the 5% level.
 
 <details>
 <summary>Solution</summary>
@@ -1404,14 +1404,14 @@ The power of the test.
 Merging reduces the number of classes $k$ Which reduces $\nu = k - 1 - m$. Fewer degrees of freedom
 Means the critical value is lower, making it easier to reject $H_0$ But merging also discards
 Information about the differences between the merged classes. If the true deviation from $H_0$ is in
-The merged classes, the test loses the ability to detect it, reducing power.
+the merged classes, the test loses the ability to detect it, reducing power.
 
 </details>
 
 ### Question 15
 
 A goodness-of-fit test of a normal distribution uses 10 classes with mean and variance estimated
-From the data. The calculated $\chi^2 = 15.2$. Test at the 5% level.
+from the data. The calculated $\chi^2 = 15.2$. Test at the 5% level.
 
 <details>
 <summary>Solution</summary>
@@ -1492,7 +1492,7 @@ Values with $|r_i| > 2$ indicate significant deviations.
 ### Question 16
 
 In a $\chi^2$ goodness-of-fit test with 8 classes, 1 parameter estimated, and $\chi^2 = 11.3$ Find
-The approximate $p$-value.
+the approximate $p$-value.
 
 <details>
 <summary>Solution</summary>

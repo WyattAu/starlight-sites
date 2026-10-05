@@ -118,14 +118,14 @@ Where $\theta$ is the rotation angle, $c$ is the concentration, and $l$ is the p
 
 Optical activity arises from the helical structure of molecules, which gives different refractive
 Indices for left- and right-circularly polarised light (circular birefringence). If $n_L$ and $n_R$
-Are the refractive indices for left and right circular polarisation:
+are the refractive indices for left and right circular polarisation:
 
 $$
 \theta = \frac{\pi l}{\lambda}(n_L - n_R)
 $$
 
 Optical activity is **reciprocal**: if the beam is reflected back through the medium, the rotation
-Is cancelled.
+is cancelled.
 
 ### 5.5 Brewster's Angle
 
@@ -149,7 +149,7 @@ $$
 $$
 
 At Brewster's angle, the reflected beam is purely s-polarised, and the reflected and refracted beams
-Are perpendicular ($\theta_B + \theta_t = 90°$). This principle is used in Brewster windows and
+are perpendicular ($\theta_B + \theta_t = 90°$). This principle is used in Brewster windows and
 Polarisation by reflection.
 
 For an air-glass interface ($n_1 = 1$, $n_2 = 1.5$): $\theta_B = \arctan(1.5) = 56.3°$.
@@ -227,7 +227,7 @@ $\mathbf{E}$-field oscillates in the $xy$-plane. An observer along $\hat{\mathbf
 Angle $90°$) receives radiation from the accelerating electrons. The dipole radiation pattern of an
 Oscillator along $\hat{\mathbf{y}}$ has zero intensity along $\hat{\mathbf{y}}$ but maximum along
 $\hat{\mathbf{x}}$. The oscillator along $\hat{\mathbf{x}}$ radiates zero along its own axis. Thus
-The observer along $\hat{\mathbf{x}}$ sees only the $y$-component: the scattered light is Polarised
+the observer along $\hat{\mathbf{x}}$ sees only the $y$-component: the scattered light is Polarised
 along $\hat{\mathbf{y}}$. $\blacksquare$
 
 This explains why the sky is polarised at $90°$ from the sun and why polarising sunglasses reduce

@@ -27,7 +27,7 @@ categories: [ib-economics]
 ## Balance of Payments
 
 The balance of payments is a record of all economic transactions between residents of a country and
-The rest of the world over a given period. It must balance in an accounting sense (total credits $=$
+the rest of the world over a given period. It must balance in an accounting sense (total credits $=$
 total debits, with the balancing item being errors and omissions).
 
 ### Current Account
@@ -348,7 +348,7 @@ JPY/USD, PPP $= 126.3$ JPY/USD. Since $110 < 126.3$ The yen is Overvalued (stron
 predicts).
 
 India: actual $= 75$ INR/USD, PPP $= 1.083$ USD/INR, or $92.3$ INR/USD. Since $75 < 92.3$ The rupee
-Is overvalued.
+is overvalued.
 
 (c) Relative PPP: $\%\Delta S \approx \pi_{\text{domestic}} - \pi_{\text{US}}$
 

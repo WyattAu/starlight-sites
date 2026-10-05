@@ -23,7 +23,7 @@ categories:
 ## What is Git
 
 Git is a **distributed version control system** (DVCS) designed to track changes in source code
-During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a
+during software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a
 Single server holds the authoritative repository, Git treats every clone as a **fully-fledged
 Repository** with complete history. There is no intrinsic distinction between a "server" and a
 "client"; the difference is purely social (who pushes where).
@@ -60,7 +60,7 @@ The cost is **disk space**, a full clone of the Linux kernel is $\sim$5 GB. Miti
 
 Most VCS (CVS, Subversion, Perforce) store a series of **deltas**: file $v_2$ is expressed as "file
 $v_1$ with these lines changed." Git instead stores **full snapshots** of the entire project tree at
-Each commit. If a file has not changed between two commits, Git does not store it again, it stores
+each commit. If a file has not changed between two commits, Git does not store it again, it stores
 A pointer to the identical blob object.
 
 This design choice has deep implications:
@@ -74,14 +74,14 @@ This design choice has deep implications:
   makes it robust against complex history topologies.
 
 The cost is that Git's object store can appear larger than a delta-based store for repositories with
-Very large files that change frequently. This is why Git added the packfile format (see
+very large files that change frequently. This is why Git added the packfile format (see
 [Internals: Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/)) to
 Compress objects using delta compression between similar objects.
 
 ### 3. Strong Integrity Guarantees
 
 Every Git object (blob, tree, commit, tag) is identified by a cryptographic hash of its **content
-Plus header**. This means:
+plus header**. This means:
 
 - **Tamper detection**: If a single byte in any object is modified, its hash changes, and all
   objects referencing it become invalid. `git fsck` can detect this.
@@ -196,7 +196,7 @@ flowchart TB
 ```
 
 These three areas, **working directory**, **index**, and **repository**, form the foundation of
-Every Git operation. Understanding the transitions between them is essential. See
+every Git operation. Understanding the transitions between them is essential. See
 [The Three Trees](/git/02-fundamentals/01-the-three-trees/) for a deep dive.
 
 ## Guide Structure

@@ -33,7 +33,7 @@ Header millions of times across a project, precompile headers is a workaround bu
 The **Module System** aims replaces this with a import model. A module is compiled once into a
 Binary representation (Binary Module Interface - BMI). Consumers import this semantic representation
 Directly, bypassing the preprocessor. Keep in mind that moduels are only partially implemented in
-Most compilers.
+most compilers.
 
 This module details the physical structure of a modular C++ project, focusing on the hierarchy of
 Units: **Primary Interfaces**, **Partitions**, and **Implementation Units**.
@@ -80,7 +80,7 @@ The C++ standard does not mandate file extensions, but tooling conventions have 
 ## 2. Module Implementation Units (MIU)
 
 Implementation Units contain the code that fulfills the promises made in the Interface. They allow
-For the separation of definition and implementation, similar to the `.h` vs `.cpp` split, but with
+for the separation of definition and implementation, similar to the `.h` vs `.cpp` split, but with
 Stronger isolation.
 
 An MIU allows you to modify the implementation details of a function _without_ changing the
@@ -161,7 +161,7 @@ export import :Physics;
 
 Sometimes internal implementation logic is too large for one file but needs to be shared among
 Different units of the module. Implementation partitions are _not_ exported and are _not_ reachable
-By consumers.
+by consumers.
 
 **File:** `src/engine_internals.cppm`
 
@@ -234,7 +234,7 @@ When designing a module system, visualize the dependencies as a Directed Acyclic
 
 In C++23 modules, a type can be _reachable_ but not _visible_. For example, if a function returns a
 `struct` that is not exported, the caller can use the struct (store it via `auto`), but cannot name
-The type explicitly.
+the type explicitly.
 
 ## Build System Implications
 
@@ -273,7 +273,7 @@ int main() \{
 ### User Header Units
 
 User-defined headers can also be imported as header units, provided they are self-contained (include
-All their own dependencies).
+all their own dependencies).
 
 ```cpp
 // File: src/utils.h
@@ -309,7 +309,7 @@ Differences:
 
 The critical takeaway: header units still leak macros and have no encapsulation boundary. They are a
 Performance optimization (avoid re-parsing), not an architectural improvement. Full modules should
-Be the end goal.
+be the end goal.
 
 ## 7. Module Linkage
 
@@ -381,7 +381,7 @@ export {
 ```
 
 The export block syntax (`export { ... }`) is particularly useful for selectively exporting a subset
-Of declarations from a larger header, avoiding the need to prefix each declaration individually.
+of declarations from a larger header, avoiding the need to prefix each declaration individually.
 
 ## 8. Macros and Modules
 
@@ -531,9 +531,9 @@ cl /std:c++23 /EHsc /interface
 ### Dependency Scanning (CMake 3.28+)
 
 CMake performs a **dependency scan** before compilation to discover `import` statements and build
-The correct dependency DAG. This is handled internally by CMake when module file sets are declared,
+the correct dependency DAG. This is handled internally by CMake when module file sets are declared,
 But requires the CMake generator to support the `FILE_SET` mechanism (Ninja and Makefile generators
-Do; Visual Studio generators have partial support).
+do; Visual Studio generators have partial support).
 
 ## Common Pitfalls
 
@@ -584,7 +584,7 @@ Distribute BMIs, only distribute source and let each consumer build their own BM
 ### 6. Partition Naming Collisions
 
 Partition names must be unique within a module. Using the same partition name in two different files
-Within the same module is ill-formed, even if one is an interface partition and the other is an
+within the same module is ill-formed, even if one is an interface partition and the other is an
 Implementation partition.
 
 ## Worked Examples

@@ -11,7 +11,7 @@ categories: [TypeScript]
 ## Numeric Enums
 
 Numeric enums assign auto-incrementing integer values to their members. By default, the first member
-Has value `0`And each subsequent member increments by `1`.
+has value `0`And each subsequent member increments by `1`.
 
 ```ts
 enum Direction \{
@@ -64,7 +64,7 @@ console.log(perms & FileAccess.Write);
 ```
 
 Computed enum members do not support reverse mapping because the compiler cannot determine the name
-At compile time.
+at compile time.
 
 ## String Enums
 
@@ -92,7 +92,7 @@ Runtime values and are safer for serialisation (e.g., JSON).
 ## Const Enums
 
 Const enums are inlined by the compiler. They are completely erased during compilation and replaced
-With their literal values at each use site.
+with their literal values at each use site.
 
 ```ts
 const enum Direction \{
@@ -156,7 +156,7 @@ Prefer discriminated unions (see below) over heterogenous enums.
 ## Union Enum Pattern
 
 The **union enum pattern** uses string enums to create a type-safe, self-documenting set of values
-That integrates with TypeScript's narrowing system:
+that integrates with TypeScript's narrowing system:
 
 ```ts
 enum ShapeKind \{
@@ -393,7 +393,7 @@ console.log(Geometry.distance(p1, p2));
 ### When to Use Namespaces
 
 Namespaces should be avoided in modern TypeScript. They exist primarily for backward compatibility
-And for declaring types that span multiple files (using `.d.ts` files). Use ES modules instead.
+and for declaring types that span multiple files (using `.d.ts` files). Use ES modules instead.
 
 **Common Pitfall:** Do not mix namespaces and ES modules in the same file. A file that contains a
 Top-level `import` or `export` is an ES module, and any namespace within it is scoped to that module
@@ -563,7 +563,7 @@ import { add, formatDate, log } from './lib';
 ### Tree-Shaking Implications
 
 Barrel files can interfere with tree-shaking in certain bundlers. When a barrel file re-exports from
-Many modules, importing a single name may cause the bundler to include code for all re-exported
+many modules, importing a single name may cause the bundler to include code for all re-exported
 Names.
 
 **Mitigation strategies:**

@@ -59,7 +59,7 @@ The standard defines three clocks [N4950 §29.5.7]:
 
 :::caution
 Synchronization, manual correction). **Never use `system_clock` for measuring elapsed time**, it
-Can produce negative durations. Use `steady_clock` for all elapsed-time measurements.
+can produce negative durations. Use `steady_clock` for all elapsed-time measurements.
 :::
 
 ### Durations
@@ -333,7 +333,7 @@ But the actual resolution depends on the hardware timer:
 ### `std::ratio` and Duration Representation
 
 `std::ratio<N, D>` is a compile-time rational number [N4950 §20.4.2]. The numerator and denominator
-Are reduced to lowest terms at compile time. This is the basis for all duration period calculations:
+are reduced to lowest terms at compile time. This is the basis for all duration period calculations:
 
 ```cpp
 #include <chrono>
@@ -375,7 +375,7 @@ void ratio_details() {
 
 :::caution
 Preserved. But `std::common_type_t<seconds, milliseconds>` is `milliseconds` because milliseconds
-Has a finer period. The common type always has the **shortest** (finest) period among the inputs
+has a finer period. The common type always has the **shortest** (finest) period among the inputs
 [N4950 §29.5.3].
 :::
 

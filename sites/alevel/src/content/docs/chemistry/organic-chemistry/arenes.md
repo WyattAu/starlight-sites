@@ -39,18 +39,18 @@ Bonding or ring formation.
 ### The Kekule Structure
 
 August Kekule proposed a cyclic structure with alternating single and double bonds in 1865. While
-This was a productive historical hypothesis, it fails to explain several key observations and is now
+this was a productive historical hypothesis, it fails to explain several key observations and is now
 Known to be incorrect.
 
 ### Evidence for Delocalisation
 
 **1. Bond lengths are identical.** X-ray diffraction shows that all six C--C bonds in benzene have
-The same length: $139\,\mathrm{pm}$. A Kekule structure with alternating single ($154\,\mathrm{pm}$)
+the same length: $139\,\mathrm{pm}$. A Kekule structure with alternating single ($154\,\mathrm{pm}$)
 And double ($134\,\mathrm{pm}$) bonds would show two distinct bond lengths. The experimental value
-Is intermediate between single and double, consistent with bond order of 1.5.
+is intermediate between single and double, consistent with bond order of 1.5.
 
 **2. No isomers of 1,2-disubstituted benzene.** The Kekule structure predicts two distinct isomers
-Of 1,2-dibromobenzene (bromines on a "single" bond vs on a "double" bond). Only one compound is
+of 1,2-dibromobenzene (bromines on a "single" bond vs on a "double" bond). Only one compound is
 Observed.
 
 **3. Thermochemical evidence.** The experimental enthalpy of hydrogenation of benzene
@@ -142,7 +142,7 @@ $$
 $$
 
 The product is an aryl ketone. Friedel-Crafts acylation is preferred over Friedel-Crafts alkylation
-Because:
+because:
 
 - The acylium ion is a weaker electrophile, reducing over-alkylation.
 - The ketone product is electron-withdrawing and deactivates the ring, preventing further
@@ -152,7 +152,7 @@ Because:
 
 **Limitations:** Does not work on deactivated rings (e.g. Nitrobenzene, phenol derivatives with
 Electron-withdrawing groups). The $\mathrm{AlCl}_3$ catalyst is destroyed by water and must be used
-Under anhydrous conditions.
+under anhydrous conditions.
 
 ### Halogenation
 
@@ -177,8 +177,8 @@ A critical distinction from alkenes, which decolourise bromine water rapidly.
 ## Phenol
 
 Phenol ($\mathrm{C}_6\mathrm{H}_5\mathrm{OH}$) is benzene with a hydroxyl group directly attached to
-The ring. The $-\mathrm{OH}$ group donates electron density into the ring through resonance, making
-The ring much more reactive toward electrophilic substitution than benzene itself.
+the ring. The $-\mathrm{OH}$ group donates electron density into the ring through resonance, making
+the ring much more reactive toward electrophilic substitution than benzene itself.
 
 ### Increased Reactivity
 
@@ -503,14 +503,14 @@ Proceeds readily.
 
 The $-\mathrm{NO}_2$ group is strongly electron-withdrawing through both the inductive effect (the
 Nitrogen is electron-deficient) and resonance (the $\pi$ electrons of the ring are delocalised onto
-The oxygen atoms of the nitro group). This deactivates the ring toward electrophilic attack by
+the oxygen atoms of the nitro group). This deactivates the ring toward electrophilic attack by
 Reducing the electron density in the $\pi$ system. Additionally, the $-\mathrm{NO}_2$ group makes
-The ring less nucleophilic, so the electrophilic attack step (already the rate-determining step)
+the ring less nucleophilic, so the electrophilic attack step (already the rate-determining step)
 Becomes prohibitively slow.
 
 The $-\mathrm{OH}$ group on phenol is electron-donating through resonance (the oxygen lone pair
 Delocalises into the ring, increasing electron density at ortho and para positions). This activates
-The ring toward electrophilic substitution, making the reaction much faster than for unsubstituted
+the ring toward electrophilic substitution, making the reaction much faster than for unsubstituted
 Benzene.
 
 </details>

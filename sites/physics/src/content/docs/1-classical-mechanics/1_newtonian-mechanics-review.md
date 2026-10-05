@@ -421,7 +421,7 @@ $\blacksquare$
 ### 1.10 From Newton to Variational Principles
 
 Newton's laws work well in Cartesian coordinates but become cumbersome in constrained systems or
-Non-Cartesian coordinates. The **Lagrangian** and **Hamiltonian** formulations provide a more
+non-Cartesian coordinates. The **Lagrangian** and **Hamiltonian** formulations provide a more
 general And elegant framework based on energy principles.
 
 The key insight: instead of tracking forces, track the **energy** of the system. The trajectory is

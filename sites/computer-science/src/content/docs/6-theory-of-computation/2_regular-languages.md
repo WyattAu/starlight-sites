@@ -213,7 +213,7 @@ start To accept is the equivalent regex. $\blacksquare$
 **Thompson's construction.** The regex-to-NFA translation can be made fully explicit. For each
 Sub-expression of the regex, we build a small NFA fragment with exactly one entry and one exit
 State, connected by $\varepsilon$-transitions. The construction guarantees that the NFA has at most
-One accept state, no transitions into the start state, and no transitions out of the accept state.
+one accept state, no transitions into the start state, and no transitions out of the accept state.
 
 **Theorem 2.3a (Thompson's construction correctness).** For every regular expression $R$ over
 $\Sigma$ Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
@@ -267,7 +267,7 @@ Conversely, if $x \not\equiv_L y$ There exists $z$ with $xz \in L$ and $yz \noti
 so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$ Hence $x \not\sim y$.
 
 **(2) $\Rightarrow$ (3):** Trivial, since $L$ consists of all strings whose equivalence class is one
-That contains at least one string in $L$.
+that contains at least one string in $L$.
 
 **(3) $\Rightarrow$ (1):** Suppose $\equiv_L$ has finitely many equivalence classes
 $C_1, \ldots, C_k$. Construct a DFA with one state per equivalence class, start state
@@ -340,7 +340,7 @@ $|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
 
 _Proof._ Assume pumping length $p$. Let $w = 0^p 1 0^p 1 \in L$. Since $|xy| \leq p$, $y = 0^k$ for
-Some $k \gt 0$. Then $xy^0 z = 0^{p-k} 1 0^p 1 \notin L$ (the two halves have different lengths).
+some $k \gt 0$. Then $xy^0 z = 0^{p-k} 1 0^p 1 \notin L$ (the two halves have different lengths).
 $\blacksquare$
 
 **Example.** $L = \{0^n 1^m : n \neq m\}$ is not regular.

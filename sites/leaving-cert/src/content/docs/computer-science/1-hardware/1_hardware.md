@@ -211,11 +211,11 @@ Data simultaneously. This limits throughput.
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** Contains the BIOS/UEFI, which is the first code the CPU executes when
 The computer is powered on. The BIOS initialises hardware and loads the operating system from disk
-Into RAM. ROM is non-volatile so the computer can always start up.
+into RAM. ROM is non-volatile so the computer can always start up.
 
 **DRAM vs SRAM (HL):**
 
@@ -248,12 +248,12 @@ Solution is to close programs or add more RAM.
 
 The OS uses 3 GB of virtual memory on the SSD. When a program accesses data in virtual memory, a
 Page fault occurs, causing a delay of milliseconds (vs nanoseconds for RAM). The system may thrash
-If too many programs are running.
+if too many programs are running.
 
 **Worked Example (HL).** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
 Operating system allocates 8 GB to RAM and uses 4 GB of virtual memory on the SSD. When a program
 Accesses data in virtual memory, a page fault occurs and the OS swaps the required page from the SSD
-Into RAM, potentially moving a less-used page from RAM to the SSD.
+into RAM, potentially moving a less-used page from RAM to the SSD.
 
 ### Cache Memory (HL)
 
@@ -626,7 +626,7 @@ Braking system (ABS).
 
 The ABS must respond within milliseconds to prevent wheel lockup. A general-purpose OS (like
 Windows) cannot guarantee response times because it may be busy with other tasks. A RTOS guarantees
-That the ABS process receives CPU time within a fixed deadline, ensuring safety.
+that the ABS process receives CPU time within a fixed deadline, ensuring safety.
 
 ### Embedded Systems (HL)
 

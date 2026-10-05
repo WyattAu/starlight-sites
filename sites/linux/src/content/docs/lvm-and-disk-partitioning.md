@@ -153,7 +153,7 @@ sgdisk -L
 
 Device names are assigned in kernel detection order and are **not stable** across reboots. A SATA
 Disk that was `/dev/sda` today may become `/dev/sdb` after a hardware change. Never use device names
-In `/etc/fstab` for persistent mounts.
+in `/etc/fstab` for persistent mounts.
 
 **Definition.** A UUID (Universally Unique Identifier) is a 128-bit number assigned to a filesystem
 At creation time. It is globally unique and does not change when the disk is moved between systems.
@@ -583,7 +583,7 @@ Partitions.
 
 **Physical Extent (PE):** The smallest unit of allocation in LVM. Default size is 4 MiB. A PE on a
 PV maps 1:1 to a Logical Extent (LE) on an LV. When you extend an LV, you allocate additional PEs
-From the VG.
+from the VG.
 
 ### LVM Metadata
 
@@ -595,7 +595,7 @@ LVM metadata is stored at the start of each PV (in the first few MiB). It descri
 - Snapshot relationships
 
 Metadata is stored in circular text format at two locations on each PV for redundancy. If one copy
-Is corrupted, LVM can recover from the backup copy.
+is corrupted, LVM can recover from the backup copy.
 
 ```bash
 # View raw LVM metadata from a PV
@@ -627,7 +627,7 @@ A typical production layout:
 
 :::note
 Provides a layer of protection, if LVM metadata is corrupted, partition boundaries remain visible
-To non-LVM tools for recovery.
+to non-LVM tools for recovery.
 
 ## LVM Operations
 
@@ -1049,7 +1049,7 @@ lvextend --poolmetadatasize +2G vg_data/thinpool
 
 Thin provisioning is inherently dangerous because the sum of thin volume sizes can exceed the
 Physical pool size. When the pool fills up, writes to thin volumes **fail silently** (the filesystem
-On the thin volume sees I/O errors).
+on the thin volume sees I/O errors).
 
 ```bash
 # Monitor thin pool usage
@@ -1073,7 +1073,7 @@ lvextend -L +50G /dev/vg_data/thinpool
 :::caution
 Corrupt, and recovery is difficult. Always monitor thin pool usage with alerting. Set
 `thin_pool_autoextend_threshold` in `/etc/lvm/lvm.conf` to 70-80% as a safety net, but do not rely
-On it as your only protection.
+on it as your only protection.
 
 ## mdadm Software RAID
 
@@ -1270,7 +1270,7 @@ swapon --show
 
 :::caution
 And the file must not be copy-on-write. Use `chattr +C` on the containing directory before creating
-The swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
+the swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
 Files may not work at all, use a swap partition or swap file on a loop device instead.
 
 ### Swappiness
@@ -1300,7 +1300,7 @@ sysctl --system
 ### zram
 
 Zram creates compressed RAM-based block devices that act as swap. Data written to zram is compressed
-In memory, effectively giving you more swap space without disk I/O.
+in memory, effectively giving you more swap space without disk I/O.
 
 ```bash
 # Load zram module
@@ -1734,7 +1734,7 @@ lvchange -ay -K /dev/vg_data/lv_mysql    # ignore monitoring
 ### Shrinking in the Wrong Direction
 
 When shrinking an LV and filesystem, the filesystem must be shrunk **first**, then the LV. Shrinking
-The LV before the filesystem truncates the filesystem and causes corruption.
+the LV before the filesystem truncates the filesystem and causes corruption.
 
 ```text
 CORRECT ORDER for shrinking:

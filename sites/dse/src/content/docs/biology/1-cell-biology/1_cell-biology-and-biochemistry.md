@@ -165,7 +165,7 @@ The cell membrane (plasma membrane) is a phospholipid bilayer with embedded prot
 
 :::note
 But restricts others. Small, non-polar molecules (e.g., $\mathrm{O}_2$, $\mathrm{CO}_2$) diffuse
-Through , while large or charged molecules require transport proteins.
+through , while large or charged molecules require transport proteins.
 :::
 
 ---
@@ -447,7 +447,7 @@ Q_{10} = \frac{\mathrm{Rate at }(T + 10)}{\mathrm{Rate at } T}
 $$
 
 Between $20^\circ\mathrm{C}$ and $30^\circ\mathrm{C}$: $Q_{10}$ might be approximately 2 (typical
-For biological reactions). Without the $30^\circ\mathrm{C}$ data, we can estimate the overall
+for biological reactions). Without the $30^\circ\mathrm{C}$ data, we can estimate the overall
 Effect:
 
 From $20^\circ\mathrm{C}$ to $40^\circ\mathrm{C}$ (a $20^\circ\mathrm{C}$ increase):
@@ -692,7 +692,7 @@ Similarities: Both begin with glycolysis; both produce ATP.
 
 Differences: Aerobic respiration requires oxygen and occurs in the mitochondria, producing
 Approximately 36-38 ATP per glucose with $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$ as
-By-products. Anaerobic respiration occurs without oxygen, only in the cytoplasm, producing 2 ATP per
+by-products. Anaerobic respiration occurs without oxygen, only in the cytoplasm, producing 2 ATP per
 Glucose. In animals, it produces lactate; in yeast, it produces ethanol and $\mathrm{CO}_2$.
 
 </details>
@@ -713,7 +713,7 @@ Glucose. In animals, it produces lactate; in yeast, it produces ethanol and $\ma
 ### Mitosis
 
 Mitosis is the process of cell division that produces two genetically identical daughter cells, each
-With the same number of chromosomes as the parent cell.
+with the same number of chromosomes as the parent cell.
 
 **Functions of mitosis:**
 
@@ -734,7 +734,7 @@ With the same number of chromosomes as the parent cell.
 ### Worked Example 2 (Cell Division)
 
 A cell in the G2 phase of the cell cycle has 46 chromosomes. How many chromosomes and chromatids
-Will be present in each daughter cell after mitosis?
+will be present in each daughter cell after mitosis?
 
 After mitosis: each daughter cell has **46 chromosomes** (each consisting of one chromatid).
 
@@ -745,7 +745,7 @@ And each daughter cell receives 46 single-chromatid chromosomes.
 ### Meiosis
 
 Meiosis is a type of cell division that produces four genetically different daughter cells, each
-With half the number of chromosomes of the parent cell. It is essential for sexual reproduction.
+with half the number of chromosomes of the parent cell. It is essential for sexual reproduction.
 
 **Key differences from mitosis:**
 
@@ -945,7 +945,7 @@ Respiration.
 
 The mitochondrion has a double membrane. The inner membrane is folded into cristae, providing a
 Large surface area for the electron transport chain and ATP synthase. The matrix contains enzymes
-For the Krebs cycle and its own DNA and ribosomes, allowing it to produce some of its own proteins.
+for the Krebs cycle and its own DNA and ribosomes, allowing it to produce some of its own proteins.
 The small intermembrane space allows the accumulation of protons for the chemiosmotic gradient.
 These structural features maximise the rate of ATP production.
 

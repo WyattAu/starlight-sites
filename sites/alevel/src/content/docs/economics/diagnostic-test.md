@@ -36,8 +36,8 @@ Spending the third hour on Economics (increasing $h_E$ from 2 to 3)?
 <details>
 <summary>Answer</summary>
 At $h_E = 2$: $E_E = 30\sqrt{2} \approx 42.4$, $h_M = 3$: $E_M = 20\sqrt{3} \approx 34.6$. Total = 77.0.<br />
-At $h_E = 3$: $E_E = 30\sqrt{3} \approx 51.96$, $h_M = 2$: $E_M = 20\sqrt{2} \approx 28.3$. Total = 80.3.<br />
-The third hour on Economics raises total marks from 77.0 to 80.3. The opportunity cost is the Maths marks forgone: $34.6 - 28.3 = 6.3$ marks. (Note: the marginal gain in Economics is $51.96 - 42.4 = 9.6$ Net gain = 3.3.)
+at $h_E = 3$: $E_E = 30\sqrt{3} \approx 51.96$, $h_M = 2$: $E_M = 20\sqrt{2} \approx 28.3$. Total = 80.3.<br />
+the third hour on Economics raises total marks from 77.0 to 80.3. The opportunity cost is the Maths marks forgone: $34.6 - 28.3 = 6.3$ marks. (Note: the marginal gain in Economics is $51.96 - 42.4 = 9.6$ Net gain = 3.3.)
 <i>Revision: [The Economic Problem](/economics/microeconomics/01-the-economic-problem/)</i>
 </details>
 
@@ -75,13 +75,13 @@ Price consumers pay and producers receive, and (c) the tax incidence on consumer
 
 **Q5.** If the price elasticity of demand for bus travel is –0.4 and the bus company raises fares by
 10%, what happens to (a) the quantity demanded, and (b) total revenue? Explain the implication for
-The bus company's pricing strategy.
+the bus company's pricing strategy.
 
 <details>
 <summary>Answer</summary>
 (a) $E_d = \frac{\%\Delta Q}{\%\Delta P} = -0.4$. $\%\Delta Q = -0.4 \times 10\% = -4\%$. Quantity demanded falls by 4%.<br />
 (b) Total revenue = $P \times Q$. New $TR = 1.10P \times 0.96Q = 1.056PQ$. Revenue rises by 5.6%.<br />
-Since $|E_d| = 0.4 \lt 1$ Demand is **inelastic**. A price increase raises total revenue. The bus company should raise fares to maximise revenue (though this ignores welfare and equity considerations).
+since $|E_d| = 0.4 \lt 1$ Demand is **inelastic**. A price increase raises total revenue. The bus company should raise fares to maximise revenue (though this ignores welfare and equity considerations).
 <i>Revision: [Demand, Supply, and Equilibrium](/economics/microeconomics/02-demand-supply-and-equilibrium/)</i>
 </details>
 
@@ -256,7 +256,7 @@ What conditions is the demand curve Giffen (upward-sloping)?
 <details>
 <summary>Answer</summary>
 For a normal good: price falls → substitution effect (+Q) and income effect (+Q) both increase quantity demanded → demand slopes downward.<br />
-For an inferior good: price falls → substitution effect (+Q) but income effect (−Q, because real income rises and demand for inferior goods falls). If $|SE| \gt |IE|$: demand still slopes downward. If $|IE| \gt |SE|$: demand slopes **upward** (Giffen good).<br />
+for an inferior good: price falls → substitution effect (+Q) but income effect (−Q, because real income rises and demand for inferior goods falls). If $|SE| \gt |IE|$: demand still slopes downward. If $|IE| \gt |SE|$: demand slopes **upward** (Giffen good).<br />
 Conditions for Giffen behaviour: (1) The good must be inferior (strong income effect). (2) The good must be a staple (large budget share, so the income effect is large). (3) No close substitutes (so substitution effect is small). Empirical evidence: very rare. Potentially observed with rice in poor Chinese provinces (Jensen & Miller, 2008) and potatoes during the Irish famine. Most "inferior goods" are not Giffen.
 <i>Revision: [Demand, Supply, and Equilibrium](/economics/microeconomics/02-demand-supply-and-equilibrium/)</i>
 </details>
@@ -345,7 +345,7 @@ Conditions where it does NOT hold: (1) In a small open economy with a flexible e
 
 **Q27.** "An economy in long-run equilibrium experiences an increase in consumer confidence. Trace
 Through the short-run and long-run effects using AD/AS analysis. What determines the long-run effect
-On the price level?"
+on the price level?"
 
 <details>
 <summary>Answer</summary>
@@ -366,7 +366,7 @@ When a bank receives a deposit, it keeps a fraction (reserve ratio $r$) as reser
 Money multiplier: $m = \frac{1}{r} = \frac{1}{0.05} = 20$.<br />
 Maximum new money $= m \times \mathrm{initial deposit} = 20 \times 1,000 = £20,000$.<br />
 Alternatively: $\Delta M = \Delta D \times \frac{1}{r} = 1,000 \times 20 = £20,000$ (total deposits including the original). New lending = $20,000 - 1,000 = £19,000$.<br />
-This assumes: (1) no cash leakages (all money stays in the banking system), (2) banks lend out all excess reserves, (3) demand for loans exists. In practice, the actual multiplier is much smaller.
+this assumes: (1) no cash leakages (all money stays in the banking system), (2) banks lend out all excess reserves, (3) demand for loans exists. In practice, the actual multiplier is much smaller.
 <i>Revision: [The Financial Sector](/economics/macro/03-the-financial-sector/)</i>
 </details>
 
@@ -383,7 +383,7 @@ Monetarists argued for targeting money supply growth (Friedman's $k\%$ rule). Bu
 
 **Q30.** The government increases income tax by £50 billion. MPC = 0.75, MPT = 0.2, MPM = 0.1. (a)
 Calculate the change in consumption. (b) Calculate the total change in GDP. (c) Calculate the change
-In the government's tax revenue (assuming the tax is proportional and GDP changes affect revenue).
+in the government's tax revenue (assuming the tax is proportional and GDP changes affect revenue).
 
 <details>
 <summary>Answer</summary>
@@ -418,7 +418,7 @@ The statement is largely correct: only supply-side policies shift LRAS right, ra
 **Q33.** Country A can produce 8 cars or 4 tonnes of wheat per worker per day. Country B can produce
 3 cars or 3 tonnes of wheat per worker per day. (a) Which country has a comparative advantage in
 Which good? (b) If they specialise and trade at an exchange rate of 1.5 wheat per car, show that
-Both gain from trade.
+both gain from trade.
 
 <details>
 <summary>Answer</summary>
@@ -458,7 +458,7 @@ about the central bank's dilemma at the ZLB?
 <details>
 <summary>Answer</summary>
 $i = 1.5 + 1 + 0.5(1 - 2) + 0.5(-2) = 1.5 + 1 - 0.5 - 1 = 1.0\%$.<br />
-The Taylor Rule prescribes 1.0%. If the ZLB means the rate cannot go below 0%, there is still room. But if the output gap were larger (e.g., –5%) or deflation set in ($\pi = -1\%$): $i = 1.5 + (-1) + 0.5(-3) + 0.5(-5) = 1.5 - 1 - 1.5 - 2.5 = -3.5\%$. This is below the ZLB → the central bank is constrained. Conventional monetary policy is impotent. This is the **liquidity trap**, the Taylor Rule highlights the need for unconventional tools (QE, forward guidance) or fiscal policy.
+the Taylor Rule prescribes 1.0%. If the ZLB means the rate cannot go below 0%, there is still room. But if the output gap were larger (e.g., –5%) or deflation set in ($\pi = -1\%$): $i = 1.5 + (-1) + 0.5(-3) + 0.5(-5) = 1.5 - 1 - 1.5 - 2.5 = -3.5\%$. This is below the ZLB → the central bank is constrained. Conventional monetary policy is impotent. This is the **liquidity trap**, the Taylor Rule highlights the need for unconventional tools (QE, forward guidance) or fiscal policy.
 <i>Revision: [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/)</i>
 </details>
 
@@ -493,7 +493,7 @@ Currency areas and the impossible trinity.
 **Optimal currency area (Mundell, 1961)**: regions sharing a currency should have: (1) labour mobility (workers move to where jobs are), (2) wage flexibility, (3) fiscal transfers (to offset asymmetric shocks), (4) similar economic cycles.<br />
 Arguments for: (1) Eliminates exchange rate uncertainty for UK-EU trade (40%+ of UK trade). (2) Reduces transaction costs. (3) Price transparency across the Eurozone. (4) Lower interest rates (convergence risk premium).<br />
 Arguments against: (1) UK and Eurozone cycles are not well synchronised (the UK is more services-oriented, more sensitive to financial conditions). (2) Limited labour mobility between UK and Eurozone (language, culture barriers). (3) Loss of monetary sovereignty, the Bank of England cannot set interest rates for UK conditions. (4) No fiscal union, no automatic fiscal transfers to offset asymmetric shocks. (5) The Eurozone crisis (Greece, Ireland, Spain) showed the costs of inappropriate monetary policy for individual members.<br />
-The impossible trinity: joining the Euro means giving up monetary independence and exchange rate flexibility in exchange for free capital mobility and a fixed exchange rate (monetary union). Whether this is beneficial depends on whether the UK-Eurozone area satisfies the OCA criteria.
+the impossible trinity: joining the Euro means giving up monetary independence and exchange rate flexibility in exchange for free capital mobility and a fixed exchange rate (monetary union). Whether this is beneficial depends on whether the UK-Eurozone area satisfies the OCA criteria.
 <i>Revision: [The International Economy](/economics/macro/06-the-international-economy/) and [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/)</i>
 </details>
 
@@ -513,7 +513,7 @@ Policy was the wrong response." Evaluate this statement.
 <details>
 <summary>Answer</summary>
 Supply-side factors: COVID supply chain disruptions, labour shortages, Ukraine war → energy prices surged → cost-push inflation (SRAS shifted left). Monetary policy (raising rates) reduces AD, which helps inflation but deepens the output gap.<br />
-However: (1) **Demand also surged**, fiscal stimulus, pent-up demand, savings glut from lockdowns → AD shifted right → demand-pull inflation. The inflation was BOTH demand and supply driven. (2) **Second-round effects**: initial supply shocks raised prices → workers demanded higher wages → wage-price spiral → inflation became embedded in expectations. Monetary policy was needed to anchor expectations. (3) **Central bank credibility**: failing to respond would have de-anchored expectations, making inflation harder to control later. (4) **Alternative**: supply-side policy (remove supply bottlenecks) would address the root cause but is too slow. (5) **Cost of inaction**: once inflation expectations rise, the cost of disinflation (higher unemployment) is much greater (Volcker recession, 1980–82). Conclusion: monetary tightening was necessary despite supply-side causes, to prevent inflation from becoming entrenched.
+however: (1) **Demand also surged**, fiscal stimulus, pent-up demand, savings glut from lockdowns → AD shifted right → demand-pull inflation. The inflation was BOTH demand and supply driven. (2) **Second-round effects**: initial supply shocks raised prices → workers demanded higher wages → wage-price spiral → inflation became embedded in expectations. Monetary policy was needed to anchor expectations. (3) **Central bank credibility**: failing to respond would have de-anchored expectations, making inflation harder to control later. (4) **Alternative**: supply-side policy (remove supply bottlenecks) would address the root cause but is too slow. (5) **Cost of inaction**: once inflation expectations rise, the cost of disinflation (higher unemployment) is much greater (Volcker recession, 1980–82). Conclusion: monetary tightening was necessary despite supply-side causes, to prevent inflation from becoming entrenched.
 <i>Revision: [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/) and [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)</i>
 </details>
 

@@ -91,7 +91,7 @@ $$
 Per glucose: 2 acetyl-CoA, $2 \mathrm{CO_2$2 NADH.
 
 The link reaction is catalysed by the pyruvate dehydrogenase complex, a large multi-enzyme complex
-That requires five coenzymes: CoA, $\mathrm{NAD^+$ FAD, lipoic acid, and thiamine (vitamin B1). This
+that requires five coenzymes: CoA, $\mathrm{NAD^+$ FAD, lipoic acid, and thiamine (vitamin B1). This
 is why thiamine deficiency (beriberi) impairs energy metabolism.
 
 ### Citric Acid Cycle (Krebs Cycle)
@@ -204,7 +204,7 @@ $$
 **Worked Example: Why fermentation is necessary.**
 
 During glycolysis, NAD+ is reduced to NADH. Without a way to regenerate NAD+, glycolysis would stop
-After a few seconds because there would be no NAD+ to accept electrons.
+after a few seconds because there would be no NAD+ to accept electrons.
 
 In the presence of oxygen, NADH donates its electrons to the ETC, regenerating NAD+. But without
 Oxygen, the ETC cannot function. Fermentation solves this problem by using NADH to reduce pyruvate
@@ -256,7 +256,7 @@ $$
 Without water, the photosystems would run out of electrons and photosynthesis would stop. This was
 Demonstrated using $^{18}\mathrm{O$-labelled water: the labelled oxygen appeared in $\mathrm{O_2$
 Gas, not in glucose, confirming that water (not $\mathrm{CO_2$) is the source of oxygen released
-During photosynthesis.
+during photosynthesis.
 
 ### The Calvin Cycle (Light-Independent Reactions)
 
@@ -469,7 +469,7 @@ the limiting factor.
 
 **Water availability:** Water is a reactant in the light-dependent reactions, but it is rarely a
 Limiting factor in practice because plants use relatively little water for photosynthesis compared
-To the amount lost through transpiration. However, severe drought causes stomata to close, reducing
+to the amount lost through transpiration. However, severe drought causes stomata to close, reducing
 $\mathrm{CO_2$ uptake and therefore limiting photosynthesis.
 
 **Worked Example: Interpreting a photosynthesis rate graph.**
@@ -523,17 +523,17 @@ Cyanide blocks Complex IV (cytochrome c oxidase) of the ETC. When Complex IV is 
 
 DNP (2,4-dinitrophenol) makes the inner mitochondrial membrane permeable to protons. The proton
 Gradient is dissipated because $\mathrm{H^+$ can flow back across the membrane without passing
-Through ATP synthase. The ETC continues to operate (electrons are still passed to $\mathrm{O_2$),
+through ATP synthase. The ETC continues to operate (electrons are still passed to $\mathrm{O_2$),
 And oxygen consumption increases as the cell tries to maintain the gradient, but no ATP is produced.
 All the energy from electron transfer is released as heat. This is the mechanism behind brown fat
 Thermogenesis in newborns and hibernating animals, where uncoupling proteins (UCP1) perform a
 Similar function. DNP was used as a weight-loss drug in the 1930s (it "burned" calories as heat) but
-Was banned due to dangerous side effects including fatal hyperthermia.
+was banned due to dangerous side effects including fatal hyperthermia.
 
 ## Review: The Compensation Point
 
 The **compensation point** is the light intensity at which the rate of photosynthesis exactly equals
-The rate of respiration. At this point, there is no net gas exchange: all $\mathrm{CO_2$ produced By
+the rate of respiration. At this point, there is no net gas exchange: all $\mathrm{CO_2$ produced By
 respiration is used for photosynthesis, and all $\mathrm{O_2$ produced by photosynthesis is used For
 respiration.
 
@@ -606,9 +606,9 @@ Signals increased energy demand in muscle cells).
 During a sprint, the muscle cells' demand for ATP increases dramatically. ATP levels drop, AMP
 Levels rise, and ADP levels increase. These changes activate PFK and other regulatory enzymes,
 Speeding up glycolysis and the Krebs cycle. However, oxygen delivery cannot keep up with demand, so
-The electron transport chain cannot process all the NADH produced. The cell switches to anaerobic
+the electron transport chain cannot process all the NADH produced. The cell switches to anaerobic
 Respiration (fermentation) to regenerate NAD$^+$ and maintain glycolysis. Lactate accumulates, and
-The oxygen debt builds up.
+the oxygen debt builds up.
 
 ## Review: Anaerobic Respiration in Various Organisms
 
@@ -684,7 +684,7 @@ Bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2
 Brown adipose tissue (brown fat) is specialised for thermogenesis (heat production). It contains
 Mitochondria with uncoupling protein 1 (UCP1, also called thermogenin), which forms a channel in the
 Inner mitochondrial membrane that allows protons to flow back into the matrix without passing
-Through ATP synthase.
+through ATP synthase.
 
 **Mechanism:**
 
@@ -714,16 +714,16 @@ Several inherited disorders affect cellular energy metabolism:
 **Leigh syndrome:** A severe neurological disorder caused by defects in mitochondrial ETC complexes
 (especially Complex I or IV). Symptoms include developmental delay, muscle weakness, and respiratory
 Failure. Cells cannot produce sufficient ATP, particularly affecting high-energy-demand tissues like
-The brain.
+the brain.
 
 **Pyruvate dehydrogenase deficiency:** Caused by mutations in the pyruvate dehydrogenase complex.
 Pyruvate cannot be converted to acetyl-CoA, so it accumulates and is converted to lactate (lactic
 Acidosis). Treatment includes a ketogenic diet (high in fats, which produce acetyl-CoA directly
-Through beta-oxidation, bypassing the link reaction).
+through beta-oxidation, bypassing the link reaction).
 
 **Phosphofructokinase deficiency (Tarui disease):** A glycogen storage disease caused by a
 Deficiency of muscle PFK. Affected individuals experience muscle pain and cramping during exercise
-Because glycolysis cannot proceed past the PFK step.
+because glycolysis cannot proceed past the PFK step.
 
 ## Practice Problems
 
@@ -732,7 +732,7 @@ Because glycolysis cannot proceed past the PFK step.
 
 A researcher adds rotenone, which blocks Complex I of the electron transport chain, to isolated
 Mitochondria. Pyruvate and ADP are supplied. Calculate the maximum ATP yield per glucose molecule
-Under these conditions, assuming 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2$. Explain which
+under these conditions, assuming 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2$. Explain which
 Electrons can still reach the ETC.
 
 </details>
@@ -753,8 +753,8 @@ ATP sources:
 Total: 2 + 2 + 3 = 7 ATP per glucose.
 
 The 6 NADH from pyruvate oxidation (2) and the Krebs cycle (4) are unable to donate electrons
-Because Complex I is blocked. Only the 2 $\mathrm{FADH_2$ from the Krebs cycle can feed electrons
-Through Complex II to Complex III, cytochrome c, and Complex IV.
+because Complex I is blocked. Only the 2 $\mathrm{FADH_2$ from the Krebs cycle can feed electrons
+through Complex II to Complex III, cytochrome c, and Complex IV.
 
 </details>
 
@@ -770,7 +770,7 @@ How many molecules of ATP and NADPH are required to synthesise one molecule of s
 <summary>Answer</summary>
 
 Sucrose is a disaccharide of glucose + fructose, each with 6 carbons, so 12 carbons total. Each G3P
-Has 3 carbons, so 12/3 = 4 G3P molecules are needed. However, 3 $\mathrm{CO_2$ produce 6 G3P (5
+has 3 carbons, so 12/3 = 4 G3P molecules are needed. However, 3 $\mathrm{CO_2$ produce 6 G3P (5
 Recycled, 1 net), so 1 net G3P requires 3 $\mathrm{CO_2$9 ATP, and 6 NADPH.
 
 For 4 net G3P: 4 $\times$ 3 = 12 $\mathrm{CO_2$4 $\times$ 9 = 36 ATP, and 4 $\times$ 6 = 24 NADPH.

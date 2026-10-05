@@ -119,7 +119,7 @@ Every Go file belongs to a package. Executables must be in `package main` and ex
 ### `go run`
 
 Compiles and executes one or more `.go` files in a temporary directory. Useful for development and
-One-off scripts. Does not produce a persistent binary.
+one-off scripts. Does not produce a persistent binary.
 
 ```bash
 go run .
@@ -199,7 +199,7 @@ myproject/
 ```
 
 The `internal/` directory is special: packages inside `internal` cannot be imported by packages
-Outside the module tree rooted at the parent of `internal`. This enforces encapsulation.
+outside the module tree rooted at the parent of `internal`. This enforces encapsulation.
 
 The `cmd/` directory convention holds executable entry points.
 

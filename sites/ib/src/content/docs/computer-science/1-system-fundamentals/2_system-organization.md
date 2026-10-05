@@ -248,7 +248,7 @@ Library management system (CloudLib).
 ## Business Merger
 
 Business merger is the process of combining business entities, where all subsystems are required to
-Be compatible.
+be compatible.
 
 ### System Integration
 
@@ -399,8 +399,8 @@ Risk, common strategies include:
 #### Equivalence Partitioning
 
 Equivalence partitioning divides input data into partitions (classes) where the system is expected
-To behave the same for all values within a partition. One representative value from each partition
-Is tested.
+to behave the same for all values within a partition. One representative value from each partition
+is tested.
 
 **Example**: A registration form requires the user's age to be between 18 and 65.
 
@@ -431,7 +431,7 @@ Using the same age example (valid range 18 to 65):
 ### Stubs and Drivers
 
 When testing individual modules that depend on other modules not yet developed, stubs and drivers
-Are used as substitutes:
+are used as substitutes:
 
 | Component | Definition                                      | When used         | Example                                                                                                                                                                         |
 | --------- | ----------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -488,7 +488,7 @@ User documentations are manuals design to explain the functionality of the syste
 ### Methods of Providing User Documentation
 
 The term user documentation does not restrict the form of access, where online and written documents
-Are allowed, some methods of providing the user documentation include:
+are allowed, some methods of providing the user documentation include:
 
 - User Manuel
 - Embedded Assistance Subsystem
@@ -665,19 +665,19 @@ System. [3 marks]
 **Technical feasibility**: The hospital must assess whether its existing network infrastructure can
 Support the EHR system. For example, the system may require encrypted connections between wards and
 A central server, and the hospital must verify that its current network switches and cabling support
-The required bandwidth and security protocols.
+the required bandwidth and security protocols.
 
 **Operational feasibility**: The hospital must determine whether the new system can be maintained by
 Its IT staff. For example, the EHR system may require a dedicated database administrator and 24/7
 Support, which the hospital's current IT team of two staff members may not be able to provide
-Without additional hiring.
+without additional hiring.
 
 (b)
 
 A training needs analysis identifies the gap between staff's current skills and the skills required
-By the new EHR system. Without this analysis, the hospital risks deploying a system that doctors and
+by the new EHR system. Without this analysis, the hospital risks deploying a system that doctors and
 Nurses cannot use effectively, which could lead to incorrect data entry, workflow disruptions, or
-Even patient safety incidents. The analysis ensures that training is targeted, efficient, and
+even patient safety incidents. The analysis ensures that training is targeted, efficient, and
 Appropriately resourced, covering only the skills that staff actually lack.
 
 </details>
@@ -685,7 +685,7 @@ Appropriately resourced, covering only the skills that staff actually lack.
 ### Question 2
 
 A school is migrating from a locally installed student management system to a cloud-based system
-Over the summer break. The IT coordinator has proposed a direct changeover on the first day of term.
+over the summer break. The IT coordinator has proposed a direct changeover on the first day of term.
 
 (a) Evaluate this changeover strategy. [4 marks]
 
@@ -697,7 +697,7 @@ Appropriate in this context. [4 marks]
 (a)
 
 A direct changeover is the riskiest strategy because the old system is decommissioned immediately
-And the new system must work flawlessly from day one. If the cloud-based system experiences
+and the new system must work flawlessly from day one. If the cloud-based system experiences
 Downtime, has a data migration error, or if staff encounter usability issues, there is no fallback.
 In a school context, this could mean that attendance cannot be recorded, grades cannot be entered,
 And parent communications are disrupted, directly affecting educational operations. The only
@@ -734,14 +734,14 @@ Schema mapping is necessary because AlphaTech and BetaCorp use different databas
 Customer data. For example, AlphaTech may store a customer's full name in a single `FULL_NAME`
 Column, while BetaCorp stores it as `FIRST_NAME` and `LAST_NAME` in separate columns. Schema mapping
 Defines how each field in the source (AlphaTech and BetaCorp databases) corresponds to a field in
-The target (merged database), ensuring that no data is lost or misinterpreted during migration.
+the target (merged database), ensuring that no data is lost or misinterpreted during migration.
 
 (b)
 
 Data cleansing ensures the quality of the merged dataset. A specific example is **deduplication**:
 The same customer may exist in both databases with slight variations, such as "Jonathan Smith" in
 AlphaTech and "Jon Smith" in BetaCorp with the same email address. Data cleansing would identify
-These as the same person and merge them into a single record, preventing duplicate mailings and
+these as the same person and merge them into a single record, preventing duplicate mailings and
 Confusion in customer service.
 
 (c)
@@ -789,7 +789,7 @@ Format. Validation is performed by the system (e.g., the form rejects an age of 
 
 **Verification** checks whether the data entered matches the true source data. In this context,
 Verification ensures that the age the user entered is actually their real age. For example, a user
-Might enter "25" when they are actually 17. The system cannot verify this automatically; it may
+might enter "25" when they are actually 17. The system cannot verify this automatically; it may
 Require supporting documentation (e.g., a government ID) to be manually checked against the entered
 Value.
 
@@ -800,7 +800,7 @@ Value.
 A software company uses semantic versioning for its product. The current version is 2.3.1.
 
 (a) The development team fixes a bug that caused reports to display incorrect totals. What should
-The new version number be? Justify your answer. [2 marks]
+the new version number be? Justify your answer. [2 marks]
 
 (b) The team then adds a new feature allowing users to export reports as PDF files. What should the
 Version number be now? Justify your answer. [2 marks]
@@ -833,7 +833,7 @@ New version without migration.
 
 **Blue-green deployment**: The company maintains two identical production environments. The new
 Version is deployed to the inactive environment and thoroughly tested before traffic is switched. If
-The critical failure is detected after the switch, traffic is immediately routed back to the
+the critical failure is detected after the switch, traffic is immediately routed back to the
 Original environment, providing near-instant recovery.
 
 **Feature flags**: If the failure is caused by a specific feature, the feature flag controlling that
@@ -845,7 +845,7 @@ Problematic feature while keeping the rest of the system operational.
 ### Question 6
 
 A logistics company stores all shipment data on a single server in its main office. The IT manager
-Has been asked to improve data loss prevention.
+has been asked to improve data loss prevention.
 
 (a) Explain the 3-2-1 backup rule and describe how it could be applied in this logistics company. [5
 Marks]
@@ -861,7 +861,7 @@ Shipments must be tracked within 30 minutes of any update. [4 marks]
 (a)
 
 The 3-2-1 rule requires: 3 copies of data (original plus two backups), stored on 2 different types
-Of storage media, with 1 copy kept off-site.
+of storage media, with 1 copy kept off-site.
 
 Application: The logistics company keeps the original shipment database on the main server (copy 1,
 On local SSD). A nightly backup is written to a NAS device in the office (copy 2, on HDD --
@@ -889,7 +889,7 @@ Replicated at least every 30 minutes.
 **RTO (Recovery Time Objective)**: The maximum acceptable downtime before the system must be
 Restored. For a logistics company that needs continuous shipment tracking, an RTO of 1 hour would be
 Appropriate, meaning the system must be back online within 1 hour of a failure. Achieving this RTO
-Would likely require a hot standby configuration.
+would likely require a hot standby configuration.
 
 </details>
 

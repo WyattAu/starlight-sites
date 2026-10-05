@@ -23,10 +23,10 @@ categories:
 ## Organic Chemistry Introduction
 
 Organic chemistry is the study of the structure, properties, composition, reactions, and preparation
-Of carbon-containing compounds. Carbon occupies a unique position in the periodic table: its ability
-To form four covalent bonds, catenate (form chains and rings), and hybridise in multiple
+of carbon-containing compounds. Carbon occupies a unique position in the periodic table: its ability
+to form four covalent bonds, catenate (form chains and rings), and hybridise in multiple
 Configurations ($sp^3$, $sp^2$, $sp$) produces a combinatorial space of molecules that dwarfs all
-Other branches of chemistry combined.
+other branches of chemistry combined.
 
 This module serves as the conceptual foundation for every subsequent organic topic. It defines the
 Systematic rules for naming, classifying, and reasoning about organic molecules.
@@ -71,7 +71,7 @@ $\mathrm{CH}_3\mathrm{CH}(\mathrm{Cl})\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\math
 ### Multiplying Prefixes and Complex Substituents
 
 When identical substituents appear, use di-, tri-, tetra- as multiplying prefixes. These are ignored
-In alphabetical ordering.
+in alphabetical ordering.
 
 Complex substituents are named as branched alkyl groups and enclosed in parentheses:
 
@@ -103,7 +103,7 @@ Gradual, predictable change in physical properties.
 
 As chain length increases, boiling point increases approximately linearly. This is because longer
 Chains have greater surface area and therefore stronger London (dispersion) forces. The increment
-Per $-\mathrm{CH}_2-$ unit is roughly 20--30 K for liquids near room temperature.
+per $-\mathrm{CH}_2-$ unit is roughly 20--30 K for liquids near room temperature.
 
 ### Trend: Boiling Points Between Series
 
@@ -178,7 +178,7 @@ Assignment:
 - **E (entgegen, "opposite"):** The two highest-priority groups are on opposite sides.
 
 The older cis/trans nomenclature is only unambiguous when each carbon carries one hydrogen and one
-Non-hydrogen group. In all other cases, E/Z must be used.
+non-hydrogen group. In all other cases, E/Z must be used.
 
 **Worked Example.** Assign E/Z to
 $\mathrm{CH}_3\mathrm{CH}=\mathrm{C}(\mathrm{CH}_3)\mathrm{CH}_2\mathrm{CH}_3$.
@@ -187,7 +187,7 @@ Left carbon: $-\mathrm{CH}_3$ (atomic number 6) vs $-\mathrm{H}$ (atomic number 
 $-\mathrm{CH}_3 \gt -\mathrm{H}$.
 
 Right carbon: $-\mathrm{CH}_3$ (atomic number 6) vs $-\mathrm{CH}_2\mathrm{CH}_3$. At the first atom
-Both are C. At the second atom: $-\mathrm{CH}_3$ has (H, H, H) vs $-\mathrm{CH}_2\mathrm{CH}_3$ has
+both are C. At the second atom: $-\mathrm{CH}_3$ has (H, H, H) vs $-\mathrm{CH}_2\mathrm{CH}_3$ has
 (C, H, H). Priority: $-\mathrm{CH}_2\mathrm{CH}_3 \gt -\mathrm{CH}_3$.
 
 If the $-\mathrm{CH}_3$ (high on left) and $-\mathrm{CH}_3$ (low on right) are on the same side,
@@ -284,7 +284,7 @@ in [halogenoalkanes](/chemistry/organic-chemistry/halogenoalkanes/).
 ### Curly Arrow Conventions
 
 Curly arrows are the formal notation for showing electron movement in organic mechanisms. The rules
-Are strict:
+are strict:
 
 1. A curly arrow starts from a lone pair, a bond, or a negative charge.
 2. A curly arrow ends at an atom, a bond, or a positive charge.

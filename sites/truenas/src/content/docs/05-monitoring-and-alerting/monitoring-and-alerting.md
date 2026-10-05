@@ -459,14 +459,14 @@ Work with a test email.
 ### Running SMART Tests Only When Problems Occur
 
 SMART tests are predictive, they detect problems before they become failures. Running SMART tests
-Only when you suspect a problem defeats the purpose. Schedule regular short and long tests to catch
+only when you suspect a problem defeats the purpose. Schedule regular short and long tests to catch
 Failures early.
 
 ### Ignoring SMART Warnings
 
 A SMART predictive failure warning means the drive has a high probability of failing. Replace the
 Drive immediately, do not wait for it to fail completely. The longer you wait, the higher the risk
-Of a second drive failing before the resilver completes.
+of a second drive failing before the resilver completes.
 
 ### Not Testing UPS Shutdown
 
@@ -483,7 +483,7 @@ Quarterly:
 
 Collecting metrics without understanding what they mean leads to either panic (false alarms) or
 Complacency (missed warnings). Define clear thresholds for each metric, document them, and ensure
-The team understands what each alert means and what action to take.
+the team understands what each alert means and what action to take.
 
 ## TrueNAS Dashboard Deep Dive
 
@@ -503,7 +503,7 @@ The TrueNAS dashboard provides real-time metrics for:
 ### Historical Metrics
 
 TrueNAS stores historical metrics using RRDtool (Round Robin Database). Historical data is retained
-For approximately:
+for approximately:
 
 - **1-minute resolution:** 24 hours
 - **5-minute resolution:** 7 days
@@ -621,7 +621,7 @@ During a scrub, ZFS reads every block in the pool and verifies its checksum:
 | RAIDZ2 (HDD) | 50–100 MB/s       | High                                             |
 
 During a scrub of an HDD pool, normal I/O performance can degrade by 30–50%. Schedule scrubs during
-Off-peak hours.
+off-peak hours.
 
 ### Scrub Error Analysis
 

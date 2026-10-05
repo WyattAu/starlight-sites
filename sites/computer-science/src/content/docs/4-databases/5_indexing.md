@@ -136,7 +136,7 @@ empty leaf with $[5]$. The merged leaf is $[5]$. The internal node $[10]$ now ha
 (the merged leaf), so it underflows.
 
 Since the internal node is a child of the root, and the root has two children, we can merge: remove
-The internal node and promote its remaining child to be a direct child of the root.
+the internal node and promote its remaining child to be a direct child of the root.
 
 ```
 Root: [30]
@@ -192,7 +192,7 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 ### 5.3 Bitmap Indexes
 
 A **bitmap index** creates one bitmap per distinct value of an attribute. For a table with $n$ rows
-And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
+and attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
 Bitmap $i$ has a 1 in position $j$ if row $j$ has $A = v_i$.
 
 **Use case:** Low-cardinality columns (gender, status, country). Bitmap indexes support fast bitwise

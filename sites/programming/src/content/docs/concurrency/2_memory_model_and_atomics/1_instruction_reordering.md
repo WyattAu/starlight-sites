@@ -28,7 +28,7 @@ Consistency, and a demonstration of reordering effects across architectures.
 ## The As-If Rule and Compiler Reordering
 
 The **as-if rule** [N4950 §6.9.2.1] allows the compiler to reorder any operations whose reordering
-Does not change the observable behavior of a single-threaded program. In a multi-threaded context,
+does not change the observable behavior of a single-threaded program. In a multi-threaded context,
 This means:
 
 > "The implementation is free to reorder operations unless an ordering constraint is imposed by the
@@ -43,7 +43,7 @@ Concretely, the compiler may reorder:
    stale data.
 
 The as-if rule is the root cause of most multi-threading bugs. The compiler does not know about
-Other threads and is free to optimize as if the current thread were the only one running.
+other threads and is free to optimize as if the current thread were the only one running.
 
 ### Formal Definition of the As-If Rule
 
@@ -110,7 +110,7 @@ Require coherence traffic). The store buffer is drained to the cache asynchronou
 
 This means a subsequent load from a different address may execute **before** the previous store
 Drains to the cache. This is called **store-to-load reordering** (also known as Store Buffering or
-The "Store Buffer" phenomenon).
+the "Store Buffer" phenomenon).
 
 ```
 Core 0:                  Core 1:
@@ -202,7 +202,7 @@ Dependent load before the controlling branch is resolved. Always use explicit me
 ### Data Dependencies as Ordering
 
 On most architectures, a true data dependency (RAW, Read After Write) prevents reordering because
-The consumer instruction cannot execute until the producer has produced the value. This is a
+the consumer instruction cannot execute until the producer has produced the value. This is a
 Hardware dependency, not a memory ordering guarantee:
 
 ```cpp
@@ -213,7 +213,7 @@ int val = b[idx]; // load b[a[0]], cannot execute until idx is known
 
 However, **address dependencies** (where only the _address_ depends on a prior load, not the value)
 Are weaker. On ARM and POWER, address dependencies provide ordering, but on some architectures even
-This is not guaranteed. Always use explicit atomics for correctness.
+this is not guaranteed. Always use explicit atomics for correctness.
 
 ## Sequenced-Before Relationship
 
@@ -233,7 +233,7 @@ $$
 ## Happens-Before Relationship
 
 The **happens-before** relation [N4950 §6.9.4.1] is a strict partial order ($\prec$) on evaluations
-Within a single execution. If evaluation $A$ happens-before evaluation $B$ Then $B$ observes all Side
+within a single execution. If evaluation $A$ happens-before evaluation $B$ Then $B$ observes all Side
 effects of $A$.
 
 The happens-before relation is the **transitive closure** of:
@@ -286,7 +286,7 @@ $$
 $$
 
 The synchronizes-with relationship creates a **happens-before** edge between the release store and
-The acquire load, and by transitivity, all operations sequenced-before the release store
+the acquire load, and by transitivity, all operations sequenced-before the release store
 Happen-before all operations sequenced-after the acquire load.
 
 ## Sequential Consistency vs Relaxed Consistency
@@ -309,7 +309,7 @@ Operations.
 ### Formal Definition of Sequential Consistency
 
 A set of operations is sequentially consistent if there exists a total order $T$ over all operations
-Such that [N4950 §31.7.5]:
+such that [N4950 §31.7.5]:
 
 1. $T$ is consistent with the program order of each thread (if $op_1$ is sequenced-before $op_2$ in
    the same thread, then $op_1$ appears before $op_2$ in $T$).
@@ -409,9 +409,9 @@ A common source of confusion is the relationship between `volatile``std::atomic`
 | **Use case**            | Signal handlers, memory-mapped I/O | Lock-free algorithms, flags, counters | General-purpose synchronization |
 
 **`volatile` does NOT provide thread safety.** It prevents the compiler from optimizing away reads
-Or writes, but it provides no atomicity and no memory ordering guarantees. On x86, `volatile` stores
+or writes, but it provides no atomicity and no memory ordering guarantees. On x86, `volatile` stores
 Compile to plain `mov` instructions without `mfence` or `lock` prefix. On ARM, `volatile` compiles
-To plain `str`/`ldr` without barriers.
+to plain `str`/`ldr` without barriers.
 
 **`std::atomic` is the correct tool** for variables shared between threads. It provides both
 Atomicity and configurable memory ordering.
@@ -488,7 +488,7 @@ Provides essential intuition for understanding memory ordering:
 When a core writes to a cache line in **Shared** state, it must issue an **RFO
 (Read-For-Ownership)** request that invalidates all other copies. This invalidation traffic is the
 Root cause of the performance cost of atomics with stronger memory ordering. The store buffer exists
-To decouple the core from this invalidation latency.
+to decouple the core from this invalidation latency.
 
 The relationship between MESI and memory ordering is:
 
@@ -580,7 +580,7 @@ Ordering constraints to the _surrounding_ code.
 
 The store-buffering phenomenon (also called "Store Buffering" or "4-store SB") is the canonical
 Litmus test for memory model correctness. It demonstrates that even when each core's stores appear
-In order locally, the global order may differ:
+in order locally, the global order may differ:
 
 ```
 Initial state: x = 0, y = 0
@@ -677,11 +677,11 @@ Critical for systems programming:
 
 **`std::atomic_thread_fence`** [N4950 §31.7.7] generates both a **compiler barrier** (preventing the
 Compiler from reordering loads/stores across the fence) and a **hardware fence** (CPU instructions
-Like `mfence` on x86, `DMB` on ARM). It is the correct tool for inter-thread synchronization.
+like `mfence` on x86, `DMB` on ARM). It is the correct tool for inter-thread synchronization.
 
 **`std::atomic_signal_fence`** [N4950 §31.7.7] generates only a **compiler barrier**. It emits zero
 CPU instructions. It is designed for synchronization between a thread and a signal handler running
-On the **same thread**, where hardware fences are unnecessary because the signal handler runs on the
+on the **same thread**, where hardware fences are unnecessary because the signal handler runs on the
 Same core and sees all prior stores.
 
 ```cpp

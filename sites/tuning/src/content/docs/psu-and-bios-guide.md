@@ -67,11 +67,11 @@ Rubycon, Chemi-Con, Panasonic) are the gold standard for bulk and output filteri
 
 **Definition.** Hold-up time is the duration a PSU can maintain output voltages within specification
 After AC input is lost. The ATX specification requires a minimum of 16 ms at full load. This bridges
-The gap between power loss and UPS switchover.
+the gap between power loss and UPS switchover.
 
 Higher hold-up time (17--20 ms) is desirable for systems running on a UPS, as it provides more
 Margin for the transfer time of the uninterruptible power supply. Units with larger bulk capacitors
-Or active hold-up circuits generally achieve longer hold-up times.
+or active hold-up circuits generally achieve longer hold-up times.
 
 ### Efficiency Curves
 
@@ -129,7 +129,7 @@ The ATX power supply specification is maintained by Intel. Key versions include:
 
 :::note
 RTX 5090) that can draw extremely high transient loads. Non-ATX 3.0 units may trigger OPP during
-These transients, causing system shutdowns under load.
+these transients, causing system shutdowns under load.
 :::
 
 ---
@@ -152,7 +152,7 @@ Specification. Peak (or peak surge) wattage is the maximum output the PSU can de
 Duration ( 10--30 seconds).
 
 The only rating that matters for sizing is continuous wattage. Some manufacturers market their units
-By peak wattage, which is misleading. A "600 W" PSU that can only sustain 500 W continuously is a
+by peak wattage, which is misleading. A "600 W" PSU that can only sustain 500 W continuously is a
 500 W unit, not a 600 W unit. Reputable manufacturers label both values.
 
 ### Rail Design
@@ -260,7 +260,7 @@ For each major component:
 
 Modern GPUs (particularly NVIDIA RTX 30-series and later) can request power spikes that are
 150--200% of their average draw for durations of 10--100 microseconds. If the PSU cannot respond to
-These transients quickly enough, the voltage on the 12V rail will sag below the ATX specification
+these transients quickly enough, the voltage on the 12V rail will sag below the ATX specification
 Minimum, triggering UVP or causing GPU crashes.
 
 ATX 3.0/3.1 certified units are tested against standardized transient load profiles. Non-certified
@@ -370,7 +370,7 @@ A reset winding. Still found in some budget units.
 Push-pull uses two transistors switching alternately to drive the transformer center-tap. Good
 Efficiency and power handling but requires careful matching of the two transistor pairs to avoid
 Flux imbalance in the transformer. More common in DC-DC converter stages than as a primary topology
-In ATX PSUs.
+in ATX PSUs.
 
 ### Full-Bridge
 
@@ -403,7 +403,7 @@ Group-regulated PSUs unsuitable for modern systems where the load is almost enti
 
 :::caution
 Rail (CPU, GPU, fans, pumps). With group regulation, the lightly-loaded +3.3 V and +5 V rails will
-Have their voltages pushed out of specification, potentially damaging connected devices.
+have their voltages pushed out of specification, potentially damaging connected devices.
 :::
 
 ### Active PFC vs Passive PFC
@@ -450,7 +450,7 @@ Typical OVP trip points:
 
 OVP should trigger before any connected component is at risk. ATX specification defines the maximum
 Safe voltage for each rail. Quality PSUs set OVP trip points close to but above these limits. Units
-With OVP set too high provide less protection.
+with OVP set too high provide less protection.
 
 ### UVP (Under Voltage Protection)
 
@@ -484,7 +484,7 @@ of rated continuous power.
 OPP is the last line of defense before the PSU's internal components (transformer, switching
 Transistors, capacitors) are stressed beyond their ratings. Unlike OCP, which is per-rail, OPP
 Monitors total power across all rails. Some PSUs implement OPP with a time delay: brief excursions
-Above the threshold are allowed, but sustained over-power triggers shutdown.
+above the threshold are allowed, but sustained over-power triggers shutdown.
 
 ### OTP (Over Temperature Protection)
 
@@ -502,7 +502,7 @@ And shuts down the PSU within microseconds.
 
 SCP is the fastest-acting protection mechanism. It must trigger before the short-circuit current can
 Melt wires, damage connectors, or harm the motherboard. Modern PSUs use dedicated comparator ICs
-That monitor each rail for sudden current surges characteristic of short circuits.
+that monitor each rail for sudden current surges characteristic of short circuits.
 
 :::caution
 This indicates a genuine fault, either a short circuit in a component, a damaged cable, or a
@@ -564,7 +564,7 @@ SPI bus and can be programmed in-system (via BIOS update utility) or externally 
 SPI programmer).
 
 Many enthusiast and workstation motherboards include dual BIOS chips, a primary and a backup. If
-The primary BIOS is corrupted (failed flash, bad update), the backup can restore it. Some boards
+the primary BIOS is corrupted (failed flash, bad update), the backup can restore it. Some boards
 Feature a physical BIOS selector switch; others auto-recover from the backup.
 
 ### CMOS Battery
@@ -575,7 +575,7 @@ order, fan curves, overclocking settings, and hardware configuration.
 
 When the CMOS battery dies (typical lifespan 3--5 years), the system loses its settings on every
 Power cycle and reverts to defaults. The system will still boot, but any custom configuration will
-Be lost. Some boards display a "CMOS checksum error" or "CMOS battery low" message at boot.
+be lost. Some boards display a "CMOS checksum error" or "CMOS battery low" message at boot.
 
 ---
 
@@ -677,7 +677,7 @@ Changing BCLK affects multiple subsystems simultaneously:
 
 :::caution
 System. On Intel platforms, BCLK overclocking above 103--105 MHz is rarely stable because the PCIe
-And DMI buses diverge from their specifications. Use the multiplier for CPU overclocking and the
+and DMI buses diverge from their specifications. Use the multiplier for CPU overclocking and the
 Memory ratio for RAM overclocking. Reserve BCLK adjustments for fine-tuning when the multiplier
 Limits have been reached.
 :::
@@ -701,7 +701,7 @@ FCLK operates in a 1:1 or 2:1 ratio with the memory (UCLK):
 
 **Vcore:** The primary CPU core voltage. Set as a fixed value (manual mode) or as an offset from
 VID. Fixed voltage is simpler for stability testing; offset voltage is preferred for daily use
-Because it allows power-saving features to function normally at idle.
+because it allows power-saving features to function normally at idle.
 
 **VDDIO:** The voltage supplied to the CPU's I/O interface (memory controller on Intel platforms).
 On AMD AM4, VDDIO/MC feeds the memory controller. Typical range: 1.05--1.20 V for DDR4, 1.35 V for
@@ -748,7 +748,7 @@ AMD platforms use analogous limits:
 
 **Definition.** C-States (or C-states) are CPU power-saving states. C0 is the active state where the
 CPU is executing instructions. Higher C-states (C1, C1E, C3, C6, C8, C10) progressively shut down
-More CPU subsystems (clocks, core voltage, cache) to reduce power consumption when idle.
+more CPU subsystems (clocks, core voltage, cache) to reduce power consumption when idle.
 
 - **C0:** Active execution.
 - **C1/C1E:** Clock gated / enhanced halt state. Minimal latency to wake (microseconds).
@@ -769,8 +769,8 @@ Voltage based on workload. AMD's equivalent is Cool'n'Quiet (older) or the more 
 (Collaborative Processor Performance Control).
 
 These features work in conjunction with the OS's power management to scale frequency and voltage
-Across a range from the minimum P-state to the maximum boost frequency. Disabling them locks the CPU
-At the configured multiplier and voltage, which is useful for stability testing but wasteful for
+across a range from the minimum P-state to the maximum boost frequency. Disabling them locks the CPU
+at the configured multiplier and voltage, which is useful for stability testing but wasteful for
 Daily use.
 
 ### Turbo Boost
@@ -852,7 +852,7 @@ Reading/writing to a column (CAS) within that row. Also known as RCD.
 Activating another in the same bank.
 
 **tRAS (Active to Precharge Delay):** The minimum number of clock cycles between activating a row
-And precharging it. Must be at least tRCD + tRP, but is set higher for stability.
+and precharging it. Must be at least tRCD + tRP, but is set higher for stability.
 
 **tRC (Row Cycle Time):** The minimum number of clock cycles between activating one row and
 Activating another in the same bank. TRC = tRAS + tRP (minimum).
@@ -888,8 +888,8 @@ Negotiate optimal signaling parameters (timings, voltages, drive strengths) at b
 Occurs automatically whenever memory settings are changed.
 
 On Intel 12th Gen and later, memory training can take 30--60 seconds on a cold boot, particularly
-With fast DDR5 kits. This is normal. The memory controller stores the trained parameters in NVRAM
-And can skip retraining on warm boots (fast boot). Clearing CMOS forces a full retrain.
+with fast DDR5 kits. This is normal. The memory controller stores the trained parameters in NVRAM
+and can skip retraining on warm boots (fast boot). Clearing CMOS forces a full retrain.
 
 Memory training failures manifest as:
 
@@ -965,7 +965,7 @@ reach 5--15% in certain titles. Not all games benefit.
 
 On platforms with limited PCIe lanes (e.g., Intel H670/B660 with 20 lanes vs Z690 with 24 lanes),
 The BIOS may offer PCIe lane allocation settings that determine how lanes are distributed between
-The primary GPU slot, M.2 slots, and other PCIe devices.
+the primary GPU slot, M.2 slots, and other PCIe devices.
 
 Common configurations:
 
@@ -1011,7 +1011,7 @@ Some platforms support NVMe RAID arrays configured through the BIOS. Common impl
 - **AMD RAID:** Supports RAID 0, RAID 1, and RAID 10 on AMD platforms. Similar to Intel RST.
 
 NVMe RAID configured in BIOS is hardware/firmware RAID, not true hardware RAID. The RAID logic runs
-On the CPU via the chipset. It offers no performance advantage over software RAID (Linux mdadm,
+on the CPU via the chipset. It offers no performance advantage over software RAID (Linux mdadm,
 Windows Storage Spaces) and ties the array to the specific platform.
 
 :::caution
@@ -1062,7 +1062,7 @@ AMD from their 600-series (X670, B650) and later. Windows 11 requires UEFI boot 
 CSM.
 
 Disable CSM unless you specifically need to boot a legacy OS. CSM can interfere with modern features
-Like Secure Boot, fast boot, and Resizable BAR.
+like Secure Boot, fast boot, and Resizable BAR.
 
 ---
 

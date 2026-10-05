@@ -271,8 +271,8 @@ static_assert(std::semiregular<LimitSentinel>);
 ## Sentinel with State
 
 A sentinel can carry state that influences the comparison logic. This is where the type distinction
-Between iterators and sentinels provides real value, a sentinel that encodes termination criteria
-As state avoids computing an end iterator.
+between iterators and sentinels provides real value, a sentinel that encodes termination criteria
+as state avoids computing an end iterator.
 
 ```cpp
 #include <iostream>
@@ -363,7 +363,7 @@ for (auto elem : range) { /* ... */ }
 
 The `!=` comparison between different types (`I` and `S`) is what enables sentinel semantics. This
 Means you can write custom range types where `begin()` and `end()` return different types and they
-Will work correctly with range-for:
+will work correctly with range-for:
 
 ```cpp
 #include <iostream>
@@ -392,7 +392,7 @@ int main() {
 ## Bounded vs. Unbounded Ranges
 
 The iterator-sentinel model formalizes the distinction between ranges with known bounds and those
-Without.
+without.
 
 ### Sized Ranges
 
@@ -563,7 +563,7 @@ int main() {
 ### 1. Sentinel Comparison Must Be Heterogeneous
 
 The `sentinel_for` concept requires that `S` and `I` be **weakly-equality-comparable-with** each
-Other, but they do not need to be the same type. A common mistake is implementing `==` only for
+other, but they do not need to be the same type. A common mistake is implementing `==` only for
 `(I, I)` pairs and forgetting the `(I, S)` and `(S, I)` overloads:
 
 ```cpp
@@ -606,7 +606,7 @@ auto bad() {
 Using `unreachable_sentinel` is a contract: you are guaranteeing to the standard library that the
 Range is infinite (or at least large enough). If the range is shorter than the algorithm expects,
 You get buffer overread, and unlike with bounds-checked iterators, there is no diagnostic. Use this
-Only when you have proven the bounds at a higher level.
+only when you have proven the bounds at a higher level.
 
 ```mermaid
 flowchart TD

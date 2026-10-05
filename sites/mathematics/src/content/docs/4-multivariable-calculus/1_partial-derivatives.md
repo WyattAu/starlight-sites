@@ -62,7 +62,7 @@ $$
 $$
 
 Similarly, by reversing the order of application, there exist $\theta_3, \theta_4 \in (0,1)$ such
-That
+that
 
 $$
 \Delta(h, k) = hk \cdot f_{yx}(a + \theta_3 h,\, b + \theta_4 k)
@@ -93,7 +93,7 @@ $$
 When $f$ is differentiable at $\mathbf{a}$ The linear map $L$ is given by the gradient.
 
 _Remark._ Existence of all partial derivatives at a point does **not** imply differentiability at
-That point. The canonical counterexample is
+that point. The canonical counterexample is
 
 $$
 f(x,y) = \begin{cases} \dfrac{xy}{x^2 + y^2} & \mathrm{if\ }(x,y) \neq (0,0), \\ 0 & \mathrm{if\ }(x,y) = (0,0). \end{cases}
@@ -168,7 +168,7 @@ $\lVert \nabla f \rVert$ Is the rate of steepest ascent.
 
 _Proof._ By the Cauchy--Schwarz inequality,
 $\lvert \nabla f \cdot \mathbf{u} \rvert \leq \lVert \nabla f \rVert \cdot \lVert \mathbf{u} \rVert = \lVert \nabla f \rVert$
-With equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
+with equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
 
 ### 1.6 Chain Rule
 

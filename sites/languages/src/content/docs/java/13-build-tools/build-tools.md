@@ -694,8 +694,8 @@ Leading to version mismatches between related libraries:
 ### Gradle Configuration Cache Issues
 
 Gradle's configuration cache (enabled with `--configuration-cache`) caches the project configuration
-Between builds. Build scripts must be idempotent, they must not read system state that can change
-Between builds (e.g., `System.getenv()` outside of providers, `new Date()` in dependency
+between builds. Build scripts must be idempotent, they must not read system state that can change
+between builds (e.g., `System.getenv()` outside of providers, `new Date()` in dependency
 Declarations).
 
 ```kotlin
@@ -987,7 +987,7 @@ The wrapper downloads the specified Gradle distribution to `~/.gradle/wrapper/di
 :::caution
 Different developers (and CI agents) may have different versions installed, leading to "works on my
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
-Through a PR.
+through a PR.
 
 ```mermaid
 flowchart TD

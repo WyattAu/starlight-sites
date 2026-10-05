@@ -20,7 +20,7 @@ description: "Study notes for Query Optimization with worked examples, practice 
 
 **Rule-Based Optimizer (RBO):** Uses a fixed set of heuristics to transform queries. Access paths
 Are chosen based on rules like "use an index if available" and "avoid full table scans." RBO does
-Not consider data distribution, row counts, or I/O costs. Oracle deprecated RBO in Oracle 10g.
+not consider data distribution, row counts, or I/O costs. Oracle deprecated RBO in Oracle 10g.
 
 **Cost-Based Optimizer (CBO):** Estimates the cost of alternative execution plans using statistics
 About the data (row counts, column distributions, index sizes) and system parameters (CPU speed,
@@ -242,7 +242,7 @@ SELECT * FROM orders WHERE EXISTS (SELECT 1 FROM premium_customers WHERE id = cu
 ### Materialized Subqueries
 
 CTEs in PostgreSQL 12+ may be inlined or materialized. When materialized, the subquery is executed
-Once and stored:
+once and stored:
 
 ```sql
 -- The CTE may be materialized if referenced multiple times
@@ -312,7 +312,7 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 
 :::caution
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
-You risk OOM.
+you risk OOM.
 
 ## Covering Indexes
 
@@ -544,7 +544,7 @@ DEALLOCATE get_orders_by_customer;
 ### Plan Caching
 
 PostgreSQL uses a **generic plan** for prepared statements after 5 executions. The generic plan does
-Not use the specific parameter values for planning, which can lead to suboptimal plans when data
+not use the specific parameter values for planning, which can lead to suboptimal plans when data
 Distribution is skewed.
 
 ```sql
@@ -737,7 +737,7 @@ ALTER TABLE orders SET (autovacuum_analyze_scale_factor = 0.01);
 ### work_mem Too Low for Hash Joins
 
 The default `work_mem` is 4MB. A hash join on a table with 10 million rows likely requires much
-More. If the hash table spills to disk, performance degrades by 10-100x:
+more. If the hash table spills to disk, performance degrades by 10-100x:
 
 ```sql
 -- Per-session
@@ -814,7 +814,7 @@ WHERE tablename = 'orders' AND attname = 'status';
 
 When a query filters on a value that is NOT in the MCV list, the planner uses the histogram to
 Estimate selectivity. If the histogram has too few buckets (low `statistics_target`), the estimate
-Can be wildly wrong.
+can be wildly wrong.
 
 ```sql
 -- Increase statistics for skewed distributions

@@ -21,7 +21,7 @@ categories:
 
 The build system is responsible for orchestrating the execution of compilers, linkers, and custom
 Commands to transform source code into artifacts. While CMake generates the build instructions, it
-Does not execute them.
+does not execute them.
 
 **Ninja** is a small build system with a specific focus on speed. It differs from the legacy **GNU
 Make** by lacking high-level language features (conditionals, loops). Instead, it relies on a build
@@ -123,7 +123,7 @@ Ninja's DAG-based scheduling satisfies both invariants by construction:
 **Invariant 1 (Dependency completeness):** Ninja performs a topological sort of the DAG before
 Execution. A topological sort of a DAG produces a linear ordering where every node appears after all
 Its predecessors. When Ninja executes edges in this order, every input is guaranteed to be available
-Before the edge that consumes it runs.
+before the edge that consumes it runs.
 
 Formally, for every edge $e: (I_1, I_2, \ldots, I_n) \to O$ The topological sort ensures that
 $I_1, I_2, \ldots, I_n$ all precede $O$ in the execution order. This is a theorem of graph theory:
@@ -132,7 +132,7 @@ Cycle, no topological ordering would exist, and Ninja would correctly report a c
 
 **Invariant 2 (No redundant work):** For each edge, Ninja compares the timestamps (or content
 Hashes) of all inputs against the timestamp of the output. If all inputs are older than the output
-And the command string has not changed, the edge is skipped. This is the standard "make" check,
+and the command string has not changed, the edge is skipped. This is the standard "make" check,
 Applied globally across the single dependency graph.
 
 The parallelism follows from the topological sort: if two edges have no ancestor-descendant
@@ -159,7 +159,7 @@ build CMakeFiles/App.dir/main.cpp.o: CXX_COMPILER ../main.cpp || CMakeFiles/App.
 ```
 
 The `|| main.cpp.o.d` syntax tells Ninja to load additional dependencies from the `.d` file after
-The build step. This is how header dependencies are discovered incrementally.
+the build step. This is how header dependencies are discovered incrementally.
 
 ### Build Edge Analysis
 
@@ -264,7 +264,7 @@ It consists of three primary constructs:
 ## Analyzing Build Performance
 
 Ninja includes a tool to analyze the build log (`.ninja_log`), which records the start and end time
-Of every task.
+of every task.
 
 ### 1. Generate Build Trace
 
@@ -332,7 +332,7 @@ Ninja guarantees correct incremental builds by tracking:
 ## The `.ninja` File Format
 
 The `build.ninja` file is the low-level build description that Ninja executes. While CMake generates
-This file, understanding its format is useful for debugging build issues and for projects that use
+this file, understanding its format is useful for debugging build issues and for projects that use
 Ninja directly.
 
 ### Variables and Scoping
@@ -406,13 +406,13 @@ Dependencies. This produces the initial `build.ninja` with explicit header depen
 ### Phase 2: Compiler Scanning (Build Time)
 
 During compilation, the compiler emits a `.d` file (via `-MD -MF`) listing all headers included by
-The source file, including transitive includes. Ninja reads this `.d` file and integrates the
+the source file, including transitive includes. Ninja reads this `.d` file and integrates the
 Dependencies into `.ninja_deps`. On subsequent builds, Ninja uses this complete dependency
 Information for incremental rebuild correctness.
 
 For C++20 modules, the dependency scanning is more complex because `import` directives are semantic
 (not preprocessing). CMake uses the P1689 protocol to run the compiler in a lightweight scan mode
-That discovers module dependencies without full compilation.
+that discovers module dependencies without full compilation.
 
 ## Comparison with GNU Make
 
@@ -511,8 +511,8 @@ CMake's cross-platform complexity, Meson + Ninja is a lighter alternative.
 ## Interactive Output with the `console` Pool
 
 By default, Ninja captures all command output and only displays it if a command fails. This is ideal
-For CI but problematic for interactive builds where you want to see compiler warnings or test output
-In real time.
+for CI but problematic for interactive builds where you want to see compiler warnings or test output
+in real time.
 
 Ninja provides a built-in `console` pool that ensures only one command runs at a time with its
 Output going directly to the terminal, bypassing Ninja's output capture:
@@ -615,7 +615,7 @@ endif()
 
 Ninja does not know about ccache. It sees the ccache invocation as the compile command. If the cache
 Hits, ccache returns the pre-built object file almost instantly. If the cache misses, ccache invokes
-The real compiler and stores the result.
+the real compiler and stores the result.
 
 ### sccache for Distributed Caching
 
@@ -641,7 +641,7 @@ Minimizing the overhead of determining which targets need building.
 ### Interaction Between Ninja's Restat and Caching
 
 Ninja supports a `restat` flag on build edges that tells Ninja to re-check the output's timestamp
-After the command runs. If the output's timestamp did not change (e.g., because ccache returned a
+after the command runs. If the output's timestamp did not change (e.g., because ccache returned a
 Cached object file that is older than the inputs), Ninja does not propagate the rebuild to
 Downstream targets.
 
@@ -723,7 +723,7 @@ build all: phony lib1/lib1.a lib2/lib2.a
 ```
 
 CMake uses `subninja` to integrate generated sub-projects into the main `build.ninja`. This allows
-Each CMake target to have its own set of rules and variables without polluting the global namespace.
+each CMake target to have its own set of rules and variables without polluting the global namespace.
 
 ## See Also
 

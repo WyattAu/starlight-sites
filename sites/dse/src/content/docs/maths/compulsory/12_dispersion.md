@@ -133,7 +133,7 @@ The IQR is resistant to outliers since it ignores the most extreme $50\%$ of dat
 ### Variance
 
 Variance measures the average squared deviation from the mean. There are two versions depending on
-Whether the data represents the **entire population** or a **sample** drawn from a larger
+whether the data represents the **entire population** or a **sample** drawn from a larger
 Population.
 
 **Population variance** (divides by $n$):
@@ -178,7 +178,7 @@ $n$) is expected.
 ### Standard Deviation
 
 The **standard deviation** is the positive square root of the variance, restoring the units to match
-The original data:
+the original data:
 
 $$
 \begin{aligned}
@@ -327,7 +327,7 @@ $$
 $$
 
 The additional terms $n_1(\bar{x}_1 - \bar{x}_c)^2$ and $n_2(\bar{x}_2 - \bar{x}_c)^2$ account for
-The between-group variation caused by the difference in means.
+the between-group variation caused by the difference in means.
 
 </details>
 <summary>Examples</summary>

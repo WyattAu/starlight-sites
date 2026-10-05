@@ -20,7 +20,7 @@ description: "Culture refers to the shared values, beliefs, norms, customs, and 
 Culture refers to the shared values, beliefs, norms, customs, and practices that characterise a
 Social group. Cultural norms are the unwritten rules that govern behaviour within a particular
 Cultural context. Understanding cultural norms and how they shape attitudes and behaviour is central
-To the sociocultural level of analysis, because culture is one of the most powerful environmental
+to the sociocultural level of analysis, because culture is one of the most powerful environmental
 Influences on human behaviour.
 
 ## Cultural Dimensions
@@ -45,7 +45,7 @@ From this data, Hofstede identified several dimensions along which national cult
 **2. Power Distance**
 
 Power distance refers to the extent to which less powerful members of a society accept and expect
-That power is distributed unequally.
+that power is distributed unequally.
 
 - **High power distance cultures** (e.g., Malaysia, the Philippines, Mexico) accept hierarchical
   structures, respect authority, and expect unequal power distribution. Subordinates are unlikely to
@@ -171,7 +171,7 @@ Identify which of several comparison lines matched it.
 
 Enculturation is the process by which individuals learn and internalise the values, norms, customs,
 And behaviours of their own culture. It is the primary mechanism of cultural transmission and occurs
-Through:
+through:
 
 - **Observational learning:** Children learn by observing and imitating the behaviour of parents,
   peers, and other members of their culture.
@@ -185,7 +185,7 @@ Through:
 Acculturation is the process of psychological and cultural change that occurs when two or more
 Cultural groups come into sustained contact. Acculturation is particularly relevant for immigrants,
 Refugees, and members of ethnic minority groups who must navigate between their heritage culture and
-The dominant culture of the host society.
+the dominant culture of the host society.
 
 ### Berry's Model of Acculturation Strategies
 
@@ -215,7 +215,7 @@ Acculturation strategies:
 Heine and colleagues investigated whether the self-enhancement motive (the tendency to view oneself
 Positively) is universal or culturally variable. In individualistic cultures, self-enhancement is
 Normative and associated with psychological well-being. In collectivistic cultures, self-criticism
-May be more adaptive.
+may be more adaptive.
 
 **Key findings:**
 

@@ -82,7 +82,7 @@ W = mg
 $$
 
 Where $g \approx 9.8\,\mathrm{m/s}^2$ (or $9.81$ on some boards). Weight acts vertically downward
-Through the centre of mass.
+through the centre of mass.
 
 ### 2.2 Normal reaction
 
@@ -188,7 +188,7 @@ $T = 3(g/4 + g) = 15g/4 = 36.75\,\mathrm{N}$.
 ### 5.2 On an inclined plane
 
 The same method applies, but gravity must be resolved into components parallel and perpendicular to
-The plane.
+the plane.
 
 <hr />
 
@@ -260,7 +260,7 @@ $R = m(g + a) \gt mg$.
 ### 8.1 Limiting equilibrium
 
 A body is in **limiting equilibrium** when it is on the point of moving. At this point the friction
-Has reached its maximum value:
+has reached its maximum value:
 
 $$
 F = \mu R
@@ -597,7 +597,7 @@ $$
 ### 11.4 Triangle of forces
 
 When three coplanar forces maintain a body in equilibrium, the forces can be drawn as a triangle
-With the forces as sides. The triangle is closed (the head of the last vector meets the tail of the
+with the forces as sides. The triangle is closed (the head of the last vector meets the tail of the
 First).
 
 This is equivalent to Lami's theorem and follows from the sine rule applied to the force triangle.
@@ -909,7 +909,7 @@ A $7\,\mathrm{kg}$ block on a rough inclined plane (angle $= 35^\circ$, $\mu = 0
 $R = mg\cos 35° = 7(9.8)(0.819) = 56.18\,\mathrm{N}$.
 
 $F = \mu R = 0.35(56.18) = 19.66\,\mathrm{N}$ (friction acts down the slope since the block moves
-Up).
+up).
 
 Parallel to the plane: $80 - mg\sin 35° - F = ma$
 

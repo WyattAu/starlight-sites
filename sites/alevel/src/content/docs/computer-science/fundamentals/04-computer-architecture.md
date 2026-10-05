@@ -26,7 +26,7 @@ categories:
 
 The **Von Neumann architecture**, proposed by John Von Neumann in 1945, is characterised by a single
 Unified memory space that stores both data and instructions, a single set of buses connecting memory
-To the CPU, and sequential execution of instructions.
+to the CPU, and sequential execution of instructions.
 
 ### Components
 

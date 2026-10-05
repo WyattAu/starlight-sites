@@ -47,7 +47,7 @@ Quantities of reactants as stated in the equation react under standard condition
 ### Hess's Law
 
 Hess's Law states that the enthalpy change of a reaction is independent of the route taken, provided
-The initial and final conditions are the same.
+the initial and final conditions are the same.
 
 $$
 \Delta H_1 = \Delta H_2 + \Delta H_3
@@ -841,7 +841,7 @@ Step 2 (fast): $\mathrm{F + \mathrm{NO_2 \to \mathrm{NO_2\mathrm{F$
 The rate equation is: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$.
 
 This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$ Even
-Though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
+though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
 Rate order cannot be predicted from the stoichiometry.
 
 ---

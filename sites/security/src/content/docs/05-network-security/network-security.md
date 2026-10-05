@@ -162,7 +162,7 @@ graph LR
 #### Microsegmentation
 
 Microsegmentation applies security policies at the workload level (container, VM, process) rather
-Than the network level. It is the network-level implementation of zero trust.
+than the network level. It is the network-level implementation of zero trust.
 
 | Technology               | Environment    | Mechanism                     |
 | ------------------------ | -------------- | ----------------------------- |
@@ -572,7 +572,7 @@ Man-in-the-middle attacks even if a CA is compromised.
 
 HPKP was deprecated due to the risk of hosts pinning themselves out of existence (losing the pinned
 Key with no recovery mechanism). If the pin was wrong, the site became permanently inaccessible for
-All visitors.
+all visitors.
 
 ### Modern Alternatives
 
@@ -689,7 +689,7 @@ ICMP to exfiltrate data. Monitor egress traffic volume, destinations, and protoc
 
 IPv6 is enabled by default on modern operating systems. If your firewall rules only cover IPv4, IPv6
 Traffic may bypass all controls. Either properly secure IPv6 or disable it on interfaces where it is
-Not needed.
+not needed.
 
 ### Pitfall 10: Single Point of Failure in Network Security
 
@@ -747,7 +747,7 @@ AllowTcpForwarding no
 ### Network Access Control (802.1X)
 
 802.1X provides port-based network access control. Devices must authenticate before gaining access
-To the network.
+to the network.
 
 | Component             | Role                                 |
 | --------------------- | ------------------------------------ |

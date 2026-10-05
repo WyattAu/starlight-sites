@@ -323,7 +323,7 @@ $$
 And $\int_{-\infty}^{\infty} f_X(x)\, dx = 1$.
 
 Note: $f_X(x)$ is not a probability; it is a probability density. For continuous $X$, $P(X = x) = 0$
-For any individual $x$.
+for any individual $x$.
 
 ### 2.5 Functions of Random Variables
 
@@ -892,7 +892,7 @@ $Y$ have the same distribution.
 **Theorem 4.5.** If $X$ and $Y$ are independent, $M_{X+Y}(t) = M_X(t) M_Y(t)$.
 
 _Proof._ $M_{X+Y}(t) = E[e^{t(X+Y)}] = E[e^{tX} e^{tY}] = E[e^{tX}]\, E[e^{tY}] = M_X(t)\, M_Y(t)$
-Where the third equality uses independence. $\blacksquare$
+where the third equality uses independence. $\blacksquare$
 
 ### 4.4 Important Inequalities
 
@@ -1322,7 +1322,7 @@ $$
 $\lim_{n \to \infty} F_{X_n}(x) = F_X(x)$ at all Continuity points of $F_X$.
 
 _Remark._ Convergence in probability implies convergence in distribution. The converse does not hold
-But does hold when the limit is a constant.
+but does hold when the limit is a constant.
 
 **Proposition 6.1.** If $X_n \xrightarrow{p} c$ (a constant), then $X_n \xrightarrow{d} c$.
 
@@ -1549,7 +1549,7 @@ _Proof sketch._ By the law of large numbers,
 $\frac{1}{n}\ell(\theta) \xrightarrow{p} E_{\theta_0}[\log f(X \mid \theta)]$ For each $\theta$. The
 Kullback-Leibler divergence
 $D(\theta_0 \| \theta) = -E_{\theta_0}[\log f(X \mid \theta)] + E_{\theta_0}[\log f(X \mid \theta_0)]$
-Is minimised (at zero) when $\theta = \theta_0$ by the information inequality. Therefore the
+is minimised (at zero) when $\theta = \theta_0$ by the information inequality. Therefore the
 maximiser of $\ell(\theta)$ converges in probability to $\theta_0$.
 
 **Theorem 7.2 (Asymptotic Normality).** Under regularity conditions:

@@ -29,7 +29,7 @@ description: "Development is a multidimensional concept encompassing economic pr
 
 Development is a multidimensional concept encompassing economic progress, social well-being,
 Environmental sustainability, political freedom, and quality of life. No single indicator captures
-All dimensions, and the choice of indicator shapes both our understanding of development and the
+all dimensions, and the choice of indicator shapes both our understanding of development and the
 Policy prescriptions that follow. Selecting appropriate indicators requires awareness of what each
 Measure captures, what it omits, and how it can be misinterpreted.
 
@@ -86,11 +86,11 @@ Thresholds):
 <summary>Common Pitfalls: Using GDP per Capita Without Qualification</summary>
 
 GDP per capita is the most commonly cited development indicator in examination responses, but it is
-Also the most commonly misused. When using GDP per capita, always acknowledge its limitations
+also the most commonly misused. When using GDP per capita, always acknowledge its limitations
 (distribution, non-market activities, sustainability) and complement it with other indicators. A
 Strong answer will use multiple indicators to construct a nuanced picture of development. For
 Example, "Nigeria has a GDP per capita of approximately USD 2100 (World Bank, 2023), classifying it
-As lower-middle income. However, this average conceals extreme inequality (Gini coefficient
+as lower-middle income. However, this average conceals extreme inequality (Gini coefficient
 Approximately 35), and Nigeria's HDI of 0.535 places it in the medium human development category.
 The Multidimensional Poverty Index shows that approximately 47% of Nigerians experience overlapping
 Deprivations in health, education, and living standards."
@@ -110,7 +110,7 @@ $$
 
 Where $I_{\mathrm{health}}$ is measured by life expectancy at birth, $I_{\mathrm{education}}$ is the
 Geometric mean of mean years of schooling and expected years of schooling, and $I_{\mathrm{income}}$
-Is measured by GNI per capita (PPP).
+is measured by GNI per capita (PPP).
 
 | HDI Category | Range         | Number of Countries (2023) | Examples                                               |
 | ------------ | ------------- | -------------------------- | ------------------------------------------------------ |
@@ -123,7 +123,7 @@ Is measured by GNI per capita (PPP).
 
 **Strengths:** broader than GDP alone; captures health and education as well as income; widely
 Recognised and used; facilitates cross-country comparison; has stimulated debate about the meaning
-Of development.
+of development.
 
 **Limitations:**
 
@@ -231,7 +231,7 @@ Normalisation procedures) that shapes the results. Comparing countries' rankings
 Indices without understanding these methodological differences can lead to misleading conclusions.
 For example, a country may rank high on the HDI (because it has high income) but low on the HPI
 (because its ecological footprint is large), or high on the HDI but low on the IHDI (because income
-Is highly unequal). When using composite indices in examination responses, briefly explain what the
+is highly unequal). When using composite indices in examination responses, briefly explain what the
 Index measures and how it is constructed, and use the index that is most relevant to the specific
 Aspect of development being discussed.
 

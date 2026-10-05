@@ -95,7 +95,7 @@ $\square$
 ### Algorithm
 
 Build the sorted array one element at a time by inserting each element into its correct position
-Among the previously sorted elements.
+among the previously sorted elements.
 
 ```python
 def insertion_sort(A):
@@ -121,7 +121,7 @@ otherwise, no change. Either way, $A[0..1]$ is sorted. ✓
 
 _Inductive step._ Assume $A[0..i-1]$ is sorted. We insert $A[i]$ (stored as `key`) by shifting
 Elements greater than `key` one position right. Since $A[0..i-1]$ is sorted, all elements greater
-Than `key` form a contiguous suffix. After shifting, `key` is placed at the first position where the
+than `key` form a contiguous suffix. After shifting, `key` is placed at the first position where the
 Element to its left is $\leq$ `key`. The resulting $A[0..i]$ is sorted. ✓
 
 $\square$
@@ -331,7 +331,7 @@ $$
 $$
 
 Therefore, any comparison-based sorting algorithm requires at least $\Omega(n \log n)$ comparisons
-In the worst case. $\square$
+in the worst case. $\square$
 
 :::note
 sort, counting Sort) can beat $O(n \log n)$ but have restrictions on key types.
@@ -418,7 +418,7 @@ Final: `[1, 1, 2, 3, 6, 8, 10]`
 <summary>Answer</summary>
 
 Insertion sort inserts $A[i]$ into the sorted portion $A[0..i-1]$ by shifting elements $\gt A[i]$
-One position right. The condition for shifting is `A[j] > key` (strictly greater). If
+one position right. The condition for shifting is `A[j] > key` (strictly greater). If
 $A[j] = \mathrm{key}$ The element is **not** shifted, and `key` is placed **after** the equal
 Element. Therefore, equal elements maintain their relative input order. $\square$
 
@@ -434,7 +434,7 @@ A decision tree for sorting 5 elements must have at least $5! = 120$ leaves. A b
 7 has at most $2^8 - 1 = 255$ nodes and at most $2^7 = 128$ leaves. Since $128 \geq 120$ It is
 Theoretically possible to sort 5 elements in 7 comparisons. However, this requires a perfectly
 Balanced decision tree (each comparison splits the remaining possibilities roughly in half), which
-Is achievable by an optimal comparison-based sorting algorithm.
+is achievable by an optimal comparison-based sorting algorithm.
 
 Note: $2^6 = 64 \lt 120$ So 6 comparisons are insufficient. The minimum is
 $\lceil \log_2 120 \rceil = 7$ comparisons.
@@ -515,7 +515,7 @@ $O(n \log n)$ time.
 <summary>Answer</summary>
 
 During the merge step, when an element from the right half is placed before elements remaining in
-The left half, each remaining left element forms an inversion with this right element.
+the left half, each remaining left element forms an inversion with this right element.
 
 ```python
 def merge_count(L, R):
@@ -548,7 +548,7 @@ And state their limitations.
 <summary>Answer</summary>
 
 Counting sort does not compare elements. Instead, it counts the frequency of each distinct key value
-And uses these counts to determine positions. If the key values are integers in the range $[0, k]$
+and uses these counts to determine positions. If the key values are integers in the range $[0, k]$
 Counting sort runs in $O(n + k)$ time.
 
 **Limitations:**

@@ -50,7 +50,7 @@ var number = 22;
 ```
 
 Another way of implicit definition is declaring as `Object` class, since all types in Dart inherits
-From the `Object` type, implicit definitions can be written as:
+from the `Object` type, implicit definitions can be written as:
 
 ```dart
 Object text = "hello";
@@ -107,7 +107,7 @@ Appear.
 #### `const` specifier
 
 Variables with `const` specifier are required to be evaluated at compile time, meaning the value
-Cannot be mutated by any event in runtime including a constructor call.
+cannot be mutated by any event in runtime including a constructor call.
 
 ```dart
 const String text = "hello";
@@ -170,7 +170,7 @@ void main(){
 ```
 
 When accessing a `late` specified variable without instantiation at runtime, a runtime exception
-Will be thrown (runtime error):
+will be thrown (runtime error):
 
 ```dart
 late String text;
@@ -183,7 +183,7 @@ void main(){
 
 :::tip
 `var` with no nullability specifier >> `final late` >> `var?`. Also non const top-level variables
-Should be avoided.
+should be avoided.
 
 ## Data Types
 
@@ -306,7 +306,7 @@ var (lo, hi) = getBounds([3, 1, 4, 1, 5]);
 
 :::note
 Same fields are equal: `(1, "a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
-Cannot be extended.
+cannot be extended.
 
 #### Functions
 
@@ -414,7 +414,7 @@ var doubled = numbers.map((n) => n * 2).toList();
 ```
 
 This is a deliberate design choice, lazy iterables avoid creating intermediate collections, which
-Is critical for large data pipelines.
+is critical for large data pipelines.
 
 #### Sets
 
@@ -499,7 +499,7 @@ Validate the types at runtime.
 #### Symbols
 
 A `Symbol` represents an operator or identifier declared in a Dart program. Symbols are rarely used
-In application code, their primary use case is in **mirrors** (reflection):
+in application code, their primary use case is in **mirrors** (reflection):
 
 ```dart
 // Symbol for an identifier

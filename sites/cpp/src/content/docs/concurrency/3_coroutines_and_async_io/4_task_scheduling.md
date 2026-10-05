@@ -33,13 +33,13 @@ flowchart TD
 ## Task Scheduling and Executors
 
 This section covers the task concept, coroutine-based pipeline processing, async/await patterns
-Across languages, structured concurrency with `when_all`/`when_any`A complete Task class wrapping A
+across languages, structured concurrency with `when_all`/`when_any`A complete Task class wrapping A
 coroutine, and a thread pool executor for scheduling coroutines across threads.
 
 ## Task Concept
 
 A **task** is a coroutine that produces a result asynchronously. Unlike a generator (which produces
-Many values), a task produces exactly one result upon completion. The task coroutine is Lazy, it
+many values), a task produces exactly one result upon completion. The task coroutine is Lazy, it
 does not begin executing until someone calls `resume()` or an executor schedules it.
 
 The minimal interface for a task is:
@@ -267,7 +267,7 @@ Library patterns.
   identifies which task finished first.
 
 The complexity of `when_all` for $n$ tasks is $\mathcal{O}(n)$ in terms of coroutine handles that
-Must be tracked and resumed.
+must be tracked and resumed.
 
 ### `when_all` Implementation
 

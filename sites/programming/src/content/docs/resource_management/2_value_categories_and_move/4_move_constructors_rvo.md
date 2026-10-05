@@ -112,8 +112,8 @@ QED.
 
 This has a practical consequence: your move constructor must leave the source in a state where the
 Destructor and assignment operator can run safely. For a resource-owning type like `Buffer`Setting
-The source's pointer to `nullptr` and size to `0` achieves this because `delete[] nullptr` is a
-No-op and assignment to a zero-sized buffer is well-defined.
+the source's pointer to `nullptr` and size to `0` achieves this because `delete[] nullptr` is a
+no-op and assignment to a zero-sized buffer is well-defined.
 
 ### What "Valid-But-Unspecified" Means in Practice
 
@@ -147,7 +147,7 @@ int main() {
 ```
 
 The key takeaway: you may assign to a moved-from object and you may destroy it. You should not read
-From it (unless you check it first) and you should not assume it is in any particular state such as
+from it (unless you check it first) and you should not assume it is in any particular state such as
 Empty or default-constructed.
 
 ### Implicit vs. Explicit Move Constructors
@@ -231,7 +231,7 @@ int main() {
 
 The critical lesson: **declaring any of the Rule-of-Five special member functions suppresses the
 Implicit generation of the others** (with some exceptions for the copy operations when a destructor
-Is declared). This is why the Rule of Five exists, if you manually manage resources in one
+is declared). This is why the Rule of Five exists, if you manually manage resources in one
 Operation, you must manually manage them in all five.
 
 ## 6.2 Move Assignment Operator
@@ -303,7 +303,7 @@ Constructor [N4950 S11.4.5.3]. The compiler implicitly declares a move assignmen
 4. No user-declared destructor.
 
 And the implicit move assignment operator is **not deleted** only if every direct base class and
-Non-static data member has a move assignment operator that is not deleted and is accessible.
+non-static data member has a move assignment operator that is not deleted and is accessible.
 
 ```cpp
 #include <iostream>
@@ -389,14 +389,14 @@ void container_demo() {
 :::caution
 Genuinely can throw (which is rare, moving should only perform pointer swaps and assignments). The
 `std::is_nothrow_move_constructible_v<T>` type trait is used by standard containers to select
-Between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
+between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
 copied in containers, which can be a severe performance regression.
 :::
 
 ### How `std::vector` Uses `noexcept` Move
 
 The `std::vector` reallocation strategy is defined in [N4950 S16.4.5.2.6]. If the move constructor
-Of `T` is `noexcept`Or if `T` is copyable, `vector` uses move operations during reallocation. If The
+of `T` is `noexcept`Or if `T` is copyable, `vector` uses move operations during reallocation. If The
 move constructor is potentially throwing and a copy constructor is available, `vector` falls Back to
 copying.
 
@@ -628,7 +628,7 @@ Move semantics are like handing someone the keys to your car instead of buying t
 ## Common Pitfalls
 
 A move constructor takes `T&&`Which is an rvalue reference, not a forwarding reference. This means
-It can only accept rvalues. If you need a constructor that can accept both lvalues and rvalues with
+it can only accept rvalues. If you need a constructor that can accept both lvalues and rvalues with
 Perfect forwarding, you use a variadic template:
 
 ```cpp
@@ -666,7 +666,7 @@ int main() {
 **Warning:** Overloading a forwarding constructor with a move constructor can lead to surprising
 Behavior. The forwarding constructor is a better match for many argument types than the move
 Constructor, because it accepts any `Args&&...`. Use `std::enable_if` or C++20 concepts to constrain
-The forwarding constructor:
+the forwarding constructor:
 
 ```cpp
 #include <utility>
@@ -889,7 +889,7 @@ self-assignment ).
 ## 7.5 Move-Only Types and the Standard Library
 
 The Standard Library makes extensive use of move-only types. Understanding which types are move-only
-And why is critical for writing correct generic code:
+and why is critical for writing correct generic code:
 
 | Type                              | Move-Only? | Reason                        |
 | :-------------------------------- | :--------- | :---------------------------- |

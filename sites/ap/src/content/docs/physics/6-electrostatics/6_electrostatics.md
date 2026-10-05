@@ -119,7 +119,7 @@ At the center ($x = 0$): $E = 0$ As expected by symmetry.
 
 :::note
 Example: Electric field of an infinite line of charge
-For an infinite line with linear charge density $\lambda$ Use cylindrical symmetry. Place the line
+for an infinite line with linear charge density $\lambda$ Use cylindrical symmetry. Place the line
 along The $z$-axis. A segment $dz$ at the origin produces a field with perpendicular component:
 
 $$
@@ -198,7 +198,7 @@ $$
 :::note
 Example: Non-conducting sphere with non-uniform charge density
 A sphere of radius $R$ has charge density $\rho(r) = \rho_0 (1 - r/R)$ for $0 \le r \le R$. Find $E$
-Inside and outside.
+inside and outside.
 
 $Q_{\text{enc}(r) = \int_0^r \rho(r') \cdot 4\pi r'^2\, dr' = 4\pi\rho_0 \int_0^r \left(r'^2 - \frac{r'^3}{R}\right) dr'$
 
@@ -545,7 +545,7 @@ Let the arc span from $\theta = -\pi/2$ to $\theta = \pi/2$. The linear charge d
 $\lambda = Q/(\pi R)$.
 
 (a) By symmetry, the field points along the axis of symmetry (let us call it the $y$-direction, with
-The arc opening to the right). A charge element $dq = \lambda R\, d\theta$ at angle $\theta$
+the arc opening to the right). A charge element $dq = \lambda R\, d\theta$ at angle $\theta$
 produces:
 
 $$

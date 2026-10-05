@@ -51,7 +51,7 @@ description: "Study notes for Mao and Hitler Authoritarian Regimes with worked e
 ### Great Leap Forward (1958–1962)
 
 Mao's attempt to rapidly transform China from an agrarian economy to an industrial socialist society
-Through collectivization and mass mobilization.
+through collectivization and mass mobilization.
 
 - **Communes**: Approximately 26,000 communes were established, each containing 5,000+ households.
   Private property was abolished, and all tools, animals, and land were pooled.
@@ -243,7 +243,7 @@ Germany. Key stages:
 **Historiographical debate**: The intentionalist view (Dawidowicz, Fleming) argues that Hitler
 Planned the Holocaust from the beginning. The functionalist/structuralist view (Mommsen, Broszat)
 Argues it emerged incrementally from the radicalization of Nazi policy. Ian Kershaw's "working
-Towards the Führer" thesis suggests that Hitler set broad goals and subordinates interpreted and
+towards the Führer" thesis suggests that Hitler set broad goals and subordinates interpreted and
 Escalated them.
 
 ### Land Reform and Class Struggle in China
@@ -415,14 +415,14 @@ women wore the same military-style clothing as men and were encouraged to enter 
 ### Comparison
 
 Both regimes instrumentalised women as tools of state policy. Mao's regime claimed to liberate women
-Through legal reform and economic participation, but failed to dismantle patriarchal structures in
+through legal reform and economic participation, but failed to dismantle patriarchal structures in
 Practice. Hitler's regime explicitly rejected gender equality, confining women to reproductive roles
-While selectively relaxing restrictions when economic or military necessity demanded. The key
+while selectively relaxing restrictions when economic or military necessity demanded. The key
 Difference lies in ideological justification: Maoism claimed to support equality as a matter of
 Marxist principle, whereas Nazism explicitly opposed it as contrary to "natural" gender roles.
 Historian Claudia Koonz, in _Mothers in the Fatherland_ (1987), argues that women under Nazism were
-Not merely passive victims but active participants who sustained the regime through their complicity
-In its racial project.
+not merely passive victims but active participants who sustained the regime through their complicity
+in its racial project.
 
 ## Propaganda Methods Compared
 
@@ -469,7 +469,7 @@ Mao's propaganda relied on mass participation and ideological devotion, citizens
 Spectators but expected to be active participants in revolutionary ritual. Hitler's propaganda
 Relied more on theatrical spectacle and sophisticated media technology, creating a sense of passive
 Awe. Historian Timothy Brook argues that Maoist propaganda was more invasive in daily life because
-It demanded continuous ideological performance, whereas Nazi propaganda operated more through
+it demanded continuous ideological performance, whereas Nazi propaganda operated more through
 Periodic mass events and media consumption. However, Nazi propaganda was arguably more
 Technologically sophisticated, leveraging film, radio, and architectural spectacle to an extent that
 Mao's China never matched.

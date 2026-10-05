@@ -23,7 +23,7 @@ categories:
 
 Type traits provide compile-time type introspection and transformation, forming the foundation of
 Generic programming in C++. Combined with techniques like SFINAE, tag dispatch, `if constexpr`And
-The upcoming C++26 static reflection, they enable type-safe compile-time polymorphism with zero
+the upcoming C++26 static reflection, they enable type-safe compile-time polymorphism with zero
 Runtime overhead.
 
 ## The `<type_traits>` Header
@@ -206,7 +206,7 @@ int main() {
 
 C++17 introduced `if constexpr` [N4950 §8.5.2], which performs compile-time branching. Unlike
 `std::enable_if` (which operates on the function signature level), `if constexpr` operates inside
-The function body and discards the untaken branch at compile time.
+the function body and discards the untaken branch at compile time.
 
 ```cpp
 #include <iostream>
@@ -503,7 +503,7 @@ int main() {
 
 `std::index_sequence` [N4950 §20.15.9] is a compile-time sequence of integer indices represented as
 A type. It is the primary mechanism for "unrolling" variadic templates and tuples. The key utilities
-Are:
+are:
 
 | Type                                | Description                                                    |
 | ----------------------------------- | -------------------------------------------------------------- |
@@ -586,8 +586,8 @@ transformed: [2] [5] [hello!]
 
 :::note
 Expression** [N4950 §7.5.6] that expands the comma operator over the parameter pack `Is`. This is
-The idiomatic way to iterate over a tuple at compile time. Without `index_sequence`There is no way
-To iterate over a tuple's elements in a generic function, because tuples do not have a
+the idiomatic way to iterate over a tuple at compile time. Without `index_sequence`There is no way
+to iterate over a tuple's elements in a generic function, because tuples do not have a
 Runtime-iterable interface.
 :::
 
@@ -680,7 +680,7 @@ Concatenated: hello world
 ## Structured Binding with `std::tuple`
 
 Structured bindings [N4950 §9.6] combined with `std::tuple` and `std::tie` provide a clean syntax
-For returning and unpacking multiple values. The key feature is that structured bindings work at
+for returning and unpacking multiple values. The key feature is that structured bindings work at
 Compile time when used with `constexpr`:
 
 ```cpp

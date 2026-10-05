@@ -125,7 +125,7 @@ Process (isobaric), remembering to calculate both the change in internal energy 
 
 <b>If you get this wrong, you should focus on:</b> The distinction between a heat engine and a
 Refrigerator, the correct formulas for Carnot efficiency and Carnot COP, and how the work output of
-An engine serves as the work input for another device.
+an engine serves as the work input for another device.
 
 1. **Question (HL Only):** 1.0 mole of a monatomic ideal gas is initially at state A (300 K,
    $1.0 \times 10^5$ Pa). It is adiabatically compressed to half its original volume, reaching state
@@ -164,7 +164,7 @@ An engine serves as the work input for another device.
 <b>If you get this wrong, you should focus on:</b> The specific gas law relations for an adiabatic
 Process ($PV^\gamma=\mathrm{const.}$, $TV^{\gamma-1}=\mathrm{const.}$). Also, the formula for
 Calculating entropy change during a process with a changing temperature, which requires integration
-Or the logarithmic form.
+or the logarithmic form.
 
 1. **Question:** A circuit is constructed with a 12.0 V battery with an internal resistance of 0.50
    Ω. It is connected to a 2.0 Ω resistor in series with a parallel combination of a 3.0 Ω resistor
@@ -315,7 +315,7 @@ Water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
 ## Bernoulli's Equation
 
 For an **ideal fluid** (incompressible, non-viscous, steady flow), Bernoulli's equation states that
-Along a streamline:
+along a streamline:
 
 $$
 P + \frac{1}{2}\rho v^2 + \rho g h = \mathrm{constant}
@@ -344,7 +344,7 @@ $$
 
 Water flows through a pipe that narrows from cross-sectional area $A_1 = 0.050 \mathrm{ m}^2$ to
 $A_2 = 0.020 \mathrm{ m}^2$. The water speed in the wider section is $2.0 \mathrm{ m s}^{-1}$ and
-The pressure there is $1.5 \times 10^5$ Pa.
+the pressure there is $1.5 \times 10^5$ Pa.
 
 - **Speed in narrow section:**
   $v_2 = \frac{A_1 v_1}{A_2} = \frac{(0.050)(2.0)}{0.020} = 5.0 \mathrm{ m s}^{-1}$
@@ -412,7 +412,7 @@ P = \frac{1}{3}\frac{N}{V} m \langle c^2 \rangle
 $$
 
 Where $N$ is the number of molecules, $m$ is the mass of one molecule, and $\langle c^2 \rangle$ is
-The mean square speed.
+the mean square speed.
 
 Combining with $PV = Nk_BT$ (where $k_B = \frac{R}{N_A}$ is Boltzmann's constant):
 

@@ -64,7 +64,7 @@ $d \approx 200\ \mathrm{nm}$ Giving a maximum useful magnification of approximat
 
 **Electron microscopy** uses a beam of electrons ($\lambda \approx 0.005\ \mathrm{nm}$) instead of
 Light, giving a resolving power of approximately $0.2\ \mathrm{nm}$ and effective magnifications up
-To $\times 2000000$.
+to $\times 2000000$.
 
 | Feature       | Light Microscope           | Electron Microscope         |
 | ------------- | -------------------------- | --------------------------- |
@@ -92,7 +92,7 @@ Reconstruction without the need for physical sectioning.
 
 :::caution
 Much larger the image appears; resolution is the ability to distinguish two closely spaced objects
-As separate. Increasing magnification without increasing resolution produces a larger but blurry
+as separate. Increasing magnification without increasing resolution produces a larger but blurry
 Image -- no additional detail is revealed.
 :::
 
@@ -122,7 +122,7 @@ All cells fall into one of two categories based on whether they possess a membra
 
 **Definition.** A **prokaryotic cell** lacks a membrane-bound nucleus and membrane-bound organelles.
 Its DNA is a single circular molecule located in the nucleoid region. Prokaryotes include bacteria
-And archaea.
+and archaea.
 
 **Definition.** A **eukaryotic cell** possesses a membrane-bound nucleus and membrane-bound
 Organelles. Its DNA is organised into linear chromosomes within the nucleus. Eukaryotes include
@@ -173,7 +173,7 @@ Prokaryotic cells also share some structures with eukaryotes:
 The nucleus is the largest organelle ($d \approx 5$--$10\ \mu\mathrm{m}$), enclosed by a **nuclear
 Envelope** consisting of two phospholipid bilayers. The envelope is perforated by **nuclear pores**
 (diameter $\approx 9\ \mathrm{nm}$) that allow selective transport of mRNA, tRNA, and proteins
-Between the nucleus and cytoplasm. Transport through nuclear pores is regulated and requires energy.
+between the nucleus and cytoplasm. Transport through nuclear pores is regulated and requires energy.
 
 The nucleus contains:
 
@@ -384,7 +384,7 @@ The cell cycle consists of:
 Regulation is by **cyclins** and **cyclin-dependent kinases (CDKs)**. Cyclin concentration rises and
 Falls cyclically; when cyclin binds to CDK, the complex triggers the next stage of the cell cycle.
 Mutations in genes regulating the cell cycle (proto-oncogenes and tumour suppressor genes) can lead
-To uncontrolled division (cancer).
+to uncontrolled division (cancer).
 
 ## 7. Quantitative Microscopy and Magnification
 
@@ -414,7 +414,7 @@ $$
 
 **Worked Example 2.** A mitochondrion has an actual length of $5\ \mu\mathrm{m}$. If an electron
 Micrograph is taken at a magnification of $\times 50000$ What will be the length of the mitochondrion
-In the image?
+in the image?
 
 $$
 \mathrm{Image\ size} = 5\ \mu\mathrm{m} \times 50000 = 250000\ \mu\mathrm{m} = 250\ \mathrm{mm} = 25\ \mathrm{cm}
@@ -722,7 +722,7 @@ Specific conditions (cold, buffered, isotonic).
 
 **Answer.** Cell fractionation involves three steps. (1) Homogenisation: cells are placed in a cold,
 Buffered, isotonic solution and broken open (e.g., with a blender or ultrasonication). The solution
-Must be cold to reduce the activity of enzymes that would degrade organelles; buffered to maintain a
+must be cold to reduce the activity of enzymes that would degrade organelles; buffered to maintain a
 Constant pH, since enzyme activity is pH-dependent; and isotonic to prevent osmotic lysis (in a
 Hypotonic solution) or shrinkage (in a hypertonic solution) of organelles. (2) Filtration: the
 Homogenate is passed through a gauze to remove unbroken cells and large debris. (3) Differential
@@ -781,7 +781,7 @@ Golgi apparatus?
 **Answer.** The Golgi apparatus receives transport vesicles from the RER containing newly
 Synthesised proteins. It modifies these proteins by adding carbohydrate groups (glycosylation),
 Phosphate groups, or lipid groups, and may cleave the protein into its active form. It then sorts
-The modified proteins and packages them into secretory vesicles, which bud from the trans face and
+the modified proteins and packages them into secretory vesicles, which bud from the trans face and
 Move to the plasma membrane for exocytosis. A pancreatic acinar cell secretes large quantities of
 Digestive enzymes, so it requires an extensive RER for protein synthesis and a correspondingly large
 Golgi apparatus for the modification, sorting, and packaging of these proteins into secretory
@@ -813,16 +813,16 @@ Cholesterol therefore buffers membrane fluidity, keeping it within an optimal ra
 <details>
 <summary>Problem 6</summary>
 Are viruses living organisms? Justify your answer with reference to the characteristics of life and
-The structure and behaviour of viruses.
+the structure and behaviour of viruses.
 
 **Answer.** Viruses are not considered living organisms. They possess genetic material (DNA or RNA)
 And can evolve through mutation and natural selection, but they lack the other characteristics of
 Life. They do not carry out respiration, nutrition, or excretion independently. They have no
 Metabolism of their own and cannot synthesise proteins or generate ATP without a host cell. They do
-Not grow or develop. They cannot reproduce independently -- they require a host cell's ribosomes,
+not grow or develop. They cannot reproduce independently -- they require a host cell's ribosomes,
 Enzymes, and nucleotides to replicate. Their acellular structure (no cytoplasm, no cell membrane, no
 Ribosomes) further distinguishes them from cells. While they are obligate intracellular parasites
-That can cause disease, they are more accurately described as infectious agents rather than living
+that can cause disease, they are more accurately described as infectious agents rather than living
 Organisms.
 
 <b>If you get this wrong, revise:</b> [Viruses](#4-viruses)

@@ -52,7 +52,7 @@ The SI unit of moment is the newton-metre (Nm).
 
 **Seesaw.** A seesaw is the simplest moment problem. Two children of weights $W_1$ and $W_2$ sit at
 Distances $d_1$ and $d_2$ from the pivot. For balance: $W_1 d_1 = W_2 d_2$. A lighter child further
-From the pivot can balance a heavier child closer to it, this is why you move back to let a lighter
+from the pivot can balance a heavier child closer to it, this is why you move back to let a lighter
 Friend balance you.
 
 **Crane counterweight.** Tower cranes have a heavy concrete counterweight on the short arm behind
@@ -94,7 +94,7 @@ $$
 $$
 
 Where $\mathbf{r}_i$ is the position vector of the point of application of $\mathbf{F}_i$ relative
-To $O$.
+to $O$.
 
 This means the clockwise and anticlockwise moments balance:
 $\sum M_{\mathrm{clockwise}} = \sum M_{\mathrm{anticlockwise}}$. $\blacksquare$
@@ -102,8 +102,8 @@ $\sum M_{\mathrm{clockwise}} = \sum M_{\mathrm{anticlockwise}}$. $\blacksquare$
 ### 2.3 Real-world application: bridge supports
 
 A simple beam bridge of length $L$ and weight $W$ is supported at both ends by piers. When a vehicle
-Of weight $P$ is on the bridge at distance $a$ from the left pier, the reaction forces at each pier
-Are found by taking moments about each pier in turn.
+of weight $P$ is on the bridge at distance $a$ from the left pier, the reaction forces at each pier
+are found by taking moments about each pier in turn.
 
 Taking moments about the left pier:
 $R_{\mathrm{right}} \times L = W \times \dfrac{L}{2} + P \times a$ So
@@ -153,7 +153,7 @@ $$
 $$
 
 The moment of a couple is the same about **any** point in the plane. This is a key property: unlike
-The moment of a single force, the torque of a couple does not depend on the choice of reference
+the moment of a single force, the torque of a couple does not depend on the choice of reference
 Point.
 
 **Proof.** Consider two forces $+F$ and $-F$ acting at points $A$ and $B$ respectively, with
@@ -269,7 +269,7 @@ Centre of mass must be determined from the information given.
 ### 3.3.1 Finding the centre of mass of a non-uniform beam
 
 When a non-uniform beam of weight $W$ and length $L$ is supported at two points, the reactions at
-Those points reveal the position of the centre of mass.
+those points reveal the position of the centre of mass.
 
 If the beam is supported at ends $A$ and $B$ with reactions $R_A$ and $R_B$:
 
@@ -368,7 +368,7 @@ $= 4\sin 60° = 2\sqrt{3}\,\mathrm{cm}$. Area
 $= \frac{1}{2} \times 4 \times 2\sqrt{3} = 4\sqrt{3}\,\mathrm{cm}^2$.
 
 The centre of mass of the triangle is at $\frac{1}{3}$ of its height from $BC$. Taking $B$ as origin
-With $BA$ along the positive $x$-axis and $BC$ along the positive $y$-axis:
+with $BA$ along the positive $x$-axis and $BC$ along the positive $y$-axis:
 
 Triangle centroid is at
 $\left(\frac{4}{3}\cos 60°, 4 - \frac{2\sqrt{3}}{3}\right) = \left(\frac{2}{3}, 4 - \frac{2\sqrt{3}}{3}\right)$.
@@ -530,7 +530,7 @@ A uniform beam $AB$ of weight $W$ and length $2l$ rests on a support at its midp
 Taking moments about $C$: the man"s weight creates a moment of $3W(x-l)$.
 
 The beam remains in equilibrium as long as neither end lifts off, i.e., the reaction at each end is
-Non-negative.
+non-negative.
 
 For the reaction at $B \geq 0$: moment of weight about $C$ must not exceed restoring moment.
 $3W(x-l) \leq W \cdot l \implies 3x - 3l \leq l \implies x \leq \dfrac{4l}{3}$.
@@ -656,7 +656,7 @@ A uniform ladder of length $6\,\mathrm{m}$ and weight $150\,\mathrm{N}$ rests ag
 Let $R_w$ = reaction from wall (horizontal), $R_g$ = reaction from ground (vertical), $F$ = friction at ground.
 
 The man is $2\,\mathrm{m}$ from the top, so $4\,\mathrm{m}$ from the base. His horizontal distance
-From the base is $4\cos 55^\circ$.
+from the base is $4\cos 55^\circ$.
 
 Horizontal: $R_w = F$. Vertical: $R_g = 150 + 800 = 950\,\mathrm{N}$.
 
@@ -807,7 +807,7 @@ Taking moments about $A$: the perpendicular distance from $A$ to the line of act
 $T$ in $BC$ is needed.
 
 The thrust acts along $CB$. The perpendicular distance from $A(0,0)$ to the line through $B(4,0)$
-With direction $(-4,-3)$ is
+with direction $(-4,-3)$ is
 $\dfrac{|(-4)(0-0) - (-3)(0-4)|}{\sqrt{(-4)^2+(-3)^2}} = \dfrac{12}{5} = 2.4\,\mathrm{m}$.
 
 Clockwise moment of thrust: $T \times 2.4$ (thrust pushes from $B$ toward $C$ Creating a clockwise

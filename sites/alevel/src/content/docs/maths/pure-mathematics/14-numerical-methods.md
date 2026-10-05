@@ -52,7 +52,7 @@ The sign change theorem tells us a root **exists** but says nothing about:
 
 :::caution
 $f(-1) = f(1) = 1$ (no sign change), but there is a root at $x = 0$. Additionally, a sign change
-Could arise from a **discontinuity** rather than a root: $f(x) = 1/x$ has $f(-1) = -1$ and
+could arise from a **discontinuity** rather than a root: $f(x) = 1/x$ has $f(-1) = -1$ and
 $f(1) = 1$ But no root.
 :::
 
@@ -124,7 +124,7 @@ $|g'(\alpha)| \gt 1$.
 
 The fixed-point iteration $x_{n+1} = g(x_n)$ can be visualised using the cobweb diagram. Plot
 $y = g(x)$ and $y = x$. Starting from $x_0$ on the $x$-axis, go vertically to $y = g(x_0) = x_1$
-Then horizontally to $y = x$ Then vertically to $y = g(x_1) = x_2$ And so on.
+then horizontally to $y = x$ Then vertically to $y = g(x_1) = x_2$ And so on.
 
 - If $0 \lt g'(\alpha) \lt 1$: the cobweb spirals inward (monotone convergence).
 - If $-1 \lt g'(\alpha) \lt 0$: the cobweb zigzags inward (oscillatory convergence).
@@ -141,7 +141,7 @@ Taylor expansion vanishes.
 ### 3.1 Derivation from the tangent line
 
 To solve $f(x) = 0$ Start from $x_0$ and draw the tangent to $y = f(x)$ at $x_0$. The tangent line
-Is:
+is:
 
 $$
 y - f(x_n) = f'(x_n)(x - x_n)
@@ -227,7 +227,7 @@ point.
 ### 3.5 Slow convergence near inflection points
 
 The quadratic convergence proof in Section 3.2 requires $f'(\alpha) \neq 0$. When the root coincides
-With an inflection point, so that $f'(\alpha) = 0$ Convergence degrades from quadratic to **linear**.
+with an inflection point, so that $f'(\alpha) = 0$ Convergence degrades from quadratic to **linear**.
 
 **Theorem.** If $f(\alpha) = 0$$f'(\alpha) = 0$$f''(\alpha) \neq 0$ And $x_0$ is sufficiently Close
 to $\alpha$ Then Newton-Raphson converges linearly with rate $1/2$:
@@ -282,8 +282,8 @@ Starting at $x_0 = 4$: $x_1 = 3$$x_2 = 7/3 \approx 2.333$$x_3 = 17/9 \approx 1.8
 $x_4 = 37/27 \approx 1.370$$x_5 = 75/81 \approx 1.210$...
 
 The error is multiplied by $2/3$ each step (linear, not quadratic). Compare: standard Newton-Raphson
-With $f'(\alpha) \neq 0$ would give roughly 1, then 2, then 4, then 8 correct digits. Here each step
-Only adds a fixed fraction of a digit.
+with $f'(\alpha) \neq 0$ would give roughly 1, then 2, then 4, then 8 correct digits. Here each step
+only adds a fixed fraction of a digit.
 
 <hr />
 
@@ -362,7 +362,7 @@ E_T = -\frac{(b-a)^3}{12n^2}\,f''(\eta)
 $$
 
 (The negative sign arises from the exact derivation via the Euler-Maclaurin formula; the key point
-Is the $h^2$ scaling.) $\blacksquare$
+is the $h^2$ scaling.) $\blacksquare$
 
 **Key consequence.** The error is proportional to $h^2 = (b-a)^2/n^2$. Doubling the number of strips
 ($n \to 2n$) reduces the error by a factor of 4, since $h \to h/2$ and $h^2 \to h^2/4$.
@@ -739,7 +739,7 @@ $$
 
 (b) $f''(x) = \dfrac{6x^2 - 2}{(1+x^2)^3}$. On $[0, 2]$ The numerator $6x^2 - 2$ is maximised at
 $x = 2$ where it equals $6(4) - 2 = 22$. The denominator $(1+x^2)^3$ is minimised at $x = 0$ where
-It equals 1. We need to maximise $|f''(x)|$.
+it equals 1. We need to maximise $|f''(x)|$.
 
 Checking critical points: $f'''(x) = 0$ gives potential extrema of $f''$. Alternatively, evaluate at
 Endpoints and critical points. $f''(0) = -2$$f''(1) = 4/8 = 0.5$$f''(2) = 22/125 = 0.176$.
@@ -901,7 +901,7 @@ $f'(1.3) = \sec^2(1.3) = 1/\cos^2(1.3) \approx 1/0.0754 \approx 13.26$.
 $x_1 = 1.3 - 2.6021/13.26 \approx 1.3 - 0.1962 = 1.1038$.
 
 This is still far from $\alpha = 0.7854$. The function is very steep here (large $f'$), so the step
-Is small but the iterate is far from the root.
+is small but the iterate is far from the root.
 
 (b) Newton-Raphson fails when $f'(x_0) = 0$ I.e., $\sec^2 x_0 = 0$ Which never happens since
 $\sec^2 x \geq 1$ for all $x$. However, as $x_0 \to \pi/2^-$$\cos x_0 \to 0$ and

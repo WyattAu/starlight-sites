@@ -20,7 +20,7 @@ categories: [DSE, Economics]
 ### Definition
 
 A country has an **absolute advantage** in producing a good if it can produce more of that good with
-The same amount of resources, or use fewer resources to produce the same amount, compared to another
+the same amount of resources, or use fewer resources to produce the same amount, compared to another
 Country.
 
 ### Example
@@ -31,12 +31,12 @@ Country.
 | Country B | 4                        | 8                         |
 
 Country A has an absolute advantage in producing rice (10 > 4). Country B has an absolute advantage
-In producing cloth (8 > 5).
+in producing cloth (8 > 5).
 
 ### Limitation
 
 Absolute advantage alone does not explain why trade occurs between countries where one country has
-An absolute advantage in ALL goods. For that, we need comparative advantage.
+an absolute advantage in ALL goods. For that, we need comparative advantage.
 
 ---
 
@@ -60,7 +60,7 @@ A country has a **comparative advantage** in producing a good if it can produce 
 
 Even if one country has an absolute advantage in all goods, both countries can still benefit from
 Trade if they specialise according to their comparative advantage. A country should specialise in
-And export the good in which it has a lower opportunity cost, and import the good in which it has a
+and export the good in which it has a lower opportunity cost, and import the good in which it has a
 Higher opportunity cost.
 
 ### Example
@@ -264,7 +264,7 @@ Total `DWL = 250`.
 ### Quotas
 
 A **quota** is a quantitative restriction on the volume or value of imports. It sets a maximum limit
-On the quantity of a good that can be imported during a given period.
+on the quantity of a good that can be imported during a given period.
 
 **Effects of a quota:**
 
@@ -494,7 +494,7 @@ Floating exchange rate system). Less domestic currency is needed to buy one unit
 Currency.
 
 Under a fixed exchange rate system, the equivalent terms are **devaluation** (downward adjustment of
-The fixed rate) and **revaluation** (upward adjustment of the fixed rate).
+the fixed rate) and **revaluation** (upward adjustment of the fixed rate).
 
 ### Causes of Exchange Rate Changes (Floating System)
 
@@ -532,7 +532,7 @@ The reverse of the above effects.
 ### The J-Curve Effect
 
 When a currency depreciates, the current account may initially WORSEN before improving. This is
-Because:
+because:
 
 1. In the short run, import and export quantities are relatively fixed (inelastic demand)
 2. The price effect dominates: imports cost more (worsening the trade balance) while export volumes
@@ -591,7 +591,7 @@ Appreciates or depreciates together with the USD.
 ### When the USD/HKD Depreciates
 
 The reverse effects: exports become cheaper (boosting export demand and tourism), imports become
-More expensive (increasing costs and imported inflation), and the current account may improve.
+more expensive (increasing costs and imported inflation), and the current account may improve.
 
 ---
 
@@ -609,7 +609,7 @@ More expensive (increasing costs and imported inflation), and the current accoun
 ### Definition
 
 Trade dependency measures the degree to which a country's economy relies on international trade. It
-Is measured as:
+is measured as:
 
 $$
 \mathrm{Trade Dependency Ratio} = \frac{\mathrm{Total Trade (Exports + Imports)}}{\mathrm{GDP}} \times 100\%
@@ -733,7 +733,7 @@ Country X can produce either 60 units of wheat or 30 units of cloth with all its
 Y can produce either 40 units of wheat or 40 units of cloth.
 
 (a) Which country has an absolute advantage in wheat? In cloth? (b) Calculate the opportunity cost
-Of producing each good in each country. (c) Which country has a comparative advantage in wheat? In
+of producing each good in each country. (c) Which country has a comparative advantage in wheat? In
 Cloth? (d) If they specialise and trade at an exchange rate of 1 wheat = 1.2 cloth, show that both
 Countries gain from trade.
 
@@ -798,7 +798,7 @@ X exports 20 wheat to Y at rate 1 wheat = 0.8 cloth:
 
 Now both countries gain. The exchange rate must be between the two opportunity costs: between 0.5
 (X's cost of wheat in terms of cloth) and 1 (Y's cost of wheat in terms of cloth). Any exchange rate
-Where $0.5 \lt \mathrm{exchange rate} \lt 1$ will benefit both countries.
+where $0.5 \lt \mathrm{exchange rate} \lt 1$ will benefit both countries.
 
 </details>
 
@@ -806,12 +806,12 @@ Where $0.5 \lt \mathrm{exchange rate} \lt 1$ will benefit both countries.
 <summary>Question 2: Tariff Analysis</summary>
 
 A small country imports Good Z. The world price is USD 10 per unit. At this price, domestic demand
-Is 1,000 units and domestic supply is 400 units. The government imposes a tariff of USD 2 per unit.
+is 1,000 units and domestic supply is 400 units. The government imposes a tariff of USD 2 per unit.
 At the new price of USD 12, domestic demand falls to 900 units and domestic supply rises to 500
 Units.
 
 (a) Calculate the change in the quantity of imports. (b) Calculate the tariff revenue collected by
-The government. (c) Calculate the deadweight loss from the tariff.
+the government. (c) Calculate the deadweight loss from the tariff.
 
 (a) Before tariff: Imports = Domestic demand - Domestic supply = 1,000 - 400 = 600 units
 
@@ -853,7 +853,7 @@ Country Z has the following transactions in a year (all values in USD million):
 - Current transfers paid: 80
 
 (a) Calculate the current account balance. (b) Is there a surplus or deficit? What does this imply
-About the capital and financial accounts?
+about the capital and financial accounts?
 
 (a) Current Account = Trade in goods + Trade in services + Primary income + Secondary income
 
@@ -907,7 +907,7 @@ Eurozone export volumes and revenue to the US are likely to decrease.
 
 However, the full effect depends on the Marshall-Lerner condition. In the short run, demand for
 Exports and imports may be relatively inelastic, so the current account may worsen significantly. In
-The long run, quantities adjust and the effect may be less severe. There may also be a J-curve
+the long run, quantities adjust and the effect may be less severe. There may also be a J-curve
 Effect.
 
 </details>
@@ -916,7 +916,7 @@ Effect.
 <summary>Question 5: Terms of Trade</summary>
 
 A country's export price index rises from 100 to 120, while its import price index rises from 100
-To 110.
+to 110.
 
 (a) Calculate the initial and new terms of trade. (b) Has the terms of trade improved or
 Deteriorated? (c) Explain whether the country is necessarily better off.
@@ -926,7 +926,7 @@ Deteriorated? (c) Explain whether the country is necessarily better off.
 New TOT = $120 / 110 \times 100 = 109.09$
 
 (b) The terms of trade have IMPROVED from 100 to 109.09. The country can now buy approximately 9%
-More imports for the same quantity of exports compared to the base period.
+more imports for the same quantity of exports compared to the base period.
 
 (c) The country is NOT necessarily better off. While the terms of trade have improved (higher export
 Prices relative to import prices), this improvement could be caused by:
@@ -951,7 +951,7 @@ We need to look at the VOLUME of trade as well (trade volumes and the trade bala
 <summary>Question 6: Hong Kong's Trade and Exchange Rate</summary>
 
 Explain how a significant depreciation of the Chinese yuan (CNY) against the USD (and therefore
-Against the HKD) would affect the Hong Kong economy.
+against the HKD) would affect the Hong Kong economy.
 
 Since the HKD is pegged to the USD, a depreciation of the CNY against the USD means the CNY also
 Depreciates against the HKD.
@@ -1045,10 +1045,10 @@ Its domestic steel industry. Discuss the economic arguments for and against this
 <summary>Question 8: Marshall-Lerner Condition</summary>
 
 The price elasticity of demand for a country's exports is 0.6, and the price elasticity of demand
-For its imports is 0.3.
+for its imports is 0.3.
 
 (a) Does the Marshall-Lerner condition hold? Will a depreciation of the currency improve or worsen
-The current account?
+the current account?
 
 (b) If the price elasticity of demand for imports were 0.8 instead, what would the answer be?
 
@@ -1057,7 +1057,7 @@ The current account?
 $|0.6| + |0.3| = 0.9$
 
 Since $0.9 \lt 1$ The Marshall-Lerner condition is NOT satisfied. A depreciation of the currency
-Would WORSEN the current account. The quantity effect (increased export volumes and decreased import
+would WORSEN the current account. The quantity effect (increased export volumes and decreased import
 Volumes) is smaller than the price effect (lower export prices and higher import prices), so the
 Trade balance deteriorates.
 
@@ -1133,7 +1133,7 @@ Tariff). After the free trade area, Country A imports from Country B at USD 11 p
 Although the price to consumers in Country A falls from USD 13 to USD 11 (a gain for consumers),
 Trade has been diverted from the more efficient producer (Country C, cost = USD 10) to the less
 Efficient producer (Country B, cost = USD 11). The world is producing Good X less efficiently than
-Before.
+before.
 
 **Trade creation** would occur if the free trade area caused Country A to start importing a good
 That it previously produced domestically (because the removal of tariffs made imports cheaper than
@@ -1149,7 +1149,7 @@ Good X than necessary. The gain to Country A consumers is partially offset by th
 Productive efficiency.
 
 This is a key criticism of preferential trade agreements (free trade areas, customs unions): they
-Can create trade diversion that partially offsets the benefits of trade creation.
+can create trade diversion that partially offsets the benefits of trade creation.
 
 </details>
 
@@ -1172,7 +1172,7 @@ Country M can produce either 200 tonnes of coffee or 100 tonnes of tea. Country 
 100 tonnes of coffee or 200 tonnes of tea.
 
 (a) Which country has an absolute advantage in coffee? In tea? (b) Calculate the opportunity cost of
-Each good in each country. (c) Which country has a comparative advantage in coffee? In tea? (d) If
+each good in each country. (c) Which country has a comparative advantage in coffee? In tea? (d) If
 they Specialise and trade at an exchange rate of 1 coffee = 1.5 tea, show that both gain.
 
 <details>

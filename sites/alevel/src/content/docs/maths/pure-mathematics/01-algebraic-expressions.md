@@ -95,7 +95,7 @@ distribute the Denominator correctly.
 **Theorem.** $\sqrt{2}$ is irrational.
 
 _Proof._ We proceed by contradiction. Assume $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{p}{q}$
-Where $p, q \in \mathbb{Z}^+$$q \neq 0$ And $\gcd(p, q) = 1$ (i.e., the fraction is in lowest Terms).
+where $p, q \in \mathbb{Z}^+$$q \neq 0$ And $\gcd(p, q) = 1$ (i.e., the fraction is in lowest Terms).
 
 $$
 \begin{aligned}
@@ -111,7 +111,7 @@ $p^2$ is even, then $p$ is even. So $p = 2k$ for some integer $k$.
 Substituting: $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$ Hence $q^2 = 2k^2$.
 
 By the same argument, $q^2$ is even, so $q$ is even. But this contradicts $\gcd(p, q) = 1$ since
-Both $p$ and $q$ are divisible by 2. Therefore our assumption was false, and $\sqrt{2}$ is
+both $p$ and $q$ are divisible by 2. Therefore our assumption was false, and $\sqrt{2}$ is
 Irrational. $\blacksquare$
 
 _Lemma._ If $p^2$ is even, then $p$ is even.
@@ -121,7 +121,7 @@ $p^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$ Which is odd. $\blacksquare$
 
 _Intuition._ This proof exploits the structure of divisibility: the number 2 has a unique prime
 Factorisation, and squaring preserves parity. The contradiction arises because $2$ "forces" factors
-Of 2 into both $p$ and $q$ Making the fraction reducible.
+of 2 into both $p$ and $q$ Making the fraction reducible.
 
 <hr />
 
@@ -251,12 +251,12 @@ Where $\deg(r) < \deg(g)$ or $r(x) = 0$.
 
 _Intuition._ This is exactly analogous to integer division: $47 = 5 \times 9 + 2$ Where
 $0 \leq 2 < 5$. In polynomials, the "size" ordering is replaced by degree, and the remainder must
-Have smaller degree than the divisor.
+have smaller degree than the divisor.
 
 ### 4.2 Why Polynomial Division Mirrors Integer Long Division
 
 The structural analogy is deep. Both are instances of a _Euclidean domain_, an algebraic structure
-Where we can perform division with remainder. In $\mathbb{Z}$ The "degree" is the absolute value; In
+where we can perform division with remainder. In $\mathbb{Z}$ The "degree" is the absolute value; In
 $\mathbb{R}[x]$ The degree is the polynomial degree. The algorithm is the same: at each step,
 Eliminate the leading term.
 

@@ -1230,7 +1230,7 @@ the characteristic function is defined as: $$ \varphi_X(t) =
 \mathcal{H}
 
 $$
-Where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
+where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
 reduces to $\varphi_X(t) = \mathbb{E}\left[ e^{i t^\top X} \right]$ with
 $t \in \mathbb{R}^d$.
 
@@ -1989,7 +1989,7 @@ $p$-Wasserstein distance is:
 $$
 W_p(\mu, \nu) = \left( \inf_{\gamma \in \Pi(\mu, \nu)} \int_{S \times S} d(x, y)^p \, d\gamma(x, y) \right)^{1/p}
 $$
-Where $\Pi(\mu, \nu)$ is the set of joint distributions (couplings) with marginals $\mu$ and $\nu$.
+where $\Pi(\mu, \nu)$ is the set of joint distributions (couplings) with marginals $\mu$ and $\nu$.
 
 _Duality (for $p=1$):_ Via Kantorovich-Rubinstein,
 $W_1(\mu, \nu) = \sup \{ \mathbb{E}_\mu[f] - \mathbb{E}_\nu[f] : \lVert f \rVert_{\mathrm{Lip}} \leq 1 \}$.

@@ -147,7 +147,7 @@ Optimization:
 
 NRVO (Named Return Value Optimization) is a compiler optimization, not a language guarantee. It
 Applies when a function returns a **named local variable** by value, and the compiler constructs
-That variable directly in the caller's storage.
+that variable directly in the caller's storage.
 
 ```cpp
 #include <iostream>
@@ -298,7 +298,7 @@ NRVO fails, falls back to move:
 ### The Implicit Move Rule
 
 When NRVO does not apply and a named local variable is returned, the compiler treats the return as
-If the variable were cast to an rvalue reference. This is called the **implicit move rule** [N4950
+if the variable were cast to an rvalue reference. This is called the **implicit move rule** [N4950
 S11.9.6]/1:
 
 > When the criteria for elision of a copy/move operation are met or would be met save for the fact
@@ -317,7 +317,7 @@ Widget f() {
 ```
 
 The implicit move rule ensures that even when NRVO fails, the move constructor is used instead of
-The copy constructor (assuming a move constructor exists). This is a significant performance win
+the copy constructor (assuming a move constructor exists). This is a significant performance win
 Compared to C++11's early days, where NRVO failure meant a copy.
 
 ### NRVO Failure and the Copy Constructor
@@ -367,7 +367,7 @@ When returning a local variable from a function, the compiler tries each strateg
 :::caution
 Prevents NRVO from applying (because `std::move(local)` is an xvalue, not a named local variable)
 And forces a move. Let the compiler apply NRVO or implicit move automatically. The only correct use
-Of `std::move` in a return statement is when returning a member variable or a function parameter.
+of `std::move` in a return statement is when returning a member variable or a function parameter.
 :::
 
 ### Decision Table: RVO Applicability
@@ -441,7 +441,7 @@ NRVO works by constructing the named local variable directly in the return slot.
 The compiler must be able to prove that every use of the local variable can be redirected to the
 Return slot. When you write `return std::move(local)`The return expression is no longer the named
 Variable `local`it is an xvalue produced by `std::move(local)`. The compiler can no longer prove
-That the local variable and the return expression refer to the same object, so NRVO is inhibited.
+that the local variable and the return expression refer to the same object, so NRVO is inhibited.
 
 Furthermore, `std::move` is never an optimization in a return statement because the implicit move
 Rule already applies when NRVO fails. Writing `return std::move(local)` is always a pessimization:
@@ -577,7 +577,7 @@ int main() {
 
 Guaranteed copy elision applies across inheritance hierarchies. When a prvalue of derived type is
 Used to initialize a base-type variable, the elision does NOT apply (because the types differ), and
-The copy/move constructor is called. But when the types match, elision applies normally:
+the copy/move constructor is called. But when the types match, elision applies normally:
 
 ```cpp
 #include <iostream>
@@ -616,10 +616,10 @@ int main() {
 When `Base b = Derived{};` is evaluated, the types of the source (prvalue `Derived{}`) and the
 Destination (`Base b`) differ. Guaranteed copy elision requires that the prvalue type and the
 Destination type are the same [N4950 S8.4.4]/1. Since they differ, the prvalue must be materialized
-Into a temporary `Derived` object, and then the `Base` constructor is invoked to slice it.
+into a temporary `Derived` object, and then the `Base` constructor is invoked to slice it.
 
 This is not a limitation of the optimization, it is a semantic requirement. The `Derived` object
-Has a different layout than the `Base` object. The compiler must construct the full `Derived` object
+has a different layout than the `Base` object. The compiler must construct the full `Derived` object
 (including its vtable pointer) before extracting the `Base` subobject.
 
 ## 8.8 RVO and `std::optional`
@@ -662,7 +662,7 @@ int main() {
 
 Before C++17, a prvalue was a temporary object. C++17 changed the language so that a prvalue is
 Merely an **initializer**, a recipe for constructing an object. The object is not materialized
-Until it is needed [N4950 S7.2.1]. This is why `return Widget{42}` does not create a temporary: the
+until it is needed [N4950 S7.2.1]. This is why `return Widget{42}` does not create a temporary: the
 Prvalue `Widget{42}` is just instructions for constructing a `Widget`And those instructions are
 Applied directly to the return slot.
 
@@ -690,7 +690,7 @@ int main() {
 ### Pre-C++17: Elision Was Optional
 
 Before C++17, RVO was an optimization. The compiler was **permitted** but not **required** to elide
-The copy. The Standard specified the conditions under which elision was allowed [pre-C++17
+the copy. The Standard specified the conditions under which elision was allowed [pre-C++17
 S12.8/31], but it was always optional. This meant:
 
 1. Code that relied on RVO for correctness (e.g., types with deleted copy/move constructors) was not
@@ -710,7 +710,7 @@ ABI-level behavior a language-level guarantee.
 
 On platforms that use a different ABI (e.g., MSVC on Windows), the same guarantee applies in C++17,
 Even if the underlying calling convention is different. The Standard's guarantee is independent of
-The ABI.
+the ABI.
 
 ## 8.10 NRVO and Debug Builds
 
@@ -814,7 +814,7 @@ int main() {
 
 This is not directly related to RVO, but it is a related pitfall involving prvalue returns and
 Temporary lifetimes. The `std::initializer_list` object itself can be RVO'd, but the backing array
-It references is a temporary whose lifetime does not extend past the function return.
+it references is a temporary whose lifetime does not extend past the function return.
 
 ## Common Pitfalls
 
@@ -940,7 +940,7 @@ int main() {
 NRVO is not guaranteed. If your code relies on NRVO to avoid calling a move constructor that has
 Observable side effects (e.g., releasing a lock, logging), your code is non-portable. The only
 Guaranteed elision is URVO (prvalue returns). For named returns, always ensure your move constructor
-Is correct.
+is correct.
 
 import { Citation } from "@components/Citations.astro"
 

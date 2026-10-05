@@ -268,7 +268,7 @@ Applicable quantum numbers:
 ### Einstein's Equation
 
 When photons of frequency $f$ strike a metal surface, electrons are emitted only if $hf \gt \phi$
-Where $\phi$ is the work function of the metal.
+where $\phi$ is the work function of the metal.
 
 $$
 \boxed{hf = E_k^{\max} + \phi}

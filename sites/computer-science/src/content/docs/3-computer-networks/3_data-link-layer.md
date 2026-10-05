@@ -309,7 +309,7 @@ $\eta = T_f / (T_f + 5\tau) = 1 / (1 + 5a)$. $\blacksquare$
 
 When $a \ll 1$ (large frames or short distances), efficiency approaches 1. When $a$ approaches 1
 (short frames or long distances), efficiency drops significantly. This is why minimum frame sizes
-Are imposed.
+are imposed.
 
 ### 3.5 VLANs
 
@@ -346,7 +346,7 @@ Traffic.
 
 _Proof._ Circuit switching reserves the peak rate per connection. Packet switching uses statistical
 Multiplexing: the sum of peak rates can exceed link capacity as long as the average aggregate rate
-Does not. $\blacksquare$
+does not. $\blacksquare$
 
 **Switch forwarding methods.** A layer-2 switch can forward frames using two strategies:
 

@@ -18,7 +18,7 @@ description: "Psychology is a science because it uses empirical methods to inves
 ## The Scientific Method in Psychology
 
 Psychology is a science because it uses empirical methods to investigate questions about behaviour
-And mental processes. The scientific method in psychology involves a systematic cycle of
+and mental processes. The scientific method in psychology involves a systematic cycle of
 Observation, theory development, hypothesis formulation, data collection, analysis, and theory
 Revision.
 
@@ -56,7 +56,7 @@ Revision.
 
 Experiments are research designs in which the researcher manipulates one variable (the independent
 Variable) while measuring its effect on another variable (the dependent variable), while controlling
-For the influence of extraneous variables. Experiments are the only research design that can
+for the influence of extraneous variables. Experiments are the only research design that can
 Establish cause-and-effect relationships.
 
 | Type                  | Description                                                                                                                                      | Strengths                                                                                        | Limitations                                                                                                         |
@@ -68,8 +68,8 @@ Establish cause-and-effect relationships.
 
 **True experiment vs. Quasi-experiment:** A true experiment requires random assignment of
 Participants to conditions. Random assignment ensures that, on average, the groups are equivalent on
-All variables except the independent variable. Quasi-experiments lack random assignment and
-Therefore cannot establish causation with the same confidence.
+all variables except the independent variable. Quasi-experiments lack random assignment and
+therefore cannot establish causation with the same confidence.
 
 ### Non-Experimental Designs
 
@@ -144,7 +144,7 @@ Although this varies widely.
 ## Reliability
 
 Reliability refers to the consistency of a measure. A reliable measure produces the same results
-When applied repeatedly under the same conditions.
+when applied repeatedly under the same conditions.
 
 ### Types of Reliability
 
@@ -170,12 +170,12 @@ When applied repeatedly under the same conditions.
 ## Validity
 
 Validity refers to the extent to which a measure or study accurately assesses or investigates what
-It claims to assess or investigate.
+it claims to assess or investigate.
 
 ### Internal Validity
 
 Internal validity refers to the extent to which the observed effect on the DV can be attributed to
-The IV, rather than to confounding variables. Threats to internal validity include:
+the IV, rather than to confounding variables. Threats to internal validity include:
 
 - **Participant variables:** Individual differences between participants (e.g., age, intelligence,
   mood) that may affect the DV. Controlled through random assignment, matching, or within-subjects
@@ -192,7 +192,7 @@ The IV, rather than to confounding variables. Threats to internal validity inclu
 ### External Validity
 
 External validity refers to the extent to which the findings of a study can be generalised beyond
-The specific conditions of the study.
+the specific conditions of the study.
 
 - **Ecological validity:** The extent to which the findings can be generalised to real-world
   settings. Laboratory experiments have lower ecological validity than field experiments or
@@ -275,7 +275,7 @@ Research involving non-human animals is subject to additional ethical guidelines
 All psychological research must be reviewed and approved by an institutional ethics committee (or
 Institutional review board, IRB) before it is conducted. The ethics committee evaluates the study's
 Risk-benefit ratio, the adequacy of informed consent procedures, and the plans for data protection
-And debriefing.
+and debriefing.
 
 ## Quantitative Data Analysis
 

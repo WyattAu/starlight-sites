@@ -65,7 +65,7 @@ not force you to declare or handle them. Everything else is **checked**.
 | Example              | `IOException``SQLException`                  | `NullPointerException``IllegalArgumentException` |
 
 The pragmatic rule: use checked exceptions for conditions where the caller **reasonably can and
-Should** take corrective action. Use unchecked exceptions for programming errors and precondition
+should** take corrective action. Use unchecked exceptions for programming errors and precondition
 Violations.
 
 This is not a bright line. The Java standard library itself is inconsistent,
@@ -379,7 +379,7 @@ public class UserService {
 ```
 
 The rule: each layer should only throw exceptions meaningful to its callers. A service layer caller
-Should never see `SQLException` or `PersistenceException`.
+should never see `SQLException` or `PersistenceException`.
 
 ### Fail-fast vs Fail-safe
 
@@ -638,7 +638,7 @@ public void readFile() throws IOException;
 
 The exception table is a list of `(start_pc, end_pc, handler_pc, catch_type)` tuples. When an
 Exception is thrown, the JVM scans the exception table of the current method for a matching entry
-Where `start_pc &lt;= pc &lt; end_pc` and the thrown exception is assignable to `catch_type`. If no
+where `start_pc &lt;= pc &lt; end_pc` and the thrown exception is assignable to `catch_type`. If no
 Handler is found, the method frame is popped and the search continues in the caller.
 
 ### Stack Unwinding Mechanism
@@ -895,7 +895,7 @@ try {
 ```
 
 When `InterruptedException` is caught, the thread's interrupt flag is **automatically cleared**. If
-You do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
+you do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
 Cooperative cancellation in the caller breaks.
 
 ```mermaid

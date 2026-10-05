@@ -22,7 +22,7 @@ categories:
 ## Standard Library Concepts
 
 The `<concepts>` header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve
-As building blocks for user-defined constraints. These concepts cover core language relationships,
+as building blocks for user-defined constraints. These concepts cover core language relationships,
 Comparisons, object properties, callable requirements, type categories, and iterator hierarchies.
 Using standard library concepts instead of ad-hoc constraints ensures interoperability and correct
 Subsumption ordering.
@@ -436,7 +436,7 @@ int main() {
 
 `std::invocable<F, Args...>` checks that `F(Args...)` is a valid expression.
 `std::regular_invocable` adds the requirement that the invocation is equality-preserving, calling
-The same function with the same arguments produces the same result. This distinction matters for
+the same function with the same arguments produces the same result. This distinction matters for
 Pure functions vs functions with side effects:
 
 ```cpp
@@ -535,7 +535,7 @@ int main() {
 ### Pitfall 3: Concept Subsumption Order Matters for Overload Resolution
 
 When two overloads are constrained, the more specific constraint should subsume the less specific
-One. If constraints don't properly subsume, overload resolution becomes ambiguous:
+one. If constraints don't properly subsume, overload resolution becomes ambiguous:
 
 ```cpp
 #include <iostream>

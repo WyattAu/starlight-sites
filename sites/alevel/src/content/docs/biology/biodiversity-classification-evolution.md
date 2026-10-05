@@ -30,7 +30,7 @@ categories:
 
 **Definition.** **Biodiversity** is the variety of life at every level of biological organisation:
 Genetic diversity within species, species diversity within communities, and ecosystem diversity
-Across landscapes.
+across landscapes.
 
 Biodiversity encompasses three hierarchical levels:
 
@@ -50,7 +50,7 @@ Species diversity has two components:
 - **Species evenness**: how evenly individuals are distributed among species.
 
 A community with high richness and high evenness has higher diversity than one with high richness
-But low evenness (where one or a few species dominate).
+but low evenness (where one or a few species dominate).
 
 ### 1.3 Simpson's Index of Diversity
 
@@ -145,7 +145,7 @@ Revealed fundamental molecular differences between groups previously lumped toge
 | Eukarya  | Eukaryotic  | Cellulose (plants), chitin (fungi) | Unbranched, ester-linked | Distinct type |
 
 Archaea are more closely related to Eukarya than to Bacteria, despite their superficial similarity
-To bacteria.
+to bacteria.
 
 ### 2.3 Phylogeny and Cladistics
 
@@ -166,7 +166,7 @@ A **cladogram** is constructed by comparing homologous characteristics:
   some but not all members. Used to define clades.
 
 The principle of **parsimony** is applied: the cladogram requiring the fewest evolutionary changes
-Is preferred.
+is preferred.
 
 :::caution
 Structures** share a common evolutionary origin (e.g., the pentadactyl limb in mammals, birds,
@@ -198,7 +198,7 @@ This is **evolution by natural selection**.
 
 **Directional selection**: one extreme phenotype is favoured, shifting the population mean in one
 Direction. Example: antibiotic resistance in bacteria; industrial melanism in peppered moths during
-The Industrial Revolution.
+the Industrial Revolution.
 
 **Stabilising selection**: intermediate phenotypes are favoured; extremes are selected against.
 Example: human birth weight (very low or very high birth weight is associated with higher infant
@@ -278,7 +278,7 @@ The total number of possible genotypic combinations from meiosis and random fert
 
 The Hardy-Weinberg equilibrium describes a theoretical population in which allele frequencies do not
 Change from generation to generation. For a gene with two alleles, $A$ and $a$ With frequencies $p$
-And $q$:
+and $q$:
 
 $$
 p + q = 1
@@ -459,7 +459,7 @@ $$
 Where $O$ = observed frequency and $E$ = expected frequency under H-W.
 
 Degrees of freedom for a gene with $n$ alleles: $\mathrm{df} = \frac{n(n+1)}{2} - 1 - k$ Where $k$ is
-The number of allele frequencies estimated from the data. For a two-allele system where both $p$ and
+the number of allele frequencies estimated from the data. For a two-allele system where both $p$ and
 $q$ Are estimated: $\mathrm{df} = 3 - 1 - 1 = 1$.
 
 **Worked Example.** In a population of 1000, the observed genotypes for a two-allele system are:
@@ -570,7 +570,7 @@ Which reduces the evenness component.
 <summary>Problem 2</summary>
 In a population of snapdragons, the allele for red flowers ($R$) is incompletely dominant over the
 Allele for white flowers ($W$). Heterozygotes ($RW$) are pink. In a population of 1000 plants, 640
-Are red, 200 are pink, and 160 are white. Use the Hardy-Weinberg principle to calculate the allele
+are red, 200 are pink, and 160 are white. Use the Hardy-Weinberg principle to calculate the allele
 Frequencies and determine whether the population is in equilibrium.
 
 **Answer.** Total alleles: $N = 2000$.
@@ -600,7 +600,7 @@ Explain the difference between allopatric and sympatric speciation, giving an ex
 Population into two groups, preventing gene flow. Each group experiences different selection
 Pressures and accumulates different mutations independently. Over many generations, the populations
 Diverge until they are reproductively isolated. Example: the Kaibab squirrel and Abert's squirrel
-Were separated by the Grand Canyon and have evolved into distinct species. Sympatric speciation
+were separated by the Grand Canyon and have evolved into distinct species. Sympatric speciation
 Occurs without geographic separation. Example: polyploidy in plants -- a mutation causes chromosome
 Duplication, producing an individual with four sets of chromosomes. This individual can
 Self-fertilise or reproduce with other polyploid individuals, but cannot interbreed with the
@@ -709,7 +709,7 @@ Two species of finch live on the same island. Species A has a large, strong beak
 Seeds. Species B has a small, slender beak and feeds on small seeds and insects. (a) Explain how
 Resource partitioning allows these two species to coexist. (b) A drought kills all plants that produce
 Small seeds, leaving only hard-seeded plants. Predict the effect on each species and explain in terms
-Of natural selection. (c) After the drought, a hybrid individual is observed with an intermediate beak
+of natural selection. (c) After the drought, a hybrid individual is observed with an intermediate beak
 Size. Explain why this hybrid is likely to have reduced fitness.
 
 **Answer.** (a) The two species exploit different food resources (resource partitioning), reducing
@@ -719,8 +719,8 @@ Species to occupy the same habitat without violating the competitive exclusion p
 
 (b) The drought eliminates the food source of Species B (small seeds and possibly the insects that
 Depend on small-seed plants). Species B will decline due to starvation (strong directional selection
-Against its small-beaked phenotype). Species A, which feeds on hard seeds, is unaffected by the loss
-Of small seeds and may increase as competition from Species B is reduced.
+against its small-beaked phenotype). Species A, which feeds on hard seeds, is unaffected by the loss
+of small seeds and may increase as competition from Species B is reduced.
 
 (c) The hybrid with an intermediate beak size would be poorly adapted to either food source: the
 beak Is too small to efficiently crack hard seeds (the only food remaining), and the small seeds and

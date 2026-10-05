@@ -121,7 +121,7 @@ Relation has at least one candidate key (if it is a proper set).
 ### Primary Key
 
 The primary key is the candidate key chosen by the database designer as the principal identifier. It
-Is a design choice, not a mathematical property. Convention:
+is a design choice, not a mathematical property. Convention:
 
 - Choose a stable, never-changing attribute (not email, not phone number)
 - Prefer single-column keys for simplicity
@@ -131,7 +131,7 @@ Is a design choice, not a mathematical property. Convention:
 
 A foreign key is a set of attributes in one relation that references the primary key of another
 Relation. It enforces referential integrity: every value of the foreign key must exist as a value of
-The referenced primary key (or be NULL).
+the referenced primary key (or be NULL).
 
 ```sql
 CREATE TABLE orders (
@@ -157,7 +157,7 @@ Referential actions:
 ### Composite Key
 
 A composite key is a primary key consisting of two or more attributes. Common in association tables
-And many-to-many relationships:
+and many-to-many relationships:
 
 ```sql
 CREATE TABLE enrollment (
@@ -173,7 +173,7 @@ CREATE TABLE enrollment (
 ## Relational Algebra
 
 Relational algebra provides a formal set of operations for manipulating relations. Every SQL query
-Is an expression in relational algebra (with extensions). Understanding these operations helps you
+is an expression in relational algebra (with extensions). Understanding these operations helps you
 Reason about query correctness and performance.
 
 ### Selection (sigma)
@@ -431,7 +431,7 @@ Fix: split into:
 
 A relation is in 3NF if it is in 2NF and no non-prime attribute is transitively dependent on any
 Candidate key. Equivalently, for every non-trivial FD $X \rightarrow A$ where $A$ is non-prime, $X$
-Must be a superkey.
+must be a superkey.
 
 ```text
 R(emp_id, name, dept_id, dept_name, dept_location)
@@ -471,7 +471,7 @@ Fix: split into:
 
 :::caution
 Relation from the decomposed relations without losing information). In such cases, staying in 3NF is
-The practical compromise.
+the practical compromise.
 
 ### Fourth Normal Form (4NF)
 
@@ -496,7 +496,7 @@ Fix: split into:
 
 A relation is in 5NF if it cannot be decomposed into smaller relations without losing information
 (no join dependency that is not implied by candidate keys). This is the "final" normal form in terms
-Of dependency theory.
+of dependency theory.
 
 In practice, 5NF violations are rare. They arise when a relation encodes a constraint that cannot be
 Expressed as a functional or multivalued dependency, such as a cyclic ternary relationship.
@@ -543,7 +543,7 @@ Denormalised:
 
 :::tip
 Denormalise specific bottlenecks. Premature denormalisation creates maintenance burden that is far
-More expensive than the joins it eliminates.
+more expensive than the joins it eliminates.
 
 ## ER Diagrams
 
@@ -616,7 +616,7 @@ Codd's rules are like the principles of good governance. They define what a rela
 ### Using Natural Keys When Surrogate Keys Are Appropriate
 
 A natural key like email address or national ID number may seem appealing, but it creates problems
-When the value changes (requiring cascading updates across all referencing tables) or when the
+when the value changes (requiring cascading updates across all referencing tables) or when the
 Domain is not truly unique (two people share an email during a migration). Surrogate keys
 (`BIGSERIAL``UUID`) are stable, never change, and simplify joins.
 
@@ -624,7 +624,7 @@ Domain is not truly unique (two people share an email during a migration). Surro
 
 Splitting tables too aggressively (e.g., creating a separate table for every attribute "just in
 Case") makes even simple queries require joins. If a group of attributes always appears together and
-Is always updated together, they likely belong in the same table.
+is always updated together, they likely belong in the same table.
 
 ### Ignoring Functional Dependencies in Application Code
 
@@ -641,14 +641,14 @@ Subtle bugs in WHERE clauses, JOIN conditions, and CHECK constraints.
 ### Not Declaring Foreign Keys
 
 Some teams omit foreign key constraints for "performance reasons." The cost of a foreign key check
-On insert/update is negligible compared to the cost of orphaned rows, inconsistent data, and the
+on insert/update is negligible compared to the cost of orphaned rows, inconsistent data, and the
 Debugging time required to find them. Only omit foreign keys if you have a proven, measured reason
-And a compensating data integrity mechanism.
+and a compensating data integrity mechanism.
 
 ### Using SELECT \* in Application Code
 
 `SELECT *` breaks when columns are added, reordered, or renamed. It transfers unnecessary data over
-The network. It prevents the query planner from using covering indexes. Always list the columns you
+the network. It prevents the query planner from using covering indexes. Always list the columns you
 Need explicitly.
 
 ### Treating Multi-Valued Attributes as Single Columns
@@ -772,7 +772,7 @@ Decompose into R1(A, B) and R1(A, C):
 ### Dependency Preservation
 
 A decomposition is **dependency-preserving** if every functional dependency in the original set can
-Be checked by examining only the decomposed relations (without joining them back together).
+be checked by examining only the decomposed relations (without joining them back together).
 
 Not every lossless decomposition is dependency-preserving, and not every dependency-preserving
 Decomposition is lossless. The goal is to achieve both.
@@ -789,7 +789,7 @@ Decompose into R1(A, B) and R1(A, C):
 ```
 
 When a BCNF decomposition is not dependency-preserving, you have a choice: stay in 3NF (which always
-Has a dependency-preserving, lossless decomposition) or accept the non-dependency-preserving BCNF
+has a dependency-preserving, lossless decomposition) or accept the non-dependency-preserving BCNF
 Decomposition and enforce the lost dependency through application logic or triggers.
 
 ### Join Dependencies and 5NF Revisited
@@ -886,7 +886,7 @@ Step 8: BCNF? All determinants are superkeys. ✓
 ```
 
 This systematic approach prevents the common mistake of over-normalising (splitting tables that have
-No redundancy) or under-normalising (leaving transitive dependencies that cause update anomalies).
+no redundancy) or under-normalising (leaving transitive dependencies that cause update anomalies).
 
 ## Worked Examples
 

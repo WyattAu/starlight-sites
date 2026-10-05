@@ -304,7 +304,7 @@ Reading frame: TGG CAT ACC AG...
 Amino acids: Trp - His - Thr - ...
 
 The reading frame has shifted, and every amino acid after the deletion is different. The protein
-Will almost certainly lose its function.
+will almost certainly lose its function.
 
 ### Genetic Engineering
 
@@ -536,8 +536,8 @@ Fidelity.
 
 DNA polymerase can only add nucleotides in the 5' to 3' direction. Since the two strands of DNA are
 Antiparallel, only one strand (the leading strand) can be synthesised continuously in the direction
-Of the replication fork. The other strand (the lagging strand) must be synthesised discontinuously
-In short fragments called Okazaki fragments, each initiated by an RNA primer. The RNA primers are
+of the replication fork. The other strand (the lagging strand) must be synthesised discontinuously
+in short fragments called Okazaki fragments, each initiated by an RNA primer. The RNA primers are
 Later removed and replaced with DNA, and the fragments are joined by DNA ligase.
 
 **Proofreading:** DNA polymerase III has 3' to 5' exonuclease activity, meaning it can detect and
@@ -615,7 +615,7 @@ Used to insert a gene of interest into a plasmid vector.
 
 **Gel electrophoresis:** Separates DNA fragments by size. Smaller fragments move faster through the
 Agarose gel and travel further. DNA fragments can be visualised using a fluorescent dye that binds
-To DNA. This technique is used in DNA fingerprinting, analysing PCR products, and checking the
+to DNA. This technique is used in DNA fingerprinting, analysing PCR products, and checking the
 Success of restriction enzyme digestion.
 
 **Worked Example: Designing a genetic engineering experiment.**
@@ -793,7 +793,7 @@ In the population. The most fit genotype has $w = 1$; less fit genotypes have $w
 **Worked Example: Selection against a recessive allele.**
 
 In a population, the recessive allele $a$ has frequency $q = 0.4$. Individuals with genotype $aa$
-Have reduced fitness ($w = 0.5$ So $s = 0.5$).
+have reduced fitness ($w = 0.5$ So $s = 0.5$).
 
 After one generation of selection:
 

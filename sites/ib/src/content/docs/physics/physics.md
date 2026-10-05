@@ -37,7 +37,7 @@ Additional material in greater depth.
 
 The syllabus is organised into five thematic areas, labelled A through E. Each theme contains core
 Material studied at both SL and HL, with additional AHL (Additional Higher Level) extension content
-For HL students. The course also includes a practical programme culminating in the Internal
+for HL students. The course also includes a practical programme culminating in the Internal
 Assessment (IA).
 
 | Theme | Title                            | SL Sub-topics | AHL Sub-topics |
@@ -315,7 +315,7 @@ The work done **on** the gas is $345$ J (positive, since volume decreases).
 ### Worked Example: Series and Parallel Circuits (B.4)
 
 A 12.0 V battery with negligible internal resistance is connected to two resistors: $R_1 = 4.0$ ohms
-In series with a parallel combination of $R_2 = 6.0$ ohms and $R_3 = 3.0$ ohms. Find (a) the total
+in series with a parallel combination of $R_2 = 6.0$ ohms and $R_3 = 3.0$ ohms. Find (a) the total
 Resistance, (b) the current from the battery, (c) the potential difference across $R_1$ And (d) the
 Current through $R_2$.
 
@@ -452,7 +452,7 @@ Acceleration of the mass.
 ### Worked Example: Simple Pendulum (C.1)
 
 A simple pendulum has a length of $1.50$ m. Calculate its period on Earth ($g = 9.81$ m/s$^2$) and
-On the Moon ($g = 1.62$ m/s$^2$). If the pendulum has an amplitude of $0.10$ m, what is the maximum
+on the Moon ($g = 1.62$ m/s$^2$). If the pendulum has an amplitude of $0.10$ m, what is the maximum
 Speed on Earth?
 
 <details>
@@ -472,7 +472,7 @@ The period of a simple pendulum is independent of mass -- a key result to rememb
 ### Worked Example: Standing Waves in Pipes (C.5, HL)
 
 A pipe of length $0.85$ m is open at both ends. The speed of sound in air is $340$ m/s. Determine
-The fundamental frequency and the frequency of the second harmonic. Repeat for a pipe of the same
+the fundamental frequency and the frequency of the second harmonic. Repeat for a pipe of the same
 Length that is closed at one end.
 
 <details>
@@ -529,7 +529,7 @@ Number of bright fringes visible on each side of the central maximum.
 ## Theme D: Fields
 
 This theme covers gravitational, electric, and magnetic fields, and the electromagnetic interactions
-Between charged particles and masses.
+between charged particles and masses.
 
 **SL content includes:**
 
@@ -651,7 +651,7 @@ magnitude Of the induced emf.
 ### Worked Example: Gravitational Potential and Escape Speed (D.1, HL)
 
 Calculate the gravitational potential at a point $3.0 \times 10^7$ m from the centre of the Earth
-And the escape speed from this altitude. ($M_E = 5.97 \times 10^{24}$ kg.)
+and the escape speed from this altitude. ($M_E = 5.97 \times 10^{24}$ kg.)
 
 <details>
 <summary>Solution</summary>
@@ -890,7 +890,7 @@ Carry significant marks:
 ### Spaced Revision Approach
 
 A proven approach for IB Physics revision is to cycle through topics in increasing depth over
-Several weeks:
+several weeks:
 
 1. **Weeks 1--4 (Foundation):** Read through all topic notes. Create a one-page formula summary per
    theme. Focus on understanding concepts, not memorising.

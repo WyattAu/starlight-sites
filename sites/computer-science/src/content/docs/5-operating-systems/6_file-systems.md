@@ -67,7 +67,7 @@ A file of 10 blocks is stored on a disk. The disk has blocks at positions: 0 (fr
 (free), 6 (used), 7-9 (free), 10-15 (free), 16 (used), 17-31 (free).
 
 _Contiguous:_ Needs 10 consecutive free blocks. Largest free run is 16-31 (16 blocks). File stored
-At blocks 17--26. Access to block $k$: position $17 + k$.
+at blocks 17--26. Access to block $k$: position $17 + k$.
 
 _Linked:_ Blocks can be scattered. E.g., 2, 3, 4, 5, 7, 8, 9, 10, 11, 12. To read block 7, must
 Traverse 7 pointers.

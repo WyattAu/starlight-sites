@@ -32,7 +32,7 @@ Classical mechanics and statistical physics.
 ### Temperature Scales (OL/HL)
 
 Temperature is a measure of the average kinetic energy of the particles in a substance. Three scales
-Are commonly used:
+are commonly used:
 
 | Scale                          | Boiling point of water | Freezing point of water | Absolute zero |
 | ------------------------------ | ---------------------- | ----------------------- | ------------- |
@@ -79,7 +79,7 @@ has more energy to give.
 
 When two objects at different temperatures are placed in contact, heat flows from the hotter to the
 Colder until they reach the same temperature. At this point they are in **thermal equilibrium**, and
-No net heat transfer occurs. The zeroth law of thermodynamics formalises this: if A is in thermal
+no net heat transfer occurs. The zeroth law of thermodynamics formalises this: if A is in thermal
 Equilibrium with B, and B with C, then A is in thermal equilibrium with C.
 
 ## Specific Heat Capacity (OL/HL)
@@ -94,7 +94,7 @@ $$
 Where $Q$ is the heat energy transferred, $m$ is the mass, and $\Delta T$ is the temperature change.
 
 The unit of $c$ is $\mathrm{J/(kg K)$ or $\mathrm{J/(kg °C)$ -- these are numerically identical
-Because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
+because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 
 | Substance | $c$ (J/kg K) |
 | --------- | ------------ |
@@ -107,7 +107,7 @@ Because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 
 Water has an unusually high specific heat capacity, which is why it is effective as a coolant and
 Why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
-Of energy with relatively small temperature changes).
+of energy with relatively small temperature changes).
 
 ### Why Different Substances Have Different Specific Heat Capacities
 
@@ -202,7 +202,7 @@ This value is close to that of aluminium.
 ## Latent Heat (OL/HL)
 
 When a substance changes phase (solid to liquid, or liquid to gas), energy is transferred without
-Any change in temperature. This energy is called **latent heat** (from the Latin "latent" meaning
+any change in temperature. This energy is called **latent heat** (from the Latin "latent" meaning
 "hidden").
 
 ### Why Temperature Does Not Change During Phase Transitions
@@ -225,7 +225,7 @@ $$
 ### Specific Latent Heat of Vaporisation
 
 The specific latent heat of vaporisation $L_v$ is the energy required to change 1 kg of a substance
-From liquid to gas at its boiling point:
+from liquid to gas at its boiling point:
 
 $$
 Q = mL_v
@@ -287,7 +287,7 @@ $100^\circ\mathrm{C$ And this Energy is released when the steam condenses on the
 ## Gas Laws
 
 The gas laws describe the macroscopic behaviour of gases. They were established experimentally and
-Can be derived from kinetic theory.
+can be derived from kinetic theory.
 
 ### Boyle's Law (OL/HL)
 
@@ -371,7 +371,7 @@ An ideal gas is a theoretical gas in which:
 - All collisions are perfectly elastic.
 
 Real gases approximate ideal behaviour at low pressures and high temperatures, when the molecules
-Are far apart and moving fast. At high pressures and low temperatures, deviations occur due to
+are far apart and moving fast. At high pressures and low temperatures, deviations occur due to
 Intermolecular forces and the finite size of molecules.
 
 ### Alternative Forms
@@ -486,8 +486,8 @@ $$
 $$
 
 This is a crucial result: the average translational kinetic energy of a gas molecule is proportional
-To the absolute temperature and depends only on temperature. It provides the microscopic definition
-Of temperature.
+to the absolute temperature and depends only on temperature. It provides the microscopic definition
+of temperature.
 
 ### Root Mean Square Speed
 
@@ -631,7 +631,7 @@ Q_{\mathrm{net} = W_{\mathrm{net}
 $$
 
 The net work done by the system equals the net heat absorbed. On a $pV$ diagram, the net work equals
-The area enclosed by the cycle.
+the area enclosed by the cycle.
 
 ### Second Law
 
@@ -666,7 +666,7 @@ Where $T_H$ is the hot reservoir temperature and $T_C$ is the cold reservoir tem
 Kelvin).
 
 No real engine can exceed this efficiency. The Carnot efficiency depends only on the temperatures of
-The two reservoirs, not on the working substance.
+the two reservoirs, not on the working substance.
 
 **Example (HL):** A heat engine operates between $600\mathrm{ K$ and $300\mathrm{ K$. Find the
 maximum Possible efficiency.
@@ -698,7 +698,7 @@ $$
 ### Entropy (HL)
 
 Entropy $S$ is a thermodynamic state function that quantifies the degree of disorder or the number
-Of microscopic configurations (microstates) corresponding to a given macroscopic state.
+of microscopic configurations (microstates) corresponding to a given macroscopic state.
 
 For a reversible process at temperature $T$ The entropy change is:
 
@@ -743,7 +743,7 @@ Heat can be transferred by three mechanisms: conduction, convection, and radiati
 ### Conduction (OL/HL)
 
 Conduction is the transfer of heat through a material without bulk motion of the material. It occurs
-Through molecular vibrations (in all materials) and free electron drift (in metals, which is why
+through molecular vibrations (in all materials) and free electron drift (in metals, which is why
 Metals are generally good conductors).
 
 Fourier's law of heat conduction:
@@ -808,7 +808,7 @@ The power radiated is proportional to $T^4$ Which means small temperature increa
 Temperatures produce enormous increases in radiated power. This is why stars are so luminous.
 
 For a real body (not a perfect black body), the emissivity $\varepsilon$ (between 0 and 1) accounts
-For the deviation from ideal behaviour:
+for the deviation from ideal behaviour:
 
 $$
 P = \varepsilon \sigma A T^4

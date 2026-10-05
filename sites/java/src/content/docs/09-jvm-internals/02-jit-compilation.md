@@ -51,7 +51,7 @@ Sooner after they become hot. The compiled code is good but not optimal.
 **C2 (Server Compiler)**: Optimizes for maximum performance. Performs aggressive optimizations
 (escape analysis, loop unrolling, global value numbering, range check elimination). Compilation is
 Slow (seconds), so methods must be very hot before C2 compiles them. The compiled code is
-Near-optimal.
+near-optimal.
 
 ### Tiered Compilation
 
@@ -98,13 +98,13 @@ Compiles at 10000-15000 invocations (exact values depend on the JVM version and 
 ### Back-Edge Counters (OSR)
 
 Loops are the primary performance bottleneck in most programs. A method with a long-running loop
-Might never be called enough times to cross the invocation threshold, but the loop body executes
+might never be called enough times to cross the invocation threshold, but the loop body executes
 Millions of times. The back-edge counter counts each iteration of a loop (each time control jumps
 Back to the loop header).
 
 When the back-edge counter crosses the threshold, the JVM performs **On-Stack Replacement (OSR)**:
 It compiles the loop body while the loop is still executing and replaces the interpreted loop with
-The compiled version mid-execution. The stack frame is rewritten to continue execution in the
+the compiled version mid-execution. The stack frame is rewritten to continue execution in the
 Compiled code.
 
 ```java
@@ -119,8 +119,8 @@ public void hotLoop() {
 ```
 
 OSR is why Java programs "warm up": the first few iterations run interpreted, then the JIT kicks in
-And subsequent iterations run at full native speed. The transition is seamless -- the loop index and
-All local variables are preserved.
+and subsequent iterations run at full native speed. The transition is seamless -- the loop index and
+all local variables are preserved.
 
 ### Counter Decay
 
@@ -239,7 +239,7 @@ for (int i = 0; i &lt; 1000; i += 4) {
 ```
 
 C2 performs loop unrolling based on heuristics: the loop body must be small, the iteration count
-Must be known (or predictable), and unrolling must not increase code size beyond the benefit. The
+must be known (or predictable), and unrolling must not increase code size beyond the benefit. The
 Unroll factor is controlled by `-XX:LoopUnrollLimit`.
 
 ### Dead Code Elimination
@@ -347,7 +347,7 @@ When deoptimization is triggered:
 5. Execution continues in the interpreter from the point where the invalid assumption was detected.
 
 This process is called "unpacking" and it is relatively expensive (microseconds per frame), but it
-Only happens when the profiling assumptions change, which is rare in steady-state execution.
+only happens when the profiling assumptions change, which is rare in steady-state execution.
 
 ### Deoptimization Points
 
@@ -358,7 +358,7 @@ Safepoint.
 
 Rarely, a deoptimization is "urgent" (e.g., a field was modified and the compiled code reads stale
 Data). In this case, the JVM can force deoptimization at the next safepoint poll, which is inserted
-At method calls, loop back edges, and return points.
+at method calls, loop back edges, and return points.
 
 ## AOT Compilation: GraalVM Native Image
 
@@ -366,7 +366,7 @@ At method calls, loop back edges, and return points.
 
 GraalVM Native Image performs ahead-of-time (AOT) compilation: it analyzes your application at build
 Time, determines the closed-world set of classes and methods that are reachable, and compiles them
-To a standalone native executable. There is no JIT at runtime -- all code is already native machine
+to a standalone native executable. There is no JIT at runtime -- all code is already native machine
 Code.
 
 ```bash
@@ -557,7 +557,7 @@ When profiling for performance:
 
 Do not optimize based on speculation. Profile first, identify the actual bottleneck, then optimize.
 The JIT compiler is already doing most of the optimizations you would think of (and many you would
-Not). Micro-optimizations that fight the JIT (like manually inlining, adding redundant null checks,
+not). Micro-optimizations that fight the JIT (like manually inlining, adding redundant null checks,
 Or unrolling loops) are counterproductive.
 
 ### Megamorphic Call Sites

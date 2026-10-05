@@ -620,7 +620,7 @@ Report. Undocumented analysis steps are not defensible in court.
 ### Ignoring Volatile Evidence
 
 Volatile evidence (RAM, network state, running processes) is lost when the system is powered off. If
-You pull the plug before acquiring RAM, you lose one of the most valuable evidence sources
+you pull the plug before acquiring RAM, you lose one of the most valuable evidence sources
 (encryption keys, running malware, network connections).
 
 ### Trusting System Clocks

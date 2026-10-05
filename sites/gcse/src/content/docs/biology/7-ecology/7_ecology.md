@@ -149,8 +149,8 @@ $$
   nutrients would be locked in dead material indefinitely.
 
 A **food web** shows many interconnected food chains in an ecosystem. Food webs are more realistic
-Than food chains because most organisms eat more than one type of food and are eaten by more than
-One type of predator.
+than food chains because most organisms eat more than one type of food and are eaten by more than
+one type of predator.
 
 ### 2.2 Trophic Levels
 
@@ -348,7 +348,7 @@ Optimum, the enzymes denature and decomposition slows.
 The nitrogen cycle describes how nitrogen is converted between different chemical forms and
 Circulates through the ecosystem. Nitrogen is essential for making amino acids and proteins, DNA,
 And other biomolecules, but most organisms cannot use atmospheric nitrogen ($\mathrm{N_2$) directly
-Because the triple bond between the two nitrogen atoms is very strong.
+because the triple bond between the two nitrogen atoms is very strong.
 
 **Key processes:**
 
@@ -417,7 +417,7 @@ Habitat 1: Species A (90), Species B (5), Species C (5). Total: 100. Species ric
 Habitat 2: Species A (34), Species B (33), Species C (33). Total: 100. Species richness: 3.
 
 Both habitats have the same species richness (3 species), but Habitat 2 has higher biodiversity
-Because the species are more evenly distributed.
+because the species are more evenly distributed.
 
 Habitat 1:
 $D = \frac{100 \times 99}{90 \times 89 + 5 \times 4 + 5 \times 4} = \frac{9900}{8010 + 20 + 20} = \frac{9900}{8050} = 1.23$
@@ -697,7 +697,7 @@ Conditions).
 **Worked Example: Carbon in a food chain.**
 
 A food chain consists of grass $\to$ rabbit $\to$ fox. Assume 10% efficiency of energy transfer at
-Each trophic level. If the grass fixes 50,000 kJ of carbon (as glucose) per day through
+each trophic level. If the grass fixes 50,000 kJ of carbon (as glucose) per day through
 Photosynthesis:
 
 1. Energy available to rabbits: $50,000 \times 0.10 = 5,000$ kJ/day.
@@ -707,7 +707,7 @@ Photosynthesis:
 
 This means 99% of the energy fixed by photosynthesis is lost before reaching the fox. This
 Illustrates why food chains are limited to a few trophic levels and why ecosystems can support far
-More herbivores than carnivores.
+more herbivores than carnivores.
 
 ## 7. Higher Tier: Peat Bogs and Climate Change
 
@@ -719,13 +719,13 @@ Decomposition is very slow, and carbon accumulates over thousands of years.
 
 **Why peat bogs are carbon stores:** Peat bogs cover only about 3% of the Earth's land surface but
 Store approximately 30% of all soil carbon. This makes them one of the most important carbon stores
-On the planet.
+on the planet.
 
 **The problem:** When peat bogs are drained for agriculture (e.g., for palm oil plantations in
 Southeast Asia) or harvested for fuel, the peat is exposed to air. Aerobic decomposition resumes,
 And the stored carbon is released as $\mathrm{CO_2$. Drained tropical peatlands are estimated to
 Release approximately 1.5 billion tonnes of $\mathrm{CO_2$ per year, making them a major contributor
-To climate change.
+to climate change.
 
 **Conservation:** Protecting and restoring peat bogs is an important strategy for mitigating climate
 Change. Rewetting drained peatlands can stop the release of stored carbon and allow the bogs to
@@ -771,8 +771,8 @@ Land use change is one of the most significant drivers of biodiversity loss worl
 
 **Deforestation for agriculture:** Tropical rainforests are cleared for cattle ranching and soya
 Production. Rainforests contain an estimated 50% of all species on Earth, despite covering only
-About 6% of the land surface. Deforestation destroys habitats, fragments populations (making them
-More vulnerable to extinction), and releases stored carbon.
+about 6% of the land surface. Deforestation destroys habitats, fragments populations (making them
+more vulnerable to extinction), and releases stored carbon.
 
 **Urbanisation:** Building cities and roads on natural habitats removes vegetation, increases
 Surface runoff (leading to flooding), creates heat islands (urban areas are warmer than surrounding
@@ -809,7 +809,7 @@ After a volcanic eruption). Stages:
 
 **Secondary succession:** Occurs on a surface where an existing ecosystem has been disturbed (e.g.,
 After a forest fire, flood, or farming). The soil is already present, so succession proceeds faster
-Than primary succession. It begins with grasses and herbs rather than pioneer lichens.
+than primary succession. It begins with grasses and herbs rather than pioneer lichens.
 
 **Key concepts:**
 

@@ -397,7 +397,7 @@ complete. The cost of fixing a bug increases exponentially the later it is found
 - The cost multiplier is 3-5× vs 100× in waterfall
 
 Agile is most efficient at the sprint level, bugs found within the same sprint they were introduced
-Are cheapest to fix.
+are cheapest to fix.
 
 </details>
 
@@ -408,7 +408,7 @@ Development.
 <summary>Answer</summary>
 
 A **Minimum Viable Product (MVP)** is the simplest version of a product that delivers enough value
-To early customers and provides feedback for future development. It contains only the core features
+to early customers and provides feedback for future development. It contains only the core features
 Needed to solve the primary problem.
 
 **Relationship to Agile:**
@@ -612,7 +612,7 @@ Recommend an SDLC methodology and justify your choice.
 - Predictable budget and timeline, government projects require fixed-cost contracts
 
 Agile would be inappropriate because: iterative delivery of a tax system makes no sense (users
-Cannot give feedback on a partially-complete tax calculation), and the cost of errors in tax
+cannot give feedback on a partially-complete tax calculation), and the cost of errors in tax
 Calculations is very high.
 
 </details>
@@ -638,7 +638,7 @@ Regulatory review. Mitigation: engage regulators early, document all safety case
 Independent audits.
 
 Each spiral produces a working increment while systematically addressing the highest-priority risks
-Before they become costly problems.
+before they become costly problems.
 
 </details>
 

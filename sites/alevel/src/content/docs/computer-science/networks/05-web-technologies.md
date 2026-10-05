@@ -485,7 +485,7 @@ The **Internet** is the global physical infrastructure (cables, routers, servers
 **World Wide Web** is one application on the Internet, interlinked documents accessed via browsers
 Using HTTP, HTML, and URLs, invented by Tim Berners-Lee at CERN in 1989. Many services (email via
 SMTP, VoIP) use the Internet but are not part of the Web. The Internet existed for 20 years before
-The Web was created.
+the Web was created.
 
 </details>
 
@@ -523,7 +523,7 @@ Article, and a footer. Why does semantic HTML improve accessibility?
 ```
 
 Semantic HTML improves accessibility because screen readers can distinguish navigation from content
-From footer, allowing users to jump between sections. Search engines also better understand page
+from footer, allowing users to jump between sections. Search engines also better understand page
 Structure for indexing.
 
 </details>
@@ -552,7 +552,7 @@ Necessary?
 Check). **Server-side** runs after submission against backend resources (e.g., checking a database).
 
 Server-side validation is always necessary because: (1) JavaScript can be disabled; (2) attackers
-Can send crafted HTTP requests directly, bypassing the browser entirely; (3) only the server can
+can send crafted HTTP requests directly, bypassing the browser entirely; (3) only the server can
 Verify business rules (sufficient funds, item in stock). Client-side validation is UX only, not
 Security.
 

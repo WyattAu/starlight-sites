@@ -503,7 +503,7 @@ $E = F[x]/(f)$ is a field. Write $\bar{x} = x + (f) \in E$. Every element of $E$
 $g(x) + (f)$ for some $g \in F[x]$.
 
 By the division algorithm, $g = qf + r$ where $\deg(r) \lt n$ or $r = 0$. Then $g + (f) = r + (f)$
-So every element of $E$ can be written as
+so every element of $E$ can be written as
 $r(\bar{x}) = a_0 + a_1\bar{x} + \cdots + a_{n-1}\bar{x}^{n-1}$ With $a_i \in F$. This
 representation is unique: if $\sum_{i=0}^{n-1} a_i \bar{x}^i = \sum_{i=0}^{n-1} b_i \bar{x}^i$ Then
 $\sum (a_i - b_i)\bar{x}^i = 0$ So $\sum (a_i - b_i)x^i \in (f)$ Meaning $f$ divides a polynomial Of

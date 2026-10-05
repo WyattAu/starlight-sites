@@ -179,7 +179,7 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 **Derivation of the $n + 1$ rule:**
 
 Neighbouring protons on adjacent carbons interact (spin-spin coupling) because their nuclear spins
-Can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
+can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
 There are $n + 1$ possible spin arrangements (and therefore $n + 1$ possible local magnetic fields
 Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal's
 Triangle.
@@ -196,7 +196,7 @@ Identify the compound.
 The singlet that exchanges with $\mathrm{D_2\mathrm{O$ is an $\mathrm{O-\mathrm{H$ proton. The
 triplet (3H) and quartet (2H) indicate a $\mathrm{CH_3\mathrm{CH_2$ group. The quartet is shifted to
 $\delta = 3.7$ Suggesting the $\mathrm{CH_2$ is adjacent to an electronegative oxygen. The compound
-Is ethanol ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
+is ethanol ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
 
 **Worked Example 6:** A compound with molecular formula $\mathrm{C_4\mathrm{H_{10}\mathrm{O$ has two
 $^1\mathrm{H$ NMR signals: a septet at $\delta = 3.9$ (1H) and a doublet at $\delta = 1.2$ (6H).
@@ -204,7 +204,7 @@ Identify the compound.
 
 The septet (7 peaks) indicates 6 neighbouring protons. The doublet (2 peaks) indicates 1
 Neighbouring proton. The chemical shift of $\delta = 3.9$ suggests the proton is on a carbon bonded
-To oxygen. The compound is 2-methylpropan-2-ol: $(\mathrm{CH_3)_3\mathrm{COH$ has three equivalent
+to oxygen. The compound is 2-methylpropan-2-ol: $(\mathrm{CH_3)_3\mathrm{COH$ has three equivalent
 $\mathrm{CH_3$ groups (6H, doublet split by 1H) and one $\mathrm{CH$ proton (1H, septet split by
 6H).
 
@@ -249,9 +249,9 @@ Concentration (mol/L), and $l$ is the path length (cm).
 **Derivation:**
 
 The absorbance is proportional to the number of absorbing molecules in the light path. If a solution
-Of concentration $c$ and path length $l$ contains $c \times l$ moles per unit area, then doubling
+of concentration $c$ and path length $l$ contains $c \times l$ moles per unit area, then doubling
 $c$ or $l$ doubles the number of absorbers and hence the absorbance. The proportionality constant is
-The molar absorptivity $\varepsilon$ Which depends on the substance and wavelength.
+the molar absorptivity $\varepsilon$ Which depends on the substance and wavelength.
 
 **Applications:** Determining concentrations, following reaction kinetics, identifying conjugated
 Systems.
@@ -764,7 +764,7 @@ Identify the compound and assign all spectral features.
 ### High-Resolution Mass Spectrometry (HRMS)
 
 Low-resolution mass spectrometry gives $m/z$ values to the nearest whole number. High-resolution MS
-Can distinguish between compounds with the same nominal mass but different exact masses.
+can distinguish between compounds with the same nominal mass but different exact masses.
 
 **Example:** $\mathrm{CO$ has exact mass 27.9949 and $\mathrm{N_2$ has exact mass 28.0061. These
 Cannot be distinguished at low resolution (both appear at $m/z = 28$) but are separated at High
@@ -786,7 +786,7 @@ $$
 
 **McLafferty rearrangement:** A hydrogen atom from the gamma carbon (three bonds away) transfers to
 The carbonyl oxygen, followed by cleavage of the beta-gamma bond. Produces an enol radical cation
-And a neutral alkene.
+and a neutral alkene.
 
 This rearrangement requires a gamma hydrogen and is common in carbonyl compounds with at least 3
 Carbons in the chain.

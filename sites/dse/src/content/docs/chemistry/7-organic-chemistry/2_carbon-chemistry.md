@@ -210,7 +210,7 @@ $$
 ### Properties and Reactions
 
 Alkynes undergo similar addition reactions to alkenes but can add two molecules of reagent across
-The triple bond.
+the triple bond.
 
 ---
 
@@ -627,7 +627,7 @@ Explain why starch is digestible by humans but cellulose is not.
 Both starch and cellulose are polymers of glucose. In starch, the glucose units are joined by
 Alpha-glycosidic bonds, which can be broken by human digestive enzymes (amylase). In cellulose, the
 Glucose units are joined by beta-glycosidic bonds, which humans cannot break down because they lack
-The appropriate enzyme (cellulase). Therefore, cellulose passes through the human digestive system
+the appropriate enzyme (cellulase). Therefore, cellulose passes through the human digestive system
 Undigested and acts as dietary fibre.
 
 </details>
@@ -864,7 +864,7 @@ _If you get this wrong, revise: Alcohols, Properties and Intermolecular Forces_
 <summary>Solution</summary>
 
 Propan-1-ol molecules can form hydrogen bonds between the $-\mathrm{OH}$ group of one molecule and
-The lone pairs on the oxygen of another. Hydrogen bonding is a strong intermolecular force that
+the lone pairs on the oxygen of another. Hydrogen bonding is a strong intermolecular force that
 Requires significant energy to overcome.
 
 Propane molecules are non-polar and can only form weak van der Waals forces between molecules. These

@@ -157,7 +157,7 @@ State is saved across yield points so execution can resume from where it left of
 ### Why Pin Exists
 
 The compiler-generated state machine for async blocks can contain self-referential data, a field
-That points to another field within the same struct. If the struct were moved, the pointer would
+that points to another field within the same struct. If the struct were moved, the pointer would
 Become invalid. `Pin` prevents the wrapped value from being moved after it has been pinned.
 
 ```rust
@@ -598,7 +598,7 @@ Allocation overhead. RPITIT avoids this overhead.
 ## `Send` Bounds on Futures
 
 A future must be `Send` to be spawned on tokio's multi-threaded runtime. If a future captures a
-Non-`Send` type, spawning fails:
+non-`Send` type, spawning fails:
 
 ```rust
 use std::rc::Rc;

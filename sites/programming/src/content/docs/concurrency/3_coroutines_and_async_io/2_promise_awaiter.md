@@ -767,7 +767,7 @@ Accurately reflects completion status.
 **6. Returning `bool` vs `coroutine_handle` from `await_suspend`:** A `bool` return of `false`
 Causes immediate resumption in the _same_ call stack (no suspension occurs). A `coroutine_handle`
 Return causes the _returned_ handle to be resumed via symmetric transfer. Confusing these two leads
-To subtle bugs where the wrong coroutine is resumed.
+to subtle bugs where the wrong coroutine is resumed.
 
 ## See Also
 

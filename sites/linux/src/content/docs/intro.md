@@ -112,7 +112,7 @@ Linux is the dominant operating system in every infrastructure domain you will e
 - **High-performance computing**: 100% of the TOP500 supercomputers run Linux.
 
 Understanding Linux at the systems level, how processes are scheduled, how memory is managed, how
-The network stack processes packets, how file systems journal writes, is not academic. It is the
+the network stack processes packets, how file systems journal writes, is not academic. It is the
 Difference between "restarting the service fixed it" and understanding _why_ it failed and
 Preventing recurrence.
 

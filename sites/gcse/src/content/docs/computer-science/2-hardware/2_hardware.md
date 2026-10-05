@@ -61,7 +61,7 @@ Conductor of the CPU orchestra.
 
 **Key distinction:** The PC holds an **address** (where to go next). The MAR also holds an
 **address** (where to read/write data). The MDR holds the actual **data** (what was read or what
-Will be written). The CIR holds the **instruction** (what to do).
+will be written). The CIR holds the **instruction** (what to do).
 
 ### 1.3 The Fetch-Decode-Execute Cycle
 
@@ -172,7 +172,7 @@ $2 \times 10^9$ cycles/second $\times$ 4 bytes/cycle = $8 \times 10^9$ bytes/sec
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** ROM contains the BIOS (Basic Input/Output System), which is the first
 Code the CPU executes when the computer is powered on. The BIOS initialises hardware and loads the
@@ -213,7 +213,7 @@ Times longer than a RAM access.
 **Worked Example.** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
 Operating system allocates 8 GB to RAM and uses 4 GB of virtual memory on the SSD. When a program
 Accesses data in virtual memory, a page fault occurs and the OS swaps the required page from the SSD
-Into RAM, potentially moving a less-used page from RAM to the SSD.
+into RAM, potentially moving a less-used page from RAM to the SSD.
 
 **Thrashing.** If too many programs are running and the system spends more time swapping pages than
 Executing instructions, the system becomes extremely slow. This condition is called thrashing. The
@@ -391,7 +391,7 @@ Utility software helps maintain and manage the computer:
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
 Defragmentation reorganises files into contiguous blocks. Note: SSDs do not need defragmentation and
-It can actually reduce their lifespan.
+it can actually reduce their lifespan.
 
 ### 4.4 Types of Operating System (Higher Tier)
 
@@ -538,7 +538,7 @@ Instruction per clock cycle (vs one every 3 cycles without pipelining).
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** ROM contains the BIOS (Basic Input/Output System), which is the first
 Code the CPU executes when the computer is powered on. The BIOS initialises hardware and loads the
@@ -655,7 +655,7 @@ Stage and provides a record for future maintenance.
 
 **Worked Example.** A function validates that a percentage is between 0 and 100 inclusive. Using
 Boundary value analysis, the test cases should include: -1, 0, 1, 99, 100, 101. The values 0 and 100
-Are the boundaries where off-by-one errors are most likely.
+are the boundaries where off-by-one errors are most likely.
 
 **Worked Example (Higher Tier).** For a search function that accepts a string of 1 to 50 characters,
 Identify the equivalence classes and boundary values.

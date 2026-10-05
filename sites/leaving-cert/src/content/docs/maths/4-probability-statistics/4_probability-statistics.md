@@ -32,7 +32,7 @@ Statistical measures.
 
 If task A can be done in $m$ ways and task B in $n$ ways, then A followed by B can be done in
 $m \times n$ ways. This extends to any finite sequence of tasks: multiply the number of choices at
-Each step.
+each step.
 
 **Example (OL):** How many ways can 3 different books be arranged on a shelf?
 
@@ -99,14 +99,14 @@ $$
 ### Pascal's Triangle and Binomial Coefficients (HL)
 
 Each entry in Pascal's triangle is the sum of the two entries above it. The $r$ Th entry in row $n$
-Is $\binom{n}{r}$.
+is $\binom{n}{r}$.
 
 **Pascal's identity:** $\binom{n}{r} = \binom{n-1}{r-1} + \binom{n-1}{r}$.
 
 **Proof of Pascal's identity.** Consider choosing $r$ people from $n$ people. Fix one particular
 Person, say Alice. Either Alice is chosen (leaving $\binom{n-1}{r-1}$ ways to choose the remaining
 $r-1$ from $n-1$ others) or Alice is not chosen (leaving $\binom{n-1}{r}$ ways to choose all $r$
-From $n-1$ others). These cases are mutually exclusive and exhaustive.
+from $n-1$ others). These cases are mutually exclusive and exhaustive.
 
 **Binomial theorem:** $(a + b)^n = \sum_{r=0}^{n} \binom{n}{r} a^{n-r} b^r$.
 
@@ -373,7 +373,7 @@ $X \sim N(\mu, \sigma^2)$. The standard normal $Z = \frac{X - \mu}{\sigma}$ has 
 
 **Why the normal distribution is special.** The Central Limit Theorem states that the mean of a
 Large number of independent random variables is approximately normally distributed, regardless of
-The original distribution. This is why the normal distribution appears everywhere in nature.
+the original distribution. This is why the normal distribution appears everywhere in nature.
 
 **Example (HL):** Exam marks are normally distributed with $\mu = 60$$\sigma = 10$. Find the
 Probability a student scores above 75.
@@ -464,7 +464,7 @@ Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$ No high outlier
 - **Symmetric:** Mean = Median.
 
 In a box plot, positive skew means the right whisker is longer; negative skew means the left whisker
-Is longer.
+is longer.
 
 ## Hypothesis Testing (HL)
 
@@ -528,7 +528,7 @@ Degrees of freedom $= 7$. The critical value from t-tables at $\alpha = 0.05$ (t
 Approximately $\pm 2.365$.
 
 Since $|-2.156| = 2.156 < 2.365$ We do not reject $H_0$. There is insufficient evidence to conclude
-The population mean differs from 25.
+the population mean differs from 25.
 
 ### Type I and Type II Errors (HL)
 
@@ -555,7 +555,7 @@ $$
 
 **Interpretation:** If we were to take many samples and construct a 95% confidence interval from
 Each, approximately 95% of those intervals would contain the true population mean. It does NOT mean
-There is a 95% probability that $\mu$ lies in any particular interval.
+there is a 95% probability that $\mu$ lies in any particular interval.
 
 ## Correlation and Regression (HL)
 
@@ -719,14 +719,14 @@ See the examples integrated throughout the sections above.
 ### 8.4 Poisson Approximation to the Binomial
 
 When $n$ is large, $p$ is small, and $np$ is moderate, the binomial distribution can be approximated
-By a Poisson distribution with $\lambda = np$:
+by a Poisson distribution with $\lambda = np$:
 
 $$
 \mathrm{Bin(n, p) \approx \mathrm{Po(np)
 $$
 
 This avoids calculating large binomial coefficients. As a rule of thumb, the approximation is good
-When $n \ge 50$ and $p \le 0.1$.
+when $n \ge 50$ and $p \le 0.1$.
 
 **Example (HL):** A machine produces items with a defect rate of 2%. In a batch of 200 items, find
 The probability of at most 3 defects using the Poisson approximation.
@@ -763,7 +763,7 @@ The three main distributions covered in this topic are connected:
 ### 8.7 Law of Large Numbers (HL - awareness)
 
 The law of large numbers states that as the number of trials increases, the sample mean converges to
-The expected value. Formally, for i.i.d. Random variables $X_1, X_2, \ldots$ with mean $\mu$:
+the expected value. Formally, for i.i.d. Random variables $X_1, X_2, \ldots$ with mean $\mu$:
 
 $$
 \bar{X}_n = \frac{X_1 + X_2 + \cdots + X_n}{n} \to \mu \mathrm{ as  n \to \infty

@@ -120,7 +120,7 @@ Key properties of UTF-8:
 
 This matters for algorithms: iterating over a UTF-8 string by code point is $O(n)$ in bytes, but
 Finding the $k$-th code point is $O(k)$ unless you build an index. In Python, strings are sequences
-Of Unicode code points (so `len(s)` gives the number of code points), but the underlying storage is
+of Unicode code points (so `len(s)` gives the number of code points), but the underlying storage is
 UTF-8 (in CPython 3.3+, PEP 393).
 
 ### String Complexity
@@ -208,7 +208,7 @@ def is_palindrome(s):
 ## Sliding Window
 
 The sliding window technique maintains a contiguous subarray (window) that expands or contracts as
-It moves through the array. It is applicable when you need to find a subarray satisfying some
+it moves through the array. It is applicable when you need to find a subarray satisfying some
 Constraint.
 
 ### Fixed-Size Window
@@ -271,7 +271,7 @@ def longest_substring_without_repeats(s):
 
 :::note
 Nor `right` ever moves backward. This is what gives the $O(n)$ time bound: each element is added to
-And removed from the window at most once.
+and removed from the window at most once.
 
 ## Prefix Sums
 
@@ -870,7 +870,7 @@ Handle grapheme clusters (e.g., the emoji flags sequence). Use language-appropri
 ### 5. Hash Map Key Mutability
 
 If you use a mutable object as a hash map key and then mutate it, the object's hash changes and you
-Can no longer find it in the map. In Python, this manifests as a `dict` key becoming invisible after
+can no longer find it in the map. In Python, this manifests as a `dict` key becoming invisible after
 Mutation. Always use immutable types (tuples, frozensets, strings) as keys, or ensure keys are never
 Mutated after insertion.
 
@@ -884,7 +884,7 @@ Arbitrary precision, but in C/C++/Java, use `long long`/`long`).
 
 In sliding window problems, "at most k distinct elements" requires shrinking the window when the
 Count exceeds $k$ While "exactly k distinct elements" requires maintaining two windows (one for at
-Most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
+most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
 
 ```mermaid
 flowchart TD

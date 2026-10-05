@@ -130,8 +130,8 @@ A memory address is decomposed into three fields for cache lookup:
 ```
 
 The set index selects which cache set to probe, the tag identifies which memory block is stored in
-That set, and the block offset selects the byte within the cache line. Two addresses that differ
-Only in the tag but share the same set index map to the same cache set (and may evict each other in
+that set, and the block offset selects the byte within the cache line. Two addresses that differ
+only in the tag but share the same set index map to the same cache set (and may evict each other in
 A direct-mapped or low-associativity cache).
 
 ## Write-Back vs. Write-Through Policies
@@ -400,7 +400,7 @@ struct Particles {
 ```
 
 Use SoA when you process one field at a time (e.g., updating all positions). Use AoS when you access
-All fields of individual entities (e.g., collision detection).
+all fields of individual entities (e.g., collision detection).
 
 1. **Compact data types:** Use `float` instead of `double` when precision allows. Use `int32_t`
    instead of `int64_t`. Smaller types mean more elements per cache line.
@@ -470,7 +470,7 @@ The C++ memory model abstracts this into memory ordering constraints:
 
 **Cache coherence** is a hardware property: it ensures that all cores eventually see a consistent
 View of memory. The MESI protocol guarantees that, given sufficient time, all writes propagate to
-All caches.
+all caches.
 
 **Memory model** is a software contract: it defines which values a read may return and what ordering
 Guarantees exist. The C++ memory model [N4950 §6.9.2.2] is weaker than hardware cache coherence, it
@@ -557,8 +557,8 @@ The typical cache line size on modern x86 processors is 64 bytes. Key implicatio
 
 Modern CPUs use **store buffers** between the execution unit and the L1 cache to avoid stalling on
 Cache misses during writes. When a CPU writes to a cache line in Shared state, the write is placed
-In the store buffer and the CPU continues executing. The RFO (Read-For-Ownership) request is issued
-On the bus asynchronously.
+in the store buffer and the CPU continues executing. The RFO (Read-For-Ownership) request is issued
+on the bus asynchronously.
 
 This creates a subtle ordering problem: the CPU can read its own subsequent loads from the store
 Buffer (store forwarding) before the write is visible to other cores. This is one reason why memory
@@ -566,8 +566,8 @@ Barriers exist, they force the store buffer to drain before subsequent loads can
 
 For C++ atomics, `memory_order_release` ensures all prior stores are visible before the release
 Operation. On x86, the Total Store Order (TSO) model already guarantees that stores are visible to
-All cores in program order, so `memory_order_release` compiles to a no-op (or compiler barrier
-Only). On ARM/AArch64, it emits a `DMB ISH` instruction to ensure store buffer drain.
+all cores in program order, so `memory_order_release` compiles to a no-op (or compiler barrier
+only). On ARM/AArch64, it emits a `DMB ISH` instruction to ensure store buffer drain.
 
 ## The MOESI Protocol
 
@@ -587,7 +587,7 @@ Beneficial on multi-socket systems where main memory access latency is higher.
 
 Intel processors do not use MOESI; they implement MESI with a snoop filter that achieves similar
 Cache-to-cache transfer efficiency through different microarchitectural means. The key difference is
-That Intel's MESI still requires the Modified cache to write back to memory before sharing, while
+that Intel's MESI still requires the Modified cache to write back to memory before sharing, while
 MOESI's Owned state allows direct cache-to-cache transfer.
 
 ## Detecting False Sharing with `perf`

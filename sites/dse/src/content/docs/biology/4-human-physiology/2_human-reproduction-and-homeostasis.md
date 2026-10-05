@@ -712,7 +712,7 @@ the race.
 ### The Kidneys
 
 The kidneys are the primary osmoregulatory organs. They regulate blood water potential by adjusting
-The volume and concentration of urine produced.
+the volume and concentration of urine produced.
 
 **Gross structure of the kidney:**
 
@@ -795,8 +795,8 @@ Osmotic gradient) in the medulla.
 | Ascending limb  | Impermeable to water; actively transports Na$^+$ and Cl$^-$ out | Na$^+$ and Cl$^-$ are pumped into the medullary tissue fluid; filtrate becomes more dilute                |
 
 The countercurrent flow (descending and ascending limbs running in opposite directions) amplifies
-The osmotic gradient. The medullary tissue fluid reaches approximately 1200 mOsm/kg at the bottom of
-The loop (compared to approximately 300 mOsm/kg in the cortex).
+the osmotic gradient. The medullary tissue fluid reaches approximately 1200 mOsm/kg at the bottom of
+the loop (compared to approximately 300 mOsm/kg in the cortex).
 
 **Collecting duct:**
 

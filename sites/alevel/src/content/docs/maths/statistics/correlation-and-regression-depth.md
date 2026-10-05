@@ -377,7 +377,7 @@ $r = \dfrac{20.5}{\sqrt{17.5 \times 26.17}} = \dfrac{20.5}{\sqrt{457.98}} = \dfr
 ### Problem 2
 
 Find the equation of the regression line of $y$ on $x$ for the data in Problem 1, and predict $y$
-When $x = 7$.
+when $x = 7$.
 
 <details>
 <summary>Solution</summary>

@@ -69,7 +69,7 @@ $$
 3. The alkoxide is protonated by $\mathrm{HCN}$ Yielding the cyanohydrin.
 
 Ketones react more slowly than aldehydes because of the steric and electronic factors discussed
-Above.
+above.
 
 **Synthetic utility:** The $-\mathrm{CN}$ group in the cyanohydrin can be:
 
@@ -99,7 +99,7 @@ $\mathrm{NaBH}_4$ at room temperature, then acidify with dilute acid to protonat
 Intermediate.
 
 $\mathrm{NaBH}_4$ is a mild, selective reducing agent. It reduces C=O but does not reduce C=C. For
-The reduction of carboxylic acids and their derivatives, the stronger reducing agent
+the reduction of carboxylic acids and their derivatives, the stronger reducing agent
 $\mathrm{LiAlH}_4$ is required (not covered in detail at A-Level).
 
 ### Mechanism of NaBH$_4$ Reduction
@@ -173,7 +173,7 @@ $$
 $$
 
 Both C--O bonds in the carboxylate ion have equal length (experimentally confirmed), intermediate
-Between a single and a double bond, confirming delocalisation.
+between a single and a double bond, confirming delocalisation.
 
 ### Reactions with Carbonates and Metals
 
@@ -192,7 +192,7 @@ $$
 ## Acyl Chlorides
 
 Acyl chlorides (acid chlorides) are the most reactive carboxylic acid derivatives. The chlorine atom
-Is an excellent leaving group, making the carbonyl carbon extremely electrophilic. No catalyst is
+is an excellent leaving group, making the carbonyl carbon extremely electrophilic. No catalyst is
 Required for any of the following reactions.
 
 ### Hydrolysis
@@ -212,7 +212,7 @@ $$
 $$
 
 This is an alternative to acid-catalysed esterification. It is irreversible (unlike the equilibrium
-With carboxylic acids) and proceeds rapidly at room temperature.
+with carboxylic acids) and proceeds rapidly at room temperature.
 
 ### Reaction with Ammonia and Amines
 
@@ -231,7 +231,7 @@ With primary amines, an excess of amine is used to neutralise the $\mathrm{HCl}$
 ### Physical Properties
 
 Esters have characteristic sweet, fruity odours (hence their use in flavourings and perfumes). They
-Cannot form intermolecular hydrogen bonds with themselves (no $-\mathrm{OH}$ or $-\mathrm{NH}$
+cannot form intermolecular hydrogen bonds with themselves (no $-\mathrm{OH}$ or $-\mathrm{NH}$
 Group), so their boiling points are lower than those of the parent alcohols and carboxylic acids.
 
 ### Hydrolysis
@@ -271,7 +271,7 @@ Carbon.
 ### Hydrolysis of Amides
 
 Amides can be hydrolysed under acidic or basic conditions, but harsher conditions are required than
-For esters:
+for esters:
 
 **Acid hydrolysis:** Reflux with concentrated hydrochloric acid:
 
@@ -483,7 +483,7 @@ compound. This is a standard qualitative organic analysis technique.
 
 A compound $\mathrm{A}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}$) gives a silver mirror with Tollens'
 Reagent and reacts with $\mathrm{NaBH}_4$ to give compound $\mathrm{B}$. Compound $\mathrm{B}$ can
-Be oxidised to compound $\mathrm{C}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$), which reacts with
+be oxidised to compound $\mathrm{C}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$), which reacts with
 Sodium carbonate to produce $\mathrm{CO}_2$. Identify $\mathrm{A}$, $\mathrm{B}$ And $\mathrm{C}$.
 
 **Solution:**

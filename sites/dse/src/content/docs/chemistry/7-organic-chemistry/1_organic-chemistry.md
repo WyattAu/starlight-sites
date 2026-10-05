@@ -298,14 +298,14 @@ Breaks to allow **addition reactions**, where atoms or groups are added across t
 **Test for unsaturation (Bromine water test):**
 
 When bromine water (orange-brown) is added to an alkene, the bromine adds across the double bond and
-The solution is decolourised.
+the solution is decolourised.
 
 $$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}
 $$
 
 This is a useful test to distinguish alkenes from alkanes (alkanes do not decolourise bromine water
-Without UV light).
+without UV light).
 
 **Hydrogenation:**
 
@@ -338,14 +338,14 @@ $$
 **Markovnikov's Rule:**
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon that already has
-More hydrogen atoms (the less substituted carbon).
+more hydrogen atoms (the less substituted carbon).
 
 $$
 \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3 \quad \mathrm{(2-bromopropane, major product)}
 $$
 
 The minor product, 1-bromopropane ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}$), is formed
-In smaller amounts.
+in smaller amounts.
 
 :::tip
 Gets the additional H.
@@ -388,7 +388,7 @@ Length. Ethyne is a colourless gas at room temperature.
 #### Chemical Properties
 
 Alkynes undergo addition reactions similar to alkenes, but can accept two moles of reagent because
-The triple bond has two $\pi$ bonds.
+the triple bond has two $\pi$ bonds.
 
 **Hydrogenation (stepwise):**
 
@@ -675,11 +675,11 @@ $$
 $$
 
 To obtain the aldehyde (without further oxidation to the carboxylic acid), distil the product out as
-It forms.
+it forms.
 
 Oxidising agents: acidified potassium dichromate(VI)
 ($\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7 / \mathrm{H}^+$), which changes colour from orange to green
-Upon reduction.
+upon reduction.
 
 **Secondary alcohols:**
 
@@ -759,7 +759,7 @@ $$
 $$
 
 Carboxylic acids are stronger acids than alcohols (phenol has $\mathrm{p}K_a \approx 10$) but weaker
-Than mineral acids. The carboxylate ion ($\mathrm{RCOO}^-$) is stabilised by resonance
+than mineral acids. The carboxylate ion ($\mathrm{RCOO}^-$) is stabilised by resonance
 Delocalisation of the negative charge over the two oxygen atoms.
 
 **Reactions:**
@@ -782,7 +782,7 @@ $$
 
 This is a reversible, **condensation reaction** (two molecules join with the elimination of a small
 Molecule, in this case water). The equilibrium can be shifted towards the ester by using an excess
-Of one reactant or by removing water.
+of one reactant or by removing water.
 
 ### 3.3 Esters
 
@@ -914,7 +914,7 @@ The mechanism:
 #### Classification and Naming
 
 Amines contain the amino group (-NH$_2$). They are classified by the number of alkyl groups attached
-To the nitrogen:
+to the nitrogen:
 
 | Type      | Structure                 | Example                                        |
 | --------- | ------------------------- | ---------------------------------------------- |
@@ -1049,7 +1049,7 @@ environment for hundreds of years.
 **Polyurethane:**
 
 Formed from a diisocyanate and a diol. The reaction produces a urethane linkage (no small molecule
-Is eliminated, but it is still classified as a step-growth polymer).
+is eliminated, but it is still classified as a step-growth polymer).
 
 ### 4.3 Biodegradable Polymers
 
@@ -1216,7 +1216,7 @@ Water and reacts with $\mathrm{HBr}$ to give two products, $\mathrm{B}$ (major) 
 **Solution:**
 
 $\mathrm{C}_4\mathrm{H}_8$ has one degree of unsaturation ($\mathrm{C}_n\mathrm{H}_{2n}$), so it is
-An alkene. Since it gives two products with HBr, it is unsymmetrical.
+an alkene. Since it gives two products with HBr, it is unsymmetrical.
 
 $\mathrm{A}$ = but-1-ene: $\mathrm{CH}_2=\mathrm{CHCH}_2\mathrm{CH}_3$
 
@@ -1277,7 +1277,7 @@ $\mathrm{C}_3\mathrm{H}_8\mathrm{O}$ has possible structures: propan-1-ol, propa
 Methoxyethane.
 
 Reaction with $\mathrm{PCl}_5$ (white fumes = HCl) confirms the presence of -OH, so $\mathrm{D}$ is
-An alcohol (not methoxyethane).
+an alcohol (not methoxyethane).
 
 Oxidation of $\mathrm{D}$ gives $\mathrm{E}$ Which gives a silver mirror with Tollens' reagent,
 Confirming $\mathrm{E}$ is an aldehyde. Only primary alcohols oxidise to aldehydes.
@@ -1352,7 +1352,7 @@ $$
 ### Worked Example 9
 
 Explain why the hydrolysis of ethyl ethanoate with aqueous NaOH is irreversible, whereas hydrolysis
-With aqueous $\mathrm{H}_2\mathrm{SO}_4$ is reversible.
+with aqueous $\mathrm{H}_2\mathrm{SO}_4$ is reversible.
 
 **Solution:**
 
@@ -1362,7 +1362,7 @@ Completely to the right.
 
 In acid hydrolysis, the products are the carboxylic acid ($\mathrm{CH}_3\mathrm{COOH}$) and the
 Alcohol, which can re-react in the presence of the acid catalyst to form the ester. The equilibrium
-Is reversible and both forward and backward reactions occur simultaneously.
+is reversible and both forward and backward reactions occur simultaneously.
 
 ### Worked Example 10
 
@@ -1539,7 +1539,7 @@ Bromine water: propanone does NOT decolourise bromine water under normal conditi
 Contains a contradiction; the correct answer is propanal ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}$),
 Which is an aldehyde (positive 2,4-DNPH and positive Tollens'), or the compound may be
 Prop-2-en-1-ol ($\mathrm{CH}_2=\mathrm{CHCH}_2\mathrm{OH}$), which decolourises bromine water but
-Would not give a positive 2,4-DNPH test.
+would not give a positive 2,4-DNPH test.
 
 Revised answer: The compound $\mathrm{X}$ is **propanone** ($\mathrm{CH}_3\mathrm{COCH}_3$).
 Positive 2,4-DNPH confirms the carbonyl group. Negative Tollens' confirms it is a ketone, not an
@@ -1578,7 +1578,7 @@ With bromine, despite having a high electron density.
 Benzene has a delocalised $\pi$ system of 6 electrons spread over the entire ring. This
 Delocalisation gives the molecule significant extra stability (resonance energy of approximately
 $150$ kJ/mol). An addition reaction would destroy this delocalised system, requiring a large input
-Of energy. A substitution reaction replaces one hydrogen atom while preserving the delocalised $\pi$
+of energy. A substitution reaction replaces one hydrogen atom while preserving the delocalised $\pi$
 System, so the product retains the aromatic stability. Therefore, substitution is energetically
 Favoured over addition.
 
@@ -1590,7 +1590,7 @@ Boiling point increases with increasing chain length. As the number of carbon at
 Molecular mass increases, and there are more electrons in the molecule. More electrons lead to
 Stronger van der Waals (London dispersion) forces between molecules. Stronger intermolecular forces
 Require more energy to overcome, resulting in higher boiling points. Additionally, larger molecules
-Have greater surface area for intermolecular contact.
+have greater surface area for intermolecular contact.
 
 **Question 6:** Compound $\mathrm{Y}$ ($\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$) is hydrolysed with
 Aqueous NaOH to give ethanol and the sodium salt of ethanoic acid. Deduce the structure of
@@ -1628,7 +1628,7 @@ Propan-2-ol oxidises to propanone (ketone), which does not give a silver mirror 
 Reagent.
 
 Alternatively, if the oxidation products can be isolated, 2,4-DNPH gives an orange precipitate for
-Both (both produce carbonyl compounds), but only the aldehyde product (from propan-1-ol) gives a
+both (both produce carbonyl compounds), but only the aldehyde product (from propan-1-ol) gives a
 Positive Fehling's test.
 
 **Question 8:** Draw the structure of Nylon-6,6 and identify the two monomers from which it is made.
@@ -1655,7 +1655,7 @@ See Section 2.1 for the full mechanism (initiation, propagation, termination).
 A mixture of products ($\mathrm{CH}_3\mathrm{Cl}$$\mathrm{CH}_2\mathrm{Cl}_2$$\mathrm{CHCl}_3$
 $\mathrm{CCl}_4$) is obtained because once a chlorine radical abstracts a hydrogen from
 $\mathrm{CH}_3\mathrm{Cl}$ (the product), a new $\mathrm{CH}_2\mathrm{Cl}^\bullet$ radical is formed
-In the propagation step. This radical can then react with more $\mathrm{Cl}_2$ to form
+in the propagation step. This radical can then react with more $\mathrm{Cl}_2$ to form
 $\mathrm{CH}_2\mathrm{Cl}_2$ And the process continues. Each successive chlorination makes the
 Remaining C-H bonds slightly weaker (due to the electron-withdrawing effect of Cl), so further
 Substitution is progressively easier.
@@ -1795,7 +1795,7 @@ The $\sigma$ bond is formed by the end-on (head-on) overlap of $sp^2$ hybrid orb
 Efficient and concentrates electron density directly between the two nuclei. The $\pi$ bond is
 Formed by the sideways overlap of unhybridised $p$ orbitals above and below the plane of the
 Molecule. This sideways overlap is less effective, and the $\pi$ electron density is further from
-The nuclei and more exposed. The $\pi$ bond therefore has a lower bond energy (approximately $270$
+the nuclei and more exposed. The $\pi$ bond therefore has a lower bond energy (approximately $270$
 KJ/mol for C=C $\pi$ component vs $350$ kJ/mol for C-C $\sigma$ component) and is more broken In
 addition reactions.
 

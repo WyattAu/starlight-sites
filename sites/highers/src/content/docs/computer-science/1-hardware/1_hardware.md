@@ -83,7 +83,7 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
 
 **Why hexadecimal?** Hexadecimal is a convenient shorthand for binary. Each hex digit represents
 Exactly 4 bits, so an 8-bit byte can be written as two hex digits (e.g., `11010110` = `D6`). This is
-Much more compact and less error-prone than writing long binary strings. Memory addresses, colour
+much more compact and less error-prone than writing long binary strings. Memory addresses, colour
 Codes (`#FF5733`), MAC addresses (`00:1A:2B:3C:4D:5E`), and error codes all use hexadecimal.
 
 ### Representing Numbers
@@ -324,7 +324,7 @@ Lossy compression is used for photographs.
 
 Executable files and documents must be reconstructed exactly -- a single changed bit could make a
 Program crash or change the meaning of a legal document. Photographs can tolerate some data loss
-Because the human eye cannot perceive small differences in colour or detail.
+because the human eye cannot perceive small differences in colour or detail.
 
 ---
 
@@ -421,7 +421,7 @@ write). The CIR Holds the **instruction** (what to do).
 **Worked Example.** After the fetch phase, the PC contains 101. What does this mean?
 
 It means the next instruction to be fetched will be from memory address 101. The PC was incremented
-During the fetch phase from its previous value (100) to point to the next instruction.
+during the fetch phase from its previous value (100) to point to the next instruction.
 
 ### Cache Memory
 
@@ -459,7 +459,7 @@ Without cache: 100 ns. Speedup: $100 / 8.92 \approx 11.2\times$.
 
 **Why the hierarchy exists.** Faster memory is more expensive per byte. The hierarchy exploits
 Locality of reference: programs tend to access the same data repeatedly (temporal locality) and data
-Near recently accessed data (spatial locality). By keeping the most frequently used data in small,
+near recently accessed data (spatial locality). By keeping the most frequently used data in small,
 Fast memory near the CPU, the average access time is dramatically reduced compared to using only
 RAM.
 
@@ -547,7 +547,7 @@ System (ABS).
 
 The ABS must respond within milliseconds to prevent wheel lockup. A general-purpose OS (like
 Windows) cannot guarantee response times because it may be busy with other tasks. A RTOS guarantees
-That the ABS process receives CPU time within a fixed deadline, ensuring safety.
+that the ABS process receives CPU time within a fixed deadline, ensuring safety.
 
 **Virtual memory (HL).** When RAM is full, the operating system uses a section of the hard drive as
 Virtual memory (swap space). A **page fault** occurs when the CPU accesses data that has been
@@ -567,11 +567,11 @@ system Spends more time swapping pages than executing instructions.
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** Contains the BIOS/UEFI, which is the first code the CPU executes when
 The computer is powered on. The BIOS initialises hardware and loads the operating system from disk
-Into RAM.
+into RAM.
 
 **DRAM vs SRAM:**
 

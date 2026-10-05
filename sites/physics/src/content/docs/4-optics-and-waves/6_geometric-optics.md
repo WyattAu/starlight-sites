@@ -42,7 +42,7 @@ Which gives $n_1 \sin\theta_1 = n_2 \sin\theta_2$. $\blacksquare$
 ### 6.2 Total Internal Reflection
 
 When light travels from a denser to a rarer medium ($n_1 \gt n_2$), total internal reflection occurs
-When $\theta_1 \geq \theta_c$ where:
+when $\theta_1 \geq \theta_c$ where:
 
 $$
 \sin\theta_c = \frac{n_2}{n_1}

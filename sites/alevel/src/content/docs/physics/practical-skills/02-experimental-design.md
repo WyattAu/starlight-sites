@@ -76,7 +76,7 @@ Them is the most common reason experiments produce invalid results.
 
 **Why control variables matter:** If a control variable is not held constant, it becomes a
 **confounding variable**, you cannot determine whether the change in the dependent variable is due
-To the independent variable or the uncontrolled factor.
+to the independent variable or the uncontrolled factor.
 
 **Strategies for controlling variables:**
 
@@ -257,7 +257,7 @@ $g = 9.81 \mathrm{ m s}^{-2}$.
 ### Choosing Measurement Ranges and Intervals
 
 When designing an experiment, choosing the correct range and interval for the independent variable
-Is critical:
+is critical:
 
 - **Range:** Should be as wide as practical to maximise the spread of data points. A wider range
   produces a more reliable gradient. However, the range must stay within the valid region of the
@@ -325,7 +325,7 @@ Of 10 clips together and divide by 10. This reduces the percentage uncertainty b
 ## 4. Risk Assessment
 
 Risk assessment is a required part of practical work at A Level. You must identify hazards, assess
-The risk, and describe precautions.
+the risk, and describe precautions.
 
 ### Risk Assessment Methodology
 
@@ -577,7 +577,7 @@ denser bob to minimise air resistance effects.
 <details>
 <summary>Problem 6</summary>
 Explain the difference between reliability and validity in the context of an experiment to determine
-The speed of sound in air using echo timing.
+the speed of sound in air using echo timing.
 
 **Answer.** **Reliability:** repeating the experiment gives consistent values of the speed of sound.
 This is ensured by using the same apparatus, same distance, same temperature control, and taking
@@ -596,7 +596,7 @@ Speed of sound depends on temperature).
 A student investigates how the resistance of a length of constantan wire changes with temperature.
 The wire is heated in a water bath and its resistance is measured at regular temperature intervals.
 The student"s data shows that the resistance increases linearly with temperature, but the gradient
-Is significantly different from the accepted value. Identify two possible systematic errors in this
+is significantly different from the accepted value. Identify two possible systematic errors in this
 Experiment.
 
 **Answer.** (1) **Contact resistance:** The crocodile clips may add a fixed resistance that is not
@@ -640,8 +640,8 @@ V. Evaluate this result.
 **Answer.** The measured emf ($\mathcal{E} = 1.48$ V) is close to the accepted value (1.50 V),
 Giving a percentage difference of $(1.50 - 1.48)/1.50 \times 100 = 1.3\%$ Which is within typical
 Measurement uncertainty. The internal resistance $r = 1.25 \Omega$. The graph passes approximately
-Through the origin (the x-intercept should be $\mathcal{E}/r = 1.50/1.25 = 1.20$ A). If the line
-Does not pass through the origin on a $V$ vs $I$ plot this is expected (the y-intercept is the emf).
+through the origin (the x-intercept should be $\mathcal{E}/r = 1.50/1.25 = 1.20$ A). If the line
+does not pass through the origin on a $V$ vs $I$ plot this is expected (the y-intercept is the emf).
 To improve accuracy: use a more precise voltmeter, ensure the battery does not heat up (which would
 Change $r$ during the experiment), and take readings quickly to minimise changes in the battery's
 Internal state.
@@ -682,7 +682,7 @@ Valid.
 
 **Validity:** Ensure the wire is within its elastic limit (check by removing masses). Ensure the
 Extension is measured from a fixed reference, not the moving clamp. The experiment is valid only if
-The wire obeys Hooke's law throughout the range used.
+the wire obeys Hooke's law throughout the range used.
 
 <b>If you get this wrong, revise:</b>
 [Worked Example: Planning an Experiment to Determine `g`](/physics/practical-skills/02-experimental-design/)
@@ -692,12 +692,12 @@ The wire obeys Hooke's law throughout the range used.
 <details>
 <summary>Problem 11</summary>
 In an experiment to determine the speed of sound in air, a student claps once and measures the time
-For the echo to return from a wall 50 m away. The student repeats the measurement 5 times and
+for the echo to return from a wall 50 m away. The student repeats the measurement 5 times and
 Obtains the following times: 0.294 s, 0.301 s, 0.288 s, 0.310 s, 0.295 s. The accepted speed of
 Sound at 20°C is 343 m s$^{-1}$.
 
 (a) Calculate the mean time and the percentage uncertainty in the time measurement. (b) Calculate
-The speed of sound from the mean time and compare with the accepted value. (c) Identify the largest
+the speed of sound from the mean time and compare with the accepted value. (c) Identify the largest
 Source of error and suggest an improvement.
 
 **Answer.**

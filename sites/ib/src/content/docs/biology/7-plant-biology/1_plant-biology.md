@@ -198,12 +198,12 @@ A typical flower contains:
 
 **Insect-pollinated flowers**: large, brightly coloured petals; scent; nectar; sticky pollen; stigma
 Inside the flower. **Wind-pollinated flowers**: small, inconspicuous petals; large, feathery stigmas
-To catch pollen; large quantities of lightweight, smooth pollen; anthers hang outside the flower.
+to catch pollen; large quantities of lightweight, smooth pollen; anthers hang outside the flower.
 
 ### Fertilisation
 
 After pollination, the pollen grain germinates on the stigma, producing a **pollen tube** that grows
-Down the style toward the ovule. The pollen tube carries two male gametes.
+down the style toward the ovule. The pollen tube carries two male gametes.
 
 **Double fertilisation** (unique to angiosperms):
 
@@ -399,7 +399,7 @@ Phytochromes exist in two interconvertible forms:
 <summary>Question 1: Transpiration Rate and Environmental Factors</summary>
 
 A plant is moved from a cool, humid, still environment to a warm, dry, windy environment. Describe
-And explain the effect on the transpiration rate.
+and explain the effect on the transpiration rate.
 
 </details>
 
@@ -416,7 +416,7 @@ The transpiration rate will increase significantly. Three factors change simulta
    surface, maintaining a steep water potential gradient.
 
 All three factors increase the rate of water loss, so the plant must increase water uptake through
-The roots to maintain turgor. If water loss exceeds uptake, the plant may wilt.
+the roots to maintain turgor. If water loss exceeds uptake, the plant may wilt.
 
 </details>
 
@@ -435,7 +435,7 @@ Production).
 Sucrose is loaded into the phloem sieve tubes against its concentration gradient (from low
 Concentration in mesophyll cells to high concentration in sieve tubes). This requires **active
 Transport** (via companion cells), consuming ATP. Active loading lowers the water potential inside
-The sieve tube, causing water to enter by osmosis from the xylem, generating the high hydrostatic
+the sieve tube, causing water to enter by osmosis from the xylem, generating the high hydrostatic
 Pressure at the source that drives mass flow.
 
 If ATP production is blocked (e.g., by a metabolic poison), active loading of sucrose cannot occur.
@@ -478,12 +478,12 @@ On the illuminated side of the coleoptile tip. Predict and explain the result.
 
 The coleoptile will **not bend** (it will grow straight). Normally, auxin accumulates on the shaded
 Side, promoting differential cell elongation and causing the coleoptile to bend toward light. In
-This experiment, the impermeable barrier on the illuminated side blocks the lateral redistribution
-Of auxin from the illuminated side to the shaded side. As a result, auxin concentration remains
+this experiment, the impermeable barrier on the illuminated side blocks the lateral redistribution
+of auxin from the illuminated side to the shaded side. As a result, auxin concentration remains
 Equal on both sides, cell elongation is uniform, and the coleoptile grows straight.
 
 Note: if the barrier were placed on the **shaded** side, auxin would accumulate on that side (it
-Cannot move past the barrier), and the coleoptile would still bend toward the light (or potentially
+cannot move past the barrier), and the coleoptile would still bend toward the light (or potentially
 Bend more, as auxin is trapped on the shaded side).
 
 </details>
@@ -567,8 +567,8 @@ depleting internal water reserves).
 **Worked Example: Xylem Water Transport and Cohesion-Tension Theory**
 
 A $10\;\mathrm{m}$ tall tree has a xylem vessel radius of $50\;\mathrm{\mu m}$. The surface tension
-Of water at $20^\circ\mathrm{C}$ is $0.073\;\mathrm{N/m}$ and the contact angle between water and
-The xylem wall is approximately $0^\circ$. Using the capillary rise equation
+of water at $20^\circ\mathrm{C}$ is $0.073\;\mathrm{N/m}$ and the contact angle between water and
+the xylem wall is approximately $0^\circ$. Using the capillary rise equation
 $h = \frac{2\gamma \cos\theta}{\rho g r}$ Calculate whether capillary action alone can account For
 water reaching the top of the tree.
 
@@ -592,7 +592,7 @@ $0.1$--$0.5\;\mathrm{MPa}$) provides a minor additional contribution.
 
 Using an aphid stylet technique, researchers collect phloem sap from a sieve tube at a rate of
 $0.5\;\mathrm{\mu L/h}$. The sucrose concentration in the sap is $250\;\mathrm{mmol/L}$. Calculate
-The mass transfer rate of sucrose in $\mathrm{mg/h}$.
+the mass transfer rate of sucrose in $\mathrm{mg/h}$.
 
 <details>
 <summary>Solution</summary>
@@ -608,7 +608,7 @@ $1.25 \times 10^{-7}\;\mathrm{mol/h} \times 342\;\mathrm{g/mol} = 4.28 \times 10
 Per single sieve tube, this is a modest amount, but a tree trunk may contain thousands of sieve
 Tubes operating simultaneously. For a mature tree with $10000$ active sieve tubes, the total sucrose
 Transport would be approximately $428\;\mathrm{mg/h}$ or $10.3\;\mathrm{g/day}$. This is consistent
-With the observation that photosynthesising leaves can export $50$--$80\%$ of their daily carbon
+with the observation that photosynthesising leaves can export $50$--$80\%$ of their daily carbon
 Gain as sucrose via phloem translocation.
 
 </details>
@@ -648,7 +648,7 @@ Essential role of gibberellin in stimulating seed germination.
 
 The control (no added gibberellin) shows a small amount of maltose release ($10\;\mathrm{mg}$),
 Likely from endogenous gibberellin produced by the embryo or from low basal amylase activity. The
-Much larger response with added gibberellin confirms that the aleurone's amylase production is
+much larger response with added gibberellin confirms that the aleurone's amylase production is
 Gibberellin-dependent.
 
 </details>
@@ -728,7 +728,7 @@ Compare and contrast the anatomical and physiological adaptations of xerophytes 
 Hydrophytes (e.g., water lilies) to their respective environments. In your response, address: (a)
 leaf morphology and surface area, (b) stomatal distribution and regulation, (c) vascular tissue
 Modifications, and (d) support structures. Explain how each adaptation relates to the availability
-Of water in the environment.
+of water in the environment.
 
 </details>
 
@@ -750,7 +750,7 @@ Affect germination ($p = 0.05$ Critical value $= 7.82$ for $3$ degrees of freedo
 
 A researcher places a plant shoot horizontally in darkness. After $2$ hours, the shoot bends upward.
 When the same experiment is repeated with an agar block containing auxin applied asymmetrically to
-One side of a de-tipped shoot, the shoot bends away from the auxin source. (a) Explain the
+one side of a de-tipped shoot, the shoot bends away from the auxin source. (a) Explain the
 Gravitropic response in terms of auxin redistribution and differential cell elongation. (b) Explain
 Why auxin inhibits root elongation but promotes shoot elongation. (c) Describe the statolith
 Hypothesis and explain how amyloplasts function as gravity sensors.
@@ -777,7 +777,7 @@ A long-day plant (e.g., spinach) and a short-day plant (e.g., chrysanthemum) are
 Identical conditions with a $16$-hour photoperiod. (a) Predict which plant will flower and explain
 Why, referring to the role of phytochrome and critical night length. (b) If a flash of red light
 ($660\;\mathrm{nm}$) is given in the middle of the dark period, predict the effect on each species
-And explain the mechanism. (c) If the red light flash is immediately followed by a far-red flash
+and explain the mechanism. (c) If the red light flash is immediately followed by a far-red flash
 ($730\;\mathrm{nm}$), predict the outcome and explain.
 
 </details>
@@ -1221,7 +1221,7 @@ $35^\circ\mathrm{C}$ and $70\%$ humidity.
 
 A source leaf produces sucrose at a rate of $5\;\mathrm{\mu mol/h}$ and loads it into the phloem.
 The sieve tube has a radius of $15\;\mathrm{\mu m}$ and the concentration difference between source
-And sink is $500\;\mathrm{mmol/L}$ ($0.5\;\mathrm{mol/L}$). (a) Explain the mass flow (pressure
+and sink is $500\;\mathrm{mmol/L}$ ($0.5\;\mathrm{mol/L}$). (a) Explain the mass flow (pressure
 flow) Hypothesis of phloem transport. (b) Calculate the osmotic pressure difference using the van't
 Hoff Equation ($\Pi = iCRT$) at $25^\circ\mathrm{C}$. (c) Explain why phloem transport is
 bidirectional, Unlike xylem transport.
@@ -1253,7 +1253,7 @@ This osmotic pressure difference drives water uptake at the source and contribut
 Gradient for mass flow.
 
 (c) Phloem transport can be bidirectional because different sieve tubes (or different sieve elements
-Within the same sieve tube) can transport sap in different directions simultaneously. A leaf can be
+within the same sieve tube) can transport sap in different directions simultaneously. A leaf can be
 A source (exporting sucrose to roots) and a sink (importing sucrose for its own growth) at different
 Times or for different compounds. Xylem transport is always unidirectional (upward, from roots to
 Leaves) because it is driven by transpiration pull (a negative pressure) and root pressure, both of
@@ -1386,8 +1386,8 @@ occurs. This experiment confirms that auxin is the signal responsible for apical
 **Worked Example: Seed Germination and Gibberellins**
 
 A seed of barley (_Hordeum vulgare_) is germinating. The aleurone layer produces amylase in response
-To gibberellic acid ($\mathrm{GA}_3$) from the embryo. (a) Describe the signal transduction pathway
-From $\mathrm{GA}_3$ perception to amylase gene expression. (b) Calculate the rate of starch
+to gibberellic acid ($\mathrm{GA}_3$) from the embryo. (a) Describe the signal transduction pathway
+from $\mathrm{GA}_3$ perception to amylase gene expression. (b) Calculate the rate of starch
 Breakdown if the amylase produces $0.5\;\mathrm{mg}$ of maltose per minute from a starch substrate.
 How long would it take to break down $500\;\mathrm{mg}$ of starch? (c) Explain why this mechanism Is
 important in brewing.
@@ -1566,13 +1566,13 @@ Mobile in the plant and is redistributed from older to younger leaves.
 
 **Iron**: iron is required for chlorophyll synthesis (as a cofactor for enzymes in the chlorophyll
 Biosynthetic pathway), though it is not part of the chlorophyll molecule itself. Iron is immobile in
-The plant (it precipitates as insoluble compounds in older tissues and cannot be remobilised). New
+the plant (it precipitates as insoluble compounds in older tissues and cannot be remobilised). New
 leaves develop chlorosis because they cannot obtain iron from older leaves.
 
 **Calcium**: calcium is a component of the middle lamella (calcium pectate, which cements cell walls
 Together). It is also a signalling ion (second messenger). Calcium is immobile in the phloem (it
-Cannot be remobilised from older tissues). Growing tips and young leaves are affected first because
-They cannot receive calcium from older parts. Blossom end rot results from insufficient calcium
+cannot be remobilised from older tissues). Growing tips and young leaves are affected first because
+they cannot receive calcium from older parts. Blossom end rot results from insufficient calcium
 Delivery to the fruit.
 
 **Phosphorus**: phosphorus is a component of ATP, nucleic acids (DNA, RNA), and phospholipids (cell
@@ -1744,7 +1744,7 @@ dominance.
 
 **Phototropism mechanism**: light is perceived by phototropins (blue-light receptors) on the shoot
 Tip. Auxin is redistributed to the shaded side of the shoot. Cells on the shaded side elongate more
-Than cells on the lit side, causing the shoot to bend toward light.
+than cells on the lit side, causing the shoot to bend toward light.
 
 ### Gibberellins (GAs)
 
@@ -1851,7 +1851,7 @@ dominance). **Decapitation + auxin + cytokinin**: intermediate effect; the outco
 relative Concentrations (cytokinin partially overrides auxin's inhibitory effect).
 
 (b) **Mechanism**: the apical bud is the primary source of auxin, which is transported basipetally
-Through the stem. High auxin in the stem inhibits lateral bud growth (directly, by suppressing Cell
+through the stem. High auxin in the stem inhibits lateral bud growth (directly, by suppressing Cell
 division in lateral bud meristems, and indirectly, by maintaining the stem as a strong nutrient
 Sink). Cytokinin, produced primarily in the roots and transported upward, promotes lateral bud
 growth By stimulating cell division. The balance between auxin (inhibitory) and cytokinin

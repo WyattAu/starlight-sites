@@ -114,7 +114,7 @@ Becomes tedious with frequent Git operations, which is why `ssh-agent` exists.
 
 `ssh-agent` is a daemon that holds your decrypted private keys in memory. Once you add a key to the
 Agent and authenticate once (entering the passphrase), subsequent SSH connections use the cached key
-Without prompting.
+without prompting.
 
 ```bash
 # Start ssh-agent (or verify it is running)
@@ -143,7 +143,7 @@ $ ssh-add -D
 #### Persisting ssh-agent Across Sessions
 
 On Linux, `ssh-agent` does not persist across reboots or terminal sessions. You must start it in
-Each session, or configure your shell to auto-start it:
+each session, or configure your shell to auto-start it:
 
 ```bash
 # Add to ~/.bashrc or ~/.zshrc
@@ -159,7 +159,7 @@ Windows, the OpenSSH Agent service handles this automatically.
 #### ssh-agent Lifetime
 
 The agent retains keys in RAM until it exits or the keys are explicitly removed. For security, you
-Can set a lifetime:
+can set a lifetime:
 
 ```bash
 # Add key with a 1-hour lifetime
@@ -170,7 +170,7 @@ $ ssh-add -t 4h ~/.ssh/id_ed25519
 ```
 
 After the lifetime expires, the key is removed from the agent and you must re-add it (re-entering
-The passphrase).
+the passphrase).
 
 ### Adding the Public Key to a Hosting Platform
 
@@ -367,7 +367,7 @@ $ git push origin main
 
 HTTPS authentication to GitHub and GitLab uses Personal Access Tokens (PATs) instead of passwords.
 GitHub deprecated password authentication for Git operations in August 2021 (and removed it entirely
-In August 2022). GitLab deprecated it in 2022.
+in August 2022). GitLab deprecated it in 2022.
 
 A PAT is a long-lived token (configurable expiry) that acts as a bearer credential for API and Git
 Operations. It can be scoped to limit its permissions.
@@ -415,7 +415,7 @@ $ git clone https://user:ghp_xxxx@github.com/user/repo.git
 ```
 
 Embedding tokens directly in URLs is insecure. The token is stored in plaintext in `.git/config` and
-Is visible in `ps aux` output. Always use credential helpers instead.
+is visible in `ps aux` output. Always use credential helpers instead.
 
 ### Switching Between Protocols
 
@@ -486,7 +486,7 @@ Prompts the user. If no helper is configured, Git falls back to prompting on the
 #### git-credential-cache (In-Memory)
 
 Stores credentials in memory for a configurable duration. The daemon runs as a background process
-And is shared across all terminal sessions.
+and is shared across all terminal sessions.
 
 ```bash
 # Enable with 15-minute default timeout
@@ -548,7 +548,7 @@ $ git config --global credential.helper /usr/lib/git-core/git-credential-libsecr
 #### git-credential-manager-core (Cross-Platform)
 
 Git Credential Manager Core (GCM Core) is maintained by GitHub and supports multiple backends. It is
-The default credential helper on Windows when you install Git for Windows.
+the default credential helper on Windows when you install Git for Windows.
 
 ```bash
 # Install on Linux
@@ -655,11 +655,11 @@ $ git -c protocol.version=1 ls-remote origin
 
 For typical operations, the performance difference between v1 and v2 is modest (5-15% faster for
 `fetch` on repos with thousands of refs). For monorepos with hundreds of thousands of refs, v2 can
-Be 3-5x faster for the initial ref advertisement phase.
+be 3-5x faster for the initial ref advertisement phase.
 
 The real performance win comes from **packfile URIs**, in v2, the server can return a URI for the
 Packfile alongside a thin pack, allowing the client to download the bulk data from a CDN rather than
-The Git server directly. This is used by GitHub and GitLab to reduce load on their origin servers.
+the Git server directly. This is used by GitHub and GitLab to reduce load on their origin servers.
 
 ## When to Use SSH vs HTTPS
 
@@ -828,7 +828,7 @@ $ git config --global credential.helper cache
 ### Committing SSH Private Keys to a Repository
 
 The private key file (`id_ed25519``id_rsa`) must never be committed. It provides full access to
-Every service where the public key is registered.
+every service where the public key is registered.
 
 ```bash
 # Add SSH keys to .gitignore (belt and suspenders)

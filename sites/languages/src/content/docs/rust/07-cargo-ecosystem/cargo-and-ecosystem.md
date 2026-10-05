@@ -206,7 +206,7 @@ shared = { version = "1", features = ["feature-y"] }
 
 In a workspace depending on both `crate-a` and `crate-b``shared` will have both `feature-x` and
 `feature-y` enabled. If `feature-y` has heavy dependencies, `crate-a` users pay the cost even though
-They only requested `feature-x`.
+they only requested `feature-x`.
 
 ### Feature Best Practices
 
@@ -450,7 +450,7 @@ fn test_add_from_external() {
 ```
 
 Each file in `tests/` is compiled as a separate crate, so they cannot access `src/` internals (only
-The public API). The `tests/common/mod.rs` pattern allows sharing test utilities.
+the public API). The `tests/common/mod.rs` pattern allows sharing test utilities.
 
 ### Doc Tests
 
@@ -686,7 +686,7 @@ async fn process_request(id: u64) {
 
 The `#[instrument]` attribute automatically creates a span that logs function entry, exit, and
 Elapsed time. It captures all function arguments by default (use `skip` and `fields` to control what
-Is captured).
+is captured).
 
 ## Key Crates
 

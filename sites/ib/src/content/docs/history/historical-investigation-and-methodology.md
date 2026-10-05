@@ -42,7 +42,7 @@ For an overview of the IA structure within the broader IB History course, see [H
 ### 1.1 Overview
 
 The Historical Investigation is an independent research project worth 20% of the IB History grade at
-Both Standard Level (SL) and Higher Level (HL). It requires students to formulate a research
+both Standard Level (SL) and Higher Level (HL). It requires students to formulate a research
 Question, identify and evaluate sources, conduct a substantive investigation, and reflect on the
 Process. The total word limit is 2,200 words, distributed across three sections.
 
@@ -131,7 +131,7 @@ The following question stems tend to produce strong research questions:
 
 This is far too broad. The causes of the Cold War encompass ideology, economics, geopolitics,
 Personality, and institutional dynamics spanning multiple decades. It cannot be adequately addressed
-In 1,500 words.
+in 1,500 words.
 
 **Bad:** "Was Hitler evil?"
 
@@ -181,7 +181,7 @@ Other media, international vs. Domestic opinion, immediate vs. Long-term impact)
 ### 3.1 Primary Sources
 
 Primary sources are materials produced at the time of the event under study, or by participants in
-Those events. They provide direct, unmediated access to the past, but they must be interpreted
+those events. They provide direct, unmediated access to the past, but they must be interpreted
 Critically.
 
 #### Types of Primary Sources
@@ -198,11 +198,11 @@ Manifestos. Speeches are valuable for understanding the stated intentions and pu
 Historical actors, but they are performative and may not reflect private beliefs or actual
 Intentions. Churchill's speeches during World War II are primary sources that reveal his rhetorical
 Strategy and the image he sought to project; Hitler's speeches reveal his ideological commitments
-And his methods of mass mobilisation.
+and his methods of mass mobilisation.
 
 **Statistics and quantitative data:** Population data, economic indicators, election results,
 Military casualties, trade figures. Quantitative data can be extremely valuable but must be treated
-With caution. Statistics are often collected for administrative purposes and may be incomplete,
+with caution. Statistics are often collected for administrative purposes and may be incomplete,
 Inaccurate, or deliberately manipulated. Soviet economic statistics from the Stalin era were
 Routinely inflated to meet plan targets; Nazi statistics on the Jewish population were collected for
 Genocidal purposes.
@@ -211,8 +211,8 @@ Genocidal purposes.
 Visual sources provide direct evidence of the physical appearance of the past, but they are always
 Constructed representations, not objective records. Photographs are framed, composed, and selected;
 What is outside the frame may be as significant as what is inside it. Robert Capa's photographs of
-The D-Day landings are primary sources of extraordinary power, but they were taken under conditions
-That limit their representativeness.
+the D-Day landings are primary sources of extraordinary power, but they were taken under conditions
+that limit their representativeness.
 
 **Oral histories:** Interviews with participants in historical events, recorded after the fact. Oral
 Histories provide access to the experiences and perspectives of individuals who might otherwise be
@@ -287,8 +287,8 @@ When evaluating a secondary source, consider:
 ### 3.3 OPVL Analysis: Origin, Purpose, Value, and Limitation
 
 OPVL is the standard framework for source evaluation in IB History. It provides a systematic method
-For assessing the value and limitations of a source. When evaluating sources for the IA, address
-Each of the four dimensions.
+for assessing the value and limitations of a source. When evaluating sources for the IA, address
+each of the four dimensions.
 
 #### Origin
 
@@ -331,7 +331,7 @@ Perspective as explicit statements.
 **Example:** Churchill's "Iron Curtain" speech at Fulton, Missouri (5 March 1946) provides direct
 Evidence of Churchill's assessment of the post-war Soviet threat. However, it does not address the
 Extent to which Western actions (the atomic bomb, the delay in opening the Second Front) contributed
-To Soviet insecurity -- a significant omission that reflects Churchill's perspective.
+to Soviet insecurity -- a significant omission that reflects Churchill's perspective.
 
 #### Value
 
@@ -357,7 +357,7 @@ Tied to the source's origin, purpose, and content.
 
 **Example:** "However, the Zimmermann Telegram is limited because it represents only the German
 Perspective on the proposed alliance with Mexico. It does not reveal whether the Mexican government
-Would have been willing to accept the German proposal, nor does it provide evidence of how the
+would have been willing to accept the German proposal, nor does it provide evidence of how the
 Proposal was received in Mexico. Additionally, as a diplomatic communication, it reflects the
 Strategic calculations of German policymakers rather than the full range of factors influencing
 German decision-making."
@@ -432,7 +432,7 @@ Analysis of interrogation records and memoirs.
 ### 4.2 Comparative Method
 
 Comparative analysis is a central methodology in IB History. It involves the systematic comparison
-Of two or more cases along defined dimensions:
+of two or more cases along defined dimensions:
 
 - **Define the criteria for comparison:** Before comparing, identify the specific dimensions along
   which the comparison will be made (e.g., methods of gaining power, economic policies, treatment of
@@ -448,10 +448,10 @@ Of two or more cases along defined dimensions:
 ### 4.3 Longitudinal Approach
 
 A longitudinal approach examines change over time within a single case. This is particularly useful
-For questions about causation, turning points, and the pace and direction of change. A longitudinal
+for questions about causation, turning points, and the pace and direction of change. A longitudinal
 Study of the Cold War, for example, might trace the evolution of superpower relations from
 Confrontation through detente to renewed tension and eventual resolution, identifying the factors
-That drove each phase.
+that drove each phase.
 
 ### Common Pitfalls: Research Methods
 
@@ -484,7 +484,7 @@ That drove each phase.
 
 Historiography is the study of how history has been written -- how interpretations of events have
 Changed over time, why they have changed, and what those changes reveal about the relationship
-Between the past and the present.
+between the past and the present.
 
 Understanding historiography is essential for IB History for several reasons:
 

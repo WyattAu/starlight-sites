@@ -23,7 +23,7 @@ tableOfContents: false
 **Question:** A perfectly competitive firm has total cost $TC = 200 + 10Q + 0.5Q^2$ and faces a
 Market price of $\$50$. (a) Calculate the profit-maximising output. (b) Calculate the profit at this
 Output. (c) Determine whether the firm is in the short run or long run equilibrium. (d) Calculate
-The shutdown price.
+the shutdown price.
 
 **Solution:**
 
@@ -37,7 +37,7 @@ $= TR - TC = 50(40) - [200 + 10(40) + 0.5(40)^2] = 2000 - [200 + 400 + 800] = 20
 Perfect competition, economic profit $= 0$ (firms enter until price $=$ minimum ATC).
 
 (d) Shutdown price $= $ minimum AVC. $VC = 10Q + 0.5Q^2$ So $AVC = 10 + 0.5Q$. Minimum AVC occurs
-Where $\frac{\text{dAVC}}{    ext{dQ}} = 0.5 = 0$ Which is at $Q = 0$. At $Q = 0$: $AVC = 10$. So the
+where $\frac{\text{dAVC}}{    ext{dQ}} = 0.5 = 0$ Which is at $Q = 0$. At $Q = 0$: $AVC = 10$. So the
 Shutdown price is $\$10$. If price falls below $\$10$ The firm shuts down because it cannot even
 Cover its variable costs.
 
@@ -45,7 +45,7 @@ Cover its variable costs.
 
 **Question:** A monopolist faces demand $P = 100 - 2Q$ and has total cost $TC = 50 + 10Q + Q^2$. (a)
 Calculate the profit-maximising price and quantity. (b) Calculate the monopolist"s profit. (c) What
-Would the price and quantity be under perfect competition? (d) Calculate the deadweight loss of
+would the price and quantity be under perfect competition? (d) Calculate the deadweight loss of
 Monopoly.
 
 **Solution:**
@@ -63,7 +63,7 @@ $P_c = 100 - 2(22.5) = \$55$.
 $DWL = \frac{1}{2} \times (P_m - P_c) \times (Q_c - Q_m) = \frac{1}{2} \times (70 - 55) \times (22.5 - 15) = \frac{1}{2} \times 15 \times 7.5 = \$56.25$.
 
 The deadweight loss represents the loss of total surplus due to the monopolist restricting output
-And raising price above the competitive level.
+and raising price above the competitive level.
 
 ### UT-3: Monopolistic Competition in the Long Run
 
@@ -71,7 +71,7 @@ And raising price above the competitive level.
 $TC = 100 + 20Q + 0.5Q^2$. (a) Calculate the short-run profit-maximising output, price, and profit.
 (b) In the long run, new firms enter. What condition defines long-run equilibrium? (c) If in
 Long-run equilibrium the demand shifts to $P = a - Q$ and costs remain the same, calculate the value
-Of $a$ where economic profit is zero.
+of $a$ where economic profit is zero.
 
 **Solution:**
 
@@ -169,7 +169,7 @@ $DWL_d = \frac{1}{2}(22 - 4)(72 - 36) + \frac{1}{2}(12 - 4)(32 - 16) = \frac{1}{
 
 (d) To maximise social welfare, the government could regulate the cinema to charge $P = MC = \$4$
 (marginal cost pricing). This would eliminate deadweight loss entirely but leave the cinema unable
-To cover any fixed costs (which are zero in this case, so it is feasible). With positive fixed
+to cover any fixed costs (which are zero in this case, so it is feasible). With positive fixed
 Costs, the government might use average cost pricing instead.
 
 ### IT-2: Oligopoly and Game Theory (with Demand and Supply)
@@ -200,7 +200,7 @@ Individual incentive to deviate from cooperation leads to a worse outcome for bo
 
 (c) If they collude at (High, High), each earns 80 -- more than the Nash equilibrium of 50. However,
 Collusion is unstable because each firm has an incentive to secretly cut price to Low, earning 100
-While the other still charges High. Once one firm cheats, the other retaliates, and both end up at
+while the other still charges High. Once one firm cheats, the other retaliates, and both end up at
 (Low, Low). This is why cartels tend to break down without enforcement mechanisms.
 
 (d) Cournot: each firm chooses $q_i$ taking the other's output as given. $Q = q_A + q_B$.

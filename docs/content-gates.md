@@ -42,21 +42,41 @@ visual defect found in the content layer.
 
 ## 4. Prose damage lint (`scripts/fix-prose-damage.py --check`)
 
-The em-dash normalization pass also ate punctuation *inside* prose:
+The em-dash normalization pass also ate punctuation *inside* prose. Four
+mechanical classes, repaired:
 
 - `Fermat"s Little Theorem` — curly closing quote used as an apostrophe (578)
 - `$1 \pmod{m}$Where $\phi$ is` — inline math glued to the following word (8,520)
 - `$p = 0.6$$q = 0.3$After` — spaces removed *between* adjacent spans too, so
   the glued span's opening `$` is preceded by another `$`
+- `fewest evolutionary changes` + `Is preferred.` — the pass hard-wrapped
+  paragraphs and capitalised every continuation line (~8,400 of them)
 
-The repair is deliberately conservative: it never changes letter case, never
-edits inside a formula, and skips fenced code and inline code spans. Detecting
-the glue class needs remark-math's own delimiter rule (the opening `$` must not
-follow a word character, and must be followed by non-whitespace) — otherwise
-the *gap between two spans* reads as a span and the fixer corrupts correct
-prose like `$x - a$ divides $P(x)$ iff $P(a) = 0$`. 21 unit tests pin both
-directions, including a regression for a `--check`/fixer fence-handling
-mismatch.
+The repair is deliberately conservative: it never edits inside a formula,
+skips fenced code and inline code spans, and `--check` uses the same fence
+handling as the fixer (a mismatch there had the gate reporting shell snippets
+the fixer correctly ignored). Detecting the glue class needs remark-math's own
+delimiter rule — the opening `$` must not follow a word character and must be
+followed by non-whitespace — otherwise the *gap between two spans* reads as a
+span and the fixer corrupts correct prose like
+`$x - a$ divides $P(x)$ iff $P(a) = 0$`.
+
+The capitalisation class is the dangerous one, because the same shape occurs in
+correct prose:
+
+```
+It serves as the gateway to the
+International Mathematical Olympiad team
+```
+
+Lower-casing that is a serious content regression. The discriminator is
+grammatical class: closed-class English words (articles, conjunctions,
+prepositions, auxiliaries, demonstratives, pronouns) can never open a proper
+noun. Only those are repaired, plus the `Non-` prefix. Content words —
+`Function`, `Type`, `Time`, `Memory`, `Data`, `Compiler` — are legitimately
+capitalised inside technical terms and are left alone; ~33,700 of them stay a
+worklist. 31 unit tests pin both directions, because a fixer that
+"improves" undamaged prose is worse than no fixer at all.
 
 Not repaired, tracked via `--report`: the run-on class `$...$ Then`, where the
 math closed a sentence and the full stop was eaten. Restoring the stop also

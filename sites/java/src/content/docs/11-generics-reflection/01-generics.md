@@ -34,7 +34,7 @@ String name = (String) names.get(1); // ClassCastException at runtime
 ```
 
 This was the standard pattern for container classes. The `Collections` framework, Hibernate, and
-Every library that dealt with heterogeneous data required the programmer to track types mentally.
+every library that dealt with heterogeneous data required the programmer to track types mentally.
 Incorrect casts surfaced as `ClassCastException` at runtime, often far from the actual insertion
 Point.
 
@@ -117,7 +117,7 @@ public interface Comparable<T> {
 ```
 
 A class can implement a generic interface with a concrete type or pass its own type parameter
-Through:
+through:
 
 ```java
 public class StringRepository implements Repository<String, Long> {
@@ -133,7 +133,7 @@ public class InMemoryRepository<T, ID> implements Repository<T, ID> {
 ### Generic Methods
 
 A generic method declares its own type parameters before the return type. This allows the method to
-Be generic even if the enclosing class is not:
+be generic even if the enclosing class is not:
 
 ```java
 public class Util {
@@ -213,7 +213,7 @@ public static <T extends Comparable<T>> void sort(List<T> list) {
 ```
 
 Upper bounds are the most common form. They say "I need to **read** from `T`" (I need it to be at
-Least this capable).
+least this capable).
 
 ### Lower Bounds (`super`)
 
@@ -266,7 +266,7 @@ Cast at the call site. But at the bytecode level, the erased type is only the fi
 ### Unbounded Wildcard (`?`)
 
 `List<?>` means "a list of some unknown type." You can **read** from it (getting `Object`) but you
-Cannot **write** to it (except `null`):
+cannot **write** to it (except `null`):
 
 ```java
 void printSize(List<?> list) {
@@ -349,7 +349,7 @@ Collections.copy(dest, src); // dest is ? super Integer, src is ? extends Intege
 ### Wildcard Capture
 
 When the compiler encounters a wildcard type, it internally creates a "capture" of the unknown type
-To track consistency. You can see this in error messages:
+to track consistency. You can see this in error messages:
 
 ```java
 List<?> list = new ArrayList<String>();
@@ -447,7 +447,7 @@ Type erasure was a deliberate design decision to achieve **backwards compatibili
    the inserted casts.
 
 C# chose the opposite approach (reified generics), which provides richer runtime type information
-But broke backwards compatibility.
+but broke backwards compatibility.
 
 ### Bridge Methods
 
@@ -631,7 +631,7 @@ public class Container<T> {
 ```
 
 The compiler cannot generate the correct bytecode because it doesn't know what type `T` represents
-At runtime. It cannot emit `newarray` or `anewarray` without a concrete class reference.
+at runtime. It cannot emit `newarray` or `anewarray` without a concrete class reference.
 
 ### Why `new T()` Is Also Illegal
 
@@ -644,7 +644,7 @@ public class Factory<T> {
 ```
 
 Same reason: the erased code would need to be `return new Object()` which is wrong for any `T` other
-Than `Object`.
+than `Object`.
 
 ### Workarounds for Creating `T` Instances
 
@@ -776,7 +776,7 @@ Parameter is gone at runtime.
 ### Heap Pollution
 
 Heap pollution occurs when a variable of a parameterized type refers to an object that is not of
-That type. This happens through unchecked casts or mixing raw and generic types:
+that type. This happens through unchecked casts or mixing raw and generic types:
 
 ```java
 List raw = new ArrayList<Integer>();
@@ -807,7 +807,7 @@ addToList(strings, ints.toArray()); // Object[] of Integer assigned to T... wher
 ```
 
 Use `@SafeVarargs` only when the method does not store the varargs array or expose it to code that
-Might perform unsafe operations.
+might perform unsafe operations.
 
 ### Unchecked Warnings
 

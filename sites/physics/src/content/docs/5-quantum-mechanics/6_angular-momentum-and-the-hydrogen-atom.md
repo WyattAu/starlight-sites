@@ -277,7 +277,7 @@ $\Delta n$ is unrestricted (energy conservation determines which transitions are
 
 _Proof sketch._ The matrix element $\langle n'l'm'|\hat{z}|nlm\rangle$ involves the integral
 $\int Y_{l'}^{m'*}(\theta,\phi)\cos\theta\,Y_l^m(\theta,\phi)\,d\Omega$. Using the addition theorem
-For spherical harmonics, $\cos\theta = \sqrt{4\pi/3}\,Y_1^0$ The integral becomes a product of
+for spherical harmonics, $\cos\theta = \sqrt{4\pi/3}\,Y_1^0$ The integral becomes a product of
 Clebsch-Gordan coefficients that vanishes unless $l' = l \pm 1$ and $m' = m$. $\blacksquare$
 
 ### 6.6 Orbital Shapes and Quantum Numbers

@@ -18,7 +18,7 @@ description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as f
 ## The Incident Response Lifecycle
 
 NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection
-And Analysis, Containment Eradication and Recovery, and Post-Incident Activity.
+and Analysis, Containment Eradication and Recovery, and Post-Incident Activity.
 
 ```mermaid
 graph TD
@@ -38,7 +38,7 @@ graph TD
 ```
 
 The lifecycle is not strictly linear. Detection may happen during containment. Recovery may reveal
-The need for additional eradication. Post-incident analysis feeds back into preparation, improving
+the need for additional eradication. Post-incident analysis feeds back into preparation, improving
 Readiness for the next incident.
 
 ## Preparation
@@ -113,7 +113,7 @@ Pressure and ensure consistent, repeatable responses.
 
 Tabletop exercises are discussion-based simulations where the IR team walks through a hypothetical
 Incident scenario. They test the plan, identify gaps, and build muscle memory without the pressure
-Of a real incident.
+of a real incident.
 
 **Exercise structure:**
 
@@ -153,7 +153,7 @@ Of a real incident.
 ### Alert Triage
 
 Not every alert is an incident. Effective triage distinguishes true positives from false positives
-And prioritizes by severity.
+and prioritizes by severity.
 
 **Triage decision tree:**
 
@@ -293,7 +293,7 @@ graph LR
 ## Containment
 
 Containment limits the damage by isolating affected systems and preventing further spread. The goal
-Is to stop the bleeding without destroying evidence.
+is to stop the bleeding without destroying evidence.
 
 ### Short-Term Containment
 
@@ -403,7 +403,7 @@ Malicious artifacts, and addressing the vulnerability that allowed the compromis
 
 :::caution
 Created backdoors that survive apparent cleanup. The safest approach is to rebuild affected systems
-From known-good images rather than attempting in-place cleanup.
+from known-good images rather than attempting in-place cleanup.
 
 ## Recovery
 
@@ -669,7 +669,7 @@ A dedicated communication channel (Slack, Teams) and define who communicates wha
 ### Pitfall 5: Not Learning from Incidents
 
 The post-mortem is the most valuable phase of incident response. Organizations that skip it or treat
-It as a formality will repeat the same mistakes. A blameless culture that focuses on systemic
+it as a formality will repeat the same mistakes. A blameless culture that focuses on systemic
 Improvement, not individual fault, produces better security outcomes.
 
 ### Pitfall 6: Paying Ransomware Demands
@@ -677,7 +677,7 @@ Improvement, not individual fault, produces better security outcomes.
 Paying a ransom does not guarantee data recovery, funds criminal organizations, and signals to
 Attackers that your organization will pay. Worse, paying once makes you a repeat target. Maintain
 Tested, immutable backups as the primary recovery mechanism. Pay only as an absolute last resort
-With legal guidance.
+with legal guidance.
 
 ### Pitfall 7: Ignoring Small Incidents
 
@@ -801,7 +801,7 @@ Organization, while the blue team (defenders) attempts to detect and stop them.
 
 Red team exercises should be conducted by an independent team (internal red team or external
 Consultant) that does not share detection rules or playbooks with the blue team. The goal is to test
-The blue team's actual detection and response capability, not to validate known detections.
+the blue team's actual detection and response capability, not to validate known detections.
 
 ### Communication Templates
 

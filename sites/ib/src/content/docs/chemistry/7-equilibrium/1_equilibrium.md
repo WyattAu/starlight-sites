@@ -140,7 +140,7 @@ $$
 ### Statement
 
 If a system at equilibrium is subjected to a change, the system will shift to counteract that change
-And restore equilibrium.
+and restore equilibrium.
 
 ### Effect of Concentration Changes
 
@@ -578,7 +578,7 @@ What happens when the pressure is increased?
 
 The product side has 2 moles of gas, the reactant side has 3. The equilibrium shifts to the right
 (fewer moles of gas), increasing [SO$_3$]. Note that $K_p$ is a constant at a given temperature and
-Does not change; only the equilibrium position shifts.
+does not change; only the equilibrium position shifts.
 
 ### Question 2 (Paper 2 style)
 
@@ -667,7 +667,7 @@ flowchart TD
 
 :::tip[Exam Strategy]
 For equilibrium calculations, always set up an ICE table. For Le Chatelier questions, be precise
-About what changes and what stays the same (only $K$ changes with temperature). For acid-base
+about what changes and what stays the same (only $K$ changes with temperature). For acid-base
 Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$ Check the
 Stoichiometry carefully.
 
@@ -845,7 +845,7 @@ Exothermic reaction reduces $K$).
 **(b)** Explain the effect of increasing pressure on the equilibrium yield of SO$_3$.
 
 There are 3 moles of gas on the left and 2 on the right. Increasing pressure shifts the equilibrium
-To the right (fewer moles), increasing the yield of SO$_3$.
+to the right (fewer moles), increasing the yield of SO$_3$.
 
 **(c)** Explain why a catalyst does not change the equilibrium yield.
 
@@ -893,7 +893,7 @@ $$
 $$
 
 **(b)** Will a precipitate form when $50\mathrm{ mL}$ of $0.010\mathrm{ M}$ Pb(NO$_3$)$_2$ is mixed
-With $50\mathrm{ mL}$ of $0.020\mathrm{ M}$ KI?
+with $50\mathrm{ mL}$ of $0.020\mathrm{ M}$ KI?
 
 After mixing (volumes double, concentrations halve):
 

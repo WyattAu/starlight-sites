@@ -90,7 +90,7 @@ $D = (Q_D, \Sigma, \delta_D, q_0", F_D)$:
 4. $F_D = \{S \subseteq Q_N \mid S \cap F_N \neq \emptyset\}$
 
 The DFA tracks the set of all states the NFA could be in. Since $Q_N$ is finite, $Q_D$ is finite (at
-Most $2^{|Q_N|}$ states). The DFA accepts exactly the same strings as the NFA. $\square$
+most $2^{|Q_N|}$ states). The DFA accepts exactly the same strings as the NFA. $\square$
 
 **Corollary.** The class of regular languages is closed under union, intersection, complementation,
 Concatenation, and Kleene star.
@@ -248,7 +248,7 @@ Both cases lead to contradictions, so $H$ cannot exist. $\square$
 
 **Corollary.** The halting problem is semi-decidable (recursively enumerable): we can build a
 Machine that accepts when $M$ halts on $w$ But it cannot always reject when $M$ doesn't halt (it
-Would have to run forever).
+would have to run forever).
 
 <hr />
 
@@ -497,7 +497,7 @@ This TM $M$ always halts and correctly decides $L$. Since $L$ was arbitrary, eve
 Language would be decidable.
 
 But we know the halting problem is undecidable, so there must exist semi-decidable languages that
-Are not decidable (e.g., the halting problem itself). $\square$
+are not decidable (e.g., the halting problem itself). $\square$
 
 </details>
 
@@ -533,10 +533,10 @@ No. The complement of the halting problem is **not** semi-decidable.
 
 **Proof.** If both a language $L$ and its complement $\overline{L}$ were semi-decidable, then $L$
 Would be decidable (run both semi-decidable machines in parallel; one must eventually halt, giving
-The answer).
+the answer).
 
 The halting problem is semi-decidable (run the TM and accept when it halts). If its complement were
-Also semi-decidable, the halting problem would be decidable, but we proved it's not. Therefore, the
+also semi-decidable, the halting problem would be decidable, but we proved it's not. Therefore, the
 Complement of the halting problem is not semi-decidable. $\square$
 
 </details>
@@ -575,7 +575,7 @@ Algorithm) is computable by a Turing machine.
 
 **Why it's a thesis, not a theorem:** "Effectively computable" is an informal, intuitive concept,
 It refers to any step-by-step procedure that a human could follow with pen and paper (or a computer
-Could execute). Since this is not a mathematically precise definition, we cannot formally prove that
+could execute). Since this is not a mathematically precise definition, we cannot formally prove that
 Turing machines capture all of "computation." However, every reasonable model of computation
 Proposed (lambda calculus, μ-recursive functions, register machines, modern programming languages)
 Has been shown to be equivalent to Turing machines, providing overwhelming evidence for the thesis.

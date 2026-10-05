@@ -847,7 +847,7 @@ $$
 $$
 
 This is an $S_N2$ reaction. The product is butanenitrile. The importance is that the carbon chain
-Has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently be hydrolysed to a
+has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently be hydrolysed to a
 Carboxylic acid, providing a route to chain-elongated compounds.
 
 ---

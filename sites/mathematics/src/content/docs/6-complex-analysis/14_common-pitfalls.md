@@ -20,7 +20,7 @@ description: "Differentiability. The partial derivatives must also be continuous
 :::caution
 Differentiability. The partial derivatives must also be continuous. For example,
 $f(z) = \exp(-1/z^4)$ extended by $f(0) = 0$ satisfies the Cauchy-Riemann equations at the origin
-But is not differentiable there.
+but is not differentiable there.
 :::
 
 :::caution
@@ -47,7 +47,7 @@ Point. At $z = 0$ It is not conformal because $f'(0) = 0$.
 :::caution
 Interior, but the minimum can occur in the interior (e.g., $f(z) = z$ on the unit disk has minimum
 $|f| = 0$ at $z = 0$). For the minimum principle, one needs the additional hypothesis that $f$ has
-No zeros in the domain.
+no zeros in the domain.
 :::
 
 :::caution

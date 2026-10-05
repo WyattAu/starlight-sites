@@ -160,7 +160,7 @@ The noise floor. In dense environments, interference often dominates over therma
 And frame aggregation (A-MPDU, A-MSDU). These dramatically improved throughput and efficiency.
 
 **802.11ac (Wi-Fi 5):** Added wider channels (80/160 MHz), MU-MIMO (Multi-User MIMO) for downlink
-Only, 256-QAM modulation (8 bits per symbol), and explicit beamforming.
+only, 256-QAM modulation (8 bits per symbol), and explicit beamforming.
 
 **802.11ax (Wi-Fi 6/6E):** Introduced OFDMA (Orthogonal Frequency Division Multiple Access) for
 Efficient multi-user operation in both directions, BSS Coloring to reduce co-channel interference,
@@ -173,7 +173,7 @@ Flexible OFDMA scheduling.
 ### Theoretical vs Actual Throughput
 
 The PHY rate in the table above is the raw physical layer rate. Actual application-layer throughput
-Is significantly lower due to:
+is significantly lower due to:
 
 - 802.11 overhead: interframe spacing, ACKs, headers
 - Half-duplex nature: only one station transmits at a time
@@ -226,7 +226,7 @@ Emergency communication. No central management, no roaming support, and limited 
 
 **Fat AP (Autonomous AP):** The AP runs the full wireless protocol stack, handles all management
 Functions (authentication, roaming, RF management), and makes independent decisions. Configuration
-Is done on each AP individually. Scaling beyond a few APs becomes operationally burdensome.
+is done on each AP individually. Scaling beyond a few APs becomes operationally burdensome.
 
 **Thin AP (Lightweight AP):** The AP handles only the real-time 802.11 MAC layer functions. All
 Management, configuration, and policy decisions are made by a Wireless LAN Controller (WLC). The AP
@@ -251,8 +251,8 @@ CAPWAP (RFC 5415) defines the protocol between a WLC and its APs. It runs over U
 - **Data channel:** UDP port 5247 -- carries encapsulated client data frames.
 
 CAPWAP can operate in native (Layer 2) or tunnel (Layer 3) mode. In Layer 3 mode, the CAPWAP packets
-Are routed through the IP network, allowing the controller to be anywhere on the network, not just
-On the same subnet as the APs.
+are routed through the IP network, allowing the controller to be anywhere on the network, not just
+on the same subnet as the APs.
 
 ## 802.11 Frame Types
 
@@ -300,7 +300,7 @@ Control frames assist in the delivery of data frames. They do not carry upper-la
 
 RTS/CTS is used to mitigate the hidden node problem. Before transmitting a data frame, the sender
 Broadcasts an RTS. The receiver responds with a CTS. All stations hearing the CTS defer transmission
-For the duration specified in the CTS, even if they did not hear the RTS.
+for the duration specified in the CTS, even if they did not hear the RTS.
 
 ### Data Frames
 
@@ -350,7 +350,7 @@ WPA was an interim solution designed to address WEP's weaknesses before 802.11i 
 - **Key derivation:** PBKDF2 with 4096 iterations, HMAC-SHA1
 
 WPA is also broken. TKIP's Michael MIC can be forged, and the Beck-Tews attack (2009) can recover
-The keystream and inject packets within 12-15 minutes.
+the keystream and inject packets within 12-15 minutes.
 
 ### WPA2 (802.11i) -- Minimum Acceptable
 
@@ -409,7 +409,7 @@ Encrypted link that protects against passive eavesdropping but does not authenti
 
 The EAP (Extensible Authentication Protocol) runs between the supplicant and the authentication
 Server, encapsulated in EAPOL (EAP over LAN) between the supplicant and authenticator, and RADIUS
-Between the authenticator and the authentication server.
+between the authenticator and the authentication server.
 
 Common EAP methods:
 
@@ -433,7 +433,7 @@ Adjacent channels, only three non-overlapping channels are available:
 - **Channel 11:** 2462 MHz (center)
 
 In the United States, channels 1-11 are available. In Europe and most other regions, channels 1-13
-Are available. Channel 14 (2484 MHz) is available only in Japan.
+are available. Channel 14 (2484 MHz) is available only in Japan.
 
 Using overlapping channels (e.g., channels 1, 2, 3) causes co-channel interference and severely
 Degrades performance. Always use channels 1, 6, and 11 in a 2.4 GHz deployment.
@@ -495,7 +495,7 @@ Channel bonding combines adjacent 20 MHz channels into wider channels for higher
 | 320 MHz      | 16                | ~16x            | Extreme           |
 
 In the 2.4 GHz band, bonding 40 MHz consumes the entire available spectrum, leaving no room for
-Other channels. In the 5 GHz band, 80 MHz bonding is common but requires careful channel planning.
+other channels. In the 5 GHz band, 80 MHz bonding is common but requires careful channel planning.
 In the 6 GHz band (Wi-Fi 6E/7), 160 MHz and even 320 MHz channels are practical due to the vast
 Available spectrum.
 
@@ -537,7 +537,7 @@ Phones, radar (5 GHz DFS channels), and medical equipment. These sources raise t
 Cause frame retransmissions.
 
 Mitigation: Use spectrum analysis to identify non-Wi-Fi interferers. Relocate APs or switch to 5 GHz
-Where non-Wi-Fi interference is less prevalent.
+where non-Wi-Fi interference is less prevalent.
 
 ### Diagnostic Tools
 
@@ -681,7 +681,7 @@ before deployment.
 
 Note that PoE power is delivered over Cat5e or better cable at distances up to 100 meters. Power
 Dissipation in the cable increases with distance, so an AP at 100 meters receives less usable power
-Than one at 30 meters. The IEEE standards specify the minimum power guaranteed at the powered device
+than one at 30 meters. The IEEE standards specify the minimum power guaranteed at the powered device
 (PD): 12.95 W for 802.3af, 25.5 W for 802.3at, 51 W for Type 3, and 73 W for Type 4.
 
 ### Roaming Optimization
@@ -728,7 +728,7 @@ Underutilized.
 ### WPA2 Enterprise Without Certificates
 
 Using PEAP-MSCHAPv2 without properly validating the server certificate means clients are vulnerable
-To evil twin attacks. An attacker can set up a rogue AP with a self-signed certificate and capture
+to evil twin attacks. An attacker can set up a rogue AP with a self-signed certificate and capture
 User credentials.
 
 ### Not Planning for DFS Events
@@ -766,7 +766,7 @@ $$
 $$
 
 An SNR of 36 dB is in the "Excellent" range, supporting the highest MCS rates. This is well above
-The minimum for reliable data throughput.
+the minimum for reliable data throughput.
 
 </details>
 
@@ -870,7 +870,7 @@ Retransmissions, and interference. This illustrates why mesh hops should be mini
 
 Two APs are on the same 5 GHz channel (channel 36). Each AP has 5 associated clients, and all
 Clients are actively transmitting. If the channel utilization is at 80% (meaning 80% of the airtime
-Is occupied), estimate the per-client throughput assuming each client's traffic is symmetric (equal
+is occupied), estimate the per-client throughput assuming each client's traffic is symmetric (equal
 Upload and download) and the PHY rate is 300 Mbps.
 
 <details>

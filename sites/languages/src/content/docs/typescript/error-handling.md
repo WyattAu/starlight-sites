@@ -22,7 +22,7 @@ categories: [TypeScript]
 
 The `never` type is the **bottom type** of the TypeScript type system. It has no inhabitants: no
 Value of type `never` can exist at runtime. It is a subtype of every type, and no type is a subtype
-Of `never` (except `never` itself).
+of `never` (except `never` itself).
 
 `never` appears in two principal contexts:
 
@@ -96,7 +96,7 @@ assignable to `never`.
 
 `any` disables the type system entirely. A value typed as `any` can be used as any type, and any
 Value can be assigned to it. `unknown` is the type-safe alternative: it can hold any value, but it
-Must be narrowed before use.
+must be narrowed before use.
 
 ### `unknown` for Error Handling
 
@@ -292,7 +292,7 @@ function safeParse(json: string): unknown {
 ### The `finally` Block
 
 The `finally` block always executes, even when `try` or `catch` returns or throws. TypeScript does
-Not narrow types across `finally` boundaries because the control flow is non-local:
+not narrow types across `finally` boundaries because the control flow is non-local:
 
 ```ts
 function example(): string {

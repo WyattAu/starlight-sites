@@ -63,8 +63,8 @@ Developer gets a 25-year loan. Both parties are better off than without intermed
 | **Information intermediation** | Assessing borrower creditworthiness (reducing asymmetric information) | Banks performing credit checks before lending        |
 
 The problem of **asymmetric information** is central to financial intermediation. Borrowers know
-More about their own risk than lenders do. This leads to **adverse selection** (risky borrowers are
-Most eager to borrow) and **moral hazard** (borrowers may take excessive risks after receiving a
+more about their own risk than lenders do. This leads to **adverse selection** (risky borrowers are
+most eager to borrow) and **moral hazard** (borrowers may take excessive risks after receiving a
 Loan). Banks mitigate both through screening, monitoring, and collateral requirements.
 
 ### 1.2 Central Banks
@@ -86,7 +86,7 @@ The **central bank** (Bank of England, ECB, Federal Reserve) performs:
 
 :::note
 Monetary Policy Committee (MPC): 9 members, meets 8 times per year, sets the Bank Rate to achieve
-The 2% CPI inflation target. CIE (9708) focuses more on the _functions_ of central banks Rather than
+the 2% CPI inflation target. CIE (9708) focuses more on the _functions_ of central banks Rather than
 a specific institution. OCR expects you to distinguish between the central bank's roles In monetary
 stability and financial stability, and to evaluate whether these roles can conflict.
 :::
@@ -102,7 +102,7 @@ Markets to prevent fire sales), and lender of last resort (supporting commercial
 In 1997) is argued to improve policy credibility and anchor inflation expectations. However, critics
 Argue that unelected officials setting interest rates is democratically illegitimate, and that QE
 Decisions (which redistribute wealth and affect government borrowing costs) are fiscal policy by
-Another name. During the 2022 cost-of-living crisis, the BoE faced criticism for being slow to raise
+another name. During the 2022 cost-of-living crisis, the BoE faced criticism for being slow to raise
 Rates despite inflation exceeding 10%, raising questions about whether independence truly delivers
 Better outcomes.
 
@@ -172,11 +172,11 @@ In practice, the actual money multiplier differs from $1/rr$ because:
 
 **Evaluation, which model is correct?** The textbook money multiplier model implies a causal chain:
 Central bank creates reserves, banks lend, money supply expands. The endogenous money model reverses
-This: banks lend first (creating deposits), then obtain reserves as needed from the interbank market
-Or central bank. In the UK, Canada, and many other modern banking systems, there are no binding
+this: banks lend first (creating deposits), then obtain reserves as needed from the interbank market
+or central bank. In the UK, Canada, and many other modern banking systems, there are no binding
 Reserve requirements, lending is capital-constrained rather than reserve-constrained, and the
 Central bank sets the price of reserves (the interest rate) rather than the quantity. This supports
-The endogenous money view. However, for exam purposes, the money multiplier remains the standard
+the endogenous money view. However, for exam purposes, the money multiplier remains the standard
 Model on most A Level specifications.
 
 :::note
@@ -266,7 +266,7 @@ Yield curve also inverted briefly in 2019, signalling expectations of BoE rate c
 As a predictor. Edexcel may link the yield curve to business investment decisions (firms use
 Long-term rates to evaluate projects). OCR emphasises the expectations theory and liquidity
 Preference theory of the term structure. CIE generally does not examine the yield curve in depth but
-May ask about the relationship between bond prices and interest rates.
+may ask about the relationship between bond prices and interest rates.
 :::
 
 ## 4. Monetary Policy
@@ -328,7 +328,7 @@ investment is more responsive to rate changes when firms are highly leveraged an
 Diagrams. Edexcel requires a clear chain of reasoning from the interest rate change to the final
 Impact on AD, inflation, and employment. OCR is particularly interested in the _limitations_ of
 Monetary policy transmission, time lags, interest elasticity, and the liquidity trap. CIE expects a
-More formal diagrammatic analysis using the IS-LM framework (though not all centres teach IS-LM, so
+more formal diagrammatic analysis using the IS-LM framework (though not all centres teach IS-LM, so
 Check with your teacher).
 :::
 
@@ -393,9 +393,9 @@ QE was first used extensively after the 2008 financial crisis and again during C
 **Evaluation, was QE effective?**
 
 Evidence from the UK: the BoE's own estimates suggest that the GBP 895 billion of QE conducted
-Between 2009 and 2022 boosted GDP by around 1.5-2% and raised inflation by 0.75-1.5 percentage
+between 2009 and 2022 boosted GDP by around 1.5-2% and raised inflation by 0.75-1.5 percentage
 Points. However, the distributional effects were significant: the Bank of England estimated in 2012
-That its QE programme had increased the wealth of the top 5% of households by up to 40%, while the
+that its QE programme had increased the wealth of the top 5% of households by up to 40%, while the
 Bottom 50% saw minimal benefit. This is because the top 5% hold the majority of financial assets
 Whose prices were inflated by QE.
 
@@ -430,7 +430,7 @@ P = \sum_{t=1}^{n} \frac{C}{(1+r)^t} + \frac{F}{(1+r)^n}
 $$
 
 $\frac{dP}{dr} < 0$ (each term is decreasing in $r$). If market interest rates rise, existing bonds
-With lower coupons become less attractive, so their price falls to offer a competitive yield.
+with lower coupons become less attractive, so their price falls to offer a competitive yield.
 $\blacksquare$
 
 **Yield to maturity**: the discount rate that equates the present value of future cash flows to the
@@ -511,13 +511,13 @@ On the other hand, risks have shifted rather than disappeared. The growth of **s
 (non-bank financial intermediaries such as money market funds, hedge funds, and private equity) now
 Accounts for nearly 50% of global financial intermediation. These entities are less regulated than
 Banks, less transparent, and can be sources of systemic risk (as the 2022 UK Gilt Crisis, triggered
-By liability-driven investments in pension funds, demonstrated). The Bank of England's intervention
-In the gilt market during the mini-budget crisis showed that systemic risk now originates outside
-The traditional banking sector.
+by liability-driven investments in pension funds, demonstrated). The Bank of England's intervention
+in the gilt market during the mini-budget crisis showed that systemic risk now originates outside
+the traditional banking sector.
 
 Furthermore, moral hazard persists. The implicit guarantee that governments will bail out large
 Financial institutions ("too big to fail") has not been fully resolved. The failure of Credit Suisse
-In 2023 was resolved through a government-brokered takeover by UBS, reinforcing the perception that
+in 2023 was resolved through a government-brokered takeover by UBS, reinforcing the perception that
 Large banks will always be rescued.
 
 :::tip
@@ -537,7 +537,7 @@ time).
 
 **Problem 1.** If the reserve ratio is 8% and the central bank injects £500 million of new reserves
 Into the banking system, what is the maximum increase in the money supply? What assumptions does
-This calculation rely on?
+this calculation rely on?
 
 <details>
 <summary>Hint</summary>
@@ -641,7 +641,7 @@ For: fractional reserve banking creates credit booms and busts (Minsky cycle), b
 **Problem 13.** In 2022, UK CPI inflation reached 11.1% while the Bank of England's Bank Rate was
 Raised from 0.25% to 3.0%. (a) Calculate the real interest rate at the start and end of this
 Tightening cycle, assuming inflation of 5.4% at the start. (b) Explain why the BoE was criticised
-For being "behind the curve." (c) Evaluate the argument that the BoE should have raised rates
+for being "behind the curve." (c) Evaluate the argument that the BoE should have raised rates
 Earlier.
 
 <details>
@@ -670,7 +670,7 @@ For the statement: (1) Shadow banking entities (hedge funds, money market funds,
 
 **Problem 16.** A country's money supply is currently GBP 2 trillion. The central bank wants to
 Increase it by GBP 200 billion through open market operations. If the current reserve ratio is 5%
-But banks choose to hold 3% excess reserves and the public holds 10% of any new deposits as cash,
+but banks choose to hold 3% excess reserves and the public holds 10% of any new deposits as cash,
 Calculate (a) the effective money multiplier and (b) the value of bonds the central bank must
 Purchase to achieve its target.
 

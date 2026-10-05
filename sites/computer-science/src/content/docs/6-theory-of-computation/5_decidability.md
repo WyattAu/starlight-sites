@@ -96,8 +96,8 @@ Therefore $H$ cannot exist. $\blacksquare$
 **Theorem 5.2a.** $\overline{A_{\mathrm{TM}}$ is not Turing-recognisable.
 
 _Proof._ If $\overline{A_{\mathrm{TM}}$ were Turing-recognisable, then since $A_{\mathrm{TM}$ is
-Also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
-Must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
+also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
+must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
 
 ### 5.3 Reductions and Undecidability
 
@@ -142,7 +142,7 @@ Therefore: $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $L(M_w) \neq \emptyset$
 $\langle M_w \rangle \notin E_{\mathrm{TM}$.
 
 The reduction $f(\langle M, w \rangle) = \langle M_w \rangle$ is computable. So if $E_{\mathrm{TM}$
-Were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
+were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
 decidable, contradiction. $\blacksquare$
 
 </details>
@@ -189,7 +189,7 @@ steps).
 **Definition.** An instance of the **Post Correspondence Problem (PCP)** consists of two lists of
 Strings $\alpha = (\alpha_1, \ldots, \alpha_k)$ and $\beta = (\beta_1, \ldots, \beta_k)$ over some
 Alphabet $\Sigma$. A **solution** is a non-empty sequence of indices $i_1, i_2, \ldots, i_m$ such
-That:
+that:
 
 $$
 \alpha_{i_1} \alpha_{i_2} \cdots \alpha_{i_m} = \beta_{i_1} \beta_{i_2} \cdots \beta_{i_m}
@@ -232,7 +232,7 @@ Sequence corresponds to a valid accepting computation: the first tile starts the
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
 Tile allows termination only if an accept state is reached. Thus the PCP instance has a solution iff
 $M$ accepts $w$. The construction is computable, so if PCP were decidable, $A_{\mathrm{TM}}$ would
-Be decidable, contradiction. $\blacksquare$
+be decidable, contradiction. $\blacksquare$
 
 **Modified PCP (MPCP).** In the modified version, the first tile used must be tile 1. MPCP is also
 Undecidable, and the reduction from PCP to MPCP adds a "prefix" tile that forces tile 1 to be used
@@ -250,7 +250,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
-Non-relativising techniques, .../1-number-and-algebra/3_proof-and-logic methods that do not carry
+non-relativising techniques, .../1-number-and-algebra/3_proof-and-logic methods that do not carry
 over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$ Define the **halting problem relative to $A$**:

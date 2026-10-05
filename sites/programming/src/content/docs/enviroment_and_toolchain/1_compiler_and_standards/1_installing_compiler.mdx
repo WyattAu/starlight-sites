@@ -69,7 +69,7 @@ Menu and run the command again to finish updates._
 #### Step 3: Install the Toolchain
 
 Install the Clang compiler, CMake, Ninja, and the LLVM debugging tools (LLDB). We explicitly select
-The `ucrt-x86_64` variants.
+the `ucrt-x86_64` variants.
 
 ```bash
 pacman -S mingw-w64-ucrt-x86_64-clang \
@@ -83,7 +83,7 @@ pacman -S mingw-w64-ucrt-x86_64-clang \
 #### Step 4: System Path Configuration
 
 To access these tools from PowerShell, VS Code, or standard Command Prompt, add the binary directory
-To your Windows PATH.
+to your Windows PATH.
 
 1. Press `Win + R`Type `sysdm.cpl`And press Enter.
 2. Go to the **Advanced** tab and click **Environment Variables**.
@@ -274,7 +274,7 @@ Visual Studio 2022 installed.
 ### Compiler Versioning
 
 Both GCC and Clang follow a `major.minor.patch` versioning scheme. ABI compatibility is guaranteed
-Within the same major version for GCC, and across Clang versions when using the same `libc++` ABI
+within the same major version for GCC, and across Clang versions when using the same `libc++` ABI
 Version.
 
 | Compiler | Version | C++23 Support | Notes                                  |
@@ -441,7 +441,7 @@ sudo update-alternatives --config clang++
 ### Multi-Version Coexistence Without Alternatives
 
 In professional environments, it is common to maintain multiple compiler versions without changing
-The system-wide default. CMake makes this straightforward:
+the system-wide default. CMake makes this straightforward:
 
 ```bash
 # GCC 14 build
@@ -460,7 +460,7 @@ cmake --build build-clang18
 ```
 
 This pattern is essential for ABI validation: compiling the same code with two different compilers
-And verifying that both produce correct output catches compiler-specific bugs and non-portable
+and verifying that both produce correct output catches compiler-specific bugs and non-portable
 Constructs.
 
 ### CMake Compiler Detection

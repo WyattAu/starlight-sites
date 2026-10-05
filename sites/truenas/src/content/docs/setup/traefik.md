@@ -345,7 +345,7 @@ labels:
 ```
 
 This redirects unauthenticated users to an Authelia login page. After login, users are authenticated
-Across all services without re-entering credentials.
+across all services without re-entering credentials.
 
 ### Rate Limiting
 
@@ -512,7 +512,7 @@ Compose, or ensure the Docker socket path is correct for the SCALE Kubernetes-ba
 
 Let's Encrypt enforces strict rate limits: 50 certificates per registered domain per week, 5
 Duplicate certificates per week. If you are experimenting and restarting containers frequently, you
-Can hit this limit. Use the Let's Encrypt staging environment during development:
+can hit this limit. Use the Let's Encrypt staging environment during development:
 
 ```yaml
 command:

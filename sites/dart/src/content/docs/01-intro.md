@@ -39,7 +39,7 @@ Therefore when Dart code uses Flutter, compiler explorer cannot be used and Dart
 Dart is an OOP focus programming language developed by Google, desgined for native support by
 Compiling to native machine code with AOT (Ahead-of-Time) compilation, and fast reiteration with JIT
 (Just-in-Time) compilation that enables hot-reload. Parallelism in Dart relies on isolates instead
-Of threads appraoch, which are thread-like execution units that have separate memory, therefore no
+of threads appraoch, which are thread-like execution units that have separate memory, therefore no
 State sharing is possible and rely on messaging when communcation between isolates are needed.
 Memory management in Dart relies on garbage collector, with no direct memory access allowed.
 
@@ -62,7 +62,7 @@ Dart is a general-purpose language with four primary compilation targets:
 
 The dual JIT/AOT strategy is the defining architectural decision in Dart. During development, the VM
 Uses JIT compilation with **hot reload**, the VM injects updated source into the running process
-Without restarting. In release, the AOT compiler (`dart2native` / `flutter build`) produces a
+without restarting. In release, the AOT compiler (`dart2native` / `flutter build`) produces a
 Standalone binary with no runtime dependency on the VM. This is not an interpreter trick; the AOT
 Compiler performs tree-shaking, type inference, and inlining to produce code competitive with C++ on
 Numeric benchmarks.
@@ -72,14 +72,14 @@ Numeric benchmarks.
 Flutter is the primary consumer of Dart. It is a multi-platform UI framework (iOS, Android, Windows,
 MacOS, Linux, web) that relies heavily on immutable widgets. Lifecycle, state, and layout are
 Handled by the rendering pipeline (Impeller as of Flutter 3.29+). Developing Flutter relies heavily
-On widget composition and core primitives.
+on widget composition and core primitives.
 
 ### Server-side Dart
 
 Dart runs on the server via `dart run` or compiled AOT binaries via `dart compile exe`. The `shelf`
 Package provides middleware-based HTTP handling, and the `dart:io` library gives you sockets, file
 I/O, and process management. Google's internal infrastructure runs significant Dart services, and
-The ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
+the ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
 (`dart:stable`).
 
 ### Dart for the Web

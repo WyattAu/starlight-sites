@@ -21,7 +21,7 @@ Prejudice and discrimination are among the most consequential social phenomena s
 Psychologists. Prejudice refers to a negative attitude toward a social group or its members, while
 Discrimination refers to negative behaviour directed toward a social group or its members.
 Understanding the origins, maintenance, and reduction of prejudice and discrimination is central to
-The sociocultural level of analysis.
+the sociocultural level of analysis.
 
 ### Distinguishing Prejudice, Stereotyping, and Discrimination
 
@@ -36,7 +36,7 @@ The sociocultural level of analysis.
 
 These three components are related but distinct. A person may hold stereotypes without feeling
 Prejudice (believing a stereotype but not endorsing it emotionally), feel prejudice without acting
-On it (holding negative attitudes but not discriminating), or discriminate without being consciously
+on it (holding negative attitudes but not discriminating), or discriminate without being consciously
 Prejudiced (acting on implicit biases).
 
 ## Origins of Prejudice
@@ -47,16 +47,16 @@ As discussed in [Social Identity Theory](/psychology/sociocultural/social-identi
 Explains prejudice as a consequence of the need for positive social identity. People derive
 Self-esteem from their group memberships and maintain positive social identity by positively
 Differentiating their in-group from out-groups. This process leads to in-group favouritism and, in
-Some cases, out-group derogation. The minimal group paradigm (Tajfel et al., 1971) demonstrates that
-Even arbitrary group categorisation is sufficient to produce intergroup bias.
+some cases, out-group derogation. The minimal group paradigm (Tajfel et al., 1971) demonstrates that
+even arbitrary group categorisation is sufficient to produce intergroup bias.
 
 ### Realistic Conflict Theory
 
 Sherif's (1966) realistic conflict theory explains prejudice as a rational response to competition
-Over scarce resources. When groups compete for resources such as jobs, land, political power, or
+over scarce resources. When groups compete for resources such as jobs, land, political power, or
 Social status, intergroup hostility increases as each group seeks to protect its interests.
 Prejudice serves to justify the in-group's position and legitimise discrimination against the
-Out-group.
+out-group.
 
 **Evidence:** Sherif's Robbers Cave experiment demonstrated that competition between groups produced
 Hostility, negative stereotypes, and discriminatory behaviour, while superordinate goals reduced
@@ -104,7 +104,7 @@ Media representations of stereotyped groups influence children's attitudes towar
 Stereotyping is a natural consequence of the cognitive need to categorise and simplify complex
 Social information. The human brain has limited processing capacity, and categorisation is an
 Efficient strategy for reducing cognitive load. However, the efficiency gains of stereotyping come
-At the cost of accuracy and fairness.
+at the cost of accuracy and fairness.
 
 **Key cognitive mechanisms:**
 

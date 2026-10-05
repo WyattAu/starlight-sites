@@ -42,7 +42,7 @@ $$
 ### 1.2 The Shape of the AD Curve
 
 The AD curve slopes **downward** from left to right (higher price level $\Rightarrow$ lower quantity
-Of AD).
+of AD).
 
 :::note
 wealth Effects. OCR may ask students to evaluate which channel is most significant in practice.
@@ -51,7 +51,7 @@ wealth Effects. OCR may ask students to evaluate which channel is most significa
 We derive this from three channels:
 
 **1. Wealth effect (Pigou effect):** A higher price level reduces the real value of money balances
-And other financial assets. Households feel less wealthy and reduce consumption:
+and other financial assets. Households feel less wealthy and reduce consumption:
 
 $$
 P \uparrow \Rightarrow \frac{M}{P} \downarrow \Rightarrow \mathrm{Real wealth } \downarrow \Rightarrow C \downarrow \Rightarrow AD \downarrow
@@ -121,7 +121,7 @@ AD shift, not just its direction.
 **Real-world example, exchange rate effects on AD.** Following the Brexit referendum in 2016, the
 Pound depreciated by approximately 15% against the US dollar. This made UK exports cheaper and
 Imports more expensive, shifting AD to the right through increased net exports. However, the effect
-Was partly offset by higher import costs feeding into SRAS (cost-push inflation).
+was partly offset by higher import costs feeding into SRAS (cost-push inflation).
 
 ## 2. Aggregate Supply
 
@@ -150,7 +150,7 @@ Where $Y^*$ is potential output, $P^e$ is the expected price level, and $\alpha 
 :::note
 imperfect Information model. OCR expects students to compare sticky-wage and sticky-price theories.
 New Classical economists (AQA Unit 4, CIE Paper 4) argue that SRAS is vertical even in the short run
-Because rational agents anticipate price changes, this is the policy ineffectiveness proposition.
+because rational agents anticipate price changes, this is the policy ineffectiveness proposition.
 :::
 
 **Real-world example, sticky wages in action.** During the COVID-19 pandemic, many UK workers
@@ -178,7 +178,7 @@ Therefore, the LRAS curve is vertical at $Y^*$. $\blacksquare$
 Capacity of the economy. AQA uses the same vertical LRAS but emphasises the distinction between
 Actual and potential growth. CIE (9708) may present an alternative diagram where LRAS is drawn as a
 Curve becoming vertical at full employment, this is the _Keynesian AS curve_ and is acceptable only
-In CIE mark schemes. OCR expects students to explain _why_ LRAS is vertical using the classical
+in CIE mark schemes. OCR expects students to explain _why_ LRAS is vertical using the classical
 Dichotomy or factor mobility arguments.
 :::
 
@@ -191,9 +191,9 @@ Y^* = A \cdot F(K, L)
 $$
 
 Where $A$ is total factor productivity, $K$ is the capital stock, and $L$ is the labour supply (at
-The natural rate of employment). In the long run, $K$ and $L$ are fixed (determined by savings,
+the natural rate of employment). In the long run, $K$ and $L$ are fixed (determined by savings,
 Investment, population growth), and $A$ grows exogenously (technological progress). Therefore $Y^*$
-Is independent of the price level, the LRAS is vertical.
+is independent of the price level, the LRAS is vertical.
 
 The growth rate of potential output is:
 
@@ -288,7 +288,7 @@ Employment (overheating, inflationary gap). If $Y_{SR} < Y^*$: the economy is be
 **Proposition: The economy self-corrects to potential output in the long run.**
 
 _Proof._ Suppose $Y_{SR} > Y^*$. Actual output exceeds potential $\Rightarrow$ unemployment falls
-Below the natural rate $\Rightarrow$ labour market tightens $\Rightarrow$ wages rise (workers have
+below the natural rate $\Rightarrow$ labour market tightens $\Rightarrow$ wages rise (workers have
 Bargaining power). Higher wages increase firms' costs $\Rightarrow$ SRAS shifts left $\Rightarrow$
 Price level rises, output falls back to $Y^*$. Conversely, if $Y_{SR} < Y^*$: high unemployment puts
 Downward pressure on wages $\Rightarrow$ SRAS shifts right $\Rightarrow$ price level falls, output
@@ -365,13 +365,13 @@ Limitations.
 ### 4.1 Definition and Derivation
 
 The **multiplier** measures the ratio of the final change in national income to the initial change
-In spending.
+in spending.
 
 **Derivation using the geometric series.**
 
 Suppose there is an initial injection of spending $\Delta A$ (e.g., government spending). The
 Recipients spend a fraction $c = MPC$ and save $(1-c) = MPS$. The spending becomes income for
-Others, who in turn spend $c$ of that, and so on:
+others, who in turn spend $c$ of that, and so on:
 
 $$
 \begin{aligned}
@@ -501,9 +501,9 @@ Evaluative answers:
 
 :::note
 The usefulness of the AD/AS model itself, a higher-order skill. AQA (7132) expects evaluation
-Within the context of specific policy discussions (e.g., "Evaluate the view that fiscal policy is
-The most effective way to increase AD"). Edexcel (9EC0) Paper 3 may ask students to compare AD/AS
-With alternative models such as the Phillips Curve.
+within the context of specific policy discussions (e.g., "Evaluate the view that fiscal policy is
+the most effective way to increase AD"). Edexcel (9EC0) Paper 3 may ask students to compare AD/AS
+with alternative models such as the Phillips Curve.
 :::
 
 :::caution
@@ -530,7 +530,7 @@ Net effect on GDP?
 
 **Problem 2.** An economy is in short-run equilibrium with output £50bn below potential output of
 £500bn. The complex multiplier is 2.5. By how much should the government increase spending to close
-The output gap?
+the output gap?
 
 <details>
 <summary>Hint</summary>
@@ -632,8 +632,8 @@ Shifts left $\Rightarrow Y$ returns to $Y^*$$P$ rises further, employment return
 Rate. Evaluation: the initial boost is temporary. Sustainability depends on whether the confidence
 Shock also stimulates investment (shifting LRAS right). If higher confidence leads to more capital
 Accumulation, $Y^*$ could increase permanently. However, if the shock is purely demand-driven with
-No supply-side effects, the long-run outcome is only higher prices. Also consider crowding out: if
-The economy was near $Y^*$ The central bank may raise rates to prevent overheating, offsetting the
+no supply-side effects, the long-run outcome is only higher prices. Also consider crowding out: if
+the economy was near $Y^*$ The central bank may raise rates to prevent overheating, offsetting the
 AD shift.
 </details>
 
@@ -644,15 +644,15 @@ Long-run economic growth." Evaluate this statement using the AD/AS framework.
 <summary>Hint</summary>
 Supply-side policies shift LRAS right by increasing productive capacity (education reform,
 Deregulation, infrastructure investment, tax incentives for R&D). This increases $Y^*$ and reduces
-The price level, a sustainable improvement in living standards. Demand-side policies (fiscal and
+the price level, a sustainable improvement in living standards. Demand-side policies (fiscal and
 Monetary) shift AD right: they raise $Y$ only in the short run (if below $Y^*$) and may create
 Inflationary pressure (if at $Y^*$). In the long run, AD shifts only change prices, not output.
 Evaluation: (1) Supply-side policies take years to have effect, they cannot address a short-run
 Recession. (2) Demand-side policies are essential for stabilisation. (3) Some supply-side policies
-Also shift AD in the short run (e.g., infrastructure spending). (4) The effectiveness of supply-side
+also shift AD in the short run (e.g., infrastructure spending). (4) The effectiveness of supply-side
 Policies depends on the type, market-based reforms (deregulation) may increase inequality, while
 Human capital investment has fewer negative side effects. (5) In practice, optimal policy combines
-Both: demand management for stabilisation and supply-side reform for long-run growth.
+both: demand management for stabilisation and supply-side reform for long-run growth.
 </details>
 
 **Problem 15.** The UK economy has an output gap of 3% of GDP. The government is considering two
@@ -668,8 +668,8 @@ Option B: tax cut of £40bn increases disposable income by £40bn. Initial consu
 MPC \times 40 = 24$. $\Delta Y = 1.33 \times 24 = £32$bn. Option A has a larger effect. (c)
 Evaluation: government spending directly injects into the circular flow, whereas tax cuts depend on
 Households' MPC, some of the tax cut will be saved. However, tax cuts may be faster to implement
-And avoid the bureaucratic delays of government spending programmes. Crowding out is more likely
-With spending increases (government borrowing). Distributional effects: income tax cuts
+and avoid the bureaucratic delays of government spending programmes. Crowding out is more likely
+with spending increases (government borrowing). Distributional effects: income tax cuts
 Disproportionately benefit higher earners (if not targeted), while government spending on public
 Services benefits lower-income groups more. The choice depends on the government's objectives,
 Speed, equity, and the state of public finances.
@@ -689,7 +689,7 @@ Right, SRAS shifts left. The outcome for output is ambiguous (depends on the rel
 Shifts), but the price level unambiguously rises (imported inflation). Evaluation: (1) The
 Marshall-Lerner condition must hold, the sum of price elasticities of demand for exports and
 Imports must exceed 1 for the trade balance to improve. In the short run, the J-curve effect means
-The trade balance may worsen before improving. (2) If the economy is near $Y^*$ The main effect is
+the trade balance may worsen before improving. (2) If the economy is near $Y^*$ The main effect is
 Inflationary, not growth-promoting. (3) Second-round effects: higher import prices feed into wage
 Demands, creating a wage-price spiral.
 </details>

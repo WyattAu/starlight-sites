@@ -63,7 +63,7 @@ For binary layouts, network protocols, or file formats, **never** use fundamenta
 ## Special Systems Types
 
 C++ defines specific types for memory interaction that communicate intent to both the compiler and
-The programmer.
+the programmer.
 
 ### 1. `std::byte` (C++17)
 
@@ -244,8 +244,8 @@ The encoded value is:
 $$
 \mathrm{value = (-1)^{\mathrm{sign} \times 2^{(\mathrm{exponent - \mathrm{bias)} \times (1.\mathrm{mantissa)
 $$
-The implicit leading `1.` (the "hidden bit") is the key optimization of IEEE 754: since the mantissa
-Is normalized so the leading digit is always 1, it need not be stored.
+the implicit leading `1.` (the "hidden bit") is the key optimization of IEEE 754: since the mantissa
+is normalized so the leading digit is always 1, it need not be stored.
 
 | Type     | Total Bits | Sign | Exponent | Mantissa | Bias | Exponent Range |
 | :------- | :--------- | :--- | :------- | :------- | :--- | :------------- |
@@ -327,7 +327,7 @@ On NaN propagation for error detection, or code that compares floating-point val
 ### Natural Alignment
 
 Every fundamental type has an **alignment requirement**: the address at which it must be stored must
-Be a multiple of a specific power of two. On x86_64:
+be a multiple of a specific power of two. On x86_64:
 
 | Type        | Size (bytes) | Alignment (bytes) |
 | :---------- | :----------- | :---------------- |
@@ -495,7 +495,7 @@ The C++ standard defines specific **integral promotion** rules [N4950 §7.3.7]:
 - `short` → `int` (if `int` can represent all values)
 - `wchar_t, char16_t, char32_t, char8_t` → the first of `int, unsigned int, long` `unsigned long`
   that can represent all values
-These promotions occur before arithmetic operations and can cause surprising results:
+these promotions occur before arithmetic operations and can cause surprising results:
 
 ```cpp
 #include <iostream>

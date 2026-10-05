@@ -403,7 +403,7 @@ Key VS Code shortcuts for Dart:
 ### Android Studio
 
 Android Studio includes the Dart and Flutter plugins by default when you install the Flutter SDK
-Through its installer:
+through its installer:
 
 1. Download Android Studio from <https://developer.android.com/studio>
 2. Install the Flutter and Dart plugins: **Settings &gt; Plugins &gt; Marketplace &gt; "Flutter"**
@@ -724,7 +724,7 @@ flowchart TD
 ## Program Entry
 
 When the project creates an executable, the entry point of the project is located in `main()`Where
-The default is given as:
+the default is given as:
 
 ```dart
 void main(){
@@ -927,7 +927,7 @@ var number = 22;
 ```
 
 Another way of implicit definition is declaring as `Object` class, since all types in Dart inherits
-From the `Object` type, implicit definitions can be written as:
+from the `Object` type, implicit definitions can be written as:
 
 ```dart
 Object text = "hello";
@@ -984,7 +984,7 @@ Appear.
 #### `const` specifier
 
 Variables with `const` specifier are required to be evaluated at compile time, meaning the value
-Cannot be mutated by any event in runtime including a constructor call.
+cannot be mutated by any event in runtime including a constructor call.
 
 ```dart
 const String text = "hello";
@@ -1047,7 +1047,7 @@ void main(){
 ```
 
 When accessing a `late` specified variable without instantiation at runtime, a runtime exception
-Will be thrown (runtime error):
+will be thrown (runtime error):
 
 ```dart
 late String text;
@@ -1060,7 +1060,7 @@ void main(){
 
 :::tip
 `var` with no nullability specifier >> `final late` >> `var?`. Also non const top-level variables
-Should be avoided.
+should be avoided.
 
 ## Data Types
 
@@ -1183,7 +1183,7 @@ var (lo, hi) = getBounds([3, 1, 4, 1, 5]);
 
 :::note
 Same fields are equal: `(1, "a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
-Cannot be extended.
+cannot be extended.
 
 #### Functions
 
@@ -1291,7 +1291,7 @@ var doubled = numbers.map((n) => n * 2).toList();
 ```
 
 This is a deliberate design choice, lazy iterables avoid creating intermediate collections, which
-Is critical for large data pipelines.
+is critical for large data pipelines.
 
 #### Sets
 
@@ -1376,7 +1376,7 @@ Validate the types at runtime.
 #### Symbols
 
 A `Symbol` represents an operator or identifier declared in a Dart program. Symbols are rarely used
-In application code, their primary use case is in **mirrors** (reflection):
+in application code, their primary use case is in **mirrors** (reflection):
 
 ```dart
 // Symbol for an identifier
@@ -1531,7 +1531,7 @@ class Rectangle {
 
 :::tip
 More efficient, they initialize fields directly, while the constructor body runs after all fields
-Have been initialized (to their default values first).
+have been initialized (to their default values first).
 
 ## Inheritance
 
@@ -1802,7 +1802,7 @@ flowchart TD
 ## Futures
 
 A `Future<T>` represents a value that will be available at some point in the future, either a value
-Of type `T` or an error. It is Dart's equivalent of JavaScript's `Promise` or Rust's `Future`.
+of type `T` or an error. It is Dart's equivalent of JavaScript's `Promise` or Rust's `Future`.
 
 ### Creating Futures
 
@@ -2164,7 +2164,7 @@ Describes how to produce elements but does not materialize them until a terminal
 #### map()
 
 Returns a new lazy `Iterable` by applying a function to each element. The function is not executed
-Until the iterable is consumed.
+until the iterable is consumed.
 
 ```dart
 final names = ['alice', 'bob', 'charlie'];
@@ -2247,7 +2247,7 @@ print(nums.skipWhile((n) => n < 4).toList()); // [4, 5, 1, 2], skips until first
 ```
 
 Unlike `where`These are **not** applied to all elements, they operate from the start and stop at
-The first element that fails the condition.
+the first element that fails the condition.
 
 #### firstWhere(), lastWhere(), singleWhere()
 
@@ -2372,7 +2372,7 @@ final unmod = List<int>.unmodifiable([1, 2, 3]);
 ```
 
 The distinction matters at the VM level. Fixed-length lists pre-allocate a backing store of exactly
-The right size. Growable lists use amortized doubling (see Performance Considerations below).
+the right size. Growable lists use amortized doubling (see Performance Considerations below).
 
 ### Mutation Operations
 
@@ -2413,7 +2413,7 @@ list.replaceRange(2, 4, [99]); // [0, 10, 99, 4, 5]
 ```
 
 `sublist` allocates a new list. `getRange` does not, but the returned iterable holds a reference to
-The original list, so mutations to the original are visible through the range view.
+the original list, so mutations to the original are visible through the range view.
 
 ### asMap()
 
@@ -2525,7 +2525,7 @@ superset.containsAll(subset); // true
 ### lookup()
 
 Returns the element in the set that is equal to the argument, or `null` if not found. This is useful
-When you have a canonical version of an object and want to retrieve it:
+when you have a canonical version of an object and want to retrieve it:
 
 ```dart
 final users = {User(id: 1, name: "Alice''), User(id: 2, name: "Bob')};
@@ -3054,7 +3054,7 @@ print(a.length == b.length &&
 ```
 
 Dart's `List.==` and `Map.==` use identity comparison (`identical()`), not structural equality. This
-Is by design, structural equality on large collections is expensive, and the language avoids
+is by design, structural equality on large collections is expensive, and the language avoids
 Implicit O(n) operations.
 
 ### 3. Unmodifiable Views Are Not Copies
@@ -3175,7 +3175,7 @@ map.containsKey('nonexistent'); // false, the key does not exist
 ```
 
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when
-You need to distinguish between "key absent" and "key present with null value."
+you need to distinguish between "key absent" and "key present with null value."
 
 ```mermaid
 flowchart TD
@@ -3238,7 +3238,7 @@ URL: https://dart.wyattau.com/07-dart3-features/03-class-modifiers/
 
 Dart 3 introduces class modifiers, keywords that restrict how a class can be used by other
 Libraries. Before Dart 3, any class could be extended, implemented, or mixed in by any library. This
-Was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
+was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
 
 The problem: maximum flexibility is maximum liability. Library authors could not prevent misuse of
 Their APIs. A class designed for inheritance could be `implement`-ed (losing all behavior). A class
@@ -3489,7 +3489,7 @@ interface class Hashable {
 ### `interface` with Default Implementations
 
 An `interface class` can have concrete methods. External code cannot access them via `extends`But
-They are available to subtypes within the same library:
+they are available to subtypes within the same library:
 
 ```dart
 interface class Loggable {
@@ -3641,7 +3641,7 @@ class Link extends Object with Hoverable {
 ### Restrictions on `mixin class`
 
 A `mixin class` cannot have a generative constructor that takes parameters (because mixins cannot
-Have parameterized constructors):
+have parameterized constructors):
 
 ```dart
 // OK, no constructor or parameterless constructor
@@ -3679,7 +3679,7 @@ The constructor is available normally.
 
 **When to use `mixin class`**: When you have behavior that can be used both standalone (as a class)
 And composed (as a mixin). For example, a `Serializable` class that can be used directly or mixed
-Into other classes.
+into other classes.
 
 **When to use plain `mixin`**: When the behavior is purely additive and should never be instantiated
 On its own. For example, a `Logging` mixin that adds logging methods to classes.
@@ -3727,7 +3727,7 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 
 `sealed` can combine with `base``interface``final`And `mixin` (e.g., `sealed interface`
 `sealed mixin class`). These combinations restrict subtypes to the same library while also applying
-The additional modifier's semantics.
+the additional modifier's semantics.
 
 ### `sealed interface`
 
@@ -3960,7 +3960,7 @@ Implementation that must be preserved through inheritance, use `base`.
 ### 2. Adding Modifiers to Existing Public APIs Without Bumping Major Version
 
 This is a breaking change. If you add `base` to a class in version 1.2.0, and a downstream package
-Was `implement`-ing it, their code breaks. Follow semver, this requires a major version bump.
+was `implement`-ing it, their code breaks. Follow semver, this requires a major version bump.
 
 ### 3. `final` Does Not Propagate
 
@@ -4037,7 +4037,7 @@ class MyService implements Service {} // COMPILE ERROR
 ```
 
 The modifier applies to the abstract class itself. `abstract base` means "abstract AND base", you
-Cannot instantiate it directly, and external code must extend it.
+cannot instantiate it directly, and external code must extend it.
 
 ### 7. Constructors in `interface` Classes
 
@@ -4057,7 +4057,7 @@ class MyBuilder implements Builder {
 
 `implements` does not inherit constructors. The implementing class must declare its own
 Constructors. This is not specific to `interface`it has always been true for `implements`. But
-With `interface`It is the only option.
+with `interface`It is the only option.
 
 ### 8. Modifiers and `part` Files
 
@@ -4096,7 +4096,7 @@ class Dog extends Animal {
 ```
 
 If you want to prevent method overriding, use `@nonVirtual` annotation (from `package:meta`) or make
-The method non-virtual by design.
+the method non-virtual by design.
 
 ### 10. Combining with `abstract`
 
@@ -4141,7 +4141,7 @@ class TestApiClient extends ApiClient {
 ```
 
 `final` only restricts external code. Within the same library, you can extend `final` classes. This
-Is useful for test doubles and internal implementation variants.
+is useful for test doubles and internal implementation variants.
 
 
 ```mermaid
@@ -4204,7 +4204,7 @@ URL: https://dart.wyattau.com/07-dart3-features/01-pattern-matching/
 Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A
 Pattern is a syntactic construct that describes the **shape** of a value, its type, its structure,
 And the relationships between its parts. When a value is tested against a pattern, the compiler
-Either matches (the value conforms) or refutes (the value does not conform).
+either matches (the value conforms) or refutes (the value does not conform).
 
 This is not a new concept in language design. Rust has had irrefutable pattern matching since 1.0,
 Haskell has had pattern matching since its inception, and Scala has had extractors for over a
@@ -4296,7 +4296,7 @@ bool isReadOnly(HttpMethod method) => switch (method) {
 
 **Binding consistency**: All branches of an or-pattern must bind the same variables. The compiler
 Enforces this because it cannot know which branch matched at compile time, so it must guarantee that
-All bindings are valid regardless.
+all bindings are valid regardless.
 
 ```dart
 // ERROR: different variable names in or-pattern branches
@@ -4330,7 +4330,7 @@ switch (value) {
 
 The and-pattern evaluates left-to-right. The right-hand side can use variables bound by the
 Left-hand side. This ordering is not just syntactic, it is semantic. The compiler generates code
-That first tests the left pattern, and only if it succeeds, tests the right pattern against the
+that first tests the left pattern, and only if it succeeds, tests the right pattern against the
 Bound variables.
 
 ### Relational Patterns
@@ -4421,12 +4421,12 @@ The difference matters. The type test pattern (`String s`) only matches if the v
 `String`. The cast pattern (`var s as String`) attempts to cast, if the value is a subtype of
 `String` (which is impossible since `String` is sealed), it succeeds; otherwise it throws. In
 Practice, for sealed types like `String`They behave identically. The cast pattern becomes relevant
-With custom type hierarchies where implicit upcasts exist.
+with custom type hierarchies where implicit upcasts exist.
 
 ### Cast Pattern with Null Safety
 
 The cast pattern is the pattern equivalent of `as?` in other languages, except Dart's `as` throws
-On failure. The cast pattern will throw at runtime if the cast fails, just like `as`.
+on failure. The cast pattern will throw at runtime if the cast fails, just like `as`.
 
 ```dart
 // This throws if value is not a List&lt;int&gt;
@@ -4504,7 +4504,7 @@ if (name case var n!) {
 
 **Why use null-assert patterns**: They are useful in contexts where you have external knowledge that
 A value is non-null, but the type system cannot prove it. For example, after checking a condition
-That the analyzer cannot follow:
+that the analyzer cannot follow:
 
 ```dart
 void process(Map&lt;String, dynamic&gt; json) {
@@ -4618,7 +4618,7 @@ switch (value) {
 ```
 
 The `_` in a variable declaration context is special, it tells the compiler you intentionally do
-Not need the value. In a switch, `_` is the catch-all default case.
+not need the value. In a switch, `_` is the catch-all default case.
 
 ### Double Wildcard (`__`)
 
@@ -4644,7 +4644,7 @@ switch (record) {
 ```
 
 In practice, `_` as a wildcard in pattern context does not generate warnings. The `__` form exists
-For cases where the analyzer might be confused about intent. Use `_` unless you get a warning.
+for cases where the analyzer might be confused about intent. Use `_` unless you get a warning.
 
 ## Variable Patterns
 
@@ -5003,7 +5003,7 @@ String describe(Result&lt;int&gt; result) => switch (result) {
 ```
 
 The compiler enumerates all direct subtypes of the sealed class in the same library. If you miss
-One, you get a compile error. If you add a new subtype, every switch on the sealed class breaks at
+one, you get a compile error. If you add a new subtype, every switch on the sealed class breaks at
 Compile time, not at runtime.
 
 ### Why `default` is Discouraged
@@ -5040,7 +5040,7 @@ Lose compile-time safety.
 ## if-case
 
 The `if-case` construct allows pattern matching without a full switch statement. It is useful when
-You want to match a single pattern and handle the non-matching case with normal control flow.
+you want to match a single pattern and handle the non-matching case with normal control flow.
 
 ### Basic if-case
 
@@ -5094,7 +5094,7 @@ if (value case int n when n > 0) {
 ```
 
 The `when` guard is not part of the pattern, it is a separate boolean expression evaluated after
-The pattern matches. Variables bound by the pattern are available in the guard expression.
+the pattern matches. Variables bound by the pattern are available in the guard expression.
 
 ## For-in Patterns
 
@@ -5239,7 +5239,7 @@ class Secret {
 ```
 
 Object patterns use the object's **public API** (getters). They cannot access private fields, even
-From the same library. They access the getter, not the underlying field.
+from the same library. They access the getter, not the underlying field.
 
 ### 5. Rest Pattern in the Middle
 
@@ -5266,7 +5266,7 @@ if (maybeName case var name?) {
 ```
 
 The variable bound by a pattern is only in scope within the case body. The `else` branch does not
-Have access to it.
+have access to it.
 
 ### 7. Switch Expression vs Switch Statement
 
@@ -5427,7 +5427,7 @@ Before Dart 3, you had three options for modeling this:
 
 All three are deficient. Sealed classes solve this by combining the expressiveness of class
 Hierarchies (each variant has its own fields) with the exhaustiveness of enums (the compiler knows
-All variants).
+all variants).
 
 ### Sum Types in Language Design
 
@@ -5473,7 +5473,7 @@ The `sealed` modifier on `NetworkResult` means:
 ### The Same-Library Restriction
 
 This is the critical constraint. "Same library" in Dart means the same compilation unit, a file
-Plus all its `part` files. It does **not** mean the same package or the same directory.
+plus all its `part` files. It does **not** mean the same package or the same directory.
 
 ```dart
 // network_result.dart, the sealed class lives here
@@ -5493,7 +5493,7 @@ Library, the compiler has a complete, local view of the hierarchy.
 
 **Practical implication**: You cannot split sealed class subtypes across files in a package unless
 You use `part`/`part of`. This is a deliberate design trade-off, exhaustiveness is more valuable
-Than distribution.
+than distribution.
 
 ```dart
 // result.dart
@@ -5644,7 +5644,7 @@ class FlatButton extends Object with ButtonBehavior {
 ## Exhaustive Switch
 
 The primary value of sealed classes is enabling exhaustive switch expressions. The compiler verifies
-That every direct subtype is handled.
+that every direct subtype is handled.
 
 ### Basic Exhaustive Switch
 
@@ -6240,7 +6240,7 @@ String classify(Expr expr) => switch (expr) {
 ### Sealed Classes with Generics
 
 Generics and sealed classes compose well. The sealed constraint applies to the class hierarchy, not
-To the type parameter:
+to the type parameter:
 
 ```dart
 sealed class Either&lt;L, R&gt; {}
@@ -6310,7 +6310,7 @@ Forgetting to add `part 'new_file.dart'` in `main.dart` causes a compile error.
 ### 3. Using `default` with Sealed Types
 
 As discussed, `default` defeats exhaustiveness. The compiler will not warn you about missing cases
-If `default` is present. This is technically allowed but is always wrong for sealed types.
+if `default` is present. This is technically allowed but is always wrong for sealed types.
 
 ### 4. Exhaustiveness Only Applies to Direct Subtypes
 
@@ -6630,7 +6630,7 @@ Flutter has evolved through several navigation APIs to arrive at the current bes
 
 Navigator 1.0 is Flutter's original navigation system, built around the `Navigator` widget and an
 Imperative API. Understanding it is essential because many existing codebases still use it, and it
-Is the foundation upon which later APIs were built.
+is the foundation upon which later APIs were built.
 
 ### Basic Push and Pop
 
@@ -6678,7 +6678,7 @@ class DetailPage extends StatelessWidget {
 ```
 
 `Navigator.push()` adds a new route to the top of the navigation stack. `Navigator.pop()` removes
-The topmost route. Under the hood, `Navigator` maintains an ordered list of `Route` objects, the
+the topmost route. Under the hood, `Navigator` maintains an ordered list of `Route` objects, the
 **navigation stack**, and only the topmost route is visible.
 
 ### Passing Data to a Route
@@ -6810,7 +6810,7 @@ Navigator 1.0 works well for simple apps but has serious limitations at scale:
 ## Navigator 2.0
 
 Navigator 2.0 was introduced as a declarative alternative to Navigator 1.0. It is a lower-level API
-That provides complete control over the navigation stack, making it possible to implement deep
+that provides complete control over the navigation stack, making it possible to implement deep
 Linking, URL-based routing, and complex nested navigation patterns.
 
 ### Core Components
@@ -7136,7 +7136,7 @@ GoRoute(
 ### Path Validation
 
 Path parameters match any value that does not contain a forward slash. For stricter validation, use
-The `redirect` function:
+the `redirect` function:
 
 ```dart
 GoRoute(
@@ -7171,7 +7171,7 @@ GoRoute(
 ```
 
 A wildcard matches the remainder of the path including slashes. `/files/docs/report.pdf` would match
-With `filepath` equal to `docs/report.pdf`.
+with `filepath` equal to `docs/report.pdf`.
 
 ---
 
@@ -7255,7 +7255,7 @@ final limit = double.tryParse(state.uri.queryParameters['limit'] ?? '10') ?? 10.
 
 GoRouter preserves query parameters when you navigate within the same route hierarchy. However, when
 Navigating to a completely different route, query parameters from the previous route are not carried
-Over. If you need to persist filter state, store it in app-level state (e.g., a Riverpod provider or
+over. If you need to persist filter state, store it in app-level state (e.g., a Riverpod provider or
 BLoC) rather than relying on query parameters.
 
 ---
@@ -7308,7 +7308,7 @@ final router = GoRouter(
 ```
 
 The `redirect` function returns `null` to allow navigation to proceed, or a string path to redirect
-To. If the redirect returns a path that would itself be redirected, GoRouter detects the loop and
+to. If the redirect returns a path that would itself be redirected, GoRouter detects the loop and
 Throws an error.
 
 ### Route-Level Redirect
@@ -7373,7 +7373,7 @@ final router = GoRouter(
 
 GoRouter limits redirects to prevent infinite loops. By default, if a redirect triggers more than 5
 Consecutive redirects, GoRouter throws an error. This prevents accidental infinite redirect chains
-Where `/a` redirects to `/b` which redirects back to `/a`.
+where `/a` redirects to `/b` which redirects back to `/a`.
 
 ### Refreshing the Route List
 
@@ -7445,7 +7445,7 @@ Add an intent filter to `AndroidManifest.xml`:
 ### Handling Incoming Links on iOS
 
 Add an associated domain in `apple-app-site-association` (hosted on your web server) and configure
-The `CFBundleURLTypes` in `Info.plist`:
+the `CFBundleURLTypes` in `Info.plist`:
 
 ```xml
 <key>CFBundleURLTypes</key>
@@ -7513,7 +7513,7 @@ Common use case is a bottom navigation bar where each tab maintains its own navi
 ### ShellRoute for Persistent UI
 
 `ShellRoute` provides a persistent shell around child routes. The shell widget remains in the tree
-As the user navigates between child routes:
+as the user navigates between child routes:
 
 ```dart
 ShellRoute(
@@ -7643,7 +7643,7 @@ StatefulShellRoute.indexedStack(
 Each `StatefulShellBranch` maintains its own `Navigator` stack. This means that if the user
 Navigates from `/home` to `/home/detail/5` and then switches to the Explore tab, the Home tab
 Retains the detail page. When the user switches back to Home, they see the detail page exactly as
-They left it.
+they left it.
 
 ### Nested Navigation Without ShellRoute
 
@@ -7826,7 +7826,7 @@ GoRoute(
 ### Using `go` When You Mean `push`
 
 `context.go("/detail')` replaces the current route. If you want the user to be able to press back
-And return to the previous screen, use `context.push('/detail')` instead. A common bug is using `go`
+and return to the previous screen, use `context.push('/detail')` instead. A common bug is using `go`
 Everywhere and losing the back stack, so the back button exits the app unexpectedly.
 
 ### Forgetting to Handle Null Path Parameters
@@ -7843,7 +7843,7 @@ Always validate parameters in a `redirect` function before reaching the builder.
 ### Infinite Redirect Loops
 
 If a redirect function returns a path that itself triggers a redirect, GoRouter detects the loop
-After approximately 5 iterations and throws. Common causes:
+after approximately 5 iterations and throws. Common causes:
 
 - The login redirect sends the user to `/`Which redirects back to `/login` because the user is not
   yet authenticated (race condition with async auth state).
@@ -7876,7 +7876,7 @@ Consider whether `go` is more appropriate for web.
 ### Over-Nesting ShellRoutes
 
 Nesting `ShellRoute` objects more than two levels deep creates complex navigation hierarchies that
-Are difficult to debug. If you find yourself needing deeply nested shells, consider simplifying your
+are difficult to debug. If you find yourself needing deeply nested shells, consider simplifying your
 App's information architecture.
 
 ### State Loss in ShellRoute Tabs
@@ -7953,7 +7953,7 @@ URL: https://dart.wyattau.com/09-flutter-fundamentals/02-widgets-and-lifecycle/
 Flutter's rendering model is declarative. You do not mutate a view object in place; you describe
 What the UI should look like for a given state, and the framework diffs that description against the
 Current tree and applies the minimal set of changes. A **widget** is the immutable data structure
-That carries that description.
+that carries that description.
 
 A widget is a **blueprint**, not a visual element. When you write `const Text('hello')`You have
 Created a configuration object that says "render the string 'hello' with default typography." The
@@ -7992,8 +7992,8 @@ RenderObject tree (persistent, handles layout/paint/hit-test)
 
 The Widget tree exists only as a momentary configuration snapshot. The Element tree is the actual
 Persistent tree that the framework walks during layout and paint. The RenderObject tree is a subset
-Of the Element tree (only elements that need layout/paint create RenderObjects; structural elements
-Like `Column``Builder`Or `InheritedWidget` do not).
+of the Element tree (only elements that need layout/paint create RenderObjects; structural elements
+like `Column``Builder`Or `InheritedWidget` do not).
 
 ## 2. Widget Types
 
@@ -8017,7 +8017,7 @@ class TemperatureDisplay extends StatelessWidget {
 
 Use `StatelessWidget` when the widget's output depends solely on its constructor arguments and data
 Obtained from ancestor widgets (via `BuildContext`E.g., `Theme.of(context)`). The build method
-Should be a pure function of its inputs.
+should be a pure function of its inputs.
 
 ### StatefulWidget
 
@@ -8045,7 +8045,7 @@ class _CounterState extends State<Counter> {
 
 The separation between `StatefulWidget` (immutable config) and `State` (mutable lifecycle) is
 Deliberate: it allows the framework to swap a new widget config into an existing State object when
-The parent rebuilds. This is why `didUpdateWidget` receives the old widget, the current widget is
+the parent rebuilds. This is why `didUpdateWidget` receives the old widget, the current widget is
 Already available as `widget`.
 
 ### InheritedWidget
@@ -8076,7 +8076,7 @@ class ThemeConfiguration extends InheritedWidget {
 ```
 
 The `updateShouldNotify` method is the critical optimization gate. Return `true` only when the data
-That descendants care about has actually changed. If you return `true` unnecessarily, every
+that descendants care about has actually changed. If you return `true` unnecessarily, every
 Dependent descendant rebuilds on every ancestor rebuild, which cascades into severe performance
 Degradation.
 
@@ -8104,7 +8104,7 @@ Reconciliation, it performs a pointer identity check, which is O(1) and branch-p
 `BuildContext` is not a class you instantiate. It is an **abstract interface** implemented by
 `Element`. When you receive a `BuildContext` inside `build()`You are holding a handle to the
 `Element` that owns the widget currently being built. This handle represents that element's position
-In the tree.
+in the tree.
 
 ### What BuildContext Provides
 
@@ -8157,7 +8157,7 @@ Element in the tree. Once `dispose()` is called, `mounted` becomes `false` and n
 ### lookup for InheritedWidget
 
 In Flutter 3.10+, `context.lookup<T>()` provides a non-depended-upon lookup of the nearest ancestor
-Of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`This does **not**
+of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`This does **not**
 Register a dependency, meaning the calling element will **not** rebuild when the ancestor changes.
 Use this when you need to read a value once without subscribing to updates.
 
@@ -8247,7 +8247,7 @@ dispose()                        ← permanent removal, release resources
 ### createState()
 
 Called by the framework when the `StatefulWidget` is inserted into the tree. This is the only place
-Where the `State` object is instantiated. The `State` object is then associated with the `Element`
+where the `State` object is instantiated. The `State` object is then associated with the `Element`
 And persists as long as that `Element` remains in the tree, even across parent rebuilds that supply
 A new `StatefulWidget` instance.
 
@@ -8262,7 +8262,7 @@ This is where you:
 - Perform one-time computations.
 
 You **cannot** use `context.dependOnInheritedWidgetOfExactType` here because the element has not yet
-Been registered as a dependency. Use `didChangeDependencies()` for that.
+been registered as a dependency. Use `didChangeDependencies()` for that.
 
 ### didChangeDependencies()
 
@@ -8285,7 +8285,7 @@ But will not be triggered again unless you later register a dependency.
 
 Called after `initState()``didChangeDependencies()`And after every `setState()`. Must return a
 Widget. Should be a pure function of `this.state` and `this.widget` (and any inherited data). Must
-Not have side effects, do not call `setState()` inside `build()`.
+not have side effects, do not call `setState()` inside `build()`.
 
 ### didUpdateWidget(covariant oldWidget)
 
@@ -8381,7 +8381,7 @@ Future<void> _fetch() async {
 The `State` object associated with a `StatefulWidget` persists across parent rebuilds. When the
 Parent rebuilds and constructs a new `MyWidget(foo: 2)` to replace `MyWidget(foo: 1)`The framework
 Reuses the existing `State` object and calls `didUpdateWidget`. The `State` object is only discarded
-If the `Element` is removed from the tree or if the widget's `runtimeType` or `key` changes.
+if the `Element` is removed from the tree or if the widget's `runtimeType` or `key` changes.
 
 This is why fields in `State` survive rebuilds while fields in the widget do not. The widget is
 Re-instantiated every build; the state persists.
@@ -8445,7 +8445,7 @@ void _submit() {
 ```
 
 Global keys are expensive, they require O(1) lookups in a global hash map during every rebuild. Do
-Not use them inside `ListView.builder` or other lazily-built lists. They also prevent garbage
+not use them inside `ListView.builder` or other lazily-built lists. They also prevent garbage
 Collection of the Element until the key is nulled out or reassigned.
 
 ### ObjectKey
@@ -8488,7 +8488,7 @@ assert(identical(a, b)); // true, same object
 ```
 
 For Flutter's reconciliation, `identical(oldWidget, newWidget)` is the cheapest possible check. When
-It returns `true`The framework skips the entire update process, no `didUpdateWidget`No `build()`
+it returns `true`The framework skips the entire update process, no `didUpdateWidget`No `build()`
 call on the child.
 
 ### When to Use const
@@ -8583,12 +8583,12 @@ Nesting.
 Allocated space. A loose `FlexFit` allows the child to be smaller than the allocated space. Use
 `Expanded` when the child should fill the remaining space. Use `Flexible` when the child should
 Participate in flex distribution but may not need all the space (e.g., a `Row` where one child
-Should shrink-wrap).
+should shrink-wrap).
 
 ### Stack and Positioned
 
 `Stack` lays children on top of each other. `Positioned` children are placed at absolute offsets
-Within the stack. Non-positioned children are laid out by the stack's `alignment` property.
+within the stack. Non-positioned children are laid out by the stack's `alignment` property.
 `Positioned.fill()` is a convenience for `Positioned(top: 0, right: 0, bottom: 0, left: 0)`.
 
 ## 10. The Element Tree
@@ -8711,7 +8711,7 @@ Mutable state, lifecycle hooks, or controller ownership.
 
 A useful heuristic: if the widget's `build()` output changes only in response to parent rebuilds
 (i.e., the parent passes new constructor arguments), use `StatelessWidget`. If the widget's output
-Can change independently (e.g., an animation tick, a timer, user input), use `StatefulWidget`.
+can change independently (e.g., an animation tick, a timer, user input), use `StatefulWidget`.
 
 ### Key Placement in Lists
 
@@ -8903,7 +8903,7 @@ URL: https://dart.wyattau.com/10-state-management/01-state-management/
 ## What State Management Is
 
 Flutter renders UI by calling `build()` on widgets. The `build()` method returns a widget tree based
-On the current state. When state changes, `build()` must be called again to produce an updated tree.
+on the current state. When state changes, `build()` must be called again to produce an updated tree.
 The problem is: where does the state live, how does it change, and how does the framework know to
 Rebuild?
 
@@ -8912,7 +8912,7 @@ Variables. This works for a prototype but collapses under the weight of a real a
 Propagating a change from a deep widget to an ancestor requires passing callbacks through every
 Intermediate widget (callback hell), shared state becomes uncontrollable without a single source of
 Truth, and rebuilds become unpredictable because the framework cannot determine which widgets depend
-On which state.
+on which state.
 
 State management is the discipline of controlling **where** state is stored, **how** it is modified,
 And **which** widgets rebuild when it changes. Every solution in this document addresses the same
@@ -8922,7 +8922,7 @@ Fundamental problem, they differ in complexity, boilerplate, testability, and sc
 
 `setState` marks a single `State` object as dirty, triggering a rebuild of that widget and its
 Descendants. This works for local UI state (a toggle, a text field, an animation progress) but fails
-For shared application state (user session, shopping cart, feature flags):
+for shared application state (user session, shopping cart, feature flags):
 
 ```dart
 class CounterPage extends StatefulWidget {
@@ -8978,7 +8978,7 @@ setState(() {
 ```
 
 The callback is synchronous. It runs immediately, not on the next frame. The rebuild is scheduled
-For the next frame. Multiple `setState` calls within the same microtask are batched into a single
+for the next frame. Multiple `setState` calls within the same microtask are batched into a single
 Rebuild.
 
 ### Scope Limitations
@@ -9125,7 +9125,7 @@ bool updateShouldNotify(AppState oldWidget) {
 ## Provider
 
 `Provider` is a thin wrapper around `InheritedWidget` that eliminates the boilerplate. It is the
-Most widely used state management solution in Flutter, recommended by the Flutter team for small to
+most widely used state management solution in Flutter, recommended by the Flutter team for small to
 Medium applications.
 
 ```yaml
@@ -9306,7 +9306,7 @@ dev_dependencies:
 ### Providers as Immutable Declarative Values
 
 In Riverpod, a provider is a declaration of how to create a value, not a mutable object. Providers
-Are immutable globals that you reference by name. The framework handles creation, disposal, and
+are immutable globals that you reference by name. The framework handles creation, disposal, and
 Dependency tracking:
 
 ```dart
@@ -9671,7 +9671,7 @@ class CounterCubit extends Cubit<int> {
 ```
 
 Use `Cubit` when the state transitions are simple (no complex event-driven logic). Use `Bloc` when
-You need event tracing, replayability, or complex state machines.
+you need event tracing, replayability, or complex state machines.
 
 ### BlocProvider, BlocBuilder, BlocListener, BlocConsumer
 
@@ -10097,7 +10097,7 @@ final tickerProvider = StreamProvider.autoDispose<int>((ref) {
 Using Provider for one feature, Riverpod for another, and raw BLoC for a third creates an
 Inconsistent codebase where developers must understand three systems. Pick one solution for the app
 Layer. It is acceptable to use `setState` for truly local widget state regardless of which solution
-The app uses, `setState` is the correct tool for ephemeral, widget-scoped state like animation
+the app uses, `setState` is the correct tool for ephemeral, widget-scoped state like animation
 Progress or a text field controller.
 
 ### 8. Not Extracting State Logic from Widgets
@@ -10319,7 +10319,7 @@ URL: https://dart.wyattau.com/11-networking-and-data/01-platform-integration/
 ## Why Platform Integration
 
 Flutter provides a rich set of widgets and plugins, but some capabilities require direct interaction
-With the underlying operating system. The device's camera, GPS receiver, Bluetooth radio,
+with the underlying operating system. The device's camera, GPS receiver, Bluetooth radio,
 Accelerometer, file system, biometric hardware, and notification system are all accessed through
 Native platform APIs (Android's Java/Kotlin APIs, iOS's Objective-C/Swift APIs). Flutter's sandbox
 Isolates Dart code from these native APIs, so a bridge mechanism is needed.
@@ -10380,7 +10380,7 @@ if (Platform.isAndroid) {
 ### defaultTargetPlatform
 
 `defaultTargetPlatform` from `package:flutter/foundation.dart` returns a `TargetPlatform` enum. This
-Is useful for choosing between Material and Cupertino widgets:
+is useful for choosing between Material and Cupertino widgets:
 
 ```dart
 import 'package:flutter/foundation.dart';
@@ -10912,7 +10912,7 @@ Manual platform channels have several problems:
 - **No compile-time validation**: Errors are only caught when the channel is invoked at runtime.
 
 Pigeon solves all of these by generating type-safe, compile-time-checked code from a single source
-Of truth.
+of truth.
 
 ### Defining the API
 
@@ -11514,7 +11514,7 @@ class PigeonSearchDataSource implements SearchDataSource {
 ### Not Running on the Main Thread
 
 Platform channel handlers are invoked on the platform's main (UI) thread by default. If you block
-This thread with a long-running operation, the app's UI will freeze. Always offload heavy
+this thread with a long-running operation, the app's UI will freeze. Always offload heavy
 Computation to a background thread and call `result.success()` back on the main thread.
 
 ### Missing Plugin Registration
@@ -11589,12 +11589,12 @@ Codes.
 Channel names are global to the application. If two plugins use the same channel name, messages are
 Routed unpredictably. Always use a unique, namespaced channel name (e.g.,
 `com.company.app.purpose`). This is especially important when using multiple third-party plugins
-That might have naming conflicts.
+that might have naming conflicts.
 
 ### Not Handling nil/Null Correctly
 
 On iOS, Swift optionals map to null in Dart. If the native side passes `nil` where Dart expects a
-Non-null value, a cast error occurs. Always handle nullability on both sides. In Kotlin, Java's
+non-null value, a cast error occurs. Always handle nullability on both sides. In Kotlin, Java's
 `null` maps to Dart's `null` transparently, but Kotlin's non-nullable types do not prevent `null`
 From being sent through the channel if the caller bypasses the type system.
 
@@ -11602,7 +11602,7 @@ From being sent through the channel if the caller bypasses the type system.
 
 Before writing a platform channel, check if an existing Flutter package already provides the
 Functionality. The Flutter ecosystem has thousands of plugins covering most common needs. Writing
-And maintaining custom platform channels across Android, iOS, macOS, Windows, and Linux is a
+and maintaining custom platform channels across Android, iOS, macOS, Windows, and Linux is a
 Significant maintenance burden. Use Pigeon if you must write custom channels to reduce the
 Boilerplate and type-safety risks.
 
@@ -11667,7 +11667,7 @@ URL: https://dart.wyattau.com/14-testing/01-testing-fundamentals/
 ## Why Test
 
 Testing is not a phase that comes after development. It is a structural property of the codebase
-That determines whether you can safely change it. The absence of tests does not mean you are moving
+that determines whether you can safely change it. The absence of tests does not mean you are moving
 Faster, it means every change is a gamble with unknown odds.
 
 ### Regression Prevention
@@ -11688,7 +11688,7 @@ Needs updating. This is more reliable than comments, which have no mechanism to 
 Code that is difficult to test is almost always poorly structured. Tight coupling, hidden
 Dependencies, side effects in constructors, and god classes all surface as untestable code. Writing
 Tests first (test-driven development) or writing tests immediately after forces you to confront
-These design problems while they are still cheap to fix.
+these design problems while they are still cheap to fix.
 
 ### Confidence in Refactoring
 
@@ -11708,7 +11708,7 @@ Something.
 
 Unit tests are the foundation. They are fast, deterministic, and cheap to maintain. Widget tests add
 Coverage for the UI layer. Integration tests validate that units compose correctly. End-to-end tests
-Are the most expensive and should be used sparingly, they catch issues that lower-level tests miss,
+are the most expensive and should be used sparingly, they catch issues that lower-level tests miss,
 But they are slow, flaky, and hard to debug.
 
 The testing pyramid is not a suggestion, it is a cost optimization. A project with 1000 unit tests,
@@ -11828,7 +11828,7 @@ group('Database Integration', () {
 
 `setUpAll` is for resources that are expensive to create (database connections, HTTP servers, test
 Fixtures). `setUp` is for resetting state between tests. Never share mutable state across tests
-Without resetting it, tests must be independent and order-invariant.
+without resetting it, tests must be independent and order-invariant.
 
 ### expect and the Matcher System
 
@@ -11892,7 +11892,7 @@ expect(value, isA<User>().having((u) => u.name, 'name', 'Alice'));
 ```
 
 `isA<T>()` checks `value is T` at runtime. The `.having()` combinator lets you assert properties of
-The matched object, the second argument is a description used in failure messages.
+the matched object, the second argument is a description used in failure messages.
 
 ### Numeric Comparisons
 
@@ -12175,7 +12175,7 @@ test('calculates total with tax', () {
 ```
 
 Keep the phases visually distinct with blank lines. This makes tests scannable and makes it obvious
-When a test is doing too much in one phase.
+when a test is doing too much in one phase.
 
 ### Test Organization
 
@@ -12316,7 +12316,7 @@ test("logs analytics event on login', () async {
 ### reset
 
 `reset(mock)` clears all stubbings and call history on a mock. Use it when you want to reuse a mock
-Across tests without recreating it:
+across tests without recreating it:
 
 ```dart
 tearDown(() {
@@ -12679,7 +12679,7 @@ flutter test --coverage
 ```
 
 This produces `coverage/lcov.info`a machine-readable file listing every line in your source code
-And whether it was executed during the test run.
+and whether it was executed during the test run.
 
 ### Viewing Coverage with genhtml
 
@@ -12748,7 +12748,7 @@ test('divide does not crash', () {
 ```
 
 Branch coverage is more informative than line coverage, it measures whether each conditional branch
-Was taken. Some tools support this, but the Dart ecosystem's support is limited. Focus on line
+was taken. Some tools support this, but the Dart ecosystem's support is limited. Focus on line
 Coverage as a floor and supplement with manual review of assertion quality.
 
 ### Excluding Files from Coverage
@@ -12820,8 +12820,8 @@ flutter test -j 1
 ```
 
 Tests must be independent, they must not share mutable state, depend on execution order, or compete
-For external resources (ports, files). If tests fail under parallelism but pass sequentially, you
-Have a test isolation bug.
+for external resources (ports, files). If tests fail under parallelism but pass sequentially, you
+have a test isolation bug.
 
 ### Reporters
 
@@ -13044,8 +13044,8 @@ Everyone ignores, at which point the golden test has zero value. Run
 ### 10. Coverage as a Vanity Metric
 
 100% coverage is not the goal. A test suite with 80% coverage and strong assertions is more valuable
-Than one with 100% coverage and weak assertions. Coverage measures execution, not correctness. Use
-It as a floor, not a ceiling, and supplement it with code review of assertion quality.
+than one with 100% coverage and weak assertions. Coverage measures execution, not correctness. Use
+it as a floor, not a ceiling, and supplement it with code review of assertion quality.
 
 
 ```mermaid
@@ -13659,7 +13659,7 @@ void main() {
 ### Union Types
 
 `freezed` excels at modeling sealed class hierarchies, union types where a value can be one of
-Several variants:
+several variants:
 
 ```dart
 import "package:freezed_annotation/freezed_annotation.dart';
@@ -14273,7 +14273,7 @@ dart run build_runner watch --delete-conflicting-outputs
 
 Watch mode monitors all files in the project and triggers regeneration when annotated source files
 Change. This is useful during active model development but consumes resources, consider stopping it
-When working on unrelated files.
+when working on unrelated files.
 
 ### Cleaning Stale Generated Files
 
@@ -14440,7 +14440,7 @@ Check the builder package's changelog for compatible `build_runner` versions.
 ### Watching Too Many Files (Performance)
 
 `build_runner watch` monitors all files in the project by default. In large monorepos or projects
-With many assets, this causes excessive file system activity:
+with many assets, this causes excessive file system activity:
 
 ```bash
 # Limit watch scope with generate_for in build.yaml
@@ -14502,7 +14502,7 @@ part 'user.freezed.dart';
 ### Mixing Annotation Packages
 
 Using `freezed` with `json_serializable` requires specific import and part configuration. Forgetting
-The `@JsonSerializable` integration step or missing the `.g.dart` part directive causes partial
+the `@JsonSerializable` integration step or missing the `.g.dart` part directive causes partial
 Generation:
 
 ```dart
@@ -14593,7 +14593,7 @@ URL: https://dart.wyattau.com/12-dependency-injection/
 Dependency Injection (DI) is a design pattern that implements **Inversion of Control (IoC)**:
 Instead of a class creating its own dependencies, they are provided from the outside. This decouples
 Consumers from concrete implementations and is fundamental to writing testable, maintainable Dart
-And Flutter code.
+and Flutter code.
 
 ### Core Principles
 
@@ -14800,7 +14800,7 @@ class NotificationService {
 ## Service Locator Pattern
 
 A service locator is a central registry where objects register their dependencies and look them up
-At runtime. In Dart, `GetIt` is the canonical service locator.
+at runtime. In Dart, `GetIt` is the canonical service locator.
 
 ### How It Works
 
@@ -15231,7 +15231,7 @@ abstract class RegisterModule {
 ## Riverpod as DI
 
 Riverpod is both a state management solution and a dependency injection framework. Providers serve
-As dependency containers with compile-time safety.
+as dependency containers with compile-time safety.
 
 ### Providers as Dependency Containers
 
@@ -15741,7 +15741,7 @@ class C {
 ### Singleton vs Factory for Testability
 
 Using singletons for everything makes tests interdependent. State leaks between tests if singletons
-Are not reset.
+are not reset.
 
 ```dart
 // DON'T, singleton for stateful service used in tests
@@ -15793,7 +15793,7 @@ setUp(() {
 ### Mixing DI Approaches Inconsistently
 
 Using `get_it` in one module and Riverpod in another creates confusion about where dependencies live
-And how they're resolved. Pick one primary approach and be consistent. If using Riverpod, prefer
+and how they're resolved. Pick one primary approach and be consistent. If using Riverpod, prefer
 Riverpod providers for all Flutter-specific dependencies and reserve `get_it` for non-Flutter Dart
 Services if needed.
 
@@ -15856,9 +15856,9 @@ URL: https://dart.wyattau.com/08-error-handling/
 ## Exception vs Error Hierarchy
 
 Dart draws a sharp line between two families of throwable objects: `Exception` and `Error`. This is
-Not a stylistic preference, it is a semantic contract. `Exception` means "something went wrong at
+not a stylistic preference, it is a semantic contract. `Exception` means "something went wrong at
 Runtime that a caller might reasonably recover from." `Error` means "the program has entered a state
-That indicates a programming bug, and recovery is not safe."
+that indicates a programming bug, and recovery is not safe."
 
 ### The Full Hierarchy
 
@@ -15930,8 +15930,8 @@ void processList(List<int> items) {
 
 Catching bare `catch (e)` without specifying a type will catch **both** `Exception` and `Error`.
 This is almost always wrong. It swallows `StackOverflowError``OutOfMemoryError`And other signals
-That the program is in an unrecoverable state. Always prefer `on Exception catch (e)` if you intend
-To handle runtime failures, and let `Error` propagate to the top-level handler.
+that the program is in an unrecoverable state. Always prefer `on Exception catch (e)` if you intend
+to handle runtime failures, and let `Error` propagate to the top-level handler.
 
 ## try / on / catch / finally
 
@@ -15994,7 +15994,7 @@ General ones.
 ### finally Always Runs
 
 The `finally` block executes regardless of whether an exception was thrown, caught, or not thrown at
-All. It runs even if a `catch` block returns or throws. This is the correct place for cleanup logic.
+all. It runs even if a `catch` block returns or throws. This is the correct place for cleanup logic.
 
 ```dart
 final file = File('data.bin');
@@ -16164,7 +16164,7 @@ void logAndRethrow() {
 
 `rethrow` re-throws the caught exception with its **original** stack trace intact. The resulting
 Trace points to the line inside `riskyOperation()` where the exception was originally thrown, not
-The `rethrow` line.
+the `rethrow` line.
 
 ### When to Use Each
 
@@ -16202,7 +16202,7 @@ Future<User> fetchUser(String id) async {
 
 A `StackTrace` is an opaque string-like object representing the call stack at the point of a throw.
 It is not parseable via a structured API, it is a formatted string that you read visually or send
-To an error reporting service.
+to an error reporting service.
 
 ```dart
 try {
@@ -16270,7 +16270,7 @@ A Dart stack trace frame has the format:
 ### Uncaught Async Errors
 
 In synchronous code, an uncaught exception crashes the isolate. In async code, the behavior depends
-On whether the `Future` has an error handler attached:
+on whether the `Future` has an error handler attached:
 
 ```dart
 // Synchronous, crashes immediately
@@ -16363,7 +16363,7 @@ Prints to stderr but does **not** terminate the isolate. This is by design, in a
 Application (Flutter), a single failed network request should not bring down the entire app.
 
 This means uncaught async errors are **silent by default**. The only output is a stderr print. This
-Is why you must either:
+is why you must either:
 
 1. Use `runZonedGuarded` to install a global error handler that reports to a crash reporting
    service.
@@ -16397,7 +16397,7 @@ controller.close();   // Stream closed
 ### onError Handler
 
 The `onError` callback in `listen()` handles error events. Without it, the error is dispatched to
-The zone's error handler.
+the zone's error handler.
 
 ### handleError()
 
@@ -16974,15 +16974,15 @@ URL: https://dart.wyattau.com/09-ffi-and-advanced/
 
 Dart 2.12 introduced sound null safety. This is not a nullable annotation system bolted onto an
 Existing type system. It is a fundamental rewrite of the type hierarchy: `Null` is a subtype of
-Every type, but only of nullable types. The compiler and runtime together guarantee that a
-Non-nullable variable never holds `null` at runtime. This guarantee is **sound**, it holds across
+every type, but only of nullable types. The compiler and runtime together guarantee that a
+non-nullable variable never holds `null` at runtime. This guarantee is **sound**, it holds across
 Function boundaries, class hierarchies, generic instantiations, and asynchronous code paths.
 
 ### Sound vs Unsounded Null Safety
 
 **Definition.** Soundness (in the type-theoretic sense) means: if the type checker accepts a
 Program, no runtime type error related to null dereference can occur. The guarantee is global, it
-Does not depend on the programmer annotating every variable correctly, because the type checker
+does not depend on the programmer annotating every variable correctly, because the type checker
 Enforces consistency at all boundaries.
 
 Unsound null safety (e.g., TypeScript's `strictNullChecks`Kotlin's platform types at interop
@@ -17083,7 +17083,7 @@ The `!` operator is a code smell in production code, it means you are bypassing 
 ### Late Initialization
 
 The `late` keyword tells the compiler: "this variable will be initialized before it is used, but not
-At the point of declaration." The compiler trusts this assertion and does not require an
+at the point of declaration." The compiler trusts this assertion and does not require an
 Initializer. At runtime, accessing an uninitialized `late` variable throws a
 `LateInitializationError`.
 
@@ -17275,7 +17275,7 @@ example();            // compile error: missing required parameter
 The return type of functions that never return normally (they always throw or loop forever).
 
 `Never` is a subtype of every type. This makes it useful for exhaustive analysis in pattern matching
-And control flow.
+and control flow.
 
 ```dart
 // A function that never returns
@@ -17310,7 +17310,7 @@ int eval(Expr expr) => switch (expr) {
 ### Flow Analysis and Its Limitations
 
 Dart's flow analysis tracks nullability through local variables. If you check a nullable variable
-For non-null, the type is promoted within the scope where the check holds.
+for non-null, the type is promoted within the scope where the check holds.
 
 ```dart
 String? name = getName();
@@ -17355,7 +17355,7 @@ String? getName() => 'Dart';
 
 :::caution
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
-Will not promote it inside the closure.
+will not promote it inside the closure.
 
 ### Migration Patterns
 
@@ -17402,7 +17402,7 @@ class User {
 **Definition.** `dart:ffi` (Foreign Function Interface) is a Dart library that allows Dart code to
 Call C functions directly, without writing glue code in an intermediate language. It provides
 Bindings for C types, pointers, structs, callbacks, and dynamic library loading. It is the mechanism
-By which Dart interacts with native system libraries, operating system APIs, and
+by which Dart interacts with native system libraries, operating system APIs, and
 Performance-critical C/C++ code.
 
 `dart:ffi` is available on native platforms (iOS, Android, macOS, Windows, Linux). It is not
@@ -17858,7 +17858,7 @@ Event loop, and thread of execution. Isolates do not share memory, communication
 Strictly via message passing through ports.
 
 This is fundamentally different from threads in Java, C++, or Go. In those languages, threads share
-The same heap and require synchronization primitives (mutexes, semaphores, atomics) to prevent data
+the same heap and require synchronization primitives (mutexes, semaphores, atomics) to prevent data
 Races. Dart's isolates eliminate data races by eliminating shared state.
 
 ```
@@ -18491,7 +18491,7 @@ void correctStringUsing() {
 ### Dangling Pointers
 
 Using a pointer after the underlying memory has been freed causes undefined behavior. The Dart VM
-Does not detect use-after-free.
+does not detect use-after-free.
 
 ```dart
 // DANGEROUS: pointer used after free
@@ -19514,7 +19514,7 @@ Therefore when Dart code uses Flutter, compiler explorer cannot be used and Dart
 Dart is an OOP focus programming language developed by Google, desgined for native support by
 Compiling to native machine code with AOT (Ahead-of-Time) compilation, and fast reiteration with JIT
 (Just-in-Time) compilation that enables hot-reload. Parallelism in Dart relies on isolates instead
-Of threads appraoch, which are thread-like execution units that have separate memory, therefore no
+of threads appraoch, which are thread-like execution units that have separate memory, therefore no
 State sharing is possible and rely on messaging when communcation between isolates are needed.
 Memory management in Dart relies on garbage collector, with no direct memory access allowed.
 
@@ -19537,7 +19537,7 @@ Dart is a general-purpose language with four primary compilation targets:
 
 The dual JIT/AOT strategy is the defining architectural decision in Dart. During development, the VM
 Uses JIT compilation with **hot reload**, the VM injects updated source into the running process
-Without restarting. In release, the AOT compiler (`dart2native` / `flutter build`) produces a
+without restarting. In release, the AOT compiler (`dart2native` / `flutter build`) produces a
 Standalone binary with no runtime dependency on the VM. This is not an interpreter trick; the AOT
 Compiler performs tree-shaking, type inference, and inlining to produce code competitive with C++ on
 Numeric benchmarks.
@@ -19547,14 +19547,14 @@ Numeric benchmarks.
 Flutter is the primary consumer of Dart. It is a multi-platform UI framework (iOS, Android, Windows,
 MacOS, Linux, web) that relies heavily on immutable widgets. Lifecycle, state, and layout are
 Handled by the rendering pipeline (Impeller as of Flutter 3.29+). Developing Flutter relies heavily
-On widget composition and core primitives.
+on widget composition and core primitives.
 
 ### Server-side Dart
 
 Dart runs on the server via `dart run` or compiled AOT binaries via `dart compile exe`. The `shelf`
 Package provides middleware-based HTTP handling, and the `dart:io` library gives you sockets, file
 I/O, and process management. Google's internal infrastructure runs significant Dart services, and
-The ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
+the ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
 (`dart:stable`).
 
 ### Dart for the Web

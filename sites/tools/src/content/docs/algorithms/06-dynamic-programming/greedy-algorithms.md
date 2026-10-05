@@ -52,7 +52,7 @@ Optimal solution with the greedy choice without making the solution worse.
 ### Example: Activity Selection
 
 Given $n$ activities with start times $s_i$ and finish times $f_i$ Select the maximum number of
-Non-overlapping activities.
+non-overlapping activities.
 
 **Greedy**: always pick the activity with the earliest finish time.
 
@@ -320,7 +320,7 @@ def kruskal(n, edges):
 ### Prim's Algorithm
 
 Grow the MST from an arbitrary vertex, always adding the cheapest edge connecting the tree to a
-Non-tree vertex.
+non-tree vertex.
 
 ```python
 import heapq
@@ -391,7 +391,7 @@ Negative cycles.
 ## Matroid Theory
 
 A matroid is a combinatorial structure that captures the notion of "independence." Greedy algorithms
-Are optimal on matroids.
+are optimal on matroids.
 
 ### Definition
 
@@ -429,7 +429,7 @@ graph TD
 
 The independent sets of the 0/1 knapsack (sets whose total weight does not exceed capacity) do not
 Satisfy the exchange property. Consider capacity 10, items of weights {6, 6, 5}. Sets {6} and {5}
-Are independent, but neither can be extended by the other to remain within capacity 10. This is why
+are independent, but neither can be extended by the other to remain within capacity 10. This is why
 Greedy fails for 0/1 knapsack.
 
 ## Job Scheduling

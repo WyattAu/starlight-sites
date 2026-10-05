@@ -29,7 +29,7 @@ E(P) = \frac{i}{\lambda}\iint_{\mathrm{aperture} E(Q)\,\frac{e^{-ikr}}{r}\cos\th
 $$
 
 Where $E(Q)$ is the field at the aperture point $Q$, $r$ is the distance from $Q$ to $P$ And $\theta$
-Is the angle between the normal to the aperture and the direction to $P$. The obliquity factor
+is the angle between the normal to the aperture and the direction to $P$. The obliquity factor
 $\cos\theta$ ensures that wavelets do not propagate backwards. In the Fraunhofer limit
 ($r \to \infty$), This integral reduces to the Fourier transform of the aperture function (see
 Sections 4.8 and 7.1).
@@ -241,7 +241,7 @@ Single blurred source.
 ### 4.8 Introduction to Fourier Optics
 
 The Fraunhofer diffraction integral has a deep connection with Fourier analysis. For an aperture
-With transmission function $t(x, y)$ The far-field diffraction pattern is:
+with transmission function $t(x, y)$ The far-field diffraction pattern is:
 
 $$
 E(\theta_x, \theta_y) \propto \iint t(x,y)\, e^{-i(k_x x + k_y y)}\,dx\,dy

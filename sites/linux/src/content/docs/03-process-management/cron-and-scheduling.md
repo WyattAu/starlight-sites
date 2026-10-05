@@ -266,7 +266,7 @@ chmod 755 /etc/cron.daily/my-daily-job
 
 `anacron` (anachronistic cron) is designed for systems that are not running 24/7. Unlike cron, which
 Assumes the system is always on, anacron ensures that jobs run at the specified intervals relative
-To the last run, even if the system was off.
+to the last run, even if the system was off.
 
 ```bash
 # anacron configuration

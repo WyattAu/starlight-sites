@@ -145,7 +145,7 @@ ping -c 4 -s 1400 example.com
 ### TTL (Time to Live)
 
 The TTL field in the IP header is decremented by each router. When TTL reaches 0, the router sends
-An ICMP Time Exceeded message back to the source. The initial TTL reveals the operating system:
+an ICMP Time Exceeded message back to the source. The initial TTL reveals the operating system:
 
 | Initial TTL | OS                           |
 | ----------- | ---------------------------- |
@@ -230,7 +230,7 @@ traceroute to example.com (93.184.216.34), 30 hops max, 60 byte packets
 
 `tcpdump` is the standard command-line packet capture tool. It uses BPF (Berkeley Packet Filter)
 Expressions to filter captured packets and can capture packets for analysis or save them to a file
-For Wireshark.
+for Wireshark.
 
 ### Basic Capture
 
@@ -441,7 +441,7 @@ curl https://example.com
 ## netcat (nc)
 
 `netcat` is a versatile networking utility for reading from and writing to network connections. It
-Is often called the "TCP/IP Swiss army knife."
+is often called the "TCP/IP Swiss army knife."
 
 ### Port Scanning
 
@@ -773,7 +773,7 @@ nslookup
 ## ss (Socket Statistics)
 
 `ss` replaces the older `netstat` command for examining network sockets. It is faster and provides
-More detailed information.
+more detailed information.
 
 ### Common Usage
 
@@ -918,7 +918,7 @@ nmap --script ssl-enum-ciphers -p 443 192.168.1.100
 ## iperf3
 
 `iperf3` measures network throughput (bandwidth) between two hosts. One host runs as a server, the
-Other as a client.
+other as a client.
 
 ### Basic Usage
 

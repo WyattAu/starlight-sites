@@ -210,7 +210,7 @@ print(sys.maxsize)  # 2**63 - 1 on 64-bit systems (platform pointer size)
 Source of silent, catastrophic errors. Python's target audience (non-systems-programmers) is less
 Likely to think about bit widths. The cost is performance: big-integer arithmetic is slower than
 Fixed-width register arithmetic. Python accepts this trade-off because correctness is prioritized
-Over raw speed.
+over raw speed.
 
 Internally, CPython represents integers as variable-length arrays of digits (base $2^{30}$ on 64-bit
 Systems). Small integers in the range $[-5, 256]$ are **pre-allocated and interned** -- every
@@ -272,7 +272,7 @@ print(abs(z))        # 5.0 (magnitude)
 ### `decimal.Decimal`: Exact Decimal Arithmetic
 
 The `decimal` module provides arbitrary-precision, base-10 arithmetic with configurable rounding. It
-Is essential for financial calculations and any domain where binary floating-point representation
+is essential for financial calculations and any domain where binary floating-point representation
 Errors are unacceptable.
 
 ```python
@@ -382,7 +382,7 @@ CPython uses a flexible format:
 - **UCS-4 (4 bytes per character):** Used when any character exceeds U+FFFF.
 
 This is a CPython implementation detail (PEP 393, "Flexible String Representation") that optimizes
-The common case of ASCII-only strings to use 1 byte per character, while still supporting the full
+the common case of ASCII-only strings to use 1 byte per character, while still supporting the full
 Unicode range without surrogate pairs.
 
 ```python
@@ -659,7 +659,7 @@ def process(items: List[str]) -> Dict[str, int]:
 ### `TypeVar` and Generic Functions
 
 `TypeVar` enables writing generic functions where the relationship between input and output types
-Must be preserved:
+must be preserved:
 
 ```python
 from typing import TypeVar
@@ -768,7 +768,7 @@ def process(value: Union[int, str, None]) -> str:
 ### `typing.cast`
 
 When you know more about a type than the type checker does, use `cast` to assert the type without
-Any runtime overhead:
+any runtime overhead:
 
 ```python
 from typing import cast, Any
@@ -782,7 +782,7 @@ names: list[str] = cast(list[str], data)
 ## Type Checking with `mypy`
 
 `mypy` is the reference static type checker for Python. It analyzes source code without executing it
-And reports type errors.
+and reports type errors.
 
 ### Installation and Basic Usage
 

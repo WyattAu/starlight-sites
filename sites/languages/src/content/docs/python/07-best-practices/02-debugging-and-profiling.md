@@ -32,7 +32,7 @@ Sampling profilers, and explains the _why_ behind each tool"s design.
 The Python debugger (`pdb`) is a bytecode-level, line-oriented debugger implemented in pure Python.
 It operates by manipulating the frame objects that CPython creates for each function call, setting
 `sys.settrace` callbacks that fire on every call, line, return, and exception event. Understanding
-This is critical: `pdb` is not a separate process observing your program. It is your program, with a
+this is critical: `pdb` is not a separate process observing your program. It is your program, with a
 Trace hook inserted.
 
 ### Basic Entry Points
@@ -66,9 +66,9 @@ def compute():
 `breakpoint()` is not syntax, it is a built-in function that calls `sys.breakpointhook()`. By
 Default, `sys.breakpointhook` is set to `pdb.set_trace()`But the crucial difference is that it is
 _configurable_. You can set `PYTHONBREAKPOINT=0` in the environment to make all `breakpoint()` calls
-No-ops in production. You can set `PYTHONBREAKPOINT=ipdb.set_trace` to redirect all breakpoints to
+no-ops in production. You can set `PYTHONBREAKPOINT=ipdb.set_trace` to redirect all breakpoints to
 `ipdb` without changing a single line of code. This is a systems-level concern: your instrumentation
-Should be deployable and removable through configuration, not code changes.
+should be deployable and removable through configuration, not code changes.
 
 You can also start pdb from the command line, instrumenting the entire program from the start:
 
@@ -77,7 +77,7 @@ python -m pdb script.py
 ```
 
 This runs the script under pdb control from module load, which means you can set breakpoints before
-Any user code runs. This is essential for debugging import-time side effects, which are invisible to
+any user code runs. This is essential for debugging import-time side effects, which are invisible to
 Inline `breakpoint()` calls placed inside functions.
 
 ### Core pdb Commands
@@ -108,7 +108,7 @@ Internals of this call?" If yes, `s`. If no, `n`.
 
 The `u` and `d` commands let you walk the call stack without actually executing any code. This is
 How you inspect the state of a calling function when you are deep inside a callee. You can `u` to
-The caller, `p local_var` to inspect its state, then `d` to return to the callee.
+the caller, `p local_var` to inspect its state, then `d` to return to the callee.
 
 ### The Cost of pdb
 
@@ -135,7 +135,7 @@ Condition. Pdb supports conditional breakpoints:
 ```
 
 This sets a breakpoint at line 42 that only triggers when the local variable `x` is greater
-Than 100. The condition is evaluated as a Python expression in the current frame's namespace every
+than 100. The condition is evaluated as a Python expression in the current frame's namespace every
 Time line 42 is reached. If the condition is false, execution continues without stopping.
 
 Why does this matter? Consider a loop processing 10 million records. You know the bug manifests when
@@ -150,8 +150,8 @@ Breakpoint, you would have to hit `c` thousands of times. With
 ```
 
 `tbreak` sets a breakpoint that automatically removes itself after it is hit once. This is useful
-When you want to inspect state at a single point during a long execution without having to remember
-To delete the breakpoint afterward.
+when you want to inspect state at a single point during a long execution without having to remember
+to delete the breakpoint afterward.
 
 ### Ignoring Library Code
 
@@ -188,7 +188,7 @@ Debugger.
 ### .pdbrc for Startup Commands
 
 Place a `.pdbrc` file in your home directory or the current working directory. Pdb reads this file
-On startup and executes each line as a pdb command. Common uses:
+on startup and executes each line as a pdb command. Common uses:
 
 ```
 ## ~/.pdbrc
@@ -206,7 +206,7 @@ Breakpoints.
 When your program crashes with an unhandled exception, the traceback is printed and the process
 Exits. But the traceback frame objects still exist in memory at the moment of the crash. `pdb.pm()`
 (post-mortem) re-attaches pdb to the last exception's traceback, letting you inspect the state at
-The point of failure:
+the point of failure:
 
 ```python
 import pdb
@@ -229,7 +229,7 @@ Normal termination). You can then call `pdb.pm()` to inspect the failure state.
 The critical insight about post-mortem debugging is that it requires no advance planning. You do not
 Need to have set breakpoints before the crash. The traceback is a first-class object in Python, and
 Pdb can re-enter it at any time. This makes it indispensable for debugging production crashes where
-You cannot reproduce the failure interactively.
+you cannot reproduce the failure interactively.
 
 You can also use `pdb.Pdb().interaction(None, sys.exc_info()[2])` for more fine-grained control, but
 `pdb.post_mortem()` is the standard entry point.
@@ -273,8 +273,8 @@ Key fields and their semantics:
   site-packages or the standard library. When `false`You step into everything.
 
 Watch expressions in VS Code are evaluated in the current frame's context on every pause. They are
-Not free, each watch expression requires the debug adapter to serialize the result back to the IDE
-Over DAP. If you have complex watch expressions and notice the debugger feels sluggish, reduce the
+not free, each watch expression requires the debug adapter to serialize the result back to the IDE
+over DAP. If you have complex watch expressions and notice the debugger feels sluggish, reduce the
 Number of watches.
 
 The debug console in VS Code is a full Python REPL running in the context of the debugged process.
@@ -284,7 +284,7 @@ This is not a simulation, it is the actual process.
 ### PyCharm Debugger
 
 PyCharm's debugger is implemented using the Python Debug Server Protocol (a proprietary predecessor
-To DAP). It works similarly to the VS Code debugger but is tightly integrated with PyCharm's code
+to DAP). It works similarly to the VS Code debugger but is tightly integrated with PyCharm's code
 Analysis. PyCharm's debugger supports:
 
 - Evaluate expression on pause (same as VS Code watch expressions).
@@ -294,7 +294,7 @@ Analysis. PyCharm's debugger supports:
 - Method breakpoints (break on entry to any method of a class).
 
 The "force return" feature is particularly powerful. If you have reached a point in the code where
-You understand the bug and want to skip the remaining computation with a known-good value, you can
+you understand the bug and want to skip the remaining computation with a known-good value, you can
 Force return that value without modifying the source.
 
 ### Remote Debugging with debugpy
@@ -333,7 +333,7 @@ On your local machine, configure VS Code to attach:
 ```
 
 The `pathMappings` field is critical. The remote process has its own filesystem paths. The local IDE
-Has different paths. `pathMappings` tells the debug adapter how to translate between them. If you
+has different paths. `pathMappings` tells the debug adapter how to translate between them. If you
 Set a breakpoint in `/home/user/project/main.py` locally but the remote process loaded
 `/app/main.py`The path mapping ensures the breakpoint lands in the right place.
 
@@ -347,7 +347,7 @@ python -m debugpy --listen 5678 --pid <PID>
 ```
 
 This injects debugpy into the target process by writing to `/proc/<PID>/mem` on Linux. It works
-Because CPython's `importlib` machinery can be manipulated from outside the process. The debugpy
+because CPython's `importlib` machinery can be manipulated from outside the process. The debugpy
 Module is loaded into the running process, sets up the trace hook, and begins accepting DAP
 Connections.
 
@@ -503,7 +503,7 @@ logger.error("Request failed", extra={"request_id": "abc123", "status_code": 500
 ```
 
 The `extra` parameter on log calls is the mechanism for attaching structured metadata. These fields
-Are stored as attributes on the `LogRecord` object and can be accessed by custom formatters. This is
+are stored as attributes on the `LogRecord` object and can be accessed by custom formatters. This is
 How you attach request IDs, trace IDs, user IDs, and other operational metadata to log messages.
 
 ## traceback Module
@@ -524,7 +524,7 @@ except Exception:
 ```
 
 `traceback.print_exc()` prints the full traceback to `sys.stderr`. It is equivalent to what Python
-Does automatically for unhandled exceptions, but you call it explicitly inside your `except` block.
+does automatically for unhandled exceptions, but you call it explicitly inside your `except` block.
 This is useful when you catch an exception, log it, and then re-raise or handle it.
 
 ```python
@@ -536,7 +536,7 @@ except Exception:
 ```
 
 `traceback.format_exc()` returns the traceback as a string instead of printing it. This is the form
-You use when you want to store the traceback in a log, a database, or an error reporting service.
+you use when you want to store the traceback in a log, a database, or an error reporting service.
 
 ```python
 traceback.print_stack(file=sys.stdout)
@@ -574,7 +574,7 @@ sys.excepthook = custom_excepthook
 
 Critical detail: always delegate to `sys.__excepthook__` at the end. If your custom hook raises an
 Exception, Python enters an infinite loop of exception handling. The `sys.__excepthook__` reference
-Is the original hook that Python saved at startup.
+is the original hook that Python saved at startup.
 
 Also note the `KeyboardInterrupt` guard. `KeyboardInterrupt` is not an error, it is the user
 Pressing Ctrl+C. Your error reporting hook should not fire for it.
@@ -611,7 +611,7 @@ except ValueError:
 ```
 
 This produces a clean traceback with no mention of the original `ValueError`. Use `from None` when
-The original exception is an implementation detail that would confuse the user or operator.
+the original exception is an implementation detail that would confuse the user or operator.
 
 The `__cause__` and `__context__` attributes are set by the interpreter. `__suppress_context__` is
 Set to `True` when you use `from e` or `from None`Which tells the traceback formatter to prefer
@@ -733,7 +733,7 @@ print(f"Median: {sorted(times)[len(times)//2]:.6f}s")
 `timeit.timeit()` runs the statement `number` times and returns the total time. `timeit.repeat()`
 Runs `timeit()` multiple times (default 5) and returns a list of total times. Always use `repeat()`
 And report the minimum or median, the minimum is the most accurate because it represents the run
-With the least external interference from the OS scheduler, cache effects, and other noise.
+with the least external interference from the OS scheduler, cache effects, and other noise.
 
 ### Common Gotchas
 
@@ -823,7 +823,7 @@ Focus your optimization effort.
 ### line_profiler vs cProfile
 
 CProfile operates at function granularity. It tells you that `process_records` took 4 seconds, but
-Not which line caused it. `line_profiler` operates at line granularity. It tells you exactly which
+not which line caused it. `line_profiler` operates at line granularity. It tells you exactly which
 Line inside `process_records` is slow.
 
 The tradeoff: `line_profiler` is significantly slower than cProfile because it inserts a trace
@@ -1077,7 +1077,7 @@ def compute(values):
 ```
 
 In CPython, local variable access uses the `LOAD_FAST` bytecode instruction, which indexes directly
-Into the frame's `fastlocals` array. This is an array lookup, O(1) with very low constant factor.
+into the frame's `fastlocals` array. This is an array lookup, O(1) with very low constant factor.
 Global variable access uses `LOAD_GLOBAL`Which performs a dictionary lookup in the module's
 `__dict__`. Dictionary lookup involves hash computation, comparison, and potential collision
 Resolution. For a hot loop, the difference is measurable.
@@ -1164,7 +1164,7 @@ access is faster (descriptor lookup vs dictionary lookup).
 The memory savings are significant at scale. An instance with `__slots__` uses approximately 48
 Bytes on 64-bit CPython. Without `__slots__`The same instance uses approximately 200+ bytes
 (depending on the number of attributes). If you are creating millions of instances, the difference
-Is hundreds of megabytes.
+is hundreds of megabytes.
 
 Tradeoffs:
 
@@ -1181,7 +1181,7 @@ Tradeoffs:
 `breakpoint()` and `pdb.set_trace()` halt the process and wait for stdin. In a production service,
 This means the process hangs indefinitely, requests time out, and health checks fail. The fix is
 Simple: set `PYTHONBREAKPOINT=0` in your production environment. This makes all `breakpoint()` calls
-No-ops without requiring code changes. Better yet, use a linter rule that forbids `pdb` imports and
+no-ops without requiring code changes. Better yet, use a linter rule that forbids `pdb` imports and
 `breakpoint()` calls in production code paths.
 
 ### 2. Trusting cProfile for I/O-Bound Code
@@ -1204,20 +1204,20 @@ Higher, and use `timeit.repeat()` to verify consistency across runs.
 The Global Interpreter Lock (GIL) means that only one thread executes Python bytecode at a time.
 CProfile profiles the thread that calls it, not all threads. If your program uses threading for
 Concurrency, you may be profiling the wrong thread. For multi-threaded profiling, attach cProfile to
-Each thread individually, or use py-spy which profiles all threads simultaneously.
+each thread individually, or use py-spy which profiles all threads simultaneously.
 
 ### 5. Using print() for Debugging and Forgetting to Remove It
 
 This is the most common debugging pitfall. `print()` statements in code are technical debt. They
 Clutter logs, they have no metadata, and they cannot be controlled at runtime. The solution is to
 Use `logging` from the start. If you must use print during development, establish a convention (grep
-For `print(` before committing) or use a pre-commit hook that rejects print statements outside of
+for `print(` before committing) or use a pre-commit hook that rejects print statements outside of
 `__main__` blocks.
 
 ### 6. Profiling Debug Builds
 
 Always profile release builds. Debug builds of C extensions (NumPy, pandas, etc.) may be compiled
-Without optimizations (`-O0`), which produces dramatically different performance characteristics.
+without optimizations (`-O0`), which produces dramatically different performance characteristics.
 Verify that your profiling environment matches your production environment: same Python version,
 Same C extension versions, same compiler flags.
 
@@ -1232,8 +1232,8 @@ Functions and sampling profilers (py-spy) for long-running, CPU-intensive functi
 ### 8. Memory Profiler Reporting Leaks That Are Not Leaks
 
 Python's memory allocator (pymalloc) manages its own memory pool. When objects are freed, the memory
-Is returned to pymalloc's pool, not to the OS. This means that RSS may not decrease after objects
-Are freed. This is not a memory leak, it is the allocator retaining memory for future allocations.
+is returned to pymalloc's pool, not to the OS. This means that RSS may not decrease after objects
+are freed. This is not a memory leak, it is the allocator retaining memory for future allocations.
 To detect true memory leaks, use `tracemalloc` from the standard library, which tracks Python-level
 Allocations at the object level:
 
@@ -1272,7 +1272,7 @@ for item in items:
 ```
 
 In a loop processing 10 million items, the f-string version creates 10 million formatted strings
-That are immediately discarded (because the log level is likely INFO or above in production). The
+that are immediately discarded (because the log level is likely INFO or above in production). The
 `%s` version defers formatting to the logging framework, which only interpolates the string if the
 Message passes the log level filter. This is not a micro-optimization, it is the difference between
 A function that runs in 1 second and one that runs in 10 seconds.

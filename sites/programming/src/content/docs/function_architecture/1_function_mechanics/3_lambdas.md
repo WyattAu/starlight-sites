@@ -235,7 +235,7 @@ int main() {
 ### Why `mutable` Exists
 
 The default `const` qualifier on `operator()` is a safety feature. It ensures that value captures
-Are immutable by default, preventing accidental modification. The `mutable` keyword is an explicit
+are immutable by default, preventing accidental modification. The `mutable` keyword is an explicit
 Opt-in that signals "I intend to modify the captured state." This mirrors the philosophy of `const`
 Correctness throughout C++.
 
@@ -309,7 +309,7 @@ int main() {
 ### Generic Lambda with `auto&&` (Forwarding Reference)
 
 Using `auto&&` in a lambda parameter creates a forwarding reference, allowing the lambda to accept
-Both lvalues and rvalues without unnecessary copies:
+both lvalues and rvalues without unnecessary copies:
 
 ```cpp
 #include <iostream>
@@ -353,7 +353,7 @@ Pass custom comparators and predicates.
 ## 3.5 Stateful Lambdas and Lifetime Issues
 
 A lambda that captures by reference holds references to local variables. If the lambda outlives
-Those variables (e.g., by being returned or stored), the references become dangling, undefined
+those variables (e.g., by being returned or stored), the references become dangling, undefined
 Behavior.
 
 ```cpp
@@ -464,10 +464,10 @@ public:
 
 A lambda has a **unique, unnameable type**. Two lambdas with identical bodies have different types.
 This means lambdas cannot be stored in a heterogeneous container or returned as a specific type
-Without type erasure.
+without type erasure.
 
 `std::function<R(Args...)>` performs type erasure: it wraps any callable with a compatible signature
-Behind a uniform interface. The cost of this flexibility is:
+behind a uniform interface. The cost of this flexibility is:
 
 - **Indirection**: each invocation goes through a virtual dispatch or function pointer.
 - **Potential heap allocation**: large closures (exceeding the Small Buffer Optimization threshold)

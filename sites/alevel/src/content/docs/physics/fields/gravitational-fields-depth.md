@@ -328,7 +328,7 @@ r = \frac{a(1 - e^2)}{1 + e\cos\theta}
 $$
 
 Where $a$ is the semi-major axis and $e$ is the eccentricity. For $E \lt 0$ (bound orbit), $e \lt 1$
-And the orbit is an ellipse with the central mass at one focus. $\square$
+and the orbit is an ellipse with the central mass at one focus. $\square$
 
 ### Second Law: Law of Equal Areas
 
@@ -473,7 +473,7 @@ Virial theorem: $2E_k + E_p = 0$. $\square$
 <details>
 <summary>Problem 4</summary>
 Prove that the gravitational field inside a uniform solid sphere of radius $R$ at distance $r$ from
-The centre is $g = GMr/R^3$.
+the centre is $g = GMr/R^3$.
 
 **Answer.** By the shell theorem, only the mass within radius $r$ contributes. For uniform density
 $\rho = 3M/(4\pi R^3)$ The enclosed mass is $M_{\mathrm{enc}} = \rho \cdot 4\pi r^3/3 = Mr^3/R^3$.

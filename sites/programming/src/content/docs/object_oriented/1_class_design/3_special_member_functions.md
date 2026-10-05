@@ -23,7 +23,7 @@ categories:
 
 The compiler automatically generates special member functions (SMFs), destructor, copy/move
 Constructors, and copy/move assignment operators, according to well-defined rules. Understanding
-These rules is critical for writing classes that manage resources correctly.
+these rules is critical for writing classes that manage resources correctly.
 
 ## 3.1 The Rule of Five
 
@@ -63,7 +63,7 @@ Move generation.
 
 The `= default` specifier explicitly requests the compiler-generated default implementation [N4950
 §11.4.5.2]. It can appear inside the class body or out-of-line. When applied out-of-line, the SMF is
-Only generated if it is odr-used.
+only generated if it is odr-used.
 
 The `= delete` specifier explicitly suppresses the SMF [N4950 §11.4.5.2]. Any use of a deleted
 Function is ill-formed.
@@ -296,7 +296,7 @@ int main() {
 ## 3.7 The Rule of Zero
 
 The **Rule of Zero** states that classes that do not directly manage resources should not declare
-Any special member functions. Instead, they should compose resource-owning standard library types
+any special member functions. Instead, they should compose resource-owning standard library types
 (`std::string``std::vector``std::unique_ptr``std::shared_ptr`) which handle their own resource
 Management correctly [N4950 §11.4.5.3]:
 
@@ -360,7 +360,7 @@ Use the Rule of Zero whenever possible. Only fall back to the Rule of Five when:
 
 C++ guarantees that members are destroyed in **reverse order of construction**, and base classes are
 Destroyed after all members [N4950 §11.9.6]. This ordering is deterministic and does not depend on
-The order of member declarations in the destructor body:
+the order of member declarations in the destructor body:
 
 ```cpp
 #include <iostream>
@@ -439,7 +439,7 @@ int main() {
 ## 3.9 `= default` Out-of-Line: Lazy Generation
 
 When `= default` is used **out-of-line** (outside the class body), the SMF is only generated if it
-Is odr-used. This can reduce compile time and binary size for types with complex implicitly-
+is odr-used. This can reduce compile time and binary size for types with complex implicitly-
 Generated SMFs:
 
 ```cpp

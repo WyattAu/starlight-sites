@@ -57,7 +57,7 @@ std::memcpy(&i3, &f, sizeof(float));
 ### The C++20 Solution: `std::bit_cast`
 
 `std::bit_cast` is the only mechanism that allows reinterpreting bits between types of the same size
-That is safe, portable, and `constexpr` (computable at compile time).
+that is safe, portable, and `constexpr` (computable at compile time).
 
 ```cpp
 #include <bit>
@@ -110,9 +110,9 @@ struct NonTrivial \{
 
 When punning between types that have different internal padding, `std::bit_cast` preserves the
 Entire bit pattern including padding. This means that padding bits in the destination type are set
-To whatever bits occupy those positions in the source representation. Reading padding bits is
+to whatever bits occupy those positions in the source representation. Reading padding bits is
 Technically UB in C++ [N4950 §6.9], but `std::bit_cast` itself is well-defined because it operates
-On the object representation, not the value representation.
+on the object representation, not the value representation.
 
 ```cpp
 #include <bit>
@@ -333,7 +333,7 @@ constexpr uint32_t interpret_le(const uint8_t (&bytes)[4]) \{
 ```
 
 For portable deserialization, always use `std::byteswap` or explicit byte-level construction rather
-Than relying on `std::bit_cast` with raw byte arrays.
+than relying on `std::bit_cast` with raw byte arrays.
 
 ## 4. `std::bitset` vs. Integer Flags
 
@@ -548,7 +548,7 @@ int main() \{
 
 The core operation, setting and testing individual bits within a `uint64_t` array, relies on the
 Shift (`&lt;&lt;`) and bitwise AND (`&amp;`) operations. The modulo operation for index calculation
-Is optimized by the compiler into a bitmask when the table size is a power of two.
+is optimized by the compiler into a bitmask when the table size is a power of two.
 
 ## 7. `constexpr` Bit Manipulation Patterns
 

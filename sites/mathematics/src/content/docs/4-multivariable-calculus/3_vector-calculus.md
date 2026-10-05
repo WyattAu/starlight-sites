@@ -320,7 +320,7 @@ $$
 
 Where
 $\nabla \cdot \mathbf{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}$
-Is the divergence of $\mathbf{F}$.
+is the divergence of $\mathbf{F}$.
 
 _Proof (sketch for a Type I region)._ Assume $E$ is a Type I region:
 $E = \\{(x,y,z) : (x,y) \in D,\, g_1(x,y) \leq z \leq g_2(x,y)\\}$. The boundary consists of Bottom
@@ -518,7 +518,7 @@ The three major integral theorems of vector calculus are deeply connected:
 
 _Remark._ Green's theorem is the planar special case of Stokes' theorem. Stokes' theorem relates the
 Circulation around a curve to the curl through the surface it bounds. The divergence theorem relates
-The flux through a closed surface to the divergence inside the volume it encloses. Together, these
+the flux through a closed surface to the divergence inside the volume it encloses. Together, these
 Form the higher-dimensional analogues of the Fundamental Theorem of Calculus:
 
 $$

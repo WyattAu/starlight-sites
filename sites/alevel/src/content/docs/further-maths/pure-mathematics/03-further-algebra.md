@@ -87,7 +87,7 @@ Use the remainder theorem by evaluating at specified points.
 <summary>Worked Example: Finding unknown coefficients</summary>
 
 The polynomial $P(x) = x^3 + ax^2 + bx - 6$ is divisible by $(x - 1)$ and leaves remainder $-24$
-When divided by $(x + 3)$. Find $a$ and $b$.
+when divided by $(x + 3)$. Find $a$ and $b$.
 
 Since $(x - 1)$ is a factor: $P(1) = 1 + a + b - 6 = 0 \implies a + b = 5$ ... (i)
 
@@ -196,7 +196,7 @@ $$
 
 If $P(x) = ax^3 + bx^2 + cx + d = a(x - \alpha)(x - \beta)(x - \gamma)$ where $\alpha, \beta,
 \gamma$
-Are the roots, then:
+are the roots, then:
 
 $$
 \boxed{\alpha + \beta + \gamma = -\frac{b}{a}}
@@ -643,7 +643,7 @@ $p = -12$ and $q = 3S$ where $S$ requires more information about the roots.
 
 Use partial fractions:
 $\dfrac{1}{r(r+3)} = \dfrac{1}{3}\!\left(\dfrac{1}{r} - \dfrac{1}{r+3}\right)$. Three terms survive
-The telescoping.
+the telescoping.
 
 </details>
 
@@ -1193,7 +1193,7 @@ $x^3$ coefficient: $\dfrac{1}{3} \cdot 8 + \dfrac{2}{3}(-1) = \dfrac{8-2}{3} = \
 ### Question 15
 
 The roots of $x^3 + px + q = 0$ are $\alpha, \beta, \gamma$. Express $\alpha^3 + \beta^3 + \gamma^3$
-In terms of $p$ and $q$.
+in terms of $p$ and $q$.
 
 <details>
 <summary>Solution</summary>
@@ -1256,7 +1256,7 @@ Examples:
 $\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}$ (Pascal's identity).
 
 This is the basis of Pascal's triangle and is proved combinatorially: choosing $k$ objects from $n$
-Either includes or excludes a specific object.
+either includes or excludes a specific object.
 
 ---
 

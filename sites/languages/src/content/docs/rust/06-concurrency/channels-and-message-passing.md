@@ -268,7 +268,7 @@ assert_eq!(rx.recv().await.unwrap(), 3);
 ## Watch Channels
 
 Watch channels broadcast the latest value to all receivers. Unlike broadcast, watch retains only the
-Most recent value, there is no message queue:
+most recent value, there is no message queue:
 
 ```rust
 use tokio::sync::watch;
@@ -577,7 +577,7 @@ match rx.try_recv() {
 
 Bounded channels with larger buffers generally have higher throughput because senders block less
 Often. However, larger buffers increase memory usage and latency (messages sit in the buffer longer
-Before being processed).
+before being processed).
 
 ```rust
 // High-throughput scenario, large buffer
